@@ -1,0 +1,38 @@
+# The public documentation URL, used for sitemap.xml
+url: "http://docs.telerik.com/devtools/ajax"
+site_name: AJAX
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock]
+
+## The application virtual path
+host: "localhost"
+port: "8080"
+baseurl: "/aspnet-ajax"
+
+navigation:
+## List your directory names and order here, like this:
+          
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "page"
+        category: "default"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# The google services configuration
+google_analytics: UA-1119090:eblhnfskwrk'
+google_tag_manager: GTM-6X92
+google_custom_search: '001595215763381649090:eblhnfskwrk'
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
