@@ -553,6 +553,50 @@ h3 em {
     font-weight: bold;
 }
 
+/* Prototype AJAX alerts */
+
+div.alert{
+    color: #555;
+    padding: 10px 10px 10px 64px;
+    background: #d9f0f7 url(../images/note-icon.png) no-repeat 15px center;
+    margin: 5px 0;
+	min-height: 40px;
+}
+
+div.alert span.label{
+	text-transform: capitalize;
+}
+
+div.alert blockquote{
+	/* These resets will be needed if the blockquotes are initially decorated */
+	background: none;
+	padding: 0;
+	margin: 0;
+	min-height: 0px;
+}
+
+div.note{
+	background: #f8eee3 url(../images/important-icon.png) no-repeat 15px center;
+}
+
+div.important {
+	background: #f8eee3 url(../images/important-icon.png) no-repeat 15px center;
+}
+
+div.caution {
+	background: #eddee1 url(../images/caution-icon.png) no-repeat 15px center;
+}
+
+div.tip {
+	background: #def4e4 url(../images/tip-icon.png) no-repeat 15px center;
+}
+
+div.warning {
+	background: #def4e4 url(../images/tip-icon.png) no-repeat 15px center;
+}
+
+/*  */
+
 blockquote,
 blockquote.note  {
     color: #555;
