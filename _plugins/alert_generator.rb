@@ -1,5 +1,5 @@
 module Reading
-  class Generator < Jekyll::Generator
+  class AlertGenerator < Jekyll::Generator
     def generate(site)	
 		@site = site
 	    @converter = site.getConverterImpl(Jekyll::Converters::Markdown)	
