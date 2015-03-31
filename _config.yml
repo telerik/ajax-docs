@@ -5,8 +5,6 @@ site_name: AJAX
 exclude: [README.md,Gemfile,Gemfile.lock]
 
 ## The application virtual path
-host: "localhost"
-port: "8080"
 baseurl: "/aspnet-ajax"
 
 navigation:
@@ -20,6 +18,7 @@ defaults:
     values:
         layout: "page"
         category: "default"
+        product: "aspnet-ajax"
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
@@ -28,6 +27,11 @@ defaults:
 google_analytics: UA-1119090:eblhnfskwrk'
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:eblhnfskwrk'
+
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
 
 ## Do not edit below this line
 safe: false
