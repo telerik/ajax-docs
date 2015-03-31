@@ -14,17 +14,17 @@ function expandNavigation(url) {
         }
 
         node.set("selected", true);
-        
-        var navigationElement = $("#page-nav");		
-		navigationElement.scrollTop(0);
-		var selectedNodeTopOffset = this.findByUid(node.uid).offset().top;
-		var scrollOffset = localStorage.getItem('ScrollOffset');		
-		if(scrollOffset != null){			
-			navigationElement.scrollTop(selectedNodeTopOffset- parseInt(scrollOffset));
-		}
-		else{
-			navigationElement.scrollTop(selectedNodeTopOffset - navigationElement.height()/2);
-		}
+
+        var navigationElement = $("#page-nav");
+        navigationElement.scrollTop(0);
+        var selectedNodeTopOffset = this.findByUid(node.uid).offset().top;
+        var scrollOffset = localStorage.getItem('ScrollOffset');
+        if(scrollOffset != null){
+            navigationElement.scrollTop(selectedNodeTopOffset- parseInt(scrollOffset));
+        }
+        else{
+            navigationElement.scrollTop(selectedNodeTopOffset - navigationElement.height()/2);
+        }
 
         this.unbind("dataBound", arguments.callee);
     }
@@ -57,34 +57,52 @@ function navigationTemplate(root) {
 function preventParentSelection(e) {
     if (this.dataItem(e.node).hasChildren) {
         e.preventDefault();
-        this.toggle(e.node);		
+        this.toggle(e.node);
     }
-    
+
     var offset = $(e.node).offset().top;
     localStorage.setItem('ScrollOffset',offset);
 }
 
 function onExpand(e) {
-	var item = this.dataItem(e.node);
-	
-	if(!item.hasChildren)
-	{
-		var elementTop = $(e.node).offset().top;
-		var treeScrollTop = $("#page-nav").scrollTop();
+    var item = this.dataItem(e.node);
 
-		var treeTop = $("#page-nav").offset().top;
-		
-		console.log("elementTop " + elementTop);
-		console.log("treeScrollTop " + treeScrollTop);
-		console.log("treeTop " + treeTop);
-		
-		$("#page-nav").animate({
-			scrollTop: ((treeScrollTop + elementTop) - treeTop) / 2
-		});
-	}
+    if(!item.hasChildren) {
+        var elementTop = $(e.node).offset().top;
+        var treeScrollTop = $("#page-nav").scrollTop();
+        var treeTop = $("#page-nav").offset().top;
+
+        $("#page-nav").animate({
+            scrollTop: ((treeScrollTop + elementTop) - treeTop) / 2
+        });
+    }
 }
 
-$(function(){
+$(function() {
+    $("div.tabbedCode").each(function() {
+        var container = $(this);
+        var langs = container.find("pre");
+        var tabs = $.map(langs, function(item) {
+            return $("<li>").text($(item).attr("lang"));
+        });
+
+        if (tabs.length < 2) {
+            return;
+        }
+
+        tabs[0].addClass("k-state-active");
+
+        var tabstrip = $("<div>")
+                        .append($("<ul>").append(tabs))
+                        .append(langs);
+
+        container.replaceWith(tabstrip);
+
+        langs.wrap("<div>");
+
+        tabstrip.kendoTabStrip({ animation: false });
+    });
+
     $("pre").addClass("prettyprint");
 
     prettyPrint();
@@ -93,7 +111,7 @@ $(function(){
         .on("click", "a", function() {
             $(".section > ul").hide();
         })
-    .each(function() {
+        .each(function() {
         var ul = $("<ul>");
 
         $("#page-article h2").each(function() {
