@@ -19,17 +19,16 @@ function expandNavigation(url) {
         navigationElement.scrollTop(0);
         var selectedNodeTopOffset = this.findByUid(node.uid).offset().top;
         var scrollOffset = localStorage.getItem('ScrollOffset');
-        if(scrollOffset != null){
-            navigationElement.scrollTop(selectedNodeTopOffset- parseInt(scrollOffset));
+        if (scrollOffset != null) {
+            navigationElement.scrollTop(selectedNodeTopOffset - parseInt(scrollOffset));
         }
-        else{
-            navigationElement.scrollTop(selectedNodeTopOffset - navigationElement.height()/2);
+        else {
+            navigationElement.scrollTop(selectedNodeTopOffset - navigationElement.height() / 2);
         }
 
         this.unbind("dataBound", arguments.callee);
     }
 }
-
 
 function navigationTemplate(root) {
     return function(data) {
@@ -61,13 +60,13 @@ function preventParentSelection(e) {
     }
 
     var offset = $(e.node).offset().top;
-    localStorage.setItem('ScrollOffset',offset);
+    localStorage.setItem('ScrollOffset', offset);
 }
 
 function onExpand(e) {
     var item = this.dataItem(e.node);
 
-    if(!item.hasChildren) {
+    if (!item.hasChildren) {
         var elementTop = $(e.node).offset().top;
         var treeScrollTop = $("#page-nav").scrollTop();
         var treeTop = $("#page-nav").offset().top;
@@ -103,7 +102,19 @@ $(function() {
         tabstrip.kendoTabStrip({ animation: false });
     });
 
-    $("pre").addClass("prettyprint");
+    var codeSampleMapper = {
+        'C#': 'cs',
+        'VB.NET': 'vb',
+        'JavaScript': 'js',
+        'ASPNET': 'html',
+        'XML': 'xml',
+        'TypeScript': 'commonjs',
+    }
+
+    $("pre").each(function(index) {
+        var langExtension = codeSampleMapper[$(this).attr('lang')];
+        $(this).addClass('lang-' + langExtension).addClass("prettyprint");
+    });
 
     prettyPrint();
 
@@ -112,46 +123,46 @@ $(function() {
             $(".section > ul").hide();
         })
         .each(function() {
-        var ul = $("<ul>");
+            var ul = $("<ul>");
 
-        $("#page-article h2").each(function() {
-            var h2 = $(this);
+            $("#page-article h2").each(function() {
+                var h2 = $(this);
 
-            if (!/fields|configuration|properties|events|methods/i.test(h2.text())) {
-                return;
-            }
+                if (!/fields|configuration|properties|events|methods/i.test(h2.text())) {
+                    return;
+                }
 
-            $("<li>")
-                .addClass("section")
-                .append(h2.children().clone())
-                .appendTo(ul)
-                .mouseenter(function() {
-                    var children = $(this).children("ul");
+                $("<li>")
+                    .addClass("section")
+                    .append(h2.children().clone())
+                    .appendTo(ul)
+                    .mouseenter(function() {
+                        var children = $(this).children("ul");
 
-                    if (!children.length) {
-                        children = $("<ul>");
+                        if (!children.length) {
+                            children = $("<ul>");
 
-                        h2.nextUntil("h2").filter("h3").each(function(){
-                            $("<li>").append($(this).children().clone()).appendTo(children);
-                        });
+                            h2.nextUntil("h2").filter("h3").each(function() {
+                                $("<li>").append($(this).children().clone()).appendTo(children);
+                            });
 
-                        if (children.children().length) {
-                            children.appendTo(this);
+                            if (children.children().length) {
+                                children.appendTo(this);
+                            }
                         }
-                    }
 
-                    children.show();
-                })
-                .mouseleave(function() {
-                    $(this).children("ul").hide();
-                });
+                        children.show();
+                    })
+                    .mouseleave(function() {
+                        $(this).children("ul").hide();
+                    });
+            });
+
+            ul.appendTo(this);
         });
-
-        ul.appendTo(this);
-    });
 });
 
-$(function(){
+$(function() {
     $(".toggle-nav").click(function() {
         $("#page-search").removeClass("search-visibility");
         $("#page-inner-content").removeClass("move-inner-content");
@@ -159,7 +170,7 @@ $(function(){
     });
 });
 
-$(function(){
+$(function() {
     $(".show-search").click(function() {
         $("#page-nav").removeClass("nav-visibility");
         $("#page-search").toggleClass("search-visibility");
@@ -167,6 +178,6 @@ $(function(){
     });
 });
 
-$(function(){
+$(function() {
     $('#toYear').text((new Date).getFullYear());
 });
