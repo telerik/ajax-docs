@@ -9,11 +9,22 @@ module Reading
 		end
 	
 		def createTabbedCode(content)
-			sub_string = content.scan(/(>tabbedCode)([\w\W\n][^>]*)(>end)/)
-			
-			sub_string.each do |s|
-				block ="<div class='tabbedCode'>" +  @converter.convert(s[1]) + "</div>"
-				content.sub!(s[0] + s[1] + s[2], block)
+			tab_start = ">tabbedCode"
+			tab_end = ">end"
+
+			start_length = tab_start.length
+			end_length = tab_end.length
+
+			first_index = content.index(tab_start)
+			last_index = content.index(tab_end)
+
+			while content.index(tab_start)
+				block = @converter.convert(content[first_index+start_length..last_index-1]) 
+
+				content[first_index..last_index+end_length] = "<div class='tabbedCode'>" + block + "</div>"
+
+				first_index = content.index(tab_start)
+				last_index = content.index(tab_end)
 			end
 		end
 	end
