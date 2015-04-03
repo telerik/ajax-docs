@@ -1,0 +1,87 @@
+---
+title: Accessing Client Changes at the Server
+page_title: Accessing Client Changes at the Server | UI for ASP.NET AJAX Documentation
+description: Accessing Client Changes at the Server
+slug: menu/client-side-programming/accessing-client-changes-at-the-server
+tags: accessing,client,changes,at,the,server
+published: True
+position: 1
+---
+
+# Accessing Client Changes at the Server
+
+
+
+Client side changes are available on the server side after postback. You can use the __ClientChanges__ property of RadMenu to access them. The ClientChanges property of RadMenu returns a collection of objects of type __ClientOperation__.An operation has the following properties:
+
+* __Item__ - the item which has been affected by the client operation;
+
+* __Type__ - the type of the operation which is one of the following four cases:
+
+* __Update__ - when a property is set on the the client through methods such as __set_text__(), __set_value__(), __enable__(), __disable__(), etc.: menuItem.disable();
+
+* __Remove__ - when the __remove__ client method is called: menu.get_items().remove(menuItem);
+
+* __Insert__ - when the __add__client method is called: menu.get_items().add(menuItem);
+
+* __Clear__ - when an item with child items calls the __clear__() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
+
+
+
+>note Note that you need to call the __trackChanges__ () and __commitChanges__ () client methods of RadMenu in order to be able to access the changes on the server via the __ClientChanges__ property.
+>
+
+
+## Example:
+
+The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the __Item__ and __Type__ properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
+
+
+
+>tabbedCode
+
+````C#
+	     
+	foreach (ClientOperation<RadMenuItem> operation in RadMenu1.ClientChanges)
+	{ 
+	    RadMenuItem item = operation.Item;
+	    switch (operation.Type) 
+	    {  
+	        case ClientOperationType.Insert:
+	            break;  
+	        case ClientOperationType.Remove:
+	            break;  
+	        case ClientOperationType.Update:   
+	            UpdateClientOperation<RadMenuItem> update = operation as UpdateClientOperation<RadMenuItem>;   
+	            break;  
+	        case ClientOperationType.Clear:   
+	            break; 
+	    } 
+	}		
+````
+
+
+
+````VB.NET
+	For Each operation As ClientOperation(Of RadMenuItem) In RadMenu1.ClientChanges
+	    Dim item As RadMenuItem = operation.Item
+	    Select Case operation.Type
+	        Case ClientOperationType.Insert
+	            Exit Select
+	        Case ClientOperationType.Remove
+	            Exit Select
+	        Case ClientOperationType.Update
+	    Dim update As UpdateClientOperation(Of RadMenuItem) = TryCast(operation, UpdateClientOperation(Of RadMenuItem))
+	           Exit Select
+	        Case ClientOperationType.Clear
+	            Exit Select
+	    End Select
+	Next 
+````
+
+
+>end
+
+# See Also
+
+ * [RadMenu and RadContextMenu Objects]({%slug menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects%})
