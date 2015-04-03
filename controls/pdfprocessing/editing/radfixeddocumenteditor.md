@@ -1,0 +1,238 @@
+---
+title: RadFixedDocumentEditor
+page_title: RadFixedDocumentEditor | UI for ASP.NET AJAX Documentation
+description: RadFixedDocumentEditor
+slug: pdfprocessing/editing/radfixeddocumenteditor
+tags: radfixeddocumenteditor
+published: True
+position: 6
+---
+
+# RadFixedDocumentEditor
+
+
+
+__RadFixedDocumentEditor__ is a utility class aiming to allow the creation of [](f690fd5c-a977-4509-90d9-ed8d3ab84c92) in a flow-like manner. The editor provides methods that enable the generation of documents which automatically flows to pages.
+
+>caution Although RadFixedDocumentEditor and this article operate with classes and concepts for Section, Block, Inline, these classes are different from the ones used in genuine flow editing libraries. RadFixedDocumentEditor ultimately creates a fixed document. If you are trying to create a flow document, try out our[RadWordsProcessing library](d17653ff-fe96-41c5-8739-01671fb45fba)instead.
+>
+
+
+* [Creating RadFixedDocumentEditor](#creating-radfixeddocumenteditor)
+
+* [Sections](#sections)
+
+* [Paragraphs](#paragraphs)
+
+* [Inlines](#inlines)
+
+* [Tables](#tables)
+
+* [Block Elements](#block-elements)
+
+* [Lists](#lists)
+
+## Creating RadFixedDocumentEditor
+
+__Example 1__ demonstrates how a RadFixedDocumentEditor instance can be created.
+
+````C#
+	            RadFixedDocumentEditor editor = new RadFixedDocumentEditor(radFixedDocument);
+````
+
+
+
+>note  __RadFixedDocumentEditor__ inherits from __IDisposable__ so it should be properly disposed when the document is created. Otherwise, some of the content may not be finished, i.e. it might not appear on the PDF document.
+>
+
+
+## Sections
+
+__Section__ is a sequence of [RadFixedPages](c26b1511-7f04-4793-8997-ed882ef015bf) with the same properties.
+
+### SectionProperties
+
+The section properties are responsible for the page size, margins and orientation of __RadFixedPages__ in a section. Below is the complete list of section properties.
+
+* __PageSize__: The size of the pages that are part of the section.
+
+* __PageMargins__: The page margins of a page.
+
+* __PageRotation__: The page rotation. This is enum that can take one of the following values.
+
+* __Rotate0__: The page is not rotated. This is the default value.
+
+* __Rotate90__: The page is rotated to 90°.
+
+* __Rotate180__: The page is rotated to 180°.
+
+* __Rotate270__: The page is rotated to 270°.
+
+### Starting New Section
+
+The first section in a document starts as soon as a content is inserted to the editor. You can change the Section properties before inserting any content and they will be applied to the section that is automatically created.
+
+Adding an additional section is achieved with the __InsertSectionBreak()__ method as demonstrated in __Example 2__.
+
+````C#
+	            editor.InsertSectionBreak();
+````
+
+
+
+If you want to change the properties of the next section, make sure to do it __before__ you insert the section break. New properties are only used for newly created sections.
+
+## Paragraphs
+
+__Paragraphs__ are blocks of flowing inlines - images and text.
+
+### ParagraphProperties
+
+Similar to the section properties, paragraph has its own properties that are responsible for the way it looks.
+
+* __SpacingBefore__: Represent the spacing before.
+
+* __SpacingAfter__: Represents the spacing after.
+
+* __LineSpacing__: The spacing between the lines.
+
+* __LineSpacingType__: Specifies how to interpret the line spacing.
+
+* __FirstLineIndent__: The indent for the first line.
+
+* __LeftIndent__: The left indent.
+
+* __RightIndent__: The right indent.
+
+* __BackgroundColor__: The background color.
+
+* __HorizontalAlignment__: The horizontal alignment of the content.
+
+* __ListId__: The id of the list the paragraph belongs to. If null, then the paragraph belongs to no list.
+
+* __ListLevel__: The list level the paragraph belongs to.
+
+### Starting New Paragraph
+
+The first paragraph is created as soon as content is inserted in the editor. You can change paragraph properties before inserting content and when the first paragraph is created automatically, it will use the desired properties.
+
+In order to start a new paragraph use the code in __Example 4__.
+
+````C#
+	            editor.InsertPageBreak();
+````
+
+
+
+### Inlines
+
+A Paragraph is built of two types of inlines - runs and images.
+
+### Runs
+
+__Run__ represents a collection of characters that have the same properties.
+
+__CharacterProperties__
+
+The character properties that are responsible for the look of the runs are listed below.
+
+* __FontSize__: The font size.
+
+* __Font__: The font.
+
+* __ForegroundColor__: The foreground color.
+
+* __HighlightColor__: The highlight color.
+
+* __BaselineAlignment__: Describes how the baseline for a text-based element is positioned on the vertical axis, relative to the established baseline for text.
+
+* __Baseline__: A baseline that is aligned at the actual baseline of the containing box.
+
+* __Subscript__: A baseline that is aligned at the subscript position of the containing box.
+
+* __Superscript__: A baseline that is aligned at the superscript position of the containing box.
+
+* __UnderlinePattern__: Тhe underline pattern. Two patterns are supported.
+
+* __None__: There is no underline. This is the default value.
+
+* __Single__: The underline is a single line.
+
+* __UnderlineColor__: The color of the underline.
+
+### Inserting a Run
+
+There are a number of overloads that insert a run. The code snippet in __Example 5__ inserts a a couple of new runs with specific font family, style and weight.
+
+````C#
+	            editor.InsertRun("text");
+	            editor.InsertRun(fontFamily, "text");
+````
+
+
+
+There are a number of overloads that insert a run. The code snippet in __Example 5__ inserts a a couple of new runs, one of which with a specific font family.
+
+The code in __Example 6__ inserts a new run and a line break after it.
+
+````C#
+	            editor.InsertLine("Line of text");
+````
+
+
+
+### Images
+
+Image inline is a combination of an [](9e5ec9ec-879f-48a0-9e32-b21d42394a39) object and its desired size.
+
+### Inserting an Image
+
+You can insert image inline using one of the following methods:
+
+````C#
+	            editor.InsertImageInline(imageSource); 
+	            editor.InsertImageInline(imageSource, size);
+````
+
+
+
+## Tables
+
+The __Table__ class implements the __IBlockElement__ interface and an instance of this class can be easily inserted as a new block in the document. You could insert the table using the __InsertTable()__ method like illustrated in __Example 8__. __RadFixedDocumentEditor__ takes care for positioning, measuring and splitting the table onto pages.
+
+````C#
+	            editor.InsertTable(table);
+````
+
+
+
+For more detailed information on tables follow this link to [Table]({%slug pdfprocessing/editing/table%}) documentation article.
+
+## Block Elements
+
+The [IBlockElement](http://docs.telerik.com/devtools/wpf/api/html/t_telerik_windows_documents_fixed_model_editing_flow_iblockelement.htm)interface allows you to easily draw and split some block content onto pages. The interface is implemented by	[Block]({%slug pdfprocessing/editing/block%}) and [Table]({%slug pdfprocessing/editing/table%}) classes.	You can easily add some block element instance with RadFixedDocumentEditor using InsertBlock() method like illustrated in Example 9.
+
+````C#
+	            editor.InsertBlock(blockElement);
+````
+
+
+
+## Lists
+
+You can easily insert list items with __RadFixedDocumentEditor__. The first thing you have to do is add a __List__ ineditor’s __ListCollection__ by using the __Lists__ property. Then each time you want to add list item you have to set theappropriate __ListId__ and __ListLevel__ property values through __RadFixedDocumentEditor__’s__ParagraphProperties__. Inserting a new paragraph will result in adding a new list item. The following code snippet shows how to add newlist to __RadFixedDocumentEditor’s ListCollection__ and after that insert a paragraph with the corresponding list properties:
+
+````C#
+	            List list = editor.Lists.AddList(ListTemplateType.NumberedDefault); 
+	            editor.ParagraphProperties.ListId = list.Id; 
+	            editor.ParagraphProperties.ListLevel = 0; 
+	            editor.InsertParagraph();
+````
+
+
+
+For more information about lists you can follow this link to [List documentation article]({%slug pdfprocessing/editing/list%}).
+
+# See Also[](f690fd5c-a977-4509-90d9-ed8d3ab84c92)[](c26b1511-7f04-4793-8997-ed882ef015bf)[](9e5ec9ec-879f-48a0-9e32-b21d42394a39)
+
+ * [Table]({%slug pdfprocessing/editing/table%})
