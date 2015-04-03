@@ -1,0 +1,69 @@
+---
+title: Events Overview
+page_title: Overview | UI for ASP.NET AJAX Documentation
+description: Overview
+slug: notification/client-side-programming/events/overview
+tags: overview
+published: True
+position: 0
+---
+
+# Events Overview
+
+
+
+## 
+
+__RadNotification__provides the following client-side events:
+
+* [OnClientShowing]({%slug notification/client-side-programming/events/onclientshowing%}) - fires just before RadNotification is shown. It can be canceled.
+
+* [OnClientShown]({%slug notification/client-side-programming/events/onclientshown%}) - fires after RadNotification is shown.
+
+* [OnClientUpdating]({%slug notification/client-side-programming/events/onclientupdating%}) - fires just before RadNotification content is updated. It can be canceled.
+
+* [OnClientUpdated]({%slug notification/client-side-programming/events/onclientupdated%}) - fires after RadNotification content is updated.
+
+* [OnClientUpdateError]({%slug notification/client-side-programming/events/onclientupdateerror%}) - fires if an error was thrown when RadNotification content is updated. An error alert which can be canceled is displayed.
+
+* [OnClientHiding]({%slug notification/client-side-programming/events/onclienthiding%}) - fires just before RadNotification hides.
+
+* [OnClientHidden]({%slug notification/client-side-programming/events/onclienthidden%}) - fires after RadNotification hides.
+
+If a __Notification Menu__ is configured, it has its own client events as specified in the [Client-Side Events article of RadContextMenu](21D51CC0-CAA4-4E0C-94C9-0394AB29E9ED).
+
+To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
+
+````ASPNET
+	    <telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+	        Position="BottomRight" Width="250px" Height="100px"
+	        OnClientShowing="OnClientShowing" Text="Sample notification text">
+	    </telerik:RadNotification>
+	    
+	    <script type="text/javascript">
+	        function OnClientShowing(sender, eventArgs)
+	        {
+	            alert("OnClientShowing event fired by RadNotification with id: " + sender.get_id());
+	        }
+	    </script>
+````
+
+
+
+You can also modify the event handlers dynamically via JavaScript. For more information see the [Setting Event Handlers via JavaScript]({%slug notification/client-side-programming/events/set-event-handlers-via-javascript%}) article.
+
+# See Also
+
+ * [OnClientShowing]({%slug notification/client-side-programming/events/onclientshowing%})
+
+ * [OnClientShown]({%slug notification/client-side-programming/events/onclientshown%})
+
+ * [OnClientUpdating]({%slug notification/client-side-programming/events/onclientupdating%})
+
+ * [OnClientUpdated]({%slug notification/client-side-programming/events/onclientupdated%})
+
+ * [OnClientUpdateError]({%slug notification/client-side-programming/events/onclientupdateerror%})
+
+ * [OnClientHiding]({%slug notification/client-side-programming/events/onclienthiding%})
+
+ * [OnClientHidden]({%slug notification/client-side-programming/events/onclienthidden%})
