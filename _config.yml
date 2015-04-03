@@ -9,30 +9,136 @@ baseurl: "/aspnet-ajax"
 
 navigation:
 
-## List your root directory names and order here, like this:
+## List common directory names and order here, like this:
     "licensing":
         title: "Licensing"
-        position: 3
+        position: 2
     "installation":
         title: "Installation"
+        position: 3  
+    "installation/upgrading-instructions":
+        title: "Upgrading Instructions"
+        position: 3 
+    "general-information":
+        title: "General Information"
         position: 4  
+    "general-information/integration-with-visual-studio":
+        title: "Integration with Visual Studio"
+        position: 3
+    "general-information/integration-with-visual-studio/typescript-definitions":
+        title: "TypeScript Definitions"
+        position: 2
+    "general-information/integration-with-visual-studio/visual-studio-extensions":
+        title: "Visual Studio Extensions"
+        position: 3
+    "general-information/controlling-visual-appearance":
+        title: "Controlling Visual Appearance"
+        position: 4
+    "general-information/using-jquery":
+        title: "Using jQuery"
+        position: 5
+    "general-information/performance":
+        title: "Performance"
+        position: 6   
+    "general-information/troubleshooting":
+        title: "Troubleshooting"
+        position: 8
+    "mobile-support":
+        title: "Mobile Support"
+        position: 5  
+    "mobile-support/helper-tools":
+        title: "Helper Tools"      
     "deployment":
         title: "Deployment"
-        position: 5
+        position: 7
     "controls":
         title: "Controls"
-        position: 8
+        position: 7
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
-        position: 9        
+        position: 8        
     "mvc":
         title: "Integration with ASPNET MVC"
-        position: 10
+        position: 9
     "moss":
         title: "Integration with SharePoint"
-        position: 11
+        position: 10
+    "moss/sharepoint-2007-(moss)":
+        title: "SharePoint 2007 (MOSS)"
+        position: 0
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss":
+        title: "RadEditor for MOSS"
+        position: 8
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment":
+        title: "Installation and deployment"
+        position: 2
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade":
+        title: "Migration and upgrade"
+        position: 3
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration":
+        title: "Configuration"
+        position: 4
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns":
+        title: "DropDowns"
+        position: 5
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs":
+        title: "Dialogs"
+        position: 6
+    "moss/sharepoint-2007-(moss)/radeditor-for-moss/customization":
+        title: "Customization"
+        position: 7
+    "moss/sharepoint-2010":
+        title: "SharePoint 2010"
+        position: 1
+    "moss/sharepoint-2010/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "moss/sharepoint-2010/radeditor-web-part":
+        title: "RadEditor Web Part"
+        position: 1
+    "moss/sharepoint-2010/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
+    "moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade":
+        title: "Migration and upgrade"
+        position: 3
+    "moss/sharepoint-2010/radeditor-web-part/configuration":
+        title: "Configuration"
+        position: 4
+    "moss/sharepoint-2010/radeditor-web-part/dropdowns":
+        title: "DropDowns"
+        position: 5
+    "moss/sharepoint-2010/radeditor-web-part/dialogs":
+        title: "Dialogs"
+        position: 6
+    "moss/sharepoint-2010/radeditor-web-part/customization":
+        title: "Customization"
+        position: 7
+    "moss/sharepoint-2010/radgrid-web-part":
+        title: "RadGrid Web Part"
+        position: 2
+    "moss/sharepoint-2010/radlistview-web-part":
+        title: "RadListView Web Part"
+        position: 3
+    "moss/sharepoint-2010/radscheduler-web-part":
+        title: "RadScheduler Web Part"
+        position: 4
+    "moss/sharepoint-2013":
+        title: "SharePoint 2013"
+        position: 2
+    "moss/sharepoint-2013/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 0
+    "moss/sharepoint-2013/radeditor-web-part":
+        title: "RadEditor Web Part"
+        position: 1
+    "moss/sharepoint-2013/radeditor-web-part/installation-and-deployment":
+        title: "Installation and Deployment"
+        position: 2
     "testing-with-test-studio":
         title: "Testing with Test Studio"
+        
+## List control directory names and order here, like this:       
     "*ajax":
         title: "RadAjax"
     "*asyncupload":
@@ -182,127 +288,7 @@ navigation:
     "*ziplibrary":
         title: "RadZipLibrary"
 
-## List Control directory names and order here, like this:
-    "*introduction/licensing":
-        title: "Licensing"
-        position: 2
-    "*introduction/installation":
-        title: "Installation"
-        position: 3
-    "*introduction/installation/upgrading-instructions":
-        title: "Upgrading Instructions"
-        position: 5
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals":
-        title: "RadControls for ASP.NET AJAX Fundamentals"
-        position: 4
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio":
-        title: "Integration with Visual Studio"
-        position: 3
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/typescript-definitions":
-        title: "TypeScript Definitions"
-        position: 2
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions":
-        title: "Visual Studio Extensions"
-        position: 3
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance":
-        title: "Controlling Visual Appearance"
-        position: 4
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/using-jquery":
-        title: "Using jQuery"
-        position: 5
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/performance":
-        title: "Performance"
-        position: 6
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support":
-        title: "Mobile Support"
-        position: 7
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/mobile-support/helper-tools":
-        title: "Helper Tools"
-        position: 6
-    "*introduction/radcontrols-for-asp.net-ajax-fundamentals/troubleshooting":
-        title: "Troubleshooting"
-        position: 8
-    "*introduction/deployment":
-        title: "Deployment"
-        position: 5
-    "*introduction/visual-stylebuilder":
-        title: "Visual StyleBuilder"
-        position: 6
-    "*introduction/testing-with-test-studio":
-        title: "Testing with Test Studio"
-        position: 7
-    "*moss/sharepoint-2007-(moss)":
-        title: "SharePoint 2007 (MOSS)"
-        position: 0
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss":
-        title: "RadEditor for MOSS"
-        position: 8
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment":
-        title: "Installation and deployment"
-        position: 2
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade":
-        title: "Migration and upgrade"
-        position: 3
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration":
-        title: "Configuration"
-        position: 4
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns":
-        title: "DropDowns"
-        position: 5
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs":
-        title: "Dialogs"
-        position: 6
-    "*moss/sharepoint-2007-(moss)/radeditor-for-moss/customization":
-        title: "Customization"
-        position: 7
-    "*moss/sharepoint-2010":
-        title: "SharePoint 2010"
-        position: 1
-    "*moss/sharepoint-2010/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "*moss/sharepoint-2010/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "*moss/sharepoint-2010/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
-    "*moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade":
-        title: "Migration and upgrade"
-        position: 3
-    "*moss/sharepoint-2010/radeditor-web-part/configuration":
-        title: "Configuration"
-        position: 4
-    "*moss/sharepoint-2010/radeditor-web-part/dropdowns":
-        title: "DropDowns"
-        position: 5
-    "*moss/sharepoint-2010/radeditor-web-part/dialogs":
-        title: "Dialogs"
-        position: 6
-    "*moss/sharepoint-2010/radeditor-web-part/customization":
-        title: "Customization"
-        position: 7
-    "*moss/sharepoint-2010/radgrid-web-part":
-        title: "RadGrid Web Part"
-        position: 2
-    "*moss/sharepoint-2010/radlistview-web-part":
-        title: "RadListView Web Part"
-        position: 3
-    "*moss/sharepoint-2010/radscheduler-web-part":
-        title: "RadScheduler Web Part"
-        position: 4
-    "*moss/sharepoint-2013":
-        title: "SharePoint 2013"
-        position: 2
-    "*moss/sharepoint-2013/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 0
-    "*moss/sharepoint-2013/radeditor-web-part":
-        title: "RadEditor Web Part"
-        position: 1
-    "*moss/sharepoint-2013/radeditor-web-part/installation-and-deployment":
-        title: "Installation and Deployment"
-        position: 2
+## List control specific directory names and order here, like this:    
     "*ajax/getting-started":
         title: "Getting Started"
         position: 2
@@ -2809,7 +2795,7 @@ google_custom_search: '001595215763381649090:eblhnfskwrk'
 # Assets pipeline configuration
 assets:
     cachebust: soft
-    js_compressor: uglifier
+#    js_compressor: uglifier
 
 ## Do not edit below this line
 safe: false
