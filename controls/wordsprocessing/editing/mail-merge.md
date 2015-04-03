@@ -1,0 +1,83 @@
+---
+title: Mail Merge
+page_title: Mail Merge | UI for ASP.NET AJAX Documentation
+description: Mail Merge
+slug: wordsprocessing/editing/mail-merge
+tags: mail,merge
+published: True
+position: 2
+---
+
+# Mail Merge
+
+
+
+[Mail merge](http://en.wikipedia.org/wiki/Mail_merge) is functionality allowing to produce personalized documents from a template holding fixed content and variables. The variables are called [Merge Fields]({%slug wordsprocessing/concepts/fields/merge-field%}) and are replaced through the merge process with content from a specified data source.
+
+## Inserting Merge Fields
+
+Merge fields are a type of [Fields]({%slug wordsprocessing/concepts/fields/fields%}) and can be added in a template document via [RadFlowDocumentEditor]({%slug wordsprocessing/editing/radflowdocumenteditor%})'s __InsertFIeld()__ method. The method requires the code representation of the field and the result which is shown in the template before the document is mail-merged.
+
+The code snippet in __Example 1__ shows how to initialize a RadFlodDocumentEditor instance and insert a merge field.
+
+````C#
+	            RadFlowDocument document = new RadFlowDocument();
+	            RadFlowDocumentEditor editor = new RadFlowDocumentEditor(document);
+	            editor.InsertField("MERGEFIELD FirstName", "");
+````
+
+
+
+Additionally, a field can be added to a Paragraph manually by creating a __FieldInfo__ instance and placing its start, code, separator, result and end in the block. __Example 2__ shows the manual approach for adding a merge field.
+
+````C#
+	            FieldInfo field = new FieldInfo(document);
+	
+	            paragraph.Inlines.Add(field.Start);
+	            paragraph.Inlines.AddRun("MERGEFIELD LastName");
+	            paragraph.Inlines.Add(field.Separator);
+	            paragraph.Inlines.AddRun("");
+	            paragraph.Inlines.Add(field.End);
+````
+
+
+
+## Performing Mail Merge
+
+Mail merge can be performed over a template document containing merge fields. For this action the __MailMerge()__ method of [](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e) needs to be used. The method accepts a collection of elements as a parameter.
+
+During the operation each MergeField is replaced with the corresponding information from the data source record in a new __RadFlowDocument__ instance. Every subsequent entry in the data source is appended to a single resulting document which is returned by the method. The original template stays unmodified.
+
+Example 3 shows a simple example data source.
+
+````C#
+	            List<MailMergeRecord> mailMergeDataSource = new List<MailMergeRecord>()
+	            {
+	                new MailMergeRecord()
+	                {
+	                    FirstName = "Andrew",
+	                    LastName = "Fuller"
+	                },
+	                new MailMergeRecord()
+	                {
+	                    FirstName = "Nancy",
+	                    LastName = "Davolio"
+	                },
+	            };
+````
+
+
+
+__Example 4__ performs the mail merge operation over a previously defined template document using the data source from __Example 3__.
+
+````C#
+	            RadFlowDocument mailMergeResult = document.MailMerge(mailMergeDataSource);
+````
+
+
+
+# See Also
+
+ * [Fields]({%slug wordsprocessing/concepts/fields/fields%})
+
+ * [Merge Field]({%slug wordsprocessing/concepts/fields/merge-field%})[](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)
