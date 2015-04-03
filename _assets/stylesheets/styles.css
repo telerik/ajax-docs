@@ -626,6 +626,10 @@ footer a:hover {
     display: none;
 }
 
+.k-tabstrip-wrapper {
+    margin: 1em 0;
+}
+
 .k-tabstrip {
     border: 0;
 }
