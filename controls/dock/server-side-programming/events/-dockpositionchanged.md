@@ -3,7 +3,7 @@ title:  DockPositionChanged
 page_title:  DockPositionChanged | UI for ASP.NET AJAX Documentation
 description:  DockPositionChanged
 slug: dock/server-side-programming/events/-dockpositionchanged
-tags: ,dockpositionchanged
+tags: dockpositionchanged
 published: True
 position: 1
 ---
