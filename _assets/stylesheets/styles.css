@@ -107,10 +107,17 @@ footer {
 
 #page-tree,
 #page-api {
-    padding: 20px 20px 40px 30px;
     white-space: normal;
     word-break: break-word;
     overflow: hidden;
+}
+
+#page-tree {
+    padding: 20px 20px 0px 30px;
+}
+
+#page-api {
+    padding: 0px 20px 40px 30px;
 }
 
 #page-nav .k-plus { background: url("../images/close.png"); }
