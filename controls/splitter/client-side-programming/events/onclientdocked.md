@@ -1,0 +1,81 @@
+---
+title: OnClientDocked
+page_title: OnClientDocked | UI for ASP.NET AJAX Documentation
+description: OnClientDocked
+slug: splitter/client-side-programming/events/onclientdocked
+tags: onclientdocked
+published: True
+position: 14
+---
+
+# OnClientDocked
+
+
+
+## 
+
+The __OnClientDocked__ client-side event handler is called when a pane has just been docked. The event can occur because of the user clicks on the sliding pane's dock button, on page load, or as the result of a a call to a client-side method.
+
+>note The __OnClientDocked__ event is supported by __RadSlidingPane__ .
+>
+
+
+The following parameter is passed to the event handler:
+
+* __sender__ is the pane that is has just been docked.
+
+The following example uses the __OnClientDocked__ event to update the content of the pane:
+
+````ASPNET
+	     
+	<script type="text/javascript">
+	    function countDocks(pane)
+	    {
+	        // dockCount is a custom variable
+	        var count = pane.dockCount;
+	        if (count)
+	            count = count + 1;
+	        else
+	            count = 1;
+	        pane.dockCount = count;
+	        pane.setContent("This pane has been docked " + count + " times.");
+	    }
+	</script>
+	<telerik:RadSplitter runat="server" id="RadSplitter1" Width="90%" Orientation="Horizontal" >
+	 <telerik:RadPane runat="server" id="RadPane1" Height="80px" >
+	   <telerik:RadSlidingZone runat="server" id="RadSlidingZone1" >
+	     <telerik:RadSlidingPane runat="server"
+	       Title="Pane1"
+	       id="RadSlidingPane1"
+	       Height="50px"
+	       OnClientDocked="countDocks" >
+	       This pane has been docked 0 times.
+	     </telerik:RadSlidingPane>
+	     <telerik:RadSlidingPane
+	       runat="server"
+	       Title="Pane2"
+	       id="RadSlidingPane2"
+	       Height="50px"
+	       OnClientDocked="countDocks">
+	       This pane has been docked 0 times.
+	     </telerik:RadSlidingPane>
+	   </telerik:RadSlidingZone>
+	 </telerik:RadPane>
+	 <telerik:RadSplitBar runat="server" id="RadSplitBar1" CollapseMode="Both"  />
+	 <telerik:RadPane runat="server" id="RadPane2" Height="90px">
+	 </telerik:RadPane>
+	</telerik:RadSplitter>
+				
+````
+
+
+
+# See Also
+
+ * [Overview]({%slug splitter/client-side-programming/overview%})
+
+ * [RadSlidingPane Object]({%slug splitter/client-side-programming/radslidingpane-object%})
+
+ * [OnClientDocking]({%slug splitter/client-side-programming/events/onclientdocking%})
+
+ * [OnClientUndocked]({%slug splitter/client-side-programming/events/onclientundocked%})
