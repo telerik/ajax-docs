@@ -1,0 +1,87 @@
+---
+title: Put All Items in Edit Mode
+page_title: Put All Items in Edit Mode | UI for ASP.NET AJAX Documentation
+description: Put All Items in Edit Mode
+slug: grid/data-editing/how-to/put-all-items-in-edit-mode
+tags: put,all,items,in,edit,mode
+published: True
+position: 3
+---
+
+# Put All Items in Edit Mode
+
+
+
+## 
+
+There are cases in which you may want to force the grid items in edit mode when the grid displays initially on the page.This is a straightforward task. You simply need to attach to the __PreRender__ event of the control, traverse the items in the grid, detect those which are editable and set their __Edit__ property to __true__. After traversing all items and performing this operation, you have to rebind the grid (calling explicitly its __Rebind()__ method) to reflect the changes.
+
+In the code-behind:
+
+>tabbedCode
+
+````C#
+	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+	    {
+	        if (!IsPostBack)
+	        {
+	            foreach (GridItem item in RadGrid1.MasterTableView.Items)
+	            {
+	                if (item is GridEditableItem)
+	                {
+	                    GridEditableItem editableItem = item as GridDataItem;
+	                    editableItem.Edit = true;
+	                }
+	            }
+	            RadGrid1.Rebind();
+	        }
+	    }
+````
+
+
+
+````VB.NET
+	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
+	        If Not IsPostBack Then
+	            For Each item As GridItem In RadGrid1.MasterTableView.Items
+	                If TypeOf item Is GridEditableItem Then
+	                    Dim editableItem As GridEditableItem = CType(item, GridDataItem)
+	                    editableItem.Edit = True
+	                End If
+	            Next
+	            RadGrid1.Rebind()
+	        End If
+	    End Sub
+````
+
+
+>end
+
+Another option (which is applicable only with in-forms edit mode (__EditForms__, __WebUserControl__ or __FormTemplate__ custom edit form) is to set the *Edit* property of all grid rows to true on initial load hooking the __ItemCreated__ event:
+
+>tabbedCode
+
+````VB.NET
+	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+	        If (Not Page.IsPostBack AndAlso TypeOf e.Item Is GridEditableItem) Then
+	            e.Item.Edit = True
+	        End If
+	    End Sub
+````
+
+
+
+````C#
+	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+	    {
+	        if (!Page.IsPostBack && e.Item is GridEditableItem)
+	        {
+	            e.Item.Edit = true;
+	        }
+	    }
+````
+
+
+>end
+
+Thus you will avoid the grid rebinding on PreRender.

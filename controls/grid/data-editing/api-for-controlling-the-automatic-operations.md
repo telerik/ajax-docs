@@ -1,0 +1,138 @@
+---
+title: API for Controlling the Automatic Operations
+page_title: API for Controlling the Automatic Operations | UI for ASP.NET AJAX Documentation
+description: API for Controlling the Automatic Operations
+slug: grid/data-editing/api-for-controlling-the-automatic-operations
+tags: api,for,controlling,the,automatic,operations
+published: True
+position: 14
+---
+
+# API for Controlling the Automatic Operations
+
+
+
+When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versions of __GridTableView.InsertItem()__ method. This can help you set predefined values to specific fields. The example below demonstrates how to set predefined values to a dropdown list in an edit form with a single row of code.
+
+>tabbedCode
+
+````VB.NET
+	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
+	            e.Canceled = True
+	            'Prepare an IDictionary with the predefined values
+	            Dim newValues As System.Collections.Specialized.ListDictionary = New System.Collections.Specialized.ListDictionary()
+	            newValues("TitleOfCourtesy") = "Mrs."
+	            'Insert the item and rebind
+	            e.Item.OwnerTableView.InsertItem(newValues)
+	        End If
+	    End Sub
+````
+
+
+
+````C#
+	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+	    {
+	        if (e.CommandName == RadGrid.InitInsertCommandName) //"Add new" button clicked
+	        {
+	            e.Canceled = true;
+	            //Prepare an IDictionary with the predefined values
+	            System.Collections.Specialized.ListDictionary newValues = new System.Collections.Specialized.ListDictionary();
+	            newValues["TitleOfCourtesy"] = "Mrs.";
+	            //Insert the item and rebind
+	            e.Item.OwnerTableView.InsertItem(newValues);
+	        }
+	    }
+````
+
+
+>end
+
+![InsertItem](images/grd_InsertItem_markedup.png)
+
+* __InsertItem()__ - no default values.
+
+* __InsertItem(object dataItem)__ - the new Item of Telerik RadGrid will be bound to the dataItem object. This method can be used to set the default values of the editors that will appear in the InsertItem.
+
+* __InsertItem(IDictionary newValues)__ - the new Item of Telerik RadGrid will be bound to an empty object with only values taken from the __newValues__ dictionary. This method can be used to set the default values of the editors that will appear in the InsertItem.
+
+Telerik RadGrid will place the newly inserted item just below the header item on the last page. This item can be accessed after grid is bound in "Insert" mode (after __InsertItem__ method has been executed or "InitInsert" command has bubbled) using the __GetInsertedItem()__ method of __GridTableView__.
+
+There are three basic functions of __GridTableView__ that control the Telerik RadGrid behavior when you want to perform automatic updates:
+
+* PerformDelete (GridEditableItem, [boolean suppressRebind]) - performs automatic delete using the DataSource control
+
+* PerformUpdate (GridEditableItem, [boolean suppressRebind]) - performs automatic update using the DataSource control
+
+* PerformInsert (GridEditableItem, [boolean suppressRebind]) - performs automatic insert using the DataSource control
+
+The __suppressRebind__ is an optional parameter. It sets if the grid will be rebound after the automatic update. The default value for __suppressRebind__ is __false__, i.e. the grid will rebound unless you set otherwise.
+
+## Handling custom commands - Delete command (Command Item online example)
+
+Generally you can handle any command, using the __ItemCommandEvent__. The example below shows hot to handle a custom command "DeleteSelected". It will delete all selected Items. In the ASPX file, we set the __CommandName__ property to "DeleteSelected". Then in the __ItemCommandEvent__ handler, we check if the __CommandName__ was "DeleteSelected" and call a method, which will delete all selected items.
+
+>tabbedCode
+
+````ASPNET
+	
+	  <CommandItemTemplate>
+	      <asp:LinkButton ID="LinkButton1" OnClientClick="javascript:return confirm('Delete all selected customers?')"
+	           runat= "server" CommandName="DeleteSelected">
+	      <img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs
+	      </asp:LinkButton>
+	  </CommandItemTemplate>
+	          
+````
+
+
+
+````C#
+	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+	    {
+	        //....
+	        if (e.CommandName == "DeleteSelected")
+	        {
+	            if (RadGrid1.SelectedIndexes.Count == 0)
+	            {
+	                return;
+	            }
+	
+	            foreach (GridDataItem item in RadGrid1.SelectedItems)
+	            {
+	                Hashtable itemValues = new Hashtable();
+	                e.Item.OwnerTableView.ExtractValuesFromItem(itemValues, item);
+	                DeleteItem(itemValues); //This function is supposed to delete the selected data item
+	            }
+	
+	            e.Item.OwnerTableView.Rebind();
+	            return;
+	        }
+	        //....
+	    }
+	
+````
+
+
+
+````VB.NET
+	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+	        If e.CommandName = "DeleteSelected" Then
+	            If RadGrid1.SelectedIndexes.Count = 0 Then
+	                Return
+	            End If
+	
+	            For Each item As GridDataItem In RadGrid1.SelectedItems
+	                Dim itemValues As Hashtable = New Hashtable
+	                e.Item.OwnerTableView.PerformDelete(item, True)
+	                DeleteItem(itemValues) 'This function is supposed to delete the selected data item
+	            Next
+	            e.Item.OwnerTableView.Rebind()
+	            Return
+	        End If
+	    End Sub
+````
+
+
+>end
