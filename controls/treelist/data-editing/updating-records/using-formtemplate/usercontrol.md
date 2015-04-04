@@ -18,7 +18,7 @@ This article will introduce you to how you can proceed when updating values in R
 
 Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __TreeListEditFormItem__ through the event arguments (e.Item).Now you only need to use the __FindControl(controlId)__ method and extract the values from the respective controls.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -140,13 +140,13 @@ Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __T
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+
 
 ## Updating values using WebUserControl
 
 This is also identical with inserting values using a WebUserControl. Once you get a reference to the user control, the FindControl(controlId) method comes to help.Here follows an example of how you can implement the approach for manual extraction of values.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -229,11 +229,11 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+
 
 Again, you can configure the user control to implement the IBindable interface in order for the RadTreeList to be able to extract values:
 
->tabbedCode
+
 
 ````ASPNET
 	<table>
@@ -320,4 +320,4 @@ Again, you can configure the user control to implement the IBindable interface i
 	
 	End Class
 ````
->end
+

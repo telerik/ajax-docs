@@ -22,7 +22,7 @@ Common case is the need to limit the maximum number of files that can be uploade
 
 1. Handle [ OnClientFilesSelecting ]({%slug cloudupload/client-side-programming/events/onclientfilesselecting%})event.
 
->tabbedCode
+
 
 ````ASPNET
 	            <telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Azure" OnClientFilesSelecting="onClientFilesSelecting" MultipleFileSelection="Automatic">
@@ -40,7 +40,7 @@ Common case is the need to limit the maximum number of files that can be uploade
 	                }
 	            }
 ````
->end
+
 
 # See Also
 

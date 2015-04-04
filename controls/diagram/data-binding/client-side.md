@@ -169,7 +169,7 @@ __Example 2__: Shapes and Connections JSON literals used in__Example 1__, __Exam
 
 __Example 3__: RadDiagram client-side data binding and shapes customization through the __OnChange__ event.The sample uses JSON literals from __Example 2__.
 
->tabbedCode
+
 
 ````JavaScript
 			function OnChange(args) {
@@ -216,11 +216,11 @@ __Example 3__: RadDiagram client-side data binding and shapes customization thro
 				</ShapeDefaultsSettings>
 			</telerik:RadDiagram>
 ````
->end
+
 
 __Example 4__: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from __Example 2__.
 
->tabbedCode
+
 
 ````JavaScript
 			var visualTemplate = function (options) {
@@ -278,7 +278,7 @@ __Example 4__: RadDiagram client-side data binding and shapes customization thro
 				</ShapeDefaultsSettings>
 			</telerik:RadDiagram>
 ````
->end
+
 
 # See Also
 

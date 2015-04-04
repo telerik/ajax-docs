@@ -50,7 +50,7 @@ The following examples show some possible ways to filter the detail data source.
 
 ## Binding detail tables using database select
 
->tabbedCode
+
 
 ````C#
 	
@@ -84,11 +84,11 @@ The following examples show some possible ways to filter the detail data source.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Binding detail tables using DataTable.Select
 
->tabbedCode
+
 
 ````C#
 	
@@ -120,11 +120,11 @@ The following examples show some possible ways to filter the detail data source.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Binding detail tables using a filtered DataView
 
->tabbedCode
+
 
 ````C#
 	
@@ -161,4 +161,4 @@ The following examples show some possible ways to filter the detail data source.
 	    End Sub
 	
 ````
->end
+

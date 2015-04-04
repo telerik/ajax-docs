@@ -18,7 +18,7 @@ RadTreeView allows you to drop Nodes in between other Nodes. Set the __EnableDra
 
 ![RadTreeView Drag and Drop Between Nodes](images/treeview_draganddropbetweennodespng.png)
 
->tabbedCode
+
 
 ````C#
 	using System.Web.UI;
@@ -121,7 +121,7 @@ RadTreeView allows you to drop Nodes in between other Nodes. Set the __EnableDra
 	        End Class
 	    End Namespace
 ````
->end
+
 
 # See Also
 

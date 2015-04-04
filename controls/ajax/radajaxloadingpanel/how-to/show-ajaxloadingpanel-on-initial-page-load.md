@@ -61,7 +61,7 @@ Overall, this example shows how to use the __pageLoad__ function, which initiate
 
 __Example 3__
 
->tabbedCode
+
 
 ````C#
 	     
@@ -85,7 +85,7 @@ __Example 3__
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

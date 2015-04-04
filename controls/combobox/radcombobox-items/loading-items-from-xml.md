@@ -62,7 +62,7 @@ You can populate the RadComboBox from an XML, using one of the following methods
 
 Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method, passing in the path to the file:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -74,13 +74,13 @@ Create an XML file with content that complies with the rules described above and
 	     RadComboBox1.LoadContentFile("~/App_Data/content.xml")
 	
 ````
->end
+
 
 ## Loading from an XML string
 
 Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML__ method to populate the RadComboBox from the string:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -110,4 +110,4 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadComboBox1.LoadXml(xmlString)
 	
 ````
->end
+

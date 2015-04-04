@@ -39,7 +39,7 @@ The event handler receives two arguments - of type __object__ that is a referenc
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void OnTileClick(object sender, TileListEventArgs e)
@@ -90,4 +90,4 @@ The event handler receives two arguments - of type __object__ that is a referenc
 	End Class
 
 
->end
+

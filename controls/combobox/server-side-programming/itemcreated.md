@@ -28,7 +28,7 @@ The __ItemCreated__event handler receives two arguments:
 
 Use the __ItemCreated__ event handler to make changes to items as they are added to the combobox:
 
->tabbedCode
+
 
 ````C#
 	
@@ -65,7 +65,7 @@ Use the __ItemCreated__ event handler to make changes to items as they are added
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

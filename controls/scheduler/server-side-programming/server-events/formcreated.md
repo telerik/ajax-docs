@@ -30,7 +30,7 @@ You can use this event to make modifications to the editor template.
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ You can use this event to make modifications to the editor template.
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

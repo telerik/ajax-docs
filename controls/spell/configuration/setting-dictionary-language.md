@@ -24,7 +24,7 @@ The simplest configuration is to specify a single language by setting the __RadS
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -36,7 +36,7 @@ The simplest configuration is to specify a single language by setting the __RadS
 	RadSpell1.DictionaryLanguage = "fr-fr"
 				
 ````
->end
+
 
 ## Setting Multiple Languages
 
@@ -50,7 +50,7 @@ __RadSpell__ can spellcheck using several language dictionaries at once. Set the
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -64,4 +64,4 @@ __RadSpell__ can spellcheck using several language dictionaries at once. Set the
 	RadSpell1.DictionaryLanguage = "de-de"
 				
 ````
->end
+

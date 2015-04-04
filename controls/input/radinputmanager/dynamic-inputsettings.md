@@ -22,7 +22,7 @@ You extend TextBox controls with RadInputManager by [adding InputSettings to Rad
 
 1. You need to add RadInputManager to the Page after you have added all the InputSettings.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -51,6 +51,6 @@ You extend TextBox controls with RadInputManager by [adding InputSettings to Rad
 	        Page.Form.Controls.Add(inputManager)
 	    End Sub
 ````
->end
+
 
 You can add InputSettings both for static and dynamic TextBox controls in this way. What is important is that RadInputManager contains all the settings by the time it is added to the Page. Otherwise, RadInputManager's built-in validation will not work.

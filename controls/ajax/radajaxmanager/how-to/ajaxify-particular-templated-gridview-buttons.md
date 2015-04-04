@@ -44,7 +44,7 @@ The GridView in the sample contains one template and one button column. The Imag
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:TextBox ID="TextBox1" runat="server" Width="400px" Text="not updated"></asp:TextBox>
@@ -107,7 +107,7 @@ The GridView in the sample contains one template and one button column. The Imag
 	
 	
 ````
->end
+
 
 # See Also
 

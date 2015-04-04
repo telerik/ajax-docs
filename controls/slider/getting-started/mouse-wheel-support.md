@@ -22,7 +22,7 @@ Mouse wheel support is enabled by the __TrackMouseWheel__ property when __True__
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -36,4 +36,4 @@ Mouse wheel support is enabled by the __TrackMouseWheel__ property when __True__
 	        RadSlider1.SmallChange = 5
 	
 ````
->end
+

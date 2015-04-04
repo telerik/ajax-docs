@@ -46,7 +46,7 @@ On the server the template will be presented as a string property of the control
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -76,7 +76,7 @@ On the server the template will be presented as a string property of the control
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Client side representation
 

@@ -28,7 +28,7 @@ The __ItemCreated__ event handler receives two arguments:
 
 Use an __ItemCreated__ event handler to initialize items as they are added to the panel bar when it is not data bound (for example, when they are [loaded from an XML file]({%slug panelbar/radpanelbar-items/loading-items-from-xml%})).
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,4 +45,4 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 	    End Sub
 	
 ````
->end
+

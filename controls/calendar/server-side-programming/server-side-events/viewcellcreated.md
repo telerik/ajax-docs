@@ -24,7 +24,7 @@ The __ViewCellCreated__ event handler receives two arguments:
 
 You can use this event to customize the content or appearance of cellsin the montyear picker based on their type:
 
->tabbedCode
+
 
 ````C#
 	
@@ -111,7 +111,7 @@ You can use this event to customize the content or appearance of cellsin the mon
 	
 	
 ````
->end
+
 
 # See Also
 

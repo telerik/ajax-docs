@@ -33,7 +33,7 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 
 * The __ListDataMember__ property points to the AccessLevel table (part of the dataset used for grid data-source) which is the source for the GridDropDownColumn generation (can be replaced by __DataSourceID__ - see the highlighted section above).
 
->tabbedCode
+
 
 ````C#
 	        //sample select command for grid data-source generation
@@ -46,7 +46,7 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 	    DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 	    DBadapter.Fill(MyUsersData, "AccessLevel")
 ````
->end
+
 
 >caution Ensure that the fields specified through the __DataField/ListValueField__ properties are of the same -data type- and the entries have a precise match, otherwise you will get merely the first item from the list displayed in non-editable mode. This can also happen if you have not configured properly the GridDropDownColumn, e.g. the relations between the fields specified through the __DataField/ListValueField__ properties.
 >
@@ -66,7 +66,7 @@ If you would like to display the additional item in your dropdown list editor bo
 
 The code below will place new item with text __Select Contact Title__ (colored in red) on first position in the dropdown list editor of __GridDropDownColumn.__ Note that this drop down column has UniqueName __DropDownColumn.__
 
->tabbedCode
+
 
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
@@ -101,7 +101,7 @@ The code below will place new item with text __Select Contact Title__ (colored i
 	        }
 	    }
 ````
->end
+
 
 >note This option will not be persisted/available after the update command. Inserting such item is suitable only for user-friendly message/presentation.
 >
@@ -122,7 +122,7 @@ __Customizing the options for GridDropDownColumn on editing__
 
 The proper event you need to hook in order to attain this effect is __ItemDataBound__. You should check if the currently bound item (__e.Item__) is in edit mode (__e.Item.IsInEditMode = true__). Then you can find the cell with the dropdown that is currently editable and change the options in the dropdown as per your needs. Here is an example code:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -162,7 +162,7 @@ The proper event you need to hook in order to attain this effect is __ItemDataBo
 	        End If
 	    End Sub
 ````
->end
+
 
 The code is generalized to work in both __InPlace__ and __EditForms__ editing mode and with any editor similar to __GridDropDownListColumnEditor__ (the default). Note that in order for this to work you should have already set the __DropDownColumn__ properties:
 

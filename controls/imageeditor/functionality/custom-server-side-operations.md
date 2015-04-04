@@ -88,7 +88,7 @@ The below example shows how to add a custom command that will add some text to t
 
 
 
->tabbedCode
+
 
 ````C#
 	        using System.Drawing;
@@ -130,7 +130,7 @@ The below example shows how to add a custom command that will add some text to t
 	End Class
 
 
->end
+
 
 # See Also
 

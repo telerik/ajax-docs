@@ -67,7 +67,7 @@ The same result can be achieved programmatically by using the code in __Example 
 
 __Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ collection.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadHtmlChart runat="server" ID="Chart1" Width="400">
@@ -95,7 +95,7 @@ __Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ 
 		areaSeries.SeriesItems.Add(35)
 		areaSeries.SeriesItems.Add(40)
 ````
->end
+
 
 # See Also
 

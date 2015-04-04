@@ -24,7 +24,7 @@ In some occasions you may want to display row numbers in Telerik RadGrid- for ex
 
 In the example code below the item index is presented in MS Label control which is wrapped in template column:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -65,4 +65,4 @@ In the example code below the item index is presented in MS Label control which 
 	        End If
 	    End Sub
 ````
->end
+

@@ -32,7 +32,7 @@ The following steps walk you through the entire process of creating an Excel doc
 
 1. Create an instance of the Workbook class and add a new Worksheet object to the Worksheets collection.
 
->tabbedCode
+
 
 ````C#
 	    Workbook workbook = new Workbook();
@@ -42,11 +42,11 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Dim workbook As New Workbook()
 	    Dim worksheet As Worksheet = workbook.Worksheets.Add()
 ````
->end
+
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document. In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
->tabbedCode
+
 
 ````C#
 	    static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
@@ -59,9 +59,9 @@ The following steps walk you through the entire process of creating an Excel doc
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        TreeListItem item;
@@ -151,11 +151,11 @@ The following steps walk you through the entire process of creating an Excel doc
 		    Next
 	    Next
 ````
->end
+
 
 1. After the worksheet is populated with data an instance of the __XlsxFormatProvider__ is created and by callingits __Export__ method a file is generated on the server.
 
->tabbedCode
+
 
 ````C#
 	        Workbook workbook = structure as Workbook;
@@ -196,11 +196,11 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Response.Flush()
 	    Response.Close()
 ````
->end
+
 
 After following all these steps you will get the following example that presents exporting on button click.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
@@ -428,7 +428,7 @@ After following all these steps you will get the following example that presents
 	        ExportToXlsx()
 	    End Sub
 ````
->end
+
 
 ## Exporting RadTreeList to Word
 
@@ -444,7 +444,7 @@ The following steps walk you through the entire process of creating an Word docu
 
 1. Create an instance of the __RadFlowDocument__ class and add a new __Section__ object to the__Sections__ collection. After the section is created a new __Table__ object is added to it.
 
->tabbedCode
+
 
 ````C#
 	        RadFlowDocument flowDoc = new RadFlowDocument();
@@ -456,11 +456,11 @@ The following steps walk you through the entire process of creating an Word docu
 	    Dim section As Section = flowDoc.Sections.AddSection()
 	    Dim mainTable As Table = section.Blocks.AddTable()
 ````
->end
+
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the createdWord table. In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
->tabbedCode
+
 
 ````C#
 	    static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
@@ -473,9 +473,9 @@ The following steps walk you through the entire process of creating an Word docu
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        TreeListItem item;
@@ -556,11 +556,11 @@ The following steps walk you through the entire process of creating an Word docu
 		    Next
 	    Next
 ````
->end
+
 
 1. After the worksheet is populated with data an instance of the __DocxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
 
->tabbedCode
+
 
 ````C#
 	        RadFlowDocument flowDoc = structure as RadFlowDocument;
@@ -601,11 +601,11 @@ The following steps walk you through the entire process of creating an Word docu
 	    Response.Flush()
 	    Response.Close()
 ````
->end
+
 
 After following all these steps you will get the following example that presents exporting on button click.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
@@ -815,4 +815,4 @@ After following all these steps you will get the following example that presents
 	        ExportToDocx()
 	    End Sub
 ````
->end
+

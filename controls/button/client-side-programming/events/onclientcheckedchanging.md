@@ -51,7 +51,7 @@ The following example asks the user to confirm the checking of a CheckBox.Here i
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadButton1_Click(object sender, System.EventArgs e)
@@ -64,4 +64,4 @@ The following example asks the user to confirm the checking of a CheckBox.Here i
 	        RadButton1.Text = "RadButton.Checked=" + RadButton1.Checked.ToString
 	    End Sub
 ````
->end
+

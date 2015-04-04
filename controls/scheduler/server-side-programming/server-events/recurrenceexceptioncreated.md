@@ -24,7 +24,7 @@ The __RecurrenceExceptionCreated__ event occurs when the user creates an excepti
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -41,7 +41,7 @@ The __RecurrenceExceptionCreated__ event occurs when the user creates an excepti
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

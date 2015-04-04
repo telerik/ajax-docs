@@ -26,7 +26,7 @@ Set the __Orientation__ property to display the slider __Vertical__ or __Horizon
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -40,7 +40,7 @@ Set the __Orientation__ property to display the slider __Vertical__ or __Horizon
 	        RadSlider2.Orientation = Telerik.Web.UI.Orientation.Vertical
 	
 ````
->end
+
 
 # See Also
 

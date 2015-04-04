@@ -134,7 +134,7 @@ The following steps describe how to implement Day Templates:
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -168,7 +168,7 @@ The following steps describe how to implement Day Templates:
 	    End Sub
 				
 ````
->end
+
 
 >note You can add special days to a calendar without using templates. You can use their __ItemStyle__ property to make them visually distinct.
 >

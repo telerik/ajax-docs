@@ -27,7 +27,7 @@ The declaration of the RadListBox objects includes no __DataSourceID__ property 
 
 In the __Page_Load__ event handler, create the Array and the ArrayList, and bind them to the RadListBox objects. You must call the __DataBind__ method after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -77,7 +77,7 @@ In the __Page_Load__ event handler, create the Array and the ArrayList, and bind
 	        listBox.DataBind()
 	    End Sub
 ````
->end
+
 
 # See Also
 

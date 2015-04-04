@@ -31,7 +31,7 @@ The declarations of the RadSearchBox objects does not include DataSourceID prope
 
 One can use the __Page_Load__ event handler to create the Array and ArrayList by setting the __DataSource__ property of RadSearchBox accordingly.
 
->tabbedCode
+
 
 ````C#
 	
@@ -79,4 +79,4 @@ One can use the __Page_Load__ event handler to create the Array and ArrayList by
 	    End Sub
 	
 ````
->end
+

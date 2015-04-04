@@ -69,7 +69,7 @@ The following tutorial demonstrates how to create a web service that can be cons
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -112,7 +112,7 @@ The following tutorial demonstrates how to create a web service that can be cons
 	    End Function
 	
 ````
->end
+
 
 1. In the Solution Explorer, right click the default page and select __Set as Start Page__ from the context menu.
 

@@ -38,7 +38,7 @@ Basically, you assign data source for your grid in the __NeedDataSource__ handle
 
 Moreover, if you want to rebind the grid explicitly from postback event of an external control when __EnableViewState__is set to __False__, set the __DataSource__ property of the control to __null/Nothing__ and invoke the __Rebind__() method afterwards:
 
->tabbedCode
+
 
 ````C#
 	    protected void MyButton_Click(object sender, EventArgs e)
@@ -58,4 +58,4 @@ Moreover, if you want to rebind the grid explicitly from postback event of an ex
 	        RadGrid1.Rebind()
 	    End Sub
 ````
->end
+

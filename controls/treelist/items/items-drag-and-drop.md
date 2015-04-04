@@ -26,13 +26,13 @@ To enable this functionality in RadTreeList, you need to:
 
 * enable client selection by setting the	ClientSettings-Selecting-AllowItemSelection property to true
 
->tabbedCode
+
 
 ````ASPNET
 	                    <ClientSettings AllowItemsDragDrop="true">
 	                        <Selecting AllowItemSelection="True" />
 ````
->end
+
 
 ## Item Reordering
 

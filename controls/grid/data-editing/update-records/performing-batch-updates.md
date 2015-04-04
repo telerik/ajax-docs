@@ -18,7 +18,7 @@ A common scenario is to force several grid items in edit mode and then update th
 
 In the example below there is __UpdateAll__ button in the grid command item template. The visitor can edit several grid items by pressing the edit button for each item(the Update button will be hidden and only the __Cancel__ button will be present in edit mode). After editing the content of the grid items, a batch update is triggered when hitting the __UpdateAll__ button in the command item template (the update is executed in the __ItemCommand__ event handler when __e.CommandName = UpdateAll__). The idea is to iterate through all items in the __EditItems__ collection of the grid and update their data with the new values in the grid data source.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="True" DataSourceID="SqlDataSource1"
@@ -92,7 +92,7 @@ In the example below there is __UpdateAll__ button in the grid command item temp
 	        End If
 	    End Sub
 ````
->end
+
 
 __Client-side editing with batch update__One possible implementation is demonstrated on [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
 
@@ -108,7 +108,7 @@ Another approach is presented in the paragraph below.
 
 The following sample takes advantage of the editSelected() client side method, to put the control in edit mode for all items that were previously selected. Once the control is in edit mode, the user can enter data in the edit fields, and then after clicking a button in the command template, all the data will be updated from the code-behind section.
 
->tabbedCode
+
 
 ````ASPNET
 	     <script type="text/javascript">
@@ -274,4 +274,4 @@ The following sample takes advantage of the editSelected() client side method, t
 	        End Try
 	    End Sub
 ````
->end
+

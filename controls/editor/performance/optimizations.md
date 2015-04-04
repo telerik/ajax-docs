@@ -42,7 +42,7 @@ You can easily decrease the number of scripts and styles requests of __RadEditor
 
 __Example 1__: Improve RadEditor's dialog resources optimization by setting the __RadEditor.DialogOpener.EnableTelerikManagers__property to __True__.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor ID="RadEditor1" runat="server">
@@ -63,7 +63,7 @@ __Example 1__: Improve RadEditor's dialog resources optimization by setting the 
 	    End Sub
 	
 ````
->end
+
 
 ## Working With Large Content - Creating, Editing, Pasting, Loading and Saving Optimizations
 

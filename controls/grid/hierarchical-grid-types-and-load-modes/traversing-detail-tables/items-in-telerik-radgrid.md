@@ -16,7 +16,7 @@ position: 5
 
 If you have a hierarchical grid each item in __GridTableView's____Items__ collection has a child item of type __GridNestedViewItem__ that has a set of __DetailTables__. So if you want to access, for example, the nested table view of the first item in the grid's master table you should have the following code:
 
->tabbedCode
+
 
 ````C#
 	    GridTableView nestedTableView = (RadGrid1.MasterTableView.Items[0] as GridDataItem).ChildItem.NestedTableViews[0];
@@ -24,11 +24,11 @@ If you have a hierarchical grid each item in __GridTableView's____Items__ collec
 ````VB.NET
 	Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items[0], GridDataItem).ChildItem.NestedTableViews[0]          
 ````
->end
+
 
 Or if you have a reference to an instance of an item in a child table and if you want to access the parent item/parent table view you have to write the following code:
 
->tabbedCode
+
 
 ````C#
 	    GridDataItem parentItem = childItem.OwnerTableView.ParentItem as GridDataItem;
@@ -38,13 +38,13 @@ Or if you have a reference to an instance of an item in a child table and if you
 	    Dim parentItem As GridDataItem = CType(childItem.OwnerTableView.ParentItem, GridDataItem)
 	
 ````
->end
+
 
 ## Looping through all detail tables/items in Telerik RadGrid
 
 Before proceeding with the rest of this chapter we recommend you reading the KB article of Telerik RadGrid concerning Hierarchical binding tips. After reading the article, you will understand that each copy of a detail table corresponding to an item from the parent table resides in a __NestedViewItem__. You can iterate through the NestedViewItems in the grid using a recursive method, starting from the __MasterTableView__ (note that the proper place to make the loop is the __PreRender__ handler of the grid):
 
->tabbedCode
+
 
 ````C#
 	    void LoopHierarchyRecursive(GridTableView gridTableView)
@@ -76,11 +76,11 @@ Before proceeding with the rest of this chapter we recommend you reading the KB 
 	    End Sub
 	
 ````
->end
+
 
 When __HieararchyLoadMode__ of the relevant __GridTableView__ is "__Client__" or "__ServerBind__" a much easier approach could be used. The __RadGrid.Items__ collection contains all items from all tables in the hierarchical structure of __Telerik RadGrid__. By simply looping through the collection you can access all data-bound items and their controls:
 
->tabbedCode
+
 
 ````C#
 	        foreach (GridDataItem item in RadGrid1.Items)
@@ -105,7 +105,7 @@ When __HieararchyLoadMode__ of the relevant __GridTableView__ is "__Client__" or
 	            End If
 	        Next
 ````
->end
+
 
 ## Looping through the detail tables/items in Telerik RadGrid on the client
 

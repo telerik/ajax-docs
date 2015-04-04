@@ -26,7 +26,7 @@ The code sample below sets a "Disabled" css style for time slots which have one 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,4 +48,4 @@ The code sample below sets a "Disabled" css style for time slots which have one 
 	    End Sub
 	
 ````
->end
+

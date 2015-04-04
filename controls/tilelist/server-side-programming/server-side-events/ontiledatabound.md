@@ -39,7 +39,7 @@ The example below shows two different ways of obtaining data from the datasource
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void RadTileList1_TileDataBound(object sender, TileListEventArgs e)
@@ -99,4 +99,4 @@ The example below shows two different ways of obtaining data from the datasource
 	End Class
 
 
->end
+

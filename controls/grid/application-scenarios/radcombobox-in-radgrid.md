@@ -24,7 +24,7 @@ When you delete the text initially displayed in the RadComboBox - Load-On-Demand
 
 Below are the code snippets from the demo referred above:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" GridLines="None" AutoGenerateColumns="false" PageSize="10"
@@ -185,6 +185,6 @@ Below are the code snippets from the demo referred above:
 	        Session("SupplierID") = e.Value
 	    End Sub
 ````
->end
+
 
 For additional information you can review [ this code library ](http://www.telerik.com/community/code-library/aspnet-ajax/combobox/load-on-demand-radcombobox-inside-an-edititemtemplate-of-radgrid.aspx).

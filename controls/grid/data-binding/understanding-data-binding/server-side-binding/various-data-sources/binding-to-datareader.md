@@ -20,7 +20,7 @@ The following example shows how to use a __DataReader__ using the grid's __NeedD
 
 RadGrid's declaration:
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
@@ -36,11 +36,11 @@ RadGrid's declaration:
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
->end
+
 
 Code-behind:
 
->tabbedCode
+
 
 ````C#
 	    SqlDataReader reader;
@@ -94,7 +94,7 @@ Code-behind:
 	        conn.Close()
 	    End Sub
 ````
->end
+
 
 >note The most appropriate place to close the DataReader and the connection is in the __DataBound__ event handler of the grid, as shown above.
 >

@@ -28,7 +28,7 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 
 1. First add the namespaces that support the objects to be referenced. The Telerik.WebWinControls.UI namespace supports the RadChart declaration and the Telerik.Charting namespace supports the other RadChart objects, e.g. [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) and [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}).
 
->tabbedCode
+
 
 ````C#
 	     
@@ -43,11 +43,11 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    Imports Telerik.Charting
 	
 ````
->end
+
 
 1. Next construct the RadChart itself.To the RadChart instance, assign the chart title using the ChartTitle.TextBlock.Text property.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -61,11 +61,11 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    radChart.ChartTitle.TextBlock.Text = "My RadChart"
 	
 ````
->end
+
 
 1. Construct a new [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) object. Assign a name to the [ChartSeries.]({%slug chart/understanding-radchart-elements/series-overview%}) Set the ChartSeries.Type to be __Bar__. Using the ChartSeries.AddItem() method, add a series of [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}) objects to the series Items collection. AddItem() takes as parameters a double "Value" and a string "Label".
 
->tabbedCode
+
 
 ````C#
 	     
@@ -93,11 +93,11 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    chartSeries.AddItem(35, "Wholesale")
 	
 ````
->end
+
 
 1. Finally, add the [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) to the RadChart Series____collection and add the RadChart to the page.
 
->tabbedCode
+
 
 ````C#
 	
@@ -115,7 +115,7 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    Me.Page.Controls.Add(radChart) 
 	
 ````
->end
+
 
 1. The finished chart in the running project should look like this example:
 >caption 
@@ -126,7 +126,7 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 
 The alternative to using the [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) object constructor and assigning properties is to use the RadChart CreateSeries() method that lets you pass several properties in the call, including Name, MainColor, SecondColor and ChartSeriesType.
 
->tabbedCode
+
 
 ````C#
 	   
@@ -141,7 +141,7 @@ The alternative to using the [ChartSeries]({%slug chart/understanding-radchart-e
 	    Dim chartSeries As ChartSeries = radChart.CreateSeries("Sales", System.Drawing.Color.RoyalBlue, System.Drawing.Color.LightSteelBlue, ChartSeriesType.Bar)
 	
 ````
->end
+
 
 
 

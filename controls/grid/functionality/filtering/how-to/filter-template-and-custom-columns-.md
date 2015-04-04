@@ -54,7 +54,7 @@ Here is how this can be done with column which extends GridTemplateColumn:
 
 
 
->tabbedCode
+
 
 ````C#
 	    public class MyCustomFilteringColumn : GridTemplateColumn
@@ -161,4 +161,4 @@ Here is how this can be done with column which extends GridTemplateColumn:
 	            Return True
 	        End Function
 ````
->end
+

@@ -72,7 +72,7 @@ The __OnClientSeriesClicked__ event handler receives the following parameters:
 
 __Example 1__: How do yo modify the __dataItem__ in the event and reflect the changes in the chart? This example shows how to togglewhether the clicked item is exploded.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="PieChart1" Width="600" Height="400" Transitions="false"
@@ -132,7 +132,7 @@ __Example 1__: How do yo modify the __dataItem__ in the event and reflect the ch
 	        Return tbl
 	    End Function
 ````
->end
+
 
 __Example 2__: The following example shows how to retreive some information about the clicked __RadHtmlChart__ via the listed properties.
 

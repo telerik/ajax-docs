@@ -54,7 +54,7 @@ __RadGrid__ does not fire the __NeedDataSource__ event unless __RadGrid__ is vis
 
 In a __NeedDataSource__ event handler, you should prepare the data source (list of objects) for __RadGrid__ and assign it to the grid's __DataSource__ property:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -97,7 +97,7 @@ In a __NeedDataSource__ event handler, you should prepare the data source (list 
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

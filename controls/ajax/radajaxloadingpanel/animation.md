@@ -69,7 +69,7 @@ The following example demonstrates how to implement __RadAjaxLoadingPanel__ anim
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ The following example demonstrates how to implement __RadAjaxLoadingPanel__ anim
 	        Label1.Text = DateTime.Now.ToString()
 	    End Sub
 ````
->end
+
 
 The animation of __RadAjaxLoadingPanel__ provides you with the ability to easily add interactivity to your web pages. Using animation you can add professional looking transitions and visual effects to your controls.
 

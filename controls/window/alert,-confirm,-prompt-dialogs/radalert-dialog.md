@@ -64,7 +64,7 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 
 
 
->tabbedCode
+
 
 ````C#
 	    RadWindowManager1.RadAlert("An <br /><b>html</b> string.<br />", 200, 100, "My Alert", "callBackFn", "myAlertImage.png");
@@ -76,7 +76,7 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 	End Class
 
 
->end
+
 
 ## 
 

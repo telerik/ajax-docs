@@ -167,7 +167,7 @@ As with the hierarchy declarative relations, you should have a WHERE clause in t
 
 An alternative approach to binding the nested view template without defining nested view settings for it is demonstrated in the code below:
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -283,4 +283,4 @@ An alternative approach to binding the nested view template without defining nes
 	        End Sub
 	    End Class
 ````
->end
+

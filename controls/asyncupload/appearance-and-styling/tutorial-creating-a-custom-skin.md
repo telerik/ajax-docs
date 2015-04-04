@@ -107,7 +107,7 @@ See [Understanding the Skin CSS File](C086A5D1-D48F-4412-89D4-DFECEB9AB9E4) for 
 
 * Assign the following __Click__ event handler so that you can easily see the Progress dialog box:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -119,7 +119,7 @@ See [Understanding the Skin CSS File](C086A5D1-D48F-4412-89D4-DFECEB9AB9E4) for 
 							Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) _    Handles Button1.Click  If RadUpload1.UploadedFiles.Count > 0 Then    System.Threading.Thread.Sleep(3000)  End IfEnd Sub
 				
 ````
->end
+
 
 1. Press F5 to run the application. Select a file and click the __Submit__button. The new "Green" skin should look just like the default skin:
 

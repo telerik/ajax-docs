@@ -26,7 +26,7 @@ Use the __TabClick__ event handler to respond when the user clicks a tab in the 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,4 +45,4 @@ Use the __TabClick__ event handler to respond when the user clicks a tab in the 
 	End Sub 
 				
 ````
->end
+

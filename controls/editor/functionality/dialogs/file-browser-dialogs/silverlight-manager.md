@@ -57,7 +57,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 __Setting Silverlight manager properties in CodeBehind:__
 
->tabbedCode
+
 
 ````C#
 	string[] viewFiles = new string[] { "~/Files" };
@@ -81,7 +81,7 @@ __Setting Silverlight manager properties in CodeBehind:__
 		 RadEditor1.SilverlightManager.DeletePaths = deleteFiles
 		End If 
 ````
->end
+
 
 Note that the viewFiles, uploadFiles and deleteFiles variables are string arrays and that the Files folders must be:
 

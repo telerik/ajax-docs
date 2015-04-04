@@ -320,7 +320,7 @@ The second way to change the template that the __RadWindowManager__ in your appl
 
 1. Each of the Template properties is an ITemplate type. Implement an ITemplate class to load the new Web User Control that you defined. This class gains a reference to the web page in its constructor. The implementation of the one ITemplate method, __InstantiateIn__(), then loads the Web User Control onto that page and adds it to the supplied owner:
 
->tabbedCode
+
 
 ````C#
 	
@@ -356,11 +356,11 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    End Class
 	
 ````
->end
+
 
 1. In the __Page_Load__ event handler of the page that contains your __RadWindowManager__, create an instance of your new ITemplate class and assign the instance as the value of the appropriate template property:
 
->tabbedCode
+
 
 ````C#
 	
@@ -377,4 +377,4 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    End Sub
 	
 ````
->end
+

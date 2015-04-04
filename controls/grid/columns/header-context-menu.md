@@ -162,7 +162,7 @@ From Q3 2010 on, RadGrid also enables showing column aggregates by using the Hea
 
 The Aggregates menu will show the applicable aggregates for the current column, thus offering the user a choice which one to view. Apart from the ready to use aggregates, the menu also exposes an option for a custom one, which can be handled manually. You can declare your own aggregates in the column definitions and yet use the HeaderContextAggregatesMenu, as it will overwrite the aggregate shown in the footer.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
@@ -224,7 +224,7 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 	        e.Result = discontinued.ToString() + " items discontinued, " + notDiscontinued.ToString() + " not"
 	    End Sub
 ````
->end
+
 
 Note that in order to be able to show the aggregates, you need to have __ShowFooter__ property of RadGrid / the respective GridTableView, or __ShowGroupFooter__ (when grouping is enabled)set to __true__.
 
@@ -234,7 +234,7 @@ You can modify the header context menu by add new items to the menu. To accompli
 
 Here is a code snippet illustrating the approach depicted above:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRenderComplete(EventArgs e)
@@ -261,11 +261,11 @@ Here is a code snippet illustrating the approach depicted above:
 	        MyBase.OnPreRenderComplete(e)
 	    End Sub
 ````
->end
+
 
 As you may noticed from this point you need to assign the correct values for the newly added attributes. This is done with the __BuildColumnsMenu() method.__ Below is a code excerpt which demonstrates how to do that:
 
->tabbedCode
+
 
 ````C#
 	    private void BuildColumnsMenu(IRadMenuItemContainer columnsParentItem, GridTableView tableView)
@@ -366,11 +366,11 @@ As you may noticed from this point you need to assign the correct values for the
 	        End If
 	    End Sub
 ````
->end
+
 
 With this implementation you will also need to wire the HeaderContextMenu.ItemClick event as follows:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -405,11 +405,11 @@ With this implementation you will also need to wire the HeaderContextMenu.ItemCl
 	    End Sub
 	
 ````
->end
+
 
 Finally, we need to wire the *OnHeaderShowing* client event. In its event handler you need to hide all items which are not related with the visible columns. The following code snippet shows how to achieve this:
 
->tabbedCode
+
 
 ````ASPNET
 	  <ClientSettings>
@@ -426,13 +426,13 @@ Finally, we need to wire the *OnHeaderShowing* client event. In its event handle
 	           });
 	       }
 ````
->end
+
 
 ## Localize HeaderContextMenu items
 
 In some cases you might want to set custom texts for the grid HeaderContextMenu items. For that purpose you can handle the menu ItemCreated event as below:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AllowPaging="True"
@@ -524,4 +524,4 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 	        End Select
 	    End Sub
 ````
->end
+

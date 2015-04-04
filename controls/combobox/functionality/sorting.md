@@ -22,7 +22,7 @@ To enable sorting you need to:
 
 * In code-behind:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -35,7 +35,7 @@ To enable sorting you need to:
 		    RadComboBox1.Sort = RadComboBoxSort.Descending
 	
 ````
->end
+
 
 * Inline:
 
@@ -65,7 +65,7 @@ To enable / disable the case sensitive sorting set the __SortCaseSensitive__ pro
 
 If you want to sort the items of a combobox bound to a __declarative datasource__, you need to call the SortItems (Items.Sort) method in the __DataBound__ event handler of the combobox:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -85,7 +85,7 @@ If you want to sort the items of a combobox bound to a __declarative datasource_
 	    End Sub
 	
 ````
->end
+
 
 >caution Note that __DataBound__ event occurs after the server control binds to a data source and is __different__ from[ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%})event.
 >

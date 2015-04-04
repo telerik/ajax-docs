@@ -30,7 +30,7 @@ Use a __PageViewCreated__ event handler to add controls to the Controls collecti
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -57,4 +57,4 @@ Use a __PageViewCreated__ event handler to add controls to the Controls collecti
 	End Sub 
 				
 ````
->end
+

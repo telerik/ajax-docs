@@ -42,7 +42,7 @@ To enable load-on-demand with a show more results box and/or virtual scrolling:
 
 1. 
 
->tabbedCode
+
 
 ````C#
 	
@@ -111,7 +111,7 @@ To enable load-on-demand with a show more results box and/or virtual scrolling:
 	    End Sub
 	
 ````
->end
+
 
 ## Using the ShowMoreResultsBox with a WebService
 
@@ -152,7 +152,7 @@ The context object is used to obtain:
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -254,6 +254,6 @@ The context object is used to obtain:
 	        EndFunction
 	
 ````
->end
+
 
 For a live example, see [Load On Demand](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/PopulatingWithData/AutoCompleteSql/DefaultCS.aspx)

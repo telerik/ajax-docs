@@ -18,7 +18,7 @@ RadAjax controls for ASP.NET AJAX support SharePoint and can be integrated with 
 
 There is a minor detail to be taken into account when __adding RadAjaxManager dynamically into a WebPart__, though. The control should be added both to *Page.Form.Controls* collection as well as to *Page.Items* collection. Otherwise, the code accessing the manager in order to add the necessary AJAX settings for example, would return null:
 
->tabbedCode
+
 
 ````C#
 	
@@ -33,11 +33,11 @@ There is a minor detail to be taken into account when __adding RadAjaxManager dy
 	        Me.Page.Items.Add(ajaxManager.GetType, ajaxManager)
 	        Me.Page.Form.Controls.Add(ajaxManager)
 ````
->end
+
 
 We recommend using WebPart __OnInit__ event to add the RadAjaxManager dynamically:
 
->tabbedCode
+
 
 ````C#
 	
@@ -53,6 +53,6 @@ We recommend using WebPart __OnInit__ event to add the RadAjaxManager dynamicall
 	        Me.Page.Items.Add(ajaxManager.GetType, ajaxManager)
 	        Me.Page.Form.Controls.Add(ajaxManager)
 ````
->end
+
 
 as well as [adding the necessary AJAX settings]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%}) into the __Page_PreRender__ event.

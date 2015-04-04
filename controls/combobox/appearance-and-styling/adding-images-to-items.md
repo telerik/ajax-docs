@@ -55,7 +55,7 @@ The result is:
 
 You can easily set the ImageUrl and DisabledImageUrl in the code-behind
 
->tabbedCode
+
 
 ````C#
 	     
@@ -71,7 +71,7 @@ You can easily set the ImageUrl and DisabledImageUrl in the code-behind
 	RadComboBox1.FindItemByText("RadMenu").DisabledImageUrl = "Img/MenuPrDisabled.gif"
 				
 ````
->end
+
 
 ## Working with ImageUrl and DisabledImageUrl client-side
 

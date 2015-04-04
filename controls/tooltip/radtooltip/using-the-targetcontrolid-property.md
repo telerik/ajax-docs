@@ -25,7 +25,7 @@ The __TargetControlID__property specifies the ID of the element that should be '
 
 ...and in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -41,11 +41,11 @@ The __TargetControlID__property specifies the ID of the element that should be '
 	        RadToolTip1.TargetControlID = button1.ID
 	
 ````
->end
+
 
 By default, __RadToolTip__ assumes a server ID. If the ID is client-side, as in the case where an element is pure HTML and not a server control, then the __IsClientID__ property should be set to __True__.
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,7 +63,7 @@ By default, __RadToolTip__ assumes a server ID. If the ID is client-side, as in 
 	        RadToolTip1.IsClientID = True
 	
 ````
->end
+
 
 # See Also
 

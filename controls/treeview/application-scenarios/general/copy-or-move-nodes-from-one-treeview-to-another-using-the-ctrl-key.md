@@ -43,7 +43,7 @@ To copy nodes from one TreeView to another, you should make a clone of the dragg
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -156,7 +156,7 @@ To copy nodes from one TreeView to another, you should make a clone of the dragg
 	    End Function
 	
 ````
->end
+
 
 # See Also
 

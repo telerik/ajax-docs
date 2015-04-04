@@ -28,7 +28,7 @@ __Default Message__ property of the RadDropDownList enables the ability to set c
 
 ## Setting the Default Messagee server-side
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -45,7 +45,7 @@ __Default Message__ property of the RadDropDownList enables the ability to set c
 	
 	
 ````
->end
+
 
 ## Setting the Default Message client-side
 

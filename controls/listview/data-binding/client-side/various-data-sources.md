@@ -28,7 +28,7 @@ This article will introduce you to the capabilities of RadListView to bind to va
 
 To bind RadListView to a javascript array, use the __set_dataSource()__ and __dataBind()__ APIs in a point after the client-side AJAX framework (and RadListView) has loaded:
 
->tabbedCode
+
 
 ````JavaScript
 	        <telerik:RadListView ID="RadListView1" runat="server" VirtualItemCount="17" Skin="Default"
@@ -131,7 +131,7 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 	        MyBase.OnPreLoad(e)
 	    End Sub
 ````
->end
+
 
 ## Binding to ASMX Web Services
 
@@ -147,7 +147,7 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 
 * __FilterParameterType__: Filter expression format, if supported
 
->tabbedCode
+
 
 ````JavaScript
 	        <telerik:RadListView ID="RadListView1" runat="server" Skin="Default"
@@ -255,7 +255,7 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 	            }
 	        </script>
 ````
->end
+
 
 If data and total row count is returned in one and the same service call, the __CountPath__ setting is omitted. In this case, RadListView searches for fields with name __Data__ and __Count__ in the web service JSON response, respectively. To modify the names of the response fields RadListView looks for, set the __DataPropertyName__ and __CountPropertyName__ settings.
 
@@ -263,7 +263,7 @@ If data and total row count is returned in one and the same service call, the __
 
 For automatic databinding to WCF services, RadListView is configured in an identical way as ASMX Web Services. In this example, RadListView is bound to a WCF Service that returns data and count in a single request:
 
->tabbedCode
+
 
 ````JavaScript
 	        <telerik:RadListView ID="RadListView1" runat="server" Skin="Default"
@@ -389,13 +389,13 @@ For automatic databinding to WCF services, RadListView is configured in an ident
 	            }
 	        </script>
 ````
->end
+
 
 ## Binding to OData Services
 
 Binding RadListView to OData service is quite straightforward. The only two required parameters are __Location__ and __HttpMethod="Get"__. OData services require GET requests in RadListView. Additionally, if a remote OData request is accessed (and it supports JSONP), __ResponseType="JSONP"__ is also added to ensure RadListView can make a remote service request:
 
->tabbedCode
+
 
 ````JavaScript
 	        <telerik:RadListView ID="RadListView1" runat="server" Skin="Default"
@@ -541,7 +541,7 @@ Binding RadListView to OData service is quite straightforward. The only two requ
 	            }
 	        </script>
 ````
->end
+
 
 ## Web Service Default Parameters
 

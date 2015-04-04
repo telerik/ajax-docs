@@ -28,7 +28,7 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 
 Example 1: Demonstrates how to set a red color, if the currently evaluated item Text is "Important Item":
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,4 +48,4 @@ Example 1: Demonstrates how to set a red color, if the currently evaluated item 
 	    End Sub
 	
 ````
->end
+

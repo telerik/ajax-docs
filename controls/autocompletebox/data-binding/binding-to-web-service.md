@@ -42,7 +42,7 @@ RadAutoCompleteBox can be bound to Web service. The path to the Web service and 
 
 To use the integrated support, the Web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -101,7 +101,7 @@ To use the integrated support, the Web service should have the following signatu
 	        Return dropDownData
 	    End Function
 ````
->end
+
 
 
 

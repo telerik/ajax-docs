@@ -37,7 +37,7 @@ Usually HTML elements have more client-side events than their server-side counte
 
 * a. Implement the __AjaxRequest__ server event of the __RadAjaxManager__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -58,7 +58,7 @@ Usually HTML elements have more client-side events than their server-side counte
 	        End If
 	    End Sub
 ````
->end
+
 
 * b. In the designer, set __RadAjaxManager1__ to update __Label1__.
 
@@ -66,7 +66,7 @@ Usually HTML elements have more client-side events than their server-side counte
 
 1. Add the __OnKeyUp__ attribute:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -80,11 +80,11 @@ Usually HTML elements have more client-side events than their server-side counte
 	        TextBox1.Attributes.Add("onkeyup", RadAjaxManager1.GetAjaxRequestReference(TextBox1.ClientID))
 	    End Sub
 ````
->end
+
 
 2. Implement the __AjaxRequest__ event of the __RadAjaxManager__:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
@@ -104,6 +104,6 @@ Usually HTML elements have more client-side events than their server-side counte
 	    End Sub
 	
 ````
->end
+
 
 3.Set from the design-time configuration wizard that __RadAjaxManager1__ will update __Label1__.

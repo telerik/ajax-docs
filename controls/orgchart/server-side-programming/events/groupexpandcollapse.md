@@ -46,7 +46,7 @@ When this event is handled in order to make the changes persist properly the col
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -82,4 +82,4 @@ When this event is handled in order to make the changes persist properly the col
 	        End Using
 	    End Sub
 ````
->end
+

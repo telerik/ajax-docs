@@ -48,7 +48,7 @@ This tutorial will show you how to:
 
 9. To get the destination items iterate the __Items__ collection of the second listbox using the foreach statement:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -67,7 +67,7 @@ This tutorial will show you how to:
 	
 				
 ````
->end
+
 
 # See Also
 

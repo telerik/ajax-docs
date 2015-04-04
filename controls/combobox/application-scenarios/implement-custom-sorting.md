@@ -22,7 +22,7 @@ Here are the two steps that you need to perform:
 
 1. Create a class that implements __IComparer__ for your custom sorting:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -88,11 +88,11 @@ Here are the two steps that you need to perform:
 	    End Class
 	
 ````
->end
+
 
 2. Call the overloaded __SortItems__ or __Items.Sort__ methods passing your IComparer as a parameter:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -106,7 +106,7 @@ Here are the two steps that you need to perform:
 	    RadComboBox2.SortItems(New SortComboItemsByValue())
 	
 ````
->end
+
 
 That's it. Now the combobox items will be sorted by their __Values__ instead of Text.
 

@@ -31,7 +31,7 @@ Simple data binding is used when the desired data source is already retrieved fr
 
 __Example 1:__ Simple data binding.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadRotator runat="server" ID="RadRotator1" RotatorType="Buttons" 
@@ -71,7 +71,7 @@ __Example 1:__ Simple data binding.
 			}
 		</style>
 ````
->end
+
 
 ## Using RadClientDataSource for Data Binding
 
@@ -82,7 +82,7 @@ The __RadClientDataSource__ provides the ability to connect to a web service and
 
 __Example 2:__ Using __RadClientDataSource__ control for Rotator data binding.
 
->tabbedCode
+
 
 ````ASPNET
 		 <telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">
@@ -116,7 +116,7 @@ __Example 2:__ Using __RadClientDataSource__ control for Rotator data binding.
 			}
 		</style>
 ````
->end
+
 
 # See Also
 

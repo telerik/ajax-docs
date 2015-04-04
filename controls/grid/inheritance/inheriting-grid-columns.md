@@ -16,7 +16,7 @@ position: 1
 
 In some scenarios you may want to extend the default functionality of __GridColumn__ (including additional properties for it, embedding extra controls in its cells, etc.). The proper way to accomplish this task is by inheriting the corresponding default __GridColumn__ class (in your own class) and overriding the __InitializeCell(cell, columnIndex,gridItem)__ method of that class. Thus you can reuse the custom configuration of your choice in all your grid instances in your application.The example below shows a basic approach how to redefine the object model for GridBoundColumn:
 
->tabbedCode
+
 
 ````ASPNET
 	  <%@ Register tagprefix="custom" namespace="MyNamespace" %>
@@ -69,7 +69,7 @@ In some scenarios you may want to extend the default functionality of __GridColu
 	    End Class
 	End Namespace
 ````
->end
+
 
 >note When inheriting grid columns in hierarchy, you need to override their Clone() method and copy the base properties as follows:
 >

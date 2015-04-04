@@ -18,7 +18,7 @@ The popup calendar in RadScheduler is actually RadCalendar and is a child contro
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -37,4 +37,4 @@ The popup calendar in RadScheduler is actually RadCalendar and is a child contro
 	    End Sub
 				
 ````
->end
+

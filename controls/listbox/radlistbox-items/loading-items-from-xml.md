@@ -60,7 +60,7 @@ You can populate RadListBox from an XML using one of the following methods:
 
 Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method, passing in the path to the file:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -72,13 +72,13 @@ Create an XML file with content that complies with the rules described above and
 		RadListBox1.LoadContentFile("ListBox.xml") 
 				
 ````
->end
+
 
 ## Loading items from an XML string
 
 Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXml__ method to populate the ListBox from the string:
 
->tabbedCode
+
 
 ````C#
 	    StringBuilder sb = new StringBuilder();
@@ -100,7 +100,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    Dim xmlString As String = sb.ToString()
 	    RadListBox2.LoadXml(xmlString) 
 ````
->end
+
 
 # See Also
 

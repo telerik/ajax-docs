@@ -27,7 +27,7 @@ __Example 1__ shows a how you can use the server-side API of the ProgressBar, to
 
 __Example 1__: Configuring a progress bar on the server-side.
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Init(object sender, EventArgs e)
@@ -58,7 +58,7 @@ __Example 1__: Configuring a progress bar on the server-side.
 			Page.Controls.Add(progressBar)
 		End Sub
 ````
->end
+
 
 # See Also
 

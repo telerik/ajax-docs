@@ -59,7 +59,7 @@ Here is an example how to:
 
 * Set the tools programmatically in the codebehind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -77,4 +77,4 @@ Here is an example how to:
 	        toolgroupLeft.Tools.Add(New EditorTool("Bold"))
 	
 ````
->end
+

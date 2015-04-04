@@ -27,7 +27,7 @@ You can also add templates to __RadTabStrip__ at runtime, using the __TabTemplat
 
 
 
->tabbedCode
+
 
 ````C#
 	   
@@ -101,7 +101,7 @@ You can also add templates to __RadTabStrip__ at runtime, using the __TabTemplat
 	
 				
 ````
->end
+
 
 If you for some reason cannot define the template in the OnInit event of the page, you could use another approach:
 
@@ -109,7 +109,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -146,7 +146,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	
 				
 ````
->end
+
 
 
 

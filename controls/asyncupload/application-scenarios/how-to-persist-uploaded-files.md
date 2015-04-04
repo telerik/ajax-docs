@@ -32,7 +32,7 @@ __PostbackTriggers__ property is a string array and it can be set from the marku
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -45,4 +45,4 @@ __PostbackTriggers__ property is a string array and it can be set from the marku
 	        RadAsyncUpload1.PostbackTriggers = New String() {"Button1", "Button2"}
 	    End Sub
 ````
->end
+

@@ -84,7 +84,7 @@ This example shows how to create the XML-based provider that is already included
 
 1. The new provider class is called MyXmlSchedulerProvider, to distinguish it from the provider in the Telerik.Web.UI assembly that we are copying. It must be derived from SchedulerProviderBase. In order to implement it, we need to include a number of assemblies, including Telerik.Web.UI, System.Xml, System.IO, System.Configuration.Provider, System.Collections.Specialized, and System.Collections.Generic.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -119,11 +119,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Namespace
 	
 ````
->end
+
 
 1. Add to the provider some private fields for holding basic information. These include an XmlDocument instance for manipulating the XML data file, a list of resources, and basic state and configuration information:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -148,11 +148,11 @@ This example shows how to create the XML-based provider that is already included
 	    Private _resourceType As String
 	
 ````
->end
+
 
 1. Before implementing the constructors, we need two helper functions for reading from the XML document.__ReadNextID__() looks up the next appointment ID. __LoadResources__() loads the resource data from the XML document.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -218,11 +218,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Sub
 	
 ````
->end
+
 
 1. The constructor initializes the global fields to save the XML document that it uses to manipulate its data, the first ID to use for an appointment,the persistChanges flag, and a boolean indicating that the XML document has been loaded. For added flexibility, the providerimplements two additional constructors that allow it to be configured at run-time. They allow using a XmlDocument instance or a file as a data store:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -282,11 +282,11 @@ This example shows how to create the XML-based provider that is already included
 	
 	
 ````
->end
+
 
 1. In order to support declarative configuration by a Web.config section, the provider overrides the __Initialize__ method.After checking for valid parameters, __Initialize__ calls its base implementation and uses the config collectionto read the configuration values. The "persistChanges" attribute defaults to "true" if not specified. The actual loading of the documentis deferred for performance reasons.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -352,11 +352,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Sub
 	
 ````
->end
+
 
 1. A provider must implement the __GetAppointments__, __Insert__,__Update__, __Delete__, __GetResourceTypes__, and__GetResourcesByTypes__ methods. However, before implementing these methods, we add some more helper functions. __SaveAppointmentResources__ adds the resources for an appointment to the XML node for that appointment. __SaveAppointmentAttributes__ adds any custom attributes for the appointment to its XML node.__CreateAppointmentNode__ adds a node to the XML document that gets its data from an __Appointment__ object.__LoadDataFile__ checks whether the XML document needs to be loaded from the file, and if so, loads it and initializesthe _nextID field. __SaveDataFile__ saves the XML document to the associated file.__EnsureFilePath__calls __Page.MapPath__ to resolve the XML file name.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -564,11 +564,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Sub
 	
 ````
->end
+
 
 1. The provider must implement __GetAppointments__ to provide the scheduler with the appointment data currentlystored in the XML document. __GetAppointments__ reads the appointment nodes from the XML file, and for each one,generates an __Appointment__ object. These __Appointment__ objects are added to a list ofappointments, which __GetAppointments__ returns to the scheduler.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -671,11 +671,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Function
 	
 ````
->end
+
 
 1. The provider must implement an __Insert__ method to add appointments to the XML document. __Insert__ assigns an ID to the new appointment, using the _nextID global field, and savesa new value for _nextID in the XML document as well as the data for the new appointment:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -709,11 +709,11 @@ This example shows how to create the XML-based provider that is already included
 	
 	
 ````
->end
+
 
 1. The provider must implement the __Update__ method to apply changes from the scheduler:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -748,11 +748,11 @@ This example shows how to create the XML-based provider that is already included
 	
 	
 ````
->end
+
 
 1. The provider implements the __Delete__ method to delete appointments from the XML document:
 
->tabbedCode
+
 
 ````C#
 	
@@ -777,11 +777,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Sub
 	
 ````
->end
+
 
 1. The provider implements the __GetResourceTypes__ method to tell the scheduler what custom resourcesare available. Note that is only needs to specify the names of the types:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -826,11 +826,11 @@ This example shows how to create the XML-based provider that is already included
 	    End Function
 	
 ````
->end
+
 
 1. The provider implements __GetResourcesByType__ to supply the possible values for a specific resource type:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -858,7 +858,7 @@ This example shows how to create the XML-based provider that is already included
 	
 	
 ````
->end
+
 
 In addition you can find a full sample project for __"Web Services with Custom Provider"__ by adding a Scenario Template. Follow these steps to add the scenario:
 

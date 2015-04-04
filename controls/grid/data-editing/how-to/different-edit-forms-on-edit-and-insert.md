@@ -16,7 +16,7 @@ position: 12
 
 In some editing scenarios you may need to display different edit forms for Telerik RadGrid on edit and insert action. This is easily achievable having [WebUserControl custom edit form]({%slug grid/data-editing/edit-mode/custom-edit-forms%}) for your grid instance. You can hook the __ItemCommand__ event of the grid and switch the user control when __e.CommandName__ is __RadGrid.EditCommand__ or __RadGrid.InitInsertCommandName__. Note that you also have to clear the rest of the edited items (on insert action) or hide the insertion form (on edit action) to avoid duplication of the edit form type for several edited grid items.The code below represents sample case:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
@@ -80,6 +80,6 @@ In some editing scenarios you may need to display different edit forms for Teler
 	        }
 	    }
 ````
->end
+
 
 With auto-generated edit forms or __FormTemplate__ custom edit form you can merely show/hide some of the column editors (subscribing to the __ItemCreated__ event of the grid). Additional info about this can be found [here]({%slug grid/data-editing/distinguish-edit-or-insert-mode%}).

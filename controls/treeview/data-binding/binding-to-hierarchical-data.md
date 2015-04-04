@@ -36,7 +36,7 @@ When bound to the RadTreeView the application looks like the screenshot below.
 
 In the __BindToDataTable()__ method below, the hierarchical query is created, loaded into the DataTable and assigned to the __DataSource__ property of the RadTreeView. The "Name" of the category or product is assigned to the __DataTextField__for display in the TreeView. The __DataFieldParentID__property is assigned null, for top level categories, or the id of the category. A unique identifier must be assigned to the __DataFieldID__; in this case the identifier is the CategoryID or a number constructed from the CategoryID and ProductID combined. Optionally, you can assign the __DataValueField__. Also, you can optionally create a handler for the __NodeDataBound__event and use any of the bound columns; in this example the Description column is assigned to the Node __ToolTip__property.____
 
->tabbedCode
+
 
 ````C#
 	using System.Data.SqlClient;
@@ -113,7 +113,7 @@ In the __BindToDataTable()__ method below, the hierarchical query is created, lo
 	
 	
 ````
->end
+
 
 For a live example of binding to hierarchical data see [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).
 

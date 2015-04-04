@@ -57,7 +57,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 __Setting Image manager properties in CodeBehind:__
 
->tabbedCode
+
 
 ````C#
 	
@@ -83,7 +83,7 @@ __Setting Image manager properties in CodeBehind:__
 	            RadEditor1.FlashManager.DeletePaths = deleteFlash
 	        End If
 ````
->end
+
 
 Note that the viewFlash, uploadFlash and deleteFlash variables are string arrays and that the Flash folders must be:
 

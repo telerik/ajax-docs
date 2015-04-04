@@ -34,7 +34,7 @@ There are a few important things to consider when using RadAsyncUpload
 
 You can also perform validation over the file input as shown in the demo code:
 
->tabbedCode
+
 
 ````JavaScript
 	  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -424,7 +424,7 @@ You can also perform validation over the file input as shown in the demo code:
 	        Return myDataTable
 	    End Function
 ````
->end
+
 
 More information about the RadAsyncUpload you can find in the links below:
 

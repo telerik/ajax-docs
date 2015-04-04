@@ -38,7 +38,7 @@ Usually, you also want to do one or more of the following:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadSiteMap1_NodeDataBound(object sender, RadSiteMapNodeEventArgs e) 
@@ -53,4 +53,4 @@ Usually, you also want to do one or more of the following:
 	        e.Node.ToolTip = nodeData("tooltipColumn").ToString()
 	    End Sub
 ````
->end
+

@@ -38,7 +38,7 @@ Here is an example using the __HourlyRecurrenceRule__ class:
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -118,7 +118,7 @@ Here is an example using the __HourlyRecurrenceRule__ class:
 	    End Namespace
 	
 ````
->end
+
 
 The __RecurrenceRange__ class specifies the time frame for the recurrence. It consists of the start timeof the event, it's duration and optional limits.
 

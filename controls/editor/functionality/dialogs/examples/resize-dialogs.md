@@ -24,7 +24,7 @@ As shown in __Example 1__, the __DialogDefinition__ class of __RadEditor__ provi
 
 __Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ class.
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,7 +54,7 @@ __Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ 
 	    End Sub
 	
 ````
->end
+
 
 
 

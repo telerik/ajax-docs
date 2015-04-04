@@ -95,7 +95,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 
 1. Add an event handler to the __SelectedIndexChanged__ event of the drop-down list (__TimeZoneDropDown__):
 
->tabbedCode
+
 
 ````C#
 	
@@ -112,7 +112,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    End Sub
 	
 ````
->endThe drop-down list now allows the user to manually set the time zone of the scheduler.
+The drop-down list now allows the user to manually set the time zone of the scheduler.
 
 1. Drag a __RadAjaxManager__ from the toolbox onto your Web page. In the __RadAjaxManager__ Smart Tag, choose"__Configure Ajax Manager__". In the property builder that appears, indicate that both the scheduler and the time zone drop-down controls caninitiate requests and thatthe scheduler will be updated by requests. Assign the __RadAjaxLoadingPanel__ as the loading panel when the__RadScheduler gets__ updated.
 >caption 
@@ -121,7 +121,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 
 1. Give the __RadAjaxManager__ a handler for the __AjaxRequest__ event to update the scheduler and time zone drop-down given an offset:
 
->tabbedCode
+
 
 ````C#
 	
@@ -141,7 +141,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    End Sub
 	
 ````
->end
+
 
 1. Drag a __RadCodeBlock__ component from the toolbox onto your Web page. Switch to the Source view, and add the following script to the code block:
 
@@ -185,7 +185,7 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 
 1. Finally, in the __Page_Load__ event handler for your Web Page, add code to show or hide the PleaseWaitLabel (note that DataSourceID should be set appropriately for your scheduler):
 
->tabbedCode
+
 
 ````C#
 	
@@ -229,7 +229,7 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 	
 	
 ````
->end
+
 
 # See Also
 

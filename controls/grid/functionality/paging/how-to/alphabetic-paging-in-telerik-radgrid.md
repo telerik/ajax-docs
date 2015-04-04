@@ -36,7 +36,7 @@ A common request is to use letters instead of numbers in the grid pager and filt
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True" PageSize="5"
@@ -154,4 +154,4 @@ A common request is to use letters instead of numbers in the grid pager and filt
 	        RadGrid1.Rebind()
 	    End Sub
 ````
->end
+

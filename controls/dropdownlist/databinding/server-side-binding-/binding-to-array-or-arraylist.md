@@ -29,7 +29,7 @@ The declaration of RadDropDownList objects includes no __DataSourceID__ property
 
 In the __Page_Load__ event handler, create the Array and ArrayList, and bind them to the RadDropDownList objects. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -81,4 +81,4 @@ In the __Page_Load__ event handler, create the Array and ArrayList, and bind the
 	        dropDownList.DataBind()
 	    End Sub
 ````
->end
+

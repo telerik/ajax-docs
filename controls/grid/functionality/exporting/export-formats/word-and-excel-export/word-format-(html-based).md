@@ -48,7 +48,7 @@ A list of the supported WordDocument values is represented below.
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -68,4 +68,4 @@ Example:
 	    End Sub
 	
 ````
->end
+

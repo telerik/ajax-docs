@@ -20,7 +20,7 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 
 * use a hidden __GridBoundColumn__ (with __Display = false__). Add an __ItemCommand__ event handler that catches filter commands from the dropdown column and substitutes a filter command from the __GridBoundColumn__ instead:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:GridDropDownColumn UniqueName="CategoryddColumn" ListTextField="CategoryName"
@@ -75,7 +75,7 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 	        End If
 	    End Sub
 ````
->end
+
 
 * Use __GridTemplateColumn__ instead of __GridDropDownColumn__. You can add a __DropDownList__ in its __EditItemTemplate__ to simulate the __GridDropDownColumn__.
 

@@ -26,7 +26,7 @@ Below you may find an example that shows how to retrieve the text value typed in
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	        <script type="text/javascript">
@@ -96,4 +96,4 @@ Below you may find an example that shows how to retrieve the text value typed in
 	
 	        End Function
 ````
->end
+

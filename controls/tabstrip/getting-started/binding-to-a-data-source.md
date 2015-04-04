@@ -46,7 +46,7 @@ This tutorial will show how to bind __RadTabStrip__ to an __AccessDataSource__:
 
 1. Add the following __TabClick__ event handler to your __RadTabStrip__ control so that the text box shows the value of a tab item when the user selects it:
 
->tabbedCode
+
 
 ````C#
 	protected void RadTabStrip1_TabClick(object sender, Telerik.Web.UI.RadTabStripEventArgs e)
@@ -65,7 +65,7 @@ This tutorial will show how to bind __RadTabStrip__ to an __AccessDataSource__:
 	
 				
 ````
->end
+
 
 1. Run the application. Note that the tabs are labelled using the "Author" field of the data source. Click on a tab. Note that the text box displays the value of the "Title" field:![Bound TabStrip](images/tabstrip_boundtabstrip.png)
 

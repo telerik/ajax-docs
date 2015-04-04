@@ -18,7 +18,7 @@ position: 13
 
 Below is a code extraction from the relevant online demo in the RadGrid:
 
->tabbedCode
+
 
 ````JavaScript
 	    function onToolBarClientButtonClicking(sender, args) {
@@ -102,6 +102,6 @@ Below is a code extraction from the relevant online demo in the RadGrid:
 	        e.ExceptionHandled = True
 	    End Sub
 ````
->end
+
 
 Additional information about the event bubbling mechanism of RadGrid for ASP.NET AJAX can be found here: [Command reference]({%slug grid/control-lifecycle/command-reference-%})

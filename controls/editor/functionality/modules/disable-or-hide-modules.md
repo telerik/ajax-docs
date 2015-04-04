@@ -39,7 +39,7 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 
 1. __Via the code-behind__The first thing that has to be done to manipulate the __Modules__collection on the server is to load the default built-in modules, otherwise it will be empty and if you try to remove something it will throw an exception. This is done with the editor's __EnsureToolsFileLoaded()__ method:
 
->tabbedCode
+
 
 ````C#
 	        RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
@@ -49,7 +49,7 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 	        RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Remove("RadEditorDomInspector") 'remove a specific module
 ````
->endIn order to hide a specific module via the code-behind, get a reference to it using the Modules collection and its index and set the Visible property to false. The indexes of the built-in modules are listed below:
+In order to hide a specific module via the code-behind, get a reference to it using the Modules collection and its index and set the Visible property to false. The indexes of the built-in modules are listed below:
 
 
 |  __0__  | RadEditorStatistics |
@@ -60,7 +60,7 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 
 1. __Using ToolsFile__Configuring built-in modules from the tools file is done in the <modules> node. For example:
 
->tabbedCode
+
 
 ````C#
 	        RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
@@ -70,7 +70,7 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 	        RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Clear() 'clear the module collections
 ````
->endThe __Enabled__property set to __false__will disable the respective module. The __Visible__property will hide the module. To make it visible again use the Module Manager splitbutton.
+The __Enabled__property set to __false__will disable the respective module. The __Visible__property will hide the module. To make it visible again use the Module Manager splitbutton.
 
 >note If the modules node is not declared the default settings will be applied.
 >

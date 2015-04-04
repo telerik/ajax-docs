@@ -18,7 +18,7 @@ There are two options for creating adding the RadFilter field editors dynamicall
 
 When creating a field editor in the Page_Load event handler, it should be added to the *FieldEditors* collection first, before its values are set. This is important because no *ViewState* is managed for the editor before it has been added. Also, be sure to check that *IsPostBack*	is false. Otherwise, you will end up adding the same editors to the RadFilter multiple times.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
@@ -49,13 +49,13 @@ When creating a field editor in the Page_Load event handler, it should be added 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Creating the field editors on Page_Init
 
 When creating a field editor in the Page_Init event handler, it should be added to the *FieldEditors* collection after its attributes are set. No *ViewState* is required for the editor to be persisted as it is recreated on each page initialization.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1" ExpressionPreviewPosition="Bottom">
@@ -81,4 +81,4 @@ When creating a field editor in the Page_Init event handler, it should be added 
 	        RadFilter1.FieldEditors.Add(textFieldEditor)
 	    End Sub
 ````
->end
+

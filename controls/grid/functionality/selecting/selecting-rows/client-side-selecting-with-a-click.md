@@ -48,7 +48,7 @@ The style of the selected row is defined by the __SelectedItemStyle__ property. 
 
 You can also set the __SelectedItemStyle__ property in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    RadGrid1.SelectedItemStyle.BackColor = System.Drawing.Color.Fuchsia;
@@ -61,7 +61,7 @@ You can also set the __SelectedItemStyle__ property in the code-behind:
 	RadGrid1.SelectedItemStyle.BorderColor = System.Drawing.Color.Purple
 	RadGrid1.SelectedItemStyle.BorderStyle = BorderStyle.DashedRadGrid1.SelectedItemStyle.BorderWidth = new Unit("1px")
 ````
->end
+
 
 For a live example demonstrating client-side selection, see [Client-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
 

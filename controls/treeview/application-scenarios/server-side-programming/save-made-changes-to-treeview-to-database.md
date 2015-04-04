@@ -20,7 +20,7 @@ The structure of the treeview is loaded from this database in the __Page_Load__ 
 
 The code below shows the approach:
 
->tabbedCode
+
 
 ````C#
 	
@@ -184,7 +184,7 @@ The code below shows the approach:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

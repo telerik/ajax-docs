@@ -28,7 +28,7 @@ The key moments are:
 
 Additionally, the grid and spell components are ajaxified using RadAjaxManager instance to perform the data editing operations with asynchronous requests. Here are the relevant code snippets from the online demo:
 
->tabbedCode
+
 
 ````JavaScript
 	
@@ -260,4 +260,4 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    End Sub
 	
 ````
->end
+

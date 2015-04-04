@@ -47,7 +47,7 @@ In these cases, a solution is to force secure links by setting the __BaseUrl__ p
 
 * 
 
->tabbedCode
+
 
 ````C#
 	
@@ -68,6 +68,6 @@ In these cases, a solution is to force secure links by setting the __BaseUrl__ p
 	End Class
 
 
->end
+
 
 # See Also

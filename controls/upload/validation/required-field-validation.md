@@ -56,7 +56,7 @@ Here is the server validation function of the validator:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -74,7 +74,7 @@ Here is the server validation function of the validator:
 	        е.IsValid = (RadUpload1.InvalidFiles.Count = 0)
 	    End Sub
 ````
->end
+
 
 # See Also
 

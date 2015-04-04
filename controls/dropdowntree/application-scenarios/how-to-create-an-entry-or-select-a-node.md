@@ -32,7 +32,7 @@ Below is the example demonstrating how to achieve that by using the NodeDataBoun
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -116,4 +116,4 @@ Below is the example demonstrating how to achieve that by using the NodeDataBoun
 	        Return table
 	    End Function
 ````
->end
+

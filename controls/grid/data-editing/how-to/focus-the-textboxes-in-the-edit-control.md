@@ -18,7 +18,7 @@ When using either a UserControl or Edit forms to update or insert data in Teleri
 
 The code below demonstrates the details:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -39,11 +39,11 @@ The code below demonstrates the details:
 	        End If
 	    End Sub
 ````
->end
+
 
 An alternative approach can be to attach to the __ItemDataBound__ event handler. In the event handler, we can check if the item is of type __GridEditableItem__, and whether it is in edit mode. If these two conditions are satisfied, we can get a reference to the textbox for a particular item and set the focus for its.This is demonstrated in the code sample below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -65,4 +65,4 @@ An alternative approach can be to attach to the __ItemDataBound__ event handler.
 	        End If
 	    End Sub
 ````
->end
+

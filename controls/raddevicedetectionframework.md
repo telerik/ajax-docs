@@ -22,7 +22,7 @@ Nowadays supporting mobile devices in the Web Development is a must. However fin
 
 In order to use __Detection Framework__ you need to add reference to __Telerik.Web.Device.Detection.dll__ in your project.
 
->tabbedCode
+
 
 ````C#
 	    using Telerik.Web.Device.Detection;
@@ -30,7 +30,7 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 ````VBNET
 	    Imports Telerik.Web.Device.Detection
 ````
->end
+
 
 ## Methods
 
@@ -47,7 +47,7 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnInit(EventArgs e)
@@ -78,13 +78,13 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Getting the Screen Dimensions by User Agent String
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -106,11 +106,11 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Getting the Screen Dimensions by Custom Defined Ranges
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -142,4 +142,4 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
->end
+

@@ -22,7 +22,7 @@ When you use __EditForms__ edit mode you may prefer to hide the currently edited
 
 1. Set its __Visible__ property to __false__
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
@@ -46,4 +46,4 @@ When you use __EditForms__ edit mode you may prefer to hide the currently edited
 	        Next item
 	    End Sub
 ````
->end
+

@@ -86,7 +86,7 @@ Add a RadScriptBlock and JavaScript function "ajaxRequest()" (you can add this b
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -117,4 +117,4 @@ Add a RadScriptBlock and JavaScript function "ajaxRequest()" (you can add this b
 	
 	
 ````
->end
+

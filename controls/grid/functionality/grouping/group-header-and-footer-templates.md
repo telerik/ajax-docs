@@ -38,7 +38,7 @@ Same as when accessing header totals, when grouping by a __GridCalculatedColumn_
 
 Below follows and example of group header and footer templates usage.
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadGrid ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
@@ -189,9 +189,9 @@ Below follows and example of group header and footer templates usage.
 	    <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT * FROM Products" runat="server"></asp:SqlDataSource>
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadGrid1_PreRender(object sender, EventArgs e)
@@ -365,4 +365,4 @@ Below follows and example of group header and footer templates usage.
 	        TryCast(item.FindControl("Label5"), Label).ForeColor = col
 	    End Sub
 ````
->end
+

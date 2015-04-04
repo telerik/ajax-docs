@@ -87,7 +87,7 @@ For more information, please see the [Context menu](http://demos.telerik.com/asp
 
 If more than one appointment context menu is declared, you can specify which one to be opened for a specific appointmentvia the Appointment's __ContextMenuID__ property. For example:
 
->tabbedCode
+
 
 ````C#
 	
@@ -104,7 +104,7 @@ If more than one appointment context menu is declared, you can specify which one
 	    End Sub
 		
 ````
->end
+
 
 If the RadScheduler is read-only (via the __ReadOnly__ property) – then you will not be able to edit or delete appointments. This reflects on the context menu items too. The two options of the default appointment context menu will be disabled. Also if __AllowEdit__ or __AllowDelete__ properties of the RadScheduler are set to __“False”__ – the corresponding menu item will be disabled.
 

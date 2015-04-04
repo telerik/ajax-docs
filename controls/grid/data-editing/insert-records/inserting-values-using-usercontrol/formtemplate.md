@@ -14,7 +14,7 @@ position: 1
 
 Inserting values through __WebUserControl Edit Form__ and __FormTemplate__ can be done in exactly the same way as updating values from these custom edit forms. The only difference is that you need to create a new record in the grid data source instead of updating an already existing one. To handle the actual insert operation when the user hits the __Insert__ button, you can hook the __InsertCommand__ event of Telerik RadGrid or the __ItemCommand__ event (checking whether __e.CommandName__ is __RadGrid.PerformInsertCommandName__).The forthcoming code snippets show how this can be done with user control custom edit form:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_InsertCommand(object source, GridCommandEventArgs e)
@@ -99,11 +99,11 @@ Inserting values through __WebUserControl Edit Form__ and __FormTemplate__ can b
 	        End Try
 	    End Sub
 ````
->end
+
 
 and with form template custom edit form (note that with form template you may prefer the [codeless approach](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [automatic operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid):
 
->tabbedCode
+
 
 ````C#
 	
@@ -195,7 +195,7 @@ and with form template custom edit form (note that with form template you may pr
 	        End If
 	    End Sub
 ````
->end
+
 
 Additionally, review the online demos linked below to see the approach in real-life example:
 
@@ -207,7 +207,7 @@ Additionally, review the online demos linked below to see the approach in real-l
 
 If you use WebUserControl as edit form in Telerik RadGrid and populate the values inside the user control with __DataItem__ property (defined in the code-behind of this user control), you have to make sure that this __DataItem__ property is of type Object. Thus the automatic insert operation (when clicking Add new record from the link button inside the CommandItem) will be performed as expected.
 
->tabbedCode
+
 
 ````C#
 	
@@ -234,7 +234,7 @@ If you use WebUserControl as edit form in Telerik RadGrid and populate the value
 	        End Set
 	    End Property
 ````
->end
+
 
 ## Setting predefined values for controls inside user control on item insertion
 
@@ -250,7 +250,7 @@ When you want to access controls inside the currently inserted item, having user
 
 Here is an example which will change the text for TextBox with __ID txtEmployeeID__ inside insertion form user control of Telerik RadGrid:
 
->tabbedCode
+
 
 ````C#
 	
@@ -283,7 +283,7 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Setting predefined values for controls inside FormTemplate on item insertion
 
@@ -299,7 +299,7 @@ When you want to access controls inside the currently inserted item, having Form
 
 Here is an example which will change the text for TextBox with __ID txtEmployeeID__ inside insertion form user control of Telerik RadGrid:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -327,11 +327,11 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        End If
 	    End Sub
 ````
->end
+
 
 When you have dropdown list/checkbox in the grid make sure that you specify the field to which you bind the control inside the form template as __key__ for the dictionary object (passed to the __InsertItem(newValues)__ method). For example:
 
->tabbedCode
+
 
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
@@ -376,7 +376,7 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 	        }
 	    }
 ````
->end
+
 
 The other option is to set __AppendDataBoundItems="true"__ for a dropdown list (residing in form template custom edit form) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:
 

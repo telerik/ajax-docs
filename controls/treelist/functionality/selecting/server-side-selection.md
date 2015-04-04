@@ -24,7 +24,7 @@ In both cases, to enable multi-item selection, you need to set the RadTreeList__
 
 RadTreeList server-side selection is enabled for the users once you add the__TreeListSelectColumn__ to the RadTreeList Columns collection. You do not need toset any additional properties. Then checking the checkbox rendered in the column marks the correspondingitem as selected. As a result, postback is performed and the __ItemCommand__ eventis fired with command name __RadTreeList.SelectCommandName__. To deselect an item,one should uncheck the checkbox in the select column. Then again postback is performed and theItemCommand event is fired with command name __RadTreeList.DeselectCommandName__.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" DataSourceID="SqlDataSource1"
@@ -61,13 +61,13 @@ RadTreeList server-side selection is enabled for the users once you add the__Tre
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Programmatic items selection
 
 To select an item/items with server-side code, you can set the particular item/items__Selected__ property to __true__:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_PreRender(object sender, EventArgs e)
@@ -82,7 +82,7 @@ To select an item/items with server-side code, you can set the particular item/i
 	        item.Selected = True
 	    End Sub
 ````
->end
+
 
 ## Deselecting items programmatically
 

@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing no methods
 
->tabbedCode
+
 
 ````C#
 	
@@ -42,7 +42,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

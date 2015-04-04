@@ -60,7 +60,7 @@ Every item in the menu hierarchy has, as the value of its __NavigateUrl__ proper
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e) 
@@ -87,7 +87,7 @@ Every item in the menu hierarchy has, as the value of its __NavigateUrl__ proper
 	        End If
 	    End Sub
 ````
->end
+
 
 When the user clicks an item, after the postback, the path to the item appears highlighted:
 

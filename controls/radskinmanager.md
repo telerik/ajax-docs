@@ -153,7 +153,7 @@ Here is a sample RadSkinManager definition which will apply __Web20__ skin for a
 
 Since you can have only a single RadSkinManager instance on your page/master page, if you have master/content page or user control in page scenario, consider utilizing the __RadSkinManager.GetCurrent(Page)__method to specify programmatically Telerik control targets to be skinned by the manager. Here is a code snippet that demonstrates how to utilize the __ApplySkin(control, skinName)__ method under master/content page or page/user control configuration:
 
->tabbedCode
+
 
 ````C#
 	
@@ -171,13 +171,13 @@ Since you can have only a single RadSkinManager instance on your page/master pag
 	        Telerik.Web.UI.RadSkinManager.GetCurrent(Me.Page).ApplySkin(RadMenu1, "WebBlue") 'user control
 	    End Sub
 ````
->end
+
 
 For the same __INamingContainer__ (the page in which the RadSkinManager resides) you also have the option to modify the TargetControls collection of the manager using the __TargetControls.Add(id, skinName)__ method.
 
 To limit the skins displayed in the combobox skin chooser mode of RadSkinManager (when setting its __ShowChooser__ property to true), wire the PreRender event of the control, get reference to the internal RadComboBox instance which holds the skin names and hide the skins you do not want to be shown as list item options. Here are some sample code snippets for that:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadSkinManager ID="RadSkinManager1" runat="server" ShowChooser="true" Skin="Default"
@@ -226,7 +226,7 @@ To limit the skins displayed in the combobox skin chooser mode of RadSkinManager
 	
 	
 ````
->end
+
 
 ## Server-side specifics
 

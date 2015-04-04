@@ -137,7 +137,7 @@ ObjectDataSource allows you to get data from a variety of underlying data stores
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -272,7 +272,7 @@ ObjectDataSource allows you to get data from a variety of underlying data stores
 	
 	
 ````
->end
+
 
 ````ASPNET
 	    <telerik:RadTreeView 

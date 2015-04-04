@@ -22,7 +22,7 @@ You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties 
 
 ## RadTreeList bound to SqlDataSource
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
@@ -65,11 +65,11 @@ You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties 
 	        </UpdateParameters>
 	    </asp:SqlDataSource>
 ````
->end
+
 
 ## RadTreeList bound to LinqDataSource
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="LinqDataSource1"
@@ -89,7 +89,7 @@ You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties 
 	        TableName="Links" EnableUpdate="true" EnableInsert="true">
 	    </asp:LinqDataSource>
 ````
->end
+
 
 ## 
 

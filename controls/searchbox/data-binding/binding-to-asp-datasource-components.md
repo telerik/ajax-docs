@@ -102,7 +102,7 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -192,7 +192,7 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 	
 	
 ````
->end
+
 
 ## XMLDataSource
 

@@ -20,7 +20,7 @@ The mandatory thing to do is to set the __AppendDataBoundItems__ property of the
 
 The next step is to add the static item. You can add it either inline (in the <Items> </Items> section) or in the code behind. If you prefer the latter approach you need to add the item in the __DataBound__ event of the combobox (not to be mistaken with [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event). The __DataBound__ event fires after all items are bound and loaded to the combobox:
 
->tabbedCode
+
 
 ````C#
 	
@@ -42,7 +42,7 @@ The next step is to add the static item. You can add it either inline (in the <I
 	    End Sub
 	
 ````
->end
+
 
 That was easy. What if your combobox uses [Templates]({%slug combobox/templates/overview%})? For example, the template could look like this:
 

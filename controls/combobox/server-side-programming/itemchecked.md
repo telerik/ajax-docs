@@ -40,7 +40,7 @@ Use the __ItemChecked__ event handler to respond in server-side code when the us
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -59,7 +59,7 @@ Use the __ItemChecked__ event handler to respond in server-side code when the us
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

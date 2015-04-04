@@ -28,7 +28,7 @@ When a Node is dropped onto another Node, between other Nodes or onto an HTML el
 
 See [Drag and Drop Overview]({%slug treeview/drag-and-drop/overview%}) for more information.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeView1_NodeDrop(object sender, Telerik.Web.UI.RadTreeNodeDragDropEventArgs e)
@@ -41,7 +41,7 @@ See [Drag and Drop Overview]({%slug treeview/drag-and-drop/overview%}) for more 
 	        e.DestDragNode.Nodes.Add(e.SourceDragNode)
 	    End Sub
 ````
->end
+
 
 # See Also
 

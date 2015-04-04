@@ -45,7 +45,7 @@ In the example below, the default page contains a RadTreeView with a single Node
 
 The following is the code used to access controls on the default page from the second page.
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -75,6 +75,6 @@ The following is the code used to access controls on the default page from the s
 	        End Class
 	    End Namespace
 ````
->end
+
 
 For a live example, see [Cross-Page Postback](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/CrossPagePostBack/DefaultCS.aspx).

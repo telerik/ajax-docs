@@ -16,7 +16,7 @@ position: 6
 
 The NodeCreated event fires when new Nodes are created and added to the RadTreeView. The __RadTreeNodeEventArgs__ provides a reference to the newly created Node.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -33,7 +33,7 @@ The NodeCreated event fires when new Nodes are created and added to the RadTreeV
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

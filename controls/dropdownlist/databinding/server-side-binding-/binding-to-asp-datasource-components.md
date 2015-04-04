@@ -28,7 +28,7 @@ To bind to a DataSource component, all you need to do is set the __DataSourceID_
 
 If you need to map additional columns from the data source to properties of RadDropDownList items, you can use the __ItemDataBound__ event. The event arguments passed to the event, __e.Item__ and __e.Item.DataItem__, hold the instance of RadDropDownList item being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of RadDropDownList item. Be sure to cast the __DataItem__ object to the proper data type first.
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,7 +48,7 @@ If you need to map additional columns from the data source to properties of RadD
 	    End Sub
 	
 ````
->end
+
 
 ## SqlDataSource
 
@@ -118,7 +118,7 @@ If you need to map additional columns from the data source to properties of RadD
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -207,7 +207,7 @@ If you need to map additional columns from the data source to properties of RadD
 	        End Class
 	    End Class
 ````
->end
+
 
 ## XmlDataSource
 

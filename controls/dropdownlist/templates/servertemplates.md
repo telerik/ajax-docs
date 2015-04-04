@@ -25,7 +25,7 @@ You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTe
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnInit(EventArgs e)
@@ -104,11 +104,11 @@ You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTe
 	
 	
 ````
->end
+
 
 If you want to add different templates to specific items, based on some property or value for instance, the best way is to use the __TemplateNeeded__ event.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadDropDownList1_TemplateNeeded1(object sender, DropDownListItemEventArgs e)
@@ -125,7 +125,7 @@ If you want to add different templates to specific items, based on some property
 	        RadDropDownList1.ItemTemplate = textBoxTemplate
 	    End Sub
 ````
->end
+
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
 
@@ -133,7 +133,7 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -165,4 +165,4 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 	        RadDropDownList1.DataBind()
 	    End Sub
 ````
->end
+

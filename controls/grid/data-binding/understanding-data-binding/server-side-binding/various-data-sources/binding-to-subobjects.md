@@ -20,7 +20,7 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:GridBoundColumn DataField="Inner1.TestProp" HeaderText="Inner1.TestProp">
@@ -109,6 +109,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	    End Class
 	
 ````
->end
+
 
 For a live example that illustrates these features, see [Various data sources](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/Binding/DefaultCS.aspx).

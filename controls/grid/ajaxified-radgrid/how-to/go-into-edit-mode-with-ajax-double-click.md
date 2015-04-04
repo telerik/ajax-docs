@@ -113,7 +113,7 @@ The example uses __<RadAjaxManagerInstance>.AjaxRequest(args)__ calls (wiring th
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````VB.NET
 	    Protected Sub RadGrid1_ItemUpdated(ByVal source As Object, ByVal e As GridUpdatedEventArgs) Handles RadGrid1.ItemUpdated
@@ -175,6 +175,6 @@ And in the code-behind:
 	
 	
 ````
->end
+
 
 You can see this sample live [ here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/EditOnDblClick/DefaultCS.aspx)

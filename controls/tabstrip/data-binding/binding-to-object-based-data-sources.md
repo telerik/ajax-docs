@@ -59,7 +59,7 @@ The following example shows a __RadTabStrip__ bound declaratively to an __Object
 
 The __ObjectDataSource__ component is configured to use the __SiteDataItem__ business object. The __SiteDataItem__ class is defined below:
 
->tabbedCode
+
 
 ````C#
 	using System.Collections.Generic;
@@ -174,7 +174,7 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	End Class 
 	
 ````
->end
+
 
 ## Binding to an object that supports IEnumerable
 
@@ -196,7 +196,7 @@ To bind directly to a collection, you must bind the tabstrip at runtime, using t
 
 The following example shows a tabstrip bound to an __ArrayList__. The list contains __SiteDataItem__ objects with the same definition as in the __ObjectDataSource__ example, only that their __ParentID__ property is of nullable type - __int?__:
 
->tabbedCode
+
 
 ````C#
 	private ArrayList GenerateSiteData()
@@ -256,7 +256,7 @@ The following example shows a tabstrip bound to an __ArrayList__. The list conta
 	End Sub 
 	          
 ````
->end
+
 
 # See Also
 

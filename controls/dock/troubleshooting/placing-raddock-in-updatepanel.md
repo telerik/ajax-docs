@@ -132,7 +132,7 @@ __Example 4__: Placing a docked dock in an update panel may lead to JavaScript e
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -151,7 +151,7 @@ __Example 4__: Placing a docked dock in an update panel may lead to JavaScript e
 	    End Sub
 	
 ````
->end
+
 
 You can __avoid this error by preventing the dragging__ of the dock while an AJAX request is processed. The [RadAjaxLoadingPanel](17E31C56-1D2D-4C8D-9A43-1BEF6D86E7F2) control, used in combination with RadAjaxPanel, is quite useful for this purpose (__Example 5__).
 

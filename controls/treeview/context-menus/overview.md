@@ -46,7 +46,7 @@ The example below defines both the RadTreeView structure and a Context Menu, inl
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -89,4 +89,4 @@ The example below defines both the RadTreeView structure and a Context Menu, inl
 	    End Sub
 	
 ````
->end
+

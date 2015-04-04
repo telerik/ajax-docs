@@ -27,7 +27,7 @@ The declaration of __RadAutoCompleteBox__ in the markup includes no __DataSource
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to RadAutoCompleteBox. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,7 +67,7 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        Return data
 	    End Function
 ````
->end
+
 
 # See Also
 

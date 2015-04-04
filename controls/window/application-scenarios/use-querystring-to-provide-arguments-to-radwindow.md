@@ -54,7 +54,7 @@ The main page which calls up the __RadWindow__ dialog presents a grid with a lin
 
 The parameters that you send can be read from the Request object in the __Page_Load__ method of the page (__MyDialog.aspx__) being loaded in the window:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -74,4 +74,4 @@ The parameters that you send can be read from the Request object in the __Page_L
 	        End If
 	    End Sub
 ````
->end
+

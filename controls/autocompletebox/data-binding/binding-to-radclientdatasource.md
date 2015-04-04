@@ -49,7 +49,7 @@ The following application scenario shows an example of RadAutoCompleteBox bound 
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -120,4 +120,4 @@ The following application scenario shows an example of RadAutoCompleteBox bound 
 	End Class
 
 
->end
+

@@ -47,7 +47,7 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadButton1_Click(object sender, System.EventArgs e)
@@ -60,7 +60,7 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 	        RadButton1.Text = "RadButton was clicked at: " + DateTime.Now.ToString
 	    End Sub
 ````
->end
+
 
 >note Since Q2 2012 the event __OnClientClicking__ is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article[RadButton Validation And Client-side Event Handlers]({%slug button/application-scenarios/radbutton-validation-and-client-side-event-handlers%}).
 >

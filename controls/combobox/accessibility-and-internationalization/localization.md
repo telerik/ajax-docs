@@ -34,7 +34,7 @@ By changing the values of each of its named sub-properties, you change the appea
 
 ![ComboBox Localization Properties](images/combobox_localizationpropertygrid.PNG)
 
->tabbedCode
+
 
 ````C#
 	     
@@ -48,7 +48,7 @@ By changing the values of each of its named sub-properties, you change the appea
 	    RadComboBox1.Localization.ShowMoreFormatString = "Items <b>1</b>-<b>{0}</b> out of <b>{1}</b>"
 				
 ````
->end
+
 
 >note This technique is useful when customizing some of the messages of a __particular instance__ . The messages are not shared between RadComboBox instances. A complete translation using this approach is inappropriate.
 >

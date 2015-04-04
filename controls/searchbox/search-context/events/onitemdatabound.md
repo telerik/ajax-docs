@@ -24,7 +24,7 @@ The __ItemDataBound__ event occurs for each item that is added to the Items coll
 
 __Example 1__: Demonstrates how to use the __ItemDataBound__ event handler, in order to set the __ImageUrl__ property of the __SearchContextItem__. 
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,4 +51,4 @@ __Example 1__: Demonstrates how to use the __ItemDataBound__ event handler, in o
 	    End Sub
 	
 ````
->end
+

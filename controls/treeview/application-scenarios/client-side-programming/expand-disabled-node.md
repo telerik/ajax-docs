@@ -63,7 +63,7 @@ __SOLUTION__To achieve the task we will leave the node enabled, but we will add 
 
 Here is how you can add "disabled" nodes from the code-behind.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -95,4 +95,4 @@ Here is how you can add "disabled" nodes from the code-behind.
 	    End Sub
 	
 ````
->end
+

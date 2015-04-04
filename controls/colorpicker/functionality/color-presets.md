@@ -19,7 +19,7 @@ There are a number of embedded palettes which can be used by setting the __Prese
 
 ![](images/radcolorpicker008.png)
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -64,7 +64,7 @@ There are a number of embedded palettes which can be used by setting the __Prese
 			End Class
 		End Namespace
 ````
->end
+
 
 # See Also
 

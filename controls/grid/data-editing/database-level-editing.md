@@ -16,7 +16,7 @@ position: 12
 
 In numerous cases you may want to perform data editing operations at database level with Update/Insert/Delete commands from the code-behind. This can be done wiring the UpdateCommand/InsertCommand/DeleteCommand events of RadGrid and executing appropriate Update/Insert/Delete queries which refresh the data in the underlying database. Below are the code snippets from a simple example which uses auto-generated edit form:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Lime" GridLines="None" AllowPaging="True"
@@ -289,7 +289,7 @@ In numerous cases you may want to perform data editing operations at database le
 	
 	    End Sub
 ````
->end
+
 
 You can also review the forthcoming code library thread for different scenarios:
 

@@ -42,7 +42,7 @@ In the __NeedDataSource__ event handler, you should prepare the data source (lis
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void RadImageGallery1_NeedDataSource(object sender, Telerik.Web.UI.ImageGalleryNeedDataSourceEventArgs e)
@@ -84,7 +84,7 @@ In the __NeedDataSource__ event handler, you should prepare the data source (lis
 			Return table
 		End Function
 ````
->end
+
 
 # See Also
 

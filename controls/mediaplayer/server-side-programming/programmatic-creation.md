@@ -16,7 +16,7 @@ position: 1
 
 In some scenarios it is required to create the __RadMediaPlayer__ control programmatically. Depending on some user interaction or selection, you can even build up the Playlist anew. The following example demonstrates a generic dynamic creation and configuration of the player and adds it to the main Controls collection. You can add it to a PlaceHolder or similar container control instead.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -70,7 +70,7 @@ In some scenarios it is required to create the __RadMediaPlayer__ control progra
 	        Form.Controls.Add(player)
 	    End Sub
 ````
->end
+
 
 For creating the Playlist feature dynamicallyand to examine a bit more advanced scenario, you can check the [Programmatic Creation Code-Library](http://www.telerik.com/support/code-library/programmatic-creation-and-configuration-of-the-media-player-control).
 

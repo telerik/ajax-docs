@@ -28,7 +28,7 @@ You may want to hide the expand/collapse images when there are no records under 
 
 Below is the code of a simple demo with two level hierarchy:
 
->tabbedCode
+
 
 ````ASPNET
 	<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="95%"
@@ -130,6 +130,6 @@ Below is the code of a simple demo with two level hierarchy:
 	        Next
 	    End Sub
 ````
->end
+
 
 In order to hide the expand/collapse images in multiple nested levels, you will need to perform a recursive loop through each table in depth. How to traverse the grid items in such manner you can learn from [this topic]({%slug grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables/items-in-telerik-radgrid%}).

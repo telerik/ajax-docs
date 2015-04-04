@@ -23,7 +23,7 @@ To bind a RadChart to an [Array](http://msdn2.microsoft.com/en-us/library/system
 
 ![Databinding to an array](images/radchart-building007.png)
 
->tabbedCode
+
 
 ````C#
 	
@@ -44,7 +44,7 @@ To bind a RadChart to an [Array](http://msdn2.microsoft.com/en-us/library/system
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

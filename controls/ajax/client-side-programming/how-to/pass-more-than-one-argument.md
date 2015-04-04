@@ -25,7 +25,7 @@ By default, the __ajaxRequest__ and __ajaxRequestWithTarget__ functions accept o
 
 and split them on the server in the __AjaxManager_AjaxRequest__:
 
->tabbedCode
+
 
 ````C#
 	    private void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
@@ -42,7 +42,7 @@ and split them on the server in the __AjaxManager_AjaxRequest__:
 	
 	
 ````
->end
+
 
 # See Also
 

@@ -50,7 +50,7 @@ In the following example, we construct a simple 3-level Custom Links treeview:
 
 ![](images/editor-dropdowns012.png)
 
->tabbedCode
+
 
 ````C#
 	
@@ -97,7 +97,7 @@ In the following example, we construct a simple 3-level Custom Links treeview:
 	        'Adds the forums link as a child of the support link
 	
 ````
->end
+
 
 ## Using the ToolsFile
 

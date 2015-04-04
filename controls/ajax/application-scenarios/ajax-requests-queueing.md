@@ -20,7 +20,7 @@ If the queue is full (queue size equals __RequestQueueSize__), an attempt for ne
 
 The default value is 0 (queueing disabled).
 
->tabbedCode
+
 
 ````C#
 	     
@@ -35,7 +35,7 @@ The default value is 0 (queueing disabled).
 	        <RadAjaxControl>.RequestQueueSize = 3
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -42,7 +42,7 @@ The Code snippets dropdown is a convenient tool for inserting predefined chunks 
 
 Use the __Snippets__collection __Add()__method to include new items in the list.In the following example, we construct a new set of code snippets with two items - a Product Template and an e-mail Signature:
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,14 +56,14 @@ Use the __Snippets__collection __Add()__method to include new items in the list.
 	        RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manager<br>")
 	
 ````
->end
+
 
 To create a dropdown with image thumbnails, insert the img tag as the first argument of the __Add()__ method. The img tag content is the path to the image source:
 >caption 
 
 ![](images/editor-dropdowns014.png)
 
->tabbedCode
+
 
 ````C#
 	
@@ -75,7 +75,7 @@ To create a dropdown with image thumbnails, insert the img tag as the first argu
 	        RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cut.gif' /> test", "test")
 	
 ````
->end
+
 
 ## Using the ToolsFile
 

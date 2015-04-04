@@ -40,7 +40,7 @@ The path to the Web service and the name of the service method are specified in 
 
 To use the integrated support, the Web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 		[OperationContract]
@@ -99,7 +99,7 @@ To use the integrated support, the Web service should have the following signatu
 	        Return dropDownData
 	    End Function
 ````
->end
+
 
 # See Also
 

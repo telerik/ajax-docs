@@ -20,7 +20,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -172,7 +172,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 	    End Sub
 	End Class
 ````
->end
+
 
 ## Using a WebService
 
@@ -249,7 +249,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 
 1. To use the integrated WebService support of __RadTagCloud__, the WebService should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	    [ScriptService]
@@ -298,7 +298,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 	    End Function
 	End Class
 ````
->end
+
 
 >note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 >
@@ -391,7 +391,7 @@ where the WCF WebService must be in the website, e.g.:
 
 1. To use the integrated WCF WebService support of __RadTagCloud__, the WCF WebService should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	    [ServiceContract(Namespace = "")]
@@ -444,7 +444,7 @@ where the WCF WebService must be in the website, e.g.:
 	    End Function
 	End Class
 ````
->end
+
 
 >note The class that identifies an item is the same for both types of web services and is shown in the beginning of the article.
 >

@@ -57,7 +57,7 @@ You can assign the orientation declaratively in the __RadSplitter__ declaration:
 
 You can also set the __Orientation__ property of the splitter from the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -80,7 +80,7 @@ You can also set the __Orientation__ property of the splitter from the code-behi
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

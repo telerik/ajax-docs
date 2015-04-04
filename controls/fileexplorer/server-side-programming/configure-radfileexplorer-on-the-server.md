@@ -18,7 +18,7 @@ For convenience the subcontrols of __RadFileExplorer__(RadMenu, RadUpload, etc.)
 
 Example:
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -62,7 +62,7 @@ Example:
 	
 	    End Sub
 ````
->end
+
 
 # See Also
 

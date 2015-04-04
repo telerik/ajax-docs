@@ -34,7 +34,7 @@ For the server-side validation, we have the following markup. On the ASPX page a
 
 The validation is executed on the __OnServerValidate__ event of the CustomValidator:
 
->tabbedCode
+
 
 ````C#
 		protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
@@ -51,7 +51,7 @@ The validation is executed on the __OnServerValidate__ event of the CustomValida
 	End Class
 
 
->end
+
 
 ## Client-side Validation
 

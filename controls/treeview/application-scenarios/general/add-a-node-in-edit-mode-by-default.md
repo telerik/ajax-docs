@@ -38,7 +38,7 @@ After clicking the context menu item with text __Create__ of a random TreeView N
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -92,7 +92,7 @@ After clicking the context menu item with text __Create__ of a random TreeView N
 	        edited.Text = e.Text.ToString()
 	    End Sub
 ````
->end
+
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" OnNodeEdit="RadTreeView1_NodeEdit" OnContextMenuItemClick="RadTreeView1_ContextMenuItemClick"

@@ -22,7 +22,7 @@ In order to enable the WAI-ARIA support, set the __RadNotification__'s __EnableA
 
 __Example 1__: Setting the __EnableAriaSupport__ property for __RadNotification__
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadNotification EnableAriaSupport="true" runat="server" ID="RadNotification1"></telerik:RadNotification>
@@ -37,7 +37,7 @@ __Example 1__: Setting the __EnableAriaSupport__ property for __RadNotification_
 	End Class
 
 
->end
+
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

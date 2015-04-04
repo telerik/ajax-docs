@@ -81,7 +81,7 @@ In code behind of __AdvancedForm__.ascx____ add the following code in the "Attri
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -119,7 +119,7 @@ In code behind of __AdvancedForm__.ascx____ add the following code in the "Attri
 	    End Property
 	
 ````
->end
+
 
 4. In __DefaultCS__.aspx or __DefaultVB__.aspx
 
@@ -200,7 +200,7 @@ optionally -
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -232,7 +232,7 @@ optionally -
 	    End Sub
 	
 ````
->end
+
 
 6. Register __AdvancedForm__.__js__with the script manager for the page and handle RadScheduler's __OnClientFormCreated__event.
 
@@ -341,7 +341,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 4. In code-behind of the __AdvancedForm__ user control add the following code:
 
->tabbedCode
+
 
 ````C#
 	
@@ -379,7 +379,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 	    End Property
 	
 ````
->end
+
 
 5. In __AdvancedForm.js__add a method to get the client object of RadColorPicker:
 

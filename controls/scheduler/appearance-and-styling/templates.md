@@ -81,7 +81,7 @@ This template is more complicated, including a text box for entering the appoint
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -110,7 +110,7 @@ This template is more complicated, including a text box for entering the appoint
 	    End Sub
 	
 ````
->end
+
 
 The result of the above code is shown below:
 
@@ -205,7 +205,7 @@ __FormCreated__
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -255,13 +255,13 @@ __FormCreated__
 	    End Sub
 	
 ````
->end
+
 
 In addition, we need to add an __AppointmentCommand__ event handler to create the recurrence rule if the Repeat CheckBox is checked:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -302,7 +302,7 @@ In addition, we need to add an __AppointmentCommand__ event handler to create th
 	    End Sub
 	
 ````
->end
+
 
 The result of the above code is shown below:![Advanced insert template](images/scheduler_advancedinserttemplate.png)
 
@@ -360,7 +360,7 @@ __FormCreated__
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -420,7 +420,7 @@ __FormCreated__
 	    End Sub
 	
 ````
->end
+
 
 >note We do not need to make any changes to the __AppointmentCommand__ event handler for handling the recurring event check box.The existing event handler that we added for the __AdvancedInsertTemplate__ already handles the "Insert" command.
 >

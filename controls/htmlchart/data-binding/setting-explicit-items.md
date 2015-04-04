@@ -42,7 +42,7 @@ The y-axis automatically adjusts to accommodate the values and its appearance ca
 
 __Example 1__: Shows how the above setups are used in a real-live scenario.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="1000px" Height="400px">
@@ -215,7 +215,7 @@ __Example 1__: Shows how the above setups are used in a real-live scenario.
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

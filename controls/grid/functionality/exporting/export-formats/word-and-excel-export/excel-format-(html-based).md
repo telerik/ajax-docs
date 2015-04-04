@@ -42,7 +42,7 @@ Office HTML format supports page headers and footers.	Microsoft Excel makes this
 
 An example is shown below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -62,13 +62,13 @@ An example is shown below:
 	    End Sub
 	
 ````
->end
+
 
 ## Number formats / Formulas
 
 __Microsoft Office HTML__ format allows you to define custom number formats by using the __mso-number-format__ style attribute. Several examples are shown below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
@@ -110,7 +110,7 @@ __Microsoft Office HTML__ format allows you to define custom number formats by u
 	    End Sub
 	
 ````
->end
+
 
 You can see some of the most common custom number formats and their description in the following table:
 
@@ -130,7 +130,7 @@ Another interesting feature, supported by the Excel export are the formulas. You
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
@@ -155,7 +155,7 @@ Another interesting feature, supported by the Excel export are the formulas. You
 	    End Sub
 	
 ````
->end
+
 
 ## XML Options
 
@@ -178,7 +178,7 @@ A list of the supported __ExcelWorkbook__ properties is represented below.
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -202,7 +202,7 @@ Example:
 	    End Sub
 	
 ````
->end
+
 
 __Print element__ contains different print options which allow you to modify the printed output.
 
@@ -220,7 +220,7 @@ A list of the supported __Print__ properties is represented below.
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
@@ -252,11 +252,11 @@ Example:
 	    End Sub
 	
 ````
->end
+
 
 Another useful property is __RowBreak__. This property allows you to set a page breaks of the rows. Generally you can assign as	many __RowBreak__ properties as you need and add them in the __RowBreaks__ collection. The example below demonstrates	how to use them. Note that the __Print__ element should be set as well in order the row breaks to be applied correctly.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, Telerik.Web.UI.GridHTMLExportingEventArgs e)
@@ -290,4 +290,4 @@ Another useful property is __RowBreak__. This property allows you to set a page 
 	    End Sub
 	
 ````
->end
+

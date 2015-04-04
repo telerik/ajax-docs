@@ -38,7 +38,7 @@ The __SaveDockLayout__ event handler receives two arguments:
 
 Typically, a __SaveDockLayout__ event handler uses the __RadDockLayout__ control's __GetRegisteredDocksState__ method, which returns a list of __DockState__ objects that represent the state and position of the each __RadDock__ control managed by the __RadDockLayout__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -87,7 +87,7 @@ Typically, a __SaveDockLayout__ event handler uses the __RadDockLayout__ control
 	    End Sub
 	
 ````
->end
+
 
 >caution The __RadDockLayout__ control only manages the layout of __RadDock__ and __RadDockZone__ controls that are contained in its __Controls__ collections.
 >

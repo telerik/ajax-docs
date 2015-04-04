@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 * __Items__ - collection of all __RadListBoxItem__ objects which will be affected by the transfer / deletion.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_Deleted(object sender, RadListBoxEventArgs e)
@@ -53,7 +53,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

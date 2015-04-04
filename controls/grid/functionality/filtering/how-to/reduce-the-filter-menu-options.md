@@ -20,7 +20,7 @@ To limit the filter options displayed for a given column on the client, you need
 
 Below is a sample code implementation (based on the approach explained above) that customizes the filter menu options for columns with *String* and *Int64 *data type. If no DataType is specified for the columns explicitly in their html markup, it will be taken from the data type of the underlying source field:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
@@ -110,7 +110,7 @@ Below is a sample code implementation (based on the approach explained above) th
 	            </script>
 	        </telerik:RadCodeBlock>
 ````
->end
+
 
 The following steps describe how to accomplish the same functionality server-side:
 
@@ -128,7 +128,7 @@ The following steps describe how to accomplish the same functionality server-sid
 
 The following example shows how to reduce the set of filter functions so that the filter menu can only show the __NoFilter__, __Contains__, __EqualTo__, __GreaterThan__ and __LessThan__ items:
 
->tabbedCode
+
 
 ````C#
 	
@@ -170,4 +170,4 @@ The following example shows how to reduce the set of filter functions so that th
 	    'RadGrid1_Init
 	
 ````
->end
+

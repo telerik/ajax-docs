@@ -57,7 +57,7 @@ When the grid is first loaded on the page, it is sorted based on the __GridSortE
 
 You can manipulate the grid sort programmatically by creating instances of the __GridSortExpression__ class and adding them to the __SortExpressions__ collection:
 
->tabbedCode
+
 
 ````C#
 	        GridSortExpression expression = new GridSortExpression();
@@ -73,7 +73,7 @@ You can manipulate the grid sort programmatically by creating instances of the _
 	    RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression)
 	    RadGrid1.MasterTableView.Rebind()
 ````
->end
+
 
 Sorting is handled internally by a DataView. Be sure that you specify the properties of the __GridSortExpression__ class properly, or the grid will throw an exception when it is data bound.
 

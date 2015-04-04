@@ -65,7 +65,7 @@ __Count__ - should be passed from the __requestItems()__ client-side method to s
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_ItemsRequested(object sender, RadListBoxItemsRequestedEventArgs e)
@@ -91,4 +91,4 @@ __Count__ - should be passed from the __requestItems()__ client-side method to s
 	        Next
 	    End Sub
 ````
->end
+

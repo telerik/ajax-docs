@@ -67,7 +67,7 @@ In the codebehind, the button's __Click__ handler uses the
 __FindControl__ method of the __DataListItem__ to
 locate the control in the template:
 
->tabbedCode
+
 
 ````C#
 	
@@ -91,7 +91,7 @@ locate the control in the template:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

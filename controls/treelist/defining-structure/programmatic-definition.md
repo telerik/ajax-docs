@@ -22,7 +22,7 @@ The samples bellow illustrate both approaches:
 
 ## Create the RadTreeList entirely in code-behind on Page_Init
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
@@ -170,11 +170,11 @@ The samples bellow illustrate both approaches:
 	        PlaceHolder1.Controls.Add(treeList)
 	    End Sub
 ````
->end
+
 
 ## Statically declared RadTreeList and configured on Page_Load
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />    
@@ -320,7 +320,7 @@ The samples bellow illustrate both approaches:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Creating template columns dynamically
 
@@ -334,7 +334,7 @@ To create an ItemTemplate dynamically, you must define a custom class that imple
 
 Here follows a sample implementation including both kind of templates:
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
@@ -660,4 +660,4 @@ Here follows a sample implementation including both kind of templates:
 	        End Function
 	    End Class
 ````
->end
+

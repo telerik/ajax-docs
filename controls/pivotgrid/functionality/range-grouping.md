@@ -69,7 +69,7 @@ Finally, when the custom group description class defines new properties, they ha
 
 An example of a custom-defined field that provides a specific, user-tailored range grouping is givenbelow. The __CustomDateTimeField__ will group date-time values into half-year periods.
 
->tabbedCode
+
 
 ````C#
 	public class CustomDateTimeField : PivotGridColumnField
@@ -284,7 +284,7 @@ An example of a custom-defined field that provides a specific, user-tailored ran
 	End Class
 	
 ````
->end
+
 
 The result can be seen in the Range Grouping demo linked in the Related Resources section below.
 

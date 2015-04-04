@@ -18,7 +18,7 @@ To drop onto any arbitrary HTML element including standard HTML tags, ASP.NET co
 
 ![RadTreeView Drag and Drop to HTML](images/treeview_draganddroptohtmlelementspng.png)
 
->tabbedCode
+
 
 ````C#
 	using System.Web.UI;
@@ -58,7 +58,7 @@ To drop onto any arbitrary HTML element including standard HTML tags, ASP.NET co
 	        End Class
 	    End Namespace
 ````
->end
+
 
 To see a live example of drag and drop to an HTML element visit the [Drag & Drop live demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/DragAndDropNodes/DefaultCS.aspx).
 

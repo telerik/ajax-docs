@@ -39,7 +39,7 @@ To bind to a table-based DataSource component:
 
 1. Bind any additional properties of the panel items using the [ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%}): 
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ To bind to a table-based DataSource component:
 	    End Sub
 	
 ````
->end
+
 
 The resulting declaration looks something like the following:
 

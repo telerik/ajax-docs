@@ -41,7 +41,7 @@ You need to design your custom class (holding the set of controls for the __NoRe
 
 The example below shows how to embed MS Label in the NoRecordsTemplate of the MasterTableView at runtime:
 
->tabbedCode
+
 
 ````C#
 	
@@ -117,6 +117,6 @@ The example below shows how to embed MS Label in the NoRecordsTemplate of the Ma
 	        'runtime column definitions
 	    End Sub
 ````
->end
+
 
 Detailed information about how to create templates programmatically you can find in the __MSDN__: [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vstechart.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)

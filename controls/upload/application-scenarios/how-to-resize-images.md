@@ -28,7 +28,7 @@ The following example demonstrates how to save uploaded images and create thumbn
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -108,13 +108,13 @@ The following example demonstrates how to save uploaded images and create thumbn
 	        Next file
 	    End Sub
 ````
->end
+
 
 This method is useful when the produced thumbnail image is less than 120 x 120px. If you need a biggerthumbnail you can use the following one:
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -163,4 +163,4 @@ This method is useful when the produced thumbnail image is less than 120 x 120px
 	    End Sub
 	
 ````
->end
+

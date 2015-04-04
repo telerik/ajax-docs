@@ -22,7 +22,7 @@ All you need to do is set the DataSourceID property of the ListView to the ID of
 
 Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/databinding/net35datasourcecontrols/defaultcs.aspx) of the product for details and the code snippets in the next paragraph:
 
->tabbedCode
+
 
 ````C#
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -242,7 +242,7 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	    <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities"
 	        DefaultContainerName="NorthwindEntities" EntitySetName="Products" Where="it.ProductID > 0 AND it.ProductID < 7" />
 ````
->end
+
 
 ## Additional resources
 

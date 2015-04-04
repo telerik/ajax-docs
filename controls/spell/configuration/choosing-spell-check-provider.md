@@ -36,7 +36,7 @@ The example below demonstrates how to use and configure the EditDistanceProvider
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -50,4 +50,4 @@ The example below demonstrates how to use and configure the EditDistanceProvider
 	RadSpell1.EditDistance = 2
 				
 ````
->end
+

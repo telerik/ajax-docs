@@ -22,7 +22,7 @@ In order to enable the WAI-ARIA support, set the __RadToolTip__ / __RadToolTipMa
 
 __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and __RadToolTip__
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadToolTip EnableAriaSupport="true" runat="server" ID="RadToolTip1"></telerik:RadToolTip>
@@ -39,7 +39,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and
 	End Class
 
 
->end
+
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements.	This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

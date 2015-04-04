@@ -26,7 +26,7 @@ As you cannot display RadAjax loading panel when you are using the RadToolTipMan
 
 Below are the code snippets from the demo referred above:
 
->tabbedCode
+
 
 ````ASPNET
 	        <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -271,7 +271,7 @@ Below are the code snippets from the demo referred above:
 	        End If
 	    End Sub
 ````
->end
+
 
 ````ASPNET
 	  <asp:Button ID="btnAddNewProduct" runat="server" Text="Add more" UseSubmitBehavior="false"
@@ -294,7 +294,7 @@ Below are the code snippets from the demo referred above:
 
 
 
->tabbedCode
+
 
 ````C#
 	    private int _loadedControls = 0;
@@ -534,4 +534,4 @@ Below are the code snippets from the demo referred above:
 	    End Property
 	
 ````
->end
+

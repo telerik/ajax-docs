@@ -18,7 +18,7 @@ When a user log in you may want to set permissions for editing grid items depend
 
 In the example below we assume that the __Bool__ column in the grid data source is our permission column. Note that you can hide the column if you wish by setting its __Display__ property to __false__:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -63,4 +63,4 @@ In the example below we assume that the __Bool__ column in the grid data source 
 	        End If
 	    End Sub
 ````
->end
+

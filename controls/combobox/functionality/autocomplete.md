@@ -30,7 +30,7 @@ As of Q2 2008, __RadComboBox__ introduces a new property - __EnableTextSelection
 
 If RadComboBox displays [multiple columns]({%slug combobox/templates/headers%}), you can search by whichever column value you want, by formatting the text of items so that the desired search column comes first. Use the ItemDataBound event handler to set the text of the items in the desired order:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -51,7 +51,7 @@ If RadComboBox displays [multiple columns]({%slug combobox/templates/headers%}),
 	    End Sub
 	
 ````
->end
+
 
 ## Autocomplete without a separator
 

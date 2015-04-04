@@ -16,7 +16,7 @@ position: 1
 
 To traverse Nodes, iterate the __Nodes__ collection of the TreeView or __Nodes__ collection of a Node. Each member of the collection will be of __RadTreeNode__ type that will allow access to __Text__, __Value__ and other properties. Use the __GetAllNodes()__ method to return Nodes from the entire Tree at one time.
 
->tabbedCode
+
 
 ````C#
 	foreach (RadTreeNode node in RadTreeView1.Nodes)
@@ -36,4 +36,4 @@ To traverse Nodes, iterate the __Nodes__ collection of the TreeView or __Nodes__
 	 tbResults.Text += node.Text + System.Environment.NewLine
 	Next 		
 ````
->end
+

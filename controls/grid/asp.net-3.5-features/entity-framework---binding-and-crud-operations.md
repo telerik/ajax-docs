@@ -83,7 +83,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)    
@@ -115,4 +115,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	    End Sub
 	
 ````
->end
+

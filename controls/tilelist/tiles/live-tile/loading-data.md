@@ -32,7 +32,7 @@ The RadLiveTile can be populated from a [Web Service](http://msdn.microsoft.com/
 
 The following example shows how to setup the LiveTile in this scenario:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadLiveTile ID="RadLiveTile1" runat="server">
@@ -83,11 +83,11 @@ The following example shows how to setup the LiveTile in this scenario:
 	End Class
 
 
->end
+
 
 Below is the definition of the class __CustomObject__
 
->tabbedCode
+
 
 ````C#
 	
@@ -191,7 +191,7 @@ Below is the definition of the class __CustomObject__
 	End Class
 
 
->end
+
 
 ## Loading Data From WCF Service
 
@@ -203,7 +203,7 @@ The RadLiveTile can be populated from a [WCF Service](http://msdn.microsoft.com/
 
 The configuration of the LiveTile will be as follows:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadLiveTile ID="RadLiveTile2" runat="server">
@@ -247,11 +247,11 @@ The configuration of the LiveTile will be as follows:
 	End Class
 
 
->end
+
 
 Below is the definition of the class __CustomObject__
 
->tabbedCode
+
 
 ````C#
 	
@@ -355,7 +355,7 @@ Below is the definition of the class __CustomObject__
 	End Class
 
 
->end
+
 
 ## Loading Data From ODataDataSource
 
@@ -415,7 +415,7 @@ The RadLiveTile can be populated from a [page method](http://www.asp.net/ajaxlib
 
 The example below shows this setup:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadLiveTile ID="RadLiveTile4" runat="server">
@@ -449,11 +449,11 @@ The example below shows this setup:
 	End Class
 
 
->end
+
 
 Below is the definition of the class __CustomObject__
 
->tabbedCode
+
 
 ````C#
 	
@@ -557,4 +557,4 @@ Below is the definition of the class __CustomObject__
 	End Class
 
 
->end
+

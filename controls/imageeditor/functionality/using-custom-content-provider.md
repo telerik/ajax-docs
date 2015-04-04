@@ -20,7 +20,7 @@ RadImageEditor is using the same abstract class, FileBrowserContentProvider, as 
 
 To configure RadImageEditor to use custom content provider you need to configure its ImageManager like follows:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -45,7 +45,7 @@ To configure RadImageEditor to use custom content provider you need to configure
 	        RadImageEditor1.ImageManager.SearchPatterns = New String() {"*.jpg", "*.jpeg", "*.gif", "*.png", "*.bmp"}
 	    End Sub
 ````
->end
+
 
 >note  __ViewPaths__ , __UploadPaths__ and __DeletePaths__ for RadImageEditor's ImageManager should be set to the same path.
 >
@@ -53,7 +53,7 @@ To configure RadImageEditor to use custom content provider you need to configure
 
 ## FileBrowserContentProvider abstract class structure
 
->tabbedCode
+
 
 ````C#
 	    public class myNewProvider : Telerik.Web.UI.Widgets.FileBrowserContentProvider
@@ -217,4 +217,4 @@ To configure RadImageEditor to use custom content provider you need to configure
 	    End Class
 	
 ````
->end
+

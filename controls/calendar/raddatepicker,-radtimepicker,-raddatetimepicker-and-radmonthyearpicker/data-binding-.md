@@ -54,7 +54,7 @@ To see the live example that the example above was taken from, see [Data Binding
 
 You can also bind RadTimePicker to a custom collection of time. The following Markup and code demonstrates how this can be done:
 
->tabbedCode
+
 
 ````ASPNET
 	
@@ -115,6 +115,6 @@ You can also bind RadTimePicker to a custom collection of time. The following Ma
 	        RadTimePicker4.TimeView.DataList.DataSource = New Object() {DateTime.Now, DateTime.Now.AddHours(1)}
 	    End Sub
 ````
->end
+
 
 To see the live example of the above see [Binding to custom collections](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/DateTimePicker/CustomCollection/DefaultCS.aspx).

@@ -51,7 +51,7 @@ To use the integrated support, the Web service should have the signature as show
 * The array of __RadTreeNodeData__ returned by the method is used to store the data that will populate the child nodes. Create and assign properties to the RadTreeNodeData array members just as you would to the actual child nodes.>
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -113,6 +113,6 @@ To use the integrated support, the Web service should have the signature as show
 	
 				
 ````
->end
+
 
 For a live example of using a Web service to populate a __RadTreeView__, see [Populate From Web Service](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx).

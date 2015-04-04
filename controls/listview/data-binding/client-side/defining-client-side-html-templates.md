@@ -141,7 +141,7 @@ Equipped with the data and functions in the context of the HTML templates, you c
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	<LayoutTemplate>
@@ -172,4 +172,4 @@ Equipped with the data and functions in the context of the HTML templates, you c
 	    }
 	</script>
 ````
->end
+

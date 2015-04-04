@@ -137,7 +137,7 @@ FilterExpression - Hierarchical recursive structure that allows defining of nest
 
 
 
->tabbedCode
+
 
 ````C#
 	        var filter1 = new ClientDataSourceFilterExpression{ LogicOperator= ClientDataSourceFilterLogicOperator.Or};
@@ -167,7 +167,7 @@ FilterExpression - Hierarchical recursive structure that allows defining of nest
 		    Key .Value = "3" _
 	    })
 ````
->end
+
 
 >note The filter value on the server is always __string__ (if the value property is not string it cannot be set through markup and thewhole filter expressions setting in the markup becomes useless). Consider the following filter expression:
 >

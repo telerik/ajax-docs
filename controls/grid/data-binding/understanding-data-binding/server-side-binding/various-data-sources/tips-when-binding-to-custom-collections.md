@@ -44,7 +44,7 @@ The properties that are not visible for presentation have the [PresentationHidde
 
 ## BusinessObject
 
->tabbedCode
+
 
 ````C#
 	
@@ -300,11 +300,11 @@ The properties that are not visible for presentation have the [PresentationHidde
 	        End Class 'AggregatedObjectPropertyDescriptor
 	    End Namespace 'BusinessObjects 
 ````
->end
+
 
 ## CustomTypeDescriptorHelper
 
->tabbedCode
+
 
 ````C#
 	     
@@ -517,7 +517,7 @@ The properties that are not visible for presentation have the [PresentationHidde
 	        End Class 'AggregatedObjectPropertyDescriptor
 	    End Namespace 'BusinessObjects 
 ````
->end
+
 
 This implementation also allows __RadGrid__ and __GridView__ (and other similar) controls to bind to properties of "sub-objects", which appear as properties of the business object, by just specifying the [IntroduceObject] attribute. The implementation of the __ICustomTypeDescriptor__ interface for the business object programmatically constructs a new set of properties for the type, containing the properties of the sub-objects in a "flat" manner. This is similar to what the __DataRowView__ does, for instance.
 
@@ -547,7 +547,7 @@ When you need to bind the grid control to a collection of dynamic objects it is 
 
 
 
->tabbedCode
+
 
 ````C#
 	protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -643,4 +643,4 @@ When you need to bind the grid control to a collection of dynamic objects it is 
 	        End Function
 	    End Class
 ````
->end
+

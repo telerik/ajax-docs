@@ -83,7 +83,7 @@ This example illustrates using the context to pass information about the current
 
 1. On the __RadComboBox__, set the __ItemsRequested__ event handler to read the value from the context object: 
 
->tabbedCode
+
 
 ````C#
 	
@@ -123,4 +123,4 @@ This example illustrates using the context to pass information about the current
 	    End Sub 'Cities_ItemsRequested
 	
 ````
->end
+

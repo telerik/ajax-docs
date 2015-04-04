@@ -52,7 +52,7 @@ To limit the number of characters the user can enter in the text box editor of t
 
 When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataItem__ in regular mode but not in edit mode. In event handlers such as the __ItemCreated__ event (for example), you can cast the item to __GridEditableItem__ (a base class of __GridDataItem__) when the item is in edit mode:
 
->tabbedCode
+
 
 ````C#
 	private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -84,13 +84,13 @@ When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataI
 	        End If
 	    End Sub
 ````
->end
+
 
 When the item is edited, you can cast it to __GridEditFormItem__ (a class that extends the __GridEditableItem__ class) to reference the controls in it. The __GridEditFormItem__ class has an __EditFormCell__ property that provides access to the cell which wraps the controls inside the edit form.
 
 You can also use the __ParentItem__ property of __GridEditFormItem__ to access the parent data item object from code inside an __UpdateCommand__, __InsertCommand__, or __ItemCommand__ event handler:
 
->tabbedCode
+
 
 ````C#
 	if(e.Item is GridDataItem)
@@ -122,7 +122,7 @@ You can also use the __ParentItem__ property of __GridEditFormItem__ to access t
 	            Dim dataItem As GridDataItem = CType(formItem.ParentItem, GridDataItem)
 	        End If
 ````
->end
+
 
 Further information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/referencing-controls-in-grid-row-edit-form%}).
 
@@ -132,7 +132,7 @@ The grid's __EditItems__ collection contains the items (rows) of the grid that a
 
 To support all edit modes in an application, check the table view's __EditMode__ property when traversing the __EditItems__ collection:
 
->tabbedCode
+
 
 ````C#
 	foreach (GridDataItem item in RadGrid1.EditItems)
@@ -153,4 +153,4 @@ To support all edit modes in an application, check the table view's __EditMode__
 	    'perform further operations
 	    Next item
 ````
->end
+

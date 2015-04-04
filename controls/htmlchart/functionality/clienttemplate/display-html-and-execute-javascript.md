@@ -95,7 +95,7 @@ ClientTemplate can render HTML from a data source following this syntax: __"#: #
 
 __Example 1__: This example illustrates how to render and display HTML in tooltips.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:radhtmlchart runat="server" id="RadHtmlChart1" skin="Vista">
@@ -155,7 +155,7 @@ __Example 1__: This example illustrates how to render and display HTML in toolti
 			Return tbl
 		End Function
 ````
->end
+
 >caption Figure 1: Using a ClientTemplate to display HTML in a tooltip.
 
 ![htmlchart-client Templates-display-html](images/htmlchart-clientTemplates-display-html.png)

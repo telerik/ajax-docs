@@ -24,7 +24,7 @@ The __ItemDataBound__ event handler receives two arguments:
 
 You can use this event to customize the appearance of items in the time picker based on their value:
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,7 +54,7 @@ You can use this event to customize the appearance of items in the time picker b
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

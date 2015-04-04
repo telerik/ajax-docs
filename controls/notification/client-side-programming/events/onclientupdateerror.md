@@ -40,7 +40,7 @@ This code sample will throw the event every time the notification is shown, yet 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void OnCallbackUpdate(object sender, RadNotificationEventArgs e)
@@ -57,7 +57,7 @@ This code sample will throw the event every time the notification is shown, yet 
 	End Class
 
 
->end
+
 
 # See Also
 

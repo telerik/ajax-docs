@@ -28,7 +28,7 @@ The source for the grid is generated via web service (MyWebService.asmx).
 
 Below are the code snippets from the sample:
 
->tabbedCode
+
 
 ````ASPNET
 	   
@@ -322,9 +322,9 @@ Below are the code snippets from the sample:
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    using System;
@@ -452,9 +452,9 @@ Below are the code snippets from the sample:
 ````
 
 
->end
 
->tabbedCode
+
+
 
 ````C#
 	public class EmployeesList : List<Employee>
@@ -503,9 +503,9 @@ Below are the code snippets from the sample:
 ````
 
 
->end
 
->tabbedCode
+
+
 
 ````C#
 	public class Employee
@@ -616,4 +616,4 @@ Below are the code snippets from the sample:
 ````
 
 
->end
+

@@ -22,7 +22,6 @@ In order to implement a custom provider for the __RadGantt__ you would need to c
 
 1. Create a class that should inherit the __GanttProviderBase__ class. 
 
->tabbedCode
 
 
 
@@ -31,10 +30,8 @@ In order to implement a custom provider for the __RadGantt__ you would need to c
 
 
 
->endIn the custom class you should implement the Get, Update, Delete and Insert methods using the EntityFramework DBContenxt for both Task and Dependencies objects. 
 
->tabbedCode
-
+In the custom class you should implement the Get, Update, Delete and Insert methods using the EntityFramework DBContenxt for both Task and Dependencies objects. 
 
 
 
@@ -42,7 +39,10 @@ In order to implement a custom provider for the __RadGantt__ you would need to c
 
 
 
->end
+
+
+
+
 
 >note  __The Dependency__ object should not implement an Update method, as it does not possess such functionality. In addition, the methods should return object of type __Task__ and __Dependency__ .
 >
@@ -50,7 +50,6 @@ In order to implement a custom provider for the __RadGantt__ you would need to c
 
 1. Provide the __RadGantt__ control with the newly created custom provider at the Page_Load in the following manner : 
 
->tabbedCode
 
 
 
@@ -59,6 +58,7 @@ In order to implement a custom provider for the __RadGantt__ you would need to c
 
 
 
->end
+
+
 
 [Here](http://www.telerik.com/support/code-library/radganttcustomentityprovider-a3e011e74a6b) you could find a code library with a runnable sample project, created base of the above instructions.

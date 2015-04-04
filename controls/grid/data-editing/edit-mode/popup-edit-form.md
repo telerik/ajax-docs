@@ -92,7 +92,7 @@ Any input control could be focused with a call to its server-side Focus() method
 
 This method is used the same way as the regular Focus method with the only difference that you need to pass as a parameter an int number that shows how many miliseconds to wait before setting the focus:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -137,11 +137,11 @@ This method is used the same way as the regular Focus method with the only diffe
 	#End Region
 
 
->end
+
 
 And the respective extension method:
 
->tabbedCode
+
 
 ````C#
 	public static class ControlExtensions
@@ -186,4 +186,4 @@ And the respective extension method:
 	#End Region
 
 
->end
+

@@ -32,7 +32,7 @@ If multiple fields are needed for linking to child tables, you can list them in 
 
 __DataKeyNames__ is an array of strings, so if you are creating the grid's structure at runtime, assign each field name as a separate array entry:
 
->tabbedCode
+
 
 ````C#
 	    RadGrid1.MasterTableView.DataKeyNames = new string[2] { "CustomerID", "EmployeeID" };			
@@ -42,7 +42,7 @@ __DataKeyNames__ is an array of strings, so if you are creating the grid's struc
 							RadGrid1.MasterTableView.DataKeyNames = New String(2) {"CustomerID", "EmployeeID"}
 				
 ````
->end
+
 
 ## ParentTableRelation
 

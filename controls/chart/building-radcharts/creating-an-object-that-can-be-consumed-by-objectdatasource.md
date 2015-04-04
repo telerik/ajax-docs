@@ -22,7 +22,7 @@ See the code below for an example object that can be consumed by [ObjectDataSour
 
 See [Data Binding RadChart to an ObjectDataSource]({%slug chart/building-radcharts/data-binding-radchart-to-an-objectdatasource%}) for an example of how to use this object for binding.
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -80,7 +80,7 @@ See [Data Binding RadChart to an ObjectDataSource]({%slug chart/building-radchar
 	End Namespace
 	
 ````
->end
+
 
 
 

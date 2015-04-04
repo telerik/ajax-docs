@@ -49,7 +49,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 1. Handle the __Preview__ command execution in your __ItemCommand__ event handler and call the __SetPreviewMode__() method to force the user control in preview mode:
 
->tabbedCode
+
 
 ````VB.NET
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
@@ -77,11 +77,11 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        }
 	    }
 ````
->end
+
 
 1. In the __code-behind of the user control disable all controls__ which reside in the edit form (except the cancel button) and change the cancel button text to __Close.__
 
->tabbedCode
+
 
 ````VB.NET
 	    Public Sub SetPreviewMode()
@@ -110,4 +110,4 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        btnCancel.Text = "Close";
 	    }
 ````
->end
+

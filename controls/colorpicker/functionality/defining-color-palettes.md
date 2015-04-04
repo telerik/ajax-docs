@@ -82,7 +82,7 @@ The result is:
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -99,7 +99,7 @@ The result is:
 			RadColorPicker1.Items.AddRange(RadColorPicker1.GetGrayscaleColors())
 		End Sub
 ````
->endThe result is:
+The result is:
 >caption 
 
 ![](images/radcolorpicker004.png)

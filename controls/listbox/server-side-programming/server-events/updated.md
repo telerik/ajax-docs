@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * __Items__ - collection of all __RadListBoxItem__ objects which will be affected by the reordering. This collection is __different__ from the Items collection in the Reordering/Reordered events
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,7 +45,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

@@ -22,7 +22,7 @@ Additionally, to make the grid stretch inside the corresponding pane on horizont
 
 Below is the code logic used in the example:
 
->tabbedCode
+
 
 ````JavaScript
 	    function ClientResized(sender, eventArgs) {
@@ -161,4 +161,4 @@ Below is the code logic used in the example:
 	        End Select
 	    End Sub
 ````
->end
+

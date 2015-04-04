@@ -21,7 +21,7 @@ Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug
 
 ![RadTreeView Client-Side Load on Demand](images/treeview_loadondemandclient.png)
 
->tabbedCode
+
 
 ````C#
 	     
@@ -70,7 +70,7 @@ Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug
 	
 	
 ````
->end
+
 
 To load an arbitrary number of levels on-demand client-side, the general steps are:
 
@@ -97,7 +97,7 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 
 ![RadTreeView Load On Demand Overview](images/treeview_loadondemandoverview.png)
 
->tabbedCode
+
 
 ````C#
 	
@@ -217,4 +217,4 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	
 	
 ````
->end
+

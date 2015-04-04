@@ -70,7 +70,7 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -95,7 +95,7 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
->end
+
 
 Now the check boxes reflect the properties of the tabs:
 

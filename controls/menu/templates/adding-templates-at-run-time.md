@@ -23,7 +23,7 @@ You can also add templates to __RadMenu__ at runtime, using the __ItemTemplate__
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnInit(EventArgs e)
@@ -98,7 +98,7 @@ You can also add templates to __RadMenu__ at runtime, using the __ItemTemplate__
 	        End Sub
 	    End Class
 ````
->end
+
 
 If you for some reason cannot define the template in the OnInit event of the page, you could use another approach:
 
@@ -108,7 +108,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -142,7 +142,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	    End Sub
 	
 ````
->end
+
 
 The end result of this code looks like the following:
 

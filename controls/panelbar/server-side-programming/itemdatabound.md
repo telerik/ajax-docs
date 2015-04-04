@@ -28,7 +28,7 @@ The __ItemDataBound__ event handler receives two arguments:
 
 Use an __ItemDataBound__ event handler to initialize the properties of panel items to reflect values from the data source that are not mapped automatically using the __DataTextField__, __DataValueField__, and __DataNavigateUrlField__ properties:
 
->tabbedCode
+
 
 ````C#
 	
@@ -49,7 +49,7 @@ Use an __ItemDataBound__ event handler to initialize the properties of panel ite
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

@@ -38,7 +38,7 @@ The RadEditor Symbols dropdown by default displays a predefined set of symbols. 
 
 Use the RealFontSizes collection __Add()__method to include new items in the list. You can add a character using the unicode escape character "\u" plus the number of the character or use the symbol literals directly.
 
->tabbedCode
+
 
 ````C#
 	
@@ -71,7 +71,7 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 		RadEditor1.Symbols.Add("®")
 	
 ````
->end
+
 
 When using the Symbols Collection __Add()__the Symbols dropdown will be reset, so the symbols you add will not be appended to the default set, but will rather create a new Symbol set. See the example below:
 

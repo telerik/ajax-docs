@@ -36,7 +36,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 
 
 
->tabbedCode
+
 
 ````C#
 	    foreach (ClientOperation<RadToolBarItem> operation in RadToolBar1.ClientChanges)
@@ -79,7 +79,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	End Class
 
 
->end
+
 
 # See Also
 

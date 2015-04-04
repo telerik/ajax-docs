@@ -34,7 +34,7 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -92,13 +92,13 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	  End Function
 	End Class
 ````
->end
+
 
 ## Implementing the provider
 
 1. Declare the provider class, inheriting from __DbSchedulerProviderBase__:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -116,11 +116,11 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Class
 	
 ````
->endBoth __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract classes. The new provider class must provide an implementation for the abstract methods __GetAppointments__, __Insert__, __Update__, __Delete__, __GetResourceTypes__, and __GetResourcesByType__.
+Both __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract classes. The new provider class must provide an implementation for the abstract methods __GetAppointments__, __Insert__, __Update__, __Delete__, __GetResourceTypes__, and __GetResourcesByType__.
 
 1. Before implementing the methods that deal with appointments, lay the groundwork by implementing the support for custom resources. The first step is to implement __GetResourceTypes__ to supply the scheduler with a list of available resource types. __GetResourceTypes__ returns only basic information: the name of the resource and a boolean value indicating whether the provider supports multiple resource values for that type. Because this provider supports multiple values of the Student resource, we indicate that now:
 
->tabbedCode
+
 
 ````C#
 	
@@ -144,11 +144,11 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Function
 	
 ````
->end
+
 
 1. Implement the __GetResourcesByType__ method to supply the scheduler with a list of possible values given a resource type. This requires a query to the database to obtain the list of values. Once retrieved, the resources are cached. The base class, DbSchedulerProviderBase, provides the infrastructure for querying the database: The connection is established by calling __OpenConnection()__ and database commands are created using the __DbFactory__ object:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -311,11 +311,11 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Function
 	
 ````
->end
+
 
 1. While we are working with resources, create a private helper method to read the resources for an appointment and assign them to the appointment object. This method will be useful when the provider reads appointments from the database. Note that the resource objects are read from cache.
 
->tabbedCode
+
 
 ````C#
 	
@@ -377,11 +377,11 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Sub
 	
 ````
->end
+
 
 1. Provide the implementation for __GetAppointments__ to supply the scheduler with a list of all the appointments in the database. Note that this assigns an owner and a class ID before calling LoadResources to load the resources for the appointment:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -459,7 +459,7 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Function
 	
 ````
->end
+
 
 >note Note that this method reads UTC dates from the database. To make this clear to __RadScheduler__ it calls __DateTime.SpecifyKind()__ . You should store dates in UTC format to ensure proper handling of[time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
 >
@@ -467,7 +467,7 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 
 1. Before proceeding to the __Insert__, __Update__, and __Delete__ commands, the provider needs a few more helper functions. Because the provider is supporting multiple students for each class, it needs helper functions to add and delete these many-to-many relationships in the cross-link table (__ClassStudents__):
 
->tabbedCode
+
 
 ````C#
 	     
@@ -514,11 +514,11 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 	End Sub
 	
 ````
->end
+
 
 1. To simplify creating parameters in the Insert and Update methods, add another helper function:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -575,11 +575,11 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 	End Sub
 	
 ````
->end
+
 
 1. Inserting appointments is a bit complicated as you need to retrieve the identity value. A stored procedure might be of help here. However, in order to target both MS SQL Server and MS Access, the provider uses normal queries. The __Insert__ method breaks abstraction for the sake of data integrity: MS SQL Server provides the SCOPE_IDENTITY() function to retrieve the identity value of the current transaction, unlike @@IDENTITY that is a global identity value. After inserting the new class and obtaining its identity value, the identity value is passed to the __FillClassStudents__ method, to create the many-to-many relationship between classes and students. The __Insert__ method works in a transaction to ensure data integrity.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -656,11 +656,11 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 	
 	
 ````
->end
+
 
 1. The most challenging part of the update operation is to manage the many-to-many relationship. The provider needs to clear the cross-link table entries for the appointment and recreate them from scratch:
 
->tabbedCode
+
 
 ````C#
 	
@@ -718,11 +718,11 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 	End Sub
 	
 ````
->end
+
 
 1. The __Delete__ method executes two queries: one to delete the entries for the appointment in the cross-link table and another to delete the appointment itself.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -775,7 +775,7 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 	
 	
 ````
->end
+
 
 # See Also
 

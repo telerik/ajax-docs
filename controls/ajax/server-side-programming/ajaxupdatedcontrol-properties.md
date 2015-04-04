@@ -24,7 +24,7 @@ When configuring ajax settings, be it declaratively, or dynamically, you might n
 
 Example:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -77,4 +77,4 @@ Example:
 	End Class
 
 
->end
+

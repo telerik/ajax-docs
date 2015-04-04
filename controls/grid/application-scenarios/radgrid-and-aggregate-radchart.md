@@ -22,7 +22,7 @@ In addition, the three controls on the page are ajaxified by RadAjaxManager to r
 
 Below are the relevant code excerpts:
 
->tabbedCode
+
 
 ````ASPNET
 	                  <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -112,4 +112,4 @@ Below are the relevant code excerpts:
 	        e.SeriesItem.Name = DirectCast(DataBinder.Eval(e.DataItem, "pName"), String)
 	    End Sub
 ````
->end
+

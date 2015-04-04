@@ -47,7 +47,7 @@ The following example demonstrates how to handle an AJAX request from one __RadA
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_PreRender(object sender, EventArgs e)
@@ -113,4 +113,4 @@ And in the code-behind:
 	        RadAjaxPanel2.ResponseScripts.Add(String.Format("$find('{0}').ajaxRequest();", RadAjaxPanel1.ClientID))
 	    End Sub 'btnDecrease_Click 
 ````
->end
+

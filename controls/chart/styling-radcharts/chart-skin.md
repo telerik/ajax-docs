@@ -30,7 +30,7 @@ Once you have set up your skin you can save it in a __ChartSkin__ object using t
 
 When you want to reuse the skin, you need to create an instance of __ChartSkin__ object, specifying the XML file as a source. Then you can apply the skin to the chart using the __ApplyTo__ method.
 
->tabbedCode
+
 
 ````C#
 	
@@ -52,6 +52,6 @@ When you want to reuse the skin, you need to create an instance of __ChartSkin__
 	    myCustomSkin1.ApplyTo(RadChart1.Chart) 
 	
 ````
->end
+
 
 

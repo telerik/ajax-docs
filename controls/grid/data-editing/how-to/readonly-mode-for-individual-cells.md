@@ -16,7 +16,7 @@ position: 2
 
 Setting individual cells in read-only mode is not achievable in the current version of Telerik RadGrid.A possibleworkaround, however, is to disable the respective cell server-side to prevent the user from editing its content. This can be done by subscribing to the __ItemCreated__ event of the grid:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -57,4 +57,4 @@ Setting individual cells in read-only mode is not achievable in the current vers
 	        }
 	    }
 ````
->end
+

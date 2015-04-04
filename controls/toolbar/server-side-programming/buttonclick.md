@@ -44,7 +44,7 @@ Use the __ButtonClick__ event handler to respond when the user clicks a button i
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -73,7 +73,7 @@ Use the __ButtonClick__ event handler to respond when the user clicks a button i
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

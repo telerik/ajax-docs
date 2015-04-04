@@ -26,7 +26,7 @@ The ExtractValuesFromItem(dictionaryObject, editableItem, includePrimaryKey) met
 
 It would be easy to recognize the currently updated item by its DataKeyValue if the includePrimaryKey is true, thus including this value in the dictionary object.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -99,7 +99,7 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+
 
 ## Accessing the insert values using column editors
 
@@ -109,7 +109,7 @@ This can be achieved by getting hold of the current editable item and then acces
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -194,4 +194,4 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+

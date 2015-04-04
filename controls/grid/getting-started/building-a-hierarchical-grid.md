@@ -100,7 +100,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 
 1. Assigns the data table as the __DataSource__ of the detail table view we are binding:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_DetailTableDataBind(object sender, Telerik.Web.UI.GridDetailTableDataBindEventArgs e)
@@ -149,6 +149,6 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 	    End Function
 	
 ````
->end
+
 
 1. Run the application. Note that you can now see the dynamically bound Detail Table:![RadGrid With Three Levels](images/grid_hierarchy21.png)

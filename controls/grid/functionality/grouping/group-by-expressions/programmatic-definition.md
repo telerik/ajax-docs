@@ -48,7 +48,7 @@ You can set the __GroupByExpressions__ property in the code-behind to specify th
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -98,4 +98,4 @@ You can set the __GroupByExpressions__ property in the code-behind to specify th
 	    expression.GroupByFields.Add(gridGroupByField)
 	    tableViewOrders.GroupByExpressions.Add(expression) 			
 ````
->end
+

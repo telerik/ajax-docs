@@ -92,7 +92,7 @@ This example will generate a simple DataTable with code so that its structure is
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -185,7 +185,7 @@ This example will generate a simple DataTable with code so that its structure is
 	End Class
 
 
->end
+
 
 ### List of custom objects
 
@@ -202,7 +202,7 @@ This example will use a custom class and create a short List with its instances 
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -280,7 +280,7 @@ This example will use a custom class and create a short List with its instances 
 	End Class
 
 
->end
+
 
 # See Also
 

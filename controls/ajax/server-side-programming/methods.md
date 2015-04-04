@@ -20,7 +20,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 
 * __Alert__ - This method executes a JavaScript __alert()__ on the client.__Alert()__ takes a single string parameter for text to be displayed in the alert.
 
->tabbedCode
+
 
 ````C#
 	
@@ -32,11 +32,11 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 	        RadAjaxManager1.Alert("Please save your changes.")
 	
 ````
->end
+
 
 * __FocusControl__ - This method places focus on a specified control. __FocusControl()__ takes a singleparameter that can be the ID of the control to focus on or an object reference to the control to focus on.
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,11 +48,11 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 	        RadAjaxManager1.FocusControl(Button1)
 	
 ````
->end
+
 
 * __GetAjaxEventReference__ - This method produces client side code thatinvokes the [ajaxRequest()]({%slug ajax/client-side-programming/overview%}) method.
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,11 +67,11 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 	        '... returns "$find("RadAjaxManager1").ajaxRequest("Button1");"
 	
 ````
->end
+
 
 * __RaisePostBackEvent__ - This method triggers a server-side[AjaxRequest]({%slug ajax/server-side-programming/events/onajaxrequest%}) event and allows you to pass a single string parameter to the event. (__Example1__). __AjaxRequest__ can also be triggered by the client-side[ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -96,11 +96,11 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 	    End Sub
 	
 ````
->end
+
 
 * __Redirect__ - This method navigates the browser to another web page. The method passes a single string parameter, whichis the URL to navigate to.
 
->tabbedCode
+
 
 ````C#
 	
@@ -113,7 +113,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 	
 	
 ````
->end
+
 
 # See Also
 

@@ -30,7 +30,7 @@ Use an __ItemDataBound__ event handler to initialize the properties of menu item
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemDataBound(object sender, RadMenuEventArgs e) 
@@ -47,7 +47,7 @@ Use an __ItemDataBound__ event handler to initialize the properties of menu item
 	        e.Item.ToolTip = "Learn more about " + e.Item.Text
 	    End Sub
 ````
->end
+
 
 # See Also
 

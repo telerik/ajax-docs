@@ -22,7 +22,7 @@ Here are the steps:
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -48,7 +48,7 @@ Here are the steps:
 	    End Sub
 	
 ````
->end
+
 
 2. Define the changeEndDate javascript method as follows:
 

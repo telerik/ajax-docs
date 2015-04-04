@@ -22,7 +22,7 @@ In order to enable the WAI-ARIA support, set the __RadDropDownList__ contol's __
 
 __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadDropDownList__.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server" EnableAriaSupport="true">
@@ -43,7 +43,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadDropDownList_
 	    RadDropDownList1.EnableAriaSupport = true
 	
 ````
->end
+
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

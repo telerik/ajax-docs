@@ -25,7 +25,7 @@ Use the __RadChart____OnClick__ event to handle server postbacks caused by click
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -62,7 +62,7 @@ Use the __RadChart____OnClick__ event to handle server postbacks caused by click
 	    End Sub
 	
 ````
->end
+
 
 To react to server events in RadChart handle the Click event for a report item ActiveRegion in code. Determine the type of the clicked object by checking the "sender" object passed to the event handler. Cast "sender" to that type to use its properties and methods. See the code example below. In the radChart1_Load the ChartTitle and ChartSeriesItems both have ActiveRegion properties. The ActiveRegion.Click is assigned the "Region_Click" event handler. In "Region_Click" the Sender class is determined. For example if Sender is a ChartTitle type, Sender is cast to be a ChartTitle and its __TextBlock.Text__ property is accessed.
 >caption 
@@ -71,7 +71,7 @@ To react to server events in RadChart handle the Click event for a report item A
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -108,6 +108,6 @@ To react to server events in RadChart handle the Click event for a report item A
 	    End Sub
 	
 ````
->end
+
 
 

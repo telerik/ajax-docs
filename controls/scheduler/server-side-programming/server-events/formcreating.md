@@ -40,7 +40,7 @@ This example prevents the user from updating an appointment using the edit form 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -66,7 +66,7 @@ This example prevents the user from updating an appointment using the edit form 
 	
 	
 ````
->end
+
 
 # See Also
 

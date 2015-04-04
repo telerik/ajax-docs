@@ -40,7 +40,7 @@ To display the treelist in-place edit form, you need to set the __EditMode__ pro
 
 When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can access the edit/insert form as below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_ItemCreated(object sender, TreeListItemCreatedEventArgs e)
@@ -72,7 +72,7 @@ When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can ac
 	        End If
 	    End Sub
 ````
->end
+
 
 ## EditForms edit mode
 
@@ -88,7 +88,7 @@ To display the treelist in-forms edit form, you need to set the __EditMode__ pro
 
 When the RadTreeList edit mode is EditForms, you can access the edited item and the edit/insert form on ItemCreated/ItemDataBound as below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList2_ItemCreated(object sender, TreeListItemCreatedEventArgs e)
@@ -120,7 +120,7 @@ When the RadTreeList edit mode is EditForms, you can access the edited item and 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## PopUp edit mode
 
@@ -136,7 +136,7 @@ To display the treelist pop-up edit form, you need to set the __EditMode__ prope
 
 When the RadTreeList edit mode is PopUp, you can access the edited item and the edit/insert form on ItemCreated/ItemDataBound as below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList3_ItemCreated(object sender, TreeListItemCreatedEventArgs e)
@@ -168,7 +168,7 @@ When the RadTreeList edit mode is PopUp, you can access the edited item and the 
 	        End If
 	    End Sub
 ````
->end
+
 
 >note If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the __EditFormSettings.PopUpSettings.ShowCaptionInEditForm__ property of the treelist control to __false__ .
 >

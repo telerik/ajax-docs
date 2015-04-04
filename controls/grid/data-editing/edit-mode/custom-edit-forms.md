@@ -34,7 +34,7 @@ When __EditFormType__ is "WebUserControl", you can supply a __UserControl__ to a
 
 If you need a reference to the __UserControl__ from an event handler of your __RadGrid__ control, (for example, when the "Update" button is pressed), you must take into account that the __UserControl__ is a __Container__ that is placed inside another __Container__ (the __EditFormCell__). The following example shows how you can access the custom __UserControl__:
 
->tabbedCode
+
 
 ````C#
 	    UserControl MyUserControl = editFormItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
@@ -42,13 +42,13 @@ If you need a reference to the __UserControl__ from an event handler of your __R
 ````VB.NET
 	    Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
 ````
->end
+
 
 ## Accessing the edited grid item from the user control
 
 When __RadGrid__ loads the __UserControl__ Edit Form, the __UserControl__ has full access to the properties of the grid item in which it is loaded. Inside the __UserControl__, you can access the grid item using the __Parent.NamingContainer__ property:
 
->tabbedCode
+
 
 ````C#
 	    GridEditableItem editedItem = this.Parent.NamingContainer;
@@ -56,7 +56,7 @@ When __RadGrid__ loads the __UserControl__ Edit Form, the __UserControl__ has fu
 ````VB.NET
 	    Dim editedItem As GridEditableItem = Me.Parent.NamingContainer
 ````
->end
+
 
 Once you have a reference to the __GridEditableItem__ object, you can access any of its properties, such as cell text values, the __DataItem__ object (available in __DataBinding__ event handler), and so on.
 
@@ -64,7 +64,7 @@ Once you have a reference to the __GridEditableItem__ object, you can access any
 
 You can use the __Page__ property of the user control to access the Web page that holds the grid instance:
 
->tabbedCode
+
 
 ````C#
 	    MyPageClassName myPage = this.Page;
@@ -72,7 +72,7 @@ You can use the __Page__ property of the user control to access the Web page tha
 ````VB.NET
 	    Dim myPage As MyPageClassName = Me.Page
 ````
->end
+
 
 ## Binding controls inside the UserControl
 
@@ -102,7 +102,7 @@ If you prefer to use simpler binding expressions when implementing a __UserContr
 
 For example, if you bind __RadGrid__ to a __DataSet__, the __DataItem__ property can be declared as:
 
->tabbedCode
+
 
 ````C#
 	    private object _dataItem = null;
@@ -130,7 +130,7 @@ For example, if you bind __RadGrid__ to a __DataSet__, the __DataItem__ property
 	    End Property
 	
 ````
->end
+
 
 The __DataItem__ property should be declared as of type object. After loading the __UserControl__, __RadGrid__ tries to assign the value of the __DataItem__ property.
 
@@ -152,7 +152,7 @@ You can handle the __ItemDataBound__ event of the grid to access the controls in
 
 Here is an example that sets the text for a __TextBox__ that resides inside the user control:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -177,13 +177,13 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Binding selected values for drop-down lists
 
 To select the proper item in a drop-down list inside your __UserControl__, handle the __DataBinding__ event of the user control. Inside the event handler, bind the drop-down list and set its __SelectedIndex__ accordingly:
 
->tabbedCode
+
 
 ````C#
 	    private void MyEditForm_DataBinding(object sender, System.EventArgs e)
@@ -204,7 +204,7 @@ To select the proper item in a drop-down list inside your __UserControl__, handl
 	        ddlTOC.DataSource = Nothing
 	    End Sub
 ````
->end
+
 
 >note An important detail is to assign *empty data source* for the drop-down list to prevent binding it again at a later stage (when the rest of the edited item content is bound). The same conventions stand for nested user controls inside WebUserControl custom edit form or other controls such as listboxes, radiobutton lists, checkbox lists, and so on.
 >
@@ -253,7 +253,7 @@ Just like with the __UserControl__, when using a template form for a custom edit
 
 Here is an example that sets the text for a __TextBox__ that resides inside the form template:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -277,7 +277,7 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Creating FormTemplate custom edit form programmatically
 
@@ -285,7 +285,7 @@ You can create and assign the edit form template at runtime in the code-behind. 
 
 The following example illustrates this approach:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -360,4 +360,4 @@ The following example illustrates this approach:
 	        End Function
 	    End Class
 ````
->end
+

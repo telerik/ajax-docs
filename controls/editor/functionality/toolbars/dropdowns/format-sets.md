@@ -68,7 +68,7 @@ Below are some sample settings of the __FormatSets__ collection:![radeditor-form
 
 ## Using FormatSets Collection Programmatically
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,7 +101,7 @@ Below are some sample settings of the __FormatSets__ collection:![radeditor-form
 	        RadEditor1.FormatSets.Add(formatSet)
 	
 ````
->end
+
 
 ## Using the ToolsFile
 

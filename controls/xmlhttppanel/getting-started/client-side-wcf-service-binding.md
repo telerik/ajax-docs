@@ -45,7 +45,7 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 
 1. Definethe Contracts of the WCF Service in an interface
 
->tabbedCode
+
 
 ````C#
 	
@@ -68,11 +68,11 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 	    End Interface
 	
 ````
->end
+
 
 1. Implement the contract in the WCF Service class:
 
->tabbedCode
+
 
 ````C#
 	
@@ -97,7 +97,7 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 	End Class
 	
 ````
->end
+
 
 1. Define the configuration in web.config:
 

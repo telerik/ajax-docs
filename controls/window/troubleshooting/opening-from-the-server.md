@@ -33,7 +33,7 @@ There are several ways to work around this:
 
 
 
->tabbedCode
+
 
 ````C#
 	        protected void Button1_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ There are several ways to work around this:
 	End Class
 
 
->end
+
 
 * Reset the __VisibleOnPageLoad__ property to __false__ with code when suitable, depending on the particular scenario
 

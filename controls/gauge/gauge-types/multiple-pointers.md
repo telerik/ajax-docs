@@ -54,7 +54,7 @@ __Example 1__: Adding pointers in the Pointers collection of Linear Gauge and Ra
 
 __Example 2__: Adding pointers in the Pointers collection via the code behind.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadLinearGauge runat="server" ID="RadLinearGauge1" Width="100px" Height="300px">
@@ -154,7 +154,7 @@ __Example 2__: Adding pointers in the Pointers collection via the code behind.
 	
 		End Sub
 ````
->end
+
 
 # See Also
 

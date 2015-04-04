@@ -18,7 +18,7 @@ Although you can add aggregations to group expressions so that the group headers
 
 The following example illustrates how this is done. It uses the "Sum" and "Count" aggregated values to calculate an average and adds this calculated value to the __DataCell.Text__ property of the grid header item:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="100%"
@@ -76,4 +76,4 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 	        End If
 	    End Sub
 ````
->end
+

@@ -40,7 +40,7 @@ To specify a timeout (in milliseconds) before the server event is executed, use 
 
 The __ItemsRequested__ event handler shown below fills the RadComboBox with a set of items, loaded from a database. The items' text must match the string typed in the input area of the RadComboBox:
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,7 +86,7 @@ The __ItemsRequested__ event handler shown below fills the RadComboBox with a se
 	    End Sub
 	
 ````
->end
+
 
 [Load On Demand](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
 

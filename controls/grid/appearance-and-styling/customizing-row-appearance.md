@@ -30,7 +30,7 @@ You can set the appearance of the normal and alternating rows programmatically o
 
 __Example:__
 
->tabbedCode
+
 
 ````ASPNET
 	<telerik:RadGrid runat="server" ... />
@@ -47,7 +47,7 @@ __Example:__
 	        RadGrid1.AlternatingItemStyle.BackColor = Color.Orange;
 	        RadGrid1.ItemStyle.BackColor = Color.White;
 ````
->end
+
 
 ## Selected Item
 

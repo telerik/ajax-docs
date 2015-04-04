@@ -42,7 +42,7 @@ Usually, you also want to do one or more of the following:
 
 1. __DataFieldParentID__ - The name of the field in the data source that identifies the key field value of the parent node.The value of this field for root nodes should be __null__(table- or object-based data source) or the __default value__ of thecorresponding value type used (object-based data source).
 
->tabbedCode
+
 
 ````C#
 	    protected void RadNavigation1_NodeDataBound(object sender, NavigationNodeEventArguments e)
@@ -62,7 +62,7 @@ Usually, you also want to do one or more of the following:
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

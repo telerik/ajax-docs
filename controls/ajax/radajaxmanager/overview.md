@@ -68,7 +68,7 @@ You can set the relationship between AJAX-ified and updated controls on the serv
 
 
 
->tabbedCode
+
 
 ````C#
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(<ajaxified control>, <updated control>);
@@ -79,7 +79,7 @@ You can set the relationship between AJAX-ified and updated controls on the serv
 	    RadAjaxManager1.AjaxSettings.AddAjaxSetting(<ajaxified control>, <updated control>)
 	    RadAjaxManager1.AjaxSettings.AddAjaxSetting(<ajaxified control>, <updated control>, <LoadingPanel> or Nothing if none)			
 ````
->end
+
 
 ## Client-side Functions
 

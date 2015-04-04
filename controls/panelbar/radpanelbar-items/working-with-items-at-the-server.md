@@ -18,7 +18,7 @@ Using the server-side API, you can programmatically add, remove, and edit panel 
 
 After simply adding a __RadPanelBar__ control to your Web page, use the following server-side code to add items when the page loads:
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,7 +63,7 @@ After simply adding a __RadPanelBar__ control to your Web page, use the followin
 	    End Sub
 	
 ````
->end
+
 
 ## Adding items dynamically
 
@@ -86,7 +86,7 @@ You can dynamically update the __Items__ collection of __RadPanelBar__ and __Rad
 
 A root item will be added upon a button click (__Add Root Item__ button)A child item will be added to the first root item upon another button click (__Add Child Items__)
 
->tabbedCode
+
 
 ````C#
 	
@@ -114,7 +114,7 @@ A root item will be added upon a button click (__Add Root Item__ button)A child 
 	    End Sub
 	
 ````
->end
+
 
 Clicking on both the buttons will result in the following:
 
@@ -143,7 +143,7 @@ Consider the following panel bar:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -162,7 +162,7 @@ Consider the following panel bar:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

@@ -16,7 +16,7 @@ position: 2
 
 You can use a wide variety of custom objects as data sources for __RadGrid__. The only requirement is that the custom objects must implement the __ITypedList__, __IEnumarable__, or __ICustomTypeDescriptor__ interface. The example below demonstrates how to use one of these (__ArrayList__) to provide the structure of a __RadGrid__ control:
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
@@ -32,11 +32,11 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
->end
+
 
 Code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -58,4 +58,4 @@ Code-behind:
 	        RadGrid1.DataSource = list
 	    End Sub
 ````
->end
+

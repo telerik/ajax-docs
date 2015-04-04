@@ -26,7 +26,7 @@ When you choose to apply filtering for bound grid column of type DateTime, Teler
 
 For more details review the forthcoming code snippets (feel free to modify the logic if there are additional implementation requirements):
 
->tabbedCode
+
 
 ````ASPNET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -267,7 +267,7 @@ For more details review the forthcoming code snippets (feel free to modify the l
 	        }
 	    }
 ````
->end
+
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >

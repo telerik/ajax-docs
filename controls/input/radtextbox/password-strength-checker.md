@@ -70,7 +70,7 @@ The event __OnClientPasswordStrengthCalculating__ is fired when using the featur
 
 Here follows a code sample on using this event:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTextBox runat="server" ID="RadTextBox2" Text="Enter Password">
@@ -93,7 +93,7 @@ Here follows a code sample on using this event:
 	        }
 	    </script>
 ````
->end
+
 
 # See Also
 

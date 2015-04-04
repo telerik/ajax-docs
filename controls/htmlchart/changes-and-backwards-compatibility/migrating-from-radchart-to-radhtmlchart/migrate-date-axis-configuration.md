@@ -35,7 +35,7 @@ __Example 1__ illustrates how to configure a date axis in__RadChart__ that displ
 
 __Example 1__: Configuring date axis in __RadChart__ that displays discrete data.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadChart ID="RadChart1" runat="server" Width="600" Height="400">
@@ -111,7 +111,7 @@ __Example 1__: Configuring date axis in __RadChart__ that displays discrete data
 			Return dt
 		End Function
 ````
->end
+
 
 ### Configuring Date Axis with Discrete Data in RadHtmlChart
 
@@ -128,7 +128,7 @@ __Example 2__ illustrates how to configure a date axis in__RadHtmlChart__ that d
 
 __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete data.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
@@ -185,7 +185,7 @@ __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete 
 			Return dt
 		End Function
 ````
->end
+
 
 ## Configuring Date Axis with Continuous Data
 
@@ -210,7 +210,7 @@ __Example 3__ illustrates how to configure a date axis in__RadChart__ that displ
 
 __Example 3__: Configuring date axis in __RadChart__ that displays continuous data.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadChart ID="RadChart1" runat="server" Width="600" Height="400">
@@ -286,7 +286,7 @@ __Example 3__: Configuring date axis in __RadChart__ that displays continuous da
 			Return dt
 		End Function
 ````
->end
+
 
 ### Configuring Date Axis with Continuous Data in RadHtmlChart
 
@@ -303,7 +303,7 @@ __Example 4__ illustrates how to configure a date axis in__RadHtmlChart__ that d
 
 __Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuous data.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
@@ -360,7 +360,7 @@ __Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuou
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

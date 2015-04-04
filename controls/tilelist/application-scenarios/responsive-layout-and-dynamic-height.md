@@ -105,7 +105,7 @@ __Example 1: Changing the height of a responsive RadTileList.__
 
 __Example 2: Generating some tiles in the code-behind to populate the RadTileList from Example1 and Example 3.__
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Init(object sender, EventArgs e)
@@ -161,7 +161,7 @@ __Example 2: Generating some tiles in the code-behind to populate the RadTileLis
 	End Class
 
 
->end
+
 
 When __RadTileList__ is nested in other controls/elements,you may need to use events they offer to recalculate the height (e.g., when they are shown or resized),or override some of their default CSS settings to make sure scrolling is enabled. It is still important that they provide the entire viewport widthso the desktop mode can use it.
 

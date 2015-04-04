@@ -18,7 +18,7 @@ This article will show you how you can retrieve the values from FormTemplate and
 
 The main logic here lies on using the FindControl(controlID) method - once you obtain a reference to the __TreeListEditFormInsertItem__ you can easily access the controls in it by ID.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -139,7 +139,7 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+
 
 ## Inserting values using WebUserControl
 
@@ -147,7 +147,7 @@ The approach here would be similar to when using FormTemplate. The difference is
 
 Here is sample code for extracting the values from the user control on InsertCommand event of RadTreeList:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -222,11 +222,11 @@ Here is sample code for extracting the values from the user control on InsertCom
 	        RadTreeList2.Rebind()
 	    End Sub
 ````
->end
+
 
 Additionally, if you want the treelist to be able to extract values from the user control, the latter needs to implement the IBindable interface.Here follows a sample implementation:
 
->tabbedCode
+
 
 ````ASPNET
 	<table>
@@ -312,7 +312,7 @@ Additionally, if you want the treelist to be able to extract values from the use
 	
 	End Class
 ````
->end
+
 
 >caution Note that RadTreeList expects the newly inserted value of the field that is specified as DataKeyNames to be larger than any of the already available values of this field in the datasource.
 >

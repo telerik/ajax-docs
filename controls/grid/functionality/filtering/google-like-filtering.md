@@ -36,7 +36,7 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 
 ![Google-like filtering](images/grdGoogleLikeFiltering.PNG)
 
->tabbedCode
+
 
 ````ASPNET
 	     <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -192,9 +192,9 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 	        Return myDataTable
 	    End Function
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    public class MyCustomFilteringColumnCS : GridBoundColumn
@@ -349,4 +349,4 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 ````
 
 
->end
+

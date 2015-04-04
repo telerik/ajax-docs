@@ -30,7 +30,7 @@ To bind to a DataSource component, all you need to do is set the __DataSourceID_
 
 If you need to map additional columns from the data source to properties of the toolbar buttons, you can use the __ButtonDataBound__ event. The event arguments passed to the event, __e.Button__ and __e.Button.DataItem__, hold the instance of the toolbar button being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of the toolbar button. Be sure to cast the __DataItem__ object to the proper data type first.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -53,7 +53,7 @@ If you need to map additional columns from the data source to properties of the 
 	    End Sub
 	
 ````
->end
+
 
 Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDataSource__ can be used to bind the toolbar declaratively in design time.
 
@@ -125,7 +125,7 @@ The following example shows a __RadToolBar__ bound declaratively to an __ObjectD
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -190,7 +190,7 @@ The following example shows a __RadToolBar__ bound declaratively to an __ObjectD
 	    End Class
 	
 ````
->end
+
 
 The __ObjectDataSource__ component is configured to use the following class definition:
 

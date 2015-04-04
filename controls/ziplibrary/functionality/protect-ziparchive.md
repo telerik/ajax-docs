@@ -28,7 +28,7 @@ __DefaultEncryptionSettings__ has a __Password__ property of type string which r
 
 __Example 1__: Create a password-protected ZIP archive:
 
->tabbedCode
+
 
 ````C#
 	    using (Stream stream = File.Open("test.zip", FileMode.Create)) 
@@ -59,7 +59,7 @@ __Example 1__: Create a password-protected ZIP archive:
 	End Using
 	
 ````
->end
+
 
 >tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.
 >
@@ -71,7 +71,7 @@ In order to open a password-protected __ZipArchive__ you need to pass a __Defaul
 
 __Example 2__: Open and read a password-protected ZIP archive.
 
->tabbedCode
+
 
 ````C#
 	using (Stream stream = File.Open("test.zip", FileMode.Open)) 
@@ -97,7 +97,7 @@ __Example 2__: Open and read a password-protected ZIP archive.
 		End Using
 	End Using
 ````
->end
+
 
 >tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.
 >

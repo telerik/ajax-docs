@@ -25,7 +25,7 @@ You can bind to a [generic lists](http://msdn2.microsoft.com/en-us/library/6sh2e
 
 The Product object is defined with a constructor that passes both Name and QuantityInStock:
 
->tabbedCode
+
 
 ````C#
 	
@@ -79,7 +79,7 @@ The Product object is defined with a constructor that passes both Name and Quant
 	    End Class
 	
 ````
->end
+
 
 After the Product object is defined the following steps configure and bind to the generic List:
 
@@ -91,7 +91,7 @@ After the Product object is defined the following steps configure and bind to th
 
 1. The RadChart DataBind()= method is called.
 
->tabbedCode
+
 
 ````C#
 	
@@ -123,7 +123,7 @@ After the Product object is defined the following steps configure and bind to th
 	    RadChart1.DataBind() 
 	
 ````
->end
+
 
 
 

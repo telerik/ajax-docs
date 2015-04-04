@@ -18,7 +18,7 @@ In various cases you may want to access grid functional items/columns outside of
 
 The __GetItems(itemType)__ method returns an array of items (in the respective GridTableView) which match the specified type. You can use the __GridItemType__ enumeration to choose the item type, for example:
 
->tabbedCode
+
 
 ````VB.NET
 	    Dim headerItem As GridItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0)
@@ -28,11 +28,11 @@ The __GetItems(itemType)__ method returns an array of items (in the respective G
 	    GridItem headerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)[0];
 	    //cast the item to GridHeaderItem and operate with it further
 ````
->end
+
 
 The __GetColumn(columnName)__ method returns the column with the unique name specified as argument, namely:
 
->tabbedCode
+
 
 ````VB.NET
 	    Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("OrderID")
@@ -42,7 +42,7 @@ The __GetColumn(columnName)__ method returns the column with the unique name spe
 	    GridColumn column = RadGrid1.MasterTableView.GetColumn["OrderID"];
 	    //thus you get reference to the column with OrderID unique name
 ````
->end
+
 
 The __GetColumnSafe(columnName)__ performs the same task as __GetColumn(columnName)__ method, however __GetColumnSafe__ will not raise an exception in case column with that name is not found in the corresponding __GridTableView__.
 
@@ -60,7 +60,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:LinkButton ID="btnReferenceColumns" runat="server" Text="Operate with columns" /><br />
@@ -222,4 +222,4 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	        masterColumn.Visible = !masterColumn.Visible;
 	    }
 ````
->end
+

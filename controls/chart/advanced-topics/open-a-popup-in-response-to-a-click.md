@@ -34,7 +34,7 @@ To open a window in response to a click you can use the [ActiveRegion]({%slug ch
 
 * Locate a [ActiveRegion]({%slug chart/advanced-topics/image-maps%}) property, e.g. from a chart series item and assign a call to the JavaScript using the [ActiveRegion]({%slug chart/advanced-topics/image-maps%})Url property:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -47,7 +47,7 @@ To open a window in response to a click you can use the [ActiveRegion]({%slug ch
 	RadChart1.Series(0).Items(0).ActiveRegion.Url =  "javascript:ShowPopUpDialog('SalesDetail.aspx');"
 	
 ````
->end
+
 
 
 

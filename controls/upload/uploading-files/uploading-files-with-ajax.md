@@ -160,7 +160,7 @@ If you have button or other control, which normally does postbacks, placed in th
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -182,7 +182,7 @@ If you have button or other control, which normally does postbacks, placed in th
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Alternative workaround for RadAjaxPanel (and RadGrid classic)
 
@@ -211,7 +211,7 @@ __RadAjax__ automatically replaces all instances of "__doPostBack" inside AJAX-e
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -233,7 +233,7 @@ __RadAjax__ automatically replaces all instances of "__doPostBack" inside AJAX-e
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

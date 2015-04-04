@@ -55,7 +55,7 @@ Below follows an example structure of this interface and how to set it, as well 
 
 An example structure of a class that implements this interface:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnInit(EventArgs e)
@@ -160,4 +160,4 @@ An example structure of a class that implements this interface:
 	End Class
 
 
->end
+

@@ -44,7 +44,7 @@ Use the __ItemSelected__ event handler to respond in server-side code when the u
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadDropDownList1_ItemSelected(object sender, DropDownListEventArgs e)
@@ -57,4 +57,4 @@ Use the __ItemSelected__ event handler to respond in server-side code when the u
 	        Label1.Text = "You selected " + e.Text + " item"
 	    End Sub
 ````
->end
+

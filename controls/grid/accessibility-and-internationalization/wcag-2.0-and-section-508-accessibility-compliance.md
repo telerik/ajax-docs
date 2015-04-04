@@ -90,7 +90,7 @@ Here are the code snippets from the aforementioned sample:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void MyGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
@@ -103,9 +103,9 @@ Here are the code snippets from the aforementioned sample:
 	        e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	
@@ -144,4 +144,4 @@ Here are the code snippets from the aforementioned sample:
 	        End Class
 	    End Namespace
 ````
->end
+

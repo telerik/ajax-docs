@@ -30,7 +30,7 @@ The declarations of RadAutoCompleteBox objects include no DataSourceID property 
 
 In the __Page_Load__ event handler create the Array and ArrayList and bind them to the RadAutoCompleteBox objects. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -77,7 +77,7 @@ In the __Page_Load__ event handler create the Array and ArrayList and bind them 
 	    End Sub 'BindToArrayList
 	
 ````
->end
+
 
 # See Also
 

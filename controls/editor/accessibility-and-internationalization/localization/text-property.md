@@ -14,7 +14,7 @@ position: 2
 
 Another way to localize RadEditor labels, buttons and tooltips is by using the __Text__ property:
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -39,7 +39,7 @@ Another way to localize RadEditor labels, buttons and tooltips is by using the _
 			End If
 		End Sub
 ````
->end
+
 
 You can also set the __Text__property inline in the RadEditor declaration:
 

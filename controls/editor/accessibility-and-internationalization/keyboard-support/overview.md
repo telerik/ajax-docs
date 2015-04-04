@@ -74,7 +74,7 @@ You can assign a shortcut to all editor's buttons and dropdowns by using the __S
 
 or in the CodeBehind:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -101,7 +101,7 @@ or in the CodeBehind:
 	main.Tools.Add(cut) 
 				
 ````
->end
+
 
 or using the __ShortCut__ attribute of the __<tool>__ item in the ToolsFile.xml file:
 

@@ -18,7 +18,7 @@ You can dynamically alter the __GroupByExpression__ that is added when the user 
 
 To change the __GroupByExpression__ dynamically when the user drags a column header to the group panel, use the __GroupsChanging__ server-side event. This is illustrated in the following example:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" ShowGroupPanel="true"
@@ -83,4 +83,4 @@ To change the __GroupByExpression__ dynamically when the user drags a column hea
 	    End Function
 	
 ````
->end
+

@@ -30,7 +30,7 @@ The below listed steps demonstrate how to implement Resources Data Binding withi
 
 After performing the above steps you should get a configuration similar to the demonstrated below.
 
->tabbedCode
+
 
 ````ASPNET
 	            <telerik:RadGantt runat="server" ID="RadGantt1"
@@ -84,7 +84,7 @@ After performing the above steps you should get a configuration similar to the d
 	            ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
 	            SelectCommand="SELECT * FROM [GanttResourceAssignments]"></asp:SqlDataSource>
 ````
->end
+
 
 # See Also
 

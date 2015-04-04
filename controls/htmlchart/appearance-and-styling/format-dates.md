@@ -72,7 +72,7 @@ __Table 2__ lists custom date format specifiers with descriptions.__Figure 2__ s
 
 __Example 1__ shows the simple markup used to format the series labels, axis labels andseries tooltip with standard format in __Figure 1__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="640px" Height="480px">
@@ -149,14 +149,14 @@ __Example 1__ shows the simple markup used to format the series labels, axis lab
 			Return dt
 		End Function
 ````
->end
+
 >caption Figure 2: Formatting axis labels, series labels and series tooltip with custom pattern via the DateFormatString property.
 
 ![htmlchart-formattingdates-customdateformats](images/htmlchart-formattingdates-customdateformats.png)
 
 __Example 2__ shows the simple markup used to format the series labels, axis labels andseries tooltip with custom pattern in __Figure 2__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="640px" Height="480px">
@@ -233,7 +233,7 @@ __Example 2__ shows the simple markup used to format the series labels, axis lab
 			Return dt
 		End Function
 ````
->end
+
 
 >note The above dates are formatted in the default "en-US" culture. More information on how to localize text	elements is available in the[Localization]({%slug htmlchart/accessibility-and-internationalization/localization%})article.
 >

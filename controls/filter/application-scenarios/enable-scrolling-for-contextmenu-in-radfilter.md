@@ -16,7 +16,7 @@ In some cases the RadContextMenu used by RadFilter contains more items than can 
 
 ## 
 
->tabbedCode
+
 
 ````ASPNET
 	            <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -54,4 +54,4 @@ In some cases the RadContextMenu used by RadFilter contains more items than can 
 	        RadGrid1.DataSource = table
 	    End Sub
 ````
->end
+

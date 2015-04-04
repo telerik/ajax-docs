@@ -67,7 +67,7 @@ __Example 3__ below demonstrates a way to change the data source of a __RadHtmlC
 
 __Example 3:__ Client-side change of __RadHtmlChart__'s data source.
 
->tabbedCode
+
 
 ````ASPNET
 	    <script type="text/javascript">
@@ -158,7 +158,7 @@ __Example 3:__ Client-side change of __RadHtmlChart__'s data source.
 	        Return tbl
 	    End Function
 ````
->end
+
 
 # See Also
 

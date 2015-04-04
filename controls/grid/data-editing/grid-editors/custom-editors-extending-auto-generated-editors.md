@@ -45,7 +45,7 @@ In an ASPX file, you can attach an instance of your custom editor to a column by
 
 In a __CreateColumnEditor__ event handler, you can attach an instance of your custom editor to a column by assigning the __e.ColumnEditor__ parameter of the handler:
 
->tabbedCode
+
 
 ````C#
 	
@@ -74,7 +74,7 @@ In a __CreateColumnEditor__ event handler, you can attach an instance of your cu
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Implementing Custom Column Editors
 
@@ -102,7 +102,7 @@ In addition, if you are using __GridTextColumnEditor__, __GridBoolColumnEditor__
 
 The example below shows the implementation of two custom column editor classes. Both custom editors extend the __GridTextColumnEditor__ class and can be attached to a __GridBoundColumn__. The first represents an editor with multi-line textbox. The second handles __DateTime__ values.
 
->tabbedCode
+
 
 ````C#
 	
@@ -302,6 +302,6 @@ The example below shows the implementation of two custom column editor classes. 
 	        End Sub
 	    End Class
 ````
->end
+
 
 For a live example that demonstrates custom column editors, see [Custom column editors](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/ExtractValues/DefaultVB.aspx).

@@ -24,7 +24,7 @@ The example below demonstrates how to create the __RadPageLayout__ object, along
 
 __Figure 1__ demonstrates the layout of the example.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -97,7 +97,7 @@ __Figure 1__ demonstrates the layout of the example.
 	        form1.Controls.Add(pageLayout)
 	    End Sub
 ````
->end
+
 
 ````ASPNET
 	<head runat="server">

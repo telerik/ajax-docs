@@ -23,7 +23,7 @@ __Example 1__ shows a possible application of the Server-Side API of the diagram
 
 __Example 1__: Configuring a diagram on the server-side.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -118,7 +118,7 @@ __Example 1__: Configuring a diagram on the server-side.
 	        diagram.ConnectionsCollection.Add(connection)
 	    End Sub
 ````
->end
+
 
 ## RadDiagram Public Properties and Methods
 

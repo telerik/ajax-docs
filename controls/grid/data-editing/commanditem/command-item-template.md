@@ -55,7 +55,7 @@ Generally, you can handle any command using the __ItemCommandEvent__. __Example 
 
 __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 
->tabbedCode
+
 
 ````ASPNET
 	                <CommandItemTemplate>
@@ -101,7 +101,7 @@ __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## How to Customize the Add New Record/Refresh Text in the CommandItem Area
 
@@ -161,7 +161,7 @@ __Example 5__ shows how to change the __Text__ and __CommandName__ properties fo
 
 __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplate__.
 
->tabbedCode
+
 
 ````ASPNET
 	
@@ -205,7 +205,7 @@ __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplat
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Display Different Controls in a CommandItemTemplate with CommandItemDisplay = "TopAndBottom"
 
@@ -213,7 +213,7 @@ There are cases in which you may want to display different controls inside the t
 
 __Example 6__: Showing and hiding command controls dynamically.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
@@ -281,7 +281,7 @@ __Example 6__: Showing and hiding command controls dynamically.
 	
 	          
 ````
->end
+
 
 ## Define CommandItemTemplate Programmatically
 
@@ -291,7 +291,7 @@ __Example 7__ shows how to embed __LinkButtons__ (for add record and refresh) in
 
 __Example 7__: Programmatic creation of a custom class that defines the __CommandItemTemplate__.
 
->tabbedCode
+
 
 ````C#
 	
@@ -394,7 +394,7 @@ __Example 7__: Programmatic creation of a custom class that defines the __Comman
 	        'runtime column definitions
 	    End Sub
 ````
->end
+
 
 You can find detailed information about how to create templates programmatically in	[this MSDN article](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).
 

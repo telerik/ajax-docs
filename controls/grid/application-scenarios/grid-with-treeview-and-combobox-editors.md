@@ -24,7 +24,7 @@ Examine the code implementation and the comments in the source for more details.
 
 ## 
 
->tabbedCode
+
 
 ````JavaScript
 	    <style type="text/css">
@@ -441,4 +441,4 @@ Examine the code implementation and the comments in the source for more details.
 	        lblMessage.Text = message
 	    End Sub
 ````
->end
+

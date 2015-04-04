@@ -30,7 +30,7 @@ The example can be easily extended to use real data by supplying a different Dat
 
 ![Update with Web Service](images/grdUpdateWithWebService.PNG)
 
->tabbedCode
+
 
 ````JavaScript
 	    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
@@ -179,4 +179,4 @@ The example can be easily extended to use real data by supplying a different Dat
 	    End Sub
 	
 ````
->end
+

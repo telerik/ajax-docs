@@ -36,7 +36,7 @@ In this example, a RadCalendar control and a Label are added in the __ContentTem
 
 1. Give the __RadCalendar__ control a __SelectionChanged__ event handler:
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ In this example, a RadCalendar control and a Label are added in the __ContentTem
 	    End Sub
 	
 ````
->end
+
 
 >note The code in the event handler directly accesses from inside the Content Template both the Calendar and the Label by their IDs. This is a feature of Content Templates.
 >
@@ -94,7 +94,7 @@ This example shows how to use the [Template Design Surface]({%slug panelbar/desi
 
 1. Give the __RadColorPicker__ control a __ColorChanged__ event handler: 
 
->tabbedCode
+
 
 ````C#
 	
@@ -119,7 +119,7 @@ This example shows how to use the [Template Design Surface]({%slug panelbar/desi
 	    End Sub
 	
 ````
->end The event handler finds the label in the panel item's template and sets its font color to the color that was selected in the color picker.
+ The event handler finds the label in the panel item's template and sets its font color to the color that was selected in the color picker.
 
 1. Use the Smart Tag anchor to display the Edit Templates pop-up, and choose __End Template Editing__ to close the Template Design Surface.
 

@@ -48,7 +48,7 @@ The following table describes all filter expression types you can use when build
 
 Here are some examples illustrating how you can use the above types to create filter expressions and add them to the RadListView FilterExpressions collection:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -92,7 +92,7 @@ Here are some examples illustrating how you can use the above types to create fi
 	    End With
 	    RadListView1.FilterExpressions.Add(group) 
 ````
->end
+
 
 ## BuildExpression() methods
 
@@ -122,7 +122,7 @@ Another possible approach for adding filter expressions to RadListView is using 
 
 The following examples illustrate how you can use the BuildExpression() methods to create RadListView filter expressions:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -140,13 +140,13 @@ The following examples illustrate how you can use the BuildExpression() methods 
 	            .GreaterThan("ShippedDate", DateTime.Parse("7/10/1996"))
 	            .Or().EqualTo("OrderID", 42).Build() 
 ````
->end
+
 
 >caution When you are using the BuildExpression() methods to add filter expressions as shown above, you need to call the __Build()__ at the end so the filter expressions are built and added to the RadListView FilterExpressions collection. Note that the __Build()__ method could be called only once per expressions building. To check if the __Build()__ method is already called, you can use the __BuildExpression().IsBuild__ property.
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -177,7 +177,7 @@ The following examples illustrate how you can use the BuildExpression() methods 
 	        .Or().EqualTo("OrderID", 42).And().Group(Function(group As RadListViewFilterExpressionFluentBuilder) _
 	          group.IsNotEmpty("ShipCountry").And().Contains("ShipCountry", "G")))			
 ````
->end
+
 
 ## RadListView filter expression enumerators
 

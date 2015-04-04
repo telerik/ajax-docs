@@ -36,7 +36,7 @@ For a full list of the Telerik assemblies you can refer to the[Included Assembli
 
 The following code snippet demonstrates how to open existing Zip archive using the __ZipArchive__ class.
 
->tabbedCode
+
 
 ````C#
 	    using (Stream stream = File.Open("test.zip", FileMode.Open))
@@ -54,7 +54,7 @@ The following code snippet demonstrates how to open existing Zip archive using t
 		End Using
 	End Using
 ````
->end
+
 
 The *archive* variable holds the files that are compressed in the selected zip. You can access the list of these files through the __ZipArchive.Entries__ property. It holds a collection of __ZipArchiveEntry__ elements - the elements that describe the files archived in the zip file. You can use these elements to get the name of the compressed file, its uncompressed and compressed size and other file attributes.
 
@@ -62,7 +62,7 @@ The *archive* variable holds the files that are compressed in the selected zip. 
 
 The example below shows how to create a new Zip archive using the __ZipArchive__ class and place a text file in it.
 
->tabbedCode
+
 
 ````C#
 	using (Stream stream = File.Open("test.zip", FileMode.Create))
@@ -89,7 +89,7 @@ The example below shows how to create a new Zip archive using the __ZipArchive__
 		End Using
 	End Using
 ````
->end
+
 
 >tip If you use __StreamWriter__ to write content to the stream you should call the Flush() method in order to flush the data to the stream.
 >

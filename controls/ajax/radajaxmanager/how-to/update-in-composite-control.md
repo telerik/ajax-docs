@@ -18,7 +18,7 @@ This topic demonstrates a possible scenario of RadAjaxManager updates controls f
 
 The example below includes a single RadAjaxManager control on the page. Here is the code-behind:
 
->tabbedCode
+
 
 ````C#
 	 
@@ -55,11 +55,11 @@ The example below includes a single RadAjaxManager control on the page. Here is 
 	        Tst1.controLbl.Text = Tst1.controTB.Text
 	    End Sub
 ````
->end
+
 
 And the composite control class:
 
->tabbedCode
+
 
 ````C#
 	
@@ -189,7 +189,7 @@ And the composite control class:
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

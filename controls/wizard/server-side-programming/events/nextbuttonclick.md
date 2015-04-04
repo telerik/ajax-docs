@@ -34,7 +34,7 @@ Use the __OnNextButtonClick__ event handler to respond when the next button is c
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_NextButtonClick(object sender, WizardEventArgs e)
@@ -74,4 +74,4 @@ Use the __OnNextButtonClick__ event handler to respond when the next button is c
 	End Class
 
 
->end
+

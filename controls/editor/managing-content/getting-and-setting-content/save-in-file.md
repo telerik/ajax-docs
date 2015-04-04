@@ -29,7 +29,7 @@ The content will be saved inside the Content inner tags of RadEditor for ASP.NET
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void btnSubmit_Click(object sender, EventArgs e)
@@ -132,7 +132,7 @@ The content will be saved inside the Content inner tags of RadEditor for ASP.NET
 			End Sub
 		End Class
 ````
->end
+
 
 # See Also
 

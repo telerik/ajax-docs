@@ -26,7 +26,7 @@ The declaration of RadComboBox object includes no DataSourceID property or <item
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the RadComboBox. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -81,4 +81,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	</pre>
 	
 ````
->end
+

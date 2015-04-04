@@ -32,7 +32,7 @@ To bind to a DataSource component, all you need to do is set the __DataSourceID_
 
 If you need to map additional columns from the data source to properties of the ListBox items, you can use the __ItemDataBound__ event. The event arguments passed to the event, __e.Item__ and __e.Item.DataItem__, hold the instance of the ListBox item being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of the ListBox item. Be sure to cast the __DataItem__ object to the proper data type first.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_ItemDataBound(object sender, RadListBoxItemEventArgs e)
@@ -54,7 +54,7 @@ If you need to map additional columns from the data source to properties of the 
 	        e.Item.Attributes("City") = dataSourceRow("CityColumn").ToString()
 	    End Sub
 ````
->end
+
 
 ## AccessDataSource
 
@@ -139,7 +139,7 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -217,7 +217,7 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	    End Class
 	
 ````
->end
+
 
 ## LinqDataSource
 

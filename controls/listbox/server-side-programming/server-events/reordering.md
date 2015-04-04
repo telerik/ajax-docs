@@ -32,7 +32,7 @@ The event handler receives two parameters:
 
 The following example shows how to cancel the event if there are more than 2 items to be reordered:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_Reordering(object sender, RadListBoxReorderingEventArgs e)
@@ -49,7 +49,7 @@ The following example shows how to cancel the event if there are more than 2 ite
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

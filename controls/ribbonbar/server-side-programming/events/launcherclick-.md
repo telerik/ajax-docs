@@ -24,7 +24,7 @@ The event handler function receives two arguments:
 
 The following example demonstrates how to use the LauncherClick event to determine the group of the clicked launcher.
 
->tabbedCode
+
 
 ````C#
 	
@@ -46,7 +46,7 @@ The following example demonstrates how to use the LauncherClick event to determi
 	
 	
 ````
->end
+
 
 # See Also
 

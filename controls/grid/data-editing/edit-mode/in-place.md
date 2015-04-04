@@ -41,7 +41,7 @@ To display the grid column editors inline when the grid switches into edit mode,
 
 When __InPlace__ editing is applied, the grid row is of type __GridDataItem__ in regular mode and__GridEditableItem__ in edit regime. Hence you can cast the item in the __ItemCreated__ event (for example) to those types according to its current mode:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -73,7 +73,7 @@ When __InPlace__ editing is applied, the grid row is of type __GridDataItem__ in
 	        End If
 	    End Sub
 ````
->end
+
 
 For information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/referencing-controls-in-grid-row-edit-form%}).
 
@@ -81,7 +81,7 @@ For information about how to reference controls inside grid rows and edit forms,
 
 To determine whether edit or insert operation is in progress inside the ItemCreated/ItemDataBound handler of the grid (when having inplace editing), check whether the e.Item instance inside the handler is of type __GridEditableItem__or __GridDataInsertItem__respectively. Here are some code snippets which illustrate the approach in question:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -107,4 +107,4 @@ To determine whether edit or insert operation is in progress inside the ItemCrea
 	        End If
 	    End Sub
 ````
->end
+

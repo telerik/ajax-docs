@@ -28,7 +28,7 @@ __Example 1__ shows how to configure a logarithmic y-axis in __RadHtmlChart__ an
 
 __Example 1__: Configuring a logarithmic y-axis in a Column series that displays a Fibonacci sequence.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="800px" Height="400px">
@@ -79,7 +79,7 @@ __Example 1__: Configuring a logarithmic y-axis in a Column series that displays
 	        Return data
 	    End Function
 ````
->end
+
 >caption Figure 1: Column series with a logarithmic y-axis.
 
 ![htmlchart-logarithmicaxis-overview](images/htmlchart-logarithmicaxis-overview.png)

@@ -24,7 +24,7 @@ In some particular scenarios you may want to allow single row expand at a time f
 
 And here is the code of a simple demo:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
@@ -127,4 +127,4 @@ And here is the code of a simple demo:
 	        End If
 	    End Sub
 ````
->end
+

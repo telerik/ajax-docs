@@ -31,7 +31,7 @@ The custom image editor's dialog is a standard WebUserControl that has to be loa
 
 1. Handle the RadImageEditor's DialogLoading server-side event and load the user control to the tools panel:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadImageEditor1_DialogLoading(object sender, ImageEditorDialogEventArgs args)
@@ -52,7 +52,7 @@ The custom image editor's dialog is a standard WebUserControl that has to be loa
 	        End If
 	    End Sub
 ````
->end
+
 
 1. The user control should register a client-side class with the same name as the custom command. This client-side class should implement __Telerik.Web.UI.RadImageEditor.IToolWidget__ interface with the following structure:
 

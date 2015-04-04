@@ -32,7 +32,7 @@ The following steps walk you through the entire process of creating an Excel doc
 
 1. Create an instance of the __Workbook__ class and add a new __Worksheet__ object to the __Worksheets__ collection.
 
->tabbedCode
+
 
 ````C#
 	    Workbook workbook = new Workbook();
@@ -42,11 +42,11 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Dim workbook As New Workbook()
 	    Dim worksheet As Worksheet = workbook.Worksheets.Add()
 ````
->end
+
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
->tabbedCode
+
 
 ````C#
 	    private GridItemType[] supportedItemTypes = new GridItemType[] 
@@ -59,9 +59,9 @@ The following steps walk you through the entire process of creating an Excel doc
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
@@ -92,11 +92,11 @@ The following steps walk you through the entire process of creating an Excel doc
 		    currentRow += 1
 	    Next
 ````
->end
+
 
 1. After the worksheet is populated with data an instance of the __XlsxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
 
->tabbedCode
+
 
 ````C#
 	        string excelFile = Server.MapPath("~/ExcelFile.xlsx");
@@ -113,11 +113,11 @@ The following steps walk you through the entire process of creating an Excel doc
 		    provider.Export(worksheet.Workbook, fs)
 	    End Using
 ````
->end
+
 
 After following these steps you will get the following example that presents exporting on button click.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
@@ -233,7 +233,7 @@ After following these steps you will get the following example that presents exp
 	        End Using
 	    End Sub
 ````
->end
+
 
 ## Exporting RadGrid to Word
 
@@ -249,7 +249,7 @@ The following steps walk you through the entire process of creating an Word docu
 
 1. Create an instance of the __RadFlowDocument__ class and add a new __Section__ object to the __Sections__ collection. After the section is created a new __Table__ object is added to it.
 
->tabbedCode
+
 
 ````C#
 	        RadFlowDocument flowDoc = new RadFlowDocument();
@@ -261,11 +261,11 @@ The following steps walk you through the entire process of creating an Word docu
 	    Dim section As Section = flowDoc.Sections.AddSection()
 	    Dim table As Table = section.Blocks.AddTable()
 ````
->end
+
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the created Word table.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
->tabbedCode
+
 
 ````C#
 	    private GridItemType[] supportedItemTypes = new GridItemType[] 
@@ -278,9 +278,9 @@ The following steps walk you through the entire process of creating an Word docu
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
@@ -313,11 +313,11 @@ The following steps walk you through the entire process of creating an Word docu
 		    Next
 	    Next
 ````
->end
+
 
 1. After the worksheet is populated with data an instance of the __DocxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
 
->tabbedCode
+
 
 ````C#
 	    string wordFile = Server.MapPath("~/WordFile.docx");
@@ -334,11 +334,11 @@ The following steps walk you through the entire process of creating an Word docu
 		    provider.Export(table.Document, fs)
 	    End Using
 ````
->end
+
 
 After following these steps you will get the following example that presents exporting on button click.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
@@ -456,7 +456,7 @@ After following these steps you will get the following example that presents exp
 	        End Using
 	    End Sub
 ````
->end
+
 
 # See Also
 

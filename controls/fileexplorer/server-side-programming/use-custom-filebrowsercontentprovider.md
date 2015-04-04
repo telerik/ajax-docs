@@ -26,7 +26,7 @@ While the default implementation is good for most scenarios, in some cases (see 
 
 The following example shows how to override the __ResolveDirectory__ method so it does not show files that have names starting with "private_":
 
->tabbedCode
+
 
 ````C#
 	
@@ -53,7 +53,7 @@ The following example shows how to override the __ResolveDirectory__ method so i
 	        '#region assign-provider_vb
 	        RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
 ````
->end
+
 
 ## 2. Implementing a custom Telerik.Web.UI.Widgets.FileBrowserContentProvider
 
@@ -61,7 +61,7 @@ When subclassing is not enough to do the job, you can design a completely new Fi
 
 1. Extend the abstract __Telerik.Web.UI.Widgets.FileBrowserContentProvider__ class and implement its methods.
 
->tabbedCode
+
 
 ````C#
 	
@@ -227,11 +227,11 @@ When subclassing is not enough to do the job, you can design a completely new Fi
 	    End Class
 	
 ````
->end
+
 
 1. Set the __RadFileExplorer's__ property __Configuration__.__ContentProviderTypeName__to the fully qualified assembly name of your custom content provider. The general format of the assembly name should be __"Full.Class.Name.Including.The.Namespace, Assembly.Name"__. For example:
 
->tabbedCode
+
 
 ````C#
 			RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
@@ -239,7 +239,7 @@ When subclassing is not enough to do the job, you can design a completely new Fi
 ````VB.NET
 	        RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
 ````
->end
+
 
 
 

@@ -71,7 +71,7 @@ If a control you are adding to the container's __Controls__ collection should be
 
 The following example demonstrates how to create a template dynamically:
 
->tabbedCode
+
 
 ````C#
 	
@@ -122,7 +122,7 @@ The following example demonstrates how to create a template dynamically:
 	    End Class
 	
 ````
->end
+
 
 # See Also
 

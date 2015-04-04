@@ -20,7 +20,7 @@ There are two possible approaches for adding controls to a __RadCalendar__ cell:
 
 * You can use the [DayRender]({%slug calendar/server-side-programming/server-side-events/dayrender%}) event to add the controls to every cell of the calendar just before it is rendered on the client:
 
->tabbedCode
+
 
 ````C#
 	
@@ -46,4 +46,4 @@ There are two possible approaches for adding controls to a __RadCalendar__ cell:
 	        e.Cell.Controls.Add(label)
 	    End Sub
 ````
->end
+

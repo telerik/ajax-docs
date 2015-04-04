@@ -47,7 +47,7 @@ On the server the template will be presented as a string property of the control
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -76,7 +76,7 @@ On the server the template will be presented as a string property of the control
 	End Class
 
 
->end
+
 
 ## Client side representation
 

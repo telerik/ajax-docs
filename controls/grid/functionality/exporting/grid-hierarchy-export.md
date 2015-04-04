@@ -28,7 +28,7 @@ Until Q3 2013, you had to retain the expanded state manually when the control re
 
 The mentioned below code snippet demonstrates a possible approach to persist the expanded state manually.
 
->tabbedCode
+
 
 ````C#
 	    private bool isExport = false;
@@ -138,6 +138,6 @@ The mentioned below code snippet demonstrates a possible approach to persist the
 	    End Sub
 	
 ````
->end
+
 
 ## 

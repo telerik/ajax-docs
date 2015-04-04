@@ -26,7 +26,7 @@ __RadMultiPage__ can be easily created dynamically(in the codebehind).
 
 
 
->tabbedCode
+
 
 ````C#
 	 
@@ -86,6 +86,6 @@ __RadMultiPage__ can be easily created dynamically(in the codebehind).
 	
 				
 ````
->end
+
 
 __See__ a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/dynamicpageview/defaultcs.aspx)

@@ -50,7 +50,7 @@ To map additional properties from the object to other properties of the respecti
 
 The __ObjectDataSource__ component is configured to use the SiteDataItem business object. The __SiteDataItem__ class is defined below:
 
->tabbedCode
+
 
 ````C#
 	    using System.Collections.Generic;
@@ -195,7 +195,7 @@ The __ObjectDataSource__ component is configured to use the SiteDataItem busines
 	        End Function
 	    End Class
 ````
->end
+
 
 ## Binding to an object that implements IEnumerable
 
@@ -217,7 +217,7 @@ To bind directly to a collection, you must bind the menu at runtime, using the f
 
 The following example shows a menu bound to an __ArrayList__. The list contains __SiteDataItem__ objects with the same definition as in the __ObjectDataSource__ example, only that their __ParentID__ property is of nullable type - __int?__:
 
->tabbedCode
+
 
 ````C#
 	    private ArrayList GenerateSiteData()
@@ -273,7 +273,7 @@ The following example shows a menu bound to an __ArrayList__. The list contains 
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -22,7 +22,7 @@ In order to enable the WAI-ARIA support, set the __RadComboBox__ contol's __Enab
 
 __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadComboBox__.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadComboBox runat="server" id="RadComboBox2" EnableAriaSupport="true">
@@ -44,7 +44,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadComboBox__.
 	    RadComboBox1.EnableAriaSupport = true
 	
 ````
->end
+
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

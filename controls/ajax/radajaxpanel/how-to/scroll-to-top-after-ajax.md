@@ -35,7 +35,7 @@ You have to add the function in __Example 1__ to the __ResponseScripts__ collect
 
 __Example 2__: Add scrollTop() to the ResposeScripts collection.
 
->tabbedCode
+
 
 ````C#
 	    private void Page_Load(object sender, System.EventArgs e)
@@ -62,7 +62,7 @@ __Example 2__: Add scrollTop() to the ResposeScripts collection.
 	        RadAjaxPanel1.ActiveElementID = Nothing
 	    End Sub
 ````
->end
+
 
 The __RadAjaxManager__ control does not maintain focus on active controls after an asynchronous request. If you need to focus a specific control, you can use the __RadAjaxManager____FocusControl__ method. Check the [Setting Focus ](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx) online demo that illustrates this aspect of the __RadAjaxManager__ server-side API.
 

@@ -41,7 +41,7 @@ __Example 1__: Configure primary and secondary action buttons for the __Silk__, 
 
 ## Example that Creates Figure 1
 
->tabbedCode
+
 
 ````ASPNET
 	<style>
@@ -174,7 +174,7 @@ __Example 1__: Configure primary and secondary action buttons for the __Silk__, 
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

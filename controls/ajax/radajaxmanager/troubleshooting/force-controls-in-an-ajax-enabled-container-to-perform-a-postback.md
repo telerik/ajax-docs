@@ -95,7 +95,7 @@ __2. Set the ChildrenAsTriggers property of the update panel added dynamically a
 
 For that purpose you need to handle the __OnAjaxSettingCreated__ server-side event of the __RadAjaxManager__ control:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxSettingCreated="RadAjaxManager1_AjaxSettingCreated">
@@ -133,7 +133,7 @@ For that purpose you need to handle the __OnAjaxSettingCreated__ server-side eve
 	
 	
 ````
->end
+
 
 # See Also
 

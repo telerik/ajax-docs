@@ -28,7 +28,7 @@ __ColumnCreating__ event handler receives two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGantt1_ColumnCreating(object sender, Telerik.Web.UI.Gantt.ColumnCreatingEventArgs e)
@@ -45,7 +45,7 @@ __ColumnCreating__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

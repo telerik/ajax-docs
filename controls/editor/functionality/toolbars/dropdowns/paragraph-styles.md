@@ -36,7 +36,7 @@ The Paragraph style dropdown of RadEditor displays a predefined set of styles by
 
 Use the Paragraphs collection __Add()__ method to include one or more paragraph styles in the list. When using the __Add()__ method the Paragraph style dropdown will be reset, so the items you add will create a new Paragraph style set. See the example below:
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,7 +54,7 @@ Use the Paragraphs collection __Add()__ method to include one or more paragraph 
 	        Radeditor1.Paragraphs.Add("Heading 2", "<h2>")
 	        Radeditor1.Paragraphs.Add("Heading 3", "<h3>")
 ````
->end
+
 
 ## Display Style in Dropdown
 
@@ -78,7 +78,7 @@ __RadEditor__ also supports block format with the CSS class set:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -88,7 +88,7 @@ __RadEditor__ also supports block format with the CSS class set:
 ````VB
 	RadEditor1.Paragraphs.Add("Heading 2 Highlighted", "<h2 class='myStyle'>") 
 ````
->end
+
 
 ## Using the ToolsFile
 

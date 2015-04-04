@@ -16,7 +16,7 @@ position: 1
 
 __ContextMenuItemClick__ event fires when the user right clicks on a node that have associated context menu and clicks on a context menu item. Use the __RadTreeViewContextMenuEventArgs.MenuItem__ property to get or set the clicked-on menu item properties. Use the __RadTreeViewContextMenuEventArgs.____Node__ property to get or set the clicked-on Node properties.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeView1_ContextMenuItemClick(object sender, Telerik.Web.UI.RadTreeViewContextMenuEventArgs e)
@@ -34,4 +34,4 @@ __ContextMenuItemClick__ event fires when the user right clicks on a node that h
 	        End If
 	    End Sub
 ````
->end
+

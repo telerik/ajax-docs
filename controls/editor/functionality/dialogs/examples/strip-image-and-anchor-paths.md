@@ -20,7 +20,7 @@ SOLUTION
 
 RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs (href and src) in the editor content absolute (e.g. http://server/page.html instead of "page.html"). __MakeUrlsAbsolute__is disabled by default. To enable this filter, assign the filter to the RadEditor __ContentFilters__property:
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -38,7 +38,7 @@ RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs
 			End If
 		End Sub
 ````
->end
+
 
 >note  __StripAbsoluteAnchorPaths__ and __StripAbsoluteImagesPaths__ properties are no longer available in favor of the new __MakeUrlsAbsolute__ filter.
 >

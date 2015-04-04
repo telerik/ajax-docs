@@ -20,7 +20,7 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 
 1. Instantiate your user control in __Page_Init__ or __Page_Load__ and always recreate the last loaded User Control:
 
->tabbedCode
+
 
 ````C#
 	        UserControl MyControl = (UserControl)LoadControl(controlName);
@@ -30,11 +30,11 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 	        Dim MyControl As UserControl = Me.LoadControl(controlName)
 	        Me.LoadMyUserControl(Me.CurrentControl, Panel1)
 ````
->end
+
 
 1. Make sure you assign a unique ID to the dynamically loaded User Control:
 
->tabbedCode
+
 
 ````C#
 	        string userControlID = controlName.Split('.')[0];
@@ -45,7 +45,7 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 	        MyControl.ID = userControlID.Replace("/", "").Replace("~", "")
 	
 ````
->end
+
 
 1. Place the instance inside the controls collection of the container:
 
@@ -85,7 +85,7 @@ __Example__: The following example demonstrates how to implement the above steps
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -161,7 +161,7 @@ And in the code-behind:
 	        Me.CurrentControl = controlName
 	    End Sub
 ````
->end
+
 
 An online demo for loading User Controls is available at the following link:
 

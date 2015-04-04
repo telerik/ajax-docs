@@ -22,7 +22,7 @@ Common scenario is the need to upload files depending on the user's Geo location
 
 1. Create a new class, which inherits the __AmazonS3Provider__ class and override its __Initialize__ method. In this method you can set all credentials:
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -81,7 +81,7 @@ Common scenario is the need to upload files depending on the user's Geo location
 	        End Class
 	    End Namespace
 ````
->end
+
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
 
@@ -123,7 +123,7 @@ Amazon providers. For example files uploading in different Geo Locations.
 
 1. Create a as many Custom Providers as you need. They must inherit the__AmazonS3Provider__ class. Override their __Initialize__ method.
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -166,9 +166,9 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Class
 	    End Namespace
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    using System;
@@ -213,7 +213,7 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Class
 	    End Namespace
 ````
->end
+
 
 1. Register the newly created Custom Providers in the configuration file:
 
@@ -252,7 +252,7 @@ Amazon providers. For example files uploading in different Geo Locations.
 
 1. Set the name of the Custom Amazon Provider in the handler:
 
->tabbedCode
+
 
 ````C#
 	    <%@ WebHandler Language="C#" Class="CloudUploadHandler" %>
@@ -295,7 +295,7 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

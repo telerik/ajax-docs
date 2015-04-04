@@ -42,7 +42,7 @@ Simple data-binding with the __DataBind()__ method can be used in simple scenari
 
 The code snippets below illustrate direct comparison between the simple and advanced binding regime of RadTreeList:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTreeList runat="server" ID="RadTreeList1" AllowPaging="true" PageSize="3"
@@ -135,4 +135,4 @@ The code snippets below illustrate direct comparison between the simple and adva
 	        RadTreeList2.DataSource = GetDataTable()
 	    End Sub
 ````
->end
+

@@ -105,7 +105,7 @@ You can set the resizing-related properties declaratively at design time:
 
 You can also set these properties at runtime in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    RadGrid RadGrid1 = new RadGrid();
@@ -127,4 +127,4 @@ You can also set these properties at runtime in the code-behind:
 	    '...
 	
 ````
->end
+

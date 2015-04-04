@@ -66,7 +66,7 @@ In the DataBinder.Eval statement, __Container__ is the __RadToolBarButton__and _
 
 In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the properties of the button:
 
->tabbedCode
+
 
 ````C#
 	
@@ -99,7 +99,7 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
->end
+
 
 Now the template controls reflect the properties of the underlying toolbar buttons:
 

@@ -108,7 +108,7 @@ The any value data validation rule is the default rule. It is applied to all cel
 
 __Example 1__ shows hot to create any value validation rule and set it to a cell.
 
->tabbedCode
+
 
 ````C#
 	    AnyValueDataValidationRuleContext context = new AnyValueDataValidationRuleContext(); 
@@ -126,7 +126,7 @@ __Example 1__ shows hot to create any value validation rule and set it to a cell
 	
 	    worksheet.Cells(0, 0).SetDataValidationRule(rule)
 ````
->end
+
 
 The result from the code snippet in __Example 1__ is shown on the snapshot in __Figure 1__.
 >caption Figure 1: Any Value Rule
@@ -139,7 +139,7 @@ The whole number data validation rule allows you to restrict the user input to w
 
 The code snippet in __Example 2__ shows how to create a whole number data validation rule that restrictsthe user input using two arguments to the range between 0 and 100 and considers blank values as invalid.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -177,7 +177,7 @@ The code snippet in __Example 2__ shows how to create a whole number data valida
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 The result from __Example 2__ is shown in __Figure 2__.
 >caption Figure 2: Whole Number Rule
@@ -191,7 +191,7 @@ The result from entering value "*test*" in the cell containing the data validati
 
 The code snippet in __Example 3__ shows how to create a whole number data validation rule that restrictsthe user input with one argument to numbers that are greater than 100.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -225,11 +225,11 @@ The code snippet in __Example 3__ shows how to create a whole number data valida
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 You are allowed to enter any valid [formula]({%slug spreadprocessing/features/formulas%}) as a rule argument thatreturns a number. __Example 4__ shows how to restrict the user input to the values less than the sum of thevalues in cells A1 and B1.
 
->tabbedCode
+
 
 ````C#
 	   // The value of A1 worksheet.Cells[0, 0].SetValue(60); // The value of B1 worksheet.Cells[0, 1].SetValue(40);
@@ -267,7 +267,7 @@ You are allowed to enter any valid [formula]({%slug spreadprocessing/features/fo
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 >caption Figure 4: Whole Number Rule Based on Formula
 
 ![Rad Spread Processing Features Data Validation 04](images/RadSpreadProcessing_Features_Data_Validation_04.png)
@@ -282,7 +282,7 @@ The decimal data validation rule allows you to restrict the user input to decima
 
 __Example 5__ demonstrates how to create a decimal data validation rule that restricts the user input to beoutside the range between 0 and 100.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -318,7 +318,7 @@ __Example 5__ demonstrates how to create a decimal data validation rule that res
 	
 	    Me.worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 ## List Rule
 
@@ -326,7 +326,7 @@ The list data validation rule allows you to restrict the user input to a predefi
 
 __Example 6__ shows the creation of a list data validation rule that restricts the user input to a dayof the week.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -360,7 +360,7 @@ __Example 6__ shows the creation of a list data validation rule that restricts t
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 >caption Figure 5: List Rule
 
 ![Rad Spread Processing Features Data Validation 05](images/RadSpreadProcessing_Features_Data_Validation_05.png)
@@ -371,7 +371,7 @@ The time rule allows you to restrict the user input to a certain range of times 
 
 __Example 7__ shows how to restrict the user input to the dates in the range between 12 February2013 and 22 May 2017.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -407,7 +407,7 @@ __Example 7__ shows how to restrict the user input to the dates in the range bet
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 ## Time Rule
 
@@ -415,7 +415,7 @@ The date rule allows you to restrict the user input to a certain range of dates 
 
 The code snippet in __Example 8__ shows how to restrict the user input to the range between10:25 AM and 3:45 PM:
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -451,7 +451,7 @@ The code snippet in __Example 8__ shows how to restrict the user input to the ra
 	
 	    Me.worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 ## Text Length Rule
 
@@ -459,7 +459,7 @@ The text length rule allows you to restrict the user input to text with length i
 
 __Example 9__ shows how to restrict the user input to text with length between 5 and 10 symbols.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(0, 0);
@@ -495,7 +495,7 @@ __Example 9__ shows how to restrict the user input to text with length between 5
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 ## Custom Rule
 
@@ -503,7 +503,7 @@ The custom rule allows you to restrict the user input with a custom condition sp
 
 The code snippet in __Example 10__ shows how to restrict the user input to values that are greater or equalto the sum of the values in the cells A1 and B1.
 
->tabbedCode
+
 
 ````C#
 	    CellIndex dataValidationRuleCellIndex = new CellIndex(1, 0);
@@ -535,7 +535,7 @@ The code snippet in __Example 10__ shows how to restrict the user input to value
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
->end
+
 
 ## Evaluate Rules
 
@@ -543,7 +543,7 @@ In order to check if the cell value satisfies a rule, you have to evaluate the r
 
 __Example 11__ demonstrates how to evaluate a rule using the __Evaluate()__ method.
 
->tabbedCode
+
 
 ````C#
 	    IEnumerable stringItems = new List() { "test", "1%", "1.0" }; 
@@ -564,7 +564,7 @@ __Example 11__ demonstrates how to evaluate a rule using the __Evaluate()__ meth
 	
 	    Dim filter As New ValuesCollectionFilter(0, stringItems, dateItems, True)
 ````
->end
+
 
 # See Also
 

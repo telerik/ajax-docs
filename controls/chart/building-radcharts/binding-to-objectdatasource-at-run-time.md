@@ -26,7 +26,7 @@ Once a business object with appropriate attributes has been created you can bind
 
 The code below demonstrates binding to an [ObjectDataSource](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx) that consumes an example object defined in the topic "[Creating an Object that can be consumed by ObjectDataSource]({%slug chart/building-radcharts/creating-an-object-that-can-be-consumed-by-objectdatasource%})".
 
->tabbedCode
+
 
 ````C#
 	     
@@ -56,7 +56,7 @@ The code below demonstrates binding to an [ObjectDataSource](http://msdn2.micros
 	RadChart1.DataBind()
 				
 ````
->end
+
 
 
 

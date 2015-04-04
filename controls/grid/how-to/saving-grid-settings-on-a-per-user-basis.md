@@ -68,7 +68,7 @@ To see the GridSettingsPersister in action, please visit the [Persisting Grid Se
 
 Following is the definition of the __GridSettingsPersister__ class along with a couple of other helper classes that implement setting persistence for RadGrid:
 
->tabbedCode
+
 
 ````C#
 	
@@ -962,6 +962,6 @@ Following is the definition of the __GridSettingsPersister__ class along with a 
 	        End Property
 	    End Class
 ````
->end
+
 
 You can extend the logic and store the user preferences via __Profile__ object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](http://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).

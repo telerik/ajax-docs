@@ -22,7 +22,7 @@ You can reference the RadDataPager control that contains the RadDataPagerTemplat
 
 The following example shows how to add a RadDataPagerTemplatePageField, which contains RadComboBox and custom button for changing the current page size in a RadDataPager control:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadDataPager runat="server" ID="RadDataPager1" PagedControlID="ListView1">
@@ -57,4 +57,4 @@ The following example shows how to add a RadDataPagerTemplatePageField, which co
 	        pagerFieldItem.Owner.PageSize = Integer.Parse(e.Value)
 	    End Sub
 ````
->end
+

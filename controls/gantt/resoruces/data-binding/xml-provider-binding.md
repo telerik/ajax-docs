@@ -24,7 +24,7 @@ There is not much difference in using XML Provider with Resources compared to us
 
 The example provided below illustrates a possible implementation of __RadGantt__ with __Resources__, bound to __XML Provider__.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGantt ID="RadGantt1" runat="server" AutoGenerateColumns="false" SelectedView="WeekView" EnableResources="true">
@@ -45,7 +45,7 @@ The example provided below illustrates a possible implementation of __RadGantt__
 	        RadGantt1.Provider = New XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"))
 	    End Sub
 ````
->end
+
 
 The format of the XML file that contains the data should look similar to the shown below.
 

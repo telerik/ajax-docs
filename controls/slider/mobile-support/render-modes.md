@@ -41,7 +41,7 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
->tabbedCode
+
 
 ````C#
 	        RadSlider1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
@@ -52,7 +52,7 @@ There are two ways to configure the rendering mode of the controls:
 	End Class
 
 
->end
+
 
 * A __global setting in the web.config__ file that will affect the entire application, unless a concrete value is specified for a given control instance:
 

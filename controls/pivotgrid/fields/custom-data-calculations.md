@@ -38,7 +38,7 @@ __Figure 1: The Average Price field displays custom calculation depending on the
 
 In case you need a greater control over the calculations, you can also achieve the sample scenario demonstrated above programmatically, which will enable you to make further custom alterations dynamically using your specific conditions.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:PivotGridAggregateField DataField="TotalPrice" Aggregate="Sum" 
@@ -137,7 +137,7 @@ In case you need a greater control over the calculations, you can also achieve t
 	
 
 
->end
+
 
 Note that even if you set the __CalculationExpression__ declaratively in the mark-up, you can still modify the default value of the __e.CalculatedValue__ property during the __ItemNeedCalculation__ event.
 
@@ -149,7 +149,7 @@ You can use Calculated Items to place a custom summary at the end of your produc
 
 The following sample will calculate prediction values of products for the year 1999 using the information from the previous years. __Figure 2__ shows the result when we implement the logic demonstrated in the code snippets below.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:PivotGridColumnField DataField="Year">
@@ -209,7 +209,7 @@ The following sample will calculate prediction values of products for the year 1
 	
 
 
->end
+
 
 __Figure 2: For a live demo of this sample please check the links in the Other Resources section.__![PivotGridCustomDataCalculations2](images/pivotgrid-custom-data-calculations_2.png)
 

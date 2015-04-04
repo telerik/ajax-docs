@@ -36,7 +36,7 @@ The __CheckAllCheck__ receives one argument which indicates whether the check al
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadComboBox1_CheckAllCheck(object sender, RadComboBoxCheckAllCheckEventArgs e)
@@ -62,4 +62,4 @@ The __CheckAllCheck__ receives one argument which indicates whether the check al
 	        End If
 	    End Sub
 ````
->end
+

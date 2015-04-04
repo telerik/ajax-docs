@@ -24,7 +24,7 @@ It is possible to increase the flexibility of the RadWindowManager and RadWindow
 
 * Retrieving a window from the __RadWindowManager____Windows__ collection and configuring it.
 
->tabbedCode
+
 
 ````C#
 	    private void Page_Load(object sender, System.EventArgs e)
@@ -125,4 +125,4 @@ It is possible to increase the flexibility of the RadWindowManager and RadWindow
 	    End Sub
 	
 ````
->end
+

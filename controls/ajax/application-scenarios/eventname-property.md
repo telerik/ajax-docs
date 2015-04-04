@@ -20,7 +20,7 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 
 * __Example 1__: Setting __EventName__ for __asp:UpdatePanel's AsyncPostBack__ triggers:
 
->tabbedCode
+
 
 ````ASPNET
 	    <div>
@@ -95,11 +95,11 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    End Sub
 	End Class
 ````
->end
+
 
 * __Example 2__: How to set the __EventName__ property of a __RadAjaxManager__ control:
 
->tabbedCode
+
 
 ````ASPNET
 	    <div>
@@ -179,7 +179,7 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    End Sub
 	End Class
 ````
->end
+
 
 # See Also
 

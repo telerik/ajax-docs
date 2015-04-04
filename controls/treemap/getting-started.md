@@ -33,7 +33,7 @@ To add a __RadTreeMap__ control into the page, you can simply drag it from the V
 
 __Example 1__: Simple declaration of a __RadTreeMap__ control.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:radtreemap runat="server" id="RadTreeMap1" height="250" width="400">
@@ -67,7 +67,7 @@ __Example 1__: Simple declaration of a __RadTreeMap__ control.
 	                </Items>
 	            </telerik:radtreemap>
 ````
->end
+
 
 >note All __RadTreeMapItems__ should have one __Parent__ item.
 >

@@ -42,7 +42,7 @@ For the purpose of exemplifying this, you will need to create an empty Web.UI Ap
 
 Firstly, for the purpose of this tutorial, we will create a new data table with a single row
 
->tabbedCode
+
 
 ````C#
 	
@@ -76,11 +76,11 @@ Firstly, for the purpose of this tutorial, we will create a new data table with 
 	    End Function
 	
 ````
->end
+
 
 Once data table is defined, you may use it to bind it to the __RadDataForm__ through the __NeedDataSource__ event:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:raddataform runat="server" id="RadDataForm1" onneeddatasource="RadDataForm1_NeedDataSource">
@@ -128,7 +128,7 @@ Once data table is defined, you may use it to bind it to the __RadDataForm__ thr
 	        Me.RadDataForm1.DataSource = Me.GetDataTable()
 	    End Sub
 ````
->end
+
 
 After applying the __DataSource__ you can add the required templates in the __DataForm__ markup:
 

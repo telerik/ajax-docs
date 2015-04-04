@@ -22,7 +22,7 @@ The __TextChanged__ event handler receives two arguments:
 
 1. An AutoCompleteTextEventArgs object. This object has a __Text__ property of type string.
 
->tabbedCode
+
 
 ````C#
 	
@@ -39,7 +39,7 @@ The __TextChanged__ event handler receives two arguments:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

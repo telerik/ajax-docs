@@ -18,7 +18,7 @@ You can iterate through the items placed in the group panel of a grid and modify
 
 The following example illustrates how this is done. It changes the __ImageUrl__ for the sorting image button of each group panel item and set its __CausesValidation__ property to __false__ (to avoid validation on click):
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,4 +54,4 @@ The following example illustrates how this is done. It changes the __ImageUrl__ 
 	        Next cell
 	    End Sub
 ````
->end
+

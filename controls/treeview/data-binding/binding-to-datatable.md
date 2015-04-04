@@ -36,7 +36,7 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 
 ![RadTreeView DataBase](images/treeview_databindingdatabase.png)
 
->tabbedCode
+
 
 ````C#
 	     
@@ -95,7 +95,7 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        End Class
 	    End Namespace
 ````
->end
+
 
 # See Also
 

@@ -31,7 +31,7 @@ Using the __IsSelectionRangeEnabled__, __SelectionStart__, __SelectionEnd__ prop
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -53,7 +53,7 @@ Using the __IsSelectionRangeEnabled__, __SelectionStart__, __SelectionEnd__ prop
 	        RadSlider2.ShowDragHandle = True
 	
 ````
->end
+
 
 ## Handles Tooltips
 
@@ -69,7 +69,7 @@ Tooltips are automatically supplied to all three handles and are controlled by t
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -85,7 +85,7 @@ Tooltips are automatically supplied to all three handles and are controlled by t
 	        RadSlider1.DragText = "Change"
 	
 ````
->end
+
 
 # See Also
 

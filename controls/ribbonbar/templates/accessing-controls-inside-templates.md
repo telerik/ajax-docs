@@ -47,7 +47,7 @@ Here is the markup:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -61,4 +61,4 @@ Here is the markup:
 		Dim combobox1 As RadComboBox = DirectCast(tab2.Groups(0).Items(0).FindControl("RadComboBox1"), RadComboBox)
 	
 ````
->end
+

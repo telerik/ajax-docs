@@ -29,7 +29,7 @@ The declaration of the __RadTagCloud__ object includes no __DataSourceID__ prope
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the __tagCloud__. You must call the __DataBind__ method after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -76,4 +76,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	    End Sub 'BindToDataTable
 	
 ````
->end
+

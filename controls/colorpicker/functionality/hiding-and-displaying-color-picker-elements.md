@@ -32,7 +32,7 @@ You can hide the empty color button by setting the __ShowEmptyColor__ property t
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -47,4 +47,4 @@ You can hide the empty color button by setting the __ShowEmptyColor__ property t
 			RadColorPicker1.PreviewColor = False
 		End Sub
 ````
->end
+

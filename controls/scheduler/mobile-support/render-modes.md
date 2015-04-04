@@ -40,7 +40,7 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -50,7 +50,7 @@ There are two ways to configure the rendering mode of the controls:
 ````VB.NET
 	        RadScheduler1.RenderMode = Telerik.Web.UI.RenderMode.Mobile
 ````
->end
+
 
 * The render mode for the RadScheduler control can be specified globally in web.config by adding an app key:
 

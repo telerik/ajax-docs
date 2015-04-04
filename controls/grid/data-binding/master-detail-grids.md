@@ -142,7 +142,7 @@ The following example shows how the screenshot above was generated:
 
 In the code-behind, you can use the __Page_PreRender__ event to initialize the selected row of the first grid:
 
->tabbedCode
+
 
 ````C#
 	
@@ -164,6 +164,6 @@ In the code-behind, you can use the __Page_PreRender__ event to initialize the s
 	        End If
 	    End Sub
 ````
->end
+
 
 For a live example of related grids, see [ Related grids](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectedValue/DefaultCS.aspx)

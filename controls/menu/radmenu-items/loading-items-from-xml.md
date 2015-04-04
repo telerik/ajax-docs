@@ -61,7 +61,7 @@ Create an XML file with content that complies with the rules described above and
 
 
 
->tabbedCode
+
 
 ````C#
 	RadMenu1.LoadContentFile("~/App_Data/menu.xml");		
@@ -69,7 +69,7 @@ Create an XML file with content that complies with the rules described above and
 ````VB.NET
 	    RadMenu1.LoadContentFile("~/App_Data/menu.xml")
 ````
->end
+
 
 ## Loading from an XML string
 
@@ -77,7 +77,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 
 
 
->tabbedCode
+
 
 ````C#
 	StringBuilder sb = new StringBuilder();
@@ -101,7 +101,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    Dim xmlString As String = sb.ToString()
 	    RadMenu1.LoadXml(xmlString)
 ````
->end
+
 
 >note You can also populate RadMenu from an XML file using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug menu/data-binding/binding-to-hierarchical-datasource%})for details.
 >

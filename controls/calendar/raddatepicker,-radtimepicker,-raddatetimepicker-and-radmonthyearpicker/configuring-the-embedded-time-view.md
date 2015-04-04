@@ -64,7 +64,7 @@ Here is an example how to set the value of the property
 
 Using a string array:
 
->tabbedCode
+
 
 ````C#
 	    protected void SetCustomValuesByStringArray()
@@ -96,11 +96,11 @@ Using a string array:
 	End Class
 
 
->end
+
 
 Using TimeSpan array:
 
->tabbedCode
+
 
 ````C#
 	    protected void SetCustomValuesByTimeSpansArray()
@@ -125,11 +125,11 @@ Using TimeSpan array:
 	End Class
 
 
->end
+
 
 Using DateTime array:
 
->tabbedCode
+
 
 ````C#
 	    protected void SetCustomValuesByDateTimeArray()
@@ -147,7 +147,7 @@ Using DateTime array:
 	End Class
 
 
->end
+
 >caption Here is how the configured RadTimePicker should look
 
 ![calendar timeview 1](images/calendar_timeview1.png)
@@ -167,7 +167,7 @@ To enable scrolling for the TimeView you can set its Width and Height properties
 
 You can also configure the embedded time view control at runtime:
 
->tabbedCode
+
 
 ````C#
 	
@@ -199,7 +199,7 @@ You can also configure the embedded time view control at runtime:
 	    End Sub
 				
 ````
->end
+
 
 # See Also
 

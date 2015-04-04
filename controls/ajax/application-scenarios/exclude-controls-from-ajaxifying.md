@@ -42,7 +42,7 @@ You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -64,7 +64,7 @@ You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example
 	    End Sub
 	
 ````
->end
+
 
 >note This approach is not applicable when the page is AJAX-enabled with __RadAjaxManager__ .
 >
@@ -139,7 +139,7 @@ Example 3: ASPX
 
 And in the code-behind (__Page_Load__ event handler):
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -157,11 +157,11 @@ And in the code-behind (__Page_Load__ event handler):
 	        End If
 	    End Sub
 ````
->end
+
 
 If you do not have a control that registers the ____doPostBack__ function on the page you should add the following line in the __Page_Load__ as well:
 
->tabbedCode
+
 
 ````C#
 	
@@ -171,7 +171,7 @@ If you do not have a control that registers the ____doPostBack__ function on the
 ````VB.NET
 	        Me.Page.ClientScript.GetPostBackEventReference(Me, "")
 ````
->end
+
 
 This will come in handy when you want a single control to perform the Postback for your scenario or you want to upload files from a control in __RadAjaxPanel__.
 
@@ -181,7 +181,7 @@ ____
 
 If you are loading the user control dynamically, the code __if (!Page.IsPostBack)__ in __Example 3__ in its __Page_Load__ event handler is never executed. You can check for the attached __OnClick__ event instead of the __IsPostBack__ as shown in __Example 4__.
 
->tabbedCode
+
 
 ````C#
 	
@@ -217,7 +217,7 @@ If you are loading the user control dynamically, the code __if (!Page.IsPostBack
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

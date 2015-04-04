@@ -32,7 +32,7 @@ In this example, the appearance of the appointment is changed based on a custom 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -88,7 +88,7 @@ In this example, the appearance of the appointment is changed based on a custom 
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

@@ -37,7 +37,7 @@ The sample code below shows how to dynamically create Radmenu inside a RadPanelI
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -124,7 +124,7 @@ The sample code below shows how to dynamically create Radmenu inside a RadPanelI
 	        End Sub
 	    End Class
 ````
->end
+
 
 myMenuLinkis SQL Table:
 

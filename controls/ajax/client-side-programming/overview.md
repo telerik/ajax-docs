@@ -46,7 +46,7 @@ Example 1: Performe ajax request on the client and handle it on the server.
 
 
 
->tabbedCode
+
 
 ````C#
 	    private void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
@@ -61,7 +61,7 @@ Example 1: Performe ajax request on the client and handle it on the server.
 	        'code to handle the generic AJAX request
 	    End Sub
 ````
->end
+
 
 When an AJAX request is triggered using the __AjaxRequest__ event from the client, the __RadAjaxManager__itself should be set as the AJAX initiator updating the corresponding control, as shown in __Example 2__.
 
@@ -134,7 +134,7 @@ Example 3: The AjaxButton forces the Button to raise a postback event.
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, System.EventArgs e)
@@ -147,7 +147,7 @@ And in the code-behind:
 	        TextBox1.Text = DateTime.Now
 	    End Sub
 ````
->end
+
 
 You can see the working example by following this link:
 

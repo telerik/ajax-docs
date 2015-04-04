@@ -20,7 +20,7 @@ The __RadClientExportManager__ relies on the File API in order to work.IE9 and S
 
 __Example1:__ The example shows how to configure the __RadClientExportManager__ in order to use ProxyURL, process and returns the data stream to the client.
 
->tabbedCode
+
 
 ````ASPNET
 	<div id="foo">
@@ -73,7 +73,7 @@ __Example1:__ The example shows how to configure the __RadClientExportManager__ 
 	#End Region
 
 
->end
+
 
 # See Also
 

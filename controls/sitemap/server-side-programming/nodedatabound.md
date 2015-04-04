@@ -22,7 +22,7 @@ Binding to a __database__:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadSiteMap1_NodeDataBound(object sender, RadSiteMapNodeEventArgs e) 
@@ -37,7 +37,7 @@ Binding to a __database__:
 	        e.Node.ToolTip = nodeData("tooltipColumn").ToString()
 	    End Sub
 ````
->end
+
 
 
 
@@ -45,7 +45,7 @@ Binding to __SiteMapDataSource__:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadSiteMap1_NodeDataBound(object sender, Telerik.Web.UI.RadSiteMapNodeEventArgs e)
@@ -60,4 +60,4 @@ Binding to __SiteMapDataSource__:
 	        e.Node.ToolTip = sitemapNode.Title + " - " + sitemapNode.Url
 	    End Sub
 ````
->end
+

@@ -20,7 +20,7 @@ __Server-Side Approach__
 
 This is pretty straightforward:
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ This is pretty straightforward:
 	    End Sub
 				
 ````
->end
+
 
 __Client-Side Approach__
 

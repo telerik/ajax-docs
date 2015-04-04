@@ -60,7 +60,7 @@ Note that in the grid declaration, you do not need to enable client-side selecti
 
 In the code-behind, the __OnCheckedChanged__ event handlers (__ToggleRowSelection__ and __ToggleSelectedState__) handle the selection and de-selection of rows:
 
->tabbedCode
+
 
 ````C#
 	    protected void ToggleRowSelection(object sender, EventArgs e)
@@ -110,6 +110,6 @@ In the code-behind, the __OnCheckedChanged__ event handlers (__ToggleRowSelectio
 	        Next
 	    End Sub
 ````
->end
+
 
 For a live example showing server-side selection, see [Server-side row selection.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx)

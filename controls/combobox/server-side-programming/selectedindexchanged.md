@@ -47,7 +47,7 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,7 +67,7 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

@@ -30,7 +30,7 @@ The __DayRender__ event handler receives two arguments:
 
 Use the __DayRender__ event handler to make changes to the cell before it is rendered. For example, the following event handler changes the text of dates in the non-current month, and changes the appearance of today's date:
 
->tabbedCode
+
 
 ````C#
 	
@@ -60,7 +60,7 @@ Use the __DayRender__ event handler to make changes to the cell before it is ren
 	        End If
 	    End Sub
 ````
->end
+
 
 >note When customizing the appearance of the cells of the calendar using the __DayRender__ event, it is often helpful to also create a handler for the client-side[OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%})event that makes the same customizations when the user changes the view.
 >

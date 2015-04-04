@@ -34,7 +34,7 @@ The __TargetControls__ collection specifies a list of IDs of server controls (or
 
 ## In The Code-Behind
 
->tabbedCode
+
 
 ````C#
 	
@@ -46,11 +46,11 @@ The __TargetControls__ collection specifies a list of IDs of server controls (or
 	        RadToolTipManager1.TargetControls.Add("TextBox1")
 	
 ````
->end
+
 
 When adding controls with client-side IDs to the __TargetControls__ collection use the overloaded version of the __Add()__ that takes two arguments. The second argument represents the __IsClientID__property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -68,11 +68,11 @@ When adding controls with client-side IDs to the __TargetControls__ collection u
 	        RadToolTipManager1.TargetControls.Add(button1.ClientID, True)
 	
 ````
->end
+
 
 The __Value__ property is a string that can, for example, originate from the datasource. It passes information to the event handlers:
 
->tabbedCode
+
 
 ````C#
 	
@@ -102,7 +102,7 @@ The __Value__ property is a string that can, for example, originate from the dat
 	
 	
 ````
->end
+
 
 # See Also
 

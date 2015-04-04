@@ -36,7 +36,7 @@ In order to access a control (a CheckBox in the particular example) embedded in 
 
 __Server-side access__
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ __Server-side access__
 	    End Sub
 	
 ````
->end
+
 
 ## Content Template
 
@@ -84,7 +84,7 @@ Now in the __ColorChanged__ event handler, the following code locates and update
 
 __Server-side access__
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,7 +101,7 @@ __Server-side access__
 	    End Sub
 	
 ````
->end
+
 
 __Client-side access__
 
@@ -143,7 +143,7 @@ In the __ColorChanged__ event handler, the following code locates and updates th
 
 __Server-side access__
 
->tabbedCode
+
 
 ````C#
 	
@@ -164,7 +164,7 @@ __Server-side access__
 	    End Sub
 	
 ````
->end
+
 
 __Client-side access__
 

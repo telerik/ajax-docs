@@ -16,7 +16,7 @@ position: 9
 
 When the user selects or unselects a Node checkbox, the __NodeCheck__ event fires. The __RadTreeNodeEventArgs__ has a __Node__ property that can be used to get the current __Checked__ property value of that Node.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -33,7 +33,7 @@ When the user selects or unselects a Node checkbox, the __NodeCheck__ event fire
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

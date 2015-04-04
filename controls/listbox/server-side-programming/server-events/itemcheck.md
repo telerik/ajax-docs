@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * __Item__ - the RadListBoxItem object that has just been checked/unchecked
 
->tabbedCode
+
 
 ````C#
 	
@@ -46,4 +46,4 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+

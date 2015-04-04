@@ -58,7 +58,7 @@ The class __Vehicle__ is declared in the directory __App_Code__ of the website a
 
 __Example 2__: Create a class with a static method that returns a DataTable filled with data from a database.
 
->tabbedCode
+
 
 ````C#
 		public class Vehicle
@@ -91,7 +91,7 @@ __Example 2__: Create a class with a static method that returns a DataTable fill
 	        End Function
 	    End Class
 ````
->end
+
 
 # See Also
 

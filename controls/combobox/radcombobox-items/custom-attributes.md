@@ -56,7 +56,7 @@ To customize RadComboBox items, this example uses an item [template]({%slug comb
 
 Before the template can use the custom attributes in its data-binding expressions, the application needs to explicitly bind the items by calling the __DataBind__ method of the __RadComboBoxItem__ objects:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -80,7 +80,7 @@ Before the template can use the custom attributes in its data-binding expression
 	    End Sub
 	
 ````
->end
+
 
 ## Using custom attributes server-side
 
@@ -88,7 +88,7 @@ Before the template can use the custom attributes in its data-binding expression
 
 You can add any name/value pair (value must be string) in the Attributes collection of each RadComboBoxItem and retrieve it later.
 
->tabbedCode
+
 
 ````C#
 	
@@ -110,13 +110,13 @@ You can add any name/value pair (value must be string) in the Attributes collect
 	</pre>
 	
 ````
->end
+
 
 ## RadComboBox data binding
 
 You can handle the RadComboBox' __ItemDataBound__ event and set the Attributes for each Item there.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -141,7 +141,7 @@ You can handle the RadComboBox' __ItemDataBound__ event and set the Attributes f
 	    End Sub
 	
 ````
->end
+
 
 ## Using custom attributes client-side
 

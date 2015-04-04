@@ -28,7 +28,7 @@ Note that the filter expressions produced by the built-in filtering mechanism of
 
 Here it is also demonstrated how to hide the default Apply button of the RadFilter control and trigger command for building expressions from an external button handler.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="RadGrid1" ShowApplyButton="false" />
@@ -88,6 +88,6 @@ Here it is also demonstrated how to hide the default Apply button of the RadFilt
 	    End Function
 	
 ````
->end
+
 
 Find a live demo illustrating the integration of RadFilter with RadGrid [here](http://demos.telerik.com/aspnet-ajax/Filter/Examples/Integration/DefaultCS.aspx).

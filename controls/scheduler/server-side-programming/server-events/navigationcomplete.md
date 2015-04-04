@@ -44,7 +44,7 @@ You can use this event to perform custom actions when a navigation action has be
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,7 +63,7 @@ You can use this event to perform custom actions when a navigation action has be
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

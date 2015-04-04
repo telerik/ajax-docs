@@ -52,7 +52,7 @@ To enable spell checking in your web application you need to accomplish the foll
 
 1. adding the language in the RadEditor's Languages collection. It is recommended to add the language in Page_Load
 
->tabbedCode
+
 
 ````C#
 	
@@ -69,4 +69,4 @@ To enable spell checking in your web application you need to accomplish the foll
 	        End If
 	    End Sub
 ````
->end
+

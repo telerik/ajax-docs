@@ -18,7 +18,7 @@ RadFilter exposes the __ExpressionItemCreated__ event which is fired after each 
 
 Below is a sample code implementation which demonstrates how you can manipulate the filter items.	The code logic forbids the creation of sub-group expressions by hiding the __AddGroupExpressionButton__ and populates the	__RadFilterDropDownEditor__ with data.
 
->tabbedCode
+
 
 ````ASPNET
 	    <div class="filterDiv">
@@ -139,7 +139,7 @@ Below is a sample code implementation which demonstrates how you can manipulate 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## 
 

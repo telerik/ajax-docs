@@ -24,7 +24,7 @@ The event handler function receives two arguments:
 
 The following example shows how to get the text of the clicked item:
 
->tabbedCode
+
 
 ````C#
 	
@@ -46,7 +46,7 @@ The following example shows how to get the text of the clicked item:
 	
 	
 ````
->end
+
 
 # See Also
 

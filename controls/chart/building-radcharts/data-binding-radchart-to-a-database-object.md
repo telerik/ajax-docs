@@ -35,7 +35,7 @@ The figure above shows a running example that starts with a default RadChart wit
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -116,7 +116,7 @@ The figure above shows a running example that starts with a default RadChart wit
 	    End Namespace
 	
 ````
->end
+
 
 
 

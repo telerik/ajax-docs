@@ -82,7 +82,7 @@ __Example 1: RadTileList in RTL mode.__
 
 
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -102,4 +102,4 @@ __Example 1: RadTileList in RTL mode.__
 	End Class
 
 
->end
+

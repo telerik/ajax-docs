@@ -22,7 +22,7 @@ The __EntryRemoved__ event handler receives two arguments:
 
 1. An AutoCompleteEntryEventArgs object. This object has an __Entry__ property of type AutoCompleteBoxEntry.
 
->tabbedCode
+
 
 ````C#
 	
@@ -39,7 +39,7 @@ The __EntryRemoved__ event handler receives two arguments:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

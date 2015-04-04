@@ -60,7 +60,7 @@ To customize the toolbar items, this example uses an __ItemTemplate__for the ite
 
 Before the template can use the custom attributes in its data-binding expressions, the application needs to explicitly bind the items by calling the __DataBind__ method of the __RadToolBarItems__ objects:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -90,13 +90,13 @@ Before the template can use the custom attributes in its data-binding expression
 	    End Sub
 	
 ````
->end
+
 
 ## Using custom attributes in server-side code
 
 You can add any name/value pair (value must be string) in the __Attributes__ collection of each __RadToolBarItem__ and retrieve it later.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -119,7 +119,7 @@ You can add any name/value pair (value must be string) in the __Attributes__ col
 	    splitButton.Attributes("Displayname") = "CustomText"
 	
 ````
->end
+
 
 ## Using custom attributes client-side
 

@@ -112,7 +112,7 @@ Here is an example that demonstrates how to add dynamically a template:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -132,9 +132,9 @@ Here is an example that demonstrates how to add dynamically a template:
 	        RadOrgChart2.Nodes.Add(node)
 	
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	
@@ -171,7 +171,7 @@ Here is an example that demonstrates how to add dynamically a template:
 	End Class
 	
 ````
->end
+
 
 ## 
 
@@ -191,7 +191,7 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -205,9 +205,9 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 	        RadOrgChart3.DataBind()
 	
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	
@@ -246,7 +246,7 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 	    End Function
 	
 ````
->end
+
 
 # See Also
 

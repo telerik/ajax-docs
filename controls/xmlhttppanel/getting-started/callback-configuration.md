@@ -61,7 +61,7 @@ __How to configure the RadXmlHttpPanel's callback?__
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void RadXmlHttpPanel1_ServiceRequest(object sender, Telerik.Web.UI.RadXmlHttpPanelEventArgs e)
@@ -78,6 +78,6 @@ __How to configure the RadXmlHttpPanel's callback?__
 	        Label1.Text += "<br/> The returned value fron the client's set_value() function is: <strong>" + e.Value + "</strong>"
 	    End Sub
 ````
->end
+
 
 ____

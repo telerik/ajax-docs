@@ -42,7 +42,7 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 
 * Add elements to the __Controls__ collection of the __RadButton__ (__Example 2__).__Example 2__: Adding controls to the __Controls__ collection of __RadButton__ from code behind.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
@@ -65,11 +65,11 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 	        RadButton1.Controls.Add(radButtonContent)
 	    End Sub
 ````
->end
+
 
 * Set the __ContentTemplate__ property to an instance of a class that implements the __ITemplate__ interface (__Example 3__).__Example 3__: Adding controls to the __RadButton__ by using the __ITemplate__ class.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
@@ -117,7 +117,7 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

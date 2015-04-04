@@ -54,7 +54,7 @@ The following example demonstrates this technique:
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
@@ -86,4 +86,4 @@ The following example demonstrates this technique:
 	        End If
 	    End Sub
 ````
->end
+

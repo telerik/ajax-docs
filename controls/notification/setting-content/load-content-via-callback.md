@@ -33,7 +33,7 @@ In the example below the server time is populated in the notification by using i
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void OnCallbackUpdate(object sender, RadNotificationEventArgs e)
@@ -116,4 +116,4 @@ In the example below the server time is populated in the notification by using i
 	End Class
 
 
->end
+

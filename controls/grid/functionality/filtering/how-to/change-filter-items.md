@@ -28,7 +28,7 @@ In case you would like to set the width for the filter control declaratively, us
 
 The following example illustrates this technique to change the width of the text box:
 
->tabbedCode
+
 
 ````C#
 	
@@ -55,7 +55,7 @@ The following example illustrates this technique to change the width of the text
 	        End If
 	    End Sub
 ````
->end
+
 
 If you want to show a tooltip for the filter control, you can use the __FilterControlTooltip__ property. Note that it is applicable for columns inheriting from GridBoundColumn.
 

@@ -24,7 +24,7 @@ There are cases when you may prefer to display the insertion form above/below th
 
 The code snippets below represent a sample implementation:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -68,4 +68,4 @@ The code snippets below represent a sample implementation:
 	        }
 	    }
 ````
->end
+

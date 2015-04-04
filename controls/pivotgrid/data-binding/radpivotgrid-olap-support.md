@@ -110,7 +110,7 @@ You can use __PrepareDescriptionForField__ handler to enhance the sorting capabi
 
 Into __GetDescriptionsDataCompleted__ event all nodes from the olap cube are available and you can remove some of them based on your logic. For example if you want to show only nodes (and theirs child nodes) which are [Account] and [Department] you can use the following code snippet:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadPivotGrid1_GetDescriptionsDataCompleted(object sender, GetDescriptionsDataCompletedEventArgs e)
@@ -156,7 +156,7 @@ Into __GetDescriptionsDataCompleted__ event all nodes from the olap cube are ava
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Support for OLAP connection strings stored in web.config
 

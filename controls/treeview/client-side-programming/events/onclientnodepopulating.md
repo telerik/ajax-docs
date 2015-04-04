@@ -75,7 +75,7 @@ The example below shows how to prevent populating a "Network Locations" node. No
 
 The server __NodeExpand__ event handler for the RadTreeView defined above:
 
->tabbedCode
+
 
 ````C#
 	
@@ -121,7 +121,7 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

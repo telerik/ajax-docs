@@ -83,7 +83,7 @@ If you are extending the Telerik controls that support render modes through a pr
 
 __Example 1__: Properties that enable you to use RenderModes for controls inherited from the Telerik controls.
 
->tabbedCode
+
 
 ````C#
 	public class BaseScheduler : RadScheduler
@@ -165,4 +165,4 @@ __Example 1__: Properties that enable you to use RenderModes for controls inheri
 		End Property
 	End Class
 ````
->end
+

@@ -45,7 +45,7 @@ __ResourceHeaderCreated__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -62,4 +62,4 @@ __ResourceHeaderCreated__ has two parameters:
 	    End Sub
 	
 ````
->end
+

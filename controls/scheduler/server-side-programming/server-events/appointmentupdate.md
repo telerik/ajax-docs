@@ -30,7 +30,7 @@ __AppointmentUpdate__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -49,7 +49,7 @@ __AppointmentUpdate__ has two parameters:
 	    End Sub
 	
 ````
->end
+
 
 ## Getting recurrence rule when a recurring appointment is dragged or resized
 
@@ -57,7 +57,7 @@ It is a known issue that occurs in cases when a recurring Appointment is dragged
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -102,7 +102,7 @@ It is a known issue that occurs in cases when a recurring Appointment is dragged
 	
 	
 ````
->end
+
 
 # See Also
 

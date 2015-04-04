@@ -93,7 +93,7 @@ Every __ImageGalleryShortut__ has the following properties:
 
 * __Modifiers__ – Specifies the key modifiers that allow the command to be fired by a certain combination of keys.Here you can define more than one modifier if needed. For example
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -116,6 +116,6 @@ Every __ImageGalleryShortut__ has the following properties:
 	        })
 	    End Sub
 ````
->endwill force the firing of the command if __N__, __Alt__ and __Ctrl__ keys arepressed. By default the value of the property is __None__.
+will force the firing of the command if __N__, __Alt__ and __Ctrl__ keys arepressed. By default the value of the property is __None__.
 
 * __Enabled__ – Determines if the shortcut can be used.

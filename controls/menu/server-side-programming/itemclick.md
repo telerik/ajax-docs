@@ -26,7 +26,7 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemClick(object sender, RadMenuEventArgs e)
@@ -41,7 +41,7 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 	        Response.Write("Server event raised -- you clicked: " + ItemClicked.Text)
 	    End Sub
 ````
->end
+
 
 # See Also
 

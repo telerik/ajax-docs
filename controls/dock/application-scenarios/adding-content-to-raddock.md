@@ -35,7 +35,7 @@ You can add controls to the __ContentTemplate__ property and __RadDock__ will au
 
 You can access the controls in the __ContentTemplate__ at runtime to get or set their properties:
 
->tabbedCode
+
 
 ````C#
 	
@@ -57,13 +57,13 @@ You can access the controls in the __ContentTemplate__ at runtime to get or set 
 	    End Sub
 	
 ````
->end
+
 
 ## Assigning the ContentTemplate at runtime
 
 You can create a class which implements the __ITemplate__ interface and set its instance to the __ContentTemplate__ property from the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -106,13 +106,13 @@ You can create a class which implements the __ITemplate__ interface and set its 
 	    End Class
 	
 ````
->end
+
 
 ## Adding controls directly to the content container
 
 Instead of creating a class which implements __ITemplate__, you can directly add controls to the ContentContainer.Controls collection. This is slightly easier to implement, but you cannot easily reuse the template in other controls.
 
->tabbedCode
+
 
 ````C#
 	
@@ -133,7 +133,7 @@ Instead of creating a class which implements __ITemplate__, you can directly add
 	    End Sub
 	
 ````
->end
+
 
 >note Note that when using the __ContentContainer__ property, you should always execute the code, even on a postback. This is because controls you add this way are not persisted in the ViewState.
 >

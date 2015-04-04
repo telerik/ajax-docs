@@ -27,7 +27,7 @@ When the __RadRating__ in not initially visible on the page and it is loaded thr
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -44,7 +44,7 @@ When the __RadRating__ in not initially visible on the page and it is loaded thr
 		End Sub
 	
 ````
->end
+
 
 This is a common issue when dynamically loading controls through AJAX requests. The reason for this behavior is that the control relies on its CSS resources to be already loaded on the page during initialization and rendering, whereas they are still loading.
 
@@ -52,7 +52,7 @@ The way around this issue is to have the styles already loaded on the page. Ther
 
 * Using the __GetWebResourceUrl__ method to load the styles:
 
->tabbedCode
+
 
 ````C#
 	    <head>
@@ -68,7 +68,7 @@ The way around this issue is to have the styles already loaded on the page. Ther
 			<link href='<%= Page.ClientScript.GetWebResourceUrl(GetType(RadRating), "Telerik.Web.UI.Skins.Default.Rating.Default.css")%>' rel="stylesheet" type="text/css" />
 		</head>
 ````
->end
+
 
 * Using the [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to load the styles:
 

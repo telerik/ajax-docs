@@ -55,7 +55,7 @@ The following example illustrates how to save uploaded files to a location of yo
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, System.EventArgs e)
@@ -76,7 +76,7 @@ The following example illustrates how to save uploaded files to a location of yo
 	    Next
 	End Sub 
 ````
->end
+
 
 ## Saving uploaded files in control's OnFileUploaded event
 
@@ -91,7 +91,7 @@ The following example illustrates how to save uploaded files to a location of yo
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadAsyncUpload1_FileUploaded1(object sender, FileUploadedEventArgs e)
@@ -108,7 +108,7 @@ The following example illustrates how to save uploaded files to a location of yo
 	    e.File.SaveAs(Path + e.File.GetName())
 	End Sub
 ````
->end
+
 
 >note The __OnFileUpload__ event will be fired for every file in the __UploadedFiles__ collection after postback.
 >
@@ -122,7 +122,7 @@ The following example demonstrates how to insert the uploaded files into a datab
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -184,7 +184,7 @@ The following example demonstrates how to insert the uploaded files into a datab
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

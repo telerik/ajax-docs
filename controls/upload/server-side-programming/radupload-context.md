@@ -22,7 +22,7 @@ You can access all uploaded files within the current request using the__RadUploa
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -43,7 +43,7 @@ You can access all uploaded files within the current request using the__RadUploa
 	    End Sub
 	
 ````
->end
+
 
 The __RadUploadContext__ object has a single property:__UploadedFiles__. __UploadedFiles__ is a collection ofall files that have been uploaded within the current request, including those selected with__RadUpload__ controls and those selected with regular__<input type=file>__ elements.
 

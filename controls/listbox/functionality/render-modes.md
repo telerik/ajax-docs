@@ -32,7 +32,6 @@ There are two ways to set the __RenderMode__ for __RadListBox__:
 
 
 
->tabbedCode
 
 
 
@@ -41,7 +40,8 @@ There are two ways to set the __RenderMode__ for __RadListBox__:
 
 
 
->end
+
+
 
 * A __global setting in the web.config__ file that will affect the entire application, unless a concrete value is specified for __RadListBox__ instance:
 

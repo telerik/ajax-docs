@@ -43,7 +43,7 @@ To specify a combination of behaviors (other than the default), combine __Behavi
 
 You can also set the __Behaviors__ property from the codebehind:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -55,7 +55,7 @@ You can also set the __Behaviors__ property from the codebehind:
 							RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move Or _ Telerik.Web.UI.WindowBehaviors.Close
 				
 ````
->end
+
 
 
 

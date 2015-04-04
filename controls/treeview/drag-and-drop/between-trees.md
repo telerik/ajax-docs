@@ -68,7 +68,7 @@ In the example below, both RadTreeViews have their __EnableDragAndDrop__ propert
 
 
 
->tabbedCode
+
 
 ````C#
 	using System.Web.UI;
@@ -101,7 +101,7 @@ In the example below, both RadTreeViews have their __EnableDragAndDrop__ propert
 	        End Class
 	    End Namespace
 ````
->end
+
 
 # See Also
 

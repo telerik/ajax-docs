@@ -89,7 +89,7 @@ In the SVG_VML, the different __LineWidth__ will not result in any difference du
 
 The output image can be generated using GetImage() method of the RadBarcode. It will return a System.Drawing. Bitmap object that the user can save later. The return image size depends on the LineWidth (DotSize) set for the Barcode.
 
->tabbedCode
+
 
 ````C#
 	    public void Example()
@@ -115,13 +115,13 @@ The output image can be generated using GetImage() method of the RadBarcode. It 
 	End Class
 
 
->end
+
 
 ## RadBinaryImage and RadBarcode
 
 Radbarcode’s rendered image can be used as DataValue for the RadBinaryImage. Here is an example:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -162,4 +162,4 @@ Radbarcode’s rendered image can be used as DataValue for the RadBinaryImage. H
 	End Class
 
 
->end
+

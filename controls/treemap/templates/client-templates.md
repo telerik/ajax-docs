@@ -30,7 +30,7 @@ The __ClientTemplate__ contains mark up and binding expressions, which are evalu
 
 As mentioned above, the __RadTreeMap__ supports only __ClientTemplate__. This is why, you can use the template to evaluate any KeyField from the datasource and use the __DataKeyNames__ property to enumerate them. In the example bellow you could observe how this is achieved using __SqlDataSource__. If you are binding the __RadTreeMap__ from code-behind, you would need to call __DataBind()__, in order to bind the template with the specified KeyFields.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:radtreemap runat="server"
@@ -50,7 +50,7 @@ As mentioned above, the __RadTreeMap__ supports only __ClientTemplate__. This is
 	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
 	            SelectCommand="SELECT ID, ParentID, Name, Rank, Pay, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
->end
+
 
 # See Also
 

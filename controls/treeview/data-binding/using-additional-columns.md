@@ -18,7 +18,7 @@ If you need to map additional columns from the Data Source to properties of the 
 
 In the example below, the RadTreeView is bound to a __DataTable__ and the DataItem is of type __DataRowView__. If you were binding to an array of a custom object "Employee", then the __DataItem__ would be cast to the __Employee__ type before using.
 
->tabbedCode
+
 
 ````C#
 	
@@ -36,4 +36,4 @@ In the example below, the RadTreeView is bound to a __DataTable__ and the DataIt
 	    End Sub
 	
 ````
->end
+

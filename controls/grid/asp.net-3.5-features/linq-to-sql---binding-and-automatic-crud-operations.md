@@ -103,7 +103,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemUpdated(object source, GridUpdatedEventArgs e)
@@ -178,7 +178,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        End If
 	    End Sub
 ````
->end
+
 
 ````ASPNET
 	    <ul class="productDetails">
@@ -227,7 +227,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	    public partial class Grid_Examples_dataediting_linqdatasource_productdetailscs:
@@ -261,4 +261,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	            End Property
 	        End Class
 ````
->end
+

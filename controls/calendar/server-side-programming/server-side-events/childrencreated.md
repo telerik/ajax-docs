@@ -32,7 +32,7 @@ The__ChildrenCreated__ event handler receives two arguments:
 
 You can use this event to set date input, calendar and time view properties, or add additional controls. The following example uses the __ChildrenCreated__ event handler to add a control that clears the selection:
 
->tabbedCode
+
 
 ````C#
 	
@@ -59,7 +59,7 @@ You can use this event to set date input, calendar and time view properties, or 
 	        picker.Controls.Add(clearLink)
 	    End Sub
 ````
->end
+
 
 # See Also
 

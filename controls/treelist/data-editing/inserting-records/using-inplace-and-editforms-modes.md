@@ -30,7 +30,7 @@ The __ExtractValuesFromItem(dictionaryObject, editableItem, includePrimaryKey)__
 
 After you get the IDictionary object populated, you can use the provided values to insert a new item into the treelist datasource.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -96,13 +96,13 @@ After you get the IDictionary object populated, you can use the provided values 
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
->end
+
 
 ## Accessing the insert values using column editors
 
 This can be achieved by getting hold of the current editable item and then accessing each column editor by column UniqueName. Then you just get the value from the control that the editor holds by using the control's own API.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
@@ -168,7 +168,7 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList2.Rebind()
 	    End Sub
 ````
->end
+
 
 >caution Note that RadTreeList expects the newly inserted value of the field that is specified as DataKeyNames to be larger than any of the already available values of this field in the datasource.
 >

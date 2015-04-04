@@ -48,7 +48,7 @@ For an online example that uses declarative custom editors, see [Using grid serv
 
 If you want to assign declarative custom editors at runtime, you need to instantiate them in a __Page_Init__ handler and add them to the __Controls__ collection of a place holder control:
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
@@ -85,7 +85,7 @@ If you want to assign declarative custom editors at runtime, you need to instant
 	        PlaceHolder1.Controls.Add(ddEditor1)
 	    End Sub
 ````
->end
+
 
 # See Also
 

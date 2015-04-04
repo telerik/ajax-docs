@@ -46,7 +46,7 @@ The code snippet below shows sample configuration of RadDropDownTree bound to Ra
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -179,4 +179,4 @@ The code snippet below shows sample configuration of RadDropDownTree bound to Ra
 	End Class
 
 
->end
+

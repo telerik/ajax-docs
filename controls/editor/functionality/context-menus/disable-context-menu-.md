@@ -16,7 +16,7 @@ position: 1
 
 To disable RadEditor context menus, use code-behind to locate the context menu and set it __Enabled__property to false.
 
->tabbedCode
+
 
 ````C#
 	
@@ -30,4 +30,4 @@ To disable RadEditor context menus, use code-behind to locate the context menu a
 	        RadEditor1.ContextMenus.FindByTagName("P").Enabled = False
 	
 ````
->end
+

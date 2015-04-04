@@ -30,7 +30,7 @@ The __AjaxSettingCreating__ event handler receives two arguments:
 
 ## Example
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,4 +45,4 @@ The __AjaxSettingCreating__ event handler receives two arguments:
 	        e.Canceled = IIf((e.Initiator Is Button1) And (e.Updated Is Label1), True, False)
 	    End Sub
 ````
->end
+

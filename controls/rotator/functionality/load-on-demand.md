@@ -35,7 +35,7 @@ Below you can find an example of the setup that is used with enabled __Load on D
 
 The attached WebService should have the following signature:
 
->tabbedCode
+
 
 ````C#
 		[ScriptService]
@@ -82,7 +82,7 @@ The attached WebService should have the following signature:
 	End Class
 
 
->end
+
 
 The HTML, which should be rendered in the item, is assigned to the Html property of the __RadRotatorItemData__ object.
 
@@ -100,7 +100,7 @@ There is an option for passing an argument to the WebService method. This can be
 
 The passed argument can be accessed through the __argument__ parameter of the WebService method.
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -119,7 +119,7 @@ The passed argument can be accessed through the __argument__ parameter of the We
 	End Class
 
 
->end
+
 
 There are three client events that are related to the __Load On Demand__ functionality:
 

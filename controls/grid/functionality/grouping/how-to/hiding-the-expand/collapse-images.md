@@ -40,7 +40,7 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
@@ -79,9 +79,9 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -124,4 +124,4 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        End If
 	    End Sub
 ````
->end
+

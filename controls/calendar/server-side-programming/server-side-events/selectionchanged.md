@@ -24,7 +24,7 @@ The __SelectionChanged__event handler receives two arguments:
 
 Use the __SelectionChanged__event handler to respond to changes in the calendar's selection:
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,7 +48,7 @@ Use the __SelectionChanged__event handler to respond to changes in the calendar'
 	        End While
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -48,7 +48,7 @@ Here are some of the common issues one can face when using __RadAjax__.
 
 
 
->tabbedCode#_C#_
+#_C#_
 
 	
 			  		protected void Page_Load(object sender, EventArgs e)
@@ -66,11 +66,11 @@ Here are some of the common issues one can face when using __RadAjax__.
 			  	
 
 
->end
+
 
 1. Problem: A control’s skin is not loaded after an AJAX update.Solution: This issue usually occurs when a control is displayed after an AJAX update or the skin ischanged upon AJAX update. In this case, set the control’s __EnableAjaxSkinRendering__ property to__true__ on __Page_Load__ and after every postback
 
->tabbedCode#_C#_
+#_C#_
 
 	
 					  		protected void Page_Load(object sender, EventArgs e)
@@ -88,9 +88,9 @@ Here are some of the common issues one can face when using __RadAjax__.
 					  	
 
 
->endFor example, if a __RadGrid__ control is shown after a partial postback from a button clickthe	__EnableAjaxSkinRendering__ property of __RadGrid__ should be set to __true__	on button click. Also, keep in mind that if there are controls inside the grid, their __EnableAjaxSkinRendering__property should also be set to __true__. The code snippet below demonstrates how to load the skins of	__RadGrid__ and __RadDateTimePicker__ control placed in the __ItemTemplate__	of the grid template column after a partial postback.
+For example, if a __RadGrid__ control is shown after a partial postback from a button clickthe	__EnableAjaxSkinRendering__ property of __RadGrid__ should be set to __true__	on button click. Also, keep in mind that if there are controls inside the grid, their __EnableAjaxSkinRendering__property should also be set to __true__. The code snippet below demonstrates how to load the skins of	__RadGrid__ and __RadDateTimePicker__ control placed in the __ItemTemplate__	of the grid template column after a partial postback.
 
->tabbedCode#_C#_
+#_C#_
 
 	
 					  		protected void Button1_Click(object sender, EventArgs e)
@@ -116,7 +116,7 @@ Here are some of the common issues one can face when using __RadAjax__.
 					  	
 
 
->end
+
 
 1. Problem: Setting the __EventName__ property in the AJAX settings for the AJAX initiator control does not work.Solution: The __EventName__ property is obsolete for__RadAjax__. If your logic strongly relies on it, you should use an__asp:UpdatePanel__ toAJAX-enable the controls instead of __RadAjax__. Another option is to wrap the updated control in a__RadAjaxPanel__ instead of using the __RadAjaxManager__ to AJAX-enable it. Then on certainclient-side events of the AJAX initiator, invoke AJAX for the corresponding __RadAjaxPanel__ manually. See the sample in[this help article]({%slug ajax/radajaxpanel/overview%}) for more information.
 

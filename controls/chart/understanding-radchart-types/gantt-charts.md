@@ -40,7 +40,7 @@ Other Gantt chart issues:
 
 * Use the ValueFormat property to display values as dates.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -52,4 +52,4 @@ Other Gantt chart issues:
 							RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate
 				
 ````
->end
+

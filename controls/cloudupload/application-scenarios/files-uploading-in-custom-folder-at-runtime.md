@@ -29,7 +29,7 @@ To accomplish this scenario the __RadCloudUpload__ needs to be configured to use
 
 
 
->tabbedCode
+
 
 ````C#
 	    <%@ WebHandler Language="C#" Class="UploadToCustomFolderHandler" %>
@@ -61,7 +61,7 @@ To accomplish this scenario the __RadCloudUpload__ needs to be configured to use
 	
 	    End Class
 ````
->end
+
 
 # See Also
 

@@ -28,7 +28,7 @@ Make sure that the path set to the property has the same format as the path show
 
 * In the code behind of the same page where the RadFileExplorer was declared add this code:
 
->tabbedCode
+
 
 ````C#
 	
@@ -109,6 +109,6 @@ Make sure that the path set to the property has the same format as the path show
 	    End Sub
 	
 ````
->end
+
 
 * If an exception is thrown during the test, the text of the error (the value of the ex.Message property) will be shown as a JavaScript popup

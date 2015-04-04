@@ -76,7 +76,7 @@ In the __Page_Load__ event handler, the __Localization__property is set to refle
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -103,7 +103,7 @@ In the __Page_Load__ event handler, the __Localization__property is set to refle
 	    End Sub
 				
 ````
->end
+
 
 The button's __Click__ event handler performs the lengthy process, and at each measurablestep, updates the progress context:
 
@@ -116,7 +116,7 @@ The button's __Click__ event handler performs the lengthy process, and at each m
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -162,7 +162,7 @@ The button's __Click__ event handler performs the lengthy process, and at each m
 	    End Sub
 	
 ````
->end
+
 
 
 

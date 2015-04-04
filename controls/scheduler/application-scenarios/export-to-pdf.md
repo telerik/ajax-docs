@@ -26,7 +26,7 @@ To export the scheduler content to PDF format simply use the__ExportToPdf()__ser
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,7 +45,7 @@ To export the scheduler content to PDF format simply use the__ExportToPdf()__ser
 	
 	
 ````
->end
+
 
 >note Current limitation: RadScheduler exports without appointments if the default browser for the web server is IE6 or RadScheduler is populated with a Web Service.
 >
@@ -208,7 +208,7 @@ Here is an example of how to apply these settings:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -230,4 +230,4 @@ Here is an example of how to apply these settings:
 	
 	
 ````
->end
+

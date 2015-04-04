@@ -44,7 +44,7 @@ The __Value__ property of the Tile is used to __transfer information to the web 
 
 This simple example below shows a basic configuration of the __RadLiveTile__ so that it fetches data from a __Page Method__. The end result would be similar to the image:![Tile List-Tiles-Live Tile-Simple-Example](images/TileList-Tiles-LiveTile-Simple-Example.png)
 
->tabbedCode
+
 
 ````ASPNET
 		<asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
@@ -76,7 +76,7 @@ This simple example below shows a basic configuration of the __RadLiveTile__ so 
 	End Class
 
 
->end
+
 
 The points of interest in this example are the following:
 

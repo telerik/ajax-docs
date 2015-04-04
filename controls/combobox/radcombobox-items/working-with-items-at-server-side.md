@@ -18,7 +18,7 @@ Using the server-side API, you can programmatically add, remove, disable, or sel
 
 Use the __Add__ method of the __RadComboBoxItemCollection__ object to add items programmatically:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -63,13 +63,13 @@ Use the __Add__ method of the __RadComboBoxItemCollection__ object to add items 
 	    End Sub 'Page_Load
 	
 ````
->end
+
 
 ## Removing items
 
 Use the __Remove__ method of the __RadComboBoxItemCollection__ object to remove items:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -92,13 +92,13 @@ Use the __Remove__ method of the __RadComboBoxItemCollection__ object to remove 
 	    RadComboBox1.Items.Remove(0)
 	
 ````
->end
+
 
 ## Disabling items
 
 Use the __Enable__ property of the __RadComboBoxItem__ object to enable or disable an item:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -114,13 +114,13 @@ Use the __Enable__ property of the __RadComboBoxItem__ object to enable or disab
 	    item.Enabled = False
 	
 ````
->end
+
 
 ## Selecting Items
 
 Use the __Selected__ property of an item to select it, or use the __SelectedIndex__ property of RadComboBox:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -152,7 +152,7 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	    RadComboBox1.SelectedValue = value
 	
 ````
->end
+
 
 ## Finding Items
 
@@ -166,7 +166,7 @@ You can locate by searching on the __Text__ or __Value__ properties. You can ret
 
 * FindItemIndexByValue
 
->tabbedCode
+
 
 ````C#
 	     
@@ -240,7 +240,7 @@ You can locate by searching on the __Text__ or __Value__ properties. You can ret
 	    End Namespace
 	
 ````
->end
+
 
 For a live example, see: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisable/defaultcs.aspx)
 

@@ -85,7 +85,7 @@ Setting the property from the markup
 
 Setting the property from the Code-behind
 
->tabbedCode
+
 
 ````C#
 	        RadEditor1.ContentAreaCssFile = "~/ContentAreaCssFile.css";
@@ -93,7 +93,7 @@ Setting the property from the Code-behind
 ````VB
 	        RadEditor1.ContentAreaCssFile = "~/ContentAreaCssFile.css"
 ````
->end
+
 
 Setting the CSS rules
 
@@ -168,7 +168,7 @@ Setting the property from the markup
 
 Setting the property from the Code-behind
 
->tabbedCode
+
 
 ````C#
 	        RadEditor1.CssFiles.Add("~/ContentAreaCssFile.css");
@@ -176,7 +176,7 @@ Setting the property from the Code-behind
 ````VB
 	        RadEditor1.CssFiles.Add("~/ContentAreaCssFile.css")
 ````
->end
+
 
 Setting the CSS rules
 
@@ -220,7 +220,7 @@ Setting the property from the markup
 
 Setting the property from the Code-behind
 
->tabbedCode
+
 
 ````C#
 	        EditorCssClass redText = new EditorCssClass("Red Text", ".redText");
@@ -234,7 +234,7 @@ Setting the property from the Code-behind
 	        RadEditor1.CssClasses.Add(redText)
 	        RadEditor1.CssClasses.Add(greenText)
 ````
->end
+
 
 Result:
 >caption 

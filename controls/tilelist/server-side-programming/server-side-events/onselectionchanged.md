@@ -56,7 +56,7 @@ The event handler receives two arguments - of type __object__ that is a referenc
 
 Here is an example how to get all selected tiles from the control:
 
->tabbedCode
+
 
 ````C#
 		protected void OnSelectionChanged(object sender, EventArgs e)
@@ -135,13 +135,13 @@ Here is an example how to get all selected tiles from the control:
 	End Class
 
 
->end
+
 
 
 
 Here is how to get the selected tiles from a given group (the second in this example):
 
->tabbedCode
+
 
 ````C#
 		protected void OnSelectionChanged(object sender, EventArgs e)
@@ -210,7 +210,7 @@ Here is how to get the selected tiles from a given group (the second in this exa
 	End Class
 
 
->end
+
 
 # See Also
 

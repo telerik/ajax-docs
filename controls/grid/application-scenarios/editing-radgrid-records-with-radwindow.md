@@ -76,7 +76,7 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -179,9 +179,9 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````ASPNET
 	  <script type="text/javascript">    function CloseAndRebind(args) {
@@ -281,4 +281,4 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 ````
 
 
->end
+

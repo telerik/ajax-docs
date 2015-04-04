@@ -85,7 +85,7 @@ Here is an example of how to apply these settings:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -107,4 +107,4 @@ Here is an example of how to apply these settings:
 	
 	
 ````
->end
+

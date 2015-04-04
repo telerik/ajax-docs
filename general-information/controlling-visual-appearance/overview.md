@@ -57,7 +57,7 @@ To set the skin declaratively you need to set the __Skin__ attribute of the cont
 
 To set the skin from code-behind you need to set the Skin property of the control to the designated value:
 
->tabbedCode
+
 
 ````VB.NET
 	     
@@ -69,7 +69,7 @@ To set the skin from code-behind you need to set the Skin property of the contro
 							<TelerikControl>.Skin = "Outlook";
 				
 ````
->end
+
 
 ## Setting the skin globally from web.config
 

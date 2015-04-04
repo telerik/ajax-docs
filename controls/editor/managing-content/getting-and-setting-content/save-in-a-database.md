@@ -91,7 +91,7 @@ In a new AJAX Enabled Web Application:
 
 1. In the designer, double-click the surface of the web page to navigate to the Page_Load event handler. Replace the event handler with the following code:
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -109,11 +109,11 @@ In a new AJAX Enabled Web Application:
 			End If
 		End Sub
 ````
->end
+
 
 1. Add a series of helper methods to create a connection to the Access database, update, insert and read records:
 
->tabbedCode
+
 
 ````C#
 		// Helper Methods
@@ -213,11 +213,11 @@ In a new AJAX Enabled Web Application:
 			connection.Close()
 		End Sub
 ````
->end
+
 
 1. In the designer, double-click the RadComboBox control to create a __SelectedIndexChanged__ event handler. Replace the event handler with the code below. In this snippet, the __SelectedValue__ contains the ID for the selected record.
 
->tabbedCode
+
 
 ````C#
 		protected void RadComboBox1_SelectedIndexChanged(object o, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
@@ -231,11 +231,11 @@ In a new AJAX Enabled Web Application:
 			RadEditor1.Content = ReadEmail((TryCast(o, RadComboBox)).SelectedValue)
 		End Sub
 ````
->end
+
 
 1. In the designer, double-click the "btnNew" Button control to create a __Click__ event handler. Replace the event handler with the code below.
 
->tabbedCode
+
 
 ````C#
 		protected void btnNew_Click(object sender, EventArgs e)
@@ -251,11 +251,11 @@ In a new AJAX Enabled Web Application:
 			RadEditor1.Content = ""
 		End Sub
 ````
->end
+
 
 1. In the designer, double-click the "btnSave" Button control to create a __Click__ event handler. Replace the event handler with the code below.
 
->tabbedCode
+
 
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
@@ -281,7 +281,7 @@ In a new AJAX Enabled Web Application:
 			ReadAllEmail()
 		End Sub
 ````
->end
+
 
 1. Press __F5__ to run the application. As you change selections in the RadComboBox list, the content of the RadEditor should change in unison. Make changes to content and click the save button. Navigate to and from the edited record to verify that the content has been saved to the database.
 

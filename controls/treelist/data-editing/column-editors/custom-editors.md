@@ -26,7 +26,7 @@ The event argument object of type TreeListCreateColumnEditorEventArgs provides t
 
 The user is expected to provide a delegate function to __e.CustomEditorInitializer__ that instantiates and returns an __ITreeListColumnEditor__ object.A column editor instance usually accepts the target editable column in its constructor. With the following sample code, we provide a custom column editor for the ""Notes" column in the RadTreeList:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
@@ -106,13 +106,13 @@ The user is expected to provide a delegate function to __e.CustomEditorInitializ
 	
 	
 ````
->end
+
 
 ## Implementing Custom Editors
 
 To create a custom column editor, a developer needs to implement the ITreeListColumnEditor in a class.By convention, a column editor in RadTreeList does not have a default parameter-less constructor and accepts the TreeListEditableColumn instance in its constructor. Even though this is not a strict requirement for a custom column editor, this provides direct access to the editable column that the column editor will work for. The editor can then read settings from the column and apply them to edit controls initialized in the cells of the edited items.The example bellow demonstrates implementig of Custom Editor for the "TitleOfCourtesy" TreeList column:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
@@ -281,7 +281,7 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 	        End Sub
 	    End Class
 ````
->end
+
 
 Alternatively to implementing the ITreeListColumnEditor interface, a developer can decide to subclass from the abstract TreeListColumnEditor class that provides some handy properties and methods.
 

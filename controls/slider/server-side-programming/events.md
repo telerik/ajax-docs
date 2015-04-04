@@ -16,7 +16,7 @@ position: 0
 
 The __RadSlider__ control raises a server-side event, __ValueChanged__ that fires when the user changes the __Value__ with the mouse or mouse wheel. Set the __AutoPostBack__ property __True__ to raise the event right after the value is changed on the client. Retrieve the __Value__ property within the __ValueChanged__ event handler:
 
->tabbedCode
+
 
 ````C#
 	
@@ -33,13 +33,13 @@ The __RadSlider__ control raises a server-side event, __ValueChanged__ that fire
 	    End Sub
 	
 ````
->end
+
 
 ## OnDataBound
 
 The __OnDataBound__ sever-side event of the __RadSlider__ fires when all its items are loaded from a specified data source.	You can use this event when you are data binding the __RadSlider__ and you want to execute logic that relies on already loaded items.	The example below demonstrates setting the fouth item of a data-bound __RadSlider__ as a selected item:
 
->tabbedCode
+
 
 ````C#
 	
@@ -59,7 +59,7 @@ The __OnDataBound__ sever-side event of the __RadSlider__ fires when all its ite
 			End If
 		End Sub
 ````
->end
+
 
 # See Also
 

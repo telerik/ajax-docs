@@ -18,7 +18,7 @@ As its predecessor RadPivotGrid provides Drag/Drop of fields functionality which
 
 In order to use the Drag/Drop functionality you need to enable the zone-context menu and to enable the fields reordering in the client settings:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadPivotGrid runat="server" ID="RadPivotGrid1" OnNeedDataSource="RadPivotGrid1_NeedDataSource"
@@ -45,7 +45,7 @@ In order to use the Drag/Drop functionality you need to enable the zone-context 
 	        </clientsettings>
 	        </telerik:RadPivotGrid>
 ````
->end
+
 
 Drag/Drop functionality is used through the context menu of the desired field. As soon as you right click on the field a list with the following options is shown:
 

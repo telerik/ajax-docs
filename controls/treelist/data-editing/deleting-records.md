@@ -36,7 +36,7 @@ The manual delete operations in RadTreeList consist of two main parts:
 
 Once the user clicks the delete button inside the treelist, you can handle the __DeleteCommand__ event and perform these steps there. The code snippet below demonstrated a possible approach:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
@@ -133,7 +133,7 @@ Once the user clicks the delete button inside the treelist, you can handle the _
 	        Return myDataTable
 	    End Function
 ````
->end
+
 
 >note Please note that with this approach you might need to take care of deleting the child itemsof the deleted item as well.
 >

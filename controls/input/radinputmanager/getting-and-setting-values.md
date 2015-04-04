@@ -80,7 +80,7 @@ In addition to the properties listed above which are present in the client-side 
 
 On the Server-side, you can operate with the TextBox value directly through the instance of the TextBox control. Use the Text property the TextBox to set/get its value.
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -105,7 +105,7 @@ On the Server-side, you can operate with the TextBox value directly through the 
 	        TextBox1.Text = "Setting Value Server-Side"
 	    End Sub
 ````
->end
+
 
 ## Validation
 

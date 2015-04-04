@@ -99,7 +99,7 @@ Each of these built-in icons is offered with three different colors, depending o
 
 __Example 1__: Embedded icons in __RadButton__ can be configured through the __PrimaryIconCssClass__ and __SecondaryIconCssClass__ properties. This example creates the tables from __Figure 1__.
 
->tabbedCode
+
 
 ````ASPNET
 			<style type="text/css">
@@ -312,7 +312,7 @@ __Example 1__: Embedded icons in __RadButton__ can be configured through the __P
 	        table.Rows.Add(row)
 	    End Sub
 ````
->end
+
 
 ### Configure RadButton's Embedded Icons in Lightweight Render Mode
 

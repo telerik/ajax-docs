@@ -20,7 +20,7 @@ The __Colors__ property of the __RadTreeMap__ is a collection of type __System.D
 
 In the example bellow, you could examine how several colors are assigned to the __Colors__ collection of the RadTreeMap and in the __Figure 1__, you could observe how the control is visualized:
 
->tabbedCode
+
 
 ````ASPNET
 	           <telerik:RadTreeMap runat="server" ID="TreeMap1"  Height="250" Width="400" AlgorithmType="Horizontal">
@@ -80,7 +80,7 @@ In the example bellow, you could examine how several colors are assigned to the 
 	        'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"))
 	    End Sub
 ````
->end
+
 
 __Figure 1__: Demonstrates how the __RadTreeMap__ is visualized, when custom colors are set.![functionality-colors](images/functionality-colors.png)
 

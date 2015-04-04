@@ -41,7 +41,7 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
->tabbedCode
+
 
 ````C#
 			RadFormDecorator1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
@@ -52,7 +52,7 @@ There are two ways to configure the rendering mode of the controls:
 	End Class
 
 
->end
+
 
 * The render mode for the form decorator control can be specified globally in web.config by adding an app key:
 

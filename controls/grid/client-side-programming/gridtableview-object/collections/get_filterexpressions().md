@@ -69,7 +69,7 @@ There is one more method - __toOql()__ for filter expressions which can be used 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -126,7 +126,7 @@ There is one more method - __toOql()__ for filter expressions which can be used 
 	    End Function
 	
 ````
->end
+
 
 Each filter expression (of type __Telerik.Web.UI.GridFilterExpression__) has *fieldName, fieldValue, columnUniqueName, dataTypeName and filterFunction* properties which hold the field name, field value (filter pattern typed by the user), the unique name of the filtered column, the data type and the filter function applied to it (respectively). To retrieve the values from these properties use the __get_fieldName(), get_fieldValue(), get_columnUniqueName().get_dataTypeName()__ and __get_filterFunction()__ properties of the corresponding GridFilterExpression. Below is a sample code excerpt using OnCommand client-side event handler:
 

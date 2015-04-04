@@ -24,7 +24,7 @@ The code in the next paragraph demonstrates how to:
 
 * bind RadTreeList to a __DataReader__
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
@@ -113,9 +113,9 @@ The code in the next paragraph demonstrates how to:
 	    </telerik:RadAjaxPanel>
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
@@ -321,4 +321,4 @@ The code in the next paragraph demonstrates how to:
 	        End Sub
 	    End Class
 ````
->end
+

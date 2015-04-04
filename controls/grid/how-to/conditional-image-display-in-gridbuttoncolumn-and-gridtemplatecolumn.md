@@ -20,7 +20,7 @@ The example below demonstrates how to fulfill this task for __GridButtonColumn__
 
 Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueNames]({%slug grid/rows/accessing-cells-and-rows%}) for our columns):
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -69,4 +69,4 @@ Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueName
 	        End If
 	    End Sub
 ````
->end
+

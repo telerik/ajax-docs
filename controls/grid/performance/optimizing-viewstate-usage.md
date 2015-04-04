@@ -24,7 +24,7 @@ You can control this behavior by setting the __EnableViewState__ property of Rad
 
 Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simple-data-binding.html) is not supported when __ViewState__ is disabled, there is a work-around that could be used in some cases. You need to call DataBind() method on the Grid instance on __Page_Load__ event when the Page is initially loaded and on __Page_Init__ event on any subsequent postback.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
@@ -130,7 +130,7 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 	    End Sub
 	End Class
 ````
->end
+
 
 When having __EnableViewState__ set to false, RadGrid will use the control state of the host Page to store only the absolutely necessary bits of data that preserve the current paging, sorting, and filtering state.
 

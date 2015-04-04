@@ -24,7 +24,7 @@ Prerquisites
 
 2. Create a custom ISchedulerInfo implementation by inheriting from SchedulerInfo:
 
->tabbedCode
+
 
 ````C#
 	
@@ -59,7 +59,7 @@ Prerquisites
 	End Class  
 				
 ````
->end
+
 
 ## Sending additional information when using server-side data binding
 
@@ -81,7 +81,7 @@ Prerquisites
 
 For example:
 
->tabbedCode
+
 
 ````C#
 	
@@ -98,11 +98,11 @@ For example:
 	End Sub  
 	
 ````
->end
+
 
 2. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
 
->tabbedCode
+
 
 ````C#
 	
@@ -124,7 +124,7 @@ For example:
 	End Function  
 				
 ````
->end
+
 
 ## Sending additional information when using web-service data binding
 
@@ -134,7 +134,7 @@ For example:
 
 2. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
 
->tabbedCode
+
 
 ````C#
 	
@@ -158,7 +158,7 @@ For example:
 	End Function  
 				
 ````
->end
+
 
 # See Also
 

@@ -45,7 +45,7 @@ The following example shows how to apply custom sort pattern for two columns - F
 
 In the code-behind, the __SortCommand__ event handler assigns a data source with the records in the desired sort order:
 
->tabbedCode
+
 
 ````C#
 	    public DataTable GetDataTable(string query)
@@ -169,4 +169,4 @@ In the code-behind, the __SortCommand__ event handler assigns a data source with
 	    End Sub
 	
 ````
->end
+

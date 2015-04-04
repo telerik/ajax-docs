@@ -20,7 +20,7 @@ When adding appointments to the scheduler programmatically, you must converttime
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -38,7 +38,7 @@ When adding appointments to the scheduler programmatically, you must converttime
 	    RadScheduler1.InsertAppointment(apt)  
 	
 ````
->end
+
 
 # See Also
 

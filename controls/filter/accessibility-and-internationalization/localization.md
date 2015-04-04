@@ -41,7 +41,7 @@ The RadFilter control extracts the header text from the grid column when filter 
 
 To customize the name of the fields when using filter container control you could set meaningful HeaderText in the columns in RadGrid or handles __OnFieldEditorCreated__ server-side event to modify the DisplayName of RadFilter editor programmatically.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadFilter runat="server" ID="RadFilter1" Culture="bg-BG" FilterContainerID="RadGrid1"
@@ -68,7 +68,7 @@ To customize the name of the fields when using filter container control you coul
 	    End Sub
 	
 ````
->end
+
 
 ## Global Resource Files
 

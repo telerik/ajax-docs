@@ -49,7 +49,7 @@ ____
 
 The __TabClick__ event handler uses the __FindControl__ method to locate the __CheckBox__ in the template, so that it can be synchronized with the Selected property:
 
->tabbedCode
+
 
 ````C#
 	
@@ -90,7 +90,7 @@ The __TabClick__ event handler uses the __FindControl__ method to locate the __C
 	    End Sub
 	
 ````
->end
+
 
 * __Client-side access__
 

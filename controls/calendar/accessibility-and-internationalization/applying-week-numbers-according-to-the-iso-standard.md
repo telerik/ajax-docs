@@ -16,7 +16,7 @@ position: 5
 
 __RadCalendar__ does not apply week numbers according to the ISO standard by default. This is because the ASP.NET Framework itself does not. However, this can be configured easily at runtime:
 
->tabbedCode
+
 
 ````ASPNET
 	     
@@ -45,4 +45,4 @@ __RadCalendar__ does not apply week numbers according to the ISO standard by def
 	        RadCalendar1.CultureInfo = c
 	    End Sub
 ````
->end
+

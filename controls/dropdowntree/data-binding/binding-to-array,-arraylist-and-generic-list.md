@@ -38,7 +38,7 @@ The examples below takes an array of strings as a data source.
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -60,7 +60,7 @@ The examples below takes an array of strings as a data source.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Binding to an ArrayList
 
@@ -91,7 +91,7 @@ Below you can find an example of a hierarchical data binding:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -220,7 +220,7 @@ Below you can find an example of a hierarchical data binding:
 	        End Property
 	    End Class
 ````
->end
+
 
 ## Binding to a Generic List
 
@@ -234,7 +234,7 @@ Below you can find an example of a hierarchical data binding:
 
 
 
->tabbedCode
+
 
 ````C#
 	 protected void Page_Load(object sender, EventArgs e)
@@ -369,4 +369,4 @@ Below you can find an example of a hierarchical data binding:
 	        End Sub
 	    End Class
 ````
->end
+

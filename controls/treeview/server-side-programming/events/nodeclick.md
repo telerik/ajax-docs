@@ -16,7 +16,7 @@ position: 8
 
 When the user clicks a Node, the __NodeClick__ event fires. Use the __RadTreeNodeEventArgs.____Node__ property to get or set the clicked-on Node properties.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -33,7 +33,7 @@ When the user clicks a Node, the __NodeClick__ event fires. Use the __RadTreeNod
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

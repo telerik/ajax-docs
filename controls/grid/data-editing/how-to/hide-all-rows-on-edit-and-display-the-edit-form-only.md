@@ -24,7 +24,7 @@ When the grid presentation area is restricted on your page you may not want to d
 
 After update/cancel operation, the rest of the grid records will show up on the page.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -61,4 +61,4 @@ After update/cancel operation, the rest of the grid records will show up on the 
 	        End If
 	    End Sub
 ````
->end
+

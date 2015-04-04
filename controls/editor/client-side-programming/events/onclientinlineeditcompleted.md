@@ -24,7 +24,7 @@ The __Example 1__ showcases how to perform an AJAX request when the __OnClientIn
 
 __Example 1:__ Storing __RadEditor__'s content in a div in __OnClientInlineEditCompleted__ event.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
@@ -71,7 +71,7 @@ __Example 1:__ Storing __RadEditor__'s content in a div in __OnClientInlineEditC
 	        ContentDiv.InnerHtml = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 # See Also
 

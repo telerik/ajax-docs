@@ -48,7 +48,7 @@ Despite of the chosen input type, the entries of RadAutoCompleteBox will be acce
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -78,4 +78,4 @@ Despite of the chosen input type, the entries of RadAutoCompleteBox will be acce
 		End Sub
 	
 ````
->end
+

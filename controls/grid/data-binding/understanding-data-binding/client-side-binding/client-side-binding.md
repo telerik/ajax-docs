@@ -82,7 +82,7 @@ To change values on the fly of any of the grid declarative client-side data-bind
 
 Please refer to the JavaScript code in the demo for more information.To optimize even more the grid client-side data binding you can get both data and total items count in a single request. Example:
 
->tabbedCode
+
 
 ````C#
 	
@@ -108,7 +108,7 @@ Please refer to the JavaScript code in the demo for more information.To optimize
 	    End Function
 	
 ````
->end
+
 
 The grid will check automatically for "data" and "count" and will not execute a second request.
 
@@ -144,7 +144,7 @@ Further information about the OnCommand/OnRowDataBound events of RadGrid and the
 
 Below are some code excerpts from the second QSF example:
 
->tabbedCode
+
 
 ````ASPNET
 	  <html xmlns="http://www.w3.org/1999/xhtml">
@@ -606,4 +606,4 @@ Below are some code excerpts from the second QSF example:
 	        End Property
 	    End Class
 ````
->end
+

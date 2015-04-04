@@ -90,7 +90,7 @@ There are various way to access/extract values from the items in __RadListView__
 
 1. Extracting __DataKey__ values on __ItemDataBound__ / __ItemCommand__ events
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
@@ -115,9 +115,9 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
@@ -137,11 +137,11 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
->end
+
 
 2. Extracting values using the __ExtractValues__ method on __ItemDataBound__ / __ItemCommand__
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
@@ -170,9 +170,9 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
@@ -194,13 +194,13 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
->end
+
 
 3. Extracting values using the __ExtractValuesFromItem__ method on __ItemDataBound__ / __ItemCommand__
 
 Similar to the previous example but uses __ExtractValuesFromItem__. A major advantage of this method is that it can also extract the __DataKeys__ values.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
@@ -229,11 +229,11 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        End If
 	    End Sub
 ````
->end
+
 
 4. Extracting values through the __DataItem__ on __ItemDataBound__
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemDataBound(object sender, RadListViewItemEventArgs e)
@@ -258,7 +258,7 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        End If
 	    End Sub
 ````
->end
+
 
 Online demo:
 

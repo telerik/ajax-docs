@@ -39,7 +39,7 @@ __Example 1__: Data binding shapes in a diagram to a collection of custom object
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -114,7 +114,7 @@ __Example 1__: Data binding shapes in a diagram to a collection of custom object
 	    }}
 	    End Function
 ````
->end
+
 
 # See Also
 

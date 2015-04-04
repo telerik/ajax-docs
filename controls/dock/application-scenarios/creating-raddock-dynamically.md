@@ -52,7 +52,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 
 1. At the top of the codebehind for your Web page, add two new __using__ statements (C#) or __Imports__ statements (VB) for System.Collections.Generic and Telerik.Web.UI:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -68,11 +68,11 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    Imports Telerik.Web.UI 
 	
 ````
->end
+
 
 1. Add the following property definition to the class definition of your Web page:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -117,11 +117,11 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    End Property
 	
 ````
->end
+
 
 1. Add a __Click__ event handler to the Button on the Web page. This event handler creates a new __RadDock__ control and adds it to the first __RadDockZone__ control. Note that when creating a new __RadDock__ control, it must have a __UniqueName__ so that the __RadDockLayout__ component can distinguish it and accurately manage its state:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -163,7 +163,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    End Sub
 	
 ````
->end
+
 
 >tip If you want the dynamically created __RadDock__ controls to store additional information, you can use the __Tag__ property to save that information. For an example that uses this technique, see[Adding Controls Inside Dynamically Created Docks]({%slug dock/application-scenarios/adding-controls-inside-dynamically-created-docks%}).
 >
@@ -175,7 +175,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 
 1. Add a __SaveDockLayout__ event handler to the __RadDockLayout__ component. This event handler calls the __RadDockLayout.GetRegisteredDocksState__ method to obtain the current list of dock states and saves the list to the __CurrentDockStates__ property.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -197,11 +197,11 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    End Sub
 	
 ````
->end
+
 
 1. Add a __Page_Init__ event handler to your Web page that recreates the __RadDock__ controls after a postback. It uses the __CurrentDockStates__ property (which was set in the __SaveDockLayout__ event handler) to initialize their properties using the __RadDock.ApplyState__ method. This event handler does not need to add the __RadDock__controls to their parent dock zones, it is enough that they are added to the __RadDockLayout__ or one of its children. The __RadDockLayout__ control will restore the parent dock zones and position after the __LoadDockLayout__event.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -230,7 +230,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    End Sub
 	
 ````
->end
+
 
 >note When the __RadDock__ controls are recreated on __Page_Init__ , it is important that you always set the same value in their property __ID__ . This way you will ensure that the layout of the __RadDock__ controls will be persisted after a postback.
 >
@@ -238,7 +238,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 
 1. Add a __LoadDockLayout__ event handler. This event handler tells the __RadDockLayout__ control the parent dock zones and indices of the __RadDock__ controls that were added in the __Page_Init__ event handler. __RadDockLayout__ uses this information to restore the layout:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -265,7 +265,7 @@ The following example demonstrates how to dynamically create RadDock controls on
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

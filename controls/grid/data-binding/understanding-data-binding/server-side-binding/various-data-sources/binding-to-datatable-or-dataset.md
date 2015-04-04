@@ -16,7 +16,7 @@ position: 0
 
 When not using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a __RadGrid__ control is probably using a __DataTable__ or __DataSet__ control. You can populate __DataTable__ instance (part of __DataSet__ object or not) with data from a source of your choice (database, custom object collection, xml file, etc.) and then pass it to the __DataSource__ property of the control. Here is a sample that uses the __NeedDataSource__ event, extracting the data from an SQL database:
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
@@ -33,11 +33,11 @@ When not using [declarative data sources]({%slug grid/data-binding/understanding
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
->end
+
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -76,4 +76,4 @@ And in the code-behind:
 	        Return myDataTable
 	    End Function
 ````
->end
+

@@ -18,14 +18,14 @@ Since Q3 2012 RadPivotGrid provides means to change how the columns, rows, and d
 
 * Globally, through the *__ColumnHeaderCellStyle__*, *__RowHeaderCellStyle__*	and *__DataCellStyle__* properties of RadPivotGrid.
 
->tabbedCode
+
 
 ````ASPNET
 			<ColumnHeaderCellStyle Width="300px" />
 			<RowHeaderCellStyle Width="300p" />
 			<DataCellStyle Width="300px" />
 ````
->end
+
 
 * *__ColumnHeaderCellStyle__* – applies style to all pivotgrid’s column header table cells.
 
@@ -35,13 +35,13 @@ Since Q3 2012 RadPivotGrid provides means to change how the columns, rows, and d
 
 * Or specifically for given field though the *__CellStyle__* property.
 
->tabbedCode
+
 
 ````ASPNET
 				<telerik:PivotGridRowField DataField="TransportType" CellStyle-ForeColor="Red" CellStyle-Font-Size="Small">
 				</telerik:PivotGridRowField>
 ````
->end
+
 
 ## Cases and specifics
 

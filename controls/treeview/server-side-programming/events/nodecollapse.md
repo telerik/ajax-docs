@@ -16,7 +16,7 @@ position: 7
 
 When the user clicks the minus button next to a Node that has child Nodes, the __NodeCollapse__ event fires. Use the __RadTreeNodeEventArgs.Node__ property to get or set the collapsed Node properties. The Node __ExpandMode__ property must be set to __ServerSide__ for this event to fire.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -33,7 +33,7 @@ When the user clicks the minus button next to a Node that has child Nodes, the _
 	    End Sub
 	
 ````
->end
+
 
 >note Every collapse of a node __causes a postback__ if the ExpandMode is set to ServerSide.
 >

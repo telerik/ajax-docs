@@ -18,7 +18,7 @@ This error usually occurs when the DataSource for the grid is null/not assigned 
 
 Note that if you want to set empty sources for the MasterTableView/DetailTables in the grid in some occasions you can use the following syntax:
 
->tabbedCode
+
 
 ````C#
 	            <GridInstance>.DataSource = new Object[0];  
@@ -28,11 +28,11 @@ Note that if you want to set empty sources for the MasterTableView/DetailTables 
 							<GridInstance>.DataSource = new Object(){}
 				
 ````
->end
+
 
 or
 
->tabbedCode
+
 
 ````C#
 	<DetailTableInstance>.DataSource = new Object[0];          
@@ -42,7 +42,7 @@ or
 							<DetailTableInstance>.DataSource = new Object(){}
 				
 ````
->end
+
 
 ## Error message"Unexpected ajax response was received from the server"
 
@@ -68,7 +68,7 @@ This problem can be fixed in the following ways:
 
 * Preset the default value of the control(s) when binding to a grid item on the __RadGrid.InitInsertCommandName__ command. For auto-generated edit forms, you should prepare a Hashtable (or other dictionary) with the predefined values for your insert form controls and pass it as parameter to the __InsertItem__ method:
 
->tabbedCode
+
 
 ````C#
 	protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -99,7 +99,7 @@ This problem can be fixed in the following ways:
 	        End If
 	    End Sub
 ````
->end
+
 
 * Do not set declaratively (using __Eval()/Bind()__ expression) the value for your control(s) in the html code of the page/user control
 

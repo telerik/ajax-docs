@@ -32,7 +32,7 @@ __Example:__
 
 The example below demonstrates a basic user role scenario for setting the Image manager properties and folders access. For example in our scenario we have three users: Mike (Administrator) - he has full access to all files in all folders, John who has access to view, upload and delete files in the Common and Marketing folders and all other users have access to the resources subfolder only.
 
->tabbedCode
+
 
 ````C#
 		string userRole = "Mike"; //Administrator
@@ -89,7 +89,7 @@ The example below demonstrates a basic user role scenario for setting the Image 
 			End If
 		End Sub
 ````
->end
+
 
 
 >caption  

@@ -26,7 +26,7 @@ The declaration of the RadListBox object includes no DataSourceID property or <i
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the ListBox. You must call the __DataBind__ method after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -70,7 +70,7 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	    End Function
 	
 ````
->end
+
 
 # See Also
 

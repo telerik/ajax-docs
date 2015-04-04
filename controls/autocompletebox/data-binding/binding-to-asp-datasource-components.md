@@ -97,7 +97,7 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -190,7 +190,7 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	    End Class
 	
 ````
->end
+
 
 # See Also
 

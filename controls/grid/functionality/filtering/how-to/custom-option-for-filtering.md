@@ -44,7 +44,7 @@ Suppose you want to remove a filtering option from the menu of a column while le
 
 ## Example 1: Changing the filter function name
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
@@ -121,13 +121,13 @@ Suppose you want to remove a filtering option from the menu of a column while le
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Example2: Replacing the filter expression
 
 For this example, you can use the same ASPX file and __Init__ handler as the last example. Only the __ItemCommand__ handler is different. In the example that follows, the grid behaves the same way as in the previous example. However, this approach is more extendable, as you can introduce any valid filter expression, not just mimic the behavior of one of the built-in choices.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
@@ -180,7 +180,7 @@ For this example, you can use the same ASPX file and __Init__ handler as the las
 	        End If
 	    End Sub
 ````
->end
+
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >

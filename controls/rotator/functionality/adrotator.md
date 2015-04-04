@@ -28,7 +28,7 @@ The default value of the __BannersPath__ property is __string.Empty__. Setting t
 
 The following image formats are supported: __*.jpg, *.jpeg, *.gif, *.png, *.bmp__. If you want to include different image types, then the Telerik.Web.UI.__RadRotator__ class should be inherited and the protected __GetImageExtensions()__ overridden. Then you should return a different string of comma separated extensions, keeping in mind that the string should end with comma. This is example that includes only GIF and PNG images:
 
->tabbedCode
+
 
 ````C#
 		protected override string GetImageExtensions()
@@ -41,7 +41,7 @@ The following image formats are supported: __*.jpg, *.jpeg, *.gif, *.png, *.bmp_
 			Return "*.gif,*.png,"
 		End Function
 ````
->end
+
 
 ### Accessing the Items in the Code-Behind
 
@@ -59,7 +59,7 @@ In some scenarios you might want to have direct control on which images are sele
 
 1. Override the __GetBanners__ method in order to implement your logic for retreiving the rotator images.	For example the following method will look for images not only in the currently specified directory, but also all the images in the subdirectories:
 
->tabbedCode
+
 
 ````C#
 	
@@ -159,7 +159,7 @@ In some scenarios you might want to have direct control on which images are sele
 			End Class
 		End Namespace
 ````
->end
+
 
 1. Register the class you added on the page that you will use the custom RadRotator:
 

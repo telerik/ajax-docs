@@ -26,7 +26,7 @@ Use the __OnPreviousButtonClick__ event handler to respond when a RadWizardStep 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_WizardStepCreated(object sender, WizardStepCreatedEventArgs e)
@@ -54,4 +54,4 @@ Use the __OnPreviousButtonClick__ event handler to respond when a RadWizardStep 
 	End Class
 
 
->end
+

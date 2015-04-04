@@ -59,7 +59,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 __Setting Image manager properties in CodeBehind:__
 
->tabbedCode
+
 
 ````C#
 	
@@ -85,7 +85,7 @@ __Setting Image manager properties in CodeBehind:__
 	            RadEditor1.ImageManager.DeletePaths = deleteMedia
 	        End If
 ````
->end
+
 
 Note that the viewMedia, uploadMedia and deleteMedia variables are string arrays and that the Media folders must be:
 

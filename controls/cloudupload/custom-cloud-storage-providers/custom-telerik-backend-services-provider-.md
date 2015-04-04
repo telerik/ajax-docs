@@ -22,7 +22,7 @@ The easiest way to set credentials from the code behind is to create a custom Te
 
 1. Create a new class, which inherits the __EverliveProvider__ class and override its __Initialize__ method. In this method you can set the __ApiKey__.
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -58,7 +58,7 @@ The easiest way to set credentials from the code behind is to create a custom Te
 	
 	    End Namespace
 ````
->end
+
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
 
@@ -100,7 +100,7 @@ Common scenario is the need to switch between different Telerik Backend Services
 
 1. Create a as many Custom Providers as you need. They must inherit the__EverliveProvider__ class. Override their __Initialize__ method and set the ApiKey. Note that it can be set in both code behind and in the configuration file:
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -136,9 +136,9 @@ Common scenario is the need to switch between different Telerik Backend Services
 	
 	    End Namespace
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    using System;
@@ -176,7 +176,7 @@ Common scenario is the need to switch between different Telerik Backend Services
 	
 	    End Namespace
 ````
->end
+
 
 1. Register the newly created Custom Providers in the configuration file:
 
@@ -215,7 +215,7 @@ Common scenario is the need to switch between different Telerik Backend Services
 
 1. Set the name of the Custom Telerik Backend Services Provider in the handler:
 
->tabbedCode
+
 
 ````C#
 	    <%@ WebHandler Language="C#" Class="CloudUploadHandler" %>
@@ -258,7 +258,7 @@ Common scenario is the need to switch between different Telerik Backend Services
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

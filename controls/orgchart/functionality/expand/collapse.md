@@ -82,7 +82,7 @@ Bind Node's Collapsed property in simple binding scenario:
 
 
 
->tabbedCode
+
 
 ````C#
 	        var nodes = new DataTable();
@@ -202,7 +202,7 @@ Bind Node's Collapsed property in simple binding scenario:
 	End Class
 
 
->end
+
 
 Bind Node's Collapsed property in group-enabled binding scenario:
 
@@ -213,7 +213,7 @@ Bind Node's Collapsed property in group-enabled binding scenario:
 
 
 
->tabbedCode
+
 
 
 
@@ -300,7 +300,7 @@ Bind Node's Collapsed property in group-enabled binding scenario:
 	End Class
 
 
->end
+
 
 ## Expand/Collapse Groups
 
@@ -356,7 +356,6 @@ Bind Node's GroupCollapsed property in group-enabled binding:
 
 
 
->tabbedCode
 
 
 
@@ -365,7 +364,8 @@ Bind Node's GroupCollapsed property in group-enabled binding:
 
 
 
->end
+
+
 
 ## Persist Expand/Collapse State of the Nodes
 

@@ -49,7 +49,7 @@ Use the __ItemsRequested__ event handler to dynamically create the requested ite
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -73,7 +73,7 @@ Use the __ItemsRequested__ event handler to dynamically create the requested ite
 	    End Sub 'RadComboBox1_ItemsRequested
 	
 ````
->end
+
 
 # See Also
 

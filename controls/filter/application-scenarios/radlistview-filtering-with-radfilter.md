@@ -74,7 +74,7 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 
 ## Handling the AppyExpressions event handler
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadFilter runat="server" ID="RadFilter1" OnApplyExpressions="RadFilter1_AppyExpressions">
@@ -158,6 +158,6 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 	    End Sub
 	
 ````
->end
+
 
 Find a live demo illustrating the integration of RadFilter with RadListView [here](http://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx).

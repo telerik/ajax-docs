@@ -52,7 +52,7 @@ There are times when you want to perform a postback from a __RadWindow__ object,
 
 1. In the handlers that perform the server-side actions, you can use page's RegisterStartupScript collection to add a script that should be executed when the page is reloaded:
 
->tabbedCode
+
 
 ````C#
 	    private void Button1_Click(object sender, System.EventArgs e)
@@ -74,7 +74,7 @@ There are times when you want to perform a postback from a __RadWindow__ object,
 	        ClientScript.RegisterStartupScript(Page.GetType(), "closeWindow", "<script type='text/javascript'>RefreshParentPage()</script>")
 	    End Sub
 ````
->end
+
 
 
 

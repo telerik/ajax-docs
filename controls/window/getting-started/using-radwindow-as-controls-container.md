@@ -20,7 +20,7 @@ The content of the window is declared in its __ContentTemplate__ tag.
 
 The controls inside can be accessed directly from the page without first going through the ContentContainer of the RadWindow, for example:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadWindow runat="server" id="RadWindow2" VisibleOnPageLoad="true">
@@ -41,11 +41,11 @@ The controls inside can be accessed directly from the page without first going t
 	        Label1.Text = DateTime.Now.ToString()
 	    End Sub
 ````
->end
+
 
 For more complex scenarios (e.g. accessing user controls and casting them to their type) or to add controls you can use the full hierarchy of the control tree:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadWindow ID="RadWindow1" VisibleOnPageLoad="true" runat="server">
@@ -74,7 +74,7 @@ For more complex scenarios (e.g. accessing user controls and casting them to the
 	        RadWindow1.ContentContainer.Controls.Add(New LiteralControl("Dynamic Control"))
 	    End Sub
 ````
->end
+
 
 The RadWindow in this case is only an[INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx) and thus using the controls inside via __JavaScript__ requires their correct __Client IDs__:
 

@@ -18,7 +18,7 @@ The __NodeDataBound__ fires for every Node that is bound to data. Use the __RadT
 
 Binding to a database:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -34,11 +34,11 @@ Binding to a database:
 	        e.Node.ToolTip = (TryCast(e.Node.DataItem, DataRowView))("Description").ToString()
 	    End Sub
 ````
->end
+
 
 Binding to XML datasource:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -59,7 +59,7 @@ Binding to XML datasource:
 	        e.Node.Attributes("LevelID") = element.GetAttribute("LevelID")
 	    End Sub
 ````
->end
+
 
 # See Also
 

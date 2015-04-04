@@ -18,7 +18,7 @@ This article discusses how to bind a dropdown control in __EditItemTemplate__ wi
 
 In the code below we assign array of ListItem objects as data source for the dropdown editor. To visualize clearly the functionality depicted above we generate only one grid item. For more complex scenarios you should adjust the provided logic to suit your case.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
@@ -149,4 +149,4 @@ In the code below we assign array of ListItem objects as data source for the dro
 	        Session("updatedValue") = list.SelectedValue
 	    End Sub
 ````
->end
+

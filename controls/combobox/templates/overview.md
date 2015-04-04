@@ -68,7 +68,7 @@ An <ItemTemplate> section is added to the __RadComboBox__ declaration. The image
 
 Before the template can use the RadComboBox item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling __DataBind__ method of __RadComboBoxItem__ objects.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -93,7 +93,7 @@ Before the template can use the RadComboBox item's properties to bind the elemen
 	    End Sub
 	
 ````
->end
+
 
 Here is the same RadComboBox __without__ the template:
 

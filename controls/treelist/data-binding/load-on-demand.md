@@ -22,7 +22,7 @@ To use the Load-On-Demand mechanism:
 
 1. Get the root items from the datasource and assign them to the __RadTreeList.DataSource__ into __RadTreeList.NeedDataSource__ event handler:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
@@ -35,11 +35,11 @@ To use the Load-On-Demand mechanism:
 	        RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", Nothing)
 	    End Sub
 ````
->end
+
 
 1. Handle the __RadTreeList.ChildItemsDataBind__ event and select the subset of items related to theexpanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_ChildItemsDataBind(object sender, TreeListChildItemsDataBindEventArgs e)
@@ -54,7 +54,7 @@ To use the Load-On-Demand mechanism:
 	        e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " & id)
 	    End Sub
 ````
->end
+
 
 ## 
 

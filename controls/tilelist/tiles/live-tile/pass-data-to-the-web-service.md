@@ -22,7 +22,7 @@ The __Value__ property of the __LiveTile__ is passed to the web service method (
 
 __Example 1: How to access the arguments a web service receives.__
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -129,7 +129,7 @@ __Example 1: How to access the arguments a web service receives.__
 	End Class
 
 
->end
+
 
 This example returns the value that the __LiveTile__ passes, or uses some default setting. By using such logic, you can have several __LiveTiles__ thatrequest similar data use one service and distinguish them by their values. __Example 2__ shows two simple __LiveTiles__ that use the same method and will getdifferent data. They use the simplest template possible. You can find more information on using complex objects in the[Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}).
 
@@ -160,7 +160,7 @@ The __Value__ property of the __LiveTile__ is passed to a WCF service wrapped in
 
 __Example 3: A sample WCF class and method that will return information.__
 
->tabbedCode
+
 
 ````C#
 		[ServiceContract(Namespace = "")]
@@ -260,11 +260,11 @@ __Example 3: A sample WCF class and method that will return information.__
 	End Class
 
 
->end
+
 
 __Example 4: The class that is needed to access the value from the LiveTile in a WCF service.__
 
->tabbedCode
+
 
 ````C#
 		[Serializable]
@@ -336,11 +336,11 @@ __Example 4: The class that is needed to access the value from the LiveTile in a
 	End Class
 
 
->end
+
 
 __Example 5: A sample class that will provide data to the service.__
 
->tabbedCode
+
 
 ````C#
 		[DataContract]
@@ -413,7 +413,7 @@ __Example 5: A sample class that will provide data to the service.__
 	End Class
 
 
->end
+
 
 __Example 6: Two simple LiveTiles that request information for different people from the class in Example 5.__
 

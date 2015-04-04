@@ -91,7 +91,7 @@ The following code illustrates this technique on a two-level hierarchy.
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -115,4 +115,4 @@ The following code illustrates this technique on a two-level hierarchy.
 	        End If
 	    End Sub
 ````
->end
+

@@ -48,7 +48,7 @@ The context menus are available in the ContextMenus Collection. You can define t
 
 You can also define context menus via code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -68,7 +68,7 @@ You can also define context menus via code-behind:
 	        imgTag.Tools.Add(New EditorTool("Copy"))
 	
 ````
->end
+
 
 
 
@@ -145,7 +145,7 @@ If needed, you can disable specific context menus. Note that when you disable a 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -187,7 +187,7 @@ If needed, you can disable specific context menus. Note that when you disable a 
 	        RadEditor1.ContextMenus.Add(forBody)
 	
 ````
->end
+
 
 
 

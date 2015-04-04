@@ -52,7 +52,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 
 ## Example 1: Using ExtractValuesFromItem
 
->tabbedCode
+
 
 ````C#
 	
@@ -172,11 +172,11 @@ The code below demonstrates the both approaches about how to perform the insert 
 	           + (newRow("OrderID") + " inserted")))
 	    End Sub
 ````
->end
+
 
 ## Example 2: Using the auto-generated column editors
 
->tabbedCode
+
 
 ````C#
 	
@@ -325,7 +325,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 	           + (newRow("OrderID") + " inserted")))
 	    End Sub
 ````
->end
+
 
 __Note__: You can also see the [ Accessing cells and rows]({%slug grid/rows/accessing-cells-and-rows%}) section for more details about insert dependance from the __Display/Visible/ReadOnly__ properties of grid columns.
 
@@ -337,7 +337,7 @@ Alternatively, you can use the [ API for controlling automatic operationsto achi
 
 Below is a sample demonstration:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid2" runat="server">
@@ -424,7 +424,7 @@ Below is a sample demonstration:
 	        }
 	    }
 ````
->end
+
 
 The other option is to set __AppendDataBoundItems="true"__ for the dropdown list (residing in edit template of template column) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:
 

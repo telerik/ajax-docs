@@ -28,7 +28,7 @@ The declaration of __RadSearchBox__ in the markup does not include __DataSourceI
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -70,4 +70,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	    End Function
 	
 ````
->end
+

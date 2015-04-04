@@ -39,7 +39,7 @@ In the example below, HTMLGenericControls are created and populated with an HTML
 
 ![](images/tooltip-manager001.png)
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,7 +63,7 @@ In the example below, HTMLGenericControls are created and populated with an HTML
 	    End Sub
 	
 ````
->end
+
 
 ## Loading Content via a WebService
 
@@ -86,7 +86,7 @@ When a tooltip controlled by the __RadToolTipManager__ needs to be shown a call 
 
 The WebService itself needs to have the following signature (including the parameter name - *context*):
 
->tabbedCode
+
 
 ````C#
 	    [ScriptService]
@@ -170,7 +170,7 @@ The WebService itself needs to have the following signature (including the param
 	End Class
 
 
->end
+
 
 ### WCF WebService
 
@@ -185,7 +185,7 @@ The WebService itself needs to have the following signature (including the param
 
 The WCF WebService itself needs to have the following signature:
 
->tabbedCode
+
 
 ````C#
 	[ServiceContract(Namespace = "")]
@@ -241,11 +241,11 @@ The WCF WebService itself needs to have the following signature:
 	End Class
 
 
->end
+
 
 Where the context object is the following:
 
->tabbedCode
+
 
 ````C#
 	[Serializable]
@@ -291,7 +291,7 @@ Where the context object is the following:
 	End Class
 
 
->end
+
 
 ## Caching the Loaded Content
 

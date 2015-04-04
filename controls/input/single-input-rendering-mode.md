@@ -56,7 +56,7 @@ Due to the rendering difference when the SingleInputRendering mode is enabled th
 
 In order to properly focus the input element, you should directy pass the client ID of the RadInput control to the specific Focus() method, instead of using "_text".
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -77,7 +77,7 @@ In order to properly focus the input element, you should directy pass the client
 	        ScriptManager1.SetFocus(RadInput1.ClientID)
 	    End Sub
 ````
->end
+
 
 >caution If you disable the RadInput control, its value will not be persisted on the server. More information about W3C recommendations on disabled controls can be gathered[here](http://www.w3.org/TR/html401/interact/forms.html#h-17.12.1).
 >

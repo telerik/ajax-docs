@@ -34,7 +34,7 @@ The event handler receives two arguments - of type __object__ that is a referenc
 
 Here is an example how to get the selection state of tile:
 
->tabbedCode
+
 
 ````C#
 	    protected void Tile1_SelectionStateChanged(object sender, EventArgs e)
@@ -58,4 +58,4 @@ Here is an example how to get the selection state of tile:
 	End Class
 
 
->end
+

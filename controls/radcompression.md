@@ -56,7 +56,7 @@ Enabling RadCompression could not be easier. It is a simple matter of adding a H
 
 By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you canenable compression for regular postbacks as well setting the *enablePostbackCompression * property totrue (its default value is false, see web.config section below).You also have the option to disable the compression for particular pagesif necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -73,7 +73,7 @@ By default the RadCompression module will compress AJAX requests only (with the 
 	    '...
 	End Class
 ````
->end
+
 
 Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done (note the *matchExact* attribute which determineswhether the rule will be forced for the specified path only or globally for the entire web site/web application project):#_web.config_
 

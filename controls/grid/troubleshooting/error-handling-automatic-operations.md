@@ -22,7 +22,7 @@ RadGrid can fire three events after an automatic action occurred:
 
 * __ItemDeleted__
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemUpdated(object source, Telerik.Web.UI.GridUpdatedEventArgs e)
@@ -103,11 +103,11 @@ RadGrid can fire three events after an automatic action occurred:
 	        RadGrid1.Controls.Add(New LiteralControl([text]))
 	    End Sub 'DisplayMessage
 ````
->end
+
 
 The default behavior of Telerik RadGrid is tolet the __DataSource__ control rise an exceptionwhen error occurs when inserting/updating/deleting. To prevent this exception you should handle the corresponding event and in case (e.Exception != null) or (Not e.Exception Is Nothing) you should set e.ExceptionHandled to true and display error message.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDeleted(object source, GridDeletedEventArgs e)
@@ -130,4 +130,4 @@ The default behavior of Telerik RadGrid is tolet the __DataSource__ control rise
 	
 	    End Sub
 ````
->end
+

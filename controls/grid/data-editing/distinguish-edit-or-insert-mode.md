@@ -38,7 +38,7 @@ And the code extractions are:
 
 You can check the type of the editable item in the __ItemCreated/ItemDataBound__ handlers of the grid to verifywhether the item is in edit or insert mode. Then you can modify the edit form appearance(on __ItemCreated__) or edit form controls values (on __ItemDataBound__) if needed. Below are sample code snippets:
 
->tabbedCode
+
 
 ````C#
 	private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -91,6 +91,6 @@ You can check the type of the editable item in the __ItemCreated/ItemDataBound__
 	        End If
 	    End Sub 'RadGrid1_ItemDataBound
 ````
->end
+
 
 For more information concerning the major differences between __ItemCreated__ and __ItemDataBound__ events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( http://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).

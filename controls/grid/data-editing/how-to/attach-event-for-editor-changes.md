@@ -22,7 +22,7 @@ There is no default event for editor changes in grid columns - it is up to the d
 
 1. Mark it with __AutoPostBack__ = __true__ and wire a handler to its __SelectedIndexChanged__ event. Then in the __SelectedIndexChanged__ handler you can update the selected value for the second dropdown.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -73,4 +73,4 @@ There is no default event for editor changes in grid columns - it is up to the d
 	        // change the selected value for ContactTitle here
 	    }
 ````
->end
+

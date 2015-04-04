@@ -20,7 +20,7 @@ position: 9
 
 Here are the code snippets extracted from the online demo:
 
->tabbedCode
+
 
 ````ASPNET
 	        <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -104,4 +104,4 @@ Here are the code snippets extracted from the online demo:
 	        End If
 	    End Sub
 ````
->end
+

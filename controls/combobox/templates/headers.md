@@ -67,7 +67,7 @@ The following example shows how to create a multi-column RadComboBox with a head
 
 __ItemDataBound__
 
->tabbedCode
+
 
 ````C#
 	     
@@ -88,7 +88,7 @@ __ItemDataBound__
 	    End Sub
 	
 ````
->end
+
 
 The result looks as follows:
 
@@ -107,7 +107,7 @@ The result looks as follows:
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -188,13 +188,13 @@ The result looks as follows:
 	    End Class
 	
 ````
->end
+
 
 ## Accessing controls in HeaderTemplate
 
 You can find any control embedded in the RadComboBox' HeaderTemplate, like:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -208,7 +208,7 @@ You can find any control embedded in the RadComboBox' HeaderTemplate, like:
 	    btn.Text = "New Text"
 	
 ````
->end
+
 
 # See Also
 

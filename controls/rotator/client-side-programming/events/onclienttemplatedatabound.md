@@ -39,7 +39,7 @@ __Figure 1__ and __Example 1__ demonstrates how to use the methods of the event 
 
 __Example 1__: Using the __OnClientTemplateDataBound__ event's arguments in client-side logic.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">
@@ -98,7 +98,7 @@ __Example 1__: Using the __OnClientTemplateDataBound__ event's arguments in clie
 			}
 		</style>
 ````
->end
+
 
 # See Also
 

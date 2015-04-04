@@ -73,7 +73,7 @@ In order to prevent the update operation if the user enters data in an edit fiel
 
 Below are the code snippets of an example in which we add __RequiredFieldValidator__ to the __TextBox__ editor of __GridBoundColumn__.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
@@ -117,13 +117,13 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        End If
 	    End Sub
 ````
->end
+
 
 >note With version older than Q1 2013 you should use the code snippet below to add RequiredFieldValidator to the TextBox editor of GridBoundColumn
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
@@ -168,7 +168,7 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Adding a validator to EditItemTemplate of GridTemplateColumn
 
@@ -199,7 +199,7 @@ The approach is the same as with the standard MS DataGrid control. You can place
 
 __Server-side validation__In some scenarios you may want to disable the client-side validation for the grid input and perform the whole validation process server-side.Here is a sample means to perform server-side validation using __CustomValidator__ and its __ServerValidate__ event (the validator error message will be displayed when the user enters string in the textbox with __ID=TextBox1__ which starts with __X__ character):
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("DataItem.Country") %>'>
@@ -244,6 +244,6 @@ __Server-side validation__In some scenarios you may want to disable the client-s
 	        End If
 	    End Sub 'RadGrid1_ItemCommand
 ````
->end
+
 
 __Custom validation__ For more complex/custom validation operations you can extend the default ASP.NET validation and integrate CustomValidator control inside your grid instance. Here is an online resource which gives an example of operating with CustomValidators and configuring them to validate the user input as per your requirements:[http://aspnet.4guysfromrolla.com/articles/073102-1.aspx](http://aspnet.4guysfromrolla.com/articles/073102-1.aspx)

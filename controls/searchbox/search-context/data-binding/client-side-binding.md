@@ -29,7 +29,7 @@ The items in the SearchContext drop-down can be also loaded from Web Service by 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -69,7 +69,7 @@ The items in the SearchContext drop-down can be also loaded from Web Service by 
 	    End Function
 	
 ````
->end
+
 
 ## OData binding
 

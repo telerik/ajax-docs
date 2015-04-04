@@ -35,7 +35,7 @@ If you want a particular __Node__ to navigate to a given URL location, set the _
 
 RadTreeView fully supports frames, as well. You can set URL Navigation for a specified frame by using the __Target__ attribute. Note: __Target__ supports "___blank__" for opening in a new window.
 
->tabbedCode
+
 
 ````C#
 	RadTreeNode myNode = new RadTreeNode ();
@@ -47,7 +47,7 @@ RadTreeView fully supports frames, as well. You can set URL Navigation for a spe
 	    myNode.NavigateUrl = "auctions.aspx?id=4"
 	    myNode.Target = "contentFrame" 
 ````
->end
+
 
 ````ASPNET
 	    <node text="MyLabel" navigateurl="auctions.aspx?id=4" target="contentFrame" />

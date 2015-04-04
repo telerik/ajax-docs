@@ -16,7 +16,7 @@ position: 4
 
 RadSearchBox can be bound to an OData service through the RadODataDataSource control. The following application scenario shows an example of RadSearchBox bound to RadODataDataSource.
 
->tabbedCode
+
 
 ````ASPNET
 			 <telerik:RadODataDataSource runat="server" ID="DataSource1">
@@ -40,4 +40,4 @@ RadSearchBox can be bound to an OData service through the RadODataDataSource con
 	            <DropDownSettings Height="400" Width="300" />
 	        </telerik:RadSearchBox>
 ````
->end
+

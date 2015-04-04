@@ -26,7 +26,7 @@ Effectively, RadDataPager requires that you indicate routing is used for your ap
 
 In the following example a route is defined in Global.asax file that leads to DataPagerRouting.aspx. The route defines a single URL parameter with a default value of 1. This parameter will be used to specify the current page index in RadDataPager. To take advantage of this route setup the RadDataPager is configured to use this route. The route name and the name of the URL parameter that specifies the page index are set.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadDataPager runat="server" ID="Pager" PagedControlID="RadListView1" AllowSEOPaging="true"
@@ -52,7 +52,7 @@ In the following example a route is defined in Global.asax file that leads to Da
 	    End Sub
 	
 ````
->end
+
 
 ## Page Size Support
 

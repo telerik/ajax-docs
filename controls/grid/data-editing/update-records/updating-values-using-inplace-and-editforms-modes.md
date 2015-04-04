@@ -41,7 +41,7 @@ When using the second or third approach, you can refresh the grid content inside
 
 Both examples also use a __ViewState__ property (named "GridSource") for maintaining the grid's data source, and have the same __NeedDataSource__ event handler:
 
->tabbedCode
+
 
 ````C#
 	private DataTable GridSource
@@ -107,11 +107,11 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        RadGrid1.DataSource = Me.GridSource
 	    End Sub
 ````
->end
+
 
 ## Example 1: Using ExtractValuesFromItem
 
->tabbedCode
+
 
 ````C#
 	protected void RadGrid1_UpdateCommand(object source,
@@ -175,11 +175,11 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        End Try
 	    End Sub
 ````
->end
+
 
 ## Example 2: Using the auto-generated column editors
 
->tabbedCode
+
 
 ````C#
 	private void RadGrid1_UpdateCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -268,4 +268,4 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        Next
 	    End Sub
 ````
->end
+

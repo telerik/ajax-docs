@@ -20,7 +20,7 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 
 ![RadGrid totals with RadNumericTextBox](images/grdTotalsWithRadNumericTextBox.PNG)
 
->tabbedCode
+
 
 ````JavaScript
 	  <telerik:RadScriptBlock runat="server" ID="RadScriptBlock1">
@@ -144,4 +144,4 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 	        End If
 	    End Sub
 ````
->end
+

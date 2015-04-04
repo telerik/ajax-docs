@@ -24,7 +24,7 @@ To enable this functionality:
 
 
 
->tabbedCode
+
 
 ````C#
 	    public override List<ITask> GetTasks()
@@ -135,7 +135,7 @@ To enable this functionality:
 	        ...
 	    End Function
 ````
->end
+
 
 [Here](http://www.telerik.com/support/code-library/implementing-gantt-resources-with-custom-entity-provider) you can find a code library with a runnable sample project, based the above instructions.
 

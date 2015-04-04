@@ -24,7 +24,7 @@ It is not always possible to provide all properties that might be needed for a g
 
 * To add an attribute at runtime on the server, use the __Add()__ method of the RadTreeNode __Attributes__ object passing a key string and a value string.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -40,7 +40,7 @@ It is not always possible to provide all properties that might be needed for a g
 	    RadTreeView1.Nodes.Add(root1)
 				
 ````
->end
+
 
 * [Attributes can be accessed in server-side code]({%slug treeview/custom-attributes/using-custom-attributes-at-the-server%}) by addressing the RadTreeNode __Attributes__ collection.
 

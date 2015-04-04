@@ -35,7 +35,7 @@ The below tutorial will walk you through enabling a state persistence for a page
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void loadBtn_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ The below tutorial will walk you through enabling a state persistence for a page
 		End Sub
 	
 ````
->end
+
 
 # See Also
 

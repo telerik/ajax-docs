@@ -32,7 +32,7 @@ There are two important members exposed by the __ExportCellFormattingEventArgs__
 
 * __Cell__ - this is a reference to the current __TableCell__. You can use it to apply specific __CSS__ style or to gain access to the __GridDataItem__ object:
 
->tabbedCode
+
 
 ````C#
 	    GridDataItem item = e.Cell.Parent as GridDataItem;
@@ -40,11 +40,11 @@ There are two important members exposed by the __ExportCellFormattingEventArgs__
 ````VB.NET
 	    Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
 ````
->end
+
 
 * __FormattedColumn__ - this property returns an object of type __GridColumn__. It helps to distinguish to which column the current cell belongs to.
 
->tabbedCode
+
 
 ````C#
 	    GridColumn column = e.FormattedColumn as GridColumn;
@@ -55,13 +55,13 @@ There are two important members exposed by the __ExportCellFormattingEventArgs__
 	    Dim columnName As String = column.UniqueName
 	
 ````
->end
+
 
 ## HTMLExporting event
 
 The purpose of this event is to allow the developer to insert global styles (CSS) or configuration options (XML) to the exported file. A possible application for this event is to enable the grid lines for the current worksheet:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -74,13 +74,13 @@ The purpose of this event is to allow the developer to insert global styles (CSS
 	        e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }")
 	    End Sub
 ````
->end
+
 
 ## Line Breaks
 
 In case you need to use a line breaks when exporting to Excel or Word you can add __<br/>__ tags in order to move the text onthe next line. Nevertheless this approach will move the text in a new cell in the next row rather than creating a line break within the current cell. To get around this you can add __mso-data-placement__ style to the __<br/>__ tags.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -95,13 +95,13 @@ In case you need to use a line breaks when exporting to Excel or Word you can ad
 	    End Sub
 	
 ````
->end
+
 
 ## Styling rows/cells
 
 Thanks to the __ExportCellFormatting__ event it is really easy to apply custom styles to the rows/cells. The following code-snippet demonstrates how to style the alternating items:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
@@ -124,11 +124,11 @@ Thanks to the __ExportCellFormatting__ event it is really easy to apply custom s
 	    End Sub
 	
 ````
->end
+
 
 Sometimes the developer needs to highlight the negative values (for example: -1, -5, -10.5) - this could be achieved in the same event handler:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
@@ -146,7 +146,7 @@ Sometimes the developer needs to highlight the negative values (for example: -1,
 	    End Sub
 	
 ````
->end
+
 
 ## Using ItemCreated/ItemDataBound
 
@@ -156,7 +156,7 @@ They are not as convenient as the __ExportCellFormatting__ event because the dev
 
 Please keep in mind that if you don't use __IgnorePaging="true"____RadGrid__ will be exported directly and the __ItemCreated__/__ItemDataBound__ events won't be fired.
 
->tabbedCode
+
 
 ````C#
 	    bool isExport = false; //Export flagprotected 
@@ -185,7 +185,7 @@ Please keep in mind that if you don't use __IgnorePaging="true"____RadGrid__ wil
 	    End Sub
 	
 ````
->end
+
 
 When __IgnorePaging="false"__ you should rebind __RadGrid__ manually, otherwise this approach won't work. The above code needs only one change - put __RadGrid1.Rebind()__ after the point where you set the flag.
 
@@ -213,7 +213,7 @@ A list of supported Excel properties could be found [here]({%slug grid/functiona
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
@@ -234,13 +234,13 @@ Example:
 	    End Sub
 	
 ````
->end
+
 
 ## Hiding columns
 
 You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -256,7 +256,7 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	    End Sub
 	
 ````
->end
+
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
 >
@@ -268,7 +268,7 @@ There are two common ways to hide an item.
 
 * __Directly__ - in the button handler when exporting from a button or on __ItemCommand__ when exporting from the built-in buttons
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
@@ -286,9 +286,9 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -305,11 +305,11 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
->end
+
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when __IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
 
->tabbedCode
+
 
 ````C#
 	    bool isWordExport = false;
@@ -338,7 +338,7 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
->end
+
 
 ## Resizing/Aligning Columns
 
@@ -356,7 +356,7 @@ There are various ways to set the width of a given column.
 
 * in code-behind - before export:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -373,11 +373,11 @@ There are various ways to set the width of a given column.
 	    End Sub
 	
 ````
->end
+
 
 * in code-behind - on __TH__ elements
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
@@ -400,7 +400,7 @@ There are various ways to set the width of a given column.
 	    End Sub
 	
 ````
->end
+
 
 ## Alignment
 

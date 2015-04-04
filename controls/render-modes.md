@@ -50,7 +50,6 @@ There are two ways to set the __RenderMode__ of each __Telerik control__:
 
 
 
->tabbedCode
 
 
 
@@ -59,7 +58,8 @@ There are two ways to set the __RenderMode__ of each __Telerik control__:
 
 
 
->end
+
+
 
 * A __global setting in the web.config__ file that will affect the entire application,	unless a concrete value is specified for a given control instance:
 

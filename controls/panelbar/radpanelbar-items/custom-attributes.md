@@ -41,7 +41,7 @@ In the ASP.NET declaration of your __RadPanelBar__ object, you can add custom at
 
 You can access custom attributes from code behind via the __Attributes__ collection exposed by the __RadPanelItem__ class.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -58,7 +58,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	
 	
 ````
->end
+
 
 ## Using Attributes in Client-Side Code
 
@@ -91,7 +91,7 @@ You can work with custom attributes from client-side code using the attributes c
 
 When binding the __RadPanelBar__ to data, custom attributes can be set in the __ItemDataBound__ event. The following code binds the panel bar to a __DataTable__ when the page Loads. The __DataTable__ contains a "__Roles"__ column which is not mapped to a property of the panel items:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -162,11 +162,11 @@ When binding the __RadPanelBar__ to data, custom attributes can be set in the __
 	    End Sub
 	
 ````
->end
+
 
 The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%}). The event handler also sets the __ToolTip__ property of the item to the value of its custom attribute to allow for testing of the custom attribute:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -190,7 +190,7 @@ The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound eve
 	
 	
 ````
->end
+
 
 # See Also
 

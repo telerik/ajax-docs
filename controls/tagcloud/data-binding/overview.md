@@ -59,7 +59,7 @@ Here is an example that shows how to bind the tagCloud to an ObjectDataSource. I
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -166,4 +166,4 @@ Here is an example that shows how to bind the tagCloud to an ObjectDataSource. I
 	        End Function
 	    End Class
 ````
->end
+

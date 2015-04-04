@@ -18,7 +18,7 @@ The __ZipArchive__ class provides three modes: *Read*, *Create* and *Update*. Mo
 
 The following code snippet opens a ZIP archive in update mode using __ZipArchive__ class:
 
->tabbedCode
+
 
 ````C#
 	    using (Stream stream = File.Open("test.zip", FileMode.Open))
@@ -37,7 +37,7 @@ The following code snippet opens a ZIP archive in update mode using __ZipArchive
 		End Using
 	End Using
 ````
->end
+
 
 >note You must always dispose the ZIP archive object when all update operations (add/delete/update) are competed. The best practice is declaration and instantiation of the ZIP archive object in a using statement. If it is not possible for some reason then do not forget to call __Dispose()__ method when you complete all operations.
 >
@@ -55,7 +55,7 @@ In order to add a new entry into the ZIP archive you should perform the followin
 
 1. Dispose entry when all necessary information is written. In the *Update* mode this step is optional. You can omit it if you are going to add/delete/update other entries in the archive.
 
->tabbedCode
+
 
 ````C#
 	using (ZipArchiveEntry entry = archive.CreateEntry("text.txt"))
@@ -72,7 +72,7 @@ In order to add a new entry into the ZIP archive you should perform the followin
 		writer.Flush()
 	End Using
 ````
->end
+
 
 >note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
 >
@@ -84,7 +84,7 @@ The __ZipArchive__ class provides a __GetEntry()__ method which allows you acces
 
 The following code snippet obtains an entry and deletes it from the ZIP archive using the __Delete()__ method:
 
->tabbedCode
+
 
 ````C#
 	ZipArchiveEntry entry = archive.GetEntry("text.txt");
@@ -99,7 +99,7 @@ The following code snippet obtains an entry and deletes it from the ZIP archive 
 		entry.Delete()
 	End If
 ````
->end
+
 
 ## Update Entry
 
@@ -113,7 +113,7 @@ In order to update an existing entry in the ZIP archive you should perform the f
 
 1. Dispose entry when all necessary information is written. In the __Update__ mode this step is optional. You can omit it if you are going to add/delete/update other entries in the archive.
 
->tabbedCode
+
 
 ````C#
 	ZipArchiveEntry entry = archive.GetEntry("text.txt");
@@ -143,7 +143,7 @@ In order to update an existing entry in the ZIP archive you should perform the f
 		writer.Flush()
 	End If
 ````
->end
+
 
 >note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
 >

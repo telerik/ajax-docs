@@ -18,7 +18,7 @@ __RadFileExplorer__
 
 The server code creates a new toolbar button and a new context menu item and adds them in the __RadFileExplorer__control. The client code executes when the __RadFileExplorer__is loaded and attaches new event handlers for the toolbar and treeview/grid context menus. These handlers will be used to execute code when the custom button/item is clicked. The CSSstyle for the toolbar button can be used to add an image.
 
->tabbedCode
+
 
 ````C#
 	
@@ -62,7 +62,7 @@ The server code creates a new toolbar button and a new context menu item and add
 	        End If
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	        function toolbarClicked(toolbar, args)

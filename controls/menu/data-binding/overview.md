@@ -48,7 +48,7 @@ Usually, you also want to do one or more of the following:
 
 1. If the data source contains fields that map to other properties of menu items or to [custom attributes]({%slug menu/radmenu-items/custom-attributes%}), use the __[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})__ to set those values:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
@@ -61,7 +61,7 @@ Usually, you also want to do one or more of the following:
 	        e.Item.ToolTip = "Read more about " + _  CStr(DataBinder.Eval(e.Item.DataItem, "Text"))
 	    End Sub
 ````
->end
+
 
 1. As an alternative to using the __ItemDataBound__ event handler, you can use [DataBindings]({%slug menu/data-binding/using-databindings%}) to declaratively map fields from the data source to properties of menu items. The __DataBindings__ collection also lets you map fields differently, based on the level of items.
 

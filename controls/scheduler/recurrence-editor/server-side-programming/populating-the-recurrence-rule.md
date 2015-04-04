@@ -14,7 +14,7 @@ position: 1
 
 ## The recurrence editor can be populated either from a RecurrenceRule object or from a string.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -32,13 +32,13 @@ position: 1
 	RecurrenceEditor1.RecurrenceRuleText = storedRule
 				
 ````
->end
+
 
 ## The following examples show how different rules can be generated in FormCrated event of the Scheduler.
 
 __HourlyRecurence:__
 
->tabbedCode
+
 
 ````C#
 	     
@@ -74,11 +74,11 @@ __HourlyRecurence:__
 	    End Sub
 	
 ````
->end
+
 
 __DailyRecurence:__
 
->tabbedCode
+
 
 ````C#
 	    //Creating a daily Recurrence rule
@@ -104,11 +104,11 @@ __DailyRecurence:__
 	
 	
 ````
->end
+
 
 __WeeklyRecurence:__
 
->tabbedCode
+
 
 ````C#
 	     //Creating a Weekly Recurrence rule
@@ -137,11 +137,11 @@ __WeeklyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
 	
 ````
->end
+
 
 __MonthlyRecurence:__
 
->tabbedCode
+
 
 ````C#
 	     //Creating a monthly Recurrence rule
@@ -170,11 +170,11 @@ __MonthlyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new MonthlyRecurrenceRule(dayOrdinal, DayOfWeekMask, interval, range);
 	
 ````
->end
+
 
 __YearlyRecurence:__
 
->tabbedCode
+
 
 ````C#
 	      //Creating a yearly Recurrence rule
@@ -203,11 +203,11 @@ __YearlyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(dayOrdinal, month, dayOfWeek, range);
 	
 ````
->end
+
 
 The recurrence rule can be created and directly added as a property of an Appointment as shown in the code:
 
->tabbedCode
+
 
 ````C#
 	      protected void RadButton1_Click(object sender, EventArgs e)
@@ -249,11 +249,11 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	    End Sub
 	
 ````
->end
+
 
 ## The recurrence rule can be created and directly added as a property of an Appointment as shown in the code:
 
->tabbedCode
+
 
 ````C#
 	      protected void RadButton1_Click(object sender, EventArgs e)
@@ -295,4 +295,4 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	    End Sub
 	
 ````
->end
+

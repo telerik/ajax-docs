@@ -34,7 +34,7 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 
 * A custom calculation in the __WebService__ needs to be implemented, so you could check if the __"Show All Results"__ button needs to be visible. For example, if the entries count returned from the data source match the __MaxResultCount__ value - the __"Show All "Results"__ should not be visible. In this case you could toggle its Visible state by simply setting __EndOfItems__ property of the __SearchBoxData__ object in the following manner:
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,7 +48,7 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 	    data.EndOfItems = True
 	
 ````
->end
+
 
 >note In cases when __MaxResultCount__ property is used in RadSearchBox and the __DataSourceSelect__ event is handled manually in order for __Show All Results__ button to appear correctly, we recommend that the amount of items that will be selected should be at least with one item greater than __MaxResultCount__ .
 >

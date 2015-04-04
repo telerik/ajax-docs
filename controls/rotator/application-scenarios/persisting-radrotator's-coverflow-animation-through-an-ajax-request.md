@@ -34,7 +34,7 @@ The following example demonstrates how to set the animation options if a RadRota
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -69,4 +69,4 @@ The following example demonstrates how to set the animation options if a RadRota
 			ScriptManager.RegisterStartupScript(Me, Me.[GetType](), "registerCoverFlowAnimation", script, True)
 		End Sub
 ````
->end
+

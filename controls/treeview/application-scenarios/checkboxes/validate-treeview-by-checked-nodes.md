@@ -83,7 +83,7 @@ The custom validator will check if the array containing the checked nodes has at
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,7 +101,7 @@ The custom validator will check if the array containing the checked nodes has at
 	
 	
 ````
->end
+
 
 # See Also
 

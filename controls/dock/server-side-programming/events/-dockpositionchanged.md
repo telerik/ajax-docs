@@ -44,7 +44,7 @@ In the __DockPositionChanged__ event handler, the __DockZoneID__ and __Index__ p
 
 Use a __DockPositionChanged__ event handler to respond when the user moves the __RadDock__ control:
 
->tabbedCode
+
 
 ````C#
 	
@@ -91,7 +91,7 @@ Use a __DockPositionChanged__ event handler to respond when the user moves the _
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

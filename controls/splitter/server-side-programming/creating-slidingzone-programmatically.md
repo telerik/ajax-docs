@@ -34,7 +34,7 @@ The example below demonstrates how to declare left and right sliding zones, cont
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -105,7 +105,7 @@ The example below demonstrates how to declare left and right sliding zones, cont
 	        RightPane.Controls.Add(rightZone)
 	    End Sub
 ````
->end
+
 
 # See Also
 

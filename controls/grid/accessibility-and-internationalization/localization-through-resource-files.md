@@ -45,7 +45,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 
 2. Second, after you have a resource file ready, it is necessary to attach to the __ItemCreated__ event, and replace the text in a grid element with the one from the resource. This is shown in the code samples below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
@@ -69,7 +69,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 	        End If
 	    End Sub
 ````
->end
+
 
 If you are using resource files, you can use explicit localization to set the text for the Edit button text, as well as the text for the Cancel, Insert and Update buttons. The code below demonstrates one such approach:
 

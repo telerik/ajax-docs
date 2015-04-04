@@ -31,7 +31,7 @@ The example below demonstrates how to read the CustomSettings and pass them to a
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void loadBtn_Click(object sender, EventArgs e)
@@ -72,7 +72,7 @@ The example below demonstrates how to read the CustomSettings and pass them to a
 			Next
 		End Sub
 ````
->end
+
 
 # See Also
 

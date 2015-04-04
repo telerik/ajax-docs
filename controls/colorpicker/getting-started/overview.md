@@ -126,7 +126,7 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 
 1. In the Properties Window, click the Events button (). Double-click the [ColorChanged]({%slug colorpicker/server-side-programming/events%}) event to create an event handler. Replace the event handler with the code below.
 
->tabbedCode
+
 
 ````C#
 		protected void RadColorPicker1_ColorChanged1(object sender, EventArgs e)
@@ -147,11 +147,11 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 			Panel1.BorderColor = GetContrastingColor(RadColorPicker1.SelectedColor)
 		End Sub
 ````
->end
+
 
 1. Add the following helper method to get a contrasting color:
 
->tabbedCode
+
 
 ````C#
 		private System.Drawing.Color GetContrastingColor(System.Drawing.Color backgroundColor)
@@ -164,7 +164,7 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 			Return System.Drawing.Color.FromArgb(backgroundColor.ToArgb() Xor 16777215)
 		End Function
 ````
->end
+
 
 1. Press __F5__ to run the application. Click the color boxes and notice the contrasting colors for the labels, panel background and border.
 

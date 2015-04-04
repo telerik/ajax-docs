@@ -26,7 +26,7 @@ Binding the control to a XML file is achievable by following the below listed st
 
 The below provided example illustrates a possible realization of the above mentioned.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadGantt ID="RadGantt1" runat="server" >
@@ -43,7 +43,7 @@ The below provided example illustrates a possible realization of the above menti
 	        RadGantt1.Provider = New XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"))
 	    End Sub
 ````
->end
+
 
 The format of the XML file that contains the data should look similar to the below shown.
 

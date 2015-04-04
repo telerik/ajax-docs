@@ -29,7 +29,7 @@ The path to the service and the name of the service method are specified in the 
 
 To use the integrated support, the Web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	
@@ -100,4 +100,4 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
->end
+

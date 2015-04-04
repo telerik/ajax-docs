@@ -53,7 +53,7 @@ You can use any of these types of series as Sparklines:
 
 __Example 1__: How to create a Sparkline using different series types.
 
->tabbedCode
+
 
 ````ASPNET
 			AreaChart:
@@ -258,7 +258,7 @@ __Example 1__: How to create a Sparkline using different series types.
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

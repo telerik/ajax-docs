@@ -32,7 +32,7 @@ __MasterTableView__ and __DetailTable__ are controls of type __GridTableView__. 
 
 The whole structure of __RadGrid__ with its detail tables is saved in the __ViewState__. If you build the grid programmatically, you can safely define the structure in __Page_Load__ event handler if there was no PostBack.
 
->tabbedCode
+
 
 ````C#
 	    private void DefineGridStructure()
@@ -155,7 +155,7 @@ The whole structure of __RadGrid__ with its detail tables is saved in the __View
 	
 	    End Sub
 ````
->end
+
 
 [Creating Hierarchy Programmatically demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/hierarchy/defaultcs.aspx)
 

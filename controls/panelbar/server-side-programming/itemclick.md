@@ -24,7 +24,7 @@ The __ItemClick__ event handler receives two arguments:
 
 Use the __ItemClick__ event handler to respond when the user clicks an item in the panel bar.
 
->tabbedCode
+
 
 ````C#
 	
@@ -42,7 +42,7 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

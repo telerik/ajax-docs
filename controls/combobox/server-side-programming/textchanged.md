@@ -40,7 +40,7 @@ Use the __TextChanged__ event handler to respond in server-side code when text i
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -60,7 +60,7 @@ Use the __TextChanged__ event handler to respond in server-side code when text i
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

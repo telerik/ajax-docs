@@ -30,7 +30,7 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -91,7 +91,7 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 	End Class 
 	
 ````
->end
+
 
 ## Upgrading existing providers
 

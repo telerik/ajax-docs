@@ -36,7 +36,7 @@ The below table illustrates a sample structure with the corresponding indexes. N
 | ![RadTreeList Structure](images/treelist_understanding-structure.png) | ![RadTreeList structure](images/treelist_understanding-structure2.PNG) |
 | ------ | ------ |
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="ID" ParentDataKeyNames="ParentID"
@@ -199,4 +199,4 @@ The below table illustrates a sample structure with the corresponding indexes. N
 	        End Property
 	    End Class
 ````
->end
+

@@ -30,7 +30,7 @@ The easiest way is to just set a string that you wish to use instead of the buil
 
 Or through the code-behind:
 
->tabbedCode
+
 
 ````C#
 	            RadWindow1.Localization.Close = "Close this popup";
@@ -48,7 +48,7 @@ Or through the code-behind:
 	End Class
 
 
->end
+
 
 ## Using the ASP.NET resource files
 

@@ -69,7 +69,7 @@ In the DataBinder.Eval statement, __Container__ is the __RadPanelItem__ and __"V
 
 In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the __Value__ property:
 
->tabbedCode
+
 
 ````C#
 	
@@ -98,7 +98,7 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
->end
+
 
 Now the value of the panel items appears in the text boxes:
 

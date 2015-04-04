@@ -18,7 +18,7 @@ RadCaptcha offer two composite properties-__TextBoxDecoration__	and __TextBoxLab
 
 In the following example we will customize the border of the TextBox and the Font style of the TextBoxLabel.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadCaptcha ID="RadCaptcha1" runat="server">
@@ -44,7 +44,7 @@ In the following example we will customize the border of the TextBox and the Fon
 			RadCaptcha1.TextBoxLabelDecoration.Font.Italic = True
 			RadCaptcha1.TextBoxLabelDecoration.ForeColor = Color.Gray
 ````
->end
+
 >caption RadCaptcha with decorated TextBox and TextBoxLabel
 
 ![captcha-controls-decoration](images/captcha-controls-decoration.png)

@@ -18,7 +18,7 @@ RadListView possesses sorting capabilities that are similar to these, offered by
 
 Implementing sorting is very easy - you should add a __SortExpression__ object to the __SortExpressions__ collection as demonstrated on the following example.
 
->tabbedCode
+
 
 ````C#
 	protected void Button1_Click(object sender, EventArgs e){
@@ -40,13 +40,13 @@ Implementing sorting is very easy - you should add a __SortExpression__ object t
 	        RadListView1.Rebind()
 	    End Sub
 ````
->end
+
 
 Sorting by multiple fields as well as the natural sorting could be enabled by setting the corresponding properties - AllowMultiFieldSorting and AllowNaturalSort.
 
 To facilitate the users that need a string representation of the sorting expression, we exposed the GetSortString method:
 
->tabbedCode
+
 
 ````C#
 	   Label1.Text = RadListView1.SortExpressions.GetSortString();			
@@ -54,7 +54,7 @@ To facilitate the users that need a string representation of the sorting express
 ````VB.NET
 	        Label1.Text = RadListView1.SortExpressions.GetSortString()
 ````
->end
+
 
 >note When binding __RadListView__ to __ObjectDataSource__ control you should set the __OverrideDataSourceControlSorting__ property to __true__ 
 >

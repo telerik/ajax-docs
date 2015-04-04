@@ -99,7 +99,7 @@ The following steps describe how to import the structure of a grid:
 
 In the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -142,4 +142,4 @@ In the code-behind:
 	
 	
 ````
->end
+

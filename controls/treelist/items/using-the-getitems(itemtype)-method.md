@@ -36,7 +36,7 @@ The method accepts one parameter from the __TreeListItemType__ enumerator and re
 
 Following is a sample of how you can use the method to access different treelist items:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_PreRender(object sender, EventArgs e)
@@ -63,7 +63,7 @@ Following is a sample of how you can use the method to access different treelist
 	        Dim altItem As TreeListDataItem = TryCast(RadTreeList1_NeedDataSource.GetItems(TreeListItemType.AlternatingItem)(0), TreeListDataItem)
 	    End Sub
 ````
->end
+
 
 # See Also
 

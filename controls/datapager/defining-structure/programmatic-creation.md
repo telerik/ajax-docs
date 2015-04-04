@@ -22,7 +22,7 @@ If you want to put a __RadDataPagerTemplatePageField__ inside, you should create
 
 Here follows an example of a programmatically created RadDataPager inside a RadListView. The control is defined in the LayoutTemplate of the listview and declares a template field itself.
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
@@ -409,7 +409,7 @@ Here follows an example of a programmatically created RadDataPager inside a RadL
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

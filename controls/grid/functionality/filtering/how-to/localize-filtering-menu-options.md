@@ -26,7 +26,7 @@ To change the text of the items in the filter menu, add code to the __Page_Load_
 
 The following example illustrates this process:
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,4 +56,4 @@ The following example illustrates this process:
 	        Next
 	    End Sub
 ````
->end
+

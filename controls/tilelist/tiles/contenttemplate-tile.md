@@ -24,7 +24,7 @@ The following example shows a simple declaration of a __RadContentTemplateTile__
 
 __RadTileList__ example:
 
->tabbedCode
+
 
 ````ASPNET
 		<asp:Button ID="Button1" Text="update the label in the first tile" OnClick="Button1_Click" runat="server" />
@@ -74,11 +74,11 @@ __RadTileList__ example:
 	End Class
 
 
->end
+
 
 Standalone __Tile__ example:
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:Button ID="Button1" Text="update the label in the first tile" OnClick="Button1_Click" runat="server" />
@@ -114,7 +114,7 @@ Standalone __Tile__ example:
 	End Class
 
 
->end
+
 
 And this results in the following before and after the button is clicked:![tilelist-content Template Tile-accessing-controls](images/tilelist-contentTemplateTile-accessing-controls.png)
 

@@ -20,7 +20,7 @@ The example below shows how to use conditional formatting in a sample mailbox im
 
 ![Conditional Formatting](images/grd_ScreenCap1.png)
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -57,7 +57,7 @@ The example below shows how to use conditional formatting in a sample mailbox im
 	        End If
 	    End Sub
 ````
->end
+
 
 >note When you apply Skin for the grid the custom style attributes set for the some of the grid rows will be overridden by the skin definitions. If you want to customize the appearance for some of the grid rows when Skin is assigned to the control, you will need to define your own CssClass for the corresponding row and apply the style preferences in its body.>
 >
@@ -81,7 +81,7 @@ Below is an example which will alter the look and feel for items which has text 
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -104,4 +104,4 @@ And in the code-behind:
 	        End If
 	    End Sub
 ````
->end
+

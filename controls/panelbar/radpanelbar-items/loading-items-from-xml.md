@@ -55,7 +55,7 @@ Once you have an XML file of the proper format, or an XML string in the proper f
 
 Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method to load the items, passing in the path to the file:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -67,13 +67,13 @@ Create an XML file with content that complies with the rules described above and
 			RadMenu1.LoadContentFile("~/App_Data/panelBar.xml")
 	
 ````
->end
+
 
 ## Loading from an XML string
 
 Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML__ method to populate the panel bar from the string:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -101,7 +101,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadPanelBar1.LoadXml(xmlString)
 	
 ````
->end
+
 
 >note You can also populate __RadPanelBar__ from an XML file or string using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%})for details.
 >
@@ -111,7 +111,7 @@ You can use the __GetXml__ method to get the XML content of a panel bar and then
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -123,4 +123,4 @@ You can use the __GetXml__ method to get the XML content of a panel bar and then
 		RadPanelBar2.LoadXml(RadPanelBar1.GetXml()) 
 	
 ````
->end
+

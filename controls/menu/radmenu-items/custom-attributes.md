@@ -44,7 +44,7 @@ When binding the __RadMenu__ to data, custom attributes can be set in the __Item
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -115,13 +115,13 @@ When binding the __RadMenu__ to data, custom attributes can be set in the __Item
 	    End Sub
 	
 ````
->end
+
 
 The __"Roles"__ column is mapped to a custom attribute in the __[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})__. The event handler also sets the ToolTip property of the item to the value of its custom attribute to allow for testing of the custom attribute:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemDataBound(object sender,Telerik.Web.UI.RadMenuEventArgs e)
@@ -138,7 +138,7 @@ The __"Roles"__ column is mapped to a custom attribute in the __[ItemDataBound e
 	        e.Item.ToolTip = e.Item.Attributes("Roles")
 	    End Sub
 ````
->end
+
 
 ## Using Attributes in Server-Side Code
 
@@ -146,7 +146,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 
 
 
->tabbedCode
+
 
 ````C#
 	    Paragraph.Font.Bold = RadMenu1.Items[0].Items[0].Attributes["State"] == "checked";
@@ -158,7 +158,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	    Paragraph.Font.Italic = RadMenu1.Items(0).Items(1).Attributes("State") = "checked"
 	    Paragraph.Font.Underline = RadMenu1.Items(0).Items(2).Attributes("State") = "checked"
 ````
->end
+
 
 ## Using Attributes in Client-Side Code
 

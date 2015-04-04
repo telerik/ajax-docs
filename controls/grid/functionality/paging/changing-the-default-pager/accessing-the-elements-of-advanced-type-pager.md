@@ -28,7 +28,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 |"Page Size:" text|Label|ChangePageSizeLabel|
 |"Page Size" combo box|RadComboBox|PageSizeComboBox|__Example__:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -48,7 +48,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
->end
+
 
 1. The following table lists the ID's of the controls in the pager when __Mode__ is "Advanced" or "Slider":
 
@@ -66,7 +66,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 |"Change page size" link button|Button|ChangePageSizeLinkButton|
 |Slider pager|RadSlider|GridSliderPager|
 
->tabbedCode
+
 
 ````ASPNET
 	<telerik:RadGrid
@@ -108,7 +108,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
->end
+
 
 ![](images/grd_AccessingPagerButtons.png)
 
@@ -116,7 +116,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -138,7 +138,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

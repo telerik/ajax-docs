@@ -66,7 +66,7 @@ You can [modify the exported content](#modifying-the-exported-content)when the [
 
 __Example 1__: Exporting the __RadEditor__ content to Word documents by using two simple ASP Button controls for __*.docx__ and __*.rtf__
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
@@ -101,7 +101,7 @@ __Example 1__: Exporting the __RadEditor__ content to Word documents by using tw
 	End Sub
 	
 ````
->end
+
 
 ## Defining Export Settings
 
@@ -140,7 +140,7 @@ Exporting content from the Editor raises the __ExportContent__ event that can be
 
 __Example 3__: Dynamically adding header and footer elements to the exported document via the __ExportContent__ event
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
@@ -234,7 +234,7 @@ __Example 3__: Dynamically adding header and footer elements to the exported doc
 		End Sub
 	End Class
 ````
->end
+
 
 ## Known Limitations
 

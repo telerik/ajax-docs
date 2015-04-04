@@ -20,7 +20,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 
 1. Create a function that dynamically creates the data source (in this case, a __DataTable__): 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -65,11 +65,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Function
 	
 ````
->end
+
 
 1. Set the __DataSource__ property of the panel to the DataTable. At the same time, use the __RadPanelBar__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of panel items. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the panel: 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -108,11 +108,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
->end
+
 
 1. Create an __[ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%})__ to set additional properties on the panel items: 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -135,7 +135,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub 'RadPanelBar1_ItemDataBound
 	
 ````
->end
+
 
 ## Fetching the data from a separate database
 
@@ -145,7 +145,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -185,7 +185,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	    End Sub 'Page_Load
 	
 ````
->end
+
 
 >note The __ParentID__ of the root items must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblData

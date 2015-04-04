@@ -16,7 +16,7 @@ position: 2
 
 When the user clicks the plus button next to a Node that has child Nodes, the __NodeExpand__ event fires. Use the __RadTreeNodeEventArgs.____Node__ property to get or set the clicked-on Node properties. The Node __ExpandMode__ property must be set to __ServerSide, ServerSideCallback or WebService__ for this event to fire.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeView1_NodeExpand(object sender, Telerik.Web.UI.RadTreeNodeEventArgs e)
@@ -38,7 +38,7 @@ When the user clicks the plus button next to a Node that has child Nodes, the __
 	        e.Node.ExpandMode = Telerik.Web.UI.TreeNodeExpandMode.ClientSide
 	    End Sub
 ````
->end
+
 
 # See Also
 

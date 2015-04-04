@@ -46,7 +46,7 @@ Usually, you also want to do one or more of the following:
 
 1. If the data source contains fields that map to other properties of tabs or to [custom attributes]({%slug tabstrip/tabs/custom-attributes%}), use the __[TabDataBound]({%slug tabstrip/server-side-programming/tabdatabound%})__ event to set those values:
 
->tabbedCode
+
 
 ````C#
 	void RadTabStrip1_TabDataBound(object sender, RadTabStripEventArgs e)
@@ -62,7 +62,7 @@ Usually, you also want to do one or more of the following:
 	End Sub 
 				
 ````
->end
+
 
 1. As an alternative to using the __TabDataBound__ event handler, you can use [DataBindings]({%slug tabstrip/data-binding/using-databindings%}) to declaratively map fields from the data source to properties of the tabs. The __DataBindings__ collection also lets you map fields differently, based on the level of tabs.
 

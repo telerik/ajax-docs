@@ -58,7 +58,7 @@ The following example demonstrates how the user can display: a custom content in
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void RadXmlHttpPanel1_ServiceRequest(object sender, RadXmlHttpPanelEventArgs e)
@@ -78,4 +78,4 @@ The following example demonstrates how the user can display: a custom content in
 	    End Sub
 	
 ````
->end
+

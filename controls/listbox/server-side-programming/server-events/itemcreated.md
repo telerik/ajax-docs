@@ -26,7 +26,7 @@ The __ItemCreated__event handler receives two arguments:
 
 * An EventArgs object of type __RadListBoxItemEventArgs__. This object has an __Item__ property, which provides access to the item that has just been added.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -67,6 +67,6 @@ The __ItemCreated__event handler receives two arguments:
 	End Class
 
 
->end
+
 
 # See Also

@@ -62,7 +62,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 __Setting Image manager properties in CodeBehind:__
 
->tabbedCode
+
 
 ````C#
 	
@@ -95,7 +95,7 @@ __Setting Image manager properties in CodeBehind:__
 	        End If
 	
 ````
->end
+
 
 Note that the viewImages, uploadImages and deleteImages variables are string arrays and that the Images folders must be:
 

@@ -114,7 +114,7 @@ You can have the grid (or table view) display the pager regardless of whether th
 
 You can get the exact numbers of rows in your __RadGrid__ either directly from the DataSource or in an __ItemDataBound__ event handler from the pager item:
 
->tabbedCode
+
 
 ````C#
 	
@@ -136,7 +136,7 @@ You can get the exact numbers of rows in your __RadGrid__ either directly from t
 	    End Sub
 	
 ````
->end
+
 
 You can also get the row count from the pager in the ASPX file as follows:
 

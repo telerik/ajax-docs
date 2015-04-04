@@ -50,7 +50,7 @@ __A:__ Just like with the RadMenu, using the RadTabStrip one easily can implemen
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -118,4 +118,4 @@ __A:__ Just like with the RadMenu, using the RadTabStrip one easily can implemen
 		End Sub
 				
 ````
->end
+

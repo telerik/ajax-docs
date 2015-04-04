@@ -18,7 +18,7 @@ This article demonstrates how to enable and use the WAI-ARIA support of the __Ra
 
 __Example 1:__ Setting the EnalbeAriaSupport property for __RadTreeView__. 
 
->tabbedCode
+
 
 ````ASPNET
 	            <telerik:RadTreeView ID="RadTreeView1" runat="server" EnableAriaSupport="true">
@@ -44,7 +44,7 @@ __Example 1:__ Setting the EnalbeAriaSupport property for __RadTreeView__.
 	        RadTreeView1.EnableAriaSupport = true;
 	    }
 ````
->end
+
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA rolesto the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

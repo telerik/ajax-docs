@@ -22,7 +22,7 @@ The __RadCaptcha__ provides a mechanism for quick and easy localization based on
 
 Each of the localization strings can also be modified at runtime using the respective server-side properties: __ErrorMessage, CaptchaTextBoxLabel, CaptchaAudioLinkButtonText, and CaptchaLinkButtonText__. This eliminates the need to create a new localization file to change a single string. For example:
 
->tabbedCode
+
 
 ````C#
 	        RadCaptcha1.ErrorMessage = "Incorrect code";
@@ -40,4 +40,4 @@ Each of the localization strings can also be modified at runtime using the respe
 	End Class
 
 
->end
+

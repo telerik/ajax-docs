@@ -20,7 +20,7 @@ If you need a RadDataPager control to be used for navigating through a RadListVi
 
 The following example shows a RadDataPager in the LayoutTemplate of a RadListView control:
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
@@ -246,4 +246,4 @@ The following example shows a RadDataPager in the LayoutTemplate of a RadListVie
 	        SelectCommand="SELECT [ProductID], [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock], [Discontinued] FROM [Products]">
 	    </asp:SqlDataSource>
 ````
->end
+

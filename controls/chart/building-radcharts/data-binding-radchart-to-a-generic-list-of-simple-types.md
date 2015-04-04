@@ -23,7 +23,7 @@ The example below is the result of binding a [generic List<>](http://msdn2.micro
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -49,7 +49,7 @@ The example below is the result of binding a [generic List<>](http://msdn2.micro
 	    RadChart1.DataSource = chartDataRadChart1.DataBind()
 				
 ````
->end
+
 
 # See Also
 

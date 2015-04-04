@@ -24,7 +24,7 @@ You can access the values for the fields in the __DataItem__ by indexing on the 
 
 The following example illustrates how you can customize the formatting of the group header using the grid's __ItemDataBound__ event:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
@@ -66,4 +66,4 @@ The following example illustrates how you can customize the formatting of the gr
 	        End If
 	    End Sub
 ````
->end
+

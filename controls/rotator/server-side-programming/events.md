@@ -33,7 +33,7 @@ RadRotator control exposes 3 important events
 
 Called for every RadRotator's item when its template is created. This event is called before the OnItemDataBind one
 
->tabbedCode
+
 
 ````C#
 		protected void RadRotator1_ItemCreated(object sender, RadRotatorEventArgs e)
@@ -70,13 +70,13 @@ Called for every RadRotator's item when its template is created. This event is c
 	End Class
 
 
->end
+
 
 ## OnItemDataBound event
 
 Called for every RadRotator's item after it is databound. This event is called after the OnItemCreated one
 
->tabbedCode
+
 
 ````C#
 		protected void RadRotator1_ItemDataBound(object sender, RadRotatorEventArgs e)
@@ -104,13 +104,13 @@ Called for every RadRotator's item after it is databound. This event is called a
 	End Class
 
 
->end
+
 
 ## OnItemClick event
 
 Called when a RadRotator's item is clicked and the click event is not canceled client-side. This event can be used in order to maintain the last shown item's index
 
->tabbedCode
+
 
 ````C#
 		protected void RadRotator1_ItemClick(object sender, RadRotatorEventArgs e)
@@ -130,4 +130,4 @@ Called when a RadRotator's item is clicked and the click event is not canceled c
 	End Class
 
 
->end
+

@@ -16,7 +16,7 @@ position: 7
 
 There are some cases where you might need to create the RadAjaxManager control programmatically. This is an easy task, however note this should be done in the __Page_Init__ event but later. Below is a sample code you can use:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -33,13 +33,13 @@ There are some cases where you might need to create the RadAjaxManager control p
 	        Me.Page.Form.Controls.Add(manager)
 	    End Sub
 ````
->end
+
 
 Then, to access the RadAjaxManager instance you can call the __GetCurrent()__ static method of the RadAjaxManager class:
 
 __Server-Side__
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -53,7 +53,7 @@ __Server-Side__
 	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

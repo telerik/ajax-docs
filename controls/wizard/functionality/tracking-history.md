@@ -77,7 +77,7 @@ __Example 2__ demonstrates how to print the active step titles and the order in 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_ActiveStepChanged(object sender, EventArgs e)
@@ -104,4 +104,4 @@ __Example 2__ demonstrates how to print the active step titles and the order in 
 	End Class
 
 
->end
+

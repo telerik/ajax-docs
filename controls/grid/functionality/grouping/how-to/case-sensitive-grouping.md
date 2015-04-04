@@ -31,7 +31,7 @@ RadGrid supports grouping of items based on the value of a particular column. To
 
 When you are populating the grid through __NeedDataSource__ and at the same time you need case sensitive grouping you can use the code snippet below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -69,11 +69,11 @@ When you are populating the grid through __NeedDataSource__ and at the same time
 	        RadGrid1.DataSource = table
 	    End Sub
 ````
->end
+
 
 If you are using __SqlDataSource__ you can make the grid grouping case sensitive with the following code:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -94,4 +94,4 @@ If you are using __SqlDataSource__ you can make the grid grouping case sensitive
 	        RadGrid1.DataSource = Table
 	    End Sub
 ````
->end
+

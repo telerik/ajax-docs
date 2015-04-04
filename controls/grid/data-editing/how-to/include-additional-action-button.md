@@ -18,7 +18,7 @@ There are scenarios in which you may want to include additional button right aft
 
 __InPlace__ edit mode:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -62,11 +62,11 @@ __InPlace__ edit mode:
 	        }
 	    }
 ````
->end
+
 
 __Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
 
->tabbedCode
+
 
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
@@ -96,4 +96,4 @@ __Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
 	        }
 	    }
 ````
->end
+

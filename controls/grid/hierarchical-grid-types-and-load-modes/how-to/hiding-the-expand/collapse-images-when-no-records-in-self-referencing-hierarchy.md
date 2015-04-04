@@ -36,7 +36,7 @@ Below is the code of a simple demo implementation:
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" ShowHeader="true" OnNeedDataSource="RadGrid1_NeedDataSource"
@@ -174,4 +174,4 @@ Below is the code of a simple demo implementation:
 	        End If
 	    End Sub
 ````
->end
+

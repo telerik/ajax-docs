@@ -58,7 +58,7 @@ __Example 1__: Bind a __LinqDataSource__ to a __RadHtmlChart__.
 
 __Example 2__: Handling the Selecting event of the __LinqDataSource__ from __Example 1__.
 
->tabbedCode
+
 
 ````C#
 		protected void LinqDataSource1_Selecting(object sender, LinqDataSourceSelectEventArgs e)
@@ -73,7 +73,7 @@ __Example 2__: Handling the Selecting event of the __LinqDataSource__ from __Exa
 			e.Result = northwindContext.Products.Where(Function(p) p.CategoryID = 1).Take(5)
 		End Sub
 ````
->end
+
 
 # See Also
 

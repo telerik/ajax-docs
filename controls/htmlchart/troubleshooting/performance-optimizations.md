@@ -36,7 +36,7 @@ You can find a sample declaration of an optimized __RadHtmlChart__ setup with 39
 
 __Example 1__: RadHtmlChart's load time can be improved significantly by disabling animations, hiding series items labels and major and minor axis grid lines.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px" Transitions="false">
@@ -99,7 +99,7 @@ __Example 1__: RadHtmlChart's load time can be improved significantly by disabli
 	        Public Property YValue As Double
 	    End Class
 ````
->end
+
 
 # See Also
 

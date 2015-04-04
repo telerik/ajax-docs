@@ -88,7 +88,7 @@ The upcoming example uses __ObjectDataSource__ and __SelectParameter__ to repres
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -124,6 +124,6 @@ The upcoming example uses __ObjectDataSource__ and __SelectParameter__ to repres
 	
 	    End Sub
 ````
->end
+
 
 Similar approach is presented in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMailGrid/DefaultCS.aspx) of the product.

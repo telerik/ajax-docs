@@ -20,7 +20,7 @@ However, this Firefox feature caches the page viewstate field as well thus break
 
 The [Mozilla Development Center](http://developer.mozilla.org/en/docs/Using_Firefox_1.5_caching) states that setting *"cache-control: no-store"* in the response header of the page prevents Firefox from caching the page so you could use the following code snippet to add a *cache-control: no-store *response header to any page requested by any browser that is not Internet Explorer:
 
->tabbedCode
+
 
 ````C#
 	
@@ -41,4 +41,4 @@ The [Mozilla Development Center](http://developer.mozilla.org/en/docs/Using_Fire
 	        End If
 	    End Sub
 ````
->end
+

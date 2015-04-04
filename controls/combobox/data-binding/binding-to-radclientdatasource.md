@@ -46,7 +46,7 @@ The following application scenario shows an example of __RadComboBox__ bound to 
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -118,7 +118,7 @@ The following application scenario shows an example of __RadComboBox__ bound to 
 	End Class
 
 
->end
+
 
 ## When the EnableLoadOnDemand is disabled
 
@@ -163,7 +163,7 @@ The code snippet below show an sample configuration of __RadComboBox__ bound to 
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -235,4 +235,4 @@ The code snippet below show an sample configuration of __RadComboBox__ bound to 
 	End Class
 
 
->end
+

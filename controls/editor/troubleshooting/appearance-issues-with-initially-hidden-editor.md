@@ -36,7 +36,7 @@ The workaround for this problem is to register the RadEditor’s CSS files manua
 
 __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 
->tabbedCode
+
 
 ````ASPNET
 			<html xmlns="http://www.w3.org/1999/xhtml">
@@ -93,7 +93,7 @@ __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 			wrapper.Visible = Not wrapper.Visible
 		End Sub
 ````
->end
+
 
 ## Initially Hidden Wrapper Made Visible via JavaScript
 

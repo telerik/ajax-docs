@@ -27,7 +27,7 @@ On some operating systems like MAC OS and Linux it is possible to have file name
 
 2. Override the __ChageOriginalFileName__ method and perform own file name validation
 
->tabbedCode
+
 
 ````C#
 	    <%@ WebHandler Language="C#" Class="CustomHandler" %>
@@ -103,7 +103,7 @@ On some operating systems like MAC OS and Linux it is possible to have file name
 	
 	    End Class
 ````
->end
+
 
 # See Also
 

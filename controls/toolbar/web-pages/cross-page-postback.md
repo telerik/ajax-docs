@@ -30,7 +30,7 @@ You can have the buttons in your toolbar cause postbacks to a different Web page
 
 Once in the second page, you can access the the toolbar (or any other control) on the previous page using the __Page.PreviousPage__ property.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -64,4 +64,4 @@ Once in the second page, you can access the the toolbar (or any other control) o
 	    End Class
 	
 ````
->end
+

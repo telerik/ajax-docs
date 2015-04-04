@@ -20,7 +20,7 @@ This article shows step by step how to prevent dual uploading of file, which has
 
 1. Handle [ OnClientFileUploading ]({%slug cloudupload/client-side-programming/events/onclientfileuploading%})
 
->tabbedCode
+
 
 ````ASPNET
 	            <telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Azure" OnClientFileUploading="onClientFileUploading" MultipleFileSelection="Automatic">
@@ -39,7 +39,7 @@ This article shows step by step how to prevent dual uploading of file, which has
 	                }
 	            }
 ````
->end
+
 
 # See Also
 

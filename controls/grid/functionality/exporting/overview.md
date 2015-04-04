@@ -97,7 +97,7 @@ This event is useable in many scenarios when you want to modify the output file 
 
 Below is the barebone logic for __OnGridExporting__ event:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_GridExporting(object source, GridExportingArgs e)
@@ -142,7 +142,7 @@ Below is the barebone logic for __OnGridExporting__ event:
 	        End Select
 	    End Sub
 ````
->end
+
 
 ## Common scenarios
 
@@ -162,7 +162,7 @@ We strongly recommend not to export large amounts of data since there is a chanc
 
 When you have custom paging enabled for your grid, you need to set the *PageSize* property of the gridto be equal to the *VirtualItemCount* in order to export all records successfully with*IgnorePaging* set to true. Here is an example:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -181,7 +181,7 @@ When you have custom paging enabled for your grid, you need to set the *PageSize
 	        RadGrid1.MasterTableView.ExportToExcel()
 	    End Sub
 ````
->end
+
 
 ## Export from AJAX-enabled RadGrid
 
@@ -225,7 +225,7 @@ You might receive the following error message when using the export feature over
 
 In order to prevent this error add the following lines just before the exporting:
 
->tabbedCode
+
 
 ````C#
 	        RadGrid1.Page.Response.ClearHeaders();
@@ -235,7 +235,7 @@ In order to prevent this error add the following lines just before the exporting
 	        RadGrid1.Page.Response.ClearHeaders()
 	        RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
->end
+
 
 ## Obsolete methods
 

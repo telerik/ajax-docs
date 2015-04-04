@@ -24,7 +24,7 @@ The event handler receives two arguments:
 
 __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatProvider](d8c19145-c148-435a-9e1b-ef0633785267) instance
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
@@ -75,11 +75,11 @@ __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatPr
 		End Sub
 	End Class
 ````
->end
+
 
 __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through the __OnImportContent__ event
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
@@ -142,7 +142,7 @@ __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through
 		End Sub
 	End Class
 ````
->end
+
 
 # See Also
 

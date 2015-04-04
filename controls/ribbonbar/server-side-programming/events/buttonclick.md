@@ -44,7 +44,7 @@ The event handler function receives two arguments:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,7 +63,7 @@ The event handler function receives two arguments:
 	
 	
 ````
->end
+
 
 # See Also
 

@@ -28,7 +28,7 @@ __AppointmentDelete__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ __AppointmentDelete__ has two parameters:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

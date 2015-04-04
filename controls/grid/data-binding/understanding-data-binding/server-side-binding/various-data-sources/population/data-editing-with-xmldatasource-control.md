@@ -24,7 +24,7 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 
 * The __Save__ method does not handle concurrent save operations on unique requests. If more than one user is editing an XML file using the __XmlDataSource__ control, there is no guarantee that all users are operating with the same data and that one user will not overwrite changes from another user. It is also possible for a save operation to fail because another user is writing to the XML file and has an exclusive lock on the file.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
@@ -204,6 +204,6 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 	        End If
 	    End Function
 ````
->end
+
 
 For a live example of a __RadGrid__ that supports editing when bound to __XmlDataSource__, see [Editing XML using XmlDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).

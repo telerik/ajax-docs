@@ -51,7 +51,7 @@ When assigning the __ControlObjectsVisibility__ property at runtime, use the "or
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -68,7 +68,7 @@ When assigning the __ControlObjectsVisibility__ property at runtime, use the "or
 		       ControlObjectsVisibility.AddButton 
 				
 ````
->end
+
 
 # See Also
 

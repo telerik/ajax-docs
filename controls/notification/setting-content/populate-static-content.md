@@ -20,7 +20,7 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 
 1. Setting the __Text__ property:
 
->tabbedCode
+
 
 ````C#
 	        RadNotification1.Text = "Sample Notification text";
@@ -32,14 +32,14 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
->end
+
 
 1. Setting the __Title__ property:
 >caption 
 
 ![Title and Text](images/radnotification-title-and-text.png)
 
->tabbedCode
+
 
 ````C#
 	        RadNotification1.Text = "Sample Notification text";
@@ -53,7 +53,7 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
->end
+
 
 1. Setting rich content:
 
@@ -90,7 +90,7 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 >
 
 
->tabbedCode
+
 
 ````C#
 	        RadNotification1.ContentContainer.Controls.Add(new LiteralControl("Rich content:<br />"));
@@ -110,4 +110,4 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
->end
+

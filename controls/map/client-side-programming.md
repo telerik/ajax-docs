@@ -83,7 +83,7 @@ There are two additional events that are specific to the nature of the ISciptCon
 
 __Example 4:__ Attach client-side Map events in the markup and in the code-behind.
 
->tabbedCode
+
 
 ````JavaScript
 		The Click handler is attached from the code-behind
@@ -122,7 +122,7 @@ __Example 4:__ Attach client-side Map events in the markup and in the code-behin
 			End If
 		End Sub
 ````
->end
+
 
 You can find an example of several of the map's events being handled in the	[Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
 

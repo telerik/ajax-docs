@@ -59,7 +59,7 @@ You can register the CSS file of the skin by adding a HtmlLink control in the He
 
 
 
->tabbedCode
+
 
 ````C#
 	HtmlLink link = new HtmlLink();
@@ -75,7 +75,7 @@ You can register the CSS file of the skin by adding a HtmlLink control in the He
 		link.Attributes.Add("rel", "stylesheet")
 		Page.Header.Controls.Add(link) 
 ````
->end
+
 
 ## Skin registration with RadStyleSheetManager
 

@@ -24,7 +24,7 @@ The __Command__ event handler receives two arguments:
 
 Use a __Command__ event handler to provide a server-side implementation for custom commands or to augment the default behavior of built-in commands. For example, the following Command event handler implements a custom command that moves a docked control to the next docking position if it is not the last docked control in its parent's docking zone:
 
->tabbedCode
+
 
 ````C#
 	
@@ -70,7 +70,7 @@ Use a __Command__ event handler to provide a server-side implementation for cust
 	    End Sub
 				
 ````
->end
+
 
 # See Also
 

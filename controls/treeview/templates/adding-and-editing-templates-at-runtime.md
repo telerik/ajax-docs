@@ -25,7 +25,7 @@ You can also add Templates to __RadTreeView__ at runtime, using the __NodeTempla
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -103,11 +103,11 @@ You can also add Templates to __RadTreeView__ at runtime, using the __NodeTempla
 	End Class
 	
 ````
->end
+
 
 If you want to add different templates to specific nodes, based on some property or value for instance, the best way is to use the __TemplateNeeded__ event.
 
->tabbedCode
+
 
 ````C#
 	    
@@ -140,7 +140,7 @@ If you want to add different templates to specific nodes, based on some property
 	End Sub
 	
 ````
->end
+
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
 
@@ -148,7 +148,7 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -189,7 +189,7 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 	
 	
 ````
->end
+
 
 The end result of this code looks like the following:
 

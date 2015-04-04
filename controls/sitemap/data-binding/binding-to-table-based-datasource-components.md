@@ -37,7 +37,7 @@ To bind to a table-based DataSource component:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadSiteMap1_NodeDataBound(object sender, RadSiteMapNodeEventArgs e)
@@ -52,7 +52,7 @@ To bind to a table-based DataSource component:
 	        e.Node.ToolTip = nodeData("tooltip").ToString()
 	    End Sub
 ````
->end
+
 
 
 

@@ -72,7 +72,7 @@ The following example will show how the __OnClientTileDropped__ event can be use
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void OnAjaxRequestHandler(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
@@ -93,4 +93,4 @@ The following example will show how the __OnClientTileDropped__ event can be use
 	End Class
 
 
->end
+

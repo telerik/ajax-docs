@@ -55,7 +55,7 @@ Use the FontNames collection __Add()__method to include new fonts in the list. W
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -71,7 +71,7 @@ Use the FontNames collection __Add()__method to include new fonts in the list. W
 	        RadEditor1.FontNames.Add("Arial Black")
 	
 ````
->end
+
 
 >note Bear in mind that RadEditor will persist its state (including the Fonts set) between postbacks. In order to create a new set of Fonts (e.g. for different users), you will need to clear it first. This can be done using the FontNames collection Clear() method to remove all elements or Remove() to remove specific fonts from the collection.
 >

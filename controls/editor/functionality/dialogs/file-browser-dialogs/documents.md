@@ -57,7 +57,7 @@ The users will be able to browse all subfolders of the "~/Documents" folder. The
 
 __Setting the DocumentManager properties in CodeBehind:__
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,7 +86,7 @@ __Setting the DocumentManager properties in CodeBehind:__
 	        End If
 	
 ````
->end
+
 
 Note that the viewDocuments, uploadDocuments and deleteDocuments variables are string arrays and that the Documents folder must be:
 

@@ -58,7 +58,7 @@ The built-in commands perform their function without any programming on your par
 
 ![](images/dock-defaultcommandscombination.png)At runtime, you can specify a combination of built-in commands using the "or" operator:
 
->tabbedCode
+
 
 ````C#
 	
@@ -72,7 +72,7 @@ The built-in commands perform their function without any programming on your par
 	                                Or Telerik.Web.UI.Dock.DefaultCommands.PinUnpin
 	
 ````
->end
+
 
 >note The appearance of the built-in icons shown above is for the "Default" skin. Each skin provides its own icons for the built-in commands.
 >

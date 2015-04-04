@@ -18,7 +18,7 @@ You can fine tune the behavior of Telerik RadGrid when inserting/editing items. 
 
 This is extended version of the previous case.Here is the new part:You click "Add New Record" button and a new record is inserted in Telerik RadGrid. Then you click the edit button at another record. The selected item goes in edit mode and the insert new record closes. You should modify the setting for the __IsItemInserted__ property of the respective __GridTableView__:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -45,4 +45,4 @@ This is extended version of the previous case.Here is the new part:You click "Ad
 	        End If
 	    End Sub
 ````
->end
+

@@ -48,7 +48,7 @@ You can also control the displaying of the Design, Html and Preview buttons by u
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -60,7 +60,7 @@ You can also control the displaying of the Design, Html and Preview buttons by u
 	        RadEditor1.EditModes = EditModes.Design Or EditModes.Preview
 	
 ````
->end
+
 
 __Example 2__: Display the Html mode only (configure the editor inline or in the codebehind):
 
@@ -71,7 +71,7 @@ __Example 2__: Display the Html mode only (configure the editor inline or in the
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -83,7 +83,7 @@ __Example 2__: Display the Html mode only (configure the editor inline or in the
 	        RadEditor1.EditModes = EditModes.Html
 	
 ````
->end
+
 
 # See Also
 

@@ -18,7 +18,7 @@ The __EmptyMessage__ property of the RadComboBox enables the ability to set any 
 
 ## Setting the EmptyMessage server-side
 
->tabbedCode
+
 
 ````C#
 	     
@@ -38,7 +38,7 @@ The __EmptyMessage__ property of the RadComboBox enables the ability to set any 
 	    End Sub
 	
 ````
->end
+
 
 ## Setting the EmptyMessage client-side
 

@@ -26,7 +26,7 @@ The second approach will require changing the grid column structure programmatic
 
 The following code snippets illustrate how to change the columns in a dynamically created grid, based on a drop-down list selection. Note that the code which constructs the grid fetches the selected value from the drop-down list by referencing the combobox using __Request.Form.Get(controlId)__ method of the ASP.NET AJAX framework (an alternative solution would be to use the __Request.Form.Keys__ collection to identify whether the combobox triggered the submit, more info on this approach can be gathered from [here](http://forums.asp.net/p/1159322/1912061.aspx)):
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
@@ -190,4 +190,4 @@ The following code snippets illustrate how to change the columns in a dynamicall
 	        grid.Rebind()
 	    End Sub
 ````
->end
+

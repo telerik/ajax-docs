@@ -30,7 +30,7 @@ At run time, you can set the mask in the following ways:
 
 * Set the __Mask__ property:
 
->tabbedCode
+
 
 ````C#
 	        RadMaskedTextBox1.Mask = "(###) ### - ####";
@@ -38,11 +38,11 @@ At run time, you can set the mask in the following ways:
 ````VB.NET
 	        RadMaskedTextBox1.Mask = "(###) ### - ####"
 ````
->end
+
 
 * Build up a mask using the __MaskParts__ property:
 
->tabbedCode
+
 
 ````C#
 	        EnumerationMaskPart enumPart = new EnumerationMaskPart();
@@ -74,7 +74,7 @@ At run time, you can set the mask in the following ways:
 	        RadMaskedTextBox1.MaskParts.Add(literalPart)
 	        RadMaskedTextBox1.MaskParts.Add(New DigitMaskPart())
 ````
->end
+
 
 A number of properties control the way the mask is applied:
 
@@ -134,7 +134,7 @@ You can set different masks for different cultures in the codebehind. For exampl
 
 The following example shows how to use the current culture settings to set a culture-specific mask:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -158,7 +158,7 @@ The following example shows how to use the current culture settings to set a cul
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

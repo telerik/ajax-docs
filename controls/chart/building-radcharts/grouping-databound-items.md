@@ -61,7 +61,7 @@ Consider a chart populated from the following table:
 
 Configure RadChart like this:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -81,7 +81,7 @@ Configure RadChart like this:
 	    #VALUE"
 				
 ````
->end
+
 
 This is the result:
 >caption 

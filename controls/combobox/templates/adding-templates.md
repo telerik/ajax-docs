@@ -38,7 +38,7 @@ The following example demonstrates how to use the Template Design Surface to add
 
 1. Subscribe the __RadCalendar__ control to its __SelectionChanged__ event: 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -66,7 +66,7 @@ The following example demonstrates how to use the Template Design Surface to add
 	    End Sub
 	
 ````
->end Note that the event handler finds the RadCalendar control within the RadComboBox's __SelectedItem__ and uses that to set the text of the selected item.
+ Note that the event handler finds the RadCalendar control within the RadComboBox's __SelectedItem__ and uses that to set the text of the selected item.
 
 1. Use the Smart Tag anchor to display the Edit Templates pop-up, and choose __End Template Editing__ to close the Template Design Surface.
 
@@ -108,7 +108,7 @@ You can also add templates to __RadComboBox__ at runtime, using the __ItemTempla
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -190,11 +190,11 @@ You can also add templates to __RadComboBox__ at runtime, using the __ItemTempla
 	End Sub
 	
 ````
->end
+
 
 An alternate method of defining a template in the OnInit event of the page, is to instantiate each item on postback. In the previous example, the LabelTemplate class initializes a label in the InstantiateIn method. In the next example, the InstantiateIn method is called for the LabelTemplate object for each item.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -233,7 +233,7 @@ An alternate method of defining a template in the OnInit event of the page, is t
 	    End Sub
 	
 ````
->end
+
 
 The end result of this code looks like the following:
 

@@ -39,7 +39,7 @@ You can use a wide variety of data sources for RadListView structure generation 
 
 * bind RadListView to a __DataReader__
 
->tabbedCode
+
 
 ````C#
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -306,9 +306,9 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        </tr>
 	    </table>
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void RadListView1_NeedDataSource(object source, Telerik.Web.UI.RadListViewNeedDataSourceEventArgs e)        
@@ -391,9 +391,9 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        conn.Close()
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	using System;
@@ -891,4 +891,4 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        End Class
 	    End Namespace
 ````
->end
+

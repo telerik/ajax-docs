@@ -94,7 +94,7 @@ __ASPX:__
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -125,9 +125,9 @@ And in the code-behind:
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel)
 	    End Sub 'Page_Load  
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void Button1_Click(object sender, System.EventArgs e)
@@ -140,7 +140,7 @@ And in the code-behind:
 	        Label1.Text = DateTime.Now
 	    End Sub
 ````
->end
+
 
 # See Also
 

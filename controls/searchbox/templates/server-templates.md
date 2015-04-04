@@ -29,7 +29,7 @@ You can define the ItemTemplate programmatically by assigning a new __ITemplate_
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -99,4 +99,4 @@ You can define the ItemTemplate programmatically by assigning a new __ITemplate_
 	        End Class
 	    End Class
 ````
->end
+

@@ -19,7 +19,7 @@ RadColorPicker has a number of methods that return [preset palette colors]({%slu
 
 ![](images/radcolorpicker017.png)
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -68,7 +68,7 @@ RadColorPicker has a number of methods that return [preset palette colors]({%slu
 			End Class
 		End Namespace
 ````
->end
+
 
 # See Also
 

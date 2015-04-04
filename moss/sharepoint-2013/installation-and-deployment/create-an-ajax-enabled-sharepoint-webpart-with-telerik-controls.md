@@ -64,7 +64,7 @@ The following steps describe the creation of the WebPart:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -96,7 +96,7 @@ The following steps describe the creation of the WebPart:
 	End Class
 
 
->end
+
 
 1. If the __Images__ library is empty, at least two images will have to be inserted in it for the proper functionality of the rotator control. This can be done by:
 

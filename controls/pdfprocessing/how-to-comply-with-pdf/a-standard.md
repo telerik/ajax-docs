@@ -84,7 +84,7 @@ The __PdfFormatProvider__ class allows to export a __RadFixedDocument__ to PDF a
 
 To comply with one of the versions of the standard you need to specify __ComplianceLevel__ different from __None__. The snippet in __Example 1__ shows how this can be achieved.
 
->tabbedCode
+
 
 ````C#
 	    PdfFormatProvider provider = new PdfFormatProvider();
@@ -102,7 +102,7 @@ To comply with one of the versions of the standard you need to specify __Complia
 	
 	    Return provider.Export(document)
 ````
->end
+
 
 __RadPdfProcessing__ will do the rest for you. If you also specify encryption for the document, this setting will be ignoredsince the standard does not allow documents to be encrypted.
 

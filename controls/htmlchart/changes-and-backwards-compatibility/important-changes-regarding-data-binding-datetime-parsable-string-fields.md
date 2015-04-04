@@ -23,7 +23,7 @@ The old and the new behavior of the control is illustrated with the code from __
 
 __Example1:__ Data binding a DataTable data source that contains a string column that can be parsed to a DateTime format.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="400" Height="250">
@@ -76,7 +76,7 @@ __Example1:__ Data binding a DataTable data source that contains a string column
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

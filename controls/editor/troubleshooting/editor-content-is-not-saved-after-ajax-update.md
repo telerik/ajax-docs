@@ -38,7 +38,7 @@ In the case of ImageButtons and server buttons, by the time the MS AJAX framewor
 
 __Example 1__: An ImageButton updates a RadEditor within a RadAjaxPanel, which causes the editor content to be lost.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
@@ -57,11 +57,11 @@ __Example 1__: An ImageButton updates a RadEditor within a RadAjaxPanel, which c
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 __Example 2__: A Button updates a RadEditor within an asp:UpdatePanel, which causes the editor content to be lost.
 
->tabbedCode
+
 
 ````ASPNET
 			<asp:UpdatePanel ID="UpdatePanel1" runat="server">
@@ -82,7 +82,7 @@ __Example 2__: A Button updates a RadEditor within an asp:UpdatePanel, which cau
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 ## Resolutions
 
@@ -98,7 +98,7 @@ Set the __UseSubmitBehavior__ property of the push button to __false__ when:
 
 __Example 3__: A Button with the __UseSubmitBehavior__ property set to __false__ which enables the editor content to be sent to the server.
 
->tabbedCode
+
 
 ````ASPNET
 			<asp:UpdatePanel ID="UpdatePanel1" runat="server">
@@ -119,7 +119,7 @@ __Example 3__: A Button with the __UseSubmitBehavior__ property set to __false__
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 ### asp:Button initiates the request
 
@@ -127,7 +127,7 @@ Use RadAjaxPanel/RadAjaxManager with asp:Button because they automatically set t
 
 __Example 4__: Editor content is properly saved after partial update with RadAjaxPanel triggered by а Button.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
@@ -146,7 +146,7 @@ __Example 4__: Editor content is properly saved after partial update with RadAja
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 ### asp:ImageButton initiates the request
 
@@ -154,7 +154,7 @@ Use the MS AJAX framework's [__doPostBack()](http://www.dotnetspider.com/resourc
 
 __Example 5__: Triggering partial page update by calling the __doPostBack method inside the client click method of an asp:ImageButton, which allows the editor content to be sent to the server.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
@@ -173,13 +173,13 @@ __Example 5__: Triggering partial page update by calling the __doPostBack method
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 When RadEditor and an ImageButton are used to update RadGrid fields, you can use the approach from __Example 5__. You should, however, properly reference the ImageButton from the code behind and handle its onclick event in order to call the __doPostBack() method (__Example 6__).
 
 __Example 6__: Calling the__doPostBack() method when image update button in RadGrid is clicked.
 
->tabbedCode
+
 
 ````ASPNET
 			<asp:UpdatePanel ID="Updatepanel2" runat="server">
@@ -278,7 +278,7 @@ __Example 6__: Calling the__doPostBack() method when image update button in RadG
 	        Return dt
 	    End Function
 ````
->end
+
 
 # See Also
 

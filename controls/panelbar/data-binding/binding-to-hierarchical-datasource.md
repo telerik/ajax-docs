@@ -81,7 +81,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 1. To set additional properties or overwrite already populated fields, use the __ItemDataBound__ event. The example below overwrites the __TooTip__ property with the Text value of the item and sets the __Value__ property to a concatenated string of [Text] + "_Value". 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -100,7 +100,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	    End Sub
 	
 ````
->end
+
 
 ## Binding to XmlDataSource
 
@@ -161,7 +161,7 @@ Consider the following example:
 
 1. As with the SiteMapDataSource example above, you can map additional properties using the [ItemDataBound event]({%slug panelbar/server-side-programming/itemdatabound%}): 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -189,7 +189,7 @@ Consider the following example:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

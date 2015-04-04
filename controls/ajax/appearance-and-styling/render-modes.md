@@ -65,7 +65,7 @@ __RenderMode__ - You can change the render mode of controls wrapped in RadAjaxPa
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -84,7 +84,7 @@ __RenderMode__ - You can change the render mode of controls wrapped in RadAjaxPa
 	    End Sub
 	
 ````
->end
+
 
 >caution Note that the following scenario is currently unsupported (including the properties for both the RadAjaxManager and per AjaxUpdatedControl):
 >

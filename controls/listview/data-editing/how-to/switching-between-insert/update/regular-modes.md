@@ -18,7 +18,7 @@ There are many cases where one would like to manipulate the RadListView insert/u
 
 One of the most common scenario is to display items in edit mode or the insert item at a time. With RadListView this is easy to achieve:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
@@ -126,7 +126,7 @@ One of the most common scenario is to display items in edit mode or the insert i
 	End Class
 
 
->end
+
 
 ## Open RadListView Insert form
 
@@ -148,7 +148,7 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void btnAddNewRecord_Click(object sender, EventArgs e)
@@ -238,7 +238,7 @@ There are three different approaches you can follow when you need to show the Ra
 	End Class
 
 
->end
+
 
 1. Calling the __ShowInsertItem()__ method
 
@@ -248,7 +248,7 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void btnAddNewRecord1_Click(object sender, EventArgs e)
@@ -332,13 +332,13 @@ There are three different approaches you can follow when you need to show the Ra
 	End Class
 
 
->end
+
 
 ## Close RadListView Insert form
 
 For closing the insert form you can use the below code:
 
->tabbedCode
+
 
 ````C#
 	    protected void btnCancelInsert_Click(object sender, EventArgs e)
@@ -420,7 +420,7 @@ For closing the insert form you can use the below code:
 	End Class
 
 
->end
+
 
 ## Put items in Edit mode
 
@@ -428,7 +428,7 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 
 1. Add the indexes of the items to the __EditIndexes__ collection on Page_Load (without additional rebind)
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -499,11 +499,11 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	End Class
 
 
->end
+
 
 1. Set the __Edit__ property of an item to true and Rebind()
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_PreRender(object sender, EventArgs e)
@@ -570,7 +570,7 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	End Class
 
 
->end
+
 
 ## Clear edited items
 
@@ -582,7 +582,7 @@ Another case is where you need to close all edited items on external button clic
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void btnClearEditedItems_Click(object sender, EventArgs e)
@@ -632,4 +632,4 @@ Another case is where you need to close all edited items on external button clic
 	End Class
 
 
->end
+

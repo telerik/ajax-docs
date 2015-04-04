@@ -62,7 +62,7 @@ These methods can be used with different overloads to best fit the application s
 
 __Example 1__: Importing DOCX content using a Stream
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1">
@@ -84,7 +84,7 @@ __Example 1__: Importing DOCX content using a Stream
 		End Using
 	End Sub
 ````
->end
+
 
 ## Defining Import Settings
 
@@ -138,7 +138,7 @@ Importing content in the Editor raises the __ImportContent__ event that can be h
 
 __Example 2__: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e) through the __OnImportContent__ event
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
@@ -201,7 +201,7 @@ __Example 2__: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-
 		End Sub
 	End Class
 ````
->end
+
 
 # See Also
 

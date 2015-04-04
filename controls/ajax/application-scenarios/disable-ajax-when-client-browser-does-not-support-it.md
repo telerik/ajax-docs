@@ -18,7 +18,7 @@ Telerik RadAjax controls won't work in browsers that do not support [XmlHttpRequ
 
 The .NET 2.0 framework provides the __SupportsXmlHttp__ property and it should be used to check if the browsersupports __XmlHttpRequest__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -30,7 +30,7 @@ The .NET 2.0 framework provides the __SupportsXmlHttp__ property and it should b
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 	
 ````
->end
+
 
 When this check is made in the __Page_Load__ event handler, it will make your page work as if it was in a standard postback scenario for those browsers.
 

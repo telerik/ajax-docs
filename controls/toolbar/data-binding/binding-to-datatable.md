@@ -20,7 +20,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 
 1. Create a function that dynamically creates the data source (in this case, a __DataTable__): 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -54,11 +54,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Function
 	
 ````
->end
+
 
 1. Set the __DataSource__ property of the toolbar to the __DataTable__. At the same time, use the __RadToolBar__ properties to specify the fields to use for the __Text__ and __Value__ properties of buttons. Finally, call the __DataBind__ method to bind the toolbar: 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -92,11 +92,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
->end
+
 
 1. Create a [ButtonDataBound event handler]({%slug toolbar/server-side-programming/buttondatabound%})to set additional properties on the buttons: 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -116,7 +116,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
->end
+
 
 ## Fetching the data from a separate database
 
@@ -126,7 +126,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -162,7 +162,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	    End Sub
 	    'Page_Load
 ````
->end
+
 
 # See Also
 

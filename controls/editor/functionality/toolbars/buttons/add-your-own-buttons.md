@@ -53,7 +53,7 @@ You can add any number of custom buttons using the sample code below. All you ne
 
 ## Setting the tools programmatically in the codebehind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -91,7 +91,7 @@ You can add any number of custom buttons using the sample code below. All you ne
 	        main.Tools.Add(custom3)
 	
 ````
->end
+
 
 ## Setting the tools by using Theme:
 

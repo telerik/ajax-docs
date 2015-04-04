@@ -28,7 +28,7 @@ Once in the second page, you can access the menu (or any other control) on the p
 
 
 
->tabbedCode
+
 
 ````C#
 	    public partial class CrossPageCS : XhtmlPage {
@@ -53,4 +53,4 @@ Once in the second page, you can access the menu (or any other control) on the p
 	        End Sub
 	    End Class
 ````
->end
+

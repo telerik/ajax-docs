@@ -68,7 +68,7 @@ Combining the client and server part completes the circle and separates logicall
 
 Below is a code extraction from the [ relevant online demo ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DragAndDrop/DefaultCS.aspx) in the RadGrid QSF:
 
->tabbedCode
+
 
 ````ASPNET
 	 <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -558,4 +558,4 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
 	        End Property
 	    End Class
 ````
->end
+

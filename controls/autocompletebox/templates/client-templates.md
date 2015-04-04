@@ -43,7 +43,7 @@ On the server, the template will be represented as a string property of the cont
 
 
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -121,7 +121,7 @@ On the server, the template will be represented as a string property of the cont
 	        Return data
 	    End Function
 ````
->end
+
 
 
 |  __RadAutoCompleteBox__ before a selection is made. |  __RadAutoCompleteBox__ after a selection is made. |

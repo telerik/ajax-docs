@@ -41,7 +41,7 @@ Each of the localization strings can be modified at runtime using the __Localiza
 
 Or via the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    RadColorPicker1.Localization.WebPaletteTabText = "Palette";
@@ -52,4 +52,4 @@ Or via the code-behind:
 	End Class
 
 
->end
+

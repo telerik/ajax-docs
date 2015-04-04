@@ -90,7 +90,7 @@ To bind databound UI controls via ModelBinding you need to set only the SelectMe
 
 The GetProducts method has following declaration:
 
->tabbedCode
+
 
 ````C#
 	    DataClassesDataContext context = new DataClassesDataContext();
@@ -148,13 +148,13 @@ The GetProducts method has following declaration:
 	End Class
 
 
->end
+
 
 ## Collapse imageModel Binding CRUD operations
 
 * __Editing__In order to have editing enabled into the data bound controls you need to set the __UpdateMethod__ of the corresponding control to the web form page’s method. The __UpdateMethod__ can have following signature:
 
->tabbedCode
+
 
 ````C#
 	
@@ -206,11 +206,11 @@ The GetProducts method has following declaration:
 	End Class
 
 
->endWhere the "ProductID" is one of the fields set as DataKeyNames of the corresponding bound control.
+Where the "ProductID" is one of the fields set as DataKeyNames of the corresponding bound control.
 
 * __Inserting__In order to have inserting enabled into the data bound controls you need to set the __InsertMethod__ property of the corresponding control to the name of the web form page’s insert method. The __InsertMethod__ can have following signatures:
 
->tabbedCode
+
 
 ````C#
 	    public void InsertProduct(Product p)
@@ -247,11 +247,11 @@ The GetProducts method has following declaration:
 	End Class
 
 
->end
+
 
 * __Deleting__In order to have deleting enabled into the data bound controls you need to set the __DeleteMethod__ property of the corresponding control to the name of the web form page’s delete method. The __DeleteMethod__ can have following signature:
 
->tabbedCode
+
 
 ````C#
 	    public void DeleteProduct(int ProductID)
@@ -276,7 +276,7 @@ The GetProducts method has following declaration:
 	End Class
 
 
->end
+
 
 ## ModelBinding Limitations
 

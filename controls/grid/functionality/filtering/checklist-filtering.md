@@ -32,7 +32,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 1. Using the newly exposed “__RadGrid1_FilterCheckListItemsRequested__” event. This way the ListBox control rendered in the filter template will be automatically populated. (See Ex.1)__Ex.1__
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
@@ -130,11 +130,11 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        Return myDataTable
 	    End Function
 ````
->end
+
 
 1. By providing a path to a __web service__ which will provide the data.You specify the path using the __CheckListWebServicePath__ property of RadGrid.	Beside that you may need to set the name of the method that will provide the actual data	to the ListBox control using the __FilterCheckListWebServiceMethod__ property if	you have more than one method defined in your web service.(See Ex.2)__Ex.2__
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
@@ -482,4 +482,4 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        End Class
 	    End Class
 ````
->end
+

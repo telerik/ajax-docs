@@ -32,7 +32,7 @@ You can use the __OnClientAppointmentEditing__ and __OnClientAppointmentInsertin
 
 1. Give the AJAX manager an __AjaxRequest__ event handler to rebind the scheduler after an edit:
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ You can use the __OnClientAppointmentEditing__ and __OnClientAppointmentInsertin
 	    End Sub
 	
 ````
->end
+
 
 1. Switch to Source view and add the following javascript functions to your page:
 

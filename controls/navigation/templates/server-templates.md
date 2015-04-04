@@ -30,7 +30,7 @@ The following example (Figure 1.) shows a navigation that uses a global template
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -222,7 +222,7 @@ The following example (Figure 1.) shows a navigation that uses a global template
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

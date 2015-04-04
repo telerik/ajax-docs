@@ -24,7 +24,7 @@ The steps to implement a custom storage provider are:
 
 1. Implement __SaveStateToStorage__ and __LoadStateFromStorage__ methods.
 
->tabbedCode
+
 
 ````C#
 	    public class CustomStorageProvider : IStateStorageProvider
@@ -52,11 +52,11 @@ The steps to implement a custom storage provider are:
 	        End Function
 	    End Class
 ````
->end
+
 
 1. Set the storage provider used by __RadPersistenceManager__ for storing the serialized control state.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -69,11 +69,11 @@ The steps to implement a custom storage provider are:
 	        RadPersisterManager1.StorageProvider = New CustomStorageProvider()
 	    End Sub
 ````
->end
+
 
 The example below demonstrates how to store the state of the __RadGrid__ directly in the database.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
@@ -158,9 +158,9 @@ The example below demonstrates how to store the state of the __RadGrid__ directl
 	        RadGrid1.Rebind()
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    public class DBStorageProvider : IStateStorageProvider
@@ -256,4 +256,4 @@ The example below demonstrates how to store the state of the __RadGrid__ directl
 ````
 
 
->end
+

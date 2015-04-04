@@ -30,7 +30,7 @@ Use a __TabDataBound__ event handler to initialize the properties of tabs to ref
 
 
 
->tabbedCode
+
 
 ````C#
 	   
@@ -53,4 +53,4 @@ Use a __TabDataBound__ event handler to initialize the properties of tabs to ref
 	
 				
 ````
->end
+

@@ -41,7 +41,7 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 
 ![RadTreeView Server-Side Load on Demand](images/treeview_loadondemandserverside.png)
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -157,4 +157,4 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	
 	
 ````
->end
+

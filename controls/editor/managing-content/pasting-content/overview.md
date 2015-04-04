@@ -65,7 +65,7 @@ __Example 1__: Keeping the default MS Word pasting behavior but removing the con
 
 __Example 2__: Keeping the default MS Word pasting behavior but removing the confirmation message via the code behind.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor ID="RadEditor1" runat="server">
@@ -86,7 +86,7 @@ __Example 2__: Keeping the default MS Word pasting behavior but removing the con
 	
 	
 ````
->end
+
 
 ### Using the Built-in Clipboard Tools
 

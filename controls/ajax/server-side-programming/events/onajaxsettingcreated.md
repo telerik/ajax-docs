@@ -33,7 +33,7 @@ arguments:
 
 ## Example
 
->tabbedCode
+
 
 ````C#
 	    protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCreatedEventArgs e)
@@ -49,4 +49,4 @@ arguments:
 	    End Sub
 	
 ````
->end
+

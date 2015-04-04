@@ -20,7 +20,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 
 1. Create a function that dynamically creates the data source (in this case, a __DataTable__):
 
->tabbedCode
+
 
 ````C#
 	
@@ -66,11 +66,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	
 	
 ````
->end
+
 
 1. Set the __DataSource__ property of the tab strip to the DataTable. At the same time, use the __RadTabStrip__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of tabs. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the tab strip:
 
->tabbedCode
+
 
 ````C#
 	
@@ -110,11 +110,11 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	
 	
 ````
->end
+
 
 1. Create an [TabDataBound event handler]({%slug tabstrip/server-side-programming/tabdatabound%}) to set additional properties on the tabs:
 
->tabbedCode
+
 
 ````C#
 	
@@ -132,7 +132,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	End Sub 
 	
 ````
->end
+
 
 ## Fetching the data from a separate database
 
@@ -144,7 +144,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -186,7 +186,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	End Sub 'Page_Load 
 	
 ````
->end
+
 
 >caution The __ParentID__ of the root tabs must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the __DataTable__ , or use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblData

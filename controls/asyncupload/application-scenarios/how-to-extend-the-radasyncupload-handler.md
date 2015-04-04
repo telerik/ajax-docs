@@ -24,7 +24,7 @@ RadAsyncUpload's file handler can be inherited and extended to support custom fu
 
 One can override the Process method which has the following signature:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -37,7 +37,7 @@ One can override the Process method which has the following signature:
 	    End Function
 	
 ````
->end
+
 
 UploadedFile is the file that is currently processed.
 
@@ -57,7 +57,7 @@ UploadedFile is the file that is currently processed.
 
 As you may have noticed, the return type of the method is of type interface - IAsyncUploadResult. The reason for this is that if one want toreturn custom information they can create class that implements IAsyncUploadResult, populate it with the __CreateUploadResult<T>__method, set any custom added properties and then return it. The returned class is serialized and sent to the server. This means that one will be able to access it in the FileUploaded server-side event. Example:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -75,13 +75,13 @@ As you may have noticed, the return type of the method is of type interface - IA
 	
 	
 ````
->end
+
 
 The other way around is also possible, to sent information from the page to the handler. The approach is pretty much the same, object that implements theIAsyncUploadConfiguration should be set to the RadAsyncUpload's UploadConfiguration property. The config object can be obtained using the __CreateDefaultUploadConfiguration<T>__ method that is provided by RadAsyncUpload. The object passed to this generic method should implement the IAsyncUploadConfiguration interface. After that, the object is serialized and sent to the handler with each request. Example:
 
 
 
->tabbedCode
+
 
 ````C#
 	         protected void Page_Load(object sender, EventArgs e) 
@@ -107,13 +107,13 @@ The other way around is also possible, to sent information from the page to the 
 	        RadAsyncUpload1.UploadConfiguration = config
 	    End Sub
 ````
->end
+
 
 Then, in the handler, the sent information can be obtained in the following way:
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -145,7 +145,7 @@ Then, in the handler, the sent information can be obtained in the following way:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

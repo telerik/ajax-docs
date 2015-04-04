@@ -31,7 +31,7 @@ You can select the behavior of IE browser and apply it to the rest (__Example 1_
 
 __Example 1__: Make the RadEditor tab key behavior from IE (__Table 1__) apply to all browsers.
 
->tabbedCode
+
 
 ````JavaScript
 	    	function OnClientLoad(editor, args) {
@@ -54,7 +54,7 @@ __Example 1__: Make the RadEditor tab key behavior from IE (__Table 1__) apply t
 				</Content>
 			</telerik:RadEditor>
 ````
->end
+
 
 # See Also
 

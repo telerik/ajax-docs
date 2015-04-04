@@ -102,7 +102,7 @@ There are cases when you may want to access the controls inside your __PagerTemp
 
 In the example below, The __ItemCreated__ event handler is used to change the __Text,____CommandName__ and __CommandArgument__ properties for __LinkButton__ controls inside the __PagerTemplate__ object:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
@@ -194,7 +194,7 @@ In the example below, The __ItemCreated__ event handler is used to change the __
 	End Class
 
 
->end
+
 
 ## Displaying different controls in a PagerTemplate based on position
 
@@ -202,7 +202,7 @@ When the __PagerStyle.Position__ property is set to "TopAndBottom", your page ap
 
 The following example illustrates this technique:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
@@ -293,13 +293,13 @@ The following example illustrates this technique:
 	End Class
 
 
->end
+
 
 ## Defining PagerTemplate programmatically
 
 To assign the __PagerTemplate__ for a grid in the code-behind, you need to design a custom class that implements the __ITemplate__ interface This class holds the controls for the template:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
@@ -362,11 +362,11 @@ To assign the __PagerTemplate__ for a grid in the code-behind, you need to desig
 	End Class
 
 
->end
+
 
 In the __Page_Init__ event handler, you can assign an instance of your template class to the __PagerTemplate__ property of the desired __GridTableView__.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -439,7 +439,7 @@ In the __Page_Init__ event handler, you can assign an instance of your template 
 	End Class
 
 
->end
+
 
 For detailed information about how to create templates programmatically, see the following __MSDN__ article:
 

@@ -24,7 +24,7 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="ScriptManager1" runat="server" />
@@ -196,6 +196,6 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 	        End Select
 	    End Sub
 ````
->end
+
 
 You can see this example online [here](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndMenu/DefaultCS.aspx?product=grid).

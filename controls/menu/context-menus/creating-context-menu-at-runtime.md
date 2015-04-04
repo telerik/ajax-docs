@@ -27,7 +27,7 @@ The example below shows how to dynamically create ContextMenu and apply it to a 
 
 
 
->tabbedCode
+
 
 ````C#
 	        RadContextMenu rcm = new RadContextMenu();
@@ -69,4 +69,4 @@ The example below shows how to dynamically create ContextMenu and apply it to a 
 	        form1.Controls.Add(rcm)
 	        form1.Controls.Add(RadTextBox1)
 ````
->end
+

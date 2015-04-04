@@ -35,7 +35,7 @@ The Real Font Sizes dropdown displays a predefined set of font sizes in pixels a
 
 Use the RealFontSizes collection __Add()__method to include new items in the list.
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 	        RadEditor1.RealFontSizes.Add("22px")
 	
 ````
->end
+
 
 ## Using the ToolsFile
 

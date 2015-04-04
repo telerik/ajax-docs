@@ -22,7 +22,7 @@ The following example demonstrates binding to a generic list of objects, which r
 
 1. Move to the code-behind page for your web page, and add two lines to the __using__ section (C#) or __Imports__ section (VB).
 
->tabbedCode
+
 
 ````C#
 	     
@@ -37,11 +37,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	Imports System.Collections.Generic
 	
 ````
->end
+
 
 1. In the definition of the class for your Web page, add two class definitions, one to hold information aboutappointments, and another to hold information about the custom resource (rooms):
 
->tabbedCode
+
 
 ````C#
 	     class AppointmentInfo
@@ -252,11 +252,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	    End Class
 	
 ````
->end
+
 
 1. Add two private properties to the class for your Web page whose values are the current listof appointments and the list of rooms. The appointments list needs to persist, so we save thatone in the session state:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -314,11 +314,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	        End Get
 	    End Property
 ````
->end
+
 
 1. Add the __FindById__ helper function to the class for your Web page:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -346,11 +346,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	        Return Nothing
 	    End Function
 ````
->end
+
 
 1. In the Page_Load event handler, add code to initialize the RadScheduler so that it can read theappointment information, define the custom resource type for rooms, and set the DataSource propertyto bind the scheduler to the data.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -399,13 +399,13 @@ The following example demonstrates binding to a generic list of objects, which r
 	        RadScheduler1.DataSource = Appointments
 	    End Sub
 ````
->end
+
 
 1. Return to the designer for Default.aspx and select the __RadScheduler__ control.
 
 1. In the properties pane, double-click on the __AppointmentInsert__ event and add the following event handler:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -425,11 +425,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	    End Sub
 	
 ````
->end
+
 
 1. Double-click on the __AppointmentUpdate__ event and add the following event handler:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -451,11 +451,11 @@ The following example demonstrates binding to a generic list of objects, which r
 	        ai.CopyInfo(e.ModifiedAppointment)
 	    End Sub
 ````
->end
+
 
 1. Double-click on the AppointmentDelete event and add the following event handler:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -474,7 +474,7 @@ The following example demonstrates binding to a generic list of objects, which r
 	        Appointments.Remove(FindById(e.Appointment.ID.ToString()))
 	    End Sub
 ````
->end
+
 
 You have now bound your scheduler using the __DataSource__ property. Run the application andnote the custom resource is available in the edit form.
 

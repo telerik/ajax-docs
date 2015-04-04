@@ -58,7 +58,7 @@ __Example 1__: A Line chart setup that is bound to a simple array of doubles in 
 
 __Example 2__: Data binding the Line chart in __Example 1__ to an array of doubles.
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, System.EventArgs e)
@@ -87,7 +87,7 @@ __Example 2__: Data binding the Line chart in __Example 1__ to an array of doubl
 			RadHtmlChart2.DataBind()
 		End Sub
 ````
->end
+
 
 ## Binding to a Generic List of Objects
 
@@ -117,7 +117,7 @@ __Example 3__: A Pie chart setup that is bound to a list of custom objects (i.e.
 
 __Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom objects (i.e., the class __Browser__, declared in __Example 5__).
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, System.EventArgs e)
@@ -144,13 +144,13 @@ __Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom ob
 			RadHtmlChart1.DataBind()
 		End Sub
 ````
->end
+
 
 __Example 5__ shows how you can find the declaration of the custom class __Browser__that is used for populating the list:
 
 __Example 5__: The declaration of the custom class __Browser__ used for populating thelist in __Example 4__ that is passed as a data source to the Pie chart from __Example 3__.
 
->tabbedCode
+
 
 ````C#
 		public class Browser
@@ -218,7 +218,7 @@ __Example 5__: The declaration of the custom class __Browser__ used for populati
 			End Property
 		End Class
 ````
->end
+
 
 # See Also
 

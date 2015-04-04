@@ -40,7 +40,7 @@ By default, windows are not visible on the page, and appear centered on the scre
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -55,7 +55,7 @@ By default, windows are not visible on the page, and appear centered on the scre
 	        RadWindow2.OffsetElementID = ServerButton.ClientID
 	    End Sub
 ````
->end
+
 
 # See Also
 

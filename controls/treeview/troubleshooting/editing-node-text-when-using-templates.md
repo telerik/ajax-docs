@@ -33,7 +33,7 @@ This example shows a TreeView that is bound to a database. It uses Templates for
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -123,4 +123,4 @@ This example shows a TreeView that is bound to a database. It uses Templates for
 	        RadTreeView1.ExpandAllNodes()
 	    End Sub
 ````
->end
+

@@ -16,7 +16,7 @@ position: 2
 
 __RadNotification__ offers a built-in support for gathering data from a WebService. The path to the web service and the name of the service method are specified in the __WebMethodPath__ and __WebMethodName__ properties. In order to use the integrated support, the web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	    [ScriptService]
@@ -98,7 +98,7 @@ __RadNotification__ offers a built-in support for gathering data from a WebServi
 	End Class
 
 
->end
+
 
 An example method in the WebService:
 
@@ -112,7 +112,7 @@ An example method in the WebService:
 
 
 
->tabbedCode
+
 
 ````C#
 	    [WebMethod]
@@ -209,4 +209,4 @@ An example method in the WebService:
 	End Class
 
 
->end
+

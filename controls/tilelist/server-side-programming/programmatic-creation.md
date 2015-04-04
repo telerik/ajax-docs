@@ -31,7 +31,7 @@ The sample code below illustrates a possible approach to creating and defining t
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -300,7 +300,7 @@ The sample code below illustrates a possible approach to creating and defining t
 		End Sub
 	
 ````
->end
+
 
 # See Also
 

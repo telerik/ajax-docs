@@ -28,7 +28,7 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 
 1. Rebind the listview at the end of the PreRender event handler.
 
->tabbedCode
+
 
 ````C#
 	<telerik:RadFilter ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
@@ -288,9 +288,9 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	    </SelectedItemTemplate>
 	</telerik:RadListView>
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    private ArrayList SelectedItems
@@ -411,4 +411,4 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	        End If
 	    End Sub
 ````
->end
+

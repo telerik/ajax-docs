@@ -20,7 +20,7 @@ The problem with loading a user control at a later time (for example inside the 
 
 In a nutshell - you need to recreate (in the page load event) the state of the page exactly as it was the last time you output it to the browser. In this way, user controls exist and ASP.NET can fire their events appropriately. This involves reloading a user control that was loaded earlier. You must ensure that it gets the same ID, name, and so on:
 
->tabbedCode
+
 
 ````C#
 	
@@ -44,13 +44,13 @@ In a nutshell - you need to recreate (in the page load event) the state of the p
 	        End If
 	    End Sub
 ````
->end
+
 
 Note that the example above checks whether the control already exists. This is because when using the __Page_Load__ event, you only need to load the user control the first time the __Page_Load__ event occurs after the control is added.
 
 As an alternate approach, you can load user controls in the __Page_Init__ event handler rather than the __Page_Load__ event handler. When you do this, you must load the user control every time the event occurs (not just the first time):
 
->tabbedCode
+
 
 ````C#
 	
@@ -71,6 +71,6 @@ As an alternate approach, you can load user controls in the __Page_Init__ event 
 	        Me.Panel1.Controls.Add(myControl)
 	    End Sub
 ````
->end
+
 
 For more information on loading user controls dynamically, see [Load UserControls](http://www.telerik.com/help/aspnet-ajax/ajxLoadUserControls.html).

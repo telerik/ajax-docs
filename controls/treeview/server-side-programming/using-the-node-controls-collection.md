@@ -20,7 +20,7 @@ You can add controls directly to the __Controls__ collection of a RadTreeNode. T
 
 ![RadTreeView Node Controls Collection](images/treeview_servernodecontrols.png)
 
->tabbedCode
+
 
 ````C#
 	RadTreeNode root1 = new RadTreeNode("root1");
@@ -54,4 +54,4 @@ You can add controls directly to the __Controls__ collection of a RadTreeNode. T
 	    root3.Controls.Add(button)
 	    RadTreeView2.Nodes.Add(root3) 
 ````
->end
+

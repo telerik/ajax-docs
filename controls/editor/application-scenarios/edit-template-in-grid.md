@@ -81,7 +81,7 @@ In a new AJAX Enabled Web Application:
 
 1. In the code-behind, create helper methods to connect to the Email table and populate the grid:
 
->tabbedCode
+
 
 ````C#
 	
@@ -125,11 +125,11 @@ In a new AJAX Enabled Web Application:
 	    End Sub
 	
 ````
->end
+
 
 1. Create event handlers for the grid Update, Edit and Cancel events. Also handle the Page_Load event to initially populate the grid. Replace the event handler code with the example below:
 
->tabbedCode
+
 
 ````C#
 	
@@ -197,7 +197,7 @@ In a new AJAX Enabled Web Application:
 	        ReadAllRecords()
 	    End Sub
 ````
->end
+
 
 # See Also
 

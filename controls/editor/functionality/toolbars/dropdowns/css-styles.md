@@ -59,7 +59,7 @@ In the RadEditor declaration, add __EditorCssClass__ elements to __CssClasses__.
 
 Use the Add() method to include classes in the CssClasses collection. In the example below, only the a.link and .img styles will be listed in the dropdown:
 
->tabbedCode
+
 
 ````C#
 	
@@ -73,7 +73,7 @@ Use the Add() method to include classes in the CssClasses collection. In the exa
 	        RadEditor1.CssClasses.Add("Images Class", ".img")
 	
 ````
->end
+
 
 >caution Make sure you specify the exact name of the class (i.e. " __a.link__ " - not "a" or "link"; " __.img__ " - not "img").
 >

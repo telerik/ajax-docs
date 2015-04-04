@@ -97,7 +97,7 @@ An <ItemTemplate> section is added to the __RadListBox__ declaration. The image 
 
 Before the template can use the ListBox item properties to bind the elements in the template, the application needs to explicitly bind the items by calling the __DataBind__ method of RadListBox:
 
->tabbedCode
+
 
 ````C#
 	
@@ -121,7 +121,7 @@ Before the template can use the ListBox item properties to bind the elements in 
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

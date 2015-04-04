@@ -29,7 +29,7 @@ The __Example 1__ below demonstrates how to setup a single click __RadButton__.
 
 __Example 1__: The code that enables the single click functionality in __RadButton__ from __Figure 1__.
 
->tabbedCode
+
 
 ````ASPNET
 			<asp:TextBox ID="txtName" runat="server" />
@@ -53,7 +53,7 @@ __Example 1__: The code that enables the single click functionality in __RadButt
 			lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text)
 		End Sub
 ````
->end
+
 
 The submitted text in processed on the server-side. Note that the method __System.Threading.Thread.Sleep__	is used so that the disabled button can be examined after clicking it.
 

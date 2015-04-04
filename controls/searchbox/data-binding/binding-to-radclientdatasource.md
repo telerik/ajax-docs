@@ -48,7 +48,7 @@ The following application scenario shows an example of RadSearchBox bound to Rad
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -120,4 +120,4 @@ The following application scenario shows an example of RadSearchBox bound to Rad
 	End Class
 
 
->end
+

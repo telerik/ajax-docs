@@ -30,7 +30,7 @@ First option is to set the __AllowNaturalSort__ to True within the definition of
 
 Second option is available only when the control is [ bound to an OLAP source]({%slug pivotgrid/data-binding/radpivotgrid-olap-support%}). __RadPivotGrid__ now provides a new __PrepareDescriptionForField__ event handler, which you can use to set __OlapGroupComparer__ for the description of each field that you want to sort naturally. This will enable you to sort numeric fields naturally as numbers instead of strings.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadPivotGrid1_PrepareDescriptionForField(object sender, PivotGridPrepareDescriptionForFieldEventArgs e)
@@ -67,7 +67,7 @@ Second option is available only when the control is [ bound to an OLAP source]({
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Sort Expressions
 

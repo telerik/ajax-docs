@@ -129,7 +129,7 @@ The following example shows how to retrieve the values the user entered for the 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -156,7 +156,7 @@ The following example shows how to retrieve the values the user entered for the 
 	    End Sub
 	
 ````
->end
+
 
 # See Also[](FC66018F-9560-4F29-A685-C6DC5D9BF5C9)
 

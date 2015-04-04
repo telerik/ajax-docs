@@ -35,7 +35,7 @@ Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -96,7 +96,7 @@ Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 	    End Class
 	
 ````
->end
+
 
 # See Also
 

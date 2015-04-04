@@ -30,7 +30,7 @@ __AppointmentCancelingEdit__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,4 +54,4 @@ __AppointmentCancelingEdit__ has two parameters:
 	    End Sub
 	
 ````
->end
+

@@ -28,7 +28,7 @@ The [following example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/I
 
 This is a typical example for "File browser" type of application for web.![](images/grdFileExplorer_thumb.PNG)
 
->tabbedCode
+
 
 ````JavaScript
 	    var loadingPanel = null;
@@ -297,4 +297,4 @@ This is a typical example for "File browser" type of application for web.![](ima
 	        Return image
 	    End Function
 ````
->end
+

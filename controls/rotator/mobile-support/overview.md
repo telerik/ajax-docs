@@ -34,7 +34,7 @@ Example 1: __RadRotator__ with 100% width.
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -58,7 +58,7 @@ Example 1: __RadRotator__ with 100% width.
 	End Class
 
 
->end
+
 
 >note When you set the width of __RadRotator__ in percentage the number of items in its view port cannot be controlled, because the width will change dynamically, however the items' width is fixed. As a result the first and last item in the view port may be partially visible.
 >

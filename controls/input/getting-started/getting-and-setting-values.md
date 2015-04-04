@@ -46,7 +46,7 @@ On the server side, the __RadTextBox__ control uses the __Text__ property to get
 
 ## Server-side
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -62,7 +62,7 @@ On the server side, the __RadTextBox__ control uses the __Text__ property to get
 	    End Sub
 	
 ````
->end
+
 
 ## Client-side
 
@@ -84,7 +84,7 @@ The __RadNumericTextBox__ control uses the __Value__ property to get or set its 
 
 ## Server-side
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -100,7 +100,7 @@ The __RadNumericTextBox__ control uses the __Value__ property to get or set its 
 	    End Sub
 	
 ````
->end
+
 
 ## Client-side
 
@@ -123,7 +123,7 @@ The __RadDateInput__ control uses the __SelectedDate__ property to get or set it
 
 ## Server-side
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -139,7 +139,7 @@ The __RadDateInput__ control uses the __SelectedDate__ property to get or set it
 	    End Sub
 	
 ````
->end
+
 
 ## Client-side
 
@@ -182,7 +182,7 @@ The following code examples show how to read the value of one __RadMaskedTextBox
 
 ## Server-side
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -198,7 +198,7 @@ The following code examples show how to read the value of one __RadMaskedTextBox
 	    End Sub
 	
 ````
->end
+
 
 ## Client-side
 

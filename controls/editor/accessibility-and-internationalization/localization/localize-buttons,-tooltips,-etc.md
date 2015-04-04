@@ -43,7 +43,7 @@ The tools can be defined through the ToolsFile.xml, added declaratively or progr
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,7 +67,7 @@ The tools can be defined through the ToolsFile.xml, added declaratively or progr
 	        main.Tools.Add(custom1)
 	
 ````
->end
+
 
 When you run the application, the new button will display with the string from the resource file __Value__ column for that tool:
 >caption 

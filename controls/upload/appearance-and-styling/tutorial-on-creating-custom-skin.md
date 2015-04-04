@@ -111,7 +111,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 * Assign the following __Click__ event handler, so that you can easily see the progress dialog:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -135,7 +135,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	
 	
 ````
->end
+
 
 1. Run the application. Select a file and click the submit button. The new "Green" skin should look just like the default skin:![Default Skin](images/upload_default_skin.png)
 

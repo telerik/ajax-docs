@@ -46,7 +46,7 @@ RadSearchBox provides support for client templates. The template itself contains
 
 
 
->tabbedCode
+
 
 ````C#
 	    [WebMethod]
@@ -112,4 +112,4 @@ RadSearchBox provides support for client templates. The template itself contains
 	    End Function
 	
 ````
->end
+

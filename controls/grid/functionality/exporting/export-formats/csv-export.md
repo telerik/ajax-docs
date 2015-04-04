@@ -107,7 +107,7 @@ Along with __Encoding__ property we introduce a possibility to disable the __BOM
 
 Since *CSV* is text-based format it doesn't support images or complex structures like tables.It is possible to replace such content manually by removing the unwanted objects before exporting or on__ItemDataBound__/__ItemCreated__events:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:GridTemplateColumn UniqueName="MyColumn" HeaderText="MyColumn">
@@ -138,11 +138,11 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
->end
+
 
 This approach won't work if your __RadGrid__rebinds before export. In such cases (for instance, whenusing __IgnorePaging="true"__) the developer should put the code on__ItemCreated__/__ItemDataBound__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -178,7 +178,7 @@ This approach won't work if your __RadGrid__rebinds before export. In such cases
 	        End If
 	    End Sub
 ````
->end
+
 
 >note Note that you don't need to set __isExport="false"__ explicitly because the changes we perform will affectonly the response streamed to the client. In other words, the user won't see any change to the actual page.
 >
@@ -188,7 +188,7 @@ This approach won't work if your __RadGrid__rebinds before export. In such cases
 
 You can hide the unselected rows and export the rest in a manner similar to the example above. This approach is applicable alsofor *HTML Excel/Word* and *PDF.*
 
->tabbedCode
+
 
 ````C#
 	
@@ -207,13 +207,13 @@ You can hide the unselected rows and export the rest in a manner similar to the 
 	        Next RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
->end
+
 
 ## Hiding columns
 
 You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
 
->tabbedCode
+
 
 ````C#
 	
@@ -230,7 +230,7 @@ You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
->end
+
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
 >
@@ -242,7 +242,7 @@ There are two common ways to hide an item.
 
 * __Directly__ - in the button handler when exporting from a button or on __ItemCommand__ when exporting from the built-in buttons
 
->tabbedCode
+
 
 ````C#
 	
@@ -260,9 +260,9 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	
@@ -279,11 +279,11 @@ There are two common ways to hide an item.
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
->end
+
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when__IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
 
->tabbedCode
+
 
 ````C#
 	
@@ -314,7 +314,7 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## CSV Export Q & A
 

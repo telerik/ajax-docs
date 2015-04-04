@@ -47,7 +47,7 @@ To allow users to change the grouping by dragging column headers, set the __Clie
 
 Alternatively, you can set the __AllowDragToGroup__ property at runtime in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	        RadGrid RadGrid1 = new RadGrid();
@@ -57,7 +57,7 @@ Alternatively, you can set the __AllowDragToGroup__ property at runtime in the c
 	    Dim RadGrid1 As RadGrid = New RadGrid
 	    RadGrid1.ClientSettings.AllowDragToGroup = true			
 ````
->end
+
 
 ## GridGroupSplitterColumn
 

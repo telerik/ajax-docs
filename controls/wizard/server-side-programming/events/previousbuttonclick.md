@@ -34,7 +34,7 @@ Use the __OnPreviousButtonClick__ event handler to respond when a the previous b
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_PreviousButtonClick(object sender, WizardEventArgs e)
@@ -68,4 +68,4 @@ Use the __OnPreviousButtonClick__ event handler to respond when a the previous b
 	End Class
 
 
->end
+

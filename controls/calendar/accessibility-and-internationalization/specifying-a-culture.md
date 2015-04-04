@@ -102,7 +102,7 @@ You can assign the culture of a __RadCalendar__ control declaratively in the sou
 
 You can assign a culture property in the code-behind as well:
 
->tabbedCode
+
 
 ````C#
 	
@@ -123,7 +123,7 @@ You can assign a culture property in the code-behind as well:
 	        RadDateTimePicker.Culture = RadDateTimePicker.Culture
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -33,7 +33,7 @@ When using the load-on-demand mechanism with __ItemsRequested__ event you should
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,7 +54,7 @@ When using the load-on-demand mechanism with __ItemsRequested__ event you should
 	    End Sub
 	
 ````
->end
+
 
 __ShowMoreResultsBox__ and __EnableVirtualScrolling__
 

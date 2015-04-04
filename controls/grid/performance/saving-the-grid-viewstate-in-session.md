@@ -18,7 +18,7 @@ There are cases in which you may want to reduce the grid ViewState though you ha
 
 Still, a possible solution for ViewState reduction is to relocate it in a Session variable. The code below illustrates how to apply this technique under ASP.NET 2.x or 3.x:__ASP.NET 2.x/3.x:__
 
->tabbedCode
+
 
 ````C#
 	    PageStatePersister _pers;
@@ -47,7 +47,7 @@ Still, a possible solution for ViewState reduction is to relocate it in a Sessio
 	    End Property
 	
 ````
->end
+
 
 Further information on this subject can be found in the MSDN articles linked below: [http://msdn.microsoft.com/en-us/library/aa479403.aspx](http://msdn.microsoft.com/en-us/library/aa479403.aspx)
 

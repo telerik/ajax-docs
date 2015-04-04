@@ -30,7 +30,7 @@ To solve the problem you need to hook on the __OnClientNodeDropping__ event and 
 
 You can get the ID of the HTML element in the __NodeDrop__ event handler by using the event arguments:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -47,4 +47,4 @@ You can get the ID of the HTML element in the __NodeDrop__ event handler by usin
 	    End Sub
 	
 ````
->end
+

@@ -35,7 +35,7 @@ You can repopulate the Font Size dropdown with the sizes from 1 to 7 (these are 
 
 Use the FontSizes collection __Add()__method to include new FontSizes in the list.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -51,7 +51,7 @@ Use the FontSizes collection __Add()__method to include new FontSizes in the lis
 	        RadEditor1.FontSizes.Add("5")
 	
 ````
->end
+
 
 ## Using ToolsFile.xml
 

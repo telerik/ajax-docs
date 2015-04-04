@@ -28,7 +28,7 @@ To do this,
 
 1. Create a handler for the grid's __ItemEvent__ event. When the event is "GridInitializePagerItem", cancel the default pager initialization and add an instance of your own class to the __Controls__ collection of the __PagerContentCell__.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
@@ -157,4 +157,4 @@ To do this,
 	
 	
 ````
->end
+

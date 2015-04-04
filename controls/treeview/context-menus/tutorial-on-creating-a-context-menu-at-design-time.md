@@ -50,7 +50,7 @@ The following tutorial demonstrates how to build and attach Context Menus to Rad
 
 1. 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -93,7 +93,7 @@ The following tutorial demonstrates how to build and attach Context Menus to Rad
 	    End Namespace
 	
 ````
->end
+
 
 1. In the Properties Window set the RadTreeView __OnClientContextMenuItemClicking__ property to "clientContextMenuItemClicking".
 

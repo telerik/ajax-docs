@@ -52,7 +52,7 @@ Here is a sample code demonstrating how this event can be used:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -85,4 +85,4 @@ Here is a sample code demonstrating how this event can be used:
 	    End Sub
 	   
 ````
->end
+

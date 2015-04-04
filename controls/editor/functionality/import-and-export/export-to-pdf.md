@@ -48,7 +48,7 @@ There is an additional sub-category (__Pdf__) for the __ExportSettings__ dedicat
 
 __Example 1__: Configure PDF export settings - title, author, header and footer.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor2" ContentFilters="DefaultFilters, PdfExportFilter">
@@ -88,7 +88,7 @@ __Example 1__: Configure PDF export settings - title, author, header and footer.
 	    End Sub
 	
 ````
->end
+
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
@@ -106,7 +106,7 @@ It is possible to silently export the content as PDF on the server via the __OnE
 
 Below you can find an example demonstrating how to export the editor'scontent as PDF on the server using the __OnExportContent__ event of __Telerik Editor__.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
@@ -173,13 +173,13 @@ Below you can find an example demonstrating how to export the editor'scontent as
 		End Sub
 	End Class
 ````
->end
+
 
 ## Using an External HTML to PDF Conversion Library
 
 It is possible to use an external HTML to PDF conversion library for the Export to PDF feature of RadEditor.In order to use a custom one, the __RadEditorExportTemplate__ abstract class, defined in the __Telerik.Web.UI.Editor.Export__	namespace of the Telerik.Web.UI assembly has to be implemented. Below is an example demonstrating the class constructor and its methods that wouldneed to be overridden.
 
->tabbedCode
+
 
 ````C#
 		public abstract class RadEditorExportTemplate
@@ -342,11 +342,11 @@ It is possible to use an external HTML to PDF conversion library for the Export 
 		End Class
 	
 ````
->end
+
 
 Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the__Page_Load__ event handler, for example, in the following way.
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -361,7 +361,7 @@ Next, an instance of the Custom Pdf Export Template needs to be passed to the Ed
 			'call RadEditor1.ExportToPdf() to export the Editor's content
 		End Sub
 ````
->end
+
 
 Last, but not least, by calling the __ExportToPDF()__ the content will be exported using the newly defined	library instead of the default one.
 

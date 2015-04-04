@@ -34,7 +34,7 @@ In the aforementioned demo, we use a custom __CommandArgument__to distinguish th
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_Sorting(object sender, RadListViewSortEventArgs e)
@@ -74,4 +74,4 @@ In the aforementioned demo, we use a custom __CommandArgument__to distinguish th
 	        RadListView1.Rebind()
 	    End Sub
 ````
->end
+

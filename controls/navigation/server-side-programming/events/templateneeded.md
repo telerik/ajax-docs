@@ -29,7 +29,7 @@ The NodeDataBound event handler receives two arguments:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadNavigation1_TemplateNeeded(object sender, NavigationNodeEventArguments e)
@@ -42,7 +42,7 @@ The NodeDataBound event handler receives two arguments:
 	        e.Node.NodeTemplate = New LabelDataBoundTemplate()
 	    End Sub
 ````
->end
+
 
 # See Also
 

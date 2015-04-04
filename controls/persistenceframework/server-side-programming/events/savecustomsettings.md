@@ -31,7 +31,7 @@ The example below demonstrates how to store CustomSettings from a hidden field:
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void persistenceMngr_SaveCustomSettings(object sender, Telerik.Web.UI.PersistenceManagerSaveStateEventArgs e)
@@ -60,7 +60,7 @@ The example below demonstrates how to store CustomSettings from a hidden field:
 			persistenceMngr.SaveState()
 		End Sub
 ````
->end
+
 
 # See Also
 

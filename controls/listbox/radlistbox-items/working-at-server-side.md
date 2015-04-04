@@ -18,7 +18,7 @@ Using the server-side API, you can programmatically find, add, remove, disable, 
 
 Use the __Add__ method of the __RadListBoxItemCollection__ object to add items programmatically:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -58,13 +58,13 @@ Use the __Add__ method of the __RadListBoxItemCollection__ object to add items p
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Removing items
 
 Use the __Remove__ method of the __RadListBoxItemCollection__ object to remove items:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -78,13 +78,13 @@ Use the __Remove__ method of the __RadListBoxItemCollection__ object to remove i
 	    RadListBox1.Items.Remove(itemToRemove) 
 	
 ````
->end
+
 
 ## Sorting items
 
 Use the __SortItems__ method of __RadListBox__ object to sort items:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -98,11 +98,11 @@ Use the __SortItems__ method of __RadListBox__ object to sort items:
 	    RadListBox1.SortItems()
 	
 ````
->end
+
 
 You can also use the __Sort__ method of the __RadListBoxItemCollection__ object to sort items:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -114,11 +114,11 @@ You can also use the __Sort__ method of the __RadListBoxItemCollection__ object 
 	    RadListBox1.Items.Sort()
 	
 ````
->end
+
 
 You can pass an object of type IComparer as an argument of the function:
 
->tabbedCode
+
 
 ````C#
 	
@@ -161,11 +161,11 @@ You can pass an object of type IComparer as an argument of the function:
 	    End Class
 	
 ````
->end
+
 
 You can also use a lambda expression as an argument:
 
->tabbedCode
+
 
 ````C#
 	
@@ -177,13 +177,13 @@ You can also use a lambda expression as an argument:
 	    RadListBox1.Items.Sort(Function(item) item.Text)
 	
 ````
->end
+
 
 ## Disabling items
 
 Use the __Enable__ property of the __RadListBoxItem__ object to enable or disable an item:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -200,13 +200,13 @@ Use the __Enable__ property of the __RadListBoxItem__ object to enable or disabl
 	    RadListBox1.Items(0).Enabled = False 
 	
 ````
->end
+
 
 ## Selecting items
 
 Use the __Selected__ property of an item to select it, or use the __SelectedIndex__ property of RadListBox. Note that to select multiple items you need to set the __SelectionMode="Multiple"__ property.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -222,7 +222,7 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	    RadListBox1.Items(0).Selected = True 
 	
 ````
->end
+
 
 ## Finding items
 

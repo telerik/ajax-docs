@@ -33,7 +33,7 @@ In Simple binding:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -45,7 +45,7 @@ In Simple binding:
 	         RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Method = "LoadData"
 	         RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Path ="OrgChartGroupItemDataService.svc"
 ````
->end
+
 
 In Group Enabled binding:
 
@@ -65,7 +65,7 @@ In Group Enabled binding:
 
 
 
->tabbedCode
+
 
 ````C#
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.GroupItemServiceSettings.Method = "LoadData";
@@ -80,7 +80,7 @@ In Group Enabled binding:
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.NodeServiceSettings.Method =  "LoadData"
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.NodeServiceSettings.Path = "OrgChartNodeDataService.svc"
 ````
->end
+
 
 ## Simple Binding
 
@@ -95,7 +95,7 @@ Here is an example of RadOrgChart that is bound to Web Service in simple binding
 
 
 
->tabbedCode
+
 
 ````C#
 	       protected void Page_Load(object sender, EventArgs e)
@@ -145,11 +145,11 @@ Here is an example of RadOrgChart that is bound to Web Service in simple binding
 	    End Sub
 	
 ````
->end
+
 
 OrgChartGroupItemDataService:
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -274,7 +274,7 @@ OrgChartGroupItemDataService:
 	    End Class
 	
 ````
->end
+
 
 ## Group-Enabled Binding
 
@@ -289,7 +289,7 @@ Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled 
 
 
 
->tabbedCode
+
 
 ````C#
 	     protected void Page_Load(object sender, EventArgs e)
@@ -337,11 +337,11 @@ Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled 
 	    End Sub
 	
 ````
->end
+
 
 OrgChartGroupItemDataService:
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -450,11 +450,11 @@ OrgChartGroupItemDataService:
 	    End Class
 	
 ````
->end
+
 
 OrgChartNodeDataService:
 
->tabbedCode
+
 
 ````C#
 	    
@@ -563,7 +563,7 @@ OrgChartNodeDataService:
 	        End Function
 	    End Class
 ````
->end
+
 
 ## Events
 

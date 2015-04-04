@@ -84,7 +84,7 @@ The ASPX file declares a grid with a two-level hierarchy and a __SortCommand__ e
 
 The __SortCommand__ event handler changes the sequence of sort modes to "Descending", "Ascending", "NoSort" for the EmployeeID field of the detail table, while leaving the default "Ascending", "Descending", "NoSort" sequence on the master table and other detail columns:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_SortCommand(object source, GridSortCommandEventArgs e)
@@ -131,4 +131,4 @@ The __SortCommand__ event handler changes the sequence of sort modes to "Descend
 	        End If
 	    End Sub
 ````
->end
+

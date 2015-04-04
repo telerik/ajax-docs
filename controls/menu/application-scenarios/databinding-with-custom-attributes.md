@@ -29,7 +29,7 @@ Here is an example:
 
 
 
->tabbedCode
+
 
 ````C#
 	protected void Page_Load(object sender, EventArgs e){    
@@ -107,7 +107,7 @@ Here is an example:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

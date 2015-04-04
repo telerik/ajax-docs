@@ -30,7 +30,7 @@ The event arguments for the __NeedDataSource__ event include the __RebindReason_
 >
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadDataForm1_NeedDataSource(object sender, RadDataFormNeedDataSourceEventArgs e)
@@ -73,7 +73,7 @@ The event arguments for the __NeedDataSource__ event include the __RebindReason_
 	    End Sub
 	
 ````
->end
+
 
 The __NeedDataSource__ event was introduced for binding convenience and its advantage is that you have the flexibility of generating your data source dynamically in the code-behind, but you are freed from handling the logic of when and how data binding should take place.
 

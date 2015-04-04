@@ -28,7 +28,7 @@ Since __Q2 2013__ the RadDropDownTree control supports web service binding (WCF 
 
 
 
->tabbedCode
+
 
 ````C#
 	    [ServiceContract(Namespace = "")]
@@ -57,4 +57,4 @@ Since __Q2 2013__ the RadDropDownTree control supports web service binding (WCF 
 	        }
 	    }
 ````
->end
+

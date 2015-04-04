@@ -59,7 +59,7 @@ The default font of the generated pages is specified by the __DefaultFontFamily_
 
 Also, you can dynamically set fonts to the row elements in the same manner used to set background-colors:
 
->tabbedCode
+
 
 ````C#
 	    item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
@@ -67,7 +67,7 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````VB.NET
 	    item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
->end
+
 
 ## Exporting HTML tables
 

@@ -27,7 +27,7 @@ The declaration of RadComboBox objects includes no __DataSourceID__ property or 
 
 In the __Page_Load__ event handler, create the Array and ArrayList, and bind them to the RadComboBox objects. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -83,4 +83,4 @@ In the __Page_Load__ event handler, create the Array and ArrayList, and bind the
 	    End Sub 'BindToArrayList
 	
 ````
->end
+

@@ -69,7 +69,7 @@ __Example 1__: Configuring __MapLayer__ with ASP.NET markup
 
 __Example 2__: Programmatic configuration of the __MapLayer__
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">
@@ -91,7 +91,7 @@ __Example 2__: Programmatic configuration of the __MapLayer__
 	
 			RadMap1.LayersCollection.Add(myLayer)
 ````
->end
+
 
 ## Controlling the Visual Appearance of the MapLayer
 

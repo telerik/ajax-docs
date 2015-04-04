@@ -46,7 +46,7 @@ Example 2:
 
 Hiding rows and columns is pretty straightforward. Actually you can hide these elements in the same way you hide them in a normal server-side scenario.
 
->tabbedCode
+
 
 ````C#
 	        RadTreeList1.GetColumn("ID").Visible = false;
@@ -56,7 +56,7 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 	        RadTreeList1.GetColumn("ID").Visible = false
 	        RadTreeList1.Items(0).Visible = false
 ````
->end
+
 
 ## Styling Columns / Rows / Cells
 
@@ -72,7 +72,7 @@ In order to style the elements of the __RadTreeList__ you could use the standard
 
 Another approach is to hook OnInfrastructureExporting event handler and apply the styles in code behind. Note that styling via CSS classes is not possible.
 
->tabbedCode
+
 
 ````C#
 	    xls.Column col = e.ExportStructure.Tables[0].Columns[2];
@@ -84,9 +84,9 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    col.Style.BackColor = Color.Gray
 	    col.Style.ForeColor = Color.Yellow
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    xls.Row row = e.ExportStructure.Tables[0].Rows[2];
@@ -96,9 +96,9 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 	    row.Style.BackColor = Color.Blue
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
@@ -108,9 +108,9 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 	    cell1.Style.BackColor = Color.Yellow
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
@@ -120,7 +120,7 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 	    cell2.Style.ForeColor = Color.Tomato
 ````
->end
+
 
 ## Image Support
 

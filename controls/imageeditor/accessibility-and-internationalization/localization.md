@@ -42,7 +42,7 @@ The following steps demonstrate how to create a new language pack for __RadImage
 
 1. Set the RadImageEditor’s Language property to the corresponding language:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" Language="bg-BG">
@@ -54,6 +54,6 @@ The following steps demonstrate how to create a new language pack for __RadImage
 ````VB
 	        RadImageEditor1.Language = "bg-BG"
 ````
->end
+
 
 1. When you run the application, the new resources will be recognized and the corresponding hints or other UI elements will display in the new language:![Create New Language Preview](images/radimageeditor-create-new-lang-final.png)

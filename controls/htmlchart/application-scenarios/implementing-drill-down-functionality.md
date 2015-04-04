@@ -36,7 +36,7 @@ __Example 1:__ The following steps describe the approach for implementing the dr
 
 1. On the server-side, handle the AJAX request an, depending on the current level of data presentation and the clicked series item, change	the data source and the settings of __RadHtmlChart__. As shown in __Example 1.2__, if the	current name of the series is "Years", the year	corresponding to the clicked series item is retrieved and it is used as a parameter for the __RadHtmlChart__ data source, as the new data	should be from the selected year. Also, the properties of the chart control are modified to match the new level of presentation and	a new data source that will provide the new data is specified.__Example 1.2__: RadHtmlChart updated on Ajax request.
 
->tabbedCode
+
 
 ````C#
 		protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
@@ -93,7 +93,7 @@ __Example 1:__ The following steps describe the approach for implementing the dr
 			End If
 		End Sub
 ````
->end
+
 
 The AJAX requests in __Example 1__ are implemented via the __RadAjaxManager__ control. You can find more information about	it in [this](34C4A4F8-2422-41BD-80A2-1EB5034ADCBD) help article.
 

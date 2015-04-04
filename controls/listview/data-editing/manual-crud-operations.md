@@ -18,7 +18,7 @@ The logic for manual database operations in the RadListView control are similar 
 
 The general logic is to use the ItemCommand event handler to trap the respective user action – insert/delete/update. Once we attach to the ItemCommand event handler, we can use the e.CommandName to differentiate among the different types of commands:
 
->tabbedCode
+
 
 ````C#
 	protected void RadListView1_ItemCommand(object sender, RadListViewCommandEventArgs e)
@@ -54,7 +54,7 @@ The general logic is to use the ItemCommand event handler to trap the respective
 	        End If
 	    End Sub
 ````
->end
+
 
 The *__e.ListViewItem__* is an object of type *__RadListViewEditableItem__*, and gives us access to the item, which raised the command. This, in turn, allows us to extract the newly entered data, or get the id of the record which needs to be deleted. Let us look into the possible operations which can be performed in the ItemCommand event handler.
 
@@ -70,7 +70,7 @@ In case the user has entered new values into the edit form, and wants to persist
 
 The code would look like this:
 
->tabbedCode
+
 
 ````C#
 	    else if (e.CommandName == RadListView.UpdateCommandName)
@@ -129,7 +129,7 @@ The code would look like this:
 	        End Try
 	
 ````
->end
+
 
 When inserting new records into the underlying datasource, the logic is very similar:
 
@@ -141,7 +141,7 @@ When inserting new records into the underlying datasource, the logic is very sim
 
 The code for performing these actions would look like this:
 
->tabbedCode
+
 
 ````C#
 	    else if (e.CommandName == RadListView.PerformInsertCommandName)
@@ -194,7 +194,7 @@ The code for performing these actions would look like this:
 	        End Try
 	
 ````
->end
+
 
 Finally, when deleting a record, the logic which we follow is described in the following steps:
 
@@ -206,7 +206,7 @@ Finally, when deleting a record, the logic which we follow is described in the f
 
 The code for this operation would look like this:
 
->tabbedCode
+
 
 ````C#
 	    else if (e.CommandName == RadListView.DeleteCommandName)
@@ -249,4 +249,4 @@ The code for this operation would look like this:
 	e.Canceled = True
 	End Try
 ````
->end
+

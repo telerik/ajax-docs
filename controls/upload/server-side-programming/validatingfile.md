@@ -36,7 +36,7 @@ Use the __ValidatingFile__ event [custom file validation]({%slug upload/validati
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -81,7 +81,7 @@ Use the __ValidatingFile__ event [custom file validation]({%slug upload/validati
 	        e.SkipInternalValidation = Not e.IsValid
 	    End Sub
 ````
->end
+
 
 # See Also
 

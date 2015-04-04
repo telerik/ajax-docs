@@ -73,7 +73,7 @@ The following example demonstrates how the user can cancel the loading of the co
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,4 +101,4 @@ The following example demonstrates how the user can cancel the loading of the co
 	    End Sub
 	
 ````
->end
+

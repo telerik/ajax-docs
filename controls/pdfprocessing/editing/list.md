@@ -33,7 +33,7 @@ This article aims to present the lists related API in RadPdfProcessing. It conta
 
 Each List contains a __ListLevelCollection__ where the presentation of each list level is defined by a __ListLevel__class instance. For the most common cases you do not need to define each separate list level. Instead, you can use the __ListTemplateType__enumeration to create a list with one of the predefined list templates. The code snippet from __Example 1__ shows how to create alist with NumberedParentheses template:
 
->tabbedCode
+
 
 ````C#
 	    List numberedParenthesesList = new List(ListTemplateType.NumberedParentheses);
@@ -41,7 +41,7 @@ Each List contains a __ListLevelCollection__ where the presentation of each list
 ````VB.NET
 	    Dim numberedParenthesesList = New List(ListTemplateType.NumberedParentheses)
 ````
->end
+
 
 On the following image you may see the available list template types and how they look:
 >caption Figure 2
@@ -66,7 +66,7 @@ When you need to create a custom List you should define the presentation of each
 
 __Example 2__ shows how to create an empty list and add two custom list levels to its __ListLevelsCollection__.Level 0 has a bullet which displays its current numbering as two digit number with a leading zero. Level 1 displays a checkbox as a bullet symbol for all of thecorresponding list items. Additionally, each of the levels defines custom values for the __LeftIndent__,__ForegroundColor__ and __IndentAfterBullet__ properties.
 
->tabbedCode
+
 
 ````C#
 	    List list = new List();
@@ -98,7 +98,7 @@ __Example 2__ shows how to create an empty list and add two custom list levels t
 	    levelOne.IndentAfterBullet = 10
 	    levelOne.BulletNumberingFormat = New TextBulletNumberingFormat(Function(indexer) "☑")
 ````
->end
+
 
 The image in __Figure 3__ shows how the list created in __Example 2__ will look like when used:
 >caption Figure 3
@@ -113,7 +113,7 @@ If you require using a text bullet you may use __TextBulletNumberingFormat__ cla
 
 The following code snippet shows how to create the bullets of a numbered hierarchical list using __TextBulletNumberingFormat__class:
 
->tabbedCode
+
 
 ````C#
 	    List list = new List();
@@ -156,7 +156,7 @@ The following code snippet shows how to create the bullets of a numbered hierarc
 	        End Function)
 	    Next
 ````
->end
+
 
 When using the list created in __Example 3__ its bullets will look as shown in __Figure 4__
 >caption Figure 4
@@ -169,7 +169,7 @@ In order to use lists with __RadFixedDocumentEditor__ you should first add them 
 
 __Example 4__ shows how to create a list with __RadFixedDocumentEditor__ and insert a single item for each of thelist levels. The appearance of the list is from the values in the predefined __ListTemplateType__ enumeration
 
->tabbedCode
+
 
 ````C#
 	    using (RadFixedDocumentEditor editor = new RadFixedDocumentEditor(document)) 
@@ -199,7 +199,7 @@ __Example 4__ shows how to create a list with __RadFixedDocumentEditor__ and ins
 	        Next
 	    End Using
 ````
->end
+
 
 The result document looks like the image in __Figure 5__:
 >caption Figure 5
@@ -210,7 +210,7 @@ The result document looks like the image in __Figure 5__:
 
 As the __Block__ class has __Bullet__ and __IndentAfterBullet__ properties you can easily setsome custom bullet to any __Block__ instance. However, if you want to get automatically formatted bullet corresponding to some__List__ class instance you should use the __SetBullet(List list, int listLevel)__ method. This way you can easily setthe bullet-related properties so that the bullet displays the correct list numbering and formatting. The following code snippet shows how to create__List__ with __BulletDefault__ template and set the bullet of the first list level to a Block:
 
->tabbedCode
+
 
 ````C#
 	    List list = new List(ListTemplateType.BulletDefault); 
@@ -226,7 +226,7 @@ As the __Block__ class has __Bullet__ and __IndentAfterBullet__ properties you c
 	        block.InsertText("Sample block text.")
 	    End Sub
 ````
->end
+
 
 __Figure 6__ demonstrates how the block form __Example 5__ will look like when exported.
 >caption Figure 6

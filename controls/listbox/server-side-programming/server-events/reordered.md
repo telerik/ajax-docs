@@ -24,7 +24,7 @@ The event handler receives two parameters:
 
 * __Items__ - collection of __RadListBoxItem__ objects which were reordered.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_Reordered(object sender, RadListBoxEventArgs e)
@@ -45,7 +45,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

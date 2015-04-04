@@ -39,7 +39,7 @@ In the following example a simple DataTable is used for a dummy datasource just 
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -206,7 +206,7 @@ In the following example a simple DataTable is used for a dummy datasource just 
 	End Class
 
 
->end
+
 
 If the groups from the markup and/or code-behind are removed the order of the tiles changes because it starts matching the order in which they are met in the datasource.
 
@@ -239,7 +239,7 @@ Let's take the above code as base and add a few tiles. Toggling the AppendDataBo
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -385,7 +385,7 @@ Let's take the above code as base and add a few tiles. Toggling the AppendDataBo
 	End Class
 
 
->end
+
 
 # See Also
 

@@ -79,7 +79,7 @@ __Example 1__ shows how to create the chart shown in __Figure 1__.
 
 __Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation functionality, shown in __Figure 1__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Layout="Stock" Width="800" Height="500" Skin="Default">
@@ -310,7 +310,7 @@ __Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation f
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

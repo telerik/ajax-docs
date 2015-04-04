@@ -47,7 +47,7 @@ Example:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -92,7 +92,7 @@ Example:
 			End Select
 	    End Sub
 ````
->end
+
 
 ## ExplorerPopulated
 
@@ -107,7 +107,7 @@ This event is fired twice - once when the TreeView's items are populated and sec
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -163,4 +163,4 @@ This event is fired twice - once when the TreeView's items are populated and sec
 	    End Sub
 	
 ````
->end
+

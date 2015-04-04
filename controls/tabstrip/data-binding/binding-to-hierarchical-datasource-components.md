@@ -84,7 +84,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 1. To set additional properties or overwrite already populated fields, use the __TabDataBound__ event. The example below overwrites the __TooTip__ property:
 
->tabbedCode
+
 
 ````C#
 	
@@ -103,7 +103,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	
 	
 ````
->end
+
 
 ## Binding to XmlDataSource
 
@@ -165,7 +165,7 @@ Consider the following example:
 
 1. As with the __SiteMapDataSource__ example above, you can map additional properties using the __[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})__:
 
->tabbedCode
+
 
 ````C#
 	 
@@ -191,7 +191,7 @@ Consider the following example:
 	
 	
 ````
->end
+
 
 # See Also
 

@@ -26,7 +26,7 @@ The following help article demonstrates how you can add templates to RadRibbonBa
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -189,7 +189,7 @@ The following help article demonstrates how you can add templates to RadRibbonBa
 		End Class
 	
 ````
->end
+
 
 # See Also
 

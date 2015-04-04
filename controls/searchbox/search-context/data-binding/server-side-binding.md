@@ -30,7 +30,7 @@ SearchContext can be easily bound declaratively to some DataSource by setting Da
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -57,4 +57,4 @@ SearchContext can be easily bound declaratively to some DataSource by setting Da
 	    End Sub
 	
 ````
->end
+

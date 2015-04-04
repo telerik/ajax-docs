@@ -28,7 +28,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ also support the __Redirect()__method, w
 
 __Example 1__: Using __RadAjaxManager__ and __RadAjaxPanel__ Redirect()
 
->tabbedCode
+
 
 ````C#
 	
@@ -38,11 +38,11 @@ __Example 1__: Using __RadAjaxManager__ and __RadAjaxPanel__ Redirect()
 ````VB.NET
 	        RadAjaxManager1.Redirect("http://www.google.com/")
 ````
->end
+
 
 or
 
->tabbedCode
+
 
 ````C#
 	
@@ -52,7 +52,7 @@ or
 ````VB.NET
 	        RadAjaxPanel1.Redirect("http://www.google.com/")
 ````
->end
+
 
 # See Also
 

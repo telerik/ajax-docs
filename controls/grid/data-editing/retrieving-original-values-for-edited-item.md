@@ -18,7 +18,7 @@ You can retrieve the old values for the edited item through the __SavedOldValues
 
 Here is a sample code (note that this approach is applicable for auto-generated grid column editors):
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -73,11 +73,11 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 	        End If
 	    End Sub
 ````
->end
+
 
 If you have __GridTemplateColumn__ inside the grid and want to obtain its original values on update command, you will need to store the old value on __ItemDataBound__ when the grid item is in edit mode and then reference it on update. The code snippet below uses a Session variable for this purpose:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" Skin="WinXP" runat="server"
@@ -133,4 +133,4 @@ If you have __GridTemplateColumn__ inside the grid and want to obtain its origin
 	        End If
 	    End Sub
 ````
->end
+

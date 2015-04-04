@@ -22,7 +22,7 @@ RadGauge can be created programmatically through its [ server-side ]({%slug gaug
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -143,6 +143,6 @@ RadGauge can be created programmatically through its [ server-side ]({%slug gaug
 	
 	    End Sub
 ````
->end
+
 
 Programmatically created RadGauge looks like:![gauge-programmatic-creation](images/gauge-programmatic-creation.png)

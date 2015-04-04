@@ -16,7 +16,7 @@ position: 1
 
 The __DataItem__ property is available only during databinding in the __[NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%})__ event:
 
->tabbedCode
+
 
 ````C#
 	
@@ -33,6 +33,6 @@ The __DataItem__ property is available only during databinding in the __[NodeDat
 	    End Sub
 	
 ````
->end
+
 
 You should not use it elsewhere. You can use the __Value__ property or [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) instead.

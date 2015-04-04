@@ -57,7 +57,7 @@ Create an XML file with content that complies with the rules described above and
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -71,7 +71,7 @@ Create an XML file with content that complies with the rules described above and
 	    RadTabStrip1.LoadContentFile("~/App_Data/tabStructure.xml")
 	
 ````
->end
+
 
 ## Loading from an XML string
 
@@ -79,7 +79,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -111,7 +111,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 	
 				
 ````
->end
+
 
 >note You can also populate __RadTabStrip__ from an XML file using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic.
 >

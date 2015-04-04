@@ -32,7 +32,7 @@ The __SelectedDateChanged__ event handler receives two arguments:
 
 You can use this event to respond in server-side code when the user changes the value:
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,7 +67,7 @@ You can use this event to respond in server-side code when the user changes the 
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

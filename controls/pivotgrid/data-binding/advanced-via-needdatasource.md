@@ -38,7 +38,7 @@ __RadPivotGrid__ does not fire the __NeedDataSource__ event unless it is visible
 
 In a __NeedDataSource__ event handler, you should prepare the data source(list of objects) for RadPivotGrid and assign it to the pivotgrid's __DataSource__ property:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadPivotGrid1_NeedDataSource(object sender, PivotGridNeedDataSourceEventArgs e)
@@ -91,4 +91,4 @@ In a __NeedDataSource__ event handler, you should prepare the data source(list o
 	        Return myDataTable
 	    End Function
 ````
->end
+

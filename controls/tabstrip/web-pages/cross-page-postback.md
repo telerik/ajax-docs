@@ -35,7 +35,7 @@ Once in the second page, you can access the the tab strip (or any other control)
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -66,4 +66,4 @@ Once in the second page, you can access the the tab strip (or any other control)
 	End Class 
 	 	
 ````
->end
+

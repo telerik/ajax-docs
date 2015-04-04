@@ -26,7 +26,7 @@ The __SetValues__ event should be used to set the values for the fields in previ
 
 The following example outlines how you can bind the __RadDataForm__ to __RadClientDataSource__.
 
->tabbedCode
+
 
 ````ASPNET
 	
@@ -193,4 +193,4 @@ The following example outlines how you can bind the __RadDataForm__ to __RadClie
 	                }
 	            </script>
 ````
->end
+

@@ -53,7 +53,7 @@ In the example below no matter that there is no setting in which the first panel
 
 
 
->tabbedCode
+
 
 ````C#
 	public partial class Default : System.Web.UI.Page 
@@ -75,7 +75,7 @@ In the example below no matter that there is no setting in which the first panel
 	
 	End Class
 ````
->end
+
 
 ## 
 

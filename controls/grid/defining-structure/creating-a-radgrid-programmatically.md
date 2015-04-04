@@ -54,7 +54,7 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 >
 
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" />
@@ -166,7 +166,7 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 	        End If
 	    End Sub
 ````
->end
+
 
 >note  __RadGrid__ does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
 >
@@ -184,7 +184,7 @@ When generating a __RadGrid__ instance entirely in code, you should use the __Pa
 
 When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set.
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
@@ -238,13 +238,13 @@ When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tabl
 	        End If
 	    End Sub
 ````
->end
+
 
 ### Creating a RadGrid on Page_Init
 
 When generating a grid in the __Page_Init__ event handler, grid columns should be added to the __Columns__ collection of the MasterTableView __after__ their attributes are set. No __ViewState__ is required for grid structure to be persisted as it is recreated on each page initialization:
 
->tabbedCode
+
 
 ````ASPNET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
@@ -356,7 +356,7 @@ When generating a grid in the __Page_Init__ event handler, grid columns should b
 	        Me.PlaceHolder1.Controls.Add(grid)
 	    End Sub
 ````
->end
+
 
 >caution When creating a grid in the __Page_Init__ event handler, you can use the __Page_Load__ event to add anAJAX setting for the grid to a __RadAjaxManager__ so that the grid usesasynchronous callbacks.
 >
@@ -378,7 +378,7 @@ You should follow these basic steps in order to create hierarchical __RadGrid__ 
 
 Here is a complete source code sample:
 
->tabbedCode
+
 
 ````C#
 	    private void DefineGridStructure()
@@ -511,7 +511,7 @@ Here is a complete source code sample:
 	    End Sub
 	
 ````
->end
+
 
 ## Creating Template Columns Programmatically
 
@@ -523,7 +523,7 @@ When creating template columns programmatically, the grid must be generated comp
 
 The following example shows a __Page_Init__ event handler that creates a grid, which includes a template column that shows data from multiple fields:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
@@ -710,7 +710,7 @@ The following example shows a __Page_Init__ event handler that creates a grid, w
 	        End Sub
 	    End Class
 ````
->end
+
 
 The code sample above results in the following grid:
 

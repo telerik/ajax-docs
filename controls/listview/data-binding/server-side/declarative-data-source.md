@@ -26,7 +26,7 @@ All you need to do is set the DataSourceID property of the ListView to the ID of
 
 Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/databinding/net2datasourcecontrols/defaultcs.aspx) of the product for details and the code snippets in the next paragraph:
 
->tabbedCode
+
 
 ````C#
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -224,7 +224,7 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	        SelectMethod="GetData" />
 	    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
 ````
->end
+
 
 ## Additional resources
 

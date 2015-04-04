@@ -84,7 +84,7 @@ The grid's __OnRowClick__ handler ("RowClicked") gets the values from the clicke
 
 In the code-behind, the __Page_Load__ event handler adds an AJAX setting for the grid to the AJAX manager (now that the templated control is created). The __AjaxRequest__ handler for the __RadAjaxManager__ forces the grid to rebind. The __NeedDataSource__ event handler of the grid binds it based on the string in the combobox:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -185,4 +185,4 @@ In the code-behind, the __Page_Load__ event handler adds an AJAX setting for the
 	    End Function
 	
 ````
->end
+

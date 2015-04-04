@@ -81,7 +81,7 @@ The ID's of the built-in styles are listed below:
 
 The following code-snippet modifies the default __itemStyle__/__alternatingItemStyle__:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
@@ -115,13 +115,13 @@ The following code-snippet modifies the default __itemStyle__/__alternatingItemS
 	        Next
 	    End Sub
 ````
->end
+
 
 ## Custom styles
 
 In order to define a custom style, you should assign it to the desired element (on __GridExportExcelMLRowCreated__) and then add the style to the collection on __GridExportExcelMLStyleCreated__ event.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
@@ -149,7 +149,7 @@ In order to define a custom style, you should assign it to the desired element (
 	    End Sub
 	
 ````
->end
+
 
 ## Styling header/footer
 
@@ -169,7 +169,7 @@ You add the symbols from the table below to data of the header / footer elements
 |&B|Bold|
 |&I|Italic|
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
@@ -197,7 +197,7 @@ You add the symbols from the table below to data of the header / footer elements
 	    End Sub
 	
 ````
->end
+
 
 ## StyleElement object
 
@@ -236,7 +236,7 @@ For more information about the number formats/borders, please visit the followin
 
 In addition to the predefined formats,you could add your own custom formats.
 
->tabbedCode
+
 
 ````C#
 	
@@ -246,7 +246,7 @@ In addition to the predefined formats,you could add your own custom formats.
 ````VB.NET
 			style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 ````
->end
+
 
 ## Borders
 
@@ -259,7 +259,7 @@ Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) th
 | ------ | ------ | ------ | ------ | ------ |
 |None|Left|Top|Right|Bottom|
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExcelBuilder.GridExportExcelMLStyleCreatedArgs e)
@@ -303,13 +303,13 @@ Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) th
 	        e.Styles.Add(cstyle)
 	    End Sub
 ````
->end
+
 
 ## Hiding columns
 
 You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -325,7 +325,7 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	    End Sub
 	
 ````
->end
+
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
 >
@@ -343,7 +343,7 @@ __ExcelML__ is one of the excel format which supports cells protection.When you 
 
 The example below demonstrates how you could remove the protection on each second row:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
@@ -389,7 +389,7 @@ The example below demonstrates how you could remove the protection on each secon
 	        Next
 	    End Sub
 ````
->end
+
 
 ## Print option
 
@@ -397,7 +397,7 @@ ExcelML export format provide two print options which allow you to modify the pr
 
 The following code snippet demonstrates how to use them.
 
->tabbedCode
+
 
 ````C#
 	    protected void grid_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
@@ -414,4 +414,4 @@ The following code snippet demonstrates how to use them.
 	        e.WorkBook.Worksheets(0).WorksheetOptions.Print.FitHeight = 1
 	    End Sub
 ````
->end
+

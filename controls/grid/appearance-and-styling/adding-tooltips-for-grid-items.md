@@ -22,7 +22,7 @@ The second scenario is when the tooltips will be shown for any grid item. In thi
 
 Consider the example below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -94,4 +94,4 @@ Consider the example below:
 	        End If
 	    End Sub
 ````
->end
+

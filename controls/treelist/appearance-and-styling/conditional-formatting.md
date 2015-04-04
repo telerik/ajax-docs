@@ -18,7 +18,7 @@ __RadTreeList__ provides the option to conditionally modify the appearance ofa g
 
 The following example shows how to handle the __ItemDataBound__ event inorder to apply a custom color/decoration to RadTreeList cell/row.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_ItemDataBound(object sender, TreeListItemDataBoundEventArgs e)
@@ -49,7 +49,7 @@ The following example shows how to handle the __ItemDataBound__ event inorder to
 	    End Sub
 	
 ````
->end
+
 
 ![RadTreeList Conditional Formating](images/treelist_conditional_formatting.jpg)
 

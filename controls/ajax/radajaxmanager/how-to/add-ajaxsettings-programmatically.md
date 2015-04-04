@@ -41,7 +41,7 @@ The example below demonstrates how to AJAX-enable a Button control dynamically t
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)    
@@ -73,7 +73,7 @@ And in the code-behind:
 	        Image1.Visible = Not Image1.Visible
 	    End Sub
 ````
->end
+
 
 # See Also[](251A6C11-CA84-419B-A65C-3A3329FB1FDD)
 

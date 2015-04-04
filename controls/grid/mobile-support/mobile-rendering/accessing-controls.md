@@ -43,7 +43,7 @@ The following examples demonstrate how to get reference to __native__ column edi
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -99,7 +99,7 @@ The following examples demonstrate how to get reference to __native__ column edi
 		TryCast(sender, RadGrid).DataSource = table
 	End Sub
 ````
->end
+
 
 When you want to render the standard editors for a column and you are setting the	__UseNativeEditorsInMobileMode__ property of a __GridEditableColumn__to "__false__", each column from the above example will render editors	corresponding to the column type (*for example, the GridNumericColumn will have a RadNumericTextBox as an editor, the GridDateTimeColumn will have RadDatePicker, etc.*).
 

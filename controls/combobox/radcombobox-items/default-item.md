@@ -28,7 +28,7 @@ __The Default Item__ of the __RadComboBox__ provides the abilty for custom valid
 
 
 
->tabbedCode
+
 
 ````C#
 	     RadComboBox1.DefaultItem.Text = "-Please select gender-";
@@ -40,7 +40,7 @@ __The Default Item__ of the __RadComboBox__ provides the abilty for custom valid
 	        RadComboBox1.DefaultItem.Value = "-1"
 	
 ````
->end
+
 
 ## Functionality
 
@@ -114,7 +114,7 @@ Shows how validate several __RadComboBoxes__ with __Default Item__
 
 
 
->tabbedCode
+
 
 ````C#
 	     protected void Page_Load(object sender, EventArgs e)
@@ -206,7 +206,7 @@ Shows how validate several __RadComboBoxes__ with __Default Item__
 	        RadComboBox4.Items.Add(New RadComboBoxItem("Other"))
 	    End Sub
 ````
->end
+
 
 # See Also
 

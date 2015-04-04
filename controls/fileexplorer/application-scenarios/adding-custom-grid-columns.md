@@ -20,7 +20,7 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 
 ## Override the Resolve RootDirectoryAsTree:
 
->tabbedCode
+
 
 ````C#
 		public override DirectoryItem ResolveRootDirectoryAsTree(string path)
@@ -61,11 +61,11 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        Return oldItem
 	    End Function
 ````
->end
+
 
 ## Override the ResolveDirectory method
 
->tabbedCode
+
 
 ````C#
 	
@@ -107,11 +107,11 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        Return oldItem
 	    End Function
 ````
->end
+
 
 2. Build two GridTemplateColumns on the server and add them to the columns collection of the Grid:
 
->tabbedCode
+
 
 ````C#
 	
@@ -149,7 +149,7 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        ' Add the second column
 	        RadFileExplorer1.Grid.Columns.Add(gridTemplateColumn2)
 ````
->end
+
 
 >caution Important! Set the newly added properties name (“Date” and “Owner”)to the __UniqueName__ property of the newly created column
 >

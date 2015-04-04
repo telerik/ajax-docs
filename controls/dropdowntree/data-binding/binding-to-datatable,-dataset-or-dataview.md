@@ -26,7 +26,7 @@ __RadDropDownTree__ can be bound to a __DataTable__, __DataSet__ and a __DataVie
 
 
 
->tabbedCode
+
 
 ````C#
 	protected void Page_Load(object sender, EventArgs e)
@@ -110,4 +110,4 @@ __RadDropDownTree__ can be bound to a __DataTable__, __DataSet__ and a __DataVie
 	        Return table
 	    End Function
 ````
->end
+

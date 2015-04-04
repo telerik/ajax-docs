@@ -20,7 +20,7 @@ If you add a __RadProgressManager/RadProgressArea__ to your Web page or user con
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -33,7 +33,7 @@ If you add a __RadProgressManager/RadProgressArea__ to your Web page or user con
 	    Dim file As UploadedFile = UploadedFile.FromHttpPostedFile(Request.Files(FileUpload1.UniqueID))
 	        
 ````
->end
+
 
 
 
@@ -64,7 +64,7 @@ The following example illustrates how to save the files uploaded with standard f
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -94,4 +94,4 @@ The following example illustrates how to save the files uploaded with standard f
 	    End If
 				
 ````
->end
+

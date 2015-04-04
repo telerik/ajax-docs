@@ -49,7 +49,7 @@ The example below will demonstrate how some tile settings can be set:
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void RadTileList1_OnTileCreated(object sender, TileListEventArgs e)
@@ -75,4 +75,4 @@ The example below will demonstrate how some tile settings can be set:
 	End Class
 
 
->end
+

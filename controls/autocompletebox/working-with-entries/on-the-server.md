@@ -32,7 +32,7 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 		End Sub
 	
 ````
->end
+
 
 # See Also
 

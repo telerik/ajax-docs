@@ -22,7 +22,7 @@ In number of cases it can be more convenient to have different edit/insert form 
 
 Note that you can extend the example to switch the visibility for multiple column editor instances on insert/update.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
@@ -86,4 +86,4 @@ Note that you can extend the example to switch the visibility for multiple colum
 	    }
 	
 ````
->end
+

@@ -42,7 +42,7 @@ Since RadUpload cannot upload files using AJAX calls (this is a limitation of th
 
 You can also perform validation over the file input as shown in the demo code:
 
->tabbedCode
+
 
 ````JavaScript
 	
@@ -203,4 +203,4 @@ You can also perform validation over the file input as shown in the demo code:
 	        Return description
 	    End Function
 ````
->end
+

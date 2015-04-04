@@ -64,7 +64,7 @@ There are cases in which you may want to have two level headers or custom comple
 
 Handle the __NeedDataSource__ event in the codebehind:
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -101,6 +101,6 @@ Handle the __NeedDataSource__ event in the codebehind:
 	        RadGrid1.DataSource = myDataTable.DefaultView
 	    End Sub
 ````
->end
+
 
 You may also refer to the [following online example](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultCS.aspx) of Telerik RadGrid which demonstrates the usage of __GridTemplateColumn__.

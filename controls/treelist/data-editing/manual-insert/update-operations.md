@@ -16,7 +16,7 @@ position: 3
 
 There are two ways to extract the values from the item. From the item itself (__ExtractValues__) or through the __RadTreeList__ control (__ExtractValuesFromItem__).
 
->tabbedCode
+
 
 ````C#
 	            item.ExtractValues(table);
@@ -24,9 +24,9 @@ There are two ways to extract the values from the item. From the item itself (__
 ````VB
 	            item.ExtractValues(table)
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	            RadTreeList1.ExtractValuesFromItem(table, item, true);
@@ -34,7 +34,7 @@ There are two ways to extract the values from the item. From the item itself (__
 ````VB
 	            RadTreeList1.ExtractValuesFromItem(table, item, True)
 ````
->end
+
 
 The syntax of the __ExtractValuesFromItem__ method is as follows:
 
@@ -53,7 +53,7 @@ The __ExtractValues__ method syntax is omitted as it is accepts only one object 
 
 The update operation is nothing different compared to other databound controls like RadGrid.To perform this operation you will have to extract the edited values and then pass them to the corresponding datasource. This is an excerpt of our online demo:
 
->tabbedCode
+
 
 ````C#
 	            Hashtable table = new Hashtable();
@@ -80,13 +80,13 @@ The update operation is nothing different compared to other databound controls l
 	                ExecuteNonQuery(commandText, table)
 	            End If
 ````
->end
+
 
 ## Insert
 
 Although the insert operation is generally the same as the update there is one peculiarity. If you are inserting a child item, the corresponding foreign key values will be extracted automatically from the parent item.This is not the case, however, when inserting new root item. In this case you have to manually insert a null (DbNull) value because the root item does not have a parent and this value should be populated by hand.
 
->tabbedCode
+
 
 ````C#
 	            Hashtable table = new Hashtable();
@@ -100,7 +100,7 @@ Although the insert operation is generally the same as the update there is one p
 	            ' #region treelist-manual-operations_3
 	            item.ExtractValues(table)
 ````
->end
+
 
 # See Also
 

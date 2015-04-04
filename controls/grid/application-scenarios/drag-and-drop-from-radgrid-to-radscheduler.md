@@ -26,7 +26,7 @@ The appointments can be modified in the grid on row double-click, or new ones ca
 
 Here follows the code used to achieve this:
 
->tabbedCode
+
 
 ````JavaScript
 	     <telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
@@ -452,7 +452,7 @@ Here follows the code used to achieve this:
 	        End If
 	    End Sub
 ````
->end
+
 
 >caution The bind expressions in the markup use C# syntax. In order to view their VB translation please visit the above linked demo.
 >

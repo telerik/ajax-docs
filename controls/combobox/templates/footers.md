@@ -64,7 +64,7 @@ The following example shows how to create a multi-column RadComboBox with a foot
 
 In order to include data associated with every column in the text of the RadComboBox item,add an __ItemDataBound__ event handler to the RadComboBox.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -88,7 +88,7 @@ In order to include data associated with every column in the text of the RadComb
 	    End Sub
 	
 ````
->end
+
 
 ## Defining FooterTemplates at run-time
 
@@ -102,7 +102,7 @@ In order to include data associated with every column in the text of the RadComb
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -183,13 +183,13 @@ In order to include data associated with every column in the text of the RadComb
 	    End Class
 	
 ````
->end
+
 
 ## Accessing controls in FooterTemplate
 
 You can find any control embedded in the RadComboBox' FooterTemplate, like:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -204,7 +204,7 @@ You can find any control embedded in the RadComboBox' FooterTemplate, like:
 	    lbl.Text = "This is label in the footer"
 	
 ````
->end
+
 
 # See Also
 

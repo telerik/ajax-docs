@@ -76,7 +76,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 1. Declare __TelerikSkinForComboBox.css__ as a WebResource by adding the __WebResource__ assembly attribute to the TelerikSkin.cs code file:
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -108,7 +108,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	End Namespace
 	
 ````
->end
+
 
 1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> __ComboBox.Telerik.css__ to the __TelerikSkinForComboBox.css__ file.
 
@@ -120,7 +120,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 1. Declare an assembly WebResource attribute for each image by adding the WebResource assembly attribute to the TelerikSkin.cs code file:
 
->tabbedCode
+
 
 ````C#
 	using System.Web.UI;
@@ -154,7 +154,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	End Namespace
 	
 ````
->end
+
 
 >note Note that ComboBox_Images is the folder which contains the skin images.
 >

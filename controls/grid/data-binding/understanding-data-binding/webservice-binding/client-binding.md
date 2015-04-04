@@ -32,7 +32,7 @@ Naturally, you can change the live feed or the custom collection of objects retu
 
 Below is the signature of the web service used in the sample:
 
->tabbedCode
+
 
 ````C#
 	
@@ -473,7 +473,7 @@ Below is the signature of the web service used in the sample:
 	    End Class
 	
 ````
->end
+
 
 and the source code of the page holding the grid instance populated through a web service on the client:
 

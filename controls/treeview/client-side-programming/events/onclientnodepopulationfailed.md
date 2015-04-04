@@ -82,7 +82,7 @@ In the example below an exception is raised in the server-side [NodeExpand]({%sl
 
 The server __NodeExpand__ event handler for the RadTreeView defined above:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -101,7 +101,7 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

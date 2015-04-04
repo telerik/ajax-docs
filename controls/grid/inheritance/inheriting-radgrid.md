@@ -53,7 +53,7 @@ This should be enough for the VS designer to register the tag prefixes the right
 
 If you would like to inherit the GridTableView object for your grid, here are some basic rules that you need to follow:
 
->tabbedCode
+
 
 ````ASPNET
 	<%@ Register Namespace="MyNamespace" TagPrefix="my" %>
@@ -116,7 +116,7 @@ If you would like to inherit the GridTableView object for your grid, here are so
 	    End Namespace
 	
 ````
->end
+
 
 Basically, you need to override the CreateTableView() method of the RadGrid class and return an instance of your custom GridTableView.
 

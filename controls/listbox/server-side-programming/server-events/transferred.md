@@ -24,7 +24,7 @@ The event handler receives two parameters:
 
 * __Items__ - collection of __RadListBoxItem__ objects which were transferred.
 
->tabbedCode
+
 
 ````C#
 	    protected void SourceListBox_Transferred(object sender, RadListBoxTransferredEventArgs e)
@@ -41,7 +41,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

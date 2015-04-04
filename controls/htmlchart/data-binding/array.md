@@ -59,7 +59,7 @@ __Example 1__: The __RadHtmlChart__ markup that is bound to an array of doubles 
 
 __Example 2__: Binding the chart from __Example 1__ to an array of doubles.
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, System.EventArgs e)
@@ -77,7 +77,7 @@ __Example 2__: Binding the chart from __Example 1__ to an array of doubles.
 			RadHtmlChart1.DataBind()
 		End Sub
 ````
->end
+
 
 # See Also
 

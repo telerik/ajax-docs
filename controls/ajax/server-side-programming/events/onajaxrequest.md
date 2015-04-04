@@ -41,7 +41,7 @@ The example below demonstrates AjaxRequest triggered from both the client and se
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -63,4 +63,4 @@ The example below demonstrates AjaxRequest triggered from both the client and se
 	        RadAjaxManager1.Alert("AjaxRequest raised from the " + e.Argument)
 	    End Sub
 ````
->end
+

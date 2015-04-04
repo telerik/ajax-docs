@@ -114,7 +114,7 @@ Below, you can find some examples demonstrating how you could use the export inf
 
 Using the Export Infrastructure - Example 1
 
->tabbedCode
+
 
 ````C#
 	        Telerik.Web.UI.ExportInfrastructure.ExportStructure structure = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
@@ -130,11 +130,11 @@ Using the Export Infrastructure - Example 1
 	        table.Cells(1, 1).Value = 1.2
 	        [structure].Tables.Add(table)
 ````
->end
+
 
 Using the Export Infrastructure - Example 2
 
->tabbedCode
+
 
 ````C#
 	        Telerik.Web.UI.ExportInfrastructure.ExportStructure structure2 = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
@@ -154,11 +154,11 @@ Using the Export Infrastructure - Example 2
 	        b2Cell.Style.BackColor = System.Drawing.Color.Blue
 	        structure2.Tables.Add(table2)
 ````
->end
+
 
 __ShiftRowsDown__ method gives you the opportunity to insert new rows at the chosen position.The first argument of the method is the start row index, and the second argument is the number of the new rows which would be inserted.A possible use case is when the user wants to insert a custom header above the exported RadGrid,the customer could use this method to shift the rows down, up to the desired point.Although it is a part of the Export Infrastructure API, it is mostly suitable when exporting from RadGrid.
 
->tabbedCode
+
 
 ````C#
 	        Telerik.Web.UI.ExportInfrastructure.Table tbl = e.ExportStructure.Tables[0];
@@ -168,7 +168,7 @@ __ShiftRowsDown__ method gives you the opportunity to insert new rows at the cho
 	        Dim tbl As Telerik.Web.UI.ExportInfrastructure.Table = e.ExportStructure.Tables(0)
 	        tbl.ShiftRowsDown(2, 5)
 ````
->end
+
 
 ## Rendering
 
@@ -176,7 +176,7 @@ As mentioned in the beginning of this topic, at this point there are three rende
 
 Using the different renderers
 
->tabbedCode
+
 
 ````C#
 	        //Renders XLS file
@@ -204,7 +204,7 @@ Using the different renderers
 	        Dim renderer As New DocxRenderer([structure])
 	        Dim renderedBytes As Byte() = renderer.Render()
 ````
->end
+
 
 ## Image Support
 
@@ -226,7 +226,7 @@ The method has the following overloads:
 
 * *void InsertImage(Cell cell, byte[] imageData, bool autoSize)*
 
->tabbedCode
+
 
 ````C#
 	        ExportStructure exportStructure = new ExportStructure();
@@ -240,7 +240,7 @@ The method has the following overloads:
 	        table.InsertImage(New Range("A1", "B2"), "Image.png")
 	        exportStructure.Tables.Add(table)
 ````
->end
+
 
 >note Automatic resizing is supported only when the image is inserted within a single cell (range is not supported).
 >
@@ -250,7 +250,7 @@ The method has the following overloads:
 
 Since __Q3 2014 SP1__ you are able to wrap a text (carried onto the next line) when using the__ExportInfrastructure__. For this purpose you you should set __TextWrap__ to __true__ to the desired cell, plus you have to insert the newline character __('\n')__ wherever you want the text to be wrapped. The example below demonstrates how to wrap a text.
 
->tabbedCode
+
 
 ````C#
 	        ExportStructure structure = new ExportStructure();
@@ -280,7 +280,7 @@ Since __Q3 2014 SP1__ you are able to wrap a text (carried onto the next line) w
 	
 	        Dim output As Byte() = renderer.Render()
 ````
->end
+
 
 ## Limitations
 

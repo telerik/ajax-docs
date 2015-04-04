@@ -31,7 +31,7 @@ You can have your panel bar cause postbacks to a different Web page from the one
 
 Once in the second page, you can access the the panel bar (or any other control) on the previous page using the __Page.PreviousPage__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -62,7 +62,7 @@ Once in the second page, you can access the the panel bar (or any other control)
 	    End Class
 	
 ````
->end
+
 
 >tip Another way to perform cross-page postbacks is to set the __NavigateUrl__ property of __RadPanelItem__ controls in you panel bar.
 >

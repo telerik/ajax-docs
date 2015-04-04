@@ -28,7 +28,7 @@ In order to update an existing records you can follow the below listed steps.
 
 1. Execute the update.
 
->tabbedCode
+
 
 ````C#
 	protected void RadDataForm1_ItemUpdating(object sender, RadDataFormCommandEventArgs e)
@@ -53,7 +53,7 @@ In order to update an existing records you can follow the below listed steps.
 	        editedCustomer.ContactTitle = newValues("ContactTitle").ToString()
 	    End Sub
 ````
->end
+
 
 ## Inserting records
 
@@ -67,7 +67,7 @@ The logic here is similar to the above with one difference, here the __DataFormI
 
 1. Perform the insert.
 
->tabbedCode
+
 
 ````C#
 	protected void RadDataForm1_ItemInserting(object sender, RadDataFormCommandEventArgs e)
@@ -99,7 +99,7 @@ The logic here is similar to the above with one difference, here the __DataFormI
 	        })
 	    End Sub
 ````
->end
+
 
 ## Deleting records
 
@@ -111,7 +111,7 @@ When deleting a record the logic that we follow is described in the following st
 
 1. Delete the record.
 
->tabbedCode
+
 
 ````C#
 	protected void RadDataForm1_ItemDeleting(object sender, RadDataFormCommandEventArgs e)
@@ -126,13 +126,13 @@ When deleting a record the logic that we follow is described in the following st
 	        dataSource.Remove(dataSource.Find(Function(x) x.ID = Integer.Parse(deletItem.GetDataKeyValue("ID").ToString())))
 	    End Sub
 ````
->end
+
 
 ## Example
 
 The below provided code snippets illustrate a sample implementation of a scenario where a __RadDataForm__ with manual operations is used.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadDataForm ID="RadDataForm1" OnNeedDataSource="RadDataForm1_NeedDataSource" OnItemUpdating="RadDataForm1_ItemUpdating" 
@@ -367,4 +367,4 @@ The below provided code snippets illustrate a sample implementation of a scenari
 	        RadDataForm1.DataSource = dataSource
 	    End Sub
 ````
->end
+

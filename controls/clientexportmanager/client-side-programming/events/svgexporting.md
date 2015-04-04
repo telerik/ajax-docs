@@ -82,7 +82,7 @@ __Example 1__: Send the svg to the server and prevent the client-side export.
 
 __Example 2__: Save the svg sent from the client to a folder on the server.
 
->tabbedCode
+
 
 ````C#
 	    public class ExportController : ApiController
@@ -132,7 +132,7 @@ __Example 2__: Save the svg sent from the client to a folder on the server.
 	#End Region
 
 
->end
+
 
 # See Also
 

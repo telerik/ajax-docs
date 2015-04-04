@@ -38,7 +38,7 @@ Client side changes are available on the server side after postback. You can use
 
 The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the __Item__ and __Type__ properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/treeview/examples/programming/clientsideapi/defaultcs.aspx) example.
 
->tabbedCode
+
 
 ````C#
 	        foreach (ClientOperation<RadTreeNode> operation in RadTreeView1.ClientChanges)
@@ -78,7 +78,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	         End Select
 	        Next
 ````
->end
+
 
 # See Also
 

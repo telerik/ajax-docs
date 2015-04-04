@@ -34,7 +34,7 @@ Use the __OnFinishButtonClick__ event handler to respond when a the finish butto
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_FinishButtonClick(object sender, WizardEventArgs e)
@@ -86,4 +86,4 @@ Use the __OnFinishButtonClick__ event handler to respond when a the finish butto
 	End Class
 
 
->end
+

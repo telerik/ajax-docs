@@ -30,7 +30,7 @@ The steps listed below demonstrate how to bind the control using __SqlDataSource
 
 In the example below, you could observe a possible implementation of the SqlDataSource binding:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:radtreemap runat="server"
@@ -44,4 +44,4 @@ In the example below, you could observe a possible implementation of the SqlData
 	        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
 	            SelectCommand="SELECT ID, ParentID, Name, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
->end
+

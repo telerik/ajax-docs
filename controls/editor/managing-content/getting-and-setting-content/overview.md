@@ -28,7 +28,7 @@ Use the __Content__ property to set or get text content, including HTML markup. 
 
 In code-behind, set the __Content__ property:
 
->tabbedCode
+
 
 ````C#
 	
@@ -48,7 +48,7 @@ In code-behind, set the __Content__ property:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Getting Content
 
@@ -68,7 +68,7 @@ You can access RadEditor content through the following properties:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -85,7 +85,7 @@ You can access RadEditor content through the following properties:
 	        TextBox2.Text = RadEditor1.Content
 	    End Sub
 ````
->end
+
 
 
 

@@ -42,7 +42,7 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -73,4 +73,4 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	        e.Item.Attributes("Description") = dataItem("Description").ToString()
 	    End Sub
 ````
->end
+

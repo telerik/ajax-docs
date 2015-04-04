@@ -27,7 +27,7 @@ In addition to [adding templates at design time]({%slug listbox/templates/workin
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -148,7 +148,7 @@ In addition to [adding templates at design time]({%slug listbox/templates/workin
 	        End Class
 	    End Class
 ````
->end
+
 
 The end result is:
 
@@ -164,7 +164,7 @@ If you for some reason cannot define the template in the __OnInit__ event of the
 
 Alternatively, you can add controls directly to the __Controls__ collection of __RadListBoxItem__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -209,7 +209,7 @@ Alternatively, you can add controls directly to the __Controls__ collection of _
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

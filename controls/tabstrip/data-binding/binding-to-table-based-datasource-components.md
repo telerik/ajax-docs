@@ -39,7 +39,7 @@ To bind to a table-based DataSource component:
 
 1. Bind any additional properties of the tabs using the __[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})__:
 
->tabbedCode
+
 
 ````C#
 	 
@@ -62,7 +62,7 @@ To bind to a table-based DataSource component:
 	
 	
 ````
->end
+
 
 The resulting declaration looks something like the following:
 

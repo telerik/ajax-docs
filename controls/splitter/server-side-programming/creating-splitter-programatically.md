@@ -22,7 +22,7 @@ You can define the structure of __RadSplitter__ dynamically in server-side code.
 
 The example below demonstrates how to create new __RadSplitter__ object, populate its __Items__ collection and add it to the page form. It also shows how to add a dynamically created label in the __Controls__ collection of a __RadPane__ control:
 
->tabbedCode
+
 
 ````C#
 	
@@ -91,7 +91,7 @@ The example below demonstrates how to create new __RadSplitter__ object, populat
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

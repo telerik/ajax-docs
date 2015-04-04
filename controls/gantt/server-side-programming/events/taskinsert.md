@@ -28,7 +28,7 @@ __TaskInsert__ event handler receives two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGantt1_TaskInsert(object sender, Telerik.Web.UI.Gantt.GanttEventArgs e)
@@ -46,7 +46,7 @@ __TaskInsert__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

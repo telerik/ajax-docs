@@ -22,7 +22,7 @@ To find a Node by __Text__, __Value__ or Attribute, use the methods __FindNodeBy
 
 The example below searches for a Node with a __Text__ property of "Product Categories".
 
->tabbedCode
+
 
 ````C#
 	protected void btnFind_Click(object sender, EventArgs e)
@@ -42,13 +42,13 @@ The example below searches for a Node with a __Text__ property of "Product Categ
 	        End If
 	    End Sub
 ````
->end
+
 
 ## FindNodeByValue()
 
 The example below searches for a Node with a __Value__ property of "1234".
 
->tabbedCode
+
 
 ````C#
 	protected void btnFind_Click(object sender, EventArgs e)
@@ -68,13 +68,13 @@ The example below searches for a Node with a __Value__ property of "1234".
 	        End If
 	    End Sub
 ````
->end
+
 
 ## FindNodeByAttribute()
 
 In the example below several Nodes are added to the RadTreeView. The first Node, "root1" has an attribute added to it. When a button is clicked, the __FindNodeByAttribute()__ method looks for the Node with the identical key and value pair.
 
->tabbedCode
+
 
 ````C#
 	using Telerik.Web.UI;
@@ -143,7 +143,7 @@ In the example below several Nodes are added to the RadTreeView. The first Node,
 	        End Class
 	    End Namespace
 ````
->end
+
 
 # See Also
 

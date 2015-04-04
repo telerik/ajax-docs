@@ -69,7 +69,7 @@ Example 2:
 
 Hiding rows and columns is pretty straightforward. Actually you can hide these elements in the same way you hide them in a normal server-side scenario.
 
->tabbedCode
+
 
 ````C#
 	  RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
@@ -79,7 +79,7 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 	  RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 	  RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
->end
+
 
 Additionally you could use the __Exportable__ property that allows you to choose whether a certain column should be included inthe exported file or not. By setting this property to __false__ the related column will be excluded from the exported file.Its default value is __true__.
 
@@ -97,7 +97,7 @@ In order to style the elements of the __RadGrid__ you could use the standard ASP
 
 Another approach is to hook __OnInfrastructureExporting__ event handler and apply the styles in code behind.Note that styling via CSS classes is not possible.
 
->tabbedCode
+
 
 ````C#
 	        xls.Column col = e.ExportStructure.Tables[0].Columns[2];
@@ -109,9 +109,9 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        col.Style.BackColor = Color.Gray
 	        col.Style.ForeColor = Color.Yellow
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        xls.Row row = e.ExportStructure.Tables[0].Rows[2];
@@ -121,9 +121,9 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 	        row.Style.BackColor = Color.Blue
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
@@ -133,9 +133,9 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 	        cell1.Style.BackColor = Color.Yellow
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	        xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
@@ -145,7 +145,7 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 	        cell2.Style.ForeColor = Color.Tomato
 ````
->end
+
 
 ## Image Support
 

@@ -55,7 +55,7 @@ The example below demonstrates how to set multiple __WordIgnoreOptions__ and mul
 
 
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -85,4 +85,4 @@ The example below demonstrates how to set multiple __WordIgnoreOptions__ and mul
 			End Class
 		End Namespace
 ````
->end
+

@@ -115,7 +115,7 @@ Create an XML file with content that complies with the rules described above and
 
 A button click event handler calls the __LoadContentFile()__ method:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -132,13 +132,13 @@ A button click event handler calls the __LoadContentFile()__ method:
 	    End Sub
 	
 ````
->end
+
 
 ## Loading from an XML string
 
 Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML()__ method to populate the TreeView from the string:
 
->tabbedCode
+
 
 ````C#
 	   
@@ -172,6 +172,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    Dim xmlString As String = sb.ToString()
 	    RadTreeView1.LoadXml(xmlString 
 ````
->end
+
 
 For a live example of loading RadTreeView Nodes from XML, see [Populating from XML](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/XmlFile/DefaultCS.aspx).

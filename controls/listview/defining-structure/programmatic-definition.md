@@ -35,7 +35,7 @@ On the *aspx *page there is a simple placeholder, where the actual contents of t
 
 The actual contents are determined by the code-behind, where each template is declared in a separate class:
 
->tabbedCode
+
 
 ````C#
 	    public partial class DefaultCS : System.Web.UI.Page
@@ -604,4 +604,4 @@ The actual contents are determined by the code-behind, where each template is de
 	        End Sub
 	    End Class
 ````
->end
+

@@ -185,7 +185,7 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
 
 The approach differs a bit when you prefer to disable the grid server-side. To summarize, you have to set the __Enabled__ property of the control to __false__ and switch off the auto postback on row click, column resizing, client row selection and keyboard navigation. Finally, locate the filter images when filtering is enabled and disable them on *ItemCreated* as well (thus preventing the filter menu from being displayed on click).Later on, roll back the changes when you enable the grid on the page.The following implementation shows how to enable/disable RadGrid with ajax request from external html buttons:
 
->tabbedCode
+
 
 ````ASPNET
 	<script type="text/javascript">
@@ -369,4 +369,4 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 	        Session("disableFilterMenu") = Nothing
 	    End Sub
 ````
->end
+

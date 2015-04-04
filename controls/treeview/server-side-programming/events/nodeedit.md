@@ -18,7 +18,7 @@ The __NodeEdit__ event fires when the user clicks the __Enter__ key after [editi
 
 In the example below the "old" text is represented by e.Node.Text and the "new" text entered by the user as e.Text. The new text is assigned to the Node.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -35,7 +35,7 @@ In the example below the "old" text is represented by e.Node.Text and the "new" 
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

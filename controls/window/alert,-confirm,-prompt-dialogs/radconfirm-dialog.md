@@ -61,7 +61,7 @@ This method also returns a reference to the RadAlert object (which is essentiall
 
 Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to call the __RadConfirm__:
 
->tabbedCode
+
 
 ````C#
 	    RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, null, "My Confirm", "myConfirmImage.png");
@@ -73,7 +73,7 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 	End Class
 
 
->end
+
 
 ## 
 

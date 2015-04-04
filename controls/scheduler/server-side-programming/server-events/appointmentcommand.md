@@ -30,7 +30,7 @@ __AppointmentCommand__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -52,7 +52,7 @@ __AppointmentCommand__ has two parameters:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

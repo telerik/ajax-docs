@@ -116,7 +116,7 @@ Do not forget to set __ShowFooter = true__ for the MasterTableView to visualize 
 
 See the forthcoming implementation for further info (__Quantity__ is integer field in the grid database):
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -162,7 +162,7 @@ See the forthcoming implementation for further info (__Quantity__ is integer fie
 	    End Sub
 	
 ````
->end
+
 
 ## Displaying totals for all grid pages
 
@@ -176,7 +176,7 @@ If you prefer to show grand total in a column footer which calculates the sum fo
 
 Below are the code snippets of a sample approach (note that with other type of data sources you may need to traverse and extract the data in a different manner):
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="500px" Skin="Grey">
@@ -287,7 +287,7 @@ Below are the code snippets of a sample approach (note that with other type of d
 	    End Function
 	
 ````
->end
+
 
 ## Multi-line footer totals
 
@@ -297,7 +297,7 @@ __ItemDataBound__ event of the grid and add the values which you want to be show
 
 The forthcoming code snippets will render two rows in the table footer which will show the total price/units in stock along with the highest price/units quantity for the records displayed. Note that the data will be refreshed accordingly when you sort/page/filter records in the grid:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource2" AllowSorting="True"
@@ -416,7 +416,7 @@ The forthcoming code snippets will render two rows in the table footer which wil
 	    End Sub
 	
 ````
->end
+
 
 ## Client-side calculation of totals for a template column
 
@@ -456,7 +456,7 @@ Below is the declaration of the grid, which contains a template column, with tex
 
 This particular implementation calculates the values for the footer textbox once for each time the control (re)binds to data. This will ensure that the textbox value is properly calculated initially, to avoid having to write additional JavaScript. Another important piece of the logic is the assignment of “onblur” and “onfocus” client side events. The client-side functions are passed the clientId’s for the footer textbox, as well as the textbox on which the user focuses, and on which the user will later lose focus. As soon as the user navigates to another textbox, the footer textbox will be updated with the new values:
 
->tabbedCode
+
 
 ````C#
 	    public partial class _Default : System.Web.UI.Page
@@ -515,7 +515,7 @@ This particular implementation calculates the values for the footer textbox once
 	    End Class
 	
 ````
->end
+
 
 The final part of the logic is the client-side script, which handles the updates of the footer textbox. Once the user focuses on a textbox, the script will preserve its initial value. The user is then free to enter a new value. Once the user loses focus on the textbox, the value in the footer textbox will be recalculated. For simplicity, the parsing of the user input is omitted.
 

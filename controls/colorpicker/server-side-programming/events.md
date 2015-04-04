@@ -19,7 +19,7 @@ The __RadColorPicker__control raises a single server-side event, __ColorChanged_
 
 ![](images/colorpicker-server001.png)
 
->tabbedCode
+
 
 ````C#
 		protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
@@ -38,7 +38,7 @@ The __RadColorPicker__control raises a single server-side event, __ColorChanged_
 			Label1.Text = String.Format("Color: {0} Hue: {1} Saturation: {2} Brightness {3}", colorName, RadColorPicker1.SelectedColor.GetHue(), RadColorPicker1.SelectedColor.GetSaturation(), RadColorPicker1.SelectedColor.GetBrightness())
 		End Sub
 ````
->end
+
 
 # See Also
 

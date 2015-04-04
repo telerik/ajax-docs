@@ -35,7 +35,7 @@ Here is a simple example:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -60,7 +60,7 @@ Here is a simple example:
 	    End Sub
 	
 ````
->end
+
 
 Here is how the caching works:
 

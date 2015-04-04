@@ -20,7 +20,7 @@ position: 17
 
 To bind to the data in code at runtime to the XML file directly, use the [Server.MapPath](http://msdn2.microsoft.com/en-us/library/ms524632.aspx) property to locate the XML on disk. The example code below has code that assigns the data and data labels columns as well as massaging the general appearance of the chart.The two critical lines of code that you must have to minimally bind to the XML file are the assignment of the DataSource and the call to DataBind().
 
->tabbedCode
+
 
 ````C#
 	
@@ -57,9 +57,9 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind() 
 				
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	
@@ -97,7 +97,7 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind() 
 				
 ````
->end
+
 
 The running application looks something like the figure shown below.
 >caption 

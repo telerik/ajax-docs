@@ -42,7 +42,7 @@ When using simple data-binding, you do not need to call the __DataBind__ method 
 
 The following example shows the steps for simple data-binding with __RadGrid__. The grid is bound on page load and in the __PageIndexChanged__ event handler:
 
->tabbedCode
+
 
 ````C#
 	
@@ -114,7 +114,7 @@ The following example shows the steps for simple data-binding with __RadGrid__. 
 	        RadGrid1.DataBind()
 	    End Sub 'RadGrid1_PageIndexChanged 
 ````
->end
+
 
 # See Also
 

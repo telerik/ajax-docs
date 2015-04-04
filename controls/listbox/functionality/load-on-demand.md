@@ -36,7 +36,7 @@ Here is short example of how RadListBox should be bound in a Load on Demand scen
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,7 +86,7 @@ Here is short example of how RadListBox should be bound in a Load on Demand scen
 	
 	    End Function
 ````
->end
+
 
 Another example, demonstrating binding to a declarative datasource. In this case there is no code behind code needed. One only need to set the DataSourceID and DataTextField property of RadListBox:
 
@@ -199,7 +199,7 @@ In the example bellow, you could observe how a button in the __FooterTemplate__ 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -233,7 +233,7 @@ In the example bellow, you could observe how a button in the __FooterTemplate__ 
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

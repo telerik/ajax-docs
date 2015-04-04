@@ -34,7 +34,7 @@ The __TextChanged__ event handler receives two arguments:
 
 Use the __TextChanged__ event handler to respond to changes in the control's text:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadInput_TextChanged(object sender, EventArgs e)
@@ -80,7 +80,7 @@ Use the __TextChanged__ event handler to respond to changes in the control's tex
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

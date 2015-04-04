@@ -36,7 +36,7 @@ The __FileUploaded__ event handler receives two arguments:
 
 The example below demonstrates how to prepare the previously uploaded file to send as an e-mail attachment:
 
->tabbedCode
+
 
 ````C#
 	
@@ -73,7 +73,7 @@ The example below demonstrates how to prepare the previously uploaded file to se
 	
 	
 ````
->end
+
 
 ## See Also
 

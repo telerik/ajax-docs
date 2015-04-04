@@ -34,7 +34,7 @@ Use the __CancelButtonClick__ event handler to respond when the user clicks on t
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_CancelButtonClick(object sender, WizardEventArgs e)
@@ -92,4 +92,4 @@ Use the __CancelButtonClick__ event handler to respond when the user clicks on t
 	End Class
 
 
->end
+

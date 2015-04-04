@@ -22,7 +22,7 @@ When the grid presentation area is restricted on your page you may not want to d
 
 1. Traverse the grid items and set their __Visible__ attribute to __False__
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -50,4 +50,4 @@ When the grid presentation area is restricted on your page you may not want to d
 	        End If
 	    End Sub
 ````
->end
+

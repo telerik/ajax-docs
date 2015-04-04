@@ -28,7 +28,7 @@ __NavigationCommand__ event handler receives two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGantt1_NavigationCommand(object sender, Telerik.Web.UI.Gantt.NavigationCommandEventArgs e)
@@ -46,7 +46,7 @@ __NavigationCommand__ event handler receives two parameters:
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

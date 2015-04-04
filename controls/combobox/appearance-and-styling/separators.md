@@ -38,7 +38,7 @@ To make a RadComboBoxItem separator you should simply mark the item with IsSepar
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -56,7 +56,7 @@ To make a RadComboBoxItem separator you should simply mark the item with IsSepar
 	    item.IsSeparator = true
 				
 ````
->end
+
 
 ## Client-side methods
 

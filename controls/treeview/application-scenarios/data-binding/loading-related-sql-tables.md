@@ -51,7 +51,7 @@ Here is our DataBase relationship schema:
 
 The code creates three distinct DataTable instances for each Table in your database. The data is loaded into the tables, the tables are added to the DataSet and the relationships are established. After that loop, the dependencies are iterated to populate the nodes. Here is a sample version:
 
->tabbedCode
+
 
 ````C#
 	
@@ -130,4 +130,4 @@ The code creates three distinct DataTable instances for each Table in your datab
 	
 	
 ````
->end
+

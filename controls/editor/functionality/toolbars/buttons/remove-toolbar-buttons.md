@@ -20,7 +20,7 @@ __Programmatically:__
 
 The second way to remove toolbar buttons is by using the provided RadEditor's Server-Side API and the Remove method of the Tools collection. You can hide the desired button with the following RemoveButton function:
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,7 +67,7 @@ The second way to remove toolbar buttons is by using the provided RadEditor's Se
 	        Next
 	    End Sub
 ````
->end
+
 
 You can see list the available tools in RadEditor by using the autocomplete feature of the Name EditorTool innertag attribute (to show the dropdown use Ctrl+Space):
 >caption 

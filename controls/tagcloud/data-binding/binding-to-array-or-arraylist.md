@@ -29,7 +29,7 @@ The declaration of the __RadTagCloud__ objects includes no __DataSourceID__prope
 
 In the __Page_Load__ event handler, create the __Array__ and the __ArrayList__, and bind them to the __RadTagCloud__ objects. You must call the __DataBind__ method after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,4 +86,4 @@ In the __Page_Load__ event handler, create the __Array__ and the __ArrayList__, 
 	    End Sub 'BindToArrayList
 	
 ````
->end
+

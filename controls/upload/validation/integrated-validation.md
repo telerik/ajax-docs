@@ -52,7 +52,7 @@ The __AllowedFileExtensions__ property lists the valid file extensions for uploa
 
 * In the code-behind, assign the value of the AllowedFileExtensions property to a string array:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -64,7 +64,7 @@ The __AllowedFileExtensions__ property lists the valid file extensions for uploa
 	    RadUpload1.AllowedFileExtensions = New String() {".zip", ".jpg", ".jpeg"}
 				
 ````
->end
+
 
 __AllowedMimeTypes__
 
@@ -98,7 +98,7 @@ The following example shows how to process invalid files. It provides feedback t
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -140,7 +140,7 @@ The following example shows how to process invalid files. It provides feedback t
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

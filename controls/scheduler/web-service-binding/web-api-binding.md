@@ -63,7 +63,7 @@ The __Routing information__ should be defined in the __Global.asax__ file. Here 
 
 In the controller class each event is using a __WebApiData object__ that contains the information needed for updating the appointments. In the __HTTP__ attributes above each event is used to define an action that will be performed through the __Web API__.
 
->tabbedCode
+
 
 ````C#
 	
@@ -261,7 +261,7 @@ In the controller class each event is using a __WebApiData object__ that contain
 	
 	
 ````
->end
+
 
 In order for all CRUD operations to work properly when you host the application on __IIS server__ in the configuration file, you need to add the following settings in the __system.webServer__ section:
 

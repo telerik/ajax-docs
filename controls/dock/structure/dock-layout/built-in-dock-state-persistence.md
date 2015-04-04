@@ -38,7 +38,7 @@ The built-in dock state persistance is enabled by setting the property __EnableL
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -165,6 +165,6 @@ The built-in dock state persistance is enabled by setting the property __EnableL
 	
 	
 ````
->endNote that the value of __LayoutRepositoryID__ is available via the __key__ parameter of the above methods and can be included the custom storage provider implementation.
+Note that the value of __LayoutRepositoryID__ is available via the __key__ parameter of the above methods and can be included the custom storage provider implementation.
 
 The LoadDockLayout also provides a property __LayoutRepositoryID__ which can be used for storing individual dock states that depend on the value of the property, e.g. for storing a unique dock state for every user in a website.

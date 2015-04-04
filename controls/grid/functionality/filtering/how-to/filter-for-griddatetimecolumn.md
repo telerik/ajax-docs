@@ -40,7 +40,7 @@ Since Q2 2012 GridDateTimeColumn has an EnableRangeFiltering and EnableTimeIndep
 
 In order to enable the range filtering function you should set the __EnableRangeFiltering__ property for the specific column to true:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
@@ -89,7 +89,7 @@ In order to enable the range filtering function you should set the __EnableRange
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 	    </asp:SqlDataSource>   
 ````
->end
+
 
 After the property has been enabled two filter controls will be rendered, which will allow the user to enter lower and upper bounds(inclusive) for the filter operation.![grid rangefiltering](images/grid_rangefiltering.jpg)
 
@@ -109,7 +109,7 @@ Additionally, the list of the available filter options is also changed after ena
 
 Time independent filtering functionality is controlled by the __EnableTimeIndependentFiltering__ property:
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid2" DataSourceID="SqlDataSource1"
@@ -158,7 +158,7 @@ Time independent filtering functionality is controlled by the __EnableTimeIndepe
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 	    </asp:SqlDataSource>   
 ````
->end
+
 
 No visual changes are observed in the filter item after the property has been enabled. The filter menu remains with the same options.
 

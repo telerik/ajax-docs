@@ -76,7 +76,7 @@ The following example shows how to retrieve the values the user entered for the 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,7 +101,7 @@ The following example shows how to retrieve the values the user entered for the 
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

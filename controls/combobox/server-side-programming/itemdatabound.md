@@ -34,7 +34,7 @@ The __ItemDataBound__ event handler receives two arguments:
 
 Use the __ItemDataBound__ event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -59,7 +59,7 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

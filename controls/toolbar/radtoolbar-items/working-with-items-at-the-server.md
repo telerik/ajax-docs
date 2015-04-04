@@ -18,7 +18,7 @@ Using the server-side API, you can programmatically add, remove, disable, or sel
 
 Use the __Add__ method of the __RadToolBarItemCollection__ object to add items programmatically. To add buttons to the __RadToolBarDropDown__ or __RadToolBarSplitButton__, use the __Buttons__ collections of these objects as shown below:
 
->tabbedCode
+
 
 ````C#
 	
@@ -67,13 +67,13 @@ Use the __Add__ method of the __RadToolBarItemCollection__ object to add items p
 	    End Sub
 	
 ````
->end
+
 
 ## Removing items
 
 Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ collections of the __RadToolBarDropDown__ or the __RadToolBarSplitButton__ objects to remove items:
 
->tabbedCode
+
 
 ````C#
 	
@@ -97,13 +97,13 @@ Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ 
 	    dropDown.Buttons.Remove(childButton)
 	
 ````
->end
+
 
 ## Disabling items
 
 Use the __Enable__ property of the __RadToolBarItem__ object to enable or disable an item:
 
->tabbedCode
+
 
 ````C#
 	
@@ -119,7 +119,7 @@ Use the __Enable__ property of the __RadToolBarItem__ object to enable or disabl
 	    itemToDisable.Enabled = False
 	
 ````
->end
+
 
 # See Also
 

@@ -83,7 +83,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 
 
 
->tabbedCode
+
 
 ````C#
 	    private NorthwindDataContext _dataContext;
@@ -333,4 +333,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        End If
 	    End Sub
 ````
->end
+

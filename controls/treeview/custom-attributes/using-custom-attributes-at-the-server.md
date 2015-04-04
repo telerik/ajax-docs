@@ -16,7 +16,7 @@ position: 2
 
 Access attributes through the RadTreeNode __Attributes__ collection by specifying a key name:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -28,7 +28,7 @@ Access attributes through the RadTreeNode __Attributes__ collection by specifyin
 		node.Attributes("MyCustomAttributeKey") = "Some value"
 				
 ````
->end
+
 
 The example below iterates the __Attributes__ collection of a selected node and displays the key names and values in a RadTextBox.
 
@@ -53,7 +53,7 @@ The example below iterates the __Attributes__ collection of a selected node and 
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -75,4 +75,4 @@ The example below iterates the __Attributes__ collection of a selected node and 
 	    End Sub
 	
 ````
->end
+

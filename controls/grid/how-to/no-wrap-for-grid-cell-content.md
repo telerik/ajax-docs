@@ -38,7 +38,7 @@ For declarative columns the code be as below:
 
 For auto-generated column subscribe to the __ColumnCreated__ event and set the __DataFormatString__ in the corresponding handler:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e)
@@ -58,11 +58,11 @@ For auto-generated column subscribe to the __ColumnCreated__ event and set the _
 	        End If
 	    End Sub
 ````
->end
+
 
 In the code-behind (just data-binding):
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -101,7 +101,7 @@ In the code-behind (just data-binding):
 	        RadGrid1.DataSource = myDataTable.DefaultView
 	    End Sub
 ````
->end
+
 
 >note This functionality is not supported with static headers (UseStaticHeaders = true) and column resizing. With static headers the cell content will be clipped if you resize a column to make its width dimension smaller than the longest cell data.
 >

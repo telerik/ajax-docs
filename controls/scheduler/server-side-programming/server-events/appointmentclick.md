@@ -24,7 +24,7 @@ __AppointmentClick__ has two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -41,7 +41,7 @@ __AppointmentClick__ has two parameters:
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

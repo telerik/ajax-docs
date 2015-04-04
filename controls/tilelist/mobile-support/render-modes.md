@@ -43,7 +43,7 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
->tabbedCode
+
 
 ````C#
 			RadTileList1.RenderMode = Telerik.Web.UI.RenderMode.Mobile;
@@ -51,7 +51,7 @@ There are two ways to configure the rendering mode of the controls:
 ````VB.NET
 		RadTileList1.RenderMode = Telerik.Web.UI.RenderMode.Mobile
 ````
->end
+
 
 * A __global setting in the web.config__ file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:
 

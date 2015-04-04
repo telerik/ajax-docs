@@ -60,7 +60,7 @@ You can specify the title bar template at design time in the markup:
 
 In the codebehind, you can directly access the controls in the title bar template:
 
->tabbedCode
+
 
 ````C#
 	
@@ -102,7 +102,7 @@ In the codebehind, you can directly access the controls in the title bar templat
 	    End Sub
 	
 ````
->end
+
 
 The template and event handler above create a __RadDock__ control with a title that can be edited:
 >caption 
@@ -113,7 +113,7 @@ The template and event handler above create a __RadDock__ control with a title t
 
 You can provide a title bar template at runtime by setting the __TitlebarTemplate__ property to an instance of a class that implements __ITemplate__:
 
->tabbedCode
+
 
 ````C#
 	
@@ -229,7 +229,7 @@ You can provide a title bar template at runtime by setting the __TitlebarTemplat
 	End Class
 
 
->end
+
 
 The following APSX page markup is used for the example. Through the client script the dragging of the RadDock is disabled while text is entered in the TextBox and it is enabled again after the OK button is pressed. You need to add this functionality as well in order to implement the scenario successfully.
 
@@ -259,7 +259,7 @@ The following APSX page markup is used for the example. Through the client scrip
 
 The RadDock control is created from the code-behind and the TitlebarTemplate is specified:
 
->tabbedCode
+
 
 ````C#
 	
@@ -348,7 +348,7 @@ The RadDock control is created from the code-behind and the TitlebarTemplate is 
 	End Class
 
 
->end
+
 
 # See Also
 

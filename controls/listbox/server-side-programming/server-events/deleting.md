@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 * __Cancel__ - set it to True to cancel the event and prevent the deleting to happen
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListBox1_Deleting(object sender, RadListBoxEventArgs e)
@@ -47,7 +47,7 @@ The event handler receives two parameters:
 	End Class
 
 
->end
+
 
 # See Also
 

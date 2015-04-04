@@ -38,7 +38,7 @@ Here follows the markup:
 
 You need to search for the RadTreeView in the Controls collection of the RadComboBox's item:
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ You need to search for the RadTreeView in the Controls collection of the RadComb
 	Dim tree As RadTreeView = DirectCast(RadComboBox1.Items(0).FindControl("RadTreeView1"), RadTreeView)
 				
 ````
->end
+
 
 ## How to find RadTreeView object client-side
 

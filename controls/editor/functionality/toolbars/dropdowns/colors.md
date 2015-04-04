@@ -35,7 +35,7 @@ The RadEditor __Colors__dropdown displays a predefined set of colors by default 
 
 Use the Colors collection __Add()__method to include new items in the list. Using the __Add()__ method resets the Colors dropdown, so the colors you add will not be appended to the default set, but will rather create a new Colors set. See the example below:
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ Use the Colors collection __Add()__method to include new items in the list. Usin
 	        RadEditor1.Colors.Add("#9900CC")
 	
 ````
->end
+
 
 >note Bear in mind that RadEditor will persist its state (including the Colors set) between postbacks. In order to create a new set of Colors (e.g. for different users), you will need to clear it first. This can be done using the __Remove()__ or __Clear()__ methods for the Colors collection.
 >

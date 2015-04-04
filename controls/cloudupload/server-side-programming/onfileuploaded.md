@@ -30,7 +30,7 @@ The handler of the __OnFileUploaded__ event receives two arguments:
 
 The example below demonstrates how to access information about the uploaded file and to manage its IsValid State:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadCloudUpload1_FileUploaded(object sender, CloudFileUploadedEventArgs args)
@@ -62,4 +62,4 @@ The example below demonstrates how to access information about the uploaded file
 	
 	
 ````
->end
+

@@ -29,7 +29,7 @@ Templates could be added to __RadPanelBar__ at runtime, using the __ItemTemplate
 
 The example below shows how to add Item Templates at run-time.
 
->tabbedCode
+
 
 ````C#
 	
@@ -108,7 +108,7 @@ The example below shows how to add Item Templates at run-time.
 	    End Class
 	
 ````
->end
+
 
 If you for some reason cannot define the template in the __OnInit__ event of the page, you could use another approach:
 
@@ -116,7 +116,7 @@ If you for some reason cannot define the template in the __OnInit__ event of the
 >
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -155,7 +155,7 @@ If you for some reason cannot define the template in the __OnInit__ event of the
 	    End Sub
 	
 ````
->end
+
 
 The end result of this code looks like the following:
 
@@ -184,7 +184,7 @@ Here is also an example that uses a Content Template at run-time.
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -213,11 +213,11 @@ Here is also an example that uses a Content Template at run-time.
 	    End Sub
 	
 ````
->end
+
 
 Here is the class for the Content Template that is used in the PageLoad
 
->tabbedCode
+
 
 ````C#
 	
@@ -263,7 +263,7 @@ Here is the class for the Content Template that is used in the PageLoad
 		End Class
 	
 ````
->end
+
 
 ## Header Template
 
@@ -293,7 +293,7 @@ Here is also an example that uses a Header Template at run-time.
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -319,11 +319,11 @@ Here is also an example that uses a Header Template at run-time.
 	    End Sub
 	
 ````
->end
+
 
 Here is the class for the Header Template that is used in the PageLoad
 
->tabbedCode
+
 
 ````C#
 	
@@ -362,7 +362,7 @@ Here is the class for the Header Template that is used in the PageLoad
 	    End Class
 	
 ````
->end
+
 
 The end result of this code looks like the following:
 

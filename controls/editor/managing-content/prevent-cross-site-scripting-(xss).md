@@ -161,7 +161,7 @@ __Example 1__ demonstrates a simple encoding approach, where the script tags are
 
 __Example 1__: Custom content filter that shows script tags as text to the user.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnClientLoad="OnClientLoad">
@@ -215,11 +215,11 @@ __Example 1__: Custom content filter that shows script tags as text to the user.
 			RadEditor1.DisableFilter(EditorFilters.EncodeScripts)
 	
 ````
->end
+
 
 __Example 2__: Custom code behind logic to remove scripts from the content before loading it in the __RadEditor__.
 
->tabbedCode
+
 
 ````C#
 	using System;
@@ -269,7 +269,7 @@ __Example 2__: Custom code behind logic to remove scripts from the content befor
 		End Function
 	End Class
 ````
->end
+
 
 # See Also
 

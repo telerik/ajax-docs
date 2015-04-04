@@ -58,7 +58,7 @@ The correct approach when using simple data-binding is to call the DataBind() me
 
 The code snippets below are taken from the [corresponding online demo](http://demos.telerik.com/aspnet-ajax/listview/examples/databinding/simplevsadvancedbinding/defaultcs.aspx) of the product and illustrate direct comparison between the simple and advanced binding regime of RadListView:
 
->tabbedCode
+
 
 ````C#
 	    <telerik:RadScriptManager ID="RadScriptManager" runat="server" />
@@ -528,9 +528,9 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	        </tr>
 	    </table>
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    public DataTable GetDataTable(string query)
@@ -730,4 +730,4 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	    End Sub
 	
 ````
->end
+

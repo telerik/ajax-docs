@@ -32,7 +32,7 @@ You can find the code for the definition of a custom field editor with a RadComb
 >
 
 
->tabbedCode
+
 
 ````C#
 	namespace CustomEditors
@@ -192,7 +192,7 @@ You can find the code for the definition of a custom field editor with a RadComb
 	    End Class
 	End Namespace
 ````
->end
+
 
 ## Using custom field editors
 
@@ -204,7 +204,7 @@ When have a custom editor defined, you can use it in the field editors collectio
 
 
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadFilter runat="server" ID="RadFilter1" FilterContainerID="SqlDataSource1"
@@ -287,4 +287,4 @@ When have a custom editor defined, you can use it in the field editors collectio
 	        End If
 	    End Sub
 ````
->end
+

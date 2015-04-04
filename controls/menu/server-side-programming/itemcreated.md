@@ -30,7 +30,7 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemCreated(object sender, RadMenuEventArgs e)
@@ -43,7 +43,7 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 	        e.Item.ToolTip = e.Item.Text
 	    End Sub
 ````
->end
+
 
 # See Also
 

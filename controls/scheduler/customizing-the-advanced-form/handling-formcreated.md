@@ -26,7 +26,7 @@ Here are some examples:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -56,13 +56,13 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Update the end date picker when the start date picker is changed
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -87,7 +87,7 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	     <script type="text/javascript">    
@@ -107,7 +107,7 @@ Here are some examples:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -132,7 +132,7 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	     <script type="text/javascript">
@@ -153,7 +153,7 @@ Here are some examples:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -173,13 +173,13 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Add a new combobox that updates the subject field
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -215,7 +215,7 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	    <script type="text/javascript">
@@ -236,7 +236,7 @@ Here are some examples:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -256,13 +256,13 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Change the selected index of a resource combobox so always one option is preselected
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -287,13 +287,13 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Make changes in the recurrence editor
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -359,13 +359,13 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Add a new custom validator for the description field
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEventArgs e)
@@ -397,7 +397,7 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
->end
+
 
 ````JavaScript
 	      <script type="text/javascript">

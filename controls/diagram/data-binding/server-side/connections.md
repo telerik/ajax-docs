@@ -46,7 +46,7 @@ __Example 1__: Data binding shapes and connections in a diagram to a collection 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -160,4 +160,4 @@ __Example 1__: Data binding shapes and connections in a diagram to a collection 
 	        }}
 	    End Function
 ````
->end
+

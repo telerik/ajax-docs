@@ -63,7 +63,7 @@ __Example 1:__ Using date format string in __RadHtmlChart__.
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -178,7 +178,7 @@ __Example 1:__ Using date format string in __RadHtmlChart__.
 	    End Class
 	
 ````
->end
+
 
 # See Also
 

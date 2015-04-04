@@ -53,7 +53,7 @@ __Example 1__: The markup of the __RadHtmlChart__ that is bound to a DataSet in 
 
 __Example 2__: The DataSet for the __RadHtmlChart__ created in __Example 1__.
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, System.EventArgs e)
@@ -101,7 +101,7 @@ __Example 2__: The DataSet for the __RadHtmlChart__ created in __Example 1__.
 			Return ds
 		End Function
 ````
->end
+
 
 # See Also
 

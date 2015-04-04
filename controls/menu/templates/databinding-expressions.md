@@ -70,7 +70,7 @@ In the DataBinder.Eval statement, __Container__ is the RadMenuItem and __"Text"_
 
 In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the __Text__ property:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e) { 
@@ -89,7 +89,7 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	        End While
 	    End Sub
 ````
->end
+
 
 Now the text of the menu items appears on the check boxes:
 

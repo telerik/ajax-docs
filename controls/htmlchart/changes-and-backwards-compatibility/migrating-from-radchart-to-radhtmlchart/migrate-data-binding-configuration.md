@@ -31,7 +31,7 @@ The code in __Example 1__ illustrates how to bind discrete data in a Candlestick
 
 __Example 1__: Configuring data binding of discrete data in a Candlestick series with __RadChart__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadChart ID="RadChart1" runat="server" Width="600px" Height="400px">
@@ -103,7 +103,7 @@ __Example 1__: Configuring data binding of discrete data in a Candlestick series
 			Return dt
 		End Function
 ````
->end
+
 
 ### Data Binding Discrete Data in RadHtmlChart
 
@@ -129,7 +129,7 @@ The code in __Example 2__ illustrates how to bind discrete data in a Candlestick
 
 __Example 2__: Configuring data binding of discrete data in a Candlestick series with __RadHtmlChart__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px">
@@ -197,7 +197,7 @@ __Example 2__: Configuring data binding of discrete data in a Candlestick series
 			Return dt
 		End Function
 ````
->end
+
 
 ## Data Binding Continuous Data
 
@@ -216,7 +216,7 @@ The code in __Example 3__ illustrates how to bind continuous data in a Point ser
 
 __Example 3__: Configuring data binding of continuous data in a Point series with __RadChart__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadChart ID="RadChart1" runat="server" Width="600px" Height="400px">
@@ -280,7 +280,7 @@ __Example 3__: Configuring data binding of continuous data in a Point series wit
 		End Function
 	
 ````
->end
+
 
 ### Data Binding Continuous Data in RadHtmlChart
 
@@ -301,7 +301,7 @@ The code in __Example 4__ illustrates how to bind continuous data in a Scatter s
 
 __Example 4__: Configuring data binding of continuous data in a Scatter series with __RadHtmlChart__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600px" Height="400px">
@@ -370,7 +370,7 @@ __Example 4__: Configuring data binding of continuous data in a Scatter series w
 		End Function
 	
 ````
->end
+
 
 # See Also
 

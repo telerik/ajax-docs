@@ -30,7 +30,7 @@ To bind directly to a collection, you must bind the toolbar at runtime, using th
 
 The following example shows a toolbar bound to an __ArrayList__. The items in the list are simple strings, so the buttons map their __Text__ property automatically to the strings in the list:
 
->tabbedCode
+
 
 ````C#
 	    
@@ -77,7 +77,7 @@ The following example shows a toolbar bound to an __ArrayList__. The items in th
 	End Class
 
 
->end
+
 
 # See Also
 

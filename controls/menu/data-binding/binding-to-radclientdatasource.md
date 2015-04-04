@@ -47,7 +47,7 @@ The code snippet below shows sample configuration of RadMenu bound to RadClientD
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -180,4 +180,4 @@ The code snippet below shows sample configuration of RadMenu bound to RadClientD
 	End Class
 
 
->end
+

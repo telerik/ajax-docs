@@ -30,7 +30,7 @@ Using __SimpleBinding__ the user can only drag-and-drop Nodes which enables him 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -69,7 +69,7 @@ Using __SimpleBinding__ the user can only drag-and-drop Nodes which enables him 
 	        RadOrgChart1.DataBind()
 	    End Sub
 ````
->end
+
 
 Using __GroupEnabledBinding__ one can drag-and-drop both Nodes and GroupItems. This allows the user to reorder the hierarchy and to move a GroupItem from one Node to another. By doing so (moving GroupItems), it is possible to have empty nodes. Now, the empty Nodes are rendered (except in SimpleBinding). However, using the __AllowGroupItemDragging__ property and setting it to false one can prevent dragging off the GroupItems from a Node.
 
@@ -89,7 +89,7 @@ Using __GroupEnabledBinding__ one can drag-and-drop both Nodes and GroupItems. T
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -152,7 +152,7 @@ Using __GroupEnabledBinding__ one can drag-and-drop both Nodes and GroupItems. T
 	        RadOrgChart3.DataBind()
 	    End Sub
 ````
->end
+
 
 >caution The RadOrgChart does not persists it's structure in the ViewState. You need to rebind the control on every postback or change in the data source. Creating OrgChart hierarchy during runtime (adding Nodes/GroupItems from code behind) or in the markup, and using at the same time drag-and-drop is incompatible, because it is not possible to mark when a Node/GroupItem is moved. Please use drag-and-drop feature when you are bind to a data source.
 >

@@ -22,7 +22,7 @@ The easiest way to set credentials from the code behind is to create a custom Az
 
 1. Create a new class, which inherits the __AzureProvider__ class and override its __Initialize__ method. In this method you can set all
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -66,7 +66,7 @@ The easiest way to set credentials from the code behind is to create a custom Az
 	
 	    End Namespace
 ````
->end
+
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
 
@@ -109,7 +109,7 @@ Common scenario is the need to upload files in different Azure providers. For ex
 
 1. Create a as many Custom Providers as you need. They must inherit the__AzureProvider__ class. Override their __Initialize__ method.
 
->tabbedCode
+
 
 ````C#
 	    using System;
@@ -154,9 +154,9 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	
 	    End Namespace
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    using System;
@@ -202,7 +202,7 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	
 	    End Namespace
 ````
->end
+
 
 1. Register the newly created Custom Providers in the configuration file:
 
@@ -242,7 +242,7 @@ Common scenario is the need to upload files in different Azure providers. For ex
 
 1. Set the name of the Custom Azure Provider in the handler:
 
->tabbedCode
+
 
 ````C#
 	    <%@ WebHandler Language="C#" Class="CloudUploadHandler" %>
@@ -285,7 +285,7 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	        End Sub
 	    End Class
 ````
->end
+
 
 # See Also
 

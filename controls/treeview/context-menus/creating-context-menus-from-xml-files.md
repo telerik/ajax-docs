@@ -18,7 +18,7 @@ The __ContextMenus__ property in RadTreeView for ASP.NET AJAX is a collection of
 
 The easiest way to populate a RadTreeViewContextMenu from an XML document is using the following syntax:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -33,6 +33,6 @@ The easiest way to populate a RadTreeViewContextMenu from an XML document is usi
 	RadTreeView1.ContextMenus(0).LoadContentFile("~/MyContextMenuContentFile.xml")
 				
 ````
->end
+
 
 The structure of the context menu content file is the same as the structure of the [RadMenu content file](http://www.telerik.com/help/aspnet-ajax/menu-items-xml.html).

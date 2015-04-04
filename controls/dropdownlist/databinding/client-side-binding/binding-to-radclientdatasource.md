@@ -48,7 +48,7 @@ The following application scenario shows a sample configuration of RadDropDownLi
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -120,4 +120,4 @@ The following application scenario shows a sample configuration of RadDropDownLi
 	End Class
 
 
->end
+

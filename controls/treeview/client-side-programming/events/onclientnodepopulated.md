@@ -63,7 +63,7 @@ The example below demonstrates retrieving the parent node that is being populate
 
 The server __NodeExpand__ event handler for the RadTreeView defined above:
 
->tabbedCode
+
 
 ````C#
 	
@@ -110,7 +110,7 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

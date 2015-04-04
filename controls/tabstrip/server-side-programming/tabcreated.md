@@ -30,7 +30,7 @@ Use an __TabCreated__ event handler to initialize tabs as they are added to the 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -47,4 +47,4 @@ Use an __TabCreated__ event handler to initialize tabs as they are added to the 
 	End Sub 
 	
 ````
->end
+

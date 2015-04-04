@@ -228,7 +228,7 @@ __Use a custom class instead of RadTreeNodeData__
 
 The serialized output of the WebService can be minimized by using a custom class instead of the default RadTreeNodeData. This class can represent the minimum amount of data that is required for the Nodes of the RadTreeView. Below is a sample implementation of a 'minimized' NodeData class and a sample use case:
 
->tabbedCode
+
 
 ````C#
 	
@@ -280,7 +280,7 @@ The serialized output of the WebService can be minimized by using a custom class
 	        End Property
 	    End Class
 ````
->end
+
 
 __Do not persist nodes loaded on demand__
 

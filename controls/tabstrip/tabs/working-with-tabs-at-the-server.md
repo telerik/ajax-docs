@@ -20,7 +20,7 @@ After adding a __RadTabStrip__ control to your Web page, you can use the followi
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -72,7 +72,7 @@ After adding a __RadTabStrip__ control to your Web page, you can use the followi
 	
 	
 ````
->end
+
 
 ## Adding tabs dynamically
 
@@ -106,7 +106,7 @@ The __TabClick__ event handler adds tabs dynamically at runtime in the post-back
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -161,7 +161,7 @@ The __TabClick__ event handler adds tabs dynamically at runtime in the post-back
 	    End Sub
 	
 ````
->end
+
 
 Clicking on both menu items results in the following:
 
@@ -222,7 +222,7 @@ The __TabClick__ event handler deletes, disables, and enables tabs dynamically a
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -280,7 +280,7 @@ The __TabClick__ event handler deletes, disables, and enables tabs dynamically a
 	
 				
 ````
->end
+
 
 # See Also
 

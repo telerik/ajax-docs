@@ -56,7 +56,7 @@ When setting the __ProgressIndicators__ property at runtime, use the "or" operat
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -77,7 +77,7 @@ When setting the __ProgressIndicators__ property at runtime, use the "or" operat
 		        _  ProgressIndicators.CurrentFileName
 				
 ````
->end
+
 
 >note The __ProgressIndicators__ type is defined in the Telerik.Web.UI.Upload namespace.
 >

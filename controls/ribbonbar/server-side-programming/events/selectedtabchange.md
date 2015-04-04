@@ -28,7 +28,7 @@ The event handler function receives two arguments:
 
 The following example demonstrates how to use the SelectedTabChange event to determine the new and the previously selected tab.
 
->tabbedCode
+
 
 ````C#
 	
@@ -52,7 +52,7 @@ The following example demonstrates how to use the SelectedTabChange event to det
 	
 	
 ````
->end
+
 
 # See Also
 

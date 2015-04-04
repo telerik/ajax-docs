@@ -31,7 +31,7 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 
 ## Setting the Filter server-side
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 	    End Sub
 	
 ````
->end
+
 
 ## Setting the Filter inline
 

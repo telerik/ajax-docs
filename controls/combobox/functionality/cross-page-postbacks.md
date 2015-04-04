@@ -24,7 +24,7 @@ You can have your RadComboBox cause postbacks to a different web page from the o
 
 Once in the second page, you can access the RadComboBox control on the previous page using the __Page.PreviousPage__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -55,6 +55,6 @@ Once in the second page, you can access the RadComboBox control on the previous 
 	    End Sub
 	
 ````
->end
+
 
 For a live example, see [Cross Page Postback](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/CrossPagePostBack/DefaultCS.aspx).

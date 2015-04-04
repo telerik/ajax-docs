@@ -38,7 +38,7 @@ In this case you need to implement a different approach (without setting the __C
 
 * add __onclick__ attribute to its __Attributes__ collection and relate it to confirm dialog passing the value from the chosen cell
 
->tabbedCode
+
 
 ````ASPNET
 	<telerik:RadGrid ID="RadGrid1" runat="server">
@@ -78,7 +78,7 @@ In this case you need to implement a different approach (without setting the __C
 	        End If
 	    End Sub 'RadGrid1_ItemDataBound
 ````
->end
+
 
 ## Confirmation from control inside a template
 

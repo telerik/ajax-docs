@@ -43,7 +43,7 @@ What you should do in this scenario is to place the UpdatePanel (or __RadAjaxPan
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ What you should do in this scenario is to place the UpdatePanel (or __RadAjaxPan
 	End Class
 
 
->end
+
 
 If you are using the __RadAjaxManager__ you should *not* add the __RadWindow__ as an AJAX initiator or as an updated control. Instead, you should directly use the controls from its __ContentTemplate__ in the AJAX settings.
 

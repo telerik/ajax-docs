@@ -22,7 +22,7 @@ Initially the default value of __PersistConfiguration__ property is __false__.Ho
 
 The following code snippets demonstrate how it can be used:
 
->tabbedCode
+
 
 ````C#
 	
@@ -152,4 +152,4 @@ The following code snippets demonstrate how it can be used:
 	
 	
 ````
->end
+

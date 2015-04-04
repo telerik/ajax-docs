@@ -53,7 +53,7 @@ This example disables the "today" button, while still allowing a switch to Day v
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -79,7 +79,7 @@ This example disables the "today" button, while still allowing a switch to Day v
 	
 	
 ````
->end
+
 
 # See Also
 

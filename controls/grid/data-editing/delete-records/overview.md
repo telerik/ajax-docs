@@ -40,7 +40,7 @@ The code section below demonstrates the second case. In this example the grid da
 
 In the code-behind you should handle properly the __RadGrid1_DeleteCommand__ event.
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -114,4 +114,4 @@ In the code-behind you should handle properly the __RadGrid1_DeleteCommand__ eve
 	        End If
 	    End Sub
 ````
->end
+

@@ -46,7 +46,7 @@ The following application scenario shows an example of such scenario.
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -118,4 +118,4 @@ The following application scenario shows an example of such scenario.
 	End Class
 
 
->end
+

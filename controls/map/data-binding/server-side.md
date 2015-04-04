@@ -71,7 +71,7 @@ __Example 1__: Data binding layers and markers in a map to a collection of custo
 
 
 
->tabbedCode
+
 
 ````C#
 			protected void Page_Load(object sender, EventArgs e)
@@ -139,7 +139,7 @@ __Example 1__: Data binding layers and markers in a map to a collection of custo
 	
 		End Function
 ````
->end
+
 
 # See Also
 

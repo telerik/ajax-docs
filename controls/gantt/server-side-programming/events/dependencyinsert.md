@@ -28,7 +28,7 @@ __DependencyInsert__ event handler receives two parameters:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGantt1_DependencyInsert(object sender, Telerik.Web.UI.Gantt.DependencyEventArgs e)
@@ -51,7 +51,7 @@ __DependencyInsert__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
->end
+
 
 # See Also
 

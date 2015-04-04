@@ -50,7 +50,7 @@ You can set the header and pop up width and height of a specified dropdown tool 
 
 * __or through the codebehind:__
 
->tabbedCode
+
 
 ````C#
 	
@@ -74,4 +74,4 @@ You can set the header and pop up width and height of a specified dropdown tool 
 	        tool.Attributes("width") = "300px"
 	
 ````
->end
+

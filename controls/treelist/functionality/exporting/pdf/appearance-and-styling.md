@@ -26,7 +26,7 @@ The priority is the same as in the order above.
 
 Different approaches for setting styles in the code-behind could be used depending whether the *RadTreeList* will be rebound before export (when *IgnorePaging* is set to *true* or when you rebind manually). The following code can be used in the both cases:
 
->tabbedCode
+
 
 ````C#
 	    bool isExport = false;
@@ -55,11 +55,11 @@ Different approaches for setting styles in the code-behind could be used dependi
 	        End If
 	    End Sub
 ````
->end
+
 
 When *Rebind* will be invoked, you can apply the styles directly:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -77,7 +77,7 @@ When *Rebind* will be invoked, you can apply the styles directly:
 	        RadTreeList1.ExportToPdf()
 	    End Sub
 ````
->end
+
 
 ## Setting styles in the Pdf category
 

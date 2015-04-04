@@ -24,7 +24,7 @@ Sometimes it is helpful to know the parent item primary key value when updating/
 
 The code section shows how to get the primary key field for up-level rows using __DataKeyNames/DataKeyValues__:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="Desert"
@@ -132,4 +132,4 @@ The code section shows how to get the primary key field for up-level rows using 
 	        }
 	    }
 ````
->end
+

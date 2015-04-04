@@ -61,7 +61,7 @@ Solution: This happens when the x-axis labels are either too long, or there are 
 
 __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart (__Figure 1__) resolves the x-axis labels cluttering in the left chart(__Figure 1__).
 
->tabbedCode
+
 
 ````ASPNET
 				<style>
@@ -146,7 +146,7 @@ __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart
 	        Next
 	    End Sub
 ````
->end
+
 
 ## YAxis is not Rescaled in a Stock Chart When Changing the Selection Range
 
@@ -189,7 +189,7 @@ Solution: Special characters in data source field names are escaped by surroundi
 
 __Example 3__: Escaping special characters in field names by surrounding the name with quotes and brackets.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadHtmlChart runat="server" ID="ColumnChart" Width="600px" Height="400px">
@@ -240,7 +240,7 @@ __Example 3__: Escaping special characters in field names by surrounding the nam
 	        Return table
 	    End Function
 ````
->end
+
 
 # See Also[](A346ABA1-4892-4441-B66E-B4A8F7549BD0)
 

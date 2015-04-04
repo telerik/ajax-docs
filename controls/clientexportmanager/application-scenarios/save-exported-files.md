@@ -104,7 +104,7 @@ __Example 2:__ Here we send the raw data to the server using Ajax call and cance
 
 This is the API controller class definition:
 
->tabbedCode
+
 
 ````C#
 	    public class ExportController : ApiController
@@ -154,7 +154,7 @@ This is the API controller class definition:
 	#End Region
 
 
->end
+
 >caption Figure 1: Shows how the RadFileExplorer is populated with the exported pdf files.
 
 ![clientexportmanager-save-exported-files](images/clientexportmanager-save-exported-files.png)

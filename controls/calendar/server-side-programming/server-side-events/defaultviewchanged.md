@@ -28,7 +28,7 @@ The __DefaultViewChanged__event handler receives two arguments:
 
 Use the __DefaultViewChanged__event handler to respond to changes in the dates the calendar displays:
 
->tabbedCode
+
 
 ````C#
 	
@@ -50,7 +50,7 @@ Use the __DefaultViewChanged__event handler to respond to changes in the dates t
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

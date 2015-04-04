@@ -18,7 +18,7 @@ Using the server-side API, you can programmatically add, remove, disable, or sel
 
 To add a node programmatically, create an instance of RadTreeNode, assign Text, Value and other properties, then add the object to a Nodes collection. You can add it to the RadTreeView Nodes collection or the Nodes collection of another Node.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -36,7 +36,7 @@ To add a node programmatically, create an instance of RadTreeNode, assign Text, 
 	    RadTreeView1.Nodes.Add(newNode)
 				
 ````
->end
+
 
 By adding nodes to the RadTreeView Nodes collection or to the Nodes collection of another node you can define the entire tree structure. The example below demonstrates adding a node with no children, adding a node with three children and adding a node with two levels of children.
 
@@ -50,7 +50,7 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 * All __RadTreeNodes__ have an attribute called __TreeView__ containing an instance to the parent __RadTreeView__ .>
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -107,13 +107,13 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 	    End Namespace
 	
 ````
->end
+
 
 
 
 You can add multiple nodes at once by using the __AddRange__ method of the RadTreeNodeCollection. The following code creates a new root node and adds all current nodes as a child of that node:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -129,7 +129,7 @@ You can add multiple nodes at once by using the __AddRange__ method of the RadTr
 	    RadTreeView1.Nodes.Add(node)
 	
 ````
->end
+
 
 ## Removing Nodes
 
@@ -143,7 +143,7 @@ You can remove nodes by:
 
 * Calling __Nodes.Clear()__ to remove all nodes at one time.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -173,7 +173,7 @@ You can remove nodes by:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Selecting Nodes
 
@@ -181,7 +181,7 @@ Setting the RadTreeNode __Selected__ property typically highlights the node, dep
 
 ![RadTreeView Selecting Nodes](images/treeview_selectingingnodes.png)
 
->tabbedCode
+
 
 ````C#
 	     
@@ -205,7 +205,7 @@ Setting the RadTreeNode __Selected__ property typically highlights the node, dep
 	    End Sub
 	
 ````
->end
+
 
 ## Disabling/Enabling Nodes
 
@@ -216,7 +216,7 @@ Setting the RadTreeNode __Enabled__ property to false makes the node inactive an
 
 ![RadTreeView Enabling/Disabling Nodes](images/treeview_disablingenablingnodes.png)
 
->tabbedCode
+
 
 ````C#
 	     
@@ -240,4 +240,4 @@ Setting the RadTreeNode __Enabled__ property to false makes the node inactive an
 	    End Sub
 	
 ````
->end
+

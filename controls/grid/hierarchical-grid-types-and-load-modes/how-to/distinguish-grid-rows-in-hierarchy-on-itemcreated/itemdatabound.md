@@ -18,7 +18,7 @@ There are cases in which you may want to identify to which level of the hierarch
 
 __Without data source controls__
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -56,11 +56,11 @@ __Without data source controls__
 	
 	    End Sub
 ````
->end
+
 
 __With data source controls__
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -96,11 +96,11 @@ __With data source controls__
 	        End If
 	    End Sub
 ````
->end
+
 
 __Using Name property__
 
->tabbedCode
+
 
 ````C#
 	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -136,4 +136,4 @@ __Using Name property__
 	        End If
 	    End Sub
 ````
->end
+

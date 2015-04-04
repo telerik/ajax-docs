@@ -57,7 +57,7 @@ The type of the XAxis is controlled via its __Type__ property which takes astrin
 
 __Example 1__ shows the simple markup used to configure a__Numeric Series (ScatterLine)__ bound to __DateTime__object data in __Figure 1__.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="640px" Height="480px">
@@ -134,7 +134,7 @@ __Example 1__ shows the simple markup used to configure a__Numeric Series (Scatt
 			Return dt
 		End Function
 ````
->end
+
 
 # See Also
 

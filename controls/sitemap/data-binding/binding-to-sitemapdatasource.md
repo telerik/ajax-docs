@@ -96,7 +96,7 @@ To set additional properties or overwrite already populated fields, use the [Nod
 
 
 
->tabbedCode
+
 
 ````C#
 	protected void RadSiteMap1_NodeDataBound(object sender, Telerik.Web.UI.RadSiteMapNodeEventArgs e)
@@ -111,4 +111,4 @@ To set additional properties or overwrite already populated fields, use the [Nod
 	        e.Node.ToolTip = sitemapNode.Title + " - " + sitemapNode.Url
 	    End Sub
 ````
->end
+

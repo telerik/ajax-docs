@@ -32,7 +32,7 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 
 1. Process the postback in the code-behind of the page (managing the __RaisePostBackEventHandler__ in a similar fashion to that presented in [ this knowledge base article ](http://www.telerik.com/support/kb/aspnet-ajax/grid/performing-postback-from-grid-client-events.aspx)). You can check whether the source control that triggers the request is __RadGrid__ - then execute some custom logic:
 
->tabbedCode
+
 
 ````C#
 	
@@ -58,4 +58,4 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 	        End If
 	    End Sub
 ````
->end
+

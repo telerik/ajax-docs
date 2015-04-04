@@ -39,7 +39,7 @@ The maximum outline level is 7.
 
 There are two available options when grouping. The first option is to simply assign the outline level property of the rows or columns:
 
->tabbedCode
+
 
 ````C#
 	    Workbook workbook = new Workbook(); 
@@ -55,11 +55,11 @@ There are two available options when grouping. The first option is to simply ass
 	    worksheet.Columns(1, 2).SetOutlineLevel(2)
 	    worksheet.Columns(3).SetOutlineLevel(1)
 ````
->end
+
 
 The other option is to use the Group method exposed by the row/column selection classes.
 
->tabbedCode
+
 
 ````C#
 	    Workbook workbook = new Workbook(); 
@@ -73,7 +73,7 @@ The other option is to use the Group method exposed by the row/column selection 
 	    worksheet.Columns(0, 3).Group()
 	    worksheet.Columns(1, 2).Group()
 ````
->end
+
 
 Both approaches will result in the following file:
 >caption Figure 2
@@ -89,7 +89,7 @@ The following code snippets exemplify the two approaches to make these changes i
 
 ![Rad Spread Processing Features Grouping 03](images/RadSpreadProcessing_Features_Grouping_03.png)
 
->tabbedCode
+
 
 ````C#
 	    worksheet.Rows[0, 1].ClearOutlineLevel(); 
@@ -99,11 +99,11 @@ The following code snippets exemplify the two approaches to make these changes i
 	    worksheet.Rows(0, 1).ClearOutlineLevel() 
 	    worksheet.Rows(4, 6).SetOutlineLevel(1)
 ````
->end
+
 
 You can achieve the same result with the code in __Example 4__:
 
->tabbedCode
+
 
 ````C#
 	    worksheet.Rows[0, 1].Ungroup(); 
@@ -113,13 +113,13 @@ You can achieve the same result with the code in __Example 4__:
 	    worksheet.Rows(0, 1).Ungroup() 
 	    worksheet.Rows(4, 6).Ungroup() 
 ````
->end
+
 
 ## Getting the outline level
 
 You can get the outline level of a row/column or a group of rows/columns using the code in __Example 5__:
 
->tabbedCode
+
 
 ````C#
 	    RangePropertyValue outlineLevelRangeValue = worksheet.Rows[0, 1].GetOutlineLevel(); 
@@ -129,7 +129,7 @@ You can get the outline level of a row/column or a group of rows/columns using t
 	    Dim outlineLevelRangeValue As RangePropertyValue(Of Integer) = worksheet.Rows(0, 1).GetOutlineLevel()
 	    Dim outLineLevel As Integer = outlineLevelRangeValue.Value
 ````
->end
+
 
 # See Also
 

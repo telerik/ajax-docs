@@ -35,7 +35,7 @@ The figure above shows a more complex chart than the [minimal example of program
 
 * Set axis line and label appearance.
 
->tabbedCode
+
 
 ````C#
 	
@@ -158,7 +158,7 @@ The figure above shows a more complex chart than the [minimal example of program
 	    Me.Page.Controls.Add(radChart) 
 	
 ````
->end
+
 
 # See Also
 

@@ -94,7 +94,7 @@ Although you can't modify the contents on __OnGridExporting__, you can use this 
 
 *RadGrid *does not export any external styles. That means that your skins will not appear in the generated file. Still, the inline styles are preserved and should be used instead. Different approaches could be used depending where *RadGrid* will rebind before export (when *IgnorePaging* is set to *true* or when you rebind manually).
 
->tabbedCode
+
 
 ````C#
 	    bool isExport = false;
@@ -122,11 +122,11 @@ Although you can't modify the contents on __OnGridExporting__, you can use this 
 	        End If
 	    End Sub
 ````
->end
+
 
 In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -145,7 +145,7 @@ In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 	    End Sub
 	
 ````
->end
+
 
 >note To center the text in the __GridHeaderItem__ , you should set the appropriate style to each cell ( *TH* element) instead of the whole row.
 >
@@ -155,7 +155,7 @@ In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 
 You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -170,7 +170,7 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	        RadGrid1.MasterTableView.ExportToPdf()
 	    End Sub
 ````
->end
+
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
 >
@@ -182,7 +182,7 @@ There are two common ways to hide an item.
 
 * __Directly__ - in the button handler when exporting from a button or on __ItemCommand__ when exporting from the built-in buttons
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
@@ -198,9 +198,9 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
->end
 
->tabbedCode
+
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -215,11 +215,11 @@ There are two common ways to hide an item.
 	        RadGrid1.MasterTableView.ExportToPdf()
 	    End Sub
 ````
->end
+
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when __IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
 
->tabbedCode
+
 
 ````C#
 	    bool isPdfExport = false;
@@ -247,7 +247,7 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Border support
 
@@ -263,7 +263,7 @@ Additionally when *Separate* border type is used the following statements are ap
 
 You can disable the *RadGrid* borders by settings the *BorderStyle* or *GridLines* properties - either in code-behind or in the markup.
 
->tabbedCode
+
 
 ````C#
 	        RadGrid1.BorderStyle = BorderStyle.None;
@@ -271,11 +271,11 @@ You can disable the *RadGrid* borders by settings the *BorderStyle* or *GridLine
 ````VB.NET
 	        RadGrid1.BorderStyle = BorderStyle.None
 ````
->end
+
 
 If you apply the same approach to the *MasterTableView* (or other *GridTableView*) you will remove the outer table border only - when combined with the above mentioned approach you can hide all borders in *RadGrid*.
 
->tabbedCode
+
 
 ````C#
 	        RadGrid1.MasterTableView.BorderStyle = BorderStyle.None;
@@ -283,7 +283,7 @@ If you apply the same approach to the *MasterTableView* (or other *GridTableView
 ````VB.NET
 	        RadGrid1.MasterTableView.BorderStyle = BorderStyle.None
 ````
->end
+
 
 ## Fonts / Unicode support
 
@@ -301,7 +301,7 @@ The default font of the generated pages is specified by the __DefaultFontFamily_
 
 Also, you can dynamically set fonts to the row elements in the same manner used to set background-colors:
 
->tabbedCode
+
 
 ````C#
 	  item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
@@ -309,7 +309,7 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````VB.NET
 	        item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
->end
+
 
 ## Exporting HTML tables
 
@@ -366,7 +366,7 @@ There are two ways to resize the columns - declarative (in the markup) and progr
 
 It is also possible to set the widths dynamically - *Page_PreRender* event is suitable for this functionality:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_PreRender(object o, EventArgs e)
@@ -381,7 +381,7 @@ It is also possible to set the widths dynamically - *Page_PreRender* event is su
 	        column.HeaderStyle.Width = Unit.Pixel(300)
 	    End Sub
 ````
->end
+
 
 >note If you want the changes to be applied to the exported file only, you can use a boolean flag to distinguish whether the event is fired as a result of a button click (or manual invoking of the export method).
 >

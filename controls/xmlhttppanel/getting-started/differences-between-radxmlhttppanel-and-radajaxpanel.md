@@ -95,7 +95,7 @@ The following example demonstrates how to benefit by using both of the controls 
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -193,6 +193,6 @@ The following example demonstrates how to benefit by using both of the controls 
 	        End Function
 	    End Class
 ````
->end
+
 
 

@@ -50,7 +50,7 @@ This event can be used for executing custom code before the items of the RadRota
 
 The value, passed to the WebService method, can be accessed via the __argument__ parameter of that method.
 
->tabbedCode
+
 
 ````C#
 		[WebMethod]
@@ -69,4 +69,4 @@ The value, passed to the WebService method, can be accessed via the __argument__
 	End Class
 
 
->end
+

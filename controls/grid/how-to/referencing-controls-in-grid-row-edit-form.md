@@ -18,7 +18,7 @@ There are numerous situations in which you may need to get reference to controls
 
 The upcoming code sample represents how to alter the color for the __City__ column on checkbox state change and how to load different set of items for combo in par with the user selection in another combo. Please note that the items refresh action is not included:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
@@ -169,6 +169,6 @@ The upcoming code sample represents how to alter the color for the __City__ colu
 	        End If
 	    End Sub
 ````
->end
+
 
 Live example is available [here](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/accessingcellsandrows/defaultcs.aspx).

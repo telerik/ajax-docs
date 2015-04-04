@@ -28,7 +28,7 @@ For example:
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -51,7 +51,7 @@ For example:
 	    End Sub
 	
 ````
->end
+
 
 Alternatively, you can take advantage of the 10 predefined, skin-independent CSS styles that we offer with Q1 2009 SP1.RadScheduler will automatically recognize the following class names:
 
@@ -83,7 +83,7 @@ You can handle the __AppointmentDataBound__ event and use a custom condition bas
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -101,7 +101,7 @@ You can handle the __AppointmentDataBound__ event and use a custom condition bas
 	    End Sub
 				
 ````
->end
+
 
 This code causes RadScheduler to render the value of the CssClass property that you set in the__AppointmentDataBound__ event to the __rsApt__ div of the appointments. Here is the resulting html output for the "Green" appointment:
 
@@ -160,7 +160,7 @@ An illustration of this method can be seen in the [Defining Resources](http://de
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -207,7 +207,7 @@ An illustration of this method can be seen in the [Defining Resources](http://de
 	    End Sub
 	
 ````
->end
+
 
 ## Using custom background image
 
@@ -242,7 +242,7 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -259,6 +259,6 @@ If you need to use your own custom style for the appointments, here is how to pr
 	    End Sub
 				
 ````
->end
+
 
 The background images for the appointment styles can be found in your local installation of the Telerik.Web.UIsuit -> *Skins\Common\Scheduler* and the css rules are defined in __Scheduler.css__ in the Skins folder.

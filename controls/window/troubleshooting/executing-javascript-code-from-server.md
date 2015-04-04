@@ -37,7 +37,7 @@ For example you could use a label:
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -76,7 +76,7 @@ For example you could use a label:
 	End Class
 
 
->end
+
 
 As an alternative, you could use Literal, [Page.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerstartupscript.aspx), [Page.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.page.registerclientscriptblock.aspx)or if you are using ASP.NET 2.x - [ClientScriptManager.RegisterStartupScript](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerstartupscript.aspx)/ [ClientScriptManager.RegisterClientScriptBlock](http://msdn.microsoft.com/en-us/library/system.web.ui.clientscriptmanager.registerclientscriptblock.aspx)methods.
 
@@ -110,7 +110,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -144,7 +144,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	End Class
 
 
->end
+
 
 >tip If you are working with Ajax requests however, it is better to use the asp:Scriptmanager’s[RegisterStartupScript()](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.registerstartupscript.aspx)method as shown below:
 >
@@ -166,7 +166,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)  
@@ -193,7 +193,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	End Class
 
 
->end
+
 
 More information on this subject can also be found in these KB articles (they are about RadWindow but use general approaches that can be applied to different scenarios):
 

@@ -24,7 +24,7 @@ In some scenarios you may want to get a hold on the auto-generated action button
 
 Below is a simple example which changes the text and some of the styles for those buttons:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -99,4 +99,4 @@ Below is a simple example which changes the text and some of the styles for thos
 	    }
 	
 ````
->end
+

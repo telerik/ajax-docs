@@ -14,7 +14,7 @@ position: 14
 
 When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versions of __GridTableView.InsertItem()__ method. This can help you set predefined values to specific fields. The example below demonstrates how to set predefined values to a dropdown list in an edit form with a single row of code.
 
->tabbedCode
+
 
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
@@ -42,7 +42,7 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 	        }
 	    }
 ````
->end
+
 
 ![InsertItem](images/grd_InsertItem_markedup.png)
 
@@ -68,7 +68,7 @@ The __suppressRebind__ is an optional parameter. It sets if the grid will be reb
 
 Generally you can handle any command, using the __ItemCommandEvent__. The example below shows hot to handle a custom command "DeleteSelected". It will delete all selected Items. In the ASPX file, we set the __CommandName__ property to "DeleteSelected". Then in the __ItemCommandEvent__ handler, we check if the __CommandName__ was "DeleteSelected" and call a method, which will delete all selected items.
 
->tabbedCode
+
 
 ````ASPNET
 	
@@ -122,4 +122,4 @@ Generally you can handle any command, using the __ItemCommandEvent__. The exampl
 	        End If
 	    End Sub
 ````
->end
+

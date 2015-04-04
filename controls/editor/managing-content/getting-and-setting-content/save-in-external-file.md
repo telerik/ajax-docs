@@ -29,7 +29,7 @@ You can save the RadEditor content in an external text or HTML file as well as l
 
 1. To save the RadEditor content in the external HTML file when the Submit button is pressed, add the following code inside the button click eventhandler in the codebehind:
 
->tabbedCode
+
 
 ````C#
 	protected string path = "test.html"; //specify the path to your file
@@ -54,11 +54,11 @@ You can save the RadEditor content in an external text or HTML file as well as l
 			End Using
 		End Sub
 ````
->end
+
 
 1. To load the external file content in the RadEditor, read the file content with the ReadFile function and assign the returned string to the Html property of RadEditor in the Page_Load event:
 
->tabbedCode
+
 
 ````C#
 	protected void Page_Load(object sender, EventArgs e)
@@ -97,6 +97,6 @@ You can save the RadEditor content in an external text or HTML file as well as l
 			End Using
 		End Function
 ````
->end
+
 
 

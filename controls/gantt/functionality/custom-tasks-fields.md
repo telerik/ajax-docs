@@ -20,7 +20,7 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 
 1. Create Custom Task class, inheriting from __Task__.
 
->tabbedCode
+
 
 ````C#
 	    public class CustomTask : Task
@@ -39,11 +39,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Sub
 	    End Class
 ````
->end
+
 
 1. Add custom property
 
->tabbedCode
+
 
 ````C#
 	    public class CustomTask : Task
@@ -70,11 +70,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Property
 	    End Class
 ````
->end
+
 
 1. Override __GetSerializationData__ and __LoadFromDictionary__ methods
 
->tabbedCode
+
 
 ````C#
 	    public class CustomTask : Task
@@ -116,11 +116,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Sub
 	    End Class
 ````
->end
+
 
 1. Create new __TaskFactory__
 
->tabbedCode
+
 
 ````C#
 	    public class CustomGanttTaskFactory : ITaskFactory
@@ -139,11 +139,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Function
 	    End Class
 ````
->end
+
 
 1. Override Provider __TaskFactory__ property to return new factory
 
->tabbedCode
+
 
 ````C#
 	    public class GanttCustomProvider : GanttProviderBase
@@ -170,11 +170,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	    End Class
 	
 ````
->end
+
 
 1. Update Provider __GetTasks__ Method
 
->tabbedCode
+
 
 ````C#
 	    public override List<ITask> GetTasks()
@@ -208,11 +208,11 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        Return tasks
 	    End Function
 ````
->end
+
 
 1. Update Provider __ToEntityTask__ Method
 
->tabbedCode
+
 
 ````C#
 	    private GanttTask ToEntityTask(ITask srcTask)
@@ -237,7 +237,7 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 		}
 	    End Function
 ````
->end
+
 
 ## Defining Custom Tasks Fields
 
@@ -271,7 +271,7 @@ To add new __Custom Task Field__ you will have to:
 
 * In the Code Behind
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -292,7 +292,7 @@ To add new __Custom Task Field__ you will have to:
 	        RadGantt1.CustomTaskFields.Add(customField)
 	    End Sub
 ````
->end
+
 
 # See Also
 

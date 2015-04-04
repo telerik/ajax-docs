@@ -22,7 +22,7 @@ ASP.NET provides two different solutions if you need to set focus dynamically:
 
 * You can call a control's __Focus__ method:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -35,11 +35,11 @@ ASP.NET provides two different solutions if you need to set focus dynamically:
 	        RadInput1.Focus()
 	    End Sub
 ````
->end
+
 
 * You can use the __Page.SetFocus__ method with control's ID as a parameter:
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -52,7 +52,7 @@ ASP.NET provides two different solutions if you need to set focus dynamically:
 	        Page.SetFocus(RadInput1.ClientID)
 	    End Sub
 ````
->end
+
 
 Both approaches do the same thing. It is your choice which method you prefer.
 
@@ -60,7 +60,7 @@ Both approaches do the same thing. It is your choice which method you prefer.
 
 __RadAjaxPanel/RadAjaxManager__ has a __FocusControl__ method that lets you set focus to desired controls. You can use the __RadAjaxPanel.FocusControl/RadAjaxManager.FocusControl__ methods to set focus to a control after the Ajax request is complete:
 
->tabbedCode
+
 
 ````C#
 	        RadAjaxPanel1.FocusControl(RadInput1.ClientID);
@@ -70,13 +70,13 @@ __RadAjaxPanel/RadAjaxManager__ has a __FocusControl__ method that lets you set 
 	        RadAjaxPanel1.FocusControl(RadInput1.ClientID)
 	        RadAjaxManager1.FocusControl(RadInput1.ClientID)
 ````
->end
+
 
 ## Setting focus using the ScriptManager
 
 The __SetFocus__ method of the __ScriptManager__ works like the __SetFocus__ method for the __Page__ class. Both methods make the control with the specified ID the active control on the Web page. The __SetFocus__ method of the __ScriptManager__ is for setting focus during asynchronous postbacks. During postbacks and when the page is first rendered, the __SetFocus__ method calls the __SetFocus__ method of the __Page__ class.
 
->tabbedCode
+
 
 ````C#
 	        ScriptManager1.SetFocus(RadInput1.ClientID); 
@@ -84,7 +84,7 @@ The __SetFocus__ method of the __ScriptManager__ works like the __SetFocus__ met
 ````VB.NET
 	        ScriptManager1.SetFocus(RadInput1.ClientID)
 ````
->end
+
 
 ## Setting focus in client-side code
 

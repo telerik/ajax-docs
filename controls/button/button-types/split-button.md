@@ -64,7 +64,7 @@ __Example 2__: Utilizing the split button functionality on the server-side.
 
 
 
->tabbedCode
+
 
 ````C#
 	C# 	Copy Code
@@ -99,7 +99,7 @@ __Example 2__: Utilizing the split button functionality on the server-side.
 			End If
 		End Sub
 ````
->end
+
 
 # See Also
 

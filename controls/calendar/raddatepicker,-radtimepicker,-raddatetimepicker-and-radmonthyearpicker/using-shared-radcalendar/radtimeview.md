@@ -85,7 +85,7 @@ To define a shared popup control at runtime
 
 1. Assign the __RadCalendar__ and/or __RadTimeView__ instance as the value of the __SharedCalendar__ and/or __SharedTimeView__ property.
 
->tabbedCode
+
 
 ````ASPNET
 	     
@@ -143,4 +143,4 @@ To define a shared popup control at runtime
 	    End Sub
 	
 ````
->end
+

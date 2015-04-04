@@ -38,7 +38,7 @@ arguments:
 Use the __HeaderCellRender__ event handler to make changes to
 the header cell before it is rendered:
 
->tabbedCode
+
 
 ````C#
 	
@@ -76,7 +76,7 @@ the header cell before it is rendered:
 	    End Sub
 				
 ````
->end
+
 
 # See Also
 

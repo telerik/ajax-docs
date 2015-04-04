@@ -18,7 +18,7 @@ The example below represents how to delete grid items depending on __GridCheckBo
 
 The default delete functionality for each row through __DeleteColumn__ button is also supported in this example.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" Style="z-index: 101; left: 48px; position: absolute;
@@ -338,4 +338,4 @@ The default delete functionality for each row through __DeleteColumn__ button is
 	    End Sub chkboxTemplateButton_Click
 	
 ````
->end
+

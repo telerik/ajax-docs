@@ -57,7 +57,7 @@ To attach an event you can use either of these two approaches:
 
 __Example 2__: Attaching a handler in the code behind via the OnClientLoad property.
 
->tabbedCode
+
 
 ````ASPNET
 	<script type="text/javascript">
@@ -77,7 +77,7 @@ __Example 2__: Attaching a handler in the code behind via the OnClientLoad prope
 ````VB
 		RadEditor1.OnClientLoad = "OnClientLoad"
 ````
->end
+
 
 * On the client, to attach or detach event handlers, you should use theclient-side add/remove methods - __add___, __remove___. You can find a full list of the methods for attaching and detaching events in the [RadEditor Object]({%slug editor/client-side-programming/radeditor-object%}) article.__Example 3__: Attaching a handler via the client-side add_commandExecuted method.
 

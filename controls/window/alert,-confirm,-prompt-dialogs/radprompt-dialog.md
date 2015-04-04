@@ -57,7 +57,7 @@ This method also returns a reference to the RadAlert object (which is essentiall
 
 Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to call the __RadPrompt__:
 
->tabbedCode
+
 
 ````C#
 	    RadWindowManager1.RadPrompt("What is the answer to Life, the Universe and Everything?", "promptCallBackFn", 350, 100, null, "Deep Thought", "42");
@@ -69,7 +69,7 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 	End Class
 
 
->end
+
 
 ## 
 

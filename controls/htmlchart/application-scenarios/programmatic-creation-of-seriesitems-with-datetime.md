@@ -36,7 +36,7 @@ __Example 1__ illustrates how to convert .NET DateTime objects to JavaScript Dat
 
 __Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesItem__'s __X__ property.
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="640px" Height="480px">
@@ -138,7 +138,7 @@ __Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesIte
 	        TryCast(RadHtmlChart1.PlotArea.Series(0), ScatterLineSeries).SeriesItems.Add(ssi4)
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -38,7 +38,7 @@ To spellcheck dynamic controls:
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -63,4 +63,4 @@ To spellcheck dynamic controls:
 			spellChecker.ControlToCheck = textArea.ClientID
 		End Sub
 ````
->end
+

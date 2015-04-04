@@ -24,7 +24,7 @@ Use the __ActiveStepChanged__ event handler to respond when the user changes the
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_ActiveStepChanged(object sender, EventArgs e)
@@ -88,4 +88,4 @@ Use the __ActiveStepChanged__ event handler to respond when the user changes the
 	End Class
 
 
->end
+

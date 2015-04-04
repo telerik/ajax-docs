@@ -49,7 +49,7 @@ In contrast to that, when the __SelectedValue__ property is set in the code behi
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadDropDownTreeTest_DataBound(object sender, System.EventArgs e)
@@ -75,4 +75,4 @@ In contrast to that, when the __SelectedValue__ property is set in the code behi
 	
 	    End Sub
 ````
->end
+

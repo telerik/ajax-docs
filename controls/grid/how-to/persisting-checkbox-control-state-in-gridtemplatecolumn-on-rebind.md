@@ -20,7 +20,7 @@ The forthcoming sample presents how to retain the checkbox state in a hierarchic
 
 Similar actions could be performed for persistence of other controls state in __GridTemplateColumn__.
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" AllowSorting="True"
@@ -253,4 +253,4 @@ Similar actions could be performed for persistence of other controls state in __
 	        End If
 	    End Sub
 ````
->end
+

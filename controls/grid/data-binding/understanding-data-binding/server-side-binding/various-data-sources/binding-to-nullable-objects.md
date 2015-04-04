@@ -16,7 +16,7 @@ position: 4
 
 You can use a wide variety of custom objects as data sources for __RadGrid__. The only requirement is that the custom objects must implement the __ITypedList__, __IEnumarable__, or __ICustomTypeDescriptor__ interface. __RadGrid__ can bind to a list of custom objects with __Nullable__ properties, as shown in the following example:
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource">
@@ -96,4 +96,4 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	        End Property
 	    End Class
 ````
->end
+

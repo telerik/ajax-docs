@@ -36,7 +36,7 @@ Use the __NodeDataBound__ event handler to make changes to items as they are bou
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadNavigation1_NodeDataBound(object sender, NavigationNodeEventArguments e)
@@ -54,7 +54,7 @@ Use the __NodeDataBound__ event handler to make changes to items as they are bou
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

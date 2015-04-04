@@ -16,7 +16,7 @@ position: 6
 
 RadAutoCompleteBox can be bound to an OData service. The following application scenario shows an example of RadAutoCompleteBox bound to RadODataDataSource.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
@@ -37,7 +37,7 @@ RadAutoCompleteBox can be bound to an OData service. The following application s
 				DataValueField="CustomerID">
 			</telerik:RadAutoCompleteBox>
 ````
->end
+
 
 # See Also
 

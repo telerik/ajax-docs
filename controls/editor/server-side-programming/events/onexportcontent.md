@@ -24,7 +24,7 @@ The event handler receives two arguments:
 
 __Example 1__: How to save the __ExportOutput__ to a file on the server and prevent it from being sent to the client
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter">
@@ -91,11 +91,11 @@ __Example 1__: How to save the __ExportOutput__ to a file on the server and prev
 		End Sub
 	End Class
 ````
->end
+
 
 __Example 2__: Dynamically adding header and footer elements to the exported document in the __OnExportContent__ event
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
@@ -189,7 +189,7 @@ __Example 2__: Dynamically adding header and footer elements to the exported doc
 		End Sub
 	End Class
 ````
->end
+
 
 # See Also
 

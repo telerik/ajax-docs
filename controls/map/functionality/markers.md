@@ -48,7 +48,7 @@ __Example 1__: Adding a simple __Marker__ in __RadMap__ with ASP.NET markup
 
 __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">
@@ -72,7 +72,7 @@ __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 	
 			RadMap1.MarkersCollection.Add(myMarker)
 ````
->end
+
 
 ## Marker Shapes
 

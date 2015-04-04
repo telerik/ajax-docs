@@ -64,7 +64,7 @@ When implementing a dynamic personalized Portal site using the techniques descri
 
 1. Add the following property definition to the class definition of your Web page:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -107,7 +107,7 @@ When implementing a dynamic personalized Portal site using the techniques descri
 	    End Property
 	
 ````
->end
+
 
 1. Add a __Click__ event handler to the Button on the Web page. This event handler creates a new __RadDock__ control, creates a custom control inside it, and adds it to the first __RadDockZone__ control. Note that the __Tag__ property is used to store the information needed to create the custom control:
 
@@ -177,7 +177,7 @@ When implementing a dynamic personalized Portal site using the techniques descri
 
 1. Add a __SaveDockLayout__ event handler to the __RadDockLayout__ component. This event handler calls the __RadDockLayout.GetRegisteredDocksState__ method to obtain the current list of dock states and saves the list to the __CurrentDockStates__ property.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -199,11 +199,11 @@ When implementing a dynamic personalized Portal site using the techniques descri
 	    End Sub
 	
 ````
->end
+
 
 1. Add a __Page_Init__ event handler that recreates the __RadDock__ controls (including their child custom controls) after a postback:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -234,11 +234,11 @@ When implementing a dynamic personalized Portal site using the techniques descri
 	    End Sub
 	
 ````
->end
+
 
 1. Add a __LoadDockLayout__ event handler so that the __RadDockLayout__can restore the layout:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -265,7 +265,7 @@ When implementing a dynamic personalized Portal site using the techniques descri
 	    End Sub
 	
 ````
->end
+
 
 >tip To improve performance, you may want to use a hidden update panel for saving state when minimizing, movingand closing docks. This way the docks state is saved faster as there is no need to update the docking zones.	See[My Portal](http://demos.telerik.com/aspnet-ajax/Dock/Examples/MyPortal/DefaultCS.aspx)for a live example that uses this technique.
 >

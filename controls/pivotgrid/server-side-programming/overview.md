@@ -129,7 +129,7 @@ The RadPivotGrid exposes the following methods:
 
 Example
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -156,7 +156,7 @@ Example
 	        RadPivotGrid1.Sort(expression)
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -172,7 +172,7 @@ Example
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -191,7 +191,7 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(TryCast(RadPivotGrid1.Fields("Cost"), PivotGridColumnField))
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -207,7 +207,7 @@ Example:
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -226,7 +226,7 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(TryCast(RadPivotGrid1.Fields("Quantity"), PivotGridRowField))
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -238,7 +238,7 @@ Example:
 
 Example 1:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -253,11 +253,11 @@ Example 1:
 	        RadPivotGrid1.ClearAllFilters()
 	    End Sub
 ````
->end
+
 
 Example 2:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -272,7 +272,7 @@ Example 2:
 	        RadPivotGrid1.ClearFilter(RadPivotGrid1.Fields("Cost"))
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -284,7 +284,7 @@ Example 2:
 
 Example 1:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -299,11 +299,11 @@ Example 1:
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.Contains, RadPivotGrid1.Fields("Cost"), "filter value")
 	    End Sub
 ````
->end
+
 
 Example 2:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -318,7 +318,7 @@ Example 2:
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.IsNotBetween, RadPivotGrid1.Fields("Cost"), "filter value", "beetween filter value")
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -330,7 +330,7 @@ Example 2:
 
 Example 1:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -348,11 +348,11 @@ Example 1:
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.BeginsWith, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value")
 	    End Sub
 ````
->end
+
 
 Example 2:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -371,7 +371,7 @@ Example 2:
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value", "between filter value")
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -383,7 +383,7 @@ Example 2:
 
 Example 1:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -401,11 +401,11 @@ Example 1:
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value", "between filter value")
 	    End Sub
 ````
->end
+
 
 Example 2:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -423,7 +423,7 @@ Example 2:
 	        RadPivotGrid1.FilterBottom(RadPivotGrid1.Fields("Cost"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), PivotGridAggregateType.Items, 10)
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -435,7 +435,7 @@ Example 2:
 
 Example 1:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -450,11 +450,11 @@ Example 1:
 	        RadPivotGrid1.FilterBottom(RadPivotGrid1.Fields("Cost"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), PivotGridAggregateType.Items, 10)
 	    End Sub
 ````
->end
+
 
 Example 2:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -469,7 +469,7 @@ Example 2:
 	        RadPivotGrid1.SetFilterExcludes("Color", New Object() {"White", "Black"})
 	    End Sub
 ````
->end
+
 
 
 >caption  
@@ -481,7 +481,7 @@ Example 2:
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	    protected override void OnPreRender(EventArgs e)
@@ -512,7 +512,7 @@ Example:
 	        End If
 	    End Sub
 ````
->end
+
 
 ### RadPivotGrid Events
 

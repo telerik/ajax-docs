@@ -26,7 +26,7 @@ You can use this event to make adjustments to the appointments as they are loade
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -43,7 +43,7 @@ You can use this event to make adjustments to the appointments as they are loade
 	    End Sub
 	
 ````
->end
+
 
 # See Also
 

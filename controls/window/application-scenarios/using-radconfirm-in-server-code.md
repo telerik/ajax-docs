@@ -18,7 +18,7 @@ The __RadConfirm__ dialog is essentially a RadWindow, which means it is entirely
 
 A hidden button with the desired event handler can be placed on the page and the ____doPostBack()__ function can be used to call it.There are different ways to use it and some of them are listed in the[Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx)or in[this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using___doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadWindowManager runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
@@ -64,11 +64,11 @@ A hidden button with the desired event handler can be placed on the page and the
 			'This can be called only on positive/negative response, or in all cases the response can be stored in a hidden field, for example
 		End Sub
 ````
->end
+
 
 The above example can contain an UpdatePanel around the hidden button in order to invoke an AJAX request instead of a full postback.An alternative is to use the RadAjaxManager and its events for the purpose:
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadWindowManager runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
@@ -130,13 +130,13 @@ The above example can contain an UpdatePanel around the hidden button in order t
 			End If
 		End Sub
 ````
->end
+
 
 ## Using Page Methods
 
 An alternative is to use Page methods to finish the task as they also provide an easy feedback mechanism for the user.[This article](http://www.singingeels.com/Articles/Using_Page_Methods_in_ASPNET_AJAX.aspx)can be a good starting point for using them. Note that you need to set the __EnablePageMethods__ property of the script managerto __true__ to enable them and to also include a reference to __System.Web.Services__.
 
->tabbedCode
+
 
 ````ASPNET
 		<asp:ScriptManager ID="Scriptmanager1" runat="server" EnablePageMethods="true" />
@@ -213,7 +213,7 @@ An alternative is to use Page methods to finish the task as they also provide an
 			End If
 		End Sub
 ````
->end
+
 
 This approach allows you to pass more than one argument back to the server (depending on the number of arguments the server method's signature has)and to show feedback to the user easily, all encapsulated in a lightweight request.
 
@@ -221,7 +221,7 @@ This approach allows you to pass more than one argument back to the server (depe
 
 Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog - set its size, modality, behaviors (and other properties) as desiredand copy the ConfirmTemplate from [this article]({%slug window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates%}) inside its[ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) and modify it as desired.This allows for fine tuning of each aspect of the behavior of the dialog boxand to also use any combination of the above logic. Also, handlers for the buttons can be added easily sinceserver controls can be used in this case (for example RadButtons):
 
->tabbedCode
+
 
 ````ASPNET
 		<telerik:RadWindowManager runat="server" ID="RadWindowManager1">
@@ -286,6 +286,6 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 			'Handle the OK click
 		End Sub
 ````
->end
+
 
 Using this directly will cause a full postback when OK button is clicked which will also close this RadWindow. Alternatively, to use AJAX,an UpdatePanel can be added around the HTML template and an additional JavaScript function can close the RadWindow.

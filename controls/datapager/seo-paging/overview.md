@@ -109,7 +109,7 @@ In addition, you can specify the query page key for the grid that is used as par
 
 In case you need to set the paging settings programmatically, you have to do it on an early stage from the page life cycle.Hence, you can use the __Page_PreInit__ or the __Init__ event handler of the pager:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadDataPager1_Init(object sender, EventArgs e)
@@ -124,7 +124,7 @@ In case you need to set the paging settings programmatically, you have to do it 
 	        RadDataPager1.AllowSEOPaging = True
 	    End Sub
 ````
->end
+
 
 ## Page Size Support
 

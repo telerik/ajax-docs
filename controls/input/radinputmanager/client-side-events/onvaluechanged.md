@@ -39,7 +39,7 @@ In both cases the get_inputExtender() property could be used to get the unformat
 
 An easy way to distinguish who raised the event the browser OnChange event or the parse method of the RadInputManager is to check either the get_domEvent() property	whether it returns null, as we discussed above, the get_domEvent() property return null, only if the event is fired for a second tiem. The other approach is	to compare the get_oldValue() and the get_newValue() property values, if there is a difference this is the second time the event is raised, otherwise this	is the first time the event is fired.
 
->tabbedCode
+
 
 ````XML
 	            <asp:TextBox runat="server" ID="DateInput1"></asp:TextBox>
@@ -64,4 +64,4 @@ An easy way to distinguish who raised the event the browser OnChange event or th
 	                    }
 	                }
 ````
->end
+

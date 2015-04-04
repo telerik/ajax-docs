@@ -62,7 +62,7 @@ Instead of supplying an __ItemsRequested__ event handler to add items on demand 
 
 To use the integrated support, the Web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	
@@ -207,7 +207,7 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
->end
+
 
 __For a live example refer to the online demo:__[Populate From Web Service.](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)
 

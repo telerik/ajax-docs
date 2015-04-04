@@ -35,7 +35,7 @@ This example below demonstrates how you can pass an integer value to the Web Ser
 
 
 
->tabbedCode
+
 
 ````C#
 	    [WebMethod]
@@ -92,7 +92,7 @@ This example below demonstrates how you can pass an integer value to the Web Ser
 	        Return data
 	    End Function
 ````
->end
+
 
 ## Using Additional userContext information with the OnDataSourceSelect event
 
@@ -120,7 +120,7 @@ In the example below it is explained how to achieve the same scenario by passing
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -143,4 +143,4 @@ In the example below it is explained how to achieve the same scenario by passing
 	        source.SelectCommand = "SELECT * FROM[Products] WHERE [" + searchBox.DataTextField + "] LIKE " + likeCondition + "AND [UnitPrice] <=" + unitPrice
 	    End Sub
 ````
->end
+

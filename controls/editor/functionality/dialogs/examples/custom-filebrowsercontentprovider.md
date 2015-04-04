@@ -28,7 +28,7 @@ The steps to implement a custom __FileBrowserContentProvider__ are:
 
 1. Set the dialog's property *[ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html)* e.g. *RadEditor1.ImageManager.ContentProviderTypeName* = "__DatabaseFileBrowser, EditorWebApp"__ where the value of the property [ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html) should be the qualified assembly name of your custom content provider. The general format of the assembly name should be __"Full.Class.Name.Including.The.Namespace, Assembly.Name"__. For example if your content provider class is in a separate project and is declared like this:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -60,7 +60,7 @@ The steps to implement a custom __FileBrowserContentProvider__ are:
 	    End Namespace
 	
 ````
->end
+
 
 ...when it is compiled in the __ContentProviders.dll__ assembly, you should set the following value:
 
@@ -173,7 +173,7 @@ The sample implementation is using a database for information storage, and a sin
 | ------ | ------ | ------ |
 |Initial load of file browser dialog|
 
->tabbedCode
+
 
 ````C#
 	     
@@ -187,13 +187,13 @@ The sample implementation is using a database for information storage, and a sin
 		    ByVal path As String) As DirectoryItem
 	
 ````
->end|
+|
 >caption 
 
 ![](images/editor-dialogs005.png)|
 |Press the Delete button when a directory is selected|
 
->tabbedCode
+
 
 ````C#
 	     
@@ -206,13 +206,13 @@ The sample implementation is using a database for information storage, and a sin
 	        ByVal path As String) As String
 	
 ````
->end|
+|
 >caption 
 
 ![](images/editor-dialogs009.png)|
 |Press the Delete button when a file is selected|
 
->tabbedCode
+
 
 ````C#
 	     
@@ -225,13 +225,13 @@ The sample implementation is using a database for information storage, and a sin
 	        ByVal path As String) As String
 	
 ````
->end|
+|
 >caption 
 
 ![](images/editor-dialogs008.png)|
 |Uploading a file|
 
->tabbedCode
+
 
 ````C#
 	     
@@ -252,7 +252,7 @@ The sample implementation is using a database for information storage, and a sin
 		) As String
 	
 ````
->end|
+|
 >caption 
 
 ![](images/editor-dialogs011.png)|
@@ -265,7 +265,7 @@ The sample implementation is using a database for information storage, and a sin
 >
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -307,7 +307,7 @@ The sample implementation is using a database for information storage, and a sin
 	    End Function
 	
 ````
->end
+
 
 # See Also
 

@@ -45,7 +45,7 @@ __DataKeyNames__ property lists the additional fields of the DataSource that wil
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -66,4 +66,4 @@ __DataKeyNames__ property lists the additional fields of the DataSource that wil
 	    End Sub
 	
 ````
->end
+

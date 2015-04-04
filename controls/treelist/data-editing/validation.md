@@ -36,7 +36,7 @@ In order to prevent the update operation if the user enters data in an edit fiel
 
 Below are the code snippets of an example in which we add a RequiredFieldValidator to the TextBox editor of a TreeListBoundColumn:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadTreeList1_ItemCreated(object sender, Telerik.Web.UI.TreeListItemCreatedEventArgs e)
@@ -68,7 +68,7 @@ Below are the code snippets of an example in which we add a RequiredFieldValidat
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Adding a validator to EditItemTemplate of TreeListTemplateColumn
 

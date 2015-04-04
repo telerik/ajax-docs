@@ -24,7 +24,7 @@ The RadTreeMap control could be bound entirely at client-side. This scenario can
 
 __Example 1__ - demonstrates the technique for achieving a client-side data-binding for __RadTreeMap__.
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:radtreemap runat="server" id="RadTreeMap1"
@@ -46,4 +46,4 @@ __Example 1__ - demonstrates the technique for achieving a client-side data-bind
 	            }
 	        </script>
 ````
->end
+

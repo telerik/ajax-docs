@@ -26,7 +26,7 @@ There are various cases in which you may want to get the content of the cells in
 
 __Default__ file (ASPX and code-behind)
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
@@ -71,11 +71,11 @@ __Default__ file (ASPX and code-behind)
 	        }
 	    }
 ````
->end
+
 
 __Resources__ file (ASPX and code-behind)
 
->tabbedCode
+
 
 ````ASPNET
 	  <div>
@@ -124,4 +124,4 @@ __Resources__ file (ASPX and code-behind)
 	        }
 	    }
 ````
->end
+

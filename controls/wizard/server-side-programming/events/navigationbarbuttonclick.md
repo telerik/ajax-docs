@@ -34,7 +34,7 @@ Use the __NavigationBarButton__ event handler to respond when a button within th
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadWizard1_NavigationBarButtonClick(object sender, WizardEventArgs e)
@@ -80,4 +80,4 @@ Use the __NavigationBarButton__ event handler to respond when a button within th
 	End Class
 
 
->end
+

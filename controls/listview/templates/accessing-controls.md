@@ -16,7 +16,7 @@ position: 2
 
 To get reference to a control in RadListView LayoutTemplate you can use its FindControl(controlId) method.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_PreRender(object sender, EventArgs e)
@@ -29,13 +29,13 @@ To get reference to a control in RadListView LayoutTemplate you can use its Find
 	        Dim lbl As Label = TryCast(RadListView1.FindControl("Label1"), Label)
 	    End Sub
 ````
->end
+
 
 ## Accessing controls in the ItemTemplate
 
 To access a control in RadListView item you can handle the ItemCreated event as shown below:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemCreated(object sender, RadListViewItemEventArgs e)
@@ -53,13 +53,13 @@ To access a control in RadListView item you can handle the ItemCreated event as 
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Accessing controls in the EditItemTemplate/InsertItemTemplate
 
 If the RadListView item is in edit mode you can get reference to the respective RadListViewEditableItem instance and call the FindControl(controlId) method for it.
 
->tabbedCode
+
 
 ````C#
 	    protected void RadListView1_ItemCreated(object sender, RadListViewItemEventArgs e)
@@ -77,11 +77,11 @@ If the RadListView item is in edit mode you can get reference to the respective 
 	        End If
 	    End Sub
 ````
->end
+
 
 If the RadListView item is in insert mode you can reference the control the same way as in edit mode.
 
->tabbedCode
+
 
 ````C#
 	
@@ -100,4 +100,4 @@ If the RadListView item is in insert mode you can reference the control the same
 	        End If
 	    End Sub
 ````
->end
+

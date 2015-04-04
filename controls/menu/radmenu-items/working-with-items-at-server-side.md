@@ -20,7 +20,7 @@ After simply adding a RadMenu control to your Web page, use the following server
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -62,7 +62,7 @@ After simply adding a RadMenu control to your Web page, use the following server
 	        End If
 	    End Sub
 ````
->end
+
 
 ## Adding items dynamically
 
@@ -87,7 +87,7 @@ The __[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemClick(object sender, RadMenuEventArgs e)
@@ -129,7 +129,7 @@ The __[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})
 	        End Select
 	    End Sub
 ````
->end
+
 
 Clicking on both menu items results in the following:
 
@@ -172,7 +172,7 @@ The __ItemClick__ event handler deletes child items of the first root item dynam
 
 
 
->tabbedCode
+
 
 ````C#
 	protected void RadMenu1_ItemClick(object sender, RadMenuEventArgs e)
@@ -214,7 +214,7 @@ The __ItemClick__ event handler deletes child items of the first root item dynam
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

@@ -117,7 +117,7 @@ After the scripts have been registered, RadListView can be initialized using the
 
 Here follows an example of a RadListView initialized on the client, *using infinite scrolling*:
 
->tabbedCode
+
 
 ````ASPNET
 	    <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -203,7 +203,7 @@ Here follows an example of a RadListView initialized on the client, *using infin
 	        })($telerik.$);
 	    </script>
 ````
->end
+
 
 ## Disposing RadListView on the client-side
 

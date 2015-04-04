@@ -39,7 +39,7 @@ To bind to a table-based DataSource component:
 
 1. Bind any additional properties of the menu items using the __[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})__:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
@@ -52,7 +52,7 @@ To bind to a table-based DataSource component:
 	        e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "ToolTip"))
 	    End Sub
 ````
->end
+
 
 The resulting declaration looks something like the following:
 

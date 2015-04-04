@@ -24,7 +24,7 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 
 * __IsAjaxRequest__ - Set this property __true__ when the current request is through AJAX and __false__ when the request is a standard postback. In __Example 1__, "Button1" has been configured to be AJAX-enabled and the alert will display __true__. Clicking "Button2" will display __false__.
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -63,7 +63,7 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    End Sub
 	
 ````
->end
+
 
 * __DefaultLoadingPanelID__ - This property allows you to specify a default __LoadingPanel__ thatwill be shown when updating an AJAX enabled controls.
 
@@ -73,7 +73,7 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 
 * __ResponseScripts__ - This collection of strings contain JavaScript that you want to execute when the response returns to the browser. In __Example 2__ an "__alert()__" JavaScript function is added to the collection. Also see below for the rendered HTML results showing the call to __alert()__ near the end of the HTML.
 
->tabbedCode
+
 
 ````C#
 	
@@ -90,7 +90,7 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    End Sub
 				
 ````
->end
+
 
 Example 2: A sample code showing the usage of ResponseScripts property.
 

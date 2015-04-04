@@ -18,7 +18,7 @@ The first option to localize the header text is dynamically through resource fil
 
 ## Example 1
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -61,11 +61,11 @@ The first option to localize the header text is dynamically through resource fil
 	        End Select
 	    End Sub
 ````
->end
+
 
 ## Example 2
 
->tabbedCode
+
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid2" DataSourceID="SqlDataSource2" AllowSorting="True"
@@ -115,4 +115,4 @@ The first option to localize the header text is dynamically through resource fil
 	        }
 	    }
 ````
->end
+

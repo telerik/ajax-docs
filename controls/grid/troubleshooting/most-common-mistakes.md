@@ -26,7 +26,7 @@ The following two scenarios offer possible approaches to dynamically create a __
 
 You can create the __RadGrid__ instance and the grid structure in the __Page.Init__ event handler.Then the instance of __RadGrid__ is added to the controls collection of the Page. In this case, no __ViewState__is required for the grid structure to be persisted because it is recreated on each page initialization. There are no other special requirementsin this case.
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,7 +86,7 @@ You can create the __RadGrid__ instance and the grid structure in the __Page.Ini
 	Me.PlaceHolder1.Controls.Add( RadGrid1 )</pre>
 	          
 ````
->end
+
 
 ## 2nd Scenario
 
@@ -94,7 +94,7 @@ You can add __RadGrid__ to the page using the designer, but create the structure
 
 Example:
 
->tabbedCode
+
 
 ````C#
 	
@@ -124,7 +124,7 @@ Example:
 	        End If
 	    End Sub
 ````
->end
+
 
 ## 2. Misusing or Not Using NeedDataSource Event
 
@@ -144,7 +144,7 @@ See [Switching off RadGrid's viewstate ]({%slug grid/performance/optimizing-view
 
 One of the major differences between __RadGrid__ and the standard .NET __DataGrid__ control is thedynamic column structure of __RadGrid__. Unlike the __DataGrid__, __RadGrid__ supportsoperations such as column reordering and grouping which alter the __Cells__ collection of __GridItem__objects in a way that can’t be predicted by the page developer. For example, when using a __DataGrid__, many developers used tosearch a cell in an item using the following code:
 
->tabbedCode
+
 
 ````C#
 	item.Cells[4]          
@@ -152,11 +152,11 @@ One of the major differences between __RadGrid__ and the standard .NET __DataGri
 ````VB.NET
 	item.Cells(4)
 ````
->end
+
 
 However, imagine that the user has changed the column order using a client-side drag-and-drop operation. Then the cell with index 4 will no longerrefer the same field value. That's why __RadGrid__ provides the ability to access cells in items using the correspondingcolumn’s __UniqueName__. For example, if you have a column with the unique name "CustomerID" you can find the correspondingcell in a __GridItem__ using:
 
->tabbedCode
+
 
 ````C#
 	item.Cells["CustomerID"] 
@@ -168,7 +168,7 @@ However, imagine that the user has changed the column order using a client-side 
 	    'for GridDataItem you can replace that with
 	    item("CustomerID")
 ````
->end
+
 
 This will prevent you from accessing the wrong cell.
 

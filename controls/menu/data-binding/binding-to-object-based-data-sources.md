@@ -53,7 +53,7 @@ The following example shows a __RadMenu__ bound declaratively to an __ObjectData
 
 The __ObjectDataSource__ component is configured to use the __SiteDataItem__ business object. The __SiteDataItem__ class is defined below:
 
->tabbedCode
+
 
 ````C#
 	using System.Collections.Generic;
@@ -193,7 +193,7 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	        End Function
 	    End Class
 ````
->end
+
 
 ## Binding to an object that implements IEnumerable
 
@@ -215,7 +215,7 @@ To bind directly to a collection, you must bind the menu at runtime, using the f
 
 The following example shows a menu bound to an __ArrayList__. The list contains __SiteDataItem__ objects with the same definition as in the __ObjectDataSource__ example, only that their __ParentID__ property is of nullable type - __int?__:
 
->tabbedCode
+
 
 ````C#
 	    private ArrayList GenerateSiteData()
@@ -271,7 +271,7 @@ The following example shows a menu bound to an __ArrayList__. The list contains 
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

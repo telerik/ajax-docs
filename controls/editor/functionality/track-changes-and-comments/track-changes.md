@@ -72,7 +72,7 @@ The following steps will guide you on enabling the __Track Changes__ feature and
 
 1. Enable the built-in __Track Changes__ tools:
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" EnableTrackChanges="true">
@@ -120,7 +120,7 @@ The following steps will guide you on enabling the __Track Changes__ feature and
 			  <tool name="EnableTrackChangesOverride" Text="Enable Track Changes Override"/>
 			</tools>
 ````
->end
+
 
 At this point, the __Track Changes__ feature is ready to be used by end-users.Changes can be tracked in the text and the built-in tools are provided in the toolbar.
 
@@ -140,7 +140,7 @@ These setting are available in the __TrackChangesSettings__ inner tag, where the
 
 __Example 1__: Using TrackChangesSettings to define user settings
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" EnableTrackChanges="true">
@@ -157,7 +157,7 @@ __Example 1__: Using TrackChangesSettings to define user settings
 			RadEditor1.TrackChangesSettings.UserCssId = "reU0"
 			RadEditor1.TrackChangesSettings.CanAcceptTrackChanges = "true"
 ````
->end
+
 
 Optionally, you can use a custom __UserCssId__ value and define custom appearance for it. To do so you should implement a CSSfile with CSS rules like the ones in __Example 2__. This file should be imported into the RadEditor’s content area via the[CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) or the[ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/custom-stylization%}) only if the[ContentAreaMode property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is set to Iframe. If the Div mode is set, theCSS file should be directly imported in the main page.
 

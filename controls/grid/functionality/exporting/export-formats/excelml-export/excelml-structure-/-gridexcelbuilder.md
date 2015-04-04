@@ -52,7 +52,7 @@ __Data__ - the __DataElement__ represents the content of the current cell.
 
 __HRef__ - enables the content of a cell to work as a hyperlink with the specified target:
 
->tabbedCode
+
 
 ````C#
 	    protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelMLRowCreatedArgs e)
@@ -67,7 +67,7 @@ __HRef__ - enables the content of a cell to work as a hyperlink with the specifi
 	        cell.HRef = [String].Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString())
 	    End Sub
 ````
->end
+
 
 __MergeAcross__ - specifies the number of cells to merge across (right in LTR mode).
 

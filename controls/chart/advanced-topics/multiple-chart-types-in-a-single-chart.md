@@ -29,7 +29,7 @@ To designate dissimilar [chart types]({%slug chart/understanding-radchart-types/
 
 To assign chart types to a series at run-time programmatically you can pass the ChartSeriesType in the constructor or assign the ChartSeriesType after the series is constructed.The example below passes three chart series types to the constructor.
 
->tabbedCode
+
 
 ````C#
 	     
@@ -48,7 +48,7 @@ To assign chart types to a series at run-time programmatically you can pass the 
 	    Dim chartSeries3 As New ChartSeries("Minimum Temperatures", ChartSeriesType.Bubble)
 	
 ````
->end
+
 
 Use the Axis.Range property to set minimum values, maximum values and step amount for each axis.  The screen shot below shows three chart series types in the same chart. See below for the full source.
 >caption 
@@ -57,7 +57,7 @@ Use the Axis.Range property to set minimum values, maximum values and step amoun
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -227,4 +227,4 @@ Use the Axis.Range property to set minimum values, maximum values and step amoun
 	    Me.Page.Controls.Add(radChart) 
 				
 ````
->end
+

@@ -89,7 +89,7 @@ You might receive the following error message when using the export feature over
 
 In order to prevent this error add the following lines just before the exporting:
 
->tabbedCode
+
 
 ````C#
 	    RadTreeList1.Page.Response.ClearHeaders();
@@ -99,4 +99,4 @@ In order to prevent this error add the following lines just before the exporting
 	    RadTreeList1.Page.Response.ClearHeaders()
 	    RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
->end
+

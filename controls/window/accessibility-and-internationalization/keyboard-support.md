@@ -45,7 +45,7 @@ There are three ways to specify these shortcuts. The more common two are: in the
 
 or via the __Shortcuts__ server-side property:
 
->tabbedCode
+
 
 ````C#
 	            RadWindow1.Shortcuts.Add("Close", "Esc");
@@ -61,7 +61,7 @@ or via the __Shortcuts__ server-side property:
 	End Class
 
 
->end
+
 
 Since Q2 2012 the __RadWindow__ also offers the option to modify the shortcuts via JavaScript by using the following methods:
 

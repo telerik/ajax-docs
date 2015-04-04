@@ -46,7 +46,7 @@ You can create filter expressions as well as group expressions in the code behin
 
 In the following sample it is shown how to programmatically create a expression that filters the Orders table for orders with ShipName that starts with an 'A' and OrderDate either in the previous month, or not specified:
 
->tabbedCode
+
 
 ````ASPNET
 	        <telerik:RadFilter runat="server" ID="RadFilter1" ExpressionPreviewPosition="Bottom">
@@ -99,6 +99,6 @@ In the following sample it is shown how to programmatically create a expression 
 	        End If
 	    End Sub
 ````
->end
+
 
 This will result in the following:![filter Programmatic Expression](images/filter_ProgrammaticExpression.png)

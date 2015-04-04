@@ -56,7 +56,7 @@ An <ItemTemplate> section is added to the __RadDropDownList__ declaration. The i
 
 Before the template can use the RadDropDownList item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling __DataBind__ method of __RadDropDownListItem__ objects.
 
->tabbedCode
+
 
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
@@ -81,4 +81,4 @@ Before the template can use the RadDropDownList item's properties to bind the el
 	
 	
 ````
->end
+

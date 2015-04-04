@@ -27,7 +27,7 @@ The declaration of RadDropDownList object includes no DataSourceID property or <
 
 In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the RadDropDownList. The __DataBind__ method must be called after setting the __DataSource__ property.
 
->tabbedCode
+
 
 ````C#
 	
@@ -77,4 +77,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        dropdownlist.DataBind()
 	    End Sub
 ````
->end
+

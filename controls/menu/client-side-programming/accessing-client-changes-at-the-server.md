@@ -38,7 +38,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 
 
 
->tabbedCode
+
 
 ````C#
 	     
@@ -75,7 +75,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	    End Select
 	Next 
 ````
->end
+
 
 # See Also
 

@@ -99,7 +99,7 @@ Sets the intermediate points of the connection (set in global coordinates accord
 
 __Example 1__: Setting intermediate connection points:
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram1" runat="server">
@@ -134,7 +134,7 @@ __Example 1__: Setting intermediate connection points:
 			RadDiagram1.ConnectionsCollection.Add(connection)
 		End Sub
 ````
->end
+
 
 ### ConnectionDefaultSettings
 

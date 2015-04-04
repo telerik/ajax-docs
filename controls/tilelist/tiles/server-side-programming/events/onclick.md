@@ -28,7 +28,7 @@ The event handler receives two arguments - of type __object__ that is a referenc
 
 
 
->tabbedCode
+
 
 ````C#
 	    protected void Tile1_Click(object sender, EventArgs e)
@@ -47,4 +47,4 @@ The event handler receives two arguments - of type __object__ that is a referenc
 	End Class
 
 
->end
+

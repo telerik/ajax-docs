@@ -41,7 +41,7 @@ This approach can be used for RadDock, RadWindow (with ContentTemplate) or any c
 
 
 
->tabbedCode
+
 
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
@@ -55,4 +55,4 @@ This approach can be used for RadDock, RadWindow (with ContentTemplate) or any c
 			RadPersistenceManager1.PersistenceSettings.AddSetting(RadComboBox1")
 		End Sub
 ````
->end
+

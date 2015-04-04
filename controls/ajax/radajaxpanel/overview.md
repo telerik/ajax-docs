@@ -61,7 +61,7 @@ __Example 1__: Use external control to update __RadAjaxPanel__
 
 And in the code-behind:
 
->tabbedCode
+
 
 ````C#
 	
@@ -86,7 +86,7 @@ And in the code-behind:
 	        End Select
 	    End Sub
 ````
->end
+
 
 ## ajaxRequestWithTarget() Reference
 

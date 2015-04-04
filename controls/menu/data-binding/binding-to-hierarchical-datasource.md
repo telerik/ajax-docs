@@ -80,7 +80,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 1. To set additional properties or overwrite already populated fields, use the __ItemDataBound__ event. The example below overwrites the __TooTip__ property with the Text value of the item and sets the __Value__ property to a concatenated string of [Text] + "_Value".
 
->tabbedCode
+
 
 ````C#
 	protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e)
@@ -95,7 +95,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	        e.Item.Value = CStr(DataBinder.Eval(e.Item.DataItem, "title")) + "_Value"
 	    End Sub
 ````
->end
+
 
 ## Binding to XmlDataSource
 
@@ -155,7 +155,7 @@ Consider the following example:
 
 1. As with the SiteMapDataSource example above, you can map additional properties using the __[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})__:
 
->tabbedCode
+
 
 ````C#
 	protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e)
@@ -175,7 +175,7 @@ Consider the following example:
 	        End If
 	    End Sub
 ````
->end
+
 
 # See Also
 

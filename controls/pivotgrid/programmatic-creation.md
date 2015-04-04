@@ -22,7 +22,7 @@ The samples bellow illustrate both approaches:
 
 ## Create the RadPivotGrid entirely in code-behind on Page_Init
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
@@ -180,11 +180,11 @@ The samples bellow illustrate both approaches:
 	        Return myDataTable
 	    End Function
 ````
->end
+
 
 ## Statically declared RadPivotGrid and configured on Page_Load
 
->tabbedCode
+
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />    
@@ -354,4 +354,4 @@ The samples bellow illustrate both approaches:
 	        Return myDataTable
 	    End Function
 ````
->end
+

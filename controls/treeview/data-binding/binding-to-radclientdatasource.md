@@ -47,7 +47,7 @@ The code snippet below shows sample configuration of RadTreeView bound to RadCli
 
 
 
->tabbedCode
+
 
 ````C#
 	    [OperationContract]
@@ -180,4 +180,4 @@ The code snippet below shows sample configuration of RadTreeView bound to RadCli
 	End Class
 
 
->end
+

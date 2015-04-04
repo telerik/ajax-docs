@@ -26,7 +26,7 @@ RadSearchBox can be bound to Web service. The path to the Web service and the na
 
 To use the integrated support, the Web service should have the following signature:
 
->tabbedCode
+
 
 ````C#
 	
@@ -97,6 +97,6 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
->end
+
 
 

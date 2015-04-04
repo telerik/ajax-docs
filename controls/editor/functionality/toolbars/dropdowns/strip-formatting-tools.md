@@ -40,7 +40,7 @@ In a custom collection of tools, the build-in __Format Stripper__ dropdowncan be
 
 __Example 1__: Adding the PasteStrip dropdown to a tools collection.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1">
@@ -56,7 +56,7 @@ __Example 1__: Adding the PasteStrip dropdown to a tools collection.
 			  </tools>
 			</root>
 ````
->end
+
 
 Optionally, you can further enable stand-alone __Strip Formatting__ tools in a toolbar or fine tune the collectioninside the __PasteStrip__ dropdown (__Example 2__).
 >caption Figure 2: The result of the tools collection configuration in Example 2.
@@ -65,7 +65,7 @@ Optionally, you can further enable stand-alone __Strip Formatting__ tools in a t
 
 __Example 2__: Defining stand-alone Strip Formatting tools in a toolbar and a custom set of tools in the PasteStrip dropdown.
 
->tabbedCode
+
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" Skin="Silk" Width="500px" Height="250px">
@@ -102,7 +102,7 @@ __Example 2__: Defining stand-alone Strip Formatting tools in a toolbar and a cu
 	
 	
 ````
->end
+
 
 # See Also
 

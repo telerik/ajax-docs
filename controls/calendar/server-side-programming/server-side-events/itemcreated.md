@@ -29,7 +29,7 @@ The __ItemCreated__ event handler receives two arguments:
 You can use this event to customize the content or appearance of items in
 the time picker:
 
->tabbedCode
+
 
 ````C#
 	     
@@ -78,7 +78,7 @@ the time picker:
 	
 				
 ````
->end
+
 
 # See Also
 

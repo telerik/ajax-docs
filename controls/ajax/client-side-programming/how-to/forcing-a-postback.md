@@ -18,7 +18,7 @@ If you want to perform a single postback instead of an AJAX request, __arguments
 
 In the code-behind:
 
->tabbedCode
+
 
 ````C#
 	        if (!RadAjaxManager1.EnableAJAX)
@@ -32,7 +32,7 @@ In the code-behind:
 	            RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart"
 	        End If
 ````
->end
+
 
 On the client:
 
@@ -46,7 +46,7 @@ On the client:
 
 This approach is useful only when you want to perform a single postback. If you want to disable AJAX because of unsupported browsers or old versions of supported ones, we suggest you to do this on the server:
 
->tabbedCode
+
 
 ````C#
 	
@@ -56,7 +56,7 @@ This approach is useful only when you want to perform a single postback. If you 
 ````VB
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 ````
->end
+
 
 # See Also
 

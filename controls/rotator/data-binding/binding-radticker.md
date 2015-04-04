@@ -29,7 +29,7 @@ __RadTicker__'s databinding mechanism is the same as [RadRotator's]({%slug rotat
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -54,7 +54,7 @@ __RadTicker__'s databinding mechanism is the same as [RadRotator's]({%slug rotat
 	        RadTicker1.DataBind()
 	
 ````
->end
+
 
 If needed, you can feed different lines to the control's <items> collection by using the __<RadTickerItem>__ tag. RadTicker is also able to read literal content that is inside the __<RadTickerItem>__ tags. This way you can construct your tickers easily without having to worry about missing to use the template tags. You can use them only when you need them.
 

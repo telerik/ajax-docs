@@ -26,7 +26,7 @@ This example shows how to use the __Available__ property to control the availabi
 
 
 
->tabbedCode
+
 
 ````C#
 	
@@ -182,7 +182,7 @@ This example shows how to use the __Available__ property to control the availabi
 	    End Sub
 				
 ````
->end
+
 
 # See Also
 
