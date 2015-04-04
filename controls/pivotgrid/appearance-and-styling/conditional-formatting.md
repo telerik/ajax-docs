@@ -69,6 +69,7 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                    cell.Font.Italic = True
 	                End If
 ````
+
 The result of the above code is light blue background for all data cells:![DataCell formatting](images/pivotgrid-conditional_formatting_1.png)and italic text style for those that are shown under the TotalPrice column.![DataCell formatting](images/pivotgrid-conditional_formatting_2.png)
 
 1. *__Coloring the column and row total cells__*You can get the column and row total cells and apply styles to them based on various criteria. The following code applies different background color to the cells based on the data field they are calculated for and the actual values contained in them.
@@ -118,6 +119,7 @@ The result of the above code is light blue background for all data cells:![DataC
 	                        Exit Select
 	                End Select
 ````
+
 The code above results in the following formatting for column totals:![Column Total Formatting](images/pivotgrid-conditional_formatting_3.png)and for row totals as well:![Row Total Formatting](images/pivotgrid-conditional_formatting_4.png)
 
 1. *__Coloring the column and row grand total cells__*Coloring the column and row grand total cells follows the same logic as the total cells. Below follows a sample which demonstrates how styling can be applied to the row grand total cells for a given field:
@@ -157,6 +159,7 @@ The code above results in the following formatting for column totals:![Column To
 	                        Exit Select
 	                End Select
 ````
+
 ![Row and Column Grand Total Formatting](images/pivotgrid-conditional_formatting_5.png)
 
 1. *__Formatting the column and row headers based on their nested level__*You can use __ParentIndexes__ property which returns an array of the names of parent fields of a given header cell. In the below example, based on the length of the array, we differentiate the nested level of the headers and provide different styling for different levels.
@@ -269,6 +272,7 @@ The code above results in the following formatting for column totals:![Column To
 	            End If
 	        End If
 ````
+
 ![Formatting the aggregate fields](images/pivotgrid-conditional_formatting_7.png)
 
 # See Also

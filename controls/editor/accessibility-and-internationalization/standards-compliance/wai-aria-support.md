@@ -37,7 +37,7 @@ __Example 1__: Setting the __EnableAriaSupport__ property for __RadEditor__ and 
 			AccessibleRadEditor1.EnableAriaSupport = True
 	#End Region
 	End Class
-
+````
 
 
 

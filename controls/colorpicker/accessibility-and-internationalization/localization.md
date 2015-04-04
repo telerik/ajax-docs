@@ -50,6 +50,6 @@ Or via the code-behind:
 	    RadColorPicker1.Localization.WebPaletteTabText = "Palette"
 	    #End Region
 	End Class
-
+````
 
 

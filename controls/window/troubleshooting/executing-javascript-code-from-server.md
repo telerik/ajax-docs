@@ -1,4 +1,4 @@
----
+﻿---
 title: Executing JavaScript Code from Server
 page_title: Executing JavaScript Code from Server | UI for ASP.NET AJAX Documentation
 description: Executing JavaScript Code from Server
@@ -74,7 +74,7 @@ For example you could use a label:
 	        End Sub
 	    #End Region
 	End Class
-
+````
 
 
 
@@ -142,7 +142,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	        End Sub
 	    #End Region
 	End Class
-
+````
 
 
 
@@ -191,7 +191,7 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	        End Sub
 	    #End Region
 	End Class
-
+````
 
 
 

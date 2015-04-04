@@ -1,4 +1,4 @@
----
+﻿---
 title: Compression Settings
 page_title: Compression Settings | UI for ASP.NET AJAX Documentation
 description: Compression Settings
@@ -64,7 +64,7 @@ __Example 1__ demonstrates how to create DeflateSettings.
 			End Sub
 		End Class
 	End Namespace
-
+````
 
 
 ## LZMA Settings
@@ -119,7 +119,7 @@ The configurable parameters of the __LzmaSettings__ class are as follows:
 			End Sub
 		End Class
 	End Namespace
-
+````
 
 
 ## Store Settings
@@ -138,7 +138,7 @@ Store settings are used to just store the data using no compression.
 			End Sub
 		End Class
 	End Namespace
-
+````
 
 
 # See Also

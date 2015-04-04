@@ -178,6 +178,6 @@ The code snippet below shows sample configuration of RadTreeView bound to RadCli
 	#End Region
 	
 	End Class
-
+````
 
 

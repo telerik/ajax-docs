@@ -1,4 +1,4 @@
----
+﻿---
 title: Model Binding and Strongly Typed Data Controls Support
 page_title: Model Binding and Strongly Typed Data Controls Support | UI for ASP.NET AJAX Documentation
 description: Model Binding and Strongly Typed Data Controls Support
@@ -146,7 +146,7 @@ The GetProducts method has following declaration:
 	        Return From c In context.Categoriesc
 	    End Function
 	End Class
-
+````
 
 
 
@@ -204,7 +204,7 @@ The GetProducts method has following declaration:
 	        Return From c In context.Categoriesc
 	    End Function
 	End Class
-
+````
 
 Where the "ProductID" is one of the fields set as DataKeyNames of the corresponding bound control.
 
@@ -245,7 +245,7 @@ Where the "ProductID" is one of the fields set as DataKeyNames of the correspond
 	        Return From c In context.Categoriesc
 	    End Function
 	End Class
-
+````
 
 
 
@@ -274,7 +274,7 @@ Where the "ProductID" is one of the fields set as DataKeyNames of the correspond
 	        Return From c In context.Categoriesc
 	    End Function
 	End Class
-
+````
 
 
 

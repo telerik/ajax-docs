@@ -99,6 +99,8 @@ The result is:
 			RadColorPicker1.Items.AddRange(RadColorPicker1.GetGrayscaleColors())
 		End Sub
 ````
+
+
 The result is:
 >caption 
 

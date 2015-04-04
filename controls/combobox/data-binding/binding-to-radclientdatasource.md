@@ -116,7 +116,7 @@ The following application scenario shows an example of __RadComboBox__ bound to 
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -233,6 +233,6 @@ The code snippet below show an sample configuration of __RadComboBox__ bound to 
 	#End Region
 	
 	End Class
-
+````
 
 

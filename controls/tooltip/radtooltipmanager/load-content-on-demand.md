@@ -168,7 +168,7 @@ The WebService itself needs to have the following signature (including the param
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -239,7 +239,7 @@ The WCF WebService itself needs to have the following signature:
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -289,7 +289,7 @@ Where the context object is the following:
 	#End Region
 	
 	End Class
-
+````
 
 
 

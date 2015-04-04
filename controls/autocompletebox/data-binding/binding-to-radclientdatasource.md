@@ -118,6 +118,6 @@ The following application scenario shows an example of RadAutoCompleteBox bound 
 	#End Region
 	
 	End Class
-
+````
 
 

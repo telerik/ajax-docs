@@ -124,7 +124,7 @@ One of the most common scenario is to display items in edit mode or the insert i
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -236,7 +236,7 @@ There are three different approaches you can follow when you need to show the Ra
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -330,7 +330,7 @@ There are three different approaches you can follow when you need to show the Ra
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -418,7 +418,7 @@ For closing the insert form you can use the below code:
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -497,7 +497,7 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -568,7 +568,7 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 
 
@@ -630,6 +630,6 @@ Another case is where you need to close all edited items on external button clic
 	        End Sub
 	    End Class
 	End Class
-
+````
 
 

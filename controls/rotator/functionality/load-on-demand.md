@@ -1,4 +1,4 @@
----
+﻿---
 title: Load On Demand
 page_title: Load On Demand | UI for ASP.NET AJAX Documentation
 description: Load On Demand
@@ -80,7 +80,7 @@ The attached WebService should have the following signature:
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -117,7 +117,7 @@ The passed argument can be accessed through the __argument__ parameter of the We
 	#End Region
 	
 	End Class
-
+````
 
 
 

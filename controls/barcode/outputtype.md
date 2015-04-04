@@ -1,4 +1,4 @@
----
+﻿---
 title: OutputType
 page_title: OutputType | UI for ASP.NET AJAX Documentation
 description: OutputType
@@ -113,7 +113,7 @@ The output image can be generated using GetImage() method of the RadBarcode. It 
 	    End Sub
 	#End Region
 	End Class
-
+````
 
 
 
@@ -160,6 +160,6 @@ Radbarcode’s rendered image can be used as DataValue for the RadBinaryImage. H
 	    End Sub
 	#End Region
 	End Class
-
+````
 
 

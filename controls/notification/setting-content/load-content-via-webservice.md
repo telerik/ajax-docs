@@ -96,7 +96,7 @@ __RadNotification__ offers a built-in support for gathering data from a WebServi
 	    #End Region
 	
 	End Class
-
+````
 
 
 
@@ -207,6 +207,6 @@ An example method in the WebService:
 	    #End Region
 	
 	End Class
-
+````
 
 

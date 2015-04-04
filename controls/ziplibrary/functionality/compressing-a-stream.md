@@ -1,4 +1,4 @@
----
+﻿---
 title: Compressing a Stream
 page_title: Compressing a Stream | UI for ASP.NET AJAX Documentation
 description: Compressing a Stream
@@ -110,7 +110,7 @@ If you want to compress a specific stream (*inputStream*), you need to copy it t
 	        '			#End Region
 	    End Sub
 	End Class
-
+````
 
 
 ## Decompressing a Stream
@@ -133,7 +133,7 @@ Decompressing a stream is just as simple as compressing it. All you need to do i
 	        '			#End Region
 	    End Sub
 	End Class
-
+````
 
 
 ## CompressedStream Properties

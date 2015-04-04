@@ -91,6 +91,6 @@ The following example will show how the __OnClientTileDropped__ event can be use
 		End Sub
 	#End Region
 	End Class
-
+````
 
 

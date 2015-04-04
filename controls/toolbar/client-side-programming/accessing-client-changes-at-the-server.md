@@ -77,7 +77,7 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	
 	#End Region
 	End Class
-
+````
 
 
 

@@ -81,7 +81,7 @@ The following example shows how to setup the LiveTile in this scenario:
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -189,7 +189,7 @@ Below is the definition of the class __CustomObject__
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -245,7 +245,7 @@ The configuration of the LiveTile will be as follows:
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -353,7 +353,7 @@ Below is the definition of the class __CustomObject__
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -447,7 +447,7 @@ The example below shows this setup:
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -555,6 +555,6 @@ Below is the definition of the class __CustomObject__
 	#End Region
 	
 	End Class
-
+````
 
 

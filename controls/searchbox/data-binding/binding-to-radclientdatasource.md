@@ -118,6 +118,6 @@ The following application scenario shows an example of RadSearchBox bound to Rad
 	#End Region
 	
 	End Class
-
+````
 
 

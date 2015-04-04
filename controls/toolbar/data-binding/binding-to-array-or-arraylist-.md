@@ -75,7 +75,7 @@ The following example shows a toolbar bound to an __ArrayList__. The items in th
 	
 	#End Region
 	End Class
-
+````
 
 
 

@@ -183,7 +183,7 @@ This example will generate a simple DataTable with code so that its structure is
 	#End Region
 	
 	End Class
-
+````
 
 
 
@@ -278,7 +278,7 @@ This example will use a custom class and create a short List with its instances 
 	#End Region
 	
 	End Class
-
+````
 
 
 

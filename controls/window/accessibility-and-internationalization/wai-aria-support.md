@@ -37,7 +37,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadWindow__ and 
 		RadWindowManager1.EnableAriaSupport = true
 	#End Region
 	End Class
-
+````
 
 
 

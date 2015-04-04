@@ -56,6 +56,6 @@ Here is an example how to get the selection state of tile:
 	#End Region
 	
 	End Class
-
+````
 
 

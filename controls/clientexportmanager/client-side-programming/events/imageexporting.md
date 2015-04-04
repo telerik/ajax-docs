@@ -1,4 +1,4 @@
----
+﻿---
 title: ImageExporting
 page_title: ImageExporting | UI for ASP.NET AJAX Documentation
 description: ImageExporting
@@ -131,7 +131,7 @@ __Example 2__: Save the image sent from the client to a folder on the server.
 	    End Function
 	End Class
 	#End Region
-
+````
 
 
 

@@ -159,7 +159,7 @@ __Example 2: Generating some tiles in the code-behind to populate the RadTileLis
 		End Sub
 	#End Region
 	End Class
-
+````
 
 
 

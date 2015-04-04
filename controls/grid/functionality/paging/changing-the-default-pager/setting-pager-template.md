@@ -192,7 +192,7 @@ In the example below, The __ItemCreated__ event handler is used to change the __
 	    End Class
 	#End Region
 	End Class
-
+````
 
 
 
@@ -291,7 +291,7 @@ The following example illustrates this technique:
 	    End Class
 	#End Region
 	End Class
-
+````
 
 
 
@@ -360,7 +360,7 @@ To assign the __PagerTemplate__ for a grid in the code-behind, you need to desig
 	    End Class
 	#End Region
 	End Class
-
+````
 
 
 
@@ -437,7 +437,7 @@ In the __Page_Init__ event handler, you can assign an instance of your template 
 	    End Class
 	#End Region
 	End Class
-
+````
 
 
 

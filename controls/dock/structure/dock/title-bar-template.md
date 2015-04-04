@@ -227,7 +227,7 @@ You can provide a title bar template at runtime by setting the __TitlebarTemplat
 		End Class
 	#End Region
 	End Class
-
+````
 
 
 
@@ -346,7 +346,7 @@ The RadDock control is created from the code-behind and the TitlebarTemplate is 
 		End Class
 	#End Region
 	End Class
-
+````
 
 
 

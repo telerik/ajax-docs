@@ -68,7 +68,7 @@ Called for every RadRotator's item when its template is created. This event is c
 	
 	
 	End Class
-
+````
 
 
 
@@ -102,7 +102,7 @@ Called for every RadRotator's item after it is databound. This event is called a
 	
 	
 	End Class
-
+````
 
 
 
@@ -128,6 +128,6 @@ Called when a RadRotator's item is clicked and the click event is not canceled c
 	
 	
 	End Class
-
+````
 
 

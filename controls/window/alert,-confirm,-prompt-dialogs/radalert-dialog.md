@@ -74,7 +74,7 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 	    #EndRegion
 	
 	End Class
-
+````
 
 
 

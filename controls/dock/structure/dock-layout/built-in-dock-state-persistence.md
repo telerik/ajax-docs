@@ -1,4 +1,4 @@
----
+﻿---
 title: Built-in Dock State Persistence
 page_title: Built-in Dock State Persistence | UI for ASP.NET AJAX Documentation
 description: Built-in Dock State Persistence
@@ -162,9 +162,8 @@ The built-in dock state persistance is enabled by setting the property __EnableL
 	            Return New SqlConnection(ConfigurationManager.ConnectionStrings("dockPersistDB").ConnectionString)
 	        End Function
 	    End Class
-	
-	
 ````
+
 Note that the value of __LayoutRepositoryID__ is available via the __key__ parameter of the above methods and can be included the custom storage provider implementation.
 
 The LoadDockLayout also provides a property __LayoutRepositoryID__ which can be used for storing individual dock states that depend on the value of the property, e.g. for storing a unique dock state for every user in a website.

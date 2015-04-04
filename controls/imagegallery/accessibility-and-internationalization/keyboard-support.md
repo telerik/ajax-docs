@@ -1,4 +1,4 @@
----
+﻿---
 title: Keyboard Support
 page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
 description: Keyboard Support
@@ -116,6 +116,7 @@ Every __ImageGalleryShortut__ has the following properties:
 	        })
 	    End Sub
 ````
+
 will force the firing of the command if __N__, __Alt__ and __Ctrl__ keys arepressed. By default the value of the property is __None__.
 
 * __Enabled__ – Determines if the shortcut can be used.

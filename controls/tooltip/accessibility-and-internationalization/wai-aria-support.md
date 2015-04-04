@@ -37,7 +37,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and
 		RadToolTipManager1.EnableAriaSupport = True
 	#End Region
 	End Class
-
+````
 
 
 

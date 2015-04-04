@@ -1,4 +1,4 @@
----
+﻿---
 title: Opening from the Server
 page_title: Opening from the Server | UI for ASP.NET AJAX Documentation
 description: Opening from the Server
@@ -53,7 +53,7 @@ There are several ways to work around this:
 	        End Sub
 	    #End Region
 	End Class
-
+````
 
 
 

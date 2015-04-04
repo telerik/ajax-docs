@@ -133,7 +133,7 @@ Here is an example how to get all selected tiles from the control:
 		End Sub
 	#End Region
 	End Class
-
+````
 
 
 
@@ -208,7 +208,7 @@ Here is how to get the selected tiles from a given group (the second in this exa
 		End Sub
 	#End Region
 	End Class
-
+````
 
 
 

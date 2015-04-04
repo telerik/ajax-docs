@@ -1,4 +1,4 @@
----
+﻿---
 title: Right-to-Left Support
 page_title: Right-to-Left Support | UI for ASP.NET AJAX Documentation
 description: Right-to-Left Support
@@ -100,6 +100,6 @@ __Example 1: RadTileList in RTL mode.__
 		End Function
 	#End Region
 	End Class
-
+````
 
 
