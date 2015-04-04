@@ -62,14 +62,9 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 ````C#
 	            RadGrid1.MasterTableView.Items[1].Visible = false; //when IgnorePaging is false
 ````
-
-
-
 ````VB.NET
 	            RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
-
-
 >end
 
 >tabbedCode
@@ -77,14 +72,9 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 ````C#
 	            RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
 ````
-
-
-
 ````VB.NET
 	            RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 ````
-
-
 >end
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
@@ -102,16 +92,11 @@ There are two different ways to style these elements. The standard ASP.NET and t
 	        col.Style.BackColor = Color.Gray;
 	        col.Style.ForeColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	        Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
 	        col.Style.BackColor = Color.Gray
 	        col.Style.ForeColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -120,15 +105,10 @@ There are two different ways to style these elements. The standard ASP.NET and t
 	        xls.Row row = e.ExportStructure.Tables[0].Rows[2];
 	        row.Style.BackColor = Color.Blue;
 ````
-
-
-
 ````VB.NET
 	        Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 	        row.Style.BackColor = Color.Blue
 ````
-
-
 >end
 
 >tabbedCode
@@ -137,15 +117,10 @@ There are two different ways to style these elements. The standard ASP.NET and t
 	        xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
 	        cell1.Style.BackColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	        Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 	        cell1.Style.BackColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -154,15 +129,10 @@ There are two different ways to style these elements. The standard ASP.NET and t
 	        xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
 	        cell2.Style.ForeColor = Color.Tomato;
 ````
-
-
-
 ````VB.NET
 	        Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 	        cell2.Style.ForeColor = Color.Tomato
 ````
-
-
 >end
 
 ## Image Support
@@ -181,17 +151,12 @@ This is the most interesting and flexible functionality the new export brings to
 	        e.ExportStructure.Tables.Add(newSheet);
 	        newSheet.Cells[1, 1].Value = "NEW CELL";
 ````
-
-
-
 ````VB.NET
 	        'Adding new worksheet
 	        Dim newSheet As New xls.Table("NEW SHEET")
 	        e.ExportStructure.Tables.Add(newSheet)
 	        newSheet.Cells(1, 1).Value = "NEW CELL"
 ````
-
-
 >end
 
 ## Limitations

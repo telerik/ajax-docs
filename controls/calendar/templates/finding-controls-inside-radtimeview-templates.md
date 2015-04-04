@@ -81,9 +81,6 @@ locate the control in the template:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 		Protected Sub btnChangeColor_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnChangeColor.Click
@@ -94,8 +91,6 @@ locate the control in the template:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

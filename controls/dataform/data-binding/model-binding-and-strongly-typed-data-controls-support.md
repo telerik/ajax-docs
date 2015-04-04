@@ -102,9 +102,6 @@ The GetProducts method has following declaration:
 	               select p;
 	    }
 ````
-
-
-
 ````VB
 	    Private context As New DataClassesDataContext()
 	
@@ -173,9 +170,6 @@ The GetProducts method has following declaration:
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Public Sub UpdateProduct(ProductID As Integer)
 	        Dim updatedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()
@@ -229,9 +223,6 @@ The GetProducts method has following declaration:
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Public Sub InsertProduct(p As Product)
 	        If ModelState.IsValid Then
@@ -271,9 +262,6 @@ The GetProducts method has following declaration:
 	        MessageLabel.Text = string.Format("Product with ID {0} is deleted!", ProductID);
 	    }
 ````
-
-
-
 ````VB
 	    Public Sub DeleteProduct(ProductID As Integer)
 	        Dim deletedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()

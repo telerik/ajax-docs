@@ -81,9 +81,6 @@ The following example shows the steps for simple data-binding with __RadGrid__. 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub LoadData()
 	        Dim MyOleDbConnection As New OleDbConnection( _
@@ -117,8 +114,6 @@ The following example shows the steps for simple data-binding with __RadGrid__. 
 	        RadGrid1.DataBind()
 	    End Sub 'RadGrid1_PageIndexChanged 
 ````
-
-
 >end
 
 # See Also

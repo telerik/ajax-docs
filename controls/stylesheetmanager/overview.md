@@ -94,9 +94,6 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	}
 	
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Collections.Generic
@@ -111,8 +108,6 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	End Namespace
 	
 ````
-
-
 >end
 
 1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> __ComboBox.Telerik.css__ to the __TelerikSkinForComboBox.css__ file.
@@ -144,9 +139,6 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	}
 				
 ````
-
-
-
 ````VB.NET
 	Imports System.Web.UI
 	<Assembly: WebResource("TelerikCustomSkins.TelerikSkinForComboBox.css", "text/css")> 
@@ -162,8 +154,6 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 	End Namespace
 	
 ````
-
-
 >end
 
 >note Note that ComboBox_Images is the folder which contains the skin images.

@@ -137,9 +137,6 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 	        SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadFilter1_AppyExpressions(object sender, RadFilterApplyExpressionsEventArgs e)
@@ -151,9 +148,6 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadFilter1_AppyExpressions(ByVal sender As Object, ByVal e As RadFilterApplyExpressionsEventArgs)
@@ -164,8 +158,6 @@ RadFilter can be used to build complex filtering criteria by means of intuitive 
 	    End Sub
 	
 ````
-
-
 >end
 
 Find a live demo illustrating the integration of RadFilter with RadListView [here](http://demos.telerik.com/aspnet-ajax/filter/examples/firstlook/defaultcs.aspx).

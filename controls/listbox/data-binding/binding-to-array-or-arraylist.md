@@ -55,9 +55,6 @@ In the __Page_Load__ event handler, create the Array and the ArrayList, and bind
 	        listBox.DataBind();
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -80,8 +77,6 @@ In the __Page_Load__ event handler, create the Array and the ArrayList, and bind
 	        listBox.DataBind()
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -54,9 +54,6 @@ In order to set the title for the top calendar view, you should assign your valu
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        RadCalendar1.CalendarView.Title = "Title for the top view"
@@ -65,8 +62,6 @@ In order to set the title for the top calendar view, you should assign your valu
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 An alternative approach is to use the new __ChildViewRender__ event exposed by __RadCalendar__ which is fired for each child view just before it isrendered in the page response output. As such, this event constitutes the perfect place for setting the title of each child view:
@@ -79,16 +74,11 @@ An alternative approach is to use the new __ChildViewRender__ event exposed by _
 	        e.CalendarView.Title = "Month of " + e.CalendarView.GetEffectiveVisibleDate().ToString("MMMM");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadCalendar1_ChildViewRender(sender As Object, e As ChildViewRenderEventArgs) Handles RadCalendar1.ChildViewRender
 	        e.CalendarView.Title = "Month of " + e.CalendarView.GetEffectiveVisibleDate().ToString("MMMM")
 	    End Sub
 ````
-
-
 >end
 
 As noticed from the example code snippets above, each calendar view object exposes a method to get the first effective visible data in the month that the calendar view displays. In addition, the old property __TitleContent__ attached to eachcalendar view keeps the default title for the view. Together, both properties provide useful information to enable convenientway for title customization in any given application scenario.

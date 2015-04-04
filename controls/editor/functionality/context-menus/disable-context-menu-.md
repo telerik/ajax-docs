@@ -24,15 +24,10 @@ To disable RadEditor context menus, use code-behind to locate the context menu a
 	        RadEditor1.ContextMenus.FindByTagName("P").Enabled = false;
 	
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.ContextMenus.FindByTagName("A").Enabled = False
 	        RadEditor1.ContextMenus.FindByTagName("P").Enabled = False
 	
 ````
-
-
 >end

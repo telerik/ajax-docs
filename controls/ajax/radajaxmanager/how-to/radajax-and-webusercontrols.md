@@ -112,9 +112,6 @@ And in the code-behind:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        'Get the WebUserControl
@@ -128,8 +125,6 @@ And in the code-behind:
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(MyButton, MyLabel)
 	    End Sub 'Page_Load  
 ````
-
-
 >end
 
 >tabbedCode
@@ -140,16 +135,11 @@ And in the code-behind:
 	        Label1.Text = DateTime.Now.ToLongTimeString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 	        Label1.Text = DateTime.Now
 	    End Sub
 ````
-
-
 >end
 
 # See Also

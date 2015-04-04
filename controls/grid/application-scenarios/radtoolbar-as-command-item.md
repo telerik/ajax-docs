@@ -28,9 +28,6 @@ Below is a code extraction from the relevant online demo in the RadGrid:
 	      }
 	    }
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid2" AllowAutomaticUpdates="true" AllowAutomaticDeletes="true"
 	    DataSourceID="SqlDataSource1" Width="97%" AllowSorting="True" AutoGenerateColumns="true"
@@ -94,25 +91,17 @@ Below is a code extraction from the relevant online demo in the RadGrid:
 	            </InsertParameters>
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemDeleted(object source, GridDeletedEventArgs e)
 	    {
 	        e.ExceptionHandled = true;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As GridDeletedEventArgs)
 	        e.ExceptionHandled = True
 	    End Sub
 ````
-
-
 >end
 
 Additional information about the event bubbling mechanism of RadGrid for ASP.NET AJAX can be found here: [Command reference]({%slug grid/control-lifecycle/command-reference-%})

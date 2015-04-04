@@ -36,9 +36,6 @@ The following example builds the recurrence rule by reading the Start and End da
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -49,6 +46,4 @@ The following example builds the recurrence rule by reading the Start and End da
 	        ' Or directly as string Dim rruleText As String = RecurrenceEditor1.RecurrenceRuleTextEnd Sub
 	
 ````
-
-
 >end

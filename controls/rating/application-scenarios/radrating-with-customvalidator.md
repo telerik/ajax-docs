@@ -42,9 +42,6 @@ The validation is executed on the __OnServerValidate__ event of the CustomValida
 			args.IsValid = (Int32.Parse(args.Value) > 0);
 		}
 ````
-
-
-
 ````VB
 		Protected Sub CustomValidator1_ServerValidate(source As Object, args As ServerValidateEventArgs)
 			args.IsValid = (Int32.Parse(args.Value) > 0)

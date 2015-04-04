@@ -96,9 +96,6 @@ To define a shared popup control at runtime
 	<telerik:RadTimePicker ID="RadTimePicker1" runat="server" />
 	<asp:PlaceHolder ID="sharedCalendarPlaceHolder" runat="server" />	
 ````
-
-
-
 ````C#
 	
 	
@@ -123,9 +120,6 @@ To define a shared popup control at runtime
 	        RadDateTimePicker1.SharedTimeView = popupTime;
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -149,6 +143,4 @@ To define a shared popup control at runtime
 	    End Sub
 	
 ````
-
-
 >end

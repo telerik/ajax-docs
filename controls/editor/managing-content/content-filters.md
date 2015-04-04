@@ -59,16 +59,11 @@ __ContentFilters__
 	        RadEditor1.ContentFilters = Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute | Telerik.Web.UI.EditorFilters.FixEnclosingP;
 	
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.ContentFilters = Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute Or Telerik.Web.UI.EditorFilters.FixEnclosingP
 	
 ````
-
-
 >end
 
 You can enable and disable filters individually using server-side code:
@@ -80,17 +75,12 @@ You can enable and disable filters individually using server-side code:
 	        RadEditor1.EnableFilter(Telerik.Web.UI.EditorFilters.FixEnclosingP); RadEditor1.DisableFilter(Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute);
 	
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.EnableFilter(Telerik.Web.UI.EditorFilters.FixEnclosingP)
 	        RadEditor1.DisableFilter(Telerik.Web.UI.EditorFilters.MakeUrlsAbsolute)
 	
 ````
-
-
 >end
 
 For example to disable the RemoveScript server method of RadEditor, which strips the SCRIPT tags in the content area. set	__RadEditor1.DisableFilter(EditorFilters.RemoveScripts);__

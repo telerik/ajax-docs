@@ -30,9 +30,6 @@ The event handler receives two parameters:
 	        TextBox.Text = RadListBox1.SelectedItem.Text;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_TextChanged(sender As Object, e As EventArgs)
 	        TextBox.Text = RadListBox1.SelectedItem.Text

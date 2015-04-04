@@ -112,9 +112,6 @@ Before the template can use the ListBox item properties to bind the elements in 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -124,8 +121,6 @@ Before the template can use the ListBox item properties to bind the elements in 
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

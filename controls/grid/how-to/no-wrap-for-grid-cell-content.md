@@ -50,9 +50,6 @@ For auto-generated column subscribe to the __ColumnCreated__ event and set the _
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
 	        'add more column types to the conditional check if needed
@@ -61,8 +58,6 @@ For auto-generated column subscribe to the __ColumnCreated__ event and set the _
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 In the code-behind (just data-binding):
@@ -88,9 +83,6 @@ In the code-behind (just data-binding):
 	        RadGrid1.DataSource = myDataTable.DefaultView;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"))
@@ -109,8 +101,6 @@ In the code-behind (just data-binding):
 	        RadGrid1.DataSource = myDataTable.DefaultView
 	    End Sub
 ````
-
-
 >end
 
 >note This functionality is not supported with static headers (UseStaticHeaders = true) and column resizing. With static headers the cell content will be clipped if you resize a column to make its width dimension smaller than the longest cell data.

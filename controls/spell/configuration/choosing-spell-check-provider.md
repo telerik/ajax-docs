@@ -44,15 +44,10 @@ The example below demonstrates how to use and configure the EditDistanceProvider
 		RadSpell1.EditDistance = 2; 
 				
 ````
-
-
-
 ````VB.NET
 	     
 	RadSpell1.SpellCheckProvider = SpellCheckProvider.EditDistanceProvider
 	RadSpell1.EditDistance = 2
 				
 ````
-
-
 >end

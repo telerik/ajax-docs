@@ -23,16 +23,11 @@ Note that if you want to set empty sources for the MasterTableView/DetailTables 
 ````C#
 	            <GridInstance>.DataSource = new Object[0];  
 ````
-
-
-
 ````VB.NET
 	     
 							<GridInstance>.DataSource = new Object(){}
 				
 ````
-
-
 >end
 
 or
@@ -42,16 +37,11 @@ or
 ````C#
 	<DetailTableInstance>.DataSource = new Object[0];          
 ````
-
-
-
 ````VB.NET
 	     
 							<DetailTableInstance>.DataSource = new Object(){}
 				
 ````
-
-
 >end
 
 ## Error message"Unexpected ajax response was received from the server"
@@ -96,9 +86,6 @@ This problem can be fixed in the following ways:
 	        }
 	}          
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
@@ -112,8 +99,6 @@ This problem can be fixed in the following ways:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 * Do not set declaratively (using __Eval()/Bind()__ expression) the value for your control(s) in the html code of the page/user control

@@ -38,16 +38,11 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 	        e.Item.ToolTip = e.Item.Text; 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemCreated
 	        e.Item.ToolTip = e.Item.Text
 	    End Sub
 ````
-
-
 >end
 
 # See Also

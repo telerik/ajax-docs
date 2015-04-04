@@ -83,9 +83,6 @@ In the codebehind, you can directly access the controls in the title bar templat
 	            } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub LinkButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles LinkButton1.Click, LinkButton2.Click
@@ -105,8 +102,6 @@ In the codebehind, you can directly access the controls in the title bar templat
 	    End Sub
 	
 ````
-
-
 >end
 
 The template and event handler above create a __RadDock__ control with a title that can be edited:
@@ -177,9 +172,6 @@ You can provide a title bar template at runtime by setting the __TitlebarTemplat
 			}
 	
 ````
-
-
-
 ````VB
 	
 		Public Class DockTitleTemplate
@@ -284,9 +276,6 @@ The RadDock control is created from the code-behind and the TitlebarTemplate is 
 		}
 	
 ````
-
-
-
 ````VB
 		Protected Overrides Sub OnInit(e As EventArgs)
 			MyBase.OnInit(e)

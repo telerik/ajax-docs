@@ -164,9 +164,6 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
 	 </div>
 	</div>
 ````
-
-
-
 ````C#
 	    protected IList<Order> PendingOrders
 	    {
@@ -388,9 +385,6 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Property PendingOrdersStore() As IList(Of Order)
 	        Get
@@ -564,6 +558,4 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
 	        End Property
 	    End Class
 ````
-
-
 >end

@@ -23,14 +23,9 @@ If you want to invoke download for a file from an AJAX-enabled control (either p
 	        Response.WriteFile("~/Your_File");
 	        
 ````
-
-
-
 ````VB.NET
 	        Response.WriteFile("~/Your_File")
 ````
-
-
 >end
 
 Why? Because the __XmlHttpRequest__ cannot handle this.
@@ -44,14 +39,9 @@ Instead you can use the __ResponseScripts__ collection of the __RadAjax__ contro
 	        RadAjaxPanel1.ResponseScripts.Add(String.Format(@"window.location.href = ""{0}"";", "http://yoursite.com/Your_File"));
 	
 ````
-
-
-
 ````VB.NET
 	        RadAjaxPanel1.ResponseScripts.Add(String.Format("window.location.href = ""{0}"";", "http://yoursite.com/Your_File"))
 ````
-
-
 >end
 
 The __ResponseScripts__ collection will be executed after ajax request completes.

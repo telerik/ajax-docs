@@ -52,9 +52,6 @@ Once in the second page, you can access the the tab strip (or any other control)
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	
 	Partial Class CrossPageVB
@@ -69,6 +66,4 @@ Once in the second page, you can access the the tab strip (or any other control)
 	End Class 
 	 	
 ````
-
-
 >end

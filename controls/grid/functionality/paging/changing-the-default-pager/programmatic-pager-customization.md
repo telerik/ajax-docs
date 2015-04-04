@@ -40,9 +40,6 @@ To do this,
 	   <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemEvent(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -104,9 +101,6 @@ To do this,
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -163,6 +157,4 @@ To do this,
 	
 	
 ````
-
-
 >end

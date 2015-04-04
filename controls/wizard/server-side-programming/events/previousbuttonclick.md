@@ -42,9 +42,6 @@ Use the __OnPreviousButtonClick__ event handler to respond when a the previous b
 	        Label1.Text = "You clicked on PreviousButton button";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_PreviousButtonClick(sender As Object, e As WizardEventArgs) Handles RadWizard1.PreviousButtonClick
 	        Label1.Text = "You clicked on PreviousButton button"

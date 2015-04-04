@@ -37,9 +37,6 @@ Here are the steps:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
@@ -51,8 +48,6 @@ Here are the steps:
 	    End Sub
 	
 ````
-
-
 >end
 
 2. Define the changeEndDate javascript method as follows:

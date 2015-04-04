@@ -51,9 +51,6 @@ Following is a sample of how you can use the method to access different treelist
 	        TreeListDataItem altItem = RadTreeList1_NeedDataSource.GetItems(TreeListItemType.AlternatingItem)[0] as TreeListDataItem;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        'the detail item of the first data item in the RadTreeList control
@@ -66,8 +63,6 @@ Following is a sample of how you can use the method to access different treelist
 	        Dim altItem As TreeListDataItem = TryCast(RadTreeList1_NeedDataSource.GetItems(TreeListItemType.AlternatingItem)(0), TreeListDataItem)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

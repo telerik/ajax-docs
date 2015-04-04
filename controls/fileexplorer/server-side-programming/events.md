@@ -68,9 +68,6 @@ Example:
 			// e.Cancel = true; // Cancel the operation
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadFileExplorer1_ItemCommand(ByVal sender As Object, ByVal e As RadFileExplorerEventArgs)
 	        Select Case e.Command
@@ -95,8 +92,6 @@ Example:
 			End Select
 	    End Sub
 ````
-
-
 >end
 
 ## ExplorerPopulated
@@ -144,9 +139,6 @@ This event is fired twice - once when the TreeView's items are populated and sec
 	}
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadFileExplorer1_ExplorerPopulated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadFileExplorerPopulatedEventArgs)
 	        Select Case e.ControlName
@@ -171,6 +163,4 @@ This event is fired twice - once when the TreeView's items are populated and sec
 	    End Sub
 	
 ````
-
-
 >end

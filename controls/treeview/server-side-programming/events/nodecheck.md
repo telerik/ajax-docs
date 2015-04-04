@@ -26,9 +26,6 @@ When the user selects or unselects a Node checkbox, the __NodeCheck__ event fire
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeCheck(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -36,8 +33,6 @@ When the user selects or unselects a Node checkbox, the __NodeCheck__ event fire
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

@@ -40,9 +40,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
 	        If TypeOf e.Item Is GridPagerItem Then
@@ -51,8 +48,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 1. The following table lists the ID's of the controls in the pager when __Mode__ is "Advanced" or "Slider":
@@ -87,9 +82,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	    <MasterTableView Width="100%" DataSourceID="AccessDataSource1" />
 	</telerik:RadGrid>		
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 	    {
@@ -104,9 +96,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridPagerItem Then
@@ -119,8 +108,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ![](images/grd_AccessingPagerButtons.png)
@@ -142,9 +129,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridPagerItem Then
@@ -154,8 +138,6 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

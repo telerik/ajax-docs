@@ -76,9 +76,6 @@ The code snippet below shows sample configuration of RadDropDownTree bound to Ra
 	        //public string NavigateURL { get; set; }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

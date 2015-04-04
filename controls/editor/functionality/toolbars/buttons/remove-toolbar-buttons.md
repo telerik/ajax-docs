@@ -48,9 +48,6 @@ The second way to remove toolbar buttons is by using the provided RadEditor's Se
 	    } 
 				
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -70,8 +67,6 @@ The second way to remove toolbar buttons is by using the provided RadEditor's Se
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 You can see list the available tools in RadEditor by using the autocomplete feature of the Name EditorTool innertag attribute (to show the dropdown use Ctrl+Space):

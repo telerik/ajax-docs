@@ -118,9 +118,6 @@ __Example 3:__ Client-side change of __RadHtmlChart__'s data source.
 	    <telerik:RadButton runat="server" Text="ChangeDataSource" AutoPostBack="false" OnClientClicked="OnClientClicked1">
 	    </telerik:RadButton>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -142,9 +139,6 @@ __Example 3:__ Client-side change of __RadHtmlChart__'s data source.
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        RadHtmlChart1.DataSource = GetData()
@@ -164,8 +158,6 @@ __Example 3:__ Client-side change of __RadHtmlChart__'s data source.
 	        Return tbl
 	    End Function
 ````
-
-
 >end
 
 # See Also

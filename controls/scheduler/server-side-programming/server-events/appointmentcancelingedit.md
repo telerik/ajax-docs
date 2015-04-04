@@ -43,9 +43,6 @@ __AppointmentCancelingEdit__ has two parameters:
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Sub RadScheduler1_AppointmentCancelingEdit(ByVal sender As Object, _
@@ -57,6 +54,4 @@ __AppointmentCancelingEdit__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end

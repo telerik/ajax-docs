@@ -80,9 +80,6 @@ Here is how you can add "disabled" nodes from the code-behind.
 	    } 
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -98,6 +95,4 @@ Here is how you can add "disabled" nodes from the code-behind.
 	    End Sub
 	
 ````
-
-
 >end

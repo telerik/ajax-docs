@@ -113,9 +113,6 @@ In the code-behind, the __SortCommand__ event handler assigns a data source with
 	        RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -172,6 +169,4 @@ In the code-behind, the __SortCommand__ event handler assigns a data source with
 	    End Sub
 	
 ````
-
-
 >end

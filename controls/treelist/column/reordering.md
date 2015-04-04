@@ -34,14 +34,9 @@ When columns are created programmatically, they appear in the same order that th
 	        treelist.SwapColumns("FirstName", "LastName");
 	
 ````
-
-
-
 ````VB.NET
 	        treelist.SwapColumns("FirstName", "LastName")
 ````
-
-
 >end
 
 * The __SwapColumns(Int32,Int32)__ method accepts the indexes of two columns to swap:
@@ -53,14 +48,9 @@ When columns are created programmatically, they appear in the same order that th
 	        treelist.SwapColumns(3, 4);
 	
 ````
-
-
-
 ````VB.NET
 	        treelist.SwapColumns(3, 4)
 ````
-
-
 >end
 
 * The __OrderIndex__ property lets you change the position of columns to move them to a specificlocation:
@@ -84,9 +74,6 @@ When columns are created programmatically, they appear in the same order that th
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	        Dim cols As TreeListColumnsCollection = treelist.Columns
 	        Dim c As TreeListColumn = cols.FindByUniqueName(columnName)
@@ -102,8 +89,6 @@ When columns are created programmatically, they appear in the same order that th
 	            Next
 	        End If
 ````
-
-
 >end
 
 >caution When using the __OrderIndex__ property to reorder columns, make sure that you assign valuesso that no two columns have the same index and no index is omitted.

@@ -106,9 +106,6 @@ This method is used the same way as the regular Focus method with the only diffe
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
@@ -170,9 +167,6 @@ And the respective extension method:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Module ControlExtensions
 	    <Extension()>

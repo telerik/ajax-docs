@@ -131,9 +131,6 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 	    ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 	    {
@@ -161,9 +158,6 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridDataItem Then
@@ -185,8 +179,6 @@ Depending on the edit operation, __RadGrid__ uses a different mechanism for laun
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode

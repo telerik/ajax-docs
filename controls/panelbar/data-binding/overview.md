@@ -60,9 +60,6 @@ Usually, you also want to do one or more of the following:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
@@ -72,8 +69,6 @@ Usually, you also want to do one or more of the following:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Hierarchical data

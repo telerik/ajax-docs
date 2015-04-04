@@ -32,9 +32,6 @@ The __TextChanged__ event handler receives two arguments:
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAutoCompleteBox1_TextChanged(sender As Object, e As AutoCompleteTextEventArgs)
@@ -42,8 +39,6 @@ The __TextChanged__ event handler receives two arguments:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

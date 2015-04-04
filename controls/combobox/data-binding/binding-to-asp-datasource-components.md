@@ -42,9 +42,6 @@ If you need to map additional columns from the data source to properties of RadC
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -57,8 +54,6 @@ If you need to map additional columns from the data source to properties of RadC
 	    End Sub
 	
 ````
-
-
 >end
 
 ## AccessDataSource
@@ -197,9 +192,6 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -241,6 +233,4 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	    End Class
 	
 ````
-
-
 >end

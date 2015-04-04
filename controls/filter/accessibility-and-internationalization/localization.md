@@ -48,9 +48,6 @@ To customize the name of the fields when using filter container control you coul
 	        OnFieldEditorCreated="RadFilter1_FieldEditorCreated" ShowApplyButton="true">
 	    </telerik:RadFilter>
 ````
-
-
-
 ````C#
 	
 	    protected void RadFilter1_FieldEditorCreated(object sender, RadFilterFieldEditorCreatedEventArgs e)
@@ -62,9 +59,6 @@ To customize the name of the fields when using filter container control you coul
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadFilter1_FieldEditorCreated(ByVal sender As Object, ByVal e As RadFilterFieldEditorCreatedEventArgs)
@@ -74,8 +68,6 @@ To customize the name of the fields when using filter container control you coul
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Global Resource Files

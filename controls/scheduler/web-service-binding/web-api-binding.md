@@ -170,9 +170,6 @@ In the controller class each event is using a __WebApiData object__ that contain
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -264,8 +261,6 @@ In the controller class each event is using a __WebApiData object__ that contain
 	
 	
 ````
-
-
 >end
 
 In order for all CRUD operations to work properly when you host the application on __IIS server__ in the configuration file, you need to add the following settings in the __system.webServer__ section:

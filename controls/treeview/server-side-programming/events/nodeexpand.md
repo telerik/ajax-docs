@@ -28,9 +28,6 @@ When the user clicks the plus button next to a Node that has child Nodes, the __
 	        e.Node.ExpandMode = Telerik.Web.UI.TreeNodeExpandMode.ClientSide;
 	    } 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeView1_NodeExpand(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
 	        Dim i As Integer = 1
@@ -41,8 +38,6 @@ When the user clicks the plus button next to a Node that has child Nodes, the __
 	        e.Node.ExpandMode = Telerik.Web.UI.TreeNodeExpandMode.ClientSide
 	    End Sub
 ````
-
-
 >end
 
 # See Also

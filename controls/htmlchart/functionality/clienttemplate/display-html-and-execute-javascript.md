@@ -114,9 +114,6 @@ __Example 1__: This example illustrates how to render and display HTML in toolti
 				</PlotArea>
 			</telerik:radhtmlchart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -139,9 +136,6 @@ __Example 1__: This example illustrates how to render and display HTML in toolti
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not IsPostBack Then
@@ -161,8 +155,6 @@ __Example 1__: This example illustrates how to render and display HTML in toolti
 			Return tbl
 		End Function
 ````
-
-
 >end
 >caption Figure 1: Using a ClientTemplate to display HTML in a tooltip.
 

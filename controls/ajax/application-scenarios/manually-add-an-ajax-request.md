@@ -50,9 +50,6 @@ Usually HTML elements have more client-side events than their server-side counte
 	    }
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
@@ -61,8 +58,6 @@ Usually HTML elements have more client-side events than their server-side counte
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 * b. In the designer, set __RadAjaxManager1__ to update __Label1__.
@@ -80,16 +75,11 @@ Usually HTML elements have more client-side events than their server-side counte
 	    }
 	
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        TextBox1.Attributes.Add("onkeyup", RadAjaxManager1.GetAjaxRequestReference(TextBox1.ClientID))
 	    End Sub
 ````
-
-
 >end
 
 2. Implement the __AjaxRequest__ event of the __RadAjaxManager__:
@@ -106,9 +96,6 @@ Usually HTML elements have more client-side events than their server-side counte
 	    }
 	
 ````
-
-
-
 ````VB
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
 	        If e.Argument = TextBox1.ClientID Then
@@ -117,8 +104,6 @@ Usually HTML elements have more client-side events than their server-side counte
 	    End Sub
 	
 ````
-
-
 >end
 
 3.Set from the design-time configuration wizard that __RadAjaxManager1__ will update __Label1__.

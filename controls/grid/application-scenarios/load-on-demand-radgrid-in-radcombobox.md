@@ -140,9 +140,6 @@ In the code-behind, the __Page_Load__ event handler adds an AJAX setting for the
 	        return table1;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -188,6 +185,4 @@ In the code-behind, the __Page_Load__ event handler adds an AJAX setting for the
 	    End Function
 	
 ````
-
-
 >end

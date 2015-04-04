@@ -53,9 +53,6 @@ When you are populating the grid through __NeedDataSource__ and at the same time
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
 	        Dim table As New DataTable()
@@ -72,8 +69,6 @@ When you are populating the grid through __NeedDataSource__ and at the same time
 	        RadGrid1.DataSource = table
 	    End Sub
 ````
-
-
 >end
 
 If you are using __SqlDataSource__ you can make the grid grouping case sensitive with the following code:
@@ -90,9 +85,6 @@ If you are using __SqlDataSource__ you can make the grid grouping case sensitive
 	        RadGrid1.DataSource = table;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
 	        Dim dv As DataView = DirectCast(sqlDS1.[Select](DataSourceSelectArguments.Empty), DataView)
@@ -102,6 +94,4 @@ If you are using __SqlDataSource__ you can make the grid grouping case sensitive
 	        RadGrid1.DataSource = Table
 	    End Sub
 ````
-
-
 >end

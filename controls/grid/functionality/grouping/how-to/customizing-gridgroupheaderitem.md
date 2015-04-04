@@ -46,9 +46,6 @@ The following example illustrates how you can customize the formatting of the gr
 	    SelectCommand="SELECT [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock] FROM [Products]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 	    {
@@ -60,9 +57,6 @@ The following example illustrates how you can customize the formatting of the gr
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridGroupHeaderItem Then
@@ -72,6 +66,4 @@ The following example illustrates how you can customize the formatting of the gr
 	        End If
 	    End Sub
 ````
-
-
 >end

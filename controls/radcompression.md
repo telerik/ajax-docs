@@ -66,9 +66,6 @@ By default the RadCompression module will compress AJAX requests only (with the 
 	    ...
 	}
 ````
-
-
-
 ````VB.NET
 	<Telerik.Web.UI.RadCompressionSettings(HttpCompression:=Telerik.Web.UI.CompressionType.None)> _
 	Partial Public Class _Default
@@ -76,8 +73,6 @@ By default the RadCompression module will compress AJAX requests only (with the 
 	    '...
 	End Class
 ````
-
-
 >end
 
 Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done (note the *matchExact* attribute which determineswhether the rule will be forced for the specified path only or globally for the entire web site/web application project):#_web.config_

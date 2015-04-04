@@ -55,9 +55,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -79,6 +76,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	    End Sub 'BindToDataTable
 	
 ````
-
-
 >end

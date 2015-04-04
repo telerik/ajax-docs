@@ -38,9 +38,6 @@ __Example1:__ The example shows how to configure the __RadClientExportManager__ 
 	    </script>
 	</div>
 ````
-
-
-
 ````VB.NET
 	Imports System.Collections.Generic
 	Imports System.Linq

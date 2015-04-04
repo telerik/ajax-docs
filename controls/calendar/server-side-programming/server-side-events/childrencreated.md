@@ -47,9 +47,6 @@ You can use this event to set date input, calendar and time view properties, or 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -62,8 +59,6 @@ You can use this event to set date input, calendar and time view properties, or 
 	        picker.Controls.Add(clearLink)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -42,9 +42,6 @@ The server code creates a new toolbar button and a new context menu item and add
 			}
 		}
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -65,8 +62,6 @@ The server code creates a new toolbar button and a new context menu item and add
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript

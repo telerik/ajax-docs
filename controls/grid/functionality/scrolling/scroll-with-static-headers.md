@@ -49,15 +49,10 @@ You can also set the scrolling properties in the code-behind at runtime:
 	        RadGrid1.ClientSettings.Scrolling.AllowScroll = true;
 	        RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = true;
 ````
-
-
-
 ````VB.NET
 	        RadGrid1.ClientSettings.Scrolling.AllowScroll = True
 	        RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = True
 ````
-
-
 >end
 
 >note If you use static headers when the grid's __Width__ and __Height__ properties are set to "100%", the Web page shows only the grid scrollbars; the browser scrollbars are hidden. In this way, __RadGrid__ can mimic a desktop application such as Microsoft Excel.

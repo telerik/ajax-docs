@@ -70,9 +70,6 @@ The example below defines both the RadTreeView structure and a Context Menu, inl
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_ContextMenuItemClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeViewContextMenuEventArgs)
@@ -92,6 +89,4 @@ The example below defines both the RadTreeView structure and a Context Menu, inl
 	    End Sub
 	
 ````
-
-
 >end

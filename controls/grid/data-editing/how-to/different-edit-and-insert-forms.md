@@ -36,9 +36,6 @@ Note that you can extend the example to switch the visibility for multiple colum
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_NeedDataSource(ByVal source As System.Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        RadGrid1.DataSource = DataSourceHelperVB.GetDataTable("SELECT FirstName, LastName, BirthDate From Employees")
@@ -60,9 +57,6 @@ Note that you can extend the example to switch the visibility for multiple colum
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -92,6 +86,4 @@ Note that you can extend the example to switch the visibility for multiple colum
 	    }
 	
 ````
-
-
 >end

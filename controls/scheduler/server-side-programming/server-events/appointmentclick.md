@@ -34,9 +34,6 @@ __AppointmentClick__ has two parameters:
 	    }  
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentClick(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentClick
@@ -44,8 +41,6 @@ __AppointmentClick__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

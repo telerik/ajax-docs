@@ -41,9 +41,6 @@ __AppointmentInsert__ has two parameters:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentInsert(ByVal sender As Object, _
@@ -54,8 +51,6 @@ __AppointmentInsert__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

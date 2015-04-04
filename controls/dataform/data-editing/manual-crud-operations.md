@@ -42,9 +42,6 @@ In order to update an existing records you can follow the below listed steps.
 	        editedCustomer.ContactTitle = newValues["ContactTitle"].ToString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDataForm1_ItemUpdating(sender As Object, e As RadDataFormCommandEventArgs)
 	        Dim editedItem As RadDataFormEditableItem = TryCast(e.DataFormItem, RadDataFormEditableItem)
@@ -56,8 +53,6 @@ In order to update an existing records you can follow the below listed steps.
 	        editedCustomer.ContactTitle = newValues("ContactTitle").ToString()
 	    End Sub
 ````
-
-
 >end
 
 ## Inserting records
@@ -90,9 +85,6 @@ The logic here is similar to the above with one difference, here the __DataFormI
 	        });
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDataForm1_ItemInserting(sender As Object, e As RadDataFormCommandEventArgs)
 	        Dim insertedItem As RadDataFormInsertItem = TryCast(e.DataFormItem, RadDataFormInsertItem)
@@ -107,8 +99,6 @@ The logic here is similar to the above with one difference, here the __DataFormI
 	        })
 	    End Sub
 ````
-
-
 >end
 
 ## Deleting records
@@ -130,17 +120,12 @@ When deleting a record the logic that we follow is described in the following st
 	        dataSource.Remove(dataSource.Find(x => x.ID == int.Parse(deletItem.GetDataKeyValue("ID").ToString())));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDataForm1_ItemDeleting(sender As Object, e As RadDataFormCommandEventArgs)
 	        Dim deletItem As RadDataFormDataItem = TryCast(e.DataFormItem, RadDataFormDataItem)
 	        dataSource.Remove(dataSource.Find(Function(x) x.ID = Integer.Parse(deletItem.GetDataKeyValue("ID").ToString())))
 	    End Sub
 ````
-
-
 >end
 
 ## Example
@@ -195,9 +180,6 @@ The below provided code snippets illustrate a sample implementation of a scenari
 	            </InsertItemTemplate>
 	        </telerik:RadDataForm>
 ````
-
-
-
 ````C#
 	    private static readonly Random random = new Random();
 	    static string[] contactNames = new string[] { "Antonio Moreno", "Elizabeth Lincoln", "Hanna Moos", "Jaime Yorres", "Georg Pipps",
@@ -281,9 +263,6 @@ The below provided code snippets illustrate a sample implementation of a scenari
 	        RadDataForm1.DataSource = dataSource;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Shared ReadOnly random As New Random()
 	    Shared contactNames As String() = New String() {"Antonio Moreno", "Elizabeth Lincoln", "Hanna Moos", "Jaime Yorres", "Georg Pipps", "Pascale Cartrain", _
@@ -388,6 +367,4 @@ The below provided code snippets illustrate a sample implementation of a scenari
 	        RadDataForm1.DataSource = dataSource
 	    End Sub
 ````
-
-
 >end

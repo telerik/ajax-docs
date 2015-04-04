@@ -98,9 +98,6 @@ Below are the relevant code excerpts:
 	                    </SelectParameters>
 	                </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadChart1_ItemDataBound(object sender, Telerik.Charting.ChartItemDataBoundEventArgs e)
@@ -109,15 +106,10 @@ Below are the relevant code excerpts:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadChart1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Charting.ChartItemDataBoundEventArgs)
 	        e.SeriesItem.Name = DirectCast(DataBinder.Eval(e.DataItem, "pName"), String)
 	    End Sub
 ````
-
-
 >end

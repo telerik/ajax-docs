@@ -68,9 +68,6 @@ On some operating systems like MAC OS and Linux it is possible to have file name
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="CustomHandler" %>
 	
@@ -106,8 +103,6 @@ On some operating systems like MAC OS and Linux it is possible to have file name
 	
 	    End Class
 ````
-
-
 >end
 
 # See Also

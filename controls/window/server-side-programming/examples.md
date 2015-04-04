@@ -76,9 +76,6 @@ It is possible to increase the flexibility of the RadWindowManager and RadWindow
 	        firstWindow.NavigateUrl = "http://www.telerik.com/products/sharepoint/overview.aspx";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        'Set properties present only in RadWindowManager
@@ -128,6 +125,4 @@ It is possible to increase the flexibility of the RadWindowManager and RadWindow
 	    End Sub
 	
 ````
-
-
 >end

@@ -34,9 +34,6 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemClick(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
@@ -45,8 +42,6 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

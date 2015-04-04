@@ -35,9 +35,6 @@ The event handler receives two parameters:
 	        Label.Text = "Updated Item new index is " + e.Items[0].Index;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadListBox1_Updated(sender As Object, e As RadListBoxEventArgs)

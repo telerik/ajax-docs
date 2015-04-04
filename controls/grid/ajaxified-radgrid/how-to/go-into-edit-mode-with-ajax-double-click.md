@@ -139,9 +139,6 @@ And in the code-behind:
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	
@@ -178,8 +175,6 @@ And in the code-behind:
 	
 	
 ````
-
-
 >end
 
 You can see this sample live [ here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/EditOnDblClick/DefaultCS.aspx)

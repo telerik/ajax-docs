@@ -111,9 +111,6 @@ Here is an example that shows how to bind the tagCloud to an ObjectDataSource. I
 			}
 		}
 ````
-
-
-
 ````VB.NET
 	
 	    ''' <summary>
@@ -169,6 +166,4 @@ Here is an example that shows how to bind the tagCloud to an ObjectDataSource. I
 	        End Function
 	    End Class
 ````
-
-
 >end

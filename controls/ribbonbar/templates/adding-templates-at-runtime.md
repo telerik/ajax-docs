@@ -111,9 +111,6 @@ The following help article demonstrates how you can add templates to RadRibbonBa
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Overrides Sub OnInit(ByVal e As EventArgs)
@@ -192,8 +189,6 @@ The following help article demonstrates how you can add templates to RadRibbonBa
 		End Class
 	
 ````
-
-
 >end
 
 # See Also

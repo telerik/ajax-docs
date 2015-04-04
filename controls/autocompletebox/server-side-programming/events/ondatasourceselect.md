@@ -65,9 +65,6 @@ Here is a sample code demonstrating how this event can be used:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAutoCompleteBox1_DataSourceSelect(sender As Object, e As AutoCompleteBoxDataSourceSelectEventArgs)

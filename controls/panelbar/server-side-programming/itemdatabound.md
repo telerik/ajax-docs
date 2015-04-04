@@ -40,9 +40,6 @@ Use an __ItemDataBound__ event handler to initialize the properties of panel ite
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
@@ -52,8 +49,6 @@ Use an __ItemDataBound__ event handler to initialize the properties of panel ite
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

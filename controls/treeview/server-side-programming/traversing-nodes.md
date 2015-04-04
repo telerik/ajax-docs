@@ -28,9 +28,6 @@ To traverse Nodes, iterate the __Nodes__ collection of the TreeView or __Nodes__
 	   tbResults.Text += node.Text + System.Environment.NewLine;
 	} 		
 ````
-
-
-
 ````VB.NET
 	For Each node As RadTreeNode In RadTreeView1.Nodes
 	 tbResults.Text += node.Text + System.Environment.NewLine
@@ -39,6 +36,4 @@ To traverse Nodes, iterate the __Nodes__ collection of the TreeView or __Nodes__
 	 tbResults.Text += node.Text + System.Environment.NewLine
 	Next 		
 ````
-
-
 >end

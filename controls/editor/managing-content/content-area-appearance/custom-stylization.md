@@ -90,14 +90,9 @@ Setting the property from the Code-behind
 ````C#
 	        RadEditor1.ContentAreaCssFile = "~/ContentAreaCssFile.css";
 ````
-
-
-
 ````VB
 	        RadEditor1.ContentAreaCssFile = "~/ContentAreaCssFile.css"
 ````
-
-
 >end
 
 Setting the CSS rules
@@ -178,14 +173,9 @@ Setting the property from the Code-behind
 ````C#
 	        RadEditor1.CssFiles.Add("~/ContentAreaCssFile.css");
 ````
-
-
-
 ````VB
 	        RadEditor1.CssFiles.Add("~/ContentAreaCssFile.css")
 ````
-
-
 >end
 
 Setting the CSS rules
@@ -238,17 +228,12 @@ Setting the property from the Code-behind
 	        RadEditor1.CssClasses.Add(redText);
 	        RadEditor1.CssClasses.Add(greenText);
 ````
-
-
-
 ````VB
 	        EditorCssClass redText = New EditorCssClass("Red Text", ".redText")
 	        EditorCssClass greenText = New EditorCssClass("Green Text", ".greenText")
 	        RadEditor1.CssClasses.Add(redText)
 	        RadEditor1.CssClasses.Add(greenText)
 ````
-
-
 >end
 
 Result:

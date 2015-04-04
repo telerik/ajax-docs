@@ -40,9 +40,6 @@ Use an __TabCreated__ event handler to initialize tabs as they are added to the 
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub RadTabStrip1_TabCreated(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
@@ -50,6 +47,4 @@ Use an __TabCreated__ event handler to initialize tabs as they are added to the 
 	End Sub 
 	
 ````
-
-
 >end

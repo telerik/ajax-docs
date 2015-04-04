@@ -75,9 +75,6 @@ __Example 2__: Programmatic configuration of the __MapLayer__
 			<telerik:RadMap runat="server" ID="RadMap1">
 			</telerik:RadMap>
 ````
-
-
-
 ````C#
 			MapLayer myLayer = new MapLayer();
 			myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile;
@@ -86,9 +83,6 @@ __Example 2__: Programmatic configuration of the __MapLayer__
 	
 			RadMap1.LayersCollection.Add(myLayer);
 ````
-
-
-
 ````VB
 			Dim myLayer As MapLayer = New MapLayer
 			myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile
@@ -97,8 +91,6 @@ __Example 2__: Programmatic configuration of the __MapLayer__
 	
 			RadMap1.LayersCollection.Add(myLayer)
 ````
-
-
 >end
 
 ## Controlling the Visual Appearance of the MapLayer

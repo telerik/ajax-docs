@@ -255,9 +255,6 @@ The serialized output of the WebService can be minimized by using a custom class
 	        }
 	    } 	
 ````
-
-
-
 ````VB.NET
 	    <WebMethod()> _
 	    Public Function GetNodes(ByVal node As RadTreeNodeData, ByVal context As IDictionary) As IEnumerable
@@ -283,8 +280,6 @@ The serialized output of the WebService can be minimized by using a custom class
 	        End Property
 	    End Class
 ````
-
-
 >end
 
 __Do not persist nodes loaded on demand__

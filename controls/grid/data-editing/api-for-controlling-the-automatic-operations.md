@@ -28,9 +28,6 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
 	    {
@@ -45,8 +42,6 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 	        }
 	    }
 ````
-
-
 >end
 
 ![InsertItem](images/grd_InsertItem_markedup.png)
@@ -85,9 +80,6 @@ Generally you can handle any command, using the __ItemCommandEvent__. The exampl
 	  </CommandItemTemplate>
 	          
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -113,9 +105,6 @@ Generally you can handle any command, using the __ItemCommandEvent__. The exampl
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = "DeleteSelected" Then
@@ -133,6 +122,4 @@ Generally you can handle any command, using the __ItemCommandEvent__. The exampl
 	        End If
 	    End Sub
 ````
-
-
 >end

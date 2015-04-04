@@ -26,9 +26,6 @@ This article shows step by step how to prevent dual uploading of file, which has
 	            <telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Azure" OnClientFileUploading="onClientFileUploading" MultipleFileSelection="Automatic">
 	            </telerik:RadCloudUpload>
 ````
-
-
-
 ````JavaScript
 	            //Prevent uploading of file, which has already been uploaded.
 	            function onClientFileUploading(sender, args) {
@@ -42,8 +39,6 @@ This article shows step by step how to prevent dual uploading of file, which has
 	                }
 	            }
 ````
-
-
 >end
 
 # See Also

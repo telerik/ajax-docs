@@ -34,9 +34,6 @@ Use the __OnPreviousButtonClick__ event handler to respond when a RadWizardStep 
 	        e.RadWizardStep.ToolTip = e.RadWizardStep.Title;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_WizardStepCreated(sender As Object, e As WizardStepCreatedEventArgs) Handles RadWizard1.WizardStepCreated
 	        e.RadWizardStep.ToolTip = e.RadWizardStep.Title

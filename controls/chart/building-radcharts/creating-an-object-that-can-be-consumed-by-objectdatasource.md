@@ -53,9 +53,6 @@ See [Data Binding RadChart to an ObjectDataSource]({%slug chart/building-radchar
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Configuration
@@ -83,8 +80,6 @@ See [Data Binding RadChart to an ObjectDataSource]({%slug chart/building-radchar
 	End Namespace
 	
 ````
-
-
 >end
 
 

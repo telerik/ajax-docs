@@ -32,9 +32,6 @@ The __EntryAdded__ event handler receives two arguments:
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAutoCompleteBox1_EntryAdded(sender As Object, e As AutoCompleteEntryEventArgs)
@@ -42,8 +39,6 @@ The __EntryAdded__ event handler receives two arguments:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

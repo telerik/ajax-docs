@@ -33,15 +33,10 @@ By default RadEditor for ASP.NET AJAX uses the CSS classes available in the curr
 				RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles1.css");
 	            RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles2.css");
 ````
-
-
-
 ````VB
 	        RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles1.css")
 	        RadEditor1.CssFiles.Add("~/ExternalCssFiles/Styles2.css")
 ````
-
-
 >end
 
 ````XML
@@ -93,15 +88,10 @@ The css classes available in the external css files will populate the "Apply Css
 	            RadEditor1.CssClasses.Add("Links class ", "a.link"); 
 	            RadEditor1.CssClasses.Add("Images class ", ".img");
 ````
-
-
-
 ````VB
 	        RadEditor1.CssClasses.Add("Links class ", "a.link")
 	        RadEditor1.CssClasses.Add("Images class ", ".img")
 ````
-
-
 >end
 
 You can also populate the CSS class dropdown using the __ToolsFile__, as shown in the example below:

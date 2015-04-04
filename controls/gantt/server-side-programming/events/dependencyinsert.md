@@ -42,9 +42,6 @@ __DependencyInsert__ event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_DependencyInsert(sender As Object, e As Telerik.Web.UI.Gantt.DependencyEventArgs)
 	        For Each dependency As var In e.Dependencies
@@ -54,8 +51,6 @@ __DependencyInsert__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

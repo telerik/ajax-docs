@@ -48,9 +48,6 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub RaisePostBackEvent(ByVal source As IPostBackEventHandler, ByVal eventArgument As String)
 	        MyBase.RaisePostBackEvent([source], eventArgument)
@@ -61,6 +58,4 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 	        End If
 	    End Sub
 ````
-
-
 >end

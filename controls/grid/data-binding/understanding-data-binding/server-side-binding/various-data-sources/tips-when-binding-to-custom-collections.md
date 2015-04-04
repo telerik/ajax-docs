@@ -200,9 +200,6 @@ The properties that are not visible for presentation have the [PresentationHidde
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.ComponentModel
@@ -303,8 +300,6 @@ The properties that are not visible for presentation have the [PresentationHidde
 	        End Class 'AggregatedObjectPropertyDescriptor
 	    End Namespace 'BusinessObjects 
 ````
-
-
 >end
 
 ## CustomTypeDescriptorHelper
@@ -420,9 +415,6 @@ The properties that are not visible for presentation have the [PresentationHidde
 	}
 	} 	
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	Imports System.ComponentModel
@@ -525,8 +517,6 @@ The properties that are not visible for presentation have the [PresentationHidde
 	        End Class 'AggregatedObjectPropertyDescriptor
 	    End Namespace 'BusinessObjects 
 ````
-
-
 >end
 
 This implementation also allows __RadGrid__ and __GridView__ (and other similar) controls to bind to properties of "sub-objects", which appear as properties of the business object, by just specifying the [IntroduceObject] attribute. The implementation of the __ICustomTypeDescriptor__ interface for the business object programmatically constructs a new set of properties for the type, containing the properties of the sub-objects in a "flat" manner. This is similar to what the __DataRowView__ does, for instance.
@@ -611,9 +601,6 @@ When you need to bind the grid control to a collection of dynamic objects it is 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
 	        RadGrid1.DataSource = GetData()
@@ -656,6 +643,4 @@ When you need to bind the grid control to a collection of dynamic objects it is 
 	        End Function
 	    End Class
 ````
-
-
 >end

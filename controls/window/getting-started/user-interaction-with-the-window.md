@@ -50,16 +50,11 @@ You can also set the __Behaviors__ property from the codebehind:
 							RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move | Telerik.Web.UI.WindowBehaviors.Close;
 				
 ````
-
-
-
 ````VB.NET
 	     
 							RadWindow1.Behaviors = Telerik.Web.UI.WindowBehaviors.Move Or _ Telerik.Web.UI.WindowBehaviors.Close
 				
 ````
-
-
 >end
 
 

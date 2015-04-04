@@ -67,17 +67,12 @@ __Example 2__: Handling the Selecting event of the __LinqDataSource__ from __Exa
 			e.Result = northwindContext.Products.Where(p => p.CategoryID == 1).Take(5);
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub LinqDataSource1_Selecting(sender As Object, e As System.Web.UI.WebControls.LinqDataSourceSelectEventArgs) Handles LinqDataSource1.Selecting
 			Dim northwindContext As New LinqToSqlReadOnly.NorthwindReadOnlyDataContext()
 			e.Result = northwindContext.Products.Where(Function(p) p.CategoryID = 1).Take(5)
 		End Sub
 ````
-
-
 >end
 
 # See Also

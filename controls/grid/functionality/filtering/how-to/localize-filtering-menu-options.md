@@ -44,9 +44,6 @@ The following example illustrates this process:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        Dim Menu As GridFilterMenu = RadGrid1.FilterMenu
@@ -59,6 +56,4 @@ The following example illustrates this process:
 	        Next
 	    End Sub
 ````
-
-
 >end

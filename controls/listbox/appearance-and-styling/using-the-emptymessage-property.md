@@ -29,9 +29,6 @@ The __EmptyMessage__ property lets you specify a string that will appear when th
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -40,8 +37,6 @@ The __EmptyMessage__ property lets you specify a string that will appear when th
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Setting the EmptyMessage inline

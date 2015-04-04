@@ -223,9 +223,6 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private _dataContext As NorthwindDataContext
 	    Protected ReadOnly Property DbContext() As NorthwindDataContext
@@ -336,6 +333,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        End If
 	    End Sub
 ````
-
-
 >end

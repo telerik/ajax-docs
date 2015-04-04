@@ -38,21 +38,12 @@ __Example 1:__ Setting the EnalbeAriaSupport property for __RadTreeView__.
 	                </nodes>
 	            </telerik:RadTreeView>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
 	        RadTreeView1.EnableAriaSupport = true;
 	    }
 ````
-
-
-
-
-
-
 >end
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA rolesto the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.

@@ -66,9 +66,6 @@ In numerous cases you may want to perform data editing operations at database le
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    public partial class _Default : System.Web.UI.Page
 	    {
@@ -183,9 +180,6 @@ In numerous cases you may want to perform data editing operations at database le
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Shared dtTable As DataTable
 	    'Get the connectionstring from the webconfig and declare a global SqlConnection "SqlConnection"
@@ -295,8 +289,6 @@ In numerous cases you may want to perform data editing operations at database le
 	
 	    End Sub
 ````
-
-
 >end
 
 You can also review the forthcoming code library thread for different scenarios:

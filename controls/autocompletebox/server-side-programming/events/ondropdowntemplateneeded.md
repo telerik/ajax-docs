@@ -68,9 +68,6 @@ Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Partial Public Class AutoComplete_Examples_Templates_DefaultCS
@@ -99,8 +96,6 @@ Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 	    End Class
 	
 ````
-
-
 >end
 
 # See Also

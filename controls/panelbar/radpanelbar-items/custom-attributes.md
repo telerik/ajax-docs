@@ -50,9 +50,6 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	    Paragraph.Font.Underline = RadPanelBar1.Items[0].Items[2].Attributes["State"] == "checked";
 				
 ````
-
-
-
 ````VB.NET
 	
 	Paragraph.Font.Bold = RadPanelBar1.Items(0).Items(0).Attributes("State") = "checked"
@@ -61,8 +58,6 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	
 	
 ````
-
-
 >end
 
 ## Using Attributes in Client-Side Code
@@ -134,9 +129,6 @@ When binding the __RadPanelBar__ to data, custom attributes can be set in the __
 	   }
 	} 			
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -170,8 +162,6 @@ When binding the __RadPanelBar__ to data, custom attributes can be set in the __
 	    End Sub
 	
 ````
-
-
 >end
 
 The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%}). The event handler also sets the __ToolTip__ property of the item to the value of its custom attribute to allow for testing of the custom attribute:
@@ -188,9 +178,6 @@ The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound eve
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object,
@@ -203,8 +190,6 @@ The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound eve
 	
 	
 ````
-
-
 >end
 
 # See Also

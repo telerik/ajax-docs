@@ -100,9 +100,6 @@ The following code-snippet modifies the default __itemStyle__/__alternatingItemS
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
@@ -118,8 +115,6 @@ The following code-snippet modifies the default __itemStyle__/__alternatingItemS
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 ## Custom styles
@@ -141,9 +136,6 @@ In order to define a custom style, you should assign it to the desired element (
 	        e.Styles.Add(myStyle);
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
@@ -157,8 +149,6 @@ In order to define a custom style, you should assign it to the desired element (
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Styling header/footer
@@ -194,9 +184,6 @@ You add the symbols from the table below to data of the header / footer elements
 	        e.Styles.Add(myStyle);
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
@@ -210,8 +197,6 @@ You add the symbols from the table below to data of the header / footer elements
 	    End Sub
 	
 ````
-
-
 >end
 
 ## StyleElement object
@@ -258,14 +243,9 @@ In addition to the predefined formats,you could add your own custom formats.
 	        style.NumberFormat.Attributes["ss:Format"] = "MM/dd";
 	
 ````
-
-
-
 ````VB.NET
 			style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 ````
-
-
 >end
 
 ## Borders
@@ -301,9 +281,6 @@ Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) th
 	        e.Styles.Add(cstyle);
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -326,8 +303,6 @@ Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) th
 	        e.Styles.Add(cstyle)
 	    End Sub
 ````
-
-
 >end
 
 ## Hiding columns
@@ -343,9 +318,6 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	        RadGrid1.MasterTableView.ExportToExcel();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = False
@@ -353,8 +325,6 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	    End Sub
 	
 ````
-
-
 >end
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
@@ -399,9 +369,6 @@ The example below demonstrates how you could remove the protection on each secon
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
 	        e.WorkBook.Worksheets(0).IsProtected = True
@@ -422,8 +389,6 @@ The example below demonstrates how you could remove the protection on each secon
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 ## Print option
@@ -442,9 +407,6 @@ The following code snippet demonstrates how to use them.
 	        e.WorkBook.Worksheets[0].WorksheetOptions.Print.FitHeight = 1;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub grid_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
 	        e.WorkBook.Worksheets(0).WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4
@@ -452,6 +414,4 @@ The following code snippet demonstrates how to use them.
 	        e.WorkBook.Worksheets(0).WorksheetOptions.Print.FitHeight = 1
 	    End Sub
 ````
-
-
 >end

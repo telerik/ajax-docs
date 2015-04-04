@@ -36,9 +36,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	using Telerik.Charting;
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -46,8 +43,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    Imports Telerik.Charting
 	
 ````
-
-
 >end
 
 1. Next construct the RadChart itself.To the RadChart instance, assign the chart title using the ChartTitle.TextBlock.Text property.
@@ -60,17 +55,12 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	radChart.ChartTitle.TextBlock.Text = "My RadChart";
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim radChart As New RadChart()
 	    radChart.ChartTitle.TextBlock.Text = "My RadChart"
 	
 ````
-
-
 >end
 
 1. Construct a new [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) object. Assign a name to the [ChartSeries.]({%slug chart/understanding-radchart-elements/series-overview%}) Set the ChartSeries.Type to be __Bar__. Using the ChartSeries.AddItem() method, add a series of [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}) objects to the series Items collection. AddItem() takes as parameters a double "Value" and a string "Label".
@@ -90,9 +80,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	chartSeries.AddItem(35, "Wholesale");
 				
 ````
-
-
-
 ````VB.NET
 	
 	    ' Create a ChartSeries and assign its name and chart type
@@ -106,8 +93,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    chartSeries.AddItem(35, "Wholesale")
 	
 ````
-
-
 >end
 
 1. Finally, add the [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) to the RadChart Series____collection and add the RadChart to the page.
@@ -122,9 +107,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    this.Page.Controls.Add(radChart);
 				
 ````
-
-
-
 ````VB.NET
 	
 	    ' add the series to the RadChart Series collection
@@ -133,8 +115,6 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 	    Me.Page.Controls.Add(radChart) 
 	
 ````
-
-
 >end
 
 1. The finished chart in the running project should look like this example:
@@ -156,16 +136,11 @@ The alternative to using the [ChartSeries]({%slug chart/understanding-radchart-e
 	   ChartSeriesType.Bar);
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim chartSeries As ChartSeries = radChart.CreateSeries("Sales", System.Drawing.Color.RoyalBlue, System.Drawing.Color.LightSteelBlue, ChartSeriesType.Bar)
 	
 ````
-
-
 >end
 
 

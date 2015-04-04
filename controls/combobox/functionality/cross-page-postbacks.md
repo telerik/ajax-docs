@@ -41,9 +41,6 @@ Once in the second page, you can access the RadComboBox control on the previous 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -58,8 +55,6 @@ Once in the second page, you can access the RadComboBox control on the previous 
 	    End Sub
 	
 ````
-
-
 >end
 
 For a live example, see [Cross Page Postback](http://demos.telerik.com/aspnet-ajax/ComboBox/Examples/Functionality/CrossPagePostBack/DefaultCS.aspx).

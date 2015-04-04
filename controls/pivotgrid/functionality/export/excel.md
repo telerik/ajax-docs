@@ -75,9 +75,6 @@ In order to apply formatting to the exported excel cells or to apply some styles
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_PivotGridCellExporting(sender As Object, e As PivotGridCellExportingArgs)
 	        Dim modelDataCell As PivotGridBaseModelCell = TryCast(e.PivotGridModelCell, PivotGridBaseModelCell)
@@ -93,8 +90,6 @@ In order to apply formatting to the exported excel cells or to apply some styles
 	        End If
 	    End Sub
 ````
-
-
 >end![pivotgrid-excel-export 1](images/pivotgrid-excel-export_1.png)![pivotgrid-excel-export 2](images/pivotgrid-excel-export_2.png)
 
 >note The __Format__ property of the __ExportedCell__ object is the excel based cell format. For example:
@@ -154,9 +149,6 @@ Another new approach is to hook __CellDataBound__ event handler and apply the st
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_CellDataBound(sender As Object, e As PivotGridCellDataBoundEventArgs)
 	        If TypeOf e.Cell Is PivotGridRowHeaderCell Then
@@ -169,8 +161,6 @@ Another new approach is to hook __CellDataBound__ event handler and apply the st
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Modifying the Output
@@ -185,17 +175,12 @@ This is the most interesting and flexible functionality the new export brings to
 	    e.ExportStructure.Tables.Add(newSheet);
 	    newSheet.Cells[1, 1].Value = "NEW CELL";
 ````
-
-
-
 ````VB.NET
 	    'Adding new worksheet
 	    Dim newSheet As New xls.Table("NEW SHEET")
 	    e.ExportStructure.Tables.Add(newSheet)
 	    newSheet.Cells(1, 1).Value = "NEW CELL"
 ````
-
-
 >end
 
 ## Limitations

@@ -54,9 +54,6 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub RadDropDownList1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.DropDownListEventArgs)
@@ -66,6 +63,4 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 	    End Sub
 	
 ````
-
-
 >end

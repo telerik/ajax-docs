@@ -80,9 +80,6 @@ Below is the code of a simple demo with two level hierarchy:
 	    </SelectParameters>
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_PreRender(object sender, EventArgs e)
@@ -112,9 +109,6 @@ Below is the code of a simple demo with two level hierarchy:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        HideExpandColumnRecursive(RadGrid1.MasterTableView)
@@ -136,8 +130,6 @@ Below is the code of a simple demo with two level hierarchy:
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 In order to hide the expand/collapse images in multiple nested levels, you will need to perform a recursive loop through each table in depth. How to traverse the grid items in such manner you can learn from [this topic]({%slug grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables/items-in-telerik-radgrid%}).

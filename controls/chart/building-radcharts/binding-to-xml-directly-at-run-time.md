@@ -42,9 +42,6 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind(); 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    ' assign the data source
@@ -60,8 +57,6 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind() 
 				
 ````
-
-
 >end
 
 >tabbedCode
@@ -87,9 +82,6 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind(); 
 	
 ````
-
-
-
 ````VB.NET
 	     
 	    ' assign the data source
@@ -105,8 +97,6 @@ To bind to the data in code at runtime to the XML file directly, use the [Server
 	    RadChart1.DataBind() 
 				
 ````
-
-
 >end
 
 The running application looks something like the figure shown below.

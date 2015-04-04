@@ -54,9 +54,6 @@ Usually, you also want to do one or more of the following:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadNavigation1_NodeDataBound(sender As Object, e As NavigationNodeEventArguments)
 	        e.Node.ToolTip = Convert.ToString("Read more about ") & DirectCast(DataBinder.Eval(e.Node.DataItem, "Text"), String)
@@ -65,8 +62,6 @@ Usually, you also want to do one or more of the following:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

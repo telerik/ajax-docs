@@ -43,9 +43,6 @@ After simply adding a RadMenu control to your Web page, use the following server
 	        }
 	    }		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then
@@ -65,8 +62,6 @@ After simply adding a RadMenu control to your Web page, use the following server
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Adding items dynamically
@@ -115,9 +110,6 @@ The __[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemClick
 	        Select Case e.Item.Value
@@ -137,8 +129,6 @@ The __[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})
 	        End Select
 	    End Sub
 ````
-
-
 >end
 
 Clicking on both menu items results in the following:
@@ -205,9 +195,6 @@ The __ItemClick__ event handler deletes child items of the first root item dynam
 	    }
 	}		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemClick
 	        If TypeOf e.Item.Owner Is RadMenuItem Then
@@ -227,8 +214,6 @@ The __ItemClick__ event handler deletes child items of the first root item dynam
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -89,17 +89,12 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	    e.Item.Value = (string)DataBinder.Eval(e.Item.DataItem, "title") + "_Value";
 	}		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
 	        e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "title"))
 	        e.Item.Value = CStr(DataBinder.Eval(e.Item.DataItem, "title")) + "_Value"
 	    End Sub
 ````
-
-
 >end
 
 ## Binding to XmlDataSource
@@ -172,9 +167,6 @@ Consider the following example:
 	    }
 	}      			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
 	        If e.Item.Level > 0 Then 'set tooltip only for child items      
@@ -183,8 +175,6 @@ Consider the following example:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

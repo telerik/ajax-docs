@@ -340,9 +340,6 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -359,8 +356,6 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    End Class
 	
 ````
-
-
 >end
 
 1. In the __Page_Load__ event handler of the page that contains your __RadWindowManager__, create an instance of your new ITemplate class and assign the instance as the value of the appropriate template property:
@@ -375,9 +370,6 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -385,6 +377,4 @@ The second way to change the template that the __RadWindowManager__ in your appl
 	    End Sub
 	
 ````
-
-
 >end

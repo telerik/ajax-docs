@@ -78,9 +78,6 @@ And in the code-behind:
 	    } 
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxPanel1_AjaxRequest(sender As Object, e As AjaxRequestEventArgs)
 	        Select Case e.Argument
@@ -89,8 +86,6 @@ And in the code-behind:
 	        End Select
 	    End Sub
 ````
-
-
 >end
 
 ## ajaxRequestWithTarget() Reference

@@ -57,9 +57,6 @@ __Example 1:__ Simple data binding.
 			}
 		</script>
 ````
-
-
-
 ````HTML
 		<style type="text/css">
 			.rrItem {
@@ -74,8 +71,6 @@ __Example 1:__ Simple data binding.
 			}
 		</style>
 ````
-
-
 >end
 
 ## Using RadClientDataSource for Data Binding
@@ -107,9 +102,6 @@ __Example 2:__ Using __RadClientDataSource__ control for Rotator data binding.
 		 	</ClientTemplate>
 		 </telerik:RadRotator>
 ````
-
-
-
 ````HTML
 		<style type="text/css">
 			.rrItem {
@@ -124,8 +116,6 @@ __Example 2:__ Using __RadClientDataSource__ control for Rotator data binding.
 			}
 		</style>
 ````
-
-
 >end
 
 # See Also

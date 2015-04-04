@@ -43,9 +43,6 @@ Below is a simple example which changes the text and some of the styles for thos
 	     SelectCommand="SELECT * FROM [Customers]">
 	  </asp:SqlDataSource> 
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
@@ -70,9 +67,6 @@ Below is a simple example which changes the text and some of the styles for thos
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	
@@ -105,6 +99,4 @@ Below is a simple example which changes the text and some of the styles for thos
 	    }
 	
 ````
-
-
 >end

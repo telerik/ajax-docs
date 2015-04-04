@@ -34,9 +34,6 @@ Use the __ItemCreated__ event handler to make changes to items as they are added
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadToolBar1_ItemCreated(ByVal sender As Object, ByVal e As RadToolBarEventArgs)
@@ -46,8 +43,6 @@ Use the __ItemCreated__ event handler to make changes to items as they are added
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

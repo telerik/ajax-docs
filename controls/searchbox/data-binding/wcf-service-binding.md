@@ -68,9 +68,6 @@ To use the integrated support, the Web service should have the following signatu
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    <OperationContract> _
@@ -103,6 +100,4 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
-
-
 >end

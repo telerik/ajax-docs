@@ -67,8 +67,6 @@ __Example 1__: Simple declaration of a __RadTreeMap__ control.
 	                </Items>
 	            </telerik:radtreemap>
 ````
-
-
 >end
 
 >note All __RadTreeMapItems__ should have one __Parent__ item.

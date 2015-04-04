@@ -102,9 +102,6 @@ Below are the code snippets from the demo referred above:
 	  <asp:SqlDataSource ID="CategoriesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString35 %>"
 	    SelectCommand="SELECT [CategoryID], [CategoryName] FROM [Categories]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -150,9 +147,6 @@ Below are the code snippets from the demo referred above:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub OnItemDataBoundHandler(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If e.Item.IsInEditMode Then
@@ -191,8 +185,6 @@ Below are the code snippets from the demo referred above:
 	        Session("SupplierID") = e.Value
 	    End Sub
 ````
-
-
 >end
 
 For additional information you can review [ this code library ](http://www.telerik.com/community/code-library/aspnet-ajax/combobox/load-on-demand-radcombobox-inside-an-edititemtemplate-of-radgrid.aspx).

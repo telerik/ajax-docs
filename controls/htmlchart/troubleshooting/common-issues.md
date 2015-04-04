@@ -94,9 +94,6 @@ __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart
 					</Legend>
 				</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -125,9 +122,6 @@ __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart
 			}
 		}
 ````
-
-
-
 ````VB
 	     Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        'Configure first chart
@@ -152,8 +146,6 @@ __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 ## YAxis is not Rescaled in a Stock Chart When Changing the Selection Range
@@ -208,9 +200,6 @@ __Example 3__: Escaping special characters in field names by surrounding the nam
 				</PlotArea>
 			</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		const string DATA_TABLE_NAME = "@1my xvalues";
 	
@@ -232,9 +221,6 @@ __Example 3__: Escaping special characters in field names by surrounding the nam
 			return table;
 		}
 ````
-
-
-
 ````VB
 	    Const DATA_TABLE_NAME As String = "@1my xvalues"
 	
@@ -254,8 +240,6 @@ __Example 3__: Escaping special characters in field names by surrounding the nam
 	        Return table
 	    End Function
 ````
-
-
 >end
 
 # See Also[](A346ABA1-4892-4441-B66E-B4A8F7549BD0)

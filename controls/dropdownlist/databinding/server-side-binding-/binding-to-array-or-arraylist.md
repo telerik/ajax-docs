@@ -58,9 +58,6 @@ In the __Page_Load__ event handler, create the Array and ArrayList, and bind the
 	        dropDownList.DataBind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then
@@ -84,6 +81,4 @@ In the __Page_Load__ event handler, create the Array and ArrayList, and bind the
 	        dropDownList.DataBind()
 	    End Sub
 ````
-
-
 >end

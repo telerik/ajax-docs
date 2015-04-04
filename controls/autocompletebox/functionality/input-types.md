@@ -64,9 +64,6 @@ Despite of the chosen input type, the entries of RadAutoCompleteBox will be acce
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadButton1_Click(sender As Object, e As EventArgs)
@@ -81,6 +78,4 @@ Despite of the chosen input type, the entries of RadAutoCompleteBox will be acce
 		End Sub
 	
 ````
-
-
 >end

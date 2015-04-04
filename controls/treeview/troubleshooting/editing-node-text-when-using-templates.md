@@ -82,9 +82,6 @@ This example shows a TreeView that is bound to a database. It uses Templates for
 	        RadTreeView1.ExpandAllNodes();
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -126,6 +123,4 @@ This example shows a TreeView that is bound to a database. It uses Templates for
 	        RadTreeView1.ExpandAllNodes()
 	    End Sub
 ````
-
-
 >end

@@ -87,9 +87,6 @@ In the example below, both RadTreeViews have their __EnableDragAndDrop__ propert
 	   }
 	} 
 ````
-
-
-
 ````VB.NET
 	Imports System.Web.UI
 	Imports Telerik.Web.UI
@@ -104,8 +101,6 @@ In the example below, both RadTreeViews have their __EnableDragAndDrop__ propert
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 # See Also

@@ -50,8 +50,6 @@ As mentioned above, the __RadTreeMap__ supports only __ClientTemplate__. This is
 	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
 	            SelectCommand="SELECT ID, ParentID, Name, Rank, Pay, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
-
-
 >end
 
 # See Also

@@ -43,9 +43,6 @@ There are several different ways for setting RadEditor properties:
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not Page.IsPostBack Then
@@ -55,8 +52,6 @@ There are several different ways for setting RadEditor properties:
 			End If
 		End Sub
 ````
-
-
 >end
 
 * __Using Themes__: This approach is intended to be used when similar settings must be used for several RadEditor controls in an application. This ensures that configuration of all controls is done from a single location.To use Themes with the editor (see the following [MSDN](http://msdn2.microsoft.com/en-us/library/wcyt4fxb%28vs.80%29.aspx) link on themes). See the [Using Themes]({%slug editor/application-scenarios/use-themes%}) topic for more information.

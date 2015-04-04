@@ -128,9 +128,6 @@ This is the API controller class definition:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	Public Class ExportController
 	    Inherits ApiController

@@ -59,9 +59,6 @@ Additionally, these settings can be modified dynamically, as shown in the follow
 	        RadListView1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub DropDownList1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
 	        Select Case DropDownList1.SelectedValue
@@ -84,8 +81,6 @@ Additionally, these settings can be modified dynamically, as shown in the follow
 	        RadListView1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 The next important piece of the validation logic is the structuring of the edit/insert templates, the relation among the validators, and the validated controls. There are two possible ways to handle this – declaratively, in the aspx, or programmatically.
@@ -194,9 +189,6 @@ The above settings can also be handled programmatically. For example, let us ass
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs)
 	        If TypeOf e.Item Is RadListViewEditableItem AndAlso e.Item.IsInEditMode Then
@@ -225,8 +217,6 @@ The above settings can also be handled programmatically. For example, let us ass
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 As demonstrated above, we can programmatically add validation controls to the edit form, or insert form of the RadListView control, set their validated controls, or add event handlers (such as onServerValidate), to further customize the validation logic. This allows for significant flexibility.

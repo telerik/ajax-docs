@@ -60,9 +60,6 @@ Inserting values through __WebUserControl Edit Form__ and __FormTemplate__ can b
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.InsertCommand
 	
@@ -102,8 +99,6 @@ Inserting values through __WebUserControl Edit Form__ and __FormTemplate__ can b
 	        End Try
 	    End Sub
 ````
-
-
 >end
 
 and with form template custom edit form (note that with form template you may prefer the [codeless approach](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [automatic operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid):
@@ -158,9 +153,6 @@ and with form template custom edit form (note that with form template you may pr
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As WebControls.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.PerformInsertCommandName Then
@@ -203,8 +195,6 @@ and with form template custom edit form (note that with form template you may pr
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Additionally, review the online demos linked below to see the approach in real-life example:
@@ -234,9 +224,6 @@ If you use WebUserControl as edit form in Telerik RadGrid and populate the value
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Public Property DataItem() As Object
 	        Get
@@ -247,8 +234,6 @@ If you use WebUserControl as edit form in Telerik RadGrid and populate the value
 	        End Set
 	    End Property
 ````
-
-
 >end
 
 ## Setting predefined values for controls inside user control on item insertion
@@ -284,9 +269,6 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
@@ -301,8 +283,6 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Setting predefined values for controls inside FormTemplate on item insertion
@@ -335,9 +315,6 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
@@ -350,8 +327,6 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 When you have dropdown list/checkbox in the grid make sure that you specify the field to which you bind the control inside the form template as __key__ for the dictionary object (passed to the __InsertItem(newValues)__ method). For example:
@@ -376,9 +351,6 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -404,8 +376,6 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 	        }
 	    }
 ````
-
-
 >end
 
 The other option is to set __AppendDataBoundItems="true"__ for a dropdown list (residing in form template custom edit form) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:

@@ -81,9 +81,6 @@ RadSearchBox provides support for client templates. The template itself contains
 	        return data;
 	    }
 ````
-
-
-
 ````VB.NET
 	   <WebMethod> _
 	    Public Shared Function GetResults(context As SearchBoxContext) As SearchBoxItemData()
@@ -115,6 +112,4 @@ RadSearchBox provides support for client templates. The template itself contains
 	    End Function
 	
 ````
-
-
 >end

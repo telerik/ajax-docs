@@ -32,9 +32,6 @@ The __EntryRemoved__ event handler receives two arguments:
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAutoCompleteBox1_EntryRemoved(sender As Object, e As AutoCompleteEntryEventArgs)
@@ -42,8 +39,6 @@ The __EntryRemoved__ event handler receives two arguments:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

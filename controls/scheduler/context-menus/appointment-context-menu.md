@@ -97,9 +97,6 @@ If more than one appointment context menu is declared, you can specify which one
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
@@ -107,8 +104,6 @@ If more than one appointment context menu is declared, you can specify which one
 	    End Sub
 		
 ````
-
-
 >end
 
 If the RadScheduler is read-only (via the __ReadOnly__ property) – then you will not be able to edit or delete appointments. This reflects on the context menu items too. The two options of the default appointment context menu will be disabled. Also if __AllowEdit__ or __AllowDelete__ properties of the RadScheduler are set to __“False”__ – the corresponding menu item will be disabled.

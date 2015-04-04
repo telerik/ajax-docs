@@ -48,9 +48,6 @@ Below is the code of a simple demo implementation:
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void Page_Load(object sender, System.EventArgs e)
 	    {
@@ -123,9 +120,6 @@ Below is the code of a simple demo implementation:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -180,6 +174,4 @@ Below is the code of a simple demo implementation:
 	        End If
 	    End Sub
 ````
-
-
 >end

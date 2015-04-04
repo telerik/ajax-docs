@@ -65,8 +65,6 @@ You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties 
 	        </UpdateParameters>
 	    </asp:SqlDataSource>
 ````
-
-
 >end
 
 ## RadTreeList bound to LinqDataSource
@@ -91,8 +89,6 @@ You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties 
 	        TableName="Links" EnableUpdate="true" EnableInsert="true">
 	    </asp:LinqDataSource>
 ````
-
-
 >end
 
 ## 

@@ -56,9 +56,6 @@ The __LoadDockLayout__ should set the __Indices__ and __Positions__ properties o
 	    } 
 				
 ````
-
-
-
 ````VB
 	     
 	    Protected Sub RadDockLayout1_LoadDockLayout( _
@@ -81,8 +78,6 @@ The __LoadDockLayout__ should set the __Indices__ and __Positions__ properties o
 	    End Sub
 	
 ````
-
-
 >end
 
 >tip If other properties than the position and dock zone can change for the __RadDock__ controls, the application should call the __ApplyState__ method of the __RadDock__ controls, passing in the saved __DockState__ object. This can be done either in the __LoadDockLayout__ event handler, or in the __Page_Init__ event handler.

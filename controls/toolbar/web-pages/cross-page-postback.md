@@ -49,9 +49,6 @@ Once in the second page, you can access the the toolbar (or any other control) o
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -67,6 +64,4 @@ Once in the second page, you can access the the toolbar (or any other control) o
 	    End Class
 	
 ````
-
-
 >end

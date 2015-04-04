@@ -140,9 +140,6 @@ To use the integrated support, the Web service should have the following signatu
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -210,8 +207,6 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
-
-
 >end
 
 __For a live example refer to the online demo:__[Populate From Web Service.](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)

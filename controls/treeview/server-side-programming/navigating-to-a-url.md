@@ -42,16 +42,11 @@ RadTreeView fully supports frames, as well. You can set URL Navigation for a spe
 	myNode.NavigateUrl = "auctions.aspx?id=4";
 	myNode.Target = "contentFrame"; 		
 ````
-
-
-
 ````VB.NET
 	    Dim myNode As New RadTreeNode()
 	    myNode.NavigateUrl = "auctions.aspx?id=4"
 	    myNode.Target = "contentFrame" 
 ````
-
-
 >end
 
 ````ASPNET

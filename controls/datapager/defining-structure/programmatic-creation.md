@@ -29,9 +29,6 @@ Here follows an example of a programmatically created RadDataPager inside a RadL
 	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Customers]" />
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
 	    {
@@ -229,9 +226,6 @@ Here follows an example of a programmatically created RadDataPager inside a RadL
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
 	        Dim listView As New RadListView()
@@ -415,8 +409,6 @@ Here follows an example of a programmatically created RadDataPager inside a RadL
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

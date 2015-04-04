@@ -54,16 +54,11 @@ Set the [Language](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_rade
 				RadEditor1.Language = "it-IT"; 
 				
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Language = "it-IT"
 	
 ````
-
-
 >end
 
 When you run the application, the new resources will be recognized and the corresponding hints or other UI elements will display in the new language:

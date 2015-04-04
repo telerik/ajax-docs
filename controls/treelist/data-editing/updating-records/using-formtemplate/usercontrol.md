@@ -83,9 +83,6 @@ Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __T
 	                </EditFormSettings>
 	            </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_UpdateCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -115,9 +112,6 @@ Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __T
 	        RadTreeList1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
@@ -146,8 +140,6 @@ Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __T
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 ## Updating values using WebUserControl
@@ -173,9 +165,6 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 	            </EditFormSettings>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -209,9 +198,6 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 	        RadTreeList2.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList2_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
@@ -243,8 +229,6 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 Again, you can configure the user control to implement the IBindable interface in order for the RadTreeList to be able to extract values:
@@ -300,9 +284,6 @@ Again, you can configure the user control to implement the IBindable interface i
 	<asp:Button ID="btnCancel" Text="Cancel" runat="server" CausesValidation="False"
 	    CommandName="Cancel"></asp:Button>
 ````
-
-
-
 ````C#
 	public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
 	{
@@ -317,9 +298,6 @@ Again, you can configure the user control to implement the IBindable interface i
 	   public object DataItem { get; set; }
 	}
 ````
-
-
-
 ````VB.NET
 	Partial Class WebUserControlVB
 	    Inherits System.Web.UI.UserControl
@@ -342,6 +320,4 @@ Again, you can configure the user control to implement the IBindable interface i
 	
 	End Class
 ````
-
-
 >end

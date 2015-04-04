@@ -40,9 +40,6 @@ You can get the ID of the HTML element in the __NodeDrop__ event handler by usin
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeDrop(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeDragDropEventArgs)
@@ -50,6 +47,4 @@ You can get the ID of the HTML element in the __NodeDrop__ event handler by usin
 	    End Sub
 	
 ````
-
-
 >end

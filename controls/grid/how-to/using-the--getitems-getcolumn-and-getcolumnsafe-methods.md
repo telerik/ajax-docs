@@ -24,15 +24,10 @@ The __GetItems(itemType)__ method returns an array of items (in the respective G
 	    Dim headerItem As GridItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0)
 	    'cast the item to GridHeaderItem and operate with it further			
 ````
-
-
-
 ````C#
 	    GridItem headerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)[0];
 	    //cast the item to GridHeaderItem and operate with it further
 ````
-
-
 >end
 
 The __GetColumn(columnName)__ method returns the column with the unique name specified as argument, namely:
@@ -43,15 +38,10 @@ The __GetColumn(columnName)__ method returns the column with the unique name spe
 	    Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("OrderID")
 	    'thus you get reference to the column with OrderID unique name			
 ````
-
-
-
 ````C#
 	    GridColumn column = RadGrid1.MasterTableView.GetColumn["OrderID"];
 	    //thus you get reference to the column with OrderID unique name
 ````
-
-
 >end
 
 The __GetColumnSafe(columnName)__ performs the same task as __GetColumn(columnName)__ method, however __GetColumnSafe__ will not raise an exception in case column with that name is not found in the corresponding __GridTableView__.
@@ -112,9 +102,6 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	      Text="Switch insert option visibility for detail table" /><br />
 	  <asp:Button ID="btnDisableMasterInsert" runat="server" Text="Disable/Enable insert for master table" />
 ````
-
-
-
 ````VB.NET
 	    Public Shared connectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb")
 	Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles 
@@ -169,9 +156,6 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	        masterColumn.Visible = Not masterColumn.Visible
 	    End Sub
 ````
-
-
-
 ````C#
 	    string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb");
 	    protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -238,6 +222,4 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	        masterColumn.Visible = !masterColumn.Visible;
 	    }
 ````
-
-
 >end

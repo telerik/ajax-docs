@@ -52,9 +52,6 @@ The __SelectedRegionStartValue__ property determines from which value will start
 	        RadSlider1.LargeChange = 10;
 	        RadSlider1.SelectedRegionStartValue = 0;
 ````
-
-
-
 ````VB
 	
 	        RadSlider1.MinimumValue = -12
@@ -63,8 +60,6 @@ The __SelectedRegionStartValue__ property determines from which value will start
 	        RadSlider1.LargeChange = 10
 	        RadSlider1.SelectedRegionStartValue = 0
 ````
-
-
 >end
 
 # See Also

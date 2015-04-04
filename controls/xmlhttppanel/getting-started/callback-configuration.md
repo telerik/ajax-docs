@@ -71,9 +71,6 @@ __How to configure the RadXmlHttpPanel's callback?__
 			Label1.Text += "<br/> The returned value fron the client's set_value() function is: <strong>" + e.Value + "</strong>";
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadXmlHttpPanel1_ServiceRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadXmlHttpPanelEventArgs)
 	        Label1.Text = "Label updated by XmlHttpPanel callback at: " + DateTime.Now.ToString()
@@ -81,8 +78,6 @@ __How to configure the RadXmlHttpPanel's callback?__
 	        Label1.Text += "<br/> The returned value fron the client's set_value() function is: <strong>" + e.Value + "</strong>"
 	    End Sub
 ````
-
-
 >end
 
 ____

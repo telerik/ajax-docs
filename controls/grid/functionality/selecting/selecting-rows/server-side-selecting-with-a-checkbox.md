@@ -88,9 +88,6 @@ In the code-behind, the __OnCheckedChanged__ event handlers (__ToggleRowSelectio
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub ToggleRowSelection(ByVal sender As Object, ByVal e As EventArgs)
 	
@@ -113,8 +110,6 @@ In the code-behind, the __OnCheckedChanged__ event handlers (__ToggleRowSelectio
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 For a live example showing server-side selection, see [Server-side row selection.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx)

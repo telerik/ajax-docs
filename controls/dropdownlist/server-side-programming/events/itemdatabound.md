@@ -60,9 +60,6 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	        e.Item.Attributes["Description"] = dataItem["Description"].ToString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        For i As Integer = 0 To RadDropDownList1.Items.Count - 1
@@ -76,6 +73,4 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	        e.Item.Attributes("Description") = dataItem("Description").ToString()
 	    End Sub
 ````
-
-
 >end

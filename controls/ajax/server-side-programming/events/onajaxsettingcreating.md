@@ -40,14 +40,9 @@ The __AjaxSettingCreating__ event handler receives two arguments:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxSettingCreating(ByVal sender As Object, ByVal e As AjaxSettingCreatingEventArgs)
 	        e.Canceled = IIf((e.Initiator Is Button1) And (e.Updated Is Label1), True, False)
 	    End Sub
 ````
-
-
 >end

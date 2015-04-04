@@ -34,9 +34,6 @@ The samples bellow illustrate both approaches:
 	    </asp:Panel>
 	    </telerik:RadAjaxPanel>
 ````
-
-
-
 ````C#
 	   protected override void OnInit(EventArgs e)
 	        {
@@ -114,9 +111,6 @@ The samples bellow illustrate both approaches:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnInit(e As EventArgs)
 	        MyBase.OnInit(e)
@@ -186,8 +180,6 @@ The samples bellow illustrate both approaches:
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 ## Statically declared RadPivotGrid and configured on Page_Load
@@ -203,9 +195,6 @@ The samples bellow illustrate both approaches:
 	        <telerik:RadPivotGrid runat="server" ID="RadPivotGrid1"></telerik:RadPivotGrid>
 	    </telerik:RadAjaxPanel>
 ````
-
-
-
 ````C#
 	    protected override void OnInit(EventArgs e)
 	        {
@@ -290,9 +279,6 @@ The samples bellow illustrate both approaches:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnInit(e As EventArgs)
 	        MyBase.OnInit(e)
@@ -368,6 +354,4 @@ The samples bellow illustrate both approaches:
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end

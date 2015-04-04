@@ -43,9 +43,6 @@ The following example shows how to use the properties of the event arguments:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadRibbonBar1_ButtonToggle(ByVal sender As Object, ByVal e As RibbonBarButtonToggleEventArgs)
@@ -57,8 +54,6 @@ The following example shows how to use the properties of the event arguments:
 	
 	
 ````
-
-
 >end
 
 # See Also

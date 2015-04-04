@@ -55,9 +55,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        dropdownlist.DataBind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -80,6 +77,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        dropdownlist.DataBind()
 	    End Sub
 ````
-
-
 >end

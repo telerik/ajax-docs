@@ -36,9 +36,6 @@ The code snippets below represent a sample implementation:
 	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	      SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
@@ -53,9 +50,6 @@ The code snippets below represent a sample implementation:
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -74,6 +68,4 @@ The code snippets below represent a sample implementation:
 	        }
 	    }
 ````
-
-
 >end

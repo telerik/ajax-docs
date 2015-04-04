@@ -103,9 +103,6 @@ __Example 1__ shows the simple markup used to format the series labels, axis lab
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -130,9 +127,6 @@ __Example 1__ shows the simple markup used to format the series labels, axis lab
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			RadHtmlChart1.DataSource = GetData()
@@ -155,8 +149,6 @@ __Example 1__ shows the simple markup used to format the series labels, axis lab
 			Return dt
 		End Function
 ````
-
-
 >end
 >caption Figure 2: Formatting axis labels, series labels and series tooltip with custom pattern via the DateFormatString property.
 
@@ -195,9 +187,6 @@ __Example 2__ shows the simple markup used to format the series labels, axis lab
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -222,9 +211,6 @@ __Example 2__ shows the simple markup used to format the series labels, axis lab
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			RadHtmlChart1.DataSource = GetData()
@@ -247,8 +233,6 @@ __Example 2__ shows the simple markup used to format the series labels, axis lab
 			Return dt
 		End Function
 ````
-
-
 >end
 
 >note The above dates are formatted in the default "en-US" culture. More information on how to localize text	elements is available in the[Localization]({%slug htmlchart/accessibility-and-internationalization/localization%})article.

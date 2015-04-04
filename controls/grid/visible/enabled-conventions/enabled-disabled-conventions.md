@@ -272,9 +272,6 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 	  <input id="btnServerDisable" type="button" value="Disable grid" onclick="DisableGrid()" />
 	  <input id="btnEnable" type="button" value="Enable grid" onclick="EnableGrid()" />
 ````
-
-
-
 ````C#
 	protected override void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
 	    {            
@@ -328,9 +325,6 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 	    }
 	          
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
 	        Select Case e.Argument
@@ -375,6 +369,4 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 	        Session("disableFilterMenu") = Nothing
 	    End Sub
 ````
-
-
 >end

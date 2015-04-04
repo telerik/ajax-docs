@@ -66,9 +66,6 @@ If you would like to inherit the GridTableView object for your grid, here are so
 	            </MasterTableView>
 	        </my:MyGrid>			
 ````
-
-
-
 ````C#
 	     
 	
@@ -97,9 +94,6 @@ If you would like to inherit the GridTableView object for your grid, here are so
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -122,8 +116,6 @@ If you would like to inherit the GridTableView object for your grid, here are so
 	    End Namespace
 	
 ````
-
-
 >end
 
 Basically, you need to override the CreateTableView() method of the RadGrid class and return an instance of your custom GridTableView.

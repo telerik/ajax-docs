@@ -28,9 +28,6 @@ To add a node programmatically, create an instance of RadTreeNode, assign Text, 
 	    RadTreeView1.Nodes.Add(newNode);
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Dim newNode As New RadTreeNode()
@@ -39,8 +36,6 @@ To add a node programmatically, create an instance of RadTreeNode, assign Text, 
 	    RadTreeView1.Nodes.Add(newNode)
 				
 ````
-
-
 >end
 
 By adding nodes to the RadTreeView Nodes collection or to the Nodes collection of another node you can define the entire tree structure. The example below demonstrates adding a node with no children, adding a node with three children and adding a node with two levels of children.
@@ -86,9 +81,6 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	Imports Telerik.Web.UI
@@ -115,8 +107,6 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 	    End Namespace
 	
 ````
-
-
 >end
 
 
@@ -132,9 +122,6 @@ You can add multiple nodes at once by using the __AddRange__ method of the RadTr
 	RadTreeView1.Nodes.Add(node);
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim node As New RadTreeNode("New ROOT")
@@ -142,8 +129,6 @@ You can add multiple nodes at once by using the __AddRange__ method of the RadTr
 	    RadTreeView1.Nodes.Add(node)
 	
 ````
-
-
 >end
 
 ## Removing Nodes
@@ -177,9 +162,6 @@ You can remove nodes by:
 	}
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnDelete_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        If RadTreeView1.SelectedNode <> Nothing Then
@@ -191,8 +173,6 @@ You can remove nodes by:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Selecting Nodes
@@ -215,9 +195,6 @@ Setting the RadTreeNode __Selected__ property typically highlights the node, dep
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub LinkButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -228,8 +205,6 @@ Setting the RadTreeNode __Selected__ property typically highlights the node, dep
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Disabling/Enabling Nodes
@@ -255,9 +230,6 @@ Setting the RadTreeNode __Enabled__ property to false makes the node inactive an
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub LinkButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -268,6 +240,4 @@ Setting the RadTreeNode __Enabled__ property to false makes the node inactive an
 	    End Sub
 	
 ````
-
-
 >end

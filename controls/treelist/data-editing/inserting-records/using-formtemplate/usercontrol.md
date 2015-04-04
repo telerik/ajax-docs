@@ -90,9 +90,6 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 	                </EditEormSettings>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_InsertCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -118,9 +115,6 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 	        RadTreeList1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	        'Canceling the automatic datasource operation
@@ -145,8 +139,6 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 ## Inserting values using WebUserControl
@@ -175,9 +167,6 @@ Here is sample code for extracting the values from the user control on InsertCom
 	        </editformsettings>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList2_InsertCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -206,9 +195,6 @@ Here is sample code for extracting the values from the user control on InsertCom
 	        RadTreeList1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	        'Canceling the automatic datasource operation
@@ -236,8 +222,6 @@ Here is sample code for extracting the values from the user control on InsertCom
 	        RadTreeList2.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 Additionally, if you want the treelist to be able to extract values from the user control, the latter needs to implement the IBindable interface.Here follows a sample implementation:
@@ -292,9 +276,6 @@ Additionally, if you want the treelist to be able to extract values from the use
 	<asp:Button ID="btnCancel" Text="Cancel" runat="server" CausesValidation="False"
 	    CommandName="Cancel"></asp:Button>
 ````
-
-
-
 ````C#
 	public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
 	{
@@ -310,9 +291,6 @@ Additionally, if you want the treelist to be able to extract values from the use
 	
 	}
 ````
-
-
-
 ````VB.NET
 	Partial Class WebUserControlVB
 	    Inherits System.Web.UI.UserControl
@@ -334,8 +312,6 @@ Additionally, if you want the treelist to be able to extract values from the use
 	
 	End Class
 ````
-
-
 >end
 
 >caution Note that RadTreeList expects the newly inserted value of the field that is specified as DataKeyNames to be larger than any of the already available values of this field in the datasource.

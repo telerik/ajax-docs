@@ -44,9 +44,6 @@ The steps to implement a custom __FileBrowserContentProvider__ are:
 	}
 				
 ````
-
-
-
 ````VB
 	
 	
@@ -63,8 +60,6 @@ The steps to implement a custom __FileBrowserContentProvider__ are:
 	    End Namespace
 	
 ````
-
-
 >end
 
 ...when it is compiled in the __ContentProviders.dll__ assembly, you should set the following value:
@@ -186,17 +181,12 @@ The sample implementation is using a database for information storage, and a sin
 	            string path)
 				
 ````
-
-
-
 ````VB
 	
 		ResolveRootDirectoryAsTree( _
 		    ByVal path As String) As DirectoryItem
 	
 ````
-
-
 >end|
 >caption 
 
@@ -210,17 +200,12 @@ The sample implementation is using a database for information storage, and a sin
 		string DeleteDirectory(string path)
 				
 ````
-
-
-
 ````VB
 	
 	    DeleteDirectory( _ 
 	        ByVal path As String) As String
 	
 ````
-
-
 >end|
 >caption 
 
@@ -234,17 +219,12 @@ The sample implementation is using a database for information storage, and a sin
 		string DeleteFile(string path)
 				
 ````
-
-
-
 ````VB
 	
 	    DeleteFile( _ 
 	        ByVal path As String) As String
 	
 ````
-
-
 >end|
 >caption 
 
@@ -262,9 +242,6 @@ The sample implementation is using a database for information storage, and a sin
 	            params string[] arguments)
 				
 ````
-
-
-
 ````VB
 	
 		StoreFile( _ 
@@ -275,8 +252,6 @@ The sample implementation is using a database for information storage, and a sin
 		) As String
 	
 ````
-
-
 >end|
 >caption 
 
@@ -315,9 +290,6 @@ The sample implementation is using a database for information storage, and a sin
 	}
 				
 ````
-
-
-
 ````VB
 	
 	
@@ -335,8 +307,6 @@ The sample implementation is using a database for information storage, and a sin
 	    End Function
 	
 ````
-
-
 >end
 
 # See Also

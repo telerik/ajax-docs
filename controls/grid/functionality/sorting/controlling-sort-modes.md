@@ -112,9 +112,6 @@ The __SortCommand__ event handler changes the sequence of sort modes to "Descend
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_SortCommand(ByVal source As Object, ByVal e As GridSortCommandEventArgs) Handles RadGrid1.SortCommand
 	        Dim tableView As GridTableView = e.Item.OwnerTableView
@@ -134,6 +131,4 @@ The __SortCommand__ event handler changes the sequence of sort modes to "Descend
 	        End If
 	    End Sub
 ````
-
-
 >end

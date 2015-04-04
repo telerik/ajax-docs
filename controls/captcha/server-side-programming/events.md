@@ -73,9 +73,6 @@ The following example demonstrates a RadCaptcha that is validated if the sum of 
 		}
 	
 ````
-
-
-
 ````VB
 	
 		Private oldCaptchaCode As String
@@ -106,8 +103,6 @@ The following example demonstrates a RadCaptcha that is validated if the sum of 
 		End Sub
 	
 ````
-
-
 >end
 
 # See Also

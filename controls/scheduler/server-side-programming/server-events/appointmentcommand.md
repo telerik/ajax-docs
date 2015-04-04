@@ -43,9 +43,6 @@ __AppointmentCommand__ has two parameters:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
@@ -55,8 +52,6 @@ __AppointmentCommand__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

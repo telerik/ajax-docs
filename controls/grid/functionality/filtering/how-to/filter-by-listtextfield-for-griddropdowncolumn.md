@@ -30,9 +30,6 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 	    UniqueName="CategoryName" Display="false">
 	  </telerik:GridBoundColumn>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
 	    {
@@ -58,9 +55,6 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.FilterCommandName Then
@@ -81,8 +75,6 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 * Use __GridTemplateColumn__ instead of __GridDropDownColumn__. You can add a __DropDownList__ in its __EditItemTemplate__ to simulate the __GridDropDownColumn__.

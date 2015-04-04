@@ -75,9 +75,6 @@ RadTreeView allows you to drop Nodes in between other Nodes. Set the __EnableDra
 	   }
 	}      
 ````
-
-
-
 ````VB.NET
 	Imports System.Web.UI
 	Imports Telerik.Web.UI
@@ -124,8 +121,6 @@ RadTreeView allows you to drop Nodes in between other Nodes. Set the __EnableDra
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 # See Also

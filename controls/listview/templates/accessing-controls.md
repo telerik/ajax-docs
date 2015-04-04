@@ -24,16 +24,11 @@ To get reference to a control in RadListView LayoutTemplate you can use its Find
 	        Label lbl = RadListView1.FindControl("Label1") as Label;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim lbl As Label = TryCast(RadListView1.FindControl("Label1"), Label)
 	    End Sub
 ````
-
-
 >end
 
 ## Accessing controls in the ItemTemplate
@@ -51,9 +46,6 @@ To access a control in RadListView item you can handle the ItemCreated event as 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCreated(ByVal sender As Object, ByVal e As RadListViewItemEventArgs)
 	        If TypeOf e.Item Is RadListViewDataItem Then
@@ -61,8 +53,6 @@ To access a control in RadListView item you can handle the ItemCreated event as 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Accessing controls in the EditItemTemplate/InsertItemTemplate
@@ -80,9 +70,6 @@ If the RadListView item is in edit mode you can get reference to the respective 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCreated(ByVal sender As Object, ByVal e As RadListViewItemEventArgs)
 	        If TypeOf e.Item Is RadListViewEditableItem AndAlso e.Item.IsInEditMode Then
@@ -90,8 +77,6 @@ If the RadListView item is in edit mode you can get reference to the respective 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If the RadListView item is in insert mode you can reference the control the same way as in edit mode.
@@ -108,9 +93,6 @@ If the RadListView item is in insert mode you can reference the control the same
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCreated(ByVal sender As Object, ByVal e As RadListViewItemEventArgs)
 	        If TypeOf e.Item Is RadListViewInsertItem AndAlso e.Item.IsInEditMode Then
@@ -118,6 +100,4 @@ If the RadListView item is in insert mode you can reference the control the same
 	        End If
 	    End Sub
 ````
-
-
 >end

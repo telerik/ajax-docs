@@ -64,9 +64,6 @@ The __Page_Load__ event handler filters out all but the root element in the __Ma
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If RadGrid1.EnableLinqExpressions Then
@@ -76,8 +73,6 @@ The __Page_Load__ event handler filters out all but the root element in the __Ma
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 The next step is to bind the __RadGrid__ to data in the __NeedDataSource__event handler:
@@ -105,9 +100,6 @@ The next step is to bind the __RadGrid__ to data in the __NeedDataSource__event 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        RadGrid1.DataSource = GetDataTable("SELECT ID, Name, ParentID FROM SelfReferencing")
@@ -123,8 +115,6 @@ The next step is to bind the __RadGrid__ to data in the __NeedDataSource__event 
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 In order to hide the expand/collapse images when there are no records in self-referencing hierarchy, see [Hiding the expand/collapse images]({%slug grid/hierarchical-grid-types-and-load-modes/how-to/hiding-the-expand/collapse-images-when-no-records%}).
@@ -174,9 +164,6 @@ Then apply __FilterExpression__in the __Page_Load__ event handler.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Public Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 	        If RadGrid1.EnableLinqExpressions Then
@@ -186,8 +173,6 @@ Then apply __FilterExpression__in the __Page_Load__ event handler.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Next step is to hide the default expand/collapse column and include button control for expand/collapse of nested tables as part of the first column in the grid:
@@ -258,9 +243,6 @@ Next step is to hide the default expand/collapse column and include button contr
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
 	        If TypeOf e.Column Is GridExpandColumn Then
@@ -308,8 +290,6 @@ Next step is to hide the default expand/collapse column and include button contr
 	        CType(sender, Button).CssClass = IIf((CType(sender, Button).CssClass = "rgExpand"), "rgCollapse", "rgExpand")
 	    End Sub
 ````
-
-
 >end
 
 Finally, as a polishing touch, an event handler for the __Page.PreRenderComplete__ event is added to recursively locate and hide any empty detail table views:
@@ -355,9 +335,6 @@ Finally, as a polishing touch, an event handler for the __Page.PreRenderComplete
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Sub Page_PreRenderComplete(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.PreRenderComplete
 	        HideExpandColumnRecursive(RadGrid1.MasterTableView)
@@ -385,8 +362,6 @@ Finally, as a polishing touch, an event handler for the __Page.PreRenderComplete
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 For a live example of a self-referencing grid, see [Self-referencing heierarchy](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/SelfReferencing/DefaultCS.aspx).

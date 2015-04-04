@@ -41,17 +41,12 @@ To open a window in response to a click you can use the [ActiveRegion]({%slug ch
 	RadChart1.Series[0].Items[0].ActiveRegion.Url =  "javascript:ShowPopUpDialog('SalesDetail.aspx');";
 				
 ````
-
-
-
 ````VB.NET
 	
 	
 	RadChart1.Series(0).Items(0).ActiveRegion.Url =  "javascript:ShowPopUpDialog('SalesDetail.aspx');"
 	
 ````
-
-
 >end
 
 

@@ -47,9 +47,6 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadComboBox1_ItemDataBound(ByVal o As Object, ByVal e As RadComboBoxItemEventArgs) Handles RadComboBox1.ItemDataBound
@@ -62,8 +59,6 @@ Use the __ItemDataBound__ event handler to make changes to items as they are bou
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

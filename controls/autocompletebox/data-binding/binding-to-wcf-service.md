@@ -72,9 +72,6 @@ To use the integrated support, the Web service should have the following signatu
 			return dropDownData;
 		}
 ````
-
-
-
 ````VB.NET
 	    <OperationContract()>
 	    Public Function GetCompanyNames(context As RadAutoCompleteContext) As AutoCompleteBoxData
@@ -102,8 +99,6 @@ To use the integrated support, the Web service should have the following signatu
 	        Return dropDownData
 	    End Function
 ````
-
-
 >end
 
 # See Also

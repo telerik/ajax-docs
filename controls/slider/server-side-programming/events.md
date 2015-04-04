@@ -26,9 +26,6 @@ The __RadSlider__ control raises a server-side event, __ValueChanged__ that fire
 	    } 
 	
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadSlider1_ValueChanged(ByVal sender As Object, ByVal e As EventArgs)
@@ -36,8 +33,6 @@ The __RadSlider__ control raises a server-side event, __ValueChanged__ that fire
 	    End Sub
 	
 ````
-
-
 >end
 
 ## OnDataBound
@@ -57,9 +52,6 @@ The __OnDataBound__ sever-side event of the __RadSlider__ fires when all its ite
 		}
 	
 ````
-
-
-
 ````VB
 		Protected Sub OnDataBound(sender As Object, e As System.EventArgs) Handles slider.DataBound
 			If Not IsPostBack Then
@@ -67,8 +59,6 @@ The __OnDataBound__ sever-side event of the __RadSlider__ fires when all its ite
 			End If
 		End Sub
 ````
-
-
 >end
 
 # See Also

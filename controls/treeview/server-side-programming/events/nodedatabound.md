@@ -29,16 +29,11 @@ Binding to a database:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeView1_NodeDataBound(ByVal sender As Object, ByVal e As RadTreeNodeEventArgs)
 	        e.Node.ToolTip = (TryCast(e.Node.DataItem, DataRowView))("Description").ToString()
 	    End Sub
 ````
-
-
 >end
 
 Binding to XML datasource:
@@ -56,9 +51,6 @@ Binding to XML datasource:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeView_OnNodeDataBound(ByVal sender As Object, ByVal e As RadTreeNodeEventArgs)
 	        Dim element As XmlElement = DirectCast(e.Node.DataItem, XmlElement)
@@ -67,8 +59,6 @@ Binding to XML datasource:
 	        e.Node.Attributes("LevelID") = element.GetAttribute("LevelID")
 	    End Sub
 ````
-
-
 >end
 
 # See Also

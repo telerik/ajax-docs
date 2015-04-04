@@ -70,9 +70,6 @@ Here is a sample code demonstrating how this event can be used:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadSearchBox1_DataSourceSelect(sender As Object, e As SearchBoxDataSourceSelectEventArgs)
@@ -88,6 +85,4 @@ Here is a sample code demonstrating how this event can be used:
 	    End Sub
 	   
 ````
-
-
 >end

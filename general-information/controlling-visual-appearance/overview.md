@@ -64,16 +64,11 @@ To set the skin from code-behind you need to set the Skin property of the contro
 							<TelerikControl>.Skin = "Outlook"
 				
 ````
-
-
-
 ````C#
 	     
 							<TelerikControl>.Skin = "Outlook";
 				
 ````
-
-
 >end
 
 ## Setting the skin globally from web.config

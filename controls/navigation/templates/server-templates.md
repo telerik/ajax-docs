@@ -110,9 +110,6 @@ The following example (Figure 1.) shows a navigation that uses a global template
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        Dim nodes As New List(Of CustomNavigatorNode)()
@@ -225,8 +222,6 @@ The following example (Figure 1.) shows a navigation that uses a global template
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

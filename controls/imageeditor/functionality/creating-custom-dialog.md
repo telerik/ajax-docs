@@ -43,9 +43,6 @@ The custom image editor's dialog is a standard WebUserControl that has to be loa
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadImageEditor1_DialogLoading(ByVal sender As Object, ByVal args As ImageEditorDialogEventArgs)
 	        If args.DialogName = "CustomInsertImage" Then
@@ -55,8 +52,6 @@ The custom image editor's dialog is a standard WebUserControl that has to be loa
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 1. The user control should register a client-side class with the same name as the custom command. This client-side class should implement __Telerik.Web.UI.RadImageEditor.IToolWidget__ interface with the following structure:

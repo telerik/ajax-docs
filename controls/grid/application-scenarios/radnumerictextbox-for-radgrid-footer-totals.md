@@ -40,9 +40,6 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 	    </script>
 	  </telerik:RadScriptBlock>
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadAjaxManager ID="Manager1" runat="server">
 	    <AjaxSettings>
@@ -113,9 +110,6 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 	     SelectCommand="SELECT [OrderID], [ShippedDate], [ShipCity], [Freight] FROM [Orders]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -136,9 +130,6 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private sum As Double = 0
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
@@ -153,6 +144,4 @@ Keep in mind that the changes made by the user will be lost on subsequent postba
 	        End If
 	    End Sub
 ````
-
-
 >end

@@ -41,9 +41,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	        return table;
 	    }		
 ````
-
-
-
 ````VB.NET
 	    Private Function CreateTestTable() As DataTable
 	        Dim table As New DataTable()
@@ -63,8 +60,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	        Return table
 	    End Function
 ````
-
-
 >end
 
 1. Set the __DataSource__ property of the menu to the DataTable. At the same time, use the __RadMenu__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of menu items. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the menu:
@@ -88,9 +83,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -106,8 +98,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 1. Create an __[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})__ to set additional properties on the menu items:
@@ -122,9 +112,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	                e.Item.ToolTip = row["Tooltip"].ToString();
 	            }		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
 	        'Set additional properties. ToolTip for example:  
@@ -132,8 +119,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	        e.Item.ToolTip = row("Tooltip").ToString()
 	    End Sub
 ````
-
-
 >end
 
 ## Fetching the data from a separate database
@@ -165,9 +150,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	                }
 	            }		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then
@@ -183,8 +165,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >caution The __ParentID__ of the root items must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:

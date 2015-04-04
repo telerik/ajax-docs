@@ -175,9 +175,6 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        </tr>
 	    </table>
 ````
-
-
-
 ````VB.NET
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	    <br />
@@ -309,8 +306,6 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        </tr>
 	    </table>
 ````
-
-
 >end
 
 >tabbedCode
@@ -353,9 +348,6 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        conn.Close();        
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.RadListViewNeedDataSourceEventArgs) Handles RadListView1.NeedDataSource
 	        Dim list As New ArrayList()
@@ -399,8 +391,6 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        conn.Close()
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -686,9 +676,6 @@ You can use a wide variety of data sources for RadListView structure generation 
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Collections.Generic
@@ -904,6 +891,4 @@ You can use a wide variety of data sources for RadListView structure generation 
 	        End Class
 	    End Namespace
 ````
-
-
 >end

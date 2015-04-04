@@ -48,9 +48,6 @@ To make a RadComboBoxItem separator you should simply mark the item with IsSepar
 	    item.IsSeparator = true;
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -59,8 +56,6 @@ To make a RadComboBoxItem separator you should simply mark the item with IsSepar
 	    item.IsSeparator = true
 				
 ````
-
-
 >end
 
 ## Client-side methods

@@ -36,15 +36,10 @@ The __Text__ property specifies the text displayed in the __RadButton__ control.
 		{
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 		End Sub
 ````
-
-
 >endas well as add OnClick="RadButton1_Click" to the __RadButton__'s declaration.In the Click event handler add the code that you want to be executed when the __RadButton__ control is clicked.
 
 # See Also

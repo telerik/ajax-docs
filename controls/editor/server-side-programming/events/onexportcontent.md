@@ -31,9 +31,6 @@ __Example 1__: How to save the __ExportOutput__ to a file on the server and prev
 			</telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Export to PDF" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System;
 	using System.IO;
@@ -66,9 +63,6 @@ __Example 1__: How to save the __ExportOutput__ to a file on the server and prev
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.IO
 	Imports Telerik.Web.UI
@@ -97,8 +91,6 @@ __Example 1__: How to save the __ExportOutput__ to a file on the server and prev
 		End Sub
 	End Class
 ````
-
-
 >end
 
 __Example 2__: Dynamically adding header and footer elements to the exported document in the __OnExportContent__ event
@@ -109,9 +101,6 @@ __Example 2__: Dynamically adding header and footer elements to the exported doc
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Export to DOCX" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System.Linq;
 	using System.Text;
@@ -158,9 +147,6 @@ __Example 2__: Dynamically adding header and footer elements to the exported doc
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI
 	Imports Telerik.Windows.Documents.Flow.FormatProviders.Docx
@@ -203,8 +189,6 @@ __Example 2__: Dynamically adding header and footer elements to the exported doc
 		End Sub
 	End Class
 ````
-
-
 >end
 
 # See Also

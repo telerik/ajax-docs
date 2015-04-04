@@ -52,9 +52,6 @@ or via the __Shortcuts__ server-side property:
 	            //or
 	            RadWindow1.Shortcuts.Add(new Telerik.Web.UI.WindowShortcut("Close", "Esc"));
 ````
-
-
-
 ````VB.NET
 	            RadWindow1.Shortcuts.Add("Close", "Esc")
 	            'or

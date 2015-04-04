@@ -67,16 +67,11 @@ Create an XML file with content that complies with the rules described above and
 	    RadListBox1.LoadContentFile("ListBox.xml");
 				
 ````
-
-
-
 ````VB.NET
 	     
 		RadListBox1.LoadContentFile("ListBox.xml") 
 				
 ````
-
-
 >end
 
 ## Loading items from an XML string
@@ -95,9 +90,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    string xmlString = sb.ToString();
 	    RadListBox2.LoadXml(xmlString);
 ````
-
-
-
 ````VB.NET
 	    Dim sb As New StringBuilder()
 	    sb.Append("<Items>")
@@ -108,8 +100,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    Dim xmlString As String = sb.ToString()
 	    RadListBox2.LoadXml(xmlString) 
 ````
-
-
 >end
 
 # See Also

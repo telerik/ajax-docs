@@ -55,9 +55,6 @@ This tutorial will show how to bind __RadTabStrip__ to an __AccessDataSource__:
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	Protected Sub RadTabStrip1_TabClick(ByVal sender As Object, _
 	        ByVal e As Telerik.Web.UI.RadTabStripEventArgs) _
@@ -68,8 +65,6 @@ This tutorial will show how to bind __RadTabStrip__ to an __AccessDataSource__:
 	
 				
 ````
-
-
 >end
 
 1. Run the application. Note that the tabs are labelled using the "Author" field of the data source. Click on a tab. Note that the text box displays the value of the "Title" field:![Bound TabStrip](images/tabstrip_boundtabstrip.png)

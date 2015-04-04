@@ -30,16 +30,11 @@ The default value is 0 (queueing disabled).
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        <RadAjaxControl>.RequestQueueSize = 3
 	    End Sub
 ````
-
-
 >end
 
 # See Also

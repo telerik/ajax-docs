@@ -67,9 +67,6 @@ When this event is handled in order to make the changes persist properly the col
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadOrgChart1_GroupExpandCollapse(sender As Object, e As Telerik.Web.UI.OrgChartGroupExpandCollapseEventArguments)
 	        Dim collapsedState As Boolean = If(e.State = OrgChartGroupExpandCollapseState.GroupCollapsed, True, False)
@@ -85,6 +82,4 @@ When this event is handled in order to make the changes persist properly the col
 	        End Using
 	    End Sub
 ````
-
-
 >end

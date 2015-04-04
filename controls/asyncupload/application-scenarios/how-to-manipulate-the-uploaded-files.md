@@ -66,9 +66,6 @@ The following example illustrates how to save uploaded files to a location of yo
 	      }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	Imports Telerik.Web.UI...
@@ -79,8 +76,6 @@ The following example illustrates how to save uploaded files to a location of yo
 	    Next
 	End Sub 
 ````
-
-
 >end
 
 ## Saving uploaded files in control's OnFileUploaded event
@@ -105,9 +100,6 @@ The following example illustrates how to save uploaded files to a location of yo
 	        e.File.SaveAs(path + e.File.GetName());
 	    }
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI...
 	Protected Sub RadAsyncUpload1_FileUploaded(sender As Object, e As FileUploadedEventArgs)
@@ -116,8 +108,6 @@ The following example illustrates how to save uploaded files to a location of yo
 	    e.File.SaveAs(Path + e.File.GetName())
 	End Sub
 ````
-
-
 >end
 
 >note The __OnFileUpload__ event will be fired for every file in the __UploadedFiles__ collection after postback.
@@ -167,9 +157,6 @@ The following example demonstrates how to insert the uploaded files into a datab
 	  }
 	} 
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -197,8 +184,6 @@ The following example demonstrates how to insert the uploaded files into a datab
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

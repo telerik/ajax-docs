@@ -45,15 +45,10 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 	        RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Remove("RadEditorDomInspector"); //remove a specific module
 ````
-
-
-
 ````VB
 	        RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Remove("RadEditorDomInspector") 'remove a specific module
 ````
-
-
 >endIn order to hide a specific module via the code-behind, get a reference to it using the Modules collection and its index and set the Visible property to false. The indexes of the built-in modules are listed below:
 
 
@@ -71,15 +66,10 @@ The declaration above will disable the DomInpector and Statistics modules and wi
 	        RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Clear();//clear the module collections
 ````
-
-
-
 ````VB
 	        RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
 	        RadEditor1.Modules.Clear() 'clear the module collections
 ````
-
-
 >endThe __Enabled__property set to __false__will disable the respective module. The __Visible__property will hide the module. To make it visible again use the Module Manager splitbutton.
 
 >note If the modules node is not declared the default settings will be applied.

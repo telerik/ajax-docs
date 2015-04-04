@@ -54,9 +54,6 @@ The example below demonstrates how to read the CustomSettings and pass them to a
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub loadBtn_Click(sender As Object, e As EventArgs)
 			Dim fileId As String = Session("CustomPersistenceSettingsKey").ToString()
@@ -75,8 +72,6 @@ The example below demonstrates how to read the CustomSettings and pass them to a
 			Next
 		End Sub
 ````
-
-
 >end
 
 # See Also

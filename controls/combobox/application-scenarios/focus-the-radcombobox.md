@@ -47,16 +47,11 @@ Use the [SetFocus](http://msdn.microsoft.com/en-us/library/bb156188.aspx) method
 	ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input");
 				
 ````
-
-
-
 ````VB.NET
 	     
 		ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input")
 				
 ````
-
-
 >end
 
 >note The focus of RadComboBox might not be visible in some browsers if AllowCustomText property is not set to true. You could test the focus using the[OnClientFocus]({%slug combobox/client-side-programming/events/onclientfocus%})event.

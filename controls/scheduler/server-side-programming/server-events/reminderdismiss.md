@@ -40,9 +40,6 @@ The operation can be cancelled by setting the __Cancel__ property of the event a
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_ReminderDismiss(ByVal sender As Object, ByVal e As ReminderDismissEventArgs)
@@ -50,6 +47,4 @@ The operation can be cancelled by setting the __Cancel__ property of the event a
 	    End Sub
 	
 ````
-
-
 >end

@@ -85,9 +85,6 @@ Handle the __NeedDataSource__ event in the codebehind:
 	        RadGrid1.DataSource = myDataTable.DefaultView;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As System.Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Nwind.mdb"))
@@ -104,8 +101,6 @@ Handle the __NeedDataSource__ event in the codebehind:
 	        RadGrid1.DataSource = myDataTable.DefaultView
 	    End Sub
 ````
-
-
 >end
 
 You may also refer to the [following online example](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultCS.aspx) of Telerik RadGrid which demonstrates the usage of __GridTemplateColumn__.

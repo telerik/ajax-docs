@@ -88,9 +88,6 @@ The following example demonstrates how the user can cancel the loading of the co
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadXmlHttpPanel1_ServiceRequest(ByVal sender As Object, ByVal e As RadXmlHttpPanelEventArgs)
@@ -104,6 +101,4 @@ The following example demonstrates how the user can cancel the loading of the co
 	    End Sub
 	
 ````
-
-
 >end

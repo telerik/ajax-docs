@@ -67,9 +67,6 @@ The GridView in the sample contains one template and one button column. The Imag
 	    <asp:AccessDataSource ID="AccessDataSource1" DataFile="~/Grid/Data/Access/Nwind.mdb"
 	        runat="server" SelectCommand="SELECT * FROM [Customers]"></asp:AccessDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void GridView1_RowCreated(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)
@@ -92,9 +89,6 @@ The GridView in the sample contains one template and one button column. The Imag
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub GridView1_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles GridView1.RowCreated
 	        If e.Row.RowType = DataControlRowType.DataRow Then
@@ -113,8 +107,6 @@ The GridView in the sample contains one template and one button column. The Imag
 	
 	
 ````
-
-
 >end
 
 # See Also

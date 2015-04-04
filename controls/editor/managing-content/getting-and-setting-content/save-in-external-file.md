@@ -43,9 +43,6 @@ You can save the RadEditor content in an external text or HTML file as well as l
 	   }
 	} 
 ````
-
-
-
 ````VB.NET
 		Protected path As String = "test.html"
 	...
@@ -57,8 +54,6 @@ You can save the RadEditor content in an external text or HTML file as well as l
 			End Using
 		End Sub
 ````
-
-
 >end
 
 1. To load the external file content in the RadEditor, read the file content with the ReadFile function and assign the returned string to the Html property of RadEditor in the Page_Load event:
@@ -86,9 +81,6 @@ You can save the RadEditor content in an external text or HTML file as well as l
 	   }
 	} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not Page.IsPostBack Then
@@ -105,8 +97,6 @@ You can save the RadEditor content in an external text or HTML file as well as l
 			End Using
 		End Function
 ````
-
-
 >end
 
 

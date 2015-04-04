@@ -77,9 +77,6 @@ __Example 2__: Create a class with a static method that returns a DataTable fill
 	
 		}
 ````
-
-
-
 ````VB.NET
 	    Public Class Vehicle
 	        Private Shared connectionString As String = ConfigurationManager.ConnectionStrings("TelerikConnectionString").ToString()
@@ -94,8 +91,6 @@ __Example 2__: Create a class with a static method that returns a DataTable fill
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 # See Also

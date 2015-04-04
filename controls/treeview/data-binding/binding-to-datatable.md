@@ -69,9 +69,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	
 				
 ````
-
-
-
 ````VB.NET
 	    Imports System.Data.SqlClient
 	    Imports Telerik.Web.UI
@@ -98,8 +95,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 # See Also

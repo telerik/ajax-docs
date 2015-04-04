@@ -44,9 +44,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Private Function CreateTestTable() As DataTable
@@ -68,8 +65,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Function
 	
 ````
-
-
 >end
 
 1. Set the __DataSource__ property of the panel to the DataTable. At the same time, use the __RadPanelBar__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of panel items. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the panel: 
@@ -95,9 +90,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -116,8 +108,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Create an __[ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%})__ to set additional properties on the panel items: 
@@ -134,9 +124,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs) Handles RadPanelBar1.ItemDataBound
@@ -148,8 +135,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub 'RadPanelBar1_ItemDataBound
 	
 ````
-
-
 >end
 
 ## Fetching the data from a separate database
@@ -181,9 +166,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -203,8 +185,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	    End Sub 'Page_Load
 	
 ````
-
-
 >end
 
 >note The __ParentID__ of the root items must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:

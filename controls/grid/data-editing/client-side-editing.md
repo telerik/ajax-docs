@@ -266,9 +266,6 @@ Below are the code snippets from the sample:
 	
 				
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -300,9 +297,6 @@ Below are the code snippets from the sample:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Notes.Modules.Clear()
@@ -328,8 +322,6 @@ Below are the code snippets from the sample:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode

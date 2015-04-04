@@ -56,16 +56,11 @@ Example 1: Performe ajax request on the client and handle it on the server.
 	
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
 	        'code to handle the generic AJAX request
 	    End Sub
 ````
-
-
 >end
 
 When an AJAX request is triggered using the __AjaxRequest__ event from the client, the __RadAjaxManager__itself should be set as the AJAX initiator updating the corresponding control, as shown in __Example 2__.
@@ -147,16 +142,11 @@ And in the code-behind:
 	        TextBox1.Text = DateTime.Now.ToLongTimeString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 	        TextBox1.Text = DateTime.Now
 	    End Sub
 ````
-
-
 >end
 
 You can see the working example by following this link:

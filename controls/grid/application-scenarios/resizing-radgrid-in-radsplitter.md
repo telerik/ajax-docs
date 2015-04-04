@@ -29,9 +29,6 @@ Below is the code logic used in the example:
 	      $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest('ChangePageSize');
 	    }
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
 	    <AjaxSettings>
@@ -65,9 +62,6 @@ Below is the code logic used in the example:
 	    </telerik:RadPane>
 	  </telerik:RadSplitter>
 ````
-
-
-
 ````C#
 	
 	
@@ -129,9 +123,6 @@ Below is the code logic used in the example:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
 	        If Not Page.IsPostBack Then
@@ -170,6 +161,4 @@ Below is the code logic used in the example:
 	        End Select
 	    End Sub
 ````
-
-
 >end

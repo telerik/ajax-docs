@@ -44,9 +44,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	} pe your example code here. It will be automatically colorized when you switch to Preview or build the help system. 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Private Function CreateTestTable() As DataTable
@@ -69,8 +66,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	
 	
 ````
-
-
 >end
 
 1. Set the __DataSource__ property of the tab strip to the DataTable. At the same time, use the __RadTabStrip__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of tabs. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the tab strip:
@@ -95,9 +90,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -118,8 +110,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	
 	
 ````
-
-
 >end
 
 1. Create an [TabDataBound event handler]({%slug tabstrip/server-side-programming/tabdatabound%}) to set additional properties on the tabs:
@@ -135,9 +125,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
@@ -145,8 +132,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	End Sub 
 	
 ````
-
-
 >end
 
 ## Fetching the data from a separate database
@@ -182,9 +167,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -204,8 +186,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	End Sub 'Page_Load 
 	
 ````
-
-
 >end
 
 >caution The __ParentID__ of the root tabs must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the __DataTable__ , or use a query that returns the expected value (null). For example:

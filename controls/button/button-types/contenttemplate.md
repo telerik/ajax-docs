@@ -48,9 +48,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 		<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
 		</telerik:RadButton>
 ````
-
-
-
 ````C#
 		protected void Page_Init(object sender, EventArgs e)
 		{
@@ -60,9 +57,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 			RadButton1.Controls.Add(radButtonContent);
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        Dim radButtonContent As New Literal()
@@ -71,8 +65,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 	        RadButton1.Controls.Add(radButtonContent)
 	    End Sub
 ````
-
-
 >end
 
 * Set the __ContentTemplate__ property to an instance of a class that implements the __ITemplate__ interface (__Example 3__).__Example 3__: Adding controls to the __RadButton__ by using the __ITemplate__ class.
@@ -83,9 +75,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 		<telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
 		</telerik:RadButton>
 ````
-
-
-
 ````C#
 		protected void Page_Init(object sender, EventArgs e)
 		{
@@ -108,9 +97,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 			}
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        RadButton1.ContentTemplate = New ButtonContentTemplate()
@@ -131,8 +117,6 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

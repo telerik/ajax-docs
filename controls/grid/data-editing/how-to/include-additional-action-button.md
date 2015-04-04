@@ -30,9 +30,6 @@ __InPlace__ edit mode:
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is Telerik.Web.UI.GridDataItem AndAlso e.Item.IsInEditMode) Then
@@ -49,9 +46,6 @@ __InPlace__ edit mode:
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -68,8 +62,6 @@ __InPlace__ edit mode:
 	        }
 	    }
 ````
-
-
 >end
 
 __Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
@@ -89,9 +81,6 @@ __Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -107,6 +96,4 @@ __Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
 	        }
 	    }
 ````
-
-
 >end

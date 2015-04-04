@@ -58,9 +58,6 @@ The example below demonstrates how to use the __FileExists__ event to rename the
 	      file.SaveAs(targetFileName);
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadUpload1_FileExists(ByVal sender As Object, _
@@ -79,8 +76,6 @@ The example below demonstrates how to use the __FileExists__ event to rename the
 	        file.SaveAs(targetFileName)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

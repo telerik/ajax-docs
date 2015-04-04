@@ -34,9 +34,6 @@ A hidden button with the desired event handler can be placed on the page and the
 			}
 		</script>
 ````
-
-
-
 ````C#
 		protected void Button1_Click(object sender, EventArgs e)
 		{
@@ -53,9 +50,6 @@ A hidden button with the desired event handler can be placed on the page and the
 			//This can be called only on positive/negative response, or in all cases the response can be stored in a hidden field, for example
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
 			'custom logic that does not require confirmation
@@ -70,8 +64,6 @@ A hidden button with the desired event handler can be placed on the page and the
 			'This can be called only on positive/negative response, or in all cases the response can be stored in a hidden field, for example
 		End Sub
 ````
-
-
 >end
 
 The above example can contain an UpdatePanel around the hidden button in order to invoke an AJAX request instead of a full postback.An alternative is to use the RadAjaxManager and its events for the purpose:
@@ -99,9 +91,6 @@ The above example can contain an UpdatePanel around the hidden button in order t
 			}
 		</script>
 ````
-
-
-
 ````C#
 		protected void Button2_Click(object sender, EventArgs e)
 		{
@@ -123,9 +112,6 @@ The above example can contain an UpdatePanel around the hidden button in order t
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Button2_Click(sender As Object, e As System.EventArgs) Handles Button2.Click
 			'custom logic that does not require confirmation
@@ -144,8 +130,6 @@ The above example can contain an UpdatePanel around the hidden button in order t
 			End If
 		End Sub
 ````
-
-
 >end
 
 ## Using Page Methods
@@ -176,9 +160,6 @@ An alternative is to use Page methods to finish the task as they also provide an
 			}
 		</script>
 ````
-
-
-
 ````C#
 		using System.Web.Services;
 	
@@ -207,9 +188,6 @@ An alternative is to use Page methods to finish the task as they also provide an
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Imports System.Web.Services
 	
@@ -235,8 +213,6 @@ An alternative is to use Page methods to finish the task as they also provide an
 			End If
 		End Sub
 ````
-
-
 >end
 
 This approach allows you to pass more than one argument back to the server (depending on the number of arguments the server method's signature has)and to show feedback to the user easily, all encapsulated in a lightweight request.
@@ -276,9 +252,6 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 			}
 		</script>
 ````
-
-
-
 ````C#
 		protected void Button4_Click(object sender, EventArgs e)
 		{
@@ -297,9 +270,6 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 			//Handle the OK click
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 			'custom logic that does not require confirmation
@@ -316,8 +286,6 @@ Another approach is to use a RadWindow to mimic the built-in RadConfirm dialog -
 			'Handle the OK click
 		End Sub
 ````
-
-
 >end
 
 Using this directly will cause a full postback when OK button is clicked which will also close this RadWindow. Alternatively, to use AJAX,an UpdatePanel can be added around the HTML template and an additional JavaScript function can close the RadWindow.

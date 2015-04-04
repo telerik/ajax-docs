@@ -51,9 +51,6 @@ Use the __TextChanged__ event handler to respond in server-side code when text i
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadComboBox1_TextChanged(ByVal sender As Object, ByVal e As EventArgs)
@@ -63,8 +60,6 @@ Use the __TextChanged__ event handler to respond in server-side code when text i
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

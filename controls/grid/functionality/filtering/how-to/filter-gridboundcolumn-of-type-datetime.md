@@ -48,9 +48,6 @@ For more details review the forthcoming code snippets (feel free to modify the l
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid> </pre>
 ````
-
-
-
 ````VB.NET
 	
 	    Public Shared connectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb")
@@ -155,9 +152,6 @@ For more details review the forthcoming code snippets (feel free to modify the l
 	         End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    public static string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Nwind.mdb");
 	    public static DataTable GetDataTable(string query)
@@ -273,8 +267,6 @@ For more details review the forthcoming code snippets (feel free to modify the l
 	        }
 	    }
 ````
-
-
 >end
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.

@@ -30,9 +30,6 @@ The following code snippet opens a ZIP archive in update mode using __ZipArchive
 	}
 	
 ````
-
-
-
 ````VB.NET
 	Using stream As Stream = File.Open("test.zip", FileMode.Open)
 	    ' Display the list of the files in the selected zip file using the ZipArchive.Entries property.
@@ -40,8 +37,6 @@ The following code snippet opens a ZIP archive in update mode using __ZipArchive
 		End Using
 	End Using
 ````
-
-
 >end
 
 >note You must always dispose the ZIP archive object when all update operations (add/delete/update) are competed. The best practice is declaration and instantiation of the ZIP archive object in a using statement. If it is not possible for some reason then do not forget to call __Dispose()__ method when you complete all operations.
@@ -70,9 +65,6 @@ In order to add a new entry into the ZIP archive you should perform the followin
 	    writer.Flush();
 	}
 ````
-
-
-
 ````VB.NET
 	Using entry As ZipArchiveEntry = archive.CreateEntry("text.txt")
 	    Dim writer As New StreamWriter(entry.Open())
@@ -80,8 +72,6 @@ In order to add a new entry into the ZIP archive you should perform the followin
 		writer.Flush()
 	End Using
 ````
-
-
 >end
 
 >note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
@@ -103,17 +93,12 @@ The following code snippet obtains an entry and deletes it from the ZIP archive 
 	    entry.Delete();
 	}
 ````
-
-
-
 ````VB.NET
 	    Dim entry As ZipArchiveEntry = archive.GetEntry("text.txt")
 	If entry IsNot Nothing Then
 		entry.Delete()
 	End If
 ````
-
-
 >end
 
 ## Update Entry
@@ -144,9 +129,6 @@ In order to update an existing entry in the ZIP archive you should perform the f
 	    writer.Flush();
 	}
 ````
-
-
-
 ````VB.NET
 	
 	    Dim entry As ZipArchiveEntry = archive.GetEntry("text.txt")
@@ -161,8 +143,6 @@ In order to update an existing entry in the ZIP archive you should perform the f
 		writer.Flush()
 	End If
 ````
-
-
 >end
 
 >note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.

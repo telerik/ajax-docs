@@ -72,9 +72,6 @@ The example below demonstrates how to declare left and right sliding zones, cont
 	    } 
 				
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        Dim leftZone As New RadSlidingZone()
@@ -108,8 +105,6 @@ The example below demonstrates how to declare left and right sliding zones, cont
 	        RightPane.Controls.Add(rightZone)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

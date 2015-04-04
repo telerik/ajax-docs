@@ -44,16 +44,11 @@ For the first RadGrid, which is bound to WCF Web Service, you need to specify an
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <OperationContract()> _
 	    Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As ResultData
 	    End Function
 ````
-
-
 >end
 
 where *ResultData *is custom class that holds data returned from the service to client.The signature of this class and the *GridWcfService.svc* file (used in the demo) are shown below:
@@ -113,9 +108,6 @@ where *ResultData *is custom class that holds data returned from the service to 
 	   }
 	}   
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Collections.Generic
@@ -192,8 +184,6 @@ where *ResultData *is custom class that holds data returned from the service to 
 	 End Function
 	    End Class
 ````
-
-
 >end
 
 ## Binding RadGrid for ASP.NET AJAX to ADO.NET Data Service
@@ -224,17 +214,12 @@ and GetCount method:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <WebGet()> _
 	    Public Function GetCount(ByVal where As String) As Integer
 	        Return If([String].IsNullOrEmpty(where), CurrentDataSource.Products.Count(), CurrentDataSource.Products.Where(where).Count())
 	    End Function
 ````
-
-
 >end
 
 The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc* file from the sample is presented in the forthcoming section:
@@ -271,9 +256,6 @@ The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc*
 	   }
 	} 			
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Data.Services
@@ -294,6 +276,4 @@ The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc*
 	    End Class
 	
 ````
-
-
 >end

@@ -65,9 +65,6 @@ This example disables the "today" button, while still allowing a switch to Day v
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_NavigationCommand(ByVal sender As Object, _
@@ -82,8 +79,6 @@ This example disables the "today" button, while still allowing a switch to Day v
 	
 	
 ````
-
-
 >end
 
 # See Also

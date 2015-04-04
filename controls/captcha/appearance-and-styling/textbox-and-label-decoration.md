@@ -26,9 +26,6 @@ In the following example we will customize the border of the TextBox and the Fon
 				<TextBoxLabelDecoration ForeColor="Gray" Font-Italic="true" Font-Names="Verdana, Arial, Georgia" />
 			</telerik:RadCaptcha>
 ````
-
-
-
 ````C#
 			RadCaptcha1.TextBoxDecoration.BorderColor = Color.Gray;
 			RadCaptcha1.TextBoxDecoration.BorderStyle = BorderStyle.Solid;
@@ -38,9 +35,6 @@ In the following example we will customize the border of the TextBox and the Fon
 			RadCaptcha1.TextBoxLabelDecoration.Font.Italic = true;
 			RadCaptcha1.TextBoxLabelDecoration.ForeColor = Color.Gray;
 ````
-
-
-
 ````VB.NET
 			RadCaptcha1.TextBoxDecoration.BorderColor = Color.Gray
 			RadCaptcha1.TextBoxDecoration.BorderStyle = BorderStyle.Solid
@@ -50,8 +44,6 @@ In the following example we will customize the border of the TextBox and the Fon
 			RadCaptcha1.TextBoxLabelDecoration.Font.Italic = True
 			RadCaptcha1.TextBoxLabelDecoration.ForeColor = Color.Gray
 ````
-
-
 >end
 >caption RadCaptcha with decorated TextBox and TextBoxLabel
 

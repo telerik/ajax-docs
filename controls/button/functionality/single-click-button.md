@@ -38,9 +38,6 @@ __Example 1__: The code that enables the single click functionality in __RadButt
 			</telerik:RadButton>
 			<asp:Label ID="lblGreeting" runat="server" />
 ````
-
-
-
 ````C#
 		protected void btnSubmit_Click(object sender, EventArgs e)
 		{
@@ -48,9 +45,6 @@ __Example 1__: The code that enables the single click functionality in __RadButt
 			lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text);
 		}
 ````
-
-
-
 ````VB
 		Protected Sub btnSubmit_Click(sender As Object, e As System.EventArgs) Handles btnSubmit.Click
 			If Page.IsPostBack Then
@@ -59,8 +53,6 @@ __Example 1__: The code that enables the single click functionality in __RadButt
 			lblGreeting.Text = String.Format("Hello, {0}!", txtName.Text)
 		End Sub
 ````
-
-
 >end
 
 The submitted text in processed on the server-side. Note that the method __System.Threading.Thread.Sleep__	is used so that the disabled button can be examined after clicking it.

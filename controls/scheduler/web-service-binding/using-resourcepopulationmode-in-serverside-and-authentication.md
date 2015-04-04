@@ -69,9 +69,6 @@ The solution is to set the authentication cookie in __ResourcesPopulating__:
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Imports System.Web
@@ -85,8 +82,6 @@ The solution is to set the authentication cookie in __ResourcesPopulating__:
 	    End Sub
 	
 ````
-
-
 >end
 
 Another scenario when the __"401: Unauthorized"__ error may be seen is when __"Windows authentication"__ is used and the __ResourcePopulationMode__="ServerSide". In this case you should declare the NetWork credentials in the __ResourcesPopulating__ event as it is done below. This only other thing that have to be done is to turn the impersonation off of because of the Double Hop issue that may occur as is explained here:
@@ -105,9 +100,6 @@ Another scenario when the __"401: Unauthorized"__ error may be seen is when __"W
 	} 
 			
 ````
-
-
-
 ````VB.NET
 	
 	   Private Sub RadScheduler1_ResourcesPopulating(sender As Object, e As ResourcesPopulatingEventArgs)
@@ -119,6 +111,4 @@ Another scenario when the __"401: Unauthorized"__ error may be seen is when __"W
 	    End Sub
 	
 ````
-
-
 >end

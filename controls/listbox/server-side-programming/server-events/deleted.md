@@ -42,9 +42,6 @@ The event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_Deleted(sender As Object, e As RadListBoxEventArgs)
 	        Label.Text = "Deleted items are : "

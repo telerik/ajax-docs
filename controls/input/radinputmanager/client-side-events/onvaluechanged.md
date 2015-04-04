@@ -52,9 +52,6 @@ An easy way to distinguish who raised the event the browser OnChange event or th
 	            </telerik:DateInputSetting>
 	        </telerik:radinputmanager>
 ````
-
-
-
 ````JavaScript
 	                function ValueChanged(sender, args) {
 	                    if (args.get_domEvent() != null) {
@@ -67,6 +64,4 @@ An easy way to distinguish who raised the event the browser OnChange event or th
 	                    }
 	                }
 ````
-
-
 >end

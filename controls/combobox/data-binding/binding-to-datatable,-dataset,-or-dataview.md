@@ -56,9 +56,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	}
 	          
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -84,6 +81,4 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	</pre>
 	
 ````
-
-
 >end

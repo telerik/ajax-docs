@@ -57,9 +57,6 @@ The example below demonstrates how to prepare the previously uploaded file to se
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As FileUploadedEventArgs)
@@ -76,8 +73,6 @@ The example below demonstrates how to prepare the previously uploaded file to se
 	
 	
 ````
-
-
 >end
 
 ## See Also

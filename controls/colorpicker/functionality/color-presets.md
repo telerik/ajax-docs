@@ -44,9 +44,6 @@ There are a number of embedded palettes which can be used by setting the __Prese
 	   }
 	} 
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Web.UI
@@ -67,8 +64,6 @@ There are a number of embedded palettes which can be used by setting the __Prese
 			End Class
 		End Namespace
 ````
-
-
 >end
 
 # See Also

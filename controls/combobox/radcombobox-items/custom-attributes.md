@@ -69,9 +69,6 @@ Before the template can use the custom attributes in its data-binding expression
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -83,8 +80,6 @@ Before the template can use the custom attributes in its data-binding expression
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Using custom attributes server-side
@@ -105,9 +100,6 @@ You can add any name/value pair (value must be string) in the Attributes collect
 	
 	          
 ````
-
-
-
 ````VB.NET
 	
 	    ...
@@ -118,8 +110,6 @@ You can add any name/value pair (value must be string) in the Attributes collect
 	</pre>
 	
 ````
-
-
 >end
 
 ## RadComboBox data binding
@@ -139,9 +129,6 @@ You can handle the RadComboBox' __ItemDataBound__ event and set the Attributes f
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -154,8 +141,6 @@ You can handle the RadComboBox' __ItemDataBound__ event and set the Attributes f
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Using custom attributes client-side

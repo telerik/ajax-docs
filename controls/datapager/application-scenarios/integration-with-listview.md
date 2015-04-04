@@ -134,9 +134,6 @@ The following example shows a RadDataPager in the LayoutTemplate of a RadListVie
 	        SelectCommand="SELECT [ProductID], [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock], [Discontinued] FROM [Products]">
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -249,6 +246,4 @@ The following example shows a RadDataPager in the LayoutTemplate of a RadListVie
 	        SelectCommand="SELECT [ProductID], [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock], [Discontinued] FROM [Products]">
 	    </asp:SqlDataSource>
 ````
-
-
 >end

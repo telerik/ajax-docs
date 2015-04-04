@@ -31,9 +31,6 @@ __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatPr
 			</telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Import DOCX Content" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System;
 	using System.Net;
@@ -57,9 +54,6 @@ __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatPr
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.Net
 	Imports System.IO
@@ -81,8 +75,6 @@ __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatPr
 		End Sub
 	End Class
 ````
-
-
 >end
 
 __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through the __OnImportContent__ event
@@ -94,9 +86,6 @@ __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through
 			</telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Import DOCX" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System.IO;
 	using Telerik.Web.UI;
@@ -125,9 +114,6 @@ __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.IO
 	Imports System.Net
@@ -156,8 +142,6 @@ __Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through
 		End Sub
 	End Class
 ````
-
-
 >end
 
 # See Also

@@ -43,9 +43,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -59,8 +56,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Update the end date picker when the start date picker is changed
@@ -82,9 +77,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -95,8 +87,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript
@@ -132,9 +122,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -145,8 +132,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript
@@ -180,9 +165,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -191,8 +173,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Add a new combobox that updates the subject field
@@ -219,9 +199,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -238,8 +215,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript
@@ -273,9 +248,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -284,8 +256,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Change the selected index of a resource combobox so always one option is preselected
@@ -307,9 +277,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -320,8 +287,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Make changes in the recurrence editor
@@ -363,9 +328,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
@@ -397,8 +359,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Add a new custom validator for the description field
@@ -423,9 +383,6 @@ Here are some examples:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	        If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
@@ -440,8 +397,6 @@ Here are some examples:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript

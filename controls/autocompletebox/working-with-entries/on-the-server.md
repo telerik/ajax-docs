@@ -42,9 +42,6 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 		}
 	
 ````
-
-
-
 ````VB
 	
 		Protected Sub RadButton1_Click(sender As Object, e As EventArgs)
@@ -54,8 +51,6 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 		End Sub
 	
 ````
-
-
 >end
 
 # See Also

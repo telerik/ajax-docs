@@ -114,9 +114,6 @@ You can assign a culture property in the code-behind as well:
 	        RadDateTimePicker.Culture = RadDateTimePicker.Culture;
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -126,8 +123,6 @@ You can assign a culture property in the code-behind as well:
 	        RadDateTimePicker.Culture = RadDateTimePicker.Culture
 	    End Sub
 ````
-
-
 >end
 
 # See Also

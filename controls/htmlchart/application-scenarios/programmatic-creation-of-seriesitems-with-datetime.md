@@ -70,9 +70,6 @@ __Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesIte
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 	//A method that converts the .NET DateTime object to its JavaScript Date object representation
 	protected decimal ConvertToJavaScriptDateTime(DateTime fromDate)
@@ -108,9 +105,6 @@ __Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesIte
 		(RadHtmlChart1.PlotArea.Series[0] as ScatterLineSeries).SeriesItems.Add(ssi4);
 	}
 ````
-
-
-
 ````VB
 	    'A method that converts the .NET DateTime object to its JavaScript Date object representation
 	    Protected Function ConvertToJavaScriptDateTime(fromDate As DateTime) As Decimal
@@ -144,8 +138,6 @@ __Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesIte
 	        TryCast(RadHtmlChart1.PlotArea.Series(0), ScatterLineSeries).SeriesItems.Add(ssi4)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

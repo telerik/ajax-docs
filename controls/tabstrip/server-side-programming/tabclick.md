@@ -37,9 +37,6 @@ Use the __TabClick__ event handler to respond when the user clicks a tab in the 
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub RadTabStrip1_TabClick(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
@@ -48,6 +45,4 @@ Use the __TabClick__ event handler to respond when the user clicks a tab in the 
 	End Sub 
 				
 ````
-
-
 >end

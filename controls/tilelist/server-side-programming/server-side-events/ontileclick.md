@@ -48,9 +48,6 @@ The event handler receives two arguments - of type __object__ that is a referenc
 			//note: e.Tile is of type RadBaseTile
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadTileList1_TileClick(sender As Object, e As Telerik.Web.UI.TileListEventArgs) Handles RadTileList1.TileClick
 			clickResult.InnerHtml = "Clicked tile name and URL: " & e.Tile.Name & "<br />" & e.Tile.NavigateUrl

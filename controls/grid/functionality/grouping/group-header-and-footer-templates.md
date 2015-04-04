@@ -115,9 +115,6 @@ Below follows and example of group header and footer templates usage.
 	        <GroupingSettings ShowUnGroupButton="true" />
 	    </telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    <telerik:RadGrid ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
 	        DataSourceID="SqlDataSource1" ShowFooter="True" runat="server" GridLines="None"
@@ -192,8 +189,6 @@ Below follows and example of group header and footer templates usage.
 	    <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT * FROM Products" runat="server"></asp:SqlDataSource>
 ````
-
-
 >end
 
 >tabbedCode
@@ -289,9 +284,6 @@ Below follows and example of group header and footer templates usage.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        For Each item As GridGroupFooterItem In RadGrid1.MasterTableView.GetItems(GridItemType.GroupFooter)
@@ -373,6 +365,4 @@ Below follows and example of group header and footer templates usage.
 	        TryCast(item.FindControl("Label5"), Label).ForeColor = col
 	    End Sub
 ````
-
-
 >end

@@ -146,9 +146,6 @@ FilterExpression - Hierarchical recursive structure that allows defining of nest
 	        RadClientDataSource1.FilterExpression.Filters.Add(filter1);
 	        RadClientDataSource1.FilterExpression.Filters.Add(new ClientDataSourceFilterEntry { FieldName = "C", Operator = ClientDataSourceFilterOperator.EqualTo, Value = "3" });
 ````
-
-
-
 ````VB.NET
 	    Dim filter1 = New ClientDataSourceFilterExpression() With { _
 		Key .LogicOperator = ClientDataSourceFilterLogicOperator.[Or] _
@@ -170,8 +167,6 @@ FilterExpression - Hierarchical recursive structure that allows defining of nest
 		    Key .Value = "3" _
 	    })
 ````
-
-
 >end
 
 >note The filter value on the server is always __string__ (if the value property is not string it cannot be set through markup and thewhole filter expressions setting in the markup becomes useless). Consider the following filter expression:

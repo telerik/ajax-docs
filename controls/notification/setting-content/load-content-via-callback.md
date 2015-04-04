@@ -43,9 +43,6 @@ In the example below the server time is populated in the notification by using i
 	            + beBack.ToShortDateString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadNotification1_CallbackUpdate(sender As Object, e As Telerik.Web.UI.RadNotificationEventArgs) Handles RadNotification1.CallbackUpdate
 	        Dim beBack As DateTime

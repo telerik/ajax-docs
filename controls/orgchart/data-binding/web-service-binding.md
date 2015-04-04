@@ -41,15 +41,10 @@ In Simple binding:
 	       RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Path ="OrgChartGroupItemDataService.svc";
 	
 ````
-
-
-
 ````VB.NET
 	         RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Method = "LoadData"
 	         RadOrgChart1.WebServiceBindings.Simple.GroupItemServiceSettings.Path ="OrgChartGroupItemDataService.svc"
 ````
-
-
 >end
 
 In Group Enabled binding:
@@ -79,17 +74,12 @@ In Group Enabled binding:
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.NodeServiceSettings.Path = "OrgChartNodeDataService.svc";
 	
 ````
-
-
-
 ````VB.NET
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.GroupItemServiceSettings.Method = "LoadData"
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.GroupItemServiceSettings.Path ="OrgChartGroupItemDataService.svc"
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.NodeServiceSettings.Method =  "LoadData"
 	        RadOrgChart2.WebServiceBindings.GroupEnabled.NodeServiceSettings.Path = "OrgChartNodeDataService.svc"
 ````
-
-
 >end
 
 ## Simple Binding
@@ -132,9 +122,6 @@ Here is an example of RadOrgChart that is bound to Web Service in simple binding
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	
@@ -158,8 +145,6 @@ Here is an example of RadOrgChart that is bound to Web Service in simple binding
 	    End Sub
 	
 ````
-
-
 >end
 
 OrgChartGroupItemDataService:
@@ -229,9 +214,6 @@ OrgChartGroupItemDataService:
 	    // Add more operations here and mark them with [OperationContract]
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Collections.Generic
@@ -292,8 +274,6 @@ OrgChartGroupItemDataService:
 	    End Class
 	
 ````
-
-
 >end
 
 ## Group-Enabled Binding
@@ -334,9 +314,6 @@ Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled 
 	            RadOrgChart2.DataBind();
 	        }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        Dim teams = New DataTable()
@@ -360,8 +337,6 @@ Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled 
 	    End Sub
 	
 ````
-
-
 >end
 
 OrgChartGroupItemDataService:
@@ -422,9 +397,6 @@ OrgChartGroupItemDataService:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.Collections.Generic
 	Imports System.Data
@@ -478,8 +450,6 @@ OrgChartGroupItemDataService:
 	    End Class
 	
 ````
-
-
 >end
 
 OrgChartNodeDataService:
@@ -541,9 +511,6 @@ OrgChartNodeDataService:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	
 	Imports System.Collections.Generic
@@ -596,8 +563,6 @@ OrgChartNodeDataService:
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 ## Events

@@ -55,9 +55,6 @@ The attached WebService should have the following signature:
 		}
 	
 ````
-
-
-
 ````VB
 		<ScriptService()> _
 		Public Class WebServiceName
@@ -112,9 +109,6 @@ The passed argument can be accessed through the __argument__ parameter of the We
 			//.......
 		}
 ````
-
-
-
 ````VB
 		<WebMethod()> _
 		Public Function GetRotatorData(itemIndex As Integer, argument As String) As RadRotatorItemData()

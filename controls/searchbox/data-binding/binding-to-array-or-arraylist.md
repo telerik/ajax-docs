@@ -57,9 +57,6 @@ One can use the __Page_Load__ event handler to create the Array and ArrayList by
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -82,6 +79,4 @@ One can use the __Page_Load__ event handler to create the Array and ArrayList by
 	    End Sub
 	
 ````
-
-
 >end

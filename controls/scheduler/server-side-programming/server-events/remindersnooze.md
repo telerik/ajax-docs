@@ -38,9 +38,6 @@ The operation can be cancelled by setting the __Cancel__ property of the event a
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_ReminderSnooze(ByVal sender As Object, ByVal e As ReminderSnoozeEventArgs)
@@ -48,6 +45,4 @@ The operation can be cancelled by setting the __Cancel__ property of the event a
 	    End Sub
 	
 ````
-
-
 >end

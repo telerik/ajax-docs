@@ -61,9 +61,6 @@ Example:
 	                         </xml>";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -71,6 +68,4 @@ Example:
 	    End Sub
 	
 ````
-
-
 >end

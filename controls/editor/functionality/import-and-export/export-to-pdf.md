@@ -73,9 +73,6 @@ __Example 1__: Configure PDF export settings - title, author, header and footer.
 			<br />
 			<asp:Button ID="Button2" Text="Export RadEditor Content to PDF" runat="server" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	
 		protected void Button1_Click(object sender, EventArgs e)
@@ -84,9 +81,6 @@ __Example 1__: Configure PDF export settings - title, author, header and footer.
 		}
 	
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Button1_Click(sender As Object, e As EventArgs)
@@ -94,8 +88,6 @@ __Example 1__: Configure PDF export settings - title, author, header and footer.
 	    End Sub
 	
 ````
-
-
 >end
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
@@ -121,9 +113,6 @@ Below you can find an example demonstrating how to export the editor'scontent as
 			</telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Export to PDF" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System;
 	using System.IO;
@@ -156,9 +145,6 @@ Below you can find an example demonstrating how to export the editor'scontent as
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.IO
 	Imports Telerik.Web.UI
@@ -187,8 +173,6 @@ Below you can find an example demonstrating how to export the editor'scontent as
 		End Sub
 	End Class
 ````
-
-
 >end
 
 ## Using an External HTML to PDF Conversion Library
@@ -287,9 +271,6 @@ It is possible to use an external HTML to PDF conversion library for the Export 
 		}
 	
 ````
-
-
-
 ````VB
 	
 		Public MustInherit Class RadEditorExportTemplate
@@ -361,8 +342,6 @@ It is possible to use an external HTML to PDF conversion library for the Export 
 		End Class
 	
 ````
-
-
 >end
 
 Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the__Page_Load__ event handler, for example, in the following way.
@@ -376,17 +355,12 @@ Next, an instance of the Custom Pdf Export Template needs to be passed to the Ed
 			//call RadEditor1.ExportToPdf(); to export the Editor's content
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadEditor1.SetPdfExportTemplate(New CustomPdfExportTemplate(RadEditor1))
 			'call RadEditor1.ExportToPdf() to export the Editor's content
 		End Sub
 ````
-
-
 >end
 
 Last, but not least, by calling the __ExportToPDF()__ the content will be exported using the newly defined	library instead of the default one.

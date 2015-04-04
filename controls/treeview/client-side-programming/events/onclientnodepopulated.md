@@ -89,9 +89,6 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadTreeView1_NodeExpand(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -113,8 +110,6 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

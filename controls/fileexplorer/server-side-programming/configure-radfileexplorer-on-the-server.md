@@ -41,9 +41,6 @@ Example:
 			RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(Telerik.Web.UI.Widgets.FileSystemContentProvider).AssemblyQualifiedName;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        Dim paths As String() = New String() {"~/"}
@@ -65,8 +62,6 @@ Example:
 	
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -38,9 +38,6 @@ The event handler receives two parameters:
 	        Label.Text = "Deleted items count is " + e.Items.Count.ToString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_Deleting(sender As Object, e As RadListBoxEventArgs)
 	        Label.Text = "Deleted items count is " + e.Items.Count.ToString()

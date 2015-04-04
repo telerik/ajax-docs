@@ -90,9 +90,6 @@ In addition to [adding templates at design time]({%slug listbox/templates/workin
 	        }
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Partial Public Class Templates
@@ -151,8 +148,6 @@ In addition to [adding templates at design time]({%slug listbox/templates/workin
 	        End Class
 	    End Class
 ````
-
-
 >end
 
 The end result is:
@@ -193,9 +188,6 @@ Alternatively, you can add controls directly to the __Controls__ collection of _
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -217,8 +209,6 @@ Alternatively, you can add controls directly to the __Controls__ collection of _
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

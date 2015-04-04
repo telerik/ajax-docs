@@ -66,9 +66,6 @@ You can manipulate the grid sort programmatically by creating instances of the _
 	        RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression);
 	        RadGrid1.MasterTableView.Rebind();
 ````
-
-
-
 ````VB.NET
 	    Dim expression As GridSortExpression = New GridSortExpression()
 	    expression.FieldName = "CompanyName"
@@ -76,8 +73,6 @@ You can manipulate the grid sort programmatically by creating instances of the _
 	    RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression)
 	    RadGrid1.MasterTableView.Rebind()
 ````
-
-
 >end
 
 Sorting is handled internally by a DataView. Be sure that you specify the properties of the __GridSortExpression__ class properly, or the grid will throw an exception when it is data bound.

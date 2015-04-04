@@ -48,9 +48,6 @@ __Server-side access__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub button0_Click(sender As Object, e As EventArgs)
 	        Dim item As RadPanelItem = RadPanelBar0.Items(0)
@@ -59,8 +56,6 @@ __Server-side access__
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Content Template
@@ -99,9 +94,6 @@ __Server-side access__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs)
@@ -109,8 +101,6 @@ __Server-side access__
 	    End Sub
 	
 ````
-
-
 >end
 
 __Client-side access__
@@ -165,9 +155,6 @@ __Server-side access__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadColorPicker1.ColorChanged
@@ -177,8 +164,6 @@ __Server-side access__
 	    End Sub
 	
 ````
-
-
 >end
 
 __Client-side access__

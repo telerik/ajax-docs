@@ -41,9 +41,6 @@ In the example below there is __UpdateAll__ button in the grid command item temp
 	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP 10 CustomerID, ContactName FROM Customers"
 	    runat="server"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -73,9 +70,6 @@ In the example below there is __UpdateAll__ button in the grid command item temp
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        If (e.CommandName = "UpdateAll") Then
@@ -98,8 +92,6 @@ In the example below there is __UpdateAll__ button in the grid command item temp
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 __Client-side editing with batch update__One possible implementation is demonstrated on [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
@@ -143,9 +135,6 @@ The following sample takes advantage of the editSelected() client side method, t
 	           </ClientSettings>
 	       </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void InitializeComponent()
 	    {
@@ -227,9 +216,6 @@ The following sample takes advantage of the editSelected() client side method, t
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Public ReadOnly Property CustomersTable As DataTable
 	        Get
@@ -288,6 +274,4 @@ The following sample takes advantage of the editSelected() client side method, t
 	        End Try
 	    End Sub
 ````
-
-
 >end

@@ -35,9 +35,6 @@ After update/cancel operation, the rest of the grid records will show up on the 
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void RadGrid1_PreRender(object sender, System.EventArgs e)
 	    {
@@ -53,9 +50,6 @@ After update/cancel operation, the rest of the grid records will show up on the 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
 	        If (RadGrid1.EditItems.Count > 0) Then
@@ -67,6 +61,4 @@ After update/cancel operation, the rest of the grid records will show up on the 
 	        End If
 	    End Sub
 ````
-
-
 >end

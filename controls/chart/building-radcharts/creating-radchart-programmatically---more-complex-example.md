@@ -96,9 +96,6 @@ The figure above shows a more complex chart than the [minimal example of program
 	        // Add the series to the chart, chart to page.radChart.Series.Add(chartSeries);radChart.Series.Add(chartSeries2);this.Page.Controls.Add(radChart)
 	
 ````
-
-
-
 ````VB.NET
 	
 	    ' Define chart and title
@@ -161,8 +158,6 @@ The figure above shows a more complex chart than the [minimal example of program
 	    Me.Page.Controls.Add(radChart) 
 	
 ````
-
-
 >end
 
 # See Also

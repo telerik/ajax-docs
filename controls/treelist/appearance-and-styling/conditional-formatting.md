@@ -35,9 +35,6 @@ The following example shows how to handle the __ItemDataBound__ event inorder to
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadTreeList1_ItemDataBound(ByVal sender As Object, ByVal e As TreeListItemDataBoundEventArgs) Handles RadTreeList1.ItemDataBound
@@ -52,8 +49,6 @@ The following example shows how to handle the __ItemDataBound__ event inorder to
 	    End Sub
 	
 ````
-
-
 >end
 
 ![RadTreeList Conditional Formating](images/treelist_conditional_formatting.jpg)

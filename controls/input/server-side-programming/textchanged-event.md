@@ -62,9 +62,6 @@ Use the __TextChanged__ event handler to respond to changes in the control's tex
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadInput_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadTextBox1.TextChanged, RadNumericTextBox1.TextChanged, RadMaskedTextBox1.TextChanged, RadDateInput.TextChanged
 	        If TypeOf sender Is RadTextBox Then
@@ -83,8 +80,6 @@ Use the __TextChanged__ event handler to respond to changes in the control's tex
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -55,9 +55,6 @@ Below is a sample code implementation which demonstrates how you can manipulate 
 	        SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, Freight, ShipCountry FROM Orders">
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    public DataTable GetDataTable(string query)
 	    {
@@ -102,9 +99,6 @@ Below is a sample code implementation which demonstrates how you can manipulate 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Function GetDataTable(query As String) As DataTable
 	        Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
@@ -145,8 +139,6 @@ Below is a sample code implementation which demonstrates how you can manipulate 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## 

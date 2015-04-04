@@ -37,9 +37,6 @@ The event handler receives two arguments - of type __object__ that is a referenc
 	        ScriptManager.RegisterStartupScript(this.GetType(), "Alert", script, true);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Tile1_Click(sender As Object, e As EventArgs)
 	        Dim script As String = "alert('Tile with ID  " + Tile1.ID + " is clicked');"

@@ -63,16 +63,11 @@ The following example demonstrates using __RadUpload__ with a custom validator t
 	    е .IsValid = (RadUpload1.InvalidFiles.Count == 0);
 	}
 ````
-
-
-
 ````VB.NET
 	    Private Sub CustomValidator1_ServerValidate(ByVal source As Object, ByVal e As ServerValidateEventArgs) Handles Customvalidator1.ServerValidate
 	        е.IsValid = (RadUpload1.InvalidFiles.Count = 0)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

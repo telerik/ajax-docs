@@ -79,9 +79,6 @@ __Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ 
 				</PlotArea>
 			</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		AreaSeries areaSeries = Chart1.PlotArea.Series[0] as AreaSeries;
 	
@@ -90,9 +87,6 @@ __Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ 
 		areaSeries.SeriesItems.Add(40);
 	
 ````
-
-
-
 ````VB
 		Dim areaSeries As AreaSeries
 		areaSeries = CType(Chart1.PlotArea.Series.Item(0), AreaSeries)
@@ -101,8 +95,6 @@ __Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ 
 		areaSeries.SeriesItems.Add(35)
 		areaSeries.SeriesItems.Add(40)
 ````
-
-
 >end
 
 # See Also

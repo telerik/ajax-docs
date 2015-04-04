@@ -66,9 +66,6 @@ This example below demonstrates how you can pass an integer value to the Web Ser
 	        return data;
 	    }
 ````
-
-
-
 ````VB.NET
 	    <WebMethod> _
 	    Public Shared Function GetResults(context As SearchBoxContext) As SearchBoxItemData()
@@ -95,8 +92,6 @@ This example below demonstrates how you can pass an integer value to the Web Ser
 	        Return data
 	    End Function
 ````
-
-
 >end
 
 ## Using Additional userContext information with the OnDataSourceSelect event
@@ -139,9 +134,6 @@ In the example below it is explained how to achieve the same scenario by passing
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadSearchBox1_DataSourceSelect(sender As Object, e As SearchBoxDataSourceSelectEventArgs)
 	        Dim source As SqlDataSource = DirectCast(e.DataSource, SqlDataSource)
@@ -151,6 +143,4 @@ In the example below it is explained how to achieve the same scenario by passing
 	        source.SelectCommand = "SELECT * FROM[Products] WHERE [" + searchBox.DataTextField + "] LIKE " + likeCondition + "AND [UnitPrice] <=" + unitPrice
 	    End Sub
 ````
-
-
 >end

@@ -83,9 +83,6 @@ As in earlier versions of RadEditor, you can configure the toolbar using a Tools
 	            main.Tools.Add(underline);
 				
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Tools.Clear()
@@ -105,8 +102,6 @@ As in earlier versions of RadEditor, you can configure the toolbar using a Tools
 	        main.Tools.Add(underline)
 	
 ````
-
-
 >end
 
 You can also use the following syntax to add a standard button to the toolbar. The example below adds a "Bold" button to the end of the first group of tools.
@@ -120,9 +115,6 @@ You can also use the following syntax to add a standard button to the toolbar. T
 	            RadEditor1.Tools[0].Tools.Add(tool);
 	
 ````
-
-
-
 ````VB
 	
 	        Dim tool As New EditorTool("Bold")
@@ -130,8 +122,6 @@ You can also use the following syntax to add a standard button to the toolbar. T
 	        RadEditor1.Tools(0).Tools.Add(tool)
 	
 ````
-
-
 >end
 
 >note Please, note that if a new EditorToolGroup is added then the Tools collection will be reset. You can download the default ToolsFile.xml file of RadEditor from[here](http://www.telerik.com/support/kb/aspnet-ajax/editor/default-toolsfile-xml-file.aspx).

@@ -37,8 +37,6 @@ RadAutoCompleteBox can be bound to an OData service. The following application s
 				DataValueField="CustomerID">
 			</telerik:RadAutoCompleteBox>
 ````
-
-
 >end
 
 # See Also

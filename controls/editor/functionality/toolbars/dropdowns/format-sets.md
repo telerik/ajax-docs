@@ -86,9 +86,6 @@ Below are some sample settings of the __FormatSets__ collection:![radeditor-form
 	        RadEditor1.FormatSets.Add(formatSet);
 	
 ````
-
-
-
 ````VB.NET
 	        EditorFormatSet(formatSet = New EditorFormatSet("img", "Red Border Image"))
 	        formatSet.Attributes.Add(New EditorFormatSetAttribute("class", "RedBorderImage"))
@@ -104,8 +101,6 @@ Below are some sample settings of the __FormatSets__ collection:![radeditor-form
 	        RadEditor1.FormatSets.Add(formatSet)
 	
 ````
-
-
 >end
 
 ## Using the ToolsFile

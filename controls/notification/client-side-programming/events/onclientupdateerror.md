@@ -48,9 +48,6 @@ This code sample will throw the event every time the notification is shown, yet 
 	        throw (new ApplicationException("an error occured during callback update"));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub OnCallbackUpdate(sender As Object, e As RadNotificationEventArgs)
 	        Throw (New ApplicationException("an error occured during callback update"))

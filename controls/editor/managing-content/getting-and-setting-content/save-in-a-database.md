@@ -102,9 +102,6 @@ In a new AJAX Enabled Web Application:
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not IsPostBack Then
@@ -112,8 +109,6 @@ In a new AJAX Enabled Web Application:
 			End If
 		End Sub
 ````
-
-
 >end
 
 1. Add a series of helper methods to create a connection to the Access database, update, insert and read records:
@@ -173,9 +168,6 @@ In a new AJAX Enabled Web Application:
 			connection.Close();
 		} 
 ````
-
-
-
 ````VB.NET
 		' Helper Methods
 		' Returns a connection to the Access Database
@@ -221,8 +213,6 @@ In a new AJAX Enabled Web Application:
 			connection.Close()
 		End Sub
 ````
-
-
 >end
 
 1. In the designer, double-click the RadComboBox control to create a __SelectedIndexChanged__ event handler. Replace the event handler with the code below. In this snippet, the __SelectedValue__ contains the ID for the selected record.
@@ -235,17 +225,12 @@ In a new AJAX Enabled Web Application:
 			RadEditor1.Content = ReadEmail((o as RadComboBox).SelectedValue);
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs) _
 		Handles RadComboBox1.SelectedIndexChanged
 			RadEditor1.Content = ReadEmail((TryCast(o, RadComboBox)).SelectedValue)
 		End Sub
 ````
-
-
 >end
 
 1. In the designer, double-click the "btnNew" Button control to create a __Click__ event handler. Replace the event handler with the code below.
@@ -259,9 +244,6 @@ In a new AJAX Enabled Web Application:
 			RadEditor1.Content = "";
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub btnNew_Click(ByVal sender As Object, ByVal e As EventArgs) _
 		Handles btnNew.Click
@@ -269,8 +251,6 @@ In a new AJAX Enabled Web Application:
 			RadEditor1.Content = ""
 		End Sub
 ````
-
-
 >end
 
 1. In the designer, double-click the "btnSave" Button control to create a __Click__ event handler. Replace the event handler with the code below.
@@ -290,9 +270,6 @@ In a new AJAX Enabled Web Application:
 			ReadAllEmail();
 		} 	
 ````
-
-
-
 ````VB.NET
 		Protected Sub btnSave_Click(ByVal sender As Object, ByVal e As EventArgs) _
 		Handles btnSave.Click
@@ -304,8 +281,6 @@ In a new AJAX Enabled Web Application:
 			ReadAllEmail()
 		End Sub
 ````
-
-
 >end
 
 1. Press __F5__ to run the application. As you change selections in the RadComboBox list, the content of the RadEditor should change in unison. Make changes to content and click the save button. Navigate to and from the edited record to verify that the content has been saved to the database.

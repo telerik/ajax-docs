@@ -35,9 +35,6 @@ To bind a RadChart to an [Array](http://msdn2.microsoft.com/en-us/library/system
 	    } 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -47,8 +44,6 @@ To bind a RadChart to an [Array](http://msdn2.microsoft.com/en-us/library/system
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

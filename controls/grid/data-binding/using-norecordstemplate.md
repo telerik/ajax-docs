@@ -82,9 +82,6 @@ The example below shows how to embed MS Label in the NoRecordsTemplate of the Ma
 	}
 	          
 ````
-
-
-
 ````VB.NET
 	    Public Class NoRecordsTemplate
 	        Implements ITemplate
@@ -120,8 +117,6 @@ The example below shows how to embed MS Label in the NoRecordsTemplate of the Ma
 	        'runtime column definitions
 	    End Sub
 ````
-
-
 >end
 
 Detailed information about how to create templates programmatically you can find in the __MSDN__: [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vstechart.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)

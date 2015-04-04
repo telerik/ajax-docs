@@ -62,9 +62,6 @@ To enable spell checking in your web application you need to accomplish the foll
 	        }
 				
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -72,6 +69,4 @@ To enable spell checking in your web application you need to accomplish the foll
 	        End If
 	    End Sub
 ````
-
-
 >end

@@ -79,9 +79,6 @@ And in the code-behind:
 	        RadAjaxPanel2.ResponseScripts.Add(String.Format("$find('{0}').ajaxRequest();", RadAjaxPanel1.ClientID));
 	    }  
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles Me.PreRender
 	        If RadAjaxPanel1.IsAjaxRequest Or RadAjaxPanel2.IsAjaxRequest Then
@@ -116,6 +113,4 @@ And in the code-behind:
 	        RadAjaxPanel2.ResponseScripts.Add(String.Format("$find('{0}').ajaxRequest();", RadAjaxPanel1.ClientID))
 	    End Sub 'btnDecrease_Click 
 ````
-
-
 >end

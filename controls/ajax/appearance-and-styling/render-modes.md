@@ -76,9 +76,6 @@ __RenderMode__ - You can change the render mode of controls wrapped in RadAjaxPa
 	    }  
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)
 	        If e.Updated.ID = "Label1" Then
@@ -87,8 +84,6 @@ __RenderMode__ - You can change the render mode of controls wrapped in RadAjaxPa
 	    End Sub
 	
 ````
-
-
 >end
 
 >caution Note that the following scenario is currently unsupported (including the properties for both the RadAjaxManager and per AjaxUpdatedControl):

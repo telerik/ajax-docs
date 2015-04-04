@@ -332,9 +332,6 @@ The actual contents are determined by the code-behind, where each template is de
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Partial Class DefaultVB
 	        Inherits System.Web.UI.Page
@@ -607,6 +604,4 @@ The actual contents are determined by the code-behind, where each template is de
 	        End Sub
 	    End Class
 ````
-
-
 >end

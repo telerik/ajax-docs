@@ -25,8 +25,6 @@ Since Q3 2012 RadPivotGrid provides means to change how the columns, rows, and d
 			<RowHeaderCellStyle Width="300p" />
 			<DataCellStyle Width="300px" />
 ````
-
-
 >end
 
 * *__ColumnHeaderCellStyle__* – applies style to all pivotgrid’s column header table cells.
@@ -43,8 +41,6 @@ Since Q3 2012 RadPivotGrid provides means to change how the columns, rows, and d
 				<telerik:PivotGridRowField DataField="TransportType" CellStyle-ForeColor="Red" CellStyle-Font-Size="Small">
 				</telerik:PivotGridRowField>
 ````
-
-
 >end
 
 ## Cases and specifics

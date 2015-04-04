@@ -26,9 +26,6 @@ The __DataItem__ property is available only during databinding in the __[NodeDat
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadTreeView1_NodeDataBound(ByVal o As Object, ByVal e As RadTreeNodeEventArgs)
@@ -36,8 +33,6 @@ The __DataItem__ property is available only during databinding in the __[NodeDat
 	    End Sub
 	
 ````
-
-
 >end
 
 You should not use it elsewhere. You can use the __Value__ property or [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) instead.

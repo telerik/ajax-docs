@@ -45,9 +45,6 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadSlider1_ValueChanged(ByVal sender As Object, ByVal e As EventArgs)
@@ -55,8 +52,6 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Replace the Page_Load event handler with the code below:
@@ -74,9 +69,6 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -86,8 +78,6 @@ The following tutorial demonstrates using RadSlider to interact with the month o
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Press __F5__ to run the application. Drag the slider and observe the change to the Calendar. Notice that you can't drag the slider outside the minimum and maximum values of 1..12.

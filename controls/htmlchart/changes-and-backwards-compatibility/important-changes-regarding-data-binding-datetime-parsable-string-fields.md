@@ -38,9 +38,6 @@ __Example1:__ Data binding a DataTable data source that contains a string column
 			</PlotArea>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -61,9 +58,6 @@ __Example1:__ Data binding a DataTable data source that contains a string column
 			return dt;
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -82,8 +76,6 @@ __Example1:__ Data binding a DataTable data source that contains a string column
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

@@ -66,9 +66,6 @@ Here follows the code used to achieve this:
 	        </script>
 	    </telerik:RadScriptBlock>
 ````
-
-
-
 ````ASPNET
 	    <input type="hidden" runat="server" id="TargetSlotHiddenField" />
 	    <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1">
@@ -200,9 +197,6 @@ Here follows the code used to achieve this:
 	        </InsertParameters>
 	    </sds:SessionDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadScheduler1_AppointmentInsert(object sender, SchedulerCancelEventArgs e)
@@ -337,9 +331,6 @@ Here follows the code used to achieve this:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_RowDrop(ByVal sender As Object, ByVal e As GridDragDropEventArgs)
@@ -461,8 +452,6 @@ Here follows the code used to achieve this:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >caution The bind expressions in the markup use C# syntax. In order to view their VB translation please visit the above linked demo.

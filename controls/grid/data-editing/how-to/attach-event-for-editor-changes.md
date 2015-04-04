@@ -43,9 +43,6 @@ There is no default event for editor changes in grid columns - it is up to the d
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
@@ -60,9 +57,6 @@ There is no default event for editor changes in grid columns - it is up to the d
 	        'change the selected value for ContactTitle here
 	    End Sub
 ````
-
-
-
 ````C#
 	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -79,6 +73,4 @@ There is no default event for editor changes in grid columns - it is up to the d
 	        // change the selected value for ContactTitle here
 	    }
 ````
-
-
 >end

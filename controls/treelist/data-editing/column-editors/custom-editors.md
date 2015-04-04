@@ -81,9 +81,6 @@ The user is expected to provide a delegate function to __e.CustomEditorInitializ
 	    <asp:SqlDataSource runat="server" ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT DISTINCT [TitleOfCourtesy] FROM [Employees]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_CreateColumnEditor(object sender, TreeListCreateColumnEditorEventArgs e)
 	    {
@@ -96,9 +93,6 @@ The user is expected to provide a delegate function to __e.CustomEditorInitializ
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_CreateColumnEditor(ByVal sender As Object, ByVal e As TreeListCreateColumnEditorEventArgs)
 	
@@ -112,8 +106,6 @@ The user is expected to provide a delegate function to __e.CustomEditorInitializ
 	
 	
 ````
-
-
 >end
 
 ## Implementing Custom Editors
@@ -175,9 +167,6 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 	    <asp:SqlDataSource runat="server" ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT DISTINCT [TitleOfCourtesy] FROM [Employees]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	        {
@@ -243,9 +232,6 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_CreateColumnEditor(ByVal sender As Object, ByVal e As TreeListCreateColumnEditorEventArgs)
 	        If e.Column.DataField = "TitleOfCourtesy" Then
@@ -295,8 +281,6 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 Alternatively to implementing the ITreeListColumnEditor interface, a developer can decide to subclass from the abstract TreeListColumnEditor class that provides some handy properties and methods.

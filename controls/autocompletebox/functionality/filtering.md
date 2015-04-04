@@ -49,9 +49,6 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 	       data.EndOfItems = true;
 	
 ````
-
-
-
 ````VB.NET
 	    Dim data As New AutoCompleteBoxData()
 	    data.EndOfItems = True

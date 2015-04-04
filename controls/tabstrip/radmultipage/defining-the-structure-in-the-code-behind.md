@@ -60,9 +60,6 @@ __RadMultiPage__ can be easily created dynamically(in the codebehind).
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	
 	Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -89,8 +86,6 @@ __RadMultiPage__ can be easily created dynamically(in the codebehind).
 	
 				
 ````
-
-
 >end
 
 __See__ a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/dynamicpageview/defaultcs.aspx)

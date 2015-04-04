@@ -66,9 +66,6 @@ Since Q1 2011 the __RadWindowManager__ offers a built-in server-side method to c
 ````C#
 	    RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, null, "My Confirm", "myConfirmImage.png");
 ````
-
-
-
 ````VB.NET
 	    RadWindowManager1.RadConfirm("Are you sure?", "confirmCallBackFn", 300, 100, Nothing, "My Confirm", "myConfirmImage.png")
 	    #End Region

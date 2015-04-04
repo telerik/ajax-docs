@@ -113,9 +113,6 @@ This example shows how to use the __Available__ property to control the availabi
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    ' store the unavailable resources in the Session state
@@ -185,8 +182,6 @@ This example shows how to use the __Available__ property to control the availabi
 	    End Sub
 				
 ````
-
-
 >end
 
 # See Also

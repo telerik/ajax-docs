@@ -35,9 +35,6 @@ There are two possible approaches for adding controls to a __RadCalendar__ cell:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadCalendar1_DayRender(ByVal sender As Object, ByVal e As Telerik.Web.UI.Calendar.DayRenderEventArgs) Handles RadCalendar1.DayRender
@@ -49,6 +46,4 @@ There are two possible approaches for adding controls to a __RadCalendar__ cell:
 	        e.Cell.Controls.Add(label)
 	    End Sub
 ````
-
-
 >end

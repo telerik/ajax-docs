@@ -39,9 +39,6 @@ The code sample below sets a "Disabled" css style for time slots which have one 
 	    }  
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
@@ -51,6 +48,4 @@ The code sample below sets a "Disabled" css style for time slots which have one 
 	    End Sub
 	
 ````
-
-
 >end

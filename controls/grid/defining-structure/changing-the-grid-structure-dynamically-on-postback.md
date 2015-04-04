@@ -41,9 +41,6 @@ The following code snippets illustrate how to change the columns in a dynamicall
 	  <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
 	    SelectCommand="SELECT ContactName, ContactTitle, Address FROM [Customers]" />
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, System.EventArgs e)
 	    {
@@ -122,9 +119,6 @@ The following code snippets illustrate how to change the columns in a dynamicall
 	        grid.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, _
 	          ByVal e As System.EventArgs) Handles Me.Init
@@ -196,6 +190,4 @@ The following code snippets illustrate how to change the columns in a dynamicall
 	        grid.Rebind()
 	    End Sub
 ````
-
-
 >end

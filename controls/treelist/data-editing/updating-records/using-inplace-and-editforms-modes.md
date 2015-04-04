@@ -45,9 +45,6 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 	            </Columns>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_UpdateCommand(object sender, TreeListCommandEventArgs e)
 	    {
@@ -75,9 +72,6 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 	        RadTreeList1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
 	
@@ -105,8 +99,6 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 ## Accessing the insert values using column editors
@@ -136,9 +128,6 @@ This can be achieved by getting hold of the current editable item and then acces
 	            </Columns>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -172,9 +161,6 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList2.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
 	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
@@ -208,6 +194,4 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end

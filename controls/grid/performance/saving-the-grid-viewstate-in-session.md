@@ -34,9 +34,6 @@ Still, a possible solution for ViewState reduction is to relocate it in a Sessio
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Dim _pers As PageStatePersister
@@ -50,8 +47,6 @@ Still, a possible solution for ViewState reduction is to relocate it in a Sessio
 	    End Property
 	
 ````
-
-
 >end
 
 Further information on this subject can be found in the MSDN articles linked below: [http://msdn.microsoft.com/en-us/library/aa479403.aspx](http://msdn.microsoft.com/en-us/library/aa479403.aspx)

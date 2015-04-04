@@ -63,9 +63,6 @@ On the server the template will be presented as a string property of the control
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -79,8 +76,6 @@ On the server the template will be presented as a string property of the control
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Client side representation

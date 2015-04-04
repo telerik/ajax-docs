@@ -165,17 +165,12 @@ Since you can have only a single RadSkinManager instance on your page/master pag
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        'use this.Page.Master to reference the master page
 	        Telerik.Web.UI.RadSkinManager.GetCurrent(Me.Page).ApplySkin(RadMenu1, "WebBlue") 'user control
 	    End Sub
 ````
-
-
 >end
 
 For the same __INamingContainer__ (the page in which the RadSkinManager resides) you also have the option to modify the TargetControls collection of the manager using the __TargetControls.Add(id, skinName)__ method.
@@ -192,9 +187,6 @@ To limit the skins displayed in the combobox skin chooser mode of RadSkinManager
 	        </TargetControls>
 	    </telerik:RadSkinManager>
 ````
-
-
-
 ````C#
 	    protected void RadSkinManager1_PreRender(object sender, EventArgs e)
 	    {
@@ -219,9 +211,6 @@ To limit the skins displayed in the combobox skin chooser mode of RadSkinManager
 	
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadSkinManager1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
@@ -237,8 +226,6 @@ To limit the skins displayed in the combobox skin chooser mode of RadSkinManager
 	
 	
 ````
-
-
 >end
 
 ## Server-side specifics

@@ -120,9 +120,6 @@ __Example 1:__ Using date format string in __RadHtmlChart__.
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
 			RadHtmlChart1.DataSource = GetChartData()
@@ -181,8 +178,6 @@ __Example 1:__ Using date format string in __RadHtmlChart__.
 	    End Class
 	
 ````
-
-
 >end
 
 # See Also

@@ -125,9 +125,6 @@ A button click event handler calls the __LoadContentFile()__ method:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -135,8 +132,6 @@ A button click event handler calls the __LoadContentFile()__ method:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Loading from an XML string
@@ -162,9 +157,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadTreeView1.LoadXml(xmlString);
 				
 ````
-
-
-
 ````VB.NET
 	    Dim sb As New StringBuilder()
 	    sb.Append("<Tree>")
@@ -180,8 +172,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    Dim xmlString As String = sb.ToString()
 	    RadTreeView1.LoadXml(xmlString 
 ````
-
-
 >end
 
 For a live example of loading RadTreeView Nodes from XML, see [Populating from XML](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/XmlFile/DefaultCS.aspx).

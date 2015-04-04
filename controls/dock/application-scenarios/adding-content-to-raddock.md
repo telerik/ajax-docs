@@ -48,9 +48,6 @@ You can access the controls in the __ContentTemplate__ at runtime to get or set 
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -60,8 +57,6 @@ You can access the controls in the __ContentTemplate__ at runtime to get or set 
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Assigning the ContentTemplate at runtime
@@ -92,9 +87,6 @@ You can create a class which implements the __ITemplate__ interface and set its 
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	
@@ -114,8 +106,6 @@ You can create a class which implements the __ITemplate__ interface and set its 
 	    End Class
 	
 ````
-
-
 >end
 
 ## Adding controls directly to the content container
@@ -134,9 +124,6 @@ Instead of creating a class which implements __ITemplate__, you can directly add
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -146,8 +133,6 @@ Instead of creating a class which implements __ITemplate__, you can directly add
 	    End Sub
 	
 ````
-
-
 >end
 
 >note Note that when using the __ContentContainer__ property, you should always execute the code, even on a postback. This is because controls you add this way are not persisted in the ViewState.

@@ -55,9 +55,6 @@ On the server side, the __RadTextBox__ control uses the __Text__ property to get
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -65,8 +62,6 @@ On the server side, the __RadTextBox__ control uses the __Text__ property to get
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client-side
@@ -98,9 +93,6 @@ The __RadNumericTextBox__ control uses the __Value__ property to get or set its 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -108,8 +100,6 @@ The __RadNumericTextBox__ control uses the __Value__ property to get or set its 
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client-side
@@ -142,9 +132,6 @@ The __RadDateInput__ control uses the __SelectedDate__ property to get or set it
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -152,8 +139,6 @@ The __RadDateInput__ control uses the __SelectedDate__ property to get or set it
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client-side
@@ -206,9 +191,6 @@ The following code examples show how to read the value of one __RadMaskedTextBox
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -216,8 +198,6 @@ The following code examples show how to read the value of one __RadMaskedTextBox
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client-side

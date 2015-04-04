@@ -65,9 +65,6 @@ In the __NeedDataSource__ event handler, you should prepare the data source (lis
 			return table;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadImageGallery1_NeedDataSource(sender As Object, e As Telerik.Web.UI.ImageGalleryNeedDataSourceEventArgs) Handles RadImageGallery1.NeedDataSource
 			TryCast(sender, RadImageGallery).DataSource = GetImageGalleryData()
@@ -87,8 +84,6 @@ In the __NeedDataSource__ event handler, you should prepare the data source (lis
 			Return table
 		End Function
 ````
-
-
 >end
 
 # See Also

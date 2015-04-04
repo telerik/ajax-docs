@@ -52,9 +52,6 @@ The following example illustrates this approach:
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid>
 ````
-
-
-
 ````C#
 	
 	
@@ -139,9 +136,6 @@ The following example illustrates this approach:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, _
 	        ByVal e As Telerik.Web.UI.GridItemEventArgs) _
@@ -216,8 +210,6 @@ The following example illustrates this approach:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.

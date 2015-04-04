@@ -70,9 +70,6 @@ Below is a sample code implementation (based on the approach explained above) th
 	        <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	            ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server"></asp:SqlDataSource>
 ````
-
-
-
 ````JavaScript
 	        <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	            <script type="text/javascript">
@@ -113,8 +110,6 @@ Below is a sample code implementation (based on the approach explained above) th
 	            </script>
 	        </telerik:RadCodeBlock>
 ````
-
-
 >end
 
 The following steps describe how to accomplish the same functionality server-side:
@@ -156,9 +151,6 @@ The following example shows how to reduce the set of filter functions so that th
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.Init
 	        Dim menu As GridFilterMenu = RadGrid1.FilterMenu
@@ -178,6 +170,4 @@ The following example shows how to reduce the set of filter functions so that th
 	    'RadGrid1_Init
 	
 ````
-
-
 >end

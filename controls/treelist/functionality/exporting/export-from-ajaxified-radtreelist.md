@@ -27,9 +27,6 @@ Generally speaking, the exporting feature of the control works with regular post
 	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
 	            SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
 ````
-
-
-
 ````JavaScript
 	                function onRequestStart(sender, args) {
 	                    if (args.get_eventTarget().indexOf("btnExport") >= 0) {
@@ -37,25 +34,17 @@ Generally speaking, the exporting feature of the control works with regular post
 	                    }
 	                }
 ````
-
-
-
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
 	    {
 	        RadTreeList1.ExportToPdf();
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        RadTreeList1.ExportToPdf()
 	    End Sub
 ````
-
-
 >end
 
 If you export from a *Button* that is nested in a __MS AJAX UpdatePanel__, you should set the button as a *PostBackTrigger*:
@@ -75,14 +64,9 @@ It is also possible to register the control as a trigger for full postback in th
 ````C#
 	    ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport);          
 ````
-
-
-
 ````VB
 	    ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
 ````
-
-
 >end
 
 # See Also[Exclude Controls from Ajaxifying](25CA11AE-56BC-4E4A-98A5-C920FC13E3ED)

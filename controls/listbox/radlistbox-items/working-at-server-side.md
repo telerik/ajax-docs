@@ -40,9 +40,6 @@ Use the __Add__ method of the __RadListBoxItemCollection__ object to add items p
 	   }
 	} 		
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -61,8 +58,6 @@ Use the __Add__ method of the __RadListBoxItemCollection__ object to add items p
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Removing items
@@ -77,17 +72,12 @@ Use the __Remove__ method of the __RadListBoxItemCollection__ object to remove i
 	RadListBoxItem itemToRemove = RadListBox1.FindItemByText("Item 3");
 	RadListBox1.Items.Remove(itemToRemove);		
 ````
-
-
-
 ````VB.NET
 	
 	    Dim itemToRemove As RadListBoxItem = RadListBox1.FindItemByText("Item 3")
 	    RadListBox1.Items.Remove(itemToRemove) 
 	
 ````
-
-
 >end
 
 ## Sorting items
@@ -102,17 +92,12 @@ Use the __SortItems__ method of __RadListBox__ object to sort items:
 	RadListBox1.SortItems();
 	
 ````
-
-
-
 ````VB.NET
 	
 	    RadListBox1.Sort = RadListBoxSort.Ascending
 	    RadListBox1.SortItems()
 	
 ````
-
-
 >end
 
 You can also use the __Sort__ method of the __RadListBoxItemCollection__ object to sort items:
@@ -124,16 +109,11 @@ You can also use the __Sort__ method of the __RadListBoxItemCollection__ object 
 	RadListBox1.Items.Sort();
 				
 ````
-
-
-
 ````VB.NET
 	
 	    RadListBox1.Items.Sort()
 	
 ````
-
-
 >end
 
 You can pass an object of type IComparer as an argument of the function:
@@ -161,9 +141,6 @@ You can pass an object of type IComparer as an argument of the function:
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(sender As Object, e As EventArgs)
@@ -184,8 +161,6 @@ You can pass an object of type IComparer as an argument of the function:
 	    End Class
 	
 ````
-
-
 >end
 
 You can also use a lambda expression as an argument:
@@ -197,16 +172,11 @@ You can also use a lambda expression as an argument:
 	RadListBox1.Items.Sort(item => item.Text);
 	
 ````
-
-
-
 ````VB.NET
 	
 	    RadListBox1.Items.Sort(Function(item) item.Text)
 	
 ````
-
-
 >end
 
 ## Disabling items
@@ -222,9 +192,6 @@ Use the __Enable__ property of the __RadListBoxItem__ object to enable or disabl
 	RadListBox1.Items[0].Enabled = false;
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -233,8 +200,6 @@ Use the __Enable__ property of the __RadListBoxItem__ object to enable or disabl
 	    RadListBox1.Items(0).Enabled = False 
 	
 ````
-
-
 >end
 
 ## Selecting items
@@ -250,9 +215,6 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	RadListBox1.Items[0].Selected = true;
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim itemToSelect As RadListBoxItem = RadListBox1.FindItemByText("Item 3")
@@ -260,8 +222,6 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	    RadListBox1.Items(0).Selected = True 
 	
 ````
-
-
 >end
 
 ## Finding items

@@ -45,9 +45,6 @@ Example:
 	    <asp:Panel ID="Panel1" runat="server">
 	    </asp:Panel>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -63,9 +60,6 @@ Example:
 	        RadAjaxManager1.AjaxSettings.Add(ajaxSetting);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim ajaxSetting As New AjaxSetting()

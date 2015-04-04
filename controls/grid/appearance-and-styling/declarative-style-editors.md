@@ -62,9 +62,6 @@ If you want to assign declarative custom editors at runtime, you need to instant
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid>
 ````
-
-
-
 ````C#
 	
 	    protected void Page_Init(object sender, EventArgs e)
@@ -78,9 +75,6 @@ If you want to assign declarative custom editors at runtime, you need to instant
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Init
 	        Dim ddEditor1 As New GridDropDownListColumnEditor()
@@ -91,8 +85,6 @@ If you want to assign declarative custom editors at runtime, you need to instant
 	        PlaceHolder1.Controls.Add(ddEditor1)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

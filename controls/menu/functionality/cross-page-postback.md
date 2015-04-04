@@ -42,9 +42,6 @@ Once in the second page, you can access the menu (or any other control) on the p
 	        } 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Partial Class CrossPageVB  Inherits System.Web.UI.Page 
 	        Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -56,6 +53,4 @@ Once in the second page, you can access the menu (or any other control) on the p
 	        End Sub
 	    End Class
 ````
-
-
 >end

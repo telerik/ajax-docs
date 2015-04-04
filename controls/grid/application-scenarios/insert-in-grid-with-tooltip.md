@@ -127,9 +127,6 @@ Below are the code snippets from the demo referred above:
 	        </asp:UpdatePanel>
 	        
 ````
-
-
-
 ````C#
 	    private Hashtable supplierIDs = new Hashtable();
 	
@@ -217,9 +214,6 @@ Below are the code snippets from the demo referred above:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private supplierIDs As New Hashtable()
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -277,8 +271,6 @@ Below are the code snippets from the demo referred above:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````ASPNET
@@ -438,9 +430,6 @@ Below are the code snippets from the demo referred above:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private _loadedControls As Integer = 0
 	    Private _isPostBack As Boolean = False
@@ -545,6 +534,4 @@ Below are the code snippets from the demo referred above:
 	    End Property
 	
 ````
-
-
 >end

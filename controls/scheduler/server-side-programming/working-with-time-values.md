@@ -30,9 +30,6 @@ When adding appointments to the scheduler programmatically, you must converttime
 	RadScheduler1.InsertAppointment(apt);  
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim start As DateTime = DateTime.Now.ToUniversalTime()
@@ -41,8 +38,6 @@ When adding appointments to the scheduler programmatically, you must converttime
 	    RadScheduler1.InsertAppointment(apt)  
 	
 ````
-
-
 >end
 
 # See Also

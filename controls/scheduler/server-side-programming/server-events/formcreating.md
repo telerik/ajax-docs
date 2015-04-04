@@ -52,9 +52,6 @@ This example prevents the user from updating an appointment using the edit form 
 	    }
 	   
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_FormCreating(ByVal sender As Object, _
@@ -69,8 +66,6 @@ This example prevents the user from updating an appointment using the edit form 
 	
 	
 ````
-
-
 >end
 
 # See Also

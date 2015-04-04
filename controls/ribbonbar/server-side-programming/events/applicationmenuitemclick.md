@@ -36,9 +36,6 @@ The following example shows how to get the text of the clicked item:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadRibbonBar1_ApplicationMenuItemClick(ByVal sender As Object, ByVal e As RibbonBarApplicationMenuItemClickEventArgs)
@@ -49,8 +46,6 @@ The following example shows how to get the text of the clicked item:
 	
 	
 ````
-
-
 >end
 
 # See Also

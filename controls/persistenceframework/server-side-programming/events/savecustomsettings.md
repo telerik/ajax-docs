@@ -46,9 +46,6 @@ The example below demonstrates how to store CustomSettings from a hidden field:
 			persistenceMngr.SaveState();
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub persistenceMngr_SaveCustomSettings(sender As Object, e As Telerik.Web.UI.PersistenceManagerSaveStateEventArgs)
 			e.CustomSettings.Add(New Telerik.Web.UI.ControlSetting() With { _
@@ -63,8 +60,6 @@ The example below demonstrates how to store CustomSettings from a hidden field:
 			persistenceMngr.SaveState()
 		End Sub
 ````
-
-
 >end
 
 # See Also

@@ -47,9 +47,6 @@ Custom attributes can be added to a node by simply adding an HTML attribute to a
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadTreeView1_NodeClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -57,8 +54,6 @@ Custom attributes can be added to a node by simply adding an HTML attribute to a
 	    End Sub
 	
 ````
-
-
 >end
 
 >caution The custom attribute's name should not be an __HTML reserved word__ . Please see[this article]({%slug treeview/troubleshooting/custom-attributes%})for more information.

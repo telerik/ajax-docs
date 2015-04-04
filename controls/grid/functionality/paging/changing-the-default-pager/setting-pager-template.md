@@ -117,9 +117,6 @@ In the example below, The __ItemCreated__ event handler is used to change the __
 	    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid2_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -138,9 +135,6 @@ In the example below, The __ItemCreated__ event handler is used to change the __
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is GridPagerItem Then
@@ -238,9 +232,6 @@ The following example illustrates this technique:
 	    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid3_ItemCreated(object sender, GridItemEventArgs e)
 	    {
@@ -260,9 +251,6 @@ The following example illustrates this technique:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridPagerItem Then
@@ -323,9 +311,6 @@ To assign the __PagerTemplate__ for a grid in the code-behind, you need to desig
 	    <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    private class MyPagerTemplate : ITemplate
 	    {
@@ -350,9 +335,6 @@ To assign the __PagerTemplate__ for a grid in the code-behind, you need to desig
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Class MyPagerTemplate
 	        Implements ITemplate
@@ -392,9 +374,6 @@ In the __Page_Init__ event handler, you can assign an instance of your template 
 	        RadGrid4.MasterTableView.PagerTemplate = new MyPagerTemplate();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        RadGrid4.MasterTableView.PagerTemplate = New MyPagerTemplate()

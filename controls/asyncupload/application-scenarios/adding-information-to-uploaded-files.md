@@ -91,9 +91,6 @@ The following example shows how to retrieve the values the user entered for the 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        For Each f As UploadedFile In RadUpload1.UploadedFiles
@@ -104,8 +101,6 @@ The following example shows how to retrieve the values the user entered for the 
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

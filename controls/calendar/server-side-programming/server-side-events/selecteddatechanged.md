@@ -49,9 +49,6 @@ You can use this event to respond in server-side code when the user changes the 
 	        else Label1.Text += e.NewDate.ToString();
 	    }		
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -70,8 +67,6 @@ You can use this event to respond in server-side code when the user changes the 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

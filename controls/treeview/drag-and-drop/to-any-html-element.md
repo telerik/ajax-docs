@@ -41,9 +41,6 @@ To drop onto any arbitrary HTML element including standard HTML tags, ASP.NET co
 	   }
 	}      
 ````
-
-
-
 ````VB.NET
 	Imports System.Web.UI
 	Imports Telerik.Web.UI
@@ -61,8 +58,6 @@ To drop onto any arbitrary HTML element including standard HTML tags, ASP.NET co
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 To see a live example of drag and drop to an HTML element visit the [Drag & Drop live demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/DragAndDropNodes/DefaultCS.aspx).

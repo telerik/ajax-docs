@@ -37,9 +37,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Private Function CreateTestTable() As DataTable
@@ -57,8 +54,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Function
 	
 ````
-
-
 >end
 
 1. Set the __DataSource__ property of the toolbar to the __DataTable__. At the same time, use the __RadToolBar__ properties to specify the fields to use for the __Text__ and __Value__ properties of buttons. Finally, call the __DataBind__ method to bind the toolbar: 
@@ -80,9 +75,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -100,8 +92,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Create a [ButtonDataBound event handler]({%slug toolbar/server-side-programming/buttondatabound%})to set additional properties on the buttons: 
@@ -117,9 +107,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadToolBar1_ItemDataBound(ByVal sender As Object, ByVal e As RadToolBarButtonEventArgs) Handles RadToolBar1.ItemDataBound
 	
@@ -129,8 +116,6 @@ The following example illustrates how to bind to a __DataTable__ that is created
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Fetching the data from a separate database
@@ -160,9 +145,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -180,8 +162,6 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 	    End Sub
 	    'Page_Load
 ````
-
-
 >end
 
 # See Also

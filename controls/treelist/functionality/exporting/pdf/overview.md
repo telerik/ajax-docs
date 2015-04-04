@@ -64,14 +64,9 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````C#
 	    item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
 ````
-
-
-
 ````VB.NET
 	    item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
-
-
 >end
 
 ## Exporting HTML tables

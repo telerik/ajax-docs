@@ -135,9 +135,6 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 	}
 				
 ````
-
-
-
 ````VB
 	
 	Imports System.Data.SqlClient
@@ -239,8 +236,6 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 	
 	
 ````
-
-
 >end
 
 1. The custom caching provider is registered in the __web.config__ of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:

@@ -30,25 +30,17 @@ The controls inside can be accessed directly from the page without first going t
 	    </telerik:RadWindow>
 	    <asp:Button ID="Button2" Text="Set text to the label" OnClick="Button1_Click" runat="server" />
 ````
-
-
-
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
 	    {
 	        Label1.Text = DateTime.Now.ToString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 	        Label1.Text = DateTime.Now.ToString()
 	    End Sub
 ````
-
-
 >end
 
 For more complex scenarios (e.g. accessing user controls and casting them to their type) or to add controls you can use the full hierarchy of the control tree:
@@ -63,9 +55,6 @@ For more complex scenarios (e.g. accessing user controls and casting them to the
 	        </ContentTemplate>
 	    </telerik:RadWindow>
 ````
-
-
-
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
 	    {
@@ -76,9 +65,6 @@ For more complex scenarios (e.g. accessing user controls and casting them to the
 	        RadWindow1.ContentContainer.Controls.Add(new LiteralControl("Dynamic Control"));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        'Get the TextBox control in RadWindow's Content template
@@ -88,8 +74,6 @@ For more complex scenarios (e.g. accessing user controls and casting them to the
 	        RadWindow1.ContentContainer.Controls.Add(New LiteralControl("Dynamic Control"))
 	    End Sub
 ````
-
-
 >end
 
 The RadWindow in this case is only an[INaming container](http://msdn.microsoft.com/en-us/library/system.web.ui.inamingcontainer.aspx) and thus using the controls inside via __JavaScript__ requires their correct __Client IDs__:

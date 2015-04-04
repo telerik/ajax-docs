@@ -80,9 +80,6 @@ __Example 3__: Attaching event handlers to a __RadAjaxManager__ in a ContentPage
 	        //handle the manager AjaxRequest event here
 	    }	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
@@ -94,8 +91,6 @@ __Example 3__: Attaching event handlers to a __RadAjaxManager__ in a ContentPage
 	        'handle the manager AjaxRequest event here
 	    End Sub
 ````
-
-
 >end
 
 >note If you need to add[AJAX settings programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%}), it is recommended that you get the master __RadAjaxManager__ instance and call its methods/properties as well. The same __GetCurrent__ method could be used to access the __RadAjaxManager__ placed in the Master/Main page from a Content page/WebUserControl.

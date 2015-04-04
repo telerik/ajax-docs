@@ -46,9 +46,6 @@ There are two ways to configure the rendering mode of the controls:
 ````C#
 			RadFormDecorator1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-
-
-
 ````VB.NET
 			RadFormDecorator1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 	#End Region

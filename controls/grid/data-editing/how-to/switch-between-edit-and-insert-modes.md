@@ -34,9 +34,6 @@ This is extended version of the previous case.Here is the new part:You click "Ad
 	        }
 	    } 
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        Dim grid As RadGrid = CType(source, RadGrid)
@@ -48,6 +45,4 @@ This is extended version of the previous case.Here is the new part:You click "Ad
 	        End If
 	    End Sub
 ````
-
-
 >end

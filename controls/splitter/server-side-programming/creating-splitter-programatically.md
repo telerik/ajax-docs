@@ -58,9 +58,6 @@ The example below demonstrates how to create new __RadSplitter__ object, populat
 	    }
 	
 ````
-
-
-
 ````VB
 	
 	    Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -94,8 +91,6 @@ The example below demonstrates how to create new __RadSplitter__ object, populat
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

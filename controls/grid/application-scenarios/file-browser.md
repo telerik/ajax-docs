@@ -65,9 +65,6 @@ This is a typical example for "File browser" type of application for web.![](ima
 	      return image;
 	    }
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 	    <Services>
@@ -155,9 +152,6 @@ This is a typical example for "File browser" type of application for web.![](ima
 	    </div>
 	  </div>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -237,9 +231,6 @@ This is a typical example for "File browser" type of application for web.![](ima
 	        return image;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        AddHandler RadGrid1.NeedDataSource, AddressOf RadGrid1_NeedDataSource
@@ -306,6 +297,4 @@ This is a typical example for "File browser" type of application for web.![](ima
 	        Return image
 	    End Function
 ````
-
-
 >end

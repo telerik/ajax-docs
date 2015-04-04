@@ -34,9 +34,6 @@ The __RecurrenceExceptionCreated__ event occurs when the user creates an excepti
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_RecurrenceExceptionCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs)
@@ -44,8 +41,6 @@ The __RecurrenceExceptionCreated__ event occurs when the user creates an excepti
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

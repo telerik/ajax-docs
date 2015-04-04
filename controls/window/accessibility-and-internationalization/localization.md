@@ -36,9 +36,6 @@ Or through the code-behind:
 	            RadWindow1.Localization.Close = "Close this popup";
 	            RadWindow1.Localization.Maximize = "Maximize the RadWindow";
 ````
-
-
-
 ````VB.NET
 	        RadWindow1.Localization.Close = "Close this popup";
 	        RadWindow1.Localization.Maximize = "Maximize the RadWindow";

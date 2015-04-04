@@ -75,9 +75,6 @@ The following application scenario shows an example of __RadComboBox__ bound to 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _
@@ -195,9 +192,6 @@ The code snippet below show an sample configuration of __RadComboBox__ bound to 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

@@ -59,9 +59,6 @@ This simple example below shows a basic configuration of the __RadLiveTile__ so 
 			</ClientTemplate>
 		</telerik:RadLiveTile>
 ````
-
-
-
 ````C#
 		[WebMethod]
 		public static string MyPageMethod()
@@ -69,9 +66,6 @@ This simple example below shows a basic configuration of the __RadLiveTile__ so 
 			return DateTime.Now.ToString();
 		}
 ````
-
-
-
 ````VB.NET
 		<WebMethod()> _
 		Public Shared Function MyPageMethod() As String

@@ -42,9 +42,6 @@ __Example 1__: Make the RadEditor tab key behavior from IE (__Table 1__) apply t
 	    		}
 	    	}
 ````
-
-
-
 ````ASPNET
 			<telerik:RadEditor ID="RadEditor1" runat="server" OnClientLoad="OnClientLoad">
 				<Content>
@@ -57,8 +54,6 @@ __Example 1__: Make the RadEditor tab key behavior from IE (__Table 1__) apply t
 				</Content>
 			</telerik:RadEditor>
 ````
-
-
 >end
 
 # See Also

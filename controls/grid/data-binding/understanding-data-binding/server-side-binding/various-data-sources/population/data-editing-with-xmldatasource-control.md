@@ -44,9 +44,6 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 	  <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Xml/XmlDataSourceExampleTemp.xml">
 	  </asp:XmlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -129,9 +126,6 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.InsertCommand
 	        Dim gridEditFormItem As GridEditFormItem
@@ -210,8 +204,6 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 	        End If
 	    End Function
 ````
-
-
 >end
 
 For a live example of a __RadGrid__ that supports editing when bound to __XmlDataSource__, see [Editing XML using XmlDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).

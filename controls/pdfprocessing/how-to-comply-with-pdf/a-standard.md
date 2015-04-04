@@ -94,9 +94,6 @@ To comply with one of the versions of the standard you need to specify __Complia
 	
 	    return provider.Export(document);
 ````
-
-
-
 ````VB.NET
 	    Dim provider As New PdfFormatProvider()
 	    Dim settings As New PdfExportSettings()
@@ -105,8 +102,6 @@ To comply with one of the versions of the standard you need to specify __Complia
 	
 	    Return provider.Export(document)
 ````
-
-
 >end
 
 __RadPdfProcessing__ will do the rest for you. If you also specify encryption for the document, this setting will be ignoredsince the standard does not allow documents to be encrypted.

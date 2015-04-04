@@ -41,9 +41,6 @@ In the code below we assign array of ListItem objects as data source for the dro
 	            </MasterTableView>
 	        </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    object[] Country_values = { new ListItem("Germany", "German"), new ListItem("England", "English"), new ListItem("Spain", "Spanish"), new ListItem("United States", "American") };
 	
@@ -100,9 +97,6 @@ In the code below we assign array of ListItem objects as data source for the dro
 	        Session["updatedValue"] = list.SelectedValue;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Country_values As Object() = {New ListItem("Germany", "German"), New ListItem("England", "English"), New ListItem("Spain", "Spanish"), New ListItem("United States", "American")}
@@ -155,6 +149,4 @@ In the code below we assign array of ListItem objects as data source for the dro
 	        Session("updatedValue") = list.SelectedValue
 	    End Sub
 ````
-
-
 >end

@@ -36,9 +36,6 @@ When you use __EditForms__ edit mode you may prefer to hide the currently edited
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        Dim item As GridItem
@@ -49,6 +46,4 @@ When you use __EditForms__ edit mode you may prefer to hide the currently edited
 	        Next item
 	    End Sub
 ````
-
-
 >end

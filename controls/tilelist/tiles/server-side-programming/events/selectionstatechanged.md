@@ -42,9 +42,6 @@ Here is an example how to get the selection state of tile:
 	        Label1.Text = "The Tile is " + (Tile1.Selected ? "selected." : "not selected.");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Tile1_SelectionStateChanged(sender As Object, e As EventArgs)
 	        Label1.Text = "The Tile is " + If(Tile1.Selected, "selected.", "not selected.")

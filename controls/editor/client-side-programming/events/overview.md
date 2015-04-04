@@ -71,20 +71,12 @@ __Example 2__: Attaching a handler in the code behind via the OnClientLoad prope
 	
 	<telerik:RadEditor runat="server" ID="RadEditor1"></telerik:RadEditor> 
 ````
-
-
-
 ````C#
 			RadEditor1.OnClientLoad = "OnClientLoad";
 ````
-
-
-
 ````VB
 		RadEditor1.OnClientLoad = "OnClientLoad"
 ````
-
-
 >end
 
 * On the client, to attach or detach event handlers, you should use theclient-side add/remove methods - __add___, __remove___. You can find a full list of the methods for attaching and detaching events in the [RadEditor Object]({%slug editor/client-side-programming/radeditor-object%}) article.__Example 3__: Attaching a handler via the client-side add_commandExecuted method.

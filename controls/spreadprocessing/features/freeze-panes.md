@@ -79,16 +79,11 @@ The result from the image above can be achieved with the following code:
 	    CellIndex scrollableTopLeftCellIndex = new CellIndex(5, 8); 
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(fixedPaneTopLeftCellIndex, 1, 4, scrollableTopLeftCellIndex); 
 ````
-
-
-
 ````VB.NET
 	    Dim fixedPaneTopLeftCellIndex As New CellIndex(2, 2)
 	    Dim scrollableTopLeftCellIndex As New CellIndex(5, 8)
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(fixedPaneTopLeftCellIndex, 1, 4, scrollableTopLeftCellIndex)
 ````
-
-
 >end
 
 __Horizontal and vertical split__
@@ -101,15 +96,10 @@ If you would like to create a vertical or horizontal split, all you need to do i
 	    CellIndex fixedPaneTopLeftCellIndex = new CellIndex(2, 2); 
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(fixedPaneTopLeftCellIndex, 0, 4);
 ````
-
-
-
 ````VB.NET
 	    Dim fixedPaneTopLeftCellIndex As New CellIndex(2, 2)
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(fixedPaneTopLeftCellIndex, 0, 4)
 ````
-
-
 >end
 
 This code will result in the following:![Rad Spread Processing Features Freeze Panes 04](images/RadSpreadProcessing_Features_Freeze_Panes_04.png)
@@ -139,16 +129,11 @@ The state from the image in the [What defines the panes positioning section](#wh
 	    Pane pane = new Pane(scrollableTopLeftCellIndex, 4, 1, ViewportPaneType.Scrollable); 
 	    workbook.ActiveWorksheet.ViewState.Pane = pane;
 ````
-
-
-
 ````VB.NET
 	    Dim scrollableTopLeftCellIndex As New CellIndex(5, 8)
 	    Dim pane As New Pane(scrollableTopLeftCellIndex, 4, 1, ViewportPaneType.Scrollable)
 	    workbook.ActiveWorksheet.ViewState.Pane = pane
 ````
-
-
 >end
 
 >note Regardless of the method used to freeze the panes of a worksheet, you should take care not to place the top left index of the frozen pane below or tothe right of the index determined by the frozen row count and the frozen column count. Doing so may result in an invalid document and unexpected behavior.
@@ -164,14 +149,9 @@ In order to unfreeze the panes of the worksheet you need to use the same methods
 ````C#
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(0, 0); 
 ````
-
-
-
 ````VB.NET
 	    workbook.ActiveWorksheet.ViewState.FreezePanes(0, 0)
 ````
-
-
 >end
 
 Another option is to set the Pane property of the ViewState to null.
@@ -181,14 +161,9 @@ Another option is to set the Pane property of the ViewState to null.
 ````C#
 	    workbook.ActiveWorksheet.ViewState.Pane = null;
 ````
-
-
-
 ````VB.NET
 	    workbook.ActiveWorksheet.ViewState.Pane = Nothing
 ````
-
-
 >end
 
 # See Also

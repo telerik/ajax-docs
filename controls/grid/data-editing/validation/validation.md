@@ -87,9 +87,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -107,9 +104,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
@@ -123,8 +117,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note With version older than Q1 2013 you should use the code snippet below to add RequiredFieldValidator to the TextBox editor of GridBoundColumn
@@ -145,9 +137,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -165,9 +154,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
@@ -182,8 +168,6 @@ Below are the code snippets of an example in which we add __RequiredFieldValidat
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Adding a validator to EditItemTemplate of GridTemplateColumn
@@ -224,9 +208,6 @@ __Server-side validation__In some scenarios you may want to disable the client-s
 	    ControlToValidate="TextBox1" OnServerValidate="CustomValidator1_ServerValidate">
 	  </asp:CustomValidator>
 ````
-
-
-
 ````C#
 	
 	    protected void CustomValidator1_ServerValidate(object source, System.Web.UI.WebControls.ServerValidateEventArgs args)
@@ -248,9 +229,6 @@ __Server-side validation__In some scenarios you may want to disable the client-s
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub CustomValidator1_ServerValidate(ByVal [source] As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
 	        If args.Value.StartsWith("X") Then
@@ -266,8 +244,6 @@ __Server-side validation__In some scenarios you may want to disable the client-s
 	        End If
 	    End Sub 'RadGrid1_ItemCommand
 ````
-
-
 >end
 
 __Custom validation__ For more complex/custom validation operations you can extend the default ASP.NET validation and integrate CustomValidator control inside your grid instance. Here is an online resource which gives an example of operating with CustomValidators and configuring them to validate the user input as per your requirements:[http://aspnet.4guysfromrolla.com/articles/073102-1.aspx](http://aspnet.4guysfromrolla.com/articles/073102-1.aspx)

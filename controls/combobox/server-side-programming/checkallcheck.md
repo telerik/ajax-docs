@@ -52,9 +52,6 @@ The __CheckAllCheck__ receives one argument which indicates whether the check al
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadComboBox1_CheckAllCheck(sender As Object, e As RadComboBoxCheckAllCheckEventArgs)
 	        Dim allChecked As Boolean = e.CheckAllChecked
@@ -65,6 +62,4 @@ The __CheckAllCheck__ receives one argument which indicates whether the check al
 	        End If
 	    End Sub
 ````
-
-
 >end

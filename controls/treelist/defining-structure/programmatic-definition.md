@@ -41,9 +41,6 @@ The samples bellow illustrate both approaches:
 	        SelectCommand="SELECT [ReportsTo], [EmployeeID], [LastName], [FirstName], [HireDate], [City], [PostalCode], [Country] FROM [Employees]" />
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
 	    {
@@ -109,9 +106,6 @@ The samples bellow illustrate both approaches:
 	        PlaceHolder1.Controls.Add(treeList);
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
 	        Dim treeList As New RadTreeList()
@@ -176,8 +170,6 @@ The samples bellow illustrate both approaches:
 	        PlaceHolder1.Controls.Add(treeList)
 	    End Sub
 ````
-
-
 >end
 
 ## Statically declared RadTreeList and configured on Page_Load
@@ -202,9 +194,6 @@ The samples bellow illustrate both approaches:
 	        SelectCommand="SELECT [ReportsTo], [EmployeeID], [LastName], [FirstName], [HireDate], [City], [PostalCode], [Country] FROM [Employees]" />
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -269,9 +258,6 @@ The samples bellow illustrate both approaches:
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -334,8 +320,6 @@ The samples bellow illustrate both approaches:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Creating template columns dynamically
@@ -376,9 +360,6 @@ Here follows a sample implementation including both kind of templates:
 	        </UpdateParameters>
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
 	    {
@@ -535,9 +516,6 @@ Here follows a sample implementation including both kind of templates:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim treeList As New RadTreeList()
@@ -682,6 +660,4 @@ Here follows a sample implementation including both kind of templates:
 	        End Function
 	    End Class
 ````
-
-
 >end

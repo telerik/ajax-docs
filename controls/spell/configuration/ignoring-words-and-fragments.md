@@ -72,9 +72,6 @@ The example below demonstrates how to set multiple __WordIgnoreOptions__ and mul
 	   }
 	} 	
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports Telerik.Web.UI
@@ -88,6 +85,4 @@ The example below demonstrates how to set multiple __WordIgnoreOptions__ and mul
 			End Class
 		End Namespace
 ````
-
-
 >end

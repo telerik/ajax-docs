@@ -37,14 +37,9 @@ There are two important members exposed by the __ExportCellFormattingEventArgs__
 ````C#
 	    GridDataItem item = e.Cell.Parent as GridDataItem;
 ````
-
-
-
 ````VB.NET
 	    Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
 ````
-
-
 >end
 
 * __FormattedColumn__ - this property returns an object of type __GridColumn__. It helps to distinguish to which column the current cell belongs to.
@@ -55,16 +50,11 @@ There are two important members exposed by the __ExportCellFormattingEventArgs__
 	    GridColumn column = e.FormattedColumn as GridColumn;
 	    string columnName = column.UniqueName;
 ````
-
-
-
 ````VB.NET
 	    Dim column As GridColumn = TryCast(e.FormattedColumn, GridColumn)
 	    Dim columnName As String = column.UniqueName
 	
 ````
-
-
 >end
 
 ## HTMLExporting event
@@ -79,16 +69,11 @@ The purpose of this event is to allow the developer to insert global styles (CSS
 	        e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_HTMLExporting(ByVal sender As Object, ByVal e As GridHTMLExportingEventArgs) Handles RadGrid1.HTMLExporting
 	        e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }")
 	    End Sub
 ````
-
-
 >end
 
 ## Line Breaks
@@ -103,9 +88,6 @@ In case you need to use a line breaks when exporting to Excel or Word you can ad
 	        e.Styles.Append("br { mso-data-placement: same-cell; }");
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -113,8 +95,6 @@ In case you need to use a line breaks when exporting to Excel or Word you can ad
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Styling rows/cells
@@ -133,9 +113,6 @@ Thanks to the __ExportCellFormatting__ event it is really easy to apply custom s
 	            item.Style["background-color"] = "#2D62FF";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
 	        Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
@@ -147,8 +124,6 @@ Thanks to the __ExportCellFormatting__ event it is really easy to apply custom s
 	    End Sub
 	
 ````
-
-
 >end
 
 Sometimes the developer needs to highlight the negative values (for example: -1, -5, -10.5) - this could be achieved in the same event handler:
@@ -162,9 +137,6 @@ Sometimes the developer needs to highlight the negative values (for example: -1,
 	            e.Cell.Style["background-color"] = "#FA2020";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
@@ -174,8 +146,6 @@ Sometimes the developer needs to highlight the negative values (for example: -1,
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Using ItemCreated/ItemDataBound
@@ -201,9 +171,6 @@ Please keep in mind that if you don't use __IgnorePaging="true"____RadGrid__ wil
 	            e.Item.Style["background-color"] = "#EEAAEC";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Private isExport As Boolean = False 'Export flagProtected
@@ -218,8 +185,6 @@ Please keep in mind that if you don't use __IgnorePaging="true"____RadGrid__ wil
 	    End Sub
 	
 ````
-
-
 >end
 
 When __IgnorePaging="false"__ you should rebind __RadGrid__ manually, otherwise this approach won't work. The above code needs only one change - put __RadGrid1.Rebind()__ after the point where you set the flag.
@@ -262,9 +227,6 @@ Example:
 	                         </xml>";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -272,8 +234,6 @@ Example:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Hiding columns
@@ -289,9 +249,6 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	        RadGrid1.MasterTableView.ExportToWord();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        RadGrid1.MasterTableView.GetColumn("C2").Visible = False
@@ -299,8 +256,6 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	    End Sub
 	
 ````
-
-
 >end
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
@@ -322,9 +277,6 @@ There are two common ways to hide an item.
 	            RadGrid1.MasterTableView.Items[2].Visible = false;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
@@ -334,8 +286,6 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
-
-
 >end
 
 >tabbedCode
@@ -347,9 +297,6 @@ There are two common ways to hide an item.
 	        RadGrid1.MasterTableView.ExportToWord();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
@@ -358,8 +305,6 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
-
-
 >end
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when __IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
@@ -379,9 +324,6 @@ There are two common ways to hide an item.
 	            e.Item.Visible = false;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private isWordExport As Boolean = False
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
@@ -396,8 +338,6 @@ There are two common ways to hide an item.
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Resizing/Aligning Columns
@@ -425,9 +365,6 @@ There are various ways to set the width of a given column.
 	        RadGrid1.MasterTableView.ExportToExcel();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
@@ -436,8 +373,6 @@ There are various ways to set the width of a given column.
 	    End Sub
 	
 ````
-
-
 >end
 
 * in code-behind - on __TH__ elements
@@ -454,9 +389,6 @@ There are various ways to set the width of a given column.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
@@ -468,8 +400,6 @@ There are various ways to set the width of a given column.
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Alignment

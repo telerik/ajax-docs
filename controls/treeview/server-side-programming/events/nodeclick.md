@@ -26,9 +26,6 @@ When the user clicks a Node, the __NodeClick__ event fires. Use the __RadTreeNod
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -36,8 +33,6 @@ When the user clicks a Node, the __NodeClick__ event fires. Use the __RadTreeNod
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

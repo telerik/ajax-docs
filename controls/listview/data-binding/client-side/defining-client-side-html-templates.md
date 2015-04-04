@@ -154,9 +154,6 @@ Equipped with the data and functions in the context of the HTML templates, you c
 	    </div>
 	</LayoutTemplate>
 ````
-
-
-
 ````JavaScript
 	<script type="text/javascript">
 	    function renderNumericPager(listView) {
@@ -175,6 +172,4 @@ Equipped with the data and functions in the context of the HTML templates, you c
 	    }
 	</script>
 ````
-
-
 >end

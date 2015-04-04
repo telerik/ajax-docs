@@ -108,9 +108,6 @@ To copy nodes from one TreeView to another, you should make a clone of the dragg
 	    } 
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Private remove As Boolean
@@ -159,8 +156,6 @@ To copy nodes from one TreeView to another, you should make a clone of the dragg
 	    End Function
 	
 ````
-
-
 >end
 
 # See Also

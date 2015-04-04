@@ -47,9 +47,6 @@ The __ItemCreated__event handler receives two arguments:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then

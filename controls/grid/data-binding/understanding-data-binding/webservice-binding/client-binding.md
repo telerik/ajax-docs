@@ -251,9 +251,6 @@ Below is the signature of the web service used in the sample:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <WebService([Namespace]:="http://tempuri.org/")> _
 	   <WebServiceBinding(ConformsTo:=WsiProfiles.BasicProfile1_1)> _
@@ -476,8 +473,6 @@ Below is the signature of the web service used in the sample:
 	    End Class
 	
 ````
-
-
 >end
 
 and the source code of the page holding the grid instance populated through a web service on the client:

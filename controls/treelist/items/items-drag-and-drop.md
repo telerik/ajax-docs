@@ -32,8 +32,6 @@ To enable this functionality in RadTreeList, you need to:
 	                    <ClientSettings AllowItemsDragDrop="true">
 	                        <Selecting AllowItemSelection="True" />
 ````
-
-
 >end
 
 ## Item Reordering

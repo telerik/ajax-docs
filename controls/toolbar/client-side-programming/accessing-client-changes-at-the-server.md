@@ -57,9 +57,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	         } 
 	    }
 ````
-
-
-
 ````VB
 	
 	    For Each operation As ClientOperation(Of RadToolBarItem) In RadToolBar1.ClientChanges

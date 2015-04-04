@@ -124,9 +124,6 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        If RadUpload1.UploadedFiles.Count > 0 Then
@@ -138,8 +135,6 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 	
 	
 ````
-
-
 >end
 
 1. Run the application. Select a file and click the submit button. The new "Green" skin should look just like the default skin:![Default Skin](images/upload_default_skin.png)

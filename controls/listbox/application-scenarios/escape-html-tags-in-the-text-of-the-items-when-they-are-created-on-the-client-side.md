@@ -166,9 +166,6 @@ If the newly added items will be persisted upon post-back, additional action sho
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -180,8 +177,6 @@ If the newly added items will be persisted upon post-back, additional action sho
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

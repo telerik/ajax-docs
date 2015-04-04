@@ -49,9 +49,6 @@ __Example 1__: Configuring data binding of discrete data in a Candlestick series
 			<ChartTitle TextBlock-Text="Daily Prices of Company A"></ChartTitle>
 		</telerik:RadChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -80,9 +77,6 @@ __Example 1__: Configuring data binding of discrete data in a Candlestick series
 			return dt;
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadChart1.DataSource = GetData()
@@ -109,8 +103,6 @@ __Example 1__: Configuring data binding of discrete data in a Candlestick series
 			Return dt
 		End Function
 ````
-
-
 >end
 
 ### Data Binding Discrete Data in RadHtmlChart
@@ -151,9 +143,6 @@ __Example 2__: Configuring data binding of discrete data in a Candlestick series
 			<ChartTitle Text="Daily Prices of Company A"></ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -182,9 +171,6 @@ __Example 2__: Configuring data binding of discrete data in a Candlestick series
 			return dt;
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -211,8 +197,6 @@ __Example 2__: Configuring data binding of discrete data in a Candlestick series
 			Return dt
 		End Function
 ````
-
-
 >end
 
 ## Data Binding Continuous Data
@@ -247,9 +231,6 @@ __Example 3__: Configuring data binding of continuous data in a Point series wit
 			<ChartTitle TextBlock-Text="Charge current vs. charge time"></ChartTitle>
 		</telerik:RadChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -275,9 +256,6 @@ __Example 3__: Configuring data binding of continuous data in a Point series wit
 			return dt;
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadChart1.DataSource = GetData()
@@ -302,8 +280,6 @@ __Example 3__: Configuring data binding of continuous data in a Point series wit
 		End Function
 	
 ````
-
-
 >end
 
 ### Data Binding Continuous Data in RadHtmlChart
@@ -345,9 +321,6 @@ __Example 4__: Configuring data binding of continuous data in a Scatter series w
 			<ChartTitle Text="Charge current vs. charge time"></ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -373,9 +346,6 @@ __Example 4__: Configuring data binding of continuous data in a Scatter series w
 			return dt;
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -400,8 +370,6 @@ __Example 4__: Configuring data binding of continuous data in a Scatter series w
 		End Function
 	
 ````
-
-
 >end
 
 # See Also

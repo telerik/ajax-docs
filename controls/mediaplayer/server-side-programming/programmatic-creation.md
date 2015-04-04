@@ -46,9 +46,6 @@ In some scenarios it is required to create the __RadMediaPlayer__ control progra
 	        Form.Controls.Add(player);
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
 	        BuildPlayer()
@@ -73,8 +70,6 @@ In some scenarios it is required to create the __RadMediaPlayer__ control progra
 	        Form.Controls.Add(player)
 	    End Sub
 ````
-
-
 >end
 
 For creating the Playlist feature dynamicallyand to examine a bit more advanced scenario, you can check the [Programmatic Creation Code-Library](http://www.telerik.com/support/code-library/programmatic-creation-and-configuration-of-the-media-player-control).

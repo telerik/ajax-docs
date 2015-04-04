@@ -38,9 +38,6 @@ RadTreeList server-side selection is enabled for the users once you add the__Tre
 	        SelectCommand="SELECT [EmployeeID], [LastName], [FirstName], [Title], [TitleOfCourtesy], [City], [ReportsTo] FROM [Employees]">
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_ItemCommand(object sender, Telerik.Web.UI.TreeListCommandEventArgs e)
 	    {
@@ -54,9 +51,6 @@ RadTreeList server-side selection is enabled for the users once you add the__Tre
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_ItemCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	        If e.CommandName = RadTreeList.SelectCommandName Then
@@ -67,8 +61,6 @@ RadTreeList server-side selection is enabled for the users once you add the__Tre
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Programmatic items selection
@@ -84,17 +76,12 @@ To select an item/items with server-side code, you can set the particular item/i
 	        item.Selected = true;
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles Me.PreRender
 	        Dim item As TreeListDataItem = RadTreeList1.Items(0)
 	        item.Selected = True
 	    End Sub
 ````
-
-
 >end
 
 ## Deselecting items programmatically

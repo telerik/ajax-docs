@@ -76,9 +76,6 @@ Every item in the menu hierarchy has, as the value of its __NavigateUrl__ proper
 	        } 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        Dim item As String = Server.UrlDecode(Request("Item"))
@@ -90,8 +87,6 @@ Every item in the menu hierarchy has, as the value of its __NavigateUrl__ proper
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 When the user clicks an item, after the postback, the path to the item appears highlighted:

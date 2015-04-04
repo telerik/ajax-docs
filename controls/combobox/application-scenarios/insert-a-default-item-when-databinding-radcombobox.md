@@ -31,9 +31,6 @@ The next step is to add the static item. You can add it either inline (in the <I
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -45,8 +42,6 @@ The next step is to add the static item. You can add it either inline (in the <I
 	    End Sub
 	
 ````
-
-
 >end
 
 That was easy. What if your combobox uses [Templates]({%slug combobox/templates/overview%})? For example, the template could look like this:

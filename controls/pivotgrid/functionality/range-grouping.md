@@ -184,9 +184,6 @@ An example of a custom-defined field that provides a specific, user-tailored ran
 	}
 	
 ````
-
-
-
 ````VB.NET
 	Public Class CustomDateTimeField
 		Inherits PivotGridColumnField
@@ -287,8 +284,6 @@ An example of a custom-defined field that provides a specific, user-tailored ran
 	End Class
 	
 ````
-
-
 >end
 
 The result can be seen in the Range Grouping demo linked in the Related Resources section below.

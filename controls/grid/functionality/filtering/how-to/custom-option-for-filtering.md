@@ -67,9 +67,6 @@ Suppose you want to remove a filtering option from the menu of a column while le
 	        SelectCommand="SELECT * FROM [Customers]" >
 	 </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_Init(object sender, EventArgs e)
 	    {
@@ -99,9 +96,6 @@ Suppose you want to remove a filtering option from the menu of a column while le
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_Init(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.Init
 	        Dim menu As GridFilterMenu = RadGrid1.FilterMenu
@@ -127,8 +121,6 @@ Suppose you want to remove a filtering option from the menu of a column while le
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Example2: Replacing the filter expression
@@ -166,9 +158,6 @@ For this example, you can use the same ASPX file and __Init__ handler as the las
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.FilterCommandName Then
@@ -191,8 +180,6 @@ For this example, you can use the same ASPX file and __Init__ handler as the las
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.

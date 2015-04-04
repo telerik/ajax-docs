@@ -76,9 +76,6 @@ __Example 3__
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
 	        If e.Argument = "InitialPageLoad" Then
@@ -88,8 +85,6 @@ __Example 3__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

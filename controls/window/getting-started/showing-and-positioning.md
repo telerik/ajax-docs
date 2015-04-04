@@ -49,17 +49,12 @@ By default, windows are not visible on the page, and appear centered on the scre
 	        RadWindow2.OffsetElementID = ServerButton.ClientID;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        RadWindow2.OpenerElementID = ServerButton.ClientID
 	        RadWindow2.OffsetElementID = ServerButton.ClientID
 	    End Sub
 ````
-
-
 >end
 
 # See Also

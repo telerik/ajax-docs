@@ -81,9 +81,6 @@ Before the template can use the RadComboBox item's properties to bind the elemen
 	 }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -96,8 +93,6 @@ Before the template can use the RadComboBox item's properties to bind the elemen
 	    End Sub
 	
 ````
-
-
 >end
 
 Here is the same RadComboBox __without__ the template:

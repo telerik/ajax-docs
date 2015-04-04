@@ -72,9 +72,6 @@ The example below shows how to add Item Templates at run-time.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -111,8 +108,6 @@ The example below shows how to add Item Templates at run-time.
 	    End Class
 	
 ````
-
-
 >end
 
 If you for some reason cannot define the template in the __OnInit__ event of the page, you could use another approach:
@@ -144,9 +139,6 @@ If you for some reason cannot define the template in the __OnInit__ event of the
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -163,8 +155,6 @@ If you for some reason cannot define the template in the __OnInit__ event of the
 	    End Sub
 	
 ````
-
-
 >end
 
 The end result of this code looks like the following:
@@ -211,9 +201,6 @@ Here is also an example that uses a Content Template at run-time.
 	 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -226,8 +213,6 @@ Here is also an example that uses a Content Template at run-time.
 	    End Sub
 	
 ````
-
-
 >end
 
 Here is the class for the Content Template that is used in the PageLoad
@@ -257,9 +242,6 @@ Here is the class for the Content Template that is used in the PageLoad
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 		Class CustomContentTemplate
@@ -281,8 +263,6 @@ Here is the class for the Content Template that is used in the PageLoad
 		End Class
 	
 ````
-
-
 >end
 
 ## Header Template
@@ -328,9 +308,6 @@ Here is also an example that uses a Header Template at run-time.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -342,8 +319,6 @@ Here is also an example that uses a Header Template at run-time.
 	    End Sub
 	
 ````
-
-
 >end
 
 Here is the class for the Header Template that is used in the PageLoad
@@ -369,9 +344,6 @@ Here is the class for the Header Template that is used in the PageLoad
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Class HeaderTemplateClass
@@ -390,8 +362,6 @@ Here is the class for the Header Template that is used in the PageLoad
 	    End Class
 	
 ````
-
-
 >end
 
 The end result of this code looks like the following:

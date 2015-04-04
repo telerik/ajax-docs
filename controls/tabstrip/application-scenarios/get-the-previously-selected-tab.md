@@ -86,9 +86,6 @@ __Example__
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	
 	Private lastClickedTab As RadTab = Nothing
@@ -107,6 +104,4 @@ __Example__
 	End Sub 
 				
 ````
-
-
 >end

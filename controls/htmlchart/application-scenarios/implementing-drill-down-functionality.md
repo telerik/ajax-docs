@@ -68,9 +68,6 @@ __Example 1:__ The following steps describe the approach for implementing the dr
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadAjaxManager1_AjaxRequest(sender As Object, e As AjaxRequestEventArgs)
 			Dim seriesName As String = RadHtmlChart1.PlotArea.Series(0).Name
@@ -96,8 +93,6 @@ __Example 1:__ The following steps describe the approach for implementing the dr
 			End If
 		End Sub
 ````
-
-
 >end
 
 The AJAX requests in __Example 1__ are implemented via the __RadAjaxManager__ control. You can find more information about	it in [this](34C4A4F8-2422-41BD-80A2-1EB5034ADCBD) help article.

@@ -44,6 +44,4 @@ In the example below, you could observe a possible implementation of the SqlData
 	        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
 	            SelectCommand="SELECT ID, ParentID, Name, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
-
-
 >end

@@ -78,9 +78,6 @@ __ItemDataBound__
 	                  ((DataRowView)e.Item.DataItem)["ContactTitle"].ToString();}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadComboBox1_ItemDataBound(ByVal sender As Object, ByVal e As RadComboBoxItemEventArgs)
@@ -91,8 +88,6 @@ __ItemDataBound__
 	    End Sub
 	
 ````
-
-
 >end
 
 The result looks as follows:
@@ -151,9 +146,6 @@ The result looks as follows:
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -196,8 +188,6 @@ The result looks as follows:
 	    End Class
 	
 ````
-
-
 >end
 
 ## Accessing controls in HeaderTemplate
@@ -212,17 +202,12 @@ You can find any control embedded in the RadComboBox' HeaderTemplate, like:
 	    btn.Text = "New Text";
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim btn As Button = CType(RadComboBox1.Header.FindControl("Button1"), Button)
 	    btn.Text = "New Text"
 	
 ````
-
-
 >end
 
 # See Also

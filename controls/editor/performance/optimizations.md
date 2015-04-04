@@ -48,9 +48,6 @@ __Example 1__: Improve RadEditor's dialog resources optimization by setting the 
 			<telerik:RadEditor ID="RadEditor1" runat="server">
 			</telerik:RadEditor>
 ````
-
-
-
 ````C#
 	
 		protected void Page_Load(object sender, EventArgs e)
@@ -59,9 +56,6 @@ __Example 1__: Improve RadEditor's dialog resources optimization by setting the 
 		}
 	
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
@@ -69,8 +63,6 @@ __Example 1__: Improve RadEditor's dialog resources optimization by setting the 
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Working With Large Content - Creating, Editing, Pasting, Loading and Saving Optimizations

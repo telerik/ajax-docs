@@ -152,9 +152,6 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	Public Class SearchBoxDataObject
@@ -195,8 +192,6 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 	
 	
 ````
-
-
 >end
 
 ## XMLDataSource

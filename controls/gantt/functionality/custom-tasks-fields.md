@@ -31,9 +31,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class CustomTask
 	        Inherits Task
@@ -42,8 +39,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 1. Add custom property
@@ -61,9 +56,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class CustomTask
 	        Inherits Task
@@ -78,8 +70,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Property
 	    End Class
 ````
-
-
 >end
 
 1. Override __GetSerializationData__ and __LoadFromDictionary__ methods
@@ -107,9 +97,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class CustomTask
 	        Inherits Task
@@ -129,8 +116,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 1. Create new __TaskFactory__
@@ -146,9 +131,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class CustomGanttTaskFactory
 	        Implements ITaskFactory
@@ -157,8 +139,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 1. Override Provider __TaskFactory__ property to return new factory
@@ -178,9 +158,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        ...
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class GanttCustomProvider
 	        Inherits GanttProviderBase
@@ -193,8 +170,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	    End Class
 	
 ````
-
-
 >end
 
 1. Update Provider __GetTasks__ Method
@@ -218,9 +193,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        return tasks;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Overrides Function GetTasks() As List(Of ITask)
 	        Dim tasks = New List(Of ITask)()
@@ -236,8 +208,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	        Return tasks
 	    End Function
 ````
-
-
 >end
 
 1. Update Provider __ToEntityTask__ Method
@@ -256,9 +226,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 	            };
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Function ToEntityTask(srcTask As ITask) As GanttTask
 	
@@ -270,8 +237,6 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 		}
 	    End Function
 ````
-
-
 >end
 
 ## Defining Custom Tasks Fields
@@ -318,9 +283,6 @@ To add new __Custom Task Field__ you will have to:
 	        RadGantt1.CustomTaskFields.Add(customField);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim customField As New GanttCustomField()
@@ -330,8 +292,6 @@ To add new __Custom Task Field__ you will have to:
 	        RadGantt1.CustomTaskFields.Add(customField)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

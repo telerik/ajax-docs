@@ -29,9 +29,6 @@ RadGrid's declaration:
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	        GridLines="None" PageSize="10">
@@ -39,8 +36,6 @@ RadGrid's declaration:
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
-
-
 >end
 
 Code-behind:
@@ -74,9 +69,6 @@ Code-behind:
 	        conn.Close();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Dim conn As SqlConnection
 	    Dim reader As SqlDataReader
@@ -102,8 +94,6 @@ Code-behind:
 	        conn.Close()
 	    End Sub
 ````
-
-
 >end
 
 >note The most appropriate place to close the DataReader and the connection is in the __DataBound__ event handler of the grid, as shown above.

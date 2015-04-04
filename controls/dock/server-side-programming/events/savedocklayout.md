@@ -63,9 +63,6 @@ Typically, a __SaveDockLayout__ event handler uses the __RadDockLayout__ control
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadDockLayout1_SaveDockLayout( _
@@ -90,8 +87,6 @@ Typically, a __SaveDockLayout__ event handler uses the __RadDockLayout__ control
 	    End Sub
 	
 ````
-
-
 >end
 
 >caution The __RadDockLayout__ control only manages the layout of __RadDock__ and __RadDockZone__ controls that are contained in its __Controls__ collections.

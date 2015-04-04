@@ -201,9 +201,6 @@ __Example 1__: Custom content filter that shows script tags as text to the user.
 				MyCustomScriptEncoder.registerClass('MyCustomScriptEncoderFilter', Telerik.Web.UI.Editor.Filter);
 			</script>
 ````
-
-
-
 ````C#
 			/* These filters are disabled only for demonstration purpose.
 			   Creating a custom content filter does not involve disabling any of the default filters.*/
@@ -211,9 +208,6 @@ __Example 1__: Custom content filter that shows script tags as text to the user.
 			RadEditor1.DisableFilter(EditorFilters.RemoveScripts);
 			RadEditor1.DisableFilter(EditorFilters.EncodeScripts);
 ````
-
-
-
 ````VB
 			' These filters are disabled only for demonstration purpose.
 			' Creating a custom content filter does not involve disabling any of the default filters.
@@ -221,8 +215,6 @@ __Example 1__: Custom content filter that shows script tags as text to the user.
 			RadEditor1.DisableFilter(EditorFilters.EncodeScripts)
 	
 ````
-
-
 >end
 
 __Example 2__: Custom code behind logic to remove scripts from the content before loading it in the __RadEditor__.
@@ -255,9 +247,6 @@ __Example 2__: Custom code behind logic to remove scripts from the content befor
 	}
 	
 ````
-
-
-
 ````VB
 	Imports System.Text.RegularExpressions
 	Imports Telerik.Web.UI
@@ -280,8 +269,6 @@ __Example 2__: Custom code behind logic to remove scripts from the content befor
 		End Function
 	End Class
 ````
-
-
 >end
 
 # See Also

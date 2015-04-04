@@ -47,9 +47,6 @@ Use a __PageViewCreated__ event handler to add controls to the Controls collecti
 	
 				
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub RadMultiPage1_PageViewCreated(ByVal sender As Object, ByVal e As RadMultiPageEventArgs)
@@ -60,6 +57,4 @@ Use a __PageViewCreated__ event handler to add controls to the Controls collecti
 	End Sub 
 				
 ````
-
-
 >end

@@ -32,9 +32,6 @@ Use the __ActiveStepChanged__ event handler to respond when the user changes the
 	        int activeStepIndex = (sender as RadWizard).ActiveStep.Index;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_ActiveStepChanged(sender As Object, e As EventArgs) Handles RadWizard1.ActiveStepChanged
 	        Dim activeStepIndex As Integer = TryCast(sender, RadWizard).ActiveStep.Index

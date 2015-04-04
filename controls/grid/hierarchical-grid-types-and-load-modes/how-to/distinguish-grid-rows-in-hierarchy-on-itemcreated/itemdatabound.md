@@ -40,9 +40,6 @@ __Without data source controls__
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
@@ -59,8 +56,6 @@ __Without data source controls__
 	
 	    End Sub
 ````
-
-
 >end
 
 __With data source controls__
@@ -87,9 +82,6 @@ __With data source controls__
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
@@ -104,8 +96,6 @@ __With data source controls__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 __Using Name property__
@@ -132,9 +122,6 @@ __Using Name property__
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
@@ -149,6 +136,4 @@ __Using Name property__
 	        End If
 	    End Sub
 ````
-
-
 >end

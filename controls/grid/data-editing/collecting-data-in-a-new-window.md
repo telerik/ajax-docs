@@ -47,9 +47,6 @@ __Default__ file (ASPX and code-behind)
 	     SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [PostalCode] FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridDataItem) Then
@@ -61,9 +58,6 @@ __Default__ file (ASPX and code-behind)
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -77,8 +71,6 @@ __Default__ file (ASPX and code-behind)
 	        }
 	    }
 ````
-
-
 >end
 
 __Resources__ file (ASPX and code-behind)
@@ -108,9 +100,6 @@ __Resources__ file (ASPX and code-behind)
 	    <asp:Label ID="lblPostalCode" runat="server" Text=""></asp:Label>
 	  </div>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If (Not IsPostBack) Then
@@ -122,9 +111,6 @@ __Resources__ file (ASPX and code-behind)
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, System.EventArgs e)
 	    {
@@ -138,6 +124,4 @@ __Resources__ file (ASPX and code-behind)
 	        }
 	    }
 ````
-
-
 >end

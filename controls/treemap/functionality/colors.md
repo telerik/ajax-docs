@@ -54,9 +54,6 @@ In the example bellow, you could examine how several colors are assigned to the 
 	                </Items>
 	            </telerik:RadTreeMap>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -70,9 +67,6 @@ In the example bellow, you could examine how several colors are assigned to the 
 	        //TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"));
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	
@@ -86,8 +80,6 @@ In the example bellow, you could examine how several colors are assigned to the 
 	        'TreeMap1.Colors.Add(ColorTranslator.FromHtml("Blue"))
 	    End Sub
 ````
-
-
 >end
 
 __Figure 1__: Demonstrates how the __RadTreeMap__ is visualized, when custom colors are set.![functionality-colors](images/functionality-colors.png)

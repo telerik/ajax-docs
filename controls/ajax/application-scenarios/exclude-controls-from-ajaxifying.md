@@ -55,9 +55,6 @@ You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example
 	        Label1.Text = DateTime.Now.ToLongTimeString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        RadScriptManager1.RegisterPostBackControl(Button2)
@@ -67,8 +64,6 @@ You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example
 	    End Sub
 	
 ````
-
-
 >end
 
 >note This approach is not applicable when the page is AJAX-enabled with __RadAjaxManager__ .
@@ -155,9 +150,6 @@ And in the code-behind (__Page_Load__ event handler):
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then
@@ -165,8 +157,6 @@ And in the code-behind (__Page_Load__ event handler):
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you do not have a control that registers the ____doPostBack__ function on the page you should add the following line in the __Page_Load__ as well:
@@ -178,14 +168,9 @@ If you do not have a control that registers the ____doPostBack__ function on the
 	        this.Page.ClientScript.GetPostBackEventReference(this, "");
 	
 ````
-
-
-
 ````VB.NET
 	        Me.Page.ClientScript.GetPostBackEventReference(Me, "")
 ````
-
-
 >end
 
 This will come in handy when you want a single control to perform the Postback for your scenario or you want to upload files from a control in __RadAjaxPanel__.
@@ -217,9 +202,6 @@ If you are loading the user control dynamically, the code __if (!Page.IsPostBack
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim isOnClickAttached As Boolean = False
@@ -235,8 +217,6 @@ If you are loading the user control dynamically, the code __if (!Page.IsPostBack
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

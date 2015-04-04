@@ -31,9 +31,6 @@ The code below demonstrates the details:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is GridEditFormItem And e.Item.IsInEditMode Then
@@ -42,8 +39,6 @@ The code below demonstrates the details:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 An alternative approach can be to attach to the __ItemDataBound__ event handler. In the event handler, we can check if the item is of type __GridEditableItem__, and whether it is in edit mode. If these two conditions are satisfied, we can get a reference to the textbox for a particular item and set the focus for its.This is demonstrated in the code sample below:
@@ -61,9 +56,6 @@ An alternative approach can be to attach to the __ItemDataBound__ event handler.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
@@ -73,6 +65,4 @@ An alternative approach can be to attach to the __ItemDataBound__ event handler.
 	        End If
 	    End Sub
 ````
-
-
 >end

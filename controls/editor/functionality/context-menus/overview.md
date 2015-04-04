@@ -59,9 +59,6 @@ You can also define context menus via code-behind:
 	        imgTag.Tools.Add(new EditorTool("Copy")); 
 	
 ````
-
-
-
 ````VB
 	
 	
@@ -71,8 +68,6 @@ You can also define context menus via code-behind:
 	        imgTag.Tools.Add(New EditorTool("Copy"))
 	
 ````
-
-
 >end
 
 
@@ -172,9 +167,6 @@ If needed, you can disable specific context menus. Note that when you disable a 
 	        RadEditor1.ContextMenus.Add(forBody); 
 	
 ````
-
-
-
 ````VB
 	
 	        'make sure that the tools file is loaded
@@ -195,8 +187,6 @@ If needed, you can disable specific context menus. Note that when you disable a 
 	        RadEditor1.ContextMenus.Add(forBody)
 	
 ````
-
-
 >end
 
 

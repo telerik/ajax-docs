@@ -57,9 +57,6 @@ __DataKeyNames__ property lists the additional fields of the DataSource that wil
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	   Protected Sub RadSearchBox1_Search(sender As Object, e As Telerik.Web.UI.SearchBoxEventArgs)
@@ -69,6 +66,4 @@ __DataKeyNames__ property lists the additional fields of the DataSource that wil
 	    End Sub
 	
 ````
-
-
 >end

@@ -53,9 +53,6 @@ An example is shown below:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -65,8 +62,6 @@ An example is shown below:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Number formats / Formulas
@@ -95,9 +90,6 @@ __Microsoft Office HTML__ format allows you to define custom number formats by u
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
@@ -118,8 +110,6 @@ __Microsoft Office HTML__ format allows you to define custom number formats by u
 	    End Sub
 	
 ````
-
-
 >end
 
 You can see some of the most common custom number formats and their description in the following table:
@@ -152,9 +142,6 @@ Another interesting feature, supported by the Excel export are the formulas. You
 	            e.Cell.Attributes["formula"] = String.Format("=SUM(B{0}:D{0})", item.ItemIndex);
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
@@ -168,8 +155,6 @@ Another interesting feature, supported by the Excel export are the formulas. You
 	    End Sub
 	
 ````
-
-
 >end
 
 ## XML Options
@@ -210,9 +195,6 @@ Example:
 	                         </xml>";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -220,8 +202,6 @@ Example:
 	    End Sub
 	
 ````
-
-
 >end
 
 __Print element__ contains different print options which allow you to modify the printed output.
@@ -265,9 +245,6 @@ Example:
 	                     </xml>";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -275,8 +252,6 @@ Example:
 	    End Sub
 	
 ````
-
-
 >end
 
 Another useful property is __RowBreak__. This property allows you to set a page breaks of the rows. Generally you can assign as	many __RowBreak__ properties as you need and add them in the __RowBreaks__ collection. The example below demonstrates	how to use them. Note that the __Print__ element should be set as well in order the row breaks to be applied correctly.
@@ -308,9 +283,6 @@ Another useful property is __RowBreak__. This property allows you to set a page 
 	                 </xml>";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
@@ -318,6 +290,4 @@ Another useful property is __RowBreak__. This property allows you to set a page 
 	    End Sub
 	
 ````
-
-
 >end

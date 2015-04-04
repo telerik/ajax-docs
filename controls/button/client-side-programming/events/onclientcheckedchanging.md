@@ -59,14 +59,9 @@ The following example asks the user to confirm the checking of a CheckBox.Here i
 	        RadButton1.Text = "RadButton.Checked=" + RadButton1.Checked.ToString();
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 	        RadButton1.Text = "RadButton.Checked=" + RadButton1.Checked.ToString
 	    End Sub
 ````
-
-
 >end

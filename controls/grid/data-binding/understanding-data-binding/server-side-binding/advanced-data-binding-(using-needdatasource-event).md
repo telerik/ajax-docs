@@ -79,9 +79,6 @@ In a __NeedDataSource__ event handler, you should prepare the data source (list 
 	        RadGrid1.DataSource = myDataTable;
 	    }
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
@@ -100,8 +97,6 @@ In a __NeedDataSource__ event handler, you should prepare the data source (list 
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

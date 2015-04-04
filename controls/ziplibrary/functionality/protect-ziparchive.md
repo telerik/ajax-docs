@@ -45,9 +45,6 @@ __Example 1__: Create a password-protected ZIP archive:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Using stream As Stream = File.Open("test.zip", FileMode.Create)
 	    Dim encryptionSettings As New DefaultEncryptionSettings()
@@ -62,8 +59,6 @@ __Example 1__: Create a password-protected ZIP archive:
 	End Using
 	
 ````
-
-
 >end
 
 >tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.
@@ -91,9 +86,6 @@ __Example 2__: Open and read a password-protected ZIP archive.
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	    Using stream As Stream = File.Open("test.zip", FileMode.Open)
 	    Dim encryptionSettings As New DefaultEncryptionSettings()
@@ -105,8 +97,6 @@ __Example 2__: Open and read a password-protected ZIP archive.
 		End Using
 	End Using
 ````
-
-
 >end
 
 >tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.

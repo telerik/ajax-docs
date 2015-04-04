@@ -80,9 +80,6 @@ The following steps describe the creation of the WebPart:
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Using site = New SPSite("http://websitename")

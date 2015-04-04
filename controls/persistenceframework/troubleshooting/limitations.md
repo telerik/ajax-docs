@@ -49,15 +49,10 @@ This approach can be used for RadDock, RadWindow (with ContentTemplate) or any c
 			RadPersistenceManager1.PersistenceSettings.AddSetting(RadComboBox1);//add setting by control instance
 	    }
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			'add setting by control instance
 			RadPersistenceManager1.PersistenceSettings.AddSetting(RadComboBox1")
 		End Sub
 ````
-
-
 >end

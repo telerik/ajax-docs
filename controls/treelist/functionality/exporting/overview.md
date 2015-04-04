@@ -95,13 +95,8 @@ In order to prevent this error add the following lines just before the exporting
 	    RadTreeList1.Page.Response.ClearHeaders();
 	    RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 ````
-
-
-
 ````VB
 	    RadTreeList1.Page.Response.ClearHeaders()
 	    RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
-
-
 >end

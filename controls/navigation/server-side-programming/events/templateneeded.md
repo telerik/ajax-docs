@@ -37,16 +37,11 @@ The NodeDataBound event handler receives two arguments:
 	        e.Node.NodeTemplate = new LabelDataBoundTemplate();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadNavigation1_TemplateNeeded(sender As Object, e As NavigationNodeEventArguments)
 	        e.Node.NodeTemplate = New LabelDataBoundTemplate()
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -29,14 +29,9 @@ __AnimationDuration__ defines the length of the slide animation in milliseconds.
 	        RadSlider1.AnimationDuration = 500;
 	
 ````
-
-
-
 ````VB
 	
 	        RadSlider1.AnimationDuration = 500
 	
 ````
-
-
 >end

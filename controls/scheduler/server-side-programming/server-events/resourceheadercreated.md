@@ -55,9 +55,6 @@ __ResourceHeaderCreated__ has two parameters:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_ResourceHeaderCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.ResourceHeaderCreatedEventArgs)
@@ -65,6 +62,4 @@ __ResourceHeaderCreated__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end

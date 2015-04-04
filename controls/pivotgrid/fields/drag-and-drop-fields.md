@@ -45,8 +45,6 @@ In order to use the Drag/Drop functionality you need to enable the zone-context 
 	        </clientsettings>
 	        </telerik:RadPivotGrid>
 ````
-
-
 >end
 
 Drag/Drop functionality is used through the context menu of the desired field. As soon as you right click on the field a list with the following options is shown:

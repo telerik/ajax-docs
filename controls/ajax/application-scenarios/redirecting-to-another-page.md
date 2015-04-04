@@ -35,14 +35,9 @@ __Example 1__: Using __RadAjaxManager__ and __RadAjaxPanel__ Redirect()
 	        RadAjaxManager1.Redirect("http://www.google.com/");
 	
 ````
-
-
-
 ````VB.NET
 	        RadAjaxManager1.Redirect("http://www.google.com/")
 ````
-
-
 >end
 
 or
@@ -54,14 +49,9 @@ or
 	        RadAjaxPanel1.Redirect("http://www.google.com/");
 	        
 ````
-
-
-
 ````VB.NET
 	        RadAjaxPanel1.Redirect("http://www.google.com/")
 ````
-
-
 >end
 
 # See Also

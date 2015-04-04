@@ -113,9 +113,6 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	} 
 	          
 ````
-
-
-
 ````VB.NET
 	Imports System.Collections.Generic
 	Public Class SiteDataItem
@@ -177,8 +174,6 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	End Class 
 	
 ````
-
-
 >end
 
 ## Binding to an object that supports IEnumerable
@@ -233,9 +228,6 @@ The following example shows a tabstrip bound to an __ArrayList__. The list conta
 	} 
 	          
 ````
-
-
-
 ````VB.NET
 	
 	            Private Function GenerateSiteData() As ArrayList
@@ -264,8 +256,6 @@ The following example shows a tabstrip bound to an __ArrayList__. The list conta
 	End Sub 
 	          
 ````
-
-
 >end
 
 # See Also

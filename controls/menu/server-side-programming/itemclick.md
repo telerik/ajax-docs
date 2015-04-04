@@ -35,17 +35,12 @@ Use the __ItemClick__ event handler to respond when the user clicks an item in t
 	        Response.Write("Server event raised -- you clicked: " + ItemClicked.Text); 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemClick
 	        Dim ItemClicked As Telerik.Web.UI.RadMenuItem = e.Item
 	        Response.Write("Server event raised -- you clicked: " + ItemClicked.Text)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

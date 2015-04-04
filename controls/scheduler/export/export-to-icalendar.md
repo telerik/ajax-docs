@@ -56,9 +56,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub WriteCalendar(ByVal data As String)
@@ -75,8 +72,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Give the scheduler an __AppointmentCommand__ event handler to respond when the user clicks the new button in the template.This event handler uses the RadScheduler's static __ExportToICalendar__ method that takes a single appointment as first parameter and converts it into the ICalendar format. Its second parameter __hasTimeZones__ is indicating whether time zone support is enabled.
@@ -95,9 +90,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    }  
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object,
@@ -109,8 +101,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Add __ImageButton__ control with the same image as the one in the appointment template. On its __Click__ event,add an event handler to export all of the appointments in the scheduler. This event handler calls the RadScheduler's static__ExportToICalendar__ method to convert a collection of appointments to the ICalendar format:
@@ -126,9 +116,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object,
@@ -138,8 +125,6 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

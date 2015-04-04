@@ -76,9 +76,6 @@ Below is the example demonstrating how to achieve that by using the NodeDataBoun
 	        return table;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	
@@ -119,6 +116,4 @@ Below is the example demonstrating how to achieve that by using the NodeDataBoun
 	        Return table
 	    End Function
 ````
-
-
 >end

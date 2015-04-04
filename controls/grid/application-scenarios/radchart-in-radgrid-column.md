@@ -80,9 +80,6 @@ Here are the code snippets extracted from the online demo:
 	            </SelectParameters>
 	        </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 	    {
@@ -96,9 +93,6 @@ Here are the code snippets extracted from the online demo:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
@@ -110,6 +104,4 @@ Here are the code snippets extracted from the online demo:
 	        End If
 	    End Sub
 ````
-
-
 >end

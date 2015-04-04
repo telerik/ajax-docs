@@ -42,9 +42,6 @@ Use the __Add__ method of the __RadComboBoxItemCollection__ object to add items 
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -66,8 +63,6 @@ Use the __Add__ method of the __RadComboBoxItemCollection__ object to add items 
 	    End Sub 'Page_Load
 	
 ````
-
-
 >end
 
 ## Removing items
@@ -86,9 +81,6 @@ Use the __Remove__ method of the __RadComboBoxItemCollection__ object to remove 
 	RadComboBox1.Items.Remove(0);
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -100,8 +92,6 @@ Use the __Remove__ method of the __RadComboBoxItemCollection__ object to remove 
 	    RadComboBox1.Items.Remove(0)
 	
 ````
-
-
 >end
 
 ## Disabling items
@@ -117,9 +107,6 @@ Use the __Enable__ property of the __RadComboBoxItem__ object to enable or disab
 	item.Enabled = false;
 				
 ````
-
-
-
 ````VB.NET
 	
 	    'Find the item and disable it.
@@ -127,8 +114,6 @@ Use the __Enable__ property of the __RadComboBoxItem__ object to enable or disab
 	    item.Enabled = False
 	
 ````
-
-
 >end
 
 ## Selecting Items
@@ -152,9 +137,6 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	RadComboBox1.SelectedValue = value;
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -170,8 +152,6 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 	    RadComboBox1.SelectedValue = value
 	
 ````
-
-
 >end
 
 ## Finding Items
@@ -225,9 +205,6 @@ You can locate by searching on the __Text__ or __Value__ properties. You can ret
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -263,8 +240,6 @@ You can locate by searching on the __Text__ or __Value__ properties. You can ret
 	    End Namespace
 	
 ````
-
-
 >end
 
 For a live example, see: [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/combobox/examples/programming/addremovedisable/defaultcs.aspx)

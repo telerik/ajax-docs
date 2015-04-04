@@ -92,9 +92,6 @@ The result is:
 			RadColorPicker1.Items.AddRange(RadColorPicker1.GetGrayscaleColors());
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			RadColorPicker1.Columns = 12
@@ -102,8 +99,6 @@ The result is:
 			RadColorPicker1.Items.AddRange(RadColorPicker1.GetGrayscaleColors())
 		End Sub
 ````
-
-
 >endThe result is:
 >caption 
 

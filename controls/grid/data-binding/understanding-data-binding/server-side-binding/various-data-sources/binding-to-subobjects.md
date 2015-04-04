@@ -28,9 +28,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	    HeaderText="Inner1.Inner2.TestProp"></telerik:GridBoundColumn><telerik:GridBoundColumn
 	      DataField="Inner1.Inner2.Inner1.TestProp" HeaderText="Inner1.Inner2.Inner1.TestProp"></telerik:GridBoundColumn>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
 	    {
@@ -75,9 +72,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -115,8 +109,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	    End Class
 	
 ````
-
-
 >end
 
 For a live example that illustrates these features, see [Various data sources](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/Binding/DefaultCS.aspx).

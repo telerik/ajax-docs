@@ -33,9 +33,6 @@ The [Mozilla Development Center](http://developer.mozilla.org/en/docs/Using_Fire
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        ' Non IE Browser?
@@ -44,6 +41,4 @@ The [Mozilla Development Center](http://developer.mozilla.org/en/docs/Using_Fire
 	        End If
 	    End Sub
 ````
-
-
 >end

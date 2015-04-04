@@ -77,9 +77,6 @@ In order to include data associated with every column in the text of the RadComb
 	 }
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -91,8 +88,6 @@ In order to include data associated with every column in the text of the RadComb
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Defining FooterTemplates at run-time
@@ -147,9 +142,6 @@ In order to include data associated with every column in the text of the RadComb
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -191,8 +183,6 @@ In order to include data associated with every column in the text of the RadComb
 	    End Class
 	
 ````
-
-
 >end
 
 ## Accessing controls in FooterTemplate
@@ -208,17 +198,12 @@ You can find any control embedded in the RadComboBox' FooterTemplate, like:
 	lbl.Text = "This is label in the footer";
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim lbl As Label = DirectCast(RadComboBox1.Footer.FindControl("footerLabel"), Label)
 	    lbl.Text = "This is label in the footer"
 	
 ````
-
-
 >end
 
 # See Also

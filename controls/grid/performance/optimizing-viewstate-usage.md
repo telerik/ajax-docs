@@ -32,9 +32,6 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 	        </telerik:RadGrid>
 	        <asp:Button Text="Postback" ID="Button1" runat="server" />
 ````
-
-
-
 ````C#
 	public partial class Default_Cs : System.Web.UI.Page
 	{
@@ -79,9 +76,6 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Partial Class Default_VB
 	    Inherits System.Web.UI.Page
@@ -136,8 +130,6 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 	    End Sub
 	End Class
 ````
-
-
 >end
 
 When having __EnableViewState__ set to false, RadGrid will use the control state of the host Page to store only the absolutely necessary bits of data that preserve the current paging, sorting, and filtering state.

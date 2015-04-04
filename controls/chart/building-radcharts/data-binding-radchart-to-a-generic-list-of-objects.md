@@ -51,9 +51,6 @@ The Product object is defined with a constructor that passes both Name and Quant
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Public Class Product
@@ -82,8 +79,6 @@ The Product object is defined with a constructor that passes both Name and Quant
 	    End Class
 	
 ````
-
-
 >end
 
 After the Product object is defined the following steps configure and bind to the generic List:
@@ -113,9 +108,6 @@ After the Product object is defined the following steps configure and bind to th
 	RadChart1.DataBind();
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim products As New List(Of Product)()
@@ -131,8 +123,6 @@ After the Product object is defined the following steps configure and bind to th
 	    RadChart1.DataBind() 
 	
 ````
-
-
 >end
 
 

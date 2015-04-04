@@ -60,9 +60,6 @@ And in the code-behind:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        RadAjaxManager1.AjaxSettings.AddAjaxSetting(Button1, Panel1, Nothing)
@@ -76,8 +73,6 @@ And in the code-behind:
 	        Image1.Visible = Not Image1.Visible
 	    End Sub
 ````
-
-
 >end
 
 # See Also[](251A6C11-CA84-419B-A65C-3A3329FB1FDD)

@@ -75,9 +75,6 @@ The following application scenario shows an example of such scenario.
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

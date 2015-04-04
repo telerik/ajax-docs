@@ -47,9 +47,6 @@ Use the Paragraphs collection __Add()__ method to include one or more paragraph 
 	Radeditor1.Paragraphs.Add("Heading 3", "<h3>"); 
 	          
 ````
-
-
-
 ````VB
 	        'Provide an option for clearing the headingRadeditor1.Paragraphs.Add("Normal", "<p>")
 	
@@ -57,8 +54,6 @@ Use the Paragraphs collection __Add()__ method to include one or more paragraph 
 	        Radeditor1.Paragraphs.Add("Heading 2", "<h2>")
 	        Radeditor1.Paragraphs.Add("Heading 3", "<h3>")
 ````
-
-
 >end
 
 ## Display Style in Dropdown
@@ -90,14 +85,9 @@ __RadEditor__ also supports block format with the CSS class set:
 	RadEditor1.Paragraphs.Add("Heading 2 Highlighted", "<h2 class=\"myStyle\">");
 	          
 ````
-
-
-
 ````VB
 	RadEditor1.Paragraphs.Add("Heading 2 Highlighted", "<h2 class='myStyle'>") 
 ````
-
-
 >end
 
 ## Using the ToolsFile

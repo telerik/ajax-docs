@@ -63,9 +63,6 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -80,8 +77,6 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        }
 	    }
 ````
-
-
 >end
 
 1. In the __code-behind of the user control disable all controls__ which reside in the edit form (except the cancel button) and change the cancel button text to __Close.__
@@ -100,9 +95,6 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        btnCancel.Text = "Close"
 	    End Sub
 ````
-
-
-
 ````C#
 	    public void SetPreviewMode()
 	    {
@@ -118,6 +110,4 @@ The "preview" functionality for user control edit form is easily achievable. To 
 	        btnCancel.Text = "Close";
 	    }
 ````
-
-
 >end

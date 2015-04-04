@@ -109,9 +109,6 @@ __Example 1__: Setting intermediate connection points:
 				</ShapesCollection>
 			</telerik:RadDiagram>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -125,9 +122,6 @@ __Example 1__: Setting intermediate connection points:
 			RadDiagram1.ConnectionsCollection.Add(connection);
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			Dim connection As New Telerik.Web.UI.DiagramConnection()
@@ -140,8 +134,6 @@ __Example 1__: Setting intermediate connection points:
 			RadDiagram1.ConnectionsCollection.Add(connection)
 		End Sub
 ````
-
-
 >end
 
 ### ConnectionDefaultSettings

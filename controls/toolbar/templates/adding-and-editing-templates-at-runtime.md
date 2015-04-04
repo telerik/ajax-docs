@@ -73,9 +73,6 @@ You can also add templates to __RadToolBar__ at runtime, using the __ItemTemplat
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -114,8 +111,6 @@ You can also add templates to __RadToolBar__ at runtime, using the __ItemTemplat
 	    End Class
 	
 ````
-
-
 >end
 
 The end result of this code looks like the following:

@@ -35,9 +35,6 @@ In a nutshell - you need to recreate (in the page load event) the state of the p
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Page.FindControl("myUC") = Nothing Then
@@ -47,8 +44,6 @@ In a nutshell - you need to recreate (in the page load event) the state of the p
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Note that the example above checks whether the control already exists. This is because when using the __Page_Load__ event, you only need to load the user control the first time the __Page_Load__ event occurs after the control is added.
@@ -68,9 +63,6 @@ As an alternate approach, you can load user controls in the __Page_Init__ event 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
 	        Me.Panel1.Controls.Clear()
@@ -79,8 +71,6 @@ As an alternate approach, you can load user controls in the __Page_Init__ event 
 	        Me.Panel1.Controls.Add(myControl)
 	    End Sub
 ````
-
-
 >end
 
 For more information on loading user controls dynamically, see [Load UserControls](http://www.telerik.com/help/aspnet-ajax/ajxLoadUserControls.html).

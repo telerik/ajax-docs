@@ -64,9 +64,6 @@ The example below shows two different ways of obtaining data from the datasource
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadTileList1_TileDataBound(sender As Object, e As Telerik.Web.UI.TileListEventArgs) Handles RadTileList1.TileDataBound
 			'first, check for the tile type if specific properties are going to be used

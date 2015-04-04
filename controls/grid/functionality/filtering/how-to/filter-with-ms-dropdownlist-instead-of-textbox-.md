@@ -101,9 +101,6 @@ The following example illustrates how to create a custom column class that repla
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	Imports Microsoft.VisualBasic
 	Imports Telerik.Web.UI
@@ -177,8 +174,6 @@ The following example illustrates how to create a custom column class that repla
 	
 	    End Namespace
 ````
-
-
 >end
 
 ## Adding custom columns to a grid
@@ -285,9 +280,6 @@ You can add instances of your custom column type __RadGrid__ as follows:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        For Each column As GridBoundColumn In RadGrid1.MasterTableView.Columns
@@ -320,6 +312,4 @@ You can add instances of your custom column type __RadGrid__ as follows:
 	        End If
 	    End Sub
 ````
-
-
 >end

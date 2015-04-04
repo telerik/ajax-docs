@@ -47,9 +47,6 @@ The below tutorial will walk you through enabling a state persistence for a page
 			RadPersistenceManager1.SaveState();
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub loadBtn_Click(sender As Object, e As EventArgs)
 			RadPersistenceManager1.LoadState()
@@ -60,8 +57,6 @@ The below tutorial will walk you through enabling a state persistence for a page
 		End Sub
 	
 ````
-
-
 >end
 
 # See Also

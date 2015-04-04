@@ -70,9 +70,6 @@ You can also set the __Orientation__ property of the splitter from the code-behi
 	    } 
 				
 ````
-
-
-
 ````VB
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, _
@@ -83,8 +80,6 @@ You can also set the __Orientation__ property of the splitter from the code-behi
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

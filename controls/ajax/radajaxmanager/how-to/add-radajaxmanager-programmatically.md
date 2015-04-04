@@ -26,9 +26,6 @@ There are some cases where you might need to create the RadAjaxManager control p
 	        this.Page.Form.Controls.Add(manager);
 	    } 							
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
 	        Dim manager As New RadAjaxManager()
@@ -36,8 +33,6 @@ There are some cases where you might need to create the RadAjaxManager control p
 	        Me.Page.Form.Controls.Add(manager)
 	    End Sub
 ````
-
-
 >end
 
 Then, to access the RadAjaxManager instance you can call the __GetCurrent()__ static method of the RadAjaxManager class:
@@ -53,16 +48,11 @@ __Server-Side__
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        Dim manager As RadAjaxManager = RadAjaxManager.GetCurrent(Page)
 	    End Sub
 ````
-
-
 >end
 
 ````JavaScript

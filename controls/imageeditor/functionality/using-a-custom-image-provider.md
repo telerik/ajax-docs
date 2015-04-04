@@ -109,9 +109,6 @@ An example structure of a class that implements this interface:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
 	        RadImageEditor1.ImageManager.ImageProviderTypeName = GetType(provider).AssemblyQualifiedName

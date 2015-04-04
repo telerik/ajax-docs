@@ -66,9 +66,6 @@ The parameters that you send can be read from the Request object in the __Page_L
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If Request("CustomerID") <> Nothing Then
@@ -77,6 +74,4 @@ The parameters that you send can be read from the Request object in the __Page_L
 	        End If
 	    End Sub
 ````
-
-
 >end

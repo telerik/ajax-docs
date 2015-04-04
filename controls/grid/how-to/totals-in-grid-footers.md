@@ -129,9 +129,6 @@ See the forthcoming implementation for further info (__Quantity__ is integer fie
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    int total;
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -149,9 +146,6 @@ See the forthcoming implementation for further info (__Quantity__ is integer fie
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Dim total As Integer
@@ -168,8 +162,6 @@ See the forthcoming implementation for further info (__Quantity__ is integer fie
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Displaying totals for all grid pages
@@ -197,9 +189,6 @@ Below are the code snippets of a sample approach (note that with other type of d
 	    <PagerStyle Mode="NextPrevAndNumeric" />
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    int total;
 	    int grandTotal;
@@ -253,9 +242,6 @@ Below are the code snippets of a sample approach (note that with other type of d
 	        return table1;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Dim total As Integer
@@ -301,8 +287,6 @@ Below are the code snippets of a sample approach (note that with other type of d
 	    End Function
 	
 ````
-
-
 >end
 
 ## Multi-line footer totals
@@ -329,9 +313,6 @@ The forthcoming code snippets will render two rows in the table footer which wil
 	    runat="server">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    double totalPrice = 0;
@@ -385,9 +366,6 @@ The forthcoming code snippets will render two rows in the table footer which wil
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private totalPrice As Double = 0
 	    Private totalUnits As Double = 0
@@ -438,8 +416,6 @@ The forthcoming code snippets will render two rows in the table footer which wil
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client-side calculation of totals for a template column
@@ -513,9 +489,6 @@ This particular implementation calculates the values for the footer textbox once
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Public Class _Default
@@ -542,8 +515,6 @@ This particular implementation calculates the values for the footer textbox once
 	    End Class
 	
 ````
-
-
 >end
 
 The final part of the logic is the client-side script, which handles the updates of the footer textbox. Once the user focuses on a textbox, the script will preserve its initial value. The user is then free to enter a new value. Once the user loses focus on the textbox, the value in the footer textbox will be recalculated. For simplicity, the parsing of the user input is omitted.

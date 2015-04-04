@@ -51,9 +51,6 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 	                           Group By Customers.CustomerID, Country, City, CompanyName, ContactName">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
@@ -68,9 +65,6 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	
@@ -82,6 +76,4 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 	        End If
 	    End Sub
 ````
-
-
 >end

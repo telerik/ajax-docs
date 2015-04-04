@@ -103,9 +103,6 @@ The output image can be generated using GetImage() method of the RadBarcode. It 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Example()
 	        Dim barcode As RadBarcode = New RadBarcode()
@@ -140,9 +137,6 @@ Radbarcode’s rendered image can be used as DataValue for the RadBinaryImage. H
 	        image.DataValue = stream.ToArray();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim barcode As RadBarcode = New RadBarcode()

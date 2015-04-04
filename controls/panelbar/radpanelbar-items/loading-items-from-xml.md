@@ -62,16 +62,11 @@ Create an XML file with content that complies with the rules described above and
 			RadMenu1.LoadContentFile("~/App_Data/panelBar.xml");
 				
 ````
-
-
-
 ````VB.NET
 	
 			RadMenu1.LoadContentFile("~/App_Data/panelBar.xml")
 	
 ````
-
-
 >end
 
 ## Loading from an XML string
@@ -93,9 +88,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadPanelBar1.LoadXml(xmlString);
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -109,8 +101,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadPanelBar1.LoadXml(xmlString)
 	
 ````
-
-
 >end
 
 >note You can also populate __RadPanelBar__ from an XML file or string using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%})for details.
@@ -128,14 +118,9 @@ You can use the __GetXml__ method to get the XML content of a panel bar and then
 		RadPanelBar2.LoadXml(RadPanelBar1.GetXml());
 				
 ````
-
-
-
 ````VB.NET
 	
 		RadPanelBar2.LoadXml(RadPanelBar1.GetXml()) 
 	
 ````
-
-
 >end

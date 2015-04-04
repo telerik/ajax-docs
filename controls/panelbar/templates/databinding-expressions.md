@@ -84,9 +84,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -101,8 +98,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
-
-
 >end
 
 Now the value of the panel items appears in the text boxes:

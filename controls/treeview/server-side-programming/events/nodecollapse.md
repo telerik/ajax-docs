@@ -26,9 +26,6 @@ When the user clicks the minus button next to a Node that has child Nodes, the _
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeCollapse(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -36,8 +33,6 @@ When the user clicks the minus button next to a Node that has child Nodes, the _
 	    End Sub
 	
 ````
-
-
 >end
 
 >note Every collapse of a node __causes a postback__ if the ExpandMode is set to ServerSide.

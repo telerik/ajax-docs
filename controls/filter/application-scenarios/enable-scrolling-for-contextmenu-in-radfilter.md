@@ -28,9 +28,6 @@ In some cases the RadContextMenu used by RadFilter contains more items than can 
 	                AllowFilteringByColumn="true" AllowPaging="true">
 	            </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void RadFilter1_PreRender(object sender, EventArgs e)
 	    {
@@ -45,9 +42,6 @@ In some cases the RadContextMenu used by RadFilter contains more items than can 
 	        RadGrid1.DataSource = table;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadFilter1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim menu = TryCast(RadFilter1.FindControl("rfContextMenu"), RadContextMenu)
@@ -60,6 +54,4 @@ In some cases the RadContextMenu used by RadFilter contains more items than can 
 	        RadGrid1.DataSource = table
 	    End Sub
 ````
-
-
 >end

@@ -36,16 +36,11 @@ See [Drag and Drop Overview]({%slug treeview/drag-and-drop/overview%}) for more 
 	        e.DestDragNode.Nodes.Add(e.SourceDragNode);
 	    } 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeView1_NodeDrop(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeDragDropEventArgs)
 	        e.DestDragNode.Nodes.Add(e.SourceDragNode)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

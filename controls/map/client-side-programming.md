@@ -106,9 +106,6 @@ __Example 4:__ Attach client-side Map events in the markup and in the code-behin
 			}
 		</script>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, System.EventArgs e)
 		{
@@ -118,9 +115,6 @@ __Example 4:__ Attach client-side Map events in the markup and in the code-behin
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
 			If Not Page.IsPostBack Then
@@ -128,8 +122,6 @@ __Example 4:__ Attach client-side Map events in the markup and in the code-behin
 			End If
 		End Sub
 ````
-
-
 >end
 
 You can find an example of several of the map's events being handled in the	[Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).

@@ -61,9 +61,6 @@ In this example, the appearance of the appointment is changed based on a custom 
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadScheduler1_AppointmentCreated(ByVal sender As Object,
@@ -91,8 +88,6 @@ In this example, the appearance of the appointment is changed based on a custom 
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

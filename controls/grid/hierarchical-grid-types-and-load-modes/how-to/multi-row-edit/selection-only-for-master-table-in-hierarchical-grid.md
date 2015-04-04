@@ -105,9 +105,6 @@ The following code illustrates this technique on a two-level hierarchy.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.EditCommandName AndAlso Not e.Item.OwnerTableView.Name = "Customers" Then
@@ -118,6 +115,4 @@ The following code illustrates this technique on a two-level hierarchy.
 	        End If
 	    End Sub
 ````
-
-
 >end

@@ -34,9 +34,6 @@ and split them on the server in the __AjaxManager_AjaxRequest__:
 	        String[] stringArray = argument.Split(",".ToCharArray());
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
 	        Dim argument As String = e.Argument
@@ -45,8 +42,6 @@ and split them on the server in the __AjaxManager_AjaxRequest__:
 	
 	
 ````
-
-
 >end
 
 # See Also

@@ -46,9 +46,6 @@ Use the __ButtonDataBound__ event handler to make changes to items as they are b
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadToolBar1_ButtonDataBound(ByVal sender As Object, ByVal e As RadToolBarButtonEventArgs)
@@ -60,8 +57,6 @@ Use the __ButtonDataBound__ event handler to make changes to items as they are b
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

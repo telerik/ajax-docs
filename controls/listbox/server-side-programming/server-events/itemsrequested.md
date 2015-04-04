@@ -80,9 +80,6 @@ __Count__ - should be passed from the __requestItems()__ client-side method to s
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadListBox1_ItemsRequested(sender As Object, e As RadListBoxItemsRequestedEventArgs)
 	        Dim maxItemsToLoad As Integer = 100
@@ -94,6 +91,4 @@ __Count__ - should be passed from the __requestItems()__ client-side method to s
 	        Next
 	    End Sub
 ````
-
-
 >end

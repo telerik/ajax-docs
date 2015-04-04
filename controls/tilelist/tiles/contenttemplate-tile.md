@@ -44,9 +44,6 @@ __RadTileList__ example:
 			</Groups>
 		</telerik:RadTileList>
 ````
-
-
-
 ````C#
 		protected void Button1_Click(object sender, EventArgs e)
 		{
@@ -54,9 +51,6 @@ __RadTileList__ example:
 			(firstTile.ContentContainer.FindControl("Label1") as Label).Text = "set from the code-behind";
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 	        Dim firstTile As RadContentTemplateTile = TryCast(RadTileList1.GetTileByName("firstContentTemplateTile"), RadContentTemplateTile)
@@ -98,18 +92,12 @@ Standalone __Tile__ example:
 	        </ContentTemplate>
 	    </telerik:RadContentTemplateTile>
 ````
-
-
-
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
 	    {
 	        (Tile1.ContentContainer.FindControl("Label1") as Label).Text = "set from the code-behind";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(sender As Object, e As EventArgs)
 	        TryCast(Tile1.ContentContainer.FindControl("Label1"), Label).Text = "set from the code-behind"

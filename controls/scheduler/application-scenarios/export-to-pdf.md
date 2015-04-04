@@ -37,9 +37,6 @@ To export the scheduler content to PDF format simply use the__ExportToPdf()__ser
 		}
 		
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -48,8 +45,6 @@ To export the scheduler content to PDF format simply use the__ExportToPdf()__ser
 	
 	
 ````
-
-
 >end
 
 >note Current limitation: RadScheduler exports without appointments if the default browser for the web server is IE6 or RadScheduler is populated with a Web Service.
@@ -225,9 +220,6 @@ Here is an example of how to apply these settings:
 	
 	
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 			RadScheduler1.ExportToPdf()
@@ -238,6 +230,4 @@ Here is an example of how to apply these settings:
 	
 	
 ````
-
-
 >end

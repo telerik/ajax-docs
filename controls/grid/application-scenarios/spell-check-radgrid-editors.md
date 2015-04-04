@@ -55,9 +55,6 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    }
 	    </telerik:RadCodeBlock>
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnableAJAX="true">
 	    <AjaxSettings>
@@ -107,9 +104,6 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    </InsertParameters>
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -197,9 +191,6 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
@@ -269,6 +260,4 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    End Sub
 	
 ````
-
-
 >end

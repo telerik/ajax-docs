@@ -53,9 +53,6 @@ The following example demonstrates how to set the animation options if a RadRota
 			ScriptManager.RegisterStartupScript(this, this.GetType(), "registerCoverFlowAnimation", script, true);
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
 			Dim script As String = "var animationOptions = {" +
@@ -72,6 +69,4 @@ The following example demonstrates how to set the animation options if a RadRota
 			ScriptManager.RegisterStartupScript(Me, Me.[GetType](), "registerCoverFlowAnimation", script, True)
 		End Sub
 ````
-
-
 >end

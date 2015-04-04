@@ -65,16 +65,11 @@ Create an XML file with content that complies with the rules described above and
 			RadToolBar1.LoadContentFile("~/App_Data/toolbar.xml");
 				
 ````
-
-
-
 ````VB.NET
 	     
 		RadToolBar1.LoadContentFile("~/App_Data/toolbar.xml")
 				
 ````
-
-
 >end
 
 ## Loading from an XML string
@@ -100,9 +95,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadToolBar1.LoadXml(xmlString);
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -119,8 +111,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadToolBar1.LoadXml(xmlString)
 				
 ````
-
-
 >end
 
 # See Also

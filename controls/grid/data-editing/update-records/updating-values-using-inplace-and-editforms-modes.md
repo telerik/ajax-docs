@@ -80,9 +80,6 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	  RadGrid1.DataSource = this.GridSource;
 	} 
 ````
-
-
-
 ````VB.NET
 	    Private ReadOnly Property GridSource As DataTable
 	        Get
@@ -110,8 +107,6 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        RadGrid1.DataSource = Me.GridSource
 	    End Sub
 ````
-
-
 >end
 
 ## Example 1: Using ExtractValuesFromItem
@@ -153,9 +148,6 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	   }
 	} 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        Dim editedItem As GridEditableItem = TryCast(e.Item, GridEditableItem)
@@ -183,8 +175,6 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        End Try
 	    End Sub
 ````
-
-
 >end
 
 ## Example 2: Using the auto-generated column editors
@@ -240,9 +230,6 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	}
 	} 
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_UpdateCommand(ByVal source As System.Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
 	        Label1.Text += " Table to be updated: " + e.Item.OwnerTableView.DataMember + "<br>"
@@ -281,6 +268,4 @@ Both examples also use a __ViewState__ property (named "GridSource") for maintai
 	        Next
 	    End Sub
 ````
-
-
 >end

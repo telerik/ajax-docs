@@ -30,16 +30,11 @@ ASP.NET provides two different solutions if you need to set focus dynamically:
 	        RadInput1.Focus();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        RadInput1.Focus()
 	    End Sub
 ````
-
-
 >end
 
 * You can use the __Page.SetFocus__ method with control's ID as a parameter:
@@ -52,16 +47,11 @@ ASP.NET provides two different solutions if you need to set focus dynamically:
 	        Page.SetFocus(RadInput1.ClientID);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        Page.SetFocus(RadInput1.ClientID)
 	    End Sub
 ````
-
-
 >end
 
 Both approaches do the same thing. It is your choice which method you prefer.
@@ -76,15 +66,10 @@ __RadAjaxPanel/RadAjaxManager__ has a __FocusControl__ method that lets you set 
 	        RadAjaxPanel1.FocusControl(RadInput1.ClientID);
 	        RadAjaxManager1.FocusControl(RadInput1.ClientID); 
 ````
-
-
-
 ````VB.NET
 	        RadAjaxPanel1.FocusControl(RadInput1.ClientID)
 	        RadAjaxManager1.FocusControl(RadInput1.ClientID)
 ````
-
-
 >end
 
 ## Setting focus using the ScriptManager
@@ -96,14 +81,9 @@ The __SetFocus__ method of the __ScriptManager__ works like the __SetFocus__ met
 ````C#
 	        ScriptManager1.SetFocus(RadInput1.ClientID); 
 ````
-
-
-
 ````VB.NET
 	        ScriptManager1.SetFocus(RadInput1.ClientID)
 ````
-
-
 >end
 
 ## Setting focus in client-side code

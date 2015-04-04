@@ -69,9 +69,6 @@ You can use this event to customize the content or appearance of cellsin the mon
 	
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -114,8 +111,6 @@ You can use this event to customize the content or appearance of cellsin the mon
 	
 	
 ````
-
-
 >end
 
 # See Also

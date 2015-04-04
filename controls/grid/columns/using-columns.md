@@ -149,9 +149,6 @@ When adding columns using on __PageInit__, you must add the columns to the __Col
 	        boundColumn.HeaderText = "CustomerID";
 	        RadGrid1.MasterTableView.Columns.Add(boundColumn);
 ````
-
-
-
 ````VB.NET
 	    Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
 	    boundColumn.UniqueName = "CustomerID"
@@ -159,8 +156,6 @@ When adding columns using on __PageInit__, you must add the columns to the __Col
 	    boundColumn.HeaderText = "CustomerID"
 	    RadGrid1.MasterTableView.Columns.Add(boundColumn)
 ````
-
-
 >end
 
 When adding columns on __PageLoad__ (when __IsPostBack__ is __False__), the columns should be added to the __Columns__ collection *before* setting their properties:
@@ -174,9 +169,6 @@ When adding columns on __PageLoad__ (when __IsPostBack__ is __False__), the colu
 	        boundColumn.DataField = "CustomerID";
 	        boundColumn.HeaderText = "CustomerID";
 ````
-
-
-
 ````VB.NET
 	    Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
 	    RadGrid1.MasterTableView.Columns.Add(boundColumn)
@@ -184,8 +176,6 @@ When adding columns on __PageLoad__ (when __IsPostBack__ is __False__), the colu
 	    boundColumn.DataField = "CustomerID"
 	    boundColumn.HeaderText = "CustomerID"
 ````
-
-
 >end
 
 For more information about creating columns dynamically, see [Programmatic creation]({%slug grid/defining-structure/creating-a-radgrid-programmatically%}).[Creating a RadGrid Programmatically]({%slug grid/defining-structure/creating-a-radgrid-programmatically%})
@@ -215,9 +205,6 @@ You can customize the properties of auto-generated columns at runtime by providi
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
 	        If e.Column.UniqueName = "BirthDate" Then
@@ -227,8 +214,6 @@ You can customize the properties of auto-generated columns at runtime by providi
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note Note that by default the header text of the auto generated columns is the name of the data field split by capital letters. To control this behavior you can use the __EnableSplitHeaderText__ property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
@@ -256,9 +241,6 @@ To change the settings for declarative columns at runtime, write a handler for t
 	        RadGrid1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
 	        For Each column As GridColumn In RadGrid1.Columns
@@ -271,8 +253,6 @@ To change the settings for declarative columns at runtime, write a handler for t
 	        RadGrid1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 For more information about the auto-generated and declarative columns collections, see [Getting familiar with server-side API]({%slug grid/server-side-programming/overview%}).

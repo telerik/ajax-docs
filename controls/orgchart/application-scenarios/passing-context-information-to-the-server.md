@@ -41,9 +41,6 @@ Below you may find an example that shows how to retrieve the text value typed in
 	        </telerik:RadOrgChart>
 	        <telerik:RadTextBox ID="NodeFilteringString" runat="server"></telerik:RadTextBox>
 ````
-
-
-
 ````C#
 	        protected void Page_Load(object sender, EventArgs e)
 			{
@@ -64,9 +61,6 @@ Below you may find an example that shows how to retrieve the text value typed in
 				RadOrgChart2.DataBind();
 	        }
 ````
-
-
-
 ````VB.NET
 			Protected Sub Page_Load(sender As Object, e As EventArgs)
 				Dim teams = New DataTable()
@@ -86,9 +80,6 @@ Below you may find an example that shows how to retrieve the text value typed in
 				RadOrgChart2.DataBind()
 	        End Sub
 ````
-
-
-
 ````C#
 	        [OperationContract]
 			public OrgChartNodeData[] LoadData(OrgChartNodeData node, IDictionary<string, object> context)
@@ -97,9 +88,6 @@ Below you may find an example that shows how to retrieve the text value typed in
 	            var employees = GetTeams(nodeFilterString);
 			}
 ````
-
-
-
 ````VB.NET
 	        <OperationContract>
 	        Public Function LoadData(node As OrgChartNodeData, context As IDictionary(Of String, Object)) As OrgChartNodeData()
@@ -108,6 +96,4 @@ Below you may find an example that shows how to retrieve the text value typed in
 	
 	        End Function
 ````
-
-
 >end

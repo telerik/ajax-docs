@@ -34,9 +34,6 @@ The example below searches for a Node with a __Text__ property of "Product Categ
 	   }
 	} 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnFind_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim foundNode As RadTreeNode = RadTreeView1.FindNodeByText("Product Categories")
@@ -45,8 +42,6 @@ The example below searches for a Node with a __Text__ property of "Product Categ
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## FindNodeByValue()
@@ -65,9 +60,6 @@ The example below searches for a Node with a __Value__ property of "1234".
 	   }
 	} 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnFind_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim foundNode As RadTreeNode = RadTreeView1.FindNodeByValue("1234")
@@ -76,8 +68,6 @@ The example below searches for a Node with a __Value__ property of "1234".
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## FindNodeByAttribute()
@@ -122,9 +112,6 @@ In the example below several Nodes are added to the RadTreeView. The first Node,
 	   }
 	} 		
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI
 	namespace RadControls_NodesFind
@@ -156,8 +143,6 @@ In the example below several Nodes are added to the RadTreeView. The first Node,
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 # See Also

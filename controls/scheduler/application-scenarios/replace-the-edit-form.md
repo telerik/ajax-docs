@@ -45,9 +45,6 @@ You can use the __OnClientAppointmentEditing__ and __OnClientAppointmentInsertin
 	    }
 	    
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAjaxManager1_AjaxRequest( _
@@ -59,8 +56,6 @@ You can use the __OnClientAppointmentEditing__ and __OnClientAppointmentInsertin
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Switch to Source view and add the following javascript functions to your page:

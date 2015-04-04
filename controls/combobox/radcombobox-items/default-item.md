@@ -34,17 +34,12 @@ __The Default Item__ of the __RadComboBox__ provides the abilty for custom valid
 	     RadComboBox1.DefaultItem.Text = "-Please select gender-";
 	     RadComboBox1.DefaultItem.Value = "-1";
 ````
-
-
-
 ````VB.NET
 	
 	        RadComboBox1.DefaultItem.Text = "-Please select gender-"
 	        RadComboBox1.DefaultItem.Value = "-1"
 	
 ````
-
-
 >end
 
 ## Functionality
@@ -168,9 +163,6 @@ Shows how validate several __RadComboBoxes__ with __Default Item__
 	            RadComboBox4.Items.Add(new RadComboBoxItem("Other"));
 	        }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -214,8 +206,6 @@ Shows how validate several __RadComboBoxes__ with __Default Item__
 	        RadComboBox4.Items.Add(New RadComboBoxItem("Other"))
 	    End Sub
 ````
-
-
 >end
 
 # See Also

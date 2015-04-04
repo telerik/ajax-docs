@@ -27,9 +27,6 @@ When your application is running in Medium trust and you want to use RadAjax on 
 	    public partial class MyPage: Telerik.Web.UI.RadAjaxPage {}
 				
 ````
-
-
-
 ````VB.NET
 	    Partial Public Class MyPage
 	        Inherits System.We.UI.Page
@@ -39,8 +36,6 @@ When your application is running in Medium trust and you want to use RadAjax on 
 	        Inherits Telerik.Web.UI.RadAjaxPage
 	    End Class
 ````
-
-
 >end
 
 1. Set the __RestoreOriginalDelegate__ property of the RadAjax control to __false__:
@@ -71,9 +66,6 @@ When your application is running in Medium trust and you want to use RadAjax on 
 	            _onRenderDelegate = renderMethod;
 	        }
 ````
-
-
-
 ````VB.NET
 	    Public Class MyPage
 	        Inherits System.Web.UI.Page
@@ -92,8 +84,6 @@ When your application is running in Medium trust and you want to use RadAjax on 
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 Note that in all cases when the application is running in Medium trust you could have only one RadAjax control in the whole page hierarchy. Therefore in complex Master/Content Page applications we suggest using single RadAjaxManager on the Master page which could handle all available Ajax scenarios. The mentioned limitation is due to the fact that in Medium Trust the reflection permissions are not granted.

@@ -82,9 +82,6 @@ To use the integrated support, the Web service should have the signature as show
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    ' supports IDictionary
@@ -116,8 +113,6 @@ To use the integrated support, the Web service should have the signature as show
 	
 				
 ````
-
-
 >end
 
 For a live example of using a Web service to populate a __RadTreeView__, see [Populate From Web Service](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx).

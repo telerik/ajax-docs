@@ -59,9 +59,6 @@ In the following sample it is shown how to programmatically create a expression 
 	            SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
 	        </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -83,9 +80,6 @@ In the following sample it is shown how to programmatically create a expression 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -105,8 +99,6 @@ In the following sample it is shown how to programmatically create a expression 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 This will result in the following:![filter Programmatic Expression](images/filter_ProgrammaticExpression.png)

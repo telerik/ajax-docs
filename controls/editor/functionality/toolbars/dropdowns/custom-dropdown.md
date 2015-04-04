@@ -73,9 +73,6 @@ To populate the items of the dropdown use the telerik:EditorDropDownItem inner t
 	        dynamicToolbar.Tools.Add(ddn);
 	
 ````
-
-
-
 ````VB
 	
 	        'add a new Toolbar dynamically   
@@ -100,8 +97,6 @@ To populate the items of the dropdown use the telerik:EditorDropDownItem inner t
 	        dynamicToolbar.Tools.Add(ddn)
 	
 ````
-
-
 >end
 
 1. After adding the custom dropdown to the editor's toolbar, you should attach a function to the editor's OnClientCommandExecuting, the arguments of which will give you reference to the selected dropdown name and value.Once you obtain the selected item's value, you can modify it and paste it through the pasteHtml function in the content area, e.g.

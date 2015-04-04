@@ -50,9 +50,6 @@ __Example 2__: Add scrollTop() to the ResposeScripts collection.
 	        RadAjaxPanel1.ActiveElementID = null;
 	    }  			
 ````
-
-
-
 ````VB.NET
 	     
 	    Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -65,8 +62,6 @@ __Example 2__: Add scrollTop() to the ResposeScripts collection.
 	        RadAjaxPanel1.ActiveElementID = Nothing
 	    End Sub
 ````
-
-
 >end
 
 The __RadAjaxManager__ control does not maintain focus on active controls after an asynchronous request. If you need to focus a specific control, you can use the __RadAjaxManager____FocusControl__ method. Check the [Setting Focus ](http://demos.telerik.com/aspnet-ajax/Ajax/Examples/Common/SettingFocus/DefaultCS.aspx) online demo that illustrates this aspect of the __RadAjaxManager__ server-side API.

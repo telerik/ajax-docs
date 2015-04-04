@@ -93,9 +93,6 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -104,8 +101,6 @@ The server __NodeExpand__ event handler for the RadTreeView defined above:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

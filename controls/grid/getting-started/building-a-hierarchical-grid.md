@@ -127,9 +127,6 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 	        return myDataTable;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
@@ -152,8 +149,6 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 	    End Function
 	
 ````
-
-
 >end
 
 1. Run the application. Note that you can now see the dynamically bound Detail Table:![RadGrid With Three Levels](images/grid_hierarchy21.png)

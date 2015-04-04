@@ -69,9 +69,6 @@ __Example 2__: Binding the chart from __Example 1__ to an array of doubles.
 			RadHtmlChart1.DataBind();
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs)
 			Dim ValuesArray As Double() = {26.6, 26.5, 25.8, 24.3, 24.9, 23.2, _
@@ -80,8 +77,6 @@ __Example 2__: Binding the chart from __Example 1__ to an array of doubles.
 			RadHtmlChart1.DataBind()
 		End Sub
 ````
-
-
 >end
 
 # See Also

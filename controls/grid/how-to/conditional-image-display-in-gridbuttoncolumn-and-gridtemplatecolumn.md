@@ -38,9 +38,6 @@ Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueName
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -59,9 +56,6 @@ Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueName
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
@@ -75,6 +69,4 @@ Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueName
 	        End If
 	    End Sub
 ````
-
-
 >end

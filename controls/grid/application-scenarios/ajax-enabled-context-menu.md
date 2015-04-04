@@ -129,9 +129,6 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 	            </Items>
 	        </telerik:RadContextMenu>
 ````
-
-
-
 ````C#
 	
 	
@@ -171,9 +168,6 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        If RadGrid1.EditIndexes.Count > 0 OrElse RadGrid1.MasterTableView.IsItemInserted Then
@@ -202,8 +196,6 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 	        End Select
 	    End Sub
 ````
-
-
 >end
 
 You can see this example online [here](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndMenu/DefaultCS.aspx?product=grid).

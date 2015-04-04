@@ -79,9 +79,6 @@ __Example 1__: Exporting the __RadEditor__ content to Word documents by using tw
 			<asp:Button Text="Export to RTF" runat="server" ID="ExportRTF" OnClick="ExportRtf_Click" />
 			<asp:Button Text="Export to DOCX" runat="server" ID="ExportDOCX" OnClick="ExportDocx_Click"/>
 ````
-
-
-
 ````C#
 	protected void ExportRtf_Click(object sender, EventArgs e)
 	{
@@ -94,9 +91,6 @@ __Example 1__: Exporting the __RadEditor__ content to Word documents by using tw
 	}
 	
 ````
-
-
-
 ````VB.NET
 	Protected Sub ExportRtf_Click(sender As Object, e As EventArgs)
 		RadEditor1.ExportToRtf()
@@ -107,8 +101,6 @@ __Example 1__: Exporting the __RadEditor__ content to Word documents by using tw
 	End Sub
 	
 ````
-
-
 >end
 
 ## Defining Export Settings
@@ -154,9 +146,6 @@ __Example 3__: Dynamically adding header and footer elements to the exported doc
 			<telerik:RadEditor runat="server" ID="RadEditor1" OnExportContent="RadEditor1_ExportContent" ContentFilters="DefaultFilters, PdfExportFilter"></telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Export to DOCX" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System.Linq;
 	using System.Text;
@@ -203,9 +192,6 @@ __Example 3__: Dynamically adding header and footer elements to the exported doc
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI
 	Imports Telerik.Windows.Documents.Flow.FormatProviders.Docx
@@ -248,8 +234,6 @@ __Example 3__: Dynamically adding header and footer elements to the exported doc
 		End Sub
 	End Class
 ````
-
-
 >end
 
 ## Known Limitations

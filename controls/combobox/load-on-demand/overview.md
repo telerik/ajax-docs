@@ -67,9 +67,6 @@ The __ItemsRequested__ event handler shown below fills the RadComboBox with a se
 	}
 	          
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadComboBox1_ItemsRequested(ByVal o As Object, ByVal e As RadComboBoxItemsRequestedEventArgs) Handles RadComboBox1.ItemsRequested
@@ -89,8 +86,6 @@ The __ItemsRequested__ event handler shown below fills the RadComboBox with a se
 	    End Sub
 	
 ````
-
-
 >end
 
 [Load On Demand](http://demos.telerik.com/aspnet-ajax/combobox/examples/populatingwithdata/autocompletesql/defaultcs.aspx)

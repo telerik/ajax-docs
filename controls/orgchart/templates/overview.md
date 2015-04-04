@@ -123,9 +123,6 @@ Here is an example that demonstrates how to add dynamically a template:
 	        RadOrgChart2.Nodes.Add(node);
 	
 ````
-
-
-
 ````VB.NET
 	
 	        Dim node = New OrgChartNode()
@@ -135,8 +132,6 @@ Here is an example that demonstrates how to add dynamically a template:
 	        RadOrgChart2.Nodes.Add(node)
 	
 ````
-
-
 >end
 
 >tabbedCode
@@ -158,9 +153,6 @@ Here is an example that demonstrates how to add dynamically a template:
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	Class LabelTemplate
@@ -179,8 +171,6 @@ Here is an example that demonstrates how to add dynamically a template:
 	End Class
 	
 ````
-
-
 >end
 
 ## 
@@ -209,17 +199,12 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 	        RadOrgChart3.DataBind();
 	
 ````
-
-
-
 ````VB.NET
 	
 	        RadOrgChart3.DataSource = GetDataSource()
 	        RadOrgChart3.DataBind()
 	
 ````
-
-
 >end
 
 >tabbedCode
@@ -243,9 +228,6 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Function GetDataSource() As DataTable
@@ -264,8 +246,6 @@ Here is an example that demonstrates how to evaluate a template. Please keep in 
 	    End Function
 	
 ````
-
-
 >end
 
 # See Also

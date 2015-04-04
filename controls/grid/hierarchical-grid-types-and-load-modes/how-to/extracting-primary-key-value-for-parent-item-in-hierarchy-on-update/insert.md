@@ -76,9 +76,6 @@ The code section shows how to get the primary key field for up-level rows using 
 	      </SelectParameters>
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.UpdateCommandName AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource2") Then
@@ -104,9 +101,6 @@ The code section shows how to get the primary key field for up-level rows using 
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -138,6 +132,4 @@ The code section shows how to get the primary key field for up-level rows using 
 	        }
 	    }
 ````
-
-
 >end

@@ -51,9 +51,6 @@ Second option is available only when the control is [ bound to an OLAP source]({
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_PrepareDescriptionForField(sender As Object, e As PivotGridPrepareDescriptionForFieldEventArgs)
 	        ' You can execute your logic only for fields that match a given condition
@@ -70,8 +67,6 @@ Second option is available only when the control is [ bound to an OLAP source]({
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Sort Expressions

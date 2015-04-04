@@ -63,9 +63,6 @@ The following code snippets demonstrate how it can be used:
 	
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        'It is possible to set PersistConfiguration propety from the markup and form the code behind
@@ -155,6 +152,4 @@ The following code snippets demonstrate how it can be used:
 	
 	
 ````
-
-
 >end

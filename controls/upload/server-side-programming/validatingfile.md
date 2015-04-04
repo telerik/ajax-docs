@@ -59,9 +59,6 @@ Use the __ValidatingFile__ event [custom file validation]({%slug upload/validati
 	        e.SkipInternalValidation = !e.IsValid;
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadUpload1_ValidatingFile(ByVal sender As Object, _
@@ -84,8 +81,6 @@ Use the __ValidatingFile__ event [custom file validation]({%slug upload/validati
 	        e.SkipInternalValidation = Not e.IsValid
 	    End Sub
 ````
-
-
 >end
 
 # See Also

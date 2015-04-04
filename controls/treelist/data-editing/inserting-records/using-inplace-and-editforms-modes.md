@@ -46,9 +46,6 @@ After you get the IDictionary object populated, you can use the provided values 
 	            </Columns>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_InsertCommand(object sender, TreeListCommandEventArgs e)
 	    {
@@ -75,9 +72,6 @@ After you get the IDictionary object populated, you can use the provided values 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.InsertCommand
 	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
@@ -102,8 +96,6 @@ After you get the IDictionary object populated, you can use the provided values 
 	        RadTreeList1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 ## Accessing the insert values using column editors
@@ -126,9 +118,6 @@ This can be achieved by getting hold of the current editable item and then acces
 	            </Columns>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList2_InsertCommand(object sender, TreeListCommandEventArgs e)
 	    {
@@ -154,9 +143,6 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList2.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs)
 	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
@@ -182,8 +168,6 @@ This can be achieved by getting hold of the current editable item and then acces
 	        RadTreeList2.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 >caution Note that RadTreeList expects the newly inserted value of the field that is specified as DataKeyNames to be larger than any of the already available values of this field in the datasource.

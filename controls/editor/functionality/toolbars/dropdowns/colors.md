@@ -44,9 +44,6 @@ Use the Colors collection __Add()__method to include new items in the list. Usin
 	        RadEditor1.Colors.Add("#9900CC");</pre>
 	          
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Colors.Add("#FF8C00")
@@ -54,8 +51,6 @@ Use the Colors collection __Add()__method to include new items in the list. Usin
 	        RadEditor1.Colors.Add("#9900CC")
 	
 ````
-
-
 >end
 
 >note Bear in mind that RadEditor will persist its state (including the Colors set) between postbacks. In order to create a new set of Colors (e.g. for different users), you will need to clear it first. This can be done using the __Remove()__ or __Clear()__ methods for the Colors collection.

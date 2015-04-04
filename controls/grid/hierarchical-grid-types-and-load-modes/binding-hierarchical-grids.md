@@ -98,9 +98,6 @@ The whole structure of __RadGrid__ with its detail tables is saved in the __View
 	        this.PlaceHolder1.Controls.Add(RadGrid1);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub DefineGridStructure()
 	        Me.RadGrid1 = New RadGrid
@@ -158,8 +155,6 @@ The whole structure of __RadGrid__ with its detail tables is saved in the __View
 	
 	    End Sub
 ````
-
-
 >end
 
 [Creating Hierarchy Programmatically demo](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/hierarchy/defaultcs.aspx)

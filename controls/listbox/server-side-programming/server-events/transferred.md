@@ -32,9 +32,6 @@ The event handler receives two parameters:
 	        Label.Text += e.Items.Count.ToString() + " items are transferred";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub SourceListBox_Transferred(sender As Object, e As RadListBoxTransferredEventArgs)
 	        Label.Text += e.Items.Count.ToString() + " items are transferred"

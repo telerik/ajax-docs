@@ -51,9 +51,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 		}
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        RadAutoCompleteBox1.DataSource = GetData()
@@ -70,8 +67,6 @@ In the __Page_Load__ event handler, create and fill the __DataTable__ object, th
 	        Return data
 	    End Function
 ````
-
-
 >end
 
 # See Also

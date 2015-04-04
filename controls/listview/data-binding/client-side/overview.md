@@ -149,9 +149,6 @@ Here follows an example of a RadListView initialized on the client, *using infin
 	        </div>
 	    </script>
 ````
-
-
-
 ````JavaScript
 	    <script type="text/javascript">
 	        var listView = Telerik.Web.UI.RadListView.create("RadListView1", "container", true);
@@ -206,8 +203,6 @@ Here follows an example of a RadListView initialized on the client, *using infin
 	        })($telerik.$);
 	    </script>
 ````
-
-
 >end
 
 ## Disposing RadListView on the client-side

@@ -34,9 +34,6 @@ The event handler receives two parameters:
 	        e.Cancel = true;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub SourceListBox_Transferring(sender As Object, e As RadListBoxTransferringEventArgs)
 	        e.Cancel = True

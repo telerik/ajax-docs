@@ -62,9 +62,6 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
@@ -82,8 +79,6 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -113,9 +108,6 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridGroupHeaderItem Then
@@ -132,6 +124,4 @@ Note that if the __GroupSplitterColumn__ cells have side paddings (and they do w
 	        End If
 	    End Sub
 ````
-
-
 >end

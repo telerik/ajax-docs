@@ -92,9 +92,6 @@ To use the integrated support, the Web service should have the following signatu
 	        return result.ToArray();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Function GetMenuCategories(ByVal item As RadMenuItemData, ByVal context As Object) As RadMenuItemData()
 	        Dim productCategories As DataTable = GetProductCategories(item.Value)
@@ -112,8 +109,6 @@ To use the integrated support, the Web service should have the following signatu
 	    End Function
 	
 ````
-
-
 >end
 
 For a live example of using a Web service to populate child items, see [Populating from a Web Service](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx).

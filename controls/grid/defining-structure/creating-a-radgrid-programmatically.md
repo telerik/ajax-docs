@@ -79,9 +79,6 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 	        </SelectParameters>
 	   </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, System.EventArgs e)
 	    {
@@ -127,9 +124,6 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -172,8 +166,6 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note  __RadGrid__ does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
@@ -197,9 +189,6 @@ When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tabl
 ````ASPNET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, System.EventArgs e)
 	    {
@@ -226,9 +215,6 @@ When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tabl
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
 	        Dim RadGrid1 As New RadGrid()
@@ -252,8 +238,6 @@ When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tabl
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ### Creating a RadGrid on Page_Init
@@ -277,9 +261,6 @@ When generating a grid in the __Page_Init__ event handler, grid columns should b
 	        </SelectParameters>
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, System.EventArgs e)
 	    {
@@ -328,9 +309,6 @@ When generating a grid in the __Page_Init__ event handler, grid columns should b
 	        this.PlaceHolder1.Controls.Add(grid);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
 	        DefineGridStructure()
@@ -378,8 +356,6 @@ When generating a grid in the __Page_Init__ event handler, grid columns should b
 	        Me.PlaceHolder1.Controls.Add(grid)
 	    End Sub
 ````
-
-
 >end
 
 >caution When creating a grid in the __Page_Init__ event handler, you can use the __Page_Load__ event to add anAJAX setting for the grid to a __RadAjaxManager__ so that the grid usesasynchronous callbacks.
@@ -470,9 +446,6 @@ Here is a complete source code sample:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub DefineGridStructure()
 	        Dim RadGrid1 As RadGrid = New RadGrid
@@ -538,8 +511,6 @@ Here is a complete source code sample:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Creating Template Columns Programmatically
@@ -648,9 +619,6 @@ The following example shows a __Page_Init__ event handler that creates a grid, w
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
 	        Dim grid As New RadGrid()
@@ -742,8 +710,6 @@ The following example shows a __Page_Init__ event handler that creates a grid, w
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 The code sample above results in the following grid:

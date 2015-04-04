@@ -39,9 +39,6 @@ The example below includes a single RadAjaxManager control on the page. Here is 
 	   }
 				
 ````
-
-
-
 ````VB
 	
 	    Private Tst1 As TestComposite
@@ -58,8 +55,6 @@ The example below includes a single RadAjaxManager control on the page. Here is 
 	        Tst1.controLbl.Text = Tst1.controTB.Text
 	    End Sub
 ````
-
-
 >end
 
 And the composite control class:
@@ -135,9 +130,6 @@ And the composite control class:
 	    }  
 				
 ````
-
-
-
 ````VB
 	    Public Class TestComposite
 	        Inherits CompositeControl
@@ -197,8 +189,6 @@ And the composite control class:
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

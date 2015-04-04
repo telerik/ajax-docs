@@ -79,9 +79,6 @@ __Example 2__: The DataSet for the __RadHtmlChart__ created in __Example 1__.
 			return ds;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -104,8 +101,6 @@ __Example 2__: The DataSet for the __RadHtmlChart__ created in __Example 1__.
 			Return ds
 		End Function
 ````
-
-
 >end
 
 # See Also

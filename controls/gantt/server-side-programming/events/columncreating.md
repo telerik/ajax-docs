@@ -38,9 +38,6 @@ __ColumnCreating__ event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_ColumnCreating(sender As Object, e As Gantt.ColumnCreatingEventArgs)
 	        For Each item As var In e.Tasks
@@ -48,8 +45,6 @@ __ColumnCreating__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

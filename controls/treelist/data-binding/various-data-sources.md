@@ -64,9 +64,6 @@ The code in the next paragraph demonstrates how to:
 	    </telerik:RadAjaxPanel>
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
-
-
-
 ````VB.NET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 	    <b>Binding RadTreeList to:</b>
@@ -116,8 +113,6 @@ The code in the next paragraph demonstrates how to:
 	    </telerik:RadAjaxPanel>
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
-
-
 >end
 
 >tabbedCode
@@ -201,9 +196,6 @@ The code in the next paragraph demonstrates how to:
 	        }
 	    }  
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs) Handles RadTreeList1.NeedDataSource
 	        Dim list As New ArrayList()
@@ -329,6 +321,4 @@ The code in the next paragraph demonstrates how to:
 	        End Sub
 	    End Class
 ````
-
-
 >end

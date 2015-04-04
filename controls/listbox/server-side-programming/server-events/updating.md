@@ -34,9 +34,6 @@ The event handler receives two parameters:
 	        Label.Text = "Updated items count is " + e.Items.Count;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_Updating(sender As Object, e As RadListBoxUpdatingEventArgs)
 	        Label.Text = "Updated items count is " + e.Items.Count.ToString()

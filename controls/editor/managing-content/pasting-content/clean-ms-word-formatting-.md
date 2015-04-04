@@ -88,9 +88,6 @@ __Example 1__: How to set multiple values to the __StripFormattingOptions__ prop
 	    }
 	
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -98,8 +95,6 @@ __Example 1__: How to set multiple values to the __StripFormattingOptions__ prop
 	    End Sub
 	
 ````
-
-
 >end
 
 >tip Optionally, you can use the client-side[fire]({%slug editor/client-side-programming/methods/fire%})method to strip the content on submit or on page-load.	This approach is showcased in the[Clean MS Word Formatting on Page Load and on Submit]({%slug editor/managing-content/pasting-content/clean-ms-word-formatting-on-page-load-and-on-submit%})article.

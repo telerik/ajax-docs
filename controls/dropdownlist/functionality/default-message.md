@@ -36,9 +36,6 @@ __Default Message__ property of the RadDropDownList enables the ability to set c
 	        RadDropDownList1.DefaultMessage = "Select an item";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	
@@ -48,8 +45,6 @@ __Default Message__ property of the RadDropDownList enables the ability to set c
 	
 	
 ````
-
-
 >end
 
 ## Setting the Default Message client-side

@@ -71,9 +71,6 @@ When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataI
 	    }
 	}			
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridDataItem) Then
@@ -87,8 +84,6 @@ When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataI
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 When the item is edited, you can cast it to __GridEditFormItem__ (a class that extends the __GridEditableItem__ class) to reference the controls in it. The __GridEditFormItem__ class has an __EditFormCell__ property that provides access to the cell which wraps the controls inside the edit form.
@@ -113,9 +108,6 @@ You can also use the __ParentItem__ property of __GridEditFormItem__ to access t
 	    GridDataItem dataItem = formItem.ParentItem as GridDataItem;
 	}			
 ````
-
-
-
 ````VB.NET
 	        If (TypeOf e.Item Is GridDataItem) Then
 	            'find the edit form item
@@ -130,8 +122,6 @@ You can also use the __ParentItem__ property of __GridEditFormItem__ to access t
 	            Dim dataItem As GridDataItem = CType(formItem.ParentItem, GridDataItem)
 	        End If
 ````
-
-
 >end
 
 Further information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/referencing-controls-in-grid-row-edit-form%}).
@@ -153,9 +143,6 @@ To support all edit modes in an application, check the table view's __EditMode__
 	 //perform further operations
 	}
 ````
-
-
-
 ````VB.NET
 	    Dim item As GridDataItem
 	    For Each item In RadGrid1.EditItems
@@ -166,6 +153,4 @@ To support all edit modes in an application, check the table view's __EditMode__
 	    'perform further operations
 	    Next item
 ````
-
-
 >end

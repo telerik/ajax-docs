@@ -113,9 +113,6 @@ __Example 1__: Configure primary and secondary action buttons for the __Silk__, 
 		</table>
 	</div>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -149,9 +146,6 @@ __Example 1__: Configure primary and secondary action buttons for the __Silk__, 
 			}
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        'Load the user control with the RadButton with Silk, Glow and BootStrap skins
@@ -180,8 +174,6 @@ __Example 1__: Configure primary and secondary action buttons for the __Silk__, 
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

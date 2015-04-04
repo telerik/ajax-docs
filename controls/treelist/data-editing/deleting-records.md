@@ -52,9 +52,6 @@ Once the user clicks the delete button inside the treelist, you can handle the _
 	            </Columns>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
 	    {
@@ -100,9 +97,6 @@ Once the user clicks the delete button inside the treelist, you can handle the _
 	        return myDataTable;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs)
 	        RadTreeList1.DataSource = GetDataTable()
@@ -139,8 +133,6 @@ Once the user clicks the delete button inside the treelist, you can handle the _
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 >note Please note that with this approach you might need to take care of deleting the child itemsof the deleted item as well.

@@ -39,9 +39,6 @@ Prerquisites
 	}  
 				
 ````
-
-
-
 ````VB.NET
 	     
 	Public Class MySchedulerInfo
@@ -62,8 +59,6 @@ Prerquisites
 	End Class  
 				
 ````
-
-
 >end
 
 ## Sending additional information when using server-side data binding
@@ -96,9 +91,6 @@ For example:
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub RadScheduler1_AppointmentsPopulating(sender As Object, e As AppointmentsPopulatingEventArgs)
@@ -106,8 +98,6 @@ For example:
 	End Sub  
 	
 ````
-
-
 >end
 
 2. Cast the schedulerInfo to MySchedulerInfo in the corresponding provider method
@@ -125,9 +115,6 @@ For example:
 	}     
 		
 ````
-
-
-
 ````VB.NET
 	     
 	Public Overrides Function GetAppointments(schedulerInfo As ISchedulerInfo) As IEnumerable(Of Appointment)
@@ -137,8 +124,6 @@ For example:
 	End Function  
 				
 ````
-
-
 >end
 
 ## Sending additional information when using web-service data binding
@@ -162,9 +147,6 @@ For example:
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	     
 	Getting MySchedulerInfo from GetAppointments Copy Code 
@@ -176,8 +158,6 @@ For example:
 	End Function  
 				
 ````
-
-
 >end
 
 # See Also

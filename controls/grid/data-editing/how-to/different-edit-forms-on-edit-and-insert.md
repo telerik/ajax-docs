@@ -46,9 +46,6 @@ In some editing scenarios you may need to display different edit forms for Teler
 	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	     SelectCommand="SELECT * FROM [Orders]"></asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
@@ -64,9 +61,6 @@ In some editing scenarios you may need to display different edit forms for Teler
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -86,8 +80,6 @@ In some editing scenarios you may need to display different edit forms for Teler
 	        }
 	    }
 ````
-
-
 >end
 
 With auto-generated edit forms or __FormTemplate__ custom edit form you can merely show/hide some of the column editors (subscribing to the __ItemCreated__ event of the grid). Additional info about this can be found [here]({%slug grid/data-editing/distinguish-edit-or-insert-mode%}).

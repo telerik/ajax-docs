@@ -93,9 +93,6 @@ The code creates three distinct DataTable instances for each Table in your datab
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub GenerateTreeView()
@@ -133,6 +130,4 @@ The code creates three distinct DataTable instances for each Table in your datab
 	
 	
 ````
-
-
 >end

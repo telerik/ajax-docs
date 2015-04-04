@@ -90,9 +90,6 @@ __Example 2__: Setting a DataTable as the data source for the Bar chart shown in
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not IsPostBack Then
@@ -113,8 +110,6 @@ __Example 2__: Setting a DataTable as the data source for the Bar chart shown in
 			Return tbl
 		End Function
 ````
-
-
 >end
 
 __Figure 1__: A Bar chart with the tooltip for the third item based on the __ClientTemplate__ composite property set in__Example 1__.![htmlchart-client Templates-example-usage](images/htmlchart-clientTemplates-example-usage.png)

@@ -35,9 +35,6 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 	      SelectCommand="SELECT TOP 10 [ContactName], [ContactTitle], [Address], [CustomerID] FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
@@ -60,9 +57,6 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
 	        If (e.CommandName = RadGrid.UpdateCommandName) Then
@@ -79,8 +73,6 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you have __GridTemplateColumn__ inside the grid and want to obtain its original values on update command, you will need to store the old value on __ItemDataBound__ when the grid item is in edit mode and then reference it on update. The code snippet below uses a Session variable for this purpose:
@@ -109,9 +101,6 @@ If you have __GridTemplateColumn__ inside the grid and want to obtain its origin
 	      SelectCommand="SELECT [City] FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -133,9 +122,6 @@ If you have __GridTemplateColumn__ inside the grid and want to obtain its origin
 	
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
 	        RadGrid1.Controls.Add(New LiteralControl("Saved old value for the City editor is: " & CType(Session("savedOldValue"), String)))
@@ -147,6 +133,4 @@ If you have __GridTemplateColumn__ inside the grid and want to obtain its origin
 	        End If
 	    End Sub
 ````
-
-
 >end

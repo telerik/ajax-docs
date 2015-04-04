@@ -43,9 +43,6 @@ The following example shows how to add a RadDataPagerTemplatePageField, which co
 	        </Fields>
 	    </telerik:RadDataPager>
 ````
-
-
-
 ````C#
 	    protected void RadComboBox1_SelectedIndexChanged(object o, RadComboBoxSelectedIndexChangedEventArgs e)
 	    {
@@ -53,9 +50,6 @@ The following example shows how to add a RadDataPagerTemplatePageField, which co
 	        (combo.NamingContainer as RadDataPagerFieldItem).Owner.PageSize = int.Parse(e.Value);
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As RadComboBoxSelectedIndexChangedEventArgs)
 	        Dim combo As RadComboBox = TryCast(o, RadComboBox)
@@ -63,6 +57,4 @@ The following example shows how to add a RadDataPagerTemplatePageField, which co
 	        pagerFieldItem.Owner.PageSize = Integer.Parse(e.Value)
 	    End Sub
 ````
-
-
 >end

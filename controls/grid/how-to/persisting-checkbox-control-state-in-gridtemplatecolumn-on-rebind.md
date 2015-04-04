@@ -74,9 +74,6 @@ Similar actions could be performed for persistence of other controls state in __
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	
 	    protected void CheckChanged(Object sender, System.EventArgs e)
@@ -181,9 +178,6 @@ Similar actions could be performed for persistence of other controls state in __
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private ReadOnly Property CustomersChecked As Hashtable
 	        Get
@@ -259,6 +253,4 @@ Similar actions could be performed for persistence of other controls state in __
 	        End If
 	    End Sub
 ````
-
-
 >end

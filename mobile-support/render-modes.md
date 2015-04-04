@@ -129,9 +129,6 @@ __Example 1__: Properties that enable you to use RenderModes for controls inheri
 		}
 	}
 ````
-
-
-
 ````VB
 	
 	Public Class BaseScheduler
@@ -168,6 +165,4 @@ __Example 1__: Properties that enable you to use RenderModes for controls inheri
 		End Property
 	End Class
 ````
-
-
 >end

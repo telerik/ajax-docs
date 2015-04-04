@@ -28,9 +28,6 @@ In the example below, the RadTreeView is bound to a __DataTable__ and the DataIt
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -39,6 +36,4 @@ In the example below, the RadTreeView is bound to a __DataTable__ and the DataIt
 	    End Sub
 	
 ````
-
-
 >end

@@ -28,16 +28,10 @@ __Example 1__: Setting the __EnableAriaSupport__ property for __RadEditor__ and 
 		<telerik:RadEditor EnableAriaSupport="true" runat="server" ID="RadEditor1"></telerik:RadEditor>
 		<telerik:AccessibleRadEditor EnableAriaSupport="true" runat="server" ID="AccessibleRadEditor1"></telerik:AccessibleRadEditor>
 ````
-
-
-
 ````C#
 			RadEditor1.EnableAriaSupport = true;
 			AccessibleRadEditor1.EnableAriaSupport = true;
 ````
-
-
-
 ````VB.NET
 			RadEditor1.EnableAriaSupport = True
 			AccessibleRadEditor1.EnableAriaSupport = True

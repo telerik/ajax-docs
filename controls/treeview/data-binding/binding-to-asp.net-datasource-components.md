@@ -203,9 +203,6 @@ ObjectDataSource allows you to get data from a variety of underlying data stores
 	}
 				
 ````
-
-
-
 ````VB.NET
 	    Public Class SiteDataItem
 	        Private _text As String
@@ -275,8 +272,6 @@ ObjectDataSource allows you to get data from a variety of underlying data stores
 	
 	
 ````
-
-
 >end
 
 ````ASPNET

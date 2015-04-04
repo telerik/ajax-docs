@@ -27,17 +27,12 @@ The __RadToolTip__ exposes the server-side __Title__ property, which can be used
 			RadToolTip1.Title = "My Title";
 	
 ````
-
-
-
 ````VB.NET
 	
 	        RadToolTip1.Text = "My Text"
 	        RadToolTip1.Title = "My Title"
 	
 ````
-
-
 >end
 
 
@@ -54,16 +49,11 @@ Content can be added to __RadTooltip__ in multiple ways and is displayed in the 
 			RadToolTip1.Text = "Clicking this link navigates to the Telerik web site";
 	
 ````
-
-
-
 ````VB.NET
 	
 	        RadToolTip1.Text = "Clicking this link navigates to the Telerik web site"
 	
 ````
-
-
 >end
 
 1. Content from the __ToolTip__ property of the target control. It renders as the __title__ property. Images supply the __AlternateText__ and __alt__ properties in ASP.NET and HTML respectively.
@@ -108,9 +98,6 @@ The following code snippet will show the __AlternateText__ as a content in the t
 			RadToolTip1.Controls.Add(button);
 	
 ````
-
-
-
 ````VB.NET
 	
 	        RadToolTip1.Controls.Add(New LiteralControl("Rich content:"))
@@ -120,8 +107,6 @@ The following code snippet will show the __AlternateText__ as a content in the t
 	        RadToolTip1.Controls.Add(button)
 	
 ````
-
-
 >end
 
 >tip You can also add large amounts of content dynamically using the[RadToolTipManager OnAjaxUpdate]({%slug tooltip/radtooltipmanager/load-content-on-demand%})event.

@@ -66,17 +66,12 @@ The built-in commands perform their function without any programming on your par
 	                                  Telerik.Web.UI.Dock.DefaultCommands.PinUnpin;
 	
 ````
-
-
-
 ````VB
 	
 	        RadDock1.DefaultCommands = Telerik.Web.UI.Dock.DefaultCommands.Close _
 	                                Or Telerik.Web.UI.Dock.DefaultCommands.PinUnpin
 	
 ````
-
-
 >end
 
 >note The appearance of the built-in icons shown above is for the "Default" skin. Each skin provides its own icons for the built-in commands.

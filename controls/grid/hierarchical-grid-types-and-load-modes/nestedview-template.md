@@ -226,9 +226,6 @@ An alternative approach to binding the nested view template without defining nes
 	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    public partial class DefaultCS : System.Web.UI.Page
@@ -262,9 +259,6 @@ An alternative approach to binding the nested view template without defining nes
 	        }
 	    }	
 ````
-
-
-
 ````VB.NET
 	    Partial Public Class DefaultVB
 	        Inherits System.Web.UI.Page
@@ -289,6 +283,4 @@ An alternative approach to binding the nested view template without defining nes
 	        End Sub
 	    End Class
 ````
-
-
 >end

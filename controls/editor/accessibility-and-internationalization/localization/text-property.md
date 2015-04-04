@@ -29,9 +29,6 @@ Another way to localize RadEditor labels, buttons and tooltips is by using the _
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not IsPostBack Then
@@ -42,8 +39,6 @@ Another way to localize RadEditor labels, buttons and tooltips is by using the _
 			End If
 		End Sub
 ````
-
-
 >end
 
 You can also set the __Text__property inline in the RadEditor declaration:

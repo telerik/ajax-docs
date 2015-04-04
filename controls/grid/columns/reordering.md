@@ -38,15 +38,10 @@ When columns are created programmatically, they appear in the same order that th
 	     grid.MasterTableView.SwapColumns("City","ContactName");
 				
 ````
-
-
-
 ````VB.NET
 	        grid.MasterTableView.SwapColumns("City","ContactName")
 				
 ````
-
-
 >end
 
 * The __SwapColumns(Int32,Int32)__ method accepts the indexes of two columns to swap:
@@ -58,14 +53,9 @@ When columns are created programmatically, they appear in the same order that th
 	        grid.MasterTableView.SwapColumns(3, 4);
 				
 ````
-
-
-
 ````VB.NET
 	    		grid.MasterTableView.SwapColumns(3, 4)
 ````
-
-
 >end
 
 >note Note that __GridExpandColumn__ and __GridRowIndicatorColumn__ are always in front of data columns, so column indexs start at index 2.
@@ -91,9 +81,6 @@ When columns are created programmatically, they appear in the same order that th
 	            }
 	        }			
 ````
-
-
-
 ````VB.NET
 	    Dim cols As GridColumnCollection = grid.MasterTableView.Columns
 	    Dim c As GridColumn = cols.FindByUniqueName(columnName)
@@ -109,8 +96,6 @@ When columns are created programmatically, they appear in the same order that th
 		    Next
 	    End If
 ````
-
-
 >end
 
 >caution When using the __OrderIndex__ property to reorder columns, make sure that you assign values so that no two columns have the same index and no index is omitted.

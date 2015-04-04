@@ -38,14 +38,9 @@ Each List contains a __ListLevelCollection__ where the presentation of each list
 ````C#
 	    List numberedParenthesesList = new List(ListTemplateType.NumberedParentheses);
 ````
-
-
-
 ````VB.NET
 	    Dim numberedParenthesesList = New List(ListTemplateType.NumberedParentheses)
 ````
-
-
 >end
 
 On the following image you may see the available list template types and how they look:
@@ -88,9 +83,6 @@ __Example 2__ shows how to create an empty list and add two custom list levels t
 	    levelOne.IndentAfterBullet = 10;
 	    levelOne.BulletNumberingFormat = new TextBulletNumberingFormat((indexer) => "☑");
 ````
-
-
-
 ````VB.NET
 	    Dim list = New List()
 	
@@ -106,8 +98,6 @@ __Example 2__ shows how to create an empty list and add two custom list levels t
 	    levelOne.IndentAfterBullet = 10
 	    levelOne.BulletNumberingFormat = New TextBulletNumberingFormat(Function(indexer) "☑")
 ````
-
-
 >end
 
 The image in __Figure 3__ shows how the list created in __Example 2__ will look like when used:
@@ -148,9 +138,6 @@ The following code snippet shows how to create the bullets of a numbered hierarc
 	            });
 	    }
 ````
-
-
-
 ````VB.NET
 	    Dim list = New List() For i = 0 To 2
 	
@@ -169,8 +156,6 @@ The following code snippet shows how to create the bullets of a numbered hierarc
 	        End Function)
 	    Next
 ````
-
-
 >end
 
 When using the list created in __Example 3__ its bullets will look as shown in __Figure 4__
@@ -200,9 +185,6 @@ __Example 4__ shows how to create a list with __RadFixedDocumentEditor__ and ins
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Using editor As New RadFixedDocumentEditor(document) 
 	
@@ -217,8 +199,6 @@ __Example 4__ shows how to create a list with __RadFixedDocumentEditor__ and ins
 	        Next
 	    End Using
 ````
-
-
 >end
 
 The result document looks like the image in __Figure 5__:
@@ -238,9 +218,6 @@ As the __Block__ class has __Bullet__ and __IndentAfterBullet__ properties you c
 	    block.SetBullet(list, 0); 
 	    block.InsertText("Sample block text.");
 ````
-
-
-
 ````VB.NET
 	    Private Sub UsingListsWithBlockClass()
 	        Dim list = New List(ListTemplateType.BulletDefault)
@@ -249,8 +226,6 @@ As the __Block__ class has __Bullet__ and __IndentAfterBullet__ properties you c
 	        block.InsertText("Sample block text.")
 	    End Sub
 ````
-
-
 >end
 
 __Figure 6__ demonstrates how the block form __Example 5__ will look like when exported.

@@ -61,9 +61,6 @@ The event handler function receives two arguments:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadRibbonBar1_SplitButtonClick(sender As Object, e As RibbonBarSplitButtonClickEventArgs)
@@ -72,8 +69,6 @@ The event handler function receives two arguments:
 	
 	
 ````
-
-
 >end
 
 # See Also

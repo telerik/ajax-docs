@@ -53,9 +53,6 @@ There are two ways to configure the rendering mode of the controls:
 			RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 			RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-
-
-
 ````VB.NET
 			RadToolTip1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 			RadToolTipManager1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight

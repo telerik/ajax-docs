@@ -42,9 +42,6 @@ Called for every RadRotator's item when its template is created. This event is c
 			string imageURL = image1.ImageUrl; // ImageURL is NOT available yet
 		}
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadRotator1_ItemCreated(ByVal sender As Object, ByVal e As RadRotatorEventArgs)
@@ -88,9 +85,6 @@ Called for every RadRotator's item after it is databound. This event is called a
 			string imageURL = image1.ImageUrl; // ImageURL is already available
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub RadRotator1_ItemDataBound(ByVal sender As Object, ByVal e As RadRotatorEventArgs)
 	        Dim image1 As Image = TryCast(e.Item.FindControl("Image1"), Image) ' Find the asp:Image server control
@@ -125,9 +119,6 @@ Called when a RadRotator's item is clicked and the click event is not canceled c
 			rotator.InitialItemIndex = e.Item.Index;// Persist the index 
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub RadRotator1_ItemClick(ByVal sender As Object, ByVal e As RadRotatorEventArgs)
 	        Dim rotator As RadRotator = TryCast(sender, RadRotator)

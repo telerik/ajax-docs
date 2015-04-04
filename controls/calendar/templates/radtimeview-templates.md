@@ -98,9 +98,6 @@ The following example demonstrates how to create a template dynamically:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -125,8 +122,6 @@ The following example demonstrates how to create a template dynamically:
 	    End Class
 	
 ````
-
-
 >end
 
 # See Also

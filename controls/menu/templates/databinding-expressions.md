@@ -80,9 +80,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	        } 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        Dim i As Integer = 0
@@ -92,8 +89,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	        End While
 	    End Sub
 ````
-
-
 >end
 
 Now the text of the menu items appears on the check boxes:

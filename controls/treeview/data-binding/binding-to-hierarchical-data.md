@@ -76,9 +76,6 @@ In the __BindToDataTable()__ method below, the hierarchical query is created, lo
 	}
 				
 ````
-
-
-
 ````VB.NET
 	Imports System.Data.SqlClient
 	Imports Telerik.Web.UI
@@ -116,8 +113,6 @@ In the __BindToDataTable()__ method below, the hierarchical query is created, lo
 	
 	
 ````
-
-
 >end
 
 For a live example of binding to hierarchical data see [Hierarchical Data Binding](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/DataBinding/DefaultCS.aspx).

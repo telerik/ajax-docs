@@ -39,9 +39,6 @@ The following example illustrates how this is done. It changes the __ImageUrl__ 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        Dim cell As TableCell
@@ -57,6 +54,4 @@ The following example illustrates how this is done. It changes the __ImageUrl__ 
 	        Next cell
 	    End Sub
 ````
-
-
 >end

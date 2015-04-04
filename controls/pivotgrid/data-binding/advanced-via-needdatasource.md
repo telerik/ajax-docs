@@ -68,9 +68,6 @@ In a __NeedDataSource__ event handler, you should prepare the data source(list o
 	        return myDataTable;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_NeedDataSource(sender As Object, e As PivotGridNeedDataSourceEventArgs)
 	        RadPivotGrid1.DataSource = GetDataTable("SELECT * FROM Transportation")
@@ -94,6 +91,4 @@ In a __NeedDataSource__ event handler, you should prepare the data source(list o
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end

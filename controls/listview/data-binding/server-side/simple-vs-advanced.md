@@ -294,9 +294,6 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	        </tr>
 	    </table>
 ````
-
-
-
 ````VB
 	    <telerik:RadScriptManager ID="RadScriptManager" runat="server" />
 	    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
@@ -531,8 +528,6 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	        </tr>
 	    </table>
 ````
-
-
 >end
 
 >tabbedCode
@@ -641,9 +636,6 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Public Function GetDataTable(ByVal query As String) As DataTable
@@ -738,6 +730,4 @@ The code snippets below are taken from the [corresponding online demo](http://de
 	    End Sub
 	
 ````
-
-
 >end

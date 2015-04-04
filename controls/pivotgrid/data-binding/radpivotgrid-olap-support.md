@@ -137,9 +137,6 @@ Into __GetDescriptionsDataCompleted__ event all nodes from the olap cube are ava
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_GetDescriptionsDataCompleted(sender As Object, e As GetDescriptionsDataCompletedEventArgs)
 	        Dim root = e.DescriptionsData.RootFieldInfo
@@ -159,8 +156,6 @@ Into __GetDescriptionsDataCompleted__ event all nodes from the olap cube are ava
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Support for OLAP connection strings stored in web.config

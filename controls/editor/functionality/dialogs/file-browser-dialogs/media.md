@@ -75,9 +75,6 @@ __Setting Image manager properties in CodeBehind:__
 	        }
 	
 ````
-
-
-
 ````VB
 	        Dim viewMedia As String() = New String() {"~/Media"}
 	        Dim uploadMedia As String() = New String() {"~/Media/New"}
@@ -88,8 +85,6 @@ __Setting Image manager properties in CodeBehind:__
 	            RadEditor1.ImageManager.DeletePaths = deleteMedia
 	        End If
 ````
-
-
 >end
 
 Note that the viewMedia, uploadMedia and deleteMedia variables are string arrays and that the Media folders must be:

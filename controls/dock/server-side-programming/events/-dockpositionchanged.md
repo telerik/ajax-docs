@@ -67,9 +67,6 @@ Use a __DockPositionChanged__ event handler to respond when the user moves the _
 	    } 
 				
 ````
-
-
-
 ````VB
 	     
 	    Protected Sub RadDock1_DockPositionChanged(ByVal sender As Object, _
@@ -94,8 +91,6 @@ Use a __DockPositionChanged__ event handler to respond when the user moves the _
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

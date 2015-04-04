@@ -30,15 +30,10 @@ Mouse wheel support is enabled by the __TrackMouseWheel__ property when __True__
 	        RadSlider1.SmallChange = 5;
 	
 ````
-
-
-
 ````VB
 	
 	        RadSlider1.TrackMouseWheel = True
 	        RadSlider1.SmallChange = 5
 	
 ````
-
-
 >end

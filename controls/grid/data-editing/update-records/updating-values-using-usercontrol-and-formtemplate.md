@@ -59,9 +59,6 @@ The code below shows how to retrieve a value from a control in a user control cu
 	        End Try
 	    End Sub
 ````
-
-
-
 ````C#
 	    void RadGrid1_UpdateCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -108,8 +105,6 @@ The code below shows how to retrieve a value from a control in a user control cu
 	    }
 	
 ````
-
-
 >end
 
 ## Referring controls in FormTemplate
@@ -171,9 +166,6 @@ The code below shows to retrieve a value from a control in a form template custo
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As WebControls.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.UpdateCommandName) Then
@@ -216,8 +208,6 @@ The code below shows to retrieve a value from a control in a form template custo
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Note that with form template you may prefer the [ codeless approach ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [ automatic operations ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid.

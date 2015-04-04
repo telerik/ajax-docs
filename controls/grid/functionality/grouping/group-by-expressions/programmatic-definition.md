@@ -75,9 +75,6 @@ You can set the __GroupByExpressions__ property in the code-behind to specify th
 	        tableViewOrders.GroupByExpressions.Add(expression);
 	
 ````
-
-
-
 ````VB.NET
 	    Dim expression As GridGroupByExpression = New GridGroupByExpression
 	    Dim gridGroupByField As GridGroupByField = New GridGroupByField
@@ -101,6 +98,4 @@ You can set the __GroupByExpressions__ property in the code-behind to specify th
 	    expression.GroupByFields.Add(gridGroupByField)
 	    tableViewOrders.GroupByExpressions.Add(expression) 			
 ````
-
-
 >end

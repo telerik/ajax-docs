@@ -56,9 +56,6 @@ Here are the two steps that you need to perform:
 	   }
 	} 			
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -91,8 +88,6 @@ Here are the two steps that you need to perform:
 	    End Class
 	
 ````
-
-
 >end
 
 2. Call the overloaded __SortItems__ or __Items.Sort__ methods passing your IComparer as a parameter:
@@ -105,17 +100,12 @@ Here are the two steps that you need to perform:
 	    RadComboBox2.SortItems(new SortComboItemsByValue());
 				
 ````
-
-
-
 ````VB.NET
 	
 		RadComboBox2.Sort = RadComboBoxSort.Ascending
 	    RadComboBox2.SortItems(New SortComboItemsByValue())
 	
 ````
-
-
 >end
 
 That's it. Now the combobox items will be sorted by their __Values__ instead of Text.

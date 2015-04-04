@@ -30,9 +30,6 @@ Each of the localization strings can also be modified at runtime using the respe
 	        RadCaptcha1.CaptchaAudioLinkButtonText = "Play the audio code";
 	        RadCaptcha1.CaptchaLinkButtonText = "Generate a new image";
 ````
-
-
-
 ````VB.NET
 	        RadCaptcha1.ErrorMessage = "Incorrect code"
 	        RadCaptcha1.CaptchaTextBoxLabel = "Enter the code from the image"

@@ -45,17 +45,12 @@ You need to search for the RadTreeView in the Controls collection of the RadComb
 	RadTreeView tree = (RadTreeView)RadComboBox1.Items[0].FindControl("RadTreeView1");
 	          
 ````
-
-
-
 ````VB.NET
 	     
 	
 	Dim tree As RadTreeView = DirectCast(RadComboBox1.Items(0).FindControl("RadTreeView1"), RadTreeView)
 				
 ````
-
-
 >end
 
 ## How to find RadTreeView object client-side

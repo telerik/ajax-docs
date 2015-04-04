@@ -21,14 +21,9 @@ There are two ways to extract the values from the item. From the item itself (__
 ````C#
 	            item.ExtractValues(table);
 ````
-
-
-
 ````VB
 	            item.ExtractValues(table)
 ````
-
-
 >end
 
 >tabbedCode
@@ -36,14 +31,9 @@ There are two ways to extract the values from the item. From the item itself (__
 ````C#
 	            RadTreeList1.ExtractValuesFromItem(table, item, true);
 ````
-
-
-
 ````VB
 	            RadTreeList1.ExtractValuesFromItem(table, item, True)
 ````
-
-
 >end
 
 The syntax of the __ExtractValuesFromItem__ method is as follows:
@@ -78,9 +68,6 @@ The update operation is nothing different compared to other databound controls l
 	                ExecuteNonQuery(commandText, table);
 	            }
 ````
-
-
-
 ````VB
 	            Dim table As New Hashtable()
 	            Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
@@ -93,8 +80,6 @@ The update operation is nothing different compared to other databound controls l
 	                ExecuteNonQuery(commandText, table)
 	            End If
 ````
-
-
 >end
 
 ## Insert
@@ -109,17 +94,12 @@ Although the insert operation is generally the same as the update there is one p
 	            #region treelist-manual-operations_1
 	            item.ExtractValues(table);
 ````
-
-
-
 ````VB
 	            Dim table As New Hashtable()
 	            Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
 	            ' #region treelist-manual-operations_3
 	            item.ExtractValues(table)
 ````
-
-
 >end
 
 # See Also

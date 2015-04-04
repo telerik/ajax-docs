@@ -188,9 +188,6 @@ __Example 3__: RadDiagram client-side data binding and shapes customization thro
 				});
 			}
 ````
-
-
-
 ````ASPNET
 			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
 				<DataSource>
@@ -219,8 +216,6 @@ __Example 3__: RadDiagram client-side data binding and shapes customization thro
 				</ShapeDefaultsSettings>
 			</telerik:RadDiagram>
 ````
-
-
 >end
 
 __Example 4__: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from __Example 2__.
@@ -257,9 +252,6 @@ __Example 4__: RadDiagram client-side data binding and shapes customization thro
 				return group;
 			}
 ````
-
-
-
 ````ASPNET
 			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
 				<DataSource>
@@ -286,8 +278,6 @@ __Example 4__: RadDiagram client-side data binding and shapes customization thro
 				</ShapeDefaultsSettings>
 			</telerik:RadDiagram>
 ````
-
-
 >end
 
 # See Also

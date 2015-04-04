@@ -43,9 +43,6 @@ Use the __Add__ method of the __RadToolBarItemCollection__ object to add items p
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -70,8 +67,6 @@ Use the __Add__ method of the __RadToolBarItemCollection__ object to add items p
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Removing items
@@ -91,9 +86,6 @@ Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ 
 	    dropDown.Buttons.Remove(childButton);
 	
 ````
-
-
-
 ````VB.NET
 	
 	    'find the item by text. The item could either be a button, dropdown or splitbutton
@@ -105,8 +97,6 @@ Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ 
 	    dropDown.Buttons.Remove(childButton)
 	
 ````
-
-
 >end
 
 ## Disabling items
@@ -122,9 +112,6 @@ Use the __Enable__ property of the __RadToolBarItem__ object to enable or disabl
 	    itemToDisable.Enabled = false;
 	
 ````
-
-
-
 ````VB.NET
 	
 	    'find the item by text. The item could either be a button, dropdown or splitbutton
@@ -132,8 +119,6 @@ Use the __Enable__ property of the __RadToolBarItem__ object to enable or disabl
 	    itemToDisable.Enabled = False
 	
 ````
-
-
 >end
 
 # See Also

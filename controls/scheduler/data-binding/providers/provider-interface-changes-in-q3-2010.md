@@ -56,9 +56,6 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	     
 	Public MustInherit Class SchedulerProviderBase
@@ -94,8 +91,6 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 	End Class 
 	
 ````
-
-
 >end
 
 ## Upgrading existing providers

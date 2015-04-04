@@ -72,9 +72,6 @@ You can also perform validation over the file input as shown in the demo code:
 	    </telerik:RadCodeBlock>
 	
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="conditionalPostback">
 	    <telerik:RadProgressManager ID="RadProgressManager1" runat="server" />
@@ -146,9 +143,6 @@ You can also perform validation over the file input as shown in the demo code:
 	        </DeleteParameters>
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	
@@ -183,9 +177,6 @@ You can also perform validation over the file input as shown in the demo code:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
@@ -212,6 +203,4 @@ You can also perform validation over the file input as shown in the demo code:
 	        Return description
 	    End Function
 ````
-
-
 >end

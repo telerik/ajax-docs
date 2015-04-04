@@ -57,9 +57,6 @@ You can create the __RadGrid__ instance and the grid structure in the __Page.Ini
 	//Add to page controls collection
 	this.PlaceHolder1.Controls.Add( RadGrid1 );          
 ````
-
-
-
 ````VB.NET
 	Me.RadGrid1 = new RadGrid();
 	
@@ -89,8 +86,6 @@ You can create the __RadGrid__ instance and the grid structure in the __Page.Ini
 	Me.PlaceHolder1.Controls.Add( RadGrid1 )</pre>
 	          
 ````
-
-
 >end
 
 ## 2nd Scenario
@@ -117,9 +112,6 @@ Example:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -132,8 +124,6 @@ Example:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## 2. Misusing or Not Using NeedDataSource Event
@@ -159,14 +149,9 @@ One of the major differences between __RadGrid__ and the standard .NET __DataGri
 ````C#
 	item.Cells[4]          
 ````
-
-
-
 ````VB.NET
 	item.Cells(4)
 ````
-
-
 >end
 
 However, imagine that the user has changed the column order using a client-side drag-and-drop operation. Then the cell with index 4 will no longerrefer the same field value. That's why __RadGrid__ provides the ability to access cells in items using the correspondingcolumn’s __UniqueName__. For example, if you have a column with the unique name "CustomerID" you can find the correspondingcell in a __GridItem__ using:
@@ -178,16 +163,11 @@ However, imagine that the user has changed the column order using a client-side 
 	//for GridDataItem you can replace that with
 	item["CustomerID"]          
 ````
-
-
-
 ````VB.NET
 	    item.Cells("CustomerID")
 	    'for GridDataItem you can replace that with
 	    item("CustomerID")
 ````
-
-
 >end
 
 This will prevent you from accessing the wrong cell.

@@ -82,9 +82,6 @@ __Example 1__: Data binding shapes and connections in a diagram to a collection 
 	        };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        If Not IsPostBack Then
@@ -163,6 +160,4 @@ __Example 1__: Data binding shapes and connections in a diagram to a collection 
 	        }}
 	    End Function
 ````
-
-
 >end

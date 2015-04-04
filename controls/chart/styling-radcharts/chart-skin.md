@@ -42,9 +42,6 @@ When you want to reuse the skin, you need to create an instance of __ChartSkin__
 	     myCustomSkin1.ApplyTo(RadChart1.Chart); 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    'Save the XML Skin file...
@@ -55,8 +52,6 @@ When you want to reuse the skin, you need to create an instance of __ChartSkin__
 	    myCustomSkin1.ApplyTo(RadChart1.Chart) 
 	
 ````
-
-
 >end
 
 

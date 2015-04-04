@@ -41,9 +41,6 @@ The following example shows how to cancel the event if there are more than 2 ite
 	            e.Cancel = true;
 	    } 
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_Reordering(ByVal sender As Object, ByVal e As RadListBoxReorderingEventArgs)
 	        If e.Items.Count > 2 Then
@@ -52,8 +49,6 @@ The following example shows how to cancel the event if there are more than 2 ite
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

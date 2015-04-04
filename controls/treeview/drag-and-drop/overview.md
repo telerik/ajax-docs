@@ -87,9 +87,6 @@ The following example handles the __OnNodeDrop__ event and adds the __DraggedNod
 	   }
 	} 			
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI
 	namespace RadTreeView_Dragging
@@ -103,8 +100,6 @@ The following example handles the __OnNodeDrop__ event and adds the __DraggedNod
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 To see a live example of the drag and drop support of RadTreeView visit the [Drag & Drop live demo](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/DragAndDropNodes/DefaultCS.aspx).

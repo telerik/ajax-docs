@@ -62,9 +62,6 @@ The example below will demonstrate how some tile settings can be set:
 			e.Tile.PeekTemplateSettings.AnimationDuration = 800;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadTileList1_TileCreated(sender As Object, e As Telerik.Web.UI.TileListEventArgs) Handles RadTileList1.TileCreated
 			e.Tile.PeekTemplateSettings.ShowInterval = 0

@@ -37,9 +37,6 @@ Use the __SelectionChanged__event handler to respond to changes in the calendar'
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadCalendar1_SelectionChanged(ByVal sender As Object, ByVal e As SelectedDatesEventArgs) Handles RadCalendar1.SelectionChanged
@@ -51,8 +48,6 @@ Use the __SelectionChanged__event handler to respond to changes in the calendar'
 	        End While
 	    End Sub
 ````
-
-
 >end
 
 # See Also

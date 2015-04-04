@@ -46,9 +46,6 @@ Use the __ItemCreated__ event handler to make changes to items as they are added
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -68,8 +65,6 @@ Use the __ItemCreated__ event handler to make changes to items as they are added
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

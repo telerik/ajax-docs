@@ -36,18 +36,12 @@ In the following example a route is defined in Global.asax file that leads to Da
 	        </Fields>
 	    </telerik:RadDataPager>
 ````
-
-
-
 ````C#
 	    private void RegisterRoutes(System.Web.Routing.RouteCollection routes)
 	    {
 	        routes.MapPageRoute("SeoRouting", "seopage/{pager}", "~/DataPagerRouting.aspx", true, new System.Web.Routing.RouteValueDictionary{ { "pager", "1" } });
 	    }			
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -58,8 +52,6 @@ In the following example a route is defined in Global.asax file that leads to Da
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Page Size Support

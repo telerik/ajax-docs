@@ -38,9 +38,6 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemCreated(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
@@ -48,6 +45,4 @@ Use an __ItemCreated__ event handler to initialize items as they are added to th
 	    End Sub
 	
 ````
-
-
 >end

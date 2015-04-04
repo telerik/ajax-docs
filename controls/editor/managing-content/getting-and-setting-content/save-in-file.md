@@ -88,9 +88,6 @@ The content will be saved inside the Content inner tags of RadEditor for ASP.NET
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Data
@@ -135,8 +132,6 @@ The content will be saved inside the Content inner tags of RadEditor for ASP.NET
 			End Sub
 		End Class
 ````
-
-
 >end
 
 # See Also

@@ -56,9 +56,6 @@ In the aforementioned demo, we use a custom __CommandArgument__to distinguish th
 	        RadListView1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_Sorting(ByVal sender As Object, ByVal e As RadListViewSortEventArgs)
 	        Dim selectQuery As String = "SELECT [CustomerID], [CompanyName], [ContactName], [Phone] FROM [Customers]"
@@ -77,6 +74,4 @@ In the aforementioned demo, we use a custom __CommandArgument__to distinguish th
 	        RadListView1.Rebind()
 	    End Sub
 ````
-
-
 >end

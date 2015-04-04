@@ -105,9 +105,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
 	        If TypeOf e.Item Is RadListViewDataItem Then
@@ -118,8 +115,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -134,9 +129,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
 	        If e.CommandName = RadListView.SelectCommandName Then
@@ -145,8 +137,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 2. Extracting values using the __ExtractValues__ method on __ItemDataBound__ / __ItemCommand__
@@ -168,9 +158,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
 	        If TypeOf e.Item Is RadListViewDataItem Then
@@ -183,8 +170,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -200,9 +185,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs) Handles RadListView1.ItemCommand
 	        If e.CommandName = RadListView.SelectCommandName Then
@@ -212,8 +194,6 @@ There are various way to access/extract values from the items in __RadListView__
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 3. Extracting values using the __ExtractValuesFromItem__ method on __ItemDataBound__ / __ItemCommand__
@@ -237,9 +217,6 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
 	        If TypeOf e.Item Is RadListViewDataItem Then
@@ -252,8 +229,6 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 4. Extracting values through the __DataItem__ on __ItemDataBound__
@@ -273,9 +248,6 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemDataBound(ByVal sender As Object, ByVal e As RadListViewItemEventArgs) Handles RadListView1.ItemDataBound
 	        If TypeOf e.Item Is RadListViewDataItem Then
@@ -286,8 +258,6 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Online demo:

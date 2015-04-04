@@ -122,9 +122,6 @@ Below is the barebone logic for __OnGridExporting__ event:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_GridExporting(ByVal source As Object, ByVal e As GridExportingArgs)
 	        Select Case e.ExportType
@@ -145,8 +142,6 @@ Below is the barebone logic for __OnGridExporting__ event:
 	        End Select
 	    End Sub
 ````
-
-
 >end
 
 ## Common scenarios
@@ -178,9 +173,6 @@ When you have custom paging enabled for your grid, you need to set the *PageSize
 	        RadGrid1.MasterTableView.ExportToExcel();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount
@@ -189,8 +181,6 @@ When you have custom paging enabled for your grid, you need to set the *PageSize
 	        RadGrid1.MasterTableView.ExportToExcel()
 	    End Sub
 ````
-
-
 >end
 
 ## Export from AJAX-enabled RadGrid
@@ -241,15 +231,10 @@ In order to prevent this error add the following lines just before the exporting
 	        RadGrid1.Page.Response.ClearHeaders();
 	        RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 ````
-
-
-
 ````VB.NET
 	        RadGrid1.Page.Response.ClearHeaders()
 	        RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
-
-
 >end
 
 ## Obsolete methods

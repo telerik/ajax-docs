@@ -69,9 +69,6 @@ The following example demonstrates how the user can display: a custom content in
 			RadXmlHttpPanel1.Controls.Add(calendar);
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadXmlHttpPanel1_ServiceRequest(ByVal sender As Object, ByVal e As RadXmlHttpPanelEventArgs)
 	        Dim calendar As New RadCalendar()
@@ -81,6 +78,4 @@ The following example demonstrates how the user can display: a custom content in
 	    End Sub
 	
 ````
-
-
 >end

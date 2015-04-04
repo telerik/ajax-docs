@@ -72,9 +72,6 @@ __Example 2__: Keeping the default MS Word pasting behavior but removing the con
 			</telerik:RadEditor>
 	
 ````
-
-
-
 ````C#
 	
 		RadEditor1.StripFormattingOptions = 
@@ -82,9 +79,6 @@ __Example 2__: Keeping the default MS Word pasting behavior but removing the con
 	
 	
 ````
-
-
-
 ````VB
 	
 			RadEditor1.StripFormattingOptions =
@@ -92,8 +86,6 @@ __Example 2__: Keeping the default MS Word pasting behavior but removing the con
 	
 	
 ````
-
-
 >end
 
 ### Using the Built-in Clipboard Tools

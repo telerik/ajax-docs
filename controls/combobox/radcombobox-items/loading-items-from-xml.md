@@ -69,16 +69,11 @@ Create an XML file with content that complies with the rules described above and
 	    RadComboBox1.LoadContentFile("~/App_Data/content.xml");
 				
 ````
-
-
-
 ````VB.NET
 	
 	     RadComboBox1.LoadContentFile("~/App_Data/content.xml")
 	
 ````
-
-
 >end
 
 ## Loading from an XML string
@@ -101,9 +96,6 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadComboBox1.LoadXml(xmlString);
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -118,6 +110,4 @@ Create a string with valid XML content (or fetch it from a database, for example
 	    RadComboBox1.LoadXml(xmlString)
 	
 ````
-
-
 >end

@@ -46,17 +46,12 @@ To bind to a table-based DataSource component:
 	        e.Node.ToolTip = nodeData["tooltip"].ToString(); 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadSiteMap1_NodeDataBound(ByVal sender As Object, ByVal e As RadSiteMapNodeEventArgs)
 	        Dim nodeData As DataRowView = TryCast(e.Node.DataItem, DataRowView)
 	        e.Node.ToolTip = nodeData("tooltip").ToString()
 	    End Sub
 ````
-
-
 >end
 
 

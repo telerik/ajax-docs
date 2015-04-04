@@ -63,9 +63,6 @@ In a __CreateColumnEditor__ event handler, you can attach an instance of your cu
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_CreateColumnEditor(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridCreateColumnEditorEventArgs) Handles RadGrid1.CreateColumnEditor
 	        Dim column As GridBoundColumn = TryCast(e.Column, GridBoundColumn)
@@ -77,8 +74,6 @@ In a __CreateColumnEditor__ event handler, you can attach an instance of your cu
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Implementing Custom Column Editors
@@ -219,9 +214,6 @@ The example below shows the implementation of two custom column editor classes. 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Public Class MultiLineTextBoxColumnEditor
 	        Inherits GridTextColumnEditor
@@ -310,8 +302,6 @@ The example below shows the implementation of two custom column editor classes. 
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 For a live example that demonstrates custom column editors, see [Custom column editors](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/ExtractValues/DefaultVB.aspx).

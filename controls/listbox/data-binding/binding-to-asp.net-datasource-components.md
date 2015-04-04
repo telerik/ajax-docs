@@ -44,9 +44,6 @@ If you need to map additional columns from the data source to properties of the 
 	        e.Item.Attributes["City"] = dataSourceRow["CityColumn"].ToString();
 	    } 
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadListBox1_ItemDataBound(ByVal sender As Object, ByVal e As RadListBoxItemEventArgs)
@@ -57,8 +54,6 @@ If you need to map additional columns from the data source to properties of the 
 	        e.Item.Attributes("City") = dataSourceRow("CityColumn").ToString()
 	    End Sub
 ````
-
-
 >end
 
 ## AccessDataSource
@@ -183,9 +178,6 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	        }
 	    } 
 ````
-
-
-
 ````VB.NET
 	
 	    Public Class ListObjectData
@@ -225,8 +217,6 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 	    End Class
 	
 ````
-
-
 >end
 
 ## LinqDataSource

@@ -69,9 +69,6 @@ Here is an example how to:
 	        toolgroupLeft.Tools.Add(new EditorTool("Bold"));
 	
 ````
-
-
-
 ````VB
 	
 	        Dim toolgroupLeft As New EditorToolGroup()
@@ -80,6 +77,4 @@ Here is an example how to:
 	        toolgroupLeft.Tools.Add(New EditorTool("Bold"))
 	
 ````
-
-
 >end

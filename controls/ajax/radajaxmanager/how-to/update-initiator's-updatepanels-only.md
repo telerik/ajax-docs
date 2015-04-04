@@ -65,9 +65,6 @@ In the example below no matter that there is no setting in which the first panel
 	    }
 	
 ````
-
-
-
 ````VB
 	Partial Class _Default
 	    Inherits System.Web.UI.Page
@@ -78,8 +75,6 @@ In the example below no matter that there is no setting in which the first panel
 	
 	End Class
 ````
-
-
 >end
 
 ## 

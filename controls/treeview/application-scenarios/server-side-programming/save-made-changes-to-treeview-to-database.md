@@ -108,9 +108,6 @@ The code below shows the approach:
 	        con.Close();
 	    } 
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Button1 As System.Web.UI.WebControls.Button
@@ -187,8 +184,6 @@ The code below shows the approach:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

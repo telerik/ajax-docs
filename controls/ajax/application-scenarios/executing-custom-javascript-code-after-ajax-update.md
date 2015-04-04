@@ -29,16 +29,11 @@ __Example 1__ shows how to pop an alert when a Button is clicked.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 	        RadAjaxManager1.ResponseScripts.Add(String.Format("alert('Hello from the server! Server time is {0}');", DateTime.Now.ToLongTimeString()))
 	    End Sub
 ````
-
-
 >end
 
 __Example 2__ shows another approach. You can use the __RegisterStartupScript__ static methodof the __ScriptManager__ class:
@@ -52,17 +47,12 @@ __Example 2__ shows another approach. You can use the __RegisterStartupScript__ 
 	        ScriptManager.RegisterStartupScript(Page, typeof(Page), "myscript", script, true);
 	    }  
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim script As String = String.Format("alert('Hello from the server! Server time is {0}');", DateTime.Now.ToLongTimeString())
 	        ScriptManager.RegisterStartupScript(Page, GetType(Page), "myscript", script, True)
 	    End Sub
 ````
-
-
 >end
 
 You can also use the [pageLoaded](http://msdn.microsoft.com/en-us/library/bb397523.aspx)event of the [PageRequestManager](http://msdn.microsoft.com/en-us/library/bb311028.aspx) class.

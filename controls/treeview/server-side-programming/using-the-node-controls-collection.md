@@ -38,9 +38,6 @@ You can add controls directly to the __Controls__ collection of a RadTreeNode. T
 	root3.Controls.Add(button);
 	RadTreeView2.Nodes.Add(root3);		
 ````
-
-
-
 ````VB.NET
 	    Dim root1 As New RadTreeNode("root1")
 	    Dim textbox1 As New TextBox()
@@ -57,6 +54,4 @@ You can add controls directly to the __Controls__ collection of a RadTreeNode. T
 	    root3.Controls.Add(button)
 	    RadTreeView2.Nodes.Add(root3) 
 ````
-
-
 >end

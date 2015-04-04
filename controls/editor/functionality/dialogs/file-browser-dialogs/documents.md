@@ -73,9 +73,6 @@ __Setting the DocumentManager properties in CodeBehind:__
 	        }
 	
 ````
-
-
-
 ````VB
 	
 	        Dim viewDocuments As String() = New String() {"~/Documents"}
@@ -89,8 +86,6 @@ __Setting the DocumentManager properties in CodeBehind:__
 	        End If
 	
 ````
-
-
 >end
 
 Note that the viewDocuments, uploadDocuments and deleteDocuments variables are string arrays and that the Documents folder must be:

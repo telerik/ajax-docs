@@ -28,9 +28,6 @@ Common case is the need to limit the maximum number of files that can be uploade
 	            <telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Azure" OnClientFilesSelecting="onClientFilesSelecting" MultipleFileSelection="Automatic">
 	            </telerik:RadCloudUpload>
 ````
-
-
-
 ````JavaScript
 	            //Limit the number of the uploaded files.
 	            function onClientFilesSelecting(sender, args) {
@@ -43,8 +40,6 @@ Common case is the need to limit the maximum number of files that can be uploade
 	                }
 	            }
 ````
-
-
 >end
 
 # See Also

@@ -37,16 +37,11 @@ __DataKeyNames__ is an array of strings, so if you are creating the grid's struc
 ````C#
 	    RadGrid1.MasterTableView.DataKeyNames = new string[2] { "CustomerID", "EmployeeID" };			
 ````
-
-
-
 ````VB.NET
 	     
 							RadGrid1.MasterTableView.DataKeyNames = New String(2) {"CustomerID", "EmployeeID"}
 				
 ````
-
-
 >end
 
 ## ParentTableRelation

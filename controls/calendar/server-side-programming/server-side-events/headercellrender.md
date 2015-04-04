@@ -59,9 +59,6 @@ the header cell before it is rendered:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 		Protected Sub RadCalendar1_HeaderCellRender(ByVal sender As Object, ByVal e As HeaderCellRenderEventArgs) Handles RadCalendar1.HeaderCellRender
@@ -79,8 +76,6 @@ the header cell before it is rendered:
 	    End Sub
 				
 ````
-
-
 >end
 
 # See Also

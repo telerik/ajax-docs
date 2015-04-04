@@ -83,9 +83,6 @@ The following example will show how the __OnClientTileDropped__ event can be use
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub OnAjaxRequestHandler(sender As Object, e As Telerik.Web.UI.AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
 			If e.Argument = "storeTileOrder" Then

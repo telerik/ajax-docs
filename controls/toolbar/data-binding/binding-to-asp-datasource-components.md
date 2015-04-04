@@ -41,9 +41,6 @@ If you need to map additional columns from the data source to properties of the 
 	    e.Button.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Button.DataItem, "Text");}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -56,8 +53,6 @@ If you need to map additional columns from the data source to properties of the 
 	    End Sub
 	
 ````
-
-
 >end
 
 Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDataSource__ can be used to bind the toolbar declaratively in design time.
@@ -164,9 +159,6 @@ The following example shows a __RadToolBar__ bound declaratively to an __ObjectD
 	}
 		
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -198,8 +190,6 @@ The following example shows a __RadToolBar__ bound declaratively to an __ObjectD
 	    End Class
 	
 ````
-
-
 >end
 
 The __ObjectDataSource__ component is configured to use the following class definition:

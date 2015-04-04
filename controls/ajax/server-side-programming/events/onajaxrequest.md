@@ -55,9 +55,6 @@ The example below demonstrates AjaxRequest triggered from both the client and se
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnServer_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        RadAjaxManager1.RaisePostBackEvent("server")
@@ -66,6 +63,4 @@ The example below demonstrates AjaxRequest triggered from both the client and se
 	        RadAjaxManager1.Alert("AjaxRequest raised from the " + e.Argument)
 	    End Sub
 ````
-
-
 >end

@@ -42,9 +42,6 @@ Use the __OnNextButtonClick__ event handler to respond when the next button is c
 	        Label1.Text = "You clicked on NextButton button";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_NextButtonClick(sender As Object, e As WizardEventArgs) Handles RadWizard1.NextButtonClick
 	        Label1.Text = "You clicked on NextButton button"

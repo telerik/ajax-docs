@@ -54,9 +54,6 @@ The event handler function receives two arguments:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -66,8 +63,6 @@ The event handler function receives two arguments:
 	
 	
 ````
-
-
 >end
 
 # See Also

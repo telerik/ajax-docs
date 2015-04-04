@@ -29,9 +29,6 @@ To change the __GroupByExpression__ dynamically when the user drags a column hea
 	    SelectCommand="SELECT * FROM Orders">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_GroupsChanging(object source, GridGroupsChangingEventArgs e)
 	    {  //Expression is added (by drag/drop on group panel)
@@ -59,9 +56,6 @@ To change the __GroupByExpression__ dynamically when the user drags a column hea
 	        return false;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_GroupsChanging(ByVal source As Object, ByVal e As GridGroupsChangingEventArgs)
@@ -89,6 +83,4 @@ To change the __GroupByExpression__ dynamically when the user drags a column hea
 	    End Function
 	
 ````
-
-
 >end

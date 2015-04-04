@@ -38,9 +38,6 @@ The example below is the result of binding a [generic List<>](http://msdn2.micro
 	RadChart1.DataBind();
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Dim chartData As New List(Of Double)()
@@ -52,8 +49,6 @@ The example below is the result of binding a [generic List<>](http://msdn2.micro
 	    RadChart1.DataSource = chartDataRadChart1.DataBind()
 				
 ````
-
-
 >end
 
 # See Also

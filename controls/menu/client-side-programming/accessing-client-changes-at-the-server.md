@@ -59,9 +59,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	    } 
 	}		
 ````
-
-
-
 ````VB.NET
 	For Each operation As ClientOperation(Of RadMenuItem) In RadMenu1.ClientChanges
 	    Dim item As RadMenuItem = operation.Item
@@ -78,8 +75,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	    End Select
 	Next 
 ````
-
-
 >end
 
 # See Also

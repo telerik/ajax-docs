@@ -82,9 +82,6 @@ In the code-behind you should handle properly the __RadGrid1_DeleteCommand__ eve
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
@@ -117,6 +114,4 @@ In the code-behind you should handle properly the __RadGrid1_DeleteCommand__ eve
 	        End If
 	    End Sub
 ````
-
-
 >end

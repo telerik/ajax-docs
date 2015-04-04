@@ -64,9 +64,6 @@ In contrast to that, when the __SelectedValue__ property is set in the code behi
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDropDownTreeTest_DataBound(sender As Object, e As System.EventArgs)
 	        DirectCast(sender, RadDropDownTree).ExpandAllDropDownNodes()
@@ -78,6 +75,4 @@ In contrast to that, when the __SelectedValue__ property is set in the code behi
 	
 	    End Sub
 ````
-
-
 >end

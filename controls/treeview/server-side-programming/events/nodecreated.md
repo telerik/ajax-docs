@@ -26,9 +26,6 @@ The NodeCreated event fires when new Nodes are created and added to the RadTreeV
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -36,8 +33,6 @@ The NodeCreated event fires when new Nodes are created and added to the RadTreeV
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

@@ -40,9 +40,6 @@ __AppointmentUpdate__ has two parameters:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentUpdate(ByVal sender As Object, _
@@ -52,8 +49,6 @@ __AppointmentUpdate__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Getting recurrence rule when a recurring appointment is dragged or resized
@@ -87,9 +82,6 @@ It is a known issue that occurs in cases when a recurring Appointment is dragged
 	
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentUpdate(sender As Object, e As AppointmentUpdateEventArgs)
@@ -110,8 +102,6 @@ It is a known issue that occurs in cases when a recurring Appointment is dragged
 	
 	
 ````
-
-
 >end
 
 # See Also

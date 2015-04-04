@@ -106,9 +106,6 @@ In a new AJAX Enabled Web Application:
 	        connection.Close();
 	    } 			
 ````
-
-
-
 ````VB
 	
 	    ' Returns a connection to the Access Database
@@ -128,8 +125,6 @@ In a new AJAX Enabled Web Application:
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Create event handlers for the grid Update, Edit and Cancel events. Also handle the Page_Load event to initially populate the grid. Replace the event handler code with the example below:
@@ -171,9 +166,6 @@ In a new AJAX Enabled Web Application:
 	        ReadAllRecords();
 	    } 			
 ````
-
-
-
 ````VB
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -205,8 +197,6 @@ In a new AJAX Enabled Web Application:
 	        ReadAllRecords()
 	    End Sub
 ````
-
-
 >end
 
 # See Also

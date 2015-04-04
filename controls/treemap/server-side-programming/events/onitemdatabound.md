@@ -39,9 +39,6 @@ Example 1: Demonstrates how to set a red color, if the currently evaluated item 
 	    }
 	
 ````
-
-
-
 ````VB
 	
 	    Protected Sub TreeMap1_ItemDataBound(sender As Object, e As TreeMapItemDataBoundEventArguments)
@@ -51,6 +48,4 @@ Example 1: Demonstrates how to set a red color, if the currently evaluated item 
 	    End Sub
 	
 ````
-
-
 >end

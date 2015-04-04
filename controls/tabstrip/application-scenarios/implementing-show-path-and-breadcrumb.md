@@ -88,9 +88,6 @@ __A:__ Just like with the RadMenu, using the RadTabStrip one easily can implemen
 	
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -121,6 +118,4 @@ __A:__ Just like with the RadMenu, using the RadTabStrip one easily can implemen
 		End Sub
 				
 ````
-
-
 >end

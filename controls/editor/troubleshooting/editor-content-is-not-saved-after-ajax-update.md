@@ -46,25 +46,17 @@ __Example 1__: An ImageButton updates a RadEditor within a RadAjaxPanel, which c
 				<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
 			</telerik:RadAjaxPanel>
 ````
-
-
-
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			string content = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 __Example 2__: A Button updates a RadEditor within an asp:UpdatePanel, which causes the editor content to be lost.
@@ -79,25 +71,17 @@ __Example 2__: A Button updates a RadEditor within an asp:UpdatePanel, which cau
 				</ContentTemplate>
 			</asp:UpdatePanel>
 ````
-
-
-
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			string content = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 ## Resolutions
@@ -124,25 +108,17 @@ __Example 3__: A Button with the __UseSubmitBehavior__ property set to __false__
 				</ContentTemplate>
 			</asp:UpdatePanel>
 ````
-
-
-
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			string content = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 ### asp:Button initiates the request
@@ -159,25 +135,17 @@ __Example 4__: Editor content is properly saved after partial update with RadAja
 				<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
 			</telerik:RadAjaxPanel>
 ````
-
-
-
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			string content = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 ### asp:ImageButton initiates the request
@@ -194,25 +162,17 @@ __Example 5__: Triggering partial page update by calling the __doPostBack method
 				<telerik:RadEditor ID="RadEditor1" runat="server"></telerik:RadEditor>
 			</telerik:RadAjaxPanel>
 ````
-
-
-
 ````C#
 		protected void btnSave_Click(object sender, EventArgs e)
 		{
 			string content = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnSave_Click(sender As Object, e As EventArgs)
 	        Dim content As String = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 When RadEditor and an ImageButton are used to update RadGrid fields, you can use the approach from __Example 5__. You should, however, properly reference the ImageButton from the code behind and handle its onclick event in order to call the __doPostBack() method (__Example 6__).
@@ -239,9 +199,6 @@ __Example 6__: Calling the__doPostBack() method when image update button in RadG
 				</ContentTemplate>
 			</asp:UpdatePanel>
 ````
-
-
-
 ````C#
 		protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 		{
@@ -285,9 +242,6 @@ __Example 6__: Calling the__doPostBack() method when image update button in RadG
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(sender As Object, e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
@@ -324,8 +278,6 @@ __Example 6__: Calling the__doPostBack() method when image update button in RadG
 	        Return dt
 	    End Function
 ````
-
-
 >end
 
 # See Also

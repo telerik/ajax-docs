@@ -118,17 +118,12 @@ In case you need to set the paging settings programmatically, you have to do it 
 	        RadDataPager1.AllowSEOPaging = true;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDataPager1_Init(sender As Object, e As EventArgs) Handles RadDataPager1.Init
 	        RadDataPager1.PageSize = 3
 	        RadDataPager1.AllowSEOPaging = True
 	    End Sub
 ````
-
-
 >end
 
 ## Page Size Support

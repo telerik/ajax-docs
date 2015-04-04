@@ -49,9 +49,6 @@ The example below shows how to dynamically create ContextMenu and apply it to a 
 	        form1.Controls.Add(rcm);
 	        form1.Controls.Add(RadTextBox1);
 ````
-
-
-
 ````VB.NET
 	        Dim rcm As New RadContextMenu()
 	        rcm.ID = "contextMenu1"
@@ -72,6 +69,4 @@ The example below shows how to dynamically create ContextMenu and apply it to a 
 	        form1.Controls.Add(rcm)
 	        form1.Controls.Add(RadTextBox1)
 ````
-
-
 >end

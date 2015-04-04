@@ -65,9 +65,6 @@ To specify what values will be displayed in the ListBox control you need to defi
 	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_FilterCheckListItemsRequested(object sender, GridFilterCheckListItemsRequestedEventArgs e)
 	    {
@@ -103,9 +100,6 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        return myDataTable;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_FilterCheckListItemsRequested(sender As Object, e As GridFilterCheckListItemsRequestedEventArgs)
 	        Dim DataField As String = TryCast(e.Column, IGridDataColumn).GetActiveDataField()
@@ -136,8 +130,6 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 1. By providing a path to a __web service__ which will provide the data.You specify the path using the __CheckListWebServicePath__ property of RadGrid.	Beside that you may need to set the name of the method that will provide the actual data	to the ListBox control using the __FilterCheckListWebServiceMethod__ property if	you have more than one method defined in your web service.(See Ex.2)__Ex.2__
@@ -183,9 +175,6 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 	    </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    [ServiceKnownType(typeof(Customer))]
 	    [ServiceContract(Namespace = "")]
@@ -318,9 +307,6 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <ServiceKnownType(GetType(Customer))> _
 	    <ServiceContract([Namespace]:="")> _
@@ -496,6 +482,4 @@ To specify what values will be displayed in the ListBox control you need to defi
 	        End Class
 	    End Class
 ````
-
-
 >end

@@ -34,9 +34,6 @@ __RadNotification__ offers a built-in support for gathering data from a WebServi
 			}
 	    }
 ````
-
-
-
 ````VB.NET
 	    <ScriptService()> _
 	    Public Class WebServiceName
@@ -164,9 +161,6 @@ An example method in the WebService:
 	        return sw.ToString();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Function GetWeatherForcast(context As Object) As String
 		Dim contextDictionary As IDictionary(Of String, Object) = DirectCast(context, IDictionary(Of String, Object))

@@ -62,9 +62,6 @@ You can define the ItemTemplate programmatically by assigning a new __ITemplate_
 	
 	   
 ````
-
-
-
 ````VB.NET
 	
 	    Partial Public Class Templates
@@ -102,6 +99,4 @@ You can define the ItemTemplate programmatically by assigning a new __ITemplate_
 	        End Class
 	    End Class
 ````
-
-
 >end

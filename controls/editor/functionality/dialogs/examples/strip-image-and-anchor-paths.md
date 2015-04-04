@@ -31,9 +31,6 @@ RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			If Not IsPostBack Then
@@ -41,8 +38,6 @@ RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs
 			End If
 		End Sub
 ````
-
-
 >end
 
 >note  __StripAbsoluteAnchorPaths__ and __StripAbsoluteImagesPaths__ properties are no longer available in favor of the new __MakeUrlsAbsolute__ filter.

@@ -61,9 +61,6 @@ The example below demonstrates a basic user role scenario for setting the Image 
 			}
 		} 
 ````
-
-
-
 ````VB.NET
 		Private userRole As String = "Mike"
 		'Administrator
@@ -92,8 +89,6 @@ The example below demonstrates a basic user role scenario for setting the Image 
 			End If
 		End Sub
 ````
-
-
 >end
 
 

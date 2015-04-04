@@ -59,9 +59,6 @@ This tutorial will show you how to:
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -70,8 +67,6 @@ This tutorial will show you how to:
 	
 				
 ````
-
-
 >end
 
 # See Also

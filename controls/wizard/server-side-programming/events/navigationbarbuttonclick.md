@@ -42,9 +42,6 @@ Use the __NavigationBarButton__ event handler to respond when a button within th
 	        Label1.Text = "You clicked on NavigationBarButton button";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_NavigationBarButtonClick(sender As Object, e As WizardEventArgs) Handles RadWizard1.NavigationBarButtonClick
 	        Label1.Text = "You clicked on NavigationBarButton button"

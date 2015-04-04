@@ -75,15 +75,10 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 	  RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
 	  RadGrid1.MasterTableView.Items[1].Visible = false; //when IgnorePaging is false
 ````
-
-
-
 ````VB.NET
 	  RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 	  RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
-
-
 >end
 
 Additionally you could use the __Exportable__ property that allows you to choose whether a certain column should be included inthe exported file or not. By setting this property to __false__ the related column will be excluded from the exported file.Its default value is __true__.
@@ -109,16 +104,11 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        col.Style.BackColor = Color.Gray;
 	        col.Style.ForeColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	        Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
 	        col.Style.BackColor = Color.Gray
 	        col.Style.ForeColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -127,15 +117,10 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        xls.Row row = e.ExportStructure.Tables[0].Rows[2];
 	        row.Style.BackColor = Color.Blue;
 ````
-
-
-
 ````VB.NET
 	        Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 	        row.Style.BackColor = Color.Blue
 ````
-
-
 >end
 
 >tabbedCode
@@ -144,15 +129,10 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
 	        cell1.Style.BackColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	        Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 	        cell1.Style.BackColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -161,15 +141,10 @@ Another approach is to hook __OnInfrastructureExporting__ event handler and appl
 	        xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
 	        cell2.Style.ForeColor = Color.Tomato;
 ````
-
-
-
 ````VB.NET
 	        Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 	        cell2.Style.ForeColor = Color.Tomato
 ````
-
-
 >end
 
 ## Image Support

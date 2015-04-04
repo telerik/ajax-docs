@@ -42,17 +42,12 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 	       data.EndOfItems = true;
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Dim data As New SearchBoxData()
 	    data.EndOfItems = True
 	
 ````
-
-
 >end
 
 >note In cases when __MaxResultCount__ property is used in RadSearchBox and the __DataSourceSelect__ event is handled manually in order for __Show All Results__ button to appear correctly, we recommend that the amount of items that will be selected should be at least with one item greater than __MaxResultCount__ .

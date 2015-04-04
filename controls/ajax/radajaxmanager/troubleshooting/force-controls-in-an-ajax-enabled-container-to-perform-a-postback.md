@@ -113,9 +113,6 @@ For that purpose you need to handle the __OnAjaxSettingCreated__ server-side eve
 	        <asp:Button ID="Button2" runat="server" Text="Button" />
 	    </asp:Panel>
 ````
-
-
-
 ````C#
 	     
 		protected void RadAjaxManager1_AjaxSettingCreated(object sender, AjaxSettingCreatedEventArgs e)
@@ -127,9 +124,6 @@ For that purpose you need to handle the __OnAjaxSettingCreated__ server-side eve
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)
 	        If e.Updated.ClientID = Panel1.ClientID Then
@@ -139,8 +133,6 @@ For that purpose you need to handle the __OnAjaxSettingCreated__ server-side eve
 	
 	
 ````
-
-
 >end
 
 # See Also

@@ -60,25 +60,17 @@ __Example 1:__ Storing __RadEditor__'s content in a div in __OnClientInlineEditC
 		</telerik:RadEditor>
 		<div id="ContentDiv" runat="server"></div>
 ````
-
-
-
 ````C#
 		protected void RadAjaxManager1_AjaxRequest(object sender, Telerik.Web.UI.AjaxRequestEventArgs e)
 		{
 			ContentDiv.InnerHtml = RadEditor1.Content;
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub RadAjaxManager1_AjaxRequest(sender As Object, e As Telerik.Web.UI.AjaxRequestEventArgs)
 	        ContentDiv.InnerHtml = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 # See Also

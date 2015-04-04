@@ -80,9 +80,6 @@ In some scenarios it is needed to upload files in multiple accounts or container
 	    {
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="Handler" %>
 	
@@ -93,8 +90,6 @@ In some scenarios it is needed to upload files in multiple accounts or container
 	    Public Class Handler : Inherits CloudUploadHandler
 	    End Class
 ````
-
-
 >end
 
 1. Add __RadCloudUpload__ control to the form and configure it to use the added custom handler:

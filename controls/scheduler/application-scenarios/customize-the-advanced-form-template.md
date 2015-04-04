@@ -102,9 +102,6 @@ In code behind of __AdvancedForm__.ascx____ add the following code in the "Attri
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    ' Attributes and resources
@@ -122,8 +119,6 @@ In code behind of __AdvancedForm__.ascx____ add the following code in the "Attri
 	    End Property
 	
 ````
-
-
 >end
 
 4. In __DefaultCS__.aspx or __DefaultVB__.aspx
@@ -223,9 +218,6 @@ optionally -
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
@@ -240,8 +232,6 @@ optionally -
 	    End Sub
 	
 ````
-
-
 >end
 
 6. Register __AdvancedForm__.__js__with the script manager for the page and handle RadScheduler's __OnClientFormCreated__event.
@@ -372,9 +362,6 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    ' Attributes and resources
@@ -392,8 +379,6 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 	    End Property
 	
 ````
-
-
 >end
 
 5. In __AdvancedForm.js__add a method to get the client object of RadColorPicker:

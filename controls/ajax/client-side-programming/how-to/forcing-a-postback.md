@@ -27,16 +27,11 @@ In the code-behind:
 	        }
 	
 ````
-
-
-
 ````VB
 	        If Not RadAjaxManager1.EnableAJAX Then
 	            RadAjaxManager1.ClientEvents.OnRequestStart = "OnRequestStart"
 	        End If
 ````
-
-
 >end
 
 On the client:
@@ -58,14 +53,9 @@ This approach is useful only when you want to perform a single postback. If you 
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp;
 	
 ````
-
-
-
 ````VB
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 ````
-
-
 >end
 
 # See Also

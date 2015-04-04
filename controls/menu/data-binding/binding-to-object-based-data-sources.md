@@ -133,9 +133,6 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	    }
 	}		
 ````
-
-
-
 ````VB.NET
 	    Imports System.Collections.Generic
 	    Public Class SiteDataItem
@@ -196,8 +193,6 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 ## Binding to an object that implements IEnumerable
@@ -250,9 +245,6 @@ The following example shows a menu bound to an __ArrayList__. The list contains 
 	        }
 	    }	
 ````
-
-
-
 ````VB.NET
 	    Private Function GenerateSiteData() As ArrayList
 	        Dim siteData As New ArrayList()
@@ -279,8 +271,6 @@ The following example shows a menu bound to an __ArrayList__. The list contains 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

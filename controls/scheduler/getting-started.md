@@ -47,16 +47,11 @@ Firstly, you need to add an .xml file which will act as a repository for allappo
 	
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	        RadScheduler1.Provider = New XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), True)
 	    End Sub
 ````
-
-
 >endThis code creates and sets a new provider to RadScheduler. Please note that you'll need to replace "RadScheduler1" with the ID of your RadScheduler instance. Also replace the name of the .xml file with the name of your .xml file. The second parameter in the __XmlSchedulerProvider__ constructor is of type __boolean__ and is called __persistChanges__. Please set it to __"true"__ if you need any changes to be committed to the xml file.
 
 1. Now taht everything is set, press __Ctrl+F5__ to run tha application.

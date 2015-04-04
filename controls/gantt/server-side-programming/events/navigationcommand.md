@@ -39,9 +39,6 @@ __NavigationCommand__ event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_NavigationCommand(sender As Object, e As Gantt.NavigationCommandEventArgs)
 	        If e.Command = Gantt.GanttNavigationCommand.SwitchToMonthView Then
@@ -49,8 +46,6 @@ __NavigationCommand__ event handler receives two parameters:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -28,16 +28,10 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadWindow__ and 
 			<telerik:RadWindow EnableAriaSupport="true" runat="server" ID="RadWindow1"></telerik:RadWindow>
 			<telerik:RadWindowManager EnableAriaSupport="true" runat="server" ID="RadWindowManager1"></telerik:RadWindowManager>
 ````
-
-
-
 ````C#
 		RadWindow1.EnableAriaSupport = true;
 		RadWindowManager1.EnableAriaSupport = true;
 ````
-
-
-
 ````VB.NET
 		RadWindow1.EnableAriaSupport = true
 		RadWindowManager1.EnableAriaSupport = true

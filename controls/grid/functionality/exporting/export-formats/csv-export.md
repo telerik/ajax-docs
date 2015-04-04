@@ -116,9 +116,6 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 	        </ItemTemplate>
 	    </telerik:GridTemplateColumn>
 ````
-
-
-
 ````C#
 	
 	    protected void Button1_Click(object sender, EventArgs e)
@@ -132,9 +129,6 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        For Each item As GridDataItem In RadGrid1.MasterTableView.Items
@@ -144,8 +138,6 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
-
-
 >end
 
 This approach won't work if your __RadGrid__rebinds before export. In such cases (for instance, whenusing __IgnorePaging="true"__) the developer should put the code on__ItemCreated__/__ItemDataBound__:
@@ -172,9 +164,6 @@ This approach won't work if your __RadGrid__rebinds before export. In such cases
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private isExport As Boolean = FalseProtected
 	    Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
@@ -189,8 +178,6 @@ This approach won't work if your __RadGrid__rebinds before export. In such cases
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note Note that you don't need to set __isExport="false"__ explicitly because the changes we perform will affectonly the response streamed to the client. In other words, the user won't see any change to the actual page.
@@ -213,9 +200,6 @@ You can hide the unselected rows and export the rest in a manner similar to the 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        For Each item As GridDataItem In RadGrid1.MasterTableView.Items
@@ -223,8 +207,6 @@ You can hide the unselected rows and export the rest in a manner similar to the 
 	        Next RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
-
-
 >end
 
 ## Hiding columns
@@ -242,17 +224,12 @@ You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        RadGrid1.MasterTableView.GetColumn("C2").Visible = False
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
-
-
 >end
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
@@ -276,9 +253,6 @@ There are two common ways to hide an item.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.ExportToCsvCommandName Then
@@ -286,8 +260,6 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -301,17 +273,12 @@ There are two common ways to hide an item.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        RadGrid1.MasterTableView.Items(2).Visible = False
 	        RadGrid1.MasterTableView.ExportToCSV()
 	    End Sub
 ````
-
-
 >end
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when__IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
@@ -333,9 +300,6 @@ There are two common ways to hide an item.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private isCsvExport As Boolean = FalseProtected
 	    Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
@@ -350,8 +314,6 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## CSV Export Q & A

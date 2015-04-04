@@ -77,9 +77,6 @@ Here follows a code sample on using this event:
 	        <PasswordStrengthSettings ShowIndicator="true" OnClientPasswordStrengthCalculating="CalculatingStrength" />
 	    </telerik:RadTextBox>
 ````
-
-
-
 ````JavaScript
 	    <script type="text/javascript">
 	        function CalculatingStrength(sender, args) {
@@ -96,8 +93,6 @@ Here follows a code sample on using this event:
 	        }
 	    </script>
 ````
-
-
 >end
 
 # See Also

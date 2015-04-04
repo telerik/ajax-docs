@@ -63,9 +63,6 @@ __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 	                        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs</asp:LinkButton>
 	                </CommandItemTemplate>
 ````
-
-
-
 ````C#
 	
 	  protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
@@ -88,9 +85,6 @@ __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 	  }
 	          
 ````
-
-
-
 ````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = "DeleteSelected" Then
@@ -107,8 +101,6 @@ __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## How to Customize the Add New Record/Refresh Text in the CommandItem Area
@@ -185,9 +177,6 @@ __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplat
 	     SelectCommand="SELECT * FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
@@ -203,9 +192,6 @@ __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplat
 	}
 	          
 ````
-
-
-
 ````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	
@@ -219,8 +205,6 @@ __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplat
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Display Different Controls in a CommandItemTemplate with CommandItemDisplay = "TopAndBottom"
@@ -257,9 +241,6 @@ __Example 6__: Showing and hiding command controls dynamically.
 	            </ClientSettings>
 	        </telerik:RadGrid>
 ````
-
-
-
 ````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridCommandItem) Then
@@ -277,9 +258,6 @@ __Example 6__: Showing and hiding command controls dynamically.
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -303,8 +281,6 @@ __Example 6__: Showing and hiding command controls dynamically.
 	
 	          
 ````
-
-
 >end
 
 ## Define CommandItemTemplate Programmatically
@@ -370,9 +346,6 @@ __Example 7__: Programmatic creation of a custom class that defines the __Comman
 	    }
 	          
 ````
-
-
-
 ````VB
 	    Protected WithEvents RadGrid1 As RadGrid
 	
@@ -421,8 +394,6 @@ __Example 7__: Programmatic creation of a custom class that defines the __Comman
 	        'runtime column definitions
 	    End Sub
 ````
-
-
 >end
 
 You can find detailed information about how to create templates programmatically in	[this MSDN article](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).

@@ -40,9 +40,6 @@ The upcoming code sample represents how to alter the color for the __City__ colu
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
 	    {
@@ -105,9 +102,6 @@ The upcoming code sample represents how to alter the color for the __City__ colu
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As OleDbConnection = New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath
@@ -175,8 +169,6 @@ The upcoming code sample represents how to alter the color for the __City__ colu
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Live example is available [here](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/accessingcellsandrows/defaultcs.aspx).

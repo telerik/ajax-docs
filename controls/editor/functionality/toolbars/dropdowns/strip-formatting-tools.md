@@ -49,9 +49,6 @@ __Example 1__: Adding the PasteStrip dropdown to a tools collection.
 				</telerik:EditorToolGroup>
 			</telerik:RadEditor>
 ````
-
-
-
 ````XML
 			<root>
 			  <tools>
@@ -59,8 +56,6 @@ __Example 1__: Adding the PasteStrip dropdown to a tools collection.
 			  </tools>
 			</root>
 ````
-
-
 >end
 
 Optionally, you can further enable stand-alone __Strip Formatting__ tools in a toolbar or fine tune the collectioninside the __PasteStrip__ dropdown (__Example 2__).
@@ -90,9 +85,6 @@ __Example 2__: Defining stand-alone Strip Formatting tools in a toolbar and a cu
 			</telerik:RadEditor>
 	
 ````
-
-
-
 ````XML
 			<root>
 			  <tools>
@@ -110,8 +102,6 @@ __Example 2__: Defining stand-alone Strip Formatting tools in a toolbar and a cu
 	
 	
 ````
-
-
 >end
 
 # See Also

@@ -75,9 +75,6 @@ This appearence can ba achieved in the NodeDataBound event by association the in
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadOrgChart1_NodeDataBound(sender As Object, e As Telerik.Web.UI.OrgChartNodeDataBoundEventArguments)
 	        If e.Node.ID = "2" Then
@@ -108,8 +105,6 @@ This appearence can ba achieved in the NodeDataBound event by association the in
 	
 	    End Sub
 ````
-
-
 >end
 
 2: In Group-Enabled Binding:![radorgchart-node-size 2](images/radorgchart-node-size2.png)
@@ -181,9 +176,6 @@ This appearence can ba achieved in the NodeDataBound event by association the in
 	        RadOrgChart2.DataBind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadOrgChart2_NodeDataBound(sender As Object, e As Telerik.Web.UI.OrgChartNodeDataBoundEventArguments)
 	        If e.Node.ID = "2" Then
@@ -229,6 +221,4 @@ This appearence can ba achieved in the NodeDataBound event by association the in
 	        RadOrgChart2.DataBind()
 	    End Sub
 ````
-
-
 >end

@@ -105,9 +105,6 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub TimeZoneDropDown_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles TimeZoneDropDown.SelectedIndexChanged
@@ -115,8 +112,6 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    End Sub
 	
 ````
-
-
 >endThe drop-down list now allows the user to manually set the time zone of the scheduler.
 
 1. Drag a __RadAjaxManager__ from the toolbox onto your Web page. In the __RadAjaxManager__ Smart Tag, choose"__Configure Ajax Manager__". In the property builder that appears, indicate that both the scheduler and the time zone drop-down controls caninitiate requests and thatthe scheduler will be updated by requests. Assign the __RadAjaxLoadingPanel__ as the loading panel when the__RadScheduler gets__ updated.
@@ -137,9 +132,6 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -149,8 +141,6 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    End Sub
 	
 ````
-
-
 >end
 
 1. Drag a __RadCodeBlock__ component from the toolbox onto your Web page. Switch to the Source view, and add the following script to the code block:
@@ -218,9 +208,6 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -242,8 +229,6 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 	
 	
 ````
-
-
 >end
 
 # See Also

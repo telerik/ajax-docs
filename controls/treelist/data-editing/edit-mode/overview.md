@@ -59,9 +59,6 @@ When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can ac
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As TreeListItemCreatedEventArgs)
 	        If TypeOf e.Item Is TreeListDataItem Then
@@ -75,8 +72,6 @@ When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can ac
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## EditForms edit mode
@@ -112,9 +107,6 @@ When the RadTreeList edit mode is EditForms, you can access the edited item and 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList2_ItemCreated(ByVal sender As Object, ByVal e As TreeListItemCreatedEventArgs)
 	        If TypeOf e.Item Is TreeListDataItem Then
@@ -128,8 +120,6 @@ When the RadTreeList edit mode is EditForms, you can access the edited item and 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## PopUp edit mode
@@ -165,9 +155,6 @@ When the RadTreeList edit mode is PopUp, you can access the edited item and the 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList3_ItemCreated(ByVal sender As Object, ByVal e As TreeListItemCreatedEventArgs)
 	        If TypeOf e.Item Is TreeListDataItem Then
@@ -181,8 +168,6 @@ When the RadTreeList edit mode is PopUp, you can access the edited item and the 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the __EditFormSettings.PopUpSettings.ShowCaptionInEditForm__ property of the treelist control to __false__ .

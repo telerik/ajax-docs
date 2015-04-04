@@ -40,9 +40,6 @@ Use an __ItemDataBound__ event handler to initialize the properties of menu item
 	        e.Item.ToolTip = "Learn more about " + e.Item.Text; 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemDataBound
 	        Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
@@ -50,8 +47,6 @@ Use an __ItemDataBound__ event handler to initialize the properties of menu item
 	        e.Item.ToolTip = "Learn more about " + e.Item.Text
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -54,9 +54,6 @@ You can use this event to perform custom actions when a navigation action has be
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_NavigationComplete(ByVal sender As Object, _
@@ -66,8 +63,6 @@ You can use this event to perform custom actions when a navigation action has be
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

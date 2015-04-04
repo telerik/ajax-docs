@@ -39,9 +39,6 @@ __TaskInsert__ event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_TaskInsert(sender As Object, e As Telerik.Web.UI.Gantt.GanttEventArgs)
 	        For Each item As var In e.Tasks
@@ -49,8 +46,6 @@ __TaskInsert__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

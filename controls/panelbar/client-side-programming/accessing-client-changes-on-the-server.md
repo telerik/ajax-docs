@@ -58,9 +58,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	        }
 	
 ````
-
-
-
 ````VB
 	    For Each operation As ClientOperation(Of RadPanelItem) In RadPanelBar1.ClientChanges
 	    Dim item As RadPanelItem = operation.Item
@@ -78,8 +75,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	     End Select
 	    Next
 ````
-
-
 >end
 
 # See Also

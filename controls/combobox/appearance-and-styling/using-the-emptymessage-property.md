@@ -29,9 +29,6 @@ The __EmptyMessage__ property of the RadComboBox enables the ability to set any 
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -41,8 +38,6 @@ The __EmptyMessage__ property of the RadComboBox enables the ability to set any 
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Setting the EmptyMessage client-side

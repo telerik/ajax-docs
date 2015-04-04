@@ -89,9 +89,6 @@ or in the CodeBehind:
 	main.Tools.Add(cut); 
 				
 ````
-
-
-
 ````VB
 	
 	Imports Telerik.Web.UI
@@ -104,8 +101,6 @@ or in the CodeBehind:
 	main.Tools.Add(cut) 
 				
 ````
-
-
 >end
 
 or using the __ShortCut__ attribute of the __<tool>__ item in the ToolsFile.xml file:

@@ -61,9 +61,6 @@ Use the __ItemsRequested__ event handler to dynamically create the requested ite
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -76,8 +73,6 @@ Use the __ItemsRequested__ event handler to dynamically create the requested ite
 	    End Sub 'RadComboBox1_ItemsRequested
 	
 ````
-
-
 >end
 
 # See Also

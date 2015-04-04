@@ -51,9 +51,6 @@ The items in the SearchContext drop-down can be also loaded from Web Service by 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	  <OperationContract> _
@@ -72,8 +69,6 @@ The items in the SearchContext drop-down can be also loaded from Web Service by 
 	    End Function
 	
 ````
-
-
 >end
 
 ## OData binding

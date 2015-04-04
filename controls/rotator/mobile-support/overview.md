@@ -46,9 +46,6 @@ Example 1: __RadRotator__ with 100% width.
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        If Not IsPostBack Then

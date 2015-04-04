@@ -65,9 +65,6 @@ You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTe
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
 	        RadDropDownList1.ItemTemplate = New TextBoxTemplate()
@@ -107,8 +104,6 @@ You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTe
 	
 	
 ````
-
-
 >end
 
 If you want to add different templates to specific items, based on some property or value for instance, the best way is to use the __TemplateNeeded__ event.
@@ -122,9 +117,6 @@ If you want to add different templates to specific items, based on some property
 	        RadDropDownList1.ItemTemplate = textBoxTemplate;
 	    }
 ````
-
-
-
 ````VB.NET
 	    End Class
 	
@@ -133,8 +125,6 @@ If you want to add different templates to specific items, based on some property
 	        RadDropDownList1.ItemTemplate = textBoxTemplate
 	    End Sub
 ````
-
-
 >end
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
@@ -161,9 +151,6 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 	        RadDropDownList1.DataBind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -178,6 +165,4 @@ If for some reason you cannot define the Template in the OnInit event of the pag
 	        RadDropDownList1.DataBind()
 	    End Sub
 ````
-
-
 >end

@@ -53,9 +53,6 @@ Common scenario is the need to upload files depending on the user's Geo location
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -84,8 +81,6 @@ Common scenario is the need to upload files depending on the user's Geo location
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
@@ -150,9 +145,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -174,8 +166,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 >tabbedCode
@@ -201,9 +191,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -226,8 +213,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 1. Register the newly created Custom Providers in the configuration file:
@@ -291,9 +276,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="CloudUploadHandler" %>
 	    Imports System
@@ -313,8 +295,6 @@ Amazon providers. For example files uploading in different Geo Locations.
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

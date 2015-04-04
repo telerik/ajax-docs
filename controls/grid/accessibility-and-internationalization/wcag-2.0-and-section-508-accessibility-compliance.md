@@ -98,16 +98,11 @@ Here are the code snippets from the aforementioned sample:
 	        e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
 	    }			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
 	        e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -134,9 +129,6 @@ Here are the code snippets from the aforementioned sample:
 	    }
 	}			
 ````
-
-
-
 ````VB.NET
 	Imports Telerik.Web.UI
 	Namespace Telerik.Web.UI
@@ -152,6 +144,4 @@ Here are the code snippets from the aforementioned sample:
 	        End Class
 	    End Namespace
 ````
-
-
 >end

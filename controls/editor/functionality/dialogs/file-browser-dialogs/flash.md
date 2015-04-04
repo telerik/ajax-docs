@@ -73,9 +73,6 @@ __Setting Image manager properties in CodeBehind:__
 	        } 
 	
 ````
-
-
-
 ````VB
 	        Dim viewFlash As String() = New String() {"~/Flash"}
 	        Dim uploadFlash As String() = New String() {"~/Flash/New"}
@@ -86,8 +83,6 @@ __Setting Image manager properties in CodeBehind:__
 	            RadEditor1.FlashManager.DeletePaths = deleteFlash
 	        End If
 ````
-
-
 >end
 
 Note that the viewFlash, uploadFlash and deleteFlash variables are string arrays and that the Flash folders must be:

@@ -39,9 +39,6 @@ __TaskDelete__ event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_TaskDelete(sender As Object, e As Gantt.GanttEventArgs)
 	        For Each item As var In e.Tasks
@@ -49,8 +46,6 @@ __TaskDelete__ event handler receives two parameters:
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

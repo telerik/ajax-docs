@@ -55,9 +55,6 @@ A common request is to use letters instead of numbers in the grid pager and filt
 	      </SelectParameters>
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    public void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -112,9 +109,6 @@ A common request is to use letters instead of numbers in the grid pager and filt
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
@@ -160,6 +154,4 @@ A common request is to use letters instead of numbers in the grid pager and filt
 	        RadGrid1.Rebind()
 	    End Sub
 ````
-
-
 >end

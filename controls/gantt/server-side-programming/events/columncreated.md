@@ -36,16 +36,11 @@ __ColumnCreated__ event handler receives two parameters:
 	        //...
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGantt1_ColumnCreated(sender As Object, e As Gantt.ColumnCreatedEventArgs)
 	        '...
 	    End Sub
 ````
-
-
 >end
 
 # See Also

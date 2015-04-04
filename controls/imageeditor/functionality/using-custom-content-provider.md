@@ -34,9 +34,6 @@ To configure RadImageEditor to use custom content provider you need to configure
 	        RadImageEditor1.ImageManager.SearchPatterns = new string[] { "*.jpg", "*.jpeg", "*.gif", "*.png", "*.bmp" };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim paths As String() = New String() {"~/Images"}
@@ -48,8 +45,6 @@ To configure RadImageEditor to use custom content provider you need to configure
 	        RadImageEditor1.ImageManager.SearchPatterns = New String() {"*.jpg", "*.jpeg", "*.gif", "*.png", "*.bmp"}
 	    End Sub
 ````
-
-
 >end
 
 >note  __ViewPaths__ , __UploadPaths__ and __DeletePaths__ for RadImageEditor's ImageManager should be set to the same path.
@@ -147,9 +142,6 @@ To configure RadImageEditor to use custom content provider you need to configure
 			// ##############################################################################
 		}
 ````
-
-
-
 ````VB
 	    Public Class myNewProvider
 	        Inherits Telerik.Web.UI.Widgets.FileBrowserContentProvider
@@ -225,6 +217,4 @@ To configure RadImageEditor to use custom content provider you need to configure
 	    End Class
 	
 ````
-
-
 >end

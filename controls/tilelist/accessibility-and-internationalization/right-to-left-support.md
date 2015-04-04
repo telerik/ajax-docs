@@ -92,9 +92,6 @@ __Example 1: RadTileList in RTL mode.__
 			return rnd.Next();
 		}
 ````
-
-
-
 ````VB.NET
 		<WebMethod()> _
 		Public Shared Function GetRandomData() As Integer

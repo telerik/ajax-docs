@@ -59,9 +59,6 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridHeaderItem Then
@@ -72,8 +69,6 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you are using resource files, you can use explicit localization to set the text for the Edit button text, as well as the text for the Cancel, Insert and Update buttons. The code below demonstrates one such approach:

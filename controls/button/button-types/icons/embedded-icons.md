@@ -154,9 +154,6 @@ __Example 1__: Embedded icons in __RadButton__ can be configured through the __P
 				</tr>
 			</table>
 ````
-
-
-
 ````C#
 		protected void Page_Init(object sender, EventArgs e)
 		{
@@ -234,9 +231,6 @@ __Example 1__: Embedded icons in __RadButton__ can be configured through the __P
 			table.Rows.Add(row);
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        Dim embeddedIcons As String() = New String() {"rbAdd", "rbRemove", "rbOk", "rbCancel", "rbUpload", "rbDownload", _
@@ -318,8 +312,6 @@ __Example 1__: Embedded icons in __RadButton__ can be configured through the __P
 	        table.Rows.Add(row)
 	    End Sub
 ````
-
-
 >end
 
 ### Configure RadButton's Embedded Icons in Lightweight Render Mode

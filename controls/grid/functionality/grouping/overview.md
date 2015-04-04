@@ -53,15 +53,10 @@ Alternatively, you can set the __AllowDragToGroup__ property at runtime in the c
 	        RadGrid RadGrid1 = new RadGrid();
 	        RadGrid1.ClientSettings.AllowDragToGroup = true;
 ````
-
-
-
 ````VB.NET
 	    Dim RadGrid1 As RadGrid = New RadGrid
 	    RadGrid1.ClientSettings.AllowDragToGroup = true			
 ````
-
-
 >end
 
 ## GridGroupSplitterColumn

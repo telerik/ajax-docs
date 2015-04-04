@@ -51,9 +51,6 @@ The examples below takes an array of strings as a data source.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -63,8 +60,6 @@ The examples below takes an array of strings as a data source.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Binding to an ArrayList
@@ -158,9 +153,6 @@ Below you can find an example of a hierarchical data binding:
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	
@@ -228,8 +220,6 @@ Below you can find an example of a hierarchical data binding:
 	        End Property
 	    End Class
 ````
-
-
 >end
 
 ## Binding to a Generic List
@@ -309,9 +299,6 @@ Below you can find an example of a hierarchical data binding:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	
@@ -382,6 +369,4 @@ Below you can find an example of a hierarchical data binding:
 	        End Sub
 	    End Class
 ````
-
-
 >end

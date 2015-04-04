@@ -52,9 +52,6 @@ In this case you need to implement a different approach (without setting the __C
 	  </MasterTableView>
 	</telerik:RadGrid></pre>
 ````
-
-
-
 ````C#
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -69,9 +66,6 @@ In this case you need to implement a different approach (without setting the __C
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If TypeOf e.Item Is GridDataItem Then
@@ -84,8 +78,6 @@ In this case you need to implement a different approach (without setting the __C
 	        End If
 	    End Sub 'RadGrid1_ItemDataBound
 ````
-
-
 >end
 
 ## Confirmation from control inside a template

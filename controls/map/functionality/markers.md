@@ -54,9 +54,6 @@ __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 			<telerik:RadMap runat="server" ID="RadMap1">
 			</telerik:RadMap>
 ````
-
-
-
 ````C#
 			MapMarker myMarker = new MapMarker();
 			myMarker.Shape = Telerik.Web.UI.Map.MarkerShape.Pin;
@@ -66,9 +63,6 @@ __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 	
 			RadMap1.MarkersCollection.Add(myMarker);
 ````
-
-
-
 ````VB
 			Dim myMarker As MapMarker = New MapMarker
 			myMarker.Shape = Telerik.Web.UI.Map.MarkerShape.Pin
@@ -78,8 +72,6 @@ __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 	
 			RadMap1.MarkersCollection.Add(myMarker)
 ````
-
-
 >end
 
 ## Marker Shapes

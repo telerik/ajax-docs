@@ -47,9 +47,6 @@ Use the __NodeDataBound__ event handler to make changes to items as they are bou
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadNavigation1_NodeDataBound(sender As Object, e As NavigationNodeEventArguments)
 	        If e.Node.Text = "Home" Then
@@ -57,8 +54,6 @@ Use the __NodeDataBound__ event handler to make changes to items as they are bou
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

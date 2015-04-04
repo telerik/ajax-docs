@@ -23,16 +23,11 @@ Access attributes through the RadTreeNode __Attributes__ collection by specifyin
 		node.Attributes["MyCustomAttributeKey"] = "Some value";
 				
 ````
-
-
-
 ````VB.NET
 	     
 		node.Attributes("MyCustomAttributeKey") = "Some value"
 				
 ````
-
-
 >end
 
 The example below iterates the __Attributes__ collection of a selected node and displays the key names and values in a RadTextBox.
@@ -71,9 +66,6 @@ The example below iterates the __Attributes__ collection of a selected node and 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEventArgs)
@@ -83,6 +75,4 @@ The example below iterates the __Attributes__ collection of a selected node and 
 	    End Sub
 	
 ````
-
-
 >end

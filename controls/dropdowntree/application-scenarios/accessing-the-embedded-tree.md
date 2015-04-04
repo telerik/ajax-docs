@@ -36,9 +36,6 @@ In order to access the tree in the dropdown on the server side you will need to 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -49,8 +46,6 @@ In order to access the tree in the dropdown on the server side you will need to 
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Client side

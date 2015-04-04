@@ -45,9 +45,6 @@ The following example illustrates this technique to change the width of the text
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridFilteringItem Then
@@ -58,8 +55,6 @@ The following example illustrates this technique to change the width of the text
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you want to show a tooltip for the filter control, you can use the __FilterControlTooltip__ property. Note that it is applicable for columns inheriting from GridBoundColumn.

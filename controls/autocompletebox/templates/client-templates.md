@@ -85,9 +85,6 @@ On the server, the template will be represented as a string property of the cont
 	        return data;
 	    }
 ````
-
-
-
 ````VB.NET
 	    <WebMethod()>
 	    Public Shared Function GetChildren(context As Object) As AutoCompleteBoxData
@@ -124,8 +121,6 @@ On the server, the template will be represented as a string property of the cont
 	        Return data
 	    End Function
 ````
-
-
 >end
 
 

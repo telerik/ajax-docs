@@ -42,9 +42,6 @@ After simply adding a __RadPanelBar__ control to your Web page, use the followin
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -66,8 +63,6 @@ After simply adding a __RadPanelBar__ control to your Web page, use the followin
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Adding items dynamically
@@ -107,9 +102,6 @@ A root item will be added upon a button click (__Add Root Item__ button)A child 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -122,8 +114,6 @@ A root item will be added upon a button click (__Add Root Item__ button)A child 
 	    End Sub
 	
 ````
-
-
 >end
 
 Clicking on both the buttons will result in the following:
@@ -164,9 +154,6 @@ Consider the following panel bar:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -175,8 +162,6 @@ Consider the following panel bar:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

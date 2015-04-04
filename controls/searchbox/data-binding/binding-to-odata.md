@@ -40,6 +40,4 @@ RadSearchBox can be bound to an OData service through the RadODataDataSource con
 	            <DropDownSettings Height="400" Width="300" />
 	        </telerik:RadSearchBox>
 ````
-
-
 >end

@@ -77,9 +77,6 @@ The following application scenario shows an example of RadAutoCompleteBox bound 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

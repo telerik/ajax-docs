@@ -42,9 +42,6 @@ Different approaches for setting styles in the code-behind could be used dependi
 	            e.Item.Style["background-color"] = "#888888";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private isExport As Boolean = False
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -58,8 +55,6 @@ Different approaches for setting styles in the code-behind could be used dependi
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 When *Rebind* will be invoked, you can apply the styles directly:
@@ -74,9 +69,6 @@ When *Rebind* will be invoked, you can apply the styles directly:
 	        RadTreeList1.ExportToPdf();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        For Each item As TreeListDataItem In RadTreeList1.Items
@@ -85,8 +77,6 @@ When *Rebind* will be invoked, you can apply the styles directly:
 	        RadTreeList1.ExportToPdf()
 	    End Sub
 ````
-
-
 >end
 
 ## Setting styles in the Pdf category

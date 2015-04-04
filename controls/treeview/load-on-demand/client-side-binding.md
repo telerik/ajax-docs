@@ -49,9 +49,6 @@ Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug
 	} 
 		
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports Telerik.Web.UI
@@ -73,8 +70,6 @@ Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug
 	
 	
 ````
-
-
 >end
 
 To load an arbitrary number of levels on-demand client-side, the general steps are:
@@ -171,9 +166,6 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	
 	
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Data
@@ -225,6 +217,4 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	
 	
 ````
-
-
 >end

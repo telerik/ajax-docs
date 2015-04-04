@@ -71,9 +71,6 @@ __Setting Silverlight manager properties in CodeBehind:__
 	   RadEditor1.SilverlightManager.DeletePaths = deleteFiles;
 	} 
 ````
-
-
-
 ````VB.NET
 		Dim viewFiles As String() = New String() {"~/Files"}
 		Dim uploadFiles As String() = New String() {"~/Files/New"}
@@ -84,8 +81,6 @@ __Setting Silverlight manager properties in CodeBehind:__
 		 RadEditor1.SilverlightManager.DeletePaths = deleteFiles
 		End If 
 ````
-
-
 >end
 
 Note that the viewFiles, uploadFiles and deleteFiles variables are string arrays and that the Files folders must be:

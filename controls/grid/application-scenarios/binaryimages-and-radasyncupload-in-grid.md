@@ -55,9 +55,6 @@ You can also perform validation over the file input as shown in the demo code:
 	    </script>
 	  </telerik:RadCodeBlock>
 ````
-
-
-
 ````ASPNET
 	  <telerik:RadGrid runat="server" ID="RadGrid1" Skin="Office2007" AllowPaging="True"
 	    AllowSorting="True" AutoGenerateColumns="False" Width="97%" ShowStatusBar="True"
@@ -115,9 +112,6 @@ You can also perform validation over the file input as shown in the demo code:
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    const int MaxTotalBytes = 1048576; // 1 MBint totalBytes;
 	    public bool? IsRadAsyncValid
@@ -290,9 +284,6 @@ You can also perform validation over the file input as shown in the demo code:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Const MaxTotalBytes As Integer = 1048576 ' 1 MB
 	    Dim totalBytes As Integer
@@ -433,8 +424,6 @@ You can also perform validation over the file input as shown in the demo code:
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 More information about the RadAsyncUpload you can find in the links below:

@@ -41,9 +41,6 @@ To assign chart types to a series at run-time programmatically you can pass the 
 	 new ChartSeries("Minimum Temperatures", ChartSeriesType.Bubble);
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim chartSeries As New ChartSeries("Average Temperatures", ChartSeriesType.Bar)
@@ -51,8 +48,6 @@ To assign chart types to a series at run-time programmatically you can pass the 
 	    Dim chartSeries3 As New ChartSeries("Minimum Temperatures", ChartSeriesType.Bubble)
 	
 ````
-
-
 >end
 
 Use the Axis.Range property to set minimum values, maximum values and step amount for each axis.  The screen shot below shows three chart series types in the same chart. See below for the full source.
@@ -154,9 +149,6 @@ Use the Axis.Range property to set minimum values, maximum values and step amoun
 	this.Page.Controls.Add(radChart);
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Dim radChart As New RadChart()
@@ -235,6 +227,4 @@ Use the Axis.Range property to set minimum values, maximum values and step amoun
 	    Me.Page.Controls.Add(radChart) 
 				
 ````
-
-
 >end

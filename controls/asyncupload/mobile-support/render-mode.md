@@ -46,9 +46,6 @@ There are two ways to configure the rendering mode of the controls:
 ````C#
 	        RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-
-
-
 ````VB.NET
 			RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 	#End Region

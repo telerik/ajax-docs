@@ -42,9 +42,6 @@ Use the __CancelButtonClick__ event handler to respond when the user clicks on t
 	        Label1.Text = "You clicked on Cancel button";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_CancelButtonClick(sender As Object, e As WizardEventArgs) Handles RadWizard1.CancelButtonClick
 	        Label1.Text = "You clicked on Cancel button"

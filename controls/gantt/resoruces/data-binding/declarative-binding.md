@@ -84,8 +84,6 @@ After performing the above steps you should get a configuration similar to the d
 	            ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
 	            SelectCommand="SELECT * FROM [GanttResourceAssignments]"></asp:SqlDataSource>
 ````
-
-
 >end
 
 # See Also

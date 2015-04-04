@@ -28,9 +28,6 @@ __RadCalendar__ does not apply week numbers according to the ISO standard by def
 	    </div>
 	</form>
 ````
-
-
-
 ````C#
 	
 	    protected void Page_Load(object sender, EventArgs e)
@@ -40,9 +37,6 @@ __RadCalendar__ does not apply week numbers according to the ISO standard by def
 	        RadCalendar1.CultureInfo = c;
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -51,6 +45,4 @@ __RadCalendar__ does not apply week numbers according to the ISO standard by def
 	        RadCalendar1.CultureInfo = c
 	    End Sub
 ````
-
-
 >end

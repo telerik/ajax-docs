@@ -169,9 +169,6 @@ The sample code below illustrates a possible approach to creating and defining t
 		}
 	
 ````
-
-
-
 ````VB
 	
 		'Arrays storing the Tiles' properties
@@ -303,8 +300,6 @@ The sample code below illustrates a possible approach to creating and defining t
 		End Sub
 	
 ````
-
-
 >end
 
 # See Also

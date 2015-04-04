@@ -41,9 +41,6 @@ The general logic is to use the ItemCommand event handler to trap the respective
 	    }        
 	}			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCommand(ByVal sender As Object, ByVal e As RadListViewCommandEventArgs)
 	        If e.CommandName = RadListView.CancelCommandName Then
@@ -57,8 +54,6 @@ The general logic is to use the ItemCommand event handler to trap the respective
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 The *__e.ListViewItem__* is an object of type *__RadListViewEditableItem__*, and gives us access to the item, which raised the command. This, in turn, allows us to extract the newly entered data, or get the id of the record which needs to be deleted. Let us look into the possible operations which can be performed in the ItemCommand event handler.
@@ -107,9 +102,6 @@ The code would look like this:
 	        }
 	    }			
 ````
-
-
-
 ````VB.NET
 	ElseIf e.CommandName = RadListView.UpdateCommandName Then
 	    Dim editedItem As RadListViewEditableItem = DirectCast(e.ListViewItem, RadListViewEditableItem)
@@ -137,8 +129,6 @@ The code would look like this:
 	        End Try
 	
 ````
-
-
 >end
 
 When inserting new records into the underlying datasource, the logic is very similar:
@@ -181,9 +171,6 @@ The code for performing these actions would look like this:
 	        }
 	    }		
 ````
-
-
-
 ````VB.NET
 	ElseIf e.CommandName = RadListView.PerformInsertCommandName Then
 	        RadListView1.FindControl("Button1").Visible = True
@@ -207,8 +194,6 @@ The code for performing these actions would look like this:
 	        End Try
 	
 ````
-
-
 >end
 
 Finally, when deleting a record, the logic which we follow is described in the following steps:
@@ -246,9 +231,6 @@ The code for this operation would look like this:
 	        }
 	    }	
 ````
-
-
-
 ````VB.NET
 	ElseIf e.CommandName = RadListView.DeleteCommandName Then
 	Try
@@ -267,6 +249,4 @@ The code for this operation would look like this:
 	e.Canceled = True
 	End Try
 ````
-
-
 >end

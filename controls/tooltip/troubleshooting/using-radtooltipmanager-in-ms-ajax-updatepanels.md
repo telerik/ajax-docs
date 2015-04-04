@@ -123,9 +123,6 @@ One common scenario is to place a RadGrid and a RadToolTipManager together in an
 	}
 	
 ````
-
-
-
 ````VB.NET
 	
 	Imports System
@@ -152,8 +149,6 @@ One common scenario is to place a RadGrid and a RadToolTipManager together in an
 	    End Sub
 	End Class
 ````
-
-
 >end
 
 # See Also

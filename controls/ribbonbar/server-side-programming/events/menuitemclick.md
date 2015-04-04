@@ -66,9 +66,6 @@ The event handler function receives two arguments:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadRibbonBar1_MenuItemClick(sender As Object, e As RibbonBarMenuItemClickEventArgs)
@@ -76,8 +73,6 @@ The event handler function receives two arguments:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

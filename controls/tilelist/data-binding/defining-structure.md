@@ -71,9 +71,6 @@ In the following example a simple DataTable is used for a dummy datasource just 
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			Dim group As New TileGroup()
@@ -283,9 +280,6 @@ Let's take the above code as base and add a few tiles. Toggling the AppendDataBo
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			Dim group As New TileGroup()

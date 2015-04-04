@@ -43,9 +43,6 @@ The following example shows how to setup the LiveTile in this scenario:
 	            </ClientTemplate>
 	        </telerik:RadLiveTile>
 ````
-
-
-
 ````C#
 	
 	    [WebMethod]
@@ -54,9 +51,6 @@ The following example shows how to setup the LiveTile in this scenario:
 	        return CustomObject.GetDataItems().First();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    <WebMethod()> _
@@ -124,9 +118,6 @@ Below is the definition of the class __CustomObject__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <DataContract> _
 	    Public Class CustomObject
@@ -223,9 +214,6 @@ The configuration of the LiveTile will be as follows:
 	            </ClientTemplate>
 	        </telerik:RadLiveTile>
 ````
-
-
-
 ````C#
 	
 	    [OperationContract]
@@ -236,9 +224,6 @@ The configuration of the LiveTile will be as follows:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    <OperationContract> _
@@ -297,9 +282,6 @@ Below is the definition of the class __CustomObject__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <DataContract> _
 	    Public Class CustomObject
@@ -444,9 +426,6 @@ The example below shows this setup:
 	            </ClientTemplate>
 	        </telerik:RadLiveTile>
 ````
-
-
-
 ````C#
 	
 	    [WebMethod]
@@ -457,9 +436,6 @@ The example below shows this setup:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    <WebMethod> _
@@ -508,9 +484,6 @@ Below is the definition of the class __CustomObject__
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    <DataContract> _
 	    Public Class CustomObject

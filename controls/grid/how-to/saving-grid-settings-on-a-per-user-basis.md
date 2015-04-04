@@ -555,9 +555,6 @@ Following is the definition of the __GridSettingsPersister__ class along with a 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    ''' <summary>
 	    ''' Imports and exports settings from a RadGrid instance.
@@ -965,8 +962,6 @@ Following is the definition of the __GridSettingsPersister__ class along with a 
 	        End Property
 	    End Class
 ````
-
-
 >end
 
 You can extend the logic and store the user preferences via __Profile__ object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](http://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).

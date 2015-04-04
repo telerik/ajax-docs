@@ -88,9 +88,6 @@ __Example 1__ shows the simple markup used to configure a__Numeric Series (Scatt
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -115,9 +112,6 @@ __Example 1__ shows the simple markup used to configure a__Numeric Series (Scatt
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			RadHtmlChart1.DataSource = GetData()
@@ -140,8 +134,6 @@ __Example 1__ shows the simple markup used to configure a__Numeric Series (Scatt
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

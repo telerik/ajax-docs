@@ -133,9 +133,6 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	    <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities"
 	        DefaultContainerName="NorthwindEntities" EntitySetName="Products" Where="it.ProductID > 0 AND it.ProductID < 7" />
 ````
-
-
-
 ````VB.NET
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
@@ -245,8 +242,6 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	    <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities"
 	        DefaultContainerName="NorthwindEntities" EntitySetName="Products" Where="it.ProductID > 0 AND it.ProductID < 7" />
 ````
-
-
 >end
 
 ## Additional resources

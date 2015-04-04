@@ -57,9 +57,6 @@ In these cases, a solution is to force secure links by setting the __BaseUrl__ p
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init

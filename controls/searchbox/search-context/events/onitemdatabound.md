@@ -39,9 +39,6 @@ __Example 1__: Demonstrates how to use the __ItemDataBound__ event handler, in o
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
@@ -54,6 +51,4 @@ __Example 1__: Demonstrates how to use the __ItemDataBound__ event handler, in o
 	    End Sub
 	
 ````
-
-
 >end

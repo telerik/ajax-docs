@@ -102,9 +102,6 @@ Bind Node's Collapsed property in simple binding scenario:
 	        RadOrgChart2.DataBind();
 	
 ````
-
-
-
 ````VB.NET
 	        Dim nodes = New DataTable()
 	        nodes.Columns.Add("ID")

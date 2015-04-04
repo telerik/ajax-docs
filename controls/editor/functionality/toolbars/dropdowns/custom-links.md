@@ -73,9 +73,6 @@ In the following example, we construct a simple 3-level Custom Links treeview:
 	        support.ChildLinks.Add(forums); //Adds the forums link as a child of the support link			
 	        
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Links.Clear()
@@ -100,8 +97,6 @@ In the following example, we construct a simple 3-level Custom Links treeview:
 	        'Adds the forums link as a child of the support link
 	
 ````
-
-
 >end
 
 ## Using the ToolsFile

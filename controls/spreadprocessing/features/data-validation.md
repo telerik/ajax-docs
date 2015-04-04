@@ -118,9 +118,6 @@ __Example 1__ shows hot to create any value validation rule and set it to a cell
 	
 	    worksheet.Cells[0, 0].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim context As New AnyValueDataValidationRuleContext()
 	    context.InputMessageContent = "Sample input message content"
@@ -129,8 +126,6 @@ __Example 1__ shows hot to create any value validation rule and set it to a cell
 	
 	    worksheet.Cells(0, 0).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 The result from the code snippet in __Example 1__ is shown on the snapshot in __Figure 1__.
@@ -164,9 +159,6 @@ The code snippet in __Example 2__ shows how to create a whole number data valida
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -185,8 +177,6 @@ The code snippet in __Example 2__ shows how to create a whole number data valida
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 The result from __Example 2__ is shown in __Figure 2__.
@@ -219,9 +209,6 @@ The code snippet in __Example 3__ shows how to create a whole number data valida
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -238,8 +225,6 @@ The code snippet in __Example 3__ shows how to create a whole number data valida
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 You are allowed to enter any valid [formula]({%slug spreadprocessing/features/formulas%}) as a rule argument thatreturns a number. __Example 4__ shows how to restrict the user input to the values less than the sum of thevalues in cells A1 and B1.
@@ -264,9 +249,6 @@ You are allowed to enter any valid [formula]({%slug spreadprocessing/features/fo
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    ' The value of A1 worksheet.Cells[0, 0].SetValue(60); // The value of B1 worksheet.Cells[0, 1].SetValue(40);
 	
@@ -285,8 +267,6 @@ You are allowed to enter any valid [formula]({%slug spreadprocessing/features/fo
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 >caption Figure 4: Whole Number Rule Based on Formula
 
@@ -321,9 +301,6 @@ __Example 5__ demonstrates how to create a decimal data validation rule that res
 	
 	    this.worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -341,8 +318,6 @@ __Example 5__ demonstrates how to create a decimal data validation rule that res
 	
 	    Me.worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 ## List Rule
@@ -369,9 +344,6 @@ __Example 6__ shows the creation of a list data validation rule that restricts t
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -388,8 +360,6 @@ __Example 6__ shows the creation of a list data validation rule that restricts t
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 >caption Figure 5: List Rule
 
@@ -420,9 +390,6 @@ __Example 7__ shows how to restrict the user input to the dates in the range bet
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -440,8 +407,6 @@ __Example 7__ shows how to restrict the user input to the dates in the range bet
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 ## Time Rule
@@ -469,9 +434,6 @@ The code snippet in __Example 8__ shows how to restrict the user input to the ra
 	
 	    this.worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -489,8 +451,6 @@ The code snippet in __Example 8__ shows how to restrict the user input to the ra
 	
 	    Me.worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 ## Text Length Rule
@@ -518,9 +478,6 @@ __Example 9__ shows how to restrict the user input to text with length between 5
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(0, 0)
 	
@@ -538,8 +495,6 @@ __Example 9__ shows how to restrict the user input to text with length between 5
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 ## Custom Rule
@@ -565,9 +520,6 @@ The code snippet in __Example 10__ shows how to restrict the user input to value
 	
 	    worksheet.Cells[dataValidationRuleCellIndex].SetDataValidationRule(rule);
 ````
-
-
-
 ````VB.NET
 	    Dim dataValidationRuleCellIndex As New CellIndex(1, 0)
 	
@@ -583,8 +535,6 @@ The code snippet in __Example 10__ shows how to restrict the user input to value
 	
 	    worksheet.Cells(dataValidationRuleCellIndex).SetDataValidationRule(rule)
 ````
-
-
 >end
 
 ## Evaluate Rules
@@ -601,9 +551,6 @@ __Example 11__ demonstrates how to evaluate a rule using the __Evaluate()__ meth
 	
 	    ValuesCollectionFilter filter = new ValuesCollectionFilter(0, stringItems, dateItems, true);
 ````
-
-
-
 ````VB.NET
 	    Dim stringItems As IEnumerable = New List() From {
 	        "test",
@@ -617,8 +564,6 @@ __Example 11__ demonstrates how to evaluate a rule using the __Evaluate()__ meth
 	
 	    Dim filter As New ValuesCollectionFilter(0, stringItems, dateItems, True)
 ````
-
-
 >end
 
 # See Also

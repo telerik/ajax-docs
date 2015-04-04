@@ -66,16 +66,11 @@ To enable virtual scrolling for browsing large record sets,
 	        RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " + RadGrid1.CurrentPageIndex * RadGrid1.PageSize + " AND " + ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, _  ByVal e As GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " & RadGrid1.CurrentPageIndex * RadGrid1.PageSize & " AND " & ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize))
 	    End Sub
 ````
-
-
 >end
 
 ## Fetching additional records when the scroll bar reaches its endpoint
@@ -163,9 +158,6 @@ The following steps describe how to achieve this effect:
 	        RadGrid1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web.UI.AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
@@ -174,8 +166,6 @@ The following steps describe how to achieve this effect:
 	    End Sub
 	
 ````
-
-
 >end
 
 For a live example demonstrating the techniques described above, see [Virtual scrolling and paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/VirtualScrollPaging/DefaultCS.aspx).

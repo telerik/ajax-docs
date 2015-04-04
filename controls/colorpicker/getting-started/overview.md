@@ -138,9 +138,6 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 			Panel1.BorderColor = GetContrastingColor(RadColorPicker1.SelectedColor);
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadColorPicker1_ColorChanged1(ByVal sender As Object, ByVal e As EventArgs)
 			Panel1.BackColor = RadColorPicker1.SelectedColor
@@ -150,8 +147,6 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 			Panel1.BorderColor = GetContrastingColor(RadColorPicker1.SelectedColor)
 		End Sub
 ````
-
-
 >end
 
 1. Add the following helper method to get a contrasting color:
@@ -164,16 +159,11 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 			return System.Drawing.Color.FromArgb(backgroundColor.ToArgb() ^ 0x00ffffff);
 		} 	
 ````
-
-
-
 ````VB.NET
 		Private Function GetContrastingColor(ByVal backgroundColor As System.Drawing.Color) As System.Drawing.Color
 			Return System.Drawing.Color.FromArgb(backgroundColor.ToArgb() Xor 16777215)
 		End Function
 ````
-
-
 >end
 
 1. Press __F5__ to run the application. Click the color boxes and notice the contrasting colors for the labels, panel background and border.

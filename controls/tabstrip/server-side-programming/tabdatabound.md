@@ -43,9 +43,6 @@ Use a __TabDataBound__ event handler to initialize the properties of tabs to ref
 	
 				
 ````
-
-
-
 ````VB.NET
 	  
 	Protected Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBOund
@@ -56,6 +53,4 @@ Use a __TabDataBound__ event handler to initialize the properties of tabs to ref
 	
 				
 ````
-
-
 >end

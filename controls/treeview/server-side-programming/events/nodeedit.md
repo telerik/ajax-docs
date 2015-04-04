@@ -28,9 +28,6 @@ In the example below the "old" text is represented by e.Node.Text and the "new" 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadTreeView1_NodeEdit(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeNodeEditEventArgs)
@@ -38,8 +35,6 @@ In the example below the "old" text is represented by e.Node.Text and the "new" 
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

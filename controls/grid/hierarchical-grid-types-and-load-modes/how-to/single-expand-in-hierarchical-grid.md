@@ -79,9 +79,6 @@ And here is the code of a simple demo:
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	
 	    private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -109,9 +106,6 @@ And here is the code of a simple demo:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        If Not e.IsFromDetailTable Then
@@ -133,6 +127,4 @@ And here is the code of a simple demo:
 	        End If
 	    End Sub
 ````
-
-
 >end

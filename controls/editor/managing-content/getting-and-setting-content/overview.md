@@ -41,9 +41,6 @@ In code-behind, set the __Content__ property:
 	    } 
 	
 ````
-
-
-
 ````VB
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -51,8 +48,6 @@ In code-behind, set the __Content__ property:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Getting Content
@@ -84,17 +79,12 @@ You can access RadEditor content through the following properties:
 	    } 
 	
 ````
-
-
-
 ````VB
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        TextBox1.Text = RadEditor1.Text
 	        TextBox2.Text = RadEditor1.Content
 	    End Sub
 ````
-
-
 >end
 
 

@@ -156,9 +156,6 @@ In the code-behind, you can use the __Page_PreRender__ event to initialize the s
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRender
 	        If RadGrid1.SelectedIndexes.Count = 0 AndAlso RadGrid2.SelectedIndexes.Count = 0 Then
@@ -167,8 +164,6 @@ In the code-behind, you can use the __Page_PreRender__ event to initialize the s
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 For a live example of related grids, see [ Related grids](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectedValue/DefaultCS.aspx)

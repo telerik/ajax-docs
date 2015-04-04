@@ -37,9 +37,6 @@ In the code-behind:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
 	        If Not IsPostBack Then
@@ -53,8 +50,6 @@ In the code-behind:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Another option (which is applicable only with in-forms edit mode (__EditForms__, __WebUserControl__ or __FormTemplate__ custom edit form) is to set the *Edit* property of all grid rows to true on initial load hooking the __ItemCreated__ event:
@@ -68,9 +63,6 @@ Another option (which is applicable only with in-forms edit mode (__EditForms__,
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -80,8 +72,6 @@ Another option (which is applicable only with in-forms edit mode (__EditForms__,
 	        }
 	    }
 ````
-
-
 >end
 
 Thus you will avoid the grid rebinding on PreRender.

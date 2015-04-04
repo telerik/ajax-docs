@@ -46,6 +46,4 @@ __Example 1__ - demonstrates the technique for achieving a client-side data-bind
 	            }
 	        </script>
 ````
-
-
 >end

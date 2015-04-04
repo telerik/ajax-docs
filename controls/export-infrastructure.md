@@ -123,9 +123,6 @@ Using the Export Infrastructure - Example 1
 	        table.Cells[1, 1].Value = 1.2;
 	        structure.Tables.Add(table);
 ````
-
-
-
 ````VB.NET
 	        Dim [structure] As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
 	        Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Sheet1")
@@ -133,8 +130,6 @@ Using the Export Infrastructure - Example 1
 	        table.Cells(1, 1).Value = 1.2
 	        [structure].Tables.Add(table)
 ````
-
-
 >end
 
 Using the Export Infrastructure - Example 2
@@ -150,9 +145,6 @@ Using the Export Infrastructure - Example 2
 	        b2Cell.Style.BackColor = System.Drawing.Color.Blue;
 	        structure2.Tables.Add(table2);
 ````
-
-
-
 ````VB.NET
 	        Dim structure2 As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
 	        Dim table2 As New Telerik.Web.UI.ExportInfrastructure.Table("S1")
@@ -162,8 +154,6 @@ Using the Export Infrastructure - Example 2
 	        b2Cell.Style.BackColor = System.Drawing.Color.Blue
 	        structure2.Tables.Add(table2)
 ````
-
-
 >end
 
 __ShiftRowsDown__ method gives you the opportunity to insert new rows at the chosen position.The first argument of the method is the start row index, and the second argument is the number of the new rows which would be inserted.A possible use case is when the user wants to insert a custom header above the exported RadGrid,the customer could use this method to shift the rows down, up to the desired point.Although it is a part of the Export Infrastructure API, it is mostly suitable when exporting from RadGrid.
@@ -174,15 +164,10 @@ __ShiftRowsDown__ method gives you the opportunity to insert new rows at the cho
 	        Telerik.Web.UI.ExportInfrastructure.Table tbl = e.ExportStructure.Tables[0];
 	        tbl.ShiftRowsDown(2, 5);
 ````
-
-
-
 ````VB.NET
 	        Dim tbl As Telerik.Web.UI.ExportInfrastructure.Table = e.ExportStructure.Tables(0)
 	        tbl.ShiftRowsDown(2, 5)
 ````
-
-
 >end
 
 ## Rendering
@@ -206,9 +191,6 @@ Using the different renderers
 	        DocxRenderer renderer = new DocxRenderer(structure);
 	        byte[] renderedBytes = renderer.Render();
 ````
-
-
-
 ````VB.NET
 	        'Renders XLS file
 	        Dim renderer As New XlsBiffRenderer([structure])
@@ -222,8 +204,6 @@ Using the different renderers
 	        Dim renderer As New DocxRenderer([structure])
 	        Dim renderedBytes As Byte() = renderer.Render()
 ````
-
-
 >end
 
 ## Image Support
@@ -254,17 +234,12 @@ The method has the following overloads:
 	        table.InsertImage(new Range("A1", "B2"), "Image.png");
 	        exportStructure.Tables.Add(table);
 ````
-
-
-
 ````VB.NET
 	        Dim exportStructure As New ExportStructure()
 	        Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Table1")
 	        table.InsertImage(New Range("A1", "B2"), "Image.png")
 	        exportStructure.Tables.Add(table)
 ````
-
-
 >end
 
 >note Automatic resizing is supported only when the image is inserted within a single cell (range is not supported).
@@ -291,9 +266,6 @@ Since __Q3 2014 SP1__ you are able to wrap a text (carried onto the next line) w
 	
 	        byte[] output = renderer.Render();
 ````
-
-
-
 ````VB.NET
 	        Dim [structure] As New ExportStructure()
 	        Dim tbl As New Table()
@@ -308,8 +280,6 @@ Since __Q3 2014 SP1__ you are able to wrap a text (carried onto the next line) w
 	
 	        Dim output As Byte() = renderer.Render()
 ````
-
-
 >end
 
 ## Limitations

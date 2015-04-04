@@ -27,9 +27,6 @@ __ContextMenuItemClick__ event fires when the user right clicks on a node that h
 	        }
 	    } 		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeView1_ContextMenuItemClick(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadTreeViewContextMenuEventArgs)
 	        If e.MenuItem.Text = "Delete" AndAlso e.Node.Category = "File" Then
@@ -37,6 +34,4 @@ __ContextMenuItemClick__ event fires when the user right clicks on a node that h
 	        End If
 	    End Sub
 ````
-
-
 >end

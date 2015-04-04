@@ -60,9 +60,6 @@ Firstly, for the purpose of this tutorial, we will create a new data table with 
 	        return table;
 	    }
 ````
-
-
-
 ````VB
 	
 	    Public Function GetDataTable() As DataTable
@@ -79,8 +76,6 @@ Firstly, for the purpose of this tutorial, we will create a new data table with 
 	    End Function
 	
 ````
-
-
 >end
 
 Once data table is defined, you may use it to bind it to the __RadDataForm__ through the __NeedDataSource__ event:
@@ -92,9 +87,6 @@ Once data table is defined, you may use it to bind it to the __RadDataForm__ thr
 	                
 	            </telerik:raddataform>
 ````
-
-
-
 ````C#
 	
 	    public DataTable GetDataTable()
@@ -117,9 +109,6 @@ Once data table is defined, you may use it to bind it to the __RadDataForm__ thr
 	        this.RadDataForm1.DataSource = this.GetDataTable();
 	    }
 ````
-
-
-
 ````VB
 	    Public Function GetDataTable() As DataTable
 	
@@ -139,8 +128,6 @@ Once data table is defined, you may use it to bind it to the __RadDataForm__ thr
 	        Me.RadDataForm1.DataSource = Me.GetDataTable()
 	    End Sub
 ````
-
-
 >end
 
 After applying the __DataSource__ you can add the required templates in the __DataForm__ markup:

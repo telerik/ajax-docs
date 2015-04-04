@@ -53,9 +53,6 @@ The default delete functionality for each row through __DeleteColumn__ button is
 	  <asp:Button ID="chkboxTemplateButton" Style="z-index: 104; left: 776px; position: absolute;
 	    top: 160px" runat="server" Text="Remove User-checked rows"></asp:Button>
 ````
-
-
-
 ````C#
 	    protected System.Web.UI.WebControls.Button chkboxColumnButton;
 	    protected System.Web.UI.WebControls.Button chkboxTemplateButton;
@@ -221,9 +218,6 @@ The default delete functionality for each row through __DeleteColumn__ button is
 	        RadGrid1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected WithEvents RadGrid1 As Telerik.Web.UI.RadGrid
 	    Protected WithEvents chkboxColumnButton As System.Web.UI.WebControls.Button
@@ -344,6 +338,4 @@ The default delete functionality for each row through __DeleteColumn__ button is
 	    End Sub chkboxTemplateButton_Click
 	
 ````
-
-
 >end

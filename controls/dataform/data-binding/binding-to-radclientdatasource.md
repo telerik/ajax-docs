@@ -155,9 +155,6 @@ The following example outlines how you can bind the __RadDataForm__ to __RadClie
 	        </telerik:RadClientDataSource>
 	
 ````
-
-
-
 ````JavaScript
 	            <script type="text/javascript">
 	                function ParameterMap(sender, args) {
@@ -196,6 +193,4 @@ The following example outlines how you can bind the __RadDataForm__ to __RadClie
 	                }
 	            </script>
 ````
-
-
 >end

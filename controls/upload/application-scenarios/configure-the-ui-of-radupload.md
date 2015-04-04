@@ -60,9 +60,6 @@ When assigning the __ControlObjectsVisibility__ property at runtime, use the "or
 	                                                ControlObjectsVisibility.AddButton;
 				
 ````
-
-
-
 ````VB.NET
 	     
 		RadUpload1.ControlObjectsVisibility = _
@@ -71,8 +68,6 @@ When assigning the __ControlObjectsVisibility__ property at runtime, use the "or
 		       ControlObjectsVisibility.AddButton 
 				
 ````
-
-
 >end
 
 # See Also

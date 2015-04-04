@@ -35,9 +35,6 @@ The event handler receives two parameters:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListBox1_Reordered(sender As Object, e As RadListBoxEventArgs)
 	        For Each item As RadListBoxItem In e.Items

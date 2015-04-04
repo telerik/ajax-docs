@@ -40,9 +40,6 @@ In our examples, the Web Service methods take SchedulerInfo as first parameter, 
 	}  
 				
 ````
-
-
-
 ````VB.NET
 	
 	Public Class MySchedulerInfo
@@ -65,8 +62,6 @@ In our examples, the Web Service methods take SchedulerInfo as first parameter, 
 	End Class 
 	
 ````
-
-
 >end
 
 2. Populate the MySchedulerInfo properties in one of the following client-side events:
@@ -116,9 +111,6 @@ For example:
 	}
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -128,8 +120,6 @@ For example:
 	End Function
 				
 ````
-
-
 >end
 
 Note that the schedulerInfo will be forwarded to the underlying provider. In order to access it you mustimplement the provider methods that take ISchedulerInfo as parameter. These methods were introduced in the Q3 2010release. For more information see [Sending additionalinformation to the provider]({%slug scheduler/data-binding/providers/sending-additional-information-to-the-provider%}).

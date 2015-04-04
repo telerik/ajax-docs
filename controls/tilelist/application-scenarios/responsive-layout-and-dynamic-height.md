@@ -134,9 +134,6 @@ __Example 2: Generating some tiles in the code-behind to populate the RadTileLis
 			group.Tiles.Add(tile);
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
 			Dim group1 As New TileGroup()

@@ -52,9 +52,6 @@ To spellcheck dynamic controls:
 			spellChecker.ControlToCheck = textArea.ClientID;
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			Dim textArea As New TextBox()
@@ -66,6 +63,4 @@ To spellcheck dynamic controls:
 			spellChecker.ControlToCheck = textArea.ClientID
 		End Sub
 ````
-
-
 >end

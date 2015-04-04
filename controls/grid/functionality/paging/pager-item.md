@@ -127,9 +127,6 @@ You can get the exact numbers of rows in your __RadGrid__ either directly from t
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
@@ -139,8 +136,6 @@ You can get the exact numbers of rows in your __RadGrid__ either directly from t
 	    End Sub
 	
 ````
-
-
 >end
 
 You can also get the row count from the pager in the ASPX file as follows:

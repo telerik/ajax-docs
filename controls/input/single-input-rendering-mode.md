@@ -68,9 +68,6 @@ In order to properly focus the input element, you should directy pass the client
 	        ScriptManager1.SetFocus(RadInput1.ClientID );
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        RadInput1.Focus()
@@ -80,8 +77,6 @@ In order to properly focus the input element, you should directy pass the client
 	        ScriptManager1.SetFocus(RadInput1.ClientID)
 	    End Sub
 ````
-
-
 >end
 
 >caution If you disable the RadInput control, its value will not be persisted on the server. More information about W3C recommendations on disabled controls can be gathered[here](http://www.w3.org/TR/html401/interact/forms.html#h-17.12.1).

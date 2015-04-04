@@ -46,9 +46,6 @@ The collection is automatically mapped to the __Text__ property of the respectiv
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -59,8 +56,6 @@ The collection is automatically mapped to the __Text__ property of the respectiv
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you have a collection (any collection implementing __ICollection__ or __IEnumerable__) that contains objects (as opposed to simple values), you can take advantage of __DataTextField__, __DataNavigateUrlField__, and __DataValueField__ properties to map object properties from the object directly to the __Text__, __NavigateUrl__ or __Value__ fields. If the __DataFieldID__ and __DataFieldParentID__ properties are set, RadTreeView will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
@@ -152,9 +147,6 @@ The example below creates a list of car objects, each with properties for Name, 
 	} 
 	  
 ````
-
-
-
 ````VB.NET
 	    Partial Public Class _Default
 	        Inherits System.Web.UI.Page
@@ -216,6 +208,4 @@ The example below creates a list of car objects, each with properties for Name, 
 	
 	
 ````
-
-
 >end

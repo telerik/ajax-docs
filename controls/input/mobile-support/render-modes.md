@@ -46,14 +46,9 @@ There are two ways to configure the rendering mode of the controls:
 ````C#
 	        RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
-
-
-
 ````VB.NET
 	        RadTextBox1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
 ````
-
-
 >end
 
 * A __global setting in the web.config__ file that will affect the entire application, unless a concrete value is specifiedfor a given control instance:

@@ -32,25 +32,17 @@ The below provided example illustrates a possible realization of the above menti
 	        <telerik:RadGantt ID="RadGantt1" runat="server" >
 	        </telerik:RadGantt>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
 	        RadGantt1.Provider = new XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        RadGantt1.Provider = New XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"))
 	    End Sub
 ````
-
-
 >end
 
 The format of the XML file that contains the data should look similar to the below shown.

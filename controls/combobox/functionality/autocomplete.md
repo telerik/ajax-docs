@@ -42,9 +42,6 @@ If RadComboBox displays [multiple columns]({%slug combobox/templates/headers%}),
 	 }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadComboBox1_ItemDataBound(ByVal sender As Object, ByVal e As RadComboBoxItemEventArgs)
@@ -54,8 +51,6 @@ If RadComboBox displays [multiple columns]({%slug combobox/templates/headers%}),
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Autocomplete without a separator

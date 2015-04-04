@@ -120,9 +120,6 @@ You can find the code for the definition of a custom field editor with a RadComb
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Namespace CustomEditors
 	    Public Class RadCustomFilterDropDownEditor
@@ -195,8 +192,6 @@ You can find the code for the definition of a custom field editor with a RadComb
 	    End Class
 	End Namespace
 ````
-
-
 >end
 
 ## Using custom field editors
@@ -223,9 +218,6 @@ When have a custom editor defined, you can use it in the field editors collectio
 	            SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
 	        </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    public DataTable GetDataTable(string query)
 	    {
@@ -264,9 +256,6 @@ When have a custom editor defined, you can use it in the field editors collectio
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Function GetDataTable(ByVal query As String) As DataTable
 	        Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
@@ -298,6 +287,4 @@ When have a custom editor defined, you can use it in the field editors collectio
 	        End If
 	    End Sub
 ````
-
-
 >end

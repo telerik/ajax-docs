@@ -40,17 +40,12 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 	        DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 	        DBadapter.Fill(MyUsersData, "AccessLevel")        
 ````
-
-
-
 ````VB.NET
 	
 	    'sample select command for GridDropDownColumn data-source generation
 	    DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 	    DBadapter.Fill(MyUsersData, "AccessLevel")
 ````
-
-
 >end
 
 >caution Ensure that the fields specified through the __DataField/ListValueField__ properties are of the same -data type- and the entries have a precise match, otherwise you will get merely the first item from the list displayed in non-editable mode. This can also happen if you have not configured properly the GridDropDownColumn, e.g. the relations between the fields specified through the __DataField/ListValueField__ properties.
@@ -88,9 +83,6 @@ The code below will place new item with text __Select Contact Title__ (colored i
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -109,8 +101,6 @@ The code below will place new item with text __Select Contact Title__ (colored i
 	        }
 	    }
 ````
-
-
 >end
 
 >note This option will not be persisted/available after the update command. Inserting such item is suitable only for user-friendly message/presentation.
@@ -154,9 +144,6 @@ The proper event you need to hook in order to attain this effect is __ItemDataBo
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	    If (TypeOf e.Item is GridEditableItem AndAlso (e.Item,GridEditableItem).IsInEditMode)) Then
@@ -175,8 +162,6 @@ The proper event you need to hook in order to attain this effect is __ItemDataBo
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 The code is generalized to work in both __InPlace__ and __EditForms__ editing mode and with any editor similar to __GridDropDownListColumnEditor__ (the default). Note that in order for this to work you should have already set the __DropDownColumn__ properties:

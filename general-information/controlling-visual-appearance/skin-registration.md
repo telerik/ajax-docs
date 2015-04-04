@@ -68,9 +68,6 @@ You can register the CSS file of the skin by adding a HtmlLink control in the He
 	link.Attributes.Add("rel", "stylesheet");
 	Page.Header.Controls.Add(link);
 ````
-
-
-
 ````VB.NET
 		Dim link As New HtmlLink
 		link.Href = "~/Windows7/Scheduler.Windows7.css"
@@ -78,8 +75,6 @@ You can register the CSS file of the skin by adding a HtmlLink control in the He
 		link.Attributes.Add("rel", "stylesheet")
 		Page.Header.Controls.Add(link) 
 ````
-
-
 >end
 
 ## Skin registration with RadStyleSheetManager

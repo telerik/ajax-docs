@@ -49,9 +49,6 @@ To bind to a table-based DataSource component:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs) Handles RadPanelBar1.ItemDataBound
@@ -59,8 +56,6 @@ To bind to a table-based DataSource component:
 	    End Sub
 	
 ````
-
-
 >end
 
 The resulting declaration looks something like the following:

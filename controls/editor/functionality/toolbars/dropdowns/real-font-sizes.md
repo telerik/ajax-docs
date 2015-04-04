@@ -44,9 +44,6 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 	RadEditor1.RealFontSizes.Add("22px");
 	          
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.RealFontSizes.Add("12pt")
@@ -54,8 +51,6 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 	        RadEditor1.RealFontSizes.Add("22px")
 	
 ````
-
-
 >end
 
 ## Using the ToolsFile

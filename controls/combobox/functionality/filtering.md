@@ -41,9 +41,6 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -54,8 +51,6 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Setting the Filter inline

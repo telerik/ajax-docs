@@ -69,9 +69,6 @@ The __TabClick__ event handler uses the __FindControl__ method to locate the __C
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadTabStrip1_TabClick(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabClick
@@ -93,8 +90,6 @@ The __TabClick__ event handler uses the __FindControl__ method to locate the __C
 	    End Sub
 	
 ````
-
-
 >end
 
 * __Client-side access__

@@ -32,9 +32,6 @@ In some scenarios you may want to extend the default functionality of __GridColu
 	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	     SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    public class MyCustomColumn : GridBoundColumn
 	    {
@@ -53,9 +50,6 @@ In some scenarios you may want to extend the default functionality of __GridColu
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	  Namespace MyNamespace
 	
@@ -75,8 +69,6 @@ In some scenarios you may want to extend the default functionality of __GridColu
 	    End Class
 	End Namespace
 ````
-
-
 >end
 
 >note When inheriting grid columns in hierarchy, you need to override their Clone() method and copy the base properties as follows:

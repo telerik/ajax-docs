@@ -27,16 +27,11 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info";
 	        RadNotification1.ContentIcon = "info";
 ````
-
-
-
 ````VB.NET
 	        RadNotification1.Text = "Sample Notification text"
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
-
-
 >end
 
 1. Setting the __Title__ property:
@@ -52,17 +47,12 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info";
 	        RadNotification1.ContentIcon = "info";
 ````
-
-
-
 ````VB.NET
 	        RadNotification1.Text = "Sample Notification text"
 	        RadNotification1.Title = "Title"
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
-
-
 >end
 
 1. Setting rich content:
@@ -111,9 +101,6 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info";
 	        RadNotification1.ContentIcon = "info";
 ````
-
-
-
 ````VB.NET
 	        RadNotification1.ContentContainer.Controls.Add(new LiteralControl("Rich content:<br />"))
 	        Dim button As new Button()
@@ -123,6 +110,4 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 	        RadNotification1.TitleIcon = "info"
 	        RadNotification1.ContentIcon = "info"
 ````
-
-
 >end

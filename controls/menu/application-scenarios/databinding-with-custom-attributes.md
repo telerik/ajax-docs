@@ -69,9 +69,6 @@ Here is an example:
 	    //we set the Tooltip just for testing purposes
 	}	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        Dim table1 As New DataTable()
@@ -110,8 +107,6 @@ Here is an example:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

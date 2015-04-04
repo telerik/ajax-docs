@@ -75,9 +75,6 @@ __Example 1__: Configuring a diagram on the server-side.
 	        diagram.ConnectionsCollection.Add(connection);
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        Dim RadDiagram1 As New RadDiagram()
@@ -121,8 +118,6 @@ __Example 1__: Configuring a diagram on the server-side.
 	        diagram.ConnectionsCollection.Add(connection)
 	    End Sub
 ````
-
-
 >end
 
 ## RadDiagram Public Properties and Methods

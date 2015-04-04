@@ -39,9 +39,6 @@ In the example below we assume that the __Bool__ column in the grid data source 
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	
 	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -56,9 +53,6 @@ In the example below we assume that the __Bool__ column in the grid data source 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
@@ -69,6 +63,4 @@ In the example below we assume that the __Bool__ column in the grid data source 
 	        End If
 	    End Sub
 ````
-
-
 >end

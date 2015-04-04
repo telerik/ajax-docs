@@ -62,9 +62,6 @@ On the server the template will be presented as a string property of the control
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Default_Vb_Load(sender As Object, e As System.EventArgs) Handles Me.Load
 	        If Not Page.IsPostBack Then

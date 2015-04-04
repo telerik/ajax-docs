@@ -76,9 +76,6 @@ Before the template can use the custom attributes in its data-binding expression
 	    }    
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -93,8 +90,6 @@ Before the template can use the custom attributes in its data-binding expression
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Using custom attributes in server-side code
@@ -114,9 +109,6 @@ You can add any name/value pair (value must be string) in the __Attributes__ col
 	    splitButton.Attributes["Displayname"] = "CustomText";
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim button As New RadToolBarButton()
@@ -127,8 +119,6 @@ You can add any name/value pair (value must be string) in the __Attributes__ col
 	    splitButton.Attributes("Displayname") = "CustomText"
 	
 ````
-
-
 >end
 
 ## Using custom attributes client-side

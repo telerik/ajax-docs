@@ -83,9 +83,6 @@ The example below shows how to dynamically create Context Menus and apply them t
 	
 			
 ````
-
-
-
 ````VB.NET
 	
 	Imports System
@@ -125,6 +122,4 @@ The example below shows how to dynamically create Context Menus and apply them t
 	        End Class
 	    End Namespace
 ````
-
-
 >end

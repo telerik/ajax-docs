@@ -46,9 +46,6 @@ Or via the code-behind:
 ````C#
 	    RadColorPicker1.Localization.WebPaletteTabText = "Palette";
 ````
-
-
-
 ````VB.NET
 	    RadColorPicker1.Localization.WebPaletteTabText = "Palette"
 	    #End Region

@@ -108,9 +108,6 @@ The below example shows how to add a custom command that will add some text to t
 	            args.Argument = "information from the server";
 	        }
 ````
-
-
-
 ````VB.NET
 	    Imports System.Drawing
 	

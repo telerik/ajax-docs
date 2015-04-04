@@ -107,9 +107,6 @@ __Example 2__: Save the image sent from the client to a folder on the server.
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	Public Class ExportController
 	    Inherits ApiController

@@ -50,9 +50,6 @@ When you want to customize the auto-generated columns of RadGrid, you could use 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
 	        If e.Column.UniqueName = "FirstName" Then
@@ -61,8 +58,6 @@ When you want to customize the auto-generated columns of RadGrid, you could use 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 If you need to customize the cells of a given column you could do it just the same way as with regular columns (check out the "See Also" section below). You should only note that the * UniqueName of an auto-generated column is the same as the name of the data field it is bound to *.
@@ -87,9 +82,6 @@ In case the number of fields and the names in the grid datasource are dynamic an
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
@@ -102,8 +94,6 @@ In case the number of fields and the names in the grid datasource are dynamic an
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

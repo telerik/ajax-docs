@@ -44,9 +44,6 @@ The below table illustrates a sample structure with the corresponding indexes. N
 	        OnItemDataBound="RadTreeList1_ItemDataBound">
 	    </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    protected void RadTreeList1_NeedDataSource(object sender, EventArgs e)
 	    {
@@ -132,9 +129,6 @@ The below table illustrates a sample structure with the corresponding indexes. N
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim employees As New ArrayList()
@@ -205,6 +199,4 @@ The below table illustrates a sample structure with the corresponding indexes. N
 	        End Property
 	    End Class
 ````
-
-
 >end

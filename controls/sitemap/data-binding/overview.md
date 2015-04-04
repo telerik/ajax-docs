@@ -47,15 +47,10 @@ Usually, you also want to do one or more of the following:
 	        e.Node.ToolTip = nodeData["tooltipColumn"].ToString(); 
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadSiteMap1_NodeDataBound(ByVal sender As Object, ByVal e As RadSiteMapNodeEventArgs)
 	        Dim nodeData As DataRowView = TryCast(e.Node.DataItem, DataRowView)
 	        e.Node.ToolTip = nodeData("tooltipColumn").ToString()
 	    End Sub
 ````
-
-
 >end

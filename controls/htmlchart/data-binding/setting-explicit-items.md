@@ -127,9 +127,6 @@ __Example 1__: Shows how the above setups are used in a real-live scenario.
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -176,9 +173,6 @@ __Example 1__: Shows how the above setups are used in a real-live scenario.
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			'Set the datasource of the HtmlChart and databind it
@@ -221,8 +215,6 @@ __Example 1__: Shows how the above setups are used in a real-live scenario.
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

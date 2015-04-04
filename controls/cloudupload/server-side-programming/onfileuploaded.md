@@ -46,9 +46,6 @@ The example below demonstrates how to access information about the uploaded file
 	        args.IsValid = true;
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadCloudUpload1_FileUploaded(sender As Object, args As CloudFileUploadedEventArgs)
@@ -65,6 +62,4 @@ The example below demonstrates how to access information about the uploaded file
 	
 	
 ````
-
-
 >end

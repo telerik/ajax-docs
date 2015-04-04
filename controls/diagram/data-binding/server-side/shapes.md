@@ -62,9 +62,6 @@ __Example 1__: Data binding shapes in a diagram to a collection of custom object
 	        };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        If Not IsPostBack Then
@@ -117,8 +114,6 @@ __Example 1__: Data binding shapes in a diagram to a collection of custom object
 	    }}
 	    End Function
 ````
-
-
 >end
 
 # See Also

@@ -46,9 +46,6 @@ To accomplish this scenario the __RadCloudUpload__ needs to be configured to use
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="UploadToCustomFolderHandler" %>
 	
@@ -64,8 +61,6 @@ To accomplish this scenario the __RadCloudUpload__ needs to be configured to use
 	
 	    End Class
 ````
-
-
 >end
 
 # See Also

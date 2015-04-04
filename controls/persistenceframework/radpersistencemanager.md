@@ -55,15 +55,10 @@ In code-behind you can add persistence settings to define controls in three diff
 ````C#
 			RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1");//add setting by control's ID
 ````
-
-
-
 ````VB.NET
 			'add setting by control's ID
 			RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1")
 ````
-
-
 >end
 
 1. Define PersistenceSetting by control's instance - define single control for persistence
@@ -73,15 +68,10 @@ In code-behind you can add persistence settings to define controls in three diff
 ````C#
 			RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1);//add setting by control's instance
 ````
-
-
-
 ````VB.NET
 			'add setting by control's instance
 			RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1)
 ````
-
-
 >end
 
 1. Define PersistenceSetting by control's type - define all controls of specific type for persistence
@@ -91,13 +81,8 @@ In code-behind you can add persistence settings to define controls in three diff
 ````C#
 			RadPersistenceManager1.PersistenceSettings.AddSetting(typeof(RadTreeView));//add setting by control's type
 ````
-
-
-
 ````VB.NET
 			'add setting by control's type
 			RadPersistenceManager1.PersistenceSettings.AddSetting(GetType(RadTreeView))
 ````
-
-
 >end

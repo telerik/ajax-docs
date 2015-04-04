@@ -84,9 +84,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -98,8 +95,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
-
-
 >end
 
 Now the check boxes reflect the properties of the tabs:

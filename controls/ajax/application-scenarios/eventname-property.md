@@ -55,9 +55,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	        </asp:UpdatePanel>
 	    </div>
 ````
-
-
-
 ````C#
 	public partial class Default : System.Web.UI.Page 
 	{
@@ -80,9 +77,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	Partial Public Class [Default]
 	    Inherits System.Web.UI.Page
@@ -101,8 +95,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    End Sub
 	End Class
 ````
-
-
 >end
 
 * __Example 2__: How to set the __EventName__ property of a __RadAjaxManager__ control:
@@ -147,9 +139,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	        <asp:Label ID="lbl1" runat="server"></asp:Label>
 	    </div>
 ````
-
-
-
 ````C#
 	public partial class Default : System.Web.UI.Page 
 	{
@@ -172,9 +161,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	Partial Public Class [Default]
 	    Inherits System.Web.UI.Page
@@ -193,8 +179,6 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 	    End Sub
 	End Class
 ````
-
-
 >end
 
 # See Also

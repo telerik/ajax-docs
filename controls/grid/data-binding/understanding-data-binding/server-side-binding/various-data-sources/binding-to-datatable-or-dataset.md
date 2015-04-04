@@ -26,9 +26,6 @@ When not using [declarative data sources]({%slug grid/data-binding/understanding
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
-
-
-
 ````VB.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	        GridLines="None" PageSize="10">
@@ -36,8 +33,6 @@ When not using [declarative data sources]({%slug grid/data-binding/understanding
 	        </MasterTableView>
 	    </telerik:RadGrid>
 ````
-
-
 >end
 
 And in the code-behind:
@@ -65,9 +60,6 @@ And in the code-behind:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        RadGrid1.DataSource = GetDataTable("SELECT CustomerID, CompanyName, ContactName FROM Customers")
@@ -84,6 +76,4 @@ And in the code-behind:
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end

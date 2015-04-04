@@ -62,9 +62,6 @@ __Figure 1__ demonstrates the layout of the example.
 	        form1.Controls.Add(pageLayout);
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim pageLayout As New RadPageLayout()
@@ -100,8 +97,6 @@ __Figure 1__ demonstrates the layout of the example.
 	        form1.Controls.Add(pageLayout)
 	    End Sub
 ````
-
-
 >end
 
 ````ASPNET

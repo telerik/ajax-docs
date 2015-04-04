@@ -77,9 +77,6 @@ The code snippet below shows sample configuration of RadMenu bound to RadClientD
 	        //public string NavigateURL { get; set; }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

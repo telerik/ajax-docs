@@ -71,9 +71,6 @@ You can also bind RadTimePicker to a custom collection of time. The following Ma
 	<telerik:RadTimePicker ID="RadTimePicker6" Skin="Silk" runat="server" />
 				
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -96,9 +93,6 @@ You can also bind RadTimePicker to a custom collection of time. The following Ma
 	        RadTimePicker4.TimeView.DataList.DataSource = new object[] { DateTime.Now, DateTime.Now.AddHours(1) };
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
@@ -121,8 +115,6 @@ You can also bind RadTimePicker to a custom collection of time. The following Ma
 	        RadTimePicker4.TimeView.DataList.DataSource = New Object() {DateTime.Now, DateTime.Now.AddHours(1)}
 	    End Sub
 ````
-
-
 >end
 
 To see the live example of the above see [Binding to custom collections](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/DateTimePicker/CustomCollection/DefaultCS.aspx).

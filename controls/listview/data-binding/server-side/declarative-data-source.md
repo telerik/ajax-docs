@@ -126,9 +126,6 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	        SelectMethod="GetData" />
 	    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
 ````
-
-
-
 ````VB.NET
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" />
@@ -227,8 +224,6 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 	        SelectMethod="GetData" />
 	    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ListView/Examples/DataBinding/NET2DataSourceControls/ListView.xml" />
 ````
-
-
 >end
 
 ## Additional resources

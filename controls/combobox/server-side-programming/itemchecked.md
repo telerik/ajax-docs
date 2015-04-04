@@ -51,9 +51,6 @@ Use the __ItemChecked__ event handler to respond in server-side code when the us
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub OnItemChecked(ByVal sender As Object, ByVal e As RadComboBoxItemEventArgs)
@@ -62,8 +59,6 @@ Use the __ItemChecked__ event handler to respond in server-side code when the us
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

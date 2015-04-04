@@ -159,9 +159,6 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	    </SelectedItemTemplate>
 	</telerik:RadListView>
 ````
-
-
-
 ````VB.NET
 	<telerik:RadFilter ID="RadFilter1" runat="server" FilterContainerID="RadListView1">
 	</telerik:RadFilter>
@@ -291,8 +288,6 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	    </SelectedItemTemplate>
 	</telerik:RadListView>
 ````
-
-
 >end
 
 >tabbedCode
@@ -364,9 +359,6 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Property SelectedItems() As ArrayList
 	        Get
@@ -419,6 +411,4 @@ By default RadListView clears its selected items upon sorting, paging or filteri
 	        End If
 	    End Sub
 ````
-
-
 >end

@@ -36,9 +36,6 @@ This is pretty straightforward:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -54,8 +51,6 @@ This is pretty straightforward:
 	    End Sub
 				
 ````
-
-
 >end
 
 __Client-Side Approach__

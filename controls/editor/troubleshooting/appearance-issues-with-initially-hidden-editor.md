@@ -72,9 +72,6 @@ __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 			</html>
 	
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -85,9 +82,6 @@ __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 			wrapper.Visible = !wrapper.Visible;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not Page.IsPostBack Then
@@ -99,8 +93,6 @@ __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 			wrapper.Visible = Not wrapper.Visible
 		End Sub
 ````
-
-
 >end
 
 ## Initially Hidden Wrapper Made Visible via JavaScript

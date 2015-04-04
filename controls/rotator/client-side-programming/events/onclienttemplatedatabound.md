@@ -72,9 +72,6 @@ __Example 1__: Using the __OnClientTemplateDataBound__ event's arguments in clie
 			}
 		</script>
 ````
-
-
-
 ````HTML
 		<style type="text/css">
 			.rrItem {
@@ -101,8 +98,6 @@ __Example 1__: Using the __OnClientTemplateDataBound__ event's arguments in clie
 			}
 		</style>
 ````
-
-
 >end
 
 # See Also

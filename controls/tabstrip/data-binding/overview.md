@@ -56,17 +56,12 @@ Usually, you also want to do one or more of the following:
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs)
 	    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "Text"), String)
 	End Sub 
 				
 ````
-
-
 >end
 
 1. As an alternative to using the __TabDataBound__ event handler, you can use [DataBindings]({%slug tabstrip/data-binding/using-databindings%}) to declaratively map fields from the data source to properties of the tabs. The __DataBindings__ collection also lets you map fields differently, based on the level of tabs.

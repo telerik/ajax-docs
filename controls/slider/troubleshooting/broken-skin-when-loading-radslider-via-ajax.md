@@ -38,9 +38,6 @@ When the __RadSlider__ in not initially visible on the page and it is loaded thr
 		}
 				
 ````
-
-
-
 ````VB
 	
 		Protected Sub btnUpdate_Click(sender As Object, e As EventArgs)
@@ -48,8 +45,6 @@ When the __RadSlider__ in not initially visible on the page and it is loaded thr
 		End Sub
 	
 ````
-
-
 >end
 
 This is a common issue when dynamically loading controls through AJAX requests. The reason for this behavior is that the control relies on its	CSS resources to be already loaded on the page during initialization and rendering, whereas they are still loading.
@@ -69,9 +64,6 @@ The way around this issue is to have the styles already loaded on the page. Ther
 	            rel="stylesheet" type="text/css" />
 		</head>
 ````
-
-
-
 ````VB
 	    <head>
 			<title></title>
@@ -81,8 +73,6 @@ The way around this issue is to have the styles already loaded on the page. Ther
 	            rel="stylesheet" type="text/css" />
 		</head>
 ````
-
-
 >end
 
 * Using the [RadStyleSheetManager](A2D2BFE9-F3FE-48F8-A3E6-5254D7491104) to load the styles. Note that all skins except Default are located in theTelerik.Web.UI.Skins assembly so the style sheet reference should point it when such skin is used:

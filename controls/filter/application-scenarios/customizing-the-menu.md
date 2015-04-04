@@ -23,14 +23,9 @@ You access the context menu of the RadFilter server-side with the following code
 ````C#
 	        RadContextMenu menu = RadFilter1.FindControl("rfContextMenu") as RadContextMenu;
 ````
-
-
-
 ````VB.NET
 	        Dim menu As RadContextMenu = TryCast(RadFilter1.FindControl("rfContextMenu"), RadContextMenu)
 ````
-
-
 >end
 
 To find it client-side, you can use the following code:

@@ -58,9 +58,6 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs)
@@ -70,8 +67,6 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

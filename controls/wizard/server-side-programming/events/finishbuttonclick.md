@@ -42,9 +42,6 @@ Use the __OnFinishButtonClick__ event handler to respond when a the finish butto
 	        Label1.Text = "You clicked on Finish button";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_FinishButtonClick(sender As Object, e As WizardEventArgs) Handles RadWizard1.FinishButtonClick
 	        Label1.Text = "You clicked on Finish button"

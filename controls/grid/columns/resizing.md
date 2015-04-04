@@ -117,9 +117,6 @@ You can also set these properties at runtime in the code-behind:
 	    RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false;
 	    //...			
 ````
-
-
-
 ````VB.NET
 	    Dim RadGrid1 As RadGrid = New RadGridRadGrid1.ClientSettings.Resizing.AllowColumnResize = True
 	    RadGrid1.ClientSettings.Resizing.AllowRowResize = false
@@ -130,6 +127,4 @@ You can also set these properties at runtime in the code-behind:
 	    '...
 	
 ````
-
-
 >end

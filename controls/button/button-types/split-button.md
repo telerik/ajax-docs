@@ -85,9 +85,6 @@ __Example 2__: Utilizing the split button functionality on the server-side.
 	}
 	} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub SplitButton1_Command(ByVal sender As Object, ByVal e As CommandEventArgs)
 			Dim args As Telerik.Web.UI.ButtonCommandEventArgs = TryCast(e, Telerik.Web.UI.ButtonCommandEventArgs)
@@ -102,8 +99,6 @@ __Example 2__: Utilizing the split button functionality on the server-side.
 			End If
 		End Sub
 ````
-
-
 >end
 
 # See Also

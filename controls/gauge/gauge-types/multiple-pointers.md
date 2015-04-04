@@ -63,9 +63,6 @@ __Example 2__: Adding pointers in the Pointers collection via the code behind.
 			<telerik:RadRadialGauge runat="server" ID="RadRadialGauge1" Width="300px" Height="300px">
 			</telerik:RadRadialGauge>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -112,9 +109,6 @@ __Example 2__: Adding pointers in the Pointers collection via the code behind.
 		}
 	
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 			Dim linearPointer1 As New LinearPointer()
@@ -160,8 +154,6 @@ __Example 2__: Adding pointers in the Pointers collection via the code behind.
 	
 		End Sub
 ````
-
-
 >end
 
 # See Also

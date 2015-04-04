@@ -42,9 +42,6 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 	    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />    
 ````
-
-
-
 ````C#
 	    protected void Button1_Click(object sender, EventArgs e)
 	    {
@@ -56,9 +53,6 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -69,8 +63,6 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    End Sub
 	
 ````
-
-
 >end
 
 * __DefaultLoadingPanelID__ - This property allows you to specify a default __LoadingPanel__ thatwill be shown when updating an AJAX enabled controls.
@@ -91,9 +83,6 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    }  
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -101,8 +90,6 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 	    End Sub
 				
 ````
-
-
 >end
 
 Example 2: A sample code showing the usage of ResponseScripts property.

@@ -41,15 +41,10 @@ You can hide the empty color button by setting the __ShowEmptyColor__ property t
 			RadColorPicker1.PreviewColor = false;
 		} 
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			RadColorPicker1.ShowEmptyColor = False
 			RadColorPicker1.PreviewColor = False
 		End Sub
 ````
-
-
 >end

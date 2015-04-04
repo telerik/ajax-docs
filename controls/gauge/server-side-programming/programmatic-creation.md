@@ -83,9 +83,6 @@ RadGauge can be created programmatically through its [ server-side ]({%slug gaug
 	        PlaceHolder1.Controls.Add(radialGauge);
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
 	
@@ -146,8 +143,6 @@ RadGauge can be created programmatically through its [ server-side ]({%slug gaug
 	
 	    End Sub
 ````
-
-
 >end
 
 Programmatically created RadGauge looks like:![gauge-programmatic-creation](images/gauge-programmatic-creation.png)

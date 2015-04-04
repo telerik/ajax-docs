@@ -67,9 +67,6 @@ __Example 1__: Creating a StaticColors class with ten hard-coded colors.
 			};
 		}
 ````
-
-
-
 ````VB.NET
 		Imports System.Drawing
 	
@@ -96,8 +93,6 @@ __Example 1__: Creating a StaticColors class with ten hard-coded colors.
 		 Color.Violet, Color.NavajoWhite, Color.MediumSeaGreen, Color.HotPink}
 	End Class
 ````
-
-
 >end
 
 You can use a static class like this in different ways. For example __Example 2__ shows a loop(which is hardcoded for demonstration purposes, but can actuallyuse the number of columns and rows in the data source) with a Bar chart using the static color class.
@@ -126,9 +121,6 @@ __Example 2__: A Bar chart using the StaticColors class created in __Example 1__
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			If Not IsPostBack Then
@@ -149,8 +141,6 @@ __Example 2__: A Bar chart using the StaticColors class created in __Example 1__
 			End If
 		End Sub
 ````
-
-
 >end
 
 # See Also

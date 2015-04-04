@@ -45,9 +45,6 @@ SearchContext can be easily bound declaratively to some DataSource by setting Da
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
@@ -60,6 +57,4 @@ SearchContext can be easily bound declaratively to some DataSource by setting Da
 	    End Sub
 	
 ````
-
-
 >end

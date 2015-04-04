@@ -33,9 +33,6 @@ Setting individual cells in read-only mode is not achievable in the current vers
 	      SelectCommand="SELECT * FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
@@ -47,9 +44,6 @@ Setting individual cells in read-only mode is not achievable in the current vers
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 	    {
@@ -63,6 +57,4 @@ Setting individual cells in read-only mode is not achievable in the current vers
 	        }
 	    }
 ````
-
-
 >end

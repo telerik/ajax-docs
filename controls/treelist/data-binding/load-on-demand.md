@@ -30,16 +30,11 @@ To use the Load-On-Demand mechanism:
 	       RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", null);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs)
 	        RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", Nothing)
 	    End Sub
 ````
-
-
 >end
 
 1. Handle the __RadTreeList.ChildItemsDataBind__ event and select the subset of items related to theexpanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
@@ -53,17 +48,12 @@ To use the Load-On-Demand mechanism:
 	        e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " + id);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_ChildItemsDataBind(ByVal sender As Object, ByVal e As TreeListChildItemsDataBindEventArgs)
 	        Dim id As Integer = Convert.ToInt32(e.ParentDataKeyValues("ID").ToString())
 	        e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " & id)
 	    End Sub
 ````
-
-
 >end
 
 ## 

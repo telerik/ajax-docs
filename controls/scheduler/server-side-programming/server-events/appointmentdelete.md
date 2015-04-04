@@ -41,9 +41,6 @@ __AppointmentDelete__ has two parameters:
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentDelete(ByVal sender As Object, _
@@ -54,8 +51,6 @@ __AppointmentDelete__ has two parameters:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

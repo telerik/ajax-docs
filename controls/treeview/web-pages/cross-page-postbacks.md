@@ -62,9 +62,6 @@ The following is the code used to access controls on the default page from the s
 	   }
 	} 	
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports Telerik.Web.UI
@@ -78,8 +75,6 @@ The following is the code used to access controls on the default page from the s
 	        End Class
 	    End Namespace
 ````
-
-
 >end
 
 For a live example, see [Cross-Page Postback](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/CrossPagePostBack/DefaultCS.aspx).

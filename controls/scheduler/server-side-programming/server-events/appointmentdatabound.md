@@ -36,9 +36,6 @@ You can use this event to make adjustments to the appointments as they are loade
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
@@ -46,8 +43,6 @@ You can use this event to make adjustments to the appointments as they are loade
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

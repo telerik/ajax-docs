@@ -89,8 +89,6 @@ In order to enable the range filtering function you should set the __EnableRange
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 	    </asp:SqlDataSource>   
 ````
-
-
 >end
 
 After the property has been enabled two filter controls will be rendered, which will allow the user to enter lower and upper bounds(inclusive) for the filter operation.![grid rangefiltering](images/grid_rangefiltering.jpg)
@@ -160,8 +158,6 @@ Time independent filtering functionality is controlled by the __EnableTimeIndepe
 	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 	    </asp:SqlDataSource>   
 ````
-
-
 >end
 
 No visual changes are observed in the filter item after the property has been enabled. The filter menu remains with the same options.

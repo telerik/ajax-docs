@@ -42,9 +42,6 @@ The example can be easily extended to use real data by supplying a different Dat
 	    }
 	    Sys.Application.notifyScriptLoaded();
 ````
-
-
-
 ````XML
 	  <?xml version="1.0" encoding="utf-8" ?>
 	  <quotes>  
@@ -57,9 +54,6 @@ The example can be easily extended to use real data by supplying a different Dat
 	      <quote stockTicker="NOVL" lastTrade="3.5758" change="-0.166" lastUpdated="12/20/2006 17:07:52" dailyMaxRange="6.14" dailyMinRange="3.5758" />
 	  </quotes>
 ````
-
-
-
 ````ASPNET
 	  <asp:ScriptManager ID="ScriptManager1" runat="server">
 	    <Scripts>
@@ -124,9 +118,6 @@ The example can be easily extended to use real data by supplying a different Dat
 	    </asp:UpdatePanel>
 	  </div>
 ````
-
-
-
 ````C#
 	
 	
@@ -161,9 +152,6 @@ The example can be easily extended to use real data by supplying a different Dat
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -191,6 +179,4 @@ The example can be easily extended to use real data by supplying a different Dat
 	    End Sub
 	
 ````
-
-
 >end

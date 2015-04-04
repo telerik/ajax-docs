@@ -44,9 +44,6 @@ Use the FontSizes collection __Add()__method to include new FontSizes in the lis
 	        RadEditor1.FontSizes.Add("5");
 				
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.FontSizes.Add("1")
@@ -54,8 +51,6 @@ Use the FontSizes collection __Add()__method to include new FontSizes in the lis
 	        RadEditor1.FontSizes.Add("5")
 	
 ````
-
-
 >end
 
 ## Using ToolsFile.xml

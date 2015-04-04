@@ -53,9 +53,6 @@ The code snippets below illustrate direct comparison between the simple and adva
 	        DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo" OnNeedDataSource="RadTreeList2_NeedDataSource">
 	    </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    public DataTable GetDataTable()
 	    {
@@ -102,9 +99,6 @@ The code snippets below illustrate direct comparison between the simple and adva
 	        RadTreeList2.DataSource = GetDataTable();
 	    }  
 ````
-
-
-
 ````VB.NET
 	    Public Function GetDataTable() As DataTable
 	        Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
@@ -141,6 +135,4 @@ The code snippets below illustrate direct comparison between the simple and adva
 	        RadTreeList2.DataSource = GetDataTable()
 	    End Sub
 ````
-
-
 >end

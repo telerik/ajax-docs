@@ -70,9 +70,6 @@ Here is an example how to get all selected tiles from the control:
 			selectionResult.InnerHtml = selectedNames;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadTileList1_SelectionChanged(sender As Object, e As System.EventArgs) Handles RadTileList1.SelectionChanged
 			Dim selectedTiles As List(Of RadBaseTile) = TryCast(sender, RadTileList).GetSelectedTiles()
@@ -159,9 +156,6 @@ Here is how to get the selected tiles from a given group (the second in this exa
 			selectionResult.InnerHtml = selectedNames;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadTileList1_SelectionChanged(sender As Object, e As System.EventArgs) Handles RadTileList1.SelectionChanged
 			Dim secondGroup As TileGroup = TryCast(sender, RadTileList).Groups(1)

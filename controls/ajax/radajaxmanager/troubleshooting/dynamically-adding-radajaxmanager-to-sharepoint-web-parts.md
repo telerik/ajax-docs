@@ -27,17 +27,12 @@ There is a minor detail to be taken into account when __adding RadAjaxManager dy
 	        ajaxManager.AjaxSettings.AddAjaxSetting(Button1, Label1); //may throw null reference exception  
 	
 ````
-
-
-
 ````VB.NET
 	        ajaxManager = New RadAjaxManager
 	        ajaxManager.ID = "RadAjaxManager1"
 	        Me.Page.Items.Add(ajaxManager.GetType, ajaxManager)
 	        Me.Page.Form.Controls.Add(ajaxManager)
 ````
-
-
 >end
 
 We recommend using WebPart __OnInit__ event to add the RadAjaxManager dynamically:
@@ -52,17 +47,12 @@ We recommend using WebPart __OnInit__ event to add the RadAjaxManager dynamicall
 	        this.Page.Form.Controls.Add(ajaxManager);
 	
 ````
-
-
-
 ````VB.NET
 	        ajaxManager = New RadAjaxManager
 	        ajaxManager.ID = "RadAjaxManager1"
 	        Me.Page.Items.Add(ajaxManager.GetType, ajaxManager)
 	        Me.Page.Form.Controls.Add(ajaxManager)
 ````
-
-
 >end
 
 as well as [adding the necessary AJAX settings]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%}) into the __Page_PreRender__ event.

@@ -50,9 +50,6 @@ In case you need a greater control over the calculations, you can also achieve t
 	      CalculationDataFields="TotalPrice,Quantity">
 	    </telerik:PivotGridAggregateField>
 ````
-
-
-
 ````C#
 	   protected void RadPivotGrid1_ItemNeedCalculation(object sender, 
 	    PivotGridCalculationEventArgs e)
@@ -88,9 +85,6 @@ In case you need a greater control over the calculations, you can also achieve t
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadPivotGrid1_ItemNeedCalculation(sender As Object, e As PivotGridCalculationEventArgs)
 	        If e.DataField = "Average Price" Then
@@ -166,9 +160,6 @@ The following sample will calculate prediction values of products for the year 1
 	        </CalculatedItems>
 	    </telerik:PivotGridColumnField>
 ````
-
-
-
 ````C#
 	 protected void RadPivotGrid1_ItemNeedCalculation(object sender, 
 	     PivotGridCalculationEventArgs e)
@@ -194,9 +185,6 @@ The following sample will calculate prediction values of products for the year 1
 	         }
 	     }
 ````
-
-
-
 ````VB
 	    Protected Sub RadPivotGrid1_ItemNeedCalculation(sender As Object, e As PivotGridCalculationEventArgs)
 	        If e.GroupName.ToString() = "Forecast for 1999" Then

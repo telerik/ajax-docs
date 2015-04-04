@@ -49,9 +49,6 @@ Use a __Command__ event handler to provide a server-side implementation for cust
 	    } 
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadDock1_Command( _
@@ -73,8 +70,6 @@ Use a __Command__ event handler to provide a server-side implementation for cust
 	    End Sub
 				
 ````
-
-
 >end
 
 # See Also

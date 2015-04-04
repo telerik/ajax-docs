@@ -64,9 +64,6 @@ Here is short example of how RadListBox should be bound in a Load on Demand scen
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
@@ -89,8 +86,6 @@ Here is short example of how RadListBox should be bound in a Load on Demand scen
 	
 	    End Function
 ````
-
-
 >end
 
 Another example, demonstrating binding to a declarative datasource. In this case there is no code behind code needed. One only need to set the DataSourceID and DataTextField property of RadListBox:
@@ -224,9 +219,6 @@ In the example bellow, you could observe how a button in the __FooterTemplate__ 
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadListBox1_ItemsRequested(sender As Object, e As RadListBoxItemsRequestedEventArgs)
 	        Dim adapter As New SqlDataAdapter("SELECT TOP 40 [OrderID], [ShipName] FROM [Orders]", ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
@@ -241,8 +233,6 @@ In the example bellow, you could observe how a button in the __FooterTemplate__ 
 	        Next
 	    End Sub
 ````
-
-
 >end
 
 # See Also

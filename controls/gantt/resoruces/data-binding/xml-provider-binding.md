@@ -34,25 +34,17 @@ The example provided below illustrates a possible implementation of __RadGantt__
 	            </Columns>
 	        </telerik:RadGantt>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
 	        RadGantt1.Provider = new XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"));
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        RadGantt1.Provider = New XmlGanttProvider(Server.MapPath("App_Code/Gantt.xml"))
 	    End Sub
 ````
-
-
 >end
 
 The format of the XML file that contains the data should look similar to the shown below.

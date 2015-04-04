@@ -34,9 +34,6 @@ The __TargetControlID__property specifies the ID of the element that should be '
 			RadToolTip1.TargetControlID = button1.ID;
 	
 ````
-
-
-
 ````VB.NET
 	
 	        Dim button1 As New Button()
@@ -44,8 +41,6 @@ The __TargetControlID__property specifies the ID of the element that should be '
 	        RadToolTip1.TargetControlID = button1.ID
 	
 ````
-
-
 >end
 
 By default, __RadToolTip__ assumes a server ID. If the ID is client-side, as in the case where an element is pure HTML and not a server control, then the __IsClientID__ property should be set to __True__.
@@ -60,9 +55,6 @@ By default, __RadToolTip__ assumes a server ID. If the ID is client-side, as in 
 			RadToolTip1.IsClientID = true;
 	
 ````
-
-
-
 ````VB.NET
 	
 	        Dim button1 As New Button()
@@ -71,8 +63,6 @@ By default, __RadToolTip__ assumes a server ID. If the ID is client-side, as in 
 	        RadToolTip1.IsClientID = True
 	
 ````
-
-
 >end
 
 # See Also

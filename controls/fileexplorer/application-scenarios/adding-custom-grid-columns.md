@@ -42,9 +42,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 			return oldItem;
 		}
 ````
-
-
-
 ````VB.NET
 	
 	    Public Overloads Overrides Function ResolveRootDirectoryAsTree(ByVal path As String) As DirectoryItem
@@ -64,8 +61,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        Return oldItem
 	    End Function
 ````
-
-
 >end
 
 ## Override the ResolveDirectory method
@@ -93,9 +88,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 			return oldItem;
 		}
 ````
-
-
-
 ````VB.NET
 	
 	    Public Overloads Overrides Function ResolveDirectory(ByVal path As String) As DirectoryItem
@@ -115,8 +107,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        Return oldItem
 	    End Function
 ````
-
-
 >end
 
 2. Build two GridTemplateColumns on the server and add them to the columns collection of the Grid:
@@ -141,9 +131,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 			RadFileExplorer1.Grid.Columns.Add(gridTemplateColumn2);// Add the second column 
 	
 ````
-
-
-
 ````VB.NET
 	        ' Add a new “Date” column for the date
 	        Dim gridTemplateColumn1 As New GridTemplateColumn()
@@ -162,8 +149,6 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 	        ' Add the second column
 	        RadFileExplorer1.Grid.Columns.Add(gridTemplateColumn2)
 ````
-
-
 >end
 
 >caution Important! Set the newly added properties name (“Date” and “Owner”)to the __UniqueName__ property of the newly created column

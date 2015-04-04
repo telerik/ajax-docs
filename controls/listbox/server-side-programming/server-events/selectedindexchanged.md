@@ -32,9 +32,6 @@ The event handler receives two parameters:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)

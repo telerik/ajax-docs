@@ -27,15 +27,9 @@ __Example 1__: Setting the __EnableAriaSupport__ property for __RadNotification_
 ````ASPNET
 		<telerik:RadNotification EnableAriaSupport="true" runat="server" ID="RadNotification1"></telerik:RadNotification>
 ````
-
-
-
 ````C#
 			RadNotification1.EnableAriaSupport = true;
 ````
-
-
-
 ````VB.NET
 			RadNotification1.EnableAriaSupport = True
 			#End Region

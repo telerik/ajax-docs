@@ -23,9 +23,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	    <MasterTableView AutoGenerateColumns="True" />
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_NeedDataSource(object source,
 	    Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -67,9 +64,6 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As GridNeedDataSourceEventArgs)
 	        Dim list As New ArrayList
@@ -102,6 +96,4 @@ You can use a wide variety of custom objects as data sources for __RadGrid__. Th
 	        End Property
 	    End Class
 ````
-
-
 >end

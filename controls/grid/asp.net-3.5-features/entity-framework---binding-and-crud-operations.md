@@ -100,9 +100,6 @@ Here are the code snippets from the example referenced in the previous paragraph
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -118,6 +115,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	    End Sub
 	
 ````
-
-
 >end

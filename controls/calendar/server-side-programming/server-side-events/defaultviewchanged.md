@@ -40,9 +40,6 @@ Use the __DefaultViewChanged__event handler to respond to changes in the dates t
 	            Label1.Text = e.NewView.TitleContent + " <- " + e.OldView.TitleContent;
 	    }
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub RadCalendar1_DefaultViewChanged(ByVal sender As Object, ByVal e As DefaultViewChangedEventArgs) Handles RadCalendar1.DefaultViewChanged
@@ -53,8 +50,6 @@ Use the __DefaultViewChanged__event handler to respond to changes in the dates t
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

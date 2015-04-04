@@ -90,9 +90,6 @@ __Example 2__ demonstrates how to print the active step titles and the order in 
 	        History.Text = History.Text.Substring(0, History.Text.Length - 2);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadWizard1_ActiveStepChanged(sender As Object, e As EventArgs)
 	        History.Text = String.Empty

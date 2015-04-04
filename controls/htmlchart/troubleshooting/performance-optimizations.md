@@ -62,9 +62,6 @@ __Example 1__: RadHtmlChart's load time can be improved significantly by disabli
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -84,9 +81,6 @@ __Example 1__: RadHtmlChart's load time can be improved significantly by disabli
 			public double YValue { get; set; }
 		}
 ````
-
-
-
 ````VB
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim chartData As New List(Of PlotXY)()
@@ -105,8 +99,6 @@ __Example 1__: RadHtmlChart's load time can be improved significantly by disabli
 	        Public Property YValue As Double
 	    End Class
 ````
-
-
 >end
 
 # See Also

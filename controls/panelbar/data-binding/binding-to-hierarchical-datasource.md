@@ -92,9 +92,6 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs)
@@ -103,8 +100,6 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Binding to XmlDataSource
@@ -181,9 +176,6 @@ Consider the following example:
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs) Handles RadPanelBar1.ItemDataBound
@@ -197,8 +189,6 @@ Consider the following example:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

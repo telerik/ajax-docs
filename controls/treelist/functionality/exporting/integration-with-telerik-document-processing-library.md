@@ -38,15 +38,10 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Workbook workbook = new Workbook();
 	    Worksheet worksheet = workbook.Worksheets.Add();
 ````
-
-
-
 ````VB.NET
 	    Dim workbook As New Workbook()
 	    Dim worksheet As Worksheet = workbook.Worksheets.Add()
 ````
-
-
 >end
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document. In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
@@ -61,14 +56,9 @@ The following steps walk you through the entire process of creating an Excel doc
 	                    TreeListItemType.Item 
 	                };
 ````
-
-
-
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 ````
-
-
 >end
 
 >tabbedCode
@@ -124,9 +114,6 @@ The following steps walk you through the entire process of creating an Excel doc
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	    Dim item As TreeListItem
 	
@@ -164,8 +151,6 @@ The following steps walk you through the entire process of creating an Excel doc
 		    Next
 	    Next
 ````
-
-
 >end
 
 1. After the worksheet is populated with data an instance of the __XlsxFormatProvider__ is created and by callingits __Export__ method a file is generated on the server.
@@ -192,9 +177,6 @@ The following steps walk you through the entire process of creating an Excel doc
 	        Response.Flush();
 	        Response.Close();
 ````
-
-
-
 ````VB.NET
 	    Dim workbook As Workbook = TryCast([structure], Workbook)
 	    Dim output As Byte()
@@ -214,8 +196,6 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Response.Flush()
 	    Response.Close()
 ````
-
-
 >end
 
 After following all these steps you will get the following example that presents exporting on button click.
@@ -230,9 +210,6 @@ After following all these steps you will get the following example that presents
 	            <ExportSettings IgnorePaging="true"></ExportSettings>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	        static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
 	                { 
@@ -356,9 +333,6 @@ After following all these steps you will get the following example that presents
 	            ExportToXlsx();
 	        }
 ````
-
-
-
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 	
@@ -454,8 +428,6 @@ After following all these steps you will get the following example that presents
 	        ExportToXlsx()
 	    End Sub
 ````
-
-
 >end
 
 ## Exporting RadTreeList to Word
@@ -479,16 +451,11 @@ The following steps walk you through the entire process of creating an Word docu
 	        Section section = flowDoc.Sections.AddSection();
 	        Table mainTable = section.Blocks.AddTable();
 ````
-
-
-
 ````VB.NET
 	    Dim flowDoc As New RadFlowDocument()
 	    Dim section As Section = flowDoc.Sections.AddSection()
 	    Dim mainTable As Table = section.Blocks.AddTable()
 ````
-
-
 >end
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the createdWord table. In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
@@ -503,14 +470,9 @@ The following steps walk you through the entire process of creating an Word docu
 	                    TreeListItemType.Item 
 	                };
 ````
-
-
-
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 ````
-
-
 >end
 
 >tabbedCode
@@ -559,9 +521,6 @@ The following steps walk you through the entire process of creating an Word docu
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	    Dim item As TreeListItem
 	    Dim row As TableRow
@@ -597,8 +556,6 @@ The following steps walk you through the entire process of creating an Word docu
 		    Next
 	    Next
 ````
-
-
 >end
 
 1. After the worksheet is populated with data an instance of the __DocxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
@@ -625,9 +582,6 @@ The following steps walk you through the entire process of creating an Word docu
 	        Response.Flush();
 	        Response.Close();
 ````
-
-
-
 ````VB.NET
 	    Dim flowDoc As RadFlowDocument = TryCast([structure], RadFlowDocument)
 	
@@ -647,8 +601,6 @@ The following steps walk you through the entire process of creating an Word docu
 	    Response.Flush()
 	    Response.Close()
 ````
-
-
 >end
 
 After following all these steps you will get the following example that presents exporting on button click.
@@ -663,9 +615,6 @@ After following all these steps you will get the following example that presents
 	            <ExportSettings IgnorePaging="true"></ExportSettings>
 	        </telerik:RadTreeList>
 ````
-
-
-
 ````C#
 	    static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
 	                { 
@@ -777,9 +726,6 @@ After following all these steps you will get the following example that presents
 	        ExportToDocx();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 	
@@ -869,6 +815,4 @@ After following all these steps you will get the following example that presents
 	        ExportToDocx()
 	    End Sub
 ````
-
-
 >end

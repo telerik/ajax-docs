@@ -144,9 +144,6 @@ Example
 	        RadPivotGrid1.Sort(expression);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
@@ -159,8 +156,6 @@ Example
 	        RadPivotGrid1.Sort(expression)
 	    End Sub
 ````
-
-
 >end
 
 
@@ -188,9 +183,6 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(RadPivotGrid1.Fields["Cost"] as PivotGridColumnField);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
@@ -199,8 +191,6 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(TryCast(RadPivotGrid1.Fields("Cost"), PivotGridColumnField))
 	    End Sub
 ````
-
-
 >end
 
 
@@ -228,9 +218,6 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(RadPivotGrid1.Fields["Quantity"] as PivotGridRowField);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
@@ -239,8 +226,6 @@ Example:
 	        RadPivotGrid1.ExpandAllFieldGroups(TryCast(RadPivotGrid1.Fields("Quantity"), PivotGridRowField))
 	    End Sub
 ````
-
-
 >end
 
 
@@ -262,17 +247,12 @@ Example 1:
 	        RadPivotGrid1.ClearAllFilters();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.ClearAllFilters()
 	    End Sub
 ````
-
-
 >end
 
 Example 2:
@@ -286,17 +266,12 @@ Example 2:
 	        RadPivotGrid1.ClearFilter(RadPivotGrid1.Fields["Cost"]);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.ClearFilter(RadPivotGrid1.Fields("Cost"))
 	    End Sub
 ````
-
-
 >end
 
 
@@ -318,17 +293,12 @@ Example 1:
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.Contains, RadPivotGrid1.Fields["Cost"], "filter value");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.Contains, RadPivotGrid1.Fields("Cost"), "filter value")
 	    End Sub
 ````
-
-
 >end
 
 Example 2:
@@ -342,17 +312,12 @@ Example 2:
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.IsNotBetween, RadPivotGrid1.Fields["Cost"], "filter value", "beetween filter value");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterByLabel(PivotGridFilterFunction.IsNotBetween, RadPivotGrid1.Fields("Cost"), "filter value", "beetween filter value")
 	    End Sub
 ````
-
-
 >end
 
 
@@ -377,17 +342,12 @@ Example 1:
 	            "filter value");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.BeginsWith, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value")
 	    End Sub
 ````
-
-
 >end
 
 Example 2:
@@ -405,17 +365,12 @@ Example 2:
 	            "between filter value");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value", "between filter value")
 	    End Sub
 ````
-
-
 >end
 
 
@@ -440,17 +395,12 @@ Example 1:
 	            10);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterByValue(PivotGridFilterFunction.IsBetween, RadPivotGrid1.Fields("Line"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), "filter value", "between filter value")
 	    End Sub
 ````
-
-
 >end
 
 Example 2:
@@ -467,17 +417,12 @@ Example 2:
 	            10);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterBottom(RadPivotGrid1.Fields("Cost"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), PivotGridAggregateType.Items, 10)
 	    End Sub
 ````
-
-
 >end
 
 
@@ -499,17 +444,12 @@ Example 1:
 	        RadPivotGrid1.SetFilterIncludes("Color", new object[] { "White", "Black" });
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.FilterBottom(RadPivotGrid1.Fields("Cost"), TryCast(RadPivotGrid1.Fields("Total"), PivotGridAggregateField), PivotGridAggregateType.Items, 10)
 	    End Sub
 ````
-
-
 >end
 
 Example 2:
@@ -523,17 +463,12 @@ Example 2:
 	        RadPivotGrid1.SetFilterExcludes("Color", new object[] { "White", "Black" });
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
 	        RadPivotGrid1.SetFilterExcludes("Color", New Object() {"White", "Black"})
 	    End Sub
 ````
-
-
 >end
 
 
@@ -564,9 +499,6 @@ Example:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overrides Sub OnPreRender(e As EventArgs)
 	        MyBase.OnPreRender(e)
@@ -580,8 +512,6 @@ Example:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ### RadPivotGrid Events

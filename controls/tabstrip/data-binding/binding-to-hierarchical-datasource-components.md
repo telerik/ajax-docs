@@ -95,9 +95,6 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	} 
 		
 ````
-
-
-
 ````VB.NET
 	
 	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
@@ -106,8 +103,6 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 	
 	
 ````
-
-
 >end
 
 ## Binding to XmlDataSource
@@ -185,9 +180,6 @@ Consider the following example:
 	
 				
 ````
-
-
-
 ````VB.NET
 	
 	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
@@ -199,8 +191,6 @@ Consider the following example:
 	
 	
 ````
-
-
 >end
 
 # See Also

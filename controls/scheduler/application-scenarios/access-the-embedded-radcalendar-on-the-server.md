@@ -29,9 +29,6 @@ The popup calendar in RadScheduler is actually RadCalendar and is a child contro
 	    }  
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
@@ -40,6 +37,4 @@ The popup calendar in RadScheduler is actually RadCalendar and is a child contro
 	    End Sub
 				
 ````
-
-
 >end

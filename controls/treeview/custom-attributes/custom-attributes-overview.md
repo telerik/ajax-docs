@@ -33,9 +33,6 @@ It is not always possible to provide all properties that might be needed for a g
 	    RadTreeView1.Nodes.Add(root1);
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Dim root1 As New RadTreeNode("root1")
@@ -43,8 +40,6 @@ It is not always possible to provide all properties that might be needed for a g
 	    RadTreeView1.Nodes.Add(root1)
 				
 ````
-
-
 >end
 
 * [Attributes can be accessed in server-side code]({%slug treeview/custom-attributes/using-custom-attributes-at-the-server%}) by addressing the RadTreeNode __Attributes__ collection.

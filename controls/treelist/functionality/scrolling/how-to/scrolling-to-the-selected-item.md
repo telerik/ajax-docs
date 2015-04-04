@@ -68,9 +68,6 @@ The following example demonstrates this technique:
 	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT EmployeeID, FirstName, LastName, ReportsTo FROM [Employees]" />
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -81,9 +78,6 @@ The following example demonstrates this technique:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -92,6 +86,4 @@ The following example demonstrates this technique:
 	        End If
 	    End Sub
 ````
-
-
 >end

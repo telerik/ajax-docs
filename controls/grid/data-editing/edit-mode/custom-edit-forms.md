@@ -39,14 +39,9 @@ If you need a reference to the __UserControl__ from an event handler of your __R
 ````C#
 	    UserControl MyUserControl = editFormItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
 ````
-
-
-
 ````VB.NET
 	    Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
 ````
-
-
 >end
 
 ## Accessing the edited grid item from the user control
@@ -58,14 +53,9 @@ When __RadGrid__ loads the __UserControl__ Edit Form, the __UserControl__ has fu
 ````C#
 	    GridEditableItem editedItem = this.Parent.NamingContainer;
 ````
-
-
-
 ````VB.NET
 	    Dim editedItem As GridEditableItem = Me.Parent.NamingContainer
 ````
-
-
 >end
 
 Once you have a reference to the __GridEditableItem__ object, you can access any of its properties, such as cell text values, the __DataItem__ object (available in __DataBinding__ event handler), and so on.
@@ -79,14 +69,9 @@ You can use the __Page__ property of the user control to access the Web page tha
 ````C#
 	    MyPageClassName myPage = this.Page;
 ````
-
-
-
 ````VB.NET
 	    Dim myPage As MyPageClassName = Me.Page
 ````
-
-
 >end
 
 ## Binding controls inside the UserControl
@@ -133,9 +118,6 @@ For example, if you bind __RadGrid__ to a __DataSet__, the __DataItem__ property
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private _dataItem As Object = Nothing
 	    Public Property DataItem As Object
@@ -148,8 +130,6 @@ For example, if you bind __RadGrid__ to a __DataSet__, the __DataItem__ property
 	    End Property
 	
 ````
-
-
 >end
 
 The __DataItem__ property should be declared as of type object. After loading the __UserControl__, __RadGrid__ tries to assign the value of the __DataItem__ property.
@@ -186,9 +166,6 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
@@ -200,8 +177,6 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Binding selected values for drop-down lists
@@ -220,9 +195,6 @@ To select the proper item in a drop-down list inside your __UserControl__, handl
 	        ddlTOC.DataSource = null;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub MyEditForm_DataBinding(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.DataBinding
 	        Dim tocs As String() = New String() {"Dr.", "Mr.", "Mrs.", "Ms."}
@@ -232,8 +204,6 @@ To select the proper item in a drop-down list inside your __UserControl__, handl
 	        ddlTOC.DataSource = Nothing
 	    End Sub
 ````
-
-
 >end
 
 >note An important detail is to assign *empty data source* for the drop-down list to prevent binding it again at a later stage (when the rest of the edited item content is bound). The same conventions stand for nested user controls inside WebUserControl custom edit form or other controls such as listboxes, radiobutton lists, checkbox lists, and so on.
@@ -297,9 +267,6 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
@@ -310,8 +277,6 @@ Here is an example that sets the text for a __TextBox__ that resides inside the 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Creating FormTemplate custom edit form programmatically
@@ -361,9 +326,6 @@ The following example illustrates this approach:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim grid1 As RadGrid = New RadGrid()
@@ -398,6 +360,4 @@ The following example illustrates this approach:
 	        End Function
 	    End Class
 ````
-
-
 >end

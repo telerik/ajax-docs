@@ -150,9 +150,6 @@ The following example demonstrates how to benefit by using both of the controls 
 			}
 		}
 ````
-
-
-
 ````VB.NET
 	
 	    Partial Public Class DefaultVB
@@ -196,8 +193,6 @@ The following example demonstrates how to benefit by using both of the controls 
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 

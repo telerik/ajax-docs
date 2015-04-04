@@ -122,9 +122,6 @@ The code below demonstrates the both approaches about how to perform the insert 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private ReadOnly Property GridSource As DataTable
@@ -175,8 +172,6 @@ The code below demonstrates the both approaches about how to perform the insert 
 	           + (newRow("OrderID") + " inserted")))
 	    End Sub
 ````
-
-
 >end
 
 ## Example 2: Using the auto-generated column editors
@@ -281,9 +276,6 @@ The code below demonstrates the both approaches about how to perform the insert 
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private ReadOnly Property GridSource As DataTable
 	        Get
@@ -333,8 +325,6 @@ The code below demonstrates the both approaches about how to perform the insert 
 	           + (newRow("OrderID") + " inserted")))
 	    End Sub
 ````
-
-
 >end
 
 __Note__: You can also see the [ Accessing cells and rows]({%slug grid/rows/accessing-cells-and-rows%}) section for more details about insert dependance from the __Display/Visible/ReadOnly__ properties of grid columns.
@@ -386,9 +376,6 @@ Below is a sample demonstration:
 	       SelectCommand="SELECT [CompanyName], [ContactName], [ContactTitle], [Country], [Bool] FROM [Customers]">
 	   </asp:SqlDataSource>
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid2.ItemCommand
@@ -412,9 +399,6 @@ Below is a sample demonstration:
 	        End If
 	    End Sub
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 	    {
@@ -440,8 +424,6 @@ Below is a sample demonstration:
 	        }
 	    }
 ````
-
-
 >end
 
 The other option is to set __AppendDataBoundItems="true"__ for the dropdown list (residing in edit template of template column) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:

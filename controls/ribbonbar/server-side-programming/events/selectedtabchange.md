@@ -41,9 +41,6 @@ The following example demonstrates how to use the SelectedTabChange event to det
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadRibbonBar1_SelectedTabChange(ByVal sender As Object, ByVal e As RibbonBarSelectedTabChangeEventArgs)
@@ -55,8 +52,6 @@ The following example demonstrates how to use the SelectedTabChange event to det
 	
 	
 ````
-
-
 >end
 
 # See Also

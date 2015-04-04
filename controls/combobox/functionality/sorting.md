@@ -30,16 +30,11 @@ To enable sorting you need to:
 	RadComboBox1.Sort = RadComboBoxSort.Descending;
 				
 ````
-
-
-
 ````VB.NET
 	
 		    RadComboBox1.Sort = RadComboBoxSort.Descending
 	
 ````
-
-
 >end
 
 * Inline:
@@ -81,9 +76,6 @@ If you want to sort the items of a combobox bound to a __declarative datasource_
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadComboBox1_DataBound(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadComboBox1.DataBound
@@ -93,8 +85,6 @@ If you want to sort the items of a combobox bound to a __declarative datasource_
 	    End Sub
 	
 ````
-
-
 >end
 
 >caution Note that __DataBound__ event occurs after the server control binds to a data source and is __different__ from[ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%})event.

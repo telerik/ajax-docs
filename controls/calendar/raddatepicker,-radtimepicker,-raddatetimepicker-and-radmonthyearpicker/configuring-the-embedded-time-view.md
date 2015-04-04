@@ -73,9 +73,6 @@ Using a string array:
 	        RadDateTimePicker1.TimeView.CustomTimeValues = new string[] { "12,10,10,57,4", "5,6,3,38,9", "3,8,11,5,7" };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub SetCustomValuesByStringArray()
 	        RadTimePicker3.TimeView.CustomTimeValues = New String() {"12,10,10,57,4", "5,6,3,38,9", "3,8,11,5,7"}
@@ -112,9 +109,6 @@ Using TimeSpan array:
 	        RadDateTimePicker1.TimeView.CustomTimeValues = new TimeSpan[] { new TimeSpan(12, 10, 10), new TimeSpan(5, 6, 3), new TimeSpan(3, 8, 11) };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub SetCustomValuesByTimeSpansArray()
 	        RadTimePicker3.TimeView.CustomTimeValues = New TimeSpan() {New TimeSpan(12, 10, 10), New TimeSpan(5, 6, 3), New TimeSpan(3, 8, 11)}
@@ -144,9 +138,6 @@ Using DateTime array:
 	        RadDateTimePicker1.TimeView.CustomTimeValues = new DateTime[] { new DateTime(2012, 12, 15, 12, 10, 10), new DateTime(2012, 12, 15, 5, 6, 3), new DateTime(2012, 12, 15, 3, 8, 11) };
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub SetCustomValuesByDateTimeArray()
 	        RadTimePicker3.TimeView.CustomTimeValues = New DateTime() {New DateTime(2012, 12, 15, 12, 10, 10), New DateTime(2012, 12, 15, 5, 6, 3), New DateTime(2012, 12, 15, 3, 8, 11)}
@@ -194,9 +185,6 @@ You can also configure the embedded time view control at runtime:
 	    }
 				
 ````
-
-
-
 ````VB
 	
 	
@@ -211,8 +199,6 @@ You can also configure the embedded time view control at runtime:
 	    End Sub
 				
 ````
-
-
 >end
 
 # See Also

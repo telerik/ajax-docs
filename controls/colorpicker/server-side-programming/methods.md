@@ -46,9 +46,6 @@ RadColorPicker has a number of methods that return [preset palette colors]({%slu
 	   }
 	} 
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Web.UI
@@ -71,8 +68,6 @@ RadColorPicker has a number of methods that return [preset palette colors]({%slu
 			End Class
 		End Namespace
 ````
-
-
 >end
 
 # See Also

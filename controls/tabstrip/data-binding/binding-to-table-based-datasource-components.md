@@ -52,9 +52,6 @@ To bind to a table-based DataSource component:
 	
 				
 ````
-
-
-
 ````VB.NET
 	     
 	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
@@ -65,8 +62,6 @@ To bind to a table-based DataSource component:
 	
 	
 ````
-
-
 >end
 
 The resulting declaration looks something like the following:

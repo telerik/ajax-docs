@@ -27,9 +27,6 @@ When creating a field editor in the Page_Load event handler, it should be added 
 	            SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
 	        </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -42,9 +39,6 @@ When creating a field editor in the Page_Load event handler, it should be added 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
@@ -55,8 +49,6 @@ When creating a field editor in the Page_Load event handler, it should be added 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Creating the field editors on Page_Init
@@ -72,9 +64,6 @@ When creating a field editor in the Page_Init event handler, it should be added 
 	            SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
 	        </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
 	    {
@@ -84,9 +73,6 @@ When creating a field editor in the Page_Init event handler, it should be added 
 	        RadFilter1.FieldEditors.Add(textFieldEditor);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim textFieldEditor As New RadFilterTextFieldEditor()
@@ -95,6 +81,4 @@ When creating a field editor in the Page_Init event handler, it should be added 
 	        RadFilter1.FieldEditors.Add(textFieldEditor)
 	    End Sub
 ````
-
-
 >end

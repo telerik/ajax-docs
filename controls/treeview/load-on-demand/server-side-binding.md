@@ -106,9 +106,6 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	}
 				
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Data
@@ -160,6 +157,4 @@ The same general pattern for NodeExpand is repeated when the user clicks a node 
 	
 	
 ````
-
-
 >end

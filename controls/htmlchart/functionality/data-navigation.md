@@ -120,9 +120,6 @@ __Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation f
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -219,9 +216,6 @@ __Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation f
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			RadHtmlChart1.DataSource = GetData()
@@ -316,8 +310,6 @@ __Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation f
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

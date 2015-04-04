@@ -53,9 +53,6 @@ __Example 1__: Configuring date axis in __RadChart__ that displays discrete data
 			</ChartTitle>
 		</telerik:RadChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -87,9 +84,6 @@ __Example 1__: Configuring date axis in __RadChart__ that displays discrete data
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadChart1.DataSource = ConvertColumnToODate(GetData(), "myXvalues")
@@ -117,8 +111,6 @@ __Example 1__: Configuring date axis in __RadChart__ that displays discrete data
 			Return dt
 		End Function
 ````
-
-
 >end
 
 ### Configuring Date Axis with Discrete Data in RadHtmlChart
@@ -153,9 +145,6 @@ __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete 
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -177,9 +166,6 @@ __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete 
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -199,8 +185,6 @@ __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete 
 			Return dt
 		End Function
 ````
-
-
 >end
 
 ## Configuring Date Axis with Continuous Data
@@ -244,9 +228,6 @@ __Example 3__: Configuring date axis in __RadChart__ that displays continuous da
 			</ChartTitle>
 		</telerik:RadChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -278,9 +259,6 @@ __Example 3__: Configuring date axis in __RadChart__ that displays continuous da
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadChart1.DataSource = ConvertColumnToODate(GetData(), "myXvalues")
@@ -308,8 +286,6 @@ __Example 3__: Configuring date axis in __RadChart__ that displays continuous da
 			Return dt
 		End Function
 ````
-
-
 >end
 
 ### Configuring Date Axis with Continuous Data in RadHtmlChart
@@ -344,9 +320,6 @@ __Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuou
 			</ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -368,9 +341,6 @@ __Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuou
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs)
 			RadHtmlChart1.DataSource = GetData()
@@ -390,8 +360,6 @@ __Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuou
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

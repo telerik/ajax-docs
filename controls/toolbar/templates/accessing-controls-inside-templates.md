@@ -43,17 +43,12 @@ To access the TextBox in the item template, use the following code:
 	    TextBox textBox = (TextBox) textItem.FindControl("TextBox1");
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Dim textItem As RadToolBarItem = RadToolBar1.FindItemByText("Button 1")
 	    Dim textBox As TextBox = CType(textItem.FindControl("TextBox1"), TextBox)
 	
 ````
-
-
 >end
 
 You can also acces different controls place in an Item of the RadToolBar control from the __client-side__ For example having the following code you can get to the RadButton by finding the RadToolbarButton first:

@@ -35,14 +35,9 @@ At run time, you can set the mask in the following ways:
 ````C#
 	        RadMaskedTextBox1.Mask = "(###) ### - ####";
 ````
-
-
-
 ````VB.NET
 	        RadMaskedTextBox1.Mask = "(###) ### - ####"
 ````
-
-
 >end
 
 * Build up a mask using the __MaskParts__ property:
@@ -64,9 +59,6 @@ At run time, you can set the mask in the following ways:
 	        RadMaskedTextBox1.MaskParts.Add(literalPart);
 	        RadMaskedTextBox1.MaskParts.Add(new DigitMaskPart());
 ````
-
-
-
 ````VB.NET
 	        Dim enumPart As New EnumerationMaskPart()
 	        enumPart.Items.Add("Mon")
@@ -82,8 +74,6 @@ At run time, you can set the mask in the following ways:
 	        RadMaskedTextBox1.MaskParts.Add(literalPart)
 	        RadMaskedTextBox1.MaskParts.Add(New DigitMaskPart())
 ````
-
-
 >end
 
 A number of properties control the way the mask is applied:
@@ -159,9 +149,6 @@ The following example shows how to use the current culture settings to set a cul
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If System.Threading.Thread.CurrentThread.CurrentCulture.Name = "en-US" Then
@@ -171,8 +158,6 @@ The following example shows how to use the current culture settings to set a cul
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

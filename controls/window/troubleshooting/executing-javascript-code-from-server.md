@@ -45,9 +45,6 @@ For example you could use a label:
 	        Label1.Text = "<script type='text/javascript'>calledFn()</script>";
 	    } 
 ````
-
-
-
 ````VB.NET
 	        Protected Sub Button1_Click(sender As Object, e As EventArgs)
 	            Label1.Text = "<script type='text/javascript'>calledFn()</script>"
@@ -122,9 +119,6 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	        Page.ClientScript.RegisterStartupScript(this.GetType(), "radalert", radalertscript);
 	    }  
 ````
-
-
-
 ````ASPNET
 	        Protected Sub Button1_Click(sender As Object, e As EventArgs)
 	            Dim radalertscript As String = "<script language='javascript'>function f(){radalert('Welcome to RadWindow <strong>ASP.NET AJAX</strong>!', 330, 210); Sys.Application.remove_load(f);}; Sys.Application.add_load(f);</script>"
@@ -181,9 +175,6 @@ For example let’s call the RadWindow’s radalert() function after a postback 
 	        ScriptManager.RegisterStartupScript(Page, Page.GetType(), "radalert", scriptstring, true);  
 	    } 
 ````
-
-
-
 ````VB.NET
 	        Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 	            Dim scriptstring As String = "radalert('Welcome to Rad<strong>Window</strong>!', 330, 210);"

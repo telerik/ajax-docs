@@ -73,9 +73,6 @@ You can add any number of custom buttons using the sample code below. All you ne
 	            main.Tools.Add(custom3);
 				
 ````
-
-
-
 ````VB
 	
 	        Dim main As New EditorToolGroup()
@@ -94,8 +91,6 @@ You can add any number of custom buttons using the sample code below. All you ne
 	        main.Tools.Add(custom3)
 	
 ````
-
-
 >end
 
 ## Setting the tools by using Theme:

@@ -47,14 +47,9 @@ Other Gantt chart issues:
 							RadChart1.PlotArea.YAxis.Appearance.ValueFormat =Telerik.Charting.Styles.ChartValueFormat.ShortDate;
 				
 ````
-
-
-
 ````VB.NET
 	     
 							RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate
 				
 ````
-
-
 >end

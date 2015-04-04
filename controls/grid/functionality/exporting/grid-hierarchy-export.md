@@ -91,9 +91,6 @@ The mentioned below code snippet demonstrates a possible approach to persist the
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
 	        'save the expanded/selected state in the session
@@ -141,8 +138,6 @@ The mentioned below code snippet demonstrates a possible approach to persist the
 	    End Sub
 	
 ````
-
-
 >end
 
 ## 

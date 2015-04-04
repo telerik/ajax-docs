@@ -60,9 +60,6 @@ Use the __ButtonClick__ event handler to respond when the user clicks a button i
 	}
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -76,8 +73,6 @@ Use the __ButtonClick__ event handler to respond when the user clicks a button i
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

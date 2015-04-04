@@ -40,14 +40,9 @@ __PostbackTriggers__ property is a string array and it can be set from the marku
 	        RadAsyncUpload1.PostbackTriggers = new string[] { "Button1", "Button2" };
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        RadAsyncUpload1.PostbackTriggers = New String() {"Button1", "Button2"}
 	    End Sub
 ````
-
-
 >end

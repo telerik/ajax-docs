@@ -38,9 +38,6 @@ __Example 1: How to access the arguments a web service receives.__
 			return value;
 		}
 ````
-
-
-
 ````VB.NET
 	<WebMethod> _
 		Public Function GetServerData(context As Object) As String
@@ -185,9 +182,6 @@ __Example 3: A sample WCF class and method that will return information.__
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		<ServiceContract([Namespace]:="")> _
 	   <AspNetCompatibilityRequirements(RequirementsMode:=AspNetCompatibilityRequirementsMode.Allowed)> _
@@ -283,9 +277,6 @@ __Example 4: The class that is needed to access the value from the LiveTile in a
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		<Serializable()> _
 		Public Class RadLiveTileContext
@@ -379,9 +370,6 @@ __Example 5: A sample class that will provide data to the service.__
 		}
 	
 ````
-
-
-
 ````VB.NET
 		<DataContract()> _
 		Public Class CustomObject

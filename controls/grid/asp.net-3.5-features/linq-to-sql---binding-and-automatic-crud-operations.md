@@ -146,9 +146,6 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As Web.UI.GridDeletedEventArgs) Handles RadGrid1.ItemDeleted
 	        If e.Exception IsNot Nothing Then
@@ -181,8 +178,6 @@ Here are the code snippets from the example referenced in the previous paragraph
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ````ASPNET
@@ -246,9 +241,6 @@ Here are the code snippets from the example referenced in the previous paragraph
 	      public object DataItem { get; set; }
 	  }			
 ````
-
-
-
 ````VB.NET
 	        Partial Class Grid_Examples_dataediting_linqdatasource_productdetailsvb
 	            Inherits System.Web.UI.UserControl
@@ -269,6 +261,4 @@ Here are the code snippets from the example referenced in the previous paragraph
 	            End Property
 	        End Class
 ````
-
-
 >end

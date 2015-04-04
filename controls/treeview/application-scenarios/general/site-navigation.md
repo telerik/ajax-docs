@@ -69,9 +69,6 @@ Please review the code for more details.
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System
 	Imports System.Data
@@ -93,6 +90,4 @@ Please review the code for more details.
 	        End Sub
 	    End Class
 ````
-
-
 >end

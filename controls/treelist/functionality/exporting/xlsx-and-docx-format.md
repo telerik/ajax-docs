@@ -52,15 +52,10 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 	        RadTreeList1.GetColumn("ID").Visible = false;
 	        RadTreeList1.Items[0].Visible = false;
 ````
-
-
-
 ````VB.NET
 	        RadTreeList1.GetColumn("ID").Visible = false
 	        RadTreeList1.Items(0).Visible = false
 ````
-
-
 >end
 
 ## Styling Columns / Rows / Cells
@@ -84,16 +79,11 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    col.Style.BackColor = Color.Gray;
 	    col.Style.ForeColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	    Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
 	    col.Style.BackColor = Color.Gray
 	    col.Style.ForeColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -102,15 +92,10 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    xls.Row row = e.ExportStructure.Tables[0].Rows[2];
 	    row.Style.BackColor = Color.Blue;
 ````
-
-
-
 ````VB.NET
 	    Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 	    row.Style.BackColor = Color.Blue
 ````
-
-
 >end
 
 >tabbedCode
@@ -119,15 +104,10 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
 	    cell1.Style.BackColor = Color.Yellow;
 ````
-
-
-
 ````VB.NET
 	    Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 	    cell1.Style.BackColor = Color.Yellow
 ````
-
-
 >end
 
 >tabbedCode
@@ -136,15 +116,10 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 	    xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
 	    cell2.Style.ForeColor = Color.Tomato;
 ````
-
-
-
 ````VB.NET
 	    Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 	    cell2.Style.ForeColor = Color.Tomato
 ````
-
-
 >end
 
 ## Image Support

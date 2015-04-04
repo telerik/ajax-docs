@@ -42,9 +42,6 @@ You can use this event to customize the appearance of items in the time picker b
 	        }
 	    }  			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTimePicker1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.Calendar.TimePickerEventArgs) Handles RadTimePicker1.ItemDataBound
 	        If (e.Item.ItemType = ListItemType.Item) _
@@ -57,8 +54,6 @@ You can use this event to customize the appearance of items in the time picker b
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

@@ -44,9 +44,6 @@ The easiest way to set credentials from the code behind is to create a custom Az
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -69,8 +66,6 @@ The easiest way to set credentials from the code behind is to create a custom Az
 	
 	    End Namespace
 ````
-
-
 >end
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
@@ -137,9 +132,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -162,8 +154,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	
 	    End Namespace
 ````
-
-
 >end
 
 >tabbedCode
@@ -189,9 +179,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -215,8 +202,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	
 	    End Namespace
 ````
-
-
 >end
 
 1. Register the newly created Custom Providers in the configuration file:
@@ -281,9 +266,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="CloudUploadHandler" %>
 	    Imports System
@@ -303,8 +285,6 @@ Common scenario is the need to upload files in different Azure providers. For ex
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

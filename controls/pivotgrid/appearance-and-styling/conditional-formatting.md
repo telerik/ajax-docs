@@ -39,9 +39,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            PivotGridDataCell cell = e.Cell as PivotGridDataCell;
 	            //CODE SNIPPET FOLLOWS HERE
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadPivotGrid1_CellDataBound(sender As Object, e As PivotGridCellDataBoundEventArgs)
 	        'give a color to the various cells cells
@@ -49,8 +46,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            Dim cell As PivotGridDataCell = TryCast(e.Cell, PivotGridDataCell)
 	            'CODE SNIPPET FOLLOWS HERE
 ````
-
-
 >end
 
 1. *__Coloring the data aggregate cells__*The sample below shows how you can apply styling to all data cells displaying the aggregate values for a given match of column and row fields. It also shows how to use the ParentColumnIndexes to recognize which column field the cell belongs to.
@@ -67,9 +62,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                }
 	            }
 ````
-
-
-
 ````VB.NET
 	            If cell.CellType = PivotGridDataCellType.DataCell Then
 	                cell.BackColor = Color.FromArgb(220, 240, 255)
@@ -77,8 +69,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                    cell.Font.Italic = True
 	                End If
 ````
-
-
 >endThe result of the above code is light blue background for all data cells:![DataCell formatting](images/pivotgrid-conditional_formatting_1.png)and italic text style for those that are shown under the TotalPrice column.![DataCell formatting](images/pivotgrid-conditional_formatting_2.png)
 
 1. *__Coloring the column and row total cells__*You can get the column and row total cells and apply styles to them based on various criteria. The following code applies different background color to the cells based on the data field they are calculated for and the actual values contained in them.
@@ -111,9 +101,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                }
 	            }
 ````
-
-
-
 ````VB.NET
 	            ElseIf cell.CellType = PivotGridDataCellType.ColumnTotalDataCell OrElse cell.CellType = PivotGridDataCellType.RowTotalDataCell Then
 	                Select Case TryCast(cell.Field, PivotGridAggregateField).DataField
@@ -131,8 +118,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                        Exit Select
 	                End Select
 ````
-
-
 >endThe code above results in the following formatting for column totals:![Column Total Formatting](images/pivotgrid-conditional_formatting_3.png)and for row totals as well:![Row Total Formatting](images/pivotgrid-conditional_formatting_4.png)
 
 1. *__Coloring the column and row grand total cells__*Coloring the column and row grand total cells follows the same logic as the total cells. Below follows a sample which demonstrates how styling can be applied to the row grand total cells for a given field:
@@ -159,9 +144,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                }
 	            }
 ````
-
-
-
 ````VB.NET
 	            ElseIf cell.CellType = PivotGridDataCellType.RowGrandTotalDataCell OrElse cell.CellType = PivotGridDataCellType.ColumnGrandTotalDataCell Then
 	                Select Case TryCast(cell.Field, PivotGridAggregateField).DataField
@@ -175,8 +157,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	                        Exit Select
 	                End Select
 ````
-
-
 >end![Row and Column Grand Total Formatting](images/pivotgrid-conditional_formatting_5.png)
 
 1. *__Formatting the column and row headers based on their nested level__*You can use __ParentIndexes__ property which returns an array of the names of parent fields of a given header cell. In the below example, based on the length of the array, we differentiate the nested level of the headers and provide different styling for different levels.
@@ -213,9 +193,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	        ElseIf TypeOf e.Cell Is PivotGridRowHeaderCell Then
 	            Dim cell As PivotGridRowHeaderCell = TryCast(e.Cell, PivotGridRowHeaderCell)
@@ -236,8 +213,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            End If
 	        End If
 ````
-
-
 >end![Row and column header formatting](images/pivotgrid-conditional_formatting_6.png)
 
 * __Formatting cells in PreRender__In PreRender you can access groups of items/cells, as they are all already created. An example of accessing all aggregate fields (the items/cells used to indicate the name of the fields that are aggregated). The __CellStyle__ setting is applied to the aggregate fields under the column headers, while __RenderingControl__references the items shown in the data zone.
@@ -274,9 +249,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	        ElseIf TypeOf e.Cell Is PivotGridRowHeaderCell Then
 	            Dim cell As PivotGridRowHeaderCell = TryCast(e.Cell, PivotGridRowHeaderCell)
@@ -297,8 +269,6 @@ The [Conditional Formatting](http://demos.telerik.com/aspnet-ajax/pivotgrid/exam
 	            End If
 	        End If
 ````
-
-
 >end![Formatting the aggregate fields](images/pivotgrid-conditional_formatting_7.png)
 
 # See Also

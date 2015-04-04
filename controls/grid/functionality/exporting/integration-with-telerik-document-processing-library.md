@@ -38,15 +38,10 @@ The following steps walk you through the entire process of creating an Excel doc
 	    Workbook workbook = new Workbook();
 	    Worksheet worksheet = workbook.Worksheets.Add();
 ````
-
-
-
 ````VB.NET
 	    Dim workbook As New Workbook()
 	    Dim worksheet As Worksheet = workbook.Worksheets.Add()
 ````
-
-
 >end
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
@@ -61,14 +56,9 @@ The following steps walk you through the entire process of creating an Excel doc
 	            GridItemType.Item 
 	        };
 ````
-
-
-
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
-
-
 >end
 
 >tabbedCode
@@ -88,9 +78,6 @@ The following steps walk you through the entire process of creating an Excel doc
 	            currentRow++;
 	        }
 ````
-
-
-
 ````VB.NET
 	    For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 	    Dim currentColumn As Integer = 0
@@ -105,8 +92,6 @@ The following steps walk you through the entire process of creating an Excel doc
 		    currentRow += 1
 	    Next
 ````
-
-
 >end
 
 1. After the worksheet is populated with data an instance of the __XlsxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
@@ -121,9 +106,6 @@ The following steps walk you through the entire process of creating an Excel doc
 	            provider.Export(worksheet.Workbook, fs);
 	        }
 ````
-
-
-
 ````VB.NET
 	    Dim excelFile As String = Server.MapPath("~/ExcelFile.xlsx")
 	    Using fs As New FileStream(excelFile, FileMode.Create)
@@ -131,8 +113,6 @@ The following steps walk you through the entire process of creating an Excel doc
 		    provider.Export(worksheet.Workbook, fs)
 	    End Using
 ````
-
-
 >end
 
 After following these steps you will get the following example that presents exporting on button click.
@@ -153,9 +133,6 @@ After following these steps you will get the following example that presents exp
 	            </MasterTableView>
 	        </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private GridItemType[] supportedItemTypes = new GridItemType[] 
 	        { 
@@ -211,9 +188,6 @@ After following these steps you will get the following example that presents exp
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 	
@@ -259,8 +233,6 @@ After following these steps you will get the following example that presents exp
 	        End Using
 	    End Sub
 ````
-
-
 >end
 
 ## Exporting RadGrid to Word
@@ -284,16 +256,11 @@ The following steps walk you through the entire process of creating an Word docu
 	        Section section = flowDoc.Sections.AddSection();
 	        Table table = section.Blocks.AddTable();
 ````
-
-
-
 ````VB.NET
 	    Dim flowDoc As New RadFlowDocument()
 	    Dim section As Section = flowDoc.Sections.AddSection()
 	    Dim table As Table = section.Blocks.AddTable()
 ````
-
-
 >end
 
 1. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the created Word table.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
@@ -308,14 +275,9 @@ The following steps walk you through the entire process of creating an Word docu
 	            GridItemType.Item 
 	        };
 ````
-
-
-
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
-
-
 >end
 
 >tabbedCode
@@ -336,9 +298,6 @@ The following steps walk you through the entire process of creating an Word docu
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	    For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 	    Dim wordRow As Telerik.Windows.Documents.Flow.Model.TableRow = Nothing
@@ -354,8 +313,6 @@ The following steps walk you through the entire process of creating an Word docu
 		    Next
 	    Next
 ````
-
-
 >end
 
 1. After the worksheet is populated with data an instance of the __DocxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
@@ -370,9 +327,6 @@ The following steps walk you through the entire process of creating an Word docu
 	        provider.Export(table.Document, fs);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Dim wordFile As String = Server.MapPath("~/WordFile.docx")
 	    Using fs As New FileStream(wordFile, FileMode.Create)
@@ -380,8 +334,6 @@ The following steps walk you through the entire process of creating an Word docu
 		    provider.Export(table.Document, fs)
 	    End Using
 ````
-
-
 >end
 
 After following these steps you will get the following example that presents exporting on button click.
@@ -402,9 +354,6 @@ After following these steps you will get the following example that presents exp
 	            </MasterTableView>
 	        </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	private GridItemType[] supportedItemTypes = new GridItemType[] 
 	        { 
@@ -461,9 +410,6 @@ After following these steps you will get the following example that presents exp
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 	
@@ -510,8 +456,6 @@ After following these steps you will get the following example that presents exp
 	        End Using
 	    End Sub
 ````
-
-
 >end
 
 # See Also

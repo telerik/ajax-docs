@@ -45,9 +45,6 @@ In the example code below the item index is presented in MS Label control which 
 	        SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode] FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -60,9 +57,6 @@ In the example code below the item index is presented in MS Label control which 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource1") Then
@@ -71,6 +65,4 @@ In the example code below the item index is presented in MS Label control which 
 	        End If
 	    End Sub
 ````
-
-
 >end

@@ -61,17 +61,12 @@ __HRef__ - enables the content of a cell to work as a hyperlink with the specifi
 	        cell.HRef = String.Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString());
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ExcelMLExportRowCreated(sender As Object, e As GridExportExcelMLRowCreatedArgs)
 	        Dim cell As CellElement = e.Row.Cells.GetCellByName("ContactName")
 	        cell.HRef = [String].Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString())
 	    End Sub
 ````
-
-
 >end
 
 __MergeAcross__ - specifies the number of cells to merge across (right in LTR mode).

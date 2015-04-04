@@ -28,16 +28,10 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and
 			<telerik:RadToolTip EnableAriaSupport="true" runat="server" ID="RadToolTip1"></telerik:RadToolTip>
 			<telerik:RadToolTipManager EnableAriaSupport="true" runat="server" ID="RadToolTipManager1"></telerik:RadToolTipManager>
 ````
-
-
-
 ````C#
 			RadToolTip1.EnableAriaSupport = true;
 			RadToolTipManager.EnableAriaSupport = true;
 ````
-
-
-
 ````VB.NET
 		RadToolTip1.EnableAriaSupport = True
 		RadToolTipManager1.EnableAriaSupport = True

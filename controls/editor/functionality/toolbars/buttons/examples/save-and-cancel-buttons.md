@@ -103,9 +103,6 @@ Add a RadScriptBlock and JavaScript function "ajaxRequest()" (you can add this b
 	    }
 				
 ````
-
-
-
 ````VB
 	
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Telerik.Web.UI.AjaxRequestEventArgs)
@@ -120,6 +117,4 @@ Add a RadScriptBlock and JavaScript function "ajaxRequest()" (you can add this b
 	
 	
 ````
-
-
 >end

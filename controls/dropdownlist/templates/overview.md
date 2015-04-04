@@ -67,9 +67,6 @@ Before the template can use the RadDropDownList item's properties to bind the el
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	
@@ -84,6 +81,4 @@ Before the template can use the RadDropDownList item's properties to bind the el
 	
 	
 ````
-
-
 >end

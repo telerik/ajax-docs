@@ -43,9 +43,6 @@ __Example 1__: Configuring a logarithmic y-axis in a Column series that displays
 			<ChartTitle Text="Fibonacci Sequence"></ChartTitle>
 		</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -66,9 +63,6 @@ __Example 1__: Configuring a logarithmic y-axis in a Column series that displays
 			return data;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
@@ -85,8 +79,6 @@ __Example 1__: Configuring a logarithmic y-axis in a Column series that displays
 	        Return data
 	    End Function
 ````
-
-
 >end
 >caption Figure 1: Column series with a logarithmic y-axis.
 

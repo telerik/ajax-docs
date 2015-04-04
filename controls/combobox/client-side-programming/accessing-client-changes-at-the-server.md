@@ -57,9 +57,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    For Each operation As ClientOperation(Of RadComboBoxItem) In RadComboBox1.ClientChanges
@@ -78,8 +75,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	    Next 
 				
 ````
-
-
 >end
 
 # See Also

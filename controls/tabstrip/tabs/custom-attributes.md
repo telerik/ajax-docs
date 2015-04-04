@@ -75,9 +75,6 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -98,8 +95,6 @@ You can access custom attributes from code behind via the __Attributes__ collect
 	
 	
 ````
-
-
 >end
 
 ## Using attributes in client-side code
@@ -189,9 +184,6 @@ When binding the __RadTabStrip__ to data, custom attributes can be set in the __
 	
 				
 ````
-
-
-
 ````VB.NET
 	
 							Protected Sub
@@ -238,8 +230,6 @@ When binding the __RadTabStrip__ to data, custom attributes can be set in the __
 	    End Sub
 	
 ````
-
-
 >end
 
 The __"Roles"__ column is mapped to a custom attribute in the __TabDataBound__ event handler. The event handler also sets the __ToolTip__ property of the tab to the value of its custom attribute to allow for testing of the custom attribute:
@@ -261,9 +251,6 @@ The __"Roles"__ column is mapped to a custom attribute in the __TabDataBound__ e
 	
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -281,8 +268,6 @@ The __"Roles"__ column is mapped to a custom attribute in the __TabDataBound__ e
 	
 				
 ````
-
-
 >end
 
 # See Also

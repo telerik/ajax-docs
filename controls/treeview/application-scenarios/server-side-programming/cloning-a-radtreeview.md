@@ -36,14 +36,9 @@ To clone a Tree, use the __GetXml()__ and __LoadXmlString()__ methods of RadTree
 		RadTreeView2.LoadXmlString(RadTreeView1.GetXml());
 				
 ````
-
-
-
 ````VB.NET
 	     
 		RadTreeView2.LoadXmlString(RadTreeView1.GetXml())
 				
 ````
-
-
 >end

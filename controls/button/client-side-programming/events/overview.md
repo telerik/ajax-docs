@@ -60,14 +60,9 @@ To handle the desired event, the user must set the respective property to the na
 ````C#
 	        RadButton1.OnClientClicked = "Click";  //passing the name of the JS function
 ````
-
-
-
 ````VB
 	        RadButton1.OnClientClicked = "Click"  'passing the name of the JS function
 ````
-
-
 >end
 
 1. Passing anonymous JavaScript function
@@ -90,14 +85,9 @@ To handle the desired event, the user must set the respective property to the na
 ````C#
 	        RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
 ````
-
-
-
 ````VB
 	        RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
 ````
-
-
 >end
 
 __Client-side__

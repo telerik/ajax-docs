@@ -25,16 +25,11 @@ The .NET 2.0 framework provides the __SupportsXmlHttp__ property and it should b
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp;
 	
 ````
-
-
-
 ````VB
 	
 	        RadAjaxManager1.EnableAJAX = Page.Request.Browser.SupportsXmlHttp
 	
 ````
-
-
 >end
 
 When this check is made in the __Page_Load__ event handler, it will make your page work as if it was in a standard postback scenario for those browsers.

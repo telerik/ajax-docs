@@ -68,9 +68,6 @@ __Example 2__: Data binding the Line chart in __Example 1__ to an array of doubl
 			RadHtmlChart1.DataBind();
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs)
 			Dim chromeData As List(Of Double) = New List(Of Double)
@@ -90,8 +87,6 @@ __Example 2__: Data binding the Line chart in __Example 1__ to an array of doubl
 			RadHtmlChart2.DataBind()
 		End Sub
 ````
-
-
 >end
 
 ## Binding to a Generic List of Objects
@@ -137,9 +132,6 @@ __Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom ob
 			RadHtmlChart1.DataBind();
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As System.EventArgs)
 			Dim browsers As List(Of Browser) = New List(Of Browser)
@@ -152,8 +144,6 @@ __Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom ob
 			RadHtmlChart1.DataBind()
 		End Sub
 ````
-
-
 >end
 
 __Example 5__ shows how you can find the declaration of the custom class __Browser__that is used for populating the list:
@@ -192,9 +182,6 @@ __Example 5__: The declaration of the custom class __Browser__ used for populati
 		}
 	
 ````
-
-
-
 ````VB.NET
 		Public Class Browser
 			Public Sub New(name As String, marketShare As Double, isExploded As Boolean)
@@ -231,8 +218,6 @@ __Example 5__: The declaration of the custom class __Browser__ used for populati
 			End Property
 		End Class
 ````
-
-
 >end
 
 # See Also

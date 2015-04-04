@@ -43,9 +43,6 @@ The code below demonstrates binding to an [ObjectDataSource](http://msdn2.micros
 	
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -59,8 +56,6 @@ The code below demonstrates binding to an [ObjectDataSource](http://msdn2.micros
 	RadChart1.DataBind()
 				
 ````
-
-
 >end
 
 

@@ -109,9 +109,6 @@ The upcoming example uses __ObjectDataSource__ and __SelectParameter__ to repres
 	        }
 	    }
 ````
-
-
-
 ````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = "btnSearch" Then
@@ -127,8 +124,6 @@ The upcoming example uses __ObjectDataSource__ and __SelectParameter__ to repres
 	
 	    End Sub
 ````
-
-
 >end
 
 Similar approach is presented in [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/WebMailGrid/DefaultCS.aspx) of the product.

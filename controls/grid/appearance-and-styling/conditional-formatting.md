@@ -41,9 +41,6 @@ The example below shows how to use conditional formatting in a sample mailbox im
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        'Is it a GridDataItem
@@ -60,8 +57,6 @@ The example below shows how to use conditional formatting in a sample mailbox im
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >note When you apply Skin for the grid the custom style attributes set for the some of the grid rows will be overridden by the skin definitions. If you want to customize the appearance for some of the grid rows when Skin is assigned to the control, you will need to define your own CssClass for the corresponding row and apply the style preferences in its body.>
@@ -99,9 +94,6 @@ And in the code-behind:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridDataItem) Then
@@ -112,6 +104,4 @@ And in the code-behind:
 	        End If
 	    End Sub
 ````
-
-
 >end

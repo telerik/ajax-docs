@@ -48,9 +48,6 @@ Here is a simple example:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -63,8 +60,6 @@ Here is a simple example:
 	    End Sub
 	
 ````
-
-
 >end
 
 Here is how the caching works:

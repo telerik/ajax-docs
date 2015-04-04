@@ -95,9 +95,6 @@ Please refer to the JavaScript code in the demo for more information.To optimize
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -111,8 +108,6 @@ Please refer to the JavaScript code in the demo for more information.To optimize
 	    End Function
 	
 ````
-
-
 >end
 
 The grid will check automatically for "data" and "count" and will not execute a second request.
@@ -274,9 +269,6 @@ Below are some code excerpts from the second QSF example:
 	</body>
 	</html>
 ````
-
-
-
 ````C#
 	
 	
@@ -447,9 +439,6 @@ Below are some code excerpts from the second QSF example:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Overloads Overrides Sub OnInit(ByVal e As System.EventArgs)
 	        MyBase.OnInit(e)
@@ -617,6 +606,4 @@ Below are some code excerpts from the second QSF example:
 	        End Property
 	    End Class
 ````
-
-
 >end

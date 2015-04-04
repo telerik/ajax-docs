@@ -37,24 +37,16 @@ __Example:__
 	<AlternatingItemStyle BackColor="Orange" ... />
 	<ItemStyle BackColor="White" ... />
 ````
-
-
-
 ````VB.NET
 	    Dim RadGrid1 As RadGrid = New RadGrid()
 	    RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
 	    RadGrid1.ItemStyle.BackColor = Color.White
 ````
-
-
-
 ````C#
 	        RadGrid RadGrid1 = new RadGrid();
 	        RadGrid1.AlternatingItemStyle.BackColor = Color.Orange;
 	        RadGrid1.ItemStyle.BackColor = Color.White;
 ````
-
-
 >end
 
 ## Selected Item

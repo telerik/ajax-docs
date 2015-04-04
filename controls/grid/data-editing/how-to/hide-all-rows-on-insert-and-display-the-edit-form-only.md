@@ -29,9 +29,6 @@ When the grid presentation area is restricted on your page you may not want to d
 	    <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="True" />
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    private void RadGrid1_PreRender(object sender, System.EventArgs e)
 	    {
@@ -44,9 +41,6 @@ When the grid presentation area is restricted on your page you may not want to d
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        If RadGrid1.MasterTableView.IsItemInserted Then
@@ -56,6 +50,4 @@ When the grid presentation area is restricted on your page you may not want to d
 	        End If
 	    End Sub
 ````
-
-
 >end

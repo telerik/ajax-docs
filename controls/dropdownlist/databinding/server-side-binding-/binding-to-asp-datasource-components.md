@@ -40,9 +40,6 @@ If you need to map additional columns from the data source to properties of RadD
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDropDownList1_ItemDataBound(o As Object, e As DropDownListItemEventArgs)
 	        Dim dataSourceRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
@@ -51,8 +48,6 @@ If you need to map additional columns from the data source to properties of RadD
 	    End Sub
 	
 ````
-
-
 >end
 
 ## SqlDataSource
@@ -173,9 +168,6 @@ If you need to map additional columns from the data source to properties of RadD
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -215,8 +207,6 @@ If you need to map additional columns from the data source to properties of RadD
 	        End Class
 	    End Class
 ````
-
-
 >end
 
 ## XmlDataSource

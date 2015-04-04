@@ -100,9 +100,6 @@ Examine the code implementation and the comments in the source for more details.
 	        </script>
 	    </telerik:RadScriptBlock>
 ````
-
-
-
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 	    <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" EnableAJAX="true">
@@ -187,9 +184,6 @@ Examine the code implementation and the comments in the source for more details.
 	    <asp:SqlDataSource ID="EmployeesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="SELECT [EmployeeID], [LastName], [ReportsTo] FROM [Employees]" />
 ````
-
-
-
 ````C#
 	
 	        protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
@@ -331,9 +325,6 @@ Examine the code implementation and the comments in the source for more details.
 	            lblMessage.Text = message;
 	        }
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
@@ -450,6 +441,4 @@ Examine the code implementation and the comments in the source for more details.
 	        lblMessage.Text = message
 	    End Sub
 ````
-
-
 >end

@@ -44,9 +44,6 @@ There are several ways to work around this:
 	            ScriptManager.RegisterStartupScript(Page, Page.GetType(), "key", script, true);
 	        }
 ````
-
-
-
 ````VB.NET
 	        Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
 	            'business logic goes here

@@ -92,9 +92,6 @@ On the Server-side, you can operate with the TextBox value directly through the 
 	        </telerik:TextBoxSetting>
 	    </telerik:RadInputManager>
 ````
-
-
-
 ````C#
 	
 	    protected void Page_Load(object sender, EventArgs e)
@@ -103,16 +100,11 @@ On the Server-side, you can operate with the TextBox value directly through the 
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        TextBox1.Text = "Setting Value Server-Side"
 	    End Sub
 ````
-
-
 >end
 
 ## Validation

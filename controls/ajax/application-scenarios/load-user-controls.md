@@ -26,15 +26,10 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 	        UserControl MyControl = (UserControl)LoadControl(controlName);
 	        LoadMyUserControl(CurrentControl, Panel1);
 ````
-
-
-
 ````VB.NET
 	        Dim MyControl As UserControl = Me.LoadControl(controlName)
 	        Me.LoadMyUserControl(Me.CurrentControl, Panel1)
 ````
-
-
 >end
 
 1. Make sure you assign a unique ID to the dynamically loaded User Control:
@@ -45,16 +40,11 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 	        string userControlID = controlName.Split('.')[0];
 	        MyControl.ID = userControlID.Replace("/", "").Replace("~", "");
 ````
-
-
-
 ````VB.NET
 	        Dim userControlID As String = controlName.Split(".")(0)
 	        MyControl.ID = userControlID.Replace("/", "").Replace("~", "")
 	
 ````
-
-
 >end
 
 1. Place the instance inside the controls collection of the container:
@@ -137,9 +127,6 @@ And in the code-behind:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -174,8 +161,6 @@ And in the code-behind:
 	        Me.CurrentControl = controlName
 	    End Sub
 ````
-
-
 >end
 
 An online demo for loading User Controls is available at the following link:

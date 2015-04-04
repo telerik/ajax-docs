@@ -109,9 +109,6 @@ Although you can't modify the contents on __OnGridExporting__, you can use this 
 	            e.Item.Style["background-color"] = "#888888";
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	    Private isExport As Boolean = FalseProtected
@@ -125,8 +122,6 @@ Although you can't modify the contents on __OnGridExporting__, you can use this 
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 In the cases, where *Rebind* won't be invoked you can apply the styles directly:
@@ -141,9 +136,6 @@ In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 	        RadGrid1.MasterTableView.ExportToPdf();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	        For Each item As GridDataItem In RadGrid1.Items
@@ -153,8 +145,6 @@ In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 	    End Sub
 	
 ````
-
-
 >end
 
 >note To center the text in the __GridHeaderItem__ , you should set the appropriate style to each cell ( *TH* element) instead of the whole row.
@@ -174,17 +164,12 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 	        RadGrid1.MasterTableView.ExportToPdf();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click()
 	        RadGrid1.MasterTableView.GetColumn("C2").Visible = False
 	        RadGrid1.MasterTableView.ExportToPdf()
 	    End Sub
 ````
-
-
 >end
 
 >note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
@@ -206,9 +191,6 @@ There are two common ways to hide an item.
 	            RadGrid1.MasterTableView.Items[2].Visible = false;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.ExportToPdfCommandName Then
@@ -216,8 +198,6 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode
@@ -229,17 +209,12 @@ There are two common ways to hide an item.
 	        RadGrid1.MasterTableView.ExportToPdf();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
 	        RadGrid1.MasterTableView.Items(2).Visible = False
 	        RadGrid1.MasterTableView.ExportToPdf()
 	    End Sub
 ````
-
-
 >end
 
 * __On ItemCreated / ItemDataBound__ - this approach should be used when __IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
@@ -259,9 +234,6 @@ There are two common ways to hide an item.
 	            e.Item.Visible = false;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private isPdfExport As Boolean = FalseProtected
 	    Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
@@ -275,8 +247,6 @@ There are two common ways to hide an item.
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Border support
@@ -298,14 +268,9 @@ You can disable the *RadGrid* borders by settings the *BorderStyle* or *GridLine
 ````C#
 	        RadGrid1.BorderStyle = BorderStyle.None;
 ````
-
-
-
 ````VB.NET
 	        RadGrid1.BorderStyle = BorderStyle.None
 ````
-
-
 >end
 
 If you apply the same approach to the *MasterTableView* (or other *GridTableView*) you will remove the outer table border only - when combined with the above mentioned approach you can hide all borders in *RadGrid*.
@@ -315,14 +280,9 @@ If you apply the same approach to the *MasterTableView* (or other *GridTableView
 ````C#
 	        RadGrid1.MasterTableView.BorderStyle = BorderStyle.None;
 ````
-
-
-
 ````VB.NET
 	        RadGrid1.MasterTableView.BorderStyle = BorderStyle.None
 ````
-
-
 >end
 
 ## Fonts / Unicode support
@@ -346,14 +306,9 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````C#
 	  item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
 ````
-
-
-
 ````VB.NET
 	        item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
-
-
 >end
 
 ## Exporting HTML tables
@@ -420,17 +375,12 @@ It is also possible to set the widths dynamically - *Page_PreRender* event is su
 	        column.HeaderStyle.Width = Unit.Pixel(300);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_PreRender(ByVal o As Object, ByVal e As EventArgs)
 	        Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("MyColumnName")
 	        column.HeaderStyle.Width = Unit.Pixel(300)
 	    End Sub
 ````
-
-
 >end
 
 >note If you want the changes to be applied to the exported file only, you can use a boolean flag to distinguish whether the event is fired as a result of a button click (or manual invoking of the export method).

@@ -69,9 +69,6 @@ After clicking the context menu item with text __Create__ of a random TreeView N
 	    } 
 	
 ````
-
-
-
 ````VB.NET
 	    Private Sub AddNode(ByVal e As RadTreeViewContextMenuEventArgs)
 	        Dim newNode As New RadTreeNode()
@@ -95,8 +92,6 @@ After clicking the context menu item with text __Create__ of a random TreeView N
 	        edited.Text = e.Text.ToString()
 	    End Sub
 ````
-
-
 >end
 
 ````ASPNET

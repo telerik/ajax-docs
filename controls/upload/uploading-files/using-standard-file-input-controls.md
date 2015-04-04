@@ -28,16 +28,11 @@ If you add a __RadProgressManager/RadProgressArea__ to your Web page or user con
 	       
 	        
 ````
-
-
-
 ````VB.NET
 	
 	    Dim file As UploadedFile = UploadedFile.FromHttpPostedFile(Request.Files(FileUpload1.UniqueID))
 	        
 ````
-
-
 >end
 
 
@@ -86,9 +81,6 @@ The following example illustrates how to save the files uploaded with standard f
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -102,6 +94,4 @@ The following example illustrates how to save the files uploaded with standard f
 	    End If
 				
 ````
-
-
 >end

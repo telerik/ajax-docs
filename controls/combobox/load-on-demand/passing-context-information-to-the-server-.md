@@ -106,9 +106,6 @@ This example illustrates using the context to pass information about the current
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Countries_ItemsRequested(ByVal o As Object, ByVal e As RadComboBoxItemsRequestedEventArgs)
 	        Countries.Items.Add(New RadComboBoxItem("USA", "USA"))
@@ -126,6 +123,4 @@ This example illustrates using the context to pass information about the current
 	    End Sub 'Cities_ItemsRequested
 	
 ````
-
-
 >end

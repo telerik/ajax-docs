@@ -36,16 +36,11 @@ The following image formats are supported: __*.jpg, *.jpeg, *.gif, *.png, *.bmp_
 			return "*.gif,*.png,";
 		}
 ````
-
-
-
 ````VB
 		Protected Overrides Function GetImageExtensions() As String
 			Return "*.gif,*.png,"
 		End Function
 ````
-
-
 >end
 
 ### Accessing the Items in the Code-Behind
@@ -118,9 +113,6 @@ In some scenarios you might want to have direct control on which images are sele
 			}
 		}
 ````
-
-
-
 ````VB
 		Imports Microsoft.VisualBasic
 		Imports System.Collections.Generic
@@ -167,8 +159,6 @@ In some scenarios you might want to have direct control on which images are sele
 			End Class
 		End Namespace
 ````
-
-
 >end
 
 1. Register the class you added on the page that you will use the custom RadRotator:

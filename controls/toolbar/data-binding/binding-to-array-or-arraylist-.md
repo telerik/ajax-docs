@@ -52,9 +52,6 @@ The following example shows a toolbar bound to an __ArrayList__. The items in th
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Private Function GenerateArrayList() As ArrayList

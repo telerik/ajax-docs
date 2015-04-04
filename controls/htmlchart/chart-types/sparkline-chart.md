@@ -116,9 +116,6 @@ __Example 1__: How to create a Sparkline using different series types.
 							</PlotArea>
 						</telerik:RadHtmlChart>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -191,9 +188,6 @@ __Example 1__: How to create a Sparkline using different series types.
 			return dt;
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			MeanTempChart.DataSource = GetData()
@@ -264,8 +258,6 @@ __Example 1__: How to create a Sparkline using different series types.
 			Return dt
 		End Function
 ````
-
-
 >end
 
 # See Also

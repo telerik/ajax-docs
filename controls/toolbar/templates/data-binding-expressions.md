@@ -83,9 +83,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -102,8 +99,6 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 	    End Sub
 	
 ````
-
-
 >end
 
 Now the template controls reflect the properties of the underlying toolbar buttons:

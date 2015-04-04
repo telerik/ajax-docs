@@ -68,9 +68,6 @@ __Example 1__: Importing DOCX content using a Stream
 			<telerik:RadEditor runat="server" ID="RadEditor1">
 			</telerik:RadEditor>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -80,9 +77,6 @@ __Example 1__: Importing DOCX content using a Stream
 			}
 		}
 ````
-
-
-
 ````VB.NET
 	Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 		Using fileStream As New FileStream(Server.MapPath("DocxEditor.docx"), FileMode.Open, FileAccess.Read)
@@ -90,8 +84,6 @@ __Example 1__: Importing DOCX content using a Stream
 		End Using
 	End Sub
 ````
-
-
 >end
 
 ## Defining Import Settings
@@ -153,9 +145,6 @@ __Example 2__: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-
 			</telerik:RadEditor>
 			<asp:Button runat="server" ID="Button1" Text="Import DOCX" OnClick="Button1_Click" />
 ````
-
-
-
 ````C#
 	using System.IO;
 	using Telerik.Web.UI;
@@ -184,9 +173,6 @@ __Example 2__: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-
 		}
 	}
 ````
-
-
-
 ````VB.NET
 	Imports System.IO
 	Imports System.Net
@@ -215,8 +201,6 @@ __Example 2__: Adding an additional paragraph to the [RadFlowDocument](dd4dbe18-
 		End Sub
 	End Class
 ````
-
-
 >end
 
 # See Also

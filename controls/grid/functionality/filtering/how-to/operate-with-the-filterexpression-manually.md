@@ -57,9 +57,6 @@ The following example shows how to access the filter information in the __ItemCo
 	        RadGrid1.Controls.Add(new LiteralControl(string.Format("<span style='color:red'>{0}</span>", text)));
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -84,8 +81,6 @@ The following example shows how to access the filter information in the __ItemCo
 	    End Sub
 	
 ````
-
-
 >end
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.

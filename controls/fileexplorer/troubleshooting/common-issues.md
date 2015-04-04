@@ -72,9 +72,6 @@ Make sure that the path set to the property has the same format as the path show
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -112,8 +109,6 @@ Make sure that the path set to the property has the same format as the path show
 	    End Sub
 	
 ````
-
-
 >end
 
 * If an exception is thrown during the test, the text of the error (the value of the ex.Message property) will be shown as a JavaScript popup

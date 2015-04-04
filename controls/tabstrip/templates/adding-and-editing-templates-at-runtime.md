@@ -67,9 +67,6 @@ You can also add templates to __RadTabStrip__ at runtime, using the __TabTemplat
 	} 
 	
 ````
-
-
-
 ````VB.NET
 	
 	Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
@@ -104,8 +101,6 @@ You can also add templates to __RadTabStrip__ at runtime, using the __TabTemplat
 	
 				
 ````
-
-
 >end
 
 If you for some reason cannot define the template in the OnInit event of the page, you could use another approach:
@@ -135,9 +130,6 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -154,8 +146,6 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	
 				
 ````
-
-
 >end
 
 

@@ -31,17 +31,12 @@ One can override the Process method which has the following signature:
 		protected override IAsyncUploadResult Process(UploadedFile file, HttpContext context, IAsyncUploadConfiguration configuration, string tempFileName)
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Overrides Function Process(ByVal file As UploadedFile, ByVal context As HttpContext, ByVal configuration As IAsyncUploadConfiguration, ByVal tempFileName As String) As IAsyncUploadResult
 	    End Function
 	
 ````
-
-
 >end
 
 UploadedFile is the file that is currently processed.
@@ -72,9 +67,6 @@ As you may have noticed, the return type of the method is of type interface - IA
 		} 
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadAsyncUpload1_FileUploaded(ByVal sender As Object, ByVal e As FileUploadedEventArgs)
@@ -83,8 +75,6 @@ As you may have noticed, the return type of the method is of type interface - IA
 	
 	
 ````
-
-
 >end
 
 The other way around is also possible, to sent information from the page to the handler. The approach is pretty much the same, object that implements theIAsyncUploadConfiguration should be set to the RadAsyncUpload's UploadConfiguration property. The config object can be obtained using the __CreateDefaultUploadConfiguration<T>__ method that is provided by RadAsyncUpload. The object passed to this generic method should implement the IAsyncUploadConfiguration interface. After that, the object is serialized and sent to the handler with each request. Example:
@@ -105,9 +95,6 @@ The other way around is also possible, to sent information from the page to the 
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -120,8 +107,6 @@ The other way around is also possible, to sent information from the page to the 
 	        RadAsyncUpload1.UploadConfiguration = config
 	    End Sub
 ````
-
-
 >end
 
 Then, in the handler, the sent information can be obtained in the following way:
@@ -146,9 +131,6 @@ Then, in the handler, the sent information can be obtained in the following way:
 	    }  
 				
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
@@ -163,8 +145,6 @@ Then, in the handler, the sent information can be obtained in the following way:
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

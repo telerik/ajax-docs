@@ -60,9 +60,6 @@ When __InPlace__ editing is applied, the grid row is of type __GridDataItem__ in
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
@@ -76,8 +73,6 @@ When __InPlace__ editing is applied, the grid row is of type __GridDataItem__ in
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 For information about how to reference controls inside grid rows and edit forms, see [Referencing controls in grid row/edit form]({%slug grid/how-to/referencing-controls-in-grid-row-edit-form%}).
@@ -101,9 +96,6 @@ To determine whether edit or insert operation is in progress inside the ItemCrea
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -115,6 +107,4 @@ To determine whether edit or insert operation is in progress inside the ItemCrea
 	        End If
 	    End Sub
 ````
-
-
 >end

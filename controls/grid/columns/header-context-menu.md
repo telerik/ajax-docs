@@ -176,9 +176,6 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 	      </Columns>
 	    </MasterTableView></telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void RadGrid1_CustomAggregate(object sender, GridCustomAggregateEventArgs e)
 	    {
@@ -207,9 +204,6 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 	        e.Result = discontinued.ToString() + " items discontinued, " + notDiscontinued.ToString() + " not";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadGrid1_CustomAggregate(ByVal sender As Object, ByVal e As Web.UI.GridCustomAggregateEventArgs) Handles RadGrid1.CustomAggregate
 	        Dim table As DataTable
@@ -230,8 +224,6 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 	        e.Result = discontinued.ToString() + " items discontinued, " + notDiscontinued.ToString() + " not"
 	    End Sub
 ````
-
-
 >end
 
 Note that in order to be able to show the aggregates, you need to have __ShowFooter__ property of RadGrid / the respective GridTableView, or __ShowGroupFooter__ (when grouping is enabled)set to __true__.
@@ -257,9 +249,6 @@ Here is a code snippet illustrating the approach depicted above:
 	        base.OnPreRenderComplete(e);
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Overloads Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
 	        Dim menu As RadContextMenu = RadGrid1.HeaderContextMenu
@@ -272,8 +261,6 @@ Here is a code snippet illustrating the approach depicted above:
 	        MyBase.OnPreRenderComplete(e)
 	    End Sub
 ````
-
-
 >end
 
 As you may noticed from this point you need to assign the correct values for the newly added attributes. This is done with the __BuildColumnsMenu() method.__ Below is a code excerpt which demonstrates how to do that:
@@ -331,9 +318,6 @@ As you may noticed from this point you need to assign the correct values for the
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub BuildColumnsMenu(ByVal columnsParentItem As IRadMenuItemContainer, ByVal tableView As GridTableView)
 	        If tableView.EnableHeaderContextMenu Then
@@ -382,8 +366,6 @@ As you may noticed from this point you need to assign the correct values for the
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 With this implementation you will also need to wire the HeaderContextMenu.ItemClick event as follows:
@@ -407,9 +389,6 @@ With this implementation you will also need to wire the HeaderContextMenu.ItemCl
 	        RadGrid1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        AddHadler(RadGrid1.HeaderContextMenu.ItemClick, AddressOf Me.HeaderContextMenu_ItemClick)
@@ -426,8 +405,6 @@ With this implementation you will also need to wire the HeaderContextMenu.ItemCl
 	    End Sub
 	
 ````
-
-
 >end
 
 Finally, we need to wire the *OnHeaderShowing* client event. In its event handler you need to hide all items which are not related with the visible columns. The following code snippet shows how to achieve this:
@@ -439,9 +416,6 @@ Finally, we need to wire the *OnHeaderShowing* client event. In its event handle
 	      <ClientEvents OnHeaderMenuShowing="HeaderShowing" />
 	  </ClientSettings>
 ````
-
-
-
 ````JavaScript
 	       function HeaderShowing(sender, args) {
 	           args.get_menu().findItemByText("Format").get_items().forEach(function (item) {
@@ -452,8 +426,6 @@ Finally, we need to wire the *OnHeaderShowing* client event. In its event handle
 	           });
 	       }
 ````
-
-
 >end
 
 ## Localize HeaderContextMenu items
@@ -467,9 +439,6 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 	    AllowSorting="True" EnableHeaderContextFilterMenu="true" EnableHeaderContextMenu="true">
 	  </telerik:RadGrid>
 ````
-
-
-
 ````C#
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
@@ -515,9 +484,6 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        RadGrid1.HeaderContextMenu.ItemCreated += New Telerik.Web.UI.RadMenuEventHandler(HeaderContextMenu_ItemCreated)
@@ -558,6 +524,4 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 	        End Select
 	    End Sub
 ````
-
-
 >end

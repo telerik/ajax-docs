@@ -44,9 +44,6 @@ __Example 1__: Configuring a progress bar on the server-side.
 			Page.Controls.Add(progressBar);
 		}
 ````
-
-
-
 ````VB
 		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Load
 			Dim progressBar As New Telerik.Web.UI.RadProgressBar()
@@ -61,8 +58,6 @@ __Example 1__: Configuring a progress bar on the server-side.
 			Page.Controls.Add(progressBar)
 		End Sub
 ````
-
-
 >end
 
 # See Also

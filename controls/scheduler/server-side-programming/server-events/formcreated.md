@@ -44,9 +44,6 @@ You can use this event to make modifications to the editor template.
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
@@ -59,8 +56,6 @@ You can use this event to make modifications to the editor template.
 	    End Sub
 	
 ````
-
-
 >end
 
 # See Also

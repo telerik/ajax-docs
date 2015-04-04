@@ -77,9 +77,6 @@ The following application scenario shows a sample configuration of RadDropDownLi
 	
 	    }
 ````
-
-
-
 ````VB.NET
 	    Inherits System.Web.UI.Page
 	    <OperationContract> _

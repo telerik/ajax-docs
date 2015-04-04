@@ -80,9 +80,6 @@ __Setting Image manager properties in CodeBehind:__
 	        } 
 	
 ````
-
-
-
 ````VB
 	
 	        Dim viewImages As String() = New String() {"~/Images"}
@@ -98,8 +95,6 @@ __Setting Image manager properties in CodeBehind:__
 	        End If
 	
 ````
-
-
 >end
 
 Note that the viewImages, uploadImages and deleteImages variables are string arrays and that the Images folders must be:

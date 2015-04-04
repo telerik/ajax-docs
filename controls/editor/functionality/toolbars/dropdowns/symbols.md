@@ -56,9 +56,6 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 		RadEditor1.Symbols.Add("®");
 	          
 ````
-
-
-
 ````VB.NET
 	
 		'Use the unicode escape character "\u"
@@ -74,8 +71,6 @@ Use the RealFontSizes collection __Add()__method to include new items in the lis
 		RadEditor1.Symbols.Add("®")
 	
 ````
-
-
 >end
 
 When using the Symbols Collection __Add()__the Symbols dropdown will be reset, so the symbols you add will not be appended to the default set, but will rather create a new Symbol set. See the example below:

@@ -21,14 +21,9 @@ If you have a hierarchical grid each item in __GridTableView's____Items__ collec
 ````C#
 	    GridTableView nestedTableView = (RadGrid1.MasterTableView.Items[0] as GridDataItem).ChildItem.NestedTableViews[0];
 ````
-
-
-
 ````VB.NET
 	Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items[0], GridDataItem).ChildItem.NestedTableViews[0]          
 ````
-
-
 >end
 
 Or if you have a reference to an instance of an item in a child table and if you want to access the parent item/parent table view you have to write the following code:
@@ -38,16 +33,11 @@ Or if you have a reference to an instance of an item in a child table and if you
 ````C#
 	    GridDataItem parentItem = childItem.OwnerTableView.ParentItem as GridDataItem;
 ````
-
-
-
 ````VB.NET
 	
 	    Dim parentItem As GridDataItem = CType(childItem.OwnerTableView.ParentItem, GridDataItem)
 	
 ````
-
-
 >end
 
 ## Looping through all detail tables/items in Telerik RadGrid
@@ -72,9 +62,6 @@ Before proceeding with the rest of this chapter we recommend you reading the KB 
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Sub LoopHierarchyRecursive(ByVal gridTableView As GridTableView)
 	        For Each nestedViewItem As GridNestedViewItem In gridTableView.GetItems(GridItemType.NestedView)
@@ -89,8 +76,6 @@ Before proceeding with the rest of this chapter we recommend you reading the KB 
 	    End Sub
 	
 ````
-
-
 >end
 
 When __HieararchyLoadMode__ of the relevant __GridTableView__ is "__Client__" or "__ServerBind__" a much easier approach could be used. The __RadGrid.Items__ collection contains all items from all tables in the hierarchical structure of __Telerik RadGrid__. By simply looping through the collection you can access all data-bound items and their controls:
@@ -110,9 +95,6 @@ When __HieararchyLoadMode__ of the relevant __GridTableView__ is "__Client__" or
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	        For Each item As GridDataItem In RadGrid1.Items
 	            If (item.OwnerTableView.Name = "MyTableName") Then
@@ -123,8 +105,6 @@ When __HieararchyLoadMode__ of the relevant __GridTableView__ is "__Client__" or
 	            End If
 	        Next
 ````
-
-
 >end
 
 ## Looping through the detail tables/items in Telerik RadGrid on the client

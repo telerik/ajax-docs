@@ -93,9 +93,6 @@ The custom validator will check if the array containing the checked nodes has at
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub CustomValidator1_ServerValidate(ByVal source As Object, ByVal args As ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
@@ -104,8 +101,6 @@ The custom validator will check if the array containing the checked nodes has at
 	
 	
 ````
-
-
 >end
 
 # See Also

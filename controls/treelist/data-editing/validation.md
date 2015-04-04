@@ -54,9 +54,6 @@ Below are the code snippets of an example in which we add a RequiredFieldValidat
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListItemCreatedEventArgs)
 	        If TypeOf e.Item Is TreeListEditFormItem Then
@@ -71,8 +68,6 @@ Below are the code snippets of an example in which we add a RequiredFieldValidat
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Adding a validator to EditItemTemplate of TreeListTemplateColumn

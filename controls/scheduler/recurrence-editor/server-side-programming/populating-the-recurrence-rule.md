@@ -24,9 +24,6 @@ position: 1
 	RecurrenceEditor1.RecurrenceRuleText = storedRule;
 				
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -35,8 +32,6 @@ position: 1
 	RecurrenceEditor1.RecurrenceRuleText = storedRule
 				
 ````
-
-
 >end
 
 ## The following examples show how different rules can be generated in FormCrated event of the Scheduler.
@@ -64,9 +59,6 @@ __HourlyRecurence:__
 	        }
 	  }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
 	        If e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
@@ -82,8 +74,6 @@ __HourlyRecurence:__
 	    End Sub
 	
 ````
-
-
 >end
 
 __DailyRecurence:__
@@ -101,9 +91,6 @@ __DailyRecurence:__
 	            //RecurrenceDay rd = RecurrenceDay.WeekDays;
 	            //recurrenceEditor.RecurrenceRule = new DailyRecurrenceRule(rd, range);
 ````
-
-
-
 ````VB.NET
 	    'Creating a daily Recurrence rule
 	    Dim interval As Integer = 1
@@ -117,8 +104,6 @@ __DailyRecurence:__
 	
 	
 ````
-
-
 >end
 
 __WeeklyRecurence:__
@@ -137,9 +122,6 @@ __WeeklyRecurence:__
 	            //DayOfWeek startDayOfWeek = DayOfWeek.Tuesday;
 	            //recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -155,8 +137,6 @@ __WeeklyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
 	
 ````
-
-
 >end
 
 __MonthlyRecurence:__
@@ -175,9 +155,6 @@ __MonthlyRecurence:__
 	            //RecurrenceDay DayOfWeekMask = RecurrenceDay.Monday;
 	            //recurrenceEditor.RecurrenceRule = new MonthlyRecurrenceRule(dayOrdinal, DayOfWeekMask, interval, range);
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -193,8 +170,6 @@ __MonthlyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new MonthlyRecurrenceRule(dayOrdinal, DayOfWeekMask, interval, range);
 	
 ````
-
-
 >end
 
 __YearlyRecurence:__
@@ -213,9 +188,6 @@ __YearlyRecurence:__
 	            //RecurrenceDay dayOfWeek = RecurrenceDay.Monday;
 	            //recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(dayOrdinal, month, dayOfWeek, range);
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -231,8 +203,6 @@ __YearlyRecurence:__
 	    'recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(dayOrdinal, month, dayOfWeek, range);
 	
 ````
-
-
 >end
 
 The recurrence rule can be created and directly added as a property of an Appointment as shown in the code:
@@ -258,9 +228,6 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	            RadScheduler1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -282,8 +249,6 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	    End Sub
 	
 ````
-
-
 >end
 
 ## The recurrence rule can be created and directly added as a property of an Appointment as shown in the code:
@@ -309,9 +274,6 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	            RadScheduler1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -333,6 +295,4 @@ The recurrence rule can be created and directly added as a property of an Appoin
 	    End Sub
 	
 ````
-
-
 >end

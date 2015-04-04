@@ -122,9 +122,6 @@ In the code-behind:
 	
 	
 ````
-
-
-
 ````VB.NET
 	
 	
@@ -145,6 +142,4 @@ In the code-behind:
 	
 	
 ````
-
-
 >end

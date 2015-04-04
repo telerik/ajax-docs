@@ -97,9 +97,6 @@ Here is an example of how to apply these settings:
 	
 	
 ````
-
-
-
 ````VB.NET
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 			RadScheduler1.ExportToPdf()
@@ -110,6 +107,4 @@ Here is an example of how to apply these settings:
 	
 	
 ````
-
-
 >end

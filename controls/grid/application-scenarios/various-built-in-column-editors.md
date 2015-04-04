@@ -116,9 +116,6 @@ Here are the relevant code snippets from the online demo:
 	    </Data>
 	  </asp:XmlDataSource>
 ````
-
-
-
 ````C#
 	
 	    protected void Page_Load(object sender, EventArgs e)
@@ -130,9 +127,6 @@ Here are the relevant code snippets from the online demo:
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -140,8 +134,6 @@ Here are the relevant code snippets from the online demo:
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 Detailed descriptions regarding the demonstrated column types (along with comparison tables) and column usage you can find in the __Grid columns__ chapter from product's documentation:

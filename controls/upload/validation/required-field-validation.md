@@ -65,9 +65,6 @@ Here is the server validation function of the validator:
 	        е.IsValid = (RadUpload1.InvalidFiles.Count == 0);
 	    } 		
 ````
-
-
-
 ````VB.NET
 	     
 	    Private Sub CustomValidator1_ServerValidate( _
@@ -77,8 +74,6 @@ Here is the server validation function of the validator:
 	        е.IsValid = (RadUpload1.InvalidFiles.Count = 0)
 	    End Sub
 ````
-
-
 >end
 
 # See Also

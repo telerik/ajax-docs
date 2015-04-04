@@ -40,9 +40,6 @@ The steps to implement a custom storage provider are:
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Public Class CustomStorageProvider
 	        Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
@@ -55,8 +52,6 @@ The steps to implement a custom storage provider are:
 	        End Function
 	    End Class
 ````
-
-
 >end
 
 1. Set the storage provider used by __RadPersistenceManager__ for storing the serialized control state.
@@ -69,16 +64,11 @@ The steps to implement a custom storage provider are:
 	        RadPersisterManager1.StorageProvider = new CustomStorageProvider();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        RadPersisterManager1.StorageProvider = New CustomStorageProvider()
 	    End Sub
 ````
-
-
 >end
 
 The example below demonstrates how to store the state of the __RadGrid__ directly in the database.
@@ -131,9 +121,6 @@ The example below demonstrates how to store the state of the __RadGrid__ directl
 	            ProviderName="System.Data.SqlClient" SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City] FROM [Customers]"
 	            runat="server"></asp:SqlDataSource>
 ````
-
-
-
 ````C#
 	    protected void Page_Init(object sender, EventArgs e)
 	    {
@@ -154,9 +141,6 @@ The example below demonstrates how to store the state of the __RadGrid__ directl
 	        RadGrid1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Init(sender As Object, e As EventArgs)
 	        RadPersistenceManager1.StorageProvider = New DBStorageProvider()
@@ -174,8 +158,6 @@ The example below demonstrates how to store the state of the __RadGrid__ directl
 	        RadGrid1.Rebind()
 	    End Sub
 ````
-
-
 >end
 
 >tabbedCode

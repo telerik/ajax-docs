@@ -40,9 +40,6 @@ The easiest way to set credentials from the code behind is to create a custom Te
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -61,8 +58,6 @@ The easiest way to set credentials from the code behind is to create a custom Te
 	
 	    End Namespace
 ````
-
-
 >end
 
 1. Add new storage provider in the configuration file as you set the new __Type__.
@@ -123,9 +118,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -144,8 +136,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	
 	    End Namespace
 ````
-
-
 >end
 
 >tabbedCode
@@ -167,9 +157,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Imports System
 	    Imports System.Linq
@@ -189,8 +176,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	
 	    End Namespace
 ````
-
-
 >end
 
 1. Register the newly created Custom Providers in the configuration file:
@@ -254,9 +239,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <%@ WebHandler Language="VB" Class="CloudUploadHandler" %>
 	    Imports System
@@ -276,8 +258,6 @@ Common scenario is the need to switch between different Telerik Backend Services
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 # See Also

@@ -52,14 +52,9 @@ Use the __ItemSelected__ event handler to respond in server-side code when the u
 	        Label1.Text = "You selected " + e.Text + " item";
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadDropDownList1_ItemSelected(sender As Object, e As DropDownListEventArgs)
 	        Label1.Text = "You selected " + e.Text + " item"
 	    End Sub
 ````
-
-
 >end

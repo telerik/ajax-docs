@@ -59,9 +59,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	            }
 	        }
 ````
-
-
-
 ````VB.NET
 	       For Each operation As ClientOperation(Of RadTreeNode) In RadTreeView1.ClientChanges
 	
@@ -81,8 +78,6 @@ The code snippet below enumerates through all operations in the ClientChanges co
 	         End Select
 	        Next
 ````
-
-
 >end
 
 # See Also

@@ -61,16 +61,11 @@ You can also set these properties at runtime in the code-behind:
 	    RadGrid1.ClientSettings.Selecting.AllowRowSelect = true;
 	    RadGrid1.ClientSettings.Selecting.EnableDragToSelectRows = true;			
 ````
-
-
-
 ````VB.NET
 	RadGrid1.AllowMultiRowSelection = true
 	RadGrid1.ClientSettings.Selecting.AllowRowSelect = true
 	RadGrid1.ClientSettings.Selecting.EnableDragToSelectRows = true
 ````
-
-
 >end
 
 For a live example that demonstrates client-side multi-row selection, see [ Client-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).

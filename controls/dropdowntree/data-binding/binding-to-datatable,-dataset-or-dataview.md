@@ -69,9 +69,6 @@ __RadDropDownTree__ can be bound to a __DataTable__, __DataSet__ and a __DataVie
 	        return table;
 	    } 
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	
@@ -113,6 +110,4 @@ __RadDropDownTree__ can be bound to a __DataTable__, __DataSet__ and a __DataVie
 	        Return table
 	    End Function
 ````
-
-
 >end

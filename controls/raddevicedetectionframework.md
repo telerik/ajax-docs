@@ -27,14 +27,9 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 ````C#
 	    using Telerik.Web.Device.Detection;
 ````
-
-
-
 ````VBNET
 	    Imports Telerik.Web.Device.Detection
 ````
-
-
 >end
 
 ## Methods
@@ -70,9 +65,6 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        }
 	    }
 ````
-
-
-
 ````VBNET
 	    protected override void OnInit(EventArgs e)
 	    Dim screenDimensions As DeviceScreenDimensions = Detector.GetScreenDimensions(Request.UserAgent)
@@ -86,8 +78,6 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Getting the Screen Dimensions by User Agent String
@@ -107,9 +97,6 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        }
 	    }
 ````
-
-
-
 ````VBNET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent)
@@ -119,8 +106,6 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 ## Getting the Screen Dimensions by Custom Defined Ranges
@@ -143,9 +128,6 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        }
 	    }
 ````
-
-
-
 ````VBNET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        Dim customScreenRanges As New ScreenRanges()
@@ -160,6 +142,4 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 	        End If
 	    End Sub
 ````
-
-
 >end

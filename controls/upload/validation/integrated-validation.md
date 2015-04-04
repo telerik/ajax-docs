@@ -59,16 +59,11 @@ The __AllowedFileExtensions__ property lists the valid file extensions for uploa
 		RadUpload1.AllowedFileExtensions = new string[] {".zip", ".jpg", ".jpeg"};
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    RadUpload1.AllowedFileExtensions = New String() {".zip", ".jpg", ".jpeg"}
 				
 ````
-
-
 >end
 
 __AllowedMimeTypes__
@@ -128,9 +123,6 @@ The following example shows how to process invalid files. It provides feedback t
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
@@ -148,8 +140,6 @@ The following example shows how to process invalid files. It provides feedback t
 	        End If
 	    End Sub
 ````
-
-
 >end
 
 # See Also

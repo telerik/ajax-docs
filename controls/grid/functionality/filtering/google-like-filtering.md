@@ -66,9 +66,6 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 	         OnClick="clrFilters_Click">
 	       </asp:Button>	
 ````
-
-
-
 ````C#
 	
 	
@@ -141,9 +138,6 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	    Private dt As DataTable
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
@@ -198,8 +192,6 @@ __Note:__ In this case search is performed for matches in the default grid sourc
 	        Return myDataTable
 	    End Function
 ````
-
-
 >end
 
 >tabbedCode

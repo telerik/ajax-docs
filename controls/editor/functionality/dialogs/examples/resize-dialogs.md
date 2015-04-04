@@ -40,9 +40,6 @@ __Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ 
 	        linkManager.Width = Unit.Pixel(500);
 	    }
 ````
-
-
-
 ````VB
 	
 	    Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
@@ -57,8 +54,6 @@ __Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ 
 	    End Sub
 	
 ````
-
-
 >end
 
 

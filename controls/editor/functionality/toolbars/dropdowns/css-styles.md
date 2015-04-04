@@ -67,17 +67,12 @@ Use the Add() method to include classes in the CssClasses collection. In the exa
 	        RadEditor1.CssClasses.Add("Images Class", ".img");
 	
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.CssClasses.Add("Links Class", "a.link")
 	        RadEditor1.CssClasses.Add("Images Class", ".img")
 	
 ````
-
-
 >end
 
 >caution Make sure you specify the exact name of the class (i.e. " __a.link__ " - not "a" or "link"; " __.img__ " - not "img").

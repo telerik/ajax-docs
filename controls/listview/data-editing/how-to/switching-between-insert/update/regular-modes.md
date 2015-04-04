@@ -33,9 +33,6 @@ One of the most common scenario is to display items in edit mode or the insert i
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_ItemCommand(sender As Object, e As RadListViewCommandEventArgs)
 	        If e.CommandName = RadListView.EditCommandName Then
@@ -159,9 +156,6 @@ There are three different approaches you can follow when you need to show the Ra
 	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem;
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnAddNewRecord_Click(sender As Object, e As EventArgs)
 	        RadListView1.InsertItemPosition = RadListViewInsertItemPosition.FirstItem
@@ -262,9 +256,6 @@ There are three different approaches you can follow when you need to show the Ra
 	        RadListView1.ShowInsertItem();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnAddNewRecord1_Click(sender As Object, e As EventArgs)
 	        RadListView1.ShowInsertItem()
@@ -359,9 +350,6 @@ For closing the insert form you can use the below code:
 	        RadListView1.InsertItem.FireCommandEvent("Cancel", "");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnCancelInsert_Click(sender As Object, e As EventArgs)
 	        RadListView1.ShowInsertItem(RadListViewInsertItemPosition.None)
@@ -451,9 +439,6 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs)
 	        If Not IsPostBack Then
@@ -533,9 +518,6 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadListView1_PreRender(sender As Object, e As EventArgs)
 	        If Not IsPostBack Then
@@ -609,9 +591,6 @@ Another case is where you need to close all edited items on external button clic
 	        RadListView1.Rebind();
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub btnClearEditedItems_Click(sender As Object, e As EventArgs)
 	        RadListView1.EditIndexes.Clear()

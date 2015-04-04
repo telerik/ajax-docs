@@ -72,9 +72,6 @@ Configure RadChart like this:
 	    #VALUE";
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -84,8 +81,6 @@ Configure RadChart like this:
 	    #VALUE"
 				
 ````
-
-
 >end
 
 This is the result:

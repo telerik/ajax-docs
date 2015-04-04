@@ -57,9 +57,6 @@ Here it is also demonstrated how to hide the default Apply button of the RadFilt
 	    <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	        SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, Freight FROM Orders" />
 ````
-
-
-
 ````C#
 	
 	
@@ -78,9 +75,6 @@ Here it is also demonstrated how to hide the default Apply button of the RadFilt
 	
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
@@ -94,8 +88,6 @@ Here it is also demonstrated how to hide the default Apply button of the RadFilt
 	    End Function
 	
 ````
-
-
 >end
 
 Find a live demo illustrating the integration of RadFilter with RadGrid [here](http://demos.telerik.com/aspnet-ajax/Filter/Examples/Integration/DefaultCS.aspx).

@@ -64,9 +64,6 @@ You can also add templates to __RadMenu__ at runtime, using the __ItemTemplate__
 	    }
 	    			
 ````
-
-
-
 ````VB.NET
 	    Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
 	        RadMenu1.ItemTemplate = New TextBoxTemplate()
@@ -101,8 +98,6 @@ You can also add templates to __RadMenu__ at runtime, using the __ItemTemplate__
 	        End Sub
 	    End Class
 ````
-
-
 >end
 
 If you for some reason cannot define the template in the OnInit event of the page, you could use another approach:
@@ -133,9 +128,6 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	    }
 	    			
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -150,8 +142,6 @@ If you for some reason cannot define the template in the OnInit event of the pag
 	    End Sub
 	
 ````
-
-
 >end
 
 The end result of this code looks like the following:

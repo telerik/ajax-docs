@@ -52,9 +52,6 @@ In the example below, HTMLGenericControls are created and populated with an HTML
 		}
 	
 ````
-
-
-
 ````VB.NET
 	
 	    Protected Sub RadToolTipManager2_AjaxUpdate(ByVal sender As Object, ByVal e As Telerik.Web.UI.ToolTipUpdateEventArgs)
@@ -66,8 +63,6 @@ In the example below, HTMLGenericControls are created and populated with an HTML
 	    End Sub
 	
 ````
-
-
 >end
 
 ## Loading Content via a WebService
@@ -114,9 +109,6 @@ The WebService itself needs to have the following signature (including the param
 	        }
 	    }
 ````
-
-
-
 ````VB.NET
 	    <ScriptService()> _
 	    Public Class WebServiceName
@@ -209,9 +201,6 @@ The WCF WebService itself needs to have the following signature:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	<ServiceContract([Namespace]:="")> _
 	<AspNetCompatibilityRequirements(RequirementsMode:=AspNetCompatibilityRequirementsMode.Allowed)> _
@@ -275,9 +264,6 @@ Where the context object is the following:
 	    }
 	}
 ````
-
-
-
 ````VB.NET
 	<Serializable> _
 	Public Class ToolTipContext

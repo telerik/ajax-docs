@@ -50,17 +50,12 @@ Use the __Snippets__collection __Add()__method to include new items in the list.
 	            RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manager<br>");      
 	          
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Snippets.Add("Product Template", "<table> <tr> <td><img src='http://www.telerik.com/DEMOS/ASPNET/Editor/Img/productLogo.gif' /> </td></tr></table>")
 	        RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manager<br>")
 	
 ````
-
-
 >end
 
 To create a dropdown with image thumbnails, insert the img tag as the first argument of the __Add()__ method. The img tag content is the path to the image source:
@@ -75,16 +70,11 @@ To create a dropdown with image thumbnails, insert the img tag as the first argu
 	            RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cut.gif' /> test", "test");
 	          
 ````
-
-
-
 ````VB
 	
 	        RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cut.gif' /> test", "test")
 	
 ````
-
-
 >end
 
 ## Using the ToolsFile

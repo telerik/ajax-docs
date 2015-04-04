@@ -36,9 +36,6 @@ The following example demonstrates how to use the LauncherClick event to determi
 	    }
 	
 ````
-
-
-
 ````VB.NET
 	
 		Protected Sub RadRibbonBar1_LauncherClick(ByVal sender As Object, ByVal e As RibbonBarLauncherClickEventArgs)
@@ -49,8 +46,6 @@ The following example demonstrates how to use the LauncherClick event to determi
 	
 	
 ````
-
-
 >end
 
 # See Also

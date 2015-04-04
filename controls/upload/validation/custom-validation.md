@@ -62,9 +62,6 @@ The following example illustrates using custom validation to bypass the integrat
 	    }
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -89,8 +86,6 @@ The following example illustrates using custom validation to bypass the integrat
 	
 	
 ````
-
-
 >end
 
 >note For an example of custom validation that checks the content of the uploaded file, see[ValidatingFile]({%slug upload/server-side-programming/validatingfile%}).

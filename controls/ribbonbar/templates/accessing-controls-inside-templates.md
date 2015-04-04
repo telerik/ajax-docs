@@ -55,15 +55,10 @@ Here is the markup:
 			RadComboBox combobox1 = (RadComboBox)tab2.Groups[0].Items[0].FindControl("RadComboBox1");
 	
 ````
-
-
-
 ````VB.NET
 	
 		Dim tab2 As RibbonBarTab = RadRibbonBar1.FindTabByValue("Tab2")
 		Dim combobox1 As RadComboBox = DirectCast(tab2.Groups(0).Items(0).FindControl("RadComboBox1"), RadComboBox)
 	
 ````
-
-
 >end

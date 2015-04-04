@@ -43,15 +43,10 @@ arguments:
 	    }  
 				
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadAjaxManager1_AjaxSettingCreated(ByVal sender As Object, ByVal e As AjaxSettingCreatedEventArgs)
 	        RadAjaxManager1.Alert("AjaxSetting Created for initiator " + e.Initiator.ClientID + " and updated control " + e.Updated.ClientID)
 	    End Sub
 	
 ````
-
-
 >end

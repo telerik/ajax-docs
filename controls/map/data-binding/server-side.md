@@ -108,9 +108,6 @@ __Example 1__: Data binding layers and markers in a map to a collection of custo
 			};
 	
 ````
-
-
-
 ````VB
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not IsPostBack Then
@@ -142,8 +139,6 @@ __Example 1__: Data binding layers and markers in a map to a collection of custo
 	
 		End Function
 ````
-
-
 >end
 
 # See Also

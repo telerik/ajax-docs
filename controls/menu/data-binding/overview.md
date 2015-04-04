@@ -56,16 +56,11 @@ Usually, you also want to do one or more of the following:
 	        e.Item.ToolTip = "Read more about " + (string)DataBinder.Eval(e.Item.DataItem, "Text");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
 	        e.Item.ToolTip = "Read more about " + _  CStr(DataBinder.Eval(e.Item.DataItem, "Text"))
 	    End Sub
 ````
-
-
 >end
 
 1. As an alternative to using the __ItemDataBound__ event handler, you can use [DataBindings]({%slug menu/data-binding/using-databindings%}) to declaratively map fields from the data source to properties of menu items. The __DataBindings__ collection also lets you map fields differently, based on the level of items.

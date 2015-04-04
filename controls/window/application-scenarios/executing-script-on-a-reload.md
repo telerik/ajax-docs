@@ -66,9 +66,6 @@ There are times when you want to perform a postback from a __RadWindow__ object,
 	        ClientScript.RegisterStartupScript(Page.GetType(), "closeWindow", "<script type='text/javascript'>RefreshParentPage()</script>");
 	    }
 ````
-
-
-
 ````VB.NET
 	    Private Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
 	        ClientScript.RegisterStartupScript(Page.GetType(), "closeWindow", "<script type='text/javascript'>CloseOnReload()</script>")
@@ -77,8 +74,6 @@ There are times when you want to perform a postback from a __RadWindow__ object,
 	        ClientScript.RegisterStartupScript(Page.GetType(), "closeWindow", "<script type='text/javascript'>RefreshParentPage()</script>")
 	    End Sub
 ````
-
-
 >end
 
 

@@ -105,15 +105,10 @@ To set additional properties or overwrite already populated fields, use the [Nod
 	    e.Node.ToolTip = sitemapNode.Title + " - " + sitemapNode.Url ;
 	}		
 ````
-
-
-
 ````VB.NET
 	    Protected Sub RadSiteMap1_NodeDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadSiteMapNodeEventArgs)
 	        Dim sitemapNode As SiteMapNode = TryCast(e.Node.DataItem, SiteMapNode)
 	        e.Node.ToolTip = sitemapNode.Title + " - " + sitemapNode.Url
 	    End Sub
 ````
-
-
 >end

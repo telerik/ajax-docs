@@ -54,9 +54,6 @@ the time picker:
 	
 				
 ````
-
-
-
 ````VB.NET
 	     
 	
@@ -81,8 +78,6 @@ the time picker:
 	
 				
 ````
-
-
 >end
 
 # See Also

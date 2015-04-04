@@ -100,9 +100,6 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 	            </ClientSettings>
 	        </telerik:RadListView>
 ````
-
-
-
 ````JavaScript
 	        <script type="text/javascript">
 	            function pageLoad() {
@@ -112,9 +109,6 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 	            }
 	        </script>
 ````
-
-
-
 ````C#
 	    protected override void OnPreLoad(EventArgs e)
 	    {
@@ -127,9 +121,6 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 	        base.OnPreLoad(e);
 	    }
 ````
-
-
-
 ````VB
 	    Protected Overrides Sub OnPreLoad(e As EventArgs)
 		Dim serializer = New System.Web.Script.Serialization.JavaScriptSerializer()
@@ -140,8 +131,6 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 	        MyBase.OnPreLoad(e)
 	    End Sub
 ````
-
-
 >end
 
 ## Binding to ASMX Web Services
@@ -245,9 +234,6 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 	        <%--We add a hidden data pager to have its styles applied on the page--%>
 	        <telerik:RadDataPager runat="server" style="display:none"></telerik:RadDataPager>
 ````
-
-
-
 ````JavaScript
 	        <script type="text/javascript">
 	            function toggleAllItems(checkbox, listView) {
@@ -269,8 +255,6 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 	            }
 	        </script>
 ````
-
-
 >end
 
 If data and total row count is returned in one and the same service call, the __CountPath__ setting is omitted. In this case, RadListView searches for fields with name __Data__ and __Count__ in the web service JSON response, respectively. To modify the names of the response fields RadListView looks for, set the __DataPropertyName__ and __CountPropertyName__ settings.
@@ -384,9 +368,6 @@ For automatic databinding to WCF services, RadListView is configured in an ident
 	        <%--We add a hidden data pager to have its styles applied on the page--%>
 	        <telerik:RadDataPager ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
 ````
-
-
-
 ````JavaScript
 	        <script type="text/javascript">
 	            function toggleAllItems(checkbox, listView) {
@@ -408,8 +389,6 @@ For automatic databinding to WCF services, RadListView is configured in an ident
 	            }
 	        </script>
 ````
-
-
 >end
 
 ## Binding to OData Services
@@ -524,9 +503,6 @@ Binding RadListView to OData service is quite straightforward. The only two requ
 	        <%--We add a hidden data pager to have its styles applied on the page--%>
 	        <telerik:RadDataPager ID="RadDataPager1" runat="server" style="display:none"></telerik:RadDataPager>
 ````
-
-
-
 ````JavaScript
 	        <script type="text/javascript">
 	            function toggleAllItems(checkbox, listView) {
@@ -565,8 +541,6 @@ Binding RadListView to OData service is quite straightforward. The only two requ
 	            }
 	        </script>
 ````
-
-
 >end
 
 ## Web Service Default Parameters

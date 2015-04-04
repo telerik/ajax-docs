@@ -92,9 +92,6 @@ __Example 1__: How do yo modify the __dataItem__ in the event and reflect the ch
 			}
 		</script>
 ````
-
-
-
 ````C#
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -116,9 +113,6 @@ __Example 1__: How do yo modify the __dataItem__ in the event and reflect the ch
 			return tbl;
 		}
 ````
-
-
-
 ````VB.NET
 	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	        PieChart1.DataSource = GetData()
@@ -138,8 +132,6 @@ __Example 1__: How do yo modify the __dataItem__ in the event and reflect the ch
 	        Return tbl
 	    End Function
 ````
-
-
 >end
 
 __Example 2__: The following example shows how to retreive some information about the clicked __RadHtmlChart__ via the listed properties.

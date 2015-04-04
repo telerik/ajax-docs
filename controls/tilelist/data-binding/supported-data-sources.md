@@ -120,9 +120,6 @@ This example will generate a simple DataTable with code so that its structure is
 		}
 	
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not Page.IsPostBack Then
@@ -242,9 +239,6 @@ This example will use a custom class and create a short List with its instances 
 			}
 		}
 ````
-
-
-
 ````VB.NET
 		Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 			If Not Page.IsPostBack Then
