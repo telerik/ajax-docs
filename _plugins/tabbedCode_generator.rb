@@ -9,22 +9,21 @@ module Reading
 		end
 	
 		def createTabbedCode(content)
-			tab_start = ">tabbedCode"
-			tab_end = ">end"
-
-			start_length = tab_start.length
-			end_length = tab_end.length
+			tab_start = /````\w/
+			tab_end = /````\s{2,}/
 
 			first_index = content.index(tab_start)
-			last_index = content.index(tab_end)
+			last_index = first_index && content.index(tab_end, first_index)
+			indexes = []
+			
+			while first_index && !indexes.include?(first_index)
+				indexes.push(first_index)
 
-			while content.index(tab_start)
-				block = @converter.convert(content[first_index+start_length..last_index-1]) 
+				block = @converter.convert(block) 
+				content[first_index..last_index + 4] = "<div class='tabbedCode'>" + block + "</div>"
 
-				content[first_index..last_index+end_length] = "<div class='tabbedCode'>" + block + "</div>"
-
-				first_index = content.index(tab_start)
-				last_index = content.index(tab_end)
+				first_index = content.index(tab_start, last_index)
+				last_index = first_index && content.index(tab_end, last_index + 4)
 			end
 		end
 	end
