@@ -18,13 +18,18 @@ module Reading
 			
 			while first_index && !indexes.include?(first_index)
 				indexes.push(first_index)
-
+				block = encode_liquid(content[first_index..last_index + 4])
 				block = @converter.convert(block) 
+
 				content[first_index..last_index + 4] = "<div class='tabbedCode'>" + block + "</div>"
 
 				first_index = content.index(tab_start, last_index)
 				last_index = first_index && content.index(tab_end, last_index + 4)
 			end
+		end
+		
+		def encode_liquid(content)
+		  content = content.gsub("{{", "{{ '{{' }}")
 		end
 	end
 end
