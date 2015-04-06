@@ -153,7 +153,7 @@ navigation:
         title: "RadCalendar"
     "*captcha":
         title: "RadCaptcha"
-    "*chart":
+    "*/chart":
         title: "RadChart"
     "*clientdatasource":
         title: "RadClientDataSource"
@@ -189,7 +189,7 @@ navigation:
         title: "RadGantt"
     "*gauge":
         title: "RadGauge"
-    "*grid":
+    "*/grid":
         title: "RadGrid"
     "*htmlchart":
         title: "RadHtmlChart"
@@ -205,7 +205,7 @@ navigation:
         title: "RadListBox"
     "*listview":
         title: "RadListView"
-    "*map":
+    "*/map":
         title: "RadMap"
     "*mediaplayer":
         title: "RadMediaPlayer"
