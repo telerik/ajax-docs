@@ -7,6 +7,7 @@ class SlugTag < Liquid::Block
         site = context.registers[:site]
         page = site.pages.find {|p| p.data['slug'] == @text }
         if page
+			## Use page.url instead of page.url.sub('.html', '') when using Jekyll server.
             page.url.sub('.html', '')
         else
             page_url = context.environments.first["page"]["url"]
