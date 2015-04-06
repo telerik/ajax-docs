@@ -79,36 +79,12 @@ function onExpand(e) {
 
 $(function() {
 
-    var pre = $("pre");
-
-    pre.filter(function(_, element) {
-        return !$(element).parent().is("div.tabbedCode");
-    }).each(function() {
-        var snippet = $(this);
-        var tab = $("<li>")
-            .text(snippet.attr("lang"))
-            .addClass("k-state-active");
-
-        var tabstrip = $("<div>")
-                        .insertBefore(snippet)
-                        .append($("<ul>").append(tab))
-                        .append(snippet);
-
-        snippet.wrap("<div>");
-
-        tabstrip.kendoTabStrip({ animation: false });
-    });
-
     $("div.tabbedCode").each(function() {
         var container = $(this);
         var langs = container.find("pre");
         var tabs = $.map(langs, function(item) {
             return $("<li>").text($(item).attr("lang"));
         });
-
-        if (tabs.length < 2) {
-            return;
-        }
 
         tabs[0].addClass("k-state-active");
 
@@ -132,7 +108,7 @@ $(function() {
         'TypeScript': 'commonjs',
     }
 
-    pre.each(function(index) {
+    $("pre").each(function(index) {
         var langExtension = codeSampleMapper[$(this).attr('lang')];
         $(this).addClass('lang-' + langExtension).addClass("prettyprint");
     });
