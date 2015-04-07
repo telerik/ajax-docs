@@ -11,7 +11,7 @@ robocopy _site //telerik.com/Resources/AppDirector/Drops/AspnetAjax/AspnetAjax.D
 
 VERSION="1.0.`date +%s`";
 
-PAYLOAD="{ \"Folder\": \"//telerik.com/Resources/AppDirector/Drops/AspnetAjax\", \"Version\": \"$VERSION\", \"Environment\": \"SIT\", \"RepositoryName\": \"Local\", \"Workspace\": \"Documentation\", \"ClientId\": \"uri:platform.cp.builds\", \"ClientSecret\": \"3edd5acdb61db37f3ab2bd735b058911\", \"SkipRegisterPackage\": false, \"OverwritePackage\": false, \"SkipDateChange\": true, \"SkipDeployment\": false, \"DeploymentApiUrl\": \"http://deploy.telerik.com/api/deployment/v1\", \"RepositoryUrl\": \"http://deploy.telerik.com/api/repository/v1\", \"TokenEndpoint\": \"https://identity.telerik.com/v2/oauth/telerik/token\", \"PackageNameFormat\": \"package-{0}-{1}.zip\" }";
+PAYLOAD="{ \"Folder\": \"//telerik.com/Resources/AppDirector/Drops/AspnetAjax\", \"Version\": \"$VERSION\", \"Environment\": \"UAT\", \"RepositoryName\": \"Local\", \"Workspace\": \"Documentation\", \"ClientId\": \"uri:platform.cp.builds\", \"ClientSecret\": \"3edd5acdb61db37f3ab2bd735b058911\", \"SkipRegisterPackage\": false, \"OverwritePackage\": false, \"SkipDateChange\": true, \"SkipDeployment\": false, \"DeploymentApiUrl\": \"http://deploy.telerik.com/api/deployment/v1\", \"RepositoryUrl\": \"http://deploy.telerik.com/api/repository/v1\", \"TokenEndpoint\": \"https://identity.telerik.com/v2/oauth/telerik/token\", \"PackageNameFormat\": \"package-{0}-{1}.zip\" }";
 
 echo "posting $PAYLOAD";
 
@@ -30,7 +30,7 @@ do
         echo 'Deployment failed :(';
         exit 1;
     else
-        RESULT=$(curl -s http://deploy.telerik.com/api/deployment/v1/workspaces/Documentation/stacks/AspnetAjax.Docs/environments/SIT/status)
+        RESULT=$(curl -s http://deploy.telerik.com/api/deployment/v1/workspaces/Documentation/stacks/AspnetAjax.Docs/environments/UAT/status)
         echo "Deployment in progress, current status: $RESULT"
         sleep 2
     fi
