@@ -55,9 +55,3 @@ RadToolBar for ASP.NET AJAX Q3 2008 is fully backward compatible with its previo
 RadToolBar for ASP.NET AJAX Q3 2008 is fully backward compatible with its previous version (Q1 2008)
 
 
-
-
-
-# See Also
-
- * [What is New]({%slug toolbar/what-is-new%})

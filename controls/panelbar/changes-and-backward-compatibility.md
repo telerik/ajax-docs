@@ -52,6 +52,4 @@ RadPanelBar is fully backward compatible with its previous version (Q2 2008).
 
 RadPanelBar is fully backward compatible with its previous version (Q1 2008).
 
-# See Also
 
- * [What is New]({%slug panelbar/what-is-new%})

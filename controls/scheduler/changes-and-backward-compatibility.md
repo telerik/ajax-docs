@@ -145,9 +145,3 @@ __Non-breaking changes__:
 * In WeekView, the VisibleRangeStart and VisibleRangeEnd now include the whole period (not only business hours) when all day row is displayed.
 
 
-
-
-
-# See Also
-
- * [What is New]({%slug scheduler/what-is-new%})

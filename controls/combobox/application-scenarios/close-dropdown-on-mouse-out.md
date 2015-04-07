@@ -30,7 +30,7 @@ Just add the following javascript code to your aspx page containing the RadCombo
 
 
 
-The javascript code utilizes the [jQuery](http://jquery.com) library which is added in the RadComboBox in the [Q1 2009]({%slug combobox/what-is-new%}) release. The above code runs fine in both Internet Explorer and Firefox.
+The javascript code utilizes the [jQuery](http://jquery.com) library which is added in the RadComboBox in the **Q1 2009** release. The above code runs fine in both Internet Explorer and Firefox.
 
 The __mouseleave__ event is IE specific and is similar to the mouseout event but with one important difference: the __mouseleave__ (and its mouseenter counterpart) __does not bubble__.
 

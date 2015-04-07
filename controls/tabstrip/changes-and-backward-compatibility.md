@@ -52,8 +52,3 @@ RadTabStrip is fully backward compatible with its previous version (Q2 2008)
 
 RadTabStrip is fully backward compatible with its previous version (Q1 2008)
 
-
-
-# See Also
-
- * [What's New]({%slug tabstrip/what's-new%})

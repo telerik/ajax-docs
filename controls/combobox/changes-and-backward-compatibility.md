@@ -78,6 +78,3 @@ RadComboBox for ASP.NET AJAX Q3 2008 is fully backward compatible with its previ
 
 RadComboBox for ASP.NET AJAX Q3 2008 is fully backward compatible with its previous version (Q1 2008)
 
-# See Also
-
- * [What is New]({%slug combobox/what-is-new%})

@@ -65,11 +65,7 @@ To create an appointment using __RadScheduler__:
 1. When you complete the advanced insert form, click the "__Save__" button. If you want to cancel the appointment, click the "__Cancel__" button.If the appointment is marked recurrent, an ![Recurrence Symbol](images/scheduler_recurrencesymbol.png) icon appears at the top left corner of the appointment.
 
 # See Also
-
- * [RadScheduler Structure]({%slug scheduler/usability/radscheduler-structure%})
-
- * [Views]({%slug scheduler/appearance-and-styling/views%})
-
+ 
  * [Editing Appointments]({%slug scheduler/usability/editing-appointments%})
 
  * [Resizing Moving and Deleting Appointments]({%slug scheduler/usability/resizing-moving-and-deleting-appointments%})
