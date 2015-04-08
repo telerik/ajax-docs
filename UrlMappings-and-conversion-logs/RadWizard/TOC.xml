@@ -1,0 +1,57 @@
+<Content>
+  <Article title="Overview" slug="wizard/overview" />
+  <Article title="Getting Started" slug="wizard/getting-started" />
+  <Article title="Design Time" slug="wizard/design-time" />
+  <Folder title="Structure" path="wizard/structure">
+    <Article title="RadWizard Element " slug="wizard/structure/radwizard-element-" />
+    <Article title="Steps" slug="wizard/structure/steps" />
+    <Article title="Progress Bar" slug="wizard/structure/progress-bar" />
+    <Article title="Navigation Bar" slug="wizard/structure/navigation-bar" />
+  </Folder>
+  <Folder title="Functionality" path="wizard/functionality">
+    <Article title="Orientation" slug="wizard/functionality/orientation" />
+    <Article title="Validation" slug="wizard/functionality/validation" />
+    <Article title="Tracking History" slug="wizard/functionality/tracking-history" />
+    <Article title="Render Selected Step Only" slug="wizard/functionality/render-selected-step-only" />
+  </Folder>
+  <Folder title="Mobile Support" path="wizard/mobile-support">
+    <Article title="Responsive Adaptive and Elastic Capabilities" slug="wizard/mobile-support/responsive-adaptive-and-elastic-capabilities" />
+    <Article title="Gestures" slug="wizard/mobile-support/gestures" />
+    <Article title="Mobile Rendering" slug="wizard/mobile-support/mobile-rendering" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="wizard/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="wizard/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Localization" slug="wizard/accessibility-and-internationalization/localization" />
+    <Article title="RTL Support" slug="wizard/accessibility-and-internationalization/rtl-support" />
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="wizard/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+  </Folder>
+  <Folder title="Client-side Programming" path="wizard/client-side-programming">
+    <Article title="Overview" slug="wizard/client-side-programming/overview" />
+    <Article title="Wizard Object" slug="wizard/client-side-programming/wizard-object" />
+    <Article title="RadWizardStep Object" slug="wizard/client-side-programming/radwizardstep-object" />
+    <Article title="RadWizardStepCollection Object" slug="wizard/client-side-programming/radwizardstepcollection-object" />
+    <Folder title="Events" path="wizard/client-side-programming/events">
+      <Article title="Overview" slug="wizard/client-side-programming/events/overview" />
+      <Article title="Load" slug="wizard/client-side-programming/events/load" />
+      <Article title="ButtonClicking" slug="wizard/client-side-programming/events/buttonclicking" />
+      <Article title="ButtonClicked" slug="wizard/client-side-programming/events/buttonclicked" />
+    </Folder>
+  </Folder>
+  <Folder title="Server-side Programming" path="wizard/server-side-programming">
+    <Folder title="Events" path="wizard/server-side-programming/events">
+      <Article title="Overview" slug="wizard/server-side-programming/events/overview" />
+      <Article title="ActiveStepChanged" slug="wizard/server-side-programming/events/activestepchanged" />
+      <Article title="CancelButtonClick" slug="wizard/server-side-programming/events/cancelbuttonclick" />
+      <Article title="FinishButtonClick" slug="wizard/server-side-programming/events/finishbuttonclick" />
+      <Article title="NavigationBarButtonClick" slug="wizard/server-side-programming/events/navigationbarbuttonclick" />
+      <Article title="NextButtonClick" slug="wizard/server-side-programming/events/nextbuttonclick" />
+      <Article title="PreviousButtonClick" slug="wizard/server-side-programming/events/previousbuttonclick" />
+      <Article title="WizardStepCreated" slug="wizard/server-side-programming/events/wizardstepcreated" />
+    </Folder>
+  </Folder>
+  <Folder title="Appearance and Styling" path="wizard/appearance-and-styling">
+    <Article title="Skins" slug="wizard/appearance-and-styling/skins" />
+    <Article title="Skin Selectors" slug="wizard/appearance-and-styling/skin-selectors" />
+    <Article title="Adding Images to Steps" slug="wizard/appearance-and-styling/adding-images-to-steps" />
+  </Folder>
+</Content>

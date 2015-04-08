@@ -1,0 +1,158 @@
+<Content>
+  <Article title="Overview" slug="combobox/overview" />
+  <Article title="Getting Started" slug="combobox/getting-started" />
+  <Folder title="Design Time" path="combobox/design-time">
+    <Article title="Smart Tag" slug="combobox/design-time/smart-tag" />
+    <Article title="RadComboBox Item Builder" slug="combobox/design-time/radcombobox-item-builder" />
+    <Article title="Template Design Surface" slug="combobox/design-time/template-design-surface" />
+    <Article title="Data Binding" slug="combobox/design-time/data-binding" />
+  </Folder>
+  <Article title="What is New" slug="combobox/what-is-new" />
+  <Article title="RadComboBox Structure" slug="combobox/radcombobox-structure" />
+  <Article title="Changes and backward compatibility" slug="combobox/changes-and-backward-compatibility" />
+  <Article title="Migrating from RadComboBox Classic to ASP.NET AJAX version" slug="combobox/migrating-from-radcombobox-classic-to-asp.net-ajax-version" />
+  <Folder title="Functionality" path="combobox/functionality">
+    <Article title="Filtering" slug="combobox/functionality/filtering" />
+    <Article title="Sorting" slug="combobox/functionality/sorting" />
+    <Article title="Validation" slug="combobox/functionality/validation" />
+    <Article title="Autocomplete" slug="combobox/functionality/autocomplete" />
+    <Article title="CheckBox Support" slug="combobox/functionality/checkbox-support" />
+    <Article title="End User Restriction" slug="combobox/functionality/end-user-restriction" />
+    <Article title="Cross-Page PostBacks" slug="combobox/functionality/cross-page-postbacks" />
+    <Article title="Dropdown AutoWidth" slug="combobox/functionality/dropdown-autowidth" />
+  </Folder>
+  <Folder title="Mobile Support" path="combobox/mobile-support">
+    <Article title="Render Modes" slug="combobox/mobile-support/render-modes" />
+  </Folder>
+  <Folder title="Templates" path="combobox/templates">
+    <Article title="Overview" slug="combobox/templates/overview" />
+    <Article title="Adding Templates" slug="combobox/templates/adding-templates" />
+    <Article title="Headers" slug="combobox/templates/headers" />
+    <Article title="Footers" slug="combobox/templates/footers" />
+    <Article title="Data Binding in Templates" slug="combobox/templates/data-binding-in-templates" />
+    <Article title="Accessing Controls Inside Templates" slug="combobox/templates/accessing-controls-inside-templates" />
+    <Article title="Client Templates" slug="combobox/templates/client-templates" />
+  </Folder>
+  <Folder title="Data Binding" path="combobox/data-binding">
+    <Article title="Overview" slug="combobox/data-binding/overview" />
+    <Article title="Binding to Array or ArrayList" slug="combobox/data-binding/binding-to-array-or-arraylist" />
+    <Article title="Binding to DataTable, DataSet, or DataView" slug="combobox/data-binding/binding-to-datatable,-dataset,-or-dataview" />
+    <Article title="Binding to ASP DataSource components" slug="combobox/data-binding/binding-to-asp-datasource-components" />
+    <Article title="Binding to OData" slug="combobox/data-binding/binding-to-odata" />
+    <Article title="Binding to RadClientDataSource" slug="combobox/data-binding/binding-to-radclientdatasource" />
+  </Folder>
+  <Folder title="RadComboBox Items" path="combobox/radcombobox-items">
+    <Article title="Overview" slug="combobox/radcombobox-items/overview" />
+    <Article title="Declaring the Items In-line" slug="combobox/radcombobox-items/declaring-the-items-in-line" />
+    <Article title="Loading Items from XML" slug="combobox/radcombobox-items/loading-items-from-xml" />
+    <Article title="Working with Items at Server-Side" slug="combobox/radcombobox-items/working-with-items-at-server-side" />
+    <Article title="Working with Items in Client-Side" slug="combobox/radcombobox-items/working-with-items-in-client-side" />
+    <Article title="Custom Attributes" slug="combobox/radcombobox-items/custom-attributes" />
+    <Article title="Default Item" slug="combobox/radcombobox-items/default-item" />
+  </Folder>
+  <Folder title="Load On Demand" path="combobox/load-on-demand">
+    <Article title="Overview" slug="combobox/load-on-demand/overview" />
+    <Article title="Automatic Load On Demand" slug="combobox/load-on-demand/automatic-load-on-demand" />
+    <Article title="Loading Items from a Web Service" slug="combobox/load-on-demand/loading-items-from-a-web-service" />
+    <Article title="Loading Items from WCF Service" slug="combobox/load-on-demand/loading-items-from-wcf-service" />
+    <Article title="Caching Items" slug="combobox/load-on-demand/caching-items" />
+    <Article title="ShowMoreResultsBox/Virtual Scrolling" slug="combobox/load-on-demand/showmoreresultsbox/virtual-scrolling" />
+    <Article title="Passing Context Information to the Server " slug="combobox/load-on-demand/passing-context-information-to-the-server-" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="combobox/appearance-and-styling">
+    <Article title="Migrating Skins from RadComboBox ASP.NET to ASP.NET AJAX" slug="combobox/appearance-and-styling/migrating-skins-from-radcombobox-asp.net-to-asp.net-ajax" />
+    <Article title="Controlling Appearance" slug="combobox/appearance-and-styling/controlling-appearance" />
+    <Article title="Skins" slug="combobox/appearance-and-styling/skins" />
+    <Article title="Tutorial: Creating a Custom Skin" slug="combobox/appearance-and-styling/tutorial:-creating-a-custom-skin" />
+    <Article title="Tutorial: Change the Appearance of the Input Element" slug="combobox/appearance-and-styling/tutorial:-change-the-appearance-of-the-input-element" />
+    <Article title="Tutorial: Change the Height of the Input Element" slug="combobox/appearance-and-styling/tutorial:-change-the-height-of-the-input-element" />
+    <Article title="Understanding the Skin CSS File" slug="combobox/appearance-and-styling/understanding-the-skin-css-file" />
+    <Article title="CSS Skin File Selectors" slug="combobox/appearance-and-styling/css-skin-file-selectors" />
+    <Article title="Animation" slug="combobox/appearance-and-styling/animation" />
+    <Article title="Adding Images to Items" slug="combobox/appearance-and-styling/adding-images-to-items" />
+    <Article title="Separators" slug="combobox/appearance-and-styling/separators" />
+    <Article title="RTL Support" slug="combobox/appearance-and-styling/rtl-support" />
+    <Article title="Using the EmptyMessage Property" slug="combobox/appearance-and-styling/using-the-emptymessage-property" />
+    <Article title="Adding a Label" slug="combobox/appearance-and-styling/adding-a-label" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="combobox/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="combobox/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Rendering" slug="combobox/accessibility-and-internationalization/rendering" />
+    <Article title="Localization" slug="combobox/accessibility-and-internationalization/localization" />
+    <Article title="WAI-ARIA Support" slug="combobox/accessibility-and-internationalization/wai-aria-support" />
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="combobox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+  </Folder>
+  <Folder title="Server-side Programming" path="combobox/server-side-programming">
+    <Article title="Events" slug="combobox/server-side-programming/events" />
+    <Article title="ItemsRequested" slug="combobox/server-side-programming/itemsrequested" />
+    <Article title="ItemCreated" slug="combobox/server-side-programming/itemcreated" />
+    <Article title="ItemDataBound" slug="combobox/server-side-programming/itemdatabound" />
+    <Article title="SelectedIndexChanged" slug="combobox/server-side-programming/selectedindexchanged" />
+    <Article title="TextChanged" slug="combobox/server-side-programming/textchanged" />
+    <Article title="ItemChecked" slug="combobox/server-side-programming/itemchecked" />
+    <Article title="CheckAllCheck" slug="combobox/server-side-programming/checkallcheck" />
+  </Folder>
+  <Folder title="Client-side Programming" path="combobox/client-side-programming">
+    <Article title="Overview" slug="combobox/client-side-programming/overview" />
+    <Article title="Accessing Client Changes at the Server" slug="combobox/client-side-programming/accessing-client-changes-at-the-server" />
+    <Article title="Events" slug="combobox/client-side-programming/events" />
+    <Folder title="Events" path="combobox/client-side-programming/events">
+      <Article title="OnClientBlur" slug="combobox/client-side-programming/events/onclientblur" />
+      <Article title="OnClientDropDownClosed" slug="combobox/client-side-programming/events/onclientdropdownclosed" />
+      <Article title="OnClientDropDownClosing" slug="combobox/client-side-programming/events/onclientdropdownclosing" />
+      <Article title="OnClientDropDownOpened" slug="combobox/client-side-programming/events/onclientdropdownopened" />
+      <Article title="OnClientDropDownOpening" slug="combobox/client-side-programming/events/onclientdropdownopening" />
+      <Article title="OnClientFocus" slug="combobox/client-side-programming/events/onclientfocus" />
+      <Article title="OnClientItemChecked" slug="combobox/client-side-programming/events/onclientitemchecked" />
+      <Article title="OnClientItemChecking" slug="combobox/client-side-programming/events/onclientitemchecking" />
+      <Article title="OnClientItemDataBound" slug="combobox/client-side-programming/events/onclientitemdatabound" />
+      <Article title="OnClientItemRequestFailed" slug="combobox/client-side-programming/events/onclientitemrequestfailed" />
+      <Article title="OnClientItemRequested" slug="combobox/client-side-programming/events/onclientitemrequested" />
+      <Article title="OnClientItemRequesting" slug="combobox/client-side-programming/events/onclientitemrequesting" />
+      <Article title="OnClientKeyPressing" slug="combobox/client-side-programming/events/onclientkeypressing" />
+      <Article title="OnClientLoad" slug="combobox/client-side-programming/events/onclientload" />
+      <Article title="OnClientSelectedIndexChanged" slug="combobox/client-side-programming/events/onclientselectedindexchanged" />
+      <Article title="OnClientSelectedIndexChanging" slug="combobox/client-side-programming/events/onclientselectedindexchanging" />
+      <Article title="OnClientTemplateDataBound" slug="combobox/client-side-programming/events/onclienttemplatedatabound" />
+      <Article title="OnClientTextChange" slug="combobox/client-side-programming/events/onclienttextchange" />
+      <Article title="OnClientCheckAllChecked" slug="combobox/client-side-programming/events/onclientcheckallchecked" />
+      <Article title="OnClientCheckAllChecking" slug="combobox/client-side-programming/events/onclientcheckallchecking" />
+    </Folder>
+    <Folder title="Objects" path="combobox/client-side-programming/objects">
+      <Article title="RadComboBox Object" slug="combobox/client-side-programming/objects/radcombobox-object" />
+      <Article title="RadComboBoxItem Object" slug="combobox/client-side-programming/objects/radcomboboxitem-object" />
+      <Article title="RadComboBoxItemCollection Object" slug="combobox/client-side-programming/objects/radcomboboxitemcollection-object" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="combobox/application-scenarios">
+    <Article title="Focus the RadComboBox" slug="combobox/application-scenarios/focus-the-radcombobox" />
+    <Article title="Finding Embedded RadComboBox on the Client" slug="combobox/application-scenarios/finding-embedded-radcombobox-on-the-client" />
+    <Article title="Validate Combobox by Value" slug="combobox/application-scenarios/validate-combobox-by-value" />
+    <Article title="Implement Custom Sorting" slug="combobox/application-scenarios/implement-custom-sorting" />
+    <Article title="Ensure the Selection of Existing Items with AllowCustomText " slug="combobox/application-scenarios/ensure-the-selection-of-existing-items-with-allowcustomtext-" />
+    <Article title="Prevent from Typing Particular Characters" slug="combobox/application-scenarios/prevent-from-typing-particular-characters" />
+    <Article title="Prevent Google ToolBar from Highlighting the Input" slug="combobox/application-scenarios/prevent-google-toolbar-from-highlighting-the-input" />
+    <Article title="Close Dropdown on Mouse Out" slug="combobox/application-scenarios/close-dropdown-on-mouse-out" />
+    <Article title="Grouping Items" slug="combobox/application-scenarios/grouping-items" />
+    <Article title="Clear RadComboBox" slug="combobox/application-scenarios/clear-radcombobox" />
+    <Article title="Use RadComboBox with OutputCache" slug="combobox/application-scenarios/use-radcombobox-with-outputcache" />
+    <Article title="Insert a Default Item When Databinding RadComboBox" slug="combobox/application-scenarios/insert-a-default-item-when-databinding-radcombobox" />
+  </Folder>
+  <Folder title="Troubleshooting" path="combobox/troubleshooting">
+    <Article title="RadComboBox items are not accessible on the server-side when loading them on demand" slug="combobox/troubleshooting/radcombobox-items-are-not-accessible-on-the-server-side-when-loading-them-on-demand" />
+    <Article title="Optimizing the Combobox" slug="combobox/troubleshooting/optimizing-the-combobox" />
+    <Article title="Controls Are Not Updated During the ItemsRequested Event" slug="combobox/troubleshooting/controls-are-not-updated-during-the-itemsrequested-event" />
+    <Article title="Combobox Slow Callback" slug="combobox/troubleshooting/combobox-slow-callback" />
+    <Article title="ItemTemplate Event Problems" slug="combobox/troubleshooting/itemtemplate-event-problems" />
+    <Article title="AllowCustomText Cannot Be Disabled When Loading Items on Demand" slug="combobox/troubleshooting/allowcustomtext-cannot-be-disabled-when-loading-items-on-demand" />
+    <Article title="Ajaxified Control in ItemTemplate Does a Full Postback" slug="combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback" />
+    <Article title="Back Button and SelectedValue" slug="combobox/troubleshooting/back-button-and-selectedvalue" />
+    <Article title="DropDown Opens with a Delay" slug="combobox/troubleshooting/dropdown-opens-with-a-delay" />
+    <Article title="Filter Does Not Work when You Tab to the Combobox" slug="combobox/troubleshooting/filter-does-not-work-when-you-tab-to-the-combobox" />
+    <Article title="RadComboBox Selects a Different Item" slug="combobox/troubleshooting/radcombobox-selects-a-different-item" />
+    <Article title="Issues With Initially Invisible ComboBox and Width Is in Percentage" slug="combobox/troubleshooting/issues-with-initially-invisible-combobox-and-width-is-in-percentage" />
+    <Article title="Set Caret Position at the Beginning of the Input in IE" slug="combobox/troubleshooting/set-caret-position-at-the-beginning-of-the-input-in-ie" />
+    <Article title="Item is null or not an object error Thrown When Using LoD with WCF service" slug="combobox/troubleshooting/item-is-null-or-not-an-object-error-thrown-when-using-lod-with-wcf-service" />
+    <Article title="Keep the Dropdown with Input Element While Scrolling" slug="combobox/troubleshooting/keep-the-dropdown-with-input-element-while-scrolling" />
+  </Folder>
+</Content>

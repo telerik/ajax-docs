@@ -1,0 +1,140 @@
+<Content>
+  <Article title="Overview" slug="menu/overview" />
+  <Article title="Structure" slug="menu/structure" />
+  <Article title="What is New" slug="menu/what-is-new" />
+  <Article title="Changes and Backward Compatibility" slug="menu/changes-and-backward-compatibility" />
+  <Article title="Migrating From RadMenu ASP.NET to ASP.NET AJAX" slug="menu/migrating-from-radmenu-asp.net-to-asp.net-ajax" />
+  <Folder title="Getting Started" path="menu/getting-started">
+    <Article title="Overview" slug="menu/getting-started/overview" />
+    <Article title="Binding to a Data Source" slug="menu/getting-started/binding-to-a-data-source" />
+    <Article title="Creating a Simple Context Menu" slug="menu/getting-started/creating-a-simple-context-menu" />
+  </Folder>
+  <Folder title="Design Time" path="menu/design-time">
+    <Article title="Smart Tag" slug="menu/design-time/smart-tag" />
+    <Article title="RadMenu Item Builder" slug="menu/design-time/radmenu-item-builder" />
+    <Article title="Template Design Surface" slug="menu/design-time/template-design-surface" />
+    <Article title="NavigationItemBinding Collection Editor" slug="menu/design-time/navigationitembinding-collection-editor" />
+    <Article title="Binding to LinqDataSource" slug="menu/design-time/binding-to-linqdatasource" />
+  </Folder>
+  <Folder title="Data Binding" path="menu/data-binding">
+    <Article title="Overview" slug="menu/data-binding/overview" />
+    <Article title="Binding to Object-Based Data Sources" slug="menu/data-binding/binding-to-object-based-data-sources" />
+    <Article title="Binding to DataTable" slug="menu/data-binding/binding-to-datatable" />
+    <Article title="Binding to Table-Based DataSource" slug="menu/data-binding/binding-to-table-based-datasource" />
+    <Article title="Binding to Hierarchical DataSource" slug="menu/data-binding/binding-to-hierarchical-datasource" />
+    <Article title="Using DataBindings" slug="menu/data-binding/using-databindings" />
+    <Article title="Binding to OData" slug="menu/data-binding/binding-to-odata" />
+    <Article title="Binding to RadClientDataSource" slug="menu/data-binding/binding-to-radclientdatasource" />
+    <Article title="WCF Web Service Binding" slug="menu/data-binding/wcf-web-service-binding" />
+    <Article title="Web Service Binding" slug="menu/data-binding/web-service-binding" />
+  </Folder>
+  <Folder title="Functionality" path="menu/functionality">
+    <Article title="Toggle Handle" slug="menu/functionality/toggle-handle" />
+    <Article title="Validation" slug="menu/functionality/validation" />
+    <Article title="Cross-Page Postback" slug="menu/functionality/cross-page-postback" />
+    <Article title="Multi Column Menu" slug="menu/functionality/multi-column-menu" />
+    <Article title="Separators" slug="menu/functionality/separators" />
+    <Article title="Animations" slug="menu/functionality/animations" />
+    <Article title="Click To Open" slug="menu/functionality/click-to-open" />
+  </Folder>
+  <Folder title="Templates" path="menu/templates">
+    <Article title="Overview" slug="menu/templates/overview" />
+    <Article title="Client Templates" slug="menu/templates/client-templates" />
+    <Article title="Server Templates" slug="menu/templates/server-templates" />
+    <Article title="Accessing Controls Inside Templates" slug="menu/templates/accessing-controls-inside-templates" />
+    <Article title="DataBinding expressions" slug="menu/templates/databinding-expressions" />
+    <Article title="Adding Templates at Run-time" slug="menu/templates/adding-templates-at-run-time" />
+  </Folder>
+  <Folder title="RadMenu Items" path="menu/radmenu-items">
+    <Article title="Overview" slug="menu/radmenu-items/overview" />
+    <Article title="Custom Attributes" slug="menu/radmenu-items/custom-attributes" />
+    <Article title="Declaring Items Statically at Design Time" slug="menu/radmenu-items/declaring-items-statically-at-design-time" />
+    <Article title="Working With Items at Server-side" slug="menu/radmenu-items/working-with-items-at-server-side" />
+    <Article title="Working With Items at Client-side" slug="menu/radmenu-items/working-with-items-at-client-side" />
+    <Article title="Loading Items from XML" slug="menu/radmenu-items/loading-items-from-xml" />
+  </Folder>
+  <Folder title="Context Menus" path="menu/context-menus">
+    <Article title="RadContextMenu Object" slug="menu/context-menus/radcontextmenu-object" />
+    <Article title="Creating Context Menu at Runtime" slug="menu/context-menus/creating-context-menu-at-runtime" />
+  </Folder>
+  <Folder title="Mobile Support" path="menu/mobile-support">
+    <Article title="Responsive Adaptive and Elastic Capabilities" slug="menu/mobile-support/responsive-adaptive-and-elastic-capabilities" />
+    <Article title="Render Modes" slug="menu/mobile-support/render-modes" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="menu/appearance-and-styling">
+    <Article title="Migrating Skins from RadMenu ASP.NET to ASP.NET AJAX" slug="menu/appearance-and-styling/migrating-skins-from-radmenu-asp.net-to-asp.net-ajax" />
+    <Article title="Adding Images to Items" slug="menu/appearance-and-styling/adding-images-to-items" />
+    <Article title="Layout of Root Items " slug="menu/appearance-and-styling/layout-of-root-items-" />
+    <Article title="Layout of Child Items" slug="menu/appearance-and-styling/layout-of-child-items" />
+    <Article title="Setting  the CSS Class of Items" slug="menu/appearance-and-styling/setting--the-css-class-of-items" />
+    <Article title="Appearance Skins" slug="menu/appearance-and-styling/appearance-skins" />
+    <Article title="Tutorial: Creating A Custom Skin Using Sprite" slug="menu/appearance-and-styling/tutorial:-creating-a-custom-skin-using-sprite" />
+    <Article title="Tutorial: Creating A Custom Skin" slug="menu/appearance-and-styling/tutorial:-creating-a-custom-skin" />
+    <Article title="Understanding the Skin CSS File" slug="menu/appearance-and-styling/understanding-the-skin-css-file" />
+    <Article title="CSS Skin File Selectors" slug="menu/appearance-and-styling/css-skin-file-selectors" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="menu/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="menu/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Displaying Child Items" slug="menu/accessibility-and-internationalization/displaying-child-items" />
+    <Article title="RTL Support" slug="menu/accessibility-and-internationalization/rtl-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="menu/server-side-programming">
+    <Article title="Events" slug="menu/server-side-programming/events" />
+    <Article title="ItemClick" slug="menu/server-side-programming/itemclick" />
+    <Article title="ItemCreated" slug="menu/server-side-programming/itemcreated" />
+    <Article title="ItemDataBound" slug="menu/server-side-programming/itemdatabound" />
+    <Article title="Methods and Properties" slug="menu/server-side-programming/methods-and-properties" />
+  </Folder>
+  <Folder title="Client-side Programming" path="menu/client-side-programming">
+    <Article title="Overview" slug="menu/client-side-programming/overview" />
+    <Article title="Accessing Client Changes at the Server" slug="menu/client-side-programming/accessing-client-changes-at-the-server" />
+    <Folder title="Objects" path="menu/client-side-programming/objects">
+      <Article title="RadMenu and RadContextMenu Objects" slug="menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects" />
+      <Article title="RadMenuItem Object" slug="menu/client-side-programming/objects/radmenuitem-object" />
+      <Article title="RadMenuItemCollection Object" slug="menu/client-side-programming/objects/radmenuitemcollection-object" />
+    </Folder>
+    <Folder title="Events" path="menu/client-side-programming/events">
+      <Article title="Overview" slug="menu/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="menu/client-side-programming/events/onclientload" />
+      <Article title="OnClientTemplateDataBound " slug="menu/client-side-programming/events/onclienttemplatedatabound-" />
+      <Article title="OnClientItemClicking" slug="menu/client-side-programming/events/onclientitemclicking" />
+      <Article title="OnClientItemClicked" slug="menu/client-side-programming/events/onclientitemclicked" />
+      <Article title="OnClientMouseOver" slug="menu/client-side-programming/events/onclientmouseover" />
+      <Article title="OnClientMouseOut" slug="menu/client-side-programming/events/onclientmouseout" />
+      <Article title="OnClientItemOpening" slug="menu/client-side-programming/events/onclientitemopening" />
+      <Article title="OnClientItemOpened" slug="menu/client-side-programming/events/onclientitemopened" />
+      <Article title="OnClientItemClosing" slug="menu/client-side-programming/events/onclientitemclosing" />
+      <Article title="OnClientItemClosed" slug="menu/client-side-programming/events/onclientitemclosed" />
+      <Article title="OnClientItemFocus" slug="menu/client-side-programming/events/onclientitemfocus" />
+      <Article title="OnClientItemBlur" slug="menu/client-side-programming/events/onclientitemblur" />
+      <Article title="OnClientItemPopulating" slug="menu/client-side-programming/events/onclientitempopulating" />
+      <Article title="OnClientItemPopulated" slug="menu/client-side-programming/events/onclientitempopulated" />
+      <Article title="OnClientItemPopulationFailed" slug="menu/client-side-programming/events/onclientitempopulationfailed" />
+      <Article title="OnClientShowing" slug="menu/client-side-programming/events/onclientshowing" />
+      <Article title="OnClientShown" slug="menu/client-side-programming/events/onclientshown" />
+      <Article title="OnClientHiding" slug="menu/client-side-programming/events/onclienthiding" />
+      <Article title="OnClientHidden" slug="menu/client-side-programming/events/onclienthidden" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="menu/application-scenarios">
+    <Article title="Prevent Opening a Disabled MenuItem in New Tab" slug="menu/application-scenarios/prevent-opening-a-disabled-menuitem-in-new-tab" />
+    <Article title="Databinding with Custom Attributes" slug="menu/application-scenarios/databinding-with-custom-attributes" />
+    <Article title="Hide and Show the Menu on the Client" slug="menu/application-scenarios/hide-and-show-the-menu-on-the-client" />
+    <Article title="Expand Root MenuItem on Click Only" slug="menu/application-scenarios/expand-root-menuitem-on-click-only" />
+    <Article title="Hide a Context Menu When the Mouse Moves Out" slug="menu/application-scenarios/hide-a-context-menu-when-the-mouse-moves-out" />
+    <Article title="Change Mouse Pointer on MenuItem Hover" slug="menu/application-scenarios/change-mouse-pointer-on-menuitem-hover" />
+    <Article title="Use RadMenu in a User Control with OutputCache Enabled" slug="menu/application-scenarios/use-radmenu-in-a-user-control-with-outputcache-enabled" />
+    <Article title="Use RadConfirm to Confirm MenuItem Click" slug="menu/application-scenarios/use-radconfirm-to-confirm-menuitem-click" />
+    <Article title="How to Disable the Collapse Animation at Client-side" slug="menu/application-scenarios/how-to-disable-the-collapse-animation-at-client-side" />
+    <Article title="How to Change Height of RadMenu" slug="menu/application-scenarios/how-to-change-height-of-radmenu" />
+    <Article title="Showing the Path to an Item" slug="menu/application-scenarios/showing-the-path-to-an-item" />
+  </Folder>
+  <Folder title="Troubleshooting" path="menu/troubleshooting">
+    <Article title="Image flickering" slug="menu/troubleshooting/image-flickering" />
+    <Article title="RadMenu Goes Behind Flash Object" slug="menu/troubleshooting/radmenu-goes-behind-flash-object" />
+    <Article title="My CSS Rule Does Not Apply" slug="menu/troubleshooting/my-css-rule-does-not-apply" />
+    <Article title="ItemClick Event Does Not Fire" slug="menu/troubleshooting/itemclick-event-does-not-fire" />
+    <Article title="Load All Items on Initial Page Load" slug="menu/troubleshooting/load-all-items-on-initial-page-load" />
+    <Article title="ClientTemplate Gets Lost on PostBack" slug="menu/troubleshooting/clienttemplate-gets-lost-on-postback" />
+  </Folder>
+</Content>

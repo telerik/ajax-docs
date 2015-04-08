@@ -1,0 +1,38 @@
+<Content>
+  <Article title="Overview" slug="sitemap/overview" />
+  <Article title="What Is New" slug="sitemap/what-is-new" />
+  <Article title="Changes and Backwards Compatibility " slug="sitemap/changes-and-backwards-compatibility-" />
+  <Folder title="Design Time" path="sitemap/design-time">
+    <Folder title="RadSiteMap" path="sitemap/design-time/radsitemap">
+      <Article title="Smart Tag" slug="sitemap/design-time/radsitemap/smart-tag" />
+      <Article title="RadSiteMap Item Builder" slug="sitemap/design-time/radsitemap/radsitemap-item-builder" />
+      <Article title="Template Design Surface" slug="sitemap/design-time/radsitemap/template-design-surface" />
+      <Article title="NavigationItemBinding Collection Editor " slug="sitemap/design-time/radsitemap/navigationitembinding-collection-editor-" />
+    </Folder>
+    <Folder title="RadSiteMapDataSource" path="sitemap/design-time/radsitemapdatasource">
+      <Article title="Smart Tag" slug="sitemap/design-time/radsitemapdatasource/smart-tag" />
+    </Folder>
+  </Folder>
+  <Folder title="Templates" path="sitemap/templates">
+    <Article title="Overview" slug="sitemap/templates/overview" />
+  </Folder>
+  <Folder title="Data Binding" path="sitemap/data-binding">
+    <Article title="Overview" slug="sitemap/data-binding/overview" />
+    <Article title="Binding to SiteMapDataSource" slug="sitemap/data-binding/binding-to-sitemapdatasource" />
+    <Article title="Binding to Table-Based DataSource Components" slug="sitemap/data-binding/binding-to-table-based-datasource-components" />
+  </Folder>
+  <Folder title="RadSiteMap Nodes" path="sitemap/radsitemap-nodes">
+    <Article title="Overview" slug="sitemap/radsitemap-nodes/overview" />
+  </Folder>
+  <Folder title="Functionality" path="sitemap/functionality">
+    <Article title="Layout" slug="sitemap/functionality/layout" />
+    <Article title="Level Settings" slug="sitemap/functionality/level-settings" />
+    <Article title="Node Lines" slug="sitemap/functionality/node-lines" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="sitemap/appearance-and-styling">
+    <Article title="Skins" slug="sitemap/appearance-and-styling/skins" />
+  </Folder>
+  <Folder title="Server-Side Programming" path="sitemap/server-side-programming">
+    <Article title="NodeDataBound" slug="sitemap/server-side-programming/nodedatabound" />
+  </Folder>
+</Content>

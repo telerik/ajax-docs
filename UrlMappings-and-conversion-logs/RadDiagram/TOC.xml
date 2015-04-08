@@ -1,0 +1,46 @@
+<Content>
+  <Article title="Overview" slug="diagram/overview" />
+  <Article title="Getting Started" slug="diagram/getting-started" />
+  <Article title="Design Time" slug="diagram/design-time" />
+  <Folder title="Structure" path="diagram/structure">
+    <Article title="Overview" slug="diagram/structure/overview" />
+    <Article title="Shape" slug="diagram/structure/shape" />
+    <Article title="Connection" slug="diagram/structure/connection" />
+    <Article title="Connector" slug="diagram/structure/connector" />
+    <Folder title="Layout" path="diagram/structure/layout">
+      <Article title="Overview" slug="diagram/structure/layout/overview" />
+      <Article title="Tree" slug="diagram/structure/layout/tree" />
+      <Article title="Layered" slug="diagram/structure/layout/layered" />
+      <Article title="Force-directed" slug="diagram/structure/layout/force-directed" />
+    </Folder>
+  </Folder>
+  <Folder title="Data Binding" path="diagram/data-binding">
+    <Folder title="Server-side" path="diagram/data-binding/server-side">
+      <Article title="Shapes" slug="diagram/data-binding/server-side/shapes" />
+      <Article title="Connections" slug="diagram/data-binding/server-side/connections" />
+    </Folder>
+    <Article title="Client-side" slug="diagram/data-binding/client-side" />
+  </Folder>
+  <Folder title="Functionality" path="diagram/functionality">
+    <Article title="Rich User Interaction" slug="diagram/functionality/rich-user-interaction" />
+    <Article title="Shape Templates" slug="diagram/functionality/shape-templates" />
+  </Folder>
+  <Folder title="Import and Export" path="diagram/import-and-export">
+    <Article title="Import from JSON" slug="diagram/import-and-export/import-from-json" />
+    <Article title="Export to Image" slug="diagram/import-and-export/export-to-image" />
+    <Article title="Export to JSON" slug="diagram/import-and-export/export-to-json" />
+    <Article title="Export to PDF" slug="diagram/import-and-export/export-to-pdf" />
+    <Article title="Export to SVG" slug="diagram/import-and-export/export-to-svg" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="diagram/appearance-and-styling">
+    <Article title="Skins" slug="diagram/appearance-and-styling/skins" />
+  </Folder>
+  <Article title="Server-side Programming" slug="diagram/server-side-programming" />
+  <Folder title="Client-side Programming" path="diagram/client-side-programming">
+    <Article title="Overview" slug="diagram/client-side-programming/overview" />
+    <Article title="Events" slug="diagram/client-side-programming/events" />
+  </Folder>
+  <Folder title="Application Scenarios" path="diagram/application-scenarios">
+    <Article title="Custom Shapes and Connectors" slug="diagram/application-scenarios/custom-shapes-and-connectors" />
+  </Folder>
+</Content>

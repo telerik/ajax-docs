@@ -1,0 +1,7 @@
+http://www.telerik.com/help/aspnet-ajax/barcode-design-time.html http://docs.telerik.com/devtools/ajax/barcode/design-time
+http://www.telerik.com/help/aspnet-ajax/barcode-outputtype.html http://docs.telerik.com/devtools/ajax/barcode/outputtype
+http://www.telerik.com/help/aspnet-ajax/barcode-overview.html http://docs.telerik.com/devtools/ajax/barcode/overview
+http://www.telerik.com/help/aspnet-ajax/barcode-qrcode.html http://docs.telerik.com/devtools/ajax/barcode/qrcode
+http://www.telerik.com/help/aspnet-ajax/barcode-specifications.html http://docs.telerik.com/devtools/ajax/barcode/specifications
+http://www.telerik.com/help/aspnet-ajax/barcode-types.html http://docs.telerik.com/devtools/ajax/barcode/types
+http://www.telerik.com/help/aspnet-ajax/barcode-wai-aria-support.html http://docs.telerik.com/devtools/ajax/barcode/wai-aria-support

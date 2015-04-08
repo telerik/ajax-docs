@@ -1,0 +1,95 @@
+<Content>
+  <Article title="Overview" slug="gantt/overview" />
+  <Folder title="Getting Started " path="gantt/getting-started-">
+    <Article title="Getting Started" slug="gantt/getting-started-/getting-started" />
+  </Folder>
+  <Folder title="Design Time" path="gantt/design-time">
+    <Article title="Design Time" slug="gantt/design-time/design-time" />
+  </Folder>
+  <Folder title="Structure" path="gantt/structure">
+    <Article title="Layout" slug="gantt/structure/layout" />
+    <Article title="Tasks" slug="gantt/structure/tasks" />
+    <Article title="Dependencies" slug="gantt/structure/dependencies" />
+  </Folder>
+  <Folder title="Data Binding" path="gantt/data-binding">
+    <Article title="Database Structure" slug="gantt/data-binding/database-structure" />
+    <Folder title="Server-side Binding" path="gantt/data-binding/server-side-binding">
+      <Article title="Declarative Binding" slug="gantt/data-binding/server-side-binding/declarative-binding" />
+      <Folder title="Programmatic Binding " path="gantt/data-binding/server-side-binding/programmatic-binding-">
+        <Article title="XML Provider" slug="gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider" />
+        <Article title="Database Provider" slug="gantt/data-binding/server-side-binding/programmatic-binding-/database-provider" />
+      </Folder>
+    </Folder>
+    <Folder title="Client-side Binding" path="gantt/data-binding/client-side-binding">
+      <Article title="Web Service Binding" slug="gantt/data-binding/client-side-binding/web-service-binding" />
+      <Article title="WCF Service" slug="gantt/data-binding/client-side-binding/wcf-service" />
+      <Article title="Web API" slug="gantt/data-binding/client-side-binding/web-api" />
+    </Folder>
+    <Folder title="Providers" path="gantt/data-binding/providers">
+      <Article title="Custom EntityFramework Provider" slug="gantt/data-binding/providers/custom-entityframework-provider" />
+    </Folder>
+  </Folder>
+  <Folder title="Functionality" path="gantt/functionality">
+    <Article title="Adding Tasks" slug="gantt/functionality/adding-tasks" />
+    <Article title="Reordering Tasks " slug="gantt/functionality/reordering-tasks-" />
+    <Article title="Column Sorting" slug="gantt/functionality/column-sorting" />
+    <Article title="Cell Editing" slug="gantt/functionality/cell-editing" />
+    <Folder title="Import" path="gantt/functionality/import">
+      <Article title="Export to MS Project" slug="gantt/functionality/import/export-to-ms-project" />
+    </Folder>
+    <Article title="Custom Tasks Fields" slug="gantt/functionality/custom-tasks-fields" />
+  </Folder>
+  <Folder title="Mobile Support" path="gantt/mobile-support">
+    <Article title="Overview" slug="gantt/mobile-support/overview" />
+    <Article title="Gestures Support " slug="gantt/mobile-support/gestures-support-" />
+  </Folder>
+  <Folder title="Resoruces" path="gantt/resoruces">
+    <Article title="Overview" slug="gantt/resoruces/overview" />
+    <Folder title="Data Binding" path="gantt/resoruces/data-binding">
+      <Article title="Database Structure" slug="gantt/resoruces/data-binding/database-structure" />
+      <Article title="Declarative Binding" slug="gantt/resoruces/data-binding/declarative-binding" />
+      <Article title="XML Provider Binding" slug="gantt/resoruces/data-binding/xml-provider-binding" />
+      <Article title="Web Service Binding" slug="gantt/resoruces/data-binding/web-service-binding" />
+      <Article title="Custom EntityFramework Provider" slug="gantt/resoruces/data-binding/custom-entityframework-provider" />
+    </Folder>
+  </Folder>
+  <Folder title="Import" path="gantt/import">
+    <Article title="Import from MS Project" slug="gantt/import/import-from-ms-project" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="gantt/appearance-and-styling">
+    <Article title="Skins" slug="gantt/appearance-and-styling/skins" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="gantt/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="gantt/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Localization" slug="gantt/accessibility-and-internationalization/localization" />
+    <Article title="Keyboard Support" slug="gantt/accessibility-and-internationalization/keyboard-support" />
+    <Article title="WAI-ARIA Support" slug="gantt/accessibility-and-internationalization/wai-aria-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="gantt/server-side-programming">
+    <Article title="Overview" slug="gantt/server-side-programming/overview" />
+    <Folder title="Events" path="gantt/server-side-programming/events">
+      <Article title="Overview" slug="gantt/server-side-programming/events/overview" />
+      <Article title="ColumnCreating" slug="gantt/server-side-programming/events/columncreating" />
+      <Article title="ColumnCreated" slug="gantt/server-side-programming/events/columncreated" />
+      <Article title="TaskInsert" slug="gantt/server-side-programming/events/taskinsert" />
+      <Article title="TaskUpdate" slug="gantt/server-side-programming/events/taskupdate" />
+      <Article title="TaskDelete" slug="gantt/server-side-programming/events/taskdelete" />
+      <Article title="DependencyInsert" slug="gantt/server-side-programming/events/dependencyinsert" />
+      <Article title="DependencyDelete" slug="gantt/server-side-programming/events/dependencydelete" />
+      <Article title="NavigationCommand" slug="gantt/server-side-programming/events/navigationcommand" />
+    </Folder>
+  </Folder>
+  <Folder title="Client-side Programming" path="gantt/client-side-programming">
+    <Article title="Overview" slug="gantt/client-side-programming/overview" />
+    <Folder title="Events" path="gantt/client-side-programming/events">
+      <Article title="Overview" slug="gantt/client-side-programming/events/overview" />
+      <Article title="OnClientTaskMoveStart" slug="gantt/client-side-programming/events/onclienttaskmovestart" />
+      <Article title="OnClientTaskMoving" slug="gantt/client-side-programming/events/onclienttaskmoving" />
+      <Article title="OnClientTaskMoveEnd" slug="gantt/client-side-programming/events/onclienttaskmoveend" />
+      <Article title="OnClientTaskResizeStart" slug="gantt/client-side-programming/events/onclienttaskresizestart" />
+      <Article title="OnClientTaskResizing" slug="gantt/client-side-programming/events/onclienttaskresizing" />
+      <Article title="OnClientTaskResizeEnd" slug="gantt/client-side-programming/events/onclienttaskresizeend" />
+      <Article title="OnClientNavigationCommand" slug="gantt/client-side-programming/events/onclientnavigationcommand" />
+    </Folder>
+  </Folder>
+</Content>

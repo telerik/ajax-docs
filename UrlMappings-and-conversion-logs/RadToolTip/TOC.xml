@@ -1,0 +1,70 @@
+<Content>
+  <Article title="Overview" slug="tooltip/overview" />
+  <Article title="Changes And Backwards Compatibility" slug="tooltip/changes-and-backwards-compatibility" />
+  <Folder title="Getting Started" path="tooltip/getting-started">
+    <Article title="First Steps with RadToolTip" slug="tooltip/getting-started/first-steps-with-radtooltip" />
+    <Article title="FIrst Steps with RadToolTipManager" slug="tooltip/getting-started/first-steps-with-radtooltipmanager" />
+    <Article title="RadToolTip Structure" slug="tooltip/getting-started/radtooltip-structure" />
+    <Article title="Important Settings" slug="tooltip/getting-started/important-settings" />
+    <Article title="ShowEvent" slug="tooltip/getting-started/showevent" />
+    <Article title="Positioning" slug="tooltip/getting-started/positioning" />
+    <Article title="ShowDelay and AutoCloseDelay" slug="tooltip/getting-started/showdelay-and-autoclosedelay" />
+    <Article title="Sticky Tooltips" slug="tooltip/getting-started/sticky-tooltips" />
+  </Folder>
+  <Folder title="Design Time" path="tooltip/design-time">
+    <Article title="Smart Tag" slug="tooltip/design-time/smart-tag" />
+    <Article title="ToolTipTargetControl Collection Editor" slug="tooltip/design-time/tooltiptargetcontrol-collection-editor" />
+    <Article title="Template Editor" slug="tooltip/design-time/template-editor" />
+  </Folder>
+  <Folder title="RadToolTip" path="tooltip/radtooltip">
+    <Article title="Overview" slug="tooltip/radtooltip/overview" />
+    <Article title="Using the TargetControlID Property" slug="tooltip/radtooltip/using-the-targetcontrolid-property" />
+    <Article title="Managing Content" slug="tooltip/radtooltip/managing-content" />
+  </Folder>
+  <Folder title="RadToolTipManager" path="tooltip/radtooltipmanager">
+    <Article title="Overview" slug="tooltip/radtooltipmanager/overview" />
+    <Article title="Using the TargetControls Collection" slug="tooltip/radtooltipmanager/using-the-targetcontrols-collection" />
+    <Article title="Load Content On Demand" slug="tooltip/radtooltipmanager/load-content-on-demand" />
+  </Folder>
+  <Folder title="Mobile Support" path="tooltip/mobile-support">
+    <Article title="Responsive, Adaptive and Elastic Capabilities" slug="tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities" />
+    <Article title="Render Modes" slug="tooltip/mobile-support/render-modes" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="tooltip/appearance-and-styling">
+    <Article title="Controlling Appearance" slug="tooltip/appearance-and-styling/controlling-appearance" />
+    <Article title="Skins" slug="tooltip/appearance-and-styling/skins" />
+    <Article title="Animation" slug="tooltip/appearance-and-styling/animation" />
+    <Article title="CSS Classes" slug="tooltip/appearance-and-styling/css-classes" />
+    <Article title="Tutorial: Creating a Custom Skin" slug="tooltip/appearance-and-styling/tutorial:-creating-a-custom-skin" />
+    <Article title="Tutorial: Creating a Custom LightWeight Skin" slug="tooltip/appearance-and-styling/tutorial:-creating-a-custom-lightweight-skin" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="tooltip/accessibility-and-internationalization">
+    <Article title="Right-to-left Support" slug="tooltip/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="tooltip/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="WAI-ARIA Support" slug="tooltip/accessibility-and-internationalization/wai-aria-support" />
+  </Folder>
+  <Article title="Server-side Programming" slug="tooltip/server-side-programming" />
+  <Folder title="Client-side Programming" path="tooltip/client-side-programming">
+    <Article title="Overview" slug="tooltip/client-side-programming/overview" />
+    <Article title="RadToolTip Object" slug="tooltip/client-side-programming/radtooltip-object" />
+    <Article title="RadToolTipManager Object" slug="tooltip/client-side-programming/radtooltipmanager-object" />
+    <Folder title="Events" path="tooltip/client-side-programming/events">
+      <Article title="Overview" slug="tooltip/client-side-programming/events/overview" />
+      <Article title="Setting Event Handlers via JavaScript" slug="tooltip/client-side-programming/events/setting-event-handlers-via-javascript" />
+      <Article title="OnClientBeforeShow" slug="tooltip/client-side-programming/events/onclientbeforeshow" />
+      <Article title="OnClientShow" slug="tooltip/client-side-programming/events/onclientshow" />
+      <Article title="OnClientBeforeHide" slug="tooltip/client-side-programming/events/onclientbeforehide" />
+      <Article title="OnClientHide" slug="tooltip/client-side-programming/events/onclienthide" />
+      <Folder title="ToolTipManager Specific" path="tooltip/client-side-programming/events/tooltipmanager-specific">
+        <Article title="Overview" slug="tooltip/client-side-programming/events/tooltipmanager-specific/overview" />
+        <Article title="OnClientRequestStart" slug="tooltip/client-side-programming/events/tooltipmanager-specific/onclientrequeststart" />
+        <Article title="OnClientResponseEnd" slug="tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseend" />
+        <Article title="OnClientResponseError" slug="tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseerror" />
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder title="Troubleshooting" path="tooltip/troubleshooting">
+    <Article title="Common Issues" slug="tooltip/troubleshooting/common-issues" />
+    <Article title="Using RadToolTipManager in MS AJAX UpdatePanels" slug="tooltip/troubleshooting/using-radtooltipmanager-in-ms-ajax-updatepanels" />
+  </Folder>
+</Content>

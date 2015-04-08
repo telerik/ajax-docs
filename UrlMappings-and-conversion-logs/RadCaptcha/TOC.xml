@@ -1,0 +1,34 @@
+<Content>
+  <Article title="Overview" slug="captcha/overview" />
+  <Folder title="Changes and Backward Compatibility" path="captcha/changes-and-backward-compatibility">
+    <Article title="Overview" slug="captcha/changes-and-backward-compatibility/overview" />
+    <Article title="Memory Consumption Increase" slug="captcha/changes-and-backward-compatibility/memory-consumption-increase" />
+  </Folder>
+  <Article title="Getting Started" slug="captcha/getting-started" />
+  <Article title="Design Time" slug="captcha/design-time" />
+  <Folder title="Functionality" path="captcha/functionality">
+    <Article title="Caching Provider" slug="captcha/functionality/caching-provider" />
+    <Article title="Using Audio Code" slug="captcha/functionality/using-audio-code" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="captcha/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="captcha/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="captcha/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Localization" slug="captcha/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="captcha/appearance-and-styling">
+    <Article title="CSS Classes" slug="captcha/appearance-and-styling/css-classes" />
+    <Article title="TextBox and Label Decoration" slug="captcha/appearance-and-styling/textbox-and-label-decoration" />
+  </Folder>
+  <Folder title="Server-side Programming" path="captcha/server-side-programming">
+    <Article title="Events" slug="captcha/server-side-programming/events" />
+    <Article title="Properties" slug="captcha/server-side-programming/properties" />
+  </Folder>
+  <Folder title="Client-side Programming" path="captcha/client-side-programming">
+    <Folder title="Events" path="captcha/client-side-programming/events">
+      <Article title="OnClientLoad" slug="captcha/client-side-programming/events/onclientload" />
+    </Folder>
+  </Folder>
+  <Folder title="Troubleshooting" path="captcha/troubleshooting">
+    <Article title="Using WebFarm or WebGarden Environment" slug="captcha/troubleshooting/using-webfarm-or-webgarden-environment" />
+  </Folder>
+</Content>

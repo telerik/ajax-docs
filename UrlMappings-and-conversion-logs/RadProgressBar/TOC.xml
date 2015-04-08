@@ -1,0 +1,35 @@
+<Content>
+  <Article title="Overview" slug="progressbar/overview" />
+  <Folder title="Getting Started" path="progressbar/getting-started">
+    <Article title="Overview" slug="progressbar/getting-started/overview" />
+    <Article title="Element Structure" slug="progressbar/getting-started/element-structure" />
+    <Article title="RadProgressBar vs. RadProgressArea Comparison" slug="progressbar/getting-started/radprogressbar-vs.-radprogressarea-comparison" />
+  </Folder>
+  <Article title="Design Time" slug="progressbar/design-time" />
+  <Folder title="Functionality" path="progressbar/functionality">
+    <Article title="Types" slug="progressbar/functionality/types" />
+    <Article title="Custom Label " slug="progressbar/functionality/custom-label-" />
+  </Folder>
+  <Folder title="Mobile Support" path="progressbar/mobile-support">
+    <Article title="Elastic Design" slug="progressbar/mobile-support/elastic-design" />
+    <Article title="Fluid Design" slug="progressbar/mobile-support/fluid-design" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="progressbar/appearance-and-styling">
+    <Article title="Skins" slug="progressbar/appearance-and-styling/skins" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="progressbar/accessibility-and-internationalization">
+    <Article title="Right-to-left Support" slug="progressbar/accessibility-and-internationalization/right-to-left-support" />
+  </Folder>
+  <Article title="Server-side Programming" slug="progressbar/server-side-programming" />
+  <Folder title="Client-side Programming" path="progressbar/client-side-programming">
+    <Article title="RadProgressBar Object" slug="progressbar/client-side-programming/radprogressbar-object" />
+    <Folder title="Events" path="progressbar/client-side-programming/events">
+      <Article title="Overview" slug="progressbar/client-side-programming/events/overview" />
+      <Article title="OnInitialize" slug="progressbar/client-side-programming/events/oninitialize" />
+      <Article title="OnLoad" slug="progressbar/client-side-programming/events/onload" />
+      <Article title="OnValueChanging" slug="progressbar/client-side-programming/events/onvaluechanging" />
+      <Article title="OnValueChanged" slug="progressbar/client-side-programming/events/onvaluechanged" />
+      <Article title="OnCompleted" slug="progressbar/client-side-programming/events/oncompleted" />
+    </Folder>
+  </Folder>
+</Content>

@@ -1,0 +1,37 @@
+<Content>
+  <Article title="Overview" slug="rating/overview" />
+  <Article title="Changes and Backward Compatibility" slug="rating/changes-and-backward-compatibility" />
+  <Article title="Getting Started" slug="rating/getting-started" />
+  <Article title="Design Time" slug="rating/design-time" />
+  <Article title="Data Binding" slug="rating/data-binding" />
+  <Folder title="Mobile Support" path="rating/mobile-support">
+    <Article title="Render Modes" slug="rating/mobile-support/render-modes" />
+    <Article title="Elastic Design" slug="rating/mobile-support/elastic-design" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="rating/appearance-and-styling">
+    <Article title="Create a Custom Skin" slug="rating/appearance-and-styling/create-a-custom-skin" />
+    <Article title="Understanding the Skin CSS File" slug="rating/appearance-and-styling/understanding-the-skin-css-file" />
+    <Article title="CSS Classes" slug="rating/appearance-and-styling/css-classes" />
+    <Article title="Skins" slug="rating/appearance-and-styling/skins" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="rating/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="rating/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="rating/accessibility-and-internationalization/right-to-left-support" />
+  </Folder>
+  <Folder title="Client-side Programming" path="rating/client-side-programming">
+    <Article title="Overview" slug="rating/client-side-programming/overview" />
+    <Folder title="Events" path="rating/client-side-programming/events">
+      <Article title="Overview" slug="rating/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="rating/client-side-programming/events/onclientload" />
+      <Article title="OnClientRating" slug="rating/client-side-programming/events/onclientrating" />
+      <Article title="OnClientRated" slug="rating/client-side-programming/events/onclientrated" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="rating/application-scenarios">
+    <Article title="RadRating with CustomValidator" slug="rating/application-scenarios/radrating-with-customvalidator" />
+    <Article title="Modify the Tooltip Text of RadRating Items" slug="rating/application-scenarios/modify-the-tooltip-text-of-radrating-items" />
+  </Folder>
+  <Folder title="Troubleshooting" path="rating/troubleshooting">
+    <Article title="Broken Skin When Loading RadRating via AJAX" slug="rating/troubleshooting/broken-skin-when-loading-radrating-via-ajax" />
+  </Folder>
+</Content>

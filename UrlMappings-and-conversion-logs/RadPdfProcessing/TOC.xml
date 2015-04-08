@@ -1,0 +1,30 @@
+<Content>
+  <Article title="Overview" slug="pdfprocessing/overview" />
+  <Article title="Getting Started" slug="pdfprocessing/getting-started" />
+  <Article title="How to Comply with PDF/A Standard" slug="pdfprocessing/how-to-comply-with-pdf/a-standard" />
+  <Folder title="Changes and Backward Compatibility" path="pdfprocessing/changes-and-backward-compatibility">
+    <Article title="Changes" slug="pdfprocessing/changes-and-backward-compatibility/changes" />
+    <Article title="Backward Compatibility" slug="pdfprocessing/changes-and-backward-compatibility/backward-compatibility" />
+  </Folder>
+  <Article title="Model" slug="pdfprocessing/model" />
+  <Folder title="Formats and Conversion" path="pdfprocessing/formats-and-conversion">
+    <Article title="Pdf" slug="pdfprocessing/formats-and-conversion/pdf" />
+  </Folder>
+  <Folder title="Editing" path="pdfprocessing/editing">
+    <Article title="Block" slug="pdfprocessing/editing/block" />
+    <Article title="TableCell" slug="pdfprocessing/editing/tablecell" />
+    <Article title="TableRow" slug="pdfprocessing/editing/tablerow" />
+    <Article title="Table" slug="pdfprocessing/editing/table" />
+    <Article title="FixedContentEditor" slug="pdfprocessing/editing/fixedcontenteditor" />
+    <Article title="Text and Graphic Properties" slug="pdfprocessing/editing/text-and-graphic-properties" />
+    <Article title="RadFixedDocumentEditor" slug="pdfprocessing/editing/radfixeddocumenteditor" />
+    <Article title="List" slug="pdfprocessing/editing/list" />
+  </Folder>
+  <Folder title="Concepts" path="pdfprocessing/concepts">
+    <Article title="Colors and Color Spaces" slug="pdfprocessing/concepts/colors-and-color-spaces" />
+    <Article title="Clipping" slug="pdfprocessing/concepts/clipping" />
+    <Article title="Geometry" slug="pdfprocessing/concepts/geometry" />
+    <Article title="Fonts" slug="pdfprocessing/concepts/fonts" />
+    <Article title="Position" slug="pdfprocessing/concepts/position" />
+  </Folder>
+</Content>

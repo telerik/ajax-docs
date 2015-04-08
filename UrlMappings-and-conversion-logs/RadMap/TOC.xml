@@ -1,0 +1,31 @@
+<Content>
+  <Article title="Overview" slug="map/overview" />
+  <Folder title="Getting Started" path="map/getting-started">
+    <Article title="Overview" slug="map/getting-started/overview" />
+    <Article title="RadMap Structure" slug="map/getting-started/radmap-structure" />
+  </Folder>
+  <Article title="Design Time" slug="map/design-time" />
+  <Folder title="Functionality" path="map/functionality">
+    <Article title="UI Interaction Controls" slug="map/functionality/ui-interaction-controls" />
+    <Article title="Tile Layers" slug="map/functionality/tile-layers" />
+    <Article title="Markers" slug="map/functionality/markers" />
+    <Article title="Shapes" slug="map/functionality/shapes" />
+    <Article title="Bubble Layer" slug="map/functionality/bubble-layer" />
+  </Folder>
+  <Folder title="Data Binding" path="map/data-binding">
+    <Article title="Client-side" slug="map/data-binding/client-side" />
+    <Article title="Server-side" slug="map/data-binding/server-side" />
+  </Folder>
+  <Folder title="Mobile Support" path="map/mobile-support">
+    <Article title="Overview" slug="map/mobile-support/overview" />
+    <Article title="Gestures Support" slug="map/mobile-support/gestures-support" />
+    <Article title="Elastic Design" slug="map/mobile-support/elastic-design" />
+    <Article title="Fluid Design" slug="map/mobile-support/fluid-design" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="map/appearance-and-styling">
+    <Article title="Skins" slug="map/appearance-and-styling/skins" />
+    <Article title="Customizing Markers in RadMap" slug="map/appearance-and-styling/customizing-markers-in-radmap" />
+  </Folder>
+  <Article title="Server-side Programming" slug="map/server-side-programming" />
+  <Article title="Client-side Programming" slug="map/client-side-programming" />
+</Content>

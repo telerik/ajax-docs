@@ -1,0 +1,17 @@
+http://www.telerik.com/help/aspnet-ajax/client-data-source-overview.html http://docs.telerik.com/devtools/ajax/clientdatasource/overview
+http://www.telerik.com/help/aspnet-ajax/client-data-source-client-side-basics.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/overview
+http://www.telerik.com/help/aspnet-ajax/client-data-source-client-side-events.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/events
+http://www.telerik.com/help/aspnet-ajax/client-data-source-client-side-objects.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/clientdatasource-object
+http://www.telerik.com/help/aspnet-ajax/client-data-source-service-configuration.html http://docs.telerik.com/devtools/ajax/clientdatasource/service-configuration
+http://www.telerik.com/help/aspnet-ajax/client-data-source-connecting-to-web-service.html http://docs.telerik.com/devtools/ajax/clientdatasource/connecting-to-web-service
+http://www.telerik.com/help/aspnet-ajax/client-data-source-getting-started.html http://docs.telerik.com/devtools/ajax/clientdatasource/getting-started
+http://www.telerik.com/help/aspnet-ajax/client-data-source-server-side-basics.html http://docs.telerik.com/devtools/ajax/clientdatasource/server-side-programming/overview
+http://www.telerik.com/help/aspnet-ajax/client-data-source-add.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/methods/add
+http://www.telerik.com/help/aspnet-ajax/client-data-source-aggregates.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/methods/aggregates
+http://www.telerik.com/help/aspnet-ajax/client-data-source-fetch.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/methods/fetch
+http://www.telerik.com/help/aspnet-ajax/client-data-source-remove.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/methods/remove
+http://www.telerik.com/help/aspnet-ajax/client-data-source-update.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/methods/update
+http://www.telerik.com/help/aspnet-ajax/client-data-source-get-aggregates.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/properties/get_aggregates()
+http://www.telerik.com/help/aspnet-ajax/client-data-source-get-filterexpressions.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/properties/get_filterexpressions()
+http://www.telerik.com/help/aspnet-ajax/client-data-source-get-groupexpressions.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/properties/get_groupexpressions()
+http://www.telerik.com/help/aspnet-ajax/client-data-source-get-sortexpressions.html http://docs.telerik.com/devtools/ajax/clientdatasource/client-side-programming/client-side-api/properties/get_sortexpressions()

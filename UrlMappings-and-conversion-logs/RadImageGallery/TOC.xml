@@ -1,0 +1,35 @@
+<Content>
+  <Article title="Overview" slug="imagegallery/overview" />
+  <Article title="Getting Started" slug="imagegallery/getting-started" />
+  <Article title="Design Time" slug="imagegallery/design-time" />
+  <Folder title="Data Binding" path="imagegallery/data-binding">
+    <Folder title="Server-side" path="imagegallery/data-binding/server-side">
+      <Article title="Binding to Folder" slug="imagegallery/data-binding/server-side/binding-to-folder" />
+      <Article title="Binding RadImageGallery to a Static Collection of Items" slug="imagegallery/data-binding/server-side/binding-radimagegallery-to-a-static-collection-of-items" />
+      <Article title="Declarative Data Source" slug="imagegallery/data-binding/server-side/declarative-data-source" />
+      <Article title="Advanced via NeedDataSource" slug="imagegallery/data-binding/server-side/advanced-via-needdatasource" />
+    </Folder>
+    <Article title="Client-side" slug="imagegallery/data-binding/client-side" />
+  </Folder>
+  <Folder title="Functionality" path="imagegallery/functionality">
+    <Article title="Modes" slug="imagegallery/functionality/modes" />
+    <Article title="Animations" slug="imagegallery/functionality/animations" />
+    <Article title="Templates" slug="imagegallery/functionality/templates" />
+  </Folder>
+  <Folder title="Mobile Support" path="imagegallery/mobile-support">
+    <Article title="Overview" slug="imagegallery/mobile-support/overview" />
+    <Article title="Gestures" slug="imagegallery/mobile-support/gestures" />
+  </Folder>
+  <Folder title="Server-side Programming" path="imagegallery/server-side-programming">
+    <Article title="Overview" slug="imagegallery/server-side-programming/overview" />
+  </Folder>
+  <Folder title="Client-side Programming" path="imagegallery/client-side-programming">
+    <Article title="ImageGallery Object" slug="imagegallery/client-side-programming/imagegallery-object" />
+    <Article title="ImageGalleryItem Object" slug="imagegallery/client-side-programming/imagegalleryitem-object" />
+    <Article title="ImageGalleryItemCollection Object" slug="imagegallery/client-side-programming/imagegalleryitemcollection-object" />
+    <Article title="Events" slug="imagegallery/client-side-programming/events" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="imagegallery/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="imagegallery/accessibility-and-internationalization/keyboard-support" />
+  </Folder>
+</Content>

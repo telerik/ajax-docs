@@ -1,0 +1,121 @@
+<Content>
+  <Article title="Overview" slug="input/overview" />
+  <Article title="Changes and Backwards Compatibility" slug="input/changes-and-backwards-compatibility" />
+  <Folder title="Getting Started" path="input/getting-started">
+    <Article title="Overview" slug="input/getting-started/overview" />
+    <Article title="Structure" slug="input/getting-started/structure" />
+    <Article title="Context Menus" slug="input/getting-started/context-menus" />
+    <Article title="Getting and Setting Values" slug="input/getting-started/getting-and-setting-values" />
+    <Article title="Adding Buttons" slug="input/getting-started/adding-buttons" />
+    <Article title="Receiving Focus" slug="input/getting-started/receiving-focus" />
+    <Article title="Postbacks" slug="input/getting-started/postbacks" />
+    <Article title="Setting Focus" slug="input/getting-started/setting-focus" />
+  </Folder>
+  <Folder title="Design Time" path="input/design-time">
+    <Article title="Smart Tag" slug="input/design-time/smart-tag" />
+    <Article title="Input Mask Dialog" slug="input/design-time/input-mask-dialog" />
+    <Article title="MaskPart Collection Editor" slug="input/design-time/maskpart-collection-editor" />
+    <Article title="Date Format Dialog" slug="input/design-time/date-format-dialog" />
+  </Folder>
+  <Article title="Single Input Rendering Mode" slug="input/single-input-rendering-mode" />
+  <Folder title="RadInputManager" path="input/radinputmanager">
+    <Article title="Introduction" slug="input/radinputmanager/introduction" />
+    <Article title="Overview" slug="input/radinputmanager/overview" />
+    <Article title="Design Time" slug="input/radinputmanager/design-time" />
+    <Article title="Getting and Setting Values" slug="input/radinputmanager/getting-and-setting-values" />
+    <Article title="Performance" slug="input/radinputmanager/performance" />
+    <Article title="Dynamic InputSettings" slug="input/radinputmanager/dynamic-inputsettings" />
+    <Folder title="Server-side Events" path="input/radinputmanager/server-side-events">
+      <Article title="InputSettingCreating" slug="input/radinputmanager/server-side-events/inputsettingcreating" />
+      <Article title="Validating" slug="input/radinputmanager/server-side-events/validating" />
+      <Article title="Validated" slug="input/radinputmanager/server-side-events/validated" />
+    </Folder>
+    <Folder title="Client-side Events" path="input/radinputmanager/client-side-events">
+      <Article title="OnBlur" slug="input/radinputmanager/client-side-events/onblur" />
+      <Article title="OnFocus" slug="input/radinputmanager/client-side-events/onfocus" />
+      <Article title="OnKeyPress" slug="input/radinputmanager/client-side-events/onkeypress" />
+      <Article title="OnError" slug="input/radinputmanager/client-side-events/onerror" />
+      <Article title="OnValueChanged" slug="input/radinputmanager/client-side-events/onvaluechanged" />
+    </Folder>
+  </Folder>
+  <Folder title="RadTextBox" path="input/radtextbox">
+    <Article title="Overview" slug="input/radtextbox/overview" />
+    <Article title="AutoComplete" slug="input/radtextbox/autocomplete" />
+    <Article title="Limiting Allowable Values" slug="input/radtextbox/limiting-allowable-values" />
+    <Article title="Spell Checking RadTextBox" slug="input/radtextbox/spell-checking-radtextbox" />
+    <Article title="Password Strength Checker" slug="input/radtextbox/password-strength-checker" />
+  </Folder>
+  <Folder title="RadMaskedTextBox" path="input/radmaskedtextbox">
+    <Article title="Overview" slug="input/radmaskedtextbox/overview" />
+    <Article title="Masks" slug="input/radmaskedtextbox/masks" />
+  </Folder>
+  <Folder title="RadNumericTextBox" path="input/radnumerictextbox">
+    <Article title="Overview" slug="input/radnumerictextbox/overview" />
+    <Article title="Formatting Numeric Values" slug="input/radnumerictextbox/formatting-numeric-values" />
+  </Folder>
+  <Folder title="RadDateInput" path="input/raddateinput">
+    <Article title="Overview" slug="input/raddateinput/overview" />
+    <Article title="Formatting Dates" slug="input/raddateinput/formatting-dates" />
+    <Article title="Parsing Dates" slug="input/raddateinput/parsing-dates" />
+  </Folder>
+  <Folder title="Mobile Support" path="input/mobile-support">
+    <Article title="Render Modes" slug="input/mobile-support/render-modes" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="input/appearance-and-styling">
+    <Article title="Controlling Appearance" slug="input/appearance-and-styling/controlling-appearance" />
+    <Article title="Styles" slug="input/appearance-and-styling/styles" />
+    <Article title="Skins" slug="input/appearance-and-styling/skins" />
+    <Article title="Creating a Custom Skin" slug="input/appearance-and-styling/creating-a-custom-skin" />
+    <Article title="HTML Output and CSS Styling" slug="input/appearance-and-styling/html-output-and-css-styling" />
+    <Article title="Single Rendering HTML Output" slug="input/appearance-and-styling/single-rendering-html-output" />
+    <Article title="CSS Skin File Selectors" slug="input/appearance-and-styling/css-skin-file-selectors" />
+    <Article title="Using the CSS class to set the width" slug="input/appearance-and-styling/using-the-css-class-to-set-the-width" />
+    <Article title="Displaying Empty Values" slug="input/appearance-and-styling/displaying-empty-values" />
+    <Article title="Adding Labels" slug="input/appearance-and-styling/adding-labels" />
+    <Article title="Multi-Line Text Boxes" slug="input/appearance-and-styling/multi-line-text-boxes" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="input/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="input/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Keyboard Support" slug="input/accessibility-and-internationalization/keyboard-support" />
+    <Article title="WAI-ARIA Support" slug="input/accessibility-and-internationalization/wai-aria-support" />
+    <Article title="Mouse Wheel Support" slug="input/accessibility-and-internationalization/mouse-wheel-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="input/server-side-programming">
+    <Article title="Overview" slug="input/server-side-programming/overview" />
+    <Article title="TextChanged Event" slug="input/server-side-programming/textchanged-event" />
+  </Folder>
+  <Folder title="Client-side Programming" path="input/client-side-programming">
+    <Article title="Overview" slug="input/client-side-programming/overview" />
+    <Article title="RadTextBox Client Object" slug="input/client-side-programming/radtextbox-client-object" />
+    <Article title="RadNumericTextBox Client Object" slug="input/client-side-programming/radnumerictextbox-client-object" />
+    <Article title="RadMaskedTextBox Client Object" slug="input/client-side-programming/radmaskedtextbox-client-object" />
+    <Article title="RadDateInput Client Object" slug="input/client-side-programming/raddateinput-client-object" />
+    <Article title="InputStyles Client Object" slug="input/client-side-programming/inputstyles-client-object" />
+    <Article title="IncrementSettings Client Object" slug="input/client-side-programming/incrementsettings-client-object" />
+    <Article title="NumberFormat Client Object" slug="input/client-side-programming/numberformat-client-object" />
+    <Article title="DateFormatInfo Client Object" slug="input/client-side-programming/dateformatinfo-client-object" />
+    <Folder title="Events" path="input/client-side-programming/events">
+      <Article title="Overview" slug="input/client-side-programming/events/overview" />
+      <Article title="OnBlur" slug="input/client-side-programming/events/onblur" />
+      <Article title="OnButtonClick" slug="input/client-side-programming/events/onbuttonclick" />
+      <Article title="OnClientPasswordStrengthCalculating" slug="input/client-side-programming/events/onclientpasswordstrengthcalculating" />
+      <Article title="OnDisable" slug="input/client-side-programming/events/ondisable" />
+      <Article title="OnEnable" slug="input/client-side-programming/events/onenable" />
+      <Article title="OnEnumerationChanged" slug="input/client-side-programming/events/onenumerationchanged" />
+      <Article title="OnError" slug="input/client-side-programming/events/onerror" />
+      <Article title="OnFocus" slug="input/client-side-programming/events/onfocus" />
+      <Article title="OnKeyPress" slug="input/client-side-programming/events/onkeypress" />
+      <Article title="OnLoad" slug="input/client-side-programming/events/onload" />
+      <Article title="OnMouseOut" slug="input/client-side-programming/events/onmouseout" />
+      <Article title="OnMouseOver" slug="input/client-side-programming/events/onmouseover" />
+      <Article title="OnMoveUp" slug="input/client-side-programming/events/onmoveup" />
+      <Article title="OnMoveDown" slug="input/client-side-programming/events/onmovedown" />
+      <Article title="OnValueChanged" slug="input/client-side-programming/events/onvaluechanged" />
+      <Article title="OnValueChanging" slug="input/client-side-programming/events/onvaluechanging" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="input/application-scenarios">
+    <Article title="Using Input Controls Inside Data-Bound Controls" slug="input/application-scenarios/using-input-controls-inside-data-bound-controls" />
+    <Article title="Validation" slug="input/application-scenarios/validation" />
+  </Folder>
+</Content>

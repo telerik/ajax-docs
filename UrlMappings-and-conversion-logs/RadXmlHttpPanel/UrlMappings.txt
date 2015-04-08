@@ -1,0 +1,15 @@
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-callback-configuration.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/getting-started/callback-configuration
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-client-side-api.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/xmlhttppanel-object
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-client-side-events-overview.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/events/overview
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-design-smart-tag.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/design-time
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-getting-started.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/getting-started/overview
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-known-issues.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/troubleshooting
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-programming-client-side-basic.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/overview
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-programming-onclientresponseended.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/events/onclientresponseended
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-programming-onclientresponseending.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/events/onclientresponseending
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-programming-onclientresponseerror.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/client-side-programming/events/onclientresponseerror
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-server-side.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/server-side-programming/xmlhttppanel-object
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-vs-radajaxpanel.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/getting-started/differences-between-radxmlhttppanel-and-radajaxpanel
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-webservice-configuration.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/getting-started/webservice-configuration
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel-wfc-binding.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/getting-started/client-side-wcf-service-binding
+http://www.telerik.com/help/aspnet-ajax/xmlhttppanel.html http://docs.telerik.com/devtools/ajax/xmlhttppanel/overview

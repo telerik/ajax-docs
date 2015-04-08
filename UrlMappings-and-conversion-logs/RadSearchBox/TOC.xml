@@ -1,0 +1,76 @@
+<Content>
+  <Article title="Overview" slug="searchbox/overview" />
+  <Article title="Getting Started" slug="searchbox/getting-started" />
+  <Folder title="Design Time" path="searchbox/design-time">
+    <Article title="Design-time" slug="searchbox/design-time/design-time" />
+  </Folder>
+  <Folder title="Templates" path="searchbox/templates">
+    <Article title="Overview" slug="searchbox/templates/overview" />
+    <Article title="Client Templates" slug="searchbox/templates/client-templates" />
+    <Article title="Server Templates" slug="searchbox/templates/server-templates" />
+    <Article title="Header and Footer Templates" slug="searchbox/templates/header-and-footer-templates" />
+  </Folder>
+  <Folder title="Data Binding" path="searchbox/data-binding">
+    <Article title="Overview" slug="searchbox/data-binding/overview" />
+    <Article title="Binding to Array or ArrayList" slug="searchbox/data-binding/binding-to-array-or-arraylist" />
+    <Article title="Binding to DataTable" slug="searchbox/data-binding/binding-to-datatable" />
+    <Article title="Binding to ASP DataSource Components" slug="searchbox/data-binding/binding-to-asp-datasource-components" />
+    <Article title="Binding to OData" slug="searchbox/data-binding/binding-to-odata" />
+    <Article title="Web Service Binding" slug="searchbox/data-binding/web-service-binding" />
+    <Article title="WCF Service Binding" slug="searchbox/data-binding/wcf-service-binding" />
+    <Article title="Binding to RadClientDataSource" slug="searchbox/data-binding/binding-to-radclientdatasource" />
+  </Folder>
+  <Folder title="Functionality" path="searchbox/functionality">
+    <Article title="AutoComplete" slug="searchbox/functionality/autocomplete" />
+    <Article title="Buttons Collection" slug="searchbox/functionality/buttons-collection" />
+    <Article title="Search Button" slug="searchbox/functionality/search-button" />
+    <Article title="Filtering" slug="searchbox/functionality/filtering" />
+    <Article title="DataKeyNames" slug="searchbox/functionality/datakeynames" />
+    <Article title="Passing Additional Information to the Server" slug="searchbox/functionality/passing-additional-information-to-the-server" />
+  </Folder>
+  <Folder title="Search Context" path="searchbox/search-context">
+    <Article title="Overview" slug="searchbox/search-context/overview" />
+    <Folder title="Data Binding" path="searchbox/search-context/data-binding">
+      <Article title="Overview" slug="searchbox/search-context/data-binding/overview" />
+      <Article title="Client-side Binding" slug="searchbox/search-context/data-binding/client-side-binding" />
+      <Article title="Server-side Binding" slug="searchbox/search-context/data-binding/server-side-binding" />
+    </Folder>
+    <Folder title="Events" path="searchbox/search-context/events">
+      <Article title="OnClientItemDataBound" slug="searchbox/search-context/events/onclientitemdatabound" />
+    </Folder>
+    <Folder title="Events" path="searchbox/search-context/events">
+      <Article title="OnItemDataBound" slug="searchbox/search-context/events/onitemdatabound" />
+    </Folder>
+  </Folder>
+  <Folder title="Appearance And Styling" path="searchbox/appearance-and-styling">
+    <Article title="Skins" slug="searchbox/appearance-and-styling/skins" />
+    <Article title="Animations" slug="searchbox/appearance-and-styling/animations" />
+    <Article title="Skin Selectors" slug="searchbox/appearance-and-styling/skin-selectors" />
+  </Folder>
+  <Folder title="Accessibility And Internationalization" path="searchbox/accessibility-and-internationalization">
+    <Article title="Keyboard support" slug="searchbox/accessibility-and-internationalization/keyboard-support" />
+  </Folder>
+  <Folder title="Client-side Programming" path="searchbox/client-side-programming">
+    <Article title="RadSearchBox Object" slug="searchbox/client-side-programming/radsearchbox-object" />
+    <Article title="SearchContext Object" slug="searchbox/client-side-programming/searchcontext-object" />
+    <Article title="SearchContextItem Object" slug="searchbox/client-side-programming/searchcontextitem-object" />
+    <Article title="SearchContextItemCollection Object" slug="searchbox/client-side-programming/searchcontextitemcollection-object" />
+    <Article title="RadSearchBoxButton Object" slug="searchbox/client-side-programming/radsearchboxbutton-object" />
+    <Article title="RadSearchBoxButtonCollection Object" slug="searchbox/client-side-programming/radsearchboxbuttoncollection-object" />
+    <Folder title="Events" path="searchbox/client-side-programming/events">
+      <Article title="Overview" slug="searchbox/client-side-programming/events/overview" />
+      <Article title="OnClientSearch" slug="searchbox/client-side-programming/events/onclientsearch" />
+      <Article title="OnClientDataRequesting" slug="searchbox/client-side-programming/events/onclientdatarequesting" />
+      <Article title="OnClientButtonCommand" slug="searchbox/client-side-programming/events/onclientbuttoncommand" />
+      <Article title="OnClientLoad" slug="searchbox/client-side-programming/events/onclientload" />
+    </Folder>
+  </Folder>
+  <Folder title="Server-side Programming" path="searchbox/server-side-programming">
+    <Folder title="Server Events" path="searchbox/server-side-programming/server-events">
+      <Article title="Overview" slug="searchbox/server-side-programming/server-events/overview" />
+      <Article title="OnSearch" slug="searchbox/server-side-programming/server-events/onsearch" />
+      <Article title="OnButtonCommand" slug="searchbox/server-side-programming/server-events/onbuttoncommand" />
+      <Article title="OnDataSourceSelect" slug="searchbox/server-side-programming/server-events/ondatasourceselect" />
+    </Folder>
+  </Folder>
+</Content>

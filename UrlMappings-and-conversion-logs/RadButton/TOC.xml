@@ -1,0 +1,69 @@
+<Content>
+  <Article title="Telerik's ASP.NET Button Overview" slug="button/telerik's-asp.net-button-overview" />
+  <Folder title="Changes and Backward Compatibility" path="button/changes-and-backward-compatibility">
+    <Article title="Overview" slug="button/changes-and-backward-compatibility/overview" />
+  </Folder>
+  <Article title="Getting Started" slug="button/getting-started" />
+  <Article title="Design Time" slug="button/design-time" />
+  <Folder title="Button Types" path="button/button-types">
+    <Article title="Overview" slug="button/button-types/overview" />
+    <Article title="Split Button" slug="button/button-types/split-button" />
+    <Article title="Image Button" slug="button/button-types/image-button" />
+    <Article title="Toggle button" slug="button/button-types/toggle-button" />
+    <Article title="ContentTemplate" slug="button/button-types/contenttemplate" />
+    <Folder title="Icons" path="button/button-types/icons">
+      <Article title="Overview" slug="button/button-types/icons/overview" />
+      <Article title="Embedded Icons" slug="button/button-types/icons/embedded-icons" />
+    </Folder>
+  </Folder>
+  <Folder title="Functionality" path="button/functionality">
+    <Article title="Single Click Button" slug="button/functionality/single-click-button" />
+  </Folder>
+  <Folder title="Mobile Support" path="button/mobile-support">
+    <Article title="Overview" slug="button/mobile-support/overview" />
+    <Article title="Elastic Design" slug="button/mobile-support/elastic-design" />
+    <Article title="Fluid Design" slug="button/mobile-support/fluid-design" />
+    <Article title="Render Modes" slug="button/mobile-support/render-modes" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="button/appearance-and-styling">
+    <Article title="Skins" slug="button/appearance-and-styling/skins" />
+    <Article title="CSS Classes" slug="button/appearance-and-styling/css-classes" />
+    <Article title="Creating a Custom Skin" slug="button/appearance-and-styling/creating-a-custom-skin" />
+    <Article title="Creating a Custom LightWeight Skin" slug="button/appearance-and-styling/creating-a-custom-lightweight-skin" />
+    <Article title="Custom Height Tutorial" slug="button/appearance-and-styling/custom-height-tutorial" />
+    <Article title="Primary and Secondary Action Buttons" slug="button/appearance-and-styling/primary-and-secondary-action-buttons" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="button/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="button/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-Left Support" slug="button/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Keyboard Support" slug="button/accessibility-and-internationalization/keyboard-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="button/server-side-programming">
+    <Article title="Properties and Events" slug="button/server-side-programming/properties-and-events" />
+    <Article title="Methods" slug="button/server-side-programming/methods" />
+  </Folder>
+  <Folder title="Client-side Programming" path="button/client-side-programming">
+    <Article title="Overview" slug="button/client-side-programming/overview" />
+    <Folder title="Events" path="button/client-side-programming/events">
+      <Article title="Overview" slug="button/client-side-programming/events/overview" />
+      <Article title="OnClientCheckedChanged" slug="button/client-side-programming/events/onclientcheckedchanged" />
+      <Article title="OnClientCheckedChanging" slug="button/client-side-programming/events/onclientcheckedchanging" />
+      <Article title="OnClientClicking" slug="button/client-side-programming/events/onclientclicking" />
+      <Article title="OnClientClicked" slug="button/client-side-programming/events/onclientclicked" />
+      <Article title="OnClientMouseOver" slug="button/client-side-programming/events/onclientmouseover" />
+      <Article title="OnClientMouseOut" slug="button/client-side-programming/events/onclientmouseout" />
+      <Article title="OnClientToggleStateChanging" slug="button/client-side-programming/events/onclienttogglestatechanging" />
+      <Article title="OnClientToggleStateChanged" slug="button/client-side-programming/events/onclienttogglestatechanged" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="button/application-scenarios">
+    <Article title="RadButton Validation and Client-side Event Handlers" slug="button/application-scenarios/radbutton-validation-and-client-side-event-handlers" />
+    <Article title="Use NavigateUrl with StandardButton Type" slug="button/application-scenarios/use-navigateurl-with-standardbutton-type" />
+  </Folder>
+  <Folder title="Troubleshooting" path="button/troubleshooting">
+    <Article title="RadButton Known Issues in IE6 and IE7" slug="button/troubleshooting/radbutton-known-issues-in-ie6-and-ie7" />
+    <Article title="RadButton Not Performing Postback" slug="button/troubleshooting/radbutton-not-performing-postback" />
+    <Article title="Event Handlers Are Not Raised" slug="button/troubleshooting/event-handlers-are-not-raised" />
+    <Article title="Client-side Click Event Handler Is Not Executed" slug="button/troubleshooting/client-side-click-event-handler-is-not-executed" />
+  </Folder>
+</Content>

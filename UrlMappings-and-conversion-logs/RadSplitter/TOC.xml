@@ -1,0 +1,84 @@
+<Content>
+  <Article title="Overview" slug="splitter/overview" />
+  <Article title="Changes And Backward Compatibility" slug="splitter/changes-and-backward-compatibility" />
+  <Folder title="Getting Started" path="splitter/getting-started">
+    <Article title="Overview" slug="splitter/getting-started/overview" />
+    <Article title="Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX" slug="splitter/getting-started/migrating-from-radsplitter-classic-to-radsplitter-for-asp.net-ajax" />
+    <Article title="Structure" slug="splitter/getting-started/structure" />
+  </Folder>
+  <Article title="Design Time" slug="splitter/design-time" />
+  <Folder title="Layout" path="splitter/layout">
+    <Article title="Declaring Splitter" slug="splitter/layout/declaring-splitter" />
+    <Article title="Orientation" slug="splitter/layout/orientation" />
+    <Article title="Specifying Size" slug="splitter/layout/specifying-size" />
+    <Article title="Filling the Entire Page" slug="splitter/layout/filling-the-entire-page" />
+    <Article title="Nesting Splitters" slug="splitter/layout/nesting-splitters" />
+    <Article title="Fixed Layout" slug="splitter/layout/fixed-layout" />
+  </Folder>
+  <Folder title="Panes" path="splitter/panes">
+    <Article title="Resizing" slug="splitter/panes/resizing" />
+    <Article title="Collapsing" slug="splitter/panes/collapsing" />
+    <Article title="Displaying External Content" slug="splitter/panes/displaying-external-content" />
+    <Article title="Printing Content" slug="splitter/panes/printing-content" />
+    <Article title="Persisting State " slug="splitter/panes/persisting-state-" />
+  </Folder>
+  <Folder title="Sliding Zones" path="splitter/sliding-zones">
+    <Article title="Declaring Sliding Zones" slug="splitter/sliding-zones/declaring-sliding-zones" />
+    <Article title="Sliding Direction" slug="splitter/sliding-zones/sliding-direction" />
+    <Article title="Specifying Tab appearance" slug="splitter/sliding-zones/specifying-tab-appearance" />
+    <Article title="Specifying the Initial State" slug="splitter/sliding-zones/specifying-the-initial-state" />
+    <Article title="Sliding Pane Behavior" slug="splitter/sliding-zones/sliding-pane-behavior" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="splitter/appearance-and-styling">
+    <Article title="Controlling Appearance" slug="splitter/appearance-and-styling/controlling-appearance" />
+    <Article title="Skins" slug="splitter/appearance-and-styling/skins" />
+    <Article title="CSS Classes" slug="splitter/appearance-and-styling/css-classes" />
+    <Article title="Understanding the Skin CSS File" slug="splitter/appearance-and-styling/understanding-the-skin-css-file" />
+    <Article title="Tutorial: Creating a Custom Skin" slug="splitter/appearance-and-styling/tutorial:-creating-a-custom-skin" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="splitter/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="splitter/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="splitter/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Changing the Strings in the User Interface" slug="splitter/accessibility-and-internationalization/changing-the-strings-in-the-user-interface" />
+  </Folder>
+  <Folder title="Server-side Programming" path="splitter/server-side-programming">
+    <Article title="Creating Splitter Programatically" slug="splitter/server-side-programming/creating-splitter-programatically" />
+    <Article title="Creating SlidingZone Programmatically" slug="splitter/server-side-programming/creating-slidingzone-programmatically" />
+    <Article title="Implemented Inherited Properties" slug="splitter/server-side-programming/implemented-inherited-properties" />
+  </Folder>
+  <Folder title="Client-side Programming" path="splitter/client-side-programming">
+    <Article title="Overview" slug="splitter/client-side-programming/overview" />
+    <Article title="RadSplitter Object" slug="splitter/client-side-programming/radsplitter-object" />
+    <Article title="RadPane Object" slug="splitter/client-side-programming/radpane-object" />
+    <Article title="RadSplitBar Object" slug="splitter/client-side-programming/radsplitbar-object" />
+    <Article title="RadSlidingZone Object" slug="splitter/client-side-programming/radslidingzone-object" />
+    <Article title="RadSlidingPane Object" slug="splitter/client-side-programming/radslidingpane-object" />
+    <Folder title="Events" path="splitter/client-side-programming/events">
+      <Article title="Overview" slug="splitter/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="splitter/client-side-programming/events/onclientload" />
+      <Article title="OnClientLoaded" slug="splitter/client-side-programming/events/onclientloaded" />
+      <Article title="OnClientBeforeResize" slug="splitter/client-side-programming/events/onclientbeforeresize" />
+      <Article title="OnClientResizing" slug="splitter/client-side-programming/events/onclientresizing" />
+      <Article title="OnClientResized" slug="splitter/client-side-programming/events/onclientresized" />
+      <Article title="OnClientBeforeCollapse" slug="splitter/client-side-programming/events/onclientbeforecollapse" />
+      <Article title="OnClientCollapsing" slug="splitter/client-side-programming/events/onclientcollapsing" />
+      <Article title="OnClientCollapsed" slug="splitter/client-side-programming/events/onclientcollapsed" />
+      <Article title="OnClientBeforeExpand" slug="splitter/client-side-programming/events/onclientbeforeexpand" />
+      <Article title="OnClientExpanding" slug="splitter/client-side-programming/events/onclientexpanding" />
+      <Article title="OnClientExpanded" slug="splitter/client-side-programming/events/onclientexpanded" />
+      <Article title="OnClientBeforeDock" slug="splitter/client-side-programming/events/onclientbeforedock" />
+      <Article title="OnClientDocking" slug="splitter/client-side-programming/events/onclientdocking" />
+      <Article title="OnClientDocked" slug="splitter/client-side-programming/events/onclientdocked" />
+      <Article title="OnClientBeforeUndock" slug="splitter/client-side-programming/events/onclientbeforeundock" />
+      <Article title="OnClientUndocking" slug="splitter/client-side-programming/events/onclientundocking" />
+      <Article title="OnClientUndocked" slug="splitter/client-side-programming/events/onclientundocked" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="splitter/application-scenarios">
+    <Article title="AJAX updates" slug="splitter/application-scenarios/ajax-updates" />
+    <Article title="Referencing the External Content of a Pane" slug="splitter/application-scenarios/referencing-the-external-content-of-a-pane" />
+  </Folder>
+  <Folder title="Troubleshooting" path="splitter/troubleshooting">
+    <Article title="Printing Problem" slug="splitter/troubleshooting/printing-problem" />
+  </Folder>
+</Content>

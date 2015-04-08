@@ -1,0 +1,23 @@
+<Content>
+  <Article title="Overview" slug="persistenceframework/overview" />
+  <Folder title="Getting Started" path="persistenceframework/getting-started">
+    <Article title="Overview" slug="persistenceframework/getting-started/overview" />
+    <Article title="Supported Controls" slug="persistenceframework/getting-started/supported-controls" />
+  </Folder>
+  <Article title="Design Time" slug="persistenceframework/design-time" />
+  <Article title="RadPersistenceManager" slug="persistenceframework/radpersistencemanager" />
+  <Article title="RadPersistenceManagerProxy" slug="persistenceframework/radpersistencemanagerproxy" />
+  <Folder title="Functionality" path="persistenceframework/functionality">
+    <Article title=" Custom Storage Provider" slug="persistenceframework/functionality/-custom-storage-provider" />
+  </Folder>
+  <Folder title="Server-Side Programming" path="persistenceframework/server-side-programming">
+    <Article title="Overview" slug="persistenceframework/server-side-programming/overview" />
+    <Folder title="Events" path="persistenceframework/server-side-programming/events">
+      <Article title="LoadCustomSettings" slug="persistenceframework/server-side-programming/events/loadcustomsettings" />
+      <Article title="SaveCustomSettings" slug="persistenceframework/server-side-programming/events/savecustomsettings" />
+    </Folder>
+  </Folder>
+  <Folder title="Troubleshooting" path="persistenceframework/troubleshooting">
+    <Article title="Limitations" slug="persistenceframework/troubleshooting/limitations" />
+  </Folder>
+</Content>

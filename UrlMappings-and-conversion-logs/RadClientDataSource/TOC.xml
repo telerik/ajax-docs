@@ -1,0 +1,29 @@
+<Content>
+  <Article title="Overview" slug="clientdatasource/overview" />
+  <Article title="Getting Started" slug="clientdatasource/getting-started" />
+  <Article title="Connecting to Web Service" slug="clientdatasource/connecting-to-web-service" />
+  <Article title="Service Configuration" slug="clientdatasource/service-configuration" />
+  <Folder title="Server-side Programming" path="clientdatasource/server-side-programming">
+    <Article title="Overview" slug="clientdatasource/server-side-programming/overview" />
+  </Folder>
+  <Folder title="Client-side Programming" path="clientdatasource/client-side-programming">
+    <Article title="Overview" slug="clientdatasource/client-side-programming/overview" />
+    <Article title="ClientDataSource Object" slug="clientdatasource/client-side-programming/clientdatasource-object" />
+    <Article title="Events" slug="clientdatasource/client-side-programming/events" />
+    <Folder title="Client-side API" path="clientdatasource/client-side-programming/client-side-api">
+      <Folder title="Properties" path="clientdatasource/client-side-programming/client-side-api/properties">
+        <Article title="get_filterExpressions()" slug="clientdatasource/client-side-programming/client-side-api/properties/get_filterexpressions()" />
+        <Article title="get_sortExpressions()" slug="clientdatasource/client-side-programming/client-side-api/properties/get_sortexpressions()" />
+        <Article title="get_groupExpressions()" slug="clientdatasource/client-side-programming/client-side-api/properties/get_groupexpressions()" />
+        <Article title="get_aggregates()" slug="clientdatasource/client-side-programming/client-side-api/properties/get_aggregates()" />
+      </Folder>
+      <Folder title="Methods" path="clientdatasource/client-side-programming/client-side-api/methods">
+        <Article title="add" slug="clientdatasource/client-side-programming/client-side-api/methods/add" />
+        <Article title="update" slug="clientdatasource/client-side-programming/client-side-api/methods/update" />
+        <Article title="remove" slug="clientdatasource/client-side-programming/client-side-api/methods/remove" />
+        <Article title="aggregates" slug="clientdatasource/client-side-programming/client-side-api/methods/aggregates" />
+        <Article title="fetch" slug="clientdatasource/client-side-programming/client-side-api/methods/fetch" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Content>

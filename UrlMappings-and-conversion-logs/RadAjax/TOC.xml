@@ -1,0 +1,125 @@
+<Content>
+  <Article title="Overview" slug="ajax/overview" />
+  <Article title="Changes and Backwards Compatibility" slug="ajax/changes-and-backwards-compatibility" />
+  <Folder title="Getting Started" path="ajax/getting-started">
+    <Article title="What is AJAX?" slug="ajax/getting-started/what-is-ajax?" />
+    <Article title="RadAjax Advantages" slug="ajax/getting-started/radajax-advantages" />
+    <Article title="Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel" slug="ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel" />
+  </Folder>
+  <Article title="Design Time" slug="ajax/design-time" />
+  <Folder title="RadAjaxManager" path="ajax/radajaxmanager">
+    <Article title="Overview" slug="ajax/radajaxmanager/overview" />
+    <Folder title="How-To" path="ajax/radajaxmanager/how-to">
+      <Article title="Add AjaxSettings Programmatically" slug="ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically" />
+      <Article title="RadAjax and WebUserControls" slug="ajax/radajaxmanager/how-to/radajax-and-webusercontrols" />
+      <Article title="RadAjax and MasterPage" slug="ajax/radajaxmanager/how-to/radajax-and-masterpage" />
+      <Article title="MasterPages: Ajaxify and Update Controls in Master and Content Page" slug="ajax/radajaxmanager/how-to/masterpages:-ajaxify-and-update-controls-in-master-and-content-page" />
+      <Article title="MasterPages: Initiating Requests from one ContentPlaceHolder and Loading/Updating Controls in another" slug="ajax/radajaxmanager/how-to/masterpages:-initiating-requests-from-one-contentplaceholder-and-loading/updating-controls-in-another" />
+      <Article title="Ajaxify Particular Templated GridView Buttons" slug="ajax/radajaxmanager/how-to/ajaxify-particular-templated-gridview-buttons" />
+      <Article title="Update in Composite Control" slug="ajax/radajaxmanager/how-to/update-in-composite-control" />
+      <Article title="Add RadAjaxManager Programmatically" slug="ajax/radajaxmanager/how-to/add-radajaxmanager-programmatically" />
+      <Article title="Update Initiator's UpdatePanels only" slug="ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only" />
+    </Folder>
+    <Folder title="Troubleshooting" path="ajax/radajaxmanager/troubleshooting">
+      <Article title="Controls Wrapped in AjaxPanel and Added to AjaxManager Settings" slug="ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings" />
+      <Article title="Ajaxified Control Still Makes Postbacks" slug="ajax/radajaxmanager/troubleshooting/ajaxified-control-still-makes-postbacks" />
+      <Article title="RadAjaxManager Designer Does Not Locate All Controls" slug="ajax/radajaxmanager/troubleshooting/radajaxmanager-designer-does-not-locate-all-controls" />
+      <Article title="Layout Problem: Updated Controls Appear on a New Line" slug="ajax/radajaxmanager/troubleshooting/layout-problem:-updated-controls-appear-on-a-new-line" />
+      <Article title="Dynamically Adding RadAjaxManager to Sharepoint Web Parts" slug="ajax/radajaxmanager/troubleshooting/dynamically-adding-radajaxmanager-to-sharepoint-web-parts" />
+      <Article title="Force Controls in an AJAX-enabled Container to Perform a Postback" slug="ajax/radajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback" />
+    </Folder>
+  </Folder>
+  <Folder title="RadAjaxPanel" path="ajax/radajaxpanel">
+    <Article title="Overview" slug="ajax/radajaxpanel/overview" />
+    <Folder title="How-To" path="ajax/radajaxpanel/how-to">
+      <Article title="Interacting Between RadAjaxPanels" slug="ajax/radajaxpanel/how-to/interacting-between-radajaxpanels" />
+      <Article title="Scroll to Top after AJAX" slug="ajax/radajaxpanel/how-to/scroll-to-top-after-ajax" />
+    </Folder>
+  </Folder>
+  <Folder title="RadAjaxManagerProxy" path="ajax/radajaxmanagerproxy">
+    <Article title="Overview" slug="ajax/radajaxmanagerproxy/overview" />
+  </Folder>
+  <Folder title="RadAjaxLoadingPanel" path="ajax/radajaxloadingpanel">
+    <Article title="Overview" slug="ajax/radajaxloadingpanel/overview" />
+    <Article title="Animation" slug="ajax/radajaxloadingpanel/animation" />
+    <Folder title="How-To" path="ajax/radajaxloadingpanel/how-to">
+      <Article title="Show and Hide AjaxLoadingPanel explicitly" slug="ajax/radajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly" />
+      <Article title="Show AjaxLoadingPanel on Initial Page Load" slug="ajax/radajaxloadingpanel/how-to/show-ajaxloadingpanel-on-initial-page-load" />
+      <Article title="Show the Loading Panel next to AJAX Initiator" slug="ajax/radajaxloadingpanel/how-to/show-the-loading-panel-next-to-ajax-initiator" />
+      <Article title="Center the Loading Panel on the Screen" slug="ajax/radajaxloadingpanel/how-to/center-the-loading-panel-on-the-screen" />
+    </Folder>
+  </Folder>
+  <Folder title="Performance" path="ajax/performance">
+    <Article title="Optimizing Performance Using RadAjaxManager" slug="ajax/performance/optimizing-performance-using-radajaxmanager" />
+  </Folder>
+  <Article title="RadCodeBlock and RadScriptBlock" slug="ajax/radcodeblock-and-radscriptblock" />
+  <Folder title="Appearance and Styling" path="ajax/appearance-and-styling">
+    <Article title="Skins" slug="ajax/appearance-and-styling/skins" />
+    <Article title="Controlling Appearance of a RadAjaxLoadingPanel" slug="ajax/appearance-and-styling/controlling-appearance-of-a-radajaxloadingpanel" />
+    <Article title="Controlling Z-Index" slug="ajax/appearance-and-styling/controlling-z-index" />
+    <Article title="HTML Output" slug="ajax/appearance-and-styling/html-output" />
+    <Article title="Render Modes" slug="ajax/appearance-and-styling/render-modes" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="ajax/accessibility-and-internationalization">
+    <Article title="WAI-ARIA Support" slug="ajax/accessibility-and-internationalization/wai-aria-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="ajax/server-side-programming">
+    <Article title="Properties" slug="ajax/server-side-programming/properties" />
+    <Article title="Methods" slug="ajax/server-side-programming/methods" />
+    <Article title="AjaxUpdatedControl Properties" slug="ajax/server-side-programming/ajaxupdatedcontrol-properties" />
+    <Folder title="Events" path="ajax/server-side-programming/events">
+      <Article title="OnAjaxRequest" slug="ajax/server-side-programming/events/onajaxrequest" />
+      <Article title="OnAjaxSettingCreating" slug="ajax/server-side-programming/events/onajaxsettingcreating" />
+      <Article title="OnAjaxSettingCreated" slug="ajax/server-side-programming/events/onajaxsettingcreated" />
+    </Folder>
+  </Folder>
+  <Folder title="Client-side Programming" path="ajax/client-side-programming">
+    <Article title="Overview" slug="ajax/client-side-programming/overview" />
+    <Article title="RadAjaxManager Object" slug="ajax/client-side-programming/radajaxmanager-object" />
+    <Article title="RadAjaxPanel Object" slug="ajax/client-side-programming/radajaxpanel-object" />
+    <Folder title="Events" path="ajax/client-side-programming/events">
+      <Article title="Overview" slug="ajax/client-side-programming/events/overview" />
+      <Article title="OnRequestStart" slug="ajax/client-side-programming/events/onrequeststart" />
+      <Article title="OnResponseEnd" slug="ajax/client-side-programming/events/onresponseend" />
+      <Article title="OnClientShowing" slug="ajax/client-side-programming/events/onclientshowing" />
+      <Article title="OnClientHiding" slug="ajax/client-side-programming/events/onclienthiding" />
+    </Folder>
+    <Folder title="How-To" path="ajax/client-side-programming/how-to">
+      <Article title="Cancel AJAX  Request" slug="ajax/client-side-programming/how-to/cancel-ajax--request" />
+      <Article title="Client Confirmation and AJAX" slug="ajax/client-side-programming/how-to/client-confirmation-and-ajax" />
+      <Article title="Pass More than one Argument" slug="ajax/client-side-programming/how-to/pass-more-than-one-argument" />
+      <Article title="Forcing a Postback" slug="ajax/client-side-programming/how-to/forcing-a-postback" />
+      <Article title="Assign Different Client Events for Different Controls" slug="ajax/client-side-programming/how-to/assign-different-client-events-for-different-controls" />
+      <Article title="Change Mouse Cursor on AJAX Update" slug="ajax/client-side-programming/how-to/change-mouse-cursor-on-ajax-update" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="ajax/application-scenarios">
+    <Article title="Frequently Asked Questions" slug="ajax/application-scenarios/frequently-asked-questions" />
+    <Article title="Redirecting to Another Page" slug="ajax/application-scenarios/redirecting-to-another-page" />
+    <Article title="Load User Controls" slug="ajax/application-scenarios/load-user-controls" />
+    <Article title="Manually Add an AJAX Request" slug="ajax/application-scenarios/manually-add-an-ajax-request" />
+    <Article title="Exclude Controls from Ajaxifying" slug="ajax/application-scenarios/exclude-controls-from-ajaxifying" />
+    <Article title="Executing Custom Javascript Code after AJAX Update" slug="ajax/application-scenarios/executing-custom-javascript-code-after-ajax-update" />
+    <Article title="Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax" slug="ajax/application-scenarios/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax" />
+    <Article title="Disable AJAX when Client Browser Does Not Support it" slug="ajax/application-scenarios/disable-ajax-when-client-browser-does-not-support-it" />
+    <Article title="Disable Controls During AJAX" slug="ajax/application-scenarios/disable-controls-during-ajax" />
+    <Article title="How to Use Css Conditional Comments with Ajax" slug="ajax/application-scenarios/how-to-use-css-conditional-comments-with-ajax" />
+    <Article title="Download Files with Ajaxified Control" slug="ajax/application-scenarios/download-files-with-ajaxified-control" />
+    <Article title="Ajax Requests Queueing" slug="ajax/application-scenarios/ajax-requests-queueing" />
+    <Article title="Using RadAjax in Medium Trust" slug="ajax/application-scenarios/using-radajax-in-medium-trust" />
+    <Article title="EventName Property" slug="ajax/application-scenarios/eventname-property" />
+  </Folder>
+  <Folder title="Troubleshooting" path="ajax/troubleshooting">
+    <Article title="Known Reasons for Error Messages" slug="ajax/troubleshooting/known-reasons-for-error-messages" />
+    <Article title="Common Issues" slug="ajax/troubleshooting/common-issues" />
+    <Article title="AJAX And File Upload" slug="ajax/troubleshooting/ajax-and-file-upload" />
+    <Article title="Control is Not Updated after AJAX" slug="ajax/troubleshooting/control-is-not-updated-after-ajax" />
+    <Article title="Dropped AJAX Requests from Child Window" slug="ajax/troubleshooting/dropped-ajax-requests-from-child-window" />
+    <Article title="Firefox Specifics" slug="ajax/troubleshooting/firefox-specifics" />
+    <Article title="Controls Not Compatible with RadAjax" slug="ajax/troubleshooting/controls-not-compatible-with-radajax" />
+    <Article title="Error Handling for AJAX Requests" slug="ajax/troubleshooting/error-handling-for-ajax-requests" />
+    <Article title="Known Limitations" slug="ajax/troubleshooting/known-limitations" />
+    <Article title="Back and Forward Browser Buttons" slug="ajax/troubleshooting/back-and-forward-browser-buttons" />
+    <Article title="Tips and Tricks for Ajaxifying Specific Controls" slug="ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls" />
+  </Folder>
+</Content>

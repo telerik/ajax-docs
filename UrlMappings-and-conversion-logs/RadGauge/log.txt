@@ -1,0 +1,12 @@
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\appearance-and-styling\lineargauge-pointer-and-range-size.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\appearance-and-styling\set-font-of-the-scale-labels.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\server-side-programming\programmatic-creation.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\client-side-progamming\overview.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\design-time\overview.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\design-time\configuration-manager.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\radgauge-structure.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\gauge-types\multiple-pointers.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\overview.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\server-side-programming\overview.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\gauge-types\linear.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radgauge\gauge\gauge-types\radial.md

@@ -1,0 +1,59 @@
+<Content>
+  <Article title="Overview" slug="rotator/overview" />
+  <Article title="Changes and Backward Compatibility" slug="rotator/changes-and-backward-compatibility" />
+  <Folder title="Getting Started" path="rotator/getting-started">
+    <Article title="Overview" slug="rotator/getting-started/overview" />
+    <Article title="How To Configure Animations" slug="rotator/getting-started/how-to-configure-animations" />
+  </Folder>
+  <Article title="Design Time" slug="rotator/design-time" />
+  <Folder title="Data Binding" path="rotator/data-binding">
+    <Article title="Binding to ASP DataSource Components" slug="rotator/data-binding/binding-to-asp-datasource-components" />
+    <Article title="Binding RadTicker" slug="rotator/data-binding/binding-radticker" />
+    <Article title="Client-side Data Binding" slug="rotator/data-binding/client-side-data-binding" />
+  </Folder>
+  <Folder title="Functionality" path="rotator/functionality">
+    <Article title="RadRotator Types" slug="rotator/functionality/radrotator-types" />
+    <Article title="AdRotator" slug="rotator/functionality/adrotator" />
+    <Article title="Load On Demand" slug="rotator/functionality/load-on-demand" />
+  </Folder>
+  <Folder title="Mobile Support" path="rotator/mobile-support">
+    <Article title="Overview" slug="rotator/mobile-support/overview" />
+    <Article title="Elastic Capabilities" slug="rotator/mobile-support/elastic-capabilities" />
+    <Article title="RadTicker Elastic Capabilities" slug="rotator/mobile-support/radticker-elastic-capabilities" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="rotator/appearance-and-styling">
+    <Article title="Skins" slug="rotator/appearance-and-styling/skins" />
+    <Article title="Create a Custom Skin from an Existing One" slug="rotator/appearance-and-styling/create-a-custom-skin-from-an-existing-one" />
+    <Article title="Customize the Control Buttons" slug="rotator/appearance-and-styling/customize-the-control-buttons" />
+    <Article title="Customize the Appearance of Control Buttons" slug="rotator/appearance-and-styling/customize-the-appearance-of-control-buttons" />
+    <Article title="CSS Classes" slug="rotator/appearance-and-styling/css-classes" />
+    <Article title="Understanding Skin CSS File" slug="rotator/appearance-and-styling/understanding-skin-css-file" />
+  </Folder>
+  <Article title="Accessibility and Internationalization" slug="rotator/accessibility-and-internationalization" />
+  <Folder title="Server-side Programming" path="rotator/server-side-programming">
+    <Article title="Overview" slug="rotator/server-side-programming/overview" />
+    <Article title="Events" slug="rotator/server-side-programming/events" />
+  </Folder>
+  <Folder title="Client-side Programming" path="rotator/client-side-programming">
+    <Article title="Overview" slug="rotator/client-side-programming/overview" />
+    <Folder title="Events" path="rotator/client-side-programming/events">
+      <Article title="Overview" slug="rotator/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="rotator/client-side-programming/events/onclientload" />
+      <Article title="OnClientItemClicked" slug="rotator/client-side-programming/events/onclientitemclicked" />
+      <Article title="OnClientItemClicking" slug="rotator/client-side-programming/events/onclientitemclicking" />
+      <Article title="OnClientItemShowing" slug="rotator/client-side-programming/events/onclientitemshowing" />
+      <Article title="OnClientItemShown" slug="rotator/client-side-programming/events/onclientitemshown" />
+      <Article title="OnClientItemsRequested" slug="rotator/client-side-programming/events/onclientitemsrequested" />
+      <Article title="OnClientItemsRequestFailed" slug="rotator/client-side-programming/events/onclientitemsrequestfailed" />
+      <Article title="OnClientItemsRequesting" slug="rotator/client-side-programming/events/onclientitemsrequesting" />
+      <Article title="OnClientMouseOut" slug="rotator/client-side-programming/events/onclientmouseout" />
+      <Article title="OnClientMouseOver" slug="rotator/client-side-programming/events/onclientmouseover" />
+      <Article title="OnClientDataBound" slug="rotator/client-side-programming/events/onclientdatabound" />
+      <Article title="OnClientItemDataBound" slug="rotator/client-side-programming/events/onclientitemdatabound" />
+      <Article title="OnClientTemplateDataBound" slug="rotator/client-side-programming/events/onclienttemplatedatabound" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="rotator/application-scenarios">
+    <Article title="Persisting RadRotator's CoverFlow Animation Through an AJAX Request" slug="rotator/application-scenarios/persisting-radrotator's-coverflow-animation-through-an-ajax-request" />
+  </Folder>
+</Content>

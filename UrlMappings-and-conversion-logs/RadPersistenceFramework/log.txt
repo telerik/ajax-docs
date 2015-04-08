@@ -1,0 +1,17 @@
+check manually article:Object reference not set to an instance of an object.
+check manually article:Object reference not set to an instance of an object.
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\functionality\-custom-storage-provider.md
+check manually article:Object reference not set to an instance of an object.
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\getting-started\overview.md
+check manually article:Object reference not set to an instance of an object.
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\troubleshooting\limitations.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\server-side-programming\events\loadcustomsettings.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\server-side-programming\overview.md
+check manually article:Object reference not set to an instance of an object.
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\overview.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\radpersistencemanager.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\radpersistencemanagerproxy.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\server-side-programming\events\savecustomsettings.md
+check manually article:Object reference not set to an instance of an object.
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\design-time.md
+Converted file: c:\work\telerik.web.ui_scrum\dev\md\radpersistenceframework\persistenceframework\getting-started\supported-controls.md

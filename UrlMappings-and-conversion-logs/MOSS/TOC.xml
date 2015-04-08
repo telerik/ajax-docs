@@ -1,0 +1,167 @@
+<Content>
+  <Folder title="SharePoint 2007 (MOSS)" path="moss/sharepoint-2007-(moss)">
+    <Article title="Overview" slug="moss/sharepoint-2007-(moss)/overview" />
+    <Article title="Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 1.0" slug="moss/sharepoint-2007-(moss)/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-1.0" />
+    <Article title="Extending your SharePoint 2007 site with Microsoft ASP.NET AJAX 3.5" slug="moss/sharepoint-2007-(moss)/extending-your-sharepoint-2007-site-with-microsoft-asp.net-ajax-3.5" />
+    <Article title="Deploying Telerik UI for ASP.NET AJAX" slug="moss/sharepoint-2007-(moss)/deploying-telerik-ui-for-asp.net-ajax" />
+    <Article title="Incorporating Telerik UI for ASP.NET AJAX in SharePoint WebSites" slug="moss/sharepoint-2007-(moss)/incorporating-telerik-ui-for-asp.net-ajax-in-sharepoint-websites" />
+    <Article title="Create an AJAX-enabled SharePoint WebPart that uses the Telerik Controls" slug="moss/sharepoint-2007-(moss)/create-an-ajax-enabled-sharepoint-webpart-that-uses-the-telerik-controls" />
+    <Article title="Replacing a SharePoint master page's default Quick Launch menu with RadPanelbar" slug="moss/sharepoint-2007-(moss)/replacing-a-sharepoint-master-page's-default-quick-launch-menu-with-radpanelbar" />
+    <Article title="RadProgressArea in SharePoint" slug="moss/sharepoint-2007-(moss)/radprogressarea-in-sharepoint" />
+    <Folder title="RadEditor for MOSS" path="moss/sharepoint-2007-(moss)/radeditor-for-moss">
+      <Article title="Introduction" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/introduction" />
+      <Article title="Browser support and limitations" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/browser-support-and-limitations" />
+      <Folder title="Installation and deployment" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment">
+        <Article title="Installing RadEditor in a MOSS 2007 farm" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-moss-2007-farm" />
+        <Article title="Installing RadEditor in a WSS v3 environment" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/installing-radeditor-in-a-wss-v3-environment" />
+        <Article title="Using the RadEditor WebPart" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/using-the-radeditor-webpart" />
+        <Article title="Using RadEditor in List Items" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/using-radeditor-in-list-items" />
+        <Article title="Using RadEditor in Web Content Management scenario" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/using-radeditor-in-web-content-management-scenario" />
+        <Article title="Uninstalling RadEditor" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment/uninstalling-radeditor" />
+      </Folder>
+      <Folder title="Migration and upgrade" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade">
+        <Article title="What's new?" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade/what's-new?" />
+        <Article title="Upgrade Instructions from version 4.x to version 5.x" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade/upgrade-instructions-from-version-4.x-to-version-5.x" />
+        <Article title="Migrating default rich-text editor Web Parts" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade/migrating-default-rich-text-editor-web-parts" />
+        <Article title="Upgrading to a newer version of RadEditor for MOSS" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade/upgrading-to-a-newer-version-of-radeditor-for-moss" />
+      </Folder>
+      <Folder title="Configuration" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration">
+        <Article title="Set Properties Via Config File" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/set-properties-via-config-file" />
+        <Article title="Add/Remove tools from the toolbar" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/add/remove-tools-from-the-toolbar" />
+        <Article title="Setting ConfigFile and ToolsFile properties for the WCM field" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field" />
+        <Article title="Different configuration files for different webs" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/different-configuration-files-for-different-webs" />
+        <Article title="Change the RadEditor features scope" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/change-the-radeditor-features-scope" />
+        <Article title="Removing the HTML source option" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/removing-the-html-source-option" />
+        <Article title="How to use a Shared Toolbar" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/how-to-use-a-shared-toolbar" />
+        <Article title="Scripts in RadEditor" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/scripts-in-radeditor" />
+        <Article title="Disable automatic Approval / Publishing of uploaded files" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration/disable-automatic-approval-/-publishing-of-uploaded-files" />
+      </Folder>
+      <Folder title="DropDowns" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns">
+        <Article title="Fonts" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/fonts" />
+        <Article title="Font Sizes" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/font-sizes" />
+        <Article title="Real Font Sizes" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/real-font-sizes" />
+        <Article title="Paragraph Styles" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/paragraph-styles" />
+        <Article title="Colors" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/colors" />
+        <Article title="CSS Styles" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/css-styles" />
+        <Article title="Custom Links" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/custom-links" />
+        <Article title="Symbols" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/symbols" />
+        <Article title="Code Snippets" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns/code-snippets" />
+      </Folder>
+      <Folder title="Dialogs" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs">
+        <Article title="Image Manager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/image-manager" />
+        <Article title="Document Manager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/document-manager" />
+        <Article title="Media Manager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/media-manager" />
+        <Article title="Template Manager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/template-manager" />
+        <Article title="Flash Manager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/flash-manager" />
+        <Article title="MOSSTemplateManager" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/mosstemplatemanager" />
+        <Article title="Inserting Flash and Media files in RadEditor" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/inserting-flash-and-media-files-in-radeditor" />
+        <Article title="What is the difference between the internal editor dialogs and MOSS dialogs" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/what-is-the-difference-between-the-internal-editor-dialogs-and-moss-dialogs" />
+        <Article title="ExternalDialogsPath property" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs/externaldialogspath-property" />
+      </Folder>
+      <Folder title="Customization" path="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization">
+        <Article title="Defining custom CSS styles" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/defining-custom-css-styles" />
+        <Article title="Using RadEditor in custom MOSS solutions" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/using-radeditor-in-custom-moss-solutions" />
+        <Article title="Using RadEditor's Client-Side events in MOSS" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/using-radeditor's-client-side-events-in-moss" />
+        <Article title="Add Custom Buttons" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/add-custom-buttons" />
+        <Article title="Add Custom DropDown" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/add-custom-dropdown" />
+        <Article title="Add Custom Dialog" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/add-custom-dialog" />
+        <Article title="Modifying RadEditor's built-in dialogs" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/modifying-radeditor's-built-in-dialogs" />
+        <Article title="Modify RadEditor to Become Accessible" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/customization/modify-radeditor-to-become-accessible" />
+      </Folder>
+      <Article title="Frequently Asked Questions" slug="moss/sharepoint-2007-(moss)/radeditor-for-moss/frequently-asked-questions" />
+    </Folder>
+  </Folder>
+  <Folder title="SharePoint 2010" path="moss/sharepoint-2010">
+    <Folder title="Installation and Deployment" path="moss/sharepoint-2010/installation-and-deployment">
+      <Article title="Installing Telerik Web Parts for SharePoint" slug="moss/sharepoint-2010/installation-and-deployment/installing-telerik-web-parts-for-sharepoint" />
+      <Article title="Deploying Telerik UI for ASP.NET AJAX" slug="moss/sharepoint-2010/installation-and-deployment/deploying-telerik-ui-for-asp.net-ajax" />
+    </Folder>
+    <Folder title="RadEditor Web Part" path="moss/sharepoint-2010/radeditor-web-part">
+      <Article title="Overview" slug="moss/sharepoint-2010/radeditor-web-part/overview" />
+      <Article title="Browser support and limitations" slug="moss/sharepoint-2010/radeditor-web-part/browser-support-and-limitations" />
+      <Folder title="Installation and Deployment" path="moss/sharepoint-2010/radeditor-web-part/installation-and-deployment">
+        <Article title="Getting Started" slug="moss/sharepoint-2010/radeditor-web-part/installation-and-deployment/getting-started" />
+        <Article title="List Items Scenario" slug="moss/sharepoint-2010/radeditor-web-part/installation-and-deployment/list-items-scenario" />
+        <Article title="Web Content Management Scenario" slug="moss/sharepoint-2010/radeditor-web-part/installation-and-deployment/web-content-management-scenario" />
+        <Article title="Uninstalling" slug="moss/sharepoint-2010/radeditor-web-part/installation-and-deployment/uninstalling" />
+      </Folder>
+      <Folder title="Migration and upgrade" path="moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade">
+        <Article title="Migrating Default Rich-text Editor Web Parts" slug="moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade/migrating-default-rich-text-editor-web-parts" />
+        <Article title="Upgrading RadEditor WebPart Version" slug="moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade/upgrading-radeditor-webpart-version" />
+      </Folder>
+      <Folder title="Configuration" path="moss/sharepoint-2010/radeditor-web-part/configuration">
+        <Article title="Change the RadEditor Features Scope" slug="moss/sharepoint-2010/radeditor-web-part/configuration/change-the-radeditor-features-scope" />
+        <Article title="Customizing the Table Dialog" slug="moss/sharepoint-2010/radeditor-web-part/configuration/customizing-the-table-dialog" />
+        <Article title="Using Different Configuration Files for Different SharePoint Sites" slug="moss/sharepoint-2010/radeditor-web-part/configuration/using-different-configuration-files-for-different-sharepoint-sites" />
+        <Article title="Removing the HTML Mode" slug="moss/sharepoint-2010/radeditor-web-part/configuration/removing-the-html-mode" />
+        <Article title="Add and Remove Tools from the Toolbar" slug="moss/sharepoint-2010/radeditor-web-part/configuration/add-and-remove-tools-from-the-toolbar" />
+        <Article title="Setting ConfigFile and ToolsFile Properties for the WCM field" slug="moss/sharepoint-2010/radeditor-web-part/configuration/setting-configfile-and-toolsfile-properties-for-the-wcm-field" />
+        <Article title="Set Properties via Config File" slug="moss/sharepoint-2010/radeditor-web-part/configuration/set-properties-via-config-file" />
+        <Article title="Add AjaxSpellCheck in RadEditor WebPart" slug="moss/sharepoint-2010/radeditor-web-part/configuration/add-ajaxspellcheck-in-radeditor-webpart" />
+        <Article title="How to use a Shared Toolbar" slug="moss/sharepoint-2010/radeditor-web-part/configuration/how-to-use-a-shared-toolbar" />
+        <Article title="Disable Automatic Approval and Publishing of Uploaded Files" slug="moss/sharepoint-2010/radeditor-web-part/configuration/disable-automatic-approval-and-publishing-of-uploaded-files" />
+      </Folder>
+      <Folder title="DropDowns" path="moss/sharepoint-2010/radeditor-web-part/dropdowns">
+        <Article title="Fonts" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/fonts" />
+        <Article title="Font Sizes" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/font-sizes" />
+        <Article title="Real Font Sizes" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/real-font-sizes" />
+        <Article title="Paragraph Styles" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/paragraph-styles" />
+        <Article title="Colors" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/colors" />
+        <Article title="CSS Styles" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/css-styles" />
+        <Article title="Custom Links" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/custom-links" />
+        <Article title="Symbols" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/symbols" />
+        <Article title="Code Snippets" slug="moss/sharepoint-2010/radeditor-web-part/dropdowns/code-snippets" />
+      </Folder>
+      <Folder title="Dialogs" path="moss/sharepoint-2010/radeditor-web-part/dialogs">
+        <Article title="Inserting Flash and Media Files" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/inserting-flash-and-media-files" />
+        <Article title="Image Manager" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/image-manager" />
+        <Article title="Document Manager" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/document-manager" />
+        <Article title="Media Manager" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/media-manager" />
+        <Article title="Template Manager" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/template-manager" />
+        <Article title="Flash Manager" slug="moss/sharepoint-2010/radeditor-web-part/dialogs/flash-manager" />
+      </Folder>
+      <Folder title="Customization" path="moss/sharepoint-2010/radeditor-web-part/customization">
+        <Article title="Defining Custom CSS Styles" slug="moss/sharepoint-2010/radeditor-web-part/customization/defining-custom-css-styles" />
+        <Article title="Using Client-Side Events" slug="moss/sharepoint-2010/radeditor-web-part/customization/using-client-side-events" />
+        <Article title="Add Custom Buttons" slug="moss/sharepoint-2010/radeditor-web-part/customization/add-custom-buttons" />
+        <Article title="Add Custom DropDown" slug="moss/sharepoint-2010/radeditor-web-part/customization/add-custom-dropdown" />
+        <Article title="Add Custom Dialog" slug="moss/sharepoint-2010/radeditor-web-part/customization/add-custom-dialog" />
+        <Article title="Modfying Built-in Dialogs" slug="moss/sharepoint-2010/radeditor-web-part/customization/modfying-built-in-dialogs" />
+      </Folder>
+      <Article title="Frequently Asked Questions" slug="moss/sharepoint-2010/radeditor-web-part/frequently-asked-questions" />
+    </Folder>
+    <Folder title="RadGrid Web Part" path="moss/sharepoint-2010/radgrid-web-part">
+      <Article title="Designer and Data Binding" slug="moss/sharepoint-2010/radgrid-web-part/designer-and-data-binding" />
+      <Article title="ToolPart Configuration" slug="moss/sharepoint-2010/radgrid-web-part/toolpart-configuration" />
+      <Article title="Displaying and Editing SharePoint List Items" slug="moss/sharepoint-2010/radgrid-web-part/displaying-and-editing-sharepoint-list-items" />
+      <Article title="Hierarchical Data" slug="moss/sharepoint-2010/radgrid-web-part/hierarchical-data" />
+      <Article title="Client-side Data Binding" slug="moss/sharepoint-2010/radgrid-web-part/client-side-data-binding" />
+    </Folder>
+    <Folder title="RadListView Web Part" path="moss/sharepoint-2010/radlistview-web-part">
+      <Article title="Getting Started" slug="moss/sharepoint-2010/radlistview-web-part/getting-started" />
+    </Folder>
+    <Folder title="RadScheduler Web Part" path="moss/sharepoint-2010/radscheduler-web-part">
+      <Article title="Getting Started" slug="moss/sharepoint-2010/radscheduler-web-part/getting-started" />
+      <Article title="Displaying and Editing Appointments" slug="moss/sharepoint-2010/radscheduler-web-part/displaying-and-editing-appointments" />
+    </Folder>
+  </Folder>
+  <Folder title="SharePoint 2013" path="moss/sharepoint-2013">
+    <Folder title="Installation and Deployment" path="moss/sharepoint-2013/installation-and-deployment">
+      <Article title="Supported SharePoint App Models" slug="moss/sharepoint-2013/installation-and-deployment/supported-sharepoint-app-models" />
+      <Article title="Installing Telerik Web Parts" slug="moss/sharepoint-2013/installation-and-deployment/installing-telerik-web-parts" />
+      <Article title="Deploying Telerik UI for ASP.NET AJAX" slug="moss/sharepoint-2013/installation-and-deployment/deploying-telerik-ui-for-asp.net-ajax" />
+      <Article title="Incorporating Telerik UI for ASP.NET AJAX" slug="moss/sharepoint-2013/installation-and-deployment/incorporating-telerik-ui-for-asp.net-ajax" />
+      <Article title="Create an AJAX-enabled SharePoint WebPart with Telerik Controls" slug="moss/sharepoint-2013/installation-and-deployment/create-an-ajax-enabled-sharepoint-webpart-with-telerik-controls" />
+    </Folder>
+    <Folder title="RadEditor Web Part" path="moss/sharepoint-2013/radeditor-web-part">
+      <Article title="Overview" slug="moss/sharepoint-2013/radeditor-web-part/overview" />
+      <Article title="Browser Support and Limitations" slug="moss/sharepoint-2013/radeditor-web-part/browser-support-and-limitations" />
+      <Folder title="Installation and Deployment" path="moss/sharepoint-2013/radeditor-web-part/installation-and-deployment">
+        <Article title="Getting Started" slug="moss/sharepoint-2013/radeditor-web-part/installation-and-deployment/getting-started" />
+        <Article title="Web Content Management Scenario" slug="moss/sharepoint-2013/radeditor-web-part/installation-and-deployment/web-content-management-scenario" />
+        <Article title="Uninstalling" slug="moss/sharepoint-2013/radeditor-web-part/installation-and-deployment/uninstalling" />
+      </Folder>
+    </Folder>
+  </Folder>
+  <Article title="Known Issues" slug="moss/known-issues" />
+</Content>

@@ -1,0 +1,8 @@
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-getting-started.html http://docs.telerik.com/devtools/ajax/ziplibrary/getting-started
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-overview.html http://docs.telerik.com/devtools/ajax/ziplibrary/overview
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-backward-compatibility.html http://docs.telerik.com/devtools/ajax/ziplibrary/changes-and-backwards-compatibility-/backward-compatibility
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-changes.html http://docs.telerik.com/devtools/ajax/ziplibrary/changes-and-backwards-compatibility-/changes
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-compressing-a-stream.html http://docs.telerik.com/devtools/ajax/ziplibrary/functionality/compressing-a-stream
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-compression-settings.html http://docs.telerik.com/devtools/ajax/ziplibrary/functionality/compression-settings
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-protect-ziparchive.html http://docs.telerik.com/devtools/ajax/ziplibrary/functionality/protect-ziparchive
+http://www.telerik.com/help/aspnet-ajax/ziplibrary-update-ziparchive.html http://docs.telerik.com/devtools/ajax/ziplibrary/functionality/update-ziparchive

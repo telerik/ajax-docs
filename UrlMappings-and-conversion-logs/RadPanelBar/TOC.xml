@@ -1,0 +1,104 @@
+<Content>
+  <Folder title="Overview" path="panelbar/overview">
+    <Article title="Overview" slug="panelbar/overview/overview" />
+    <Article title="Structure" slug="panelbar/overview/structure" />
+    <Article title="Standards Compliance" slug="panelbar/overview/standards-compliance" />
+  </Folder>
+  <Article title="What is New" slug="panelbar/what-is-new" />
+  <Article title="Changes and backward compatibility" slug="panelbar/changes-and-backward-compatibility" />
+  <Article title="Migrating From RadPanelBar ASP.NET to ASP.NET AJAX" slug="panelbar/migrating-from-radpanelbar-asp.net-to-asp.net-ajax" />
+  <Folder title="Getting Started" path="panelbar/getting-started">
+    <Article title="Overview" slug="panelbar/getting-started/overview" />
+    <Article title="Binding to a Data Source" slug="panelbar/getting-started/binding-to-a-data-source" />
+  </Folder>
+  <Folder title="Design Time" path="panelbar/design-time">
+    <Article title="Smart Tag" slug="panelbar/design-time/smart-tag" />
+    <Article title="RadPanelBar Item Builder" slug="panelbar/design-time/radpanelbar-item-builder" />
+    <Article title="Template Design Surface" slug="panelbar/design-time/template-design-surface" />
+    <Article title="NavigationItemBinding Collection Editor" slug="panelbar/design-time/navigationitembinding-collection-editor" />
+    <Article title="Binding to LinqDataSource" slug="panelbar/design-time/binding-to-linqdatasource" />
+  </Folder>
+  <Folder title="Templates" path="panelbar/templates">
+    <Article title="Overview" slug="panelbar/templates/overview" />
+    <Article title="Adding Templates at Designtime" slug="panelbar/templates/adding-templates-at-designtime" />
+    <Article title="Adding Templates at Runtime" slug="panelbar/templates/adding-templates-at-runtime" />
+    <Article title="Accessing Controls Inside Templates" slug="panelbar/templates/accessing-controls-inside-templates" />
+    <Article title="DataBinding Expressions" slug="panelbar/templates/databinding-expressions" />
+  </Folder>
+  <Folder title="Data Binding" path="panelbar/data-binding">
+    <Article title="Overview" slug="panelbar/data-binding/overview" />
+    <Article title="Binding to Object-Based DataSources" slug="panelbar/data-binding/binding-to-object-based-datasources" />
+    <Article title="Binding to DataTable" slug="panelbar/data-binding/binding-to-datatable" />
+    <Article title="Binding to Table-Based DataSource" slug="panelbar/data-binding/binding-to-table-based-datasource" />
+    <Article title="Binding to Hierarchical DataSource" slug="panelbar/data-binding/binding-to-hierarchical-datasource" />
+    <Article title="Using DataBindings" slug="panelbar/data-binding/using-databindings" />
+  </Folder>
+  <Folder title="RadPanelBar Items" path="panelbar/radpanelbar-items">
+    <Article title="Overview" slug="panelbar/radpanelbar-items/overview" />
+    <Article title="Expanding and Collapsing Items" slug="panelbar/radpanelbar-items/expanding-and-collapsing-items" />
+    <Article title="Declaring Items Statically at Designtime" slug="panelbar/radpanelbar-items/declaring-items-statically-at-designtime" />
+    <Article title="Working With Items at the Server" slug="panelbar/radpanelbar-items/working-with-items-at-the-server" />
+    <Article title="Working With Items at the Client" slug="panelbar/radpanelbar-items/working-with-items-at-the-client" />
+    <Article title="Loading Items from XML" slug="panelbar/radpanelbar-items/loading-items-from-xml" />
+    <Article title="Custom Attributes" slug="panelbar/radpanelbar-items/custom-attributes" />
+    <Article title="Render Modes" slug="panelbar/radpanelbar-items/render-modes" />
+  </Folder>
+  <Folder title="Web Pages" path="panelbar/web-pages">
+    <Article title="Validation" slug="panelbar/web-pages/validation" />
+    <Article title="Cross-Page Postback" slug="panelbar/web-pages/cross-page-postback" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="panelbar/appearance-and-styling">
+    <Article title="Migrating Skins from RadPanelBar ASP.NET to ASP.NET AJAX" slug="panelbar/appearance-and-styling/migrating-skins-from-radpanelbar-asp.net-to-asp.net-ajax" />
+    <Article title="Controlling Appearance" slug="panelbar/appearance-and-styling/controlling-appearance" />
+    <Article title="Adding Images to Items" slug="panelbar/appearance-and-styling/adding-images-to-items" />
+    <Article title="Setting  the CSS Class of Items" slug="panelbar/appearance-and-styling/setting--the-css-class-of-items" />
+    <Article title="Skins" slug="panelbar/appearance-and-styling/skins" />
+    <Article title="Tutorial: Creating A Custom Skin" slug="panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin" />
+    <Article title="Understanding the Skin CSS File" slug="panelbar/appearance-and-styling/understanding-the-skin-css-file" />
+    <Article title="CSS Skin File Selectors" slug="panelbar/appearance-and-styling/css-skin-file-selectors" />
+    <Article title="Animations" slug="panelbar/appearance-and-styling/animations" />
+    <Article title="Separators" slug="panelbar/appearance-and-styling/separators" />
+    <Article title="RTL support" slug="panelbar/appearance-and-styling/rtl-support" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="panelbar/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="panelbar/accessibility-and-internationalization/keyboard-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="panelbar/server-side-programming">
+    <Article title="Events" slug="panelbar/server-side-programming/events" />
+    <Article title="ItemClick" slug="panelbar/server-side-programming/itemclick" />
+    <Article title="ItemCreated" slug="panelbar/server-side-programming/itemcreated" />
+    <Article title="ItemDataBound" slug="panelbar/server-side-programming/itemdatabound" />
+    <Article title="Accessing Items" slug="panelbar/server-side-programming/accessing-items" />
+  </Folder>
+  <Folder title="Client-side Programming" path="panelbar/client-side-programming">
+    <Article title="Overview" slug="panelbar/client-side-programming/overview" />
+    <Article title="RadPanelBar Object" slug="panelbar/client-side-programming/radpanelbar-object" />
+    <Article title="RadPanelItem Object" slug="panelbar/client-side-programming/radpanelitem-object" />
+    <Article title="RadPanelItemCollection Object" slug="panelbar/client-side-programming/radpanelitemcollection-object" />
+    <Article title="Accessing Client Changes on the Server" slug="panelbar/client-side-programming/accessing-client-changes-on-the-server" />
+    <Article title="Events" slug="panelbar/client-side-programming/events" />
+    <Article title="OnClientItemClicking" slug="panelbar/client-side-programming/onclientitemclicking" />
+    <Article title="OnClientItemClicked" slug="panelbar/client-side-programming/onclientitemclicked" />
+    <Article title="OnClientItemExpand" slug="panelbar/client-side-programming/onclientitemexpand" />
+    <Article title="OnClientItemCollapse" slug="panelbar/client-side-programming/onclientitemcollapse" />
+    <Article title="OnClientItemBlur" slug="panelbar/client-side-programming/onclientitemblur" />
+    <Article title="OnClientItemFocus" slug="panelbar/client-side-programming/onclientitemfocus" />
+    <Article title="OnClientLoad" slug="panelbar/client-side-programming/onclientload" />
+    <Article title="OnClientMouseOut" slug="panelbar/client-side-programming/onclientmouseout" />
+    <Article title="OnClientMouseOver" slug="panelbar/client-side-programming/onclientmouseover" />
+    <Article title="OnClientContextMenu" slug="panelbar/client-side-programming/onclientcontextmenu" />
+  </Folder>
+  <Folder title="Application Scenarios" path="panelbar/application-scenarios">
+    <Article title="Collapse Previously Expanded Header Item When Clicking on a Header Item Without Child Items" slug="panelbar/application-scenarios/collapse-previously-expanded-header-item-when-clicking-on-a-header-item-without-child-items" />
+    <Article title="Expand All Levels of Child Items When Clicking the Root Item" slug="panelbar/application-scenarios/expand-all-levels-of-child-items-when-clicking-the-root-item" />
+    <Article title="Expand a Header Item While Clicking on the ImageUrl Only" slug="panelbar/application-scenarios/expand-a-header-item-while-clicking-on-the-imageurl-only" />
+    <Article title="RadPanelBar Occupy 100% of Browser Window Height" slug="panelbar/application-scenarios/radpanelbar-occupy-100%-of-browser-window-height" />
+    <Article title="RadPanelBar with Dynamically Created RadMenu" slug="panelbar/application-scenarios/radpanelbar-with-dynamically-created-radmenu" />
+    <Article title="Expand RadPanelItems on Hover" slug="panelbar/application-scenarios/expand-radpanelitems-on-hover" />
+    <Article title="Expand Panelbar Width Regarding the Widest Item" slug="panelbar/application-scenarios/expand-panelbar-width-regarding-the-widest-item" />
+  </Folder>
+  <Folder title="Troubleshooting" path="panelbar/troubleshooting">
+    <Article title="Cannot Collapse Root Items" slug="panelbar/troubleshooting/cannot-collapse-root-items" />
+    <Article title="Click on Expand Handle Does Not Fire Server-Side ItemClick Event" slug="panelbar/troubleshooting/click-on-expand-handle-does-not-fire-server-side-itemclick-event" />
+  </Folder>
+</Content>

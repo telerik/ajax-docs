@@ -1,0 +1,56 @@
+<Content>
+  <Article title="Overview" slug="notification/overview" />
+  <Folder title="Getting Started" path="notification/getting-started">
+    <Article title="Overview" slug="notification/getting-started/overview" />
+    <Article title="RadNotification Structure" slug="notification/getting-started/radnotification-structure" />
+  </Folder>
+  <Article title="Design Time" slug="notification/design-time" />
+  <Folder title="Functionality" path="notification/functionality">
+    <Article title="Notification Menu" slug="notification/functionality/notification-menu" />
+    <Article title="Embedded Icons" slug="notification/functionality/embedded-icons" />
+    <Article title="Play Sound on Show" slug="notification/functionality/play-sound-on-show" />
+  </Folder>
+  <Folder title="Setting Content" path="notification/setting-content">
+    <Article title="Populate Static Content" slug="notification/setting-content/populate-static-content" />
+    <Article title="Load Content Via Callback" slug="notification/setting-content/load-content-via-callback" />
+    <Article title="Load Content Via WebService" slug="notification/setting-content/load-content-via-webservice" />
+    <Article title="Load Content Via WCF Service" slug="notification/setting-content/load-content-via-wcf-service" />
+  </Folder>
+  <Article title="Mobile Support" slug="notification/mobile-support" />
+  <Folder title="Appearance and Styling" path="notification/appearance-and-styling">
+    <Article title="Create a Custom Skin" slug="notification/appearance-and-styling/create-a-custom-skin" />
+    <Article title="CSS Classes" slug="notification/appearance-and-styling/css-classes" />
+    <Article title="Control Appearance" slug="notification/appearance-and-styling/control-appearance" />
+    <Article title="Skins" slug="notification/appearance-and-styling/skins" />
+    <Article title="Animation" slug="notification/appearance-and-styling/animation" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="notification/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="notification/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="notification/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Localization" slug="notification/accessibility-and-internationalization/localization" />
+    <Article title="WAI-ARIA Support" slug="notification/accessibility-and-internationalization/wai-aria-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="notification/server-side-programming">
+    <Article title="Overview" slug="notification/server-side-programming/overview" />
+    <Article title="RadNotification Object" slug="notification/server-side-programming/radnotification-object" />
+  </Folder>
+  <Folder title="Client-side Programming" path="notification/client-side-programming">
+    <Article title="Overview" slug="notification/client-side-programming/overview" />
+    <Article title="RadNotification Object" slug="notification/client-side-programming/radnotification-object" />
+    <Folder title="Events" path="notification/client-side-programming/events">
+      <Article title="Overview" slug="notification/client-side-programming/events/overview" />
+      <Article title="Set Event Handlers via JavaScript" slug="notification/client-side-programming/events/set-event-handlers-via-javascript" />
+      <Article title="OnClientShowing" slug="notification/client-side-programming/events/onclientshowing" />
+      <Article title="OnClientShown" slug="notification/client-side-programming/events/onclientshown" />
+      <Article title="OnClientUpdating" slug="notification/client-side-programming/events/onclientupdating" />
+      <Article title="OnClientUpdated" slug="notification/client-side-programming/events/onclientupdated" />
+      <Article title="OnClientUpdateError" slug="notification/client-side-programming/events/onclientupdateerror" />
+      <Article title="OnClientHiding" slug="notification/client-side-programming/events/onclienthiding" />
+      <Article title="OnClientHidden" slug="notification/client-side-programming/events/onclienthidden" />
+    </Folder>
+  </Folder>
+  <Folder title="Troubleshooting" path="notification/troubleshooting">
+    <Article title="Known Issues" slug="notification/troubleshooting/known-issues" />
+    <Article title="Notification Audio Is Not Played In Mobile Devices" slug="notification/troubleshooting/notification-audio-is-not-played-in-mobile-devices" />
+  </Folder>
+</Content>

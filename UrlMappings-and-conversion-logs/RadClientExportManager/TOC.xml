@@ -1,0 +1,34 @@
+<Content>
+  <Article title="Overview" slug="clientexportmanager/overview" />
+  <Folder title="Getting Started" path="clientexportmanager/getting-started">
+    <Article title="Getting Started" slug="clientexportmanager/getting-started/getting-started" />
+  </Folder>
+  <Article title="Design Time" slug="clientexportmanager/design-time" />
+  <Article title="Browser Support" slug="clientexportmanager/browser-support" />
+  <Folder title="Functionality" path="clientexportmanager/functionality">
+    <Article title="Supported File Types" slug="clientexportmanager/functionality/supported-file-types" />
+    <Article title="Export Whole Pages" slug="clientexportmanager/functionality/export-whole-pages" />
+    <Article title="Export HTML Elements" slug="clientexportmanager/functionality/export-html-elements" />
+    <Article title="Known Limitations" slug="clientexportmanager/functionality/known-limitations" />
+  </Folder>
+  <Folder title="Client-Side Programming" path="clientexportmanager/client-side-programming">
+    <Article title="Overview" slug="clientexportmanager/client-side-programming/overview" />
+    <Folder title="Events" path="clientexportmanager/client-side-programming/events">
+      <Article title="Load" slug="clientexportmanager/client-side-programming/events/load" />
+      <Article title="PdfExporting" slug="clientexportmanager/client-side-programming/events/pdfexporting" />
+      <Article title="PdfExported" slug="clientexportmanager/client-side-programming/events/pdfexported" />
+      <Article title="ImageExporting" slug="clientexportmanager/client-side-programming/events/imageexporting" />
+      <Article title="ImageExported" slug="clientexportmanager/client-side-programming/events/imageexported" />
+      <Article title="SvgExporting" slug="clientexportmanager/client-side-programming/events/svgexporting" />
+      <Article title="SvgExported" slug="clientexportmanager/client-side-programming/events/svgexported" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="clientexportmanager/application-scenarios">
+    <Article title="Save Exported Files" slug="clientexportmanager/application-scenarios/save-exported-files" />
+    <Article title="WYSIWYG Export" slug="clientexportmanager/application-scenarios/wysiwyg-export" />
+  </Folder>
+  <Folder title="Troubleshooting" path="clientexportmanager/troubleshooting">
+    <Article title="IE9 and Safari Compatibility" slug="clientexportmanager/troubleshooting/ie9-and-safari-compatibility" />
+    <Article title="Browser Crashing" slug="clientexportmanager/troubleshooting/browser-crashing" />
+  </Folder>
+</Content>

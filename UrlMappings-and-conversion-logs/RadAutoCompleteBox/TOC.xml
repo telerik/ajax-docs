@@ -1,0 +1,65 @@
+<Content>
+  <Article title="Overview" slug="autocompletebox/overview" />
+  <Article title="RadAutoCompleteBox vs RadComboBox" slug="autocompletebox/radautocompletebox-vs-radcombobox" />
+  <Folder title="Appearance and Styling" path="autocompletebox/appearance-and-styling">
+    <Article title="Skins" slug="autocompletebox/appearance-and-styling/skins" />
+    <Article title="Understanding the HTML Output and CSS Styling" slug="autocompletebox/appearance-and-styling/understanding-the-html-output-and-css-styling" />
+    <Article title="Animations" slug="autocompletebox/appearance-and-styling/animations" />
+    <Article title="CSS Skin File Selectors" slug="autocompletebox/appearance-and-styling/css-skin-file-selectors" />
+  </Folder>
+  <Folder title="Functionality" path="autocompletebox/functionality">
+    <Article title="Input Types" slug="autocompletebox/functionality/input-types" />
+    <Article title="Filtering" slug="autocompletebox/functionality/filtering" />
+    <Article title="Items Selection" slug="autocompletebox/functionality/items-selection" />
+    <Article title="Selection Mode" slug="autocompletebox/functionality/selection-mode" />
+    <Article title="Token Editing" slug="autocompletebox/functionality/token-editing" />
+    <Article title="DropDown Position" slug="autocompletebox/functionality/dropdown-position" />
+    <Article title="Client Filtering" slug="autocompletebox/functionality/client-filtering" />
+  </Folder>
+  <Folder title="Templates" path="autocompletebox/templates">
+    <Article title="Client Templates" slug="autocompletebox/templates/client-templates" />
+    <Article title="Server Templates" slug="autocompletebox/templates/server-templates" />
+  </Folder>
+  <Folder title="Data Binding" path="autocompletebox/data-binding">
+    <Article title="Overview" slug="autocompletebox/data-binding/overview" />
+    <Article title="Binding to Array, or ArrayList" slug="autocompletebox/data-binding/binding-to-array,-or-arraylist" />
+    <Article title="Binding to DataTable, DataSet, or DataView" slug="autocompletebox/data-binding/binding-to-datatable,-dataset,-or-dataview" />
+    <Article title="Binding to ASP DataSource components" slug="autocompletebox/data-binding/binding-to-asp-datasource-components" />
+    <Article title="Binding to Web service" slug="autocompletebox/data-binding/binding-to-web-service" />
+    <Article title="Binding to WCF service" slug="autocompletebox/data-binding/binding-to-wcf-service" />
+    <Article title="Binding to OData" slug="autocompletebox/data-binding/binding-to-odata" />
+    <Article title="Binding to RadClientDataSource" slug="autocompletebox/data-binding/binding-to-radclientdatasource" />
+  </Folder>
+  <Folder title="Working with Entries" path="autocompletebox/working-with-entries">
+    <Article title="On the Server" slug="autocompletebox/working-with-entries/on-the-server" />
+    <Article title="On the Client" slug="autocompletebox/working-with-entries/on-the-client" />
+  </Folder>
+  <Folder title="Server-Side Programming" path="autocompletebox/server-side-programming">
+    <Article title="Overview" slug="autocompletebox/server-side-programming/overview" />
+    <Folder title="Events" path="autocompletebox/server-side-programming/events">
+      <Article title="OnEntryAdded" slug="autocompletebox/server-side-programming/events/onentryadded" />
+      <Article title="OnEntryRemoved" slug="autocompletebox/server-side-programming/events/onentryremoved" />
+      <Article title="OnTextChanged" slug="autocompletebox/server-side-programming/events/ontextchanged" />
+      <Article title="OnDropDownTemplateNeeded" slug="autocompletebox/server-side-programming/events/ondropdowntemplateneeded" />
+      <Article title="OnDataSourceSelect" slug="autocompletebox/server-side-programming/events/ondatasourceselect" />
+    </Folder>
+  </Folder>
+  <Folder title="Client-Side Programming" path="autocompletebox/client-side-programming">
+    <Article title="Overview" slug="autocompletebox/client-side-programming/overview" />
+    <Folder title="Events" path="autocompletebox/client-side-programming/events">
+      <Article title="OnClientDropDownOpening" slug="autocompletebox/client-side-programming/events/onclientdropdownopening" />
+      <Article title="OnClientDropDownOpened" slug="autocompletebox/client-side-programming/events/onclientdropdownopened" />
+      <Article title="OnClientDropDownClosing" slug="autocompletebox/client-side-programming/events/onclientdropdownclosing" />
+      <Article title="OnClientDropDownClosed" slug="autocompletebox/client-side-programming/events/onclientdropdownclosed" />
+      <Article title="OnClientEntryAdding" slug="autocompletebox/client-side-programming/events/oncliententryadding" />
+      <Article title="OnClientEntryAdded" slug="autocompletebox/client-side-programming/events/oncliententryadded" />
+      <Article title="OnClientEntryRemoving" slug="autocompletebox/client-side-programming/events/oncliententryremoving" />
+      <Article title="OnClientEntryRemoved" slug="autocompletebox/client-side-programming/events/oncliententryremoved" />
+      <Article title="OnClientTextChanged" slug="autocompletebox/client-side-programming/events/onclienttextchanged" />
+      <Article title="OnClientRequesting" slug="autocompletebox/client-side-programming/events/onclientrequesting" />
+      <Article title="OnClientRequested" slug="autocompletebox/client-side-programming/events/onclientrequested" />
+      <Article title="OnClientRequestFailed" slug="autocompletebox/client-side-programming/events/onclientrequestfailed" />
+      <Article title="OnClientDropDownItemDataBound" slug="autocompletebox/client-side-programming/events/onclientdropdownitemdatabound" />
+    </Folder>
+  </Folder>
+</Content>

@@ -1,0 +1,9 @@
+<Content>
+  <Article title="Overview" slug="barcode/overview" />
+  <Article title="Design Time" slug="barcode/design-time" />
+  <Article title="Types" slug="barcode/types" />
+  <Article title="OutputType" slug="barcode/outputtype" />
+  <Article title="Specifications" slug="barcode/specifications" />
+  <Article title="QRCode" slug="barcode/qrcode" />
+  <Article title="WAI-ARIA Support" slug="barcode/wai-aria-support" />
+</Content>

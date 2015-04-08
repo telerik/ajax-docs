@@ -1,0 +1,60 @@
+<Content>
+  <Article title="Overview" slug="imageeditor/overview" />
+  <Folder title="Getting Started" path="imageeditor/getting-started">
+    <Article title="Overview" slug="imageeditor/getting-started/overview" />
+    <Article title="Structure" slug="imageeditor/getting-started/structure" />
+    <Article title="Full Set of Tools" slug="imageeditor/getting-started/full-set-of-tools" />
+  </Folder>
+  <Article title="Design Time" slug="imageeditor/design-time" />
+  <Folder title="Functionality" path="imageeditor/functionality">
+    <Article title="Loading the Dialogs from External Files" slug="imageeditor/functionality/loading-the-dialogs-from-external-files" />
+    <Article title="Creating Custom Dialog" slug="imageeditor/functionality/creating-custom-dialog" />
+    <Article title="Custom Server-side Operations" slug="imageeditor/functionality/custom-server-side-operations" />
+    <Article title="Using Custom Content Provider" slug="imageeditor/functionality/using-custom-content-provider" />
+    <Article title="Using a Custom Image Provider" slug="imageeditor/functionality/using-a-custom-image-provider" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="imageeditor/appearance-and-styling">
+    <Article title="Skins" slug="imageeditor/appearance-and-styling/skins" />
+    <Article title="Creating a Custom Skin" slug="imageeditor/appearance-and-styling/creating-a-custom-skin" />
+    <Article title="CSS Classes" slug="imageeditor/appearance-and-styling/css-classes" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="imageeditor/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="imageeditor/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Keyboard Support" slug="imageeditor/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Right-to-left Support" slug="imageeditor/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Localization" slug="imageeditor/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Server-side Programming" path="imageeditor/server-side-programming">
+    <Article title="Overview" slug="imageeditor/server-side-programming/overview" />
+    <Article title="Events" slug="imageeditor/server-side-programming/events" />
+  </Folder>
+  <Folder title="Client-side Programming" path="imageeditor/client-side-programming">
+    <Article title="Overview" slug="imageeditor/client-side-programming/overview" />
+    <Folder title="Events" path="imageeditor/client-side-programming/events">
+      <Article title="Client-Side Events Basics" slug="imageeditor/client-side-programming/events/client-side-events-basics" />
+      <Article title="OnClientLoad" slug="imageeditor/client-side-programming/events/onclientload" />
+      <Article title="OnClientCommandExecuting" slug="imageeditor/client-side-programming/events/onclientcommandexecuting" />
+      <Article title="OnClientCommandExecuted" slug="imageeditor/client-side-programming/events/onclientcommandexecuted" />
+      <Article title="OnClientDialogLoaded" slug="imageeditor/client-side-programming/events/onclientdialogloaded" />
+      <Article title="OnClientImageChanging" slug="imageeditor/client-side-programming/events/onclientimagechanging" />
+      <Article title="OnClientImageChanged" slug="imageeditor/client-side-programming/events/onclientimagechanged" />
+      <Article title="OnClientImageLoad" slug="imageeditor/client-side-programming/events/onclientimageload" />
+      <Article title="OnClientResizeStart" slug="imageeditor/client-side-programming/events/onclientresizestart" />
+      <Article title="OnClientResizeEnd" slug="imageeditor/client-side-programming/events/onclientresizeend" />
+      <Article title="OnClientSaving" slug="imageeditor/client-side-programming/events/onclientsaving" />
+      <Article title="OnClientSaved" slug="imageeditor/client-side-programming/events/onclientsaved" />
+      <Article title="OnClientShortCutHit" slug="imageeditor/client-side-programming/events/onclientshortcuthit" />
+      <Article title="OnClientToolsDialogClosed" slug="imageeditor/client-side-programming/events/onclienttoolsdialogclosed" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="imageeditor/application-scenarios">
+    <Article title="Custom Crop Settings" slug="imageeditor/application-scenarios/custom-crop-settings" />
+  </Folder>
+  <Folder title="Troubleshooting" path="imageeditor/troubleshooting">
+    <Folder title="Known Issues" path="imageeditor/troubleshooting/known-issues">
+      <Article title="IE9 Compatibility Modes" slug="imageeditor/troubleshooting/known-issues/ie9-compatibility-modes" />
+      <Article title="AddText Limitation" slug="imageeditor/troubleshooting/known-issues/addtext-limitation" />
+    </Folder>
+    <Article title="Common Issues" slug="imageeditor/troubleshooting/common-issues" />
+  </Folder>
+</Content>

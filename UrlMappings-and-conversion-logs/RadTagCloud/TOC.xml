@@ -1,0 +1,43 @@
+<Content>
+  <Article title="Overview" slug="tagcloud/overview" />
+  <Article title="Changes And Backward Compatibility" slug="tagcloud/changes-and-backward-compatibility" />
+  <Article title="Getting Started" slug="tagcloud/getting-started" />
+  <Article title="Design Time" slug="tagcloud/design-time" />
+  <Folder title="Data Binding" path="tagcloud/data-binding">
+    <Article title="Overview" slug="tagcloud/data-binding/overview" />
+    <Article title="Binding to DataTable, DataSet or DataView" slug="tagcloud/data-binding/binding-to-datatable,-dataset-or-dataview" />
+    <Article title="Binding to Array or ArrayList" slug="tagcloud/data-binding/binding-to-array-or-arraylist" />
+    <Article title="Binding to Web Service or Wcf Service" slug="tagcloud/data-binding/binding-to-web-service-or-wcf-service" />
+    <Article title="Client-side Data Binding" slug="tagcloud/data-binding/client-side-data-binding" />
+  </Folder>
+  <Folder title="Mobile Support" path="tagcloud/mobile-support">
+    <Article title="Resposnive, Adaptive and Elastic Capabilities" slug="tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="tagcloud/appearance-and-styling">
+    <Article title="Skins" slug="tagcloud/appearance-and-styling/skins" />
+    <Article title="Creating a Custom Skin" slug="tagcloud/appearance-and-styling/creating-a-custom-skin" />
+    <Article title="CSS Classes" slug="tagcloud/appearance-and-styling/css-classes" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="tagcloud/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="tagcloud/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="tagcloud/accessibility-and-internationalization/right-to-left-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="tagcloud/server-side-programming">
+    <Article title="TagCloud Object" slug="tagcloud/server-side-programming/tagcloud-object" />
+  </Folder>
+  <Folder title="Client-side Programming" path="tagcloud/client-side-programming">
+    <Article title="TagCloud Object" slug="tagcloud/client-side-programming/tagcloud-object" />
+    <Article title="TagCloudItem Object" slug="tagcloud/client-side-programming/tagclouditem-object" />
+    <Folder title="Events" path="tagcloud/client-side-programming/events">
+      <Article title="Overview" slug="tagcloud/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="tagcloud/client-side-programming/events/onclientload" />
+      <Article title="OnClientItemClicking" slug="tagcloud/client-side-programming/events/onclientitemclicking" />
+      <Article title="OnClientItemClicked" slug="tagcloud/client-side-programming/events/onclientitemclicked" />
+      <Article title="OnClientItemsRequesting" slug="tagcloud/client-side-programming/events/onclientitemsrequesting" />
+      <Article title="OnClientItemsRequested" slug="tagcloud/client-side-programming/events/onclientitemsrequested" />
+      <Article title="OnClientItemsRequestFailed" slug="tagcloud/client-side-programming/events/onclientitemsrequestfailed" />
+      <Article title="OnClientDataBound" slug="tagcloud/client-side-programming/events/onclientdatabound" />
+      <Article title="OnClientItemDataBound" slug="tagcloud/client-side-programming/events/onclientitemdatabound" />
+    </Folder>
+  </Folder>
+</Content>

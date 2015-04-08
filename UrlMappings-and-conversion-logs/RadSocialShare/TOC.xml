@@ -1,0 +1,62 @@
+<Content>
+  <Article title="Overview" slug="socialshare/overview" />
+  <Article title="Changes and Backwards Compatibility" slug="socialshare/changes-and-backwards-compatibility" />
+  <Folder title="Getting Started" path="socialshare/getting-started">
+    <Article title="Overview" slug="socialshare/getting-started/overview" />
+    <Article title="Structure" slug="socialshare/getting-started/structure" />
+  </Folder>
+  <Article title="Design Time" slug="socialshare/design-time" />
+  <Folder title="Functionality" path="socialshare/functionality">
+    <Article title="Controlling Posts" slug="socialshare/functionality/controlling-posts" />
+    <Article title="Sending via E-mail" slug="socialshare/functionality/sending-via-e-mail" />
+    <Article title="Google Analytics Integration" slug="socialshare/functionality/google-analytics-integration" />
+    <Article title="Controlling Sharing Strings" slug="socialshare/functionality/controlling-sharing-strings" />
+  </Folder>
+  <Folder title="Configuring Buttons" path="socialshare/configuring-buttons">
+    <Article title="Styled" slug="socialshare/configuring-buttons/styled" />
+    <Article title="Standard" slug="socialshare/configuring-buttons/standard" />
+    <Article title="Collections" slug="socialshare/configuring-buttons/collections" />
+  </Folder>
+  <Folder title="Mobile Support" path="socialshare/mobile-support">
+    <Article title="Responsive, Adaptive and Elastic Capabilities" slug="socialshare/mobile-support/responsive,-adaptive-and-elastic-capabilities" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="socialshare/appearance-and-styling">
+    <Article title="Skins" slug="socialshare/appearance-and-styling/skins" />
+    <Article title="Creating a Custom Skin" slug="socialshare/appearance-and-styling/creating-a-custom-skin" />
+    <Article title="CSS Classes" slug="socialshare/appearance-and-styling/css-classes" />
+    <Article title="Controlling Dialogs Position and Size" slug="socialshare/appearance-and-styling/controlling-dialogs-position-and-size" />
+    <Article title="Use Custom Icons for Styled Buttons" slug="socialshare/appearance-and-styling/use-custom-icons-for-styled-buttons" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="socialshare/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="socialshare/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="socialshare/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Localization" slug="socialshare/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Server-side Programming" path="socialshare/server-side-programming">
+    <Article title="Overview" slug="socialshare/server-side-programming/overview" />
+    <Article title="Properties Enumerators" slug="socialshare/server-side-programming/properties-enumerators" />
+  </Folder>
+  <Folder title="Client-side Programming" path="socialshare/client-side-programming">
+    <Article title="RadSocialShare Object" slug="socialshare/client-side-programming/radsocialshare-object" />
+    <Folder title="Events" path="socialshare/client-side-programming/events">
+      <Article title="Overview" slug="socialshare/client-side-programming/events/overview" />
+      <Article title="OnFacebookLike" slug="socialshare/client-side-programming/events/onfacebooklike" />
+      <Article title="OnFacebookSend" slug="socialshare/client-side-programming/events/onfacebooksend" />
+      <Article title="OnFacebookUnLike" slug="socialshare/client-side-programming/events/onfacebookunlike" />
+      <Article title="OnGooglePlusOneOff" slug="socialshare/client-side-programming/events/ongoogleplusoneoff" />
+      <Article title="OnGooglePlusOneOn" slug="socialshare/client-side-programming/events/ongoogleplusoneon" />
+      <Article title="OnLinkedInShare" slug="socialshare/client-side-programming/events/onlinkedinshare" />
+      <Article title="OnSocialButtonClicked" slug="socialshare/client-side-programming/events/onsocialbuttonclicked" />
+      <Article title="OnSocialButtonClicking" slug="socialshare/client-side-programming/events/onsocialbuttonclicking" />
+      <Article title="OnTweet" slug="socialshare/client-side-programming/events/ontweet" />
+    </Folder>
+  </Folder>
+  <Folder title="Troubleshooting" path="socialshare/troubleshooting">
+    <Article title="Standard Buttons' Events" slug="socialshare/troubleshooting/standard-buttons'-events" />
+    <Article title="Controlling Content Shared in Facebook" slug="socialshare/troubleshooting/controlling-content-shared-in-facebook" />
+    <Article title="Facebook Specifics" slug="socialshare/troubleshooting/facebook-specifics" />
+    <Article title="Google Specifics" slug="socialshare/troubleshooting/google-specifics" />
+    <Article title="Yammer Specifics" slug="socialshare/troubleshooting/yammer-specifics" />
+    <Article title="Pinterest Specifics" slug="socialshare/troubleshooting/pinterest-specifics" />
+  </Folder>
+</Content>

@@ -1,0 +1,39 @@
+<Content>
+  <Article title="Overview" slug="fileexplorer/overview" />
+  <Article title="Changes And Backward Compatibility" slug="fileexplorer/changes-and-backward-compatibility" />
+  <Article title="Getting Started" slug="fileexplorer/getting-started" />
+  <Article title="Design Time" slug="fileexplorer/design-time" />
+  <Folder title="Functionality" path="fileexplorer/functionality">
+    <Article title="Filter Items" slug="fileexplorer/functionality/filter-items" />
+    <Article title="Thumbnails Mode" slug="fileexplorer/functionality/thumbnails-mode" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="fileexplorer/appearance-and-styling">
+    <Article title="Create a Custom Skin" slug="fileexplorer/appearance-and-styling/create-a-custom-skin" />
+    <Article title="CSS Classes" slug="fileexplorer/appearance-and-styling/css-classes" />
+    <Article title="Increase Thumbnail Dimensions" slug="fileexplorer/appearance-and-styling/increase-thumbnail-dimensions" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="fileexplorer/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="fileexplorer/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="fileexplorer/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Keyboard Support" slug="fileexplorer/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Localization" slug="fileexplorer/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Server-side Programming" path="fileexplorer/server-side-programming">
+    <Article title="Overview" slug="fileexplorer/server-side-programming/overview" />
+    <Article title="Events" slug="fileexplorer/server-side-programming/events" />
+    <Article title="Configure RadFileExplorer on the Server" slug="fileexplorer/server-side-programming/configure-radfileexplorer-on-the-server" />
+    <Article title="Use Custom FileBrowserContentProvider" slug="fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider" />
+  </Folder>
+  <Folder title="Client-side Programming" path="fileexplorer/client-side-programming">
+    <Article title="Overview" slug="fileexplorer/client-side-programming/overview" />
+    <Article title="Events" slug="fileexplorer/client-side-programming/events" />
+  </Folder>
+  <Folder title="Application Scenarios" path="fileexplorer/application-scenarios">
+    <Article title="Adding Custom Command Buttons" slug="fileexplorer/application-scenarios/adding-custom-command-buttons" />
+    <Article title="Adding Custom Grid Columns" slug="fileexplorer/application-scenarios/adding-custom-grid-columns" />
+  </Folder>
+  <Folder title="Troubleshooting" path="fileexplorer/troubleshooting">
+    <Article title="Common Issues" slug="fileexplorer/troubleshooting/common-issues" />
+    <Article title="Restricted Symbols" slug="fileexplorer/troubleshooting/restricted-symbols" />
+  </Folder>
+</Content>

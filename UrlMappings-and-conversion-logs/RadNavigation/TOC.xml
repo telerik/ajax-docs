@@ -1,0 +1,56 @@
+<Content>
+  <Article title="Overview" slug="navigation/overview" />
+  <Article title="Getting Started " slug="navigation/getting-started-" />
+  <Folder title="Design Time" path="navigation/design-time">
+    <Article title="Smart Tag" slug="navigation/design-time/smart-tag" />
+  </Folder>
+  <Folder title="Functionality" path="navigation/functionality">
+    <Article title="Orientation" slug="navigation/functionality/orientation" />
+    <Article title="Expand Modes" slug="navigation/functionality/expand-modes" />
+    <Article title="Headers and Footers" slug="navigation/functionality/headers-and-footers" />
+  </Folder>
+  <Folder title="Mobile Support" path="navigation/mobile-support">
+    <Article title="RadNavigation Mobile Support Overview" slug="navigation/mobile-support/radnavigation-mobile-support-overview" />
+    <Article title="Fluid behavior" slug="navigation/mobile-support/fluid-behavior" />
+    <Article title="Elastic behavior" slug="navigation/mobile-support/elastic-behavior" />
+    <Article title="Adaptive Behavior" slug="navigation/mobile-support/adaptive-behavior" />
+  </Folder>
+  <Folder title="Templates" path="navigation/templates">
+    <Article title="Overview" slug="navigation/templates/overview" />
+    <Article title="Server Templates" slug="navigation/templates/server-templates" />
+    <Article title="Client Templates" slug="navigation/templates/client-templates" />
+  </Folder>
+  <Folder title="Data Binding" path="navigation/data-binding">
+    <Article title="Server-side" slug="navigation/data-binding/server-side" />
+    <Article title="Client- side Binding" slug="navigation/data-binding/client--side-binding" />
+    <Article title="Binding to Object-Based Data Sources" slug="navigation/data-binding/binding-to-object-based-data-sources" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="navigation/appearance-and-styling">
+    <Article title="Skins" slug="navigation/appearance-and-styling/skins" />
+    <Article title="RadNavigation's CSS Classes" slug="navigation/appearance-and-styling/radnavigation's-css-classes" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="navigation/accessibility-and-internationalization">
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="navigation/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Keyboard Support" slug="navigation/accessibility-and-internationalization/keyboard-support" />
+    <Article title="RTL Support" slug="navigation/accessibility-and-internationalization/rtl-support" />
+  </Folder>
+  <Folder title="Server-side Programming" path="navigation/server-side-programming">
+    <Folder title="Events" path="navigation/server-side-programming/events">
+      <Article title="Overview" slug="navigation/server-side-programming/events/overview" />
+      <Article title="NodeDataBound" slug="navigation/server-side-programming/events/nodedatabound" />
+      <Article title="TemplateNeeded" slug="navigation/server-side-programming/events/templateneeded" />
+    </Folder>
+  </Folder>
+  <Folder title="Client-side Programming" path="navigation/client-side-programming">
+    <Folder title="Events" path="navigation/client-side-programming/events">
+      <Article title="Overview" slug="navigation/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="navigation/client-side-programming/events/onclientload" />
+      <Article title="OnClientNodeClicking" slug="navigation/client-side-programming/events/onclientnodeclicking" />
+      <Article title="OnClientNodeClicked" slug="navigation/client-side-programming/events/onclientnodeclicked" />
+      <Article title="OnClientNodeCollapsing" slug="navigation/client-side-programming/events/onclientnodecollapsing" />
+      <Article title="OnClientNodeCollapsed" slug="navigation/client-side-programming/events/onclientnodecollapsed" />
+      <Article title="OnClientNodeExpanding" slug="navigation/client-side-programming/events/onclientnodeexpanding" />
+      <Article title="OnClientNodeExpanded" slug="navigation/client-side-programming/events/onclientnodeexpanded" />
+    </Folder>
+  </Folder>
+</Content>

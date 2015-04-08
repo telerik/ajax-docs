@@ -1,0 +1,26 @@
+<Content>
+  <Article title="Overview" slug="pagelayout/overview" />
+  <Article title="Structure" slug="pagelayout/structure" />
+  <Folder title="Creating Responsive Design" path="pagelayout/creating-responsive-design">
+    <Article title="Grid Based Layout " slug="pagelayout/creating-responsive-design/grid-based-layout-" />
+    <Article title="Responsive Layout" slug="pagelayout/creating-responsive-design/responsive-layout" />
+    <Article title="Viewport Breakpoints" slug="pagelayout/creating-responsive-design/viewport-breakpoints" />
+    <Article title="RadPageLayout Grid Types" slug="pagelayout/creating-responsive-design/radpagelayout-grid-types" />
+  </Folder>
+  <Folder title="Server-Side Programming" path="pagelayout/server-side-programming">
+    <Article title="Defining Structure in Code-Behind" slug="pagelayout/server-side-programming/defining-structure-in-code-behind" />
+  </Folder>
+  <Folder title="Structure" path="pagelayout/structure">
+    <Article title="Container" slug="pagelayout/structure/container" />
+    <Article title="Rows" slug="pagelayout/structure/rows" />
+    <Article title="Columns " slug="pagelayout/structure/columns-" />
+    <Article title="Region and Composite Region" slug="pagelayout/structure/region-and-composite-region" />
+  </Folder>
+  <Folder title="Application Scenarios" path="pagelayout/application-scenarios">
+    <Article title="How to Use RadPageLayout" slug="pagelayout/application-scenarios/how-to-use-radpagelayout" />
+    <Article title="React to Viewport Change" slug="pagelayout/application-scenarios/react-to-viewport-change" />
+    <Article title="Nesting RadPageLayout Elements" slug="pagelayout/application-scenarios/nesting-radpagelayout-elements" />
+    <Article title="RadPageLayout in Other Controls" slug="pagelayout/application-scenarios/radpagelayout-in-other-controls" />
+    <Article title="How to Make Sticky Footer and Header" slug="pagelayout/application-scenarios/how-to-make-sticky-footer-and-header" />
+  </Folder>
+</Content>

@@ -1,0 +1,70 @@
+<Content>
+  <Article title="Overview" slug="dropdowntree/overview" />
+  <Folder title="Getting Started" path="dropdowntree/getting-started">
+    <Article title="Getting Started " slug="dropdowntree/getting-started/getting-started-" />
+  </Folder>
+  <Folder title="Data Binding" path="dropdowntree/data-binding">
+    <Article title="Overview" slug="dropdowntree/data-binding/overview" />
+    <Article title="Binding to Array, ArrayList and Generic List" slug="dropdowntree/data-binding/binding-to-array,-arraylist-and-generic-list" />
+    <Article title="Binding to DataTable, DataSet or DataView" slug="dropdowntree/data-binding/binding-to-datatable,-dataset-or-dataview" />
+    <Article title="Web Service Binding" slug="dropdowntree/data-binding/web-service-binding" />
+    <Article title="Binding to RadClientDataSource" slug="dropdowntree/data-binding/binding-to-radclientdatasource" />
+  </Folder>
+  <Folder title="Functionality" path="dropdowntree/functionality">
+    <Article title="CheckBoxes" slug="dropdowntree/functionality/checkboxes" />
+    <Article title="Delimiters" slug="dropdowntree/functionality/delimiters" />
+    <Article title="DropDown Settings" slug="dropdowntree/functionality/dropdown-settings" />
+    <Article title="Button Settings" slug="dropdowntree/functionality/button-settings" />
+    <Article title="Expand Node on Single Click" slug="dropdowntree/functionality/expand-node-on-single-click" />
+    <Article title="Filtering" slug="dropdowntree/functionality/filtering" />
+  </Folder>
+  <Folder title="Templates" path="dropdowntree/templates">
+    <Article title="Templates Overview" slug="dropdowntree/templates/templates-overview" />
+    <Article title="Client Templates" slug="dropdowntree/templates/client-templates" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="dropdowntree/appearance-and-styling">
+    <Article title="Skins" slug="dropdowntree/appearance-and-styling/skins" />
+    <Article title="Animations" slug="dropdowntree/appearance-and-styling/animations" />
+    <Article title="CSS Skin File Selector" slug="dropdowntree/appearance-and-styling/css-skin-file-selector" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="dropdowntree/accessibility-and-internationalization">
+    <Article title="Keyboard Support" slug="dropdowntree/accessibility-and-internationalization/keyboard-support" />
+    <Article title="Localization" slug="dropdowntree/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Server-side Programming" path="dropdowntree/server-side-programming">
+    <Folder title="Events" path="dropdowntree/server-side-programming/events">
+      <Article title="Overview" slug="dropdowntree/server-side-programming/events/overview" />
+      <Article title="NodeDataBound" slug="dropdowntree/server-side-programming/events/nodedatabound" />
+      <Article title="OnEntryAdded" slug="dropdowntree/server-side-programming/events/onentryadded" />
+      <Article title="OnEntryRemoved" slug="dropdowntree/server-side-programming/events/onentryremoved" />
+    </Folder>
+  </Folder>
+  <Folder title="Client-side Programming" path="dropdowntree/client-side-programming">
+    <Article title="Overview" slug="dropdowntree/client-side-programming/overview" />
+    <Article title="RadDropDownTree Object" slug="dropdowntree/client-side-programming/raddropdowntree-object" />
+    <Article title="RadDropDownTree Entry Object" slug="dropdowntree/client-side-programming/raddropdowntree-entry-object" />
+    <Article title="RadDropDownTree EntryCollection Object" slug="dropdowntree/client-side-programming/raddropdowntree-entrycollection-object" />
+    <Folder title="Events" path="dropdowntree/client-side-programming/events">
+      <Article title="Overview" slug="dropdowntree/client-side-programming/events/overview" />
+      <Article title="OnClientLoad" slug="dropdowntree/client-side-programming/events/onclientload" />
+      <Article title="OnClientDropDownOpening" slug="dropdowntree/client-side-programming/events/onclientdropdownopening" />
+      <Article title="OnClientDropDownOpened" slug="dropdowntree/client-side-programming/events/onclientdropdownopened" />
+      <Article title="OnClientDropDownClosing" slug="dropdowntree/client-side-programming/events/onclientdropdownclosing" />
+      <Article title="OnClientDropDownClosed" slug="dropdowntree/client-side-programming/events/onclientdropdownclosed" />
+      <Article title="OnClientEntryAdding" slug="dropdowntree/client-side-programming/events/oncliententryadding" />
+      <Article title="OnClientEntryAdded" slug="dropdowntree/client-side-programming/events/oncliententryadded" />
+      <Article title="OnClientEntryRemoving" slug="dropdowntree/client-side-programming/events/oncliententryremoving" />
+      <Article title="OnClientEntryRemoved" slug="dropdowntree/client-side-programming/events/oncliententryremoved" />
+      <Article title="OnClientRequested" slug="dropdowntree/client-side-programming/events/onclientrequested" />
+      <Article title="OnClientRequestFailed" slug="dropdowntree/client-side-programming/events/onclientrequestfailed" />
+      <Article title="OnClientRequesting" slug="dropdowntree/client-side-programming/events/onclientrequesting" />
+      <Article title="OnClientClearButtonClicking" slug="dropdowntree/client-side-programming/events/onclientclearbuttonclicking" />
+      <Article title="OnClientClearButtonClicked" slug="dropdowntree/client-side-programming/events/onclientclearbuttonclicked" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="dropdowntree/application-scenarios">
+    <Article title="Accessing the Embedded Tree" slug="dropdowntree/application-scenarios/accessing-the-embedded-tree" />
+    <Article title="How to Create An Entry or Select a Node" slug="dropdowntree/application-scenarios/how-to-create-an-entry-or-select-a-node" />
+    <Article title="How to Pre-Select a Node Based on Text or Value" slug="dropdowntree/application-scenarios/how-to-pre-select-a-node-based-on-text-or-value" />
+  </Folder>
+</Content>

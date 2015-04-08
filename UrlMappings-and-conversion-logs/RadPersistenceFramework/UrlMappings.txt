@@ -1,0 +1,11 @@
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-custom-storage-provider.html http://docs.telerik.com/devtools/ajax/persistenceframework/functionality/-custom-storage-provider
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-getting-started.html http://docs.telerik.com/devtools/ajax/persistenceframework/getting-started/overview
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-limitations.html http://docs.telerik.com/devtools/ajax/persistenceframework/troubleshooting/limitations
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-loadcustomsettings.html http://docs.telerik.com/devtools/ajax/persistenceframework/server-side-programming/events/loadcustomsettings
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-memebers.html http://docs.telerik.com/devtools/ajax/persistenceframework/server-side-programming/overview
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-overview.html http://docs.telerik.com/devtools/ajax/persistenceframework/overview
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-persistencemanager.html http://docs.telerik.com/devtools/ajax/persistenceframework/radpersistencemanager
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-persistencemanagerproxy.html http://docs.telerik.com/devtools/ajax/persistenceframework/radpersistencemanagerproxy
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-savecustomsettings.html http://docs.telerik.com/devtools/ajax/persistenceframework/server-side-programming/events/savecustomsettings
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-smart-tag.html http://docs.telerik.com/devtools/ajax/persistenceframework/design-time
+http://www.telerik.com/help/aspnet-ajax/persistence-framework-supported-controls.html http://docs.telerik.com/devtools/ajax/persistenceframework/getting-started/supported-controls

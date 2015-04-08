@@ -1,0 +1,55 @@
+<Content>
+  <Article title="Overview" slug="spell/overview" />
+  <Folder title="Changes and Backward Compatibility" path="spell/changes-and-backward-compatibility">
+    <Article title="Overview" slug="spell/changes-and-backward-compatibility/overview" />
+    <Article title="Migrating from RadSpell ASP.NET to ASP.NET AJAX" slug="spell/changes-and-backward-compatibility/migrating-from-radspell-asp.net-to-asp.net-ajax" />
+    <Article title="suppressCompleteMessage Method" slug="spell/changes-and-backward-compatibility/suppresscompletemessage-method" />
+  </Folder>
+  <Article title="Getting Started" slug="spell/getting-started" />
+  <Article title="Design Time" slug="spell/design-time" />
+  <Folder title="Configuration" path="spell/configuration">
+    <Article title="Setting Dictionary Language" slug="spell/configuration/setting-dictionary-language" />
+    <Article title="Ignoring Words and Fragments" slug="spell/configuration/ignoring-words-and-fragments" />
+    <Article title="Custom Text Source" slug="spell/configuration/custom-text-source" />
+    <Article title="Choosing Spell Check Provider" slug="spell/configuration/choosing-spell-check-provider" />
+  </Folder>
+  <Folder title="Appearance and Styling" path="spell/appearance-and-styling">
+    <Article title="Skins" slug="spell/appearance-and-styling/skins" />
+    <Article title="Controlling Appearance" slug="spell/appearance-and-styling/controlling-appearance" />
+    <Article title="CSS Classes" slug="spell/appearance-and-styling/css-classes" />
+    <Article title="Creating a Custom Skin" slug="spell/appearance-and-styling/creating-a-custom-skin" />
+  </Folder>
+  <Folder title="Accessibility and Internationalization" path="spell/accessibility-and-internationalization">
+    <Article title="Standards Compliance" slug="spell/accessibility-and-internationalization/standards-compliance" />
+    <Article title="WCAG 2.0 and Section 508 Accessibility Compliance" slug="spell/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance" />
+    <Article title="Right-to-left Support" slug="spell/accessibility-and-internationalization/right-to-left-support" />
+    <Article title="Localization" slug="spell/accessibility-and-internationalization/localization" />
+  </Folder>
+  <Folder title="Dictionaries" path="spell/dictionaries">
+    <Article title="Overview" slug="spell/dictionaries/overview" />
+    <Article title="Custom Dictionaries" slug="spell/dictionaries/custom-dictionaries" />
+    <Article title="Dictionary Configurator" slug="spell/dictionaries/dictionary-configurator" />
+  </Folder>
+  <Folder title="Client-side Programming" path="spell/client-side-programming">
+    <Article title="Overview" slug="spell/client-side-programming/overview" />
+    <Article title="RadSpell Object" slug="spell/client-side-programming/radspell-object" />
+    <Folder title="Events" path="spell/client-side-programming/events">
+      <Article title="OnClientCheckStarted" slug="spell/client-side-programming/events/onclientcheckstarted" />
+      <Article title="OnClientCheckFinished" slug="spell/client-side-programming/events/onclientcheckfinished" />
+      <Article title="OnClientCheckCancelled" slug="spell/client-side-programming/events/onclientcheckcancelled" />
+      <Article title="OnClientDialogClosing" slug="spell/client-side-programming/events/onclientdialogclosing" />
+    </Folder>
+  </Folder>
+  <Folder title="Application Scenarios" path="spell/application-scenarios">
+    <Article title="Setting a Control to Check" slug="spell/application-scenarios/setting-a-control-to-check" />
+    <Article title="Launching on Client-side Event" slug="spell/application-scenarios/launching-on-client-side-event" />
+    <Article title="Triggering Spellchecker on Page_Load" slug="spell/application-scenarios/triggering-spellchecker-on-page_load" />
+    <Article title="Spellchecking Dynamic Controls" slug="spell/application-scenarios/spellchecking-dynamic-controls" />
+    <Article title="Spellchecking in HTM, HTML and ASP Files" slug="spell/application-scenarios/spellchecking-in-htm,-html-and-asp-files" />
+    <Article title="Spellchecking Multiple Text Areas" slug="spell/application-scenarios/spellchecking-multiple-text-areas" />
+    <Article title="SpellCheckValidator" slug="spell/application-scenarios/spellcheckvalidator" />
+  </Folder>
+  <Folder title="Troubleshooting" path="spell/troubleshooting">
+    <Article title="Improper Spelling Suggestions" slug="spell/troubleshooting/improper-spelling-suggestions" />
+  </Folder>
+</Content>
