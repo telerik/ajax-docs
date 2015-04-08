@@ -31,7 +31,7 @@ position: 1
 
 ![searchbox smart tag with additional fields](images/searchbox_smart_tag_with_additional_fields.png)
 
-1. Back in the Smart Tag, choose a __[Skin]({%slug searchbox/appearance-and-styling/skins%})__ from the drop-down control.
+1. Back in the Smart Tag, choose a __Skin__ from the drop-down control.
 
 1. Run the application. Type something in the RadSearchBox to see the search results.
 

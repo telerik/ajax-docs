@@ -87,6 +87,4 @@ The following example uses the __OnClientCollapsed__ event to update the content
 
  * [RadSlidingPane Object]({%slug splitter/client-side-programming/radslidingpane-object%})
 
- * [OnClientBeforeCollapse]({%slug splitter/client-side-programming/events/onclientbeforecollapse%})
-
  * [OnClientExpanded]({%slug splitter/client-side-programming/events/onclientexpanded%})

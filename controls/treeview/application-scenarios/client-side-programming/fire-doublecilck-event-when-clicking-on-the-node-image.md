@@ -16,7 +16,7 @@ position: 21
 
 This article shows how to subscribe to a node's image double click event. Similarly, it can be used for a single click event. What we will achieve is when clicking on a node's image or text - a javascript method will be executed. That method will have two parameters - the treeview and the node.
 
-The javascript code below uses the [jQuery](http://jQuery.com) library which is integrated in [RadTreeView in Q3 2008]({%slug treeview/what-is-new%}).
+The javascript code below uses the [jQuery](http://jQuery.com) library which is integrated in **RadTreeView in Q3 2008**.
 
 Here is the treeview declaration:
 

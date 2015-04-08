@@ -22,7 +22,7 @@ Using __RadScheduler__, users can
 
 * Set up recurring appointments, and make exceptions to the recurring series.
 
-* See appointments in [Day, Week, Month, or Resource view]({%slug scheduler/appearance-and-styling/views%}),whichever is most convenient.
+* See appointments in [Day, Week, Month, or Resource view]({%slug scheduler/views/overview%}),whichever is most convenient.
 
 * [Navigate]({%slug scheduler/usability/navigating-radscheduler%}) between different representations of the appointment data.
 

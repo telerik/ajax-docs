@@ -38,9 +38,7 @@ At runtime, __RadScheduler__ contains a number of controls for navigating betwee
 
 # See Also
 
- * [RadScheduler Structure]({%slug scheduler/usability/radscheduler-structure%})
-
- * [Views]({%slug scheduler/appearance-and-styling/views%})
+ * [Views]({%slug scheduler/views/overview%})
 
  * [NavigationCommand]({%slug scheduler/server-side-programming/server-events/navigationcommand%})
 

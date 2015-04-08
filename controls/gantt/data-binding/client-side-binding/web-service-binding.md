@@ -129,5 +129,3 @@ And bellow are the settings needed for binding __RadGantt__ to the above web ser
 # See Also
 
  * [Overview]({%slug gantt/overview%})
-
- * [Getting Started]({%slug gantt/getting-started-/getting-started%})

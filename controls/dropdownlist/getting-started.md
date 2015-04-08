@@ -36,7 +36,7 @@ This tutorial will walk you through creating a __RadDropDownList__ and shows how
 
 1. Press __OK__ to exit the __RadDropDownList Item Builder__.
 
-1. Back in the Smart Tag, choose a __[Skin]({%slug dropdownlist/appearance-and-styling/skins%})__ from the drop-down control.
+1. Back in the Smart Tag, choose a __Skin__ from the drop-down control.
 >caption 
 
 ![dropdownlist-gettingstarted-skin](images/dropdownlist-gettingstarted-skin.png)

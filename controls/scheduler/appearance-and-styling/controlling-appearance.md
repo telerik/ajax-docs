@@ -78,8 +78,6 @@ __RadScheduler__ is highly configurable, with many properties you can set to con
 
 # See Also
 
- * [RadScheduler Structure]({%slug scheduler/usability/radscheduler-structure%})
-
  * [Templates]({%slug scheduler/appearance-and-styling/templates%})
 
  * [Translating Strings]({%slug scheduler/accessibility-and-internationalization/translating-strings%})

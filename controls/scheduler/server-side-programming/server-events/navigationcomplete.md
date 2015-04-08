@@ -69,6 +69,6 @@ You can use this event to perform custom actions when a navigation action has be
 
  * [NavigationCommand]({%slug scheduler/server-side-programming/server-events/navigationcommand%})
 
- * [Views]({%slug scheduler/appearance-and-styling/views%})
+ * [Views]({%slug scheduler/views/overview%})
 
  * [Navigating RadScheduler]({%slug scheduler/usability/navigating-radscheduler%})

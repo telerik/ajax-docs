@@ -85,7 +85,7 @@ This example disables the "today" button, while still allowing a switch to Day v
 
  * [NavigationComplete]({%slug scheduler/server-side-programming/server-events/navigationcomplete%})
 
- * [Views]({%slug scheduler/appearance-and-styling/views%})
+ * [Views]({%slug scheduler/views/overview%})
 
  * [Controlling Appearance]({%slug scheduler/appearance-and-styling/controlling-appearance%})
 

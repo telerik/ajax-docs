@@ -76,6 +76,4 @@ The following example uses the __OnClientUndocking__ event to show a confirmatio
 
  * [RadSlidingPane Object]({%slug splitter/client-side-programming/radslidingpane-object%})
 
- * [OnClientBeforeDock]({%slug splitter/client-side-programming/events/onclientbeforedock%})
-
  * [OnClientUndocked]({%slug splitter/client-side-programming/events/onclientundocked%})

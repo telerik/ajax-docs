@@ -67,8 +67,3 @@ To make your CSS setting apply you can use one of the following techniques:
 	     }
 ````
 
-
-
-# See Also
-
- * [Image flickering]({%slug menu/troubleshooting/image-flickering%})

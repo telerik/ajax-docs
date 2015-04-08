@@ -30,7 +30,7 @@ Using the unbound __RadDropDownList__ Smart Tag you can perform the following:
 
 * __Build RadDropDownList__ opens the [RadDropDownList Item builder]({%slug dropdownlist/design-time/item-builder%}), where you can add static items to the DropDownList and set their properties.
 
-* __Skin__ lets you select from a list of available [skins]({%slug dropdownlist/appearance-and-styling/skins%}) to customize the look of your __RadDropDownList__.
+* __Skin__ lets you select from a list of available skins to customize the look of your __RadDropDownList__.
 
 ## Smart Tag of bound RadDropDownList
 

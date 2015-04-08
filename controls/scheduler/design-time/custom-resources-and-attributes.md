@@ -56,6 +56,6 @@ Custom attributes are simple text values that your data source stores with the a
 
 # See Also
 
- * [Views]({%slug scheduler/appearance-and-styling/views%})
+ * [Views]({%slug scheduler/views/overview%})
 
  * [Working with Resources]({%slug scheduler/server-side-programming/working-with-resources%})

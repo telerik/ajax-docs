@@ -23,7 +23,7 @@ The following table lists the client-side events for __RadSplitter__, __RadPane_
 
 | Event | Applies to | Description |
 | ------ | ------ | ------ |
-|[OnClientLoaded]({%slug splitter/client-side-programming/events/onclientloaded%})| __RadSplitter__ , __RadSlidingZone__ |Occurs when the control is first loaded on the client.|
+|[OnClientLoad]({%slug splitter/client-side-programming/events/onclientload%})| __RadSplitter__ , __RadSlidingZone__ |Occurs when the control is first loaded on the client.|
 |[OnClientResizing]({%slug splitter/client-side-programming/events/onclientresizing%})| __RadSplitter__ , __RadPane__ , __RadSlidingPane__ |Occurs before the control is resized.|
 |[OnClientResized]({%slug splitter/client-side-programming/events/onclientresized%})| __RadSplitter__ , __RadPane__ , __RadSlidingPane__ |Occurs when the control has just been resized.|
 |[OnClientCollapsing]({%slug splitter/client-side-programming/events/onclientcollapsing%})| __RadPane__ , __RadSlidingPane__ |Occurs when the pane is about to be collapsed.|

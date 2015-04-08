@@ -76,6 +76,4 @@ The following example uses the __OnClientUndocked__ event to update the content 
 
  * [RadSlidingPane Object]({%slug splitter/client-side-programming/radslidingpane-object%})
 
- * [OnClientBeforeUndock]({%slug splitter/client-side-programming/events/onclientbeforeundock%})
-
  * [OnClientDocked]({%slug splitter/client-side-programming/events/onclientdocked%})
