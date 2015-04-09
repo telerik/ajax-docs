@@ -142,7 +142,7 @@ navigation:
         title: "Testing with Test Studio"
     "api":
         title: "API Reference"
-        position: -15
+        position: 30
     "api/client":
         title: "Client-side"
     "api/client/args":
