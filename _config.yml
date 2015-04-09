@@ -63,79 +63,79 @@ navigation:
     "mvc":
         title: "Integration with ASPNET MVC"
         position: 9
-    "moss":
+    "sharepoint":
         title: "Integration with SharePoint"
         position: 10
-    "moss/sharepoint-2007-(moss)":
+    "sharepoint/2007":
         title: "SharePoint 2007 (MOSS)"
         position: 0
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss":
+    "sharepoint/2007/radeditor-for-moss":
         title: "RadEditor for MOSS"
         position: 8
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/installation-and-deployment":
+    "sharepoint/2007/radeditor-for-moss/installation-and-deployment":
         title: "Installation and deployment"
         position: 2
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/migration-and-upgrade":
+    "sharepoint/2007/radeditor-for-moss/migration-and-upgrade":
         title: "Migration and upgrade"
         position: 3
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/configuration":
+    "sharepoint/2007/radeditor-for-moss/configuration":
         title: "Configuration"
         position: 4
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/dropdowns":
+    "sharepoint/2007/radeditor-for-moss/dropdowns":	
         title: "DropDowns"
         position: 5
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/dialogs":
+    "sharepoint/2007/radeditor-for-moss/dialogs":
         title: "Dialogs"
         position: 6
-    "moss/sharepoint-2007-(moss)/radeditor-for-moss/customization":
+    "sharepoint/2007/radeditor-for-moss/customization":
         title: "Customization"
         position: 7
-    "moss/sharepoint-2010":
+    "sharepoint/2010":
         title: "SharePoint 2010"
         position: 1
-    "moss/sharepoint-2010/installation-and-deployment":
+    "sharepoint/2010/installation-and-deployment":
         title: "Installation and Deployment"
         position: 0
-    "moss/sharepoint-2010/radeditor-web-part":
+    "sharepoint/2010/radeditor-web-part":
         title: "RadEditor Web Part"
         position: 1
-    "moss/sharepoint-2010/radeditor-web-part/installation-and-deployment":
+    "sharepoint/2010/radeditor-web-part/installation-and-deployment":
         title: "Installation and Deployment"
         position: 2
-    "moss/sharepoint-2010/radeditor-web-part/migration-and-upgrade":
+    "sharepoint/2010/radeditor-web-part/migration-and-upgrade":
         title: "Migration and upgrade"
         position: 3
-    "moss/sharepoint-2010/radeditor-web-part/configuration":
+    "sharepoint/2010/radeditor-web-part/configuration":
         title: "Configuration"
         position: 4
-    "moss/sharepoint-2010/radeditor-web-part/dropdowns":
+    "sharepoint/2010/radeditor-web-part/dropdowns":
         title: "DropDowns"
         position: 5
-    "moss/sharepoint-2010/radeditor-web-part/dialogs":
+    "sharepoint/2010/radeditor-web-part/dialogs":
         title: "Dialogs"
         position: 6
-    "moss/sharepoint-2010/radeditor-web-part/customization":
+    "sharepoint/2010/radeditor-web-part/customization":
         title: "Customization"
         position: 7
-    "moss/sharepoint-2010/radgrid-web-part":
+    "sharepoint/2010/radgrid-web-part":
         title: "RadGrid Web Part"
         position: 2
-    "moss/sharepoint-2010/radlistview-web-part":
+    "sharepoint/2010/radlistview-web-part":
         title: "RadListView Web Part"
         position: 3
-    "moss/sharepoint-2010/radscheduler-web-part":
+    "sharepoint/2010/radscheduler-web-part":
         title: "RadScheduler Web Part"
         position: 4
-    "moss/sharepoint-2013":
+    "sharepoint/2013":
         title: "SharePoint 2013"
         position: 2
-    "moss/sharepoint-2013/installation-and-deployment":
+    "sharepoint/2013/installation-and-deployment":
         title: "Installation and Deployment"
         position: 0
-    "moss/sharepoint-2013/radeditor-web-part":
+    "sharepoint/2013/radeditor-web-part":
         title: "RadEditor Web Part"
         position: 1
-    "moss/sharepoint-2013/radeditor-web-part/installation-and-deployment":
+    "sharepoint/2013/radeditor-web-part/installation-and-deployment":
         title: "Installation and Deployment"
         position: 2
     "testing-with-test-studio":
