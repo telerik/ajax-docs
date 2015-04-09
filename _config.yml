@@ -1,11 +1,11 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/devtools/ajax"
+url: "http://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log, UrlMappings-and-conversion-logs/*]
 
 ## The application virtual path
-baseurl: "/aspnet-ajax"
+baseurl: "devtools/aspnet-ajax"
 
 navigation:
 
