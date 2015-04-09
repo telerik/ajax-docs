@@ -7,6 +7,9 @@ exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log, UrlMappi
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
 
+## The Kendo UI version used
+cdnVersion: "2015.1.408"
+
 navigation:
 
 ## List common directory names and order here, like this:
