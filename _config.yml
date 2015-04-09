@@ -5,7 +5,7 @@ site_name: AJAX
 exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log, UrlMappings-and-conversion-logs/*]
 
 ## The application virtual path
-baseurl: "devtools/aspnet-ajax"
+baseurl: "/devtools/aspnet-ajax"
 
 navigation:
 
