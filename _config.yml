@@ -140,8 +140,8 @@ navigation:
         position: 2
     "testing-with-test-studio":
         title: "Testing with Test Studio"
-        
-## List control directory names and order here, like this:       
+
+## List control directory names and order here, like this:
     "*ajax":
         title: "RadAjax"
     "*asyncupload":
@@ -291,7 +291,7 @@ navigation:
     "*ziplibrary":
         title: "RadZipLibrary"
 
-## List control specific directory names and order here, like this:    
+## List control specific directory names and order here, like this:
     "*ajax/getting-started":
         title: "Getting Started"
         position: 2
@@ -2776,7 +2776,7 @@ navigation:
     "*ziplibrary/functionality":
         title: "Functionality"
         position: 3
-          
+
 ## Assign layout and category per different paths
 defaults:
 -
