@@ -1,0 +1,63 @@
+---
+title: Telerik.Web.UI.EditorCommandEventArgs
+page_title: Client-side API Reference
+description: Client-side API Reference
+---
+
+# Telerik.Web.UI.EditorCommandEventArgs : Sys.CancelEventArgs 
+
+## Methods
+
+### get_name
+
+Returns the command name 
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_commandName
+
+Returns the command name 
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### get_tool
+
+Returns the object instance of the tool fired the command
+
+#### Parameters
+
+#### Returns
+
+`Telerik.Web.UI.EditorButton` 
+
+### get_value
+
+Returns the value fetched by the tool
+
+#### Parameters
+
+#### Returns
+
+`String` 
+
+### set_value
+
+Sets the value for the command to execute with
+
+#### Parameters 
+
+##### value `String`
+
+The command value with which the command to be executed
+
+#### Returns
+
+`None` 

@@ -140,6 +140,15 @@ navigation:
         position: 2
     "testing-with-test-studio":
         title: "Testing with Test Studio"
+    "api":
+        title: "API Reference"
+        position: -15
+    "api/client":
+        title: "Client-side"
+    "api/client/args":
+        title: "Event Arguments"
+    "api/client/enums":
+        title: "Enums"            
 
 ## List control directory names and order here, like this:
     "*ajax":
@@ -2786,6 +2795,11 @@ defaults:
         layout: "page"
         category: "default"
         product: "aspnet-ajax"
+-        
+    scope:
+        path: "api"
+    values:
+        kind: "api"
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
