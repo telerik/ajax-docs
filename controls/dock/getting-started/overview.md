@@ -154,7 +154,7 @@ __Note:____Known issue -__ There is a problem with the ContentTemplate tag when 
 
  * [Overview]({%slug dock/commands/overview%})
 
- * [Adding Content to RadDock]({%slug dock/application-scenarios/adding-content-to-raddock%})
+ * [Adding Content to RadDock]({%slug dock/how-to/adding-content-to-raddock%})
 
  * [Dock Zone Orientation]({%slug dock/getting-started/dock-zone-orientation%})
 

@@ -16,7 +16,7 @@ The __RadDockLayout__ and __RadDock__ controls both raise server-side events.
 
 ## RadDockLayout
 
-__RadDockLayout__ exposes two server-side events, that you can use to make the layout of docked controls persist by saving it to and loading it from some storage medium such as a cookie or database. These events are also necessary to allow the state of [dynamically-created RadDock controls]({%slug dock/application-scenarios/creating-raddock-dynamically%}) persist after a postback. The server-side events are
+__RadDockLayout__ exposes two server-side events, that you can use to make the layout of docked controls persist by saving it to and loading it from some storage medium such as a cookie or database. These events are also necessary to allow the state of [dynamically-created RadDock controls]({%slug dock/how-to/creating-raddock-dynamically%}) persist after a postback. The server-side events are
 
 * [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%}), which occurs when the application should save the state of all __RadDock__ controls on the page so that it can be restored at a later time.
 

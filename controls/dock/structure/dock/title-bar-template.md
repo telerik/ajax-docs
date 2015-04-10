@@ -12,7 +12,7 @@ position: 0
 
 
 
-In addition to the content template, which is described in [Adding Content]({%slug dock/application-scenarios/adding-content-to-raddock%}), __RadDock__ also supports a title bar template for customizing the appearance of the title bar.
+In addition to the content template, which is described in [Adding Content]({%slug dock/how-to/adding-content-to-raddock%}), __RadDock__ also supports a title bar template for customizing the appearance of the title bar.
 
 >note Note that in the examples below, there is no need to add icons for the __RadDock__ commands to the title bar template. They appear automatically.
 >

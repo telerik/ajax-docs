@@ -46,4 +46,4 @@ You can use this event to perform any client-side actions when the combobox rece
 
  * [OnClientBlur]({%slug combobox/client-side-programming/events/onclientblur%})
 
- * [Focus the RadComboBox]({%slug combobox/application-scenarios/focus-the-radcombobox%})
+ * [Focus the RadComboBox]({%slug combobox/how-to/focus-the-radcombobox%})

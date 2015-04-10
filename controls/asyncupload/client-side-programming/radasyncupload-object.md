@@ -94,7 +94,7 @@ The following table lists the important __RadAsyncUpload__ client-side methods:
 |  __getID__  | string | string | Creates a new ID, based on the __RadAsyncUpload__ ClientID, the supplied parameter, and the zero based index of the current row. |
 | ------ | ------ | ------ | ------ |
 
->caution This method must be used when[adding custom fields]({%slug asyncupload/application-scenarios/adding-information-to-uploaded-files%})to a __RadAsyncUpload__ instance.
+>caution This method must be used when[adding custom fields]({%slug asyncupload/how-to/adding-information-to-uploaded-files%})to a __RadAsyncUpload__ instance.
 >
 
 

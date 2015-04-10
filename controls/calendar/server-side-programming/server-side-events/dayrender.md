@@ -70,6 +70,6 @@ For a live example that uses the __DayRender__ event , see [DayRender Event.](ht
 
 # See Also
 
- * [Adding Controls to a Calendar Cell]({%slug calendar/application-scenarios/adding-controls-to-a-calendar-cell%})
+ * [Adding Controls to a Calendar Cell]({%slug calendar/how-to/adding-controls-to-a-calendar-cell%})
 
  * [HeaderCellRender]({%slug calendar/server-side-programming/server-side-events/headercellrender%})

@@ -45,7 +45,7 @@ __RadCloudUpload__ supports file uploading in Amazon S3. Configuration requires 
 
 
 
->caution Uploading files in Amazon S3 is performed in chunks. Default chunk size defined by Amazon is 5 MB. Because the default ASP.NET size request is 4MB, you must increase it, in order to avoid errors. This can be done by increasing the value of[MaxRequestLength]({%slug cloudupload/application-scenarios/uploading-large-files%})property. Chunks which are not uploaded will be removed automatically by __RadCloudUpload__ .
+>caution Uploading files in Amazon S3 is performed in chunks. Default chunk size defined by Amazon is 5 MB. Because the default ASP.NET size request is 4MB, you must increase it, in order to avoid errors. This can be done by increasing the value of[MaxRequestLength]({%slug cloudupload/how-to/uploading-large-files%})property. Chunks which are not uploaded will be removed automatically by __RadCloudUpload__ .
 >
 
 

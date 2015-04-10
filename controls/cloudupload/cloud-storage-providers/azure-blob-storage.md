@@ -52,7 +52,7 @@ __Install-Package WindowsAzure.Storage -Version 3.0.2__ - for Telerik.Web.UI .NE
 
 
 
->note Uploading in Azure is done on chunks. Every chunk has size of 2MB. These chunks that were canceled during the uploading are removed automatically by Azure. When older browsers are used (IE9 or below), files are uploaded at once, because chunking is not supported. In order to upload files larger than 4MB, it is needed to increase the maximum allowed file size. For more details please refer to this[article]({%slug cloudupload/application-scenarios/uploading-large-files%}).
+>note Uploading in Azure is done on chunks. Every chunk has size of 2MB. These chunks that were canceled during the uploading are removed automatically by Azure. When older browsers are used (IE9 or below), files are uploaded at once, because chunking is not supported. In order to upload files larger than 4MB, it is needed to increase the maximum allowed file size. For more details please refer to this[article]({%slug cloudupload/how-to/uploading-large-files%}).
 >
 
 

@@ -22,7 +22,7 @@ The __TelerikDocking controls__ consist of __RadDock__, __RadDockZone__, and __R
 
 * Support for adding [Commands]({%slug dock/commands/overview%}) to the __RadDock__ title bar and implementing their behavior in a variety of [events]({%slug dock/commands/events-triggered-on-command-execution%}).
 
-* Numerous ways to supply [content]({%slug dock/application-scenarios/adding-content-to-raddock%}) to the RadDock controls.
+* Numerous ways to supply [content]({%slug dock/how-to/adding-content-to-raddock%}) to the RadDock controls.
 
 * Many options for [controlling appearance]({%slug dock/appearance-and-styling/controlling-raddock's-appearance%}), including
 
@@ -40,7 +40,7 @@ The __TelerikDocking controls__ consist of __RadDock__, __RadDockZone__, and __R
 
 * [Server-side events]({%slug dock/server-side-programming/overview%}) that let you [save the layout]({%slug dock/server-side-programming/events/savedocklayout%}) of docked controls in a database or other permanent storage medium and [load it at a later time]({%slug dock/server-side-programming/events/loaddocklayout%}), [respond to commands]({%slug dock/server-side-programming/events/command%}), and [respond when the user changes the layout]({%slug dock/server-side-programming/events/-dockpositionchanged%}) of docked controls.
 
-* Support for [dynamically creating RadDock controls]({%slug dock/application-scenarios/creating-raddock-dynamically%}) that [contain custom controls]({%slug dock/application-scenarios/adding-controls-inside-dynamically-created-docks%}), so that you can build personalized portal pages.
+* Support for [dynamically creating RadDock controls]({%slug dock/how-to/creating-raddock-dynamically%}) that [contain custom controls]({%slug dock/how-to/adding-controls-inside-dynamically-created-docks%}), so that you can build personalized portal pages.
 
 * [Compliance to multiple standards]({%slug dock/accessibility-and-internationalization/standards-compliance%}).
 

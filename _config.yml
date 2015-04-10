@@ -353,8 +353,8 @@ navigation:
     "*ajax/client-side-programming/how-to":
         title: "How-To"
         position: 4
-    "*ajax/application-scenarios":
-        title: "Application Scenarios"
+    "*ajax/how-to":
+        title: "How To"
         position: 14
     "*ajax/troubleshooting":
         title: "Troubleshooting"
@@ -377,8 +377,8 @@ navigation:
     "*asyncupload/client-side-programming":
         title: "Client-Side Programming"
         position: 9
-    "*asyncupload/application-scenarios":
-        title: "Application Scenarios"
+    "*asyncupload/how-to":
+        title: "How To"
         position: 10
     "*asyncupload/troubleshooting":
         title: "Troubleshooting"
@@ -440,8 +440,8 @@ navigation:
     "*button/client-side-programming/events":
         title: "Events"
         position: 1
-    "*button/application-scenarios":
-        title: "Application Scenarios"
+    "*button/how-to":
+        title: "How To"
         position: 11
     "*button/troubleshooting":
         title: "Troubleshooting"
@@ -482,8 +482,8 @@ navigation:
     "*calendar/client-side-programming/events":
         title: "Events"
         position: 9
-    "*calendar/application-scenarios":
-        title: "Application Scenarios"
+    "*calendar/how-to":
+        title: "How To"
         position: 13
     "*captcha/changes-and-backward-compatibility":
         title: "Changes and Backward Compatibility"
@@ -572,8 +572,8 @@ navigation:
     "*clientexportmanager/client-side-programming/events":
         title: "Events"
         position: 1
-    "*clientexportmanager/application-scenarios":
-        title: "Application Scenarios"
+    "*clientexportmanager/how-to":
+        title: "How To"
         position: 6
     "*clientexportmanager/troubleshooting":
         title: "Troubleshooting"
@@ -602,8 +602,8 @@ navigation:
     "*cloudupload/client-side-programming/events":
         title: "Events"
         position: 2
-    "*cloudupload/application-scenarios":
-        title: "Application Scenarios"
+    "*cloudupload/how-to":
+        title: "How To"
         position: 9
     "*colorpicker/changes-and-backwards-compatibility":
         title: "Changes and Backwards Compatibility"
@@ -668,8 +668,8 @@ navigation:
     "*combobox/client-side-programming/objects":
         title: "Objects"
         position: 4
-    "*combobox/application-scenarios":
-        title: "Application Scenarios"
+    "*combobox/how-to":
+        title: "How To"
         position: 17
     "*combobox/troubleshooting":
         title: "Troubleshooting"
@@ -722,8 +722,8 @@ navigation:
     "*datapager/client-side-programming/events":
         title: "Events"
         position: 2
-    "*datapager/application-scenarios":
-        title: "Application Scenarios"
+    "*datapager/how-to":
+        title: "How To"
         position: 9
     "*diagram/structure":
         title: "Structure"
@@ -749,8 +749,8 @@ navigation:
     "*diagram/client-side-programming":
         title: "Client-side Programming"
         position: 9
-    "*diagram/application-scenarios":
-        title: "Application Scenarios"
+    "*diagram/how-to":
+        title: "How To"
         position: 10
     "*dock/changes-and-backward-compatibility":
         title: "Changes and Backward Compatibility"
@@ -797,8 +797,8 @@ navigation:
     "*dock/client-side-programming/events":
         title: "Events"
         position: 4
-    "*dock/application-scenarios":
-        title: "Application Scenarios"
+    "*dock/how-to":
+        title: "How To"
         position: 11
     "*dock/troubleshooting":
         title: "Troubleshooting"
@@ -872,8 +872,8 @@ navigation:
     "*dropdowntree/client-side-programming/events":
         title: "Events"
         position: 4
-    "*dropdowntree/application-scenarios":
-        title: "Application Scenarios"
+    "*dropdowntree/how-to":
+        title: "How To"
         position: 9
     "*editor/changes-and-backwards-compatibility":
         title: "Changes and Backwards Compatibility"
@@ -980,8 +980,8 @@ navigation:
     "*editor/client-side-programming/events":
         title: "Events"
         position: 15
-    "*editor/application-scenarios":
-        title: "Application Scenarios"
+    "*editor/how-to":
+        title: "How To"
         position: 11
     "*editor/performance":
         title: "Performance"
@@ -1004,8 +1004,8 @@ navigation:
     "*fileexplorer/client-side-programming":
         title: "Client-side Programming"
         position: 8
-    "*fileexplorer/application-scenarios":
-        title: "Application Scenarios"
+    "*fileexplorer/how-to":
+        title: "How To"
         position: 9
     "*fileexplorer/troubleshooting":
         title: "Troubleshooting"
@@ -1028,8 +1028,8 @@ navigation:
     "*filter/accessibility-and-internationalization":
         title: "Accessibility and Internationalization"
         position: 8
-    "*filter/application-scenarios":
-        title: "Application Scenarios"
+    "*filter/how-to":
+        title: "How To"
         position: 9
     "*formdecorator/mobile-support":
         title: "Mobile Support"
@@ -1046,8 +1046,8 @@ navigation:
     "*formdecorator/client-side-programming":
         title: "Client-side Programming"
         position: 9
-    "*formdecorator/application-scenarios":
-        title: "Application Scenarios"
+    "*formdecorator/how-to":
+        title: "How To"
         position: 10
     "*formdecorator/troubleshooting":
         title: "Troubleshooting"
@@ -1385,8 +1385,8 @@ navigation:
     "*htmlchart/client-side-programming/events":
         title: "Events"
         position: 1
-    "*htmlchart/application-scenarios":
-        title: "Application Scenarios"
+    "*htmlchart/how-to":
+        title: "How To"
         position: 11
     "*htmlchart/troubleshooting":
         title: "Troubleshooting"
@@ -1415,8 +1415,8 @@ navigation:
     "*imageeditor/client-side-programming/events":
         title: "Events"
         position: 1
-    "*imageeditor/application-scenarios":
-        title: "Application Scenarios"
+    "*imageeditor/how-to":
+        title: "How To"
         position: 8
     "*imageeditor/troubleshooting":
         title: "Troubleshooting"
@@ -1490,8 +1490,8 @@ navigation:
     "*input/client-side-programming/events":
         title: "Events"
         position: 9
-    "*input/application-scenarios":
-        title: "Application Scenarios"
+    "*input/how-to":
+        title: "How To"
         position: 15
     "*lightbox/functionality":
         title: "Functionality"
@@ -1544,8 +1544,8 @@ navigation:
     "*listbox/troubleshooting":
         title: "Troubleshooting"
         position: 14
-    "*listbox/application-scenarios":
-        title: "Application Scenarios"
+    "*listbox/how-to":
+        title: "How To"
         position: 15
     "*listview/data-binding":
         title: "Data Binding"
@@ -1616,8 +1616,8 @@ navigation:
     "*listview/client-side-programming/events":
         title: "Events"
         position: 3
-    "*listview/application-scenarios":
-        title: "Application Scenarios"
+    "*listview/how-to":
+        title: "How To"
         position: 15
     "*map/getting-started":
         title: "Getting Started"
@@ -1691,8 +1691,8 @@ navigation:
     "*menu/client-side-programming/events":
         title: "Events"
         position: 3
-    "*menu/application-scenarios":
-        title: "Application Scenarios"
+    "*menu/how-to":
+        title: "How To"
         position: 17
     "*menu/troubleshooting":
         title: "Troubleshooting"
@@ -1766,8 +1766,8 @@ navigation:
     "*odatadatasource/client-side-programming/events":
         title: "Events"
         position: 1
-    "*odatadatasource/application-scenarios":
-        title: "Application Scenarios"
+    "*odatadatasource/how-to":
+        title: "How To"
         position: 4
     "*orgchart/overview":
         title: "Overview"
@@ -1799,8 +1799,8 @@ navigation:
     "*orgchart/client-side-programming/events":
         title: "Events"
         position: 0
-    "*orgchart/application-scenarios":
-        title: "Application Scenarios"
+    "*orgchart/how-to":
+        title: "How To"
         position: 8
     "*pagelayout/creating-responsive-design":
         title: "Creating Responsive Design"
@@ -1811,8 +1811,8 @@ navigation:
     "*pagelayout/structure":
         title: "Structure"
         position: 4
-    "*pagelayout/application-scenarios":
-        title: "Application Scenarios"
+    "*pagelayout/how-to":
+        title: "How To"
         position: 5
     "*panelbar/overview":
         title: "Overview"
@@ -1847,8 +1847,8 @@ navigation:
     "*panelbar/client-side-programming":
         title: "Client-side Programming"
         position: 13
-    "*panelbar/application-scenarios":
-        title: "Application Scenarios"
+    "*panelbar/how-to":
+        title: "How To"
         position: 14
     "*panelbar/troubleshooting":
         title: "Troubleshooting"
@@ -1961,8 +1961,8 @@ navigation:
     "*rating/client-side-programming/events":
         title: "Events"
         position: 1
-    "*rating/application-scenarios":
-        title: "Application Scenarios"
+    "*rating/how-to":
+        title: "How To"
         position: 9
     "*rating/troubleshooting":
         title: "Troubleshooting"
@@ -2018,8 +2018,8 @@ navigation:
     "*rotator/client-side-programming/events":
         title: "Events"
         position: 1
-    "*rotator/application-scenarios":
-        title: "Application Scenarios"
+    "*rotator/how-to":
+        title: "How To"
         position: 11
     "*scheduler/design-time":
         title: "Design Time"
@@ -2090,8 +2090,8 @@ navigation:
     "*scheduler/customizing-the-advanced-form":
         title: "Customizing the Advanced Form"
         position: 18
-    "*scheduler/application-scenarios":
-        title: "Application Scenarios"
+    "*scheduler/how-to":
+        title: "How To"
         position: 19
     "*scheduler/troubleshootings":
         title: "Troubleshootings"
@@ -2249,8 +2249,8 @@ navigation:
     "*spell/client-side-programming/events":
         title: "Events"
         position: 2
-    "*spell/application-scenarios":
-        title: "Application Scenarios"
+    "*spell/how-to":
+        title: "How To"
         position: 9
     "*spell/troubleshooting":
         title: "Troubleshooting"
@@ -2282,8 +2282,8 @@ navigation:
     "*splitter/client-side-programming/events":
         title: "Events"
         position: 6
-    "*splitter/application-scenarios":
-        title: "Application Scenarios"
+    "*splitter/how-to":
+        title: "How To"
         position: 11
     "*splitter/troubleshooting":
         title: "Troubleshooting"
@@ -2348,8 +2348,8 @@ navigation:
     "*tabstrip/client-side-programming":
         title: "Client-side Programming"
         position: 14
-    "*tabstrip/application-scenarios":
-        title: "Application Scenarios"
+    "*tabstrip/how-to":
+        title: "How To"
         position: 15
     "*tabstrip/troubleshooting":
         title: "Troubleshooting"
@@ -2426,8 +2426,8 @@ navigation:
     "*tilelist/client-side-programming/client-side-events":
         title: "Client-side Events"
         position: 4
-    "*tilelist/application-scenarios":
-        title: "Application Scenarios"
+    "*tilelist/how-to":
+        title: "How To"
         position: 10
     "*toolbar/getting-started":
         title: "Getting Started"
@@ -2462,8 +2462,8 @@ navigation:
     "*toolbar/client-side-programming":
         title: "Client-side Programming"
         position: 15
-    "*toolbar/application-scenarios":
-        title: "Application Scenarios"
+    "*toolbar/how-to":
+        title: "How To"
         position: 16
     "*tooltip/getting-started":
         title: "Getting Started"
@@ -2687,8 +2687,8 @@ navigation:
     "*upload/client-side-programming":
         title: "Client-side Programming"
         position: 12
-    "*upload/application-scenarios":
-        title: "Application Scenarios"
+    "*upload/how-to":
+        title: "How To"
         position: 13
     "*upload/troubleshooting":
         title: "Troubleshooting"
@@ -2723,8 +2723,8 @@ navigation:
     "*window/client-side-programming/events":
         title: "Events"
         position: 3
-    "*window/application-scenarios":
-        title: "Application Scenarios"
+    "*window/how-to":
+        title: "How To"
         position: 10
     "*window/troubleshooting":
         title: "Troubleshooting"

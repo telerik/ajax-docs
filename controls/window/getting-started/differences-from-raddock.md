@@ -18,15 +18,15 @@ The Telerik __RadWindow__ component is similar to the __RadDock__ component. Bot
 
 However, there are some significant differences between __RadWindow__ and __RadDock__:
 
-* __RadWindow__ provides support for [using the window as a dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%}), including the ability to give the window a modal state, to pass parameters to the window, and to respond to results using a callback function.
+* __RadWindow__ provides support for [using the window as a dialog]({%slug window/how-to/using-radwindow-as-a-dialog%}), including the ability to give the window a modal state, to pass parameters to the window, and to respond to results using a callback function.
 
-* __RadWindow__ windows are easy to [open from another HTML element]({%slug window/getting-started/showing-and-positioning%}), and can [act as the target of a link]({%slug window/application-scenarios/using-the-target-attribute%}).
+* __RadWindow__ windows are easy to [open from another HTML element]({%slug window/getting-started/showing-and-positioning%}), and can [act as the target of a link]({%slug window/how-to/using-the-target-attribute%}).
 
 * __RadDock__windows can be docked to docking regions on the page, where they still display their content. __RadWindow__does not support this same behavior. Instead, it allows for minimization into [minimize zones]({%slug window/getting-started/minimize-zone%}).
 
 * __RadWindow__ supports an __OnClientPageLoad__ event when the content in the window loads. Because __RadDock__ does not load external content, it has no analogous event.
 
-* __RadWindow__ lets you [open windows from other windows]({%slug window/application-scenarios/opening-a-radwindow-from-within-a-radwindow%}) and [access functions defined in various windows]({%slug window/application-scenarios/calling-functions-in-windows%}).
+* __RadWindow__ lets you [open windows from other windows]({%slug window/how-to/opening-a-radwindow-from-within-a-radwindow%}) and [access functions defined in various windows]({%slug window/how-to/calling-functions-in-windows%}).
 
 # See Also
 

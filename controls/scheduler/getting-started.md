@@ -154,7 +154,7 @@ Custom resources let you associate additional information with your appointments
 
 
 
-Custom resources are represented by a combobox in the Advanced Form. You can change the control that wraps resources by customizing the Advanced Form described in: [this help topic.]({%slug scheduler/application-scenarios/customize-the-advanced-form-template%})
+Custom resources are represented by a combobox in the Advanced Form. You can change the control that wraps resources by customizing the Advanced Form described in: [this help topic.]({%slug scheduler/how-to/customize-the-advanced-form-template%})
 
 ![Rad Scheduler Edit Appointment](images/scheduler_editappointmentgettingst1.png)
 

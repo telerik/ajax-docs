@@ -38,7 +38,7 @@ __RadProgressManager__ enables the following features:
 
 __RadUpload__ is a single- and multi-file upload control that provides the following features:
 
-* [Automatic file saving]({%slug upload/application-scenarios/auto-saving-to-a-target-folder%}) - __RadUpload__ can automatically save its uploaded files to a selected folder.
+* [Automatic file saving]({%slug upload/how-to/auto-saving-to-a-target-folder%}) - __RadUpload__ can automatically save its uploaded files to a selected folder.
 
 * [Integrated validation]({%slug upload/validation/integrated-validation%}) - __RadUpload__ can automatically validate uploaded files for file extension, MIME type, and file size.
 
@@ -46,9 +46,9 @@ __RadUpload__ is a single- and multi-file upload control that provides the follo
 
 * [Server-side API for manipulating files](FC66018F-9560-4F29-A685-C6DC5D9BF5C9) - in more complex scenarios you can save the uploaded files with server-side code and still benefit from the integrated file validation.
 
-* [Custom Fields]({%slug upload/application-scenarios/adding-information-to-uploaded-files%}) - __RadUpload__lets you add custom fields to each file input. Using this functionality you can add fields like Title, Description, etc. to each file it uploads.
+* [Custom Fields]({%slug upload/how-to/adding-information-to-uploaded-files%}) - __RadUpload__lets you add custom fields to each file input. Using this functionality you can add fields like Title, Description, etc. to each file it uploads.
 
-* [Configurable User Interface]({%slug upload/application-scenarios/configure-the-ui-of-radupload%}) - you can fully customize the controls that are integrated into __RadUpload__.
+* [Configurable User Interface]({%slug upload/how-to/configure-the-ui-of-radupload%}) - you can fully customize the controls that are integrated into __RadUpload__.
 
 * [Skins]({%slug upload/appearance-and-styling/skins%}) provide an easy way to make the look-and-feel harmonize with the rest of your Web site.
 

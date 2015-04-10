@@ -119,7 +119,7 @@ This article contains the following sections:
 | __addShortcut__ |Adds the specified shortcut string to the given command. Takes two string parameters: the command and its shortcut.|
 | __autoSize__ |Changes __RadWindow's__ size to fit the content page. You cannot use the __autoSize__ method with pages from other domains due to browsers' security restrictions.	You can optionally call the __autoSize__ method with an argument set to __true__ . This will make the autosizing perform an animation while adjusting the size.|
 | __center__ |Centers the __RadWindow__ in the middle of the page (or its restriction zone if set).|
-| __close__ |Closes the __RadWindow__ . Must be called from a __RadWindow__ object, not from the window object when in a content page.	You can pass an argument to it that is easily obtained from the main page. See[this article]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})for details.|
+| __close__ |Closes the __RadWindow__ . Must be called from a __RadWindow__ object, not from the window object when in a content page.	You can pass an argument to it that is easily obtained from the main page. See[this article]({%slug window/how-to/using-radwindow-as-a-dialog%})for details.|
 | __getShortcutString__ |Returns the last shortcut for the command that is passed as an argument (string).|
 | __getWindowBounds__ |Returns the size and position of the __RadWindow__ . For example:var bounds = oWnd.getWindowBounds();bounds.x; //returns the current left position of the RadWindowbounds.y; //returns the current top position of the RadWindowbounds.height; //returns the current height of the RadWindowbounds.width; //returns the current width of the RadWindow|
 | __hide__ |Makes the __RadWindow__ invisible.|
@@ -241,6 +241,6 @@ You can read more on the subject in the [Setting Client Event Handlers by Using 
 
  * [RadWindowManager Object]({%slug window/client-side-programming/radwindowmanager-object%})
 
- * [Using RadWindow as a Dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})
+ * [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%})
 
  * [Overview]({%slug window/client-side-programming/events/overview%})

@@ -97,6 +97,6 @@ Typically, a __SaveDockLayout__ event handler uses the __RadDockLayout__ control
 
  * [LoadDockLayout]({%slug dock/server-side-programming/events/loaddocklayout%})
 
- * [Creating RadDock Dynamically]({%slug dock/application-scenarios/creating-raddock-dynamically%})
+ * [Creating RadDock Dynamically]({%slug dock/how-to/creating-raddock-dynamically%})
 
- * [Adding Controls Inside Dynamically Created Docks]({%slug dock/application-scenarios/adding-controls-inside-dynamically-created-docks%})
+ * [Adding Controls Inside Dynamically Created Docks]({%slug dock/how-to/adding-controls-inside-dynamically-created-docks%})

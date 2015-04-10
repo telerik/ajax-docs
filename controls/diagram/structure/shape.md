@@ -49,7 +49,7 @@ __Example 1__: How to use images to create shapes in RadDiagram:
 
 ### Path
 
-The path option of a shape is a description of a custom geometrical figure. The format follows the standard SVG format. For more information, see the	[SVG Path data article](http://www.w3.org/TR/SVG/paths.html#PathData) and the [Custom shapes and connectors article]({%slug diagram/application-scenarios/custom-shapes-and-connectors%}).
+The path option of a shape is a description of a custom geometrical figure. The format follows the standard SVG format. For more information, see the	[SVG Path data article](http://www.w3.org/TR/SVG/paths.html#PathData) and the [Custom shapes and connectors article]({%slug diagram/how-to/custom-shapes-and-connectors%}).
 
 ### X and Y
 
@@ -155,4 +155,4 @@ __Example 2__: How to use the Shape properties to configure their appearance:
 
  * [RadDiagram Server-Side Programming]({%slug diagram/server-side-programming%})
 
- * [Custom Shapes and Connectors]({%slug diagram/application-scenarios/custom-shapes-and-connectors%})
+ * [Custom Shapes and Connectors]({%slug diagram/how-to/custom-shapes-and-connectors%})

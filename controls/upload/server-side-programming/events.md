@@ -20,7 +20,7 @@ position: 0
 
 The __RadUpload__ control exposes the following two server-side events:
 
-* [FileExists]({%slug upload/server-side-programming/fileexists%}) occurs when the __RadUpload__ control is [ saving its files to a target folder ]({%slug upload/application-scenarios/auto-saving-to-a-target-folder%}) and a file cannot be saved because the __OverwriteExistingFiles__ property is __False__ and the target folder already has a file with the same name.
+* [FileExists]({%slug upload/server-side-programming/fileexists%}) occurs when the __RadUpload__ control is [ saving its files to a target folder ]({%slug upload/how-to/auto-saving-to-a-target-folder%}) and a file cannot be saved because the __OverwriteExistingFiles__ property is __False__ and the target folder already has a file with the same name.
 
 * [ValidatingFile]({%slug upload/server-side-programming/validatingfile%}) occurs before the __RadUpload__ control checks an uploaded file using its [integrated file validation]({%slug upload/validation/integrated-validation%}).
 

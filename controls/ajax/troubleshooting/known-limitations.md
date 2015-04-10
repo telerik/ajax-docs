@@ -67,7 +67,7 @@ You can work around this limitation by adding a control to be updated. For examp
 
 1. __Client-Side events OnRequestSent and OnResponseReceived missing__Telerik removed these events in __RadAjax for ASP.NET AJAX__. There is no way to "simulate" them due to the way ASP.NET AJAX works.Please use [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) and [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) for your needs.
 
-1. __Various controls not supported by the Microsoft AJAX framework__You can find a full list of controls that are not compatible with __RadAjax for ASP.NET AJAX__[here]({%slug ajax/application-scenarios/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
+1. __Various controls not supported by the Microsoft AJAX framework__You can find a full list of controls that are not compatible with __RadAjax for ASP.NET AJAX__[here]({%slug ajax/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%}).
 
 1. __AJAX requests may not work in all scenarios when setting the RestoreOriginalRenderDelegate property to false or inheriting from RadAjaxPage (to support Medium trust in DNN/SharePoint)__ Please be aware of this fact when configuring __RadAjaxManager__ or __RadAjaxPanel__ for your particular project schema.
 
@@ -79,4 +79,4 @@ You can work around this limitation by adding a control to be updated. For examp
 
  * [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%})
 
- * [Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax]({%slug ajax/application-scenarios/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%})
+ * [Incompatible Controls and Updating 3rd Party Controls with Telerik RadAjax]({%slug ajax/how-to/incompatible-controls-and-updating-3rd-party-controls-with-telerik-radajax%})

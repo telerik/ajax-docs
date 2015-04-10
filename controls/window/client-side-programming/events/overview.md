@@ -44,7 +44,7 @@ The __RadWindow__ control offers many client-side events that you can use togeth
 
 * __[OnClientShow]({%slug window/client-side-programming/events/onclientshow%})__—called after the window is shown.
 
->note The Client-side events are raised in the page where the RadWindow's markup resides, regardless of the window object that initiated its opening. If you are[opening a RadWindow from within a RadWindow]({%slug window/application-scenarios/opening-a-radwindow-from-within-a-radwindow%})the second one's events can be directly consumedin the parent page, not in the first dialog. Therefore, event handlers should not be added dynamically in the context of the first dialog.
+>note The Client-side events are raised in the page where the RadWindow's markup resides, regardless of the window object that initiated its opening. If you are[opening a RadWindow from within a RadWindow]({%slug window/how-to/opening-a-radwindow-from-within-a-radwindow%})the second one's events can be directly consumedin the parent page, not in the first dialog. Therefore, event handlers should not be added dynamically in the context of the first dialog.
 >
 
 

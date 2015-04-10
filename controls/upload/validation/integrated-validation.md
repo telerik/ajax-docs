@@ -68,7 +68,7 @@ The __AllowedFileExtensions__ property lists the valid file extensions for uploa
 
 __AllowedMimeTypes__
 
-The __AllowedMimeTypes__ property lists the valid [MIME types]({%slug upload/application-scenarios/mime-types%}) for uploaded files. When the __AllowedMimeTypes__ property is set, __RadUpload__ automatically validates the MIME types of selected files, moving any files with disallowed extensions to the __InvalidFiles__ collection.
+The __AllowedMimeTypes__ property lists the valid [MIME types]({%slug upload/how-to/mime-types%}) for uploaded files. When the __AllowedMimeTypes__ property is set, __RadUpload__ automatically validates the MIME types of selected files, moving any files with disallowed extensions to the __InvalidFiles__ collection.
 
 >caution There are several file extensions that have multiple MIME types associated with them. Different browsers send different MIME types for the same file. For these types of files, you need to set all associated MIME types for the file extension you want to allow.
 >
@@ -80,7 +80,7 @@ You can set multiple mime-types the same way as setting multiple file extensions
 
 Valid files can be accessed using the __UploadedFiles__ property. Files that fail validation can be accessed using the __InvalidFiles__ property.
 
-After the validation, if you have [ specified a target folder ]({%slug upload/application-scenarios/auto-saving-to-a-target-folder%}), the valid files are automatically saved to the target folder.
+After the validation, if you have [ specified a target folder ]({%slug upload/how-to/auto-saving-to-a-target-folder%}), the valid files are automatically saved to the target folder.
 
 The following example shows a __RadUpload__ control configured to receive only ZIP files with size less than 1000000 bytes. It is configured to allow all mime-types associated with the .zip file extension. Valid files are automatically saved to the "~/My files" folder.
 

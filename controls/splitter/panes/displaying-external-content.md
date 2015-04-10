@@ -66,4 +66,4 @@ The following example shows how to display external URL in a __RadPane__ control
 
  * [Printing Content]({%slug splitter/panes/printing-content%})
 
- * [Referencing the External Content of a Pane]({%slug splitter/application-scenarios/referencing-the-external-content-of-a-pane%})
+ * [Referencing the External Content of a Pane]({%slug splitter/how-to/referencing-the-external-content-of-a-pane%})

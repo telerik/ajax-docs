@@ -28,7 +28,7 @@ When dynamically creating __RadDock__ controls it is important to observe the ev
 
 # See Also
 
- * [Creating RadDock Dynamically]({%slug dock/application-scenarios/creating-raddock-dynamically%})
+ * [Creating RadDock Dynamically]({%slug dock/how-to/creating-raddock-dynamically%})
 
  * [SaveDockLayout]({%slug dock/server-side-programming/events/savedocklayout%})
 

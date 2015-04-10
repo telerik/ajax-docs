@@ -66,7 +66,7 @@ The __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__ controls off
 
 * A [configurable time view]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view%}) control for selecting time values.
 
-* Support for [ASP.NET validation controls]({%slug calendar/application-scenarios/web-pages-validation%}).
+* Support for [ASP.NET validation controls]({%slug calendar/how-to/web-pages-validation%}).
 
 * [Keyboard support]({%slug calendar/accessibility-and-internationalization/keyboard-support%}).
 

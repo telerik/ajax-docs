@@ -39,7 +39,7 @@ To read more about the CSS rules that achieve the different layouts, examine the
 
 >important  __RadTileList__ is designed to be a high-level element on the page (i.e., not nested deeply in the control hierarchy),because it reacts to the viewport size. Thus, placing it in an element with dimensions smaller than the viewportmay result in incorrect appearance or missing scrollbars.
 >Changing the tiles order in the standard layout (i.e., the number of columns) requires a call to the __.repaint()__ [client-side method]({%slug tilelist/client-side-programming/tilelist-object%})of the __RadTileList__ .This is an expensive operation and it should not be invoked arbitrarily. Therefore, __heights in percent are not supported__ .
->To see how to integrate the __RadTileList__ in a nested or initially hidden element or how to support dynamic height,examine the[RadTileList responsive layout and dynamic height]({%slug tilelist/application-scenarios/responsive-layout-and-dynamic-height%})help article.
+>To see how to integrate the __RadTileList__ in a nested or initially hidden element or how to support dynamic height,examine the[RadTileList responsive layout and dynamic height]({%slug tilelist/how-to/responsive-layout-and-dynamic-height%})help article.
 >
 
 
@@ -179,7 +179,7 @@ You can find the actual images by downloading the Telerik UI for ASP.NET AJAX Li
 
  * [CSS for Responsive Layout]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%})
 
- * [RadTileList Responsive Layout and Dynamic Height]({%slug tilelist/application-scenarios/responsive-layout-and-dynamic-height%})
+ * [RadTileList Responsive Layout and Dynamic Height]({%slug tilelist/how-to/responsive-layout-and-dynamic-height%})
 
  * [RadTileList Responsive Layout: Live Demo](http://demos.telerik.com/responsive-web-design-aspnet/samples/responsive/tilelist.aspx)
 

@@ -54,4 +54,4 @@ The [Conditional Item Colorization Demo](http://demos.telerik.com/aspnet-ajax/ht
 
  * [RadHtmlChart Column Series]({%slug htmlchart/chart-types/column-chart%})
 
- * [RadHtmlChart Using Multiple Custom Colors to Create Charts]({%slug htmlchart/application-scenarios/using-multiple-custom-colors-to-create-charts%})
+ * [RadHtmlChart Using Multiple Custom Colors to Create Charts]({%slug htmlchart/how-to/using-multiple-custom-colors-to-create-charts%})

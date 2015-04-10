@@ -30,7 +30,7 @@ position: 0
 | __Behavior__ |Obsolete. Use __Behaviors__ instead.|
 | __Behaviors__ |Gets or sets a value indicating the allowed behaviors of this RadWindow/RadWindowManager - if resizing, maximizing, minimizing, etc. is available. Each behavior is added to a comma separated list in the markup and with a logical OR statement in the code-behind. The property takes a combination of members of the the Telerik.Web.UI.WindowBehaviors enumerator.|
 | __CenterIfModal__ |Specifies whether a modal RadWindow is centered automatically or not. True by default. If set to false the Top and Left properties can take effect even for a modal RadWindow.|
-| __ClientCallBackFunction__ |This property is obsolete. Please use OnClientClose instead. For more information visit the[Using RadWindow as a Dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})topic. (Inherited from RadWindowBase)Gets or sets the client callback function that will be called when a window dialog is being closed.|
+| __ClientCallBackFunction__ |This property is obsolete. Please use OnClientClose instead. For more information visit the[Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%})topic. (Inherited from RadWindowBase)Gets or sets the client callback function that will be called when a window dialog is being closed.|
 | __ClientID__ |(Inherited from System.Web.UI.Control)|
 | __Controls__ |(Inherited from System.Web.UI.Control)|
 | __ControlStyle__ |(Inherited from System.Web.UI.WebControls.WebControl)|
@@ -186,4 +186,4 @@ position: 0
 
  * [Examples]({%slug window/server-side-programming/examples%})
 
- * [Using RadWindow as a Dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})
+ * [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%})

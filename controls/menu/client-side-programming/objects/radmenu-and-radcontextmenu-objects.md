@@ -131,7 +131,7 @@ Both the __RadMenu__ and the __RadContextMenu__ client-side objects have many of
 | __get_selectedItem__ |none|RadMenuItem|Returns the selected menu item. If no item is selected returns null.|
 | __get_attributes__ |none|Collection|Returns the collection of custom attributes for the menu.|
 | __get_clicked__ |none|Boolean|True if the user has clicked on a root menu item to expand it when ClickToOpen is True.|
-| __set_clicked__ |Boolean|none|Sets whether the user has clicked on a root menu item to expand it when ClickToOpen is True. See example[here]({%slug menu/application-scenarios/expand-root-menuitem-on-click-only%}).|
+| __set_clicked__ |Boolean|none|Sets whether the user has clicked on a root menu item to expand it when ClickToOpen is True. See example[here]({%slug menu/how-to/expand-root-menuitem-on-click-only%}).|
 | __get_contextMenuElement__ |none|HTML Element|Gets the DOM element for the menu.|
 
 ````JavaScript

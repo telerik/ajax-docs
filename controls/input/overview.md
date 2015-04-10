@@ -34,7 +34,7 @@ The common features of the __RadInput__ controls include
 
 * [Empty message]({%slug input/appearance-and-styling/displaying-empty-values%}) support.
 
-* Client/Server side [data validation]({%slug input/application-scenarios/validation%}).
+* Client/Server side [data validation]({%slug input/how-to/validation%}).
 
 * Caret positioning and text selection when the control [receives focus]({%slug input/getting-started/receiving-focus%}).
 

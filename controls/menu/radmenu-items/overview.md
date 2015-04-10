@@ -64,6 +64,6 @@ There are numerous ways to populate a menu with items. These include
 
  * [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%})
 
- * [Showing the Path to an Item]({%slug menu/application-scenarios/showing-the-path-to-an-item%})
+ * [Showing the Path to an Item]({%slug menu/how-to/showing-the-path-to-an-item%})
 
  * [Structure]({%slug menu/structure%})

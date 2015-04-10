@@ -77,4 +77,4 @@ __Example1:__ The example shows how to configure the __RadClientExportManager__ 
 
 # See Also
 
- * [Save exported files on the server]({%slug clientexportmanager/application-scenarios/save-exported-files%})
+ * [Save exported files on the server]({%slug clientexportmanager/how-to/save-exported-files%})

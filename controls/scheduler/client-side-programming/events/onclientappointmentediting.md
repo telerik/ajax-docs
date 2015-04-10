@@ -51,4 +51,4 @@ This example prevents the user from editing an appointment's series:
 
 # See Also
 
- * [Replace the Edit Form]({%slug scheduler/application-scenarios/replace-the-edit-form%})
+ * [Replace the Edit Form]({%slug scheduler/how-to/replace-the-edit-form%})

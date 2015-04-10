@@ -36,7 +36,7 @@ The event handler receives two parameters:
 
 * __get_fileInputField__ returns the input element of the row (<INPUT> element)
 
-Use the __OnClientAdded__ event to perform any last minute changes to the rows in the __RadUpload__ control. This is the point at which you should add controls for [custom fields]({%slug upload/application-scenarios/adding-information-to-uploaded-files%}).
+Use the __OnClientAdded__ event to perform any last minute changes to the rows in the __RadUpload__ control. This is the point at which you should add controls for [custom fields]({%slug upload/how-to/adding-information-to-uploaded-files%}).
 
 The following example shows how to use the __OnClientAdded__ event to add child controls in a different order than the one that arises from using the __ControlObjectsVisibility__ property:
 

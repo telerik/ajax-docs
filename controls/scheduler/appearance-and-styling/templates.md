@@ -14,7 +14,7 @@ position: 3
 
 __RadScheduler__ lets you change the appearance of appointments and of the in-line editor using templates. The __RadScheduler__ templates are powerfulenough to accommodate any content you want to embed, including HTML markup, ASP.NET server controls, and other third-party controls.
 
->caution When the advanced form is __modal__ (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly- __rsAdvancedEdit__ . When using the advanced templates, you need to make sure that you wrap your content within a container which has this class.You can find an example[here]({%slug scheduler/application-scenarios/use-custom-modal-advanced-template%}).
+>caution When the advanced form is __modal__ (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly- __rsAdvancedEdit__ . When using the advanced templates, you need to make sure that you wrap your content within a container which has this class.You can find an example[here]({%slug scheduler/how-to/use-custom-modal-advanced-template%}).
 >
 
 
@@ -446,4 +446,4 @@ In addition you can find a full sample project for "Custom Edit Templates" by ad
 
  * [FormCreated]({%slug scheduler/server-side-programming/server-events/formcreated%})
 
- * [Replace the Edit Form]({%slug scheduler/application-scenarios/replace-the-edit-form%})
+ * [Replace the Edit Form]({%slug scheduler/how-to/replace-the-edit-form%})

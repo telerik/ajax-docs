@@ -54,7 +54,7 @@ With the new version, the controls in the RadWindow's ContentTemplate are availa
 
 * Show the __RadWindow__ through registering a script from the server instead.
 
-* The __ClientCallBackFunction__ property is removed and not used anymore. The arguments can be received in the OnClientClose function like shown in the [Using RadWindow as a Dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%}) article.
+* The __ClientCallBackFunction__ property is removed and not used anymore. The arguments can be received in the OnClientClose function like shown in the [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%}) article.
 
 ## Telerik RadWindow for ASP.NET AJAX Q2 2009
 
@@ -187,4 +187,4 @@ __RadWindow for ASP.NET AJAX__ control has changed slightly, because of moving t
 
  * [Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX]({%slug window/changes-and-backward-compatibility/migration-from-radwindow-for-asp.net-(classic)-to-radwindow-for-asp.net-ajax%})
 
- * [Using RadWindow as a Dialog]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})
+ * [Using RadWindow as a Dialog]({%slug window/how-to/using-radwindow-as-a-dialog%})

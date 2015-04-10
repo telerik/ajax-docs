@@ -48,4 +48,4 @@ The __RadCalendar__ controls provide support for Access Keys and navigation usin
 
 # See Also
 
- * [Removing RadCalendar from the Tab Sequence]({%slug calendar/application-scenarios/removing-radcalendar-from-the-tab-sequence%})
+ * [Removing RadCalendar from the Tab Sequence]({%slug calendar/how-to/removing-radcalendar-from-the-tab-sequence%})

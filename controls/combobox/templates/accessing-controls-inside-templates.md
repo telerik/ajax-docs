@@ -74,4 +74,4 @@ Here are the available options to find the RadTreeView object in RadComboBox, on
 
 # See Also
 
- * [Finding Embedded RadComboBox on the Client]({%slug combobox/application-scenarios/finding-embedded-radcombobox-on-the-client%})
+ * [Finding Embedded RadComboBox on the Client]({%slug combobox/how-to/finding-embedded-radcombobox-on-the-client%})

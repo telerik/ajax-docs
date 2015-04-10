@@ -32,7 +32,7 @@ __RadScheduler__ is highly configurable, letting you customize the user interfac
 
 * Use [templates]({%slug scheduler/appearance-and-styling/templates%}) to customize the appearance of appointments in the scheduler, or the look and behavior of the editors.
 
-* [Replace the edit form]({%slug scheduler/application-scenarios/replace-the-edit-form%}) so that it matches the look and feel of your Web site.
+* [Replace the edit form]({%slug scheduler/how-to/replace-the-edit-form%}) so that it matches the look and feel of your Web site.
 
 * [Customize the user interface]({%slug scheduler/appearance-and-styling/controlling-appearance%}) to show only those controls you want.
 

@@ -193,4 +193,4 @@ And the composite control class:
 
 # See Also
 
- * [Manually Add an AJAX Request]({%slug ajax/application-scenarios/manually-add-an-ajax-request%})
+ * [Manually Add an AJAX Request]({%slug ajax/how-to/manually-add-an-ajax-request%})

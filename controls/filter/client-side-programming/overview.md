@@ -54,7 +54,7 @@ To get reference of the RadFilter client-side object, you can use one of the fol
 
 ## Properties and events
 
-The RadFilter provides the *.get_contextMenu()* property with which the RadContextMenu used for displaying the fields of the field editors and the filter functions is accessed. You can find more information on it in the [Customizing the Menu]({%slug filter/application-scenarios/customizing-the-menu%}) and [Enable Scrolling for ContextMenu in RadFilter]({%slug filter/application-scenarios/enable-scrolling-for-contextmenu-in-radfilter%}) help topics.
+The RadFilter provides the *.get_contextMenu()* property with which the RadContextMenu used for displaying the fields of the field editors and the filter functions is accessed. You can find more information on it in the [Customizing the Menu]({%slug filter/how-to/customizing-the-menu%}) and [Enable Scrolling for ContextMenu in RadFilter]({%slug filter/how-to/enable-scrolling-for-contextmenu-in-radfilter%}) help topics.
 
 The following table lists the events you should be aware of when working with the RadFilter control:
 

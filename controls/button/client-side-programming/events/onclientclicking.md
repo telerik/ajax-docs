@@ -62,6 +62,6 @@ This event comes handy in scenarios when the user wants to cancel the page submi
 ````
 
 
->note Since Q2 2012 the event __OnClientClicking__ is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article[RadButton Validation And Client-side Event Handlers]({%slug button/application-scenarios/radbutton-validation-and-client-side-event-handlers%}).
+>note Since Q2 2012 the event __OnClientClicking__ is raised after the ASP.NET client-side validation on the page takes place. This will handle the problem described in the help article[RadButton Validation And Client-side Event Handlers]({%slug button/how-to/radbutton-validation-and-client-side-event-handlers%}).
 >
 

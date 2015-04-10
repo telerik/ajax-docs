@@ -35,7 +35,7 @@ Some important properties of the __RadDock__ controls in the __Docks__ collectio
 
 * __DefaultCommands__ or __Commands__ lets you add [commands]({%slug dock/commands/overview%}) to the __RadDock__ title bar.
 
-* __Text__ lets you assign simple text to the __RadDock__ control's [content area]({%slug dock/application-scenarios/adding-content-to-raddock%}).
+* __Text__ lets you assign simple text to the __RadDock__ control's [content area]({%slug dock/how-to/adding-content-to-raddock%}).
 
 * __CloseText__, __CollapseText__, __ExpandText__, __PinText__, and__UnpinText__ let you [customize the tooltips for built-in commands]({%slug dock/commands/specifying-command-tooltips%}).
 
@@ -47,6 +47,6 @@ Some important properties of the __RadDock__ controls in the __Docks__ collectio
 
 # See Also
 
- * [Creating RadDock Dynamically]({%slug dock/application-scenarios/creating-raddock-dynamically%})
+ * [Creating RadDock Dynamically]({%slug dock/how-to/creating-raddock-dynamically%})
 
- * [Adding Controls Inside Dynamically Created Docks]({%slug dock/application-scenarios/adding-controls-inside-dynamically-created-docks%})
+ * [Adding Controls Inside Dynamically Created Docks]({%slug dock/how-to/adding-controls-inside-dynamically-created-docks%})

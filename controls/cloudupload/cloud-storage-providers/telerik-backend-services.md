@@ -43,7 +43,7 @@ In order to be able to use the Telerik Backend Services Cloud Storage Provider, 
 
 
 
->note Telerik Backend Services doesn't support uploading in chunks - files are uploaded at once. In case you want to upload files, larger than 4MB refer to this[article]({%slug cloudupload/application-scenarios/uploading-large-files%}).
+>note Telerik Backend Services doesn't support uploading in chunks - files are uploaded at once. In case you want to upload files, larger than 4MB refer to this[article]({%slug cloudupload/how-to/uploading-large-files%}).
 >
 
 

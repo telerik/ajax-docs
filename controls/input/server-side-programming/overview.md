@@ -32,7 +32,7 @@ While the four RadInput controls (__RadTextBox__, __RadMaskedTextBox__, __RadDat
 
 * The __Skin__ property lets you specify a [skin]({%slug input/appearance-and-styling/skins%}) to set the look and feel of the input control.
 
-* The __AutoPostBack__, __ValidationGroup__ and __CausesValidation__ properties let you cause a postback that [triggers validation]({%slug input/application-scenarios/validation%}), validating the values of other controls on the Web page.
+* The __AutoPostBack__, __ValidationGroup__ and __CausesValidation__ properties let you cause a postback that [triggers validation]({%slug input/how-to/validation%}), validating the values of other controls on the Web page.
 
 * The __InvalidStyleDuration__ property is used to determine how long (in milliseconds) the control will display its invalid style when incorrect data is entered. Must be a positive integer.
 

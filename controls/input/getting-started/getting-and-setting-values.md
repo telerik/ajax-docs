@@ -217,4 +217,4 @@ The following code examples show how to read the value of one __RadMaskedTextBox
 
 # See Also
 
- * [Using Input Controls Inside Data-Bound Controls]({%slug input/application-scenarios/using-input-controls-inside-data-bound-controls%})
+ * [Using Input Controls Inside Data-Bound Controls]({%slug input/how-to/using-input-controls-inside-data-bound-controls%})

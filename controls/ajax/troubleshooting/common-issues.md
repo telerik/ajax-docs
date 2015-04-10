@@ -140,7 +140,7 @@ For example, if a __RadGrid__ control is shown after a partial postback from a b
 
 * Always recreate the last loaded user control on __Page_Init/Page_Load__.
 
-* Assign unique IDs to the loaded controls.If the page goes blank, check if the control is always recreated. For more information about how to load user controls dynamically,please refer to [this]({%slug ajax/application-scenarios/load-user-controls%}) topic.
+* Assign unique IDs to the loaded controls.If the page goes blank, check if the control is always recreated. For more information about how to load user controls dynamically,please refer to [this]({%slug ajax/how-to/load-user-controls%}) topic.
 
 1. Problem: After postback/AJAX request, my control does not keep its last state.Solution: This can happen if you are loading user controls and you do not assign unique IDs to them.In this case, the framework will generate an automatic ID which can be different than the original ID and therefore the ViewState is being lost.This is the cause for losing the last state of the control.
 
@@ -158,6 +158,6 @@ For example, if a __RadGrid__ control is shown after a partial postback from a b
 
  * [RadCodeBlock and RadScriptBlock]({%slug ajax/radcodeblock-and-radscriptblock%})
 
- * [Load User Controls]({%slug ajax/application-scenarios/load-user-controls%})
+ * [Load User Controls]({%slug ajax/how-to/load-user-controls%})
 
  * [Skins]({%slug ajax/appearance-and-styling/skins%})

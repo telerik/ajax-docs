@@ -28,7 +28,7 @@ Telerik RadWindow lets you build customized dialog boxes and modal or non-modal 
 
 * __RadWindow supports a cross-browser look and feel on modal dialogs.__ Creating cross-browser modal dialogs has always been a challenging task for developers, but RadWindow has built-in cross-browser support so you can do this simply by just setting the __Modal__ property on your windows.
 
-* __RadWindow supports passing arguments__ to your windows and lets you easily return those arguments. You can [use the argument attribute]({%slug window/application-scenarios/using-radwindow-as-a-dialog%}), or [pass parameters as part of a URL]({%slug window/application-scenarios/use-querystring-to-provide-arguments-to-radwindow%}).
+* __RadWindow supports passing arguments__ to your windows and lets you easily return those arguments. You can [use the argument attribute]({%slug window/how-to/using-radwindow-as-a-dialog%}), or [pass parameters as part of a URL]({%slug window/how-to/use-querystring-to-provide-arguments-to-radwindow%}).
 
 * __RadWindow objects can be minimized into minimize zones__.____By using [minimize zones]({%slug window/getting-started/minimize-zone%}) you can create a taskbar effect in your applications.
 

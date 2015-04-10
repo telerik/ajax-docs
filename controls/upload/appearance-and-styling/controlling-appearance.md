@@ -22,7 +22,7 @@ In addition to the skin, both controls are extremely configurable, letting you s
 
 ## RadUpload
 
-* Use the __ControlObjectsVisibility__ property to [configure RadUpload]({%slug upload/application-scenarios/configure-the-ui-of-radupload%}) to contain only those controls you want.
+* Use the __ControlObjectsVisibility__ property to [configure RadUpload]({%slug upload/how-to/configure-the-ui-of-radupload%}) to contain only those controls you want.
 
 * To affect [the appearance of the file input area]({%slug upload/appearance-and-styling/file-input-appearance%}), you can use the __EnableFileInputSkinning__ property.
 

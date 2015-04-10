@@ -119,7 +119,7 @@ The __RadMenuItem__ object is returned by the __getItem__ method of the __[RadMe
 |  __open__  | none | none | Expands the item and reveals its children, if any. |
 | ------ | ------ | ------ | ------ |
 | __close__ |none|none|Collapses the item, if it is expanded.|
-| __click__ |none|none|Performs a click on the menu item. It can cause postback, but it will not redirect to another page. See[this example]({%slug menu/application-scenarios/use-radconfirm-to-confirm-menuitem-click%}).|
+| __click__ |none|none|Performs a click on the menu item. It can cause postback, but it will not redirect to another page. See[this example]({%slug menu/how-to/use-radconfirm-to-confirm-menuitem-click%}).|
 | __get_visible__ |none|boolean|Returns __true__ if the items is visible or __false__ if the item is invisible.|
 | __set_visible__ |boolean|none|Sets the visibility of the item|
 | __show__ |none|none|Shows the item if it was set invisible on the client. The same as __set_visible(true)__ |

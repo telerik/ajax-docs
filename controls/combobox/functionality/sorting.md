@@ -12,7 +12,7 @@ position: 1
 
 
 
-As of Q2 2008, __RadComboBox__ introduces a new feature - __sorting__. The sorting is performed against items' __Text__, but you can [implement your own custom sorting]({%slug combobox/application-scenarios/implement-custom-sorting%}) as well.
+As of Q2 2008, __RadComboBox__ introduces a new feature - __sorting__. The sorting is performed against items' __Text__, but you can [implement your own custom sorting]({%slug combobox/how-to/implement-custom-sorting%}) as well.
 
 ## Enable items sorting
 
@@ -51,7 +51,7 @@ To enable sorting you need to:
 
 * RadComboBox1.Items.Sort()
 
->note  __SortItems__ and __Items.Sort__ methods have overload methods that accept one parameter of type __IComparer__ . These overload methods are used if you want to[implement your custom sorting]({%slug combobox/application-scenarios/implement-custom-sorting%}).
+>note  __SortItems__ and __Items.Sort__ methods have overload methods that accept one parameter of type __IComparer__ . These overload methods are used if you want to[implement your custom sorting]({%slug combobox/how-to/implement-custom-sorting%}).
 >
 
 
@@ -93,4 +93,4 @@ If you want to sort the items of a combobox bound to a __declarative datasource_
 
 # See Also
 
- * [Implement Custom Sorting]({%slug combobox/application-scenarios/implement-custom-sorting%})
+ * [Implement Custom Sorting]({%slug combobox/how-to/implement-custom-sorting%})

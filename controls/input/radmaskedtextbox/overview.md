@@ -14,7 +14,7 @@ position: 0
 
 __RadMaskedTextBox__ is an enhanced data entry control that uses a [mask]({%slug input/radmaskedtextbox/masks%}) to distinguish between proper and improper user input. It shares the [common properties of all RadInput controls]({%slug input/server-side-programming/overview%}), including support for skins, styles for different states, empty message support, conditional postback on text change, flexible caret and button positioning, labels, and so on.
 
-You can use a mask to specify the accepted format such as IP address, telephone number, currency, and so on. In addition, you can use __RadMaskedTextBox__ together with [validators]({%slug input/application-scenarios/validation%}) such as the __RequiredValidator__ and __RegularExpressionValidator__ controls to enforce any custom validation logic.
+You can use a mask to specify the accepted format such as IP address, telephone number, currency, and so on. In addition, you can use __RadMaskedTextBox__ together with [validators]({%slug input/how-to/validation%}) such as the __RequiredValidator__ and __RegularExpressionValidator__ controls to enforce any custom validation logic.
 
 ## Specifying the mask
 

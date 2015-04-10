@@ -16,7 +16,7 @@ position: 4
 
 The __OnClientBeforeClose__ event of the __RadWindow__ control fires when it is about to close. This event can be cancelled (see __Example 1__) to prevent the closingoperation (and the [OnClientClose event]({%slug window/client-side-programming/events/onclientclose%}) from firing). The close operation can be initiated from the userby clicking or tapping on the manual close button (X) in the top right-hand side corner of the title bar, or by the developer via calling the`close(optionalArguments)`[client-side method]({%slug window/client-side-programming/radwindow-object%}) of the control.
 
-You can also use this event to [ask the user to confirm whether the dialog should close]({%slug window/application-scenarios/confirm-closing%})(e.g., if there is no data supplied as an argument).
+You can also use this event to [ask the user to confirm whether the dialog should close]({%slug window/how-to/confirm-closing%})(e.g., if there is no data supplied as an argument).
 
 The event handler receives the following arguments:
 
@@ -52,4 +52,4 @@ __Example 1__: Cancelling the OnClientBeforeClose event of the RadWindow to prev
 
  * [RadWindow Object]({%slug window/client-side-programming/radwindow-object%})
 
- * [Confirm Closing]({%slug window/application-scenarios/confirm-closing%})
+ * [Confirm Closing]({%slug window/how-to/confirm-closing%})

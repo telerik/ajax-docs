@@ -38,6 +38,6 @@ The __RadUpload__ control is laid out in rows, as shown below:
 
 # See Also
 
- * [Configure the UI of RadUpload]({%slug upload/application-scenarios/configure-the-ui-of-radupload%})
+ * [Configure the UI of RadUpload]({%slug upload/how-to/configure-the-ui-of-radupload%})
 
  * [File Input Appearance]({%slug upload/appearance-and-styling/file-input-appearance%})

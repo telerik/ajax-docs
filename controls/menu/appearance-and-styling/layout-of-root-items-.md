@@ -50,4 +50,4 @@ or __Vertical__:
 
  * [Overview]({%slug menu/radmenu-items/overview%})
 
- * [Showing the Path to an Item]({%slug menu/application-scenarios/showing-the-path-to-an-item%})
+ * [Showing the Path to an Item]({%slug menu/how-to/showing-the-path-to-an-item%})

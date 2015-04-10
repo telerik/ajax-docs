@@ -39,4 +39,4 @@ When the user clicks the Submit button, the text box is validated and the error 
 
 # See Also
 
- * [Validation]({%slug input/application-scenarios/validation%})
+ * [Validation]({%slug input/how-to/validation%})

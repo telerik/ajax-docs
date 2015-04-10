@@ -88,4 +88,4 @@ Note that the embedded __DatePopupButton__ and __TimePopupButton__ controls have
 
 # See Also
 
- * [Displaying The Popup Above The Input Area]({%slug calendar/application-scenarios/displaying-the-popup-above-the-input-area%})
+ * [Displaying The Popup Above The Input Area]({%slug calendar/how-to/displaying-the-popup-above-the-input-area%})

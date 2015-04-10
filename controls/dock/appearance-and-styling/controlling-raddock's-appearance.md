@@ -28,7 +28,7 @@ There are a number of ways you can customize the look & feel of your __RadDock__
 
 * To change the visual cues for where the user can start a [drag operation]({%slug dock/getting-started/drag-and-drop%}), use the __DockHandle__ property.
 
-* To [specify the content]({%slug dock/application-scenarios/adding-content-to-raddock%}) that appears inside the __RadDock__ control, use the __ContentTemplate__, the __ContentContainer__ property, or the __Text__ property.
+* To [specify the content]({%slug dock/how-to/adding-content-to-raddock%}) that appears inside the __RadDock__ control, use the __ContentTemplate__, the __ContentContainer__ property, or the __Text__ property.
 
 * To customize the appearance and behavior of the title bar, use a [title bar template]({%slug dock/structure/dock/title-bar-template%}).
 

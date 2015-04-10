@@ -64,7 +64,7 @@ Each file in the collection is of type __UploadedFile__. The following tablelist
 |GetNameWithoutExtension()|string|Returns the name of the uploaded file, without the file extension.|
 |GetExtension()|string|Returns the extension of the uploaded file, including the leading dot (".")|
 |SaveAs(string, [bool])|none|Save the file to the location specified by the first parameter. The optional second parameterspecifies whether to overwrite an existing file if it is found.|
-|GetFieldValue(string)|string|Retrieves a[custom field]({%slug upload/application-scenarios/adding-information-to-uploaded-files%})added to the uploaded file.|
-|GetIsFieldChecked(string)|boolean|Retrieves whether a[custom check box]({%slug upload/application-scenarios/adding-information-to-uploaded-files%})added to the uploaded file was checked.|
+|GetFieldValue(string)|string|Retrieves a[custom field]({%slug upload/how-to/adding-information-to-uploaded-files%})added to the uploaded file.|
+|GetIsFieldChecked(string)|boolean|Retrieves whether a[custom check box]({%slug upload/how-to/adding-information-to-uploaded-files%})added to the uploaded file was checked.|
 
 For an example of using the __UploadedFile__ object, see[Manipulating Uploaded Files](FC66018F-9560-4F29-A685-C6DC5D9BF5C9).

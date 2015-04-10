@@ -54,6 +54,6 @@ __RadDockLayout__ is the control that is responsible for automatic position mana
 
  * [Overview]({%slug dock/commands/overview%})
 
- * [Adding Content to RadDock]({%slug dock/application-scenarios/adding-content-to-raddock%})
+ * [Adding Content to RadDock]({%slug dock/how-to/adding-content-to-raddock%})
 
  * [Title Bar Template]({%slug dock/structure/dock/title-bar-template%})

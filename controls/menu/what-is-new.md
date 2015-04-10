@@ -116,7 +116,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadMenu for ASP.NET AJAX Q1 2008 SP1 (Version Number 2008.1.515):
 
-* [Added public getter and setter for the clicked flag]({%slug menu/application-scenarios/expand-root-menuitem-on-click-only%}).
+* [Added public getter and setter for the clicked flag]({%slug menu/how-to/expand-root-menuitem-on-click-only%}).
 
 * Added public click() method to the [RadMenuItem client-side object]({%slug menu/client-side-programming/objects/radmenuitem-object%}).
 

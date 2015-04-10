@@ -36,7 +36,7 @@ Browsers create a strong separation between an iframeand the main frame, and you
 
 It is important to distinguish between these contexts, because the ways to get a reference to the RadWindow object in either of them are different(and are explained below).
 
-It is also important to avoid adding event handlers from one context into the other (e.g., an OnClientClose handler should not be addedinside the Content Page). If you need to execute logic in the content page, you can [call a function]({%slug window/application-scenarios/calling-functions-in-windows%})in it from a handler defined in the main page.
+It is also important to avoid adding event handlers from one context into the other (e.g., an OnClientClose handler should not be addedinside the Content Page). If you need to execute logic in the content page, you can [call a function]({%slug window/how-to/calling-functions-in-windows%})in it from a handler defined in the main page.
 
 ## Getting a Reference to a RadWindow from the Main Page
 
@@ -117,7 +117,7 @@ The [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-
 
 When user controls are loaded in the *ContentTemplate*, it is often simplest to define a JavaScript function witha meaningful name that will return the needed reference and place it right next to the RadWindow declaration. When NamingContainers are used,the server code blocks needed to get the proper ClientID of the controls are scoped to the concrete container (e.g., the user control),so defining a function that will return the RadWindow object in the user control itself will require traversing the Controls tree of the page,i.e., the user control would need to know in which page it is loaded. If a function that will return the needed reference exists in the global scope,you only need to know its name and call it from anywhere on the page or user controls.
 
->tip If you need to use AJAX in the ContentTemplate of a RadWindow, examine the[How to Use RadWindow with AJAX]({%slug window/application-scenarios/how-to-use-radwindow-with-ajax%})help article.
+>tip If you need to use AJAX in the ContentTemplate of a RadWindow, examine the[How to Use RadWindow with AJAX]({%slug window/how-to/how-to-use-radwindow-with-ajax%})help article.
 >
 
 
@@ -166,13 +166,13 @@ Once you know how to get a reference to the control, you can utilize its full po
 
 * [Get data from the dialog page]({%slug window/client-side-programming/events/onclientclose%})
 
-* [Pass data to the dialog page client-side]({%slug window/application-scenarios/using-radwindow-as-a-dialog%})
+* [Pass data to the dialog page client-side]({%slug window/how-to/using-radwindow-as-a-dialog%})
 
-* [Pass data to the dialog page code-behind]({%slug window/application-scenarios/use-querystring-to-provide-arguments-to-radwindow%})
+* [Pass data to the dialog page code-behind]({%slug window/how-to/use-querystring-to-provide-arguments-to-radwindow%})
 
-* [Call functions between the main page and the content page to pass data and invoke some logic]({%slug window/application-scenarios/calling-functions-in-windows%})
+* [Call functions between the main page and the content page to pass data and invoke some logic]({%slug window/how-to/calling-functions-in-windows%})
 
-* [Open one RadWindow from another RadWindow]({%slug window/application-scenarios/opening-a-radwindow-from-within-a-radwindow%})
+* [Open one RadWindow from another RadWindow]({%slug window/how-to/opening-a-radwindow-from-within-a-radwindow%})
 
 * [Create parent-child relationships between several RadWindows](http://www.telerik.com/support/code-library/creating-parent-child-relationships-between-radwindows-and-passing-data-between-them)
 

@@ -144,7 +144,7 @@ And in the code-behind:
 
 # See Also
 
- * [Load User Controls]({%slug ajax/application-scenarios/load-user-controls%})
+ * [Load User Controls]({%slug ajax/how-to/load-user-controls%})
 
  * [Add AjaxSettings Programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%})
 

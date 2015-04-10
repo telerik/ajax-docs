@@ -147,7 +147,7 @@ The following markup shows how to use __radopen()__, __GetRadWindowManager().ope
 
 # See Also
 
- * [Opening a RadWindow from Within a RadWindow]({%slug window/application-scenarios/opening-a-radwindow-from-within-a-radwindow%})
+ * [Opening a RadWindow from Within a RadWindow]({%slug window/how-to/opening-a-radwindow-from-within-a-radwindow%})
 
  * [RadWindow Object]({%slug window/client-side-programming/radwindow-object%})
 

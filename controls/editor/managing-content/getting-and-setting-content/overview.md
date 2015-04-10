@@ -101,4 +101,4 @@ RadEditor1.Content = dbContent.__Replace("\n", "<br/>")__;
 
  * [Set Properties]({%slug editor/getting-started/set-properties%})
 
- * [Edit Template in Grid]({%slug editor/application-scenarios/edit-template-in-grid%})
+ * [Edit Template in Grid]({%slug editor/how-to/edit-template-in-grid%})

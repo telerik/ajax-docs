@@ -20,7 +20,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * BackColor and BorderColor properties for [Resource Styles]({%slug scheduler/appearance-and-styling/setting-styles-for-appointments%})
 
-* New RecurrenceEditor control for easier [Advanced Form customization]({%slug scheduler/application-scenarios/customize-the-advanced-form-template%})
+* New RecurrenceEditor control for easier [Advanced Form customization]({%slug scheduler/how-to/customize-the-advanced-form-template%})
 
 ## What's New in RadScheduler for ASP.NET AJAX Q1 2010 (Version Number: 2010.1.309)
 

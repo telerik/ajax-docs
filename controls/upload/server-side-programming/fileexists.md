@@ -80,4 +80,4 @@ The example below demonstrates how to use the __FileExists__ event to rename the
 
 # See Also
 
- * [Auto Saving to a Target Folder]({%slug upload/application-scenarios/auto-saving-to-a-target-folder%})[](FC66018F-9560-4F29-A685-C6DC5D9BF5C9)
+ * [Auto Saving to a Target Folder]({%slug upload/how-to/auto-saving-to-a-target-folder%})[](FC66018F-9560-4F29-A685-C6DC5D9BF5C9)

@@ -16,7 +16,7 @@ position: 2
 
 The server-side __FileUploaded__ occurs after a file is uploaded and a postback is triggered.
 
->note When the[PostbackTriggers]({%slug asyncupload/application-scenarios/how-to-persist-uploaded-files%})property of the __RadAsyncUpload__ is set to a particular button, the __FileUploaded__ event will fire only when that button is clicked.
+>note When the[PostbackTriggers]({%slug asyncupload/how-to/how-to-persist-uploaded-files%})property of the __RadAsyncUpload__ is set to a particular button, the __FileUploaded__ event will fire only when that button is clicked.
 >
 
 
@@ -30,7 +30,7 @@ The __FileUploaded__ event handler receives two arguments:
 
 * __File__ - Provides reference to the file uploaded.
 
-* __UploadResult__ - A container object containing information sent from the __RadAsyncUpload__ file handler. For additional information, visit [How to extend the RadAsyncUpload handler.]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+* __UploadResult__ - A container object containing information sent from the __RadAsyncUpload__ file handler. For additional information, visit [How to extend the RadAsyncUpload handler.]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
 
 
@@ -79,6 +79,6 @@ The example below demonstrates how to prepare the previously uploaded file to se
 
 [Getting Started]({%slug asyncupload/getting-started%})
 
-[How to extend the RadAsyncUpload handler]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+[How to extend the RadAsyncUpload handler]({%slug asyncupload/how-to/how-to-extend-the-radasyncupload-handler%})
 
 [Server-Side Events]({%slug asyncupload/server-side-programming/events%})

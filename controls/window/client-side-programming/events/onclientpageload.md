@@ -16,7 +16,7 @@ position: 10
 
 The __OnClientPageLoad__ event of the __RadWindow__ fires when the pageset through its __NavigateUrl__ property finishes loading. Since this page is loaded inside an iframe, this event is fired bythe iframe's `onload` event.
 
-You can use this event to know when the page is loaded inside the popup, including pages changed dynamically	via the `setUrl()` method the [client-side API]({%slug window/client-side-programming/radwindow-object%}) of the control exposes.	At this point you can call the `autoSize()` method of the control, for example, or[call a function in the loaded page]({%slug window/application-scenarios/calling-functions-in-windows%}) to modify it or provide data to it.
+You can use this event to know when the page is loaded inside the popup, including pages changed dynamically	via the `setUrl()` method the [client-side API]({%slug window/client-side-programming/radwindow-object%}) of the control exposes.	At this point you can call the `autoSize()` method of the control, for example, or[call a function in the loaded page]({%slug window/how-to/calling-functions-in-windows%}) to modify it or provide data to it.
 
 The event handler receives the following arguments:
 
@@ -32,4 +32,4 @@ When a content page is loaded in the __RadWindow__, its URL is set in the status
 
  * [RadWindow Object]({%slug window/client-side-programming/radwindow-object%})
 
- * [Calling Functions in Windows]({%slug window/application-scenarios/calling-functions-in-windows%})
+ * [Calling Functions in Windows]({%slug window/how-to/calling-functions-in-windows%})

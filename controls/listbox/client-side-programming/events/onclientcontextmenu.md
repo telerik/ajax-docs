@@ -32,4 +32,4 @@ The event handler receives two parameters:
 
 # See Also
 
- * [Use RadContextMenu with RadListBox]({%slug listbox/application-scenarios/use-radcontextmenu-with-radlistbox%})
+ * [Use RadContextMenu with RadListBox]({%slug listbox/how-to/use-radcontextmenu-with-radlistbox%})

@@ -26,7 +26,7 @@ The __OnDataBound__ event is present in the Intellisense because it __is inherit
 
 * Items of a data bound series can only be modified through the values in their corresponding data source columns.
 
-* Items of declaratively or programmatically created series can be accessed and modified in the code-behind because theseitems are sever-side .NET objects. You can see and example in the[Using Multiple Custom Colors to Create Charts]({%slug htmlchart/application-scenarios/using-multiple-custom-colors-to-create-charts%})help article.
+* Items of declaratively or programmatically created series can be accessed and modified in the code-behind because theseitems are sever-side .NET objects. You can see and example in the[Using Multiple Custom Colors to Create Charts]({%slug htmlchart/how-to/using-multiple-custom-colors-to-create-charts%})help article.
 
 ## Chart Title, Axes Titles, Series Names and Series Labels do Not Accept HTML Elements
 
@@ -49,7 +49,7 @@ The text in the chart title, axes titles, series names and series labels is rend
 
  * [Labels and Titles Font Settings in RadHtmlChart]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})
 
- * [Using Multiple Custom Colors to Create Charts]({%slug htmlchart/application-scenarios/using-multiple-custom-colors-to-create-charts%})
+ * [Using Multiple Custom Colors to Create Charts]({%slug htmlchart/how-to/using-multiple-custom-colors-to-create-charts%})
 
  * [HtmlChart - Multiline Labels](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx)
 

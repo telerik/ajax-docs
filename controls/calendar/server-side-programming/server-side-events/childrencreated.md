@@ -63,6 +63,6 @@ You can use this event to set date input, calendar and time view properties, or 
 
 # See Also
 
- * [Adding Controls to a Calendar Cell]({%slug calendar/application-scenarios/adding-controls-to-a-calendar-cell%})
+ * [Adding Controls to a Calendar Cell]({%slug calendar/how-to/adding-controls-to-a-calendar-cell%})
 
  * [ItemCreated]({%slug calendar/server-side-programming/server-side-events/itemcreated%})

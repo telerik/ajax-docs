@@ -34,7 +34,7 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. To enable RadSpell in RadEditor review the following help article: [Enable RadSpell in RadEditor]({%slug editor/functionality/spellchecker/overview%}).
 
-1. The __ConfigFile__ property is obsolete in RadEditor for ASP.NET AJAX, because the control can be easily configured to use ASP.NET 2.0 Themes the same way you would do for a ordinary asp.net control. Review the following help article for more information: [Using Themes]({%slug editor/application-scenarios/use-themes%}).
+1. The __ConfigFile__ property is obsolete in RadEditor for ASP.NET AJAX, because the control can be easily configured to use ASP.NET 2.0 Themes the same way you would do for a ordinary asp.net control. Review the following help article for more information: [Using Themes]({%slug editor/how-to/use-themes%}).
 
 1. RadEditor for ASP.NET AJAX produces out-of-the box Xhtml content. The __Html__ and __Xhtml__ properties are obsolete and replaced with a new property named __Content__.
 
@@ -75,7 +75,7 @@ __Server-Side API:__ There have been big changes made here but we tried to provi
 | __AllowScripts__ | __RadEditor1.EnableFilter(EditorFilters.RemoveScripts);__ |property| __new mothod__ |
 | __AllowThumbGeneration__ | __n/a__ |property| __Removed__ |
 | __CacheLocalization__ | __n/a__ |property| __Removed__ |
-| __ConfigFile__ | __n/a -[use Themes]({%slug editor/application-scenarios/use-themes%})__ |property| __Removed__ |
+| __ConfigFile__ | __n/a -[use Themes]({%slug editor/how-to/use-themes%})__ |property| __Removed__ |
 | __CookieExpirationTime__ | __n/a__ |property| __Removed__ |
 | __EnableClientSerialize__ | __n/a__ |property| __Removed__ |
 | __EnableDocking__ | __n/a__ |property| __Removed__ |

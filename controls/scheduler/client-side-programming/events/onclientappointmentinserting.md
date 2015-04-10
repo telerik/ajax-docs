@@ -58,4 +58,4 @@ This example prevents the user from inserting appointments that have already hap
 
  * [AppointmentCancelingEdit]({%slug scheduler/server-side-programming/server-events/appointmentcancelingedit%})
 
- * [Replace the Edit Form]({%slug scheduler/application-scenarios/replace-the-edit-form%})
+ * [Replace the Edit Form]({%slug scheduler/how-to/replace-the-edit-form%})

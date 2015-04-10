@@ -38,7 +38,7 @@ By default, you can upload files which size is up to 4MB. You can, however, [ co
 
 __RadUpload__ offers several advantages over standard file input controls, including
 
-* [Automatic file saving]({%slug upload/application-scenarios/auto-saving-to-a-target-folder%}) - __RadUpload__ can automatically save your uploaded files to a selected folder with just a single property setting.
+* [Automatic file saving]({%slug upload/how-to/auto-saving-to-a-target-folder%}) - __RadUpload__ can automatically save your uploaded files to a selected folder with just a single property setting.
 
 * [File saving with server-side code](FC66018F-9560-4F29-A685-C6DC5D9BF5C9) - in complex situations, you can still manipulate uploaded files using server-side code while gaining the benefits of integrated file validation.
 
@@ -46,9 +46,9 @@ __RadUpload__ offers several advantages over standard file input controls, inclu
 
 * In addition to the integrated validation, __RadUpload__ offers options for [validation using server-side code]({%slug upload/validation/custom-validation%}) or [ASP.NET validators]({%slug upload/validation/client-side-validation%}).
 
-* [Adding Custom Fields]({%slug upload/application-scenarios/adding-information-to-uploaded-files%}) - __RadUpload__ lets you add custom fields to each file input.
+* [Adding Custom Fields]({%slug upload/how-to/adding-information-to-uploaded-files%}) - __RadUpload__ lets you add custom fields to each file input.
 
-* [Customizing Appearance]({%slug upload/application-scenarios/configure-the-ui-of-radupload%}) - you can customize the appearance of __RadUpload__ to allow multiple file input areas with integrated controls that let the user manipulate them.
+* [Customizing Appearance]({%slug upload/how-to/configure-the-ui-of-radupload%}) - you can customize the appearance of __RadUpload__ to allow multiple file input areas with integrated controls that let the user manipulate them.
 
 ## Limitations
 

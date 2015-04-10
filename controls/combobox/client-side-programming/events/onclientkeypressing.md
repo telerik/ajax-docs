@@ -50,4 +50,4 @@ This example below uses the __OnClientKeyPressing__ event to execute custom Java
 
  * [TextChanged]({%slug combobox/server-side-programming/textchanged%})
 
- * [Prevent from Typing Particular Characters]({%slug combobox/application-scenarios/prevent-from-typing-particular-characters%})
+ * [Prevent from Typing Particular Characters]({%slug combobox/how-to/prevent-from-typing-particular-characters%})
