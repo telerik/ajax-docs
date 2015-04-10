@@ -37,11 +37,11 @@ http://www.telerik.com/help/aspnet-ajax/tilelist-drag-and-drop.html http://docs.
 http://www.telerik.com/help/aspnet-ajax/tilelist-navigation.html http://docs.telerik.com/devtools/ajax/tilelist/functionality/navigation
 http://www.telerik.com/help/aspnet-ajax/tilelist-overview.html http://docs.telerik.com/devtools/ajax/tilelist/overview
 http://www.telerik.com/help/aspnet-ajax/tilelist-render-modes.html http://docs.telerik.com/devtools/ajax/tilelist/mobile-support/render-modes
-http://www.telerik.com/help/aspnet-ajax/tilelist-responsive-layout-and-dynamic-height.html http://docs.telerik.com/devtools/ajax/tilelist/application-scenarios/responsive-layout-and-dynamic-height
+http://www.telerik.com/help/aspnet-ajax/tilelist-responsive-layout-and-dynamic-height.html http://docs.telerik.com/devtools/ajax/tilelist/how-to/responsive-layout-and-dynamic-height
 http://www.telerik.com/help/aspnet-ajax/tilelist-responsive-layout.html http://docs.telerik.com/devtools/ajax/tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities
 http://www.telerik.com/help/aspnet-ajax/tilelist-right-to-left-support.html http://docs.telerik.com/devtools/ajax/tilelist/accessibility-and-internationalization/right-to-left-support
 http://www.telerik.com/help/aspnet-ajax/tilelist-scrolling.html http://docs.telerik.com/devtools/ajax/tilelist/functionality/scrolling
-http://www.telerik.com/help/aspnet-ajax/tilelist-select-tile-with-left-click.html http://docs.telerik.com/devtools/ajax/tilelist/application-scenarios/select-a-tile-with-left-click
+http://www.telerik.com/help/aspnet-ajax/tilelist-select-tile-with-left-click.html http://docs.telerik.com/devtools/ajax/tilelist/how-to/select-a-tile-with-left-click
 http://www.telerik.com/help/aspnet-ajax/tilelist-selection.html http://docs.telerik.com/devtools/ajax/tilelist/functionality/selecting
 http://www.telerik.com/help/aspnet-ajax/tilelist-server-side-events-onselectionchanged.html http://docs.telerik.com/devtools/ajax/tilelist/server-side-programming/server-side-events/onselectionchanged
 http://www.telerik.com/help/aspnet-ajax/tilelist-server-side-events-ontileclick.html http://docs.telerik.com/devtools/ajax/tilelist/server-side-programming/server-side-events/ontileclick

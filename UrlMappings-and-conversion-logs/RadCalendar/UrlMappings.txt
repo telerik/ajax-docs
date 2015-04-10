@@ -16,10 +16,10 @@ http://www.telerik.com/help/aspnet-ajax/calendar-custom-skin.html http://docs.te
 http://www.telerik.com/help/aspnet-ajax/calendar-skins.html http://docs.telerik.com/devtools/ajax/calendar/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/calendar-styles.html http://docs.telerik.com/devtools/ajax/calendar/appearance-and-styling/styles
 http://www.telerik.com/help/aspnet-ajax/calendar-understanding-skin-css-file.html http://docs.telerik.com/devtools/ajax/calendar/appearance-and-styling/html-output
-http://www.telerik.com/help/aspnet-ajax/calendar-adding-to-calendar-cell.html http://docs.telerik.com/devtools/ajax/calendar/application-scenarios/adding-controls-to-a-calendar-cell
-http://www.telerik.com/help/aspnet-ajax/calendar-displaying-popup-above-input-area.html http://docs.telerik.com/devtools/ajax/calendar/application-scenarios/displaying-the-popup-above-the-input-area
-http://www.telerik.com/help/aspnet-ajax/calendar-tab-sequence.html http://docs.telerik.com/devtools/ajax/calendar/application-scenarios/removing-radcalendar-from-the-tab-sequence
-http://www.telerik.com/help/aspnet-ajax/calendar-validation.html http://docs.telerik.com/devtools/ajax/calendar/application-scenarios/web-pages-validation
+http://www.telerik.com/help/aspnet-ajax/calendar-adding-to-calendar-cell.html http://docs.telerik.com/devtools/ajax/calendar/how-to/adding-controls-to-a-calendar-cell
+http://www.telerik.com/help/aspnet-ajax/calendar-displaying-popup-above-input-area.html http://docs.telerik.com/devtools/ajax/calendar/how-to/displaying-the-popup-above-the-input-area
+http://www.telerik.com/help/aspnet-ajax/calendar-tab-sequence.html http://docs.telerik.com/devtools/ajax/calendar/how-to/removing-radcalendar-from-the-tab-sequence
+http://www.telerik.com/help/aspnet-ajax/calendar-validation.html http://docs.telerik.com/devtools/ajax/calendar/how-to/web-pages-validation
 http://www.telerik.com/help/aspnet-ajax/calendar-client-side-basics.html http://docs.telerik.com/devtools/ajax/calendar/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/calendar-client-side-events.html http://docs.telerik.com/devtools/ajax/calendar/client-side-programming/events/overview
 http://www.telerik.com/help/aspnet-ajax/calendar-client-side-on-init.html http://docs.telerik.com/devtools/ajax/calendar/client-side-programming/events/oninit

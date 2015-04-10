@@ -1,6 +1,6 @@
 http://www.telerik.com/help/aspnet-ajax/client-export-manager-overview.html http://docs.telerik.com/devtools/ajax/clientexportmanager/overview
-http://www.telerik.com/help/aspnet-ajax/clientexportmanager-application-scenarios-save-exported-files.html http://docs.telerik.com/devtools/ajax/clientexportmanager/application-scenarios/save-exported-files
-http://www.telerik.com/help/aspnet-ajax/clientexportmanager-application-scenarios-wysiwyg-export.html http://docs.telerik.com/devtools/ajax/clientexportmanager/application-scenarios/wysiwyg-export
+http://www.telerik.com/help/aspnet-ajax/clientexportmanager-application-scenarios-save-exported-files.html http://docs.telerik.com/devtools/ajax/clientexportmanager/how-to/save-exported-files
+http://www.telerik.com/help/aspnet-ajax/clientexportmanager-application-scenarios-wysiwyg-export.html http://docs.telerik.com/devtools/ajax/clientexportmanager/how-to/wysiwyg-export
 http://www.telerik.com/help/aspnet-ajax/clientexportmanager-client-side-programming-client-side-api.html http://docs.telerik.com/devtools/ajax/clientexportmanager/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/clientexportmanager-smart-tag.html http://docs.telerik.com/devtools/ajax/clientexportmanager/design-time
 http://www.telerik.com/help/aspnet-ajax/clientexportmanager-functionality-export-element.html http://docs.telerik.com/devtools/ajax/clientexportmanager/functionality/export-html-elements

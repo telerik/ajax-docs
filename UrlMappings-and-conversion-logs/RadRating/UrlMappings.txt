@@ -10,7 +10,7 @@ http://www.telerik.com/help/aspnet-ajax/rating-databinding.html http://docs.tele
 http://www.telerik.com/help/aspnet-ajax/rating-desing-smart-tag.html http://docs.telerik.com/devtools/ajax/rating/design-time
 http://www.telerik.com/help/aspnet-ajax/rating-elastic-design.html http://docs.telerik.com/devtools/ajax/rating/mobile-support/elastic-design
 http://www.telerik.com/help/aspnet-ajax/rating-getting-started.html http://docs.telerik.com/devtools/ajax/rating/getting-started
-http://www.telerik.com/help/aspnet-ajax/rating-modifying-tooltip-text.html http://docs.telerik.com/devtools/ajax/rating/application-scenarios/modify-the-tooltip-text-of-radrating-items
+http://www.telerik.com/help/aspnet-ajax/rating-modifying-tooltip-text.html http://docs.telerik.com/devtools/ajax/rating/how-to/modify-the-tooltip-text-of-radrating-items
 http://www.telerik.com/help/aspnet-ajax/rating-overview.html http://docs.telerik.com/devtools/ajax/rating/overview
 http://www.telerik.com/help/aspnet-ajax/rating-render-modes.html http://docs.telerik.com/devtools/ajax/rating/mobile-support/render-modes
 http://www.telerik.com/help/aspnet-ajax/rating-right-to-left-support.html http://docs.telerik.com/devtools/ajax/rating/accessibility-and-internationalization/right-to-left-support
@@ -18,4 +18,4 @@ http://www.telerik.com/help/aspnet-ajax/rating-styling.html http://docs.telerik.
 http://www.telerik.com/help/aspnet-ajax/rating-troubleshooting-broken-skin-when-loading-with-ajax.html http://docs.telerik.com/devtools/ajax/rating/troubleshooting/broken-skin-when-loading-radrating-via-ajax
 http://www.telerik.com/help/aspnet-ajax/rating-understanding-css-classes.html http://docs.telerik.com/devtools/ajax/rating/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/rating-understanding-skin-css-file.html http://docs.telerik.com/devtools/ajax/rating/appearance-and-styling/understanding-the-skin-css-file
-http://www.telerik.com/help/aspnet-ajax/rating-validation.html http://docs.telerik.com/devtools/ajax/rating/application-scenarios/radrating-with-customvalidator
+http://www.telerik.com/help/aspnet-ajax/rating-validation.html http://docs.telerik.com/devtools/ajax/rating/how-to/radrating-with-customvalidator

@@ -8,7 +8,7 @@ http://www.telerik.com/help/aspnet-ajax/orgchart-client-side-node-object-api.htm
 http://www.telerik.com/help/aspnet-ajax/orgchart-client-side-object-api.html http://docs.telerik.com/devtools/ajax/orgchart/client-side-programming/radorgchart-object
 http://www.telerik.com/help/aspnet-ajax/orgchart-databinding-overview.html http://docs.telerik.com/devtools/ajax/orgchart/data-binding/overview
 http://www.telerik.com/help/aspnet-ajax/orgchart-group-enabled-binding.html http://docs.telerik.com/devtools/ajax/orgchart/data-binding/group-enabled-binding
-http://www.telerik.com/help/aspnet-ajax/orgchart-send-information-webservice.html http://docs.telerik.com/devtools/ajax/orgchart/application-scenarios/passing-context-information-to-the-server
+http://www.telerik.com/help/aspnet-ajax/orgchart-send-information-webservice.html http://docs.telerik.com/devtools/ajax/orgchart/how-to/passing-context-information-to-the-server
 http://www.telerik.com/help/aspnet-ajax/orgchart-simple-binding.html http://docs.telerik.com/devtools/ajax/orgchart/data-binding/simple-binding
 http://www.telerik.com/help/aspnet-ajax/orgchart-web-service.html http://docs.telerik.com/devtools/ajax/orgchart/data-binding/web-service-binding
 http://www.telerik.com/help/aspnet-ajax/orgchart-column-count.html http://docs.telerik.com/devtools/ajax/orgchart/functionality/column-count

@@ -1,6 +1,6 @@
 http://www.telerik.com/help/aspnet-ajax/fileexplorer-accessibility-support.html http://docs.telerik.com/devtools/ajax/fileexplorer/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
-http://www.telerik.com/help/aspnet-ajax/fileexplorer-add-custom-button-context-menu-item.html http://docs.telerik.com/devtools/ajax/fileexplorer/application-scenarios/adding-custom-command-buttons
-http://www.telerik.com/help/aspnet-ajax/fileexplorer-adding-custom-columns.html http://docs.telerik.com/devtools/ajax/fileexplorer/application-scenarios/adding-custom-grid-columns
+http://www.telerik.com/help/aspnet-ajax/fileexplorer-add-custom-button-context-menu-item.html http://docs.telerik.com/devtools/ajax/fileexplorer/how-to/adding-custom-command-buttons
+http://www.telerik.com/help/aspnet-ajax/fileexplorer-adding-custom-columns.html http://docs.telerik.com/devtools/ajax/fileexplorer/how-to/adding-custom-grid-columns
 http://www.telerik.com/help/aspnet-ajax/fileexplorer-changes-backward-compatibility.html http://docs.telerik.com/devtools/ajax/fileexplorer/changes-and-backward-compatibility
 http://www.telerik.com/help/aspnet-ajax/fileexplorer-client-side-events.html http://docs.telerik.com/devtools/ajax/fileexplorer/client-side-programming/events
 http://www.telerik.com/help/aspnet-ajax/fileexplorer-client-side.html http://docs.telerik.com/devtools/ajax/fileexplorer/client-side-programming/overview

@@ -5,7 +5,7 @@ http://www.telerik.com/help/aspnet-ajax/diagram-client-side.html http://docs.tel
 http://www.telerik.com/help/aspnet-ajax/diagram-connections-databinding.html http://docs.telerik.com/devtools/ajax/diagram/data-binding/server-side/connections
 http://www.telerik.com/help/aspnet-ajax/diagram-control-shape-configuration.html http://docs.telerik.com/devtools/ajax/diagram/structure/shape
 http://www.telerik.com/help/aspnet-ajax/diagram-control.html http://docs.telerik.com/devtools/ajax/diagram/overview
-http://www.telerik.com/help/aspnet-ajax/diagram-custom-shapes-and-connectors.html http://docs.telerik.com/devtools/ajax/diagram/application-scenarios/custom-shapes-and-connectors
+http://www.telerik.com/help/aspnet-ajax/diagram-custom-shapes-and-connectors.html http://docs.telerik.com/devtools/ajax/diagram/how-to/custom-shapes-and-connectors
 http://www.telerik.com/help/aspnet-ajax/diagram-design-time.html http://docs.telerik.com/devtools/ajax/diagram/design-time
 http://www.telerik.com/help/aspnet-ajax/diagram-export-to-image.html http://docs.telerik.com/devtools/ajax/diagram/import-and-export/export-to-image
 http://www.telerik.com/help/aspnet-ajax/diagram-export-to-json.html http://docs.telerik.com/devtools/ajax/diagram/import-and-export/export-to-json

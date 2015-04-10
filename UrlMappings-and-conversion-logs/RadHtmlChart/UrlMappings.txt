@@ -4,8 +4,8 @@ http://www.telerik.com/help/aspnet-ajax/htmlchart-appearance-formatting-dates.ht
 http://www.telerik.com/help/aspnet-ajax/htmlchart-appearance-formatting-numbers.html http://docs.telerik.com/devtools/ajax/htmlchart/appearance-and-styling/format-numbers
 http://www.telerik.com/help/aspnet-ajax/htmlchart-appearance-gap-and-spacing.html http://docs.telerik.com/devtools/ajax/htmlchart/appearance-and-styling/gap-and-spacing
 http://www.telerik.com/help/aspnet-ajax/htmlchart-appearance-labels-titles-font-settings.html http://docs.telerik.com/devtools/ajax/htmlchart/appearance-and-styling/labels-and-titles-font-settings
-http://www.telerik.com/help/aspnet-ajax/htmlchart-application-programmatic-creation-of-seriesitems-with-datetime.html http://docs.telerik.com/devtools/ajax/htmlchart/application-scenarios/programmatic-creation-of-seriesitems-with-datetime
-http://www.telerik.com/help/aspnet-ajax/htmlchart-application-using-multiple-custom-colors.html http://docs.telerik.com/devtools/ajax/htmlchart/application-scenarios/using-multiple-custom-colors-to-create-charts
+http://www.telerik.com/help/aspnet-ajax/htmlchart-application-programmatic-creation-of-seriesitems-with-datetime.html http://docs.telerik.com/devtools/ajax/htmlchart/how-to/programmatic-creation-of-seriesitems-with-datetime
+http://www.telerik.com/help/aspnet-ajax/htmlchart-application-using-multiple-custom-colors.html http://docs.telerik.com/devtools/ajax/htmlchart/how-to/using-multiple-custom-colors-to-create-charts
 http://www.telerik.com/help/aspnet-ajax/htmlchart-bind-to-array.html http://docs.telerik.com/devtools/ajax/htmlchart/data-binding/array
 http://www.telerik.com/help/aspnet-ajax/htmlchart-bind-to-database.html http://docs.telerik.com/devtools/ajax/htmlchart/data-binding/sqldatasource
 http://www.telerik.com/help/aspnet-ajax/htmlchart-bind-to-dataset.html http://docs.telerik.com/devtools/ajax/htmlchart/data-binding/dataset
@@ -25,11 +25,11 @@ http://www.telerik.com/help/aspnet-ajax/htmlchart-data-navigation.html http://do
 http://www.telerik.com/help/aspnet-ajax/htmlchart-date-axis.html http://docs.telerik.com/devtools/ajax/htmlchart/functionality/axes/date-axis
 http://www.telerik.com/help/aspnet-ajax/htmlchart-design-time-overview.html http://docs.telerik.com/devtools/ajax/htmlchart/design-time/overview
 http://www.telerik.com/help/aspnet-ajax/htmlchart-design-time-using-visual-designer.html http://docs.telerik.com/devtools/ajax/htmlchart/design-time/configuration-wizard
-http://www.telerik.com/help/aspnet-ajax/htmlchart-drill-down-chart.html http://docs.telerik.com/devtools/ajax/htmlchart/application-scenarios/implementing-drill-down-functionality
+http://www.telerik.com/help/aspnet-ajax/htmlchart-drill-down-chart.html http://docs.telerik.com/devtools/ajax/htmlchart/how-to/implementing-drill-down-functionality
 http://www.telerik.com/help/aspnet-ajax/htmlchart-formatting-labels-problem.html http://docs.telerik.com/devtools/ajax/htmlchart/troubleshooting/known-issues/problem-with-using-formatting-specifiers-in-labels-and-tooltips
 http://www.telerik.com/help/aspnet-ajax/htmlchart-important-changes-regarding-data-binding-datetime-parsable-string-fields.html http://docs.telerik.com/devtools/ajax/htmlchart/changes-and-backwards-compatibility/important-changes-regarding-data-binding-datetime-parsable-string-fields
 http://www.telerik.com/help/aspnet-ajax/htmlchart-important-changes-regarding-the-series-declaration.html http://docs.telerik.com/devtools/ajax/htmlchart/changes-and-backwards-compatibility/important-changes-regarding-series-declaration
-http://www.telerik.com/help/aspnet-ajax/htmlchart-integration-with-kendoui-widgets.html http://docs.telerik.com/devtools/ajax/htmlchart/application-scenarios/radhtmlchart-integration-with-kendoui-widgets
+http://www.telerik.com/help/aspnet-ajax/htmlchart-integration-with-kendoui-widgets.html http://docs.telerik.com/devtools/ajax/htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets
 http://www.telerik.com/help/aspnet-ajax/htmlchart-logarithmic-axis.html http://docs.telerik.com/devtools/ajax/htmlchart/functionality/axes/logarithmic-axis
 http://www.telerik.com/help/aspnet-ajax/htmlchart-migrating-from-radchart-known-limitations.html http://docs.telerik.com/devtools/ajax/htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-functionalities---features-and-series-types-parity
 http://www.telerik.com/help/aspnet-ajax/htmlchart-migrating-from-radchart-migrating-axes-configuration.html http://docs.telerik.com/devtools/ajax/htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-axes-configuration
@@ -42,7 +42,7 @@ http://www.telerik.com/help/aspnet-ajax/htmlchart-ordering-series-via-zindex.htm
 http://www.telerik.com/help/aspnet-ajax/htmlchart-overview.html http://docs.telerik.com/devtools/ajax/htmlchart/overview
 http://www.telerik.com/help/aspnet-ajax/htmlchart-performance-optimizations.html http://docs.telerik.com/devtools/ajax/htmlchart/troubleshooting/performance-optimizations
 http://www.telerik.com/help/aspnet-ajax/htmlchart-plot-bands.html http://docs.telerik.com/devtools/ajax/htmlchart/functionality/plot-bands
-http://www.telerik.com/help/aspnet-ajax/htmlchart-print-the-chart.html http://docs.telerik.com/devtools/ajax/htmlchart/application-scenarios/print-the-chart
+http://www.telerik.com/help/aspnet-ajax/htmlchart-print-the-chart.html http://docs.telerik.com/devtools/ajax/htmlchart/how-to/print-the-chart
 http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-basic-configuration.html http://docs.telerik.com/devtools/ajax/htmlchart/server-side-programming/basic-configuration
 http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-configure-axes.html http://docs.telerik.com/devtools/ajax/htmlchart/server-side-programming/axes-configuration
 http://www.telerik.com/help/aspnet-ajax/htmlchart-server-side-api-configure-navigator.html http://docs.telerik.com/devtools/ajax/htmlchart/server-side-programming/navigator-configuration

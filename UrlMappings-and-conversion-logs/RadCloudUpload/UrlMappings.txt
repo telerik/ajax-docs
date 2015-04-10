@@ -2,11 +2,11 @@ http://www.telerik.com/help/aspnet-ajax/cloud-upload-getting-started.html http:/
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-overview.html http://docs.telerik.com/devtools/ajax/cloudupload/overview
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-localizing.html http://docs.telerik.com/devtools/ajax/cloudupload/accessibility-and-internationalization/localizing-radcloudupload
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-skins.html http://docs.telerik.com/devtools/ajax/cloudupload/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/cloud-upload-limit-uploaded-files.html http://docs.telerik.com/devtools/ajax/cloudupload/application-scenarios/limit-the-number-of-the-uploaded-files
-http://www.telerik.com/help/aspnet-ajax/cloud-upload-multiple-accounts.html http://docs.telerik.com/devtools/ajax/cloudupload/application-scenarios/using-multiple-accounts-for-one-cloud-storage-provider
-http://www.telerik.com/help/aspnet-ajax/cloud-upload-multiple-folders.html http://docs.telerik.com/devtools/ajax/cloudupload/application-scenarios/files-uploading-in-custom-folder-at-runtime
-http://www.telerik.com/help/aspnet-ajax/cloud-upload-prevent-dual-uploading.html http://docs.telerik.com/devtools/ajax/cloudupload/application-scenarios/prevent-dual-file-uploading
-http://www.telerik.com/help/aspnet-ajax/cloud-upload-upload-large-files.html http://docs.telerik.com/devtools/ajax/cloudupload/application-scenarios/uploading-large-files
+http://www.telerik.com/help/aspnet-ajax/cloud-upload-limit-uploaded-files.html http://docs.telerik.com/devtools/ajax/cloudupload/how-to/limit-the-number-of-the-uploaded-files
+http://www.telerik.com/help/aspnet-ajax/cloud-upload-multiple-accounts.html http://docs.telerik.com/devtools/ajax/cloudupload/how-to/using-multiple-accounts-for-one-cloud-storage-provider
+http://www.telerik.com/help/aspnet-ajax/cloud-upload-multiple-folders.html http://docs.telerik.com/devtools/ajax/cloudupload/how-to/files-uploading-in-custom-folder-at-runtime
+http://www.telerik.com/help/aspnet-ajax/cloud-upload-prevent-dual-uploading.html http://docs.telerik.com/devtools/ajax/cloudupload/how-to/prevent-dual-file-uploading
+http://www.telerik.com/help/aspnet-ajax/cloud-upload-upload-large-files.html http://docs.telerik.com/devtools/ajax/cloudupload/how-to/uploading-large-files
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-client-object.html http://docs.telerik.com/devtools/ajax/cloudupload/client-side-programming/radcloudupload-object
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-clientsideevents.html http://docs.telerik.com/devtools/ajax/cloudupload/client-side-programming/events
 http://www.telerik.com/help/aspnet-ajax/cloud-upload-amazon-s3.html http://docs.telerik.com/devtools/ajax/cloudupload/cloud-storage-providers/amazon-s3

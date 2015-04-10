@@ -8,7 +8,7 @@ http://www.telerik.com/help/aspnet-ajax/rotator-client-side-data-binding-onclien
 http://www.telerik.com/help/aspnet-ajax/rotator-client-side-data-binding-overview.html http://docs.telerik.com/devtools/ajax/rotator/data-binding/client-side-data-binding
 http://www.telerik.com/help/aspnet-ajax/rotator-configuration.html http://docs.telerik.com/devtools/ajax/rotator/getting-started/overview
 http://www.telerik.com/help/aspnet-ajax/rotator-configure-animations.html http://docs.telerik.com/devtools/ajax/rotator/getting-started/how-to-configure-animations
-http://www.telerik.com/help/aspnet-ajax/rotator-coverflow-animation-and-ajax.html http://docs.telerik.com/devtools/ajax/rotator/application-scenarios/persisting-radrotator's-coverflow-animation-through-an-ajax-request
+http://www.telerik.com/help/aspnet-ajax/rotator-coverflow-animation-and-ajax.html http://docs.telerik.com/devtools/ajax/rotator/how-to/persisting-radrotator's-coverflow-animation-through-an-ajax-request
 http://www.telerik.com/help/aspnet-ajax/rotator-css-classes-and-their-use.html http://docs.telerik.com/devtools/ajax/rotator/appearance-and-styling/create-a-custom-skin-from-an-existing-one
 http://www.telerik.com/help/aspnet-ajax/rotator-css-classes.html http://docs.telerik.com/devtools/ajax/rotator/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/rotator-customizing-buttons-appearance.html http://docs.telerik.com/devtools/ajax/rotator/appearance-and-styling/customize-the-appearance-of-control-buttons

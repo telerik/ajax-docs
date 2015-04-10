@@ -32,8 +32,8 @@ http://www.telerik.com/help/aspnet-ajax/splitter-client-side-radsplitbar.html ht
 http://www.telerik.com/help/aspnet-ajax/splitter-client-side-radsplitter.html http://docs.telerik.com/devtools/ajax/splitter/client-side-programming/radsplitter-object
 http://www.telerik.com/help/aspnet-ajax/splitter-design-smart-tag.html http://docs.telerik.com/devtools/ajax/splitter/design-time
 http://www.telerik.com/help/aspnet-ajax/splitter-getting-started.html http://docs.telerik.com/devtools/ajax/splitter/getting-started/overview
-http://www.telerik.com/help/aspnet-ajax/splitter-how-to-ajax.html http://docs.telerik.com/devtools/ajax/splitter/application-scenarios/ajax-updates
-http://www.telerik.com/help/aspnet-ajax/splitter-how-to-referencing-panes.html http://docs.telerik.com/devtools/ajax/splitter/application-scenarios/referencing-the-external-content-of-a-pane
+http://www.telerik.com/help/aspnet-ajax/splitter-how-to-ajax.html http://docs.telerik.com/devtools/ajax/splitter/how-to/ajax-updates
+http://www.telerik.com/help/aspnet-ajax/splitter-how-to-referencing-panes.html http://docs.telerik.com/devtools/ajax/splitter/how-to/referencing-the-external-content-of-a-pane
 http://www.telerik.com/help/aspnet-ajax/splitter-layout-filling-page.html http://docs.telerik.com/devtools/ajax/splitter/layout/filling-the-entire-page
 http://www.telerik.com/help/aspnet-ajax/splitter-layout-fixed-layout.html http://docs.telerik.com/devtools/ajax/splitter/layout/fixed-layout
 http://www.telerik.com/help/aspnet-ajax/splitter-layout-nested.html http://docs.telerik.com/devtools/ajax/splitter/layout/nesting-splitters

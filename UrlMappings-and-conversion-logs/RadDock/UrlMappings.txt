@@ -22,8 +22,8 @@ http://www.telerik.com/help/aspnet-ajax/dock-client-side-onclientresizestart.htm
 http://www.telerik.com/help/aspnet-ajax/dock-commands-appearance.html http://docs.telerik.com/devtools/ajax/dock/commands/styling-custom-commands
 http://www.telerik.com/help/aspnet-ajax/dock-commands-events.html http://docs.telerik.com/devtools/ajax/dock/commands/events-triggered-on-command-execution
 http://www.telerik.com/help/aspnet-ajax/dock-commands-tooltips.html http://docs.telerik.com/devtools/ajax/dock/commands/specifying-command-tooltips
-http://www.telerik.com/help/aspnet-ajax/dock-content.html http://docs.telerik.com/devtools/ajax/dock/application-scenarios/adding-content-to-raddock
-http://www.telerik.com/help/aspnet-ajax/dock-control-creation.html http://docs.telerik.com/devtools/ajax/dock/application-scenarios/creating-raddock-dynamically
+http://www.telerik.com/help/aspnet-ajax/dock-content.html http://docs.telerik.com/devtools/ajax/dock/how-to/adding-content-to-raddock
+http://www.telerik.com/help/aspnet-ajax/dock-control-creation.html http://docs.telerik.com/devtools/ajax/dock/how-to/creating-raddock-dynamically
 http://www.telerik.com/help/aspnet-ajax/dock-control-lifecycle.html http://docs.telerik.com/devtools/ajax/dock/structure/dock/lifecycle
 http://www.telerik.com/help/aspnet-ajax/dock-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/tutorial:-creating-a-custom-lightweight-skin
 http://www.telerik.com/help/aspnet-ajax/dock-design-command-collection-editor.html http://docs.telerik.com/devtools/ajax/dock/design-time/dockcommand-collection-editor
@@ -47,6 +47,6 @@ http://www.telerik.com/help/aspnet-ajax/dock-titlebar-template.html http://docs.
 http://www.telerik.com/help/aspnet-ajax/dock-troubleshooting-dock-in-update-panel.html http://docs.telerik.com/devtools/ajax/dock/troubleshooting/placing-raddock-in-updatepanel
 http://www.telerik.com/help/aspnet-ajax/dock-usability-commands.html http://docs.telerik.com/devtools/ajax/dock/commands/overview
 http://www.telerik.com/help/aspnet-ajax/dock-usability-drag-and-drop.html http://docs.telerik.com/devtools/ajax/dock/getting-started/drag-and-drop
-http://www.telerik.com/help/aspnet-ajax/dock-widgets.html http://docs.telerik.com/devtools/ajax/dock/application-scenarios/adding-controls-inside-dynamically-created-docks
+http://www.telerik.com/help/aspnet-ajax/dock-widgets.html http://docs.telerik.com/devtools/ajax/dock/how-to/adding-controls-inside-dynamically-created-docks
 http://www.telerik.com/help/aspnet-ajax/dock-zones-highlighting.html http://docs.telerik.com/devtools/ajax/dock/structure/dock-zones/highlighting
 http://www.telerik.com/help/aspnet-ajax/dock-zones-orientation.html http://docs.telerik.com/devtools/ajax/dock/getting-started/dock-zone-orientation

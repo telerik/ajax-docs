@@ -13,8 +13,8 @@ http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-item-images.html http
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-rtl.html http://docs.telerik.com/devtools/ajax/toolbar/appearance-and-styling/rtl-support
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-separators.html http://docs.telerik.com/devtools/ajax/toolbar/appearance-and-styling/separators
 http://www.telerik.com/help/aspnet-ajax/toolbar-appearance-skins.html http://docs.telerik.com/devtools/ajax/toolbar/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/toolbar-prevent-cancel-specific-button-postback.html http://docs.telerik.com/devtools/ajax/toolbar/application-scenarios/prevent-a-specific-button-from-performing-postback
-http://www.telerik.com/help/aspnet-ajax/toolbar-using-sprite-images-in-splitbutton.html http://docs.telerik.com/devtools/ajax/toolbar/application-scenarios/using-sprite-images-in-radtoolbarsplitbutton
+http://www.telerik.com/help/aspnet-ajax/toolbar-prevent-cancel-specific-button-postback.html http://docs.telerik.com/devtools/ajax/toolbar/how-to/prevent-a-specific-button-from-performing-postback
+http://www.telerik.com/help/aspnet-ajax/toolbar-using-sprite-images-in-splitbutton.html http://docs.telerik.com/devtools/ajax/toolbar/how-to/using-sprite-images-in-radtoolbarsplitbutton
 http://www.telerik.com/help/aspnet-ajax/toolbar-client-side-access-changes-server.html http://docs.telerik.com/devtools/ajax/toolbar/client-side-programming/accessing-client-changes-at-the-server
 http://www.telerik.com/help/aspnet-ajax/toolbar-client-side-basics.html http://docs.telerik.com/devtools/ajax/toolbar/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/toolbar-client-side-events.html http://docs.telerik.com/devtools/ajax/toolbar/client-side-programming/events

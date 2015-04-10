@@ -10,7 +10,7 @@ http://www.telerik.com/help/aspnet-ajax/ribbonbar-group-client-object.html http:
 http://www.telerik.com/help/aspnet-ajax/ribbonbar-item-client-object.html http://docs.telerik.com/devtools/ajax/ribbonbar/client-side-programming/ribbonbaritem-object
 http://www.telerik.com/help/aspnet-ajax/ribbonbartab-client-object.html http://docs.telerik.com/devtools/ajax/ribbonbar/client-side-programming/ribbonbartab-object
 http://www.telerik.com/help/aspnet-ajax/ribbonBar-design-smart-tag.html http://docs.telerik.com/devtools/ajax/ribbonbar/design-time
-http://www.telerik.com/help/aspnet-ajax/ribbonbar-faq.html http://docs.telerik.com/devtools/ajax/ribbonbar/application-scenarios
+http://www.telerik.com/help/aspnet-ajax/ribbonbar-faq.html http://docs.telerik.com/devtools/ajax/ribbonbar/how-to
 http://www.telerik.com/help/aspnet-ajax/ribbonbar-overview.html http://docs.telerik.com/devtools/ajax/ribbonbar/overview
 http://www.telerik.com/help/aspnet-ajax/ribbonbar-structure.html http://docs.telerik.com/devtools/ajax/ribbonbar/structure
 http://www.telerik.com/help/aspnet-ajax/ribbonbar-items-ribbonbarcolorpicker.html http://docs.telerik.com/devtools/ajax/ribbonbar/radribbonbar-items/ribbonbarcolorpicker

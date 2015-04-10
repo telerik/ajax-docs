@@ -16,8 +16,8 @@ http://www.telerik.com/help/aspnet-ajax/input-multi-line-textboxes.html http://d
 http://www.telerik.com/help/aspnet-ajax/input-single-rendering-output-css-styling.html http://docs.telerik.com/devtools/ajax/input/appearance-and-styling/single-rendering-html-output
 http://www.telerik.com/help/aspnet-ajax/input-skins.html http://docs.telerik.com/devtools/ajax/input/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/input-styles.html http://docs.telerik.com/devtools/ajax/input/appearance-and-styling/styles
-http://www.telerik.com/help/aspnet-ajax/input-inside-databound-controls.html http://docs.telerik.com/devtools/ajax/input/application-scenarios/using-input-controls-inside-data-bound-controls
-http://www.telerik.com/help/aspnet-ajax/input-validation.html http://docs.telerik.com/devtools/ajax/input/application-scenarios/validation
+http://www.telerik.com/help/aspnet-ajax/input-inside-databound-controls.html http://docs.telerik.com/devtools/ajax/input/how-to/using-input-controls-inside-data-bound-controls
+http://www.telerik.com/help/aspnet-ajax/input-validation.html http://docs.telerik.com/devtools/ajax/input/how-to/validation
 http://www.telerik.com/help/aspnet-ajax/input-client-side-basics.html http://docs.telerik.com/devtools/ajax/input/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/input-client-side-dateformatinfo.html http://docs.telerik.com/devtools/ajax/input/client-side-programming/dateformatinfo-client-object
 http://www.telerik.com/help/aspnet-ajax/input-client-side-events.html http://docs.telerik.com/devtools/ajax/input/client-side-programming/events/overview

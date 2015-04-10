@@ -2,9 +2,9 @@ http://www.telerik.com/help/aspnet-ajax/dropdowntree-keyboard-support.html http:
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-appearance-animations.html http://docs.telerik.com/devtools/ajax/dropdowntree/appearance-and-styling/animations
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/dropdowntree/appearance-and-styling/css-skin-file-selector
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-skins.html http://docs.telerik.com/devtools/ajax/dropdowntree/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/dropdowntree-accessing-embedded-tree.html http://docs.telerik.com/devtools/ajax/dropdowntree/application-scenarios/accessing-the-embedded-tree
-http://www.telerik.com/help/aspnet-ajax/dropdowntree-how-to-create-entry-select-node.html http://docs.telerik.com/devtools/ajax/dropdowntree/application-scenarios/how-to-create-an-entry-or-select-a-node
-http://www.telerik.com/help/aspnet-ajax/dropdowntree-how-to-preselect-text-or-value.html http://docs.telerik.com/devtools/ajax/dropdowntree/application-scenarios/how-to-pre-select-a-node-based-on-text-or-value
+http://www.telerik.com/help/aspnet-ajax/dropdowntree-accessing-embedded-tree.html http://docs.telerik.com/devtools/ajax/dropdowntree/how-to/accessing-the-embedded-tree
+http://www.telerik.com/help/aspnet-ajax/dropdowntree-how-to-create-entry-select-node.html http://docs.telerik.com/devtools/ajax/dropdowntree/how-to/how-to-create-an-entry-or-select-a-node
+http://www.telerik.com/help/aspnet-ajax/dropdowntree-how-to-preselect-text-or-value.html http://docs.telerik.com/devtools/ajax/dropdowntree/how-to/how-to-pre-select-a-node-based-on-text-or-value
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-client-side-basics.html http://docs.telerik.com/devtools/ajax/dropdowntree/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-client-side-dropdowntree-entry-object.html http://docs.telerik.com/devtools/ajax/dropdowntree/client-side-programming/raddropdowntree-entry-object
 http://www.telerik.com/help/aspnet-ajax/dropdowntree-client-side-dropdowntree-entrycollection-object.html http://docs.telerik.com/devtools/ajax/dropdowntree/client-side-programming/raddropdowntree-entrycollection-object

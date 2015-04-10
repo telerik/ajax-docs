@@ -36,8 +36,8 @@ http://www.telerik.com/help/aspnet-ajax/button-single-click.html http://docs.tel
 http://www.telerik.com/help/aspnet-ajax/button-split-button.html http://docs.telerik.com/devtools/ajax/button/button-types/split-button
 http://www.telerik.com/help/aspnet-ajax/button-toggle-buttons.html http://docs.telerik.com/devtools/ajax/button/button-types/toggle-button
 http://www.telerik.com/help/aspnet-ajax/button-types.html http://docs.telerik.com/devtools/ajax/button/button-types/overview
-http://www.telerik.com/help/aspnet-ajax/button-use-navigate-url-with-standard-button-type.html http://docs.telerik.com/devtools/ajax/button/application-scenarios/use-navigateurl-with-standardbutton-type
-http://www.telerik.com/help/aspnet-ajax/button-validation-with-postback-confirm.html http://docs.telerik.com/devtools/ajax/button/application-scenarios/radbutton-validation-and-client-side-event-handlers
+http://www.telerik.com/help/aspnet-ajax/button-use-navigate-url-with-standard-button-type.html http://docs.telerik.com/devtools/ajax/button/how-to/use-navigateurl-with-standardbutton-type
+http://www.telerik.com/help/aspnet-ajax/button-validation-with-postback-confirm.html http://docs.telerik.com/devtools/ajax/button/how-to/radbutton-validation-and-client-side-event-handlers
 http://www.telerik.com/help/aspnet-ajax/button_appearancecssfileselectors.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/button_appearancecustomskin.html http://docs.telerik.com/devtools/ajax/button/appearance-and-styling/creating-a-custom-skin
 http://www.telerik.com/help/aspnet-ajax/button_overview.html http://docs.telerik.com/devtools/ajax/button/telerik's-asp.net-button-overview

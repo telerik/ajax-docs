@@ -49,7 +49,7 @@ http://www.telerik.com/help/aspnet-ajax/editor-disabling-radeditor.html http://d
 http://www.telerik.com/help/aspnet-ajax/editor-dockable-toolbars.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/docking-zones
 http://www.telerik.com/help/aspnet-ajax/editor-documents.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/file-browser-dialogs/documents
 http://www.telerik.com/help/aspnet-ajax/editor-edit-modes.html http://docs.telerik.com/devtools/ajax/editor/functionality/editor-views-and-modes/edit-modes
-http://www.telerik.com/help/aspnet-ajax/editor-edit-template-in-grid.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/edit-template-in-grid
+http://www.telerik.com/help/aspnet-ajax/editor-edit-template-in-grid.html http://docs.telerik.com/devtools/ajax/editor/how-to/edit-template-in-grid
 http://www.telerik.com/help/aspnet-ajax/editor-editable-and-noneditable-areas-in-editor.html http://docs.telerik.com/devtools/ajax/editor/managing-content/editable-and-non-editable-areas
 http://www.telerik.com/help/aspnet-ajax/editor-elastic-design.html http://docs.telerik.com/devtools/ajax/editor/mobile-support/elastic-design
 http://www.telerik.com/help/aspnet-ajax/editor-enable-spellcheck.html http://docs.telerik.com/devtools/ajax/editor/functionality/spellchecker/overview
@@ -73,7 +73,7 @@ http://www.telerik.com/help/aspnet-ajax/editor-inline-editing-mode.html http://d
 http://www.telerik.com/help/aspnet-ajax/editor-inner-toolbars-are-displayed-in-multiple-lines.html http://docs.telerik.com/devtools/ajax/editor/troubleshooting/inner-toolbars-are-displayed-in-multiple-lines
 http://www.telerik.com/help/aspnet-ajax/editor-insert-select.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/insert-select-element
 http://www.telerik.com/help/aspnet-ajax/editor-insert-table.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/dropdowns/insert-table
-http://www.telerik.com/help/aspnet-ajax/editor-inserting-text-from-text-control-at-cursor-position.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/insert-text-from-a-text-control-at-the-cursor-position
+http://www.telerik.com/help/aspnet-ajax/editor-inserting-text-from-text-control-at-cursor-position.html http://docs.telerik.com/devtools/ajax/editor/how-to/insert-text-from-a-text-control-at-the-cursor-position
 http://www.telerik.com/help/aspnet-ajax/editor-Introduction.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/creating-accessible-content/overview
 http://www.telerik.com/help/aspnet-ajax/editor-introduction2.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/overview
 http://www.telerik.com/help/aspnet-ajax/editor-keyboard-support.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/keyboard-support/overview
@@ -85,15 +85,15 @@ http://www.telerik.com/help/aspnet-ajax/editor-managing-content.html http://docs
 http://www.telerik.com/help/aspnet-ajax/editor-media.html http://docs.telerik.com/devtools/ajax/editor/functionality/dialogs/file-browser-dialogs/media
 http://www.telerik.com/help/aspnet-ajax/editor-migration-from-radeditor-classic-to-radeditor-prometheus.html http://docs.telerik.com/devtools/ajax/editor/changes-and-backwards-compatibility/migration-from-radeditor-classic-to-radeditor-for-asp.net-ajax
 http://www.telerik.com/help/aspnet-ajax/editor-mobile-support-overview.html http://docs.telerik.com/devtools/ajax/editor/mobile-support/overview
-http://www.telerik.com/help/aspnet-ajax/editor-obtaining-current-editor-selection-as-html.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/obtain-current-editor's-selection-as-html
-http://www.telerik.com/help/aspnet-ajax/editor-opening-link-in-new-window-on-doubleclick.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/open-link-in-a-new-window-on-double-click
-http://www.telerik.com/help/aspnet-ajax/editor-opening-link-in-new-window-when-clicked.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/open-link-in-a-new-window-when-clicked
+http://www.telerik.com/help/aspnet-ajax/editor-obtaining-current-editor-selection-as-html.html http://docs.telerik.com/devtools/ajax/editor/how-to/obtain-current-editor's-selection-as-html
+http://www.telerik.com/help/aspnet-ajax/editor-opening-link-in-new-window-on-doubleclick.html http://docs.telerik.com/devtools/ajax/editor/how-to/open-link-in-a-new-window-on-double-click
+http://www.telerik.com/help/aspnet-ajax/editor-opening-link-in-new-window-when-clicked.html http://docs.telerik.com/devtools/ajax/editor/how-to/open-link-in-a-new-window-when-clicked
 http://www.telerik.com/help/aspnet-ajax/editor-overview.html http://docs.telerik.com/devtools/ajax/editor/overview
 http://www.telerik.com/help/aspnet-ajax/editor-paragraph-styles.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/dropdowns/paragraph-styles
 http://www.telerik.com/help/aspnet-ajax/editor-pastehtml.html http://docs.telerik.com/devtools/ajax/editor/client-side-programming/methods/pastehtml
 http://www.telerik.com/help/aspnet-ajax/editor-performance-optimizations.html http://docs.telerik.com/devtools/ajax/editor/performance/optimizations
 http://www.telerik.com/help/aspnet-ajax/editor-preventing-cross-site-scripting.html http://docs.telerik.com/devtools/ajax/editor/managing-content/prevent-cross-site-scripting-(xss)
-http://www.telerik.com/help/aspnet-ajax/editor-printing-content-with-styles.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/print-content-with-styles
+http://www.telerik.com/help/aspnet-ajax/editor-printing-content-with-styles.html http://docs.telerik.com/devtools/ajax/editor/how-to/print-content-with-styles
 http://www.telerik.com/help/aspnet-ajax/editor-providing-good-color-contrasts-for-content.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/creating-accessible-content/provide-good-color-contrasts-for-content
 http://www.telerik.com/help/aspnet-ajax/editor-real-font-sizes.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/dropdowns/real-font-sizes
 http://www.telerik.com/help/aspnet-ajax/editor-removing-toolbar-buttons.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/buttons/remove-toolbar-buttons
@@ -140,7 +140,7 @@ http://www.telerik.com/help/aspnet-ajax/editor-using-css-styles.html http://docs
 http://www.telerik.com/help/aspnet-ajax/editor-using-global-resource-files.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/localization/global-resource-files
 http://www.telerik.com/help/aspnet-ajax/editor-using-headers-in-content.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/creating-accessible-content/use-headers-in-content
 http://www.telerik.com/help/aspnet-ajax/editor-using-newlinebr-property.html http://docs.telerik.com/devtools/ajax/editor/managing-content/control-new-line-behavior
-http://www.telerik.com/help/aspnet-ajax/editor-using-themes.html http://docs.telerik.com/devtools/ajax/editor/application-scenarios/use-themes
+http://www.telerik.com/help/aspnet-ajax/editor-using-themes.html http://docs.telerik.com/devtools/ajax/editor/how-to/use-themes
 http://www.telerik.com/help/aspnet-ajax/editor-using-toolsfile.html http://docs.telerik.com/devtools/ajax/editor/functionality/toolbars/using-toolsfile.xml
 http://www.telerik.com/help/aspnet-ajax/editor-wai-aria-support.html http://docs.telerik.com/devtools/ajax/editor/accessibility-and-internationalization/standards-compliance/wai-aria-support
 http://www.telerik.com/help/aspnet-ajax/editor-whats-new.html http://docs.telerik.com/devtools/ajax/editor/changes-and-backwards-compatibility/what's-new

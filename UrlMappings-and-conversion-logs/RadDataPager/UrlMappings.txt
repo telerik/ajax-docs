@@ -2,7 +2,7 @@ http://www.telerik.com/help/aspnet-ajax/datapager-overview.html http://docs.tele
 http://www.telerik.com/help/aspnet-ajax/datapager-localization.html http://docs.telerik.com/devtools/ajax/datapager/accessibility-and-internationalization/localization
 http://www.telerik.com/help/aspnet-ajax/datapager-wai-aria-support.html http://docs.telerik.com/devtools/ajax/datapager/accessibility-and-internationalization/wai-aria-support
 http://www.telerik.com/help/aspnet-ajax/datapager-skins.html http://docs.telerik.com/devtools/ajax/datapager/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/datapager-integration-with-listview.html http://docs.telerik.com/devtools/ajax/datapager/application-scenarios/integration-with-listview
+http://www.telerik.com/help/aspnet-ajax/datapager-integration-with-listview.html http://docs.telerik.com/devtools/ajax/datapager/how-to/integration-with-listview
 http://www.telerik.com/help/aspnet-ajax/datapager-getting-client-object.html http://docs.telerik.com/devtools/ajax/datapager/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/datapager-ondatapagercreated.html http://docs.telerik.com/devtools/ajax/datapager/client-side-programming/events/ondatapagercreated
 http://www.telerik.com/help/aspnet-ajax/datapager-ondatapagercreating.html http://docs.telerik.com/devtools/ajax/datapager/client-side-programming/events/ondatapagercreating

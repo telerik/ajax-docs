@@ -13,12 +13,12 @@ http://www.telerik.com/help/aspnet-ajax/tabstrip-appearance-migrating-skins.html
 http://www.telerik.com/help/aspnet-ajax/tabstrip-appearance-skins.html http://docs.telerik.com/devtools/ajax/tabstrip/appearance-and-styling/skins
 http://www.telerik.com/help/aspnet-ajax/tabstrip-appearance-sprite-guide.html http://docs.telerik.com/devtools/ajax/tabstrip/appearance-and-styling/sprite-guide
 http://www.telerik.com/help/aspnet-ajax/tabstrip-rtl.html http://docs.telerik.com/devtools/ajax/tabstrip/appearance-and-styling/rtl-support
-http://www.telerik.com/help/aspnet-ajax/tabstrip-change-tabs-mouseover.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/change-tabs-on-mouseover
-http://www.telerik.com/help/aspnet-ajax/tabstrip-create-closable-tabs-client-side.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/create-closable-tabs-client-side
-http://www.telerik.com/help/aspnet-ajax/tabstrip-get-previously-selected-tab.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/get-the-previously-selected-tab
-http://www.telerik.com/help/aspnet-ajax/tabstrip-implement-breadcrumb.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/implementing-show-path-and-breadcrumb
-http://www.telerik.com/help/aspnet-ajax/tabstrip-print-content-selected-radpageview-only.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/print-the-content-of-the-selected-radpageview-only
-http://www.telerik.com/help/aspnet-ajax/tabstrip-tab-wizard.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios/tab-wizard-at-client-side
+http://www.telerik.com/help/aspnet-ajax/tabstrip-change-tabs-mouseover.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/change-tabs-on-mouseover
+http://www.telerik.com/help/aspnet-ajax/tabstrip-create-closable-tabs-client-side.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/create-closable-tabs-client-side
+http://www.telerik.com/help/aspnet-ajax/tabstrip-get-previously-selected-tab.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/get-the-previously-selected-tab
+http://www.telerik.com/help/aspnet-ajax/tabstrip-implement-breadcrumb.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/implementing-show-path-and-breadcrumb
+http://www.telerik.com/help/aspnet-ajax/tabstrip-print-content-selected-radpageview-only.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/print-the-content-of-the-selected-radpageview-only
+http://www.telerik.com/help/aspnet-ajax/tabstrip-tab-wizard.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to/tab-wizard-at-client-side
 http://www.telerik.com/help/aspnet-ajax/tabstrip-client-side-access-changes-server.html http://docs.telerik.com/devtools/ajax/tabstrip/client-side-programming/accessing-client-changes-at-the-server
 http://www.telerik.com/help/aspnet-ajax/tabstrip-client-side-basics.html http://docs.telerik.com/devtools/ajax/tabstrip/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/tabstrip-client-side-events.html http://docs.telerik.com/devtools/ajax/tabstrip/client-side-programming/events
@@ -51,7 +51,7 @@ http://www.telerik.com/help/aspnet-ajax/tabstrip-design-navigation-tab-binding-c
 http://www.telerik.com/help/aspnet-ajax/tabstrip-design-radmultipage.html http://docs.telerik.com/devtools/ajax/tabstrip/design-time/design-time-support-for-radmultipage
 http://www.telerik.com/help/aspnet-ajax/tabstrip-design-smart-tag.html http://docs.telerik.com/devtools/ajax/tabstrip/design-time/smart-tag
 http://www.telerik.com/help/aspnet-ajax/tabstrip-design-template-design-surface.html http://docs.telerik.com/devtools/ajax/tabstrip/design-time/template-design-surface
-http://www.telerik.com/help/aspnet-ajax/tabstrip-faq.html http://docs.telerik.com/devtools/ajax/tabstrip/application-scenarios
+http://www.telerik.com/help/aspnet-ajax/tabstrip-faq.html http://docs.telerik.com/devtools/ajax/tabstrip/how-to
 http://www.telerik.com/help/aspnet-ajax/tabstrip-getting-started-databinding.html http://docs.telerik.com/devtools/ajax/tabstrip/getting-started/binding-to-a-data-source
 http://www.telerik.com/help/aspnet-ajax/tabstrip-getting-started.html http://docs.telerik.com/devtools/ajax/tabstrip/getting-started/getting-started
 http://www.telerik.com/help/aspnet-ajax/tabstrip-overview-structure.html http://docs.telerik.com/devtools/ajax/tabstrip/structure

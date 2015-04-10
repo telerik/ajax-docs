@@ -3,7 +3,7 @@ http://www.telerik.com/help/aspnet-ajax/formdecorator-client-side-api.html http:
 http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial:-create-lightweight-custom-skins
 http://www.telerik.com/help/aspnet-ajax/formdecorator-creating-custom-skins.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/tutorial:-create-custom-skins
 http://www.telerik.com/help/aspnet-ajax/formdecorator-css-classes.html http://docs.telerik.com/devtools/ajax/formdecorator/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/formdecorator-decorating-radwindow.html http://docs.telerik.com/devtools/ajax/formdecorator/application-scenarios/decorating-radwindow-when-decorationzoneid-is-set
+http://www.telerik.com/help/aspnet-ajax/formdecorator-decorating-radwindow.html http://docs.telerik.com/devtools/ajax/formdecorator/how-to/decorating-radwindow-when-decorationzoneid-is-set
 http://www.telerik.com/help/aspnet-ajax/formdecorator-design-smart-tag.html http://docs.telerik.com/devtools/ajax/formdecorator/design-time
 http://www.telerik.com/help/aspnet-ajax/formdecorator-integration-with-radcontrols.html http://docs.telerik.com/devtools/ajax/formdecorator/integration-with-radcontrols
 http://www.telerik.com/help/aspnet-ajax/formdecorator-integration-with-standard-controls.html http://docs.telerik.com/devtools/ajax/formdecorator/integration-with-standard-controls
@@ -14,5 +14,5 @@ http://www.telerik.com/help/aspnet-ajax/formdecorator-right-to-left-support.html
 http://www.telerik.com/help/aspnet-ajax/formdecorator-server-side-api.html http://docs.telerik.com/devtools/ajax/formdecorator/server-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/formdecorator-troubleshooting-checkbox-and-radio-button-click-event-is-not-fired.html http://docs.telerik.com/devtools/ajax/formdecorator/troubleshooting/checkbox-and-radio-button-click-event-is-not-fired
 http://www.telerik.com/help/aspnet-ajax/formdecorator-troubleshooting-input-appearance-is-not-updated-when-disabled-in-internet-explorer.html http://docs.telerik.com/devtools/ajax/formdecorator/troubleshooting/input-appearance-is-not-updated-when-disabled-in-internet-explorer
-http://www.telerik.com/help/aspnet-ajax/formdecorator-zone.html http://docs.telerik.com/devtools/ajax/formdecorator/application-scenarios/what-is-zone
+http://www.telerik.com/help/aspnet-ajax/formdecorator-zone.html http://docs.telerik.com/devtools/ajax/formdecorator/how-to/what-is-zone
 http://www.telerik.com/help/aspnet-ajax/formdecoratoroverview.html http://docs.telerik.com/devtools/ajax/formdecorator/overview

@@ -6,7 +6,7 @@ http://www.telerik.com/help/aspnet-ajax/listview-custom-layouts.html http://docs
 http://www.telerik.com/help/aspnet-ajax/listview-html-css.html http://docs.telerik.com/devtools/ajax/listview/appearance-and-styling/html-output-and-css-styling
 http://www.telerik.com/help/aspnet-ajax/listview-predefined-layouts.html http://docs.telerik.com/devtools/ajax/listview/layouts/predefined
 http://www.telerik.com/help/aspnet-ajax/listview-skins.html http://docs.telerik.com/devtools/ajax/listview/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/listview-data-with-images-from-database.html http://docs.telerik.com/devtools/ajax/listview/application-scenarios/listview-data-with-images-from-database
+http://www.telerik.com/help/aspnet-ajax/listview-data-with-images-from-database.html http://docs.telerik.com/devtools/ajax/listview/how-to/listview-data-with-images-from-database
 http://www.telerik.com/help/aspnet-ajax/listview-cancelinsert.html http://docs.telerik.com/devtools/ajax/listview/client-side-programming/radlistview/methods/cancelinsert
 http://www.telerik.com/help/aspnet-ajax/listview-cancelupdate.html http://docs.telerik.com/devtools/ajax/listview/client-side-programming/radlistview/methods/cancelupdate
 http://www.telerik.com/help/aspnet-ajax/listview-deleteitem.html http://docs.telerik.com/devtools/ajax/listview/client-side-programming/radlistview/methods/deleteitem

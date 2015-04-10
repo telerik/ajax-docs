@@ -4,7 +4,7 @@ http://www.telerik.com/help/aspnet-ajax/imageeditor-client-side-api.html http://
 http://www.telerik.com/help/aspnet-ajax/imageeditor-client-side-events.html http://docs.telerik.com/devtools/ajax/imageeditor/client-side-programming/events/client-side-events-basics
 http://www.telerik.com/help/aspnet-ajax/imageeditor-creating-custom-skin.html http://docs.telerik.com/devtools/ajax/imageeditor/appearance-and-styling/creating-a-custom-skin
 http://www.telerik.com/help/aspnet-ajax/imageeditor-css-skin-file-selectors.html http://docs.telerik.com/devtools/ajax/imageeditor/appearance-and-styling/css-classes
-http://www.telerik.com/help/aspnet-ajax/imageeditor-custom-crop-settings.html http://docs.telerik.com/devtools/ajax/imageeditor/application-scenarios/custom-crop-settings
+http://www.telerik.com/help/aspnet-ajax/imageeditor-custom-crop-settings.html http://docs.telerik.com/devtools/ajax/imageeditor/how-to/custom-crop-settings
 http://www.telerik.com/help/aspnet-ajax/imageeditor-custom-image-provider.html http://docs.telerik.com/devtools/ajax/imageeditor/functionality/using-a-custom-image-provider
 http://www.telerik.com/help/aspnet-ajax/imageeditor-custom-server-side-operations.html http://docs.telerik.com/devtools/ajax/imageeditor/functionality/custom-server-side-operations
 http://www.telerik.com/help/aspnet-ajax/imageeditor-externaldialogspath-property.html http://docs.telerik.com/devtools/ajax/imageeditor/functionality/loading-the-dialogs-from-external-files

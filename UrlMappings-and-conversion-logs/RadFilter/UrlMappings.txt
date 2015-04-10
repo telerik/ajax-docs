@@ -3,11 +3,11 @@ http://www.telerik.com/help/aspnet-ajax/filter-localization.html http://docs.tel
 http://www.telerik.com/help/aspnet-ajax/filter-wai-aria-support.html http://docs.telerik.com/devtools/ajax/filter/accessibility-and-internationalization/wai-aria-support
 http://www.telerik.com/help/aspnet-ajax/filter-html-css.html http://docs.telerik.com/devtools/ajax/filter/appearance-and-styling/html-output
 http://www.telerik.com/help/aspnet-ajax/filter-skins.html http://docs.telerik.com/devtools/ajax/filter/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/filter-contextmenu-scrolling.html http://docs.telerik.com/devtools/ajax/filter/application-scenarios/enable-scrolling-for-contextmenu-in-radfilter
-http://www.telerik.com/help/aspnet-ajax/filter-customizing-menu.html http://docs.telerik.com/devtools/ajax/filter/application-scenarios/customizing-the-menu
-http://www.telerik.com/help/aspnet-ajax/filter-datasourcecontrols.html http://docs.telerik.com/devtools/ajax/filter/application-scenarios/integration-with-datasource-controls
-http://www.telerik.com/help/aspnet-ajax/filter-grid-filtering.html http://docs.telerik.com/devtools/ajax/filter/application-scenarios/radgrid-filtering-with-radfilter
-http://www.telerik.com/help/aspnet-ajax/filter-listview-filtering.html http://docs.telerik.com/devtools/ajax/filter/application-scenarios/radlistview-filtering-with-radfilter
+http://www.telerik.com/help/aspnet-ajax/filter-contextmenu-scrolling.html http://docs.telerik.com/devtools/ajax/filter/how-to/enable-scrolling-for-contextmenu-in-radfilter
+http://www.telerik.com/help/aspnet-ajax/filter-customizing-menu.html http://docs.telerik.com/devtools/ajax/filter/how-to/customizing-the-menu
+http://www.telerik.com/help/aspnet-ajax/filter-datasourcecontrols.html http://docs.telerik.com/devtools/ajax/filter/how-to/integration-with-datasource-controls
+http://www.telerik.com/help/aspnet-ajax/filter-grid-filtering.html http://docs.telerik.com/devtools/ajax/filter/how-to/radgrid-filtering-with-radfilter
+http://www.telerik.com/help/aspnet-ajax/filter-listview-filtering.html http://docs.telerik.com/devtools/ajax/filter/how-to/radlistview-filtering-with-radfilter
 http://www.telerik.com/help/aspnet-ajax/filter-getting-familiar-with-client-side-api.html http://docs.telerik.com/devtools/ajax/filter/client-side-programming/overview
 http://www.telerik.com/help/aspnet-ajax/filter-design-time.html http://docs.telerik.com/devtools/ajax/filter/design-time
 http://www.telerik.com/help/aspnet-ajax/filter-adding-editors.html http://docs.telerik.com/devtools/ajax/filter/field-editors/programmatic-creation
