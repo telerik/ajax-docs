@@ -14,7 +14,7 @@ position: 1
 
 ## Filtering
 
-__RadAutoCompleteBox__ control provides implicit server-side filtering functionality, loading the drop-down items on demand.Once the user starts typing in the input area of the control, a request for new items is made to the server. The items are fetched from the server based on the value set to the__Filter__ property.
+__RadAutoCompleteBox__ control provides implicit server-side filtering functionality, loading the drop-down items on demand.Once the user starts typing in the input area of the control, a request for new items is made to the server. The items are fetched from the server based on the value set to the __Filter__ property.
 
 There are two __filtering__ options available:
 
@@ -45,15 +45,13 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 
 ````C#
 	
-	       AutoCompleteBoxData data = new AutoCompleteBoxData();
-	       data.EndOfItems = true;
+AutoCompleteBoxData data = new AutoCompleteBoxData();
+data.EndOfItems = true;
 	
 ````
 ````VB.NET
-	    Dim data As New AutoCompleteBoxData()
-	    data.EndOfItems = True
-	#End Region
-	End Class
+Dim data As New AutoCompleteBoxData()
+data.EndOfItems = True
 ````
 
 
@@ -62,4 +60,4 @@ When a __WebService__ binding scenario is implemented and you need to use the __
 >
 
 
-Both properties could be very useful in a heavy-data scenario. Controlling the __MaxFilterLength__, could give you the ability to perform a search in your database, regarding the sequence of the typed characters. If the result is still potentially large, you could use the__MaxResultCount__, in order to return the first 100 results for example.
+Both properties could be very useful in a heavy-data scenario. Controlling the __MaxFilterLength__, could give you the ability to perform a search in your database, regarding the sequence of the typed characters. If the result is still potentially large, you could use the __MaxResultCount__, in order to return the first 100 results for example.

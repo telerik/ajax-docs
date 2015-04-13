@@ -1,9 +1,9 @@
 ---
 title: Data Binding Overview
 page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+description: Telerik's ASP.NET AutoCompleteBox Overview
 slug: autocompletebox/data-binding/overview
-tags: overview
+tags: overview, autocompletebox
 published: True
 position: 0
 ---
@@ -34,7 +34,7 @@ The following properties and methods are used when binding RadAutoCompleteBox to
 
 * __DataSourceID__ property - set to the ID of your data source. This is mandatory when binding RadAutoCompleteBox declaratively.
 
-* __DataMember__ property - if the data source is a __DataSet__ and__DataMember__ is a set, then RadAutoCompleteBox is bound to the__DataTable__ with the respective name in the __DataSet__. If __DataMember__ is not set, RadAutoCompleteBox is bound to the first __DataTable__ in the __DataSet__.
+* __DataMember__ property - if the data source is a __DataSet__ and __DataMember__ is a set, then RadAutoCompleteBox is bound to the __DataTable__ with the respective name in the __DataSet__. If __DataMember__ is not set, RadAutoCompleteBox is bound to the first __DataTable__ in the __DataSet__.
 
 * __DataTextField__ property - field name from the data source bound to the AutoCompleteBoxItemData's __Text__ property.
 
@@ -53,7 +53,7 @@ You can also use [templates]({%slug autocompletebox/templates/server-templates%}
 Example:
 
 ````C#
-		<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
+<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
 ````
 
 

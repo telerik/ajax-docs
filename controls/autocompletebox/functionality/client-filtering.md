@@ -20,7 +20,7 @@ As of Q3 2013 release, we introduced a feature that is related to the filtering 
 
 ## How Does the Client Filtering Work
 
-Unlike the default behavior of the control, a callback is not fired upon each character typed in the input area. In contrast to that, if the__Client Filtering__ is enabled, the __RadAutoCompleteBox__ is initially supplied with the underlying DataSource. When you type characters in the input of the control, you only manage the visibility of the already loaded data.
+Unlike the default behavior of the control, a callback is not fired upon each character typed in the input area. In contrast to that, if the __Client Filtering__ is enabled, the __RadAutoCompleteBox__ is initially supplied with the underlying DataSource. When you type characters in the input of the control, you only manage the visibility of the already loaded data.
 
 ## Usage of the Client Filtering
 

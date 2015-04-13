@@ -14,13 +14,13 @@ position: 4
 
 ## AllowTokenEditing
 
-__RadAutoCompleteBox__ allows user to edit a single token by double-clicking it when the __AllowTokenEditing__property is set to __"true"__:
+__RadAutoCompleteBox__ allows user to edit a single token by double-clicking it when the __AllowTokenEditing__ property is set to __"true"__:
 
 ````ASPNET
-	    <telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" 
-	         DataSourceID="SqlDataSource1"  DataTextField="FirstName" InputType="Token" > 
-	        <TokensSettings AllowTokenEditing="true" /> 
-	    </telerik:RadAutoCompleteBox > 
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" 
+	 DataSourceID="SqlDataSource1"  DataTextField="FirstName" InputType="Token" > 
+	<TokensSettings AllowTokenEditing="true" /> 
+</telerik:RadAutoCompleteBox > 
 ````
 
 

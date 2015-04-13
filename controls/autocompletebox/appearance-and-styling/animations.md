@@ -79,10 +79,10 @@ The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadAutoCompleteBox__
 __Example 1:__ a sample animation configuration.
 
 ````ASPNET
-	    <telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
-	        <ExpandAnimation Type="InBounce" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadAutoCompleteBox>
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
+    <ExpandAnimation Type="InBounce" Duration="300" />
+    <CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadAutoCompleteBox>
 ````
 
 
