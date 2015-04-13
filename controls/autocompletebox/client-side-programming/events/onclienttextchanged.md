@@ -31,21 +31,21 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be preformed to RadAutoCompleteBox right after the text in the input area has been changed.
 
 ````JavaScript
-		<script type="text/javascript">
-			function textChanged(sender, eventArgs) {
-				alert("The text currently present in the input area of RadAutoCompleteBox is: " + eventArgs.get_text());
-			}
-		</script>
+<script type="text/javascript">
+	function textChanged(sender, eventArgs) {
+		alert("The text currently present in the input area of RadAutoCompleteBox is: " + eventArgs.get_text());
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientTextChanged="textChanged"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID" InputType="Text">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientTextChanged="textChanged"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID" InputType="Text">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

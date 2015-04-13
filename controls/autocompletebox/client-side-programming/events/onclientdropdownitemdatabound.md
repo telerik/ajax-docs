@@ -27,19 +27,19 @@ The event handler receives two parameters:
 * __get_dataItem()__ - returns a reference to the __DataItem__(__AutoCompleteBoxItemData__ or any other serializable custom object) that the current drop-down item is bound to.
 
 ````JavaScript
-		<script type="text/javascript">
-			function dropDownItemDataBound(sender, args) {
-				alert("Item with Text='" + args.get_item().get_text() + "' has just been bound.");
-			}
-		</script>
+<script type="text/javascript">
+	function dropDownItemDataBound(sender, args) {
+		alert("Item with Text='" + args.get_item().get_text() + "' has just been bound.");
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-			<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownItemDataBound="dropDownItemDataBound">
-				<WebServiceSettings Path="ClientTemplates.aspx" Method="GetChildren" />
-			</telerik:RadAutoCompleteBox>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownItemDataBound="dropDownItemDataBound">
+	<WebServiceSettings Path="ClientTemplates.aspx" Method="GetChildren" />
+</telerik:RadAutoCompleteBox>
 ````
 
 

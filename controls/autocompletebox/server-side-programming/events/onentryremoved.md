@@ -26,17 +26,17 @@ The __EntryRemoved__ event handler receives two arguments:
 
 ````C#
 	
-		protected void RadAutoCompleteBox1_EntryRemoved(object sender, AutoCompleteEntryEventArgs e)
-		{
-			Label1.Text = e.Entry.Text + " was removed.";
-		}
+protected void RadAutoCompleteBox1_EntryRemoved(object sender, AutoCompleteEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was removed.";
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadAutoCompleteBox1_EntryRemoved(sender As Object, e As AutoCompleteEntryEventArgs)
-	        Label1.Text = e.Entry.Text + " was removed."
-	    End Sub
+Protected Sub RadAutoCompleteBox1_EntryRemoved(sender As Object, e As AutoCompleteEntryEventArgs)
+	Label1.Text = e.Entry.Text + " was removed."
+End Sub
 	
 ````
 

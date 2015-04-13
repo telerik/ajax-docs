@@ -31,21 +31,21 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be preformed to RadAutoCompleteBox right after an item is added to the Entry collection.
 
 ````JavaScript
-		<script type="text/javascript">
-			function entryAdded(sender, eventArgs) {
-				alert("An item with Text='" + eventArgs.get_entry().get_text() + "' has just been selected.");
-			}
-		</script>
+<script type="text/javascript">
+	function entryAdded(sender, eventArgs) {
+		alert("An item with Text='" + eventArgs.get_entry().get_text() + "' has just been selected.");
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientEntryAdded="entryAdded"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID" InputType="Token">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientEntryAdded="entryAdded"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID" InputType="Token">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

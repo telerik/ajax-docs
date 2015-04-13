@@ -31,14 +31,14 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its __Data
 ## AccessDataSource
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="AccessDataSource1"
-				DataTextField="ProductName" DataValueField="ProductID">
-		</telerik:RadAutoCompleteBox>
-	
-		<asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
-				SelectCommand="SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
-				[UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]">
-		</asp:AccessDataSource>
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="AccessDataSource1"
+		DataTextField="ProductName" DataValueField="ProductID">
+</telerik:RadAutoCompleteBox>
+
+<asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
+		SelectCommand="SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
+		[UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]">
+</asp:AccessDataSource>
 ````
 
 
@@ -46,15 +46,15 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its __Data
 ## SqlDataSource
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
-				DataTextField="ProductName" DataValueField="ProductID">
-		</telerik:RadAutoCompleteBox>
-		
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-				ProviderName="<%$ ConnectionStrings:NorthwindConnectionString.ProviderName %>"
-				SelectCommand="SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
-				[UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]">
-		</asp:SqlDataSource>	
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"
+		DataTextField="ProductName" DataValueField="ProductID">
+</telerik:RadAutoCompleteBox>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+		ProviderName="<%$ ConnectionStrings:NorthwindConnectionString.ProviderName %>"
+		SelectCommand="SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
+		[UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]">
+</asp:SqlDataSource>	
 ````
 
 
@@ -62,11 +62,11 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its __Data
 ## XmlDataSource
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="Xmldatasource1"
-			DataTextField="Text" DataValueField="Value">
-		</telerik:RadAutoCompleteBox>
-	
-		<asp:XmlDataSource ID="Xmldatasource1" runat="server" DataFile="~/App_Data/RadAutoCompleteBox.xml" XPath="/Items/Item" />
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="Xmldatasource1"
+	DataTextField="Text" DataValueField="Value">
+</telerik:RadAutoCompleteBox>
+
+<asp:XmlDataSource ID="Xmldatasource1" runat="server" DataFile="~/App_Data/RadAutoCompleteBox.xml" XPath="/Items/Item" />
 ````
 
 
@@ -74,12 +74,12 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its __Data
 When using an __XmlDataSource__, the XML file should have the format shown below:
 
 ````XML
-		<Items>
-		  <Item Text="Barcelona" Value="14" />
-		  <Item Text="Bonn" Value="18" />
-		  <Item Text="Boston" Value="9" />
-		  <Item Text="Brussels" Value="17" />
-		</Items>
+<Items>
+  <Item Text="Barcelona" Value="14" />
+  <Item Text="Bonn" Value="18" />
+  <Item Text="Boston" Value="9" />
+  <Item Text="Brussels" Value="17" />
+</Items>
 ````
 
 
@@ -87,12 +87,12 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 ## ObjectDataSource
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="ObjectDataSource1"
-			DataTextField="Text" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-				
-		<asp:ObjectDataSource ID="ObjectDataSource1" TypeName="RadAutoCompleteBoxObjectData" SelectMethod="GetItems"
-		runat="server"></asp:ObjectDataSource>
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="ObjectDataSource1"
+	DataTextField="Text" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+		
+<asp:ObjectDataSource ID="ObjectDataSource1" TypeName="RadAutoCompleteBoxObjectData" SelectMethod="GetItems"
+runat="server"></asp:ObjectDataSource>
 ````
 
 
@@ -101,93 +101,93 @@ When using an __XmlDataSource__, the XML file should have the format shown below
 
 ````C#
 	
-		public class RadAutoCompleteBoxObjectData
-		{
-			public RadAutoCompleteBoxObjectData()
-			{
-			}
-	
-			public static List<AutoCompleteBoxDataItem> GetItems()
-			{
-				List<AutoCompleteBoxDataItem> itemsList = new List<AutoCompleteBoxDataItem>(); 
-				itemsList.Add(new AutoCompleteBoxDataItem(1, "New York")); 
-				itemsList.Add(new AutoCompleteBoxDataItem(2, "Rome")); 
-				itemsList.Add(new AutoCompleteBoxDataItem(3, "Paris"));
-				return itemsList;
-			}
-			public class AutoCompleteBoxDataItem
-			{
-				private string _text; 
-				private int _id;
-				public string Text 
-				{ 
-					get 
-					{ 
-						return _text; 
-					} 
-					set 
-					{ 
-						_text = value; 
-					} 
-				}
-				public int ID 
-				{ 
-					get 
-					{ 
-						return _id; 
-					} 
-					set 
-					{ 
-						_id = value; 
-					} 
-				}
-				public AutoCompleteBoxDataItem(int id, string text) 
-				{
-					_id = id; 
-					_text = text; 
-				}
-			}
+public class RadAutoCompleteBoxObjectData
+{
+	public RadAutoCompleteBoxObjectData()
+	{
+	}
+
+	public static List<AutoCompleteBoxDataItem> GetItems()
+	{
+		List<AutoCompleteBoxDataItem> itemsList = new List<AutoCompleteBoxDataItem>(); 
+		itemsList.Add(new AutoCompleteBoxDataItem(1, "New York")); 
+		itemsList.Add(new AutoCompleteBoxDataItem(2, "Rome")); 
+		itemsList.Add(new AutoCompleteBoxDataItem(3, "Paris"));
+		return itemsList;
+	}
+	public class AutoCompleteBoxDataItem
+	{
+		private string _text; 
+		private int _id;
+		public string Text 
+		{ 
+			get 
+			{ 
+				return _text; 
+			} 
+			set 
+			{ 
+				_text = value; 
+			} 
 		}
+		public int ID 
+		{ 
+			get 
+			{ 
+				return _id; 
+			} 
+			set 
+			{ 
+				_id = value; 
+			} 
+		}
+		public AutoCompleteBoxDataItem(int id, string text) 
+		{
+			_id = id; 
+			_text = text; 
+		}
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Public Class RadAutoCompleteBoxObjectData
-	        Public Sub New()
-	        End Sub
-	
-	        Public Shared Function GetItems() As List(Of AutoCompleteBoxDataItem)
-	            Dim itemsList As New List(Of AutoCompleteBoxDataItem)()
-	            itemsList.Add(New AutoCompleteBoxDataItem(1, "New York"))
-	            itemsList.Add(New AutoCompleteBoxDataItem(2, "Rome"))
-	            itemsList.Add(New AutoCompleteBoxDataItem(3, "Paris"))
-	            Return itemsList
-	        End Function
-	        Public Class AutoCompleteBoxDataItem
-	            Private _text As String
-	            Private _id As Integer
-	            Public Property Text() As String
-	                Get
-	                    Return _text
-	                End Get
-	                Set(value As String)
-	                    _text = value
-	                End Set
-	            End Property
-	            Public Property ID() As Integer
-	                Get
-	                    Return _id
-	                End Get
-	                Set(value As Integer)
-	                    _id = value
-	                End Set
-	            End Property
-	            Public Sub New(id As Integer, text As String)
-	                _id = id
-	                _text = text
-	            End Sub
-	        End Class
-	    End Class
+Public Class RadAutoCompleteBoxObjectData
+	Public Sub New()
+	End Sub
+
+	Public Shared Function GetItems() As List(Of AutoCompleteBoxDataItem)
+		Dim itemsList As New List(Of AutoCompleteBoxDataItem)()
+		itemsList.Add(New AutoCompleteBoxDataItem(1, "New York"))
+		itemsList.Add(New AutoCompleteBoxDataItem(2, "Rome"))
+		itemsList.Add(New AutoCompleteBoxDataItem(3, "Paris"))
+		Return itemsList
+	End Function
+	Public Class AutoCompleteBoxDataItem
+		Private _text As String
+		Private _id As Integer
+		Public Property Text() As String
+			Get
+				Return _text
+			End Get
+			Set(value As String)
+				_text = value
+			End Set
+		End Property
+		Public Property ID() As Integer
+			Get
+				Return _id
+			End Get
+			Set(value As Integer)
+				_id = value
+			End Set
+		End Property
+		Public Sub New(id As Integer, text As String)
+			_id = id
+			_text = text
+		End Sub
+	End Class
+End Class
 	
 ````
 

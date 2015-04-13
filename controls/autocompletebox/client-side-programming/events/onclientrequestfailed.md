@@ -29,23 +29,23 @@ The event handler receives two parameters:
 This event is used in scenarios when the default error message need to be hidden and a custom message need to be shown instead.
 
 ````JavaScript
-		<script type="text/javascript">
-			function requestFailed(sender, eventArgs) {
-				alert("There has been an error with the request.");
-				//Cancel the event to hide the default message. 
-				eventArgs.set_cancel(true);
-			}
-		</script>
+<script type="text/javascript">
+	function requestFailed(sender, eventArgs) {
+		alert("There has been an error with the request.");
+		//Cancel the event to hide the default message. 
+		eventArgs.set_cancel(true);
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequestFailed="requestFailed"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequestFailed="requestFailed"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

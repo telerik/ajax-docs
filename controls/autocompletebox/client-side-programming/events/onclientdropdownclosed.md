@@ -25,21 +25,21 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be performed to RadAutoCompleteBox right after the drop-down container is closed.
 
 ````JavaScript
-		<script type="text/javascript">
-			function dropDownClosed(sender, eventArgs) {
-				alert("The drop-down container has been closed.");
-			}
-		</script>
+<script type="text/javascript">
+	function dropDownClosed(sender, eventArgs) {
+		alert("The drop-down container has been closed.");
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownClosed="dropDownClosed"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownClosed="dropDownClosed"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

@@ -26,17 +26,17 @@ The __TextChanged__ event handler receives two arguments:
 
 ````C#
 	
-		protected void RadAutoCompleteBox1_TextChanged(object sender, AutoCompleteTextEventArgs e)
-		{
-			Label1.Text = "Text changed to: " + e.Text;
-		}
+protected void RadAutoCompleteBox1_TextChanged(object sender, AutoCompleteTextEventArgs e)
+{
+	Label1.Text = "Text changed to: " + e.Text;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadAutoCompleteBox1_TextChanged(sender As Object, e As AutoCompleteTextEventArgs)
-	        Label1.Text = "Text changed to: " + e.Text
-	    End Sub
+Protected Sub RadAutoCompleteBox1_TextChanged(sender As Object, e As AutoCompleteTextEventArgs)
+	Label1.Text = "Text changed to: " + e.Text
+End Sub
 	
 ````
 

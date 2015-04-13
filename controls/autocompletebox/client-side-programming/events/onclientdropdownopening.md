@@ -29,22 +29,22 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be performed to RadAutoCompleteBox before opening the drop-down container, or when the opening need to be canceled.
 
 ````JavaScript
-		<script type="text/javascript">
-			function dropDownOpening(sender, eventArgs) {
-				eventArgs.set_cancel(true);
-				alert(eventArgs.get_cancel());
-			}
-		</script>
+<script type="text/javascript">
+	function dropDownOpening(sender, eventArgs) {
+		eventArgs.set_cancel(true);
+		alert(eventArgs.get_cancel());
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownOpening="dropDownOpening"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownOpening="dropDownOpening"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

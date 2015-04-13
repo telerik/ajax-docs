@@ -19,11 +19,11 @@ Both __Array__ and __ArrayList__ could make an excelent data source for RadAutoC
 The declarations of RadAutoCompleteBox objects include no DataSourceID property or Items section:
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
-		</telerik:RadAutoCompleteBox>
-	
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox2" runat="server">
-		</telerik:RadAutoCompleteBox>
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
+</telerik:RadAutoCompleteBox>
+
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox2" runat="server">
+</telerik:RadAutoCompleteBox>
 ````
 
 
@@ -34,47 +34,47 @@ In the __Page_Load__ event handler create the Array and ArrayList and bind them 
 
 ````C#
 	
-		protected void Page_Load(object sender, EventArgs e)
-		{
-			BindToArrayList(RadAutoCompleteBox1);
-			BindToArray(RadAutoCompleteBox2);
-		}
-	
-		private void BindToArray(RadAutoCompleteBox autoCompleteBox)
-		{
-			string[] itemsList = { "One", "Two", "Three" };
-			autoCompleteBox.DataSource = itemsList;
-		}
-	
-		private void BindToArrayList(RadAutoCompleteBox autoCompleteBox)
-		{
-			ArrayList itemsList = new ArrayList();
-			itemsList.Add("One");
-			itemsList.Add("Two");
-			itemsList.Add("Three");
-			autoCompleteBox.DataSource = itemsList;
-		}
+protected void Page_Load(object sender, EventArgs e)
+{
+	BindToArrayList(RadAutoCompleteBox1);
+	BindToArray(RadAutoCompleteBox2);
+}
+
+private void BindToArray(RadAutoCompleteBox autoCompleteBox)
+{
+	string[] itemsList = { "One", "Two", "Three" };
+	autoCompleteBox.DataSource = itemsList;
+}
+
+private void BindToArrayList(RadAutoCompleteBox autoCompleteBox)
+{
+	ArrayList itemsList = new ArrayList();
+	itemsList.Add("One");
+	itemsList.Add("Two");
+	itemsList.Add("Three");
+	autoCompleteBox.DataSource = itemsList;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        BindToArrayList(RadAutoCompleteBox1)
-	        BindToArray(RadAutoCompleteBox2)
-	    End Sub 'Page_Load
-	
-	    Private Sub BindToArray(ByVal autoCompleteBox As RadAutoCompleteBox)
-	        Dim itemsList As String() = {"One", "Two", "Three"}
-	        autoCompleteBox.DataSource = itemsList
-	    End Sub 'BindToArray
-	
-	    Private Sub BindToArrayList(ByVal autoCompleteBox As RadAutoCompleteBox)
-	        Dim itemsList As New ArrayList()
-	        itemsList.Add("One")
-	        itemsList.Add("Two")
-	        itemsList.Add("Three")
-	        autoCompleteBox.DataSource = itemsList
-	    End Sub 'BindToArrayList
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+	BindToArrayList(RadAutoCompleteBox1)
+	BindToArray(RadAutoCompleteBox2)
+End Sub 'Page_Load
+
+Private Sub BindToArray(ByVal autoCompleteBox As RadAutoCompleteBox)
+	Dim itemsList As String() = {"One", "Two", "Three"}
+	autoCompleteBox.DataSource = itemsList
+End Sub 'BindToArray
+
+Private Sub BindToArrayList(ByVal autoCompleteBox As RadAutoCompleteBox)
+	Dim itemsList As New ArrayList()
+	itemsList.Add("One")
+	itemsList.Add("Two")
+	itemsList.Add("Three")
+	autoCompleteBox.DataSource = itemsList
+End Sub 'BindToArrayList
 	
 ````
 

@@ -35,25 +35,25 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be preformed to RadAutoCompleteBox right before a request to the server is initialized, or when the request needs to be canceled.
 
 ````JavaScript
-		<script type="text/javascript">
-			function requesting(sender, eventArgs) {
-				if (sender.get_text().length < 3) {
-					eventArgs.set_cancel(true);
-				}
-			}
-		</script>
+<script type="text/javascript">
+	function requesting(sender, eventArgs) {
+		if (sender.get_text().length < 3) {
+			eventArgs.set_cancel(true);
+		}
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-			<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequesting="requesting"
-				DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-			</telerik:RadAutoCompleteBox>
-	
-			<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-				SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]">
-			</asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequesting="requesting"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]">
+</asp:SqlDataSource>
 ````
 
 

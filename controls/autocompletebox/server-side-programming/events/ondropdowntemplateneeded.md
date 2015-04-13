@@ -25,12 +25,12 @@ The __DropDownTemplateNeeded__ event handler receives two arguments:
 Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 
 ````ASPNET
-	    <telerik:RadAutocompleteBox runat="server" id="RadAutoCompleteBox1" inputtype="Token"
-	        datasourceid="SqlDataSource1" width="400px" datatextfield="ContactName" dropdownwidth="400px"
-	        ondropdowntemplateneeded="RadAutoCompleteBox1_DropDownTemplateNeeded">
-	        </telerik:RadAutocompleteBox>
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-	        ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP 6 * FROM [CustomerPhotos]" />
+<telerik:RadAutocompleteBox runat="server" id="RadAutoCompleteBox1" inputtype="Token"
+	datasourceid="SqlDataSource1" width="400px" datatextfield="ContactName" dropdownwidth="400px"
+	ondropdowntemplateneeded="RadAutoCompleteBox1_DropDownTemplateNeeded">
+	</telerik:RadAutocompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+	ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP 6 * FROM [CustomerPhotos]" />
 ````
 
 
@@ -39,61 +39,61 @@ Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
 
 ````C#
 	
-		public partial class AutoComplete_Examples_Templates_DefaultCS : System.Web.UI.Page
-		{
-	
-			protected void RadAutoCompleteBox1_DropDownTemplateNeeded(object sender, AutoCompleteDropDownItemEventArgs e)
-			{
-				e.Item.Template = new CustomContentTemplate();
-			}
-		}
-	
-		class CustomContentTemplate : ITemplate
-		{
-			public void InstantiateIn(Control container)
-			{
-				Label label1 = new Label();
-				label1.Font.Bold = true;
-				label1.DataBinding += new EventHandler(label1_DataBinding);
-				container.Controls.Add(label1);
-			}
-	
-			private void label1_DataBinding(object sender, EventArgs e)
-			{
-				Label target = (Label)sender;
-				DropDownDataItem item = (DropDownDataItem)target.BindingContainer;
-				string itemText = (string)DataBinder.Eval(item.DataItem, "ContactName");
-				target.Text = itemText;
-			}
-		}
+public partial class AutoComplete_Examples_Templates_DefaultCS : System.Web.UI.Page
+{
+
+	protected void RadAutoCompleteBox1_DropDownTemplateNeeded(object sender, AutoCompleteDropDownItemEventArgs e)
+	{
+		e.Item.Template = new CustomContentTemplate();
+	}
+}
+
+class CustomContentTemplate : ITemplate
+{
+	public void InstantiateIn(Control container)
+	{
+		Label label1 = new Label();
+		label1.Font.Bold = true;
+		label1.DataBinding += new EventHandler(label1_DataBinding);
+		container.Controls.Add(label1);
+	}
+
+	private void label1_DataBinding(object sender, EventArgs e)
+	{
+		Label target = (Label)sender;
+		DropDownDataItem item = (DropDownDataItem)target.BindingContainer;
+		string itemText = (string)DataBinder.Eval(item.DataItem, "ContactName");
+		target.Text = itemText;
+	}
+}
 	
 ````
 ````VB.NET
 	
-	    Partial Public Class AutoComplete_Examples_Templates_DefaultCS
-	        Inherits System.Web.UI.Page
-	
-	        Protected Sub RadAutoCompleteBox1_DropDownTemplateNeeded(sender As Object, e As AutoCompleteDropDownItemEventArgs)
-	            e.Item.Template = New CustomContentTemplate()
-	        End Sub
-	    End Class
-	
-	    Class CustomContentTemplate
-	        Implements ITemplate
-	        Public Sub InstantiateIn(container As Control)
-	            Dim label1 As New Label()
-	            label1.Font.Bold = True
-	            label1.DataBinding += New EventHandler(label1_DataBinding)
-	            container.Controls.Add(label1)
-	        End Sub
-	
-	        Private Sub label1_DataBinding(sender As Object, e As EventArgs)
-	            Dim target As Label = DirectCast(sender, Label)
-	            Dim item As DropDownDataItem = DirectCast(target.BindingContainer, DropDownDataItem)
-	            Dim itemText As String = DirectCast(DataBinder.Eval(item.DataItem, "ContactName"), String)
-	            target.Text = itemText
-	        End Sub
-	    End Class
+Partial Public Class AutoComplete_Examples_Templates_DefaultCS
+	Inherits System.Web.UI.Page
+
+	Protected Sub RadAutoCompleteBox1_DropDownTemplateNeeded(sender As Object, e As AutoCompleteDropDownItemEventArgs)
+		e.Item.Template = New CustomContentTemplate()
+	End Sub
+End Class
+
+Class CustomContentTemplate
+	Implements ITemplate
+	Public Sub InstantiateIn(container As Control)
+		Dim label1 As New Label()
+		label1.Font.Bold = True
+		label1.DataBinding += New EventHandler(label1_DataBinding)
+		container.Controls.Add(label1)
+	End Sub
+
+	Private Sub label1_DataBinding(sender As Object, e As EventArgs)
+		Dim target As Label = DirectCast(sender, Label)
+		Dim item As DropDownDataItem = DirectCast(target.BindingContainer, DropDownDataItem)
+		Dim itemText As String = DirectCast(DataBinder.Eval(item.DataItem, "ContactName"), String)
+		target.Text = itemText
+	End Sub
+End Class
 	
 ````
 

@@ -31,21 +31,21 @@ The event handler receives two parameters:
 This event is used in scenarios when operations need to be preformed to RadAutoCompleteBox right after the data source items are loaded into the drop-down container.
 
 ````JavaScript
-		<script type="text/javascript">
-			function requested(sender, args) {
-				alert(args.get_text());
-			}
-		</script>
+<script type="text/javascript">
+	function requested(sender, args) {
+		alert(args.get_text());
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequested="requested"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoComplete1" OnClientRequested="requested"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

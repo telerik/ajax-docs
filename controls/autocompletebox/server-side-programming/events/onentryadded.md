@@ -26,17 +26,17 @@ The __EntryAdded__ event handler receives two arguments:
 
 ````C#
 	
-		protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
-		{
-			Label1.Text = e.Entry.Text + " was added.";
-		}
+protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was added.";
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadAutoCompleteBox1_EntryAdded(sender As Object, e As AutoCompleteEntryEventArgs)
-	        Label1.Text = e.Entry.Text + " was added."
-	    End Sub
+Protected Sub RadAutoCompleteBox1_EntryAdded(sender As Object, e As AutoCompleteEntryEventArgs)
+	Label1.Text = e.Entry.Text + " was added."
+End Sub
 	
 ````
 
