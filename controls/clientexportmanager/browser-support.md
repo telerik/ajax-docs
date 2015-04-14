@@ -14,9 +14,9 @@ position: 3
 
 ## Browser Support
 
-__RadClientExportManager__ for ASP.NET AJAX supports the following browsers:
+**RadClientExportManager** for ASP.NET AJAX supports the following browsers:
 
-* Internet Explorer 9+ (In IE9 and Safari the __RadClientExportManager__ requires its __ProxyURL__ to be set, as explained in the [IE9 and Safari Compatibility]({%slug clientexportmanager/troubleshooting/ie9-and-safari-compatibility%}) article).
+* Internet Explorer 9+ (In IE9 and Safari the **RadClientExportManager** requires its **ProxyURL** to be set, as explained in the [IE9 and Safari Compatibility]({%slug clientexportmanager/troubleshooting/ie9-and-safari-compatibility%}) article).
 
 * Firefox Current, previous and ESR
 

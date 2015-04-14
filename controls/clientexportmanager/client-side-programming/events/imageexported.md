@@ -12,17 +12,17 @@ position: 4
 
 
 
-The client-side __ImageExported__ event is raised when the image is already exported by __RadClientExportManager__.
+The client-side **ImageExported** event is raised when the image is already exported by **RadClientExportManager**.
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the __ImageExported__ property.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the **ImageExported** property.
 
 ## 
 
-The client-side __ImageExported__ event handler receives one argument:
+The client-side **ImageExported** event handler receives one argument:
 
 1. Sender—the [RadClientExportManager object]({%slug clientexportmanager/client-side-programming/overview%}) that fired the event.
 
-1. Event arguments—a __ClientExportManagerImageExportedEventArgs__ object.
+1. Event arguments—a **ClientExportManagerImageExportedEventArgs** object.
 
 # See Also
 

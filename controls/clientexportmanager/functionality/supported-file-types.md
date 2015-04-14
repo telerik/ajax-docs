@@ -14,111 +14,111 @@ position: 0
 
 ## Supported file types
 
-__RadClientExportManager__ for ASP.NET AJAX can export a specific DOM element or the entire page to the following file formats:
+**RadClientExportManager** for ASP.NET AJAX can export a specific DOM element or the entire page to the following file formats:
 
-* Portable Document Format (__PDF__)
+* Portable Document Format (**PDF**)
 
-* Scalable Vector Graphics (__SVG__)
+* Scalable Vector Graphics (**SVG**)
 
-* Portable Network Graphics (__PNG__)
+* Portable Network Graphics (**PNG**)
 
-* Bitmap image format (__BMP__)
+* Bitmap image format (**BMP**)
 
-* Joint Photographic Experts Group (__JPG__ or __JPEG__)
+* Joint Photographic Experts Group (**JPG** or **JPEG**)
 
 The following examples show the different settings and methods specific to each supported file type:
 
-__Example 1:__ Export a DOM element to PDF
+**Example 1:** Export a DOM element to PDF
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                 <PdfSettings filename="Myfile.pdf" />
-	            </telerik:RadClientExportManager>
-	            <input type="button" onclick="exportElement()" value="export" />
-	
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportPDF($telerik.$("#foo"));
-	                }
-	            </script>
+<div id="foo">Lorem ipsum dolor sit amet</div>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	 <PdfSettings filename="Myfile.pdf" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement()" value="export" />
+
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportPDF($telerik.$("#foo"));
+	}
+</script>
 ````
 
 
 
-__Example 2:__ Export a DOM element to SVG
+**Example 2:** Export a DOM element to SVG
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                <SvgSettings FileName="MyFile.svg" />
-	            </telerik:RadClientExportManager>
-	            <input type="button" onclick="exportElement()" value="export" />
-	
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportSvg($telerik.$("#foo"));
-	                }
-	            </script>
+<div id="foo">Lorem ipsum dolor sit amet</div>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<SvgSettings FileName="MyFile.svg" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement()" value="export" />
+
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportSvg($telerik.$("#foo"));
+	}
+</script>
 ````
 
 
 
-__Example 3:__ Export a DOM element to PNG
+**Example 3:** Export a DOM element to PNG
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                <ImageSettings FileName="MyFile.png" />
-	            </telerik:RadClientExportManager>
-	            <input type="button" onclick="exportElement()" value="export" />
-	
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportImage($telerik.$("#foo"));
-	                }
-	            </script>
+<div id="foo">Lorem ipsum dolor sit amet</div>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<ImageSettings FileName="MyFile.png" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement()" value="export" />
+
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportImage($telerik.$("#foo"));
+	}
+</script>
 ````
 
 
 
-__Example 4:__ Export a DOM element to BMP
+**Example 4:** Export a DOM element to BMP
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                <ImageSettings FileName="MyFile.bmp" />
-	            </telerik:RadClientExportManager>
-	            <input type="button" onclick="exportElement()" value="export" />
-	
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportImage($telerik.$("#foo"));
-	                }
-	            </script>
+<div id="foo">Lorem ipsum dolor sit amet</div>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<ImageSettings FileName="MyFile.bmp" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement()" value="export" />
+
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportImage($telerik.$("#foo"));
+	}
+</script>
 ````
 
 
 
-__Example 5:__ Export a DOM element to JPG
+**Example 5:** Export a DOM element to JPG
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                <ImageSettings FileName="MyFile.jpg" />
-	            </telerik:RadClientExportManager>
-	            <input type="button" onclick="exportElement()" value="export" />
-	
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportImage($telerik.$("#foo"));
-	                }
-	            </script>
+<div id="foo">Lorem ipsum dolor sit amet</div>
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<ImageSettings FileName="MyFile.jpg" />
+</telerik:RadClientExportManager>
+<input type="button" onclick="exportElement()" value="export" />
+
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportImage($telerik.$("#foo"));
+	}
+</script>
 ````
 
 

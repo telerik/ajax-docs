@@ -14,16 +14,16 @@ position: 2
 
 ## Smart Tag
 
-You can display the __RadClientExportManager__ Smart Tag by right clicking on the control in the Design window and choosing __Show Smart Tag__.
+You can display the **RadClientExportManager** Smart Tag by right clicking on the control in the Design window and choosing **Show Smart Tag**.
 >caption Figure 1: RadClientExportManager Smart Tag
 
 ![clientexportmanager-smart-tag](images/clientexportmanager-smart-tag.png)
 
 The Smart tag allows you to perform the following basic actions:
 
-* The __Add RadAjaxManager__ link adds a __RadAjaxManager__ component to your Web page, so you can configure partial postbacks through a comfortable control.
+* The **Add RadAjaxManager** link adds a **RadAjaxManager** component to your Web page, so you can configure partial postbacks through a comfortable control.
 
-* The __Add AddRadStyleSheetManager__ link adds a __RadStyleSheetManager__ to your Web page.
+* The **Add AddRadStyleSheetManager** link adds a **RadStyleSheetManager** to your Web page.
 
 * Explore learning resources - the last section of the Smart Tag provides several links to online documentation and code library.
 

@@ -12,17 +12,17 @@ position: 6
 
 
 
-The client-side __SvgExported__ event is raised when the svg is already exported by __RadClientExportManager__.
+The client-side **SvgExported** event is raised when the svg is already exported by **RadClientExportManager**.
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the __SvgExported__ property.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the **SvgExported** property.
 
 ## 
 
-The client-side __SvgExported__ event handler receives two arguments:
+The client-side **SvgExported** event handler receives two arguments:
 
 1. Sender—the [RadClientExportManager object]({%slug clientexportmanager/client-side-programming/overview%}) that fired the event.
 
-1. Event arguments—a __ClientExportManagerSvgExportedEventArgs__ object.
+1. Event arguments—a **ClientExportManagerSvgExportedEventArgs** object.
 
 # See Also
 

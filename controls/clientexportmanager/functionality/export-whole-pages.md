@@ -12,33 +12,33 @@ position: 1
 
 
 
-__RadClientExportManager__ can export the whole page or a specific DOM element.
+**RadClientExportManager** can export the whole page or a specific DOM element.
 
 ## 
 
-To export the whole page to a PDF document, you should pass the jQuery object wrapping the "<html>" DOM element, or the DOM element itself, to the [exportPDF]({%slug clientexportmanager/client-side-programming/overview%}) client-side method of the __RadClientExportManager__ object. To export to an image or SVG, you should use the [exportImage]({%slug clientexportmanager/client-side-programming/overview%}) and [exportSvg]({%slug clientexportmanager/client-side-programming/overview%}) client-side methods.
+To export the whole page to a PDF document, you should pass the jQuery object wrapping the "<html>" DOM element, or the DOM element itself, to the [exportPDF]({%slug clientexportmanager/client-side-programming/overview%}) client-side method of the **RadClientExportManager** object. To export to an image or SVG, you should use the [exportImage]({%slug clientexportmanager/client-side-programming/overview%}) and [exportSvg]({%slug clientexportmanager/client-side-programming/overview%}) client-side methods.
 
-__Example 1:__ Export the whole page to a PDF document
+**Example 1:** Export the whole page to a PDF document
 
 ````ASPNET
-	            <div id="foo">Lorem ipsum dolor sit amet</div>
-	
-	            <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	                <PdfSettings FileName="MyFile.pdf" />
-	            </telerik:RadClientExportManager>
-	
-	            <input type="button" onclick="exportElement()" value="export" />
+<div id="foo">Lorem ipsum dolor sit amet</div>
+
+<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+	<PdfSettings FileName="MyFile.pdf" />
+</telerik:RadClientExportManager>
+
+<input type="button" onclick="exportElement()" value="export" />
 ````
 
 
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function exportElement() {
-	                    var exp = $find("<%= RadClientExportManager1.ClientID %>");
-	                    exp.exportPDF($telerik.$("html"));
-	                }
-	            </script>
+<script type="text/javascript">
+	function exportElement() {
+		var exp = $find("<%= RadClientExportManager1.ClientID %>");
+		exp.exportPDF($telerik.$("html"));
+	}
+</script>
 ````
 
 
