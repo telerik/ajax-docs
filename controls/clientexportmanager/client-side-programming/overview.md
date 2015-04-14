@@ -40,35 +40,35 @@ The pdfSettings, imageSettings and svgSettings are JavaScript objects that conta
 **Example 1:** A sample definition of pdfSettings, imageSettings and svgSettings objects.
 
 ````JavaScript
-	        <script type="text/javascript">
-	            var pdfSettings = {
-	                filename: "PDF-Export",
-	                proxyURL: "http://www.proxy.com",
-	                margin: { top: 25, left: 15, bottom: 10, right: 5 },
-	                paperSize: "A4",
-	                landscape: "Portrait",
-	                title: "PDF",
-	                author: "UserName",
-	                subject: "Export to PDF",
-	                keywords: "a keyword",
-	                creator: "John",
-	                date: new Date(2015, 10, 25)
-	            };
-	
-	
-	            var imageSettings = {
-	                filename: "Image-Export",
-	                proxyURL: "http://www.proxy.com",
-	                width: 200,
-	                heigh: 400,
-	            };
-	
-	            var svgSettings = {
-	                filename: "SVG-Export",
-	                proxyURL: "http://www.proxy.com",
-	                raw: false
-	            };
-	        </script>
+<script type="text/javascript">
+	var pdfSettings = {
+		filename: "PDF-Export",
+		proxyURL: "http://www.proxy.com",
+		margin: { top: 25, left: 15, bottom: 10, right: 5 },
+		paperSize: "A4",
+		landscape: "Portrait",
+		title: "PDF",
+		author: "UserName",
+		subject: "Export to PDF",
+		keywords: "a keyword",
+		creator: "John",
+		date: new Date(2015, 10, 25)
+	};
+
+
+	var imageSettings = {
+		filename: "Image-Export",
+		proxyURL: "http://www.proxy.com",
+		width: 200,
+		heigh: 400,
+	};
+
+	var svgSettings = {
+		filename: "SVG-Export",
+		proxyURL: "http://www.proxy.com",
+		raw: false
+	};
+</script>
 ````
 
 
