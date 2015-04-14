@@ -14,6 +14,6 @@ position: 0
 
 ## 
 
-The __RadCloudUpload__ control exposes the following server-side event
+The **RadCloudUpload** control exposes the following server-side event
 
-* [OnUploadedFile]({%slug cloudupload/server-side-programming/onfileuploaded%}) occurs when the __RadCloudUpload__ is about to process an uploaded file. If there were multiple files uploaded, the event will be fired for each of the uploaded files.
+* [OnUploadedFile]({%slug cloudupload/server-side-programming/onfileuploaded%}) occurs when the **RadCloudUpload** is about to process an uploaded file. If there were multiple files uploaded, the event will be fired for each of the uploaded files.

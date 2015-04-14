@@ -14,4 +14,4 @@ position: 0
 
 ## Multiple File Selection
 
-With __RadCloudUpload__ it is possible to select multiple files. This can be achieved by setting the __MultipleFileSelection__ property to __Automatic__. Multiple file selection is possible only when client's browser supports HTML5 File API (FireFox, Chrome, Opera and IE10+).![cloudupload-multiple-file-selection](images/cloudupload-multiple-file-selection.png)
+With **RadCloudUpload** it is possible to select multiple files. This can be achieved by setting the **MultipleFileSelection** property to **Automatic**. Multiple file selection is possible only when client's browser supports HTML5 File API (FireFox, Chrome, Opera and IE10+).![cloudupload-multiple-file-selection](images/cloudupload-multiple-file-selection.png)

@@ -22,29 +22,29 @@ The event handler receives two parameters:
 
 1. An __eventArgs__ parameter containing the following methods:
 
-* __get_row__ returns the created row from the __FileListPanel__ section (<LI> element)
+* __get_row__ returns the created row from the __FileListPanel__ section (`<LI>` element)
 
 * __get_fileName__ returns the name of the file selected
 
 * __set_cancel__ cancel the upload process
 
 ````ASPNET
-	            <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploading="onClientFileUploading" ...>
-	            </telerik:RadCloudUpload>
+<telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploading="onClientFileUploading" ...>
+</telerik:RadCloudUpload>
 ````
 
 
 
 ````JavaScript
-	        function onClientFileUploading(sender, eventArgs) {
-	            alert(eventArgs.get_fileName().length);
-	            if (eventArgs.get_fileName().length > 20) {
-	                eventArgs.set_cancel(true);
-	            }
-	            else {
-	                eventArgs.set_cancel(false);
-	            }
-	        }
+function onClientFileUploading(sender, eventArgs) {
+	alert(eventArgs.get_fileName().length);
+	if (eventArgs.get_fileName().length > 20) {
+		eventArgs.set_cancel(true);
+	}
+	else {
+		eventArgs.set_cancel(false);
+	}
+}
 ````
 
 

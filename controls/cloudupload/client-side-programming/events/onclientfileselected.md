@@ -14,30 +14,30 @@ position: 2
 
 ## 
 
-The __OnClientFileSelected__ client-side event occurs when certain file has just been selected.
+The **OnClientFileSelected** client-side event occurs when certain file has just been selected.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadCloudUpload__ control firing the event.
+1. The instance of the **RadCloudUpload** control firing the event.
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __get_row__ returns the created row from the FileListPanel section (<LI> element)
+* **get_row** returns the created row from the FileListPanel section (`<LI>` element)
 
-* __get_fileName__ returns the name of the file selected
+* **get_fileName** returns the name of the file selected
 
 ````ASPNET
-	            <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileSelected="onClientFilesSelected" ...>
-	            </telerik:RadCloudUpload>
+<telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileSelected="onClientFilesSelected" ...>
+</telerik:RadCloudUpload>
 ````
 
 
 
 ````JavaScript
-	        function onClientFilesSelected(sender, eventArgs) {
-	            var fileName = eventArgs.get_fileName();
-	            alert(fileName)
-	        }
+function onClientFilesSelected(sender, eventArgs) {
+	var fileName = eventArgs.get_fileName();
+	alert(fileName)
+}
 ````
 
 

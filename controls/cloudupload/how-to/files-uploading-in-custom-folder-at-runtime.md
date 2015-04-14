@@ -12,19 +12,19 @@ position: 2
 
 
 
-This article gives a brief overview how to configure the __RadCloudUpload__to upload files in custom folders at runtime. For example this could be a scenario you need to upload files in multiple folders for one Cloud Storage Provider or in other words these are folders that differ from the sub folder defined in the web.config.
+This article gives a brief overview how to configure the **RadCloudUpload** to upload files in custom folders at runtime. For example this could be a scenario you need to upload files in multiple folders for one Cloud Storage Provider or in other words these are folders that differ from the sub folder defined in the web.config.
 
 ## Configure RadCloudUpload to upload files in one or multiple custom folders at Runtime
 
-To accomplish this scenario the __RadCloudUpload__ needs to be configured to use Custom Handler, where the default folder will be changed:
+To accomplish this scenario the **RadCloudUpload** needs to be configured to use Custom Handler, where the default folder will be changed:
 
 >note The following example is valid for a single and multiple files selections.
 >
 
 
 ````ASPNET
-	            <telerik:RadCloudUpload runat="server" ProviderType="Azure" MultipleFileSelection="Automatic" HttpHandlerUrl="~/UploadToCustomFolderHandler.ashx">
-	            </telerik:RadCloudUpload>
+<telerik:RadCloudUpload runat="server" ProviderType="Azure" MultipleFileSelection="Automatic" HttpHandlerUrl="~/UploadToCustomFolderHandler.ashx">
+</telerik:RadCloudUpload>
 ````
 
 
