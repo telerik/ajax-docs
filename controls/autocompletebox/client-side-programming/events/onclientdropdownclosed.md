@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientDropDownClosed__ client-side event occurs immediately after the drop-down container is closed.
+The **OnClientDropDownClosed** client-side event occurs immediately after the drop-down container is closed.
 
 The event handler receives two parameters:
 

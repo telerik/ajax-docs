@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-The __OnClientRequested__ client-side event occurs right after the requested items are loaded into the drop-down container.
+The **OnClientRequested** client-side event occurs right after the requested items are loaded into the drop-down container.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_text()__ - returns the text currently present in the input area.
+* **get_text()** - returns the text currently present in the input area.
 
-* __get_data()__ - returns an array of the entries in the dropdown.
+* **get_data()** - returns an array of the entries in the dropdown.
 
 * length - returns the number of the elements in the dropdown.
 

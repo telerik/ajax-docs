@@ -12,7 +12,7 @@ position: 3
 
 
 
-__RadAutoCompleteBox__ supports binding to all ASP.NET 2.0 DataSource components, including:
+**RadAutoCompleteBox** supports binding to all ASP.NET 2.0 DataSource components, including:
 
 * AccessDataSource
 
@@ -26,7 +26,7 @@ __RadAutoCompleteBox__ supports binding to all ASP.NET 2.0 DataSource components
 
 * LinqDataSource
 
-To bind RadAutoCompleteBox to a DataSource component, you need to set its __DataSourceID__ property to the ID of the DataSource component. You should also set its __DataTextField__ and __DataValueField__ properties to map the __Text__ and __Value__ properties of the items to the respective columns / fields from the data source.
+To bind RadAutoCompleteBox to a DataSource component, you need to set its **DataSourceID** property to the ID of the DataSource component. You should also set its **DataTextField** and **DataValueField** properties to map the **Text** and **Value** properties of the items to the respective columns / fields from the data source.
 
 ## AccessDataSource
 
@@ -71,7 +71,7 @@ To bind RadAutoCompleteBox to a DataSource component, you need to set its __Data
 
 
 
-When using an __XmlDataSource__, the XML file should have the format shown below:
+When using an **XmlDataSource**, the XML file should have the format shown below:
 
 ````XML
 <Items>

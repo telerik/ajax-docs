@@ -14,7 +14,7 @@ position: 4
 
 ## OnDataSourceSelect
 
-The __OnDataSourceSelect__ event is raised just before the result items are requested from the underlying DataSource. Provided with the ability to modify the parameters of the request via the SelectCommand,the user can implement the filtering directly on the SQL Server. Optimizing the query in such manner would significantly boost the performance.
+The **OnDataSourceSelect** event is raised just before the result items are requested from the underlying DataSource. Provided with the ability to modify the parameters of the request via the SelectCommand,the user can implement the filtering directly on the SQL Server. Optimizing the query in such manner would significantly boost the performance.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An event arguments parameter that contains the following properties:
 
-* __DataSource__ -returns a reference to the DataSource control.
+* **DataSource** -returns a reference to the DataSource control.
 
-* __FilterString__ -returns the text that is typed in the AutoCompleteBox.
+* **FilterString** -returns the text that is typed in the AutoCompleteBox.
 
 Here is a sample code demonstrating how this event can be used:
 

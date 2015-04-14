@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientRequesting__ client-side event occurs right before RadAutoCompleteBox sends a server-side request to load items into its drop-down container.
+The **OnClientRequesting** client-side event occurs right before RadAutoCompleteBox sends a server-side request to load items into its drop-down container.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_cancel()__ - returns a boolean value indicating whether the event has been canceled.
+* **get_cancel()** - returns a boolean value indicating whether the event has been canceled.
 
-* __set_cancel(boolean)__ - cancels the event depending on the value passed as an argument.
+* **set_cancel(boolean)** - cancels the event depending on the value passed as an argument.
 
-* __get_context()__ - returns an object representing the context of the request.The object returned by get_context() method has a propery named 'Text' which contains thetext currently present in the input area. This object is also used to pass context information to the server	when a request to the server is initiated by assigning a value to its 'Text' property.
+* **get_context()** - returns an object representing the context of the request.The object returned by get_context() method has a propery named 'Text' which contains thetext currently present in the input area. This object is also used to pass context information to the server	when a request to the server is initiated by assigning a value to its 'Text' property.
 
 >important get_context() method of the EventArgs parameter is used only when RadAutoCompleteBox is bound to Web service.
 >

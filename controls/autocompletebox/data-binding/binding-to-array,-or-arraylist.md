@@ -12,7 +12,7 @@ position: 1
 
 
 
-Both __Array__ and __ArrayList__ could make an excelent data source for RadAutoCompleteBox. The following example demonstrates a valid usage of both data sourses, defining them at runtime.
+Both **Array** and **ArrayList** could make an excelent data source for RadAutoCompleteBox. The following example demonstrates a valid usage of both data sourses, defining them at runtime.
 
 ## Binding to Array and ArrayList at runtime
 
@@ -28,7 +28,7 @@ The declarations of RadAutoCompleteBox objects include no DataSourceID property 
 
 
 
-In the __Page_Load__ event handler create the Array and ArrayList and bind them to the RadAutoCompleteBox objects. The __DataBind__ method must be called after setting the __DataSource__ property.
+In the **Page_Load** event handler create the Array and ArrayList and bind them to the RadAutoCompleteBox objects. The **DataBind** method must be called after setting the **DataSource** property.
 
 
 

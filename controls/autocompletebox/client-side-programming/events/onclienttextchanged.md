@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientTextChanged__ client-side event occurs when the text currently present in the input area is changed and RadAutoComplete has lost its focus.
+The **OnClientTextChanged** client-side event occurs when the text currently present in the input area is changed and RadAutoComplete has lost its focus.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_text()__ - returns the text currently present into the input area.
+* **get_text()** - returns the text currently present into the input area.
 
->important The __OnClientTextChanged__ client-side event is fired only when the input type of RadAutoCompleteBox is set to " __Text__ ".
+>important The **OnClientTextChanged** client-side event is fired only when the input type of RadAutoCompleteBox is set to " **Text** ".
 >
 
 

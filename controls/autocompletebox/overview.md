@@ -36,7 +36,7 @@ When a user starts typing into the input area, the data contained in the drop-do
 
 ## Summary of features supported by RadAutoCompleteBox
 
-* __Data Binding__
+* **Data Binding**
 
 * Declarative entries – defined in the markup, in the Entries section.
 
@@ -44,10 +44,10 @@ When a user starts typing into the input area, the data contained in the drop-do
 
 * Client-side – client API for setting data source using Web services, WCF services, and OData, to which RadAutoCompleteBox is bound.
 
-* __Filtering__ – client filter based on the users’ input. Users are given the possibility to choose from 'StartsWith' and 'Contains' filter mode. The default filter mode is set to 'Contains'.
+* **Filtering** – client filter based on the users’ input. Users are given the possibility to choose from 'StartsWith' and 'Contains' filter mode. The default filter mode is set to 'Contains'.
 
-* __Text and Token Input Types__ – depending on users’ preference, the selected items are displayed either as a sequence of strings separated by delimiter, or as tokens. The property to set the preferred visual appearance is InputType – the options to choose from are 'Text' and 'Token', having the 'Token' input type set by default.
+* **Text and Token Input Types** – depending on users’ preference, the selected items are displayed either as a sequence of strings separated by delimiter, or as tokens. The property to set the preferred visual appearance is InputType – the options to choose from are 'Text' and 'Token', having the 'Token' input type set by default.
 
-* __Selecting items from the drop-down container__– allows selection of multiple items from the drop-down list, inserting them to the Entry collectionof the control and visualizing them in the input area.
+* **Selecting items from the drop-down container**– allows selection of multiple items from the drop-down list, inserting them to the Entry collectionof the control and visualizing them in the input area.
 
-* __Templates__ – provides the ability to define your own visual presentation of the entries contained in the drop-down area. Server as well as client templates are supported out-of-the-box by RadAutoCompleteBox.
+* **Templates** – provides the ability to define your own visual presentation of the entries contained in the drop-down area. Server as well as client templates are supported out-of-the-box by RadAutoCompleteBox.

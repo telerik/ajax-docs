@@ -12,11 +12,11 @@ position: 2
 
 
 
-__RadAutoCompleteBox__ can be bound to a __DataTable__,__DataSet__, and __DataView__. The following example shows binding to a DataTable object.
+**RadAutoCompleteBox** can be bound to a **DataTable**,**DataSet**, and **DataView**. The following example shows binding to a DataTable object.
 
 ## Binding to a DataTable at runtime
 
-The declaration of __RadAutoCompleteBox__ in the markup includes no __DataSourceID__ property or __Items__ section.
+The declaration of **RadAutoCompleteBox** in the markup includes no **DataSourceID** property or **Items** section.
 
 ````ASPNET
 <telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" InputType="Text" runat="server">
@@ -25,7 +25,7 @@ The declaration of __RadAutoCompleteBox__ in the markup includes no __DataSource
 
 
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to RadAutoCompleteBox. The __DataBind__ method must be called after setting the __DataSource__ property.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then bind it to RadAutoCompleteBox. The **DataBind** method must be called after setting the **DataSource** property.
 
 
 

@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-The __DropDownTemplateNeeded__ event occurs before template is being applied to the drop-down item. It is commonly used for dynamic templating.
+The **DropDownTemplateNeeded** event occurs before template is being applied to the drop-down item. It is commonly used for dynamic templating.
 
-The __DropDownTemplateNeeded__ event handler receives two arguments:
+The **DropDownTemplateNeeded** event handler receives two arguments:
 
-1. The __RadAutoCompleteBox__ object. This argument is of type object, but can be cast to the __RadAutoCompleteBox__ type.
+1. The **RadAutoCompleteBox** object. This argument is of type object, but can be cast to the **RadAutoCompleteBox** type.
 
-1. An AutoCompleteDropDownItemEventArgs object. This object has an __Item__ property of type DropDownDataItem.
+1. An AutoCompleteDropDownItemEventArgs object. This object has an **Item** property of type DropDownDataItem.
 
-Use the __DropDownTemplateNeeded__ event handler create templates dynamically.
+Use the **DropDownTemplateNeeded** event handler create templates dynamically.
 
 ````ASPNET
 <telerik:RadAutocompleteBox runat="server" id="RadAutoCompleteBox1" inputtype="Token"

@@ -14,7 +14,7 @@ position: 4
 
 ## AllowTokenEditing
 
-__RadAutoCompleteBox__ allows user to edit a single token by double-clicking it when the __AllowTokenEditing__ property is set to __"true"__:
+**RadAutoCompleteBox** allows user to edit a single token by double-clicking it when the **AllowTokenEditing** property is set to **"true"**:
 
 ````ASPNET
 <telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" 
@@ -27,9 +27,9 @@ __RadAutoCompleteBox__ allows user to edit a single token by double-clicking it 
 
 Only one token can be edited at a time. If while a token is in edit mode another one is clicked- it goes in edit mode instead of the previous one.
 
-The user confirms Token text editing explicitly by pressing the __"Enter"__ key and the Token text editing is canceled if the focus moves out of the Token input, or the user presses __"Esc"__ key.
+The user confirms Token text editing explicitly by pressing the **"Enter"** key and the Token text editing is canceled if the focus moves out of the Token input, or the user presses **"Esc"** key.
 
->note The __AllowCustomEntry__ property should be set to __true__ in order to be able to edit tokens in __RadAutoCompleteBox__ control.
+>note The **AllowCustomEntry** property should be set to **true** in order to be able to edit tokens in **RadAutoCompleteBox** control.
 >
 
 

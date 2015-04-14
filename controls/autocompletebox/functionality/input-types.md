@@ -14,22 +14,22 @@ position: 0
 
 ## Entries Input Types
 
-RadAutoCompleteBox provides two different visual representations of its entries.The preferable visualization is set via the __InputType__ property of RadAutoCompleteBoxwhich takes one of the following two values:
+RadAutoCompleteBox provides two different visual representations of its entries.The preferable visualization is set via the **InputType** property of RadAutoCompleteBoxwhich takes one of the following two values:
 
-* __Token__ - visualizes the entries as tokens.
+* **Token** - visualizes the entries as tokens.
 
-* __Text__ - visualizes the entries as a series of strings separated by delimiter.
+* **Text** - visualizes the entries as a series of strings separated by delimiter.
 
 >note By default the text of the entries is represented as tokens.
 >
 
 
 
-|  __InputType="Token"__ . |  __InputType="Text"__ . |
+|  **InputType="Token"** . |  **InputType="Text"** . |
 | ------ | ------ |
 |![input type token](images/input_type_token.png)|![input type text](images/input_type_text.png)|
 
-Despite of the chosen input type, the entries of RadAutoCompleteBox will be accessible server-side through the__Entries__ collection.
+Despite of the chosen input type, the entries of RadAutoCompleteBox will be accessible server-side through the**Entries** collection.
 
 ````ASPNET
 <telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"

@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientEntryRemoved__ client-side event occurs immediately after an item from the drop-down containerhas been removed from the Entry collection of RadAutoCompleteBox.
+The **OnClientEntryRemoved** client-side event occurs immediately after an item from the drop-down containerhas been removed from the Entry collection of RadAutoCompleteBox.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_entry()__ - returns the item removed from the Entry collection.
+* **get_entry()** - returns the item removed from the Entry collection.
 
->important The __OnClientEntryRemoved__ client-side event is fired only when the input type of RadAutoCompleteBox is set to " __Token__ ".
+>important The **OnClientEntryRemoved** client-side event is fired only when the input type of RadAutoCompleteBox is set to " **Token** ".
 >
 
 

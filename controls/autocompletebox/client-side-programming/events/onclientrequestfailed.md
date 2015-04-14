@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientRequestFailed__ client-side event occurs in case of error while loading the drop-down items from the data source.
+The **OnClientRequestFailed** client-side event occurs in case of error while loading the drop-down items from the data source.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_errorMessage__ - returns the error message which contains information about the error that has occured.
+* **get_errorMessage** - returns the error message which contains information about the error that has occured.
 
-* __set_cancel__ - prevents the default error from displaying to the user, depending on the value passed as an argument.
+* **set_cancel** - prevents the default error from displaying to the user, depending on the value passed as an argument.
 
 This event is used in scenarios when the default error message need to be hidden and a custom message need to be shown instead.
 

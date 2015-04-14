@@ -14,21 +14,21 @@ position: 0
 
 ## Overview
 
-RadAutoCompleteBox provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a __DataItem__ and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
+RadAutoCompleteBox provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
 
-* __#=...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
+* **#=...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 
-* __#...#__ - Evaluates the JavaScript code expression inside, but does not output value.
+* **#...#** - Evaluates the JavaScript code expression inside, but does not output value.
 
-* __#:...#__ - Evaluates the JavaScript code expression or a string property from the data item, and outputs the HTML encoeded result in the template.
+* **#:...#** - Evaluates the JavaScript code expression or a string property from the data item, and outputs the HTML encoeded result in the template.
 
->important Client templates __can not__ contain server controls.
+>important Client templates **can not** contain server controls.
 >
 
 
 ## Server side representation
 
-On the server, the template will be represented as a string property of the control named __ClientDropDownItemTemplate__. The following application scenario shows an example of client templates.
+On the server, the template will be represented as a string property of the control named **ClientDropDownItemTemplate**. The following application scenario shows an example of client templates.
 
 ````ASPNET
 <telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox2" InputType="Token"
@@ -124,7 +124,7 @@ End Function
 
 
 
-|  __RadAutoCompleteBox__ before a selection is made. |  __RadAutoCompleteBox__ after a selection is made. |
+|  **RadAutoCompleteBox** before a selection is made. |  **RadAutoCompleteBox** after a selection is made. |
 | ------ | ------ |
 |![client templates before selection](images/client_templates_before_selection.png)|![client templates after selection](images/client_templates_after_selection.png)|
 

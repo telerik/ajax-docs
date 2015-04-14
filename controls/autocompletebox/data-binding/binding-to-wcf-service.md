@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-RadAutoCompleteBox supports WCF binding. The steps below show how to load items from WCF service. It also shows how to use the __context__ object to pass information from the client to the OperationContract.
+RadAutoCompleteBox supports WCF binding. The steps below show how to load items from WCF service. It also shows how to use the **context** object to pass information from the client to the OperationContract.
 
 ````JavaScript
 <script type="text/javascript">
@@ -28,7 +28,7 @@ RadAutoCompleteBox supports WCF binding. The steps below show how to load items 
 
 
 
-The path to the Web service and the name of the service method are specified in the __WebServiceSettings' Path__ and __Method__ properties:
+The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
 <telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox2" OnClientRequesting="requesting">

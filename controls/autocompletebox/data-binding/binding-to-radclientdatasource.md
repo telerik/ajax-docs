@@ -12,13 +12,13 @@ position: 7
 
 
 
-This article demonstrates how to bind __RadAutoCompleteBox__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadAutoCompleteBox** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadAutoCompleteBox can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadAutoCompleteBox __DataText__ and __DataValue__ fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadAutoCompleteBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadAutoCompleteBox can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadAutoCompleteBox **DataText** and **DataValue** fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadAutoCompleteBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
 
-The RadAutoCompleteBox property __MaxResultCount__ works in exactly the same manner as with any other data source control.
+The RadAutoCompleteBox property **MaxResultCount** works in exactly the same manner as with any other data source control.
 
 ## 
 

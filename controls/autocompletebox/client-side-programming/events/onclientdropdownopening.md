@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __OnClientDropDownOpening__ client-side event occurs right before the drop-down containerof RadAutoCompleteBox is opened.
+The **OnClientDropDownOpening** client-side event occurs right before the drop-down containerof RadAutoCompleteBox is opened.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following two methods:
 
-* __get_cancel()__ - returns a boolean value indicating whether the event has been canceled.
+* **get_cancel()** - returns a boolean value indicating whether the event has been canceled.
 
-* __set_cancel(boolean)__ - cancels the event depending on the value passed as an argument.
+* **set_cancel(boolean)** - cancels the event depending on the value passed as an argument.
 
 This event is used in scenarios when operations need to be performed to RadAutoCompleteBox before opening the drop-down container, or when the opening need to be canceled.
 
