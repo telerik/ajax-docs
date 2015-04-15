@@ -24,67 +24,67 @@ RadComboBox for ASP.NET AJAX offers improved HTML code that allows easier stylin
 |Input box & arrow|
 
 ````ASPNET
-	    <div class="ComboBox_{SkinName}">
-	    <input
-	    type="text"
-	    class="ComboBoxInput_{SkinName}" />
-	    <img class="ComboBoxImage_{SkinName}" />
+<div class="ComboBox_{SkinName}">
+<input
+type="text"
+class="ComboBoxInput_{SkinName}" />
+<img class="ComboBoxImage_{SkinName}" />
 ````
 
 |
 
 ````ASPNET
-	    <div class="RadComboBox RadComboBox_{SkinName}">
-	    <table><tbody><tr>
-	        <td class="rcbInputCell rcbInputCellLeft">
-	            <input
-	            type="text"
-	            class="rcbInput" />
-	        </td>
-	        <td class="rcbArrowCell rcbArrowCellRight">
-	            <a>select</a>
-	        </td>
-	        </tr></tbody></table>
-	    </div>
+<div class="RadComboBox RadComboBox_{SkinName}">
+<table><tbody><tr>
+	<td class="rcbInputCell rcbInputCellLeft">
+		<input
+		type="text"
+		class="rcbInput" />
+	</td>
+	<td class="rcbArrowCell rcbArrowCellRight">
+		<a>select</a>
+	</td>
+	</tr></tbody></table>
+</div>
 ````
 
 |
 |Drop-down|
 
 ````ASPNET
-	    <div class="ComboBoxDropDown_{SkinName}">
-	    <div class="ComboBoxHeader_{SkinName}">Header</div>
-	    <div>
-	        <div class="ComboBoxItem_{SkinName}">A</div>
-	        <div class="ComboBoxItem_{SkinName}">B</div>
-	        <div class="ComboBoxItem_{SkinName}">C</div>
-	        <div class="ComboBoxItemDisabled_{SkinName}">D</div>
-	    </div>
-	    <div class="ComboBoxMoreResultsBox_{SkinName}">
-	        <img class="ComboBoxMoreResultsImage_{SkinName}" />
-	        <div class="ComboBoxMoreResultsMessage_{SkinName}">
-	        </div>
-	    </div>
-	    </div>
+<div class="ComboBoxDropDown_{SkinName}">
+<div class="ComboBoxHeader_{SkinName}">Header</div>
+<div>
+	<div class="ComboBoxItem_{SkinName}">A</div>
+	<div class="ComboBoxItem_{SkinName}">B</div>
+	<div class="ComboBoxItem_{SkinName}">C</div>
+	<div class="ComboBoxItemDisabled_{SkinName}">D</div>
+</div>
+<div class="ComboBoxMoreResultsBox_{SkinName}">
+	<img class="ComboBoxMoreResultsImage_{SkinName}" />
+	<div class="ComboBoxMoreResultsMessage_{SkinName}">
+	</div>
+</div>
+</div>
 ````
 
 |
 
 ````ASPNET
-	    <div class="RadComboBoxDropDown_{SkinName}">
-	    <div class="rcbHeader">Header</div>
-	    <div class="rcbScroll">
-	        <ul class="rcbList">
-	            <li class="rcbItem">A</li>
-	            <li class="rcbItem">B</li>
-	            <li class="rcbItem">C</li>
-	            <li class="rcbDisabled">D</li>
-	        </ul>
-	    </div>
-	    <div class="rcbMoreResults">
-	        <a></a>
-	    </div>
+<div class="RadComboBoxDropDown_{SkinName}">
+	<div class="rcbHeader">Header</div>
+	<div class="rcbScroll">
+		<ul class="rcbList">
+			<li class="rcbItem">A</li>
+			<li class="rcbItem">B</li>
+			<li class="rcbItem">C</li>
+			<li class="rcbDisabled">D</li>
+		</ul>
 	</div>
+	<div class="rcbMoreResults">
+		<a></a>
+	</div>
+</div>
 ````
 
 |

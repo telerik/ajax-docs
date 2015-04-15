@@ -14,19 +14,19 @@ position: 11
 
 ## 
 
-__RadComboBox__ provides support for locales that read right-to-left. All you need do to achieve a RTL look and feel is mark the __RadComboBox__ instance with __dir="rtl"__.
+**RadComboBox** provides support for locales that read right-to-left. All you need do to achieve a RTL look and feel is mark the **RadComboBox** instance with **dir="rtl"**.
 
 ````ASPNET
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        height="140px" 
-	        skin="Default"
-	        width="150px" 
-	        contentfile="~/App_Data/combobox.xml" 
-	        showtoggleimage="True" 
-	        dir="rtl">
-	    </telerik:radcombobox>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	height="140px" 
+	skin="Default"
+	width="150px" 
+	contentfile="~/App_Data/combobox.xml" 
+	showtoggleimage="True" 
+	dir="rtl">
+</telerik:radcombobox>
 ````
 
 

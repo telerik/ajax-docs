@@ -17,23 +17,23 @@ position: 10
 To make a RadComboBoxItem separator you should simply mark the item with IsSeparator="True"
 
 ````ASPNET
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        height="140px" 
-	        width="150px"
-	        accesskey="T" 
-	        tabindex="1" 
-	        tooltip="Select a city">   
-	         <Items>       
-	              <telerik:RadComboBoxItem runat="server" IsSeparator="True" Text="Animals" />       
-	              <telerik:RadComboBoxItem runat="server" Text="pig" />        
-	              <telerik:RadComboBoxItem runat="server" Text="dog" />        
-	              <telerik:RadComboBoxItem runat="server" IsSeparator="True" Text="Birds" />        
-	              <telerik:RadComboBoxItem runat="server" Text="Eagle" />        
-	          </Items>    
-	      <CollapseAnimation Duration="200" Type="OutQuint" />
-	      </telerik:radcombobox>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	height="140px" 
+	width="150px"
+	accesskey="T" 
+	tabindex="1" 
+	tooltip="Select a city">   
+	<Items>       
+		<telerik:RadComboBoxItem runat="server" IsSeparator="True" Text="Animals" />       
+		<telerik:RadComboBoxItem runat="server" Text="pig" />        
+		<telerik:RadComboBoxItem runat="server" Text="dog" />        
+		<telerik:RadComboBoxItem runat="server" IsSeparator="True" Text="Birds" />        
+		<telerik:RadComboBoxItem runat="server" Text="Eagle" />        
+	</Items>    
+	<CollapseAnimation Duration="200" Type="OutQuint" />
+</telerik:radcombobox>
 ````
 
 
@@ -43,44 +43,44 @@ To make a RadComboBoxItem separator you should simply mark the item with IsSepar
 ````C#
 	     
 	
-	    RadComboBoxItem item = new RadComboBoxItem();
-	    item.Text = "Separator";
-	    item.IsSeparator = true;
+RadComboBoxItem item = new RadComboBoxItem();
+item.Text = "Separator";
+item.IsSeparator = true;
 				
 ````
 ````VB.NET
 	
 	
-	    Dim item As RadComboBoxItem = New RadComboBoxItem()
-	    item.Text = "Separator"
-	    item.IsSeparator = true
+Dim item As RadComboBoxItem = New RadComboBoxItem()
+item.Text = "Separator"
+item.IsSeparator = true
 				
 ````
 
 
 ## Client-side methods
 
-At the client-side, you can check whether an item is a separator using the __get_isSeperator()__ method:
+At the client-side, you can check whether an item is a separator using the **get_isSeperator()** method:
 
 ````JavaScript
 	
-	        var comboBox = $find("<%=RadComboBox1.ClientID %>");
-	        var item = comboBox.findItemByText("Separator");
-	        if (item.get_isSeparator()) {
-	            alert("The item is a separator"); 
-	         }
+var comboBox = $find("<%=RadComboBox1.ClientID %>");
+var item = comboBox.findItemByText("Separator");
+if (item.get_isSeparator()) {
+	alert("The item is a separator"); 
+}
 	
 ````
 
 
 
-To make an item a separator, you can use the __set_isSeparator()__ method:
+To make an item a separator, you can use the **set_isSeparator()** method:
 
 ````JavaScript
 	
-	        var comboBox = $find("<%=RadComboBox1.ClientID %>");
-	        var item = comboBox.findItemByText("Separator");
-	        item.set_isSeparator(true);
+var comboBox = $find("<%=RadComboBox1.ClientID %>");
+var item = comboBox.findItemByText("Separator");
+item.set_isSeparator(true);
 	
 ````
 
@@ -90,17 +90,17 @@ To make an item a separator, you can use the __set_isSeparator()__ method:
 
 The CSS class applied to the RadComboBox separators is called:
 
-__rcbSeparator__
+**rcbSeparator**
 
-To define your custom appearance you should simply add a style to the __<head>__ tag of your aspx page holding the combobox:
+To define your custom appearance you should simply add a style to the **`<head>`** tag of your aspx page holding the combobox:
 
 ````ASPNET
-	    <style>
-	      .rcbSeparator
-	         {
-	             //you custom definition, i.e.  color: red !important;
-	         }
-	    </style>
+<style>
+  .rcbSeparator
+	 {
+		 //you custom definition, i.e.  color: red !important;
+	 }
+</style>
 ````
 
 

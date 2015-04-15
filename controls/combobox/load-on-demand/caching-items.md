@@ -14,23 +14,23 @@ position: 4
 
 ## 
 
-As of Q1 SP2, RadComboBox introduces a new property - __EnableItemCaching__. It can be used __only__ in Load-on-demand scenario.
+As of Q1 SP2, RadComboBox introduces a new property - **EnableItemCaching**. It can be used **only** in Load-on-demand scenario.
 
-When __EnableItemCaching__ is set to True (by default it is False), the combobox will cache the items returned for every request. This means that if you type a given text and the combobox returns some items - they will be cached and the next time you type the same text - the __ItemsRequested__server-side event will not fire, but the items will load from the cache. This will decrease the server round-trips and improve the performance in cases where the number of items is huge.
+When **EnableItemCaching** is set to True (by default it is False), the combobox will cache the items returned for every request. This means that if you type a given text and the combobox returns some items - they will be cached and the next time you type the same text - the **ItemsRequested** server-side event will not fire, but the items will load from the cache. This will decrease the server round-trips and improve the performance in cases where the number of items is huge.
 
 Here is a simple example:
 
 ````ASPNET
-	    <telerik:radcombobox 
-	        id="RadComboBox4" 
-	        runat="server" 
-	        enableitemcaching="True" 
-	        enableloadondemand="True"
-	        onitemsrequested="RadComboBox4_ItemsRequested">
-	    </telerik:radcombobox>
-	    <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        runat="server">
-	    </asp:SqlDataSource>
+<telerik:radcombobox 
+	id="RadComboBox4" 
+	runat="server" 
+	enableitemcaching="True" 
+	enableloadondemand="True"
+	onitemsrequested="RadComboBox4_ItemsRequested">
+</telerik:radcombobox>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	runat="server">
+</asp:SqlDataSource>
 ````
 
 
@@ -39,25 +39,24 @@ Here is a simple example:
 
 ````C#
 	
-	    protected void RadComboBox4_ItemsRequested(object o, RadComboBoxItemsRequestedEventArgs e) 
-	    {
-	        RadComboBox4.DataSourceID = "SqlDataSource1"; 
-	        string selectCommand = "SELECT * FROM CUSTOMERS WHERE CompanyName LIKE '" + e.Text + "%'"; 
-	        SqlDataSource1.SelectCommand = selectCommand; 
-	        RadComboBox4.DataTextField = "CompanyName"; RadComboBox4.DataBind(); 
-	    }
+protected void RadComboBox4_ItemsRequested(object o, RadComboBoxItemsRequestedEventArgs e) 
+{
+	RadComboBox4.DataSourceID = "SqlDataSource1"; 
+	string selectCommand = "SELECT * FROM CUSTOMERS WHERE CompanyName LIKE '" + e.Text + "%'"; 
+	SqlDataSource1.SelectCommand = selectCommand; 
+	RadComboBox4.DataTextField = "CompanyName"; RadComboBox4.DataBind(); 
+}
 	
 ````
 ````VB.NET
-	
-	
-	    Protected Sub RadComboBox4_ItemsRequested(ByVal o As Object, ByVal e As RadComboBoxItemsRequestedEventArgs) Handles RadComboBox4.ItemsRequested
-	        RadComboBox4.DataSourceID = "SqlDataSource1"
-	        Dim selectCommand As String = "SELECT * FROM CUSTOMERS WHERE CompanyName LIKE '" + e.Text + "%'"
-	        SqlDataSource1.SelectCommand = selectCommand
-	        RadComboBox4.DataTextField = "CompanyName"
-	        RadComboBox4.DataBind()
-	    End Sub
+		
+Protected Sub RadComboBox4_ItemsRequested(ByVal o As Object, ByVal e As RadComboBoxItemsRequestedEventArgs) Handles RadComboBox4.ItemsRequested
+	RadComboBox4.DataSourceID = "SqlDataSource1"
+	Dim selectCommand As String = "SELECT * FROM CUSTOMERS WHERE CompanyName LIKE '" + e.Text + "%'"
+	SqlDataSource1.SelectCommand = selectCommand
+	RadComboBox4.DataTextField = "CompanyName"
+	RadComboBox4.DataBind()
+End Sub
 	
 ````
 

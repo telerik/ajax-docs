@@ -14,7 +14,7 @@ position: 4
 
 ## Compliance Level
 
-RadComboBox for ASP.NET AJAX satisfies the requirements of __"Section 508"__ for software accessibility, as well as those for __"Level AAA"__ (in compliance with the __W3C Web Accessibility Guidelines 2.0__).
+RadComboBox for ASP.NET AJAX satisfies the requirements of **"Section 508"** for software accessibility, as well as those for **"Level AAA"** (in compliance with the **W3C Web Accessibility Guidelines 2.0**).
 
 ## Section 508
 
@@ -28,11 +28,11 @@ The main goal of these guidelines is to encourage developers in creating applica
 
 In accordance with these guidelines W3C defines three levels of conformance developers may implement in order to provide some level of content compliance to their products:
 
-* __Compliance Level "A"__
+* **Compliance Level "A"**
 
-* __Compliance Level "AA"__
+* **Compliance Level "AA"**
 
-* __Compliance Level "AAA"__
+* **Compliance Level "AAA"**
 
 
 

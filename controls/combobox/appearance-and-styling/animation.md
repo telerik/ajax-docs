@@ -14,77 +14,76 @@ position: 8
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadComboBox__ are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify __Type__ and __Duration__:
+The **ExpandAnimation** and **CollapseAnimation** tags of **RadComboBox** are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
 
-* The __Type__ is one of the following pre-defined animation types:
+* The **Type** is one of the following pre-defined animation types:
 
-* Linear
+	* Linear
 
-* InQuad
+	* InQuad
 
-* OutQuad
+	* OutQuad
 
-* InOutQuad
+	* InOutQuad
 
-* InCubic
+	* InCubic
 
-* OutCubic
+	* OutCubic
 
-* InOutCubic
+	* InOutCubic
 
-* InQuart
+	* InQuart
 
-* OutQuart
+	* OutQuart
 
-* InOutQuart
+	* InOutQuart
 
-* InQuint
+	* InQuint
 
-* OutQuint
+	* OutQuint
 
-* InOutQuint
+	* InOutQuint
 
-* InSine
+	* InSine
 
-* OutSine
+	* OutSine
 
-* InOutSine
+	* InOutSine
 
-* InExpo
+	* InExpo
 
-* OutExpo
+	* OutExpo
 
-* InOutExpo
+	* InOutExpo
 
-* InBack
+	* InBack
 
-* OutBack
+	* OutBack
 
-* InOutBack
+	* InOutBack
 
-* InBounce
+	* InBounce
 
-* OutBounce
+	* OutBounce
 
-* InOutBounce
+	* InOutBounce
 
-* InElastic
+	* InElastic
 
-* OutElastic
+	* OutElastic
 
-* InOutElastic
+	* InOutElastic
 
-* The __Duration__ is set in milliseconds.
+* The **Duration** is set in milliseconds.
 
-* 
 
 ````ASPNET
-	    <telerik:RadComboBox ID="RadComboBox1" runat="server">
-	        <ExpandAnimation Type="InBounce" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadComboBox>
+<telerik:RadComboBox ID="RadComboBox1" runat="server">
+	<ExpandAnimation Type="InBounce" Duration="300" />
+	<CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadComboBox>
 ````
 
 
 
-* You can see a live example here: [Animation](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/expandanimation/defaultcs.aspx).
+You can see a live example here: [Animation](http://demos.telerik.com/aspnet-ajax/combobox/examples/functionality/expandanimation/defaultcs.aspx).
