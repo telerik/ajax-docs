@@ -10,7 +10,7 @@ position: 2
 
 # Types
 
-
+ 
 
 ## Codabar
 
