@@ -17,78 +17,78 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 ## 
 
 ````JavaScript
-			<script type="text/javascript" language="javascript">
-				function addNewEntry(sender, args) {
-					var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
-					var textBox = $find("RadTextBox1");
-					if (textBox.get_value() == "") return;
-					var entry = new Telerik.Web.UI.AutoCompleteBoxEntry();
-					entry.set_text(textBox.get_value());
-					autoCompleteBox.get_entries().add(entry);
-				}
-	
-				function removeEntry(sender, args) {
-					var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
-					var firstEntry = autoCompleteBox.get_entries().getEntry(0);
-					if (firstEntry) {
-						autoCompleteBox.get_entries().remove(firstEntry);
-					}
-				}
-	
-				function printSelectedEntries(sender, args) {
-					var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
-					var label = $telerik.$("#Label1")[0];
-					var entriesCount = autoCompleteBox.get_entries().get_count();
-					if (entriesCount == 0)
-						label.innerHTML = "There are no selected entries!";
-					else {
-						label.innerHTML = "Selected entries: ";
-						for (var i = 0; i < entriesCount; i++) {
-							label.innerHTML += autoCompleteBox.get_entries().getEntry(i).get_text() + ", ";
-						}
-						var innerHTML = label.innerHTML;
-						label.innerHTML = innerHTML.substr(0, innerHTML.length - 2);
-					}
-	
-				}
-	
-				function clearAllEntries(sender, args) {
-					$find("RadAutoCompleteBox1").get_entries().clear();
-				}
-			</script>
+<script type="text/javascript" language="javascript">
+	function addNewEntry(sender, args) {
+		var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
+		var textBox = $find("RadTextBox1");
+		if (textBox.get_value() == "") return;
+		var entry = new Telerik.Web.UI.AutoCompleteBoxEntry();
+		entry.set_text(textBox.get_value());
+		autoCompleteBox.get_entries().add(entry);
+	}
+
+	function removeEntry(sender, args) {
+		var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
+		var firstEntry = autoCompleteBox.get_entries().getEntry(0);
+		if (firstEntry) {
+			autoCompleteBox.get_entries().remove(firstEntry);
+		}
+	}
+
+	function printSelectedEntries(sender, args) {
+		var autoCompleteBox = $find("<%= RadAutoCompleteBox1.ClientID %>");
+		var label = $telerik.$("#Label1")[0];
+		var entriesCount = autoCompleteBox.get_entries().get_count();
+		if (entriesCount == 0)
+			label.innerHTML = "There are no selected entries!";
+		else {
+			label.innerHTML = "Selected entries: ";
+			for (var i = 0; i < entriesCount; i++) {
+				label.innerHTML += autoCompleteBox.get_entries().getEntry(i).get_text() + ", ";
+			}
+			var innerHTML = label.innerHTML;
+			label.innerHTML = innerHTML.substr(0, innerHTML.length - 2);
+		}
+
+	}
+
+	function clearAllEntries(sender, args) {
+		$find("RadAutoCompleteBox1").get_entries().clear();
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-			<div>
-				<telerik:RadTextBox runat="server" ID="RadTextBox1" EmptyMessage="Type an entry" />
-				<telerik:RadButton runat="server" ID="RadButton1" OnClientClicked="addNewEntry" Text="Add new entry"
-					AutoPostBack="false" />
-			</div>
-			<br />
-			<div>
-				<telerik:RadButton runat="server" ID="RadButton2" OnClientClicked="removeEntry" Text="Remove first entry"
-					AutoPostBack="false" />
-				<telerik:RadButton runat="server" ID="RadButton4" OnClientClicked="clearAllEntries"
-					Text="Clear all entries" AutoPostBack="false" />
-			</div>
-			<br />
-			<div>
-				<telerik:RadButton runat="server" ID="RadButton3" OnClientClicked="printSelectedEntries"
-					Text="Print all selected entries" AutoPostBack="false" />
-				<asp:Label runat="server" ID="Label1" />
-			</div>
-			<br />
-			<div>
-				<label>RadAutoCompleteBox:</label>
-				<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
-					InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
-					DataValueField="ID">
-				</telerik:RadAutoCompleteBox>
-				<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-					SelectCommand="SELECT [ID], [NAME] FROM [Cities]"></asp:SqlDataSource>
-			</div>
+<div>
+	<telerik:RadTextBox runat="server" ID="RadTextBox1" EmptyMessage="Type an entry" />
+	<telerik:RadButton runat="server" ID="RadButton1" OnClientClicked="addNewEntry" Text="Add new entry"
+		AutoPostBack="false" />
+</div>
+<br />
+<div>
+	<telerik:RadButton runat="server" ID="RadButton2" OnClientClicked="removeEntry" Text="Remove first entry"
+		AutoPostBack="false" />
+	<telerik:RadButton runat="server" ID="RadButton4" OnClientClicked="clearAllEntries"
+		Text="Clear all entries" AutoPostBack="false" />
+</div>
+<br />
+<div>
+	<telerik:RadButton runat="server" ID="RadButton3" OnClientClicked="printSelectedEntries"
+		Text="Print all selected entries" AutoPostBack="false" />
+	<asp:Label runat="server" ID="Label1" />
+</div>
+<br />
+<div>
+	<label>RadAutoCompleteBox:</label>
+	<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
+		InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
+		DataValueField="ID">
+	</telerik:RadAutoCompleteBox>
+	<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+		SelectCommand="SELECT [ID], [NAME] FROM [Cities]"></asp:SqlDataSource>
+</div>
 ````
 
 

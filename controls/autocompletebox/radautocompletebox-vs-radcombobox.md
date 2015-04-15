@@ -35,9 +35,9 @@ What is the difference between RadComboBox and RadAutoCompleteBox, which at firs
 
 The difference between each control in a few words:
 
-* __RadAutoCompleteBox__ – text box with auto completion.
+* **RadAutoCompleteBox** – text box with auto completion.
 
-* __RadComboBox__ – drop-down containing items to choose from.
+* **RadComboBox** – drop-down containing items to choose from.
 
 RadAutoCompleteBox is designed to take away the burden of auto completion from the RadComboBox. It is now the natural choice for search boxed with load-on-demand scenarios where everything that has to do with auto completion. On the other hand, the RadComboBox is still the preferred choice for all other drop-down related scenarios.
 

@@ -19,23 +19,23 @@ RadAutoCompleteBox can be bound to an OData service. The following application s
 
 
 ````ASPNET
-			<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
-				<Transport>
-					<Read Url="http://demos.kendoui.com/service/Northwind.svc/" />
-				</Transport>
-				<Schema>
-					<telerik:DataModel ModelID="Customer" Set="Customers">
-						<telerik:DataModelField FieldName="CustomerID" />
-						<telerik:DataModelField FieldName="CompanyName" />
-						<telerik:DataModelField FieldName="ContactName" />
-					</telerik:DataModel>
-				</Schema>
-			</telerik:RadODataDataSource>
-	
-			<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" ODataDataSourceID="RadODataDataSource1"
-				DropDownHeight="500px" Width="500px" DataModelID="Customer" DataTextField="CompanyName"
-				DataValueField="CustomerID">
-			</telerik:RadAutoCompleteBox>
+<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
+	<Transport>
+		<Read Url="http://demos.kendoui.com/service/Northwind.svc/" />
+	</Transport>
+	<Schema>
+		<telerik:DataModel ModelID="Customer" Set="Customers">
+			<telerik:DataModelField FieldName="CustomerID" />
+			<telerik:DataModelField FieldName="CompanyName" />
+			<telerik:DataModelField FieldName="ContactName" />
+		</telerik:DataModel>
+	</Schema>
+</telerik:RadODataDataSource>
+
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" ODataDataSourceID="RadODataDataSource1"
+	DropDownHeight="500px" Width="500px" DataModelID="Customer" DataTextField="CompanyName"
+	DataValueField="CustomerID">
+</telerik:RadAutoCompleteBox>
 ````
 
 

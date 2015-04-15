@@ -19,7 +19,7 @@ The following table lists the CSS selectors and descriptions for RadAutoComplete
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |
-|RadAutoCompleteBox_[Skin]e.g. RadAutoCompleteBox_ __Default__ |DIV|Applied to the root element of the autocomplete.|
+|RadAutoCompleteBox_[Skin]e.g. RadAutoCompleteBox_ **Default** |DIV|Applied to the root element of the autocomplete.|
 |racTokenList|DIV|Applied to the inner wrap of the autocomplete. The class name gives the autocomplete it's input-like appearance.|
 |racInput|INPUT|Applied to the input element of the autcomplete. The class name controls the font of the input e.g. font-size, color etc.|
 |racEmptyMessage|INPUT|Applied to the input element of the autocomplete if there is no text in it. The class name controls the font of the empty message e.g. font-size, colors etc.|

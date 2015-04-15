@@ -12,23 +12,23 @@ position: 1
 
 
 
-This tutorial will walk you through creating a Web page that uses __RadCloudUpload__ control. It shows how to use __RadClodUpload__ to upload files.
+This tutorial will walk you through creating a Web page that uses **RadCloudUpload** control. It shows how to use **RadClodUpload** to upload files.
 
 ## Getting Started
 
-1. Create a new page and add a __RadCloudUpload__ control to it.
+1. Create a new page and add a **RadCloudUpload** control to it.
 
-1. Click the Smart Tag of the __RadCloudUpload__ control to add __RadScriptManager__ to the page:
+1. Click the Smart Tag of the **RadCloudUpload** control to add **RadScriptManager** to the page:
 >caption Figure 1. Adding RadScriptManager
 
 ![cloud-upload-getting-started](images/cloud-upload-getting-started.png)
 
-1. Adding the __RadAScriptManager__ will automatically register the __Telerik.Web.UI.WebResource.axd__ handler in the web.config file. This handler is used by both __RadScriptManager__ and __RadCloudUpload__ as demonstrated in the Figure 2. below:
+1. Adding the **RadAScriptManager** will automatically register the **Telerik.Web.UI.WebResource.axd** handler in the web.config file. This handler is used by both **RadScriptManager** and **RadCloudUpload** as demonstrated in the Figure 2. below:
 >caption Figure 2. Registering Telerik.Web.UI.WebResource.axd handler
 
 ![cloud-upload-getting-started 2](images/cloud-upload-getting-started2.png)
 
-1. Select and configure the __ProviderType__ as in Figure 3:
+1. Select and configure the **ProviderType** as in Figure 3:
 >caption Figure 3. Provider Type
 
 ![cloud-upload-getting-started 3](images/cloud-upload-getting-started3.png)

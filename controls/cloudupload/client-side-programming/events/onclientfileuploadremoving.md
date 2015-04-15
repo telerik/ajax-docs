@@ -14,37 +14,37 @@ position: 7
 
 ## 
 
-The __OnClientFileUploadRemoving__ occurs before the file is about to be removed from the __FileListPanel__. The event can be cancelled.
+The **OnClientFileUploadRemoving** occurs before the file is about to be removed from the **FileListPanel**. The event can be cancelled.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadCloudUpload__ control firing the event.
+1. The instance of the **RadCloudUpload** control firing the event.
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __set_cancel__ lets you prevent the row from being deleted.
+* **set_cancel** lets you prevent the row from being deleted.
 
-* __get_fileName__ the name of the file that is about to be removed from the uploaded files collection.
+* **get_fileName** the name of the file that is about to be removed from the uploaded files collection.
 
-* __get_row__ returns the row containing the file input field for the file that is just about to be removed (<LI> element)
+* **get_row** returns the row containing the file input field for the file that is just about to be removed (`<LI>` element)
 
-* __get_isFailed__ returns a boolean value, specifying if the file, which is about to be removed had passed the validation.
+* **get_isFailed** returns a boolean value, specifying if the file, which is about to be removed had passed the validation.
 
 ````ASPNET
-	            <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoving="onClientFileUploadRemoving" ...>
-	            </telerik:RadCloudUpload>
+<telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoving="onClientFileUploadRemoving" ...>
+</telerik:RadCloudUpload>
 ````
 
 
 
 ````JavaScript
-	            function onClientFileUploadRemoving(sender, eventArgs) {
-	                if (eventArgs.get_fileName().length > "10") {
-	                    alert("Cannot delete files, which name's length is larger then 10 symbols");
-	                    eventArgs.set_cancel(true);
-	                }
-	
-	            }
+function onClientFileUploadRemoving(sender, eventArgs) {
+	if (eventArgs.get_fileName().length > "10") {
+		alert("Cannot delete files, which name's length is larger then 10 symbols");
+		eventArgs.set_cancel(true);
+	}
+
+}
 ````
 
 

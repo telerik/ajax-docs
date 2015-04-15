@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-RadAutoCompleteBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the __WebServiceSettings' Path__ and __Method__ properties:
+RadAutoCompleteBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 >note The text currently present in the input area can be obtained from the context object used by the WebService's method.
 >

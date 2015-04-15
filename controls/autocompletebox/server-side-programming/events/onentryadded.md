@@ -14,29 +14,29 @@ position: 0
 
 ## 
 
-The __EntryAdded__ event occurs when an entry is added and InputType="Token" is set for RadAutoCompleteBox.
+The **EntryAdded** event occurs when an entry is added and InputType="Token" is set for RadAutoCompleteBox.
 
-The __EntryAdded__ event handler receives two arguments:
+The **EntryAdded** event handler receives two arguments:
 
-1. The __RadAutoCompleteBox__ object. This argument is of type object, but can be cast to the __RadAutoCompleteBox__ type.
+1. The **RadAutoCompleteBox** object. This argument is of type object, but can be cast to the **RadAutoCompleteBox** type.
 
-1. An AutoCompleteEntryEventArgs object. This object has an __Entry__ property of type AutoCompleteBoxEntry.
+1. An AutoCompleteEntryEventArgs object. This object has an **Entry** property of type AutoCompleteBoxEntry.
 
 
 
 ````C#
 	
-		protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
-		{
-			Label1.Text = e.Entry.Text + " was added.";
-		}
+protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was added.";
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadAutoCompleteBox1_EntryAdded(sender As Object, e As AutoCompleteEntryEventArgs)
-	        Label1.Text = e.Entry.Text + " was added."
-	    End Sub
+Protected Sub RadAutoCompleteBox1_EntryAdded(sender As Object, e As AutoCompleteEntryEventArgs)
+	Label1.Text = e.Entry.Text + " was added."
+End Sub
 	
 ````
 

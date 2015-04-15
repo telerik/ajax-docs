@@ -1,9 +1,9 @@
 ---
-title: CloudUpload Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: RadCloudUpload Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET CloudUpload Overview
 slug: cloudupload/overview
-tags: overview
+tags: overview, cloudupload, asp.net
 published: True
 position: 0
 ---
@@ -14,9 +14,9 @@ position: 0
 
 ## General Information
 
-__RadCloudUpload__ provides the ability to upload files directly to Cloud Storage Providers - AmazonS3, Azure and Telerik Backend Services (formerly Everlive).The upload workflow is as follows : the file, which is about to be uploaded is initially processed to a handler and the handler uploads the file to the specified storage provider__(files are not stored on the server's hard drive)__.
+**RadCloudUpload** provides the ability to upload files directly to Cloud Storage Providers - AmazonS3, Azure and Telerik Backend Services (formerly Everlive).The upload workflow is as follows : the file, which is about to be uploaded is initially processed to a handler and the handler uploads the file to the specified storage provider **(files are not stored on the server's hard drive)**.
 
-The main built-in features of __RadCloudUpload__ include:
+The main built-in features of **RadCloudUpload** include:
 
 * Validation
 
@@ -30,7 +30,7 @@ The files are passed to a Handler with a single request or on chunks. Telerik Ba
 
 ## Erasure Process
 
-__RadCloudUpload__ is configured to use a __callback__ mechanism - to delete the uploaded files from the Storage Provider if they are not processed after a PostBack. For example, when a file is uploaded, it could be removed from the uploaded files collection, when the “Remove” button is clicked. In this case, its record from the client state is removed and after a certain time the __callback__ (triggered from the cache of the application) will remove it from the storage.
+**RadCloudUpload** is configured to use a **callback** mechanism - to delete the uploaded files from the Storage Provider if they are not processed after a PostBack. For example, when a file is uploaded, it could be removed from the uploaded files collection, when the “Remove” button is clicked. In this case, its record from the client state is removed and after a certain time the **callback** (triggered from the cache of the application) will remove it from the storage.
 
 ## Cloud Storage Providers
 

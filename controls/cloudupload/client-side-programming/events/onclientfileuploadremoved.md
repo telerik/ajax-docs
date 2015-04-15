@@ -14,27 +14,27 @@ position: 8
 
 ## 
 
-The __OnClienFileUploadRemoved__ occurs after the selected file has been removed from the __FileListPanel__.
+The **OnClienFileUploadRemoved** occurs after the selected file has been removed from the **FileListPanel**.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadCloudUpload__ control firing the event.
+1. The instance of the **RadCloudUpload** control firing the event.
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __get_fileName__ The name of the file that has been removed from the uploaded files collection.
+* **get_fileName** The name of the file that has been removed from the uploaded files collection.
 
 ````ASPNET
-	        <telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoved="OnClientFileUploadRemoved" ...></telerik:RadCloudUpload>
+<telerik:RadCloudUpload runat="server" ID="RadCloudUpload1" OnClientFileUploadRemoved="OnClientFileUploadRemoved" ...></telerik:RadCloudUpload>
 ````
 
 
 
 ````JavaScript
-	        function onClientFileUploadRemoved(sender, eventArgs) {
-	            var fileName = eventArgs.get_fileName();
-	            alert("File " + fileName + " has just been removed!");
-	        }
+function onClientFileUploadRemoved(sender, eventArgs) {
+	var fileName = eventArgs.get_fileName();
+	alert("File " + fileName + " has just been removed!");
+}
 ````
 
 

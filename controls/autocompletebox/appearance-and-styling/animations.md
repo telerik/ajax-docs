@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadAutoCompleteBox__ are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify __Type__ and __Duration__:
+The **ExpandAnimation** and **CollapseAnimation** tags of **RadAutoCompleteBox** are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
 
-* The __Type__ is one of the following pre-defined animation types:
+* The **Type** is one of the following pre-defined animation types:
 
 * Linear
 
@@ -74,15 +74,15 @@ The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadAutoCompleteBox__
 
 * InOutElastic
 
-* The __Duration__ is set in milliseconds.
+* The **Duration** is set in milliseconds.
 
-__Example 1:__ a sample animation configuration.
+**Example 1:** a sample animation configuration.
 
 ````ASPNET
-	    <telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
-	        <ExpandAnimation Type="InBounce" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadAutoCompleteBox>
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server">
+    <ExpandAnimation Type="InBounce" Duration="300" />
+    <CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadAutoCompleteBox>
 ````
 
 

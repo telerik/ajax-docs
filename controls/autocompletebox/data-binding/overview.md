@@ -1,9 +1,9 @@
 ---
 title: Data Binding Overview
 page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+description: Telerik's ASP.NET AutoCompleteBox Overview
 slug: autocompletebox/data-binding/overview
-tags: overview
+tags: overview, autocompletebox
 published: True
 position: 0
 ---
@@ -12,7 +12,7 @@ position: 0
 
 
 
-__RadAutoCompleteBox__ supports binding to various data sources, which include:
+**RadAutoCompleteBox** supports binding to various data sources, which include:
 
 * [Array, ArrayList]({%slug autocompletebox/data-binding/binding-to-array,-or-arraylist%})
 
@@ -30,17 +30,17 @@ __RadAutoCompleteBox__ supports binding to various data sources, which include:
 
 The following properties and methods are used when binding RadAutoCompleteBox to a data source.
 
-* __DataSource__ property - set to an instance of your data source. This is mandatory when binding RadAutoCompleteBox at runtime.
+* **DataSource** property - set to an instance of your data source. This is mandatory when binding RadAutoCompleteBox at runtime.
 
-* __DataSourceID__ property - set to the ID of your data source. This is mandatory when binding RadAutoCompleteBox declaratively.
+* **DataSourceID** property - set to the ID of your data source. This is mandatory when binding RadAutoCompleteBox declaratively.
 
-* __DataMember__ property - if the data source is a __DataSet__ and__DataMember__ is a set, then RadAutoCompleteBox is bound to the__DataTable__ with the respective name in the __DataSet__. If __DataMember__ is not set, RadAutoCompleteBox is bound to the first __DataTable__ in the __DataSet__.
+* **DataMember** property - if the data source is a **DataSet** and **DataMember** is a set, then RadAutoCompleteBox is bound to the **DataTable** with the respective name in the **DataSet**. If **DataMember** is not set, RadAutoCompleteBox is bound to the first **DataTable** in the **DataSet**.
 
-* __DataTextField__ property - field name from the data source bound to the AutoCompleteBoxItemData's __Text__ property.
+* **DataTextField** property - field name from the data source bound to the AutoCompleteBoxItemData's **Text** property.
 
-* __DataValueField__ property - field name from the data source bound to the AutoCompleteBoxItemData's __Value__ property.
+* **DataValueField** property - field name from the data source bound to the AutoCompleteBoxItemData's **Value** property.
 
-* __DataBind__ method - is called after the aforementioned properties are set when binding at runtime.
+* **DataBind** method - is called after the aforementioned properties are set when binding at runtime.
 
 >note DataBind method can be omitted when binding to a data source at runtime.
 >
@@ -53,7 +53,7 @@ You can also use [templates]({%slug autocompletebox/templates/server-templates%}
 Example:
 
 ````C#
-		<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
+<%# DataBinder.Eval(Container.DataItem, "ColumnName") %>
 ````
 
 

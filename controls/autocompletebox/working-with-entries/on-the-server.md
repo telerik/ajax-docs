@@ -17,17 +17,17 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 ## 
 
 ````ASPNET
-		<telerik:RadButton runat="server" ID="RadButton1" OnClick="RadButton1_Click" Text="Get selected entries" />
-	
-		<asp:Label runat="server" ID="Label1" />
-	
-		<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
-			InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
-			DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-	
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-			SelectCommand="SELECT [ID], [NAME] FROM [Cities]"></asp:SqlDataSource>	
+<telerik:RadButton runat="server" ID="RadButton1" OnClick="RadButton1_Click" Text="Get selected entries" />
+
+<asp:Label runat="server" ID="Label1" />
+
+<telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" AllowCustomEntry="true"
+	InputType="Token" Delimiter=";" DataSourceID="SqlDataSource1" DataTextField="Name"
+	DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+	SelectCommand="SELECT [ID], [NAME] FROM [Cities]"></asp:SqlDataSource>	
 ````
 
 
@@ -36,19 +36,19 @@ The following case scenario gives an insight into the AutoCompleteBoxEntry colle
 
 ````C#
 	
-		protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
-		{
-			Label1.Text = e.Entry.Text + " was added.";
-		}
+protected void RadAutoCompleteBox1_EntryAdded(object sender, AutoCompleteEntryEventArgs e)
+{
+	Label1.Text = e.Entry.Text + " was added.";
+}
 	
 ````
 ````VB
 	
-		Protected Sub RadButton1_Click(sender As Object, e As EventArgs)
-			For Each entry As AutoCompleteBoxEntry In RadAutoCompleteBox1.Entries
-				Label1.Text += entry.Text + ": " + entry.Value + ", "
-			Next
-		End Sub
+Protected Sub RadButton1_Click(sender As Object, e As EventArgs)
+	For Each entry As AutoCompleteBoxEntry In RadAutoCompleteBox1.Entries
+		Label1.Text += entry.Text + ": " + entry.Value + ", "
+	Next
+End Sub
 	
 ````
 

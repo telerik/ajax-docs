@@ -22,7 +22,7 @@ In this example we will use Web API to send the file data to the server and perf
 >
 
 
-__Example 1:__ The markup code contains: button, RadOrgChart and RadFileExplorer. When user clicks on the button it will initiate a request to the server and save the exported file in the files folder.
+**Example 1:** The markup code contains: button, RadOrgChart and RadFileExplorer. When user clicks on the button it will initiate a request to the server and save the exported file in the files folder.
 
 ````ASPNET
 	        <input type="button" onclick="exportElement()" value="export" />
@@ -62,7 +62,7 @@ __Example 1:__ The markup code contains: button, RadOrgChart and RadFileExplorer
 
 
 
-__Example 2:__ Here we send the raw data to the server using Ajax call and cancel the export execution.
+**Example 2:** Here we send the raw data to the server using Ajax call and cancel the export execution.
 
 ````JavaScript
 	

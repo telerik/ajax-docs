@@ -18,9 +18,9 @@ position: 5
 >
 
 
-You could easily adjust the position of the DropDown of the __RadAutoCompleteBox__, by simply managing the __DropDownPosition__ property. There are two values that can be set with the DropDownPosition property - __Automatic__ and __Static__. If the Automatic value is set, the DropDown would appear right beneath the token, which is about to be added. If the RadAutoCompleteBox is configured using the Static DropDownPosition, the DropDown would appear beneath the left end of the control. The behavior of the DropDownPosition property will be applied, regardless the InputType of the RadAutoCompleteBox.
+You could easily adjust the position of the DropDown of the **RadAutoCompleteBox**, by simply managing the **DropDownPosition** property. There are two values that can be set with the DropDownPosition property - **Automatic** and **Static**. If the Automatic value is set, the DropDown would appear right beneath the token, which is about to be added. If the RadAutoCompleteBox is configured using the Static DropDownPosition, the DropDown would appear beneath the left end of the control. The behavior of the DropDownPosition property will be applied, regardless the InputType of the RadAutoCompleteBox.
 
 
-|  __DropDownPosition="Automatic"__ . |  __DropDownPosition="Static"__ . |
+|  **DropDownPosition="Automatic"** . |  **DropDownPosition="Static"** . |
 | ------ | ------ |
 |![dropdownposition automatic](images/dropdownposition_automatic.png)|![dropdownposition static](images/dropdownposition_static.png)|

@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientDropDownClosing__ client-side event occurs before the drop-down container is closed.
+The **OnClientDropDownClosing** client-side event occurs before the drop-down container is closed.
 
 The event handler receives two parameters:
 
@@ -22,29 +22,29 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following two methods:
 
-* __get_cancel()__ - returns a boolean value indicating whether the event has been canceled.
+* **get_cancel()** - returns a boolean value indicating whether the event has been canceled.
 
-* __set_cancel(boolean)__ - cancels the event depending on the value passed as an argument.
+* **set_cancel(boolean)** - cancels the event depending on the value passed as an argument.
 
 This event is used in scenarios when operations need to be performed to RadAutoCompleteBox before closing the drop-down container, or when the closing need to be canceled.
 
 ````JavaScript
-		<script type="text/javascript">
-			function dropDownClosing(sender, eventArgs) {
-				eventArgs.set_cancel(true);
-				alert(eventArgs.get_cancel());
-			}
-		</script>
+<script type="text/javascript">
+	function dropDownClosing(sender, eventArgs) {
+		eventArgs.set_cancel(true);
+		alert(eventArgs.get_cancel());
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-		<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownClosing="dropDownClosing"
-			DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
-		</telerik:RadAutoCompleteBox>
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
-			SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
+<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" OnClientDropDownClosing="dropDownClosing"
+	DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="ID">
+</telerik:RadAutoCompleteBox>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikVSXConnectionString %>"
+	SelectCommand="SELECT [ID], [CountryID], [Name] FROM [Cities]"></asp:SqlDataSource>
 ````
 
 

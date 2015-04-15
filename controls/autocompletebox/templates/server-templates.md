@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-RadAutoCompleteBox supports server templates of its drop-down items. If no __DropDownItemTemplate__ is specified, the items are rendered using their __Text__ property as plain text. If you specify an __DropDownItemTemplate__, however, the respective template is used for rendering.
+RadAutoCompleteBox supports server templates of its drop-down items. If no **DropDownItemTemplate** is specified, the items are rendered using their **Text** property as plain text. If you specify an **DropDownItemTemplate**, however, the respective template is used for rendering.
 
 The following application scenario shows an example of RadAutoCompleteBox using DropDownItemTemplate.
 
-A <DropDownItemTemplate> section is added to the __RadAutoCompleteBox__ declaration. The image and the text that appear in the template are taken from the DataItem using <%# DataBinder.Eval %> statements.
+A <DropDownItemTemplate> section is added to the **RadAutoCompleteBox** declaration. The image and the text that appear in the template are taken from the DataItem using <%# DataBinder.Eval %> statements.
 
 ````C#
 			<telerik:RadAutoCompleteBox runat="server" ID="RadAutoCompleteBox1" InputType="Token"
@@ -86,7 +86,7 @@ A <DropDownItemTemplate> section is added to the __RadAutoCompleteBox__ declarat
 
 
 
-|  __RadAutoCompleteBox__ before a selection is made. |  __RadAutoCompleteBox__ after a selection is made. |
+|  **RadAutoCompleteBox** before a selection is made. |  **RadAutoCompleteBox** after a selection is made. |
 | ------ | ------ |
 |![server template before selection](images/server_template_before_selection.png)|![server template after selection](images/server_template_after_selection.png)|
 

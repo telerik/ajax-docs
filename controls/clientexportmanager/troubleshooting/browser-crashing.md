@@ -16,8 +16,8 @@ This article explains how to deal with browser crashes, which may occur when exp
 
 ## Using compression to improve performance and stability
 
-If you are experiencing browser crashes when exporting large PDF files, consider using compression. __RadClientExportManager__ supports compression via the [ JavaScript pako library ](https://github.com/nodeca/pako). Besides drastically reducing the output size, __Pako__ enables the browser to use less memory while rendering the PDF. Chrome is known to crash on generating very large PDF-s and simply including this library will mitigate the problem.
+If you are experiencing browser crashes when exporting large PDF files, consider using compression. **RadClientExportManager** supports compression via the [ JavaScript pako library ](https://github.com/nodeca/pako). Besides drastically reducing the output size, **Pako** enables the browser to use less memory while rendering the PDF. Chrome is known to crash on generating very large PDF-s and simply including this library will mitigate the problem.
 
-Just load __Pako__ with a <script> tag (window.pako should be available) and compression will be automatically enabled.
+Just load **Pako** with a `<script>` tag (window.pako should be available) and compression will be enabled automatically.
 
 # See Also
