@@ -44,25 +44,25 @@ Flat OData Binding means binding to a non-hierarchical data. Here is an example 
 
 The applied settings to RadODataSource and RadComboBox, for a successful data binding, are described below.
 
-* RadComboBox's __ODataDataSourceID__ property takes, as a value, the ID of the RadODataDataSource.
+* RadComboBox's **ODataDataSourceID** property takes, as a value, the ID of the RadODataDataSource.
 
-* RadComboBox's __DataModelID__ property takes, as a value, the ID of the DataModel defined in the RadODataDataSource.
+* RadComboBox's **DataModelID** property takes, as a value, the ID of the DataModel defined in the RadODataDataSource.
 
-* RadComboBox's __DataTextField__ property takes, as a value, the name of the data field from where thetext of the items is fetched.
+* RadComboBox's **DataTextField** property takes, as a value, the name of the data field from where thetext of the items is fetched.
 
-* RadComboBox's __DataValueField__ property takes, as a value, the name of the data field from where thevalue of the items is fetched.
+* RadComboBox's **DataValueField** property takes, as a value, the name of the data field from where thevalue of the items is fetched.
 
-* The type of the responce data is specified within the RadODataDataSource control, in its Read section by the__DataType__ property.The options to choose from are listed below.
+* The type of the responce data is specified within the RadODataDataSource control, in its Read section by the**DataType** property.The options to choose from are listed below.
 
-* [JSONP](http://en.wikipedia.org/wiki/JSONP)
+	* [JSONP](http://en.wikipedia.org/wiki/JSONP)
 
-* [XML](http://en.wikipedia.org/wiki/XML)
+	* [XML](http://en.wikipedia.org/wiki/XML)
 
 >note RadComboBox requires its EnableLoadOnDemand property to be set to True in order to be bound to an OData service.
 >
 
 
-More information regarding the Entity Data Model (EDM) can be found[here](http://www.odata.org/developers/protocols/overview).
+More information regarding the Entity Data Model (EDM) can be found [here](http://www.odata.org/developers/protocols/overview).
 
 # See Also
 

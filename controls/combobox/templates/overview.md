@@ -1,9 +1,9 @@
 ---
-title: Templates Overview
+title: Overview
 page_title: Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: combobox/templates/overview
-tags: overview
+tags: overview, templates
 published: True
 position: 0
 ---
@@ -24,7 +24,7 @@ __Templates__ are fully supported bu RadComboBox control. If you do not specify 
 >
 
 
-In design time, add item templates to your __RadComboBox__control using the [Template Design Surface]({%slug combobox/design-time/template-design-surface%}). __RadComboBox__supports global template which affects the appearance of all items in the control.
+In design time, add item templates to your __RadComboBox__ control using the [Template Design Surface]({%slug combobox/design-time/template-design-surface%}). __RadComboBox__ supports global template which affects the appearance of all items in the control.
 
 ## Example
 
@@ -32,36 +32,36 @@ Shows how to use templates to create the following RadComboBox:
 
 ![ComboBox Custom Attributes Images](images/combobox_customattributeimages.png)
 
-An <ItemTemplate> section is added to the __RadComboBox__ declaration. The image in the template and the text that appears in the template is taken from the RadComboBoxItem using <%# DataBinder.Eval %> statements.
+An `<ItemTemplate>` section is added to the __RadComboBox__ declaration. The image in the template and the text that appears in the template is taken from the RadComboBoxItem using <%# DataBinder.Eval %> statements.
 
 ````C#
-	    <telerik:RadComboBox ID="RadComboBox1" MarkFirstMatch="True" runat="server" Height="297px"
-			Width="350px" Skin="Default" AutoPostBack="False" HighlightTemplatedItems="True"
-			ShowToggleImage="True">
-			<ItemTemplate>
-				<table >
-					<tr>
-						<td>
-							<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
-						</td>
-						<td>
-							<%# DataBinder.Eval(Container, "Attributes['DisplayName']") %>
-							(<%# DataBinder.Eval(Container, "Text") %>)
-						</td>
-					</tr>
-				</table>
-			</ItemTemplate>
-			<Items>
-				<telerik:RadComboBoxItem ImagePath="winter.png" DisplayName="winter.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
-					Text="Winter"></telerik:RadComboBoxItem>
-				<telerik:RadComboBoxItem ImagePath="fall.png" DisplayName="fall.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
-					Text="Fall"></telerik:RadComboBoxItem>
-				<telerik:RadComboBoxItem ImagePath="spring.png" DisplayName="spring.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
-					Text="Spring"></telerik:RadComboBoxItem>
-				<telerik:RadComboBoxItem ImagePath="summer.png" DisplayName="summer.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
-					Text="Summer"></telerik:RadComboBoxItem>
-			</Items>
-		</telerik:RadComboBox>
+<telerik:RadComboBox ID="RadComboBox1" MarkFirstMatch="True" runat="server" Height="297px"
+	Width="350px" Skin="Default" AutoPostBack="False" HighlightTemplatedItems="True"
+	ShowToggleImage="True">
+	<ItemTemplate>
+		<table >
+			<tr>
+				<td>
+					<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
+				</td>
+				<td>
+					<%# DataBinder.Eval(Container, "Attributes['DisplayName']") %>
+					(<%# DataBinder.Eval(Container, "Text") %>)
+				</td>
+			</tr>
+		</table>
+	</ItemTemplate>
+	<Items>
+		<telerik:RadComboBoxItem ImagePath="winter.png" DisplayName="winter.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
+			Text="Winter"></telerik:RadComboBoxItem>
+		<telerik:RadComboBoxItem ImagePath="fall.png" DisplayName="fall.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
+			Text="Fall"></telerik:RadComboBoxItem>
+		<telerik:RadComboBoxItem ImagePath="spring.png" DisplayName="spring.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
+			Text="Spring"></telerik:RadComboBoxItem>
+		<telerik:RadComboBoxItem ImagePath="summer.png" DisplayName="summer.png | Size: 2,134 Kb | Last Mofified: 01/11/2005"
+			Text="Summer"></telerik:RadComboBoxItem>
+	</Items>
+</telerik:RadComboBox>
 ````
 
 

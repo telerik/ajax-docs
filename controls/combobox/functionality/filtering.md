@@ -12,21 +12,22 @@ position: 0
 
 
 
-The filtering functionality is enabled through the __Filter__ property. The following values could be assigned:
+The filtering functionality is enabled through the **Filter** property. The following values could be assigned:
 
-* __None__ - this is the default value. No filtering is performed.
+* **None** - this is the default value. No filtering is performed.
 
-* __Contains__ - returns all items which Texts' values contain the searched text as a substring:
+* **Contains** - returns all items which Texts' values contain the searched text as a substring:
 
 ![ComboBox Filter Contains](images/combobox_filter_contains.png)
 
-* __StartsWith__ - returns all items which texts start with the searched text:
+* **StartsWith** - returns all items which texts start with the searched text:
 
 ![ComboBox Filter Starts With](images/combobox_filter_startswith.png)
 
 >note 
 * Filtering is NOT case sensitive;
-*  __CheckBox__ functionality is NOT supported in combination with filtering. The reason is that the CheckBox selection is different from thestandard RadComboBox's selection - there is no single selected item.>
+*  **CheckBox** functionality is NOT supported in combination with filtering. The reason is that the CheckBox selection is different from thestandard RadComboBox's selection - there is no single selected item.
+>
 
 
 ## Setting the Filter server-side
@@ -35,20 +36,19 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e) 
-	    { 
-	        RadComboBox1.Filter = RadComboBoxFilter.StartsWith; 
-	    }
+protected void Page_Load(object sender, EventArgs e) 
+{ 
+	RadComboBox1.Filter = RadComboBoxFilter.StartsWith; 
+}
 	
 ````
 ````VB.NET
-	
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	
-	        RadComboBox1.Filter = RadComboBoxFilter.StartsWith
-	
-	    End Sub
+		
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+
+	RadComboBox1.Filter = RadComboBoxFilter.StartsWith
+
+End Sub
 	
 ````
 
@@ -56,27 +56,27 @@ The filtering functionality is enabled through the __Filter__ property. The foll
 ## Setting the Filter inline
 
 ````ASPNET
-	    <telerik:radcombobox id="RadComboBox1" filter="Contains" runat="server"></telerik:radcombobox>
+<telerik:radcombobox id="RadComboBox1" filter="Contains" runat="server"></telerik:radcombobox>
 ````
 
 
 
 ## Controlling the appearance of the Filter
 
-To control the appearance of the filtered items (thier __<EM>__ elements), the following CSS classes should be altered:
+To control the appearance of the filtered items (their **`<EM>`** elements), the following CSS classes should be altered:
 
 ````ASPNET
-	    <style type="text/css">
-	        div.RadComboBoxDropDown_Sunset em
-	        {
-	            font-style: normal;
-	            font-weight: bold;
-	        }
-	        div.RadComboBoxDropDown_Sunset .rcbItem em
-	        {
-	            background: Yellow;
-	        }
-	    </style>
+<style type="text/css">
+	div.RadComboBoxDropDown_Sunset em
+	{
+		font-style: normal;
+		font-weight: bold;
+	}
+	div.RadComboBoxDropDown_Sunset .rcbItem em
+	{
+		background: Yellow;
+	}
+</style>
 ````
 
 
@@ -89,10 +89,10 @@ The result is:
 
 ![ComboBox Filter Styled](images/combobox_filter_control_appearance.png)
 
->tip If you use __ItemsTemplate__ the filtering will still work, but the matching text portion will not be highlighted (the __<EM>__ element will be not added).
+>tip If you use **ItemsTemplate** the filtering will still work, but the matching text portion will not be highlighted (the **`<EM>`** element will be not added).
 >
 
 
 ## How does the filtering work?
 
-When you enable filtering (by setting the __Filter__ property to either __Contains__ or __StartsWith__) and you start typing in the input area of the combobox, the items that do not match are hidden by the client-side function __set_visible(false)__. They are visually invisible, but they do persist on the server. The items that do match the search text have __<EM>__ element added within their text.
+When you enable filtering (by setting the **Filter** property to either **Contains** or **StartsWith**) and you start typing in the input area of the combobox, the items that do not match are hidden by the client-side function **set_visible(false)**. They are visually invisible, but they do persist on the server. The items that do match the search text have **`<EM>`** element added within their text.

@@ -14,46 +14,44 @@ position: 6
 
 ## 
 
-You can have your RadComboBox cause postbacks to a different web page from the one that it resides. To achieve this behavior, simply set the __PostBackUrl__ property to the page that should handle the postback.
+You can have your RadComboBox cause postbacks to a different web page from the one that it resides. To achieve this behavior, simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASPNET
-	    <telerik:radcombobox id="RadComboBox1" runat="server" postbackurl="CrossPageCs.aspx"></telerik:radcombobox>
+<telerik:RadComboBox ID="RadComboBox1" runat="server" PostBackUrl="CrossPageCs.aspx"></telerik:RadComboBox>
 ````
 
 
 
-Once in the second page, you can access the RadComboBox control on the previous page using the __Page.PreviousPage__ property.
+Once in the second page, you can access the RadComboBox control on the previous page using the **Page.PreviousPage** property.
 
 
 
 ````C#
 	
-	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (Page.PreviousPage == null) 
-	        { 
-	            Response.Redirect("Default.aspx"); 
-	        }
-	
-	        RadComboBox comboBox = (RadComboBox)Page.PreviousPage.FindControl("RadComboBox1");
-	        Label1.Text = comboBox.SelectedItem.Text;
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (Page.PreviousPage == null) 
+	{ 
+		Response.Redirect("Default.aspx"); 
+	}
+
+	RadComboBox comboBox = (RadComboBox)Page.PreviousPage.FindControl("RadComboBox1");
+	Label1.Text = comboBox.SelectedItem.Text;
+}
 	
 ````
 ````VB.NET
-	
-	
-	    Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-	
-	        If Page.PreviousPage Is Nothing Then
-	            Response.Redirect("Default.aspx")
-	        End If
-	        Dim comboBox As RadComboBox = CType(Page.PreviousPage.FindControl("RadComboBox1"), RadComboBox)
-	        Label1.Text = comboBox.SelectedItem.Text
-	
-	    End Sub
-	
+		
+Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+	If Page.PreviousPage Is Nothing Then
+		Response.Redirect("Default.aspx")
+	End If
+	Dim comboBox As RadComboBox = CType(Page.PreviousPage.FindControl("RadComboBox1"), RadComboBox)
+	Label1.Text = comboBox.SelectedItem.Text
+
+End Sub
+
 ````
 
 

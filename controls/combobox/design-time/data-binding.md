@@ -16,10 +16,10 @@ position: 3
 
 You can bind RadComboBox to a Data Source and configure its Data Bindings entirely in Design Time through the Smart Tag.
 
-Once the Data Source has been chosen from the Smart Tag, additional dropdown fields will show - __DataTextField__and __DataValueField__. You need to choose the fields in the Data Source which will serve data respectively for the __Text__ and __Value__ properties of the RadComboBox Items.
+Once the Data Source has been chosen from the Smart Tag, additional dropdown fields will show - **DataTextField** and **DataValueField.** You need to choose the fields in the Data Source which will serve data respectively for the **Text** and **Value** properties of the RadComboBox Items.
 
 ![combobox designtimedatabinding](images/combobox_designtimedatabinding.png)
 
 # See Also
 
- * [Overview]({%slug combobox/data-binding/overview%})
+ * [Data Binding Overview]({%slug combobox/data-binding/overview%})

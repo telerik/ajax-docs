@@ -14,73 +14,73 @@ position: 1
 
 ## 
 
-__RadComboBox__ can be bound either to __Array__ or __ArrayList__. The following example shows how to bind __RadComboBox__ objects to both Array and ArrayList, at runtime.
+**RadComboBox** can be bound either to **Array** or **ArrayList**. The following example shows how to bind **RadComboBox** objects to both Array and ArrayList, at runtime.
 
-The declaration of RadComboBox objects includes no __DataSourceID__ property or __<items>__ section:
+The declaration of RadComboBox objects includes no **DataSourceID** property or **`<items>`** section:
 
 ````ASPNET
-	    <telerik:radcombobox id="RadComboBox1" runat="server" />
-	    <telerik:radcombobox id="RadComboBox2" runat="server" />
+<telerik:radcombobox id="RadComboBox1" runat="server" />
+<telerik:radcombobox id="RadComboBox2" runat="server" />
 ````
 
 
 
-In the __Page_Load__ event handler, create the Array and ArrayList, and bind them to the RadComboBox objects. The __DataBind__ method must be called after setting the __DataSource__ property.
+In the **Page_Load** event handler, create the Array and ArrayList, and bind them to the RadComboBox objects. The **DataBind** method must be called after setting the **DataSource** property.
 
 
 
 ````C#
 	
-	protected void Page_Load(object sender, EventArgs e)
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (!Page.IsPostBack)
 	{
-		if (!Page.IsPostBack)
-		{
-			BindToArrayList(RadComboBox1);
-			BindToArray(RadComboBox2);
-		}
+		BindToArrayList(RadComboBox1);
+		BindToArray(RadComboBox2);
 	}
-	
-	private void BindToArray(RadComboBox combo)
-	{
-		string[] itemsList = { "One", "Two", "Three" };
-		combo.DataSource = itemsList;
-		combo.DataBind();
-	}
-	
-	private void BindToArrayList(RadComboBox combo)
-	{
-		ArrayList itemsList = new ArrayList();
-		itemsList.Add("One");
-		itemsList.Add("Two");
-		itemsList.Add("Three");
-		combo.DataSource = itemsList;
-		combo.DataBind();
-	}
+}
+
+private void BindToArray(RadComboBox combo)
+{
+	string[] itemsList = { "One", "Two", "Three" };
+	combo.DataSource = itemsList;
+	combo.DataBind();
+}
+
+private void BindToArrayList(RadComboBox combo)
+{
+	ArrayList itemsList = new ArrayList();
+	itemsList.Add("One");
+	itemsList.Add("Two");
+	itemsList.Add("Three");
+	combo.DataSource = itemsList;
+	combo.DataBind();
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        If Not Page.IsPostBack Then
-	            BindToArrayList(RadComboBox1)
-	            BindToArray(RadComboBox2)
-	        End If
-	    End Sub 'Page_Load
-	
-	    Private Sub BindToArray(ByVal combo As RadComboBox)
-	        Dim itemsList As String() = {"One", "Two", "Three"}
-	        combo.DataSource = itemsList
-	        combo.DataBind()
-	    End Sub 'BindToArray
-	
-	    Private Sub BindToArrayList(ByVal combo As RadComboBox)
-	        Dim itemsList As New ArrayList()
-	        itemsList.Add("One")
-	        itemsList.Add("Two")
-	        itemsList.Add("Three")
-	        combo.DataSource = itemsList
-	        combo.DataBind()
-	    End Sub 'BindToArrayList
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+	If Not Page.IsPostBack Then
+		BindToArrayList(RadComboBox1)
+		BindToArray(RadComboBox2)
+	End If
+End Sub 'Page_Load
+
+Private Sub BindToArray(ByVal combo As RadComboBox)
+	Dim itemsList As String() = {"One", "Two", "Three"}
+	combo.DataSource = itemsList
+	combo.DataBind()
+End Sub 'BindToArray
+
+Private Sub BindToArrayList(ByVal combo As RadComboBox)
+	Dim itemsList As New ArrayList()
+	itemsList.Add("One")
+	itemsList.Add("Two")
+	itemsList.Add("Three")
+	combo.DataSource = itemsList
+	combo.DataBind()
+End Sub 'BindToArrayList
 	
 ````
 

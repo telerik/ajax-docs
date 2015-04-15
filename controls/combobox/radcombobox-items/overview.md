@@ -14,33 +14,33 @@ position: 0
 
 ## Properties of RadComboBox Items
 
-The items of __RadComboBox__ have a few important properties, which are listed below:
+The items of **RadComboBox** have a few important properties, which are listed below:
 
-* __Text__ - string that the user sees for the item in the drop-down list.
+* **Text** - string that the user sees for the item in the drop-down list.
 
-* __ToolTip__ - text that appears when the user hovers the mouse over an item in the drop-down list.
+* **ToolTip** - text that appears when the user hovers the mouse over an item in the drop-down list.
 
 >note Setting the tooltip can enable an accessibility feature. Special accessibility readers like JAWS, can pronounce the tooltip of the highlighted item.
 >
 
 
-* __Value__ - unique identifier for the item. It determines the value of RadComboBox' __SelectedValue__ property when an item is selected.
+* **Value** - unique identifier for the item. It determines the value of RadComboBox' **SelectedValue** property when an item is selected.
 
-* __Selected__ - indicates whether the item is selected. Only one item can be selected at a time. If no item is currently selected, then the __Selected__ property of all items will be __False__. Setting the __Selected__ property of one item to __True__ automatically sets the __Selected__ property of all other items in RadComboBox to __False__.
+* **Selected** - indicates whether the item is selected. Only one item can be selected at a time. If no item is currently selected, then the **Selected** property of all items will be **False**. Setting the **Selected** property of one item to **True** automatically sets the **Selected** property of all other items in RadComboBox to **False**.
 
-* __Enabled__ determines whether the user can select the item from the drop-down list.
+* **Enabled** determines whether the user can select the item from the drop-down list.
 
-* __CssClass__ - name of a CSS style to be applied to RadComboBox item. The style can be declared in the CSS file of the applied [skin]({%slug combobox/appearance-and-styling/skins%}).
+* **CssClass** - name of a CSS style to be applied to RadComboBox item. The style can be declared in the CSS file of the applied [skin]({%slug combobox/appearance-and-styling/skins%}).
 
-* __ImageUrl__ - image that will be displayed on the left of the item's Text.
+* **ImageUrl** - image that will be displayed on the left of the item's Text.
 
-* __DisabledImageUrl__ - image that will be displayed on the left of the item's Text when the item is disabled.
+* **DisabledImageUrl** - image that will be displayed on the left of the item's Text when the item is disabled.
 
 In addition to the built-in properties, you can add your own [custom attributes]({%slug combobox/radcombobox-items/custom-attributes%}) to RadComboBox items to expand their functionality.
 
 ## Items Definition
 
-There are a number of ways you can control the items that __RadComboBox__ holds. You can:
+There are a number of ways you can control the items that **RadComboBox** holds. You can:
 
 * [Specify the items in-line]({%slug combobox/radcombobox-items/declaring-the-items-in-line%}) at design time.
 

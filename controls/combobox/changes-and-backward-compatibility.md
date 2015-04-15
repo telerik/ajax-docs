@@ -34,7 +34,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## RadComboBox for ASP.NET AJAX Q3 2009 (Version Number 2009.3.1103)
 
-* The RadComboBox control in Q3 2009 has a brand new base stylesheet instead of skin file only. This could be a possible breaking change if you use custom skins. You have to set __EnableEmbeddedBaseStylesheet__ to "__false__" in order to fix the issues introduced by this change.
+* The RadComboBox control in Q3 2009 has a brand new base stylesheet instead of skin file only. This could be a possible breaking change if you use custom skins. You have to set **EnableEmbeddedBaseStylesheet** to "**false**" in order to fix the issues introduced by this change.
 
 
 
