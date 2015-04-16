@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-As of Q1 SP2, the RadComboBox exposes a new client-side event - __OnClientDropDownOpened__.
+As of Q1 SP2, the RadComboBox exposes a new client-side event - **OnClientDropDownOpened**.
 
-The __OnClientDropDownOpened__ client-side event occurs after the drop-down list has been opened.
+The **OnClientDropDownOpened** client-side event occurs after the drop-down list has been opened.
 
 The event handler receives two parameters:
 
@@ -24,21 +24,21 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_domEvent()__ returns the DOM event object of the drop-down opened.
+* **get_domEvent()** returns the DOM event object of the drop-down opened.
 
 You can use this event to perform any client-side actions when the drop-down is completely opened:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function OnClientDropDownOpenedHandler(sender, eventArgs) {
-	            alert("The dropdown is opened now");
-	        }
-	    </script>
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        onclientdropdownopened="OnClientDropDownOpenedHandler"
-	        runat="server">
-	    </telerik:radcombobox>
+<script type="text/javascript">
+	function OnClientDropDownOpenedHandler(sender, eventArgs) {
+		alert("The dropdown is opened now");
+	}
+</script>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	onclientdropdownopened="OnClientDropDownOpenedHandler"
+	runat="server">
+</telerik:radcombobox>
 ````
 
 

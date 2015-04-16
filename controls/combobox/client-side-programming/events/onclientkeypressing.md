@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-The __OnClientKeyPressing__ client-side event occurs when a combobox receives the focus and the user presses a key.
+The **OnClientKeyPressing** client-side event occurs when a combobox receives the focus and the user presses a key.
 
 The event handler receives two parameters:
 
@@ -22,24 +22,24 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following properties and methods:
 
-* __get_domEvent()__ returns the DOM event object. You can get the altKey, shiftKey, ctrlKey and keyCode from the DOM event object.
+* **get_domEvent()** returns the DOM event object. You can get the altKey, shiftKey, ctrlKey and keyCode from the DOM event object.
 
-This example below uses the __OnClientKeyPressing__ event to execute custom JavaScript when the user tabs out:
+This example below uses the **OnClientKeyPressing** event to execute custom JavaScript when the user tabs out:
 
 ````ASPNET
-	    <script language="javascript" type="text/javascript">
-	        function HandleKeyPress(sender, eventArgs)
-	        {
-	         if (eventArgs.get_domEvent().keyCode == 9) {       
-	            // handle tab out
-	            }
-	        }
-	     </script>
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        onclientkeypressing="HandleKeyPress">
-	    </telerik:radcombobox>
+<script language="javascript" type="text/javascript">
+	function HandleKeyPress(sender, eventArgs)
+	{
+	 if (eventArgs.get_domEvent().keyCode == 9) {       
+		// handle tab out
+		}
+	}
+ </script>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	onclientkeypressing="HandleKeyPress">
+</telerik:radcombobox>
 ````
 
 

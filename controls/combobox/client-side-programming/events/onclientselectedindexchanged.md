@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-The __OnClientSelectedIndexChanged__ client-side event occurs immediately after the selected item has changed.
+The **OnClientSelectedIndexChanged** client-side event occurs immediately after the selected item has changed.
 
 The event handler receives two parameters:
 
@@ -22,25 +22,25 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns the item that has just been selected.
+* **get_item** returns the item that has just been selected.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
 Use this event to respond to the newly selected item:
 
 ````ASPNET
-	    <script language="javascript" type="text/javascript">
-	        function OnClientSelectedIndexChanged(sender, eventArgs) {
-	            var item = eventArgs.get_item();
-	            sender.set_text("You selected " + item.get_text());
-	        }
-	    </script>
-	
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        onclientselectedindexchanged="OnClientSelectedIndexChanged">
-	    </telerik:radcombobox>
+<script language="javascript" type="text/javascript">
+	function OnClientSelectedIndexChanged(sender, eventArgs) {
+		var item = eventArgs.get_item();
+		sender.set_text("You selected " + item.get_text());
+	}
+</script>
+
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	onclientselectedindexchanged="OnClientSelectedIndexChanged">
+</telerik:radcombobox>
 ````
 
 

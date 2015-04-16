@@ -14,9 +14,9 @@ position: 6
 
 ## 
 
-The __ItemChecked__ event occurs when the user checks a new item in the drop-down list.
+The **ItemChecked** event occurs when the user checks a new item in the drop-down list.
 
->caution The __ItemChecked__ event does not fire unless the __AutoPostBack__ property is __True__ as well as __CheckBoxes__ property .
+>caution The **ItemChecked** event does not fire unless the **AutoPostBack** property is **True** as well as **CheckBoxes** property .
 >
 
 
@@ -24,18 +24,18 @@ The __ItemChecked__ event occurs when the user checks a new item in the drop-dow
 >
 
 
-The __ItemChecked__ event handler receives two arguments:
+The **ItemChecked** event handler receives two arguments:
 
-1. The __RadComboBox__ which has fired the event. This argument is of type object, but can be cast to the __RadComboBox__ type.
+1. The **RadComboBox** which has fired the event. This argument is of type object, but can be cast to the **RadComboBox** type.
 
-1. An EventArgs object. This object has an __Item__ property, which provides access to the item that has just been checked.
+1. An EventArgs object. This object has an **Item** property, which provides access to the item that has just been checked.
 
-Use the __ItemChecked__ event handler to respond in server-side code when the user checks an item:
+Use the **ItemChecked** event handler to respond in server-side code when the user checks an item:
 
 ````ASPNET
-	    <telerik:radcombobox onitemchecked="OnItemChecked" runat="server" checkboxes="True"
-	        autopostback="true">          
-	        </telerik:radcombobox>
+<telerik:radcombobox onitemchecked="OnItemChecked" runat="server" checkboxes="True"
+	autopostback="true">          
+</telerik:radcombobox>
 ````
 
 
@@ -44,19 +44,19 @@ Use the __ItemChecked__ event handler to respond in server-side code when the us
 
 ````C#
 	
-	    protected void OnItemChecked(object sender, RadComboBoxItemEventArgs e)
-	    {
-	        Label1.Text += e.Item.Text + " is checked; ";
-	
-	    }
+protected void OnItemChecked(object sender, RadComboBoxItemEventArgs e)
+{
+	Label1.Text += e.Item.Text + " is checked; ";
+
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub OnItemChecked(ByVal sender As Object, ByVal e As RadComboBoxItemEventArgs)
-	        Label1.Text += e.Item.Text + " is checked; "
-	
-	    End Sub
+Protected Sub OnItemChecked(ByVal sender As Object, ByVal e As RadComboBoxItemEventArgs)
+	Label1.Text += e.Item.Text + " is checked; "
+
+End Sub
 	
 ````
 

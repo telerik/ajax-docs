@@ -14,19 +14,19 @@ position: 2
 
 ## 
 
-The __ItemCreated__event occurs for each new item that is added to the __Items__ collection of the combobox.
+The **ItemCreated** event occurs for each new item that is added to the **Items** collection of the combobox.
 
->note If the item is added from a data source (the __DataSource__ or __DataSourceID__ property specifies the source of the items), it is a good idea to use the[ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%})event instead. __ItemCreated__ occurs before the __ItemDataBound__ event (before any item properties have been set to reflect the data in the data source).
+>note If the item is added from a data source (the **DataSource** or **DataSourceID** property specifies the source of the items), it is a good idea to use the [ItemDataBound]({%slug combobox/server-side-programming/itemdatabound%}) event instead. **ItemCreated** occurs before the **ItemDataBound** event (before any item properties have been set to reflect the data in the data source).
 >
 
 
-The __ItemCreated__event handler receives two arguments:
+The **ItemCreated** event handler receives two arguments:
 
-1. The __RadComboBox__ that is loading items. This argument is of type object, but can be cast to the __RadComboBox__ type.
+1. The **RadComboBox** that is loading items. This argument is of type object, but can be cast to the **RadComboBox** type.
 
-1. An EventArgs object. This object has an __Item__ property, which provides access to the item that has just been added.
+1. An EventArgs object. This object has an **Item** property, which provides access to the item that has just been added.
 
-Use the __ItemCreated__ event handler to make changes to items as they are added to the combobox:
+Use the **ItemCreated** event handler to make changes to items as they are added to the combobox:
 
 
 

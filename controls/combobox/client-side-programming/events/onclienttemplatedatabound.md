@@ -14,7 +14,7 @@ position: 16
 
 ## OnClientTemplateDataBound
 
-The __OnClientTemplateDataBound__ client-side event of the RadComboBox is fired after the client template is bound and the binding expression are evaluated.
+The **OnClientTemplateDataBound** client-side event of the RadComboBox is fired after the client template is bound and the binding expression are evaluated.
 
 The event handler receives two parameters:
 
@@ -22,13 +22,13 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_dataItem()__ returns the dataItem object that the current item is being bound to.
+* **get_dataItem()** returns the dataItem object that the current item is being bound to.
 
-* __get_html()__ gets the rendered template HTML.
+* **get_html()** gets the rendered template HTML.
 
-* __set_html()__ sets the rendered template HTML.
+* **set_html()** sets the rendered template HTML.
 
-* __get_template()__ – returns the template function that’s used to bind the dataItem to the template text.
+* **get_template()** – returns the template function that’s used to bind the dataItem to the template text.
 
 # See Also
 

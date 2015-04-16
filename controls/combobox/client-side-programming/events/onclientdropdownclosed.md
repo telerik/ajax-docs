@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-As of Q1 SP2, the RadComboBox exposes a new client-side event - __OnClientDropDownClosed__.
+As of Q1 SP2, the RadComboBox exposes a new client-side event - **OnClientDropDownClosed**.
 
-The __OnClientDropDownClosed__ client-side event occurs after the drop-down list has been closed.
+The **OnClientDropDownClosed** client-side event occurs after the drop-down list has been closed.
 
 The event handler receives two parameters:
 
@@ -24,22 +24,22 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_domEvent()__ returns the DOM event object of the drop-down closed.
+* **get_domEvent()** returns the DOM event object of the drop-down closed.
 
 You can use this event to perform any client-side actions when the drop-down is completely closed:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function OnClientDropDownClosedHandler(sender, eventArgs) {
-	            alert("Dropdown is closed now");
-	        }
-	    </script>
-	
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        onclientdropdownclosed="OnClientDropDownClosedHandler"
-	        runat="server">
-	    </telerik:radcombobox>
+<script type="text/javascript">
+	function OnClientDropDownClosedHandler(sender, eventArgs) {
+		alert("Dropdown is closed now");
+	}
+</script>
+
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	onclientdropdownclosed="OnClientDropDownClosedHandler"
+	runat="server">
+</telerik:radcombobox>
 ````
 
 

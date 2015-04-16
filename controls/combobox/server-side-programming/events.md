@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadComboBox__ supports a number of server-side events that let you respond to events with complex actions that can't be performed in client-side code.
+**RadComboBox** supports a number of server-side events that let you respond to events with complex actions that can't be performed in client-side code.
 
 * [ItemsRequested]({%slug combobox/server-side-programming/itemsrequested%}) occurs when the load-on-demand mechanism needs to add items to the combobox.
 
@@ -28,7 +28,7 @@ __RadComboBox__ supports a number of server-side events that let you respond to 
 
 * [CheckAllCheck]({%slug combobox/server-side-programming/checkallcheck%}) occurs when the check all items check box is changed.
 
->note The __SelectedIndexChanged__ , __TextChanged__ and __OnCheckAllCheck__ events do not fire unless you set the __AutoPostBack__ property to __True__ .
+>note The **SelectedIndexChanged** , **TextChanged** and **OnCheckAllCheck** events do not fire unless you set the **AutoPostBack** property to **True** .
 >
 
 

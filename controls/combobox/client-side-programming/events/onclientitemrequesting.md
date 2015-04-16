@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientItemsRequesting__ client-side event occurs when __EnableLoadOnDemand__ is __True__ and the combobox is about to send a server-side request to load more items. This event fires before the items are added to the combobox' Items collection.
+The **OnClientItemsRequesting** client-side event occurs when **EnableLoadOnDemand** is **True** and the combobox is about to send a server-side request to load more items. This event fires before the items are added to the combobox' Items collection.
 
 The event handler receives two parameters:
 
@@ -22,37 +22,37 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_text__ returns the text currently in the input area.
+* **get_text** returns the text currently in the input area.
 
-* __get_context__ returns a context object (implements __IDictionary__) that is passed to the server-side code that handles the request for items.
+* **get_context** returns a context object (implements **IDictionary**) that is passed to the server-side code that handles the request for items.
 
-* __set_cancel__ lets you prevent the items request.
+* **set_cancel** lets you prevent the items request.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
-This event can be used to [pass context information to the server]({%slug combobox/load-on-demand/passing-context-information-to-the-server-%}) for it to use in servicing the load-on-demand request, or to cancel the load-on-demand request. The following example uses the __OnClientItemsRequesting__ event to prevent the combobox from requesting more items unless the user types at least three characters:
+This event can be used to [pass context information to the server]({%slug combobox/load-on-demand/passing-context-information-to-the-server-%}) for it to use in servicing the load-on-demand request, or to cancel the load-on-demand request. The following example uses the **OnClientItemsRequesting** event to prevent the combobox from requesting more items unless the user types at least three characters:
 
 ````JavaScript
-	    <script language="javascript" type="text/javascript">
-	        function OnClientItemsRequesting(sender, eventArgs) {
-	            if (eventArgs.get_text().length < 3)
-	                eventArgs.set_cancel(true)
-	            else
-	                eventArgs.set_cancel(false);
-	        }
-	    </script>
+<script language="javascript" type="text/javascript">
+	function OnClientItemsRequesting(sender, eventArgs) {
+		if (eventArgs.get_text().length < 3)
+			eventArgs.set_cancel(true)
+		else
+			eventArgs.set_cancel(false);
+	}
+</script>
 ````
 
 
 
 ````ASPNET
-	    <telerik:RadComboBox
-	      ID="RadComboBox1"
-	      runat="server"
-	      EnableLoadOnDemand="True"
-	      OnItemsRequested="RadComboBox1_ItemsRequested"
-	      OnClientItemsRequesting="OnClientItemsRequesting">
-	    </telerik:RadComboBox> 
+<telerik:RadComboBox
+  ID="RadComboBox1"
+  runat="server"
+  EnableLoadOnDemand="True"
+  OnItemsRequested="RadComboBox1_ItemsRequested"
+  OnClientItemsRequesting="OnClientItemsRequesting">
+</telerik:RadComboBox> 
 ````
 
 

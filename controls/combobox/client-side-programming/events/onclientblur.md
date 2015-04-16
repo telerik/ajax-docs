@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __OnClientBlur__ client-side event occurs when the combobox loses the input focus.
+The **OnClientBlur** client-side event occurs when the combobox loses the input focus.
 
 The event handler receives two parameters:
 
@@ -22,22 +22,22 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_domEvent()__ returns the DOM event object
+* **get_domEvent()** returns the DOM event object
 
 You can use this event to perform any client-side actions when the combobox loses focus:
 
 ````ASPNET
-	    <script language="javascript" type="text/javascript">
-	        function OnClientBlur(sender, args) {
-	            alert("blur");
-	        }
-	    </script>
-	
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        onclientblur="OnClientBlur">
-	    </telerik:radcombobox>
+<script language="javascript" type="text/javascript">
+	function OnClientBlur(sender, args) {
+		alert("blur");
+	}
+</script>
+
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	onclientblur="OnClientBlur">
+</telerik:radcombobox>
 ````
 
 

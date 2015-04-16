@@ -14,35 +14,35 @@ position: 4
 
 ## 
 
-The __SelectedIndexChanged__ event occurs when the user selects a new item in the drop-down list.
+The **SelectedIndexChanged** event occurs when the user selects a new item in the drop-down list.
 
->caution The __SelectedIndexChanged__ event does not fire unless the __AutoPostBack__ property is __True__ .
+>caution The **SelectedIndexChanged** event does not fire unless the **AutoPostBack** property is **True** .
 >
 
 
-The __SelectedIndexChanged__ event handler receives two arguments:
+The **SelectedIndexChanged** event handler receives two arguments:
 
-1. The __RadComboBox__ that is loading items. This argument is of type object, but can be cast to the __RadComboBox__ type.
+1. The **RadComboBox** that is loading items. This argument is of type object, but can be cast to the **RadComboBox** type.
 
 1. An EventArgs object. This object has the following properties for identifying what has changed:
 
-* __Text__ is the text of the item that was just selected.
+* **Text** is the text of the item that was just selected.
 
-* __Value__ is the value of the item that was just selected.
+* **Value** is the value of the item that was just selected.
 
-* __OldText__ is the text of the item that was previously selected
+* **OldText** is the text of the item that was previously selected
 
-* __OldValue__ is the value of the item that was previously selected
+* **OldValue** is the value of the item that was previously selected
 
-Use the __SelectedIndexChanged__ event handler to respond in server-side code when the user changes the current selection:
+Use the **SelectedIndexChanged** event handler to respond in server-side code when the user changes the current selection:
 
 ````ASPNET
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        autopostback="True" 
-	        onselectedindexchanged="RadComboBox1_SelectedIndexChanged">
-	    </telerik:radcombobox>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	autopostback="True" 
+	onselectedindexchanged="RadComboBox1_SelectedIndexChanged">
+</telerik:radcombobox>
 ````
 
 
@@ -50,21 +50,20 @@ Use the __SelectedIndexChanged__ event handler to respond in server-side code wh
 
 
 ````C#
-	
-	
-	    protected void RadComboBox1_SelectedIndexChanged(object o, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
-	    {
-	        Label1.Text = "You selected " + e.Text + " item";
-	    }
+		
+protected void RadComboBox1_SelectedIndexChanged(object o, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
+{
+	Label1.Text = "You selected " + e.Text + " item";
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs)
-	
-	        Label1.Text = "You selected " + e.Text + " item"
-	
-	    End Sub
+Protected Sub RadComboBox1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs)
+
+	Label1.Text = "You selected " + e.Text + " item"
+
+End Sub
 	
 ````
 

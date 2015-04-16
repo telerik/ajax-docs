@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__RadComboBox__ supports a number of client-side events that let you customize its behavior:
+**RadComboBox** supports a number of client-side events that let you customize its behavior:
 
 * [ OnClientItemsRequestFailed ]({%slug combobox/client-side-programming/events/onclientitemrequestfailed%}) occurs when the load-on-demand callback error appears.
 
@@ -48,7 +48,7 @@ __RadComboBox__ supports a number of client-side events that let you customize i
 
 * [OnClientTextChange]({%slug combobox/client-side-programming/events/onclienttextchange%}) occurs when the text in the input area has been changed.
 
-* [OnClientItemDataBound]({%slug combobox/client-side-programming/events/onclientitemdatabound%}) occurs for each item that is created during __Web Service__ Load on Demand (available after Q3 SP2 2008).
+* [OnClientItemDataBound]({%slug combobox/client-side-programming/events/onclientitemdatabound%}) occurs for each item that is created during **Web Service** Load on Demand (available after Q3 SP2 2008).
 
 * [OnClientTemplateDataBound]({%slug combobox/client-side-programming/events/onclienttemplatedatabound%}) occurs after the client template is bound and the binding expression are evaluated.
 
@@ -56,20 +56,20 @@ __RadComboBox__ supports a number of client-side events that let you customize i
 
 * [OnClientCheckAllChecked]({%slug combobox/client-side-programming/events/onclientcheckallchecked%}) occurs after the check all items check box is checked.
 
-To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding __RadComboBox__ property.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding **RadComboBox** property.
 
 ````ASPNET
-	    <script language="javascript" type="text/javascript">
-	        function MyClientBlur(sender, eventArgs) {
-	            alert("blur");
-	        }
-	    </script>
-	
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        onclientblur="MyClientBlur">
-	    </telerik:radcombobox>
+<script language="javascript" type="text/javascript">
+	function MyClientBlur(sender, eventArgs) {
+		alert("blur");
+	}
+</script>
+
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	onclientblur="MyClientBlur">
+</telerik:radcombobox>
 ````
 
 
@@ -78,14 +78,14 @@ You can also assign event handlers in client-side code:
 
 ````JavaScript
 	
-	        function MyClientBlur(sender, eventArgs) {
-	            alert("blur");
-	        }
-	
-	        function pageLoad() {
-	            var combo = $find("<%= RadComboBox1.ClientID %>");
-	            combo.add_onClientBlur(MyClientBlur);
-	        }
+function MyClientBlur(sender, eventArgs) {
+	alert("blur");
+}
+
+function pageLoad() {
+	var combo = $find("<%= RadComboBox1.ClientID %>");
+	combo.add_onClientBlur(MyClientBlur);
+}
 	
 ````
 
@@ -95,10 +95,10 @@ Another advantage of the client-side API is that you can detach an event handler
 
 ````JavaScript
 	
-	        function RemoveEventHandler() {
-	            var combo = $find("<%= RadComboBox1.ClientID %>");
-	            combo.remove_onClientBlur(MyClientBlur); 
-	        }
+function RemoveEventHandler() {
+	var combo = $find("<%= RadComboBox1.ClientID %>");
+	combo.remove_onClientBlur(MyClientBlur); 
+}
 	
 ````
 
