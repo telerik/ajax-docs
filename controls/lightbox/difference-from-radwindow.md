@@ -12,7 +12,7 @@ position: 1
 
 
 
-What is the difference between __RadLightBox__ and __RadWindow__, which at first glance will fit better to your project?
+What is the difference between **RadLightBox** and **RadWindow**, which at first glance will fit better to your project?
 
 ## Differences between the two controls
 
@@ -42,10 +42,10 @@ What is the difference between __RadLightBox__ and __RadWindow__, which at first
 |Mobile Support|Yes|Yes|
 |Cross-browser Support|Yes|Yes|
 
-*__RadLightBox__ provides a two type of animation, __Resize__ and __Fade__whereas RadWindow has only a Resize one.
+\* **RadLightBox** provides a two type of animation, **Resize** and **Fade** whereas RadWindow has only a Resize one.
 
-** __RadLightBox__ allows you to choose between different animations for the different actions. For instance,	you could choose a __Fade__ animation when closing the __LightBox__ and set __Resize__	animation when opening it. __RadWindow__ does not support this and the animation is the same for each action.
+** **RadLightBox** allows you to choose between different animations for the different actions. For instance,	you could choose a **Fade** animation when closing the **LightBox** and set **Resize**	animation when opening it. **RadWindow** does not support this and the animation is the same for each action.
 
-Ideal scenario to use a __LightBox__ is when you need to display an image galleries or some simple case, which includes	using of ASP.NET controls. The lightweight design is suitable for such scenarios no matter the number of the displayed items.
+Ideal scenario to use a **LightBox** is when you need to display an image galleries or some simple case, which includes	using of ASP.NET controls. The lightweight design is suitable for such scenarios no matter the number of the displayed items.
 
-On the other hand, preferred usage of __RadWindow__ is in cases where controls like RadGrid, RadTreeList and	the like have to be embedded in it.	Another advantage of __RadWindow__ control is the ability to move,	while the __RadLightBox__ stays static in the middle of the screen.
+On the other hand, preferred usage of **RadWindow** is in cases where controls like RadGrid, RadTreeList and	the like have to be embedded in it.	Another advantage of **RadWindow** control is the ability to move,	while the **RadLightBox** stays static in the middle of the screen.

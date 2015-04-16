@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title:  Overview | UI for ASP.NET AJAX Documentation
+page_title: Client-side Programming Overview | RadLightBox for ASP.NET AJAX Documentation
 description: Overview
 slug: lightbox/client-side-programming/overview
 tags: overview
