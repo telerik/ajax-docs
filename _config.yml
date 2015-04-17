@@ -53,19 +53,19 @@ navigation:
         title: "Helper Tools"      
     "deployment":
         title: "Deployment"
-        position: 7
+        position: 6
     "controls":
         title: "Controls"
-        position: 7
+        position: 12
     "visual-stylebuilder":
         title: "Visual StyleBuilder"
-        position: 8        
+        position: 16        
     "mvc":
         title: "Integration with ASPNET MVC"
-        position: 9
+        position: 18
     "sharepoint":
         title: "Integration with SharePoint"
-        position: 10
+        position: 20
     "sharepoint/2010":
         title: "SharePoint 2010"
         position: 1
