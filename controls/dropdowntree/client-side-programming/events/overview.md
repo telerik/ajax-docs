@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadDropDownTree__ control supports a number of client-side events that let you customize its behavior:
+**RadDropDownTree** control supports a number of client-side events that let you customize its behavior:
 
 * [OnClienLoad]({%slug dropdowntree/client-side-programming/events/onclientload%}) - client-side event handler iscalled after the RadDropDownTree is fully initialized on the client-side.
 

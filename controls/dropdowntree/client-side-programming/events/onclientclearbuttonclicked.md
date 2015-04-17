@@ -14,7 +14,7 @@ position: 14
 
 ## OnClientClearButtonClicked
 
-The __OnClientClearButtonClicked__ client-side event after the Clear button in the entry area of the RadDropDownTree is clicked.
+The **OnClientClearButtonClicked** client-side event after the Clear button in the entry area of the RadDropDownTree is clicked.
 
 The event handler receives two parameters:
 

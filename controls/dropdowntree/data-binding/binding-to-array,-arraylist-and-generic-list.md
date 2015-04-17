@@ -12,17 +12,17 @@ position: 1
 
 
 
-Binding RadDropDownTree to a data source that implements __IEnumerable__, such as Array or ArrayList, can create a flat data structure as well as a hierarchy if the proper __ID__ -> __ParentID__ relationship is set.
+Binding RadDropDownTree to a data source that implements **IEnumerable**, such as Array or ArrayList, can create a flat data structure as well as a hierarchy if the proper **ID** -> **ParentID** relationship is set.
 
-Here is a general outline of __IEnumerable__ data binding:
+Here is a general outline of **IEnumerable** data binding:
 
 1. Create the collection.
 
-1. Add values to the collection and set the __DataSource__ property of RadDropDownTree to the instance of the collection.
+1. Add values to the collection and set the **DataSource** property of RadDropDownTree to the instance of the collection.
 
-1. Call the __DataBind()__ method.
+1. Call the **DataBind()** method.
 
-The collection is automatically mapped to the __Text__ property of the respective tree Node.
+The collection is automatically mapped to the **Text** property of the respective tree Node.
 
 ## Binding to an Array
 
@@ -64,16 +64,16 @@ The examples below takes an array of strings as a data source.
 
 ## Binding to an ArrayList
 
-If you have a collection (any collection implementing __ICollection__ or __IEnumerable__) that contains objects (as opposed to simple values),you can take advantage of __DataTextField__, and __DataValueField__ properties to map object properties from the object directly to the __Text__ or __Value__ fields. If the __DataFieldID__ and __DataFieldParentID__ properties are set, RadDropDownTree will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
+If you have a collection (any collection implementing **ICollection** or **IEnumerable**) that contains objects (as opposed to simple values),you can take advantage of **DataTextField**, and **DataValueField** properties to map object properties from the object directly to the **Text** or **Value** fields. If the **DataFieldID** and **DataFieldParentID** properties are set, RadDropDownTree will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
 
->tip - their __DataFieldParentID__ property must be __null__ if it is of nullable (e.g. __int?__ ) or reference (e.g. __string__ ) type.
+>tip - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 (null)
 >2 1
->- their __DataFieldParentID__ property must return the __default value__ if it is value type (e.g. __0__ for __int__ , __Guid.Empty__ for __Guid__ ).
+>- their **DataFieldParentID** property must return the **default value** if it is value type (e.g. **0** for **int** , **Guid.Empty** for **Guid** ).
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 0
 >2 1
 >

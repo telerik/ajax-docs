@@ -12,17 +12,17 @@ position: 4
 
 
 
-This article demonstrates how to bind __RadDropDownTree__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadDropDownTree** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadDropDownTree can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadDropDownTree __DataText__ and __DataValue__, __DataFieldID__, __DataFieldParentID__ and __DataNavigateUrlField__ field should be associated with the custom object properties. Thus you can choose which property value to be shown as RadDropDownTree item text and value. For reference at the bottom of the service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadDropDownTree can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadDropDownTree **DataText** and **DataValue**, **DataFieldID**, **DataFieldParentID** and **DataNavigateUrlField** field should be associated with the custom object properties. Thus you can choose which property value to be shown as RadDropDownTree item text and value. For reference at the bottom of the service implementation below you will find the custom class and its properties declaration.
 
 ## 
 
 The code snippet below shows sample configuration of RadDropDownTree bound to RadClientDataSource. The peculiarity of such scenario comes from the fact that the RadDropDownTree represents hierarchical data. Considering that fact we expect such type of data to be returned by the service to the RadClientDataSource.
 
->note Initially the RadDropDownTree control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have __ParentID__ property value to null.
+>note Initially the RadDropDownTree control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
 

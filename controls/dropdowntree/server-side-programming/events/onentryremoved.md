@@ -14,12 +14,12 @@ position: 3
 
 ## 
 
-The server-side __OnEntryRemoved__ event occurs when an entry is removed from the entry area, causing a postback.
+The server-side **OnEntryRemoved** event occurs when an entry is removed from the entry area, causing a postback.
 
 The event handler receives two parameters:
 
-1. The instance of the __DropDownTree__ firing the event
+1. The instance of the **DropDownTree** firing the event
 
 1. An event argument parameter that contains the following property:
 
-* __Entry__ -returns the entry that has jush being removed from the input.
+* **Entry** -returns the entry that has jush being removed from the input.

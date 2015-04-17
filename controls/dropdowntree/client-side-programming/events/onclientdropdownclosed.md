@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientDropDownClosed__ client-side event that is fired after the dropdown of the RadDropDownTree is closed.
+The **OnClientDropDownClosed** client-side event that is fired after the dropdown of the RadDropDownTree is closed.
 
 The event handler receives two parameters:
 

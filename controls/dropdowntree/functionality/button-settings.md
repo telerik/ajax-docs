@@ -16,13 +16,13 @@ You can take advantage of the additional functionality that we implemented with 
 
 ## Button Settings
 
->note These settings are available after the __Q2 2013__ release of the Telerik controls.
+>note These settings are available after the **Q2 2013** release of the Telerik controls.
 >
 
 
-* __ShowCheckAll__ - displays a checkbox that allows checking of all checkboxes in the dropdown;![Checkall Property](images/dropdowntree_checkall.png)
+* **ShowCheckAll** - displays a checkbox that allows checking of all checkboxes in the dropdown;![Checkall Property](images/dropdowntree_checkall.png)
 
-* __ShowClear__ - displays a button that clears the entries from the entry area.![Clear Button](images/dropdowntree_clearbutton.png)
+* **ShowClear** - displays a button that clears the entries from the entry area.![Clear Button](images/dropdowntree_clearbutton.png)
 
 Here is sample code demonstrating how to set them inline:
 

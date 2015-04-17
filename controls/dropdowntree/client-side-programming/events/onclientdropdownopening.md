@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientDropDownOpening__ client-side event that is fired before the dropdown of RadDropDownTree is opened.
+The **OnClientDropDownOpening** client-side event that is fired before the dropdown of RadDropDownTree is opened.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event can be cancelled - simply set __args.set_cancel__ to __true__ -__args.set_cancel(true);__ from the event handler and the RadDropDownTree dropdown will not be opened.
+The event can be cancelled - simply set **args.set_cancel** to **true** -**args.set_cancel(true);** from the event handler and the RadDropDownTree dropdown will not be opened.
 
 ## Scroll into view to a selected node
 
-In __OnClientDropDownOpening__ client-side event of RadDropDownTree we can scroll to the selected entry by using __scrollIntoView()__ function of the node as in the code below:
+In **OnClientDropDownOpening** client-side event of RadDropDownTree we can scroll to the selected entry by using **scrollIntoView()** function of the node as in the code below:
 
 ````ASPNET
 	                    function OnClientDropDownOpening(sender, args) {

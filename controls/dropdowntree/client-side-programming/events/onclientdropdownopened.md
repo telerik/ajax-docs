@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientDropDownOpened__ client-side event that is fired after the dropdown of the RadDropDownTree is opened.
+The **OnClientDropDownOpened** client-side event that is fired after the dropdown of the RadDropDownTree is opened.
 
 The event handler receives two parameters:
 

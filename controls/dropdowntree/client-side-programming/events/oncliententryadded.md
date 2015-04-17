@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientEntryAdded__ client-side event that is fired when an entry is about to be added to the Entry area.
+The **OnClientEntryAdded** client-side event that is fired when an entry is about to be added to the Entry area.
 
 The event handler receives two parameters:
 

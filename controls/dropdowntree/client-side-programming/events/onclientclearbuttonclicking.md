@@ -14,7 +14,7 @@ position: 13
 
 ## OnClientClearButtonClicking
 
-The __OnClientClearButtonClicking__ client-side event immediately when the Clear button in the entry area of the RadDropDownTree is clicked.
+The **OnClientClearButtonClicking** client-side event immediately when the Clear button in the entry area of the RadDropDownTree is clicked.
 
 The event handler receives two parameters:
 
@@ -22,4 +22,4 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event can be cancelled - simply set __args.set_cancel__ to __true__ -__args.set_cancel(true);__from the event handler and the RadDropDownTree dropdown will not be opened.
+The event can be cancelled - simply set **args.set_cancel** to **true** -**args.set_cancel(true);**from the event handler and the RadDropDownTree dropdown will not be opened.

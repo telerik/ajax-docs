@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadDropDownTree__ control is a combination of a lightweight dropdown and a tree control.The approach with entries like in the RadAutoCompleteBox is used. Basically, an new entry is created as a resultof node's selection from the tree.
+The **RadDropDownTree** control is a combination of a lightweight dropdown and a tree control.The approach with entries like in the RadAutoCompleteBox is used. Basically, an new entry is created as a resultof node's selection from the tree.
 
 ![Overview](images/dopdowntree_overview.png)
 
@@ -22,15 +22,15 @@ The __RadDropDownTree__ control is a combination of a lightweight dropdown and a
 
 Some of the main features of the RadDropDownTree control include:
 
-* Various __DataBindings__ including declarative binding, binding to __Entity DataSource__ as well as __Linq DataSource__
+* Various **DataBindings** including declarative binding, binding to **Entity DataSource** as well as **Linq DataSource**
 
-* __Templates__ such as __Header Template__, __Footer Template__ and __Node Template__.
+* **Templates** such as **Header Template**, **Footer Template** and **Node Template**.
 
-* __Checkboxes__ that enable the user to choose between the different states - *None*, *SingleCheck*, *TriState* and *CheckChildNodes*.
+* **Checkboxes** that enable the user to choose between the different states - *None*, *SingleCheck*, *TriState* and *CheckChildNodes*.
 
-* __EmptyMessage__ that will allow the developer to provide a hint (setting a message in the entry area) to the final user of the application.
+* **EmptyMessage** that will allow the developer to provide a hint (setting a message in the entry area) to the final user of the application.
 
-* There are also __DropDownSettings__ that enable fine tuning of the control (*OpenDropDownOnLoad* that expands the dropdown after it is loaded on the page is one of them).
+* There are also **DropDownSettings** that enable fine tuning of the control (*OpenDropDownOnLoad* that expands the dropdown after it is loaded on the page is one of them).
 
 # See Also
 

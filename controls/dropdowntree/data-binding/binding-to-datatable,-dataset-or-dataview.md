@@ -14,7 +14,7 @@ position: 2
 
 ## Binding to a DataTable
 
-__RadDropDownTree__ can be bound to a __DataTable__, __DataSet__ and a __DataView__. This example shows binding to a __DataTable__ object.
+**RadDropDownTree** can be bound to a **DataTable**, **DataSet** and a **DataView**. This example shows binding to a **DataTable** object.
 
 ![Binding to a DataTable](images/dropdowntree_datatable.png)
 

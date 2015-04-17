@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientEntryRemoved__ client-side event that is fired when an entry is about to be removed from the Entry area.
+The **OnClientEntryRemoved** client-side event that is fired when an entry is about to be removed from the Entry area.
 
 The event handler receives two parameters:
 

@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientEntryRemoving__ client-side event is fired when an entry is about to be removed from the Entry area.
+The **OnClientEntryRemoving** client-side event is fired when an entry is about to be removed from the Entry area.
 
 The event handler receives two parameters:
 
@@ -22,4 +22,4 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event can be cancelled - simply set __args.set_cancel__ to __true__ -__args.set_cancel(true);__from the event handler and the entry from the dropdown will not be removed.
+The event can be cancelled - simply set **args.set_cancel** to **true** -**args.set_cancel(true);**from the event handler and the entry from the dropdown will not be removed.

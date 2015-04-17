@@ -14,12 +14,12 @@ position: 2
 
 ## 
 
-The server-side __OnEntryAdded__ event occurs when an entry is added to the entry area, causing a postback.
+The server-side **OnEntryAdded** event occurs when an entry is added to the entry area, causing a postback.
 
 The event handler receives two parameters:
 
-1. The instance of the __DropDownTree__ firing the event
+1. The instance of the **DropDownTree** firing the event
 
 1. An event argument parameter that contains the following property:
 
-* __Entry__ -returns the entry that has jush being added to the input.
+* **Entry** -returns the entry that has jush being added to the input.

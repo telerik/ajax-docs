@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientDropDownClosing__ client-side event that is fired before the dropdown of the RadDropDownTree is closed.
+The **OnClientDropDownClosing** client-side event that is fired before the dropdown of the RadDropDownTree is closed.
 
 The event handler receives two parameters:
 
@@ -22,4 +22,4 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event can be cancelled - simply set __args.set_cancel__ to __true__ -__args.set_cancel(true);__from the event handler and the RadDropDownTree dropdown will not be closed.
+The event can be cancelled - simply set **args.set_cancel** to **true** -**args.set_cancel(true);**from the event handler and the RadDropDownTree dropdown will not be closed.

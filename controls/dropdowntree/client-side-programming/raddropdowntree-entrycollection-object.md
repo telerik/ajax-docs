@@ -14,12 +14,12 @@ position: 3
 
 ## RadDropDownTree EntryCollection Object
 
-The __RadDropDownTreeEntryCollection__ object is returned by the __get_entries()__method of the RadDropDownTree object.The following table lists the most important methods.
+The **RadDropDownTreeEntryCollection** object is returned by the **get_entries()**method of the RadDropDownTree object.The following table lists the most important methods.
 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_count()__ |none|Integer|Returns the length of the collection|
-| __getEntry(i)__ |Integer|RadDropDownTreeEntry object|Returns the entry object|
-| __indexOf(entry)__ |RadDropDOwnTreeEntry|Integer|Returns the index of the entry|
-| __clear()__ |none|none|Clears the entry area if there is/are any entry/entries added.|
+| **get_count()** |none|Integer|Returns the length of the collection|
+| **getEntry(i)** |Integer|RadDropDownTreeEntry object|Returns the entry object|
+| **indexOf(entry)** |RadDropDOwnTreeEntry|Integer|Returns the index of the entry|
+| **clear()** |none|none|Clears the entry area if there is/are any entry/entries added.|
