@@ -278,9 +278,15 @@ navigation:
         title: "RadZipLibrary"
 
 ## List common control TOC structure so it is reused by all controls
+    "*controls/*/overview":
+         title: "Overview"
+         position: 1
     "*controls/*/introduction":
          title: "introduction"
          position: 1
+    "*controls/*/changes-and-backwards-compatibility":
+         title: "Changes and Backwards Compatibility"
+         position: 2
     "*controls/*/changes-and-backward-compatibility":
          title: "Changes and Backwards Compatibility"
          position: 2
@@ -305,9 +311,21 @@ navigation:
     "*controls/*/server-side-programming":
          title: "Server-side Programming"
          position: 45
+    "*controls/*/server-side-programming/methods":
+         title: "Methods"
+         position: 20
+    "*controls/*/server-side-programming/events":
+         title: "Events"
+         position: 25
     "*controls/*/client-side-programming":
          title: "Client-side Programming"
          position: 50
+    "*controls/*/client-side-programming/methods":
+         title: "Methods"
+         position: 20
+    "*controls/*/client-side-programming/events":
+         title: "Events"
+         position: 25
     "*controls/*/how-to":
          title: "How To"
          position: 55
@@ -320,9 +338,6 @@ navigation:
 
 
 ## List control specific directory names and order here, like this:
-    "*ajax/getting-started":
-        title: "Getting Started"
-        position: 2
     "*ajax/radajaxmanager":
         title: "RadAjaxManager"
         position: 4
@@ -350,63 +365,9 @@ navigation:
     "*ajax/performance":
         title: "Performance"
         position: 8
-    "*ajax/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 10
-    "*ajax/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 11
-    "*ajax/server-side-programming":
-        title: "Server-side Programming"
-        position: 12
-    "*ajax/server-side-programming/events":
-        title: "Events"
-        position: 3
-    "*ajax/client-side-programming":
-        title: "Client-side Programming"
-        position: 13
-    "*ajax/client-side-programming/events":
-        title: "Events"
-        position: 3
     "*ajax/client-side-programming/how-to":
         title: "How-To"
         position: 4
-    "*ajax/how-to":
-        title: "How To"
-        position: 14
-    "*ajax/troubleshooting":
-        title: "Troubleshooting"
-        position: 15
-    "*asyncupload/functionality":
-        title: "Functionality"
-        position: 4
-    "*asyncupload/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*asyncupload/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*asyncupload/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*asyncupload/server-side-programming":
-        title: "Server-Side Programming"
-        position: 8
-    "*asyncupload/client-side-programming":
-        title: "Client-Side Programming"
-        position: 9
-    "*asyncupload/how-to":
-        title: "How To"
-        position: 10
-    "*asyncupload/troubleshooting":
-        title: "Troubleshooting"
-        position: 11
-    "*autocompletebox/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 2
-    "*autocompletebox/functionality":
-        title: "Functionality"
-        position: 3
     "*autocompletebox/templates":
         title: "Templates"
         position: 4
@@ -416,120 +377,21 @@ navigation:
     "*autocompletebox/working-with-entries":
         title: "Working with Entries"
         position: 6
-    "*autocompletebox/server-side-programming":
-        title: "Server-Side Programming"
-        position: 7
-    "*autocompletebox/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*autocompletebox/client-side-programming":
-        title: "Client-Side Programming"
-        position: 8
-    "*autocompletebox/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*button/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 1
     "*button/button-types":
         title: "Button Types"
         position: 4
     "*button/button-types/icons":
         title: "Icons"
         position: 5
-    "*button/functionality":
-        title: "Functionality"
-        position: 5
-    "*button/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*button/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*button/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*button/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*button/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*button/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*button/how-to":
-        title: "How To"
-        position: 11
-    "*button/troubleshooting":
-        title: "Troubleshooting"
-        position: 12
-    "*calendar/getting-started":
-        title: "Getting Started"
-        position: 3
-    "*calendar/design-time":
-        title: "Design Time"
-        position: 4
     "*calendar/radcalendar":
         title: "RadCalendar"
         position: 5
     "*calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker":
         title: "RadDatePicker, RadTimePicker, RadDateTimePicker and RadMonthYearPicker"
         position: 6
-    "*calendar/mobile-support":
-        title: "Mobile Support"
-        position: 7
     "*calendar/templates":
         title: "Templates"
         position: 8
-    "*calendar/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 9
-    "*calendar/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 10
-    "*calendar/server-side-programming":
-        title: "Server-side Programming"
-        position: 11
-    "*calendar/server-side-programming/server-side-events":
-        title: "Server-Side Events"
-        position: 1
-    "*calendar/client-side-programming":
-        title: "Client-side Programming"
-        position: 12
-    "*calendar/client-side-programming/events":
-        title: "Events"
-        position: 9
-    "*calendar/how-to":
-        title: "How To"
-        position: 13
-    "*captcha/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 1
-    "*captcha/functionality":
-        title: "Functionality"
-        position: 4
-    "*captcha/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 5
-    "*captcha/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*captcha/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*captcha/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*captcha/client-side-programming/events":
-        title: "Events"
-        position: 0
-    "*captcha/troubleshooting":
-        title: "Troubleshooting"
-        position: 9
-    "*chart/getting-started":
-        title: "Getting Started"
-        position: 1
     "*chart/client-side":
         title: "Client-Side"
         position: 2
@@ -554,21 +416,9 @@ navigation:
     "*chart/advanced-topics":
         title: "Advanced Topics"
         position: 9
-    "*chart/how-to":
-        title: "How To"
-        position: 10
-    "*chart/troubleshooting":
-        title: "Troubleshooting"
-        position: 11
     "*chart/standards-compliance":
         title: "Standards Compliance"
         position: 12
-    "*clientdatasource/server-side-programming":
-        title: "Server-side Programming"
-        position: 4
-    "*clientdatasource/client-side-programming":
-        title: "Client-side Programming"
-        position: 5
     "*clientdatasource/client-side-programming/client-side-api":
         title: "Client-side API"
         position: 3
@@ -578,84 +428,12 @@ navigation:
     "*clientdatasource/client-side-programming/client-side-api/methods":
         title: "Methods"
         position: 1
-    "*clientexportmanager/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*clientexportmanager/functionality":
-        title: "Functionality"
-        position: 4
-    "*clientexportmanager/client-side-programming":
-        title: "Client-Side Programming"
-        position: 5
-    "*clientexportmanager/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*clientexportmanager/how-to":
-        title: "How To"
-        position: 6
-    "*clientexportmanager/troubleshooting":
-        title: "Troubleshooting"
-        position: 7
-    "*cloudupload/functionality":
-        title: "Functionality"
-        position: 2
     "*cloudupload/cloud-storage-providers":
         title: "Cloud Storage Providers"
         position: 3
     "*cloudupload/custom-cloud-storage-providers":
         title: "Custom Cloud Storage Providers"
         position: 4
-    "*cloudupload/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*cloudupload/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*cloudupload/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*cloudupload/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*cloudupload/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*cloudupload/how-to":
-        title: "How To"
-        position: 9
-    "*colorpicker/changes-and-backwards-compatibility":
-        title: "Changes and Backwards Compatibility"
-        position: 1
-    "*colorpicker/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*colorpicker/functionality":
-        title: "Functionality"
-        position: 4
-    "*colorpicker/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*colorpicker/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*colorpicker/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*colorpicker/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*colorpicker/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*combobox/design-time":
-        title: "Design Time"
-        position: 2
-    "*combobox/functionality":
-        title: "Functionality"
-        position: 7
-    "*combobox/mobile-support":
-        title: "Mobile Support"
-        position: 8
     "*combobox/templates":
         title: "Templates"
         position: 9
@@ -668,54 +446,15 @@ navigation:
     "*combobox/load-on-demand":
         title: "Load On Demand"
         position: 12
-    "*combobox/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 13
-    "*combobox/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 14
-    "*combobox/server-side-programming":
-        title: "Server-side Programming"
-        position: 15
-    "*combobox/client-side-programming":
-        title: "Client-side Programming"
-        position: 16
-    "*combobox/client-side-programming/events":
-        title: "Events"
-        position: 3
     "*combobox/client-side-programming/objects":
         title: "Objects"
         position: 4
-    "*combobox/how-to":
-        title: "How To"
-        position: 17
-    "*combobox/troubleshooting":
-        title: "Troubleshooting"
-        position: 18
     "*dataform/data-binding":
         title: "Data Binding"
         position: 3
-    "*dataform/functionality":
-        title: "Functionality"
-        position: 4
-    "*dataform/mobile-support":
-        title: "Mobile Support"
-        position: 5
     "*dataform/data-editing":
         title: "Data Editing"
         position: 6
-    "*dataform/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*dataform/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*dataform/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*dataform/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 9
     "*datapager/elements-and-templates":
         title: "Elements and Templates"
         position: 2
@@ -725,24 +464,6 @@ navigation:
     "*datapager/defining-structure":
         title: "Defining Structure"
         position: 4
-    "*datapager/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*datapager/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*datapager/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*datapager/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*datapager/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*datapager/how-to":
-        title: "How To"
-        position: 9
     "*diagram/structure":
         title: "Structure"
         position: 3
@@ -755,30 +476,9 @@ navigation:
     "*diagram/data-binding/server-side":
         title: "Server-side"
         position: 0
-    "*diagram/functionality":
-        title: "Functionality"
-        position: 5
     "*diagram/import-and-export":
         title: "Import and Export"
         position: 6
-    "*diagram/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*diagram/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*diagram/how-to":
-        title: "How To"
-        position: 10
-    "*dock/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 1
-    "*dock/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*dock/design-time":
-        title: "Design Time"
-        position: 3
     "*dock/structure":
         title: "Structure"
         position: 4
@@ -794,39 +494,6 @@ navigation:
     "*dock/commands":
         title: "Commands"
         position: 5
-    "*dock/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*dock/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*dock/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*dock/server-side-programming":
-        title: "Server-Side Programming"
-        position: 9
-    "*dock/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*dock/client-side-programming":
-        title: "Client-Side Programming"
-        position: 10
-    "*dock/client-side-programming/events":
-        title: "Events"
-        position: 4
-    "*dock/how-to":
-        title: "How To"
-        position: 11
-    "*dock/troubleshooting":
-        title: "Troubleshooting"
-        position: 12
-    "*dropdownlist/design-time":
-        title: "Design Time"
-        position: 4
-    "*dropdownlist/functionality":
-        title: "Functionality"
-        position: 5
     "*dropdownlist/databinding":
         title: "DataBinding"
         position: 6
@@ -836,74 +503,17 @@ navigation:
     "*dropdownlist/databinding/client-side-binding":
         title: "Client-Side Binding"
         position: 2
-    "*dropdownlist/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*dropdownlist/accessibility-and-internationalization":
-        title: "Accessibility and internationalization"
-        position: 8
     "*dropdownlist/templates":
         title: "Templates"
         position: 9
-    "*dropdownlist/server-side-programming":
-        title: "Server-side Programming"
-        position: 10
-    "*dropdownlist/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*dropdownlist/client-side-programming":
-        title: "Client-side Programming"
-        position: 11
-    "*dropdownlist/client-side-programming/events":
-        title: "Events"
-        position: 2
     "*dropdownlist/client-side-programming/objects":
         title: "Objects"
         position: 3
-    "*dropdowntree/getting-started":
-        title: "Getting Started"
-        position: 1
     "*dropdowntree/data-binding":
         title: "Data Binding"
         position: 2
-    "*dropdowntree/functionality":
-        title: "Functionality"
-        position: 3
     "*dropdowntree/templates":
         title: "Templates"
-        position: 4
-    "*dropdowntree/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*dropdowntree/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*dropdowntree/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*dropdowntree/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*dropdowntree/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*dropdowntree/client-side-programming/events":
-        title: "Events"
-        position: 4
-    "*dropdowntree/how-to":
-        title: "How To"
-        position: 9
-    "*editor/changes-and-backwards-compatibility":
-        title: "Changes and Backwards Compatibility"
-        position: 1
-    "*editor/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*editor/design-time":
-        title: "Design Time"
-        position: 3
-    "*editor/functionality":
-        title: "Functionality"
         position: 4
     "*editor/functionality/toolbars":
         title: "Toolbars"
@@ -959,15 +569,6 @@ navigation:
     "*editor/managing-content/pasting-content":
         title: "Pasting Content"
         position: 2
-    "*editor/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*editor/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*editor/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
     "*editor/accessibility-and-internationalization/standards-compliance":
         title: "Standards Compliance"
         position: 0
@@ -980,102 +581,21 @@ navigation:
     "*editor/accessibility-and-internationalization/localization":
         title: "Localization"
         position: 3
-    "*editor/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*editor/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*editor/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
     "*editor/client-side-programming/methods":
         title: "Methods"
         position: 14
     "*editor/client-side-programming/methods/selection":
         title: "Selection"
         position: 20
-    "*editor/client-side-programming/events":
-        title: "Events"
-        position: 15
-    "*editor/how-to":
-        title: "How To"
-        position: 11
     "*editor/performance":
         title: "Performance"
         position: 12
-    "*editor/troubleshooting":
-        title: "Troubleshooting"
-        position: 13
-    "*fileexplorer/functionality":
-        title: "Functionality"
-        position: 4
-    "*fileexplorer/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*fileexplorer/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*fileexplorer/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*fileexplorer/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*fileexplorer/how-to":
-        title: "How To"
-        position: 9
-    "*fileexplorer/troubleshooting":
-        title: "Troubleshooting"
-        position: 10
     "*filter/filter-expressions":
         title: "Filter Expressions"
         position: 3
     "*filter/field-editors":
         title: "Field Editors"
         position: 4
-    "*filter/server-side-programming":
-        title: "Server-Side Programming"
-        position: 5
-    "*filter/client-side-programming":
-        title: "Client-Side Programming"
-        position: 6
-    "*filter/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*filter/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*filter/how-to":
-        title: "How To"
-        position: 9
-    "*formdecorator/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*formdecorator/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*formdecorator/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*formdecorator/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*formdecorator/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*formdecorator/how-to":
-        title: "How To"
-        position: 10
-    "*formdecorator/troubleshooting":
-        title: "Troubleshooting"
-        position: 11
-    "*gantt/getting-started-":
-        title: "Getting Started "
-        position: 1
-    "*gantt/design-time":
-        title: "Design Time"
-        position: 2
     "*gantt/structure":
         title: "Structure"
         position: 3
@@ -1094,15 +614,9 @@ navigation:
     "*gantt/data-binding/providers":
         title: "Providers"
         position: 3
-    "*gantt/functionality":
-        title: "Functionality"
-        position: 5
     "*gantt/functionality/import":
         title: "Import"
         position: 4
-    "*gantt/mobile-support":
-        title: "Mobile Support"
-        position: 6
     "*gantt/resoruces":
         title: "Resoruces"
         position: 7
@@ -1112,44 +626,8 @@ navigation:
     "*gantt/import":
         title: "Import"
         position: 8
-    "*gantt/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 9
-    "*gantt/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 10
-    "*gantt/server-side-programming":
-        title: "Server-side Programming"
-        position: 11
-    "*gantt/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*gantt/client-side-programming":
-        title: "Client-side Programming"
-        position: 12
-    "*gantt/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*gauge/design-time":
-        title: "Design Time"
-        position: 2
     "*gauge/gauge-types":
         title: "Gauge Types"
-        position: 3
-    "*gauge/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 4
-    "*gauge/server-side-programming":
-        title: "Server-side Programming"
-        position: 5
-    "*gauge/client-side-progamming":
-        title: "Client-side Progamming"
-        position: 6
-    "*grid/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*grid/design-time-":
-        title: "Design Time "
         position: 3
     "*grid/data-binding":
         title: "Data Binding"
@@ -1250,9 +728,6 @@ navigation:
     "*grid/functionality/exporting/export-formats/word-and-excel-export":
         title: "Word and Excel Export"
         position: 4
-    "*grid/mobile-support":
-        title: "Mobile Support"
-        position: 7
     "*grid/mobile-support/mobile-rendering":
         title: "Mobile Rendering"
         position: 1
@@ -1295,12 +770,6 @@ navigation:
     "*grid/control-lifecycle":
         title: "Control Lifecycle"
         position: 17
-    "*grid/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 18
-    "*grid/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 19
     "*grid/accessibility-and-internationalization/how-to":
         title: "How To"
         position: 9
@@ -1355,21 +824,6 @@ navigation:
     "*grid/client-side-programming/events/events":
         title: "Events"
         position: 1
-    "*grid/application-scenarios":
-        title: "Application Scenarios"
-        position: 22
-    "*grid/how-to":
-        title: "How To"
-        position: 23
-    "*grid/troubleshooting":
-        title: "Troubleshooting"
-        position: 24
-    "*htmlchart/design-time":
-        title: "Design Time"
-        position: 2
-    "*htmlchart/changes-and-backwards-compatibility":
-        title: "Changes and Backwards Compatibility"
-        position: 3
     "*htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart":
         title: "Migrating from RadChart to RadHtmlChart"
         position: 0
@@ -1379,66 +833,15 @@ navigation:
     "*htmlchart/data-binding":
         title: "Data Binding"
         position: 5
-    "*htmlchart/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*htmlchart/functionality":
-        title: "Functionality"
-        position: 7
     "*htmlchart/functionality/clienttemplate":
         title: "ClientTemplate"
         position: 0
     "*htmlchart/functionality/axes":
         title: "Axes"
         position: 1
-    "*htmlchart/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*htmlchart/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*htmlchart/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*htmlchart/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*htmlchart/how-to":
-        title: "How To"
-        position: 11
-    "*htmlchart/troubleshooting":
-        title: "Troubleshooting"
-        position: 12
     "*htmlchart/troubleshooting/known-issues":
         title: "Known Issues"
         position: 3
-    "*imageeditor/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*imageeditor/functionality":
-        title: "Functionality"
-        position: 3
-    "*imageeditor/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 4
-    "*imageeditor/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 5
-    "*imageeditor/server-side-programming":
-        title: "Server-side Programming"
-        position: 6
-    "*imageeditor/client-side-programming":
-        title: "Client-side Programming"
-        position: 7
-    "*imageeditor/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*imageeditor/how-to":
-        title: "How To"
-        position: 8
-    "*imageeditor/troubleshooting":
-        title: "Troubleshooting"
-        position: 9
     "*imageeditor/troubleshooting/known-issues":
         title: "Known Issues"
         position: 0
@@ -1448,27 +851,6 @@ navigation:
     "*imagegallery/data-binding/server-side":
         title: "Server-side"
         position: 0
-    "*imagegallery/functionality":
-        title: "Functionality"
-        position: 4
-    "*imagegallery/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*imagegallery/server-side-programming":
-        title: "Server-side Programming"
-        position: 6
-    "*imagegallery/client-side-programming":
-        title: "Client-side Programming"
-        position: 7
-    "*imagegallery/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*input/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*input/design-time":
-        title: "Design Time"
-        position: 3
     "*input/radinputmanager":
         title: "RadInputManager"
         position: 5
@@ -1490,81 +872,18 @@ navigation:
     "*input/raddateinput":
         title: "RadDateInput"
         position: 9
-    "*input/mobile-support":
-        title: "Mobile Support"
-        position: 10
-    "*input/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 11
-    "*input/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 12
-    "*input/server-side-programming":
-        title: "Server-side Programming"
-        position: 13
-    "*input/client-side-programming":
-        title: "Client-side Programming"
-        position: 14
-    "*input/client-side-programming/events":
-        title: "Events"
-        position: 9
-    "*input/how-to":
-        title: "How To"
-        position: 15
-    "*lightbox/functionality":
-        title: "Functionality"
-        position: 5
-    "*lightbox/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*lightbox/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*lightbox/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*listbox/design-time":
-        title: "Design Time"
-        position: 5
     "*listbox/data-binding":
         title: "Data Binding"
         position: 6
-    "*listbox/functionality":
-        title: "Functionality"
-        position: 7
     "*listbox/radlistbox-items":
         title: "RadListBox Items"
         position: 8
     "*listbox/templates":
         title: "Templates"
         position: 9
-    "*listbox/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 10
-    "*listbox/accessibility-and-internationalization-":
-        title: "Accessibility and Internationalization "
-        position: 11
-    "*listbox/server-side-programming":
-        title: "Server-side Programming"
-        position: 12
-    "*listbox/server-side-programming/server-events":
-        title: "Server Events"
-        position: 0
-    "*listbox/client-side-programming":
-        title: "Client-side Programming"
-        position: 13
     "*listbox/client-side-programming/objects":
         title: "Objects"
         position: 1
-    "*listbox/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*listbox/troubleshooting":
-        title: "Troubleshooting"
-        position: 14
-    "*listbox/how-to":
-        title: "How To"
-        position: 15
     "*listview/data-binding":
         title: "Data Binding"
         position: 4
@@ -1613,15 +932,6 @@ navigation:
     "*listview/control-lifecycle":
         title: "Control Lifecycle"
         position: 11
-    "*listview/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 12
-    "*listview/server-side-programming":
-        title: "Server-side Programming"
-        position: 13
-    "*listview/client-side-programming":
-        title: "Client-side Programming"
-        position: 14
     "*listview/client-side-programming/radlistview":
         title: "RadListView"
         position: 2
@@ -1631,54 +941,12 @@ navigation:
     "*listview/client-side-programming/radlistview/methods":
         title: "Methods"
         position: 2
-    "*listview/client-side-programming/events":
-        title: "Events"
-        position: 3
-    "*listview/how-to":
-        title: "How To"
-        position: 15
-    "*map/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*map/functionality":
-        title: "Functionality"
-        position: 3
     "*map/data-binding":
         title: "Data Binding"
         position: 4
-    "*map/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*map/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*mediaplayer/functionality":
-        title: "Functionality"
-        position: 3
-    "*mediaplayer/mobile-support":
-        title: "Mobile Support"
-        position: 4
-    "*mediaplayer/server-side-programming":
-        title: "Server-side Programming"
-        position: 5
-    "*mediaplayer/client-side-programming":
-        title: "Client-side Programming"
-        position: 6
-    "*mediaplayer/troubleshooting":
-        title: "Troubleshooting"
-        position: 7
-    "*menu/getting-started":
-        title: "Getting Started"
-        position: 5
-    "*menu/design-time":
-        title: "Design Time"
-        position: 6
     "*menu/data-binding":
         title: "Data Binding"
         position: 7
-    "*menu/functionality":
-        title: "Functionality"
-        position: 8
     "*menu/templates":
         title: "Templates"
         position: 9
@@ -1688,159 +956,30 @@ navigation:
     "*menu/context-menus":
         title: "Context Menus"
         position: 11
-    "*menu/mobile-support":
-        title: "Mobile Support"
-        position: 12
-    "*menu/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 13
-    "*menu/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 14
-    "*menu/server-side-programming":
-        title: "Server-side Programming"
-        position: 15
-    "*menu/client-side-programming":
-        title: "Client-side Programming"
-        position: 16
     "*menu/client-side-programming/objects":
         title: "Objects"
         position: 2
-    "*menu/client-side-programming/events":
-        title: "Events"
-        position: 3
-    "*menu/how-to":
-        title: "How To"
-        position: 17
-    "*menu/troubleshooting":
-        title: "Troubleshooting"
-        position: 18
-    "*navigation/design-time":
-        title: "Design Time"
-        position: 2
-    "*navigation/functionality":
-        title: "Functionality"
-        position: 3
-    "*navigation/mobile-support":
-        title: "Mobile Support"
-        position: 4
     "*navigation/templates":
         title: "Templates"
         position: 5
     "*navigation/data-binding":
         title: "Data Binding"
         position: 6
-    "*navigation/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*navigation/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*navigation/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*navigation/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*navigation/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*navigation/client-side-programming/events":
-        title: "Events"
-        position: 0
-    "*notification/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*notification/functionality":
-        title: "Functionality"
-        position: 3
     "*notification/setting-content":
         title: "Setting Content"
         position: 4
-    "*notification/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*notification/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*notification/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*notification/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*notification/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*notification/troubleshooting":
-        title: "Troubleshooting"
-        position: 10
-    "*odatadatasource/client-side-programming":
-        title: "Client-side Programming"
-        position: 3
     "*odatadatasource/client-side-programming/objects":
         title: "Objects"
         position: 0
-    "*odatadatasource/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*odatadatasource/how-to":
-        title: "How To"
-        position: 4
-    "*orgchart/overview":
-        title: "Overview"
-        position: 0
-    "*orgchart/functionality":
-        title: "Functionality"
-        position: 1
     "*orgchart/templates":
         title: "Templates"
         position: 2
-    "*orgchart/mobile-support":
-        title: "Mobile Support"
-        position: 3
     "*orgchart/data-binding":
         title: "Data Binding"
         position: 4
-    "*orgchart/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*orgchart/server-side-programming":
-        title: "Server-side Programming"
-        position: 6
-    "*orgchart/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*orgchart/client-side-programming":
-        title: "Client-side Programming"
-        position: 7
-    "*orgchart/client-side-programming/events":
-        title: "Events"
-        position: 0
-    "*orgchart/how-to":
-        title: "How To"
-        position: 8
-    "*pagelayout/creating-responsive-design":
-        title: "Creating Responsive Design"
-        position: 2
-    "*pagelayout/server-side-programming":
-        title: "Server-Side Programming"
-        position: 3
     "*pagelayout/structure":
         title: "Structure"
         position: 4
-    "*pagelayout/how-to":
-        title: "How To"
-        position: 5
-    "*panelbar/overview":
-        title: "Overview"
-        position: 0
-    "*panelbar/getting-started":
-        title: "Getting Started"
-        position: 4
-    "*panelbar/design-time":
-        title: "Design Time"
-        position: 5
     "*panelbar/templates":
         title: "Templates"
         position: 6
@@ -1853,24 +992,6 @@ navigation:
     "*panelbar/web-pages":
         title: "Web Pages"
         position: 9
-    "*panelbar/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 10
-    "*panelbar/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 11
-    "*panelbar/server-side-programming":
-        title: "Server-side Programming"
-        position: 12
-    "*panelbar/client-side-programming":
-        title: "Client-side Programming"
-        position: 13
-    "*panelbar/how-to":
-        title: "How To"
-        position: 14
-    "*panelbar/troubleshooting":
-        title: "Troubleshooting"
-        position: 15
     "*pdfprocessing/changes-and-backward-compatibility":
         title: "Changes and Backward Compatibility"
         position: 3
@@ -1883,24 +1004,6 @@ navigation:
     "*pdfprocessing/concepts":
         title: "Concepts"
         position: 7
-    "*persistenceframework/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*persistenceframework/functionality":
-        title: "Functionality"
-        position: 5
-    "*persistenceframework/server-side-programming":
-        title: "Server-Side Programming"
-        position: 6
-    "*persistenceframework/server-side-programming/events":
-        title: "Events"
-        position: 1
-    "*persistenceframework/troubleshooting":
-        title: "Troubleshooting"
-        position: 7
-    "*pivotgrid/design-time":
-        title: "Design Time"
-        position: 2
     "*pivotgrid/data-binding":
         title: "Data Binding"
         position: 3
@@ -1922,69 +1025,9 @@ navigation:
     "*pivotgrid/layouts":
         title: "Layouts"
         position: 8
-    "*pivotgrid/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 12
-    "*pivotgrid/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 13
-    "*pivotgrid/server-side-programming":
-        title: "Server-side Programming"
-        position: 14
-    "*pivotgrid/client-side-programming":
-        title: "Client-side Programming"
-        position: 15
-    "*pivotgrid/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*progressarea/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
     "*progressarea/localization":
         title: "Localization"
         position: 9
-    "*progressbar/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*progressbar/functionality":
-        title: "Functionality"
-        position: 3
-    "*progressbar/mobile-support":
-        title: "Mobile Support"
-        position: 4
-    "*progressbar/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*progressbar/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*progressbar/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*progressbar/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*rating/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*rating/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*rating/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*rating/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*rating/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*rating/how-to":
-        title: "How To"
-        position: 9
-    "*rating/troubleshooting":
-        title: "Troubleshooting"
-        position: 10
     "*ribbonbar/templates":
         title: "Templates"
         position: 3
@@ -1994,53 +1037,8 @@ navigation:
     "*ribbonbar/radribbonbar-items/ribbonbargallery":
         title: "RibbonBarGallery"
         position: 0
-    "*ribbonbar/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*ribbonbar/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*ribbonbar/server-side-programming":
-        title: "Server-side Programming"
-        position: 7
-    "*ribbonbar/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*ribbonbar/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*ribbonbar/client-side-programming/events":
-        title: "Events"
-        position: 6
-    "*rotator/getting-started":
-        title: "Getting Started"
-        position: 2
     "*rotator/data-binding":
         title: "Data Binding"
-        position: 4
-    "*rotator/functionality":
-        title: "Functionality"
-        position: 5
-    "*rotator/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*rotator/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*rotator/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*rotator/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*rotator/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*rotator/how-to":
-        title: "How To"
-        position: 11
-    "*scheduler/design-time":
-        title: "Design Time"
         position: 4
     "*scheduler/usability":
         title: "Usability"
@@ -2081,57 +1079,21 @@ navigation:
     "*scheduler/web-service-binding":
         title: "Web Service Binding"
         position: 12
-    "*scheduler/mobile-support":
-        title: "Mobile Support"
-        position: 13
-    "*scheduler/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 14
-    "*scheduler/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 15
-    "*scheduler/server-side-programming":
-        title: "Server-side Programming"
-        position: 16
-    "*scheduler/server-side-programming/server-events":
-        title: "Server Events"
-        position: 3
-    "*scheduler/client-side-programming":
-        title: "Client-side Programming"
-        position: 17
     "*scheduler/client-side-programming/properties-and-methods":
         title: "Properties and Methods"
         position: 0
-    "*scheduler/client-side-programming/events":
-        title: "Events"
-        position: 1
     "*scheduler/customizing-the-advanced-form":
         title: "Customizing the Advanced Form"
         position: 18
-    "*scheduler/how-to":
-        title: "How To"
-        position: 19
-    "*scheduler/troubleshootings":
-        title: "Troubleshootings"
-        position: 20
     "*scriptmanager/cdn-support":
         title: "CDN Support"
         position: 7
-    "*scriptmanager/troubleshooting":
-        title: "Troubleshooting"
-        position: 8
-    "*searchbox/design-time":
-        title: "Design Time"
-        position: 2
     "*searchbox/templates":
         title: "Templates"
         position: 3
     "*searchbox/data-binding":
         title: "Data Binding"
         position: 4
-    "*searchbox/functionality":
-        title: "Functionality"
-        position: 5
     "*searchbox/search-context":
         title: "Search Context"
         position: 6
@@ -2140,27 +1102,6 @@ navigation:
         position: 1
     "*searchbox/search-context/events":
         title: "Events"
-        position: 3
-    "*searchbox/appearance-and-styling":
-        title: "Appearance And Styling"
-        position: 7
-    "*searchbox/accessibility-and-internationalization":
-        title: "Accessibility And Internationalization"
-        position: 8
-    "*searchbox/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*searchbox/client-side-programming/events":
-        title: "Events"
-        position: 6
-    "*searchbox/server-side-programming":
-        title: "Server-side Programming"
-        position: 10
-    "*searchbox/server-side-programming/server-events":
-        title: "Server Events"
-        position: 0
-    "*sitemap/design-time":
-        title: "Design Time"
         position: 3
     "*sitemap/design-time/radsitemap":
         title: "RadSiteMap"
@@ -2177,105 +1118,21 @@ navigation:
     "*sitemap/radsitemap-nodes":
         title: "RadSiteMap Nodes"
         position: 6
-    "*sitemap/functionality":
-        title: "Functionality"
-        position: 7
-    "*sitemap/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 8
-    "*sitemap/server-side-programming":
-        title: "Server-Side Programming"
-        position: 9
-    "*slider/getting-started":
-        title: "Getting Started"
-        position: 2
     "*slider/data-binding":
         title: "Data Binding"
         position: 4
-    "*slider/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*slider/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*slider/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*slider/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*slider/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*slider/client-side-programming/events":
-        title: "Events"
-        position: 2
     "*slider/client-side-programming/events/data-binding":
         title: "Data Binding"
         position: 11
-    "*slider/troubleshooting":
-        title: "Troubleshooting"
-        position: 10
-    "*socialshare/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*socialshare/functionality":
-        title: "Functionality"
-        position: 4
     "*socialshare/configuring-buttons":
         title: "Configuring Buttons"
         position: 5
-    "*socialshare/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*socialshare/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*socialshare/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*socialshare/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*socialshare/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*socialshare/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*socialshare/troubleshooting":
-        title: "Troubleshooting"
-        position: 11
-    "*spell/changes-and-backward-compatibility":
-        title: "Changes and Backward Compatibility"
-        position: 1
     "*spell/configuration":
         title: "Configuration"
         position: 4
-    "*spell/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*spell/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
     "*spell/dictionaries":
         title: "Dictionaries"
         position: 7
-    "*spell/client-side-programming":
-        title: "Client-side Programming"
-        position: 8
-    "*spell/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*spell/how-to":
-        title: "How To"
-        position: 9
-    "*spell/troubleshooting":
-        title: "Troubleshooting"
-        position: 10
-    "*splitter/getting-started":
-        title: "Getting Started"
-        position: 2
     "*splitter/layout":
         title: "Layout"
         position: 4
@@ -2285,27 +1142,6 @@ navigation:
     "*splitter/sliding-zones":
         title: "Sliding Zones"
         position: 6
-    "*splitter/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*splitter/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*splitter/server-side-programming":
-        title: "Server-side Programming"
-        position: 9
-    "*splitter/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*splitter/client-side-programming/events":
-        title: "Events"
-        position: 6
-    "*splitter/how-to":
-        title: "How To"
-        position: 11
-    "*splitter/troubleshooting":
-        title: "Troubleshooting"
-        position: 12
     "*spreadprocessing/changes-and-backward-compatibility":
         title: "Changes and Backward Compatibility"
         position: 2
@@ -2336,12 +1172,6 @@ navigation:
     "*stylesheetmanager/cdn-support":
         title: "CDN Support"
         position: 3
-    "*tabstrip/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*tabstrip/design-time":
-        title: "Design Time"
-        position: 3
     "*tabstrip/templates":
         title: "Templates"
         position: 7
@@ -2357,45 +1187,9 @@ navigation:
     "*tabstrip/web-pages":
         title: "Web Pages"
         position: 11
-    "*tabstrip/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 12
-    "*tabstrip/server-side-programming":
-        title: "Server-side Programming"
-        position: 13
-    "*tabstrip/client-side-programming":
-        title: "Client-side Programming"
-        position: 14
-    "*tabstrip/how-to":
-        title: "How To"
-        position: 15
-    "*tabstrip/troubleshooting":
-        title: "Troubleshooting"
-        position: 16
     "*tagcloud/data-binding":
         title: "Data Binding"
         position: 4
-    "*tagcloud/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*tagcloud/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*tagcloud/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*tagcloud/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*tagcloud/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*tagcloud/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*tilelist/functionality":
-        title: "Functionality"
-        position: 2
     "*tilelist/tiles":
         title: "Tiles"
         position: 3
@@ -2423,99 +1217,27 @@ navigation:
     "*tilelist/data-binding":
         title: "Data Binding"
         position: 4
-    "*tilelist/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*tilelist/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 6
-    "*tilelist/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 7
-    "*tilelist/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*tilelist/server-side-programming/server-side-events":
-        title: "Server-side Events"
-        position: 3
-    "*tilelist/client-side-programming":
-        title: "Client-side Programming"
-        position: 9
-    "*tilelist/client-side-programming/client-side-events":
-        title: "Client-side Events"
-        position: 4
-    "*tilelist/how-to":
-        title: "How To"
-        position: 10
-    "*toolbar/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*toolbar/design-time":
-        title: "Design Time"
-        position: 3
     "*toolbar/radtoolbar-items":
         title: "RadToolBar Items"
         position: 7
     "*toolbar/data-binding":
         title: "Data Binding"
         position: 8
-    "*toolbar/functinality":
-        title: "Functinality"
-        position: 9
     "*toolbar/templates":
         title: "Templates"
         position: 10
     "*toolbar/web-pages":
         title: "Web Pages"
         position: 11
-    "*toolbar/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 12
-    "*toolbar/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 13
-    "*toolbar/server-side-programming":
-        title: "Server-side Programming"
-        position: 14
-    "*toolbar/client-side-programming":
-        title: "Client-side Programming"
-        position: 15
-    "*toolbar/how-to":
-        title: "How To"
-        position: 16
-    "*tooltip/getting-started":
-        title: "Getting Started"
-        position: 2
-    "*tooltip/design-time":
-        title: "Design Time"
-        position: 3
     "*tooltip/radtooltip":
         title: "RadToolTip"
         position: 4
     "*tooltip/radtooltipmanager":
         title: "RadToolTipManager"
         position: 5
-    "*tooltip/mobile-support":
-        title: "Mobile Support"
-        position: 6
-    "*tooltip/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 7
-    "*tooltip/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 8
-    "*tooltip/client-side-programming":
-        title: "Client-side Programming"
-        position: 10
-    "*tooltip/client-side-programming/events":
-        title: "Events"
-        position: 3
     "*tooltip/client-side-programming/events/tooltipmanager-specific":
         title: "ToolTipManager Specific"
         position: 6
-    "*tooltip/troubleshooting":
-        title: "Troubleshooting"
-        position: 11
     "*treelist/column":
         title: "Column"
         position: 4
@@ -2525,9 +1247,6 @@ navigation:
     "*treelist/data-binding":
         title: "Data Binding"
         position: 6
-    "*treelist/functionality":
-        title: "Functionality"
-        position: 7
     "*treelist/functionality/scrolling":
         title: "Scrolling"
         position: 2
@@ -2567,48 +1286,12 @@ navigation:
     "*treelist/control-lifecycle":
         title: "Control Lifecycle"
         position: 10
-    "*treelist/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 11
-    "*treelist/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 12
-    "*treelist/server-side-programming":
-        title: "Server-side Programming"
-        position: 13
-    "*treelist/client-side-programming":
-        title: "Client-side Programming"
-        position: 14
-    "*treemap/functionality":
-        title: "Functionality"
-        position: 2
     "*treemap/templates":
         title: "Templates"
         position: 3
     "*treemap/data-binding":
         title: "Data Binding"
         position: 4
-    "*treemap/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 5
-    "*treemap/server-side-programming":
-        title: "Server-side Programming"
-        position: 6
-    "*treemap/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*treemap/client-side-programming":
-        title: "Client-side Programming"
-        position: 7
-    "*treemap/client-side-programming/events":
-        title: "Events"
-        position: 1
-    "*treeview/getting-started":
-        title: "Getting Started"
-        position: 5
-    "*treeview/design-time":
-        title: "Design Time"
-        position: 6
     "*treeview/templates":
         title: "Templates"
         position: 7
@@ -2639,27 +1322,9 @@ navigation:
     "*treeview/web-pages":
         title: "Web Pages"
         position: 15
-    "*treeview/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 16
-    "*treeview/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 17
-    "*treeview/server-side-programming":
-        title: "Server-side Programming"
-        position: 18
-    "*treeview/server-side-programming/events":
-        title: "Events"
-        position: 7
-    "*treeview/client-side-programming":
-        title: "Client-side Programming"
-        position: 19
     "*treeview/client-side-programming/objects":
         title: "Objects"
         position: 2
-    "*treeview/client-side-programming/events":
-        title: "Events"
-        position: 3
     "*treeview/application-scenarios":
         title: "Application Scenarios"
         position: 20
@@ -2681,9 +1346,6 @@ navigation:
     "*treeview/application-scenarios/general":
         title: "General"
         position: 5
-    "*treeview/troubleshooting":
-        title: "Troubleshooting"
-        position: 21
     "*treeview/!not-referenced-topics!":
         title: "!Not Referenced topics!"
         position: 22
@@ -2693,57 +1355,15 @@ navigation:
     "*upload/validation":
         title: "Validation"
         position: 8
-    "*upload/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 9
     "*upload/localization":
         title: "Localization"
         position: 10
-    "*upload/server-side-programming":
-        title: "Server-side Programming"
-        position: 11
-    "*upload/client-side-programming":
-        title: "Client-side Programming"
-        position: 12
-    "*upload/how-to":
-        title: "How To"
-        position: 13
-    "*upload/troubleshooting":
-        title: "Troubleshooting"
-        position: 14
     "*window/alert,-confirm,-prompt-dialogs":
         title: "Alert, Confirm, Prompt Dialogs"
         position: 5
-    "*window/client-side-programming/events":
-        title: "Events"
-        position: 3
     "*wizard/structure":
         title: "Structure"
         position: 3
-    "*wizard/functionality":
-        title: "Functionality"
-        position: 4
-    "*wizard/mobile-support":
-        title: "Mobile Support"
-        position: 5
-    "*wizard/accessibility-and-internationalization":
-        title: "Accessibility and Internationalization"
-        position: 6
-    "*wizard/client-side-programming":
-        title: "Client-side Programming"
-        position: 7
-    "*wizard/client-side-programming/events":
-        title: "Events"
-        position: 4
-    "*wizard/server-side-programming":
-        title: "Server-side Programming"
-        position: 8
-    "*wizard/server-side-programming/events":
-        title: "Events"
-        position: 0
-    "*wizard/appearance-and-styling":
-        title: "Appearance and Styling"
-        position: 9
     "*wordsprocessing/changes-and-backward-compatibility":
         title: "Changes and Backward Compatibility"
         position: 2
@@ -2756,24 +1376,6 @@ navigation:
     "*wordsprocessing/concepts/fields":
         title: "Fields"
         position: 0
-    "*xmlhttppanel/getting-started":
-        title: "Getting Started"
-        position: 1
-    "*xmlhttppanel/server-side-programming":
-        title: "Server-side Programming"
-        position: 3
-    "*xmlhttppanel/client-side-programming":
-        title: "Client-side Programming"
-        position: 4
-    "*xmlhttppanel/client-side-programming/events":
-        title: "Events"
-        position: 2
-    "*ziplibrary/changes-and-backwards-compatibility-":
-        title: "Changes and Backwards Compatibility "
-        position: 1
-    "*ziplibrary/functionality":
-        title: "Functionality"
-        position: 3
 
 ## Assign layout and category per different paths
 defaults:
