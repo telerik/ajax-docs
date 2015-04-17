@@ -278,48 +278,47 @@ navigation:
         title: "RadZipLibrary"
 
 ## List common control TOC structure so it is reused by all controls
-*/controls/*/introduction
-   title: "introduction"
-   position: 1
-*/controls/*/changes-and-backward-compatibility
-  title: "Changes and Backwards Compatibility"
-  position: 2
-*/controls/*/getting-started
-  title: "Getting Started"
-  position: 3
-*/controls/*/design-time
-  title: "Design Time"
-  position: 4
-*/controls/*/functionality
-  title: "Functionality"
-  position: 12
-*/controls/*/mobile-support
-  title: "Mobile Support"
-  position: 30
-*/controls/*/appearance-and-styling
-  title: "Appearance and Styling"
-  position: 35
-*/controls/*/accessibility-and-internationalization
-  title: "Accessibility and Internationalization"
-  position: 40
-*/controls/*/server-side-programming
-  title: "Server-side Programming"
-  position: 45
-*/controls/*/client-side-programming
-  title: "Client-side Programming"
-  position: 50
-*/controls/*/how-to
-  title: "How To"
-  position: 55
-*/controls/*/application-scenarios
-  title: "Application Scenarios"
-  position: 56
-*/controls/*/troubleshooting
-  title: "Troubleshooting"
-  position: 60
+    "*/controls/*/introduction":
+         title: "introduction"
+         position: 1
+    "*/controls/*/changes-and-backward-compatibility":
+         title: "Changes and Backwards Compatibility"
+         position: 2
+    "*/controls/*/getting-started":
+         title: "Getting Started"
+         position: 3
+    "*/controls/*/design-time":
+         title: "Design Time"
+         position: 4
+    "*/controls/*/functionality":
+         title: "Functionality"
+         position: 12
+    "*/controls/*/mobile-support":
+         title: "Mobile Support"
+         position: 30
+    "*/controls/*/appearance-and-styling":
+         title: "Appearance and Styling"
+         position: 35
+    "*/controls/*/accessibility-and-internationalization":
+         title: "Accessibility and Internationalization"
+         position: 40
+    "*/controls/*/server-side-programming":
+         title: "Server-side Programming"
+         position: 45
+    "*/controls/*/client-side-programming":
+         title: "Client-side Programming"
+         position: 50
+    "*/controls/*/how-to":
+         title: "How To"
+         position: 55
+    "*/controls/*/application-scenarios":
+         title: "Application Scenarios"
+         position: 56
+    "*/controls/*/troubleshooting":
+         title: "Troubleshooting"
+         position: 57
 
-		
-		
+
 ## List control specific directory names and order here, like this:
     "*ajax/getting-started":
         title: "Getting Started"
