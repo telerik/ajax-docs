@@ -39,15 +39,15 @@ Flat OData Binding means binding to a non-hierarchical data. Here is an example 
 
 The applied settings to RadODataSource and RadDropDownList, for a successful data binding, are described below.
 
-* RadDropDownList's __ODataDataSourceID__ property takes, as a value, the ID of the RadODataDataSource.
+* RadDropDownList's **ODataDataSourceID** property takes, as a value, the ID of the RadODataDataSource.
 
-* RadDropDownList's __DataModelID__ property takes, as a value, the ID of the DataModel defined in the RadODataDataSource.
+* RadDropDownList's **DataModelID** property takes, as a value, the ID of the DataModel defined in the RadODataDataSource.
 
-* RadDropDownList's __DataTextField__ property takes, as a value, the name of the data field from where the text of the items is fetched.
+* RadDropDownList's **DataTextField** property takes, as a value, the name of the data field from where the text of the items is fetched.
 
-* RadDropDownList's __DataValueField__ property takes, as a value, the name of the data field from where the value of the items is fetched.
+* RadDropDownList's **DataValueField** property takes, as a value, the name of the data field from where the value of the items is fetched.
 
-* The type of the responce data is specified within the RadODataDataSource control, in its Read section by the __DataType__ property.The options to choose from are listed below.
+* The type of the responce data is specified within the RadODataDataSource control, in its Read section by the **DataType** property.The options to choose from are listed below.
 
 * [JSONP](http://en.wikipedia.org/wiki/JSONP)
 

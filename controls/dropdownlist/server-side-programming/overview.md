@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadDropDownList__ supports a number of server-side events that let you respond to events with complex actions that can't be performed in client-side code.
+**RadDropDownList** supports a number of server-side events that let you respond to events with complex actions that can't be performed in client-side code.
 
 * [SelectedIndexChanged]({%slug dropdownlist/server-side-programming/events/selectedindexchanged%}) occurs when the SelectedIndex has just changed.
 
@@ -22,6 +22,6 @@ __RadDropDownList__ supports a number of server-side events that let you respond
 
 * [ItemDataBound]({%slug dropdownlist/server-side-programming/events/itemdatabound%}) occurs for each item when it is being bound to a data value.
 
->note The __SelectedIndexChanged__ and __ItemSelected__ events do not fire unless you set the __AutoPostBack__ property to __True__ .
+>note The **SelectedIndexChanged** and **ItemSelected** events do not fire unless you set the **AutoPostBack** property to **True** .
 >
 

@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientDropDownOpening__ client-side event occurs before the drop-down list opens.
+The **OnClientDropDownOpening** client-side event occurs before the drop-down list opens.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __set_cancel__ lets you prevent the drop-down from opening.
+* **set_cancel** lets you prevent the drop-down from opening.
 
 The example below shows how to prevent the drop-down list from opening when there are no items to be displayed:
 

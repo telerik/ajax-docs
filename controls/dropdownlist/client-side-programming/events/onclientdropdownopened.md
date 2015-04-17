@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientDropDownOpened__ client-side event occurs after the drop-down list has been opened.
+The **OnClientDropDownOpened** client-side event occurs after the drop-down list has been opened.
 
 The event handler receives two parameters:
 

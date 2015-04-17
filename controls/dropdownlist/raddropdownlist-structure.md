@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The structure of the __RadDropDownList__ control is as follows:
+The structure of the **RadDropDownList** control is as follows:
 
 ![dropdownlist-overview-structure](images/dropdownlist-overview-structure.png)
 

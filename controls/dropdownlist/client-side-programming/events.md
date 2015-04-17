@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadDropDownList__ supports a number of client-side events that let you customize the behavior of the dropdownlist:
+**RadDropDownList** supports a number of client-side events that let you customize the behavior of the dropdownlist:
 
 * [OnClientDropDownOpening]({%slug dropdownlist/client-side-programming/events/onclientdropdownopening%}) occurs before the drop-down list opens.
 
@@ -32,4 +32,4 @@ __RadDropDownList__ supports a number of client-side events that let you customi
 
 * [OnClientLoad]({%slug dropdownlist/client-side-programming/events/onclientload%}) occurs after the RadDropDownList has been fully initialized on the client-side.
 
-* [OnClientItemDataBound]({%slug dropdownlist/client-side-programming/events/onclientitemdatabound%}) occurs for each item that is created during __Web Service(including if ODataSource control is used)__ binding.
+* [OnClientItemDataBound]({%slug dropdownlist/client-side-programming/events/onclientitemdatabound%}) occurs for each item that is created during **Web Service(including if ODataSource control is used)** binding.

@@ -14,19 +14,19 @@ position: 10
 
 ## 
 
-The __OnClientItemsRequesting__ client-side event occurs when the __RadDropDownList__ is about to send a server-side request to load its items from the web service. This event fires before the items are added to the __RadDropDownList__ Items collection.
+The **OnClientItemsRequesting** client-side event occurs when the **RadDropDownList** is about to send a server-side request to load its items from the web service. This event fires before the items are added to the **RadDropDownList** Items collection.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadDropDownList__ firing the event.
+1. The instance of the **RadDropDownList** firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_context__ returns a context object (implements __IDictionary__) that is passed to the server-side code that handles the request for items.
+* **get_context** returns a context object (implements **IDictionary**) that is passed to the server-side code that handles the request for items.
 
-* __set_cancel__ lets you prevent the items request.
+* **set_cancel** lets you prevent the items request.
 
-This event can be used to pass context information to the server for it to use in servicing the request, or to cancel the request. The following example uses the __OnClientItemsRequesting__ event to sample string value to the server:
+This event can be used to pass context information to the server for it to use in servicing the request, or to cancel the request. The following example uses the **OnClientItemsRequesting** event to sample string value to the server:
 
 ````JavaScript
 	        <script type="text/javascript">

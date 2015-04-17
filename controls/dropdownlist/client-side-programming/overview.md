@@ -12,11 +12,11 @@ position: 0
 
 
 
-__RadDropDownList__ provides a flexible client-side API. You can easily interact with RadDropDownList in the browser using its client-side object. In addition to a variety of [client-side events]({%slug dropdownlist/client-side-programming/events%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadDropDownList** provides a flexible client-side API. You can easily interact with RadDropDownList in the browser using its client-side object. In addition to a variety of [client-side events]({%slug dropdownlist/client-side-programming/events%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadDropDownList client-side object
 
-__RadDropDownList__ creates a client-side object with its __ClientID__. You can obtain the reference using the following JavaScript code:
+**RadDropDownList** creates a client-side object with its **ClientID**. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
 	
@@ -28,7 +28,7 @@ __RadDropDownList__ creates a client-side object with its __ClientID__. You can 
 
 ## Getting an instance of a particular RadDropDownListItem
 
-Once you have the client-side object of RadDropDownList, you can use the __findItemByText()/findItemByValue__ method to get the instance of a particular item:
+Once you have the client-side object of RadDropDownList, you can use the **findItemByText()/findItemByValue** method to get the instance of a particular item:
 
 ````JavaScript
 	
@@ -41,7 +41,7 @@ Once you have the client-side object of RadDropDownList, you can use the __findI
 
 ## Cancelling an action
 
-Several client side events occur immediately before the RadDropDownList performs some action. These events all have names that end in "-ing". You can use these events to cancel the action by using the __set_cancel__ method of the second argument passed to the handler:
+Several client side events occur immediately before the RadDropDownList performs some action. These events all have names that end in "-ing". You can use these events to cancel the action by using the **set_cancel** method of the second argument passed to the handler:
 
 ````JavaScript
 	
@@ -57,7 +57,7 @@ Several client side events occur immediately before the RadDropDownList performs
 
 When you get the instance of RadDropDownList object, you can call client-side methods to perform certain tasks. Consider the following examples:
 
-* __openDropDown()__
+* **openDropDown()**
 
 ````JavaScript
 	
@@ -70,7 +70,7 @@ When you get the instance of RadDropDownList object, you can call client-side me
 
 
 
-* __closeDropDown()__
+* **closeDropDown()**
 
 ````JavaScript
 	
@@ -83,7 +83,7 @@ When you get the instance of RadDropDownList object, you can call client-side me
 
 
 
-* __set_enabled(value)__
+* **set_enabled(value)**
 
 ````JavaScript
 	

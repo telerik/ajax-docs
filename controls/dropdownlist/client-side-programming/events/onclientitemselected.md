@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientItemSelected__ client-side event occurs immediately after certain item is selected.
+The **OnClientItemSelected** client-side event occurs immediately after certain item is selected.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns the item, that has just been selected.
+* **get_item** returns the item, that has just been selected.
 
 Use this event to respond to the newly selected item:
 

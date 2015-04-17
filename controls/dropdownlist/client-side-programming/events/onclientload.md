@@ -14,13 +14,13 @@ position: 7
 
 ## 
 
-The __OnClientLoad__client-side event occurs after the DropDownList has been fully initialized on the client-side.
+The **OnClientLoad**client-side event occurs after the DropDownList has been fully initialized on the client-side.
 
 The event handler receives one parameter:
 
 1. The DropDownList instance firing the event.
 
-This event is helpful if you need to get the client-side instance of the DropDownList when it is embedded in other controls. Hook the __OnClientLoad__ event and get the client-side instance of the DropDownList as demonstrated in the example below. This technique can be used to retrieve the DropDownList instance for use elsewhere.
+This event is helpful if you need to get the client-side instance of the DropDownList when it is embedded in other controls. Hook the **OnClientLoad** event and get the client-side instance of the DropDownList as demonstrated in the example below. This technique can be used to retrieve the DropDownList instance for use elsewhere.
 
 ````ASPNET
 	        <script type="text/javascript">
@@ -38,7 +38,7 @@ This event is helpful if you need to get the client-side instance of the DropDow
 
 
 
->caution This technique may not work when AJAX is used. The asynchronous requests may interfere with the __OnClientLoad__ event.
+>caution This technique may not work when AJAX is used. The asynchronous requests may interfere with the **OnClientLoad** event.
 >
 
 

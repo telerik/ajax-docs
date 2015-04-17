@@ -34,7 +34,7 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 
 ## Summary of features supported by RadDropDownList
 
-* __Data Binding__
+* **Data Binding**
 
 * Declarative entries – defined in the markup.
 
@@ -42,8 +42,8 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 
 * Client-side – client API for setting data source using Web services and OData, to which RadDropDownList is bound.
 
-* __Virtual Scroll Rendering__ – similar behavior as the LOD, but will enable access to items in a non-sequential manner. For instance, if you want to scroll to the bottom of the DropDown, you won’t need to load all the items in between. In order to utilize the Virtual Scroll Rendering the DropDownHeight property must be set.
+* **Virtual Scroll Rendering** – similar behavior as the LOD, but will enable access to items in a non-sequential manner. For instance, if you want to scroll to the bottom of the DropDown, you won’t need to load all the items in between. In order to utilize the Virtual Scroll Rendering the DropDownHeight property must be set.
 
-* __Default Message__ property of the RadDropDownList enables the ability to set control's text if no item is selected. The Default Message property could be very useful, when one needs to provide more information about the content of the RadDropDownList.
+* **Default Message** property of the RadDropDownList enables the ability to set control's text if no item is selected. The Default Message property could be very useful, when one needs to provide more information about the content of the RadDropDownList.
 
-* __Templates__ – provides the ability to define your own visual presentation of the entries contained in the drop-down area. Server as well as client templates are supported out-of-the-box by RadDropDownList.
+* **Templates** – provides the ability to define your own visual presentation of the entries contained in the drop-down area. Server as well as client templates are supported out-of-the-box by RadDropDownList.
