@@ -66,30 +66,6 @@ navigation:
     "sharepoint":
         title: "Integration with SharePoint"
         position: 10
-    "sharepoint/2007":
-        title: "SharePoint 2007 (MOSS)"
-        position: 0
-    "sharepoint/2007/radeditor-for-moss":
-        title: "RadEditor for MOSS"
-        position: 8
-    "sharepoint/2007/radeditor-for-moss/installation-and-deployment":
-        title: "Installation and deployment"
-        position: 2
-    "sharepoint/2007/radeditor-for-moss/migration-and-upgrade":
-        title: "Migration and upgrade"
-        position: 3
-    "sharepoint/2007/radeditor-for-moss/configuration":
-        title: "Configuration"
-        position: 4
-    "sharepoint/2007/radeditor-for-moss/dropdowns":	
-        title: "DropDowns"
-        position: 5
-    "sharepoint/2007/radeditor-for-moss/dialogs":
-        title: "Dialogs"
-        position: 6
-    "sharepoint/2007/radeditor-for-moss/customization":
-        title: "Customization"
-        position: 7
     "sharepoint/2010":
         title: "SharePoint 2010"
         position: 1
