@@ -12,7 +12,7 @@ position: 1
 
 
 
-__Default Message__ property of the RadDropDownList enables the ability to set control's text if no item is selected. The Default Message property could be very useful, when one needs to provide more information about the content of the RadDropDownList. This text is not visible when the control gets the focus and appears again on blur if no item is selected.
+**Default Message** property of the RadDropDownList enables the ability to set control's text if no item is selected. The Default Message property could be very useful, when one needs to provide more information about the content of the RadDropDownList. This text is not visible when the control gets the focus and appears again on blur if no item is selected.
 
 ## Setting the Default Message in the markup code
 
@@ -56,4 +56,4 @@ __Default Message__ property of the RadDropDownList enables the ability to set c
 
 
 
-Additionally, you can get the __Default Message__ property client-side by calling the __get_defaultMessage()__ method of the dropdownlist.
+Additionally, you can get the **Default Message** property client-side by calling the **get_defaultMessage()** method of the dropdownlist.

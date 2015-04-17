@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-__RadDropDownList__ can be bound either to __Array__ or __ArrayList__. The following example shows how to bind __RadDropDownList__ objects to both Array and ArrayList, at runtime.
+**RadDropDownList** can be bound either to **Array** or **ArrayList**. The following example shows how to bind **RadDropDownList** objects to both Array and ArrayList, at runtime.
 
-The declaration of RadDropDownList objects includes no __DataSourceID__ property or __<items>__ section:
+The declaration of RadDropDownList objects includes no **DataSourceID** property or **<items>** section:
 
 ````ASPNET
 	        <telerik:RadDropDownList ID="RadDropDownList1" EmptySelectionMessage="sadasd" runat="server">
@@ -27,7 +27,7 @@ The declaration of RadDropDownList objects includes no __DataSourceID__ property
 
 
 
-In the __Page_Load__ event handler, create the Array and ArrayList, and bind them to the RadDropDownList objects. The __DataBind__ method must be called after setting the __DataSource__ property.
+In the **Page_Load** event handler, create the Array and ArrayList, and bind them to the RadDropDownList objects. The **DataBind** method must be called after setting the **DataSource** property.
 
 
 

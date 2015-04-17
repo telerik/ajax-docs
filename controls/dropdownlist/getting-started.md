@@ -12,31 +12,31 @@ position: 1
 
 
 
-This tutorial will walk you through creating a __RadDropDownList__ and shows how to Create a simple RadDropDownList with elements set in design time.
+This tutorial will walk you through creating a **RadDropDownList** and shows how to Create a simple RadDropDownList with elements set in design time.
 
 ## Creating a simple RadDropDownList
 
 1. Drag a RadDropDownList from the Toolbox onto your web page.
 
-1. The [Smart Tag]({%slug dropdownlist/design-time/smart-tag%}) should appear automatically. From the Smart Tag, choose __Edit Items...__
+1. The [Smart Tag]({%slug dropdownlist/design-time/smart-tag%}) should appear automatically. From the Smart Tag, choose **Edit Items...**
 >caption 
 
 ![dropdownlist-gettingstarted-edititems](images/dropdownlist-gettingstarted-edititems.png)
 
-1. The __[RadDropDownList Item Builder]({%slug dropdownlist/design-time/item-builder%})__ appears.
+1. The **[RadDropDownList Item Builder]({%slug dropdownlist/design-time/item-builder%})** appears.
 
-1. Click the __Add item__ icon in the upper left corner. A new __RadDropDownListItem__ appears in the item builder.
+1. Click the **Add item** icon in the upper left corner. A new **RadDropDownListItem** appears in the item builder.
 >caption 
 
 ![dropdownlist-gettingstarted-itembuilder](images/dropdownlist-gettingstarted-itembuilder.png)
 
-1. Set the __Text__ property to "DropDownListItem1".
+1. Set the **Text** property to "DropDownListItem1".
 
 1. Add two more items in the same way.
 
-1. Press __OK__ to exit the __RadDropDownList Item Builder__.
+1. Press **OK** to exit the **RadDropDownList Item Builder**.
 
-1. Back in the Smart Tag, choose a __Skin__ from the drop-down control.
+1. Back in the Smart Tag, choose a **Skin** from the drop-down control.
 >caption 
 
 ![dropdownlist-gettingstarted-skin](images/dropdownlist-gettingstarted-skin.png)

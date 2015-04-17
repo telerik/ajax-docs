@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientSelectedIndexChanged__ client-side event occurs immediately after the SelectedItem has been changed.
+The **OnClientSelectedIndexChanged** client-side event occurs immediately after the SelectedItem has been changed.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_index()__ returns the index of the item, that has just been selected.
+* **get_index()** returns the index of the item, that has just been selected.
 
 Use this event to respond to the newly selected item:
 

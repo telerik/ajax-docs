@@ -16,21 +16,21 @@ Client Template
 
 ## Overview
 
-The template contains mark up and binding expressions which are evaluated against a __DataItem__ and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
+The template contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
 
-* __#=...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
+* **#=...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 
-* __#...#__ - Evaluates the JavaScript code expression inside, but doesn't output value.
+* **#...#** - Evaluates the JavaScript code expression inside, but doesn't output value.
 
-* __#:...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoded.
+* **#:...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoded.
 
->important Client templates __couldn't__ contain server-side controls.
+>important Client templates **couldn't** contain server-side controls.
 >
 
 
 ## Server side representation
 
-On the server the template will be presented as a string property of the control, named __ClientItemTemplate__. Below a static and dynamic definition of a client template is shown
+On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
 	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server">           
@@ -80,7 +80,7 @@ On the server the template will be presented as a string property of the control
 
 ## Client side representation
 
-The template will be applied automatically to all items loaded through __Web Service(including if ODataSource control is used)__. If an item is added through JavaScript, the template would not be applied, unless its __bindTemplate()__ method is explicitly invoked. The method can be called before, as well as after the item is added to the child collection of the control.
+The template will be applied automatically to all items loaded through **Web Service(including if ODataSource control is used)**. If an item is added through JavaScript, the template would not be applied, unless its **bindTemplate()** method is explicitly invoked. The method can be called before, as well as after the item is added to the child collection of the control.
 
 ### Client-side methods
 
@@ -117,7 +117,7 @@ Sample code for the usage of the method is demonstrated below.
 
 
 
-* Creating item, setting its client template and calling __bindTemplate__ method before inserting it into the items collection of the RadDropDownList:
+* Creating item, setting its client template and calling **bindTemplate** method before inserting it into the items collection of the RadDropDownList:
 
 ````JavaScript
 	            var item = new Telerik.Web.UI.DropDownListItem();
@@ -129,7 +129,7 @@ Sample code for the usage of the method is demonstrated below.
 
 
 
-* Creating item, setting it’s client template and calling __bindTemplate__ method after inserting it into the items colelction of the RadDropDownList:
+* Creating item, setting it’s client template and calling **bindTemplate** method after inserting it into the items colelction of the RadDropDownList:
 
 ````JavaScript
 	            var item = new Telerik.Web.UI.DropDownListItem();

@@ -34,8 +34,8 @@ What is the difference between RadDropDownList and RadComboBox, which at first g
 
 The difference between each control in a few words:
 
-* __RadDropDownList__ – drop-down designed to work with large sets of data.
+* **RadDropDownList** – drop-down designed to work with large sets of data.
 
-* __RadComboBox__ – text box with auto completion, filtering functionality.
+* **RadComboBox** – text box with auto completion, filtering functionality.
 
 RadDropDownList control works well in either of the cases - when used with small amount of data or with large one. Having that intuitive and lightweightUI is perfect for selection from data list. The RadDropDownList brings a very friendly enhanced mobile experience and keyboard support to the end user. It introduces also a completely new load on demand mechanism - called Virtual Scrolling. On the other hand, the RadComboBox is still the preferred choice for all other drop-down related scenarios with check box support or allowingcustom text.

@@ -26,7 +26,7 @@ Templates allow you to embed any context inside a RadDropDownListItem. For examp
 
 Shows how to use templates to create the following RadDropDownList:
 
-An <ItemTemplate> section is added to the __RadDropDownList__ declaration. The image in the template and the text that appears in the template is taken from the RadDropDownListItem using <%# DataBinder.Eval %> statements.
+An <ItemTemplate> section is added to the **RadDropDownList** declaration. The image in the template and the text that appears in the template is taken from the RadDropDownListItem using <%# DataBinder.Eval %> statements.
 
 ````C#
 	    <telerik:RadDropDownList ID="RadDropDownList1"
@@ -54,7 +54,7 @@ An <ItemTemplate> section is added to the __RadDropDownList__ declaration. The i
 
 
 
-Before the template can use the RadDropDownList item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling __DataBind__ method of __RadDropDownListItem__ objects.
+Before the template can use the RadDropDownList item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling **DataBind** method of **RadDropDownListItem** objects.
 
 
 

@@ -14,10 +14,10 @@ position: 2
 
 ## 
 
-You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTemplate__ property. This property is of type __ITemplate__, so you must assign an object that implements that interface as a value:
+You can also add Templates to **RadDropDownList** at runtime, using the **ItemTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
 >note The DropDownListItems should be dynamically added so that Templates can be defined at run time.
->Also, the __Items should be bound__ to be able to eval DataBinder expressions. In other words, you should call the __DataBind__ method of the RadDropDownList object or bind the Items that are about to use __DataBinder.Eval__ . You can bind a specific item by calling the __DataBind__ method of this specific Item.
+>Also, the **Items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadDropDownList object or bind the Items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific Item.
 >
 
 
@@ -106,7 +106,7 @@ You can also add Templates to __RadDropDownList__ at runtime, using the __ItemTe
 ````
 
 
-If you want to add different templates to specific items, based on some property or value for instance, the best way is to use the __TemplateNeeded__ event.
+If you want to add different templates to specific items, based on some property or value for instance, the best way is to use the **TemplateNeeded** event.
 
 
 
@@ -129,7 +129,7 @@ If you want to add different templates to specific items, based on some property
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
 
->note The Template has to be instantiated for each Item upon a postback. Since the __TextBoxTemplate__ class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Item.
+>note The Template has to be instantiated for each Item upon a postback. Since the **TextBoxTemplate** class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Item.
 >
 
 

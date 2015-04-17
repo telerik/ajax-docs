@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-__RadDropDownList__ provides support for the two relevant aspects of keyboard support:
+**RadDropDownList** provides support for the two relevant aspects of keyboard support:
 
-* __Access Keys__ - You can specify a key that lets the end-user move focus directly to the dropdownlist. Once focus is on the dropdownlist, the user can use the arrow keys for navigation. The access key is defined using the __AccessKey__ property. For example, if you set the __AccessKey__ property to "W", focus moves to the combobox when the user types "Alt+W".
+* **Access Keys** - You can specify a key that lets the end-user move focus directly to the dropdownlist. Once focus is on the dropdownlist, the user can use the arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, if you set the **AccessKey** property to "W", focus moves to the combobox when the user types "Alt+W".
 
-* __Key Navigation__-RadDropDownList allows end-users to navigate the dropdownlist structure using the arrow keys, the PageUp/PageDown keys and the Enter key:
+* **Key Navigation**-RadDropDownList allows end-users to navigate the dropdownlist structure using the arrow keys, the PageUp/PageDown keys and the Enter key:
 
 * The "Alt + W" focuses the drop-down list. ![dropdownlist-accessibilityandinternalization-keyboardsupport-focus](images/dropdownlist-accessibilityandinternalization-keyboardsupport-focus.png)
 
@@ -38,6 +38,6 @@ __RadDropDownList__ provides support for the two relevant aspects of keyboard su
 
 * The "Alt+Down" arrow closes the drop-down list.![dropdownlist-accessibilityandinternalization-keyboardsupport-open](images/dropdownlist-accessibilityandinternalization-keyboardsupport-open.png)
 
->note In order to enable the keyboard support in browsers, different from Internet Explorer, you shoud set the __TabIndex__ property of the RadDropDownList.
+>note In order to enable the keyboard support in browsers, different from Internet Explorer, you shoud set the **TabIndex** property of the RadDropDownList.
 >
 

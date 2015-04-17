@@ -12,7 +12,7 @@ position: 1
 
 
 
-__RadDropDownList__ supports binding to all ASP.NET 2.0 DataSource components, including:
+**RadDropDownList** supports binding to all ASP.NET 2.0 DataSource components, including:
 
 * SqlDataSource
 
@@ -24,9 +24,9 @@ __RadDropDownList__ supports binding to all ASP.NET 2.0 DataSource components, i
 
 * XmlDataSource
 
-To bind to a DataSource component, all you need to do is set the __DataSourceID__ property of RadDropDownList to the ID of the DataSource component. You should also set the __DataTextField__ and __DataValueField__ properties of RadDropDownList to map the __Text__ and __Value__ properties of the items to the respective columns / fields from the data source.
+To bind to a DataSource component, all you need to do is set the **DataSourceID** property of RadDropDownList to the ID of the DataSource component. You should also set the **DataTextField** and **DataValueField** properties of RadDropDownList to map the **Text** and **Value** properties of the items to the respective columns / fields from the data source.
 
-If you need to map additional columns from the data source to properties of RadDropDownList items, you can use the __ItemDataBound__ event. The event arguments passed to the event, __e.Item__ and __e.Item.DataItem__, hold the instance of RadDropDownList item being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of RadDropDownList item. Be sure to cast the __DataItem__ object to the proper data type first.
+If you need to map additional columns from the data source to properties of RadDropDownList items, you can use the **ItemDataBound** event. The event arguments passed to the event, **e.Item** and **e.Item.DataItem**, hold the instance of RadDropDownList item being bound and the **DataItem** to which it is bound. You can map a property from the **DataItem** to the corresponding property of RadDropDownList item. Be sure to cast the **DataItem** object to the proper data type first.
 
 
 
@@ -224,7 +224,7 @@ If you need to map additional columns from the data source to properties of RadD
 
 
 
-When using an __XmlDataSource__, the XML file should have the format shown below:
+When using an **XmlDataSource**, the XML file should have the format shown below:
 
 ````XML
 	        <items>

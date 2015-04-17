@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__RadDropDownList__ can be bound to a __DataTable__, __DataSet__, and __DataView__. The following example shows binding to a __DataTable__ object.
+**RadDropDownList** can be bound to a **DataTable**, **DataSet**, and **DataView**. The following example shows binding to a **DataTable** object.
 
 The declaration of RadDropDownList object includes no DataSourceID property or <items> section:
 
@@ -25,7 +25,7 @@ The declaration of RadDropDownList object includes no DataSourceID property or <
 
 
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the RadDropDownList. The __DataBind__ method must be called after setting the __DataSource__ property.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then bind it to the RadDropDownList. The **DataBind** method must be called after setting the **DataSource** property.
 
 
 

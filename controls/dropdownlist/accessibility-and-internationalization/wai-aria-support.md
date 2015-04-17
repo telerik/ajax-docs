@@ -12,15 +12,15 @@ position: 1
 
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadDropDownList__
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadDropDownList**
 
 ## 
 
 The [ WAI-ARIA Suite ](http://www.w3.org/WAI/intro/aria), defines an approach to make Web content and Web applications more accessible to people with disabilities.
 
-In order to enable the WAI-ARIA support, set the __RadDropDownList__ contol's __EnableAriaSupport__ property to __true__ as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadDropDownList** contol's **EnableAriaSupport** property to **true** as shown in the example below.
 
-__Example 1__: Setting the __EnalbeAriaSupport__ property for __RadDropDownList__.
+**Example 1**: Setting the **EnalbeAriaSupport** property for **RadDropDownList**.
 
 
 

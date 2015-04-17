@@ -14,25 +14,25 @@ position: 1
 
 ## 
 
-The __ItemSelected__ event occurs when the user selects an item, even if the item is already selected.
+The **ItemSelected** event occurs when the user selects an item, even if the item is already selected.
 
->caution The __ItemSelected__ event does not fire unless the __AutoPostBack__ property is __True__ .
+>caution The **ItemSelected** event does not fire unless the **AutoPostBack** property is **True** .
 >
 
 
-The __ItemSelected__ event handler receives two arguments:
+The **ItemSelected** event handler receives two arguments:
 
-1. The __RadDropDownList__ that is loading items. This argument is of type object, but can be cast to the __RadDropDownList__ type.
+1. The **RadDropDownList** that is loading items. This argument is of type object, but can be cast to the **RadDropDownList** type.
 
 1. An EventArgs object. This object has the following properties for identifying what has changed:
 
-* __Index__ is the index of the item that was just selected.
+* **Index** is the index of the item that was just selected.
 
-* __Text__ is the text of the item that was just selected.
+* **Text** is the text of the item that was just selected.
 
-* __Value__ is the value of the item that was just selected.
+* **Value** is the value of the item that was just selected.
 
-Use the __ItemSelected__ event handler to respond in server-side code when the user changes the current selection:
+Use the **ItemSelected** event handler to respond in server-side code when the user changes the current selection:
 
 ````ASPNET
 	    <telerik:RadDropDownList ID="RadDropDownList1"

@@ -14,11 +14,11 @@ position: 11
 
 ## 
 
-The __OnClientItemsRequested__ client-side event occurs after the the portion of items is added to the __RadDropDownList__.
+The **OnClientItemsRequested** client-side event occurs after the the portion of items is added to the **RadDropDownList**.
 
 The event handler receives the following parameter:
 
-1. The instance of the __RadDropDownList__ firing the event.
+1. The instance of the **RadDropDownList** firing the event.
 
 ````ASPNET
 	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server" EnableVirtualScrolling="true" DropDownHeight="150px" OnClientItemsRequested="OnClientItemsRequested">

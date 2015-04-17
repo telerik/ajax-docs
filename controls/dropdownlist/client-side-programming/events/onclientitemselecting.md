@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __OnClientItemSelecting__ client-side event occurs before a certain item is about to be selected.
+The **OnClientItemSelecting** client-side event occurs before a certain item is about to be selected.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item()__ returns the item that is about to be selected.
+* **get_item()** returns the item that is about to be selected.
 
-* __set_cancel__ lets you prevent the drop-down from closing.
+* **set_cancel** lets you prevent the drop-down from closing.
 
-The following example uses the __OnClientItemSelecting__ event to prevent the selection if the prompt item is about to be selected:
+The following example uses the **OnClientItemSelecting** event to prevent the selection if the prompt item is about to be selected:
 
 ````ASPNET
 	        <script type="text/javascript">

@@ -12,7 +12,7 @@ position: 0
 
 
 
-When working with large data sets, it is convenient to use the RadDropDownList __Virtual Scrolling__ functionality. It has similar behavior to as the LOD, but will enables access to items in a __non-sequential manner__.For instance, if you want to scroll to the bottom of the DropDown, you won’t need to load all the items in between.
+When working with large data sets, it is convenient to use the RadDropDownList **Virtual Scrolling** functionality. It has similar behavior to as the LOD, but will enables access to items in a **non-sequential manner**.For instance, if you want to scroll to the bottom of the DropDown, you won’t need to load all the items in between.
 
 >note At the client-side you are able to access the items that are placed in the drop down list visible area.
 >

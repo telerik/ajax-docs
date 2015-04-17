@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientDropDownClosing__ client-side event occurs before the drop-down list closes.
+The **OnClientDropDownClosing** client-side event occurs before the drop-down list closes.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __set_cancel__ lets you prevent the drop-down from closing.
+* **set_cancel** lets you prevent the drop-down from closing.
 
-The following example uses the __OnClientDropDownClosing__ event to prevent the drop-down list from closing if the prompt item is selected:
+The following example uses the **OnClientDropDownClosing** event to prevent the drop-down list from closing if the prompt item is selected:
 
 ````ASPNET
 	        <script type="text/javascript">

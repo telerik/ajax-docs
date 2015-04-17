@@ -14,17 +14,17 @@ position: 9
 
 ## 
 
-The __OnClientItemsRequestFailed__ client-side event occurs when an error has occurred while loading elements using the load-on-demand mechanism.
+The **OnClientItemsRequestFailed** client-side event occurs when an error has occurred while loading elements using the load-on-demand mechanism.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadDropDownList__ firing the event.
+1. The instance of the **RadDropDownList** firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __set_cancel__ lets you prevent the default error message from displaying.
+* **set_cancel** lets you prevent the default error message from displaying.
 
-You can use this event to hide the default error message that appears in the __RadDropDownList__ and display your own message instead:
+You can use this event to hide the default error message that appears in the **RadDropDownList** and display your own message instead:
 
 ````ASPNET
 	        <script type="text/javascript">
