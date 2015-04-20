@@ -122,10 +122,14 @@ navigation:
         position: 30
     "api/client":
         title: "Client-side"
+        position: 1
     "api/client/args":
         title: "Event Arguments"
     "api/client/enums":
-        title: "Enums"            
+        title: "Enums"
+    "api/server":
+        title: "Server-side"
+        position: 2
 
 ## List control directory names and order here, like this:
     "*ajax":
