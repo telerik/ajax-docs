@@ -26,7 +26,7 @@ Following are tables of the most important properties and events you should be a
 | __ApplyButtonText__ |Gets or sets the text of the Apply button.|
 | __BetweenDelimeterText__ |Gets or sets the text that will be visible when Between/NotBetween filter expression is constructed.|
 | __DataSourceControlID__ |Gets or sets ID of the IDataSource control filtered by the RadFilter. The data source control should support filtering itself.|
-| __ExpressionPreviewPosition__ |Gets or sets the possition of expression preview item. the possible options are Top, Bottom and None.|
+| __ExpressionPreviewPosition__ |Gets or sets the position of expression preview item. The possible options are Top, Bottom and None.|
 | __ExpressionPreviewProvider__ |Gets or sets the provider used for building the expression in preview item. Default provider is RadFilterExpressionPreviewProvider.|
 | __FilterContainerID__ |Gets or sets the ID of the IRadFilterableContainer control filtered by the RadFilter. Presently, the RadListView and the RadGrid controls implement this interface.|
 | __LocalizationPath__ |Gets or sets a value indicating where RadFilter will look for its .resx localization file. By default this file should be in the App_GlobalResources folder. However, if you cannot put the resource file in the default location or .resx files compilation is disabled for some reason (e.g. in a DotNetNuke environment), this property should be set to the location of the resource file.|
@@ -39,7 +39,7 @@ Following are tables of the most important properties and events you should be a
 | __ShowAddGroupExpressionButton__ |Gets or sets a value determining if the AddGroupExpressionButton placed in the RadFilterGroupExpressionItem will be visible.|
 | __SharedCalendarMinDate__ |Gets or sets the RangeMinDate property of the RadCalendar which is shared for all controls in the current RadFilter instance.|
 | __SharedCalendarMaxDate__ |Gets or sets the RangeMaxDate property of the RadCalendar which is shared for all controls in the current RadFilter instance.|
-| __DefaultFieldEditorFieldName__ |The FieldName property of the defaultly created editor that will be initialized when AddExpressionButton is pressed.|
+| __DefaultFieldEditorFieldName__ |The FieldName property of the default field editor that will be initialized when AddExpressionButton is pressed.|
 | __DefaultGroupOperation__ |The default GroupOperation that will be set when a new RadFilterGroupExpressionItem is created.|
 | __SharedCalendar__ |Gets the RadCalendar instance that will be used for all pickers in the current RadFilter instance.|
 | __OperationMode__ |Gets or sets the operation mode of the RadFilter control.|

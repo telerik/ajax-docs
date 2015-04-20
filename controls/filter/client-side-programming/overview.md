@@ -12,7 +12,7 @@ position: 0
 
 
 
-In this help topic it is described how to get the RadFilter client object and what are its most important properties, methods and events.
+This help articles demonstrates how to get reference to the RadFilter client object and cover its main properties, methods and events.
 
 ## Getting RadFilter client object
 
