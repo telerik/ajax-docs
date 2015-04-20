@@ -1,6 +1,6 @@
 ---
-title: DataForm Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadDataForm Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: dataform/overview
 tags: overview
@@ -11,14 +11,14 @@ position: 0
 # DataForm Overview
 
 
-
 ## 
 
-__RadDataForm__ is data oriented control, which displays the values of a single record or collection of data items from a DataSource using user-defined templates. You can use the control designer to autogenerate its fields.
+**RadDataForm** is data oriented control, which displays the values of a single record or collection of data items from a DataSource using user-defined templates. You can use the control designer to autogenerate its fields.
 
-The control provides you with an option to preview, edit, delete, and insert records through the available __ItemTemplate__,__EditItemTemplate__ and __InsertItemTemplate__ templates. The __DataForm__ also provides __EmptyDataTemplate__, which applies when the datasource is empty, as well as the LayoutTemplate for easy customization.
+The control provides you with an option to preview, edit, delete, and insert records through the available **ItemTemplate**, **EditItemTemplate** and **InsertItemTemplate** templates. The **DataForm** also provides **EmptyDataTemplate**, which applies when the datasource is empty, as well as the **LayoutTemplate** for easy customization.
 
-The control supports the rich set of skins provided by the suite.![dataform-overview](images/dataform-overview.png)
+The control supports the rich set of skins provided by the suite.
+![dataform-overview](images/dataform-overview.png)
 
 ## Key Features
 

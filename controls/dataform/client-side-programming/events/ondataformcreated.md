@@ -1,6 +1,6 @@
 ---
 title: OnDataFormCreated
-page_title: OnDataFormCreated | UI for ASP.NET AJAX Documentation
+page_title: OnDataFormCreated | RadDataForm for ASP.NET AJAX 
 description: OnDataFormCreated
 slug: dataform/client-side-programming/events/ondataformcreated
 tags: ondataformcreated
@@ -14,32 +14,32 @@ position: 3
 
 ## 
 
-The __OnDataFormCreated__ client-side event is raised after the __RadDataForm__ was created
+The **OnDataFormCreated** client-side event is raised after the **RadDataForm** was created
 
 Two parameters are passed to the event handler:
 
-* __sender__ - the __RadDataForm__ control that fired the event
+* **sender** - the **RadDataForm** control that fired the event
 
-* __eventArgs__ - an event arguments object of type __Sys.EventArgs__
+* **eventArgs** - an event arguments object of type **Sys.EventArgs**
 
-The following example illustrates how you can handle the __OnDataFormCreated__ event:
+The following example illustrates how you can handle the **OnDataFormCreated** event:
 
 ````ASPNET
-	         <telerik:RadDataForm runat="server" ID="RadDataForm1">
-	            <ClientSettings>
-	                <ClientEvents OnDataFormCreated="onDataFormCreated" />
-	            </ClientSettings>
-	        </telerik:RadDataForm>
+ <telerik:RadDataForm runat="server" ID="RadDataForm1">
+    <ClientSettings>
+        <ClientEvents OnDataFormCreated="onDataFormCreated" />
+    </ClientSettings>
+</telerik:RadDataForm>
 ````
 
 
 
 ````JavaScript
-	         <script type="text/javascript">
-	             function onDataFormCreated(sender, args) {
-	                 alert("RadDataForm created!");
-	             }
-	            </script>
+<script type="text/javascript">
+ function onDataFormCreated(sender, args) {
+     alert("RadDataForm created!");
+ }
+</script>
 ````
 
 

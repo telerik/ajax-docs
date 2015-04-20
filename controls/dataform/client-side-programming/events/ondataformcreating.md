@@ -1,6 +1,6 @@
 ---
 title: OnDataFormCreating
-page_title: OnDataFormCreating | UI for ASP.NET AJAX Documentation
+page_title: OnDataFormCreating | RadDataForm for ASP.NET AJAX 
 description: OnDataFormCreating
 slug: dataform/client-side-programming/events/ondataformcreating
 tags: ondataformcreating
@@ -14,36 +14,35 @@ position: 2
 
 ## 
 
-The __OnDataFormCreating__ client-side event is raised just before the __RadDataForm__ is created
+The **OnDataFormCreating** client-side event is raised just before the **RadDataForm** is created
 
 Two parameters are passed to the event handler:
 
-* __sender__ - the __RadDataForm__ control that fired the event
+* **sender** - the **RadDataForm** control that fired the event
 
-* __eventArgs__ - an event arguments object of type __Sys.CancelEventArgs__
+* **eventArgs** - an event arguments object of type **Sys.CancelEventArgs**
 
-The following example illustrates how you can handle the __OnDataFormCreating__ event:
+The following example illustrates how you can handle the **OnDataFormCreating** event:
 
 ````ASPNET
-	         <telerik:RadDataForm runat="server" ID="RadDataForm3">
-	            <ClientSettings>
-	                <ClientEvents OnDataFormCreating="onDataFormCreating" />
-	            </ClientSettings>
-	        </telerik:RadDataForm>
+ <telerik:RadDataForm runat="server" ID="RadDataForm3">
+    <ClientSettings>
+        <ClientEvents OnDataFormCreating="onDataFormCreating" />
+    </ClientSettings>
+</telerik:RadDataForm>
 ````
 
 
-
 ````JavaScript
-	         <script type="text/javascript">
-	             function onDataFormCreating(sender, args) {
-	                 if (!confirm("Create RadDataForm?")) {
-	                     args.set_cancel(true);
-	
-	                     alert("Creating DataForm canceled");
-	                 }
-	             }
-	            </script>
+<script type="text/javascript">
+ function onDataFormCreating(sender, args) {
+     if (!confirm("Create RadDataForm?")) {
+         args.set_cancel(true);
+
+         alert("Creating DataForm canceled");
+     }
+ }
+</script>
 ````
 
 

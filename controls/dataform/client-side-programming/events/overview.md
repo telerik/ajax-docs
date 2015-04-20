@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadDataForm Events Overview | RadDataForm for ASP.NET AJAX 
 description: Overview
 slug: dataform/client-side-programming/events/overview
 tags: overview
@@ -12,18 +12,18 @@ position: 0
 
 
 
-The __RadDataForm__ control supports the following client-side events.
+The **RadDataForm** control supports the following client-side events.
 
 ## 
 
 
 | Event | Description |
 | ------ | ------ |
-| __OnCommand__ |Raised for every command that is about to be executed.|
-| __OnDataFormCreated__ |Raised after the client-side object of __RadDataForm__ was created|
-| __OnDataFormCreating__ |Raised just before __RadDataForm__ is created|
-| __OnDataFormDestroying__ |Raised just before __RadDataForm__ is destroyed|
-| __OnGetValues__ |Raised when values are retrieved from __Edit/Insert__ template. Used with client-side binding.|
-| __OnSetValues__ |Raised when values are set in the fields in the __ItemTemplate__ . Used with client-side binding.|
+| **OnCommand** |Raised for every command that is about to be executed.|
+| **OnDataFormCreated** |Raised after the client-side object of **RadDataForm** was created|
+| **OnDataFormCreating** |Raised just before **RadDataForm** is created|
+| **OnDataFormDestroying** |Raised just before **RadDataForm** is destroyed|
+| **OnGetValues** |Raised when values are retrieved from **Edit/Insert** template. Used with client-side binding.|
+| **OnSetValues** |Raised when values are set in the fields in the **ItemTemplate** . Used with client-side binding.|
 
 
