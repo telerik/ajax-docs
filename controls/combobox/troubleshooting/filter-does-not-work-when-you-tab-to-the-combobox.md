@@ -14,18 +14,18 @@ position: 9
 
 ## 
 
-__PROBLEM__
+**PROBLEM**
 
 When the [Filter property]({%slug combobox/functionality/filtering%}) is set and you tab to RadComboBox and start typing the dropdown is not opened thus you might think that the filtering is not working.
 
-__SOLUTION__
+**SOLUTION**
 
 The filtering is working, but to see the results you need to open the dropdown when the user starts typing. To do this simply subscribe to the [OnClientKeyPressing]({%slug combobox/client-side-programming/events/onclientkeypressing%}) event and open the dropdown:
 
 ````ASPNET
-	    <telerik:RadComboBox ID="RadComboBox1" runat="server"
-	      Filter="Contains"  
-	      OnClientKeyPressing="(function(sender, e){ if (!sender.get_dropDownVisible()) sender.showDropDown(); })" >  ... 
+<telerik:RadComboBox ID="RadComboBox1" runat="server"
+  Filter="Contains"  
+  OnClientKeyPressing="(function(sender, e){ if (!sender.get_dropDownVisible()) sender.showDropDown(); })" >  ... 
 				
 ````
 

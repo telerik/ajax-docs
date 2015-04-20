@@ -19,25 +19,25 @@ Consider the following scenario:
 Telerik RadComboBox is embedded in Telerik RadMenu and you need to find the client-side instance of the combobox control:
 
 ````ASPNET
-	    <telerik:radmenu id="RadMenu1" runat="server">    
-	    <CollapseAnimation Duration="200" Type="OutQuint" />    
-	    <Items>        
-	        <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1">            
-	        <Items>                
-	            <telerik:RadMenuItem runat="server" Text="Child RadMenuItem 1">                    
-	                <ItemTemplate>                        
-	                    <telerik:RadComboBox ID="RadComboBox1" runat="server">                            
-	                    <Items>                                
-	                        <telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem1" />                                
-	                        <telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem2" />                            
-	                    </Items>                        
-	                    </telerik:RadComboBox>                    
-	                </ItemTemplate>                
-	        </telerik:RadMenuItem>            
-	        </Items>        
-	        </telerik:RadMenuItem>    
-	    </Items>
-	    </telerik:radmenu>
+<telerik:radmenu id="RadMenu1" runat="server">    
+<CollapseAnimation Duration="200" Type="OutQuint" />    
+<Items>        
+	<telerik:RadMenuItem runat="server" Text="Root RadMenuItem1">            
+	<Items>                
+		<telerik:RadMenuItem runat="server" Text="Child RadMenuItem 1">                    
+			<ItemTemplate>                        
+				<telerik:RadComboBox ID="RadComboBox1" runat="server">                            
+				<Items>                                
+					<telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem1" />                                
+					<telerik:RadComboBoxItem runat="server" Text="RadComboBoxItem2" />                            
+				</Items>                        
+				</telerik:RadComboBox>                    
+			</ItemTemplate>                
+	</telerik:RadMenuItem>            
+	</Items>        
+	</telerik:RadMenuItem>    
+</Items>
+</telerik:radmenu>
 ````
 
 
@@ -45,9 +45,19 @@ Telerik RadComboBox is embedded in Telerik RadMenu and you need to find the clie
 To find the client-side instance of the combobox control you can use one of the following approaches:
 
 ````JavaScript
+		
+var combo = $find('<%= RadMenu1.Items[0].Items[0].FindControl("RadComboBox1").ClientID %>');
 	
-	
-	        var combo = $find('<%= RadMenu1.Items[0].Items[0].FindControl("RadComboBox1").ClientID %>');
+````
+
+
+
+or
+
+````JavaScript
+		
+var menu = $find("<%= RadMenu1.ClientID %>"); 
+var combo = menu.get_items().getItem(0).findControl("RadComboBox1");
 	
 ````
 
@@ -57,19 +67,7 @@ or
 
 ````JavaScript
 	
-	
-	        var menu = $find("<%= RadMenu1.ClientID %>"); 
-	        var combo = menu.get_items().getItem(0).findControl("RadComboBox1");
-	
-````
-
-
-
-or
-
-````JavaScript
-	
-	        var combo = Telerik.Web.UI.RadComboBox.ComboBoxes[0];
+var combo = Telerik.Web.UI.RadComboBox.ComboBoxes[0];
 	
 ````
 

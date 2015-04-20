@@ -19,18 +19,18 @@ The width of the ComboBox is incorrect after showing if it has Label
 ![ComboBox Not Initially Visible](images/combobox_initiallyinvisiblecomboboxwithlabelandpercentagewidth.png)
 
 ````XML
-	    <telerik:radcombobox 
-	        id="RadComboBox1" 
-	        runat="server" 
-	        label="label"
-	        width="50%">
-	    </telerik:radcombobox>
+<telerik:radcombobox 
+	id="RadComboBox1" 
+	runat="server" 
+	label="label"
+	width="50%">
+</telerik:radcombobox>
 ````
 
 
 
-Call the __repaint()__ method of the ComboBox client-side object to resolve the issue after you show it or its invisible container for the first time.
+Call the **repaint()** method of the ComboBox client-side object to resolve the issue after you show it or its invisible container for the first time.
 
 Clicks on the input of a ComboBox pass through the containing IFrame (RadWindow) into the owner document
 
-You can resolve the issue by calling comboBox.__repaint()__ after you show the ComboBox. The most common case of this issue is when the ComboBox is in a RadWindow.
+You can resolve the issue by calling comboBox.**repaint()** after you show the ComboBox. The most common case of this issue is when the ComboBox is in a RadWindow.

@@ -24,12 +24,11 @@ To focus RadComboBox on the client, you should follow the steps below:
 
 ````JavaScript
 	
-	
-	        function SetFocus() {
-	            var comboBox = $find("<%=RadComboBox1.ClientID %>");
-	            var input = comboBox.get_inputDomElement();
-	            input.focus();
-	        }
+function SetFocus() {
+    var comboBox = $find("<%=RadComboBox1.ClientID %>");
+    var input = comboBox.get_inputDomElement();
+    input.focus();
+}
 	
 ````
 
@@ -43,18 +42,17 @@ Use the [SetFocus](http://msdn.microsoft.com/en-us/library/bb156188.aspx) method
 
 ````C#
 	     
-	
-	ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input");
+ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input");
 				
 ````
 ````VB.NET
 	     
-		ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input")
+ScriptManager1.SetFocus(RadComboBox1.ClientID + "_Input")
 				
 ````
 
 
->note The focus of RadComboBox might not be visible in some browsers if AllowCustomText property is not set to true. You could test the focus using the[OnClientFocus]({%slug combobox/client-side-programming/events/onclientfocus%})event.
+>note The focus of RadComboBox might not be visible in some browsers if AllowCustomText property is not set to true. You could test the focus using the [OnClientFocus]({%slug combobox/client-side-programming/events/onclientfocus%}) event.
 >
 
 
