@@ -26,7 +26,7 @@ The control *supports web farm* scenarios. Upload progress is available in this 
 
 __RadAsyncUpload__ relies on saving temporary files to work. When posted, files are saved to the designated temp folder (__App_Data/RadUploadTemp__ by default) with unique names. Once a postback occurs the __RadAsyncUpload__ fires the __OnFileUploaded__ event for each file. The target file is passed as part of the arguments to the event and can be set as either valid (default) or invalid. After the events fire, all files marked as valid are automatically saved to the __TargetFolder__ if it’s set.
 
-Finally, all processed temporary files are deleted. Temporary files are also deleted after a set amount of time defined by the __TemporaryFileExpiration__ property which can be set seperately to a __RadAsyncUpload__control as well as globally in the web.config:
+Finally, all processed temporary files are deleted. Temporary files are also deleted after a set amount of time defined by the __TemporaryFileExpiration__ property which can be set seperately to a __RadAsyncUpload__ control as well as globally in the web.config:
 
 >note With the release of __Q1 2011 SP2 RadAsyncUpload__ supports setting the temporary folder globally in the appSettings section of the web.config.
 > __< add key="Telerik.AsyncUpload.TemporaryFolder" value="[path_to_the_temporary_folder]" />__ 
@@ -36,7 +36,7 @@ Finally, all processed temporary files are deleted. Temporary files are also del
 
 ## Validation
 
-Validation for __RadAsyncUpload__ differs from validation in __RadUpload__as it is now possible to validate size on the client, as long as the __File API__ upload module is used or there is Silverlight or Flash installed on the client's browser. If the validation fails, __RadAsyncUpload__ will fire __OnClientValidationFailed__.
+Validation for __RadAsyncUpload__ differs from validation in __RadUpload__ as it is now possible to validate size on the client, as long as the __File API__ upload module is used or there is Silverlight or Flash installed on the client's browser. If the validation fails, __RadAsyncUpload__ will fire __OnClientValidationFailed__.
 
 ## Web Farms
 

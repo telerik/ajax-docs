@@ -10,8 +10,6 @@ position: 7
 
 # Uploaded Files Position
 
-
-
 ## 
 
 The __UploadedFilesRendering__ property defines whether the uploaded files would be rendered Above or Below file input. It can be set through mark up or in the codebehind.
@@ -21,10 +19,8 @@ The __UploadedFilesRendering__ property defines whether the uploaded files would
 
 
 ````ASPNET
-	    <telerik:RadAsyncUpload runat="server" ID="AsyncUpload1" UploadedFilesRendering="BelowFileInput" />
+<telerik:RadAsyncUpload runat="server" ID="AsyncUpload1" UploadedFilesRendering="BelowFileInput" />
 ````
-
-
 
 ## See Also
 

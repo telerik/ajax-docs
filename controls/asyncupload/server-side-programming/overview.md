@@ -11,8 +11,7 @@ position: 0
 # Server-Side Programming Overview
 
 
-
-This article provides a list and detailed description of the properties and methods that you can use with the __RadAsyncUpload__control.
+This article provides a list and detailed description of the properties and methods that you can use with the __RadAsyncUpload__ control.
 
 ## Properties
 

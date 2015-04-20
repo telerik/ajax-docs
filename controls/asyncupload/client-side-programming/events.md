@@ -43,54 +43,44 @@ __RadAsyncUpload__ supports the following client-side events:
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the corresponding property:
 
 ````ASPNET
-	 
-	    <telerik:radupload id="RadUpload1" runat="server" onclientfileuploadremoving="confirmDeletes"></telerik:radupload>
-	  
-	  
+<telerik:radupload id="RadUpload1" runat="server" onclientfileuploadremoving="confirmDeletes"></telerik:radupload>
 ````
-
-
 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard Microsoft AJAX convention:
 
 ````JavaScript
-	    <script type="text/javascript">
-	
-	        function confirmDeletes(sender, eventArgs) {
-	            if (!confirm("Are you sure you want to delete the selected row?")) eventArgs.set_cancel(true); 
-	        }
-	         
-	        function onAddedHandler1() {
-	            alert("First handler called");
-	        }
-	
-	        function onAddedHandler2() {
-	            alert("Second handler called"); 
-	        }
-	
-	        function pageLoad() {
-	            var upload = $find("<%= RadUpload1.ClientID %>");
-	            upload.add_added(onAddedHandler1);
-	            upload.add_added(onAddedHandler2); 
-	        }
-	         </script>
-	  
+<script type="text/javascript">
+
+	function confirmDeletes(sender, eventArgs) {
+		if (!confirm("Are you sure you want to delete the selected row?")) eventArgs.set_cancel(true); 
+	}
+	 
+	function onAddedHandler1() {
+		alert("First handler called");
+	}
+
+	function onAddedHandler2() {
+		alert("Second handler called"); 
+	}
+
+	function pageLoad() {
+		var upload = $find("<%= RadUpload1.ClientID %>");
+		upload.add_added(onAddedHandler1);
+		upload.add_added(onAddedHandler2); 
+	}
+ </script>
 ````
-
-
 
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	<script type="text/javascript">
-	        function removeOnAdded2() {
-	            var upload = $find("<%= RadUpload1.ClientID %>");
-	            upload.remove_added(onAddedHandler2); 
-	        }
-	</script>
+<script type="text/javascript">
+	function removeOnAdded2() {
+		var upload = $find("<%= RadUpload1.ClientID %>");
+		upload.remove_added(onAddedHandler2); 
+	}
+</script>
 ````
-
-
 
 Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondence between client-side and server-side names:
 

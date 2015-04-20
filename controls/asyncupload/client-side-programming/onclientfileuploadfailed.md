@@ -10,8 +10,6 @@ position: 11
 
 # OnClientFileUploadFailed
 
-
-
 ## 
 
 The __OnClientFileUploadFailed__ client-side event occurs when error uploading the selected files(s) has occured. Common reason for this event firing is Telerik.Web.UI.WebResource.axd handler not being registered in the web.config. Another reason might be server-side error in custom upload handler is being used.
@@ -37,18 +35,15 @@ The event handler receives two parameters:
 One useful case for using this event is to check the error message and suppress it if needed:
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadFailed="OnClientFileUploadFailed"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadFailed="OnClientFileUploadFailed"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	              function OnClientFileUploadFailed(sender, args) {
-	                  if (args.get_message()=="error") {
-	                      args.set_handled(true);
-	                  }
-	              }
-	
+function OnClientFileUploadFailed(sender, args) {
+  if (args.get_message()=="error") {
+	  args.set_handled(true);
+  }
+}	
 ````
 
 

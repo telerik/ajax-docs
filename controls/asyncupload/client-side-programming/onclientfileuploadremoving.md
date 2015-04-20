@@ -10,8 +10,6 @@ position: 12
 
 # OnClientFileUploadRemoving
 
-
-
 ## 
 
 The __OnClientFileUploadRemoving__ occurs before a selected file is about to be removed from the uploaded files collection.The event can be cancelled
@@ -28,23 +26,21 @@ The event handler receives two parameters:
 
 * __get_fileName__ the name of the file that is about to be removed from the uploaded files collection.
 
-* __get_row__ returns the row containing the file input field for the file that is just about to be removed (<LI> element)
+* __get_row__ returns the row containing the file input field for the file that is just about to be removed (\<li\> element)
 
 * __get_rowIndex__ the index of the row that is about to be removed from the uploaded files collection.
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadRemoving="OnClientFileUploadRemoving"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploadRemoving="OnClientFileUploadRemoving"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	                function OnClientFileUploadRemoving(sender,args) {
-	
-	                    if (args.get_rowIndex()==0) {
-	                        args.set_cancel(true);
-	                    }
-	                }
+function OnClientFileUploadRemoving(sender,args) {
+
+	if (args.get_rowIndex()==0) {
+		args.set_cancel(true);
+	}
+}
 ````
 
 

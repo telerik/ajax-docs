@@ -10,8 +10,6 @@ position: 0
 
 # Render Mode
 
-
-
 __RadAsyncUpload__ has two different render modes that can change the actual HTML markup that is rendered. They are exposed via the __RenderMode__ property that can have three possible values - __Classic__, __Lightweight__ and __Auto__. This functionality was introduced in the __Q1 2015__ version.
 
 The possible options are:
@@ -35,31 +33,23 @@ There are two ways to configure the rendering mode of the controls:
 * The property __RenderMode__ of RadAsyncUpload can be used to set the render mode of a particular instance of the control:
 
 ````ASPNET
-	    <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" RenderMode="Lightweight">
-	    </telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" RenderMode="Lightweight">
+</telerik:RadAsyncUpload>
 ````
-
-
-
-
 
 ````C#
-	        RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
 ````VB.NET
-			RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-	#End Region
-	End Class
-
-
-
+RadAsyncUpload1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight	
+````
 
 * The render mode for the dock control can be specified globally in web.config by adding an app key:
 
 ````XML
-	<appSettings>
-	  <add key="Telerik.Web.UI.RadAsyncUpload.RenderMode" value="lightweight" />
-	</appSettings>
+<appSettings>
+  <add key="Telerik.Web.UI.RadAsyncUpload.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 

@@ -10,12 +10,9 @@ position: 1
 
 # RadAsyncUpload vs RadUpload
 
-
-
 ## 
 
 This help article describes the differences between __RadAsyncUpload__ and __RadUpload__ controls.
-
 
 >caption  
 
@@ -29,10 +26,8 @@ This help article describes the differences between __RadAsyncUpload__ and __Rad
 |Client side events for upload completed and upload failed|No client events for upload completed or failed|
 |Extension and size validation are done on the client|You need a page postback to validate the file|
 |Requires anonymous access to the __Telerik.Web.UI.WebResource.axd__ handler|Can upload files with disabled anonymous access|
-| __ -Server Side- __ :New Event: __FileUploaded__ Removed Events: __Validating__ , __FileExists__ New Properties: __TemporaryFolder__ , __TemporaryFileExpiration__ Removed Properties: __InvalidFiles__ , __TargetPhysicalFolder__ , __ReadOnlyInputs__ ||
-| __ -Client Side:- __ New Events: __OnClientFileUploading__ , __OnClientFileUploaded__ , __OnClientFileUploadFailed__ , __OnClientValidationFailed__ , __OnClientUploadProgress__ , __OnClientFileUploadRemoved__ , __OnClientFileUploadRemoving__ Removed Event: __OnClientClearing__ , __OnClientDeleting__ ||
-
-
+| __SERVER SIDE:__ <br> :New Event: __FileUploaded__ <br> Removed Events: __Validating__ , __FileExists__ <br> New Properties: __TemporaryFolder__ , __TemporaryFileExpiration__ <br> Removed Properties: __InvalidFiles__ , __TargetPhysicalFolder__ , __ReadOnlyInputs__ ||
+| __CLIENT SIDE:__ <br> New Events: __OnClientFileUploading__ , __OnClientFileUploaded__ , __OnClientFileUploadFailed__ , __OnClientValidationFailed__ , __OnClientUploadProgress__ , __OnClientFileUploadRemoved__ , __OnClientFileUploadRemoving__ <br> Removed Event: __OnClientClearing__ , __OnClientDeleting__ ||
 
 # See Also
 

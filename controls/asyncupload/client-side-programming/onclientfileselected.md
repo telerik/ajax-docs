@@ -10,8 +10,6 @@ position: 5
 
 # OnClientFileSelected
 
-
-
 ## 
 
 The __OnClientFileSelected__ client-side event occurs when a file is selected in a file input control.
@@ -24,23 +22,21 @@ The event handler receives two parameters:
 
 * __get_fileInputField__ returns the file input field for the file that was just selected. (only when IFrame modules is used)
 
-* __get_row__ returns the row containing the file input field for the file that was just selected (<LI> element)
+* __get_row__ returns the row containing the file input field for the file that was just selected (\<li\> element)
 
 * __get_rowIndex__ returns the index of the row
 
 * __get_fileName__ returns the name of the file selected
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileSelected="OnClientFileSelected"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	              function OnClientFileSelected(sender, args) {
-	                    var currentFileName = args.get_fileName();
-	                    alert(currentFileName);
-	                }
+function OnClientFileSelected(sender, args) {
+	var currentFileName = args.get_fileName();
+	alert(currentFileName);
+}
 ````
 
 

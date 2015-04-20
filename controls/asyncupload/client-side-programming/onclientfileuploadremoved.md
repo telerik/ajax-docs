@@ -10,8 +10,6 @@ position: 13
 
 # OnClientFileUploadRemoved
 
-
-
 ## 
 
 The __OnClientFileUploadRemoved__ occurs after the selected file has been removed from the uploaded files collection.

@@ -10,8 +10,6 @@ position: 3
 
 # OnClientAdded
 
-
-
 ## 
 
 The __OnClientAdded__ client-side event occurs when a new row has just been added to the __RadAsyncUpload__ control.
@@ -33,16 +31,16 @@ The event handler receives two parameters:
 Use the __OnClientAdded__ event to perform any last minute changes to the rows in the __RadAsyncUpload__ control.
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientAdded="OnClientAdded"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientAdded="OnClientAdded"></telerik:RadAsyncUpload>
 ````
 
 
 
 ````JavaScript
-	            function OnClientAdded(sender, args) {
-	                var rowIndex = args.get_index();
-	                alert(rowIndex);
-	            }
+function OnClientAdded(sender, args) {
+	var rowIndex = args.get_index();
+	alert(rowIndex);
+}
 ````
 
 

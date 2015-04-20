@@ -10,8 +10,6 @@ position: 3
 
 # Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
 
-
-
 Since we deprecated the __RadUpload__ control in June 2013 (Q2 2013), we highly recommendusing the __RadAsyncUpload__ control instead. This article describes the steps that you needto take in order to migrate from RadUpload control to RadAsyncUpload.
 
 ## Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
@@ -20,15 +18,14 @@ To migrate a web application from __RadUpload for ASP.NET AJAX__ to the new __Ra
 
 1. Make sure that you have registered the handler's URL in the web.config. This is done by using the Smart Tag of the __RadAsyncUpload__.
 
-1. Replace the old declaration:#_ASPX_
-
-	<telerik:RadUpload …></telerik:RadUpload> 
-
-with the new one:#_ASPX_
-
-	<telerik:RadAsyncUpload …></telerik:RadAsyncUpload> 
-
-
+1. Replace the old declaration:
+````ASPNET
+<telerik:RadUpload …></telerik:RadUpload> 
+````
+with the new one:
+````ASPNET
+<telerik:RadAsyncUpload …></telerik:RadAsyncUpload> 
+````
 
 1. You can leave all old properties intact.
 

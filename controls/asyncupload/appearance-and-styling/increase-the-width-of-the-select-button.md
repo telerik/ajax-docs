@@ -10,8 +10,6 @@ position: 2
 
 # Increase the Width of the Select Button
 
-
-
 This help article describes how you can alter the width of the __Select__ button of the __RadAsyncUpload__ control.
 
 ## 
@@ -23,33 +21,27 @@ In general, you have two ways that you can use to alter the width of the button:
 * First, you can use the current sprite image and simply change the background-position:
 
 ````XML
-	     div.RadUpload .ruBrowse
-	        {
-	            background-position: 0 -23px;
-	            width: 79px;
-	        }
-	        div.RadUpload_Default .ruFileWrap .ruButtonHover
-	        {
-	            background-position: 100% -23px !important;
-	        }
-	
+div.RadUpload .ruBrowse
+{
+    background-position: 0 -23px;
+    width: 79px;
+}
+div.RadUpload_Default .ruFileWrap .ruButtonHover
+{
+    background-position: 100% -23px !important;
+}	
 ````
-
-
 
 * Second, you can load your own picture for the background with the proper size and color by using the following CSS class:
 
 ````XML
-	    /*RadAsyncUpload1 is your control's ID*/
-	    #RadAsycnUpload1. RadUpload_Default .ruButton
-	      {         
-	               /*it is an example URL*/ 
-	           background-image: url("images/ruSprite.png");
-	      }
-	
+/*RadAsyncUpload1 is your control's ID*/
+#RadAsycnUpload1. RadUpload_Default .ruButton
+{         
+   /*it is an example URL*/ 
+   background-image: url("images/ruSprite.png");
+}	
 ````
-
-
 
 # See Also
 

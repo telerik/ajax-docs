@@ -10,8 +10,6 @@ position: 8
 
 # OnClientFileUploaded
 
-
-
 ## 
 
 The __OnClientFileUploaded__ client-side event occurs after a file has been uploaded
@@ -29,16 +27,14 @@ The event handler receives two parameters:
 * __get_row__ returns the upload row for which the event	was fired.
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploaded="OnClientFileUploaded"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	                function OnClientFileUploaded(sender, args) {
-	                    var contentType = args.get_fileInfo().ContentType;
-	                    alert(contentType);
-	                }
+function OnClientFileUploaded(sender, args) {
+	var contentType = args.get_fileInfo().ContentType;
+	alert(contentType);
+}
 ````
 
 

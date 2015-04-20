@@ -10,8 +10,6 @@ position: 6
 
 # OnClientFilesSelected
 
-
-
 ## 
 
 The __OnClientFilesSelected__ client-side event occurs whenfiles(s) are selected. These event can be cancelled, which will erase the selectedfiles collection.
@@ -27,17 +25,14 @@ The event handler receives two parameters:
 * __set_cancel__ lets you cancel the event andprevent items from being uploaded
 
 ````ASPNET
-	           <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFilesSelected="OnClientFilesSelected" MultipleFileSelection="Automatic">
-	            </telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFilesSelected="OnClientFilesSelected" MultipleFileSelection="Automatic"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	                function OnClientFilesSelected(sender, args) {
-	                    var selectedFilesCount = args.get_count();
-	                    alert(selectedFilesCount);
-	                }
+function OnClientFilesSelected(sender, args) {
+	var selectedFilesCount = args.get_count();
+	alert(selectedFilesCount);
+}
 ````
 
 

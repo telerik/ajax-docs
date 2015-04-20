@@ -16,15 +16,17 @@ Sometimes you need to upload large files, but IIS prevents users from uploading 
 
 ## Web.config Settings
 
-In order to upload files larger than 2GB, you need to change the following attributes of the __<httpRuntime>__ tag in the __<system.web>__ section of the Web.config file.
+In order to upload files larger than 2GB, you need to change the following attributes of the __\<httpRuntime\>__ tag in the __\<system.web\>__ section of the Web.config file.
 
-1. __maxRequestLength__The __maxRequestLength__ attribute specifies the limit for the input stream buffering threshold, in KB (kilobytes). You can use this limit to prevent denial of service attacks that are caused, for example, by users posting large files to the server. The default value is 4096 (4 MB).To enable large file uploads you need to change the value of this attribute to the largest allowed combined file size for your application. If someone selects and uploads files with a total size larger than __maxRequestLength__, this will result in a "Page not found" error. __RadAsyncUpload__does not provide a way to handle this error.
+__maxRequestLength__ 
+The __maxRequestLength__ attribute specifies the limit for the input stream buffering threshold, in KB (kilobytes). You can use this limit to prevent denial of service attacks that are caused, for example, by users posting large files to the server. The default value is 4096 (4 MB).To enable large file uploads you need to change the value of this attribute to the largest allowed combined file size for your application. If someone selects and uploads files with a total size larger than __maxRequestLength__, this will result in a "Page not found" error. __RadAsyncUpload__ does not provide a way to handle this error.
 
 >note The __MaxFileSize__ property of the __RadAsyncUpload__ control specifies the maximum size for each of the uploaded files in bytes.
 >
 
 
-1. __executionTimeout__The __executionTimeout__ attribute specifies the maximum number of seconds a request is allowed to be executed before being automatically shut down by ASP.NET – the default time is __110__ seconds. If a request takes longer to execute, an exception will be thrown.To enable large file uploads, which can take large periods of time, you should increase the value of this property.You can find more information about the __httpRuntime__ configuration in the following MSDN article: [http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx](http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx).
+__executionTimeout__
+The __executionTimeout__ attribute specifies the maximum number of seconds a request is allowed to be executed before being automatically shut down by ASP.NET – the default time is __110__ seconds. If a request takes longer to execute, an exception will be thrown.To enable large file uploads, which can take large periods of time, you should increase the value of this property.You can find more information about the __httpRuntime__ configuration in the following MSDN article: [http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx](http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx).
 
 ## How to Modify Web.config
 
@@ -41,19 +43,17 @@ To make modifications to your application for large file uploads, you need to:
 Modify the configuration file to allow uploads of files up to 100MB and upload periods up to 1 hour:
 
 ````XML
-	    <configuration>
-	    ...
-	        <system.web>
-	
-	          <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
-	          ...
-	        </system.web>
-	    </configuration>
+<configuration>
+...
+    <system.web>
+
+      <httpRuntime maxRequestLength="102400" executionTimeout= "3600" />
+      ...
+    </system.web>
+</configuration>
 ````
 
-
-
->caution The configuration file sections and attributes are __case sensitive__ . This means that the sections and attributes below will be incorrect if written using a case other than shown.
+>caution The configuration file sections and attributes are __case sensitive__. This means that the sections and attributes below will be incorrect if written using a case other than shown.
 >
 
 
@@ -62,14 +62,14 @@ Modify the configuration file to allow uploads of files up to 100MB and upload p
 1. Add these lines in the Web.config file:
 
 ````XML
-	    <system.webserver>
-	    ...
-	    <security >
-	        <requestFiltering>
-	            <requestLimits maxAllowedContentLength="1024000000" />
-	        </requestFiltering>
-	    </security>
-	    </system.webserver>
+<system.webserver>
+...
+<security >
+    <requestFiltering>
+        <requestLimits maxAllowedContentLength="1024000000" />
+    </requestFiltering>
+</security>
+</system.webserver>
 ````
 
 
@@ -80,7 +80,7 @@ Modify the configuration file to allow uploads of files up to 100MB and upload p
 
 ## Modules Information
 
-As of Q2 2013, you can use __File API__[module]({%slug asyncupload/upload-modules%}) of __RadAsyncUpload__ to upload files that are larger than __2GB__ when the upload is preformed with chunks. Before that it was only possible in __Silverlight__ and __Flash__ modules.
+As of Q2 2013, you can use __File API__ [module]({%slug asyncupload/upload-modules%}) of __RadAsyncUpload__ to upload files that are larger than __2GB__ when the upload is preformed with chunks. Before that it was only possible in __Silverlight__ and __Flash__ modules.
 
 When you use the __IFrame__ upload module, you can upload files with a combined size of up to 2GB, but it requires some modifications in your application configuration files connected with specifying the limit for the input stream buffering threshold.
 

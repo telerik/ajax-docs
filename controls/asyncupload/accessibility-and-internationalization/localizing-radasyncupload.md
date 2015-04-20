@@ -11,7 +11,6 @@ position: 1
 # Localizing RadAsyncUpload
 
 
-
 The localization support for __RadAsyncUpload__ lets you translate the user interface, or simply adapt a few strings. This article provides information on how you can use localization with the __RadAsyncUpload__ control.
 
 ## Localization Property
@@ -19,26 +18,13 @@ The localization support for __RadAsyncUpload__ lets you translate the user inte
 The __Localization__ property specifies the strings that appear in the runtime user interface of __RadAsyncUpload__. By changing the values of each named sub-property, you change the appearance of the string the upload uses:
 
 ````ASPNET
-	    <telerik:radasyncupload id="RadAsyncUpload1" runat="server" localization-select="Select zip file" />
+<telerik:radasyncupload id="RadAsyncUpload1" runat="server" localization-select="Select zip file" />
 ````
 
 ![Async Upload Localization](images/asyncupload_rau_localization.png)
 
-````C#
-	     
-	
-	    
-				
-````
-
-
-
 >note This technique is useful when customizing some of the messages of a particular instance. The messages are not shared between upload instances. A complete translation using this approach is not appropriate.
 >
-
-
-
-
 
 >caption  
 
@@ -59,7 +45,7 @@ To create a global resource file to localize the upload follow these steps:
 
 1. Copy the default resource __RadAsyncUpload.resx__ file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
-1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by __RadAsyncUpload__ follow a strict naming convention:__RadAsyncUpload.<Culture Identifier>.resx__
+1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by __RadAsyncUpload__ follow a strict naming convention: __RadAsyncUpload.\<Culture Identifier\>.resx__
 
 >note The __Culture Identifier__ consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >

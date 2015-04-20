@@ -10,8 +10,6 @@ position: 1
 
 # RadAsyncUpload Object
 
-
-
 ## 
 
 The following table lists the important __RadAsyncUpload__ client-side methods:
@@ -24,17 +22,14 @@ The following table lists the important __RadAsyncUpload__ client-side methods:
 | __addFileInput__ |none|none|Adds a new row to the __RadAsyncUpload__ control.|
 
 ````ASPNET
-	    <telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" />
-	    <input type="button" value="Add" onclick="myAdd()" />
-	    <script type="text/javascript">
-	        function myAdd() {
-	            $find("<%= RadAsyncUpload1.ClientID%>").addFileInput();
-	        }
-	    </script>
+<telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" />
+<input type="button" value="Add" onclick="myAdd()" />
+<script type="text/javascript">
+    function myAdd() {
+        $find("<%= RadAsyncUpload1.ClientID%>").addFileInput();
+    }
+</script>
 ````
-
-
-
 
 >caption  
 
@@ -44,29 +39,20 @@ The following table lists the important __RadAsyncUpload__ client-side methods:
 >note Be careful to use the right index because in different scenarios file inputs may be ordered differently in __RadAsyncUpload__ .
 >
 
-
 ````JavaScript
-	     
-	
-	   function DeleteInvalidFiles() {
-	      var upload = $find("<%= RadAsyncUpload1.ClientID %>");
-	      var inputs = upload.getUploadedFiles();
-	      for (i = inputs.length - 1; i >= 0;i--) {
-	        if(!upload.isExtensionValid(inputs[i].value))
-	           upload.deleteFileInputAt(i);
-	      }
-	   }
-				
+function DeleteInvalidFiles() {
+  var upload = $find("<%= RadAsyncUpload1.ClientID %>");
+  var inputs = upload.getUploadedFiles();
+  for (i = inputs.length - 1; i >= 0;i--) {
+    if(!upload.isExtensionValid(inputs[i].value))
+       upload.deleteFileInputAt(i);
+  }
+}		
 ````
-
-
-
-
 >caption  
 
 |  __deleteAllFileInputs__  | none | none | Deletes all rows with the uploaded files. |
 | ------ | ------ | ------ | ------ |
-
 
 >caption  
 
@@ -74,44 +60,34 @@ The following table lists the important __RadAsyncUpload__ client-side methods:
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	
-	   function ClearInvalidInputs() {
-	      var upload = $find("<%= RadAsyncUpload1.ClientID %>");
-	      var inputs = upload.getUploadedFiles();
-	      for (i = inputs.length - 1; i >= 0;i--) {
-	        alert(inputs[i] + " was  uploaded");    
-	      }
-	   }
-				
+function ClearInvalidInputs() {
+  var upload = $find("<%= RadAsyncUpload1.ClientID %>");
+  var inputs = upload.getUploadedFiles();
+  for (i = inputs.length - 1; i >= 0;i--) {
+    alert(inputs[i] + " was  uploaded");    
+  }
+}			
 ````
-
-
-
 
 >caption  
 
 |  __getID__  | string | string | Creates a new ID, based on the __RadAsyncUpload__ ClientID, the supplied parameter, and the zero based index of the current row. |
 | ------ | ------ | ------ | ------ |
 
->caution This method must be used when[adding custom fields]({%slug asyncupload/how-to/adding-information-to-uploaded-files%})to a __RadAsyncUpload__ instance.
+>caution This method must be used when[adding custom fields]({%slug asyncupload/application-scenarios/adding-information-to-uploaded-files%})to a __RadAsyncUpload__ instance.
 >
 
-
 ````ASPNET
-	    <telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" OnClientAdded="addTitle" />
-	    <script type="text/javascript">
-	        function addTitle(RadAsyncUpload, args) {
-	            var row = args.get_row();
-	            var title = document.createElement("input");
-	            title.id = title.name = RadAsyncUpload.getID("title");
-	            row.insertBefore(title, row.firstChild);
-	        }
-	    </script>
+<telerik:RadAsyncUpload runat="server" id="RadAsyncUpload1" OnClientAdded="addTitle" />
+<script type="text/javascript">
+    function addTitle(RadAsyncUpload, args) {
+        var row = args.get_row();
+        var title = document.createElement("input");
+        title.id = title.name = RadAsyncUpload.getID("title");
+        row.insertBefore(title, row.firstChild);
+    }
+</script>
 ````
-
-
-
 
 >caption  
 
@@ -119,22 +95,14 @@ The following table lists the important __RadAsyncUpload__ client-side methods:
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	
-	   function ClearInvalidInputs() {
-	     var upload = $find("<%= RadAsyncUpload1.ClientID %>");
-	     var inputs = upload.getUploadedFiles();
-	     for (i = inputs.length - 1; i >=0; i--) {
-	       if (!upload.isExtensionValid(inputs[i]))
-	         alert("extension is invalid!")
-	   
-	   }
-	    
-				
+function ClearInvalidInputs() {
+	var upload = $find("<%= RadAsyncUpload1.ClientID %>");
+	var inputs = upload.getUploadedFiles();
+	for (i = inputs.length - 1; i >=0; i--) {
+	if (!upload.isExtensionValid(inputs[i]))
+		alert("extension is invalid!")	  
+}		
 ````
-
-
-
 
 >caption  
 

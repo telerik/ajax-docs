@@ -10,8 +10,6 @@ position: 10
 
 # OnClientValidationFailed
 
-
-
 ## 
 
 The __OnClientValidationFailed__ client-side event occurs after a validation for selected file has failed either due to invalid file size or invalid extension
@@ -29,27 +27,24 @@ The event handler receives two parameters:
 One useful case that can be applied in this event is getting information if the validation is triggered by the size of the file or by its extension:
 
 ````ASPNET
-	            <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientValidationFailed="OnClientValidationFailed"></telerik:RadAsyncUpload>
+<telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientValidationFailed="OnClientValidationFailed"></telerik:RadAsyncUpload>
 ````
 
-
-
 ````JavaScript
-	            function OnClientValidationFailed(sender, args) {
-	                var fileExtention = args.get_fileName().substring(args.get_fileName().lastIndexOf('.') + 1, args.get_fileName().length);
-	                if (args.get_fileName().lastIndexOf('.')!=-1) {//this checks if the extension is correct
-	                    if (sender.get_allowedFileExtensions().indexOf(fileExtention)==-1) {
-	                        alert("Wrong Extension!");
-	                    }
-	                    else {
-	                        alert("Wrong file size!");
-	                    }
-	                }
-	                else {
-	                    alert("not correct extension!");
-	                }
-	            }
-	
+function OnClientValidationFailed(sender, args) {
+	var fileExtention = args.get_fileName().substring(args.get_fileName().lastIndexOf('.') + 1, args.get_fileName().length);
+	if (args.get_fileName().lastIndexOf('.')!=-1) {//this checks if the extension is correct
+		if (sender.get_allowedFileExtensions().indexOf(fileExtention)==-1) {
+			alert("Wrong Extension!");
+		}
+		else {
+			alert("Wrong file size!");
+		}
+	}
+	else {
+		alert("not correct extension!");
+	}
+}
 ````
 
 

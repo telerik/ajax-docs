@@ -10,17 +10,13 @@ position: 0
 
 # Keyboard Support
 
-
-
 ## 
 
 As a part of Q2 2013 __RadAsyncUpload__ control introduced fully built-in keyboard support. The following code snippet describes how you can use the keyboard support with the __RadAsyncUpload__ control.
 
 ````ASPNET
-	    <telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" AccessKey="P" TabIndex="1"/>
+<telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" AccessKey="P" TabIndex="1"/>
 ````
-
-
 
 * __Access Keys__ - You can specify a key that lets the end-users to move focus directly to the __RadAsyncUpload__. Once focus is on the __RadAsyncUpload__, the user can use the Tab key for navigation. The access key is defined using the __AccessKey__ property. For example, if you set the __AccessKey__ property to "P", focus moves to the __RadAsyncUpload__ when the user press "Alt+P".![asyncupload-accessibilityandinternalization-keyboardsupport-focus](images/asyncupload-accessibilityandinternalization-keyboardsupport-focus.png)
 
@@ -31,7 +27,6 @@ As a part of Q2 2013 __RadAsyncUpload__ control introduced fully built-in keyboa
 >note To enable the keyboard support for Internet Explorer 9 or earlier, you will have to set the __DisablePlugins__ property to __true__ .
 >When using Internet Explorer, you need to press Tab key twice, in order to move focus to next control on the page. This is a browser behavior.
 >
-
 
 
 >caption  Key combinations supported by different browsers 

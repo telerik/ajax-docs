@@ -19,12 +19,8 @@ __RadAsyncUpload__ provides a flexible client-side API.You can easily interact w
 __RadAsyncUpload__ creates client-side objects withthe __ClientID__ of the server-side object. You can obtain areference using the __$find()__ method, as shown in the following JavaScript code:
 
 ````JavaScript
-	
-	        var upload = $find("<%= RadAsyncUpload1.ClientID %>");
-	
+var upload = $find("<%= RadAsyncUpload1.ClientID %>");
 ````
-
-
 
 ## Calling Client-Side Methods
 
@@ -34,30 +30,21 @@ Once you have access to a client-side object, you can use it to call its client-
 
 You can use [jQuery Intellisense](D3834762-E3C7-4505-9551-987B4CAF61B3) to get the client object of __RadAsyncUpload__ as shown in this sample code:
 
-````JavaScript
-	
-	        function pageLoad() {
-	            var asyncUpload = $telerik.toAsyncUpload("RadAsyncUpload1");
-	
-	        }
-	
+````JavaScript	
+function pageLoad() {
+    var asyncUpload = $telerik.toAsyncUpload("RadAsyncUpload1");	
+}	
 ````
-
-
 
 ## RadAsyncUpload
 
 The following example uses only a single __RadAsyncUpload__ controland demonstrates how by using client-side object the you can add an additional upload row tovisually demonstrate that the control can upload several files:
 
 ````JavaScript
-	
-	        function deleteUnusedFileInputs() {
-	            var upload = $find("<%= RadUpload1.ClientID %>"); upload.addFileInput();
-	        }
-	
+function deleteUnusedFileInputs() {
+    var upload = $find("<%= RadUpload1.ClientID %>"); upload.addFileInput();
+}	
 ````
-
-
 
 ## See Also
 
