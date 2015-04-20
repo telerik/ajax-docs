@@ -12,68 +12,72 @@ position: 0
 
 
 
-The __RadInput__ Smart Tag allows easy access to frequently needed tasks. You can display the __Smart Tag__ by right clicking on a __RadInput__ control in the design window, and choosing __Show Smart Tag__ from its context menu.
+The **RadInput** Smart Tag allows easy access to frequently needed tasks. You can display the **Smart Tag** by right clicking on a **RadInput** control in the design window, and choosing **Show Smart Tag** from its context menu.
 
 ## RadTextBox Smart Tag
 
-The __RadTextBox__ Smart Tag lets you perform the following:
+The **RadTextBox** Smart Tag lets you perform the following:
 
 RadTextBox Tasks
 
-* __Text__ lets you specify the text that appears in the __RadTextBox__ control.This control sets the __Text__ property.
+* **Text** lets you specify the text that appears in the **RadTextBox** control.This control sets the **Text** property.
 
-* __Empty Message__ lets you specify the text that appears in the __RadTextBox__ control when the value of the __Text__ property is an empty string. This control sets the __EmptyMessage__ property.
+* **Empty Message** lets you specify the text that appears in the **RadTextBox** control when the value of the **Text** property is an empty string. This control sets the **EmptyMessage** property.
 
 Ajax Resources
 
-* __Add RadAjaxManager...__ adds a RadAjaxManager component to your Web page, and displays the __RadAjax Property Builder__ where you can configure it.
+* **Add RadAjaxManager...** adds a RadAjaxManager component to your Web page, and displays the **RadAjax Property Builder** where you can configure it.
 
-* __Replace ScriptManager with RadScriptManager__ replaces the default __ScriptManager__ component that is added for AJAX-enabled Web sites with __RadScriptManager__.
+* **Replace ScriptManager with RadScriptManager** replaces the default **ScriptManager** component that is added for AJAX-enabled Web sites with **RadScriptManager**.
 
-* Add __RadStyleSheetManager__ adds a __RadStyleSheetManager__ to your Web page.
+* Add **RadStyleSheetManager** adds a **RadStyleSheetManager** to your Web page.
 
 Skin
 
-The __Skin__ drop-down lets you select from a list of available [skins]({%slug input/appearance-and-styling/skins%}) to customize the look of your __RadTextBox__ control.
+The **Skin** drop-down lets you select from a list of available [skins]({%slug input/appearance-and-styling/skins%}) to customize the look of your **RadTextBox** control.
 
 Learning Center
 
-Links navigate you directly to __RadInput__ examples, help, or code library. You can also search the Telerik web site for a given string.![Smart Tag](images/RadTextBoxSmartTag.png)
+Links navigate you directly to **RadInput** examples, help, or code library. You can also search the Telerik web site for a given string.
+![Smart Tag](images/RadTextBoxSmartTag.png)
 
 ## RadMaskedTextBox
 
-The __RadMaskedTextBox__ Smart Tag contains the same __Ajax Resources__, __Skin__, and __Learning Center__ sections as the other __RadInput__ controls. In addition, the __RadMaskedTextBox__ Smart Tag lets you do the following :
+The **RadMaskedTextBox** Smart Tag contains the same **Ajax Resources**, **Skin**, and **Learning Center** sections as the other **RadInput** controls. In addition, the **RadMaskedTextBox** Smart Tag lets you do the following :
 
 RadMaskedTextBox Tasks
 
-* __Set Mask__ brings up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}),where you can specify an input mask that controls what input the user can enter into the masked text box.The input mask you specify in this dialog is assigned to the __Mask__ property.
+* **Set Mask** brings up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}),where you can specify an input mask that controls what input the user can enter into the masked text box.The input mask you specify in this dialog is assigned to the **Mask** property.
 
-* __Edit Mask Part__ shows the [MaskPart Collection Editor ]({%slug input/design-time/maskpart-collection-editor%}),where you can create and modify the masks that are the values of the __RadMaskedTextBox__.![Smart Tag](images/RadMaskedTextBoxSmartTag.png)
+* **Edit Mask Part** shows the [MaskPart Collection Editor ]({%slug input/design-time/maskpart-collection-editor%}),where you can create and modify the masks that are the values of the **RadMaskedTextBox**.
+![Smart Tag](images/RadMaskedTextBoxSmartTag.png)
 
 ## RadNumericTextBox
 
-The __RadNumericTextBox__ Smart Tag contains the same __Ajax Resources__, __Skin__, and __Learning Center__ sections as the other __RadInput__ controls. In addition, the __RadNumericTextBox__ Smart Tag lets you do the following :
+The **RadNumericTextBox** Smart Tag contains the same **Ajax Resources**, **Skin**, and **Learning Center** sections as the other **RadInput** controls. In addition, the **RadNumericTextBox** Smart Tag lets you do the following :
 
 RadNumericTextBox Tasks
 
-* __NumericType__ lets you set the __Type__ property by selecting a type from the drop-down list. The __Type__ property governs the basic formatting of numeric values, according to the settings of the current __Culture__.__Numeric Type__ can be set to "Number", "Currency", or "Percent".
+* **NumericType** lets you set the **Type** property by selecting a type from the drop-down list. The **Type** property governs the basic formatting of numeric values, according to the settings of the current **Culture**.**Numeric Type** can be set to "Number", "Currency", or "Percent".
 
-* __Value__ lets you set the __Value__ property to a numeric value.
+* **Value** lets you set the **Value** property to a numeric value.
 
-* __Minimum Value__ lets you set the __MinValue__ property to a numeric value.
+* **Minimum Value** lets you set the **MinValue** property to a numeric value.
 
-* __Maximum Value__ lets you set the __MaxValue__ property to a numeric value.![Smart tag](images/RadNumericTextBoxSmartTag.png)
+* **Maximum Value** lets you set the **MaxValue** property to a numeric value.
+![Smart tag](images/RadNumericTextBoxSmartTag.png)
 
 ## RadDateInput
 
-The __RadDateInput__Smart Tag contains the same __Ajax Resources__, __Skin__, and __Learning Center__ sections as the other __RadInput__ controls. In addition, the __RadDateInput__Smart Tag lets you do the following :
+The **RadDateInput** Smart Tag contains the same **Ajax Resources**, **Skin**, and **Learning Center** sections as the other **RadInput** controls. In addition, the **RadDateInput** Smart Tag lets you do the following :
 
 RadDateInput Tasks
 
-* __Set Display Date Format__ brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the __DisplayDateFormat__ property.The __DisplayDateFormat__property governs the format of the __SelectedDate__ value when the __RadDateInput__ control does not have focus.
+* **Set Display Date Format** brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the **DisplayDateFormat** property.The **DisplayDateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control does not have focus.
 
-* __Set Date Format__brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the __DateFormat__ property.The __DateFormat__property governs the format of the __SelectedDate__ value when the __RadDateInput__ control has focus (when the user can edit its value).
+* **Set Date Format** brings up the [Date Format Dialog]({%slug input/design-time/date-format-dialog%}), where you can assign a value to the **DateFormat** property.The **DateFormat** property governs the format of the **SelectedDate** value when the **RadDateInput** control has focus (when the user can edit its value).
 
-* __MinDate__ specifies the minimal date which the user will be allowed to enter
+* **MinDate** specifies the minimal date which the user will be allowed to enter
 
-* __MaxDate__ specifies maximal date which the user will be allowed to enter![Smart tag](images/RadDateInputSmartTag.png)
+* **MaxDate** specifies maximal date which the user will be allowed to enter
+![Smart tag](images/RadDateInputSmartTag.png)

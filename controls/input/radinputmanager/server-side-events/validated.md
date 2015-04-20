@@ -16,4 +16,4 @@ Fires after the server-side validation has been completed.
 
 ## 
 
-1. __Setting__Reference to the InputSetting object.
+1. **Setting** Reference to the InputSetting object.

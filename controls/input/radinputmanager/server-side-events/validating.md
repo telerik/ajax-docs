@@ -16,10 +16,10 @@ This event fires prior to the server-side validation and helps the developers to
 
 ## 
 
-1. __Canceled__Set this to true if you need to cancel the creation of the current setting.
+1. **Canceled** Set this to true if you need to cancel the creation of the current setting.
 
-1. __Context__This object contains the validation context that has been passed from the client.
+1. **Context** This object contains the validation context that has been passed from the client.
 
-1. __IsValid__Can be set explicitly when using custom validation.
+1. **IsValid** Can be set explicitly when using custom validation.
 
-1. __Setting__Exposes the InputSetting object.
+1. **Setting** Exposes the InputSetting object.

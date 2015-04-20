@@ -25,31 +25,31 @@ You extend TextBox controls with RadInputManager by [adding InputSettings to Rad
 
 
 ````C#
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        RadInputManager inputManager = new RadInputManager();
-	        inputManager.ID = "RadInputManager1";
-	        NumericTextBoxSetting numericSetting = new NumericTextBoxSetting();
-	
-	        numericSetting.Validation.IsRequired = true;
-	        numericSetting.TargetControls.Add(new TargetInput(TextBox1.ID, true));
-	
-	        inputManager.InputSettings.Add(numericSetting);
-	        Page.Form.Controls.Add(inputManager);
-	    }
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadInputManager inputManager = new RadInputManager();
+	inputManager.ID = "RadInputManager1";
+	NumericTextBoxSetting numericSetting = new NumericTextBoxSetting();
+
+	numericSetting.Validation.IsRequired = true;
+	numericSetting.TargetControls.Add(new TargetInput(TextBox1.ID, true));
+
+	inputManager.InputSettings.Add(numericSetting);
+	Page.Form.Controls.Add(inputManager);
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
-	        Dim inputManager As New RadInputManager()
-	        inputManager.ID = "RadInputManager1"
-	
-	        Dim numericSetting As New NumericTextBoxSetting()
-	        numericSetting.Validation.IsRequired = True
-	        numericSetting.TargetControls.Add(New TargetInput(T1.ID, True))
-	
-	        inputManager.InputSettings.Add(numericSetting)
-	        Page.Form.Controls.Add(inputManager)
-	    End Sub
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+	Dim inputManager As New RadInputManager()
+	inputManager.ID = "RadInputManager1"
+
+	Dim numericSetting As New NumericTextBoxSetting()
+	numericSetting.Validation.IsRequired = True
+	numericSetting.TargetControls.Add(New TargetInput(T1.ID, True))
+
+	inputManager.InputSettings.Add(numericSetting)
+	Page.Form.Controls.Add(inputManager)
+End Sub
 ````
 
 

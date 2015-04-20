@@ -16,7 +16,7 @@ OnValueChanged event could be raised in two cases. Once when the browser fires t
 
 ## OnValueChanged event
 
-The OnValueChanged event could be raised twice for the control extended by __RadInputManager__ when its value is chagned.
+The OnValueChanged event could be raised twice for the control extended by **RadInputManager** when its value is chagned.
 
 That is to say, if you have the OnValueChanged hooked for a TextBoxSettings which targets a "normal" TextBox control, the event will be raised once for the OnChange browser event of the HTML Input element. And second time the event could be fired if the value does not fit the requirements of the settings defined in the configuration of the RadInputManager. So, if the value needs to be formatted in accordance with the rules of the input manager the OnValueChanged will be raised second time.
 
@@ -25,7 +25,7 @@ There is a difference between the arguments of the event based for which time th
 
 | First time: |  | Second time: |  |
 | ------ | ------ | ------ | ------ |
-| __Property__ :| __Value__ :| __Property__ :| __Value__ :|
+| **Property** :| **Value** :| **Property** :| **Value** :|
 |get_domEvent|The DOM event that was raised when the value has been changed.|get_domEvent|Null|
 |get_oldValue|Null|get_oldValue|The old value that was parsed by the RadInputManager. Empty string if the string could not be parsed or the event was not fired.|
 |get_newValue|Null|get_newValue|The new value that was parsed by the RadInputManager. Empty string if the string could not be parsed or the event was not fired.|
@@ -42,26 +42,26 @@ An easy way to distinguish who raised the event the browser OnChange event or th
 
 
 ````XML
-	            <asp:TextBox runat="server" ID="DateInput1"></asp:TextBox>
-	            <telerik:radinputmanager id="RadInputManager1" runat="server">
-	            <telerik:DateInputSetting BehaviorID="Setting1" >
-	                <ClientEvents OnValueChanged="ValueChanged" />
-	                <TargetControls>                   
-	                    <telerik:TargetInput ControlID="DateInput1" />
-	                </TargetControls>                
-	            </telerik:DateInputSetting>
-	        </telerik:radinputmanager>
+<asp:TextBox runat="server" ID="DateInput1"></asp:TextBox>
+<telerik:radinputmanager id="RadInputManager1" runat="server">
+	<telerik:DateInputSetting BehaviorID="Setting1" >
+		<ClientEvents OnValueChanged="ValueChanged" />
+		<TargetControls>                   
+			<telerik:TargetInput ControlID="DateInput1" />
+		</TargetControls>                
+	</telerik:DateInputSetting>
+</telerik:radinputmanager>
 ````
 ````JavaScript
-	                function ValueChanged(sender, args) {
-	                    if (args.get_domEvent() != null) {
-	                        var value = "Event fired for first time, value is:" + args.get_inputExtender().get_value();
-	                        alert(value);
-	                    }
-	                    else {
-	                        var value = "Event fired for second time, value is:" + args.get_newValue();
-	                        alert(value);
-	                    }
-	                }
+function ValueChanged(sender, args) {
+	if (args.get_domEvent() != null) {
+		var value = "Event fired for first time, value is:" + args.get_inputExtender().get_value();
+		alert(value);
+	}
+	else {
+		var value = "Event fired for second time, value is:" + args.get_newValue();
+		alert(value);
+	}
+}
 ````
 
