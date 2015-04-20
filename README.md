@@ -13,5 +13,6 @@ You can generate a static web site from the Telerik UI for ASP.NET AJAX document
 
 1. Clone the repository `git clone git@github.com:telerik/ajax-docs.git`
 2. Run `bundle install` (you must have ruby and bundler installed beforehand)
-3. Run `jekyll serve`
-4. Open "http://localhost:8080/aspnet-ajax/introduction.html" in your browser
+3. If `bundle install` fails with SSL related errors execute `gem update --system` and try again.
+4. Run `jekyll serve`
+5. Open "http://localhost:8080/aspnet-ajax/introduction.html" in your browser
