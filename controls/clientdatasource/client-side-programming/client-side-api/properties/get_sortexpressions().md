@@ -12,31 +12,31 @@ position: 1
 
 
 
-This property returs a collection of __SortExpression__ objects. Generally used when there is a need to access the sort expressionson the client. The example below demonstrates how to manipulating the sort expressions of the __RadClientDataSource__ control byusing the properties of the __SortExpression__ collection.
+This property returs a collection of **SortExpression** objects. Generally used when there is a need to access the sort expressionson the client. The example below demonstrates how to manipulating the sort expressions of the **RadClientDataSource** control byusing the properties of the **SortExpression** collection.
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applySortExpression() {
-	                var sortExpression = new Telerik.Web.UI.ClientDataSource.SortExpression();
-	                sortExpression.set_fieldName("ProductName");
-	                sortExpression.set_sortOrder(Telerik.Web.UI.ClientDataSource.SortOrder.Asc);
-	                dataSource.get_sortExpressions().add(sortExpression);
-	            }
-	        </script>
-	        <telerik:RadClientDataSource runat="server" id="RadClientDataSource1">
-	        </telerik:RadClientDataSource>
+<script type="text/javascript">
+    function applySortExpression() {
+        var sortExpression = new Telerik.Web.UI.ClientDataSource.SortExpression();
+        sortExpression.set_fieldName("ProductName");
+        sortExpression.set_sortOrder(Telerik.Web.UI.ClientDataSource.SortOrder.Asc);
+        dataSource.get_sortExpressions().add(sortExpression);
+    }
+</script>
+<telerik:RadClientDataSource runat="server" id="RadClientDataSource1">
+</telerik:RadClientDataSource>
 ````
 
 
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applySortExpression() {
-	                dataSource.get_sortExpressions().add({ fieldName: "ProductName", sortOrder: Telerik.Web.UI.ClientDataSource.SortOrder.Asc });
-	            }
-	        </script>
-	        <telerik:RadClientDataSource runat="server" id="RadClientDataSource2">
-	        </telerik:RadClientDataSource>
+<script type="text/javascript">
+    function applySortExpression() {
+        dataSource.get_sortExpressions().add({ fieldName: "ProductName", sortOrder: Telerik.Web.UI.ClientDataSource.SortOrder.Asc });
+    }
+</script>
+<telerik:RadClientDataSource runat="server" id="RadClientDataSource2">
+</telerik:RadClientDataSource>
 ````
 
 

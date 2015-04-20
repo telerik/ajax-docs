@@ -12,34 +12,34 @@ position: 0
 
 
 
-This property returs a collection of __FilterExpression__ objects. Generally used when there is a need to access the filter expressionson the client. The example below demonstrates how to manipulating the filter expressions of the __RadClientDataSource__ control byusing the properties of the __FilterExpression__ collection.
+This property returs a collection of **FilterExpression** objects. Generally used when there is a need to access the filter expressionson the client. The example below demonstrates how to manipulating the filter expressions of the **RadClientDataSource** control byusing the properties of the **FilterExpression** collection.
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyFilter() {
-	                var filterEntry = new Telerik.Web.UI.ClientDataSource.FilterEntry();
-	                filterEntry.set_fieldName("ProductName");
-	                filterEntry.set_value("Chai");
-	                filterEntry.set_operator(Telerik.Web.UI.ClientDataSource.FilterOperator.Contains);
-	                var filterExpression = new Telerik.Web.UI.ClientDataSource.FilterExpression();
-	                filterExpression.add(filterEntry);
-	                dataSource.get_filterExpressions().add(filterExpression);
-	            }
-	        </script>
-	        <telerik:radclientdatasource runat="server" id="RadClientDataSource1">
-	        </telerik:radclientdatasource>
+<script type="text/javascript">
+    function applyFilter() {
+        var filterEntry = new Telerik.Web.UI.ClientDataSource.FilterEntry();
+        filterEntry.set_fieldName("ProductName");
+        filterEntry.set_value("Chai");
+        filterEntry.set_operator(Telerik.Web.UI.ClientDataSource.FilterOperator.Contains);
+        var filterExpression = new Telerik.Web.UI.ClientDataSource.FilterExpression();
+        filterExpression.add(filterEntry);
+        dataSource.get_filterExpressions().add(filterExpression);
+    }
+</script>
+<telerik:radclientdatasource runat="server" id="RadClientDataSource1">
+</telerik:radclientdatasource>
 ````
 
 
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyFilter() {
-	                dataSource.get_filterExpressions().add({ fieldName: "ProductName", value: text, operator: Telerik.Web.UI.ClientDataSource.FilterOperator.Contains });
-	            }
-	        </script>
-	        <telerik:radclientdatasource runat="server" id="RadClientDataSource2">
-	        </telerik:radclientdatasource>
+<script type="text/javascript">
+    function applyFilter() {
+        dataSource.get_filterExpressions().add({ fieldName: "ProductName", value: text, operator: Telerik.Web.UI.ClientDataSource.FilterOperator.Contains });
+    }
+</script>
+<telerik:radclientdatasource runat="server" id="RadClientDataSource2">
+</telerik:radclientdatasource>
 ````
 
 

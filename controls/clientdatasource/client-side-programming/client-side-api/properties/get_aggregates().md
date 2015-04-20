@@ -12,32 +12,32 @@ position: 3
 
 
 
-This property returs a collection of __Aggregate__ objects. Generally used when there is a need to access the aggregate expressionson the client. The example below demonstrates how to manipulating the aggregates of the __RadClientDataSource__ control byusing the properties of the __Aggregate__ collection.
+This property returs a collection of **Aggregate** objects. Generally used when there is a need to access the aggregate expressionson the client. The example below demonstrates how to manipulating the aggregates of the **RadClientDataSource** control byusing the properties of the **Aggregate** collection.
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyAggregate() {
-	                var aggregate = new Telerik.Web.UI.ClientDataSource.Aggregate();
-	                var aggregateFunction = new Telerik.Web.UI.ClientDataSource.AggregateFunction();
-	                aggregate.set_field("UnitPrice");
-	                aggregate.set_aggregate(aggregateFunction.Max);
-	                dataSource.get_aggregates().add(aggregate);
-	            }
-	        </script>
-	        <telerik:radclientdatasource runat="server" id="RadClientDataSource1">
-	        </telerik:radclientdatasource>
+<script type="text/javascript">
+    function applyAggregate() {
+        var aggregate = new Telerik.Web.UI.ClientDataSource.Aggregate();
+        var aggregateFunction = new Telerik.Web.UI.ClientDataSource.AggregateFunction();
+        aggregate.set_field("UnitPrice");
+        aggregate.set_aggregate(aggregateFunction.Max);
+        dataSource.get_aggregates().add(aggregate);
+    }
+</script>
+<telerik:radclientdatasource runat="server" id="RadClientDataSource1">
+</telerik:radclientdatasource>
 ````
 
 
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyAggregate() {
-	                dataSource.get_aggregates().add({ field: "UnitPrice", aggregate: "max" });
-	            }
-	        </script>
-	        <telerik:radclientdatasource runat="server" id="RadClientDataSource2">
-	        </telerik:radclientdatasource>
+<script type="text/javascript">
+    function applyAggregate() {
+        dataSource.get_aggregates().add({ field: "UnitPrice", aggregate: "max" });
+    }
+</script>
+<telerik:radclientdatasource runat="server" id="RadClientDataSource2">
+</telerik:radclientdatasource>
 ````
 
 

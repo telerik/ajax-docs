@@ -12,89 +12,89 @@ position: 1
 
 
 
-This help article describes the strongly typed client-side objects of the __RadClientDataSource__ control.
+This help article describes the strongly typed client-side objects of the **RadClientDataSource** control.
 
 ## Aggregate
 
-__Telerik.Web.UI.ClientDataSource.Aggregate__ – represents an aggregate setting on the client. The following table describes the properties that __Aggregate__ object exposes.
+**Telerik.Web.UI.ClientDataSource.Aggregate** – represents an aggregate setting on the client. The following table describes the properties that **Aggregate** object exposes.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __get_field()__ |none|Returns the data field of the aggregate.|
-| __set_field()__ |string|Sets the data field of the aggregate.|
-| __get_aggregate()__ |none|Returns the aggregate function of the aggregate.|
-| __set_aggregate()__ |Telerik.Web.UI.ClientDataSource.AggregateFunction|Sets the aggregate function of the aggregate.|
+| **get_field()** |none|Returns the data field of the aggregate.|
+| **set_field()** |string|Sets the data field of the aggregate.|
+| **get_aggregate()** |none|Returns the aggregate function of the aggregate.|
+| **set_aggregate()** |Telerik.Web.UI.ClientDataSource.AggregateFunction|Sets the aggregate function of the aggregate.|
 
-__Telerik.Web.UI.ClientDataSource.AggregateCollection__ – holds a collection of	__Telerik.Web.UI.ClientDataSource.Aggregate__ settings.
+**Telerik.Web.UI.ClientDataSource.AggregateCollection** – holds a collection of	**Telerik.Web.UI.ClientDataSource.Aggregate** settings.
 
 ## Filtering
 
-__Telerik.Web.UI.ClientDataSource.FilterEntry__ – represents a filter setting on the client. The following table describes the properties that __FilterEntry__ object exposes.
+**Telerik.Web.UI.ClientDataSource.FilterEntry** – represents a filter setting on the client. The following table describes the properties that **FilterEntry** object exposes.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __get_fieldName()__ |none|Gets the name of the field from the dataSource which will be used in the filter entry.|
-| __set_fieldName()__ |string|Sets the name of the field from the dataSource which will be used in the filter entry.|
-| __get_operator()__ |none|Gets the filter operator used in the filtering. Enumeration contains: __EqualTo__ , __NotEqualTo__ , __GreaterThan__ , __GreaterThanOrEqualTo__ , __LessThan__ , __LessThenOrEqualTo__ , __Contains__ , __EndsWith__ , __StartsWith__ .|
-| __set_operator()__ |Telerik.Web.UI.ClientDataSource.FilterOperator|Sets the filtering operator.|
-| __get_value()__ |Telerik.Web.UI.ClientDataSource.FilterOperator|Gets the filter value of the current filter entry.|
-| __set_value()__ |string|Sets the filter value of the current filter entry.|
+| **get_fieldName()** |none|Gets the name of the field from the dataSource which will be used in the filter entry.|
+| **set_fieldName()** |string|Sets the name of the field from the dataSource which will be used in the filter entry.|
+| **get_operator()** |none|Gets the filter operator used in the filtering. Enumeration contains: **EqualTo** , **NotEqualTo** , **GreaterThan** , **GreaterThanOrEqualTo** , **LessThan** , **LessThenOrEqualTo** , **Contains** , **EndsWith** , **StartsWith** .|
+| **set_operator()** |Telerik.Web.UI.ClientDataSource.FilterOperator|Sets the filtering operator.|
+| **get_value()** |Telerik.Web.UI.ClientDataSource.FilterOperator|Gets the filter value of the current filter entry.|
+| **set_value()** |string|Sets the filter value of the current filter entry.|
 
-__Telerik.Web.UI.ClientDataSource.FilterExpression__ – represents a client-side strongly types object which holds a collection of __FilterEntries__ or other __FilterExpressions__ and an additional property defining the logic operatorused between the filter entries. The object exposes the following properties.
+**Telerik.Web.UI.ClientDataSource.FilterExpression** – represents a client-side strongly types object which holds a collection of **FilterEntries** or other **FilterExpressions** and an additional property defining the logic operatorused between the filter entries. The object exposes the following properties.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __get_logicOperator()__ |none|Gets the current logic operator used between the filter entries of the filter expression. Default is __AND__ .|
-| __set_logicOperator()__ |none|Sets the logic operator used between the filter entries of the filter expression.|
+| **get_logicOperator()** |none|Gets the current logic operator used between the filter entries of the filter expression. Default is **AND** .|
+| **set_logicOperator()** |none|Sets the logic operator used between the filter entries of the filter expression.|
 
 ## Grouping
 
-__Telerik.Web.UI.ClientDataSource.GroupExpression__ – represents a cient-side strongly types setting describing on group expressionin the __RadClientDataSource__. The following table describes the properties that __GroupExpression__ object exposes.
+**Telerik.Web.UI.ClientDataSource.GroupExpression** – represents a cient-side strongly types setting describing on group expressionin the **RadClientDataSource**. The following table describes the properties that **GroupExpression** object exposes.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __get_fieldName()__ |none|Gets the name of the field from the dataSource which will be used in the grouping operation.|
-| __set_fieldName()__ |string|Sets the name of the field from the dataSource which will be used in the grouping operation.|
-| __get_aggregates()__ |none|Gets the aggregates settings for the current group.|
-| __get_sortOrder()__ |none|Gets the sort order for the current group.|
-| __set_sortOrder()__ |Telerik.Web.UI.ClientDataSource.SortOrder|Sets the sort order for the current group.|
+| **get_fieldName()** |none|Gets the name of the field from the dataSource which will be used in the grouping operation.|
+| **set_fieldName()** |string|Sets the name of the field from the dataSource which will be used in the grouping operation.|
+| **get_aggregates()** |none|Gets the aggregates settings for the current group.|
+| **get_sortOrder()** |none|Gets the sort order for the current group.|
+| **set_sortOrder()** |Telerik.Web.UI.ClientDataSource.SortOrder|Sets the sort order for the current group.|
 
-__Telerik.Web.UI.ClientDataSource.SortExpressionCollection__ – holds a collection of__Telerik.Web.UI.ClientDataSource.SortExpression__ settings.
+**Telerik.Web.UI.ClientDataSource.SortExpressionCollection** – holds a collection of **Telerik.Web.UI.ClientDataSource.SortExpression** settings.
 
 ## Sorting
 
-__Telerik.Web.UI.ClientDataSource.SortExpression__ – represents a setting defining one sort expression in the	__RadClientDataSource__. The following table describes the properties that __SortExpression__ object exposes.
+**Telerik.Web.UI.ClientDataSource.SortExpression** – represents a setting defining one sort expression in the	**RadClientDataSource**. The following table describes the properties that **SortExpression** object exposes.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __get_fieldName()__ |none|Gets the name of the field from the dataSource which will be used in the sorting operation.|
-| __set_fieldName()__ |string|Sets the name of the field from the dataSource which will be used in the sorting operation.|
-| __get_sortOrder()__ |none|Gets the sort order. Default is __ASC__ .|
-| __set_sortOrder()__ |Telerik.Web.UI.ClientDataSource.SortOrder|Sets the sort order when used in sorting.|
+| **get_fieldName()** |none|Gets the name of the field from the dataSource which will be used in the sorting operation.|
+| **set_fieldName()** |string|Sets the name of the field from the dataSource which will be used in the sorting operation.|
+| **get_sortOrder()** |none|Gets the sort order. Default is **ASC** .|
+| **set_sortOrder()** |Telerik.Web.UI.ClientDataSource.SortOrder|Sets the sort order when used in sorting.|
 
-__Telerik.Web.UI.ClientDataSource.SortExpressionCollection__ – holds a collection of__Telerik.Web.UI.ClientDataSource.SortExpression__ settings.
+**Telerik.Web.UI.ClientDataSource.SortExpressionCollection** – holds a collection of **Telerik.Web.UI.ClientDataSource.SortExpression** settings.
 
 ## Common properties for all collections.
 
-All of the above collections share the same common properties inherited from __Telerik.Web.UI.ClientDataSource.CollectionBase__. You can find a definition of each property in the following table.
+All of the above collections share the same common properties inherited from **Telerik.Web.UI.ClientDataSource.CollectionBase**. You can find a definition of each property in the following table.
 
 
 | Property | Parameter | Description |
 | ------ | ------ | ------ |
-| __add()__ |item|Appends an item at the end of the collection.|
-| __add()__ |index, item|Inserts an item at the specified index.|
-| __remove()__ |item|Removes an item from the collection.|
-| __clear()__ |none|Clears all items in the collection.|
-| __toList()__ |none|Return a __JavaScript__ array holding all the items in the collection.|
-| __get_count()__ |none|Gets the total number of items in the collection.|
-| __getItem()__ |index|Gets an item at the specified index.|
-| __indexOf ()__ |item|Gets the index of the specified item.|
-| __forEach()__ |labmda function|Applies the lambda function to each item in the collection.|
+| **add()** |item|Appends an item at the end of the collection.|
+| **add()** |index, item|Inserts an item at the specified index.|
+| **remove()** |item|Removes an item from the collection.|
+| **clear()** |none|Clears all items in the collection.|
+| **toList()** |none|Return a **JavaScript** array holding all the items in the collection.|
+| **get_count()** |none|Gets the total number of items in the collection.|
+| **getItem()** |index|Gets an item at the specified index.|
+| **indexOf ()** |item|Gets the index of the specified item.|
+| **forEach()** |labmda function|Applies the lambda function to each item in the collection.|
 
 # See Also
 

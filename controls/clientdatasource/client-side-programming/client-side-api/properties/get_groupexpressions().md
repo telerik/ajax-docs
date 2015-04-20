@@ -12,30 +12,30 @@ position: 2
 
 
 
-This property returs a collection of __GroupExpression__ objects. Generally used when there is a need to access the group expressionson the client. The example below demonstrates how to manipulating the group expressions of the __RadClientDataSource__ control byusing the properties of the __GroupExpression__ collection.
+This property returs a collection of **GroupExpression** objects. Generally used when there is a need to access the group expressionson the client. The example below demonstrates how to manipulating the group expressions of the **RadClientDataSource** control byusing the properties of the **GroupExpression** collection.
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyGrouping() {
-	                var groupExpression = new Telerik.Web.UI.ClientDataSource.GroupExpression();
-	                groupExpression.set_fieldName("ProductName");
-	                dataSource.get_groupExpressions().add(groupExpression);
-	            }
-	        </script>
-	        <telerik:RadClientDataSource runat="server" id="RadClientDataSource1">
-	        </telerik:RadClientDataSource>
+<script type="text/javascript">
+    function applyGrouping() {
+        var groupExpression = new Telerik.Web.UI.ClientDataSource.GroupExpression();
+        groupExpression.set_fieldName("ProductName");
+        dataSource.get_groupExpressions().add(groupExpression);
+    }
+</script>
+<telerik:RadClientDataSource runat="server" id="RadClientDataSource1">
+</telerik:RadClientDataSource>
 ````
 
 
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function applyGrouping() {
-	                dataSource.get_groupExpressions().add({ fieldName: "ProductName" });
-	            }
-	        </script>
-	        <telerik:RadClientDataSource runat="server" id="RadClientDataSource2">
-	        </telerik:RadClientDataSource>
+<script type="text/javascript">
+    function applyGrouping() {
+        dataSource.get_groupExpressions().add({ fieldName: "ProductName" });
+    }
+</script>
+<telerik:RadClientDataSource runat="server" id="RadClientDataSource2">
+</telerik:RadClientDataSource>
 ````
 
 
