@@ -14,21 +14,23 @@ position: 2
 
 ## 
 
-All of the __RadInput__ controls display a built-in context menu when the user right-clicks on the control with the mouse.![Context Menu](images/ContextMenu.png)
+All of the **RadInput** controls display a built-in context menu when the user right-clicks on the control with the mouse.
+
+![Context Menu](images/ContextMenu.png)
 
 The built-in context menu contains the following commands:
 
-* __Undo__: Backs out the edit that was just made using the context menu or a shortcut key combination.
+* **Undo**: Backs out the edit that was just made using the context menu or a shortcut key combination.
 
-* __Cut__: Cuts the selected text to the clipboard.
+* **Cut**: Cuts the selected text to the clipboard.
 
-* __Copy__: Copies the selected text to the clipboard.
+* **Copy**: Copies the selected text to the clipboard.
 
-* __Paste__: Pastes the text in the clipboard, replacing the current selection or, if there is no selected text, inserting it at the cursor.
+* **Paste**: Pastes the text in the clipboard, replacing the current selection or, if there is no selected text, inserting it at the cursor.
 
-* __Delete__: Deletes the currently selected text.
+* **Delete**: Deletes the currently selected text.
 
-* __Select All__: selects all the text.
+* **Select All**: selects all the text.
 
 # See Also
 

@@ -116,7 +116,7 @@ All custom skins will stop working, however, migrating is very easy, by followin
 >
 
 
-__RadInputManager styles:__
+**RadInputManager styles:**
 
 RadInputMgr_Skin (common CSS class)
 

@@ -14,7 +14,7 @@ position: 4
 
 Since Q3 2011 RadInput introduces a new rendering mode for its controls, where only one input element of type text is used.
 
-Since Q1 2012 this mode is enabled by default for the RadInput controls. It could bedisables by setting the __EnableSingleInputRendering__ property to __"false"__.
+Since Q1 2012 this mode is enabled by default for the RadInput controls. It could bedisables by setting the **EnableSingleInputRendering** property to **"false"**.
 
 The main idea of this feature is to optimize the input rendering and Client-Side API. By using the single input rendering mode only two main HTML elements are rendered on the page, instead of two or three (depending on the specific RadInput) which are rendered in the non-single mode of the RadInput controls.
 
@@ -41,13 +41,13 @@ Since Q2 2012 some changes were made to the rendering engine of RadInput:
 Due to the rendering difference when the SingleInputRendering mode is enabled the input DOM element could be accessed on the client directly with the control's server ID. Therefore, it is no longer needed to use "_text" to access the DOM element on the client.
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function getElement(sender, eventArgs)
-	        {
-	            var inputElement = $get('<%=RadInput1.ClientID%>');
-	
-	        }
-	    </script>
+<script type="text/javascript">
+	function getElement(sender, eventArgs)
+	{
+		var inputElement = $get('<%=RadInput1.ClientID%>');
+
+	}
+</script>
 ````
 
 
@@ -59,26 +59,26 @@ In order to properly focus the input element, you should directy pass the client
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadInput1.Focus();
-	        Page.SetFocus(RadInput1.ClientID );
-	        RadAjaxPanel1.FocusControl(RadInput1.ClientID );
-	        RadAjaxManager1.FocusControl(RadInput1.ClientID);
-	        ScriptManager1.SetFocus(RadInput1.ClientID );
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadInput1.Focus();
+	Page.SetFocus(RadInput1.ClientID );
+	RadAjaxPanel1.FocusControl(RadInput1.ClientID );
+	RadAjaxManager1.FocusControl(RadInput1.ClientID);
+	ScriptManager1.SetFocus(RadInput1.ClientID );
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        RadInput1.Focus()
-	        Page.SetFocus(RadInput1.ClientID)
-	        RadAjaxPanel1.FocusControl(RadInput1.ClientID)
-	        RadAjaxManager1.FocusControl(RadInput1.ClientID)
-	        ScriptManager1.SetFocus(RadInput1.ClientID)
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+	RadInput1.Focus()
+	Page.SetFocus(RadInput1.ClientID)
+	RadAjaxPanel1.FocusControl(RadInput1.ClientID)
+	RadAjaxManager1.FocusControl(RadInput1.ClientID)
+	ScriptManager1.SetFocus(RadInput1.ClientID)
+End Sub
 ````
 
 
->caution If you disable the RadInput control, its value will not be persisted on the server. More information about W3C recommendations on disabled controls can be gathered[here](http://www.w3.org/TR/html401/interact/forms.html#h-17.12.1).
+>caution If you disable the RadInput control, its value will not be persisted on the server. More information about W3C recommendations on disabled controls can be gathered [here](http://www.w3.org/TR/html401/interact/forms.html#h-17.12.1).
 >
 

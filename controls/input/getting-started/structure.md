@@ -14,19 +14,21 @@ position: 1
 
 ## 
 
-The four types of __RadInput__ controls (__RadTextBox__, __RadNumericTextBox__, __RadMaskedTextBox__, and __RadDateInput__) all have the same basic structure except that only RadNumericTextBox has spin buttons. This structure is illustrated below for __RadNumericTextBox__:![Structure](images/Structure.png)
+The four types of **RadInput** controls (**RadTextBox**, **RadNumericTextBox**, **RadMaskedTextBox**, and **RadDateInput**) all have the same basic structure except that only RadNumericTextBox has spin buttons. This structure is illustrated below for **RadNumericTextBox**:
 
-At a minimum, the __RadInput__ control has an input area, where the user can type in a value. Optionally, the __RadInput__ control can include up to three additional areas:
+![Structure](images/Structure.png)
 
-* If the __Label__ property is set, a text label appears to the left of the input area.
+At a minimum, the **RadInput** control has an input area, where the user can type in a value. Optionally, the **RadInput** control can include up to three additional areas:
 
-* If the __ShowSpinButtons__ property is __True__, a pair of spin buttons appear to the side of the input area.
+* If the **Label** property is set, a text label appears to the left of the input area.
 
->note The __ShowSpinButtons__ property is only available for __RadNumericTextBox__ .
+* If the **ShowSpinButtons** property is **True**, a pair of spin buttons appear to the side of the input area.
+
+>note The **ShowSpinButtons** property is only available for **RadNumericTextBox** .
 >
 
 
-* If the __ShowButton__ property is __True__, a generic button appears to the side of the input area.
+* If the **ShowButton** property is **True**, a generic button appears to the side of the input area.
 
 # See Also
 
