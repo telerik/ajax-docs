@@ -10,8 +10,6 @@ position: 7
 
 # OnClientNodeExpanded
 
-
-
 The following article demonstrates how to use and subscribe to the __OnClientNodeExpanded__ client-side event of the __RadNavigation__ control.
 
 ## 
@@ -20,7 +18,7 @@ The client-side __OnClientNodeExpanded__ event of the __RadNavigation__ is raise
 
 * sender — the RadNavigation object that fired the event.
 
-* Event arguments—an event arguments object that exposes the following methods:
+* Event arguments — an event arguments object that exposes the following methods:
 
 
 >caption ButtonClicking Event Arguments Object
@@ -32,26 +30,26 @@ The client-side __OnClientNodeExpanded__ event of the __RadNavigation__ is raise
 __Example 1__: Handle the __RadNavigation__'s client-side __OnClientNodeExpanded__ event.
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function OnClientNodeExpanded(sender, eventArgs) {
-	                    alert("the Node that has just been expanded has text: " + eventArgs.get_node().get_text());
-	                }
-	            </script>
-	
-	            <telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeExpanded="OnClientNodeExpanded">
-	                <Nodes>
-	                    <telerik:NavigationNode Text="Node1">
-	                        <Nodes>
-	                            <telerik:NavigationNode Text="ChildNode1"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode2"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode3"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode4"></telerik:NavigationNode>
-	                        </Nodes>
-	                    </telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
-	                </Nodes>
-	            </telerik:RadNavigation>
+<script type="text/javascript">
+	function OnClientNodeExpanded(sender, eventArgs) {
+		alert("the Node that has just been expanded has text: " + eventArgs.get_node().get_text());
+	}
+</script>
+
+<telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeExpanded="OnClientNodeExpanded">
+	<Nodes>
+		<telerik:NavigationNode Text="Node1">
+			<Nodes>
+				<telerik:NavigationNode Text="ChildNode1"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode2"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode3"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode4"></telerik:NavigationNode>
+			</Nodes>
+		</telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
+	</Nodes>
+</telerik:RadNavigation>
 ````
 
 

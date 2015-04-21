@@ -10,8 +10,6 @@ position: 3
 
 # OnClientNodeClicked
 
-
-
 The following article demonstrates how to use and subscribe to the __OnClientNodeClicked__ client-side event of the __RadNavigation__ control.
 
 ## 
@@ -32,20 +30,20 @@ The client-side __OnClientNodeClicked__ event of the __RadNavigation__ is raised
 __Example 1__: Handle the __RadNavigation__'s client-side __OnClientNodeClicked__ event.
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function OnClientNodeClicked(sender, eventArgs) {
-	                    var clickedNodeText = eventArgs.get_node().get_text();
-	                    alert("You have just clicked on node with text " + clickedNodeText);
-	                }
-	            </script>
-	
-	            <telerik:radnavigation runat="server" id="RadNavigation1" onclientnodeclicked="OnClientNodeClicked">
-	                <Nodes>
-	                    <telerik:NavigationNode Text="Node1"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
-	                </Nodes>
-	            </telerik:radnavigation>
+<script type="text/javascript">
+	function OnClientNodeClicked(sender, eventArgs) {
+		var clickedNodeText = eventArgs.get_node().get_text();
+		alert("You have just clicked on node with text " + clickedNodeText);
+	}
+</script>
+
+<telerik:radnavigation runat="server" id="RadNavigation1" onclientnodeclicked="OnClientNodeClicked">
+	<Nodes>
+		<telerik:NavigationNode Text="Node1"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
+	</Nodes>
+</telerik:radnavigation>
 ````
 
 

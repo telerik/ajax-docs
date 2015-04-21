@@ -10,8 +10,6 @@ position: 3
 
 # Adaptive Behavior
 
-
-
 The following article described the adaptive behavior of the __RadNavigation__ control
 
 ## 

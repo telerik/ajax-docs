@@ -10,8 +10,6 @@ position: 0
 
 # Navigation Overview
 
-
-
 ## 
 
 Telerik __RadNavigation__ for ASP.NET AJAX is a simple yet customizable navigation widget, which can be widely used in ASP.NET applications. The control has a built-in light-weight rendering and adaptive behavior.

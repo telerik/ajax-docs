@@ -10,8 +10,6 @@ position: 1
 
 # NodeDataBound
 
-
-
 ## 
 
 The __NodeDataBound__ event occurs for each new node that is added to the __Nodes__ collection of the Navigation when it is bound.This event only occurs if the nodes are loaded from a data source (the __DataSource__ or __DataSourceID__ property is set).
@@ -31,28 +29,24 @@ The __NodeDataBound__ event handler receives two arguments:
 Use the __NodeDataBound__ event handler to make changes to items as they are bound to the data.For example, you can set custom attributes based on other fields in the DataItem:
 
 ````ASPNET
-	            <telerik:RadNavigation runat="server" ID="RadNavigation1" OnNodeDataBound="RadNavigation1_NodeDataBound" />
+<telerik:RadNavigation runat="server" ID="RadNavigation1" OnNodeDataBound="RadNavigation1_NodeDataBound" />
 ````
-
-
-
-
 
 ````C#
-	    protected void RadNavigation1_NodeDataBound(object sender, NavigationNodeEventArguments e)
-	    {
-	        if (e.Node.Text == "Home")
-	        {
-	            e.Node.Selected = true;
-	        }
-	    }
+protected void RadNavigation1_NodeDataBound(object sender, NavigationNodeEventArguments e)
+{
+	if (e.Node.Text == "Home")
+	{
+		e.Node.Selected = true;
+	}
+}
 ````
 ````VB.NET
-	    Protected Sub RadNavigation1_NodeDataBound(sender As Object, e As NavigationNodeEventArguments)
-	        If e.Node.Text = "Home" Then
-	            e.Node.Selected = True
-	        End If
-	    End Sub
+Protected Sub RadNavigation1_NodeDataBound(sender As Object, e As NavigationNodeEventArguments)
+	If e.Node.Text = "Home" Then
+		e.Node.Selected = True
+	End If
+End Sub
 ````
 
 

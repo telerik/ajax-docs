@@ -10,8 +10,6 @@ position: 5
 
 # OnClientNodeCollapsed
 
-
-
 The following article demonstrates how to use and subscribe to the __OnClientNodeCollapsed__ client-side event of the __RadNavigation__ control.
 
 ## 
@@ -20,7 +18,7 @@ The client-side __OnClientNodeCollapsed__ event of the __RadNavigation__ is rais
 
 * sender — the RadNavigation object that fired the event.
 
-* Event arguments—an event arguments object that exposes the following methods:
+* Event arguments — an event arguments object that exposes the following methods:
 
 
 >caption ButtonClicking Event Arguments Object
@@ -32,27 +30,27 @@ The client-side __OnClientNodeCollapsed__ event of the __RadNavigation__ is rais
 __Example 1__: Handle the __RadNavigation__'s client-side __OnClientNodeCollapsed__ event.
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function OnClientNodeCollapsed(sender, eventArgs) {
-	                    alert("the Node that has just been collapsed has text: " + eventArgs.get_node().get_text());
-	                }
-	            </script>
-	
-	            <telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeCollapsed="OnClientNodeCollapsed">
-	                <Nodes>
-	                    <telerik:NavigationNode Text="Node1">
-	                        <Nodes>
-	                            <telerik:NavigationNode Text="ChildNode1"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode2"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode3"></telerik:NavigationNode>
-	                            <telerik:NavigationNode Text="ChildNode4"></telerik:NavigationNode>
-	
-	                        </Nodes>
-	                    </telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
-	                </Nodes>
-	            </telerik:RadNavigation>
+<script type="text/javascript">
+	function OnClientNodeCollapsed(sender, eventArgs) {
+		alert("the Node that has just been collapsed has text: " + eventArgs.get_node().get_text());
+	}
+</script>
+
+<telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeCollapsed="OnClientNodeCollapsed">
+	<Nodes>
+		<telerik:NavigationNode Text="Node1">
+			<Nodes>
+				<telerik:NavigationNode Text="ChildNode1"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode2"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode3"></telerik:NavigationNode>
+				<telerik:NavigationNode Text="ChildNode4"></telerik:NavigationNode>
+
+			</Nodes>
+		</telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
+	</Nodes>
+</telerik:RadNavigation>
 ````
 
 

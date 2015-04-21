@@ -10,8 +10,6 @@ position: 2
 
 # OnClientNodeClicking
 
-
-
 The following article demonstrates how to use and subscribe to the __OnClientNodeClicking__ client-side event of the __RadNavigation__ control.
 
 ## 
@@ -22,7 +20,7 @@ The client-side __OnClientNodeClicking__ event handler receives two arguments:
 
 * sender — the RadNavigation object that fired the event.
 
-* Event arguments—an event arguments object that exposes the following methods:
+* Event arguments — an event arguments object that exposes the following methods:
 
 
 >caption ButtonClicking Event Arguments Object
@@ -36,22 +34,22 @@ The client-side __OnClientNodeClicking__ event handler receives two arguments:
 __Example 1__: Handle the __RadNavigation__'s client-side __OnClientNodeClicked__ event.
 
 ````JavaScript
-	            <script type="text/javascript">
-	                function OnClientNodeClicking(sender, eventArgs) {
-	                    var clickedNodeText = eventArgs.get_node().get_text();
-	                    if (clickedNodeText == "Node2") {
-	                        eventArgs.set_cancel(true);
-	                    }
-	                }
-	            </script>
-	
-	            <telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeClicking="OnClientNodeClicking">
-	                <Nodes>
-	                    <telerik:NavigationNode Text="Node1"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
-	                    <telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
-	                </Nodes>
-	            </telerik:RadNavigation>
+<script type="text/javascript">
+	function OnClientNodeClicking(sender, eventArgs) {
+		var clickedNodeText = eventArgs.get_node().get_text();
+		if (clickedNodeText == "Node2") {
+			eventArgs.set_cancel(true);
+		}
+	}
+</script>
+
+<telerik:RadNavigation runat="server" ID="RadNavigation1" OnClientNodeClicking="OnClientNodeClicking">
+	<Nodes>
+		<telerik:NavigationNode Text="Node1"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node2"></telerik:NavigationNode>
+		<telerik:NavigationNode Text="Node3"></telerik:NavigationNode>
+	</Nodes>
+</telerik:RadNavigation>
 ````
 
 
