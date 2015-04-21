@@ -20,7 +20,7 @@ In very rare cases the fileinputs and Select/Browse button do not show up at all
 
 Unfortunately we could not reproduce the issue locally but we could manage to come up with several workaround with the greatly appreciated help of our customers.
 
-1. The first and the easiest one you could try is to set the __EnableFileInputSkinning__ property of the RadAsyncUpload to *false*:![Property](images/asyncupload_property.png)
+1. The first and the easiest one you could try is to set the **EnableFileInputSkinning** property of the RadAsyncUpload to *false*:![Property](images/asyncupload_property.png)
 
 1. The second one is simply to add the following css styles to the page that contains the RadAsyncUpload control:![css](images/asyncupload_css.png)
 

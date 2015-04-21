@@ -12,7 +12,7 @@ position: 10
 
 ## 
 
-The __OnClientItemChecking__ client-side event occurs when the user selects a checkbox using mouse or keyboard. The checked state returned by the item's __get_checked()__ function has not changed to reflect the new value. The event can be cancelled.
+The **OnClientItemChecking** client-side event occurs when the user selects a checkbox using mouse or keyboard. The checked state returned by the item's **get_checked()** function has not changed to reflect the new value. The event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the checked item
+* **get_item()** - returns the checked item
 
-* __set_cancel()__ - lets you cancel the event and prevent changing the checked state of the item.
+* **set_cancel()** - lets you cancel the event and prevent changing the checked state of the item.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 
 The example below shows how to check an item after the user clicks OK in the confirmation dialog:

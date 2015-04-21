@@ -12,11 +12,11 @@ position: 0
 
 
 
-In the documentation article below are listed the client-side events of the __RadNavigation__
+In the documentation article below are listed the client-side events of the **RadNavigation**
 
 ## 
 
-__RadNavigation__ supports a number of client-side events that let you customize its behavior:
+**RadNavigation** supports a number of client-side events that let you customize its behavior:
 
 * [OnClientLoad]({%slug navigation/client-side-programming/events/onclientload%}) occurs after the RadNavigation has been fully initialized on the client-side.
 

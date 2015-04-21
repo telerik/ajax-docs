@@ -14,7 +14,7 @@ RadListBox provides a client-side API for adding, deleting and updating items.
 
 ## Adding Items
 
-To add an item, use the __RadListBoxItemCollection.add__ method. If you want the change to the listbox items to persist after a postback, you must wrap the call to the __add__ method between a call to the __radListBox.trackChanges()__ method and a call to the __radListBox.commitChanges()__ method:
+To add an item, use the **RadListBoxItemCollection.add** method. If you want the change to the listbox items to persist after a postback, you must wrap the call to the **add** method between a call to the **radListBox.trackChanges()** method and a call to the **radListBox.commitChanges()** method:
 
 ````JavaScript	     
 <input type="button" value="Add" onclick="AddNewItem()" />
@@ -33,7 +33,7 @@ To add an item, use the __RadListBoxItemCollection.add__ method. If you want the
 
 ## Removing items
 
-Use the __remove__ method of the __RadListBoxItemCollection__ object to remove items:
+Use the **remove** method of the **RadListBoxItemCollection** object to remove items:
 
 ````JavaScript	
 <input type="button" value="Remove" onclick="RemoveItem()" />
@@ -50,7 +50,7 @@ Use the __remove__ method of the __RadListBoxItemCollection__ object to remove i
 
 ## Enabling and Disabling items
 
-Use the __disable()__ and __enable()__ methods of the __RadListBoxItem__ object to disable or enable items:
+Use the **disable()** and **enable()** methods of the **RadListBoxItem** object to disable or enable items:
 
 ````JavaScript	    
 <input type="button" value="Disable on the client" onclick="DisableItem()" />
@@ -67,7 +67,7 @@ Use the __disable()__ and __enable()__ methods of the __RadListBoxItem__ object 
 
 ## Checking and Unchecking items
 
-Use the __check()__ and __uncheck()__ methods of the __RadListBoxItem__ object:
+Use the **check()** and **uncheck()** methods of the **RadListBoxItem** object:
 
 ````JavaScript
 <input type="button" value="Check on the client" onclick="CheckItem()" />

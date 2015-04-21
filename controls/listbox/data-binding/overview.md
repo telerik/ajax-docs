@@ -12,7 +12,7 @@ position: 0
 
 
 
-__RadListBox__ fully supports binding to various types of data sources:
+**RadListBox** fully supports binding to various types of data sources:
 
 * [OData]({%slug listbox/data-binding/binding-to-odata%})
 
@@ -22,7 +22,7 @@ __RadListBox__ fully supports binding to various types of data sources:
 
 * [Array, ArrayList]({%slug listbox/data-binding/binding-to-array-or-arraylist%})
 
->note Data sources can support both hierarchical and non-hierarchical structures. However, __RadListBox__ only works with a flat structure. Items cannot contain children.
+>note Data sources can support both hierarchical and non-hierarchical structures. However, **RadListBox** only works with a flat structure. Items cannot contain children.
 >
 
 
@@ -30,29 +30,29 @@ __RadListBox__ fully supports binding to various types of data sources:
 
 The following properties and methods are used when binding the ListBox to a data source:
 
-* __DataSource__ property - Set to an instance of your data source. This is mandatory when binding the ListBox at runtime.
+* **DataSource** property - Set to an instance of your data source. This is mandatory when binding the ListBox at runtime.
 
-* __DataSourceID__ property - Set to the ID of your data source. This is mandatory when binding the ListBox declaratively.
+* **DataSourceID** property - Set to the ID of your data source. This is mandatory when binding the ListBox declaratively.
 
-* __DataMember__ property - If the data source is a __DataSet__ and __DataMember__ is set, then the ListBox is bound to the __DataTable__ with the respective name in the __DataSet__. If __DataMember__ is not set, the ListBox is bound to the first __DataTable__ in the __DataSet__.
+* **DataMember** property - If the data source is a **DataSet** and **DataMember** is set, then the ListBox is bound to the **DataTable** with the respective name in the **DataSet**. If **DataMember** is not set, the ListBox is bound to the first **DataTable** in the **DataSet**.
 
-* __DataTextField__ property - This is the field name from the data source to bind to the __Text__ property of the items.
+* **DataTextField** property - This is the field name from the data source to bind to the **Text** property of the items.
 
-* __DataValueField__ property - This is the field name from the data source to bind to the __Value__ property of the items.
+* **DataValueField** property - This is the field name from the data source to bind to the **Value** property of the items.
 
-* __DataKeyField__ property - This is the field name from the data source that is the primary key. It must be set when reordering, transferring or deleting are enabled and __AllowAutomaticUpdates="True"__.
+* **DataKeyField** property - This is the field name from the data source that is the primary key. It must be set when reordering, transferring or deleting are enabled and **AllowAutomaticUpdates="True"**.
 
-* __DataSortField__ property - This is the field name from the data source that determines sort order (e.g. the select query is sorted by this column). This property and the __DataKeyField__ properties must be set in order the RadListBox to perform reorders automatically (__AllowAutomaticUpdates="True")__.
+* **DataSortField** property - This is the field name from the data source that determines sort order (e.g. the select query is sorted by this column). This property and the **DataKeyField** properties must be set in order the RadListBox to perform reorders automatically (**AllowAutomaticUpdates="True")**.
 
-* __DataBind__ method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
+* **DataBind** method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
-If you need to map additional fields from the Data Source to properties of the ListBox item, you can use the __ItemDataBound__ event. See [inding To ASP DataSource Components]({%slug listbox/data-binding/overview%}) for an example.
+If you need to map additional fields from the Data Source to properties of the ListBox item, you can use the **ItemDataBound** event. See [inding To ASP DataSource Components]({%slug listbox/data-binding/overview%}) for an example.
 
 ## Appending Data Bound Items
 
-__RadListBox__ exposes the __AppendDataBoundItems__ property __(False__ by default). If you bind the ListBox using the __DataBind__ method, all ListBox items are automatically cleared.
+**RadListBox** exposes the **AppendDataBoundItems** property **(False** by default). If you bind the ListBox using the **DataBind** method, all ListBox items are automatically cleared.
 
-Setting __AppendDataBoundItems__ to __True__ preserves the items that are already present in the ListBox. This lets you bind __RadListBox__ to multiple data sources or use both unbound and bound modes.
+Setting **AppendDataBoundItems** to **True** preserves the items that are already present in the ListBox. This lets you bind **RadListBox** to multiple data sources or use both unbound and bound modes.
 
 # See Also
 

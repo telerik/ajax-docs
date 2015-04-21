@@ -12,7 +12,7 @@ position: 1
 
 ## 
 
-The __Dropping__ server event fires just before a RadListBoxItem is dropped over an __HTML element__ which has __id__ attribute set. The event can be cancelled. It is __not fired__ when you drop an item over another RadListBox/RadListBoxItem.
+The **Dropping** server event fires just before a RadListBoxItem is dropped over an **HTML element** which has **id** attribute set. The event can be cancelled. It is **not fired** when you drop an item over another RadListBox/RadListBoxItem.
 
 The event handler receives two parameters:
 
@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __HtmlElementID__ - the ID of the target element which the item is dropped over.
+* **HtmlElementID** - the ID of the target element which the item is dropped over.
 
-* __Cancel__ - set it to True to cancel the event and prevent the dropping
+* **Cancel** - set it to True to cancel the event and prevent the dropping
 
-* __SourceDragItems__ - a collection of RadListBoxItems which are about to be dropped
+* **SourceDragItems** - a collection of RadListBoxItems which are about to be dropped
 
 ````C#
 protected void RadListBox_Dropping(object sender, RadListBoxDroppedEventArgs e)

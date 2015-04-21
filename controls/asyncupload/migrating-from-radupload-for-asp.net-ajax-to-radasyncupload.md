@@ -10,13 +10,13 @@ position: 3
 
 # Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
 
-Since we deprecated the __RadUpload__ control in June 2013 (Q2 2013), we highly recommendusing the __RadAsyncUpload__ control instead. This article describes the steps that you needto take in order to migrate from RadUpload control to RadAsyncUpload.
+Since we deprecated the **RadUpload** control in June 2013 (Q2 2013), we highly recommendusing the **RadAsyncUpload** control instead. This article describes the steps that you needto take in order to migrate from RadUpload control to RadAsyncUpload.
 
 ## Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
 
-To migrate a web application from __RadUpload for ASP.NET AJAX__ to the new __RadAsyncUpload__, you need to follow these steps:
+To migrate a web application from **RadUpload for ASP.NET AJAX** to the new **RadAsyncUpload**, you need to follow these steps:
 
-1. Make sure that you have registered the handler's URL in the web.config. This is done by using the Smart Tag of the __RadAsyncUpload__.
+1. Make sure that you have registered the handler's URL in the web.config. This is done by using the Smart Tag of the **RadAsyncUpload**.
 
 1. Replace the old declaration:
 ````ASPNET
@@ -29,11 +29,11 @@ with the new one:
 
 1. You can leave all old properties intact.
 
-1. [*Optional*] Set the __TemporaryFolder__ property. In most cases it can be any folder. There are two exceptions:
+1. [*Optional*] Set the **TemporaryFolder** property. In most cases it can be any folder. There are two exceptions:
 
 * In medium trust this must be a folder that is inside your application folder
 
-* In a web farm environment, the __TemporaryFolder__ as well as the __TargetFolder__ properties must be set to folders located on a shared drive.
+* In a web farm environment, the **TemporaryFolder** as well as the **TargetFolder** properties must be set to folders located on a shared drive.
 
 ## See Also
 

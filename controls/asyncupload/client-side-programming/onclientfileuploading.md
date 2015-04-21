@@ -12,19 +12,19 @@ position: 7
 
 ## 
 
-The __OnClientFileUploading__ client-side event occurs when a file has starteduploading.
+The **OnClientFileUploading** client-side event occurs when a file has starteduploading.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadAsyncUpload__ control firing the event.
+1. The instance of the **RadAsyncUpload** control firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_row__ returns the row containing the file input field for the file that was just selected (\<li\> element)
+* **get_row** returns the row containing the file input field for the file that was just selected (\<li\> element)
 
-* __get_fileName__ returns the name of the file selected
+* **get_fileName** returns the name of the file selected
 
-* __set_cancel__ cancel the upload process
+* **set_cancel** cancel the upload process
 
 ````ASPNET
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientFileUploading="OnClientFileUploading"></telerik:RadAsyncUpload>

@@ -10,11 +10,11 @@ position: 0
 
 # Web Service Binding
 
-This help article demonstrates how easy is to create a Web Service and bind __RadGantt__ to it using the __WebServiceController__ and one of the __RadGantt's__ providers
+This help article demonstrates how easy is to create a Web Service and bind **RadGantt** to it using the **WebServiceController** and one of the **RadGantt's** providers
 
 ## 
 
-The following example demonstrates the signature of the web service and how the __WebServiceController__ is used for handling all __WebMethods__. In this particular example, an __XmlGanttProvider__ is used for providing the data from an XML file:
+The following example demonstrates the signature of the web service and how the **WebServiceController** is used for handling all **WebMethods**. In this particular example, an **XmlGanttProvider** is used for providing the data from an XML file:
 
 ````C#
 /// <summary>
@@ -108,7 +108,7 @@ End Function
 	
 ````
 
-And bellow are the settings needed for binding __RadGantt__ to the above web service:
+And bellow are the settings needed for binding **RadGantt** to the above web service:
 
 ````ASPNET
 <telerik:RadGantt runat="server" ID="RadGantt1">

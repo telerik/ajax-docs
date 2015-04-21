@@ -10,11 +10,11 @@ position: 0
 
 # Gantt Overview
 
-__RadGantt__ for ASP.NET AJAX is a type of bar chart that is used in project management to illustrate a project schedule. It provides visual information about the work breakdown structure of the project.
+**RadGantt** for ASP.NET AJAX is a type of bar chart that is used in project management to illustrate a project schedule. It provides visual information about the work breakdown structure of the project.
 
 ## 
 
-__Telerik Gantt (Figure 1)__ visualizes the different components of the project on a flexible timetable, making it easier to see:
+**Telerik Gantt (Figure 1)** visualizes the different components of the project on a flexible timetable, making it easier to see:
 
 * The project start date and deadline.
 
@@ -28,7 +28,7 @@ __Telerik Gantt (Figure 1)__ visualizes the different components of the project 
 
 * Current date (and where it is relative to the project).
 
-__Figure 1__: Using RadGantt control you could easily manage any Task's configuration in a preferable View for serving out the data in a user-friendly manner.![gantt-overview](images/gantt-overview.png)
+**Figure 1**: Using RadGantt control you could easily manage any Task's configuration in a preferable View for serving out the data in a user-friendly manner.![gantt-overview](images/gantt-overview.png)
 
 ## Key Features
 

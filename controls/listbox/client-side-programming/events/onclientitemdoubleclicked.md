@@ -12,7 +12,7 @@ position: 9
 
 ## 
 
-The __OnClientItemDoubleClicked__ client-side event occurs after the user double clicks the item using the mouse.
+The **OnClientItemDoubleClicked** client-side event occurs after the user double clicks the item using the mouse.
 
 The event handler receives two parameters:
 
@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the double-clicked item
+* **get_item()** - returns the double-clicked item
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 # See Also
 

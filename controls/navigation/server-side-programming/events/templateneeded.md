@@ -16,9 +16,9 @@ Occurs before template is being applied to the navigation node.
 
 The NodeDataBound event handler receives two arguments:
 
-1. The Navigation that is loading the nodes. This argument is of type object, but can be cast to the __RadNavigation__ type.
+1. The Navigation that is loading the nodes. This argument is of type object, but can be cast to the **RadNavigation** type.
 
-1. An __EventArgs__ object. This object has an Node property, which provides access to the node that expects receive a template. This node, in turn, has a NodeTemplate property, which has to be set.
+1. An **EventArgs** object. This object has an Node property, which provides access to the node that expects receive a template. This node, in turn, has a NodeTemplate property, which has to be set.
 
 ````ASPNET
 <telerik:RadNavigation runat="server" ID="RadNavigation2" DataFieldID="id"  DataKeyNames="Text" DataFieldParentID="parentID" 

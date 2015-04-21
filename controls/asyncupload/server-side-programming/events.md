@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The __RadAsyncUpload__ control exposes the following server-side event
+The **RadAsyncUpload** control exposes the following server-side event
 
-* [FileUploaded]({%slug asyncupload/server-side-programming/onfileuploaded%}) occurs when the __RadAsyncUpload__ is about to process an uploaded file. If there were multiple files uploaded, the __FileUploaded__ event is going to fire for each and every file
+* [FileUploaded]({%slug asyncupload/server-side-programming/onfileuploaded%}) occurs when the **RadAsyncUpload** is about to process an uploaded file. If there were multiple files uploaded, the **FileUploaded** event is going to fire for each and every file
 
 ## See Also
 

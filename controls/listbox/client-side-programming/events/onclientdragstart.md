@@ -12,7 +12,7 @@ position: 4
 
 ## 
 
-The __OnClientDragStart__ client-side event occurs each time the user begins to drag an item. This event can be cancelled.
+The **OnClientDragStart** client-side event occurs each time the user begins to drag an item. This event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,15 +20,15 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_sourceItem()__ - returns the first selected item that is dragged
+* **get_sourceItem()** - returns the first selected item that is dragged
 
-* __get_sourceItems()__ -returns an array of the selected items that are dragged
+* **get_sourceItems()** -returns an array of the selected items that are dragged
 
-* __set_cancel()__ - lets you cancel the event and prevent the dragging.
+* **set_cancel()** - lets you cancel the event and prevent the dragging.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
-* __get_htmlElement()__ - returns the DOM html element which the item is dropped onto.
+* **get_htmlElement()** - returns the DOM html element which the item is dropped onto.
 
 The following example shows how to cancel the event if the number of the selected/dragged items is greater than 3:
 

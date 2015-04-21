@@ -12,7 +12,7 @@ position: 0
 
 ## 
 
-__RadNavigation__ supports binding to various types of data sources:
+**RadNavigation** supports binding to various types of data sources:
 
 * DataSet, DataTable, DataView
 
@@ -26,19 +26,19 @@ __RadNavigation__ supports binding to various types of data sources:
 
 * Any object that implements the IEnumerable interface.
 
-To bind the Navigation to a data source, specify the data source as the value of the __DataSource__ property and call the __DataBind__ method.If you are using declarative data sources such as AccessDataSource or SiteMapDataSource, use the __DataSourceID__ property instead of the __DataSource__ property.
+To bind the Navigation to a data source, specify the data source as the value of the **DataSource** property and call the **DataBind** method.If you are using declarative data sources such as AccessDataSource or SiteMapDataSource, use the **DataSourceID** property instead of the **DataSource** property.
 
 Usually, you also want to do one or more of the following:
 
-1. Set __Text__, __Value__ or __NavigateUrl__ properties using:
+1. Set **Text**, **Value** or **NavigateUrl** properties using:
 
-1. __DataTextField__ - specifies the field of the data source that provides the __Text__ of the navigation nodes.If this field does not contain string values, you can use the __DataTextFormatString__ property to ensure that field values are formatted the way you want.
+1. **DataTextField** - specifies the field of the data source that provides the **Text** of the navigation nodes.If this field does not contain string values, you can use the **DataTextFormatString** property to ensure that field values are formatted the way you want.
 
-1. __DataNavigateUrlField__ - Specifies the field of the data source that provides the __NavigateUrl__ of the navigation nodes.
+1. **DataNavigateUrlField** - Specifies the field of the data source that provides the **NavigateUrl** of the navigation nodes.
 
-1. If the data source is not hierarchical, you can establish the hierarchy through an __ID__ to __DataFieldParentID__ relationship using:
+1. If the data source is not hierarchical, you can establish the hierarchy through an **ID** to **DataFieldParentID** relationship using:
 
-1. __DataFieldParentID__ - The name of the field in the data source that identifies the key field value of the parent node.The value of this field for root nodes should be __null__(table- or object-based data source) or the __default value__ of thecorresponding value type used (object-based data source).
+1. **DataFieldParentID** - The name of the field in the data source that identifies the key field value of the parent node.The value of this field for root nodes should be **null**(table- or object-based data source) or the **default value** of thecorresponding value type used (object-based data source).
 
 
 ````C#

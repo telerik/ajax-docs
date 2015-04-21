@@ -12,7 +12,7 @@ position: 11
 
 ## 
 
-The __OnClientItemChecked__ client-side event occurs after the item has been checked.
+The **OnClientItemChecked** client-side event occurs after the item has been checked.
 
 The event handler receives two parameters:
 
@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the checked item
+* **get_item()** - returns the checked item
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 
 The following example shows how to select/unselect the item upon checking/unchecking:

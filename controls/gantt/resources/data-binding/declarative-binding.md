@@ -10,21 +10,21 @@ position: 1
 
 # Declarative Binding
 
-The following article demonstrates how to implement __Resources Data Binding__ within __SqlDataSource__ scenario.
+The following article demonstrates how to implement **Resources Data Binding** within **SqlDataSource** scenario.
 
 ## 
 
-In order to implement Resources Data Binding, you would need to have two additional underlying data tables then the standard __SQLDataSource__ scenario. The one should be where the __Resources__ are stored and the other additional table is where the __Assignments__ (links between tasks and resources) are stored. For more information, navigate to the [DataBase Structure documentation]({%slug gantt/resoruces/data-binding/database-structure%}) article. In addition to the __Resources__ feature, we have implemented a new column for visualization of the assigned resources in the __Treelist view - GanttResourceColumn__. This column should be defined in the __Columns__ section of the __RadGantt__.
+In order to implement Resources Data Binding, you would need to have two additional underlying data tables then the standard **SQLDataSource** scenario. The one should be where the **Resources** are stored and the other additional table is where the **Assignments** (links between tasks and resources) are stored. For more information, navigate to the [DataBase Structure documentation]({%slug gantt/resoruces/data-binding/database-structure%}) article. In addition to the **Resources** feature, we have implemented a new column for visualization of the assigned resources in the **Treelist view - GanttResourceColumn**. This column should be defined in the **Columns** section of the **RadGantt**.
 
 The below listed steps demonstrate how to implement Resources Data Binding within SqlDataSource scenario:
 
-1. Place a __RadGantt__ control on the page.
+1. Place a **RadGantt** control on the page.
 
-1. Add four __SqlDataSource__ controls to the page and set their __SelectCommands__ appropriately. Those SqlDataSources should acquire the data set for the tasks, their dependencies, the resources and the assignments, which should link the tasks with the resources.
+1. Add four **SqlDataSource** controls to the page and set their **SelectCommands** appropriately. Those SqlDataSources should acquire the data set for the tasks, their dependencies, the resources and the assignments, which should link the tasks with the resources.
 
-1. Assign the __DataSourceID, DependenciesDataSourceID, ResourcesDataSourceID__ and __AssignmentsDataSourceID__ properties to the respective data source controls.
+1. Assign the **DataSourceID, DependenciesDataSourceID, ResourcesDataSourceID** and **AssignmentsDataSourceID** properties to the respective data source controls.
 
-1. Configure the properties available under the __TaskDataBindings, DependenciesDataBindings, ResourcesDataBindings__ and __AssignmentsDataBindings__ sectionsto match the fields in the database tables.
+1. Configure the properties available under the **TaskDataBindings, DependenciesDataBindings, ResourcesDataBindings** and **AssignmentsDataBindings** sectionsto match the fields in the database tables.
 
 After performing the above steps you should get a configuration similar to the demonstrated below.
 

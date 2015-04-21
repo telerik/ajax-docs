@@ -12,7 +12,7 @@ position: 0
 
 ## 
 
-__RadListBox__ supports a number of client-side events that let you customize the behavior of the listbox:
+**RadListBox** supports a number of client-side events that let you customize the behavior of the listbox:
 
 * [OnClientLoad]({%slug listbox/client-side-programming/events/onclientload%}) client-side event occurs after RadListBox has been fully initialized on the client-side.
 

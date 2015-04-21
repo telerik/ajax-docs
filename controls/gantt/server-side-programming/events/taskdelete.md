@@ -10,13 +10,13 @@ position: 5
 
 # TaskDelete
 
-The __RadGantt TaskDelete__ is fired when a task's collection is about to be deleted from the database through the provider.
+The **RadGantt TaskDelete** is fired when a task's collection is about to be deleted from the database through the provider.
 
-__TaskDelete__ event handler receives two parameters:
+**TaskDelete** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __GanttEventArgs__. It gives you access to the deleted __RadGantt__ tasks collection.
+* **e** is an object of type **GanttEventArgs**. It gives you access to the deleted **RadGantt** tasks collection.
 
 ## Example
 

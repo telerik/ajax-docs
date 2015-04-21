@@ -12,13 +12,13 @@ position: 2
 
 ## 
 
-The __RadListBoxItemCollection__ object is returned by the __get_items__ method of the __RadListBox__ client object. The following table lists the most important methods:
+The **RadListBoxItemCollection** object is returned by the **get_items** method of the **RadListBox** client object. The following table lists the most important methods:
 
 >caption   
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadListBoxItem|none|Adds an item to the Items collection|
+| **add** |RadListBoxItem|none|Adds an item to the Items collection|
 
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>"); 
@@ -33,7 +33,7 @@ list.commitChanges();
 
 >caption  
 
-|  __insert__  | int, RadListBoxItem | none | Inserts an item into the Items collection at the position specified by the first (index) parameter |
+|  **insert**  | int, RadListBoxItem | none | Inserts an item into the Items collection at the position specified by the first (index) parameter |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -49,7 +49,7 @@ list.commitChanges();
 
 >caption  
 
-|  __remove__  | RadListBoxItem | none | Removes an item from the Items collection |
+|  **remove**  | RadListBoxItem | none | Removes an item from the Items collection |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -63,7 +63,7 @@ list.commitChanges();
 
 >caption  
 
-|  __clear__  | none | none | Clears the Items collection of RadListBox |
+|  **clear**  | none | none | Clears the Items collection of RadListBox |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -74,7 +74,7 @@ items.clear();
 
 >caption  
 
-|  __getItem__  | index | RadListBoxItem | Gets the item from the Items collection residing at the index specified by the parameter. |
+|  **getItem**  | index | RadListBoxItem | Gets the item from the Items collection residing at the index specified by the parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -85,7 +85,7 @@ var firstItem = items.getItem(0);
 
 >caption  
 
-|  __indexOf__  | RadListBoxItem | int | Gets the index of an item. |
+|  **indexOf**  | RadListBoxItem | int | Gets the index of an item. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -96,7 +96,7 @@ var index = items.indexOf(list.get_selectedItem());
 
 >caption  
 
-|  __removeAt__  | int | none | Removes the item at the specified index. |
+|  **removeAt**  | int | none | Removes the item at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -108,7 +108,7 @@ items.removeAt(index);
 
 >caption  
 
-|  __get_count__  | none | int | Returns the number of items in the Items collection. |
+|  **get_count**  | none | int | Returns the number of items in the Items collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	
@@ -121,7 +121,7 @@ for (var i = 0; i < items.get_count(); i++) {
 
 >caption  
 
-|  __forEach__  | handler | none | Iterates through the Items collection |
+|  **forEach**  | handler | none | Iterates through the Items collection |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript	

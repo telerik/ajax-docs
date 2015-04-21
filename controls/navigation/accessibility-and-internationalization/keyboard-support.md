@@ -12,11 +12,11 @@ position: 1
 
 
 
-The following article demonstrates the __Keyboard support__ feature of the __RadNavigation__ control
+The following article demonstrates the **Keyboard support** feature of the **RadNavigation** control
 
 ## 
 
-In order to enable the keyboard support of the __RadNavigation__ control, you should set the __TabIndex__ property to __1__. Below you can find listed the key combination that you can use to navigate through the control:
+In order to enable the keyboard support of the **RadNavigation** control, you should set the **TabIndex** property to **1**. Below you can find listed the key combination that you can use to navigate through the control:
 
 * Use the "Tab" to focus the RadNabigation and the first node in particular: ![navigation-keyboardsupport 1](images/navigation-keyboardsupport1.png)
 

@@ -11,13 +11,13 @@ position: 7
 # DependencyDelete
 
 
-The __RadGantt DependencyDelete__ is fired when a [dependency]({%slug gantt/structure/layout%}) collection is about to be deleted from the database through the provider.
+The **RadGantt DependencyDelete** is fired when a [dependency]({%slug gantt/structure/layout%}) collection is about to be deleted from the database through the provider.
 
-__DependencyDelete__ event handler receives two parameters:
+**DependencyDelete** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __DependencyEventArgs__. It gives you access to the deleted __Dependencies__ collection.
+* **e** is an object of type **DependencyEventArgs**. It gives you access to the deleted **Dependencies** collection.
 
 ## Example
 

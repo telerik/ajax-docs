@@ -12,7 +12,7 @@ position: 17
 
 ## 
 
-The __OnClientReordering__ client-side event occurs when the item or items are about to be reordered. This event can be cancelled.
+The **OnClientReordering** client-side event occurs when the item or items are about to be reordered. This event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,15 +20,15 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_items()__ - returns an array of the items selected for reordering
+* **get_items()** - returns an array of the items selected for reordering
 
-* __get_item()__ - returns the item that is about to be reordered.
+* **get_item()** - returns the item that is about to be reordered.
 
-* __get_offset()__ - returns __-1__ if you are moving the item __up__ and __1__ if you are moving the item __down__.
+* **get_offset()** - returns **-1** if you are moving the item **up** and **1** if you are moving the item **down**.
 
-* __set_cancel()__ - lets you cancel the event and prevent items from being moved.
+* **set_cancel()** - lets you cancel the event and prevent items from being moved.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 The example below shows how to ask the user before moving the item:
 

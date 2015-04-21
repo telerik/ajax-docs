@@ -12,19 +12,19 @@ position: 2
 
 ## 
 
-The __OnClientMoving__ occurs when the Task is just about to be moved.
+The **OnClientMoving** occurs when the Task is just about to be moved.
 
 The event handler receives two parameters:
 
 1. The instance of the Gantt control firing the event.
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __get_task__ return the current moved task.
+* **get_task** return the current moved task.
 
-* __get_start__ return the start time of the current task.
+* **get_start** return the start time of the current task.
 
-* __set_cancel__ lets you cancel the event and stop the task moving.
+* **set_cancel** lets you cancel the event and stop the task moving.
 
 ````JavaScript
 <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoving="OnClientTaskMoving">

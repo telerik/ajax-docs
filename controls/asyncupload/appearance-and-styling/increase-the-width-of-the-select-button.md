@@ -10,11 +10,11 @@ position: 2
 
 # Increase the Width of the Select Button
 
-This help article describes how you can alter the width of the __Select__ button of the __RadAsyncUpload__ control.
+This help article describes how you can alter the width of the **Select** button of the **RadAsyncUpload** control.
 
 ## 
 
-The picture below represents a sprite image that is currently used as a background for the __Select__ button. To get the different colors of the button you will need get the correct CSS class selector that will allow you to move this sprite image to X and Y coordinates (e.g. background-position: 0 -46px).![Sprite image](images/asyncupload_sprite_image.png)
+The picture below represents a sprite image that is currently used as a background for the **Select** button. To get the different colors of the button you will need get the correct CSS class selector that will allow you to move this sprite image to X and Y coordinates (e.g. background-position: 0 -46px).![Sprite image](images/asyncupload_sprite_image.png)
 
 In general, you have two ways that you can use to alter the width of the button:
 

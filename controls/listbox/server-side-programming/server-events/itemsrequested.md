@@ -11,21 +11,21 @@ position: 16
 # ItemsRequested
 
 
-The following article demonstrates the usage of the __ItemsRequested__ event of the __RadListBox__
+The following article demonstrates the usage of the **ItemsRequested** event of the **RadListBox**
 
 ## 
 
-The __ItemsRequested__ event is triggered when the EnabledLoadOnDemand property is True or when the scroll bar is used to request additional portion of items. The event will be also fired, if you explicitly call the __requestItems__ client-side method of the __RadListBox__.
+The **ItemsRequested** event is triggered when the EnabledLoadOnDemand property is True or when the scroll bar is used to request additional portion of items. The event will be also fired, if you explicitly call the **requestItems** client-side method of the **RadListBox**.
 
 ItemsRequested event handler receives two arguments:
 
-1. The __RadListBox__ that is loading the items. This argument is of type __object__, but can be cast to the __RadListBox__ type.
+1. The **RadListBox** that is loading the items. This argument is of type **object**, but can be cast to the **RadListBox** type.
 
-1. The __RadListBoxItemsRequestedEventArgs__ object, which has the following properties: 
+1. The **RadListBoxItemsRequestedEventArgs** object, which has the following properties: 
 
-* __StartIndex__ - should be passed from the __requestItems()__ client-side method to specify the current number of Items, loaded in the RadListBox. 
+* **StartIndex** - should be passed from the **requestItems()** client-side method to specify the current number of Items, loaded in the RadListBox. 
 
-* __Count__ - should be passed from the __requestItems()__ client-side method to specify the desired number of Items per request. 
+* **Count** - should be passed from the **requestItems()** client-side method to specify the desired number of Items per request. 
 
 ````ASPNET
 <telerik:radlistbox runat="server"

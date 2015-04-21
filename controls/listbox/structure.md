@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-The structure of the __RadListBox__ control is as follows:
+The structure of the **RadListBox** control is as follows:
 
 ![RadListBox structure](images/listbox_structure.png)
 
-RadListBox items can contain [checkboxes and/or images]({%slug listbox/functionality/adding-images-and-checkboxes-to-items%}). The navigation buttons are rendered depending on the boolean [AllowReorder]({%slug listbox/functionality/reorder%}), AllowDelete, [AllowTransfer]({%slug listbox/functionality/transfer%}) properties. You can easily can [change their position]({%slug listbox/functionality/button-settings%}) and/or [add custom text]({%slug listbox/accessibility-and-internationalization-/localization%}) to them. When RadListBox has no items - you can show a friendly message by using the __EmptyMessage__ property.
+RadListBox items can contain [checkboxes and/or images]({%slug listbox/functionality/adding-images-and-checkboxes-to-items%}). The navigation buttons are rendered depending on the boolean [AllowReorder]({%slug listbox/functionality/reorder%}), AllowDelete, [AllowTransfer]({%slug listbox/functionality/transfer%}) properties. You can easily can [change their position]({%slug listbox/functionality/button-settings%}) and/or [add custom text]({%slug listbox/accessibility-and-internationalization-/localization%}) to them. When RadListBox has no items - you can show a friendly message by using the **EmptyMessage** property.
 
 # See Also
 

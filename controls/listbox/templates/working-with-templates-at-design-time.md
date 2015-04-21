@@ -14,15 +14,15 @@ position: 1
 
 You can add a template using the [Template Design Surface]({%slug listbox/design-time/template-editor%}). This provides you with a surface where you can visually design the template, dragging and dropping controls from the toolbox.
 
-This example shows how to use the Template Design Surface to add __several controls__ to the ItemTemplate. These will be two labels and a hyperlink control achieving the following multi-column layout:
+This example shows how to use the Template Design Surface to add **several controls** to the ItemTemplate. These will be two labels and a hyperlink control achieving the following multi-column layout:
 
 ![Templates design time](images/listbox_templates_design_time.png)
 
-1. Drag a __RadListBox__ from the toolbox onto your Web page.
+1. Drag a **RadListBox** from the toolbox onto your Web page.
 
-2. From the Smart Tag that appears when you drop the __RadListBox__, choose __Edit Templates__.
+2. From the Smart Tag that appears when you drop the **RadListBox**, choose **Edit Templates**.
 
-3. The Template Design Surface appears, set for editing the __ItemTemplate__.
+3. The Template Design Surface appears, set for editing the **ItemTemplate**.
 
 4. Drag two labels and one hyper link controls from the toolbox onto the Template Design Surface:
 
@@ -40,7 +40,7 @@ This example shows how to use the Template Design Surface to add __several contr
 </ItemTemplate> 
 ````
 
-6. Use the Smart Tag anchor to display the Edit Templates pop-up, and choose __End Template Editing__ to close the Template Design Surface.
+6. Use the Smart Tag anchor to display the Edit Templates pop-up, and choose **End Template Editing** to close the Template Design Surface.
 
 7. From the [Smart Tag]({%slug listbox/design-time/smart-tag%}) add some items to RadListBox or [bind it to a datasource]({%slug listbox/data-binding/overview%}). At this point, the declaration for your RadListBox should look as follows:
 

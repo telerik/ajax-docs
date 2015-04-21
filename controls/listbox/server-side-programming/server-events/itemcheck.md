@@ -12,7 +12,7 @@ position: 9
 
 ## 
 
-The __ItemCheck__ event fires after a user checks or unchecks an item's checkbox. To fire automatically the __AutoPostBack__ property should be set to True.
+The **ItemCheck** event fires after a user checks or unchecks an item's checkbox. To fire automatically the **AutoPostBack** property should be set to True.
 
 The event handler receives two parameters:
 
@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following property:
 
-* __Item__ - the RadListBoxItem object that has just been checked/unchecked
+* **Item** - the RadListBoxItem object that has just been checked/unchecked
 
 ````C#
 protected void RadListBox1_ItemCheck(object sender, RadListBoxItemEventArgs e)

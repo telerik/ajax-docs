@@ -10,13 +10,13 @@ position: 6
 
 # DependencyInsert
 
-The __RadGantt DependencyInsert__ is fired when a [dependency]({%slug gantt/structure/layout%})'s collection is about to be inserted in the database.
+The **RadGantt DependencyInsert** is fired when a [dependency]({%slug gantt/structure/layout%})'s collection is about to be inserted in the database.
 
-__DependencyInsert__ event handler receives two parameters:
+**DependencyInsert** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __DependencyEventArgs__. It gives you access to the inserted __Dependencies__ collection.
+* **e** is an object of type **DependencyEventArgs**. It gives you access to the inserted **Dependencies** collection.
 
 ## Example
 

@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadNavigation__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadNavigation** style sheets.
 
 
-|  __Class Name__  |  __Element__  |  __Description__  |
+|  **Class Name**  |  **Element**  |  **Description**  |
 | ------ | ------ | ------ |
 |RadNavigation|DIV|Applied to the root element of navigation.|
-|RadNavigation_[Skin] e.g. RadNavigation_ __Outlook__ |DIV|Applied to the root element of navigation specifies the skin.|
+|RadNavigation_[Skin] e.g. RadNavigation_ **Outlook** |DIV|Applied to the root element of navigation specifies the skin.|
 |rnvDisabled|DIV|Applied to the root element of navigation when the control is disabled.|
 |rnvHidden|DIV|Applied to the root element of navigation when the control is hidden.|
 |rnvRootGroupWrapper|DIV|Applied to the wrapper of the first level item container (root node group).|

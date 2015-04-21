@@ -10,25 +10,25 @@ position: 4
 
 # Automatic Database Updates
 
-__RadListBox__ supports automatic database updates. This means that the control can call the respective __UpdateCommand__ or __DeleteCommand__ of the [DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}).
+**RadListBox** supports automatic database updates. This means that the control can call the respective **UpdateCommand** or **DeleteCommand** of the [DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}).
 
->note To allow automatic updates you need to set the __AllowAutomaticUpdates="True"__ and __AutoPostBackOn[Operation]="True"__ property of the listbox. The listbox must be bound to a[declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its __UpdateCommand__ and/or __DeleteCommand__ configured.
+>note To allow automatic updates you need to set the **AllowAutomaticUpdates="True"** and **AutoPostBackOn[Operation]="True"** property of the listbox. The listbox must be bound to a[declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its **UpdateCommand** and/or **DeleteCommand** configured.
 >
 
 
-The following paragraphs will show how to configure __RadListBox__ for automatic database operations.
+The following paragraphs will show how to configure **RadListBox** for automatic database operations.
 
 ## Automatic item deletion
 
 In order to delete the item from RadListBox and the DataSource you need to:
 
-* Set the __AllowDelete="True"__ (so the Delete button is visible)
+* Set the **AllowDelete="True"** (so the Delete button is visible)
 
-* Set the __AllowAutomaticUpdates="True"__ (so the DataSource is updated automatically)
+* Set the **AllowAutomaticUpdates="True"** (so the DataSource is updated automatically)
 
-* Set the __AutoPostBackOnDelete="True"__.
+* Set the **AutoPostBackOnDelete="True"**.
 
-* Make sure that the DataSource has a __DeleteCommand__ set.
+* Make sure that the DataSource has a **DeleteCommand** set.
 
 Here is a sample:
 
@@ -57,15 +57,15 @@ Here is a sample:
 
 In order to update the DataSource while reordering items you need to:
 
-* Set the __AllowReorder="True"__ (so the Up and Down arrows are visible)
+* Set the **AllowReorder="True"** (so the Up and Down arrows are visible)
 
-* Set the __AllowAutomaticUpdates="True"__ (so the DataSource is updated automatically)
+* Set the **AllowAutomaticUpdates="True"** (so the DataSource is updated automatically)
 
-* Set the __AutoPostBackOnReorder="True"__.
+* Set the **AutoPostBackOnReorder="True"**.
 
-* Make sure you have set the __DataSortField__ property to the name of the column which is used for sorting (ordering).
+* Make sure you have set the **DataSortField** property to the name of the column which is used for sorting (ordering).
 
-* Make sure that the DataSource has its __UpdateCommand__ set.
+* Make sure that the DataSource has its **UpdateCommand** set.
 
 Here is an example:
 
@@ -99,19 +99,19 @@ In order to move items from one RadListBox to another you need to:
 
 1. In the first RadListBox:
 
-* Set the __AllowAutomaticUpdates="True"__ (so the DataSource is updated automatically)
+* Set the **AllowAutomaticUpdates="True"** (so the DataSource is updated automatically)
 
-* Set the __AllowTransfer="True"__ and __TransferToID="RadListBox2"__ (Where "RadListBox2" is the ID of the second RadListBox)).
+* Set the **AllowTransfer="True"** and **TransferToID="RadListBox2"** (Where "RadListBox2" is the ID of the second RadListBox)).
 
-* Set the __AutoPostBackOnTransfer="True"__.
+* Set the **AutoPostBackOnTransfer="True"**.
 
-* Make sure you have set the __DataKeyField__ property to the primary key of the table, from which you are transfering.
+* Make sure you have set the **DataKeyField** property to the primary key of the table, from which you are transfering.
 
 * Depending on what you want to implement, you have to:
 
-* __Copy:__ Set __TransferMode="Copy"__ in the first RadListBox
+* **Copy:** Set **TransferMode="Copy"** in the first RadListBox
 
-* __Move:__ Set __TransferMode="Move"__ (default) in the first RadListBox and make sure that it's corresponding DataSource has its __DeleteCommand__ set.
+* **Move:** Set **TransferMode="Move"** (default) in the first RadListBox and make sure that it's corresponding DataSource has its **DeleteCommand** set.
 
 Here is an example:
 
@@ -137,11 +137,11 @@ Here is an example:
 </telerik:RadListBox> 
 ````
 
->note The names of the selected columns from the first __DataSource__ have to be the same as the names of the __InsertParameters__ of the second __DataSource__ 
+>note The names of the selected columns from the first **DataSource** have to be the same as the names of the **InsertParameters** of the second **DataSource** 
 >
 
 
->note If you want to use the field, bound to the __DataKeyField__ of the first RadListBox in the __InsertCommands__ of the second ListBox, select it twice in the __SelectCommand__ and give them different names. Then use the first one for the __DataKeyField__ of the first RadListBox, and the second one for the __InsertCommand__ of the second RadListBox.
+>note If you want to use the field, bound to the **DataKeyField** of the first RadListBox in the **InsertCommands** of the second ListBox, select it twice in the **SelectCommand** and give them different names. Then use the first one for the **DataKeyField** of the first RadListBox, and the second one for the **InsertCommand** of the second RadListBox.
 >Here is an example:
 >
 
@@ -170,9 +170,9 @@ Here is an example:
 
 2. In the second RadListBox:
 
-* Set the __AllowAutomaticUpdates="True"__ (so the DataSource is updated automatically)
+* Set the **AllowAutomaticUpdates="True"** (so the DataSource is updated automatically)
 
-* Make sure that the DataSource has its __InsertCommand__ set.
+* Make sure that the DataSource has its **InsertCommand** set.
 
 Here is an example:
 

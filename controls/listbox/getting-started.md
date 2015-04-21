@@ -32,19 +32,19 @@ This tutorial will show you how to:
 
 ![](images/listbox_item_builder.png)
 
-4. Click on the __Add RadListBox__ link. This will add another RadListBox on the page and will set the __TransferToID__ property of the first listbox to the ID of the second listbox. This is needed for the [transfer]({%slug listbox/functionality/transfer%}) and [drag and drop]({%slug listbox/functionality/drag-and-drop%}) operations.
+4. Click on the **Add RadListBox** link. This will add another RadListBox on the page and will set the **TransferToID** property of the first listbox to the ID of the second listbox. This is needed for the [transfer]({%slug listbox/functionality/transfer%}) and [drag and drop]({%slug listbox/functionality/drag-and-drop%}) operations.
 
-5. Set the __AllowReorder="True", AllowTransfer="True" and EnableDragAndDrop="True"__ properties of the first RadListBox. This will show the necessary transfer and reorder buttons between the two listboxes so you will be able to reorder the items (move up and move down) and transfer the items (from the left to the right control and vice versa). In addition you will be able to use the mouse to drag and drop an item between the two listboxes or inside the RadListBox.
+5. Set the **AllowReorder="True", AllowTransfer="True" and EnableDragAndDrop="True"** properties of the first RadListBox. This will show the necessary transfer and reorder buttons between the two listboxes so you will be able to reorder the items (move up and move down) and transfer the items (from the left to the right control and vice versa). In addition you will be able to use the mouse to drag and drop an item between the two listboxes or inside the RadListBox.
 
-6. Select your favorite skin from the __Skin__ dropdown to change the look and feel of the listbox.
+6. Select your favorite skin from the **Skin** dropdown to change the look and feel of the listbox.
 
-7. Set the __Height__ and __Width__ properties of the listboxes so they look the same.
+7. Set the **Height** and **Width** properties of the listboxes so they look the same.
 
 8. Run the project - now you can move the items up and down, left and right with the buttons. You can also drag and drop the items. In addition, you can move all items from right to left or vice versa with a single button click.
 
 ![Getting Started](images/listbox_getting_started.png)
 
-9. To get the destination items iterate the __Items__ collection of the second listbox using the foreach statement:
+9. To get the destination items iterate the **Items** collection of the second listbox using the foreach statement:
 
 
 ````C#

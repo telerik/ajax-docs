@@ -12,22 +12,22 @@ position: 1
 
 ## 
 
-This help article describes the differences between __RadAsyncUpload__ and __RadUpload__ controls.
+This help article describes the differences between **RadAsyncUpload** and **RadUpload** controls.
 
 >caption  
 
 | RadAsyncUpload | RadUpload for ASP.NET AJAX |
 | ------ | ------ |
 |Uploads the file(s) automatically and asynchronously to a temporary folder.The files will be copied to the TargetFolder on postback.|Uploads the files during postback.|
-|Can be updated with __UpdatePanel__ / __RadAjaxPanel__ / __RadAjaxManager__ |Cannot be updated with __UpdatePanel__ / __RadAjaxPanel__ / __RadAjaxManager__ . Files cannot be uploaded during AJAX updates.|
-|Requires registration of an HTTP handler - __Telerik.Web.UI.WebResource.axd__ The same handler is registered by __RadScriptManager__ / __RadStyleSheetManager__ |Does not require handler registration to upload files.|
-|Progress monitoring is done in real time when the Flash module is in use. Otherwise progress polling is used (through __RadProgressManager__ ).|Progress monitoring through __RadProgressManager__ only.|
-|Integrated visual clue of the current operations - uploading, upload successfully completed, upload failed.|Current operation can be monitored only through __RadProgressArea__ |
+|Can be updated with **UpdatePanel** / **RadAjaxPanel** / **RadAjaxManager** |Cannot be updated with **UpdatePanel** / **RadAjaxPanel** / **RadAjaxManager** . Files cannot be uploaded during AJAX updates.|
+|Requires registration of an HTTP handler - **Telerik.Web.UI.WebResource.axd** The same handler is registered by **RadScriptManager** / **RadStyleSheetManager** |Does not require handler registration to upload files.|
+|Progress monitoring is done in real time when the Flash module is in use. Otherwise progress polling is used (through **RadProgressManager** ).|Progress monitoring through **RadProgressManager** only.|
+|Integrated visual clue of the current operations - uploading, upload successfully completed, upload failed.|Current operation can be monitored only through **RadProgressArea** |
 |Client side events for upload completed and upload failed|No client events for upload completed or failed|
 |Extension and size validation are done on the client|You need a page postback to validate the file|
-|Requires anonymous access to the __Telerik.Web.UI.WebResource.axd__ handler|Can upload files with disabled anonymous access|
-| __SERVER SIDE:__ <br> :New Event: __FileUploaded__ <br> Removed Events: __Validating__ , __FileExists__ <br> New Properties: __TemporaryFolder__ , __TemporaryFileExpiration__ <br> Removed Properties: __InvalidFiles__ , __TargetPhysicalFolder__ , __ReadOnlyInputs__ ||
-| __CLIENT SIDE:__ <br> New Events: __OnClientFileUploading__ , __OnClientFileUploaded__ , __OnClientFileUploadFailed__ , __OnClientValidationFailed__ , __OnClientUploadProgress__ , __OnClientFileUploadRemoved__ , __OnClientFileUploadRemoving__ <br> Removed Event: __OnClientClearing__ , __OnClientDeleting__ ||
+|Requires anonymous access to the **Telerik.Web.UI.WebResource.axd** handler|Can upload files with disabled anonymous access|
+| **SERVER SIDE:** <br> :New Event: **FileUploaded** <br> Removed Events: **Validating** , **FileExists** <br> New Properties: **TemporaryFolder** , **TemporaryFileExpiration** <br> Removed Properties: **InvalidFiles** , **TargetPhysicalFolder** , **ReadOnlyInputs** ||
+| **CLIENT SIDE:** <br> New Events: **OnClientFileUploading** , **OnClientFileUploaded** , **OnClientFileUploadFailed** , **OnClientValidationFailed** , **OnClientUploadProgress** , **OnClientFileUploadRemoved** , **OnClientFileUploadRemoving** <br> Removed Event: **OnClientClearing** , **OnClientDeleting** ||
 
 # See Also
 

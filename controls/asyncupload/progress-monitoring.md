@@ -14,7 +14,7 @@ position: 12
 
 ## RadAsyncUpload Progress Monitoring
 
-__RadAsyncUpload__ allows for two distinct ways of progress monitoring. The first one, __inline progress__, is integrated in RadAsyncUpload and displays like a progress bar below the file being uploaded. You turn on/off inline progress monitoring using the __EnableInlineProgress__ property (true by default).
+**RadAsyncUpload** allows for two distinct ways of progress monitoring. The first one, **inline progress**, is integrated in RadAsyncUpload and displays like a progress bar below the file being uploaded. You turn on/off inline progress monitoring using the **EnableInlineProgress** property (true by default).
 
 ![Progress Monitoring](images/asyncupload_progressmonitoring.png)
 

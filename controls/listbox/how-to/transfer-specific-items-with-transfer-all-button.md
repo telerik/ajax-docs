@@ -12,7 +12,7 @@ position: 2
 
 ## 
 
-By default, the Transfer All button will transfer all the items from RadListBox to the related RadListBox. This article shows how to transfer specific items when the Transfer All button is clicked. We will cancel the [OnClientTransferring]({%slug listbox/client-side-programming/events/onclienttransferring%}) event and will use the __transferItem__ client method to transfer the items that we need.
+By default, the Transfer All button will transfer all the items from RadListBox to the related RadListBox. This article shows how to transfer specific items when the Transfer All button is clicked. We will cancel the [OnClientTransferring]({%slug listbox/client-side-programming/events/onclienttransferring%}) event and will use the **transferItem** client method to transfer the items that we need.
 
 1. RadListBox declaration:
 

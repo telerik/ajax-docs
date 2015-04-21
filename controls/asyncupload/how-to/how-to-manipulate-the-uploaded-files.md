@@ -10,28 +10,28 @@ position: 5
 
 # How to Manipulate the Uploaded Files
 
-If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields](D672F55D-06A8-4DDF-84CB-E16A1DED90FC)), or if you want to manipulate them in memory without saving them, you can use the __RadAsyncUpload__ server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
+If you need to perform additional actions on uploaded files before saving them (for example, if you are using [custom fields](D672F55D-06A8-4DDF-84CB-E16A1DED90FC)), or if you want to manipulate them in memory without saving them, you can use the **RadAsyncUpload** server-side API. It will allow you to rename uploaded files or save them into a database, or other storage media.
 
->caution If you set the __TargetFolder__ or __TargetPhysicalFolder__ property and then use the server-side API to manipulate the uploaded files, you may end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
+>caution If you set the **TargetFolder** or **TargetPhysicalFolder** property and then use the server-side API to manipulate the uploaded files, you may end up with two copies of the uploaded files. Be aware that any valid files will already be saved to the target folder.
 >
 
-__RadAsyncUpload__ provides collection to access uploaded files:
+**RadAsyncUpload** provides collection to access uploaded files:
 
-* __UploadedFiles__ contains all valid uploaded files.
+* **UploadedFiles** contains all valid uploaded files.
 
-__UploadedFiles__ property is of type __Telerik.Web.UI.UploadedFileCollection__. Each file in the collection is an instance of the __UploadedFile__ class. The following table lists the members of the __UploadedFile__ class:
+**UploadedFiles** property is of type **Telerik.Web.UI.UploadedFileCollection**. Each file in the collection is an instance of the **UploadedFile** class. The following table lists the members of the **UploadedFile** class:
 
 
 >caption  
 
 | Property or Method | Type (Return Type) | Description |
 | ------ | ------ | ------ |
-| __Properties__ |||
+| **Properties** |||
 |ContentLength|Int64|The size of the uploaded file, in bytes.|
 |ContentType|string|The MIME type of the uploaded file.|
-|FileName|string|The fully qualified name of the file on the client. (IE6 and some older browsers only). To get a file name that is the same for all browsers, use the __GetName()__ method instead.|
+|FileName|string|The fully qualified name of the file on the client. (IE6 and some older browsers only). To get a file name that is the same for all browsers, use the **GetName()** method instead.|
 |InputStream|System.IO.Stream|A stream object that can be used to read the file contents.|
-| __Methods__ |||
+| **Methods** |||
 |GetName()|string|Returns the name of the uploaded file.|
 |GetNameWithoutExtension()|string|Returns the name of the uploaded file, without the file extension.|
 |GetExtension()|string|Returns the extension of the uploaded file, including the leading dot (".")|
@@ -92,12 +92,12 @@ Protected Sub RadAsyncUpload1_FileUploaded(sender As Object, e As FileUploadedEv
 End Sub
 ````
 
->note The __OnFileUpload__ event will be fired for every file in the __UploadedFiles__ collection after postback.
+>note The **OnFileUpload** event will be fired for every file in the **UploadedFiles** collection after postback.
 >
 
 ## Using the InputStream property
 
-You can use the __InputStream__ property to access the content of the uploaded files without saving them to a temporary location. This property is useful when you want to insert the file into a database, or process its contents without saving.
+You can use the **InputStream** property to access the content of the uploaded files without saving them to a temporary location. This property is useful when you want to insert the file into a database, or process its contents without saving.
 
 The following example demonstrates how to insert the uploaded files into a database using OleDb:
 

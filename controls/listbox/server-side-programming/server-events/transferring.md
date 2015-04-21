@@ -12,7 +12,7 @@ position: 11
 
 ## 
 
-The __Transferring__ server event fires when the __AutoPostBackOnTransfer="True"__ and the user tries to transfer an item / items. It fires __before__ the [Deleting]({%slug listbox/server-side-programming/server-events/deleting%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
+The **Transferring** server event fires when the **AutoPostBackOnTransfer="True"** and the user tries to transfer an item / items. It fires **before** the [Deleting]({%slug listbox/server-side-programming/server-events/deleting%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the **AllowAutomaticUpdates="True"** - the database is updated to reflect the new reordered list.
 
 The event handler receives two parameters:
 
@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of all __RadListBoxItem__ objects which will be affected by the transfer.
+* **Items** - collection of all **RadListBoxItem** objects which will be affected by the transfer.
 
-* __Cancel__ - set it to True to cancel the event and prevent the transfer to happen
+* **Cancel** - set it to True to cancel the event and prevent the transfer to happen
 
 
 ````C#

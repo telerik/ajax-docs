@@ -12,7 +12,7 @@ position: 1
 
 ## 
 
-__RadListBox__ can be bound to a __DataTable__, __DataSet__ and a __DataView__. This example shows binding to a __DataTable__ object.
+**RadListBox** can be bound to a **DataTable**, **DataSet** and a **DataView**. This example shows binding to a **DataTable** object.
 
 The declaration of the RadListBox object includes no DataSourceID property or <items> section:
 
@@ -20,7 +20,7 @@ The declaration of the RadListBox object includes no DataSourceID property or <i
 <telerik:radlistbox id="RadListBox1" runat="server"></telerik:radlistbox>
 ````
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the ListBox. You must call the __DataBind__ method after setting the __DataSource__ property.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then bind it to the ListBox. You must call the **DataBind** method after setting the **DataSource** property.
 
 
 ````C#

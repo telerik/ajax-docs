@@ -12,16 +12,16 @@ position: 1
 
 ## 
 
-The __RadListBoxItem__ object is returned by the __getItem__ method of the __RadListBox__ or __RadListBoxItemCollection__ object. It is also exposed by the event arguments of many client-side events (__eventArgs.get_item()__). The following table lists the most important methods:
+The **RadListBoxItem** object is returned by the **getItem** method of the **RadListBox** or **RadListBoxItemCollection** object. It is also exposed by the event arguments of many client-side events (**eventArgs.get_item()**). The following table lists the most important methods:
 
 
 >caption   
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_text__ |none|string|Gets the Text of the item|
-| __get_value__ |none|string|Gets th Value of the item|
-| __get_attributes__ |none|Collection|Returns the collection of custom attributes for the item.|
+| **get_text** |none|string|Gets the Text of the item|
+| **get_value** |none|string|Gets th Value of the item|
+| **get_attributes** |none|Collection|Returns the collection of custom attributes for the item.|
 
 ````JavaScript	
 var listbox = $find("<%= RadListBox1.ClientID %>");
@@ -39,36 +39,36 @@ else {
 
 >caption  
 
-|  __enable__  | none | none | Enables the item if it is disabled |
+|  **enable**  | none | none | Enables the item if it is disabled |
 | ------ | ------ | ------ | ------ |
-| __disable__ |none|none|Disables the item if it is enabled|
-| __select__ |none|none|Selects the item (equal to __set_selected(true)__ )|
-| __unselect__ |none|none|Unselects the item (equal to __set_selected(false)__ )|
-| __check__ |none|none|Checks the item (equal to __set_checked(true)__ )|
-| __uncheck__ |none|none|Un-checks the item (equal to __set_checked(false)__ )|
-| __clone__ |none|RadListBoxItem|Creates a new item by copying the properties of the source item|
-| __get_isVisible__ |none|bool|Returns whether the item is visible|
-| __scrollIntoView__ |none|none|Puts the item at the bottom of the visible area|
-| __ensureVisible__ |none|none|If the item is not visible - puts it at the top of the visible area|
-| __get_listBox__ |none|RadListBox|Gets the RadListBox client-object|
-| __get_selected__ |none|bool|Returns whether the item is selected|
-| __set_selected__ |bool|none|Selects the item|
-| __get_checked__ |none|bool|Returns whether the item is checked|
-| __set_checked__ |bool|none|Checks the item|
-| __get_checkable__ |none|bool|Returns whether the item can be checked|
-| __set_checkable__ |bool|none|Sets whether the item can be checked|
-| __get_imageUrl__ |none|string|Gets the value of the __ImageUrl__ property|
-| __set_imageUrl__ |string|none|Sets the __ImageUrl__ property of the item|
-| __get_toolTip__ |none|string|Gets the tooltip of the item|
-| __set_toolTip__ |string|none|Sets the tooltip of the item|
-| __get_allowDrag__ |none|bool|Returns whether the item can be dragged|
-| __set_allowDrag__ |bool|none|Sets the __AllowDrag__ property (whether the item can be dragged)|
-| __get_element__ |none|HTML element|Returns the <LI> element of the item|
-| __get_textElement__ |none|HTML element|Returns the <SPAN> element of the item|
-| __get_imageElement__ |none|HTML element|Returns the image <IMG> element of the item|
-| __get_checkBoxElement__ |none|HTML element|Returns the checkbox <input type=checkbox> element of the item|
-| __get_cssClass__ |none|string|Gets the __cssClass__ of the RadListBoxItem.|
-| __set_cssClass__ |string|none|Sets the __cssClass__ of the RadListBoxItem.|
+| **disable** |none|none|Disables the item if it is enabled|
+| **select** |none|none|Selects the item (equal to **set_selected(true)** )|
+| **unselect** |none|none|Unselects the item (equal to **set_selected(false)** )|
+| **check** |none|none|Checks the item (equal to **set_checked(true)** )|
+| **uncheck** |none|none|Un-checks the item (equal to **set_checked(false)** )|
+| **clone** |none|RadListBoxItem|Creates a new item by copying the properties of the source item|
+| **get_isVisible** |none|bool|Returns whether the item is visible|
+| **scrollIntoView** |none|none|Puts the item at the bottom of the visible area|
+| **ensureVisible** |none|none|If the item is not visible - puts it at the top of the visible area|
+| **get_listBox** |none|RadListBox|Gets the RadListBox client-object|
+| **get_selected** |none|bool|Returns whether the item is selected|
+| **set_selected** |bool|none|Selects the item|
+| **get_checked** |none|bool|Returns whether the item is checked|
+| **set_checked** |bool|none|Checks the item|
+| **get_checkable** |none|bool|Returns whether the item can be checked|
+| **set_checkable** |bool|none|Sets whether the item can be checked|
+| **get_imageUrl** |none|string|Gets the value of the **ImageUrl** property|
+| **set_imageUrl** |string|none|Sets the **ImageUrl** property of the item|
+| **get_toolTip** |none|string|Gets the tooltip of the item|
+| **set_toolTip** |string|none|Sets the tooltip of the item|
+| **get_allowDrag** |none|bool|Returns whether the item can be dragged|
+| **set_allowDrag** |bool|none|Sets the **AllowDrag** property (whether the item can be dragged)|
+| **get_element** |none|HTML element|Returns the <LI> element of the item|
+| **get_textElement** |none|HTML element|Returns the <SPAN> element of the item|
+| **get_imageElement** |none|HTML element|Returns the image <IMG> element of the item|
+| **get_checkBoxElement** |none|HTML element|Returns the checkbox <input type=checkbox> element of the item|
+| **get_cssClass** |none|string|Gets the **cssClass** of the RadListBoxItem.|
+| **set_cssClass** |string|none|Sets the **cssClass** of the RadListBoxItem.|
 
 # See Also
 

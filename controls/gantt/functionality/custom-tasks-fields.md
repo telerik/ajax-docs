@@ -11,7 +11,7 @@ position: 5
 # Custom Tasks Fields
 
 
-With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate the __Gantt__,providing you with the ability to add user defined Properties to be shown in the control. In order to use a custom Task class you haveto create a custom Provider, like the one shown in [this help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}). Sample Code Library can be downloaded from [ here ]( http://www.telerik.com/support/code-library/gantt-custom-columns ).
+With the 2014 Q2 SP1 version you can now use **Custom Task** objects to populate the **Gantt**,providing you with the ability to add user defined Properties to be shown in the control. In order to use a custom Task class you haveto create a custom Provider, like the one shown in [this help article]({%slug gantt/data-binding/providers/custom-entityframework-provider%}). Sample Code Library can be downloaded from [ here ]( http://www.telerik.com/support/code-library/gantt-custom-columns ).
 
 ![gantt-custom-tasks-field](images/gantt-custom-tasks-field.png)
 
@@ -19,7 +19,7 @@ With the 2014 Q2 SP1 version you can now use __Custom Task__ objects to populate
 
 1.Use previous help article to set up custom Entity Provider
 
-2.Create Custom Task class, inheriting from __Task__.
+2.Create Custom Task class, inheriting from **Task**.
 
 
 ````C#
@@ -69,7 +69,7 @@ Public Class CustomTask
 End Class
 ````
 
-4.Override __GetSerializationData__ and __LoadFromDictionary__ methods
+4.Override **GetSerializationData** and **LoadFromDictionary** methods
 
 
 ````C#
@@ -113,7 +113,7 @@ Public Class CustomTask
 End Class
 ````
 
-5.Create new __TaskFactory__
+5.Create new **TaskFactory**
 
 
 ````C#
@@ -134,7 +134,7 @@ Public Class CustomGanttTaskFactory
 End Class
 ````
 
-6.Override Provider __TaskFactory__ property to return new factory
+6.Override Provider **TaskFactory** property to return new factory
 
 
 ````C#
@@ -163,7 +163,7 @@ End Class
 	
 ````
 
-7.Update Provider __GetTasks__ Method
+7.Update Provider **GetTasks** Method
 
 
 ````C#
@@ -199,7 +199,7 @@ Public Overrides Function GetTasks() As List(Of ITask)
 End Function
 ````
 
-8.Update Provider __ToEntityTask__ Method
+8.Update Provider **ToEntityTask** Method
 
 ````C#
 private GanttTask ToEntityTask(ITask srcTask)
@@ -227,13 +227,13 @@ End Function
 
 ## Defining Custom Tasks Fields
 
-To add new __Custom Task Field__ you will have to:
+To add new **Custom Task Field** you will have to:
 
-1. Set the __AutoGenerateColumns__ property to __false__.
+1. Set the **AutoGenerateColumns** property to **false**.
 
-1. Define new __GanttBoundColumn__ in the __Columns collection__.
+1. Define new **GanttBoundColumn** in the **Columns collection**.
 
-1. Define new __GanttCustomField__ in the __CustomTaskFields__ collection.
+1. Define new **GanttCustomField** in the **CustomTaskFields** collection.
 
 1. Defining Custom Columns:
 

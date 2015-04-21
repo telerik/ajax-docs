@@ -12,23 +12,23 @@ position: 2
 
 ## 
 
-__RadListBox__ supports item transfer to another (related) __RadListBox__. By default, the selected item is __moved__ from the source to the destination listbox. You can change that behavior by setting the __TransferMode="Copy"__ property - in this way the item will be __copied__ to the destination listbox.
+**RadListBox** supports item transfer to another (related) **RadListBox**. By default, the selected item is **moved** from the source to the destination listbox. You can change that behavior by setting the **TransferMode="Copy"** property - in this way the item will be **copied** to the destination listbox.
 
 ![RadListBox Transfer](images/listbox_transfer.png)
 
 To enable item transferring you need to:
 
-1. Set the __AllowTransfer="True"__ property. This will show the *move left* and *move right* buttons next to the listbox. You can control the look and feel of the transfer buttons by adjusting the [ButtonSettings properties]({%slug listbox/functionality/button-settings%}).
+1. Set the **AllowTransfer="True"** property. This will show the *move left* and *move right* buttons next to the listbox. You can control the look and feel of the transfer buttons by adjusting the [ButtonSettings properties]({%slug listbox/functionality/button-settings%}).
 
-2. Set the __TransferToID__ property to the ID of the destination (second, right) __RadListBox__. You can use the [Smart Tag]({%slug listbox/design-time/smart-tag%}) to add that additional listbox - this will set the TransferToID property automatically.
+2. Set the **TransferToID** property to the ID of the destination (second, right) **RadListBox**. You can use the [Smart Tag]({%slug listbox/design-time/smart-tag%}) to add that additional listbox - this will set the TransferToID property automatically.
 
-3. [*Optional*] Set the __TransferMode__ property to __Copy__ if you want to copy instead of move the selected item/items from one listbox to the other. By default it is __Move__.
+3. [*Optional*] Set the **TransferMode** property to **Copy** if you want to copy instead of move the selected item/items from one listbox to the other. By default it is **Move**.
 
-4. [*Optional*] Set the __AutoPostBackOnTransfer="True"__ to fire a postback on transfer.
+4. [*Optional*] Set the **AutoPostBackOnTransfer="True"** to fire a postback on transfer.
 
-5. [*Optional*] Set the __AllowTransferOnDoubleClick="True"__ to transfer the item when you double click it.
+5. [*Optional*] Set the **AllowTransferOnDoubleClick="True"** to transfer the item when you double click it.
 
-Please check [this help topic]({%slug listbox/data-binding/automatic-database-updates%}) on how to __automatically update the database on transfer__.
+Please check [this help topic]({%slug listbox/data-binding/automatic-database-updates%}) on how to **automatically update the database on transfer**.
 
 # See Also
 

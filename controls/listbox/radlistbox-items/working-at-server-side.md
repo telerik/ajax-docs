@@ -11,11 +11,11 @@ position: 3
 # Working at Server-side
 
 
-Using the server-side API, you can programmatically find, add, remove, disable, or select items in __RadListBox.__
+Using the server-side API, you can programmatically find, add, remove, disable, or select items in **RadListBox.**
 
 ## Adding items
 
-Use the __Add__ method of the __RadListBoxItemCollection__ object to add items programmatically:
+Use the **Add** method of the **RadListBoxItemCollection** object to add items programmatically:
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
@@ -56,7 +56,7 @@ End Sub
 
 ## Removing items
 
-Use the __Remove__ method of the __RadListBoxItemCollection__ object to remove items:
+Use the **Remove** method of the **RadListBoxItemCollection** object to remove items:
 
 ````C#
 RadListBoxItem itemToRemove = RadListBox1.FindItemByText("Item 3");
@@ -69,7 +69,7 @@ RadListBox1.Items.Remove(itemToRemove)
 
 ## Sorting items
 
-Use the __SortItems__ method of __RadListBox__ object to sort items:
+Use the **SortItems** method of **RadListBox** object to sort items:
 
 ````C#
 RadListBox1.Sort = RadListBoxSort.Ascending;
@@ -80,7 +80,7 @@ RadListBox1.Sort = RadListBoxSort.Ascending
 RadListBox1.SortItems()
 ````
 
-You can also use the __Sort__ method of the __RadListBoxItemCollection__ object to sort items:
+You can also use the **Sort** method of the **RadListBoxItemCollection** object to sort items:
 
 ````C#
 RadListBox1.Items.Sort();
@@ -140,7 +140,7 @@ You can also use a lambda expression as an argument:
 
 ## Disabling items
 
-Use the __Enable__ property of the __RadListBoxItem__ object to enable or disable an item:
+Use the **Enable** property of the **RadListBoxItem** object to enable or disable an item:
 
 ````C#
 	RadListBoxItem itemToDisable = RadListBox1.FindItemByText("Item 3");
@@ -155,7 +155,7 @@ Use the __Enable__ property of the __RadListBoxItem__ object to enable or disabl
 
 ## Selecting items
 
-Use the __Selected__ property of an item to select it, or use the __SelectedIndex__ property of RadListBox. Note that to select multiple items you need to set the __SelectionMode="Multiple"__ property.
+Use the **Selected** property of an item to select it, or use the **SelectedIndex** property of RadListBox. Note that to select multiple items you need to set the **SelectionMode="Multiple"** property.
 
 ````C#
 	RadListBoxItem itemToSelect = RadListBox1.FindItemByText("Item 3");
@@ -170,23 +170,23 @@ Use the __Selected__ property of an item to select it, or use the __SelectedInde
 
 ## Finding items
 
-You can locate an item by searching on the __Text__ or __Value__ properties. You can retrieve either the index of the item or a reference to the item itself. Use the following RadListBox methods:
+You can locate an item by searching on the **Text** or **Value** properties. You can retrieve either the index of the item or a reference to the item itself. Use the following RadListBox methods:
 
-* __FindItemByText__
+* **FindItemByText**
 
-* __FindItemByValue__
+* **FindItemByValue**
 
-* __FindItemIndexByValue__
+* **FindItemIndexByValue**
 
 ## Collections of items
 
 You can use the following collections of RadListBoxItem objects:
 
-* __Items__ - retrieves a list of all items
+* **Items** - retrieves a list of all items
 
-* __SelectedItems__ - retrieves a list of all selected items
+* **SelectedItems** - retrieves a list of all selected items
 
-* __CheckedItems__ - retrieves a list of all checked items (when the __CheckBoxes__ property is True)
+* **CheckedItems** - retrieves a list of all checked items (when the **CheckBoxes** property is True)
 
 # See Also
 

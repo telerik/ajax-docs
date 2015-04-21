@@ -10,15 +10,15 @@ position: 1
 
 # Database Provider
 
-This help article describes how you can bind the __RadGantt__ by using the built-in __DataSourceViewProvider__. If you are using a declarative __DataSource__ to populate RadGantt by specifying __DataSourceID__ and __DependenciesDataSourceID__ properties, thencontrol will automatically create a __DataSourceView__ provider and will use it to update the information.
+This help article describes how you can bind the **RadGantt** by using the built-in **DataSourceViewProvider**. If you are using a declarative **DataSource** to populate RadGantt by specifying **DataSourceID** and **DependenciesDataSourceID** properties, thencontrol will automatically create a **DataSourceView** provider and will use it to update the information.
 
 ## 
 
-Binding the control by using the __DataSourceViewProvider__ is achievable by following the below listed steps.
+Binding the control by using the **DataSourceViewProvider** is achievable by following the below listed steps.
 
-1. Assign the __DataSourceID__ and __DependenciesDataSourceID__ to the respective data source controlsthat the __RadGantt__ should use to retrieve its data.
+1. Assign the **DataSourceID** and **DependenciesDataSourceID** to the respective data source controlsthat the **RadGantt** should use to retrieve its data.
 
-1. Set the properties avaiable under the __TaskDataBindings__ and __DependenciesDataBindings__ sectionsrequired to translating the database columns to the object-model of the __RadGantt__ to the appropriate fields of the datasource.
+1. Set the properties avaiable under the **TaskDataBindings** and **DependenciesDataBindings** sectionsrequired to translating the database columns to the object-model of the **RadGantt** to the appropriate fields of the datasource.
 
 The following example illustrates a possible realization of the above mentioned.
 

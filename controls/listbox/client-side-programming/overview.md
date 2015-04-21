@@ -10,7 +10,7 @@ position: 0
 
 # Client-side Programming Overview
 
-__RadListBox__ provides a flexible client-side API. You can easily interact with the listbox in the browser using its client-side object. In addition to a variety of [client-side events]({%slug listbox/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+**RadListBox** provides a flexible client-side API. You can easily interact with the listbox in the browser using its client-side object. In addition to a variety of [client-side events]({%slug listbox/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadListBox Client-side object
 
@@ -24,7 +24,7 @@ Now you can use all the Client-side methods of the [RadListBox client object]({%
 
 ## Getting an instance of a particular RadListBoxItem
 
-Once you have the client-side object of RadListBox, you can use the __findItemByText()/findItemByValue__ method to get the instance of a particular item:
+Once you have the client-side object of RadListBox, you can use the **findItemByText()/findItemByValue** method to get the instance of a particular item:
 
 ````JavaScript	
 var list = $find("<%= RadListBox1.ClientID %>");
@@ -34,7 +34,7 @@ alert(item.get_text());
 
 ## Cancelling an action
 
-Several client side events occur immediately before the listbox performs some action. These events all have names that end in "-ing". You can use these events to cancel the listbox action by using the __set_cancel__ method of the second argument passed to the handler:
+Several client side events occur immediately before the listbox performs some action. These events all have names that end in "-ing". You can use these events to cancel the listbox action by using the **set_cancel** method of the second argument passed to the handler:
 
 ````JavaScript	
 function onClientDeletingHandler(sender, e) {
@@ -57,7 +57,7 @@ function onButtonClick() {
 
 ## Preserving changes
 
-By default, changes made in client-side code (add, remove, enable, disable of items) do not persist over a post-back to the server. To preserve changes, you must use the __trackChanges__ and __commitChanges__ methods:
+By default, changes made in client-side code (add, remove, enable, disable of items) do not persist over a post-back to the server. To preserve changes, you must use the **trackChanges** and **commitChanges** methods:
 
 ````JavaScript
 function onButtonClick() {

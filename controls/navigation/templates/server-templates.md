@@ -12,7 +12,7 @@ position: 1
 
 ## NodeTemplate
 
-You can use the __NodeTemplate__ for both setting template to a single navigation node and to all nodes in a navigation(applied as global template). For example you can set a global template to all navigation nodes and if you need to further customize only a single orseveral nodes you can do so by applying the __NodeTemplate__ again only to the needed nodes. This can be done in the [TemplateNeeded]({%slug navigation/server-side-programming/events/templateneeded%}) event.
+You can use the **NodeTemplate** for both setting template to a single navigation node and to all nodes in a navigation(applied as global template). For example you can set a global template to all navigation nodes and if you need to further customize only a single orseveral nodes you can do so by applying the **NodeTemplate** again only to the needed nodes. This can be done in the [TemplateNeeded]({%slug navigation/server-side-programming/events/templateneeded%}) event.
 
 ## Example
 
@@ -207,7 +207,7 @@ Public Class CustomNavigatorNode
 	Public Sub New()
 	End Sub
 
-	Public Sub New(id__1 As Integer, text__2 As String, isChecked As Boolean, url__3 As String, Optional parentId__4 As System.Nullable(Of Integer) = Nothing)
+	Public Sub New(id**1 As Integer, text**2 As String, isChecked As Boolean, url**3 As String, Optional parentId**4 As System.Nullable(Of Integer) = Nothing)
 		Id = id__1
 		Text = text__2
 		Checked = isChecked

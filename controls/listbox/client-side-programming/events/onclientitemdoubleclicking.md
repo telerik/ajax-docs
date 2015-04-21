@@ -12,7 +12,7 @@ position: 8
 
 ## 
 
-The __OnClientItemDoubleClicking__ client-side event occurs when the user double clicks the item using the mouse. The event can be cancelled.
+The **OnClientItemDoubleClicking** client-side event occurs when the user double clicks the item using the mouse. The event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the double-clicked item
+* **get_item()** - returns the double-clicked item
 
-* __set_cancel()__ - lets you cancel the event and prevent item from transferring.
+* **set_cancel()** - lets you cancel the event and prevent item from transferring.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 # See Also
 

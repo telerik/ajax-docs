@@ -10,7 +10,7 @@ position: 2
 
 # Binding to Object-Based Data Sources
 
-You can bind __RadNavigation__ to an object-based data source such as __ObjectDataSource__, __LinqDataSource__ or any class that implements the __IEnumerable__ interface.
+You can bind **RadNavigation** to an object-based data source such as **ObjectDataSource**, **LinqDataSource** or any class that implements the **IEnumerable** interface.
 
 ## Binding to ObjectDataSource
 
@@ -18,24 +18,24 @@ You can bind __RadNavigation__ to an object-based data source such as __ObjectDa
 >
 
 
-When using __ObjectDataSource__, you can bind __RadNavigation__ declaratively at design time. The __SelectMethod__ of the __ObjectDataSource__ should return an object that supports the __IEnumerable__ or __ICollection__ interface.Such collections include __Array__, __ArrayList__, and __List<type>__.
+When using **ObjectDataSource**, you can bind **RadNavigation** declaratively at design time. The **SelectMethod** of the **ObjectDataSource** should return an object that supports the **IEnumerable** or **ICollection** interface.Such collections include **Array**, **ArrayList**, and **List<type>**.
 
-If the collection contains objects (as opposed to string values), you can use the __DataTextField__, and the __DataNavigateUrlField__ properties to map a property from the object directly to the __Text__ and __NavigateUrl__ properties of __NavigationNode__. If the __DataFieldID__ and __DataFieldParentID__ properties are set, RadNavigation will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
+If the collection contains objects (as opposed to string values), you can use the **DataTextField**, and the **DataNavigateUrlField** properties to map a property from the object directly to the **Text** and **NavigateUrl** properties of **NavigationNode**. If the **DataFieldID** and **DataFieldParentID** properties are set, RadNavigation will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
 
->note - their __DataFieldParentID__ property must be __null__ if it is of nullable (e.g. __int?__ ) or reference (e.g. __string__ ) type.
+>note - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 (null)
 >2 1
->- their __DataFieldParentID__ property must return the __default value__ if it is value type (e.g. __0__ for __int__ , __Guid.Empty__ for __Guid__ ).
+>- their **DataFieldParentID** property must return the **default value** if it is value type (e.g. **0** for **int** , **Guid.Empty** for **Guid** ).
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 0
 >2 1
 >
 
 
-To map additional properties from the object to other properties of the respective navigation node, use an __[NodeDataBound event handler]({%slug navigation/server-side-programming/events/nodedatabound%})__. The event arguments passed to the event, __e.Node__ and __e.Node.DataItem__, hold the instance of the navigation node being boundand the __DataItem__ associated with the navigation node. You can map a property from the __DataItem__ to the property of the __NavigationNode__ class (make sure to cast the __DataItem__ object to your respective data type first).
+To map additional properties from the object to other properties of the respective navigation node, use an **[NodeDataBound event handler]({%slug navigation/server-side-programming/events/nodedatabound%})**. The event arguments passed to the event, **e.Node** and **e.Node.DataItem**, hold the instance of the navigation node being boundand the **DataItem** associated with the navigation node. You can map a property from the **DataItem** to the property of the **NavigationNode** class (make sure to cast the **DataItem** object to your respective data type first).
 
 ````ASPNET
 <telerik:RadNavigation runat="server" ID="RadNavigation1" DataSourceID="ObjectDataSource1" DataFieldParentID="ParentID"
@@ -44,7 +44,7 @@ To map additional properties from the object to other properties of the respecti
 <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetSiteData" TypeName="SiteDataItem"></asp:ObjectDataSource>
 ````
 
-The __ObjectDataSource__ component is configured to use the SiteDataItem business object. The __SiteDataItem__ class is defined below:
+The **ObjectDataSource** component is configured to use the SiteDataItem business object. The **SiteDataItem** class is defined below:
 
 ````C#
 using System.Collections.Generic;
@@ -197,19 +197,19 @@ End Class
 >
 
 
-Instead of going through an __ObjectDataSource__, you can bind __RadNavigation__ directly to any collection that implements the __ICollection__ or __IEnumerable__ interface.Mapping properties of the objects in the collection to properties of the navigation nodes works exactly the same way as when using __ObjectDataSource__.
+Instead of going through an **ObjectDataSource**, you can bind **RadNavigation** directly to any collection that implements the **ICollection** or **IEnumerable** interface.Mapping properties of the objects in the collection to properties of the navigation nodes works exactly the same way as when using **ObjectDataSource**.
 
 To bind directly to a collection, you must bind the menu at runtime, using the following steps:
 
 1. Create the collection.
 
-1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that provide data for the various properties of __NavigationNode__ and/or for the __ID__ -> __ParentID__ relationship.
+1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that provide data for the various properties of **NavigationNode** and/or for the **ID** -> **ParentID** relationship.
 
-1. Set the __DataSource__ property of __RadNavigation__ to the instance of the collection.
+1. Set the **DataSource** property of **RadNavigation** to the instance of the collection.
 
-1. Call the __DataBind__ method.
+1. Call the **DataBind** method.
 
-The following example shows a menu bound to an __ArrayList__. The list contains __SiteDataItem__ objects with the same definition as in the __ObjectDataSource__ example, only that their __ParentID__ property is of nullable type - __int?__:
+The following example shows a menu bound to an **ArrayList**. The list contains **SiteDataItem** objects with the same definition as in the **ObjectDataSource** example, only that their **ParentID** property is of nullable type - **int?**:
 
 ````C#
 private ArrayList GenerateSiteData()

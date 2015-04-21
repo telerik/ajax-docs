@@ -10,11 +10,11 @@ position: 0
 
 # Localization
 
-The localization support for __RadListBox__ lets you completely translate the user interface, or simply adapt a few strings.
+The localization support for **RadListBox** lets you completely translate the user interface, or simply adapt a few strings.
 
 ## Localization property
 
-The __Localization__ property specifies the strings that appear in the runtime user interface of __RadListBox__. By changing the values of each named sub-property, you change the appearance of the string the ListBox uses:
+The **Localization** property specifies the strings that appear in the runtime user interface of **RadListBox**. By changing the values of each named sub-property, you change the appearance of the string the ListBox uses:
 
 ````ASPNET
 <telerik:RadListBox ID="RadListBox1"    
@@ -33,42 +33,42 @@ RadListBox1.Localization.MoveDown = "Down";
 RadListBox1.Localization.MoveDown = "Down"
 ````
 
->note This technique is useful when customizing some of the messages of a __particular instance__ . The messages are not shared between RadListBox instances. A complete translation using this approach is not appropriate.
+>note This technique is useful when customizing some of the messages of a **particular instance** . The messages are not shared between RadListBox instances. A complete translation using this approach is not appropriate.
 >
 
 
 
 >caption  
 
-|  __Key__  |  __Default Value__  |  __Description__  |
+|  **Key**  |  **Default Value**  |  **Description**  |
 | ------ | ------ | ------ |
-|AllToTop|All to Top|Sets the text of the __All to Top__ button. The button appears when __ShowTransferAll="True"__ and __Position__ is either *Top* or *Bottom* |
-|AllToBottom|All to Bottom|Sets the text of the __All to Bottom__ button. The button appears when __ShowTransferAll="True"__ and __Position__ is either *Top* or *Bottom* |
-|AllToLeft|All to Left|Sets the text of the __All to Left__ button. The button appears when __ShowTransferAll="True"__ and __Position__ is either *Left* or *Right* |
-|AllToRight|All to Right|Sets the text of the __All to Right__ button. The button appears when __ShowTransferAll="True"__ and __Position__ is either *Left* or *Right* |
-|Delete|Delete|Sets the text of the __Delete__ button. The button appears when __AllowDelete="True"__ |
-|MoveDown|Move Down|Sets the text of the __Move Down__ button. The button appears when __AllowReorder="True"__ |
-|MoveUp|Move Up|Sets the text of the __Move Up__ button. The button appears when __AllowReorder="True"__ |
-|ToBottom|To Bottom|Sets the text of the __To Bottom__ button. The button appears when __AllowTransfer="True"__ and __Position__ is either *Top* or *Bottom* |
-|ToTop|To Top|Sets the text of the __To Top__ button. The button appears when __AllowTransfer="True"__ and __Position__ is either *Top* or *Bottom* |
-|ToLeft|To Left|Sets the text of the __To Left__ button. The button appears when __AllowTransfer="True"__ and __Position__ is either *Left* or *Right* |
-|ToRight|To Right|Sets the text of the __To Right__ button. The button appears when __AllowTransfer="True"__ and __Position__ is either *Left* or *Right* |
+|AllToTop|All to Top|Sets the text of the **All to Top** button. The button appears when **ShowTransferAll="True"** and **Position** is either *Top* or *Bottom* |
+|AllToBottom|All to Bottom|Sets the text of the **All to Bottom** button. The button appears when **ShowTransferAll="True"** and **Position** is either *Top* or *Bottom* |
+|AllToLeft|All to Left|Sets the text of the **All to Left** button. The button appears when **ShowTransferAll="True"** and **Position** is either *Left* or *Right* |
+|AllToRight|All to Right|Sets the text of the **All to Right** button. The button appears when **ShowTransferAll="True"** and **Position** is either *Left* or *Right* |
+|Delete|Delete|Sets the text of the **Delete** button. The button appears when **AllowDelete="True"** |
+|MoveDown|Move Down|Sets the text of the **Move Down** button. The button appears when **AllowReorder="True"** |
+|MoveUp|Move Up|Sets the text of the **Move Up** button. The button appears when **AllowReorder="True"** |
+|ToBottom|To Bottom|Sets the text of the **To Bottom** button. The button appears when **AllowTransfer="True"** and **Position** is either *Top* or *Bottom* |
+|ToTop|To Top|Sets the text of the **To Top** button. The button appears when **AllowTransfer="True"** and **Position** is either *Top* or *Bottom* |
+|ToLeft|To Left|Sets the text of the **To Left** button. The button appears when **AllowTransfer="True"** and **Position** is either *Left* or *Right* |
+|ToRight|To Right|Sets the text of the **To Right** button. The button appears when **AllowTransfer="True"** and **Position** is either *Left* or *Right* |
 
 
 
 ## Global Resource Files
 
-The primary means for localization in ASP.NET is to use resource files. Resource files are simple XML files that can be easily edited and transferred to other applications. You can use resource files to change the default (English) localization for __RadListBox__ that is stored in the Telerik.Web.UI assembly.
+The primary means for localization in ASP.NET is to use resource files. Resource files are simple XML files that can be easily edited and transferred to other applications. You can use resource files to change the default (English) localization for **RadListBox** that is stored in the Telerik.Web.UI assembly.
 
 To create a global resource file to localize the ListBox follow these steps:
 
-1. Create the __App_GlobalResources__ folder in the root of your web application. 2. Copy the default resource __RadListBox.resx__ file into it. This file can be found in the __App_GlobalResources__ folder of the directory where you installed the RadControls. 3. __Make a copy__ of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadListBox follow a strict naming convention:
+1. Create the **App_GlobalResources** folder in the root of your web application. 2. Copy the default resource **RadListBox.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed the RadControls. 3. **Make a copy** of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadListBox follow a strict naming convention:
 
-__RadListBox.<Culture Identifier>.resx__
+**RadListBox.<Culture Identifier>.resx**
 
 
 
->note The __Culture Identifier__ consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
+>note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
 >
 
 
@@ -76,7 +76,7 @@ For example copy the RadListBox.resx file to RadListBox.fr-CA.resx
 
 ![Localization using resource files.](images/listbox_localization_resx_files.png)
 
-4. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the __Localization__ property.
+4. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the **Localization** property.
 
 ![Localization edit](images/listbox_localization_edit_resx.png)
 

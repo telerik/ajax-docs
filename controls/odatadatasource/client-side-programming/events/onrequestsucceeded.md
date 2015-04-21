@@ -14,14 +14,14 @@ position: 2
 
 ## 
 
-The __OnRequestSucceeded__ client-side event occurs when data requested is successfully received.
+The **OnRequestSucceeded** client-side event occurs when data requested is successfully received.
 
 The event handler receives two parameters:
 
-* __sender__ - an instance of the datasource;
+* **sender** - an instance of the datasource;
 
-* __args__ -containing the following methods:
+* **args** -containing the following methods:
 
-* __get_count()__- returns the total number of data items;
+* **get_count()**- returns the total number of data items;
 
-* __get_data()__- returns array containing the results of the query.
+* **get_data()**- returns array containing the results of the query.

@@ -12,9 +12,9 @@ position: 3
 
 ## 
 
-This article will show how to hide the transfer to left and transfer All to left buttons when the __AllowTransfer=True__.
+This article will show how to hide the transfer to left and transfer All to left buttons when the **AllowTransfer=True**.
 
-__SOLUTION__
+**SOLUTION**
 
 Add the following CSS rules to the <head> section of your page:
 

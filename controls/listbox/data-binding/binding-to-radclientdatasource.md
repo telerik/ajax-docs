@@ -10,11 +10,11 @@ position: 6
 
 # Binding to RadClientDataSource
 
-This article demonstrates how to bind __RadListBox__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadListBox** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadListBox can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadListBox __DataKeyField__, __DataText__ and __DataValue__ fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadListBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadListBox can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadListBox **DataKeyField**, **DataText** and **DataValue** fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadListBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
 
 ## 
 

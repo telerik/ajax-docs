@@ -42,7 +42,7 @@ Limitation of the File Api module:
 
 ### How the IFrame/Flash module handles file uploads
 
-The IFrame and Flash modules upload the selected file(s) using normal http post request. The iframe use __\<input type="file" /\>__ tag forfile uploadswhereas Flash uses the Flex FileReference object in order to upload files. The files are uploaded using Post HTTP requestin absolutely the same manner as the normal __\<input type="file" /\>__ and html form. On the server, there is no difference where you have used the normal __\<input type="file" /\>__ upload or the Flash upload in order to upload the files. The files are buffered in the ASP.NET Temporary folder,not in the App_Data/RadUploadTemp folder. After the upload is completed, the files are automatically moved from ASP.NET temp to the Async Upload temporary folder, which is most commonly App_Data/RadUploadTemp. This temp folder can be set by the programmer to any folder on the system.To sum up, as the ASP.NET runtime intercepts the request, it uses the ASP.NET Temp folder in order to assemble the files there, and upon upload completion the latter are moved to the temporary folder.
+The IFrame and Flash modules upload the selected file(s) using normal http post request. The iframe use **\<input type="file" /\>** tag forfile uploadswhereas Flash uses the Flex FileReference object in order to upload files. The files are uploaded using Post HTTP requestin absolutely the same manner as the normal **\<input type="file" /\>** and html form. On the server, there is no difference where you have used the normal **\<input type="file" /\>** upload or the Flash upload in order to upload the files. The files are buffered in the ASP.NET Temporary folder,not in the App_Data/RadUploadTemp folder. After the upload is completed, the files are automatically moved from ASP.NET temp to the Async Upload temporary folder, which is most commonly App_Data/RadUploadTemp. This temp folder can be set by the programmer to any folder on the system.To sum up, as the ASP.NET runtime intercepts the request, it uses the ASP.NET Temp folder in order to assemble the files there, and upon upload completion the latter are moved to the temporary folder.
 
 ### How the Silverlight module handles file uploads
 
@@ -55,12 +55,12 @@ In contrast, we have designed the Silverlight upload in a different way.The Silv
 
 | Upload Module | Browser Support |
 | ------ | ------ |
-| __Silverlight__ |IE, FireFox|
-| __Flash__ |IE|
-| __File Api__ |FireFox (3.6+), Chrome, Safari (5+), Opera, Safari for MAC|
-| __IFrame__ |IE|
+| **Silverlight** |IE, FireFox|
+| **Flash** |IE|
+| **File Api** |FireFox (3.6+), Chrome, Safari (5+), Opera, Safari for MAC|
+| **IFrame** |IE|
 
->note In __IE9__ RadAsyncUpload implements only __IFrame__ and __Silverlight__ Upload modules. __Flash__ module can be applied only in previous versions of IE Browser because of some incompatibilities with IE9.
+>note In **IE9** RadAsyncUpload implements only **IFrame** and **Silverlight** Upload modules. **Flash** module can be applied only in previous versions of IE Browser because of some incompatibilities with IE9.
 >
 
 

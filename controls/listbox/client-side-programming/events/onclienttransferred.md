@@ -12,7 +12,7 @@ position: 20
 
 ## 
 
-The __OnClientTransferred__ client-side event occurs after the selected item has been transferred to the destination RadListBox.
+The **OnClientTransferred** client-side event occurs after the selected item has been transferred to the destination RadListBox.
 
 The event handler receives two parameters:
 
@@ -20,15 +20,15 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the item that has been transferred.
+* **get_item()** - returns the item that has been transferred.
 
-* __get_items()__ - returns an array of items that have been transferred.
+* **get_items()** - returns an array of items that have been transferred.
 
-* __get_sourceListBox()__ - returns the instance of the source RadListBox which the item currently belongs to
+* **get_sourceListBox()** - returns the instance of the source RadListBox which the item currently belongs to
 
-* __get_destinationListBox()__ - returns the instance of the destination RadListBox where the item is transferring to.
+* **get_destinationListBox()** - returns the instance of the destination RadListBox where the item is transferring to.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 The following code notifies the user for a successful transferring of the item:
 

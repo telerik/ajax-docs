@@ -12,8 +12,8 @@ position: 3
 
 
 
-The following article describes the __Cell Editing__ feature of the __RadGantt__
+The following article describes the **Cell Editing** feature of the **RadGantt**
 
 ## Cell Editing
 
-The __Cell Editing__ feature is available when you doubleclick on the desirable cell. You could edit cells from the Tittle, Start Time and End Time columns. Once you confirm the changes, by pressing enter or blurring the control, the modification is automatically applied on the visualized task in the Timeline area. 
+The **Cell Editing** feature is available when you doubleclick on the desirable cell. You could edit cells from the Tittle, Start Time and End Time columns. Once you confirm the changes, by pressing enter or blurring the control, the modification is automatically applied on the visualized task in the Timeline area. 

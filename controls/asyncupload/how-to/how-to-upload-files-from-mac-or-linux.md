@@ -10,18 +10,18 @@ position: 6
 
 # How to upload files from MAC or Linux
 
-On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System. Files names can contain special characters or just don't follow the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of __AsyncUpload__ and due to security restrictions such renaming will require a special way of implementation.
+On some operating systems like MAC OS and Linux it is possible to have file names, which are invalid for the Windows File System. Files names can contain special characters or just don't follow the [Microsoft's Naming Convention.](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx#naming_conventions) This makes file uploading impossible. That's why to upload a file with such invalid name we have to rename it before the uploading. Due to the nature of **AsyncUpload** and due to security restrictions such renaming will require a special way of implementation.
 
 ## Uploading files from MAC OS or Linux
 
-1. Configure __AsyncUpload__ to use a [Custom Handler]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
+1. Configure **AsyncUpload** to use a [Custom Handler]({%slug asyncupload/application-scenarios/how-to-extend-the-radasyncupload-handler%})
 
 ````ASPNET
 <telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server" HttpHandlerUrl="~/CustomHandler.ashx"  Target="~/Uploads"></telerik:RadAsyncUpload>
 <asp:Button ID="btnSubmit" runat="server" Text="Submit Uploaded Files" />
 ````
 
-2. Override the __ChageOriginalFileName__ method and perform own file name validation
+2. Override the **ChageOriginalFileName** method and perform own file name validation
 
 ````C#
 <%@ WebHandler Language="C#" Class="CustomHandler" %>

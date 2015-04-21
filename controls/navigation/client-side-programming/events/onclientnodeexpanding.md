@@ -10,15 +10,15 @@ position: 6
 
 # OnClientNodeExpanding
 
-The following article demonstrates how to use and subscribe to the __OnClientNodeExpanding__ client-side event of the __RadNavigation__ control.
+The following article demonstrates how to use and subscribe to the **OnClientNodeExpanding** client-side event of the **RadNavigation** control.
 
 ## Optional section title
 
-The client-side __OnClientNodeExpanding__ event of the __RadNavigation__ is raised when some Node is about be expanded. The expand of some node could appear when the mouse is moved on the node. In scenario when the __ClickToOpen__ property of the RadNavigation is set to __true__, the expand will be fired when the node is clicked.
+The client-side **OnClientNodeExpanding** event of the **RadNavigation** is raised when some Node is about be expanded. The expand of some node could appear when the mouse is moved on the node. In scenario when the **ClickToOpen** property of the RadNavigation is set to **true**, the expand will be fired when the node is clicked.
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the __OnClientNodeExpanding__ property. This event could be canceled and the technique for achieving this is demonstrated in __Example 1__.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the **OnClientNodeExpanding** property. This event could be canceled and the technique for achieving this is demonstrated in **Example 1**.
 
-The client-side __OnClientNodeExpanding__ event handler receives two arguments:
+The client-side **OnClientNodeExpanding** event handler receives two arguments:
 
 * Sender — the RadNavigation object that fired the event.
 
@@ -27,13 +27,13 @@ The client-side __OnClientNodeExpanding__ event handler receives two arguments:
 
 >caption ButtonClicking Event Arguments Object
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()||bool|Gets a value that indicates whether the event is canceled.|
 |set_cancel(value)|bool||Sets whether the event will be canceled (if true is passed).|
 |get_node()||Telerik.Web.UI.NavigationNode|Returns an instance of NavigationNode that is about to be expanded.|
 
-__Example 1__: Handle the __RadNavigation__'s client-side__OnClientNodeExpanding__ event in order to cancel its propagation.
+**Example 1**: Handle the **RadNavigation**'s client-side**OnClientNodeExpanding** event in order to cancel its propagation.
 
 ````JavaScript
 <script type="text/javascript">

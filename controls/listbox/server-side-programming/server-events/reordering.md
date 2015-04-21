@@ -12,7 +12,7 @@ position: 3
 
 ## 
 
-The __Reordering__ server event fires when the __AutoPostBackOnReorder="True"__. It fires once for all selected items.
+The **Reordering** server event fires when the **AutoPostBackOnReorder="True"**. It fires once for all selected items.
 
 The event handler receives two parameters:
 
@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of __RadListBoxItem__ objects which were selected for reordering.
+* **Items** - collection of **RadListBoxItem** objects which were selected for reordering.
 
-* __Offset__ - returns __-1__ if you are moving the item __up__ and __1__ if you are moving the item __down__.
+* **Offset** - returns **-1** if you are moving the item **up** and **1** if you are moving the item **down**.
 
-* __Cancel__ - set it to True to cancel the event and prevent the reordering to happen
+* **Cancel** - set it to True to cancel the event and prevent the reordering to happen
 
 The following example shows how to cancel the event if there are more than 2 items to be reordered:
 

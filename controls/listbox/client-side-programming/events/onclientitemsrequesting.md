@@ -12,7 +12,7 @@ position: 14
 
 ## 
 
-The __OnClientItemsRequesting__ client-side event occurs when __EnableLoadOnDemand__ is __True__ and the listbox is about to send a server-side request to load more items. This event fires before the items are added to the listbox' Items collection.
+The **OnClientItemsRequesting** client-side event occurs when **EnableLoadOnDemand** is **True** and the listbox is about to send a server-side request to load more items. This event fires before the items are added to the listbox' Items collection.
 
 The event handler receives two parameters:
 
@@ -20,9 +20,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_context__ returns a context object (implements IDictionary) that is passed to the server-side code that handles the request for items.
+* **get_context** returns a context object (implements IDictionary) that is passed to the server-side code that handles the request for items.
 
-* __set_cancel__ lets you prevent the items request.
+* **set_cancel** lets you prevent the items request.
 
 This event can be used to cancel the load-on-demand request.
 

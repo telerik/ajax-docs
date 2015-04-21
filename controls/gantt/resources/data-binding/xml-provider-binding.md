@@ -13,15 +13,15 @@ position: 2
 
 This help article describes how use [Gantt Resources]({%slug gantt/resoruces/overview%}) with the built-in [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
 
-There is not much difference in using XML Provider with Resources compared to using [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) without resources. Just set the __EnableResources__ property of the Gantt to __true__ and extend the XML file to support resources.
+There is not much difference in using XML Provider with Resources compared to using [Xml Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}) without resources. Just set the **EnableResources** property of the Gantt to **true** and extend the XML file to support resources.
 
 ## 
 
->caution Gantt expects that the __Resources__ are defined. It does not provide mechanism to manipulate them.
+>caution Gantt expects that the **Resources** are defined. It does not provide mechanism to manipulate them.
 >
 
 
-The example provided below illustrates a possible implementation of __RadGantt__ with __Resources__, bound to __XML Provider__.
+The example provided below illustrates a possible implementation of **RadGantt** with **Resources**, bound to **XML Provider**.
 
 
 ````ASPNET

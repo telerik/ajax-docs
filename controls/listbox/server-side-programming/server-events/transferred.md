@@ -12,7 +12,7 @@ position: 12
 
 ## 
 
-The __Transferred__ event fires after the [Deleted]({%slug listbox/server-side-programming/server-events/deleted%}) event. The __Items__ collection of the listbox is updated to reflect the transferring.
+The **Transferred** event fires after the [Deleted]({%slug listbox/server-side-programming/server-events/deleted%}) event. The **Items** collection of the listbox is updated to reflect the transferring.
 
 The event handler receives two parameters:
 
@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of __RadListBoxItem__ objects which were transferred.
+* **Items** - collection of **RadListBoxItem** objects which were transferred.
 
 
 ````C#

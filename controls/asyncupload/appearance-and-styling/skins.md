@@ -10,17 +10,17 @@ position: 0
 
 # Skins
 
-__RadAsyncUpload__ use *skins* to control its overall look-and-feel. A skin is a set of images and a CSS style sheet that can be applied to the control elements (items, images, etc.) and defines their look and feel. To apply a skin to a __RadAsyncUpload__ set its __Skin__ property, either using the properties pane or the control's Smart Tag.
+**RadAsyncUpload** use *skins* to control its overall look-and-feel. A skin is a set of images and a CSS style sheet that can be applied to the control elements (items, images, etc.) and defines their look and feel. To apply a skin to a **RadAsyncUpload** set its **Skin** property, either using the properties pane or the control's Smart Tag.
 
-__RadAsyncUpload__ is installed with a number of preset skins:![Skins](images/asyncupload_skins_thumb.png)
+**RadAsyncUpload** is installed with a number of preset skins:![Skins](images/asyncupload_skins_thumb.png)
 
->note The __Hay__, __Forest__, __Sitefinity__ and __Transparent__ skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of __Q1 2014__ .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
 ## Not Using Skins
 
-If you do not set the __Skin__ property, __RadAsyncUpload__ will automatically use the "Default" skin. If you do not want to use a skin with your control, set its __Skin__ property to an empty string and set the __EnableEmbeddedSkins__ property to __false__.
+If you do not set the **Skin** property, **RadAsyncUpload** will automatically use the "Default" skin. If you do not want to use a skin with your control, set its **Skin** property to an empty string and set the **EnableEmbeddedSkins** property to **false**.
 
 ## Customizing Skins
 
@@ -30,9 +30,9 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 
 1. Drag and drop the CSS file from the Project Explorer onto your webpage.
 
-1. Set the __EnableEmbeddedSkins__ property of the control to __false__.
+1. Set the **EnableEmbeddedSkins** property of the control to **false**.
 
-The style sheet for a __RadAsyncUpload__ skin has the name __Upload.[SkinName].css__ and can be found in the __...Skins/[SkinName]__ directory. The images are found in the __...Skins/[SkinName]/Upload__ directory. For example, the style sheet for the "Black" skin is called __Upload.Black.css__ and is located in the ...__Skins/Black__ directory. The images are found in the ...__Skins/Black/Upload__ directory. The images are referenced by name from within the style sheet.
+The style sheet for a **RadAsyncUpload** skin has the name **Upload.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/Upload** directory. For example, the style sheet for the "Black" skin is called **Upload.Black.css** and is located in the ...**Skins/Black** directory. The images are found in the ...**Skins/Black/Upload** directory. The images are referenced by name from within the style sheet.
 
 ## See Also
 

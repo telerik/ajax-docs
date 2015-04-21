@@ -10,19 +10,19 @@ position: 0
 
 # Declarative Binding
 
-This artcile describes how you can bind __RadGantt__ to declarative data source controls including __SqlDataSource__,__AccessDataSource__, __ObjectDataSource__, __XmlDataSource__,__EntityDataSource__, __OpenAccessDataSource__ and __LinqDataSource__.
+This artcile describes how you can bind **RadGantt** to declarative data source controls including **SqlDataSource**,**AccessDataSource**, **ObjectDataSource**, **XmlDataSource**,**EntityDataSource**, **OpenAccessDataSource** and **LinqDataSource**.
 
 ## 
 
-The steps listed below demonstrate how to bind the control using __SqlDataSource__.
+The steps listed below demonstrate how to bind the control using **SqlDataSource**.
 
-1. Add two __SqlDataSource__ controls to the page and set their __SelectCommands__ appropriately. The __SelectCommand__ of the first data source should return the tasks whereas the second their dependencies.
+1. Add two **SqlDataSource** controls to the page and set their **SelectCommands** appropriately. The **SelectCommand** of the first data source should return the tasks whereas the second their dependencies.
 
-1. Place a __RadGantt__ control on the page.
+1. Place a **RadGantt** control on the page.
 
-1. Assign the __DataSourceID__ and __DependenciesDataSourceID__ properties to the respective data source controls.
+1. Assign the **DataSourceID** and **DependenciesDataSourceID** properties to the respective data source controls.
 
-1. Set the properties avaiable under the __TaskDataBindings__ and __DependenciesDataBindings__ sections to match the tasks and dependencies fields in the database tables.
+1. Set the properties avaiable under the **TaskDataBindings** and **DependenciesDataBindings** sections to match the tasks and dependencies fields in the database tables.
 
 After performing the above steps you should get a configuration similar to the below provided.
 

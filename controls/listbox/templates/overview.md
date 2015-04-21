@@ -20,13 +20,13 @@ Templates allow you to embed any context inside a RadListBoxItem. For example:
 
 ## When to use Templates
 
-Normally, __RadListBox__ allows great flexibility with regard to the functionality and appearance of your items. Use Templates to embed complex elements (such as ASP .NET controls) inside your list items. Templates are also a great way to avoid setting too many properties to each list item explicitly. The example below shows images, text and RadNumericTextBox embedded in the RadListBox ItemTemplate:
+Normally, **RadListBox** allows great flexibility with regard to the functionality and appearance of your items. Use Templates to embed complex elements (such as ASP .NET controls) inside your list items. Templates are also a great way to avoid setting too many properties to each list item explicitly. The example below shows images, text and RadNumericTextBox embedded in the RadListBox ItemTemplate:
 
 ![Templates overview](images/listbox_templates_overview.png)
 
 Here is the declaration:
 
->caution Please have in mind that it is not possible to transfer items on the client-side when templates are used. This means that the __AutoPostbackOnTransfer__ must be set to __true__ when one wants to use transfer and templates at the same time.
+>caution Please have in mind that it is not possible to transfer items on the client-side when templates are used. This means that the **AutoPostbackOnTransfer** must be set to **true** when one wants to use transfer and templates at the same time.
 >
 
 ````C#	
@@ -78,9 +78,9 @@ Here is the declaration:
 </telerik:RadListBox>      	
 ````
 
-An \<ItemTemplate\> section is added to the __RadListBox__ declaration. The image in the template and the text that appears in the template is taken from the RadListBoxItem using <%# DataBinder.Eval %> statements.
+An \<ItemTemplate\> section is added to the **RadListBox** declaration. The image in the template and the text that appears in the template is taken from the RadListBoxItem using <%# DataBinder.Eval %> statements.
 
-Before the template can use the ListBox item properties to bind the elements in the template, the application needs to explicitly bind the items by calling the __DataBind__ method of RadListBox:
+Before the template can use the ListBox item properties to bind the elements in the template, the application needs to explicitly bind the items by calling the **DataBind** method of RadListBox:
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)

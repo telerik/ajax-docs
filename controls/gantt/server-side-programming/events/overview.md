@@ -16,7 +16,7 @@ Server-Side Events
 
 ## 
 
-__Gantt__ supports a number of server-side events that let you customize its behavior. These events are listed below:
+**Gantt** supports a number of server-side events that let you customize its behavior. These events are listed below:
 
 * [NavigationCommand]({%slug gantt/server-side-programming/events/navigationcommand%}) - occurs when the RadGantt executes a view change command.
 

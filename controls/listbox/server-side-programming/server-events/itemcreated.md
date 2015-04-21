@@ -12,17 +12,17 @@ position: 15
 
 ## 
 
-The __ItemCreated__ event occurs for each new item that is added to the __Items__ collection of the RadListBox.
+The **ItemCreated** event occurs for each new item that is added to the **Items** collection of the RadListBox.
 
->note If the item is added from a data source (the __DataSource__ or __DataSourceID__ property specifies the source of the items), it is a good idea to use the[ItemDataBound](4F4B15B3-7C02-4BAF-A1E1-27F089C40A92)event instead. __ItemCreated__ occurs before the __ItemDataBound__ event (before any item properties have been set to reflect the data in the data source).
+>note If the item is added from a data source (the **DataSource** or **DataSourceID** property specifies the source of the items), it is a good idea to use the[ItemDataBound](4F4B15B3-7C02-4BAF-A1E1-27F089C40A92)event instead. **ItemCreated** occurs before the **ItemDataBound** event (before any item properties have been set to reflect the data in the data source).
 >
 
 
-The __ItemCreated__ event handler receives two arguments:
+The **ItemCreated** event handler receives two arguments:
 
-* The __RadListBox__ that is loading items. This argument is of type object, but can be cast to the __RadListBox__ type.
+* The **RadListBox** that is loading items. This argument is of type object, but can be cast to the **RadListBox** type.
 
-* An EventArgs object of type __RadListBoxItemEventArgs__. This object has an __Item__ property, which provides access to the item that has just been added.
+* An EventArgs object of type **RadListBoxItemEventArgs**. This object has an **Item** property, which provides access to the item that has just been added.
 
 
 ````C#

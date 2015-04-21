@@ -12,10 +12,10 @@ position: 2
 
 ## 
 
-__Problem__
+**Problem**
 
-When transferting data from one __RadListBox__ to another the __“Sys.WebForms.PageRequestManagerServerErrorException: Index was out of range. Must be non-negative and less than the size of the collection.”__ is thrown.
+When transferting data from one **RadListBox** to another the **“Sys.WebForms.PageRequestManagerServerErrorException: Index was out of range. Must be non-negative and less than the size of the collection.”** is thrown.
 
-__Solution__
+**Solution**
 
-This error occurs when the state of the two RadListBox controls is not yet updated after transferring/reordering items. By setting the __AutoPostBackOnTransfer__ property to __True__, you could ensure that __PostBack__ is performed after each action is made. Thus you do not need to rely on the state of the controls and you could easily avoid the exception.
+This error occurs when the state of the two RadListBox controls is not yet updated after transferring/reordering items. By setting the **AutoPostBackOnTransfer** property to **True**, you could ensure that **PostBack** is performed after each action is made. Thus you do not need to rely on the state of the controls and you could easily avoid the exception.

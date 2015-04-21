@@ -12,17 +12,17 @@ position: 14
 
 ## 
 
-The __OnClientProgressUpdating__ occurs each time the inline progress indicator is being updated.
+The **OnClientProgressUpdating** occurs each time the inline progress indicator is being updated.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadAsyncUpload__ control firing the event.
+1. The instance of the **RadAsyncUpload** control firing the event.
 
 1. An eventArgs parameter containing the following method:
 
-* __get_row__ - returns the row whose update indicator has been updated
+* **get_row** - returns the row whose update indicator has been updated
 
-* __get_data__ - returns data object containing information regarding the progress. The data object contains the following properties:
+* **get_data** - returns data object containing information regarding the progress. The data object contains the following properties:
 
 * percent- returns the percentage of the uploaded file.
 

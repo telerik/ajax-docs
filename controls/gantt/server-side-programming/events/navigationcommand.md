@@ -10,13 +10,13 @@ position: 8
 
 # NavigationCommand
 
-The __RadGantt NavigationCommand__ event is fired when the __RadGantt__ control executes a view change command.
+The **RadGantt NavigationCommand** event is fired when the **RadGantt** control executes a view change command.
 
-__NavigationCommand__ event handler receives two parameters:
+**NavigationCommand** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __NavigationCommandEventArgs__. It returns selected __RadGantt__ view.
+* **e** is an object of type **NavigationCommandEventArgs**. It returns selected **RadGantt** view.
 
 ## Example
 

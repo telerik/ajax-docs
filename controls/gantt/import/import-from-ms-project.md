@@ -10,22 +10,22 @@ position: 0
 
 # Import from MS Project
 
-__RadGantt__ control can import and work with __MS Project__ data stored in XML format.
+**RadGantt** control can import and work with **MS Project** data stored in XML format.
 
 ## Example
 
-Following code shows how to import [MS Project XML data](http://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx)into __RadGantt__ and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
+Following code shows how to import [MS Project XML data](http://msdn.microsoft.com/en-us/library/bb968652(v=office.12).aspx)into **RadGantt** and save it using the [Gantt's XML Provider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}).
 
-1. Add simple __RadGantt__ definition in the page markup.
+1. Add simple **RadGantt** definition in the page markup.
 
 ````ASPNET
 <telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
 <asp:Button ID="btnImport" Text="Import Tasks" runat="server" OnClick="btnImport_Click" />
 ````
 
-1. Configure __RadGantt__ control to use an empty provider.
+1. Configure **RadGantt** control to use an empty provider.
 
->note For the purpose of this demo a[XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}). is used. But the import functionality works with all supported data binding options of the __RadGantt__ control.
+>note For the purpose of this demo a[XmlGanttProvider]({%slug gantt/data-binding/server-side-binding/programmatic-binding-/xml-provider%}). is used. But the import functionality works with all supported data binding options of the **RadGantt** control.
 >
 
 
@@ -53,7 +53,7 @@ Protected Overrides Sub OnInit(e As EventArgs)
 End Sub
 ````
 
-1. Importing the MS Project data is done using the __ImportXml__ method of the gantt. As a parameter is passed the physical path of the data file.
+1. Importing the MS Project data is done using the **ImportXml** method of the gantt. As a parameter is passed the physical path of the data file.
 
 
 ````C#

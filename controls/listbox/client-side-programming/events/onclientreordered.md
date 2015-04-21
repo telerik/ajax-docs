@@ -12,7 +12,7 @@ position: 18
 
 ## 
 
-The __OnClientReordered__ client-side event occurs after the item or items have been reordered.
+The **OnClientReordered** client-side event occurs after the item or items have been reordered.
 
 The event handler receives two parameters:
 
@@ -20,13 +20,13 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_items()__ - returns an array of the items that have been reordered
+* **get_items()** - returns an array of the items that have been reordered
 
-* __get_item()__ - returns the item that has been reordered.
+* **get_item()** - returns the item that has been reordered.
 
-* __get_offset()__ - returns __-1__ if you are moving the item __up__ and __1__ if you are moving the item __down__.
+* **get_offset()** - returns **-1** if you are moving the item **up** and **1** if you are moving the item **down**.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 The following code notifies the user for a successful reordering of the item:
 

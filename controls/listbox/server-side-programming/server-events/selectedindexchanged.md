@@ -12,7 +12,7 @@ position: 7
 
 ## 
 
-The __SelectedIndexChanged__ fires when you change the selected item. It will fire automatically if the __AutoPostBack="True"__. The event fires before the [TextChanged]({%slug listbox/server-side-programming/server-events/textchanged%}) server event.
+The **SelectedIndexChanged** fires when you change the selected item. It will fire automatically if the **AutoPostBack="True"**. The event fires before the [TextChanged]({%slug listbox/server-side-programming/server-events/textchanged%}) server event.
 
 The event handler receives two parameters:
 

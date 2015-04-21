@@ -12,11 +12,11 @@ position: 1
 
 ## 
 
-__PROBLEM__
+**PROBLEM**
 
 When you add a textbox to the ItemTemplate of RadListBox and start typing in it - the spaces are ignored.
 
-__SOLUTION__
+**SOLUTION**
 
 Add the following javascript code right after the listbox declaration:
 

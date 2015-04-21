@@ -16,7 +16,7 @@ This help article describes how you can add query string parameters to the uploa
 
 ## Manipulating Query String Parameters In The Upload Handler
 
-As of Q3 2012 one can add string parameters to each uploading file in the __onClientFileUploading__ client event by using the __set_queryStringParams()__ method of the eventArgs parameter.
+As of Q3 2012 one can add string parameters to each uploading file in the **onClientFileUploading** client event by using the **set_queryStringParams()** method of the eventArgs parameter.
 
 ````XML
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" 

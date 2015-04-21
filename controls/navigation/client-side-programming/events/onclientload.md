@@ -10,15 +10,15 @@ position: 1
 
 # OnClientLoad
 
-The following article demonstrates how to use and subscribe to the __OnClientLoad__ client-side event of the __RadNavigation__ control.
+The following article demonstrates how to use and subscribe to the **OnClientLoad** client-side event of the **RadNavigation** control.
 
 ## 
 
-The __OnClientLoad__ event occurs after the __RadNavigation__ has been fully initialized at the client-side.The event handler receives one parameter:
+The **OnClientLoad** event occurs after the **RadNavigation** has been fully initialized at the client-side.The event handler receives one parameter:
 
 * sender - the RadNavigation object that fired the event.
 
-__Example 1__: Handle the __RadNavigation__'s client-side __OnClientLoad__ event.
+**Example 1**: Handle the **RadNavigation**'s client-side **OnClientLoad** event.
 
 ````JavaScript
 <script type="text/javascript">

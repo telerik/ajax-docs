@@ -12,17 +12,17 @@ position: 10
 
 ## 
 
-The __OnClientValidationFailed__ client-side event occurs after a validation for selected file has failed either due to invalid file size or invalid extension
+The **OnClientValidationFailed** client-side event occurs after a validation for selected file has failed either due to invalid file size or invalid extension
 
 The event handler receives two parameters:
 
-1. The instance of the __RadAsyncUpload__ control firing the event.
+1. The instance of the **RadAsyncUpload** control firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_fileName__ returns the name of the file whose validation has failed
+* **get_fileName** returns the name of the file whose validation has failed
 
-* __get_row__ returns the upload row for which the event was fired.
+* **get_row** returns the upload row for which the event was fired.
 
 One useful case that can be applied in this event is getting information if the validation is triggered by the size of the file or by its extension:
 

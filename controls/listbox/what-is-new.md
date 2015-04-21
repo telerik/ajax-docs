@@ -62,7 +62,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Added new property - [EmptyMessage]({%slug listbox/appearance-and-styling/using-the-emptymessage-property%}). It lets you specify a string that will appear when the RadListBox contains no items
 
-* New __RadListBox__ client-side method - __insertItems(items)__ used for handling bulk insert of RadListBoxItems.
+* New **RadListBox** client-side method - **insertItems(items)** used for handling bulk insert of RadListBoxItems.
 
 * Bug-fixes
 

@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __Navigation__ control exposes the following server-side events:
+The **Navigation** control exposes the following server-side events:
 
 * [NodeDataBound]({%slug navigation/server-side-programming/events/nodedatabound%}) occurs for each node it is being bound to a data value.
 

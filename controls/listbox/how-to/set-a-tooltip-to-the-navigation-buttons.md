@@ -12,7 +12,7 @@ position: 5
 
 ## 
 
-This article shows how to set ToolTips for the navigation buttons of __RadListBox__. We will do this using a javascript code - find the appropriate <A> element of the button and set its title property.
+This article shows how to set ToolTips for the navigation buttons of **RadListBox**. We will do this using a javascript code - find the appropriate <A> element of the button and set its title property.
 
 What you need to do is to place the following javascript code on your page:
 

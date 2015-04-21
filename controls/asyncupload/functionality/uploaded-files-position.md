@@ -12,9 +12,9 @@ position: 7
 
 ## 
 
-The __UploadedFilesRendering__ property defines whether the uploaded files would be rendered Above or Below file input. It can be set through mark up or in the codebehind.
+The **UploadedFilesRendering** property defines whether the uploaded files would be rendered Above or Below file input. It can be set through mark up or in the codebehind.
 
->note As of Q3 2011, __UploadedFilesRendering__ property is available.
+>note As of Q3 2011, **UploadedFilesRendering** property is available.
 >
 
 

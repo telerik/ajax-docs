@@ -10,7 +10,7 @@ position: 0
 
 # Templates Overview
 
-__RadNavigation__ nodes are extremely configurable. In addition to the preset [skins]({%slug navigation/appearance-and-styling/skins%}),you can customize their appearance by adding custom images, using CSS classes, or creating custom skins. However, if you want to embed other HTMLcontrols in a navigation node, you must use templates. You can embed any content inside a __NodeTemplate__, including:
+**RadNavigation** nodes are extremely configurable. In addition to the preset [skins]({%slug navigation/appearance-and-styling/skins%}),you can customize their appearance by adding custom images, using CSS classes, or creating custom skins. However, if you want to embed other HTMLcontrols in a navigation node, you must use templates. You can embed any content inside a **NodeTemplate**, including:
 
 * HTML markup
 

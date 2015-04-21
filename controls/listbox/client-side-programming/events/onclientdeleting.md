@@ -12,7 +12,7 @@ position: 2
 
 ## 
 
-The __OnClientDeleting__ Client-side event occurs when the item or items are about to be deleted. This event can be cancelled.
+The **OnClientDeleting** Client-side event occurs when the item or items are about to be deleted. This event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,13 +20,13 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_items()__ - returns an array of the items selected for deletion
+* **get_items()** - returns an array of the items selected for deletion
 
-* __get_item()__ - returns the item that is about to be deleted.
+* **get_item()** - returns the item that is about to be deleted.
 
-* __set_cancel()__ - lets you cancel the event and prevent items from deleting.
+* **set_cancel()** - lets you cancel the event and prevent items from deleting.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 
 The example below shows how to delete an item after the user clicks OK in the confirmation dialog:

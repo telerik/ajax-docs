@@ -10,7 +10,7 @@ position: 2
 
 # Loading Items from XML
 
-One of the ways to specify the items in a __RadListBox__ control is using XML. The format of the XML must follow a structure similar to the <Items></Items> section of an [inline RadListBox declaration]({%slug listbox/radlistbox-items/declaring-the-items-inline%}). That is, it must have:
+One of the ways to specify the items in a **RadListBox** control is using XML. The format of the XML must follow a structure similar to the <Items></Items> section of an [inline RadListBox declaration]({%slug listbox/radlistbox-items/declaring-the-items-inline%}). That is, it must have:
 
 * A single root with the <Items> tag:
 
@@ -43,13 +43,13 @@ One of the ways to specify the items in a __RadListBox__ control is using XML. T
 
 You can populate RadListBox from an XML using one of the following methods:
 
-* From a static XML file, using the __LoadContentFile__ method.
+* From a static XML file, using the **LoadContentFile** method.
 
-* From a string of XML, using the __LoadXml__ method.
+* From a string of XML, using the **LoadXml** method.
 
 ## Loading items from an XML file
 
-Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method, passing in the path to the file:
+Create an XML file with content that complies with the rules described above and call the **LoadContentFile** method, passing in the path to the file:
 
 ````C#
 RadListBox1.LoadContentFile("ListBox.xml");
@@ -60,7 +60,7 @@ RadListBox1.LoadContentFile("ListBox.xml")
 
 ## Loading items from an XML string
 
-Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXml__ method to populate the ListBox from the string:
+Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXml** method to populate the ListBox from the string:
 
 
 ````C#

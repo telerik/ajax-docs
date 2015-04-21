@@ -43,7 +43,7 @@ The applied settings are described below:
 
 1. All entities are grouped in Entity Sets. The EntityContainer collection contains records of such sets. Each set has a Name and EntityType properties.
 
-* Name is the name of the hosted collection that should be queried. For example, if one have set the Name to “Categories”, the query url would look like: __http://services.odata.org/OData/OData.svc/Categories__
+* Name is the name of the hosted collection that should be queried. For example, if one have set the Name to “Categories”, the query url would look like: **http://services.odata.org/OData/OData.svc/Categories**
 
 * The EntityType property maps declared EntityType to a type contained in a given collection. If we stick to the same example, the EntityType of the Categories collection would be Category
 

@@ -12,7 +12,7 @@ position: 1
 
 ## 
 
-This article will show you how to integrate __RadContextMenu__ in __RadListBox__. Right clicking on the list item will show the context menu with several options: Delete, Move Up and Move Down.
+This article will show you how to integrate **RadContextMenu** in **RadListBox**. Right clicking on the list item will show the context menu with several options: Delete, Move Up and Move Down.
 
 Here is the declaration:
 

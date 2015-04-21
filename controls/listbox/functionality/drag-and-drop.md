@@ -12,9 +12,9 @@ position: 3
 
 ## 
 
-__RadListBox__ fully supports [reordering]({%slug listbox/functionality/reorder%}) and [transferring]({%slug listbox/functionality/transfer%}) of Items through __drag-and-drop__.
+**RadListBox** fully supports [reordering]({%slug listbox/functionality/reorder%}) and [transferring]({%slug listbox/functionality/transfer%}) of Items through **drag-and-drop**.
 
-You could enable the functionality by first configuring the corresponding RadListBox(es) to allow Reorder and/or Transfer and then setting the __EnableDragAndDrop__ property to __true__.
+You could enable the functionality by first configuring the corresponding RadListBox(es) to allow Reorder and/or Transfer and then setting the **EnableDragAndDrop** property to **true**.
 
 In addition to all corresponding events that fire on Reorder/Transfer RadListBox supports a few solely drag-and-drop events.
 
@@ -31,9 +31,9 @@ At the client, these are:
 
 After a successful drop the corresponding Reorder and Transfer client-side events fire.
 
-At the server, the Reorder or Transfer events fire only if the __AutoPostBackOnReorder__ or __AutoPostBackOnTransfer__ properties are set to __true__.
+At the server, the Reorder or Transfer events fire only if the **AutoPostBackOnReorder** or **AutoPostBackOnTransfer** properties are set to **true**.
 
-Finally, the server-side [Dropping]({%slug listbox/server-side-programming/server-events/dropping%}) and [Dropped]({%slug listbox/server-side-programming/server-events/dropped%}) events fire only if the dragged Items are dropped onto an __HTML element__, which is __not__ an Item and has its __id__ attribute set.
+Finally, the server-side [Dropping]({%slug listbox/server-side-programming/server-events/dropping%}) and [Dropped]({%slug listbox/server-side-programming/server-events/dropped%}) events fire only if the dragged Items are dropped onto an **HTML element**, which is **not** an Item and has its **id** attribute set.
 
 
 

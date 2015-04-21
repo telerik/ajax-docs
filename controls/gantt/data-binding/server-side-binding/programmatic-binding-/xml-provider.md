@@ -10,7 +10,7 @@ position: 0
 
 # XML Provider
 
-This help article describes how you can bind the __RadGantt__ control to an XML file using the built-in __XmlGanttProvider__.
+This help article describes how you can bind the **RadGantt** control to an XML file using the built-in **XmlGanttProvider**.
 
 ## 
 
@@ -18,9 +18,9 @@ Binding the control to a XML file is achievable by following the below listed st
 
 1. Add the XML containing the data in the App_Data folder.
 
-1. Subscribe to the __PageLoad__ event and in the event handler create a new instance of the __XmlGanttProvider__ provider passing the XML file path to its constructor.
+1. Subscribe to the **PageLoad** event and in the event handler create a new instance of the **XmlGanttProvider** provider passing the XML file path to its constructor.
 
-1. Set the __RadGannt.Provider__ property to the newly created provider instance.
+1. Set the **RadGannt.Provider** property to the newly created provider instance.
 
 The below provided example illustrates a possible realization of the above mentioned.
 
@@ -44,7 +44,7 @@ End Sub
 
 The format of the XML file that contains the data should look similar to the below shown.
 
->caution If the XML file will be initially blank it should contain a __Project__ opening and closing tag.
+>caution If the XML file will be initially blank it should contain a **Project** opening and closing tag.
 >
 
 

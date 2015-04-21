@@ -12,7 +12,7 @@ position: 5
 
 ## 
 
-The __OnClientDragging__ client-side event occurs each time the user moves a mouse while dragging an item. This event can be cancelled.
+The **OnClientDragging** client-side event occurs each time the user moves a mouse while dragging an item. This event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,15 +20,15 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_sourceItem()__ - returns the first selected item that is dragged
+* **get_sourceItem()** - returns the first selected item that is dragged
 
-* __get_sourceItems()__ - returns an array of the selected items that are dragged
+* **get_sourceItems()** - returns an array of the selected items that are dragged
 
-* __set_cancel()__ - lets you cancel the event and prevent the dragging.
+* **set_cancel()** - lets you cancel the event and prevent the dragging.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
-* __get_htmlElement()__ - returns the DOM html element which the item is dropped onto.
+* **get_htmlElement()** - returns the DOM html element which the item is dropped onto.
 
 The example below demonstrates getting the current x and y coordinates of the mouse while the item is being dragged.
 

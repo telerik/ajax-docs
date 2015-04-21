@@ -11,13 +11,13 @@ position: 3
 # TaskInsert
 
 
-The __RadGantt TaskInsert__ is fired when a task's collection is about to be inserted in the database.
+The **RadGantt TaskInsert** is fired when a task's collection is about to be inserted in the database.
 
-__TaskInsert__ event handler receives two parameters:
+**TaskInsert** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __GanttEventArgs__. It gives you access to the inserted __RadGantt__ tasks collection.
+* **e** is an object of type **GanttEventArgs**. It gives you access to the inserted **RadGantt** tasks collection.
 
 ## Example
 

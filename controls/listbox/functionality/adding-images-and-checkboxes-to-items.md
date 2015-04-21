@@ -19,23 +19,23 @@ You can easily add an image and/or a checkbox to the RadListBox item.
 
 ## Adding checkboxes to items
 
-Set the __CheckBoxes__ property of RadListBox to *True*. This will add a checkbox on the left of every list item.
+Set the **CheckBoxes** property of RadListBox to *True*. This will add a checkbox on the left of every list item.
 
-* You can use the __Checked__ property (True or False) of the list item to change its checked state.
+* You can use the **Checked** property (True or False) of the list item to change its checked state.
 
-* Use the __Checkable__ property of the item if you need to hide the checkbox of that item.
+* Use the **Checkable** property of the item if you need to hide the checkbox of that item.
 
 
 
 ## Showing the CheckAll checkbox
 
-From Q3 2013 you can use a __CheckAll__ checkbox functionality in RadListBox. You can set the __ShowCheckAll__ property of RadListBox to *True* and if the __CheckBoxes__ is also set to true the __CheckAll__ checkbox will be shown at the top of all other items of RadListBox. It allows checking or unchecking all the items with a single click.
+From Q3 2013 you can use a **CheckAll** checkbox functionality in RadListBox. You can set the **ShowCheckAll** property of RadListBox to *True* and if the **CheckBoxes** is also set to true the **CheckAll** checkbox will be shown at the top of all other items of RadListBox. It allows checking or unchecking all the items with a single click.
 
 
 
 ## Adding images to items
 
-Set the __ImageUrl__ property of the list items to the path to the image. Leave the property blank to have the item with no image.
+Set the **ImageUrl** property of the list items to the path to the image. Leave the property blank to have the item with no image.
 
 
 

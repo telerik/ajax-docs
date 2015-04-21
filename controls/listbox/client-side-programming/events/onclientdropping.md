@@ -12,7 +12,7 @@ position: 6
 
 ## 
 
-The __OnClientDropping__ client-event occurs before the items are dropped. The event can be cancelled.
+The **OnClientDropping** client-event occurs before the items are dropped. The event can be cancelled.
 
 The event handler receives two parameters:
 
@@ -20,19 +20,19 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_sourceItem()__ - returns the first selected item that is dropped
+* **get_sourceItem()** - returns the first selected item that is dropped
 
-* __get_sourceItems()__ - returns an array of the selected items that are dropped
+* **get_sourceItems()** - returns an array of the selected items that are dropped
 
-* __get_destinationItem()__ - returns the destination item.
+* **get_destinationItem()** - returns the destination item.
 
-* __get_dropPosition()__ - returns the relative position either 0 (Above) or 1 (Below) toward the destination item.
+* **get_dropPosition()** - returns the relative position either 0 (Above) or 1 (Below) toward the destination item.
 
-* __get_htmlElement()__ - returns the DOM html element which the item is dropped onto.
+* **get_htmlElement()** - returns the DOM html element which the item is dropped onto.
 
-* __set_cancel()__ - lets you cancel the event and prevent the dropping.
+* **set_cancel()** - lets you cancel the event and prevent the dropping.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 
 The following example shows how to ask the user for confirmation before the item is dropped.

@@ -10,11 +10,11 @@ position: 5
 
 # OnClientNodeCollapsed
 
-The following article demonstrates how to use and subscribe to the __OnClientNodeCollapsed__ client-side event of the __RadNavigation__ control.
+The following article demonstrates how to use and subscribe to the **OnClientNodeCollapsed** client-side event of the **RadNavigation** control.
 
 ## 
 
-The client-side __OnClientNodeCollapsed__ event of the __RadNavigation__ is raised immediately after some expanded Node is collapsed. To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the __OnClientNodeClicked__ property.The client-side __OnClientNodeCollapsed__ event handler receives two arguments:
+The client-side **OnClientNodeCollapsed** event of the **RadNavigation** is raised immediately after some expanded Node is collapsed. To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the **OnClientNodeClicked** property.The client-side **OnClientNodeCollapsed** event handler receives two arguments:
 
 * sender — the RadNavigation object that fired the event.
 
@@ -23,11 +23,11 @@ The client-side __OnClientNodeCollapsed__ event of the __RadNavigation__ is rais
 
 >caption ButtonClicking Event Arguments Object
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_node()||Telerik.Web.UI.NavigationNode|Returns an instance of NavigationNode that has just been collapsed.|
 
-__Example 1__: Handle the __RadNavigation__'s client-side __OnClientNodeCollapsed__ event.
+**Example 1**: Handle the **RadNavigation**'s client-side **OnClientNodeCollapsed** event.
 
 ````JavaScript
 <script type="text/javascript">

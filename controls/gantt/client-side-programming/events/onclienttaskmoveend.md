@@ -12,21 +12,21 @@ position: 3
 
 ## 
 
-The __OnClientTaskMoveEnd__ occurs when the Task moving is ended.
+The **OnClientTaskMoveEnd** occurs when the Task moving is ended.
 
 The event handler receives two parameters:
 
-1. The instance of the __Gantt__ control firing the event.
+1. The instance of the **Gantt** control firing the event.
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __get_task__ returns the current moved task.
+* **get_task** returns the current moved task.
 
-* __get_start__ returns the start time of the current task.
+* **get_start** returns the start time of the current task.
 
-* __set_cancel__ lets you cancel the event and prevent the task moving.
+* **set_cancel** lets you cancel the event and prevent the task moving.
 
-* __get_cancel__ returns __true__ if the event has been canceled.
+* **get_cancel** returns **true** if the event has been canceled.
 
 ````XML
 <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveEnd="OnClientTaskMoveEnd">

@@ -12,16 +12,16 @@ position: 2
 
 ## 
 
-__RadListBox__ can be bound to an __Array__ or __ArrayList__. This example shows how to bind __RadListBox__ objects to an Array and an ArrayList at runtime.
+**RadListBox** can be bound to an **Array** or **ArrayList**. This example shows how to bind **RadListBox** objects to an Array and an ArrayList at runtime.
 
-The declaration of the RadListBox objects includes no __DataSourceID__ property or <items> section:
+The declaration of the RadListBox objects includes no **DataSourceID** property or <items> section:
 
 ````ASPNET
 <telerik:radlistbox id="RadListBox1" runat="server"></telerik:radlistbox>
 <telerik:radlistbox id="RadListBox2" runat="server"></telerik:radlistbox>
 ````
 
-In the __Page_Load__ event handler, create the Array and the ArrayList, and bind them to the RadListBox objects. You must call the __DataBind__ method after setting the __DataSource__ property.
+In the **Page_Load** event handler, create the Array and the ArrayList, and bind them to the RadListBox objects. You must call the **DataBind** method after setting the **DataSource** property.
 
 ````C#	
 protected void Page_Load(object sender, EventArgs e)

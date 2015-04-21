@@ -10,7 +10,7 @@ position: 3
 
 # Binding to ASP.NET Datasource Components
 
-__RadListBox__ supports binding to all ASP.NET 2.0/3.5 DataSource components, including
+**RadListBox** supports binding to all ASP.NET 2.0/3.5 DataSource components, including
 
 * AccessDataSource
 
@@ -26,9 +26,9 @@ __RadListBox__ supports binding to all ASP.NET 2.0/3.5 DataSource components, in
 
 * OpenAccessDataSource
 
-To bind to a DataSource component, all you need to do is set the __DataSourceID__ property of the ListBox to the ID of the DataSource component. You should also set the __DataTextField__ and __DataValueField__ properties of the ListBox to map the __Text__ and __Value__ properties of the items to the respective columns/fields from the data source.
+To bind to a DataSource component, all you need to do is set the **DataSourceID** property of the ListBox to the ID of the DataSource component. You should also set the **DataTextField** and **DataValueField** properties of the ListBox to map the **Text** and **Value** properties of the items to the respective columns/fields from the data source.
 
-If you need to map additional columns from the data source to properties of the ListBox items, you can use the __ItemDataBound__ event. The event arguments passed to the event, __e.Item__ and __e.Item.DataItem__, hold the instance of the ListBox item being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of the ListBox item. Be sure to cast the __DataItem__ object to the proper data type first.
+If you need to map additional columns from the data source to properties of the ListBox items, you can use the **ItemDataBound** event. The event arguments passed to the event, **e.Item** and **e.Item.DataItem**, hold the instance of the ListBox item being bound and the **DataItem** to which it is bound. You can map a property from the **DataItem** to the corresponding property of the ListBox item. Be sure to cast the **DataItem** object to the proper data type first.
 
 
 ````C#
@@ -96,7 +96,7 @@ End Sub
 </asp:XmlDataSource> 
 ````
 
-When using an __XmlDataSource__, the XML file should have the format shown below:
+When using an **XmlDataSource**, the XML file should have the format shown below:
 
 ````XML
 <Items>

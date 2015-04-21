@@ -12,15 +12,15 @@ position: 0
 
 ## 
 
-__Problem__
+**Problem**
 
-Setting the __BackColor__ of RadListBox has no effect.
+Setting the **BackColor** of RadListBox has no effect.
 
-__Cause__
+**Cause**
 
-The corresponding __background-color__ attribute is set to the outer DIV element of the control. The Skin sets the background color to the inner DIV and that overrides it.
+The corresponding **background-color** attribute is set to the outer DIV element of the control. The Skin sets the background color to the inner DIV and that overrides it.
 
-__Solution__
+**Solution**
 
 Add the following CSS rule to the <head> section of your page:
 
@@ -31,15 +31,15 @@ Add the following CSS rule to the <head> section of your page:
 }
 ````
 
-__Problem__
+**Problem**
 
-Setting the __ForeColor__ or different __Font__ properties of RadListBox have no effect.
+Setting the **ForeColor** or different **Font** properties of RadListBox have no effect.
 
-__Cause__
+**Cause**
 
-The corresponding __CSS__ attributes are set to the outer DIV element of the control. The Skin overrides them on item's level.
+The corresponding **CSS** attributes are set to the outer DIV element of the control. The Skin overrides them on item's level.
 
-__Solution__
+**Solution**
 
 Add the following CSS rule to the <head> section of your page:
 

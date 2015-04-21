@@ -11,13 +11,13 @@ position: 1
 # ColumnCreating
 
 
-The __RadGantt ColumnCreating__ is fired when a [TreeList]({%slug gantt/structure/layout%}) column is about to be created.
+The **RadGantt ColumnCreating** is fired when a [TreeList]({%slug gantt/structure/layout%}) column is about to be created.
 
-__ColumnCreating__ event handler receives two parameters:
+**ColumnCreating** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __ColumnCreatingEventArgs__. It gives you access to the [TreeList]({%slug gantt/structure/layout%}) column.
+* **e** is an object of type **ColumnCreatingEventArgs**. It gives you access to the [TreeList]({%slug gantt/structure/layout%}) column.
 
 ## Example
 

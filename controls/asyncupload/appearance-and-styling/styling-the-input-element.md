@@ -12,11 +12,11 @@ position: 3
 
 
 
-This article provides information on how to alter the appearance of the control (if you need to hide the input element of the __RadAsyncUpload__ and only leave the __Select__ button).
+This article provides information on how to alter the appearance of the control (if you need to hide the input element of the **RadAsyncUpload** and only leave the **Select** button).
 
 ## HideFileInput Property
 
-With the release of Q3 Service Pack 2012 the __HideFileInput__ property is implemented for the __RadAsyncUpload__ control. When this property is set to __false__ the text box in front of the button is not rendered.
+With the release of Q3 Service Pack 2012 the **HideFileInput** property is implemented for the **RadAsyncUpload** control. When this property is set to **false** the text box in front of the button is not rendered.
 
 ## See Also
 

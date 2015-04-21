@@ -12,13 +12,13 @@ position: 2
 
 
 
-__RadAsyncUpload__ supports the following client-side events:
+**RadAsyncUpload** supports the following client-side events:
 
 ## RadAyncUpload
 
-* [OnClientAdded]({%slug asyncupload/client-side-programming/onclientadded%}) - Occurs when a row has just been added to the __RadAsyncUpload__ control.
+* [OnClientAdded]({%slug asyncupload/client-side-programming/onclientadded%}) - Occurs when a row has just been added to the **RadAsyncUpload** control.
 
-* [OnClientFileDropped]({%slug asyncupload/client-side-programming/onclientfiledropped%}) -Occurs when file(s) are dropped on some of the drop zones of __RadAsyncUpload__.
+* [OnClientFileDropped]({%slug asyncupload/client-side-programming/onclientfiledropped%}) -Occurs when file(s) are dropped on some of the drop zones of **RadAsyncUpload**.
 
 * [OnClientFilesSelected]({%slug asyncupload/client-side-programming/onclientfilesselected%}) - Occurs when the files are selected immediately after pressing the "Open" button.
 

@@ -17,7 +17,7 @@ position: 0
 The following table lists the most important methods of the client-side RadODataDataSource object:
 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __fetch()__ |string|none|Queries the web service for the respective model.|
-| __get_model()__ |string|model object|Returns Model Object that represents model available in the data source.|
+| **fetch()** |string|none|Queries the web service for the respective model.|
+| **get_model()** |string|model object|Returns Model Object that represents model available in the data source.|

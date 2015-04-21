@@ -13,7 +13,7 @@ position: 5
 
 ## 
 
-The __Updating__ server event fires when the __AutoPostBackOnReorder="True"__ and the user tries to reorder an item / items. It fires __after__ the [Reordering]({%slug listbox/server-side-programming/server-events/reordering%}) server event (is not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
+The **Updating** server event fires when the **AutoPostBackOnReorder="True"** and the user tries to reorder an item / items. It fires **after** the [Reordering]({%slug listbox/server-side-programming/server-events/reordering%}) server event (is not cancelled) once for all selected items. If this event is not cancelled and the **AllowAutomaticUpdates="True"** - the database is updated to reflect the new reordered list.
 
 The event handler receives two parameters:
 
@@ -21,9 +21,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of all __RadListBoxItem__ objects which will be affected by the reordering. This collection is __different__ from the Items collection in the Reordering/Reordered events.
+* **Items** - collection of all **RadListBoxItem** objects which will be affected by the reordering. This collection is **different** from the Items collection in the Reordering/Reordered events.
 
-* __Cancel__ - set it to True to cancel the event and prevent the reordering to happen
+* **Cancel** - set it to True to cancel the event and prevent the reordering to happen
 
 ````C#
 protected void RadListBox1_Updating(object sender, RadListBoxUpdatingEventArgs e)

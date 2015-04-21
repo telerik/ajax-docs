@@ -10,15 +10,15 @@ position: 3
 
 # Web Service Binding
 
-The following article demonstrates how to bind the __RadGantt__ to __WebService__ with __Resources__.
+The following article demonstrates how to bind the **RadGantt** to **WebService** with **Resources**.
 
 ## 
 
-You can easily implement the __WebService__ binding of the __RadGantt__ with enabled __Resources__,by extending the typical __WebService__ binding scenario with the additional methods, needed for the __Resources__ and __Assignments__ operations. For more information on the standard __WebService__ binding of the __RadGantt__ with __GanttProvider__ could be found in the [WebService documentation article]({%slug gantt/data-binding/client-side-binding/web-service-binding%}).
+You can easily implement the **WebService** binding of the **RadGantt** with enabled **Resources**,by extending the typical **WebService** binding scenario with the additional methods, needed for the **Resources** and **Assignments** operations. For more information on the standard **WebService** binding of the **RadGantt** with **GanttProvider** could be found in the [WebService documentation article]({%slug gantt/data-binding/client-side-binding/web-service-binding%}).
 
-The following example demonstrates how to extend the __WebService__, in order to implement the __Resources__.
+The following example demonstrates how to extend the **WebService**, in order to implement the **Resources**.
 
-__Example 1__
+**Example 1**
 
 ````C#	
 [WebMethod(EnableSession = true)]

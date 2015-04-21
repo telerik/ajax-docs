@@ -12,7 +12,7 @@ position: 15
 
 ## 
 
-The __OnClientItemsRequested__ client-side event occurs after the load-on-demand mechanism has added new items to the listbox.
+The **OnClientItemsRequested** client-side event occurs after the load-on-demand mechanism has added new items to the listbox.
 
 The event handler receives the following parameter:
 

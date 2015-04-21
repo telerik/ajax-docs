@@ -12,14 +12,14 @@ position: 2
 
 ## 
 
-In addition to [adding templates at design time]({%slug listbox/templates/working-with-templates-at-design-time%}), you can also add templates to __RadListBox__ at runtime using the __ItemTemplate__ property.
+In addition to [adding templates at design time]({%slug listbox/templates/working-with-templates-at-design-time%}), you can also add templates to **RadListBox** at runtime using the **ItemTemplate** property.
 
 >note The RadListBox items should be dynamically added so that Templates can be defined at run time.
->Also, the __items should be bound__ to be able to eval DataBinder expressions. In other words, you should call the __DataBind__ method of the RadListBox object or bind the items that are about to use __DataBinder.Eval__ . You can bind a specific item by calling the __DataBind__ method of this specific item.
+>Also, the **items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadListBox object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 
 
->note The __ItemTemplate__ should be initialized in the __OnInit__ event of the page. This is needed as the Template should be instantiated before the RadListBox items are initialized.
+>note The **ItemTemplate** should be initialized in the **OnInit** event of the page. This is needed as the Template should be instantiated before the RadListBox items are initialized.
 >
 
 
@@ -145,12 +145,12 @@ The end result is:
 
 ![Templates design time](images/listbox_templates_design_time.png)
 
-If you for some reason cannot define the template in the __OnInit__ event of the page, you could use another approach:
+If you for some reason cannot define the template in the **OnInit** event of the page, you could use another approach:
 
->note The template has to be instantiated for each item upon a postback. Since the __MultiColumnListBoxTemplate__ class initializes the controls on InstantiateIn we call the InstantiateIn method of the __MultiColumnListBoxTemplate__ object for each item.
+>note The template has to be instantiated for each item upon a postback. Since the **MultiColumnListBoxTemplate** class initializes the controls on InstantiateIn we call the InstantiateIn method of the **MultiColumnListBoxTemplate** object for each item.
 >
 
-Alternatively, you can add controls directly to the __Controls__ collection of __RadListBoxItem__:
+Alternatively, you can add controls directly to the **Controls** collection of **RadListBoxItem**:
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)

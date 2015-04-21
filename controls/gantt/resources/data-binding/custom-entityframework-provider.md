@@ -10,7 +10,7 @@ position: 4
 
 # Custom EntityFramework Provider
 
-This help article extends the [Custom Entity Provider]({%slug gantt/data-binding/providers/custom-entityframework-provider%}) guidance. It shows how to add support for the __Resources__ in the __Gantt__ using Custom Provider.
+This help article extends the [Custom Entity Provider]({%slug gantt/data-binding/providers/custom-entityframework-provider%}) guidance. It shows how to add support for the **Resources** in the **Gantt** using Custom Provider.
 
 ## Implementing Resources using Custom Entity Provider.
 
@@ -18,7 +18,7 @@ To enable this functionality:
 
 * a few additional methods of the custom provider needs to be overridden - *GetResources(), GetAssignments(), UpdateAssignment(), InsertAssignment() and DeleteAssignment()*.
 
-* set the __EnableResources__ property of the Gantt to __true__.
+* set the **EnableResources** property of the Gantt to **true**.
 
 ````C#
 public override List<ITask> GetTasks()

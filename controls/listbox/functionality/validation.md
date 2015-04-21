@@ -10,11 +10,11 @@ position: 6
 
 # Validation
 
-You can use the built in ASP.NET validation with __RadListBox__.
+You can use the built in ASP.NET validation with **RadListBox**.
 
 ## Validating RadListBox with RequiredFieldValidator
 
-To validate for selected item of a listbox, just specify the ID of the listbox in the __ControlToValidate__ property of the __RequiredFieldValidator__. Validation checks to see if there is at least one selected item.
+To validate for selected item of a listbox, just specify the ID of the listbox in the **ControlToValidate** property of the **RequiredFieldValidator**. Validation checks to see if there is at least one selected item.
 
 ````ASPNET
 <telerik:RadListBox runat="server" ID="RadListBox1"> 

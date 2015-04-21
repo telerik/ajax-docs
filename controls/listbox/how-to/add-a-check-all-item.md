@@ -12,7 +12,7 @@ position: 4
 
 ## 
 
->note From Q3 2013 you can use a __CheckAll__ checkbox functionality in RadListBox. You can set the __ShowCheckAll__ property of RadListBox to *True* and if __CheckBoxes__ is also set to true the __CheckAll__ checkbox will be shown at the top of all other items of RadListBox.
+>note From Q3 2013 you can use a **CheckAll** checkbox functionality in RadListBox. You can set the **ShowCheckAll** property of RadListBox to *True* and if **CheckBoxes** is also set to true the **CheckAll** checkbox will be shown at the top of all other items of RadListBox.
 >
 
 

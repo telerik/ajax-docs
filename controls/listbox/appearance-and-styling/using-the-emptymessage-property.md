@@ -10,7 +10,7 @@ position: 1
 
 # Using the EmptyMessage Property
 
-The __EmptyMessage__ property lets you specify a string that will appear when the RadListBox contains no items.
+The **EmptyMessage** property lets you specify a string that will appear when the RadListBox contains no items.
 
 ![EmptyMessage property](images/listbox_empty_message.png)
 
@@ -38,7 +38,7 @@ End Sub
 
 ## Controlling the appearance of the EmptyMessage text
 
-To control the appearance of the __EmptyMessage__ text you can add and change this CSS rule:
+To control the appearance of the **EmptyMessage** text you can add and change this CSS rule:
 
 ````XML	  
 <style type="text/css">
@@ -49,7 +49,7 @@ To control the appearance of the __EmptyMessage__ text you can add and change th
 </style> 	
 ````
 
-In addition you can define your own template on how the empty message should look like by using the <__EmptyMessageTemplate__> tag. Just like the ItemTemplate you can place any html / asp.net controls in it and it will be shown when the RadListBox is empty. Here is an example:
+In addition you can define your own template on how the empty message should look like by using the <**EmptyMessageTemplate**> tag. Just like the ItemTemplate you can place any html / asp.net controls in it and it will be shown when the RadListBox is empty. Here is an example:
 
 ````XML	        
 <telerik:RadListBox ID="RadListBox1" runat="server"

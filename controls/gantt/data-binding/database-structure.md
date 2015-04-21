@@ -10,7 +10,7 @@ position: 0
 
 # Database Structure
 
-The __Gantt__'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/structure/tasks%}) and[Dependencies]({%slug gantt/structure/dependencies%}). Below is shown a sample database with all required fields.
+The **Gantt**'s data can be stored within a Database with tables for the [Tasks]({%slug gantt/structure/tasks%}) and[Dependencies]({%slug gantt/structure/dependencies%}). Below is shown a sample database with all required fields.
 
 ## Tasks![gantt-database-structure-1](images/gantt-database-structure-1.png)
 

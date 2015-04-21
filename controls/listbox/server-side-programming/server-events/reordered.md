@@ -12,7 +12,7 @@ position: 4
 
 ## 
 
-The __Reordered__ event fires after the [Updated]({%slug listbox/server-side-programming/server-events/updated%}) event. The __Items__ collection of the listbox is updated to reflect the reordering.
+The **Reordered** event fires after the [Updated]({%slug listbox/server-side-programming/server-events/updated%}) event. The **Items** collection of the listbox is updated to reflect the reordering.
 
 The event handler receives two parameters:
 
@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of __RadListBoxItem__ objects which were reordered.
+* **Items** - collection of **RadListBoxItem** objects which were reordered.
 
 
 ````C#

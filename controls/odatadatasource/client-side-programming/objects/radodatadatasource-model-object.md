@@ -17,11 +17,11 @@ position: 1
 The following table lists the most important methods of the client-side model of the RadODataDataSource :
 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __nextPage()__ |none|none|Queries the next page of data|
-| __previousPage()__ |none|none|Queries the previous page of data|
-| __get_filterExpression()__ |none|array of filters|Gets filters for the request|
-| __set_filterExpression()__ |array of filters|none|Sets filters for the request|
-| __get_sortExpression()__ |none|array of sort expression|Returns sort expression|
-| __set_sortExpression()__ |array of sort expression|none|Sets sort expression|
+| **nextPage()** |none|none|Queries the next page of data|
+| **previousPage()** |none|none|Queries the previous page of data|
+| **get_filterExpression()** |none|array of filters|Gets filters for the request|
+| **set_filterExpression()** |array of filters|none|Sets filters for the request|
+| **get_sortExpression()** |none|array of sort expression|Returns sort expression|
+| **set_sortExpression()** |array of sort expression|none|Sets sort expression|

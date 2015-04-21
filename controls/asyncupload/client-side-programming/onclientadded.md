@@ -12,23 +12,23 @@ position: 3
 
 ## 
 
-The __OnClientAdded__ client-side event occurs when a new row has just been added to the __RadAsyncUpload__ control.
+The **OnClientAdded** client-side event occurs when a new row has just been added to the **RadAsyncUpload** control.
 
->note This event occurs for the initial rows that are added when the __RadAsyncUpload__ control is first loaded, as well as any rows automatically added after a file has been uploaded or after invocation of the client-side __addFileInput()__ method.
+>note This event occurs for the initial rows that are added when the **RadAsyncUpload** control is first loaded, as well as any rows automatically added after a file has been uploaded or after invocation of the client-side **addFileInput()** method.
 >
 
 
 The event handler receives two parameters:
 
-1. The instance of the __RadAsycUpload__ control firing the event.
+1. The instance of the **RadAsycUpload** control firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_row__ returns the row that was just added.
+* **get_row** returns the row that was just added.
 
-* __get_rowIndex__ returns the index of the row
+* **get_rowIndex** returns the index of the row
 
-Use the __OnClientAdded__ event to perform any last minute changes to the rows in the __RadAsyncUpload__ control.
+Use the **OnClientAdded** event to perform any last minute changes to the rows in the **RadAsyncUpload** control.
 
 ````ASPNET
 <telerik:RadAsyncUpload runat="server" ID="RadAsyncUpload1" OnClientAdded="OnClientAdded"></telerik:RadAsyncUpload>

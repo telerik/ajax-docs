@@ -11,13 +11,13 @@ position: 4
 # TaskUpdate
 
 
-The __RadGantt TaskUpdate__ is fired when a task's collection is about to be updated through the provider.
+The **RadGantt TaskUpdate** is fired when a task's collection is about to be updated through the provider.
 
-__TaskUpdate__ event handler receives two parameters:
+**TaskUpdate** event handler receives two parameters:
 
-* __sender__ is the __RadGantt__ control instance.
+* **sender** is the **RadGantt** control instance.
 
-* __e__ is an object of type __GanttEventArgs__. It provides access to the updated __RadGantt__ tasks collection.
+* **e** is an object of type **GanttEventArgs**. It provides access to the updated **RadGantt** tasks collection.
 
 ## Example
 

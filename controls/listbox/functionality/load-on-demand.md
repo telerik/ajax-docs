@@ -10,13 +10,13 @@ position: 7
 
 # Load On Demand
 
-The following article demonstrates the different types of usage of the __LoadOnDemnad__ mechanism with __RadListBox__.
+The following article demonstrates the different types of usage of the **LoadOnDemnad** mechanism with **RadListBox**.
 
 ## General Usage of the RadListBox' Load On Demand Mechanism.
 
-1. Set the __EnableLoadOnDemand__ property to __true__.
+1. Set the **EnableLoadOnDemand** property to **true**.
 
-1. Set __Height__ to RadListBox. If the __EnableLoadOnDemand__ property is set to __true__, but there is no __Height__ set, RadListBox will not utilize on demand loading.
+1. Set **Height** to RadListBox. If the **EnableLoadOnDemand** property is set to **true**, but there is no **Height** set, RadListBox will not utilize on demand loading.
 
 1. Assign a data source to RadListBox, this can be done both from code-behind or declaratively.
 
@@ -100,7 +100,7 @@ On client-side, Load on demand is triggered in the following occasions:
 
 Accessing item using the API :
 
->note You need to use the __GetItemAsync__ method instead of __GetItem__ 
+>note You need to use the **GetItemAsync** method instead of **GetItem** 
 >
 
 
@@ -130,13 +130,13 @@ If the sought item is loaded, RadListBox will immediately pass it to the callbac
 
 ## Custom Implementation of Load On Demand Mechanism, Handling ItemsRequested Event.
 
-The __ItemsRequested__ event handler of the __RadListBox__ could be use for achieving a custom implementation of the __LoadOnDemand__ scenario. You could use the RadListBox' client-side method - __requestItems()__, in order to initiate the load-on-demand callback. The usage of the method will cause the __ItemsRequest__ server event to fire, where you could handle the binding of the control. You could pass two parameters with the __requestItems()__ method, in order to implement a custom binding of the RadListBox:
+The **ItemsRequested** event handler of the **RadListBox** could be use for achieving a custom implementation of the **LoadOnDemand** scenario. You could use the RadListBox' client-side method - **requestItems()**, in order to initiate the load-on-demand callback. The usage of the method will cause the **ItemsRequest** server event to fire, where you could handle the binding of the control. You could pass two parameters with the **requestItems()** method, in order to implement a custom binding of the RadListBox:
 
-* __Index__ - specifying the StartIndex, from which the datasource will be loaded.
+* **Index** - specifying the StartIndex, from which the datasource will be loaded.
 
-* __Count__ - specifying the ItemsPerRequest, which needs to be acquired from the underlying datasource.
+* **Count** - specifying the ItemsPerRequest, which needs to be acquired from the underlying datasource.
 
-In the example bellow, you could observe how a button in the __FooterTemplate__ of the RadListBox is used, in order to load the underlying datasource in portions.
+In the example bellow, you could observe how a button in the **FooterTemplate** of the RadListBox is used, in order to load the underlying datasource in portions.
 
 ````ASPNET
 <telerik:RadListBox runat="server"

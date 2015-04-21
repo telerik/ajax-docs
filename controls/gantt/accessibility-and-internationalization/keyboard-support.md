@@ -10,7 +10,7 @@ position: 2
 
 # Keyboard Support
 
-__RadGantt__ introduces keyboard support. In order to activate it, you must set the __KeyboardNavigationSettings__:
+**RadGantt** introduces keyboard support. In order to activate it, you must set the **KeyboardNavigationSettings**:
 
 ````ASPNET
 <telerik:RadGantt ID="RadGantt1" runat="server">
@@ -28,36 +28,36 @@ The keyboard navigation has the following functionalities:
 
 ## 
 
-__ACTIONS APPLIED ON GANTT'S TIMELINE__
+**ACTIONS APPLIED ON GANTT'S TIMELINE**
 
-* __Delete__ - deletes currently selected task and/or dependency.
+* **Delete** - deletes currently selected task and/or dependency.
 
-__ACTIONS APPLIED ON GANTT'S TREELIST HEADER__
+**ACTIONS APPLIED ON GANTT'S TREELIST HEADER**
 
-* __Enter__ - sort by the column.
+* **Enter** - sort by the column.
 
-__ACTIONS APPLIED ON GANTT'S TREELIST DATA TABLE__
+**ACTIONS APPLIED ON GANTT'S TREELIST DATA TABLE**
 
-* __Arrow Keys__ - to navigate over the cells.
+* **Arrow Keys** - to navigate over the cells.
 
-* __Enter__ - opens cell editor.
+* **Enter** - opens cell editor.
 
-* __Esc__ - closes cell editor.
+* **Esc** - closes cell editor.
 
-* __Space__ - selects currently highlighted cell's row.
+* **Space** - selects currently highlighted cell's row.
 
-* __1 - 3__ - moves between the available views.
+* **1 - 3** - moves between the available views.
 
-* __Alt Left Arrow / Alt Right Arrow__ - scrolls timeline.
+* **Alt Left Arrow / Alt Right Arrow** - scrolls timeline.
 
-* __Ctrl Right Arrow / Ctrl Left Arrow__ - expand/collapse summary row.
+* **Ctrl Right Arrow / Ctrl Left Arrow** - expand/collapse summary row.
 
-__ACTIONS APPLIED ON 'ADD TASK' ACTION DROPDOWN__
+**ACTIONS APPLIED ON 'ADD TASK' ACTION DROPDOWN**
 
-* __Up Arrow__ - highlights previous item.
+* **Up Arrow** - highlights previous item.
 
-* __Down Arrow__ - highlights next item.
+* **Down Arrow** - highlights next item.
 
-* __Enter__ - selects highlighted item.
+* **Enter** - selects highlighted item.
 
-* __Esc__ - closes the dropdown.
+* **Esc** - closes the dropdown.

@@ -16,7 +16,7 @@ position: 3
 
 ## 
 
-The __Gantt__ control offers [WAI-ARIA](http://www.w3.org/WAI/intro/aria) support. It is enabled by default.
+The **Gantt** control offers [WAI-ARIA](http://www.w3.org/WAI/intro/aria) support. It is enabled by default.
 
 >note The implementation of the WAI ARIA support is achieved entirely client-side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
 >

@@ -12,7 +12,7 @@ position: 0
 
 
 
-__Gantt__ also supports a number of client-side events that helps you further customize the behavior of the control. Below you can find a list of the available ones that you can use.
+**Gantt** also supports a number of client-side events that helps you further customize the behavior of the control. Below you can find a list of the available ones that you can use.
 
 ## Gentt - Client Events
 

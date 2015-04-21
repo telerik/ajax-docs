@@ -12,7 +12,7 @@ position: 3
 
 ## 
 
-The __OnClientDeleted__ Client-side event occurs after the item or items have been deleted.
+The **OnClientDeleted** Client-side event occurs after the item or items have been deleted.
 
 The event handler receives two parameters:
 
@@ -20,11 +20,11 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_items()__ - returns an array of the deleted items
+* **get_items()** - returns an array of the deleted items
 
-* __get_item()__ - returns the item that was deleted
+* **get_item()** - returns the item that was deleted
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 The example below shows how to alert the user that the item was successfully deleted:
 

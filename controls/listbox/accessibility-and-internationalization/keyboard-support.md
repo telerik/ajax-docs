@@ -12,7 +12,7 @@ position: 1
 
 ## 
 
-__RadListBox__ fully supports keyboard navigation - selecting items, checking items and deleting items. Make sure the __TabIndex__ property is set beforehand.
+**RadListBox** fully supports keyboard navigation - selecting items, checking items and deleting items. Make sure the **TabIndex** property is set beforehand.
 
 ````ASPNET
 <telerik:radlistbox runat="server" id="RadListBox1" selectionmode="Multiple" tabindex="1"
@@ -33,17 +33,17 @@ __RadListBox__ fully supports keyboard navigation - selecting items, checking it
  </telerik:radlistbox>
 ````
 
-* __Tab__ to activate RadListBox
+* **Tab** to activate RadListBox
 
-* Use __SHIFT__ and the arrow keys to select multiple items
+* Use **SHIFT** and the arrow keys to select multiple items
 
-* Use __CTRL__ and the arrow keys to move the active item
+* Use **CTRL** and the arrow keys to move the active item
 
-* Press __SPACE__ to select only the active item.
+* Press **SPACE** to select only the active item.
 
-* Hold __CTRL__ and press __SPACE__ to add the active item to the selection.
+* Hold **CTRL** and press **SPACE** to add the active item to the selection.
 
-* Press __DEL__ to delete the selected items (if __AllowDelete__ is set to __true__).
+* Press **DEL** to delete the selected items (if **AllowDelete** is set to **true**).
 
 
 # See Also

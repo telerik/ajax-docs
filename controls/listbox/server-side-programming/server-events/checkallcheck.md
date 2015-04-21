@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-The __CheckAllCheck__ event fires after a user checks or unchecks the CheckAll item.To fire automatically the __AutoPostBack__, __heckBoxes__ and __ShowCheckAll__ properties should be set to True.
+The **CheckAllCheck** event fires after a user checks or unchecks the CheckAll item.To fire automatically the **AutoPostBack**, **heckBoxes** and **ShowCheckAll** properties should be set to True.
 
 
 
@@ -24,4 +24,4 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following property:
 
-* __CheckAllChecked__ - shows true of false if the CheckAll checkbox is checked or unchecked
+* **CheckAllChecked** - shows true of false if the CheckAll checkbox is checked or unchecked

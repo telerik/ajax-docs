@@ -12,11 +12,11 @@ position: 1
 
 
 
-The following articles describes the Reordering feature of the __RadGantt__
+The following articles describes the Reordering feature of the **RadGantt**
 
 ## Reordering
 
-You can reorder the tasks in the __RadGantt__ by dragging the task rows within the Treelist area of the control. There are three possibilities when reordering certain task:
+You can reorder the tasks in the **RadGantt** by dragging the task rows within the Treelist area of the control. There are three possibilities when reordering certain task:
 
 * Drop above certain task
 

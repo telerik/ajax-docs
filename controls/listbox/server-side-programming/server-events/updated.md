@@ -12,7 +12,7 @@ position: 6
 
 ## 
 
-The __Updated__ event fires after the [Updating]({%slug listbox/server-side-programming/server-events/updating%}) event (if not cancelled) and after the database has been updated (if __AllowAutomaticUpdates="True"__)
+The **Updated** event fires after the [Updating]({%slug listbox/server-side-programming/server-events/updating%}) event (if not cancelled) and after the database has been updated (if **AllowAutomaticUpdates="True"**)
 
 The event handler receives two parameters:
 
@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __Items__ - collection of all __RadListBoxItem__ objects which will be affected by the reordering. This collection is __different__ from the Items collection in the Reordering/Reordered events
+* **Items** - collection of all **RadListBoxItem** objects which will be affected by the reordering. This collection is **different** from the Items collection in the Reordering/Reordered events
 
 
 ````C#	

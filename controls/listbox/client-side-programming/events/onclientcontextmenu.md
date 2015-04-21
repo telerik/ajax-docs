@@ -14,7 +14,7 @@ position: 25
 
 ## 
 
-The __OnClientContextMenu__ client-side event occurs when a user right clicks over a listbox item.
+The **OnClientContextMenu** client-side event occurs when a user right clicks over a listbox item.
 
 
 
@@ -24,9 +24,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following methods:
 
-* __get_item()__ - returns the item that has been right clicked.
+* **get_item()** - returns the item that has been right clicked.
 
-* __get_domEvent()__ - returns the DOM event object
+* **get_domEvent()** - returns the DOM event object
 
 
 
