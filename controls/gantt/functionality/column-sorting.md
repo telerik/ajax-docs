@@ -12,7 +12,7 @@ position: 2
 
 
 
-__RadGantt__ offers sorting capabilities that allows the users to conveniently order the tasks in the tree list in the desired direction.The feature is enable by default and the control will handle the sorting operations automatically. You could disable the sorting generally by setting__AllowSorting__ property to __false__ of the control or disable the sorting of a particular column by setting the same property oneach column which should not have this feature enabled.
+__RadGantt__ offers sorting capabilities that allows the users to conveniently order the tasks in the tree list in the desired direction.The feature is enable by default and the control will handle the sorting operations automatically. You could disable the sorting generally by setting __AllowSorting__ property to __false__ of the control or disable the sorting of a particular column by setting the same property oneach column which should not have this feature enabled.
 
 ## 
 

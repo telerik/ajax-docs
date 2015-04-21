@@ -10,8 +10,6 @@ position: 0
 
 # Server-side Programming Overview
 
-
-
 __RadGantt__ provides a rich set of server-side properties and events that can help you configure the look and behaviour of the control.
 
 ## RadGantt Properties
@@ -25,8 +23,8 @@ __Table 1__ demonstrates some general properties of the __RadGantt__:
 | __Width__ |Gets or sets the __RadGantt__ width in pixels or percents.|
 | __ListWidth__ |Gets or sets the __RadGantt__ list width in pixels or percents.|
 | __Height__ |Gets or sets the __RadGantt__ height in pixels or percents.|
-| __ProviderName__ |Gets or sets the name of the current tasks provider used by __RadGantt__ . The provider must be defined in the gantt section of web.config.|
-| __Provider__ |Gets or sets the provider instance to be used by __RadGantt__ . Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the __ProviderName__ property.|
+| __ProviderName__ |Gets or sets the name of the current tasks provider used by __RadGantt__. The provider must be defined in the gantt section of web.config.|
+| __Provider__ |Gets or sets the provider instance to be used by __RadGantt__. Use this property with providers that are created at runtime. For ASP.NET providers defined in web.config use the __ProviderName__ property.|
 | __SelectedView__ |Gets or sets the current view type.|
 | __DependenciesDataSourceID__ |Gets or sets the data source used to bind dependencies.|
 | __DependenciesDataSource__ |Gets or sets data source used for dependencies.|
@@ -36,13 +34,13 @@ __Table 1__ demonstrates some general properties of the __RadGantt__:
 | __MonthView__ |Gets the __Month__ view settings.|
 | __YearView__ |Gets the __Year__ view settings.|
 | __ReadOnly__ |Gets or sets a value indicating whether __RadGantt__ is in read-only mode.|
-| __AutoGenerateColumns__ |Gets or sets a value indicating whether bound columns are automatically created for each field in the data source. __RadGantt__ will auto generate columns for the following fields: __ID__ , __Title__ , __Start__ , __End__ and __PercentageComplete__ .|
+| __AutoGenerateColumns__ |Gets or sets a value indicating whether bound columns are automatically created for each field in the data source. __RadGantt__ will auto generate columns for the following fields: __ID__, __Title__, __Start__, __End__ and __PercentageComplete__.|
 | __Culture__ |Gets or sets the selected culture. Localization strings will be loaded based on this value.|
 | __Localization__ |Gets the localization.|
 | __LocalizationPath__ |Gets or sets a value indicating where __RadGantt__ will look for its __.resx__ localization files.|
-| __WebServiceSettings__ |Gets the web service settings to be used for binding this instance of __RadGantt__ .|
+| __WebServiceSettings__ |Gets the web service settings to be used for binding this instance of __RadGantt__.|
 | __SnapToGrid__ |Gets or sets a value that determines whether the tasks will snap to the nearest grid cell in the timeline.|
-| __DisplayDeleteConfirmation__ |Gets or sets a value indicating whether a delete confirmation dialog should be displayed when the user deletes a task or a dependency. The default value is __true__ .|
+| __DisplayDeleteConfirmation__ |Gets or sets a value indicating whether a delete confirmation dialog should be displayed when the user deletes a task or a dependency. The default value is __true__.|
 | __KeyboardNavigationSettings__ |Gets the __KeyboardNavigation__ settings.|
 
 ## RadGantt Methods
@@ -85,7 +83,7 @@ __Task Properties__
 | __OrderID__ |Gets/sets __OrderID__ field used by sort operations.|
 | __Duration__ |Gets the appointment duration.|
 | __Summary__ |Gets/sets a value that determines whether the tasks is a summary.|
-| __Expanded__ |Gets or sets a value that determines whether the tasks is expanded in the __TreeList__ .|
+| __Expanded__ |Gets or sets a value that determines whether the tasks is expanded in the __TreeList__.|
 | __PercentComplete__ |Gets or sets a value that determines the percent of completion.|
 | __Title__ |Gets or sets a value that determines the title of the task. The tasks is shown by default in the __TreeList__ part. If this is not the desired behavior one can set the property to false.|
 | __TaskType__ |Gets a value that determines the type of the tasks.|

@@ -11,7 +11,6 @@ position: 1
 # ColumnCreating
 
 
-
 The __RadGantt ColumnCreating__ is fired when a [TreeList]({%slug gantt/structure/layout%}) column is about to be created.
 
 __ColumnCreating__ event handler receives two parameters:
@@ -23,27 +22,23 @@ __ColumnCreating__ event handler receives two parameters:
 ## Example
 
 ````ASPNET
-	    <telerik:RadGantt ID="RadGantt1" runat="server" OnColumnCreating="RadGantt1_ColumnCreating"></telerik:RadGantt>
+<telerik:RadGantt ID="RadGantt1" runat="server" OnColumnCreating="RadGantt1_ColumnCreating"></telerik:RadGantt>
 ````
-
-
-
-
 
 ````C#
-	    protected void RadGantt1_ColumnCreating(object sender, Telerik.Web.UI.Gantt.ColumnCreatingEventArgs e)
-	    {
-	        if (e.Column.HeaderText == "ID") {
-	            e.Column.AllowSorting = false;
-	        }
-	    }
+protected void RadGantt1_ColumnCreating(object sender, Telerik.Web.UI.Gantt.ColumnCreatingEventArgs e)
+{
+    if (e.Column.HeaderText == "ID") {
+        e.Column.AllowSorting = false;
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGantt1_ColumnCreating(sender As Object, e As Gantt.ColumnCreatingEventArgs)
-	        For Each item As var In e.Tasks
-	            item.Title = "Modified Title"
-	        Next
-	    End Sub
+Protected Sub RadGantt1_ColumnCreating(sender As Object, e As Gantt.ColumnCreatingEventArgs)
+    For Each item As var In e.Tasks
+        item.Title = "Modified Title"
+    Next
+End Sub
 ````
 
 

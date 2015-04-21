@@ -10,14 +10,12 @@ position: 2
 
 # Keyboard Support
 
-
-
 __RadGantt__ introduces keyboard support. In order to activate it, you must set the __KeyboardNavigationSettings__:
 
 ````ASPNET
-	    <telerik:RadGantt ID="RadGantt1" runat="server">
-	        <KeyboardNavigationSettings FocusKey="W" CommandKey="Alt" />
-	    </telerik:RadGantt>              
+<telerik:RadGantt ID="RadGantt1" runat="server">
+    <KeyboardNavigationSettings FocusKey="W" CommandKey="Alt" />
+</telerik:RadGantt>              
 ````
 
 

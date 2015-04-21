@@ -10,8 +10,6 @@ position: 1
 
 # OnClientTaskMoveStart
 
-
-
 ## 
 
 The __OnClientTaskMoveStart__ occurs when the Task moving is started.
@@ -27,19 +25,15 @@ The event handler receives two parameters:
 * __set_cancel__ lets you cancel the event and prevent the task moving.
 
 ````XML
-	        <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveStart="OnClientTaskMoveStart">
-	        </telerik:RadGantt>
+<telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveStart="OnClientTaskMoveStart">
+</telerik:RadGantt>
 ````
-
-
 
 ````JavaScript
-	        function OnClientTaskMoveStart(sender, eventArgs) {
-	            args.set_cancel(true);
-	        }
+function OnClientTaskMoveStart(sender, eventArgs) {
+    args.set_cancel(true);
+}
 ````
-
-
 
 # See Also
 

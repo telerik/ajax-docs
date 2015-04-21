@@ -10,8 +10,6 @@ position: 4
 
 # OnClientTaskResizeStart
 
-
-
 ## 
 
 The __OnClientTaskResizeStart__ occurs when the Task resizing is started.
@@ -29,18 +27,15 @@ The event handler receives two parameters:
 * __get_cancel__ returns __true__ if the event has been canceled.
 
 ````XML
-	        <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskResizeStart="OnClientTaskResizeStart">
-	        </telerik:RadGantt>
+<telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskResizeStart="OnClientTaskResizeStart">
+</telerik:RadGantt>
 ````
-
-
 
 ````JavaScript
-	        function OnClientTaskResizeStart(sender, eventArgs) {
-	            args.set_cancel(true);
-	        }
+function OnClientTaskResizeStart(sender, eventArgs) {
+    args.set_cancel(true);
+}
 ````
-
 
 
 # See Also

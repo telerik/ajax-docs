@@ -10,13 +10,11 @@ position: 1
 
 # Localization
 
-
-
 __RadGantt__ supports built-in localization through __Global resources__. Similar to other Telerik UI controls you can use the resx files to localize the control with minimum efforts.
 
 ## Using the resource files
 
-The resource files should be placed within the __App_GlobalResources__folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). Telerik controls installation wizard automatically copies the built-in resources to the __App_GlobalResources__ in your local installation.
+The resource files should be placed within the __App_GlobalResources__ folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). Telerik controls installation wizard automatically copies the built-in resources to the __App_GlobalResources__ in your local installation.
 
 To change the current language/resource you should set the __Culture__ property accordingly.
 
@@ -48,7 +46,7 @@ The process of creating a new global resource follows the same pattern as in __R
 
 1. Set the __Culture__ property to the relevant language
 
->caution Please __ -do not- __ modify/remove the __ReservedResource__ key.
+>caution Please __do not__ modify/remove the __ReservedResource__ key.
 >
 
 

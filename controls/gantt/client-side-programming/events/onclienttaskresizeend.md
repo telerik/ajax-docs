@@ -10,8 +10,6 @@ position: 6
 
 # OnClientTaskResizeEnd
 
-
-
 ## 
 
 The __OnClientTaskResizeEnd__ occurs when the Task resizing is ended.
@@ -33,19 +31,15 @@ The event handler receives two parameters:
 * __get_end__ returns the end time of the current task.
 
 ````XML
-	        <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskResizeEnd="OnClientTaskResizeEnd">
-	        </telerik:RadGantt>
+<telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskResizeEnd="OnClientTaskResizeEnd">
+</telerik:RadGantt>
 ````
-
-
 
 ````JavaScript
-	        function OnClientTaskResizeEnd(sender, eventArgs) {
-	            args.set_cancel(true);
-	        }
+function OnClientTaskResizeEnd(sender, eventArgs) {
+    args.set_cancel(true);
+}
 ````
-
-
 
 # See Also
 

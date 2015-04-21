@@ -11,7 +11,6 @@ position: 4
 # TaskUpdate
 
 
-
 The __RadGantt TaskUpdate__ is fired when a task's collection is about to be updated through the provider.
 
 __TaskUpdate__ event handler receives two parameters:
@@ -23,28 +22,24 @@ __TaskUpdate__ event handler receives two parameters:
 ## Example
 
 ````ASPNET
-	    <telerik:RadGantt ID="RadGantt1" runat="server" OnTaskUpdate="RadGantt1_TaskUpdate"></telerik:RadGantt>
+<telerik:RadGantt ID="RadGantt1" runat="server" OnTaskUpdate="RadGantt1_TaskUpdate"></telerik:RadGantt>
 ````
-
-
-
-
 
 ````C#
-	    protected void RadGantt1_TaskUpdate(object sender, Telerik.Web.UI.Gantt.GanttEventArgs e)
-	    {
-	        foreach (var item in e.Tasks)
-	        {
-	            item.Title = "Modified Title";
-	        }
-	    }
+protected void RadGantt1_TaskUpdate(object sender, Telerik.Web.UI.Gantt.GanttEventArgs e)
+{
+    foreach (var item in e.Tasks)
+    {
+        item.Title = "Modified Title";
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGantt1_TaskUpdated(sender As Object, e As Telerik.Web.UI.Gantt.GanttEventArgs)
-	        For Each item As var In e.Tasks
-	            item.Title = "Modified Title"
-	        Next
-	    End Sub
+Protected Sub RadGantt1_TaskUpdated(sender As Object, e As Telerik.Web.UI.Gantt.GanttEventArgs)
+    For Each item As var In e.Tasks
+        item.Title = "Modified Title"
+    Next
+End Sub
 ````
 
 

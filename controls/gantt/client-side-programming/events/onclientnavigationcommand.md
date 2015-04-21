@@ -10,8 +10,6 @@ position: 7
 
 # OnClientNavigationCommand
 
-
-
 ## 
 
 The __OnClientNavigationCommand__ occurs when the Task moving is started.
@@ -29,19 +27,15 @@ The event handler receives two parameters:
 * __get_view__ returns the name of the selected view.
 
 ````XML
-	        <telerik:RadGantt runat="server" id="RadGantt1" OnClientNavigationCommand="OnClientNavigationCommand">
-	        </telerik:RadGantt>
+<telerik:RadGantt runat="server" id="RadGantt1" OnClientNavigationCommand="OnClientNavigationCommand">
+</telerik:RadGantt>
 ````
-
-
 
 ````JavaScript
-	        function OnClientNavigationCommand(sender, eventArgs) {
-	            args.set_cancel(true);
-	        }
+function OnClientNavigationCommand(sender, eventArgs) {
+    args.set_cancel(true);
+}
 ````
-
-
 
 # See Also
 

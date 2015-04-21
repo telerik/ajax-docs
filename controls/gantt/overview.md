@@ -10,8 +10,6 @@ position: 0
 
 # Gantt Overview
 
-
-
 __RadGantt__ for ASP.NET AJAX is a type of bar chart that is used in project management to illustrate a project schedule. It provides visual information about the work breakdown structure of the project.
 
 ## 

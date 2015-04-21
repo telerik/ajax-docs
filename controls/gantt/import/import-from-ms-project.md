@@ -10,8 +10,6 @@ position: 0
 
 # Import from MS Project
 
-
-
 __RadGantt__ control can import and work with __MS Project__ data stored in XML format.
 
 ## Example
@@ -21,11 +19,9 @@ Following code shows how to import [MS Project XML data](http://msdn.microsoft.c
 1. Add simple __RadGantt__ definition in the page markup.
 
 ````ASPNET
-	        <telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
-	        <asp:Button ID="btnImport" Text="Import Tasks" runat="server" OnClick="btnImport_Click" />
+<telerik:RadGantt runat="server" ID="RadGantt1" SelectedView="MonthView"></telerik:RadGantt>
+<asp:Button ID="btnImport" Text="Import Tasks" runat="server" OnClick="btnImport_Click" />
 ````
-
-
 
 1. Configure __RadGantt__ control to use an empty provider.
 
@@ -36,47 +32,41 @@ Following code shows how to import [MS Project XML data](http://msdn.microsoft.c
 * *ImportedMSProject.xml*
 
 ````XML
-	        <?xml version="1.0" encoding="utf-8"?>
-	        <Project />
+<?xml version="1.0" encoding="utf-8"?>
+<Project />
 ````
-
-
-
 
 
 ````C#
-	    protected override void OnInit(EventArgs e)
-	    {
-	        base.OnInit(e);
-	        //Create a new gantt XML file where will stored the imported Data from MS Project
-	        RadGantt1.Provider = new Telerik.Web.UI.XmlGanttProvider("~/ImportedMSProject.xml");
-	    }
+protected override void OnInit(EventArgs e)
+{
+    base.OnInit(e);
+    //Create a new gantt XML file where will stored the imported Data from MS Project
+    RadGantt1.Provider = new Telerik.Web.UI.XmlGanttProvider("~/ImportedMSProject.xml");
+}
 ````
 ````VB.NET
-	    Protected Overrides Sub OnInit(e As EventArgs)
-	        MyBase.OnInit(e)
-	        'Create a new gantt XML file where will stored the imported Data from MS Project
-	        RadGantt1.Provider = New Telerik.Web.UI.XmlGanttProvider("~/ImportedMSProject.xml")
-	    End Sub
+Protected Overrides Sub OnInit(e As EventArgs)
+    MyBase.OnInit(e)
+    'Create a new gantt XML file where will stored the imported Data from MS Project
+    RadGantt1.Provider = New Telerik.Web.UI.XmlGanttProvider("~/ImportedMSProject.xml")
+End Sub
 ````
-
 
 1. Importing the MS Project data is done using the __ImportXml__ method of the gantt. As a parameter is passed the physical path of the data file.
 
 
-
 ````C#
-	    protected void btnImport_Click(object sender, EventArgs e)
-	    {
-	        RadGantt1.ImportXml(Server.MapPath("MSProjectTasks.xml"));
-	    }
+protected void btnImport_Click(object sender, EventArgs e)
+{
+    RadGantt1.ImportXml(Server.MapPath("MSProjectTasks.xml"));
+}
 ````
 ````VB.NET
-	    Protected Sub btnImport_Click(sender As Object, e As EventArgs)
-	        RadGantt1.ImportXml(Server.MapPath("MSProjectTasks.xml"))
-	    End Sub
+Protected Sub btnImport_Click(sender As Object, e As EventArgs)
+    RadGantt1.ImportXml(Server.MapPath("MSProjectTasks.xml"))
+End Sub
 ````
-
 
 # See Also
 

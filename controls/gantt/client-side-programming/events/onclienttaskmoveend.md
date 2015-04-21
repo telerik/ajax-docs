@@ -10,8 +10,6 @@ position: 3
 
 # OnClientTaskMoveEnd
 
-
-
 ## 
 
 The __OnClientTaskMoveEnd__ occurs when the Task moving is ended.
@@ -31,19 +29,15 @@ The event handler receives two parameters:
 * __get_cancel__ returns __true__ if the event has been canceled.
 
 ````XML
-	        <telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveEnd="OnClientTaskMoveEnd">
-	        </telerik:RadGantt>
+<telerik:RadGantt runat="server" id="RadGantt1" OnClientTaskMoveEnd="OnClientTaskMoveEnd">
+</telerik:RadGantt>
 ````
-
-
 
 ````JavaScript
-	        function OnClientTaskMoveEnd(sender, eventArgs) {
-	            args.set_cancel(true);
-	        }
+function OnClientTaskMoveEnd(sender, eventArgs) {
+    args.set_cancel(true);
+}
 ````
-
-
 
 # See Also
 
