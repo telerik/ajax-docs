@@ -12,9 +12,9 @@ position: 4
 
 
 
-In complex scenarios, where master pages and user controls are utilized and more than one__RadPersistenceManager__ is required in order to handle all the controls whos state should be persisted, __RadPersistenceManagerProxy__ should	be used in the context pages / user controls.
+In complex scenarios, where master pages and user controls are utilized and more than one **RadPersistenceManager** is required in order to handle all the controls which state should be persisted, **RadPersistenceManagerProxy** should	be used in the context pages / user controls.
 
-__RadPersistenceManagerProxy__ offers a declarative (design-time)approach to configure PersistenceSettings in the context of a NamingContainer. This helper control copies the exact sameRadPersistenceManager designer configuratuion.
+**RadPersistenceManagerProxy** offers a declarative (design-time) approach to configure **PersistenceSettings** in the context of a **NamingContainer**. This helper control copies the exact same **RadPersistenceManager** designer configuration.
 
 ````ASPNET
 			<telerik:RadPersistenceManagerProxy ID="RadPersistenceManagerProxy1" runat="server">
@@ -29,12 +29,10 @@ __RadPersistenceManagerProxy__ offers a declarative (design-time)approach to con
 
 
 
-## 
+##
 
-In scenarios where persistence manager proxies are used there may be a case where two controlswith identical ID's to exist. An example for such a scenario could be, if you have a master page and two content pages and each content page contains a RadGrid with ID = "RadGrid1". The problem is that if you once save the settings for the grid on the first page and then load them on the other page, the settings will be applied to the second grid, regardless of the fact that the control is not the same.
 
-To prevent this behaviour you can set __UniqueKey__ property to the__RadPersistenceManagerProxy__, that will help you to distinguish both grids.
+To prevent this behavior you can set the **UniqueKey** property of the **RadPersistenceManagerProxy**, that will help you to distinguish both grids.
 
->note The __UniqueKey__ value must be unique and should be set either to all proxies or to none of them.
 >
 
