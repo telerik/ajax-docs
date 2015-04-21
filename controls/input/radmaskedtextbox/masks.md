@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadMaskedTextBox__ uses a mask string to control the text the user can enter. The string is composed of one or more of the mask elements, as shown the table below:
+**RadMaskedTextBox** uses a mask string to control the text the user can enter. The string is composed of one or more of the mask elements, as shown the table below:
 
 
 >caption  
@@ -28,8 +28,8 @@ __RadMaskedTextBox__ uses a mask string to control the text the user can enter. 
 |<n..m>|NumericRangeMaskPart|Restricts the user to an integer in the declared numeric range. Numeric range mask parts can occupy multiple positions.|
 |<n...m>|LongRangeMaskPart|Restricts the user to an integer in the declared numeric range. For the internal representation of the value is used Int64(Long) type.|
 |<Option1|Option2|Option3>|EnumerationPart|Restricts the user to one of a fixed set of options. The pipe("|") serves as a separator between the option values.|
-|*|LiteralPart|When adding __*__ character to the __Mask__ it appears as literal. In case it is added to the __DisplayMask__ the __*__ symbol appears on blur.|
-|\|N/A|Escape character, allowing the following character to act as literal text. For example "\a" is the character "a" rather than including a free mask part. "\\" is the literal back slash character.|
+|*|LiteralPart|When adding ``*`` character to the **Mask** it appears as literal. In case it is added to the **DisplayMask** the \* symbol appears on blur.|
+|\|N/A|Escape character, allowing the following character to act as literal text. For example "\a" is the character "a" rather than including a free mask part. "``\\``" is the literal back slash character.|
 |Any other characters|LiteralPart|All non-mask elements appear as themselves. Literals alwaysoccupy a static position in the mask at run time, and cannot be moved or deleted by the user.|
 
 # See Also

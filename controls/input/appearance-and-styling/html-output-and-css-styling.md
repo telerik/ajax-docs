@@ -12,77 +12,78 @@ position: 4
 
 
 
->note Since Q1 2012 __RadInput__ has a new rendering mode for its controls -[ Single Input Rendering]({%slug input/single-input-rendering-mode%}), which is enabled by default. Therefore, this topic is no longer valid, except in the cases when __Old Rendering__ mode is activated by setting the __EnableSingleInputRendering__ property to __False__ .
->A related topic for the new rendering mode can be found[ here]({%slug input/appearance-and-styling/single-rendering-html-output%}).
+>note Since Q1 2012 **RadInput** has a new rendering mode for its controls - [Single Input Rendering]({%slug input/single-input-rendering-mode%}), which is enabled by default. Therefore, this topic is no longer valid, except in the cases when **Old Rendering** mode is activated by setting the **EnableSingleInputRendering** property to **False** .
+>A related topic for the new rendering mode can be found [here]({%slug input/appearance-and-styling/single-rendering-html-output%}).
 >
 
 
-Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the__.RadInput_Default__ style defines the default font and vertical alignment properties for the entire input control:
+Styles for Telerik controls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the **.RadInput_Default** style defines the default font and vertical alignment properties for the entire input control:
 
-````ASPNET
-	    .RadInput_Default
-	    {
-	         font: normal 11px Arial, Verdana, Tahoma, Sans-Serif; vertical-align: middle; 
-	    }
+````CSS
+.RadInput_Default
+{
+	 font: normal 11px Arial, Verdana, Tahoma, Sans-Serif; vertical-align: middle; 
+}
 ````
 
 
 
-See the [CSS Skin File Selectors]({%slug input/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for __RadInput__ skins.
+See the [CSS Skin File Selectors]({%slug input/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadInput** skins.
 
 ## HTML Output of RadDateInput
 
-````XML
-		<span class="RadInput RadInput_Default" id="RadControl1_wrapper">
-			<input type="text" class="riTextBox riEnabled" id="RadControl1_text" />
-			<input type="text" style="visibility: hidden" class="rdfd_" id="RadControl1" />
-			<input type="hidden" id="RadControl1_ClientState" /></span>
+````HTML
+<span class="RadInput RadInput_Default" id="RadControl1_wrapper">
+	<input type="text" class="riTextBox riEnabled" id="RadControl1_text" />
+	<input type="text" style="visibility: hidden" class="rdfd_" id="RadControl1" />
+	<input type="hidden" id="RadControl1_ClientState" /></span>
 ````
 
 
 
 
 
-````XML
-		<div class="RadInput RadInput_Default" id="RadControl3_wrapper">
-			<table class="riTable">
-				<tbody>
-					<tr>
-						<td>
-							<label class="riLabel">
-								Label</label>
-						</td>
-						<td class="riCell">
-							<input type="text" class="riTextBox riEnabled" id="RadControl3_text" />
-							<input type="text" style="visibility: hidden" class="rdfd_" id="RadControl3" />
-						</td>
-						<td class="riBtn">
-							<a href="#"><span>Button</span></a>
-						</td>
-						<td class="riSpin">
-							<a href="javascript:void(0)" class="riUp"><span>Spin Up</span></a><a href="javascript:void(0)"
-								class="riDown"><span>Spin Down</span></a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<input type="hidden" id="RadControl3_ClientState" /></div>
+````HTML
+<div class="RadInput RadInput_Default" id="RadControl3_wrapper">
+	<table class="riTable">
+		<tbody>
+			<tr>
+				<td>
+					<label class="riLabel">
+						Label</label>
+				</td>
+				<td class="riCell">
+					<input type="text" class="riTextBox riEnabled" id="RadControl3_text" />
+					<input type="text" style="visibility: hidden" class="rdfd_" id="RadControl3" />
+				</td>
+				<td class="riBtn">
+					<a href="#"><span>Button</span></a>
+				</td>
+				<td class="riSpin">
+					<a href="javascript:void(0)" class="riUp"><span>Spin Up</span></a><a href="javascript:void(0)"
+						class="riDown"><span>Spin Down</span></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<input type="hidden" id="RadControl3_ClientState" />
+</div>
 ````
 
 
 
 The HTML output of a textbox styled by RadInputManager is the following:
 
-````XML
-		<input type="text" class="RadInputMgr RadInputMgr_Default RadInput_Enabled_Default"
-			id="TextBox1" />
+````HTML
+<input type="text" class="RadInputMgr RadInputMgr_Default RadInput_Enabled_Default"
+	id="TextBox1" />
 ````
 
 
 
-* __input.RadInputMgr.RadInputMgr_SkinName__ - the textbox has three CSS classes - one is common for all RadInputManager textboxes, one is common for all RadInputManager textboxes with a particular skin, and the last one styles the textbox according to its state (enabled, hovered, focused, invalid, etc)
+* **input.RadInputMgr.RadInputMgr_SkinName** - the textbox has three CSS classes - one is common for all RadInputManager textboxes, one is common for all RadInputManager textboxes with a particular skin, and the last one styles the textbox according to its state (enabled, hovered, focused, invalid, etc)
 
-__In all three examples above, the <input> element is replaced by a <textarea> element if TextMode="MultiLine".__
+**In all three examples above, the ``<input>`` element is replaced by a ``<textarea>`` element if TextMode="MultiLine".**
 
 By default in non-single input rendering mode the width of the label is not set, and the length of the input is 100%, so it will be auto sized to get all possible free space in the table. When in single input rendering mode, the default length of the label is 40% and 60% for the input. This width can be changed with the LabelWidth property. Another reason you would might want to set EnableSingleInputRendering to false for your Telerik’s ASP.NET AJAX Input controls is to avoid re-computing of the styles dynamically on the client.
 
@@ -96,8 +97,8 @@ By default in non-single input rendering mode the width of the label is not set,
 
 ## Dynamically applied classes
 
-The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are __riEnabled__, __riDisabled__, __riEmpty__, __riFocused__, __riHover__, __riError__, and __riNegative__.
+The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are **riEnabled**, **riDisabled**, **riEmpty**, **riFocused**, **riHover**, **riError**, and **riNegative**.
 
->note The various[style properties]({%slug input/appearance-and-styling/styles%})will override any of the properties set by these classes.
+>note The various [style properties]({%slug input/appearance-and-styling/styles%})will override any of the properties set by these classes.
 >
 

@@ -16,18 +16,18 @@ position: 2
 
 ## 
 
-The __RadInput__, __RadDateInput__, __RadNumericTextBox__ controls offer __WAI-ARIA__support which can be easily enabled by setting the __EnableAriaSupport__ server property to __true__.
+The **RadInput**, **RadDateInput**, **RadNumericTextBox** controls offer **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
-All ARIA attributes are __lower case__. They are shown in the table below.
+All ARIA attributes are **lower case**. They are shown in the table below.
 
 
 >caption  
 
-|  __Control__  |  __Attributes__  |
+|  **Control**  |  **Attributes**  |
 | ------ | ------ |
-| __RadInput-common__ |Aria-atomic = trueAria-hidden – removed (no longer applicable to current rendering)|
-| __RadDateInput__ |Aria-valuemax : max dateAria-valuemin: min date|
-| __RadNumericTextBox__ |Aria-valuemax : max valueAria-valuemin: min valueChange:Role:spinbutton|
+| **RadInput-common** |Aria-atomic = true; Aria-hidden – removed (no longer applicable to current rendering)|
+| **RadDateInput** |Aria-valuemax : max date; Aria-valuemin: min date|
+| **RadNumericTextBox** |Aria-valuemax : max value; Aria-valuemin: min value; Change:; Role:spinbutton|
 
 >note An issue with the use of WAI-ARIA in HTML documents is that they don’t validate. When you run a HTML document containing ARIA attributes through the W3C Validator it shows errors in the results for any ARIA attributes. The DOCTYPE declarations do not include any information about the WAI ARIA attributes and you cannot have a valid document which includes elements, attributes, and attribute values, not detailed in its DTD’s.
 >

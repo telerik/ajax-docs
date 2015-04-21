@@ -14,31 +14,31 @@ position: 3
 
 ## 
 
-You can use the __RadSpell__ control with __RadTextBox__ to let users check the __Text__ of the control for spelling errors.
+You can use the **RadSpell** control with **RadTextBox** to let users check the **Text** of the control for spelling errors.
 
-To link the __RadTextBox__ control to the __RadSpell__ control, simply set the __RadSpell__ control's __ControlToCheck__ property to the ID of the __RadTextBox__:
+To link the **RadTextBox** control to the **RadSpell** control, simply set the **RadSpell** control's **ControlToCheck** property to the ID of the **RadTextBox**:
 
 ````ASPNET
-	    <telerik:RadSpell
-	        ID="RadSpell1"
-	        runat="server"
-	        ButtonType="PushButton"
-	        ControlToCheck="RadTextBox1"
-	        SpellCheckProvider="PhoneticProvider"
-	        SupportedLanguages="en-US,English"   
-	        OnClientDialogClosed="SpellCheckDone" />
+<telerik:RadSpell
+	ID="RadSpell1"
+	runat="server"
+	ButtonType="PushButton"
+	ControlToCheck="RadTextBox1"
+	SpellCheckProvider="PhoneticProvider"
+	SupportedLanguages="en-US,English"   
+	OnClientDialogClosed="SpellCheckDone" />
 ````
 
 
 
-Then, assign the __OnClientDialogClosing__ client-side event of the __RadSpell__ control to a JavaScript function that updates the text of the __RadTextBox__ control:
+Then, assign the **OnClientDialogClosing** client-side event of the **RadSpell** control to a JavaScript function that updates the text of the **RadTextBox** control:
 
 ````JavaScript
-	        function SpellCheckDone()
-	        {
-	            var radTextBox1 = $find("<%= RadTextBox1.ClientID %>");
-	            radTextBox1.updateDisplayValue();
-	        }
+function SpellCheckDone()
+{
+	var radTextBox1 = $find("<%= RadTextBox1.ClientID %>");
+	radTextBox1.updateDisplayValue();
+}
 ````
 
 

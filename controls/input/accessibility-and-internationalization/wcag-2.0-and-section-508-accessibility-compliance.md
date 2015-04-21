@@ -14,13 +14,13 @@ position: 0
 
 ## XHTML 1.1
 
-__RadInput__ is fully compliant with the XHTML 1.1 requirement.
+**RadInput** is fully compliant with the XHTML 1.1 requirement.
 
 ## Compliance Level
 
-1. Telerik RadInput is Level __AA__ compliant (in conformance with the __W3C Web Accessibility Guidelines 1.0__).
+1. Telerik RadInput is Level **AA** compliant (in conformance with the **W3C Web Accessibility Guidelines 1.0**).
 
-1. Telerik RadInput satisfies the requirements of __"Section 508"__ for software accessibility. As a result, the component can be used in US Federal Institutions and other organizations, which require software to be accessible to people with disabilities.
+1. Telerik RadInput satisfies the requirements of **"Section 508"** for software accessibility. As a result, the component can be used in US Federal Institutions and other organizations, which require software to be accessible to people with disabilities.
 
 ## Section 508
 
@@ -32,17 +32,17 @@ The main goal of these guidelines is to encourage developers in creating applica
 
 In accordance with these guidelines W3C defines three levels of conformance developers may implement in order to provide some level of content compliance to their products:
 
-* __Conformance Level "A"__
+* **Conformance Level "A"**
 
-* __Conformance Level "Double-A"__
+* **Conformance Level "Double-A"**
 
-* __Conformance Level "Triple-A"__
+* **Conformance Level "Triple-A"**
 
 For more details on W3C "Web Content Accessibility Guidelines 1.0" see [http://www.w3.org/TR/WAI-WEBCONTENT/](http://www.w3.org/TR/WAI-WEBCONTENT/)
 
 In our attempt to make our products compliant, each web-control we develop and its QSF strive to obtain at least one of conformance levels listed above.
 
-__RadInput__also has full support for keyboard navigation with Access Keys and Arrow-key navigation.
+**RadInput** also has full support for keyboard navigation with Access Keys and Arrow-key navigation.
 
 # See Also
 

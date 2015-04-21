@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-All four types of __RadInput__ controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug input/appearance-and-styling/skins%}). If you have assigned a value to the __Skin__ property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
+All four types of **RadInput** controls come with a set of predefined styles, which are specified by the styles in the current [skin]({%slug input/appearance-and-styling/skins%}). If you have assigned a value to the **Skin** property, you can use a variety of style properties to customize the way the input control changes its appearance depending on its state.
 
 The following table lists the various style properties:
 
@@ -23,25 +23,13 @@ The following table lists the various style properties:
 
 | Property | Default CSS class | Description |
 | ------ | ------ | ------ |
-|EnabledStyle|riEnabled|The style for the enabled input control.
-
->caution The definitions from the __EnabledStyle__ property are inherited from one style property to another in a hierarchy. Therefore, the appearance settings specified by the __EnableStyle__ property will be propagated for the rest of the styles. For example, if you specify a red font for the __EnabledStyle__ property, all other style properties in __RadInput__ (other than __DisabledStyle__ ) will also have a red font.
->
-|
-|DisabledStyle|riDisabled|The style that is applied for the disabled input control.
-
->caution Please note that Internet Explorer does not allow changing the ForeColor of disabled elements.
->
-|
+|EnabledStyle|riEnabled|The style for the enabled input control. **Note**: The definitions from the **EnabledStyle** property are inherited from one style property to another in a hierarchy. Therefore, the appearance settings specified by the **EnableStyle** property will be propagated for the rest of the styles. For example, if you specify a red font for the **EnabledStyle** property, all other style properties in **RadInput** (other than **DisabledStyle** ) will also have a red font.|
+|DisabledStyle|riDisabled|The style that is applied for the disabled input control. **Note**: Internet Explorer does not allow changing the ForeColor of disabled elements.|
 |EmptyMessageStyle|riEmpty|The style when the value is not set and the input control does not have focus.|
 |FocusedStyle|riFocused|The style when the input control has focus.|
 |HoveredStyle|riHover|The style when the mouse hovers over the input control.|
 |InvalidStyle|riError|The style when the value of the input control is invalid.|
-|NegativeStyle|riNegative|The style when the value of the input control is negative.
-
->note The __NegativeStyle__ property is only available on __RadNumericTextBox__ controls.
->
-|
+|NegativeStyle|riNegative|The style when the value of the input control is negative. **Note**: The **NegativeStyle** property is only available on **RadNumericTextBox** controls.|
 
 The various Style properties are of type Telerik.Web.UI.InputStyle. This type has the following sub-properties:
 
