@@ -10,8 +10,6 @@ position: 1
 
 # RadListBoxItem Object
 
-
-
 ## 
 
 The __RadListBoxItem__ object is returned by the __getItem__ method of the __RadListBox__ or __RadListBoxItemCollection__ object. It is also exposed by the event arguments of many client-side events (__eventArgs.get_item()__). The following table lists the most important methods:
@@ -25,23 +23,19 @@ The __RadListBoxItem__ object is returned by the __getItem__ method of the __Rad
 | __get_value__ |none|string|Gets th Value of the item|
 | __get_attributes__ |none|Collection|Returns the collection of custom attributes for the item.|
 
-````JavaScript
-	
-	        var listbox = $find("<%= RadListBox1.ClientID %>");
-	        var foundItem = listbox.findItemByAttribute("Population", "0");
-	        var attributes = foundItem.get_attributes();
-	        var size = attributes.getAttribute("size");
-	        if (size) {
-	            attributes.setAttribute("Population", size);
-	            attributes.removeAttribute("size");
-	        }
-	        else {
-	            attributes.setAttribute("Population", "Unknown");
-	        }
+````JavaScript	
+var listbox = $find("<%= RadListBox1.ClientID %>");
+var foundItem = listbox.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+	attributes.setAttribute("Population", size);
+	attributes.removeAttribute("size");
+}
+else {
+	attributes.setAttribute("Population", "Unknown");
+}
 ````
-
-
-
 
 >caption  
 

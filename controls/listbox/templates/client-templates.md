@@ -10,8 +10,6 @@ position: 3
 
 # Client Templates
 
-
-
 Client Template
 
 ## Overview
@@ -27,54 +25,44 @@ As of Q2 2012 RadListBox provides support for client templates. The template its
 >important Client templates __couldn't__ contain server-side controls.
 >
 
-
 ## Server side representation
 
 On the server the template will be presented as a string property of the control, named __ClientItemTemplate__. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
-	
-	    <telerik:RadListBox ID="RadListBox1" runat="server">
-	        <ClientItemTemplate>
-	            <div class="customClass">
-	                <img src="#= ImagePath #" alt="Photo" />
-	            </div>
-	        </ClientItemTemplate>
-	    </telerik:RadListBox>
+<telerik:RadListBox ID="RadListBox1" runat="server">
+	<ClientItemTemplate>
+		<div class="customClass">
+			<img src="#= ImagePath #" alt="Photo" />
+		</div>
+	</ClientItemTemplate>
+</telerik:RadListBox>
 ````
-
-
-
-
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!Page.IsPostBack)
-	        {
-	            StringBuilder clientTemplate = new StringBuilder();
-	            clientTemplate.Append("<div class='customClass'>");
-	            clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />");
-	            clientTemplate.Append("</div>");
-	            RadListBox1.ClientItemTemplate = clientTemplate.ToString();
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (!Page.IsPostBack)
+	{
+		StringBuilder clientTemplate = new StringBuilder();
+		clientTemplate.Append("<div class='customClass'>");
+		clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />");
+		clientTemplate.Append("</div>");
+		RadListBox1.ClientItemTemplate = clientTemplate.ToString();
+	}
+}
 ````
 ````VB.NET
-	    Protected Sub Default_Vb_Load(sender As Object, e As System.EventArgs) Handles Me.Load
-	        If Not Page.IsPostBack Then
-	            Dim clientTemplate As New StringBuilder()
-	            clientTemplate.Append("<div class='customClass'>")
-	            clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
-	            clientTemplate.Append("</div>")
-	            RadListBox1.ClientItemTemplate = clientTemplate.ToString()
-	        End If
-	    End Sub
-	    '#End Region
-	End Class
-
-
-
+Protected Sub Default_Vb_Load(sender As Object, e As System.EventArgs) Handles Me.Load
+	If Not Page.IsPostBack Then
+		Dim clientTemplate As New StringBuilder()
+		clientTemplate.Append("<div class='customClass'>")
+		clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
+		clientTemplate.Append("</div>")
+		RadListBox1.ClientItemTemplate = clientTemplate.ToString()
+	End If
+End Sub
+````
 
 ## Client side representation
 
@@ -95,71 +83,55 @@ Sample code for the usage of the new method is demonstrated below.
 * Adding item and then binding the Control’s template to it:
 
 ````ASPNET
-	
-	     <telerik:RadListBox ID="RadListBox1" runat="server">
-	        <ClientItemTemplate>
-	            Template text: #= Text #
-	        </ClientItemTemplate>
-	    </telerik:RadListBox>
+<telerik:RadListBox ID="RadListBox1" runat="server">
+	<ClientItemTemplate>
+		Template text: #= Text #
+	</ClientItemTemplate>
+</telerik:RadListBox>
 ````
-
-
 
 ````JavaScript
-	
-	        var item = new Telerik.Web.UI.RadListBoxItem();
-	        item.set_text("new item");
-	        $find("RadListBox1").get_items().add(item);
-	        item.bindTemplate();
-	
+var item = new Telerik.Web.UI.RadListBoxItem();
+item.set_text("new item");
+$find("RadListBox1").get_items().add(item);
+item.bindTemplate();
 ````
-
-
 
 * Creating item, setting its client template and calling __bindTemplate__ method before inserting it into the items collection of the RadListBox:
 
 ````JavaScript
-	        var item = new Telerik.Web.UI.RadListBoxItem();
-	        item.set_text("new item");
-	        item.set_clientTemplate("template text: #= Text #");
-	        item.bindTemplate();
-	        $find("RadListBox1").get_items().add(item);
-	
+var item = new Telerik.Web.UI.RadListBoxItem();
+item.set_text("new item");
+item.set_clientTemplate("template text: #= Text #");
+item.bindTemplate();
+$find("RadListBox1").get_items().add(item);
 ````
-
-
 
 * Creating item, setting it’s client template and calling __bindTemplate__ method after inserting it into the items collection of the RadListBox:
 
 ````JavaScript
-	        var item = new Telerik.Web.UI.RadListBoxItem();
-	        item.set_text("new item");
-	        item.set_clientTemplate("template text: #= Text #");
-	        $find("RadListBox1").get_items().add(item);
-	        item.bindTemplate();
+var item = new Telerik.Web.UI.RadListBoxItem();
+item.set_text("new item");
+item.set_clientTemplate("template text: #= Text #");
+$find("RadListBox1").get_items().add(item);
+item.bindTemplate();
 ````
-
-
 
 * Bind the client template to an item rendered on the server:
 
 ````ASPNET
-	    <telerik:RadListBox ID="RadListBox1" runat="server">
-	        <Items>
-	            <telerik:RadListBoxItem Text="Item" />
-	        </Items>
-	    </telerik:RadListBox>
+<telerik:RadListBox ID="RadListBox1" runat="server">
+	<Items>
+		<telerik:RadListBoxItem Text="Item" />
+	</Items>
+</telerik:RadListBox>
 ````
-
-
 
 ````JavaScript
-	        var item = $find("RadListBox1").get_items().getItem(0); 
-	        item.set_clientTemplate("template text: #= Text #");
-	        item.bindTemplate();
+var item = $find("RadListBox1").get_items().getItem(0); 
+item.set_clientTemplate("template text: #= Text #");
+item.bindTemplate();
 ````
-
-
 
 ### Client-side event
 

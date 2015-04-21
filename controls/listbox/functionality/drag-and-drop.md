@@ -10,8 +10,6 @@ position: 3
 
 # Drag and Drop
 
-
-
 ## 
 
 __RadListBox__ fully supports [reordering]({%slug listbox/functionality/reorder%}) and [transferring]({%slug listbox/functionality/transfer%}) of Items through __drag-and-drop__.
@@ -29,7 +27,6 @@ At the client, these are:
 * [OnClientDropping]({%slug listbox/client-side-programming/events/onclientdropping%}) - fires before the dragged Item is dropped. Can be canceled.
 
 * [OnClientDropped]({%slug listbox/client-side-programming/events/onclientdropped%}) - fires after the dragged Item is dropped.
-
 
 
 After a successful drop the corresponding Reorder and Transfer client-side events fire.

@@ -10,15 +10,11 @@ position: 1
 
 # Reorder
 
-
-
 ## 
 
 __RadListBox__ supports item reordering - you can move the item/items up and down using the provided UI buttons.
 
 To enable item reordering set the __AllowReorder="True"__ property of the listbox. This will show the up and down buttons next to the listbox:
-
-
 
 ![Reorder Buttons](images/listbox_reorder_buttons.png)
 
@@ -31,7 +27,6 @@ Additionally, you can reorder items using drag and drop. To do so you need to se
 To fire a postback after clicking on the up or down buttons set the __AutoPostBackOnReorder="True"__ property.
 
 Several client and server events are fired upon reordering (when AutoPostBackOnReorder="True") in the following sequence:
-
 
 >caption  
 

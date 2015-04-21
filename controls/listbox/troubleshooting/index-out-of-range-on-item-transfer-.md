@@ -10,13 +10,11 @@ position: 2
 
 # Index Out of Range on Item Transfer 
 
-
-
 ## 
 
 __Problem__
 
-When transferting data from one __RadListBox__ to another the__“Sys.WebForms.PageRequestManagerServerErrorException: Index was out of range. Must be non-negative and less than the size of the collection.”__ is thrown.
+When transferting data from one __RadListBox__ to another the __“Sys.WebForms.PageRequestManagerServerErrorException: Index was out of range. Must be non-negative and less than the size of the collection.”__ is thrown.
 
 __Solution__
 

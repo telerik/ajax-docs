@@ -10,11 +10,9 @@ position: 24
 
 # OnClientMouseOut
 
-
-
 ## 
 
-The __OnClientMouseOut__client-side event occurs just before the mouse passes out of an item.
+The __OnClientMouseOut__ client-side event occurs just before the mouse passes out of an item.
 
 The event handler receives two parameters:
 

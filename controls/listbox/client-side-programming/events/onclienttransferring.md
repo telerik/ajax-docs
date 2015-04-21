@@ -10,15 +10,9 @@ position: 19
 
 # OnClientTransferring
 
-
-
 ## 
 
 The __OnClientTransferring__ client-side event occurs when the selected item is about to be transferred to the destination RadListBox. This event can be cancelled.
-
-
-
-
 
 The event handler receives two parameters:
 
@@ -34,29 +28,19 @@ The event handler receives two parameters:
 
 * __get_destinationListBox()__ - returns the instance of the destination RadListBox where the item is transferring to.
 
-* __set_cancel -__lets you cancel the event and prevent items from being selected.
+* __set_cancel()__ - lets you cancel the event and prevent items from being selected.
 
 * __get_domEvent()__ - returns the DOM event object
 
-
-
 The example below shows how to ask the user before transferring the item:
 
-````JavaScript
-	
-	        function onClientTransferringHandler(sender, e) {
-	            if (!confirm("Are you sure?")) {
-	                e.set_cancel(true);
-	            }
-	        }
-				
+````JavaScript	
+function onClientTransferringHandler(sender, e) {
+	if (!confirm("Are you sure?")) {
+		e.set_cancel(true);
+	}
+}				
 ````
-
-
-
-
-
-
 
 # See Also
 

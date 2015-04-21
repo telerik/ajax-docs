@@ -10,8 +10,6 @@ position: 4
 
 # Getting Started
 
-
-
 ## 
 
 This tutorial will show you how to:
@@ -49,25 +47,16 @@ This tutorial will show you how to:
 9. To get the destination items iterate the __Items__ collection of the second listbox using the foreach statement:
 
 
-
 ````C#
-	     
-	
-	    foreach (RadListBoxItem item in RadListBox2.Items)
-	    {
-	        // do your stuff with the item
-	    }
-				
+foreach (RadListBoxItem item in RadListBox2.Items)
+{
+    // do your stuff with the item
+}			
 ````
 ````VB.NET
-	     
-	
-	    For Each item As RadListBoxItem In RadListBox2.Items
-	    Next
-	
-				
+For Each item As RadListBoxItem In RadListBox2.Items
+Next				
 ````
-
 
 # See Also
 

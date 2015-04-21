@@ -10,8 +10,6 @@ position: 16
 
 # OnClientItemsRequestFailed
 
-
-
 ## 
 
 The __OnClientItemsRequestFailed__ client-side event occurs when an error has occurred while loading elements using the load-on-demand mechanism.
@@ -29,14 +27,12 @@ The event handler receives two parameters:
 You can use this event to display the default error message, or to cancel the event, in order to display a custom error message.
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function OnClientItemsRequestFailed(sender, eventArgs) {
-	            alert(eventArgs.get_errorMessage());
-	        }
-	    </script>
+<script type="text/javascript">
+	function OnClientItemsRequestFailed(sender, eventArgs) {
+		alert(eventArgs.get_errorMessage());
+	}
+</script>
 ````
-
-
 
 # See Also
 

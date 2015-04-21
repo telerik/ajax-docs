@@ -10,8 +10,6 @@ position: 12
 
 # Transferred
 
-
-
 ## 
 
 The __Transferred__ event fires after the [Deleted]({%slug listbox/server-side-programming/server-events/deleted%}) event. The __Items__ collection of the listbox is updated to reflect the transferring.
@@ -25,23 +23,17 @@ The event handler receives two parameters:
 * __Items__ - collection of __RadListBoxItem__ objects which were transferred.
 
 
-
 ````C#
-	    protected void SourceListBox_Transferred(object sender, RadListBoxTransferredEventArgs e)
-	    {
-	        Label.Text += e.Items.Count.ToString() + " items are transferred";
-	    }
+protected void SourceListBox_Transferred(object sender, RadListBoxTransferredEventArgs e)
+{
+	Label.Text += e.Items.Count.ToString() + " items are transferred";
+}
 ````
 ````VB.NET
-	    Protected Sub SourceListBox_Transferred(sender As Object, e As RadListBoxTransferredEventArgs)
-	        Label.Text += e.Items.Count.ToString() + " items are transferred"
-	    End Sub
-	#End Region
-	
-	End Class
+Protected Sub SourceListBox_Transferred(sender As Object, e As RadListBoxTransferredEventArgs)
+	Label.Text += e.Items.Count.ToString() + " items are transferred"
+End Sub
 ````
-
-
 
 # See Also
 

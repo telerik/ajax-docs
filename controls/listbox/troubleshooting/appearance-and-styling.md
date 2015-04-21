@@ -10,8 +10,6 @@ position: 0
 
 # Appearance and Styling
 
-
-
 ## 
 
 __Problem__
@@ -26,20 +24,16 @@ __Solution__
 
 Add the following CSS rule to the <head> section of your page:
 
-````ASPNET
-	    .RadListBox div.rlbGroup 
-	    { 
-	        background-color:Aqua; 
-	    }
+````CSS
+.RadListBox div.rlbGroup 
+{ 
+	background-color:Aqua; 
+}
 ````
-
-
-
-
 
 __Problem__
 
-Setting the __ForeColor__or different__Font__properties____of RadListBox have no effect.
+Setting the __ForeColor__ or different __Font__ properties of RadListBox have no effect.
 
 __Cause__
 
@@ -49,22 +43,16 @@ __Solution__
 
 Add the following CSS rule to the <head> section of your page:
 
-````ASPNET
-	    .RadListBox span.rlbText 
-	    { 
-	        font-size: x-Small; 
-	        font-family: Verdana, Arial, Helvetica,
-	        sans-serif; 
-	        color: Green; 
-	        font-weight: bold;
-	    }
+````CSS
+.RadListBox span.rlbText 
+{ 
+	font-size: x-Small; 
+	font-family: Verdana, Arial, Helvetica,
+	sans-serif; 
+	color: Green; 
+	font-weight: bold;
+}
 ````
-
-
-
-
-
-
 
 # See Also
 

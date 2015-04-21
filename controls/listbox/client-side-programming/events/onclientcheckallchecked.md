@@ -10,13 +10,9 @@ position: 13
 
 # OnClientCheckAllChecked
 
-
-
 ## 
 
 The __OnClientCheckAllChecked__ client-side event occurs after user clicks on the CheckAll item. The checked state of this item can be inspected form the returned DOM event object - __args.get_domEvent().target.checked__.
-
-
 
 The event handler receives two parameters:
 

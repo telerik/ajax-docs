@@ -10,8 +10,6 @@ position: 14
 
 # OnClientItemsRequesting
 
-
-
 ## 
 
 The __OnClientItemsRequesting__ client-side event occurs when __EnableLoadOnDemand__ is __True__ and the listbox is about to send a server-side request to load more items. This event fires before the items are added to the listbox' Items collection.
@@ -29,12 +27,12 @@ The event handler receives two parameters:
 This event can be used to cancel the load-on-demand request.
 
 ````JavaScript
-	    <script type="text/javascript">
-	        var shouldCancelEvent = true;
-	        function OnClientItemsRequesting(sender, eventArgs) {
-	            eventArgs.set_cancel(shouldCancelEvent);
-	        }
-	    </script>
+<script type="text/javascript">
+	var shouldCancelEvent = true;
+	function OnClientItemsRequesting(sender, eventArgs) {
+		eventArgs.set_cancel(shouldCancelEvent);
+	}
+</script>
 ````
 
 

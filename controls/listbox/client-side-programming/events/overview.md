@@ -10,8 +10,6 @@ position: 0
 
 # Events Overview
 
-
-
 ## 
 
 __RadListBox__ supports a number of client-side events that let you customize the behavior of the listbox:
@@ -62,52 +60,39 @@ __RadListBox__ supports a number of client-side events that let you customize th
 
 * [OnClientTemplateDataBound]({%slug listbox/client-side-programming/events/onclienttemplatedatabound%}) occurs after the client template is bound and the binding expression are evaluated.
 
-* [OnClientMouseOver]({%slug listbox/client-side-programming/events/onclientmouseover%})____client-side event occurs when the mouse cursor passes over an item.
+* [OnClientMouseOver]({%slug listbox/client-side-programming/events/onclientmouseover%}) client-side event occurs when the mouse cursor passes over an item.
 
-* [OnClientMouseOut]({%slug listbox/client-side-programming/events/onclientmouseout%})____client-side event occurs just before the mouse passes out of an item.
+* [OnClientMouseOut]({%slug listbox/client-side-programming/events/onclientmouseout%}) client-side event occurs just before the mouse passes out of an item.
 
 * [OnClientContextMenu]({%slug listbox/client-side-programming/events/onclientcontextmenu%}) client-side event occurs when a user right clicks over a listbox item
 
 To subscribe to a client event just set the appropriate property to the name of the javascript function that will handle the event. The function always receives two parameters - a sender (RadListBox firing the event) and event arguments having different methods.
 
 ````ASPNET
-	    <telerik:radlistbox id="RadListBox1" allowdelete="true" onclientdeleted="onClientDeletedHandler"
-	        runat="server"></telerik:radlistbox>
+<telerik:radlistbox id="RadListBox1" allowdelete="true" onclientdeleted="onClientDeletedHandler" runat="server"></telerik:radlistbox>
 ````
 
-
-
-````JavaScript
-	
-	        function onClientDeletedHandler(sender, e) {
-	            alert("Successfully deleted: " + e.get_item().get_text());
-	        }
-	
+````JavaScript	
+function onClientDeletedHandler(sender, e) {
+	alert("Successfully deleted: " + e.get_item().get_text());
+}	
 ````
-
-
 
 There is a shorter way to handle a client-side event:
 
 ````ASPNET
-	    <telerik:radlistbox id="RadListBox2" allowdelete="true" 
-	        onclientdeleted="(function(sender, e){ alert('Successfully deleted: ' + e.get_item().get_text()); })"
-	        runat="server">
-	    </telerik:radlistbox>
+<telerik:radlistbox id="RadListBox2" allowdelete="true" onclientdeleted="(function(sender, e){ alert('Successfully deleted: ' + e.get_item().get_text()); })" runat="server">
+</telerik:radlistbox>
 ````
-
-
 
 Similarly, you can set the property in code behind:
 
 ````C#
-	     
-	
-	RadListBox1.OnClientDeleted = "onClientDeletedHandler"; 
-				
+RadListBox1.OnClientDeleted = "onClientDeletedHandler"; 
 ````
-
-
+````VB.NET
+RadListBox1.OnClientDeleted = "onClientDeletedHandler"
+````
 
 # See Also
 

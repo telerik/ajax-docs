@@ -10,13 +10,9 @@ position: 6
 
 # OnClientDropping
 
-
-
 ## 
 
 The __OnClientDropping__ client-event occurs before the items are dropped. The event can be cancelled.
-
-
 
 The event handler receives two parameters:
 
@@ -26,7 +22,7 @@ The event handler receives two parameters:
 
 * __get_sourceItem()__ - returns the first selected item that is dropped
 
-* __get_sourceItems() -__returns an array of the selected items that are dropped
+* __get_sourceItems()__ - returns an array of the selected items that are dropped
 
 * __get_destinationItem()__ - returns the destination item.
 
@@ -34,27 +30,22 @@ The event handler receives two parameters:
 
 * __get_htmlElement()__ - returns the DOM html element which the item is dropped onto.
 
-* __set_cancel -__lets you cancel the event and prevent the dropping.
+* __set_cancel()__ - lets you cancel the event and prevent the dropping.
 
 * __get_domEvent()__ - returns the DOM event object
 
 
-
 The following example shows how to ask the user for confirmation before the item is dropped.
 
-````JavaScript
-	
-	        function OnClientDroppingHandler(sender, eventArgs) {
-	            var message = "Are you sure you want to drop the item " + eventArgs.get_sourceItem().get_text();
-	            message += eventArgs.get_dropPosition() == 0 ? " above" : " below";
-	            message += " the item " + eventArgs.get_destinationItem().get_text() + "?";
-	            if (!confirm(message))
-	                eventArgs.set_cancel(true);
-	         }
-				
+````JavaScript	
+function OnClientDroppingHandler(sender, eventArgs) {
+	var message = "Are you sure you want to drop the item " + eventArgs.get_sourceItem().get_text();
+	message += eventArgs.get_dropPosition() == 0 ? " above" : " below";
+	message += " the item " + eventArgs.get_destinationItem().get_text() + "?";
+	if (!confirm(message))
+		eventArgs.set_cancel(true);
+ }				
 ````
-
-
 
 # See Also
 

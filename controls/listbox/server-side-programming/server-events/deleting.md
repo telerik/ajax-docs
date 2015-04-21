@@ -10,13 +10,11 @@ position: 13
 
 # Deleting
 
-
-
 ## 
 
 The __Deleting__ server event fires in one of the following cases:
 
-* During transfer - when the __AutoPostBackOnTransfer="True"__and the user tries to transfer an item / items__.__ It fires __after__ the [Transferring]({%slug listbox/server-side-programming/server-events/transferring%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new list.
+* During transfer - when the __AutoPostBackOnTransfer="True"__ and the user tries to transfer an item / items. It fires __after__ the [Transferring]({%slug listbox/server-side-programming/server-events/transferring%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new list.
 
 * On item delete - when the __AutoPostBackOnDelete="True"__
 
@@ -30,23 +28,17 @@ The event handler receives two parameters:
 
 * __Cancel__ - set it to True to cancel the event and prevent the deleting to happen
 
-
-
 ````C#
-	    protected void RadListBox1_Deleting(object sender, RadListBoxEventArgs e)
-	    {
-	        Label.Text = "Deleted items count is " + e.Items.Count.ToString();
-	    }
+protected void RadListBox1_Deleting(object sender, RadListBoxEventArgs e)
+{
+	Label.Text = "Deleted items count is " + e.Items.Count.ToString();
+}
 ````
 ````VB.NET
-	    Protected Sub RadListBox1_Deleting(sender As Object, e As RadListBoxEventArgs)
-	        Label.Text = "Deleted items count is " + e.Items.Count.ToString()
-	    End Sub
-	#End Region
-	
-	End Class
+Protected Sub RadListBox1_Deleting(sender As Object, e As RadListBoxEventArgs)
+	Label.Text = "Deleted items count is " + e.Items.Count.ToString()
+End Sub
 ````
-
 
 
 # See Also

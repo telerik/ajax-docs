@@ -40,13 +40,13 @@ The following properties and methods are used when binding the ListBox to a data
 
 * __DataValueField__ property - This is the field name from the data source to bind to the __Value__ property of the items.
 
-* __DataKeyField__ property - This is the field name from the data source that is the primary key. It must be set when reordering, transferring or deleting are enabled __and____AllowAutomaticUpdates="True"__.
+* __DataKeyField__ property - This is the field name from the data source that is the primary key. It must be set when reordering, transferring or deleting are enabled and __AllowAutomaticUpdates="True"__.
 
 * __DataSortField__ property - This is the field name from the data source that determines sort order (e.g. the select query is sorted by this column). This property and the __DataKeyField__ properties must be set in order the RadListBox to perform reorders automatically (__AllowAutomaticUpdates="True")__.
 
 * __DataBind__ method - Call this method after you have set the aforementioned properties when binding at runtime. This method is mandatory for binding at runtime.
 
-If you need to map additional fields from the Data Source to properties of the ListBox item, you can use the __ItemDataBound__ event. See [inding To ASP DataSource Components]({%slug listbox/data-binding/overview%})for an example.
+If you need to map additional fields from the Data Source to properties of the ListBox item, you can use the __ItemDataBound__ event. See [inding To ASP DataSource Components]({%slug listbox/data-binding/overview%}) for an example.
 
 ## Appending Data Bound Items
 

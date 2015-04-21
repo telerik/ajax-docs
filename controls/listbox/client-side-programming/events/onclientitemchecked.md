@@ -10,8 +10,6 @@ position: 11
 
 # OnClientItemChecked
 
-
-
 ## 
 
 The __OnClientItemChecked__ client-side event occurs after the item has been checked.
@@ -27,19 +25,14 @@ The event handler receives two parameters:
 * __get_domEvent()__ - returns the DOM event object
 
 
-
 The following example shows how to select/unselect the item upon checking/unchecking:
 
 ````JavaScript
-	
-	        function OnClientItemCheckedHandler(sender, eventArgs) {
-	            var item = eventArgs.get_item();
-	            item.set_selected(item.get_checked());
-	        }
-				
+function OnClientItemCheckedHandler(sender, eventArgs) {
+	var item = eventArgs.get_item();
+	item.set_selected(item.get_checked());
+}
 ````
-
-
 
 # See Also
 

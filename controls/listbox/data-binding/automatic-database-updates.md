@@ -10,11 +10,9 @@ position: 4
 
 # Automatic Database Updates
 
-
-
 __RadListBox__ supports automatic database updates. This means that the control can call the respective __UpdateCommand__ or __DeleteCommand__ of the [DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}).
 
->note To allow automatic updates you need to set the __AllowAutomaticUpdates="True"__ and __AutoPostBackOn[Operation]="True"__ property of the listbox. The listbox must be bound to a[declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%})which has its __UpdateCommand__ and/or __DeleteCommand__ configured.
+>note To allow automatic updates you need to set the __AllowAutomaticUpdates="True"__ and __AutoPostBackOn[Operation]="True"__ property of the listbox. The listbox must be bound to a[declarative DataSource]({%slug listbox/data-binding/binding-to-asp.net-datasource-components%}) which has its __UpdateCommand__ and/or __DeleteCommand__ configured.
 >
 
 
@@ -35,29 +33,25 @@ In order to delete the item from RadListBox and the DataSource you need to:
 Here is a sample:
 
 ````ASPNET
-	     
-	
-	<asp:SqlDataSource ID="SqlDataSource2" runat="server"
-	   ConnectionString="<$ ConnectionStrings>"
-	   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
-	   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID" >
-	<DeleteParameters>
-	   <asp:Parameter Name="ID" Type="Int32" />
-	</DeleteParameters>
-	</asp:SqlDataSource>
-	<telerik:RadListBox ID="RadListBox1"
-	   runat="server"
-	   AllowDelete="True"
-	   AutoPostBackOnDelete="true"
-	   AllowAutomaticUpdates="true"
-	   DataKeyField="ID"                 
-	   DataTextField="Name"  
-	   DataValueField="ID"
-	   DataSourceID="SqlDataSource1" >
-	</telerik:RadListBox> 
+<asp:SqlDataSource ID="SqlDataSource2" runat="server"
+   ConnectionString="<$ ConnectionStrings>"
+   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
+   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID" >
+<DeleteParameters>
+   <asp:Parameter Name="ID" Type="Int32" />
+</DeleteParameters>
+</asp:SqlDataSource>
+<telerik:RadListBox ID="RadListBox1"
+   runat="server"
+   AllowDelete="True"
+   AutoPostBackOnDelete="true"
+   AllowAutomaticUpdates="true"
+   DataKeyField="ID"                 
+   DataTextField="Name"  
+   DataValueField="ID"
+   DataSourceID="SqlDataSource1" >
+</telerik:RadListBox> 
 ````
-
-
 
 ## Automatic item reorder
 
@@ -76,34 +70,28 @@ In order to update the DataSource while reordering items you need to:
 Here is an example:
 
 ````ASPNET
-	     
-	
-	<asp:SqlDataSource ID="SqlDataSource1" runat="server"
-	   ConnectionString="<$ ConnectionStrings>"
-	   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
-	   UpdateCommand="UPDATE [Cities] SET [Name] = @Name, [Order] = @Order WHERE [ID] = @ID">
-	<UpdateParameters>
-	   <asp:Parameter Name="Name" Type="String" />
-	   <asp:Parameter Name="Order" Type="Int32" />
-	   <asp:Parameter Name="ID" Type="Int32" />
-	</UpdateParameters>
-	</asp:SqlDataSource>
-	<telerik:RadListBox ID="RadListBox1"
-	   runat="server"
-	   AllowAutomaticUpdates="true"
-	   AllowReorder="True"        
-	   AutoPostBackOnReorder="True"
-	   DataKeyField="ID"           
-	   DataSortField="Order"        
-	   DataTextField="Name"  
-	   DataValueField="ID"                
-	   DataSourceID="SqlDataSource1" >
-	</telerik:RadListBox> 
+<asp:SqlDataSource ID="SqlDataSource1" runat="server"
+   ConnectionString="<$ ConnectionStrings>"
+   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
+   UpdateCommand="UPDATE [Cities] SET [Name] = @Name, [Order] = @Order WHERE [ID] = @ID">
+<UpdateParameters>
+   <asp:Parameter Name="Name" Type="String" />
+   <asp:Parameter Name="Order" Type="Int32" />
+   <asp:Parameter Name="ID" Type="Int32" />
+</UpdateParameters>
+</asp:SqlDataSource>
+<telerik:RadListBox ID="RadListBox1"
+   runat="server"
+   AllowAutomaticUpdates="true"
+   AllowReorder="True"        
+   AutoPostBackOnReorder="True"
+   DataKeyField="ID"           
+   DataSortField="Order"        
+   DataTextField="Name"  
+   DataValueField="ID"                
+   DataSourceID="SqlDataSource1" >
+</telerik:RadListBox> 
 ````
-
-
-
-
 
 ## Automatic item insert
 
@@ -121,37 +109,33 @@ In order to move items from one RadListBox to another you need to:
 
 * Depending on what you want to implement, you have to:
 
-* __Copy:__Set __TransferMode="Copy"__ in the first RadListBox
+* __Copy:__ Set __TransferMode="Copy"__ in the first RadListBox
 
-* __Move:__Set __TransferMode="Move"__(default) in the first RadListBox and make sure that it's corresponding DataSource has its __DeleteCommand__ set.
+* __Move:__ Set __TransferMode="Move"__ (default) in the first RadListBox and make sure that it's corresponding DataSource has its __DeleteCommand__ set.
 
 Here is an example:
 
 ````ASPNET
-	     
-	
-	<asp:SqlDataSource ID="SqlDataSource1" runat="server"
-	   ConnectionString="<$ ConnectionStrings>"
-	   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
-	   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID">
-	<DeleteParameters>
-	   <asp:Parameter Name="ID" Type="Int32" />
-	<//DeleteParameters>
-	</asp:SqlDataSource>
-	<telerik:RadListBox ID="RadListBox1"
-	   runat="server"
-	   AllowAutomaticUpdates="true"   
-	   AllowTransfer="true"
-	   TransferToID="RadListBox2"
-	   AutoPostBackOnTransfer="true"
-	   DataKeyField="ID"             
-	   DataTextField="Name"  
-	   DataValueField="ID"                
-	   DataSourceID="SqlDataSource1" >
-	</telerik:RadListBox> 
+<asp:SqlDataSource ID="SqlDataSource1" runat="server"
+   ConnectionString="<$ ConnectionStrings>"
+   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
+   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID">
+<DeleteParameters>
+   <asp:Parameter Name="ID" Type="Int32" />
+<//DeleteParameters>
+</asp:SqlDataSource>
+<telerik:RadListBox ID="RadListBox1"
+   runat="server"
+   AllowAutomaticUpdates="true"   
+   AllowTransfer="true"
+   TransferToID="RadListBox2"
+   AutoPostBackOnTransfer="true"
+   DataKeyField="ID"             
+   DataTextField="Name"  
+   DataValueField="ID"                
+   DataSourceID="SqlDataSource1" >
+</telerik:RadListBox> 
 ````
-
-
 
 >note The names of the selected columns from the first __DataSource__ have to be the same as the names of the __InsertParameters__ of the second __DataSource__ 
 >
@@ -163,32 +147,26 @@ Here is an example:
 
 
 ````ASPNET
-	     
-	
-	<asp:SqlDataSource ID="SqlDataSource1" runat="server"
-	   ConnectionString="<$ ConnectionStrings>"
-	   SelectCommand="SELECT [ID] as [DataKeyID], [ID] as [InsertID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
-	   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID">
-	<DeleteParameters>
-	   <asp:Parameter Name="ID" Type="Int32" />
-	<//DeleteParameters>
-	</asp:SqlDataSource>
-	<telerik:RadListBox ID="RadListBox1"
-	   runat="server"
-	   AllowAutomaticUpdates="true"   
-	   AllowTransfer="true"
-	   TransferToID="RadListBox2"
-	   AutoPostBackOnTransfer="true"
-	   DataKeyField="DataKeyID"             
-	   DataTextField="Name"  
-	   DataValueField="ID"                
-	   DataSourceID="SqlDataSource1" >
-	</telerik:RadListBox> 
+<asp:SqlDataSource ID="SqlDataSource1" runat="server"
+   ConnectionString="<$ ConnectionStrings>"
+   SelectCommand="SELECT [ID] as [DataKeyID], [ID] as [InsertID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
+   DeleteCommand="DELETE FROM [Cities] WHERE [ID] = @ID">
+<DeleteParameters>
+   <asp:Parameter Name="ID" Type="Int32" />
+<//DeleteParameters>
+</asp:SqlDataSource>
+<telerik:RadListBox ID="RadListBox1"
+   runat="server"
+   AllowAutomaticUpdates="true"   
+   AllowTransfer="true"
+   TransferToID="RadListBox2"
+   AutoPostBackOnTransfer="true"
+   DataKeyField="DataKeyID"             
+   DataTextField="Name"  
+   DataValueField="ID"                
+   DataSourceID="SqlDataSource1" >
+</telerik:RadListBox> 
 ````
-
-
-
-
 
 2. In the second RadListBox:
 
@@ -199,30 +177,24 @@ Here is an example:
 Here is an example:
 
 ````ASPNET
-	     
-	
-	<asp:SqlDataSource ID="SqlDataSource2" runat="server"
-	   ConnectionString="<$ ConnectionStrings>"
-	   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
-	   InsertCommand="INSERT INTO [Cities] ([Name], [Order]) VALUES (@Name, @Order)">
-	<InsertParameters>
-	   <asp:Parameter Name="Name" Type="String" />
-	   <asp:Parameter Name="Order" Type="Int32" />
-	</InsertParameters>
-	</asp:SqlDataSource>
-	<telerik:RadListBox ID="RadListBox2"
-	   runat="server"
-	   AllowAutomaticUpdates="true"  
-	   DataKeyField="ID"            
-	   DataTextField="Name"  
-	   DataValueField="ID"                
-	   DataSourceID="SqlDataSource1" >
-	</telerik:RadListBox> 
+<asp:SqlDataSource ID="SqlDataSource2" runat="server"
+   ConnectionString="<$ ConnectionStrings>"
+   SelectCommand="SELECT [ID], [Name], [Order] FROM [Cities] ORDER BY [Order]"
+   InsertCommand="INSERT INTO [Cities] ([Name], [Order]) VALUES (@Name, @Order)">
+<InsertParameters>
+   <asp:Parameter Name="Name" Type="String" />
+   <asp:Parameter Name="Order" Type="Int32" />
+</InsertParameters>
+</asp:SqlDataSource>
+<telerik:RadListBox ID="RadListBox2"
+   runat="server"
+   AllowAutomaticUpdates="true"  
+   DataKeyField="ID"            
+   DataTextField="Name"  
+   DataValueField="ID"                
+   DataSourceID="SqlDataSource1" >
+</telerik:RadListBox> 
 ````
-
-
-
-
 
 # See Also
 

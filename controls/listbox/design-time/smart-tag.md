@@ -10,8 +10,6 @@ position: 0
 
 # Smart Tag
 
-
-
 The __RadListBox__ Smart Tag allows easy access to frequently needed tasks. You can display the __Smart Tag__ by right clicking on a __RadListBox__ control in the design window, and choosing __Show Smart Tag.__
 
 ![Show smart tag](images/listbox_show_smart_tag.png)
@@ -48,7 +46,7 @@ When __RadListBox__ is bound to a data source, the Smart Tag looks like the foll
 
 ![Bound Smart Tag](images/listbox_bound_smart_tag.png)
 
-Using the Smart Tag of bound RadListBox____lets you perform any task you can perform with the Smart Tag of unbound RadListBox. In addition, you can choose __Configure Data Source...__ to open the standard [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
+Using the Smart Tag of bound __RadListBox__ lets you perform any task you can perform with the Smart Tag of unbound RadListBox. In addition, you can choose __Configure Data Source...__ to open the standard [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
 Once the Data Source is chosen, you can select each of the following: __DataKeyField__, __DataSortField__, __DataTextField__ and __DataValueField__. These should be fields in the Data Source which will serve data respectively for the primary key, sort order column and __Text__ and __Value__ properties of RadListBox Items.
 

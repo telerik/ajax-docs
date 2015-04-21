@@ -10,13 +10,9 @@ position: 1
 
 # Dropping
 
-
-
 ## 
 
 The __Dropping__ server event fires just before a RadListBoxItem is dropped over an __HTML element__ which has __id__ attribute set. The event can be cancelled. It is __not fired__ when you drop an item over another RadListBox/RadListBoxItem.
-
-
 
 The event handler receives two parameters:
 
@@ -31,18 +27,21 @@ The event handler receives two parameters:
 * __SourceDragItems__ - a collection of RadListBoxItems which are about to be dropped
 
 ````C#
-	
-	    protected void RadListBox_Dropping(object sender, RadListBoxDroppedEventArgs e)
-	    {
-	        if (TextBox1.ClientID != e.HtmlElementID)
-	        {
-	            e.Cancel = true;
-	        }
-	    } 
-				
+protected void RadListBox_Dropping(object sender, RadListBoxDroppedEventArgs e)
+{
+	if (TextBox1.ClientID != e.HtmlElementID)
+	{
+		e.Cancel = true;
+	}
+} 
 ````
-
-
+````VB.NET
+Protected Sub RadListBox_Dropping(sender As Object, e As RadListBoxDroppedEventArgs)
+	If TextBox1.ClientID <> e.HtmlElementID Then
+		e.Cancel = True
+	End If
+End Sub 
+````
 
 # See Also
 

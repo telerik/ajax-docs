@@ -10,14 +10,9 @@ position: 3
 
 # CSS Skin File Selector
 
-
-
 ## 
 
 The following table lists significant CSS selectors and descriptions for RadListBox style sheets.
-
-
-
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |

@@ -10,13 +10,9 @@ position: 23
 
 # OnClientMouseOver
 
-
-
 ## 
 
-The __OnClientMouseOver__client-side event occurs when the mouse cursor passes over an item.
-
-
+The __OnClientMouseOver__ client-side event occurs when the mouse cursor passes over an item.
 
 The event handler receives two parameters:
 
@@ -27,10 +23,6 @@ The event handler receives two parameters:
 * __get_item()__ - returns a reference to the item
 
 * __get_domEvent()__ - returns the DOM event object
-
-
-
-
 
 # See Also
 

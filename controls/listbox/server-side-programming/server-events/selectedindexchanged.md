@@ -10,11 +10,9 @@ position: 7
 
 # SelectedIndexChanged
 
-
-
 ## 
 
-The __SelectedIndexChanged__ fires when you change the selected item. It will fire automatically if the __AutoPostBack="True".__The event fires before the [TextChanged]({%slug listbox/server-side-programming/server-events/textchanged%}) server event.
+The __SelectedIndexChanged__ fires when you change the selected item. It will fire automatically if the __AutoPostBack="True"__. The event fires before the [TextChanged]({%slug listbox/server-side-programming/server-events/textchanged%}) server event.
 
 The event handler receives two parameters:
 
@@ -23,26 +21,17 @@ The event handler receives two parameters:
 2. An event arguments parameter containing no methods
 
 
-
-````C#
-	
-	    protected void RadListBox1_SelectedIndexChanged(object sender, EventArgs e)
-	    {
-	        Label.Text = "You have selected item : " +  RadListBox1.SelectedItem.Text;
-	    }
-	
+````C#	
+protected void RadListBox1_SelectedIndexChanged(object sender, EventArgs e)
+{
+	Label.Text = "You have selected item : " +  RadListBox1.SelectedItem.Text;
+}	
 ````
-````VB.NET
-	
-	    Protected Sub RadListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
-	        Label.Text = "You have selected item : " + RadListBox1.SelectedItem.Text
-	    End Sub
-	
-	#End Region
-	End Class
+````VB.NET	
+Protected Sub RadListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
+	Label.Text = "You have selected item : " + RadListBox1.SelectedItem.Text
+End Sub
 ````
-
-
 
 # See Also
 

@@ -10,11 +10,9 @@ position: 11
 
 # Transferring
 
-
-
 ## 
 
-The __Transferring__ server event fires when the __AutoPostBackOnTransfer="True"__and the user tries to transfer an item / items__.__ It fires __before__ the [Deleting]({%slug listbox/server-side-programming/server-events/deleting%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
+The __Transferring__ server event fires when the __AutoPostBackOnTransfer="True"__ and the user tries to transfer an item / items. It fires __before__ the [Deleting]({%slug listbox/server-side-programming/server-events/deleting%}) server event (if not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
 
 The event handler receives two parameters:
 
@@ -27,22 +25,17 @@ The event handler receives two parameters:
 * __Cancel__ - set it to True to cancel the event and prevent the transfer to happen
 
 
-
 ````C#
-	    protected void SourceListBox_Transferring(object sender, RadListBoxTransferringEventArgs e)
-	    {
-	        e.Cancel = true;
-	    }
+protected void SourceListBox_Transferring(object sender, RadListBoxTransferringEventArgs e)
+{
+	e.Cancel = true;
+}
 ````
 ````VB.NET
-	    Protected Sub SourceListBox_Transferring(sender As Object, e As RadListBoxTransferringEventArgs)
-	        e.Cancel = True
-	    End Sub
-	#End Region
-	End Class
+Protected Sub SourceListBox_Transferring(sender As Object, e As RadListBoxTransferringEventArgs)
+	e.Cancel = True
+End Sub
 ````
-
-
 
 # See Also
 

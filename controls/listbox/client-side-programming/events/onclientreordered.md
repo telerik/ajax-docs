@@ -10,13 +10,9 @@ position: 18
 
 # OnClientReordered
 
-
-
 ## 
 
 The __OnClientReordered__ client-side event occurs after the item or items have been reordered.
-
-
 
 The event handler receives two parameters:
 
@@ -32,23 +28,13 @@ The event handler receives two parameters:
 
 * __get_domEvent()__ - returns the DOM event object
 
-
-
 The following code notifies the user for a successful reordering of the item:
 
 ````JavaScript
-	
-	        function onClientReorderedHandler(sender, e) {
-	            alert("Successfully moved: " + e.get_item().get_text());
-	        }
-				
+function onClientReorderedHandler(sender, e) {
+	alert("Successfully moved: " + e.get_item().get_text());
+}			
 ````
-
-
-
-
-
-
 
 # See Also
 

@@ -10,8 +10,6 @@ position: 4
 
 # Button Settings
 
-
-
 You can control the way buttons are rendered using the __ButtonSettings__ property. You can change the position of the buttons, align them horizontally and vertically, set their width, height and visibility.
 
 ## ButtonSettings properties
@@ -19,16 +17,12 @@ You can control the way buttons are rendered using the __ButtonSettings__ proper
 * __Position__ - controls where the buttons will be placed relative to the listbox. Possible values are Bottom, Left, Right or Top.
 
 ````ASPNET
-	    <telerik:radlistbox id="RadListBox1">     
-	       <ButtonSettings AreaHeight="30" Position="Bottom" HorizontalAlign="Center" />         
-	    </telerik:radlistbox>
+<telerik:radlistbox id="RadListBox1">     
+   <ButtonSettings AreaHeight="30" Position="Bottom" HorizontalAlign="Center" />         
+</telerik:radlistbox>
 ````
 
-
-
 ![Transfer buttons at the bottom](images/listbox_position_bottom.png)
-
-
 
 * __HorizontalAlign__ - sets the horizontal alignment of the buttons when their __position__ is either Top or Bottom. Possible values are Center, Left and Right.
 
@@ -41,8 +35,6 @@ You can control the way buttons are rendered using the __ButtonSettings__ proper
 * __RenderButtonText__ - When set to True (default is False) the text of the buttons is shown as well. To change the text of the buttons please see the [Localization]({%slug listbox/accessibility-and-internationalization-/localization%}) article.
 
 ![Render button text](images/listbox_render_button_text.png)
-
-
 
 * __ShowDelete__ - when set to False the delete button will not be visible when __AllowDelete="True"__
 

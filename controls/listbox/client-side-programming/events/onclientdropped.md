@@ -10,8 +10,6 @@ position: 7
 
 # OnClientDropped
 
-
-
 ## 
 
 The __OnClientDropped__ client-event is fired after the item/items are dropped.
@@ -24,7 +22,7 @@ The event handler receives two parameters:
 
 * __get_sourceItem()__ - returns the first selected item that is dropped
 
-* __get_sourceItems() -__ returns an array of the selected items that are dropped
+* __get_sourceItems()__ - returns an array of the selected items that are dropped
 
 * __get_destinationItem()__ - returns the destination item.
 
@@ -36,15 +34,13 @@ The event handler receives two parameters:
 
 The following example shows an informative message after the item has been dropped.
 
-````JavaScript
-	
-	        function OnClientDroppedHandler(sender, eventArgs) {
-	            var message = "You have successfully dropped the item " + eventArgs.get_sourceItem().get_text();
-	            message += eventArgs.get_dropPosition() == 0 ? " above" : " below";
-	            message += " the item " + eventArgs.get_destinationItem().get_text() + "?";
-	            alert(message);
-	        }
-				
+````JavaScript	
+function OnClientDroppedHandler(sender, eventArgs) {
+	var message = "You have successfully dropped the item " + eventArgs.get_sourceItem().get_text();
+	message += eventArgs.get_dropPosition() == 0 ? " above" : " below";
+	message += " the item " + eventArgs.get_destinationItem().get_text() + "?";
+	alert(message);
+}				
 ````
 
 

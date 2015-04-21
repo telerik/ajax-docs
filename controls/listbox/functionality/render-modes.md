@@ -10,8 +10,6 @@ position: 0
 
 # Render Modes
 
-
-
 This article demonstrates the different render modes that __RadListBox__ control offers. They are exposed via the __RenderMode__ property that can have two possible values - __Classic__ or __Lightweight__. The goal behind this functionality is to stay in line with the latest trends in the web development and make maximum use of CSS3/HTML5 features. This functionality was introduced in the __Q1 2014__ version.
 
 * __Classic__ - this is the default value of the RenderMode property which preserves the rendering that has been used before without changes.
@@ -27,43 +25,26 @@ There are two ways to set the __RenderMode__ for __RadListBox__:
 * When the __RenderMode property__ is set in the markup you can type in a string, when set in the code-behind it takes a member of the `Telerik.Web.UI.RenderMode` enum. For example:
 
 ````ASPNET
-			<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1"></telerik:RadListBox>
+<telerik:RadListBox RenderMode="Lightweight" runat="server" ID="RadListBox1"></telerik:RadListBox>
 ````
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * A __global setting in the web.config__ file that will affect the entire application, unless a concrete value is specified for __RadListBox__ instance:
 
 * Change render mode for all __RadListBoxes__ in your application:
 
 ````XML
-			<appSettings>
-				<add key="Telerik.Web.UI.ListBox.RenderMode" value="lightweight" />
-			</appSettings>
+<appSettings>
+	<add key="Telerik.Web.UI.ListBox.RenderMode" value="lightweight" />
+</appSettings>
 ````
-
-
 
 * Change render mode for __all controls__ in your application:
 
 ````XML
-			<appSettings>
-				<add key="Telerik.Web.UI.RenderMode" value="lightweight" />
-			</appSettings>
+<appSettings>
+	<add key="Telerik.Web.UI.RenderMode" value="lightweight" />
+</appSettings>
 ````
-
-
 
 # See Also
 

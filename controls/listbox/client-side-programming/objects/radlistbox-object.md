@@ -10,13 +10,9 @@ position: 0
 
 # RadListBox Object
 
-
-
 ## 
 
 The following table lists the most important methods of the client-side __RadListBox__ object:
-
-
 
 
 >caption   
@@ -26,21 +22,17 @@ The following table lists the most important methods of the client-side __RadLis
 | __trackChanges__ |none|none|Starts tracking changes made to the listbox that will be preserved over post-backs.|
 | __commitChanges__ |none|none|Writes the changes to the listbox that were made since a previous call to trackChanges, so that they are preserved over post-backs.|
 
-````JavaScript
-	
-	        function AddNewItem() {
-	            var listbox = $find("<%= RadListBox1.ClientID %>");
-	            var item = new Telerik.Web.UI.RadListBoxItem();
-	            item.set_text("item");
-	            listbox.trackChanges();
-	            listbox.get_items().add(item);
-	            item.select(); 
-	            listbox.commitChanges();
-	        }
-	
+````JavaScript	
+function AddNewItem() {
+	var listbox = $find("<%= RadListBox1.ClientID %>");
+	var item = new Telerik.Web.UI.RadListBoxItem();
+	item.set_text("item");
+	listbox.trackChanges();
+	listbox.get_items().add(item);
+	item.select(); 
+	listbox.commitChanges();
+}	
 ````
-
-
 
 
 >caption  

@@ -10,8 +10,6 @@ position: 4
 
 # Reordered
 
-
-
 ## 
 
 The __Reordered__ event fires after the [Updated]({%slug listbox/server-side-programming/server-events/updated%}) event. The __Items__ collection of the listbox is updated to reflect the reordering.
@@ -25,27 +23,22 @@ The event handler receives two parameters:
 * __Items__ - collection of __RadListBoxItem__ objects which were reordered.
 
 
-
 ````C#
-	    protected void RadListBox1_Reordered(object sender, RadListBoxEventArgs e)
-	    {
-	        foreach (RadListBoxItem item in e.Items)
-	        {
-	            item.Text = "Reordered Item";
-	        }
-	    }
+protected void RadListBox1_Reordered(object sender, RadListBoxEventArgs e)
+{
+	foreach (RadListBoxItem item in e.Items)
+	{
+		item.Text = "Reordered Item";
+	}
+}
 ````
 ````VB.NET
-	    Protected Sub RadListBox1_Reordered(sender As Object, e As RadListBoxEventArgs)
-	        For Each item As RadListBoxItem In e.Items
-	            item.Text = "Reordered Item"
-	        Next
-	    End Sub
-	#End Region
-	End Class
+Protected Sub RadListBox1_Reordered(sender As Object, e As RadListBoxEventArgs)
+	For Each item As RadListBoxItem In e.Items
+		item.Text = "Reordered Item"
+	Next
+End Sub
 ````
-
-
 
 # See Also
 

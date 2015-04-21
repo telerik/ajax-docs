@@ -10,8 +10,6 @@ position: 9
 
 # OnClientItemDoubleClicked
 
-
-
 ## 
 
 The __OnClientItemDoubleClicked__ client-side event occurs after the user double clicks the item using the mouse.

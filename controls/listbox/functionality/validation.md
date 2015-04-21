@@ -10,8 +10,6 @@ position: 6
 
 # Validation
 
-
-
 You can use the built in ASP.NET validation with __RadListBox__.
 
 ## Validating RadListBox with RequiredFieldValidator
@@ -19,24 +17,19 @@ You can use the built in ASP.NET validation with __RadListBox__.
 To validate for selected item of a listbox, just specify the ID of the listbox in the __ControlToValidate__ property of the __RequiredFieldValidator__. Validation checks to see if there is at least one selected item.
 
 ````ASPNET
-	     
-	
-	    <telerik:RadListBox runat="server" ID="RadListBox1"> 
-	        <Items>  
-	        <telerik:RadListBoxItem Text="Apartments" />  
-	        <telerik:RadListBoxItem Text="Campings" />  
-	        <telerik:RadListBoxItem Text="Hotels" />  
-	        <telerik:RadListBoxItem Text="Hostels" />  
-	        <telerik:RadListBoxItem Text="Rooms" />  
-	        <telerik:RadListBoxItem Text="Villas" />
-	        </Items>
-	    </telerik:RadListBox>
-	
-	    <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ErrorMessage="Please, select item!" ControlToValidate="RadListBox1" />
-				
+<telerik:RadListBox runat="server" ID="RadListBox1"> 
+	<Items>  
+	<telerik:RadListBoxItem Text="Apartments" />  
+	<telerik:RadListBoxItem Text="Campings" />  
+	<telerik:RadListBoxItem Text="Hotels" />  
+	<telerik:RadListBoxItem Text="Hostels" />  
+	<telerik:RadListBoxItem Text="Rooms" />  
+	<telerik:RadListBoxItem Text="Villas" />
+	</Items>
+</telerik:RadListBox>
+
+<asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ErrorMessage="Please, select item!" ControlToValidate="RadListBox1" />				
 ````
-
-
 
 If no item is selected, the validator fails and displays the error message:
 

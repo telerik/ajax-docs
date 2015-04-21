@@ -10,11 +10,9 @@ position: 1
 
 # Item Builder
 
-
-
 The __RadListBox Item Builder__ lets you add, edit, delete and set properties for items at design-time.
 
-* From the __RadListBox__[Smart Tag]({%slug listbox/design-time/smart-tag%}), click on the __Build RadListBox__ link.
+* From the __RadListBox__ [Smart Tag]({%slug listbox/design-time/smart-tag%}), click on the __Build RadListBox__ link.
 
 * Right-click on the __RadListBox__ control and select __Build RadListBox__ from the context menu.
 
@@ -22,7 +20,7 @@ The __RadListBox Item Builder__ lets you add, edit, delete and set properties fo
 
 There are two ways to bring up the RadListBox Item Builder:
 
-* From the __RadListBox__[Smart Tag]({%slug listbox/design-time/smart-tag%}), click on the __Build RadListBox__ link.
+* From the __RadListBox__ [Smart Tag]({%slug listbox/design-time/smart-tag%}), click on the __Build RadListBox__ link.
 
 ![listbox build smart](images/listbox_build_smart.jpg)
 

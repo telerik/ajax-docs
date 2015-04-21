@@ -11,10 +11,9 @@ position: 5
 # Updating
 
 
-
 ## 
 
-The __Updating__ server event fires when the __AutoPostBackOnReorder="True"__and the user tries to reorder an item / items__.__ It fires __after__ the [Reordering]({%slug listbox/server-side-programming/server-events/reordering%}) server event (is not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
+The __Updating__ server event fires when the __AutoPostBackOnReorder="True"__ and the user tries to reorder an item / items. It fires __after__ the [Reordering]({%slug listbox/server-side-programming/server-events/reordering%}) server event (is not cancelled) once for all selected items. If this event is not cancelled and the __AllowAutomaticUpdates="True"__ - the database is updated to reflect the new reordered list.
 
 The event handler receives two parameters:
 
@@ -26,24 +25,17 @@ The event handler receives two parameters:
 
 * __Cancel__ - set it to True to cancel the event and prevent the reordering to happen
 
-
-
 ````C#
-	    protected void RadListBox1_Updating(object sender, RadListBoxUpdatingEventArgs e)
-	    {
-	        Label.Text = "Updated items count is " + e.Items.Count;
-	    }
+protected void RadListBox1_Updating(object sender, RadListBoxUpdatingEventArgs e)
+{
+	Label.Text = "Updated items count is " + e.Items.Count;
+}
 ````
 ````VB.NET
-	    Protected Sub RadListBox1_Updating(sender As Object, e As RadListBoxUpdatingEventArgs)
-	        Label.Text = "Updated items count is " + e.Items.Count.ToString()
-	    End Sub
-	#End Region
-	
-	End Class
+Protected Sub RadListBox1_Updating(sender As Object, e As RadListBoxUpdatingEventArgs)
+	Label.Text = "Updated items count is " + e.Items.Count.ToString()
+End Sub
 ````
-
-
 
 # See Also
 

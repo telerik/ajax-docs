@@ -10,8 +10,6 @@ position: 21
 
 # OnClientSelectedIndexChanging
 
-
-
 ## 
 
 The __OnClientSelectedIndexChanging__ client-side event occurs when the selected item is about to be changed. This event can be cancelled.
@@ -24,23 +22,19 @@ The event handler receives two parameters:
 
 * __get_item()__ - returns the item that is about to be selected.
 
-* __set_cancel -__lets you cancel the event and prevent items from being selected.
+* __set_cancel()__ - lets you cancel the event and prevent items from being selected.
 
 * __get_domEvent()__ - returns the DOM event object
 
 The example below shows how to ask the user before selecting the item:
 
-````JavaScript
-	
-	        function onClientSelectedIndexChangingHandler(sender, e) {
-	            if (!confirm("Are you sure?")) {
-	                e.set_cancel(true);
-	            }
-	        }
-				
+````JavaScript	
+function onClientSelectedIndexChangingHandler(sender, e) {
+	if (!confirm("Are you sure?")) {
+		e.set_cancel(true);
+	}
+}
 ````
-
-
 
 # See Also
 

@@ -10,13 +10,9 @@ position: 20
 
 # OnClientTransferred
 
-
-
 ## 
 
 The __OnClientTransferred__ client-side event occurs after the selected item has been transferred to the destination RadListBox.
-
-
 
 The event handler receives two parameters:
 
@@ -34,19 +30,13 @@ The event handler receives two parameters:
 
 * __get_domEvent()__ - returns the DOM event object
 
-
-
 The following code notifies the user for a successful transferring of the item:
 
-````JavaScript
-	
-	        function onClientTransferredHandler(sender, e) {
-	            alert("Successfully transferred: " + e.get_item().get_text());
-	        }
-				
+````JavaScript	
+function onClientTransferredHandler(sender, e) {
+	alert("Successfully transferred: " + e.get_item().get_text());
+}				
 ````
-
-
 
 # See Also
 

@@ -10,17 +10,11 @@ position: 2
 
 # Transfer
 
-
-
 ## 
 
 __RadListBox__ supports item transfer to another (related) __RadListBox__. By default, the selected item is __moved__ from the source to the destination listbox. You can change that behavior by setting the __TransferMode="Copy"__ property - in this way the item will be __copied__ to the destination listbox.
 
-
-
 ![RadListBox Transfer](images/listbox_transfer.png)
-
-
 
 To enable item transferring you need to:
 

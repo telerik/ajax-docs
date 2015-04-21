@@ -10,13 +10,9 @@ position: 3
 
 # OnClientDeleted
 
-
-
 ## 
 
 The __OnClientDeleted__ Client-side event occurs after the item or items have been deleted.
-
-
 
 The event handler receives two parameters:
 
@@ -30,23 +26,13 @@ The event handler receives two parameters:
 
 * __get_domEvent()__ - returns the DOM event object
 
-
-
 The example below shows how to alert the user that the item was successfully deleted:
 
-````JavaScript
-	
-	        function onClientDeletedHandler(sender, e) {
-	            alert("Successfully deleted: " + e.get_item().get_text());
-	        }
-				
+````JavaScript	
+function onClientDeletedHandler(sender, e) {
+	alert("Successfully deleted: " + e.get_item().get_text());
+}				
 ````
-
-
-
-
-
-
 
 # See Also
 

@@ -10,8 +10,6 @@ position: 5
 
 # Binding to OData
 
-
-
 ## Binding to OData
 
 Forth from Q3 2011, RadListBox can be bound to an OData service. The Open Data Protocol (OData) is an open web protocol for querying and updating data. The protocol allows for a consumer to query a data source over the HTTP protocol and get the result back in formats like Atom, JSON or plain XML, including pagination, ordering or filtering of the data. For now, it is not possible to utilize filtering or paging, however, we will add support for these in the Q1 2012 release. Also, the binding is one way only, i.e. it is not possible to perform update/insert/delete on the data source. The binding can be flat or hierarchical, the RadListBox can utilize only the flat binding.
@@ -21,23 +19,19 @@ Forth from Q3 2011, RadListBox can be bound to an OData service. The Open Data P
 This means binding to a non-hierarchical data. It is rather easy to bind to such data, here is sample markup that binds to the Category table exposed by the OData.org sample services:
 
 ````ASPNET
-	     
-		<telerik:RadListBox runat="server" ID="RadListBox2">
-			<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
-				<ODataSettings ResponseType="JSONP">
-					<Entities>
-						<telerik:ODataEntityType Name="Category"   DataValueField="ID" DataTextField="Name" />
-					</Entities>
-					<EntityContainer>
-						<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
-					</EntityContainer>
-				</ODataSettings>
-			</WebServiceSettings>
-		</telerik:RadListBox>
-	 			
+<telerik:RadListBox runat="server" ID="RadListBox2">
+	<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
+		<ODataSettings ResponseType="JSONP">
+			<Entities>
+				<telerik:ODataEntityType Name="Category"   DataValueField="ID" DataTextField="Name" />
+			</Entities>
+			<EntityContainer>
+				<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
+			</EntityContainer>
+		</ODataSettings>
+	</WebServiceSettings>
+</telerik:RadListBox>
 ````
-
-
 
 The applied settings are described below:
 
