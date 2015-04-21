@@ -141,7 +141,7 @@ $(function() {
             $("#page-article h2").each(function() {
                 var h2 = $(this);
 
-                if (!/fields|configuration|properties|events|methods/i.test(h2.text())) {
+                if (!/fields|configuration|properties|events|methods|constructors/i.test(h2.text())) {
                     return;
                 }
 
