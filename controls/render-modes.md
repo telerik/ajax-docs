@@ -5,7 +5,7 @@ description: Render Modes
 slug: controls/render-modes
 tags: render,modes
 published: True
-position: 3
+position: 106
 ---
 
 # Render Modes

@@ -5,7 +5,7 @@ description: RadSkinManager
 slug: controls/radskinmanager
 tags: radskinmanager
 published: True
-position: 0
+position: 100
 ---
 
 # RadSkinManager
