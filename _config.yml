@@ -190,7 +190,7 @@ navigation:
         title: "RadImageEditor"
     "*imagegallery":
         title: "RadImageGallery"
-    "*input":
+    "*/input":
         title: "RadInput"
     "*lightbox":
         title: "RadLightBox"
