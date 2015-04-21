@@ -621,10 +621,10 @@ navigation:
     "*gantt/functionality/import":
         title: "Import"
         position: 4
-    "*gantt/resoruces":
-        title: "Resoruces"
+    "*gantt/resources":
+        title: "Resources"
         position: 7
-    "*gantt/resoruces/data-binding":
+    "*gantt/resources/data-binding":
         title: "Data Binding"
         position: 1
     "*gantt/import":
