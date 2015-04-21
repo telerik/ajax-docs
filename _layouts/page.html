@@ -31,12 +31,18 @@ layout: index
     <a id="page-edit-link" class="btn btn-action" href="https://github.com/telerik/ajax-docs/edit/master{{ page.url | replace: '.html','' }}.md">Edit this page</a>
 
     {% if page.kind == "api" %}<div id="markdown-toc"></div>{% endif %}
-    
+
     {% if page.type == "server" %}
     {% assign parents = page.inheritance | split:"," %}
     <ul id="inheritance-tree">
         {% for item in parents reversed %}
         <li data-expanded="true">
+            {% for page in site.pages %}
+                {% if page.title == {{item}} %}
+            <a href="{{site.baseurl}}{{ page.url | replace: '.html',''| strip_html }}"></a>
+                    {% break %}
+                {% endif %}
+            {% endfor %}
             {{item}}
         </li>
         {% endfor %}
