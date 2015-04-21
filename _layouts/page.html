@@ -31,6 +31,17 @@ layout: index
     <a id="page-edit-link" class="btn btn-action" href="https://github.com/telerik/ajax-docs/edit/master{{ page.url | replace: '.html','' }}.md">Edit this page</a>
 
     {% if page.kind == "api" %}<div id="markdown-toc"></div>{% endif %}
+    
+    {% if page.type == "server" %}
+    {% assign parents = page.inheritance | split:"," %}
+    <ul id="inheritance-tree">
+        {% for item in parents reversed %}
+        <li data-expanded="true">
+            {{item}}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 
     <div id="page-article">
         <article>

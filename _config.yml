@@ -2,7 +2,7 @@
 url: "http://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log, UrlMappings-and-conversion-logs/*]
+exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*]
 
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
@@ -1390,11 +1390,16 @@ defaults:
         layout: "page"
         category: "default"
         product: "aspnet-ajax"
--        
+-
     scope:
         path: "api"
     values:
         kind: "api"
+-
+    scope:
+        path: "api/server"
+    values:
+        type: "server"
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"

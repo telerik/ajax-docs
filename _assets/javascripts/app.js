@@ -79,6 +79,22 @@ function onExpand(e) {
 
 $(function() {
 
+    $("#inheritance-tree")
+        .insertAfter("#inheritance-hierarchy")
+        .end()
+        .children("li")
+        .each(function (index, node) {
+            var parentIndex = index - 1;
+            if (index !== 0) {
+                $(node)
+                    .appendTo($("#inheritance-tree").find("li:eq(" + parentIndex + ")"))
+                    .end()
+                    .wrap("<ul>");
+            }
+        })
+        .end()
+        .kendoTreeView();
+
     $("div.tabbedCode").each(function() {
         var container = $(this);
         var langs = container.find("pre");
