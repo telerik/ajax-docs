@@ -18,7 +18,7 @@ Sometimes users need to upload files larger than 4GB, but the IIS would prevent 
 
 In order to upload files larger than GB, you need to change the following attributes of the **`<httpRuntime>`** tag in the **`<system.web>`** section of the **Web.config** file.
 
-1. **maxRequestLength**
+* **maxRequestLength**
 
 The **maxRequestLength** attribute specifies the limit for the input stream buffering threshold, in KB (kilobytes). You can use this limit to prevent denial of service attacks that are caused, for example, by users posting large files to the server. The default value is 4096 (4 MB).To enable large file uploads you need to change the value of this attribute to the largest allowed combined file size for your application. If someone selects and uploads files with a total size larger than **maxRequestLength**, this will result in a *"Page not found"* error. **RadCloudUpload** does not provide a way to handle this error.
 
@@ -26,7 +26,7 @@ The **maxRequestLength** attribute specifies the limit for the input stream buff
 >
 
 
-2. **executionTimeout**
+* **executionTimeout**
 
 The **executionTimeout** attribute specifies the maximum number of seconds a request is allowed to be executed before being automatically shut down by ASP.NET – the default time is **110** seconds. If a request takes longer to execute, an exception will be thrown.To enable large file uploads, which can take large periods of time, you should increase the value of this property.You can find more information about the **httpRuntime** configuration in the following MSDN article: [http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx](http://msdn.microsoft.com/en-us/library/e1f13641%28v=vs.71%29.aspx).
 
@@ -65,19 +65,19 @@ Modify the configuration file to allow uploads of files of up to 100MB and uploa
 
 1. Add these lines in the **Web.config** file:
 
-````XML
-<system.webserver>
-	...
-	<security>
-		<requestFiltering>
-			<requestLimits maxAllowedContentLength="1024000000" />
-		</requestFiltering>
-	</security>
-</system.webserver>
-````
+	````XML
+	<system.webserver>
+		...
+		<security>
+			<requestFiltering>
+				<requestLimits maxAllowedContentLength="1024000000" />
+			</requestFiltering>
+		</security>
+	</system.webserver>
+	````
 
 
 
-1. Open the file **C:\Windows\System32\inetsrv\config\applicationHost.config** and find the line: `<section name="requestFiltering" overrideModeDefault="Deny" />`
+2. Open the file **C:\Windows\System32\inetsrv\config\applicationHost.config** and find the line: `<section name="requestFiltering" overrideModeDefault="Deny" />`
 
-1. Change the **overrideModeDefault** property from "Deny" to **Allow**. So now the line should look like: `<section name="requestFiltering" overrideModeDefault="Allow" />`
+3. Change the **overrideModeDefault** property from "Deny" to **Allow**. So now the line should look like: `<section name="requestFiltering" overrideModeDefault="Allow" />`

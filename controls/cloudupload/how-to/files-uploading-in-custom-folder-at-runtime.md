@@ -32,34 +32,34 @@ To accomplish this scenario the **RadCloudUpload** needs to be configured to use
 
 
 ````C#
-	    <%@ WebHandler Language="C#" Class="UploadToCustomFolderHandler" %>
-	
-	    using System;
-	    using System.Web;
-	
-	    public class UploadToCustomFolderHandler : Telerik.Web.UI.CloudUploadHandler {
-	
-	        public override void SetKeyName(object sender, Telerik.Web.UI.CloudUpload.SetKeyNameEventArgs e)
-	        {        
-	            var customFolder = Guid.NewGuid().ToString() + "/";
-	            e.KeyName = string.Format("{0}{1}_{2}", customFolder, Guid.NewGuid(), e.OriginalFileName);
-	        }
-	    }
+<%@ WebHandler Language="C#" Class="UploadToCustomFolderHandler" %>
+
+using System;
+using System.Web;
+
+public class UploadToCustomFolderHandler : Telerik.Web.UI.CloudUploadHandler {
+
+	public override void SetKeyName(object sender, Telerik.Web.UI.CloudUpload.SetKeyNameEventArgs e)
+	{        
+		var customFolder = Guid.NewGuid().ToString() + "/";
+		e.KeyName = string.Format("{0}{1}_{2}", customFolder, Guid.NewGuid(), e.OriginalFileName);
+	}
+}
 ````
 ````VB.NET
-	    <%@ WebHandler Language="VB" Class="UploadToCustomFolderHandler" %>
-	
-	    Imports System
-	    Imports System.Web
-	
-	    Public Class UploadToCustomFolderHandler : Inherits Telerik.Web.UI.CloudUploadHandler
-	
-	        Public Overrides Sub SetKeyName(sender As Object, e As Telerik.Web.UI.CloudUpload.SetKeyNameEventArgs)
-	            Dim customFolder = Guid.NewGuid().ToString() + "/"
-	            e.KeyName = String.Format("{0}{1}_{2}", customFolder, Guid.NewGuid(), e.OriginalFileName)
-	        End Sub
-	
-	    End Class
+<%@ WebHandler Language="VB" Class="UploadToCustomFolderHandler" %>
+
+Imports System
+Imports System.Web
+
+Public Class UploadToCustomFolderHandler : Inherits Telerik.Web.UI.CloudUploadHandler
+
+	Public Overrides Sub SetKeyName(sender As Object, e As Telerik.Web.UI.CloudUpload.SetKeyNameEventArgs)
+		Dim customFolder = Guid.NewGuid().ToString() + "/"
+		e.KeyName = String.Format("{0}{1}_{2}", customFolder, Guid.NewGuid(), e.OriginalFileName)
+	End Sub
+
+End Class
 ````
 
 

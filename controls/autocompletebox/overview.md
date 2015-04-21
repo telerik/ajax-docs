@@ -1,7 +1,7 @@
 ---
-title: AutoCompleteBox Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: AutoCompleteBox Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET AutoCompleteBox Overview
 slug: autocompletebox/overview
 tags: overview
 published: True
@@ -38,11 +38,11 @@ When a user starts typing into the input area, the data contained in the drop-do
 
 * **Data Binding**
 
-* Declarative entries – defined in the markup, in the Entries section.
+	* Declarative entries – defined in the markup, in the Entries section.
 
-* Server-side – server API for setting data source using DataSource controls, to which RadAutoCompleteBox is bound.
+	* Server-side – server API for setting data source using DataSource controls, to which RadAutoCompleteBox is bound.
 
-* Client-side – client API for setting data source using Web services, WCF services, and OData, to which RadAutoCompleteBox is bound.
+	* Client-side – client API for setting data source using Web services, WCF services, and OData, to which RadAutoCompleteBox is bound.
 
 * **Filtering** – client filter based on the users’ input. Users are given the possibility to choose from 'StartsWith' and 'Contains' filter mode. The default filter mode is set to 'Contains'.
 

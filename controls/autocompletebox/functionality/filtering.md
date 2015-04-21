@@ -50,8 +50,10 @@ data.EndOfItems = true;
 	
 ````
 ````VB.NET
+
 Dim data As New AutoCompleteBoxData()
 data.EndOfItems = True
+
 ````
 
 

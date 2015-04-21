@@ -43,9 +43,9 @@ function onClientFileUploaded(sender, eventArgs) {
 
 
 >note From the **FileInfo** object you could get important information about the uploaded file. The properties are listed bellow:
->
 *  **contentLength** - Returns the size of the uploaded file.
 *  **contentType** - Returns the content type of the uploaded file.
 *  **keyName** - Could be used to access the uploaded file on the Storage Provider.
-*  **originalFileName** - Returns the original name of the uploaded file.>
+*  **originalFileName** - Returns the original name of the uploaded file.
+>
 

@@ -22,9 +22,9 @@ The handler of the **OnFileUploaded** event receives two arguments:
 
 * An **CloudFileUploadedEventArgs** object. It has three properties:
 
-* **IsValid** - Allows you to specify whether the uploaded file is valid. The default value is "True" and in case that is preset to False, the callback mechanism will delete it from the Cloud Storage.
+	* **IsValid** - Allows you to specify whether the uploaded file is valid. The default value is "True" and in case that is preset to False, the callback mechanism will delete it from the Cloud Storage.
 
-* **FileInfo** - Returns fileInfo object containing information regarding the uploaded file.
+	* **FileInfo** - Returns fileInfo object containing information regarding the uploaded file.
 
 
 

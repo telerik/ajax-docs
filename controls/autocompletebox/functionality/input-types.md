@@ -29,7 +29,7 @@ RadAutoCompleteBox provides two different visual representations of its entries.
 | ------ | ------ |
 |![input type token](images/input_type_token.png)|![input type text](images/input_type_text.png)|
 
-Despite of the chosen input type, the entries of RadAutoCompleteBox will be accessible server-side through the**Entries** collection.
+Despite of the chosen input type, the entries of RadAutoCompleteBox will be accessible server-side through the **Entries** collection.
 
 ````ASPNET
 <telerik:RadAutoCompleteBox ID="RadAutoCompleteBox1" runat="server" DataSourceID="SqlDataSource1"

@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * **get_data()** - returns an array of the entries in the dropdown.
 
-* length - returns the number of the elements in the dropdown.
+	* length - returns the number of the elements in the dropdown.
 
 This event is used in scenarios when operations need to be preformed to RadAutoCompleteBox right after the data source items are loaded into the drop-down container.
 

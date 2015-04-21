@@ -20,7 +20,7 @@ The event handler receives two parameters:
 
 1. The instance of the **RadCloudUpload** control firing the event.
 
-1. An **eventArgs** parameter containing the following method:
+2. An **eventArgs** parameter containing the following method:
 
 * **get_message** returns the original error message.
 
@@ -34,9 +34,9 @@ One useful case for using this event is to check the error message.
 
 
 ````JavaScript
-	        function onClientUploadFailed(sender, eventArgs) {
-	            alert(eventArgs.get_message())
-	        }
+function onClientUploadFailed(sender, eventArgs) {
+	alert(eventArgs.get_message())
+}
 ````
 
 

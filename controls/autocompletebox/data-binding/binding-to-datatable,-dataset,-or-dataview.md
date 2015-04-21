@@ -12,7 +12,7 @@ position: 2
 
 
 
-**RadAutoCompleteBox** can be bound to a **DataTable**,**DataSet**, and **DataView**. The following example shows binding to a DataTable object.
+**RadAutoCompleteBox** can be bound to a **DataTable**, **DataSet**, and **DataView**. The following example shows binding to a DataTable object.
 
 ## Binding to a DataTable at runtime
 
@@ -52,6 +52,7 @@ private static DataTable GetData()
 	
 ````
 ````VB.NET
+
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	RadAutoCompleteBox1.DataSource = GetData()
 	RadAutoCompleteBox1.DataTextField = "ProductName"
@@ -66,6 +67,7 @@ Private Shared Function GetData() As DataTable
 
 	Return data
 End Function
+
 ````
 
 

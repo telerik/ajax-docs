@@ -26,10 +26,9 @@ The client-side **OnLoad** event handler receives one argument:
 
 ````ASPNET
 	
-		     <telerik:RadClientExportManager runat="server" id="RadClientExportManager1"
-	             onclientload="OnClientLoad">
-	                <PdfSettings FileName="MyFile.pdf" MarginBottom="20mm" />
-	            </telerik:RadClientExportManager>
+<telerik:RadClientExportManager runat="server" id="RadClientExportManager1" onclientload="OnClientLoad">
+	<PdfSettings FileName="MyFile.pdf" MarginBottom="20mm" />
+</telerik:RadClientExportManager>
 	
 	
 ````
@@ -37,12 +36,14 @@ The client-side **OnLoad** event handler receives one argument:
 
 
 ````JavaScript
-	        <script type="text/javascript">
-	            var clientExportManager;
-	            function OnClientLoad(sender) {
-	                clientExportManager = sender;
-	            }
-	        </script>
+
+<script type="text/javascript">
+	var clientExportManager;
+	function OnClientLoad(sender) {
+		clientExportManager = sender;
+	}
+</script>
+
 ````
 
 

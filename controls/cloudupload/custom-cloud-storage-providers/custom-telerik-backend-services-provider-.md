@@ -24,73 +24,73 @@ The easiest way to set credentials from the code behind is to create a custom Te
 
 
 
-````C#
-using System;
-using System.Linq;
-using Telerik.Web.UI;
+	````C#
+	using System;
+	using System.Linq;
+	using Telerik.Web.UI;
 
-namespace SampleNamespace
-{
-	public class CustomTBSProvider : EverliveProvider
+	namespace SampleNamespace
 	{
-		public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+		public class CustomTBSProvider : EverliveProvider
 		{
-			ApiKey = "{API_KEY}";
+			public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+			{
+				ApiKey = "{API_KEY}";
+			}
 		}
 	}
-}
-````
-````VB.NET
-Imports System
-Imports System.Linq
-Imports Telerik.Web.UI
+	````
+	````VB.NET
+	Imports System
+	Imports System.Linq
+	Imports Telerik.Web.UI
 
-Namespace SampleNamespace
+	Namespace SampleNamespace
 
-	Public Class CustomTBSProvider
-		Inherits EverliveProvider
+		Public Class CustomTBSProvider
+			Inherits EverliveProvider
 
-		Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
-			ApiKey = "{API_KEY}"
-		End Sub
+			Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
+				ApiKey = "{API_KEY}"
+			End Sub
 
-	End Class
+		End Class
 
-End Namespace
-````
-
-
-1. Add new storage provider in the configuration file as you set the new **Type**.
-
-````XML
-<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-	<configSections>
-		<sectionGroup name="telerik.web.ui">
-			<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
-		</sectionGroup>
-	</configSections>
-
- ...
-
-	<telerik.web.ui>
-		<radCloudUpload>
-			<storageProviders>
-				<!-- Add a new storage with a Type of the Custom Provider. Note that the Type is a combination of the name space and the class name. -->
-				<add name="Everlive" type="SampleNamespace.CustomTBSProvider"/>
-			</storageProviders>
-		</radCloudUpload>
-	</telerik.web.ui>
-</configuration>
-````
+	End Namespace
+	````
 
 
+2. Add new storage provider in the configuration file as you set the new **Type**.
 
-1. Define the **CloudUpload** and set Everlive as a **ProviderType**.
+	````XML
+	<?xml version="1.0" encoding="utf-8" ?>
+	<configuration>
+		<configSections>
+			<sectionGroup name="telerik.web.ui">
+				<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
+			</sectionGroup>
+		</configSections>
 
-````ASPNET
-<telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Everlive"></telerik:RadCloudUpload>
-````
+	 ...
+
+		<telerik.web.ui>
+			<radCloudUpload>
+				<storageProviders>
+					<!-- Add a new storage with a Type of the Custom Provider. Note that the Type is a combination of the name space and the class name. -->
+					<add name="Everlive" type="SampleNamespace.CustomTBSProvider"/>
+				</storageProviders>
+			</radCloudUpload>
+		</telerik.web.ui>
+	</configuration>
+	````
+
+
+
+3. Define the **CloudUpload** and set Everlive as a **ProviderType**.
+
+	````ASPNET
+	<telerik:RadCloudUpload ID="RadCloudUpload1" runat="server" ProviderType="Everlive"></telerik:RadCloudUpload>
+	````
 
 
 
@@ -102,118 +102,118 @@ Common scenario is the need to switch between different Telerik Backend Services
 
 
 
-````C#
-using System;
-using System.Linq;
-using Telerik.Web.UI;
+	````C#
+	using System;
+	using System.Linq;
+	using Telerik.Web.UI;
 
-namespace SampleNamespace
-{
-	public class CustomTBSProvider1 : EverliveProvider
+	namespace SampleNamespace
 	{
-		public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+		public class CustomTBSProvider1 : EverliveProvider
 		{
-			ApiKey = "{API_KEY}";
+			public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+			{
+				ApiKey = "{API_KEY}";
+			}
 		}
 	}
-}
-````
-````VB.NET
-Imports System
-Imports System.Linq
-Imports Telerik.Web.UI
+	````
+	````VB.NET
+	Imports System
+	Imports System.Linq
+	Imports Telerik.Web.UI
 
-Namespace SampleNamespace
+	Namespace SampleNamespace
 
-	Public Class CustomTBSProvider1
-		Inherits EverliveProvider
+		Public Class CustomTBSProvider1
+			Inherits EverliveProvider
 
-		Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
-			ApiKey = "{API_KEY}"
-		End Sub
+			Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
+				ApiKey = "{API_KEY}"
+			End Sub
 
-	End Class
+		End Class
 
-End Namespace
-````
-
+	End Namespace
+	````
 
 
 
-````C#
-using System;
-using System.Linq;
-using Telerik.Web.UI;
 
-namespace SampleNamespace
-{
-	public class CustomTBSProvider2 : EverliveProvider
+	````C#
+	using System;
+	using System.Linq;
+	using Telerik.Web.UI;
+
+	namespace SampleNamespace
 	{
-		public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+		public class CustomTBSProvider2 : EverliveProvider
 		{
-			//Values from the config NameValueCollection are passed from the web.config file.
-			ApiKey = config["applicationKey"];
+			public override void Initialize(string name, System.Collections.Specialized.NameValueCollection config)
+			{
+				//Values from the config NameValueCollection are passed from the web.config file.
+				ApiKey = config["applicationKey"];
+			}
 		}
 	}
-}
-````
-````VB.NET
-Imports System
-Imports System.Linq
-Imports Telerik.Web.UI
+	````
+	````VB.NET
+	Imports System
+	Imports System.Linq
+	Imports Telerik.Web.UI
 
-Namespace SampleNamespace
+	Namespace SampleNamespace
 
-	Public Class CustomTBSProvider2
-		Inherits EverliveProvider
+		Public Class CustomTBSProvider2
+			Inherits EverliveProvider
 
-		Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
-			'Values from the config NameValueCollection are passed from the web.config file.
-			ApiKey = config("applicationKey")
-		End Sub
+			Public Overrides Sub Initialize(name As String, config As System.Collections.Specialized.NameValueCollection)
+				'Values from the config NameValueCollection are passed from the web.config file.
+				ApiKey = config("applicationKey")
+			End Sub
 
-	End Class
+		End Class
 
-End Namespace
-````
-
-
-1. Register the newly created Custom Providers in the configuration file:
-
-````XML
-<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-	<configSections>
-		<sectionGroup name="telerik.web.ui">
-			<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
-		</sectionGroup>
-	</configSections>
-
- ...
-
-	<telerik.web.ui>
-		<radCloudUpload>
-			<storageProviders>
-				<!-- Add a new storage providers with a Type of the Custom Provider. Note that the Type is a combination of the name space and the class name. -->
-				<add name="CustomTBSProvider1" type="SampleNamespace.CustomTBSProvider1"/>
-				<add name="CustomTBSProvider2" type="SampleNamespace.CustomTBSProvider2" applicationKey="{API_KEY}" uncommitedFilesExpirationPeriod="2"/>
-			</storageProviders>
-		</radCloudUpload>
-	</telerik.web.ui>
-</configuration>
-````
+	End Namespace
+	````
 
 
+2. Register the newly created Custom Providers in the configuration file:
 
-1. Add a new **CloudUpload** control with **ProviderType** Everlive and set the **HttpHandlerUrl** property.
+	````XML
+	<?xml version="1.0" encoding="utf-8" ?>
+	<configuration>
+		<configSections>
+			<sectionGroup name="telerik.web.ui">
+				<section name="radCloudUpload" type="Telerik.Web.UI.CloudUploadConfigurationSection" allowDefinition="MachineToApplication" requirePermission="false" />
+			</sectionGroup>
+		</configSections>
 
-````XML
-<telerik:RadCloudUpload ID="RadCloudUplad2" runat="server" ProviderType="Everlive" HttpHandlerUrl="~/Handler.ashx" ></telerik:RadCloudUpload>
-````
+	 ...
+
+		<telerik.web.ui>
+			<radCloudUpload>
+				<storageProviders>
+					<!-- Add a new storage providers with a Type of the Custom Provider. Note that the Type is a combination of the name space and the class name. -->
+					<add name="CustomTBSProvider1" type="SampleNamespace.CustomTBSProvider1"/>
+					<add name="CustomTBSProvider2" type="SampleNamespace.CustomTBSProvider2" applicationKey="{API_KEY}" uncommitedFilesExpirationPeriod="2"/>
+				</storageProviders>
+			</radCloudUpload>
+		</telerik.web.ui>
+	</configuration>
+	````
 
 
 
-1. Set the name of the Custom Telerik Backend Services Provider in the handler:
+3. Add a new **CloudUpload** control with **ProviderType** Everlive and set the **HttpHandlerUrl** property.
+
+	````XML
+	<telerik:RadCloudUpload ID="RadCloudUplad2" runat="server" ProviderType="Everlive" HttpHandlerUrl="~/Handler.ashx" ></telerik:RadCloudUpload>
+	````
+
+
+
+4. Set the name of the Custom Telerik Backend Services Provider in the handler:
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Server-Side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Server-Side Programming Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET AutoCompleteBox Server-Side Programming Overview
 slug: autocompletebox/server-side-programming/overview
 tags: overview
 published: True
@@ -20,24 +20,30 @@ position: 0
 | Name | Type | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 |Text|Getter|String|Gets the text of the input area.|
-|InputType|Getter/Setter|Telerik.Web.UI.RadAutoCompleteFilter|Gets/sets the input type.
+|InputType|Getter/Setter|Telerik.Web.UI.RadAutoCompleteFilter|Gets/sets the input type.|
 
->note RadAutoCompleteInputType:
->{
->Token,
->Text,
->}
->
-|
-|Filter|Getter/Setter|Telerik.Web.UI.RadAutoCompleteFilter|Gets/sets the filter type.
+````ASPNET
+RadAutoCompleteInputType:
+{
+	Token,
+	Text,
+}
+````
 
->note RadAutoCompleteFilter:
->{
->StartsWith,
->Contains,
->}
->
-|
+| Name | Type | Return Type | Description |
+| ------ | ------ | ------ | ------ |
+|Filter|Getter/Setter|Telerik.Web.UI.RadAutoCompleteFilter|Gets/sets the filter type.|
+
+````ASPNET
+RadAutoCompleteFilter:
+{
+	StartsWith,
+	Contains,
+}
+````
+
+| Name | Type | Return Type | Description |
+| ------ | ------ | ------ | ------ |
 |AllowCustomEntry|Getter/Setter|Bool|Determines whether custom entris will be allowed.|
 |Attributes|Getter|System.Web.UI.AttrbuteCollection|Gets the collection of arbitrary attributes that do not correspond to the properties of the control.|
 |Delimiter|Getter/Setter|String|Gets/sets a value indicating what delimiter should be used when the control displays the selected entries as a	sequence of strings (when InputType is set to "Text").|
@@ -54,19 +60,7 @@ position: 0
 
 | Name | Parameters | Description |
 | ------ | ------ | ------ |
-|[EntryAdded]({%slug autocompletebox/server-side-programming/events/onentryadded%})|RadAutoCompleteBox object, AutoCompleteEntryEventArgs|Fires when an entry is added to the Entries collection of RadAutoCompleteBox.
-
->important The event is raised only when the input type of RadAutoCompleteBox is set to "Token".
->
-|
-|[EntryRemoved]({%slug autocompletebox/server-side-programming/events/onentryremoved%})|RadAutoCompleteBox object, AutoCompleteEntryEventArgs|Fires when an entry is removed from the Entries collection of RadAutoCompleteBox.
-
->important The event is raised only when the input type of RadAutoCompleteBox is set to "Token".
->
-|
-|[TextChanged]({%slug autocompletebox/server-side-programming/events/ontextchanged%})|RadAutoCompleteBox object, AutoCompleteTextEventArgs|Fires when the text is changed in the input area of RadAutoCompleteBox.
-
->important The event is raised only when the input type of RadAutoCompleteBox is set to "Text".
->
-|
+|[EntryAdded]({%slug autocompletebox/server-side-programming/events/onentryadded%})|RadAutoCompleteBox object, AutoCompleteEntryEventArgs|Fires when an entry is added to the Entries collection of RadAutoCompleteBox. The event is raised only when the input type of RadAutoCompleteBox is set to "Token".|
+|[EntryRemoved]({%slug autocompletebox/server-side-programming/events/onentryremoved%})|RadAutoCompleteBox object, AutoCompleteEntryEventArgs|Fires when an entry is removed from the Entries collection of RadAutoCompleteBox. The event is raised only when the input type of RadAutoCompleteBox is set to "Token".|
+|[TextChanged]({%slug autocompletebox/server-side-programming/events/ontextchanged%})|RadAutoCompleteBox object, AutoCompleteTextEventArgs|Fires when the text is changed in the input area of RadAutoCompleteBox. The event is raised only when the input type of RadAutoCompleteBox is set to "Text".|
 |[DropDownTemplateNeeded]({%slug autocompletebox/server-side-programming/events/ondropdowntemplateneeded%})|RadAutoCompleteBox object, AutoCompleteDropDownItemEventArgs|Fires before template is being applied to the drop-down item.|

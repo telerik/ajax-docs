@@ -38,7 +38,7 @@ position: 1
 
 1. From the **RadCloudUpload**'s smart tag choose Azure as provider tag and open the Configuration Wizard: ![cloudupload-azure](images/cloudupload-azure.png)
 
-1. In the Configuration Wizard dialog enter Azure **Access Key**, **Account Name** and **Blob Container Name**.![cloudupload-azure-configuration](images/cloudupload-azure-configuration.png)Specifying the **Uncommitted Files Expiration Period**(TimeSpan Structure), you could easily configure the time, after which the unprocessed files will be removed from the storage.When **Ensure Container** is checked, the control will create a new Container if it doesn't exists. In case it is not checked and the Container doesn't exists - an exception will be thrown.This will add configuration setting in the **web.config** file:
+2. In the Configuration Wizard dialog enter Azure **Access Key**, **Account Name** and **Blob Container Name**.![cloudupload-azure-configuration](images/cloudupload-azure-configuration.png)Specifying the **Uncommitted Files Expiration Period**(TimeSpan Structure), you could easily configure the time, after which the unprocessed files will be removed from the storage.When **Ensure Container** is checked, the control will create a new Container if it doesn't exists. In case it is not checked and the Container doesn't exists - an exception will be thrown.This will add configuration setting in the **web.config** file:
 
 ````XML
 <telerik.web.ui>

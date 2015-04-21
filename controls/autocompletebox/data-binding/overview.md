@@ -1,7 +1,7 @@
 ---
-title: Data Binding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Telerik's ASP.NET AutoCompleteBox Overview
+title: Overview
+page_title: Data Binding Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET AutoCompleteBox Data Binding Overview
 slug: autocompletebox/data-binding/overview
 tags: overview, autocompletebox
 published: True
