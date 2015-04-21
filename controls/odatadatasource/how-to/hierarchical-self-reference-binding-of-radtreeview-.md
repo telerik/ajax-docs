@@ -10,8 +10,6 @@ position: 0
 
 # Hierarchical Self-Reference Binding of RadTreeView 
 
-
-
 ## 
 
 In order to implement self-reference binding we decided to separate the very hierarchy from the data source. Here is the basic concept:
@@ -24,16 +22,19 @@ Here is an example of hierarchical self-referenced binding using the Employees t
 
 1. Then you can use the RadODataDataSource designer and query the Northwind service url.
 
-1. From the list of tables chose Employees and EmployeeID, LastName, FirstName, ReportsTo:![Self Referencing Binding](images/odatadatasource-self-referencing.png)
+1. From the list of tables chose Employees and EmployeeID, LastName, FirstName, ReportsTo:
+![Self Referencing Binding](images/odatadatasource-self-referencing.png)
 
 1. Click on finish.
 
 Configuring the RadTreeView control:
 
-1. Using the Smart tag, click on Chose OData Source and select the source that you configured in the previous steps. You shall be viewing something like the following screen:![RadTreeView SmartTag](images/odatadatasource-treeview-smarttag.png)
+1. Using the Smart tag, click on Chose OData Source and select the source that you configured in the previous steps. You shall be viewing something like the following screen:
+![RadTreeView SmartTag](images/odatadatasource-treeview-smarttag.png)
 
 >note Please note that in OData binding scenarios instead of DataFieldID there will be DataModel drop down.
 >
 
 
-1. The rest is straightforward, simply pick the needed values, save and run the page.![Preview](images/odatadatasource-manual-binding-preview.png)
+1. The rest is straightforward, simply pick the needed values, save and run the page.
+![Preview](images/odatadatasource-manual-binding-preview.png)

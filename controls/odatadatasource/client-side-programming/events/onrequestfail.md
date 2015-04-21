@@ -16,4 +16,4 @@ position: 3
 
 The __OnRequestFail__ client-side event occurs when data request fails.
 
-The event handler receives two parameters -__sender__ (an instance of the datasource) and __args__.
+The event handler receives two parameters - __sender__ (an instance of the datasource) and __args__.

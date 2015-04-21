@@ -10,8 +10,6 @@ position: 1
 
 # Getting Started
 
-
-
 In this topic, we will show how to recreate the First Look demo of RadODataDataSource entirely from the Design Time Wizards of the controls involved.
 
 ## 
@@ -20,7 +18,7 @@ In this topic, we will show how to recreate the First Look demo of RadODataDataS
 
 1. Use the smart tag of RadODataDataSource to bring up the Design Time Wizard of the control.![Design Wizard](images/odatadatasource-design-wizard.png)
 
-1. Enter the service url. In this demo we use -*http://demos.kendoui.com/service/Northwind.svc/*.
+1. Enter the service url. In this demo we use - *http://demos.kendoui.com/service/Northwind.svc/*.
 
 1. From the 'Model' tree that is shown after step 3, choose 'Employee'.
 
