@@ -31,8 +31,10 @@ In complex scenarios, where master pages and user controls are utilized and more
 
 ##
 
+In scenarios where persistence manager proxies are used there may be cases when two controls have identical IDs. An example for such a scenario would be, if you have a master page and two content pages and each content page contains a **RadGrid** with **ID="RadGrid1"**. The problem is that if you once save the settings for the grid on the first page and then load them on the other page, the settings will be applied to the second grid, regardless of the fact that the control is not the same.
 
 To prevent this behavior you can set the **UniqueKey** property of the **RadPersistenceManagerProxy**, that will help you to distinguish both grids.
 
 >
-
+The value of **UniqueKey** must be unique and should be set either to all proxies or to none of them.
+>
