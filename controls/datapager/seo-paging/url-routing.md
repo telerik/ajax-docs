@@ -20,37 +20,34 @@ As of Q2 2010 version of Telerik controls for ASP.NET AJAX, RadDataPager SEO pag
 
 Effectively, RadDataPager requires that you indicate routing is used for your application (by setting AllowRouting). It then needs to know:
 
-1. The name of the route that leads to the target .aspx page containing the datapager - specified in RadDataPager by the __RouteName__ property.
+1. The name of the route that leads to the target .aspx page containing the datapager - specified in RadDataPager by the **RouteName** property.
 
-1. The name of the URL parameter that specifies the current page index - specified in RadDataPager by the __RoutePageIndexParameterName__ property.
+1. The name of the URL parameter that specifies the current page index - specified in RadDataPager by the **RoutePageIndexParameterName** property.
 
-In the following example a route is defined in Global.asax file that leads to DataPagerRouting.aspx. The route defines a single URL parameter with a default value of 1. This parameter will be used to specify the current page index in RadDataPager. To take advantage of this route setup the RadDataPager is configured to use this route. The route name and the name of the URL parameter that specifies the page index are set.
+In the following example a route is defined in *Global.asax* file that leads to *DataPagerRouting.aspx*. The route defines a single URL parameter with a default value of 1. This parameter will be used to specify the current page index in RadDataPager. To take advantage of this route setup the RadDataPager is configured to use this route. The route name and the name of the URL parameter that specifies the page index are set.
 
 
 
 ````ASPNET
-	    <telerik:RadDataPager runat="server" ID="Pager" PagedControlID="RadListView1" AllowSEOPaging="true"
-	        AllowRouting="true" RouteName="SeoRouting" RoutePageIndexParameterName="pager">
-	        <Fields>
-	            <telerik:RadDataPagerButtonField FieldType="Numeric" PageButtonCount="5" />
-	        </Fields>
-	    </telerik:RadDataPager>
+<telerik:RadDataPager runat="server" ID="Pager" PagedControlID="RadListView1" AllowSEOPaging="true"
+    AllowRouting="true" RouteName="SeoRouting" RoutePageIndexParameterName="pager">
+    <Fields>
+        <telerik:RadDataPagerButtonField FieldType="Numeric" PageButtonCount="5" />
+    </Fields>
+</telerik:RadDataPager>
 ````
 ````C#
-	    private void RegisterRoutes(System.Web.Routing.RouteCollection routes)
-	    {
-	        routes.MapPageRoute("SeoRouting", "seopage/{pager}", "~/DataPagerRouting.aspx", true, new System.Web.Routing.RouteValueDictionary{ { "pager", "1" } });
-	    }			
+private void RegisterRoutes(System.Web.Routing.RouteCollection routes)
+{
+    routes.MapPageRoute("SeoRouting", "seopage/{pager}", "~/DataPagerRouting.aspx", true, new System.Web.Routing.RouteValueDictionary{ { "pager", "1" } });
+}			
 ````
 ````VB.NET
-	     
-	
-	    Private Sub RegisterRoutes(ByVal routes As System.Web.Routing.RouteCollection)
-	        Dim routeValueDictionary As New System.Web.Routing.RouteValueDictionary()
-	        routeValueDictionary.Add("pager", "1")
-	        routes.MapPageRoute("SeoRouting", "seopage/{pager}", "~/DataPagerRouting.aspx", True, routeValueDictionary)
-	    End Sub
-	
+Private Sub RegisterRoutes(ByVal routes As System.Web.Routing.RouteCollection)
+    Dim routeValueDictionary As New System.Web.Routing.RouteValueDictionary()
+    routeValueDictionary.Add("pager", "1")
+    routes.MapPageRoute("SeoRouting", "seopage/{pager}", "~/DataPagerRouting.aspx", True, routeValueDictionary)
+End Sub	
 ````
 
 
@@ -64,7 +61,7 @@ Normally, a routed URL link looks like this:
 >
 
 
-Similar to the SEO paging, the syntax is __PageIndex_PageSize__. Again, if no page size is set a default value of 10 is assumed. When using routing, there is no need of DataPagerID parameter as the order of the controls in the URL is defined in the page route in the Global.asax file.
+Similar to the SEO paging, the syntax is **PageIndex_PageSize**. Again, if no page size is set a default value of 10 is assumed. When using routing, there is no need of **DataPagerID** parameter as the order of the controls in the URL is defined in the page route in the Global.asax file.
 
 For more details about ASP.NET Routing, please check the following links:
 

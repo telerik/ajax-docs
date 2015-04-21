@@ -83,7 +83,6 @@ The API and event sequence of **RadDataForm** are quite similar to **RadListView
 |For each Item in RadDataForm:|
 |- ItemCreated|
 |- **ItemDataBound**| 
-
 |Page.Load|
 |ItemCommand|
 |ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,|

@@ -16,16 +16,16 @@ position: 1
 
 ## 
 
-The __RadDataPager__ control offers __WAI-ARIA__ support which can be easily enabled by setting the __EnableAriaSupport__ server property to __true__.
+The **RadDataPager** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
-RadDataPager ARIA attributes are __lower case__. They are shown in the table below.
+RadDataPager ARIA attributes are **lower case**. They are shown in the table below.
 
 
 >caption  
 
-|  __Control__  |  __Attributes__  |
+|  **Control**  |  **Attributes**  |
 | ------ | ------ |
-| __RadDataPager__ |Role: presentationAria-atomic:trueAria-label – control client-side idRole:button for the following buttons (when present):PrevButton, NextButton, FirstButton, LastButton, PageSizeButton, GoToPageButton|
+| **RadDataPager** |Role: presentationAria-atomic:trueAria-label – control client-side idRole:button for the following buttons (when present):PrevButton, NextButton, FirstButton, LastButton, PageSizeButton, GoToPageButton|
 
 >note When aria support is enabled also turns on the aria support for any related RadInput and RadComboBox controlsin the pager.
 >

@@ -14,11 +14,12 @@ position: 0
 
 By default all controls in Telerik controls for ASP.NET.AJAX suite take a new polished look and feel which is consistent across the whole product line.
 
-All resources (scripts, skins, etc.) are implemented as Embedded WebResources in ASP.NET 3.x/4.x for a very easy and convenient deployment. The only thing you now need to do is drag Telerik RadDataPager for ASP.NET AJAX from your toolbox onto your web page (no external files will be required) and Telerik RadDataPager will use its default skin.
+All resources (scripts, skins, etc.) are implemented as **Embedded WebResources** in ASP.NET 3.x/4.x for a very easy and convenient deployment. The only thing you now need to do is drag Telerik RadDataPager for ASP.NET AJAX from your toolbox onto your web page (no external files will be required) and Telerik RadDataPager will use its default skin.
 
-Below is a set of some of the Telerik RadDataPager skins:![RadDataPager Skins](images/datapager_skins.png)
+Below is a set of some of the Telerik RadDataPager skins:
+![RadDataPager Skins](images/datapager_skins.png)
 
->note The __Hay__ , __Forest__ , __Sitefinity__ and __Transparent__ skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of __Q1 2014__ .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
@@ -27,7 +28,7 @@ Below is a set of some of the Telerik RadDataPager skins:![RadDataPager Skins](i
 The HTML rendering and CSS classes of the RadDataPager fields are similar to those of the RadGrid pager item.
 
 
-|  __CSS class__  |  __Description__  |
+|  **CSS class**  |  **Description**  |
 | ------ | ------ |
 |RadDataPager|applied to the control's wrapper, does not depend on the skin name|
 |RadDataPager_Skin|applied to the control's wrapper, depends on the skin name|

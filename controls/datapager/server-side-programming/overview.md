@@ -1,6 +1,6 @@
 ---
-title: Server-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadDataPager Server-side Programming Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: datapager/server-side-programming/overview
 tags: overview
@@ -12,29 +12,29 @@ position: 0
 
 
 
-Below are listed the most important properties and events of __RadDataPager__ control.
+Below are listed the most important properties and events of **RadDataPager** control.
 
 ## Properties
 
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __PagedControlID__ |Gets or sets the ID of the control that implements one of the following interfaces - __IPageableItemContainer or IRadPageableItemContainer__ . This is the control that will be paged by RadDataPager control. If RadDataPager is placed in Controls collection of IPageableItemContainer __/__ IRadPageableItemContainer setting this property is optional. In case PagedControlID is not set RadDataPager will attempt to find its container automatically.|
-| __PageSize__ |Gets or sets the number of items and rows to display on each page.|
-| __StartRowIndex__ |Gets the index of the first record that is displayed on a page of data.|
-| __TotalRowCount__ |Gets the total number of records that are displayed in the underlying data source.|
-| __MaximumRows__ |Gets the maximum number of records that are displayed for each page of data.|
+| **PagedControlID** |Gets or sets the ID of the control that implements one of the following interfaces - **IPageableItemContainer or IRadPageableItemContainer** . This is the control that will be paged by RadDataPager control. If RadDataPager is placed in Controls collection of IPageableItemContainer **/** IRadPageableItemContainer setting this property is optional. In case PagedControlID is not set RadDataPager will attempt to find its container automatically.|
+| **PageSize** |Gets or sets the number of items and rows to display on each page.|
+| **StartRowIndex** |Gets the index of the first record that is displayed on a page of data.|
+| **TotalRowCount** |Gets the total number of records that are displayed in the underlying data source.|
+| **MaximumRows** |Gets the maximum number of records that are displayed for each page of data.|
 
 ## Events and methods
 
 
-|  __Event__  |  __Description__  |
+|  **Event**  |  **Description**  |
 | ------ | ------ |
-| __FieldCreating__ |Fired before a field is created. You can handle the event to load custom pager field on post back and to replace or modify the instance of the field that should be created and added into the collection of field in the corresponding RadDataPager.|
-| __FieldCreated__ |This event is fired after a pager field is created.|
-| __Command__ |Fired when any button is clicked or containing control value is changed in RadDataPager control.|
+| **FieldCreating** |Fired before a field is created. You can handle the event to load custom pager field on post back and to replace or modify the instance of the field that should be created and added into the collection of field in the corresponding RadDataPager.|
+| **FieldCreated** |This event is fired after a pager field is created.|
+| **Command** |Fired when any button is clicked or containing control value is changed in RadDataPager control.|
 
 
-|  __Method__  |  __Description__  |
+|  **Method**  |  **Description**  |
 | ------ | ------ |
-| __FireCommand__ |Can be used for manually triggering commands in code rather than clicking the pager buttons, etc.|
+| **FireCommand** |Can be used for manually triggering commands in code rather than clicking the pager buttons, etc.|

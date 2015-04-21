@@ -14,30 +14,29 @@ position: 2
 
 ## 
 
-The __OnDataPagerDestroying__ client-side event is fired when __RadDataPager__ object is destroyed, i.e. on each *window.onunload*.
+The **OnDataPagerDestroying** client-side event is fired when **RadDataPager** object is destroyed, i.e. on each *window.onunload*.
 
 The event handler receives one argument:
 
 1. the [RadDataPager object]({%slug datapager/client-side-programming/datapager-object%}) that fired the event.
 
-The following example uses the __OnDataPagerDestroying__ event to display a message:
+The following example uses the **OnDataPagerDestroying** event to display a message:
 
 ````ASPNET
-	    <telerik:RadDataPager ID="RadDataPager1" runat="server">
-	        <ClientEvents OnDataPagerDestroying="DataPagerDestroying" />
-	    </telerik:RadDataPager>
+<telerik:RadDataPager ID="RadDataPager1" runat="server">
+    <ClientEvents OnDataPagerDestroying="DataPagerDestroying" />
+</telerik:RadDataPager>
 ````
 
 
-
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function DataPagerDestroying(sender, eventArgs) {
-	                alert("Destroying datapager with UniqueID: " + sender.get_uniqueID());
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function DataPagerDestroying(sender, eventArgs) {
+            alert("Destroying datapager with UniqueID: " + sender.get_uniqueID());
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 

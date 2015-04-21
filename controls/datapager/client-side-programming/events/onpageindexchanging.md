@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnPageIndexChanging__ client-side event is fired when current page index is set on __RadDataPager__object.
+The **OnPageIndexChanging** client-side event is fired when current page index is set on **RadDataPager** object.
 
 The event handler receives two arguments:
 
@@ -25,32 +25,31 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_oldPageIndex()__ |int||Returns the old page index.|
-| __get_newPageIndex()__ |int||Returns the new page index.|
-| __get_domEvent()__ |DOM event object||Returns the DOM event object.|
-| __set_newPageIndex(value)__ ||int|Set the new page index.|
-| __set_cancel(value)__ ||bool|Lets you prevent the page index from changing.|
+| **get_oldPageIndex()** |int||Returns the old page index.|
+| **get_newPageIndex()** |int||Returns the new page index.|
+| **get_domEvent()** |DOM event object||Returns the DOM event object.|
+| **set_newPageIndex(value)** ||int|Set the new page index.|
+| **set_cancel(value)** ||bool|Lets you prevent the page index from changing.|
 
-The following example demonstrates how to use the event arguments of the __OnPageIndexChanging__ object:
+The following example demonstrates how to use the event arguments of the **OnPageIndexChanging** object:
 
 ````ASPNET
-	    <telerik:RadDataPager ID="RadDataPager1" runat="server">
-	        <ClientEvents OnPageIndexChanging="PageIndexChanging" />
-	    </telerik:RadDataPager>
+<telerik:RadDataPager ID="RadDataPager1" runat="server">
+    <ClientEvents OnPageIndexChanging="PageIndexChanging" />
+</telerik:RadDataPager>
 ````
 
 
-
 ````JavaScript
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	        <script type="text/javascript">
-	            function PageIndexChanging(sender, eventArgs) {
-	                var oldPageIndex = eventArgs.get_oldPageIndex();
-	                var newPageIndex = eventArgs.get_newPageIndex();
-	                eventArgs.set_newPageIndex(3);
-	            }
-	        </script>
-	    </telerik:RadCodeBlock>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script type="text/javascript">
+        function PageIndexChanging(sender, eventArgs) {
+            var oldPageIndex = eventArgs.get_oldPageIndex();
+            var newPageIndex = eventArgs.get_newPageIndex();
+            eventArgs.set_newPageIndex(3);
+        }
+    </script>
+</telerik:RadCodeBlock>
 ````
 
 
