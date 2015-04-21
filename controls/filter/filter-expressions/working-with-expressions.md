@@ -44,61 +44,61 @@ The following table describes all filter expression types you can use:
 
 You can create filter expressions as well as group expressions in the code behind. Please note that the group expressions should first be added to the RootGroup, and the filter expressions to be added to them.
 
-In the following sample it is shown how to programmatically create a expression that filters the Orders table for orders with ShipName that starts with an 'A' and OrderDate either in the previous month, or not specified:
-
+In the following sample it is shown how to programmatically create a expression that filters the *Orders* table for orders with *ShipName* that starts with an 'A' and *OrderDate* either in the previous month, or not specified:
 
 
 ````ASPNET
-	        <telerik:RadFilter runat="server" ID="RadFilter1" ExpressionPreviewPosition="Bottom">
-	            <FieldEditors>
-	                <telerik:RadFilterTextFieldEditor FieldName="ShipName" />
-	                <telerik:RadFilterDateFieldEditor FieldName="OrderDate" />
-	            </FieldEditors>
-	        </telerik:RadFilter>
-	        <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	            SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
-	        </asp:SqlDataSource>
+<telerik:RadFilter runat="server" ID="RadFilter1" ExpressionPreviewPosition="Bottom">
+    <FieldEditors>
+        <telerik:RadFilterTextFieldEditor FieldName="ShipName" />
+        <telerik:RadFilterDateFieldEditor FieldName="OrderDate" />
+    </FieldEditors>
+</telerik:RadFilter>
+<asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="Select OrderID, OrderDate, ShipVia, ShipName, ShipAddress, ShipCity, ShipCountry FROM Orders">
+</asp:SqlDataSource>
 ````
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            RadFilterStartsWithFilterExpression expr1 = new RadFilterStartsWithFilterExpression("ShipName");
-	            expr1.Value = "A";
-	            RadFilter1.RootGroup.AddExpression(expr1);
-	
-	            RadFilterGroupExpression group1 = new RadFilterGroupExpression();
-	            group1.GroupOperation = RadFilterGroupOperation.Or;
-	            RadFilter1.RootGroup.AddExpression(group1);
-	            RadFilterBetweenFilterExpression<DateTime?> expr2 = new RadFilterBetweenFilterExpression<DateTime?>("OrderDate");
-	            expr2.LeftValue = DateTime.Now.AddMonths(-1);
-	            expr2.RightValue = DateTime.Now;
-	            group1.AddExpression(expr2);
-	            RadFilterIsNullFilterExpression expr3 = new RadFilterIsNullFilterExpression("OrderDate");
-	            group1.AddExpression(expr3);
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadFilterStartsWithFilterExpression expr1 = new RadFilterStartsWithFilterExpression("ShipName");
+        expr1.Value = "A";
+        RadFilter1.RootGroup.AddExpression(expr1);
+
+        RadFilterGroupExpression group1 = new RadFilterGroupExpression();
+        group1.GroupOperation = RadFilterGroupOperation.Or;
+        RadFilter1.RootGroup.AddExpression(group1);
+        RadFilterBetweenFilterExpression<DateTime?> expr2 = new RadFilterBetweenFilterExpression<DateTime?>("OrderDate");
+        expr2.LeftValue = DateTime.Now.AddMonths(-1);
+        expr2.RightValue = DateTime.Now;
+        group1.AddExpression(expr2);
+        RadFilterIsNullFilterExpression expr3 = new RadFilterIsNullFilterExpression("OrderDate");
+        group1.AddExpression(expr3);
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        If Not IsPostBack Then
-	            Dim expr1 As New RadFilterStartsWithFilterExpression("ShipName")
-	            expr1.Value = "A"
-	            RadFilter1.RootGroup.AddExpression(expr1)
-	
-	            Dim group1 As New RadFilterGroupExpression()
-	            group1.GroupOperation = RadFilterGroupOperation.Or
-	            RadFilter1.RootGroup.AddExpression(group1)
-	            Dim expr2 As New RadFilterBetweenFilterExpression(Of System.Nullable(Of DateTime))("OrderDate")
-	            expr2.LeftValue = DateTime.Now.AddMonths(-1)
-	            expr2.RightValue = DateTime.Now
-	            group1.AddExpression(expr2)
-	            Dim expr3 As New RadFilterIsNullFilterExpression("OrderDate")
-	            group1.AddExpression(expr3)
-	        End If
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    If Not IsPostBack Then
+        Dim expr1 As New RadFilterStartsWithFilterExpression("ShipName")
+        expr1.Value = "A"
+        RadFilter1.RootGroup.AddExpression(expr1)
+
+        Dim group1 As New RadFilterGroupExpression()
+        group1.GroupOperation = RadFilterGroupOperation.Or
+        RadFilter1.RootGroup.AddExpression(group1)
+        Dim expr2 As New RadFilterBetweenFilterExpression(Of System.Nullable(Of DateTime))("OrderDate")
+        expr2.LeftValue = DateTime.Now.AddMonths(-1)
+        expr2.RightValue = DateTime.Now
+        group1.AddExpression(expr2)
+        Dim expr3 As New RadFilterIsNullFilterExpression("OrderDate")
+        group1.AddExpression(expr3)
+    End If
+End Sub
 ````
 
 
-This will result in the following:![filter Programmatic Expression](images/filter_ProgrammaticExpression.png)
+This will result in the following:
+![filter Programmatic Expression](images/filter_ProgrammaticExpression.png)

@@ -16,16 +16,16 @@ position: 1
 
 ## 
 
-The __RadFilter__ control offers __WAI-ARIA__ support which can be easily enabled by setting the __EnableAriaSupport__ server property to __true__.
+The **RadFilter** control offers **WAI-ARIA** support which can be easily enabled by setting the **EnableAriaSupport** server property to **true**.
 
-RadFilter ARIA attributes are __lower case__. They are shown in the table below.
+RadFilter ARIA attributes are **lower case**. They are shown in the table below.
 
 
 >caption  
 
-|  __Control__  |  __Attributes__  |
+|  **Control**  |  **Attributes**  |
 | ------ | ------ |
-| __RadFilter__ |Aria-atomic:trueRole: presentationAria-label – control client-side idRole: group - on hierarchilcal filter expressions that have child filter expressionsRole: listitem – on filter expressions without childrenAria-level: number specifying the hierarchy level of the filter expressionRole: presentation – on inner div elementsRole:button for the buttons in the filter expressionRole:checkbox – for checkbox in Boolean filter expressionsRole:textbox: for input type textAria-disabled:false for input type text|
+| **RadFilter** |Aria-atomic:trueRole: presentationAria-label – control client-side idRole: group - on hierarchilcal filter expressions that have child filter expressionsRole: listitem – on filter expressions without childrenAria-level: number specifying the hierarchy level of the filter expressionRole: presentation – on inner div elementsRole:button for the buttons in the filter expressionRole:checkbox – for checkbox in Boolean filter expressionsRole:textbox: for input type textAria-disabled:false for input type text|
 
 >note RadContextMenu is not aria compliant yet.
 >

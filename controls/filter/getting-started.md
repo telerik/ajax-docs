@@ -10,13 +10,11 @@ position: 1
 
 # Getting Started
 
-
-
 This help topic describes the main features of the RadFilter control and how it can be used.
 
 ## General information
 
-__RadFilter__ allows the developer to supply an interface for constructing strongly typed filter expressions.These expressions can subsequently be used to query data from a data source control, or be applied to a control, which supports such filter expressions, for example RadListView.
+**RadFilter** allows the developer to supply an interface for constructing strongly typed filter expressions.These expressions can subsequently be used to query data from a data source control, or be applied to a control, which supports such filter expressions, for example RadListView.
 
 From a logical perspective, the control consists of a root filtering menu/group, which allows the following things:
 
@@ -24,9 +22,10 @@ From a logical perspective, the control consists of a root filtering menu/group,
 
 1. Add a new filtering group. Each filtering group can in turn offer the same two options. Each filtering group can be removed, with the exception of the root.
 
-Each filter group offers the option to select one of four key words: And, Or, NotAnd, NotOr. Each keyword is applied to the filter expressions within the respective group - be it a root group, or a nested group. For example, if the root group has an "And" option chosen, the filter expressions within this group will be concatenated via this option, in addition to the actual filter strings. The result of applying a number of filter expressions may look like this:
+Each filter group offers the option to select one of four key words: **And**, **Or**, **NotAnd**, **NotOr**. Each keyword is applied to the filter expressions within the respective group - be it a root group, or a nested group. For example, if the root group has an "And" option chosen, the filter expressions within this group will be concatenated via this option, in addition to the actual filter strings. The result of applying a number of filter expressions may look like this:
 
-__([Field1] = '7' AND [Field2] = 8)__![Filter expressions](images/filter_expression2.png)
+**([Field1] = '7' AND [Field2] = 8)**
+![Filter expressions](images/filter_expression2.png)
 
 Each filter expression allows the selection and manipulation of the following elements:
 
@@ -49,8 +48,8 @@ In addition to the filtering groups, the filter control renders an "Apply" butto
 There are cases when the filter expressions of the RadFilter control can be directly correlated to a data bound control such as the RadListView. To do so, you can set the FilterContainerID property to the ID of the control whose data will reflect the filter expression built via RadFilter. The code for this example is below:
 
 ````ASPNET
-	    <telerik:RadFilter runat="server" ID="RadFilter1" Skin="Black" FilterContainerID="RadListView1">
-	    </telerik:RadFilter>
+<telerik:RadFilter runat="server" ID="RadFilter1" Skin="Black" FilterContainerID="RadListView1">
+</telerik:RadFilter>
 ````
 
 
