@@ -1,6 +1,6 @@
 ---
 title: exportToWord
-page_title: exportToWord | UI for ASP.NET AJAX Documentation
+page_title: exportToWord | RadGrid for ASP.NET AJAX Documentation
 description: exportToWord
 slug: grid/client-side-programming/gridtableview-object/methods/exporttoword
 tags: exporttoword
@@ -17,7 +17,7 @@ position: 18
 Telerik RadGrid can export to MS Word 2003 or later.
 
 
-|  __exportToWord()__  |
+|  **exportToWord()**  |
 | ------ |
 ||
 

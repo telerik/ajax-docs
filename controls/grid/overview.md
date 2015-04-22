@@ -1,6 +1,6 @@
 ---
-title: Grid Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadGrid Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/overview
 tags: overview
@@ -14,73 +14,73 @@ position: 0
 
 ## 
 
-Telerik __RadGrid__ is designed to eliminate the typical tradeoff associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, __RadGrid__ is extremely fast and generates very little output. Added to this is true cross-browser support — Internet Explorer, all Gecko-based browsers, and Opera.
+Telerik **RadGrid**is designed toeliminate the typical tradeoff associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid**is extremely fast and generates very little output. Added to this is true cross-browser support — Internet Explorer, all Gecko-based browsers, and Opera.
 
-At the same time, __RadGrid__ delivers top-of-the line features.
+At the same time, **RadGrid**delivers top-of-the line features.
 
-__Key Features__
+**Key Features**
 
 
 
-* __Interoperability with RadAjax and loading indicators__- Dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
+* **Interoperability with RadAjax and loading indicators**- Dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
 
-* __Codeless data binding using the DataSourceControls introduced in ASP.NET 2.x/3.x__
+* **Codeless data binding using the DataSourceControls introduced in ASP.NET 2.x/3.x**
 
-* __Data binding to business objects, sub-objects and nullable objects; client-side binding through web services or page methods__
+* **Data binding to business objects, sub-objects and nullable objects; client-side binding through web services or page methods**
 
-* __Rich client-side functionality__ - Expand/collapse, delete, resize, reorder, select, scroll (with options for static headers and static columns), etc.
+* **Rich client-side functionality**- Expand/collapse, delete, resize, reorder, select, scroll (with options for static headers and static columns), etc.
 
-* __Filtering for all built-in column types including an option for switching the default filter textboxes with other controls__
+* **Filtering for all built-in column types including an option for switching the default filter textboxes with other controls**
 
-* __Hierarchical grids with multiple tables at any level, templates for detail tables and self-referencing hierarchy__
+* **Hierarchical grids with multiple tables at any level, templates for detail tables and self-referencing hierarchy**
 
-* __Item templates/Card View support__
+* **Item templates/Card View support**
 
-* __Outlook-style grouping for flat and hierarchical grids__
+* **Outlook-style grouping for flat and hierarchical grids**
 
-* __Group footers/standard column footers with declarative aggregates calculation, calculated columns__
+* **Group footers/standard column footers with declarative aggregates calculation, calculated columns**
 
-* __Customizable RadConfirm dialogs__
+* **Customizable RadConfirm dialogs**
 
-* __Client/server/AJAX hierarchy and group load modes__
+* **Client/server/AJAX hierarchy and group load modes**
 
-* __Auto-generated in-place/edit forms/popup editing, user controls and templates as custom edit forms__
+* **Auto-generated in-place/edit forms/popup editing, user controls and templates as custom edit forms**
 
-* __Conditional formatting__
+* **Conditional formatting**
 
-* __Easily customizable skinning mechanism (via the Skin property of the grid)__
+* **Easily customizable skinning mechanism (via the Skin property of the grid)**
 
-* __Keyboard support__
+* **Keyboard support**
 
-* __Automatic, multi-column and custom sorting__
+* **Automatic, multi-column and custom sorting**
 
-* __AJAX-based virtual scrolling____for instant navigation in large data structures__
+* **AJAX-based virtual scrolling for instant navigation in large data structures**
 
-* __Standard, advanced, alphabetical and custom paging____, SEO-friendly paging and pager template support__
+* **Standard, advanced, alphabetical and custom paging, SEO-friendly paging and pager template support**
 
-* __Area and multi-row client/server selection__
+* **Area and multi-row client/server selection**
 
-* __Flexible edit form validation mechanism__
+* **Flexible edit form validation mechanism**
 
-* __Various column types__
+* **Various column types**
 
-* __Export to Excel/Word, PDF, CSV__
+* **Export to Excel/Word, PDF, CSV**
 
-* __Header context menu for column sorting/grouping/filtering or changing the columns visibility__
+* **Header context menu for column sorting/grouping/filtering or changing the columns visibility**
 
-* __Option to display the grid data in ListView/DataList-like layout__
+* **Option to display the grid data in ListView/DataList-like layout**
 
-* __ControlState support__
+* **ControlState support**
 
-* __Option for AutoPostBack when clicking anywhere in a row__
+* **Option for AutoPostBack when clicking anywhere in a row**
 
-* __XHTML 1.1 and accessibility compliance (WCAG Level A)__
+* **XHTML 1.1 and accessibility compliance (WCAG Level A)**
 
-* __Built-in right-to-left and ASP.NET localization support__
+* **Built-in right-to-left and ASP.NET localization support**
 
-* __WAI ARIA support__
+* **WAI ARIA support**
 
-* __Drag-to-group and drag-to-reorder columns support for mobile devices__
+* **Drag-to-group and drag-to-reorder columns support for mobile devices**
 
 You can find a complete list of all key features [here]({%slug grid/getting-started/key-features%}).
 

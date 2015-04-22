@@ -1,6 +1,6 @@
 ---
 title: Search on Key Press/Button Click
-page_title: Search on Key Press/Button Click | UI for ASP.NET AJAX Documentation
+page_title: Search on Key Press/Button Click | RadGrid for ASP.NET AJAX Documentation
 description: Search on Key Press/Button Click
 slug: grid/functionality/filtering/how-to/search-on-key-press/button-click
 tags: search,on,key,press/button,click
@@ -14,11 +14,11 @@ position: 11
 
 ## 
 
-By default, __RadGrid__ does not apply a filter until the user clicks on the filter button and selects a filter function.
+By default, **RadGrid** does not apply a filter until the user clicks on the filter button and selects a filter function.
 
-If you set __AutoPostBackOnFilter__ property of a column to __True__, the user does not need to press the filter button to initiate filtering. Instead, a postback filter operation occurs when the user types a filter in the filter box and presses __[Enter]__ from the keyboard or if the filter textbox loses focus.
+If you set **AutoPostBackOnFilter** property of a column to **True**, the user does not need to press the filter button to initiate filtering. Instead, a postback filter operation occurs when the user types a filter in the filter box and presses **[Enter]** from the keyboard or if the filter textbox loses focus.
 
-When __AutoPostBackOnFilter__ is __True__, the column assumes a filter operation of __Contains__ for string types or __EqualTo__ for numeric types. You can change this to another filter function by setting the __CurrentFilterFunction__ property. For example:
+When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation of **Contains** for string types or **EqualTo** for numeric types. You can change this to another filter function by setting the **CurrentFilterFunction** property. For example:
 
 ````ASPNET
 	  <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
@@ -28,17 +28,17 @@ When __AutoPostBackOnFilter__ is __True__, the column assumes a filter operation
 
 
 
-1. Hook the __onkeypress__ event of the search textbox
+1. Hook the **onkeypress** event of the search textbox
 
 1. Check whether the key code of the pressed key is 13 (or other if you want to perform search from other key)
 
 1. Find the button in the grid command item template (in our sample the button is wrapped in this template of the control)
 
-1. cancel/prevent the default bubbling and invoke the __click__() method of the button
+1. cancel/prevent the default bubbling and invoke the **click**() method of the button
 
-1. intercept the postback request in the __ItemCommand__ handler of the grid and filter the records in it in par with the pattern typed by the user
+1. intercept the postback request in the **ItemCommand** handler of the grid and filter the records in it in par with the pattern typed by the user
 
-The upcoming example uses __ObjectDataSource__ and __SelectParameter__ to represents the approach:
+The upcoming example uses **ObjectDataSource** and **SelectParameter** to represents the approach:
 
 ````C#
 	<script type="text/javascript">

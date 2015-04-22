@@ -1,6 +1,6 @@
 ---
 title: Client-side Selecting with a Click
-page_title: Client-side Selecting with a Click | UI for ASP.NET AJAX Documentation
+page_title: Client-side Selecting with a Click | RadGrid for ASP.NET AJAX Documentation
 description: Client-side Selecting with a Click
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click
 tags: client-side,selecting,with,a,click
@@ -12,27 +12,27 @@ position: 0
 
 
 
-When the __ClientSettings.Selecting.AllowRowSelect__ property is __True__, users can select a single data row in the grid. Users cannot select the Header, Footer or Pager rows.
+When the **ClientSettings.Selecting.AllowRowSelect** property is **True**, users can select a single data row in the grid. Users cannot select the Header, Footer or Pager rows.
 
 When client-side row selection is enabled, users can select rows by clicking anywhere within the row:
 
 ![](images/SingleSelect.PNG)
 
-You can also add a __GridClientSelectColumn__ to the grid to let users select and de-select rows using a checkbox:
+You can also add a **GridClientSelectColumn** to the grid to let users select and de-select rows using a checkbox:
 
 ![](images/SingleSelectCheckbox.PNG)
 
->note By default the row selection is disabled ( __AllowRowSelect__ is __False__ ).
+>note By default the row selection is disabled ( **AllowRowSelect** is **False** ).
 >
 
 
-The selected item can be accessed by calling the __get_selectedItems()__ method of the __GridTableView__ client-side object (see the __Client-side API Reference__ section for more information).
+The selected item can be accessed by calling the **get_selectedItems()** method of the **GridTableView** client-side object (see the **Client-side API Reference** section for more information).
 
-__RadGrid__ allows users to select several rows if the __AllowMultiRowSelection__ property is set to __True__. See [Selecting multiple rows (client-side)]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows%}).
+**RadGrid** allows users to select several rows if the **AllowMultiRowSelection** property is set to **True**. See [Selecting multiple rows (client-side)]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows%}).
 
 ## Selected row appearance
 
-The style of the selected row is defined by the __SelectedItemStyle__ property. You can set this property declaratively:
+The style of the selected row is defined by the **SelectedItemStyle** property. You can set this property declaratively:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -46,7 +46,7 @@ The style of the selected row is defined by the __SelectedItemStyle__ property. 
 
 
 
-You can also set the __SelectedItemStyle__ property in the code-behind:
+You can also set the **SelectedItemStyle** property in the code-behind:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Traversing Items in Group Panel
-page_title: Traversing Items in Group Panel | UI for ASP.NET AJAX Documentation
+page_title: Traversing Items in Group Panel | RadGrid for ASP.NET AJAX Documentation
 description: Traversing Items in Group Panel
 slug: grid/functionality/grouping/how-to/traversing-items-in-group-panel
 tags: traversing,items,in,group,panel
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-You can iterate through the items placed in the group panel of a grid and modify their settings. This can be done quite easily using the __PreRender__ event of the grid. The items in the group panel can be accessed using the __RadGrid.GroupPanel.GroupPanelItems__ collection.
+You can iterate through the items placed in the group panel of a grid and modify their settings. This can be done quite easily using the **PreRender** event of the grid. The items in the group panel can be accessed using the **RadGrid.GroupPanel.GroupPanelItems** collection.
 
-The following example illustrates how this is done. It changes the __ImageUrl__ for the sorting image button of each group panel item and set its __CausesValidation__ property to __false__ (to avoid validation on click):
+The following example illustrates how this is done. It changes the **ImageUrl** for the sorting image button of each group panel item and set its **CausesValidation** property to **false** (to avoid validation on click):
 
 
 

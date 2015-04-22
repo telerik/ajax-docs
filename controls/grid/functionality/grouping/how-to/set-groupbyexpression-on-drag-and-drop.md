@@ -1,6 +1,6 @@
 ---
 title: Set GroupByExpression on Drag and Drop
-page_title: Set GroupByExpression on Drag and Drop | UI for ASP.NET AJAX Documentation
+page_title: Set GroupByExpression on Drag and Drop | RadGrid for ASP.NET AJAX Documentation
 description: Set GroupByExpression on Drag and Drop
 slug: grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
 tags: set,groupbyexpression,on,drag,and,drop
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-You can dynamically alter the __GroupByExpression__ that is added when the user drags a column header to the group panel.
+You can dynamically alter the **GroupByExpression** that is added when the user drags a column header to the group panel.
 
-To change the __GroupByExpression__ dynamically when the user drags a column header to the group panel, use the __GroupsChanging__ server-side event. This is illustrated in the following example:
+To change the **GroupByExpression** dynamically when the user drags a column header to the group panel, use the **GroupsChanging** server-side event. This is illustrated in the following example:
 
 
 

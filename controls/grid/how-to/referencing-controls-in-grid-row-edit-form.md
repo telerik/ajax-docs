@@ -1,6 +1,6 @@
 ---
 title: Referencing Controls in Grid Row Edit Form
-page_title: Referencing Controls in Grid Row Edit Form | UI for ASP.NET AJAX Documentation
+page_title: Referencing Controls in Grid Row Edit Form | RadGrid for ASP.NET AJAX Documentation
 description: Referencing Controls in Grid Row Edit Form
 slug: grid/how-to/referencing-controls-in-grid-row-edit-form
 tags: referencing,controls,in,grid,row,edit,form
@@ -16,7 +16,7 @@ position: 4
 
 There are numerous situations in which you may need to get reference to controls in grid row/edit form and modify their state depending on the option the user chooses for another control in the same row/edit form. Basically, you can reference the grid item which wraps the controls (either data item or edit form item), then locate the other control and modify its state as per your custom needs. In some cases (when there are additional containers in the rows), you may need to find the container first and then propagate the same steps (depicted above).
 
-The upcoming code sample represents how to alter the color for the __City__ column on checkbox state change and how to load different set of items for combo in par with the user selection in another combo. Please note that the items refresh action is not included:
+The upcoming code sample represents how to alter the color for the **City** column on checkbox state change and how to load different set of items for combo in par with the user selection in another combo. Please note that the items refresh action is not included:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Tooltipified RadGrid
-page_title: Tooltipified RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Tooltipified RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Tooltipified RadGrid
 slug: grid/application-scenarios/tooltipified-radgrid
 tags: tooltipified,radgrid
@@ -26,7 +26,7 @@ Move the mouse over a product name to see more details about it:
 
 Here is a complete source code sample:
 
-__ASPX:__
+**ASPX:**
 
 ````C#
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">

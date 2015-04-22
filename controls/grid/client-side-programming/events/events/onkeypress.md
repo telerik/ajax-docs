@@ -1,6 +1,6 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | UI for ASP.NET AJAX Documentation
+page_title: OnKeyPress | RadGrid for ASP.NET AJAX Documentation
 description: OnKeyPress
 slug: grid/client-side-programming/events/events/onkeypress
 tags: onkeypress
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnKeyPress Property
 This event is fired when a key is pressed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |keyCode - the code of the key pressedIsShiftPressed - __true__ or __false__ , depending on whether the Shift key was held down, when the event firedIsCtrlPressed - __true__ or __false__ , depending on whether the Ctrl key was held down, when the event firedIsAltPressed - __true__ or __false__ , depending on whether the Alt key was held down, when the event fireddomEvent - the original browser event object|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** |keyCode - the code of the key pressedIsShiftPressed - **true** or **false** , depending on whether the Shift key was held down, when the event firedIsCtrlPressed - **true** or **false** , depending on whether the Ctrl key was held down, when the event firedIsAltPressed - **true** or **false** , depending on whether the Alt key was held down, when the event fireddomEvent - the original browser event object|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

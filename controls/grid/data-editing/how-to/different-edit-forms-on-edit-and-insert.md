@@ -1,6 +1,6 @@
 ---
 title: Different Edit Forms on Edit and Insert
-page_title: Different Edit Forms on Edit and Insert | UI for ASP.NET AJAX Documentation
+page_title: Different Edit Forms on Edit and Insert | RadGrid for ASP.NET AJAX Documentation
 description: Different Edit Forms on Edit and Insert
 slug: grid/data-editing/how-to/different-edit-forms-on-edit-and-insert
 tags: different,edit,forms,on,edit,and,insert
@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-In some editing scenarios you may need to display different edit forms for Telerik RadGrid on edit and insert action. This is easily achievable having [WebUserControl custom edit form]({%slug grid/data-editing/edit-mode/custom-edit-forms%}) for your grid instance. You can hook the __ItemCommand__ event of the grid and switch the user control when __e.CommandName__ is __RadGrid.EditCommand__ or __RadGrid.InitInsertCommandName__. Note that you also have to clear the rest of the edited items (on insert action) or hide the insertion form (on edit action) to avoid duplication of the edit form type for several edited grid items.The code below represents sample case:
+In some editing scenarios you may need to display different edit forms for Telerik RadGrid on edit and insert action. This is easily achievable having [WebUserControl custom edit form]({%slug grid/data-editing/edit-mode/custom-edit-forms%}) for your grid instance. You can hook the **ItemCommand** event of the grid and switch the user control when **e.CommandName** is **RadGrid.EditCommand** or **RadGrid.InitInsertCommandName**. Note that you also have to clear the rest of the edited items (on insert action) or hide the insertion form (on edit action) to avoid duplication of the edit form type for several edited grid items.The code below represents sample case:
 
 
 
@@ -82,4 +82,4 @@ In some editing scenarios you may need to display different edit forms for Teler
 ````
 
 
-With auto-generated edit forms or __FormTemplate__ custom edit form you can merely show/hide some of the column editors (subscribing to the __ItemCreated__ event of the grid). Additional info about this can be found [here]({%slug grid/data-editing/distinguish-edit-or-insert-mode%}).
+With auto-generated edit forms or **FormTemplate** custom edit form you can merely show/hide some of the column editors (subscribing to the **ItemCreated** event of the grid). Additional info about this can be found [here]({%slug grid/data-editing/distinguish-edit-or-insert-mode%}).

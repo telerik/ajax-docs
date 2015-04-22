@@ -1,6 +1,6 @@
 ---
 title: OnMasterTableViewCreated
-page_title: OnMasterTableViewCreated | UI for ASP.NET AJAX Documentation
+page_title: OnMasterTableViewCreated | RadGrid for ASP.NET AJAX Documentation
 description: OnMasterTableViewCreated
 slug: grid/client-side-programming/events/events/onmastertableviewcreated
 tags: onmastertableviewcreated
@@ -23,10 +23,10 @@ Sys.EventArgs OnMasterTableViewCreated Property
 This event is fired after the MasterTableView is created.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

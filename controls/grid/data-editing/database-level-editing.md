@@ -1,6 +1,6 @@
 ---
 title: Database Level Editing
-page_title: Database Level Editing | UI for ASP.NET AJAX Documentation
+page_title: Database Level Editing | RadGrid for ASP.NET AJAX Documentation
 description: Database Level Editing
 slug: grid/data-editing/database-level-editing
 tags: database,level,editing

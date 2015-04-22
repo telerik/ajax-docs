@@ -1,6 +1,6 @@
 ---
 title: OnColumnCreated
-page_title: OnColumnCreated | UI for ASP.NET AJAX Documentation
+page_title: OnColumnCreated | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnCreated
 slug: grid/client-side-programming/events/events/oncolumncreated
 tags: oncolumncreated
@@ -23,10 +23,10 @@ Sys.EventArgs OnColumnCreated Property
 This event is fired after a column is created at client-side .
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __column__ - returns the last created GridColumn object|
-| __Can be canceled__ |No|
+| **Arguments** | **column** - returns the last created GridColumn object|
+| **Can be canceled** |No|
 
 Example:
 

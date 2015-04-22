@@ -1,6 +1,6 @@
 ---
 title: Auto-Generated Editors
-page_title: Auto-Generated Editors | UI for ASP.NET AJAX Documentation
+page_title: Auto-Generated Editors | RadGrid for ASP.NET AJAX Documentation
 description: Auto-Generated Editors
 slug: grid/data-editing/grid-editors/auto-generated-editors
 tags: auto-generated,editors
@@ -12,9 +12,9 @@ position: 0
 
 
 
-Editable columns inside a __RadGrid__ control supply a default editor that enables users to edit the values in the column. The editor is specified by the __ColumnEditor__ property of the column, which is of type __IGridColumnEditor__.
+Editable columns inside a **RadGrid** control supply a default editor that enables users to edit the values in the column. The editor is specified by the **ColumnEditor** property of the column, which is of type **IGridColumnEditor**.
 
->note Editable columns are columns that implement the __IGridEditableColumn__ interface.
+>note Editable columns are columns that implement the **IGridEditableColumn** interface.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Custom Paging through ObjectDataSource
-page_title: Custom Paging through ObjectDataSource | UI for ASP.NET AJAX Documentation
+page_title: Custom Paging through ObjectDataSource | RadGrid for ASP.NET AJAX Documentation
 description: Custom Paging through ObjectDataSource
 slug: grid/functionality/paging/how-to/custom-paging-through-objectdatasource
 tags: custom,paging,through,objectdatasource
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-There are many cases where you want Telerik RadGrid to receive its data from an __ObjectDataSource__ control. There are certain behaviors of a grid that works with __ObjectDataSource__ that are implemented in .NET 2.0 concerning paging - to be more precise, when given the page size, the grid can mine the datasource for ONLY that amount of data.
+There are many cases where you want Telerik RadGrid to receive its data from an **ObjectDataSource** control. There are certain behaviors of a grid that works with **ObjectDataSource** that are implemented in .NET 2.0 concerning paging - to be more precise, when given the page size, the grid can mine the datasource for ONLY that amount of data.
 
-Telerik RadGrid offers this feature. The code below holds __MS GridView__and Telerik RadGrid instances. Both controls are populated from __ObjectDataSource__and demonstrate the integrated custom paging feature of this __DataSource__control.
+Telerik RadGrid offers this feature. The code below holds **MS GridView**and Telerik RadGrid instances. Both controls are populated from **ObjectDataSource**and demonstrate the integrated custom paging feature of this **DataSource**control.
 
 ````ASPNET
 	  <h3>GridView</h3>

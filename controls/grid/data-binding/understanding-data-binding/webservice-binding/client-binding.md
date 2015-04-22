@@ -1,6 +1,6 @@
 ---
 title: Client Binding
-page_title: Client Binding | UI for ASP.NET AJAX Documentation
+page_title: Client Binding | RadGrid for ASP.NET AJAX Documentation
 description: Client Binding
 slug: grid/data-binding/understanding-data-binding/webservice-binding/client-binding
 tags: client,binding

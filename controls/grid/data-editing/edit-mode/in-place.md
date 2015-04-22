@@ -1,6 +1,6 @@
 ---
 title: In Place
-page_title: In Place | UI for ASP.NET AJAX Documentation
+page_title: In Place | RadGrid for ASP.NET AJAX Documentation
 description: In Place
 slug: grid/data-editing/edit-mode/in-place
 tags: in,place
@@ -12,7 +12,7 @@ position: 0
 
 
 
-To display the grid column editors inline when the grid switches into edit mode, change the table view's __EditMode__ property to "InPlace".
+To display the grid column editors inline when the grid switches into edit mode, change the table view's **EditMode** property to "InPlace".
 
 ````ASPNET
 	<telerik:RadGrid
@@ -33,13 +33,13 @@ To display the grid column editors inline when the grid switches into edit mode,
 
 ![A row in edit mode](images/grd_EditMode_markedup.png)
 
->note To limit the number of characters the user can enter in the text box editor of the inline editor, set the __MaxLength__ property of the column.
+>note To limit the number of characters the user can enter in the text box editor of the inline editor, set the **MaxLength** property of the column.
 >
 
 
 ## Relations between the edited item and the item in regular mode
 
-When __InPlace__ editing is applied, the grid row is of type __GridDataItem__ in regular mode and__GridEditableItem__ in edit regime. Hence you can cast the item in the __ItemCreated__ event (for example) to those types according to its current mode:
+When **InPlace** editing is applied, the grid row is of type **GridDataItem** in regular mode and**GridEditableItem** in edit regime. Hence you can cast the item in the **ItemCreated** event (for example) to those types according to its current mode:
 
 
 
@@ -79,7 +79,7 @@ For information about how to reference controls inside grid rows and edit forms,
 
 ## Detecting edit/insert mode with in-place editing
 
-To determine whether edit or insert operation is in progress inside the ItemCreated/ItemDataBound handler of the grid (when having inplace editing), check whether the e.Item instance inside the handler is of type __GridEditableItem__or __GridDataInsertItem__respectively. Here are some code snippets which illustrate the approach in question:
+To determine whether edit or insert operation is in progress inside the ItemCreated/ItemDataBound handler of the grid (when having inplace editing), check whether the e.Item instance inside the handler is of type **GridEditableItem**or **GridDataInsertItem**respectively. Here are some code snippets which illustrate the approach in question:
 
 
 

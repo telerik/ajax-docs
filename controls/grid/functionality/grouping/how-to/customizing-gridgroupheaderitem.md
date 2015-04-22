@@ -1,6 +1,6 @@
 ---
 title: Customizing GridGroupHeaderItem
-page_title: Customizing GridGroupHeaderItem | UI for ASP.NET AJAX Documentation
+page_title: Customizing GridGroupHeaderItem | RadGrid for ASP.NET AJAX Documentation
 description: Customizing GridGroupHeaderItem
 slug: grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
 tags: customizing,gridgroupheaderitem
@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-You can have complete control over the display of the fields in a __GridGroupHeaderItem__ and even [perform calculations]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%}) and display the results in the group header.
+You can have complete control over the display of the fields in a **GridGroupHeaderItem** and even [perform calculations]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%}) and display the results in the group header.
 
-To change the string that appears in the group header, set the __DataCell.Text__ property of the __GridGroupHeaderItem__ instance.
+To change the string that appears in the group header, set the **DataCell.Text** property of the **GridGroupHeaderItem** instance.
 
-The __DataItem__ property of the __GridGroupHeaderItem__ lets you access the column values you might want to display in the header. The __DataItem__ of __GridGroupHeaderItem__ is always of type __DataRowView__ and contains all the columns that represent fields from the __GridGroupByExpression__ for the group. These include both the fields that are included in the __SelectFields__ collection and the fields that are included in the __GroupByFields__ collection. For a description of the __GridGroupByExpression__ object, see [Declarative definition]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%}).
+The **DataItem** property of the **GridGroupHeaderItem** lets you access the column values you might want to display in the header. The **DataItem** of **GridGroupHeaderItem** is always of type **DataRowView** and contains all the columns that represent fields from the **GridGroupByExpression** for the group. These include both the fields that are included in the **SelectFields** collection and the fields that are included in the **GroupByFields** collection. For a description of the **GridGroupByExpression** object, see [Declarative definition]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%}).
 
-You can access the values for the fields in the __DataItem__ by indexing on the name of the field. If you have assigned an alias to the field (set the __FieldAlias__ property of the __GridgroupByField__), then you must index using the alias rather than the field name.
+You can access the values for the fields in the **DataItem** by indexing on the name of the field. If you have assigned an alias to the field (set the **FieldAlias** property of the **GridgroupByField**), then you must index using the alias rather than the field name.
 
-The following example illustrates how you can customize the formatting of the group header using the grid's __ItemDataBound__ event:
+The following example illustrates how you can customize the formatting of the group header using the grid's **ItemDataBound** event:
 
 
 

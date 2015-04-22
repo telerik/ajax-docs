@@ -1,6 +1,6 @@
 ---
 title: set_currentPageIndex()
-page_title: set_currentPageIndex() | UI for ASP.NET AJAX Documentation
+page_title: set_currentPageIndex() | RadGrid for ASP.NET AJAX Documentation
 description: set_currentPageIndex()
 slug: grid/client-side-programming/gridtableview-object/properties/set_currentpageindex()
 tags: set_currentpageindex()
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-Sets the current page index for the respective __GridTableView__ object. Can be used to control the active page currentlyviewed by the user.
+Sets the current page index for the respective **GridTableView** object. Can be used to control the active page currentlyviewed by the user.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

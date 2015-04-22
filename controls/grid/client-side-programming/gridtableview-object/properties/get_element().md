@@ -1,6 +1,6 @@
 ---
 title: get_element()
-page_title: get_element() | UI for ASP.NET AJAX Documentation
+page_title: get_element() | RadGrid for ASP.NET AJAX Documentation
 description: get_element()
 slug: grid/client-side-programming/gridtableview-object/properties/get_element()
 tags: get_element()
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-Returns HTML table which represents the respective table for the __GridTableView__ object rendered on the client. Can be used in cases when the DOM element of the object is required.
+Returns HTML table which represents the respective table for the **GridTableView** object rendered on the client. Can be used in cases when the DOM element of the object is required.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

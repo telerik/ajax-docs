@@ -1,6 +1,6 @@
 ---
 title: Editing RadGrid Records with RadWindow
-page_title: Editing RadGrid Records with RadWindow | UI for ASP.NET AJAX Documentation
+page_title: Editing RadGrid Records with RadWindow | RadGrid for ASP.NET AJAX Documentation
 description: Editing RadGrid Records with RadWindow
 slug: grid/application-scenarios/editing-radgrid-records-with-radwindow
 tags: editing,radgrid,records,with,radwindow
@@ -12,45 +12,45 @@ position: 3
 
 
 
-The [Window Editing](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndWindow/DefaultCS.aspx) demo shows how to use __RadWindow__ for editing __RadGrid__ records.
+The [Window Editing](http://demos.telerik.com/aspnet-ajax/Controls/Examples/Integration/GridAndWindow/DefaultCS.aspx) demo shows how to use **RadWindow** for editing **RadGrid** records.
 
-The demo uses a __GridTemplateColumn__ that contains a __HyperLink__ control to launch the window for editing, and a [CommandItemTemplate]({%slug grid/data-editing/commanditem/command-item-template%}) to add a link that launches the window for inserts.
+The demo uses a **GridTemplateColumn** that contains a **HyperLink** control to launch the window for editing, and a [CommandItemTemplate]({%slug grid/data-editing/commanditem/command-item-template%}) to add a link that launches the window for inserts.
 
 >note In Master page/UserControl scenario RadGrid should be ajaxified from the true RadAjaxManager but the RadAjaxManagerProxy.
 >
 
 
-Depending on the edit operation, __RadGrid__ uses a different mechanism for launching the __RadWindow__ object, initializing data values, and then assigning edited values back to the grid when editing is complete:
+Depending on the edit operation, **RadGrid** uses a different mechanism for launching the **RadWindow** object, initializing data values, and then assigning edited values back to the grid when editing is complete:
 
 ## Edit/Update
 
-1. Using the grid's __ItemCreated__ event, locate the HyperLink in the template column for each __GridDataItem__.
+1. Using the grid's **ItemCreated** event, locate the HyperLink in the template column for each **GridDataItem**.
 
-1. Attach a javascript function to the __onclick__ attribute of the __HyperLink__ that opens __RadWindow__ (passing the primary key for the currently created item as an argument).
+1. Attach a javascript function to the **onclick** attribute of the **HyperLink** that opens **RadWindow** (passing the primary key for the currently created item as an argument).
 
-1. In the __onclick__ handler, open the popup window calling __window.radopen__() and passing the primary key in the query string of the new window.
+1. In the **onclick** handler, open the popup window calling **window.radopen**() and passing the primary key in the query string of the new window.
 
-1. In the content page of __RadWindow__ retrieve the cell values from the grid source that corresponds to the primary key from the query string and display them in editable text boxes.
+1. In the content page of **RadWindow** retrieve the cell values from the grid source that corresponds to the primary key from the query string and display them in editable text boxes.
 
 1. When the user clicks the "Update" control in the window, update the selected row in the grid data source, close the popup window, and call a javascript function on the main page to rebind the grid.
 
-1. In the javascript function for rebinding the grid, generate an AJAX request using the __RadAjaxManager.ajaxRequest__ method.
+1. In the javascript function for rebinding the grid, generate an AJAX request using the **RadAjaxManager.ajaxRequest** method.
 
-1. In the Web page, intercept the manager's __AjaxRequest__ event to handle the ajax request. In its handler, rebind the grid.
+1. In the Web page, intercept the manager's **AjaxRequest** event to handle the ajax request. In its handler, rebind the grid.
 
 ## Insert
 
-1. In the __CommandItemTemplate__ of the grid, add an anchor element (<a>) for inserting items. (Don't forget to set the __CommandItemDisplay__ property of the grid so that the command item appears in the grid.)
+1. In the **CommandItemTemplate** of the grid, add an anchor element (<a>) for inserting items. (Don't forget to set the **CommandItemDisplay** property of the grid so that the command item appears in the grid.)
 
-1. Attach an __onclick__ handler to the anchor for opening the insertion form.
+1. Attach an **onclick** handler to the anchor for opening the insertion form.
 
-1. In the __onclick__ handler, open the popup window calling __window.radopen__() with no query parameters.
+1. In the **onclick** handler, open the popup window calling **window.radopen**() with no query parameters.
 
 1. When the user clicks the "Insert" control in the window, add a new row in the grid source, close the popup window, and call a javascript function on the main page to rebind the grid and navigate to the new record.
 
-1. In the javascript function for rebinding the grid, generate an AJAX request using the __RadAjaxManager.ajaxRequest__ method.
+1. In the javascript function for rebinding the grid, generate an AJAX request using the **RadAjaxManager.ajaxRequest** method.
 
-1. In the Web page, intercept the manager's __AjaxRequest__event to handle the ajax request. In its handler, rebind the grid and move to the last page so that the inserted record is visible.![](images/grdWindowEditing_thumb.PNG)
+1. In the Web page, intercept the manager's **AjaxRequest**event to handle the ajax request. In its handler, rebind the grid and move to the last page so that the inserted record is visible.![](images/grdWindowEditing_thumb.PNG)
 
 ````JavaScript
 	

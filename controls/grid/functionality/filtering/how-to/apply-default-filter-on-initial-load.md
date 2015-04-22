@@ -1,6 +1,6 @@
 ---
 title: Apply Default Filter on Initial Load
-page_title: Apply Default Filter on Initial Load | UI for ASP.NET AJAX Documentation
+page_title: Apply Default Filter on Initial Load | RadGrid for ASP.NET AJAX Documentation
 description: Apply Default Filter on Initial Load
 slug: grid/functionality/filtering/how-to/apply-default-filter-on-initial-load
 tags: apply,default,filter,on,initial,load
@@ -12,11 +12,11 @@ position: 4
 
 
 
-You can set the initial filter for a __RadGrid__ control so that when the Web page is first loaded, it presents an already-filtered set of data. To specify the initial filter,
+You can set the initial filter for a **RadGrid** control so that when the Web page is first loaded, it presents an already-filtered set of data. To specify the initial filter,
 
-* set the __FilterExpression__ property of the __MasterTableView__ (or detail __GridTableView__). The value of the __FilterExpression__ property is a string that represents the text of a WHERE clause for filtering items. It operates in the same way as the __DataView.Filter__ property.
+* set the **FilterExpression** property of the **MasterTableView** (or detail **GridTableView**). The value of the **FilterExpression** property is a string that represents the text of a WHERE clause for filtering items. It operates in the same way as the **DataView.Filter** property.
 
-* Set the __CurrentFilterFunction__ and __CurrentFilterValue__ properties of a column you want to use for filtering.
+* Set the **CurrentFilterFunction** and **CurrentFilterValue** properties of a column you want to use for filtering.
 
 ## Setting the initial filter declaratively
 
@@ -48,13 +48,13 @@ The following example shows a grid that sets an initial filter so that when the 
 
 
 
->note You can set the initial filter declaratively, as shown above, even when using the __NeedDataSource__ event to populate the grid.
+>note You can set the initial filter declaratively, as shown above, even when using the **NeedDataSource** event to populate the grid.
 >
 
 
 ## Setting the initial filter in the code-behind
 
-You can use the grid's __PreRender__ event to specify an initial filter. Note that after setting the filter, you must rebind the grid:
+You can use the grid's **PreRender** event to specify an initial filter. Note that after setting the filter, you must rebind the grid:
 
 
 
@@ -91,13 +91,13 @@ You can use the grid's __PreRender__ event to specify an initial filter. Note th
 >
 
 
->note If you are binding the grid using the __NeedDataSource__ event, you can set the initial filter in the __NeedDataSource__ event handler and omit the call to the __Rebind__ method. The code for setting the filter must still be placed inside an if statement that checks that __Page.IsPostBack__ is __False__ . Note that this is applicable for non auto generated columns.
+>note If you are binding the grid using the **NeedDataSource** event, you can set the initial filter in the **NeedDataSource** event handler and omit the call to the **Rebind** method. The code for setting the filter must still be placed inside an if statement that checks that **Page.IsPostBack** is **False** . Note that this is applicable for non auto generated columns.
 >
 
 
 ## Setting FilterExpression for check box columns
 
-When the grid contains a __GridCheckBoxColumn__, the syntax for the __FilterExpression__ is slightly different, as shown in the following example:
+When the grid contains a **GridCheckBoxColumn**, the syntax for the **FilterExpression** is slightly different, as shown in the following example:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"

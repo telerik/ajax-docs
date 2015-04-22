@@ -1,6 +1,6 @@
 ---
 title: OnActiveRowChanged
-page_title: OnActiveRowChanged | UI for ASP.NET AJAX Documentation
+page_title: OnActiveRowChanged | RadGrid for ASP.NET AJAX Documentation
 description: OnActiveRowChanged
 slug: grid/client-side-programming/events/events/onactiverowchanged
 tags: onactiverowchanged
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemEventArgs OnActiveRowChanged Property
 This event is fired after the active row is changed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __DataKeyValue__ - if the ClientDataKeyNames property of RadGrid is set, this property returns the corresponging value for the item's data key. __cancel__ - gets or sets the canceled status of the event __domEvent__ - returns the DOM event that was raised for the current event __gridDataItem__ - returns the corresponding data item for the item that has raised the event __id__ - returns the ID of the row that has raised the event __itemIndexHierarchical__ - returns the hierarchical index of the grid item that has raised the event __tableView__ - returns the owner TableView of the item that has raised the event|
-| __Can be canceled__ |No|
+| **Arguments** | **DataKeyValue** - if the ClientDataKeyNames property of RadGrid is set, this property returns the corresponging value for the item's data key. **cancel** - gets or sets the canceled status of the event **domEvent** - returns the DOM event that was raised for the current event **gridDataItem** - returns the corresponding data item for the item that has raised the event **id** - returns the ID of the row that has raised the event **itemIndexHierarchical** - returns the hierarchical index of the grid item that has raised the event **tableView** - returns the owner TableView of the item that has raised the event|
+| **Can be canceled** |No|
 
 Example:
 

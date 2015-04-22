@@ -1,6 +1,6 @@
 ---
 title: Hiding the expand/collapse images when no records
-page_title: Hiding the expand/collapse images when no records | UI for ASP.NET AJAX Documentation
+page_title: Hiding the expand/collapse images when no records | RadGrid for ASP.NET AJAX Documentation
 description: Hiding the expand/collapse images when no records
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/hiding-the-expand/collapse-images-when-no-records
 tags: hiding,the,expand/collapse,images,when,no,records
@@ -14,17 +14,17 @@ position: 3
 
 ## 
 
-You may want to hide the expand/collapse images when there are no records under parent grid item and the __HierarchyLoadMode = ServerBind__ or __HierarchyLoadMode = Client__ options for loading grid hierarchy are chosen. To accomplish this task you need to:
+You may want to hide the expand/collapse images when there are no records under parent grid item and the **HierarchyLoadMode = ServerBind** or **HierarchyLoadMode = Client** options for loading grid hierarchy are chosen. To accomplish this task you need to:
 
-1. Wire the __PreRender__ event of Telerik RadGrid
+1. Wire the **PreRender** event of Telerik RadGrid
 
-1. Traverse all grid items and get reference to those which are of type __GridNestedViewItem__
+1. Traverse all grid items and get reference to those which are of type **GridNestedViewItem**
 
-1. Verify whether their __NestedTableViews__ collection is empty
+1. Verify whether their **NestedTableViews** collection is empty
 
-1. If so, locate the expand/collapse image inside the __ExpandCollapse__ column of the respective __GridTableView__
+1. If so, locate the expand/collapse image inside the **ExpandCollapse** column of the respective **GridTableView**
 
-1. Hide the image along with the corresponding __GridNestedViewItem__
+1. Hide the image along with the corresponding **GridNestedViewItem**
 
 Below is the code of a simple demo with two level hierarchy:
 

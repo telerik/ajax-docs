@@ -1,6 +1,6 @@
 ---
 title: Load-on-demand RadGrid in RadComboBox
-page_title: Load-on-demand RadGrid in RadComboBox | UI for ASP.NET AJAX Documentation
+page_title: Load-on-demand RadGrid in RadComboBox | RadGrid for ASP.NET AJAX Documentation
 description: Load-on-demand RadGrid in RadComboBox
 slug: grid/application-scenarios/load-on-demand-radgrid-in-radcombobox
 tags: load-on-demand,radgrid,in,radcombobox
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-The example below shows how to embed a __RadGrid__ control in the template of a __RadComboBox__. This might be is a swift solution when you want to let users type a string sequence in the combobox input and load data (which matches the given pattern) in a table structure inside the combobox drop-down list. The integration between __RadGrid__ and __RadComboBox__ extends the built-in [multi-column combobox](http://demos.telerik.com/aspnet-ajax/Combobox/Examples/Functionality/MultiColumnCombo/DefaultCS.aspx) feature by feeding the combo with data loaded on demand. When you scroll to navigate through the loaded records, the table headers remain static at the top for a better user experience.
+The example below shows how to embed a **RadGrid** control in the template of a **RadComboBox**. This might be is a swift solution when you want to let users type a string sequence in the combobox input and load data (which matches the given pattern) in a table structure inside the combobox drop-down list. The integration between **RadGrid** and **RadComboBox** extends the built-in [multi-column combobox](http://demos.telerik.com/aspnet-ajax/Combobox/Examples/Functionality/MultiColumnCombo/DefaultCS.aspx) feature by feeding the combo with data loaded on demand. When you scroll to navigate through the loaded records, the table headers remain static at the top for a better user experience.
 
 ![Load-on-demand grid in combo](images/grdLODGridInCombo.PNG)
 
-The ASPX file declares a combo box with an __ItemTemplate__ that includes the __RadGrid__ control. The __RadComboBox__ has an __OnClientDropDownOpening__ handler to generate an AJAX request (using a __RadAjaxManager__ control on the same page) that binds the grid when the drop-down list opens. The __RadGrid__ in the template has an __OnRowClick__ event handler for setting the combo box text when the user clicks on a row:
+The ASPX file declares a combo box with an **ItemTemplate** that includes the **RadGrid** control. The **RadComboBox** has an **OnClientDropDownOpening** handler to generate an AJAX request (using a **RadAjaxManager** control on the same page) that binds the grid when the drop-down list opens. The **RadGrid** in the template has an **OnRowClick** event handler for setting the combo box text when the user clicks on a row:
 
 ````ASPNET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
@@ -61,7 +61,7 @@ The ASPX file declares a combo box with an __ItemTemplate__ that includes the __
 
 
 
-The grid's __OnRowClick__ handler ("RowClicked") gets the values from the clicked row and assigns them as the text of the combo box. The combobox's __OnClientDropDownOpening__ handler ("HandleOpen") gets a reference to the AJAX manager and initiates an AJAX request, passing in the string the user entered:
+The grid's **OnRowClick** handler ("RowClicked") gets the values from the clicked row and assigns them as the text of the combo box. The combobox's **OnClientDropDownOpening** handler ("HandleOpen") gets a reference to the AJAX manager and initiates an AJAX request, passing in the string the user entered:
 
 ````JavaScript
 	    function RowClicked(sender, args) {
@@ -82,7 +82,7 @@ The grid's __OnRowClick__ handler ("RowClicked") gets the values from the clicke
 
 
 
-In the code-behind, the __Page_Load__ event handler adds an AJAX setting for the grid to the AJAX manager (now that the templated control is created). The __AjaxRequest__ handler for the __RadAjaxManager__ forces the grid to rebind. The __NeedDataSource__ event handler of the grid binds it based on the string in the combobox:
+In the code-behind, the **Page_Load** event handler adds an AJAX setting for the grid to the AJAX manager (now that the templated control is created). The **AjaxRequest** handler for the **RadAjaxManager** forces the grid to rebind. The **NeedDataSource** event handler of the grid binds it based on the string in the combobox:
 
 
 

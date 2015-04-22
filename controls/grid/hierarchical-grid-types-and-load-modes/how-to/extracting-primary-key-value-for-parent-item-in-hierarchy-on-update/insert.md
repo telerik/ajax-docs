@@ -1,6 +1,6 @@
 ---
 title: Extracting primary key value for parent item in hierarchy on update/insert
-page_title: Extracting primary key value for parent item in hierarchy on update/insert | UI for ASP.NET AJAX Documentation
+page_title: Extracting primary key value for parent item in hierarchy on update/insert | RadGrid for ASP.NET AJAX Documentation
 description: Extracting primary key value for parent item in hierarchy on update/insert
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/extracting-primary-key-value-for-parent-item-in-hierarchy-on-update/insert
 tags: extracting,primary,key,value,for,parent,item,in,hierarchy,on,update/insert
@@ -16,13 +16,13 @@ position: 1
 
 Sometimes it is helpful to know the parent item primary key value when updating/inserting child records in grid hierarchy - for example, to refresh the parent row on update action as well (when certain conditions are met) or to hide some edit field in the child insertion form for specific parent item. Below are the steps which can be followed to fetch the parent row primary field in these situations:
 
-* wire the __ItemCommand__ event of the grid.
+* wire the **ItemCommand** event of the grid.
 
-* in case __e.CommandName__ is __RadGrid.UpdateCommandName__ the __e.Item.OwnerTableView.ParentItem__ instance will point to the item from the parent table to which the child records belong.
+* in case **e.CommandName** is **RadGrid.UpdateCommandName** the **e.Item.OwnerTableView.ParentItem** instance will point to the item from the parent table to which the child records belong.
 
-* if __e.CommandName__ is __RadGrid.InitInsertCommandName__ or __RadGrid.PerformInsertCommandName__ the case is identical - once again __e.Item.OwnerTableView.ParentItem__ will reference the parent table row.
+* if **e.CommandName** is **RadGrid.InitInsertCommandName** or **RadGrid.PerformInsertCommandName** the case is identical - once again **e.Item.OwnerTableView.ParentItem** will reference the parent table row.
 
-The code section shows how to get the primary key field for up-level rows using __DataKeyNames/DataKeyValues__:
+The code section shows how to get the primary key field for up-level rows using **DataKeyNames/DataKeyValues**:
 
 
 

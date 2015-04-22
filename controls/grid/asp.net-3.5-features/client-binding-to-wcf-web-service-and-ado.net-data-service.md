@@ -1,6 +1,6 @@
 ---
 title: Client Binding to WCF Web Service and ADO.NET Data Service
-page_title: Client Binding to WCF Web Service and ADO.NET Data Service | UI for ASP.NET AJAX Documentation
+page_title: Client Binding to WCF Web Service and ADO.NET Data Service | RadGrid for ASP.NET AJAX Documentation
 description: Client Binding to WCF Web Service and ADO.NET Data Service
 slug: grid/asp.net-3.5-features/client-binding-to-wcf-web-service-and-ado.net-data-service
 tags: client,binding,to,wcf,web,service,and,ado.net,data,service

@@ -1,6 +1,6 @@
 ---
 title: get_element()
-page_title: get_element() | UI for ASP.NET AJAX Documentation
+page_title: get_element() | RadGrid for ASP.NET AJAX Documentation
 description: get_element()
 slug: grid/client-side-programming/griddataitem-object/properties/get_element()
 tags: get_element()
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-This property presents the __HTML TableRow element__ - <tr> for the current item. Basically you can use it in cases when you needto get the __HTML TableRow element__ on client.
+This property presents the **HTML TableRow element** - <tr> for the current item. Basically you can use it in cases when you needto get the **HTML TableRow element** on client.
 
 ````ASPNET
 	        <script type="text/javascript">

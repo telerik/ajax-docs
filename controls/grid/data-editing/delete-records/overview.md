@@ -1,6 +1,6 @@
 ---
 title: Delete Records Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/data-editing/delete-records/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-This is a common task that can be accomplished by placing __GridButtonColumn__ with __CommandName__= __"Delete"__ in the grid body.Basically, there are two available options:
+This is a common task that can be accomplished by placing **GridButtonColumn** with **CommandName**= **"Delete"** in the grid body.Basically, there are two available options:
 
 1. Perform the delete operation automatically by enabling automatic delete through a DataSource control (see [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more details).
 
@@ -38,7 +38,7 @@ The code section below demonstrates the second case. In this example the grid da
 
 
 
-In the code-behind you should handle properly the __RadGrid1_DeleteCommand__ event.
+In the code-behind you should handle properly the **RadGrid1_DeleteCommand** event.
 
 
 

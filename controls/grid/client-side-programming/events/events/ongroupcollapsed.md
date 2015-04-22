@@ -1,6 +1,6 @@
 ---
 title: OnGroupCollapsed
-page_title: OnGroupCollapsed | UI for ASP.NET AJAX Documentation
+page_title: OnGroupCollapsed | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupCollapsed
 slug: grid/client-side-programming/events/events/ongroupcollapsed
 tags: ongroupcollapsed
@@ -23,10 +23,10 @@ Sys.EventArgs OnGroupCollapsed Property
 This event is fired when the group is shown.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

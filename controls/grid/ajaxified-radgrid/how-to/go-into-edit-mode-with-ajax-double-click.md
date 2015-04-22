@@ -1,6 +1,6 @@
 ---
 title: Go into Edit Mode with AJAX Double-Click
-page_title: Go into Edit Mode with AJAX Double-Click | UI for ASP.NET AJAX Documentation
+page_title: Go into Edit Mode with AJAX Double-Click | RadGrid for ASP.NET AJAX Documentation
 description: Go into Edit Mode with AJAX Double-Click
 slug: grid/ajaxified-radgrid/how-to/go-into-edit-mode-with-ajax-double-click
 tags: go,into,edit,mode,with,ajax,double-click
@@ -16,7 +16,7 @@ position: 0
 
 You may want to allow the user to force grid item in edit mode by simply double-clicking the respective item (an easy and intuitive approach). This chapter describes how to switch a row in edit mode by double-clicking an arbitrary grid item and how to update this row when the user clicks another row in the grid. Furthermore, a user-friendly confirm dialog will be displayed to prompt whether the operation should be propagated or not.
 
-The example uses __<RadAjaxManagerInstance>.AjaxRequest(args)__ calls (wiring the __RowClick__ and __RowDblClick__ events) and the __onchange__ event of the inputs in the grid rows used for editing (the handler for the __onchange__ event is assigned in the __GridCreated__handler of the grid):
+The example uses **<RadAjaxManagerInstance>.AjaxRequest(args)** calls (wiring the **RowClick** and **RowDblClick** events) and the **onchange** event of the inputs in the grid rows used for editing (the handler for the **onchange** event is assigned in the **GridCreated**handler of the grid):
 
 ````C#
 	  <asp:ScriptManager ID="ScriptManager1" runat="server">

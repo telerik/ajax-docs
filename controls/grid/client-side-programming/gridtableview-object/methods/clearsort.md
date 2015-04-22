@@ -1,6 +1,6 @@
 ---
 title: clearSort
-page_title: clearSort | UI for ASP.NET AJAX Documentation
+page_title: clearSort | RadGrid for ASP.NET AJAX Documentation
 description: clearSort
 slug: grid/client-side-programming/gridtableview-object/methods/clearsort
 tags: clearsort
@@ -17,9 +17,9 @@ position: 5
 Method which clears the sort expression for a specific column or all sort expressions for the TableView object if no argument is passed.
 
 
-|  __clearSort(), clearSort(fieldName)__  |  |  |
+|  **clearSort(), clearSort(fieldName)**  |  |  |
 | ------ | ------ | ------ |
-| __fieldName__ |String|The DataField of the column whose sort expression should be cleared.|
+| **fieldName** |String|The DataField of the column whose sort expression should be cleared.|
 
 Example:
 

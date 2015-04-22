@@ -1,6 +1,6 @@
 ---
 title: get_owner()
-page_title: get_owner() | UI for ASP.NET AJAX Documentation
+page_title: get_owner() | RadGrid for ASP.NET AJAX Documentation
 description: get_owner()
 slug: grid/client-side-programming/gridtableview-object/properties/get_owner()
 tags: get_owner()
@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-Returns the parent of type __Telerik.Web.UI.RadGrid__ of the current object. Can be used to identify the owner grid object of the table view.
+Returns the parent of type **Telerik.Web.UI.RadGrid** of the current object. Can be used to identify the owner grid object of the table view.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

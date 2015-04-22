@@ -1,6 +1,6 @@
 ---
 title: CSV Export
-page_title: CSV Export | UI for ASP.NET AJAX Documentation
+page_title: CSV Export | RadGrid for ASP.NET AJAX Documentation
 description: CSV Export
 slug: grid/functionality/exporting/export-formats/csv-export
 tags: csv,export
@@ -18,19 +18,19 @@ position: 0
 
 By default, *RadGrid's ** CSV* engine encloses all the data within doublequotes to allow the usage of commas, new lines and so on.
 
->note  __GridExporting__ event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
+>note  **GridExporting** event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
 >
 
 
 ## 
 
->note Depending on your local settings, the default column separator might be a __comma__ or a __semicolon__ . __Excel__ won't be able to properly separate the columns when thecolumn separator is not valid for the current culture.
+>note Depending on your local settings, the default column separator might be a **comma** or a **semicolon** . **Excel** won't be able to properly separate the columns when thecolumn separator is not valid for the current culture.
 >
 
 
 ## 
 
->note Note, that if you set __ExportOnlyData="true"__ , the contents (text) of all template columns will beremoved but the columns will be still visible in the exported file.
+>note Note, that if you set **ExportOnlyData="true"** , the contents (text) of all template columns will beremoved but the columns will be still visible in the exported file.
 >
 
 
@@ -39,7 +39,7 @@ By default, *RadGrid's ** CSV* engine encloses all the data within doublequotes 
 *RadGrid* exposes the following properties for customizing the output:
 
 
-|  __Name__  |  __Options__  |  __Description__  |
+|  **Name**  |  **Options**  |  **Description**  |
 | ------ | ------ | ------ |
 |ColumnDelimiter|Colon, Comma, NewLine, Semicolon, Tab, VerticalBar|Used to specify the column delimiter|
 |RowDelimiter|Colon, Comma, NewLine, Semicolon, Tab, VerticalBar|Used to specify the row delimiter|
@@ -58,35 +58,35 @@ By default, *RadGrid's ** CSV* engine encloses all the data within doublequotes 
 
 ## 
 
->note  __Microsoft Excel__ parses the cell values automatically depending on the local settings.For example the string __19/05__ might change to __19.May__ automatically.The only workaround would be to insert a sign of equality ( __=__ ) before the relevant string.For example: __"012"__ should be modified as __="012"__ .
+>note  **Microsoft Excel** parses the cell values automatically depending on the local settings.For example the string **19/05** might change to **19.May** automatically.The only workaround would be to insert a sign of equality ( **=** ) before the relevant string.For example: **"012"** should be modified as **="012"** .
 >
 
 
 ## Encoding support
 
-__UI for ASP.NET AJAX Q2 2009 SP1__ and later fully supports *Unicode*symbols in both *left-to-right* and *right-to-left *modes.*RadGrid* automatically saves the file in__UTF-8__ encoding.
+**UI for ASP.NET AJAX Q2 2009 SP1** and later fully supports *Unicode*symbols in both *left-to-right* and *right-to-left *modes.*RadGrid* automatically saves the file in**UTF-8** encoding.
 
->note If you open the __CSV__ file in some editors, you will notice some strange characters at the beginning.This is[BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark)header - it marks the file content as __Unicode__ .These characters wouldn't be visible under normal circumstances.
+>note If you open the **CSV** file in some editors, you will notice some strange characters at the beginning.This is[BOM (Byte Order Mark)](http://en.wikipedia.org/wiki/Byte_order_mark)header - it marks the file content as **Unicode** .These characters wouldn't be visible under normal circumstances.
 >
 
 
-Since __UI for ASP.NET AJAX Q3 2014 SP1__ version, you are able to change the default encoding of the __CSV__ format.The property that allows you to change the encoding is named __Encoding__ and has the following predefined values.
+Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the default encoding of the **CSV** format.The property that allows you to change the encoding is named **Encoding** and has the following predefined values.
 
-* __Utf8__ (default)
+* **Utf8** (default)
 
-* __Ascii__ (US ASCII)
+* **Ascii** (US ASCII)
 
-* __Default__ (system default (ANSI); depends on the regional settings of the OS)
+* **Default** (system default (ANSI); depends on the regional settings of the OS)
 
-* __Windows1252__ (Western European encoding)
+* **Windows1252** (Western European encoding)
 
-* __Unicode__ (UTF16 little endian)
+* **Unicode** (UTF16 little endian)
 
-* __Utf7__
+* **Utf7**
 
-* __Utf32__ (UTF32 little endian)
+* **Utf32** (UTF32 little endian)
 
-Along with __Encoding__ property we introduce a possibility to disable the __BOM (Byte Order Mark)__ header by setting __EnableBomHeader__. This property is of type boolean and accepts __True__ (Default) and __False__values. You can find more information about __BOM__ header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
+Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False**values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -105,7 +105,7 @@ Along with __Encoding__ property we introduce a possibility to disable the __BOM
 
 ## Exporting unsupported controls
 
-Since *CSV* is text-based format it doesn't support images or complex structures like tables.It is possible to replace such content manually by removing the unwanted objects before exporting or on__ItemDataBound__/__ItemCreated__events:
+Since *CSV* is text-based format it doesn't support images or complex structures like tables.It is possible to replace such content manually by removing the unwanted objects before exporting or on**ItemDataBound**/**ItemCreated**events:
 
 
 
@@ -140,7 +140,7 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 ````
 
 
-This approach won't work if your __RadGrid__rebinds before export. In such cases (for instance, whenusing __IgnorePaging="true"__) the developer should put the code on__ItemCreated__/__ItemDataBound__:
+This approach won't work if your **RadGrid**rebinds before export. In such cases (for instance, whenusing **IgnorePaging="true"**) the developer should put the code on**ItemCreated**/**ItemDataBound**:
 
 
 
@@ -180,7 +180,7 @@ This approach won't work if your __RadGrid__rebinds before export. In such cases
 ````
 
 
->note Note that you don't need to set __isExport="false"__ explicitly because the changes we perform will affectonly the response streamed to the client. In other words, the user won't see any change to the actual page.
+>note Note that you don't need to set **isExport="false"** explicitly because the changes we perform will affectonly the response streamed to the client. In other words, the user won't see any change to the actual page.
 >
 
 
@@ -211,7 +211,7 @@ You can hide the unselected rows and export the rest in a manner similar to the 
 
 ## Hiding columns
 
-You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
+You can use the **HideStructureColumns**property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
 
 
 
@@ -232,7 +232,7 @@ You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn
 ````
 
 
->note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
@@ -240,7 +240,7 @@ You can use the __HideStructureColumns__property to hide *GridRowIndicatorColumn
 
 There are two common ways to hide an item.
 
-* __Directly__ - in the button handler when exporting from a button or on __ItemCommand__ when exporting from the built-in buttons
+* **Directly** - in the button handler when exporting from a button or on **ItemCommand** when exporting from the built-in buttons
 
 
 
@@ -281,7 +281,7 @@ There are two common ways to hide an item.
 ````
 
 
-* __On ItemCreated / ItemDataBound__ - this approach should be used when__IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
+* **On ItemCreated / ItemDataBound** - this approach should be used when**IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
 
 
 
@@ -318,13 +318,13 @@ There are two common ways to hide an item.
 
 ## CSV Export Q & A
 
-Q: Can I export content from __GridTemplateColumn__?
+Q: Can I export content from **GridTemplateColumn**?
 
-A: Yes, as long as it contain a binding expression or regular __Label__ control and__ExportOnlyData__ is set to "__false__".
+A: Yes, as long as it contain a binding expression or regular **Label** control and**ExportOnlyData** is set to "**false**".
 
-Q: How to export __GridCheckBoxColumn__?
+Q: How to export **GridCheckBoxColumn**?
 
-A: You have to set __ExportOnlyData__ to "__false__"
+A: You have to set **ExportOnlyData** to "**false**"
 
 ## Unsupported scenarios
 
@@ -332,4 +332,4 @@ A: You have to set __ExportOnlyData__ to "__false__"
 
 * Grouping
 
-* Exporting invisible __RadGrid__
+* Exporting invisible **RadGrid**

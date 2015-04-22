@@ -1,6 +1,6 @@
 ---
 title: Selecting Cells and Columns
-page_title: Selecting Cells and Columns | UI for ASP.NET AJAX Documentation
+page_title: Selecting Cells and Columns | RadGrid for ASP.NET AJAX Documentation
 description: Selecting Cells and Columns
 slug: grid/functionality/selecting/selecting-cells-and-columns
 tags: selecting,cells,and,columns
@@ -16,13 +16,13 @@ position: 1
 
 Apart from row selection RadGrid supports the selection of individual cells and columns in the grid table. The cell selection functionality is controlled through the ClientSettings.Selecting.CellSelectionMode property:
 
-* __SingleCell__ switches on the single cell selection.
+* **SingleCell** switches on the single cell selection.
 
-* __MultiCell__ turns on multiple cell selection.
+* **MultiCell** turns on multiple cell selection.
 
-* __Column__ gives you the opportunity to select all the cells withing a given column by clicking on its header or using the column selection API (server and client side).
+* **Column** gives you the opportunity to select all the cells withing a given column by clicking on its header or using the column selection API (server and client side).
 
-* __MultiColumn__ takes the column selection one step further and equips the grid with the ability to support multiple column selection.
+* **MultiColumn** takes the column selection one step further and equips the grid with the ability to support multiple column selection.
 
 N.B.: The selection state of RadGrid's cells is persisted on postback but not on rebinding of the grid.
 

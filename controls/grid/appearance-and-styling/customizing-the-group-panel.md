@@ -1,6 +1,6 @@
 ---
 title: Customizing the Group Panel
-page_title: Customizing the Group Panel | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Group Panel | RadGrid for ASP.NET AJAX Documentation
 description: Customizing the Group Panel
 slug: grid/appearance-and-styling/customizing-the-group-panel
 tags: customizing,the,group,panel
@@ -18,6 +18,6 @@ If grouping is enabled, Telerik RadGrid will allow grouping by column(s). You ne
 
 ![](images/grd_GroupIng_forStyles.png)
 
-You can modify panel's appearance using __PanelStyle__ and __PanelItemsStyle__ properties.The __PanelStyle__ property customizes the panel itself, and the __PanelItemStyle__ property customizes the items in this panel.
+You can modify panel's appearance using **PanelStyle** and **PanelItemsStyle** properties.The **PanelStyle** property customizes the panel itself, and the **PanelItemStyle** property customizes the items in this panel.
 
 ![GroupPanel customization](images/grd_panel_style_markedup.png)

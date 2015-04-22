@@ -1,6 +1,6 @@
 ---
 title: What you should know
-page_title: What you should know | UI for ASP.NET AJAX Documentation
+page_title: What you should know | RadGrid for ASP.NET AJAX Documentation
 description: What you should know
 slug: grid/hierarchical-grid-types-and-load-modes/what-you-should-know
 tags: what,you,should,know
@@ -18,7 +18,7 @@ A unique feature for Telerik RadGrid is the support for hierarchical representat
 
 ## Master Table
 
-The __MasterTableView__ is the topmost table of the hierarchical structure. It is a __GridTableView Class__ with __GridTableViewCollection Class__. The collection holds the so called DetailTables - tables related to the fields of the MasterTable. Each DetailTable can have its own __GridTableViewCollection__ with other Detail Tables, thus forming the hierarchical structure.
+The **MasterTableView** is the topmost table of the hierarchical structure. It is a **GridTableView Class** with **GridTableViewCollection Class**. The collection holds the so called DetailTables - tables related to the fields of the MasterTable. Each DetailTable can have its own **GridTableViewCollection** with other Detail Tables, thus forming the hierarchical structure.
 
 You can look on the MasterTable as a Root for the hierarchical tree. All tables underneath will be the tree nodes. The MasterTable is an object and has own sections of properties in Visual Studio.
 
@@ -26,13 +26,13 @@ You can look on the MasterTable as a Root for the hierarchical tree. All tables 
 
 Detail tables are the inner tables of the grid. They are related to a field in its parent table.
 
-Each Detail Table is placed in an item (row) of its parent table. This special item is called __NestedViewItem__.
+Each Detail Table is placed in an item (row) of its parent table. This special item is called **NestedViewItem**.
 
 ![NestedViewItem](images/grd_NestedView.png)
 
 ## Expand/Collapse all
 
-RadGrid’s hierarchy structure has been extended with buttons in the hierarchy expand column headers that allow all detail items ona given level to be expanded/collapsed. The buttons in question are switched on through the__EnableHierarchyExpandAll__ property exposed both on the level of the grid and the table views.
+RadGrid’s hierarchy structure has been extended with buttons in the hierarchy expand column headers that allow all detail items ona given level to be expanded/collapsed. The buttons in question are switched on through the**EnableHierarchyExpandAll** property exposed both on the level of the grid and the table views.
 
 The new expand-all functionality supports all hierarchy load modes.
 

@@ -1,6 +1,6 @@
 ---
 title: OnCommand
-page_title: OnCommand | UI for ASP.NET AJAX Documentation
+page_title: OnCommand | RadGrid for ASP.NET AJAX Documentation
 description: OnCommand
 slug: grid/client-side-programming/events/events/oncommand
 tags: oncommand
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridCommandEventArgs OnCommand Property
 This event will be raised for each grid command which is about to be triggered (sorting, paging, filtering, editing, etc.) before postback/ajax request except hierarchy/grouping expand/collapse action. The event can be intercepted in order to perform a certain operation in the grid via web service or to detect what type of command is raised on the client.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __commandName__ - the name of the command which is about to be processed __commandArgument__ - the command argument(s) value(s) __tableView__ - returns reference to the owner TableView|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **commandName** - the name of the command which is about to be processed **commandArgument** - the command argument(s) value(s) **tableView** - returns reference to the owner TableView|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

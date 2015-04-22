@@ -1,6 +1,6 @@
 ---
 title: get_columns()
-page_title: get_columns() | UI for ASP.NET AJAX Documentation
+page_title: get_columns() | RadGrid for ASP.NET AJAX Documentation
 description: get_columns()
 slug: grid/client-side-programming/gridtableview-object/properties/get_columns()
 tags: get_columns()
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-Property that returns a one-dimensional array of __Telerik.Web.UI.GridColumn__ objects.
+Property that returns a one-dimensional array of **Telerik.Web.UI.GridColumn** objects.
 
 The following example illustrates how you could cet the columns in the MasterTableView after the RadGrid is created:
 

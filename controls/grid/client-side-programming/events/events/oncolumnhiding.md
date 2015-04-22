@@ -1,6 +1,6 @@
 ---
 title: OnColumnHiding
-page_title: OnColumnHiding | UI for ASP.NET AJAX Documentation
+page_title: OnColumnHiding | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnHiding
 slug: grid/client-side-programming/events/events/oncolumnhiding
 tags: oncolumnhiding
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridColumnEventArgs OnColumnHiding Property
 This event is fired before a column is hidden.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - returns the DOM event that was raised for the current event __cancel__ - gets or sets the canceled status of the event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **gridColumn** - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - returns the DOM event that was raised for the current event **cancel** - gets or sets the canceled status of the event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: Collecting Data in a New Window
-page_title: Collecting Data in a New Window | UI for ASP.NET AJAX Documentation
+page_title: Collecting Data in a New Window | RadGrid for ASP.NET AJAX Documentation
 description: Collecting Data in a New Window
 slug: grid/data-editing/collecting-data-in-a-new-window
 tags: collecting,data,in,a,new,window
@@ -16,15 +16,15 @@ position: 9
 
 There are various cases in which you may want to get the content of the cells in a selected grid row (clicking a hyperlink in that row), pass this content in a query and open the results in a new window.Such scenario is easily handled by Telerik RadGrid. Here is a sample implementation technique:
 
-1. We use __GridHyperLink__ column with __Target__ property set to___blank__ to open a new window on user click;
+1. We use **GridHyperLink** column with **Target** property set to**_blank** to open a new window on user click;
 
-1. Hooking the __ItemDataBound__ event of the grid we store the values of the cells for the clicked row in the __NavigateUrl__ property of the __Hyperlink__ in the __GridHyperLinkColumn__ (passing them as __QueryString__ arguments);
+1. Hooking the **ItemDataBound** event of the grid we store the values of the cells for the clicked row in the **NavigateUrl** property of the **Hyperlink** in the **GridHyperLinkColumn** (passing them as **QueryString** arguments);
 
-1. In the page to which we navigate (__Resources.aspx__) we have five labels. Their text is set on __PageLoad__ and __Not Page.IsPostBack__ to display the details for the clicked row;
+1. In the page to which we navigate (**Resources.aspx**) we have five labels. Their text is set on **PageLoad** and **Not Page.IsPostBack** to display the details for the clicked row;
 
-1. The clicked row will be selected as we enabled client side selection (setting __ClientSettings -> Selecting -> AllowRowSelect = True__).
+1. The clicked row will be selected as we enabled client side selection (setting **ClientSettings -> Selecting -> AllowRowSelect = True**).
 
-__Default__ file (ASPX and code-behind)
+**Default** file (ASPX and code-behind)
 
 
 
@@ -73,7 +73,7 @@ __Default__ file (ASPX and code-behind)
 ````
 
 
-__Resources__ file (ASPX and code-behind)
+**Resources** file (ASPX and code-behind)
 
 
 

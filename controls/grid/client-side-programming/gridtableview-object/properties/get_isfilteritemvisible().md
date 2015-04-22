@@ -1,6 +1,6 @@
 ---
 title: get_isFilterItemVisible()
-page_title: get_isFilterItemVisible() | UI for ASP.NET AJAX Documentation
+page_title: get_isFilterItemVisible() | RadGrid for ASP.NET AJAX Documentation
 description: get_isFilterItemVisible()
 slug: grid/client-side-programming/gridtableview-object/properties/get_isfilteritemvisible()
 tags: get_isfilteritemvisible()
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-Returns a Boolean value indicating if the __GridTableView__ filter item is currently visible or not. Can be used to create some condition for executing different script logic depending on the visibility status of the filter item.
+Returns a Boolean value indicating if the **GridTableView** filter item is currently visible or not. Can be used to create some condition for executing different script logic depending on the visibility status of the filter item.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

@@ -1,6 +1,6 @@
 ---
 title: Hide All Rows on Insert and Display the Edit Form Only
-page_title: Hide All Rows on Insert and Display the Edit Form Only | UI for ASP.NET AJAX Documentation
+page_title: Hide All Rows on Insert and Display the Edit Form Only | RadGrid for ASP.NET AJAX Documentation
 description: Hide All Rows on Insert and Display the Edit Form Only
 slug: grid/data-editing/how-to/hide-all-rows-on-insert-and-display-the-edit-form-only
 tags: hide,all,rows,on,insert,and,display,the,edit,form,only
@@ -16,11 +16,11 @@ position: 7
 
 When the grid presentation area is restricted on your page you may not want to display the grid items on item insertion (as thus the control will expand its height). To hide all rows in Telerik RadGrid on item insertion and display merely the edit form for the inserted item, you need to:
 
-1. Subscribe to the __PreRender__ event of Telerik RadGrid
+1. Subscribe to the **PreRender** event of Telerik RadGrid
 
-1. Verify whether __RadGrid1.MasterTableView.IsItemInserted__ is set to __True__
+1. Verify whether **RadGrid1.MasterTableView.IsItemInserted** is set to **True**
 
-1. Traverse the grid items and set their __Visible__ attribute to __False__
+1. Traverse the grid items and set their **Visible** attribute to **False**
 
 
 

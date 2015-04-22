@@ -1,6 +1,6 @@
 ---
 title: OnScroll
-page_title: OnScroll | UI for ASP.NET AJAX Documentation
+page_title: OnScroll | RadGrid for ASP.NET AJAX Documentation
 description: OnScroll
 slug: grid/client-side-programming/events/events/onscroll
 tags: onscroll
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridScrollEventArgs OnScroll Property
 This event is fired when you scroll the grid.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |scrollTop - the vertical position of the scrollscrollLeft - the horizontal position of the scrollscrollControl - the div element of the scrollisOnTop - whether the scroll is on topisOnBottom - whether the scroll is on bottom|
-| __Can be canceled__ |No|
+| **Arguments** |scrollTop - the vertical position of the scrollscrollLeft - the horizontal position of the scrollscrollControl - the div element of the scrollisOnTop - whether the scroll is on topisOnBottom - whether the scroll is on bottom|
+| **Can be canceled** |No|
 
 Example:
 

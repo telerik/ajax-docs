@@ -1,6 +1,6 @@
 ---
 title: Customizing the Action Buttons in Telerik RadGrid
-page_title: Customizing the Action Buttons in Telerik RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Action Buttons in Telerik RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Customizing the Action Buttons in Telerik RadGrid
 slug: grid/data-editing/how-to/customizing-the-action-buttons-in-telerik-radgrid
 tags: customizing,the,action,buttons,in,telerik,radgrid

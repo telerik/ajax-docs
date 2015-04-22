@@ -1,6 +1,6 @@
 ---
 title: OnRowDataBound
-page_title: OnRowDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnRowDataBound | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDataBound
 slug: grid/client-side-programming/events/events/onrowdatabound
 tags: onrowdatabound
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemEventArgs OnRowDataBound Property
 This event will be raised for each grid item which is about to be bound on the client. Can be used to modify/extract the data from the respective row cells or apply custom formatting to some of the cells based on their values.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __dataItem__ - the underlying data item object (equivalent to e.Item.DataItem object inside ItemDataBound on the server) __item__ - the GridDataItem client instance which is about to be bound|
-| __Can be canceled__ |No|
+| **Arguments** | **dataItem** - the underlying data item object (equivalent to e.Item.DataItem object inside ItemDataBound on the server) **item** - the GridDataItem client instance which is about to be bound|
+| **Can be canceled** |No|
 
 Example:
 

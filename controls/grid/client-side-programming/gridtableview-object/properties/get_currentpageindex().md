@@ -1,6 +1,6 @@
 ---
 title: get_currentPageIndex()
-page_title: get_currentPageIndex() | UI for ASP.NET AJAX Documentation
+page_title: get_currentPageIndex() | RadGrid for ASP.NET AJAX Documentation
 description: get_currentPageIndex()
 slug: grid/client-side-programming/gridtableview-object/properties/get_currentpageindex()
 tags: get_currentpageindex()
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-Returns the current page index for the respective __GridTableView__ object. Can be used to check which page the user is currently viewing.
+Returns the current page index for the respective **GridTableView** object. Can be used to check which page the user is currently viewing.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

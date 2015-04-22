@@ -1,6 +1,6 @@
 ---
 title: Client-side Editing
-page_title: Client-side Editing | UI for ASP.NET AJAX Documentation
+page_title: Client-side Editing | RadGrid for ASP.NET AJAX Documentation
 description: Client-side Editing
 slug: grid/data-editing/client-side-editing
 tags: client-side,editing

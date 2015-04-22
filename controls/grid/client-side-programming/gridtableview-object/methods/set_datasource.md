@@ -1,6 +1,6 @@
 ---
 title: set_dataSource
-page_title: set_dataSource | UI for ASP.NET AJAX Documentation
+page_title: set_dataSource | RadGrid for ASP.NET AJAX Documentation
 description: set_dataSource
 slug: grid/client-side-programming/gridtableview-object/methods/set_datasource
 tags: set_datasource
@@ -17,9 +17,9 @@ position: 39
 Method which can be used to assign data source for the corresponding GridTableView client instance. This data source should be of JSON format which can be serialized by a web service or page method. The method be used for a flat grid or hierarchical grid with HierarchyLoadMode set to Client.
 
 
-|  __set_dataSource(dataSource)__  |  |  |
+|  **set_dataSource(dataSource)**  |  |  |
 | ------ | ------ | ------ |
-| __dataSource__ |Object|The source which will be assigned to the respective GridTableView instance.|
+| **dataSource** |Object|The source which will be assigned to the respective GridTableView instance.|
 
 Example:
 

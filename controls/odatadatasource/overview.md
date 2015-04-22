@@ -1,5 +1,5 @@
 ---
-title: ODataDataSource Overview
+title: Overview
 page_title: Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: odatadatasource/overview

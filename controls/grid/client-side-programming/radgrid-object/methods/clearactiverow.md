@@ -1,6 +1,6 @@
 ---
 title: clearActiveRow
-page_title: clearActiveRow | UI for ASP.NET AJAX Documentation
+page_title: clearActiveRow | RadGrid for ASP.NET AJAX Documentation
 description: clearActiveRow
 slug: grid/client-side-programming/radgrid-object/methods/clearactiverow
 tags: clearactiverow
@@ -17,7 +17,7 @@ position: 0
 Method which clears the active row in the grid. The setting will be persisted across postbacks/ajax requests.
 
 
-|  __clearActiveRow()__  |
+|  **clearActiveRow()**  |
 | ------ |
 ||
 

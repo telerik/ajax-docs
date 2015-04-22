@@ -1,6 +1,6 @@
 ---
 title: get_cell
-page_title: get_cell | UI for ASP.NET AJAX Documentation
+page_title: get_cell | RadGrid for ASP.NET AJAX Documentation
 description: get_cell
 slug: grid/client-side-programming/griddataitem-object/methods/get_cell
 tags: get_cell
@@ -17,9 +17,9 @@ position: 2
 This method takes a column UniqueName and returns the corresponding client table cell of the row. Useful to reference controls inside the cell or changing the appearance of the cell content.
 
 
-|  __get_cell(columnUniqueName)__  |  |  |
+|  **get_cell(columnUniqueName)**  |  |  |
 | ------ | ------ | ------ |
-| __columnUniqueName__ |String|The UniqueName of the column which identifies the cell uniquely|
+| **columnUniqueName** |String|The UniqueName of the column which identifies the cell uniquely|
 
 Example:
 

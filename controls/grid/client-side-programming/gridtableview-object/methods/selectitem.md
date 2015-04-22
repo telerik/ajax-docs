@@ -1,6 +1,6 @@
 ---
 title: selectItem
-page_title: selectItem | UI for ASP.NET AJAX Documentation
+page_title: selectItem | RadGrid for ASP.NET AJAX Documentation
 description: selectItem
 slug: grid/client-side-programming/gridtableview-object/methods/selectitem
 tags: selectitem
@@ -21,10 +21,10 @@ Method which selects the table row passed as an argument or the row correspondin
 
 
 
-|  __selectItem(gridItem) or selectItem(index)__  |  |  |
+|  **selectItem(gridItem) or selectItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __gridItem__ |HTML row object - <tr>|The row that will be selected.|
-| __index__ |Integer|The row corresponding to the __index__ will be selected.|
+| **gridItem** |HTML row object - <tr>|The row that will be selected.|
+| **index** |Integer|The row corresponding to the **index** will be selected.|
 
 Example:
 

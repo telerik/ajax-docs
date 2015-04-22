@@ -1,6 +1,6 @@
 ---
 title: Filter for Built-in Checkbox Column
-page_title: Filter for Built-in Checkbox Column | UI for ASP.NET AJAX Documentation
+page_title: Filter for Built-in Checkbox Column | RadGrid for ASP.NET AJAX Documentation
 description: Filter for Built-in Checkbox Column
 slug: grid/functionality/filtering/how-to/filter-for-built-in-checkbox-column
 tags: filter,for,built-in,checkbox,column
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The default drop-down list of filter functions for __GridCheckBoxColumn__ contains the following items:
+The default drop-down list of filter functions for **GridCheckBoxColumn** contains the following items:
 
 * NoFilter
 
@@ -28,13 +28,13 @@ The default drop-down list of filter functions for __GridCheckBoxColumn__ contai
 
 Consider the case when you want to remove the "IsNull" and "NotIsNull" items from the check box column, while leaving them available for other columns in the grid. One approach to this is to replace the default text box and image button with a drop-down list that contains the possible options ("Clear Filter", "Show all checked", and "Show all unchecked).
 
-To replace the default textbox filter for __GridCheckBoxColumn__, you can do the following:
+To replace the default textbox filter for **GridCheckBoxColumn**, you can do the following:
 
-1. Handle the __ItemCreated__ event of the grid to modify the __Controls__ collection of the corresponding header cell.
+1. Handle the **ItemCreated** event of the grid to modify the **Controls** collection of the corresponding header cell.
 
-1. Handle the __SelectedIndexChanged__ event of the drop-down list (which appears in the place of the textbox) to modify the grid __FilterExpression__ so that it reflects the __SelectedValue__ of the drop-down list you added.
+1. Handle the **SelectedIndexChanged** event of the drop-down list (which appears in the place of the textbox) to modify the grid **FilterExpression** so that it reflects the **SelectedValue** of the drop-down list you added.
 
-1. In the __NeedDataSource__ event handler, add the check box column's filter expression to the __FilterExpression__ property of the table so that it is honored when the user triggers a filter action from another column.
+1. In the **NeedDataSource** event handler, add the check box column's filter expression to the **FilterExpression** property of the table so that it is honored when the user triggers a filter action from another column.
 
 The following example illustrates this approach:
 

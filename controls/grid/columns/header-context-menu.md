@@ -1,6 +1,6 @@
 ---
 title: Header Context Menu
-page_title: Header Context Menu | UI for ASP.NET AJAX Documentation
+page_title: Header Context Menu | RadGrid for ASP.NET AJAX Documentation
 description: Header Context Menu
 slug: grid/columns/header-context-menu
 tags: header,context,menu
@@ -139,7 +139,7 @@ Thecode snippets from the example are below:
 
 ## Using header context menu for filtering
 
-As of Q1 2010 RadGrid is equipped with a new filtering menu. It will be a sub-part of RadGrid's header context menu and will allow for filtering the grid's data on two conditions related with a logical AND operator. To switched on/off header context filter menu a new property has been introduced into the RadGrid control -__RadGrid.EnableHeaderContextFilterMenu/____GridTableView.EnableHeaderContextFilterMenu__. In addition, it is important that __RadGrid.EnableHeaderContextMenu/____GridTableView.EnableHeaderContextMenu__ and __RadGrid.AllowFilteringByColumn/GridTableView.AllowFilteringByColumn__ properties be set to true in order for the header context filter menu to be available. For the purpose of supporting this extension to RadGrid's filtering mechanism, each __GridColumn__ will feature an additional current filter function/value properties that are set to contain the second filter condition data. These properties are called __AndCurrentFilterFunction__/__AndCurrentFilterValue:__
+As of Q1 2010 RadGrid is equipped with a new filtering menu. It will be a sub-part of RadGrid's header context menu and will allow for filtering the grid's data on two conditions related with a logical AND operator. To switched on/off header context filter menu a new property has been introduced into the RadGrid control -**RadGrid.EnableHeaderContextFilterMenu/GridTableView.EnableHeaderContextFilterMenu**. In addition, it is important that **RadGrid.EnableHeaderContextMenu/GridTableView.EnableHeaderContextMenu** and **RadGrid.AllowFilteringByColumn/GridTableView.AllowFilteringByColumn** properties be set to true in order for the header context filter menu to be available. For the purpose of supporting this extension to RadGrid's filtering mechanism, each **GridColumn** will feature an additional current filter function/value properties that are set to contain the second filter condition data. These properties are called **AndCurrentFilterFunction**/**AndCurrentFilterValue:**
 
 ````ASPNET
 	  <telerik:GridBoundColumn CurrentFilterFunction="GreaterThan" CurrentFilterValue="2.5"
@@ -152,13 +152,13 @@ As of Q1 2010 RadGrid is equipped with a new filtering menu. It will be a sub-pa
 
 In spite of having been created to allow for filtering the grid on two conditions, the new menu will give the freedom to set only one of those. The condition for which no data has been set will beignored and RadGrid will filter its data only on the one for which a filter function and a filter value have been set. The filtering menu remains independent for each column - this means that the filtering menu options vary by the column's DataType and the properties of the special controls will depend on any other specific column properties such as Mask, DecimalDegits, PickerType etc.
 
-The new filter menu can be used along-side the classic one. In this case, the GridTableView.IsFilterItemExpanded property should be set to __true__ (the default value). When the two filter menus are switched on simultaneously, the data set for the first filter condition of the header context filter menu will be also set as filter data for the classic one and vice versa.If you want to use just the header context filter menu, then just set GridTableView.IsFilterItemExpanded property to __false__ leaving, as mentioned above, the RadGrid.GridTableView/GridTableView.AllowFilteringByColumn property to __true__.
+The new filter menu can be used along-side the classic one. In this case, the GridTableView.IsFilterItemExpanded property should be set to **true** (the default value). When the two filter menus are switched on simultaneously, the data set for the first filter condition of the header context filter menu will be also set as filter data for the classic one and vice versa.If you want to use just the header context filter menu, then just set GridTableView.IsFilterItemExpanded property to **false** leaving, as mentioned above, the RadGrid.GridTableView/GridTableView.AllowFilteringByColumn property to **true**.
 
 For more information on RadGrid header filtering menu, refer to [this blog post](http://blogs.telerik.com/tsvetoslavkovachev/posts/10-02-08/new_filtering_menu_for_radgrid_for_asp_net_ajax.aspx) and see the live example [here](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/HeaderContextFilterMenu/defaultcs.aspx).
 
 ## Using HeaderContextMenu for showing column aggregates
 
-From Q3 2010 on, RadGrid also enables showing column aggregates by using the HeaderContextMenu. You can turn the Aggregates submenu on and off by using the __RadGrid.EnableHeaderContextAggregatesMenu / GridTableView.RadGrid.EnableHeaderContextAggregatesMenu__ property. This would be meaningful only if __RadGrid.EnableHeaderContextMenu / GridTableView.EnableHeaderContextMenu__ is set to __true__.
+From Q3 2010 on, RadGrid also enables showing column aggregates by using the HeaderContextMenu. You can turn the Aggregates submenu on and off by using the **RadGrid.EnableHeaderContextAggregatesMenu / GridTableView.RadGrid.EnableHeaderContextAggregatesMenu** property. This would be meaningful only if **RadGrid.EnableHeaderContextMenu / GridTableView.EnableHeaderContextMenu** is set to **true**.
 
 The Aggregates menu will show the applicable aggregates for the current column, thus offering the user a choice which one to view. Apart from the ready to use aggregates, the menu also exposes an option for a custom one, which can be handled manually. You can declare your own aggregates in the column definitions and yet use the HeaderContextAggregatesMenu, as it will overwrite the aggregate shown in the footer.
 
@@ -226,7 +226,7 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 ````
 
 
-Note that in order to be able to show the aggregates, you need to have __ShowFooter__ property of RadGrid / the respective GridTableView, or __ShowGroupFooter__ (when grouping is enabled)set to __true__.
+Note that in order to be able to show the aggregates, you need to have **ShowFooter** property of RadGrid / the respective GridTableView, or **ShowGroupFooter** (when grouping is enabled)set to **true**.
 
 ## Add items to HeaderContextMenu in order to set DataFormatString for the columns
 
@@ -263,7 +263,7 @@ Here is a code snippet illustrating the approach depicted above:
 ````
 
 
-As you may noticed from this point you need to assign the correct values for the newly added attributes. This is done with the __BuildColumnsMenu() method.__ Below is a code excerpt which demonstrates how to do that:
+As you may noticed from this point you need to assign the correct values for the newly added attributes. This is done with the **BuildColumnsMenu() method.** Below is a code excerpt which demonstrates how to do that:
 
 
 

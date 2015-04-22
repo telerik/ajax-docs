@@ -1,6 +1,6 @@
 ---
 title: OnCellSelected
-page_title: OnCellSelected | UI for ASP.NET AJAX Documentation
+page_title: OnCellSelected | RadGrid for ASP.NET AJAX Documentation
 description: OnCellSelected
 slug: grid/client-side-programming/events/events/oncellselected
 tags: oncellselected
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridColumnEventArgs OnCellSelected Property
 This event is fired after a cell is selected.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __cellIndexHierarchical__ - returns the hierarchical index of the cell __column__ - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __gridDataItem__ - returns a reference to the corresponding GridDataItem object __row__ - returns a reference to the correspong table row element __tableView__ - returns a reference to the corresponding GridTableView object __cancel__ - gets or sets the canceled status of the event|
-| __Can be canceled__ |No|
+| **Arguments** | **cellIndexHierarchical** - returns the hierarchical index of the cell **column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **gridDataItem** - returns a reference to the corresponding GridDataItem object **row** - returns a reference to the correspong table row element **tableView** - returns a reference to the corresponding GridTableView object **cancel** - gets or sets the canceled status of the event|
+| **Can be canceled** |No|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: AJAX-enabled Context Menu
-page_title: AJAX-enabled Context Menu | UI for ASP.NET AJAX Documentation
+page_title: AJAX-enabled Context Menu | RadGrid for ASP.NET AJAX Documentation
 description: AJAX-enabled Context Menu
 slug: grid/application-scenarios/ajax-enabled-context-menu
 tags: ajax-enabled,context,menu
@@ -16,9 +16,9 @@ position: 4
 
 In numerous cases you may want to display a context menu when right-clicking an arbitrary row in RadGrid. Through a command from that context menu you may want to change the state for the grid row (for example edit/delete/add record). Furthermore, you may prefer the operation with asynchronous request instead of postback.
 
-The seamless integration between __RadContextMenu__, __RadAjax__ and __RadGrid__ makes this task very easy to be accomplished. Our grid control exposes __OnRowContextMenu__ client event which can be handled to select the right-clicked record in the grid to mark it as active for the current action. In order to determine the index of the clicked row on the server, use a hidden field on the page to store its value client side and then operate with it on form submit (in the __ItemClick__ event handler of RadMenu). Inside the handler perform the corresponding task chosen by the user to modify the item state.
+The seamless integration between **RadContextMenu**, **RadAjax** and **RadGrid** makes this task very easy to be accomplished. Our grid control exposes **OnRowContextMenu** client event which can be handled to select the right-clicked record in the grid to mark it as active for the current action. In order to determine the index of the clicked row on the server, use a hidden field on the page to store its value client side and then operate with it on form submit (in the **ItemClick** event handler of RadMenu). Inside the handler perform the corresponding task chosen by the user to modify the item state.
 
-To associate the context menu with the grid instance, attach the __OnRowContextMenu__ client event of RadGrid, get reference to the context menu object client-side and invoke its __show__ method (passing the browser's event argument as parameter).
+To associate the context menu with the grid instance, attach the **OnRowContextMenu** client event of RadGrid, get reference to the context menu object client-side and invoke its **show** method (passing the browser's event argument as parameter).
 
 Finally, configure the ajax manager settings in order to refresh the grid and the menu in a codeless manner.
 

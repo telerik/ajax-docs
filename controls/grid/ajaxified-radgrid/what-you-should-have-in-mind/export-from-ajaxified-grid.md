@@ -1,6 +1,6 @@
 ---
 title: Export from Ajaxified Grid
-page_title: Export from Ajaxified Grid | UI for ASP.NET AJAX Documentation
+page_title: Export from Ajaxified Grid | RadGrid for ASP.NET AJAX Documentation
 description: Export from Ajaxified Grid
 slug: grid/ajaxified-radgrid/what-you-should-have-in-mind/export-from-ajaxified-grid
 tags: export,from,ajaxified,grid
@@ -33,17 +33,17 @@ When you are exporting from a built-in export button in a CommandItem, you need 
 
 
 
-* __ExportToExcelButton__
+* **ExportToExcelButton**
 
-* __ExportToWordButton__
+* **ExportToWordButton**
 
-* __ExportToPdfButton__
+* **ExportToPdfButton**
 
-* __ExportToCsvButton__
+* **ExportToCsvButton**
 
 
 
-In case you export from a *Button* that is nested in __MS AJAX UpdatePanel__, you should set this control as *PostBackTrigger*:
+In case you export from a *Button* that is nested in **MS AJAX UpdatePanel**, you should set this control as *PostBackTrigger*:
 
 ````ASPNET
 	  <triggers>         

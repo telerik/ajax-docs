@@ -1,6 +1,6 @@
 ---
 title: get_isInEditMode()
-page_title: get_isInEditMode() | UI for ASP.NET AJAX Documentation
+page_title: get_isInEditMode() | RadGrid for ASP.NET AJAX Documentation
 description: get_isInEditMode()
 slug: grid/client-side-programming/griddataitem-object/properties/get_isineditmode()
 tags: get_isineditmode()
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-Returns a __Boolean__ value, indicating whether the GridDataItem is in edit mode or not. Can be used to create a condition to execute script logic depending on the item status.
+Returns a **Boolean** value, indicating whether the GridDataItem is in edit mode or not. Can be used to create a condition to execute script logic depending on the item status.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

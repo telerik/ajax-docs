@@ -1,6 +1,6 @@
 ---
 title: Creating Hierarchical Grids from Design-Time
-page_title: Creating Hierarchical Grids from Design-Time | UI for ASP.NET AJAX Documentation
+page_title: Creating Hierarchical Grids from Design-Time | RadGrid for ASP.NET AJAX Documentation
 description: Creating Hierarchical Grids from Design-Time
 slug: grid/design-time-/creating-hierarchical-grids-from-design-time
 tags: creating,hierarchical,grids,from,design-time
@@ -22,7 +22,7 @@ Then you will need to set the DataSource for the newly created detail table and 
 
 ## Data binding DetailTable
 
-In order to data bind a detail table, you need to go to the TableView setting property page and there set the __DataMember__ and __DataKeyNames__ properties. These are drop-down lists and depend on how you have set your data source. The DataKeyNames property will be used for setting the proper relation to the child table of the current table.
+In order to data bind a detail table, you need to go to the TableView setting property page and there set the **DataMember** and **DataKeyNames** properties. These are drop-down lists and depend on how you have set your data source. The DataKeyNames property will be used for setting the proper relation to the child table of the current table.
 
 ## Setting Table Relations
 

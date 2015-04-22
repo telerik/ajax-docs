@@ -1,6 +1,6 @@
 ---
 title: Multi-Column Sorting
-page_title: Multi-Column Sorting | UI for ASP.NET AJAX Documentation
+page_title: Multi-Column Sorting | RadGrid for ASP.NET AJAX Documentation
 description: Multi-Column Sorting
 slug: grid/functionality/sorting/multi-column-sorting
 tags: multi-column,sorting
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-If a __GridTableView__ object's __AllowMultiColumnSorting__ property is set to __True__, more than one column sort expression can be added to the table view. The sort order is the same as the sequence of expressions in the __GridTableView.SortExpressions__ collection.
+If a **GridTableView** object's **AllowMultiColumnSorting** property is set to **True**, more than one column sort expression can be added to the table view. The sort order is the same as the sequence of expressions in the **GridTableView.SortExpressions** collection.
 
 In the example below, the grid sorted is by Country ascending and then by City descending:
 

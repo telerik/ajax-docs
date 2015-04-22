@@ -1,6 +1,6 @@
 ---
 title: Binding to an ArrayList
-page_title: Binding to an ArrayList | UI for ASP.NET AJAX Documentation
+page_title: Binding to an ArrayList | RadGrid for ASP.NET AJAX Documentation
 description: Binding to an ArrayList
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist
 tags: binding,to,an,arraylist
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-You can use a wide variety of custom objects as data sources for __RadGrid__. The only requirement is that the custom objects must implement the __ITypedList__, __IEnumarable__, or __ICustomTypeDescriptor__ interface. The example below demonstrates how to use one of these (__ArrayList__) to provide the structure of a __RadGrid__ control:
+You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumarable**, or **ICustomTypeDescriptor** interface. The example below demonstrates how to use one of these (**ArrayList**) to provide the structure of a **RadGrid** control:
 
 
 

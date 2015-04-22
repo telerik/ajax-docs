@@ -1,6 +1,6 @@
 ---
 title: OnFilterMenuShowing
-page_title: OnFilterMenuShowing | UI for ASP.NET AJAX Documentation
+page_title: OnFilterMenuShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnFilterMenuShowing
 slug: grid/client-side-programming/events/events/onfiltermenushowing
 tags: onfiltermenushowing
@@ -17,10 +17,10 @@ position: 31
 This event is fired before the filtering menu is rendered.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __menu__ - filtering menu instance __tableView__ - filtering menu instance __gridColumn__ - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - the original browser event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **menu** - filtering menu instance **tableView** - filtering menu instance **gridColumn** - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - the original browser event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: Cascading Delete in Hierarchical Grid
-page_title: Cascading Delete in Hierarchical Grid | UI for ASP.NET AJAX Documentation
+page_title: Cascading Delete in Hierarchical Grid | RadGrid for ASP.NET AJAX Documentation
 description: Cascading Delete in Hierarchical Grid
 slug: grid/data-editing/delete-records/cascading-delete-in-hierarchical-grid
 tags: cascading,delete,in,hierarchical,grid
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-There are cases when you want to delete an item in table in the grid hierarchy which has child table. A good implementation technique would be to delete all records in the child table related to the deleted item. By this means you can erase the information from the inner table which is no longer needed (after you delete the parent item). This technique is called __cascade delete__.This feature is not built in Telerik RadGrid but you can execute the necessary operations with a custom code. Here is a sample case which demonstrates how to delete items from master/detail tables and how to iterate through the detail table items for __expanded__parent item:
+There are cases when you want to delete an item in table in the grid hierarchy which has child table. A good implementation technique would be to delete all records in the child table related to the deleted item. By this means you can erase the information from the inner table which is no longer needed (after you delete the parent item). This technique is called **cascade delete**.This feature is not built in Telerik RadGrid but you can execute the necessary operations with a custom code. Here is a sample case which demonstrates how to delete items from master/detail tables and how to iterate through the detail table items for **expanded**parent item:
 
 ````ASPNET
 	<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" CssClass="RadGrid"
@@ -73,7 +73,7 @@ There are cases when you want to delete an item in table in the grid hierarchy w
 
 
 
-And in the code-behind:____
+And in the code-behind:
 
 ````C#
 	    protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)

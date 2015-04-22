@@ -1,6 +1,6 @@
 ---
 title: Customizing Row Appearance
-page_title: Customizing Row Appearance | UI for ASP.NET AJAX Documentation
+page_title: Customizing Row Appearance | RadGrid for ASP.NET AJAX Documentation
 description: Customizing Row Appearance
 slug: grid/appearance-and-styling/customizing-row-appearance
 tags: customizing,row,appearance
@@ -22,13 +22,13 @@ These are the odd rows of the grid (rows 1 and 3 on the picture below).The appea
 
 ## Alternating Item
 
-These are the even rows of the grid (rows 2 and 4 on the picture below).The appearance of the alternating rows is controlled by the __AlternatingItemStyle__ property.
+These are the even rows of the grid (rows 2 and 4 on the picture below).The appearance of the alternating rows is controlled by the **AlternatingItemStyle** property.
 
 ![Normal and Alternating rows](images/grd_normal_alternating_styles.png)
 
 You can set the appearance of the normal and alternating rows programmatically or in the grid declaration:
 
-__Example:__
+**Example:**
 
 
 
@@ -51,7 +51,7 @@ __Example:__
 
 ## Selected Item
 
-You can customize the appearance of the selected row, using the __SelectedItemStyle__ property:
+You can customize the appearance of the selected row, using the **SelectedItemStyle** property:
 
 ````ASPNET
 	<style type="text/css">
@@ -93,7 +93,7 @@ You can customize the appearance of the selected row, using the __SelectedItemSt
 
 ## Edit Item
 
-You can customize the appearance of the selected row, using the __EditItemStyle__ property:
+You can customize the appearance of the selected row, using the **EditItemStyle** property:
 
 ````ASPNET
 	        <style type="text/css">

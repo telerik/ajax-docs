@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls
-page_title: Accessing Controls | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls | RadGrid for ASP.NET AJAX Documentation
 description: Accessing Controls
 slug: grid/mobile-support/mobile-rendering/accessing-controls
 tags: accessing,controls
@@ -12,15 +12,15 @@ position: 7
 
 
 
-With "__Mobile__" __RenderMode__ you can access controlsin the same manner as with the other rendering mode with only few specific to themobile rendering scenarios. One difference that you should consider is that thecontrols type is different from the other render modes.
+With "**Mobile**" **RenderMode** you can access controlsin the same manner as with the other rendering mode with only few specific to themobile rendering scenarios. One difference that you should consider is that thecontrols type is different from the other render modes.
 
 ## Accessing column editors in PopUp edit mode
 
 With the default setting of the mobile rendering, all columns will render native controlsand you should have that in mind when you try to get reference to column editors.
 
-With edit modes __EditForms__, __InPlace__ and __Batch__,getting reference to column editors is exactly the same as with the other render modes, but a major difference is introduced in __PopUp__ edit mode. The mobile __PopUp__ editing introducesnew edit menu, which renders a completely different layout and controls structure.
+With edit modes **EditForms**, **InPlace** and **Batch**,getting reference to column editors is exactly the same as with the other render modes, but a major difference is introduced in **PopUp** edit mode. The mobile **PopUp** editing introducesnew edit menu, which renders a completely different layout and controls structure.
 
-The following examples demonstrate how to get reference to __native__ column editors in __PopUp__ edit mode and native controls:
+The following examples demonstrate how to get reference to **native** column editors in **PopUp** edit mode and native controls:
 
 ````ASPNET
 	
@@ -101,7 +101,7 @@ The following examples demonstrate how to get reference to __native__ column edi
 ````
 
 
-When you want to render the standard editors for a column and you are setting the	__UseNativeEditorsInMobileMode__ property of a __GridEditableColumn__to "__false__", each column from the above example will render editors	corresponding to the column type (*for example, the GridNumericColumn will have a RadNumericTextBox as an editor, the GridDateTimeColumn will have RadDatePicker, etc.*).
+When you want to render the standard editors for a column and you are setting the	**UseNativeEditorsInMobileMode** property of a **GridEditableColumn**to "**false**", each column from the above example will render editors	corresponding to the column type (*for example, the GridNumericColumn will have a RadNumericTextBox as an editor, the GridDateTimeColumn will have RadDatePicker, etc.*).
 
 # See Also
 

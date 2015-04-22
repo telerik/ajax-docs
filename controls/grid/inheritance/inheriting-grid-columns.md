@@ -1,6 +1,6 @@
 ---
 title: Inheriting Grid Columns
-page_title: Inheriting Grid Columns | UI for ASP.NET AJAX Documentation
+page_title: Inheriting Grid Columns | RadGrid for ASP.NET AJAX Documentation
 description: Inheriting Grid Columns
 slug: grid/inheritance/inheriting-grid-columns
 tags: inheriting,grid,columns
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-In some scenarios you may want to extend the default functionality of __GridColumn__ (including additional properties for it, embedding extra controls in its cells, etc.). The proper way to accomplish this task is by inheriting the corresponding default __GridColumn__ class (in your own class) and overriding the __InitializeCell(cell, columnIndex,gridItem)__ method of that class. Thus you can reuse the custom configuration of your choice in all your grid instances in your application.The example below shows a basic approach how to redefine the object model for GridBoundColumn:
+In some scenarios you may want to extend the default functionality of **GridColumn** (including additional properties for it, embedding extra controls in its cells, etc.). The proper way to accomplish this task is by inheriting the corresponding default **GridColumn** class (in your own class) and overriding the **InitializeCell(cell, columnIndex,gridItem)** method of that class. Thus you can reuse the custom configuration of your choice in all your grid instances in your application.The example below shows a basic approach how to redefine the object model for GridBoundColumn:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Filter Template
-page_title: Filter Template | UI for ASP.NET AJAX Documentation
+page_title: Filter Template | RadGrid for ASP.NET AJAX Documentation
 description: Filter Template
 slug: grid/functionality/filtering/filter-template
 tags: filter,template

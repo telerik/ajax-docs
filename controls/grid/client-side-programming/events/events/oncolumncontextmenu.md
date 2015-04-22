@@ -1,6 +1,6 @@
 ---
 title: OnColumnContextMenu
-page_title: OnColumnContextMenu | UI for ASP.NET AJAX Documentation
+page_title: OnColumnContextMenu | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnContextMenu
 slug: grid/client-side-programming/events/events/oncolumncontextmenu
 tags: oncolumncontextmenu
@@ -25,10 +25,10 @@ This event is fired when the user right-clicks arbitrary column header.
 
 >caption  
 
-|  __Fired by__  | Telerik.Web.UI.RadGrid |
+|  **Fired by**  | Telerik.Web.UI.RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - returns the DOM event that was raised for the current event|
-| __Can be canceled__ |No|
+| **Arguments** | **gridColumn** - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - returns the DOM event that was raised for the current event|
+| **Can be canceled** |No|
 
 Example:
 

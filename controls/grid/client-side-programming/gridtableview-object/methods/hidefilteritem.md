@@ -1,6 +1,6 @@
 ---
 title: hideFilterItem
-page_title: hideFilterItem | UI for ASP.NET AJAX Documentation
+page_title: hideFilterItem | RadGrid for ASP.NET AJAX Documentation
 description: hideFilterItem
 slug: grid/client-side-programming/gridtableview-object/methods/hidefilteritem
 tags: hidefilteritem
@@ -17,7 +17,7 @@ position: 29
 Hides the filtering item in the respective GridTableView.
 
 
-|  __hideFilterItem()__  |
+|  **hideFilterItem()**  |
 | ------ |
 ||
 

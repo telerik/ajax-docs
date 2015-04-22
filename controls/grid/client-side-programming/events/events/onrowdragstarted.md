@@ -1,6 +1,6 @@
 ---
 title: OnRowDragStarted
-page_title: OnRowDragStarted | UI for ASP.NET AJAX Documentation
+page_title: OnRowDragStarted | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDragStarted
 slug: grid/client-side-programming/events/events/onrowdragstarted
 tags: onrowdragstarted
@@ -20,13 +20,13 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnRowDragStarted Property
 >
 
 
-This event can be intercepted if you want to perform some conditional check and determine whether to cancel the drag operation or not. The row which is about to be dragged can be accessed through the __get_gridDataItem()__ property of the second argument passed in the OnRowDragStarted handler.
+This event can be intercepted if you want to perform some conditional check and determine whether to cancel the drag operation or not. The row which is about to be dragged can be accessed through the **get_gridDataItem()** property of the second argument passed in the OnRowDragStarted handler.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridDataItem__ - the GridDataItem which is about to be dragged - will be null if the data items have not been instantiated beforehand (see below) __domEvent__ - dom event __id__ - ClientID of the grid data item - use it to obtain a reference to the gridDataItem object with $find(), if get_gridDataItem() is null __itemIndexHierarchical__ - the hierarchical index of the data item __tableView__ - the tableview object, to which the data item belongs __args.getDataKeyValue(columnName)__ - method that returns the data key value for the given data item - the columnName must be specified in the MasterTableView's ClientDataKeyNames property|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **gridDataItem** - the GridDataItem which is about to be dragged - will be null if the data items have not been instantiated beforehand (see below) **domEvent** - dom event **id** - ClientID of the grid data item - use it to obtain a reference to the gridDataItem object with $find(), if get_gridDataItem() is null **itemIndexHierarchical** - the hierarchical index of the data item **tableView** - the tableview object, to which the data item belongs **args.getDataKeyValue(columnName)** - method that returns the data key value for the given data item - the columnName must be specified in the MasterTableView's ClientDataKeyNames property|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

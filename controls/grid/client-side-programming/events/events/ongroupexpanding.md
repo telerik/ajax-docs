@@ -1,6 +1,6 @@
 ---
 title: OnGroupExpanding
-page_title: OnGroupExpanding | UI for ASP.NET AJAX Documentation
+page_title: OnGroupExpanding | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupExpanding
 slug: grid/client-side-programming/events/events/ongroupexpanding
 tags: ongroupexpanding
@@ -23,10 +23,10 @@ Sys.CancelEventArgs OnGroupExpanding Property
 This event is fired before a row is shown.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** |N/A|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

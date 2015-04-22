@@ -1,6 +1,6 @@
 ---
 title: OnColumnShowing
-page_title: OnColumnShowing | UI for ASP.NET AJAX Documentation
+page_title: OnColumnShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnShowing
 slug: grid/client-side-programming/events/events/oncolumnshowing
 tags: oncolumnshowing
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridColumnEventArgs OnColumnShowing Property
 This event is fired before a column is shown.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - returns the DOM event that was raised for the current event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **gridColumn** - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - returns the DOM event that was raised for the current event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: get_selectedItems()
-page_title: get_selectedItems() | UI for ASP.NET AJAX Documentation
+page_title: get_selectedItems() | RadGrid for ASP.NET AJAX Documentation
 description: get_selectedItems()
 slug: grid/client-side-programming/gridtableview-object/properties/get_selecteditems()
 tags: get_selecteditems()

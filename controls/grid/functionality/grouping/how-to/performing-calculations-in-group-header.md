@@ -1,6 +1,6 @@
 ---
 title: Performing Calculations in Group Header
-page_title: Performing Calculations in Group Header | UI for ASP.NET AJAX Documentation
+page_title: Performing Calculations in Group Header | RadGrid for ASP.NET AJAX Documentation
 description: Performing Calculations in Group Header
 slug: grid/functionality/grouping/how-to/performing-calculations-in-group-header
 tags: performing,calculations,in,group,header
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-Although you can add aggregations to group expressions so that the group headers in __RadGrid__ display aggregated values, there may be times when you want to display other calculated values that are not included in the standard aggregations. You can use the __ItemDataBound__ event to calculate your own values and add them to the group headers.
+Although you can add aggregations to group expressions so that the group headers in **RadGrid** display aggregated values, there may be times when you want to display other calculated values that are not included in the standard aggregations. You can use the **ItemDataBound** event to calculate your own values and add them to the group headers.
 
-The following example illustrates how this is done. It uses the "Sum" and "Count" aggregated values to calculate an average and adds this calculated value to the __DataCell.Text__ property of the grid header item:
+The following example illustrates how this is done. It uses the "Sum" and "Count" aggregated values to calculate an average and adds this calculated value to the **DataCell.Text** property of the grid header item:
 
 
 

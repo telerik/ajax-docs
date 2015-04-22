@@ -1,6 +1,6 @@
 ---
 title: Adding Sort and Filter Expressions with Client-side Binding
-page_title: Adding Sort and Filter Expressions with Client-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Adding Sort and Filter Expressions with Client-side Binding | RadGrid for ASP.NET AJAX Documentation
 description: Adding Sort and Filter Expressions with Client-side Binding
 slug: grid/data-binding/understanding-data-binding/client-side-binding/adding-sort-and-filter-expressions-with-client-side-binding
 tags: adding,sort,and,filter,expressions,with,client-side,binding
@@ -56,7 +56,7 @@ To add a new filter expression to your client-side bound grid, one should call t
 
 ## Add default sort and filter expressions
 
-Then if you want to have your client-side bound grid sorted and filtered by default, handle its __OnGridCreated__ client-side event and there call the above functions.
+Then if you want to have your client-side bound grid sorted and filtered by default, handle its **OnGridCreated** client-side event and there call the above functions.
 
 ````JavaScript
 	    <script type="text/javascript">

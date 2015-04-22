@@ -1,6 +1,6 @@
 ---
 title: Setting Edit Permissions
-page_title: Setting Edit Permissions | UI for ASP.NET AJAX Documentation
+page_title: Setting Edit Permissions | RadGrid for ASP.NET AJAX Documentation
 description: Setting Edit Permissions
 slug: grid/data-editing/how-to/setting-edit-permissions
 tags: setting,edit,permissions
@@ -14,9 +14,9 @@ position: 14
 
 ## 
 
-When a user log in you may want to set permissions for editing grid items depending on the security settings for the corresponding account. For this purpose you can create an extra boolean column in the grid data source which reflects the permission status for the logged user (we can call it __permission column__). Then in the __ItemDataBound__ event of Telerik RadGrid you can traverse all __GridDataItems__, check the value of the permission column (__true__ or __false__) and __enable/disable__ the [Edit] button for the currently bound grid item to allow/prevent the edit operation for it.
+When a user log in you may want to set permissions for editing grid items depending on the security settings for the corresponding account. For this purpose you can create an extra boolean column in the grid data source which reflects the permission status for the logged user (we can call it **permission column**). Then in the **ItemDataBound** event of Telerik RadGrid you can traverse all **GridDataItems**, check the value of the permission column (**true** or **false**) and **enable/disable** the [Edit] button for the currently bound grid item to allow/prevent the edit operation for it.
 
-In the example below we assume that the __Bool__ column in the grid data source is our permission column. Note that you can hide the column if you wish by setting its __Display__ property to __false__:
+In the example below we assume that the **Bool** column in the grid data source is our permission column. Note that you can hide the column if you wish by setting its **Display** property to **false**:
 
 
 

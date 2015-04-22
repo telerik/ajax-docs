@@ -1,6 +1,6 @@
 ---
 title: groupColumn
-page_title: groupColumn | UI for ASP.NET AJAX Documentation
+page_title: groupColumn | RadGrid for ASP.NET AJAX Documentation
 description: groupColumn
 slug: grid/client-side-programming/gridtableview-object/methods/groupcolumn
 tags: groupcolumn
@@ -17,9 +17,9 @@ position: 27
 Method which groups the grid by the column with UniqueName specified as an argument. All server grouping capabilities of RadGrid are applicable for this case as well.
 
 
-|  __groupColumn(colUniqueName)__  |  |  |
+|  **groupColumn(colUniqueName)**  |  |  |
 | ------ | ------ | ------ |
-| __colUniqueName__ |String|The UniqueName of the column that will be grouped.|
+| **colUniqueName** |String|The UniqueName of the column that will be grouped.|
 
 Example:
 

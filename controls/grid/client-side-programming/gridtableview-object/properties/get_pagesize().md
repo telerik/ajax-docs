@@ -1,6 +1,6 @@
 ---
 title: get_pageSize()
-page_title: get_pageSize() | UI for ASP.NET AJAX Documentation
+page_title: get_pageSize() | RadGrid for ASP.NET AJAX Documentation
 description: get_pageSize()
 slug: grid/client-side-programming/gridtableview-object/properties/get_pagesize()
 tags: get_pagesize()
@@ -14,7 +14,7 @@ position: 15
 
 ## 
 
-Returns the page size for the respective __GridTableView__ object. You should keep in mind that itindicates how many records a full page contains, not the current records count. For example, the last page of the grid usually contains less records than the standard page size. In this case, the exact count of the records can be obtained fromthe length of the [dataItems collection]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%}).
+Returns the page size for the respective **GridTableView** object. You should keep in mind that itindicates how many records a full page contains, not the current records count. For example, the last page of the grid usually contains less records than the standard page size. In this case, the exact count of the records can be obtained fromthe length of the [dataItems collection]({%slug grid/client-side-programming/gridtableview-object/properties/get_dataitems()%}).
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

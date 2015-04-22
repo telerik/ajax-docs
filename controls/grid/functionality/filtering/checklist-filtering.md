@@ -1,6 +1,6 @@
 ---
 title: CheckList Filtering
-page_title: CheckList Filtering | UI for ASP.NET AJAX Documentation
+page_title: CheckList Filtering | RadGrid for ASP.NET AJAX Documentation
 description: CheckList Filtering
 slug: grid/functionality/filtering/checklist-filtering
 tags: checklist,filtering
@@ -14,15 +14,15 @@ position: 6
 
 ## CheckList Filtering
 
-Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should set the __FilterType__ property of RadGrid to either__CheckList__ or __Combined__.
+Apart from the default filtering that RadGrid supports, since Q3 2013 there is a support for filtering based on multiple selected values from a list. In order to enable this type of filtering you should set the **FilterType** property of RadGrid to either**CheckList** or **Combined**.
 
->note Note that the __CheckList filtering__ functionality works properly only for filterable type of columns or in other words such that implements the __IGridDataColumn__ interface.In short the functionality columns ( __Expand__ , __RowIndicator__ , __Button__ , __EditCommand__ , __DragDrop__ , and __Splitter__ ) are not implementing this interface; therefore they could not be filtered.
+>note Note that the **CheckList filtering** functionality works properly only for filterable type of columns or in other words such that implements the **IGridDataColumn** interface.In short the functionality columns ( **Expand** , **RowIndicator** , **Button** , **EditCommand** , **DragDrop** , and **Splitter** ) are not implementing this interface; therefore they could not be filtered.
 >
 
 
 In this mode when you click the filter menu icon a ListBox control with predefined values is displayed:![grid-checklisti-filtering-1](images/grid-checklisti-filtering-1.png)
 
-When you set the __FilterType__ property to __Combined__ mode the best from both worlds is avaialable:
+When you set the **FilterType** property to **Combined** mode the best from both worlds is avaialable:
 
 >note Please note that filtering functionality is not supported when using simple	databinding(calling DataBind() method of RadGrid).
 >
@@ -30,7 +30,7 @@ When you set the __FilterType__ property to __Combined__ mode the best from both
 
 To specify what values will be displayed in the ListBox control you need to define its	datasource. You could implement this using two appraoches:
 
-1. Using the newly exposed “__RadGrid1_FilterCheckListItemsRequested__” event. This way the ListBox control rendered in the filter template will be automatically populated. (See Ex.1)__Ex.1__
+1. Using the newly exposed “**RadGrid1_FilterCheckListItemsRequested**” event. This way the ListBox control rendered in the filter template will be automatically populated. (See Ex.1)**Ex.1**
 
 
 
@@ -132,7 +132,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 ````
 
 
-1. By providing a path to a __web service__ which will provide the data.You specify the path using the __CheckListWebServicePath__ property of RadGrid.	Beside that you may need to set the name of the method that will provide the actual data	to the ListBox control using the __FilterCheckListWebServiceMethod__ property if	you have more than one method defined in your web service.(See Ex.2)__Ex.2__
+1. By providing a path to a **web service** which will provide the data.You specify the path using the **CheckListWebServicePath** property of RadGrid.	Beside that you may need to set the name of the method that will provide the actual data	to the ListBox control using the **FilterCheckListWebServiceMethod** property if	you have more than one method defined in your web service.(See Ex.2)**Ex.2**
 
 
 

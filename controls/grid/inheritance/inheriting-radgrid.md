@@ -1,6 +1,6 @@
 ---
 title: Inheriting RadGrid
-page_title: Inheriting RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Inheriting RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Inheriting RadGrid
 slug: grid/inheritance/inheriting-radgrid
 tags: inheriting,radgrid
@@ -14,23 +14,23 @@ position: 0
 
 ## 
 
-Let's say you have an assembly called __InheritedGrid.dll__ and the grid name is __InheritedGrid__. Furthermore, you have a __TagPrefix__ assembly attribute with value of __myRadG__. By this means VS designer will not have any problem recognizing the tag prefix when you drag and drop this control from the toolbox to the designer surface. Merely add the following line in the AssemblyInfo file in your application:
+Let's say you have an assembly called **InheritedGrid.dll** and the grid name is **InheritedGrid**. Furthermore, you have a **TagPrefix** assembly attribute with value of **myRadG**. By this means VS designer will not have any problem recognizing the tag prefix when you drag and drop this control from the toolbox to the designer surface. Merely add the following line in the AssemblyInfo file in your application:
 
-__[assembly: TagPrefix("MyBaseNamespace.MyControls","myRadG")]__
+**[assembly: TagPrefix("MyBaseNamespace.MyControls","myRadG")]**
 
 When you create applications with the inherited control version, you should have both of the following Register directives in the aspx of the page:
 
-__<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI"%><%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid"%>__
+**<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI"%><%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid"%>**
 
-The first one states that you will reference classes declared in the __Telerik.Web.UI__assembly. The second one is your assembly, where the inherited controls are.
+The first one states that you will reference classes declared in the **Telerik.Web.UI**assembly. The second one is your assembly, where the inherited controls are.
 
 Then you can add instances of your custom grid control on the page:
 
-__<mytelerik: InheritedGrid ... >__
+**<mytelerik: InheritedGrid ... >**
 
-__</mytelerik: InheritedGrid>__
+**</mytelerik: InheritedGrid>**
 
-But the __GridTableView__, __GridBoundColumn__ etc. classes are defined in the __Telerik.Web.UI__ assembly. That is why the declaration in your grid body should have the following syntax:
+But the **GridTableView**, **GridBoundColumn** etc. classes are defined in the **Telerik.Web.UI** assembly. That is why the declaration in your grid body should have the following syntax:
 
 ````ASPNET
 	<mytelerik:InheritedGrid ... >

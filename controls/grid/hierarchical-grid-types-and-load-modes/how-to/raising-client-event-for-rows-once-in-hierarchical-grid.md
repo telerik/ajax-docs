@@ -1,6 +1,6 @@
 ---
 title: Raising client event for rows once in hierarchical grid
-page_title: Raising client event for rows once in hierarchical grid | UI for ASP.NET AJAX Documentation
+page_title: Raising client event for rows once in hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Raising client event for rows once in hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/raising-client-event-for-rows-once-in-hierarchical-grid
 tags: raising,client,event,for,rows,once,in,hierarchical,grid
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-By default the client event bubbling mechanism of Telerik RadGrid will raise all row events once for the respective row in the grid hierarchy and once for each __NestedView__ which wraps the inner grid row. To prevent that from happening (if necessary), you can perform the following conditional check in the corresponding client event handler:
+By default the client event bubbling mechanism of Telerik RadGrid will raise all row events once for the respective row in the grid hierarchy and once for each **NestedView** which wraps the inner grid row. To prevent that from happening (if necessary), you can perform the following conditional check in the corresponding client event handler:
 
 ````JavaScript
 	    if (eventArgs.get_tableView().get_name() == "DetailTable") {
@@ -26,7 +26,7 @@ By default the client event bubbling mechanism of Telerik RadGrid will raise all
 
 
 
-In the next section you can find the code of a simple example which propagates the logic mentioned above hooking the __OnRowDblClick__ event of Telerik RadGrid (keep in mind that for performance reasons, the __RadGridTable.Rows__ collection is available __only__ when you enable specific client features/events for the rows in the grid (such __AllowRowResize__, __AllowRowSelect__, __OnRowClick,__ etc.)):
+In the next section you can find the code of a simple example which propagates the logic mentioned above hooking the **OnRowDblClick** event of Telerik RadGrid (keep in mind that for performance reasons, the **RadGridTable.Rows** collection is available **only** when you enable specific client features/events for the rows in the grid (such **AllowRowResize**, **AllowRowSelect**, **OnRowClick,** etc.)):
 
 ````ASPNET
 	  <script type="text/javascript">    

@@ -1,6 +1,6 @@
 ---
 title: Aligning Items in GroupHeader
-page_title: Aligning Items in GroupHeader | UI for ASP.NET AJAX Documentation
+page_title: Aligning Items in GroupHeader | RadGrid for ASP.NET AJAX Documentation
 description: Aligning Items in GroupHeader
 slug: grid/functionality/grouping/how-to/aligning-items-in-groupheader
 tags: aligning,items,in,groupheader

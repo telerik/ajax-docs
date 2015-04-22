@@ -1,6 +1,6 @@
 ---
 title: resizeColumn
-page_title: resizeColumn | UI for ASP.NET AJAX Documentation
+page_title: resizeColumn | RadGrid for ASP.NET AJAX Documentation
 description: resizeColumn
 slug: grid/client-side-programming/gridtableview-object/methods/resizecolumn
 tags: resizecolumn
@@ -14,7 +14,7 @@ position: 35
 
 ## 
 
-This method allows you to resize a column of the __RadGrid__. The method accepts two arguments - the first argument is the indexof the table column, while the second one determines the new width of the column. Additionally you have to enable the __AllowColumnResize__property. Generally used when there is a need to set a width of a column on the client.
+This method allows you to resize a column of the **RadGrid**. The method accepts two arguments - the first argument is the indexof the table column, while the second one determines the new width of the column. Additionally you have to enable the **AllowColumnResize**property. Generally used when there is a need to set a width of a column on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

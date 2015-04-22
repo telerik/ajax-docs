@@ -1,6 +1,6 @@
 ---
 title: get_resizable()
-page_title: get_resizable() | UI for ASP.NET AJAX Documentation
+page_title: get_resizable() | RadGrid for ASP.NET AJAX Documentation
 description: get_resizable()
 slug: grid/client-side-programming/gridcolumn-object/properties/get_resizable()
 tags: get_resizable()

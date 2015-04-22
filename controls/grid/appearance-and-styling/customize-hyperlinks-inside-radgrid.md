@@ -1,6 +1,6 @@
 ---
 title: Customize Hyperlinks inside RadGrid
-page_title: Customize Hyperlinks inside RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Customize Hyperlinks inside RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Customize Hyperlinks inside RadGrid
 slug: grid/appearance-and-styling/customize-hyperlinks-inside-radgrid
 tags: customize,hyperlinks,inside,radgrid
@@ -14,11 +14,11 @@ position: 8
 
 ## 
 
-You can use css style selectors to get the desired appearance. You need to define those css settings in separate classes and then assign them to the grid through the __CssClass__ property of the control.
+You can use css style selectors to get the desired appearance. You need to define those css settings in separate classes and then assign them to the grid through the **CssClass** property of the control.
 
-There are cases when one would like to have different visualization for the links in the grid, compared to the ones outside the grid. Below is an example code which will make the default color of the links in the __GridHyperLinkColumn__ to be brown. The links will turn orange and will have bigger font size on mouse hover or when visited.
+There are cases when one would like to have different visualization for the links in the grid, compared to the ones outside the grid. Below is an example code which will make the default color of the links in the **GridHyperLinkColumn** to be brown. The links will turn orange and will have bigger font size on mouse hover or when visited.
 
-There are two cases when you want to change the default color of links in __GridHyperLinkColumn__:
+There are two cases when you want to change the default color of links in **GridHyperLinkColumn**:
 
 * When RadGrid has set Skin property(built-in skin or a custom one) different than empty string(e.g. "").
 
@@ -70,7 +70,7 @@ There are two cases when you want to change the default color of links in __Grid
 
 
 
->note In this example we have used Default skin of RadGrid. In case you want to use different Skin, you should substitute __Default__ from __RadGrid_Default__ with the respective Skin name(e.g. RadGrid_[SkinName]).
+>note In this example we have used Default skin of RadGrid. In case you want to use different Skin, you should substitute **Default** from **RadGrid_Default** with the respective Skin name(e.g. RadGrid_[SkinName]).
 >
 
 

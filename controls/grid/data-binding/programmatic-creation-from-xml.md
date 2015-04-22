@@ -1,6 +1,6 @@
 ---
 title: Programmatic Creation from XML
-page_title: Programmatic Creation from XML | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Creation from XML | RadGrid for ASP.NET AJAX Documentation
 description: Programmatic Creation from XML
 slug: grid/data-binding/programmatic-creation-from-xml
 tags: programmatic,creation,from,xml
@@ -14,33 +14,33 @@ position: 4
 
 ## 
 
-You can load the structure of a __RadGrid__ control from a file containing its XML representation. This approach is useful when you want to load grid instances with equal predefined settings on different pages of your web site.
+You can load the structure of a **RadGrid** control from a file containing its XML representation. This approach is useful when you want to load grid instances with equal predefined settings on different pages of your web site.
 
 The following steps describe how to import the structure of a grid:
 
 1. Create an XSL file that contains the grid structure you want to import and a dummy XML file for receiving the grid structure.
 
-1. On the ASPX file for the Web page, add a __PlaceHolder__ control to receive the grid, plus any other elements you want (such as data source controls).
+1. On the ASPX file for the Web page, add a **PlaceHolder** control to receive the grid, plus any other elements you want (such as data source controls).
 
-1. In the __Page_Init__ event handler of your Web page
+1. In the **Page_Init** event handler of your Web page
 
-1. Load an __XPathDocument__ with the dummy XML file and an __XslCompiledTransform__ object with the XSL file you created.
+1. Load an **XPathDocument** with the dummy XML file and an **XslCompiledTransform** object with the XSL file you created.
 
-1. Create a __StringWriter__.
+1. Create a **StringWriter**.
 
-1. With the __XslCompiledTransform__ object, use the __StringWriter__ to transform the XSL definition to the XML file. This loads the transformed XML file into the __StringWriter__.
+1. With the **XslCompiledTransform** object, use the **StringWriter** to transform the XSL definition to the XML file. This loads the transformed XML file into the **StringWriter**.
 
-1. Create a __StringBuilder__ object, and initialize it with the "<%@ Register >" directive for the Telerik.Web.UI assembly.
+1. Create a **StringBuilder** object, and initialize it with the "<%@ Register >" directive for the Telerik.Web.UI assembly.
 
-1. Load the contents of the __StringWriter__ (the grid structure) into your __StringBuilder__ object.
+1. Load the contents of the **StringWriter** (the grid structure) into your **StringBuilder** object.
 
-1. Using the __StringBuilder__, remove theXML file header and xmlns string.
+1. Using the **StringBuilder**, remove theXML file header and xmlns string.
 
-1. Call __Page.ParseControl__, passing in the contents of the __StringBuilder__, to create an instance of the grid based on the structure that the __StringBuilder__ contains.
+1. Call **Page.ParseControl**, passing in the contents of the **StringBuilder**, to create an instance of the grid based on the structure that the **StringBuilder** contains.
 
-1. Add the grid instance to the __PlaceHolder__ control in the ASPX file for the Web page.
+1. Add the grid instance to the **PlaceHolder** control in the ASPX file for the Web page.
 
->note The grid should be loaded and added to the Web page in the __Page_Init__ event handler.
+>note The grid should be loaded and added to the Web page in the **Page_Init** event handler.
 >
 
 

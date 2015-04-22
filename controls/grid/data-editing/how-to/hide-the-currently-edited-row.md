@@ -1,6 +1,6 @@
 ---
 title: Hide the Currently Edited Row
-page_title: Hide the Currently Edited Row | UI for ASP.NET AJAX Documentation
+page_title: Hide the Currently Edited Row | RadGrid for ASP.NET AJAX Documentation
 description: Hide the Currently Edited Row
 slug: grid/data-editing/how-to/hide-the-currently-edited-row
 tags: hide,the,currently,edited,row
@@ -14,13 +14,13 @@ position: 6
 
 ## 
 
-When you use __EditForms__ edit mode you may prefer to hide the currently edited row (which by default is displayed above the edit form) and merely show that edit form. You can undertake this task by following the instructions below:
+When you use **EditForms** edit mode you may prefer to hide the currently edited row (which by default is displayed above the edit form) and merely show that edit form. You can undertake this task by following the instructions below:
 
-1. Subscribe to the __PreRender__ event of your grid instance
+1. Subscribe to the **PreRender** event of your grid instance
 
 1. Traverse the grid items and find the one that is currently in edit mode
 
-1. Set its __Visible__ property to __false__
+1. Set its **Visible** property to **false**
 
 
 

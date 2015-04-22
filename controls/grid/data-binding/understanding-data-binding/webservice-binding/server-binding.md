@@ -1,6 +1,6 @@
 ---
 title: Server Binding
-page_title: Server Binding | UI for ASP.NET AJAX Documentation
+page_title: Server Binding | RadGrid for ASP.NET AJAX Documentation
 description: Server Binding
 slug: grid/data-binding/understanding-data-binding/webservice-binding/server-binding
 tags: server,binding

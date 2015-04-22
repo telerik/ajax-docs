@@ -1,6 +1,6 @@
 ---
 title: ExcelML basics
-page_title: ExcelML basics | UI for ASP.NET AJAX Documentation
+page_title: ExcelML basics | RadGrid for ASP.NET AJAX Documentation
 description: ExcelML basics
 slug: grid/functionality/exporting/export-formats/excelml-export/excelml-basics
 tags: excelml,basics
@@ -14,15 +14,15 @@ position: 0
 
 ## Overview
 
-__ExcelML__ is __XML-based__ file format. It complies to the __Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx__ specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by __RadGrid__since its engine builds the output directly from the datasource and not from the page.
+**ExcelML** is **XML-based** file format. It complies to the **Microsoft XMLSShttp://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx** specification and is supported in *Microsoft Office 2003* and later. It is different from the rest of the export formats supported by **RadGrid**since its engine builds the output directly from the datasource and not from the page.
 
->note  __ExcelML__ format works best with *advanced data-binding* or *data source control.* You will receive " __NullReferenceException__ " if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
+>note  **ExcelML** format works best with *advanced data-binding* or *data source control.* You will receive " **NullReferenceException** " if you use *simple data-binding* and ! *IsPostBack* ( *Not IsPostBack* ) check.
 >
 
 
-There are two events, dedicated for the __ExcelML__ format: __ExcelMLExportRowCreated__ and __ExcelMLExportStylesCreated__.
+There are two events, dedicated for the **ExcelML** format: **ExcelMLExportRowCreated** and **ExcelMLExportStylesCreated**.
 
->caution It is expected to receive the following warning when opening the generated __xls__ file in __Microsoft Office 2007__ .
+>caution It is expected to receive the following warning when opening the generated **xls** file in **Microsoft Office 2007** .
 > *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?* 
 >
 ![](images/grd_excel_warning.png)
@@ -33,31 +33,31 @@ The cause of this warning message is explained in details in the following blog 
 
 [Grinn blog: "The file you are trying to open, '[filename]', is in a different format"](http://www.grinn.net/blog/dev/2008/06/file-you-are-trying-to-open-is-in.html)
 
->caution When exporting *arrays* , *ArrayList* , *custom objects* , *LinqDataSource* you should set __UseAllDataFields="true"__ in MasterTableView.
+>caution When exporting *arrays* , *ArrayList* , *custom objects* , *LinqDataSource* you should set **UseAllDataFields="true"** in MasterTableView.
 >
 
 
->caution It is mandatory to set the __ExportOnlyData__ property to true when using __ExcelML__ format. Otherwise, an exception will be thrown.
+>caution It is mandatory to set the **ExportOnlyData** property to true when using **ExcelML** format. Otherwise, an exception will be thrown.
 >
 
 
->note Due to limitation in the __ExcelML__ engine, when exporting __RadGrid__ with grouping, all groups will be expanded regardless of their actual state.
+>note Due to limitation in the **ExcelML** engine, when exporting **RadGrid** with grouping, all groups will be expanded regardless of their actual state.
 >
 
 
->note From Q2 2013 __ExcelML__ supports exporting of __GridHyperLinkColumn__ .It is important to know that when its *DataTextField* property is set, othercolumns bound to the same field are not exported. Also when *Text* property of the __GridHyperLinkColumn__ is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
+>note From Q2 2013 **ExcelML** supports exporting of **GridHyperLinkColumn** .It is important to know that when its *DataTextField* property is set, othercolumns bound to the same field are not exported. Also when *Text* property of the **GridHyperLinkColumn** is set and DataField is not defined, columns added to the *DataNavigateUrlFields* are not exported.
 >
 
 
 ## ExcelMLRowCreated
 
-This event is handy when the developer wants to modify the structure of the exported table or when assigning styles to grid table elements. It occurs when the __ExcelML__ engine creates a new row.
+This event is handy when the developer wants to modify the structure of the exported table or when assigning styles to grid table elements. It occurs when the **ExcelML** engine creates a new row.
 
 ## ExcelMLStylesCreated
 
-__RadGrid__ fires this event when creating the build-in styles. It could be used not only for modifying the predefined styles but also to define your own (already assigned to a grid table element on __ExcelMLExportRowCreated__) custom style.
+**RadGrid** fires this event when creating the build-in styles. It could be used not only for modifying the predefined styles but also to define your own (already assigned to a grid table element on **ExcelMLExportRowCreated**) custom style.
 
-You can access the styles' collection through the __Styles__ property (__GridExportExcelMLStyleCreatedArgs)__.
+You can access the styles' collection through the **Styles** property (**GridExportExcelMLStyleCreatedArgs)**.
 
 ## ExcelMLWorkbookCreated
 
@@ -69,17 +69,17 @@ This event triggers when the XMLSS structure is fully created. It could be usefu
 
 The ID's of the built-in styles are listed below:
 
-* __headerStyle__
+* **headerStyle**
 
-* __itemStyle__
+* **itemStyle**
 
-* __alternatingItemStyle__
+* **alternatingItemStyle**
 
-* __dateItemStyle__
+* **dateItemStyle**
 
-* __alternatingDateItemStyle__
+* **alternatingDateItemStyle**
 
-The following code-snippet modifies the default __itemStyle__/__alternatingItemStyle__:
+The following code-snippet modifies the default **itemStyle**/**alternatingItemStyle**:
 
 
 
@@ -119,7 +119,7 @@ The following code-snippet modifies the default __itemStyle__/__alternatingItemS
 
 ## Custom styles
 
-In order to define a custom style, you should assign it to the desired element (on __GridExportExcelMLRowCreated__) and then add the style to the collection on __GridExportExcelMLStyleCreated__ event.
+In order to define a custom style, you should assign it to the desired element (on **GridExportExcelMLRowCreated**) and then add the style to the collection on **GridExportExcelMLStyleCreated** event.
 
 
 
@@ -201,30 +201,30 @@ You add the symbols from the table below to data of the header / footer elements
 
 ## StyleElement object
 
-This object contains the whole information about a particular style. Fonts, colors, borders, number formats, cell alignment, etc could be applied by modifying the __StyleElement__.
+This object contains the whole information about a particular style. Fonts, colors, borders, number formats, cell alignment, etc could be applied by modifying the **StyleElement**.
 
 
 >caption  
 
-|  __Colors__  |  |
+|  **Colors**  |  |
 | ------ | ------ |
 |Text color|StyleElement.FontStyle.Color|
 |Cell background color|StyleElement.InteriorStyle.Color|
 |Cell background pattern|StyleElement.InteriorStyle.Pattern|
 |Border color|BorderStyles.Border|
 |||
-| __Alignment__ ||
+| **Alignment** ||
 |Horizontal alignment|StyleElement.AlignmentElement.HorizontalAlignment|
 |Vertical alignment|StyleElement.AlignmentElement.VerticalAlignment|
 |||
-| __Fonts__ ||
+| **Fonts** ||
 |Bold|StyleElement.FontStyle.Bold|
 |Italic|StyleElement.FontStyle.Italic|
 |Underline|StyleElement.FontStyle.Underline|
 |Font name|StyleElement.FontStyle.FontName|
 |Size|StyleElement.FontStyle.Size|
 |||
-| __Other__ ||
+| **Other** ||
 |Borders|StyleElement.Borders|
 |NumberFormat|StyleElement.NumberFormat|
 
@@ -250,7 +250,7 @@ In addition to the predefined formats,you could add your own custom formats.
 
 ## Borders
 
-Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) that contains the definition of each border. Border position should be specified using the __PositionType__ enumeration:
+Each **StyleElement** has a **Borders** property (**BorderStylesCollection**) that contains the definition of each border. Border position should be specified using the **PositionType** enumeration:
 
 
 >caption  
@@ -307,7 +307,7 @@ Each __StyleElement__ has a __Borders__ property (__BorderStylesCollection__) th
 
 ## Hiding columns
 
-You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
+You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
 
 
@@ -327,19 +327,19 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 ````
 
 
->note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
 ## Auto Filter
 
-__ExcelML__ is the only excel format which provides build in __auto filter__ functionality.To remove the filter controls from the header row set the Range property to empty string.(e.Worksheet.AutoFilter.Range = ""). By setting the range you could move the filter on a different place within the excel sheet.Only the data placed below the filtering dropdown menu will be included in the filter range. (Example: e.Worksheet.AutoFilter.Range = "R4C1: R4C5")
+**ExcelML** is the only excel format which provides build in **auto filter** functionality.To remove the filter controls from the header row set the Range property to empty string.(e.Worksheet.AutoFilter.Range = ""). By setting the range you could move the filter on a different place within the excel sheet.Only the data placed below the filtering dropdown menu will be included in the filter range. (Example: e.Worksheet.AutoFilter.Range = "R4C1: R4C5")
 
-Generally speaking, __R1C1__ notation is another way to create cell references which uses numbers for both the rows and columns.R1C1 stands for row index and column index number. This notation is only useful in RadGrid for setting the AutoFilter range.
+Generally speaking, **R1C1** notation is another way to create cell references which uses numbers for both the rows and columns.R1C1 stands for row index and column index number. This notation is only useful in RadGrid for setting the AutoFilter range.
 
 ## Cells Protection
 
-__ExcelML__ is one of the excel format which supports cells protection.When you enable the worksheet protection all the cells will be protected as the default state of the cells is “locked”.In order to unlock them you have to create a custom __StyleElement__ and set its __IsProtected__ property to __false__.Then you could apply this style to the cells which should be unlocked.
+**ExcelML** is one of the excel format which supports cells protection.When you enable the worksheet protection all the cells will be protected as the default state of the cells is “locked”.In order to unlock them you have to create a custom **StyleElement** and set its **IsProtected** property to **false**.Then you could apply this style to the cells which should be unlocked.
 
 The example below demonstrates how you could remove the protection on each second row:
 
@@ -393,7 +393,7 @@ The example below demonstrates how you could remove the protection on each secon
 
 ## Print option
 
-ExcelML export format provide two print options which allow you to modify the printed output. The first option is __FitHeight__	which specifies the maximum count of the pages in which the content is distributed to. Meaningful when FitToPage is *true*.The second one is __PaperSize__ which specifies the paper size in a value from the PaperKind enumeration.
+ExcelML export format provide two print options which allow you to modify the printed output. The first option is **FitHeight**	which specifies the maximum count of the pages in which the content is distributed to. Meaningful when FitToPage is *true*.The second one is **PaperSize** which specifies the paper size in a value from the PaperKind enumeration.
 
 The following code snippet demonstrates how to use them.
 

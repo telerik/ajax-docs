@@ -1,6 +1,6 @@
 ---
 title: OnTableCreating
-page_title: OnTableCreating | UI for ASP.NET AJAX Documentation
+page_title: OnTableCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnTableCreating
 slug: grid/client-side-programming/events/events/ontablecreating
 tags: ontablecreating
@@ -23,10 +23,10 @@ Sys.EventArgs OnTableCreating Property
 This event is fired before detail table creation.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

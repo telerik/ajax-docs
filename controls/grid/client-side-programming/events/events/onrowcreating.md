@@ -1,6 +1,6 @@
 ---
 title: OnRowCreating
-page_title: OnRowCreating | UI for ASP.NET AJAX Documentation
+page_title: OnRowCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnRowCreating
 slug: grid/client-side-programming/events/events/onrowcreating
 tags: onrowcreating
@@ -23,10 +23,10 @@ Sys.EventArgs OnRowCreating Property
 This event is fired before row available at client-side creation.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

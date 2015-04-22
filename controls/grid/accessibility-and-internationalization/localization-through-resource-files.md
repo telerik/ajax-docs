@@ -1,6 +1,6 @@
 ---
 title: Localization through Resource Files
-page_title: Localization through Resource Files | UI for ASP.NET AJAX Documentation
+page_title: Localization through Resource Files | RadGrid for ASP.NET AJAX Documentation
 description: Localization through Resource Files
 slug: grid/accessibility-and-internationalization/localization-through-resource-files
 tags: localization,through,resource,files
@@ -43,7 +43,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 
 
 
-2. Second, after you have a resource file ready, it is necessary to attach to the __ItemCreated__ event, and replace the text in a grid element with the one from the resource. This is shown in the code samples below:
+2. Second, after you have a resource file ready, it is necessary to attach to the **ItemCreated** event, and replace the text in a grid element with the one from the resource. This is shown in the code samples below:
 
 
 

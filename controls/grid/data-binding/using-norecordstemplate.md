@@ -1,6 +1,6 @@
 ---
 title: Using NoRecordsTemplate
-page_title: Using NoRecordsTemplate | UI for ASP.NET AJAX Documentation
+page_title: Using NoRecordsTemplate | RadGrid for ASP.NET AJAX Documentation
 description: Using NoRecordsTemplate
 slug: grid/data-binding/using-norecordstemplate
 tags: using,norecordstemplate
@@ -14,13 +14,13 @@ position: 3
 
 ## 
 
-Each __GridTableView__ has a property __NoRecordsTemplate__. This property defines a template that will be displayed if there are no records in the assigned __DataSource__.
+Each **GridTableView** has a property **NoRecordsTemplate**. This property defines a template that will be displayed if there are no records in the assigned **DataSource**.
 
-There are cases in which you may want to show an empty grid rather than this template. There is a boolean property __EnableNoRecordsTemplate__ which defines whether __GridTableView__ will use the defined __NoRecordsTemplate__ or not.
+There are cases in which you may want to show an empty grid rather than this template. There is a boolean property **EnableNoRecordsTemplate** which defines whether **GridTableView** will use the defined **NoRecordsTemplate** or not.
 
-The __NoRecordsTemplate__ should be populated for each detail table (in case of hierarchical grids) in the __DetailTableDataBind__ event.
+The **NoRecordsTemplate** should be populated for each detail table (in case of hierarchical grids) in the **DetailTableDataBind** event.
 
-You can control the visibility of thetable/NoRecordsTemplate controls by using corresponding Controls(0), Controls(1) of each __GridTableView__. This should happen after it was data-bound.
+You can control the visibility of thetable/NoRecordsTemplate controls by using corresponding Controls(0), Controls(1) of each **GridTableView**. This should happen after it was data-bound.
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -35,9 +35,9 @@ You can control the visibility of thetable/NoRecordsTemplate controls by using c
 
 
 
-__Define NoRecordsTemplate programmatically__
+**Define NoRecordsTemplate programmatically**
 
-You need to design your custom class (holding the set of controls for the __NoRecordsTemplate__) which implements the __ITemplate__ interface. Then you can assign an instance of this class to the __NoRecordsTemplate__ of the corresponding __GridTableView__.
+You need to design your custom class (holding the set of controls for the **NoRecordsTemplate**) which implements the **ITemplate** interface. Then you can assign an instance of this class to the **NoRecordsTemplate** of the corresponding **GridTableView**.
 
 The example below shows how to embed MS Label in the NoRecordsTemplate of the MasterTableView at runtime:
 
@@ -119,4 +119,4 @@ The example below shows how to embed MS Label in the NoRecordsTemplate of the Ma
 ````
 
 
-Detailed information about how to create templates programmatically you can find in the __MSDN__: [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vstechart.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)
+Detailed information about how to create templates programmatically you can find in the **MSDN**: [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vstechart.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)

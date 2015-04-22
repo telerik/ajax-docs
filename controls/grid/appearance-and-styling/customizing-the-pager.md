@@ -1,6 +1,6 @@
 ---
 title: Customizing the Pager
-page_title: Customizing the Pager | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Pager | RadGrid for ASP.NET AJAX Documentation
 description: Customizing the Pager
 slug: grid/appearance-and-styling/customizing-the-pager
 tags: customizing,the,pager
@@ -12,27 +12,27 @@ position: 9
 
 
 
-If paging is enabled, Telerik RadGrid will render pager item(s) (__GridPagerItem__) on the top and/or bottom of each __GridTableView__ displayed in the hierarchy.
+If paging is enabled, Telerik RadGrid will render pager item(s) (**GridPagerItem**) on the top and/or bottom of each **GridTableView** displayed in the hierarchy.
 
 ![Pager](images/grd_Pager.png)
 
 ## Pager Appearance
 
-The appearance of the pager item can be controlled using __GridTableView.PagerStyle__ property. As most of appearance options, __PagerStyle__ of each __GridTableView__ can be predefined using __RadGrid.PagerStyle__ property - this would apply to all __GridTableViews__ in the hierarchy unless specified other for a certain table-view.As __PagerStyle__ extends the __TableItemStyle__ class the settings could apply to item's *fore-color,**back-color*, *border style*, *font* etc. __GridPagerStyle__ provides also properties to control the position of the items' __PagerStyle.Position__ - *Top*, *Bottom* or *TopAndBottom* and type of pager buttons that appear.
+The appearance of the pager item can be controlled using **GridTableView.PagerStyle** property. As most of appearance options, **PagerStyle** of each **GridTableView** can be predefined using **RadGrid.PagerStyle** property - this would apply to all **GridTableViews** in the hierarchy unless specified other for a certain table-view.As **PagerStyle** extends the **TableItemStyle** class the settings could apply to item's *fore-color,**back-color*, *border style*, *font* etc. **GridPagerStyle** provides also properties to control the position of the items' **PagerStyle.Position** - *Top*, *Bottom* or *TopAndBottom* and type of pager buttons that appear.
 
-The Pager buttons allow the user to navigate through the pages - change the display page by setting *next* or *previous* or use a page number to directly switch page. Use __GridTableView.PagerStyle.Mode__ property to control the mode pager buttons would be display and would function. Use __GridPagerMode.NumericPages__ to display a button for each page with the corresponding page number. Use __GridPagerMode.PrevNext__ to specify that only buttons for *previous*/*next* page would appear.
+The Pager buttons allow the user to navigate through the pages - change the display page by setting *next* or *previous* or use a page number to directly switch page. Use **GridTableView.PagerStyle.Mode** property to control the mode pager buttons would be display and would function. Use **GridPagerMode.NumericPages** to display a button for each page with the corresponding page number. Use **GridPagerMode.PrevNext** to specify that only buttons for *previous*/*next* page would appear.
 
 ![Prev/Next PagerMode](images/grd_Pager_prevnext.png)
 
 All properties controlling paging behavior can be set using either development environment [designers]({%slug grid/design-time-/overview%}) or programmatically. The values set programmatically are persisted into the view-state providing consistency in grid's page navigation and ease their use.
 
-If you use any other button(s) to control paging in Telerik RadGrid in a custom manner, you can use command button(s) with CommandName 'Page' and CommandArgument __'Next'__, __'Prev'__, or a number of any page - ex. CommandArgument = "42".
+If you use any other button(s) to control paging in Telerik RadGrid in a custom manner, you can use command button(s) with CommandName 'Page' and CommandArgument **'Next'**, **'Prev'**, or a number of any page - ex. CommandArgument = "42".
 
 ## Pager templates
 
-Pager item can use templates for setting its appearance and features. All command buttons in the template can take advantage of the command API. For example a button with __CommandName__ "Page" and __CommandArgument__ of "Last" will force Telerik RadGrid to go to the last page when clicked. No additional code is necessary.
+Pager item can use templates for setting its appearance and features. All command buttons in the template can take advantage of the command API. For example a button with **CommandName** "Page" and **CommandArgument** of "Last" will force Telerik RadGrid to go to the last page when clicked. No additional code is necessary.
 
-Using declarative binding expressions command buttons in the pager can control their visibility based on various paging-related properties provided by the __PagerItem.Paging__ instance.
+Using declarative binding expressions command buttons in the pager can control their visibility based on various paging-related properties provided by the **PagerItem.Paging** instance.
 
 ![Pager Template](images/grd_PagerTemplate.png)
 
@@ -77,7 +77,7 @@ Using declarative binding expressions command buttons in the pager can control t
 
 >caption  
 
-|  __CommandName__  |  __CommandArgument__  |  __Description__  |
+|  **CommandName**  |  **CommandArgument**  |  **Description**  |
 | ------ | ------ | ------ |
 |Page|First|Goes to the first page|
 |Page|Last|Goes to the last page|

@@ -1,6 +1,6 @@
 ---
 title: Filter By ListTextField for GridDropDownColumn
-page_title: Filter By ListTextField for GridDropDownColumn | UI for ASP.NET AJAX Documentation
+page_title: Filter By ListTextField for GridDropDownColumn | RadGrid for ASP.NET AJAX Documentation
 description: Filter By ListTextField for GridDropDownColumn
 slug: grid/functionality/filtering/how-to/filter-by-listtextfield-for-griddropdowncolumn
 tags: filter,by,listtextfield,for,griddropdowncolumn
@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-The built-in __GridDropDownColumn__ is filtered by its __ListValueField__ when the default filtering feature of the control is used. __RadGrid__ does not include any support for filtering by __ListTextField__ instead.
+The built-in **GridDropDownColumn** is filtered by its **ListValueField** when the default filtering feature of the control is used. **RadGrid** does not include any support for filtering by **ListTextField** instead.
 
-This limitation is because the filtering mechanism relies on the __DataField__ of the filtered column and for __GridDropDownColumn__ this property specifies the mapping field in the drop-down source. (For more information about the properties of __GridDropDownColumn__, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/customize-griddropdowncolumn%})).If you want to filter by __ListTextField__, your current options are:
+This limitation is because the filtering mechanism relies on the **DataField** of the filtered column and for **GridDropDownColumn** this property specifies the mapping field in the drop-down source. (For more information about the properties of **GridDropDownColumn**, see [Customize/Configure GridDropDownColumn]({%slug grid/how-to/customize-griddropdowncolumn%})).If you want to filter by **ListTextField**, your current options are:
 
-* use a hidden __GridBoundColumn__ (with __Display = false__). Add an __ItemCommand__ event handler that catches filter commands from the dropdown column and substitutes a filter command from the __GridBoundColumn__ instead:
+* use a hidden **GridBoundColumn** (with **Display = false**). Add an **ItemCommand** event handler that catches filter commands from the dropdown column and substitutes a filter command from the **GridBoundColumn** instead:
 
 
 
@@ -77,7 +77,7 @@ This limitation is because the filtering mechanism relies on the __DataField__ o
 ````
 
 
-* Use __GridTemplateColumn__ instead of __GridDropDownColumn__. You can add a __DropDownList__ in its __EditItemTemplate__ to simulate the __GridDropDownColumn__.
+* Use **GridTemplateColumn** instead of **GridDropDownColumn**. You can add a **DropDownList** in its **EditItemTemplate** to simulate the **GridDropDownColumn**.
 
 >note As RadGrid can only be filtered by fields in its DataSource, these work arounds are only valid when the ListTextField of the GridDropDownColumn is a field from the control's assigned data source.
 >

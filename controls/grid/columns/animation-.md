@@ -1,6 +1,6 @@
 ---
 title: Animation 
-page_title: Animation  | UI for ASP.NET AJAX Documentation
+page_title: Animation  | RadGrid for ASP.NET AJAX Documentation
 description: Animation 
 slug: grid/columns/animation-
 tags: animation,

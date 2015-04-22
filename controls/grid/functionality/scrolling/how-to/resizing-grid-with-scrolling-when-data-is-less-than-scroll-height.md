@@ -1,6 +1,6 @@
 ---
 title: Resizing Grid with Scrolling when Data is Less Than Scroll Height
-page_title: Resizing Grid with Scrolling when Data is Less Than Scroll Height | UI for ASP.NET AJAX Documentation
+page_title: Resizing Grid with Scrolling when Data is Less Than Scroll Height | RadGrid for ASP.NET AJAX Documentation
 description: Resizing Grid with Scrolling when Data is Less Than Scroll Height
 slug: grid/functionality/scrolling/how-to/resizing-grid-with-scrolling-when-data-is-less-than-scroll-height
 tags: resizing,grid,with,scrolling,when,data,is,less,than,scroll,height
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-Sometimes your application may reduce the records that __RadGrid__ displays by some method such as applying filtering criteria or dynamically changing the page size. When this occurs, the grid automatically resizes its content area for the smaller amount of data, except when scrolling is enabled.
+Sometimes your application may reduce the records that **RadGrid** displays by some method such as applying filtering criteria or dynamically changing the page size. When this occurs, the grid automatically resizes its content area for the smaller amount of data, except when scrolling is enabled.
 
-To reduce the size of the grid when the data does not fill the content area when scrolling is enabled, use the client-side __GridCreated__ event. In the __GridCreated__ event handler, check whether the table height is less than the value of the __ClientSettings.Scrolling.ScrollHeight__ property, and if so, explicitly modify the scroll area height to match the height of the data items.
+To reduce the size of the grid when the data does not fill the content area when scrolling is enabled, use the client-side **GridCreated** event. In the **GridCreated** event handler, check whether the table height is less than the value of the **ClientSettings.Scrolling.ScrollHeight** property, and if so, explicitly modify the scroll area height to match the height of the data items.
 
 The following example illustrates this technique:
 

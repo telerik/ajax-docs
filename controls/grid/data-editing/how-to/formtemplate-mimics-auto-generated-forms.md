@@ -1,6 +1,6 @@
 ---
 title: FormTemplate Mimics Auto-generated Forms
-page_title: FormTemplate Mimics Auto-generated Forms | UI for ASP.NET AJAX Documentation
+page_title: FormTemplate Mimics Auto-generated Forms | RadGrid for ASP.NET AJAX Documentation
 description: FormTemplate Mimics Auto-generated Forms
 slug: grid/data-editing/how-to/formtemplate-mimics-auto-generated-forms
 tags: formtemplate,mimics,auto-generated,forms
@@ -14,15 +14,15 @@ position: 16
 
 ## 
 
-The conventions for the __Display/ReadOnly/Visible__ properties of grid columns (explained in [ Column types]({%slug grid/columns/column-types%})) are not applicable when you use __FormTemplate__ with binding expressions for editing. You will need to take care of the showing/hiding the edited fields in your __FormTemplate__ with custom code.
+The conventions for the **Display/ReadOnly/Visible** properties of grid columns (explained in [ Column types]({%slug grid/columns/column-types%})) are not applicable when you use **FormTemplate** with binding expressions for editing. You will need to take care of the showing/hiding the edited fields in your **FormTemplate** with custom code.
 
-The example below illustrates how to simulate the behavior of auto-generated forms with __FormTemplate__.
+The example below illustrates how to simulate the behavior of auto-generated forms with **FormTemplate**.
 
-Note that our grid instance on this example contains four bound columns - __CompanyName__ (__ReadOnly = true__), __ContactName__, __ContactTitle__ (__Display = false__) and __Country__ (__Visible = false__).
+Note that our grid instance on this example contains four bound columns - **CompanyName** (**ReadOnly = true**), **ContactName**, **ContactTitle** (**Display = false**) and **Country** (**Visible = false**).
 
-Only the first two of them will be displayed on initial load (__CompanyName__ and __ContactName__). When the user presses the edit button for an arbitrary grid row, an edit form (__FormTemplate__) will be visualized.
+Only the first two of them will be displayed on initial load (**CompanyName** and **ContactName**). When the user presses the edit button for an arbitrary grid row, an edit form (**FormTemplate**) will be visualized.
 
-Note that this edit form will present the __ContactName__, __ContactTitle__ and __Country__ fields. The __CompanyName__ column is shown/hidden through binding expression syntax which sets the __Visible__ property of the respective label/textbox editor.
+Note that this edit form will present the **ContactName**, **ContactTitle** and **Country** fields. The **CompanyName** column is shown/hidden through binding expression syntax which sets the **Visible** property of the respective label/textbox editor.
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="300px">

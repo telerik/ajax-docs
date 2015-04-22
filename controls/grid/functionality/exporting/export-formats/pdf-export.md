@@ -1,6 +1,6 @@
 ---
 title: PDF Export
-page_title: PDF Export | UI for ASP.NET AJAX Documentation
+page_title: PDF Export | RadGrid for ASP.NET AJAX Documentation
 description: PDF Export
 slug: grid/functionality/exporting/export-formats/pdf-export
 tags: pdf,export
@@ -12,7 +12,7 @@ position: 1
 
 
 
-This help article discuss different techniques which allow you to modify __RadGrid__ when exporting to __PDF__.Following is a list with the content of this article.
+This help article discuss different techniques which allow you to modify **RadGrid** when exporting to **PDF**.Following is a list with the content of this article.
 
 * [PDF specific settings and events](#onpdfexporting-event)
 
@@ -49,7 +49,7 @@ This help article discuss different techniques which allow you to modify __RadGr
 * [Exceptions](#exceptions)
 
 >note Note that *RadGrid* will render as an *XHTML* table and will convert that table to a *PDF* document. That requires that the rendered grid output is valid *XHTML* . If it is not, you will receive an exception that the export cannot be completed.
->The most common cause for bad *XHTML* are symbols like __<__ , __>__ , __&__ that need to be replaced by the correct *XHTML* entity: __& l t ;__ , __& g t ;__ , __& a m p ;__ respectively. Another frequent problem are unclosed tags.
+>The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **& l t ;** , **& g t ;** , **& a m p ;** respectively. Another frequent problem are unclosed tags.
 >
 
 
@@ -76,15 +76,15 @@ This help article discuss different techniques which allow you to modify __RadGr
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
-*  * __A4 Portrait__ :* <Pdf PageWidth="210mm" PageHeight="297mm" />
-*  * __A4 Landscape__ :* <Pdf PageWidth="297mm" PageHeight="210mm" />>
+*  * **A4 Portrait** :* <Pdf PageWidth="210mm" PageHeight="297mm" />
+*  * **A4 Landscape** :* <Pdf PageWidth="297mm" PageHeight="210mm" />>
 
 
 ## OnPdfExporting event
 
-The reason for having separate __OnPdfExporting__ event is that by the time the __OnGridExporting__ event is raised, the *Pdf* output is already generated and ready for adding to the response. Some cases where the __OnPdfExporting__ event is helpful when you want to modify the output - as an alternative to the __OnGridExporting__ event.
+The reason for having separate **OnPdfExporting** event is that by the time the **OnGridExporting** event is raised, the *Pdf* output is already generated and ready for adding to the response. Some cases where the **OnPdfExporting** event is helpful when you want to modify the output - as an alternative to the **OnGridExporting** event.
 
-Although you can't modify the contents on __OnGridExporting__, you can use this event to achieve some other tasks. For example:
+Although you can't modify the contents on **OnGridExporting**, you can use this event to achieve some other tasks. For example:
 
 * to save the file on the server/send it via mail if needed.
 
@@ -147,13 +147,13 @@ In the cases, where *Rebind* won't be invoked you can apply the styles directly:
 ````
 
 
->note To center the text in the __GridHeaderItem__ , you should set the appropriate style to each cell ( *TH* element) instead of the whole row.
+>note To center the text in the **GridHeaderItem** , you should set the appropriate style to each cell ( *TH* element) instead of the whole row.
 >
 
 
 ## Hiding Columns
 
-You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
+You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types, you can use the following approach:
 
 
 
@@ -172,7 +172,7 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 ````
 
 
->note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
@@ -180,7 +180,7 @@ You can use the __HideStructureColumns__ property to hide *GridRowIndicatorColum
 
 There are two common ways to hide an item.
 
-* __Directly__ - in the button handler when exporting from a button or on __ItemCommand__ when exporting from the built-in buttons
+* **Directly** - in the button handler when exporting from a button or on **ItemCommand** when exporting from the built-in buttons
 
 
 
@@ -217,7 +217,7 @@ There are two common ways to hide an item.
 ````
 
 
-* __On ItemCreated / ItemDataBound__ - this approach should be used when __IgnorePaging="true"__ or when you call RadGrid.Rebind before exporting.
+* **On ItemCreated / ItemDataBound** - this approach should be used when **IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
 
 
 
@@ -251,13 +251,13 @@ There are two common ways to hide an item.
 
 ## Border support
 
-By setting __BorderType, BorderStyle and BorderColor__ properties you could customize the look of the grid'sborder into the exported file. They could be set to ExportSettings-Pdf.
+By setting **BorderType, BorderStyle and BorderColor** properties you could customize the look of the grid'sborder into the exported file. They could be set to ExportSettings-Pdf.
 
-__BorderType__ determines the border type that will be applied to the exported PDF file. The supported valuesare: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for bothflat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes andalso because of the fact that this functionality has a minor performance impact. When the __BorderType__ isset to *Separate*, the __BorderColor__, and the __BorderStyle__ properties will have no effect.
+**BorderType** determines the border type that will be applied to the exported PDF file. The supported valuesare: *Separate, NoBorder, OuterBorders, AllBorders*. The selected border type will be applied for bothflat and hierarchical RadGrids. Note that the *Separate* value is left to avoid breaking changes andalso because of the fact that this functionality has a minor performance impact. When the **BorderType** isset to *Separate*, the **BorderColor**, and the **BorderStyle** properties will have no effect.
 
-__BorderStyle__ determines the style of the borders that will be applied to the exported PDF file.The supported values: *Medium, Thick, Thin*. Its default value is *Medium*.
+**BorderStyle** determines the style of the borders that will be applied to the exported PDF file.The supported values: *Medium, Thick, Thin*. Its default value is *Medium*.
 
-And the last property __BorderColor__ determines the color of the borders that will be applied to theexported PDF file. It supports all color from __Drawing.Color__ collection. *Black* is the default color.
+And the last property **BorderColor** determines the color of the borders that will be applied to theexported PDF file. It supports all color from **Drawing.Color** collection. *Black* is the default color.
 
 Additionally when *Separate* border type is used the following statements are applicable.
 
@@ -287,9 +287,9 @@ If you apply the same approach to the *MasterTableView* (or other *GridTableView
 
 ## Fonts / Unicode support
 
-*RadGrid*'s *PDF* exporting engine supports all languages that use __left-to-right__ orientation when the appropriate *Unicode* font is set. Live demo that exports *Japanese* characters is [available online](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx). The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
+*RadGrid*'s *PDF* exporting engine supports all languages that use **left-to-right** orientation when the appropriate *Unicode* font is set. Live demo that exports *Japanese* characters is [available online](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx). The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
 
-The default font of the generated pages is specified by the __DefaultFontFamily__ property:
+The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
 ````ASPNET
 	        <ExportSettings>
@@ -315,11 +315,11 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 
 There are a few rules that should be followed when exporting *HTML* tables to *PDF*:
 
-* The table should define __<colgroup>__ and __<col>__ elements
+* The table should define **<colgroup>** and **<col>** elements
 
-* The number of __col__ elements should be equal to the number of the columns in the table body
+* The number of **col** elements should be equal to the number of the columns in the table body
 
-* Width in __pixels__ (or another *absolute* units) should be set to the table
+* Width in **pixels** (or another *absolute* units) should be set to the table
 
 ````XML
 	  <table width="300px">
@@ -342,13 +342,13 @@ There are a few rules that should be followed when exporting *HTML* tables to *P
 
 ## Exporting images / using third-party image-processing tools
 
-Our *PDF* engine can export all images nevertheless whether they use an __absolute__or __relative__ path. The image can be stored on the local server or remotely. When using third-party image-processing tools like [ImageResizer.dll](http://nathanaeljones.com/products/asp-net-image-resizer/) or similar modules that use *HttpHandlers* and accept parameters via query strings, you should provide an __absolute__ path to the resized image, otherwise *RadGrid* won't be able to find the image and will throw an error. Transparency is not supported.
+Our *PDF* engine can export all images nevertheless whether they use an **absolute**or **relative** path. The image can be stored on the local server or remotely. When using third-party image-processing tools like [ImageResizer.dll](http://nathanaeljones.com/products/asp-net-image-resizer/) or similar modules that use *HttpHandlers* and accept parameters via query strings, you should provide an **absolute** path to the resized image, otherwise *RadGrid* won't be able to find the image and will throw an error. Transparency is not supported.
 
 You can use the following approach if you need to set a background image to your *GridTableViews*:
 
 <MasterTableView style="background-image: url(yourimage)" />
 
->note In order to export images that are spanned over multiple columns you should invoke * __PrepareItemStyle__ * on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
+>note In order to export images that are spanned over multiple columns you should invoke * **PrepareItemStyle** * on the corresponding grid item. Our[PDF export](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/pdfexport/defaultcs.aspx)demo uses the depicted approach.
 >
 
 
@@ -395,7 +395,7 @@ Text alignment could be set either to the row element or to the cell. The only e
 
 In *RadControls for ASP.NET AJAX Q3 2009 Beta* we introduced the possibility to use *page-breaks*. They can be added in many ways - declaratively, in code-behind or directly in the raw html.
 
-The page-breaking tag is __<?hard-pagebreak?>__
+The page-breaking tag is **<?hard-pagebreak?>**
 
 ````ASPNET
 	  <columns>    
@@ -416,7 +416,7 @@ The page-breaking tag is __<?hard-pagebreak?>__
 
 ## Header and Footer Support
 
-From Q2 2013 PDF export supports header and footer. PageHeader element holds the header cells while the PageFooter elemens containsthe footer cells and they are applicable to ExportSettings-Pdf tab. The supported chield properties for the both elements are LeftCell, MiddleCell, RightCell which contain the cell text and text aligment properies. Apart from the plain text,the cell text property can contain HTML code, and a special tag __<?page-number?>__ which can be usedto display the current page's number.
+From Q2 2013 PDF export supports header and footer. PageHeader element holds the header cells while the PageFooter elemens containsthe footer cells and they are applicable to ExportSettings-Pdf tab. The supported chield properties for the both elements are LeftCell, MiddleCell, RightCell which contain the cell text and text aligment properies. Apart from the plain text,the cell text property can contain HTML code, and a special tag **<?page-number?>** which can be usedto display the current page's number.
 
 >note Image contents of the header/footer cells might be shrunk if they go out of the header/footer area. Adjusting the pagemargins can give the header/footer more space for the larger images.
 >
@@ -442,15 +442,15 @@ From Q2 2013 PDF export supports header and footer. PageHeader element holds the
 
 The standard PDF filters can be separated in two categories. ASCII filters and Compression/Decompression filters.The first ones enable the stream contents to be represented in a printer-friendly way and enable better portability for environments which have restrictions regarding the special characters, maximum line length, and the like. Compression filters are helpful when the file size is important. The compression ratio depends greatly on the file contents. It is important to note that the filters are optional and can be turned off. ASCII filters serve no purpose if the file is encrypted.
 
-From SP1 2013 Q2 we introduce a new property named __ContentFilter__ which gives you the ability to choose a filter. The supported values are as follow.
+From SP1 2013 Q2 we introduce a new property named **ContentFilter** which gives you the ability to choose a filter. The supported values are as follow.
 
-* __NoFilter__ - no filters will be used (default)
+* **NoFilter** - no filters will be used (default)
 
-* __ASCII85__ - ASCII base-85 representation
+* **ASCII85** - ASCII base-85 representation
 
-* __AsciiHex__ - hexadecimal ASCII representation
+* **AsciiHex** - hexadecimal ASCII representation
 
-* __Flate__ - deflate compression method; binary representation
+* **Flate** - deflate compression method; binary representation
 
 ````ASPNET
 	        <ExportSettings>
@@ -474,7 +474,7 @@ The PDF file generated by RadGrid has the content encryption enabled by default.
 
 ## Forced Text Wrapping
 
-Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced __ForceTextWrap__ property it is now possible to force the text wrapping evenwhen there are no whitespaces or separator characters. It is important to note that the forced mode will make the file size larger.
+Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping evenwhen there are no whitespaces or separator characters. It is important to note that the forced mode will make the file size larger.
 
 ````ASPNET
 	        <ExportSettings>
@@ -544,35 +544,35 @@ Although we are striving to constantly improve our products, there are some limi
 
 ## Exceptions
 
-* *__At least one of minimum, optimum, or maximum IPD must be specified on table__*
+* **At least one of minimum, optimum, or maximum IPD must be specified on table**
 
 Reason: Nested tables should have width in pixels
 
-* *__The '*' character, hexadecimal value 0x2A, cannot be included in a name__*
+* **The '*' character, hexadecimal value 0x2A, cannot be included in a name**
 
 The default pager's *RadComboBox* uses special *CSS* approach that is unsupported by the *PDF* parser
 
-* __Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow, fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption, fo:table-cell or fo:wrapper not fo:table-header__
+* **Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow, fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption, fo:table-cell or fo:wrapper not fo:table-header**
 
-This exception is probably result of a __hard____pagebreak__, inserted in a wrong place - for example directly after the starting tag of a table
+This exception is probably result of a **hard-pagebreak**, inserted in a wrong place - for example directly after the starting tag of a table
 
-* *__System.IndexOutOfRangeException: Index was outside the bounds of the array.at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)__*
+* **System.IndexOutOfRangeException: Index was outside the bounds of the array.at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)**
 
 You are either using *RTL* fonts or mixing *Korean* characters with another language in the same element (rare scenario)
 
-* *__Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'__*
+* **Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'**
 
 Most probably you have *DIV* element with specified dimensions or absolute positioning. Remove the relevant width/height/position attributes to avoid this exception.
 
-* *__System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission__*
+* **System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission**
 
-*RadGrid's PDF* export engine doesn't work in __medium trust__.
+*RadGrid's PDF* export engine doesn't work in **medium trust**.
 
-* *__Telerik.Web.Apoc.ApocException: internal-destination or external-destination must be specified in basic-link__*
+* **Telerik.Web.Apoc.ApocException: internal-destination or external-destination must be specified in basic-link**
 
 *PDF* engine is trying to resolve *empty anchor**URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
 
-* *__System.IndexOutOfRangeException: Index was outside the bounds of the array.	at Telerik.Web.Apoc.Fo.Flow.TableRow.CellArray.GetNextFreeCell(Int32 colNum)__*
+* **System.IndexOutOfRangeException: Index was outside the bounds of the array.	at Telerik.Web.Apoc.Fo.Flow.TableRow.CellArray.GetNextFreeCell(Int32 colNum)**
 
 The reason for this exception is that the number of col elements is the colgroup is not equal to the maximum number of cells per row. Put simply, if you have a table with two columns, you should put two col elements.
 

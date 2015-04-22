@@ -1,6 +1,6 @@
 ---
 title: Put All Items in Edit Mode
-page_title: Put All Items in Edit Mode | UI for ASP.NET AJAX Documentation
+page_title: Put All Items in Edit Mode | RadGrid for ASP.NET AJAX Documentation
 description: Put All Items in Edit Mode
 slug: grid/data-editing/how-to/put-all-items-in-edit-mode
 tags: put,all,items,in,edit,mode
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-There are cases in which you may want to force the grid items in edit mode when the grid displays initially on the page.This is a straightforward task. You simply need to attach to the __PreRender__ event of the control, traverse the items in the grid, detect those which are editable and set their __Edit__ property to __true__. After traversing all items and performing this operation, you have to rebind the grid (calling explicitly its __Rebind()__ method) to reflect the changes.
+There are cases in which you may want to force the grid items in edit mode when the grid displays initially on the page.This is a straightforward task. You simply need to attach to the **PreRender** event of the control, traverse the items in the grid, detect those which are editable and set their **Edit** property to **true**. After traversing all items and performing this operation, you have to rebind the grid (calling explicitly its **Rebind()** method) to reflect the changes.
 
 In the code-behind:
 
@@ -52,7 +52,7 @@ In the code-behind:
 ````
 
 
-Another option (which is applicable only with in-forms edit mode (__EditForms__, __WebUserControl__ or __FormTemplate__ custom edit form) is to set the *Edit* property of all grid rows to true on initial load hooking the __ItemCreated__ event:
+Another option (which is applicable only with in-forms edit mode (**EditForms**, **WebUserControl** or **FormTemplate** custom edit form) is to set the *Edit* property of all grid rows to true on initial load hooking the **ItemCreated** event:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Alphabetic Paging in Telerik RadGrid
-page_title: Alphabetic Paging in Telerik RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Alphabetic Paging in Telerik RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Alphabetic Paging in Telerik RadGrid
 slug: grid/functionality/paging/how-to/alphabetic-paging-in-telerik-radgrid
 tags: alphabetic,paging,in,telerik,radgrid
@@ -16,19 +16,19 @@ position: 0
 
 A common request is to use letters instead of numbers in the grid pager and filter the records according to the letter the user chooses from the pager. This is not built-in feature in Telerik RadGrid, however it is quite easily attainable with custom code. To integrate this type of paging mechanism for your grid instance you just need to:
 
-1. Wire the __ItemCreated__ event of the control and detect whether the currently bound item is __GridPagerItem__
+1. Wire the **ItemCreated** event of the control and detect whether the currently bound item is **GridPagerItem**
 
-1. Clear the __Controls__ collection of the GridPagerItem __PagerContentCell__
+1. Clear the **Controls** collection of the GridPagerItem **PagerContentCell**
 
-1. Generate LinkButtons with one and the same __CommandName__ of your choice and __CommandArgument__ matching the __Unicode code__ for the corresponding character
+1. Generate LinkButtons with one and the same **CommandName** of your choice and **CommandArgument** matching the **Unicode code** for the corresponding character
 
-1. Add these buttons to the __Controls__ collection of the __PagerContentCell__
+1. Add these buttons to the **Controls** collection of the **PagerContentCell**
 
-1. Subscribe to the __ItemCommand__ event of the grid and check whether __e.CommandName__ is the command name you specified for the LinkButtons
+1. Subscribe to the **ItemCommand** event of the grid and check whether **e.CommandName** is the command name you specified for the LinkButtons
 
-1. Filter the records in the grid source in par with the __e.CommandArgument__ value and refresh the source content
+1. Filter the records in the grid source in par with the **e.CommandArgument** value and refresh the source content
 
-1. Rebind the grid calling its __Rebind__() method
+1. Rebind the grid calling its **Rebind**() method
 
 >note Note that in the forthcoming example we placed ShowAll button in the CommandItemTemplate of the grid which recovers the default record set if the grid items are less than the PageSize or there are no records to display.
 >

@@ -1,6 +1,6 @@
 ---
 title: Scrolling to the Selected Item
-page_title: Scrolling to the Selected Item | UI for ASP.NET AJAX Documentation
+page_title: Scrolling to the Selected Item | RadGrid for ASP.NET AJAX Documentation
 description: Scrolling to the Selected Item
 slug: grid/functionality/scrolling/how-to/scrolling-to-the-selected-item
 tags: scrolling,to,the,selected,item
@@ -18,13 +18,13 @@ If you have an initially selected item (row) in a scrollable grid, you may want 
 
 1. Set one of the items in the control as selected. (The following example selects a row in the same function that moves to the selected row. However, after that, it shows how to move to the selected row even if it were selected in some other way).
 
-1. Provide a handler for the client-side __GridCreated__ event.
+1. Provide a handler for the client-side **GridCreated** event.
 
-1. In the event handler, locate the selected row using the __GridTableView__ object's __get_selectedItems()__ method.
+1. In the event handler, locate the selected row using the **GridTableView** object's **get_selectedItems()** method.
 
-1. Use the __RadGrid__ object's __GridDataDiv__ property to access the DOM element for the scrollable region of the grid.
+1. Use the **RadGrid** object's **GridDataDiv** property to access the DOM element for the scrollable region of the grid.
 
-1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the __scrollTop__ property of the scrollable region to scroll the grid so that the selected row is showing.
+1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the grid so that the selected row is showing.
 
 The following example demonstrates this technique:
 

@@ -1,6 +1,6 @@
 ---
 title: OnCellDeselecting
-page_title: OnCellDeselecting | UI for ASP.NET AJAX Documentation
+page_title: OnCellDeselecting | RadGrid for ASP.NET AJAX Documentation
 description: OnCellDeselecting
 slug: grid/client-side-programming/events/events/oncelldeselecting
 tags: oncelldeselecting
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridColumnEventArgs OnCellDeselecting Property
 This event is fired before a cell is deselected.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __get_column__ - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __get_gridDataItem__ - returns a reference to the corresponding GridDataItem object __get_row__ - returns a reference to the correspong table row element __cancel__ - gets or sets the canceled status of the event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **get_column** - returns a reference to the corresponding[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **get_gridDataItem** - returns a reference to the corresponding GridDataItem object **get_row** - returns a reference to the correspong table row element **cancel** - gets or sets the canceled status of the event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

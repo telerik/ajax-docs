@@ -1,6 +1,6 @@
 ---
 title: Extracting values
-page_title: Extracting values | UI for ASP.NET AJAX Documentation
+page_title: Extracting values | RadGrid for ASP.NET AJAX Documentation
 description: Extracting values
 slug: grid/data-editing/extracting-values
 tags: extracting,values
@@ -16,27 +16,27 @@ position: 2
 
 Telerik RadGrid has the following column types capable of editing data that will be persisted automatically:
 
-* __GridBoundColumn__
+* **GridBoundColumn**
 
-* __GridCheckboxColumn__
+* **GridCheckboxColumn**
 
-* __GridDropDownColumn__
+* **GridDropDownColumn**
 
-* __GridDateTimeColumn__
+* **GridDateTimeColumn**
 
-* __GridNumericColumn__
+* **GridNumericColumn**
 
-* __GridMaskedColumn__
+* **GridMaskedColumn**
 
-* __GridHTMLEditorColumn__
+* **GridHTMLEditorColumn**
 
-* __GridTemplateColumn__
+* **GridTemplateColumn**
 
-* __GridRatingColumn__
+* **GridRatingColumn**
 
-By default Telerik RadGrid will extract the values from the corresponding editors of the currently edited __GridDataItem__ (when updating or inserting a new record for all columns unless they are set as read-only).When deleting an item, Telerik RadGrid can extract the values from the cells of the __GridDataItem__which will be deleted when in "Browse" mode. The extraction of all values might be necessary when you need to know all the values of the item that should be deleted to perform this operation consistently in the database.
+By default Telerik RadGrid will extract the values from the corresponding editors of the currently edited **GridDataItem** (when updating or inserting a new record for all columns unless they are set as read-only).When deleting an item, Telerik RadGrid can extract the values from the cells of the **GridDataItem**which will be deleted when in "Browse" mode. The extraction of all values might be necessary when you need to know all the values of the item that should be deleted to perform this operation consistently in the database.
 
-Extracting values through the __ExtractValuesFromItem/ExtractValues__ methods is supported when the grid edit mode is auto-generated (__InPlace/EditForms__). When you define user control edit form for your grid instance, you have to use different means to retrieve the values from the edit form (individual data extraction from the controls inside the user control or some other alternative). Telerik RadGrid can extract values even from columns that are set as read-only, if the column's property __ForceExtractValue__ is set to:
+Extracting values through the **ExtractValuesFromItem/ExtractValues** methods is supported when the grid edit mode is auto-generated (**InPlace/EditForms**). When you define user control edit form for your grid instance, you have to use different means to retrieve the values from the edit form (individual data extraction from the controls inside the user control or some other alternative). Telerik RadGrid can extract values even from columns that are set as read-only, if the column's property **ForceExtractValue** is set to:
 
 * "InBrowseMode" - when deleting records
 
@@ -44,4 +44,4 @@ Extracting values through the __ExtractValuesFromItem/ExtractValues__ methods is
 
 * "Always" - for all modes
 
-The default value for this property is __"None"__, i.e. the data extraction will not be performed for read-only columns.
+The default value for this property is **"None"**, i.e. the data extraction will not be performed for read-only columns.

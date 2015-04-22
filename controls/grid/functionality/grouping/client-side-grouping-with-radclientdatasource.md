@@ -1,6 +1,6 @@
 ---
 title: Client-side grouping with RadClientDataSource
-page_title: Client-side grouping with RadClientDataSource | UI for ASP.NET AJAX Documentation
+page_title: Client-side grouping with RadClientDataSource | RadGrid for ASP.NET AJAX Documentation
 description: Client-side grouping with RadClientDataSource
 slug: grid/functionality/grouping/client-side-grouping-with-radclientdatasource
 tags: client-side,grouping,with,radclientdatasource
@@ -12,11 +12,11 @@ position: 5
 
 
 
-__RadGrid__ supports client-side grouping when it is data-bound to __RadClientDataSource__ control.This functionality provides great user experience by handling adding, removing and rearranging of groups entirely on client-side, without performing a postback to the server.
+**RadGrid** supports client-side grouping when it is data-bound to **RadClientDataSource** control.This functionality provides great user experience by handling adding, removing and rearranging of groups entirely on client-side, without performing a postback to the server.
 
-When client-side grouping is used, you can use the same approaches, as with server-side grouping, for setting predefined groups or	allowing the user to drag and drop columns to the __GroupPanel__.
+When client-side grouping is used, you can use the same approaches, as with server-side grouping, for setting predefined groups or	allowing the user to drag and drop columns to the **GroupPanel**.
 
-__Example__: The following example demonstrates how to enable client-side groupingfunctionality when a __RadGrid__ is bound to __RadClientDataSource__ control:
+**Example**: The following example demonstrates how to enable client-side groupingfunctionality when a **RadGrid** is bound to **RadClientDataSource** control:
 
 ````ASPNET
 	<telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">

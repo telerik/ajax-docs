@@ -1,6 +1,6 @@
 ---
 title: set_visible()
-page_title: set_visible() | UI for ASP.NET AJAX Documentation
+page_title: set_visible() | RadGrid for ASP.NET AJAX Documentation
 description: set_visible()
 slug: grid/client-side-programming/radgrid-object/properties/set_visible()
 tags: set_visible()
@@ -17,9 +17,9 @@ position: 13
 Property which sets the grid as visible or not on the client (changing the *style -> display* value of the grid div).
 
 
-|  __set_visible(bool)__  |  |
+|  **set_visible(bool)**  |  |
 | ------ | ------ |
-|bool|Boolean parameter which accepts __true__ or __false__ values|
+|bool|Boolean parameter which accepts **true** or **false** values|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: Attach Event for Editor Changes
-page_title: Attach Event for Editor Changes | UI for ASP.NET AJAX Documentation
+page_title: Attach Event for Editor Changes | RadGrid for ASP.NET AJAX Documentation
 description: Attach Event for Editor Changes
 slug: grid/data-editing/how-to/attach-event-for-editor-changes
 tags: attach,event,for,editor,changes
@@ -14,13 +14,13 @@ position: 9
 
 ## 
 
-There is no default event for editor changes in grid columns - it is up to the developer to attach events to these editors when necessary. This operation can be performed hooking the ItemCreated event of Telerik RadGrid. For example- in case with __GridDropDownColumn__ you have to:
+There is no default event for editor changes in grid columns - it is up to the developer to attach events to these editors when necessary. This operation can be performed hooking the ItemCreated event of Telerik RadGrid. For example- in case with **GridDropDownColumn** you have to:
 
-1. Check whether the currently created grid item is __GridDataItem__ and is in edit mode
+1. Check whether the currently created grid item is **GridDataItem** and is in edit mode
 
-1. Locate the dropdown list editor in the Controls collection of the cell which corresponds to the __GridDropDownList__ column
+1. Locate the dropdown list editor in the Controls collection of the cell which corresponds to the **GridDropDownList** column
 
-1. Mark it with __AutoPostBack__ = __true__ and wire a handler to its __SelectedIndexChanged__ event. Then in the __SelectedIndexChanged__ handler you can update the selected value for the second dropdown.
+1. Mark it with **AutoPostBack** = **true** and wire a handler to its **SelectedIndexChanged** event. Then in the **SelectedIndexChanged** handler you can update the selected value for the second dropdown.
 
 
 

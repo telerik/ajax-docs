@@ -1,6 +1,6 @@
 ---
 title: editItem
-page_title: editItem | UI for ASP.NET AJAX Documentation
+page_title: editItem | RadGrid for ASP.NET AJAX Documentation
 description: editItem
 slug: grid/client-side-programming/gridtableview-object/methods/edititem
 tags: edititem
@@ -17,10 +17,10 @@ position: 12
 Method which switches the table row passed as an argument or the row corresponding to the index passed as an argument in edit mode.
 
 
-|  __editItem(gridItem) or editItem(index)__  |  |  |
+|  **editItem(gridItem) or editItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __gridItem__ |HTML row object - <tr>|The row that will be switched in edit mode.|
-| __index__ |Integer|The row corresponding to the __index__ will be switched in edit mode.|
+| **gridItem** |HTML row object - <tr>|The row that will be switched in edit mode.|
+| **index** |Integer|The row corresponding to the **index** will be switched in edit mode.|
 
 Example:
 

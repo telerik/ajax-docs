@@ -1,6 +1,6 @@
 ---
 title: showHeaderMenu
-page_title: showHeaderMenu | UI for ASP.NET AJAX Documentation
+page_title: showHeaderMenu | RadGrid for ASP.NET AJAX Documentation
 description: showHeaderMenu
 slug: grid/client-side-programming/gridcolumn-object/methods/showheadermenu
 tags: showheadermenu
@@ -17,11 +17,11 @@ position: 0
 Method which allows you to display the header context menu explicitly for a given column. The default position of the header context menu when invoking this method is the upper left corner of the corresponding column header cell.
 
 
-|  __showHeaderMenu(event, offsetLeft, offsetTop)__  |  |
+|  **showHeaderMenu(event, offsetLeft, offsetTop)**  |  |
 | ------ | ------ |
-| __event__ |The default browser event.|
-| __offsetLeft(optional)__ |The offset to the left from the default header context menu column position.|
-| __offsetTop(optional)__ |The offset to the right from the default header context menu column position.|
+| **event** |The default browser event.|
+| **offsetLeft(optional)** |The offset to the left from the default header context menu column position.|
+| **offsetTop(optional)** |The offset to the right from the default header context menu column position.|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: set_visible()
-page_title: set_visible() | UI for ASP.NET AJAX Documentation
+page_title: set_visible() | RadGrid for ASP.NET AJAX Documentation
 description: set_visible()
 slug: grid/client-side-programming/griddataitem-object/properties/set_visible()
 tags: set_visible()

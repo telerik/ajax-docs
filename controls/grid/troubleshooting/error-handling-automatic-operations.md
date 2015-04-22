@@ -1,6 +1,6 @@
 ---
 title: Error Handling Automatic Operations
-page_title: Error Handling Automatic Operations | UI for ASP.NET AJAX Documentation
+page_title: Error Handling Automatic Operations | RadGrid for ASP.NET AJAX Documentation
 description: Error Handling Automatic Operations
 slug: grid/troubleshooting/error-handling-automatic-operations
 tags: error,handling,automatic,operations
@@ -16,11 +16,11 @@ position: 3
 
 RadGrid can fire three events after an automatic action occurred:
 
-* __ItemUpdated__
+* **ItemUpdated**
 
-* __ItemInserted__
+* **ItemInserted**
 
-* __ItemDeleted__
+* **ItemDeleted**
 
 
 
@@ -105,7 +105,7 @@ RadGrid can fire three events after an automatic action occurred:
 ````
 
 
-The default behavior of Telerik RadGrid is tolet the __DataSource__ control rise an exceptionwhen error occurs when inserting/updating/deleting. To prevent this exception you should handle the corresponding event and in case (e.Exception != null) or (Not e.Exception Is Nothing) you should set e.ExceptionHandled to true and display error message.
+The default behavior of Telerik RadGrid is tolet the **DataSource** control rise an exceptionwhen error occurs when inserting/updating/deleting. To prevent this exception you should handle the corresponding event and in case (e.Exception != null) or (Not e.Exception Is Nothing) you should set e.ExceptionHandled to true and display error message.
 
 
 

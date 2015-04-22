@@ -1,6 +1,6 @@
 ---
 title: clearSelectedItems
-page_title: clearSelectedItems | UI for ASP.NET AJAX Documentation
+page_title: clearSelectedItems | RadGrid for ASP.NET AJAX Documentation
 description: clearSelectedItems
 slug: grid/client-side-programming/gridtableview-object/methods/clearselecteditems
 tags: clearselecteditems
@@ -14,10 +14,10 @@ position: 4
 
 ## 
 
-Method which clears the selected items for the respective __GridTableView__ client object. This method will clear the selected items from the table's child tables (meaningful in hierarchical grid only).
+Method which clears the selected items for the respective **GridTableView** client object. This method will clear the selected items from the table's child tables (meaningful in hierarchical grid only).
 
 
-|  __clearSelectedItems()__  |
+|  **clearSelectedItems()**  |
 | ------ |
 ||
 

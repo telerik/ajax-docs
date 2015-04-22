@@ -1,6 +1,6 @@
 ---
 title: Confirmation Dialogs
-page_title: Confirmation Dialogs | UI for ASP.NET AJAX Documentation
+page_title: Confirmation Dialogs | RadGrid for ASP.NET AJAX Documentation
 description: Confirmation Dialogs
 slug: grid/data-editing/delete-records/confirmation-dialogs
 tags: confirmation,dialogs
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-To display a confirmation dialog that prompts the user whether a selected action should be executed (from a button in a template), invoke the __confirm__ javascript method (or use __radConfirm__ for a confirmation dialog that uses skins). If the user chooses the negatve option in the confirmation dialog, return __false__ from the __OnClientClick__ event handler of the button.
+To display a confirmation dialog that prompts the user whether a selected action should be executed (from a button in a template), invoke the **confirm** javascript method (or use **radConfirm** for a confirmation dialog that uses skins). If the user chooses the negatve option in the confirmation dialog, return **false** from the **OnClientClick** event handler of the button.
 
 Here is an example:
 

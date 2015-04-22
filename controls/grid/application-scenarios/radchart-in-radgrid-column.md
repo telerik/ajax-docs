@@ -1,6 +1,6 @@
 ---
 title: RadChart in RadGrid column
-page_title: RadChart in RadGrid column | UI for ASP.NET AJAX Documentation
+page_title: RadChart in RadGrid column | RadGrid for ASP.NET AJAX Documentation
 description: RadChart in RadGrid column
 slug: grid/application-scenarios/radchart-in-radgrid-column
 tags: radchart,in,radgrid,column

@@ -1,6 +1,6 @@
 ---
 title: OnRowShowing
-page_title: OnRowShowing | UI for ASP.NET AJAX Documentation
+page_title: OnRowShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnRowShowing
 slug: grid/client-side-programming/events/events/onrowshowing
 tags: onrowshowing
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnRowShowing Property
 This event is fired before a row is shown.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __id__ - id of the RadGrid item that has raised the event __itemIndexHierarchical__ - hierarchical index of the item that has raised the event __gridDataItem__ - the corresponding data item __tableView__ - owner TableView of the item that has raised the event __dataKeyValues__ - data key value for the item that has raised the event __domEvent__ - dom event that was raised for the current event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **id** - id of the RadGrid item that has raised the event **itemIndexHierarchical** - hierarchical index of the item that has raised the event **gridDataItem** - the corresponding data item **tableView** - owner TableView of the item that has raised the event **dataKeyValues** - data key value for the item that has raised the event **domEvent** - dom event that was raised for the current event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

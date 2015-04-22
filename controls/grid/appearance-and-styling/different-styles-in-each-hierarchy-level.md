@@ -1,6 +1,6 @@
 ---
 title: Different Styles in Each Hierarchy Level
-page_title: Different Styles in Each Hierarchy Level | UI for ASP.NET AJAX Documentation
+page_title: Different Styles in Each Hierarchy Level | RadGrid for ASP.NET AJAX Documentation
 description: Different Styles in Each Hierarchy Level
 slug: grid/appearance-and-styling/different-styles-in-each-hierarchy-level
 tags: different,styles,in,each,hierarchy,level
@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-Sometimes you may search the option to have different appearance settings for the table in hierarchical grid when one of the predefined [ skins ]({%slug grid/appearance-and-styling/skins%}) is applied. Since the skin definitions will override any additional css classes for the nested tables, you will need to put an *!important* keyword to the corresponding inner tables styles in order to take precedence over the grid table rendering. Thus the corresponding appearance setting will dominate over the style specified in the __Styles.css__ file of the chosen skin.
+Sometimes you may search the option to have different appearance settings for the table in hierarchical grid when one of the predefined [ skins ]({%slug grid/appearance-and-styling/skins%}) is applied. Since the skin definitions will override any additional css classes for the nested tables, you will need to put an *!important* keyword to the corresponding inner tables styles in order to take precedence over the grid table rendering. Thus the corresponding appearance setting will dominate over the style specified in the **Styles.css** file of the chosen skin.
 
 Below is a sample approach:
 

@@ -1,6 +1,6 @@
 ---
 title: Hiding the Expand/Collapse Images
-page_title: Hiding the Expand/Collapse Images | UI for ASP.NET AJAX Documentation
+page_title: Hiding the Expand/Collapse Images | RadGrid for ASP.NET AJAX Documentation
 description: Hiding the Expand/Collapse Images
 slug: grid/functionality/grouping/how-to/hiding-the-expand/collapse-images
 tags: hiding,the,expand/collapse,images
@@ -14,21 +14,21 @@ position: 5
 
 ## 
 
-You can disable the __GridGroupSplitterColumn__ so that users can't collapse the groups in a grid. The following steps describe how to accomplish this:
+You can disable the **GridGroupSplitterColumn** so that users can't collapse the groups in a grid. The following steps describe how to accomplish this:
 
-1. Set the grid's __ClientSettings.Resizing.AllowColumnResize__ property to *True*.
+1. Set the grid's **ClientSettings.Resizing.AllowColumnResize** property to *True*.
 
-1. Add a __ColumnCreated__ event handler to the grid. In the __ColumnCreated__ event handler, when the column is a __GridGroupSplitterColumn__
+1. Add a **ColumnCreated** event handler to the grid. In the **ColumnCreated** event handler, when the column is a **GridGroupSplitterColumn**
 
 * Set its *Width* property to *1px*.
 
-* Set its *Resizable *property to *False*__.__
+* Set its *Resizable *property to *False**.**
 
-1. Remove the unwanted button on __ItemCreated__
+1. Remove the unwanted button on **ItemCreated**
 
-1. (__Optional__) If desired, change the style of the group header items (based on the group level) in the __ItemDataBound__ event handler.
+1. (**Optional**) If desired, change the style of the group header items (based on the group level) in the **ItemDataBound** event handler.
 
-Note that if the __GroupSplitterColumn__ cells have side paddings (and they do when using embedded skins), you need to remove those paddings, otherwise the column cells will remain visible in *IE7* and below. One way to remove the paddings is to use __HeaderStyle-CssClass__ and __ItemStyle-CssClass__, or (if using *RadGrid 2009.1+*) to use the native *CSS* class for the __GroupSplitterColumn__ cells (note that a custom *CSS* class for the *RadGrid* is used, otherwise you will remove the paddings from all *RadGrids* on the page (or website):
+Note that if the **GroupSplitterColumn** cells have side paddings (and they do when using embedded skins), you need to remove those paddings, otherwise the column cells will remain visible in *IE7* and below. One way to remove the paddings is to use **HeaderStyle-CssClass** and **ItemStyle-CssClass**, or (if using *RadGrid 2009.1+*) to use the native *CSS* class for the **GroupSplitterColumn** cells (note that a custom *CSS* class for the *RadGrid* is used, otherwise you will remove the paddings from all *RadGrids* on the page (or website):
 
 ````XML
 	  .rgGroupCol

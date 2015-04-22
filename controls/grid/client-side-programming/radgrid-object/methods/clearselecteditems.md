@@ -1,6 +1,6 @@
 ---
 title: clearSelectedItems
-page_title: clearSelectedItems | UI for ASP.NET AJAX Documentation
+page_title: clearSelectedItems | RadGrid for ASP.NET AJAX Documentation
 description: clearSelectedItems
 slug: grid/client-side-programming/radgrid-object/methods/clearselecteditems
 tags: clearselecteditems
@@ -17,7 +17,7 @@ position: 1
 Method which clears the selected items in the grid (and all sub-levels in hierarchical grid structure) on the client.
 
 
-|  __clearSelectedItems()__  |
+|  **clearSelectedItems()**  |
 | ------ |
 ||
 

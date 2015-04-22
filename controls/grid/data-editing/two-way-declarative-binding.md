@@ -1,6 +1,6 @@
 ---
 title: Two-way Declarative Binding
-page_title: Two-way Declarative Binding | UI for ASP.NET AJAX Documentation
+page_title: Two-way Declarative Binding | RadGrid for ASP.NET AJAX Documentation
 description: Two-way Declarative Binding
 slug: grid/data-editing/two-way-declarative-binding
 tags: two-way,declarative,binding
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-Under .NET 2.x/3.x framework you can use the newly introduced __Bind__() syntax to perform two-way binding (to and from the underlying database):
+Under .NET 2.x/3.x framework you can use the newly introduced **Bind**() syntax to perform two-way binding (to and from the underlying database):
 
 ````ASPNET
 	  <EditItemTemplate>
@@ -25,7 +25,7 @@ Under .NET 2.x/3.x framework you can use the newly introduced __Bind__() syntax 
 
 
 
-This is especially useful for data editing operations like update or insert when you would like to retrieve/pass the new data to the underlying database without extra coding. Here are two online examples (in __C#__ and __VB.NET__) which demonstrate this approach:
+This is especially useful for data editing operations like update or insert when you would like to retrieve/pass the new data to the underlying database without extra coding. Here are two online examples (in **C#** and **VB.NET**) which demonstrate this approach:
 
 [ Auto-generated edit form ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx)
 

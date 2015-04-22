@@ -1,6 +1,6 @@
 ---
 title: get_reorderable()
-page_title: get_reorderable() | UI for ASP.NET AJAX Documentation
+page_title: get_reorderable() | RadGrid for ASP.NET AJAX Documentation
 description: get_reorderable()
 slug: grid/client-side-programming/gridcolumn-object/properties/get_reorderable()
 tags: get_reorderable()

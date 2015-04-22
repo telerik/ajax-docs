@@ -1,6 +1,6 @@
 ---
 title: Master Detail Grids
-page_title: Master Detail Grids | UI for ASP.NET AJAX Documentation
+page_title: Master Detail Grids | RadGrid for ASP.NET AJAX Documentation
 description: Master Detail Grids
 slug: grid/data-binding/master-detail-grids
 tags: master,detail,grids
@@ -14,23 +14,23 @@ position: 2
 
 ## 
 
-__RadGrid__ provides support for master/detail relationships that use related grids which appear side-by-side, rather than nesting detail grids inside the records of the grid that displays the master table.
+**RadGrid** provides support for master/detail relationships that use related grids which appear side-by-side, rather than nesting detail grids inside the records of the grid that displays the master table.
 
 To achieve this behavior,
 
-1. Add each linking field from the master table (typically the __primary key field__ names) to the __DataKeyNames__ array of the related grid's __MasterTableView.__
+1. Add each linking field from the master table (typically the **primary key field** names) to the **DataKeyNames** array of the related grid's **MasterTableView.**
 
-1. On the data source for the "connected" grid, construct a __SelectParameter__ of type __ControlParameter__ for each linking field.
+1. On the data source for the "connected" grid, construct a **SelectParameter** of type **ControlParameter** for each linking field.
 
-* The __ControlID__ of the __SelectParameter__ should point to the related grid.
+* The **ControlID** of the **SelectParameter** should point to the related grid.
 
-* The __Name__ property should match a field name that was added to the __DataKeyNames__ property of the related grid's __MasterTableView__.
+* The **Name** property should match a field name that was added to the **DataKeyNames** property of the related grid's **MasterTableView**.
 
-* The __PropertyName__ property should be "SelectedValue".
+* The **PropertyName** property should be "SelectedValue".
 
-* Optionally, you can set the __DefaultValue__ and __Type__ properties as well.
+* Optionally, you can set the **DefaultValue** and **Type** properties as well.
 
-1. Alternatively, define similar SelectParameter using __SelectedValues['<FieldName>']__ where <FieldName> represents a column in the grid source.
+1. Alternatively, define similar SelectParameter using **SelectedValues['<FieldName>']** where <FieldName> represents a column in the grid source.
 
 ![Related Grids](images/grd_RelatedGrids.png)
 
@@ -140,7 +140,7 @@ The following example shows how the screenshot above was generated:
 
 
 
-In the code-behind, you can use the __Page_PreRender__ event to initialize the selected row of the first grid:
+In the code-behind, you can use the **Page_PreRender** event to initialize the selected row of the first grid:
 
 
 

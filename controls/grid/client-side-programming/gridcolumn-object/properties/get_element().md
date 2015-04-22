@@ -1,6 +1,6 @@
 ---
 title: get_element()
-page_title: get_element() | UI for ASP.NET AJAX Documentation
+page_title: get_element() | RadGrid for ASP.NET AJAX Documentation
 description: get_element()
 slug: grid/client-side-programming/gridcolumn-object/properties/get_element()
 tags: get_element()
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-This property returns the __HTML TableHeaderCell element__ - <th> for the current column object. Can be used to check the order of the column using __cellIndex__.
+This property returns the **HTML TableHeaderCell element** - <th> for the current column object. Can be used to check the order of the column using **cellIndex**.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

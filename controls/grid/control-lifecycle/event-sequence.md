@@ -1,6 +1,6 @@
 ---
 title: Event sequence
-page_title: Event sequence | UI for ASP.NET AJAX Documentation
+page_title: Event sequence | RadGrid for ASP.NET AJAX Documentation
 description: Event sequence
 slug: grid/control-lifecycle/event-sequence
 tags: event,sequence
@@ -14,14 +14,14 @@ position: 1
 
 ## 
 
-The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/GridView__. The sequence of the events is the following:
+The API and event sequence of **RadGrid** are quite similar to **MS DataGrid/GridView**. The sequence of the events is the following:
 
-- RadGrid with __EnableViewState__ set to __true__ (default value)
+- RadGrid with **EnableViewState** set to **true** (default value)
 
 
 >caption  
 
-|  __First page load:__  |  |
+|  **First page load:**  |  |
 | ------ | ------ |
 |Page.Load||
 |Grid_Instance.NeedDataSource||
@@ -30,14 +30,14 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |ItemDataBound||
 |Page.PreRender||
 |||
-| __Normal postback from a control outside of RadGrid:__ ||
+| **Normal postback from a control outside of RadGrid:** ||
 |For each Item in grid:||
 |ItemCreated||
 |Page.Load||
 |Postback Events||
 |Page.PreRender||
 |||
-| __On server selection from Select/Deselect GridButtonColumn/Auto Postback on row click:__ ||
+| **On server selection from Select/Deselect GridButtonColumn/Auto Postback on row click:** ||
 |For each Item in grid:||
 |ItemCreated||
 |Page.Load||
@@ -46,7 +46,7 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |Other postback events||
 |Page.PreRender||
 |||
-| __On edit/update/insert/delete action or paging/sorting/grouping/filtering operation__ ||
+| **On edit/update/insert/delete action or paging/sorting/grouping/filtering operation** ||
 |For each Item:||
 |ItemCreated||
 |Page.Load||
@@ -60,12 +60,12 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |----||
 |Invoking the Rebind() method from postback event handler of outside control or RadGrid will raise automatically the NeedDataSource event||
 
-- RadGrid with __EnableViewState__ set to __false__
+- RadGrid with **EnableViewState** set to **false**
 
 
 >caption  
 
-|  __First page load:__  |
+|  **First page load:**  |
 | ------ |
 |Page.Load|
 |Grid_Instance.NeedDataSource|
@@ -74,7 +74,7 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |ItemDataBound|
 |Page.PreRender|
 ||
-| __Normal postback from a control outside of RadGrid:__ |
+| **Normal postback from a control outside of RadGrid:** |
 |Page.Load|
 |Grid_Instance.NeedDataSource|
 |For each Item in grid:|
@@ -83,7 +83,7 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |Postback Events|
 |Page.PreRender|
 ||
-| __On server selection from Select/Deselect GridButtonColumn/Auto Postback on row click:__ |
+| **On server selection from Select/Deselect GridButtonColumn/Auto Postback on row click:** |
 |Page.Load|
 |Grid_Instance.NeedDataSource|
 |For each Item in grid:|
@@ -94,7 +94,7 @@ The API and event sequence of __RadGrid__ are quite similar to __MS DataGrid/Gri
 |Other postback events|
 |Page.PreRender|
 ||
-| __On edit/update/insert/delete action or paging/sorting/grouping/filtering operation__ |
+| **On edit/update/insert/delete action or paging/sorting/grouping/filtering operation** |
 |For each Item:|
 |ItemCreated|
 |Page.Load|

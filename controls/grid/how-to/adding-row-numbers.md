@@ -1,6 +1,6 @@
 ---
 title: Adding Row Numbers
-page_title: Adding Row Numbers | UI for ASP.NET AJAX Documentation
+page_title: Adding Row Numbers | RadGrid for ASP.NET AJAX Documentation
 description: Adding Row Numbers
 slug: grid/how-to/adding-row-numbers
 tags: adding,row,numbers
@@ -16,11 +16,11 @@ position: 8
 
 In some occasions you may want to display row numbers in Telerik RadGrid- for example to correlate the grid items when exporting the control's structure to Excel or just for easier navigation/access. The functionality is not built-in in the product, however such layout is achievable with a few lines of code:
 
-1. Subscribe to the __ItemDataBound__ event of the grid
+1. Subscribe to the **ItemDataBound** event of the grid
 
-1. Check whether the currently bound item is __GridDataItem__
+1. Check whether the currently bound item is **GridDataItem**
 
-1. Extract the __ItemIndex__ of the __e.Item__ instance and display its value in a control residing in GridTemplateColumn's __ItemTemplate__.
+1. Extract the **ItemIndex** of the **e.Item** instance and display its value in a control residing in GridTemplateColumn's **ItemTemplate**.
 
 In the example code below the item index is presented in MS Label control which is wrapped in template column:
 

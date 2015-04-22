@@ -1,6 +1,6 @@
 ---
 title: Bindable Property Types
-page_title: Bindable Property Types | UI for ASP.NET AJAX Documentation
+page_title: Bindable Property Types | RadGrid for ASP.NET AJAX Documentation
 description: Bindable Property Types
 slug: grid/data-binding/bindable-property-types
 tags: bindable,property,types
@@ -14,18 +14,18 @@ position: 0
 
 ## 
 
-__RadGrid__ understands the following bindable property types:
+**RadGrid** understands the following bindable property types:
 
-* All primitive types - __bool__, __byte__, __sbyte__, __char__, __short__, __ushort__, __int__, __uint__, __long__, __ulong__, __decimal__, __double__, __float__, __DateTime__, etc.
+* All primitive types - **bool**, **byte**, **sbyte**, **char**, **short**, **ushort**, **int**, **uint**, **long**, **ulong**, **decimal**, **double**, **float**, **DateTime**, etc.
 
-* __GUID__
+* **GUID**
 
-* __String__
+* **String**
 
-* __TimeSpan__
+* **TimeSpan**
 
-* __Enum__ types
+* **Enum** types
 
-* __Nullable__ types
+* **Nullable** types
 
-__RadGrid__ uses the static method __RadGrid.IsBindableType()__ to determine if the property of an object can be bound.
+**RadGrid** uses the static method **RadGrid.IsBindableType()** to determine if the property of an object can be bound.

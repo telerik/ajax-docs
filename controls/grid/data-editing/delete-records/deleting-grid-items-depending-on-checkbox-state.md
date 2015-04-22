@@ -1,6 +1,6 @@
 ---
 title: Deleting Grid Items Depending on CheckBox State
-page_title: Deleting Grid Items Depending on CheckBox State | UI for ASP.NET AJAX Documentation
+page_title: Deleting Grid Items Depending on CheckBox State | RadGrid for ASP.NET AJAX Documentation
 description: Deleting Grid Items Depending on CheckBox State
 slug: grid/data-editing/delete-records/deleting-grid-items-depending-on-checkbox-state
 tags: deleting,grid,items,depending,on,checkbox,state
@@ -14,9 +14,9 @@ position: 5
 
 ## 
 
-The example below represents how to delete grid items depending on __GridCheckBoxColumn__ state and __GridTemplateColumn__ with checkbox as __ItemTemplate__. There are two separate buttons on the page which do the job.For the first case, you need to traverse the grid items and delete them from the grid source if the checkbox in the __GridCheckBoxColumn__ cell is checked. This is done when the user presses the __Remove default-checked rows__ button and will be propagated for the current page only.For the second case the main idea is to use __CustomersChecked__ ViewState property in which to save the current checkbox state for the __GridTemplateColumn__. You will also need to subscribe to the __CheckedChanged__ event of the checkbox and update __CustomersChecked.__ Actually changes are made if the corresponding checkbox has been checked by the user (otherwise this property is not modified for ViewState optimization). When the user hits the __Remove user-checked rows__ button each checked entry in __CustomersChecked__ is deleted from the grid datas ource and the __CurrentPageIndex__ is reset. Note that in this case the checked state is persisted on paging and checked items are deleted in all available pages.
+The example below represents how to delete grid items depending on **GridCheckBoxColumn** state and **GridTemplateColumn** with checkbox as **ItemTemplate**. There are two separate buttons on the page which do the job.For the first case, you need to traverse the grid items and delete them from the grid source if the checkbox in the **GridCheckBoxColumn** cell is checked. This is done when the user presses the **Remove default-checked rows** button and will be propagated for the current page only.For the second case the main idea is to use **CustomersChecked** ViewState property in which to save the current checkbox state for the **GridTemplateColumn**. You will also need to subscribe to the **CheckedChanged** event of the checkbox and update **CustomersChecked.** Actually changes are made if the corresponding checkbox has been checked by the user (otherwise this property is not modified for ViewState optimization). When the user hits the **Remove user-checked rows** button each checked entry in **CustomersChecked** is deleted from the grid datas ource and the **CurrentPageIndex** is reset. Note that in this case the checked state is persisted on paging and checked items are deleted in all available pages.
 
-The default delete functionality for each row through __DeleteColumn__ button is also supported in this example.
+The default delete functionality for each row through **DeleteColumn** button is also supported in this example.
 
 
 

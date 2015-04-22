@@ -1,6 +1,6 @@
 ---
 title: Entity Framework - Binding and CRUD Operations
-page_title: Entity Framework - Binding and CRUD Operations | UI for ASP.NET AJAX Documentation
+page_title: Entity Framework - Binding and CRUD Operations | RadGrid for ASP.NET AJAX Documentation
 description: Entity Framework - Binding and CRUD Operations
 slug: grid/asp.net-3.5-features/entity-framework---binding-and-crud-operations
 tags: entity,framework,-,binding,and,crud,operations

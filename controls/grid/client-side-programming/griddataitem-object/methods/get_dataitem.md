@@ -1,6 +1,6 @@
 ---
 title: get_dataItem
-page_title: get_dataItem | UI for ASP.NET AJAX Documentation
+page_title: get_dataItem | RadGrid for ASP.NET AJAX Documentation
 description: get_dataItem
 slug: grid/client-side-programming/griddataitem-object/methods/get_dataitem
 tags: get_dataitem
@@ -17,7 +17,7 @@ position: 3
 This method provides reference to the DataItem object (data container). Useful to obtain data from a particular row cell passing the UniqueName of the column as an indexer.
 
 
-|  __get_dataItem()__  |
+|  **get_dataItem()**  |
 | ------ |
 ||
 

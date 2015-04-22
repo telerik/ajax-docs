@@ -1,6 +1,6 @@
 ---
 title: Updating Values Using UserControl and FormTemplate
-page_title: Updating Values Using UserControl and FormTemplate | UI for ASP.NET AJAX Documentation
+page_title: Updating Values Using UserControl and FormTemplate | RadGrid for ASP.NET AJAX Documentation
 description: Updating Values Using UserControl and FormTemplate
 slug: grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate
 tags: updating,values,using,usercontrol,and,formtemplate

@@ -1,6 +1,6 @@
 ---
 title: Inserting Values Using UserControl/FormTemplate
-page_title: Inserting Values Using UserControl/FormTemplate | UI for ASP.NET AJAX Documentation
+page_title: Inserting Values Using UserControl/FormTemplate | RadGrid for ASP.NET AJAX Documentation
 description: Inserting Values Using UserControl/FormTemplate
 slug: grid/data-editing/insert-records/inserting-values-using-usercontrol/formtemplate
 tags: inserting,values,using,usercontrol/formtemplate
@@ -12,7 +12,7 @@ position: 1
 
 
 
-Inserting values through __WebUserControl Edit Form__ and __FormTemplate__ can be done in exactly the same way as updating values from these custom edit forms. The only difference is that you need to create a new record in the grid data source instead of updating an already existing one. To handle the actual insert operation when the user hits the __Insert__ button, you can hook the __InsertCommand__ event of Telerik RadGrid or the __ItemCommand__ event (checking whether __e.CommandName__ is __RadGrid.PerformInsertCommandName__).The forthcoming code snippets show how this can be done with user control custom edit form:
+Inserting values through **WebUserControl Edit Form** and **FormTemplate** can be done in exactly the same way as updating values from these custom edit forms. The only difference is that you need to create a new record in the grid data source instead of updating an already existing one. To handle the actual insert operation when the user hits the **Insert** button, you can hook the **InsertCommand** event of Telerik RadGrid or the **ItemCommand** event (checking whether **e.CommandName** is **RadGrid.PerformInsertCommandName**).The forthcoming code snippets show how this can be done with user control custom edit form:
 
 
 
@@ -205,7 +205,7 @@ Additionally, review the online demos linked below to see the approach in real-l
 
 ## Important detail when inserting with WebUserControl as edit form
 
-If you use WebUserControl as edit form in Telerik RadGrid and populate the values inside the user control with __DataItem__ property (defined in the code-behind of this user control), you have to make sure that this __DataItem__ property is of type Object. Thus the automatic insert operation (when clicking Add new record from the link button inside the CommandItem) will be performed as expected.
+If you use WebUserControl as edit form in Telerik RadGrid and populate the values inside the user control with **DataItem** property (defined in the code-behind of this user control), you have to make sure that this **DataItem** property is of type Object. Thus the automatic insert operation (when clicking Add new record from the link button inside the CommandItem) will be performed as expected.
 
 
 
@@ -240,15 +240,15 @@ If you use WebUserControl as edit form in Telerik RadGrid and populate the value
 
 When you want to access controls inside the currently inserted item, having user control as an edit form in Telerik RadGrid, you should do the following:
 
-1. Cancel the default action if __e.CommandName__ is __RadGrid.InitInsertCommandName__;
+1. Cancel the default action if **e.CommandName** is **RadGrid.InitInsertCommandName**;
 
 1. Insert the new item and rebind the grid;
 
-1. Obtain reference to the newly inserted item using the __GetInsertItem()__ method for the respective GridTableView;
+1. Obtain reference to the newly inserted item using the **GetInsertItem()** method for the respective GridTableView;
 
-1. Locate the respective control inside the user control calling the __FindControl()__ method of this user control.
+1. Locate the respective control inside the user control calling the **FindControl()** method of this user control.
 
-Here is an example which will change the text for TextBox with __ID txtEmployeeID__ inside insertion form user control of Telerik RadGrid:
+Here is an example which will change the text for TextBox with **ID txtEmployeeID** inside insertion form user control of Telerik RadGrid:
 
 
 
@@ -289,15 +289,15 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 
 When you want to access controls inside the currently inserted item, having FormTemplate as an edit form in Telerik RadGrid, you should do the following:
 
-1. Cancel the default action if __e.CommandName__ is __RadGrid.InitInsertCommandName__;
+1. Cancel the default action if **e.CommandName** is **RadGrid.InitInsertCommandName**;
 
 1. Insert the new item and rebind the grid;
 
-1. Obtain reference to the newly inserted item using the __GetInsertItem()__ method for the respective GridTableView;
+1. Obtain reference to the newly inserted item using the **GetInsertItem()** method for the respective GridTableView;
 
-1. Locate the respective control inside the FormTemplate calling the __FindControl()__ method of the corresponding __GridEditableItem__.
+1. Locate the respective control inside the FormTemplate calling the **FindControl()** method of the corresponding **GridEditableItem**.
 
-Here is an example which will change the text for TextBox with __ID txtEmployeeID__ inside insertion form user control of Telerik RadGrid:
+Here is an example which will change the text for TextBox with **ID txtEmployeeID** inside insertion form user control of Telerik RadGrid:
 
 
 
@@ -329,7 +329,7 @@ Here is an example which will change the text for TextBox with __ID txtEmployeeI
 ````
 
 
-When you have dropdown list/checkbox in the grid make sure that you specify the field to which you bind the control inside the form template as __key__ for the dictionary object (passed to the __InsertItem(newValues)__ method). For example:
+When you have dropdown list/checkbox in the grid make sure that you specify the field to which you bind the control inside the form template as **key** for the dictionary object (passed to the **InsertItem(newValues)** method). For example:
 
 
 
@@ -378,7 +378,7 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 ````
 
 
-The other option is to set __AppendDataBoundItems="true"__ for a dropdown list (residing in form template custom edit form) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:
+The other option is to set **AppendDataBoundItems="true"** for a dropdown list (residing in form template custom edit form) and add **default empty item** in the dropdown control to avoid exception generation on initial insert:
 
 ````ASPNET
 	  <EditFormSettings EditFormType="Template">

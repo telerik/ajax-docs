@@ -1,6 +1,6 @@
 ---
 title: Client-side Binding
-page_title: Client-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Binding | RadGrid for ASP.NET AJAX Documentation
 description: Client-side Binding
 slug: grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding
 tags: client-side,binding
@@ -20,9 +20,9 @@ The RadGrid client-side binding is especially useful when you would like to perf
 
 Below are some important points that you need to have in mind when utilizing the RadGrid client-side data-binding:
 
->note Generally speaking, RadGrid transfers *JSON* from *client-to-server-to-client* in order to bind/page/sort/filter on the client. If you are using declarative data-binding and *do not* bind RadGrid on the server, it will manage to create its client object properly. However, if you are manually binding it on client and *do not* bind it on server, you need to attach a handler to its __ *OnCommand* __ client event. In both cases RadGrid will bind itself on the server (if you do not bind it explicitly) with dummy data to create PageSize items. Later, when you bind it on the client side, previously created items will be populated with data. If you bind the control on client with rows more than PageSize, RadGrid will create new *tr* elements and populate properly the cells for certain columns.
->If you want to initally hide the empty rows shown on the client, you can set the __RadGrid.ClientSettings.DataBinding.ShowEmptyRowsOnLoad__ property to false.
->Since RadGrid transfers *JSON* data when bound on the client, if you have some kind of templates - *GridTemplateColumn/ NestedViewTemplate* - there is no proper way for populating the controls in these templates as they are __ *templates.* __ However, for the rows that are initially created on the server (these PageSize items), RadGrid will manage to populate a control in __ *GridTemplateColumn* __ if the control in that __ *ItemTemplate* __ has __ *ID* __ set equal to the __ *DataField* __ property of that column.
+>note Generally speaking, RadGrid transfers *JSON* from *client-to-server-to-client* in order to bind/page/sort/filter on the client. If you are using declarative data-binding and *do not* bind RadGrid on the server, it will manage to create its client object properly. However, if you are manually binding it on client and *do not* bind it on server, you need to attach a handler to its ** *OnCommand* ** client event. In both cases RadGrid will bind itself on the server (if you do not bind it explicitly) with dummy data to create PageSize items. Later, when you bind it on the client side, previously created items will be populated with data. If you bind the control on client with rows more than PageSize, RadGrid will create new *tr* elements and populate properly the cells for certain columns.
+>If you want to initally hide the empty rows shown on the client, you can set the **RadGrid.ClientSettings.DataBinding.ShowEmptyRowsOnLoad** property to false.
+>Since RadGrid transfers *JSON* data when bound on the client, if you have some kind of templates - *GridTemplateColumn/ NestedViewTemplate* - there is no proper way for populating the controls in these templates as they are ** *templates.* ** However, for the rows that are initially created on the server (these PageSize items), RadGrid will manage to populate a control in ** *GridTemplateColumn* ** if the control in that ** *ItemTemplate* ** has ** *ID* ** set equal to the ** *DataField* ** property of that column.
 >
 
 
@@ -34,7 +34,7 @@ More information about how to use web services and expose them to page methods/c
 
 This [first example](http://demos.telerik.com/aspnet-ajax-beta/Grid/Examples/Client/DeclarativeDataBinding/DefaultCS.aspx) demonstrates how to use declarative client-side data-binding.
 
-RadGrid declarative client-side data-binding is very similar to __ObjectDataSource__ data-binding. You need to specify __SelectMethod__ and __SelectCountMethod__ (if needed) along with __Location__ property and the grid will automatically invoke the specified method as __PageMethod__ or __WebService method__:
+RadGrid declarative client-side data-binding is very similar to **ObjectDataSource** data-binding. You need to specify **SelectMethod** and **SelectCountMethod** (if needed) along with **Location** property and the grid will automatically invoke the specified method as **PageMethod** or **WebService method**:
 
 ````ASPNET
 	  ...
@@ -46,7 +46,7 @@ RadGrid declarative client-side data-binding is very similar to __ObjectDataSour
 
 
 
->caution  __Important: These methods should be marked with[WebMethod attribute](http://msdn.microsoft.com/en-us/library/byxd99hx(VS.71).aspx)__ . Example:
+>caution  **Important: These methods should be marked with[WebMethod attribute](http://msdn.microsoft.com/en-us/library/byxd99hx(VS.71).aspx)** . Example:
 >[WebMethod(EnableSession=true)]public List<MyBusinessObject> GetData(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression){...}
 >
 
@@ -61,16 +61,16 @@ In the *ClientSettings.DataBinding* section you can also specify the following p
 
 * *FilterParameterName* - default is "filterExpression"
 
->caution  __Important: By default RadGrid will expect SelectMethod with four arguments with the following names and types:__ 
+>caution  **Important: By default RadGrid will expect SelectMethod with four arguments with the following names and types:** 
 >
 * int startRowIndex
 * int maximumRows
 * List<GridSortExpression> sortExpression
-* List<GridFilterExpression> filterExpression> __and SelectCountMethod with no arguments!__ 
+* List<GridFilterExpression> filterExpression> **and SelectCountMethod with no arguments!** 
 >
 
 
-To change values on the fly of any of the grid declarative client-side data-binding properties you can use the __OnDataBinding__ client-side event:
+To change values on the fly of any of the grid declarative client-side data-binding properties you can use the **OnDataBinding** client-side event:
 
 ````ASPNET
 	  ...
@@ -116,7 +116,7 @@ The grid will check automatically for "data" and "count" and will not execute a 
 
 [This example](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Caching/DefaultCS.aspx) demonstrates how to enable/disable the grid client-side caching.
 
-RadGrid can cache data on the client based on the current grid state. To enable/disable this feature you can use the __ClientSettings.DataBinding.EnableCaching__ property (its default value is false):
+RadGrid can cache data on the client based on the current grid state. To enable/disable this feature you can use the **ClientSettings.DataBinding.EnableCaching** property (its default value is false):
 
 ````ASPNET
 	  ...

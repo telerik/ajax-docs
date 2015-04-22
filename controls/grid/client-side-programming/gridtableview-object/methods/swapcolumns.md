@@ -1,6 +1,6 @@
 ---
 title: swapColumns
-page_title: swapColumns | UI for ASP.NET AJAX Documentation
+page_title: swapColumns | RadGrid for ASP.NET AJAX Documentation
 description: swapColumns
 slug: grid/client-side-programming/gridtableview-object/methods/swapcolumns
 tags: swapcolumns
@@ -14,7 +14,7 @@ position: 45
 
 ## 
 
-This method allows you to swap the columns with the specified UniqueName. The method accept two arguments - the first one is the unique name of thefirst table column to swap and the second argument is the the unique name of the second table column. Note that you have to enable the __AllowColumnsReorder__ and __ReorderColumnsOnClient__ properties and set __ColumnsReorderMethod__ property to *Swap* in order to be able to swap the columns. Generally used when there is a need to reorder columns on the client.
+This method allows you to swap the columns with the specified UniqueName. The method accept two arguments - the first one is the unique name of thefirst table column to swap and the second argument is the the unique name of the second table column. Note that you have to enable the **AllowColumnsReorder** and **ReorderColumnsOnClient** properties and set **ColumnsReorderMethod** property to *Swap* in order to be able to swap the columns. Generally used when there is a need to reorder columns on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

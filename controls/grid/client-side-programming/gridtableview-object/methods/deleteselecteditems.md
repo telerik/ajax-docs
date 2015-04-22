@@ -1,6 +1,6 @@
 ---
 title: deleteSelectedItems
-page_title: deleteSelectedItems | UI for ASP.NET AJAX Documentation
+page_title: deleteSelectedItems | RadGrid for ASP.NET AJAX Documentation
 description: deleteSelectedItems
 slug: grid/client-side-programming/gridtableview-object/methods/deleteselecteditems
 tags: deleteselecteditems
@@ -19,7 +19,7 @@ Method which deletes all selected items in the grid.
 
 
 
-|  __deleteSelectedItems()__  |
+|  **deleteSelectedItems()**  |
 | ------ |
 ||
 

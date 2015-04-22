@@ -1,6 +1,6 @@
 ---
 title: OnDataBinding
-page_title: OnDataBinding | UI for ASP.NET AJAX Documentation
+page_title: OnDataBinding | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBinding
 slug: grid/client-side-programming/events/events/ondatabinding
 tags: ondatabinding
@@ -31,10 +31,10 @@ This event will be raised when the grid is about to be bound to data client-side
 
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __location__ - the physical location of the web service/page method which retrieves the data for the grid __methodName__ - the name of the method which collects the data __methodArguments__ - the arguments that will be passed to the method which gets the data (start row index, maximum rows, sort parameter, filter parameter)|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **location** - the physical location of the web service/page method which retrieves the data for the grid **methodName** - the name of the method which collects the data **methodArguments** - the arguments that will be passed to the method which gets the data (start row index, maximum rows, sort parameter, filter parameter)|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

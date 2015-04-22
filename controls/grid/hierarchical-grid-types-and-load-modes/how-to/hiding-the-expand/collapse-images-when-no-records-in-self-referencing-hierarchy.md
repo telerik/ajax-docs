@@ -1,6 +1,6 @@
 ---
 title: Hiding the expand/collapse images when no records in self-referencing hierarchy
-page_title: Hiding the expand/collapse images when no records in self-referencing hierarchy | UI for ASP.NET AJAX Documentation
+page_title: Hiding the expand/collapse images when no records in self-referencing hierarchy | RadGrid for ASP.NET AJAX Documentation
 description: Hiding the expand/collapse images when no records in self-referencing hierarchy
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/hiding-the-expand/collapse-images-when-no-records-in-self-referencing-hierarchy
 tags: hiding,the,expand/collapse,images,when,no,records,in,self-referencing,hierarchy
@@ -14,25 +14,25 @@ position: 4
 
 ## 
 
-You may want to hide the expand/collapse images when there are not records under parent grid item in self-referencing hierarchy (choosing __HierarchyLoadMode = ServerOnDemand__ or __HierarchyLoadMode = ServerBind__ options for loading grid hierarchy). To accomplish this task you need to:
+You may want to hide the expand/collapse images when there are not records under parent grid item in self-referencing hierarchy (choosing **HierarchyLoadMode = ServerOnDemand** or **HierarchyLoadMode = ServerBind** options for loading grid hierarchy). To accomplish this task you need to:
 
-1. Wire the __PreRender__ event of Telerik RadGrid
+1. Wire the **PreRender** event of Telerik RadGrid
 
-1. Check whether the referenced GridTableView's __Controls__ collection is not empty
+1. Check whether the referenced GridTableView's **Controls** collection is not empty
 
-1. Traverse all grid items and get reference to those which are of type __GridNestedViewItem__
+1. Traverse all grid items and get reference to those which are of type **GridNestedViewItem**
 
-1. Verify whether their __NestedTableViews__ collection is empty
+1. Verify whether their **NestedTableViews** collection is empty
 
-1. If so, locate the expand/collapse image inside the __ExpandCollapse__ column of the respective __GridTableView__
+1. If so, locate the expand/collapse image inside the **ExpandCollapse** column of the respective **GridTableView**
 
-1. Hide the image along with the corresponding __GridNestedViewItem__
+1. Hide the image along with the corresponding **GridNestedViewItem**
 
-1. Perform a recursive call in case the referenced GridTableView's __Items__ collection is not empty
+1. Perform a recursive call in case the referenced GridTableView's **Items** collection is not empty
 
 Below is the code of a simple demo implementation:
 
->note In case you use .NET 3.5 or later, you should set the __EnableLinqExpressions__ property of the RadGrid control to __false__ or use Linq syntax for the grid FilterExpression.
+>note In case you use .NET 3.5 or later, you should set the **EnableLinqExpressions** property of the RadGrid control to **false** or use Linq syntax for the grid FilterExpression.
 >
 
 

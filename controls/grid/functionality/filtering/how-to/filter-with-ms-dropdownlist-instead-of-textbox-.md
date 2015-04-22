@@ -1,6 +1,6 @@
 ---
 title: Filter with MS DropDownList Instead of Textbox 
-page_title: Filter with MS DropDownList Instead of Textbox  | UI for ASP.NET AJAX Documentation
+page_title: Filter with MS DropDownList Instead of Textbox  | RadGrid for ASP.NET AJAX Documentation
 description: Filter with MS DropDownList Instead of Textbox 
 slug: grid/functionality/filtering/how-to/filter-with-ms-dropdownlist-instead-of-textbox-
 tags: filter,with,ms,dropdownlist,instead,of,textbox,
@@ -16,21 +16,21 @@ You can create a custom column class that replaces the filter text box with a dr
 
 The following steps describe how to achieve this result:
 
-1. Create a custom column class that extends the default __GridBoundColumn__.
+1. Create a custom column class that extends the default **GridBoundColumn**.
 
-1. In this custom column class, override the __SetupFilterControls__ method to replace the filter text box and image button with a __DropDownList__ control. Configure the __DropDownList__ control as desired. At a minimum,
+1. In this custom column class, override the **SetupFilterControls** method to replace the filter text box and image button with a **DropDownList** control. Configure the **DropDownList** control as desired. At a minimum,
 
-* Set the __AutoPostBack__ property to __True__.
+* Set the **AutoPostBack** property to **True**.
 
-* Set the __ID__ property to a unique value.
+* Set the **ID** property to a unique value.
 
 * Bind the items list.
 
-* Add a __SelectedIndexChanged__ event handler.
+* Add a **SelectedIndexChanged** event handler.
 
-1. Override the __SetCurrentFilterValueToControl__ and __GetCurrentFilterValueFromControl__ methods to set or get the __SelectedValue__ of the drop-down list.
+1. Override the **SetCurrentFilterValueToControl** and **GetCurrentFilterValueFromControl** methods to set or get the **SelectedValue** of the drop-down list.
 
-1. In the __SelectedIndexChanged__ event handler, get the __GridFilteringItem__ of the grid and call its __FireCommandEvent__ method to initiate a filter command.
+1. In the **SelectedIndexChanged** event handler, get the **GridFilteringItem** of the grid and call its **FireCommandEvent** method to initiate a filter command.
 
 ## Defining the custom column class
 
@@ -178,7 +178,7 @@ The following example illustrates how to create a custom column class that repla
 
 ## Adding custom columns to a grid
 
-You can add instances of your custom column type __RadGrid__ as follows:
+You can add instances of your custom column type **RadGrid** as follows:
 
 1. At the top of the the ASPX page, register the namespace for the custom column class. You do not need to add an Assembly attribute, unless the class is defined in another assembly:
 
@@ -230,9 +230,9 @@ You can add instances of your custom column type __RadGrid__ as follows:
 
 
 
-1. The __MyCustomFilteringColumn__ implementation requires a __ListDataSource__. You can set that in the __Page_Load__ event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
+1. The **MyCustomFilteringColumn** implementation requires a **ListDataSource**. You can set that in the **Page_Load** event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
 
->note This example sets the __ListDataSource__ property in the __Page_Load__ event handler. If you are binding your grid using the __NeedDataSource__ event, it is more appropriate to set the __ListDataSource__ in that event handler. (NeedDataSource does not occur when using declarative data binding.)
+>note This example sets the **ListDataSource** property in the **Page_Load** event handler. If you are binding your grid using the **NeedDataSource** event, it is more appropriate to set the **ListDataSource** in that event handler. (NeedDataSource does not occur when using declarative data binding.)
 >
 
 

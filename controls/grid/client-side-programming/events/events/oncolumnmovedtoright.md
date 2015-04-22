@@ -1,6 +1,6 @@
 ---
 title: OnColumnMovedToRight
-page_title: OnColumnMovedToRight | UI for ASP.NET AJAX Documentation
+page_title: OnColumnMovedToRight | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnMovedToRight
 slug: grid/client-side-programming/events/events/oncolumnmovedtoright
 tags: oncolumnmovedtoright
@@ -23,10 +23,10 @@ Sys.EventArgs OnColumnMovedToRight Property
 This event is fired after a column is moved right.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - returns the DOM event that was raised for the current event|
-| __Can be canceled__ |No|
+| **Arguments** | **gridColumn** - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - returns the DOM event that was raised for the current event|
+| **Can be canceled** |No|
 
 Example:
 

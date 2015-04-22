@@ -1,6 +1,6 @@
 ---
 title: Updating Values Using InPlace and EditForms Modes
-page_title: Updating Values Using InPlace and EditForms Modes | UI for ASP.NET AJAX Documentation
+page_title: Updating Values Using InPlace and EditForms Modes | RadGrid for ASP.NET AJAX Documentation
 description: Updating Values Using InPlace and EditForms Modes
 slug: grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes
 tags: updating,values,using,inplace,and,editforms,modes
@@ -16,11 +16,11 @@ There are three common techniques for updating a grid row when the user edits it
 
 1. Enable [automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%}) for the grid: This approach requires no code on your part. For a live example illustrating this approach, see [Automatic Operations](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx).
 
-1. Use the table view's __ExtractValuesFromItem(dictonaryObject, editedItem)__ method: For this approach, create an empty dictionary object and pass it as the first parameter of the __ExtractValuesFromItem__ method. Pass the edited item as the second parameter. The __ExtractValuesFromItem__ method fills the dictionary object with __key/value__ pairs where each __key__ is the __DataField__ of an edited field column and the corresponding __value__ is the new data entered by the user.
+1. Use the table view's **ExtractValuesFromItem(dictonaryObject, editedItem)** method: For this approach, create an empty dictionary object and pass it as the first parameter of the **ExtractValuesFromItem** method. Pass the edited item as the second parameter. The **ExtractValuesFromItem** method fills the dictionary object with **key/value** pairs where each **key** is the **DataField** of an edited field column and the corresponding **value** is the new data entered by the user.
 
 1. Fetch the data from each edited field individually through the auto-generated column editors: For this approach, you need to iterate through the editable fields of the edited row and modify the grid source on every iteration.
 
-When using the second or third approach, you can refresh the grid content inside an __UpdateCommand__ event handler. The following examples illustrate these techniques. They both use the same grid declaration:
+When using the second or third approach, you can refresh the grid content inside an **UpdateCommand** event handler. The following examples illustrate these techniques. They both use the same grid declaration:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
@@ -39,7 +39,7 @@ When using the second or third approach, you can refresh the grid content inside
 
 
 
-Both examples also use a __ViewState__ property (named "GridSource") for maintaining the grid's data source, and have the same __NeedDataSource__ event handler:
+Both examples also use a **ViewState** property (named "GridSource") for maintaining the grid's data source, and have the same **NeedDataSource** event handler:
 
 
 

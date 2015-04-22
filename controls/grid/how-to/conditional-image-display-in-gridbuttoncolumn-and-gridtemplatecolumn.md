@@ -1,6 +1,6 @@
 ---
 title: Conditional Image Display in GridButtonColumn and GridTemplateColumn
-page_title: Conditional Image Display in GridButtonColumn and GridTemplateColumn | UI for ASP.NET AJAX Documentation
+page_title: Conditional Image Display in GridButtonColumn and GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: Conditional Image Display in GridButtonColumn and GridTemplateColumn
 slug: grid/how-to/conditional-image-display-in-gridbuttoncolumn-and-gridtemplatecolumn
 tags: conditional,image,display,in,gridbuttoncolumn,and,gridtemplatecolumn
@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-There are cases in which you would like to display/not display image inside __GridButtonColumn/GridTemplateColumn__ in relation with value in other column.
+There are cases in which you would like to display/not display image inside **GridButtonColumn/GridTemplateColumn** in relation with value in other column.
 
-The example below demonstrates how to fulfill this task for __GridButtonColumn__ and __GridCheckBoxColumn__ (note that similar operations can be performed for GridTemplateColumn and other column types).You can retrieve reference to the __checkbox__ the inside the grid item cell which correspond to the __GridCheckBoxColumn__. This can be done in the __ItemDataBound__ handler of the grid. After you get the checkbox control you can verify whether the checkbox is checked (to assign __ImageUrl__ for the __ImageButton__ in the __GridButtonColumn__) or not checked (to __clear__ the controls inside the respective __GridButtonColumn__ cell).
+The example below demonstrates how to fulfill this task for **GridButtonColumn** and **GridCheckBoxColumn** (note that similar operations can be performed for GridTemplateColumn and other column types).You can retrieve reference to the **checkbox** the inside the grid item cell which correspond to the **GridCheckBoxColumn**. This can be done in the **ItemDataBound** handler of the grid. After you get the checkbox control you can verify whether the checkbox is checked (to assign **ImageUrl** for the **ImageButton** in the **GridButtonColumn**) or not checked (to **clear** the controls inside the respective **GridButtonColumn** cell).
 
-Here is an example (__CheckBoxColumn__ and __ButtonColumn__ are the [ UniqueNames]({%slug grid/rows/accessing-cells-and-rows%}) for our columns):
+Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueNames]({%slug grid/rows/accessing-cells-and-rows%}) for our columns):
 
 
 

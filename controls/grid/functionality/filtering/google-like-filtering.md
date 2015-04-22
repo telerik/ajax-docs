@@ -1,6 +1,6 @@
 ---
 title: Google-like Filtering
-page_title: Google-like Filtering | UI for ASP.NET AJAX Documentation
+page_title: Google-like Filtering | RadGrid for ASP.NET AJAX Documentation
 description: Google-like Filtering
 slug: grid/functionality/filtering/google-like-filtering
 tags: google-like,filtering
@@ -18,21 +18,21 @@ It allows displaying the available options while the user types in a RadComboBox
 
 Here is the list of actions needed to achieve this:
 
-* Extend the default __GridBoundColumn__ to remove the default textbox and embed RadComboBox inside the filtering cell.
+* Extend the default **GridBoundColumn** to remove the default textbox and embed RadComboBox inside the filtering cell.
 
-* Configure the options for RadComboBox control as per your requirements (the essential parts are to set __ShowToggleImage = false__, __ID__ for the combobox, __EnableLoadOnDemand=true, MarkFirstMatch = true__and attach the __ItemsRequested/SelectedIndexChanged__ events). These operation should take place in the overriden __SetupFilterControls(TableCell cell)__method.
+* Configure the options for RadComboBox control as per your requirements (the essential parts are to set **ShowToggleImage = false**, **ID** for the combobox, **EnableLoadOnDemand=true, MarkFirstMatch = true**and attach the **ItemsRequested/SelectedIndexChanged** events). These operation should take place in the overriden **SetupFilterControls(TableCell cell)**method.
 
-* Override the __SetCurrentFilterValueToControl(TableCell cell) / GetCurrentFilterValueFromControl(TableCell cell)__methods to set/get the user input.
+* Override the **SetCurrentFilterValueToControl(TableCell cell) / GetCurrentFilterValueFromControl(TableCell cell)**methods to set/get the user input.
 
-* Filter the combobox items in the __ItemsRequested__ handler depending on the __UniqueName__ of the currently filtered column.
+* Filter the combobox items in the **ItemsRequested** handler depending on the **UniqueName** of the currently filtered column.
 
-* Raise command event for the __GridFilteringItem__ calling its __FireCommandEvent(commandName, new Pair(filterFunctionName, columnUniqueName))__ method.
+* Raise command event for the **GridFilteringItem** calling its **FireCommandEvent(commandName, new Pair(filterFunctionName, columnUniqueName))** method.
 
 This example is expanded by enabling the AJAXmechanism of the grid along with its built-in paging and sorting features. The filtering action will be triggered when you choose item from a look-up textbox or type inside filtering input and press Enter from the keyboard.
 
-In addition, there is __Clear filter__ button on the page which restores the initial grid content.
+In addition, there is **Clear filter** button on the page which restores the initial grid content.
 
-__Note:__ In this case search is performed for matches in the default grid source on each filter command. That is why each column's __CurrentFilterFunction__ is set to __GridKnownFunction.NoFilter__and __CurrentFilterValue__ to __String.Empty__ on filter operation.
+**Note:** In this case search is performed for matches in the default grid source on each filter command. That is why each column's **CurrentFilterFunction** is set to **GridKnownFunction.NoFilter**and **CurrentFilterValue** to **String.Empty** on filter operation.
 
 ![Google-like filtering](images/grdGoogleLikeFiltering.PNG)
 

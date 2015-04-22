@@ -1,6 +1,6 @@
 ---
 title: Binding to Nullable Objects
-page_title: Binding to Nullable Objects | UI for ASP.NET AJAX Documentation
+page_title: Binding to Nullable Objects | RadGrid for ASP.NET AJAX Documentation
 description: Binding to Nullable Objects
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-nullable-objects
 tags: binding,to,nullable,objects
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-You can use a wide variety of custom objects as data sources for __RadGrid__. The only requirement is that the custom objects must implement the __ITypedList__, __IEnumarable__, or __ICustomTypeDescriptor__ interface. __RadGrid__ can bind to a list of custom objects with __Nullable__ properties, as shown in the following example:
+You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumarable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to a list of custom objects with **Nullable** properties, as shown in the following example:
 
 
 

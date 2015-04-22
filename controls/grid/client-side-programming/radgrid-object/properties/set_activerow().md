@@ -1,6 +1,6 @@
 ---
 title: set_activeRow()
-page_title: set_activeRow() | UI for ASP.NET AJAX Documentation
+page_title: set_activeRow() | RadGrid for ASP.NET AJAX Documentation
 description: set_activeRow()
 slug: grid/client-side-programming/radgrid-object/properties/set_activerow()
 tags: set_activerow()
@@ -17,9 +17,9 @@ position: 0
 Property which marks the row passed as an argument as active and highlighted.
 
 
-|  __set_activeRow(rowObject)__  |  |  |
+|  **set_activeRow(rowObject)**  |  |  |
 | ------ | ------ | ------ |
-| __rowObject__ |GridDataItem object|The row that will be set as active.|
+| **rowObject** |GridDataItem object|The row that will be set as active.|
 
 Example:
 

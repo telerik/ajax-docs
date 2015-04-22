@@ -1,6 +1,6 @@
 ---
 title: Localizing Edit Command Column
-page_title: Localizing Edit Command Column | UI for ASP.NET AJAX Documentation
+page_title: Localizing Edit Command Column | RadGrid for ASP.NET AJAX Documentation
 description: Localizing Edit Command Column
 slug: grid/accessibility-and-internationalization/localizing-edit-command-column
 tags: localizing,edit,command,column
@@ -18,13 +18,13 @@ In order to localize the Edit/Update/Cancel buttons text you need to use the sam
 
 In case of in-place editing, you need to set the following properties for GridEditCommandColumn:
 
-* __EditText__
+* **EditText**
 
-* __UpdateText__
+* **UpdateText**
 
-* __InsertText__
+* **InsertText**
 
-* __CancelText__
+* **CancelText**
 
 ````ASPNET
 	    <MasterTableView EditMode="InPlace">
@@ -42,13 +42,13 @@ In case of in-place editing, you need to set the following properties for GridEd
 
 ## Edit in forms (EditMode="EditForms" or EditMode="PopUp")
 
-In case of editing in forms, you need to set the following properties for __EditColumn__ under __MasterTableView__.__EditFormSettings:__
+In case of editing in forms, you need to set the following properties for **EditColumn** under **MasterTableView**.**EditFormSettings:**
 
-* __UpdateText__
+* **UpdateText**
 
-* __InsertText__
+* **InsertText**
 
-* __CancelText__
+* **CancelText**
 
 ````ASPNET
 	    <MasterTableView>
@@ -68,6 +68,6 @@ In case of editing in forms, you need to set the following properties for __Edit
 
 
 
->note When edit in forms ____ is applied, __MasterTableView__ . __EditFormSettings__ can not be used for localizing the __EditText__ property. Since the edit control is outside of the edit form you should set the __GridEditCommandColumn.EditText__ property as demonstrated above.
+>note When edit in forms is applied, **MasterTableView** . **EditFormSettings** can not be used for localizing the **EditText** property. Since the edit control is outside of the edit form you should set the **GridEditCommandColumn.EditText** property as demonstrated above.
 >
 

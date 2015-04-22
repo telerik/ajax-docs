@@ -1,6 +1,6 @@
 ---
 title: Known Reasons for Error Messages
-page_title: Known Reasons for Error Messages | UI for ASP.NET AJAX Documentation
+page_title: Known Reasons for Error Messages | RadGrid for ASP.NET AJAX Documentation
 description: Known Reasons for Error Messages
 slug: grid/troubleshooting/known-reasons-for-error-messages
 tags: known,reasons,for,error,messages
@@ -48,11 +48,11 @@ or
 
 This may be caused by one of the following reasons:
 
-* __Server.Transfer__
+* **Server.Transfer**
 
-* __Incorrect loading of an "Ajaxified" user control__
+* **Incorrect loading of an "Ajaxified" user control**
 
-* __Custom http handler.__
+* **Custom http handler.**
 
 The message is quite descriptive. Below are several resources in regards with this matter:
 
@@ -62,11 +62,11 @@ The message is quite descriptive. Below are several resources in regards with th
 
 ## Error message "Telerik.Web.UI.GridInsertionObject does not contain a property with the name <some_name>" Or 'DropDownList' has a SelectedValue which is invalid because it does not exist in the list of items
 
-The reason for this error is that your grid instance can not bind a value for the newly inserted item through the __Eval__()/__Bind__() syntax you hard-coded (as you may have seen from the stack trace of the error).
+The reason for this error is that your grid instance can not bind a value for the newly inserted item through the **Eval**()/**Bind**() syntax you hard-coded (as you may have seen from the stack trace of the error).
 
 This problem can be fixed in the following ways:
 
-* Preset the default value of the control(s) when binding to a grid item on the __RadGrid.InitInsertCommandName__ command. For auto-generated edit forms, you should prepare a Hashtable (or other dictionary) with the predefined values for your insert form controls and pass it as parameter to the __InsertItem__ method:
+* Preset the default value of the control(s) when binding to a grid item on the **RadGrid.InitInsertCommandName** command. For auto-generated edit forms, you should prepare a Hashtable (or other dictionary) with the predefined values for your insert form controls and pass it as parameter to the **InsertItem** method:
 
 
 
@@ -101,11 +101,11 @@ This problem can be fixed in the following ways:
 ````
 
 
-* Do not set declaratively (using __Eval()/Bind()__ expression) the value for your control(s) in the html code of the page/user control
+* Do not set declaratively (using **Eval()/Bind()** expression) the value for your control(s) in the html code of the page/user control
 
 More info about how to set predefined values for different auto-generated column editors you can find at the end of [ this topic]({%slug grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes%})
 
-For custom edit forms (__WebUserControl/FormTemplate__) you can refer to the  last paragraph  in [this help topic]({%slug grid/data-editing/insert-records/inserting-values-using-usercontrol/formtemplate%}).
+For custom edit forms (**WebUserControl/FormTemplate**) you can refer to the  last paragraph  in [this help topic]({%slug grid/data-editing/insert-records/inserting-values-using-usercontrol/formtemplate%}).
 
 ## Error message "These columns don't currently have unique values"
 
@@ -125,9 +125,9 @@ There are two possible reasons for this error message to appear:
 
 When you strip the space from the item/or add space at the end of the string for the other two fields with the same name, the problem should disappear.It seems that the relation created by the DataSource control and the grid on grouping are not unique when the difference between these field values is merely a space.Currently we are researching this matter thoroughly and will do everything possible to fix it in one of the next versions of the grid.
 
-* Another possible reason for this problem (which appears intermittently) could be that you have cells in a grid column with the same text but with different captions. We suggest you to set the __RadGridInstance.GroupSettings.CaseSensitive__ option of the grid to __false__.
+* Another possible reason for this problem (which appears intermittently) could be that you have cells in a grid column with the same text but with different captions. We suggest you to set the **RadGridInstance.GroupSettings.CaseSensitive** option of the grid to **false**.
 
-* You use __FieldAliases__ for the grouping expressions. Removing the __FieldAlias__ from the respective group expression(s) should prevent the exception generation.Please note, however, that with such a modification, the relations when you group by the respective column may return different results when you drag items with equal text and different captions. Actually the source of the issue is related to the Microsoft Data Components (DataTable, DataSet, etc.) and we will try to find an accurate solution for one of the upcoming versions of Telerik RadGrid.
+* You use **FieldAliases** for the grouping expressions. Removing the **FieldAlias** from the respective group expression(s) should prevent the exception generation.Please note, however, that with such a modification, the relations when you group by the respective column may return different results when you drag items with equal text and different captions. Actually the source of the issue is related to the Microsoft Data Components (DataTable, DataSet, etc.) and we will try to find an accurate solution for one of the upcoming versions of Telerik RadGrid.
 
 ## Error message "The data source '<dataSourceName>' does not support sorting with IEnumerable data. Automatic sorting is only supported with DataView, DataTable, and DataSet"
 
@@ -139,7 +139,7 @@ This online resource elaborates on the subject:
 
 Other possible solution is to bind this collection inside the [NeedDataSource handler](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx) - in this case RadGrid will able to sort the data without any problems.
 
-The third option is to set the __OverrideDataSourceControlSorting__property of the MasterTableView/GridTableView to __true__ (the default value is false). With this setting you will force the grid to override DataSourceControl's default sorting and use the RadGrid native sorting instead. Hence the solution is applicable in case of ObjectDataSource with IEnumerable data (or other custom data source controls) without implemented sorting as depicted in point 1.
+The third option is to set the **OverrideDataSourceControlSorting**property of the MasterTableView/GridTableView to **true** (the default value is false). With this setting you will force the grid to override DataSourceControl's default sorting and use the RadGrid native sorting instead. Hence the solution is applicable in case of ObjectDataSource with IEnumerable data (or other custom data source controls) without implemented sorting as depicted in point 1.
 
 ## Error message "Internet Explorer cannot download 'file' from 'server'.Internet Explorer was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later." when exporting from an SSL page in IE
 

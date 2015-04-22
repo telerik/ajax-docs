@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop from RadGrid to RadScheduler
-page_title: Drag and Drop from RadGrid to RadScheduler | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop from RadGrid to RadScheduler | RadGrid for ASP.NET AJAX Documentation
 description: Drag and Drop from RadGrid to RadScheduler
 slug: grid/application-scenarios/drag-and-drop-from-radgrid-to-radscheduler
 tags: drag,and,drop,from,radgrid,to,radscheduler
@@ -16,9 +16,9 @@ position: 17
 
 When a task is dragged from the grid to the scheduler, the time slot which will receive the appointment is highlighted. After the task is dropped, it appears in the RadScheduler control as an appointment and it is removed from the grid. This is achieved by updating the data sources and rebinding both controls.
 
-Clicking the __Unschedule__ button (implemented via AppointmentTemplate) removes the appointment and sends it back to the task list of the grid. In contrast, deleting an appointment removes the appointemnt altogether - both from the scheduler and the grid.
+Clicking the **Unschedule** button (implemented via AppointmentTemplate) removes the appointment and sends it back to the task list of the grid. In contrast, deleting an appointment removes the appointemnt altogether - both from the scheduler and the grid.
 
-The appointments can be modified in the grid on row double-click, or new ones can be added using the __Add new task__ button.
+The appointments can be modified in the grid on row double-click, or new ones can be added using the **Add new task** button.
 
 ![Drag and drop from grid to scheduler](images/grid_drag-drop-to-scheduler.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Using PagerTextFormat
-page_title: Using PagerTextFormat | UI for ASP.NET AJAX Documentation
+page_title: Using PagerTextFormat | RadGrid for ASP.NET AJAX Documentation
 description: Using PagerTextFormat
 slug: grid/functionality/paging/changing-the-default-pager/using-pagertextformat
 tags: using,pagertextformat
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-You can set the format of the text that appears in the __Pager__ using the __PagerTextFormat__ property. The value of this property is an __ASP.NET__ formatting string.
+You can set the format of the text that appears in the **Pager** using the **PagerTextFormat** property. The value of this property is an **ASP.NET** formatting string.
 
-Here is the format that should be used when __Mode__ is "__NextPrev__":
+Here is the format that should be used when **Mode** is "**NextPrev**":
 
 
 >caption  
@@ -24,7 +24,7 @@ Here is the format that should be used when __Mode__ is "__NextPrev__":
 | Change page: {4}|Page {0} of {1}, items {2} to {3} of {5} |
 | ------ |
 
-The rest of the grid pagers ("__NumericPages__", "__NextPrevAndNumeric__", "__Advanced__", "__NextPrevNumericAndAdvanced__" and "__Slider__") use a slightly different format:
+The rest of the grid pagers ("**NumericPages**", "**NextPrevAndNumeric**", "**Advanced**", "**NextPrevNumericAndAdvanced**" and "**Slider**") use a slightly different format:
 
 
 >caption  
@@ -46,11 +46,11 @@ No matter which pager you choose, the meaning of the different parameters is as 
 
 * {5} is the total number of items (records) in the data source.
 
->note The ' __{4}__ ' parameter is mandatory when setting the property. __'Page {0} of {1}, items {2} to {3} of {5}__ ' represents the text message displayed on the right side of the pager item. Setting this part of the property is optional.
+>note The ' **{4}** ' parameter is mandatory when setting the property. **'Page {0} of {1}, items {2} to {3} of {5}** ' represents the text message displayed on the right side of the pager item. Setting this part of the property is optional.
 >
 
 
-The following screen shots show how the pager looks for each of the different pager modes before and after __PagerTextFormat__ is set:
+The following screen shots show how the pager looks for each of the different pager modes before and after **PagerTextFormat** is set:
 
 ````ASPNET
 	  <PagerStyle Mode="NextPrev" />
@@ -153,6 +153,6 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Slider/Text Pager Mode](images/RadGrid_PagerMode_Slider_PagerText.jpg)
 
->note In order to change the text on the right side of the __RadSlider__ you should set the __ClientMessages.PagerTooltipFormatString__  ** property.
+>note In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString**  ** property.
 >
 

@@ -1,6 +1,6 @@
 ---
 title: Saving the grid ViewState in Session
-page_title: Saving the grid ViewState in Session | UI for ASP.NET AJAX Documentation
+page_title: Saving the grid ViewState in Session | RadGrid for ASP.NET AJAX Documentation
 description: Saving the grid ViewState in Session
 slug: grid/performance/saving-the-grid-viewstate-in-session
 tags: saving,the,grid,viewstate,in,session
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-There are cases in which you may want to reduce the grid ViewState though you have enabled multiple server/client side features of the control (thus bypassing the EnableViewState = false choice with [its limitations]({%slug grid/performance/optimizing-viewstate-usage%})). In such situation to work properly with the __NeedDataSource__ advanced data-binding or population through data source control, Telerik RadGrid's ViewState has to be turned on.
+There are cases in which you may want to reduce the grid ViewState though you have enabled multiple server/client side features of the control (thus bypassing the EnableViewState = false choice with [its limitations]({%slug grid/performance/optimizing-viewstate-usage%})). In such situation to work properly with the **NeedDataSource** advanced data-binding or population through data source control, Telerik RadGrid's ViewState has to be turned on.
 
-Still, a possible solution for ViewState reduction is to relocate it in a Session variable. The code below illustrates how to apply this technique under ASP.NET 2.x or 3.x:__ASP.NET 2.x/3.x:__
+Still, a possible solution for ViewState reduction is to relocate it in a Session variable. The code below illustrates how to apply this technique under ASP.NET 2.x or 3.x:**ASP.NET 2.x/3.x:**
 
 
 

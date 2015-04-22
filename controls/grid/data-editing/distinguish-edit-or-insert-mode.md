@@ -1,6 +1,6 @@
 ---
 title: Distinguish Edit or Insert Mode
-page_title: Distinguish Edit or Insert Mode | UI for ASP.NET AJAX Documentation
+page_title: Distinguish Edit or Insert Mode | RadGrid for ASP.NET AJAX Documentation
 description: Distinguish Edit or Insert Mode
 slug: grid/data-editing/distinguish-edit-or-insert-mode
 tags: distinguish,edit,or,insert,mode
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-In various situations you may want to detect whether the user is currently editing grid item or performs an insert operation. This is useful if you would like to have different appearance for the edit form on item insertion than that on item editing (suitable for __WebUserControl__ or __FormTemplate__ custom edit form). For example, you may want to hide primary key field from the form or change __update__ button text to __insert__ on initial insert. These online example demonstrates the second functionality:
+In various situations you may want to detect whether the user is currently editing grid item or performs an insert operation. This is useful if you would like to have different appearance for the edit form on item insertion than that on item editing (suitable for **WebUserControl** or **FormTemplate** custom edit form). For example, you may want to hide primary key field from the form or change **update** button text to **insert** on initial insert. These online example demonstrates the second functionality:
 
 [http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
@@ -36,7 +36,7 @@ And the code extractions are:
 
 
 
-You can check the type of the editable item in the __ItemCreated/ItemDataBound__ handlers of the grid to verifywhether the item is in edit or insert mode. Then you can modify the edit form appearance(on __ItemCreated__) or edit form controls values (on __ItemDataBound__) if needed. Below are sample code snippets:
+You can check the type of the editable item in the **ItemCreated/ItemDataBound** handlers of the grid to verifywhether the item is in edit or insert mode. Then you can modify the edit form appearance(on **ItemCreated**) or edit form controls values (on **ItemDataBound**) if needed. Below are sample code snippets:
 
 
 
@@ -93,4 +93,4 @@ You can check the type of the editable item in the __ItemCreated/ItemDataBound__
 ````
 
 
-For more information concerning the major differences between __ItemCreated__ and __ItemDataBound__ events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( http://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).
+For more information concerning the major differences between **ItemCreated** and **ItemDataBound** events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( http://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).

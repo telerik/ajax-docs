@@ -1,6 +1,6 @@
 ---
 title: Using the  GetItems GetColumn and GetColumnSafe Methods
-page_title: Using the  GetItems GetColumn and GetColumnSafe Methods | UI for ASP.NET AJAX Documentation
+page_title: Using the  GetItems GetColumn and GetColumnSafe Methods | RadGrid for ASP.NET AJAX Documentation
 description: Using the  GetItems GetColumn and GetColumnSafe Methods
 slug: grid/how-to/using-the--getitems-getcolumn-and-getcolumnsafe-methods
 tags: using,the,,getitems,getcolumn,and,getcolumnsafe,methods
@@ -14,9 +14,9 @@ position: 5
 
 ## 
 
-In various cases you may want to access grid functional items/columns outside of the grid server event handlers. This is easily attainable with the __GetItems(itemType),____GetColumn(columnName)__ and __GetColumnSafe(columnName)__ methods (exposed by each __GridTableView__ instance).
+In various cases you may want to access grid functional items/columns outside of the grid server event handlers. This is easily attainable with the **GetItems(itemType), GetColumn(columnName)** and **GetColumnSafe(columnName)** methods (exposed by each **GridTableView** instance).
 
-The __GetItems(itemType)__ method returns an array of items (in the respective GridTableView) which match the specified type. You can use the __GridItemType__ enumeration to choose the item type, for example:
+The **GetItems(itemType)** method returns an array of items (in the respective GridTableView) which match the specified type. You can use the **GridItemType** enumeration to choose the item type, for example:
 
 
 
@@ -30,7 +30,7 @@ The __GetItems(itemType)__ method returns an array of items (in the respective G
 ````
 
 
-The __GetColumn(columnName)__ method returns the column with the unique name specified as argument, namely:
+The **GetColumn(columnName)** method returns the column with the unique name specified as argument, namely:
 
 
 
@@ -44,7 +44,7 @@ The __GetColumn(columnName)__ method returns the column with the unique name spe
 ````
 
 
-The __GetColumnSafe(columnName)__ performs the same task as __GetColumn(columnName)__ method, however __GetColumnSafe__ will not raise an exception in case column with that name is not found in the corresponding __GridTableView__.
+The **GetColumnSafe(columnName)** performs the same task as **GetColumn(columnName)** method, however **GetColumnSafe** will not raise an exception in case column with that name is not found in the corresponding **GridTableView**.
 
 The forthcoming sample implementation is made for hierarchical grid with two levels. With separate buttons on the page you can:
 
@@ -52,9 +52,9 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 
 * enable/disable the link button inside the master table command item template
 
-* show/hide the __CustomerID__ column in the main table (calling the __GetColumn(columnName)__ method)
+* show/hide the **CustomerID** column in the main table (calling the **GetColumn(columnName)** method)
 
-* modify the width for the __OrderID__ column in each detail table (only for expanded parent items)
+* modify the width for the **OrderID** column in each detail table (only for expanded parent items)
 
 >caution The new size for the OrderID column will be retained till the next rebind action in the grid
 >

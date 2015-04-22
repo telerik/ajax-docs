@@ -1,6 +1,6 @@
 ---
 title: Resizing Rows
-page_title: Resizing Rows | UI for ASP.NET AJAX Documentation
+page_title: Resizing Rows | RadGrid for ASP.NET AJAX Documentation
 description: Resizing Rows
 slug: grid/rows/resizing-rows
 tags: resizing,rows
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-You can allow row resizing by setting the __ClientSettings.Resizing.AllowRowResize__ property to __true__. When you set this property, __RadGrid__ automatically generates a column of type __GridRowIndicatorColumn__, to make it easier for users to resize rows. Rows can be resized by dragging any part of their bottom edge, so if you prefer to hide the RowIndicatorColumn, please set __ClientSettings.Resizing.ShowRowIndicatorColumn__ to __false__.
+You can allow row resizing by setting the **ClientSettings.Resizing.AllowRowResize** property to **true**. When you set this property, **RadGrid** automatically generates a column of type **GridRowIndicatorColumn**, to make it easier for users to resize rows. Rows can be resized by dragging any part of their bottom edge, so if you prefer to hide the RowIndicatorColumn, please set **ClientSettings.Resizing.ShowRowIndicatorColumn** to **false**.
 
 ![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
 

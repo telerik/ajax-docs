@@ -1,6 +1,6 @@
 ---
 title: editSelectedItems
-page_title: editSelectedItems | UI for ASP.NET AJAX Documentation
+page_title: editSelectedItems | RadGrid for ASP.NET AJAX Documentation
 description: editSelectedItems
 slug: grid/client-side-programming/gridtableview-object/methods/editselecteditems
 tags: editselecteditems
@@ -17,7 +17,7 @@ position: 13
 Method which switches all selected items in the grid in edit mode.
 
 
-|  __function editSelectedItems()__  |
+|  **function editSelectedItems()**  |
 | ------ |
 ||
 

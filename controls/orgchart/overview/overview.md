@@ -1,6 +1,6 @@
 ---
-title: Overview Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadOrgChart Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: orgchart/overview/overview
 tags: overview
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-Telerik __RadOrgChart__ for ASP.NET AJAX is a flexible organizational chart control for ASP.NET applications.
+Telerik **RadOrgChart** for ASP.NET AJAX is a flexible organizational chart control for ASP.NET applications.
 
 It is specially designed to represent a structure of an organization in terms of relationships among personnel and/or departments.
 
-It is a powerful and at the same time easy-to-use control that represents data in the most intuitive way so that the final user can understand the structure of an organization at a single glance. The __RadOrgChart__ control introduces a number of advanced features, including:
+It is a powerful and at the same time easy-to-use control that represents data in the most intuitive way so that the final user can understand the structure of an organization at a single glance. The **RadOrgChart** control introduces a number of advanced features, including:
 
 * [Easy to setup data binding, supporting rich variety of data sources]({%slug orgchart/data-binding/overview%});
 

@@ -1,6 +1,6 @@
 ---
 title: extractKeysFromItem
-page_title: extractKeysFromItem | UI for ASP.NET AJAX Documentation
+page_title: extractKeysFromItem | RadGrid for ASP.NET AJAX Documentation
 description: extractKeysFromItem
 slug: grid/client-side-programming/gridtableview-object/methods/extractkeysfromitem
 tags: extractkeysfromitem
@@ -14,7 +14,7 @@ position: 19
 
 ## 
 
-Method which extracts the key values (added to the __ClientDataKeyNames__ collection of the master/detail table) from the edited table row passed as an argument or the row corresponding to the index passed as an argument. The values will be fetched purely client-side and the data will be returned in an object array which can be traversed to get each individual data entry.
+Method which extracts the key values (added to the **ClientDataKeyNames** collection of the master/detail table) from the edited table row passed as an argument or the row corresponding to the index passed as an argument. The values will be fetched purely client-side and the data will be returned in an object array which can be traversed to get each individual data entry.
 
 >note Supported with InPlace and EditForms auto-generated edit form!
 >
@@ -25,10 +25,10 @@ Method which extracts the key values (added to the __ClientDataKeyNames__ collec
 
 
 
-|  __extractKeyFromItem(gridItem) or extractKeysFromItem(index)__  |  |  |
+|  **extractKeyFromItem(gridItem) or extractKeysFromItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __gridItem__ |HTML row object - <tr>|The editable row from which the key values will be extracted ( __GridDataItem__ ).|
-| __index__ |Integer|The editable row (corresponding to the __index__ ) from which the key values will be extracted.|
+| **gridItem** |HTML row object - <tr>|The editable row from which the key values will be extracted ( **GridDataItem** ).|
+| **index** |Integer|The editable row (corresponding to the **index** ) from which the key values will be extracted.|
 
 Example:
 

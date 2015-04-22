@@ -1,6 +1,6 @@
 ---
 title: Spell Check RadGrid Editors
-page_title: Spell Check RadGrid Editors | UI for ASP.NET AJAX Documentation
+page_title: Spell Check RadGrid Editors | RadGrid for ASP.NET AJAX Documentation
 description: Spell Check RadGrid Editors
 slug: grid/application-scenarios/spell-check-radgrid-editors
 tags: spell,check,radgrid,editors

@@ -1,6 +1,6 @@
 ---
 title: get_filterExpressions()
-page_title: get_filterExpressions() | UI for ASP.NET AJAX Documentation
+page_title: get_filterExpressions() | RadGrid for ASP.NET AJAX Documentation
 description: get_filterExpressions()
 slug: grid/client-side-programming/gridtableview-object/collections/get_filterexpressions()
 tags: get_filterexpressions()
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-A collection of __Telerik.Web.UI.GridFilterExpression__ objects. Represents the filter expressions applied for the grid instance.
+A collection of **Telerik.Web.UI.GridFilterExpression** objects. Represents the filter expressions applied for the grid instance.
 
-The toString() javascript method executed over this collection will return SQL string representation of all filter expressions concatenated by 'AND' reserved words. While filter expressions toString() method will create SQL syntax representing current grid filtering, you can also take advantage of the __toDynamicLinq()__ javascript method which will create LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
+The toString() javascript method executed over this collection will return SQL string representation of all filter expressions concatenated by 'AND' reserved words. While filter expressions toString() method will create SQL syntax representing current grid filtering, you can also take advantage of the **toDynamicLinq()** javascript method which will create LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
 
-Furthermore, you can also utilize the __toList()__ javascript method in order to pass an array of items (representing the filter expression elements) to the server and operate with them using GridFilterExpression server object.
+Furthermore, you can also utilize the **toList()** javascript method in order to pass an array of items (representing the filter expression elements) to the server and operate with them using GridFilterExpression server object.
 
-When the toString() method is executed over a particular __Telerik.Web.UI.GridFilterExpression__ object, it will return SQL string representation of the expression using the __Telerik.Web.UI.GridFilterFunctionsSqlFormat__ enumeration values:
+When the toString() method is executed over a particular **Telerik.Web.UI.GridFilterExpression** object, it will return SQL string representation of the expression using the **Telerik.Web.UI.GridFilterFunctionsSqlFormat** enumeration values:
 
 ````JavaScript
 	Telerik.Web.UI.GridFilterFunctionsSqlFormat = function()
@@ -48,11 +48,11 @@ When the toString() method is executed over a particular __Telerik.Web.UI.GridFi
 
 
 
-The __toDynamicLinq()__ javascript method can be executed over a single __Telerik.Web.UI.GridFilterExpression__ object, which will generate LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
+The **toDynamicLinq()** javascript method can be executed over a single **Telerik.Web.UI.GridFilterExpression** object, which will generate LINQ expression that can be used directly with [Dynamic LINQ library](http://weblogs.asp.net/scottgu/archive/2008/01/07/dynamic-linq-part-1-using-the-linq-dynamic-query-library.aspx).
 
-Additionally, there is another method - __toDataService()__, which again can be executed over a single __Telerik.Web.UI.GridFilterExpression__ object and will generate an expression that can be recognized by ADO.NET Data Services.
+Additionally, there is another method - **toDataService()**, which again can be executed over a single **Telerik.Web.UI.GridFilterExpression** object and will generate an expression that can be recognized by ADO.NET Data Services.
 
-There is one more method - __toOql()__ for filter expressions which can be used if you want to bind the grid client-side directly to Telerik OpenAccess OQL query. Here are some code blocks which illustrates sample approach:
+There is one more method - **toOql()** for filter expressions which can be used if you want to bind the grid client-side directly to Telerik OpenAccess OQL query. Here are some code blocks which illustrates sample approach:
 
 ````JavaScript
 	//attach the OnDataBinding client-side event of the gridfunction RadGrid1_DataBinding(sender, args)
@@ -128,7 +128,7 @@ There is one more method - __toOql()__ for filter expressions which can be used 
 ````
 
 
-Each filter expression (of type __Telerik.Web.UI.GridFilterExpression__) has *fieldName, fieldValue, columnUniqueName, dataTypeName and filterFunction* properties which hold the field name, field value (filter pattern typed by the user), the unique name of the filtered column, the data type and the filter function applied to it (respectively). To retrieve the values from these properties use the __get_fieldName(), get_fieldValue(), get_columnUniqueName().get_dataTypeName()__ and __get_filterFunction()__ properties of the corresponding GridFilterExpression. Below is a sample code excerpt using OnCommand client-side event handler:
+Each filter expression (of type **Telerik.Web.UI.GridFilterExpression**) has *fieldName, fieldValue, columnUniqueName, dataTypeName and filterFunction* properties which hold the field name, field value (filter pattern typed by the user), the unique name of the filtered column, the data type and the filter function applied to it (respectively). To retrieve the values from these properties use the **get_fieldName(), get_fieldValue(), get_columnUniqueName().get_dataTypeName()** and **get_filterFunction()** properties of the corresponding GridFilterExpression. Below is a sample code excerpt using OnCommand client-side event handler:
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -165,7 +165,7 @@ Each filter expression (of type __Telerik.Web.UI.GridFilterExpression__) has *fi
 
 
 
-Where the possible values for the __Telerik.Web.UI.GridFilterFunction__ enumeration are listed below:
+Where the possible values for the **Telerik.Web.UI.GridFilterFunction** enumeration are listed below:
 
 ````JavaScript
 	Telerik.Web.UI.GridFilterFunction.prototype = 

@@ -1,6 +1,6 @@
 ---
 title: OnPopUpShowing
-page_title: OnPopUpShowing | UI for ASP.NET AJAX Documentation
+page_title: OnPopUpShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnPopUpShowing
 slug: grid/client-side-programming/events/events/onpopupshowing
 tags: onpopupshowing
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnPopUpShowing Property
 This event fires when the pop-up edit form is being shown. The event could be handled to set the position of the pop-up edit form of RadGrid.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __popUp__ - html element of the pop-up edit form|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **popUp** - html element of the pop-up edit form|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

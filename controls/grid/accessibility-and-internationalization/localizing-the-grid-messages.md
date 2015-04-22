@@ -1,6 +1,6 @@
 ---
 title: Localizing the Grid Messages
-page_title: Localizing the Grid Messages | UI for ASP.NET AJAX Documentation
+page_title: Localizing the Grid Messages | RadGrid for ASP.NET AJAX Documentation
 description: Localizing the Grid Messages
 slug: grid/accessibility-and-internationalization/localizing-the-grid-messages
 tags: localizing,the,grid,messages
@@ -19,47 +19,47 @@ Telerik RadGrid provides the following properties for localization of the hard-c
 
 >caption  
 
-|  __GridHierarchySettings__ - __RadGrid.HierarchySettings__  |  |
+|  **GridHierarchySettings** - **RadGrid.HierarchySettings**  |  |
 | ------ | ------ |
-| __ExpandTooltip__ |The tooltip that will be displayed over the expand child tables button.|
-| __CollapseTooltip__ |The tooltip that will be displayed over the collapse child tables button.|
-| __GridGroupingSettings - RadGrid.GroupingSettings__ ||
-| __GroupContinuesFormatString__ |The group header message, indicating that the group continues on the next page.|
-| __GroupContinuedFormatString__ |The group header message, indicating that the group continues from the previous page.|
-| __ExpandTooltip__ |The tooltip that will be displayed over the expand groups button.|
-| __CollapseTooltip__ |The tooltip that will be displayed over the collapse groups button.|
-| __UnGroupTooltip__ |The tooltip that will be displayed over the items in the group panel.|
-| __GridGroupPanelSettings - RadGrid.GroupPanel__ ||
-| __Text__ |The text that will be rendered inside the group panel when visible.|
-| __GridClientMessages__ - __RadGrid.ClientSettings.ClientMessages__ ||
-| __DropHereToReorder__ |The tooltip that will be displayed when you start dragging a column.|
-| __DragToGroupOrReorder__ |The tooltip that will be displayed when you hover a column header of draggable column.|
-| __DragToResize__ |The tooltip that will be displayed when you hover the resizing handle of a column.|
-| __PagerTooltipFormatString__ |The tooltip that will be displayed when you hover the vertical scroll when virtual scrolling is enabled. The format is "Page {0} of {1}"|
-| __GridSortingSettings - RadGrid.SortingSettings__ ||
-| __SortToolTip__ |The tooltip that will be displayed when you hover the sorting button and there is no sorting applied.|
-| __SortedAscToolTip__ |The tooltip that will be displayed when you hover the sorting button and the column is sorted ascending.|
-| __SortedDescToolTip__ |The tooltip that will be displayed when you hover the sorting button and the column is sorted descending.|
+| **ExpandTooltip** |The tooltip that will be displayed over the expand child tables button.|
+| **CollapseTooltip** |The tooltip that will be displayed over the collapse child tables button.|
+| **GridGroupingSettings - RadGrid.GroupingSettings** ||
+| **GroupContinuesFormatString** |The group header message, indicating that the group continues on the next page.|
+| **GroupContinuedFormatString** |The group header message, indicating that the group continues from the previous page.|
+| **ExpandTooltip** |The tooltip that will be displayed over the expand groups button.|
+| **CollapseTooltip** |The tooltip that will be displayed over the collapse groups button.|
+| **UnGroupTooltip** |The tooltip that will be displayed over the items in the group panel.|
+| **GridGroupPanelSettings - RadGrid.GroupPanel** ||
+| **Text** |The text that will be rendered inside the group panel when visible.|
+| **GridClientMessages** - **RadGrid.ClientSettings.ClientMessages** ||
+| **DropHereToReorder** |The tooltip that will be displayed when you start dragging a column.|
+| **DragToGroupOrReorder** |The tooltip that will be displayed when you hover a column header of draggable column.|
+| **DragToResize** |The tooltip that will be displayed when you hover the resizing handle of a column.|
+| **PagerTooltipFormatString** |The tooltip that will be displayed when you hover the vertical scroll when virtual scrolling is enabled. The format is "Page {0} of {1}"|
+| **GridSortingSettings - RadGrid.SortingSettings** ||
+| **SortToolTip** |The tooltip that will be displayed when you hover the sorting button and there is no sorting applied.|
+| **SortedAscToolTip** |The tooltip that will be displayed when you hover the sorting button and the column is sorted ascending.|
+| **SortedDescToolTip** |The tooltip that will be displayed when you hover the sorting button and the column is sorted descending.|
 
 ## Localizing the GridTableView messages
 
-Telerik RadGrid provides the following properties for customizing the messages related to __GridTableView__.
+Telerik RadGrid provides the following properties for customizing the messages related to **GridTableView**.
 
 
 >caption  
 
-|  __NoMasterRecordsText__  | The text that will be displayed in the __NoRecordsTemplate__ when there are no records in the __MasterTableView__ . |
+|  **NoMasterRecordsText**  | The text that will be displayed in the **NoRecordsTemplate** when there are no records in the **MasterTableView** . |
 | ------ | ------ |
-| __NoDetailRecordsText__ |The text that will be displayed in the __NoRecordsTemplate__ when there are no records in the Detail tables.|
+| **NoDetailRecordsText** |The text that will be displayed in the **NoRecordsTemplate** when there are no records in the Detail tables.|
 
 ## Localizing the GridStatusBarItem messages
 
 
 >caption  
 
-|  __ReadyText__  | The text that will be displayed when Telerik RadGrid is not performing an AJAX request. |
+|  **ReadyText**  | The text that will be displayed when Telerik RadGrid is not performing an AJAX request. |
 | ------ | ------ |
-| __LoadingText__ |The text that will be displayed when Telerik RadGrid is performing an AJAX request.|
+| **LoadingText** |The text that will be displayed when Telerik RadGrid is performing an AJAX request.|
 
 
 
@@ -70,7 +70,7 @@ Localizing the GridPagerItem messages
 
 >caption 
 
-|  __RadGrid.PagerStyle__  |  |
+|  **RadGrid.PagerStyle**  |  |
 | ------ | ------ |
 |PrevPageToolTip|The tooltip that will be displayed over the previous page button.|
 |PrevPagesToolTip|The tooltip that will be displayed over the previous pages button.|

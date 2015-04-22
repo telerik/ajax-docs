@@ -1,6 +1,6 @@
 ---
 title: Different Edit and Insert Forms
-page_title: Different Edit and Insert Forms | UI for ASP.NET AJAX Documentation
+page_title: Different Edit and Insert Forms | RadGrid for ASP.NET AJAX Documentation
 description: Different Edit and Insert Forms
 slug: grid/data-editing/how-to/different-edit-and-insert-forms
 tags: different,edit,and,insert,forms
@@ -14,11 +14,11 @@ position: 11
 
 ## 
 
-In number of cases it can be more convenient to have different edit/insert form when configuring __EditForms__ edit mode for your grid instance. This can be especially helpful when you want to allow the user enter value for some of the grid columns on insert (for the newly created record in the grid) but forbid that on edit command. The sample approach below represents how to implement this functionality with minimum amount of code (residing in the __ItemCommand__ handler of the grid). These are the main points:
+In number of cases it can be more convenient to have different edit/insert form when configuring **EditForms** edit mode for your grid instance. This can be especially helpful when you want to allow the user enter value for some of the grid columns on insert (for the newly created record in the grid) but forbid that on edit command. The sample approach below represents how to implement this functionality with minimum amount of code (residing in the **ItemCommand** handler of the grid). These are the main points:
 
-* when the command name passed through the __e.CommandName__ argument is either __Edit__, __PerformInsert__ or __Cancel__, hide the corresponding column in the grid and set it as read-only.
+* when the command name passed through the **e.CommandName** argument is either **Edit**, **PerformInsert** or **Cancel**, hide the corresponding column in the grid and set it as read-only.
 
-* when the command name is __InitInsert__, cancel the default insert action and display the column editor for the hidden column by setting its __ReadOnly__ property to __false__. The additional __Display="true"__ setting is used when the __EditForm__ attribute of the grid table is set to __InPlace__.____
+* when the command name is **InitInsert**, cancel the default insert action and display the column editor for the hidden column by setting its **ReadOnly** property to **false**. The additional **Display="true"** setting is used when the **EditForm** attribute of the grid table is set to **InPlace**.****
 
 Note that you can extend the example to switch the visibility for multiple column editor instances on insert/update.
 

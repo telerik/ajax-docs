@@ -1,6 +1,6 @@
 ---
 title: get_allowMultiRowSelection()
-page_title: get_allowMultiRowSelection() | UI for ASP.NET AJAX Documentation
+page_title: get_allowMultiRowSelection() | RadGrid for ASP.NET AJAX Documentation
 description: get_allowMultiRowSelection()
 slug: grid/client-side-programming/radgrid-object/properties/get_allowmultirowselection()
 tags: get_allowmultirowselection()
@@ -17,7 +17,7 @@ position: 2
 Property which returns a Boolean result that indicates if multiple row select is enabled. See [Selecting multiple rows (client-side)]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows%}) topic for more details.
 
 
-|  __get_allowMultiRowSelection()__  |
+|  **get_allowMultiRowSelection()**  |
 | ------ |
 ||
 

@@ -1,6 +1,6 @@
 ---
 title: Virtual Scrolling and Paging
-page_title: Virtual Scrolling and Paging | UI for ASP.NET AJAX Documentation
+page_title: Virtual Scrolling and Paging | RadGrid for ASP.NET AJAX Documentation
 description: Virtual Scrolling and Paging
 slug: grid/ajaxified-radgrid/virtual-scrolling-and-paging
 tags: virtual,scrolling,and,paging
@@ -12,21 +12,21 @@ position: 2
 
 
 
-When working with large data sets, it is convenient to use the __RadGrid__ paging mechanism. However, for really huge data sets, crawling through pages using only the grid pager may become a hard and boring task for users. For really huge data sets, __RadGrid__ allows virtual scrolling.
+When working with large data sets, it is convenient to use the **RadGrid** paging mechanism. However, for really huge data sets, crawling through pages using only the grid pager may become a hard and boring task for users. For really huge data sets, **RadGrid** allows virtual scrolling.
 
 ## Virtual scroll bar
 
-When scrolling with the virtual scroll bar, __RadGrid__ can use either standard postbacks or AJAX requests (when AJAX callbacks are enabled using __RadAjaxManager__, __RadAjaxPanel__, or MS __UpdatePanel__). By using AJAX callbacks, the overall behavior is smooth, with no flicker.
+When scrolling with the virtual scroll bar, **RadGrid** can use either standard postbacks or AJAX requests (when AJAX callbacks are enabled using **RadAjaxManager**, **RadAjaxPanel**, or MS **UpdatePanel**). By using AJAX callbacks, the overall behavior is smooth, with no flicker.
 
 ![Virtual Paging/Scrolling](images/grd_VirtualPaging_markedup.png)
 
 To enable virtual scrolling for browsing large record sets,
 
-1. Set the __ClientSettings.Scrolling.AllowScroll__ and __ClientSettings.Scrolling.EnableVirtualScrollPaging__ properties to __True__.
+1. Set the **ClientSettings.Scrolling.AllowScroll** and **ClientSettings.Scrolling.EnableVirtualScrollPaging** properties to **True**.
 
-1. Set the __AllowPaging__ and __AllowCustomPaging__ properties to __True__. Set the __VirtualItemCount__ property to the total number of records in the data source.
+1. Set the **AllowPaging** and **AllowCustomPaging** properties to **True**. Set the **VirtualItemCount** property to the total number of records in the data source.
 
-1. Bind the grid using the __NeedDataSource__ event, and in the event handler, use the __CurrentPageIndex__ property to determine which subset of the records to fetch.
+1. Bind the grid using the **NeedDataSource** event, and in the event handler, use the **CurrentPageIndex** property to determine which subset of the records to fetch.
 
 ````C#
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -79,23 +79,23 @@ Another approach is to trigger an AJAX request to increase the page size when th
 
 The following steps describe how to achieve this effect:
 
-1. Add a __RadGrid__ control to your Web page.
+1. Add a **RadGrid** control to your Web page.
 
 1. vBind it to a data source.
 
-1. Enable __Paging__ in the grid, but set the __PagerStyle.Visible__ property to __False__ so that the pager does not show.
+1. Enable **Paging** in the grid, but set the **PagerStyle.Visible** property to **False** so that the pager does not show.
 
-1. Enable Scrolling in the grid. Set the __ClientSettings.Scrolling.ScrollHeight__ sufficiently small so that the scroll bar appears when the grid first loads.
+1. Enable Scrolling in the grid. Set the **ClientSettings.Scrolling.ScrollHeight** sufficiently small so that the scroll bar appears when the grid first loads.
 
-1. Add a __RadAjaxManager__ and __RadAjaxLoadingPanel__ to the Web page.
+1. Add a **RadAjaxManager** and **RadAjaxLoadingPanel** to the Web page.
 
-1. Configure the __RadAjaxManager__ so that it lets __RadGrid__ initiate AJAX requests. Set __RadGrid__ as the control to update in response to those requests, and set the __LoadingPanelID__ property for those updates to the ID of the __RadAjaxLoadingPanel__.
+1. Configure the **RadAjaxManager** so that it lets **RadGrid** initiate AJAX requests. Set **RadGrid** as the control to update in response to those requests, and set the **LoadingPanelID** property for those updates to the ID of the **RadAjaxLoadingPanel**.
 
-1. Add an __AjaxRequest__ event handler to the __RadAjaxManager__. In the event handler, increase the __PageSize__ property of the __RadGrid__ and the call the grid's __Rebind__ method. This increases the number of pages that the grid can display.
+1. Add an **AjaxRequest** event handler to the **RadAjaxManager**. In the event handler, increase the **PageSize** property of the **RadGrid** and the call the grid's **Rebind** method. This increases the number of pages that the grid can display.
 
-1. In the ASPX file, Add a __RadCodeBlock__ with a javascript function (called "HandleScrolling" in the example below) to triggers an AJAX request when the grid's scroll bar is at the bottom. This AJAX request will cause the __AjaxRequest__ event handler that you just added to execute and fetch more records.
+1. In the ASPX file, Add a **RadCodeBlock** with a javascript function (called "HandleScrolling" in the example below) to triggers an AJAX request when the grid's scroll bar is at the bottom. This AJAX request will cause the **AjaxRequest** event handler that you just added to execute and fetch more records.
 
-1. Assign the javascript function as the event handler for the __OnScroll__ client event of the grid.
+1. Assign the javascript function as the event handler for the **OnScroll** client event of the grid.
 
 ````C#
 	  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

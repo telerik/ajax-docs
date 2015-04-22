@@ -1,6 +1,6 @@
 ---
 title: Adding Columns from Design Time
-page_title: Adding Columns from Design Time | UI for ASP.NET AJAX Documentation
+page_title: Adding Columns from Design Time | RadGrid for ASP.NET AJAX Documentation
 description: Adding Columns from Design Time
 slug: grid/design-time-/adding-columns-from-design-time
 tags: adding,columns,from,design,time
@@ -18,7 +18,7 @@ The Columns section allows you to set the way columns are generated and visualiz
 
 ## Automatic column generation
 
-At the top of the Telerik RadGrid Property Builder dialog, there is a check box called "Create columns automatically at runtime". This will set the __AutoGenerateColumns__ property to __true__.
+At the top of the Telerik RadGrid Property Builder dialog, there is a check box called "Create columns automatically at runtime". This will set the **AutoGenerateColumns** property to **true**.
 
 >note Ticking this check box will override the options for bound columns below. If you need to bound columns, uncheck this box.
 >
@@ -32,27 +32,27 @@ From the "Available Columns" list choose the columns, which you want to bind (di
 
 In the "Available Columns" list there are some special columns. These columns do not represent a data field. They present specific Telerik RadGrid features such as:
 
-* __GridBoundColumn__
+* **GridBoundColumn**
 
-* __GridCheckBoxColumn__
+* **GridCheckBoxColumn**
 
-* __GridDropDownColumn__
+* **GridDropDownColumn**
 
-* __GridTemplateColumn__
+* **GridTemplateColumn**
 
-* __GridEditCommandColumn__
+* **GridEditCommandColumn**
 
-* __GridHyperlinkColumn__
+* **GridHyperlinkColumn**
 
-* __GridButtonColumn__
+* **GridButtonColumn**
 
-* __GridExpandColumn__
+* **GridExpandColumn**
 
-* __GridDateTimeColumn__
+* **GridDateTimeColumn**
 
-* __GridMaskedColumn__
+* **GridMaskedColumn**
 
-* __GridNumericColumn__
+* **GridNumericColumn**
 
 These columns are available in the *MasterTableView -> Columns* collection from the RadGrid Property Grid in Visual Studio (see the screenshot below) and described in the [Column Types]({%slug grid/columns/column-types%}) topic.
 

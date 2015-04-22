@@ -1,6 +1,6 @@
 ---
 title: cancelAll
-page_title: cancelAll | UI for ASP.NET AJAX Documentation
+page_title: cancelAll | RadGrid for ASP.NET AJAX Documentation
 description: cancelAll
 slug: grid/client-side-programming/gridtableview-object/methods/cancelall
 tags: cancelall
@@ -17,7 +17,7 @@ position: 0
 Cancels the edit mode for all grid items that are switched in edit mode prior to the method call.
 
 
-|  __cancelAll()__  |
+|  **cancelAll()**  |
 | ------ |
 ||
 

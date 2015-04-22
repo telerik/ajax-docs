@@ -1,6 +1,6 @@
 ---
 title: Changing the Grid Structure Dynamically on Postback
-page_title: Changing the Grid Structure Dynamically on Postback | UI for ASP.NET AJAX Documentation
+page_title: Changing the Grid Structure Dynamically on Postback | RadGrid for ASP.NET AJAX Documentation
 description: Changing the Grid Structure Dynamically on Postback
 slug: grid/defining-structure/changing-the-grid-structure-dynamically-on-postback
 tags: changing,the,grid,structure,dynamically,on,postback
@@ -14,17 +14,17 @@ position: 3
 
 ## 
 
-You can modify the columns collection of a __RadGrid__ dynamically on postback request, giving your user the freedom to alter the grid column structure when needed. For example, you could change the structure of the grid when the user chooses an option from a control that resides outside of the grid.
+You can modify the columns collection of a **RadGrid** dynamically on postback request, giving your user the freedom to alter the grid column structure when needed. For example, you could change the structure of the grid when the user chooses an option from a control that resides outside of the grid.
 
 The first option would be to use auto-generated columns for the grid and merely change its data source and invoke its Rebind() method on postback. Thus the [NeedDataSource event]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%}) of the grid will be raised explicitly and the control will be populated with the new data.
 
 The second approach will require changing the grid column structure programmatically. There are two points to keep in mind when modifying the grid columns on postback:
 
-* You must ensure that the entire grid, including its columns collection, is modified on __Page_Init__ so that the control __ViewState__ remains consistent. Otherwise, built-in features such as sorting, paging, and so on will not function as expected.
+* You must ensure that the entire grid, including its columns collection, is modified on **Page_Init** so that the control **ViewState** remains consistent. Otherwise, built-in features such as sorting, paging, and so on will not function as expected.
 
-* You should set the __EnableColumnViewState__ property to __False__, so that the grid knows that the columns may vary at some stage of the page lifecycle.
+* You should set the **EnableColumnViewState** property to **False**, so that the grid knows that the columns may vary at some stage of the page lifecycle.
 
-The following code snippets illustrate how to change the columns in a dynamically created grid, based on a drop-down list selection. Note that the code which constructs the grid fetches the selected value from the drop-down list by referencing the combobox using __Request.Form.Get(controlId)__ method of the ASP.NET AJAX framework (an alternative solution would be to use the __Request.Form.Keys__ collection to identify whether the combobox triggered the submit, more info on this approach can be gathered from [here](http://forums.asp.net/p/1159322/1912061.aspx)):
+The following code snippets illustrate how to change the columns in a dynamically created grid, based on a drop-down list selection. Note that the code which constructs the grid fetches the selected value from the drop-down list by referencing the combobox using **Request.Form.Get(controlId)** method of the ASP.NET AJAX framework (an alternative solution would be to use the **Request.Form.Keys** collection to identify whether the combobox triggered the submit, more info on this approach can be gathered from [here](http://forums.asp.net/p/1159322/1912061.aspx)):
 
 
 

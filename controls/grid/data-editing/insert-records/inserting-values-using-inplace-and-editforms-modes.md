@@ -1,6 +1,6 @@
 ---
 title: Inserting Values Using InPlace and EditForms Modes
-page_title: Inserting Values Using InPlace and EditForms Modes | UI for ASP.NET AJAX Documentation
+page_title: Inserting Values Using InPlace and EditForms Modes | RadGrid for ASP.NET AJAX Documentation
 description: Inserting Values Using InPlace and EditForms Modes
 slug: grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes
 tags: inserting,values,using,inplace,and,editforms,modes
@@ -12,15 +12,15 @@ position: 0
 
 
 
-__Insert operation__Generally, there are three common techniques to insert grid row with __InPlace__ and __EditForms__ edit mode:
+**Insert operation**Generally, there are three common techniques to insert grid row with **InPlace** and **EditForms** edit mode:
 
 1. Enabling the automatic operations for the control - this is a codeless approach and requires zero lines of code (see [this online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more info).
 
-1. Use the __ExtractValuesFromItem(dictonaryObject, editedItem)__ method. You can create an empty dictionary object and pass it as first parameter of the __ExtractValuesFromItem()__ method to extract the values from the inserted item (which is the second parameter to that method). The dictionary object will hold __key -> value__ pairs where each __key__ will be the __DataField__of the insertion field column and the corresponding __value__ will be the data entered by the user.
+1. Use the **ExtractValuesFromItem(dictonaryObject, editedItem)** method. You can create an empty dictionary object and pass it as first parameter of the **ExtractValuesFromItem()** method to extract the values from the inserted item (which is the second parameter to that method). The dictionary object will hold **key -> value** pairs where each **key** will be the **DataField**of the insertion field column and the corresponding **value** will be the data entered by the user.
 
 1. Fetch the data from each editor field individually through the auto-generated column editors. For this purpose you will need to iterate through the editable fields for the inserted grid row and modify the grid source on every loop.
 
-The code below demonstrates the both approaches about how to perform the insert operation in Telerik RadGrid when the user presses the __Insert__ button from the insertion form (thus firing the __InsertCommand__ event).
+The code below demonstrates the both approaches about how to perform the insert operation in Telerik RadGrid when the user presses the **Insert** button from the insertion form (thus firing the **InsertCommand** event).
 
 >note Note that we use the ViewState property (named GridSource) to update the grid source.
 >
@@ -327,13 +327,13 @@ The code below demonstrates the both approaches about how to perform the insert 
 ````
 
 
-__Note__: You can also see the [ Accessing cells and rows]({%slug grid/rows/accessing-cells-and-rows%}) section for more details about insert dependance from the __Display/Visible/ReadOnly__ properties of grid columns.
+**Note**: You can also see the [ Accessing cells and rows]({%slug grid/rows/accessing-cells-and-rows%}) section for more details about insert dependance from the **Display/Visible/ReadOnly** properties of grid columns.
 
 ## Setting predefined values for different column editors
 
-In order to set predefined insert values for different column editors you can take advantage of the __DefaultInsertValue__ property exposed and supported by the following columns of the RadGrid control: __GridBoundColumn, GridCheckBoxColumn, GridHTMLEditorColumn, GridNumericColumn, GridDateTimeColumn, GridMaskedColumn, GridTemplateColumn__. The DefaultInsertValue property is of type System.String. When a grid item enters into insert mode the preset default insert value will be converted to the type specified by the DataType property of the column and will be bound to the column data field. If the developer chooses to set default insert values in the alternative way described below - the values in the DefaultInsertValue property for all columns will be disregarded.
+In order to set predefined insert values for different column editors you can take advantage of the **DefaultInsertValue** property exposed and supported by the following columns of the RadGrid control: **GridBoundColumn, GridCheckBoxColumn, GridHTMLEditorColumn, GridNumericColumn, GridDateTimeColumn, GridMaskedColumn, GridTemplateColumn**. The DefaultInsertValue property is of type System.String. When a grid item enters into insert mode the preset default insert value will be converted to the type specified by the DataType property of the column and will be bound to the column data field. If the developer chooses to set default insert values in the alternative way described below - the values in the DefaultInsertValue property for all columns will be disregarded.
 
-Alternatively, you can use the [ API for controlling automatic operationsto achieve your goal.]({%slug grid/data-editing/api-for-controlling-the-automatic-operations%}) To set default values for __GridBoundColumn/GridDropDownColumn/GridCheckBoxColumn__/etc. field you can create __ListDictionary__ object and set these preset values using the columns __UniqueNames__ as keys.For __GridTemplateColumn__ fields, make sure that you specify the field to which you bind the control inside the template column as __key__ for the dictionary object (passed to the __InsertItem(newValues)__ method).
+Alternatively, you can use the [ API for controlling automatic operationsto achieve your goal.]({%slug grid/data-editing/api-for-controlling-the-automatic-operations%}) To set default values for **GridBoundColumn/GridDropDownColumn/GridCheckBoxColumn**/etc. field you can create **ListDictionary** object and set these preset values using the columns **UniqueNames** as keys.For **GridTemplateColumn** fields, make sure that you specify the field to which you bind the control inside the template column as **key** for the dictionary object (passed to the **InsertItem(newValues)** method).
 
 Below is a sample demonstration:
 
@@ -426,7 +426,7 @@ Below is a sample demonstration:
 ````
 
 
-The other option is to set __AppendDataBoundItems="true"__ for the dropdown list (residing in edit template of template column) and add __default empty item__ in the dropdown control to avoid exception generation on initial insert:
+The other option is to set **AppendDataBoundItems="true"** for the dropdown list (residing in edit template of template column) and add **default empty item** in the dropdown control to avoid exception generation on initial insert:
 
 ````ASPNET
 	<telerik:GridTemplateColumn>

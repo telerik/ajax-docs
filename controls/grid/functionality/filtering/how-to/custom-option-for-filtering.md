@@ -1,6 +1,6 @@
 ---
 title: Custom Option for Filtering
-page_title: Custom Option for Filtering | UI for ASP.NET AJAX Documentation
+page_title: Custom Option for Filtering | RadGrid for ASP.NET AJAX Documentation
 description: Custom Option for Filtering
 slug: grid/functionality/filtering/how-to/custom-option-for-filtering
 tags: custom,option,for,filtering
@@ -14,31 +14,31 @@ position: 12
 
 You can use the "Custom" filter function to introduce a filter function that is not included in the default list, or to allow multiple columns with the same data type to have different filtering menus.
 
-The __RadGrid__ filtering menu is implemented using a single object server-side, which is cloned for the separate column menus that appear client-side. This implementation speeds up grid performance, but means that every column of the same data type displays the same list of available filter functions.
+The **RadGrid** filtering menu is implemented using a single object server-side, which is cloned for the separate column menus that appear client-side. This implementation speeds up grid performance, but means that every column of the same data type displays the same list of available filter functions.
 
 Suppose you want to remove a filtering option from the menu of a column while leaving it available in the menu of another column that has the same data type. You can accomplish this in the following way:
 
-1. Add a handler for the __Init__ event of the grid. In the __Init__ event handler,
+1. Add a handler for the **Init** event of the grid. In the **Init** event handler,
 
-1. Remove the filtering function from the __FilterMenu__ of the grid. This removes it from the menu of all the columns in the grid.
+1. Remove the filtering function from the **FilterMenu** of the grid. This removes it from the menu of all the columns in the grid.
 
 1. Change the menu item for the "Custom" filtering function so that its text is the name of the filtering function you removed.
 
-1. On any column that should allow the removed filtering function, set the __FilterListOptions__ property to __VaryByDataTypeAllowCustom__. This adds a "Custom" option (which now looks like the removed filtering function) to the end of the filter menu for that column.
+1. On any column that should allow the removed filtering function, set the **FilterListOptions** property to **VaryByDataTypeAllowCustom**. This adds a "Custom" option (which now looks like the removed filtering function) to the end of the filter menu for that column.
 
-1. Add a handler for the __ItemCommand__ event of the grid. In the __ItemCommand__ event handler,
+1. Add a handler for the **ItemCommand** event of the grid. In the **ItemCommand** event handler,
 
-1. Identify commands from the filter menu by checking that the value of __e.CommandName__ is __RadGrid.FilterCommandName__.
+1. Identify commands from the filter menu by checking that the value of **e.CommandName** is **RadGrid.FilterCommandName**.
 
-1. The value of __e.CommandArgument__ is a __Pair__ object that contains the name of the filtering function and the __UniqueName__ of the column.
+1. The value of **e.CommandArgument** is a **Pair** object that contains the name of the filtering function and the **UniqueName** of the column.
 
 1. When the filtering function is "Custom", change it to the name of the filtering function you removed.
 
 1. As an alternate approach, when the filtering function is "Custom", you can
 
-* Set __e.Canceled__ to __True__ to cancel the default filtering.
+* Set **e.Canceled** to **True** to cancel the default filtering.
 
-* Set the __FilterExpression__ property of the table that contains the column to a valid filter expression. Be sure to honor any existing filter expression that is already set.
+* Set the **FilterExpression** property of the table that contains the column to a valid filter expression. Be sure to honor any existing filter expression that is already set.
 
 * Rebind the grid to apply the filter expression.
 
@@ -125,7 +125,7 @@ Suppose you want to remove a filtering option from the menu of a column while le
 
 ## Example2: Replacing the filter expression
 
-For this example, you can use the same ASPX file and __Init__ handler as the last example. Only the __ItemCommand__ handler is different. In the example that follows, the grid behaves the same way as in the previous example. However, this approach is more extendable, as you can introduce any valid filter expression, not just mimic the behavior of one of the built-in choices.
+For this example, you can use the same ASPX file and **Init** handler as the last example. Only the **ItemCommand** handler is different. In the example that follows, the grid behaves the same way as in the previous example. However, this approach is more extendable, as you can introduce any valid filter expression, not just mimic the behavior of one of the built-in choices.
 
 
 

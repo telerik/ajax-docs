@@ -1,6 +1,6 @@
 ---
 title: findControl
-page_title: findControl | UI for ASP.NET AJAX Documentation
+page_title: findControl | RadGrid for ASP.NET AJAX Documentation
 description: findControl
 slug: grid/client-side-programming/griddataitem-object/methods/findcontrol
 tags: findcontrol
@@ -17,9 +17,9 @@ position: 0
 This method takes control id for an argument and returns the corresponding client object of RadControl or ASP.NET AJAX control inside the grid row. Useful to reference client objects of controls inside a grid item cell on the client.
 
 
-|  __findControl(id)__  |  |  |
+|  **findControl(id)**  |  |  |
 | ------ | ------ | ------ |
-| __id__ |String|The id of a RadControl or other ASP.NET AJAX control.|
+| **id** |String|The id of a RadControl or other ASP.NET AJAX control.|
 
 Example:
 

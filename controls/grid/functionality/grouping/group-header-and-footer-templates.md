@@ -1,6 +1,6 @@
 ---
 title: Group Header and Footer Templates
-page_title: Group Header and Footer Templates | UI for ASP.NET AJAX Documentation
+page_title: Group Header and Footer Templates | RadGrid for ASP.NET AJAX Documentation
 description: Group Header and Footer Templates
 slug: grid/functionality/grouping/group-header-and-footer-templates
 tags: group,header,and,footer,templates
@@ -14,11 +14,11 @@ position: 3
 
 From Q3 2011 RadGrid supports templates for the GridGroupHeader and GridGroupFooter items. This topic will introduce you to the main things that you should know when you decide to use them.
 
-Each GridTableView object contains a __GroupHeaderTemplate__ and __GroupFooterTemplate__ properties for specifying a template that will show inside each group's header and footer rows. You can use them to provide a more customized look for the group totals display. Here follows a description of each template's specifics:
+Each GridTableView object contains a **GroupHeaderTemplate** and **GroupFooterTemplate** properties for specifying a template that will show inside each group's header and footer rows. You can use them to provide a more customized look for the group totals display. Here follows a description of each template's specifics:
 
 ## Group header template
 
-It is specified inside the GroupHeaderTemplate tag of each GridTableView. In order to bind controls inside it to the current group's value, you can use the __AggregatesValues__ collection of the __GridGroupHeaderItem__. This collection has been exposed especially for this purpose - to simplify getting the values of a group or respectively the total result of a GroupByExpression's Aggregate. It is indexed by:
+It is specified inside the GroupHeaderTemplate tag of each GridTableView. In order to bind controls inside it to the current group's value, you can use the **AggregatesValues** collection of the **GridGroupHeaderItem**. This collection has been exposed especially for this purpose - to simplify getting the values of a group or respectively the total result of a GroupByExpression's Aggregate. It is indexed by:
 
 * the name of the field used for grouping in order to get the current group value.
 
@@ -26,15 +26,15 @@ It is specified inside the GroupHeaderTemplate tag of each GridTableView. In ord
 
 Keep in mind that only the values for the current group are available in its context, in other words - you can get the them only for the field that you are currently grouping by. You can use this fact for the purpose of controlling the visibility of controls inside the templates based on the field that you are grouping by.
 
->note Note that when grouping by a __GridCalculatedColumn__ 's values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should access AggregatesValues["TotalPriceResult"] in order to get the total.
+>note Note that when grouping by a **GridCalculatedColumn** 's values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should access AggregatesValues["TotalPriceResult"] in order to get the total.
 >
 
 
 ## Group footer template
 
-The template can be specified inside the __GridFooterTemplate__ tag of each GridTableView. The footer exposes the total values for the current group and you can use the Eval() method to bind controls inside the template to these values, specifying the field name as an argument.
+The template can be specified inside the **GridFooterTemplate** tag of each GridTableView. The footer exposes the total values for the current group and you can use the Eval() method to bind controls inside the template to these values, specifying the field name as an argument.
 
-Same as when accessing header totals, when grouping by a __GridCalculatedColumn__'s values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should use Eval("TotalPriceResult") in order to get the total.
+Same as when accessing header totals, when grouping by a **GridCalculatedColumn**'s values, you should access the totals using the field name with the string *"Result"* appended to it, e.g. if the column name is "TotalPrice", you should use Eval("TotalPriceResult") in order to get the total.
 
 Below follows and example of group header and footer templates usage.
 

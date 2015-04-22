@@ -1,6 +1,6 @@
 ---
 title: get_sortExpressions()
-page_title: get_sortExpressions() | UI for ASP.NET AJAX Documentation
+page_title: get_sortExpressions() | RadGrid for ASP.NET AJAX Documentation
 description: get_sortExpressions()
 slug: grid/client-side-programming/gridtableview-object/collections/get_sortexpressions()
 tags: get_sortexpressions()
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-A collection of __Telerik.Web.UI.GridSortExpression__ objects. Represents the sort expressions applied for the grid instance. The __toString()__ javascript method executed over this collection will return coma separated string of all expressions (in case of AllowMultiColumnSorting) or a single sort expression if multi-column sorting is disabled. You can also utilize the __toList()__ javascript method in order to pass an array of items (representing the sort expressions applied) to the server and operate with them using a GridSortExpression server-side object. Each sort expression (of type __Telerik.Web.UI.GridSortExpression__) has *fieldName* and *sortOrder* properties which hold the *DataField* of the sorted column and the sort direction (Ascending, Descending or None). To retrieve the values from these properties use the __get_fieldName()__ and __get_sortOrder()__ properties of the corresponding GridSortExpression.
+A collection of **Telerik.Web.UI.GridSortExpression** objects. Represents the sort expressions applied for the grid instance. The **toString()** javascript method executed over this collection will return coma separated string of all expressions (in case of AllowMultiColumnSorting) or a single sort expression if multi-column sorting is disabled. You can also utilize the **toList()** javascript method in order to pass an array of items (representing the sort expressions applied) to the server and operate with them using a GridSortExpression server-side object. Each sort expression (of type **Telerik.Web.UI.GridSortExpression**) has *fieldName* and *sortOrder* properties which hold the *DataField* of the sorted column and the sort direction (Ascending, Descending or None). To retrieve the values from these properties use the **get_fieldName()** and **get_sortOrder()** properties of the corresponding GridSortExpression.
 
 Below is a sample code excerpt using OnCommand client event handler:
 

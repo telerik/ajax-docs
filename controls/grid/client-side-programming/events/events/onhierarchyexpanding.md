@@ -1,6 +1,6 @@
 ---
 title: OnHierarchyExpanding
-page_title: OnHierarchyExpanding | UI for ASP.NET AJAX Documentation
+page_title: OnHierarchyExpanding | RadGrid for ASP.NET AJAX Documentation
 description: OnHierarchyExpanding
 slug: grid/client-side-programming/events/events/onhierarchyexpanding
 tags: onhierarchyexpanding
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnHierarchyExpanding Property
 This event is fired when the hierarchy is being expanded and the HierarchyLoadMode setting is set to Client.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __id__ - id of the RadGrid item that has raised the event __itemIndexHierarchical__ - hierarchical index of the item that has raised the event __gridDataItem__ - the corresponding data item __tableView__ - owner TableView of the item that has raised the event __dataKeyValues__ - data key value for the item that has raised the event __domEvent__ - dom event that was raised for the current event|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **id** - id of the RadGrid item that has raised the event **itemIndexHierarchical** - hierarchical index of the item that has raised the event **gridDataItem** - the corresponding data item **tableView** - owner TableView of the item that has raised the event **dataKeyValues** - data key value for the item that has raised the event **domEvent** - dom event that was raised for the current event|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

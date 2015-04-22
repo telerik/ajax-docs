@@ -1,6 +1,6 @@
 ---
 title: Column Settings
-page_title: Column Settings | UI for ASP.NET AJAX Documentation
+page_title: Column Settings | RadGrid for ASP.NET AJAX Documentation
 description: Column Settings
 slug: grid/mobile-support/mobile-rendering/column-settings
 tags: column,settings
@@ -12,33 +12,33 @@ position: 1
 
 
 
-The following article outlines the settings that are available for the columns in __RadGrid__ when __RenderMode__ is set to __Mobile__.
+The following article outlines the settings that are available for the columns in **RadGrid** when **RenderMode** is set to **Mobile**.
 
 ## Accessing Column settings
 
 The column settings are accessed by tapping the settings icon.
 
-__Image 1:__ Opening column settings view![adaptive grid Column Settings-1](images/adaptive_grid_ColumnSettings-1.png)
+**Image 1:** Opening column settings view![adaptive grid Column Settings-1](images/adaptive_grid_ColumnSettings-1.png)
 
 When you tap on the settings icon in a column header, you will see the settings for the corresponding column. You can sort, group, add filter, show/hide or rearrange columns.
 
-__Image 2:__ Settings available for the column![adaptive grid Column Settings-2](images/adaptive_grid_ColumnSettings-2.png)
+**Image 2:** Settings available for the column![adaptive grid Column Settings-2](images/adaptive_grid_ColumnSettings-2.png)
 
 ### Filtering
 
-You can access the filter settings by tapping the __Filter__ option
+You can access the filter settings by tapping the **Filter** option
 
-__Image 3:__ Filer settings![adaptive grid Column Settings-3](images/adaptive_grid_ColumnSettings-3.png)
+**Image 3:** Filer settings![adaptive grid Column Settings-3](images/adaptive_grid_ColumnSettings-3.png)
 
 ### Column display
 
-When you tap on the __Columns__ setting you open the __Column Display__ options.
+When you tap on the **Columns** setting you open the **Column Display** options.
 
-__Image 4:__ Opening Column Display![adaptive grid Column Settings-4](images/adaptive_grid_ColumnSettings-4.png)
+**Image 4:** Opening Column Display![adaptive grid Column Settings-4](images/adaptive_grid_ColumnSettings-4.png)
 
-The __Column Display__ options enable you to show, hide or rearrange the columns.
+The **Column Display** options enable you to show, hide or rearrange the columns.
 
-__Image 5:__ Column Display Options![adaptive grid Column Settings-5](images/adaptive_grid_ColumnSettings-5.png)
+**Image 5:** Column Display Options![adaptive grid Column Settings-5](images/adaptive_grid_ColumnSettings-5.png)
 
 # See Also
 

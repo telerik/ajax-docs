@@ -1,6 +1,6 @@
 ---
 title: Population/Data Editing with XmlDataSource Control
-page_title: Population/Data Editing with XmlDataSource Control | UI for ASP.NET AJAX Documentation
+page_title: Population/Data Editing with XmlDataSource Control | RadGrid for ASP.NET AJAX Documentation
 description: Population/Data Editing with XmlDataSource Control
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/population/data-editing-with-xmldatasource-control
 tags: population/data,editing,with,xmldatasource,control
@@ -14,15 +14,15 @@ position: 5
 
 ## 
 
-__RadGrid__ can use the __XmlDataSource__ control to generate its content from __XML__ and perform data editing operations. Note that [automatic update, insert, and delete operations]({%slug grid/data-editing/automatic-datasource-operations%}), which work with other data source controls such as __AccessDataSource__, __SqlDataSource__, and __ObjectDataSource__, do not work when using __XmlDataSource__. If you want to enable editing, you must write custom code to modify data in the XML source file.
+**RadGrid** can use the **XmlDataSource** control to generate its content from **XML** and perform data editing operations. Note that [automatic update, insert, and delete operations]({%slug grid/data-editing/automatic-datasource-operations%}), which work with other data source controls such as **AccessDataSource**, **SqlDataSource**, and **ObjectDataSource**, do not work when using **XmlDataSource**. If you want to enable editing, you must write custom code to modify data in the XML source file.
 
-The following restrictions apply to editing XML data when using __XmlDataSource__ control:
+The following restrictions apply to editing XML data when using **XmlDataSource** control:
 
-* The XML data must be loaded from an XML file specified with the __DataFile__ property of the __XmlDataSource__ control, and not from an xml string specified in the __Data__ property.
+* The XML data must be loaded from an XML file specified with the **DataFile** property of the **XmlDataSource** control, and not from an xml string specified in the **Data** property.
 
-* No XSLT transformation can be specified in the __Transform__ or __TransformFile__ properties of the __XmlDataSource__ control.
+* No XSLT transformation can be specified in the **Transform** or **TransformFile** properties of the **XmlDataSource** control.
 
-* The __Save__ method does not handle concurrent save operations on unique requests. If more than one user is editing an XML file using the __XmlDataSource__ control, there is no guarantee that all users are operating with the same data and that one user will not overwrite changes from another user. It is also possible for a save operation to fail because another user is writing to the XML file and has an exclusive lock on the file.
+* The **Save** method does not handle concurrent save operations on unique requests. If more than one user is editing an XML file using the **XmlDataSource** control, there is no guarantee that all users are operating with the same data and that one user will not overwrite changes from another user. It is also possible for a save operation to fail because another user is writing to the XML file and has an exclusive lock on the file.
 
 
 
@@ -206,4 +206,4 @@ The following restrictions apply to editing XML data when using __XmlDataSource_
 ````
 
 
-For a live example of a __RadGrid__ that supports editing when bound to __XmlDataSource__, see [Editing XML using XmlDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).
+For a live example of a **RadGrid** that supports editing when bound to **XmlDataSource**, see [Editing XML using XmlDataSource](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).

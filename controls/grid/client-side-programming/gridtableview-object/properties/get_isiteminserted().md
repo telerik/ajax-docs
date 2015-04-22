@@ -1,6 +1,6 @@
 ---
 title: get_isItemInserted()
-page_title: get_isItemInserted() | UI for ASP.NET AJAX Documentation
+page_title: get_isItemInserted() | RadGrid for ASP.NET AJAX Documentation
 description: get_isItemInserted()
 slug: grid/client-side-programming/gridtableview-object/properties/get_isiteminserted()
 tags: get_isiteminserted()
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-Returns a Boolean value indicating if the __GridTableView__ is currently in insert mode. Can be used to create some condition for executing different script logic depending on the visibility status of the insert item.
+Returns a Boolean value indicating if the **GridTableView** is currently in insert mode. Can be used to create some condition for executing different script logic depending on the visibility status of the insert item.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

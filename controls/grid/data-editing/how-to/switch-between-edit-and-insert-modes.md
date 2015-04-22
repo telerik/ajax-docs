@@ -1,6 +1,6 @@
 ---
 title: Switch Between Edit and Insert Modes
-page_title: Switch Between Edit and Insert Modes | UI for ASP.NET AJAX Documentation
+page_title: Switch Between Edit and Insert Modes | RadGrid for ASP.NET AJAX Documentation
 description: Switch Between Edit and Insert Modes
 slug: grid/data-editing/how-to/switch-between-edit-and-insert-modes
 tags: switch,between,edit,and,insert,modes
@@ -16,7 +16,7 @@ You can fine tune the behavior of Telerik RadGrid when inserting/editing items. 
 
 ## Update to Insert mode and Insert to Update mode
 
-This is extended version of the previous case.Here is the new part:You click "Add New Record" button and a new record is inserted in Telerik RadGrid. Then you click the edit button at another record. The selected item goes in edit mode and the insert new record closes. You should modify the setting for the __IsItemInserted__ property of the respective __GridTableView__:
+This is extended version of the previous case.Here is the new part:You click "Add New Record" button and a new record is inserted in Telerik RadGrid. Then you click the edit button at another record. The selected item goes in edit mode and the insert new record closes. You should modify the setting for the **IsItemInserted** property of the respective **GridTableView**:
 
 
 

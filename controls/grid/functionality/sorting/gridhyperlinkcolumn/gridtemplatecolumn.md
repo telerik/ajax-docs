@@ -1,6 +1,6 @@
 ---
 title: GridHyperLinkColumn/GridTemplateColumn
-page_title: GridHyperLinkColumn/GridTemplateColumn | UI for ASP.NET AJAX Documentation
+page_title: GridHyperLinkColumn/GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: GridHyperLinkColumn/GridTemplateColumn
 slug: grid/functionality/sorting/gridhyperlinkcolumn/gridtemplatecolumn
 tags: gridhyperlinkcolumn/gridtemplatecolumn
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-To enable sorting for __GridHyperLinkColumn__ and __GridTemplateColumn__, you need to set appropriate __SortExpression__ values for those columns.
+To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you need to set appropriate **SortExpression** values for those columns.
 
-* When using __GridHyperLinkColumn__, the __SortExpression__ value should match the __DataTextField__ property of the column.
+* When using **GridHyperLinkColumn**, the **SortExpression** value should match the **DataTextField** property of the column.
 
-* When using __GridTemplateColumn__, the __SortExpression__ value should match the data field you want to sort on (typically the field a control in the template is bound to).
+* When using **GridTemplateColumn**, the **SortExpression** value should match the data field you want to sort on (typically the field a control in the template is bound to).
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
@@ -42,7 +42,7 @@ To enable sorting for __GridHyperLinkColumn__ and __GridTemplateColumn__, you ne
 
 
 
-You can add a sort button to a template in the grid. When adding a sort button, set the __CommandName__ property to "Sort" and the sort expression as the __CommandArgument__ for the button. __RadGrid__ can then handle the sorting automatically when the user clicks the button.
+You can add a sort button to a template in the grid. When adding a sort button, set the **CommandName** property to "Sort" and the sort expression as the **CommandArgument** for the button. **RadGrid** can then handle the sorting automatically when the user clicks the button.
 
 ````ASPNET
 	  <telerik:GridTemplateColumn SortExpression="CompanyName">

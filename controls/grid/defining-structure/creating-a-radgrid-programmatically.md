@@ -1,6 +1,6 @@
 ---
 title: Creating a RadGrid Programmatically
-page_title: Creating a RadGrid Programmatically | UI for ASP.NET AJAX Documentation
+page_title: Creating a RadGrid Programmatically | RadGrid for ASP.NET AJAX Documentation
 description: Creating a RadGrid Programmatically
 slug: grid/defining-structure/creating-a-radgrid-programmatically
 tags: creating,a,radgrid,programmatically
@@ -12,45 +12,45 @@ position: 2
 
 
 
-This help article describes two options for creating a __RadGrid__ instance dynamically, and provides code examples.
+This help article describes two options for creating a **RadGrid** instance dynamically, and provides code examples.
 
-* You can declare the __RadGrid__ control in the ASPX file and define its structure in the code-behind.
+* You can declare the **RadGrid** control in the ASPX file and define its structure in the code-behind.
 
-* You can create the __RadGrid__ entirely in the code-behind.
+* You can create the **RadGrid** entirely in the code-behind.
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
-1. Create the __GridTableView__ objects for every detail table. You do not need to create an object for the __MasterTableView__ of the grid, as this is created automatically when the __RadGrid__ itself is created.
+1. Create the **GridTableView** objects for every detail table. You do not need to create an object for the **MasterTableView** of the grid, as this is created automatically when the **RadGrid** itself is created.
 
-1. Add each detail table to the __DetailTables__ collection of its parent table.
+1. Add each detail table to the **DetailTables** collection of its parent table.
 
 1. Ensure that each table in the grid has its own data source.
 
-* If you are using declarative data sources, set the __DataSourceID__ property of each table to the ID of a DataSource object. For each parent table, set the __DataKeyNames__ property to an array containing the names of each field in the table's data source that is used to link to detail tables. For each detail table, add __GridRelationFields__ objects to the __ParentTableRelation__ collection, each of which specifies a link between a field in the detail table to a field in the __DataKeyNames__ array of the parent table.
+* If you are using declarative data sources, set the **DataSourceID** property of each table to the ID of a DataSource object. For each parent table, set the **DataKeyNames** property to an array containing the names of each field in the table's data source that is used to link to detail tables. For each detail table, add **GridRelationFields** objects to the **ParentTableRelation** collection, each of which specifies a link between a field in the detail table to a field in the **DataKeyNames** array of the parent table.
 
-* If you are not using declarative data sources, add event handlers for the __NeedDataSource__ and __DetailTableDataBind__ events. In the __DetailTableDataBind__ event handler, you can determine which data source should be related to the current table view by checking whether the __GetDataKeyValue__ method of the detail table's __ParentItem__ returns a value.
+* If you are not using declarative data sources, add event handlers for the **NeedDataSource** and **DetailTableDataBind** events. In the **DetailTableDataBind** event handler, you can determine which data source should be related to the current table view by checking whether the **GetDataKeyValue** method of the detail table's **ParentItem** returns a value.
 
->note Hierarchical structure is not supported with simple data binding (calling __DataBind__ ()).
+>note Hierarchical structure is not supported with simple data binding (calling **DataBind** ()).
 >
 
 
-* __Dynamically defining the structure of a statically-declared gridhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self__
+* **Dynamically defining the structure of a statically-declared gridhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section1_self**
 
-* __Creating the grid entirely in the code-behindhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self__
+* **Creating the grid entirely in the code-behindhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section2_self**
 
-* __Creating a RadGrid on Page_Loadhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self__
+* **Creating a RadGrid on Page_Loadhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section21_self**
 
-* __Creating a RadGrid on Page_Inithttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self__
+* **Creating a RadGrid on Page_Inithttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section22_self**
 
-* __Creating a hierarchical grid programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self__
+* **Creating a hierarchical grid programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section3_self**
 
-* __Creating template columns programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self__
+* **Creating template columns programmaticallyhttp://www.telerik.com/help/aspnet-ajax/grid-programmatic-creation.html#Section4_self**
 
 ## Dynamically Defining the Structure of a Statically-declared Grid
 
-To define the structure of a __RadGrid__ control that is declared in the ASPX page, use the __Page_Load__ event handler. Columns and detail tables should be added to the corresponding collection __first__, before the values for their properties are set. This is important because no __ViewState__ is managed for the object before it has been added to the corresponding collection.
+To define the structure of a **RadGrid** control that is declared in the ASPX page, use the **Page_Load** event handler. Columns and detail tables should be added to the corresponding collection **first**, before the values for their properties are set. This is important because no **ViewState** is managed for the object before it has been added to the corresponding collection.
 
->note Be sure to check that __IsPostBack__ is __False__ . Otherwise, you will end up adding the same objects to the __RadGrid__ multiple times.
+>note Be sure to check that **IsPostBack** is **False** . Otherwise, you will end up adding the same objects to the **RadGrid** multiple times.
 >
 
 
@@ -168,21 +168,21 @@ To define the structure of a __RadGrid__ control that is declared in the ASPX pa
 ````
 
 
->note  __RadGrid__ does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
+>note  **RadGrid** does not support mixing declarative grid columns with grid columns added dynamically at runtime. You should either create all the columns in the grid programmatically, or else define them all in the ASPX file.
 >
 
 
->caution Creating columns in the __Page_Load__ event handler does not work for template columns. For the controls inside a template to persist their __ViewState__ , the grid must be generated completely in the code-behind using the __Page_Init__ event (see below). That way, template controls are instantiated before the __LoadViewState__ event of the page.
+>caution Creating columns in the **Page_Load** event handler does not work for template columns. For the controls inside a template to persist their **ViewState** , the grid must be generated completely in the code-behind using the **Page_Init** event (see below). That way, template controls are instantiated before the **LoadViewState** event of the page.
 >
 
 
 ## Creating the Grid Entirely in the Code Behind
 
-When generating a __RadGrid__ instance entirely in code, you should use the __Page_Init__ or __Page_Load__event handlers.
+When generating a **RadGrid** instance entirely in code, you should use the **Page_Init** or **Page_Load**event handlers.
 
 ### Creating a RadGrid on Page_Load
 
-When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set.
+When creating a **RadGrid** on a **Page_Load** event, the columns or detail tables should be added to the corresponding collection first and then values for the properties of this instance should be set.
 
 
 
@@ -242,7 +242,7 @@ When creating a __RadGrid__ on a __Page_Load__ event, the columns or detail tabl
 
 ### Creating a RadGrid on Page_Init
 
-When generating a grid in the __Page_Init__ event handler, grid columns should be added to the __Columns__ collection of the MasterTableView __after__ their attributes are set. No __ViewState__ is required for grid structure to be persisted as it is recreated on each page initialization:
+When generating a grid in the **Page_Init** event handler, grid columns should be added to the **Columns** collection of the MasterTableView **after** their attributes are set. No **ViewState** is required for grid structure to be persisted as it is recreated on each page initialization:
 
 
 
@@ -358,23 +358,23 @@ When generating a grid in the __Page_Init__ event handler, grid columns should b
 ````
 
 
->caution When creating a grid in the __Page_Init__ event handler, you can use the __Page_Load__ event to add anAJAX setting for the grid to a __RadAjaxManager__ so that the grid usesasynchronous callbacks.
+>caution When creating a grid in the **Page_Init** event handler, you can use the **Page_Load** event to add anAJAX setting for the grid to a **RadAjaxManager** so that the grid usesasynchronous callbacks.
 >
 
 
 ## Creating a Hierarchical Grid Programmatically
 
-You should follow these basic steps in order to create hierarchical __RadGrid__ programmatically in the code-behind (having a data source control for data content generation):
+You should follow these basic steps in order to create hierarchical **RadGrid** programmatically in the code-behind (having a data source control for data content generation):
 
-1. Create the grid dynamically in the __Page_Init__ handler of the page by calling its constructor.
+1. Create the grid dynamically in the **Page_Init** handler of the page by calling its constructor.
 
 1. Specify the preferred settings for your grid instance through its properties.
 
-1. Create columns for the grid dynamically. Keep in mind that you have to first set their properties and then add them to the __MasterTableView__/__GridTableView__ collection (discussed in the  first paragraph  of this same topic). Thus, their __ViewState__ will be properly persisted (as __LoadViewState__ is raised after the __Init__ event of the page).
+1. Create columns for the grid dynamically. Keep in mind that you have to first set their properties and then add them to the **MasterTableView**/**GridTableView** collection (discussed in the  first paragraph  of this same topic). Thus, their **ViewState** will be properly persisted (as **LoadViewState** is raised after the **Init** event of the page).
 
-1. Set the proper __ParentTableRelations__ for the __GridTableViews__ (along with their __MasterKeyField__ and __DetailKeyField__ attributes) and __DataKeyNames__ for the __MasterTableView__/__GridTableViews__ in the code-behind of the page.
+1. Set the proper **ParentTableRelations** for the **GridTableViews** (along with their **MasterKeyField** and **DetailKeyField** attributes) and **DataKeyNames** for the **MasterTableView**/**GridTableViews** in the code-behind of the page.
 
-1. Assign data sources (through the * DataSourceID * attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the __NeedDataSource__/__DetailTableDataBind__ handlers of the grid. On __DetailTableDataBind__ you can determine which data source should be related to the currently bound __GridTableView__ by checking its __Name/DataSourceID__ property. Here, the __Name__ property must have a unique value for each detail table (this value has to be defined previously by the developer) and the __DataSourceID__ is the ID of the __DataSource__ control responsible for the corresponding detail table content generation.
+1. Assign data sources (through the * DataSourceID * attribute) for each table in the grid hierarchy.If you do not want to use declarative relations, generate the data in the **NeedDataSource**/**DetailTableDataBind** handlers of the grid. On **DetailTableDataBind** you can determine which data source should be related to the currently bound **GridTableView** by checking its **Name/DataSourceID** property. Here, the **Name** property must have a unique value for each detail table (this value has to be defined previously by the developer) and the **DataSourceID** is the ID of the **DataSource** control responsible for the corresponding detail table content generation.
 
 Here is a complete source code sample:
 
@@ -515,13 +515,13 @@ Here is a complete source code sample:
 
 ## Creating Template Columns Programmatically
 
-When creating template columns programmatically, the grid must be generated completely in the code-behind using the __Page_Init__ event. Then, you must create the templates dynamically in the code-behind and assign them to the __ItemTemplate__ and __EditItemTemplate__ properties of the column. To create a template dynamically, you must define a custom class that implements the __ITemplate__ interface. Then you can assign an instance of this class to the __ItemTemplate__ or __EditTemplateTemplate__ property of the __GridTemplateColumn__ object.
+When creating template columns programmatically, the grid must be generated completely in the code-behind using the **Page_Init** event. Then, you must create the templates dynamically in the code-behind and assign them to the **ItemTemplate** and **EditItemTemplate** properties of the column. To create a template dynamically, you must define a custom class that implements the **ITemplate** interface. Then you can assign an instance of this class to the **ItemTemplate** or **EditTemplateTemplate** property of the **GridTemplateColumn** object.
 
->caution Column templates must be added in the __Page_Init__ event handler, so that the template controls can be added to the __ViewState__ .
+>caution Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the **ViewState** .
 >
 
 
-The following example shows a __Page_Init__ event handler that creates a grid, which includes a template column that shows data from multiple fields:
+The following example shows a **Page_Init** event handler that creates a grid, which includes a template column that shows data from multiple fields:
 
 
 
@@ -716,4 +716,4 @@ The code sample above results in the following grid:
 
 ![Creating Templates programmatically](images/grd_TemplateColumnProgrammatically.png)
 
-For more information on creating templates programmatically, see the __MSDN__ article: [Creating Web Server Control Templates Programmatically](http://msdn2.microsoft.com/en-us/library/aa289501.aspx).
+For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](http://msdn2.microsoft.com/en-us/library/aa289501.aspx).

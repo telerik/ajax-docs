@@ -1,6 +1,6 @@
 ---
 title: showFilterItem
-page_title: showFilterItem | UI for ASP.NET AJAX Documentation
+page_title: showFilterItem | RadGrid for ASP.NET AJAX Documentation
 description: showFilterItem
 slug: grid/client-side-programming/gridtableview-object/methods/showfilteritem
 tags: showfilteritem
@@ -17,7 +17,7 @@ position: 41
 Displays the filtering item in the respective GridTableView when it was hidden previously on the client.
 
 
-|  __showFilterItem()__  |
+|  **showFilterItem()**  |
 | ------ |
 ||
 

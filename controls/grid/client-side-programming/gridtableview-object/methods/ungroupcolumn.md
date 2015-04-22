@@ -1,6 +1,6 @@
 ---
 title: ungroupColumn
-page_title: ungroupColumn | UI for ASP.NET AJAX Documentation
+page_title: ungroupColumn | RadGrid for ASP.NET AJAX Documentation
 description: ungroupColumn
 slug: grid/client-side-programming/gridtableview-object/methods/ungroupcolumn
 tags: ungroupcolumn
@@ -17,9 +17,9 @@ position: 46
 Method which performs ungroup action for the column with UniqueName specified as an argument.
 
 
-|  __ungroupColumn(colUniqueName)__  |  |  |
+|  **ungroupColumn(colUniqueName)**  |  |  |
 | ------ | ------ | ------ |
-| __colUniqueName__ |String|The UniqueName of the column that will be ungrouped.|
+| **colUniqueName** |String|The UniqueName of the column that will be ungrouped.|
 
 Example:
 

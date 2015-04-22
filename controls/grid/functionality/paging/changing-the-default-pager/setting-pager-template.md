@@ -1,6 +1,6 @@
 ---
 title: Setting Pager Template
-page_title: Setting Pager Template | UI for ASP.NET AJAX Documentation
+page_title: Setting Pager Template | RadGrid for ASP.NET AJAX Documentation
 description: Setting Pager Template
 slug: grid/functionality/paging/changing-the-default-pager/setting-pager-template
 tags: setting,pager,template
@@ -16,20 +16,20 @@ You can use a template to set the appearance and features of the [Pager item]({%
 
 To create a pager template,
 
-1. Choose __Edit Templates__ from the __RadGrid__[ Smart Tag]({%slug grid/design-time-/smarttag%}).
+1. Choose **Edit Templates** from the **RadGrid**[ Smart Tag]({%slug grid/design-time-/smarttag%}).
 
-1. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the __MasterTableView__ or detail __GridTableView__ of interest.
+1. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the **MasterTableView** or detail **GridTableView** of interest.
 
 1. On the Template Design surface, drag and drop any controls from the toolbox, or add any HTML elements you want.
 
-1. When you are finished, click __End Template Editing__ from the Smart Tag.
+1. When you are finished, click **End Template Editing** from the Smart Tag.
 
 ## Binding controls inside a PagerTemplate
 
-All command buttons in the template can take advantage of the [command API]({%slug grid/control-lifecycle/command-reference-%}). For example a button with __CommandName__ "Page" and __CommandArgument__ of "Last" will force __RadGrid__ to go to the last page when clicked, with no additional coding on your part. Here is a list of Pager-related commands:
+All command buttons in the template can take advantage of the [command API]({%slug grid/control-lifecycle/command-reference-%}). For example a button with **CommandName** "Page" and **CommandArgument** of "Last" will force **RadGrid** to go to the last page when clicked, with no additional coding on your part. Here is a list of Pager-related commands:
 
 
-|  __CommandName__  |  __CommandArgument__  |  __Description__  |
+|  **CommandName**  |  **CommandArgument**  |  **Description**  |
 | ------ | ------ | ------ |
 |Page|"First"|Goes to the first page.|
 |Page|"Last"|Goes to the last page.|
@@ -37,7 +37,7 @@ All command buttons in the template can take advantage of the [command API]({%sl
 |Page|"Prev"|Goes to the previous page.|
 |Page|An integer (e.g. "5")|Goes to the specified page.|
 
-In addition, you can use declarative binding expressions in template controls, setting control properties based on the properties of the __PagerItem__ instance. These include __Paging.PageCount__, __Paging.PageSize__, and __OwnerTableView.CurrentPageIndex__.
+In addition, you can use declarative binding expressions in template controls, setting control properties based on the properties of the **PagerItem** instance. These include **Paging.PageCount**, **Paging.PageSize**, and **OwnerTableView.CurrentPageIndex**.
 
 ![Pager Template](images/grd_PagerTemplate.png)
 
@@ -90,17 +90,17 @@ In addition, you can use declarative binding expressions in template controls, s
 
 ## Setting preferences for controls inside the PagerTemplate at runtime
 
-There are cases when you may want to access the controls inside your __PagerTemplate__ from the code-behind and dynamically change their preferences. Here are the steps you can perform to reference controls inside the __PagerTemplate__ programmatically:
+There are cases when you may want to access the controls inside your **PagerTemplate** from the code-behind and dynamically change their preferences. Here are the steps you can perform to reference controls inside the **PagerTemplate** programmatically:
 
-1. Add a handler for the grid's __ItemCreated__ event.
+1. Add a handler for the grid's **ItemCreated** event.
 
-1. In the __ItemCreated__ event handler, check whether the currently bound item is __GridPagerItem__.
+1. In the **ItemCreated** event handler, check whether the currently bound item is **GridPagerItem**.
 
-1. Locate the desired control using the __FindControl__ method of the command item.
+1. Locate the desired control using the **FindControl** method of the command item.
 
 1. Change the properties of the control instance as desired.
 
-In the example below, The __ItemCreated__ event handler is used to change the __Text,____CommandName__ and __CommandArgument__ properties for __LinkButton__ controls inside the __PagerTemplate__ object:
+In the example below, The **ItemCreated** event handler is used to change the **Text, CommandName** and **CommandArgument** properties for **LinkButton** controls inside the **PagerTemplate** object:
 
 
 
@@ -198,7 +198,7 @@ In the example below, The __ItemCreated__ event handler is used to change the __
 
 ## Displaying different controls in a PagerTemplate based on position
 
-When the __PagerStyle.Position__ property is set to "TopAndBottom", your page appears both above and below the records in the table view. You may want to display different controls depending on whether the pager is above or below the data items. You can do this by setting the visibility of controls in the __ItemCreated__ event handler. To determine whether the pager item is displayed in the header or footer of the grid, check the __NamingContainer__ for the __GridPagerItem__ object (it will be __GridTHead__ for the header and __GridTFoot__ for the footer).
+When the **PagerStyle.Position** property is set to "TopAndBottom", your page appears both above and below the records in the table view. You may want to display different controls depending on whether the pager is above or below the data items. You can do this by setting the visibility of controls in the **ItemCreated** event handler. To determine whether the pager item is displayed in the header or footer of the grid, check the **NamingContainer** for the **GridPagerItem** object (it will be **GridTHead** for the header and **GridTFoot** for the footer).
 
 The following example illustrates this technique:
 
@@ -297,7 +297,7 @@ The following example illustrates this technique:
 
 ## Defining PagerTemplate programmatically
 
-To assign the __PagerTemplate__ for a grid in the code-behind, you need to design a custom class that implements the __ITemplate__ interface This class holds the controls for the template:
+To assign the **PagerTemplate** for a grid in the code-behind, you need to design a custom class that implements the **ITemplate** interface This class holds the controls for the template:
 
 
 
@@ -364,7 +364,7 @@ To assign the __PagerTemplate__ for a grid in the code-behind, you need to desig
 
 
 
-In the __Page_Init__ event handler, you can assign an instance of your template class to the __PagerTemplate__ property of the desired __GridTableView__.
+In the **Page_Init** event handler, you can assign an instance of your template class to the **PagerTemplate** property of the desired **GridTableView**.
 
 
 
@@ -441,6 +441,6 @@ In the __Page_Init__ event handler, you can assign an instance of your template 
 
 
 
-For detailed information about how to create templates programmatically, see the following __MSDN__ article:
+For detailed information about how to create templates programmatically, see the following **MSDN** article:
 
 [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)

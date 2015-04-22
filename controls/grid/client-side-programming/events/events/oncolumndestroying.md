@@ -1,6 +1,6 @@
 ---
 title: OnColumnDestroying
-page_title: OnColumnDestroying | UI for ASP.NET AJAX Documentation
+page_title: OnColumnDestroying | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnDestroying
 slug: grid/client-side-programming/events/events/oncolumndestroying
 tags: oncolumndestroying
@@ -23,10 +23,10 @@ Sys.EventArgs OnColumnDestroying Property
 This event is fired when a column object is destroyed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

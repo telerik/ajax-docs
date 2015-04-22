@@ -1,6 +1,6 @@
 ---
-title: Overview Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadPanelBar Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: panelbar/overview/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-__Telerik RadPanelBar for ASP.NET Ajax__is a flexible navigation component for use in ASP.NET applications. The panel bar can act as a vertical menu, or, by using templates, it can act as an entry form or tool bar.
+**Telerik RadPanelBar for ASP.NET Ajax**is a flexible navigation component for use in ASP.NET applications. The panel bar can act as a vertical menu, or, by using templates, it can act as an entry form or tool bar.
 
-__RadPanelBar__ introduces powerful features, including
+**RadPanelBar** introduces powerful features, including
 
 * A [client-side API]({%slug panelbar/client-side-programming/overview%}) that includes the ability to add, remove and update panel items and have these changes persist after a postback to the server.
 

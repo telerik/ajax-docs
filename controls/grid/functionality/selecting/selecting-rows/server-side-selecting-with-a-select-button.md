@@ -1,6 +1,6 @@
 ---
 title: Server-side Selecting with a Select Button
-page_title: Server-side Selecting with a Select Button | UI for ASP.NET AJAX Documentation
+page_title: Server-side Selecting with a Select Button | RadGrid for ASP.NET AJAX Documentation
 description: Server-side Selecting with a Select Button
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-select-button
 tags: server-side,selecting,with,a,select,button
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-You can add __GridButtonColumn__ columns to a grid to handle the selection and de-selection of grid rows. The __RadGrid__[Command API]({%slug grid/control-lifecycle/command-reference-%}) can automatically handle the select and de-select commands: you need only add the __GridButtonColumn__ objects to the __Commands__ collection and set their __CommandName__ property:
+You can add **GridButtonColumn** columns to a grid to handle the selection and de-selection of grid rows. The **RadGrid**[Command API]({%slug grid/control-lifecycle/command-reference-%}) can automatically handle the select and de-select commands: you need only add the **GridButtonColumn** objects to the **Commands** collection and set their **CommandName** property:
 
 ![](images/SelectButtonColumns.png)
 
@@ -36,6 +36,6 @@ You can add __GridButtonColumn__ columns to a grid to handle the selection and d
 
 
 
-You can access the selected rows using the __SelectedItems__ collection of the __RadGrid__ object. In addition, you can handle the __SelectedIndexChanged__ server event of the grid to detect when a row's selection changes perform additional operations if needed.
+You can access the selected rows using the **SelectedItems** collection of the **RadGrid** object. In addition, you can handle the **SelectedIndexChanged** server event of the grid to detect when a row's selection changes perform additional operations if needed.
 
 For a live example showing server-side selection, see [Server-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).

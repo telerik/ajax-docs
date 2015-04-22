@@ -1,6 +1,6 @@
 ---
 title: Tips When Binding to Custom Collections
-page_title: Tips When Binding to Custom Collections | UI for ASP.NET AJAX Documentation
+page_title: Tips When Binding to Custom Collections | RadGrid for ASP.NET AJAX Documentation
 description: Tips When Binding to Custom Collections
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/tips-when-binding-to-custom-collections
 tags: tips,when,binding,to,custom,collections
@@ -12,17 +12,17 @@ position: 6
 
 
 
-This topic describes some of the considerations you should keep in mind when designing business object collections to be displayed in __RadGrid__. Be aware that __RadGrid__ can display those collections as long as they support the __ITypedList__, __IListSource__, or __IEnumerable__ interface.
+This topic describes some of the considerations you should keep in mind when designing business object collections to be displayed in **RadGrid**. Be aware that **RadGrid** can display those collections as long as they support the **ITypedList**, **IListSource**, or **IEnumerable** interface.
 
 ## Limiting the fields that the grid fetches
 
-By default, __RadGrid__ fetches all [bindable property values]({%slug grid/data-binding/bindable-property-types%}) from the data source you use for control structure generation. These values can be used in sorting, filtering, grouping or other operations. In some cases, however, you may not need your grid instance to iterate through all the fields in your data source when binding. This can be a requirement when you have custom collection of business objects that you assign as the __DataSource__ property of a __RadGrid__ control to generate its content.
+By default, **RadGrid** fetches all [bindable property values]({%slug grid/data-binding/bindable-property-types%}) from the data source you use for control structure generation. These values can be used in sorting, filtering, grouping or other operations. In some cases, however, you may not need your grid instance to iterate through all the fields in your data source when binding. This can be a requirement when you have custom collection of business objects that you assign as the **DataSource** property of a **RadGrid** control to generate its content.
 
-To prevent the grid from traversing all data fields in a collection, set the master table view's __RetrieveAllDataFields__ property to __False__. In this case, any additional fields that you want to use for sorting, grouping or assigning to __DataKeyNames__ can be included in the __AdditionalDataFieldNames__ array. When you set __RetrieveAllDataFields__ to __False__, only the properties that are used as column __DataFields__ or those specified in the __AdditionalDataFieldNames__ are extracted from the data source.
+To prevent the grid from traversing all data fields in a collection, set the master table view's **RetrieveAllDataFields** property to **False**. In this case, any additional fields that you want to use for sorting, grouping or assigning to **DataKeyNames** can be included in the **AdditionalDataFieldNames** array. When you set **RetrieveAllDataFields** to **False**, only the properties that are used as column **DataFields** or those specified in the **AdditionalDataFieldNames** are extracted from the data source.
 
 ## Sorting, filtering, and grouping
 
-Currently __RadGrid__ supports sorting, filtering and grouping natively. You can specify the way the grid sorts, groups, and filters its data using the following properties:
+Currently **RadGrid** supports sorting, filtering and grouping natively. You can specify the way the grid sorts, groups, and filters its data using the following properties:
 
 * GridTableView.SortExpressions
 
@@ -32,13 +32,13 @@ Currently __RadGrid__ supports sorting, filtering and grouping natively. You can
 
 These features are not tightly coupled with the column declarations of the grid, but rather with the data that the grid is bound to.
 
-To clarify the idea, consider the case of a __RadGrid__ instance with 2 columns: __ProductName__ and __ProductCategory__. In the __DataSource__, which is a business object collection describing orders of products, you have several additional fields: __ProductID__, __Units__, __TotalOrders__, __TotalCost__, and so on.
+To clarify the idea, consider the case of a **RadGrid** instance with 2 columns: **ProductName** and **ProductCategory**. In the **DataSource**, which is a business object collection describing orders of products, you have several additional fields: **ProductID**, **Units**, **TotalOrders**, **TotalCost**, and so on.
 
-You can display the grid with two columns and a group by expression: "ProductCategory, ProductID, Sum(TotalCost), Sum (TotalOrders), Group By ProductID, ProductCategory". It is obvious that the columns declaration and the grouping and sorting expressions rely on different sets of fields. (This is the reason for the default behavior where __RadGrid__ extracts all bindable properties of the business object collection.)
+You can display the grid with two columns and a group by expression: "ProductCategory, ProductID, Sum(TotalCost), Sum (TotalOrders), Group By ProductID, ProductCategory". It is obvious that the columns declaration and the grouping and sorting expressions rely on different sets of fields. (This is the reason for the default behavior where **RadGrid** extracts all bindable properties of the business object collection.)
 
 ## Example
 
-The example below has two __RadGrid__ and two __GridView__ controls. These controls are bound to an object data source, with corresponding auto-generated or pre-defined column sets. The business object implements __ICustomTypeDescriptor__ with modified presentation structure using attributes.
+The example below has two **RadGrid** and two **GridView** controls. These controls are bound to an object data source, with corresponding auto-generated or pre-defined column sets. The business object implements **ICustomTypeDescriptor** with modified presentation structure using attributes.
 
 The properties that are not visible for presentation have the [PresentationHidden] attribute. Here is the code-behind:
 
@@ -519,15 +519,15 @@ The properties that are not visible for presentation have the [PresentationHidde
 ````
 
 
-This implementation also allows __RadGrid__ and __GridView__ (and other similar) controls to bind to properties of "sub-objects", which appear as properties of the business object, by just specifying the [IntroduceObject] attribute. The implementation of the __ICustomTypeDescriptor__ interface for the business object programmatically constructs a new set of properties for the type, containing the properties of the sub-objects in a "flat" manner. This is similar to what the __DataRowView__ does, for instance.
+This implementation also allows **RadGrid** and **GridView** (and other similar) controls to bind to properties of "sub-objects", which appear as properties of the business object, by just specifying the [IntroduceObject] attribute. The implementation of the **ICustomTypeDescriptor** interface for the business object programmatically constructs a new set of properties for the type, containing the properties of the sub-objects in a "flat" manner. This is similar to what the **DataRowView** does, for instance.
 
-The implementation of __ITypedList__ for the business-objects collection allows __RadGrid__ and __GridView__ to enumerate the properties of the business objects in the collection. This also allows __RadGrid__ to automatically sort, group-by and filter these extended properties.
+The implementation of **ITypedList** for the business-objects collection allows **RadGrid** and **GridView** to enumerate the properties of the business objects in the collection. This also allows **RadGrid** to automatically sort, group-by and filter these extended properties.
 
 ## Binding to a collections of dynamic objects
 
 When you need to bind the grid control to a collection of dynamic objects it is important to know that only template columns are supported. In addition you should take in mind that the DataItem should be cast as a dynamic type and the dynamic object property name should be referenced in order for the binding expressions to work.
 
->caution  __Sorting__ , __Grouping__ and __Filtering__ are not supported when the grid is bound to a collection of dynamic objects.
+>caution  **Sorting** , **Grouping** and **Filtering** are not supported when the grid is bound to a collection of dynamic objects.
 >
 
 

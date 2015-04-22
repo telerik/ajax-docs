@@ -1,6 +1,6 @@
 ---
 title: get_uniqueName()
-page_title: get_uniqueName() | UI for ASP.NET AJAX Documentation
+page_title: get_uniqueName() | RadGrid for ASP.NET AJAX Documentation
 description: get_uniqueName()
 slug: grid/client-side-programming/gridcolumn-object/properties/get_uniquename()
 tags: get_uniquename()

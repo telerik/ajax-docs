@@ -1,6 +1,6 @@
 ---
 title: Customizing with GridTemplateColumn
-page_title: Customizing with GridTemplateColumn | UI for ASP.NET AJAX Documentation
+page_title: Customizing with GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: Customizing with GridTemplateColumn
 slug: grid/appearance-and-styling/customizing-with-gridtemplatecolumn
 tags: customizing,with,gridtemplatecolumn
@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-There are cases in which you may want to have two level headers or custom complex structure for your table cells. This appearance is attainable using __GridTemplateColumns__ with __HTML tables__ in the __HeaderTemplate/ItemTemplate__. Here is an example which holds two tables inside those templates:
+There are cases in which you may want to have two level headers or custom complex structure for your table cells. This appearance is attainable using **GridTemplateColumns** with **HTML tables** in the **HeaderTemplate/ItemTemplate**. Here is an example which holds two tables inside those templates:
 
 ![Customizing the HeaderTemplate](images/grd_ControllingVisualAppearance_HeaderTemlate.png)
 
@@ -62,7 +62,7 @@ There are cases in which you may want to have two level headers or custom comple
 
 
 
-Handle the __NeedDataSource__ event in the codebehind:
+Handle the **NeedDataSource** event in the codebehind:
 
 
 
@@ -103,4 +103,4 @@ Handle the __NeedDataSource__ event in the codebehind:
 ````
 
 
-You may also refer to the [following online example](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultCS.aspx) of Telerik RadGrid which demonstrates the usage of __GridTemplateColumn__.
+You may also refer to the [following online example](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultCS.aspx) of Telerik RadGrid which demonstrates the usage of **GridTemplateColumn**.

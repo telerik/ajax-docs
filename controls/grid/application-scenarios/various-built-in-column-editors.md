@@ -1,6 +1,6 @@
 ---
 title: Various Built-in Column Editors
-page_title: Various Built-in Column Editors | UI for ASP.NET AJAX Documentation
+page_title: Various Built-in Column Editors | RadGrid for ASP.NET AJAX Documentation
 description: Various Built-in Column Editors
 slug: grid/application-scenarios/various-built-in-column-editors
 tags: various,built-in,column,editors
@@ -20,9 +20,9 @@ Telerik RadGrid supports all widely used column types as well built-in columns w
 
 The supported column types with other controls as editors are listed below:
 
-* GridDateTimeColumn - with option to choose RadDatePicker, RadDateTimePicker, RadTimePicker or simply RadDateInput as editor. To choose the editor type use the __PickerType__ property of the column
+* GridDateTimeColumn - with option to choose RadDatePicker, RadDateTimePicker, RadTimePicker or simply RadDateInput as editor. To choose the editor type use the **PickerType** property of the column
 
-* GridDropDownColumn - with option to choose standard MS DropDownList or RadComboBox as editor. To choose the editor type use the __DropDownControlType__ property of the column
+* GridDropDownColumn - with option to choose standard MS DropDownList or RadComboBox as editor. To choose the editor type use the **DropDownControlType** property of the column
 
 * GridNumericColumn - with RadNumericTextBox as editor
 
@@ -136,7 +136,7 @@ Here are the relevant code snippets from the online demo:
 ````
 
 
-Detailed descriptions regarding the demonstrated column types (along with comparison tables) and column usage you can find in the __Grid columns__ chapter from product's documentation:
+Detailed descriptions regarding the demonstrated column types (along with comparison tables) and column usage you can find in the **Grid columns** chapter from product's documentation:
 
 [Column types]({%slug grid/columns/column-types%})
 

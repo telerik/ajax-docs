@@ -1,6 +1,6 @@
 ---
 title: getDataKeyValue
-page_title: getDataKeyValue | UI for ASP.NET AJAX Documentation
+page_title: getDataKeyValue | RadGrid for ASP.NET AJAX Documentation
 description: getDataKeyValue
 slug: grid/client-side-programming/griddataitem-object/methods/getdatakeyvalue
 tags: getdatakeyvalue

@@ -1,6 +1,6 @@
 ---
 title: Edit Forms
-page_title: Edit Forms | UI for ASP.NET AJAX Documentation
+page_title: Edit Forms | RadGrid for ASP.NET AJAX Documentation
 description: Edit Forms
 slug: grid/data-editing/edit-mode/edit-forms
 tags: edit,forms
@@ -12,9 +12,9 @@ position: 1
 
 
 
-To display the grid column editors in an auto-generated form when the grid switches into edit mode, set the table view's __EditMode__ property to "EditForms" or "PopUp".
+To display the grid column editors in an auto-generated form when the grid switches into edit mode, set the table view's **EditMode** property to "EditForms" or "PopUp".
 
-When __EditMode__ is "EditForms", the edit form appears immediately below the item that is being edited:
+When **EditMode** is "EditForms", the edit form appears immediately below the item that is being edited:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
@@ -30,7 +30,7 @@ When __EditMode__ is "EditForms", the edit form appears immediately below the it
 
 ![Edit in forms mode](images/grd_EditInForms.png)
 
-When __EditMode__ is "PopUp", the edit form appears in a popup window above the grid:
+When **EditMode** is "PopUp", the edit form appears in a popup window above the grid:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
@@ -46,11 +46,11 @@ When __EditMode__ is "PopUp", the edit form appears in a popup window above the 
 
 ![Edit in forms mode](images/grd_EditPopupForm.png)
 
-To limit the number of characters the user can enter in the text box editor of the edit form, set the __MaxLength__ property of the column.
+To limit the number of characters the user can enter in the text box editor of the edit form, set the **MaxLength** property of the column.
 
 ## GridItem type for edit mode
 
-When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataItem__ in regular mode but not in edit mode. In event handlers such as the __ItemCreated__ event (for example), you can cast the item to __GridEditableItem__ (a base class of __GridDataItem__) when the item is in edit mode:
+When **EditMode** is "EditForms" or "PopUp", the grid row is of type **GridDataItem** in regular mode but not in edit mode. In event handlers such as the **ItemCreated** event (for example), you can cast the item to **GridEditableItem** (a base class of **GridDataItem**) when the item is in edit mode:
 
 
 
@@ -86,9 +86,9 @@ When __EditMode__ is "EditForms" or "PopUp", the grid row is of type __GridDataI
 ````
 
 
-When the item is edited, you can cast it to __GridEditFormItem__ (a class that extends the __GridEditableItem__ class) to reference the controls in it. The __GridEditFormItem__ class has an __EditFormCell__ property that provides access to the cell which wraps the controls inside the edit form.
+When the item is edited, you can cast it to **GridEditFormItem** (a class that extends the **GridEditableItem** class) to reference the controls in it. The **GridEditFormItem** class has an **EditFormCell** property that provides access to the cell which wraps the controls inside the edit form.
 
-You can also use the __ParentItem__ property of __GridEditFormItem__ to access the parent data item object from code inside an __UpdateCommand__, __InsertCommand__, or __ItemCommand__ event handler:
+You can also use the **ParentItem** property of **GridEditFormItem** to access the parent data item object from code inside an **UpdateCommand**, **InsertCommand**, or **ItemCommand** event handler:
 
 
 
@@ -128,9 +128,9 @@ Further information about how to reference controls inside grid rows and edit fo
 
 ## Using the EditItems collection
 
-The grid's __EditItems__ collection contains the items (rows) of the grid that are currently being edited. When using __InPlace__ edit mode, these items contain the edit controls. When using __EditForms__ or __PopUp__ however, the items in the collection are the items in their initial (unedited) form. To access the edit form for an item in the list, use its __EditFormItem__ property.
+The grid's **EditItems** collection contains the items (rows) of the grid that are currently being edited. When using **InPlace** edit mode, these items contain the edit controls. When using **EditForms** or **PopUp** however, the items in the collection are the items in their initial (unedited) form. To access the edit form for an item in the list, use its **EditFormItem** property.
 
-To support all edit modes in an application, check the table view's __EditMode__ property when traversing the __EditItems__ collection:
+To support all edit modes in an application, check the table view's **EditMode** property when traversing the **EditItems** collection:
 
 
 

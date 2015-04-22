@@ -1,6 +1,6 @@
 ---
 title: get_virtualItemCount()
-page_title: get_virtualItemCount() | UI for ASP.NET AJAX Documentation
+page_title: get_virtualItemCount() | RadGrid for ASP.NET AJAX Documentation
 description: get_virtualItemCount()
 slug: grid/client-side-programming/gridtableview-object/properties/get_virtualitemcount()
 tags: get_virtualitemcount()
@@ -14,7 +14,7 @@ position: 20
 
 ## 
 
-Property that returns the virtual item count value for the respective __GridTableView__ object. Applies to client-side bound grid only. Generally used when need to get the virtual item count on the client.
+Property that returns the virtual item count value for the respective **GridTableView** object. Applies to client-side bound grid only. Generally used when need to get the virtual item count on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

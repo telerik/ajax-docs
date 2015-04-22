@@ -1,6 +1,6 @@
 ---
 title: expandGroup
-page_title: expandGroup | UI for ASP.NET AJAX Documentation
+page_title: expandGroup | RadGrid for ASP.NET AJAX Documentation
 description: expandGroup
 slug: grid/client-side-programming/gridtableview-object/methods/expandgroup
 tags: expandgroup
@@ -17,15 +17,15 @@ position: 50
 Method which expands a group. It receives as a parameterthe closest data row to the group header or directly the group header. The method accepts an optional parameter called Options.It provides more control over the expand behavior.
 
 
-|  __"Options" parameter properties__  |  |
+|  **"Options" parameter properties**  |  |
 | ------ | ------ |
-| __expandChildren__ |Will expand all child groups|
-| __expandParents__ |Will expand all parent groups|
-| __collapseChildren__ |Will collapse all child groups|
-| __collapseParents__ |Will collapse all parent groups|
-| __toggleChildren__ |Will expand/collapse all child groups according to the state of the current group|
-| __toggleParents__ |Will expand/collapse all parent groups according to the state of the current group|
-| __findClosestGroup__ |Will expand the first parent group|
+| **expandChildren** |Will expand all child groups|
+| **expandParents** |Will expand all parent groups|
+| **collapseChildren** |Will collapse all child groups|
+| **collapseParents** |Will collapse all parent groups|
+| **toggleChildren** |Will expand/collapse all child groups according to the state of the current group|
+| **toggleParents** |Will expand/collapse all parent groups according to the state of the current group|
+| **findClosestGroup** |Will expand the first parent group|
 
 Example:
 

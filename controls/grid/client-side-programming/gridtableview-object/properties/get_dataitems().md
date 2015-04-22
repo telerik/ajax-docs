@@ -1,6 +1,6 @@
 ---
 title: get_dataItems()
-page_title: get_dataItems() | UI for ASP.NET AJAX Documentation
+page_title: get_dataItems() | RadGrid for ASP.NET AJAX Documentation
 description: get_dataItems()
 slug: grid/client-side-programming/gridtableview-object/properties/get_dataitems()
 tags: get_dataitems()
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-Property that returns a collection of __[GridDataItems]({%slug grid/client-side-programming/griddataitem-object/griddataitem-class-members%})__ which the respective __[GridTableView]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})__ holds.Generally used when there is a need to access the grid data on the client.
+Property that returns a collection of **[GridDataItems]({%slug grid/client-side-programming/griddataitem-object/griddataitem-class-members%})** which the respective **[GridTableView]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})** holds.Generally used when there is a need to access the grid data on the client.
 
 Example:
 

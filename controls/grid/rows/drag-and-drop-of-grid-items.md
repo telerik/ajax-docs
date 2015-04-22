@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop of Grid Items
-page_title: Drag and Drop of Grid Items | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop of Grid Items | RadGrid for ASP.NET AJAX Documentation
 description: Drag and Drop of Grid Items
 slug: grid/rows/drag-and-drop-of-grid-items
 tags: drag,and,drop,of,grid,items
@@ -34,29 +34,29 @@ The event-driven model which allows you to process and complete the drag and dro
 >
 
 
-__Client-side phase__
+**Client-side phase**
 
-There are three client grid events exposed to handle drag/drop action: __OnRowDragStarted__ (cancelable), __OnRowDropping__ (cancelable) and __OnRowDropped__.
+There are three client grid events exposed to handle drag/drop action: **OnRowDragStarted** (cancelable), **OnRowDropping** (cancelable) and **OnRowDropped**.
 
-* The __OnRowDragStarted__ event can be intercepted if you want to perform some conditional check and determine whether to cancel the drag operation or not. The syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX. The row which is about to be dragged can be accessed through the __get_gridDataItem__() property of the second argument passed in the OnRowDragStarted handler.
+* The **OnRowDragStarted** event can be intercepted if you want to perform some conditional check and determine whether to cancel the drag operation or not. The syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX. The row which is about to be dragged can be accessed through the **get_gridDataItem**() property of the second argument passed in the OnRowDragStarted handler.
 
-* The __OnRowDropping__ event should be attached to identify the target element on which the dragged grid record is dropped. If this element does not meet your criteria for acceptable target, cancel the operation by setting *args.set_cancel(true)* where args is the second argument passed to the OnRowDropping handler. Additionally, to determine the destination element or set it explicitly use the *get_destinationHtmlElement()* and *set_destinationHtmlElement()* properties that can be accessed through the args argument in the handler. Again, the syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX.
+* The **OnRowDropping** event should be attached to identify the target element on which the dragged grid record is dropped. If this element does not meet your criteria for acceptable target, cancel the operation by setting *args.set_cancel(true)* where args is the second argument passed to the OnRowDropping handler. Additionally, to determine the destination element or set it explicitly use the *get_destinationHtmlElement()* and *set_destinationHtmlElement()* properties that can be accessed through the args argument in the handler. Again, the syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX.
 
-* The __OnRowDropped__ event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the OnRowDropping client event.
+* The **OnRowDropped** event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the OnRowDropping client event.
 
-__Server-side phase__
+**Server-side phase**
 
-On the server there is a single event (named __OnRowDrop__). Subscribing to this event allows you to reorder the items in the source grid or remove them and append these rows to a destination grid instance. The sequence of actions you will have to undertake in order to change the source structure may vary because this depends strictly on the underlying data source and its data model. The common logic in all cases, however, is that you can use three arguments passed in the handler to accomplish the task:
+On the server there is a single event (named **OnRowDrop**). Subscribing to this event allows you to reorder the items in the source grid or remove them and append these rows to a destination grid instance. The sequence of actions you will have to undertake in order to change the source structure may vary because this depends strictly on the underlying data source and its data model. The common logic in all cases, however, is that you can use three arguments passed in the handler to accomplish the task:
 
-* __e.HtmlElement__ - holds the html element (or grid item)
+* **e.HtmlElement** - holds the html element (or grid item)
 
-* __e.DestDataItem__ - the destination grid item object (either GridDataItem or GridNoRecordsItem)
+* **e.DestDataItem** - the destination grid item object (either GridDataItem or GridNoRecordsItem)
 
-* __e.DraggedItems__ - a collection of GridDataItems which holds the rows that are taking part in the current drop operation
+* **e.DraggedItems** - a collection of GridDataItems which holds the rows that are taking part in the current drop operation
 
-* __e.DestinationGrid__- a reference to the grid instance to which the row has been dragged to
+* **e.DestinationGrid**- a reference to the grid instance to which the row has been dragged to
 
-* __e.DestinationTableView__- a reference to the table to which the row has been draggged to, points to the MasterTableView or detail table in hierarchical grid
+* **e.DestinationTableView**- a reference to the table to which the row has been draggged to, points to the MasterTableView or detail table in hierarchical grid
 
 Combining the client and server part completes the circle and separates logically each part of the drag and drop process until it is finalized. For richer end user experience you can ajaxify the grid via RadAjaxManager and use RadAjaxLoadingPanel indicators. Otherwise the drag and drop operation will be performed with plain postback.
 

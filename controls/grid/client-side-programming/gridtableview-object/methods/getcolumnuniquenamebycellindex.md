@@ -1,6 +1,6 @@
 ---
 title: getColumnUniqueNameByCellIndex
-page_title: getColumnUniqueNameByCellIndex | UI for ASP.NET AJAX Documentation
+page_title: getColumnUniqueNameByCellIndex | RadGrid for ASP.NET AJAX Documentation
 description: getColumnUniqueNameByCellIndex
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnuniquenamebycellindex
 tags: getcolumnuniquenamebycellindex
@@ -14,13 +14,13 @@ position: 25
 
 ## 
 
-Method which returns the UniqueName of the column by given __header row__ element and cell __index__ passed as first and second arguments.
+Method which returns the UniqueName of the column by given **header row** element and cell **index** passed as first and second arguments.
 
-__getColumnUniqueNameByCellIndex(headerRow, index)__
+**getColumnUniqueNameByCellIndex(headerRow, index)**
 
-* __headerRow__ - HTML table header row element(__<th>__).
+* **headerRow** - HTML table header row element(**<th>**).
 
-* __index__ - Cell index (__integer__))
+* **index** - Cell index (**integer**))
 
 ````ASPNET
 	        <script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: updateEditedItems
-page_title: updateEditedItems | UI for ASP.NET AJAX Documentation
+page_title: updateEditedItems | RadGrid for ASP.NET AJAX Documentation
 description: updateEditedItems
 slug: grid/client-side-programming/gridtableview-object/methods/updateediteditems
 tags: updateediteditems
@@ -17,7 +17,7 @@ position: 47
 Method which updates all edited items in the grid. The new data will be taken from the edit form editors.
 
 
-|  __updateEditedItems()__  |
+|  **updateEditedItems()**  |
 | ------ |
 ||
 

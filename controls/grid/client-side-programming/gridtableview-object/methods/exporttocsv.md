@@ -1,6 +1,6 @@
 ---
 title: exportToCsv
-page_title: exportToCsv | UI for ASP.NET AJAX Documentation
+page_title: exportToCsv | RadGrid for ASP.NET AJAX Documentation
 description: exportToCsv
 slug: grid/client-side-programming/gridtableview-object/methods/exporttocsv
 tags: exporttocsv
@@ -17,7 +17,7 @@ position: 15
 Telerik RadGrid can export to CSV format (comma-separated values).
 
 
-|  __exportToCsv()__  |
+|  **exportToCsv()**  |
 | ------ |
 ||
 

@@ -1,6 +1,6 @@
 ---
 title: resizeToFit 
-page_title: resizeToFit  | UI for ASP.NET AJAX Documentation
+page_title: resizeToFit  | RadGrid for ASP.NET AJAX Documentation
 description: resizeToFit 
 slug: grid/client-side-programming/gridcolumn-object/methods/resizetofit-
 tags: resizetofit,
@@ -12,11 +12,11 @@ position: 1
 
 
 
-This method resizes the column to fit the widest cell's content without wrapping. It also provides two __optional__ parameters which can be used for further alteration:
+This method resizes the column to fit the widest cell's content without wrapping. It also provides two **optional** parameters which can be used for further alteration:
 
-* __skipHeaderCell__: Determines whether the Headers should be ignored in the calculation for the column's new width.By default - __false__.
+* **skipHeaderCell**: Determines whether the Headers should be ignored in the calculation for the column's new width.By default - **false**.
 
-* __includeAllHeaderRows__: This parameter has effect only if the __skipHeaderCell__is set to __false__. It determines whether the cells of the filter item should be considered in the calculation for the column's new width.By default - __false__, except when the __RadGrid__ has structure with Multi-column headers configured.
+* **includeAllHeaderRows**: This parameter has effect only if the **skipHeaderCell**is set to **false**. It determines whether the cells of the filter item should be considered in the calculation for the column's new width.By default - **false**, except when the **RadGrid** has structure with Multi-column headers configured.
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

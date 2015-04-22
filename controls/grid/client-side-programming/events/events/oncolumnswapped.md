@@ -1,6 +1,6 @@
 ---
 title: OnColumnSwapped
-page_title: OnColumnSwapped | UI for ASP.NET AJAX Documentation
+page_title: OnColumnSwapped | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnSwapped
 slug: grid/client-side-programming/events/events/oncolumnswapped
 tags: oncolumnswapped
@@ -23,10 +23,10 @@ Sys.EventArgs OnColumnSwapped Property
 This event is fired after two columns are swapped.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |gridSourceColumn - returns reference to the source columngridTargetColumn - returns reference to the target column|
-| __Can be canceled__ |No|
+| **Arguments** |gridSourceColumn - returns reference to the source columngridTargetColumn - returns reference to the target column|
+| **Can be canceled** |No|
 
 Example:
 

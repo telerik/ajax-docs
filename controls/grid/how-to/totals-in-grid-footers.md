@@ -1,6 +1,6 @@
 ---
 title: Totals in Grid Footers
-page_title: Totals in Grid Footers | UI for ASP.NET AJAX Documentation
+page_title: Totals in Grid Footers | RadGrid for ASP.NET AJAX Documentation
 description: Totals in Grid Footers
 slug: grid/how-to/totals-in-grid-footers
 tags: totals,in,grid,footers
@@ -14,28 +14,28 @@ position: 0
 
 There are various cases in which you may want to display results from aggregate functions performed over the columns in the grid in their footer.
 
-__Declarative solution__
+**Declarative solution**
 
 RadGrid provides an intuitive method to define aggregates on a per column basis from design time and render the results inside the respective column's footer. Aggregate calculations are supported for GridBoundColumns and GridCalculatedColumns.
 
-In order to specify how the group aggregates will be evaluated, specify in every GridBoundColumn/GridCalculatedColumn the __Aggregate__ property which accepts values from the __GridAggregateFunction__ enumeration. The options available for the GridAggregateFunction enumeration are listed below:
+In order to specify how the group aggregates will be evaluated, specify in every GridBoundColumn/GridCalculatedColumn the **Aggregate** property which accepts values from the **GridAggregateFunction** enumeration. The options available for the GridAggregateFunction enumeration are listed below:
 
-__GridAggregateFunction enumeration members__
+**GridAggregateFunction enumeration members**
 
 
 >caption  
 
-|  __Member__  |  __Description__  |
+|  **Member**  |  **Description**  |
 | ------ | ------ |
-| __Sum__ |Returns the sum of all column values in the source.|
-| __Min__ |Returns the min value from the source column.|
-| __Max__ |Returns the max value from the source column.|
-| __Last__ |Returns the last value from the source column.|
-| __First__ |Returns the first value from the source column.|
-| __Count__ |Returns the count of source column values, including null values.|
-| __Avg__ |Returns the average value from the source column values.|
-| __Custom__ |Raises OnCustomAggregate event where the custom result can be set using the e.Result argument.|
-| __None__ |Default value, no aggregate function applied.|
+| **Sum** |Returns the sum of all column values in the source.|
+| **Min** |Returns the min value from the source column.|
+| **Max** |Returns the max value from the source column.|
+| **Last** |Returns the last value from the source column.|
+| **First** |Returns the first value from the source column.|
+| **Count** |Returns the count of source column values, including null values.|
+| **Avg** |Returns the average value from the source column values.|
+| **Custom** |Raises OnCustomAggregate event where the custom result can be set using the e.Result argument.|
+| **None** |Default value, no aggregate function applied.|
 
 
 
@@ -102,19 +102,19 @@ For further details please refer to [this online demo](http://demos.telerik.com/
 
 
 
-__Programmatic solution__
+**Programmatic solution**
 
 Here are the steps you need to undertake to display totals in the grid columns footer:
 
-1. Subscribe to the __ItemDataBound__ event of Telerik RadGrid
+1. Subscribe to the **ItemDataBound** event of Telerik RadGrid
 
 1. Calculate the sum of the values in all cells of a specified column
 
 1. Insert the result in the footer of the corresponding column
 
-Do not forget to set __ShowFooter = true__ for the MasterTableView to visualize content in the grid footer.
+Do not forget to set **ShowFooter = true** for the MasterTableView to visualize content in the grid footer.
 
-See the forthcoming implementation for further info (__Quantity__ is integer field in the grid database):
+See the forthcoming implementation for further info (**Quantity** is integer field in the grid database):
 
 
 
@@ -293,7 +293,7 @@ Below are the code snippets of a sample approach (note that with other type of d
 
 When you want to "enhance" your footer and display the items in it in multiline mode, you can wire the
 
-__ItemDataBound__ event of the grid and add the values which you want to be shown at the bottom of the respective columns footer cells.
+**ItemDataBound** event of the grid and add the values which you want to be shown at the bottom of the respective columns footer cells.
 
 The forthcoming code snippets will render two rows in the table footer which will show the total price/units in stock along with the highest price/units quantity for the records displayed. Note that the data will be refreshed accordingly when you sort/page/filter records in the grid:
 

@@ -1,6 +1,6 @@
 ---
 title: ASP.NET AJAX Framework
-page_title: ASP.NET AJAX Framework | UI for ASP.NET AJAX Documentation
+page_title: ASP.NET AJAX Framework | RadGrid for ASP.NET AJAX Documentation
 description: ASP.NET AJAX Framework
 slug: grid/getting-started/asp.net-ajax-framework
 tags: asp.net,ajax,framework
@@ -16,11 +16,11 @@ All Telerik for ASP.NET AJAX controls provide full support for ASP.NET AJAX Asyn
 
 The main idea of the AJAX framework is the elimination of full-page postbacks. In contrast, only the relevant parts of the page are updated, without a disturbing refresh The markup that is transferred between the client machine and the server is reduced dramatically, which results in a significant performance improvement.
 
-To enable ASP.NET AJAX with __RadGrid__ for ASP.NET AJAX:
+To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 
 1. Make sure you have the ASP.NET AJAX framework installed.
 
-1. Add the instance of __RadGrid__ to a __RadAjaxManager__ control. You can optionally provide it with a loading panel, as shown below:
+1. Add the instance of **RadGrid** to a **RadAjaxManager** control. You can optionally provide it with a loading panel, as shown below:
 
 ````ASPNET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -40,7 +40,7 @@ To enable ASP.NET AJAX with __RadGrid__ for ASP.NET AJAX:
 
 
 
-To enable or disable ASP.NET AJAX with the __RadAjaxManager__, set its __EnableAJAX__ property to __True__ or __False__ accordingly.
+To enable or disable ASP.NET AJAX with the **RadAjaxManager**, set its **EnableAJAX** property to **True** or **False** accordingly.
 
 >note ASP.NET AJAX is not a Telerik product.
 >For further information about ASP.NET AJAX, refer to[ASP.NET AJAX Roadmap](http://msdn.microsoft.com/en-us/library/bb398822.aspx).
@@ -55,7 +55,7 @@ If you receive exceptions such as:
 
 you need to the code block inside RadCodeBlock, i.e.:
 
-__Incorrect:__
+**Incorrect:**
 
 ````ASPNET
 	  <head runat="server">
@@ -71,7 +71,7 @@ __Incorrect:__
 
 
 
-__Correct:__
+**Correct:**
 
 ````ASPNET
 	  <head runat="server">

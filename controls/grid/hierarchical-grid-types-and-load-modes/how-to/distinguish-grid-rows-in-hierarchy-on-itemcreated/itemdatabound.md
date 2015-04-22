@@ -1,6 +1,6 @@
 ---
 title: Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound
-page_title: Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound | RadGrid for ASP.NET AJAX Documentation
 description: Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/distinguish-grid-rows-in-hierarchy-on-itemcreated/itemdatabound
 tags: distinguish,grid,rows,in,hierarchy,on,itemcreated/itemdatabound
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-There are cases in which you may want to identify to which level of the hierarchy the currently created/bound row is. This is suitable when you would like to undertake a task (formatting a row, binding values to its column editors or attaching client events to them when a row is in edit mode, etc.).To identify the table to which the current row belongs/is bound (in the __ItemCreated__/__ItemDataBound__ handler), you can use the __DataMember__ property of the respective __GridTableView__ (under NET 2.x/3.x when you do not populate the nested table content through data source control) or the __DataSourceID__ property (.NET 2.x/NET 3.x). The third option is to utilize the __Name__ property of each __GridTableView__(applicable for NET 2.x and NET 3.x) assigning unique value for it beforehand.Below are some sample code snippets:
+There are cases in which you may want to identify to which level of the hierarchy the currently created/bound row is. This is suitable when you would like to undertake a task (formatting a row, binding values to its column editors or attaching client events to them when a row is in edit mode, etc.).To identify the table to which the current row belongs/is bound (in the **ItemCreated**/**ItemDataBound** handler), you can use the **DataMember** property of the respective **GridTableView** (under NET 2.x/3.x when you do not populate the nested table content through data source control) or the **DataSourceID** property (.NET 2.x/NET 3.x). The third option is to utilize the **Name** property of each **GridTableView**(applicable for NET 2.x and NET 3.x) assigning unique value for it beforehand.Below are some sample code snippets:
 
-__Without data source controls__
+**Without data source controls**
 
 
 
@@ -58,7 +58,7 @@ __Without data source controls__
 ````
 
 
-__With data source controls__
+**With data source controls**
 
 
 
@@ -98,7 +98,7 @@ __With data source controls__
 ````
 
 
-__Using Name property__
+**Using Name property**
 
 
 

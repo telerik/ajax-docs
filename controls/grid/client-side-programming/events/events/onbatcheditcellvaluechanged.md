@@ -1,6 +1,6 @@
 ---
 title: OnBatchEditCellValueChanged
-page_title: OnBatchEditCellValueChanged | UI for ASP.NET AJAX Documentation
+page_title: OnBatchEditCellValueChanged | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditCellValueChanged
 slug: grid/client-side-programming/events/events/onbatcheditcellvaluechanged
 tags: onbatcheditcellvaluechanged
@@ -19,10 +19,10 @@ OnBatchEditCellValueChanged
 This event is fired once a cell has been edited.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __cell__ - gets the currently edited cell __row__ - gets the currently edited row __column__ - gets the currently edited column __columnUniqueName__ - gets the UniqueName of the edited column __tableView__ - gets the TableView in which the edited item is located __cell value__ - gets the cell value __editor value__ - gets the editor value|
-| __Can be canceled__ |No|
+| **Arguments** | **cell** - gets the currently edited cell **row** - gets the currently edited row **column** - gets the currently edited column **columnUniqueName** - gets the UniqueName of the edited column **tableView** - gets the TableView in which the edited item is located **cell value** - gets the cell value **editor value** - gets the editor value|
+| **Can be canceled** |No|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: Model Binding and Strongly Typed Data Controls Support
-page_title: Model Binding and Strongly Typed Data Controls Support | UI for ASP.NET AJAX Documentation
+page_title: Model Binding and Strongly Typed Data Controls Support | RadGrid for ASP.NET AJAX Documentation
 description: Model Binding and Strongly Typed Data Controls Support
 slug: grid/data-binding/model-binding-and-strongly-typed-data-controls-support
 tags: model,binding,and,strongly,typed,data,controls,support
@@ -44,9 +44,9 @@ When we perform two-way data-binding the Bind() method is used:
 
 
 
-On the other side the .NET 4.5 provides ability to enable strongly-typed data templates. To enable them the __ItemType__ property needs to be set on the data bound control. After setting it two new types will be generated in the scope of the control’s template: Item and BindItem.
+On the other side the .NET 4.5 provides ability to enable strongly-typed data templates. To enable them the **ItemType** property needs to be set on the data bound control. After setting it two new types will be generated in the scope of the control’s template: Item and BindItem.
 
->note Make sure that you set the __ItemType__ property of __RadGrid__ and the __GridTableView__ containing the columns.
+>note Make sure that you set the **ItemType** property of **RadGrid** and the **GridTableView** containing the columns.
 >
 
 
@@ -156,7 +156,7 @@ The code snippet above will get the name parameter from the QueryString and inte
 
 ## Model Binding CRUD operations
 
-__Editing__
+**Editing**
 
 In order to have editing enabled into the data bound controls you need to set the UpdateMethod of the corresponding control to the web form page’s method. The UpdateMethod can have following signature:
 
@@ -193,11 +193,11 @@ Or you could use following signature:
 
 
 
-__Inserting__
+**Inserting**
 
 In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethod can have following signatures:
 
-__Deleting__
+**Deleting**
 
 In order to have deleting enabled into the data bound controls you need to set the DeleteMethod property of the corresponding control to the name of the web form page’s delete method. The DeleteMethod can have following signature:
 
@@ -294,4 +294,4 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ## ModelBinding Limitations
 
-We do not support model binding when the __ViewState__ of the page is __disabled__. In order to use the model binding you need to set __Page.EnableViewState = “true”__
+We do not support model binding when the **ViewState** of the page is **disabled**. In order to use the model binding you need to set **Page.EnableViewState = “true”**

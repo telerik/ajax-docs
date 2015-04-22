@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Support
-page_title: Visual Studio Support | UI for ASP.NET AJAX Documentation
+page_title: Visual Studio Support | RadGrid for ASP.NET AJAX Documentation
 description: Visual Studio Support
 slug: grid/getting-started/visual-studio-support
 tags: visual,studio,support

@@ -1,6 +1,6 @@
 ---
 title: hideItem
-page_title: hideItem | UI for ASP.NET AJAX Documentation
+page_title: hideItem | RadGrid for ASP.NET AJAX Documentation
 description: hideItem
 slug: grid/client-side-programming/gridtableview-object/methods/hideitem
 tags: hideitem
@@ -14,7 +14,7 @@ position: 30
 
 ## 
 
-This method allows you to hide the __GridDataItem__ from the grid. The method accept one parameter which is the index ofthe table row that will be hidden.
+This method allows you to hide the **GridDataItem** from the grid. The method accept one parameter which is the index ofthe table row that will be hidden.
 
 ````ASPNET
 	         <script type="text/javascript">

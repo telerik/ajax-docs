@@ -1,6 +1,6 @@
 ---
 title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn
-page_title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn | UI for ASP.NET AJAX Documentation
+page_title: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn | RadGrid for ASP.NET AJAX Documentation
 description: Operations with MS DropDownList in EditItemTemplate of GridTemplateColumn
 slug: grid/how-to/operations-with-ms-dropdownlist-in-edititemtemplate-of-gridtemplatecolumn
 tags: operations,with,ms,dropdownlist,in,edititemtemplate,of,gridtemplatecolumn
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-This article discusses how to bind a dropdown control in __EditItemTemplate__ with custom values and update the __ItemTemplate__ field after editing. The functionality can be used in cases in which the developer may want to provide different list of choices than the ones present by default in __GridDropDownColumn__. You should locate the dropdown control in the __ItemDataBound__ handler of the grid for each item which is in edit mode and bind it to the data source of your choice. Furthermore, when update is performed you can save the selected by the user value in __Session__ variable and then set that value for the template column cell in regular mode.The same Session variable can be used to select the default item in the dropdown control on subsequent editing.
+This article discusses how to bind a dropdown control in **EditItemTemplate** with custom values and update the **ItemTemplate** field after editing. The functionality can be used in cases in which the developer may want to provide different list of choices than the ones present by default in **GridDropDownColumn**. You should locate the dropdown control in the **ItemDataBound** handler of the grid for each item which is in edit mode and bind it to the data source of your choice. Furthermore, when update is performed you can save the selected by the user value in **Session** variable and then set that value for the template column cell in regular mode.The same Session variable can be used to select the default item in the dropdown control on subsequent editing.
 
 In the code below we assign array of ListItem objects as data source for the dropdown editor. To visualize clearly the functionality depicted above we generate only one grid item. For more complex scenarios you should adjust the provided logic to suit your case.
 

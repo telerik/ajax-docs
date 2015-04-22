@@ -1,6 +1,6 @@
 ---
 title: set_virtualItemCount()
-page_title: set_virtualItemCount() | UI for ASP.NET AJAX Documentation
+page_title: set_virtualItemCount() | RadGrid for ASP.NET AJAX Documentation
 description: set_virtualItemCount()
 slug: grid/client-side-programming/gridtableview-object/properties/set_virtualitemcount()
 tags: set_virtualitemcount()
@@ -14,7 +14,7 @@ position: 21
 
 ## 
 
-This property allows you to set the virtual item count value for the respective __GridTableView__ object. Applies to client-side bound grid only. Generally used when need to set the virtual item count on the client.
+This property allows you to set the virtual item count value for the respective **GridTableView** object. Applies to client-side bound grid only. Generally used when need to set the virtual item count on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

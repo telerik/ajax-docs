@@ -1,6 +1,6 @@
 ---
 title: OnHeaderMenuShowing
-page_title: OnHeaderMenuShowing | UI for ASP.NET AJAX Documentation
+page_title: OnHeaderMenuShowing | RadGrid for ASP.NET AJAX Documentation
 description: OnHeaderMenuShowing
 slug: grid/client-side-programming/events/events/onheadermenushowing
 tags: onheadermenushowing
@@ -17,10 +17,10 @@ position: 39
 This event is fired before the header context menu is rendered.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - the original browser event __menu__ - header menu instance|
-| __Can be canceled__ |Yes|
+| **Arguments** | **gridColumn** - current[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - the original browser event **menu** - header menu instance|
+| **Can be canceled** |Yes|
 
 Example:
 

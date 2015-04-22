@@ -1,6 +1,6 @@
 ---
 title: OnTableDestroying
-page_title: OnTableDestroying | UI for ASP.NET AJAX Documentation
+page_title: OnTableDestroying | RadGrid for ASP.NET AJAX Documentation
 description: OnTableDestroying
 slug: grid/client-side-programming/events/events/ontabledestroying
 tags: ontabledestroying
@@ -23,10 +23,10 @@ Sys.EventArgs OnTableDestroying Property
 This event is fired when table object is destroyed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

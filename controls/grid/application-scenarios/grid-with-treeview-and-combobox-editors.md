@@ -1,6 +1,6 @@
 ---
 title: Grid with TreeView and ComboBox editors
-page_title: Grid with TreeView and ComboBox editors | UI for ASP.NET AJAX Documentation
+page_title: Grid with TreeView and ComboBox editors | RadGrid for ASP.NET AJAX Documentation
 description: Grid with TreeView and ComboBox editors
 slug: grid/application-scenarios/grid-with-treeview-and-combobox-editors
 tags: grid,with,treeview,and,combobox,editors

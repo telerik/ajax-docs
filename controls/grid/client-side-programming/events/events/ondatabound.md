@@ -1,6 +1,6 @@
 ---
 title: OnDataBound
-page_title: OnDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnDataBound | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBound
 slug: grid/client-side-programming/events/events/ondatabound
 tags: ondatabound
@@ -27,10 +27,10 @@ This event will be raised right after the grid is bound to data client-side.
 
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __N/A__ - dom event|
-| __Can be canceled__ |No|
+| **Arguments** | **N/A** - dom event|
+| **Can be canceled** |No|
 
 Example:
 

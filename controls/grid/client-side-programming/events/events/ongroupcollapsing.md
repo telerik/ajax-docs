@@ -1,6 +1,6 @@
 ---
 title: OnGroupCollapsing
-page_title: OnGroupCollapsing | UI for ASP.NET AJAX Documentation
+page_title: OnGroupCollapsing | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupCollapsing
 slug: grid/client-side-programming/events/events/ongroupcollapsing
 tags: ongroupcollapsing
@@ -23,10 +23,10 @@ Sys.CancelEventArgs OnGroupCollapsing Property
 This event is fired before a group is collapsed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** |N/A|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

@@ -1,6 +1,6 @@
 ---
 title: showItem
-page_title: showItem | UI for ASP.NET AJAX Documentation
+page_title: showItem | RadGrid for ASP.NET AJAX Documentation
 description: showItem
 slug: grid/client-side-programming/gridtableview-object/methods/showitem
 tags: showitem

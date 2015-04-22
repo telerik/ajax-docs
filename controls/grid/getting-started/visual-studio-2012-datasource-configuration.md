@@ -1,6 +1,6 @@
 ---
 title: Visual Studio 2012 Datasource Configuration
-page_title: Visual Studio 2012 Datasource Configuration | UI for ASP.NET AJAX Documentation
+page_title: Visual Studio 2012 Datasource Configuration | RadGrid for ASP.NET AJAX Documentation
 description: Visual Studio 2012 Datasource Configuration
 slug: grid/getting-started/visual-studio-2012-datasource-configuration
 tags: visual,studio,2012,datasource,configuration
@@ -20,14 +20,14 @@ In order to get over this error, you should reconfigure the connection string th
 
 If you do not have the LocalDB option installed on your machine or if you do not want to use it, you cold use the following steps in order to start using the SQLExpress server again:
 
-* Once you get to the "Choose Your Data Connection" dialog, click the __"New Connection..."__ button.
+* Once you get to the "Choose Your Data Connection" dialog, click the **"New Connection..."** button.
 
-* After that the __"Add Connection"__ dialog is displayed. Here you need to choose the server thatwill be used to host the database file.![grid gettingstarted exception new Connection](images/grid_gettingstarted_exception_newConnection.png)
+* After that the **"Add Connection"** dialog is displayed. Here you need to choose the server thatwill be used to host the database file.![grid gettingstarted exception new Connection](images/grid_gettingstarted_exception_newConnection.png)
 
-* In the __"Server name:"__ dropdown control you choose the server instance.
+* In the **"Server name:"** dropdown control you choose the server instance.
 
-* Next, click the __"Attach a database file:"__ radiobutton. Then browse to the database file location.
+* Next, click the **"Attach a database file:"** radiobutton. Then browse to the database file location.
 
-* Once, you are done with these steps, verify the connection with the __"Test connection"__ button.![New connection dialog settings](images/grid_gettingstarted_exception_connectionPreferences.png)
+* Once, you are done with these steps, verify the connection with the **"Test connection"** button.![New connection dialog settings](images/grid_gettingstarted_exception_connectionPreferences.png)
 
 * Finally, click the "OK" button and proceed as usual.

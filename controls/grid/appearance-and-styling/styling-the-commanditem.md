@@ -1,6 +1,6 @@
 ---
 title: Styling the CommandItem
-page_title: Styling the CommandItem | UI for ASP.NET AJAX Documentation
+page_title: Styling the CommandItem | RadGrid for ASP.NET AJAX Documentation
 description: Styling the CommandItem
 slug: grid/appearance-and-styling/styling-the-commanditem
 tags: styling,the,commanditem
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-In order to show the command item, you should set __CommandItemDisplay__ property of __GridTableView__. It can take four values: __None__, __Top__, __Bottom__, __TopAndBottom__ corresponding to the place where it will appear. The command item content can be customized using the template of a __GridTableView.CommandItemTemplate__.
+In order to show the command item, you should set **CommandItemDisplay** property of **GridTableView**. It can take four values: **None**, **Top**, **Bottom**, **TopAndBottom** corresponding to the place where it will appear. The command item content can be customized using the template of a **GridTableView.CommandItemTemplate**.
 
 ![CommandItemTemplate](images/grd_CommandItemTemplate_markedup.png)
 

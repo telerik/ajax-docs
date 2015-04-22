@@ -1,6 +1,6 @@
 ---
 title: CSS sprites
-page_title: CSS sprites | UI for ASP.NET AJAX Documentation
+page_title: CSS sprites | RadGrid for ASP.NET AJAX Documentation
 description: CSS sprites
 slug: grid/appearance-and-styling/css-sprites
 tags: css,sprites
@@ -45,28 +45,28 @@ How do we make a specific part of the sprite image appear as a background for a 
 
 These are the CSS classes available for the different buttons in RadGrid:
 
-* __rgAdd__ - add new
+* **rgAdd** - add new
 
-* __rgRefresh__ - refresh
+* **rgRefresh** - refresh
 
-* __rgEdit__ - edit row
+* **rgEdit** - edit row
 
-* __rgDel__ - delete row
+* **rgDel** - delete row
 
-* __rgFilter__ - filtering menu popup
+* **rgFilter** - filtering menu popup
 
-* __rgPagePrev__ - previous page
+* **rgPagePrev** - previous page
 
-* __rgPageNext__ - next page
+* **rgPageNext** - next page
 
-* __rgExpand__ - expand group
+* **rgExpand** - expand group
 
-* __rgCollapse__ - collapse group
+* **rgCollapse** - collapse group
 
-* __rgSortAsc__ - sorted ascending (used inside header cells and group panels)
+* **rgSortAsc** - sorted ascending (used inside header cells and group panels)
 
-* __rgSortDesc__ - sorted descending (used inside header cells and group panels)
+* **rgSortDesc** - sorted descending (used inside header cells and group panels)
 
-* __rgUpdate__ - update
+* **rgUpdate** - update
 
-* __rgCance__l - cancel edit
+* **rgCance**l - cancel edit

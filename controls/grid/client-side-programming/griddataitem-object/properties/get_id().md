@@ -1,6 +1,6 @@
 ---
 title: get_id()
-page_title: get_id() | UI for ASP.NET AJAX Documentation
+page_title: get_id() | RadGrid for ASP.NET AJAX Documentation
 description: get_id()
 slug: grid/client-side-programming/griddataitem-object/properties/get_id()
 tags: get_id()

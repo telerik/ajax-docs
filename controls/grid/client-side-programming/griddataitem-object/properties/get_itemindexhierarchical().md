@@ -1,6 +1,6 @@
 ---
 title: get_itemIndexHierarchical()
-page_title: get_itemIndexHierarchical() | UI for ASP.NET AJAX Documentation
+page_title: get_itemIndexHierarchical() | RadGrid for ASP.NET AJAX Documentation
 description: get_itemIndexHierarchical()
 slug: grid/client-side-programming/griddataitem-object/properties/get_itemindexhierarchical()
 tags: get_itemindexhierarchical()
@@ -17,7 +17,7 @@ position: 7
 Property which retrieves the hierarchical index of a particular GridDataItem.
 
 
-|  __get_itemIndexHierarchical()__  |
+|  **get_itemIndexHierarchical()**  |
 | ------ |
 ||
 

@@ -1,6 +1,6 @@
 ---
 title: Enabled Disabled Conventions
-page_title: Enabled Disabled Conventions | UI for ASP.NET AJAX Documentation
+page_title: Enabled Disabled Conventions | RadGrid for ASP.NET AJAX Documentation
 description: Enabled Disabled Conventions
 slug: grid/visible/enabled-conventions/enabled-disabled-conventions
 tags: enabled,disabled,conventions
@@ -183,7 +183,7 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
 
 ## Server-side
 
-The approach differs a bit when you prefer to disable the grid server-side. To summarize, you have to set the __Enabled__ property of the control to __false__ and switch off the auto postback on row click, column resizing, client row selection and keyboard navigation. Finally, locate the filter images when filtering is enabled and disable them on *ItemCreated* as well (thus preventing the filter menu from being displayed on click).Later on, roll back the changes when you enable the grid on the page.The following implementation shows how to enable/disable RadGrid with ajax request from external html buttons:
+The approach differs a bit when you prefer to disable the grid server-side. To summarize, you have to set the **Enabled** property of the control to **false** and switch off the auto postback on row click, column resizing, client row selection and keyboard navigation. Finally, locate the filter images when filtering is enabled and disable them on *ItemCreated* as well (thus preventing the filter menu from being displayed on click).Later on, roll back the changes when you enable the grid on the page.The following implementation shows how to enable/disable RadGrid with ajax request from external html buttons:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Center PopUp Edit Form in RadGrid
-page_title: Center PopUp Edit Form in RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Center PopUp Edit Form in RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Center PopUp Edit Form in RadGrid
 slug: grid/data-editing/how-to/center-popup-edit-form-in-radgrid
 tags: center,popup,edit,form,in,radgrid
@@ -14,7 +14,7 @@ position: 17
 
 ## 
 
-In some case where __RadGrid__ uses __PopUp__ edit forms for inserting/updating records, you may want to specify the pop-up form position on the page. For that purpose hook up the __OnPopUpShowing__ client-side event of RadGrid to change the default position of the __PopUp__ edit form.
+In some case where **RadGrid** uses **PopUp** edit forms for inserting/updating records, you may want to specify the pop-up form position on the page. For that purpose hook up the **OnPopUpShowing** client-side event of RadGrid to change the default position of the **PopUp** edit form.
 
 Below is an example showing how to center the edit form in RadGrid:
 

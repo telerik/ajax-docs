@@ -1,6 +1,6 @@
 ---
 title: RadGrid and MasterTableView Difference
-page_title: RadGrid and MasterTableView Difference | UI for ASP.NET AJAX Documentation
+page_title: RadGrid and MasterTableView Difference | RadGrid for ASP.NET AJAX Documentation
 description: RadGrid and MasterTableView Difference
 slug: grid/defining-structure/radgrid-and-mastertableview-difference
 tags: radgrid,and,mastertableview,difference
@@ -12,21 +12,21 @@ position: 0
 
 
 
-The __RadGrid__ control has a __MasterTableView__ property that represents the top table in the grid. The instances of __RadGrid__ and __MasterTableView__ are almost identical, although they are of different types (__RadGrid__ and __GridTableView__, respectively).
+The **RadGrid** control has a **MasterTableView** property that represents the top table in the grid. The instances of **RadGrid** and **MasterTableView** are almost identical, although they are of different types (**RadGrid** and **GridTableView**, respectively).
 
-The main difference between __RadGrid__ and __MasterTableView__ is that the properties of __RadGrid__ specify the defaults for every __GridTableView__ in the grid (the __MasterTableView__ and any __DetailTables__). The properties of __MasterTableView__ apply only to the top-level table in the grid. In other words, property settings on __MasterTableView__ are not inherited by any __DetailTables__ nested inside it. The properties of __MasterTableView__, as with the properties of any __DetailTable__ in the grid, act as overrides to the defaults set on the __RadGrid__ object.
+The main difference between **RadGrid** and **MasterTableView** is that the properties of **RadGrid** specify the defaults for every **GridTableView** in the grid (the **MasterTableView** and any **DetailTables**). The properties of **MasterTableView** apply only to the top-level table in the grid. In other words, property settings on **MasterTableView** are not inherited by any **DetailTables** nested inside it. The properties of **MasterTableView**, as with the properties of any **DetailTable** in the grid, act as overrides to the defaults set on the **RadGrid** object.
 
-For example, if you set blue border for the __RadGrid__ object, the __MasterTableView__ and any __DetailTables__ will also have blue border (assuming they do not override the property setting), while if you set blue border for the __MasterTableView__, this border will appear *only* on the top-level table, and not on any detail tables.
+For example, if you set blue border for the **RadGrid** object, the **MasterTableView** and any **DetailTables** will also have blue border (assuming they do not override the property setting), while if you set blue border for the **MasterTableView**, this border will appear *only* on the top-level table, and not on any detail tables.
 
 ## Example
 
 The following examples illustrate this difference.
 
-* The first example shows a __RadGrid__ control that enables paging with __PageSize__ set to 2. All tables in the grid use paging and a pagesize of 2.
+* The first example shows a **RadGrid** control that enables paging with **PageSize** set to 2. All tables in the grid use paging and a pagesize of 2.
 
-* The second example shows the same declaration, except that the __AllowPaging__ and __PageSize__ properties are set on the __MasterTableView__ instead of on the __RadGrid__ control. Only the master table view uses paging.
+* The second example shows the same declaration, except that the **AllowPaging** and **PageSize** properties are set on the **MasterTableView** instead of on the **RadGrid** control. Only the master table view uses paging.
 
-* The third example shows a __RadGrid__ control that enables paging with a __PageSize__ set to 2, but with a detail table that overrides this setting.
+* The third example shows a **RadGrid** control that enables paging with a **PageSize** set to 2, but with a detail table that overrides this setting.
 
 ## Defaults set in RadGrid
 

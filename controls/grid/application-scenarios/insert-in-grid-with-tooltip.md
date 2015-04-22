@@ -1,6 +1,6 @@
 ---
 title: Insert in Grid with Tooltip
-page_title: Insert in Grid with Tooltip | UI for ASP.NET AJAX Documentation
+page_title: Insert in Grid with Tooltip | RadGrid for ASP.NET AJAX Documentation
 description: Insert in Grid with Tooltip
 slug: grid/application-scenarios/insert-in-grid-with-tooltip
 tags: insert,in,grid,with,tooltip
@@ -14,11 +14,11 @@ position: 11
 
 ## 
 
-[This online example](http://demos.telerik.com/ASPNET/Prometheus/Controls/Examples/Integration/ToolTipGrid/DefaultCS.aspx?product=grid) demonstrates integration between __RadGrid__, __RadToolTip__ and __RadAjax__. The example shows how to insert several new records in the grid with a single button click using Ajax requests.
+[This online example](http://demos.telerik.com/ASPNET/Prometheus/Controls/Examples/Integration/ToolTipGrid/DefaultCS.aspx?product=grid) demonstrates integration between **RadGrid**, **RadToolTip** and **RadAjax**. The example shows how to insert several new records in the grid with a single button click using Ajax requests.
 
-The control, containing the fields for the new records is added to the content of the __RadToolTip__ when the OnAjaxUpdate event of the RadToolTipManager fires. Once the user hits the [Add Products] button, the new records are inserted into the datatable, the active tooltip is closed and the the appropriate nested table is rebound.
+The control, containing the fields for the new records is added to the content of the **RadToolTip** when the OnAjaxUpdate event of the RadToolTipManager fires. Once the user hits the [Add Products] button, the new records are inserted into the datatable, the active tooltip is closed and the the appropriate nested table is rebound.
 
-As you cannot display RadAjax loading panel when you are using the RadToolTipManager in this case and generate dynamically the tooltip content, you can display a separate __RadAjaxLoadingPanel__ when you are making Ajax requests.
+As you cannot display RadAjax loading panel when you are using the RadToolTipManager in this case and generate dynamically the tooltip content, you can display a separate **RadAjaxLoadingPanel** when you are making Ajax requests.
 
 >note In order to see the new records, you have to expand the corresponding item in the MasterTableView.
 >

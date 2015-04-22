@@ -1,6 +1,6 @@
 ---
 title: get_visible()
-page_title: get_visible() | UI for ASP.NET AJAX Documentation
+page_title: get_visible() | RadGrid for ASP.NET AJAX Documentation
 description: get_visible()
 slug: grid/client-side-programming/gridcolumn-object/properties/get_visible()
 tags: get_visible()
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-Returns a Boolean value indicating whether the user can see the column. The corresponding property on theserver is __Display__, which hides the column only visually. The __Visible__ propertyon the other hand tells the browser to skip rendering the column at all, therefore, the column no longer can be accessed on the client.
+Returns a Boolean value indicating whether the user can see the column. The corresponding property on theserver is **Display**, which hides the column only visually. The **Visible** propertyon the other hand tells the browser to skip rendering the column at all, therefore, the column no longer can be accessed on the client.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

@@ -1,6 +1,6 @@
 ---
 title: Set style on mouse over
-page_title: Set style on mouse over | UI for ASP.NET AJAX Documentation
+page_title: Set style on mouse over | RadGrid for ASP.NET AJAX Documentation
 description: Set style on mouse over
 slug: grid/appearance-and-styling/set-style-on-mouse-over
 tags: set,style,on,mouse,over
@@ -26,7 +26,7 @@ Sometimes, it may be necessary to style a given row/header in Telerik RadGrid, w
 
 
 
-To enable the hover style for the grid rows, merely set the __ClientSettings -> EnableRowHoverStyle__ property of RadGrid to true.
+To enable the hover style for the grid rows, merely set the **ClientSettings -> EnableRowHoverStyle** property of RadGrid to true.
 
 >note This depends on RadGrid client-side object. For performance reasons, the RadGrid client object is available only when certain client features/events are enabled. If no client features/events are available in the grid but you still need this functionality, you can attach an empty javascript function to a client event (for example OnRowClick).
 >
@@ -63,7 +63,7 @@ If you want to attain the same functionality without the built-in feature of Rad
 
 
 
-3. This particular approach relies on the __OnRowMouseOver__, __OnRowMouseOut__, __OnColumnMouseOver__ and __OnColumnMouseOut__ client-side functions, to use the style mentioned above. Declare these functions in the __ClientSettings ->ClientEvents__ section of the grid declaration like this:
+3. This particular approach relies on the **OnRowMouseOver**, **OnRowMouseOut**, **OnColumnMouseOver** and **OnColumnMouseOut** client-side functions, to use the style mentioned above. Declare these functions in the **ClientSettings ->ClientEvents** section of the grid declaration like this:
 
 ````ASPNET
 	            <ClientSettings>

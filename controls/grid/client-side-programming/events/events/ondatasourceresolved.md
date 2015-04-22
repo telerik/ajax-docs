@@ -1,6 +1,6 @@
 ---
 title: OnDataSourceResolved
-page_title: OnDataSourceResolved | UI for ASP.NET AJAX Documentation
+page_title: OnDataSourceResolved | RadGrid for ASP.NET AJAX Documentation
 description: OnDataSourceResolved
 slug: grid/client-side-programming/events/events/ondatasourceresolved
 tags: ondatasourceresolved
@@ -27,10 +27,10 @@ This event will be raised when the grid source is retrieved from a page method o
 
 
 
-|  __Fired by__  | GridTableView |
+|  **Fired by**  | GridTableView |
 | ------ | ------ |
-| __Arguments__ | __data__ - the data retrieved from the page method or web service (getter and setter available)|
-| __Can be canceled__ |No|
+| **Arguments** | **data** - the data retrieved from the page method or web service (getter and setter available)|
+| **Can be canceled** |No|
 
 Example:
 

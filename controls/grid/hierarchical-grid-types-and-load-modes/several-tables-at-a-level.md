@@ -1,6 +1,6 @@
 ---
 title: Several tables at a level
-page_title: Several tables at a level | UI for ASP.NET AJAX Documentation
+page_title: Several tables at a level | RadGrid for ASP.NET AJAX Documentation
 description: Several tables at a level
 slug: grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level
 tags: several,tables,at,a,level
@@ -14,21 +14,21 @@ position: 7
 
 ## 
 
-You can have more than one table in a hierarchy level. The tables that reside in the same level are all declared in the __DetailTables__ collection of their parent table. You also need to set appropriate __ParentTableRelations__ for the parent/child tables included in the corresponding relation.
+You can have more than one table in a hierarchy level. The tables that reside in the same level are all declared in the **DetailTables** collection of their parent table. You also need to set appropriate **ParentTableRelations** for the parent/child tables included in the corresponding relation.
 
 When setting up several detail tables at the same level:
 
-1. In the parent table view, set the __DataKeyNames__ property so that it includes the fields of the parent table that link the detail tables to the parent table.
+1. In the parent table view, set the **DataKeyNames** property so that it includes the fields of the parent table that link the detail tables to the parent table.
 
-1. For each detail table, add __GridRelationFields__ objects to the __ParentTableRelation__ property collection for each field needed to link the tables.
+1. For each detail table, add **GridRelationFields** objects to the **ParentTableRelation** property collection for each field needed to link the tables.
 
-* Set the __DataKeyField__ to the key field in the detail table that must match a field in the parent table. When using declarative data sources, this field must be specified by a parameter of the SELECT statement for the data source of the detail table.
+* Set the **DataKeyField** to the key field in the detail table that must match a field in the parent table. When using declarative data sources, this field must be specified by a parameter of the SELECT statement for the data source of the detail table.
 
-* Set the __MasterKeyField__ to the matching field in the parent table. This field must be listed in the __DataKeyNames__ property of the parent table.
+* Set the **MasterKeyField** to the matching field in the parent table. This field must be listed in the **DataKeyNames** property of the parent table.
 
 For more information about binding detail tables to a parent table, see [Hierarchical data-binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%}) and [Hierarchical data-binding using DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event%}).
 
-When nesting several tables at the same level, it is a good idea to set the __Caption__ property of the detail __GridTableView__ to identify which detail table the nested table displays.
+When nesting several tables at the same level, it is a good idea to set the **Caption** property of the detail **GridTableView** to identify which detail table the nested table displays.
 
 The following is an excerpt from the declaration of a grid that shows two tables nested at the same level:
 

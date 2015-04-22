@@ -1,6 +1,6 @@
 ---
 title: Command Item Template
-page_title: Command Item Template | UI for ASP.NET AJAX Documentation
+page_title: Command Item Template | RadGrid for ASP.NET AJAX Documentation
 description: Command Item Template
 slug: grid/data-editing/commanditem/command-item-template
 tags: command,item,template
@@ -12,9 +12,9 @@ position: 1
 
 
 
-In order to show the command item, you should set the __CommandItemDisplay__ property of the __GridTableView__. The __CommandItemDisplay__ property can take four values:	__None__, __Top__, __Bottom__ and __TopAndBottom__, corresponding to the place where it will appear.	You can customize the command item content using the template of a __GridTableView.CommandItemTemplate__as shown in __Example 1__.
+In order to show the command item, you should set the **CommandItemDisplay** property of the **GridTableView**. The **CommandItemDisplay** property can take four values:	**None**, **Top**, **Bottom** and **TopAndBottom**, corresponding to the place where it will appear.	You can customize the command item content using the template of a **GridTableView.CommandItemTemplate**as shown in **Example 1**.
 
-__Example 1__: Shows how custom commands could be implemented via the__CommandItemTemplate__.
+**Example 1**: Shows how custom commands could be implemented via the**CommandItemTemplate**.
 
 ````ASPNET
 	                <CommandItemTemplate>
@@ -34,12 +34,12 @@ __Example 1__: Shows how custom commands could be implemented via the__CommandIt
 
 
 
-Running the code from __Example 1__ will generate __Figure 1__.
+Running the code from **Example 1** will generate **Figure 1**.
 >caption Figure 1: Show the result of the custom commands implementation from Example 1.
 
 ![CommandItemTemplate](images/grd_CommandItemTemplate_markedup.png)
 
-In the __CommandItemTemplate__ you can add any type of buttons that raise a command event and Telerik __RadGrid__ will fire the	__ItemCommandEvent__ (see below) on the server when this button is clicked.
+In the **CommandItemTemplate** you can add any type of buttons that raise a command event and Telerik **RadGrid** will fire the	**ItemCommandEvent** (see below) on the server when this button is clicked.
 
 ````ASPNET
 	<asp:LinkButton ID="LinkButton2" runat="server" CommandName="InitInsert">Add New</asp:LinkButton>
@@ -47,13 +47,13 @@ In the __CommandItemTemplate__ you can add any type of buttons that raise a comm
 
 
 
-When a user clicks the link in the previous code snippet, it will automatically set __RadGrid__ in "Insert" mode because the "InitInsert" command is processed internally by	__RadGrid__. You can also fetch the command in the __ItemCommandEvent__ and check the value of the event argument __CommandName__	for the value of "InitInsert" (corresponding to the value of the static member __RadGrid.InitInsertCommandName__).
+When a user clicks the link in the previous code snippet, it will automatically set **RadGrid** in "Insert" mode because the "InitInsert" command is processed internally by	**RadGrid**. You can also fetch the command in the **ItemCommandEvent** and check the value of the event argument **CommandName**	for the value of "InitInsert" (corresponding to the value of the static member **RadGrid.InitInsertCommandName**).
 
 ## Handling Custom Commands:Delete Command (CommandItem Example)
 
-Generally, you can handle any command using the __ItemCommandEvent__. __Example 2__ shows how to handle a custom command "DeleteSelected".It will delete all selected Items. In the ASPX file, we set the __CommandName__ property to "DeleteSelected". Then in the __ItemCommandEvent__handler, we check if the __CommandName__ was "DeleteSelected" and call the __PerformDelete__ method, which will delete all selected items.Note that you will need to set __AllowAutomaticDeletes__ property to __true__.
+Generally, you can handle any command using the **ItemCommandEvent**. **Example 2** shows how to handle a custom command "DeleteSelected".It will delete all selected Items. In the ASPX file, we set the **CommandName** property to "DeleteSelected". Then in the **ItemCommandEvent**handler, we check if the **CommandName** was "DeleteSelected" and call the **PerformDelete** method, which will delete all selected items.Note that you will need to set **AllowAutomaticDeletes** property to **true**.
 
-__Example 2:__ Shows how to implement a custom "DeleteSelected" command.
+**Example 2:** Shows how to implement a custom "DeleteSelected" command.
 
 
 
@@ -105,9 +105,9 @@ __Example 2:__ Shows how to implement a custom "DeleteSelected" command.
 
 ## How to Customize the Add New Record/Refresh Text in the CommandItem Area
 
-You can use the __CommandItemTemplate__ to customize the “Add new item/refresh” text in the CommandItem Area as shown in __Example 3__.
+You can use the **CommandItemTemplate** to customize the “Add new item/refresh” text in the CommandItem Area as shown in **Example 3**.
 
-__Example 3__: Shows how to customize the text of the command buttons.
+**Example 3**: Shows how to customize the text of the command buttons.
 
 ````ASPNET
 	          <telerik:RadGrid ID="RadGrid1" runat="server">
@@ -122,9 +122,9 @@ __Example 3__: Shows how to customize the text of the command buttons.
 
 
 
-If you have two buttons, you can place the buttons in a __HTML table__ embedded inside the __CommandItemTemplate__. __Example 4__ shows a sample structure:
+If you have two buttons, you can place the buttons in a **HTML table** embedded inside the **CommandItemTemplate**. **Example 4** shows a sample structure:
 
-__Example 4__: Shows how to organize the command buttons in an __HTML table__ element.
+**Example 4**: Shows how to organize the command buttons in an **HTML table** element.
 
 ````ASPNET
 	                <CommandItemTemplate>
@@ -147,19 +147,19 @@ __Example 4__: Shows how to organize the command buttons in an __HTML table__ el
 
 ## Setting Preferences for Controls Inside the CommandItemTemplate at Runtime
 
-There are cases in which you may want to access the controls inside your __CommandItemTemplate__ from the code-behind and dynamicallychange their preferences (for example, with some particular restrictions/certain conditions). Here are the steps you can perform to reference controls inside the __CommandItemTemplate__ programmatically:
+There are cases in which you may want to access the controls inside your **CommandItemTemplate** from the code-behind and dynamicallychange their preferences (for example, with some particular restrictions/certain conditions). Here are the steps you can perform to reference controls inside the **CommandItemTemplate** programmatically:
 
-1. Subscribe to the __ItemCreated__ event of __RadGrid__.
+1. Subscribe to the **ItemCreated** event of **RadGrid**.
 
-1. Check whether the currently bound item is __GridCommandItem__.
+1. Check whether the currently bound item is **GridCommandItem**.
 
-1. Locate the respective control using the __FindControl__ method of the command item.
+1. Locate the respective control using the **FindControl** method of the command item.
 
 1. Change its attributes according to your needs.
 
-__Example 5__ shows how to change the __Text__ and __CommandName__ properties for a __LinkButton__ insidethe __CommandItemTemplate__ object.
+**Example 5** shows how to change the **Text** and **CommandName** properties for a **LinkButton** insidethe **CommandItemTemplate** object.
 
-__Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplate__.
+**Example 5**: Changing properties of a **LinkButton** in a **CommandItemTemplate**.
 
 
 
@@ -209,9 +209,9 @@ __Example 5__: Changing properties of a __LinkButton__ in a __CommandItemTemplat
 
 ## Display Different Controls in a CommandItemTemplate with CommandItemDisplay = "TopAndBottom"
 
-There are cases in which you may want to display different controls inside the top/bottom command item when choosing the __CommandItemDisplay="TopAndBottom"__ option.You can do this by switching the visibility of the controls in __ItemCreated__. Note that you can determine whether the command item will be displayed in theheader/footer of the grid by checking the __NamingContainer__ for the __GridCommandItem__ object (it will be __GridTHead__for the header and __GridTFoot__ for the footer). __Example 6__ illustrates a sample implementation.
+There are cases in which you may want to display different controls inside the top/bottom command item when choosing the **CommandItemDisplay="TopAndBottom"** option.You can do this by switching the visibility of the controls in **ItemCreated**. Note that you can determine whether the command item will be displayed in theheader/footer of the grid by checking the **NamingContainer** for the **GridCommandItem** object (it will be **GridTHead**for the header and **GridTFoot** for the footer). **Example 6** illustrates a sample implementation.
 
-__Example 6__: Showing and hiding command controls dynamically.
+**Example 6**: Showing and hiding command controls dynamically.
 
 
 
@@ -285,11 +285,11 @@ __Example 6__: Showing and hiding command controls dynamically.
 
 ## Define CommandItemTemplate Programmatically
 
-If you want to define a __CommandItemTemplate__ programmatically, you need to design your custom class (holding the set of controls forthe __CommandItemTemplate__) which implements the__ITemplate__ interface. Then you can assign an instance of this classto the __CommandItemTemplate__ of the corresponding __GridTableView__.
+If you want to define a **CommandItemTemplate** programmatically, you need to design your custom class (holding the set of controls forthe **CommandItemTemplate**) which implements the**ITemplate** interface. Then you can assign an instance of this classto the **CommandItemTemplate** of the corresponding **GridTableView**.
 
-__Example 7__ shows how to embed __LinkButtons__ (for add record and refresh) in the __CommandItemTemplate__ of the __MasterTableView__ at runtime.
+**Example 7** shows how to embed **LinkButtons** (for add record and refresh) in the **CommandItemTemplate** of the **MasterTableView** at runtime.
 
-__Example 7__: Programmatic creation of a custom class that defines the __CommandItemTemplate__.
+**Example 7**: Programmatic creation of a custom class that defines the **CommandItemTemplate**.
 
 
 

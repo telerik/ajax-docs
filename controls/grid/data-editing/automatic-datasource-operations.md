@@ -1,6 +1,6 @@
 ---
 title: Automatic DataSource Operations
-page_title: Automatic DataSource Operations | UI for ASP.NET AJAX Documentation
+page_title: Automatic DataSource Operations | RadGrid for ASP.NET AJAX Documentation
 description: Automatic DataSource Operations
 slug: grid/data-editing/automatic-datasource-operations
 tags: automatic,datasource,operations
@@ -12,21 +12,21 @@ position: 4
 
 
 
-__RadGrid__ provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
+**RadGrid** provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
 
 ## Controlling the automatic data source operations
 
-Once it is bound to a __DataSource__ control that supports Insert, Update, and Delete operations, __RadGrid__ can take an advantage of the data source capabilities to perform the required operations with no code except error handling required. In order to achieve this, you need to set the following three properties:
+Once it is bound to a **DataSource** control that supports Insert, Update, and Delete operations, **RadGrid** can take an advantage of the data source capabilities to perform the required operations with no code except error handling required. In order to achieve this, you need to set the following three properties:
 
-* __AllowAutomaticDeletes__="__True__"
+* **AllowAutomaticDeletes**="**True**"
 
-* __AllowAutomaticInserts__="__True__"
+* **AllowAutomaticInserts**="**True**"
 
-* __AllowAutomaticUpdates__="__True__"
+* **AllowAutomaticUpdates**="**True**"
 
-The automatic data source operations only work when binding the grid to a [declarative data source]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) using the __DataSourceID__ property of the grid. You must configure the data source so that it supports the automatic operations.
+The automatic data source operations only work when binding the grid to a [declarative data source]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}) using the **DataSourceID** property of the grid. You must configure the data source so that it supports the automatic operations.
 
-You also need to set the __DataKeyNames__ property of the table views in the grid so that the insert, update, and delete operations perform as expected.
+You also need to set the **DataKeyNames** property of the table views in the grid so that the insert, update, and delete operations perform as expected.
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
@@ -80,7 +80,7 @@ You also need to set the __DataKeyNames__ property of the table views in the gri
 
 ## Additional resources
 
-The following articles describe how to configure some of the more common __DataSource__ controls:
+The following articles describe how to configure some of the more common **DataSource** controls:
 
 ## AccessDataSource:
 
@@ -126,29 +126,29 @@ You may also examine the resources below:
 
 ## Extracting values
 
-__RadGrid__ has several [types of columns]({%slug grid/columns/column-types%}) capable of editing data that support automatic data source operations. These are:
+**RadGrid** has several [types of columns]({%slug grid/columns/column-types%}) capable of editing data that support automatic data source operations. These are:
 
-* __GridBoundColumn__
+* **GridBoundColumn**
 
-* __GridCheckboxColumn__
+* **GridCheckboxColumn**
 
-* __GridDropDownColumn__
+* **GridDropDownColumn**
 
-* __GridDateTimeColumn__
+* **GridDateTimeColumn**
 
-* __GridNumericColumn__
+* **GridNumericColumn**
 
-* __GridMaskedColumn__
+* **GridMaskedColumn**
 
-* __GridHTMLEditorColumn__
+* **GridHTMLEditorColumn**
 
-* __GridTemplateColumn__
+* **GridTemplateColumn**
 
-By default __RadGrid__ extracts the values from the column editors for all columns of the currently edited __GridItem__ when updating or inserting a new record unless they are set as read-only. When deleting an item, __RadGrid__ extracts the values from the cells of the __GridItem__ that is to be deleted. The extraction of all values is necessary when the data source control has __ConflictDetection="CompareAllValues"__ (the default DataSource control behavior).
+By default **RadGrid** extracts the values from the column editors for all columns of the currently edited **GridItem** when updating or inserting a new record unless they are set as read-only. When deleting an item, **RadGrid** extracts the values from the cells of the **GridItem** that is to be deleted. The extraction of all values is necessary when the data source control has **ConflictDetection="CompareAllValues"** (the default DataSource control behavior).
 
-Extracting values from an __Item__ is supported only when the grid has an edit mode of __InPlace__ or __EditForms__ (auto-generated edit forms) or uses a template.
+Extracting values from an **Item** is supported only when the grid has an edit mode of **InPlace** or **EditForms** (auto-generated edit forms) or uses a template.
 
-__RadGrid__ can extract values from columns that are set as read-only, if the column's __ForceExtractValue__ property is set to:
+**RadGrid** can extract values from columns that are set as read-only, if the column's **ForceExtractValue** property is set to:
 
 * "InBrowseMode" - when deleting records
 
@@ -156,11 +156,11 @@ __RadGrid__ can extract values from columns that are set as read-only, if the co
 
 * "Always" - for all modes
 
-The default value for the __ForceExtractValue__ property is "None", which means that the extraction of default values will not be performed for read-only columns.
+The default value for the **ForceExtractValue** property is "None", which means that the extraction of default values will not be performed for read-only columns.
 
 ## Automatic operations with WebUserControl as EditForm
 
-Automatic operations through the __DataSource__ control are not supported when you use standard __WebUserControl__ as a custom edit form. If you are using a custom edit form, there are three options for implementing the data source operations:
+Automatic operations through the **DataSource** control are not supported when you use standard **WebUserControl** as a custom edit form. If you are using a custom edit form, there are three options for implementing the data source operations:
 
 1. Make the user control class (which represents your user control) implement the *IBindableControl *interface as follows:
 
@@ -215,13 +215,13 @@ Automatic operations through the __DataSource__ control are not supported when y
 
 
 
-1. Use a template edit form (__FormTemplate__) instead of a __WebUserControl__. You can copy the template from the user control to the edit form template and modify the binding logic using the __Bind__() syntax (two-way binding) instead of __DataBinder.Eval__ (one-way binding). For an example of this approach, see [Form template edit form.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
+1. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
->note Note that in this case __RadGrid__ automatically extracts the edited values and calls the update method of the __DataSource__ control.
+>note Note that in this case **RadGrid** automatically extracts the edited values and calls the update method of the **DataSource** control.
 >
 
 
-1. Implement the data-editing manually. In the code of the __WebUserControl__, write code to extract the values from all controls (such as text boxes and other input controls). You can use __DataAdapters__ to save the changes to your database. You can also execute the __DataSourceView.Update__ method as described in the ASP.NET documentation:
+1. Implement the data-editing manually. In the code of the **WebUserControl**, write code to extract the values from all controls (such as text boxes and other input controls). You can use **DataAdapters** to save the changes to your database. You can also execute the **DataSourceView.Update** method as described in the ASP.NET documentation:
 
 * [http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasourceview.aspx)
 

@@ -1,6 +1,6 @@
 ---
 title: Resizing and Reordering
-page_title: Resizing and Reordering | UI for ASP.NET AJAX Documentation
+page_title: Resizing and Reordering | RadGrid for ASP.NET AJAX Documentation
 description: Resizing and Reordering
 slug: grid/mobile-support/mobile-rendering/resizing-and-reordering
 tags: resizing,and,reordering
@@ -12,7 +12,7 @@ position: 6
 
 
 
-In this help article you will find helpful information on how to resize and reorder columns when the __RenderMode__ is set to __Mobile__.
+In this help article you will find helpful information on how to resize and reorder columns when the **RenderMode** is set to **Mobile**.
 
 ## Resizing
 
@@ -20,6 +20,6 @@ The functionality works in a similar manner as when viewing the page on a deskto
 
 ## Reordering
 
-Reordering columns using the __Mobile__ version is slightly different from performing the same action on desktop machines. In order to change the columns order you first need to open the columns display form using the column view button.![grid-mobile-resizing Reordering 2](images/grid-mobile-resizingReordering2.png)
+Reordering columns using the **Mobile** version is slightly different from performing the same action on desktop machines. In order to change the columns order you first need to open the columns display form using the column view button.![grid-mobile-resizing Reordering 2](images/grid-mobile-resizingReordering2.png)
 
 Once the view is shown you can perform the reordering by dragging and dropping. Afterwards you should tap on the OK button to apply the changes.![grid-mobile-resizing Reordering 3](images/grid-mobile-resizingReordering3.png)

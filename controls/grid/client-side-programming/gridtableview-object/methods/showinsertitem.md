@@ -1,6 +1,6 @@
 ---
 title: showInsertItem
-page_title: showInsertItem | UI for ASP.NET AJAX Documentation
+page_title: showInsertItem | RadGrid for ASP.NET AJAX Documentation
 description: showInsertItem
 slug: grid/client-side-programming/gridtableview-object/methods/showinsertitem
 tags: showinsertitem
@@ -17,7 +17,7 @@ position: 42
 Method which switches the grid in insert mode and displays the insertion form.
 
 
-|  __showInsertItem()__  |
+|  **showInsertItem()**  |
 | ------ |
 ||
 

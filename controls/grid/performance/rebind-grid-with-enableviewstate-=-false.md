@@ -1,6 +1,6 @@
 ---
 title: Rebind Grid with EnableViewState = false
-page_title: Rebind Grid with EnableViewState = false | UI for ASP.NET AJAX Documentation
+page_title: Rebind Grid with EnableViewState = false | RadGrid for ASP.NET AJAX Documentation
 description: Rebind Grid with EnableViewState = false
 slug: grid/performance/rebind-grid-with-enableviewstate-=-false
 tags: rebind,grid,with,enableviewstate,=,false
@@ -14,11 +14,11 @@ position: 5
 
 ## 
 
-This topic discusses how to call the __NeedDataSource__ event after command execution with viewstate disabled (__EnableViewState = false__)
+This topic discusses how to call the **NeedDataSource** event after command execution with viewstate disabled (**EnableViewState = false**)
 
 The example provided below is for Delete command but the same stands for any other command type you invoke and handle in the ItemCommand/UpdateCommand/DeleteCommand/etc. handler of Telerik RadGrid.
 
-Basically, you assign data source for your grid in the __NeedDataSource__ handler. In case of disabled viewstate the events will be fired like this:
+Basically, you assign data source for your grid in the **NeedDataSource** handler. In case of disabled viewstate the events will be fired like this:
 
 1. LoadViewState (the grid does not restore its state from the ViewState because of the NoPersistence mode)
 
@@ -36,7 +36,7 @@ Basically, you assign data source for your grid in the __NeedDataSource__ handle
 >
 
 
-Moreover, if you want to rebind the grid explicitly from postback event of an external control when __EnableViewState__is set to __False__, set the __DataSource__ property of the control to __null/Nothing__ and invoke the __Rebind__() method afterwards:
+Moreover, if you want to rebind the grid explicitly from postback event of an external control when **EnableViewState**is set to **False**, set the **DataSource** property of the control to **null/Nothing** and invoke the **Rebind**() method afterwards:
 
 
 

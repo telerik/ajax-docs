@@ -1,6 +1,6 @@
 ---
 title: Binding To DataReader
-page_title: Binding To DataReader | UI for ASP.NET AJAX Documentation
+page_title: Binding To DataReader | RadGrid for ASP.NET AJAX Documentation
 description: Binding To DataReader
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-datareader
 tags: binding,to,datareader
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-You can extract values from your data source using a __DataReader__ instance (calling the __ExecuteReader__() method for your __OleDbCommand/SqlCommand__ command). That __DataReader__ can be used as a __RadGrid__ data source.
+You can extract values from your data source using a **DataReader** instance (calling the **ExecuteReader**() method for your **OleDbCommand/SqlCommand** command). That **DataReader** can be used as a **RadGrid** data source.
 
-The following example shows how to use a __DataReader__ using the grid's __NeedDataSource__ event. It uses an Access data source and __SqlDataReader__:
+The following example shows how to use a **DataReader** using the grid's **NeedDataSource** event. It uses an Access data source and **SqlDataReader**:
 
 RadGrid's declaration:
 
@@ -96,6 +96,6 @@ Code-behind:
 ````
 
 
->note The most appropriate place to close the DataReader and the connection is in the __DataBound__ event handler of the grid, as shown above.
+>note The most appropriate place to close the DataReader and the connection is in the **DataBound** event handler of the grid, as shown above.
 >
 

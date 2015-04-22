@@ -1,6 +1,6 @@
 ---
 title: BinaryImages and RadAsyncUpload in Grid
-page_title: BinaryImages and RadAsyncUpload in Grid | UI for ASP.NET AJAX Documentation
+page_title: BinaryImages and RadAsyncUpload in Grid | RadGrid for ASP.NET AJAX Documentation
 description: BinaryImages and RadAsyncUpload in Grid
 slug: grid/application-scenarios/binaryimages-and-radasyncupload-in-grid
 tags: binaryimages,and,radasyncupload,in,grid

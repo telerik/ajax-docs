@@ -1,6 +1,6 @@
 ---
 title: NestedView template
-page_title: NestedView template | UI for ASP.NET AJAX Documentation
+page_title: NestedView template | RadGrid for ASP.NET AJAX Documentation
 description: NestedView template
 slug: grid/hierarchical-grid-types-and-load-modes/nestedview-template
 tags: nestedview,template
@@ -60,7 +60,7 @@ or
 
 
 
-Note that when you set NestedView template at a given level the regular detail tables definitions you may have at the same level will be disregarded. For example, the detail tables between the __DetailTables__ tag in this code will be automatically ignored:
+Note that when you set NestedView template at a given level the regular detail tables definitions you may have at the same level will be disregarded. For example, the detail tables between the **DetailTables** tag in this code will be automatically ignored:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
@@ -81,9 +81,9 @@ Online demo representing the NestedView template feature of RadGrid can be viewe
 
 RadGrid gives you the ability to data bind the controls in a nested view template to a single item of a specified data source. You can have three modes of data binding the nested view template: ServerOnDemand, ServerBind or Client, which can be set through the HierarchyLoadMode property of the corresponding table view.
 
-To support this feature, RadGrid exposes an additional property for its table view objects called __NestedViewSettings__. The __NestedViewSettings__ allow you to specify a data source object contained on the page to which the template should be bound, as well as a relation to the parent level. These two properties can be defined declaratively or programmatically through the __NestedViewSettings.DataSourceID__ and __NestedViewSettings.ParentTableRelation__ properties respectively. The __ParentTableRelation__ is specified in the same way as the declarative relations for hierarchical tables.
+To support this feature, RadGrid exposes an additional property for its table view objects called **NestedViewSettings**. The **NestedViewSettings** allow you to specify a data source object contained on the page to which the template should be bound, as well as a relation to the parent level. These two properties can be defined declaratively or programmatically through the **NestedViewSettings.DataSourceID** and **NestedViewSettings.ParentTableRelation** properties respectively. The **ParentTableRelation** is specified in the same way as the declarative relations for hierarchical tables.
 
-As with the hierarchy declarative relations, you should have a WHERE clause in the SelectCommand of the data source control for the nested view template to retrieve the record for it. The WHERE clause should include the field from the ParentTableRelation definition between the master/child table. Furthermore, the same field has to be included in the SelectParameters of the "inner" data source controls with exactly the same Name. However, __no__ SesssionField value is required.If more than one records are fetched from the data source for the nested view template, only the first one will be used to bind the controls in the latter.Below is a code extraction from the sample:
+As with the hierarchy declarative relations, you should have a WHERE clause in the SelectCommand of the data source control for the nested view template to retrieve the record for it. The WHERE clause should include the field from the ParentTableRelation definition between the master/child table. Furthermore, the same field has to be included in the SelectParameters of the "inner" data source controls with exactly the same Name. However, **no** SesssionField value is required.If more than one records are fetched from the data source for the nested view template, only the first one will be used to bind the controls in the latter.Below is a code extraction from the sample:
 
 ````C#
 	  <telerik:ScriptManager ID="ScriptManager1" runat="server" />

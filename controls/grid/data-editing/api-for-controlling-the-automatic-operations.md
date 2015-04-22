@@ -1,6 +1,6 @@
 ---
 title: API for Controlling the Automatic Operations
-page_title: API for Controlling the Automatic Operations | UI for ASP.NET AJAX Documentation
+page_title: API for Controlling the Automatic Operations | RadGrid for ASP.NET AJAX Documentation
 description: API for Controlling the Automatic Operations
 slug: grid/data-editing/api-for-controlling-the-automatic-operations
 tags: api,for,controlling,the,automatic,operations
@@ -12,7 +12,7 @@ position: 14
 
 
 
-When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versions of __GridTableView.InsertItem()__ method. This can help you set predefined values to specific fields. The example below demonstrates how to set predefined values to a dropdown list in an edit form with a single row of code.
+When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versions of **GridTableView.InsertItem()** method. This can help you set predefined values to specific fields. The example below demonstrates how to set predefined values to a dropdown list in an edit form with a single row of code.
 
 
 
@@ -46,15 +46,15 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 
 ![InsertItem](images/grd_InsertItem_markedup.png)
 
-* __InsertItem()__ - no default values.
+* **InsertItem()** - no default values.
 
-* __InsertItem(object dataItem)__ - the new Item of Telerik RadGrid will be bound to the dataItem object. This method can be used to set the default values of the editors that will appear in the InsertItem.
+* **InsertItem(object dataItem)** - the new Item of Telerik RadGrid will be bound to the dataItem object. This method can be used to set the default values of the editors that will appear in the InsertItem.
 
-* __InsertItem(IDictionary newValues)__ - the new Item of Telerik RadGrid will be bound to an empty object with only values taken from the __newValues__ dictionary. This method can be used to set the default values of the editors that will appear in the InsertItem.
+* **InsertItem(IDictionary newValues)** - the new Item of Telerik RadGrid will be bound to an empty object with only values taken from the **newValues** dictionary. This method can be used to set the default values of the editors that will appear in the InsertItem.
 
-Telerik RadGrid will place the newly inserted item just below the header item on the last page. This item can be accessed after grid is bound in "Insert" mode (after __InsertItem__ method has been executed or "InitInsert" command has bubbled) using the __GetInsertedItem()__ method of __GridTableView__.
+Telerik RadGrid will place the newly inserted item just below the header item on the last page. This item can be accessed after grid is bound in "Insert" mode (after **InsertItem** method has been executed or "InitInsert" command has bubbled) using the **GetInsertedItem()** method of **GridTableView**.
 
-There are three basic functions of __GridTableView__ that control the Telerik RadGrid behavior when you want to perform automatic updates:
+There are three basic functions of **GridTableView** that control the Telerik RadGrid behavior when you want to perform automatic updates:
 
 * PerformDelete (GridEditableItem, [boolean suppressRebind]) - performs automatic delete using the DataSource control
 
@@ -62,11 +62,11 @@ There are three basic functions of __GridTableView__ that control the Telerik Ra
 
 * PerformInsert (GridEditableItem, [boolean suppressRebind]) - performs automatic insert using the DataSource control
 
-The __suppressRebind__ is an optional parameter. It sets if the grid will be rebound after the automatic update. The default value for __suppressRebind__ is __false__, i.e. the grid will rebound unless you set otherwise.
+The **suppressRebind** is an optional parameter. It sets if the grid will be rebound after the automatic update. The default value for **suppressRebind** is **false**, i.e. the grid will rebound unless you set otherwise.
 
 ## Handling custom commands - Delete command (Command Item online example)
 
-Generally you can handle any command, using the __ItemCommandEvent__. The example below shows hot to handle a custom command "DeleteSelected". It will delete all selected Items. In the ASPX file, we set the __CommandName__ property to "DeleteSelected". Then in the __ItemCommandEvent__ handler, we check if the __CommandName__ was "DeleteSelected" and call a method, which will delete all selected items.
+Generally you can handle any command, using the **ItemCommandEvent**. The example below shows hot to handle a custom command "DeleteSelected". It will delete all selected Items. In the ASPX file, we set the **CommandName** property to "DeleteSelected". Then in the **ItemCommandEvent** handler, we check if the **CommandName** was "DeleteSelected" and call a method, which will delete all selected items.
 
 
 

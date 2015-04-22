@@ -1,6 +1,6 @@
 ---
 title: Adding Tooltips for Grid Items
-page_title: Adding Tooltips for Grid Items | UI for ASP.NET AJAX Documentation
+page_title: Adding Tooltips for Grid Items | RadGrid for ASP.NET AJAX Documentation
 description: Adding Tooltips for Grid Items
 slug: grid/appearance-and-styling/adding-tooltips-for-grid-items
 tags: adding,tooltips,for,grid,items
@@ -16,9 +16,9 @@ position: 7
 
 There are many cases when you want you grid to show a tooltip when an item is hovered with the mouse. Tooltips are understood by screen readers and can be used as an accessibility feature.
 
-In brief you need to handle either __ItemDataBound__ or __ItemCreatedEvent__. There are two possible scenarios.In the first one you show the tooltips only when __GridHeaderItem__ is hovered. In this case you should check in the event handler if __e.Item__ is __GridHeaderItem__.
+In brief you need to handle either **ItemDataBound** or **ItemCreatedEvent**. There are two possible scenarios.In the first one you show the tooltips only when **GridHeaderItem** is hovered. In this case you should check in the event handler if **e.Item** is **GridHeaderItem**.
 
-The second scenario is when the tooltips will be shown for any grid item. In this case you should check if __e.Item__ is __GridDataItem__.
+The second scenario is when the tooltips will be shown for any grid item. In this case you should check if **e.Item** is **GridDataItem**.
 
 Consider the example below:
 

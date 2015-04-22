@@ -1,6 +1,6 @@
 ---
 title: Conditional Formatting
-page_title: Conditional Formatting | UI for ASP.NET AJAX Documentation
+page_title: Conditional Formatting | RadGrid for ASP.NET AJAX Documentation
 description: Conditional Formatting
 slug: grid/appearance-and-styling/conditional-formatting
 tags: conditional,formatting
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The object model and events in *RadGrid *provide opportunities for customization and conditional formatting of grid elements. In order to format some data based on column type, you need to use the properties of the respective column. __GridBoundColumn__ for example has __DataFormatString__ property that you can use to format the appearance of the data in the cells of that column.The formatting is based on the general formatting rules in *.NET*, i.e. *Telerik RadGrid *uses internally the __string.Format(string, args )__ function. This way you should just provide the corresponding format string in the __DataFormatString__ property.For example the format string "{0:C}" would format the values in the cells of the column as currency.
+The object model and events in *RadGrid *provide opportunities for customization and conditional formatting of grid elements. In order to format some data based on column type, you need to use the properties of the respective column. **GridBoundColumn** for example has **DataFormatString** property that you can use to format the appearance of the data in the cells of that column.The formatting is based on the general formatting rules in *.NET*, i.e. *Telerik RadGrid *uses internally the **string.Format(string, args )** function. This way you should just provide the corresponding format string in the **DataFormatString** property.For example the format string "{0:C}" would format the values in the cells of the column as currency.
 
 The example below shows how to use conditional formatting in a sample mailbox implementation. Selected Items and recently received mail are marked red:
 
@@ -63,7 +63,7 @@ The example below shows how to use conditional formatting in a sample mailbox im
 >
 
 
-Below is an example which will alter the look and feel for items which has text __Mexico__ in their __Country__ column:
+Below is an example which will alter the look and feel for items which has text **Mexico** in their **Country** column:
 
 ````XML
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">

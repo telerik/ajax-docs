@@ -1,6 +1,6 @@
 ---
 title: collapseItem
-page_title: collapseItem | UI for ASP.NET AJAX Documentation
+page_title: collapseItem | RadGrid for ASP.NET AJAX Documentation
 description: collapseItem
 slug: grid/client-side-programming/gridtableview-object/methods/collapseitem
 tags: collapseitem
@@ -17,9 +17,9 @@ position: 6
 Method which collapses the table row with index passed as an argument.
 
 
-|  __collapseItem(index)__  |  |  |
+|  **collapseItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The row corresponding to the __index__ will be collapsed.|
+| **index** |Integer|The row corresponding to the **index** will be collapsed.|
 
 Example:
 

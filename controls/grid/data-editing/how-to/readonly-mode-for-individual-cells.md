@@ -1,6 +1,6 @@
 ---
 title: ReadOnly Mode for Individual Cells
-page_title: ReadOnly Mode for Individual Cells | UI for ASP.NET AJAX Documentation
+page_title: ReadOnly Mode for Individual Cells | RadGrid for ASP.NET AJAX Documentation
 description: ReadOnly Mode for Individual Cells
 slug: grid/data-editing/how-to/readonly-mode-for-individual-cells
 tags: readonly,mode,for,individual,cells
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-Setting individual cells in read-only mode is not achievable in the current version of Telerik RadGrid.A possibleworkaround, however, is to disable the respective cell server-side to prevent the user from editing its content. This can be done by subscribing to the __ItemCreated__ event of the grid:
+Setting individual cells in read-only mode is not achievable in the current version of Telerik RadGrid.A possibleworkaround, however, is to disable the respective cell server-side to prevent the user from editing its content. This can be done by subscribing to the **ItemCreated** event of the grid:
 
 
 

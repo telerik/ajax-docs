@@ -1,6 +1,6 @@
 ---
 title: Saving Grid Settings on a Per User Basis
-page_title: Saving Grid Settings on a Per User Basis | UI for ASP.NET AJAX Documentation
+page_title: Saving Grid Settings on a Per User Basis | RadGrid for ASP.NET AJAX Documentation
 description: Saving Grid Settings on a Per User Basis
 slug: grid/how-to/saving-grid-settings-on-a-per-user-basis
 tags: saving,grid,settings,on,a,per,user,basis
@@ -12,7 +12,7 @@ position: 9
 
 
 
-Following is a small application that demonstrates a way to persist runtime settings of *Telerik RadGrid* in a variety of formats. You can persist the extracted settings on any medium - session, application variables, database, etc. For your convenience, the functionality is isolated in a single class called __GridSettingsPersister__. It is designed to save from and load into *Telerik RadGrid* the following runtime settings:
+Following is a small application that demonstrates a way to persist runtime settings of *Telerik RadGrid* in a variety of formats. You can persist the extracted settings on any medium - session, application variables, database, etc. For your convenience, the functionality is isolated in a single class called **GridSettingsPersister**. It is designed to save from and load into *Telerik RadGrid* the following runtime settings:
 
 * Page size
 
@@ -38,27 +38,27 @@ Following is a small application that demonstrates a way to persist runtime sett
 
 ## How to save grid settings
 
-To use the persister, create a new instance of the GridSettingsPersister class, passing the RadGrid instance whose settings will be imported/exported in the constructor. To extract and serialize the current grid settings into a string, call the __SaveSettings__ method of the object. Alternatively, you can use the __GetSavedSettings__ method to retrieve the extracted settings as an instance of __GridSettingsCollection__. Instances of this class can serialize themselves to either a string or a byte array using the __ToString__ and __ToArray__ methods, respectively. Thus, you have the flexibility to save the extracted settings in one of the 3 formats:
+To use the persister, create a new instance of the GridSettingsPersister class, passing the RadGrid instance whose settings will be imported/exported in the constructor. To extract and serialize the current grid settings into a string, call the **SaveSettings** method of the object. Alternatively, you can use the **GetSavedSettings** method to retrieve the extracted settings as an instance of **GridSettingsCollection**. Instances of this class can serialize themselves to either a string or a byte array using the **ToString** and **ToArray** methods, respectively. Thus, you have the flexibility to save the extracted settings in one of the 3 formats:
 
-* __string__ - settings are serialized to a string, much like the ViewState mechanism
+* **string** - settings are serialized to a string, much like the ViewState mechanism
 
-* __byte[]__ - settings are serialized to a byte array
+* **byte[]** - settings are serialized to a byte array
 
-* __GridSettingsCollection instance__ - settings are not serialized and can be saved as an object
+* **GridSettingsCollection instance** - settings are not serialized and can be saved as an object
 
-To save RadGrid's settings, call the __SaveSettings__ method of the persister after making sure no further changes to RadGrid will be made. In a regular page life cycle, use the __Page_PreRender__ method of the Page, or override and use the __Render__ method for this purpose.
+To save RadGrid's settings, call the **SaveSettings** method of the persister after making sure no further changes to RadGrid will be made. In a regular page life cycle, use the **Page_PreRender** method of the Page, or override and use the **Render** method for this purpose.
 
 ## How to load grid settings
 
-To load settings into the RadGrid instance, call the __LoadSettings__ method of the GridSettingsPersister instance, passing the settings in one of the 3 accepted types:
+To load settings into the RadGrid instance, call the **LoadSettings** method of the GridSettingsPersister instance, passing the settings in one of the 3 accepted types:
 
-* __string__ - settings serialized to a string
+* **string** - settings serialized to a string
 
-* __byte[]__ - settings serialized to a byte array
+* **byte[]** - settings serialized to a byte array
 
-* __GridSettingsCollection instance__ - original non-serialized settings container
+* **GridSettingsCollection instance** - original non-serialized settings container
 
-To load settings on initial page load, use the __Init__ or __Load__ events of the page to call __LoadSettings__. If RadGrid is databound in any of these, make sure you load the settings __before__ binding the grid. Alternatively, if you are loading grid settings in a postback event of another control, call __RadGrid.Rebind()__ to apply the restored settings.
+To load settings on initial page load, use the **Init** or **Load** events of the page to call **LoadSettings**. If RadGrid is databound in any of these, make sure you load the settings **before** binding the grid. Alternatively, if you are loading grid settings in a postback event of another control, call **RadGrid.Rebind()** to apply the restored settings.
 
 ## See it in action
 
@@ -66,7 +66,7 @@ To see the GridSettingsPersister in action, please visit the [Persisting Grid Se
 
 ## Show me the code
 
-Following is the definition of the __GridSettingsPersister__ class along with a couple of other helper classes that implement setting persistence for RadGrid:
+Following is the definition of the **GridSettingsPersister** class along with a couple of other helper classes that implement setting persistence for RadGrid:
 
 
 
@@ -964,4 +964,4 @@ Following is the definition of the __GridSettingsPersister__ class along with a 
 ````
 
 
-You can extend the logic and store the user preferences via __Profile__ object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](http://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).
+You can extend the logic and store the user preferences via **Profile** object (part of *ASP.NET 2.0*). Thus the settings will be preserved not only for the current user session but for subsequent sessions as well. More details are available in [this code library thread](http://www.telerik.com/community/code-library/submission/b311D-ghaae.aspx).

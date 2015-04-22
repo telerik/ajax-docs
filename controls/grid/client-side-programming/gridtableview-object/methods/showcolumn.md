@@ -1,6 +1,6 @@
 ---
 title: showColumn
-page_title: showColumn | UI for ASP.NET AJAX Documentation
+page_title: showColumn | RadGrid for ASP.NET AJAX Documentation
 description: showColumn
 slug: grid/client-side-programming/gridtableview-object/methods/showcolumn
 tags: showcolumn

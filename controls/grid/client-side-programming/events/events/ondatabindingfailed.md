@@ -1,6 +1,6 @@
 ---
 title: OnDataBindingFailed
-page_title: OnDataBindingFailed | UI for ASP.NET AJAX Documentation
+page_title: OnDataBindingFailed | RadGrid for ASP.NET AJAX Documentation
 description: OnDataBindingFailed
 slug: grid/client-side-programming/events/events/ondatabindingfailed
 tags: ondatabindingfailed
@@ -27,10 +27,10 @@ This event will be raised when the grid fails to bind to data client-side (after
 
 
 
-|  __Fired by__  | GridTableView |
+|  **Fired by**  | GridTableView |
 | ------ | ------ |
-| __Arguments__ | __message__ - the exception message __exceptionType__ - the type of the generated exception __stackTrace__ - the stack trace of the generated exception|
-| __Can be canceled__ |No|
+| **Arguments** | **message** - the exception message **exceptionType** - the type of the generated exception **stackTrace** - the stack trace of the generated exception|
+| **Can be canceled** |No|
 
 Example:
 

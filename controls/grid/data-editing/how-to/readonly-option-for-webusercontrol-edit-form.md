@@ -1,6 +1,6 @@
 ---
 title: ReadOnly Option for WebUserControl Edit Form
-page_title: ReadOnly Option for WebUserControl Edit Form | UI for ASP.NET AJAX Documentation
+page_title: ReadOnly Option for WebUserControl Edit Form | RadGrid for ASP.NET AJAX Documentation
 description: ReadOnly Option for WebUserControl Edit Form
 slug: grid/data-editing/how-to/readonly-option-for-webusercontrol-edit-form
 tags: readonly,option,for,webusercontrol,edit,form
@@ -18,7 +18,7 @@ In some particular cases you may want to present the WebUserControl edit form of
 
 The "preview" functionality for user control edit form is easily achievable. To support readonly mode for your user control edit form please follow the steps depicted below :
 
-1. Add __GridButtonColumn__ to your grid instance with __CommandName = "Preview".__
+1. Add **GridButtonColumn** to your grid instance with **CommandName = "Preview".**
 
 ````ASPNET
 	              <MasterTableView CommandItemDisplay="Top" GridLines="None">
@@ -47,7 +47,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 
 
-1. Handle the __Preview__ command execution in your __ItemCommand__ event handler and call the __SetPreviewMode__() method to force the user control in preview mode:
+1. Handle the **Preview** command execution in your **ItemCommand** event handler and call the **SetPreviewMode**() method to force the user control in preview mode:
 
 
 
@@ -79,7 +79,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 ````
 
 
-1. In the __code-behind of the user control disable all controls__ which reside in the edit form (except the cancel button) and change the cancel button text to __Close.__
+1. In the **code-behind of the user control disable all controls** which reside in the edit form (except the cancel button) and change the cancel button text to **Close.**
 
 
 

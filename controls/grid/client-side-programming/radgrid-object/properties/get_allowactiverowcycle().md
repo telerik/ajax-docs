@@ -1,6 +1,6 @@
 ---
 title: get_allowActiveRowCycle()
-page_title: get_allowActiveRowCycle() | UI for ASP.NET AJAX Documentation
+page_title: get_allowActiveRowCycle() | RadGrid for ASP.NET AJAX Documentation
 description: get_allowActiveRowCycle()
 slug: grid/client-side-programming/radgrid-object/properties/get_allowactiverowcycle()
 tags: get_allowactiverowcycle()
@@ -17,7 +17,7 @@ position: 1
 Property which returns the value for the respective server property of the control (ClientSettings-KeyboardNavigationSettings-AllowActiveRowCycle).
 
 
-|  __get_allowActiveRowCycle()__  |
+|  **get_allowActiveRowCycle()**  |
 | ------ |
 ||
 

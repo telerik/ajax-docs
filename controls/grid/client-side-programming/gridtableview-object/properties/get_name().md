@@ -1,6 +1,6 @@
 ---
 title: get_name()
-page_title: get_name() | UI for ASP.NET AJAX Documentation
+page_title: get_name() | RadGrid for ASP.NET AJAX Documentation
 description: get_name()
 slug: grid/client-side-programming/gridtableview-object/properties/get_name()
 tags: get_name()
@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-Returns a String which represents the __Name__ property (set on the server) for the corresponding GridTableView client object. Can be used to identify table in grid hierarchy client-side.
+Returns a String which represents the **Name** property (set on the server) for the corresponding GridTableView client object. Can be used to identify table in grid hierarchy client-side.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="3"

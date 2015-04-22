@@ -1,6 +1,6 @@
 ---
 title: Filter GridBoundColumn of Type DateTime
-page_title: Filter GridBoundColumn of Type DateTime | UI for ASP.NET AJAX Documentation
+page_title: Filter GridBoundColumn of Type DateTime | RadGrid for ASP.NET AJAX Documentation
 description: Filter GridBoundColumn of Type DateTime
 slug: grid/functionality/filtering/how-to/filter-gridboundcolumn-of-type-datetime
 tags: filter,gridboundcolumn,of,type,datetime
@@ -18,11 +18,11 @@ position: 8
 >
 
 
-When you choose to apply filtering for bound grid column of type DateTime, Telerik RadGrid will filter the records in the corresponding column by fetching the user entry from the filter box in the following format - __mm/dd/yyyy__. However, forcing the user to type the date in this format is not intuitive as the dates are displayed differently in the column cells. Therefore, you you may want to let the user type the same date format as previously specified through the __DataFormatString__ of the column.In such case you will need to cancel the default filter action and modify the filter string accordingly to make it "automatically recognizable" by the grid. For this purpose you will need to modify the __FilterExpression__ (see [this topic]({%slug grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually%}) for more info) of the grid accordingly after reformatting the pattern entered in the column filter box.The sample implementation listed below shows how this can be done when you choose the following DateTime format - __dd/MM/yyyy__. With this approach the filter criteria will be retained on paging/sorting operation. Note, however, the __OrderDate__ column will be filtered "separately" from the rest of the grid columns, meaning that:
+When you choose to apply filtering for bound grid column of type DateTime, Telerik RadGrid will filter the records in the corresponding column by fetching the user entry from the filter box in the following format - **mm/dd/yyyy**. However, forcing the user to type the date in this format is not intuitive as the dates are displayed differently in the column cells. Therefore, you you may want to let the user type the same date format as previously specified through the **DataFormatString** of the column.In such case you will need to cancel the default filter action and modify the filter string accordingly to make it "automatically recognizable" by the grid. For this purpose you will need to modify the **FilterExpression** (see [this topic]({%slug grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually%}) for more info) of the grid accordingly after reformatting the pattern entered in the column filter box.The sample implementation listed below shows how this can be done when you choose the following DateTime format - **dd/MM/yyyy**. With this approach the filter criteria will be retained on paging/sorting operation. Note, however, the **OrderDate** column will be filtered "separately" from the rest of the grid columns, meaning that:
 
-* the filters for the other columns in the grid will be cleared when you choose filter pattern for the __OrderDate__ column
+* the filters for the other columns in the grid will be cleared when you choose filter pattern for the **OrderDate** column
 
-* the __OrderDate__ column filter will be cleared when you specify filter for some other column
+* the **OrderDate** column filter will be cleared when you specify filter for some other column
 
 For more details review the forthcoming code snippets (feel free to modify the logic if there are additional implementation requirements):
 

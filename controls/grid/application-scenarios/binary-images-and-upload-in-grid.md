@@ -1,6 +1,6 @@
 ---
 title: Binary Images and Upload in Grid
-page_title: Binary Images and Upload in Grid | UI for ASP.NET AJAX Documentation
+page_title: Binary Images and Upload in Grid | RadGrid for ASP.NET AJAX Documentation
 description: Binary Images and Upload in Grid
 slug: grid/application-scenarios/binary-images-and-upload-in-grid
 tags: binary,images,and,upload,in,grid
@@ -14,22 +14,22 @@ position: 7
 
 ## 
 
-[This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) illustrates the usage of built-in GridBinaryImageColumn and how to display and edit images in it.Each cell in a __GridBinaryImageColumn__ contains an image streamed from a binary image source field (specified through the __DataField__ property of the column). When used this column willshow a RadBinaryImage control in view mode and RadUpload in edit mode to upload an image.
+[This example](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) illustrates the usage of built-in GridBinaryImageColumn and how to display and edit images in it.Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used this column willshow a RadBinaryImage control in view mode and RadUpload in edit mode to upload an image.
 
-The image will be sized automatically to __ImageHeight__ and __ImageWidth__ pixel values if the __ResizeMode__ property of the column is different than __None__. Possible values for the __ResizeMode__ property of the column are:
+The image will be sized automatically to **ImageHeight** and **ImageWidth** pixel values if the **ResizeMode** property of the column is different than **None**. Possible values for the **ResizeMode** property of the column are:
 
-* __Crop__ (the image will be trimmed)
+* **Crop** (the image will be trimmed)
 
-* __Fit__ (the image will be sized to fit the given dimensions)
+* **Fit** (the image will be sized to fit the given dimensions)
 
-* __None__ (default)
+* **None** (default)
 
-Additionally, you can set the __DataAlternateTextField__ property to specify by which field in the grid source the column will be sorted/filtered. For the filtering you must also set explicitly the __DataType__ property of the column to the type of the field specified through the DataAlternateTextField property (System.String in the common case). You can also apply format using the __DataAlternateTextFormatString__ property.
+Additionally, you can set the **DataAlternateTextField** property to specify by which field in the grid source the column will be sorted/filtered. For the filtering you must also set explicitly the **DataType** property of the column to the type of the field specified through the DataAlternateTextField property (System.String in the common case). You can also apply format using the **DataAlternateTextFormatString** property.
 
 
 >caption  
 
-| ![](images/hs_note.gif) | You need to register the http handler of the RadBinaryImage control (which is part of built-in GridBinaryImageColumn) manually in the web.config file to ensure that it will be served as expected when the page is rendered. Namely: __web.config__ <httpHandlers><remove path="*.asmx" verb="*" />...................................................... __<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />__ </httpHandlers> |
+| ![](images/hs_note.gif) | You need to register the http handler of the RadBinaryImage control (which is part of built-in GridBinaryImageColumn) manually in the web.config file to ensure that it will be served as expected when the page is rendered. Namely: **web.config** <httpHandlers><remove path="*.asmx" verb="*" />...................................................... **<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />** </httpHandlers> |
 | ------ | ------ |
 
 >caution If you would like to set the GridBinaryImageColumn's image filename which will appear inside SaveAs browser dialog when image is saved, set the *SavedImageName* property of the column

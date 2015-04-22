@@ -1,6 +1,6 @@
 ---
 title: OnGridDestroying
-page_title: OnGridDestroying | UI for ASP.NET AJAX Documentation
+page_title: OnGridDestroying | RadGrid for ASP.NET AJAX Documentation
 description: OnGridDestroying
 slug: grid/client-side-programming/events/events/ongriddestroying
 tags: ongriddestroying
@@ -23,10 +23,10 @@ Sys.EventArgs OnGridDestroying Property
 This event is fired when RadGrid object is destroyed, i.e. on each *window.onunload*
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

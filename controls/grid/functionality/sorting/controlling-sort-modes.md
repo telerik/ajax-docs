@@ -1,6 +1,6 @@
 ---
 title: Controlling Sort Modes
-page_title: Controlling Sort Modes | UI for ASP.NET AJAX Documentation
+page_title: Controlling Sort Modes | RadGrid for ASP.NET AJAX Documentation
 description: Controlling Sort Modes
 slug: grid/functionality/sorting/controlling-sort-modes
 tags: controlling,sort,modes
@@ -12,33 +12,33 @@ position: 4
 
 
 
-There are three sorting modes in __RadGrid__:
+There are three sorting modes in **RadGrid**:
 
-* __Ascending__: When the user clicks once on the sort button in the column header, the table view sorts its items by that column's value, using an ascending sort order. An sorting indicator![SortAsc.gif](images/grd_SortAsc.gif)appears in the column header to indicate that the column is sorted ascending.
+* **Ascending**: When the user clicks once on the sort button in the column header, the table view sorts its items by that column's value, using an ascending sort order. An sorting indicator![SortAsc.gif](images/grd_SortAsc.gif)appears in the column header to indicate that the column is sorted ascending.
 
-* __Descending__: When the user clicks on the sort button of a column that has a sort mode of "Ascending", the sort mode changes to "Descending". The sorting indicator changes to![SortDesc.gif](images/grd_SortDesc.gif)to indicate that column is sorted descending.
+* **Descending**: When the user clicks on the sort button of a column that has a sort mode of "Ascending", the sort mode changes to "Descending". The sorting indicator changes to![SortDesc.gif](images/grd_SortDesc.gif)to indicate that column is sorted descending.
 
-* __NoSort__: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header.
+* **NoSort**: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header.
 
 ![](images/grd_SortMode.png)
 
-To limit the sorting modes to two-way sorting (ascending and descending), set the __MasterTableView.AllowNaturalSort__ property or the __GridTableView.AllowNaturalSort__ property to __False__. When __AllowNaturalSort__ is __False__, the automatic sequence of sort modes toggles between "Ascending" and "Descending", without allowing a mode of "NoSort".
+To limit the sorting modes to two-way sorting (ascending and descending), set the **MasterTableView.AllowNaturalSort** property or the **GridTableView.AllowNaturalSort** property to **False**. When **AllowNaturalSort** is **False**, the automatic sequence of sort modes toggles between "Ascending" and "Descending", without allowing a mode of "NoSort".
 
 ## SortCommand event
 
-You can change the way the sort mode changes when the user clicks on the sort button in a column header. To change the way the grid responds when a user clicks the sort button, add a __SortCommand__ event handler.
+You can change the way the sort mode changes when the user clicks on the sort button in a column header. To change the way the grid responds when a user clicks the sort button, add a **SortCommand** event handler.
 
-In the event handler, you can check the value of the __e.OldSortOrder__ and __e.NewSortOrder__ arguments to determine the default behavior of the grid. If you want to change that response:
+In the event handler, you can check the value of the **e.OldSortOrder** and **e.NewSortOrder** arguments to determine the default behavior of the grid. If you want to change that response:
 
-1. Change the __SortExpressions__ property of the __GridTableView__ to specify the new sort order.
+1. Change the **SortExpressions** property of the **GridTableView** to specify the new sort order.
 
-1. Cancel the default action by setting the __e.Canceled__ property to __True__.
+1. Cancel the default action by setting the **e.Canceled** property to **True**.
 
-1. Rebind the __GridTableView__ to apply the new sort order.
+1. Rebind the **GridTableView** to apply the new sort order.
 
-The following example shows how to change the sequence of sort modes using the __SortCommand__ event handler.
+The following example shows how to change the sequence of sort modes using the **SortCommand** event handler.
 
-The ASPX file declares a grid with a two-level hierarchy and a __SortCommand__ event handler:
+The ASPX file declares a grid with a two-level hierarchy and a **SortCommand** event handler:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="95%" AutoGenerateColumns="False"
@@ -82,7 +82,7 @@ The ASPX file declares a grid with a two-level hierarchy and a __SortCommand__ e
 
 
 
-The __SortCommand__ event handler changes the sequence of sort modes to "Descending", "Ascending", "NoSort" for the EmployeeID field of the detail table, while leaving the default "Ascending", "Descending", "NoSort" sequence on the master table and other detail columns:
+The **SortCommand** event handler changes the sequence of sort modes to "Descending", "Ascending", "NoSort" for the EmployeeID field of the detail table, while leaving the default "Ascending", "Descending", "NoSort" sequence on the master table and other detail columns:
 
 
 

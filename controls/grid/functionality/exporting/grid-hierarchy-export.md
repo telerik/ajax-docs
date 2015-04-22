@@ -1,6 +1,6 @@
 ---
 title: Grid Hierarchy Export
-page_title: Grid Hierarchy Export | UI for ASP.NET AJAX Documentation
+page_title: Grid Hierarchy Export | RadGrid for ASP.NET AJAX Documentation
 description: Grid Hierarchy Export
 slug: grid/functionality/exporting/grid-hierarchy-export
 tags: grid,hierarchy,export
@@ -12,17 +12,17 @@ position: 2
 
 
 
-This article covers the export feature of hierarchical __RadGrid__ for the different export types. It is important to note that not all format support exporting hierarchical structures. All but the CSV and the Excel BIFF formats support hierarchy.
+This article covers the export feature of hierarchical **RadGrid** for the different export types. It is important to note that not all format support exporting hierarchical structures. All but the CSV and the Excel BIFF formats support hierarchy.
 
 By default when you set IgnorePaging to true and then export a parent table in hierarchical grid, the expanded items will collapse.
 
-Until Q3 2013, you had to retain the expanded state manually when the control rebinds. Since Q3 2013 version, we introduced a new property named __RetainExpandStateOnRebind__. When you set enable it, the expanded items’ state will persist automatically.
+Until Q3 2013, you had to retain the expanded state manually when the control rebinds. Since Q3 2013 version, we introduced a new property named **RetainExpandStateOnRebind**. When you set enable it, the expanded items’ state will persist automatically.
 
 >note The following[code-library](http://www.telerik.com/community/code-library/aspnet-ajax/grid/export-hierarchical-grid.aspx)example demonstrates how to persist the expanded state manually.
 >
 
 
->note ExcelML format requires that the __HierarchyLoadMode__ property be set to either *Client* or *ServerBind* . When you are using this export format, all items in the hierarchy will expand by default regardless of the state of the __RetainExpandStateOnRebind__ property.
+>note ExcelML format requires that the **HierarchyLoadMode** property be set to either *Client* or *ServerBind* . When you are using this export format, all items in the hierarchy will expand by default regardless of the state of the **RetainExpandStateOnRebind** property.
 >
 
 

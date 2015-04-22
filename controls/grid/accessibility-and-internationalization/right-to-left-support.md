@@ -1,6 +1,6 @@
 ---
 title: Right-to-left support
-page_title: Right-to-left support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left support | RadGrid for ASP.NET AJAX Documentation
 description: Right-to-left support
 slug: grid/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-You can present the content of your grid instance in a right-to-left direction very easily. To provide RTL support for your grid, you merely need to set the __Dir__ property for the __MasterTableView/GridTableViews__ to __RTL__.
+You can present the content of your grid instance in a right-to-left direction very easily. To provide RTL support for your grid, you merely need to set the **Dir** property for the **MasterTableView/GridTableViews** to **RTL**.
 
 Here is an example:
 

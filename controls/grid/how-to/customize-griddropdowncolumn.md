@@ -1,6 +1,6 @@
 ---
 title: Customize GridDropDownColumn
-page_title: Customize GridDropDownColumn | UI for ASP.NET AJAX Documentation
+page_title: Customize GridDropDownColumn | RadGrid for ASP.NET AJAX Documentation
 description: Customize GridDropDownColumn
 slug: grid/how-to/customize-griddropdowncolumn
 tags: customize,griddropdowncolumn
@@ -12,9 +12,9 @@ position: 2
 
 
 
-__Configuring GridDropDownColumn__
+**Configuring GridDropDownColumn**
 
-Here is some insight about the mechanism which Telerik RadGrid uses to present values for __GridDropDownColumn:__
+Here is some insight about the mechanism which Telerik RadGrid uses to present values for **GridDropDownColumn:**
 
 ````ASPNET
 	//sample inline GridDropDownColumn definition
@@ -25,13 +25,13 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 
 
 
-* The __DataField__ property points to the column in the grid data-source containing values which will be compared at a later stage with the values available in the column, referenced by the __ListValueField__ property.
+* The **DataField** property points to the column in the grid data-source containing values which will be compared at a later stage with the values available in the column, referenced by the **ListValueField** property.
 
-* The __ListValueField__ points to the column in the AccessLevel table which will be used as a pointer to retrieve the items for the dropdown in the __GridDropDownColumn__.
+* The **ListValueField** points to the column in the AccessLevel table which will be used as a pointer to retrieve the items for the dropdown in the **GridDropDownColumn**.
 
-* The __ListTextField__ points to the column in the AccessLevel table from which the grid will extract the values for the dropdown.
+* The **ListTextField** points to the column in the AccessLevel table from which the grid will extract the values for the dropdown.
 
-* The __ListDataMember__ property points to the AccessLevel table (part of the dataset used for grid data-source) which is the source for the GridDropDownColumn generation (can be replaced by __DataSourceID__ - see the highlighted section above).
+* The **ListDataMember** property points to the AccessLevel table (part of the dataset used for grid data-source) which is the source for the GridDropDownColumn generation (can be replaced by **DataSourceID** - see the highlighted section above).
 
 
 
@@ -48,11 +48,11 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 ````
 
 
->caution Ensure that the fields specified through the __DataField/ListValueField__ properties are of the same -data type- and the entries have a precise match, otherwise you will get merely the first item from the list displayed in non-editable mode. This can also happen if you have not configured properly the GridDropDownColumn, e.g. the relations between the fields specified through the __DataField/ListValueField__ properties.
+>caution Ensure that the fields specified through the **DataField/ListValueField** properties are of the same -data type- and the entries have a precise match, otherwise you will get merely the first item from the list displayed in non-editable mode. This can also happen if you have not configured properly the GridDropDownColumn, e.g. the relations between the fields specified through the **DataField/ListValueField** properties.
 >
 
 
-As you can see, a requirement for the proper functioning of GridDropDownColumn is that __all column values__ referenced by the __DataField__ attribute match the column values referenced by the __ListValueField__ attribute. If there are values in the __GRID_AccessLevelID__ column of the WebUsers table which do not have corresponding equal values in the __DLL_AccessLevelID__ column of the __AccessLevel__ table, then the grid will display the *default first value* from the *Description* column as it will not "know" what is the correct field.
+As you can see, a requirement for the proper functioning of GridDropDownColumn is that **all column values** referenced by the **DataField** attribute match the column values referenced by the **ListValueField** attribute. If there are values in the **GRID_AccessLevelID** column of the WebUsers table which do not have corresponding equal values in the **DLL_AccessLevelID** column of the **AccessLevel** table, then the grid will display the *default first value* from the *Description* column as it will not "know" what is the correct field.
 
 Online demo which demonstrates the behavior of GridDropDownColumn is available [ here ](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultVB.aspx).
 
@@ -60,11 +60,11 @@ Online demo which demonstrates the behavior of GridDropDownColumn is available [
 >
 
 
-__Adding GridDropDownColumn option on insert/edit__
+**Adding GridDropDownColumn option on insert/edit**
 
-If you would like to display the additional item in your dropdown list editor both on editing and insertion, you can perform this operation on __ItemDataBound.__ You have to check whether the currently bound item is __GridEditableItem__ and that it is in edit mode. If this condition is met, you can obtain reference to the __DropDownList__ control through the __GridDropDownListEditor__ for the respective column and inject new item in its __Items__ collection.
+If you would like to display the additional item in your dropdown list editor both on editing and insertion, you can perform this operation on **ItemDataBound.** You have to check whether the currently bound item is **GridEditableItem** and that it is in edit mode. If this condition is met, you can obtain reference to the **DropDownList** control through the **GridDropDownListEditor** for the respective column and inject new item in its **Items** collection.
 
-The code below will place new item with text __Select Contact Title__ (colored in red) on first position in the dropdown list editor of __GridDropDownColumn.__ Note that this drop down column has UniqueName __DropDownColumn.__
+The code below will place new item with text **Select Contact Title** (colored in red) on first position in the dropdown list editor of **GridDropDownColumn.** Note that this drop down column has UniqueName **DropDownColumn.**
 
 
 
@@ -107,7 +107,7 @@ The code below will place new item with text __Select Contact Title__ (colored i
 >
 
 
-Moreover, you may want to display an empty item/default item which differs from the first in the list (inside the dropdown editor) as selected on initial insertion. This can be accomplished in a codeless manner setting the __EnableEmptyListItem__ property of the __GridDropDownColumn__ to __true__ (its default value is __false__) and choosing __EmptyListItemText/EmptyListItemValue__. Below is an example for that:
+Moreover, you may want to display an empty item/default item which differs from the first in the list (inside the dropdown editor) as selected on initial insertion. This can be accomplished in a codeless manner setting the **EnableEmptyListItem** property of the **GridDropDownColumn** to **true** (its default value is **false**) and choosing **EmptyListItemText/EmptyListItemValue**. Below is an example for that:
 
 ````ASPNET
 	<telerik:GridDropDownColumn UniqueName="ContactName" DataSourceID="ddListColumnDataSource"
@@ -118,9 +118,9 @@ Moreover, you may want to display an empty item/default item which differs from 
 
 
 
-__Customizing the options for GridDropDownColumn on editing__
+**Customizing the options for GridDropDownColumn on editing**
 
-The proper event you need to hook in order to attain this effect is __ItemDataBound__. You should check if the currently bound item (__e.Item__) is in edit mode (__e.Item.IsInEditMode = true__). Then you can find the cell with the dropdown that is currently editable and change the options in the dropdown as per your needs. Here is an example code:
+The proper event you need to hook in order to attain this effect is **ItemDataBound**. You should check if the currently bound item (**e.Item**) is in edit mode (**e.Item.IsInEditMode = true**). Then you can find the cell with the dropdown that is currently editable and change the options in the dropdown as per your needs. Here is an example code:
 
 
 
@@ -164,25 +164,25 @@ The proper event you need to hook in order to attain this effect is __ItemDataBo
 ````
 
 
-The code is generalized to work in both __InPlace__ and __EditForms__ editing mode and with any editor similar to __GridDropDownListColumnEditor__ (the default). Note that in order for this to work you should have already set the __DropDownColumn__ properties:
+The code is generalized to work in both **InPlace** and **EditForms** editing mode and with any editor similar to **GridDropDownListColumnEditor** (the default). Note that in order for this to work you should have already set the **DropDownColumn** properties:
 
-* __ListTextField__
+* **ListTextField**
 
-* __ListValueField__
+* **ListValueField**
 
-which correspond to the properties __DataTextField, DataValueField__ of the dropdown control.
+which correspond to the properties **DataTextField, DataValueField** of the dropdown control.
 
 ## Automatic Load-On-Demand support for GridDropDownColumn
 
-As of version __2010.Q2__ of Telerik controls, GridDropDownColumn supports automatic load-on-demand for the RadComboBox editor. The column provides a set of new properties that allow you to configure how load-on-demand works:
+As of version **2010.Q2** of Telerik controls, GridDropDownColumn supports automatic load-on-demand for the RadComboBox editor. The column provides a set of new properties that allow you to configure how load-on-demand works:
 
-* __AllowAutomaticLoadOnDemand__ - Gets or sets a value indicating whether automatic load-on-demand is enabled for the RadComboBox editor (by default false).
+* **AllowAutomaticLoadOnDemand** - Gets or sets a value indicating whether automatic load-on-demand is enabled for the RadComboBox editor (by default false).
 
-* __ShowMoreResultsBox__ - Gets or sets a value indicating whether the RadComboBox editor displays a More Results box (by default false).
+* **ShowMoreResultsBox** - Gets or sets a value indicating whether the RadComboBox editor displays a More Results box (by default false).
 
-* __AllowVirtualScrolling__ - Gets or sets a value indicating whether virtual scrolling is enabled for RadComboBox editor (by default false).
+* **AllowVirtualScrolling** - Gets or sets a value indicating whether virtual scrolling is enabled for RadComboBox editor (by default false).
 
-* __ItemsPerRequest__ - Gets or sets the number of Items the RadComboBox editor will load per Item request (by default -1, meaning all items will be requested).
+* **ItemsPerRequest** - Gets or sets the number of Items the RadComboBox editor will load per Item request (by default -1, meaning all items will be requested).
 
 >note Load-on-demand is supported by the[ RadComboBox ](http://demos.telerik.com/aspnet-ajax/combobox/examples/overview/defaultcs.aspx)editor only. This requires DropDownControlType="RadComboBox" (default value). Additionally,load-on-demand works only with declarative data source controls set through the DataSourceID property of the column. Using DataSets and binding the column through its DataMember property is not compatible with automatic load-on-demand.
 >

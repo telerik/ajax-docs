@@ -1,6 +1,6 @@
 ---
 title: reorderColumns
-page_title: reorderColumns | UI for ASP.NET AJAX Documentation
+page_title: reorderColumns | RadGrid for ASP.NET AJAX Documentation
 description: reorderColumns
 slug: grid/client-side-programming/gridtableview-object/methods/reordercolumns
 tags: reordercolumns
@@ -14,7 +14,7 @@ position: 34
 
 ## 
 
-This method allows you to reorder the columns with the specified UniqueName. The method accept two arguments - the first one is the "from" unique nameof the table column and the second argument is the "to" unique name of the table column. Note that you have to enable the__AllowColumnsReorder__ and __ReorderColumnsOnClient__ properties and set __ColumnsReorderMethod__ property to *Reorder* in order to be able to reorder the columns. Generally used when there is a need to reorder columns on the client.
+This method allows you to reorder the columns with the specified UniqueName. The method accept two arguments - the first one is the "from" unique nameof the table column and the second argument is the "to" unique name of the table column. Note that you have to enable the**AllowColumnsReorder** and **ReorderColumnsOnClient** properties and set **ColumnsReorderMethod** property to *Reorder* in order to be able to reorder the columns. Generally used when there is a need to reorder columns on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

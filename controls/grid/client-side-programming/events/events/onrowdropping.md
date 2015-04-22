@@ -1,6 +1,6 @@
 ---
 title: OnRowDropping
-page_title: OnRowDropping | UI for ASP.NET AJAX Documentation
+page_title: OnRowDropping | RadGrid for ASP.NET AJAX Documentation
 description: OnRowDropping
 slug: grid/client-side-programming/events/events/onrowdropping
 tags: onrowdropping
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridDataItemCancelEventArgs OnRowDropping Property
 This event should be attached to identify the target element on which the dragged grid record is dropped. If this element does not meet your criteria for acceptable target, cancel the operation by setting *args.set_cancel(true)* where args is the second argument passed to the OnRowDropping handler. Additionally, to determine the destination element or set it explicitly use the *get_destinationHtmlElement()* and *set_destinationHtmlElement()* properties that can be accessed through the args argument in the handler.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __targetItemId__ - the ClientID of the targer dataItem __targetItemIndexHierarchical__ - the hierarchical index of the target GridDataItem __targetGridDataItem__ - the dataItem over which the user is dropping. May be null if the dataItem has not been instantiated beforehand __targetItemTableView__ - the GridTableView object, to which the target GridDataItem belongs __args.get_TargetDataKeyValue(columnName)__ - a method that returns a data key value for the specified column name of the target dataItem __domEvent__ - dom event __draggedItems__ - an array of the dragged dataItems __destinationHtmlElement__ - target html element __targetRadGrid__ - the RadGrid object, to which the target GridDataItem belongs __dropPosition__ - indicates the position of the drop indicator if the user is dropping over a RadGrid row - "above" or "below" it|
-| __Can be canceled__ |Yes, set eventArgs.set_cancel(true) to cancel|
+| **Arguments** | **targetItemId** - the ClientID of the targer dataItem **targetItemIndexHierarchical** - the hierarchical index of the target GridDataItem **targetGridDataItem** - the dataItem over which the user is dropping. May be null if the dataItem has not been instantiated beforehand **targetItemTableView** - the GridTableView object, to which the target GridDataItem belongs **args.get_TargetDataKeyValue(columnName)** - a method that returns a data key value for the specified column name of the target dataItem **domEvent** - dom event **draggedItems** - an array of the dragged dataItems **destinationHtmlElement** - target html element **targetRadGrid** - the RadGrid object, to which the target GridDataItem belongs **dropPosition** - indicates the position of the drop indicator if the user is dropping over a RadGrid row - "above" or "below" it|
+| **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
 Example:
 

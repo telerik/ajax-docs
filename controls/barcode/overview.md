@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadBarcode Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: barcode/overview
 tags: overview

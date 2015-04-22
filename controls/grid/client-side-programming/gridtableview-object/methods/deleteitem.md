@@ -1,6 +1,6 @@
 ---
 title: deleteItem
-page_title: deleteItem | UI for ASP.NET AJAX Documentation
+page_title: deleteItem | RadGrid for ASP.NET AJAX Documentation
 description: deleteItem
 slug: grid/client-side-programming/gridtableview-object/methods/deleteitem
 tags: deleteitem
@@ -17,10 +17,10 @@ position: 8
 Method which deletes the table row passed as an argument or the row corresponding to the index passed as an argument.
 
 
-|  __deleteItem(gridItem) or deleteItem(index)__  |  |  |
+|  **deleteItem(gridItem) or deleteItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __gridItem__ |HTML row object - <tr>|The row that will be deleted.|
-| __index__ |Integer|The row corresponding to the __index__ will be deleted.|
+| **gridItem** |HTML row object - <tr>|The row that will be deleted.|
+| **index** |Integer|The row corresponding to the **index** will be deleted.|
 
 Example:
 

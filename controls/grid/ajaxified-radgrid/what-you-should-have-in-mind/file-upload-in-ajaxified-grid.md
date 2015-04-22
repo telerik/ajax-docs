@@ -1,6 +1,6 @@
 ---
 title: File Upload in Ajaxified Grid
-page_title: File Upload in Ajaxified Grid | UI for ASP.NET AJAX Documentation
+page_title: File Upload in Ajaxified Grid | RadGrid for ASP.NET AJAX Documentation
 description: File Upload in Ajaxified Grid
 slug: grid/ajaxified-radgrid/what-you-should-have-in-mind/file-upload-in-ajaxified-grid
 tags: file,upload,in,ajaxified,grid
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-File upload is not supported using AJAX calls. This is a limitation of the __XmlHttpRequest__ component, used in all AJAX frameworks for asynchronous calls to the application. In order to upload a file you should perform a full page postback.
+File upload is not supported using AJAX calls. This is a limitation of the **XmlHttpRequest** component, used in all AJAX frameworks for asynchronous calls to the application. In order to upload a file you should perform a full page postback.
 
-Fortunately, there is a workaround available which can allow you to upload files while still using AJAX to improve the performance of __RadGrid__. If you have button (or other control) which normally does postbacks, you can attach an event handler to the __OnRequestStart__ client-side event of the __RadAjaxManager__ or __RadAjaxPanel__ that disables the AJAX functionality when that particular button is clicked.
+Fortunately, there is a workaround available which can allow you to upload files while still using AJAX to improve the performance of **RadGrid**. If you have button (or other control) which normally does postbacks, you can attach an event handler to the **OnRequestStart** client-side event of the **RadAjaxManager** or **RadAjaxPanel** that disables the AJAX functionality when that particular button is clicked.
 
 The following example illustrates this approach:
 

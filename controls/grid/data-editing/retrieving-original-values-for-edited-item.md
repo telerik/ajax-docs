@@ -1,6 +1,6 @@
 ---
 title: Retrieving Original Values for Edited Item
-page_title: Retrieving Original Values for Edited Item | UI for ASP.NET AJAX Documentation
+page_title: Retrieving Original Values for Edited Item | RadGrid for ASP.NET AJAX Documentation
 description: Retrieving Original Values for Edited Item
 slug: grid/data-editing/retrieving-original-values-for-edited-item
 tags: retrieving,original,values,for,edited,item
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-You can retrieve the old values for the edited item through the __SavedOldValues__ property of the __GridEditableItem__*(*which is __IDictionary__ collection of key -> value pairs). The keys in this collection are the __UniqueNames__ of the editable columns and the values are the cell content for the edited row before the edit operation. The new values which the user entered before triggering the Update command can be fetched calling the __ExtractValuesFromItem__ method.
+You can retrieve the old values for the edited item through the **SavedOldValues** property of the **GridEditableItem**(*which is **IDictionary** collection of key -> value pairs). The keys in this collection are the **UniqueNames** of the editable columns and the values are the cell content for the edited row before the edit operation. The new values which the user entered before triggering the Update command can be fetched calling the **ExtractValuesFromItem** method.
 
 Here is a sample code (note that this approach is applicable for auto-generated grid column editors):
 
@@ -75,7 +75,7 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 ````
 
 
-If you have __GridTemplateColumn__ inside the grid and want to obtain its original values on update command, you will need to store the old value on __ItemDataBound__ when the grid item is in edit mode and then reference it on update. The code snippet below uses a Session variable for this purpose:
+If you have **GridTemplateColumn** inside the grid and want to obtain its original values on update command, you will need to store the old value on **ItemDataBound** when the grid item is in edit mode and then reference it on update. The code snippet below uses a Session variable for this purpose:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: page
-page_title: page | UI for ASP.NET AJAX Documentation
+page_title: page | RadGrid for ASP.NET AJAX Documentation
 description: page
 slug: grid/client-side-programming/gridtableview-object/methods/page
 tags: page
@@ -17,9 +17,9 @@ position: 32
 Method which triggers paging action with page command passed as an argument. All server-side paging capabilities of RadGrid are applicable here as well. See the topic describing the [fireCommand()]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand%}) client-side method for further details.
 
 
-|  __page(pageCommand)__  |  |  |
+|  **page(pageCommand)**  |  |  |
 | ------ | ------ | ------ |
-| __pageCommand__ |String|The page command that will be executed.|
+| **pageCommand** |String|The page command that will be executed.|
 
 Example:
 

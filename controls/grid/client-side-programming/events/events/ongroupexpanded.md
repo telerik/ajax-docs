@@ -1,6 +1,6 @@
 ---
 title: OnGroupExpanded
-page_title: OnGroupExpanded | UI for ASP.NET AJAX Documentation
+page_title: OnGroupExpanded | RadGrid for ASP.NET AJAX Documentation
 description: OnGroupExpanded
 slug: grid/client-side-programming/events/events/ongroupexpanded
 tags: ongroupexpanded
@@ -23,10 +23,10 @@ Sys.EventArgs OnGroupExpanded Property
 This event is fired when the group has been expanded.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

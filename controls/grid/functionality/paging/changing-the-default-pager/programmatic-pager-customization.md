@@ -1,6 +1,6 @@
 ---
 title: Programmatic Pager Customization
-page_title: Programmatic Pager Customization | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Pager Customization | RadGrid for ASP.NET AJAX Documentation
 description: Programmatic Pager Customization
 slug: grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization
 tags: programmatic,pager,customization
@@ -20,13 +20,13 @@ To do this,
 
 1. Define your own class (such as the "MyPager" class in the following example) whose member variables are the controls you want displayed in the pager.
 
-* Include a __GridPagingManager__ in your custom class. This object can be used in your class implementation to access the information from the __PagerItem.Paging__ object. You can assign an instance of this object in the constructor of your class.
+* Include a **GridPagingManager** in your custom class. This object can be used in your class implementation to access the information from the **PagerItem.Paging** object. You can assign an instance of this object in the constructor of your class.
 
-* Include a __GridTableView__ in your custom class for the table view that your pager operates on. You can assign an instance of this object in the constructor of your class.
+* Include a **GridTableView** in your custom class for the table view that your pager operates on. You can assign an instance of this object in the constructor of your class.
 
-* Add any visual controls to the custom class for the controls that appear in your pager. These can be textboxes, validators, LiteralControls for messages, and so on. The creation of these controls should follow the ASP.NET conventions (overriding the __CreateChildControls__() method to instantiate and add your pager controls to the __Controls__ collection of the respective class instance).
+* Add any visual controls to the custom class for the controls that appear in your pager. These can be textboxes, validators, LiteralControls for messages, and so on. The creation of these controls should follow the ASP.NET conventions (overriding the **CreateChildControls**() method to instantiate and add your pager controls to the **Controls** collection of the respective class instance).
 
-1. Create a handler for the grid's __ItemEvent__ event. When the event is "GridInitializePagerItem", cancel the default pager initialization and add an instance of your own class to the __Controls__ collection of the __PagerContentCell__.
+1. Create a handler for the grid's **ItemEvent** event. When the event is "GridInitializePagerItem", cancel the default pager initialization and add an instance of your own class to the **Controls** collection of the **PagerContentCell**.
 
 
 

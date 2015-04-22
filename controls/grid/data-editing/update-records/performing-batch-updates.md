@@ -1,6 +1,6 @@
 ---
 title: Performing Batch Updates
-page_title: Performing Batch Updates | UI for ASP.NET AJAX Documentation
+page_title: Performing Batch Updates | RadGrid for ASP.NET AJAX Documentation
 description: Performing Batch Updates
 slug: grid/data-editing/update-records/performing-batch-updates
 tags: performing,batch,updates
@@ -16,7 +16,7 @@ position: 2
 
 A common scenario is to force several grid items in edit mode and then update them on single button click.
 
-In the example below there is __UpdateAll__ button in the grid command item template. The visitor can edit several grid items by pressing the edit button for each item(the Update button will be hidden and only the __Cancel__ button will be present in edit mode). After editing the content of the grid items, a batch update is triggered when hitting the __UpdateAll__ button in the command item template (the update is executed in the __ItemCommand__ event handler when __e.CommandName = UpdateAll__). The idea is to iterate through all items in the __EditItems__ collection of the grid and update their data with the new values in the grid data source.
+In the example below there is **UpdateAll** button in the grid command item template. The visitor can edit several grid items by pressing the edit button for each item(the Update button will be hidden and only the **Cancel** button will be present in edit mode). After editing the content of the grid items, a batch update is triggered when hitting the **UpdateAll** button in the command item template (the update is executed in the **ItemCommand** event handler when **e.CommandName = UpdateAll**). The idea is to iterate through all items in the **EditItems** collection of the grid and update their data with the new values in the grid data source.
 
 
 
@@ -94,7 +94,7 @@ In the example below there is __UpdateAll__ button in the grid command item temp
 ````
 
 
-__Client-side editing with batch update__One possible implementation is demonstrated on [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
+**Client-side editing with batch update**One possible implementation is demonstrated on [this demo](http://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
 
 * Wire the ondblclick event of the grid cells
 
@@ -102,7 +102,7 @@ __Client-side editing with batch update__One possible implementation is demonstr
 
 * Push the altered content on the server and update the data source
 
-Furthermore, a user-friendly confirm dialog will be displayed to prompt whether the updates should be propagated or discarded when you perform sorting, paging, etc. operation. The example uses __RadAjaxManager__ instance to ajaxify the grid and perform __RadAjaxManagerClientObject.ajaxRequest(args)__ calls. These calls are invoked in the __ProcessChanges__ and __CancelChanges__ client methods and the data in the source is refreshed inside the __OnAjaxRequest__ handler on the server. The sample also features RadInputManager and RadFormDecorator which are used to filter the numeric entries and style the textboxes, checkboxes and dropdowns.
+Furthermore, a user-friendly confirm dialog will be displayed to prompt whether the updates should be propagated or discarded when you perform sorting, paging, etc. operation. The example uses **RadAjaxManager** instance to ajaxify the grid and perform **RadAjaxManagerClientObject.ajaxRequest(args)** calls. These calls are invoked in the **ProcessChanges** and **CancelChanges** client methods and the data in the source is refreshed inside the **OnAjaxRequest** handler on the server. The sample also features RadInputManager and RadFormDecorator which are used to filter the numeric entries and style the textboxes, checkboxes and dropdowns.
 
 Another approach is presented in the paragraph below.
 

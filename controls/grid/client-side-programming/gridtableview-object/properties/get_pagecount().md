@@ -1,6 +1,6 @@
 ---
 title: get_pageCount()
-page_title: get_pageCount() | UI for ASP.NET AJAX Documentation
+page_title: get_pageCount() | RadGrid for ASP.NET AJAX Documentation
 description: get_pageCount()
 slug: grid/client-side-programming/gridtableview-object/properties/get_pagecount()
 tags: get_pagecount()
@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-Returns the page count for the respective __GridTableView__ object. Can be used to create some condition for executing different script logic depending on how many pages the user sees.
+Returns the page count for the respective **GridTableView** object. Can be used to create some condition for executing different script logic depending on how many pages the user sees.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"

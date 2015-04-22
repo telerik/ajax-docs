@@ -1,6 +1,6 @@
 ---
 title: getColumnByUniqueName
-page_title: getColumnByUniqueName | UI for ASP.NET AJAX Documentation
+page_title: getColumnByUniqueName | RadGrid for ASP.NET AJAX Documentation
 description: getColumnByUniqueName
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnbyuniquename
 tags: getcolumnbyuniquename
@@ -17,9 +17,9 @@ position: 24
 Returns a GridColumn object representing the column with the specified UniqueName.
 
 
-|  __getColumnByUniqueName(colUniqueName)__  |  |  |
+|  **getColumnByUniqueName(colUniqueName)**  |  |  |
 | ------ | ------ | ------ |
-| __colUniqueName__ |String|The UniqueName of the GridColumn object that will be referenced.|
+| **colUniqueName** |String|The UniqueName of the GridColumn object that will be referenced.|
 
 Example:
 

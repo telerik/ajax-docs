@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable or DataSet
-page_title: Binding to DataTable or DataSet | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable or DataSet | RadGrid for ASP.NET AJAX Documentation
 description: Binding to DataTable or DataSet
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-datatable-or-dataset
 tags: binding,to,datatable,or,dataset
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-When not using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a __RadGrid__ control is probably using a __DataTable__ or __DataSet__ control. You can populate __DataTable__ instance (part of __DataSet__ object or not) with data from a source of your choice (database, custom object collection, xml file, etc.) and then pass it to the __DataSource__ property of the control. Here is a sample that uses the __NeedDataSource__ event, extracting the data from an SQL database:
+When not using [declarative data sources]({%slug grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a **RadGrid** control is probably using a **DataTable** or **DataSet** control. You can populate **DataTable** instance (part of **DataSet** object or not) with data from a source of your choice (database, custom object collection, xml file, etc.) and then pass it to the **DataSource** property of the control. Here is a sample that uses the **NeedDataSource** event, extracting the data from an SQL database:
 
 
 

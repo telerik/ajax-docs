@@ -1,6 +1,6 @@
 ---
 title: get_display()
-page_title: get_display() | UI for ASP.NET AJAX Documentation
+page_title: get_display() | RadGrid for ASP.NET AJAX Documentation
 description: get_display()
 slug: grid/client-side-programming/griddataitem-object/properties/get_display()
 tags: get_display()
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The property which specifies if the row is visible. It returns a boolean value which indicates whether the item is visible. Keep in mind that the property willreturn a correct value only if you previously call __set_disaply()__ function. Basically you can use it in cases when you need to checkwhether a row is visible.
+The property which specifies if the row is visible. It returns a boolean value which indicates whether the item is visible. Keep in mind that the property willreturn a correct value only if you previously call **set_disaply()** function. Basically you can use it in cases when you need to checkwhether a row is visible.
 
 ````ASPNET
 	        <script type="text/javascript">

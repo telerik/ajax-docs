@@ -1,6 +1,6 @@
 ---
 title: Case Sensitive Grouping
-page_title: Case Sensitive Grouping | UI for ASP.NET AJAX Documentation
+page_title: Case Sensitive Grouping | RadGrid for ASP.NET AJAX Documentation
 description: Case Sensitive Grouping
 slug: grid/functionality/grouping/how-to/case-sensitive-grouping
 tags: case,sensitive,grouping
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-RadGrid supports grouping of items based on the value of a particular column. To group these items in a case sensitive order you can set __GroupingSettings.CaseSensitive__ property to __true__. Using this property you will make the grid grouping and filtering case sensitive.
+RadGrid supports grouping of items based on the value of a particular column. To group these items in a case sensitive order you can set **GroupingSettings.CaseSensitive** property to **true**. Using this property you will make the grid grouping and filtering case sensitive.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" ShowGroupPanel="true">
@@ -25,11 +25,11 @@ RadGrid supports grouping of items based on the value of a particular column. To
 
 
 
->note If you use case sensitive grouping and the grid is populated through __NeedDataSource__ event or with __SqlDataSource__ you should make the data table __CaseSensitive__ .
+>note If you use case sensitive grouping and the grid is populated through **NeedDataSource** event or with **SqlDataSource** you should make the data table **CaseSensitive** .
 >
 
 
-When you are populating the grid through __NeedDataSource__ and at the same time you need case sensitive grouping you can use the code snippet below:
+When you are populating the grid through **NeedDataSource** and at the same time you need case sensitive grouping you can use the code snippet below:
 
 
 
@@ -71,7 +71,7 @@ When you are populating the grid through __NeedDataSource__ and at the same time
 ````
 
 
-If you are using __SqlDataSource__ you can make the grid grouping case sensitive with the following code:
+If you are using **SqlDataSource** you can make the grid grouping case sensitive with the following code:
 
 
 

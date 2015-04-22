@@ -1,6 +1,6 @@
 ---
 title: Keyboard support
-page_title: Keyboard support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard support | RadGrid for ASP.NET AJAX Documentation
 description: Keyboard support
 slug: grid/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -14,25 +14,25 @@ position: 7
 
 ## 
 
-You can enable keyboard navigation in the __RadGrid__ control by setting the __ClientSettings.AllowKeyboardNavigation__ property to __True__ (its default value is __False__). Currently the following features are supported:
+You can enable keyboard navigation in the **RadGrid** control by setting the **ClientSettings.AllowKeyboardNavigation** property to **True** (its default value is **False**). Currently the following features are supported:
 
-* __Access Keys__: An access key is a key combination (e.g. Alt+F) that lets the user move focus to the grid and subsequently use the Up and Down arrow keys for navigation. The access key is defined using the __AccessKey__ property. For example, setting the __AccessKey__ property to "F" enables users to move focus to the grid by typing Alt+F.
+* **Access Keys**: An access key is a key combination (e.g. Alt+F) that lets the user move focus to the grid and subsequently use the Up and Down arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, setting the **AccessKey** property to "F" enables users to move focus to the grid by typing Alt+F.
 
-* __FocusKey:__To specify the key combination that focuses the grid you need to set the __FocusKey__ in the __KeyBoardNavigationSettings__ tag property __-__the first key is preset to [CTRL] by design.
+* **FocusKey:**To specify the key combination that focuses the grid you need to set the **FocusKey** in the **KeyBoardNavigationSettings** tag property **-**the first key is preset to [CTRL] by design.
 
-* __InitInsertKey__: Setting this property provides a shortcut for opening RadGrid insert form. The first key is preset to [CTRL] by design.
+* **InitInsertKey**: Setting this property provides a shortcut for opening RadGrid insert form. The first key is preset to [CTRL] by design.
 
-* __RebindKey__: Allows the users to rebind RadGrid. The first key is preset to [CTRL] by design.
+* **RebindKey**: Allows the users to rebind RadGrid. The first key is preset to [CTRL] by design.
 
-* __AllowActiveRowCycle:__To allow the active row to cycle to the beginning upon having reached the end of the grid table, you have to set __ClientSettings -> KeyboardNavigationSettings -> AllowActiveRowCycle__property to __true__.
+* **AllowActiveRowCycle:**To allow the active row to cycle to the beginning upon having reached the end of the grid table, you have to set **ClientSettings -> KeyboardNavigationSettings -> AllowActiveRowCycle**property to **true**.
 
-* __Arrowkey Navigation__: When arrow key navigation is enabled, users can navigate the rows of the grid using the up and down arrow keys.
+* **Arrowkey Navigation**: When arrow key navigation is enabled, users can navigate the rows of the grid using the up and down arrow keys.
 
-* __Selection__: Users can select rows by pressing the [SPACE] key.
+* **Selection**: Users can select rows by pressing the [SPACE] key.
 
-* __Multi rows selection__: When RadGrid __AllowMultiRowSelection__ property is set to __true__, users can use the [CTRL] and [SHIFT] keys to simulate Windows Explorer-like selection.
+* **Multi rows selection**: When RadGrid **AllowMultiRowSelection** property is set to **true**, users can use the [CTRL] and [SHIFT] keys to simulate Windows Explorer-like selection.
 
-* __Editing__: When editing is enabled, users can edit rows hitting the [ENTER] key. Then to update/insert rows they can use the [ENTER] key again. And to exit edit/insert mode without saving any changes, they can hit the [ESC] key.
+* **Editing**: When editing is enabled, users can edit rows hitting the [ENTER] key. Then to update/insert rows they can use the [ENTER] key again. And to exit edit/insert mode without saving any changes, they can hit the [ESC] key.
 >caption 
 
 ![Arrowkey Navigation ](images/grd_KeyboardNavigation1.png)

@@ -1,6 +1,6 @@
 ---
 title: get_nestedViews()
-page_title: get_nestedViews() | UI for ASP.NET AJAX Documentation
+page_title: get_nestedViews() | RadGrid for ASP.NET AJAX Documentation
 description: get_nestedViews()
 slug: grid/client-side-programming/griddataitem-object/properties/get_nestedviews()
 tags: get_nestedviews()

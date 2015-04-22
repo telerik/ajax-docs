@@ -1,6 +1,6 @@
 ---
 title: filter
-page_title: filter | UI for ASP.NET AJAX Documentation
+page_title: filter | RadGrid for ASP.NET AJAX Documentation
 description: filter
 slug: grid/client-side-programming/gridtableview-object/methods/filter
 tags: filter
@@ -14,15 +14,15 @@ position: 21
 
 ## 
 
-Method which triggers filter command for the column with *UniqueName* (set on the server) passed as a first argument. The second argument should be value to compare (or two values separated by [space] for between filter pattern) or an empty string for EqualTo, NoFilter, IsNull, etc. The last third argument has to be a value from the __Telerik.Web.UI.GridFilterFunction__ enumeration which internally recognizes the filter criteria that should be applied. All server-side filtering capabilities of RadGrid are applicable here as well. See the topic describing the [fireCommand method]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand%}) for further details.
+Method which triggers filter command for the column with *UniqueName* (set on the server) passed as a first argument. The second argument should be value to compare (or two values separated by [space] for between filter pattern) or an empty string for EqualTo, NoFilter, IsNull, etc. The last third argument has to be a value from the **Telerik.Web.UI.GridFilterFunction** enumeration which internally recognizes the filter criteria that should be applied. All server-side filtering capabilities of RadGrid are applicable here as well. See the topic describing the [fireCommand method]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand%}) for further details.
 
 
-|  __filter(colUniqueName, valueToCompare, filterFunction, shouldUpdateFilterControl)__  |  |  |
+|  **filter(colUniqueName, valueToCompare, filterFunction, shouldUpdateFilterControl)**  |  |  |
 | ------ | ------ | ------ |
-| __colUniqueName__ |String|The UniqueName of the column that will be filtered.|
-| __valueToCompare__ |Optional argument (String, Integer, etc.)|The value which will be used for the comparison against the entire set of data through the filter criteria.|
-| __filterFunction__ |Enumeration value|The filter pattern that will be applied.|
-| __shouldUpdateFilterControl__ |Boolean (Optional)|Determines whether the filter control will be updated with the relevant filter value applied by the grid filter expression. The default value is false.|
+| **colUniqueName** |String|The UniqueName of the column that will be filtered.|
+| **valueToCompare** |Optional argument (String, Integer, etc.)|The value which will be used for the comparison against the entire set of data through the filter criteria.|
+| **filterFunction** |Enumeration value|The filter pattern that will be applied.|
+| **shouldUpdateFilterControl** |Boolean (Optional)|Determines whether the filter control will be updated with the relevant filter value applied by the grid filter expression. The default value is false.|
 
 Example:
 
@@ -45,10 +45,10 @@ Example:
 
 
 
-__Telerik.Web.UI.GridFilterFunction enumeration__
+**Telerik.Web.UI.GridFilterFunction enumeration**
 
 
-|  __Internal integer value__  |  __Public value__  |
+|  **Internal integer value**  |  **Public value**  |
 | ------ | ------ |
 |0|NoFilter|
 |1|Contains|

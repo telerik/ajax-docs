@@ -1,6 +1,6 @@
 ---
 title: selectAllItems
-page_title: selectAllItems | UI for ASP.NET AJAX Documentation
+page_title: selectAllItems | RadGrid for ASP.NET AJAX Documentation
 description: selectAllItems
 slug: grid/client-side-programming/gridtableview-object/methods/selectallitems
 tags: selectallitems
@@ -21,7 +21,7 @@ Selects all items in the GridTableView for which the method is invoked.
 
 
 
-|  __selectAllItems()__  |
+|  **selectAllItems()**  |
 | ------ |
 ||
 

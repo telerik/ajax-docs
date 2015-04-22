@@ -1,6 +1,6 @@
 ---
 title: Single expand in hierarchical grid
-page_title: Single expand in hierarchical grid | UI for ASP.NET AJAX Documentation
+page_title: Single expand in hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Single expand in hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/single-expand-in-hierarchical-grid
 tags: single,expand,in,hierarchical,grid
@@ -16,11 +16,11 @@ position: 2
 
 In some particular scenarios you may want to allow single row expand at a time for each level in the grid hierarchy (due to user preference, custom development conventions, etc.). This feature is not built-in for Telerik RadGrid, however you can provide with only several lines of code. You merely need to:
 
-1. Hook the __ItemCommand__ event and check whether __e.CommandName__ is __RadGrid.ExpandCollapseCommandName__
+1. Hook the **ItemCommand** event and check whether **e.CommandName** is **RadGrid.ExpandCollapseCommandName**
 
 1. Traverse all items in the currently active GridTableView
 
-1. Set the __Expanded__ property for all items which differ from the __e.Item__ instance to __false__
+1. Set the **Expanded** property for all items which differ from the **e.Item** instance to **false**
 
 And here is the code of a simple demo:
 

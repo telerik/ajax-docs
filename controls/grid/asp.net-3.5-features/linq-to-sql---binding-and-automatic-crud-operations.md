@@ -1,6 +1,6 @@
 ---
 title: LINQ To SQL - Binding and Automatic CRUD Operations
-page_title: LINQ To SQL - Binding and Automatic CRUD Operations | UI for ASP.NET AJAX Documentation
+page_title: LINQ To SQL - Binding and Automatic CRUD Operations | RadGrid for ASP.NET AJAX Documentation
 description: LINQ To SQL - Binding and Automatic CRUD Operations
 slug: grid/asp.net-3.5-features/linq-to-sql---binding-and-automatic-crud-operations
 tags: linq,to,sql,-,binding,and,automatic,crud,operations

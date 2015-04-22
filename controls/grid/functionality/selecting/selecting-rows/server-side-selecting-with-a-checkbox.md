@@ -1,6 +1,6 @@
 ---
 title: Server-side Selecting with a CheckBox
-page_title: Server-side Selecting with a CheckBox | UI for ASP.NET AJAX Documentation
+page_title: Server-side Selecting with a CheckBox | RadGrid for ASP.NET AJAX Documentation
 description: Server-side Selecting with a CheckBox
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-checkbox
 tags: server-side,selecting,with,a,checkbox
@@ -14,19 +14,19 @@ position: 1
 
 ## 
 
-You can use a template column to simulate the behavior of the __GridClientSelectColumn__, but handling the row selection server-side. Handling selection this way behaves like a grid with client-side selection, except that users cannot select rows by clicking on them.
+You can use a template column to simulate the behavior of the **GridClientSelectColumn**, but handling the row selection server-side. Handling selection this way behaves like a grid with client-side selection, except that users cannot select rows by clicking on them.
 
-To simulate the __GridClientSelectColumn__ in a template column:
+To simulate the **GridClientSelectColumn** in a template column:
 
-1. Create an __ItemTemplate__ that contains a check box.
+1. Create an **ItemTemplate** that contains a check box.
 
-1. In the __OnCheckedChanged__ event of the check box, set the parent row's __Selected__ property to select or de-select the row.
+1. In the **OnCheckedChanged** event of the check box, set the parent row's **Selected** property to select or de-select the row.
 
-1. If you are allowing multi-row selection, add a check box to the __HeaderItemTemplate__.
+1. If you are allowing multi-row selection, add a check box to the **HeaderItemTemplate**.
 
-1. In the __OnCheckChanged__ event of the header check box, set the __Selected__ property of every row in the grid and the __Checked__ property of the corresponding check boxes in the item templates.
+1. In the **OnCheckChanged** event of the header check box, set the **Selected** property of every row in the grid and the **Checked** property of the corresponding check boxes in the item templates.
 
->note The __Parent__ property of the check box refers to the template. Therefore, to access the parent row, you must use the parent of the parent.
+>note The **Parent** property of the check box refers to the template. Therefore, to access the parent row, you must use the parent of the parent.
 >
 
 
@@ -58,7 +58,7 @@ Note that in the grid declaration, you do not need to enable client-side selecti
 
 
 
-In the code-behind, the __OnCheckedChanged__ event handlers (__ToggleRowSelection__ and __ToggleSelectedState__) handle the selection and de-selection of rows:
+In the code-behind, the **OnCheckedChanged** event handlers (**ToggleRowSelection** and **ToggleSelectedState**) handle the selection and de-selection of rows:
 
 
 

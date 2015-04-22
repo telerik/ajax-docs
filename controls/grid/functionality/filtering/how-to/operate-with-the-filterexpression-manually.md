@@ -1,6 +1,6 @@
 ---
 title: Operate with the FilterExpression Manually
-page_title: Operate with the FilterExpression Manually | UI for ASP.NET AJAX Documentation
+page_title: Operate with the FilterExpression Manually | RadGrid for ASP.NET AJAX Documentation
 description: Operate with the FilterExpression Manually
 slug: grid/functionality/filtering/how-to/operate-with-the-filterexpression-manually
 tags: operate,with,the,filterexpression,manually
@@ -16,19 +16,19 @@ position: 0
 
 There are two ways you can determine what filter function the grid is currently employing:
 
-* Provide a handler for the __ItemCommand__ event. In the __ItemCommand__ event handler, check that __e.CommandName__ is "Filter" (or, more robustly, __RadGrid.FilterCommandName__):
+* Provide a handler for the **ItemCommand** event. In the **ItemCommand** event handler, check that **e.CommandName** is "Filter" (or, more robustly, **RadGrid.FilterCommandName**):
 
-* The __e.CommandArgument__ value is a __Pair__ object that holds the filter function name and the column's unique name.
+* The **e.CommandArgument** value is a **Pair** object that holds the filter function name and the column's unique name.
 
-* The __e.Item__ value is the __GridFilteringItem__. Using the column name, you can access the text box that holds the filter pattern.You can also customize the filter operation at this point by setting the table view's __FilterExpression__. For details on how to do this, see [Custom option for filtering (FilterListOptions -> VaryByDataTypeAllowCustom)]({%slug grid/functionality/filtering/how-to/custom-option-for-filtering%}).
+* The **e.Item** value is the **GridFilteringItem**. Using the column name, you can access the text box that holds the filter pattern.You can also customize the filter operation at this point by setting the table view's **FilterExpression**. For details on how to do this, see [Custom option for filtering (FilterListOptions -> VaryByDataTypeAllowCustom)]({%slug grid/functionality/filtering/how-to/custom-option-for-filtering%}).
 
-* When binding a grid using the __NeedDataSource__ event, check the __RadGrid.MasterTableView.FilterExpression__ property in the __NeedDataSource__ event handler. This string represents the current filter function in the same way as the __DataView.Filter__ property (that is, it is the text of a WHERE clause for filtering items).
+* When binding a grid using the **NeedDataSource** event, check the **RadGrid.MasterTableView.FilterExpression** property in the **NeedDataSource** event handler. This string represents the current filter function in the same way as the **DataView.Filter** property (that is, it is the text of a WHERE clause for filtering items).
 
->note If you want to customize filtering using your own custom statements, clear the __FilterExpression__ string (to prevent the default filtering) and bind the grid to a filtered data set.
+>note If you want to customize filtering using your own custom statements, clear the **FilterExpression** string (to prevent the default filtering) and bind the grid to a filtered data set.
 >
 
 
-The following example shows how to access the filter information in the __ItemCommand__ event handler. It saves this information to a set of messages that can be displayed (by the grid's __DataBound__ event handler) to provide feedback about the current filter function:
+The following example shows how to access the filter information in the **ItemCommand** event handler. It saves this information to a set of messages that can be displayed (by the grid's **DataBound** event handler) to provide feedback about the current filter function:
 
 
 
@@ -91,52 +91,52 @@ The value of the FilterExpression for the grid is a string, including vital info
 
 In most cases the programmer does not need to worry about these details, since the filtering is automatically handled by RadGrid. In some scenarios, however, it is useful to have a better knowledge on how these expressions are constructed. This is the case, for example, when the grid needs to be filtered initially, or when a more complex, custom filter expression should be constructed.
 
-The following table shows the representation of the grid FilterExpression for each filter function when the filter value type is __string__ or __numeric__. To make it practical, it assumes that we are filtering a string column named __CustomerID__ by a value of '__ALFKI__' and a column of a numeric type, called __OrderID__ by a value of __'10248'__ accordingly.
+The following table shows the representation of the grid FilterExpression for each filter function when the filter value type is **string** or **numeric**. To make it practical, it assumes that we are filtering a string column named **CustomerID** by a value of '**ALFKI**' and a column of a numeric type, called **OrderID** by a value of **'10248'** accordingly.
 
-*Note*: In some of the expressions additional parameters are used. For example in this filter function: __@"<DataType>(it[""<DataField>""])= {numeric value}";__the particular DataType is __Int32__:
+*Note*: In some of the expressions additional parameters are used. For example in this filter function: **@"<DataType>(it[""<DataField>""])= {numeric value}";**the particular DataType is **Int32**:
 
 
 >caption  
 
 |  | SqlDataSource 3.5 EnableLinqExpression="true" |  | SqlDataSource 3.5/2.0EnableLinqExpression="false" |  |
 | ------ | ------ | ------ | ------ | ------ |
-| __Filter Function__ | __string__ | __int__ | __string__ | __int__ |
-|Contains|@"it["" __CustomerID__ ""].ToString().Contains("" __ALFKI__ "")";|N/A|"([ __CustomerID__ ] LIKE '% __ALFKI__ %')";|N/A|
-|DoesNotContain|@"!it["" __CustomerID__ ""].ToString().Contains("" __ALFKI__ "")";|N/A|"([ __CustomerID__ ] NOT LIKE '% __ALFKI__ %') ";|N/A|
-|StartsWith|@"it[""{0}""].ToString().StartsWith("" __ALFKI__ "")";|N/A|"([ __CustomerID__ ] LIKE ' __ALFKI__ %') ";|N/A|
-|EndsWith|@"it["" __CustomerID__ ""].ToString().EndsWith("" __ALFKI__ "")";|N/A|"([ __CustomerID__ ] LIKE '% __ALFKI__ ')";|N/A|
-|EqualTo|"(Convert.ToString(it[\" __CustomerID__ \"]) = \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) = __10248__ ";|"([ __CustomerID__ ] = ' __ALFKI__ ')";|"([ __OrderID__ ] = __10248__ ) ";|
-|NotEqualTo|"(Convert.ToString(it[\" __CustomerID__ \"]) <> \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) <> __10248__ ";|"([ __CustomerID__ ] <> ' __ALFKI__ ')";|"([ __OrderID__ ] <> __10248__ ) ";|
-|GreaterThan|"(Convert.ToString(it[\" __CustomerID__ \"]) > \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) > __10248__ ";|"([ __CustomerID__ ] > ' __ALFKI__ ') ";|"([ __OrderID__ ] > __10248__ ) ";|
-|LessThan|"(Convert.ToString(it[\" __CustomerID__ \"]) < \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) < __10248__ ";|"([ __CustomerID__ ] < ' __ALFKI__ ') ";|"([ __OrderID__ ] < __10248__ ) ";|
-|GreaterThanOrEqualTo|"(Convert.ToString(it[\" __CustomerID__ \"]) >= \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) >= __10248__ ";|"([ __CustomerID__ ] >= ' __ALFKI__ ')";|"([ __OrderID__ ] >= __10248__ ";|
-|LessThanOrEqualTo|"(Convert.ToString(it[\" __CustomerID__ \"]) <= \" __ALFKI__ \")";|@"Int32(it["" __OrderID__ ""]) <= __10248__ ";|"([ __CustomerID__ ] <= ' __ALFKI__ ')";|"([ __OrderID__ ] <= __10248__ ) ";|
-|Between|"((Convert.ToString(it[\" __CustomerID__ \"]) >= \" __ALFKI__ \") AND ( Convert.ToString(it[\" __CustomerID__ \"]) <= \" __ANTON__ \")) ";|@"(Int32(it["" __OrderID__ ""]) >= __10248__ ) AND ( __Int32__ (it["" __OrderID__ ""]) <= __10252__ )";|"(([ __CustomerID__ ] >= ' __ALFKI__ ') AND ([ __CustomerID__ ] <= ' __ANTON__ ')) ";|"(([ __OrderID__ ] >= __10248__ ) AND ([ __OrderID__ ] <= __10252__ ))";|
-|NotBetween|"((Convert.ToString(it[\" __CustomerID__ \"]) < \" __ALFKI__ \") AND ( Convert.ToString(it[\" __CustomerID__ \"]) > \" __ANTON__ \")) ";|@"(Int32(it["" __OrderID__ ""]) < __10248__ ) OR ( __Int32__ (it["" __OrderID__ ""]) > __10252__ )";|"(([ __CustomerID__ ] < ' __ALFKI__ ') OR ([ __CustomerID__ ] > ' __ANTON__ ')) ";|"(([ __OrderID__ ] < __10248__ ) OR ([ __OrderID__ ] > __10252__ )) ";|
-|IsEmpty|@"it["" __CustomerID__ ""] = """"";|N/A|"([ __CustomerID__ ] = '') ";|N/A|
-|NotIsEmpty|@"it["" __CustomerID__ ""] <> """"";|N/A|"([ __CustomerID__ ] <> '') ";|N/A|
-|IsNull|@"it["" __CustomerID__ ""] ==Convert.DBNull";|@"it["" __OrderID__ ""] ==Convert.DBNull";|"([ __CustomerID__ ] IS NULL) ";|"([ __OrderID__ ] IS NULL) ";|
-|NotIsNull|@"(it["" __CustomerID__ ""] !=Convert.DBNull)";|@"(it["" __OrderID__ ""] !=Convert.DBNull)";|"(NOT ([ __CustomerID__ ] IS NULL)) ";|"(NOT ([ __OrderID__ ] IS NULL)) ";|
+| **Filter Function** | **string** | **int** | **string** | **int** |
+|Contains|@"it["" **CustomerID** ""].ToString().Contains("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE '% **ALFKI** %')";|N/A|
+|DoesNotContain|@"!it["" **CustomerID** ""].ToString().Contains("" **ALFKI** "")";|N/A|"([ **CustomerID** ] NOT LIKE '% **ALFKI** %') ";|N/A|
+|StartsWith|@"it[""{0}""].ToString().StartsWith("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE ' **ALFKI** %') ";|N/A|
+|EndsWith|@"it["" **CustomerID** ""].ToString().EndsWith("" **ALFKI** "")";|N/A|"([ **CustomerID** ] LIKE '% **ALFKI** ')";|N/A|
+|EqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) = \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) = **10248** ";|"([ **CustomerID** ] = ' **ALFKI** ')";|"([ **OrderID** ] = **10248** ) ";|
+|NotEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) <> \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) <> **10248** ";|"([ **CustomerID** ] <> ' **ALFKI** ')";|"([ **OrderID** ] <> **10248** ) ";|
+|GreaterThan|"(Convert.ToString(it[\" **CustomerID** \"]) > \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) > **10248** ";|"([ **CustomerID** ] > ' **ALFKI** ') ";|"([ **OrderID** ] > **10248** ) ";|
+|LessThan|"(Convert.ToString(it[\" **CustomerID** \"]) < \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) < **10248** ";|"([ **CustomerID** ] < ' **ALFKI** ') ";|"([ **OrderID** ] < **10248** ) ";|
+|GreaterThanOrEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) >= \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) >= **10248** ";|"([ **CustomerID** ] >= ' **ALFKI** ')";|"([ **OrderID** ] >= **10248** ";|
+|LessThanOrEqualTo|"(Convert.ToString(it[\" **CustomerID** \"]) <= \" **ALFKI** \")";|@"Int32(it["" **OrderID** ""]) <= **10248** ";|"([ **CustomerID** ] <= ' **ALFKI** ')";|"([ **OrderID** ] <= **10248** ) ";|
+|Between|"((Convert.ToString(it[\" **CustomerID** \"]) >= \" **ALFKI** \") AND ( Convert.ToString(it[\" **CustomerID** \"]) <= \" **ANTON** \")) ";|@"(Int32(it["" **OrderID** ""]) >= **10248** ) AND ( **Int32** (it["" **OrderID** ""]) <= **10252** )";|"(([ **CustomerID** ] >= ' **ALFKI** ') AND ([ **CustomerID** ] <= ' **ANTON** ')) ";|"(([ **OrderID** ] >= **10248** ) AND ([ **OrderID** ] <= **10252** ))";|
+|NotBetween|"((Convert.ToString(it[\" **CustomerID** \"]) < \" **ALFKI** \") AND ( Convert.ToString(it[\" **CustomerID** \"]) > \" **ANTON** \")) ";|@"(Int32(it["" **OrderID** ""]) < **10248** ) OR ( **Int32** (it["" **OrderID** ""]) > **10252** )";|"(([ **CustomerID** ] < ' **ALFKI** ') OR ([ **CustomerID** ] > ' **ANTON** ')) ";|"(([ **OrderID** ] < **10248** ) OR ([ **OrderID** ] > **10252** )) ";|
+|IsEmpty|@"it["" **CustomerID** ""] = """"";|N/A|"([ **CustomerID** ] = '') ";|N/A|
+|NotIsEmpty|@"it["" **CustomerID** ""] <> """"";|N/A|"([ **CustomerID** ] <> '') ";|N/A|
+|IsNull|@"it["" **CustomerID** ""] ==Convert.DBNull";|@"it["" **OrderID** ""] ==Convert.DBNull";|"([ **CustomerID** ] IS NULL) ";|"([ **OrderID** ] IS NULL) ";|
+|NotIsNull|@"(it["" **CustomerID** ""] !=Convert.DBNull)";|@"(it["" **OrderID** ""] !=Convert.DBNull)";|"(NOT ([ **CustomerID** ] IS NULL)) ";|"(NOT ([ **OrderID** ] IS NULL)) ";|
 
 
 >caption  
 
 |  | LinqDataSource |  | EntityDataSource |  |
 | ------ | ------ | ------ | ------ | ------ |
-| __Filter Function__ | __string__ | __int__ | __string__ | __int__ |
-|Contains|"( __CustomerID__ .Contains(\" __ALFKI__ \"))"|N/A|@"it. __CustomerID__ LIKE ""% __ALFKI__ %""";|N/A|
-|DoesNotContain|"(! __CustomerID__ .Contains(\" __ALFKI__ \"))"|N/A|@"it. __CustomerID__ NOT LIKE ""% __ALFKI__ %""";|N/A|
-|StartsWith|"( __CustomerID__ .StartsWith(\" __ALFKI__ \"))"|N/A|@"it. __CustomerID__ LIKE "" __ALFKI__ %""";|N/A|
-|EndsWith|"( __CustomerID__ .EndsWith(\" __ALFKI__ \"))"|N/A|@"it. __CustomerID__ LIKE ""% __ALFKI__ """;|N/A|
-|EqualTo|"( __CustomerID__ .Equals(\" __ALFKI__ \"))";|"( __OrderID__ .Equals( __10248__ ))";|"it. __CustomerID__ = __ALFKI__ ";|"(it. __OrderID__ = __10248__ ) ";|
-|NotEqualTo|"(! __CustomerID__ .Equals(\" __ALFKI__ \"))";|"(! __OrderID__ .Equals( __10248__ ))";|"it. __CustomerID__ <> __ALFKI__ ";|"(it. __OrderID__ <> __10248__ ) ";|
-|GreaterThan|"( __CustomerID__ > \" __ALFKI__ \" )"|"( __OrderID__ > __10248__ )";|"it. __CustomerID__ > __ALFKI__ ";|"(it. __OrderID__ > __10248__ ) ";|
-|LessThan|"( __CustomerID__ < \" __ALFKI\__ " )"|"( __OrderID__ < __10248__ )";|"it. __CustomerID__ < __ALFKI__ ";|"(it. __OrderID__ < __10248__ ) ";|
-|GreaterThanOrEqualTo|"( __CustomerID__ >= \" __ALFKI__ \" )"|"( __OrderID__ >= __10248__ )";|"it. __CustomerID__ >= __ALFKI__ ";|"(it. __OrderID__ >= __10248__ ) ";|
-|LessThanOrEqualTo|"( __CustomerID__ <= \" __ALFKI__ \" )"|"( __OrderID__ <= __10248__ )";|"it. __CustomerID__ <= __ALFKI__ ";|"(it. __OrderID__ <= __10248__ ) ";|
-|Between|"(( __CustomerID__ >= \" __ALFKI__ \") AND ( __CustomerID__ <= \" __ANTON__ \"))"|"(( __OrderID__ >= __10248__ ) AND ( __OrderID__ <= __10252__ )) ";|"(it. __CustomerID__ >= __ALFKI__ ) AND (it.{0} <= __ANTON__ )";|"((it. __OrderID__ >= __10248__ ) AND (it. __OrderID__ <= __10252__ ))";|
-|NotBetween|"(( __CustomerID__ < \" __ALFKI__ \") OR ( __CustomerID__ > \" __ANTON__ \"))"|"(( __OrderID__ < __10248__ ) OR ( __OrderID__ > __10252__ )) ";|"(it. __CustomerID__ < __ALFKI__ ) OR (it. __CustomerID__ > __ANTON__ )";|"((it. __OrderID__ < __10248__ ) OR (it. __OrderID__ > __10252__ )) ";|
-|IsEmpty|"( __CustomerID__ == \"\") ";|N/A|@"it. __CustomerID__ = """"";|N/A|
-|NotIsEmpty|"( __CustomerID__ != \"\") ";|N/A|@"it. __CustomerID__ <> """"";|N/A|
-|IsNull|"( __CustomerID__ == null)";|"( __OrderID__ == null) ";|"it. __CustomerID__ == null",|"(it. __OrderID__ == null)";|
-|NotIsNull|"( __CustomerID__ != null) ";|"( __OrderID__ != null) ";|"(it. __CustomerID__ != null)";|"((it. __OrderID__ != null))";|
+| **Filter Function** | **string** | **int** | **string** | **int** |
+|Contains|"( **CustomerID** .Contains(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE ""% **ALFKI** %""";|N/A|
+|DoesNotContain|"(! **CustomerID** .Contains(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** NOT LIKE ""% **ALFKI** %""";|N/A|
+|StartsWith|"( **CustomerID** .StartsWith(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE "" **ALFKI** %""";|N/A|
+|EndsWith|"( **CustomerID** .EndsWith(\" **ALFKI** \"))"|N/A|@"it. **CustomerID** LIKE ""% **ALFKI** """;|N/A|
+|EqualTo|"( **CustomerID** .Equals(\" **ALFKI** \"))";|"( **OrderID** .Equals( **10248** ))";|"it. **CustomerID** = **ALFKI** ";|"(it. **OrderID** = **10248** ) ";|
+|NotEqualTo|"(! **CustomerID** .Equals(\" **ALFKI** \"))";|"(! **OrderID** .Equals( **10248** ))";|"it. **CustomerID** <> **ALFKI** ";|"(it. **OrderID** <> **10248** ) ";|
+|GreaterThan|"( **CustomerID** > \" **ALFKI** \" )"|"( **OrderID** > **10248** )";|"it. **CustomerID** > **ALFKI** ";|"(it. **OrderID** > **10248** ) ";|
+|LessThan|"( **CustomerID** < \" **ALFKI\** " )"|"( **OrderID** < **10248** )";|"it. **CustomerID** < **ALFKI** ";|"(it. **OrderID** < **10248** ) ";|
+|GreaterThanOrEqualTo|"( **CustomerID** >= \" **ALFKI** \" )"|"( **OrderID** >= **10248** )";|"it. **CustomerID** >= **ALFKI** ";|"(it. **OrderID** >= **10248** ) ";|
+|LessThanOrEqualTo|"( **CustomerID** <= \" **ALFKI** \" )"|"( **OrderID** <= **10248** )";|"it. **CustomerID** <= **ALFKI** ";|"(it. **OrderID** <= **10248** ) ";|
+|Between|"(( **CustomerID** >= \" **ALFKI** \") AND ( **CustomerID** <= \" **ANTON** \"))"|"(( **OrderID** >= **10248** ) AND ( **OrderID** <= **10252** )) ";|"(it. **CustomerID** >= **ALFKI** ) AND (it.{0} <= **ANTON** )";|"((it. **OrderID** >= **10248** ) AND (it. **OrderID** <= **10252** ))";|
+|NotBetween|"(( **CustomerID** < \" **ALFKI** \") OR ( **CustomerID** > \" **ANTON** \"))"|"(( **OrderID** < **10248** ) OR ( **OrderID** > **10252** )) ";|"(it. **CustomerID** < **ALFKI** ) OR (it. **CustomerID** > **ANTON** )";|"((it. **OrderID** < **10248** ) OR (it. **OrderID** > **10252** )) ";|
+|IsEmpty|"( **CustomerID** == \"\") ";|N/A|@"it. **CustomerID** = """"";|N/A|
+|NotIsEmpty|"( **CustomerID** != \"\") ";|N/A|@"it. **CustomerID** <> """"";|N/A|
+|IsNull|"( **CustomerID** == null)";|"( **OrderID** == null) ";|"it. **CustomerID** == null",|"(it. **OrderID** == null)";|
+|NotIsNull|"( **CustomerID** != null) ";|"( **OrderID** != null) ";|"(it. **CustomerID** != null)";|"((it. **OrderID** != null))";|

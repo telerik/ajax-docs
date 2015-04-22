@@ -1,6 +1,6 @@
 ---
 title: OnGridCreating
-page_title: OnGridCreating | UI for ASP.NET AJAX Documentation
+page_title: OnGridCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnGridCreating
 slug: grid/client-side-programming/events/events/ongridcreating
 tags: ongridcreating
@@ -23,10 +23,10 @@ Sys.EventArgs OnGridCreating Property
 This event is fired before grid creation.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

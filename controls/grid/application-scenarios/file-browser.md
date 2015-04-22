@@ -1,6 +1,6 @@
 ---
 title: File Browser
-page_title: File Browser | UI for ASP.NET AJAX Documentation
+page_title: File Browser | RadGrid for ASP.NET AJAX Documentation
 description: File Browser
 slug: grid/application-scenarios/file-browser
 tags: file,browser

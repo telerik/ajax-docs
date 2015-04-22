@@ -1,6 +1,6 @@
 ---
 title: Localizing the Command Item
-page_title: Localizing the Command Item | UI for ASP.NET AJAX Documentation
+page_title: Localizing the Command Item | RadGrid for ASP.NET AJAX Documentation
 description: Localizing the Command Item
 slug: grid/accessibility-and-internationalization/localizing-the-command-item
 tags: localizing,the,command,item
@@ -14,42 +14,42 @@ position: 3
 
 ## 
 
-The default messages, button text and images in the __CommandItem__ can be localized using the following properties in __GridTableView.CommandItemSettings__ object:
+The default messages, button text and images in the **CommandItem** can be localized using the following properties in **GridTableView.CommandItemSettings** object:
 
 
 >caption  
 
-|  __Text localization__  |  |
+|  **Text localization**  |  |
 | ------ | ------ |
-| __AddNewRecordText__ |The text for the __Add new record__ button.|
-| __RefreshText__ |The text for the __Refresh__ button.|
-| __ExportToExcelText__ |The text for the __Export to Excel__ button.|
-| __ExportToPdfText__ |The text for the __Export to PDF__ button.|
-| __ExportToCsvText__ |The text for the __Export to CSV__ button.|
-| __ExportToWordText__ |The text for the __Export to Word__ button.|
+| **AddNewRecordText** |The text for the **Add new record** button.|
+| **RefreshText** |The text for the **Refresh** button.|
+| **ExportToExcelText** |The text for the **Export to Excel** button.|
+| **ExportToPdfText** |The text for the **Export to PDF** button.|
+| **ExportToCsvText** |The text for the **Export to CSV** button.|
+| **ExportToWordText** |The text for the **Export to Word** button.|
 
 
 >caption  
 
-|  __Image localization__  |  |
+|  **Image localization**  |  |
 | ------ | ------ |
-| __AddNewRecordImageUrl__ |The URL for the __Add new record__ button image.|
-| __RefreshImageUrl__ |The URL for the __Refresh__ button image.|
-| __ExportToExcelImageUrl__ |The URL for the __Export to Excel__ button image.|
-| __ExportToPdfImageUrl__ |The URL for the __Export to PDF__ button image.|
-| __ExportToCsvImageUrl__ |The URL for the __Export to CSV__ button image.|
-| __ExportToWordImageUrl__ |The URL for the __Export to Word__ button image.|
+| **AddNewRecordImageUrl** |The URL for the **Add new record** button image.|
+| **RefreshImageUrl** |The URL for the **Refresh** button image.|
+| **ExportToExcelImageUrl** |The URL for the **Export to Excel** button image.|
+| **ExportToPdfImageUrl** |The URL for the **Export to PDF** button image.|
+| **ExportToCsvImageUrl** |The URL for the **Export to CSV** button image.|
+| **ExportToWordImageUrl** |The URL for the **Export to Word** button image.|
 
 
 
 
 >caption  
 
-|  __AddNewRecord/RefreshButtons IDs__  |  |
+|  **AddNewRecord/RefreshButtons IDs**  |  |
 | ------ | ------ |
-| __AddNewRecord button ID__ |InitInsertButton|
-| __RefreshButton ID__ |RebindGridButton|
-| __Export to Excel button ID__ |ExportToExcelButton|
-| __Export to PDF button ID__ |ExportToPdfButton|
-| __Export to CSV button ID__ |ExportToCsvButton|
-| __Export to Word button ID__ |ExportToWordButton|
+| **AddNewRecord button ID** |InitInsertButton|
+| **RefreshButton ID** |RebindGridButton|
+| **Export to Excel button ID** |ExportToExcelButton|
+| **Export to PDF button ID** |ExportToPdfButton|
+| **Export to CSV button ID** |ExportToCsvButton|
+| **Export to Word button ID** |ExportToWordButton|

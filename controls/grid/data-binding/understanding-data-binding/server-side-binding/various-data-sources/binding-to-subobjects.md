@@ -1,6 +1,6 @@
 ---
 title: Binding to SubObjects
-page_title: Binding to SubObjects | UI for ASP.NET AJAX Documentation
+page_title: Binding to SubObjects | RadGrid for ASP.NET AJAX Documentation
 description: Binding to SubObjects
 slug: grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-subobjects
 tags: binding,to,subobjects
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-You can use a wide variety of custom objects as data sources for __RadGrid__. The only requirement is that the custom objects must implement the __ITypedList__, __IEnumerable__, or __ICustomTypeDescriptor__ interface. __RadGrid__ can bind to subobjects by the intuitive and simple __dot(.)__ syntax (specified through the __DataField__ property of declaratively bound columns). This dot syntax is shown in the following example.
+You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumerable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to subobjects by the intuitive and simple **dot(.)** syntax (specified through the **DataField** property of declaratively bound columns). This dot syntax is shown in the following example.
 
->note You may need to set the __RetrieveNullAsDBNull__ property to __true__ on the __MasterTableView__ in order avoid binding problems.
+>note You may need to set the **RetrieveNullAsDBNull** property to **true** on the **MasterTableView** in order avoid binding problems.
 >
 
 

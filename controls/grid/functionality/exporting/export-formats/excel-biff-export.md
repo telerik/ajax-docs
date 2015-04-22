@@ -1,6 +1,6 @@
 ---
 title: Excel BIFF Export
-page_title: Excel BIFF Export | UI for ASP.NET AJAX Documentation
+page_title: Excel BIFF Export | RadGrid for ASP.NET AJAX Documentation
 description: Excel BIFF Export
 slug: grid/functionality/exporting/export-formats/excel-biff-export
 tags: excel,biff,export
@@ -16,8 +16,8 @@ position: 3
 
 From Q3 2012 we provide a new export format which is based on the binary Excel format BIFF. Our implementation supports all versions of Microsoft Excel, starting from 2003. Opening a file exported in this format won't trigger a warning message as with the other two supported formats. Although there are some limitations in the initial implementation (no grouping or hierarchy support, for example) we introduced something different that would help you export virtually any table-based structures whether they are part of RadGrid or not. This is what we call an "export infrastructure". It is a middle layer positioned between a server control (or user controlled) and a given export library. In this case, we have used it internally in RadGrid but every developer can take advantage of it as demonstrated in our online demo. In order to use this export format, you have to set the ExportSettings-Excel-Format property to Biff.
 
->note From Q1 2013 __MasterTableView's__ caption could be exported by using BIFF export format.
->From Q1 2014 __Biff export__ format allows you to export a multi-column headers.
+>note From Q1 2013 **MasterTableView's** caption could be exported by using BIFF export format.
+>From Q1 2014 **Biff export** format allows you to export a multi-column headers.
 >
 
 
@@ -33,7 +33,7 @@ From Q3 2012 we provide a new export format which is based on the binary Excel f
 
 
 
->note From Q1 2013 SP1 the __DataFormatString__ of the RadGrid columns is applied to the exported file when using BIFF format. Note that only the[custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx)(Example 1)will work because in most scenarios they match the[Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET[standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx)(Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGridcells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the __SuppressColumnDataFormatStrings__ property to true.
+>note From Q1 2013 SP1 the **DataFormatString** of the RadGrid columns is applied to the exported file when using BIFF format. Note that only the[custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx)(Example 1)will work because in most scenarios they match the[Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET[standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx)(Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual RadGridcells values. When DataFormatString is applied, these values will already be formatted which could be prevented by setting the **SuppressColumnDataFormatStrings** property to true.
 >
 
 
@@ -77,7 +77,7 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 ````
 
 
->note From Q2 2013 we introduced a new propery named __Exportable__ . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to __false__ the related column will be excluded from the exported file. Its default value is true.
+>note From Q2 2013 we introduced a new propery named **Exportable** . This property allows you tochoose whether a certain column should be included in the exported file or not. By setting this property to **false** the related column will be excluded from the exported file. Its default value is true.
 >
 
 
@@ -137,7 +137,7 @@ There are two different ways to style these elements. The standard ASP.NET and t
 
 ## Image Support
 
-From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called __AutoFitImages__.As the name says, when __AutoFitImages__ property is enabled all the images in the grid will occupy the entire area of thecells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly thesmaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
+From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called **AutoFitImages**.As the name says, when **AutoFitImages** property is enabled all the images in the grid will occupy the entire area of thecells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly thesmaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
 
 ## Modifying the Output
 

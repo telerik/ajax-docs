@@ -1,6 +1,6 @@
 ---
 title: Customizing the Appearance of Auto-generated Action Buttons
-page_title: Customizing the Appearance of Auto-generated Action Buttons | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Appearance of Auto-generated Action Buttons | RadGrid for ASP.NET AJAX Documentation
 description: Customizing the Appearance of Auto-generated Action Buttons
 slug: grid/data-editing/how-to/customizing-the-appearance-of-auto-generated-action-buttons
 tags: customizing,the,appearance,of,auto-generated,action,buttons
@@ -20,7 +20,7 @@ In some scenarios you may want to get a hold on the auto-generated action button
 
 1. Check whether the currently created item is in edit or insert mode
 
-1. Find the button of interest by its id (__UpdateButton__, __PerformInsertButton__ or __CancelButton__) and alter its setting in par with your preferences
+1. Find the button of interest by its id (**UpdateButton**, **PerformInsertButton** or **CancelButton**) and alter its setting in par with your preferences
 
 Below is a simple example which changes the text and some of the styles for those buttons:
 

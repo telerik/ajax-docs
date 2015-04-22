@@ -1,6 +1,6 @@
 ---
 title: resizeItem
-page_title: resizeItem | UI for ASP.NET AJAX Documentation
+page_title: resizeItem | RadGrid for ASP.NET AJAX Documentation
 description: resizeItem
 slug: grid/client-side-programming/gridtableview-object/methods/resizeitem
 tags: resizeitem
@@ -14,7 +14,7 @@ position: 36
 
 ## 
 
-This method allows you to resize an item of the __RadGrid__. The method accepts two arguments - the first argument is the indexof the table item, while the second one determines the new height of the item. Additionally you have to enable the __AllowRowResize__property. Generally used when there is a need to set a height of an item on the client.
+This method allows you to resize an item of the **RadGrid**. The method accepts two arguments - the first argument is the indexof the table item, while the second one determines the new height of the item. Additionally you have to enable the **AllowRowResize**property. Generally used when there is a need to set a height of an item on the client.
 
 ````ASPNET
 	        <script type="text/javascript">

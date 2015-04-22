@@ -1,6 +1,6 @@
 ---
 title: extractValuesFromItem
-page_title: extractValuesFromItem | UI for ASP.NET AJAX Documentation
+page_title: extractValuesFromItem | RadGrid for ASP.NET AJAX Documentation
 description: extractValuesFromItem
 slug: grid/client-side-programming/gridtableview-object/methods/extractvaluesfromitem
 tags: extractvaluesfromitem
@@ -25,10 +25,10 @@ Method which extracts the new values from the edited table row passed as an argu
 
 
 
-|  __extractValuesFromItem(gridItem) or extractValuesFromItem(index)__  |  |  |
+|  **extractValuesFromItem(gridItem) or extractValuesFromItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __gridItem__ |HTML row object - <tr>|The editable row from which the new values will be extracted ( __GridDataItem__ ).|
-| __index__ |Integer|The editable row (corresponding to the __index__ ) from which the new values will be extracted.|
+| **gridItem** |HTML row object - <tr>|The editable row from which the new values will be extracted ( **GridDataItem** ).|
+| **index** |Integer|The editable row (corresponding to the **index** ) from which the new values will be extracted.|
 
 Example:
 

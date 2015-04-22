@@ -1,6 +1,6 @@
 ---
 title: Adding a Delete Confirmation
-page_title: Adding a Delete Confirmation | UI for ASP.NET AJAX Documentation
+page_title: Adding a Delete Confirmation | RadGrid for ASP.NET AJAX Documentation
 description: Adding a Delete Confirmation
 slug: grid/data-editing/delete-records/adding-a-delete-confirmation
 tags: adding,a,delete,confirmation
@@ -20,23 +20,23 @@ In the standard mode, when Telerik RadGrid performs postbacks, you will invoke t
 
 ## Built-in delete confirmation for GridButtonColumn
 
-A common enhancement for GridButtonColumn is to display a confirm dialog when the user presses an arbitrary button from it. Since version 3.0 of Telerik RadGrid, we introduced the __ConfirmText__ property for GridButtonColumns which is especially designed for cases like this. By default, this property value is empty, hence no confirmation dialog will be displayed when an action is propagated by clicking on an item in that column.If the developer, however, specifies a confirm text sequence, the user will be prompted on whether the task should be undertaken.
+A common enhancement for GridButtonColumn is to display a confirm dialog when the user presses an arbitrary button from it. Since version 3.0 of Telerik RadGrid, we introduced the **ConfirmText** property for GridButtonColumns which is especially designed for cases like this. By default, this property value is empty, hence no confirmation dialog will be displayed when an action is propagated by clicking on an item in that column.If the developer, however, specifies a confirm text sequence, the user will be prompted on whether the task should be undertaken.
 
 ## Built-in delete confirmation for GridButtonColumn with RadWindow
 
-RadGrid also supports showing confirmation dialog with [RadWindow](http://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set __ConfirmDialogType__ property to __RadWindow__ and place a __RadWindowManager__in the page. RadGrid will display a RadWindow confirmation dialog. You can additionally configure the [RadWindowManager](http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control. If there is no RadWindowManager control, RadGrid will ignore this property and will display the default confirm dialog. When __ConfirmDialogType__ is set to __"RadWindow"__ RadGrid allows additional customization -- the dialog title can be configured through __ConfirmTitle__ property.The most common usage of this confirmation dialog is upon deleting grid item (note that the Delete column is type of GridButtonColumn).
+RadGrid also supports showing confirmation dialog with [RadWindow](http://www.telerik.com/help/aspnet-ajax/windowoverview.html). You will need to set **ConfirmDialogType** property to **RadWindow** and place a **RadWindowManager**in the page. RadGrid will display a RadWindow confirmation dialog. You can additionally configure the [RadWindowManager](http://www.telerik.com/help/aspnet-ajax/window-design-radwindow-manager.html) control. If there is no RadWindowManager control, RadGrid will ignore this property and will display the default confirm dialog. When **ConfirmDialogType** is set to **"RadWindow"** RadGrid allows additional customization -- the dialog title can be configured through **ConfirmTitle** property.The most common usage of this confirmation dialog is upon deleting grid item (note that the Delete column is type of GridButtonColumn).
 
 ## Display confirmation dialog with text including column cell value
 
-In this case you need to implement a different approach (without setting the __ConfirmText__ property for the delete column), performing the steps below should ensure the desired functionality:
+In this case you need to implement a different approach (without setting the **ConfirmText** property for the delete column), performing the steps below should ensure the desired functionality:
 
-* wire the __ItemDataBound__ event of the grid;
+* wire the **ItemDataBound** event of the grid;
 
 * extract the text value from the column of your choice;
 
-* locate the __LinkButton__ control inside the delete __GridButtonColumn__;
+* locate the **LinkButton** control inside the delete **GridButtonColumn**;
 
-* add __onclick__ attribute to its __Attributes__ collection and relate it to confirm dialog passing the value from the chosen cell
+* add **onclick** attribute to its **Attributes** collection and relate it to confirm dialog passing the value from the chosen cell
 
 
 
@@ -84,9 +84,9 @@ In this case you need to implement a different approach (without setting the __C
 
 In case you would like to display a confirmation dialog to prompt the user whether the selected action should be executed or not (*from control inside some kind of template - ItemTemplate, CommandItemTemplate, etc.*), there are two possible scenarios:
 
-* In the standard mode, when Telerik RadGrid performs postbacks, you will invoke the __confirm__ javascript method.
+* In the standard mode, when Telerik RadGrid performs postbacks, you will invoke the **confirm** javascript method.
 
-* When Telerik RadGrid works in AJAX mode the same approach is still applicable - you merely need to __return false__ from the __OnClientClick__ handler in case the user chooses negative option from the confirmation dialog.
+* When Telerik RadGrid works in AJAX mode the same approach is still applicable - you merely need to **return false** from the **OnClientClick** handler in case the user chooses negative option from the confirmation dialog.
 
 Here is an example usage:
 

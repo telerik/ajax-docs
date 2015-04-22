@@ -1,6 +1,6 @@
 ---
 title: Custom Editors Extending Auto-Generated Editors
-page_title: Custom Editors Extending Auto-Generated Editors | UI for ASP.NET AJAX Documentation
+page_title: Custom Editors Extending Auto-Generated Editors | RadGrid for ASP.NET AJAX Documentation
 description: Custom Editors Extending Auto-Generated Editors
 slug: grid/data-editing/grid-editors/custom-editors-extending-auto-generated-editors
 tags: custom,editors,extending,auto-generated,editors
@@ -12,17 +12,17 @@ position: 1
 
 
 
-You can create your own custom column editor class that extends one of the standard column editor base classes such as __GridTextColumnEditor__, __GridDropDownColumnEditor__, or __GridBoolColumnEditor__. You can then enhance the editing capabilities of your grid columns by replacing the auto-generated editor with an instance of your own custom editor.
+You can create your own custom column editor class that extends one of the standard column editor base classes such as **GridTextColumnEditor**, **GridDropDownColumnEditor**, or **GridBoolColumnEditor**. You can then enhance the editing capabilities of your grid columns by replacing the auto-generated editor with an instance of your own custom editor.
 
 There are two ways to attach a column editor to a column in your grid:
 
 * Declaratively, at design time (for styling purposes only).
 
-* In the code-behind, using the __CreateColumnEditor__ event.
+* In the code-behind, using the **CreateColumnEditor** event.
 
 ## Attaching a custom column editor declaratively
 
-In an ASPX file, you can attach an instance of your custom editor to a column by adding an instance to the page and setting the __ColumnEditorID__ property of the column to the ID of the column editor:
+In an ASPX file, you can attach an instance of your custom editor to a column by adding an instance to the page and setting the **ColumnEditorID** property of the column to the ID of the column editor:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
@@ -43,7 +43,7 @@ In an ASPX file, you can attach an instance of your custom editor to a column by
 
 ## Using the CreateColumnEditor event
 
-In a __CreateColumnEditor__ event handler, you can attach an instance of your custom editor to a column by assigning the __e.ColumnEditor__ parameter of the handler:
+In a **CreateColumnEditor** event handler, you can attach an instance of your custom editor to a column by assigning the **e.ColumnEditor** parameter of the handler:
 
 
 
@@ -78,29 +78,29 @@ In a __CreateColumnEditor__ event handler, you can attach an instance of your cu
 
 ## Implementing Custom Column Editors
 
-When implementing a custom column editor, your editor class should extend __GridColumnEditorBase__, which implements the __IColumnEditor__ interface. Depending on the type of data your column editor handles, it is a good idea to use __GridTextColumnEditor__, __GridBoolColumnEditor__, or __GridDropDownColumnEditor__ as a base class, because these provide additional support for handling a particular type of data.
+When implementing a custom column editor, your editor class should extend **GridColumnEditorBase**, which implements the **IColumnEditor** interface. Depending on the type of data your column editor handles, it is a good idea to use **GridTextColumnEditor**, **GridBoolColumnEditor**, or **GridDropDownColumnEditor** as a base class, because these provide additional support for handling a particular type of data.
 
 In the implementation of your column editor class, You must override the following methods:
 
-* __LoadControlsFromContainer__: This method is where your column editor should extract values from the __TableCell__ of the grid and assign them to the controls it contains.
+* **LoadControlsFromContainer**: This method is where your column editor should extract values from the **TableCell** of the grid and assign them to the controls it contains.
 
-* __AddControlsToContainer__: This method is where your column editor should create its child controls and add them to its Controls collection.
+* **AddControlsToContainer**: This method is where your column editor should create its child controls and add them to its Controls collection.
 
-* __IsInitialized__: This method should return a boolean value indicating whether it is fully loaded and bound, ready for use.
+* **IsInitialized**: This method should return a boolean value indicating whether it is fully loaded and bound, ready for use.
 
-In addition, if you are using __GridTextColumnEditor__, __GridBoolColumnEditor__, or __GridDropDownColumnEditor__ as a base class, you need to provide an implementation for the property that represents the edited value:
+In addition, if you are using **GridTextColumnEditor**, **GridBoolColumnEditor**, or **GridDropDownColumnEditor** as a base class, you need to provide an implementation for the property that represents the edited value:
 
-* For __GridTextColumnEditor__, this is the __Text__ property (of type __String__).
+* For **GridTextColumnEditor**, this is the **Text** property (of type **String**).
 
-* For __GridBoolColumnEditor__, this is the __Value__ property (of type __Boolean__).
+* For **GridBoolColumnEditor**, this is the **Value** property (of type **Boolean**).
 
-* For __GridDropDownColumnEditor__, this includes both the __SelectedText__ and __SelectedValue__ properties (of type __String__).
+* For **GridDropDownColumnEditor**, this includes both the **SelectedText** and **SelectedValue** properties (of type **String**).
 
 >note Custom editors for each column should inherit the corresponding classes. For example to extend a RadGridBoundColumn's editor you need to inherit GridTextColumnEditor.
 >
 
 
-The example below shows the implementation of two custom column editor classes. Both custom editors extend the __GridTextColumnEditor__ class and can be attached to a __GridBoundColumn__. The first represents an editor with multi-line textbox. The second handles __DateTime__ values.
+The example below shows the implementation of two custom column editor classes. Both custom editors extend the **GridTextColumnEditor** class and can be attached to a **GridBoundColumn**. The first represents an editor with multi-line textbox. The second handles **DateTime** values.
 
 
 

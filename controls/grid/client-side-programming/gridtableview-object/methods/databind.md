@@ -1,6 +1,6 @@
 ---
 title: dataBind
-page_title: dataBind | UI for ASP.NET AJAX Documentation
+page_title: dataBind | RadGrid for ASP.NET AJAX Documentation
 description: dataBind
 slug: grid/client-side-programming/gridtableview-object/methods/databind
 tags: databind
@@ -17,7 +17,7 @@ position: 7
 Method which will force client rebind of the grid and will refresh its state when a new data source is assigned using the [set_dataSource()]({%slug grid/client-side-programming/gridtableview-object/methods/set_datasource%}) method. Meaningful in this scenario only.
 
 
-|  __dataBind()__  |
+|  **dataBind()**  |
 | ------ |
 ||
 

@@ -1,6 +1,6 @@
 ---
 title: set_allowMultiColumnSorting()
-page_title: set_allowMultiColumnSorting() | UI for ASP.NET AJAX Documentation
+page_title: set_allowMultiColumnSorting() | RadGrid for ASP.NET AJAX Documentation
 description: set_allowMultiColumnSorting()
 slug: grid/client-side-programming/gridtableview-object/properties/set_allowmulticolumnsorting()
 tags: set_allowmulticolumnsorting()

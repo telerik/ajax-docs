@@ -1,6 +1,6 @@
 ---
 title: OnBatchEditClosed
-page_title: OnBatchEditClosed | UI for ASP.NET AJAX Documentation
+page_title: OnBatchEditClosed | RadGrid for ASP.NET AJAX Documentation
 description: OnBatchEditClosed
 slug: grid/client-side-programming/events/events/onbatcheditclosed
 tags: onbatcheditclosed
@@ -19,10 +19,10 @@ OnBatchEditClosed
 This event is fired after the cell is closed.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __cell__ - gets the currently edited cell __row__ - gets the currently edited row __column__ - gets the currently edited column __columnUniqueName__ - gets the UniqueName of the edited column __tableView__ - gets the TableView in which the edited item is located|
-| __Can be canceled__ |No|
+| **Arguments** | **cell** - gets the currently edited cell **row** - gets the currently edited row **column** - gets the currently edited column **columnUniqueName** - gets the UniqueName of the edited column **tableView** - gets the TableView in which the edited item is located|
+| **Can be canceled** |No|
 
 Example:
 

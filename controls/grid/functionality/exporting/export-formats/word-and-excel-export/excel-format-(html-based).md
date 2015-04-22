@@ -1,6 +1,6 @@
 ---
 title: Excel Format (HTML-Based)
-page_title: Excel Format (HTML-Based) | UI for ASP.NET AJAX Documentation
+page_title: Excel Format (HTML-Based) | RadGrid for ASP.NET AJAX Documentation
 description: Excel Format (HTML-Based)
 slug: grid/functionality/exporting/export-formats/word-and-excel-export/excel-format-(html-based)
 tags: excel,format,(html-based)
@@ -12,7 +12,7 @@ position: 1
 
 
 
-It is expected to receive the following warning when opening the generated __xls__ file in __Microsoft Office 2007__.
+It is expected to receive the following warning when opening the generated **xls** file in **Microsoft Office 2007**.
 
 *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*![](images/grd_excel_warning.png)
 
@@ -24,7 +24,7 @@ The cause of this warning message is explained in details in the following blog 
 
 ## Using Headers and Footers
 
-Office HTML format supports page headers and footers.	Microsoft Excel makes this data persistent through the use of the __mso-header-data__ and __mso-footer-data__ attributes.Each attribute is a string with metadata identified by the ampersand character(__&__).Below you can find a list of the supported header/footer attributes:
+Office HTML format supports page headers and footers.	Microsoft Excel makes this data persistent through the use of the **mso-header-data** and **mso-footer-data** attributes.Each attribute is a string with metadata identified by the ampersand character(**&**).Below you can find a list of the supported header/footer attributes:
 
 
 | Metadata | Represents |
@@ -66,7 +66,7 @@ An example is shown below:
 
 ## Number formats / Formulas
 
-__Microsoft Office HTML__ format allows you to define custom number formats by using the __mso-number-format__ style attribute. Several examples are shown below:
+**Microsoft Office HTML** format allows you to define custom number formats by using the **mso-number-format** style attribute. Several examples are shown below:
 
 
 
@@ -124,9 +124,9 @@ You can see some of the most common custom number formats and their description 
 |"d\\-mmm\\-yyyy"|another date format|
 |Percent|percent|
 
-Another interesting feature, supported by the Excel export are the formulas. You can assign the desired formula to a specific cell by applying the __formula__ attribute.
+Another interesting feature, supported by the Excel export are the formulas. You can assign the desired formula to a specific cell by applying the **formula** attribute.
 
->note The formula attribute is valid in the context of the __Office HTML__ only. You shouldn't apply this attribute unconditionally in order to prevent validation problems.
+>note The formula attribute is valid in the context of the **Office HTML** only. You shouldn't apply this attribute unconditionally in order to prevent validation problems.
 >
 
 
@@ -159,9 +159,9 @@ Another interesting feature, supported by the Excel export are the formulas. You
 
 ## XML Options
 
-__XmlOptions__ property allows you to set different options of the exported file.	The XML element contains one or more sub-elements. These include __DocumentProperties__ which is valid for Word and Excel,	__WordDocument__ which can be used when exporting to Word, and finally __ExcelWorkbook__ which applies to Microsoft Excel.
+**XmlOptions** property allows you to set different options of the exported file.	The XML element contains one or more sub-elements. These include **DocumentProperties** which is valid for Word and Excel,	**WordDocument** which can be used when exporting to Word, and finally **ExcelWorkbook** which applies to Microsoft Excel.
 
-A list of the supported __ExcelWorkbook__ properties is represented below.
+A list of the supported **ExcelWorkbook** properties is represented below.
 
 
 | ExcelWorkbook | Represents |
@@ -173,8 +173,8 @@ A list of the supported __ExcelWorkbook__ properties is represented below.
 |<x:WindowWidth> </x:WindowWidth>|Contains a value in points that specifies the width of a workbook window.|
 |<x:WindowTopX> </x:WindowTopX>|Contains a value in points that specifies the horizontal position of a workbook window relative to the left border of the application window.|
 |<x:WindowTopY> </x:WindowTopY>|Contains a value in points that specifies the vertical position of a workbook window relative to the top border of the application window.|
-|<x:ProtectStructure> </x:ProtectStructure>|This element contains the string constant __True__ if the structure is protected, and the string constant __False__ if the structure is not protected.|
-|<x:ProtectWindows> </x:ProtectWindows>|This element contains the string constant __True__ if the windows are protected, and the string constant __False__ if the windows are not protected.|
+|<x:ProtectStructure> </x:ProtectStructure>|This element contains the string constant **True** if the structure is protected, and the string constant **False** if the structure is not protected.|
+|<x:ProtectWindows> </x:ProtectWindows>|This element contains the string constant **True** if the windows are protected, and the string constant **False** if the windows are not protected.|
 
 Example:
 
@@ -204,9 +204,9 @@ Example:
 ````
 
 
-__Print element__ contains different print options which allow you to modify the printed output.
+**Print element** contains different print options which allow you to modify the printed output.
 
-A list of the supported __Print__ properties is represented below.
+A list of the supported **Print** properties is represented below.
 
 
 | Print | Represents |
@@ -254,7 +254,7 @@ Example:
 ````
 
 
-Another useful property is __RowBreak__. This property allows you to set a page breaks of the rows. Generally you can assign as	many __RowBreak__ properties as you need and add them in the __RowBreaks__ collection. The example below demonstrates	how to use them. Note that the __Print__ element should be set as well in order the row breaks to be applied correctly.
+Another useful property is **RowBreak**. This property allows you to set a page breaks of the rows. Generally you can assign as	many **RowBreak** properties as you need and add them in the **RowBreaks** collection. The example below demonstrates	how to use them. Note that the **Print** element should be set as well in order the row breaks to be applied correctly.
 
 
 

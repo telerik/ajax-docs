@@ -1,6 +1,6 @@
 ---
 title: get_element()
-page_title: get_element() | UI for ASP.NET AJAX Documentation
+page_title: get_element() | RadGrid for ASP.NET AJAX Documentation
 description: get_element()
 slug: grid/client-side-programming/radgrid-object/properties/get_element()
 tags: get_element()
@@ -17,7 +17,7 @@ position: 5
 Property which returns the DOM element of the div in which RadGrid is rendered.
 
 
-|  __get_element()__  |
+|  **get_element()**  |
 | ------ |
 ||
 

@@ -1,6 +1,6 @@
 ---
 title: Reduce the Filter Menu Options
-page_title: Reduce the Filter Menu Options | UI for ASP.NET AJAX Documentation
+page_title: Reduce the Filter Menu Options | RadGrid for ASP.NET AJAX Documentation
 description: Reduce the Filter Menu Options
 slug: grid/functionality/filtering/how-to/reduce-the-filter-menu-options
 tags: reduce,the,filter,menu,options
@@ -16,7 +16,7 @@ position: 2
 
 You can reduce the filter menu options to display only a subset of the available filter functions. There are two possible approaches - client-side and server-side.
 
-To limit the filter options displayed for a given column on the client, you need to intercept the [OnFilterMenuShowing]({%slug grid/client-side-programming/events/events/onfiltermenushowing%})____client event of RadGrid/[OnClientShown](http://www.telerik.com/help/aspnet-ajax/menu_clientsideonclientshown.html) event of the filter menu and hide some of the possibles choices from within the body of the respective handler. This solution is suitable when you would like to customize the filter options on a per column basis and still have some of them displayed for particular columns despite they are hidden for others.
+To limit the filter options displayed for a given column on the client, you need to intercept the [OnFilterMenuShowing]({%slug grid/client-side-programming/events/events/onfiltermenushowing%}) client event of RadGrid/[OnClientShown](http://www.telerik.com/help/aspnet-ajax/menu_clientsideonclientshown.html) event of the filter menu and hide some of the possibles choices from within the body of the respective handler. This solution is suitable when you would like to customize the filter options on a per column basis and still have some of them displayed for particular columns despite they are hidden for others.
 
 Below is a sample code implementation (based on the approach explained above) that customizes the filter menu options for columns with *String* and *Int64 *data type. If no DataType is specified for the columns explicitly in their html markup, it will be taken from the data type of the underlying source field:
 
@@ -114,19 +114,19 @@ Below is a sample code implementation (based on the approach explained above) th
 
 The following steps describe how to accomplish the same functionality server-side:
 
-1. Provide a handler for the grid's __Init__ event.
+1. Provide a handler for the grid's **Init** event.
 
-1. In the __Init__ event handler, use the grid's __FilterMenu__ property to access the filtering menu. There is a single filtering menu server-side, which is cloned for each of the separate filter menus that appear client-side.
+1. In the **Init** event handler, use the grid's **FilterMenu** property to access the filtering menu. There is a single filtering menu server-side, which is cloned for each of the separate filter menus that appear client-side.
 
-1. Traverse the items in the filtering menu and determine which of them should be removed by checking their __Text__ property.
+1. Traverse the items in the filtering menu and determine which of them should be removed by checking their **Text** property.
 
-1. Remove any items that you do not want included in the filter menus using the __RemoveAt(index)__ method of the filtering menu's __Items__ collection.
+1. Remove any items that you do not want included in the filter menus using the **RemoveAt(index)** method of the filtering menu's **Items** collection.
 
->note There is a single filtering menu object server-side. Not all of its items appear in every filter menu client-side. This way of implementation has been chosen to speed up the grid performance by merely creating one menu instance server side and cloning the instance for different columns. The filtering menu is independent for each column in RadGrid - this means that the filtering menu options vary by the __DataType__ of the corresponding column. Hence integer column will have one set of filter menu options (EqualTo, NotEqualTo, GreaterThan, LessThan, etc.), string column will have additional options (Contains, StartsWith. etc.) and so on.However, if you remove some of the options from the menu on the server, this will affect all grid columns and they will be stripped from each column filter menu options (if available by default for that type of column).
+>note There is a single filtering menu object server-side. Not all of its items appear in every filter menu client-side. This way of implementation has been chosen to speed up the grid performance by merely creating one menu instance server side and cloning the instance for different columns. The filtering menu is independent for each column in RadGrid - this means that the filtering menu options vary by the **DataType** of the corresponding column. Hence integer column will have one set of filter menu options (EqualTo, NotEqualTo, GreaterThan, LessThan, etc.), string column will have additional options (Contains, StartsWith. etc.) and so on.However, if you remove some of the options from the menu on the server, this will affect all grid columns and they will be stripped from each column filter menu options (if available by default for that type of column).
 >
 
 
-The following example shows how to reduce the set of filter functions so that the filter menu can only show the __NoFilter__, __Contains__, __EqualTo__, __GreaterThan__ and __LessThan__ items:
+The following example shows how to reduce the set of filter functions so that the filter menu can only show the **NoFilter**, **Contains**, **EqualTo**, **GreaterThan** and **LessThan** items:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: expandAllGroups
-page_title: expandAllGroups | UI for ASP.NET AJAX Documentation
+page_title: expandAllGroups | RadGrid for ASP.NET AJAX Documentation
 description: expandAllGroups
 slug: grid/client-side-programming/gridtableview-object/methods/expandallgroups
 tags: expandallgroups

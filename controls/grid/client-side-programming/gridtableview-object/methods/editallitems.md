@@ -1,6 +1,6 @@
 ---
 title: editAllItems
-page_title: editAllItems | UI for ASP.NET AJAX Documentation
+page_title: editAllItems | RadGrid for ASP.NET AJAX Documentation
 description: editAllItems
 slug: grid/client-side-programming/gridtableview-object/methods/editallitems
 tags: editallitems
@@ -17,7 +17,7 @@ position: 11
 Method which switches all GridDataItems in edit mode.
 
 
-|  __editAllItems()__  |
+|  **editAllItems()**  |
 | ------ |
 ||
 

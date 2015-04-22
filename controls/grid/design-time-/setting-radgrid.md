@@ -1,6 +1,6 @@
 ---
 title: Setting RadGrid
-page_title: Setting RadGrid | UI for ASP.NET AJAX Documentation
+page_title: Setting RadGrid | RadGrid for ASP.NET AJAX Documentation
 description: Setting RadGrid
 slug: grid/design-time-/setting-radgrid
 tags: setting,radgrid
@@ -29,10 +29,10 @@ The screenshot below shows the initial state of the Telerik RadGrid editor's Gen
 
 
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __DataSource__ |Sets the __DataSource__ property, specifying the data-source object that will be used for building the grid. If you have set a dataSet, it will appear in the drop down list.|
-| __Generate Columns automatically at runtime__ |All columns, available in the specified dataSet will be generated as GridBoundColumns at runtime. This option sets the __AutoGenerateColumns__ property to __true__ .|
+| **DataSource** |Sets the **DataSource** property, specifying the data-source object that will be used for building the grid. If you have set a dataSet, it will appear in the drop down list.|
+| **Generate Columns automatically at runtime** |All columns, available in the specified dataSet will be generated as GridBoundColumns at runtime. This option sets the **AutoGenerateColumns** property to **true** .|
 
 ## Automatic data source operations
 

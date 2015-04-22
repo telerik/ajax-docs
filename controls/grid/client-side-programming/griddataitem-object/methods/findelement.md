@@ -1,6 +1,6 @@
 ---
 title: findElement
-page_title: findElement | UI for ASP.NET AJAX Documentation
+page_title: findElement | RadGrid for ASP.NET AJAX Documentation
 description: findElement
 slug: grid/client-side-programming/griddataitem-object/methods/findelement
 tags: findelement
@@ -19,9 +19,9 @@ This method takes control id for an argument and returns the corresponding DOM e
 
 >caption  
 
-|  __findElement(id)__  |  |  |
+|  **findElement(id)**  |  |  |
 | ------ | ------ | ------ |
-| __id__ |String|The id of a DOM element.|
+| **id** |String|The id of a DOM element.|
 
 Example:
 

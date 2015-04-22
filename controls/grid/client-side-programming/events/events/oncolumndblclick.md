@@ -1,6 +1,6 @@
 ---
 title: OnColumnDblClick
-page_title: OnColumnDblClick | UI for ASP.NET AJAX Documentation
+page_title: OnColumnDblClick | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnDblClick
 slug: grid/client-side-programming/events/events/oncolumndblclick
 tags: oncolumndblclick
@@ -23,10 +23,10 @@ Telerik.Web.UI.GridColumnEventArgs OnColumnDblClick Property
 This event is fired when a column is double-clicked.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ | __gridColumn__ - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object __domEvent__ - returns the DOM event that was raised for the current event|
-| __Can be canceled__ |No|
+| **Arguments** | **gridColumn** - returns a reference to the clicked[GridColumn]({%slug grid/client-side-programming/gridcolumn-object/gridcolumn-class-members%})object **domEvent** - returns the DOM event that was raised for the current event|
+| **Can be canceled** |No|
 
 Example:
 

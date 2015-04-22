@@ -1,6 +1,6 @@
 ---
 title: Declarative Definition
-page_title: Declarative Definition | UI for ASP.NET AJAX Documentation
+page_title: Declarative Definition | RadGrid for ASP.NET AJAX Documentation
 description: Declarative Definition
 slug: grid/functionality/grouping/group-by-expressions/declarative-definition
 tags: declarative,definition
@@ -12,47 +12,47 @@ position: 0
 
 
 
-Each __GridTableView__ object has a __GroupByExpressions__ property. __GroupByExpressions__ is a collection of group expressions (__GridGroupByExpression__ objects).
+Each **GridTableView** object has a **GroupByExpressions** property. **GroupByExpressions** is a collection of group expressions (**GridGroupByExpression** objects).
 
-Adding a __GridGroupByExpression__ object to this collection makes the current tableview display the items divided into groups and sorted. At the top of each group of items is a __GridGroupHeaderItem__, which can display information about the common properties of the group items or aggregate values that summarize the items in the group.
+Adding a **GridGroupByExpression** object to this collection makes the current tableview display the items divided into groups and sorted. At the top of each group of items is a **GridGroupHeaderItem**, which can display information about the common properties of the group items or aggregate values that summarize the items in the group.
 
 ## GridGroupByExpression object
 
-Each __GridGroupByExpression__ object contains two collections in turn:
+Each **GridGroupByExpression** object contains two collections in turn:
 
-* The __SelectFields__ collection determines the information that is displayed in the group header.
+* The **SelectFields** collection determines the information that is displayed in the group header.
 
-* The __GroupByFields__ collection determines the field values that are used to group the data.
+* The **GroupByFields** collection determines the field values that are used to group the data.
 
-Both the __SelectFields__ and the __GroupByFields__ collections are collections of __GridGroupByField__ objects. Each __GridGroupByField__ object has the following properties:
+Both the **SelectFields** and the **GroupByFields** collections are collections of **GridGroupByField** objects. Each **GridGroupByField** object has the following properties:
 
-* __FieldName__ specifies the name of a field in the data source. If the __GridGroupByField__ is in the __SelectFields__ collection, this is the field whose value (or aggregated value) is shown in the group header. If the __GridGroupByField__ is in the __GroupByFields__ collection, this is the field that is used to group values. Meaningful for items from the __SelectFields/GroupByFields__ collections.
+* **FieldName** specifies the name of a field in the data source. If the **GridGroupByField** is in the **SelectFields** collection, this is the field whose value (or aggregated value) is shown in the group header. If the **GridGroupByField** is in the **GroupByFields** collection, this is the field that is used to group values. Meaningful for items from the **SelectFields/GroupByFields** collections.
 
-* __FieldAlias__ specifies an alias for representing the field's name. This appears as the name of the group in the group header and in the group panel, unless the __HeaderText__ property is set. The __FieldAlias__ value cannot contain blanks or reserved characters such as ",", "." and so on. Meaningful for items from the __SelectFields__collection only.
+* **FieldAlias** specifies an alias for representing the field's name. This appears as the name of the group in the group header and in the group panel, unless the **HeaderText** property is set. The **FieldAlias** value cannot contain blanks or reserved characters such as ",", "." and so on. Meaningful for items from the **SelectFields**collection only.
 
-* __Aggregate__ specifies a __GridAggregateFunction__ value. These include "Sum", "Min", "Max", "Last", "First", "Count", and "None". __Aggregate__ is used for fields in the __SelectFields__ collection to specify the way to aggregate values on the field for display in the group header. Meaningful for items from the __SelectFields__collection only.If you want to display aggregated values in the group footer rather than the header, you can use [column aggregates]({%slug grid/columns/aggregates%}).
+* **Aggregate** specifies a **GridAggregateFunction** value. These include "Sum", "Min", "Max", "Last", "First", "Count", and "None". **Aggregate** is used for fields in the **SelectFields** collection to specify the way to aggregate values on the field for display in the group header. Meaningful for items from the **SelectFields**collection only.If you want to display aggregated values in the group footer rather than the header, you can use [column aggregates]({%slug grid/columns/aggregates%}).
 
-* __HeaderText__ specifies the name to use for the field when it appears in the group header and in the group panel. This property lets you specify a field name that includes blanks or reserved characters. This property is only used for fields in the __SelectFields__ collection. Meaningful for items from the __SelectFields__collection only.
+* **HeaderText** specifies the name to use for the field when it appears in the group header and in the group panel. This property lets you specify a field name that includes blanks or reserved characters. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
 
-* __HeaderValueSeparator__ specifies a string that appears in the group header between the header text and the value (or aggregated value). This property is only used for fields in the __SelectFields__ collection. Meaningful for items from the __SelectFields__collection only.
+* **HeaderValueSeparator** specifies a string that appears in the group header between the header text and the value (or aggregated value). This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
 
-* __FormatString__ specifies a format string for formatting field values when they appear in the group header. This property is only used for fields in the __SelectFields__ collection. Meaningful for items from the __SelectFields__collection only.
+* **FormatString** specifies a format string for formatting field values when they appear in the group header. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
 
-* __SortOrder__ specifies howgroup values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the __GroupByFields__ collection. Meaningful for items from the __GroupByFields__collection only.
+* **SortOrder** specifies howgroup values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the **GroupByFields** collection. Meaningful for items from the **GroupByFields**collection only.
 
->caution The default value of the __SortOrder__ property is "Ascending". Setting it to "None" will not affect the order in which the group items are displayed.
+>caution The default value of the **SortOrder** property is "Ascending". Setting it to "None" will not affect the order in which the group items are displayed.
 >
 
 
 ## Setting GroupByExpressions declaratively
 
-You can set the value of a table view's __GroupByExpressions__ property declaratively to provide the grid with an initial grouping state. This property is independent of whether users can drag column headers to the group panel to change the grouping, or even whether the group panel appears in the grid.
+You can set the value of a table view's **GroupByExpressions** property declaratively to provide the grid with an initial grouping state. This property is independent of whether users can drag column headers to the group panel to change the grouping, or even whether the group panel appears in the grid.
 
->note In a hierarchical grid, you can set the __GroupByExpressions__ property for each table in the hierarchy.
+>note In a hierarchical grid, you can set the **GroupByExpressions** property for each table in the hierarchy.
 >
 
 
-The following example shows the declaration of a grid with the __GroupByExpressions__ property set to provide grouping in the __MasterTableView__. In this example, the ShowGroupPanel property is not set to __True__, so users cannot change the specified grouping.
+The following example shows the declaration of a grid with the **GroupByExpressions** property set to provide grouping in the **MasterTableView**. In this example, the ShowGroupPanel property is not set to **True**, so users cannot change the specified grouping.
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
@@ -79,27 +79,27 @@ The following example shows the declaration of a grid with the __GroupByExpressi
 
 ![](images/grd_GroupByExpressions.png)
 
-For a live example that sets the __GroupByExpressions__ property (and uses additional __GridGroupByField__ properties), see [Outlook-style grouping](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx).
+For a live example that sets the **GroupByExpressions** property (and uses additional **GridGroupByField** properties), see [Outlook-style grouping](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx).
 
 ## Column group-by expressions
 
-When the user drags a column header onto the group panel, the grid automatically adds a __GridGroupByExpression__ object to the __GroupByExpressions__ collection of the table view that contains the column. By default, the __GroupByExpression__ has a single __GridGroupByField__ in its __SelectFields__ and in its __GroupByFields__ collections. This __GridGroupByField__ sets only the __FieldName__ property (to the column's __DataField__ property).
+When the user drags a column header onto the group panel, the grid automatically adds a **GridGroupByExpression** object to the **GroupByExpressions** collection of the table view that contains the column. By default, the **GroupByExpression** has a single **GridGroupByField** in its **SelectFields** and in its **GroupByFields** collections. This **GridGroupByField** sets only the **FieldName** property (to the column's **DataField** property).
 
-You can change this default behavior, supplying values for the __GroupByExpression__ that is added when the user drags a column header to the group panel. To do this, set the __GroupByExpression__ property of the column.
+You can change this default behavior, supplying values for the **GroupByExpression** that is added when the user drags a column header to the group panel. To do this, set the **GroupByExpression** property of the column.
 
-The value of the __GroupByExpression__ property is a string that defines the grouping expression, using the following syntax:
+The value of the **GroupByExpression** property is a string that defines the grouping expression, using the following syntax:
 
 *fieldname[ alias]/aggregate(fieldname)[ alias][, ...] Group By fieldname[ sort][, ...]*
 
 These are the parts of the expression:
 
-* __fieldname -__ The value of the __FieldName__ property of the __GridGroupByField__.
+* **fieldname -** The value of the **FieldName** property of the **GridGroupByField**.
 
-* __alias -__ The value of the __FieldAlias__ property of the __GridGroupByField__.
+* **alias -** The value of the **FieldAlias** property of the **GridGroupByField**.
 
-* __aggregate__ - The value of the __Aggregate__ property of the __GridGroupByField__.
+* **aggregate** - The value of the **Aggregate** property of the **GridGroupByField**.
 
-* __sort__: "asc" to set __SortOrder__ to "Ascending", "desc" to set __SortOrder__ to "Descending".
+* **sort**: "asc" to set **SortOrder** to "Ascending", "desc" to set **SortOrder** to "Descending".
 
 The following example illustrates this syntax:
 
@@ -109,7 +109,7 @@ The following example illustrates this syntax:
 
 
 
-For this example, the resulting __GridGroupByExpression__ object would be as follows:
+For this example, the resulting **GridGroupByExpression** object would be as follows:
 
 ````ASPNET
 	<telerik:GridGroupByExpression>
@@ -132,15 +132,15 @@ For this example, the resulting __GridGroupByExpression__ object would be as fol
 
 
 
->note You can only set the __GroupByExpression__ property of declaratively defined columns.
+>note You can only set the **GroupByExpression** property of declaratively defined columns.
 >
 
 
 ## Template columns
 
-When you set the __GroupByExpression__ property for a __GridTemplateColumn__ instance, a common problem is that __RadGrid__ cannot get the value from the header text for that column and display it in the __GroupHeaderItem__. In such cases you need to use the __FieldAlias__ property.
+When you set the **GroupByExpression** property for a **GridTemplateColumn** instance, a common problem is that **RadGrid** cannot get the value from the header text for that column and display it in the **GroupHeaderItem**. In such cases you need to use the **FieldAlias** property.
 
-The following example illustrates how this is done. It assigns an alias of "ID" in the __GroupByExpression__ property of the first template column, and an alias of "Name" in the __GroupByExpression__ property of the second template column.
+The following example illustrates how this is done. It assigns an alias of "ID" in the **GroupByExpression** property of the first template column, and an alias of "Name" in the **GroupByExpression** property of the second template column.
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"

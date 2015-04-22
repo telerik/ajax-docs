@@ -22,7 +22,7 @@ When you present large number of records at once you will see delays in the grid
 
 * Non-optimized images in CSS.
 
-* 1px background images with __background-repeat: repeat-x__.
+* 1px background images with **background-repeat: repeat-x**.
 
 >note IE has a limit of 31 loaded stylesheets. This limit could be easily overcomed by referencing one stylesheet inside another.
 >
@@ -34,7 +34,7 @@ When you present large number of records at once you will see delays in the grid
 
 * The maximum number of input controls allowed on the page can be 10 times greaterYou could check [this](http://demos.telerik.com/aspnet-ajax/input/examples/radinputmanager/dynamicinputfiltersettings/defaultcs.aspx?product=grid)online demo application for a sample code and performance overview.
 
-1. Use built-in/custom paging or virtual scrolling/paging and present only fixed setof records at a time - here are online examples for it:[Basic paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	),[Virtual scrolling and paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	)In case you have more than __100__ records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate throughthe grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to __10-15__at most (through the __PageSize__ property of the __GridTableView__ object).
+1. Use built-in/custom paging or virtual scrolling/paging and present only fixed setof records at a time - here are online examples for it:[Basic paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	),[Virtual scrolling and paging]( http://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	)In case you have more than **100** records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate throughthe grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to **10-15**at most (through the **PageSize** property of the **GridTableView** object).
 
 1. You could disable the ViewState of the control, this will reflect in less data transferred back and forth between the client and server. However,this optimization comes at cost ofsacrificing some functionality. You could check the lists of the functions that are not supported when the ViewState is disabled in[this]({%slug grid/performance/optimizing-viewstate-usage%}) help topic.Demo application that describes this functinoality could be found [here](http://demos.telerik.com/aspnet-ajax/grid/examples/programming/viewstate/defaultcs.aspx)
 
@@ -46,11 +46,11 @@ When you present large number of records at once you will see delays in the grid
 
 ## Steps to optimize the server performance:
 
-1. If you have hierarchical grid, use on demand loading (__HierarchyLoadMode.ServerOnDemand__) of detail tables with__DetailTableDataBind__ child tables content generation. You can combine these settings with:
+1. If you have hierarchical grid, use on demand loading (**HierarchyLoadMode.ServerOnDemand**) of detail tables with**DetailTableDataBind** child tables content generation. You can combine these settings with:
 
 * [single expand](http://www.telerik.com/help/aspnet-ajax/grid-single-expand-in-hierarchical-grid.html) for grid items at the same level
 
-1. If your grid or several instances of the control reside in page view(s) of RadMultipage (connected to RadTabStrip), we recommendchoosing __RenderSelectedPageOnly = true__ for RadMultipage, set __AutoPostBack = true__ for the tabstrip and ajaxify the tabstripand the multipage via RadAjaxManager. Thus only the active page view will be loaded at a time and merly the grid object residing in that page view will be bound to data,thus reducing the loading and rendering time of the page.
+1. If your grid or several instances of the control reside in page view(s) of RadMultipage (connected to RadTabStrip), we recommendchoosing **RenderSelectedPageOnly = true** for RadMultipage, set **AutoPostBack = true** for the tabstrip and ajaxify the tabstripand the multipage via RadAjaxManager. Thus only the active page view will be loaded at a time and merly the grid object residing in that page view will be bound to data,thus reducing the loading and rendering time of the page.
 
 1. You could use LinqDataSource for which the Grid control will perform aggregate calculations or executessorting/filtering/paging operations by means of native LINQ expressions. This technique significantly reduce the time necessary to processthese actions "behind the scenes" and allows you to handle millions of records within a few seconds. Example that illustrate this behavior could be found[here](http://demos.telerik.com/aspnet-ajax/grid/examples/performance/linq/defaultcs.aspx).
 

@@ -1,6 +1,6 @@
 ---
 title: Applying Custom Sort Criteria
-page_title: Applying Custom Sort Criteria | UI for ASP.NET AJAX Documentation
+page_title: Applying Custom Sort Criteria | RadGrid for ASP.NET AJAX Documentation
 description: Applying Custom Sort Criteria
 slug: grid/functionality/sorting/applying-custom-sort-criteria
 tags: applying,custom,sort,criteria
@@ -14,13 +14,13 @@ position: 5
 
 ## 
 
-By default, __RadGrid__ changes the [sort mode]({%slug grid/functionality/sorting/controlling-sort-modes%}) in an ascending/descending/none sequence when the user clicks the column headers. The way that sort mode is interpreted depends on the __DataType__ of the column:
+By default, **RadGrid** changes the [sort mode]({%slug grid/functionality/sorting/controlling-sort-modes%}) in an ascending/descending/none sequence when the user clicks the column headers. The way that sort mode is interpreted depends on the **DataType** of the column:
 
-* When the __DataType__ is "String", columns are sorted alphabetically.
+* When the **DataType** is "String", columns are sorted alphabetically.
 
-* When the __DataType__ is a numeric type such as "Integer" or "Double", columns are sorted numerically.
+* When the **DataType** is a numeric type such as "Integer" or "Double", columns are sorted numerically.
 
-You can skip this default sort behavior and provide your own custom sort order for a column by setting the __AllowCustomSorting__ property of the corresponding table view. With custom sorting enabled, __RadGrid__ displays the sorting icons but does not actually sort the data. Instead, you perform the custom sorting inside the __SortCommand__ event handler.
+You can skip this default sort behavior and provide your own custom sort order for a column by setting the **AllowCustomSorting** property of the corresponding table view. With custom sorting enabled, **RadGrid** displays the sorting icons but does not actually sort the data. Instead, you perform the custom sorting inside the **SortCommand** event handler.
 
 The following example shows how to apply custom sort pattern for two columns - FirstName and LastName. The first column is sorted based on the length of the strings in its cells while the second column is sorted in reverse order (descending/ascending/none):
 
@@ -43,7 +43,7 @@ The following example shows how to apply custom sort pattern for two columns - F
 
 
 
-In the code-behind, the __SortCommand__ event handler assigns a data source with the records in the desired sort order:
+In the code-behind, the **SortCommand** event handler assigns a data source with the records in the desired sort order:
 
 
 

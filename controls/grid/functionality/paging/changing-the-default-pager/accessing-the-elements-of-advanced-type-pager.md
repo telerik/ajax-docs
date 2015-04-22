@@ -1,6 +1,6 @@
 ---
 title: Accessing the Elements of Advanced Type Pager
-page_title: Accessing the Elements of Advanced Type Pager | UI for ASP.NET AJAX Documentation
+page_title: Accessing the Elements of Advanced Type Pager | RadGrid for ASP.NET AJAX Documentation
 description: Accessing the Elements of Advanced Type Pager
 slug: grid/functionality/paging/changing-the-default-pager/accessing-the-elements-of-advanced-type-pager
 tags: accessing,the,elements,of,advanced,type,pager
@@ -16,17 +16,17 @@ position: 3
 
 When using the advanced grid pager/slider, you can customize the properties of the buttons or labels inside the pager or the slider pager itself. The following steps describe how to access these controls:
 
-1. Create a handler for the grid's __ItemCreated__ event.
+1. Create a handler for the grid's **ItemCreated** event.
 
-1. In the event handler, check if __e.Item__ is an instance of __GridPagerItem__.
+1. In the event handler, check if **e.Item** is an instance of **GridPagerItem**.
 
-1. Use the __FindControl__ method of __e.Item__ to locate the controls inside the pager. The following table lists the ID's of the controls in the pager when __Mode__ is "NextPrevAndNumeric":
+1. Use the **FindControl** method of **e.Item** to locate the controls inside the pager. The following table lists the ID's of the controls in the pager when **Mode** is "NextPrevAndNumeric":
 
 
-|  __Control__  |  __Type__  |  __ID__  |
+|  **Control**  |  **Type**  |  **ID**  |
 | ------ | ------ | ------ |
 |"Page Size:" text|Label|ChangePageSizeLabel|
-|"Page Size" combo box|RadComboBox|PageSizeComboBox|__Example__:
+|"Page Size" combo box|RadComboBox|PageSizeComboBox|**Example**:
 
 
 
@@ -50,7 +50,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 ````
 
 
-1. The following table lists the ID's of the controls in the pager when __Mode__ is "Advanced" or "Slider":
+1. The following table lists the ID's of the controls in the pager when **Mode** is "Advanced" or "Slider":
 
 
 >caption  
@@ -59,7 +59,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 | ------ | ------ | ------ |
 |"Go to page" text|Label|GoToPageLabel|
 |"Go to page" input|RadNumericTextBox|GoToPageTextBox|
-|"Go to page" " __of__ " text|Label|PageOfLabel|
+|"Go to page" " **of** " text|Label|PageOfLabel|
 |"Go to page" link button|Button|GoToPageLinkButton|
 |"Change page size" text|Label|ChangePageSizeLabel|
 |"Change page size" input|RadNumericTextBox|ChangePageSizeTextBox|
@@ -112,7 +112,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 ![](images/grd_AccessingPagerButtons.png)
 
->note When setting the __PageOfLabel,__ in order to to display the page count number, you would need to append it to the label text as demonstrated below:
+>note When setting the **PageOfLabel,** in order to to display the page count number, you would need to append it to the label text as demonstrated below:
 >
 
 

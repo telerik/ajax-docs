@@ -1,6 +1,6 @@
 ---
 title: getDataServiceQuery(entityName)
-page_title: getDataServiceQuery(entityName) | UI for ASP.NET AJAX Documentation
+page_title: getDataServiceQuery(entityName) | RadGrid for ASP.NET AJAX Documentation
 description: getDataServiceQuery(entityName)
 slug: grid/client-side-programming/gridtableview-object/methods/getdataservicequery(entityname)
 tags: getdataservicequery(entityname)
@@ -17,9 +17,9 @@ position: 26
 The method will automatically send a result (holding all filter and sort expressions in appropriate format and will apply paging on server using skip and top) to the query method of the [ ADO.NET Data Service ](http://astoria.mslivelabs.com/). The resulting value from the getDataServiceQuery(entityName) method will generate an expression that can be recognized by the corresponding data service.
 
 
-|  __getDataServiceQuery(entityName)__  |  |  |
+|  **getDataServiceQuery(entityName)**  |  |  |
 | ------ | ------ | ------ |
-| __entityName__ |String|The name of the entity for which the expression (evaluated by the ADO.NET Data Service) will be generated.|
+| **entityName** |String|The name of the entity for which the expression (evaluated by the ADO.NET Data Service) will be generated.|
 
 Example:
 

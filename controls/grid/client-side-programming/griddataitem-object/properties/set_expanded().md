@@ -1,6 +1,6 @@
 ---
 title: set_expanded()
-page_title: set_expanded() | UI for ASP.NET AJAX Documentation
+page_title: set_expanded() | RadGrid for ASP.NET AJAX Documentation
 description: set_expanded()
 slug: grid/client-side-programming/griddataitem-object/properties/set_expanded()
 tags: set_expanded()
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-This property takes a Boolean value, indicating whether the element will be expanded or not. It has effect when the __HierarchyLoadMode__ setting is set to __Client__.
+This property takes a Boolean value, indicating whether the element will be expanded or not. It has effect when the **HierarchyLoadMode** setting is set to **Client**.
 
 ````ASPNET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"

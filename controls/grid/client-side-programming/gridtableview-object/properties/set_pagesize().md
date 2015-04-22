@@ -1,6 +1,6 @@
 ---
 title: set_pageSize()
-page_title: set_pageSize() | UI for ASP.NET AJAX Documentation
+page_title: set_pageSize() | RadGrid for ASP.NET AJAX Documentation
 description: set_pageSize()
 slug: grid/client-side-programming/gridtableview-object/properties/set_pagesize()
 tags: set_pagesize()
@@ -14,7 +14,7 @@ position: 16
 
 ## 
 
-Sets the page size for the respective __GridTableView__ object.
+Sets the page size for the respective **GridTableView** object.
 
 The internal logic that is executed 'behind the scenes' when using this property to set the page size is to fire command event with name 'PageSize'. For this purpose we use the [fireCommand]({%slug grid/client-side-programming/gridtableview-object/methods/firecommand%}) client-side method of the respective GridTableView client object. Then you can intercept the [ItemCommand]({%slug grid/control-lifecycle/command-reference-%}) server-side event of the grid, check whether the executed command name is "PageSize" and specify the new number of items that will be visualized on the current page.
 

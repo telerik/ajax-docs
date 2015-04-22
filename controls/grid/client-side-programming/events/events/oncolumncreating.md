@@ -1,6 +1,6 @@
 ---
 title: OnColumnCreating
-page_title: OnColumnCreating | UI for ASP.NET AJAX Documentation
+page_title: OnColumnCreating | RadGrid for ASP.NET AJAX Documentation
 description: OnColumnCreating
 slug: grid/client-side-programming/events/events/oncolumncreating
 tags: oncolumncreating
@@ -23,10 +23,10 @@ Sys.EventArgs OnColumnCreating Property
 This event is fired before a column is available at client-side creation.
 
 
-|  __Fired by__  | RadGrid |
+|  **Fired by**  | RadGrid |
 | ------ | ------ |
-| __Arguments__ |N/A|
-| __Can be canceled__ |No|
+| **Arguments** |N/A|
+| **Can be canceled** |No|
 
 Example:
 

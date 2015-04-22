@@ -1,6 +1,6 @@
 ---
 title: exportToPdf
-page_title: exportToPdf | UI for ASP.NET AJAX Documentation
+page_title: exportToPdf | RadGrid for ASP.NET AJAX Documentation
 description: exportToPdf
 slug: grid/client-side-programming/gridtableview-object/methods/exporttopdf
 tags: exporttopdf
@@ -17,7 +17,7 @@ position: 17
 Telerik RadGrid can export to PDF format.
 
 
-|  __exportToPdf()__  |
+|  **exportToPdf()**  |
 | ------ |
 ||
 

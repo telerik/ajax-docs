@@ -1,6 +1,6 @@
 ---
 title: Persisting CheckBox Control State in GridTemplateColumn on Rebind
-page_title: Persisting CheckBox Control State in GridTemplateColumn on Rebind | UI for ASP.NET AJAX Documentation
+page_title: Persisting CheckBox Control State in GridTemplateColumn on Rebind | RadGrid for ASP.NET AJAX Documentation
 description: Persisting CheckBox Control State in GridTemplateColumn on Rebind
 slug: grid/how-to/persisting-checkbox-control-state-in-gridtemplatecolumn-on-rebind
 tags: persisting,checkbox,control,state,in,gridtemplatecolumn,on,rebind
@@ -14,11 +14,11 @@ position: 7
 
 ## 
 
-There are cases in which the user would like to retain the state for checkbox control inside __GridTemplateColumn__ on grid operation which requires rebinding. In such situation you can use __ViewState__ property on the page which holds the grid to save the current checkbox selection. The alteration of this property should be made in the __OnCheckedChanged__ event handler of the respective checkbox.
+There are cases in which the user would like to retain the state for checkbox control inside **GridTemplateColumn** on grid operation which requires rebinding. In such situation you can use **ViewState** property on the page which holds the grid to save the current checkbox selection. The alteration of this property should be made in the **OnCheckedChanged** event handler of the respective checkbox.
 
-The forthcoming sample presents how to retain the checkbox state in a hierarchical grid after expand/collapse for further custom operations. There are separate __ViewState__ properties for each master/detail table. The example below is optimized for __ViewState__ minimization as these properties are modified only when __CheckBoxInstance.Checked__ is __true.__ Otherwise the row value is not added to the __ViewState__.
+The forthcoming sample presents how to retain the checkbox state in a hierarchical grid after expand/collapse for further custom operations. There are separate **ViewState** properties for each master/detail table. The example below is optimized for **ViewState** minimization as these properties are modified only when **CheckBoxInstance.Checked** is **true.** Otherwise the row value is not added to the **ViewState**.
 
-Similar actions could be performed for persistence of other controls state in __GridTemplateColumn__.
+Similar actions could be performed for persistence of other controls state in **GridTemplateColumn**.
 
 
 

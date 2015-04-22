@@ -1,6 +1,6 @@
 ---
 title: get_insertItem()
-page_title: get_insertItem() | UI for ASP.NET AJAX Documentation
+page_title: get_insertItem() | RadGrid for ASP.NET AJAX Documentation
 description: get_insertItem()
 slug: grid/client-side-programming/gridtableview-object/properties/get_insertitem()
 tags: get_insertitem()

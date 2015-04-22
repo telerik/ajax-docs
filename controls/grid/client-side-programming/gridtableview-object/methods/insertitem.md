@@ -1,6 +1,6 @@
 ---
 title: insertItem
-page_title: insertItem | UI for ASP.NET AJAX Documentation
+page_title: insertItem | RadGrid for ASP.NET AJAX Documentation
 description: insertItem
 slug: grid/client-side-programming/gridtableview-object/methods/insertitem
 tags: insertitem
@@ -17,7 +17,7 @@ position: 31
 Method which inserts new table row to the grid. The new data will be taken from the insertion form editors fields.
 
 
-|  __insertItem()__  |
+|  **insertItem()**  |
 | ------ |
 ||
 

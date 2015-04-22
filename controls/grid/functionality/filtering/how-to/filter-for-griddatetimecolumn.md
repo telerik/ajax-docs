@@ -1,6 +1,6 @@
 ---
 title: Filter for GridDateTimeColumn
-page_title: Filter for GridDateTimeColumn | UI for ASP.NET AJAX Documentation
+page_title: Filter for GridDateTimeColumn | RadGrid for ASP.NET AJAX Documentation
 description: Filter for GridDateTimeColumn
 slug: grid/functionality/filtering/how-to/filter-for-griddatetimecolumn
 tags: filter,for,griddatetimecolumn
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The default drop-down list of filter functions for __GridDateTimeColumn__ contains the following items:
+The default drop-down list of filter functions for **GridDateTimeColumn** contains the following items:
 
 * NoFilter
 
@@ -38,7 +38,7 @@ Since Q2 2012 GridDateTimeColumn has an EnableRangeFiltering and EnableTimeIndep
 
 ## RangeFiltering for GridDateTimeColumn
 
-In order to enable the range filtering function you should set the __EnableRangeFiltering__ property for the specific column to true:
+In order to enable the range filtering function you should set the **EnableRangeFiltering** property for the specific column to true:
 
 
 
@@ -107,7 +107,7 @@ Additionally, the list of the available filter options is also changed after ena
 
 ## TimeIndependentFiltering for GridDateTimeColumn
 
-Time independent filtering functionality is controlled by the __EnableTimeIndependentFiltering__ property:
+Time independent filtering functionality is controlled by the **EnableTimeIndependentFiltering** property:
 
 
 

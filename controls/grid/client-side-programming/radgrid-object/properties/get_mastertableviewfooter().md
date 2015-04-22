@@ -1,6 +1,6 @@
 ---
 title: get_masterTableViewFooter()
-page_title: get_masterTableViewFooter() | UI for ASP.NET AJAX Documentation
+page_title: get_masterTableViewFooter() | RadGrid for ASP.NET AJAX Documentation
 description: get_masterTableViewFooter()
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewfooter()
 tags: get_mastertableviewfooter()
@@ -17,7 +17,7 @@ position: 9
 This property returns the MasterTableView footer instance for the respective grid client object.
 
 
-|  __get_masterTableViewFooter()__  |
+|  **get_masterTableViewFooter()**  |
 | ------ |
 ||
 

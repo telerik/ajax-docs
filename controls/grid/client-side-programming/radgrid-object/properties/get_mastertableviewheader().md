@@ -1,6 +1,6 @@
 ---
 title: get_masterTableViewHeader()
-page_title: get_masterTableViewHeader() | UI for ASP.NET AJAX Documentation
+page_title: get_masterTableViewHeader() | RadGrid for ASP.NET AJAX Documentation
 description: get_masterTableViewHeader()
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewheader()
 tags: get_mastertableviewheader()
@@ -17,7 +17,7 @@ position: 10
 This property returns the MasterTableView header instance for the respective grid client object.
 
 
-|  __get_masterTableViewHeader()__  |
+|  **get_masterTableViewHeader()**  |
 | ------ |
 ||
 

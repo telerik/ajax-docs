@@ -1,6 +1,6 @@
 ---
 title: Controlling Grid Lines
-page_title: Controlling Grid Lines | UI for ASP.NET AJAX Documentation
+page_title: Controlling Grid Lines | RadGrid for ASP.NET AJAX Documentation
 description: Controlling Grid Lines
 slug: grid/how-to/controlling-grid-lines
 tags: controlling,grid,lines
@@ -16,7 +16,7 @@ position: 11
 
 The GridLines ASP.NET property is used to get or set the grid line style of the Table control. However it uses an obsolete HTML attribute (rules) to control the appearance of tables. Such obsolete attributes are easily overridden by CSS styles (as in the RadGrid skin). That is why using the GridLines property can cause the cell borders in RadGrid to appear improperly. To avoid this you can override the embedded skin with a CSS rule:
 
-__Q1 2009 and later__
+**Q1 2009 and later**
 
 div.RadGrid_[SkinName].rgRow td,
 
@@ -34,7 +34,7 @@ border-left:1px solid red;
 
 }
 
-__Q3 2008 and previous__
+**Q3 2008 and previous**
 
 div.RadGrid_[SkinName].GridRow_[SkinName] td,
 

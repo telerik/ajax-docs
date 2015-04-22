@@ -1,6 +1,6 @@
 ---
 title: Modifying Existing Skins
-page_title: Modifying Existing Skins | UI for ASP.NET AJAX Documentation
+page_title: Modifying Existing Skins | RadGrid for ASP.NET AJAX Documentation
 description: Modifying Existing Skins
 slug: grid/appearance-and-styling/modifying-existing-skins
 tags: modifying,existing,skins
@@ -16,90 +16,90 @@ A skin is a set of images and a CSS file used by Telerik RadGrid for setting its
 
 ## CSS Classes Description
 
-Each CSS class should have a suffix with the name of the skin, e.g. "___Vista__" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins css classes signature conforms to the same concepts):
+Each CSS class should have a suffix with the name of the skin, e.g. "**_Vista**" before the Q1 2009 release of the product. The table below shows the classes used by the embedded Telerik RadGrid Default skin (the non-embedded skins css classes signature conforms to the same concepts):
 
-__Prior to the Q1 2009 release of RadGrid for ASP.NET AJAX__
-
-
->caption  
-
-| CSS Class | Description |
-| ------ | ------ |
-| __div.RadGrid_Default__ |The default Telerik RadGrid wrapper __<div>__ . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
-| __.RadGrid_Default,.RadGrid_Default a__ |A reference to any table cell (<td>) and link (<a>) inside the main class. Using these two classes you can skin the grid cells and links in Telerik RadGrid cells.|
-| __.MasterTable_Default__ |A class for customizing the master table view|
-| __.MasterTable_Default td,.MasterTable_Default th__ |References to any table <td> and table header <th> belonging to that master table|
-| __.GridDataDiv_Default__ |For skinning the grid in scrolling mode.|
-| __th.GridHeader_Default,th.ResizeHeader_Default__ |Header class <th> for customizing the Telerik RadGrid header.|
-| __.GridHeaderOver_Default.GridHeader_Default a.GridHeaderDiv_Default__ |For skinning the hovered header item.<a> element belonging to the header classFor skinning the header row when scrolling the grid.|
-| __.GridRow_Default,.GridRow_Default td__  __.GridRowOver_Default__ |For skinning the normal grid row. For skinning the hovered grid row.|
-| __.GridAltRow_Default,.GridAltRow_Default td__ |For skinning the alternate grid row (zebra style tables).|
-| __.SelectedRow_Default,__  __.SelectedRow_Default__  __td__ |Skinning the currently selected row.|
-| __.ActiveRow_Default,.ActiveRow_Default td__ |Active row class - the focused row skinning|
-| __.GridEditRow_Default,.GridEditRow_Default td__ |For skinning the row that is currently in edit mode.|
-| __.GridEditForm_Default__ |For skinning the edit form of the row that is currently in edit mode.|
-| __.GridCommandRow_Default__ |For skinning the CommandItem.|
-| __.GridGroupFooter_Default,.GridGroupFooter_Default td__ |For skinning the group footers (meaning with grouping feature enabled).Defaults to the *GroupFooter_[Skin]/GroupFooter_[Skin] td* classes.|
-| __.GridFilterRow_Default__ |For skinning the FilteringItem.|
-| __.GridPager_Default,__  __.GridPager_Default__  __td__ |Skinning the grid pager|
-| __.GridFooter_Default,.GridFooter_Default td.GridFooterDiv_Default__ |A reference to the grid footer.For skinning the grid footer when scrolling the grid.|
-| __.GridFooter_Default a__ |Reference to any link <a> belonging to the footer.|
-| __.GridPager_Default a__ |Reference to any link <a> belonging to the pager.|
-| __.GridPager_Default a:hover,.GridFooter_Default a:hover__ |Reference to any hovered link <a> in the pager or footer.|
-| __tr.GroupHeader_Default td__ |For skinning the group panel row (grouping must be enabled).|
-| __.GroupPanel_Default__ |For skinning the group panel (grouping must be enabled).|
-| __.GroupPanelItems_Default__ |Reference to items belonging to the group panel (grouping must be enabled).|
-| __td.GridHeader_Default input__ |Reference to the <input> element belonging to the grid header (grouping must be enabled)|
-| __.GridCaption_Default__ |Reference to the table caption in each level of the grid hierarchy|
-| __.GridToolTip_Default__ |For customizing the scroller when the virtual scrolling feature is enabled (<Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True" />). Applicable for the column resizer tooltip as well|
-| __.GridRowSelector_Default__ |For styling the colored rectangle when selecting multiple rows by dragging.|
-| __.GridItemDropIndicator_Default__ |Defines the drop indicator appearance when utilizing drag and drop of grid records.|
-
-__After the Q1 2009 release of RadGrid for ASP.NET AJAX(note that the [SkinName] part is missing from the css classes names except for external grid elements)__
+**Prior to the Q1 2009 release of RadGrid for ASP.NET AJAX**
 
 
 >caption  
 
 | CSS Class | Description |
 | ------ | ------ |
-| __div.RadGrid_[SkinName]__ |The default Telerik RadGrid wrapper __<div>__ . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
-| __.RadGrid_[SkinName],__  __.RadGridRTL_[SkinName],.RadGrid_[SkinName] a__ |A reference to any table cell (<td>) and link (<a>) inside the main class. Using these two classes you can skin the grid cells and links in Telerik RadGrid cells.|
-| __.rgMasterTable__ |A class for customizing the master table view|
-| __.rgClipCells__ |An additional class applied to the master table view when its table layout is fixed.|
-| __.rgMasterTable td,.rgMasterTable th__ |References to any table <td> and table header <th> belonging to that master table|
-| __.rgDataDiv__ |For skinning the grid in scrolling mode.|
-| __th.rgHeader,th.rgResizeCol__ |Header class <th> for customizing the Telerik RadGrid header.|
-| __.rgHeaderOver.rgHeaderDiv a.rgHeaderDiv__ |For skinning the hovered header item.<a> element belonging to the header classFor skinning the header row when scrolling the grid.|
-| __.rgRow,.rgRow td__  __.rgHoveredRow__ |For skinning the normal grid row.For skinning the hovered grid row.|
-| __.rgAltRow,.rgAltRow td__ |For skinning the alternate grid row (zebra style tables).|
-| __.rgSelectedRow,__  __.rgSelectedRow__  __td__ |Skinning the currently selected row.|
-| __.rgActiveRow,.rgActiveRow td__ |Active row class - the focused row skinning|
-| __.rgEditRow,.rgEditRow td__ |For skinning the row that is currently in edit mode.|
-| __.rgEditForm__ |For skinning the edit form of the row that is currently in edit mode.|
-| __.rgCommandRow__ |For skinning the CommandItem.|
-| __.rgFooter,.rgFooter td__ |For skinning the group footers (meaning with grouping feature enabled).Defaults to the *GroupFooter_[Skin]/GroupFooter_[Skin] td* classes.|
-| __.rgFilterRow__ |For skinning the FilteringItem.|
-| __.rgPager,__  __.rgPager__  __td__ |Skinning the grid pager|
-| __.rgFooter,.rgFooter td.rgFooterDiv__ |A reference to the grid footer.For skinning the grid footer when scrolling the grid.|
-| __.rgFooter a__ |Reference to any link <a> belonging to the footer.|
-| __.rgPager a__ |Reference to any link <a> belonging to the pager.|
-| __.rgPager a:hover,.rgFooter a:hover__ |Reference to any hovered link <a> in the pager or footer.|
-| __tr.rgGroupHeader td__ |For skinning the group panel row (grouping must be enabled).|
-| __.rgGroupPanel__ |For skinning the group panel (grouping must be enabled).|
-| __.rgGroupItem__ |Reference to items belonging to the group panel (grouping must be enabled).|
-| __td.rgHeader input__ |Reference to the <input> element belonging to the grid header (grouping must be enabled)|
-| __.rgCaption__ |Reference to the table caption in each level of the grid hierarchy|
-| __.GridToolTip_[SkinName]__ |For customizing the scroller when the virtual scrolling feature is enabled (<Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True" />). Applicable for the column resizer tooltip as well|
-| __.GridRowSelector_[SkinName]__ |For styling the colored rectangle when selecting multiple rows by dragging.|
-| __.GridItemDropIndicator_[SkinName]__ |Defines the drop indicator appearance when utilizing drag and drop of grid records.|
-| __.rgDetailTable__ |A class for customizing the detail tables in hierarchical grid|
-| __.GridReorderTop_[SkinName]__ |A class to customize the embedded top image indicator when reordering grid columns|
-| __.GridReorderBottom_[SkinName]__ |A class to customize the embedded bottom image indicator when reordering grid columns|
-| __.GridReorderTopImage_[SkinName]__ |A class to customize the top image indicator when reordering grid columns and the embedded skins are disabled for the grid|
-| __.GridReorderBottomImage_[SkinName]__ |A class to customize the bottom image indicator when reordering grid columns and the embedded skins are disabled for the grid|
-| __.rgVScroll__ |A class to customize the appearance of the RadGrid virtual scroll|
-| __.rgNoRecords__ |A class to customize the visual appearance of the NoRecords template/text|
-| __.GridDraggedRows_[SkinName]__ |A class applied to the <div> element, which wraps the dragged rows. The same <div> element also has the "RadGrid" and "RadGrid_SkiName" classes.|
+| **div.RadGrid_Default** |The default Telerik RadGrid wrapper **<div>** . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
+| **.RadGrid_Default,.RadGrid_Default a** |A reference to any table cell (<td>) and link (<a>) inside the main class. Using these two classes you can skin the grid cells and links in Telerik RadGrid cells.|
+| **.MasterTable_Default** |A class for customizing the master table view|
+| **.MasterTable_Default td,.MasterTable_Default th** |References to any table <td> and table header <th> belonging to that master table|
+| **.GridDataDiv_Default** |For skinning the grid in scrolling mode.|
+| **th.GridHeader_Default,th.ResizeHeader_Default** |Header class <th> for customizing the Telerik RadGrid header.|
+| **.GridHeaderOver_Default.GridHeader_Default a.GridHeaderDiv_Default** |For skinning the hovered header item.<a> element belonging to the header classFor skinning the header row when scrolling the grid.|
+| **.GridRow_Default,.GridRow_Default td**  **.GridRowOver_Default** |For skinning the normal grid row. For skinning the hovered grid row.|
+| **.GridAltRow_Default,.GridAltRow_Default td** |For skinning the alternate grid row (zebra style tables).|
+| **.SelectedRow_Default,**  **.SelectedRow_Default**  **td** |Skinning the currently selected row.|
+| **.ActiveRow_Default,.ActiveRow_Default td** |Active row class - the focused row skinning|
+| **.GridEditRow_Default,.GridEditRow_Default td** |For skinning the row that is currently in edit mode.|
+| **.GridEditForm_Default** |For skinning the edit form of the row that is currently in edit mode.|
+| **.GridCommandRow_Default** |For skinning the CommandItem.|
+| **.GridGroupFooter_Default,.GridGroupFooter_Default td** |For skinning the group footers (meaning with grouping feature enabled).Defaults to the *GroupFooter_[Skin]/GroupFooter_[Skin] td* classes.|
+| **.GridFilterRow_Default** |For skinning the FilteringItem.|
+| **.GridPager_Default,**  **.GridPager_Default**  **td** |Skinning the grid pager|
+| **.GridFooter_Default,.GridFooter_Default td.GridFooterDiv_Default** |A reference to the grid footer.For skinning the grid footer when scrolling the grid.|
+| **.GridFooter_Default a** |Reference to any link <a> belonging to the footer.|
+| **.GridPager_Default a** |Reference to any link <a> belonging to the pager.|
+| **.GridPager_Default a:hover,.GridFooter_Default a:hover** |Reference to any hovered link <a> in the pager or footer.|
+| **tr.GroupHeader_Default td** |For skinning the group panel row (grouping must be enabled).|
+| **.GroupPanel_Default** |For skinning the group panel (grouping must be enabled).|
+| **.GroupPanelItems_Default** |Reference to items belonging to the group panel (grouping must be enabled).|
+| **td.GridHeader_Default input** |Reference to the <input> element belonging to the grid header (grouping must be enabled)|
+| **.GridCaption_Default** |Reference to the table caption in each level of the grid hierarchy|
+| **.GridToolTip_Default** |For customizing the scroller when the virtual scrolling feature is enabled (<Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True" />). Applicable for the column resizer tooltip as well|
+| **.GridRowSelector_Default** |For styling the colored rectangle when selecting multiple rows by dragging.|
+| **.GridItemDropIndicator_Default** |Defines the drop indicator appearance when utilizing drag and drop of grid records.|
+
+**After the Q1 2009 release of RadGrid for ASP.NET AJAX(note that the [SkinName] part is missing from the css classes names except for external grid elements)**
+
+
+>caption  
+
+| CSS Class | Description |
+| ------ | ------ |
+| **div.RadGrid_[SkinName]** |The default Telerik RadGrid wrapper **<div>** . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
+| **.RadGrid_[SkinName],**  **.RadGridRTL_[SkinName],.RadGrid_[SkinName] a** |A reference to any table cell (<td>) and link (<a>) inside the main class. Using these two classes you can skin the grid cells and links in Telerik RadGrid cells.|
+| **.rgMasterTable** |A class for customizing the master table view|
+| **.rgClipCells** |An additional class applied to the master table view when its table layout is fixed.|
+| **.rgMasterTable td,.rgMasterTable th** |References to any table <td> and table header <th> belonging to that master table|
+| **.rgDataDiv** |For skinning the grid in scrolling mode.|
+| **th.rgHeader,th.rgResizeCol** |Header class <th> for customizing the Telerik RadGrid header.|
+| **.rgHeaderOver.rgHeaderDiv a.rgHeaderDiv** |For skinning the hovered header item.<a> element belonging to the header classFor skinning the header row when scrolling the grid.|
+| **.rgRow,.rgRow td**  **.rgHoveredRow** |For skinning the normal grid row.For skinning the hovered grid row.|
+| **.rgAltRow,.rgAltRow td** |For skinning the alternate grid row (zebra style tables).|
+| **.rgSelectedRow,**  **.rgSelectedRow**  **td** |Skinning the currently selected row.|
+| **.rgActiveRow,.rgActiveRow td** |Active row class - the focused row skinning|
+| **.rgEditRow,.rgEditRow td** |For skinning the row that is currently in edit mode.|
+| **.rgEditForm** |For skinning the edit form of the row that is currently in edit mode.|
+| **.rgCommandRow** |For skinning the CommandItem.|
+| **.rgFooter,.rgFooter td** |For skinning the group footers (meaning with grouping feature enabled).Defaults to the *GroupFooter_[Skin]/GroupFooter_[Skin] td* classes.|
+| **.rgFilterRow** |For skinning the FilteringItem.|
+| **.rgPager,**  **.rgPager**  **td** |Skinning the grid pager|
+| **.rgFooter,.rgFooter td.rgFooterDiv** |A reference to the grid footer.For skinning the grid footer when scrolling the grid.|
+| **.rgFooter a** |Reference to any link <a> belonging to the footer.|
+| **.rgPager a** |Reference to any link <a> belonging to the pager.|
+| **.rgPager a:hover,.rgFooter a:hover** |Reference to any hovered link <a> in the pager or footer.|
+| **tr.rgGroupHeader td** |For skinning the group panel row (grouping must be enabled).|
+| **.rgGroupPanel** |For skinning the group panel (grouping must be enabled).|
+| **.rgGroupItem** |Reference to items belonging to the group panel (grouping must be enabled).|
+| **td.rgHeader input** |Reference to the <input> element belonging to the grid header (grouping must be enabled)|
+| **.rgCaption** |Reference to the table caption in each level of the grid hierarchy|
+| **.GridToolTip_[SkinName]** |For customizing the scroller when the virtual scrolling feature is enabled (<Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True" />). Applicable for the column resizer tooltip as well|
+| **.GridRowSelector_[SkinName]** |For styling the colored rectangle when selecting multiple rows by dragging.|
+| **.GridItemDropIndicator_[SkinName]** |Defines the drop indicator appearance when utilizing drag and drop of grid records.|
+| **.rgDetailTable** |A class for customizing the detail tables in hierarchical grid|
+| **.GridReorderTop_[SkinName]** |A class to customize the embedded top image indicator when reordering grid columns|
+| **.GridReorderBottom_[SkinName]** |A class to customize the embedded bottom image indicator when reordering grid columns|
+| **.GridReorderTopImage_[SkinName]** |A class to customize the top image indicator when reordering grid columns and the embedded skins are disabled for the grid|
+| **.GridReorderBottomImage_[SkinName]** |A class to customize the bottom image indicator when reordering grid columns and the embedded skins are disabled for the grid|
+| **.rgVScroll** |A class to customize the appearance of the RadGrid virtual scroll|
+| **.rgNoRecords** |A class to customize the visual appearance of the NoRecords template/text|
+| **.GridDraggedRows_[SkinName]** |A class applied to the <div> element, which wraps the dragged rows. The same <div> element also has the "RadGrid" and "RadGrid_SkiName" classes.|
 
 >note To apply the old embedded skins of RadGrid for ASP.NET AJAX as external with versions of the grid after Q1 2009 (2009.1.311), download them from[this location](http://www.telerik.com/support/code-library/aspnet-ajax/skin-exchange)and follow the steps concerning how to register an external skin from[this](http://www.telerik.com/help/aspnet-ajax/skinregistration.html)and[this](http://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)topic.
 >
@@ -268,7 +268,7 @@ The easiest way to create your own skin for RadGrid (as discussed previously in 
 
 * Set Skin="<MyCustomSkinName>" and EnableEmbeddedSkins="false" for RadGrid.
 
->note  __Important:__ RadGrid may create other UI controls as part of its elements (slider pager, filtering menu, date pickers in GridDateTimeColumns, etc.) and you will need to perform the same steps for these controls as well!
+>note  **Important:** RadGrid may create other UI controls as part of its elements (slider pager, filtering menu, date pickers in GridDateTimeColumns, etc.) and you will need to perform the same steps for these controls as well!
 >
 
 

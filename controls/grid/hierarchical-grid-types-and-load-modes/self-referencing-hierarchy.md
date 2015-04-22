@@ -1,6 +1,6 @@
 ---
 title: Self-referencing hierarchy
-page_title: Self-referencing hierarchy | UI for ASP.NET AJAX Documentation
+page_title: Self-referencing hierarchy | RadGrid for ASP.NET AJAX Documentation
 description: Self-referencing hierarchy
 slug: grid/hierarchical-grid-types-and-load-modes/self-referencing-hierarchy
 tags: self-referencing,hierarchy
@@ -12,27 +12,27 @@ position: 10
 
 
 
-You can build multiple levels of a hierarchical grid using a single table in the data source by specifying relations inside the same table. The grid can automatically generate detail table views that copy the properties of the __MasterTableView__ and display data based on the relations you specify.
+You can build multiple levels of a hierarchical grid using a single table in the data source by specifying relations inside the same table. The grid can automatically generate detail table views that copy the properties of the **MasterTableView** and display data based on the relations you specify.
 
 To build a self-referencing hierarchy,
 
-1. Add all fields from the data source that define the parent/child relationships to the __DataKeyNames__ array of the __MasterTableView__.
+1. Add all fields from the data source that define the parent/child relationships to the **DataKeyNames** array of the **MasterTableView**.
 
-1. Set the __SelfReferencingSettings__ property of the __MasterTableView__ to describe the data relationship between the data for parent and child tables (between the fields you added to __DataKeyNames__):
+1. Set the **SelfReferencingSettings** property of the **MasterTableView** to describe the data relationship between the data for parent and child tables (between the fields you added to **DataKeyNames**):
 
-* The __ParentKeyName__ sub-property specifies the field in the parent table view.
+* The **ParentKeyName** sub-property specifies the field in the parent table view.
 
-* The __KeyName__ sub-property specifies the field in the detail table view that links to the field specified by __ParentKeyName__.
+* The **KeyName** sub-property specifies the field in the detail table view that links to the field specified by **ParentKeyName**.
 
-* The __MaximumDepth__ sub-property limits the depth of nested detail tables. Note that this specifies the number of detail tables you can nest -- the master table view is not counted in this value.
+* The **MaximumDepth** sub-property limits the depth of nested detail tables. Note that this specifies the number of detail tables you can nest -- the master table view is not counted in this value.
 
-1. If you want to display a tree-like structure, Set the __FilterExpression__ property of the __MasterTableView__ to filter out all items except those that belong at the root level of the hierarchy. Note that this must be done on __Page_Load__, so that the filter does not apply to any detail tables.
+1. If you want to display a tree-like structure, Set the **FilterExpression** property of the **MasterTableView** to filter out all items except those that belong at the root level of the hierarchy. Note that this must be done on **Page_Load**, so that the filter does not apply to any detail tables.
 
 ## Example
 
 The following example shows a grid with a self-referencing hierarchy based on a single data table having root node with null value for parent id in the source.For example:![Self Hierarchy Table](images/grd_self_hierarchy_table.png)![Self Hierarchy Data](images/grd_self_hierarchy.png)
 
-In the ASPX file, the grid declaration does not need to include any detail tables. The __MasterTableView__ includes a __SelfHierarchySettings__ section to describe the data relationships and a __DataKeyNames__ property that lists the relevant fields:
+In the ASPX file, the grid declaration does not need to include any detail tables. The **MasterTableView** includes a **SelfHierarchySettings** section to describe the data relationships and a **DataKeyNames** property that lists the relevant fields:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
@@ -47,7 +47,7 @@ In the ASPX file, the grid declaration does not need to include any detail table
 
 
 
-The __Page_Load__ event handler filters out all but the root element in the __MasterTableView__:
+The **Page_Load** event handler filters out all but the root element in the **MasterTableView**:
 
 
 
@@ -75,7 +75,7 @@ The __Page_Load__ event handler filters out all but the root element in the __Ma
 ````
 
 
-The next step is to bind the __RadGrid__ to data in the __NeedDataSource__event handler:
+The next step is to bind the **RadGrid** to data in the **NeedDataSource**event handler:
 
 
 
@@ -125,9 +125,9 @@ In order to hide the expand/collapse images when there are no records in self-re
 
 ## Bind a self-referencing RadGrid to a data source control
 
-By design the __RadGrid__does not support a self-referencing hierarchy bound to a data source control. In order to achieve this you need to write some custom logic. Below is the code of a simple demo implementation.
+By design the **RadGrid**does not support a self-referencing hierarchy bound to a data source control. In order to achieve this you need to write some custom logic. Below is the code of a simple demo implementation.
 
-The first step is to set a __RadGrid.DataSourceID__ to the datasource control:
+The first step is to set a **RadGrid.DataSourceID** to the datasource control:
 
 ````ASPNET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnColumnCreated="RadGrid1_ColumnCreated"
@@ -146,7 +146,7 @@ The first step is to set a __RadGrid.DataSourceID__ to the datasource control:
 
 
 
-Then apply __FilterExpression__in the __Page_Load__ event handler.
+Then apply **FilterExpression**in the **Page_Load** event handler.
 
 
 
@@ -292,7 +292,7 @@ Next step is to hide the default expand/collapse column and include button contr
 ````
 
 
-Finally, as a polishing touch, an event handler for the __Page.PreRenderComplete__ event is added to recursively locate and hide any empty detail table views:
+Finally, as a polishing touch, an event handler for the **Page.PreRenderComplete** event is added to recursively locate and hide any empty detail table views:
 
 
 
@@ -366,7 +366,7 @@ Finally, as a polishing touch, an event handler for the __Page.PreRenderComplete
 
 For a live example of a self-referencing grid, see [Self-referencing heierarchy](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/SelfReferencing/DefaultCS.aspx).
 
-If you want to display the header of the master table, but hide the headers on detail tables, set the grid's __ShowHeader__ property to __True__ and use the __ItemCreated__ event to hide the headers on detail tables:
+If you want to display the header of the master table, but hide the headers on detail tables, set the grid's **ShowHeader** property to **True** and use the **ItemCreated** event to hide the headers on detail tables:
 
 ````C#
 	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)

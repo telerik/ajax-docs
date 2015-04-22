@@ -1,6 +1,6 @@
 ---
 title: Multi-row edit/selection only for master table in hierarchical grid
-page_title: Multi-row edit/selection only for master table in hierarchical grid | UI for ASP.NET AJAX Documentation
+page_title: Multi-row edit/selection only for master table in hierarchical grid | RadGrid for ASP.NET AJAX Documentation
 description: Multi-row edit/selection only for master table in hierarchical grid
 slug: grid/hierarchical-grid-types-and-load-modes/how-to/multi-row-edit/selection-only-for-master-table-in-hierarchical-grid
 tags: multi-row,edit/selection,only,for,master,table,in,hierarchical,grid
@@ -14,23 +14,23 @@ position: 5
 
 ## 
 
-If you enable multi-row selection and editing by setting the __RadGrid____AllowMultiRowSelection__ and __AllowMultiRowEdit__ properties to __True__, in a hierarchical grid, all the tables in the hierarchy allow multi-row selection and editing. If you want to disable these features for the nested tables, you need to do the following:
+If you enable multi-row selection and editing by setting the **RadGrid AllowMultiRowSelection** and **AllowMultiRowEdit** properties to **True**, in a hierarchical grid, all the tables in the hierarchy allow multi-row selection and editing. If you want to disable these features for the nested tables, you need to do the following:
 
 To disable multi-row editing on detail tables:
 
-1. Handle the __ItemCommand__ event of the grid.
+1. Handle the **ItemCommand** event of the grid.
 
-1. When __e.CommandName__ is __RadGrid.EditCommandName__, identify whether you are on the master table view.
+1. When **e.CommandName** is **RadGrid.EditCommandName**, identify whether you are on the master table view.
 
-1. If you are not on the master table view, traverse the items in the detail table and set their __Edit__ property to __False__.
+1. If you are not on the master table view, traverse the items in the detail table and set their **Edit** property to **False**.
 
 To disable multi-row selection on detail tables:
 
-1. Handle the __RowSelecting__ client event of the grid.
+1. Handle the **RowSelecting** client event of the grid.
 
 1. Verify that the clicked table is a child table by referencing a column from the table.
 
-1. If the __SelectedRows__ collection length is equal to 1, iterate through the rows in the table and deselect them if they were previously selected.
+1. If the **SelectedRows** collection length is equal to 1, iterate through the rows in the table and deselect them if they were previously selected.
 
 The following code illustrates this technique on a two-level hierarchy.
 

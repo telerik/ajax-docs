@@ -1,6 +1,6 @@
 ---
 title: getCellByColumnUniqueName
-page_title: getCellByColumnUniqueName | UI for ASP.NET AJAX Documentation
+page_title: getCellByColumnUniqueName | RadGrid for ASP.NET AJAX Documentation
 description: getCellByColumnUniqueName
 slug: grid/client-side-programming/gridtableview-object/methods/getcellbycolumnuniquename
 tags: getcellbycolumnuniquename
@@ -17,10 +17,10 @@ position: 23
 Gives you the cell specified by a row and a column unique name.
 
 
-|  __getCellByColumnUniqueName(gridRow, columnUniqueName)__  |  |  |
+|  **getCellByColumnUniqueName(gridRow, columnUniqueName)**  |  |  |
 | ------ | ------ | ------ |
-| __gridRow__ | __GridDataItem__ |The row which holds the cell.|
-| __columnUniqueName__ | __String__ |The UniqueName of the column which identifies the cell uniquely.|
+| **gridRow** | **GridDataItem** |The row which holds the cell.|
+| **columnUniqueName** | **String** |The UniqueName of the column which identifies the cell uniquely.|
 
 In order to get the cell value, you need to use the innerHTML property:
 
@@ -33,6 +33,6 @@ In order to get the cell value, you need to use the innerHTML property:
 
 
 
->note  __Note:__ The __ShowHeader__ attribute for the RadGrid/MasterTableView should be set to __true__ in order to use this method.
+>note  **Note:** The **ShowHeader** attribute for the RadGrid/MasterTableView should be set to **true** in order to use this method.
 >
 

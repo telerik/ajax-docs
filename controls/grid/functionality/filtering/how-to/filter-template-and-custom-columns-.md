@@ -1,6 +1,6 @@
 ---
 title: Filter Template and Custom Columns 
-page_title: Filter Template and Custom Columns  | UI for ASP.NET AJAX Documentation
+page_title: Filter Template and Custom Columns  | RadGrid for ASP.NET AJAX Documentation
 description: Filter Template and Custom Columns 
 slug: grid/functionality/filtering/how-to/filter-template-and-custom-columns-
 tags: filter,template,and,custom,columns,
@@ -14,13 +14,13 @@ position: 10
 
 ## 
 
-Filtering is automatically supported for __Template__ columns.To allow filtering in template columns, you need only do the following:
+Filtering is automatically supported for **Template** columns.To allow filtering in template columns, you need only do the following:
 
-* Set the __AllowFilteringByColumn__ property of the grid or table view to __True__. This is needed to enable filtering.
+* Set the **AllowFilteringByColumn** property of the grid or table view to **True**. This is needed to enable filtering.
 
-* Ensure that the __AllowFiltering__ property of the template column is __True__ (this is the default value).
+* Ensure that the **AllowFiltering** property of the template column is **True** (this is the default value).
 
-* Set the __DataField__ property of the template column to the field you want to use for filtering.
+* Set the **DataField** property of the template column to the field you want to use for filtering.
 
 ````ASPNET
 	<telerik:GridTemplateColumn DataField="Country" HeaderText="Country">
@@ -34,7 +34,7 @@ Filtering is automatically supported for __Template__ columns.To allow filtering
 
 
 
-If you would like to support filtering for GridTemplateColumns programmatically or for your custom columns which extend built-in grid column, you can extend the default __GridColumnName__ class (part of the Telerik RadGrid object model) and add a textbox control to it. Thus you will be able to filter the __GridColumnName__ values exactly the same way as with other Telerik RadGrid column types.
+If you would like to support filtering for GridTemplateColumns programmatically or for your custom columns which extend built-in grid column, you can extend the default **GridColumnName** class (part of the Telerik RadGrid object model) and add a textbox control to it. Thus you will be able to filter the **GridColumnName** values exactly the same way as with other Telerik RadGrid column types.
 
 Here is how this can be done with column which extends GridTemplateColumn:
 

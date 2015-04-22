@@ -1,6 +1,6 @@
 ---
 title: Include Additional Action Button
-page_title: Include Additional Action Button | UI for ASP.NET AJAX Documentation
+page_title: Include Additional Action Button | RadGrid for ASP.NET AJAX Documentation
 description: Include Additional Action Button
 slug: grid/data-editing/how-to/include-additional-action-button
 tags: include,additional,action,button
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-There are scenarios in which you may want to include additional button right after your edit form Update/Cancel buttons. To do that, you can wire the ItemDataBound event of the grid and add a custom button to the __GridEditCommandColumn__ for the respective table.In addition, you can attach a confirmation dialog to its onclick attribute to display notification for the user when he clicks that button.Here are two example which illustrate that (note that you should add code to delete the item manually or use automatic deletes feature).
+There are scenarios in which you may want to include additional button right after your edit form Update/Cancel buttons. To do that, you can wire the ItemDataBound event of the grid and add a custom button to the **GridEditCommandColumn** for the respective table.In addition, you can attach a confirmation dialog to its onclick attribute to display notification for the user when he clicks that button.Here are two example which illustrate that (note that you should add code to delete the item manually or use automatic deletes feature).
 
-__InPlace__ edit mode:
+**InPlace** edit mode:
 
 
 
@@ -64,7 +64,7 @@ __InPlace__ edit mode:
 ````
 
 
-__Auto-generated edit forms (MasterTableView EditMode="EditForms"):__
+**Auto-generated edit forms (MasterTableView EditMode="EditForms"):**
 
 
 

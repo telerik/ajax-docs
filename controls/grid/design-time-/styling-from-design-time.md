@@ -1,6 +1,6 @@
 ---
 title: Styling from Design-Time
-page_title: Styling from Design-Time | UI for ASP.NET AJAX Documentation
+page_title: Styling from Design-Time | RadGrid for ASP.NET AJAX Documentation
 description: Styling from Design-Time
 slug: grid/design-time-/styling-from-design-time
 tags: styling,from,design-time
@@ -30,18 +30,18 @@ If you use custom column-bounding the columns node will appear. When you use the
 
 This section of the dialog is common for all objects in the Object tree. Here you can set the appearance options for the data item element.Below are the customization options:
 
-* __Fore color__ - the color of the text
+* **Fore color** - the color of the text
 
-* __Back Color__ - the color of the text background
+* **Back Color** - the color of the text background
 
-* __Font Name__ - the font for the text of the selected element
+* **Font Name** - the font for the text of the selected element
 
-* __Font Size__ - the font size in the selected units
+* **Font Size** - the font size in the selected units
 
 
 
 Below are the layout options:
 
-* __Horizontal Alignment__ - left, right or center
+* **Horizontal Alignment** - left, right or center
 
-* __Vertical Alignment__ - top, middle, bottom
+* **Vertical Alignment** - top, middle, bottom

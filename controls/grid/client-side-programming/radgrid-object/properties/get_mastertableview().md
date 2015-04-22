@@ -1,6 +1,6 @@
 ---
 title: get_masterTableView()
-page_title: get_masterTableView() | UI for ASP.NET AJAX Documentation
+page_title: get_masterTableView() | RadGrid for ASP.NET AJAX Documentation
 description: get_masterTableView()
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableview()
 tags: get_mastertableview()
@@ -17,7 +17,7 @@ position: 8
 This property returns the MasterTableView instance for the respective grid client object.
 
 
-|  __get_masterTableView()__  |
+|  **get_masterTableView()**  |
 | ------ |
 ||
 

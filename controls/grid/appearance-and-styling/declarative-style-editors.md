@@ -1,6 +1,6 @@
 ---
 title: Declarative Style Editors
-page_title: Declarative Style Editors | UI for ASP.NET AJAX Documentation
+page_title: Declarative Style Editors | RadGrid for ASP.NET AJAX Documentation
 description: Declarative Style Editors
 slug: grid/appearance-and-styling/declarative-style-editors
 tags: declarative,style,editors
@@ -12,7 +12,7 @@ position: 12
 
 
 
-You can set the column editors declaratively by setting the __ColumnEditorID__ property of the corresponding column to the ID of the custom column editor. This gives you the flexibility to easily customize the look of the column editors.
+You can set the column editors declaratively by setting the **ColumnEditorID** property of the corresponding column to the ID of the custom column editor. This gives you the flexibility to easily customize the look of the column editors.
 
 To add a column editor declaratively, add an instance of the column editor to the page that contains your grid. If you are using one of the built-in column editor types and simply customizing its properties, you can drag the column editor from the toolbox onto your page:
 
@@ -46,7 +46,7 @@ For an online example that uses declarative custom editors, see [Using grid serv
 
 ## Creating declarative custom editors programmatically
 
-If you want to assign declarative custom editors at runtime, you need to instantiate them in a __Page_Init__ handler and add them to the __Controls__ collection of a place holder control:
+If you want to assign declarative custom editors at runtime, you need to instantiate them in a **Page_Init** handler and add them to the **Controls** collection of a place holder control:
 
 
 

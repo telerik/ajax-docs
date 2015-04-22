@@ -1,6 +1,6 @@
 ---
 title: Localize Filtering Menu Options
-page_title: Localize Filtering Menu Options | UI for ASP.NET AJAX Documentation
+page_title: Localize Filtering Menu Options | RadGrid for ASP.NET AJAX Documentation
 description: Localize Filtering Menu Options
 slug: grid/functionality/filtering/how-to/localize-filtering-menu-options
 tags: localize,filtering,menu,options
@@ -16,11 +16,11 @@ position: 1
 
 You can change the text of the items in the filter menu in the code-behind. This is useful if you want to localize the filter function names or change them to display your own custom text.
 
-To change the text of the items in the filter menu, add code to the __Page_Load__ event handler for your page:
+To change the text of the items in the filter menu, add code to the **Page_Load** event handler for your page:
 
-1. Use the __FilterMenu__ property of the grid to access the filtering menu. There is a single filtering menu server-side, which is cloned for each of the separate filter menus that appear client-side.
+1. Use the **FilterMenu** property of the grid to access the filtering menu. There is a single filtering menu server-side, which is cloned for each of the separate filter menus that appear client-side.
 
-1. Use the __Items__ property of the filtering menu to access the individual menu items. Each item in the filter menu server-side object is of type __RadMenuItem__.
+1. Use the **Items** property of the filtering menu to access the individual menu items. Each item in the filter menu server-side object is of type **RadMenuItem**.
 
 1. Use the Text property of the grid menu items to set the new text for the menu item.
 

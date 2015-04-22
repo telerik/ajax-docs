@@ -1,6 +1,6 @@
 ---
 title: Changing Grid ScrollHeight at Runtime to Fill its Container Height
-page_title: Changing Grid ScrollHeight at Runtime to Fill its Container Height | UI for ASP.NET AJAX Documentation
+page_title: Changing Grid ScrollHeight at Runtime to Fill its Container Height | RadGrid for ASP.NET AJAX Documentation
 description: Changing Grid ScrollHeight at Runtime to Fill its Container Height
 slug: grid/functionality/scrolling/how-to/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
 tags: changing,grid,scrollheight,at,runtime,to,fill,its,container,height
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-In a __RadGrid__ control with scrolling enabled, you can modify the default grid scroll height to match the height of its container element. The following steps describe how to achieve this:
+In a **RadGrid** control with scrolling enabled, you can modify the default grid scroll height to match the height of its container element. The following steps describe how to achieve this:
 
-1. Create a handler for the client-side __GridCreated__ event.
+1. Create a handler for the client-side **GridCreated** event.
 
-1. In the __GridCreated__ event handler, use the grid's __GridDataDiv__ property to obtain a reference to the DOM element for the grid's scrollable region.
+1. In the **GridCreated** event handler, use the grid's **GridDataDiv** property to obtain a reference to the DOM element for the grid's scrollable region.
 
-1. Alter the __style.height__ attribute of this DOM element to make it equal the height of the grid's container element. Note that if static headers are enabled you will have to take into account the header height.
+1. Alter the **style.height** attribute of this DOM element to make it equal the height of the grid's container element. Note that if static headers are enabled you will have to take into account the header height.
 
 The following example illustrates this technique:
 

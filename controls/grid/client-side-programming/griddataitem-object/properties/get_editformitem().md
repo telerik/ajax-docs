@@ -1,6 +1,6 @@
 ---
 title: get_editFormItem()
-page_title: get_editFormItem() | UI for ASP.NET AJAX Documentation
+page_title: get_editFormItem() | RadGrid for ASP.NET AJAX Documentation
 description: get_editFormItem()
 slug: grid/client-side-programming/griddataitem-object/properties/get_editformitem()
 tags: get_editformitem()
@@ -17,7 +17,7 @@ position: 1
 Property which retrieves the HTML element for the edit form of a particular GridDataItem when EditMode is EditForms or PopUp..
 
 
-|  __get_editFormItem()__  |
+|  **get_editFormItem()**  |
 | ------ |
 ||
 
