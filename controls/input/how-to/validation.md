@@ -22,7 +22,7 @@ The **RadInput** controls support ASP.NET validators (both client and server sid
 
 To use ASP.NET validators with **RadInput** controls, simply set the ID of the **RadInput** control as the value of the **ControlToValidate** property of the validator.
 
-Since Q2 2012 thre are some modifications for RadInput validation.The main idea is to render only the input element all the time, and remove the span element and the excessive inputs. To be achieved this the validation value is stored in [“expando”](http://msdn.microsoft.com/en-us/library/89t1khd2%28v=vs.94%29.aspx)property and we submit real value through the client state. Also, the [ValidatorGetValue](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx)function of the [asp:Validators](http://msdn.microsoft.com/en-us/library/debza5t0.aspx)was overriden to look our expando property called “RadInputValidationValue”.
+Since Q2 2012 thre are some modifications for RadInput validation.The main idea is to render only the input element all the time, and remove the span element and the excessive inputs. To be achieved this the validation value is stored in [“expando”](http://msdn.microsoft.com/en-us/library/89t1khd2%28v=vs.94%29.aspx) property and we submit real value through the client state. Also, the [ValidatorGetValue](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) function of the [asp:Validators](http://msdn.microsoft.com/en-us/library/debza5t0.aspx) was overriden to look our expando property called “RadInputValidationValue”.
 
 ## Example
 
