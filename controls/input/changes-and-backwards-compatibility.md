@@ -66,13 +66,13 @@ The RadInput skins has been improved and and the css classes/images used in them
 
 For more information about Telerik controls skinning mechanism and using non-embedded skins, please refer to:
 
-[How skins work](http://www.telerik.com/help/aspnet-ajax/howskinswork.html)
+[How skins work]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-skins-work%})
 
-[Skin registration](http://www.telerik.com/help/aspnet-ajax/skinregistration.html)
+[Skin registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%})
 
-[Using skins in ASP.NET themes](http://www.telerik.com/help/aspnet-ajax/introduction-themes-how-to.html)
+[Using skins in ASP.NET themes]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/using-skins-in-asp.net-themes%})
 
-[Disabling embedded resources](http://www.telerik.com/help/aspnet-ajax/disabling_embedded_resources.html)
+[Disabling embedded resources]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/disabling-embedded-resources%})
 
 An online demo, which shows how to use various controls with non-embedded skins is available at: [Custom skins demo](http://demos.telerik.com/aspnet-ajax/grid/examples/styles/customskin/defaultcs.aspx)
 

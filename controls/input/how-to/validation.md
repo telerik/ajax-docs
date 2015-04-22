@@ -31,18 +31,18 @@ Since Q2 2012 thre are some modifications for RadInput validation.The main idea 
 The following declaration shows the use of a required field validator from the form above:
 
 ````ASPNET
-	    <telerik:RadTextBox
-	        id="RadTextBox1"
-	        runat="server"
-	        Skin="WebBlue">
-	    </telerik:RadTextBox>
-	    <asp:RequiredFieldValidator
-	        ID="TextBoxRequiredFieldValidator"
-	        Runat="server"
-	        Display="Dynamic"
-	        ControlToValidate="RadTextBox1"
-	        ErrorMessage="The textbox can not be empty!" >
-	    </asp:RequiredFieldValidator>
+<telerik:RadTextBox
+	id="RadTextBox1"
+	runat="server"
+	Skin="WebBlue">
+</telerik:RadTextBox>
+<asp:RequiredFieldValidator
+	ID="TextBoxRequiredFieldValidator"
+	Runat="server"
+	Display="Dynamic"
+	ControlToValidate="RadTextBox1"
+	ErrorMessage="The textbox can not be empty!" >
+</asp:RequiredFieldValidator>
 ````
 
 
@@ -50,23 +50,23 @@ The following declaration shows the use of a required field validator from the f
 The following declaration shows the use of a range validator from the form above:
 
 ````ASPNET
-	    <telerik:RadDateInput
-	        ID="RadDateInput1"
-	        style="font: 8pt monospace" runat="server"
-	        DateFormat="d"
-	        Skin="WebBlue"
-	        MinDate="01/01/1990"
-	        MaxDate="01/01/3000">
-	    </telerik:RadDateInput>
-	    <asp:RangeValidator
-	        id="DateInputRangeValidator"
-	        Runat="server"
-	        ControlToValidate="RadDateInput1"
-	        ErrorMessage="Choose a date between 5th of January 2005 and 1st of September 2005"
-	        Display="Dynamic"
-	        MaximumValue="2005-09-01-00-00-00"
-	        MinimumValue="2005-01-05-00-00-00" >
-	    </asp:RangeValidator>
+<telerik:RadDateInput
+	ID="RadDateInput1"
+	style="font: 8pt monospace" runat="server"
+	DateFormat="d"
+	Skin="WebBlue"
+	MinDate="01/01/1990"
+	MaxDate="01/01/3000">
+</telerik:RadDateInput>
+<asp:RangeValidator
+	id="DateInputRangeValidator"
+	Runat="server"
+	ControlToValidate="RadDateInput1"
+	ErrorMessage="Choose a date between 5th of January 2005 and 1st of September 2005"
+	Display="Dynamic"
+	MaximumValue="2005-09-01-00-00-00"
+	MinimumValue="2005-01-05-00-00-00" >
+</asp:RangeValidator>
 ````
 
 

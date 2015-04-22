@@ -40,9 +40,9 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * The **WrapperCssClass** property specifies the CSS class(es) added to the wrapper element of the RadInput control.
 
-* The **LabelCssClass** property specifies the CSS class(es) added to the [label]({%slug input/appearance-and-styling/adding-labels%})of the RadInput control.
+* The **LabelCssClass** property specifies the CSS class(es) added to the [label]({%slug input/appearance-and-styling/adding-labels%}) of the RadInput control.
 
-* The **LabelWidth** property specifies the width of the [label]({%slug input/appearance-and-styling/adding-labels%})of the RadInput control. When [Single Input Rendering]({%slug input/single-input-rendering-mode%}) is enabled, the default value is 40%.
+* The **LabelWidth** property specifies the width of the [label]({%slug input/appearance-and-styling/adding-labels%}) of the RadInput control. When [Single Input Rendering]({%slug input/single-input-rendering-mode%}) is enabled, the default value is 40%.
 
 * The **DisplayText** property allows you to set the display value from the Server to a different value the actual value.Similar to the empty message, but shown even if the input is not empty. This text will be cleared once the user changes the input value.
 
@@ -58,7 +58,7 @@ While the four RadInput controls (**RadTextBox**, **RadMaskedTextBox**, **RadDat
 
 * **RadDateInput** - the date in universal format ( "yyyy-MM-dd-HH-mm-ss" )
 
->note The four different **RadInput** controls use different properties to represent their values. See[Getting and Setting Values]({%slug input/getting-started/getting-and-setting-values%})for details.
+>note The four different **RadInput** controls use different properties to represent their values. See [Getting and Setting Values]({%slug input/getting-started/getting-and-setting-values%}) for details.
 >
 
 

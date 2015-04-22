@@ -99,6 +99,6 @@ By default in non-single input rendering mode the width of the label is not set,
 
 The Skin CSS file includes definitions for the classes that reflect the current state of the input controls. These classes are **riEnabled**, **riDisabled**, **riEmpty**, **riFocused**, **riHover**, **riError**, and **riNegative**.
 
->note The various [style properties]({%slug input/appearance-and-styling/styles%})will override any of the properties set by these classes.
+>note The various [style properties]({%slug input/appearance-and-styling/styles%}) will override any of the properties set by these classes.
 >
 

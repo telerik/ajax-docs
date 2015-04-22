@@ -12,7 +12,7 @@ position: 2
 
 
 
-The **RadInput** controls use **skins** to control their overall look-and-feel. A skin is a set of images and a *CSS**stylesheet *that can be applied to the control elements (textbox, buttons, label) and defines their look and feel. To apply a skin to a **RadInput** control, set its **Skin** property, either using the properties pane or the input control's [Smart Tag]({%slug input/design-time/smart-tag%}).
+The **RadInput** controls use **skins** to control their overall look-and-feel. A skin is a set of images and a *CSSstylesheet* that can be applied to the control elements (textbox, buttons, label) and defines their look and feel. To apply a skin to a **RadInput** control, set its **Skin** property, either using the properties pane or the input control's [Smart Tag]({%slug input/design-time/smart-tag%}).
 
 The **RadInput** controls are installed with a number of preset skins. These are shown below:
 
@@ -59,7 +59,7 @@ You can tweak the existing skins, or create your own. Each skin has two main ele
 
 1. Set the **EnableEmbeddedSkins** property of the input control to **False**.
 
-The RadInput base stylesheet is called **Input.css** and is placed in the **...Skins/** directory. The stylesheet for a **RadInput** skin has the name **Input.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/Input** directory. For example, the stylesheet for the "*Black*" skin is called *Input.Black.css *and is located in the ...*Skins/Black* directory. The images are found in the ...*Skins/Black/Input *directory. The images are referenced by name from within the stylesheet.
+The RadInput base stylesheet is called **Input.css** and is placed in the **...Skins/** directory. The stylesheet for a **RadInput** skin has the name **Input.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/Input** directory. For example, the stylesheet for the "*Black*" skin is called *Input.Black.css * and is located in the ...*Skins/Black* directory. The images are found in the ...*Skins/Black/Input * directory. The images are referenced by name from within the stylesheet.
 
 For more information on the *CSS* File structure, see [Understanding the Skin CSS File]({%slug input/appearance-and-styling/html-output-and-css-styling%}).
 

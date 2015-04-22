@@ -14,13 +14,13 @@ position: 5
 
 ## 
 
-You extend TextBox controls with RadInputManager by [adding InputSettings to RadInputManager](http://www.telerik.com/help/aspnet-ajax/using_radinputmanager.html). You would generally use the designer to add the markup of your RadInputManager and its InputSettings to your page. Alternatively, you can add InputSettings dynamically from code-behind. To do that, you need to strictly follow these requirements:
+You extend TextBox controls with RadInputManager by [adding InputSettings to RadInputManager]({%slug input/radinputmanager/overview%}). You would generally use the designer to add the markup of your RadInputManager and its InputSettings to your page. Alternatively, you can add InputSettings dynamically from code-behind. To do that, you need to strictly follow these requirements:
 
 1. Your RadInputManager instance should be dynamically created on Init or Load
 
-1. You need to initialize and add the InputSettings to the RadInputManager first.
+1. You need to initialize and add the InputSettings to the RadInputManager **first**.
 
-1. You need to add RadInputManager to the Page after you have added all the InputSettings.
+1. You need to add RadInputManager to the Page **after** you have added all the InputSettings.
 
 
 

@@ -22,7 +22,7 @@ The **TextChanged** event only occurs if the value of the input control actually
 >
 
 
->note The postback request can be controlled for **RadDateInput** , **RadNumericTextBox** and **RadTextBox** by using the [OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%})client event of the control.
+>note The postback request can be controlled for **RadDateInput** , **RadNumericTextBox** and **RadTextBox** by using the [OnValueChanged]({%slug input/client-side-programming/events/onvaluechanged%}) client event of the control.
 >
 
 

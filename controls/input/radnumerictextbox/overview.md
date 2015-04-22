@@ -42,14 +42,14 @@ When the numeric text box contains a negative value, it can notify the user of t
 
 * The representation of the negative value is usually formatted in a special way, such as using the minus sign ("-") or enclosing the value in parentheses. This representation is determined by the **Type** and **Culture** properties, but can be overridden by the **NumberFormat.NegativePattern** property.
 
-* The numeric text box can change the display to signal a negative number (for example, the text is red instead of black).To change the display for negative numbers, use the **NegativeStyle** property.**NegativeStyle** is one of the [RadInput style properties]({%slug input/appearance-and-styling/styles%}),but it is only available for **RadNumericTextBox**.
+* The numeric text box can change the display to signal a negative number (for example, the text is red instead of black).To change the display for negative numbers, use the **NegativeStyle** property.**NegativeStyle** is one of the [RadInput style properties]({%slug input/appearance-and-styling/styles%}), but it is only available for **RadNumericTextBox**.
 
 ## Increment Controls
 
 In addition to typing numbers directly into the numeric text box, you can also allow users to increment or decrement the current value using the arrow keys, mouse wheel, or spin buttons.
 
 * To add spin buttons to the control, set the **ShowSpinButtons** property to **True**. You can use the **ButtonsPosition** property to position the spin buttons on the left or the right side of the text area:
-![Spin buttons position](images/SpinButtonPosition.png)
+	![Spin buttons position](images/SpinButtonPosition.png)
 
 >note When rounding is not enabled, the spin buttons may not add or remove exactly 1.0 from the value. Since in most browsers 1.9 - 1 = 0.89999, the value without rounding will be cut to 0.89.Therefore, if the user has entered 1.9 and clicks the down arrow key, he will get 0.89. It is recommended to set **AllowRounding="true"** , or **KeepNotRoundedValue="true"** when you use spin buttons.
 >

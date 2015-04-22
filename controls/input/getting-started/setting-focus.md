@@ -30,8 +30,6 @@ protected void Page_Load(object sender, EventArgs e)
 	RadInput1.Focus();
 }
 ````
-
-
 ````VB.NET
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	RadInput1.Focus()
@@ -49,8 +47,6 @@ protected void Page_Load(object sender, EventArgs e)
 	Page.SetFocus(RadInput1.ClientID);
 }
 ````
-
-
 ````VB.NET
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	Page.SetFocus(RadInput1.ClientID)
@@ -70,8 +66,6 @@ Both approaches do the same thing. It is your choice which method you prefer.
 RadAjaxPanel1.FocusControl(RadInput1.ClientID);
 RadAjaxManager1.FocusControl(RadInput1.ClientID); 
 ````
-
-
 ````VB.NET
 RadAjaxPanel1.FocusControl(RadInput1.ClientID)
 RadAjaxManager1.FocusControl(RadInput1.ClientID)
@@ -87,8 +81,6 @@ The **SetFocus** method of the **ScriptManager** works like the **SetFocus** met
 ````C#
 ScriptManager1.SetFocus(RadInput1.ClientID); 
 ````
-
-
 ````VB.NET
 ScriptManager1.SetFocus(RadInput1.ClientID)
 ````

@@ -41,7 +41,7 @@ An easy way to distinguish who raised the event the browser OnChange event or th
 
 
 
-````XML
+````ASPNET
 <asp:TextBox runat="server" ID="DateInput1"></asp:TextBox>
 <telerik:radinputmanager id="RadInputManager1" runat="server">
 	<telerik:DateInputSetting BehaviorID="Setting1" >

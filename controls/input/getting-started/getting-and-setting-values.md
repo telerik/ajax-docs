@@ -22,8 +22,10 @@ On the server-side, each **RadInput** control uses a different property to repre
 |RadTextBox|Text|String|
 |RadNumericTextBox|Value, DbValue (in data-bound context)|Nullable Integer object|
 |RadDateInput|SelectedDate, DbSelectedDate (in data-bound context)|Nullable DateTime object|
-|RadMaskedTextBox|TextTextWithLiteralsTextWithPromptTextWithPromptAndLiterals|StringStringStringString|
-
+|RadMaskedTextBox|Text TextWithLiterals TextWithPrompt TextWithPromptAndLiterals|String|
+|RadMaskedTextBox|TextWithLiterals TextWithPrompt TextWithPromptAndLiterals|String|
+|RadMaskedTextBox|TextWithPrompt TextWithPromptAndLiterals|String|
+|RadMaskedTextBox|TextWithPromptAndLiterals|String|
 ## Common Value Properties
 
 All of the four RadInput controls ( **RadTextBox, RadMaskedTextBox, RadDateInput, and RadNumericTextBox**)have the following common properties:
@@ -32,13 +34,13 @@ All of the four RadInput controls ( **RadTextBox, RadMaskedTextBox, RadDateInput
 
 * The **ValidationText** is a read-only property which returns the value used to validate the entered data. For the four types it returns respectively:
 
-* **RadTextBox** - the text itself
+	* **RadTextBox** - the text itself
 
-* **RadMaskedTextBox** - **TextWithLiterals** value( the text the user entered, plus any literal characters in the mask, but no prompt characters. )
+	* **RadMaskedTextBox** - **TextWithLiterals** value( the text the user entered, plus any literal characters in the mask, but no prompt characters. )
 
-* **RadNumericTextBox** - the number with the specific decimal mark corresponding to currently active culture
+	* **RadNumericTextBox** - the number with the specific decimal mark corresponding to currently active culture
 
-* **RadDateInput** – the date in universal format ( “yyyy-MM-dd-HH-mm-ss” )
+	* **RadDateInput** – the date in universal format ( “yyyy-MM-dd-HH-mm-ss” )
 
 ## RadTextBox
 
@@ -49,6 +51,7 @@ On the server side, the **RadTextBox** control uses the **Text** property to get
 
 
 ````C#
+
 protected void Page_Load(object sender, EventArgs e)
 {
 	RadTextBox1.Text = RadTextBox2.Text;
@@ -87,6 +90,7 @@ The **RadNumericTextBox** control uses the **Value** property to get or set its 
 
 
 ````C#
+
 protected void Page_Load(object sender, EventArgs e)
 {
 	RadNumericTextBox1.Value = RadNumericTextBox2.Value + 1;
@@ -126,6 +130,7 @@ The **RadDateInput** control uses the **SelectedDate** property to get or set it
 
 
 ````C#
+
 protected void Page_Load(object sender, EventArgs e)
 {
 	RadDateInput1.SelectedDate = RadDateInput2.SelectedDate;
@@ -185,6 +190,7 @@ The following code examples show how to read the value of one **RadMaskedTextBox
 
 
 ````C#
+
 protected void Page_Load(object sender, EventArgs e)
 {
 	RadMaskedTextBox1.Text = RadMaskedTextBox2.Text;

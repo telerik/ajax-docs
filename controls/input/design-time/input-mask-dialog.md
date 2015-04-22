@@ -27,7 +27,7 @@ At the top of the dialog is a table of pre-defined masks that you can choose for
 
 * To specify a mask that is not pre-defined, choose **<Custom>** from the table of pre-defined masks. When you choose custom, the last mask that was selected in the table remains in the **Mask** text box for you to use as a starting point in entering a new mask. The preview updates as you edit the mask.
 
->note For complicated masks, you may choose to use the **[MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%})** instead.
+>note For complicated masks, you may choose to use the **[MaskPart Collection Editor]({%slug input/design-time/maskpart-collection-editor%})** instead. 
 >
 
 

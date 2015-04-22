@@ -70,6 +70,6 @@ The HTML output of a RadInput control in Single Rendering Mode with Label and Pa
 
 * For a list of the different CSS classes that are applied based on the state of the input control check [this]({%slug input/appearance-and-styling/styles%}) help topic.
 
->note These classes are specific to the input control when it is in single-input rendering mode.	For a list of the CSS classes that are applicable to all rendering modes check[ this]({%slug input/appearance-and-styling/css-skin-file-selectors%})help topic.
+>note These classes are specific to the input control when it is in single-input rendering mode.	For a list of the CSS classes that are applicable to all rendering modes check [this]({%slug input/appearance-and-styling/css-skin-file-selectors%}) help topic.
 >
 

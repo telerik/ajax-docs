@@ -47,9 +47,9 @@ The **RadMaskedTextBox** Smart Tag contains the same **Ajax Resources**, **Skin*
 
 RadMaskedTextBox Tasks
 
-* **Set Mask** brings up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}),where you can specify an input mask that controls what input the user can enter into the masked text box.The input mask you specify in this dialog is assigned to the **Mask** property.
+* **Set Mask** brings up the [Input Mask Dialog]({%slug input/design-time/input-mask-dialog%}), where you can specify an input mask that controls what input the user can enter into the masked text box.The input mask you specify in this dialog is assigned to the **Mask** property.
 
-* **Edit Mask Part** shows the [MaskPart Collection Editor ]({%slug input/design-time/maskpart-collection-editor%}),where you can create and modify the masks that are the values of the **RadMaskedTextBox**.
+* **Edit Mask Part** shows the [MaskPart Collection Editor ]({%slug input/design-time/maskpart-collection-editor%}), where you can create and modify the masks that are the values of the **RadMaskedTextBox**.
 ![Smart Tag](images/RadMaskedTextBoxSmartTag.png)
 
 ## RadNumericTextBox

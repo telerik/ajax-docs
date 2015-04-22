@@ -22,7 +22,7 @@ The appearance of the arrow varies, depending on the [Skin]({%slug input/appeara
 
 1. Define a CSS class that provides an image for the button. You can link in your own CSS file, or define the CSS class by adding a \<style\> section to the \<head\> element of your Web page:
 
-````ASPNET
+````HTML
 <head runat="server">
 	<title>Untitled Page</title>
 	<style>
@@ -49,14 +49,14 @@ The appearance of the arrow varies, depending on the [Skin]({%slug input/appeara
 
 ## Adding a Spin button
 
-In addition to a generic button, you can add spin buttons to the the **RadNumericTextBox** control. To add a set of spin buttons, set the **ShowSpinButtons** property to **True**. The spin buttons appear as two arrows:![Spin Buttons](images/spinButtons.png)
+In addition to a generic button, you can add spin buttons to the the **RadNumericTextBox** control. To add a set of spin buttons, set the **ShowSpinButtons** property to **True**. The spin buttons appear as two arrows:
+![Spin Buttons](images/spinButtons.png)
 
 As with generic buttons, the appearance of the spin buttons varies, depending on the **Skin** property. You can further customize the appearance of the spin buttons using the **SpinUpCssClass** and **SpinDownCssClass** properties.
 
 ## Specifying the button position
 
 By default, the buttons you add appear on the right of the input control. If you have added both a generic button and a set of spin buttons, the generic button appears to the left of the spin buttons:
-
 ![Both Types of Buttons](images/BothTypesOfButtons.png)
 
 To move the buttons to the left of the input control, change the **ButtonsPosition** property to "Left":
