@@ -495,6 +495,13 @@ blockquote th, blockquote td {
     margin-bottom: 0;
 }
 
+div.caption {
+	font-weight: bold;
+	font-size: 1em; /*12pt*/
+	color: #003399;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 /* Footer */
 footer {
