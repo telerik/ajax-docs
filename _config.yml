@@ -133,226 +133,226 @@ navigation:
 
 ## List control directory names and order here, like this:
     "controls/ajax":
-        title: "RadAjax"
+        title: "Ajax"
         position: 1
     "controls/asyncupload":
-        title: "RadAsyncUpload"
+        title: "Async Upload"
         position: 1
     "controls/autocompletebox":
-        title: "RadAutoCompleteBox"
+        title: "AutoCompleteBox"
         position: 1
     "controls/barcode":
-        title: "RadBarcode"
+        title: "Barcode"
         position: 1
     "controls/button":
-        title: "RadButton"
+        title: "Button"
         position: 1
     "controls/calendar":
-        title: "RadCalendar"
+        title: "Calendar"
         position: 1
     "controls/captcha":
-        title: "RadCaptcha"
+        title: "Captcha"
         position: 1
     "controls/chart":
-        title: "RadChart"
+        title: "Chart (Obsolete)"
         position: 1
     "controls/clientdatasource":
-        title: "RadClientDataSource"
+        title: "ClientDataSource"
         position: 1
     "controls/clientexportmanager":
-        title: "RadClientExportManager"
+        title: "Client Export Manager"
         position: 1
     "controls/cloudupload":
-        title: "RadCloudUpload"
+        title: "Cloud Upload"
         position: 1
     "controls/colorpicker":
-        title: "RadColorPicker"
+        title: "Color Picker"
         position: 1
     "controls/combobox":
-        title: "RadComboBox"
+        title: "ComboBox"
         position: 1
     "controls/dataform":
-        title: "RadDataForm"
+        title: "Data Form"
         position: 1
     "controls/datapager":
-        title: "RadDataPager"
+        title: "Data Pager"
         position: 1
     "controls/diagram":
-        title: "RadDiagram"
+        title: "Diagram"
         position: 1
     "controls/dock":
-        title: "RadDock"
+        title: "Dock"
         position: 1
     "controls/dropdownlist":
-        title: "RadDropDownList"
+        title: "DropDownList"
         position: 1
     "controls/dropdowntree":
-        title: "RadDropDownTree"
+        title: "DropDownTree"
         position: 1
     "controls/editor":
-        title: "RadEditor"
+        title: "Editor"
         position: 1
     "controls/fileexplorer":
-        title: "RadFileExplorer"
+        title: "File Explorer"
         position: 1
     "controls/filter":
-        title: "RadFilter"
+        title: "Filter"
         position: 1
     "controls/formdecorator":
-        title: "RadFormDecorator"
+        title: "Form Decorator"
         position: 1
     "controls/gantt":
-        title: "RadGantt"
+        title: "Gantt"
         position: 1
     "controls/gauge":
-        title: "RadGauge"
+        title: "Gauge"
         position: 1
     "controls/grid":
-        title: "RadGrid"
+        title: "Grid"
         position: 1
     "controls/htmlchart":
-        title: "RadHtmlChart"
+        title: "Html Chart"
         position: 1
     "controls/imageeditor":
-        title: "RadImageEditor"
+        title: "Image Editor"
         position: 1
     "controls/imagegallery":
-        title: "RadImageGallery"
+        title: "Image Gallery"
         position: 1
     "controls/input":
-        title: "RadInput"
+        title: "Input"
         position: 1
     "controls/lightbox":
-        title: "RadLightBox"
+        title: "LightBox"
         position: 1
     "controls/listbox":
-        title: "RadListBox"
+        title: "ListBox"
         position: 1
     "controls/listview":
-        title: "RadListView"
+        title: "ListView"
         position: 1
     "controls/map":
-        title: "RadMap"
+        title: "Map"
         position: 1
     "controls/mediaplayer":
-        title: "RadMediaPlayer"
+        title: "Media Player"
         position: 1
     "controls/menu":
-        title: "RadMenu"
+        title: "Menu"
         position: 1
     "controls/navigation":
-        title: "RadNavigation"
+        title: "Navigation"
         position: 1
     "controls/notification":
-        title: "RadNotification"
+        title: "Notification"
         position: 1
     "controls/odatadatasource":
-        title: "RadODataDataSource"
+        title: "OData DataSource"
         position: 1
     "controls/orgchart":
-        title: "RadOrgChart"
+        title: "Org Chart"
         position: 1
     "controls/pagelayout":
-        title: "RadPageLayout"
+        title: "Page Layout"
         position: 1
     "controls/panelbar":
-        title: "RadPanelBar"
+        title: "PanelBar"
         position: 1
     "controls/pdfprocessing":
-        title: "RadPdfProcessing"
+        title: "PdfProcessing"
         position: 1
     "controls/persistenceframework":
-        title: "RadPersistenceFramework"
+        title: "Persistence Framework"
         position: 1
     "controls/pivotgrid":
-        title: "RadPivotGrid"
+        title: "PivotGrid"
         position: 1
     "controls/progressarea":
-        title: "RadProgressArea"
+        title: "Progress Area"
         position: 1
     "controls/progressbar":
-        title: "RadProgressBar"
+        title: "Progress Bar"
         position: 1
     "controls/rating":
-        title: "RadRating"
+        title: "Rating"
         position: 1
     "controls/ribbonbar":
-        title: "RadRibbonBar"
+        title: "RibbonBar"
         position: 1
     "controls/rotator":
-        title: "RadRotator"
+        title: "Rotator"
         position: 1
     "controls/scheduler":
-        title: "RadScheduler"
+        title: "Scheduler"
         position: 1
     "controls/scriptmanager":
-        title: "RadScriptManager"
+        title: "Script Manager"
         position: 1
     "controls/searchbox":
-        title: "RadSearchBox"
+        title: "SearchBox"
         position: 1
     "controls/sitemap":
-        title: "RadSitemap"
+        title: "Sitemap"
         position: 1
     "controls/slider":
-        title: "RadSlider"
+        title: "Slider"
         position: 1
     "controls/socialshare":
-        title: "RadSocialShare"
+        title: "SocialShare"
         position: 1
     "controls/spell":
-        title: "RadSpell"
+        title: "Spell"
         position: 1
     "controls/splitter":
-        title: "RadSplitter"
+        title: "Splitter"
         position: 1
     "controls/spreadprocessing":
-        title: "RadSpreadProcessing"
+        title: "SpreadProcessing"
         position: 1
     "controls/stylesheetmanager":
-        title: "RadStyleSheetManager"
+        title: "StyleSheet Manager"
         position: 1
     "controls/tabstrip":
-        title: "RadTabStrip"
+        title: "Tab Strip"
         position: 1
     "controls/tagcloud":
-        title: "RadTagCloud"
+        title: "TagCloud"
         position: 1
     "controls/tilelist":
-        title: "RadTileList"
+        title: "TileList"
         position: 1
     "controls/toolbar":
-        title: "RadToolBar"
+        title: "ToolBar"
         position: 1
     "controls/tooltip":
-        title: "RadToolTip"
+        title: "ToolTip"
         position: 1
     "controls/treelist":
-        title: "RadTreeList"
+        title: "TreeList"
         position: 1
     "controls/treemap":
-        title: "RadTreeMap"
+        title: "TreeMap"
         position: 1
     "controls/treeview":
-        title: "RadTreeView"
+        title: "TreeView"
         position: 1
     "controls/upload":
-        title: "RadUpload"
+        title: "Upload (Obsolete)"
         position: 1
     "controls/window":
-        title: "RadWindow"
+        title: "Window"
         position: 1
     "controls/wizard":
-        title: "RadWizard"
+        title: "Wizard"
         position: 1
     "controls/wordsprocessing":
-        title: "RadWordsProcessing"
+        title: "WordsProcessing"
         position: 1
     "controls/xmlhttppanel":
-        title: "RadXmlHttpPanel"
+        title: "XmlHttpPanel"
         position: 1
     "controls/ziplibrary":
-        title: "RadZipLibrary"
+        title: "Zip Library"
         position: 1
 
 ## List common control TOC structure so it is reused by all controls
