@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current __Culture__ settings that the pattern represents. The format characters are case-sensitive; for example, 'f' and 'F' represent different patterns.
+The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current **Culture** settings that the pattern represents. The format characters are case-sensitive; for example, 'f' and 'F' represent different patterns.
 
 
 >caption  
@@ -34,7 +34,7 @@ The table below shows a list of the standard format characters. For each standar
 |T|Long time pattern|
 |y|Month year pattern|
 
->caution When you set the __DateFormat__ or __DisplayDateFormat__ property to one of these format characters, the __RadDateInput__ control automatically expands it into aformat string built of the patterns listed below. Thus, changing the __Culture__ property after setting the __DateFormat__ or __DisplayDateFormat__ property to one of these format characters will not change the overall pattern, but only the interpretation of symbols within the pattern.
+>caution When you set the **DateFormat** or **DisplayDateFormat** property to one of these format characters, the **RadDateInput** control automatically expands it into aformat string built of the patterns listed below. Thus, changing the **Culture** property after setting the **DateFormat** or **DisplayDateFormat** property to one of these format characters will not change the overall pattern, but only the interpretation of symbols within the pattern.
 >
 
 

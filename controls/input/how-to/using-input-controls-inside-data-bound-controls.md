@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-You can embed __RadInput__ controls in a data-bound control and use it for editing. When the data-bound controlcreates the__RadTextBox__, __RadNumericTextBox__, __RadDateInput__, or __RadMaskedTextBox__ control as part of its own rendering, it can extract the input values.
+You can embed **RadInput** controls in a data-bound control and use it for editing. When the data-bound controlcreates the **RadTextBox**, **RadNumericTextBox**, **RadDateInput**, or **RadMaskedTextBox** control as part of its own rendering, it can extract the input values.
 
-When embedding __RadInput__ controls inside a data-bound control, you must use a data-binding expression to bind the value of the input control to the data source of the parent control. Data-binding expressions are contained within <%# and %> delimiters and use the __Eval__ and __Bind__ functions. The __Eval__ function is used to define one-way (read-only) binding. The __Bind__ function is used for two-way (updatable) binding.
+When embedding **RadInput** controls inside a data-bound control, you must use a data-binding expression to bind the value of the input control to the data source of the parent control. Data-binding expressions are contained within <%# and %> delimiters and use the **Eval** and **Bind** functions. The **Eval** function is used to define one-way (read-only) binding. The **Bind** function is used for two-way (updatable) binding.
 
->note In addition to calling __Eval__ and __Bind__ methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the <%# and %> delimiters to execute that code and return a value during page processing.
+>note In addition to calling **Eval** and **Bind** methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the <%# and %> delimiters to execute that code and return a value during page processing.
 >
 
 
-The following table shows the properties of the various __RadInput__ controls to bind when using them within a data-bound control:
+The following table shows the properties of the various **RadInput** controls to bind when using them within a data-bound control:
 
 
 >caption  
@@ -34,11 +34,11 @@ The following table shows the properties of the various __RadInput__ controls to
 |RadMaskedTextBox|Text|
 |RadDateInput|DbSelectedDate|
 
->caution With __RadNumericTextbox__ and __RadDateInput__ , use the __DbValue__ and __DbSelectedDate__ properties rather than the __Value__ and __SelectedDate__ properties. The "Db" properties differ from the counterparts you usually use in that they do not throw an exception if the new value is null, string, or DBNull. Setting a DbNull value will internally revert the DbNull to an empty value.
+>caution With **RadNumericTextbox** and **RadDateInput** , use the **DbValue** and **DbSelectedDate** properties rather than the **Value** and **SelectedDate** properties. The "Db" properties differ from the counterparts you usually use in that they do not throw an exception if the new value is null, string, or DBNull. Setting a DbNull value will internally revert the DbNull to an empty value.
 >
 
 
-The following example shows how to use the different __RadInput__ controls inside a databound control (in this case, __RadGrid__):
+The following example shows how to use the different **RadInput** controls inside a databound control (in this case, **RadGrid**):
 
 ````ASPNET
 	    <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None">
