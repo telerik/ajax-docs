@@ -23,9 +23,7 @@ module Jekyll
                 url = page.url.sub('/', '')
 				
 				#exclude MOSS 2007 documentation from the TOC until it is deleted
-				if url.include? "sharepoint/2007/"
-				   next
-				end
+				next if url.include? "sharepoint/2007/"
 				
                 segments = url.split('/')
 
