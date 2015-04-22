@@ -5,7 +5,7 @@ description: FIPS Compatibility
 slug: controls/fips-compatibility
 tags: fips,compatibility
 published: True
-position: 10
+position: 24
 ---
 
 # FIPS Compatibility
