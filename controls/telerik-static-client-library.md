@@ -5,7 +5,7 @@ description: Telerik Static Client Library
 slug: controls/telerik-static-client-library
 tags: telerik,static,client,library
 published: True
-position: 118
+position: 9
 ---
 
 # Telerik Static Client Library

@@ -5,7 +5,7 @@ description: WAI-ARIA Support and Screen Readers
 slug: controls/wai-aria-support-and-screen-readers
 tags: wai-aria,support,and,screen,readers
 published: True
-position: 108
+position: 4
 ---
 
 # WAI-ARIA Support and Screen Readers

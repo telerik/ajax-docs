@@ -5,7 +5,7 @@ description: Controlling Absolute Positioning with z-index
 slug: controls/controlling-absolute-positioning-with-z-index
 tags: controlling,absolute,positioning,with,z-index
 published: True
-position: 112
+position: 6
 ---
 
 # Controlling Absolute Positioning with z-index

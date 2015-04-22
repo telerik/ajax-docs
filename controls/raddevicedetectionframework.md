@@ -5,7 +5,7 @@ description: RadDeviceDetectionFramework
 slug: controls/raddevicedetectionframework
 tags: raddevicedetectionframework
 published: True
-position: 110
+position: 5
 ---
 
 # RadDeviceDetectionFramework

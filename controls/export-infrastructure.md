@@ -5,7 +5,7 @@ description: Export Infrastructure
 slug: controls/export-infrastructure
 tags: export,infrastructure
 published: True
-position: 116
+position: 8
 ---
 
 # Export Infrastructure
