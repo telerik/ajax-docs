@@ -66,9 +66,6 @@ The following properties and methods are used when binding RadLightBox to a data
 <asp:Button ID="Button2" OnClientClick="button2Click(); return false;" runat="server"
 	Text="Open RadLightBox2" />
 ````
-
-
-
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
@@ -96,9 +93,6 @@ private void BindToArrayList(RadLightBox lightBox)
 	lightBox.DataBind();
 }
 ````
-
-
-
 ````VB.NET
 Protected Sub Page_Load(sender As Object, e As EventArgs)
 	If Not Page.IsPostBack Then
@@ -142,9 +136,6 @@ End Sub
 </telerik:RadLightBox>
 <asp:Button ID="Button8" runat="server" Text="Show LightBox" OnClientClick="OpenLightBox(); return false;" />
 ````
-
-
-
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
@@ -177,9 +168,6 @@ public class FileInfoData
 	public string FileNameExt { get; set; }
 }
 ````
-
-
-
 ````VB.NET
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	If Not IsPostBack Then
@@ -250,9 +238,6 @@ End Class
 <asp:Button ID="Button3" OnClientClick="button1Click(); return false;" runat="server"
 	Text="Open RadLightBox1" />
 ````
-
-
-
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
@@ -281,9 +266,6 @@ private void BindToDataTable(RadLightBox lightBox)
 }
 	
 ````
-
-
-
 ````VB.NET
 Protected Sub Page_Load(sender As Object, e As EventArgs)
 	If Not Page.IsPostBack Then
@@ -309,7 +291,6 @@ Private Sub BindToDataTable(lightBox As RadLightBox)
 End Sub
 	
 ````
-
 
 
 ## RadLightBox supports binding to all ASP.NET DataSource components, including:
@@ -450,9 +431,6 @@ public class LightBoxDataItem
 }
 	
 ````
-
-
-
 ````VB.NET
 Public Sub New()
 End Sub
@@ -523,9 +501,6 @@ To bind the databound **RadLightBox** via ModelBinding you need to set only the 
 </telerik:RadLightBox>
 <asp:Button ID="Button7" runat="server" Text="Show LightBox" OnClientClick="OpenLightBox(); return false;" />
 ````
-
-
-
 ````C#
 public IQueryable<MyPicture> GetPictures()
 {
@@ -551,9 +526,6 @@ public class MyPicture
 	}
 }
 ````
-
-
-
 ````VB.NET
 Public Function GetPictures() As IQueryable(Of MyPicture)
 	Return New MyPicture().GetPictures()
