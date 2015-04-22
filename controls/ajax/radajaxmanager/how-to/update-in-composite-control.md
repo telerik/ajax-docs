@@ -1,6 +1,6 @@
 ---
 title: Update in Composite Control
-page_title: Update in Composite Control | UI for ASP.NET AJAX Documentation
+page_title: Update in Composite Control | RadAjax for ASP.NET AJAX Documentation
 description: Update in Composite Control
 slug: ajax/radajaxmanager/how-to/update-in-composite-control
 tags: update,in,composite,control
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-This topic demonstrates a possible scenario of RadAjaxManager updates controls from a composite control. It is important to set IDs of instantiated controls as well as adding them into controls collection. A necessary AJAX setting could be added at CreateChildControls method, however this must be done __after__ controls are added into corresponding controls collection.
+This topic demonstrates a possible scenario of RadAjaxManager updates controls from a composite control. It is important to set IDs of instantiated controls as well as adding them into controls collection. A necessary AJAX setting could be added at CreateChildControls method, however this must be done **after** controls are added into corresponding controls collection.
 
 The example below includes a single RadAjaxManager control on the page. Here is the code-behind:
 

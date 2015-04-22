@@ -1,6 +1,6 @@
 ---
 title: Force Controls in an AJAX-enabled Container to Perform a Postback
-page_title: Force Controls in an AJAX-enabled Container to Perform a Postback | UI for ASP.NET AJAX Documentation
+page_title: Force Controls in an AJAX-enabled Container to Perform a Postback | RadAjax for ASP.NET AJAX Documentation
 description: Force Controls in an AJAX-enabled Container to Perform a Postback
 slug: ajax/radajaxmanager/troubleshooting/force-controls-in-an-ajax-enabled-container-to-perform-a-postback
 tags: force,controls,in,an,ajax-enabled,container,to,perform,a,postback
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-If you used __RadAjaxManager__ to AJAX-enable a container control but you need to conditionally do a full postback with some of its inner controls, this article will demonstrate two steps you can do to allow that.
+If you used **RadAjaxManager** to AJAX-enable a container control but you need to conditionally do a full postback with some of its inner controls, this article will demonstrate two steps you can do to allow that.
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -37,7 +37,7 @@ If you used __RadAjaxManager__ to AJAX-enable a container control but you need t
 
 However, once the container control is added to the UpdatedControls collection, all postback controls in it start performing callbacks instead of regular postbacks. To force these controls to perform postbacks, you can follow these two steps:
 
-__1. Disable AJAX in the OnRequestStart client-side event handler of the RadAjaxManager controlfor the particular postback.__
+**1. Disable AJAX in the OnRequestStart client-side event handler of the RadAjaxManager controlfor the particular postback.**
 
 
 
@@ -91,9 +91,9 @@ __1. Disable AJAX in the OnRequestStart client-side event handler of the RadAjax
 >
 
 
-__2. Set the ChildrenAsTriggers property of the update panel added dynamically around the container control to false__
+**2. Set the ChildrenAsTriggers property of the update panel added dynamically around the container control to false**
 
-For that purpose you need to handle the __OnAjaxSettingCreated__ server-side event of the __RadAjaxManager__ control:
+For that purpose you need to handle the **OnAjaxSettingCreated** server-side event of the **RadAjaxManager** control:
 
 
 

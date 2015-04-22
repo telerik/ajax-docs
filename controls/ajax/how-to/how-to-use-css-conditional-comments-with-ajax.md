@@ -1,6 +1,6 @@
 ---
 title: How to Use Css Conditional Comments with Ajax
-page_title: How to Use Css Conditional Comments with Ajax | UI for ASP.NET AJAX Documentation
+page_title: How to Use Css Conditional Comments with Ajax | RadAjax for ASP.NET AJAX Documentation
 description: How to Use Css Conditional Comments with Ajax
 slug: ajax/how-to/how-to-use-css-conditional-comments-with-ajax
 tags: how,to,use,css,conditional,comments,with,ajax
@@ -24,11 +24,11 @@ With the release of Internet Explorer 7 (IE 7),developers should create separate
 
 This article explains how to take advantage of the CSS conditional comments and still be able to use RadAjax controls.
 
-The __RadAjaxManager__ looks for link or style tags and adds them to the page on AJAX request. It skips the conditionalcomments and therefore all styles are loaded after AJAX request, no matter which browser or version it is. Unfortunately, we have not found afeasible way to check for those and we cannot easily fix this problem. However, there are two workarounds that, depending on the scenario,may work for you:
+The **RadAjaxManager** looks for link or style tags and adds them to the page on AJAX request. It skips the conditionalcomments and therefore all styles are loaded after AJAX request, no matter which browser or version it is. Unfortunately, we have not found afeasible way to check for those and we cannot easily fix this problem. However, there are two workarounds that, depending on the scenario,may work for you:
 
-* Set the __EnablePageHeadUpdate__ property of the AJAXcontrol to __false__ - this way it will not updatethe Head tag. However, if you load controls dynamically with AJAX, their stylesheets will not be applied. This is fixable as well - you just needto manually add the stylesheet declarations for the controls on the page.
+* Set the **EnablePageHeadUpdate** property of the AJAXcontrol to **false** - this way it will not updatethe Head tag. However, if you load controls dynamically with AJAX, their stylesheets will not be applied. This is fixable as well - you just needto manually add the stylesheet declarations for the controls on the page.
 
-* Move the conditional comments out of the Head tag. This way they will not be updated by the __RadAjaxManager__but will still be applied depending on the browser used. This workaround is even valid xhtml1.1 as the HTML comments are skipped by theHTML validator:
+* Move the conditional comments out of the Head tag. This way they will not be updated by the **RadAjaxManager**but will still be applied depending on the browser used. This workaround is even valid xhtml1.1 as the HTML comments are skipped by theHTML validator:
 
 ````ASPNET
 	<body>

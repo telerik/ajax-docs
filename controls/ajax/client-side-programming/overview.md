@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadAjax for ASP.NET AJAX Documentation
 description: Overview
 slug: ajax/client-side-programming/overview
 tags: overview
@@ -14,21 +14,21 @@ position: 0
 
 You can use the client-side API to execute your own JavaScript functions at certain stages of the AJAX request. Additionally, you can use ageneric JavaScript function to make explicit AJAX requests to the server from the client. This help article discusses many of functions.
 
->note You can construct the JavaScript function calls manually or alternatively use the server-side method __GetAjaxEventReference__ and have Telerik __RadAjax__ generate the necessary code for you.
+>note You can construct the JavaScript function calls manually or alternatively use the server-side method **GetAjaxEventReference** and have Telerik **RadAjax** generate the necessary code for you.
 >
 
 
->note  __RadAjax__ for ASP.NET AJAX requires enclosing the server code blocks inside a __RadCodeBlock__ control. More information is available here:[RadCodeBlock and RadScriptBlock]({%slug ajax/radcodeblock-and-radscriptblock%}).
+>note  **RadAjax** for ASP.NET AJAX requires enclosing the server code blocks inside a **RadCodeBlock** control. More information is available here:[RadCodeBlock and RadScriptBlock]({%slug ajax/radcodeblock-and-radscriptblock%}).
 >
 
 
 ## ajaxRequest(arguments)
 
-There are cases in which you may want to trigger postback/ajax request to the server. In this cases you can use the__ajaxRequest(arguments)__ function to initiate a generic AJAX request. When using this function, the event target defaults to the __RadAjaxPanel__ or __RadAjaxManager__ instance. The __arguments__ are the parametersthat the control had used when it raised the request.
+There are cases in which you may want to trigger postback/ajax request to the server. In this cases you can use the**ajaxRequest(arguments)** function to initiate a generic AJAX request. When using this function, the event target defaults to the **RadAjaxPanel** or **RadAjaxManager** instance. The **arguments** are the parametersthat the control had used when it raised the request.
 
 ## AjaxRequest Event
 
-When __ajaxRequest__ function is called on the client it can be handled in the __AjaxRequest__ eventhandler on the server, as shown in __Example 1__.
+When **ajaxRequest** function is called on the client it can be handled in the **AjaxRequest** eventhandler on the server, as shown in **Example 1**.
 
 Example 1: Performe ajax request on the client and handle it on the server.
 
@@ -63,7 +63,7 @@ Example 1: Performe ajax request on the client and handle it on the server.
 ````
 
 
-When an AJAX request is triggered using the __AjaxRequest__ event from the client, the __RadAjaxManager__itself should be set as the AJAX initiator updating the corresponding control, as shown in __Example 2__.
+When an AJAX request is triggered using the **AjaxRequest** event from the client, the **RadAjaxManager**itself should be set as the AJAX initiator updating the corresponding control, as shown in **Example 2**.
 
 Example 2:Setting RadAjaxManager as an ajax initiator which updates the TextBox control.
 
@@ -85,19 +85,19 @@ Example 2:Setting RadAjaxManager as an ajax initiator which updates the TextBox 
 
 ## ajaxRequestWithTarget(eventTarget, eventArgument)
 
-You can call the __ajaxRequestWithTarget(eventTarget, eventArgument)__ function to simulate a postback/AJAX request send byanother control (besides __RadAjaxManager__ or __RadAjaxPanel__) with the specified UniqueID and specifiedarguments. The function’s execution can be handled by the corresponding event (i.e., Button_Click) on the server.
+You can call the **ajaxRequestWithTarget(eventTarget, eventArgument)** function to simulate a postback/AJAX request send byanother control (besides **RadAjaxManager** or **RadAjaxPanel**) with the specified UniqueID and specifiedarguments. The function’s execution can be handled by the corresponding event (i.e., Button_Click) on the server.
 
 
 | Parameters | Description |
 | ------ | ------ |
-| __eventTarget__ |The control that should raise a postback event. You should always use the control's UniqueID..|
-| __eventArgument__ |This is an optional argument for the event.|
+| **eventTarget** |The control that should raise a postback event. You should always use the control's UniqueID..|
+| **eventArgument** |This is an optional argument for the event.|
 
->note  __ajaxRequestWithTarget__ is designed as a substitute of the standard __doPostBack function. Thus, you need to overridethe __RaisePostBackEvent__ of the page in order to get its argument server-side.
+>note  **ajaxRequestWithTarget** is designed as a substitute of the standard **doPostBack function. Thus, you need to overridethe **RaisePostBackEvent** of the page in order to get its argument server-side.
 >
 
 
-__Example 3__ shows how to use AjaxRequestWithTarget.
+**Example 3** shows how to use AjaxRequestWithTarget.
 
 Example 3: The AjaxButton forces the Button to raise a postback event.
 

@@ -1,6 +1,6 @@
 ---
 title: Pass More than one Argument
-page_title: Pass More than one Argument | UI for ASP.NET AJAX Documentation
+page_title: Pass More than one Argument | RadAjax for ASP.NET AJAX Documentation
 description: Pass More than one Argument
 slug: ajax/client-side-programming/how-to/pass-more-than-one-argument
 tags: pass,more,than,one,argument
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-By default, the __ajaxRequest__ and __ajaxRequestWithTarget__ functions accept only one argument. Sometimes you might need to pass more arguments. You can do this by joining the arguments on the client:
+By default, the **ajaxRequest** and **ajaxRequestWithTarget** functions accept only one argument. Sometimes you might need to pass more arguments. You can do this by joining the arguments on the client:
 
 ````JavaScript
 	    var arg3 = arg1 + "," + arg2;
@@ -23,7 +23,7 @@ By default, the __ajaxRequest__ and __ajaxRequestWithTarget__ functions accept o
 
 
 
-and split them on the server in the __AjaxManager_AjaxRequest__:
+and split them on the server in the **AjaxManager_AjaxRequest**:
 
 
 

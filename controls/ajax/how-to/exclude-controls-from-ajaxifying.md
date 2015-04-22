@@ -1,6 +1,6 @@
 ---
 title: Exclude Controls from Ajaxifying
-page_title: Exclude Controls from Ajaxifying | UI for ASP.NET AJAX Documentation
+page_title: Exclude Controls from Ajaxifying | RadAjax for ASP.NET AJAX Documentation
 description: Exclude Controls from Ajaxifying
 slug: ajax/how-to/exclude-controls-from-ajaxifying
 tags: exclude,controls,from,ajaxifying
@@ -12,23 +12,23 @@ position: 4
 
 
 
-By default the __RadAjaxPanel__ AJAX-enables all controls placed inside. If you want to exclude a control from being AJAX-enabled, you can use one of the following approaches:
+By default the **RadAjaxPanel** AJAX-enables all controls placed inside. If you want to exclude a control from being AJAX-enabled, you can use one of the following approaches:
 
-* __Use RadScriptManager's RegisterPostBackControl Methodhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self__
+* **Use RadScriptManager's RegisterPostBackControl Methodhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section1_self**
 
-* __Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self__
+* **Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)http://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section2_self**
 
-* __Cancel the AJAX Request on InitializeRequest Eventhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self__
+* **Cancel the AJAX Request on InitializeRequest Eventhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section3_self**
 
-* __Add the Postback Function Manuallyhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self__
+* **Add the Postback Function Manuallyhttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section4_self**
 
-* __Exclude Dynamically Loaded Controlshttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self__
+* **Exclude Dynamically Loaded Controlshttp://www.telerik.com/help/aspnet-ajax/ajax-exclude.html#Section5_self**
 
 This help article shows how to use each approach.
 
 ## Use RadScriptManager's RegisterPostBackControl Method
 
-You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example 1__).
+You can use the **RadScriptManager's RegisterPostBackControl** method (**Example 1**).
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -66,23 +66,23 @@ You can use the __RadScriptManager's RegisterPostBackControl__ method (__Example
 ````
 
 
->note This approach is not applicable when the page is AJAX-enabled with __RadAjaxManager__ .
+>note This approach is not applicable when the page is AJAX-enabled with **RadAjaxManager** .
 >
 
 
 ## Disable AJAX via the OnRequestStart Event (RadAjaxPanel, RadAjaxManager)
 
-Use the __OnRequestStart__[ client-side event ]({%slug ajax/client-side-programming/events/onrequeststart%}) handler to determine the AJAX initiator and disable AJAX for the current request. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when exporting from an AJAX-enabled Grid:
+Use the **OnRequestStart**[ client-side event ]({%slug ajax/client-side-programming/events/onrequeststart%}) handler to determine the AJAX initiator and disable AJAX for the current request. The event is fired on each request so on the next request, the same check will be performed. A similar implementation is often used when exporting from an AJAX-enabled Grid:
 
 [Export RadGrid content to Excel/Word/CSV/PDF with AJAX enabled](http://www.telerik.com/support/code-library/export-radgrid-content-to-excel-word-csv-pdf-with-ajax-enabled)
 
->note Note that all controls added in the __UpdatedControls__ collection in the __RadAjaxManager__ AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
+>note Note that all controls added in the **UpdatedControls** collection in the **RadAjaxManager** AJAX settings would perform a callback instead of a Postback. To exclude them from ajaxifying use the above approach.
 >
 
 
 ## Cancel the AJAX Request on InitializeRequest Event
 
-This approach is suitable for canceling the AJAX request in a wide range of scenarios (__Example 2__)). Unlike the __OnRequestStart__ event, the __InitializeRequest__ will be triggered for both Telerik (__RadAjaxManager__, __RadAjaxPanel__) and ASP.NET (__UpdatePanel__) AJAX controls.
+This approach is suitable for canceling the AJAX request in a wide range of scenarios (**Example 2**)). Unlike the **OnRequestStart** event, the **InitializeRequest** will be triggered for both Telerik (**RadAjaxManager**, **RadAjaxPanel**) and ASP.NET (**UpdatePanel**) AJAX controls.
 
 Example 2: You can add your custom logic using the instance of the PageRequestManager
 
@@ -95,8 +95,8 @@ Example 2: You can add your custom logic using the instance of the PageRequestMa
 			    if (args.get_postBackElement().id.indexOf("CONTROL_ID") != -1)
 			    {
 			        args.set_cancel(true);  //stop async request
-			        sender._form["__EVENTTARGET"].value = args.get_postBackElement().id.replace(/\_/g, "$");
-			        sender._form["__EVENTARGUMENT"].value = "";
+			        sender._form["**EVENTTARGET"].value = args.get_postBackElement().id.replace(/\_/g, "$");
+			        sender._form["**EVENTARGUMENT"].value = "";
 			        sender._form.submit();
 			        return;
 			    }
@@ -110,9 +110,9 @@ Please note that you have to replace the CONTROL_ID string with the actual name 
 
 ## Add the Postback Function Manually
 
-1. Implement the __realPostBack__ function into your aspx/ascx file1.
+1. Implement the **realPostBack** function into your aspx/ascx file1.
 
-1. Add a custom __OnClick__ attribute to the control (Button in this case)(__Example 3__)).
+1. Add a custom **OnClick** attribute to the control (Button in this case)(**Example 3**)).
 
 Example 3: ASPX
 
@@ -121,7 +121,7 @@ Example 3: ASPX
 	        <script type="text/javascript">
 	            function realPostBack(eventTarget, eventArgument)
 	            {
-	                $find("<%= RadAjaxPanel1.ClientID %>").__doPostBack(eventTarget, eventArgument);
+	                $find("<%= RadAjaxPanel1.ClientID %>").**doPostBack(eventTarget, eventArgument);
 	            }
 	        </script>
 	    </telerik:RadCodeBlock>
@@ -137,7 +137,7 @@ Example 3: ASPX
 
 
 
-And in the code-behind (__Page_Load__ event handler):
+And in the code-behind (**Page_Load** event handler):
 
 
 
@@ -159,7 +159,7 @@ And in the code-behind (__Page_Load__ event handler):
 ````
 
 
-If you do not have a control that registers the ____doPostBack__ function on the page you should add the following line in the __Page_Load__ as well:
+If you do not have a control that registers the ****doPostBack** function on the page you should add the following line in the **Page_Load** as well:
 
 
 
@@ -173,13 +173,11 @@ If you do not have a control that registers the ____doPostBack__ function on the
 ````
 
 
-This will come in handy when you want a single control to perform the Postback for your scenario or you want to upload files from a control in __RadAjaxPanel__.
-
-____
+This will come in handy when you want a single control to perform the Postback for your scenario or you want to upload files from a control in **RadAjaxPanel**.
 
 ## Exclude Dynamically Loaded Controls
 
-If you are loading the user control dynamically, the code __if (!Page.IsPostBack)__ in __Example 3__ in its __Page_Load__ event handler is never executed. You can check for the attached __OnClick__ event instead of the __IsPostBack__ as shown in __Example 4__.
+If you are loading the user control dynamically, the code **if (!Page.IsPostBack)** in **Example 3** in its **Page_Load** event handler is never executed. You can check for the attached **OnClick** event instead of the **IsPostBack** as shown in **Example 4**.
 
 
 

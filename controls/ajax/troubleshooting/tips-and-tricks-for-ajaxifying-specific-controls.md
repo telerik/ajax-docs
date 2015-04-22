@@ -1,6 +1,6 @@
 ---
 title: Tips and Tricks for Ajaxifying Specific Controls
-page_title: Tips and Tricks for Ajaxifying Specific Controls | UI for ASP.NET AJAX Documentation
+page_title: Tips and Tricks for Ajaxifying Specific Controls | RadAjax for ASP.NET AJAX Documentation
 description: Tips and Tricks for Ajaxifying Specific Controls
 slug: ajax/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
 tags: tips,and,tricks,for,ajaxifying,specific,controls
@@ -26,7 +26,7 @@ This article includes tips and tricks that can be helpful in common scenarios wh
 
 ## The usage of RadAjaxManager and RadAjaxPanel leads to reversed control's $create function execution order
 
-This way the execution order is different than the same in regular post back. For example if you have the code below, you could see that the__$create__ functions for both inputs will execute in different order on __initial load__ and after __AJAX request__:
+This way the execution order is different than the same in regular post back. For example if you have the code below, you could see that the**$create** functions for both inputs will execute in different order on **initial load** and after **AJAX request**:
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RCB1" runat="server">
@@ -49,7 +49,7 @@ This way the execution order is different than the same in regular post back. Fo
 
 
 
-Also the __$create function__ execution depends on the __AJAX settings__ order in case __RadAjaxManager__ control is used. The demo below demonstrates that on __AJAX call__ (click Button1) the __$create functions__ for the three buttons will execute in the order they are added in the __RadAjaxManager settings__ as updated controls and not in the original order that appears in __initial page load__:
+Also the **$create function** execution depends on the **AJAX settings** order in case **RadAjaxManager** control is used. The demo below demonstrates that on **AJAX call** (click Button1) the **$create functions** for the three buttons will execute in the order they are added in the **RadAjaxManager settings** as updated controls and not in the original order that appears in **initial page load**:
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -80,7 +80,7 @@ Also the __$create function__ execution depends on the __AJAX settings__ order i
 
 
 
-Since Q1 2014 release of the controls the both cases presented above could be handled by using the new __KeepOriginalOrderOfScriptDescriptorsDuringAjax__ setting, which should be globally set in the web.config file under the appSettings tag:
+Since Q1 2014 release of the controls the both cases presented above could be handled by using the new **KeepOriginalOrderOfScriptDescriptorsDuringAjax** setting, which should be globally set in the web.config file under the appSettings tag:
 
 ````ASPNET
 	   <appSettings>
@@ -92,7 +92,7 @@ Since Q1 2014 release of the controls the both cases presented above could be ha
 
 ## Ajaxifying invisible controls
 
-Note that you could not add control which is initially invisible on the page, to the __RadAjaxManager__ settings. The initiator or the updated control should be always placed in a visible container so that the manager can locate it when necessary.
+Note that you could not add control which is initially invisible on the page, to the **RadAjaxManager** settings. The initiator or the updated control should be always placed in a visible container so that the manager can locate it when necessary.
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager2" runat="server">
@@ -114,7 +114,7 @@ Note that you could not add control which is initially invisible on the page, to
 
 ## Ajaxifying RadMultiPage and RadTabStrip controls
 
-Single __PageView__ could not be added as AJAX initiator or updated control in the AJAX settings. The only possible approach is to add the whole __RadMultiPage__ in the __RadAjaxManager__ settings or wrap the whole control into __RadAjaxPanel__. When we set the __MultiPage__ as an updated control, you should also include the __TabStrip__ associated with it in the __AjaxSettings__.
+Single **PageView** could not be added as AJAX initiator or updated control in the AJAX settings. The only possible approach is to add the whole **RadMultiPage** in the **RadAjaxManager** settings or wrap the whole control into **RadAjaxPanel**. When we set the **MultiPage** as an updated control, you should also include the **TabStrip** associated with it in the **AjaxSettings**.
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -156,8 +156,8 @@ Single __PageView__ could not be added as AJAX initiator or updated control in t
 
 ## Ajaxifying RadDock
 
-The RadDock is not a standard control and you can't update only one __RadDock__ separately. If you want to make an AJAX call you should update the parent __RadDockZone__.
+The RadDock is not a standard control and you can't update only one **RadDock** separately. If you want to make an AJAX call you should update the parent **RadDockZone**.
 
 ## Ajaxifying container controls
 
-Controls like __RadioButtonList__, __RadPane__, __RadDock__ should be added to the __RadAjaxManager__ settings except as AJAX initiator as __UpdatedControls__ also. This is due to their nature of container controls.
+Controls like **RadioButtonList**, **RadPane**, **RadDock** should be added to the **RadAjaxManager** settings except as AJAX initiator as **UpdatedControls** also. This is due to their nature of container controls.

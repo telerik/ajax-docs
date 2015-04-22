@@ -1,6 +1,6 @@
 ---
 title: RadCodeBlock and RadScriptBlock
-page_title: RadCodeBlock and RadScriptBlock | UI for ASP.NET AJAX Documentation
+page_title: RadCodeBlock and RadScriptBlock | RadAjax for ASP.NET AJAX Documentation
 description: RadCodeBlock and RadScriptBlock
 slug: ajax/radcodeblock-and-radscriptblock
 tags: radcodeblock,and,radscriptblock
@@ -12,19 +12,19 @@ position: 9
 
 
 
-This article describes how __RadCodeBlock__ and __RadScriptBlock__ work and provides simple examples.You can use __RadCodeBlock__ and __RadScriptBlock__ to allow server and client script to work well together with AJAX updates.
+This article describes how **RadCodeBlock** and **RadScriptBlock** work and provides simple examples.You can use **RadCodeBlock** and **RadScriptBlock** to allow server and client script to work well together with AJAX updates.
 
 ## RadCodeBlock
 
-You should use __RadCodeBlock__ when you have server code blocks placed within your markup (most often some JavaScript functions accessing server controls). __RadCodeBlock__ (see __Example 1__) isolates the code block and prevents the server error:
+You should use **RadCodeBlock** when you have server code blocks placed within your markup (most often some JavaScript functions accessing server controls). **RadCodeBlock** (see **Example 1**) isolates the code block and prevents the server error:
 
 *System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).*
 
 For more background on this issue see Rick Strahl's article, [Understanding how <% %>expressions render and why Controls.Add() doesn't work](http://www.west-wind.com/WebLog/posts/6148.aspx).
 
-The way code blocks (server script within "<%= %>"tags) are implemented in ASP.NET may interfere with the __RadAjaxManager__ render interception mechanism.
+The way code blocks (server script within "<%= %>"tags) are implemented in ASP.NET may interfere with the **RadAjaxManager** render interception mechanism.
 
-__Example 1__: Using a __RadCodeBlock__ in your markup will isolate your code block and prevents the System.Web.HttpException server error.
+**Example 1**: Using a **RadCodeBlock** in your markup will isolate your code block and prevents the System.Web.HttpException server error.
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -40,11 +40,11 @@ __Example 1__: Using a __RadCodeBlock__ in your markup will isolate your code bl
 
 ## RadScriptBlock
 
-You should use a __RadScriptBlock__ (see __Example 2__) where you have JavaScript that evaluates after an AJAX request, for example, when the content of __RadAjaxPanel__ is updated asynchronously. You can also use a __RadScriptBlock__ like a __RadCodeBlock__ to handle server code blocks (<% ... %>).
+You should use a **RadScriptBlock** (see **Example 2**) where you have JavaScript that evaluates after an AJAX request, for example, when the content of **RadAjaxPanel** is updated asynchronously. You can also use a **RadScriptBlock** like a **RadCodeBlock** to handle server code blocks (<% ... %>).
 
 RadScriptBlock wraps JavaScript where the JavaScript is located in an updating area. The example below shows a RadScriptBlock within a RadAjaxPanel.
 
-__Example 2__: Using a __RadScriptBlock__ to isolate JavaScript code
+**Example 2**: Using a **RadScriptBlock** to isolate JavaScript code
 
 ````ASPNET
 	    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">

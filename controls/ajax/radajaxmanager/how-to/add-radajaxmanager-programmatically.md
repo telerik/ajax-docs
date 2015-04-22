@@ -1,6 +1,6 @@
 ---
 title: Add RadAjaxManager Programmatically
-page_title: Add RadAjaxManager Programmatically | UI for ASP.NET AJAX Documentation
+page_title: Add RadAjaxManager Programmatically | RadAjax for ASP.NET AJAX Documentation
 description: Add RadAjaxManager Programmatically
 slug: ajax/radajaxmanager/how-to/add-radajaxmanager-programmatically
 tags: add,radajaxmanager,programmatically
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-There are some cases where you might need to create the RadAjaxManager control programmatically. This is an easy task, however note this should be done in the __Page_Init__ event but later. Below is a sample code you can use:
+There are some cases where you might need to create the RadAjaxManager control programmatically. This is an easy task, however note this should be done in the **Page_Init** event but later. Below is a sample code you can use:
 
 
 
@@ -35,9 +35,9 @@ There are some cases where you might need to create the RadAjaxManager control p
 ````
 
 
-Then, to access the RadAjaxManager instance you can call the __GetCurrent()__ static method of the RadAjaxManager class:
+Then, to access the RadAjaxManager instance you can call the **GetCurrent()** static method of the RadAjaxManager class:
 
-__Server-Side__
+**Server-Side**
 
 
 

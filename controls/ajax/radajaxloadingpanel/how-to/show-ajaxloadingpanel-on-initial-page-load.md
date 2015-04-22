@@ -1,6 +1,6 @@
 ---
 title: Show AjaxLoadingPanel on Initial Page Load
-page_title: Show AjaxLoadingPanel on Initial Page Load | UI for ASP.NET AJAX Documentation
+page_title: Show AjaxLoadingPanel on Initial Page Load | RadAjax for ASP.NET AJAX Documentation
 description: Show AjaxLoadingPanel on Initial Page Load
 slug: ajax/radajaxloadingpanel/how-to/show-ajaxloadingpanel-on-initial-page-load
 tags: show,ajaxloadingpanel,on,initial,page,load
@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-This help article shows sample code that lets you show a __RadAjaxLoadingPanel__ as part of the initial page load.
+This help article shows sample code that lets you show a **RadAjaxLoadingPanel** as part of the initial page load.
 
-Although Telerik designed __RadAjaxLoadingPanel__ so that you can display a progress indicator when an AJAX-enabled control updates,you can also show the loading panel on initial page load as well.This functionality is not supported out of the box; however, you can easily add it using some additional code.
+Although Telerik designed **RadAjaxLoadingPanel** so that you can display a progress indicator when an AJAX-enabled control updates,you can also show the loading panel on initial page load as well.This functionality is not supported out of the box; however, you can easily add it using some additional code.
 
-Overall, this example shows how to use the __pageLoad__ function, which initiates an __AJAX request__ from the client. To be more functional, this example includes an update of an asp: Panel.Thus, you need an __AjaxSetting__, where __RadAjaxManager__ "updates" the panel by showing an initially invisible inner panel. The JavaScript in __Example 1__ shows how ajaxRequest only on iitla page load could be executed and the makup in __Example 2__ shows the ajax configuration on the page.The code behind in __Example 3__ shows how to show the panel for two seconds on inital load.
+Overall, this example shows how to use the **pageLoad** function, which initiates an **AJAX request** from the client. To be more functional, this example includes an update of an asp: Panel.Thus, you need an **AjaxSetting**, where **RadAjaxManager** "updates" the panel by showing an initially invisible inner panel. The JavaScript in **Example 1** shows how ajaxRequest only on iitla page load could be executed and the makup in **Example 2** shows the ajax configuration on the page.The code behind in **Example 3** shows how to show the panel for two seconds on inital load.
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -59,7 +59,7 @@ Overall, this example shows how to use the __pageLoad__ function, which initiate
 
 
 
-__Example 3__
+**Example 3**
 
 
 

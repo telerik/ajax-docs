@@ -1,6 +1,6 @@
 ---
 title: Load User Controls
-page_title: Load User Controls | UI for ASP.NET AJAX Documentation
+page_title: Load User Controls | RadAjax for ASP.NET AJAX Documentation
 description: Load User Controls
 slug: ajax/how-to/load-user-controls
 tags: load,user,controls
@@ -18,7 +18,7 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 
 1. You need to have an appropriate container for it, for example asp:Panel.
 
-1. Instantiate your user control in __Page_Init__ or __Page_Load__ and always recreate the last loaded User Control:
+1. Instantiate your user control in **Page_Init** or **Page_Load** and always recreate the last loaded User Control:
 
 
 
@@ -56,7 +56,7 @@ The dynamic loading of user controls follows the same logic as in normal postbac
 
 
 
-__Example__: The following example demonstrates how to implement the above steps in simple scenario.
+**Example**: The following example demonstrates how to implement the above steps in simple scenario.
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

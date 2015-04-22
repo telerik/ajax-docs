@@ -1,6 +1,6 @@
 ---
 title: Error Handling for AJAX Requests
-page_title: Error Handling for AJAX Requests | UI for ASP.NET AJAX Documentation
+page_title: Error Handling for AJAX Requests | RadAjax for ASP.NET AJAX Documentation
 description: Error Handling for AJAX Requests
 slug: ajax/troubleshooting/error-handling-for-ajax-requests
 tags: error,handling,for,ajax,requests
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-Telerik did not implement custom error handling for __RadAjax__, because the Microsoft AJAX frameworkalready takes care of that. During partial-page rendering, you can handle errors by doing the following:
+Telerik did not implement custom error handling for **RadAjax**, because the Microsoft AJAX frameworkalready takes care of that. During partial-page rendering, you can handle errors by doing the following:
 
 * Set the [AllowCustomErrorsRedirect](http://msdn.microsoft.com/en-us/library/system.web.ui.scriptmanager.allowcustomerrorsredirect.aspx) property, which determines how the custom error section of the Web.config file is used when an error occurs during an asynchronous postback.
 

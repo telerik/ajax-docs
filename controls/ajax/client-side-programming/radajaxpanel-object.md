@@ -1,6 +1,6 @@
 ---
 title: RadAjaxPanel Object
-page_title: RadAjaxPanel Object | UI for ASP.NET AJAX Documentation
+page_title: RadAjaxPanel Object | RadAjax for ASP.NET AJAX Documentation
 description: RadAjaxPanel Object
 slug: ajax/client-side-programming/radajaxpanel-object
 tags: radajaxpanel,object
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The following table lists significant methods of the __RadAjaxPanel__ client-side object:
+The following table lists significant methods of the **RadAjaxPanel** client-side object:
 
 
 >caption  

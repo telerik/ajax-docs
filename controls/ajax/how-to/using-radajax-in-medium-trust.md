@@ -1,6 +1,6 @@
 ---
 title: Using RadAjax in Medium Trust
-page_title: Using RadAjax in Medium Trust | UI for ASP.NET AJAX Documentation
+page_title: Using RadAjax in Medium Trust | RadAjax for ASP.NET AJAX Documentation
 description: Using RadAjax in Medium Trust
 slug: ajax/how-to/using-radajax-in-medium-trust
 tags: using,radajax,in,medium,trust
@@ -16,7 +16,7 @@ position: 12
 
 When your application is running in Medium trust and you want to use RadAjax on your pages, you need to use one of the following approaches in order to make RadAjax work properly:
 
-1. Inherit your page from __RadAjaxPage__ as shown below:
+1. Inherit your page from **RadAjaxPage** as shown below:
 
 
 
@@ -38,7 +38,7 @@ When your application is running in Medium trust and you want to use RadAjax on 
 ````
 
 
-1. Set the __RestoreOriginalDelegate__ property of the RadAjax control to __false__:
+1. Set the **RestoreOriginalDelegate** property of the RadAjax control to **false**:
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" RestoreOriginalRenderDelegate="false">
@@ -52,7 +52,7 @@ When your application is running in Medium trust and you want to use RadAjax on 
 
 
 
-1. Implement the __IRadAjaxPage__ interface:
+1. Implement the **IRadAjaxPage** interface:
 
 
 

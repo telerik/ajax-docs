@@ -1,6 +1,6 @@
 ---
 title: AjaxUpdatedControl Properties
-page_title: AjaxUpdatedControl Properties | UI for ASP.NET AJAX Documentation
+page_title: AjaxUpdatedControl Properties | RadAjax for ASP.NET AJAX Documentation
 description: AjaxUpdatedControl Properties
 slug: ajax/server-side-programming/ajaxupdatedcontrol-properties
 tags: ajaxupdatedcontrol,properties
@@ -16,11 +16,11 @@ position: 2
 
 When configuring ajax settings, be it declaratively, or dynamically, you might need to set some of the below properties to each of the updated controls:
 
-* __LoadingPanelID__ - gets or sets the loading panel ID which is will be displayed over the updated control during ajax.
+* **LoadingPanelID** - gets or sets the loading panel ID which is will be displayed over the updated control during ajax.
 
-* __UpdatePanelHeight__ - determines what wil be the height of the ajax panel wrapped around the updated control. Useful when you need to set 100% high to the parent of the updated control.
+* **UpdatePanelHeight** - determines what wil be the height of the ajax panel wrapped around the updated control. Useful when you need to set 100% high to the parent of the updated control.
 
-* __UpdatePanelRenderMode__ - determines what wil be the ajax panel render mode. For more information see [this article]({%slug ajax/appearance-and-styling/render-modes%})
+* **UpdatePanelRenderMode** - determines what wil be the ajax panel render mode. For more information see [this article]({%slug ajax/appearance-and-styling/render-modes%})
 
 Example:
 

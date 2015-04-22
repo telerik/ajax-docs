@@ -1,6 +1,6 @@
 ---
 title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel
-page_title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel | UI for ASP.NET AJAX Documentation
+page_title: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel | RadAjax for ASP.NET AJAX Documentation
 description: Ajax-enable a Scenario through RadAjaxManager and RadAjaxLoadingPanel
 slug: ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel
 tags: ajax-enable,a,scenario,through,radajaxmanager,and,radajaxloadingpanel
@@ -14,34 +14,34 @@ position: 2
 
 ## 
 
-This page walks through the basic steps required to AJAX-enable an application using __RadAjaxManager__ and __AjaxLoadingPanel__. You can add a __RadAjaxManager__ control to any web application that requires the replacement of ordinary post backs with AJAX requests. AJAX-enabling a web application using __RadAjaxManager__ is a completely codeless process. You can use an __AjaxLoadingPanel__ enhance the user experience. __AjaxLoadingPanel__supports image templates, which your application can display as progress indicators whenever a callback request is performed, i.e., when the page is loading.
+This page walks through the basic steps required to AJAX-enable an application using **RadAjaxManager** and **AjaxLoadingPanel**. You can add a **RadAjaxManager** control to any web application that requires the replacement of ordinary post backs with AJAX requests. AJAX-enabling a web application using **RadAjaxManager** is a completely codeless process. You can use an **AjaxLoadingPanel** enhance the user experience. **AjaxLoadingPanel**supports image templates, which your application can display as progress indicators whenever a callback request is performed, i.e., when the page is loading.
 
-1. To add a __RadAjaxManager__ to a web page that you are modifying in design view in Visual Studio, drag it from the Telerik toolbox (__Figure 1__) to the design surface.
+1. To add a **RadAjaxManager** to a web page that you are modifying in design view in Visual Studio, drag it from the Telerik toolbox (**Figure 1**) to the design surface.
 >caption Figure 1: Dragging a RadAjaxManager from the Telerik toolbox to the design surface.
 
 ![AjaxManager Toolbox](images/RadAjaxManagerToolBox.png)
 
-1. Next, drag and drop a __RadAjaxLoadingPanel__ control from the Telerik toolbox to the design surface (__Figure 2__).
+1. Next, drag and drop a **RadAjaxLoadingPanel** control from the Telerik toolbox to the design surface (**Figure 2**).
 >caption Figure 2: Drag an RadAjaxLoadingPanel from the Telerik toolbox to the design surface.
 
 ![](images/RadAjaxLoadingPanelToolBox.png)
 
-1. To AJAX-enable the individual controls on the page, click on the box in the top right corner to open the Smart Tag and configure __RadAjaxManager__ through the “__Open Ajax Settings Configuration Wizard__“ link of the Smart Tag (__Figure 3__). This step is completely codeless, requiring only design-time configuration of the necessary relations between the __RadAjaxManager__ and the other controls:
+1. To AJAX-enable the individual controls on the page, click on the box in the top right corner to open the Smart Tag and configure **RadAjaxManager** through the “**Open Ajax Settings Configuration Wizard**“ link of the Smart Tag (**Figure 3**). This step is completely codeless, requiring only design-time configuration of the necessary relations between the **RadAjaxManager** and the other controls:
 >caption Figure 3: Click the link, Open Ajax Settings Configuration Wizard, to open the RadAjaxManager Configuration Wizard.
 
 ![AjaxManager Tasks](images/AjaxManagerTasks.jpg)
 
-1. Now you should see the RadAjaxManager Configuration Wizard (__Figure 4__). On the left-hand side are controls that will initiate AJAX requests. In the center of the configuration wizard are controls that will be updated via AJAX. You can include and exclude items from these lists via the checkboxes to the left of each control name.
+1. Now you should see the RadAjaxManager Configuration Wizard (**Figure 4**). On the left-hand side are controls that will initiate AJAX requests. In the center of the configuration wizard are controls that will be updated via AJAX. You can include and exclude items from these lists via the checkboxes to the left of each control name.
 >caption Figure 4: The left and center parts of the RadAjaxManager Configuration Wizard let you set which controls initiate AJAX requests and which controls will be updated via AJAX.
 
 ![LoadingPanel Setting](images/SetTheLoadingPanelID.png)
 
-1. You can display a loading panel for each control that will be updated via the __RadAjaxManager__. Set the __LoadingPanelID__ property to the ID(__Figure 5__) of an existing __RadAjaxLoadingPanel__ control:
+1. You can display a loading panel for each control that will be updated via the **RadAjaxManager**. Set the **LoadingPanelID** property to the ID(**Figure 5**) of an existing **RadAjaxLoadingPanel** control:
 >caption Figure 5: Set the LoadingPanelID to the ID of the RadAjaxLoadingPanel you just added.
 
 ![LoadingPanel Setting](images/SetTheLoadingPanelID.png)
 
-1. __Figure 6__ shows how the AJAX-enabled application looks at run-time. With the help of the __RadAjaxManager__, the normalpost back is replaced by a callback. The loading panel displays in the currently updating control:![](images/HowTheAjaxApplicationWorks.png)
+1. **Figure 6** shows how the AJAX-enabled application looks at run-time. With the help of the **RadAjaxManager**, the normalpost back is replaced by a callback. The loading panel displays in the currently updating control:![](images/HowTheAjaxApplicationWorks.png)
 
 # See Also
 

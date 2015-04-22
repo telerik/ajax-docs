@@ -1,6 +1,6 @@
 ---
 title: Assign Different Client Events for Different Controls
-page_title: Assign Different Client Events for Different Controls | UI for ASP.NET AJAX Documentation
+page_title: Assign Different Client Events for Different Controls | RadAjax for ASP.NET AJAX Documentation
 description: Assign Different Client Events for Different Controls
 slug: ajax/client-side-programming/how-to/assign-different-client-events-for-different-controls
 tags: assign,different,client,events,for,different,controls
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-In order to assign different client-events to different AJAX-enabled controls, you can use the approach shown in __Example 1__.
+In order to assign different client-events to different AJAX-enabled controls, you can use the approach shown in **Example 1**.
 
-__Example 1: You can determine the target control of the AJAX request using the client-side events of the RadAjaxManager.__
+**Example 1: You can determine the target control of the AJAX request using the client-side events of the RadAjaxManager.**
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -68,7 +68,7 @@ __Example 1: You can determine the target control of the AJAX request using the 
 
 
 
-This way the __DropDownList__ and the __Button__ will have different client-events although they are using the same __RadAjaxManager__ or __RadAjaxPanel__.
+This way the **DropDownList** and the **Button** will have different client-events although they are using the same **RadAjaxManager** or **RadAjaxPanel**.
 
 # See Also
 

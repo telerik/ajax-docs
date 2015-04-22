@@ -1,6 +1,6 @@
 ---
 title: Properties
-page_title: Properties | UI for ASP.NET AJAX Documentation
+page_title: Properties | RadAjax for ASP.NET AJAX Documentation
 description: Properties
 slug: ajax/server-side-programming/properties
 tags: properties
@@ -12,17 +12,17 @@ position: 0
 
 
 
-This help article defines the most used __RadAjaxControl__ properties and show examples of using a few of them.
+This help article defines the most used **RadAjaxControl** properties and show examples of using a few of them.
 
 ## 
 
-* __EnableAJAX__ - When you set the __EnableAJAX__ property to __true__ (the default),all requests (controls either within the __RadAjaxPanel__ Template or managed by the __RadAjaxManager__)are handled via AJAX. If this property is __false__, requests are handled in the legacy postback manner.
+* **EnableAJAX** - When you set the **EnableAJAX** property to **true** (the default),all requests (controls either within the **RadAjaxPanel** Template or managed by the **RadAjaxManager**)are handled via AJAX. If this property is **false**, requests are handled in the legacy postback manner.
 
-* __EnableHistory__ - When you set the __EnableHistory__ property to __true__ (the default is __false__), browser history is enabled, even when using AJAX. The forward and back buttons of the browser work as expected (IE browser only). For more information, see this article:	[Back and Forward Browser Buttons]({%slug ajax/troubleshooting/back-and-forward-browser-buttons%})
+* **EnableHistory** - When you set the **EnableHistory** property to **true** (the default is **false**), browser history is enabled, even when using AJAX. The forward and back buttons of the browser work as expected (IE browser only). For more information, see this article:	[Back and Forward Browser Buttons]({%slug ajax/troubleshooting/back-and-forward-browser-buttons%})
 
-* __EnablePageHeadUpdate__ - When you set the __EnablePageHeadUpdate__ property to__true__ (the default), the Page <Head> element can be modified during AJAX updates. You'll find this functionalityespecially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
+* **EnablePageHeadUpdate** - When you set the **EnablePageHeadUpdate** property to**true** (the default), the Page <Head> element can be modified during AJAX updates. You'll find this functionalityespecially useful when you initiate controls as invisible or you are loading the control dynamically on AJAX request.
 
-* __IsAjaxRequest__ - Set this property __true__ when the current request is through AJAX and __false__ when the request is a standard postback. In __Example 1__, "Button1" has been configured to be AJAX-enabled and the alert will display __true__. Clicking "Button2" will display __false__.
+* **IsAjaxRequest** - Set this property **true** when the current request is through AJAX and **false** when the request is a standard postback. In **Example 1**, "Button1" has been configured to be AJAX-enabled and the alert will display **true**. Clicking "Button2" will display **false**.
 
 
 
@@ -65,13 +65,13 @@ This help article defines the most used __RadAjaxControl__ properties and show e
 ````
 
 
-* __DefaultLoadingPanelID__ - This property allows you to specify a default __LoadingPanel__ thatwill be shown when updating an AJAX enabled controls.
+* **DefaultLoadingPanelID** - This property allows you to specify a default **LoadingPanel** thatwill be shown when updating an AJAX enabled controls.
 
-* __UpdatePanelsRenderMode__ - This property determines the way of rendering the ajax panels. When you chose the__Block__ option the panels will be rendered as __div__ elements, while if you chose__Inline__ option they will be rendered as __span__ elements.
+* **UpdatePanelsRenderMode** - This property determines the way of rendering the ajax panels. When you chose the**Block** option the panels will be rendered as **div** elements, while if you chose**Inline** option they will be rendered as **span** elements.
 
-* __UpdateInitiatorPanelsOnly__ - By setting this property to __true__ (its default value is__false__) only the containers added as __UpdatedControls__ for a specific initiator will beconditionally updated. For more information, you can check out the [Update Initiator's UpdatePanels only]({%slug ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only%}) help article.
+* **UpdateInitiatorPanelsOnly** - By setting this property to **true** (its default value is**false**) only the containers added as **UpdatedControls** for a specific initiator will beconditionally updated. For more information, you can check out the [Update Initiator's UpdatePanels only]({%slug ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only%}) help article.
 
-* __ResponseScripts__ - This collection of strings contain JavaScript that you want to execute when the response returns to the browser. In __Example 2__ an "__alert()__" JavaScript function is added to the collection. Also see below for the rendered HTML results showing the call to __alert()__ near the end of the HTML.
+* **ResponseScripts** - This collection of strings contain JavaScript that you want to execute when the response returns to the browser. In **Example 2** an "**alert()**" JavaScript function is added to the collection. Also see below for the rendered HTML results showing the call to **alert()** near the end of the HTML.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Disable AJAX when Client Browser Does Not Support it
-page_title: Disable AJAX when Client Browser Does Not Support it | UI for ASP.NET AJAX Documentation
+page_title: Disable AJAX when Client Browser Does Not Support it | RadAjax for ASP.NET AJAX Documentation
 description: Disable AJAX when Client Browser Does Not Support it
 slug: ajax/how-to/disable-ajax-when-client-browser-does-not-support-it
 tags: disable,ajax,when,client,browser,does,not,support,it
@@ -14,9 +14,9 @@ position: 7
 
 ## 
 
-Telerik RadAjax controls won't work in browsers that do not support [XmlHttpRequests](http://en.wikipedia.org/wiki/XMLHttpRequest). You may want to disable AJAX when such a browser opensyour site. To disable AJAX, you can set the __EnableAJAX__ property of Telerik __RadAjaxManager__ or __RadAjaxPanel__ control to __false__ both on client- and server-side.
+Telerik RadAjax controls won't work in browsers that do not support [XmlHttpRequests](http://en.wikipedia.org/wiki/XMLHttpRequest). You may want to disable AJAX when such a browser opensyour site. To disable AJAX, you can set the **EnableAJAX** property of Telerik **RadAjaxManager** or **RadAjaxPanel** control to **false** both on client- and server-side.
 
-The .NET 2.0 framework provides the __SupportsXmlHttp__ property and it should be used to check if the browsersupports __XmlHttpRequest__:
+The .NET 2.0 framework provides the **SupportsXmlHttp** property and it should be used to check if the browsersupports **XmlHttpRequest**:
 
 
 
@@ -32,9 +32,9 @@ The .NET 2.0 framework provides the __SupportsXmlHttp__ property and it should b
 ````
 
 
-When this check is made in the __Page_Load__ event handler, it will make your page work as if it was in a standard postback scenario for those browsers.
+When this check is made in the **Page_Load** event handler, it will make your page work as if it was in a standard postback scenario for those browsers.
 
->caution Some browsers do support __XmlHttpRequests__ and still return __false__ for the __SupportsXmlHttp__ property.In such cases, you should define Browser definition files. You can find more info in the links below.
+>caution Some browsers do support **XmlHttpRequests** and still return **false** for the **SupportsXmlHttp** property.In such cases, you should define Browser definition files. You can find more info in the links below.
 >
 
 

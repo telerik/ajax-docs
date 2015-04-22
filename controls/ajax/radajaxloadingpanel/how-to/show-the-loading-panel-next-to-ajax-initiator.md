@@ -1,6 +1,6 @@
 ---
 title: Show the Loading Panel next to AJAX Initiator
-page_title: Show the Loading Panel next to AJAX Initiator | UI for ASP.NET AJAX Documentation
+page_title: Show the Loading Panel next to AJAX Initiator | RadAjax for ASP.NET AJAX Documentation
 description: Show the Loading Panel next to AJAX Initiator
 slug: ajax/radajaxloadingpanel/how-to/show-the-loading-panel-next-to-ajax-initiator
 tags: show,the,loading,panel,next,to,ajax,initiator
@@ -16,7 +16,7 @@ position: 2
 
 Sometimes people may want to show the loading panel on a specific position, like right next to the AJAX initiator for example. When you have a complex control, e.g. tabstrip, it could be better to show the loading over the clicked tab (say the tabstrip is updated itself via AJAX) instead of showing it on one and the same place.
 
-In order to achieve that you can use a __Sticky__ loading panel (set the RadAjaxLoadingPanel __IsSticky__ property to true) and set the loading panel position on the __OnRequestStart__client-sideevent, using the event arguments' __EventTargetElement__ attributes. Below is a sample code you can use and modify according to your exact needs. There are some standard controls (for simplicity) which are ajaxified and update a label control in this example.
+In order to achieve that you can use a **Sticky** loading panel (set the RadAjaxLoadingPanel **IsSticky** property to true) and set the loading panel position on the **OnRequestStart**client-sideevent, using the event arguments' **EventTargetElement** attributes. Below is a sample code you can use and modify according to your exact needs. There are some standard controls (for simplicity) which are ajaxified and update a label control in this example.
 
 There is just one tricky thing here (the first line from the following RequestStart function) - we clear the displayed loading panels cache, otherwise the first loading panel position will be used on each subsequent request. Then we change *left* and *top* attributes of loading panel element style according to the offset of the event target in this case. On button and checkbox click events we just update the label server-side.
 

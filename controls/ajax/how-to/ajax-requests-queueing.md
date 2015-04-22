@@ -1,6 +1,6 @@
 ---
 title: Ajax Requests Queueing
-page_title: Ajax Requests Queueing | UI for ASP.NET AJAX Documentation
+page_title: Ajax Requests Queueing | RadAjax for ASP.NET AJAX Documentation
 description: Ajax Requests Queueing
 slug: ajax/how-to/ajax-requests-queueing
 tags: ajax,requests,queueing
@@ -14,9 +14,9 @@ position: 11
 
 ## 
 
-By design, the ASP.NET AJAX Framework cancels the ongoing AJAX request if you try to initiate another one prior to receiving the response from the first one.To change this behavior, you can set the __RequestQueueSize__ property to a value greater than zero, which enables the queueing mechanism of __RadAjax__, and will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
+By design, the ASP.NET AJAX Framework cancels the ongoing AJAX request if you try to initiate another one prior to receiving the response from the first one.To change this behavior, you can set the **RequestQueueSize** property to a value greater than zero, which enables the queueing mechanism of **RadAjax**, and will allow you to complete the ongoing request and then initiate the pending requests in the control queue.
 
-If the queue is full (queue size equals __RequestQueueSize__), an attempt for new AJAX requests will be discarded.
+If the queue is full (queue size equals **RequestQueueSize**), an attempt for new AJAX requests will be discarded.
 
 The default value is 0 (queueing disabled).
 

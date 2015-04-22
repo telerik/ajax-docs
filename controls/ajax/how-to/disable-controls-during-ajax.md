@@ -1,6 +1,6 @@
 ---
 title: Disable Controls During AJAX
-page_title: Disable Controls During AJAX | UI for ASP.NET AJAX Documentation
+page_title: Disable Controls During AJAX | RadAjax for ASP.NET AJAX Documentation
 description: Disable Controls During AJAX
 slug: ajax/how-to/disable-controls-during-ajax
 tags: disable,controls,during,ajax
@@ -16,9 +16,9 @@ position: 8
 
 This help article describes how to disable a single control during an AJAX update or how to set a global flag to disable a control, and shows examples of each.
 
-You may want to disable control during an AJAX update, so the users won't be able to use it before response end. You can easily disable a control during an AJAX update using the [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) and[OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) client-side events and changing the __disabled__ value.
+You may want to disable control during an AJAX update, so the users won't be able to use it before response end. You can easily disable a control during an AJAX update using the [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}) and[OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) client-side events and changing the **disabled** value.
 
-__Example 1__ shows this approach.
+**Example 1** shows this approach.
 
 Example 1: Prevent the interaction with a control during an AJAX request.
 
@@ -49,11 +49,11 @@ Example 1: Prevent the interaction with a control during an AJAX request.
 
 
 
-Implementing the code in __Example 1__ will disable any control that has already started a request until its response ends.
+Implementing the code in **Example 1** will disable any control that has already started a request until its response ends.
 
 
 
-If you want to disable AJAX until the current response finishes, no matter which control has started the first request and which is going to make a second one, you can set a global flag as shown in __Example 2__.
+If you want to disable AJAX until the current response finishes, no matter which control has started the first request and which is going to make a second one, you can set a global flag as shown in **Example 2**.
 
 Example 2: Notify the user that an action is in progress.
 

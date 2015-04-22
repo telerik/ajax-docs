@@ -1,6 +1,6 @@
 ---
 title: Show and Hide AjaxLoadingPanel explicitly
-page_title: Show and Hide AjaxLoadingPanel explicitly | UI for ASP.NET AJAX Documentation
+page_title: Show and Hide AjaxLoadingPanel explicitly | RadAjax for ASP.NET AJAX Documentation
 description: Show and Hide AjaxLoadingPanel explicitly
 slug: ajax/radajaxloadingpanel/how-to/show-and-hide-ajaxloadingpanel-explicitly
 tags: show,and,hide,ajaxloadingpanel,explicitly
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-To display the loading panel over an element, just call the __Show__ method client-side. This allows you to conditionally display loading panel over updated control (Show the panel in [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}), and hide it in [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) calling the __Hide__ client-side method):
+To display the loading panel over an element, just call the **Show** method client-side. This allows you to conditionally display loading panel over updated control (Show the panel in [OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%}), and hide it in [OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%}) calling the **Hide** client-side method):
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

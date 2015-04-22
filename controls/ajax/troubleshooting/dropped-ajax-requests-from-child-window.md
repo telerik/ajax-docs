@@ -1,6 +1,6 @@
 ---
 title: Dropped AJAX Requests from Child Window
-page_title: Dropped AJAX Requests from Child Window | UI for ASP.NET AJAX Documentation
+page_title: Dropped AJAX Requests from Child Window | RadAjax for ASP.NET AJAX Documentation
 description: Dropped AJAX Requests from Child Window
 slug: ajax/troubleshooting/dropped-ajax-requests-from-child-window
 tags: dropped,ajax,requests,from,child,window
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-In Internet Explorer, windows opened using __window.open__ from another window, exist in the same thread as the parent window.This is not true for Mozilla and Safari because there all child windows are opened in different threads. Thus when you initiate an AJAX request inthe child window and close this window, it will be aborted in Mozilla, because closing the window destroys the thread which is running the AJAX request.This worked in IE because the child window runs in the same thread as the parent and it does not destroy the AJAX request when it closes.
+In Internet Explorer, windows opened using **window.open** from another window, exist in the same thread as the parent window.This is not true for Mozilla and Safari because there all child windows are opened in different threads. Thus when you initiate an AJAX request inthe child window and close this window, it will be aborted in Mozilla, because closing the window destroys the thread which is running the AJAX request.This worked in IE because the child window runs in the same thread as the parent and it does not destroy the AJAX request when it closes.
 
-To resolve this issue you need to create AJAX requests in the context of the parent window and apply a slight timeout on it as shown in __Example 1__.
+To resolve this issue you need to create AJAX requests in the context of the parent window and apply a slight timeout on it as shown in **Example 1**.
 
 ````JavaScript
 	    <script type="text/javascript">
@@ -40,7 +40,7 @@ To resolve this issue you need to create AJAX requests in the context of the par
 
 
 
-You should use a similar technique when using the Telerik __RadWindow__ control. You still need to force the execution inthe __parentWindow__, otherwise, the request will be canceled, once the window is closed. You can see this technique in __Example 2__.
+You should use a similar technique when using the Telerik **RadWindow** control. You still need to force the execution inthe **parentWindow**, otherwise, the request will be canceled, once the window is closed. You can see this technique in **Example 2**.
 
 ````JavaScript
 	    <script type="text/javascript">
@@ -67,7 +67,7 @@ You should use a similar technique when using the Telerik __RadWindow__ control.
 
 
 
-Note that __Example 2__ uses setTimeout to force execution in the __parentWindow's__ context since it will notget closed. Another thing to keep in mind is that one should not reference the child window in your setTimeout-invoked code as it might have already been destroyed.
+Note that **Example 2** uses setTimeout to force execution in the **parentWindow's** context since it will notget closed. Another thing to keep in mind is that one should not reference the child window in your setTimeout-invoked code as it might have already been destroyed.
 
 # See Also
 

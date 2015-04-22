@@ -1,6 +1,6 @@
 ---
 title: Client Confirmation and AJAX
-page_title: Client Confirmation and AJAX | UI for ASP.NET AJAX Documentation
+page_title: Client Confirmation and AJAX | RadAjax for ASP.NET AJAX Documentation
 description: Client Confirmation and AJAX
 slug: ajax/client-side-programming/how-to/client-confirmation-and-ajax
 tags: client,confirmation,and,ajax
@@ -22,7 +22,7 @@ You may need to provide a confirmation dialog to the user and initiate an AJAX r
 
 
 
-The __OnClientClick__ should be changed a bit to work with AJAX when the button is AJAX-enabled by added the necessaryAJAX setting to __RadAjaxManager__ or when the button is placed within a __RadAjaxPanel__ control.
+The **OnClientClick** should be changed a bit to work with AJAX when the button is AJAX-enabled by added the necessaryAJAX setting to **RadAjaxManager** or when the button is placed within a **RadAjaxPanel** control.
 
 ````ASPNET
 	    <asp:ImageButton ID="ImageButton2" runat="server" OnClientClick="if (!confirm('Are you sure?')) return false;" />
@@ -30,7 +30,7 @@ The __OnClientClick__ should be changed a bit to work with AJAX when the button 
 
 
 
-Alternatively, you can use the __OnRequestStart__ client-side event to implement more complex logic.__Example 1__ shows a sample script.
+Alternatively, you can use the **OnRequestStart** client-side event to implement more complex logic.**Example 1** shows a sample script.
 
 Example 1: Displays confirmation message by using OnRequestStart client-side event.
 

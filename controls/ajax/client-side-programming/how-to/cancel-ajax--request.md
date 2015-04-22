@@ -1,6 +1,6 @@
 ---
 title: Cancel AJAX  Request
-page_title: Cancel AJAX  Request | UI for ASP.NET AJAX Documentation
+page_title: Cancel AJAX  Request | RadAjax for ASP.NET AJAX Documentation
 description: Cancel AJAX  Request
 slug: ajax/client-side-programming/how-to/cancel-ajax--request
 tags: cancel,ajax,,request
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-You can cancel an AJAX request in the __OnRequestStart__ client-side event handler of your RadAjaxManager/RadAjaxPanel.Calling __set_cancel(true)__ prevents the request from continuing.
+You can cancel an AJAX request in the **OnRequestStart** client-side event handler of your RadAjaxManager/RadAjaxPanel.Calling **set_cancel(true)** prevents the request from continuing.
 
 ````JavaScript
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

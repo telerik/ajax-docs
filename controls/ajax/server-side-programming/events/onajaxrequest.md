@@ -1,6 +1,6 @@
 ---
 title: OnAjaxRequest
-page_title: OnAjaxRequest | UI for ASP.NET AJAX Documentation
+page_title: OnAjaxRequest | RadAjax for ASP.NET AJAX Documentation
 description: OnAjaxRequest
 slug: ajax/server-side-programming/events/onajaxrequest
 tags: onajaxrequest
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The __AjaxRequest__ event occurs when triggered by the client-side [ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function or the server-side [RaisePostBackEvent()]({%slug ajax/server-side-programming/methods%}) method. The event can not be canceled. The __AjaxRequest__ event handler receives a single string argument.
+The **AjaxRequest** event occurs when triggered by the client-side [ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function or the server-side [RaisePostBackEvent()]({%slug ajax/server-side-programming/methods%}) method. The event can not be canceled. The **AjaxRequest** event handler receives a single string argument.
 
 The example below demonstrates AjaxRequest triggered from both the client and server. An a HTML input button and a standard ASP.NET button are defined in the example. The HTML input button triggers a function that calls the client-side [ajaxRequest()]({%slug ajax/client-side-programming/overview%}). The ASP.NET button triggers a server-side OnClick event that in turn calls the [RaisePostBackEvent()]({%slug ajax/server-side-programming/methods%}) method.
 

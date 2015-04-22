@@ -1,6 +1,6 @@
 ---
 title: Interacting Between RadAjaxPanels
-page_title: Interacting Between RadAjaxPanels | UI for ASP.NET AJAX Documentation
+page_title: Interacting Between RadAjaxPanels | RadAjax for ASP.NET AJAX Documentation
 description: Interacting Between RadAjaxPanels
 slug: ajax/radajaxpanel/how-to/interacting-between-radajaxpanels
 tags: interacting,between,radajaxpanels
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-This help article features a code example that shows how to interact between two __RadAjaxPanel__controls without using a __RadAjaxManager__. *Telerik recommends using a__RadAjaxManager__ and the technique discussed in this article, while possible, is not supported.*
+This help article features a code example that shows how to interact between two **RadAjaxPanel**controls without using a **RadAjaxManager**. *Telerik recommends using a**RadAjaxManager** and the technique discussed in this article, while possible, is not supported.*
 
-Telerik designed the __RadAjaxPanel__ control to update only its content controls, so Telerik Supportalways recommends that you use __RadAjaxManager__ when you need to update external controls.
+Telerik designed the **RadAjaxPanel** control to update only its content controls, so Telerik Supportalways recommends that you use **RadAjaxManager** when you need to update external controls.
 
-However, you can achieve interaction between panels without the use of __RadAjaxManager__. The example bellow demonstrate a technique using the [ResponseScripts]({%slug ajax/server-side-programming/properties%}) property, together with the[client-side ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function. Note the use of __Page_PreRender__event as well as the property persisted in ViewState.
+However, you can achieve interaction between panels without the use of **RadAjaxManager**. The example bellow demonstrate a technique using the [ResponseScripts]({%slug ajax/server-side-programming/properties%}) property, together with the[client-side ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function. Note the use of **Page_PreRender**event as well as the property persisted in ViewState.
 
-The following example demonstrates how to handle an AJAX request from one __RadAjaxPanel__ and how to initiate AJAX request from the __RadAjaxPanel__ we want to update.
+The following example demonstrates how to handle an AJAX request from one **RadAjaxPanel** and how to initiate AJAX request from the **RadAjaxPanel** we want to update.
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

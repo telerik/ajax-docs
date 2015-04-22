@@ -1,6 +1,6 @@
 ---
 title: Controlling Z-Index
-page_title: Controlling Z-Index | UI for ASP.NET AJAX Documentation
+page_title: Controlling Z-Index | RadAjax for ASP.NET AJAX Documentation
 description: Controlling Z-Index
 slug: ajax/appearance-and-styling/controlling-z-index
 tags: controlling,z-index
@@ -12,9 +12,9 @@ position: 2
 
 
 
-__RadAjaxLoadingPanel__ has default z-index set to 90000. To change this default setting, you can use one of the approaches below, based on the way the loading panel is configured:
+**RadAjaxLoadingPanel** has default z-index set to 90000. To change this default setting, you can use one of the approaches below, based on the way the loading panel is configured:
 
-* When __RadAjaxLoadingPanel__ uses __Skin__ the Z-index could be directly set in the markup using the __ZIndex__ property of the control#_ASPX_
+* When **RadAjaxLoadingPanel** uses **Skin** the Z-index could be directly set in the markup using the **ZIndex** property of the control#_ASPX_
 
 	
             <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"
@@ -23,7 +23,7 @@ __RadAjaxLoadingPanel__ has default z-index set to 90000. To change this default
 
 
 
-* When __RadAjaxLoadingPanel__ has a template defined, the z-index could be set through __inline CSS__:#_ASPX_
+* When **RadAjaxLoadingPanel** has a template defined, the z-index could be set through **inline CSS**:#_ASPX_
 
 	
             <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"
@@ -36,7 +36,7 @@ __RadAjaxLoadingPanel__ has default z-index set to 90000. To change this default
 
 ## 
 
->note Note that when __IsSticky__ is set to __true__ , z-index is not automatically assigned to the __RadAjaxLoadingPanel__ .
+>note Note that when **IsSticky** is set to **true** , z-index is not automatically assigned to the **RadAjaxLoadingPanel** .
 >
 
 

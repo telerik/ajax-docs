@@ -1,6 +1,6 @@
 ---
 title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings
-page_title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings | UI for ASP.NET AJAX Documentation
+page_title: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings | RadAjax for ASP.NET AJAX Documentation
 description: Controls Wrapped in AjaxPanel and Added to AjaxManager Settings
 slug: ajax/radajaxmanager/troubleshooting/controls-wrapped-in-ajaxpanel-and-added-to-ajaxmanager-settings
 tags: controls,wrapped,in,ajaxpanel,and,added,to,ajaxmanager,settings
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
->note We highly recommend that you try to avoid working with the __RadAjaxManager__ and __RadAjaxPanel__ controls on the same time.
+>note We highly recommend that you try to avoid working with the **RadAjaxManager** and **RadAjaxPanel** controls on the same time.
 >
 
 
-If the same control is placed in a __RadAjaxPanel__ as well as included in __RadAjaxManager__ settingsas an AJAXified control (i.e., it is AJAXified by both the __RadAjaxPanel__ and __RadAjaxManager__),the __RadAjaxManager's__ setting will not work. This is because the __RadAjaxPanel__ AJAX-enables thatcontrol instead of the __RadAjaxManager__. __RadAjaxPanel__ is designed to update only its content;therefore you cannot use the manager to update other controls outside of the panel from a control that has been AJAXfied by the manager but is insidethe __RadAjaxPanel__. __Example 1__ will not work as expected.
+If the same control is placed in a **RadAjaxPanel** as well as included in **RadAjaxManager** settingsas an AJAXified control (i.e., it is AJAXified by both the **RadAjaxPanel** and **RadAjaxManager**),the **RadAjaxManager's** setting will not work. This is because the **RadAjaxPanel** AJAX-enables thatcontrol instead of the **RadAjaxManager**. **RadAjaxPanel** is designed to update only its content;therefore you cannot use the manager to update other controls outside of the panel from a control that has been AJAXfied by the manager but is insidethe **RadAjaxPanel**. **Example 1** will not work as expected.
 
 Example 1: Button1 on the RadAjaxManager won't update the label because the RadAjaxPanel only updates its own content.
 
@@ -44,7 +44,7 @@ Example 1: Button1 on the RadAjaxManager won't update the label because the RadA
 
 
 
-The __RadAjaxPanel__ functionality can be simulated completely by the manager - simply replace the__RadAjaxPanel__ from __Example 1__ with an asp:Panel. As you can see in __Example 2__,the modified version of __Example 1__ will perform the same task as if you use __RadAjaxPanel__ instead of__RadAjaxManager__.
+The **RadAjaxPanel** functionality can be simulated completely by the manager - simply replace the**RadAjaxPanel** from **Example 1** with an asp:Panel. As you can see in **Example 2**,the modified version of **Example 1** will perform the same task as if you use **RadAjaxPanel** instead of**RadAjaxManager**.
 
 Example 2: Both control inside the Panel1 will be AJAXified.
 
@@ -64,7 +64,7 @@ Example 2: Both control inside the Panel1 will be AJAXified.
 
 
 
-Moreover, you are free from the limitation to update controls only within the boundaries of the AJAX panel.	__Example 3__ shows the entire solution of the problematic settings defined in the beginning of this article.
+Moreover, you are free from the limitation to update controls only within the boundaries of the AJAX panel.	**Example 3** shows the entire solution of the problematic settings defined in the beginning of this article.
 
 Example 3: Showing the correct way to AJAXify controls when using RadAjaxManager.
 

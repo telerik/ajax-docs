@@ -1,6 +1,6 @@
 ---
 title: OnResponseEnd
-page_title: OnResponseEnd | UI for ASP.NET AJAX Documentation
+page_title: OnResponseEnd | RadAjax for ASP.NET AJAX Documentation
 description: OnResponseEnd
 slug: ajax/client-side-programming/events/onresponseend
 tags: onresponseend
@@ -14,19 +14,19 @@ position: 2
 
 ## 
 
-The __OnResponseEnd__client-side event handler is called when a request is received from the server. The event can not be canceled.
+The **OnResponseEnd**client-side event handler is called when a request is received from the server. The event can not be canceled.
 
 Two parameters are passed to the event handler with the following methods:
 
-* __sender__ - The instance of the client-side __RadAjaxManager__/__RadAjaxPanel__ object.
+* **sender** - The instance of the client-side **RadAjaxManager**/**RadAjaxPanel** object.
 
-* __eventArgs__, which has the following methods:
+* **eventArgs**, which has the following methods:
 
-* __get_eventTarget()__ - Gets the __UniqueID__ of the element that had raised the request.
+* **get_eventTarget()** - Gets the **UniqueID** of the element that had raised the request.
 
-* __get_eventArgument()__ - Gets the string passed in the initial AJAX request.
+* **get_eventArgument()** - Gets the string passed in the initial AJAX request.
 
-* __get_eventTargetElement()__ - Gets the instance of the client-side object that raised the AJAX request.
+* **get_eventTargetElement()** - Gets the instance of the client-side object that raised the AJAX request.
 
 The following example displays the control that initiated the request.
 

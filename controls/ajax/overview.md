@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Telerik ASP.NET AJAX Overview | UI for ASP.NET AJAX Documentation
+page_title: RadAjax Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: ajax/overview
 tags: overview

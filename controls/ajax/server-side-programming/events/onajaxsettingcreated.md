@@ -1,6 +1,6 @@
 ---
 title: OnAjaxSettingCreated
-page_title: OnAjaxSettingCreated | UI for ASP.NET AJAX Documentation
+page_title: OnAjaxSettingCreated | RadAjax for ASP.NET AJAX Documentation
 description: OnAjaxSettingCreated
 slug: ajax/server-side-programming/events/onajaxsettingcreated
 tags: onajaxsettingcreated
@@ -12,24 +12,24 @@ position: 2
 
 
 
-The __AjaxSettingCreated__ event occurs after an AjaxSetting is
-added to the RadAjaxManager __AjaxSettings__ collection. The event
+The **AjaxSettingCreated** event occurs after an AjaxSetting is
+added to the RadAjaxManager **AjaxSettings** collection. The event
 can be triggered by the AjaxSettings configured at design time, as they are
 instantiated, or at run-time after AddAjaxSetting() is called.The
 event cannot be canceled.
 
-The __AjaxSettingCreated__ event handler receives two
+The **AjaxSettingCreated** event handler receives two
 arguments:
 
-1. The __RadAjaxManager__ control that owns the AjaxSettings collection that the setting is being added to. This argument is of type object, but can be cast to the __RadAjaxManager__ type.
+1. The **RadAjaxManager** control that owns the AjaxSettings collection that the setting is being added to. This argument is of type object, but can be cast to the **RadAjaxManager** type.
 
-1. And __AjaxSettingCreatedEventArgs__ object with the following properties:
+1. And **AjaxSettingCreatedEventArgs** object with the following properties:
 
-* __Initiator__: A reference to the object that triggered the AJAX request.
+* **Initiator**: A reference to the object that triggered the AJAX request.
 
-* __Updated__: A reference to the object that will be updated by the AJAX request.
+* **Updated**: A reference to the object that will be updated by the AJAX request.
 
-* __UpdatePanel__: A reference to the underlying MS AJAX UpdatePanel.
+* **UpdatePanel**: A reference to the underlying MS AJAX UpdatePanel.
 
 ## Example
 

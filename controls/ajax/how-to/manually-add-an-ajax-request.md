@@ -1,6 +1,6 @@
 ---
 title: Manually Add an AJAX Request
-page_title: Manually Add an AJAX Request | UI for ASP.NET AJAX Documentation
+page_title: Manually Add an AJAX Request | RadAjax for ASP.NET AJAX Documentation
 description: Manually Add an AJAX Request
 slug: ajax/how-to/manually-add-an-ajax-request
 tags: manually,add,an,ajax,request
@@ -12,11 +12,11 @@ position: 3
 
 
 
-Usually HTML elements have more client-side events than their server-side counterparts. For example, the __asp:TextBox__ control implements only the __TextChanged__ server-side event while the corresponding HTML element has a few more: __OnMouseOver__, __OnMouseOut__, __OnKeyPress__, __OnKeyUp__,__OnKeyDown__, etc. If you want to AJAX-enable one of these client events you have to follow the instructions bellow:
+Usually HTML elements have more client-side events than their server-side counterparts. For example, the **asp:TextBox** control implements only the **TextChanged** server-side event while the corresponding HTML element has a few more: **OnMouseOver**, **OnMouseOut**, **OnKeyPress**, **OnKeyUp**,**OnKeyDown**, etc. If you want to AJAX-enable one of these client events you have to follow the instructions bellow:
 
 ## Method I (Add the Attribute Declaratively)
 
-1. Add the __OnKeyUp__ attribute and make it call a custom function:
+1. Add the **OnKeyUp** attribute and make it call a custom function:
 
 ````ASPNET
 	    <asp:TextBox onkeyup="TextBoxCustomAjax('TextBox1');" ID="TextBox1" runat="server">
@@ -25,7 +25,7 @@ Usually HTML elements have more client-side events than their server-side counte
 
 
 
-2. Implement the __TextBoxCustomAjax__ function:
+2. Implement the **TextBoxCustomAjax** function:
 
 ````JavaScript
 	        function TextBoxCustomAjax(eventArgs) {
@@ -35,7 +35,7 @@ Usually HTML elements have more client-side events than their server-side counte
 
 
 
-* a. Implement the __AjaxRequest__ server event of the __RadAjaxManager__:
+* a. Implement the **AjaxRequest** server event of the **RadAjaxManager**:
 
 
 
@@ -60,11 +60,11 @@ Usually HTML elements have more client-side events than their server-side counte
 ````
 
 
-* b. In the designer, set __RadAjaxManager1__ to update __Label1__.
+* b. In the designer, set **RadAjaxManager1** to update **Label1**.
 
 ## Method II (Add the Attribute from Code-behind).
 
-1. Add the __OnKeyUp__ attribute:
+1. Add the **OnKeyUp** attribute:
 
 
 
@@ -82,7 +82,7 @@ Usually HTML elements have more client-side events than their server-side counte
 ````
 
 
-2. Implement the __AjaxRequest__ event of the __RadAjaxManager__:
+2. Implement the **AjaxRequest** event of the **RadAjaxManager**:
 
 
 
@@ -106,4 +106,4 @@ Usually HTML elements have more client-side events than their server-side counte
 ````
 
 
-3.Set from the design-time configuration wizard that __RadAjaxManager1__ will update __Label1__.
+3.Set from the design-time configuration wizard that **RadAjaxManager1** will update **Label1**.

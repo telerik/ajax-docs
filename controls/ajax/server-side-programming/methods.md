@@ -1,6 +1,6 @@
 ---
 title: Methods
-page_title: Methods | UI for ASP.NET AJAX Documentation
+page_title: Methods | RadAjax for ASP.NET AJAX Documentation
 description: Methods
 slug: ajax/server-side-programming/methods
 tags: methods
@@ -16,9 +16,9 @@ This help article describes the methods of RadAjaxControl and show examples how 
 
 ## 
 
-__RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whichintroduces the following methods:
+**RadAjaxManager** and **RadAjaxPanel** both descend from **RadAjaxControl**,whichintroduces the following methods:
 
-* __Alert__ - This method executes a JavaScript __alert()__ on the client.__Alert()__ takes a single string parameter for text to be displayed in the alert.
+* **Alert** - This method executes a JavaScript **alert()** on the client.**Alert()** takes a single string parameter for text to be displayed in the alert.
 
 
 
@@ -34,7 +34,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 ````
 
 
-* __FocusControl__ - This method places focus on a specified control. __FocusControl()__ takes a singleparameter that can be the ID of the control to focus on or an object reference to the control to focus on.
+* **FocusControl** - This method places focus on a specified control. **FocusControl()** takes a singleparameter that can be the ID of the control to focus on or an object reference to the control to focus on.
 
 
 
@@ -50,7 +50,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 ````
 
 
-* __GetAjaxEventReference__ - This method produces client side code thatinvokes the [ajaxRequest()]({%slug ajax/client-side-programming/overview%}) method.
+* **GetAjaxEventReference** - This method produces client side code thatinvokes the [ajaxRequest()]({%slug ajax/client-side-programming/overview%}) method.
 
 
 
@@ -69,7 +69,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 ````
 
 
-* __RaisePostBackEvent__ - This method triggers a server-side[AjaxRequest]({%slug ajax/server-side-programming/events/onajaxrequest%}) event and allows you to pass a single string parameter to the event. (__Example1__). __AjaxRequest__ can also be triggered by the client-side[ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function.
+* **RaisePostBackEvent** - This method triggers a server-side[AjaxRequest]({%slug ajax/server-side-programming/events/onajaxrequest%}) event and allows you to pass a single string parameter to the event. (**Example1**). **AjaxRequest** can also be triggered by the client-side[ajaxRequest()]({%slug ajax/client-side-programming/overview%}) function.
 
 
 
@@ -98,7 +98,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__,whi
 ````
 
 
-* __Redirect__ - This method navigates the browser to another web page. The method passes a single string parameter, whichis the URL to navigate to.
+* **Redirect** - This method navigates the browser to another web page. The method passes a single string parameter, whichis the URL to navigate to.
 
 
 

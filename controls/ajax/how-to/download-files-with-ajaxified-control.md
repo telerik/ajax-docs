@@ -1,6 +1,6 @@
 ---
 title: Download Files with Ajaxified Control
-page_title: Download Files with Ajaxified Control | UI for ASP.NET AJAX Documentation
+page_title: Download Files with Ajaxified Control | RadAjax for ASP.NET AJAX Documentation
 description: Download Files with Ajaxified Control
 slug: ajax/how-to/download-files-with-ajaxified-control
 tags: download,files,with,ajaxified,control
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-If you want to invoke download for a file from an AJAX-enabled control (either placed in __RadAjaxPanel__or ajaxified by __RadAjaxManager__), you cannot use the normal __response.WriteFile__ function.
+If you want to invoke download for a file from an AJAX-enabled control (either placed in **RadAjaxPanel**or ajaxified by **RadAjaxManager**), you cannot use the normal **response.WriteFile** function.
 
 
 
@@ -28,9 +28,9 @@ If you want to invoke download for a file from an AJAX-enabled control (either p
 ````
 
 
-Why? Because the __XmlHttpRequest__ cannot handle this.
+Why? Because the **XmlHttpRequest** cannot handle this.
 
-Instead you can use the __ResponseScripts__ collection of the __RadAjax__ controls to change the location header and download the file:
+Instead you can use the **ResponseScripts** collection of the **RadAjax** controls to change the location header and download the file:
 
 
 
@@ -44,7 +44,7 @@ Instead you can use the __ResponseScripts__ collection of the __RadAjax__ contro
 ````
 
 
-The __ResponseScripts__ collection will be executed after ajax request completes.
+The **ResponseScripts** collection will be executed after ajax request completes.
 
 # See Also
 

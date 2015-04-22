@@ -1,6 +1,6 @@
 ---
 title: EventName Property
-page_title: EventName Property | UI for ASP.NET AJAX Documentation
+page_title: EventName Property | RadAjax for ASP.NET AJAX Documentation
 description: EventName Property
 slug: ajax/how-to/eventname-property
 tags: eventname,property
@@ -12,13 +12,13 @@ position: 13
 
 
 
-As of Q2 2013, the __EventName__ property of the __RadAjaxManager__ settings behaves as expected and works properly in all scenarios where you would use __asp:UpdatePanel__ controls. This article compares setting the __EventName__ property for an __UpdatePanel__ and setting the same property for a __RadAjaxPanel__. The __EventName__ property gets or sets the Postback control event that triggers the updated controls to be updated.
+As of Q2 2013, the **EventName** property of the **RadAjaxManager** settings behaves as expected and works properly in all scenarios where you would use **asp:UpdatePanel** controls. This article compares setting the **EventName** property for an **UpdatePanel** and setting the same property for a **RadAjaxPanel**. The **EventName** property gets or sets the Postback control event that triggers the updated controls to be updated.
 
 ## Setting the EventName Property
 
-The main difference between setting this property in __RadAjaxManger__ and the same in __asp:UpdatePanel__ is that the __RadAjaxManager__ makes this task easier and you write less code. __Example 1__ and __Example 2__ define the EventName in both cases.
+The main difference between setting this property in **RadAjaxManger** and the same in **asp:UpdatePanel** is that the **RadAjaxManager** makes this task easier and you write less code. **Example 1** and **Example 2** define the EventName in both cases.
 
-* __Example 1__: Setting __EventName__ for __asp:UpdatePanel's AsyncPostBack__ triggers:
+* **Example 1**: Setting **EventName** for **asp:UpdatePanel's AsyncPostBack** triggers:
 
 
 
@@ -97,7 +97,7 @@ The main difference between setting this property in __RadAjaxManger__ and the s
 ````
 
 
-* __Example 2__: How to set the __EventName__ property of a __RadAjaxManager__ control:
+* **Example 2**: How to set the **EventName** property of a **RadAjaxManager** control:
 
 
 

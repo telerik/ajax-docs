@@ -1,6 +1,6 @@
 ---
 title: Redirecting to Another Page
-page_title: Redirecting to Another Page | UI for ASP.NET AJAX Documentation
+page_title: Redirecting to Another Page | RadAjax for ASP.NET AJAX Documentation
 description: Redirecting to Another Page
 slug: ajax/how-to/redirecting-to-another-page
 tags: redirecting,to,another,page
@@ -14,9 +14,9 @@ position: 1
 
 Telerik RadAjax supports two kinds of redirection:
 
-* __Response.Redirect()__- The standard ASP.NET means of redirection.
+* **Response.Redirect()**- The standard ASP.NET means of redirection.
 
-* Generating JavaScript that sets __window.location.href__.
+* Generating JavaScript that sets **window.location.href**.
 
 >caution Currently there is a security issue that prevents Response.Redirect with AJAX from working in Windows Server 2008. IIS 7 simply does not allow catching the Application events. You should be able to use the RadAjaxManager.Redirect method instead.
 >
@@ -24,9 +24,9 @@ Telerik RadAjax supports two kinds of redirection:
 
 ## Redirecting on the Client (JavaScript window.location.href)
 
-__RadAjaxManager__ and __RadAjaxPanel__ also support the __Redirect()__method, which in essence adds short JavaScript code to be evaluated after the AJAX request. The JavaScript code uses the __window.location.href__ property to navigate to a new URL.
+**RadAjaxManager** and **RadAjaxPanel** also support the **Redirect()**method, which in essence adds short JavaScript code to be evaluated after the AJAX request. The JavaScript code uses the **window.location.href** property to navigate to a new URL.
 
-__Example 1__: Using __RadAjaxManager__ and __RadAjaxPanel__ Redirect()
+**Example 1**: Using **RadAjaxManager** and **RadAjaxPanel** Redirect()
 
 
 

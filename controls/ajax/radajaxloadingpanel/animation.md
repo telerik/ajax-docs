@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: Animation | UI for ASP.NET AJAX Documentation
+page_title: Animation | RadAjax for ASP.NET AJAX Documentation
 description: Animation
 slug: ajax/radajaxloadingpanel/animation
 tags: animation
@@ -12,17 +12,17 @@ position: 1
 
 
 
-This help article describes how to make a __RadAjaxLoadingPanel__ show or hide and provides sample code.
+This help article describes how to make a **RadAjaxLoadingPanel** show or hide and provides sample code.
 
 ## 
 
-The __RadAjaxLoadingPanel__ animation is a simple extender that allows you to utilize the jQuery framework with existing pages in an easy, declarative fashion. __RadAjaxLoadingPanel__ provides built-in fade in and fade out animation.
+The **RadAjaxLoadingPanel** animation is a simple extender that allows you to utilize the jQuery framework with existing pages in an easy, declarative fashion. **RadAjaxLoadingPanel** provides built-in fade in and fade out animation.
 
-To implement custom animations you should use the __OnClientShowing__ and __OnClientHiding__ client-side event handlers of __RadAjaxLoadingPanel__. Note that you need to cancel the default display (hide) of the loading panel using the __set_cancelNativeDisplay(true)__ method of the __eventArgs__ argument.
+To implement custom animations you should use the **OnClientShowing** and **OnClientHiding** client-side event handlers of **RadAjaxLoadingPanel**. Note that you need to cancel the default display (hide) of the loading panel using the **set_cancelNativeDisplay(true)** method of the **eventArgs** argument.
 
-The __ClientShowing__ and __ClientHiding__ event arguments also provide a reference to the updated element by means of the __get_updatedElement()__ method. In this way you can implement some custom loading panel logic for a specific control. Note that the __get_updatedElement()__ returns a DOM element, not a client control instance.
+The **ClientShowing** and **ClientHiding** event arguments also provide a reference to the updated element by means of the **get_updatedElement()** method. In this way you can implement some custom loading panel logic for a specific control. Note that the **get_updatedElement()** returns a DOM element, not a client control instance.
 
-The following example demonstrates how to implement __RadAjaxLoadingPanel__ animation.
+The following example demonstrates how to implement **RadAjaxLoadingPanel** animation.
 
 ````ASPNET
 	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" BackColor="yellow"
@@ -86,7 +86,7 @@ The following example demonstrates how to implement __RadAjaxLoadingPanel__ anim
 ````
 
 
-The animation of __RadAjaxLoadingPanel__ provides you with the ability to easily add interactivity to your web pages. Using animation you can add professional looking transitions and visual effects to your controls.
+The animation of **RadAjaxLoadingPanel** provides you with the ability to easily add interactivity to your web pages. Using animation you can add professional looking transitions and visual effects to your controls.
 
 # See Also
 

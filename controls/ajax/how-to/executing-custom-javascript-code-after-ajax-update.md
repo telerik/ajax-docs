@@ -1,6 +1,6 @@
 ---
 title: Executing Custom Javascript Code after AJAX Update
-page_title: Executing Custom Javascript Code after AJAX Update | UI for ASP.NET AJAX Documentation
+page_title: Executing Custom Javascript Code after AJAX Update | RadAjax for ASP.NET AJAX Documentation
 description: Executing Custom Javascript Code after AJAX Update
 slug: ajax/how-to/executing-custom-javascript-code-after-ajax-update
 tags: executing,custom,javascript,code,after,ajax,update
@@ -14,11 +14,11 @@ position: 5
 
 ## 
 
-Telerik __RadAjax__ offers the ability to execute custom JavaScript code that comes as a response from the server thusgiving you more flexibility to complete more specific or complex tasks on the client. This help article shows a few ways to execute custom JavaScript code after an AJAX update.
+Telerik **RadAjax** offers the ability to execute custom JavaScript code that comes as a response from the server thusgiving you more flexibility to complete more specific or complex tasks on the client. This help article shows a few ways to execute custom JavaScript code after an AJAX update.
 
-The best and most intuitive approach is to use the [ResponseScripts](http://www.telerik.com/help/aspnet-ajax/ajax-control-properties.html) property of the __RadAjaxPanel__ or __RadAjaxManager__.
+The best and most intuitive approach is to use the [ResponseScripts](http://www.telerik.com/help/aspnet-ajax/ajax-control-properties.html) property of the **RadAjaxPanel** or **RadAjaxManager**.
 
-__Example 1__ shows how to pop an alert when a Button is clicked.
+**Example 1** shows how to pop an alert when a Button is clicked.
 
 
 
@@ -36,7 +36,7 @@ __Example 1__ shows how to pop an alert when a Button is clicked.
 ````
 
 
-__Example 2__ shows another approach. You can use the __RegisterStartupScript__ static methodof the __ScriptManager__ class:
+**Example 2** shows another approach. You can use the **RegisterStartupScript** static methodof the **ScriptManager** class:
 
 
 

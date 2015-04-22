@@ -1,6 +1,6 @@
 ---
 title: Update Initiator's UpdatePanels only
-page_title: Update Initiator's UpdatePanels only | UI for ASP.NET AJAX Documentation
+page_title: Update Initiator's UpdatePanels only | RadAjax for ASP.NET AJAX Documentation
 description: Update Initiator's UpdatePanels only
 slug: ajax/radajaxmanager/how-to/update-initiator's-updatepanels-only
 tags: update,initiator's,updatepanels,only
@@ -79,7 +79,7 @@ In the example below no matter that there is no setting in which the first panel
 
 ## 
 
-Since __Q2 2012 SP2__ release a new property __UpdateInitiatorPanelsOnly__ is added to the RadAjaxManager. By setting its value to “true” (its default value is “false”) only the containers added as UpdatedControls for a specific initiator will be conditionally updated.
+Since **Q2 2012 SP2** release a new property **UpdateInitiatorPanelsOnly** is added to the RadAjaxManager. By setting its value to “true” (its default value is “false”) only the containers added as UpdatedControls for a specific initiator will be conditionally updated.
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" UpdateInitiatorPanelsOnly="true" DefaultLoadingPanelID="RadAjaxLoadingPanel1"

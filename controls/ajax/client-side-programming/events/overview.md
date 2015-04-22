@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadAjax for ASP.NET AJAX Documentation
 description: Overview
 slug: ajax/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## Client-side events for RadAjaxManager/RadAjaxPanel
 
-__RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__.__RadAjaxControl__ introduces the __AjaxClientEvents__ property that contains the following events:
+**RadAjaxManager** and **RadAjaxPanel** both descend from **RadAjaxControl**.**RadAjaxControl** introduces the **AjaxClientEvents** property that contains the following events:
 
 
 | Name | Description |
@@ -22,7 +22,7 @@ __RadAjaxManager__ and __RadAjaxPanel__ both descend from __RadAjaxControl__.__R
 |[OnRequestStart]({%slug ajax/client-side-programming/events/onrequeststart%})|Fired when a request to the server is started.|
 |[OnResponseEnd]({%slug ajax/client-side-programming/events/onresponseend%})|Fired when a response from the server is processed.|
 
-To use these events, simply write a JavaScript function that can be called when the event occurs(__Example 1__). Then assignthe name of the JavaScript function as the value of the the corresponding property.
+To use these events, simply write a JavaScript function that can be called when the event occurs(**Example 1**). Then assignthe name of the JavaScript function as the value of the the corresponding property.
 
 Example 1: Displays a message when request starts and ends.
 
@@ -51,7 +51,7 @@ Example 1: Displays a message when request starts and ends.
 
 ## 
 
-__RadAjaxLoadingPanel__ contains the following client events:
+**RadAjaxLoadingPanel** contains the following client events:
 
 
 | Name | Description |
@@ -59,7 +59,7 @@ __RadAjaxLoadingPanel__ contains the following client events:
 |[OnClientShowing]({%slug ajax/client-side-programming/events/onclientshowing%})|Fired before the loading panel is shown.|
 |[OnClientHiding]({%slug ajax/client-side-programming/events/onclienthiding%})|Fired before the loading panel hides.|
 
-To use these events, simply write a JavaScript function that can be called when the event occurs(__Example 2__).You then assign the name of the JavaScript function as the value of the the corresponding property.
+To use these events, simply write a JavaScript function that can be called when the event occurs(**Example 2**).You then assign the name of the JavaScript function as the value of the the corresponding property.
 
 Example 2: Cancel the default behavior when shows and hides the RadAjaxLoadingPanel and apply a custom behavior for both actions.
 

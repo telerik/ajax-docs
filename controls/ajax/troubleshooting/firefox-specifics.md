@@ -1,6 +1,6 @@
 ---
 title: Firefox Specifics
-page_title: Firefox Specifics | UI for ASP.NET AJAX Documentation
+page_title: Firefox Specifics | RadAjax for ASP.NET AJAX Documentation
 description: Firefox Specifics
 slug: ajax/troubleshooting/firefox-specifics
 tags: firefox,specifics

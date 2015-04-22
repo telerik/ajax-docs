@@ -1,6 +1,6 @@
 ---
 title: Forcing a Postback
-page_title: Forcing a Postback | UI for ASP.NET AJAX Documentation
+page_title: Forcing a Postback | RadAjax for ASP.NET AJAX Documentation
 description: Forcing a Postback
 slug: ajax/client-side-programming/how-to/forcing-a-postback
 tags: forcing,a,postback
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-If you want to perform a single postback instead of an AJAX request, __arguments.EnableAjax__ should be __false__.
+If you want to perform a single postback instead of an AJAX request, **arguments.EnableAjax** should be **false**.
 
 In the code-behind:
 

@@ -1,6 +1,6 @@
 ---
 title: Change Mouse Cursor on AJAX Update
-page_title: Change Mouse Cursor on AJAX Update | UI for ASP.NET AJAX Documentation
+page_title: Change Mouse Cursor on AJAX Update | RadAjax for ASP.NET AJAX Documentation
 description: Change Mouse Cursor on AJAX Update
 slug: ajax/client-side-programming/how-to/change-mouse-cursor-on-ajax-update
 tags: change,mouse,cursor,on,ajax,update

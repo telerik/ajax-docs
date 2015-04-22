@@ -1,6 +1,6 @@
 ---
-title: RadAjaxManager Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadAjaxManager Overview | RadAjax for ASP.NET AJAX Documentation
 description: Overview
 slug: ajax/radajaxmanager/overview
 tags: overview
@@ -12,9 +12,9 @@ position: 0
 
 
 
-__RadAjaxManager__ is one of the two major controls of the UI for ASP.NET AJAX. The other one is [AJAX Panel]({%slug ajax/radajaxpanel/overview%}). __RadAjaxManager__ allows developers to rapidly develop powerful and complex AJAX solutions.
+**RadAjaxManager** is one of the two major controls of the UI for ASP.NET AJAX. The other one is [AJAX Panel]({%slug ajax/radajaxpanel/overview%}). **RadAjaxManager** allows developers to rapidly develop powerful and complex AJAX solutions.
 
-The main features of __RadAjaxManager__ are:
+The main features of **RadAjaxManager** are:
 
 * You can AJAX-enable all controls that normally work with postbacks.
 
@@ -26,45 +26,45 @@ The main features of __RadAjaxManager__ are:
 
 * You do not need to write any JavaScript or invoke AJAX requests manually.
 
-Using a single __RadAjaxManager__ on the page you can create complex web applications like Microsoft Outlook ® Web Access portal.
+Using a single **RadAjaxManager** on the page you can create complex web applications like Microsoft Outlook ® Web Access portal.
 
-The visual designer of __RadAjaxManager__, accessible in Visual Studio, lets you set even the most complicated update scenarios such as the one shown in __Figure 1__:
+The visual designer of **RadAjaxManager**, accessible in Visual Studio, lets you set even the most complicated update scenarios such as the one shown in **Figure 1**:
 
-__Figure 1__ - Example of scenario with Ajax-enabled controls![Update schema](images/ControlsUpdate.png)
+**Figure 1** - Example of scenario with Ajax-enabled controls![Update schema](images/ControlsUpdate.png)
 
-1. Single control updates one or more controls with an AJAX request – __1__ updates __2__ and __3__
+1. Single control updates one or more controls with an AJAX request – **1** updates **2** and **3**
 
-1. Second control updates other controls (or even controls from the previous scenario) with an AJAX request – __3__ updates __2__ and __5__
+1. Second control updates other controls (or even controls from the previous scenario) with an AJAX request – **3** updates **2** and **5**
 
-1. A control updates itself with an AJAX request – __6__ updates __6__ (i.e., itself)
+1. A control updates itself with an AJAX request – **6** updates **6** (i.e., itself)
 
-1. Call the __RadAjaxManager__ API from a control on the page and update control(s) on the page. – Using the __RadAjaxManager__ API, __2__ is made to update __1__ and __4__.
+1. Call the **RadAjaxManager** API from a control on the page and update control(s) on the page. – Using the **RadAjaxManager** API, **2** is made to update **1** and **4**.
 
-In order to use __RadAjaxManager__, you need to drag it from the __Visual Studio__ toolbox to your page.
+In order to use **RadAjaxManager**, you need to drag it from the **Visual Studio** toolbox to your page.
 
->caution Note that you cannot have two __RadAjaxManagers__ in a single page. If you are using __MasterPage__ or __WebUserControl__ , the best option is to use a single __RadAjaxManager__ on the master/main page.
+>caution Note that you cannot have two **RadAjaxManagers** in a single page. If you are using **MasterPage** or **WebUserControl** , the best option is to use a single **RadAjaxManager** on the master/main page.
 >
 
 
 ## Setting the Control Relations in Configuration Wizard
 
-__RadAjaxManager__ comes with a configuration wizard (__Figure 2__) for setting the relations between the AJAX request initiator and the controls that will be updated. You can start the configuration wizard by right-clicking the control and choosing the __Configure RadAjaxManager__ command in the control's Smart Tag.
+**RadAjaxManager** comes with a configuration wizard (**Figure 2**) for setting the relations between the AJAX request initiator and the controls that will be updated. You can start the configuration wizard by right-clicking the control and choosing the **Configure RadAjaxManager** command in the control's Smart Tag.
 
-The __RadAjaxManager__ Configuration Wizard is pretty intuitive and simple to use. The tool has three panes:
+The **RadAjaxManager** Configuration Wizard is pretty intuitive and simple to use. The tool has three panes:
 
 1. The left pane is a treeview with all controls on the page. Select a control that will initiate the callback request. Only the controls that have their check boxes checked will initiate callbacks. Once you select the control in the left pane, move to the middle pane to choose the controls that will be updated.
 
-1. The middle pane is another treeview with all controls on the page. Here you can select which controls will be updated after a callback request from the control that is __checked and selected__ in the left pane.Please note that your selection in the middle pane can be applied only to one control from the left pane. Thus, you can have different sets of controls that will be updated depending on the callback initiator control (from the left pane). After you set the controls that will be updated (middle pane), you may select a loading panel for each one of them in the right pane.
+1. The middle pane is another treeview with all controls on the page. Here you can select which controls will be updated after a callback request from the control that is **checked and selected** in the left pane.Please note that your selection in the middle pane can be applied only to one control from the left pane. Thus, you can have different sets of controls that will be updated depending on the callback initiator control (from the left pane). After you set the controls that will be updated (middle pane), you may select a loading panel for each one of them in the right pane.
 
-1. The right pane lets you specify the loading panel that will be used for the controls selected in the middle pane. Each control that will be updated can have a separate loading panel set. A default loading panel could be set as well through the __DefaultLoadingPanelID__ property of the __RadAjaxManager__ control. If it is used, there is no need to set the loading panel on each new AJAX setting—the default loading panel will be automatically applied everywhere.
+1. The right pane lets you specify the loading panel that will be used for the controls selected in the middle pane. Each control that will be updated can have a separate loading panel set. A default loading panel could be set as well through the **DefaultLoadingPanelID** property of the **RadAjaxManager** control. If it is used, there is no need to set the loading panel on each new AJAX setting—the default loading panel will be automatically applied everywhere.
 
-You can find the working code example of __Figure 2__ in this [demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/firstlook/defaultcs.aspx).
+You can find the working code example of **Figure 2** in this [demo](http://demos.telerik.com/aspnet-ajax/ajax/examples/manager/firstlook/defaultcs.aspx).
 
-__Figure 2__: The RadAjaxManager property builder has three panes which you use to set which controls perform AJAX updates.![](images/SetTheLoadingPanelID2.png)
+**Figure 2**: The RadAjaxManager property builder has three panes which you use to set which controls perform AJAX updates.![](images/SetTheLoadingPanelID2.png)
 
 ## Setting the Control Relations in Code-Behind
 
-You can set the relationship between AJAX-ified and updated controls on the server-side using the __AddAjaxSetting__ methods:
+You can set the relationship between AJAX-ified and updated controls on the server-side using the **AddAjaxSetting** methods:
 
 
 
@@ -83,31 +83,31 @@ You can set the relationship between AJAX-ified and updated controls on the serv
 
 ## Client-side Functions
 
-You can use any external control to force __RadAjaxManager__ to perform an AJAX request by calling the manager's client-side functions. When using this function, the event target defaults to the __RadAjaxManager__ instance. The following examples illustrate how you could manually trigger an AJAX request.
+You can use any external control to force **RadAjaxManager** to perform an AJAX request by calling the manager's client-side functions. When using this function, the event target defaults to the **RadAjaxManager** instance. The following examples illustrate how you could manually trigger an AJAX request.
 
->note You can construct the JavaScript function calls manually or alternatively use the server-side method[GetAjaxEventReference](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radajaxcontrol_getajaxeventreference.html)and have __RadAjax__ generate the necessary code for you.
+>note You can construct the JavaScript function calls manually or alternatively use the server-side method[GetAjaxEventReference](http://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radajaxcontrol_getajaxeventreference.html)and have **RadAjax** generate the necessary code for you.
 >
 
 
-Forcing an AJAX request by using __ajaxRequest()__:
+Forcing an AJAX request by using **ajaxRequest()**:
 
-__$find("<%=AjaxManager1.ClientID%>").ajaxRequest(arguments)__
+**$find("<%=AjaxManager1.ClientID%>").ajaxRequest(arguments)**
 
-* __arguments__ – The parameters, which the control had used when it raised the request.(Optional)
+* **arguments** – The parameters, which the control had used when it raised the request.(Optional)
 
 The ajaxRequest()) can be handled by the [AjaxRequest]({%slug ajax/server-side-programming/events/onajaxrequest%}) event on the server.
 
 
 
-The __ajaxRequestWithTarget(eventTarget, eventArgument)__ function can be called to simulate a postback/AJAX request sent by another control with the specified UniqueID and specified arguments:
+The **ajaxRequestWithTarget(eventTarget, eventArgument)** function can be called to simulate a postback/AJAX request sent by another control with the specified UniqueID and specified arguments:
 
-__$find("<%=AjaxManager1.ClientID%>").ajaxRequestWithTarget(eventTarget, eventArgument)__
+**$find("<%=AjaxManager1.ClientID%>").ajaxRequestWithTarget(eventTarget, eventArgument)**
 
-* __eventTarget__ – The control that should raise a postback event. Otherwise, if your control is in an __INamingContainer__, you should use the control's __UniqueID__.
+* **eventTarget** – The control that should raise a postback event. Otherwise, if your control is in an **INamingContainer**, you should use the control's **UniqueID**.
 
-* __eventArgument__ – This is an optional argument for the event.
+* **eventArgument** – This is an optional argument for the event.
 
-When you set a control as an __eventTarget__, it will raise an AJAX request and will update the controls that it was set to update in the configuration wizard. This function can be handled by the corresponding event handler (i.e., Button_Click) on the server.
+When you set a control as an **eventTarget**, it will raise an AJAX request and will update the controls that it was set to update in the configuration wizard. This function can be handled by the corresponding event handler (i.e., Button_Click) on the server.
 
 # See Also
 

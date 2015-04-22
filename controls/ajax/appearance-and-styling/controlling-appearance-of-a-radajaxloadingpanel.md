@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance of a RadAjaxLoadingPanel
-page_title: Controlling Appearance of a RadAjaxLoadingPanel | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance of a RadAjaxLoadingPanel | RadAjax for ASP.NET AJAX Documentation
 description: Controlling Appearance of a RadAjaxLoadingPanel
 slug: ajax/appearance-and-styling/controlling-appearance-of-a-radajaxloadingpanel
 tags: controlling,appearance,of,a,radajaxloadingpanel
@@ -12,19 +12,19 @@ position: 1
 
 
 
-This help article describes how to change the visual appearance of a __RadAjaxLoadingPanel__ and provides some code examples.
+This help article describes how to change the visual appearance of a **RadAjaxLoadingPanel** and provides some code examples.
 
 ## 
 
-The principal visual aspect of __RadAjax__ is the[RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) that displays when AJAX-enabled controls update.You can control the appearance of __RadAjaxLoadingPanel__ by the following methods:
+The principal visual aspect of **RadAjax** is the[RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) that displays when AJAX-enabled controls update.You can control the appearance of **RadAjaxLoadingPanel** by the following methods:
 
 * Modify the markup within the <telerik:RadAjaxLoadingPanel> </telerik:RadAjaxLoadingPanel> tags.
 
-* Change the image that displays in the loading panel. __RadAjax__ ships with a number of pre-defined animated "gif" images. To do this, you change the <src> tag path to one of the gifs in the installation directory: "\Telerik\RadControls for ASP.NET AJAXsuiteversion\Skins\Default\Ajax"
+* Change the image that displays in the loading panel. **RadAjax** ships with a number of pre-defined animated "gif" images. To do this, you change the <src> tag path to one of the gifs in the installation directory: "\Telerik\RadControls for ASP.NET AJAXsuiteversion\Skins\Default\Ajax"
 
-* [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) descends from __System.Web.UI.Panel__and provides properties for back color, font and other properties. In practice, most developers typically use the markup and loading image tostyle their loading panels, but you can also use these Panel properties.
+* [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) descends from **System.Web.UI.Panel**and provides properties for back color, font and other properties. In practice, most developers typically use the markup and loading image tostyle their loading panels, but you can also use these Panel properties.
 
-__Example 1__ shows how to change the appearace of a RadAjaxLoadingPanel using the methods just described.
+**Example 1** shows how to change the appearace of a RadAjaxLoadingPanel using the methods just described.
 
 Example 1: Custom appearance with image and text of the RadLoadingPanel.
 
@@ -38,7 +38,7 @@ Example 1: Custom appearance with image and text of the RadLoadingPanel.
 
 
 
-The __BackgroundTransparency__ property of __RadAjaxLoadingPanel__ changes the opacity ofthe DIV element that holds the background of the loading panel without affecting the loading Image. By default it is 0 (or empty) and inthis case no inline opacity style is rendered. The next few code snippets show the differences between __Transparency__ and__BackgroundTransparency__ properties and the rendered html.
+The **BackgroundTransparency** property of **RadAjaxLoadingPanel** changes the opacity ofthe DIV element that holds the background of the loading panel without affecting the loading Image. By default it is 0 (or empty) and inthis case no inline opacity style is rendered. The next few code snippets show the differences between **Transparency** and**BackgroundTransparency** properties and the rendered html.
 
 ````ASPNET
 	    <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" Skin="Default"
@@ -58,7 +58,7 @@ The __BackgroundTransparency__ property of __RadAjaxLoadingPanel__ changes the o
 
 
 
-With __Transparency="30"__ the HTML will be:
+With **Transparency="30"** the HTML will be:
 
 ````ASPNET
 	    <div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div1">
@@ -71,7 +71,7 @@ With __Transparency="30"__ the HTML will be:
 
 
 
-With __BackgroundTransparency="40"__ the HTML will be:
+With **BackgroundTransparency="40"** the HTML will be:
 
 ````ASPNET
 	    <div class="RadAjax RadAjax_Default" id="Div2">
@@ -84,7 +84,7 @@ With __BackgroundTransparency="40"__ the HTML will be:
 
 
 
-With __Transparency="30"__ and __BackgroundTransparency="40"__ the HTML will be:
+With **Transparency="30"** and **BackgroundTransparency="40"** the HTML will be:
 
 ````ASPNET
 	    <div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div3">
@@ -96,15 +96,15 @@ With __Transparency="30"__ and __BackgroundTransparency="40"__ the HTML will be:
 
 
 
->note The __raTransp__ class changes the opacity, so if you like the opacity of the internal __raColor__ class to be actually 1, then set __EnableSkinTransparency="false".__ 
+>note The **raTransp** class changes the opacity, so if you like the opacity of the internal **raColor** class to be actually 1, then set **EnableSkinTransparency="false".** 
 >
 
 
 ## UpdatePanelCssClass property
 
-For __RadAjaxManager__, you can add the __UpdatePanelCssClass__ to an __AjaxUpdatedControl__ inside the UpdatedControls section of each __AjaxSetting__. The provided string is used as __CssClass__ for the UpdatePanel that will wrap the__AjaxUpdatedControl__ during the rendering.
+For **RadAjaxManager**, you can add the **UpdatePanelCssClass** to an **AjaxUpdatedControl** inside the UpdatedControls section of each **AjaxSetting**. The provided string is used as **CssClass** for the UpdatePanel that will wrap the**AjaxUpdatedControl** during the rendering.
 
-As a result, the __CssClass__ property of the UpdatePanel is rendered as a class attribute in the output HTML. Additionally, a__RadAjaxPanel__ is added to the __CssClass__ of the UpdatePanel. Therefore, if the user sets__MyClass__ for the __UpdatePanelCssClass__, the result in the rendered div becomes__class=RadAjaxPanel MyClass__.
+As a result, the **CssClass** property of the UpdatePanel is rendered as a class attribute in the output HTML. Additionally, a**RadAjaxPanel** is added to the **CssClass** of the UpdatePanel. Therefore, if the user sets**MyClass** for the **UpdatePanelCssClass**, the result in the rendered div becomes**class=RadAjaxPanel MyClass**.
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -127,13 +127,13 @@ As a result, the __CssClass__ property of the UpdatePanel is rendered as a class
 	    </div>
 	
 	    <div id="Button1Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
-	        <input id="Button1" type="button" onclick="javascript: __doPostBack('Button1', '')" value="" name="Button1">
+	        <input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
 	    </div>
 ````
 
 
 
-For __RadAjaxPanel__, the __CssClass__ property is applied to the inner div, which has the same ID as	the __ClientID__ of the __RadAjaxPanel__. The __UpdatePanelCssClass__ applies to theUpdatePanel that wraps the __RadAjaxPanel__.
+For **RadAjaxPanel**, the **CssClass** property is applied to the inner div, which has the same ID as	the **ClientID** of the **RadAjaxPanel**. The **UpdatePanelCssClass** applies to theUpdatePanel that wraps the **RadAjaxPanel**.
 
 ````ASPNET
 	    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" CssClass="PanelCssClass" UpdatePanelCssClass="updatePanelClassName">
@@ -146,7 +146,7 @@ For __RadAjaxPanel__, the __CssClass__ property is applied to the inner div, whi
 ````ASPNET
 	    <div id="ctl03Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
 	        <div id="ctl03" class="PanelCssClass">
-	            <input id="Button1" type="button" onclick="javascript: __doPostBack('Button1', '')" value="" name="Button1">
+	            <input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
 	        </div>
 	    </div>
 ````

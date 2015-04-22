@@ -1,6 +1,6 @@
 ---
 title: RadAjax and WebUserControls
-page_title: RadAjax and WebUserControls | UI for ASP.NET AJAX Documentation
+page_title: RadAjax and WebUserControls | RadAjax for ASP.NET AJAX Documentation
 description: RadAjax and WebUserControls
 slug: ajax/radajaxmanager/how-to/radajax-and-webusercontrols
 tags: radajax,and,webusercontrols
@@ -16,7 +16,7 @@ position: 1
 
 RadAjax for ASP.NET AJAX Manager allows a single instance of the control on the same page only. One cannot place manager in the main page and second instance inside a user control anymore. RadAjaxManager designer on the other hand, cannot locate the WebUserControl (as well as controls inside it).
 
-Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, __RadAjaxManagerProxy__[control]({%slug ajax/radajaxmanagerproxy/overview%}). The new control can be added inside a WebUserControl and configured the same way as the manager to AJAX-enable the user control completely codeless:
+Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, **RadAjaxManagerProxy**[control]({%slug ajax/radajaxmanagerproxy/overview%}). The new control can be added inside a WebUserControl and configured the same way as the manager to AJAX-enable the user control completely codeless:
 
 ````ASPNET
 	    <telerik:RadAjaxManagerProxy ID="AjaxManagerProxy1" runat="server">
@@ -43,11 +43,11 @@ Since the release of RadAjax for ASP.NET AJAX from May 2007, there is a new, __R
 >
 
 
->note If one still needs the manager instance at the code of a WebUserControl for example so that an AJAX request need to be triggered explicitly, she can get the manager by __RadAjaxManager.GetCurrent()__ method call. The method will return null if there is no manager on the page, similar to[ASP:ScriptManager implementation](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
+>note If one still needs the manager instance at the code of a WebUserControl for example so that an AJAX request need to be triggered explicitly, she can get the manager by **RadAjaxManager.GetCurrent()** method call. The method will return null if there is no manager on the page, similar to[ASP:ScriptManager implementation](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx).
 >
 
 
-Should you need the server or client-side RadAjaxManager functionality (like __ResponseScripts__ collection, __ajaxRequest__ function) you can get the "master" manager instance via Server-Side __GetCurrent__ method from the user control code-behind:
+Should you need the server or client-side RadAjaxManager functionality (like **ResponseScripts** collection, **ajaxRequest** function) you can get the "master" manager instance via Server-Side **GetCurrent** method from the user control code-behind:
 
 ````ASPNET
 	    RadAjaxManager.GetCurrent(Page);
@@ -69,9 +69,9 @@ Use server-side code block in a JS function inside your WebUserControl to call t
 
 
 
-As to the AJAX settings, the old RadAjax approach, __adding AJAX settings programmatically__, is still applicable. Here is a simple example demonstrating how this could be achieved:
+As to the AJAX settings, the old RadAjax approach, **adding AJAX settings programmatically**, is still applicable. Here is a simple example demonstrating how this could be achieved:
 
-__ASPX:__
+**ASPX:**
 
 ````ASPNET
 	    <form id="Form1" method="post" runat="server">

@@ -1,6 +1,6 @@
 ---
 title: Add AjaxSettings Programmatically
-page_title: Add AjaxSettings Programmatically | UI for ASP.NET AJAX Documentation
+page_title: Add AjaxSettings Programmatically | RadAjax for ASP.NET AJAX Documentation
 description: Add AjaxSettings Programmatically
 slug: ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically
 tags: add,ajaxsettings,programmatically
@@ -14,19 +14,19 @@ position: 0
 
 ## 
 
-This help article discusses the __AjaxSettings__ which represent a mapping between a control that initiates an AJAX request and acollection of controls to be updated. There are different cases where, you need to add AJAX pairs dynamically (at runtime).For example, when the controls in the setting are not directly accessible (they are children of other controls in the form) or the__RadAjaxManager__ is placed on the parent page and there is no __RadAjax__ control on the child page/user control. Note that the way the usercreates the settings depeneds on its preferences and application implementation.
+This help article discusses the **AjaxSettings** which represent a mapping between a control that initiates an AJAX request and acollection of controls to be updated. There are different cases where, you need to add AJAX pairs dynamically (at runtime).For example, when the controls in the setting are not directly accessible (they are children of other controls in the form) or the**RadAjaxManager** is placed on the parent page and there is no **RadAjax** control on the child page/user control. Note that the way the usercreates the settings depeneds on its preferences and application implementation.
 
-When adding __AjaxSettings__ namically you should always do this in the __Page__ event handler, which is executed each time during the pagelifecycle (__Page_Load__, __Page_PreRender__) so that the control could be ajaxified when the page is initially loaded. __Example 1__shows how to AJAX-enable a Button control in a page __Page_Load__ event.
+When adding **AjaxSettings** namically you should always do this in the **Page** event handler, which is executed each time during the pagelifecycle (**Page_Load**, **Page_PreRender**) so that the control could be ajaxified when the page is initially loaded. **Example 1**shows how to AJAX-enable a Button control in a page **Page_Load** event.
 
 >note Note that you need to assure that the controls that take part in the AJAX pair are available on the page!
 >
 
 
->note You cannot add __AjaxSettings__ dynamically in the __Page_Init__ event. It is too early in the page lifecycle since the __RadAjaxManager__ is not created yet.
+>note You cannot add **AjaxSettings** dynamically in the **Page_Init** event. It is too early in the page lifecycle since the **RadAjaxManager** is not created yet.
 >
 
 
-The example below demonstrates how to AJAX-enable a Button control dynamically to toggle the visibility of an image. The markup and code show how to use __AjaxSettings__ to add AJAX to a button control in the __Page_Load__ event to display an image (the Telerik logo).
+The example below demonstrates how to AJAX-enable a Button control dynamically to toggle the visibility of an image. The markup and code show how to use **AjaxSettings** to add AJAX to a button control in the **Page_Load** event to display an image (the Telerik logo).
 
 ````ASPNET
 	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">

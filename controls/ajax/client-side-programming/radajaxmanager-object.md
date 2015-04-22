@@ -1,6 +1,6 @@
 ---
 title: RadAjaxManager Object
-page_title: RadAjaxManager Object | UI for ASP.NET AJAX Documentation
+page_title: RadAjaxManager Object | RadAjax for ASP.NET AJAX Documentation
 description: RadAjaxManager Object
 slug: ajax/client-side-programming/radajaxmanager-object
 tags: radajaxmanager,object
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__Table 1__ lists significant properties and methods of the __RadAjaxManager__ client-side object. __Example 1__ shows how to get the Ajax settings using get_ajaxSettings.
+**Table 1** lists significant properties and methods of the **RadAjaxManager** client-side object. **Example 1** shows how to get the Ajax settings using get_ajaxSettings.
 
 
 >caption  
@@ -22,17 +22,17 @@ __Table 1__ lists significant properties and methods of the __RadAjaxManager__ c
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
 |[ajaxRequest]({%slug ajax/client-side-programming/overview%})|string|none|Initiates an AJAX request that fires the[AjaxRequest]({%slug ajax/server-side-programming/events/onajaxrequest%})event on the server.|
-|[ajaxRequestWithTarget]({%slug ajax/client-side-programming/overview%})|string, string|none|Simulates a postback/AJAX request initiated from a control with a specified __UniqueID__ .|
-|get_ajaxSettings|none|array of objects|Returns an array of settings where each object has properties for the __InitControlID__ and another array of __UpdatedControls__ (see __Example 1__ ).|
-|get_defaultLoadingPanelID|none|string|Returns the __DefaultLoadingPanelID__ .|
-|get_enableAJAX|none|boolean| __True__ if AJAX is enabled.|
-|get_enableHistory|none|boolean| __True__ if browser history is enabled during AJAX requests.|
-|set_ajaxSettings|array of objects|none|Sets the array of objects representing the __AjaxSettings__ .|
-|set_defaultLoadingPanelID|string|none|Sets the __DefaultLoadingPanelID__ |
-|set_enableAJAX|boolean|none|Enables or disable AJAX for the AJAX initiator. Pass __true__ to enable AJAX, __false__ to have the subsequent requests performed as standard postbacks.|
-|set_enableHistory|boolean|none|Allows browser history during AJAX requests. Pass __true__ to allow browser history during AJAX requests.|
+|[ajaxRequestWithTarget]({%slug ajax/client-side-programming/overview%})|string, string|none|Simulates a postback/AJAX request initiated from a control with a specified **UniqueID** .|
+|get_ajaxSettings|none|array of objects|Returns an array of settings where each object has properties for the **InitControlID** and another array of **UpdatedControls** (see **Example 1** ).|
+|get_defaultLoadingPanelID|none|string|Returns the **DefaultLoadingPanelID** .|
+|get_enableAJAX|none|boolean| **True** if AJAX is enabled.|
+|get_enableHistory|none|boolean| **True** if browser history is enabled during AJAX requests.|
+|set_ajaxSettings|array of objects|none|Sets the array of objects representing the **AjaxSettings** .|
+|set_defaultLoadingPanelID|string|none|Sets the **DefaultLoadingPanelID** |
+|set_enableAJAX|boolean|none|Enables or disable AJAX for the AJAX initiator. Pass **true** to enable AJAX, **false** to have the subsequent requests performed as standard postbacks.|
+|set_enableHistory|boolean|none|Allows browser history during AJAX requests. Pass **true** to allow browser history during AJAX requests.|
 
-__Example 1__: Using get_ajaxSettings
+**Example 1**: Using get_ajaxSettings
 
 ````JavaScript
 	    <script type="text/javascript">
