@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadDropDownList Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET RadDropDownList Overview
 slug: dropdownlist/overview
 tags: overview
 published: True
@@ -36,11 +36,11 @@ Telerik RadDropDownList for ASP.NET AJAX is lightweight and easy to use control 
 
 * **Data Binding**
 
-* Declarative entries – defined in the markup.
+	* Declarative entries – defined in the markup.
 
-* Server-side – server API for setting data source using DataSource controls, to which RadDropDownList is bound.
+	* Server-side – server API for setting data source using DataSource controls, to which RadDropDownList is bound.
 
-* Client-side – client API for setting data source using Web services and OData, to which RadDropDownList is bound.
+	* Client-side – client API for setting data source using Web services and OData, to which RadDropDownList is bound.
 
 * **Virtual Scroll Rendering** – similar behavior as the LOD, but will enable access to items in a non-sequential manner. For instance, if you want to scroll to the bottom of the DropDown, you won’t need to load all the items in between. In order to utilize the Virtual Scroll Rendering the DropDownHeight property must be set.
 

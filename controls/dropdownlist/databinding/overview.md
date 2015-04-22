@@ -1,7 +1,7 @@
 ---
-title: DataBinding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: DataBinding Overview | UI for ASP.NET AJAX Documentation
+description: : Telerik's ASP.NET RadDropDownList DataBinding Overview
 slug: dropdownlist/databinding/overview
 tags: overview
 published: True
@@ -40,7 +40,7 @@ The following properties and methods are used when binding RadDropDownList to a 
 
 * **DataBind** method - must be called after the aforementioned properties are set, when binding at runtime. This method is mandatory for binding at runtime.
 
->note If you need to map additional fields from the Data Source to properties of RadDropDownList item, the **ItemDataBound** event should be used. See[Binding To ASP DataSource Components]({%slug dropdownlist/databinding/server-side-binding-/binding-to-asp-datasource-components%}), for an example.
+>note If you need to map additional fields from the Data Source to properties of RadDropDownList item, the **ItemDataBound** event should be used. See [Binding To ASP DataSource Components]({%slug dropdownlist/databinding/server-side-binding-/binding-to-asp-datasource-components%}), for an example.
 >
 
 

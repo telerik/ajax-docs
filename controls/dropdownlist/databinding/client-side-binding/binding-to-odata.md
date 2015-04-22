@@ -19,20 +19,20 @@ RadDropDownList supports binding to an OData service. The Open Data Protocol (OD
 Flat OData Binding means binding to a non-hierarchical data. Here is an example which demonstrates how to perform the OData binding on RadDropDownList using the RadODataDataSource control.
 
 ````ASPNET
-	        <telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
-	            <Transport>
-	                <Read Url="http://services.odata.org/Northwind/Northwind.svc/" />
-	            </Transport>
-	            <Schema>
-	                <telerik:DataModel ModelID="Category" Set="Categories">
-	                    <telerik:DataModelField FieldName="CategoryID" />
-	                    <telerik:DataModelField FieldName="CategoryName" />
-	                </telerik:DataModel>
-	            </Schema>
-	        </telerik:RadODataDataSource>
-	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server" ODataDataSourceID="RadODataDataSource1"
-	            DataModelID="Category" DataTextField="CategoryName" DataValueField="CategoryID">
-	        </telerik:RadDropDownList>
+<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
+	<Transport>
+		<Read Url="http://services.odata.org/Northwind/Northwind.svc/" />
+	</Transport>
+	<Schema>
+		<telerik:DataModel ModelID="Category" Set="Categories">
+			<telerik:DataModelField FieldName="CategoryID" />
+			<telerik:DataModelField FieldName="CategoryName" />
+		</telerik:DataModel>
+	</Schema>
+</telerik:RadODataDataSource>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server" ODataDataSourceID="RadODataDataSource1"
+	DataModelID="Category" DataTextField="CategoryName" DataValueField="CategoryID">
+</telerik:RadDropDownList>
 ````
 
 
@@ -49,8 +49,8 @@ The applied settings to RadODataSource and RadDropDownList, for a successful dat
 
 * The type of the responce data is specified within the RadODataDataSource control, in its Read section by the **DataType** property.The options to choose from are listed below.
 
-* [JSONP](http://en.wikipedia.org/wiki/JSONP)
+	* [JSONP](http://en.wikipedia.org/wiki/JSONP)
 
-* [XML](http://en.wikipedia.org/wiki/XML)
+	* [XML](http://en.wikipedia.org/wiki/XML)
 
 More information regarding the Entity Data Model (EDM) can be found[here](http://www.odata.org/developers/protocols/overview).

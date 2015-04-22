@@ -18,7 +18,7 @@ The **RadDropDownList Item Builder** lets you define items **inline** (in the as
 
 There are two ways to bring up the RadDropDownList Item Builder:
 
-* From the **RadDropDownList**[ Smart Tag ]({%slug dropdownlist/design-time/smart-tag%}), click on the **Build RadDropDownList** link.
+* From the **RadDropDownList** [ Smart Tag ]({%slug dropdownlist/design-time/smart-tag%}), click on the **Build RadDropDownList** link.
 
 * Right-click on the **RadDropDownList** control and select **Build RadDropDownList** from its pop-up menu.
 

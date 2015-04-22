@@ -29,27 +29,27 @@ Shows how to use templates to create the following RadDropDownList:
 An <ItemTemplate> section is added to the **RadDropDownList** declaration. The image in the template and the text that appears in the template is taken from the RadDropDownListItem using <%# DataBinder.Eval %> statements.
 
 ````C#
-	    <telerik:RadDropDownList ID="RadDropDownList1"
-	         runat="server">
-	        <ItemTemplate>
-	            <table >
-	            <tr>
-	                <td>
-	                    <img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
-	                </td>
-	                <td>
-	                    <%# DataBinder.Eval(Container, "Text") %>
-	                </td>
-	            </tr>
-	        </table>
-	        </ItemTemplate>
-	        <Items>
-	            <telerik:DropDownListItem ImagePath="additionOperation.png" Text="Sign for Adding" />
-	            <telerik:DropDownListItem ImagePath="substractOperation.png" Text="Sign for Substracting" />
-	            <telerik:DropDownListItem ImagePath="multiplyOperation.png" Text="Sign for Multiplying" />
-	            <telerik:DropDownListItem ImagePath="divideOperation.png" Text="Sign for Dividing" />
-	        </Items>
-	    </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1"
+	 runat="server">
+	<ItemTemplate>
+		<table >
+		<tr>
+			<td>
+				<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
+			</td>
+			<td>
+				<%# DataBinder.Eval(Container, "Text") %>
+			</td>
+		</tr>
+	</table>
+	</ItemTemplate>
+	<Items>
+		<telerik:DropDownListItem ImagePath="additionOperation.png" Text="Sign for Adding" />
+		<telerik:DropDownListItem ImagePath="substractOperation.png" Text="Sign for Substracting" />
+		<telerik:DropDownListItem ImagePath="multiplyOperation.png" Text="Sign for Multiplying" />
+		<telerik:DropDownListItem ImagePath="divideOperation.png" Text="Sign for Dividing" />
+	</Items>
+</telerik:RadDropDownList>
 ````
 
 
@@ -59,26 +59,24 @@ Before the template can use the RadDropDownList item's properties to bind the el
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        for (int i = 0; i < RadDropDownList1.Items.Count; i++)
-	        {
-	            RadDropDownList1.Items[i].DataBind();
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	for (int i = 0; i < RadDropDownList1.Items.Count; i++)
+	{
+		RadDropDownList1.Items[i].DataBind();
+	}
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	
-	        Dim i As Integer = 0
-	
-	        While i < RadDropDownList1.Items.Count
-	            RadDropDownList1.Items(i).DataBind()
-	            i = i + 1
-	        End While
-	
-	    End Sub
-	
-	
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+
+	Dim i As Integer = 0
+
+	While i < RadDropDownList1.Items.Count
+		RadDropDownList1.Items(i).DataBind()
+		i = i + 1
+	End While
+
+End Sub	
 ````
 

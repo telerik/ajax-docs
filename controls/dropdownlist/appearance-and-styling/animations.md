@@ -18,71 +18,71 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadDropDownList** ar
 
 * The **Type** is one of the following pre-defined animation types:
 
-* Linear
+	* Linear
 
-* InQuad
+	* InQuad
 
-* OutQuad
+	* OutQuad
 
-* InOutQuad
+	* InOutQuad
 
-* InCubic
+	* InCubic
 
-* OutCubic
+	* OutCubic
 
-* InOutCubic
+	* InOutCubic
 
-* InQuart
+	* InQuart
 
-* OutQuart
+	* OutQuart
 
-* InOutQuart
+	* InOutQuart
 
-* InQuint
+	* InQuint
 
-* OutQuint
+	* OutQuint
 
-* InOutQuint
+	* InOutQuint
 
-* InSine
+	* InSine
 
-* OutSine
+	* OutSine
 
-* InOutSine
+	* InOutSine
 
-* InExpo
+	* InExpo
 
-* OutExpo
+	* OutExpo
 
-* InOutExpo
+	* InOutExpo
 
-* InBack
+	* InBack
 
-* OutBack
+	* OutBack
 
-* InOutBack
+	* InOutBack
 
-* InBounce
+	* InBounce
 
-* OutBounce
+	* OutBounce
 
-* InOutBounce
+	* InOutBounce
 
-* InElastic
+	* InElastic
 
-* OutElastic
+	* OutElastic
 
-* InOutElastic
+	* InOutElastic
 
 * The **Duration** is set in milliseconds.
 
-**Example 1:** a sample animation configuration.
+**Example 1:** A sample animation configuration.
 
 ````ASPNET
-	    <telerik:RadDropDownList ID="RadDropDownList1" runat="server">
-	        <ExpandAnimation Type="InBounce" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+	<ExpandAnimation Type="InBounce" Duration="300" />
+	<CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadDropDownList>
 ````
 
 

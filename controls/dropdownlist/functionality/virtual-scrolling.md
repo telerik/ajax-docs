@@ -27,12 +27,12 @@ To enable Virtual Scrolling for browsing large record sets:
 * Set the EnableVirtualScrolling property to True.
 
 ````ASPNET
-	           <telerik:RadDropDownList ID="RadDropDownList1" runat="server" EmptySelectionMessage="Select" 
-	             DataSourceID="SqlDataSource1" DataTextField="ContactName" DataValueField="CustomerID" 
-	             EnableVirtualScrolling="true" DropDownHeight="200px">            
-	         </telerik:RadDropDownList>
-	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>" 
-	            SelectCommand="SELECT [CustomerID], [ContactName] FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server" EmptySelectionMessage="Select" 
+	 DataSourceID="SqlDataSource1" DataTextField="ContactName" DataValueField="CustomerID" 
+	 EnableVirtualScrolling="true" DropDownHeight="200px">            
+</telerik:RadDropDownList>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>" 
+	SelectCommand="SELECT [CustomerID], [ContactName] FROM [Customers]"></asp:SqlDataSource>
 ````
 
 

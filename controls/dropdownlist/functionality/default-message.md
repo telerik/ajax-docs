@@ -17,11 +17,11 @@ position: 1
 ## Setting the Default Message in the markup code
 
 ````ASPNET
-	    <telerik:RadDropDownList ID="RadDropDownList1"
-	         runat="server"
-	         AutoPostBack="true"
-	         DefaultMessage="Select an item">
-	    </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1"
+	 runat="server"
+	 AutoPostBack="true"
+	 DefaultMessage="Select an item">
+</telerik:RadDropDownList>
 ````
 
 
@@ -31,27 +31,25 @@ position: 1
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadDropDownList1.DefaultMessage = "Select an item";
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadDropDownList1.DefaultMessage = "Select an item";
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	
-	        RadDropDownList1.DefaultMessage = "Select an item"
-	
-	    End Sub
-	
-	
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+
+	RadDropDownList1.DefaultMessage = "Select an item"
+
+End Sub
 ````
 
 
 ## Setting the Default Message client-side
 
 ````JavaScript
-	        var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-	        dropdownlist.set_defaultMessage("Select an item");
+var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+dropdownlist.set_defaultMessage("Select an item");
 ````
 
 

@@ -33,15 +33,15 @@ The template contains mark up and binding expressions which are evaluated agains
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
-	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server">           
-	            <ClientItemTemplate>
-	                <div class="customClass">
-	                    <img src="#= ImagePath #" alt="Picture" />
-	                    <span>"#= Text #"</span>
-	                </div>
-	            </ClientItemTemplate>       
-	            <WebServiceSettings Method="LoadItems" Path="Products.asmx" />
-	        </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server">           
+	<ClientItemTemplate>
+		<div class="customClass">
+			<img src="#= ImagePath #" alt="Picture" />
+			<span>"#= Text #"</span>
+		</div>
+	</ClientItemTemplate>       
+	<WebServiceSettings Method="LoadItems" Path="Products.asmx" />
+</telerik:RadDropDownList>
 ````
 
 
@@ -50,31 +50,31 @@ On the server the template will be presented as a string property of the control
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!Page.IsPostBack)
-	        {
-	            StringBuilder clientTemplate = new StringBuilder();
-	            clientTemplate.Append("<div class='customClass'>");
-	            clientTemplate.Append("<img src='#= ImagePath #' alt='Picture' />");
-	            clientTemplate.Append("<span> #= Text # </span>");
-	            clientTemplate.Append("</div>");
-	            RadDropDownList1.ClientItemTemplate = clientTemplate.ToString();
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (!Page.IsPostBack)
+	{
+		StringBuilder clientTemplate = new StringBuilder();
+		clientTemplate.Append("<div class='customClass'>");
+		clientTemplate.Append("<img src='#= ImagePath #' alt='Picture' />");
+		clientTemplate.Append("<span> #= Text # </span>");
+		clientTemplate.Append("</div>");
+		RadDropDownList1.ClientItemTemplate = clientTemplate.ToString();
+	}
+}
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        If Not Page.IsPostBack Then
-	            Dim clientTemplate As New StringBuilder()
-	            clientTemplate.Append("<div class='customClass'>")
-	            clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
-	            clientTemplate.Append("<span> #= Text # </span>")
-	            clientTemplate.Append("</div>")
-	            RadDropDownList1.ClientItemTemplate = clientTemplate.ToString()
-	        End If
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+	If Not Page.IsPostBack Then
+		Dim clientTemplate As New StringBuilder()
+		clientTemplate.Append("<div class='customClass'>")
+		clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
+		clientTemplate.Append("<span> #= Text # </span>")
+		clientTemplate.Append("</div>")
+		RadDropDownList1.ClientItemTemplate = clientTemplate.ToString()
+	End If
+End Sub
 ````
 
 
@@ -99,20 +99,20 @@ Sample code for the usage of the method is demonstrated below.
 * Adding item and then binding the Control’s template to it:
 
 ````ASPNET
-	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server">
-	            <ClientItemTemplate>
-	                Template text: #= Text #
-	            </ClientItemTemplate>
-	        </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+	<ClientItemTemplate>
+		Template text: #= Text #
+	</ClientItemTemplate>
+</telerik:RadDropDownList>
 ````
 
 
 
 ````JavaScript
-	            var item = new Telerik.Web.UI.DropDownListItem();
-	            item.set_text("new item");
-	            $find("RadDropDownList1").get_items().add(item);
-	            item.bindTemplate();
+var item = new Telerik.Web.UI.DropDownListItem();
+item.set_text("new item");
+$find("RadDropDownList1").get_items().add(item);
+item.bindTemplate();
 ````
 
 
@@ -120,11 +120,11 @@ Sample code for the usage of the method is demonstrated below.
 * Creating item, setting its client template and calling **bindTemplate** method before inserting it into the items collection of the RadDropDownList:
 
 ````JavaScript
-	            var item = new Telerik.Web.UI.DropDownListItem();
-	            item.set_text("new item");
-	            item.set_clientTemplate("template text: #= Text #");
-	            item.bindTemplate();
-	            $find("RadDropDownList1").get_items().add(item);
+var item = new Telerik.Web.UI.DropDownListItem();
+item.set_text("new item");
+item.set_clientTemplate("template text: #= Text #");
+item.bindTemplate();
+$find("RadDropDownList1").get_items().add(item);
 ````
 
 
@@ -132,11 +132,11 @@ Sample code for the usage of the method is demonstrated below.
 * Creating item, setting it’s client template and calling **bindTemplate** method after inserting it into the items colelction of the RadDropDownList:
 
 ````JavaScript
-	            var item = new Telerik.Web.UI.DropDownListItem();
-	            item.set_text("new item");
-	            item.set_clientTemplate("template text: #= Text #");
-	            $find("RadDropDownList1").get_items().add(item);
-	            item.bindTemplate();
+var item = new Telerik.Web.UI.DropDownListItem();
+item.set_text("new item");
+item.set_clientTemplate("template text: #= Text #");
+$find("RadDropDownList1").get_items().add(item);
+item.bindTemplate();
 ````
 
 
@@ -144,19 +144,19 @@ Sample code for the usage of the method is demonstrated below.
 * Bind the client template to an item rendered on the server:
 
 ````ASPNET
-	        <telerik:RadDropDownList ID="RadDropDownList1" runat="server">
-	            <Items>
-	                <telerik:DropDownListItem Text="Item" />
-	            </Items>
-	        </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1" runat="server">
+	<Items>
+		<telerik:DropDownListItem Text="Item" />
+	</Items>
+</telerik:RadDropDownList>
 ````
 
 
 
 ````JavaScript
-	            var item = $find("RadDropDownList1").get_items().getItem(0);
-	            item.set_clientTemplate("template text: #= Text #");
-	            item.bindTemplate();
+var item = $find("RadDropDownList1").get_items().getItem(0);
+item.set_clientTemplate("template text: #= Text #");
+item.bindTemplate();
 ````
 
 

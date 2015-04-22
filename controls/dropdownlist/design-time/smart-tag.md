@@ -26,7 +26,7 @@ Using the unbound **RadDropDownList** Smart Tag you can perform the following:
 
 ## RadDropDownList Tasks
 
-* **Choose Data Source** lets you bind RadDropDownList declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind RadDropDownList declaratively by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadDropDownList** opens the [RadDropDownList Item builder]({%slug dropdownlist/design-time/item-builder%}), where you can add static items to the DropDownList and set their properties.
 

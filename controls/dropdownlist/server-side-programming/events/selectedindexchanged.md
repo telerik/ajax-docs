@@ -24,22 +24,22 @@ The **SelectedIndexChanged** event handler receives two arguments:
 
 1. The **RadDropDownList** that is loading items. This argument is of type object, but can be cast to the **RadDropDownList** type.
 
-1. An EventArgs object. This object has the following properties for identifying what has changed:
+2. An EventArgs object. This object has the following properties for identifying what has changed:
 
-* **Index** is the index of the item that was just selected.
+	* **Index** is the index of the item that was just selected.
 
-* **Text** is the text of the item that was just selected.
+	* **Text** is the text of the item that was just selected.
 
-* **Value** is the value of the item that was just selected.
+	* **Value** is the value of the item that was just selected.
 
 Use the **SelectedIndexChanged** event handler to respond in server-side code when the user changes the current selection:
 
 ````ASPNET
-	    <telerik:RadDropDownList ID="RadDropDownList1"
-	         runat="server"
-	         AutoPostBack="true"
-	         OnSelectedIndexChanged="RadDropDownList1_SelectedIndexChanged">
-	    </telerik:RadDropDownList>
+<telerik:RadDropDownList ID="RadDropDownList1"
+	 runat="server"
+	 AutoPostBack="true"
+	 OnSelectedIndexChanged="RadDropDownList1_SelectedIndexChanged">
+</telerik:RadDropDownList>
 ````
 
 
