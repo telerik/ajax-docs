@@ -356,61 +356,61 @@ navigation:
         position: 1
 
 ## List common control TOC structure so it is reused by all controls
-    "*controls/*/overview":
+    "controls/*/overview":
          title: "Overview"
          position: 1
-    "*controls/*/introduction":
+    "controls/*/introduction":
          title: "introduction"
          position: 1
-    "*controls/*/changes-and-backwards-compatibility":
+    "controls/*/changes-and-backwards-compatibility":
          title: "Changes and Backwards Compatibility"
          position: 2
-    "*controls/*/changes-and-backward-compatibility":
+    "controls/*/changes-and-backward-compatibility":
          title: "Changes and Backwards Compatibility"
          position: 2
-    "*controls/*/getting-started":
+    "controls/*/getting-started":
          title: "Getting Started"
          position: 3
-    "*controls/*/design-time":
+    "controls/*/design-time":
          title: "Design Time"
          position: 4
-    "*controls/*/functionality":
+    "controls/*/functionality":
          title: "Functionality"
          position: 12
-    "*controls/*/mobile-support":
+    "controls/*/mobile-support":
          title: "Mobile Support"
          position: 30
-    "*controls/*/appearance-and-styling":
+    "controls/*/appearance-and-styling":
          title: "Appearance and Styling"
          position: 35
-    "*controls/*/accessibility-and-internationalization":
+    "controls/*/accessibility-and-internationalization":
          title: "Accessibility and Internationalization"
          position: 40
-    "*controls/*/server-side-programming":
+    "controls/*/server-side-programming":
          title: "Server-side Programming"
          position: 45
-    "*controls/*/server-side-programming/methods":
+    "controls/*/server-side-programming/methods":
          title: "Methods"
          position: 20
-    "*controls/*/server-side-programming/events":
+    "controls/*/server-side-programming/events":
          title: "Events"
          position: 25
-    "*controls/*/client-side-programming":
+    "controls/*/client-side-programming":
          title: "Client-side Programming"
          position: 50
-    "*controls/*/client-side-programming/methods":
+    "controls/*/client-side-programming/methods":
          title: "Methods"
          position: 20
-    "*controls/*/client-side-programming/events":
+    "controls/*/client-side-programming/events":
          title: "Events"
          position: 25
-    "*controls/*/how-to":
+    "controls/*/how-to":
          title: "How To"
          position: 55
-    "*controls/*/application-scenarios":
+    "controls/*/application-scenarios":
          title: "Application Scenarios"
          position: 56
-    "*controls/*/troubleshooting":
+    "controls/*/troubleshooting":
          title: "Troubleshooting"
          position: 60
 
