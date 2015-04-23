@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadColorPicker for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: colorpicker/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -12,7 +12,6 @@ position: 1
 
 
 
-## 
 
 There are a number of ways you can customize the look & feel of the color picker:
 

@@ -1,6 +1,6 @@
 ---
 title: Breaking Changes
-page_title: Breaking Changes | UI for ASP.NET AJAX Documentation
+page_title: Breaking Changes | RadColorPicker for ASP.NET AJAX Documentation
 description: Breaking Changes
 slug: colorpicker/changes-and-backwards-compatibility/breaking-changes
 tags: breaking,changes
@@ -14,7 +14,7 @@ position: 2
 
 ## RadColorPicker for ASP.NET AJAX
 
-* A complete list of all changes can be found on Release History page:[http://www.telerik.com/support/whats-new/aspnet-ajax/release-history](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
+A complete list of all changes can be found on Release History page:[http://www.telerik.com/support/whats-new/aspnet-ajax/release-history](http://www.telerik.com/support/whats-new/aspnet-ajax/release-history)
 
 
 
@@ -27,7 +27,7 @@ The new release brings the following changes in the naming convention:
 
 
 
->caption  
+
 
 | Old name | New name |
 | ------ | ------ |
@@ -41,7 +41,7 @@ The new release brings the following changes in the naming convention:
 
 
 
->caption  
+
 
 | Old name | New name |
 | ------ | ------ |
@@ -55,7 +55,7 @@ The new release brings the following changes in the naming convention:
 ## Client-side API:
 
 
->caption  
+ 
 
 | Old name | New name |
 | ------ | ------ |
@@ -79,7 +79,7 @@ The new release brings the following changes in the naming convention:
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention. For example was:__radcolorpicker RadColorPicker_Default__ now:__RadColorPicker RadColorPicker_Default__
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention. For example was:**radcolorpicker RadColorPicker_Default** now:**RadColorPicker RadColorPicker_Default**
 
 ## Telerik RadColorPicker for ASP.NET AJAX Q2 2008 and Q3 2008
 

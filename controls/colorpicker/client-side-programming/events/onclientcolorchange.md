@@ -1,6 +1,6 @@
 ---
 title: OnClientColorChange
-page_title: OnClientColorChange | UI for ASP.NET AJAX Documentation
+page_title: OnClientColorChange | RadColorPicker for ASP.NET AJAX Documentation
 description: OnClientColorChange
 slug: colorpicker/client-side-programming/events/onclientcolorchange
 tags: onclientcolorchange
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientColorChange__client-side event occurs when the user selects a color from the palette.
+The **OnClientColorChange**client-side event occurs when the user selects a color from the palette.
 
 The event handler receives parameters:
 
@@ -22,7 +22,7 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-1. __get_oldValue__: returns the selected color from just prior to the change.
+1. **get_oldValue**: returns the selected color from just prior to the change.
 
 The example below displays the new and old values.
 

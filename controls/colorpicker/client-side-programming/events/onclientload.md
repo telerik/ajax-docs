@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadColorPicker for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: colorpicker/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientLoad__client-side event occurs after the color picker loads on the page.
+The **OnClientLoad**client-side event occurs after the color picker loads on the page.
 
 The event handler receives parameters:
 

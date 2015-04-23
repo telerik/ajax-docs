@@ -1,6 +1,6 @@
 ---
 title: OnClientPopUpShow
-page_title: OnClientPopUpShow | UI for ASP.NET AJAX Documentation
+page_title: OnClientPopUpShow | RadColorPicker for ASP.NET AJAX Documentation
 description: OnClientPopUpShow
 slug: colorpicker/client-side-programming/events/onclientpopupshow
 tags: onclientpopupshow
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientPopUpShow__client-side event occurs after the pop-up palette of a color picker with __ShowIcon__set to "__true__" shows.
+The **OnClientPopUpShow**client-side event occurs after the pop-up palette of a color picker with **ShowIcon**set to "**true**" shows.
 
 The event handler receives parameters:
 

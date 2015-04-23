@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadColorPicker for ASP.NET AJAX Documentation
 description: Overview
 slug: colorpicker/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadColorPicker__supports a number of client-side events that let you customize behavior:
+**RadColorPicker**supports a number of client-side events that let you customize behavior:
 
 * [OnClientLoad]({%slug colorpicker/client-side-programming/events/onclientload%}): Occurs after the color picker loads on the page.
 

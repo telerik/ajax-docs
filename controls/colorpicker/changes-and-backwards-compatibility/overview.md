@@ -1,6 +1,6 @@
 ---
 title: Changes and Backwards Compatibility Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadColorPicker for ASP.NET AJAX Documentation
 description: Overview
 slug: colorpicker/changes-and-backwards-compatibility/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## What is new in RadColorPicker for ASP.NET AJAX
 
-* A complete list of all changes can be found on Release History page:[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
+A complete list of all changes can be found on Release History page:[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 ## What is new in RadColorPicker for ASP.NET AJAX Q1 2010
 
@@ -52,7 +52,7 @@ position: 0
 
 * New server-side property:
 
-* *OnClientPopUpShow* – gets/sets a value indicating the client-side event handler that is called when the pop-up palette of the __RadColorPicker__ (in case *ShowIcon=true*) shows.
+* *OnClientPopUpShow* – gets/sets a value indicating the client-side event handler that is called when the pop-up palette of the **RadColorPicker** (in case *ShowIcon=true*) shows.
 
 * New in client-side API:
 
@@ -66,7 +66,7 @@ position: 0
 
 ## What is new in RadColorPicker for ASP.NET AJAX Q2 2009 SP1
 
-* New property - __KeepInScreenBounds__. When set to “false”, the __RadColorPicker__ will not reposition its palette (__ShowIcon=true__) so that it opens in the visible viewport when necessary. Its default value is “true”.
+* New property - **KeepInScreenBounds**. When set to “false”, the **RadColorPicker** will not reposition its palette (**ShowIcon=true**) so that it opens in the visible viewport when necessary. Its default value is “true”.
 
 ## What is new in RadColorPicker for ASP.NET AJAX Q2 2009
 
@@ -74,9 +74,9 @@ position: 0
 
 ## What is new in RadColorPicker for ASP.NET AJAX Q1 2009
 
-* Added one new property to the __RadColorPicker__ - __PaletteModes__.
+* Added one new property to the **RadColorPicker** - **PaletteModes**.
 
-* Changed the HTML of the __RadColorPicker__: create a TabStrip when __PaletteModes=All__; changed the position and look of the Preview element; changed the position and look of the NoColor button
+* Changed the HTML of the **RadColorPicker**: create a TabStrip when **PaletteModes=All**; changed the position and look of the Preview element; changed the position and look of the NoColor button
 
 * Total redesign of the skins, which aims for a uniformity of the appearance of all controls in the suite in the cases they are used to build RIAs
 

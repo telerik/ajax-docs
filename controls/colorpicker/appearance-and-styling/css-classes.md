@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadColorPicker for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: colorpicker/appearance-and-styling/css-classes
 tags: css,classes
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The following table lists significant CSS selectors and descriptions for __RadColorPicker__ style sheets. The CSS styles define the basic elements of the [RadColorPicker visual structure]({%slug colorpicker/getting-started/structure%}).
+The following table lists significant CSS selectors and descriptions for **RadColorPicker** style sheets. The CSS styles define the basic elements of the [RadColorPicker visual structure]({%slug colorpicker/getting-started/structure%}).
 
 ## General styles:
 
@@ -21,9 +21,9 @@ The following table lists significant CSS selectors and descriptions for __RadCo
 
 
 
->caption  
+ 
 
-|  __Class Name__  |  __Description__  |
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadColorPicker|RadColorPicker container|
 |.RadColorPicker .rcpPalette|RadColorPicker Palette|
@@ -82,7 +82,7 @@ The following table lists significant CSS selectors and descriptions for __RadCo
 |.RadColorPicker .rcpCornerShadow|Style bottom right corner shadow of RadColorPicker|
 |.RadColorPicker .rcpBottomShadow|Styles bottom shadow of RadColorPicker|
 |||
-| __Overwriting RadSlider Styles__ ||
+| **Overwriting RadSlider Styles** ||
 |.RadColorPicker .rcpSlider div.rslHorizontal .rslTrack a.rslDraghandle|Styles RadSlider Draghandle|
 |.RadColorPicker .rcpSlider .rslHorizontal .rslTrack|Styles RadSlider Horizontal Track|
 |.RadColorPicker .rcpRedSlider .rslHorizontal .rslTrack,.RadColorPicker .rcpRedSlider .rslHorizontal .rslSelectedregion|Styles Red RadSlider Horizontal Track and Selected region|
@@ -98,9 +98,9 @@ The following table lists significant CSS selectors and descriptions for __RadCo
 
 
 
->caption  
 
-|  __Class Name__  |  __Description__  |
+
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadColorPicker .rcpRGBPageView|RadColorPicker RGB page preview|
 |.RadColorPicker .rcpRGBPageView ul li|RadColorPicker RGB page preview unordered list LI|
@@ -117,9 +117,8 @@ The following table lists significant CSS selectors and descriptions for __RadCo
 ## Million Colors Palettes
 
 
->caption  
 
-|  __Class Name__  |  __Description__  |
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadColorPicker .rcpMillionColorsPalette|RadColorPicker Million Colors Palette|
 |.RadColorPicker .rcpHsbPageView .rcpVInputWrapper|RadColorPicker HSB preview input wrapper|
@@ -146,9 +145,9 @@ The following table lists significant CSS selectors and descriptions for __RadCo
 ## Skin-Specific Styles
 
 
->caption  
 
-|  __Class Name__  |  __Description__  |
+
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadColorPicker.SkinName .rcpPalette|RadColorPicker Palette|
 |.RadColorPicker.SkinName .rcpColorBox|RadColorPicker color box|

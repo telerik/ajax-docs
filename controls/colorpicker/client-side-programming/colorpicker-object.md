@@ -1,6 +1,6 @@
 ---
 title: ColorPicker Object
-page_title: ColorPicker Object | UI for ASP.NET AJAX Documentation
+page_title: ColorPicker Object | RadColorPicker for ASP.NET AJAX Documentation
 description: ColorPicker Object
 slug: colorpicker/client-side-programming/colorpicker-object
 tags: colorpicker,object
@@ -12,12 +12,12 @@ position: 1
 
 
 
-The following table lists significant members of the client-side __RadColorPicker__ object:
+The following table lists significant members of the client-side **RadColorPicker** object:
 
 ## Public Properties
 
 
->caption  
+ 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -28,7 +28,7 @@ The following table lists significant members of the client-side __RadColorPicke
 ## Public Methods
 
 
->caption  
+
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -40,7 +40,6 @@ The following table lists significant members of the client-side __RadColorPicke
 ## Adding and Removing Client-Side Events
 
 
->caption  
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |

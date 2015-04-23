@@ -1,6 +1,6 @@
 ---
 title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadColorPicker for ASP.NET AJAX Documentation
 description: Overview
 slug: colorpicker/client-side-programming/overview
 tags: overview
@@ -16,10 +16,10 @@ RadColorPicker provides a flexible client-side API that allows you to interact w
 
 ## Getting the RadColorPicker client-side object
 
-__RadColorPicker____ClientID__
+
 
 ````JavaScript
-		var colorPicker = $find("<%= RadColorPicker1.ClientID %>");
+var colorPicker = $find("<%= RadColorPicker1.ClientID %>");
 ````
 
 
@@ -33,9 +33,9 @@ RadColorPicker1.get_[PROPERTY_NAME];RadColorPicker1.set_[PROPERTY_NAME];
 For example to get/set the SelectedColor property using the client-side object:
 
 ````JavaScript
-		var colorPicker = $find('<%= RadColorPicker1.ClientID%>');
-		colorPicker.set_selectedColor("#FF0000");
-		var selectedColor = colorPicker.get_selectedColor();
+var colorPicker = $find('<%= RadColorPicker1.ClientID%>');
+colorPicker.set_selectedColor("#FF0000");
+var selectedColor = colorPicker.get_selectedColor();
 ````
 
 

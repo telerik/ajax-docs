@@ -1,6 +1,6 @@
 ---
 title: OnClientColorPreview
-page_title: OnClientColorPreview | UI for ASP.NET AJAX Documentation
+page_title: OnClientColorPreview | RadColorPicker for ASP.NET AJAX Documentation
 description: OnClientColorPreview
 slug: colorpicker/client-side-programming/events/onclientcolorpreview
 tags: onclientcolorpreview
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientColorPreview__ client-side event occurs as the mouse hovers over a color box within the palette.
+The **OnClientColorPreview** client-side event occurs as the mouse hovers over a color box within the palette.
 
 The event handler receives parameters:
 
@@ -22,7 +22,7 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-1. __get_color__: returns the color of the color box where the mouse is hovering.
+1. **get_color**: returns the color of the color box where the mouse is hovering.
 
 The example below displays the value of the color picker as the mouse passes over each color box.
 
