@@ -4,6 +4,9 @@ temp_file = "temp_exclude_result.tmp"
 File.delete(temp_file) if File.exist?(temp_file)
 
 paths_to_include = ARGV.collect!{|arg| arg += '/' unless arg[-1] == '/'}
+
+system "echo #{paths_to_include.to_s}"
+
 orig_config = File.read("_config.yml")
 
 orig_exlude = orig_config[/(?<=exclude: \[)[^\]]*/].split(',')
