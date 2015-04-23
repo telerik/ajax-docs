@@ -1,6 +1,6 @@
 ---
 title: Adding a Label
-page_title: Adding a Label | UI for ASP.NET AJAX Documentation
+page_title: Adding a Label | RadComboBox for ASP.NET AJAX Documentation
 description: Adding a Label
 slug: combobox/appearance-and-styling/adding-a-label
 tags: adding,a,label

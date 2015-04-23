@@ -1,6 +1,6 @@
 ---
 title: Keep the Dropdown with Input Element While Scrolling
-page_title: Keep the Dropdown with Input Element While Scrolling | UI for ASP.NET AJAX Documentation
+page_title: Keep the Dropdown with Input Element While Scrolling | RadComboBox for ASP.NET AJAX Documentation
 description: Keep the Dropdown with Input Element While Scrolling
 slug: combobox/troubleshooting/keep-the-dropdown-with-input-element-while-scrolling
 tags: keep,the,dropdown,with,input,element,while,scrolling

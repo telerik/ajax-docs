@@ -1,6 +1,6 @@
 ---
 title: OnClientKeyPressing
-page_title: OnClientKeyPressing | UI for ASP.NET AJAX Documentation
+page_title: OnClientKeyPressing | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientKeyPressing
 slug: combobox/client-side-programming/events/onclientkeypressing
 tags: onclientkeypressing

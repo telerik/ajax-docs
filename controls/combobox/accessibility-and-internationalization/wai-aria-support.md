@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadComboBox for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: combobox/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support

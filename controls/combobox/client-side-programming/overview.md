@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Client-side Overview | UI for ASP.NET AJAX Documentation
+page_title: Client-side Overview | RadComboBox for ASP.NET AJAX Documentation
 description: Overview
 slug: combobox/client-side-programming/overview
 tags: overview

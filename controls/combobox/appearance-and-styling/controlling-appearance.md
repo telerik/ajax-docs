@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadComboBox for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: combobox/appearance-and-styling/controlling-appearance
 tags: controlling,appearance

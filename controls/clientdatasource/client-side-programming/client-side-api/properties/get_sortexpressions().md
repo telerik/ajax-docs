@@ -1,6 +1,6 @@
 ---
 title: get_sortExpressions()
-page_title: get_sortExpressions() | UI for ASP.NET AJAX Documentation
+page_title: get_sortExpressions() | RadClientDataSource for ASP.NET AJAX Documentation
 description: get_sortExpressions()
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_sortexpressions()
 tags: get_sortexpressions()

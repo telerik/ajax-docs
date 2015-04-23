@@ -1,6 +1,6 @@
 ---
 title: Localizing RadCloudUpload
-page_title: Localizing RadCloudUpload | UI for ASP.NET AJAX Documentation
+page_title: Localizing RadCloudUpload | RadCloudUpload for ASP.NET AJAX Documentation
 description: Localizing RadCloudUpload
 slug: cloudupload/accessibility-and-internationalization/localizing-radcloudupload
 tags: localizing,radcloudupload

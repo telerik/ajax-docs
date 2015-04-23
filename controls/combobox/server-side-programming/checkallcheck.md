@@ -1,6 +1,6 @@
 ---
 title: CheckAllCheck
-page_title: CheckAllCheck | UI for ASP.NET AJAX Documentation
+page_title: CheckAllCheck | RadComboBox for ASP.NET AJAX Documentation
 description: CheckAllCheck
 slug: combobox/server-side-programming/checkallcheck
 tags: checkallcheck

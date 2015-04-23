@@ -1,6 +1,6 @@
 ---
 title: Headers
-page_title: Headers | UI for ASP.NET AJAX Documentation
+page_title: Headers | RadComboBox for ASP.NET AJAX Documentation
 description: Headers
 slug: combobox/templates/headers
 tags: headers

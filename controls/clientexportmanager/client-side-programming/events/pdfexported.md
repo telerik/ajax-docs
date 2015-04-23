@@ -1,6 +1,6 @@
 ---
 title: PdfExported
-page_title: PdfExported | UI for ASP.NET AJAX Documentation
+page_title: PdfExported | RadClientExportManager for ASP.NET AJAX Documentation
 description: PdfExported
 slug: clientexportmanager/client-side-programming/events/pdfexported
 tags: pdfexported

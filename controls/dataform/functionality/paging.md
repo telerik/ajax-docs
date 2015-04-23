@@ -1,6 +1,6 @@
 ---
 title: Paging
-page_title: Paging | UI for ASP.NET AJAX Documentation
+page_title: Paging | RadDataForm for ASP.NET AJAX Documentation
 description: Paging
 slug: dataform/functionality/paging
 tags: paging

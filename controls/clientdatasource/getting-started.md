@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadClientDataSource for ASP.NET AJAX Documentation
 description: Getting Started
 slug: clientdatasource/getting-started
 tags: getting,started

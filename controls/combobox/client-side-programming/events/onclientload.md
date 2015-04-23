@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: combobox/client-side-programming/events/onclientload
 tags: onclientload

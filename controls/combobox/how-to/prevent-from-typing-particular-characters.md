@@ -1,6 +1,6 @@
 ---
 title: Prevent from Typing Particular Characters
-page_title: Prevent from Typing Particular Characters | UI for ASP.NET AJAX Documentation
+page_title: Prevent from Typing Particular Characters | RadComboBox for ASP.NET AJAX Documentation
 description: Prevent from Typing Particular Characters
 slug: combobox/how-to/prevent-from-typing-particular-characters
 tags: prevent,from,typing,particular,characters

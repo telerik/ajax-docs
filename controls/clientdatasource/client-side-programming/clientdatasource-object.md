@@ -1,6 +1,6 @@
 ---
 title: ClientDataSource Object
-page_title: ClientDataSource Object | UI for ASP.NET AJAX Documentation
+page_title: ClientDataSource Object | RadClientDataSource for ASP.NET AJAX Documentation
 description: ClientDataSource Object
 slug: clientdatasource/client-side-programming/clientdatasource-object
 tags: clientdatasource,object

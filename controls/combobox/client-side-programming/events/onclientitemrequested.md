@@ -1,6 +1,6 @@
 ---
 title: OnClientItemRequested
-page_title: OnClientItemRequested | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemRequested | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientItemRequested
 slug: combobox/client-side-programming/events/onclientitemrequested
 tags: onclientitemrequested

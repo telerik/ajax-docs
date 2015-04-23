@@ -1,6 +1,6 @@
 ---
 title: Grouping Items
-page_title: Grouping Items | UI for ASP.NET AJAX Documentation
+page_title: Grouping Items | RadComboBox for ASP.NET AJAX Documentation
 description: Grouping Items
 slug: combobox/how-to/grouping-items
 tags: grouping,items

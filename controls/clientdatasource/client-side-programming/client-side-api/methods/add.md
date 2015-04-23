@@ -1,6 +1,6 @@
 ---
 title: add
-page_title: ClientDataSource Object add() | UI for ASP.NET AJAX Documentation
+page_title: ClientDataSource Object add() | RadClientDataSource for ASP.NET AJAX Documentation
 description: add
 slug: clientdatasource/client-side-programming/client-side-api/methods/add
 tags: add

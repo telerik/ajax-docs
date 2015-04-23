@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadCloudUpload for ASP.NET AJAX Documentation
 description: Validation
 slug: cloudupload/functionality/validation
 tags: validation

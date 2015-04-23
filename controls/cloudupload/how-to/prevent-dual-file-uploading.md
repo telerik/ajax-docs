@@ -1,6 +1,6 @@
 ---
 title: Prevent Dual File Uploading
-page_title: Prevent Dual File Uploading | UI for ASP.NET AJAX Documentation
+page_title: Prevent Dual File Uploading | RadCloudUpload for ASP.NET AJAX Documentation
 description: Prevent Dual File Uploading
 slug: cloudupload/how-to/prevent-dual-file-uploading
 tags: prevent,dual,file,uploading

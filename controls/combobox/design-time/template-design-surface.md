@@ -1,6 +1,6 @@
 ---
 title: Template Design Surface
-page_title: Template Design Surface | UI for ASP.NET AJAX Documentation
+page_title: Template Design Surface | RadComboBox for ASP.NET AJAX Documentation
 description: Template Design Surface
 slug: combobox/design-time/template-design-surface
 tags: template,design,surface

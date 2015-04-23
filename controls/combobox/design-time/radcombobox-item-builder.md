@@ -1,6 +1,6 @@
 ---
 title: RadComboBox Item Builder
-page_title: RadComboBox Item Builder | UI for ASP.NET AJAX Documentation
+page_title: RadComboBox Item Builder | RadComboBox for ASP.NET AJAX Documentation
 description: RadComboBox Item Builder
 slug: combobox/design-time/radcombobox-item-builder
 tags: radcombobox,item,builder

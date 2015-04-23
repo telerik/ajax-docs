@@ -1,6 +1,6 @@
 ---
 title: File List Panel
-page_title: File List Panel | UI for ASP.NET AJAX Documentation
+page_title: File List Panel | RadCloudUpload for ASP.NET AJAX Documentation
 description: File List Panel
 slug: cloudupload/functionality/file-list-panel
 tags: file,list,panel

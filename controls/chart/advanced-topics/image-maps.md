@@ -1,6 +1,6 @@
 ---
 title: Image Maps
-page_title: Image Maps | UI for ASP.NET AJAX Documentation
+page_title: Image Maps | RadChart for ASP.NET AJAX Documentation
 description: Image Maps
 slug: chart/advanced-topics/image-maps
 tags: image,maps
@@ -12,7 +12,7 @@ position: 0
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -20,7 +20,7 @@ Image maps are visual areas within the chart that display tool tips and can be c
 
 The ActiveRegion property has three significant properties:
 
-* Attributes: Enter HTML attributes here. The most common use of this property is to specify the Target attribute.Target may be specified as ___blank__ (target URL will open in a new window), ___self__ (target URL will open in the same frame), ___parent__ (target URL will open in the parent frameset) and ___top__ (target URL will open in the topmost frame).
+* Attributes: Enter HTML attributes here. The most common use of this property is to specify the Target attribute.Target may be specified as **_blank** (target URL will open in a new window), **_self** (target URL will open in the same frame), **_parent** (target URL will open in the parent frameset) and **_top** (target URL will open in the topmost frame).
 
 * ToolTip: A text description of an area in the image map that displays when the mouse hovers over it.
 
@@ -43,7 +43,7 @@ Below is the ActiveRegion for a [chart series item]({%slug chart/understanding-r
 
 ![ActiveRegion](images/radchart-advancedimagemap001.png)
 
->note The __ActiveRegion__ resolves to a standard HTML "<map>" tag that defines the area within the chart image that will respond to the mouse.
+>note The **ActiveRegion** resolves to a standard HTML "<map>" tag that defines the area within the chart image that will respond to the mouse.
 ><map id='imRadChart1' name='imRadChart1'><areashape="poly"href="[http://www.telerik.com](http://www.telerik.com)"coords="176,168,247,167,248,199,227,226,198,236"alt="Sales" title="Sales"/></map>
 >
 

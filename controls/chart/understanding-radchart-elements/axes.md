@@ -1,6 +1,6 @@
 ---
 title: Axes
-page_title: Axes | UI for ASP.NET AJAX Documentation
+page_title: Axes | RadChart for ASP.NET AJAX Documentation
 description: Axes
 slug: chart/understanding-radchart-elements/axes
 tags: axes
@@ -12,7 +12,7 @@ position: 2
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -42,9 +42,9 @@ The example below shows a sample X-axis with several appearance related properti
 
 The RadChart PlotArea property has sub properties XAxis, YAxis and YAxis2. Each axis object has an Appearance property used to make the customizations shown above.Some significant axis appearance related properties are:
 
-* The LabelAppearance property includes sub properties that control the axis label __visibility__, __Border__, __Corners__, __Dimensions__, __FillStyle__, __Position__ and __Shadow__.
+* The LabelAppearance property includes sub properties that control the axis label **visibility**, **Border**, **Corners**, **Dimensions**, **FillStyle**, **Position** and **Shadow**.
 
-* MajorGridlines controls the appearance of grid lines displaying over the plot area including __visibility__, __Cap__, __Color__, __PenStyle__ and __Width__.
+* MajorGridlines controls the appearance of grid lines displaying over the plot area including **visibility**, **Cap**, **Color**, **PenStyle** and **Width**.
 
 * TextAppearance handles the axis item label text, most notably TextAppearance.TextProperties controls font properties and color.
 
@@ -81,7 +81,7 @@ To display a range of values along an axis, specify for the ChartAxis a starting
 
 * Items is populated with with 3 ChartAxisItem objects where the Appearance.Text property contains "Non-Smokers", "Social Smokers" and "Heavy Smokers".
 
-You can control the size and position of the labels using the axis __Appearance.LabelAppearance____Dimensions__ and __Position__ properties.
+You can control the size and position of the labels using the axis **Appearance.LabelAppearance Dimensions** and **Position** properties.
 
 
 
@@ -89,8 +89,8 @@ You can control the size and position of the labels using the axis __Appearance.
 
 ## Unique YAxis and YAxis2 Properties
 
-AxisMode: AxisMode can be __Normal__ (the default) or __Extended__. __Extended__ mode provides buffer space above the largest value for best visual formatting.
+AxisMode: AxisMode can be **Normal** (the default) or **Extended**. **Extended** mode provides buffer space above the largest value for best visual formatting.
 
-ScaleBreaks: The ScaleBreaks feature allows you to "break off" large chunks of the axis so that graphs with large amplitude are easier to read. ScaleBreaks are available for both YAxis and YAxis2 of the plot area. By default __Enabled__ is false so scale breaks do not display. Set the maximum number of breaks using __MaxBreaks__ and __MinCollapsibleSpace__ to set the minimum interval between data points before a break will occur. For the lines that make up each break, __Spacing__ controls the amount of space between lines and __LineType__ controls the shape of the line (i.e. __Sinusoid__, __Straight__, __JaggedCurve__ and __Curve__).
+ScaleBreaks: The ScaleBreaks feature allows you to "break off" large chunks of the axis so that graphs with large amplitude are easier to read. ScaleBreaks are available for both YAxis and YAxis2 of the plot area. By default **Enabled** is false so scale breaks do not display. Set the maximum number of breaks using **MaxBreaks** and **MinCollapsibleSpace** to set the minimum interval between data points before a break will occur. For the lines that make up each break, **Spacing** controls the amount of space between lines and **LineType** controls the shape of the line (i.e. **Sinusoid**, **Straight**, **JaggedCurve** and **Curve**).
 
 

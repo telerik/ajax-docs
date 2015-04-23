@@ -1,6 +1,6 @@
 ---
 title: Multiple Chart Types in a Single Chart
-page_title: Multiple Chart Types in a Single Chart | UI for ASP.NET AJAX Documentation
+page_title: Multiple Chart Types in a Single Chart | RadChart for ASP.NET AJAX Documentation
 description: Multiple Chart Types in a Single Chart
 slug: chart/advanced-topics/multiple-chart-types-in-a-single-chart
 tags: multiple,chart,types,in,a,single,chart
@@ -12,7 +12,7 @@ position: 7
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -20,7 +20,7 @@ position: 7
 
 RadChart allows you to combine several [chart types]({%slug chart/understanding-radchart-types/radchart-types-overview%}) in a single chart. You can use the ChartSeries Collection Editor at design-time to create the ChartSeries and set the respective ChartSeriesType. You can also add chart series and set chart type programmatically.
 
-To designate dissimilar [chart types]({%slug chart/understanding-radchart-types/radchart-types-overview%}) in a single chart at design time, click on a series, then select the __Type__ property from the drop down list.
+To designate dissimilar [chart types]({%slug chart/understanding-radchart-types/radchart-types-overview%}) in a single chart at design time, click on a series, then select the **Type** property from the drop down list.
 >caption 
 
 ![Setting the Series Chart Type](images/radchart-advancedmultiplecharttypes.png)

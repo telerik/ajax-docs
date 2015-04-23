@@ -1,6 +1,6 @@
 ---
 title: get_filterExpressions()
-page_title: get_filterExpressions() | UI for ASP.NET AJAX Documentation
+page_title: get_filterExpressions() | RadClientDataSource for ASP.NET AJAX Documentation
 description: get_filterExpressions()
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_filterexpressions()
 tags: get_filterexpressions()

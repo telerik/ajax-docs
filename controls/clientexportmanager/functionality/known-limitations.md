@@ -1,6 +1,6 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | UI for ASP.NET AJAX Documentation
+page_title: Known Limitations | RadClientExportManager for ASP.NET AJAX Documentation
 description: Known Limitations
 slug: clientexportmanager/functionality/known-limitations
 tags: known,limitations

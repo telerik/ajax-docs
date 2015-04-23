@@ -1,6 +1,6 @@
 ---
 title: get_aggregates()
-page_title: get_aggregates() | UI for ASP.NET AJAX Documentation
+page_title: get_aggregates() | RadClientDataSource for ASP.NET AJAX Documentation
 description: get_aggregates()
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_aggregates()
 tags: get_aggregates()

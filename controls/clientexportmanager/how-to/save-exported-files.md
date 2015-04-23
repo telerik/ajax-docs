@@ -1,6 +1,6 @@
 ---
 title: Save Exported Files
-page_title: Save Exported Files | UI for ASP.NET AJAX Documentation
+page_title: Save Exported Files | RadClientExportManager for ASP.NET AJAX Documentation
 description: Save Exported Files
 slug: clientexportmanager/how-to/save-exported-files
 tags: save,exported,files

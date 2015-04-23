@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: Animation | UI for ASP.NET AJAX Documentation
+page_title: Animation | RadComboBox for ASP.NET AJAX Documentation
 description: Animation
 slug: combobox/appearance-and-styling/animation
 tags: animation

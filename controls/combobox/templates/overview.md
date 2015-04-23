@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Templates Overview | RadComboBox for ASP.NET AJAX Documentation
 description: Overview
 slug: combobox/templates/overview
 tags: overview, templates
@@ -12,7 +12,7 @@ position: 0
 
 
 
-__Templates__ are fully supported bu RadComboBox control. If you do not specify an __ItemTemplate__, all items are rendered using their __Text__ property as plain text. If you specify an __ItemTemplate__, then the respective template is used for rendering. You can embed any content inside a template:
+**Templates** are fully supported bu RadComboBox control. If you do not specify an **ItemTemplate**, all items are rendered using their **Text** property as plain text. If you specify an **ItemTemplate**, then the respective template is used for rendering. You can embed any content inside a template:
 
 * HTML markup.
 
@@ -24,7 +24,7 @@ __Templates__ are fully supported bu RadComboBox control. If you do not specify 
 >
 
 
-In design time, add item templates to your __RadComboBox__ control using the [Template Design Surface]({%slug combobox/design-time/template-design-surface%}). __RadComboBox__ supports global template which affects the appearance of all items in the control.
+In design time, add item templates to your **RadComboBox** control using the [Template Design Surface]({%slug combobox/design-time/template-design-surface%}). **RadComboBox** supports global template which affects the appearance of all items in the control.
 
 ## Example
 
@@ -32,7 +32,7 @@ Shows how to use templates to create the following RadComboBox:
 
 ![ComboBox Custom Attributes Images](images/combobox_customattributeimages.png)
 
-An `<ItemTemplate>` section is added to the __RadComboBox__ declaration. The image in the template and the text that appears in the template is taken from the RadComboBoxItem using <%# DataBinder.Eval %> statements.
+An `<ItemTemplate>` section is added to the **RadComboBox** declaration. The image in the template and the text that appears in the template is taken from the RadComboBoxItem using <%# DataBinder.Eval %> statements.
 
 ````C#
 <telerik:RadComboBox ID="RadComboBox1" MarkFirstMatch="True" runat="server" Height="297px"
@@ -66,7 +66,7 @@ An `<ItemTemplate>` section is added to the __RadComboBox__ declaration. The ima
 
 
 
-Before the template can use the RadComboBox item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling __DataBind__ method of __RadComboBoxItem__ objects.
+Before the template can use the RadComboBox item's properties to bind the elements in the template, the application needs to explicitly bind the items by calling **DataBind** method of **RadComboBoxItem** objects.
 
 
 
@@ -95,7 +95,7 @@ Before the template can use the RadComboBox item's properties to bind the elemen
 ````
 
 
-Here is the same RadComboBox __without__ the template:
+Here is the same RadComboBox **without** the template:
 
 ![ComboBox No Template](images/combobox_notemplate.png)
 

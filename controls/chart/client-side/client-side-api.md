@@ -1,6 +1,6 @@
 ---
 title: Client-Side API
-page_title: Client-Side API | UI for ASP.NET AJAX Documentation
+page_title: Client-Side API | RadChart for ASP.NET AJAX Documentation
 description: Client-Side API
 slug: chart/client-side/client-side-api
 tags: client-side,api
@@ -12,7 +12,7 @@ position: 0
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -24,13 +24,13 @@ position: 0
 
 Methods:
 
-__Telerik.Web.UI.RadChart.scroll method__
+**Telerik.Web.UI.RadChart.scroll method**
 
 *Telerik.Web.UI.RadChart.scroll(xScrollOffset, yScrollOffset)*
 
 Scrolls the chart view to a specified position along the XAxis, YAxis, or both based on the specified offset parameters.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>");
@@ -47,19 +47,19 @@ __Syntax__
 
 
 
-__Remarks__
+**Remarks**
 
 The offset uses the top-left corner of the plotArea as a starting point i.e. (xAxisOffset=0, yAxisOffset=0) pair represents the top-left corner of the plotArea while (xAxisOffset=1, yAxisOffset=1) - the bottom-right corner of the plotArea. Offset is a float value between 0 and 1.
 
 
 
-__Telerik.Web.UI.RadChart.zoom method__
+**Telerik.Web.UI.RadChart.zoom method**
 
 *Telerik.Web.UI.RadChart.zoom(xScale, yScale, xScrollOffset, yScrollOffset)*
 
 Zooms the chart view according to a specified scaling factor by the XAxis, the YAxis, or both. You can optionally pass XScrollOffset / YScrollOffset arguments so the scaled view scrolls to a specified position as well.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    //scale XAxis by factor 3 
@@ -76,19 +76,19 @@ __Syntax__
 
 
 
-__Remarks__
+**Remarks**
 
 The offset uses the top-left corner of the plotArea as a starting point i.e. (xAxisOffset=0, yAxisOffset=0) pair represents the top-left corner of the plotArea while (xAxisOffset=1, yAxisOffset=1) - the bottom-right corner of the plotArea. Offset is a float value between 0 and 1.
 
 
 
-__Telerik.Web.UI.RadChart.zoomOut method__
+**Telerik.Web.UI.RadChart.zoomOut method**
 
 *Telerik.Web.UI.RadChart.zoomOut()*
 
 RadChart provides integrated history support for the zooming actions and this method zooms out the current chart view to the previous scaling step and also restores the scrolled position.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>");
@@ -99,13 +99,13 @@ __Syntax__
 
 
 
-__Telerik.Web.UI.RadChart.resetZoom method__
+**Telerik.Web.UI.RadChart.resetZoom method**
 
 *Telerik.Web.UI.RadChart.resetZoom()*
 
 Resets the scaling factors by XAxis and YAxis to 1 (no scaling applied).
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>");
@@ -126,11 +126,11 @@ Properties:
 >
 
 
-__Telerik.Web.UI.RadChart xScrollOffset Property__
+**Telerik.Web.UI.RadChart xScrollOffset Property**
 
 Gets a value indicating the XAxis scroll offset ratio.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>");
@@ -139,7 +139,7 @@ __Syntax__
 
 
 
-__Return Value__
+**Return Value**
 
 The XAxis scroll offset ratio as a float value between 0 and 1.
 
@@ -149,11 +149,11 @@ The offset uses the top-left corner of the plotArea as a starting pointi.e. (xAx
 
 
 
-__Telerik.Web.UI.RadChart yScrollOffset Property__
+**Telerik.Web.UI.RadChart yScrollOffset Property**
 
 Gets a value indicating the YAxis scroll offset ratio.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>"); 
@@ -162,7 +162,7 @@ __Syntax__
 
 
 
-__Return Value__
+**Return Value**
 
 The YAxis scroll offset ratio as a float value between 0 and 1.
 
@@ -170,11 +170,11 @@ The offset uses the top-left corner of the plotArea as a starting pointi.e. (xAx
 
 
 
-__Telerik.Web.UI.RadChart xScale Property__
+**Telerik.Web.UI.RadChart xScale Property**
 
 Gets a value indicating the plotarea scale factor by XAxis.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>"); 
@@ -183,17 +183,17 @@ __Syntax__
 
 
 
-__Return Value__
+**Return Value**
 
 The XAxis scale factor as a float value greater or equal to 1.
 
 
 
-__Telerik.Web.UI.RadChart yScale Property__
+**Telerik.Web.UI.RadChart yScale Property**
 
 Gets a value indicating the plotarea scale factor by YAxis.
 
-__Syntax__
+**Syntax**
 
 ````XML
 	    var chart = $find("<%=RadChart1.ClientID%>"); 
@@ -202,6 +202,6 @@ __Syntax__
 
 
 
-__Return Value__
+**Return Value**
 
 The YAxis scale factor as a float value greater or equal to 1.

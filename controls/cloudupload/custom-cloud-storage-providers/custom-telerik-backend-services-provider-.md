@@ -1,6 +1,6 @@
 ---
 title: Custom Telerik Backend Services Provider 
-page_title: Custom Telerik Backend Services Provider  | UI for ASP.NET AJAX Documentation
+page_title: Custom Telerik Backend Services Provider  | RadCloudUpload for ASP.NET AJAX Documentation
 description: Custom Telerik Backend Services Provider 
 slug: cloudupload/custom-cloud-storage-providers/custom-telerik-backend-services-provider-
 tags: custom,telerik,backend,services,provider,

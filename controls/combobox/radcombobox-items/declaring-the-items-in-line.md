@@ -1,6 +1,6 @@
 ---
 title: Declaring the Items In-line
-page_title: Declaring the Items In-line | UI for ASP.NET AJAX Documentation
+page_title: Declaring the Items In-line | RadComboBox for ASP.NET AJAX Documentation
 description: Declaring the Items In-line
 slug: combobox/radcombobox-items/declaring-the-items-in-line
 tags: declaring,the,items,in-line

@@ -1,6 +1,6 @@
 ---
 title: RadComboBoxItem Object
-page_title: RadComboBoxItem Object | UI for ASP.NET AJAX Documentation
+page_title: RadComboBoxItem Object | RadComboBox for ASP.NET AJAX Documentation
 description: RadComboBoxItem Object
 slug: combobox/client-side-programming/objects/radcomboboxitem-object
 tags: radcomboboxitem,object
@@ -14,19 +14,19 @@ position: 1
 
 ## 
 
-The __RadComboBoxItem__ object is returned by the __getItem__ method of the __RadComboBoxItemCollection__ object. It is also exposed by the eventArgs of many client-side events (__eventArgs.get_item()__). The following table lists the most important methods:
+The **RadComboBoxItem** object is returned by the **getItem** method of the **RadComboBoxItemCollection** object. It is also exposed by the eventArgs of many client-side events (**eventArgs.get_item()**). The following table lists the most important methods:
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __highlight__ |none|none|Highlights an item.|
-| __unHighlight__ |none|none|Unhighlights an item.|
-| __select__ |none|none|Selects an item.|
-| __disable__ |none|none|Disables an item.|
-| __enable__ |none|none|Enables an item.|
-| __get_comboBox__ |none|object|Gets the parent RadComboBox control.
+| **highlight** |none|none|Highlights an item.|
+| **unHighlight** |none|none|Unhighlights an item.|
+| **select** |none|none|Selects an item.|
+| **disable** |none|none|Disables an item.|
+| **enable** |none|none|Enables an item.|
+| **get_comboBox** |none|object|Gets the parent RadComboBox control.
 
 ````ASPNET
 	    <script language="javascript" type="text/javascript">
@@ -43,19 +43,19 @@ The __RadComboBoxItem__ object is returned by the __getItem__ method of the __Ra
 ````
 
 |
-| __get_highlighted__ |none|boolean| __True__ if the item is highlighted. To highlight an item use the __highlight__ method.|
-| __get_index__ |none|int|Gets the index of an item in the Items collection.|
-| __get_enabled__ |none|boolean| __True__ if the item is enabled. To enable an item use the __enable__ method.|
-| __get_text__ |none|string|Gets the text of an item.|
-| __set_text__ |string|none|Sets text of an item.|
-| __get_value__ |none|string|Gets the value of an item.|
-| __set_value__ |string|none|Sets the value of an item.|
-| __get_checked__ |none|boolean|True if an item is checked, False if not.|
-| __set_checked__ |boolean|none|Checks or unchecks an item.|
-| __get_isSeparator__ |none|boolean|True if an item is separator (IsSeparator="True").|
-| __get_attributes__ |none|collection|Returns a collection of custom attributes defined for an item.|
-| __getAttribute__ |String|String|Returns a specific attribute from the Attributes collection.|
-| __setAttribute__ |String, String|none|Adds an attribute to the Attributes collection.
+| **get_highlighted** |none|boolean| **True** if the item is highlighted. To highlight an item use the **highlight** method.|
+| **get_index** |none|int|Gets the index of an item in the Items collection.|
+| **get_enabled** |none|boolean| **True** if the item is enabled. To enable an item use the **enable** method.|
+| **get_text** |none|string|Gets the text of an item.|
+| **set_text** |string|none|Sets text of an item.|
+| **get_value** |none|string|Gets the value of an item.|
+| **set_value** |string|none|Sets the value of an item.|
+| **get_checked** |none|boolean|True if an item is checked, False if not.|
+| **set_checked** |boolean|none|Checks or unchecks an item.|
+| **get_isSeparator** |none|boolean|True if an item is separator (IsSeparator="True").|
+| **get_attributes** |none|collection|Returns a collection of custom attributes defined for an item.|
+| **getAttribute** |String|String|Returns a specific attribute from the Attributes collection.|
+| **setAttribute** |String, String|none|Adds an attribute to the Attributes collection.
 
 ````JavaScript
 	     var combo = $find("<%= RadComboBox2.ClientID %>");
@@ -70,16 +70,16 @@ The __RadComboBoxItem__ object is returned by the __getItem__ method of the __Ra
 ````
 
 |
-| __get_visible__ |none|boolean|True if the item is visible.|
-| __set_visible__ |boolean|none|Sets the visibility of an item.|
-| __show__ |none|none|Makes the item visible, same as set_visible(true).|
-| __hide__ |none|none|Makes the item invisible, same as set_visible(false).|
-| __get_imageUrl__ |none|string|Returns the full path to an item's image.|
-| __set_imageUrl__ |string|none|Sets the __ImageUrl__ property of an item.|
-| __get_disabledImageUrl__ |none|string|Returns the full path to the image of a disabled item.|
-| __set_disabledImageUrl__ |string|none|Sets the __DisabledImageUrl__ property of an item.|
-| __findControl__ |string|object|Returns the object which is in the item template.|
-| __get_element__ |none|HTML element|Returns the <LI> HTML element of an item.|
+| **get_visible** |none|boolean|True if the item is visible.|
+| **set_visible** |boolean|none|Sets the visibility of an item.|
+| **show** |none|none|Makes the item visible, same as set_visible(true).|
+| **hide** |none|none|Makes the item invisible, same as set_visible(false).|
+| **get_imageUrl** |none|string|Returns the full path to an item's image.|
+| **set_imageUrl** |string|none|Sets the **ImageUrl** property of an item.|
+| **get_disabledImageUrl** |none|string|Returns the full path to the image of a disabled item.|
+| **set_disabledImageUrl** |string|none|Sets the **DisabledImageUrl** property of an item.|
+| **findControl** |string|object|Returns the object which is in the item template.|
+| **get_element** |none|HTML element|Returns the <LI> HTML element of an item.|
 
 # See Also
 

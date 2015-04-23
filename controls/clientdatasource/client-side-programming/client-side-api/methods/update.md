@@ -1,6 +1,6 @@
 ---
 title: update
-page_title: ClientDataSource Object update() | UI for ASP.NET AJAX Documentation
+page_title: ClientDataSource Object update() | RadClientDataSource for ASP.NET AJAX Documentation
 description: update
 slug: clientdatasource/client-side-programming/client-side-api/methods/update
 tags: update

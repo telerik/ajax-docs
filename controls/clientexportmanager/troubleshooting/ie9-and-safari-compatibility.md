@@ -1,6 +1,6 @@
 ---
 title: IE9 and Safari Compatibility
-page_title: IE9 and Safari Compatibility | UI for ASP.NET AJAX Documentation
+page_title: IE9 and Safari Compatibility | RadClientExportManager for ASP.NET AJAX Documentation
 description: IE9 and Safari Compatibility
 slug: clientexportmanager/troubleshooting/ie9-and-safari-compatibility
 tags: ie9,and,safari,compatibility

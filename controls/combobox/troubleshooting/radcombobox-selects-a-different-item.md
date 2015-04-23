@@ -1,6 +1,6 @@
 ---
 title: RadComboBox Selects a Different Item
-page_title: RadComboBox Selects a Different Item | UI for ASP.NET AJAX Documentation
+page_title: RadComboBox Selects a Different Item | RadComboBox for ASP.NET AJAX Documentation
 description: RadComboBox Selects a Different Item
 slug: combobox/troubleshooting/radcombobox-selects-a-different-item
 tags: radcombobox,selects,a,different,item

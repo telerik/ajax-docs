@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadComboBox for ASP.NET AJAX Documentation
 description: Validation
 slug: combobox/functionality/validation
 tags: validation

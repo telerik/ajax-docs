@@ -1,6 +1,6 @@
 ---
 title: Fluid and Elastic Capabilities
-page_title: Fluid and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Fluid and Elastic Capabilities | RadDataForm for ASP.NET AJAX Documentation
 description: Fluid and Elastic Capabilities
 slug: dataform/mobile-support/fluid-and-elastic-capabilities
 tags: fluid,and,elastic,capabilities

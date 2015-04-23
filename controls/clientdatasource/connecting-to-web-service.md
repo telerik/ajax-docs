@@ -1,6 +1,6 @@
 ---
 title: Connecting to Web Service
-page_title: Connecting to Web Service | UI for ASP.NET AJAX Documentation
+page_title: Connecting to Web Service | RadClientDataSource for ASP.NET AJAX Documentation
 description: Connecting to Web Service
 slug: clientdatasource/connecting-to-web-service
 tags: connecting,to,web,service

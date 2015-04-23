@@ -1,6 +1,6 @@
 ---
 title: SelectedIndexChanged
-page_title: SelectedIndexChanged | UI for ASP.NET AJAX Documentation
+page_title: SelectedIndexChanged | RadComboBox for ASP.NET AJAX Documentation
 description: SelectedIndexChanged
 slug: combobox/server-side-programming/selectedindexchanged
 tags: selectedindexchanged

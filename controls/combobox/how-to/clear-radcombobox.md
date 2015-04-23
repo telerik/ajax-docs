@@ -1,6 +1,6 @@
 ---
 title: Clear RadComboBox
-page_title: Clear RadComboBox | UI for ASP.NET AJAX Documentation
+page_title: Clear RadComboBox | RadComboBox for ASP.NET AJAX Documentation
 description: Clear RadComboBox
 slug: combobox/how-to/clear-radcombobox
 tags: clear,radcombobox

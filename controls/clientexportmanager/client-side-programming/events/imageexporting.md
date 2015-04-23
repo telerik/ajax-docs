@@ -1,6 +1,6 @@
 ﻿---
 title: ImageExporting
-page_title: ImageExporting | UI for ASP.NET AJAX Documentation
+page_title: ImageExporting | RadClientExportManager for ASP.NET AJAX Documentation
 description: ImageExporting
 slug: clientexportmanager/client-side-programming/events/imageexporting
 tags: imageexporting

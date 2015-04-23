@@ -1,6 +1,6 @@
 ---
 title: ShowMoreResultsBox/Virtual Scrolling
-page_title: ShowMoreResultsBox/Virtual Scrolling | UI for ASP.NET AJAX Documentation
+page_title: ShowMoreResultsBox/Virtual Scrolling | RadComboBox for ASP.NET AJAX Documentation
 description: ShowMoreResultsBox/Virtual Scrolling
 slug: combobox/load-on-demand/showmoreresultsbox/virtual-scrolling
 tags: showmoreresultsbox/virtual,scrolling

@@ -1,6 +1,6 @@
 ---
 title: Default Item
-page_title: Default Item | UI for ASP.NET AJAX Documentation
+page_title: Default Item | RadComboBox for ASP.NET AJAX Documentation
 description: Default Item
 slug: combobox/radcombobox-items/default-item
 tags: default,item

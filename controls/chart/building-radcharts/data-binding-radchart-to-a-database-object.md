@@ -1,6 +1,6 @@
 ---
 title: Data Binding RadChart to a Database Object
-page_title: Data Binding RadChart to a Database Object | UI for ASP.NET AJAX Documentation
+page_title: Data Binding RadChart to a Database Object | RadChart for ASP.NET AJAX Documentation
 description: Data Binding RadChart to a Database Object
 slug: chart/building-radcharts/data-binding-radchart-to-a-database-object
 tags: data,binding,radchart,to,a,database,object
@@ -12,7 +12,7 @@ position: 7
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -25,11 +25,11 @@ To bind to a database, create a data source object, assign the data source to th
 
 The figure above shows a running example that starts with a default RadChart with a single Series. The example code:
 
-* Creates a [SqlDataSource](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.sqldatasource.aspx)__,__ adds it to the page, assigns the RadChart__DataSourceID__ property and finally binds to the datasource.
+* Creates a [SqlDataSource](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.sqldatasource.aspx)**,** adds it to the page, assigns the RadChart**DataSourceID** property and finally binds to the datasource.
 
 * Displays data for a database column by assigning the series DataYColumn or DataXColumn properties. In the example the "TotalSales" column is assigned to the DataYColumn property.
 
-* Displays database column data in the X axis labels by assigning the column name to the DataLabelsColumn__.__The example assigns "CategoryName" to the DataLabelsColumn property.
+* Displays database column data in the X axis labels by assigning the column name to the DataLabelsColumn**.**The example assigns "CategoryName" to the DataLabelsColumn property.
 
 >note Also note how the example sets the PlotArea.Appearance.Dimensions.Margins.Bottom to 30% and the PlotArea.XAxis.Appearance.LabelAppearance.RotationAngle to 300 in order to provide room for the axis labels.
 >

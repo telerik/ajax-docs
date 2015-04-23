@@ -1,6 +1,6 @@
 ---
 title: Adding Images to Items
-page_title: Adding Images to Items | UI for ASP.NET AJAX Documentation
+page_title: Adding Images to Items | RadComboBox for ASP.NET AJAX Documentation
 description: Adding Images to Items
 slug: combobox/appearance-and-styling/adding-images-to-items
 tags: adding,images,to,items

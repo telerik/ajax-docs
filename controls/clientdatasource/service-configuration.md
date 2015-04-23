@@ -1,6 +1,6 @@
 ---
 title: Service Configuration
-page_title: Service Configuration | UI for ASP.NET AJAX Documentation
+page_title: Service Configuration | RadClientDataSource for ASP.NET AJAX Documentation
 description: Service Configuration
 slug: clientdatasource/service-configuration
 tags: service,configuration

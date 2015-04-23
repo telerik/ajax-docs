@@ -1,6 +1,6 @@
 ---
 title: Using the EmptyMessage Property
-page_title: Using the EmptyMessage Property | UI for ASP.NET AJAX Documentation
+page_title: Using the EmptyMessage Property | RadComboBox for ASP.NET AJAX Documentation
 description: Using the EmptyMessage Property
 slug: combobox/appearance-and-styling/using-the-emptymessage-property
 tags: using,the,emptymessage,property

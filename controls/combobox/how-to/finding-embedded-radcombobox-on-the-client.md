@@ -1,6 +1,6 @@
 ---
 title: Finding Embedded RadComboBox on the Client
-page_title: Finding Embedded RadComboBox on the Client | UI for ASP.NET AJAX Documentation
+page_title: Finding Embedded RadComboBox on the Client | RadComboBox for ASP.NET AJAX Documentation
 description: Finding Embedded RadComboBox on the Client
 slug: combobox/how-to/finding-embedded-radcombobox-on-the-client
 tags: finding,embedded,radcombobox,on,the,client

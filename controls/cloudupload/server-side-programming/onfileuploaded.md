@@ -1,6 +1,6 @@
 ---
 title: OnFileUploaded
-page_title: OnFileUploaded | UI for ASP.NET AJAX Documentation
+page_title: OnFileUploaded | RadCloudUpload for ASP.NET AJAX Documentation
 description: OnFileUploaded
 slug: cloudupload/server-side-programming/onfileuploaded
 tags: onfileuploaded

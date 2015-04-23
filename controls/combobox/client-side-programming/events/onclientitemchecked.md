@@ -1,6 +1,6 @@
 ---
 title: OnClientItemChecked
-page_title: OnClientItemChecked | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemChecked | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientItemChecked
 slug: combobox/client-side-programming/events/onclientitemchecked
 tags: onclientitemchecked

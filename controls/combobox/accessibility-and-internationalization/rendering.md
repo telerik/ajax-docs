@@ -1,6 +1,6 @@
 ---
 title: Rendering
-page_title: Rendering | UI for ASP.NET AJAX Documentation
+page_title: Rendering | RadComboBox for ASP.NET AJAX Documentation
 description: Rendering
 slug: combobox/accessibility-and-internationalization/rendering
 tags: rendering

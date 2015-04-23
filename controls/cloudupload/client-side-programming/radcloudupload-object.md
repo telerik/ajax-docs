@@ -1,6 +1,6 @@
 ---
 title: RadCloudUpload Object
-page_title: RadCloudUpload Object | UI for ASP.NET AJAX Documentation
+page_title: RadCloudUpload Object | RadCloudUpload for ASP.NET AJAX Documentation
 description: RadCloudUpload Object
 slug: cloudupload/client-side-programming/radcloudupload-object
 tags: radcloudupload,object

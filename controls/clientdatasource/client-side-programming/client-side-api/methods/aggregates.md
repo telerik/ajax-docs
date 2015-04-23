@@ -1,6 +1,6 @@
 ---
 title: aggregates
-page_title: ClientDataSource Object aggregates() | UI for ASP.NET AJAX Documentation
+page_title: ClientDataSource Object aggregates() | RadClientDataSource for ASP.NET AJAX Documentation
 description: aggregates
 slug: clientdatasource/client-side-programming/client-side-api/methods/aggregates
 tags: aggregates

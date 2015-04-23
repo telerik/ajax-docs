@@ -1,6 +1,6 @@
 ---
 title: Prevent Google ToolBar from Highlighting the Input
-page_title: Prevent Google ToolBar from Highlighting the Input | UI for ASP.NET AJAX Documentation
+page_title: Prevent Google ToolBar from Highlighting the Input | RadComboBox for ASP.NET AJAX Documentation
 description: Prevent Google ToolBar from Highlighting the Input
 slug: combobox/how-to/prevent-google-toolbar-from-highlighting-the-input
 tags: prevent,google,toolbar,from,highlighting,the,input

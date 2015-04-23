@@ -1,6 +1,6 @@
 ---
 title: OnClientUploadFailed
-page_title: OnClientUploadFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientUploadFailed | RadCloudUpload for ASP.NET AJAX Documentation
 description: OnClientUploadFailed
 slug: cloudupload/client-side-programming/events/onclientuploadfailed
 tags: onclientuploadfailed

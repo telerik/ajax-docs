@@ -1,6 +1,6 @@
 ---
 title: AllowCustomText Cannot Be Disabled When Loading Items on Demand
-page_title: AllowCustomText Cannot Be Disabled When Loading Items on Demand | UI for ASP.NET AJAX Documentation
+page_title: AllowCustomText Cannot Be Disabled When Loading Items on Demand | RadComboBox for ASP.NET AJAX Documentation
 description: AllowCustomText Cannot Be Disabled When Loading Items on Demand
 slug: combobox/troubleshooting/allowcustomtext-cannot-be-disabled-when-loading-items-on-demand
 tags: allowcustomtext,cannot,be,disabled,when,loading,items,on,demand

@@ -1,6 +1,6 @@
 ---
 title: Custom Appearance Properties
-page_title: Custom Appearance Properties | UI for ASP.NET AJAX Documentation
+page_title: Custom Appearance Properties | RadChart for ASP.NET AJAX Documentation
 description: Custom Appearance Properties
 slug: chart/styling-radcharts/custom-appearance-properties
 tags: custom,appearance,properties
@@ -12,7 +12,7 @@ position: 2
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -23,44 +23,44 @@ Apart from the common properties, every chart element may have unique appearance
 
 >caption  
 
-|  __Set dimensions__  |
+|  **Set dimensions**  |
 | ------ |
 |Layout -> WidthLayout -> Height|
-| __Set the chart type__ |
+| **Set the chart type** |
 |
 
 * Appearance -> DefaultType|
-| __Set series orientation__ |
+| **Set series orientation** |
 |
 
 * Appearance -> Series Orientation|
-| __Set a series palette__ |
+| **Set a series palette** |
 |
 
 * Appearance -> SeriesPalette
 
 * Appearance -> CustomPalettes|
-| __Set a predefined chart skin__ |
+| **Set a predefined chart skin** |
 |
 
 * Appearance -> Skin|
-| __Set a bar overlap ratio__ How much two adjacent bars overlap each other|
+| **Set a bar overlap ratio** How much two adjacent bars overlap each other|
 |
 
 * Appearance -> Appearance -> BarOverlapPercent|
-| __Set bar width__ Define how much space will occupy all bars located on the same spot on the X Axis. The value represents percent of the total available space for that X Axis value.|
+| **Set bar width** Define how much space will occupy all bars located on the same spot on the X Axis. The value represents percent of the total available space for that X Axis value.|
 |
 
 * Appearance -> Appearance -> BarWidthPercent|
-| __Set text quality__ |
+| **Set text quality** |
 |
 
 * Appearance -> Appearance -> TextQuality|
-| __Set alternative text (accessibility feature)__ |
+| **Set alternative text (accessibility feature)** |
 |
 
 * Appearance -> AlternativeText|
-| __Set the image MIME type (file type)__ |
+| **Set the image MIME type (file type)** |
 |
 
 * Settings -> ChartImageFormat|
@@ -74,16 +74,16 @@ Apart from the common properties, every chart element may have unique appearance
 
 >caption  
 
-|  __Set the form__  |
+|  **Set the form**  |
 | ------ |
 |
 
 * Elements -> ChartTitle -> Appearance -> Figure|
-| __Set a rotation angle__ |
+| **Set a rotation angle** |
 |
 
 * Elements -> ChartTitle -> Appearance -> RotationAngle|
-| __Style the chart title marker__ |
+| **Style the chart title marker** |
 |
 
 * Elements -> ChartTitle -> Marker -> Appearance|
@@ -99,16 +99,16 @@ Apart from the common properties, every chart element may have unique appearance
 
 >caption  
 
-|  __Style the legend title__  |
+|  **Style the legend title**  |
 | ------ |
 |
 
 * Elements -> Legend -> TextBlock|
-| __Style the legend marker__ |
+| **Style the legend marker** |
 |
 
 * Elements -> Legend -> Marker -> Appearance|
-| __Style the legend items’ appearance__ |
+| **Style the legend items’ appearance** |
 |
 
 * Elements -> Legend -> Appearance -> ItemAppearance
@@ -116,11 +116,11 @@ Apart from the common properties, every chart element may have unique appearance
 * Elements -> Legend -> Appearance -> ItemMarkerAppearance
 
 * Elements -> Legend -> Appearance -> ItemTextAppearance|
-| __Set legend items’ orientation__ |
+| **Set legend items’ orientation** |
 |
 
 * Elements -> Legend -> Appearance -> Overflow|
-| __Set a rotation angle__ |
+| **Set a rotation angle** |
 |
 
 * Elements -> Legend -> Appearance -> RotationAngle|
@@ -134,20 +134,20 @@ Apart from the common properties, every chart element may have unique appearance
 
 >caption  
 
-|  __Style the empty series (no data) message__  |
+|  **Style the empty series (no data) message**  |
 | ------ |
 |
 
 * Elements -> PlotArea -> EmptySeriesMessage|
-| __Set intelligent series’ label positioning__ |
+| **Set intelligent series’ label positioning** |
 |
 
 * Elements -> PlotArea -> IntelligentLabelsEnabled|
-| __Set the axis’ layout mode__ Determine whether the axis values’ positions match the gridlines or the values are places between the gridlines|
+| **Set the axis’ layout mode** Determine whether the axis values’ positions match the gridlines or the values are places between the gridlines|
 |
 
 * Elements -> PlotArea -> [axis] -> LayoutMode|
-| __Style the axis’ maximum value end__ |
+| **Style the axis’ maximum value end** |
 |
 
 * Elements -> PlotArea -> axis [axis] -> Appearance -> Cap|

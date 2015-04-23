@@ -1,6 +1,6 @@
 ---
 title: TextChanged
-page_title: TextChanged | UI for ASP.NET AJAX Documentation
+page_title: TextChanged | RadComboBox for ASP.NET AJAX Documentation
 description: TextChanged
 slug: combobox/server-side-programming/textchanged
 tags: textchanged

@@ -1,6 +1,6 @@
 ---
 title: Localization Example Using Local Resources, Implicit Expression
-page_title: Localization Example Using Local Resources, Implicit Expression | UI for ASP.NET AJAX Documentation
+page_title: Localization Example Using Local Resources, Implicit Expression | RadChart for ASP.NET AJAX Documentation
 description: Localization Example Using Local Resources, Implicit Expression
 slug: chart/advanced-topics/localization-example-using-local-resources,-implicit-expression
 tags: localization,example,using,local,resources,,implicit,expression
@@ -12,7 +12,7 @@ position: 5
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -81,15 +81,15 @@ This tutorial will demonstrate localizing the RadChart title, series name and ch
 
 1. In the web browser (we will assume Internet Explorer for this example), select Tools | Internet Options | Languages.
 
-1. In the __Language Preference__ dialog click the __Add__ button.
+1. In the **Language Preference** dialog click the **Add** button.
 
-1. Locate the France "fr-FR" culture code and click __OK.__
+1. Locate the France "fr-FR" culture code and click **OK.**
 
-1. If there are other languages in the __Language Preference__ dialog list, use the arrow keys to place "fr-FR" at the top of the list.
+1. If there are other languages in the **Language Preference** dialog list, use the arrow keys to place "fr-FR" at the top of the list.
 
-1. Click the __OK__ button to close the __Language Preference__ dialog.
+1. Click the **OK** button to close the **Language Preference** dialog.
 
-1. Click __OK__ to close the __Internet Options__ dialog.
+1. Click **OK** to close the **Internet Options** dialog.
 
 1. Refresh the browser page.The title should now be localized to "Ventes".
 >caption 
@@ -110,7 +110,7 @@ This tutorial will demonstrate localizing the RadChart title, series name and ch
 
 
 
-1. To each item tag in the ASP.NET HTML markup add another resource key "meta:resourceKey="RadChart1Series1Element1Resource1">".Name the resource keys "RadChart1Series1Element__1__Resource1", "RadChart1Series1Element__2__Resource1" and "RadChart1Series1Element__3__Resource1" respectively. You will need to add these resource keys for each tag in the HTML that has its own name space.For example, each of the ChartSeriesItem tags is prefixed with the "radC" prefix. The markup should now look like the example below:
+1. To each item tag in the ASP.NET HTML markup add another resource key "meta:resourceKey="RadChart1Series1Element1Resource1">".Name the resource keys "RadChart1Series1Element**1**Resource1", "RadChart1Series1Element**2**Resource1" and "RadChart1Series1Element**3**Resource1" respectively. You will need to add these resource keys for each tag in the HTML that has its own name space.For example, each of the ChartSeriesItem tags is prefixed with the "radC" prefix. The markup should now look like the example below:
 
 ````ASPNET
 	

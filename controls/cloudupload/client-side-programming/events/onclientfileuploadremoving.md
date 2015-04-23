@@ -1,6 +1,6 @@
 ---
 title: OnClientFileUploadRemoving
-page_title: OnClientFileUploadRemoving | UI for ASP.NET AJAX Documentation
+page_title: OnClientFileUploadRemoving | RadCloudUpload for ASP.NET AJAX Documentation
 description: OnClientFileUploadRemoving
 slug: cloudupload/client-side-programming/events/onclientfileuploadremoving
 tags: onclientfileuploadremoving

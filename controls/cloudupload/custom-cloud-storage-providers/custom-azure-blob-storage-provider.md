@@ -1,6 +1,6 @@
 ---
 title: Custom Azure Blob Storage Provider
-page_title: Custom Azure Blob Storage Provider | UI for ASP.NET AJAX Documentation
+page_title: Custom Azure Blob Storage Provider | RadCloudUpload for ASP.NET AJAX Documentation
 description: Custom Azure Blob Storage Provider
 slug: cloudupload/custom-cloud-storage-providers/custom-azure-blob-storage-provider
 tags: custom,azure,blob,storage,provider

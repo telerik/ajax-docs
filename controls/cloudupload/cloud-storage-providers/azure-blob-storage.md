@@ -1,6 +1,6 @@
 ---
 title: Azure Blob Storage
-page_title: Azure Blob Storage | UI for ASP.NET AJAX Documentation
+page_title: Azure Blob Storage | RadCloudUpload for ASP.NET AJAX Documentation
 description: Azure Blob Storage
 slug: cloudupload/cloud-storage-providers/azure-blob-storage
 tags: azure,blob,storage

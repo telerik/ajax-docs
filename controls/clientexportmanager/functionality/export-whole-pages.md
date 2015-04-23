@@ -1,6 +1,6 @@
 ---
 title: Export Whole Pages
-page_title: Export Whole Pages | UI for ASP.NET AJAX Documentation
+page_title: Export Whole Pages | RadClientExportManager for ASP.NET AJAX Documentation
 description: Export Whole Pages
 slug: clientexportmanager/functionality/export-whole-pages
 tags: export,whole,pages

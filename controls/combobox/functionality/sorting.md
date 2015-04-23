@@ -1,6 +1,6 @@
 ---
 title: Sorting
-page_title: Sorting | UI for ASP.NET AJAX Documentation
+page_title: Sorting | RadComboBox for ASP.NET AJAX Documentation
 description: Sorting
 slug: combobox/functionality/sorting
 tags: sorting

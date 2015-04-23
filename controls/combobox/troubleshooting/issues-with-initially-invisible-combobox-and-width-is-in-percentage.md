@@ -1,6 +1,6 @@
 ---
 title: Issues With Initially Invisible ComboBox and Width Is in Percentage
-page_title: Issues With Initially Invisible ComboBox and Width Is in Percentage | UI for ASP.NET AJAX Documentation
+page_title: Issues With Initially Invisible ComboBox and Width Is in Percentage | RadComboBox for ASP.NET AJAX Documentation
 description: Issues With Initially Invisible ComboBox and Width Is in Percentage
 slug: combobox/troubleshooting/issues-with-initially-invisible-combobox-and-width-is-in-percentage
 tags: issues,with,initially,invisible,combobox,and,width,is,in,percentage

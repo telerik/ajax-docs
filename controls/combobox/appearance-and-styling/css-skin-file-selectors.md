@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadComboBox for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: combobox/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
@@ -19,7 +19,7 @@ The following table lists significant CSS selectors and descriptions for RadComb
 
 
 
-|  __CSS Selector__  |  __Description__  |
+|  **CSS Selector**  |  **Description**  |
 | ------ | ------ |
 |.RadComboBox_MySkin|Styles the HTML <div> tag that contains the RadComboBox input & arrow.|
 |.RadComboBoxDropDown_MySkin|Styles the HTML <div> tag that contains the RadComboBox drop-down.|
@@ -32,13 +32,13 @@ The following table lists significant CSS selectors and descriptions for RadComb
 |.rcbList|Styles the drop down portion of the list that isn't disabled or hovered. This style is applied to the <ul> HTML tag class representing an unordered list.|
 |.rcbItem|Styles each <li> HTML tag item within the unordered list that is not disabled or hovered.|
 |.rcbHovered|Styles a list item (or input area) under the mouse.|
-|.rcbDisabled|Styles the disabled items in the drop down list. Define a moderate __color__ property (typically a gray) to communicate that the text represents a disabled item.|
-|.rcbNoWrap|Styles the list when the RadComboBox __NoWrap__ property is set to __true__ .|
-|.rcbLoading|Controls the look of the area that displays the __LoadingMessage__ property.|
+|.rcbDisabled|Styles the disabled items in the drop down list. Define a moderate **color** property (typically a gray) to communicate that the text represents a disabled item.|
+|.rcbNoWrap|Styles the list when the RadComboBox **NoWrap** property is set to **true** .|
+|.rcbLoading|Controls the look of the area that displays the **LoadingMessage** property.|
 |.rcbMoreResults|Controls the look of the "Show More results" area. See[Load On Demand]({%slug combobox/load-on-demand/overview%})topics for more information.|
-|.rcbImage|Styles the image when __ImageUrl__ property is set for an item.|
-|.rcbEmptyMessage|Controls the appearance of the __EmptyMessage__ text.|
-|.rcbSeparator|Controls the appearance of the __RadComboBox__ separators.|
+|.rcbImage|Styles the image when **ImageUrl** property is set for an item.|
+|.rcbEmptyMessage|Controls the appearance of the **EmptyMessage** text.|
+|.rcbSeparator|Controls the appearance of the **RadComboBox** separators.|
 |.rcbLabel|Controls the appearance of the associated Label.|
 
 >note There are several styles that end in "_rtl" that are used to style specific portions of the control when right-to-left support is turned on. These "_rtl" styles are variants of their left-to-right default counterparts.

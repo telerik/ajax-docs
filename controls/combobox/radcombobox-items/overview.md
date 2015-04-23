@@ -1,6 +1,6 @@
 ---
-title: RadComboBox Items Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadComboBox Items Overview | RadComboBox for ASP.NET AJAX Documentation
 description: Overview
 slug: combobox/radcombobox-items/overview
 tags: overview

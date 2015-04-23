@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadComboBox for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: combobox/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates

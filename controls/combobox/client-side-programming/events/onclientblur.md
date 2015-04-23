@@ -1,6 +1,6 @@
 ---
 title: OnClientBlur
-page_title: OnClientBlur | UI for ASP.NET AJAX Documentation
+page_title: OnClientBlur | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientBlur
 slug: combobox/client-side-programming/events/onclientblur
 tags: onclientblur

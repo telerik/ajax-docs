@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadComboBox for ASP.NET AJAX Documentation
 description: What is New
 slug: combobox/what-is-new
 tags: what,is,new
@@ -92,13 +92,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Animations are using the jQuery library now
 
-* Added new property __UseHttpGet__ to the [WebServiceSettings]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) properties. By default its value is *False*.
+* Added new property **UseHttpGet** to the [WebServiceSettings]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) properties. By default its value is *False*.
 
 ## What's New in RadComboBox for ASP.NET AJAX Q3 2008 SP2 (Version Number 2008.3.1314)
 
-* New event: [OnClientItemDataBound]({%slug combobox/client-side-programming/events/onclientitemdatabound%}). Fires for each item that is created during __Web Service__ Load on Demand.
+* New event: [OnClientItemDataBound]({%slug combobox/client-side-programming/events/onclientitemdatabound%}). Fires for each item that is created during **Web Service** Load on Demand.
 
-* New method: __clearCache__ - clears the cache when __EnableItemCaching__ is enabled.
+* New method: **clearCache** - clears the cache when **EnableItemCaching** is enabled.
 
 * Bug-fixes
 
@@ -112,15 +112,15 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [AccessibilityMode](AD24C4D4-BED7-49E5-9470-5F19A9E5A45B) property added. If it is set to true noscript tag containing select html element will be rendered. This select will be displayed instead of RadComboBox if the javascript is disabled.
 
-* __Better performance__ - lazy initialized items. They are initialized when the dropdown is opened or they are accessed for the first time.
+* **Better performance** - lazy initialized items. They are initialized when the dropdown is opened or they are accessed for the first time.
 
-* Added new server side methods __FindItemByText__, __FindItemByValue__, __FindItemIndexByText__, __FindItemIndexByValue__ which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindItemByText**, **FindItemByValue**, **FindItemIndexByText**, **FindItemIndexByValue** which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindItem__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnItemDataBound__, __OnTextChanged__, __OnSelectedIndexChanged__.
+* Added protected virtual methods for server-side events – **OnItemDataBound**, **OnTextChanged**, **OnSelectedIndexChanged**.
 
-* Support for server-side expressions (<%= %>) in the __ItemTemplate__.
+* Support for server-side expressions (<%= %>) in the **ItemTemplate**.
 
 ## What's New in RadComboBox for ASP.NET AJAX Q2 SP2 (Version Number 2008.2.1001)
 
@@ -144,13 +144,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [EnableTextSelection]({%slug combobox/functionality/autocomplete%}) property added to RadComboBox class.
 
-* __ChangeTextOnKeyBoardNavigation__ property added to RadComboBox class. If set to False, the combobox will not change its text in the input area when you scroll down the items with the keyboard.
+* **ChangeTextOnKeyBoardNavigation** property added to RadComboBox class. If set to False, the combobox will not change its text in the input area when you scroll down the items with the keyboard.
 
 * Added [get_visible, set_visible, show, hide, get_imageUrl, set_imageUrl, get_disabledImageUrl, set_disabledImageUrl and findControl]({%slug combobox/client-side-programming/objects/radcomboboxitem-object%}) client-side methods of RadComboBoxItem object.
 
 * Added [get_visibleItems, setAllItemsVisible, get_changeText, set_changeText, get_enableTextSelection and set_enableTextSelection]({%slug combobox/client-side-programming/objects/radcombobox-object%}) client-side methods of RadComboBox object.
 
-* __Gray__ skin has been added. The __Mac__ skin has been removed from the Telerik.Web.UI assembly. More information on Q2 Skinning is available [here](http://blogs.telerik.com/ZhivkoDimitrov/Posts/08-06-27/Q2_Asp_Net_skinning.aspx?ReturnURL=%2fZhivkoDimitrov%2fPosts.aspx).
+* **Gray** skin has been added. The **Mac** skin has been removed from the Telerik.Web.UI assembly. More information on Q2 Skinning is available [here](http://blogs.telerik.com/ZhivkoDimitrov/Posts/08-06-27/Q2_Asp_Net_skinning.aspx?ReturnURL=%2fZhivkoDimitrov%2fPosts.aspx).
 
 ## What's New in RadComboBox for ASP.NET AJAX Q1 SP2 (Version Number 2008.1.619)
 
@@ -162,7 +162,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [OnClientDropDownClosed client-side event]({%slug combobox/client-side-programming/events/onclientdropdownclosed%})
 
-* When [creating items with the Item Builder]({%slug combobox/design-time/radcombobox-item-builder%}), if you don not set the __Value__ of the item - it will automatically become equal to the __Text__ property.
+* When [creating items with the Item Builder]({%slug combobox/design-time/radcombobox-item-builder%}), if you don not set the **Value** of the item - it will automatically become equal to the **Text** property.
 
 * [attachDropDown]({%slug combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback%}) client-side method. Use it in the scenario described here: [Ajaxified control in ItemTemplate does a full postback]({%slug combobox/troubleshooting/ajaxified-control-in-itemtemplate-does-a-full-postback%})
 
@@ -174,11 +174,11 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadControls for ASP.NET AJAX Q1 2008 (Version Number 2008.1.415)
 
-* Added __get_domEvent__ to the event arguments of all [client events]({%slug combobox/client-side-programming/events%})
+* Added **get_domEvent** to the event arguments of all [client events]({%slug combobox/client-side-programming/events%})
 
 * [EmptyMessage]({%slug combobox/appearance-and-styling/using-the-emptymessage-property%}) property
 
-* Added __Value__ property to the event arguments of the [SelectedIndexChanged]({%slug combobox/server-side-programming/selectedindexchanged%}) server-side event
+* Added **Value** property to the event arguments of the [SelectedIndexChanged]({%slug combobox/server-side-programming/selectedindexchanged%}) server-side event
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Custom Attributes | RadComboBox for ASP.NET AJAX Documentation
 description: Custom Attributes
 slug: combobox/radcombobox-items/custom-attributes
 tags: custom,attributes

@@ -1,6 +1,6 @@
 ---
 title: Back Button and SelectedValue
-page_title: Back Button and SelectedValue | UI for ASP.NET AJAX Documentation
+page_title: Back Button and SelectedValue | RadComboBox for ASP.NET AJAX Documentation
 description: Back Button and SelectedValue
 slug: combobox/troubleshooting/back-button-and-selectedvalue
 tags: back,button,and,selectedvalue

@@ -1,6 +1,6 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: ItemDataBound | RadComboBox for ASP.NET AJAX Documentation
 description: ItemDataBound
 slug: combobox/server-side-programming/itemdatabound
 tags: itemdatabound

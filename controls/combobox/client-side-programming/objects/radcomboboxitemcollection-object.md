@@ -1,6 +1,6 @@
 ---
 title: RadComboBoxItemCollection Object
-page_title: RadComboBoxItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadComboBoxItemCollection Object | RadComboBox for ASP.NET AJAX Documentation
 description: RadComboBoxItemCollection Object
 slug: combobox/client-side-programming/objects/radcomboboxitemcollection-object
 tags: radcomboboxitemcollection,object
@@ -14,14 +14,14 @@ position: 2
 
 ## 
 
-The __RadComboBoxItemCollection__ object is returned by the __get_items__ method of the __RadComboBox__ object. The following table lists the most important methods:
+The **RadComboBoxItemCollection** object is returned by the **get_items** method of the **RadComboBox** object. The following table lists the most important methods:
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadComboBoxItem|none|Adds an item to the Items collection.
+| **add** |RadComboBoxItem|none|Adds an item to the Items collection.
 
 ````JavaScript
 	
@@ -38,7 +38,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __insert__ |int, RadComboBoxItem|none|Inserts an item into the Items collection at the position specified by the first (index) parameter.
+| **insert** |int, RadComboBoxItem|none|Inserts an item into the Items collection at the position specified by the first (index) parameter.
 
 ````JavaScript
 	
@@ -55,7 +55,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __remove__ |RadComboBoxItem|none|Removes a child item from the Items collection.
+| **remove** |RadComboBoxItem|none|Removes a child item from the Items collection.
 
 ````JavaScript
 	
@@ -69,7 +69,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __clear__ |none|none|Clears the Items collection of RadComboBox.
+| **clear** |none|none|Clears the Items collection of RadComboBox.
 
 ````JavaScript
 	
@@ -80,7 +80,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __getItem__ |int|RadComboBoxItem|Gets the item from the Items collection residing at the index specified by the parameter.
+| **getItem** |int|RadComboBoxItem|Gets the item from the Items collection residing at the index specified by the parameter.
 
 ````JavaScript
 	
@@ -92,7 +92,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __indexOf__ |RadComboBoxItem|int|Gets the index of an item.
+| **indexOf** |RadComboBoxItem|int|Gets the index of an item.
 
 ````JavaScript
 	
@@ -104,7 +104,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __removeAt__ |int|none|Removes the item at the specified index.
+| **removeAt** |int|none|Removes the item at the specified index.
 
 ````JavaScript
 	
@@ -117,7 +117,7 @@ The __RadComboBoxItemCollection__ object is returned by the __get_items__ method
 ````
 
 |
-| __get_count__ |none|int|Returns the number of items in the Items collection.
+| **get_count** |none|int|Returns the number of items in the Items collection.
 
 ````JavaScript
 	

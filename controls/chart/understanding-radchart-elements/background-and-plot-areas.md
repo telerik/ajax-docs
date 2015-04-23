@@ -1,6 +1,6 @@
 ---
 title: Background and Plot Areas
-page_title: Background and Plot Areas | UI for ASP.NET AJAX Documentation
+page_title: Background and Plot Areas | RadChart for ASP.NET AJAX Documentation
 description: Background and Plot Areas
 slug: chart/understanding-radchart-elements/background-and-plot-areas
 tags: background,and,plot,areas
@@ -12,7 +12,7 @@ position: 1
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -57,8 +57,8 @@ Like the RadChart as a whole, PlotArea has an Appearance property allowing custo
 
 * FillStyle controls the fill color and type (solid, hatched, image, gradient).
 
-* The Dimensions property provides control of __Width__, __Height__, __Margins__, __Paddings__ and if you want the dimensions to Autosize__.__
+* The Dimensions property provides control of **Width**, **Height**, **Margins**, **Paddings** and if you want the dimensions to Autosize**.**
 
 * SeriesPalette is a property of the chart that lets you to choose a predefined skin color palette for each series.This can help provide a distinct look to differentiate each series.
 
-* The __Shadow__ property lets you control shadow Blur, shadow Color, shadow Distance and Position relative to the plot area.
+* The **Shadow** property lets you control shadow Blur, shadow Color, shadow Distance and Position relative to the plot area.

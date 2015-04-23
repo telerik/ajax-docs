@@ -1,6 +1,6 @@
 ---
 title: Passing Context Information to the Server 
-page_title: Passing Context Information to the Server  | UI for ASP.NET AJAX Documentation
+page_title: Passing Context Information to the Server  | RadComboBox for ASP.NET AJAX Documentation
 description: Passing Context Information to the Server 
 slug: combobox/load-on-demand/passing-context-information-to-the-server-
 tags: passing,context,information,to,the,server,

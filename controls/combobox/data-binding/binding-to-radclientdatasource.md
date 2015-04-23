@@ -1,6 +1,6 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to RadClientDataSource | RadComboBox for ASP.NET AJAX Documentation
 description: Binding to RadClientDataSource
 slug: combobox/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource

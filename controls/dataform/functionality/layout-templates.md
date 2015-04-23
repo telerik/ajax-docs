@@ -1,6 +1,6 @@
 ---
 title: Layout Templates
-page_title: Layout Templates | UI for ASP.NET AJAX Documentation
+page_title: Layout Templates | RadDataForm for ASP.NET AJAX Documentation
 description: Layout Templates
 slug: dataform/functionality/layout-templates
 tags: layout,templates

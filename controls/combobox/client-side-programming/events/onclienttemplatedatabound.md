@@ -1,6 +1,6 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTemplateDataBound | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientTemplateDataBound
 slug: combobox/client-side-programming/events/onclienttemplatedatabound
 tags: onclienttemplatedatabound

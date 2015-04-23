@@ -1,6 +1,6 @@
 ---
 title: SvgExported
-page_title: SvgExported | UI for ASP.NET AJAX Documentation
+page_title: SvgExported | RadClientExportManager for ASP.NET AJAX Documentation
 description: SvgExported
 slug: clientexportmanager/client-side-programming/events/svgexported
 tags: svgexported

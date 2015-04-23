@@ -1,6 +1,6 @@
 ---
 title: Automatic Text-wrapping
-page_title: Automatic Text-wrapping | UI for ASP.NET AJAX Documentation
+page_title: Automatic Text-wrapping | RadChart for ASP.NET AJAX Documentation
 description: Automatic Text-wrapping
 slug: chart/features/automatic-text-wrapping
 tags: automatic,text-wrapping
@@ -12,7 +12,7 @@ position: 1
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -36,33 +36,33 @@ RadChart supports automatic Notepad-like word-wrapping functionality for the fol
 
 Automatic text-wrapping is disabled by default. The chart control provides fine-grained API that allows you to enable wrapping for all elements, or alternatively on individual element basis.
 
-The behavior is controlled either via the __RadChart.AutoTextWrap__ property that enables text-wrapping globally for all supported chart elements, or you can set the AutoTextWrap properties for the respective chart elements. Setting a value for individual element always takes precedence i.e. you can have the global RadChart.AutoTextWrap property set to true, and still disable the text-wrapping for the title by setting its respective AutoTextWrap property to false.
+The behavior is controlled either via the **RadChart.AutoTextWrap** property that enables text-wrapping globally for all supported chart elements, or you can set the AutoTextWrap properties for the respective chart elements. Setting a value for individual element always takes precedence i.e. you can have the global RadChart.AutoTextWrap property set to true, and still disable the text-wrapping for the title by setting its respective AutoTextWrap property to false.
 
 
 
 AutoTextWrap properties that control the wrapping settings for individual elements (usually under Appearance on the respective TextBlock for each element):
 
-* Chart Title (__ChartTitle.TextBlock.Appearance.AutoTextWrap__)
+* Chart Title (**ChartTitle.TextBlock.Appearance.AutoTextWrap**)
 
 * Legend-related
 
-* For all legend items (__Legend.Appearance.ItemTextAppearance.AutoTextWrap__)
+* For all legend items (**Legend.Appearance.ItemTextAppearance.AutoTextWrap**)
 
-* For individual legend item (__Legend -> Items -> LabelItem.TextBlock.Appearance.AutoTextWrap__)
+* For individual legend item (**Legend -> Items -> LabelItem.TextBlock.Appearance.AutoTextWrap**)
 
 * Axis-related
 
-* For axis label (__Axis.AxisLabel.Appearance.AutoTextWrap__)
+* For axis label (**Axis.AxisLabel.Appearance.AutoTextWrap**)
 
-* For all axis item labels (__Axis.Appearance.TextAppearance.AutoTextWrap__)
+* For all axis item labels (**Axis.Appearance.TextAppearance.AutoTextWrap**)
 
-* For individual axis item label (__Axis -> Items -> ChartAxisItem.TextBlock.AutoTextWrap__)
+* For individual axis item label (**Axis -> Items -> ChartAxisItem.TextBlock.AutoTextWrap**)
 
-* DataTable text elements (__PlotArea.DataTable.Appearance.AutoTextWrap__)
+* DataTable text elements (**PlotArea.DataTable.Appearance.AutoTextWrap**)
 
-* MarkedZone Labels (__ChartMarkedZone.Label.TextBlock.Appearance.AutoTextWrap__)
+* MarkedZone Labels (**ChartMarkedZone.Label.TextBlock.Appearance.AutoTextWrap**)
 
-* EmptySeriesMessage (__PlotArea.EmptySeriesMessage.TextBlock.Appearance.AutoTextWrap__)
+* EmptySeriesMessage (**PlotArea.EmptySeriesMessage.TextBlock.Appearance.AutoTextWrap**)
 
 
 
@@ -108,7 +108,7 @@ AutoTextWrap properties that control the wrapping settings for individual elemen
 
 
 
-__Result:__
+**Result:**
 >caption 
 
 ![](images/radchart-chartwrapall.png)
@@ -159,7 +159,7 @@ __Result:__
 
 
 
-__Result:__
+**Result:**
 >caption 
 
 ![](images/radchart-chartwrapallexceptaxis.png)
@@ -207,7 +207,7 @@ __Result:__
 
 
 
-__Result:__
+**Result:**
 >caption 
 
 ![](images/radchart-chartwrapaxisonly.png)

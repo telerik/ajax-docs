@@ -1,6 +1,6 @@
 ---
 title: Validate Combobox by Value
-page_title: Validate Combobox by Value | UI for ASP.NET AJAX Documentation
+page_title: Validate Combobox by Value | RadComboBox for ASP.NET AJAX Documentation
 description: Validate Combobox by Value
 slug: combobox/how-to/validate-combobox-by-value
 tags: validate,combobox,by,value

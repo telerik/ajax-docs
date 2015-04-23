@@ -1,6 +1,6 @@
 ---
 title: OnClientItemRequestFailed
-page_title: OnClientItemRequestFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemRequestFailed | RadComboBox for ASP.NET AJAX Documentation
 description: OnClientItemRequestFailed
 slug: combobox/client-side-programming/events/onclientitemrequestfailed
 tags: onclientitemrequestfailed

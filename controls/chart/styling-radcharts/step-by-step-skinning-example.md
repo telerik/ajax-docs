@@ -1,6 +1,6 @@
 ---
 title: Step-By-Step Skinning Example
-page_title: Step-By-Step Skinning Example | UI for ASP.NET AJAX Documentation
+page_title: Step-By-Step Skinning Example | RadChart for ASP.NET AJAX Documentation
 description: Step-By-Step Skinning Example
 slug: chart/styling-radcharts/step-by-step-skinning-example
 tags: step-by-step,skinning,example
@@ -12,7 +12,7 @@ position: 4
 
 
 
->caution  __RadChart__ has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering __RadChart__ for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using __RadChart__ in your projects, you can migrate to __RadHtmlChart__ by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for __RadChart__ is discontinued as of __Q3 2014__ , but the control will remain in the assembly so it can still be used.	We encourage you to use __RadHtmlChart__ for new development.
+>caution  **RadChart** has been replaced by[RadHtmlChart](http://www.telerik.com/products/aspnet-ajax/html-chart.aspx), Telerik's client-side charting component.	If you are considering **RadChart** for new development, examine the[RadHtmlChart documentation](ffd58685-7423-4c50-9554-f92c70a75138)and[online demos](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/overview/defaultcs.aspx)first to see if it will fit your development needs.	If you are already using **RadChart** in your projects, you can migrate to **RadHtmlChart** by following these articles:[Migrating Series](2f393f28-bc31-459c-92aa-c3599785f6cc),[Migrating Axes](3f1bea81-87b9-4324-b0d2-d13131031048),[Migrating Date Axes](93226130-bc3c-4c53-862a-f9e17b2eb7dd),[Migrating Databinding](d6c5e2f1-280c-4fb0-b5b0-2f507697511d),[Feature parity](010dc716-ce38-480b-9157-572e0f140169).	Support for **RadChart** is discontinued as of **Q3 2014** , but the control will remain in the assembly so it can still be used.	We encourage you to use **RadHtmlChart** for new development.
 >
 
 
@@ -24,113 +24,113 @@ Here is a list of the steps one has to make in order to style RadChart to look l
 
 1. Styling the chart’s borders and background
 
-1. Appearance -> Appearance -> Border -> Color : __0; 66; 110__
+1. Appearance -> Appearance -> Border -> Color : **0; 66; 110**
 
-1. Appearance -> Appearance -> Border -> Width : __5__
+1. Appearance -> Appearance -> Border -> Width : **5**
 
-1. Appearance -> Appearance -> FillStyle -> FillType : __Gradient__
+1. Appearance -> Appearance -> FillStyle -> FillType : **Gradient**
 
-1. Appearance -> Appearance -> FillStyle -> FillSettings -> GradientMode : __Center__
+1. Appearance -> Appearance -> FillStyle -> FillSettings -> GradientMode : **Center**
 
-1. Appearance -> Appearance -> FillStyle -> MainColor : __35; 189; 254__
+1. Appearance -> Appearance -> FillStyle -> MainColor : **35; 189; 254**
 
-1. Appearance -> Appearance -> FillStyle -> SecondColor : __26; 120; 179__
+1. Appearance -> Appearance -> FillStyle -> SecondColor : **26; 120; 179**
 
 1. 
 
 1. Styling the title
 
-1. Elements -> ChartTitle -> Appearance -> Border -> Visible : __False__
+1. Elements -> ChartTitle -> Appearance -> Border -> Visible : **False**
 
-1. Elements -> ChartTitle -> Appearance -> FillStyle -> MainColor : __None / Transparent__
+1. Elements -> ChartTitle -> Appearance -> FillStyle -> MainColor : **None / Transparent**
 
-1. Elements -> ChartTitle -> TextBlock -> Appearance -> TextProperties -> Color : __White__
+1. Elements -> ChartTitle -> TextBlock -> Appearance -> TextProperties -> Color : **White**
 
-1. Elements -> ChartTitle -> TextBlock -> Appearance -> TextProperties -> Font : __Verdana; 14pt__
+1. Elements -> ChartTitle -> TextBlock -> Appearance -> TextProperties -> Font : **Verdana; 14pt**
 
-1. Elements -> ChartTitle -> Appearance ->Position -> AlignedPosition : __TopLeft__
+1. Elements -> ChartTitle -> Appearance ->Position -> AlignedPosition : **TopLeft**
 
-1. Elements -> ChartTitle -> Appearance -> Dimensions -> Margins : __4%; 10px; 14px; 8%__
+1. Elements -> ChartTitle -> Appearance -> Dimensions -> Margins : **4%; 10px; 14px; 8%**
 
 1. Styling the legend
 
-1. Elements -> Legend -> Appearance -> FillStyle -> MainColor : __None / Transparent__
+1. Elements -> Legend -> Appearance -> FillStyle -> MainColor : **None / Transparent**
 
-1. Elements -> Legend -> Appearance -> Border -> Visible : __False__
+1. Elements -> Legend -> Appearance -> Border -> Visible : **False**
 
-1. Elements -> Legend -> Appearance -> ItemTextAppearance -> TextProperties -> Color : __White__
+1. Elements -> Legend -> Appearance -> ItemTextAppearance -> TextProperties -> Color : **White**
 
-1. Elements -> Legend -> TextBlock -> Text : __Legend__
+1. Elements -> Legend -> TextBlock -> Text : **Legend**
 
-1. Elements -> Legend -> TextBlock -> Visible : __True__
+1. Elements -> Legend -> TextBlock -> Visible : **True**
 
-1. Elements -> Legend -> TextBlock -> Appearance -> TextProperties -> Color : __LightSkyBlue__
+1. Elements -> Legend -> TextBlock -> Appearance -> TextProperties -> Color : **LightSkyBlue**
 
-1. Elements -> Legend -> TextBlock -> Appearance -> Position -> AlignedPosition : __Top__
+1. Elements -> Legend -> TextBlock -> Appearance -> Position -> AlignedPosition : **Top**
 
-1. Elements -> Legend -> Appearance -> Position -> AlignedPosition -> __BottomRight__
+1. Elements -> Legend -> Appearance -> Position -> AlignedPosition -> **BottomRight**
 
-1. Elements -> Legend -> Appearance -> Dimensions -> Margins : __1px; 3%; 12%; 1px__
+1. Elements -> Legend -> Appearance -> Dimensions -> Margins : **1px; 3%; 12%; 1px**
 
 1. Styling the plotarea
 
-1. Elements -> PlotArea -> Appearance -> Border -> Color : __97; 180; 223__
+1. Elements -> PlotArea -> Appearance -> Border -> Color : **97; 180; 223**
 
-1. Elements -> PlotArea -> Appearance -> FillStyle -> MainColor : __50; 255; 255; 255__
+1. Elements -> PlotArea -> Appearance -> FillStyle -> MainColor : **50; 255; 255; 255**
 
-1. Elements -> PlotArea -> Appearance -> Dimensions -> Margins : __18%; 90px; 15%; 10%__
+1. Elements -> PlotArea -> Appearance -> Dimensions -> Margins : **18%; 90px; 15%; 10%**
 
 1. Styling the X Axis
 
-1. Elements -> PlotArea -> XAxis -> Appearance -> Color : __96; 164; 205__
+1. Elements -> PlotArea -> XAxis -> Appearance -> Color : **96; 164; 205**
 
-1. Elements -> PlotArea -> XAxis -> Appearance -> MajorGridLines -> Color : __120; 209; 248__
+1. Elements -> PlotArea -> XAxis -> Appearance -> MajorGridLines -> Color : **120; 209; 248**
 
-1. Elements -> PlotArea -> XAxis -> Appearance -> MajorTick -> Color : __96; 164; 205__
+1. Elements -> PlotArea -> XAxis -> Appearance -> MajorTick -> Color : **96; 164; 205**
 
-1. Elements -> PlotArea -> XAxis -> Appearance -> TextAppearance -> TextProperties -> Color : __White__
+1. Elements -> PlotArea -> XAxis -> Appearance -> TextAppearance -> TextProperties -> Color : **White**
 
-1. Elements -> PlotArea -> XAxis -> AxisLabel -> TextBlock -> Text -> __X Axis__
+1. Elements -> PlotArea -> XAxis -> AxisLabel -> TextBlock -> Text -> **X Axis**
 
-1. Elements -> PlotArea -> XAxis -> AxisLabel -> TextBlock -> Appearance -> TextProperties -> Color : __LightSkyBlue__
+1. Elements -> PlotArea -> XAxis -> AxisLabel -> TextBlock -> Appearance -> TextProperties -> Color : **LightSkyBlue**
 
-1. Elements -> PlotArea -> XAxis -> AxisLabel -> Appearance -> Dimensions -> Paddings : __1px; 1px; 10%; 1px__
+1. Elements -> PlotArea -> XAxis -> AxisLabel -> Appearance -> Dimensions -> Paddings : **1px; 1px; 10%; 1px**
 
 1. Styling the Y Axis
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> Color : __95; 165; 208__
+1. Elements -> PlotArea -> YAxis -> Appearance -> Color : **95; 165; 208**
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> MajorGridLines -> Color : __120; 209; 248__
+1. Elements -> PlotArea -> YAxis -> Appearance -> MajorGridLines -> Color : **120; 209; 248**
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> MajorTick -> Color : __95; 165; 208__
+1. Elements -> PlotArea -> YAxis -> Appearance -> MajorTick -> Color : **95; 165; 208**
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> MajorGridLines -> Color : __120; 209; 248__
+1. Elements -> PlotArea -> YAxis -> Appearance -> MajorGridLines -> Color : **120; 209; 248**
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> MinorTick -> Color : __95; 165; 208__
+1. Elements -> PlotArea -> YAxis -> Appearance -> MinorTick -> Color : **95; 165; 208**
 
-1. Elements -> PlotArea -> YAxis -> Appearance -> TextAppearance -> TextProperties -> Color : __White__
+1. Elements -> PlotArea -> YAxis -> Appearance -> TextAppearance -> TextProperties -> Color : **White**
 
-1. Elements -> PlotArea -> YAxis -> AxisLabel -> TextBlock -> Text -> __Y Axis__
+1. Elements -> PlotArea -> YAxis -> AxisLabel -> TextBlock -> Text -> **Y Axis**
 
-1. Elements -> PlotArea -> YAxis -> AxisLabel -> TextBlock -> Appearance -> TextProperties -> Color : __LightSkyBlue__
+1. Elements -> PlotArea -> YAxis -> AxisLabel -> TextBlock -> Appearance -> TextProperties -> Color : **LightSkyBlue**
 
 1. Styling the data series
 
-1. Data -> Series -> Series 1 -> Appearance -> Appearance -> Border -> Color : __153; 209; 248__
+1. Data -> Series -> Series 1 -> Appearance -> Appearance -> Border -> Color : **153; 209; 248**
 
-1. Data -> Series -> Series 1 -> Appearance -> Appearance -> FillStyle -> MainColor : __213; 247; 255__
+1. Data -> Series -> Series 1 -> Appearance -> Appearance -> FillStyle -> MainColor : **213; 247; 255**
 
-1. Data -> Series -> Series 1 -> Appearance -> Appearance -> FillStyle -> SecondColor : __157; 217; 238__
+1. Data -> Series -> Series 1 -> Appearance -> Appearance -> FillStyle -> SecondColor : **157; 217; 238**
 
-1. Data -> Series -> Series 1 -> Appearance -> Appearance -> TextAppearance -> TextProperties -> Color : __White__
+1. Data -> Series -> Series 1 -> Appearance -> Appearance -> TextAppearance -> TextProperties -> Color : **White**
 
-1. Data -> Series -> Series 2 -> Appearance -> Appearance -> Border -> Color : __67; 181; 229__
+1. Data -> Series -> Series 2 -> Appearance -> Appearance -> Border -> Color : **67; 181; 229**
 
-1. Data -> Series -> Series 2 -> Appearance -> Appearance -> FillStyle -> MainColor : __136; 221; 246__
+1. Data -> Series -> Series 2 -> Appearance -> Appearance -> FillStyle -> MainColor : **136; 221; 246**
 
-1. Data -> Series -> Series 2 -> Appearance -> Appearance -> FillStyle -> SecondColor : __59; 161; 197__
+1. Data -> Series -> Series 2 -> Appearance -> Appearance -> FillStyle -> SecondColor : **59; 161; 197**
 
-1. Data -> Series -> Series 2 -> Appearance -> Appearance -> TextAppearance -> TextProperties -> Color : __White__
+1. Data -> Series -> Series 2 -> Appearance -> Appearance -> TextAppearance -> TextProperties -> Color : **White**
 >caption 
 
 ![](images/radchart-stylingcharts002.png)

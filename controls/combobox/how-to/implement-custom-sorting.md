@@ -1,6 +1,6 @@
 ---
 title: Implement Custom Sorting
-page_title: Implement Custom Sorting | UI for ASP.NET AJAX Documentation
+page_title: Implement Custom Sorting | RadComboBox for ASP.NET AJAX Documentation
 description: Implement Custom Sorting
 slug: combobox/how-to/implement-custom-sorting
 tags: implement,custom,sorting

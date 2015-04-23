@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadComboBox for ASP.NET AJAX Documentation
 description: Localization
 slug: combobox/accessibility-and-internationalization/localization
 tags: localization
