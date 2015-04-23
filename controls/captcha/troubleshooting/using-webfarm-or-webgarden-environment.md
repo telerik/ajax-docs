@@ -1,5 +1,5 @@
 ---
-title: Using WebFarm or WebGarden EnvRadCaptcha for ASP.NET AJAX Documentationironment
+title: Using WebFarm or WebGarden Environment
 page_title: Using WebFarm or WebGarden Environment | RadCaptcha for ASP.NET AJAX Documentation
 description: Using WebFarm or WebGarden Environment
 slug: captcha/troubleshooting/using-webfarm-or-webgarden-environment
@@ -9,10 +9,6 @@ position: 0
 ---
 
 # Using WebFarm or WebGarden Environment
-
-
-
-## 
 
 By default the RadCaptcha control stores the CaptchaImage in the Cache object.	In case your application is configured to run in any of the environments, listed below, there will be a problem accessing the captcha image:
 
@@ -28,25 +24,25 @@ To avoid this behavior, you should store the CaptchaImage in the Session, and co
 
 1. Configure the httpHandler in the following way:
 
-````XML
-	<configuration>
-		<system.web>
-			<httpHandlers>
-				<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" verb="*" validate="false" />
-			</httpHandlers>
-		</system.web>
-		<system.webServer>
-			<handlers>
-				<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" />
-			</handlers>
-		</system.webServer>
-	</configuration>
-````
+	>caption web.config:
 
+	**XML**
+	
+		<configuration>
+			<system.web>
+				<httpHandlers>
+					<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" verb="*" validate="false" />
+				</httpHandlers>
+			</system.web>
+			<system.webServer>
+				<handlers>
+					<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" />
+				</handlers>
+			</system.webServer>
+		</configuration>
 
+1. Ensure that you have configured your server environment to use [out of process Session State](http://msdn.microsoft.com/en-us/library/ms972429.aspx). In order to setup such Session State, you can apply any of the following solutions:
 
-1. Ensure that you have configured your server environment to use	[out of process Session State](http://msdn.microsoft.com/en-us/library/ms972429.aspx)In order to setup such Session State, you can apply any of the following solutions:
+	* Deploy the out-of-process Session State server that is provided with ASP.NET.
 
-* Deploy the out-of-process Session State server that is provided with ASP.NET.
-
-* Manually configure each Web server to store Session State data on a SQL Server.
+	* Manually configure each Web server to store Session State data on a SQL Server.

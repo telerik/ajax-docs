@@ -10,8 +10,6 @@ position: 0
 
 # OnClientLoad
 
-
-
 The **OnClientLoad** event is raised when the RadCaptcha object is initialized. It can notify the developer that the control is available (e.g. to store a reference to its client-side object for later use).
 
 The event handler receives two arguments:
@@ -20,4 +18,3 @@ The event handler receives two arguments:
 
 1. an empty event arguments object
 
-## 

@@ -10,17 +10,29 @@ position: 0
 
 # Caching Provider
 
-
-
-## 
-
-Since the Q2 2013 SP1 release of Telerik UI for ASP.NET AJAX, the RadCaptcha makes it possible to create a custom caching provider that allows specifying a storagefor the captcha code different than the cache and the session.
+Since the Q2 2013 SP1 release of Telerik UI for ASP.NET AJAX, the RadCaptcha makes it possible to create a custom caching provider that allows specifying a storage for the captcha code different than the cache and the session.
 
 The following example demonstrates how to utilize a MS SQL database for this purpose:
 
-1. In the folder **App_Code** of the web site, a custom class that inherits the abstract class **BaseCaptchaCachingProvider** is created. The code sample below shows the implementation of such class, which uses a database **CachingProviderDatabase** with table **Table_1** that has columns TableKey (type nvarchar) and TableContent (type varbinary):
+1. In the folder **App_Code** of the web site, a custom class that inherits the abstract class **BaseCaptchaCachingProvider** is created. The code sample from **Example 1** shows the implementation of such class, which uses a database **CachingProviderDatabase** with table **Table_1** that has columns TableKey (type nvarchar) and TableContent (type varbinary):
 
+1. The custom caching provider is registered in the **web.config** of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:
 
+````XML
+	<appSettings>
+	  <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="DBImageStorageProvider, App_Code.lfcwuanr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+	</appSettings>
+````
+
+1. Finally, the property **ImageStorageLocation** of RadCaptcha is set to **Custom**:
+
+````ASPNET
+	<telerik:RadCaptcha ID="Captcha1" runat="server" ErrorMessage="The entered code is incorrect" CaptchaMaxTimeout="1"
+	   ImageStorageLocation="Custom">
+	</telerik:RadCaptcha>
+````
+
+>caption **Example 1**: Implementation of custom caching provider (MS SQL database) for RadCaptcha.
 
 ````C#
 	
@@ -130,10 +142,7 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 	
 			return (CaptchaImage)bFormatter.Deserialize(ms);
 		}
-	
-	
-	}
-				
+	}			
 ````
 ````VB
 	
@@ -229,31 +238,6 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 	
 	            Return DirectCast(bFormatter.Deserialize(ms), CaptchaImage)
 	        End Function
-	
-	
 	    End Class
-	
-	
-	
 ````
-
-
-1. The custom caching provider is registered in the **web.config** of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:
-
-````XML
-	<appSettings>
-	  <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="DBImageStorageProvider, App_Code.lfcwuanr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"/>
-	</appSettings>
-````
-
-
-
-1. Finally, the property **ImageStorageLocation** of RadCaptcha is set to **Custom**:
-
-````ASPNET
-	       <telerik:RadCaptcha ID="Captcha1" runat="server" ErrorMessage="The entered code is incorrect" CaptchaMaxTimeout="1"
-	           ImageStorageLocation="Custom">
-	       </telerik:RadCaptcha>
-````
-
 
