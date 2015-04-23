@@ -2,7 +2,7 @@
 url: "http://docs.telerik.com/devtools/aspnet-ajax"
 site_name: AJAX
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb]
+exclude: [README.md,Gemfile,Gemfile.lock,build/*,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp,generate_exlude.rb]
 
 ## The application virtual path
 baseurl: "/devtools/aspnet-ajax"
