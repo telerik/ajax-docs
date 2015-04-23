@@ -1,7 +1,7 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Client-side Programming Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET RadDropDownList Client-side Programming Overview
 slug: dropdownlist/client-side-programming/overview
 tags: overview
 published: True
@@ -20,7 +20,7 @@ position: 0
 
 ````JavaScript
 	
-	            var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
 	
 ````
 
@@ -32,8 +32,8 @@ Once you have the client-side object of RadDropDownList, you can use the **findI
 
 ````JavaScript
 	
-	            var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-	            var item = dropdownlist.findItemByText(text);
+var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+var item = dropdownlist.findItemByText(text);
 	
 ````
 
@@ -45,9 +45,9 @@ Several client side events occur immediately before the RadDropDownList performs
 
 ````JavaScript
 	
-	            function onClientDropDownClosing(sender, eventArgs) {
-	                eventArgs.set_cancel(true);
-	            }
+function onClientDropDownClosing(sender, eventArgs) {
+    eventArgs.set_cancel(true);
+}
 	
 ````
 
@@ -61,10 +61,10 @@ When you get the instance of RadDropDownList object, you can call client-side me
 
 ````JavaScript
 	
-	            function OpenDropDownFunction() {
-	                var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-	                dropdownlist.openDropDown();
-	            }
+function OpenDropDownFunction() {
+    var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+    dropdownlist.openDropDown();
+}
 	
 ````
 
@@ -74,10 +74,10 @@ When you get the instance of RadDropDownList object, you can call client-side me
 
 ````JavaScript
 	
-	            function CloseDropDownFunction() {
-	                var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-	                dropdownlist.closeDropDown();
-	            }
+function CloseDropDownFunction() {
+    var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+    dropdownlist.closeDropDown();
+}
 	
 ````
 
@@ -87,10 +87,10 @@ When you get the instance of RadDropDownList object, you can call client-side me
 
 ````JavaScript
 	
-	            function EnableDropDownList() {
-	                var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
-	                dropdownlist.set_enabled(true);
-	            }
+function EnableDropDownList() {
+    var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");
+    dropdownlist.set_enabled(true);
+}
 	
 ````
 

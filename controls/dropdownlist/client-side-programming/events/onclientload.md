@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The **OnClientLoad**client-side event occurs after the DropDownList has been fully initialized on the client-side.
+The **OnClientLoad** client-side event occurs after the DropDownList has been fully initialized on the client-side.
 
 The event handler receives one parameter:
 
@@ -23,17 +23,17 @@ The event handler receives one parameter:
 This event is helpful if you need to get the client-side instance of the DropDownList when it is embedded in other controls. Hook the **OnClientLoad** event and get the client-side instance of the DropDownList as demonstrated in the example below. This technique can be used to retrieve the DropDownList instance for use elsewhere.
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function OnClientLoadHandler(sender) {
-	                var dropdownlist;
-	                dropdownlist = sender;
-	            }
-	        </script>
-	        <telerik:RadDropDownList
-	            ID="RadDropDownList1"
-	            runat="server"
-	            OnClientLoad="OnClientLoadHandler">
-	        </telerik:RadDropDownList>
+<script type="text/javascript">
+    function OnClientLoadHandler(sender) {
+        var dropdownlist;
+        dropdownlist = sender;
+    }
+</script>
+<telerik:RadDropDownList
+    ID="RadDropDownList1"
+    runat="server"
+    OnClientLoad="OnClientLoadHandler">
+</telerik:RadDropDownList>
 ````
 
 

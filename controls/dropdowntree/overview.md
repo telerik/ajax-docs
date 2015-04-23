@@ -1,7 +1,7 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+page_title: RadDropDownTree Overview | UI for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET RadDropDownTree Overview
 slug: dropdowntree/overview
 tags: overview
 published: True

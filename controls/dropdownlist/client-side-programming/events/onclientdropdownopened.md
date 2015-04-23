@@ -20,21 +20,21 @@ The event handler receives two parameters:
 
 1. The instance of the DropDownList firing the event.
 
-1. An eventArgs parameter which does not have methods.
+2. An eventArgs parameter which does not have methods.
 
 You can use this event to perform any client-side actions when the drop-down is completely opened:
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function OnClientDropDownOpenedHandler(sender, eventArgs) {
-	                alert("The dropdown is opened now");
-	            }
-	        </script>
-	        <telerik:RadDropDownList
-	            ID="RadDropDownList1"
-	            OnClientDropDownOpened="OnClientDropDownOpenedHandler"
-	            runat="server">
-	        </telerik:RadDropDownList>
+<script type="text/javascript">
+    function OnClientDropDownOpenedHandler(sender, eventArgs) {
+        alert("The dropdown is opened now");
+    }
+</script>
+<telerik:RadDropDownList
+    ID="RadDropDownList1"
+    OnClientDropDownOpened="OnClientDropDownOpenedHandler"
+    runat="server">
+</telerik:RadDropDownList>
 ````
 
 
