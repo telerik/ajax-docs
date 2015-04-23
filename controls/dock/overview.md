@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadDock for ASP.NET AJAX Documentation
 description: Overview
 slug: dock/overview
 tags: overview
@@ -8,19 +8,19 @@ published: True
 position: 0
 ---
 
-# Dock Overview
+# RadDock Overview
 
 
 
-## 
 
-The __TelerikDocking controls__ consist of __RadDock__, __RadDockZone__, and __RadDockLayout__. Together, they can be used to create ASP.NET applications that contain movable content regions that can be dragged around the Web page, docked into docking zones, collapsed into a minimized state and expanded to display their content, pinned in place, and so on.Using these controls, you get
 
-* A[client-side API]({%slug dock/client-side-programming/overview%}) that includes the ability to manipulate __RadDock__ controls in the same way the user can move them with the mouse and numerous [client-side events]({%slug dock/client-side-programming/events/overview%}) to respond to user actions.
+The **Telerik Docking controls** consist of **RadDock**, **RadDockZone**, and **RadDockLayout**. Together, they can be used to create ASP.NET applications that contain movable content regions that can be dragged around the Web page, docked into docking zones, collapsed into a minimized state and expanded to display their content, pinned in place, and so on.Using these controls, you get
 
-* The ability to customize the [drag-and-drop behavior]({%slug dock/getting-started/drag-and-drop%}) of individual __RadDock__ controls,including specifying the __DockHandle__ that the user clicks on to start a drag operation and controlling where the user can drop a control.
+* A [client-side API]({%slug dock/client-side-programming/overview%}) that includes the ability to manipulate **RadDock** controls in the same way the user can move them with the mouse and numerous [client-side events]({%slug dock/client-side-programming/events/overview%}) to respond to user actions.
 
-* Support for adding [Commands]({%slug dock/commands/overview%}) to the __RadDock__ title bar and implementing their behavior in a variety of [events]({%slug dock/commands/events-triggered-on-command-execution%}).
+* The ability to customize the [drag-and-drop behavior]({%slug dock/getting-started/drag-and-drop%}) of individual **RadDock** controls,including specifying the **DockHandle** that the user clicks on to start a drag operation and controlling where the user can drop a control.
+
+* Support for adding [Commands]({%slug dock/commands/overview%}) to the **RadDock** title bar and implementing their behavior in a variety of [events]({%slug dock/commands/events-triggered-on-command-execution%}).
 
 * Numerous ways to supply [content]({%slug dock/how-to/adding-content-to-raddock%}) to the RadDock controls.
 
@@ -45,10 +45,9 @@ The __TelerikDocking controls__ consist of __RadDock__, __RadDockZone__, and __R
 * [Compliance to multiple standards]({%slug dock/accessibility-and-internationalization/standards-compliance%}).
 
 * Support for many major browsers, including Internet Explorer 5.5 and above, Netscape 7.1 and above (all operating systems), Mozilla 1.0 and above (all operating systems),and Firefox 1.0 and above (all operating systems.
->caption 
 
-![](images/dock-placeholderblackdefault.png)
+	![](images/dock-placeholderblackdefault.png)
 
 # See Also
 
- * [Overview]({%slug dock/structure/overview%})
+ * [Structure]({%slug dock/structure/overview%})

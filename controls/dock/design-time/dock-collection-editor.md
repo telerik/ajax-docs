@@ -1,6 +1,6 @@
 ---
 title: Dock Collection Editor
-page_title: Dock Collection Editor | UI for ASP.NET AJAX Documentation
+page_title: Dock Collection Editor | RadDock for ASP.NET AJAX Documentation
 description: Dock Collection Editor
 slug: dock/design-time/dock-collection-editor
 tags: dock,collection,editor
@@ -11,39 +11,37 @@ position: 1
 # Dock Collection Editor
 
 
+ 
 
-## 
+There are two ways to add **RadDock** controls to a **RadDockZone** control at design time. You can drag a **RadDock** control directly from the toolbox onto the surface of the **RadDockZone** control or you can add the **RadDock** controls using the **RadDock Collection Editor**. The **RadDock Collection Editor** is also useful for locating **RadDock** controls and setting their properties when the **RadDockZone** control has many child **RadDock** controls.
 
-There are two ways to add __RadDock__ controls to a __RadDockZone__ control at design time. You can drag a __RadDock__ control directly from the toolbox onto the surface of the __RadDockZone__ control or you can add the __RadDock__ controls using the __RadDock Collection Editor__. The __RadDock Collection Editor__ is also useful for locating __RadDock__ controls and setting their properties when the __RadDockZone__ control has many child __RadDock__ controls.
+To display the **RadDock Collection Editor**, click on the ellipsis button for the **Docks** property of the **RadDockZone** control.
 
-To display the __RadDock Collection Editor__, click on the ellipsis button for the __Docks__ property of the __RadDockZone__ control.
+* Click the **Add** button to append a new **RadDock** control to the collection.
 
-* Click the __Add__ button to append a new __RadDock__ control to the collection.
+* Use the up and down arrow buttons to rearrange the **RadDock** controls in the collection. This order determines the order in which **RadDock** controls are docked inside the **RadDockZone**.
 
-* Use the up and down arrow buttons to rearrange the __RadDock__ controls in the collection. This order determines the order in which __RadDock__ controls are docked inside the __RadDockZone__.
+* Select a **RadDock** control and click the **Remove** button to delete it from the list.
 
-* Select a __RadDock__ control and click the __Remove__ button to delete it from the list.
+* Select individual **RadDock** controls to change their properties.
 
-* Select individual __RadDock__ controls to change their properties.
->caption 
+	![](images/raddockcollectioneditor.png)
 
-![](images/raddockcollectioneditor.png)
+Some important properties of the **RadDock** controls in the **Docks** collection are as follows:
 
-Some important properties of the __RadDock__ controls in the __Docks__ collection are as follows:
+* **DockHandle**, **DockMode**, and **ForbiddenZones**: These properties let you specify the desired [drag-and-drop behavior]({%slug dock/getting-started/drag-and-drop%}).
 
-* __DockHandle__, __DockMode__, and __ForbiddenZones__: These properties let you specify the desired [drag-and-drop behavior]({%slug dock/getting-started/drag-and-drop%}).
+* **DefaultCommands** or **Commands** lets you add [commands]({%slug dock/commands/overview%}) to the **RadDock** title bar.
 
-* __DefaultCommands__ or __Commands__ lets you add [commands]({%slug dock/commands/overview%}) to the __RadDock__ title bar.
+* **Text** lets you assign simple text to the **RadDock** control's [content area]({%slug dock/how-to/adding-content-to-raddock%}).
 
-* __Text__ lets you assign simple text to the __RadDock__ control's [content area]({%slug dock/how-to/adding-content-to-raddock%}).
+* **CloseText**, **CollapseText**, **ExpandText**, **PinText**, and **UnpinText** let you [customize the tooltips for built-in commands]({%slug dock/commands/specifying-command-tooltips%}).
 
-* __CloseText__, __CollapseText__, __ExpandText__, __PinText__, and__UnpinText__ let you [customize the tooltips for built-in commands]({%slug dock/commands/specifying-command-tooltips%}).
+* **Skin** lets you set the [skin]({%slug dock/appearance-and-styling/skins%}) to override the default inherited from the parent **RadDockZone**.
 
-* __Skin__ lets you set the [skin]({%slug dock/appearance-and-styling/skins%}) to override the default inherited from the parent __RadDockZone__.
+* **UniqueName** givesthe **RadDock** control a unique name that the **RadDockLayout** component uses for maintaining position information. If this property is not set, **RadDockLayout** uses the **ID** property. It is important to set this property at runtime if the **RadDock** control is embedded in a repeating control, so that each instance has a unique name.
 
-* __UniqueName__ givesthe __RadDock__ control a unique name that the __RadDockLayout__ component uses for maintaining position information. If this property is not set, __RadDockLayout__ uses the __ID__ property. It is important to set this property at runtime if the __RadDock__ control is embedded in a repeating control, so that each instance has a unique name.
-
-* __Tag__ is a string you can use to store your own application-specific information with the __RadDock__ control.
+* **Tag** is a string you can use to store your own application-specific information with the **RadDock** control.
 
 # See Also
 

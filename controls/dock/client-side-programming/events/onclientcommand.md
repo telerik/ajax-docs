@@ -1,6 +1,6 @@
 ---
 title: OnClientCommand
-page_title: OnClientCommand | UI for ASP.NET AJAX Documentation
+page_title: OnClientCommand | RadDock for ASP.NET AJAX Documentation
 description: OnClientCommand
 slug: dock/client-side-programming/events/onclientcommand
 tags: onclientcommand
@@ -12,53 +12,52 @@ position: 2
 
 
 
-## 
 
-The __OnClientCommand__client-side event occurs when the user clicks on a command in the __RadDock__ title bar.
+The **OnClientCommand** client-side event occurs when the user clicks on a command in the **RadDock** title bar.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadDock__ control firing the event.
+1. The instance of the **RadDock** control firing the event.
 
 1. An eventArgs parameter containing the following properties and methods:
 
-* __command__ (property) is the __DockCommand__ client-side object for the command that was clicked.
+* **command** (property) is the **DockCommand** client-side object for the command that was clicked.
 
-* __set_cancel__ lets you prevent the command from raising any additional events.
+* **set_cancel** lets you prevent the command from raising any additional events.
 
-* __get_cancel__ returns a boolean value indicating whether the command was canceled.
+* **get_cancel** returns a boolean value indicating whether the command was canceled.
 
->caution Calling the __set_cancel__ method of the eventArgs parameter does not prevent the default response on built-in command types. It only prevents any subsequent __OnClientCommand__ events and the server-side __Command__ event.
->
-
-
->note You can assign an __OnClientCommand__ event handler to the __OnClientCommand__ property of the __RadDock__ control, or to an individual __Command__ object in the __Commands__ property collection. If you assign two __OnClientCommand__ event handlers, one to the __RadDock__ control and one to the __Command__ object, the event handler assigned to the __Command__ object executes first.
->
+>caution Calling the **set_cancel** method of the eventArgs parameter does not prevent the default response on built-in command types. It only prevents any subsequent **OnClientCommand** events and the server-side **Command** event.
 
 
-The following example uses the __OnClientCommand__event to implement an "Undock" custom command:
 
-````ASPNET
-	    <script type="text/javascript">
-	        function Undock(sender, eventArgs)
-	        {
-	            if (sender.get_dockZoneID() != "")
-	            {
-	                sender.undock();
-	            }
-	        }
-	    </script>
-	    <telerik:raddocklayout id="RadDockLayout1" runat="server">  
-	        <telerik:RadDockZone ID="RadDockZone1" runat="server">     
-	            <telerik:RadDock ID="RadDock1" runat="server">
-	                <Commands>         
-	                    <telerik:DockCommand Name="Undock" OnClientCommand="Undock" />         
-	                    <telerik:DockExpandCollapseCommand />         
-	                    <telerik:DockCloseCommand />       
-	                </Commands>     
-	            </telerik:RadDock>  
-	        </telerik:RadDockZone>
-	    </telerik:raddocklayout>
+>note You can assign an **OnClientCommand** event handler to the **OnClientCommand** property of the **RadDock** control, or to an individual **Command** object in the **Commands** property collection. If you assign two **OnClientCommand** event handlers, one to the **RadDock** control and one to the **Command** object, the event handler assigned to the **Command** object executes first.
+
+
+
+The following example uses the **OnClientCommand** event to implement an "Undock" custom command:
+
+````ASP.NET
+<script type="text/javascript">
+    function Undock(sender, eventArgs)
+    {
+        if (sender.get_dockZoneID() != "")
+        {
+            sender.undock();
+        }
+    }
+</script>
+<telerik:raddocklayout id="RadDockLayout1" runat="server">  
+    <telerik:RadDockZone ID="RadDockZone1" runat="server">     
+        <telerik:RadDock ID="RadDock1" runat="server">
+            <Commands>         
+                <telerik:DockCommand Name="Undock" OnClientCommand="Undock" />         
+                <telerik:DockExpandCollapseCommand />         
+                <telerik:DockCloseCommand />       
+            </Commands>     
+        </telerik:RadDock>  
+    </telerik:RadDockZone>
+</telerik:raddocklayout>
 ````
 
 

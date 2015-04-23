@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadDock for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: dock/appearance-and-styling/css-classes
 tags: css,classes
@@ -17,9 +17,9 @@ The following table lists significant CSS selectors and descriptions for RadDock
 ## Common CSS
 
 
->caption  
 
-|  __Class Name__  |  __Description__  |
+
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadDock|Primary wrapping class of the RadDoc|
 |.RadDock .rdTable|RadDoc wrapping table|
@@ -59,9 +59,9 @@ The following table lists significant CSS selectors and descriptions for RadDock
 ## Skin-Specific CSS
 
 
->caption  
+  
 
-|  __Class Name__  |  __Description__  |
+|  **Class Name**  |  **Description**  |
 | ------ | ------ |
 |.RadDock_SkinName .rdMiddle .rdLeft,.RadDock_SkinName .rdMiddle .rdRight|Middle part left and right background|
 |.RadDock_SkinName .rdTop .rdLeft, .RadDock_SkinName .rdTop .rdRight, .RadDock_SkinName .rdTop .rdCenter, .RadDock_SkinName .rdBottom .rdLeft, .RadDock_SkinName .rdBottom .rdRight, .RadDock_SkinName .rdBottom .rdCenter|Top and bottom background|
