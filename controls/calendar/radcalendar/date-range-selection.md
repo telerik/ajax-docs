@@ -1,6 +1,6 @@
 ---
 title: Date Range Selection
-page_title: Date Range Selection | UI for ASP.NET AJAX Documentation
+page_title: Date Range Selection | RadCalendar for ASP.NET AJAX Documentation
 description: Date Range Selection
 slug: calendar/radcalendar/date-range-selection
 tags: date,range,selection
@@ -14,26 +14,26 @@ position: 8
 
 ## 
 
-The __RadCalendar__ control provides an option to select
+The **RadCalendar** control provides an option to select
 a range of dates in addition to selecting one or multiple different dates.
 To enable the date range selection feature you need to set the
-__RangeSelectionMode__ property to one of the following
+**RangeSelectionMode** property to one of the following
 values:
 
-* __OnKeyHold__ - Allow range selection by pressing __[Shift]__ key and clicking on the date.
+* **OnKeyHold** - Allow range selection by pressing **[Shift]** key and clicking on the date.
 
-* __ConsecutiveClicks__- Allow range selection by clicking consecutively two dates.
+* **ConsecutiveClicks**- Allow range selection by clicking consecutively two dates.
 
-By default the __RangeSelectionMode__ property is set to
-__None__ which does not allow range selection.
+By default the **RangeSelectionMode** property is set to
+**None** which does not allow range selection.
 
 
 
 On the client you could get the Start/End range dates by using
-the __radCalendar.get_rangeSelectionStartDate()__ and
-__radCalendar.get_rangeSelectionEndDate()__ methods. You can set
-them programmatically by using __radCalendar.set_datesInRange(startDate,
-endDate)__ client-side method.
+the **radCalendar.get_rangeSelectionStartDate()** and
+**radCalendar.get_rangeSelectionEndDate()** methods. You can set
+them programmatically by using **radCalendar.set_datesInRange(startDate,
+endDate)** client-side method.
 
 The below sample demonstrates the client-side methods usage:
 
@@ -76,8 +76,8 @@ The below sample demonstrates the client-side methods usage:
 
 
 On the server Start/End dates are available through
-__RadCalendar.RangeSelectionStartDate__ and
-__RadCalendar.RangeSelectionEndDate__ properties.
+**RadCalendar.RangeSelectionStartDate** and
+**RadCalendar.RangeSelectionEndDate** properties.
 
 >note Note that when range selection is done any other date selection will unselect all dates from the range selection
 >

@@ -1,6 +1,6 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | UI for ASP.NET AJAX Documentation
+page_title: ItemCreated | RadCalendar for ASP.NET AJAX Documentation
 description: ItemCreated
 slug: calendar/server-side-programming/server-side-events/itemcreated
 tags: itemcreated
@@ -14,17 +14,17 @@ position: 7
 
 ## 
 
-__RadTimePicker__ and __RadDateTimePicker__
-provide the __ItemCreated__ server event, which occurs when an
+**RadTimePicker** and **RadDateTimePicker**
+provide the **ItemCreated** server event, which occurs when an
 item in the embedded time view control is created. This event occurs both when
 the control is created after a postback, and at the time data is bound to the
 control.
 
-The __ItemCreated__ event handler receives two arguments:
+The **ItemCreated** event handler receives two arguments:
 
 1. The control whose value has just changed. This argument is of type object, but can be cast to the appropriate type.
 
-1. A __TimePickerEventArgs__ object. This object has an __Item__ property, which lets you access the __DataListItem__ for the newly-created item.
+1. A **TimePickerEventArgs** object. This object has an **Item** property, which lets you access the **DataListItem** for the newly-created item.
 
 You can use this event to customize the content or appearance of items in
 the time picker:

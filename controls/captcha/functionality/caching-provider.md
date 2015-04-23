@@ -1,6 +1,6 @@
 ---
 title: Caching Provider
-page_title: Caching Provider | UI for ASP.NET AJAX Documentation
+page_title: Caching Provider | RadCaptcha for ASP.NET AJAX Documentation
 description: Caching Provider
 slug: captcha/functionality/caching-provider
 tags: caching,provider
@@ -18,7 +18,7 @@ Since the Q2 2013 SP1 release of Telerik UI for ASP.NET AJAX, the RadCaptcha mak
 
 The following example demonstrates how to utilize a MS SQL database for this purpose:
 
-1. In the folder __App_Code__ of the web site, a custom class that inherits the abstract class __BaseCaptchaCachingProvider__ is created. The code sample below shows the implementation of such class, which uses a database __CachingProviderDatabase__ with table __Table_1__ that has columns TableKey (type nvarchar) and TableContent (type varbinary):
+1. In the folder **App_Code** of the web site, a custom class that inherits the abstract class **BaseCaptchaCachingProvider** is created. The code sample below shows the implementation of such class, which uses a database **CachingProviderDatabase** with table **Table_1** that has columns TableKey (type nvarchar) and TableContent (type varbinary):
 
 
 
@@ -238,7 +238,7 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 ````
 
 
-1. The custom caching provider is registered in the __web.config__ of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:
+1. The custom caching provider is registered in the **web.config** of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:
 
 ````XML
 	<appSettings>
@@ -248,7 +248,7 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 
 
 
-1. Finally, the property __ImageStorageLocation__ of RadCaptcha is set to __Custom__:
+1. Finally, the property **ImageStorageLocation** of RadCaptcha is set to **Custom**:
 
 ````ASPNET
 	       <telerik:RadCaptcha ID="Captcha1" runat="server" ErrorMessage="The entered code is incorrect" CaptchaMaxTimeout="1"

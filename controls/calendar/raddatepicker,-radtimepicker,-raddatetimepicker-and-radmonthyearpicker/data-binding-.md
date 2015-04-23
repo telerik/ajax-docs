@@ -1,6 +1,6 @@
 ---
 title: Data Binding 
-page_title: Data Binding  | UI for ASP.NET AJAX Documentation
+page_title: Data Binding  | RadCalendar for ASP.NET AJAX Documentation
 description: Data Binding 
 slug: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/data-binding-
 tags: data,binding,
@@ -14,15 +14,15 @@ position: 4
 
 ## 
 
-Binding a __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__ or __RadMonthYearPicker__ control to a data source is easy provided you use the __DbSelectedDate__ property. It works almost like the __SelectedDate__ one, but does not throw an exception when given a null value.
+Binding a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** or **RadMonthYearPicker** control to a data source is easy provided you use the **DbSelectedDate** property. It works almost like the **SelectedDate** one, but does not throw an exception when given a null value.
 
-When embedding __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__and __RadMonthYearPicker__ controls inside a data-bound control, use a data-binding expression to bind the value of the input control to the data source of the parent control. Data-binding expressions are contained within <%# and %> delimiters and use the __Eval__ and __Bind__ functions. The __Eval__ function is used to define one-way (read-only) binding. The __Bind__ function is used for two-way (updatable) binding.
+When embedding **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker**and **RadMonthYearPicker** controls inside a data-bound control, use a data-binding expression to bind the value of the input control to the data source of the parent control. Data-binding expressions are contained within <%# and %> delimiters and use the **Eval** and **Bind** functions. The **Eval** function is used to define one-way (read-only) binding. The **Bind** function is used for two-way (updatable) binding.
 
->note In addition to calling __Eval__ and __Bind__ methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the <%# and %> delimiters to execute that code and return a value during page processing.
+>note In addition to calling **Eval** and **Bind** methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the <%# and %> delimiters to execute that code and return a value during page processing.
 >
 ![Data-binding the picker control](images/calendar_databound.png)
 
-The following example demonstrates how to bind a __RadDatePicker__ control inside a RadGrid, as shown above. The __RadDateTimePicker__, __RadTimePicker__ and __RadMonthYearPicker__ controls work the same way:
+The following example demonstrates how to bind a **RadDatePicker** control inside a RadGrid, as shown above. The **RadDateTimePicker**, **RadTimePicker** and **RadMonthYearPicker** controls work the same way:
 
 ````ASPNET
 	     

@@ -1,6 +1,6 @@
 ---
 title: Client-side Click Event Handler Is Not Executed
-page_title: Client-side Click Event Handler Is Not Executed | UI for ASP.NET AJAX Documentation
+page_title: Client-side Click Event Handler Is Not Executed | RadButton for ASP.NET AJAX Documentation
 description: Client-side Click Event Handler Is Not Executed
 slug: button/troubleshooting/client-side-click-event-handler-is-not-executed
 tags: client-side,click,event,handler,is,not,executed
@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-The __RadButton__, just like the rest of the Telerik controls, only needs the *name* of the JavaScript function that will be a handler for its client-side events.
+The **RadButton**, just like the rest of the Telerik controls, only needs the *name* of the JavaScript function that will be a handler for its client-side events.
 
 Its client-side click events are [OnClientClicking]({%slug button/client-side-programming/events/onclientclicking%}) and	[OnClientClicked]({%slug button/client-side-programming/events/onclientclicked%}) to be uniform with the rest of the controls.
 
-The __AutoPostBack__ property, when set to __false__, hasthe same effect as adding the __return false;__ statement to the	__OnClientClick__ handler for the regular ASP button. Alternatively, youcan cancel the __OnClientClicking__ event to avoid the postback.
+The **AutoPostBack** property, when set to **false**, hasthe same effect as adding the **return false;** statement to the	**OnClientClick** handler for the regular ASP button. Alternatively, youcan cancel the **OnClientClicking** event to avoid the postback.
 
-Below is shown a comparison between ASP button and __RadButton__ client-sideevent handling (__Example 1__ and __Example 2__).
+Below is shown a comparison between ASP button and **RadButton** client-sideevent handling (**Example 1** and **Example 2**).
 
-__Example 1__: Handling client-side click event of ASP Button without performing a postback.
+**Example 1**: Handling client-side click event of ASP Button without performing a postback.
 
 ````ASPNET
 		<script type="text/javascript">
@@ -36,7 +36,7 @@ __Example 1__: Handling client-side click event of ASP Button without performing
 
 
 
-__Example 2__: Handling client-side click event of RaButton without performing a postback.
+**Example 2**: Handling client-side click event of RaButton without performing a postback.
 
 ````ASPNET
 		<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: OnDropDownTemplateNeeded
-page_title: OnDropDownTemplateNeeded | UI for ASP.NET AJAX Documentation
+page_title: OnDropDownTemplateNeeded | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnDropDownTemplateNeeded
 slug: autocompletebox/server-side-programming/events/ondropdowntemplateneeded
 tags: ondropdowntemplateneeded

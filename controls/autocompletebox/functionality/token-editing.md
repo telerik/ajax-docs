@@ -1,6 +1,6 @@
 ---
 title: Token Editing
-page_title: Token Editing | UI for ASP.NET AJAX Documentation
+page_title: Token Editing | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Token Editing
 slug: autocompletebox/functionality/token-editing
 tags: token,editing

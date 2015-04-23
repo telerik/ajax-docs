@@ -1,6 +1,6 @@
 ---
 title: DropDown Position
-page_title: DropDown Position | UI for ASP.NET AJAX Documentation
+page_title: DropDown Position | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: DropDown Position
 slug: autocompletebox/functionality/dropdown-position
 tags: dropdown,position

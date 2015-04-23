@@ -1,6 +1,6 @@
 ---
 title: RTL Support
-page_title: RTL Support | UI for ASP.NET AJAX Documentation
+page_title: RTL Support | RadAsyncUpload for ASP.NET AJAX Documentation
 description: RTL Support
 slug: asyncupload/accessibility-and-internationalization/rtl-support
 tags: rtl,support

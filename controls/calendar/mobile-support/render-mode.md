@@ -1,6 +1,6 @@
 ---
 title: Render Mode
-page_title: Render Mode | UI for ASP.NET AJAX Documentation
+page_title: Render Mode | RadCalendar for ASP.NET AJAX Documentation
 description: Render Mode
 slug: calendar/mobile-support/render-mode
 tags: render,mode
@@ -22,7 +22,7 @@ RadCalendar exposes the "RenderMode" property, which accepts three values - Clas
 
 ## The Classic render mode
 
-RadCalendar is rendered in __Classic__ mode by default.
+RadCalendar is rendered in **Classic** mode by default.
 
 Rendering: (*Metro skin*)
 
@@ -87,9 +87,9 @@ Rendering: (*Metro skin*)
 
 ## The Lightweight render mode
 
-__Lighweight__ rendering yields completely different markup making maximum use of CSS 3 and semantic html. This means that we no longer use table elements for building the layout of RadCalendar. Thus, two table elements are dropped from the rendered mark-up in favor of improved performance and decreased amount of data requested from the client browser. This enhancement favors especially the mobile experience.
+**Lighweight** rendering yields completely different markup making maximum use of CSS 3 and semantic html. This means that we no longer use table elements for building the layout of RadCalendar. Thus, two table elements are dropped from the rendered mark-up in favor of improved performance and decreased amount of data requested from the client browser. This enhancement favors especially the mobile experience.
 
->note Not all controls support __Lightweight__ render mode.
+>note Not all controls support **Lightweight** render mode.
 >
 
 
@@ -129,7 +129,7 @@ Rendering: (*Metro skin*)
 
 ## The Native render mode
 
-The __Native__ render mode option is inherited directly from RenderMode which is a global property for Telerik controls. However, since RadCalendar does not have a similar html element, the __Native__ render mode will not have any effect.
+The **Native** render mode option is inherited directly from RenderMode which is a global property for Telerik controls. However, since RadCalendar does not have a similar html element, the **Native** render mode will not have any effect.
 
 # See Also
 

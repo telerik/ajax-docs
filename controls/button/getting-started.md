@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadButton for ASP.NET AJAX Documentation
 description: Getting Started
 slug: button/getting-started
 tags: getting,started
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The following tutorial demonstrates how to set up a page with a __RadButton__ control and attach its __OnClick__ server event:
+The following tutorial demonstrates how to set up a page with a **RadButton** control and attach its **OnClick** server event:
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application add a __RadButton__ control:
+1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadButton** control:
 
 ````ASPNET
 		
@@ -25,9 +25,9 @@ The following tutorial demonstrates how to set up a page with a __RadButton__ co
 		
 ````
 
-The __Text__ property specifies the text displayed in the __RadButton__ control.
+The **Text** property specifies the text displayed in the **RadButton** control.
 
-1. To hook to the __OnClick__ server-side event of __RadButton__ switch to Design view ofVisual Studio and double click on the button. This operation will insert the following function in the code behind file:
+1. To hook to the **OnClick** server-side event of **RadButton** switch to Design view ofVisual Studio and double click on the button. This operation will insert the following function in the code behind file:
 
 
 
@@ -42,7 +42,7 @@ The __Text__ property specifies the text displayed in the __RadButton__ control.
 ````
 
 
-as well as add OnClick="RadButton1_Click" to the __RadButton__'s declaration.In the Click event handler add the code that you want to be executed when the __RadButton__ control is clicked.
+as well as add OnClick="RadButton1_Click" to the **RadButton**'s declaration.In the Click event handler add the code that you want to be executed when the **RadButton** control is clicked.
 
 # See Also
 

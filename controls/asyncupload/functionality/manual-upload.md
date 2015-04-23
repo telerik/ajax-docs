@@ -1,6 +1,6 @@
 ---
 title: Manual Upload
-page_title: Manual Upload | UI for ASP.NET AJAX Documentation
+page_title: Manual Upload | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Manual Upload
 slug: asyncupload/functionality/manual-upload
 tags: manual,upload

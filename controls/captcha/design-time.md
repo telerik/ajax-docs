@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
+page_title: Design Time | RadCaptcha for ASP.NET AJAX Documentation
 description: Design Time
 slug: captcha/design-time
 tags: design,time
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The Smart Tag of __RadCaptcha__ lets you easily enable the httpHandler for your control or quickly get help. You can display the Smart Tag by right clicking on a __RadCaptcha__ control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
+The Smart Tag of **RadCaptcha** lets you easily enable the httpHandler for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadCaptcha** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
 >caption 
 
 ![captcha-smart-tag](images/captcha-smart-tag.png)
@@ -23,11 +23,11 @@ Enables the RadCaptcha httpHandler. Click OK to close the confirmation dialog fo
 
 ## Ajax Resources
 
-* __Add RadAjaxManager...__ adds a __RadAjaxManager__ component to your Web page, and displays the __r.a.d.ajax Property Builder__ where you can configure it.
+* **Add RadAjaxManager...** adds a **RadAjaxManager** component to your Web page, and displays the **r.a.d.ajax Property Builder** where you can configure it.
 
-* __Replace ScriptManager with RadScriptManager__ replaces the default __ScriptManager__ component that is added for AJAX-enabled Web sites with __RadScriptManager__.
+* **Replace ScriptManager with RadScriptManager** replaces the default **ScriptManager** component that is added for AJAX-enabled Web sites with **RadScriptManager**.
 
-* Add __RadStyleSheetManager__ adds a __RadStyleSheetManager__ to your Web page.
+* Add **RadStyleSheetManager** adds a **RadStyleSheetManager** to your Web page.
 
 ## Learning Center
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientFileSelected
-page_title: OnClientFileSelected | UI for ASP.NET AJAX Documentation
+page_title: OnClientFileSelected | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnClientFileSelected
 slug: asyncupload/client-side-programming/onclientfileselected
 tags: onclientfileselected

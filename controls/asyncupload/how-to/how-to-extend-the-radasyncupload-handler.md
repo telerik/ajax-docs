@@ -1,6 +1,6 @@
 ---
 title: How to Extend the RadAsyncUpload handler
-page_title: How to Extend the RadAsyncUpload handler | UI for ASP.NET AJAX Documentation
+page_title: How to Extend the RadAsyncUpload handler | RadAsyncUpload for ASP.NET AJAX Documentation
 description: How to Extend the RadAsyncUpload handler
 slug: asyncupload/how-to/how-to-extend-the-radasyncupload-handler
 tags: how,to,extend,the,radasyncupload,handler

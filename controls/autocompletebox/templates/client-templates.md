@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Client Templates
 slug: autocompletebox/templates/client-templates
 tags: client,templates

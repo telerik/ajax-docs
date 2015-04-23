@@ -1,6 +1,6 @@
 ---
 title: OnClientTextChanged
-page_title: OnClientTextChanged | UI for ASP.NET AJAX Documentation
+page_title: OnClientTextChanged | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnClientTextChanged
 slug: autocompletebox/client-side-programming/events/onclienttextchanged
 tags: onclienttextchanged

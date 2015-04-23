@@ -1,6 +1,6 @@
 ---
 title: OnClientTimeSelected
-page_title: OnClientTimeSelected | UI for ASP.NET AJAX Documentation
+page_title: OnClientTimeSelected | RadCalendar for ASP.NET AJAX Documentation
 description: OnClientTimeSelected
 slug: calendar/client-side-programming/events/onclienttimeselected
 tags: onclienttimeselected
@@ -14,9 +14,9 @@ position: 15
 
 ## 
 
-The __OnClientTimeSelected__client-side event handler is called when the user selects a time cell in the time view control.
+The **OnClientTimeSelected**client-side event handler is called when the user selects a time cell in the time view control.
 
->note The __OnClientTimeSelected__ event is supported by: __RadTimeView__ .
+>note The **OnClientTimeSelected** event is supported by: **RadTimeView** .
 >
 
 
@@ -29,10 +29,10 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_oldTime()__ |Date object||Returns the time before the user selected a new time value.|
-| __get_newTime()__ |Date object||Returns the newly selected time value.|
+| **get_oldTime()** |Date object||Returns the time before the user selected a new time value.|
+| **get_newTime()** |Date object||Returns the newly selected time value.|
 
-The following example uses the __OnClientTimeSelected__event to raise an alert:
+The following example uses the **OnClientTimeSelected**event to raise an alert:
 
 ````ASPNET
 	<script type="text/javascript">

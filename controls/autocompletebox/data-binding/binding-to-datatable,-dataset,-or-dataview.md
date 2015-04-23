@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable, DataSet, or DataView
-page_title: Binding to DataTable, DataSet, or DataView | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable, DataSet, or DataView | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Binding to DataTable, DataSet, or DataView
 slug: autocompletebox/data-binding/binding-to-datatable,-dataset,-or-dataview
 tags: binding,to,datatable,,dataset,,or,dataview

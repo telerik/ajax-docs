@@ -1,6 +1,6 @@
 ---
 title: Styles
-page_title: Styles | UI for ASP.NET AJAX Documentation
+page_title: Styles | RadCalendar for ASP.NET AJAX Documentation
 description: Styles
 slug: calendar/appearance-and-styling/styles
 tags: styles
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __RadCalendar__ controls come with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the __[Skin]({%slug calendar/appearance-and-styling/skins%})__ property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
+The **RadCalendar** controls come with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the **[Skin]({%slug calendar/appearance-and-styling/skins%})** property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
 
 Setting these properties will copy any non-blank elements of the specified style to the specific element of the rendered control, overwriting any existing style elements defined by the used skin.
 
@@ -22,7 +22,7 @@ Setting these properties will copy any non-blank elements of the specified style
 
 ## RadCalendar styles
 
-The following table lists the styles that you can assign to a stand-alone __RadCalendar__ control or the embedded __RadCalendar__ control that acts as a popup to __RadDatePicker__ and __RadDateTimePicker__:
+The following table lists the styles that you can assign to a stand-alone **RadCalendar** control or the embedded **RadCalendar** control that acts as a popup to **RadDatePicker** and **RadDateTimePicker**:
 
 
 | Property | Default CSS Class | Description |
@@ -39,13 +39,13 @@ The following table lists the styles that you can assign to a stand-alone __RadC
 |TitleStyle||The style of the Calendar title.|
 |FastNavigationStyle|RadCalendarMonthView_[skin name]|The style applied to the Month/Year fast navigation popup.|
 
->note In addition to the style properties listed above, if the calendar has any[special days]({%slug calendar/design-time/radcalendarday-collection-editor%})defined, you can set their __ItemStyle__ property to customize the appearance of the special day.
+>note In addition to the style properties listed above, if the calendar has any[special days]({%slug calendar/design-time/radcalendarday-collection-editor%})defined, you can set their **ItemStyle** property to customize the appearance of the special day.
 >
 
 
 ## RadTimeView Styles
 
-The following table lists the styles that you can assign to the embedded __RadTimeView__ control that acts as a popup to __RadTimePicker__ and __RadDateTimePicker__:
+The following table lists the styles that you can assign to the embedded **RadTimeView** control that acts as a popup to **RadTimePicker** and **RadDateTimePicker**:
 
 
 | Property | Default CSS Class | Description |
@@ -58,7 +58,7 @@ The following table lists the styles that you can assign to the embedded __RadTi
 
 ## RadInput Styles
 
-The following table lists the styles that you can assign to the embedded __RadInput__ control of __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__:
+The following table lists the styles that you can assign to the embedded **RadInput** control of **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker**:
 
 
 | Property | Default CSS class | Description |
@@ -70,7 +70,7 @@ The following table lists the styles that you can assign to the embedded __RadIn
 |HoveredStyle|riHover|The style when the mouse hovers over the input control.|
 |InvalidStyle|riError|The style when the value of the input control is invalid.|
 
->note The CSS class definitions for the embedded __RadInput__ control are found in the Input CSS skin file rather than the Calendar CSS file.
+>note The CSS class definitions for the embedded **RadInput** control are found in the Input CSS skin file rather than the Calendar CSS file.
 >
 
 

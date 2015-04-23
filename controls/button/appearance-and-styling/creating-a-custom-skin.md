@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Creating a Custom Skin | RadButton for ASP.NET AJAX Documentation
 description: Creating a Custom Skin
 slug: button/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin
@@ -16,28 +16,28 @@ position: 2
 
 Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled by two CSS files that are loaded in a certain order.The first one - ControlName.css, also called the base stylesheet contains CSS properties and values that are common forall skins, i.e. it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc.In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skinneeds different sizes, paddings or margins.The second file represents the actual skin of the control, and its nameconsists of the control name plus the skin name, i.e. Button.Default.css. Upon creating a custom skin for the control,one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
-____
+****
 
 ## Creating a Custom Skin for RadButton for ASP.NET AJAX from an Existing One
 
-1. In your project, create a new directory named __Skins__
+1. In your project, create a new directory named **Skins**
 
-2. In the __Skins__ folder create a new directory __MyCustomSkin__.
+2. In the **Skins** folder create a new directory **MyCustomSkin**.
 
-3. Go to __~/[TelerikControlsInstallationFolder]/Skins/Default__ and copy __Button.Default.css__and the __Skins/Default/Common__folder in your __Skins__folder.
+3. Go to **~/[TelerikControlsInstallationFolder]/Skins/Default** and copy **Button.Default.css**and the **Skins/Default/Common**folder in your **Skins**folder.
 
-4. Rename __Button.Default.css__to __Button.MyCustomSkin.css__and the folder __Default__to __MyCustomSkin__.
+4. Rename **Button.Default.css**to **Button.MyCustomSkin.css**and the folder **Default**to **MyCustomSkin**.
 
-5. When you are finished you should have __Skins/MyCustomSkin/Button.MyCustomSkin.css__and __Skins/MyCustomSkin/Common__. The last folder contains the images for __MyCustomSkin__.
+5. When you are finished you should have **Skins/MyCustomSkin/Button.MyCustomSkin.css**and **Skins/MyCustomSkin/Common**. The last folder contains the images for **MyCustomSkin**.
 
-6. In order to support multiple skins of __RadButton__on a single page, the wrapping skin-specific class is coined by the name of the control, RadButton plus underscore ("_") plus SkinName, i.e. .RadButton_Default, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "Default" in Button.MyCustomSkin.css to "MyCustomSkin" as shown below:
+6. In order to support multiple skins of **RadButton**on a single page, the wrapping skin-specific class is coined by the name of the control, RadButton plus underscore ("_") plus SkinName, i.e. .RadButton_Default, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "Default" in Button.MyCustomSkin.css to "MyCustomSkin" as shown below:
 >caption 
 
 ![](images/button-new_renaming.png)
 
 
 
-7. Add a new server declaration of RadButton on your page, and set __Skin="MyCustomSkin"__ and __EnableEmbeddedSkins=”false”__:
+7. Add a new server declaration of RadButton on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins=”false”**:
 
 ````ASPNET
 	     
@@ -73,17 +73,17 @@ Make sure the path to the files is correct, otherwise the skin will not apply.
 
 ## Modifying the Image Sprites to Achieve Totally New Looks for the Skin
 
-Each skin of __RadButton__ consists of two image sprites that are contained in the __Skins/SkinName/Common__ folder. These are:
+Each skin of **RadButton** consists of two image sprites that are contained in the **Skins/SkinName/Common** folder. These are:
 
-1. __radFormSprite.png__ contains horizontal and vertical buttons and split border and arrows also.
+1. **radFormSprite.png** contains horizontal and vertical buttons and split border and arrows also.
 
-2. __radFormToggleSprite.png__ contains check boxes and radio buttons images.
+2. **radFormToggleSprite.png** contains check boxes and radio buttons images.
 
 
 
 Explained below is a simple method for modifying the image sprites of RadButton with Adobe© PhotoShop to achieve new looks without creating a new design.
 
-1. Drag __radFormToggleSprite.png__ and __radFormSprite.png__ in Adobe© PhotoShop.
+1. Drag **radFormToggleSprite.png** and **radFormSprite.png** in Adobe© PhotoShop.
 
 2. From the menu bar select Image » Mode » RGB Color to prepare the images for editing (convert from optimized Indexed Color to RGB Color):
 >caption 

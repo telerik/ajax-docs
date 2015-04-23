@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom LightWeight Skin
-page_title: Creating a Custom LightWeight Skin | UI for ASP.NET AJAX Documentation
+page_title: Creating a Custom LightWeight Skin | RadButton for ASP.NET AJAX Documentation
 description: Creating a Custom LightWeight Skin
 slug: button/appearance-and-styling/creating-a-custom-lightweight-skin
 tags: creating,a,custom,lightweight,skin
@@ -14,35 +14,35 @@ position: 3
 
 ## RadButton Custom Skin with LightWeight RenderMode
 
-Each of the controls included in the __Telerik UI for ASP.NET AJAX__ suite is styled with two CSS files that are loaded in acertain order. The first one – __[ControlName].css__ , also called base stylesheet, contains CSS properties and values that are commonfor all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating	a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, padding and / or margins.
+Each of the controls included in the **Telerik UI for ASP.NET AJAX** suite is styled with two CSS files that are loaded in acertain order. The first one – **[ControlName].css** , also called base stylesheet, contains CSS properties and values that are commonfor all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating	a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, padding and / or margins.
 
-The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, e.g. - __Button.Default.css__.Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors,borders and backgrounds.
+The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, e.g. - **Button.Default.css**.Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors,borders and backgrounds.
 
-As of __Q1 2015__ RadButton has a [LightWeight render mode]({%slug button/mobile-support/render-modes%}), which uses semantically structured HTML and CSS3 for shadows, rounded corners and gradients.Overall, the skinning method is the same as for the Classic mode. The difference is that now there is one common sprite for all Light-Weighted controls called__radActionsSprite.png__. The sprite is placed in the __[SkinName]\Common__ folder, e.g.:__[ControlsInstallationFolder]\Skins\Default\Common\radActionsSprite.png__
+As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile-support/render-modes%}), which uses semantically structured HTML and CSS3 for shadows, rounded corners and gradients.Overall, the skinning method is the same as for the Classic mode. The difference is that now there is one common sprite for all Light-Weighted controls called**radActionsSprite.png**. The sprite is placed in the **[SkinName]\Common** folder, e.g.:**[ControlsInstallationFolder]\Skins\Default\Common\radActionsSprite.png**
 
 ## Creating RadButton LightWeight Skin from Existing One
 
-1. In your project, create a new directory named __Skins__;
+1. In your project, create a new directory named **Skins**;
 
-1. In the __Skins__ folder if you already have some custom skin, most probably you have already a folder named: __MyCustomSkin__ – if you don’t – create one;
+1. In the **Skins** folder if you already have some custom skin, most probably you have already a folder named: **MyCustomSkin** – if you don’t – create one;
 
-1. In the __Skins__ folder create a new folder named: __MyCustomSkinLite__ - this is the place where your Light-Weight custom skins CSS will be placed;
+1. In the **Skins** folder create a new folder named: **MyCustomSkinLite** - this is the place where your Light-Weight custom skins CSS will be placed;
 
-1. Go to __[ControlsInstallationFolder]\Skins\DefaultLite__ and copy __Button.Default.css__ in your __MyCustomSkinLite__ folder;
+1. Go to **[ControlsInstallationFolder]\Skins\DefaultLite** and copy **Button.Default.css** in your **MyCustomSkinLite** folder;
 
-1. Go to __[TelerikControlsInstallationFolder]\Skins\Default__ and copy __Common__ folder in your __MyCustomSkin__ folder;
+1. Go to **[TelerikControlsInstallationFolder]\Skins\Default** and copy **Common** folder in your **MyCustomSkin** folder;
 
-1. Rename __Button.Default.css__ to __Button.MyCustomSkin.css__;
+1. Rename **Button.Default.css** to **Button.MyCustomSkin.css**;
 
 1. When you are finished you should have the following folder structure in your project:
 
-* __Skins/MyCustomSkin/Common/__ - containing several sprites;
+* **Skins/MyCustomSkin/Common/** - containing several sprites;
 
-* __Skins/MyCustomSkinLite/Button.MyCustomSkin.css__.
+* **Skins/MyCustomSkinLite/Button.MyCustomSkin.css**.
 
-1. In order to support multiple skins of __RadButton__ on a single page, the wrapping skin-specific class is coined by the name of thecontrol, plus underscore ("_") plus SkinName, i.e. __.RadButton_Default__, so in order to create a custom skin out of the Default skin, we should renameall occurrences of __"RadButton_Default"__ in __Button.MyCustomSkin.css__ to __"RadButton_MyCustomSkin"__ as shown below:![Rename Button Light](images/RenameButtonLight.png)
+1. In order to support multiple skins of **RadButton** on a single page, the wrapping skin-specific class is coined by the name of thecontrol, plus underscore ("_") plus SkinName, i.e. **.RadButton_Default**, so in order to create a custom skin out of the Default skin, we should renameall occurrences of **"RadButton_Default"** in **Button.MyCustomSkin.css** to **"RadButton_MyCustomSkin"** as shown below:![Rename Button Light](images/RenameButtonLight.png)
 
-1. Add a new server declaration of __RadButton__ on your page, and set __Skin="MyCustomSkin"__and __EnableEmbeddedSkins="false"__:
+1. Add a new server declaration of **RadButton** on your page, and set **Skin="MyCustomSkin"**and **EnableEmbeddedSkins="false"**:
 
 ````ASPNET
 			<telerik:RadButton ID="RadButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
@@ -50,7 +50,7 @@ As of __Q1 2015__ RadButton has a [LightWeight render mode]({%slug button/mobile
 
 
 
-1. Register __Button.MyCustomSkin.css__ in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
+1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
 ````ASPNET
 			<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
@@ -60,9 +60,9 @@ As of __Q1 2015__ RadButton has a [LightWeight render mode]({%slug button/mobile
 
 1. Make sure the path to the files is correct; otherwise the skin will not apply;
 
-1. To complete the customization, you will need to change the common sprite color according to your needs.Open __[ControlsInstallationFolder]\Skins\Default\radActionsSprite.png__ and edit it as required.
+1. To complete the customization, you will need to change the common sprite color according to your needs.Open **[ControlsInstallationFolder]\Skins\Default\radActionsSprite.png** and edit it as required.
 
-1. Reload the page, and if the steps 1-12 have been followed correctly, you will see __RadButton__ running a custom Default skin set as an external resource.
+1. Reload the page, and if the steps 1-12 have been followed correctly, you will see **RadButton** running a custom Default skin set as an external resource.
 
 ## RadButton LightWeight Custom Skin Example
 

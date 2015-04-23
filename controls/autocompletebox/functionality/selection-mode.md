@@ -1,6 +1,6 @@
 ---
 title: Selection Mode
-page_title: Selection Mode | UI for ASP.NET AJAX Documentation
+page_title: Selection Mode | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Selection Mode
 slug: autocompletebox/functionality/selection-mode
 tags: selection,mode

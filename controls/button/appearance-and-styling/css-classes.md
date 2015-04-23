@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadButton for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: button/appearance-and-styling/css-classes
 tags: css,classes

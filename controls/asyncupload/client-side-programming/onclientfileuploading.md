@@ -1,6 +1,6 @@
 ---
 title: OnClientFileUploading
-page_title: OnClientFileUploading | UI for ASP.NET AJAX Documentation
+page_title: OnClientFileUploading | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnClientFileUploading
 slug: asyncupload/client-side-programming/onclientfileuploading
 tags: onclientfileuploading

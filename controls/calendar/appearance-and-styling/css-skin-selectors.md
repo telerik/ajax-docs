@@ -1,6 +1,6 @@
 ---
 title: CSS Skin Selectors
-page_title: CSS Skin Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin Selectors | RadCalendar for ASP.NET AJAX Documentation
 description: CSS Skin Selectors
 slug: calendar/appearance-and-styling/css-skin-selectors
 tags: css,skin,selectors
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The following table lists significant CSS selectors and descriptions that apply to the __RadCalendar__ controls in RadCalendar style sheets.
+The following table lists significant CSS selectors and descriptions that apply to the **RadCalendar** controls in RadCalendar style sheets.
 
 >note The "[skin]" that appears in class names is a placeholder for the name of the skin.
 >
@@ -23,7 +23,7 @@ The following table lists significant CSS selectors and descriptions that apply 
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |
-|.RadCalendar_[skin]|TABLE|The class for the table that lays out the entire __RadCalendar__ control.|
+|.RadCalendar_[skin]|TABLE|The class for the table that lays out the entire **RadCalendar** control.|
 |.rcTitlebar|TD|The class for the table cell that contains the titlebar of a calendar.|
 |.rcTitle|TD|The class for the titlebar table cell that contains the current month/year.|
 |.rcFastPrev, .rcPrev, .rcNext, .rcFastNext|A|The class for the navigation buttons inside the titlebar.|
@@ -54,19 +54,19 @@ The following table lists significant CSS selectors and descriptions that apply 
 |#rcMView_Dec|A|The class for the December selector in the month/year navigation popup|
 |.rcSelected|TD|The class for the selected month or year in the month/year navigation popup.|
 |.rcButtons|TABLE|The class for the cells at the bottom of the month/year navigation popup that contain the "Today", "Ok", and "Cancel" buttons.|
-|.RadCalendarTimeView_[skin]|TABLE|The class for the table that lays out the elements of a __RadTimeView__ control.|
-|.rcHeader|TH|The class for the header of a __RadTimeView__ control|
-|.rcFooter|TD|The class for the footer of a __RadTimeView__ control|
-|.rcHover|TD|The class for a selectable time value when the mouse hovers over it in a __RadTimeView__ control.|
-|.rcDisabled|TD|The class for a disabled time value in a __RadTimeView__ control.|
-|.RadPicker_[skin]|DIV|The class for the top-level element of a __RadDatePicker__ , __RadTimePicker__ , or __RadDateTimePicker__ control.|
-|.RadInput_[skin]|SPAN|The class for the input area in a __RadDatePicker__ , __RadTimePicker__ , or __RadDateTimePicker__ control.
+|.RadCalendarTimeView_[skin]|TABLE|The class for the table that lays out the elements of a **RadTimeView** control.|
+|.rcHeader|TH|The class for the header of a **RadTimeView** control|
+|.rcFooter|TD|The class for the footer of a **RadTimeView** control|
+|.rcHover|TD|The class for a selectable time value when the mouse hovers over it in a **RadTimeView** control.|
+|.rcDisabled|TD|The class for a disabled time value in a **RadTimeView** control.|
+|.RadPicker_[skin]|DIV|The class for the top-level element of a **RadDatePicker** , **RadTimePicker** , or **RadDateTimePicker** control.|
+|.RadInput_[skin]|SPAN|The class for the input area in a **RadDatePicker** , **RadTimePicker** , or **RadDateTimePicker** control.
 
->note This class is defined in the __RadInput__ skin CSS files, but can appear, qualified by the .RadPicker_[skin] class in the Calendar skin CSS files.
+>note This class is defined in the **RadInput** skin CSS files, but can appear, qualified by the .RadPicker_[skin] class in the Calendar skin CSS files.
 >
 |
-|.rcCalPopup|A|The class for the __DatePopupButton__ in a __RadDatePicker__ or __RadDateTimePicker__ control.|
-|.rcTimePopup|A|The class for the __TimePopupButton__ in a __RadTimePicker__ or __RadDateTimePicker__ control.|
+|.rcCalPopup|A|The class for the **DatePopupButton** in a **RadDatePicker** or **RadDateTimePicker** control.|
+|.rcTimePopup|A|The class for the **TimePopupButton** in a **RadTimePicker** or **RadDateTimePicker** control.|
 
 # See Also
 

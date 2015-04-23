@@ -1,6 +1,6 @@
 ---
 title: Binding to WCF service
-page_title: Binding to WCF service | UI for ASP.NET AJAX Documentation
+page_title: Binding to WCF service | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Binding to WCF service
 slug: autocompletebox/data-binding/binding-to-wcf-service
 tags: binding,to,wcf,service

@@ -1,6 +1,6 @@
 ---
 title: OnViewChanged
-page_title: OnViewChanged | UI for ASP.NET AJAX Documentation
+page_title: OnViewChanged | RadCalendar for ASP.NET AJAX Documentation
 description: OnViewChanged
 slug: calendar/client-side-programming/events/onviewchanged
 tags: onviewchanged
@@ -14,9 +14,9 @@ position: 16
 
 ## 
 
-The __OnViewChanged__ client-side event handler is called when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.
+The **OnViewChanged** client-side event handler is called when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.
 
->note The __OnViewChanged__ event is supported by: __RadMonthYearPicker__ .
+>note The **OnViewChanged** event is supported by: **RadMonthYearPicker** .
 >
 
 
@@ -29,7 +29,7 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_pickerControl()__ |[RadMonthYearPicker object]({%slug calendar/client-side-programming/radmonthyearpicker-object%})||Returns the RadMonthYearPicker object.|
+| **get_pickerControl()** |[RadMonthYearPicker object]({%slug calendar/client-side-programming/radmonthyearpicker-object%})||Returns the RadMonthYearPicker object.|
 
 # See Also
 

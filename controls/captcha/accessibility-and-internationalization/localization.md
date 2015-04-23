@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadCaptcha for ASP.NET AJAX Documentation
 description: Localization
 slug: captcha/accessibility-and-internationalization/localization
 tags: localization
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-The __RadCaptcha__ provides a mechanism for quick and easy localization based on the native ASP.NET localization. The ErrorMessage, the Label telling the user to enter the code and the button labels are obtained from the resource files located in the App_LocalReources directory, so that the language of the __RadCaptcha__ is automatically switched to the culture and UI culture of the Web page.
+The **RadCaptcha** provides a mechanism for quick and easy localization based on the native ASP.NET localization. The ErrorMessage, the Label telling the user to enter the code and the button labels are obtained from the resource files located in the App_LocalReources directory, so that the language of the **RadCaptcha** is automatically switched to the culture and UI culture of the Web page.
 
->note You can inspect these files by navigating to your Telerik UI for ASP.NET AJAX installation folder, then under __Live Demos__ locate the __Captcha\Examples\Localization__ directory as it also contains example audio codes.
+>note You can inspect these files by navigating to your Telerik UI for ASP.NET AJAX installation folder, then under **Live Demos** locate the **Captcha\Examples\Localization** directory as it also contains example audio codes.
 >
 
 
-Each of the localization strings can also be modified at runtime using the respective server-side properties: __ErrorMessage, CaptchaTextBoxLabel, CaptchaAudioLinkButtonText, and CaptchaLinkButtonText__. This eliminates the need to create a new localization file to change a single string. For example:
+Each of the localization strings can also be modified at runtime using the respective server-side properties: **ErrorMessage, CaptchaTextBoxLabel, CaptchaAudioLinkButtonText, and CaptchaLinkButtonText**. This eliminates the need to create a new localization file to change a single string. For example:
 
 
 

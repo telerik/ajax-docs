@@ -1,6 +1,6 @@
 ---
 title: OnCalendarViewChanged
-page_title: OnCalendarViewChanged | UI for ASP.NET AJAX Documentation
+page_title: OnCalendarViewChanged | RadCalendar for ASP.NET AJAX Documentation
 description: OnCalendarViewChanged
 slug: calendar/client-side-programming/events/oncalendarviewchanged
 tags: oncalendarviewchanged
@@ -14,9 +14,9 @@ position: 8
 
 ## 
 
-The __OnCalendarViewChanged__ client-side event handler is called when the calendar navigates to a new view, after the calendar has been updated for the new view, but before it is rendered.
+The **OnCalendarViewChanged** client-side event handler is called when the calendar navigates to a new view, after the calendar has been updated for the new view, but before it is rendered.
 
->note The __OnCalendarViewChanged__ event is supported by: __RadCalendar__ .
+>note The **OnCalendarViewChanged** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,9 +29,9 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_step()__ |int||Returns the number of views by which the calendar has changed.|
+| **get_step()** |int||Returns the number of views by which the calendar has changed.|
 
-The following example uses the __OnCalendarViewChanged__ event to display an alert:
+The following example uses the **OnCalendarViewChanged** event to display an alert:
 
 ````JavaScript
 	<script type="text/javascript">

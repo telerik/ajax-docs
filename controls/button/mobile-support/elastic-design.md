@@ -1,6 +1,6 @@
 ---
 title: Elastic Design
-page_title: Elastic Design | UI for ASP.NET AJAX Documentation
+page_title: Elastic Design | RadButton for ASP.NET AJAX Documentation
 description: Elastic Design
 slug: button/mobile-support/elastic-design
 tags: elastic,design
@@ -12,18 +12,18 @@ position: 1
 
 
 
-This article explains the __elastic design capabilities RadButton offers__.The examples below show the basic approaches you can use to scale the control by only changing its default font size.
+This article explains the **elastic design capabilities RadButton offers**.The examples below show the basic approaches you can use to scale the control by only changing its default font size.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
 
 ## Elastic Design with Lightweight Render Mode
 
-The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is available since __Q1 2015__.
+The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is available since **Q1 2015**.
 >caption Figure 1: Comparison between appearance of a RadButton with Lightweight render mode with regular font size and with increased font size
 
 ![button-elastic-design-lightweight](images/button-elastic-design-lightweight.png)
 
-__Example 1__: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 1.
+**Example 1**: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 1.
 
 ````ASPNET
 			<style type="text/css">
@@ -61,9 +61,9 @@ __Example 1__: Shows how to increase the font size of a RadButton with Lightweig
 
 ![button-changed-font-size-comparison](images/button-changed-font-size-comparison.png)
 
-__RadButton__ with Classic render mode provides two [Button Types]({%slug button/button-types/overview%}) that are built semantically, using CSS for defining rounded corners, shadows and gradients.They are __LinkButton__ and __SkinnedButton__.In the example below you will find a basic approach that enables you to resize and scale these buttons only by changing the default font size.
+**RadButton** with Classic render mode provides two [Button Types]({%slug button/button-types/overview%}) that are built semantically, using CSS for defining rounded corners, shadows and gradients.They are **LinkButton** and **SkinnedButton**.In the example below you will find a basic approach that enables you to resize and scale these buttons only by changing the default font size.
 
-__Example 2__: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 2.
+**Example 2**: Shows how to increase the font size of a RadButton with Lightweight render mode as shown in Figure 2.
 
 ````ASPNET
 			<style type="text/css">
@@ -82,7 +82,7 @@ __Example 2__: Shows how to increase the font size of a RadButton with Lightweig
 
 ## 
 
-__RadButton__ does not create elastic design by itself, but can fit in a page that follows this pattern.	This elastic layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
+**RadButton** does not create elastic design by itself, but can fit in a page that follows this pattern.	This elastic layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
 Elements that use images or images sprites, however, cannot be increased in size, so if you are using any icons they will keep having their original dimensions and position.The horizontal aligning of the icons also has to be handled manually.
 

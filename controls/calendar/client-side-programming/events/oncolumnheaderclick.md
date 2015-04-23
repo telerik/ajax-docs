@@ -1,6 +1,6 @@
 ---
 title: OnColumnHeaderClick
-page_title: OnColumnHeaderClick | UI for ASP.NET AJAX Documentation
+page_title: OnColumnHeaderClick | RadCalendar for ASP.NET AJAX Documentation
 description: OnColumnHeaderClick
 slug: calendar/client-side-programming/events/oncolumnheaderclick
 tags: oncolumnheaderclick
@@ -14,9 +14,9 @@ position: 9
 
 ## 
 
-The __OnColumnHeaderClick__ client-side event handler is called when the user is about to select a column of dates by clicking on a column header. The event occurs only if the __ShowColumnHeaders__ and __UseColumnHeadersAsSelectors__ properties are set to __true__.
+The **OnColumnHeaderClick** client-side event handler is called when the user is about to select a column of dates by clicking on a column header. The event occurs only if the **ShowColumnHeaders** and **UseColumnHeadersAsSelectors** properties are set to **true**.
 
->note The __OnColumnHeaderClick__ event is supported by: __RadCalendar__ .
+>note The **OnColumnHeaderClick** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_index()__ |int||Returns the 1-based index of the column that was clicked.|
-| __get_domElement()__ |HTML element||Returns the DOM element for the column header that was clicked.|
-| __set_cancel(value)__ ||bool|Lets you prevent the click from selecting the column of dates.|
+| **get_index()** |int||Returns the 1-based index of the column that was clicked.|
+| **get_domElement()** |HTML element||Returns the DOM element for the column header that was clicked.|
+| **set_cancel(value)** ||bool|Lets you prevent the click from selecting the column of dates.|
 
-The following example uses the __OnColumnHeaderClick__ event to confirm the selection:
+The following example uses the **OnColumnHeaderClick** event to confirm the selection:
 
 ````ASPNET
 	<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Finding Controls inside RadTimeView Templates
-page_title: Finding Controls inside RadTimeView Templates | UI for ASP.NET AJAX Documentation
+page_title: Finding Controls inside RadTimeView Templates | RadCalendar for ASP.NET AJAX Documentation
 description: Finding Controls inside RadTimeView Templates
 slug: calendar/templates/finding-controls-inside-radtimeview-templates
 tags: finding,controls,inside,radtimeview,templates
@@ -15,27 +15,27 @@ position: 3
 Sometimes it is necessary to locate a control contained inside a template.
 If the control is given an ID in the template, it can be retrieved from its
 container (the first control in the parent hierarchy that supports
-__INamingContainer__). Simply call the
-__FindControl__ method of the container object to obtain a
+**INamingContainer**). Simply call the
+**FindControl** method of the container object to obtain a
 reference to the control in the template.
 
 The most difficult case is locating a control inside the
-__TimeTemplate__ or __AlternatingTimeTemplate__ of a
-__RadTimeView__ control. This is difficult because there are
+**TimeTemplate** or **AlternatingTimeTemplate** of a
+**RadTimeView** control. This is difficult because there are
 several controls with the same ID. However, each is contained logically in the
-namespace of the __DataListItem__ control that is its container.
-You can access the container by using the __DataList__ property of
-the __RadTimeView__ control. You can then go through the data
-list's Items collection to retrieve the __DataListItem__ for a
-given index. Once you have found the __DataListItem__ of interest,
-call its __FindControl__ method to retrieve a reference to the
+namespace of the **DataListItem** control that is its container.
+You can access the container by using the **DataList** property of
+the **RadTimeView** control. You can then go through the data
+list's Items collection to retrieve the **DataListItem** for a
+given index. Once you have found the **DataListItem** of interest,
+call its **FindControl** method to retrieve a reference to the
 control in the template.
 
 ## Example
 
-The following definitions declare a __RadTimePicker__ that has
-a __TimeTemplate__ defined, and a __Button__ whose
-__Click__ event handler needs to access a control in the
+The following definitions declare a **RadTimePicker** that has
+a **TimeTemplate** defined, and a **Button** whose
+**Click** event handler needs to access a control in the
 template:
 
 ````ASPNET
@@ -63,8 +63,8 @@ template:
 
 
 
-In the codebehind, the button's __Click__ handler uses the
-__FindControl__ method of the __DataListItem__ to
+In the codebehind, the button's **Click** handler uses the
+**FindControl** method of the **DataListItem** to
 locate the control in the template:
 
 

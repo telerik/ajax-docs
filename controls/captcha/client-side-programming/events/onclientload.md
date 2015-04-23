@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadCaptcha for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: captcha/client-side-programming/events/onclientload
 tags: onclientload
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The __OnClientLoad__ event is raised when the RadCaptcha object is initialized. It can notify the developer that the control is available (e.g. to store a reference to its client-side object for later use).
+The **OnClientLoad** event is raised when the RadCaptcha object is initialized. It can notify the developer that the control is available (e.g. to store a reference to its client-side object for later use).
 
 The event handler receives two arguments:
 

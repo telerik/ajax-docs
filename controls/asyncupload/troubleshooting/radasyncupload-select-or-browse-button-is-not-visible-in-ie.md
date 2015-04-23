@@ -1,6 +1,6 @@
 ---
 title: RadAsyncUpload Select or Browse Button Is Not Visible in IE
-page_title: RadAsyncUpload Select or Browse Button Is Not Visible in IE | UI for ASP.NET AJAX Documentation
+page_title: RadAsyncUpload Select or Browse Button Is Not Visible in IE | RadAsyncUpload for ASP.NET AJAX Documentation
 description: RadAsyncUpload Select or Browse Button Is Not Visible in IE
 slug: asyncupload/troubleshooting/radasyncupload-select-or-browse-button-is-not-visible-in-ie
 tags: radasyncupload,select,or,browse,button,is,not,visible,in,ie

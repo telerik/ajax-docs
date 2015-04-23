@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadCaptcha for ASP.NET AJAX Documentation
 description: Getting Started
 slug: captcha/getting-started
 tags: getting,started
@@ -14,14 +14,14 @@ position: 2
 
 ## Getting Started
 
-The following tutorial demonstrates using __RadCaptcha__ to validate page submission. The walk-through will also show how to display the Error Message in a ValidationSummary.
+The following tutorial demonstrates using **RadCaptcha** to validate page submission. The walk-through will also show how to display the Error Message in a ValidationSummary.
 
-1. In the default page of a new ASP.NET AJAX-enabled Web Application add a __RadCaptcha__ control, a Button control that causes post back on a click and a ValidationSummary control.
+1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadCaptcha** control, a Button control that causes post back on a click and a ValidationSummary control.
 >caption 
 
 ![Rad Captcha](images/RadCaptcha.PNG)
 
-1. Open the __RadCaptcha__ Smart Tag and select the Enable __RadCaptcha__ httpHandler link. Click OK to close the confirmation dialog for the RadCaptcha handler.
+1. Open the **RadCaptcha** Smart Tag and select the Enable **RadCaptcha** httpHandler link. Click OK to close the confirmation dialog for the RadCaptcha handler.
 >caption 
 
 ![radcaptcha-smart-tag](images/radcaptcha-smart-tag.png)The httpHandler can be also enabled by placing the following lines in the web.config file:
@@ -43,7 +43,7 @@ The following tutorial demonstrates using __RadCaptcha__ to validate page submis
 
 
 
->note By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server. When Session is used, the HttpHandler definition (in the .config file) of the __RadCaptcha__ should be modified manually by setting the type of the HttpHandler has to be set to __type="Telerik.Web.UI.WebResourceSession"__ .
+>note By default the image is stored in the Cache. However, if more than one server is used to host the page (web-farm environment) the Session should be used, because if the Cache is used the image is stored locally on the server. When Session is used, the HttpHandler definition (in the .config file) of the **RadCaptcha** should be modified manually by setting the type of the HttpHandler has to be set to **type="Telerik.Web.UI.WebResourceSession"** .
 >
 
 
@@ -64,7 +64,7 @@ The following tutorial demonstrates using __RadCaptcha__ to validate page submis
 
 
 
-1. In the Properties Window for the __RadCaptcha__ control set the following properties:
+1. In the Properties Window for the **RadCaptcha** control set the following properties:
 
 1. ErrorMessage = You have entered an invalid code.
 
@@ -72,7 +72,7 @@ The following tutorial demonstrates using __RadCaptcha__ to validate page submis
 
 1. In the Properties Window for the ValidationSummary control set the ValidationGroup property to the same value as in RadCaptcha (ValidationGroup = SubmitGroup). Do the same for the Button control.
 
-1. Press F5 to run the Application. __RadCaptcha__ validates the input on a post back.
+1. Press F5 to run the Application. **RadCaptcha** validates the input on a post back.
 >caption 
 
 ![Rad Captcha In Browser](images/RadCaptchaInBrowser.PNG)

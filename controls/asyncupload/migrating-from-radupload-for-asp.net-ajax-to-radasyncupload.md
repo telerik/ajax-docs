@@ -1,6 +1,6 @@
 ---
 title: Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
-page_title: Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload | UI for ASP.NET AJAX Documentation
+page_title: Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Migrating from RadUpload for ASP.NET AJAX to RadAsyncUpload
 slug: asyncupload/migrating-from-radupload-for-asp.net-ajax-to-radasyncupload
 tags: migrating,from,radupload,for,asp.net,ajax,to,radasyncupload

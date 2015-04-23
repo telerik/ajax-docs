@@ -1,6 +1,6 @@
 ---
 title: Binding to ASP DataSource components
-page_title: Binding to ASP DataSource components | UI for ASP.NET AJAX Documentation
+page_title: Binding to ASP DataSource components | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Binding to ASP DataSource components
 slug: autocompletebox/data-binding/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components

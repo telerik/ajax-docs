@@ -1,6 +1,6 @@
 ---
 title: Tutorial Creating a Custom Skin
-page_title: Tutorial Creating a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Tutorial Creating a Custom Skin | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Tutorial Creating a Custom Skin
 slug: asyncupload/appearance-and-styling/tutorial-creating-a-custom-skin
 tags: tutorial,creating,a,custom,skin

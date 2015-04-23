@@ -1,6 +1,6 @@
 ---
 title: Applying week numbers according to the ISO Standard
-page_title: Applying week numbers according to the ISO Standard | UI for ASP.NET AJAX Documentation
+page_title: Applying week numbers according to the ISO Standard | RadCalendar for ASP.NET AJAX Documentation
 description: Applying week numbers according to the ISO Standard
 slug: calendar/accessibility-and-internationalization/applying-week-numbers-according-to-the-iso-standard
 tags: applying,week,numbers,according,to,the,iso,standard
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-__RadCalendar__ does not apply week numbers according to the ISO standard by default. This is because the ASP.NET Framework itself does not. However, this can be configured easily at runtime:
+**RadCalendar** does not apply week numbers according to the ISO standard by default. This is because the ASP.NET Framework itself does not. However, this can be configured easily at runtime:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Migrating from RadCalendar ASP.NET to ASP.NET AJAX
-page_title: Migrating from RadCalendar ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating from RadCalendar ASP.NET to ASP.NET AJAX | RadCalendar for ASP.NET AJAX Documentation
 description: Migrating from RadCalendar ASP.NET to ASP.NET AJAX
 slug: calendar/migrating-from-radcalendar-asp.net-to-asp.net-ajax
 tags: migrating,from,radcalendar,asp.net,to,asp.net,ajax
@@ -12,7 +12,7 @@ position: 2
 
 
 
-To add __RadCalendar__ for ASP.NET AJAX to an existing ASP.NET web application you need to follow these steps:
+To add **RadCalendar** for ASP.NET AJAX to an existing ASP.NET web application you need to follow these steps:
 
 1. Make sure you have ASP.NET AJAX installed.
 
@@ -26,7 +26,7 @@ To add __RadCalendar__ for ASP.NET AJAX to an existing ASP.NET web application y
 
 ## Differences between RadCalendar "classic" and RadCalendar for ASP.NET AJAX
 
-__RadCalendar for ASP.NET AJAX__ has changed, because of moving to the ASP.NET AJAX framework and to the Telerik.Web.UI suite. All of the client-side properties and methods' names have changed.
+**RadCalendar for ASP.NET AJAX** has changed, because of moving to the ASP.NET AJAX framework and to the Telerik.Web.UI suite. All of the client-side properties and methods' names have changed.
 
 ## Client-side API changes
 
@@ -50,10 +50,10 @@ To cancel an event (which can be cancelled) you now call "set_cancel(true)" on t
 
 ## RadCalendar object
 
-The following table lists the changes to the client-side __RadCalendar__ object:
+The following table lists the changes to the client-side **RadCalendar** object:
 
 
-|  __RadCalendar Classic__  |  __RadCalendar for ASP.NET AJAX__  |
+|  **RadCalendar Classic**  |  **RadCalendar for ASP.NET AJAX**  |
 | ------ | ------ |
 |GetSelectedDates()|get_selectedDates()|
 |GetRangeMinDate()|get_rangeMinDate()|
@@ -74,7 +74,7 @@ The following table lists the changes to the client-side "picker" objects:
 
 
 
-|  __RadCalendar Classic__  |  __RadCalendar for ASP.NET AJAX__  |
+|  **RadCalendar Classic**  |  **RadCalendar for ASP.NET AJAX**  |
 | ------ | ------ |
 |Calendar|get_calendar()|
 |TimeView|get_timeView()|
@@ -108,7 +108,7 @@ The following table lists the changes to the client-side time view objects:
 
 
 
-|  __RadCalendar Classic__  |  __RadCalendar for ASP.NET AJAX__  |
+|  **RadCalendar Classic**  |  **RadCalendar for ASP.NET AJAX**  |
 | ------ | ------ |
 |GetTime()|getTime()|
 |SetTime()|setTime()|

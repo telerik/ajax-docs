@@ -1,6 +1,6 @@
 ---
 title: OnClientDropDownClosed
-page_title: OnClientDropDownClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientDropDownClosed | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnClientDropDownClosed
 slug: autocompletebox/client-side-programming/events/onclientdropdownclosed
 tags: onclientdropdownclosed

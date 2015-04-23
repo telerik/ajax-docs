@@ -1,6 +1,6 @@
 ---
 title: Customizing the Embedded Controls
-page_title: Customizing the Embedded Controls | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Embedded Controls | RadCalendar for ASP.NET AJAX Documentation
 description: Customizing the Embedded Controls
 slug: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/customizing-the-embedded-controls
 tags: customizing,the,embedded,controls
@@ -14,20 +14,20 @@ position: 0
 
 ## 
 
-The __RadDatePicker__, __RadDateTimePicker__, and
-__RadTimePicker__ controls are composite objects, containing an
-embedded __RadDateInput__ control where the user can type values
-directly, a __CalendarPopupButton__ and/or
-__TimePopupButton__ that displays or hides the popup control or
-controls, and a __RadCalendar__ and/or
-__RadTimeView__ control. All of these embedded controls can be
+The **RadDatePicker**, **RadDateTimePicker**, and
+**RadTimePicker** controls are composite objects, containing an
+embedded **RadDateInput** control where the user can type values
+directly, a **CalendarPopupButton** and/or
+**TimePopupButton** that displays or hides the popup control or
+controls, and a **RadCalendar** and/or
+**RadTimeView** control. All of these embedded controls can be
 customized, just as you can customize a standalone
-__RadDateInput__, or __RadCalendar__ control.
+**RadDateInput**, or **RadCalendar** control.
 
 To customize the embedded controls, simply locate the property for the
-embedded control in the __Behavior__ section of the properties
-pane for the __RadDatePicker__,
-__RadDateTimePicker__, or __RadTimePicker__ control,
+embedded control in the **Behavior** section of the properties
+pane for the **RadDatePicker**,
+**RadDateTimePicker**, or **RadTimePicker** control,
 expand it, and set its properties accordingly. The following table lists the
 properties for accessing the embedded controls:
 
@@ -45,8 +45,8 @@ properties for accessing the embedded controls:
 |DatePopupButton|RadMonthYearPicker|DatePopupButton|
 
 Modifying a child control's settings allows for greater flexibility when
-configuring the look and feel of the __RadDatePicker__,
-__RadDateTimePicker__, __RadTimePicker__ or __RadMonthYearPicker__
+configuring the look and feel of the **RadDatePicker**,
+**RadDateTimePicker**, **RadTimePicker** or **RadMonthYearPicker**
 control – you have complete control over the skins and styles of the
 embedded control:
 

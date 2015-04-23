@@ -1,6 +1,6 @@
 ---
 title: Fluid and Elastic Capabilities
-page_title: Fluid and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Fluid and Elastic Capabilities | RadCalendar for ASP.NET AJAX Documentation
 description: Fluid and Elastic Capabilities
 slug: calendar/mobile-support/fluid-and-elastic-capabilities
 tags: fluid,and,elastic,capabilities
@@ -16,13 +16,13 @@ The RadCalendar including the picker controls provide elastic and fluid capabili
 
 ## Fluid capability
 
-The __fluid__ capabilities are simply achievable by setting the control’s width in __percentages__.
+The **fluid** capabilities are simply achievable by setting the control’s width in **percentages**.
 
 ## Elastic capability
 
-To take advantage __elastic__ functionality advantage you could set a specific __font size__ based on the application target __mobile device__ and follow three simple steps to transform the __RadCalendar/Picker__ controls to be __elastic__:
+To take advantage **elastic** functionality advantage you could set a specific **font size** based on the application target **mobile device** and follow three simple steps to transform the **RadCalendar/Picker** controls to be **elastic**:
 
-1. By using specific CSS selectros apply "__1em__" font size for all the __Calendar__ components like this:
+1. By using specific CSS selectros apply "**1em**" font size for all the **Calendar** components like this:
 
 ````ASPNET
 	    <style type="text/css">
@@ -38,7 +38,7 @@ To take advantage __elastic__ functionality advantage you could set a specific _
 
 
 
-1. Set the __RenderMode__ property of the Calendar, DatePicker, DateTimePicker, MonthYearPicker to "__Lightweight__"
+1. Set the **RenderMode** property of the Calendar, DatePicker, DateTimePicker, MonthYearPicker to "**Lightweight**"
 
 ````ASPNET
 	    <telerik:raddatepicker id="RadDatePicker2" runat="server" selecteddate="8.4.2014"
@@ -64,7 +64,7 @@ To take advantage __elastic__ functionality advantage you could set a specific _
 
 
 
-1. Set the picker components __width__ in "__em__". In order to keep the default calendar/pickers __proportion__ on mobile devices we would suggest you to set __width="13.3333em"__ as the default width of the components is "__160px__" and the font-size is originally set to "__12px__"See the both images bellow that presents the control's __elastic__ capability
+1. Set the picker components **width** in "**em**". In order to keep the default calendar/pickers **proportion** on mobile devices we would suggest you to set **width="13.3333em"** as the default width of the components is "**160px**" and the font-size is originally set to "**12px**"See the both images bellow that presents the control's **elastic** capability
 
 * DatePicker control's rendering in case the body font size is set to 12px![mobile-support-12px](images/mobile-support-12px.png)
 

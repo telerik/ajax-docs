@@ -1,6 +1,6 @@
 ---
 title: OnDateSelecting
-page_title: OnDateSelecting | UI for ASP.NET AJAX Documentation
+page_title: OnDateSelecting | RadCalendar for ASP.NET AJAX Documentation
 description: OnDateSelecting
 slug: calendar/client-side-programming/events/ondateselecting
 tags: ondateselecting
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-The __OnDateSelecting__ client-side event handler is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
+The **OnDateSelecting** client-side event handler is called immediately before the selected dates collection is updated to reflect the selection or deselection of a date.
 
->note The __OnDateSelecting__ event is supported by: __RadCalendar__ .
+>note The **OnDateSelecting** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_renderDay()__ |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day being selected or unselected.|
-| __get_isSelecting()__ |bool||Returns __true__ if the day is about to be selected, __false__ if it is about to be unselected.|
-| __set_cancel(value)__ ||bool|Lets you prevent the selection or deselection from occurring.|
+| **get_renderDay()** |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day being selected or unselected.|
+| **get_isSelecting()** |bool||Returns **true** if the day is about to be selected, **false** if it is about to be unselected.|
+| **set_cancel(value)** ||bool|Lets you prevent the selection or deselection from occurring.|
 
-The following example uses the __OnDateSelecting__ event to confirm a change of selection and cancel the change if the user does not confirm:
+The following example uses the **OnDateSelecting** event to confirm a change of selection and cancel the change if the user does not confirm:
 
 ````ASPNET
 	<script type="text/javascript">

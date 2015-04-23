@@ -1,6 +1,6 @@
 ---
 title: OnClientRequestFailed
-page_title: OnClientRequestFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientRequestFailed | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnClientRequestFailed
 slug: autocompletebox/client-side-programming/events/onclientrequestfailed
 tags: onclientrequestfailed

@@ -1,6 +1,6 @@
 ---
 title: OnLoad
-page_title: OnLoad | UI for ASP.NET AJAX Documentation
+page_title: OnLoad | RadCalendar for ASP.NET AJAX Documentation
 description: OnLoad
 slug: calendar/client-side-programming/events/onload
 tags: onload
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The __OnLoad__client-side event handler is called when the calendar is loaded on the client.
+The **OnLoad**client-side event handler is called when the calendar is loaded on the client.
 
->note The __OnLoad__ event is supported by: __RadCalendar__ .
+>note The **OnLoad** event is supported by: **RadCalendar** .
 >
 
 
@@ -26,7 +26,7 @@ The event handler receives one argument:
 
 
 
-The following example uses the __OnLoad__event to navigate to december when the page loads:
+The following example uses the **OnLoad**event to navigate to december when the page loads:
 
 ````ASPNET
 	 <script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: OnInit
-page_title: OnInit | UI for ASP.NET AJAX Documentation
+page_title: OnInit | RadCalendar for ASP.NET AJAX Documentation
 description: OnInit
 slug: calendar/client-side-programming/events/oninit
 tags: oninit
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The __OnInit__client-side event handler is called when the calendar is first constructed.
+The **OnInit**client-side event handler is called when the calendar is first constructed.
 
->note The __OnInit__ event is supported by: __RadCalendar__ .
+>note The **OnInit** event is supported by: **RadCalendar** .
 >
 
 
@@ -24,7 +24,7 @@ The event handler receives one argument:
 
 1. the [RadCalendar object]({%slug calendar/client-side-programming/radcalendar-object%}) that fired the event.
 
-The following example uses the __OnInit__event to initialize the selection to today's date:
+The following example uses the **OnInit**event to initialize the selection to today's date:
 
 ````ASPNET
 	<script type="text/javascript">

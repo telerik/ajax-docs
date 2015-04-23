@@ -1,6 +1,6 @@
 ---
-title: Telerik's ASP.NET Button Overview
-page_title: Telerik's ASP.NET Button Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadButton Overview | UI for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET Button Overview
 slug: button/telerik's-asp.net-button-overview
 tags: telerik's,asp.net,button,overview

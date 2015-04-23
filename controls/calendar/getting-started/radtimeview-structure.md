@@ -1,6 +1,6 @@
 ---
 title: RadTimeView Structure
-page_title: RadTimeView Structure | UI for ASP.NET AJAX Documentation
+page_title: RadTimeView Structure | RadCalendar for ASP.NET AJAX Documentation
 description: RadTimeView Structure
 slug: calendar/getting-started/radtimeview-structure
 tags: radtimeview,structure
@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-The __RadTimeView__ control works only as a popup embedded in a __RadTimePicker__ or __RadDateTimePicker__ control. The main reason to add a __RadTimeView__ control from the toolbox to the Web page is when using it as a [shared popup control]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/using-shared-radcalendar/radtimeview%}).
+The **RadTimeView** control works only as a popup embedded in a **RadTimePicker** or **RadDateTimePicker** control. The main reason to add a **RadTimeView** control from the toolbox to the Web page is when using it as a [shared popup control]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/using-shared-radcalendar/radtimeview%}).
 
-The following diagram shows the structure of the __RadTimeView__ control:![Overview of RadTimeView structure](images/calendar_overviewtimeviewstructure_001.png)
+The following diagram shows the structure of the **RadTimeView** control:![Overview of RadTimeView structure](images/calendar_overviewtimeviewstructure_001.png)
 
-* __Header__ - displays the title of the time view control. You can hide the header using the __ShowHeader__ property, or alter its content and appearance using a header [template]({%slug calendar/templates/radtimeview-templates%}).
+* **Header** - displays the title of the time view control. You can hide the header using the **ShowHeader** property, or alter its content and appearance using a header [template]({%slug calendar/templates/radtimeview-templates%}).
 
-* __Time Values__ - allow the user to select a time value by clicking with the mouse. You can configure the [layout of the time values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view%}), as well as apply different [styles]({%slug calendar/appearance-and-styling/styles%}) for alternating time values.
+* **Time Values** - allow the user to select a time value by clicking with the mouse. You can configure the [layout of the time values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view%}), as well as apply different [styles]({%slug calendar/appearance-and-styling/styles%}) for alternating time values.
 
-* __Footer__ - by defaultr has no content, and so does not appear, even if the __ShowFooter__ property is true. You can provide content to the footer using a [template]({%slug calendar/templates/radtimeview-templates%}).
+* **Footer** - by defaultr has no content, and so does not appear, even if the **ShowFooter** property is true. You can provide content to the footer using a [template]({%slug calendar/templates/radtimeview-templates%}).
 
 # See Also
 

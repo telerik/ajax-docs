@@ -1,6 +1,6 @@
 ---
 title: Embedded Icons
-page_title: Embedded Icons | UI for ASP.NET AJAX Documentation
+page_title: Embedded Icons | RadButton for ASP.NET AJAX Documentation
 description: Embedded Icons
 slug: button/button-types/icons/embedded-icons
 tags: embedded,icons
@@ -16,9 +16,9 @@ This help article illustrates how to configure a RadButton with embedded icons f
 
 ## Configure RadButton with Embedded Icons
 
-To make the control even easier to use Telerik provides a large set of built-in icons. To use them, set the __PrimaryIconCssClass__ or __SecondaryIconCssClass__ property to one of the predefined CSS class names, and the respective icon will be shown on the control. The full list of the CSS classes can be found in __List 1__.
+To make the control even easier to use Telerik provides a large set of built-in icons. To use them, set the **PrimaryIconCssClass** or **SecondaryIconCssClass** property to one of the predefined CSS class names, and the respective icon will be shown on the control. The full list of the CSS classes can be found in **List 1**.
 
-__List 1:__ CSS classes of embedded icons in __RadButton__.
+**List 1:** CSS classes of embedded icons in **RadButton**.
 
 * rbAdd
 
@@ -66,38 +66,38 @@ __List 1:__ CSS classes of embedded icons in __RadButton__.
 
 
 
->note The __CssClass__ is composed in the following way: [ __r__ ]ad[ __b__ ]utton[ __IconName__ ]. For example rbAdd.
+>note The **CssClass** is composed in the following way: [ **r** ]ad[ **b** ]utton[ **IconName** ]. For example rbAdd.
 >
 
 
 ### Configure RadButton's Embedded Icons in Classic Render Mode
 
-__RadButton__ in classic render mode provides two sets of built-in icons with height of 16px and 24px (__Table 1__). The smaller icons are appropriate for buttons that have the default height of 22px, while the bigger icons are appropriate for 65px height buttons.
+**RadButton** in classic render mode provides two sets of built-in icons with height of 16px and 24px (**Table 1**). The smaller icons are appropriate for buttons that have the default height of 22px, while the bigger icons are appropriate for 65px height buttons.
 
 
 >caption  Table 1: RadButton offers two sets of built-in icons of 16px and 24px height. 
 
 | Icon Height | CssClass | Description |
 | ------ | ------ | ------ |
-|16px|All the classes from the __List 1__ (e.g., __PrimaryIconCssClass__ = " __rbOk__ ").|Useful for buttons with default height of 22px.|
-|24px|All the classes from the __List 1__ , concatenated with the "24" string. (e.g., __PrimaryIconCssClass__ = " __rbOk24__ ").|Useful for buttons with height of 65px (see the[Custom Height Tutorial]({%slug button/appearance-and-styling/custom-height-tutorial%})help article).|
+|16px|All the classes from the **List 1** (e.g., **PrimaryIconCssClass** = " **rbOk** ").|Useful for buttons with default height of 22px.|
+|24px|All the classes from the **List 1** , concatenated with the "24" string. (e.g., **PrimaryIconCssClass** = " **rbOk24** ").|Useful for buttons with height of 65px (see the[Custom Height Tutorial]({%slug button/appearance-and-styling/custom-height-tutorial%})help article).|
 
-Each of these built-in icons is offered with three different colors, depending on the chosen skin (see __Figure 1__):
+Each of these built-in icons is offered with three different colors, depending on the chosen skin (see **Figure 1**):
 
-* Monochrome white icons - used by __BlackMetroTouch__ and __Glow__ skins.
+* Monochrome white icons - used by **BlackMetroTouch** and **Glow** skins.
 
-* Monochrome black icons - used by __Metro__, __MetroTouch__ and __Silk__ skins.
+* Monochrome black icons - used by **Metro**, **MetroTouch** and **Silk** skins.
 
 * Colored icons - used by the rest of the skin.
 
->important The color for the embedded icons is automatically determined from the skin and cannot be modified. For example you cannot use white monochrome icons for the __Windows7__ skin.
+>important The color for the embedded icons is automatically determined from the skin and cannot be modified. For example you cannot use white monochrome icons for the **Windows7** skin.
 >
 
 >caption Figure 1: Embedded icons in RadButton for the Classic RenderMode are provided with two predefined heights and three different colors for the corresponding skin.
 
 ![Icons2](images/button-icons02.png)
 
-__Example 1__: Embedded icons in __RadButton__ can be configured through the __PrimaryIconCssClass__ and __SecondaryIconCssClass__ properties. This example creates the tables from __Figure 1__.
+**Example 1**: Embedded icons in **RadButton** can be configured through the **PrimaryIconCssClass** and **SecondaryIconCssClass** properties. This example creates the tables from **Figure 1**.
 
 
 
@@ -316,12 +316,12 @@ __Example 1__: Embedded icons in __RadButton__ can be configured through the __P
 
 ### Configure RadButton's Embedded Icons in Lightweight Render Mode
 
-The embedded icons of __RadButton__ in the Lightweight RenderMode are font icons (__Figure 2__) asopposed to the Classic RenderMode where sprite images are used (__Figure 1__). Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (__Figure 3__ and __Example 3__). The list of the predefined CSS classes can be found in __List 1__.
+The embedded icons of **RadButton** in the Lightweight RenderMode are font icons (**Figure 2**) asopposed to the Classic RenderMode where sprite images are used (**Figure 1**). Using a font facilitates the customization of the icons. For example, you can change the icons color and font size with a single line of CSS (**Figure 3** and **Example 3**). The list of the predefined CSS classes can be found in **List 1**.
 >caption Figure 2: Embedded icons of RadButton in Lightweight RenderMode for Default and Black skin.
 
 ![button-icons-lightweight 01](images/button-icons-lightweight01.png)
 
-__Example 2__: Declaration of two RadButtons with primary icon in Lightweight RenderMode for Default and Black skin.
+**Example 2**: Declaration of two RadButtons with primary icon in Lightweight RenderMode for Default and Black skin.
 
 ````ASPNET
 			<telerik:RadButton ID="RadButton1" runat="server" Text="Default Skin" Skin="Default" RenderMode="Lightweight">
@@ -337,7 +337,7 @@ __Example 2__: Declaration of two RadButtons with primary icon in Lightweight Re
 
 ![button-icons-lightweight 02](images/button-icons-lightweight02.png)
 
-__Example 3__: Use only CSS to modify the font size and color of embedded icons of RadButton in Lightweight RenderMode.
+**Example 3**: Use only CSS to modify the font size and color of embedded icons of RadButton in Lightweight RenderMode.
 
 ````ASPNET
 			<style type="text/css">

@@ -1,6 +1,6 @@
 ---
 title: Types
-page_title: Types | UI for ASP.NET AJAX Documentation
+page_title: Types | RadBarcode for ASP.NET AJAX Documentation
 description: Types
 slug: barcode/types
 tags: types

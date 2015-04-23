@@ -1,6 +1,6 @@
 ---
 title: How to upload files from MAC or Linux
-page_title: How to upload files from MAC or Linux | UI for ASP.NET AJAX Documentation
+page_title: How to upload files from MAC or Linux | RadAsyncUpload for ASP.NET AJAX Documentation
 description: How to upload files from MAC or Linux
 slug: asyncupload/how-to/how-to-upload-files-from-mac-or-linux
 tags: how,to,upload,files,from,mac,or,linux

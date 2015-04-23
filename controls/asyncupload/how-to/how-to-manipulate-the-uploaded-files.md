@@ -1,6 +1,6 @@
 ---
 title: How to Manipulate the Uploaded Files
-page_title: How to Manipulate the Uploaded Files | UI for ASP.NET AJAX Documentation
+page_title: How to Manipulate the Uploaded Files | RadAsyncUpload for ASP.NET AJAX Documentation
 description: How to Manipulate the Uploaded Files
 slug: asyncupload/how-to/how-to-manipulate-the-uploaded-files
 tags: how,to,manipulate,the,uploaded,files

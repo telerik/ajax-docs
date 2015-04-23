@@ -1,6 +1,6 @@
 ---
 title: TextBox and Label Decoration
-page_title: TextBox and Label Decoration | UI for ASP.NET AJAX Documentation
+page_title: TextBox and Label Decoration | RadCaptcha for ASP.NET AJAX Documentation
 description: TextBox and Label Decoration
 slug: captcha/appearance-and-styling/textbox-and-label-decoration
 tags: textbox,and,label,decoration
@@ -14,7 +14,7 @@ position: 1
 
 ## Child controls decoration
 
-RadCaptcha offer two composite properties-__TextBoxDecoration__	and __TextBoxLabelDecoration__-that offer properties to apply style decoration following the standard[System.Web.UI.WebControls.WebControl](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol%28v=vs.110%29.aspx) decoration properties.You can set __BackColor__, __Font__, etc.
+RadCaptcha offer two composite properties-**TextBoxDecoration**	and **TextBoxLabelDecoration**-that offer properties to apply style decoration following the standard[System.Web.UI.WebControls.WebControl](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol%28v=vs.110%29.aspx) decoration properties.You can set **BackColor**, **Font**, etc.
 
 In the following example we will customize the border of the TextBox and the Font style of the TextBoxLabel.
 

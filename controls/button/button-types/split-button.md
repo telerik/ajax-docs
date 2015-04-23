@@ -1,6 +1,6 @@
 ---
 title: Split Button
-page_title: Split Button | UI for ASP.NET AJAX Documentation
+page_title: Split Button | RadButton for ASP.NET AJAX Documentation
 description: Split Button
 slug: button/button-types/split-button
 tags: split,button
@@ -12,22 +12,22 @@ position: 1
 
 
 
-__RadButton__ enables the developer to show an additional button next to the main button (__Figure 1__), whosepurpose is to enhance the usability of the primary button. You can enable the split button functionality by settingthe __EnableSplitButton__ property to __true__.
+**RadButton** enables the developer to show an additional button next to the main button (**Figure 1**), whosepurpose is to enhance the usability of the primary button. You can enable the split button functionality by settingthe **EnableSplitButton** property to **true**.
 >caption Figure 1: RadButton configured as a split button. The code that creates this figure is available in Example 1.
 
 ![button-splitbutton](images/button-splitbutton.png)
 
-The extra button is rendered on the right (default) or the left,depending on the value set to the __SplitButtonPosition__ property. The developer can also apply customstyling to the control using the __SplitButtonCssClass__ property.
+The extra button is rendered on the right (default) or the left,depending on the value set to the **SplitButtonPosition** property. The developer can also apply customstyling to the control using the **SplitButtonCssClass** property.
 
->caution It is not possible to have both __PrimaryIcon__ and split button with __SplitButtonPosition__ =" __Left__ ", enabled. The same is true for the __SecondaryIcon__ and __SplitButtonPosition__ =" __Right__ ".
+>caution It is not possible to have both **PrimaryIcon** and split button with **SplitButtonPosition** =" **Left** ", enabled. The same is true for the **SecondaryIcon** and **SplitButtonPosition** =" **Right** ".
 >
 
 
 ## How to use the Split button functionality on the Client-side
 
-You can handle the client-side [OnClientClicked]({%slug button/client-side-programming/events/onclientclicking%}) or[OnClientClicking]({%slug button/client-side-programming/events/onclientclicking%}) event, and then execute a desired action, depending on the clicked button by the user. See a sample in __Example 1__.
+You can handle the client-side [OnClientClicked]({%slug button/client-side-programming/events/onclientclicking%}) or[OnClientClicking]({%slug button/client-side-programming/events/onclientclicking%}) event, and then execute a desired action, depending on the clicked button by the user. See a sample in **Example 1**.
 
-__Example 1__: Utilizing the split button functionality on the client-side.
+**Example 1**: Utilizing the split button functionality on the client-side.
 
 ````ASPNET
 	<telerik:RadButton ID="SplitButton1" Text="SplitButton" runat="server" EnableSplitButton="true"
@@ -54,9 +54,9 @@ __Example 1__: Utilizing the split button functionality on the client-side.
 
 ## How to use the Split button functionality on the Server-side
 
-The server-side Click and Command events can be handled to execute "split button" specific logic.The event arguments parameter should be cast to the respective ButtonClick or ButtonCommand event args, so thatwe can determine which button issued the click. You can find a simple project in __Example 2__.
+The server-side Click and Command events can be handled to execute "split button" specific logic.The event arguments parameter should be cast to the respective ButtonClick or ButtonCommand event args, so thatwe can determine which button issued the click. You can find a simple project in **Example 2**.
 
-__Example 2__: Utilizing the split button functionality on the server-side.
+**Example 2**: Utilizing the split button functionality on the server-side.
 
 ````ASPNET
 	<telerik:RadButton EnableSplitButton="true" ID="SplitButton" AutoPostBack="false" runat="server" Text="Transfer Item" OnClientClicked="OnClientClicked"></telerik:RadButton> 

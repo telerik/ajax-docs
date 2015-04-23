@@ -1,6 +1,6 @@
 ---
 title: RadDate Collection Editor
-page_title: RadDate Collection Editor | UI for ASP.NET AJAX Documentation
+page_title: RadDate Collection Editor | RadCalendar for ASP.NET AJAX Documentation
 description: RadDate Collection Editor
 slug: calendar/design-time/raddate-collection-editor
 tags: raddate,collection,editor
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-The __RadDate Collection Editor__ lets you specify the initially selected values in a calendar that allows multiple dates to be selected.
+The **RadDate Collection Editor** lets you specify the initially selected values in a calendar that allows multiple dates to be selected.
 
-To display the __RadDate Collection Editor__, click the ellipsis button next to the __SelectedDates__ property in the properties pane for the __RadCalendar__ control.![Pre-selecting dates](images/GettingStarted_AddingRadCalendar006_RadDateCollectionEditor.png)
+To display the **RadDate Collection Editor**, click the ellipsis button next to the **SelectedDates** property in the properties pane for the **RadCalendar** control.![Pre-selecting dates](images/GettingStarted_AddingRadCalendar006_RadDateCollectionEditor.png)
 
-To add selected dates, click the __Add__ button and set its __Date__ property using the properties grid on the right. You can type in a date value, or select one from a popup calendar control that appears when you click the "drop-down" button.
+To add selected dates, click the **Add** button and set its **Date** property using the properties grid on the right. You can type in a date value, or select one from a popup calendar control that appears when you click the "drop-down" button.
 
-To remove a selected date, select it in the list and click the __Remove__ button.
+To remove a selected date, select it in the list and click the **Remove** button.
 
 # See Also
 

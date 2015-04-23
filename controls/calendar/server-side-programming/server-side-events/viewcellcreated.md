@@ -1,6 +1,6 @@
 ---
 title: ViewCellCreated
-page_title: ViewCellCreated | UI for ASP.NET AJAX Documentation
+page_title: ViewCellCreated | RadCalendar for ASP.NET AJAX Documentation
 description: ViewCellCreated
 slug: calendar/server-side-programming/server-side-events/viewcellcreated
 tags: viewcellcreated
@@ -14,13 +14,13 @@ position: 9
 
 ## 
 
-__RadMonthYearPicker__ provides the __ViewCellCreated__ server event, which fires when MonthCell, YearCell, NavigationCell and ButtonCell in MonthYearTableView are created.
+**RadMonthYearPicker** provides the **ViewCellCreated** server event, which fires when MonthCell, YearCell, NavigationCell and ButtonCell in MonthYearTableView are created.
 
-The __ViewCellCreated__ event handler receives two arguments:
+The **ViewCellCreated** event handler receives two arguments:
 
 1. The control whose value has just changed. This argument is of type object,but can be cast to the appropriate type.
 
-1. A __MonthYearViewCellCreatedEventArgs__object.This object hasa __Cell__property, which lets you access the cell in MonthYearTableView.
+1. A **MonthYearViewCellCreatedEventArgs**object.This object hasa **Cell**property, which lets you access the cell in MonthYearTableView.
 
 You can use this event to customize the content or appearance of cellsin the montyear picker based on their type:
 

@@ -1,6 +1,6 @@
 ---
 title: Styling the Input Element
-page_title: Styling the Input Element | UI for ASP.NET AJAX Documentation
+page_title: Styling the Input Element | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Styling the Input Element
 slug: asyncupload/appearance-and-styling/styling-the-input-element
 tags: styling,the,input,element

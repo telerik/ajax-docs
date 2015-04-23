@@ -1,6 +1,6 @@
 ---
 title: RadDatePicker, RadTimePicker, and RadDateTimePicker Structure
-page_title: RadDatePicker, RadTimePicker, and RadDateTimePicker Structure | UI for ASP.NET AJAX Documentation
+page_title: RadDatePicker, RadTimePicker, and RadDateTimePicker Structure | RadCalendar for ASP.NET AJAX Documentation
 description: RadDatePicker, RadTimePicker, and RadDateTimePicker Structure
 slug: calendar/getting-started/raddatepicker,-radtimepicker,-and-raddatetimepicker-structure
 tags: raddatepicker,,radtimepicker,,and,raddatetimepicker,structure
@@ -14,21 +14,21 @@ position: 2
 
 ## 
 
-The __RadDateTimePicker__ control is composite controls that combine the functionality of __RadCalendar__ and __RadTimeView__ with the functionality of __RadDateInput__ to give the broadest possible range of options for selecting date and time values. The three controls have the same basic structure:![Overview of picker structure](images/calendar_overviewpickerstructure_001.png)
+The **RadDateTimePicker** control is composite controls that combine the functionality of **RadCalendar** and **RadTimeView** with the functionality of **RadDateInput** to give the broadest possible range of options for selecting date and time values. The three controls have the same basic structure:![Overview of picker structure](images/calendar_overviewpickerstructure_001.png)
 
-The three major components of a __RadDatePicker__, __RadTimePicker__, or __RadDateTimePicker__ control are:
+The three major components of a **RadDatePicker**, **RadTimePicker**, or **RadDateTimePicker** control are:
 
-* __InputArea__ - This is an embedded __RadInput__ control, which validates dates or times as the user types.
+* **InputArea** - This is an embedded **RadInput** control, which validates dates or times as the user types.
 
-* __Popup Control__ - This is a __RadCalendar__ and __RadTimeView__ control that is shown in a popup element, so that the user can select a date or time by clicking on the desired selection.
+* **Popup Control** - This is a **RadCalendar** and **RadTimeView** control that is shown in a popup element, so that the user can select a date or time by clicking on the desired selection.
 
-* __Calendar Popup Button__ and __Time Popup Button__ - an image button, displayed next to the input area that shows and hides the popup control.
+* **Calendar Popup Button** and **Time Popup Button** - an image button, displayed next to the input area that shows and hides the popup control.
 
->caution If the popup control is a __RadCalendar__ control it must have __AutoPostBack__ set to __False__ in order to work properly. This means that a popup calendar cannot be used in multi-view mode.
+>caution If the popup control is a **RadCalendar** control it must have **AutoPostBack** set to **False** in order to work properly. This means that a popup calendar cannot be used in multi-view mode.
 >
 
 
-Since __RadDatePicker__ does not recognize other __Time Popups__ excepts its own,it closes only the __Calendar Popups__. The following script can be added in order to allow the__RadDatePicker__ to close all of the currently open Time Popups on the page:
+Since **RadDatePicker** does not recognize other **Time Popups** excepts its own,it closes only the **Calendar Popups**. The following script can be added in order to allow the**RadDatePicker** to close all of the currently open Time Popups on the page:
 
 ````JavaScript
 	    <script type="text/javascript">

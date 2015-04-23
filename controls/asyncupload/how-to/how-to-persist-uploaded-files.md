@@ -1,6 +1,6 @@
 ---
 title: How to Persist Uploaded Files
-page_title: How to Persist Uploaded Files | UI for ASP.NET AJAX Documentation
+page_title: How to Persist Uploaded Files | RadAsyncUpload for ASP.NET AJAX Documentation
 description: How to Persist Uploaded Files
 slug: asyncupload/how-to/how-to-persist-uploaded-files
 tags: how,to,persist,uploaded,files

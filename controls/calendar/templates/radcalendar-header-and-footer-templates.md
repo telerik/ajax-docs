@@ -1,6 +1,6 @@
 ---
 title: RadCalendar Header and Footer Templates
-page_title: RadCalendar Header and Footer Templates | UI for ASP.NET AJAX Documentation
+page_title: RadCalendar Header and Footer Templates | RadCalendar for ASP.NET AJAX Documentation
 description: RadCalendar Header and Footer Templates
 slug: calendar/templates/radcalendar-header-and-footer-templates
 tags: radcalendar,header,and,footer,templates
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-The header and footer areas of a __RadCalendar__ control can be customized using templates. The header is the area between the title and the main calendar area, while the footer is the area below the main calendar area.
+The header and footer areas of a **RadCalendar** control can be customized using templates. The header is the area between the title and the main calendar area, while the footer is the area below the main calendar area.
 
-As with all __RadCalendar__ templates, the header and footer templates can contain regular HTML, including text, images, hyperlinks, and so on.![Customized RadCalendar](images/calendar_overviewstructure_003.png)
+As with all **RadCalendar** templates, the header and footer templates can contain regular HTML, including text, images, hyperlinks, and so on.![Customized RadCalendar](images/calendar_overviewstructure_003.png)
 
-To create templates for the header and footer, right click on the RadCalendar control and choose __Edit Template | CalendarHeader__ or __Edit Template | CalendarFooter__. This brings up the template design surface, where you can drag and drop items from the tool box.
+To create templates for the header and footer, right click on the RadCalendar control and choose **Edit Template | CalendarHeader** or **Edit Template | CalendarFooter**. This brings up the template design surface, where you can drag and drop items from the tool box.
 
-The following code shows a __RadCalendar__ definition with header and footer template definitions:
+The following code shows a **RadCalendar** definition with header and footer template definitions:
 
 ````ASPNET
 	     

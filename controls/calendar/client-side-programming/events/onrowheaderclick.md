@@ -1,6 +1,6 @@
 ---
 title: OnRowHeaderClick
-page_title: OnRowHeaderClick | UI for ASP.NET AJAX Documentation
+page_title: OnRowHeaderClick | RadCalendar for ASP.NET AJAX Documentation
 description: OnRowHeaderClick
 slug: calendar/client-side-programming/events/onrowheaderclick
 tags: onrowheaderclick
@@ -14,9 +14,9 @@ position: 10
 
 ## 
 
-The __OnRowHeaderClick__ client-side event handler is called when the user is about to select a row of dates by clicking on a row header. The event occurs only if the __ShowRowHeaders__ and __UseRowHeadersAsSelectors__ properties are set to __true__.
+The **OnRowHeaderClick** client-side event handler is called when the user is about to select a row of dates by clicking on a row header. The event occurs only if the **ShowRowHeaders** and **UseRowHeadersAsSelectors** properties are set to **true**.
 
->note The __OnRowHeaderClick__ event is supported by: __RadCalendar__ .
+>note The **OnRowHeaderClick** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_index()__ |int||Returns the 1-based index of the column that was clicked.|
-| __get_domElement()__ |HTML element||Returns the DOM element for the row header that was clicked.|
-| __set_cancel(value)__ ||bool|Lets you prevent the click from selecting the row of dates.|
+| **get_index()** |int||Returns the 1-based index of the column that was clicked.|
+| **get_domElement()** |HTML element||Returns the DOM element for the row header that was clicked.|
+| **set_cancel(value)** ||bool|Lets you prevent the click from selecting the row of dates.|
 
-The following example uses the __OnRowHeaderClick__ event to confirm the selection:
+The following example uses the **OnRowHeaderClick** event to confirm the selection:
 
 ````ASPNET
 	<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Toggle button
-page_title: Toggle button | UI for ASP.NET AJAX Documentation
+page_title: Toggle button | RadButton for ASP.NET AJAX Documentation
 description: Toggle button
 slug: button/button-types/toggle-button
 tags: toggle,button
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __RadButton__ control can be easily configured to behave as a toggle button. Simply set the __ToggleType__ property to a value different than __ButtonToggleType__.__None__, and the button is transformed into a check box, a radio button or a completely customized toggle button. Since the __ButtonType__ property controls how the component looks like, the user can have his/her buttons look like standard buttons or even __<input type="submit|button" />__elements, and behave like check boxes or radio buttons. Here are some code samples showing how this is achieved:
+The **RadButton** control can be easily configured to behave as a toggle button. Simply set the **ToggleType** property to a value different than **ButtonToggleType**.**None**, and the button is transformed into a check box, a radio button or a completely customized toggle button. Since the **ButtonType** property controls how the component looks like, the user can have his/her buttons look like standard buttons or even **<input type="submit|button" />**elements, and behave like check boxes or radio buttons. Here are some code samples showing how this is achieved:
 
 * [Configure RadButton Controls as CheckBoxes](#configure-radbutton-controls-as-checkboxes)
 
@@ -24,23 +24,23 @@ The __RadButton__ control can be easily configured to behave as a toggle button.
 
 ## Configure RadButton Controls as CheckBoxes
 
-In order to configure the __RadButton__ as a checkbox you must do the following steps:
+In order to configure the **RadButton** as a checkbox you must do the following steps:
 
-1. Set the __ToggleType__ property of the button to "__CheckBox__".
+1. Set the **ToggleType** property of the button to "**CheckBox**".
 
-1. Choose the desired button type through the __ButtonType__ property:
+1. Choose the desired button type through the **ButtonType** property:
 
-* __StandardButton__ - For a standard button layout.
+* **StandardButton** - For a standard button layout.
 
-* __LinkButton__ - For link button layout.
+* **LinkButton** - For link button layout.
 
-* __ToggleButton__ - For a native checkbox layout.
+* **ToggleButton** - For a native checkbox layout.
 
-1. Define whether the checkbox is checked or not through the __Checked__ property.
+1. Define whether the checkbox is checked or not through the **Checked** property.
 
-1. You can make a further customization to both toggle states through the correspondingproperties (e.g., __Text__, __Value__,__Selected__, __CssClass__, etc.) of the __RadButtonToggleState__ class.
+1. You can make a further customization to both toggle states through the correspondingproperties (e.g., **Text**, **Value**,**Selected**, **CssClass**, etc.) of the **RadButtonToggleState** class.
 
-__Example 1__: Configuring RadButton as a checkbox with a __StandardButton__,__LinkButton__ and __ToggleButton__ button type.
+**Example 1**: Configuring RadButton as a checkbox with a **StandardButton**,**LinkButton** and **ToggleButton** button type.
 
 ````ASPNET
 	<telerik:RadButton ID="btnToggle1" runat="server" Text="Checkbox 1" ToggleType="CheckBox"
@@ -56,25 +56,25 @@ __Example 1__: Configuring RadButton as a checkbox with a __StandardButton__,__L
 
 ## Configure RadButton Controls as Radio Buttons
 
-In order to configure the __RadButton__ as a radio button you must do the following steps:
+In order to configure the **RadButton** as a radio button you must do the following steps:
 
-1. Set the __ToggleType__ property of the button to "__Radio__".
+1. Set the **ToggleType** property of the button to "**Radio**".
 
-1. Choose the desired button type through the __ButtonType__ property:
+1. Choose the desired button type through the **ButtonType** property:
 
-* __StandardButton__ - For a standard button layout.
+* **StandardButton** - For a standard button layout.
 
-* __LinkButton__ - For link button layout.
+* **LinkButton** - For link button layout.
 
-* __ToggleButton__ - For a native radio button layout.
+* **ToggleButton** - For a native radio button layout.
 
-1. Define whether the radio button is checked or not through the __Checked__ property.
+1. Define whether the radio button is checked or not through the **Checked** property.
 
-1. Set a common value for the __GroupName__ property of the radio buttons that are within the same group.
+1. Set a common value for the **GroupName** property of the radio buttons that are within the same group.
 
-1. You can make a further customization to both toggle states through the corresponding properties (e.g., __Text__, __Value__, __Selected__, __CssClass__, etc.) of the __RadButtonToggleState__ class.
+1. You can make a further customization to both toggle states through the corresponding properties (e.g., **Text**, **Value**, **Selected**, **CssClass**, etc.) of the **RadButtonToggleState** class.
 
-__Example 2__: Configuring RadButton as a radio button with a __StandardButton__, __LinkButton__ and __ToggleButton__ button type.
+**Example 2**: Configuring RadButton as a radio button with a **StandardButton**, **LinkButton** and **ToggleButton** button type.
 
 ````ASPNET
 	<telerik:RadButton ID="btnToggle1" runat="server" Text="Radio Button 1" ToggleType="Radio" ButtonType="StandardButton"></telerik:RadButton>
@@ -93,21 +93,21 @@ __Example 2__: Configuring RadButton as a radio button with a __StandardButton__
 
 ## Configure a RadButton Control with Custom Toggle States
 
-In order to configure a __RadButton__ with custom toggle states you must do the following steps:
+In order to configure a **RadButton** with custom toggle states you must do the following steps:
 
-1. Set the __ToggleType__ property of the button to "__CustomToggle__".
+1. Set the **ToggleType** property of the button to "**CustomToggle**".
 
-1. Choose the desired button type through the __ButtonType__ property:
+1. Choose the desired button type through the **ButtonType** property:
 
-* __StandardButton__ - For a standard button layout.
+* **StandardButton** - For a standard button layout.
 
-* __LinkButton__ - For link button layout.
+* **LinkButton** - For link button layout.
 
-* __ToggleButton__ - For a native layout.
+* **ToggleButton** - For a native layout.
 
-1. Add as many __RadButtonToggleState__ instances as you liketo the __ToggleStates__ collection. Make a further customization to each toggle state through the corresponding properties (e.g., __Text__, __Value__, __Selected__, __CssClass__, etc.) of the __RadButtonToggleState__ class.
+1. Add as many **RadButtonToggleState** instances as you liketo the **ToggleStates** collection. Make a further customization to each toggle state through the corresponding properties (e.g., **Text**, **Value**, **Selected**, **CssClass**, etc.) of the **RadButtonToggleState** class.
 
-__Example 3__: Configuring RadButton with custom toggles states with a __StandardButton__, __LinkButton__ and __ToggleButton__ button type.
+**Example 3**: Configuring RadButton with custom toggles states with a **StandardButton**, **LinkButton** and **ToggleButton** button type.
 
 ````ASPNET
 	<telerik:RadButton ID="btnToggle1" runat="server" ToggleType="CustomToggle" ButtonType="StandardButton">
@@ -138,9 +138,9 @@ __Example 3__: Configuring RadButton with custom toggles states with a __Standar
 
 ![Custom Toggle Buttons](images/button-customtoggles.png)
 
-In the code above, the __PrimaryIconCssClass__property is used to specify a three-state (3-state) checkbox, and the Text property to have different text depending on the currently selected state.
+In the code above, the **PrimaryIconCssClass**property is used to specify a three-state (3-state) checkbox, and the Text property to have different text depending on the currently selected state.
 
-To take a closer look at __RadButton__'s "toggle button" functionality please visit our [online demos](http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx).
+To take a closer look at **RadButton**'s "toggle button" functionality please visit our [online demos](http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx).
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: RadTimeView Templates
-page_title: RadTimeView Templates | UI for ASP.NET AJAX Documentation
+page_title: RadTimeView Templates | RadCalendar for ASP.NET AJAX Documentation
 description: RadTimeView Templates
 slug: calendar/templates/radtimeview-templates
 tags: radtimeview,templates
@@ -12,23 +12,23 @@ position: 2
 
 
 
-The appearance of every aspect of the __RadTimeView__ control that is embedded in __RadTimePicker__ and __RadDateTimePicker__ controls can be altered using a template. The way data is rendered is completely determined by your implementation of the control's templates, which describe how to present time items. The __RadTimeView__ control supports four types of templates:
+The appearance of every aspect of the **RadTimeView** control that is embedded in **RadTimePicker** and **RadDateTimePicker** controls can be altered using a template. The way data is rendered is completely determined by your implementation of the control's templates, which describe how to present time items. The **RadTimeView** control supports four types of templates:
 
-* The __TimeTemplate__ controls the appearance of the items in the time view that the user can select.
+* The **TimeTemplate** controls the appearance of the items in the time view that the user can select.
 
-* The __AlternatingTimeTemplate__ controls the appearance of every other item in the time view. If an __AlternatingTimeTemplate__ is not supplied, the time view uses the __TimeTemplate__ (if supplied) for every item in the time view.
+* The **AlternatingTimeTemplate** controls the appearance of every other item in the time view. If an **AlternatingTimeTemplate** is not supplied, the time view uses the **TimeTemplate** (if supplied) for every item in the time view.
 
-* The __HeaderTemplate__ controls the appearance of the header section.
+* The **HeaderTemplate** controls the appearance of the header section.
 
-* The __FooterTemplate__ controls the appearance of the footer section.
+* The **FooterTemplate** controls the appearance of the footer section.
 
 ## Creating templates at design time
 
-To create templates for the time view control embedded in a __RadTimePicker__ or __RadDateTimePicker__ control, right click on the control and choose __Edit Template__ from the __RadTimePicker__ or __RadDateTimePicker__[Smart Tag]({%slug calendar/design-time/smart-tag%}). Select the type of template you want to create, and use the [template design surface]({%slug calendar/design-time/template-design-surface%}) to create the template. You can drag any controls or HTML elements from the tool box onto the template design surface.
+To create templates for the time view control embedded in a **RadTimePicker** or **RadDateTimePicker** control, right click on the control and choose **Edit Template** from the **RadTimePicker** or **RadDateTimePicker**[Smart Tag]({%slug calendar/design-time/smart-tag%}). Select the type of template you want to create, and use the [template design surface]({%slug calendar/design-time/template-design-surface%}) to create the template. You can drag any controls or HTML elements from the tool box onto the template design surface.
 
-Inside a __TimeTemplate__ or __AlternatingTimeTemplate__, you can use a __DataBinder.Eval__ statement such as "<%# DataBinder.Eval(Container, "DataItem.Time", "{0:t}")%>" to bind an element to the value the item represents:
+Inside a **TimeTemplate** or **AlternatingTimeTemplate**, you can use a **DataBinder.Eval** statement such as "<%# DataBinder.Eval(Container, "DataItem.Time", "{0:t}")%>" to bind an element to the value the item represents:
 
-The following example illustrates how to add templates at design time to the embedded __RadTimeView__ control:
+The following example illustrates how to add templates at design time to the embedded **RadTimeView** control:
 
 ````C#
 	     
@@ -65,9 +65,9 @@ The following example illustrates how to add templates at design time to the emb
 
 ## Creating Templates at runtime
 
-The __RadTimeView__ template properties are of type __ITemplate__. To create a template at runtime, define a class that implements the __ITemplate__ interface and assign an instance of that class to the appropriate __RadTimeView__ property. The __ITemplate__ interface has only one method, called __InstantiateIn__. In the InstantiateIn, create any controls that you want to add to the template, and add them to the __Controls__ collection of the container object that is passed as an argument.
+The **RadTimeView** template properties are of type **ITemplate**. To create a template at runtime, define a class that implements the **ITemplate** interface and assign an instance of that class to the appropriate **RadTimeView** property. The **ITemplate** interface has only one method, called **InstantiateIn**. In the InstantiateIn, create any controls that you want to add to the template, and add them to the **Controls** collection of the container object that is passed as an argument.
 
-If a control you are adding to the container's __Controls__ collection should be bound to a data source column, then you should register your own handler for the __OnDataBinding__ event. When the event occurs, retrieve the text from the data source and refresh the user interface of the control. When defined for a server control, the __DataBinding__ event handler is expected to resolve all data binding expressions in the server control and in any of its children.
+If a control you are adding to the container's **Controls** collection should be bound to a data source column, then you should register your own handler for the **OnDataBinding** event. When the event occurs, retrieve the text from the data source and refresh the user interface of the control. When defined for a server control, the **DataBinding** event handler is expected to resolve all data binding expressions in the server control and in any of its children.
 
 The following example demonstrates how to create a template dynamically:
 

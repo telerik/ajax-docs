@@ -5,7 +5,9 @@ site_name: AJAX
 exclude: [README.md,Gemfile,Gemfile.lock,deploy.sh,LICENSE,SlugLog.log,UrlMappings-and-conversion-logs/*,temp_exclude_result.tmp]
 
 ## The application virtual path
-baseurl: "/devtools/aspnet-ajax"
+host: "localhost"
+port: "8080" # The port configuration is optional. If not configured, its default value is 4000.
+baseurl: "/aspnet-ajax"
 
 ## The Kendo UI version used
 cdnVersion: "2015.1.408"

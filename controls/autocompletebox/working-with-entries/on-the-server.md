@@ -1,6 +1,6 @@
 ---
 title: On the Server
-page_title: On the Server | UI for ASP.NET AJAX Documentation
+page_title: On the Server | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: On the Server
 slug: autocompletebox/working-with-entries/on-the-server
 tags: on,the,server

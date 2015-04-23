@@ -1,6 +1,6 @@
 ---
 title: OnClientProgressUpdating
-page_title: OnClientProgressUpdating | UI for ASP.NET AJAX Documentation
+page_title: OnClientProgressUpdating | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnClientProgressUpdating
 slug: asyncupload/client-side-programming/onclientprogressupdating
 tags: onclientprogressupdating

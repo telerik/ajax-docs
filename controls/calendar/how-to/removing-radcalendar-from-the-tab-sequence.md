@@ -1,6 +1,6 @@
 ---
 title: Removing RadCalendar from the Tab Sequence
-page_title: Removing RadCalendar from the Tab Sequence | UI for ASP.NET AJAX Documentation
+page_title: Removing RadCalendar from the Tab Sequence | RadCalendar for ASP.NET AJAX Documentation
 description: Removing RadCalendar from the Tab Sequence
 slug: calendar/how-to/removing-radcalendar-from-the-tab-sequence
 tags: removing,radcalendar,from,the,tab,sequence
@@ -16,7 +16,7 @@ position: 1
 
 When browsing through a page with the Tab key, sometimes you want to skip the calendar from the controls gaining focus. Unfortunately setting its TabIndex=-1 will not accomplish this, as the tab index is not inherited by the child controls, which are html links (<a href> tags).
 
-You can remove the calendar child controls from the tab sequence by writing a JavaScript function such as the following. Note that the function to set the tab index of child controls must be called both when the window loads, and by the client-side __OnCalendarViewChanged__ event handler.
+You can remove the calendar child controls from the tab sequence by writing a JavaScript function such as the following. Note that the function to set the tab index of child controls must be called both when the window loads, and by the client-side **OnCalendarViewChanged** event handler.
 
 ````JavaScript
 	     
@@ -43,7 +43,7 @@ You can remove the calendar child controls from the tab sequence by writing a Ja
 
 
 
->note If you are using __RadDatePicker__ , __RadDateTimePicker__ , or __RadTimePicker__ , a similar issue arises with the popup buttons, which are rendered as an <a> tag. However, for these controls, the popup buttons are accessible through the __DatePopupButton__ and __TimePopupButton__ properties, so you can simply set the __TabIndex__ property for the button in the designer.
+>note If you are using **RadDatePicker** , **RadDateTimePicker** , or **RadTimePicker** , a similar issue arises with the popup buttons, which are rendered as an <a> tag. However, for these controls, the popup buttons are accessible through the **DatePopupButton** and **TimePopupButton** properties, so you can simply set the **TabIndex** property for the button in the designer.
 >
 
 

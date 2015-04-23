@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadCalendar Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: calendar/overview
 tags: overview
@@ -12,19 +12,19 @@ position: 0
 
 
 
-The Telerik __RadCalendar__ controls are a set of highly configurable components for selecting date and time values. Thesecontrols are:
+The Telerik **RadCalendar** controls are a set of highly configurable components for selecting date and time values. Thesecontrols are:
 
-* __RadCalendar__: A highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
+* **RadCalendar**: A highly configurable control for displaying and selecting date values from an interface laid out like a standard calendar.
 
-* __RadDatePicker__: A __RadDateInput__ control with an integrated __RadCalendar__ control to let users either enter the date and time value directly in the input area or select it from a popup calendar. The values of the two controls are synchronized to allow further change of the chosen date.
+* **RadDatePicker**: A **RadDateInput** control with an integrated **RadCalendar** control to let users either enter the date and time value directly in the input area or select it from a popup calendar. The values of the two controls are synchronized to allow further change of the chosen date.
 
-* __RadTimePicker__:____ A __RadDateInput__ control in time only mode with an integrated __RadTimeView__ control to let users enter a time directly in the input area or select it from the popup time view control. The values of the two controls are synchronized to allow further change of the chosen time.
+* **RadTimePicker**: A **RadDateInput** control in time only mode with an integrated **RadTimeView** control to let users enter a time directly in the input area or select it from the popup time view control. The values of the two controls are synchronized to allow further change of the chosen time.
 
-* __RadDateTimePicker__: A __RadDateInput__ control with an integrated __RadCalendar__ control and an integrated __RadTimeView__ control. This combines the features of __RadDatePicker__ and __RadTimePicker__ in a single control for selecting both a date and a time value.
+* **RadDateTimePicker**: A **RadDateInput** control with an integrated **RadCalendar** control and an integrated **RadTimeView** control. This combines the features of **RadDatePicker** and **RadTimePicker** in a single control for selecting both a date and a time value.
 
 ## Features
 
-__RadCalendar__ for ASP.NET AJAX is a highly configurable date input control that offers the following features:
+**RadCalendar** for ASP.NET AJAX is a highly configurable date input control that offers the following features:
 
 * A [client-side API]({%slug calendar/client-side-programming/overview%}) with powerful methods to let you configure the calendar and [numerous events]({%slug calendar/client-side-programming/events/overview%}) to let you respond to what the user does with the calendar.
 
@@ -52,7 +52,7 @@ __RadCalendar__ for ASP.NET AJAX is a highly configurable date input control tha
 
 * WAI-ARIA Support.
 
-The __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__ controls offer the following features:
+The **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker** controls offer the following features:
 
 * A [client-side API]({%slug calendar/client-side-programming/overview%}) for controlling the date and time pickers without unnecessary postbacks, and [client-side events]({%slug calendar/client-side-programming/events/overview%}) on both the "picker" controls and their embedded input control and popups.
 

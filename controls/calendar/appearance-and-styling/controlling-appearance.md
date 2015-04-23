@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadCalendar for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: calendar/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -12,21 +12,21 @@ position: 0
 
 
 
-A number of properties let you set the look and feel of the __RadCalendar__ controls:
+A number of properties let you set the look and feel of the **RadCalendar** controls:
 
-* The __Skin__ property lets you specify a [skin]({%slug calendar/appearance-and-styling/skins%}) to set the overall look and feel of any of the controls. You can even assign separate skins to the embedded controls of __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__.
+* The **Skin** property lets you specify a [skin]({%slug calendar/appearance-and-styling/skins%}) to set the overall look and feel of any of the controls. You can even assign separate skins to the embedded controls of **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker**.
 
 * In addition to the skin, you can [set a variety of styles]({%slug calendar/appearance-and-styling/styles%}) that further customize the look and feel supplied by the skin.
 
-* You can use templates to add controls and HTML elements to portions of the __RadCalendar__ and __RadTimeView__ controls:
+* You can use templates to add controls and HTML elements to portions of the **RadCalendar** and **RadTimeView** controls:
 
-* On __RadCalendar__, you can [apply templates to individual day cells]({%slug calendar/templates/radcalendar-day-templates%}) of the calendar, or to the [calendar header and footer]({%slug calendar/templates/radcalendar-header-and-footer-templates%}).
+* On **RadCalendar**, you can [apply templates to individual day cells]({%slug calendar/templates/radcalendar-day-templates%}) of the calendar, or to the [calendar header and footer]({%slug calendar/templates/radcalendar-header-and-footer-templates%}).
 
-* On __RadTimeView__, you can [provide templates]({%slug calendar/templates/radtimeview-templates%}) for the individual time values and to the header and footer.
+* On **RadTimeView**, you can [provide templates]({%slug calendar/templates/radtimeview-templates%}) for the individual time values and to the header and footer.
 
-* The __ImagesPath__ property allows to specify a path for a directory that contains custom images which can replace the default ones. It is applicable for __RadCalendar__, __RadDatePicker__, __RadTimePicker__ and __RadDateTimePicker__ controls and enables versatile customization of their appearance. Note, that in order for that property to work you need to also set __EnableEmbeddedSkins="false"__.
+* The **ImagesPath** property allows to specify a path for a directory that contains custom images which can replace the default ones. It is applicable for **RadCalendar**, **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** controls and enables versatile customization of their appearance. Note, that in order for that property to work you need to also set **EnableEmbeddedSkins="false"**.
 
-Here is an example using the __ImagesPath__ property:
+Here is an example using the **ImagesPath** property:
 
 ````XML
 	     
@@ -38,11 +38,11 @@ Here is an example using the __ImagesPath__ property:
 
 
 
-In addition to the properties mentioned above, which apply to all types of __RadCalendar__ controls, the various __RadCalendar__ controls allow further customization of their appearance.
+In addition to the properties mentioned above, which apply to all types of **RadCalendar** controls, the various **RadCalendar** controls allow further customization of their appearance.
 
 ## RadCalendar
 
-On the __RadCalendar__ control, you can configure most aspects of its layout, including
+On the **RadCalendar** control, you can configure most aspects of its layout, including
 
 * The [title]({%slug calendar/radcalendar/title-settings%})
 
@@ -56,15 +56,15 @@ On the __RadCalendar__ control, you can configure most aspects of its layout, in
 
 ## RadDatePicker, RadTimePicker, and RadDateTimePicker
 
-* The [layout of the embedded time view]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view%}) popup on __RadTimePicker__ and __RadDateTimePicker__ can be configured
+* The [layout of the embedded time view]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view%}) popup on **RadTimePicker** and **RadDateTimePicker** can be configured
 
 * The [format of date and time values]({%slug calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/formatting-values%}) can be customized.
 
 ## Animations
 
-__RadCalendar__ and __RadDatePicker__/__RadDateTimePicker__ support JQuery fade-in/fade-out animation with predefined duration of 300ms (switched on by default). The animation is processed when the date picker popup is displayed/hidden or the fast navigation option of __RadCalendar__ is used.
+**RadCalendar** and **RadDatePicker**/**RadDateTimePicker** support JQuery fade-in/fade-out animation with predefined duration of 300ms (switched on by default). The animation is processed when the date picker popup is displayed/hidden or the fast navigation option of **RadCalendar** is used.
 
-In order to change the duration of the animation, use the __HideAnimation-Duration__ and __ShowAnimation-Duration__ properties of __RadDatePicker__/__RadDateTimePicker__ and __FastNavigationSettings->HideAnimation-Duration/FastNavigationSettings -> ShowAnimation-Duration__ properties of __RadCalendar__.
+In order to change the duration of the animation, use the **HideAnimation-Duration** and **ShowAnimation-Duration** properties of **RadDatePicker**/**RadDateTimePicker** and **FastNavigationSettings->HideAnimation-Duration/FastNavigationSettings -> ShowAnimation-Duration** properties of **RadCalendar**.
 
 Here are a couple of sample configurations:
 
@@ -90,6 +90,6 @@ Here are a couple of sample configurations:
 
 
 
->note If __RadDatePicker__ / __RadDateTimePicker__ postbacks automatically (AutoPostBack property set to true), the __HideAnimation-Duration__ value is 0 and cannot be altered.
+>note If **RadDatePicker** / **RadDateTimePicker** postbacks automatically (AutoPostBack property set to true), the **HideAnimation-Duration** value is 0 and cannot be altered.
 >
 

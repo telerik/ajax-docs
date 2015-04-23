@@ -1,6 +1,6 @@
 ---
 title: Single Click Button
-page_title: Single Click Button | UI for ASP.NET AJAX Documentation
+page_title: Single Click Button | RadButton for ASP.NET AJAX Documentation
 description: Single Click Button
 slug: button/functionality/single-click-button
 tags: single,click,button
@@ -14,20 +14,20 @@ position: 0
 
 ## 
 
-The single click button (__Figure 1__) is used to avoid multiple postbacks/callbacks to the server. This feature is useful in databaseand/or e-mail send scenarios when the developer should prevent submitting of identical content multiple times to the server.
+The single click button (**Figure 1**) is used to avoid multiple postbacks/callbacks to the server. This feature is useful in databaseand/or e-mail send scenarios when the developer should prevent submitting of identical content multiple times to the server.
 >caption Figure 1: RadButton with SingeClick functionality before and after click.
 
 ![button-single-click](images/button-single-click.png)
 
 The following properties should be used to enable the single click functionality:
 
-* __SingleClick__ - determines whether the __RadButton__ controlwill be immediately disabled after the user clicks it.Set it to __true__ to enable the single click functionality.
+* **SingleClick** - determines whether the **RadButton** controlwill be immediately disabled after the user clicks it.Set it to **true** to enable the single click functionality.
 
-* __SingleClickText__ - determines the text displayed inthe __RadButton__ control after the button is being clicked and disabled.
+* **SingleClickText** - determines the text displayed inthe **RadButton** control after the button is being clicked and disabled.
 
-The __Example 1__ below demonstrates how to setup a single click __RadButton__.
+The **Example 1** below demonstrates how to setup a single click **RadButton**.
 
-__Example 1__: The code that enables the single click functionality in __RadButton__ from __Figure 1__.
+**Example 1**: The code that enables the single click functionality in **RadButton** from **Figure 1**.
 
 
 
@@ -55,7 +55,7 @@ __Example 1__: The code that enables the single click functionality in __RadButt
 ````
 
 
-The submitted text in processed on the server-side. Note that the method __System.Threading.Thread.Sleep__	is used so that the disabled button can be examined after clicking it.
+The submitted text in processed on the server-side. Note that the method **System.Threading.Thread.Sleep**	is used so that the disabled button can be examined after clicking it.
 
 # See Also
 

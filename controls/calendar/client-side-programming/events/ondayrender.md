@@ -1,6 +1,6 @@
 ---
 title: OnDayRender
-page_title: OnDayRender | UI for ASP.NET AJAX Documentation
+page_title: OnDayRender | RadCalendar for ASP.NET AJAX Documentation
 description: OnDayRender
 slug: calendar/client-side-programming/events/ondayrender
 tags: ondayrender
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-The __OnDayRender__client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side __DayRender__ event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
+The **OnDayRender**client-side event handler is called for every calendar day cell when the calendar is rendered as a result of client-side navigation. This event mimics the server-side **DayRender** event, giving final control over the output of a specific calendar day cell. This event can be used to apply changes to the calendar cells when the user navigates that are identical to the server-side event handler applied to the cells in the initial view.
 
->note The __OnDayRender__ event is supported by: __RadCalendar__ .
+>note The **OnDayRender** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_renderDay()__ |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day being rendered. This value is null if the cell represents a valueoutside the range specified by __RangeMinDate__ and __RangeMaxDate__ .|
-| __get_date()__ |Array object||Returns the triplet for the date the cell represents.|
-| __get_cell()__ |Cell element||Returns object for the cell being rendered.|
+| **get_renderDay()** |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day being rendered. This value is null if the cell represents a valueoutside the range specified by **RangeMinDate** and **RangeMaxDate** .|
+| **get_date()** |Array object||Returns the triplet for the date the cell represents.|
+| **get_cell()** |Cell element||Returns object for the cell being rendered.|
 
-The following example uses the __OnDayRender__event to change the text for the non-current month and for dates that fall outside the selectable range. It also changes the background color on weekend days:
+The following example uses the **OnDayRender**event to change the text for the non-current month and for dates that fall outside the selectable range. It also changes the background color on weekend days:
 
 ````ASPNET
 	<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: OnClientRequested
-page_title: OnClientRequested | UI for ASP.NET AJAX Documentation
+page_title: OnClientRequested | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnClientRequested
 slug: autocompletebox/client-side-programming/events/onclientrequested
 tags: onclientrequested

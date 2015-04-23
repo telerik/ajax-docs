@@ -1,6 +1,6 @@
 ---
 title: Primary and Secondary Action Buttons
-page_title: Primary and Secondary Action Buttons | UI for ASP.NET AJAX Documentation
+page_title: Primary and Secondary Action Buttons | RadButton for ASP.NET AJAX Documentation
 description: Primary and Secondary Action Buttons
 slug: button/appearance-and-styling/primary-and-secondary-action-buttons
 tags: primary,and,secondary,action,buttons
@@ -14,14 +14,14 @@ position: 5
 
 ## 
 
-__RadButton__ offers primary and secondary states, named primary and secondary action buttons (__Figure 1__),that share a unique innovation styles for some skins(__Bootstrap__, __Silk__ and __Glow__). __Primary__ action buttons use bright and saturated colors that pop up more and catch attention easily, while the __Secondary buttons__are the default ones.
+**RadButton** offers primary and secondary states, named primary and secondary action buttons (**Figure 1**),that share a unique innovation styles for some skins(**Bootstrap**, **Silk** and **Glow**). **Primary** action buttons use bright and saturated colors that pop up more and catch attention easily, while the **Secondary buttons**are the default ones.
 >caption Figure 1: RadButton with primary and secondary action states for the Silk, Glow and Bootstrap skins.
 
 ![button-primary-and-secondary-action-buttons](images/button-primary-and-secondary-action-buttons.png)
 
-In order to switch to the primary state you must set the __CssClass__ property of the __RadButton__ to __rbPrimaryButton__ (see __Example 1__ below).
+In order to switch to the primary state you must set the **CssClass** property of the **RadButton** to **rbPrimaryButton** (see **Example 1** below).
 
-__Example 1__: Configure primary and secondary action buttons for the __Silk__, __Glow__and __Bootstrap__ skins in __RadButton__.
+**Example 1**: Configure primary and secondary action buttons for the **Silk**, **Glow**and **Bootstrap** skins in **RadButton**.
 
 ````ASPNET
 			Silk Skin:

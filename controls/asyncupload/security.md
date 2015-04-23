@@ -1,6 +1,6 @@
 ---
 title: Security
-page_title: Security | UI for ASP.NET AJAX Documentation
+page_title: Security | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Security
 slug: asyncupload/security
 tags: security

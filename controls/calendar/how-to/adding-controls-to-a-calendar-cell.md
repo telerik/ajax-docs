@@ -1,6 +1,6 @@
 ---
 title: Adding Controls to a Calendar Cell
-page_title: Adding Controls to a Calendar Cell | UI for ASP.NET AJAX Documentation
+page_title: Adding Controls to a Calendar Cell | RadCalendar for ASP.NET AJAX Documentation
 description: Adding Controls to a Calendar Cell
 slug: calendar/how-to/adding-controls-to-a-calendar-cell
 tags: adding,controls,to,a,calendar,cell
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-There are two possible approaches for adding controls to a __RadCalendar__ cell:
+There are two possible approaches for adding controls to a **RadCalendar** cell:
 
 * You can add controls to a Day template and assign the template to one or more special days in the calendar. This approach is useful when you want to add controls on a "per day" basis. For details on how to create and use day templates, see [Day Templates]({%slug calendar/templates/radcalendar-day-templates%}).
 

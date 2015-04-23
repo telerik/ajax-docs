@@ -1,6 +1,6 @@
 ---
 title: OnYearSelected
-page_title: OnYearSelected | UI for ASP.NET AJAX Documentation
+page_title: OnYearSelected | RadCalendar for ASP.NET AJAX Documentation
 description: OnYearSelected
 slug: calendar/client-side-programming/events/onyearselected
 tags: onyearselected
@@ -14,9 +14,9 @@ position: 17
 
 ## 
 
-The __OnYearSelected__ client-side event handler is called immediately after a user select an year cell in the MonthYearView.
+The **OnYearSelected** client-side event handler is called immediately after a user select an year cell in the MonthYearView.
 
->note The __OnYearSelected__ event is supported by: __RadMonthYearPicker__ .
+>note The **OnYearSelected** event is supported by: **RadMonthYearPicker** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_newDate()__ |Date object||Returns the new value of the control as a Date object.|
-| __get_oldDate()__ |Date object||Returns the old value of the control as a Date object.|
-| __get_selectedCell()__ |HTML element||Returns the DOM element for the cell that was clicked.|
+| **get_newDate()** |Date object||Returns the new value of the control as a Date object.|
+| **get_oldDate()** |Date object||Returns the old value of the control as a Date object.|
+| **get_selectedCell()** |HTML element||Returns the DOM element for the cell that was clicked.|
 
-The following example uses the __OnYearSelected__ event to display the previous and the new selected year:
+The following example uses the **OnYearSelected** event to display the previous and the new selected year:
 
 ````ASPNET
 	        <script type="text/javascript">

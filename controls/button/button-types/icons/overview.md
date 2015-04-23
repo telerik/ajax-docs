@@ -1,6 +1,6 @@
 ---
 title: Icons Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadButton for ASP.NET AJAX Documentation
 description: Overview
 slug: button/button-types/icons/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This help article showcases how to setup __RadButton's__ icons for its different states and fine tune their position.
+This help article showcases how to setup **RadButton's** icons for its different states and fine tune their position.
 
 1. [Configure RadButton With Icons](#configure-radbutton-with-icons)
 
@@ -20,12 +20,12 @@ This help article showcases how to setup __RadButton's__ icons for its different
 
 ## Configure RadButton With Icons
 
-You can make your button more intuitive by showing an icon on the left- and/or right-hand side of the control (__Example 1__ and __Figure 1__). All the Icon-related properties are controlled through the __RadButton.Icon__ inner property. To display an icon on the button, you need to set either the __Icon.PrimaryIconCssClass__ (__SecondaryIconCssClass__) property, or the __Icon.PrimaryIconUrl__ (__SecondaryIconUrl__) property.
+You can make your button more intuitive by showing an icon on the left- and/or right-hand side of the control (**Example 1** and **Figure 1**). All the Icon-related properties are controlled through the **RadButton.Icon** inner property. To display an icon on the button, you need to set either the **Icon.PrimaryIconCssClass** (**SecondaryIconCssClass**) property, or the **Icon.PrimaryIconUrl** (**SecondaryIconUrl**) property.
 >caption Figure 1: A RadButton with a primary and a secondary icon.
 
 ![Icons](images/button-icons01.png)
 
-__Example 1:__ Configure a __RadButton__ with two icons through the __Icon.PrimaryIconUrl__, __Icon.PrimaryIconCssClass__ and __Icon.SecondaryIconCssClass__ properties.
+**Example 1:** Configure a **RadButton** with two icons through the **Icon.PrimaryIconUrl**, **Icon.PrimaryIconCssClass** and **Icon.SecondaryIconCssClass** properties.
 
 ````ASPNET
 			<style>
@@ -46,20 +46,20 @@ __Example 1:__ Configure a __RadButton__ with two icons through the __Icon.Prima
 
 
 
-__RadButton__ provides an easy way to show different icon when the mouse is over the control, or the button is pressed (__Figure 2__ and __Example 2__). This is achieved through the properties shown in __Table 1__.
+**RadButton** provides an easy way to show different icon when the mouse is over the control, or the button is pressed (**Figure 2** and **Example 2**). This is achieved through the properties shown in **Table 1**.
 
 
 >caption  Table 1: RadButton properties that control the primary and secondary icon for the hovered and/or active state. 
 
 | Button State | Primary Icon Property | Secondary Icon Property |
 | ------ | ------ | ------ |
-|Hovered| __Icon.PrimaryHoveredIconUrl__ | __Icon.SecondaryHoveredIconUrl__ |
-|Active(Pressed)| __Icon.PrimaryPressedIconUrl__ | __Icon.SecondaryPressedIconUrl__ |
+|Hovered| **Icon.PrimaryHoveredIconUrl** | **Icon.SecondaryHoveredIconUrl** |
+|Active(Pressed)| **Icon.PrimaryPressedIconUrl** | **Icon.SecondaryPressedIconUrl** |
 >caption Figure 2: A RadButton can have different icons for its normal, hovered and active state.
 
 ![Rad Button icons normal hovered pressed](images/RadButton_icons_normal_hovered_pressed.png)
 
-__Example 2:__ Setup unique icons for the normal, hovered and active state of a __RadButton__.
+**Example 2:** Setup unique icons for the normal, hovered and active state of a **RadButton**.
 
 ````ASPNET
 			<style>
@@ -82,17 +82,17 @@ __Example 2:__ Setup unique icons for the normal, hovered and active state of a 
 
 ## Fine-tuning RadButton's Icon Position
 
-At first the Icons might not be positioned exactly the way we want, but this can be easily changed by directly setting the properties that control the top, bottom, left or right offset of the respective icon (__Table 2__):
+At first the Icons might not be positioned exactly the way we want, but this can be easily changed by directly setting the properties that control the top, bottom, left or right offset of the respective icon (**Table 2**):
 
 
 >caption  Table 2: RadButton properties that control the offset of the primary and secondary icon. 
 
 | Offset | Primary Icon Property | Secondary Icon Property |
 | ------ | ------ | ------ |
-|Top| __Icon.PrimaryIconTop__ | __Icon.SecondaryIconTop__ |
-|Bottom| __Icon.PrimaryIconBottom__ | __Icon.SecondaryIconBottom__ |
-|Left| __Icon.PrimaryIconLeft__ | __Icon.SecondaryIconLeft__ |
-|PrimaryIconRight| __Icon.PrimaryIconRight__ | __Icon.SecondaryIconRight__ |
+|Top| **Icon.PrimaryIconTop** | **Icon.SecondaryIconTop** |
+|Bottom| **Icon.PrimaryIconBottom** | **Icon.SecondaryIconBottom** |
+|Left| **Icon.PrimaryIconLeft** | **Icon.SecondaryIconLeft** |
+|PrimaryIconRight| **Icon.PrimaryIconRight** | **Icon.SecondaryIconRight** |
 
 Alternatively, a CSS class can be set to the icon, and the position configured using CSS.
 

@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadCaptcha for ASP.NET AJAX Documentation
 description: Events
 slug: captcha/server-side-programming/events
 tags: events
@@ -14,13 +14,13 @@ position: 0
 
 ## CaptchaValidate
 
-The event __CaptchaValidate__ is fired before the control is validated.This event allows you to execute server-side code on RadCaptcha validation, to cancel the default validation mechanismof the captcha control and to specify your own logic for validating the RadCaptcha. The __CaptchaValidateEventArgs__ objectof the __CaptchaValidate__ event exposes the following properties:
+The event **CaptchaValidate** is fired before the control is validated.This event allows you to execute server-side code on RadCaptcha validation, to cancel the default validation mechanismof the captcha control and to specify your own logic for validating the RadCaptcha. The **CaptchaValidateEventArgs** objectof the **CaptchaValidate** event exposes the following properties:
 
-* __CancelDefaultValidation__ - specifies whether the default validation of RadCaptcha will proceed after the event is fired.
+* **CancelDefaultValidation** - specifies whether the default validation of RadCaptcha will proceed after the event is fired.
 
-* __IsValid__ - determines whether the RadCaptcha validation is successful, should be used if __CancelDefaultValidation__ is set to __true__.
+* **IsValid** - determines whether the RadCaptcha validation is successful, should be used if **CancelDefaultValidation** is set to **true**.
 
-The following example demonstrates a RadCaptcha that is validated if the sum of the digits, displayed in the code, is entered in the input.For this purpose the property __CancelDefaultValidation__ is set to __true__ and the new validation logicis implemented in the __CaptchaValidate__ event handler. Finally, __IsValid__ is set according to the result of the validation.
+The following example demonstrates a RadCaptcha that is validated if the sum of the digits, displayed in the code, is entered in the input.For this purpose the property **CancelDefaultValidation** is set to **true** and the new validation logicis implemented in the **CaptchaValidate** event handler. Finally, **IsValid** is set according to the result of the validation.
 
 ````ASPNET
 		<telerik:RadCaptcha ID="RadCaptcha1" runat="server" ValidationGroup="CaptchaValidation" ErrorMessage="Page not valid. The code you entered is not valid."

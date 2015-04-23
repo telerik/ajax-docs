@@ -1,6 +1,6 @@
 ---
 title: OnClientFileUploadRemoved
-page_title: OnClientFileUploadRemoved | UI for ASP.NET AJAX Documentation
+page_title: OnClientFileUploadRemoved | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnClientFileUploadRemoved
 slug: asyncupload/client-side-programming/onclientfileuploadremoved
 tags: onclientfileuploadremoved

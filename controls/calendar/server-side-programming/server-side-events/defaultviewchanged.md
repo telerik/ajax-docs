@@ -1,6 +1,6 @@
 ---
 title: DefaultViewChanged
-page_title: DefaultViewChanged | UI for ASP.NET AJAX Documentation
+page_title: DefaultViewChanged | RadCalendar for ASP.NET AJAX Documentation
 description: DefaultViewChanged
 slug: calendar/server-side-programming/server-side-events/defaultviewchanged
 tags: defaultviewchanged
@@ -14,19 +14,19 @@ position: 4
 
 ## 
 
-The __RadCalendar__control provides the __DefaultViewChanged__server event,which is raised when the __AutoPostBack__ property is set to __true__, and the user changes the currently visible view using the navigation controls in the title bar.
+The **RadCalendar**control provides the **DefaultViewChanged**server event,which is raised when the **AutoPostBack** property is set to **true**, and the user changes the currently visible view using the navigation controls in the title bar.
 
-The __DefaultViewChanged__event handler receives two arguments:
+The **DefaultViewChanged**event handler receives two arguments:
 
-1. The __RadCalendar__control whose view was just changed. This argument is of type object, but can be cast to the __RadCalendar__ type.
+1. The **RadCalendar**control whose view was just changed. This argument is of type object, but can be cast to the **RadCalendar** type.
 
-1. A __DefaultViewChangedEventArgs__ object. This object has the following two properties:
+1. A **DefaultViewChangedEventArgs** object. This object has the following two properties:
 
-* __OldView__ is the CalendarView object for the view that was current before the change.
+* **OldView** is the CalendarView object for the view that was current before the change.
 
-* __NewView__ is the CalendarView object for the current view after the change.
+* **NewView** is the CalendarView object for the current view after the change.
 
-Use the __DefaultViewChanged__event handler to respond to changes in the dates the calendar displays:
+Use the **DefaultViewChanged**event handler to respond to changes in the dates the calendar displays:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: QRCode
-page_title: QRCode | UI for ASP.NET AJAX Documentation
+page_title: QRCode | RadBarcode for ASP.NET AJAX Documentation
 description: QRCode
 slug: barcode/qrcode
 tags: qrcode

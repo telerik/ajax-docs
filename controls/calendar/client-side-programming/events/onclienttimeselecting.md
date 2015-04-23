@@ -1,6 +1,6 @@
 ---
 title: OnClientTimeSelecting
-page_title: OnClientTimeSelecting | UI for ASP.NET AJAX Documentation
+page_title: OnClientTimeSelecting | RadCalendar for ASP.NET AJAX Documentation
 description: OnClientTimeSelecting
 slug: calendar/client-side-programming/events/onclienttimeselecting
 tags: onclienttimeselecting
@@ -14,9 +14,9 @@ position: 14
 
 ## 
 
-It is sometimes necessary for a __TimeView__ selection to be canceled. This may be the case when we have disabled a particular TimeView cell. An example of this is when the user should be able to select given time intervals, but not other.
+It is sometimes necessary for a **TimeView** selection to be canceled. This may be the case when we have disabled a particular TimeView cell. An example of this is when the user should be able to select given time intervals, but not other.
 
->note The __OnClientTimeSelecting__ event is supported by: __RadTimeView__ .
+>note The **OnClientTimeSelecting** event is supported by: **RadTimeView** .
 >
 
 
@@ -29,9 +29,9 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_oldTime()__ |Date object||Returns the time before the user selected a new time value.|
-| __get_newTime()__ |Date object||Returns the newly selected time value.|
-| __set_cancel(value)__ ||bool|Lets you prevent the selection or deselection from occurring.|
+| **get_oldTime()** |Date object||Returns the time before the user selected a new time value.|
+| **get_newTime()** |Date object||Returns the newly selected time value.|
+| **set_cancel(value)** ||bool|Lets you prevent the selection or deselection from occurring.|
 
 In this case, one can use the OnClientTimeSelecting client side event handler, which is cancelable. One usage is demonstrated by the code sample below:
 

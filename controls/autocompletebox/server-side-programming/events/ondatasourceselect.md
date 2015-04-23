@@ -1,6 +1,6 @@
 ---
 title: OnDataSourceSelect
-page_title: OnDataSourceSelect | UI for ASP.NET AJAX Documentation
+page_title: OnDataSourceSelect | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnDataSourceSelect
 slug: autocompletebox/server-side-programming/events/ondatasourceselect
 tags: ondatasourceselect

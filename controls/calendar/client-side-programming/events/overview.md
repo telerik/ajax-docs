@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadCalendar for ASP.NET AJAX Documentation
 description: Overview
 slug: calendar/client-side-programming/events/overview
 tags: overview
@@ -14,30 +14,30 @@ position: 0
 
 ## 
 
-The __RadCalendar__ controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
+The **RadCalendar** controls support a number of client-side events that let you respond to user actions without a postback. The following table lists the various client events, and which controls they apply to:
 
 
 | Event | Applies to | Description |
 | ------ | ------ | ------ |
-|[OnInit]({%slug calendar/client-side-programming/events/oninit%})| __RadCalendar__ |Occurs when the calendar setup is finalized (at the end of the calendar constructor).|
-|[OnLoad]({%slug calendar/client-side-programming/events/onload%})| __RadCalendar__ |Occurs when a page is loaded on the client.|
-|[OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%})| __RadCalendar__ |Occurs immediately before acalendar day cell is displayed when the calendar is rendered as a result of client-side navigation.|
-|[OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%})| __RadCalendar__ |Occurs immediately before the selected dates collection is updated to reflect the selection or de-selection of a date.|
-|[OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%})| __RadCalendar__ , __RadDatePicker__ , __RadTimePicker__ , __RadDateTimePicker__ , __RadMonthYearPicker__ |Occurs immediately after the value of the control's selection has been changed.|
-|[OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%})| __RadCalendar__ |Occurs when the user clicks on a date in the calendar (regardless of whether the date can be selected).|
-|[OnCalendarViewChanging]({%slug calendar/client-side-programming/events/oncalendarviewchanging%})| __RadCalendar__ |Occurs when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.|
-|[OnCalendarViewChanged]({%slug calendar/client-side-programming/events/oncalendarviewchanged%})| __RadCalendar__ |Occurs immediately after the calendar navigates to a new view.|
-|[OnColumnHeaderClick]({%slug calendar/client-side-programming/events/oncolumnheaderclick%})| __RadCalendar__ |Occurs when the user clicks on a column header.|
-|[OnRowHeaderClick]({%slug calendar/client-side-programming/events/onrowheaderclick%})| __RadCalendar__ |Occurs when the user clicks on a row header.|
-|[OnViewSelectorClick]({%slug calendar/client-side-programming/events/onviewselectorclick%})| __RadCalendar__ |Occurs when the user clicks on the view selector.|
-|[OnPopupOpening]({%slug calendar/client-side-programming/events/onpopupopening%})| __RadDatePicker__ , __RadTimePicker__ , __RadDateTimePicker__ , __RadMonthYearPicker__ |Occurs immediately before a popup is displayed, before the selection in the popup is synchronized with the input area.|
-|[OnPopupClosing]({%slug calendar/client-side-programming/events/onpopupclosing%})| __RadDatePicker__ , __RadTimePicker__ , __RadDateTimePicker__ , __RadMonthYearPicker__ |Occurs immediately before the a popup is closed.|
-|[OnClientTimeSelected]({%slug calendar/client-side-programming/events/onclienttimeselected%})| __RadTimeView__ |Occurs when the user selects a time in the time view.|
-|[OnMonthSelected]({%slug calendar/client-side-programming/events/onmonthselected%})| __RadMonthYearPicker__ |Occurs when the user select month cell.|
-|[OnYearSelected]({%slug calendar/client-side-programming/events/onyearselected%})| __RadMonthYearPicker__ |Occurs when the user select year cell.|
-|[OnViewChanged]({%slug calendar/client-side-programming/events/onviewchanged%})| __RadMonthYearPicker__ |Occurs when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.|
+|[OnInit]({%slug calendar/client-side-programming/events/oninit%})| **RadCalendar** |Occurs when the calendar setup is finalized (at the end of the calendar constructor).|
+|[OnLoad]({%slug calendar/client-side-programming/events/onload%})| **RadCalendar** |Occurs when a page is loaded on the client.|
+|[OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%})| **RadCalendar** |Occurs immediately before acalendar day cell is displayed when the calendar is rendered as a result of client-side navigation.|
+|[OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%})| **RadCalendar** |Occurs immediately before the selected dates collection is updated to reflect the selection or de-selection of a date.|
+|[OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%})| **RadCalendar** , **RadDatePicker** , **RadTimePicker** , **RadDateTimePicker** , **RadMonthYearPicker** |Occurs immediately after the value of the control's selection has been changed.|
+|[OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%})| **RadCalendar** |Occurs when the user clicks on a date in the calendar (regardless of whether the date can be selected).|
+|[OnCalendarViewChanging]({%slug calendar/client-side-programming/events/oncalendarviewchanging%})| **RadCalendar** |Occurs when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.|
+|[OnCalendarViewChanged]({%slug calendar/client-side-programming/events/oncalendarviewchanged%})| **RadCalendar** |Occurs immediately after the calendar navigates to a new view.|
+|[OnColumnHeaderClick]({%slug calendar/client-side-programming/events/oncolumnheaderclick%})| **RadCalendar** |Occurs when the user clicks on a column header.|
+|[OnRowHeaderClick]({%slug calendar/client-side-programming/events/onrowheaderclick%})| **RadCalendar** |Occurs when the user clicks on a row header.|
+|[OnViewSelectorClick]({%slug calendar/client-side-programming/events/onviewselectorclick%})| **RadCalendar** |Occurs when the user clicks on the view selector.|
+|[OnPopupOpening]({%slug calendar/client-side-programming/events/onpopupopening%})| **RadDatePicker** , **RadTimePicker** , **RadDateTimePicker** , **RadMonthYearPicker** |Occurs immediately before a popup is displayed, before the selection in the popup is synchronized with the input area.|
+|[OnPopupClosing]({%slug calendar/client-side-programming/events/onpopupclosing%})| **RadDatePicker** , **RadTimePicker** , **RadDateTimePicker** , **RadMonthYearPicker** |Occurs immediately before the a popup is closed.|
+|[OnClientTimeSelected]({%slug calendar/client-side-programming/events/onclienttimeselected%})| **RadTimeView** |Occurs when the user selects a time in the time view.|
+|[OnMonthSelected]({%slug calendar/client-side-programming/events/onmonthselected%})| **RadMonthYearPicker** |Occurs when the user select month cell.|
+|[OnYearSelected]({%slug calendar/client-side-programming/events/onyearselected%})| **RadMonthYearPicker** |Occurs when the user select year cell.|
+|[OnViewChanged]({%slug calendar/client-side-programming/events/onviewchanged%})| **RadMonthYearPicker** |Occurs when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.|
 
->note The embedded __RadDateInput__ object that is used by __RadDatePicker__ , __RadTimePicker__ , and __RadDateTimePicker__ also has a number of client events. See the RadInput documentation for details.
+>note The embedded **RadDateInput** object that is used by **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** also has a number of client events. See the RadInput documentation for details.
 >
 
 

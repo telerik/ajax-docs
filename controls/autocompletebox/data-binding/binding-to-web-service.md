@@ -1,6 +1,6 @@
 ---
 title: Binding to Web service
-page_title: Binding to Web service | UI for ASP.NET AJAX Documentation
+page_title: Binding to Web service | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Binding to Web service
 slug: autocompletebox/data-binding/binding-to-web-service
 tags: binding,to,web,service

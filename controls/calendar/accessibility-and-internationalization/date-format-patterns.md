@@ -1,6 +1,6 @@
 ---
 title: Date Format Patterns
-page_title: Date Format Patterns | UI for ASP.NET AJAX Documentation
+page_title: Date Format Patterns | RadCalendar for ASP.NET AJAX Documentation
 description: Date Format Patterns
 slug: calendar/accessibility-and-internationalization/date-format-patterns
 tags: date,format,patterns
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current __[CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%})__ settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
+The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current **[CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%})** settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
 
 
 | Format Character | Description |

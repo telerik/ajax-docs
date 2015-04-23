@@ -1,6 +1,6 @@
 ---
 title: Render Mode
-page_title: Render Mode | UI for ASP.NET AJAX Documentation
+page_title: Render Mode | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Render Mode
 slug: asyncupload/mobile-support/render-mode
 tags: render,mode

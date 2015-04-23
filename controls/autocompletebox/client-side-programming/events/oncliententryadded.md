@@ -1,6 +1,6 @@
 ---
 title: OnClientEntryAdded
-page_title: OnClientEntryAdded | UI for ASP.NET AJAX Documentation
+page_title: OnClientEntryAdded | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnClientEntryAdded
 slug: autocompletebox/client-side-programming/events/oncliententryadded
 tags: oncliententryadded

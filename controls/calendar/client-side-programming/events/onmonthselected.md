@@ -1,6 +1,6 @@
 ---
 title: OnMonthSelected
-page_title: OnMonthSelected | UI for ASP.NET AJAX Documentation
+page_title: OnMonthSelected | RadCalendar for ASP.NET AJAX Documentation
 description: OnMonthSelected
 slug: calendar/client-side-programming/events/onmonthselected
 tags: onmonthselected
@@ -14,9 +14,9 @@ position: 18
 
 ## 
 
-The __OnMonthSelected__ client-side event handler is called immediately after a user select a month cell in the MonthYearView.
+The **OnMonthSelected** client-side event handler is called immediately after a user select a month cell in the MonthYearView.
 
->note The __OnMonthSelected__ event is supported by: __RadMonthYearPicker__ .
+>note The **OnMonthSelected** event is supported by: **RadMonthYearPicker** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_newDate()__ |Date object||Returns the new value of the control as a Date object.|
-| __get_oldDate()__ |Date object||Returns the old value of the control as a Date object.|
-| __get_selectedCell()__ |HTML element||Returns the DOM element for the cell that was clicked.|
+| **get_newDate()** |Date object||Returns the new value of the control as a Date object.|
+| **get_oldDate()** |Date object||Returns the old value of the control as a Date object.|
+| **get_selectedCell()** |HTML element||Returns the DOM element for the cell that was clicked.|
 
-The following example uses the __OnMonthSelected__ event to display the previous and the new selected month:
+The following example uses the **OnMonthSelected** event to display the previous and the new selected month:
 
 ````ASPNET
 	        <script type="text/javascript">

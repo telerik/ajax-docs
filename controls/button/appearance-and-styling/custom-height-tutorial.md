@@ -1,6 +1,6 @@
 ---
 title: Custom Height Tutorial
-page_title: Custom Height Tutorial | UI for ASP.NET AJAX Documentation
+page_title: Custom Height Tutorial | RadButton for ASP.NET AJAX Documentation
 description: Custom Height Tutorial
 slug: button/appearance-and-styling/custom-height-tutorial
 tags: custom,height,tutorial
@@ -14,11 +14,11 @@ position: 4
 
 ## RadButton Custom Height Tutorial
 
-The __StandardButton__ (__RadButton__ with __ButtonType__="__StandardButton__") has a fixed height, which by default is 22px.
+The **StandardButton** (**RadButton** with **ButtonType**="**StandardButton**") has a fixed height, which by default is 22px.
 
-In Q1, 2011 we introduced a way to have a __StandardButton__ with a height of 65px (__Figure 1__). This allows you to use bigger icons (24x24 pixels), and to place the content (icons and text) horizontally or vertically.
+In Q1, 2011 we introduced a way to have a **StandardButton** with a height of 65px (**Figure 1**). This allows you to use bigger icons (24x24 pixels), and to place the content (icons and text) horizontally or vertically.
 
-__Example 1__: Configure a custom height of 65px for the __RadButton__ with__ButtonType__="__StandardButton__").
+**Example 1**: Configure a custom height of 65px for the **RadButton** with**ButtonType**="**StandardButton**").
 
 ````ASPNET
 	    <telerik:radbutton id="RadButton1" runat="server" text="Default Button Height 65px"
@@ -35,7 +35,7 @@ __Example 1__: Configure a custom height of 65px for the __RadButton__ with__But
 
 However if you want to use a button with a height different than 65 or 22 pixels, you will need to modify the CSS of the RadButton and create new sprites. This tutorial demonstrates how to do this.
 
-__New Sprite__
+**New Sprite**
 
 You will need to set a new CSS class (customHeight40) which will be used to cascade through, and to override the existing CSS settings and to set new height. In the current case we will create a button with 40px height.
 
@@ -49,7 +49,7 @@ You will need to set a new CSS class (customHeight40) which will be used to casc
 
 Next step is to create a new image sprite, based on Telerik Default skin theme, where the button height is sized to 40px. You could use Adobe Photoshop or another image editor software. The original RadButton sprite has six parts for the default button look. First row contains normal state rounded right corner background; second row contains central and left part of the button background. Third row contains hover state rounded right corner background; fourth row contains central and left part of the button background. Fifth row contains active state rounded right corner background; Sixth row contains central and left part of the button background.![](images/button-customHeight.gif)
 
-__Playing with CSS__
+**Playing with CSS**
 
 Now that we have the sprite, it is necessary to set new height to the button with the specific class and also set the new background positions. This is done by using our additional CSS class - customHeight40. Using an additional CSS class will allow us to keep the 65px button and in the same time to create as many different height buttons as we need it e.g. (cutomHeight40, cutomHeight45, cutomHeight50), of course you could name the CSS classes on your choice.
 

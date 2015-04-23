@@ -1,6 +1,6 @@
 ---
 title: ContentTemplate
-page_title: ContentTemplate | UI for ASP.NET AJAX Documentation
+page_title: ContentTemplate | RadButton for ASP.NET AJAX Documentation
 description: ContentTemplate
 slug: button/button-types/contenttemplate
 tags: contenttemplate
@@ -12,7 +12,7 @@ position: 4
 
 
 
-This help article showcases how to add complex content (server-side controls and HTML elements) in a __RadButton__ instead of plain text. You can do this both in the markup, or in the code behind:
+This help article showcases how to add complex content (server-side controls and HTML elements) in a **RadButton** instead of plain text. You can do this both in the markup, or in the code behind:
 
 * [Add Elements to RadButton in the Markup](#add-elements-to-radbutton-in-the-markup)
 
@@ -20,9 +20,9 @@ This help article showcases how to add complex content (server-side controls and
 
 ## Add Elements to RadButton in the Markup
 
-In order to add controls to the __RadButton__ in the markup, you should place them directly in the composite __ContentTemplate__ property (__Example 1__).
+In order to add controls to the **RadButton** in the markup, you should place them directly in the composite **ContentTemplate** property (**Example 1**).
 
-__Example 1__: Adding controls to the __ContentTemplate__ of a __RadButton__ in the markup.
+**Example 1**: Adding controls to the **ContentTemplate** of a **RadButton** in the markup.
 
 ````ASPNET
 		<telerik:RadButton runat="server" ID="RadButton1">
@@ -38,9 +38,9 @@ __Example 1__: Adding controls to the __ContentTemplate__ of a __RadButton__ in 
 
 ## Add Elements to RadButton from the Code-behind
 
-You can add controls to the __RadButton__ from the code-behind in two ways:
+You can add controls to the **RadButton** from the code-behind in two ways:
 
-* Add elements to the __Controls__ collection of the __RadButton__ (__Example 2__).__Example 2__: Adding controls to the __Controls__ collection of __RadButton__ from code behind.
+* Add elements to the **Controls** collection of the **RadButton** (**Example 2**).**Example 2**: Adding controls to the **Controls** collection of **RadButton** from code behind.
 
 
 
@@ -67,7 +67,7 @@ You can add controls to the __RadButton__ from the code-behind in two ways:
 ````
 
 
-* Set the __ContentTemplate__ property to an instance of a class that implements the __ITemplate__ interface (__Example 3__).__Example 3__: Adding controls to the __RadButton__ by using the __ITemplate__ class.
+* Set the **ContentTemplate** property to an instance of a class that implements the **ITemplate** interface (**Example 3**).**Example 3**: Adding controls to the **RadButton** by using the **ITemplate** class.
 
 
 

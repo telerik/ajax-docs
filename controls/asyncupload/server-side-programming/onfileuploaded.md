@@ -1,6 +1,6 @@
 ---
 title: OnFileUploaded
-page_title: OnFileUploaded | UI for ASP.NET AJAX Documentation
+page_title: OnFileUploaded | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnFileUploaded
 slug: asyncupload/server-side-programming/onfileuploaded
 tags: onfileuploaded

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Data Binding Overview | UI for ASP.NET AJAX Documentation
+page_title: Data Binding Overview | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET AutoCompleteBox Data Binding Overview
 slug: autocompletebox/data-binding/overview
 tags: overview, autocompletebox

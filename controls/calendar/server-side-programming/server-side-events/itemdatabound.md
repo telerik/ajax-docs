@@ -1,6 +1,6 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: ItemDataBound | RadCalendar for ASP.NET AJAX Documentation
 description: ItemDataBound
 slug: calendar/server-side-programming/server-side-events/itemdatabound
 tags: itemdatabound
@@ -14,13 +14,13 @@ position: 8
 
 ## 
 
-__RadTimePicker__ and __RadDateTimePicker__ provide the __ItemDataBound__ server event, which occurs when an item in the embedded time view control is bound to its data. This event provides the last opportunity to access the data item before it is displayed on the client. After this event is raised, the data item is no longer available.
+**RadTimePicker** and **RadDateTimePicker** provide the **ItemDataBound** server event, which occurs when an item in the embedded time view control is bound to its data. This event provides the last opportunity to access the data item before it is displayed on the client. After this event is raised, the data item is no longer available.
 
-The __ItemDataBound__ event handler receives two arguments:
+The **ItemDataBound** event handler receives two arguments:
 
 1. The control whose value has just changed. This argument is of type object, but can be cast to the appropriate type.
 
-1. A __TimePickerEventArgs__ object. This object has an __Item__ property, which lets you access the __DataListItem__ for the newly-created item.
+1. A **TimePickerEventArgs** object. This object has an **Item** property, which lets you access the **DataListItem** for the newly-created item.
 
 You can use this event to customize the appearance of items in the time picker based on their value:
 

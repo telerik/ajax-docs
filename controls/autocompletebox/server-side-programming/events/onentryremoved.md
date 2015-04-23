@@ -1,6 +1,6 @@
 ---
 title: OnEntryRemoved
-page_title: OnEntryRemoved | UI for ASP.NET AJAX Documentation
+page_title: OnEntryRemoved | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnEntryRemoved
 slug: autocompletebox/server-side-programming/events/onentryremoved
 tags: onentryremoved

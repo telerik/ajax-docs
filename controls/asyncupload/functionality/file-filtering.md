@@ -1,6 +1,6 @@
 ---
 title: File Filtering
-page_title: File Filtering | UI for ASP.NET AJAX Documentation
+page_title: File Filtering | RadAsyncUpload for ASP.NET AJAX Documentation
 description: File Filtering
 slug: asyncupload/functionality/file-filtering
 tags: file,filtering

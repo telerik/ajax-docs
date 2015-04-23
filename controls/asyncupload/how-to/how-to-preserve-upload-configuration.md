@@ -1,6 +1,6 @@
 ---
 title: How to Preserve Upload Configuration
-page_title: How to Preserve Upload Configuration | UI for ASP.NET AJAX Documentation
+page_title: How to Preserve Upload Configuration | RadAsyncUpload for ASP.NET AJAX Documentation
 description: How to Preserve Upload Configuration
 slug: asyncupload/how-to/how-to-preserve-upload-configuration
 tags: how,to,preserve,upload,configuration

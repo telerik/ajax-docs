@@ -1,6 +1,6 @@
 ---
 title: SelectionChanged
-page_title: SelectionChanged | UI for ASP.NET AJAX Documentation
+page_title: SelectionChanged | RadCalendar for ASP.NET AJAX Documentation
 description: SelectionChanged
 slug: calendar/server-side-programming/server-side-events/selectionchanged
 tags: selectionchanged
@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-The __RadCalendar__control provides the __SelectionChanged__server event,which is raised when the __AutoPostBack__ property is set to __true__, and the user changes the current selection by selecting or unselecting a date in the calendar.
+The **RadCalendar**control provides the **SelectionChanged**server event,which is raised when the **AutoPostBack** property is set to **true**, and the user changes the current selection by selecting or unselecting a date in the calendar.
 
-The __SelectionChanged__event handler receives two arguments:
+The **SelectionChanged**event handler receives two arguments:
 
-1. The __RadCalendar__control whose selection was just changed. This argument is of type object, but can be cast to the __RadCalendar__ type.
+1. The **RadCalendar**control whose selection was just changed. This argument is of type object, but can be cast to the **RadCalendar** type.
 
-1. A __SelectedDatesEventArgs__ object. This object has a __SelectedDates__ property which is a collection that lists all the dates in the current selection.
+1. A **SelectedDatesEventArgs** object. This object has a **SelectedDates** property which is a collection that lists all the dates in the current selection.
 
-Use the __SelectionChanged__event handler to respond to changes in the calendar's selection:
+Use the **SelectionChanged**event handler to respond to changes in the calendar's selection:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnPopupOpening
-page_title: OnPopupOpening | UI for ASP.NET AJAX Documentation
+page_title: OnPopupOpening | RadCalendar for ASP.NET AJAX Documentation
 description: OnPopupOpening
 slug: calendar/client-side-programming/events/onpopupopening
 tags: onpopupopening
@@ -14,9 +14,9 @@ position: 12
 
 ## 
 
-The __OnPopupOpening__ client-side event handler is called immediately before a popup calendar or time view is initialized to the current selection in the input area and then displayed.
+The **OnPopupOpening** client-side event handler is called immediately before a popup calendar or time view is initialized to the current selection in the input area and then displayed.
 
->note The __OnPopupOpening__ event is supported by: __RadDatePicker__ , __RadTimePicker__ , and __RadDateTimePicker__ .
+>note The **OnPopupOpening** event is supported by: **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_popupControl()__ |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to be displayed.|
-| __set_cancelCalendarSynchronization(value)__ ||bool|Lets you prevent the popup control from synchronizing its value to the value in the input area.|
-| __set_cancel(value)__ ||bool|Lets you prevent the popup from appearing.|
+| **get_popupControl()** |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to be displayed.|
+| **set_cancelCalendarSynchronization(value)** ||bool|Lets you prevent the popup control from synchronizing its value to the value in the input area.|
+| **set_cancel(value)** ||bool|Lets you prevent the popup from appearing.|
 
-The following example uses the __OnPopupOpening__ event to initialize the selection if the input area is empty:
+The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:
 
 ````ASPNET
 	<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadButton for ASP.NET AJAX Documentation
 description: Skins
 slug: button/appearance-and-styling/skins
 tags: skins
@@ -12,16 +12,16 @@ position: 0
 
 
 
-__RadButton__uses __skins__ to control its overall look-and-feel.A skin is a set of images and a CSS stylesheet that can be applied to the controlelements (items, images, etc.) and defines their look and feel.
+**RadButton**uses **skins** to control its overall look-and-feel.A skin is a set of images and a CSS stylesheet that can be applied to the controlelements (items, images, etc.) and defines their look and feel.
 
-To apply a skin to a __RadButton__control, set its __Skin__ property.
+To apply a skin to a **RadButton**control, set its **Skin** property.
 
-__RadButton__ is installed with a number of preset skins. These are shown below:
+**RadButton** is installed with a number of preset skins. These are shown below:
 >caption 
 
 ![radbutton-skins](images/radbutton-skins.png)
 
->note The __Hay__ , __Forest__ , __Sitefinity__ and __Transparent__ skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of __Q1 2014__ .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
@@ -33,9 +33,9 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 
 1. Drag and drop the CSS file from the Project Explorer onto your Web page.
 
-1. Set the __EnableEmbeddedSkins__ property of the control to __False__.
+1. Set the **EnableEmbeddedSkins** property of the control to **False**.
 
-The stylesheet for a __RadButton__skin has the name __Button.[SkinName].css__ and canbe found in the __...Skins/[SkinName]__ directory. The images are found inthe __...Skins/[SkinName]/Button__ directory. For example, the stylesheet for the "Black" skin iscalled Button.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/Button directory.The images are referenced by name from within the stylesheet.
+The stylesheet for a **RadButton**skin has the name **Button.[SkinName].css** and canbe found in the **...Skins/[SkinName]** directory. The images are found inthe **...Skins/[SkinName]/Button** directory. For example, the stylesheet for the "Black" skin iscalled Button.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/Button directory.The images are referenced by name from within the stylesheet.
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: OnDateClick
-page_title: OnDateClick | UI for ASP.NET AJAX Documentation
+page_title: OnDateClick | RadCalendar for ASP.NET AJAX Documentation
 description: OnDateClick
 slug: calendar/client-side-programming/events/ondateclick
 tags: ondateclick
@@ -14,9 +14,9 @@ position: 6
 
 ## 
 
-The __OnDateClick__client-side event handler is called when the user clicks on a date in the day matrix or presses the ENTER key while a date has focus. If the day is selectable, this event occurs before the __OnDateSelecting__ event. If the day is not selectable (but in the valid range), this event occurs, but not the __OnDateSelecting__ event.
+The **OnDateClick**client-side event handler is called when the user clicks on a date in the day matrix or presses the ENTER key while a date has focus. If the day is selectable, this event occurs before the **OnDateSelecting** event. If the day is not selectable (but in the valid range), this event occurs, but not the **OnDateSelecting** event.
 
->note The __OnDateClick__ event is supported by: __RadCalendar__ .
+>note The **OnDateClick** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,11 +29,11 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_renderDay()__ |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day that was just clicked.|
-| __get_domEvent()__ |DOM event object||Returns the DOM event object for the mouse click event.|
-| __set_cancel(value)__ ||bool|Lets you prevent the click from selecting the date that is clicked. However, even after calling __set_cancel(true)__ , focus still moves to the clicked date.|
+| **get_renderDay()** |[RenderDay client-side object]({%slug calendar/client-side-programming/renderday-object%})||Returns the client-side RenderDay object that represents the day that was just clicked.|
+| **get_domEvent()** |DOM event object||Returns the DOM event object for the mouse click event.|
+| **set_cancel(value)** ||bool|Lets you prevent the click from selecting the date that is clicked. However, even after calling **set_cancel(true)** , focus still moves to the clicked date.|
 
-The following example uses the __OnDateClick__event to confirm the selection of a date:
+The following example uses the **OnDateClick**event to confirm the selection of a date:
 
 ````ASPNET
 	<script type="text/javascript">

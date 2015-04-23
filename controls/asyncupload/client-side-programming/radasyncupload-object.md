@@ -1,6 +1,6 @@
 ---
 title: RadAsyncUpload Object
-page_title: RadAsyncUpload Object | UI for ASP.NET AJAX Documentation
+page_title: RadAsyncUpload Object | RadAsyncUpload for ASP.NET AJAX Documentation
 description: RadAsyncUpload Object
 slug: asyncupload/client-side-programming/radasyncupload-object
 tags: radasyncupload,object

@@ -1,6 +1,6 @@
 ---
 title: Configuring the Embedded Time View
-page_title: Configuring the Embedded Time View | UI for ASP.NET AJAX Documentation
+page_title: Configuring the Embedded Time View | RadCalendar for ASP.NET AJAX Documentation
 description: Configuring the Embedded Time View
 slug: calendar/raddatepicker,-radtimepicker,-raddatetimepicker-and-radmonthyearpicker/configuring-the-embedded-time-view
 tags: configuring,the,embedded,time,view
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-By default, the embedded __RadTimeView__ control that the __RadTimePicker__ and __RadDateTimePicker__ controls display as a popup has a header area that says "Time Picker", and three columns of times that the user can select. The times range from 12:00 AM through 11:00 PM, with an entry for every hour:![RadTimeView](images/calendar_timeview.png)
+By default, the embedded **RadTimeView** control that the **RadTimePicker** and **RadDateTimePicker** controls display as a popup has a header area that says "Time Picker", and three columns of times that the user can select. The times range from 12:00 AM through 11:00 PM, with an entry for every hour:![RadTimeView](images/calendar_timeview.png)
 
-* To change the text of the header, set the __HeaderText__ property. If you set __HeaderText__ to an empty string, the header does not appear. You can also hide the header by setting the __ShowHeader__ property.
+* To change the text of the header, set the **HeaderText** property. If you set **HeaderText** to an empty string, the header does not appear. You can also hide the header by setting the **ShowHeader** property.
 
-* To change the range of times displayed, use the __StartTime__ and __EndTime__ properties.
+* To change the range of times displayed, use the **StartTime** and **EndTime** properties.
 
-* To change the interval between adjacent times in the time view, set the __Interval__ property. The valid values are between __StartTime__ and __EndTime__ and less then__EndTime - StartTime__.
+* To change the interval between adjacent times in the time view, set the **Interval** property. The valid values are between **StartTime** and **EndTime** and less then**EndTime - StartTime**.
 
-* To change the number of columns, set the __Columns__ property.
+* To change the number of columns, set the **Columns** property.
 
-You can set these properties at design time by expanding the __TimeView__ property:
+You can set these properties at design time by expanding the **TimeView** property:
 
 ````ASPNET
 	    

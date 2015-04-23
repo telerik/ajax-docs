@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: AutoCompleteBox Overview | UI for ASP.NET AJAX Documentation
+page_title: RadAutoCompleteBox Overview | UI for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET AutoCompleteBox Overview
 slug: autocompletebox/overview
 tags: overview

@@ -1,6 +1,6 @@
 ---
 title: Web Pages Validation
-page_title: Web Pages Validation | UI for ASP.NET AJAX Documentation
+page_title: Web Pages Validation | RadCalendar for ASP.NET AJAX Documentation
 description: Web Pages Validation
 slug: calendar/how-to/web-pages-validation
 tags: web,pages,validation
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-The __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__ controls can work seamlessly with standard ASP.NET validation controls.
+The **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker** controls can work seamlessly with standard ASP.NET validation controls.
 
-The following example shows a sample period selection page.The user has to enter two dates, the second one being after the first. It uses two __RequiredFieldValidator__ instances to ensure the date pickers are not left empty.A __CompareValidator__ ensures that the second date is greater than the first one.
+The following example shows a sample period selection page.The user has to enter two dates, the second one being after the first. It uses two **RequiredFieldValidator** instances to ensure the date pickers are not left empty.A **CompareValidator** ensures that the second date is greater than the first one.
 
 ````ASPNET
 	<table bgcolor="#cccccc">
@@ -64,8 +64,8 @@ The following example shows a sample period selection page.The user has to enter
 
 
 
->note You need to set the __Type__ property of the __CompareValidator__ to "Date" in order to work with a __RadDatePicker__ . When working with __RadTimePicker__ , or __RadDateTimePicker__ control, the property must be set to "String".
+>note You need to set the **Type** property of the **CompareValidator** to "Date" in order to work with a **RadDatePicker** . When working with **RadTimePicker** , or **RadDateTimePicker** control, the property must be set to "String".
 >
 
 
-For a live example of using validators with a __RadDatePicker__ control, see [Date Picker Validation](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/DatePicker/Validation/DefaultCS.aspx).
+For a live example of using validators with a **RadDatePicker** control, see [Date Picker Validation](http://demos.telerik.com/aspnet-ajax/Calendar/Examples/DatePicker/Validation/DefaultCS.aspx).

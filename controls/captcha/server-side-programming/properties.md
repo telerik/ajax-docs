@@ -1,6 +1,6 @@
 ---
 title: Properties
-page_title: Properties | UI for ASP.NET AJAX Documentation
+page_title: Properties | RadCaptcha for ASP.NET AJAX Documentation
 description: Properties
 slug: captcha/server-side-programming/properties
 tags: properties
@@ -23,50 +23,50 @@ position: 1
 
 | Property | Description |
 | ------ | ------ |
-| __Common__ ||
-| __ErrorMessage__ |The error message text generated when the condition being validated fails.|
-| __ProtectionMode__ |Gets or sets which strategies are/to be used for Spam Protection. The available modes are:
+| **Common** ||
+| **ErrorMessage** |The error message text generated when the condition being validated fails.|
+| **ProtectionMode** |Gets or sets which strategies are/to be used for Spam Protection. The available modes are:
 
-*  __Captcha__ 
+*  **Captcha** 
 
-*  __InvisibleTextBox__ 
+*  **InvisibleTextBox** 
 
-*  __MinimumTimeout__ |
-| __CaptchaMaxTimeout__ |Gets or sets the maximum number of minutes CAPTCHA will be cached and valid.|
-| __CaptchaTextBoxLabel__ |Gets or sets the label which explains that the user needs to input the CAPTCHA text box.|
-| __ForeColor__ |Gets or sets the fore color of the error message.|
-| __Display__ |Gets or sets display behavior of error message. The available modes are:
+*  **MinimumTimeout** |
+| **CaptchaMaxTimeout** |Gets or sets the maximum number of minutes CAPTCHA will be cached and valid.|
+| **CaptchaTextBoxLabel** |Gets or sets the label which explains that the user needs to input the CAPTCHA text box.|
+| **ForeColor** |Gets or sets the fore color of the error message.|
+| **Display** |Gets or sets display behavior of error message. The available modes are:
 
-*  __None__ (Validator content never displayed inline)
+*  **None** (Validator content never displayed inline)
 
-*  __Static__ (Validator content physically part of the page layout)
+*  **Static** (Validator content physically part of the page layout)
 
-*  __Dynamic__ (Validator content dynamically added to the page when validation fails)|
-| __ValidatedTextBoxID__ |Gets or sets the ID of the textbox to be validated, when only the RadCaptcha image is rendered on the page. (To render only the CaptchaImage and use Custom TextBox for user input, the CaptchaImage-RenderImageOnly property has to be set to true.)|
-| __ValidatedTextBox__ |Read-only. Gets the TextBox that is being validated by the RadCaptcha|
-| __IgnoreCase__ |Gets or sets a bool value indicating whether the RadCaptcha should ignore the case of the letters or not. By default it is false – the RadCaptcha does not make a difference between upper and lower case letters.|
-| __EnableRefreshImage__ |Gets or sets a bool value indicating whether or not the RadCaptchaImage can be refreshed. When set to true a LinkButton is rendered on the page that, when clicked, generates new image. The __'rcRefreshImage'__ CSS class is used for applying custom skinning to the LinkButton.|
-| __CaptchaLinkButtonText__ |Gets or sets the text of the LinkButton that generates a new CaptchaImage.|
+*  **Dynamic** (Validator content dynamically added to the page when validation fails)|
+| **ValidatedTextBoxID** |Gets or sets the ID of the textbox to be validated, when only the RadCaptcha image is rendered on the page. (To render only the CaptchaImage and use Custom TextBox for user input, the CaptchaImage-RenderImageOnly property has to be set to true.)|
+| **ValidatedTextBox** |Read-only. Gets the TextBox that is being validated by the RadCaptcha|
+| **IgnoreCase** |Gets or sets a bool value indicating whether the RadCaptcha should ignore the case of the letters or not. By default it is false – the RadCaptcha does not make a difference between upper and lower case letters.|
+| **EnableRefreshImage** |Gets or sets a bool value indicating whether or not the RadCaptchaImage can be refreshed. When set to true a LinkButton is rendered on the page that, when clicked, generates new image. The **'rcRefreshImage'** CSS class is used for applying custom skinning to the LinkButton.|
+| **CaptchaLinkButtonText** |Gets or sets the text of the LinkButton that generates a new CaptchaImage.|
 |||
-| __<CaptchaImage> Specific__ ||
-| __AudioFilesPath__ |Gets or sets the path to the directory where the audio (.wav) files are located. The default path is __~/App_Data/RadCaptcha__ where tilde (~) represents the root of the web application.|
-| __EnableAudioNoise__ |Gets or sets a boolean value indicating whether a noise should be added to the CaptchaAudio. The property __EnableCaptchaAudio__ needs to be set to __true__ in order for this to work.|
-| __EnableCaptchaAudio__ |Gets or sets the bool value indicating whether the CaptchaAudio will be enabled. When set to true a LinkButton is rendered that, when clicked, retrieves the audio code. Use the __'.rcCaptchaAudioLink'__ selector to apply custom skinning to the LinkButton.|
-| __UseAudioFiles__ |Gets or sets a bool value indicating whether the audio code will be generated by concatenation of the audio files from a given folder.|
-| __FontWarp__ |Amount of random font warping to apply to rendered text:
+| **<CaptchaImage> Specific** ||
+| **AudioFilesPath** |Gets or sets the path to the directory where the audio (.wav) files are located. The default path is **~/App_Data/RadCaptcha** where tilde (~) represents the root of the web application.|
+| **EnableAudioNoise** |Gets or sets a boolean value indicating whether a noise should be added to the CaptchaAudio. The property **EnableCaptchaAudio** needs to be set to **true** in order for this to work.|
+| **EnableCaptchaAudio** |Gets or sets the bool value indicating whether the CaptchaAudio will be enabled. When set to true a LinkButton is rendered that, when clicked, retrieves the audio code. Use the **'.rcCaptchaAudioLink'** selector to apply custom skinning to the LinkButton.|
+| **UseAudioFiles** |Gets or sets a bool value indicating whether the audio code will be generated by concatenation of the audio files from a given folder.|
+| **FontWarp** |Amount of random font warping to apply to rendered text:
 
-*  __None__ 
+*  **None** 
 
-*  __Low__ 
+*  **Low** 
 
-*  __Medium__ 
+*  **Medium** 
 
-*  __High__ 
+*  **High** 
 
-*  __Extreme__ |
-| __BackgroundNoise__ |Amount of background noise to add to rendered image|
-| __LineNoise__ |Amount of curved line noise to add to rendered image|
-| __FontFamily__ |Sets the font used in the CAPTCHA image. This is the default list of fonts if none is provided:
+*  **Extreme** |
+| **BackgroundNoise** |Amount of background noise to add to rendered image|
+| **LineNoise** |Amount of curved line noise to add to rendered image|
+| **FontFamily** |Sets the font used in the CAPTCHA image. This is the default list of fonts if none is provided:
 
 * Arial
 
@@ -101,35 +101,35 @@ position: 1
 * Trebuchet MS
 
 * Verdana|
-| __UseRandomFont__ |Gets or sets a bool value indicating whether a random font will be used to generate the __CaptchaImage__ text. The font is selected randomly from the __FontWhiteList__ .|
-| __TextChars__ |Sets the characters used in the CAPTCHA image:
+| **UseRandomFont** |Gets or sets a bool value indicating whether a random font will be used to generate the **CaptchaImage** text. The font is selected randomly from the **FontWhiteList** .|
+| **TextChars** |Sets the characters used in the CAPTCHA image:
 
-*  __LettersAndNumbers__ 
+*  **LettersAndNumbers** 
 
-*  __Letters__ 
+*  **Letters** 
 
-*  __Numbers__ 
+*  **Numbers** 
 
-*  __CustomCharSet__ |
-| __TextColor__ |Gets or sets the color of the CAPTCHA's text (System.Drawing.Color)|
-| __BackgroundColor__ |Gets or sets the background color of the CaptchaImage (System.Drawing.Color).|
-| __Height__ |Gets or sets the height of the CAPTCHA image.|
-| __Width__ |Gets or sets the width of the CAPTCHA image.|
-| __ImageAlternativeText__ |Gets or sets the ALT attribute of the IMG tag in the HTML|
-| __ImageCssClass__ |Gets or sets the CSS class of the CAPTCHA image|
-| __TextLength__ |Gets or sets the number of CaptchaChars used in the CAPTCHA text.|
-| __FontWhiteList__ |Gets or sets a semicolon-delimited list of valid fonts to use when no font is provided|
-| __ImageStorageLocation__ |Gets or sets the storage location for the CaptchaImage (see note below):
+*  **CustomCharSet** |
+| **TextColor** |Gets or sets the color of the CAPTCHA's text (System.Drawing.Color)|
+| **BackgroundColor** |Gets or sets the background color of the CaptchaImage (System.Drawing.Color).|
+| **Height** |Gets or sets the height of the CAPTCHA image.|
+| **Width** |Gets or sets the width of the CAPTCHA image.|
+| **ImageAlternativeText** |Gets or sets the ALT attribute of the IMG tag in the HTML|
+| **ImageCssClass** |Gets or sets the CSS class of the CAPTCHA image|
+| **TextLength** |Gets or sets the number of CaptchaChars used in the CAPTCHA text.|
+| **FontWhiteList** |Gets or sets a semicolon-delimited list of valid fonts to use when no font is provided|
+| **ImageStorageLocation** |Gets or sets the storage location for the CaptchaImage (see note below):
 
-*  __Cache__ 
+*  **Cache** 
 
-*  __Session__ |
-| __RenderImageOnly__ |Gets or sets bool value that indicates whether the RadCaptcha image will only be rendered on the page (without the CaptchaTextBox and Label). When set to true only the image is rendered on the page. By setting the “ValidatedTextBoxID” property of the RadCaptcha, the user can choose a custom TextBox where the Captcha code will be entered and validated.|
-| __CharSet__ |Gets or sets a custom Character Set, from which the characters used to render the CaptchaImage, are randomly chosen. To use this property you must set the “CaptchaImage-TextChars” to CaptchaPossibleChars.CustomCharSet. The CharSet must contain at least 15 characters.|
+*  **Session** |
+| **RenderImageOnly** |Gets or sets bool value that indicates whether the RadCaptcha image will only be rendered on the page (without the CaptchaTextBox and Label). When set to true only the image is rendered on the page. By setting the “ValidatedTextBoxID” property of the RadCaptcha, the user can choose a custom TextBox where the Captcha code will be entered and validated.|
+| **CharSet** |Gets or sets a custom Character Set, from which the characters used to render the CaptchaImage, are randomly chosen. To use this property you must set the “CaptchaImage-TextChars” to CaptchaPossibleChars.CustomCharSet. The CharSet must contain at least 15 characters.|
 |||
-| __AutoBot Discovery specific Properties__ ||
-| __InvisibleTextBoxLabel__ |Gets or sets the hidden textbox strategy label text.|
-| __MinTimeout__ |Gets or sets the minimum number of seconds form must be displayed before it is valid. If you're too fast, you must be a robot.|
+| **AutoBot Discovery specific Properties** ||
+| **InvisibleTextBoxLabel** |Gets or sets the hidden textbox strategy label text.|
+| **MinTimeout** |Gets or sets the minimum number of seconds form must be displayed before it is valid. If you're too fast, you must be a robot.|
 
 ## TextBoxDecoration and TextBoxLabelDecoration
 
@@ -138,23 +138,23 @@ position: 1
 
 | Property | Description |
 | ------ | ------ |
-| __AccessKey__ |Gets or sets the access key that allows you to quickly navigate to the control.
+| **AccessKey** |Gets or sets the access key that allows you to quickly navigate to the control.
 
 >note RadCaptcha's AccessKey value will be used instead if set.
 >
 |
-| __BackColor__ |Gets or sets the background color of the control.|
-| __BorderColor__ |Gets or sets the border color of the control.|
-| __BorderStyle__ |Gets or sets the border style of the control.|
-| __BorderWidth__ |Gets or sets the border width of the control.|
-| __CssClass__ |Gets or sets the Cascading Style Sheet (CSS) class rendered by the control.|
-| __Font__ |Gets the font properties associated with the control.|
-| __ForeColor__ |Gets or sets the foreground color (typically the color of the text) of the control.|
-| __Height__ |Gets or sets the height of the control.|
-| __TabIndex__ |Gets or sets the tab index of the control.
+| **BackColor** |Gets or sets the background color of the control.|
+| **BorderColor** |Gets or sets the border color of the control.|
+| **BorderStyle** |Gets or sets the border style of the control.|
+| **BorderWidth** |Gets or sets the border width of the control.|
+| **CssClass** |Gets or sets the Cascading Style Sheet (CSS) class rendered by the control.|
+| **Font** |Gets the font properties associated with the control.|
+| **ForeColor** |Gets or sets the foreground color (typically the color of the text) of the control.|
+| **Height** |Gets or sets the height of the control.|
+| **TabIndex** |Gets or sets the tab index of the control.
 
->note  __RadCaptcha's__ TabIndex value will be used instead if set.
+>note  **RadCaptcha's** TabIndex value will be used instead if set.
 >
 |
-| __ToolTip__ |Gets or sets the text displayed when the mouse pointer hovers over the control.|
-| __Width__ |Gets or sets the width of the control.|
+| **ToolTip** |Gets or sets the text displayed when the mouse pointer hovers over the control.|
+| **Width** |Gets or sets the width of the control.|

@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: autocompletebox/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors

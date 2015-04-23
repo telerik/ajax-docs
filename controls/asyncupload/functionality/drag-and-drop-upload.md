@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop Upload
-page_title: Drag and Drop Upload | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop Upload | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Drag and Drop Upload
 slug: asyncupload/functionality/drag-and-drop-upload
 tags: drag,and,drop,upload

@@ -1,6 +1,6 @@
 ---
 title: OnViewSelectorClick
-page_title: OnViewSelectorClick | UI for ASP.NET AJAX Documentation
+page_title: OnViewSelectorClick | RadCalendar for ASP.NET AJAX Documentation
 description: OnViewSelectorClick
 slug: calendar/client-side-programming/events/onviewselectorclick
 tags: onviewselectorclick
@@ -14,9 +14,9 @@ position: 11
 
 ## 
 
-The __OnViewSelectorClick__ client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the __EnableViewSelector__property is set to __true__.
+The **OnViewSelectorClick** client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector**property is set to **true**.
 
->note The __OnViewSelectorClick__ event is supported by: __RadCalendar__ .
+>note The **OnViewSelectorClick** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,10 +29,10 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_domElement()__ |HTML element||Returns the DOM element for the view selector|
-| __set_cancel(value)__ ||bool|Lets you prevent the click from selecting or unselecting the dates in the current view.|
+| **get_domElement()** |HTML element||Returns the DOM element for the view selector|
+| **set_cancel(value)** ||bool|Lets you prevent the click from selecting or unselecting the dates in the current view.|
 
-The following example uses the __OnViewSelectorClick__ event to confirm the selection and, if the selection proceeds, to change the appearance of the view selector:
+The following example uses the **OnViewSelectorClick** event to confirm the selection and, if the selection proceeds, to change the appearance of the view selector:
 
 ````ASPNET
 	<script type="text/javascript">

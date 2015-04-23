@@ -1,6 +1,6 @@
 ---
 title: OnCalendarViewChanging
-page_title: OnCalendarViewChanging | UI for ASP.NET AJAX Documentation
+page_title: OnCalendarViewChanging | RadCalendar for ASP.NET AJAX Documentation
 description: OnCalendarViewChanging
 slug: calendar/client-side-programming/events/oncalendarviewchanging
 tags: oncalendarviewchanging
@@ -14,9 +14,9 @@ position: 7
 
 ## 
 
-The __OnCalendarViewChanging__ client-side event handler is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
+The **OnCalendarViewChanging** client-side event handler is called when the calendar navigates to a new view, before the viewable area rendered by the calendar is changed.
 
->note The __OnCalendarViewChanging__ event is supported by: __RadCalendar__ .
+>note The **OnCalendarViewChanging** event is supported by: **RadCalendar** .
 >
 
 
@@ -29,10 +29,10 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_step()__ |int||Returns the number of views by which the calendar is about to change.|
-| __set_cancel(value)__ ||bool|Lets you prevent the view from changing.|
+| **get_step()** |int||Returns the number of views by which the calendar is about to change.|
+| **set_cancel(value)** ||bool|Lets you prevent the view from changing.|
 
-This event can be used to pre-process some conditions or visual styles and content before the final rendering of the calendar. The following example uses the __OnCalendarViewChanging__ event to prevent the view from changing unless a date in the current month is selected:
+This event can be used to pre-process some conditions or visual styles and content before the final rendering of the calendar. The following example uses the **OnCalendarViewChanging** event to prevent the view from changing unless a date in the current month is selected:
 
 ````JavaScript
 	 <script type="text/javascript">

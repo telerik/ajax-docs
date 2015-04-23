@@ -1,6 +1,6 @@
 ---
 title: On the Client
-page_title: On the Client | UI for ASP.NET AJAX Documentation
+page_title: On the Client | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: On the Client
 slug: autocompletebox/working-with-entries/on-the-client
 tags: on,the,client

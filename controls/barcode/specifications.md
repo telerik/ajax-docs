@@ -1,6 +1,6 @@
 ---
 title: Specifications
-page_title: Specifications | UI for ASP.NET AJAX Documentation
+page_title: Specifications | RadBarcode for ASP.NET AJAX Documentation
 description: Specifications
 slug: barcode/specifications
 tags: specifications

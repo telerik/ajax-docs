@@ -1,6 +1,6 @@
 ---
 title: Event Handlers Are Not Raised
-page_title: Event Handlers Are Not Raised | UI for ASP.NET AJAX Documentation
+page_title: Event Handlers Are Not Raised | RadButton for ASP.NET AJAX Documentation
 description: Event Handlers Are Not Raised
 slug: button/troubleshooting/event-handlers-are-not-raised
 tags: event,handlers,are,not,raised
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-When RadCompression is enabled and you are using .NET 4.0, event handlers might not be raised ina default document in IIS 7 or IIS 7.5 Integrated Mode,__which could break the normal work of RadButton__.
+When RadCompression is enabled and you are using .NET 4.0, event handlers might not be raised ina default document in IIS 7 or IIS 7.5 Integrated Mode,**which could break the normal work of RadButton**.
 
-This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set __preCondition="managedHandler"__ forthe RadCompression module. You may also need to remove the__runAllManagedModulesForAllRequests__ setting fromyour web.config if you have it (or set it to false).
+This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** forthe RadCompression module. You may also need to remove the**runAllManagedModulesForAllRequests** setting fromyour web.config if you have it (or set it to false).
 
 # See Also
 

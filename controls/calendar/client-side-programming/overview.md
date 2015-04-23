@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadCalendar for ASP.NET AJAX Documentation
 description: Overview
 slug: calendar/client-side-programming/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The __RadCalendar__ controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug calendar/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+The **RadCalendar** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug calendar/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 
@@ -32,7 +32,7 @@ All the API methods are accessible via the registered JavaScript objects for eac
 
 ## Getting a reference to child elements
 
-For the __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__, and__RadMonthYearPicker__ you can access client-side objects for the child elements using the methods listed below:
+For the **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker**, and**RadMonthYearPicker** you can access client-side objects for the child elements using the methods listed below:
 
 
 | Object Type | Method | Supported by |
@@ -55,9 +55,9 @@ In addition, you can access the DOM objects for various parts of the controls us
 
 ## Getting and setting the selected date
 
-The __RadCalendar__ client object represents dates as triplets. Each triplet is an array of three integer values, which specify the year, month, and day of a date, in that order.
+The **RadCalendar** client object represents dates as triplets. Each triplet is an array of three integer values, which specify the year, month, and day of a date, in that order.
 
-To get the selected date or dates on a __RadCalendar__ control, use the __get_selectedDates()__ method. This methods returns an array. If no date is selected, the array has length 0. If the calendar does not support multi-select mode, then the array has at most one element. Each date in the array is a triplet:
+To get the selected date or dates on a **RadCalendar** control, use the **get_selectedDates()** method. This methods returns an array. If no date is selected, the array has length 0. If the calendar does not support multi-select mode, then the array has at most one element. Each date in the array is a triplet:
 
 ````JavaScript
 	     <script type="text/javascript">
@@ -77,7 +77,7 @@ To get the selected date or dates on a __RadCalendar__ control, use the __get_se
 
 
 
-To set the selected date on a __RadCalendar__ control, use the __selectDate()__ or __selectDates()__ method:
+To set the selected date on a **RadCalendar** control, use the **selectDate()** or **selectDates()** method:
 
 ````JavaScript
 	      <script type="text/javascript">
@@ -94,7 +94,7 @@ To set the selected date on a __RadCalendar__ control, use the __selectDate()__ 
 
 
 
-To get the selected date on a __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__, or__RadMonthYearPicker__ control, use the __get_selectedDate__ method. This method returns a Date object. To set the selected date, use the __set_selectedDate__ method:
+To get the selected date on a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker**, or**RadMonthYearPicker** control, use the **get_selectedDate** method. This method returns a Date object. To set the selected date, use the **set_selectedDate** method:
 
 ````JavaScript
 	       <script type="text/javascript">
@@ -108,7 +108,7 @@ To get the selected date on a __RadDatePicker__, __RadTimePicker__, __RadDateTim
 
 
 
-On __RadTimeView__ and __RadDateTimeView__, you can also use the __getTime__ and __setTime__ methods of the embedded __RadTimeView__:
+On **RadTimeView** and **RadDateTimeView**, you can also use the **getTime** and **setTime** methods of the embedded **RadTimeView**:
 
 ````JavaScript
 	      <script type="text/javascript">
@@ -140,7 +140,7 @@ The following methods get or set the minimum and maximum values:
 
 ## Clearing selected values
 
-On __RadCalendar__, you can unselect individual dates using the __unselectDate__ or __unselectDates__ method:
+On **RadCalendar**, you can unselect individual dates using the **unselectDate** or **unselectDates** method:
 
 ````JavaScript
 	     <script type="text/javascript">
@@ -154,7 +154,7 @@ On __RadCalendar__, you can unselect individual dates using the __unselectDate__
 
 
 
-On __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__ and __RadMonthYearPicker__ you can use the __clear()__ method:
+On **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and **RadMonthYearPicker** you can use the **clear()** method:
 
 ````JavaScript
 	     <script type="text/javascript">
@@ -175,7 +175,7 @@ On __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__ and __RadMonthYea
 
 ## Enabling and disabling the RadDatePicker, RadTimePicker, RadDateTimePicker or RadMonthYearPicker controls
 
-To enable or disable a __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__ or __RadMonthYearPicker__ control, you need to call the __set_enabled__(true/false) client-side method of the Picker client-side object:
+To enable or disable a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** or **RadMonthYearPicker** control, you need to call the **set_enabled**(true/false) client-side method of the Picker client-side object:
 
 
 
@@ -203,7 +203,7 @@ To enable or disable a __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker
 
 ## Showing and hiding the popup
 
-The __RadDatePicker__, __RadTimePicker__, __RadDateTimePicker__ and __RadMonthYearPicker__ objects include a number of methods for showing and hiding the popup controls:
+The **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and **RadMonthYearPicker** objects include a number of methods for showing and hiding the popup controls:
 
 
 | Method | Supported By | Description |

@@ -1,6 +1,6 @@
 ---
 title: Localizing Strings
-page_title: Localizing Strings | UI for ASP.NET AJAX Documentation
+page_title: Localizing Strings | RadCalendar for ASP.NET AJAX Documentation
 description: Localizing Strings
 slug: calendar/accessibility-and-internationalization/localizing-strings
 tags: localizing,strings
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-The __CultureInfo__ property of the __RadCalendar__ control and the __Culture__ property of the __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__ controls determine the strings that are used as the names of months and days. However, the __CultureInfo__ property does not translate the other strings that appear in these controls.
+The **CultureInfo** property of the **RadCalendar** control and the **Culture** property of the **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker** controls determine the strings that are used as the names of months and days. However, the **CultureInfo** property does not translate the other strings that appear in these controls.
 
-On __RadCalendar__, you may need to localize the strings that appear in the [month/year navigation]({%slug calendar/radcalendar/navigation-controls-settings%}). You can translate these strings using the __FastNavigationSettings__ property:
+On **RadCalendar**, you may need to localize the strings that appear in the [month/year navigation]({%slug calendar/radcalendar/navigation-controls-settings%}). You can translate these strings using the **FastNavigationSettings** property:
 
 ````ASPNET
 	     
@@ -34,13 +34,13 @@ On __RadCalendar__, you may need to localize the strings that appear in the [mon
 
 
 
->note You can use the __FastNavigationSettings__ property on the embedded popup calendar in a __RadDatePicker__ or __RadDateTimePicker__ control, as well as on a stand-alone __RadCalendar__ control.
+>note You can use the **FastNavigationSettings** property on the embedded popup calendar in a **RadDatePicker** or **RadDateTimePicker** control, as well as on a stand-alone **RadCalendar** control.
 >
 
 
-In addition, the tooltip strings that the various controls display may need to be localized. Most of the built-in tooltip strings are culture-neutral. For example, the built-in tooltip strings for the navigation controls on the __RadCalendar__ title bar are simply pointers (e.g. ">") rather than text. However, the buttons on the __RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__controls have tooltips that you may want to localize. To localize these strings, use the __ToolTip__ property of the button, which can be accessed through the __DatePopupButton__ and __TimePopupButton__ properties.
+In addition, the tooltip strings that the various controls display may need to be localized. Most of the built-in tooltip strings are culture-neutral. For example, the built-in tooltip strings for the navigation controls on the **RadCalendar** title bar are simply pointers (e.g. ">") rather than text. However, the buttons on the **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker**controls have tooltips that you may want to localize. To localize these strings, use the **ToolTip** property of the button, which can be accessed through the **DatePopupButton** and **TimePopupButton** properties.
 
-To localize the string that appears in the header region of the embedded __TimeView__ control, set its __HeaderText__ property.
+To localize the string that appears in the header region of the embedded **TimeView** control, set its **HeaderText** property.
 
 # See Also
 

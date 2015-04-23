@@ -1,6 +1,6 @@
 ---
 title: OnPopupClosing
-page_title: OnPopupClosing | UI for ASP.NET AJAX Documentation
+page_title: OnPopupClosing | RadCalendar for ASP.NET AJAX Documentation
 description: OnPopupClosing
 slug: calendar/client-side-programming/events/onpopupclosing
 tags: onpopupclosing
@@ -14,9 +14,9 @@ position: 13
 
 ## 
 
-The __OnPopupClosing__ client-side event handler is called immediately before a popup calendar or time view is closed.
+The **OnPopupClosing** client-side event handler is called immediately before a popup calendar or time view is closed.
 
->note The __OnPopupClosing__ event is supported by: __RadDatePicker__ , __RadTimePicker__ , and __RadDateTimePicker__ .
+>note The **OnPopupClosing** event is supported by: **RadDatePicker** , **RadTimePicker** , and **RadDateTimePicker** .
 >
 
 
@@ -29,10 +29,10 @@ The event handler receives two arguments:
 
 | Name | Return Type | Arguments | Description |
 | ------ | ------ | ------ | ------ |
-| __get_popupControl()__ |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to close.|
-| __set_cancel(value)__ ||bool|Lets you prevent the popup from closing.|
+| **get_popupControl()** |[Time view]({%slug calendar/client-side-programming/radtimeview-object%})or[Calendar]({%slug calendar/client-side-programming/radcalendar-object%})client object||Returns the client object for the time view or calendar that is about to close.|
+| **set_cancel(value)** ||bool|Lets you prevent the popup from closing.|
 
-The following example uses the __OnPopupClosing__ event to prevent the popup from closing if nothing is selected:
+The following example uses the **OnPopupClosing** event to prevent the popup from closing if nothing is selected:
 
 ````ASPNET
 	 <script type="text/javascript">

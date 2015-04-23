@@ -1,6 +1,6 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | UI for ASP.NET AJAX Documentation
+page_title: Fluid Design | RadButton for ASP.NET AJAX Documentation
 description: Fluid Design
 slug: button/mobile-support/fluid-design
 tags: fluid,design
@@ -12,18 +12,18 @@ position: 2
 
 
 
-This article explains the __fluiddesign capabilities RadButton offers__.	The examples below show how you can set its size in percent so it can resize with its parent element.
+This article explains the **fluiddesign capabilities RadButton offers**.	The examples below show how you can set its size in percent so it can resize with its parent element.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions withoutdeteriorating the user experience. This often includes [changing the font size]({%slug button/mobile-support/elastic-design%}) and having dimensions set in percent.
 
 ## Fluid Design with Lightweight Render Mode
 
-The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is available since __Q1 2015__.
+The [Lightweight Render Mode]({%slug button/mobile-support/render-modes%}) is available since **Q1 2015**.
 >caption Figure 1: RadButton with Lightweight render mode set to 100% width and height
 
 ![button-fluid-design-lightweight](images/button-fluid-design-lightweight.png)
 
-__Example 1__: Shows the markup that provides fluid design of the RadButton in Figure 1.
+**Example 1**: Shows the markup that provides fluid design of the RadButton in Figure 1.
 
 ````ASPNET
 	
@@ -64,9 +64,9 @@ __Example 1__: Shows the markup that provides fluid design of the RadButton in F
 
 ![button-fluid-design-classic](images/button-fluid-design-classic.png)
 
-__RadButton__ with Classic render mode provides two [Button Types]({%slug button/button-types/overview%}) that can be used with fluid width (e.g., *Width="100%"*).They are __LinkButton__ and __SkinnedButton__.In the example below you will find a basic approach that configures the button to inherit the parent's width.
+**RadButton** with Classic render mode provides two [Button Types]({%slug button/button-types/overview%}) that can be used with fluid width (e.g., *Width="100%"*).They are **LinkButton** and **SkinnedButton**.In the example below you will find a basic approach that configures the button to inherit the parent's width.
 
-__Example 2__: Shows the markup that provides fluid design of the RadButton in Figure 2.
+**Example 2**: Shows the markup that provides fluid design of the RadButton in Figure 2.
 
 ````ASPNET
 			<div style="width:40%; height:30%;">

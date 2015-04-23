@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadButton for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: button/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-There are several ways to use the __RadButton__ via the keyboard only:
+There are several ways to use the **RadButton** via the keyboard only:
 
-* Set its __TabIndex__ property and use the __Tab__ key to navigate to the desired button and then press the __Enter__ key to invoke a click on the button.
+* Set its **TabIndex** property and use the **Tab** key to navigate to the desired button and then press the **Enter** key to invoke a click on the button.
 
-* Set its __AccessKey__ property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey in IE", "Shift + Alt + AccessKey" for Firefox, Shift + Esc + AccessKey for Opera).
+* Set its **AccessKey** property. This allows you to use the browser's shortcut combination to invoke the click ("Alt + AccessKey in IE", "Shift + Alt + AccessKey" for Firefox, Shift + Esc + AccessKey for Opera).
 
 >note Note: By default tab-access is disabled in Safari. To enable it, check "Preferences > Advanced > Press tab to highlight each item on a page".
 >

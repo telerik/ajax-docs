@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadCaptcha for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: captcha/appearance-and-styling/css-classes
 tags: css,classes
@@ -41,7 +41,7 @@ This class is applied to the Link Button that refreshes the Captcha Image. The R
 
 ### .rcCaptchaAudioLink
 
-The *.rcCaptchaAudioLink* is used to style the Link Button for playing the audio code. The user must enable this functionality for the Audio Button to be shown, by setting the RadCaptcha’s __CaptchaImage.EnableCaptchaAudio__ property to true. The following CSS code removes the underlining of the both Link buttons (the “Refresh Image” and the “Play Audio” buttons), changes the fore color to Black, and gives a padding of 10 pixels. It also changes the color of the buttons to Red, when hovered.
+The *.rcCaptchaAudioLink* is used to style the Link Button for playing the audio code. The user must enable this functionality for the Audio Button to be shown, by setting the RadCaptcha’s **CaptchaImage.EnableCaptchaAudio** property to true. The following CSS code removes the underlining of the both Link buttons (the “Refresh Image” and the “Play Audio” buttons), changes the fore color to Black, and gives a padding of 10 pixels. It also changes the color of the buttons to Red, when hovered.
 
 ````ASPNET
 		<style type="text/css">

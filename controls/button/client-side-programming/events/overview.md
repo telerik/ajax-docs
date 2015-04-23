@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadButton for ASP.NET AJAX Documentation
 description: Overview
 slug: button/client-side-programming/events/overview
 tags: overview
@@ -16,27 +16,27 @@ position: 0
 
 The RadButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
 
-* __OnClientLoad (load)__ - raised when the control is initialized.
+* **OnClientLoad (load)** - raised when the control is initialized.
 
-* __[OnClientClicking (clicking)]({%slug button/client-side-programming/events/onclientclicking%})__ - raised when the user clicks the button. The event can be canceled.
+* **[OnClientClicking (clicking)]({%slug button/client-side-programming/events/onclientclicking%})** - raised when the user clicks the button. The event can be canceled.
 
-* __[OnClientClicked (clicked)]({%slug button/client-side-programming/events/onclientclicked%})__ - raised when the button is clicked. The event is subsequent to the __OnClientClicking__ event.
+* **[OnClientClicked (clicked)]({%slug button/client-side-programming/events/onclientclicked%})** - raised when the button is clicked. The event is subsequent to the **OnClientClicking** event.
 
-* __[OnClientMouseOver (mouseOver)]({%slug button/client-side-programming/events/onclientmouseover%})__ - raised when the mouse hovers over the control.
+* **[OnClientMouseOver (mouseOver)]({%slug button/client-side-programming/events/onclientmouseover%})** - raised when the mouse hovers over the control.
 
-* __[OnClientMouseOut (mouseOut)]({%slug button/client-side-programming/events/onclientmouseout%})__ - raised when the mouse leaves the control.
+* **[OnClientMouseOut (mouseOut)]({%slug button/client-side-programming/events/onclientmouseout%})** - raised when the mouse leaves the control.
 
-* __[OnClientCheckedChanging (checkedChanging)]({%slug button/client-side-programming/events/onclientcheckedchanging%})__ - raised when the __Checked__ property of the RadButton control is about to be changed. The event can be canceled.
+* **[OnClientCheckedChanging (checkedChanging)]({%slug button/client-side-programming/events/onclientcheckedchanging%})** - raised when the **Checked** property of the RadButton control is about to be changed. The event can be canceled.
 
-* __[OnClientCheckedChanged (checkedChanged)]({%slug button/client-side-programming/events/onclientcheckedchanged%})__ - raised after the __Checked__ property of the RadButton control is changed.
+* **[OnClientCheckedChanged (checkedChanged)]({%slug button/client-side-programming/events/onclientcheckedchanged%})** - raised after the **Checked** property of the RadButton control is changed.
 
-* __[OnClientToggleStateChanging (toggleStateChanging)]({%slug button/client-side-programming/events/onclienttogglestatechanging%})__ - raised the __SelectedToggleStateIndex__ property of the RadButton control is about to be changed. The event can be canceled.
+* **[OnClientToggleStateChanging (toggleStateChanging)]({%slug button/client-side-programming/events/onclienttogglestatechanging%})** - raised the **SelectedToggleStateIndex** property of the RadButton control is about to be changed. The event can be canceled.
 
-* __[OnClientToggleStateChanged (toggleStateChanged)]({%slug button/client-side-programming/events/onclienttogglestatechanged%})__ - raised after the __SelectedToggleStateIndex__ property of the RadButton control is changed.
+* **[OnClientToggleStateChanged (toggleStateChanged)]({%slug button/client-side-programming/events/onclienttogglestatechanged%})** - raised after the **SelectedToggleStateIndex** property of the RadButton control is changed.
 
 The event handler method for any of the events can be set on the server and on the client.
 
-__Server-side__
+**Server-side**
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
 
@@ -90,9 +90,9 @@ To handle the desired event, the user must set the respective property to the na
 ````
 
 
-__Client-side__
+**Client-side**
 
-To handle the desired event, the user should use the respective __add_<eventName>(handlerFunction)__ to attach the desired handler (i.e. __add_clicked__ for the clicked event), where the parameter *handlerFunction* should be of type __function__. To remove a handler that has been added previously, the respective __remove_<eventName>(handlerFunction)__ should be used.
+To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used.
 
 Here is an example showing how to add handler on the client:
 

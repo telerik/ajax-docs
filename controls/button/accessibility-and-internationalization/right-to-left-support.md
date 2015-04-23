@@ -1,6 +1,6 @@
 ---
 title: Right-to-Left Support
-page_title: Right-to-Left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-Left Support | RadButton for ASP.NET AJAX Documentation
 description: Right-to-Left Support
 slug: button/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,12 +14,12 @@ position: 1
 
 ## 
 
-The __RadButton__ fully supports right-to-left (RTL) language locales (__Figure 1__).In order to turn on the RTL support you should set __dir=rtl to the html or body__ element or at least to its parent element (__Figure 1__). You can also use the __direction:rtl__ CSS property.
+The **RadButton** fully supports right-to-left (RTL) language locales (**Figure 1**).In order to turn on the RTL support you should set **dir=rtl to the html or body** element or at least to its parent element (**Figure 1**). You can also use the **direction:rtl** CSS property.
 >caption Figure 1: RadButton in RTL mode.
 
 ![radbutton-rtl-screenshot](images/radbutton-rtl-screenshot.png)
 
-__Example 1__: Set the dir=rtl attribute to the __RadButton__'s wrapper element in orderto enable the RTL support for the control.
+**Example 1**: Set the dir=rtl attribute to the **RadButton**'s wrapper element in orderto enable the RTL support for the control.
 
 ````ASPNET
 	    <div dir="rtl">

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadCaptcha Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: captcha/overview
 tags: overview
@@ -16,7 +16,7 @@ position: 0
 
 ![Rad Captcha](images/RadCaptcha.PNG)
 
-Telerik's __RadCaptcha__ control provides two major strategies for protection against automated form submissions:
+Telerik's **RadCaptcha** control provides two major strategies for protection against automated form submissions:
 
 1. Image with modified symbols. They are displayed in a form, and the user is required to input the symbols in a textbox. If the input is correct, the control validates that the user is not a robot because it is not yet possible for robots to identify distorted symbols. This is the most secure method to protect from comment spam. # There is a set of properties that characterize the image:
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientFileDropped
-page_title: OnClientFileDropped | UI for ASP.NET AJAX Documentation
+page_title: OnClientFileDropped | RadAsyncUpload for ASP.NET AJAX Documentation
 description: OnClientFileDropped
 slug: asyncupload/client-side-programming/onclientfiledropped
 tags: onclientfiledropped

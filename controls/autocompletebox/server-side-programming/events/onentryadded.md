@@ -1,6 +1,6 @@
 ---
 title: OnEntryAdded
-page_title: OnEntryAdded | UI for ASP.NET AJAX Documentation
+page_title: OnEntryAdded | RadAutoCompleteBox for ASP.NET AJAX Documentation
 description: OnEntryAdded
 slug: autocompletebox/server-side-programming/events/onentryadded
 tags: onentryadded

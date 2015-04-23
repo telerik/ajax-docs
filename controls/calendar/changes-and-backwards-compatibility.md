@@ -1,6 +1,6 @@
 ---
 title: Changes and Backwards Compatibility
-page_title: Changes and Backwards Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and Backwards Compatibility | RadCalendar for ASP.NET AJAX Documentation
 description: Changes and Backwards Compatibility
 slug: calendar/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
@@ -18,7 +18,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## Telerik RadCalendar for ASP.NET AJAX Q1 2010
 
-Since Q1 2010 __RadTimeView__ control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. Note that when you are using it with disabled embedded scripts, you need to reference the below script files:
+Since Q1 2010 **RadTimeView** control can be used on a page standalone, without RadTimePicker/RadDateTimePicker added on the page. Note that when you are using it with disabled embedded scripts, you need to reference the below script files:
 
 ````ASPNET
 	<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -50,7 +50,7 @@ They have been adapted to be fully compatible with the Q1 2009 release. In order
 
 1. Register the CSS file manually with a <link> tag or via an ASP.NET theme.
 
-1. Set __EnableEmbeddedSkins="false"__ to the control, which will use the non-embedded skin.
+1. Set **EnableEmbeddedSkins="false"** to the control, which will use the non-embedded skin.
 
 If you are using date/time pickers, you also need the skins for RadInput:
 

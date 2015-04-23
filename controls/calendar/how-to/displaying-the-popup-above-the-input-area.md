@@ -1,6 +1,6 @@
 ---
 title: Displaying The Popup Above The Input Area
-page_title: Displaying The Popup Above The Input Area | UI for ASP.NET AJAX Documentation
+page_title: Displaying The Popup Above The Input Area | RadCalendar for ASP.NET AJAX Documentation
 description: Displaying The Popup Above The Input Area
 slug: calendar/how-to/displaying-the-popup-above-the-input-area
 tags: displaying,the,popup,above,the,input,area
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__RadDatePicker__, __RadTimePicker__, and __RadDateTimePicker__ all display their popup calendar and time view controls immediately below the input area. You can use the [client-side API]({%slug calendar/client-side-programming/overview%}) to display the popup above the input area instead. The following example shows how to do this for __RadDateTimePicker__. The same technique can be used with __RadDatePicker__ and __RadTimePicker__ controls.
+**RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker** all display their popup calendar and time view controls immediately below the input area. You can use the [client-side API]({%slug calendar/client-side-programming/overview%}) to display the popup above the input area instead. The following example shows how to do this for **RadDateTimePicker**. The same technique can be used with **RadDatePicker** and **RadTimePicker** controls.
 
 ````ASPNET
 	     

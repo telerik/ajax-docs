@@ -1,6 +1,6 @@
 ---
 title: Multiple File Selection
-page_title: Multiple File Selection | UI for ASP.NET AJAX Documentation
+page_title: Multiple File Selection | RadAsyncUpload for ASP.NET AJAX Documentation
 description: Multiple File Selection
 slug: asyncupload/functionality/multiple-file-selection
 tags: multiple,file,selection

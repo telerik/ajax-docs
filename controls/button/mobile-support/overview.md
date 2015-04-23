@@ -1,6 +1,6 @@
 ---
 title: Mobile Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadButton for ASP.NET AJAX Documentation
 description: Overview
 slug: button/mobile-support/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-__RadButton__ for ASP.NET AJAX is a mobile friendly control that works on wide screens as well as on smaller screens. The controlhas by design a lightweight rendering that is based on the latest web technology (i.e., HTML5 and CSS3).
+**RadButton** for ASP.NET AJAX is a mobile friendly control that works on wide screens as well as on smaller screens. The controlhas by design a lightweight rendering that is based on the latest web technology (i.e., HTML5 and CSS3).
 
-To facilitate responsive web page design, __RadButton__ offers [Elastic design]({%slug button/mobile-support/elastic-design%})and [Fluid design]({%slug button/mobile-support/fluid-design%}) features.
+To facilitate responsive web page design, **RadButton** offers [Elastic design]({%slug button/mobile-support/elastic-design%})and [Fluid design]({%slug button/mobile-support/fluid-design%}) features.
 
 # See Also
 

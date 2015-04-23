@@ -1,6 +1,6 @@
 ---
 title: Use NavigateUrl with StandardButton Type
-page_title: Use NavigateUrl with StandardButton Type | UI for ASP.NET AJAX Documentation
+page_title: Use NavigateUrl with StandardButton Type | RadButton for ASP.NET AJAX Documentation
 description: Use NavigateUrl with StandardButton Type
 slug: button/how-to/use-navigateurl-with-standardbutton-type
 tags: use,navigateurl,with,standardbutton,type
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The __RadButton__ control has a __NavigateUrl__ property which is used for specifying a URL to redirect to, when the button is set to __ButtonType=LinkButton__.
+The **RadButton** control has a **NavigateUrl** property which is used for specifying a URL to redirect to, when the button is set to **ButtonType=LinkButton**.
 
-There is a way to achieve this functionality with a __RadButton__ configured as __StandardButton__ by handling the client-side event __OnClientClicking__. In the event handler you should open with Javascript the URL, specified in the __NavigateUrl__ property. The code below demonstrates how to implement such functionality:
+There is a way to achieve this functionality with a **RadButton** configured as **StandardButton** by handling the client-side event **OnClientClicking**. In the event handler you should open with Javascript the URL, specified in the **NavigateUrl** property. The code below demonstrates how to implement such functionality:
 
 ````ASPNET
 		
@@ -34,7 +34,7 @@ There is a way to achieve this functionality with a __RadButton__ configured as 
 
 
 
->note Please note that you should cancel the click event and the postback after the redirect, via the __set_cancel__ client-side method.
+>note Please note that you should cancel the click event and the postback after the redirect, via the **set_cancel** client-side method.
 >
 
 
