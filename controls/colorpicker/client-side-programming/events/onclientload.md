@@ -12,9 +12,9 @@ position: 1
 
 
 
-## 
 
-The **OnClientLoad**client-side event occurs after the color picker loads on the page.
+
+The **OnClientLoad** client-side event occurs after the color picker loads on the page.
 
 The event handler receives parameters:
 
@@ -24,18 +24,18 @@ The event handler receives parameters:
 
 The example below sets the color value to Red.
 
-````ASPNET
-	function clientLoad(sender, eventArgs)
-	{
-	   sender.set_selectedColor("#FF0000");
-	}
-	...
-	<telerik:RadColorPicker
-	   ID="RadColorPicker1"
-	   runat="server"
-	   Preset="Standard"
-	   OnClientLoad="clientLoad">
-	</telerik:RadColorPicker>
+````ASP.NET
+function clientLoad(sender, eventArgs)
+{
+   sender.set_selectedColor("#FF0000");
+}
+...
+<telerik:RadColorPicker
+   ID="RadColorPicker1"
+   runat="server"
+   Preset="Standard"
+   OnClientLoad="clientLoad">
+</telerik:RadColorPicker>
 ````
 
 

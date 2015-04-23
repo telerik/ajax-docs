@@ -29,10 +29,10 @@ See [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/
 
 1. In the Solution Explorer, create a new "MySkin" folder in your project.
 
-1. Copy the default RadColorPicker skin files from the installation directory to the "MySkin" directory; copy both the \ColorPicker 0directory that contains the images for this skin and the ColorPicker.Default.css file that defines the skin styles.
+1. Copy the default RadColorPicker skin files from the installation directory to the "MySkin" directory; copy both the \ColorPicker directory that contains the images for this skin and the ColorPicker.Default.css file that defines the skin styles.
 
 	>note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of Telerik UI for ASPNET AJAX>\Skins\Default.* 
-	>
+	
 
 
 1. The solution should now look something like the screenshot below:
@@ -60,7 +60,7 @@ See [Understanding the Skin CSS File]({%slug colorpicker/appearance-and-styling/
  
 	![](images/colorpicker-appearance010.png)
 
-1. From the Solution Explorer drag the "ColorPicker.MySkin.css" to the design surface of the form. This step will automatically add a reference to the page "<head>" tag as a "<link>" as shown in the screenshot below.
+1. From the Solution Explorer drag the "ColorPicker.MySkin.css" to the design surface of the form. This step will automatically add a reference to the page "`<head>`" tag as a "`<link>`" as shown in the screenshot below.
 
 	![](images/colorpicker-appearance011.png)
 

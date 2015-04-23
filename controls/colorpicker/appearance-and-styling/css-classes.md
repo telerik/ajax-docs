@@ -82,7 +82,7 @@ The following table lists significant CSS selectors and descriptions for **RadCo
 |.RadColorPicker .rcpCornerShadow|Style bottom right corner shadow of RadColorPicker|
 |.RadColorPicker .rcpBottomShadow|Styles bottom shadow of RadColorPicker|
 |||
-| **Overwriting RadSlider Styles** ||
+| **Overwriting RadColorPicker Styles** ||
 |.RadColorPicker .rcpSlider div.rslHorizontal .rslTrack a.rslDraghandle|Styles RadSlider Draghandle|
 |.RadColorPicker .rcpSlider .rslHorizontal .rslTrack|Styles RadSlider Horizontal Track|
 |.RadColorPicker .rcpRedSlider .rslHorizontal .rslTrack,.RadColorPicker .rcpRedSlider .rslHorizontal .rslSelectedregion|Styles Red RadSlider Horizontal Track and Selected region|

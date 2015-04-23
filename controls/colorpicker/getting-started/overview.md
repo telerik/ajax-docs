@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | RadColorPicker for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadColorPicker for ASP.NET AJAX Documentation
 description: Overview
 slug: colorpicker/getting-started/overview
 tags: overview
@@ -54,29 +54,28 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 
 1. To the `<head>` tag add these styles to format the title, labels and textboxes:
 
-	__ASP.NET__
+	__CSS__
 		
-		<style type="text/css">
-			.MyTable
-			{
-			   margin: 10px;
-			}
-			.MyTitle
-			{
-			   float: left;
-			   font-size: 13px;
-			   font-weight: bold;
-			}
-			.MyLabel
-			{
-			   float: right;
-			   font-size: 12px
-			}
-			.MyTextBox
-			{
-			   font-size: 12px;
-			}
-		</style> 	
+		.MyTable
+		{
+		   margin: 10px;
+		}
+		.MyTitle
+		{
+		   float: left;
+		   font-size: 13px;
+		   font-weight: bold;
+		}
+		.MyLabel
+		{
+		   float: right;
+		   font-size: 12px
+		}
+		.MyTextBox
+		{
+		   font-size: 12px;
+		}
+
 
 
 
@@ -98,7 +97,7 @@ The following tutorial demonstrates how to use RadColorPicker to interact with t
 	
 	1. Width = "500px"
 
-1. In the ASP.NET markup for the color picker, add the ColorPickerItems shown below after the <telerik:RadColorPicker> tag. *	Notice the **Title**property that defines the ToolTip as the user hovers the mouse over a color while the **Value**is set either to a named color or a hexadecimal value that describes the color.*
+1. In the ASP.NET markup for the color picker, add the ColorPickerItems shown below after the `<telerik:RadColorPicker>` tag. *Notice the __Title__ property that defines the ToolTip as the user hovers the mouse over a color while the __Value__ is set either to a named color or a hexadecimal value that describes the color.*
 
 	__ASP.NET__
 

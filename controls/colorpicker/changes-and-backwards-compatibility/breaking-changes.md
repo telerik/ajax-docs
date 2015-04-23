@@ -55,7 +55,6 @@ The new release brings the following changes in the naming convention:
 ## Client-side API:
 
 
- 
 
 | Old name | New name |
 | ------ | ------ |

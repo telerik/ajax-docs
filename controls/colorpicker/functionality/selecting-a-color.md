@@ -19,7 +19,7 @@ To set the selected color of the palette use the **SelectedColor** property. Thi
 
 	__ASP.NET__
 	     
-	<telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="standard" SelectedColor="#FFFF00" />
+		<telerik:RadColorPicker ID="RadColorPicker1" runat="server" Preset="standard" SelectedColor="#FFFF00" />
 
 	Displays as:
 	

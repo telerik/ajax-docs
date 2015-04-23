@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | RadColorPicker for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadColorPicker for ASP.NET AJAX Documentation
 description: Overview
 slug: colorpicker/client-side-programming/overview
 tags: overview
@@ -44,7 +44,7 @@ var selectedColor = colorPicker.get_selectedColor();
 
  * [ColorPicker Object]({%slug colorpicker/client-side-programming/colorpicker-object%})
 
- * [Overview]({%slug colorpicker/client-side-programming/events/overview%})
+ * [Events Overview]({%slug colorpicker/client-side-programming/events/overview%})
 
  * [OnClientColorChange]({%slug colorpicker/client-side-programming/events/onclientcolorchange%})
 

@@ -12,9 +12,9 @@ position: 4
 
 
 
-## 
 
-The **OnClientColorChange**client-side event occurs when the user selects a color from the palette.
+
+The **OnClientColorChange** client-side event occurs when the user selects a color from the palette.
 
 The event handler receives parameters:
 
@@ -22,24 +22,24 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-1. **get_oldValue**: returns the selected color from just prior to the change.
+	* **get_oldValue**: returns the selected color from just prior to the change.
 
 The example below displays the new and old values.
 
-````ASPNET
-	function colorChange(sender, eventArgs)
-	{
-	   var myDiv = document.getElementById("myDiv");
-	   myDiv.innerHTML = 'Color changed from ' + eventArgs.get_oldColor()
-	       + " to " + sender.get_selectedColor();
-	}
-	...
-	<telerik:RadColorPicker
-	   ID="RadColorPicker1"
-	   runat="server"
-	   Preset="Standard"
-	   OnClientColorChange="colorChange">
-	</telerik:RadColorPicker>
+````ASP.NET
+function colorChange(sender, eventArgs)
+{
+   var myDiv = document.getElementById("myDiv");
+   myDiv.innerHTML = 'Color changed from ' + eventArgs.get_oldColor()
+       + " to " + sender.get_selectedColor();
+}
+...
+<telerik:RadColorPicker
+   ID="RadColorPicker1"
+   runat="server"
+   Preset="Standard"
+   OnClientColorChange="colorChange">
+</telerik:RadColorPicker>
 ````
 
 

@@ -14,7 +14,7 @@ position: 4
 
 The size of the color boxes in the palette is automatically calculated according to the **Columns** property to fit the given **Width** property. Each box is of equal width and height. By default, the size of each color box is **15** by **15** pixels. The example below shows two RadColorPicker definitions where both have 5 **Columns**, but the first uses the default width and the second has a **Width** of 200 pixels.
 
-````ASPNET
+````ASP.NET
 <telerik:RadColorPicker
    runat="server"
    ID="RadColorPicker1"
@@ -46,7 +46,7 @@ The size of the color boxes in the palette is automatically calculated according
 
 ![](images/radcolorpicker009.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadColorPicker
    runat="server"
    ID="RadColorPicker1"

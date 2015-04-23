@@ -25,7 +25,7 @@ position: 0
 	
 	![](images/radcolorpicker001.png)
 
-1. Defining the **Items****collection** allows users to set their own colors in the color palette
+1. Defining the **Items collection** allows users to set their own colors in the color palette
 
 	__ASP.NET__
 	
@@ -52,7 +52,7 @@ position: 0
 	
 	![](images/radcolorpicker002.png)
 
-1. Using the **Preset***and *the **Items** collection, you can extend the colors of a predefined palette by adding custom colors to an existing palette:
+1. Using the **Preset** *and* the **Items** collection, you can extend the colors of a predefined palette by adding custom colors to an existing palette:
 
 	__ASP.NET__
 

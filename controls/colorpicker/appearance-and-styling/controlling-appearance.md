@@ -39,8 +39,6 @@ There are a number of ways you can customize the look & feel of the color picker
 
  * [Hiding and Displaying Color Picker Elements]({%slug colorpicker/functionality/hiding-and-displaying-color-picker-elements%})
 
- * [Skins]({%slug colorpicker/appearance-and-styling/skins%})
-
  * [Show as Icon]({%slug colorpicker/functionality/show-as-icon%})
 
  * [Color Presets]({%slug colorpicker/functionality/color-presets%})

@@ -12,9 +12,9 @@ position: 3
 
 
 
-## 
 
-The **OnClientColorChanging**client-side event occurs just before the user selects a color from the palette. It can also be cancelled via code.
+
+The **OnClientColorChanging** client-side event occurs just before the user selects a color from the palette. It can also be cancelled via code.
 
 The event handler receives parameters:
 
@@ -22,33 +22,33 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-1. **get_oldColor**: returns the selected color from just prior to the change.
-
-1. **get_newColor**: returns the selected color from after the change.
-
-1. **set_cancel(shouldCancel)**: determines whether the event will be cancelled according to the boolean value passed as a parameter.
+	* **get_oldColor**: returns the selected color from just prior to the change.
+	
+	* **get_newColor**: returns the selected color from after the change.
+	
+	* **set_cancel(shouldCancel)**: determines whether the event will be cancelled according to the boolean value passed as a parameter.
 
 The example below shows how to ask the user for confirmation when selecting a new color:
 
-````ASPNET
-	<telerik:RadColorPicker
-	   ID="RadColorPicker1"
-	   runat="server"
-	   SelectedColor="Red"
-	   OnClientColorChanging="OnClientColorChanging">
-	</telerik:RadColorPicker>
+````ASP.NET
+<telerik:RadColorPicker
+   ID="RadColorPicker1"
+   runat="server"
+   SelectedColor="Red"
+   OnClientColorChanging="OnClientColorChanging">
+</telerik:RadColorPicker>
 ````
 
 
 
 ````JavaScript
-	        function OnClientColorChanging(sender, eventArgs)
-	        {
-	            alert("old color was: " + eventArgs.get_oldColor());
-	            alert("new color is: " + eventArgs.get_newColor());
-	            var shouldContinue = confirm("do you want to change the color to the new one?");
-	            eventArgs.set_cancel(!shouldContinue);
-	        }
+function OnClientColorChanging(sender, eventArgs)
+{
+    alert("old color was: " + eventArgs.get_oldColor());
+    alert("new color is: " + eventArgs.get_newColor());
+    var shouldContinue = confirm("do you want to change the color to the new one?");
+    eventArgs.set_cancel(!shouldContinue);
+}
 ````
 
 

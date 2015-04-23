@@ -12,9 +12,9 @@ position: 5
 
 
 
-## 
 
-The **OnClientPopUpShow**client-side event occurs after the pop-up palette of a color picker with **ShowIcon**set to "**true**" shows.
+
+The **OnClientPopUpShow** client-side event occurs after the pop-up palette of a color picker with **ShowIcon** set to "**true**" shows.
 
 The event handler receives parameters:
 
@@ -24,18 +24,18 @@ The event handler receives parameters:
 
 The example below sets the color value to Red.
 
-````XML
-	function OnClientPopUpShow (sender, eventArgs)
-	{
-	  sender.set_selectedColor("#FF0000");
-	}
-	...
-	<telerik:RadColorPicker
-	  ID="RadColorPicker1"
-	  runat="server"
-	  ShowIcon="true"
-	  OnClientPopUpShow="OnClientPopUpShow">
-	</telerik:RadColorPicker>
+````ASP.NET
+function OnClientPopUpShow (sender, eventArgs)
+{
+  sender.set_selectedColor("#FF0000");
+}
+...
+<telerik:RadColorPicker
+  ID="RadColorPicker1"
+  runat="server"
+  ShowIcon="true"
+  OnClientPopUpShow="OnClientPopUpShow">
+</telerik:RadColorPicker>
 ````
 
 

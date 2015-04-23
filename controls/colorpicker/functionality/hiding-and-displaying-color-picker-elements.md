@@ -14,12 +14,12 @@ position: 6
 
 
 
-You can hide the empty color button by setting the **ShowEmptyColor** property to **False**. Hide the preview area by setting the **PreviewColor**property to **False**. The example below hides both areas to leave the palette only.
+You can hide the empty color button by setting the **ShowEmptyColor** property to **False**. Hide the preview area by setting the **PreviewColor** property to **False**. The example below hides both areas to leave the palette only.
  
 
 ![](images/radcolorpicker015.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadColorPicker
    ID="RadColorPicker1"
    runat="server"

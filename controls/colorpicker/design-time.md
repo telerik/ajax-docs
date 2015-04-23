@@ -12,13 +12,13 @@ position: 3
 
 
 
-You can display the Smart Tag by right clicking on a **RadColorPicker**control and choosing "Show Smart Tag" or by clicking the small rightward pointing arrow at the upper right of the control.
+You can display the Smart Tag by right clicking on a **RadColorPicker** control and choosing "Show Smart Tag" or by clicking the small rightward pointing arrow at the upper right of the control.
 
 ![colorpicker-smart-tag](images/colorpicker-smart-tag.png)
 
 ## Ajax Resources
 
-* **Add RadAjaxManager...** adds a **RadAjaxManager** component to your Web page, and displays the **r.a.d.ajax Property Builder** where you can configure it.
+* **Add RadAjaxManager...** adds a **RadAjaxManager** component to your Web page.
 
 * **Add RadScriptManager** adds a **RadScriptManager** component to your Web page.
 

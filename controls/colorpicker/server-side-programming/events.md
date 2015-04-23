@@ -14,7 +14,7 @@ position: 1
 
 
 
-The **RadColorPicker** control raises a single server-side event, **ColorChanged** that fires when the user changes the **SelectedColor**with the mouse or mouse wheel. Set the **AutoPostBack** property **True** to raise the event right after the color is changed on the client. Retrieve the **SelectedColor** property within the **ColorChanged** event handler:
+The **RadColorPicker** control raises a single server-side event, **ColorChanged** that fires when the user changes the **SelectedColor** with the mouse or mouse wheel. Set the **AutoPostBack** property **True** to raise the event right after the color is changed on the client. Retrieve the **SelectedColor** property within the **ColorChanged** event handler:
 
 
 ![](images/colorpicker-server001.png)
