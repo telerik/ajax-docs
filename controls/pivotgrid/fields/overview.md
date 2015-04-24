@@ -1,6 +1,6 @@
 ---
-title: Fields Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Fields Overview | RadPivotGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: pivotgrid/fields/overview
 tags: overview
@@ -16,17 +16,21 @@ Pivot Grid Fields represent data source fields and provide specific data to RadP
 
 ## Fields:
 
-To presents specific data in the RadPivotGrid, fields should be created and placed in the appropriated areas.![Pivot Grid-Header Fields](images/PivotGrid-HeaderFields.png)
+To presents specific data in the RadPivotGrid, fields should be created and placed in the appropriated areas.
+![Pivot Grid-Header Fields](images/PivotGrid-HeaderFields.png)
 
-Here are the available fileds in RadPivotGrid:
+Here are the available fields in RadPivotGrid:
 
-* __DataFields__ - The PivotGrid calculates summaries against these fields. Visually they can be placed into the __Data Header Area__.![Pivot Grid-Data-Cell-Area](images/PivotGrid-Data-Cell-Area.jpg)
+* **DataFields** - The PivotGrid calculates summaries against these fields. Visually they can be placed into the **Data Header Area**.
+![Pivot Grid-Data-Cell-Area](images/PivotGrid-Data-Cell-Area.jpg)
 
-* __ColumnFields__ - The PivotGrid represents row headers from these fields. Visually they can be placed into the __Column Header Area__. The ColumnFields control the PivotGrid Columns which can be nested![Pivot Grid-Column](images/PivotGrid-Column.jpg)
+* **ColumnFields** - The PivotGrid represents row headers from these fields. Visually they can be placed into the **Column Header Area**. The ColumnFields control the PivotGrid Columns which can be nested
+![Pivot Grid-Column](images/PivotGrid-Column.jpg)
 
-* __RowFields__ - The PivotGrid represents column header from these fields. Visually they can be placed into the __Row Header Area__.![Pivot Grid-Rows](images/PivotGrid-Rows.jpg)
+* **RowFields** - The PivotGrid represents column header from these fields. Visually they can be placed into the **Row Header Area**.
+![Pivot Grid-Rows](images/PivotGrid-Rows.jpg)
 
-* __Drag and Drop Fileds__- different fields can be moved between control areas using drag-and-drop.
+* **Drag and Drop Fileds**- different fields can be moved between control areas using drag-and-drop.
 
 >note All these zones can be hidden and only the data cells with their corresponding column header cells and row header cells could be shown.
 >

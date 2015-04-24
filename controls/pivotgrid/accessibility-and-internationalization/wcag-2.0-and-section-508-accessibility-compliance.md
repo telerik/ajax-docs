@@ -1,6 +1,6 @@
 ---
 title: WCAG 2.0 and Section 508 Accessibility Compliance
-page_title: WCAG 2.0 and Section 508 Accessibility Compliance | UI for ASP.NET AJAX Documentation
+page_title: WCAG 2.0 and Section 508 Accessibility Compliance | RadPivotGrid for ASP.NET AJAX Documentation
 description: WCAG 2.0 and Section 508 Accessibility Compliance
 slug: pivotgrid/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 tags: wcag,2.0,and,section,508,accessibility,compliance
@@ -20,40 +20,40 @@ RadPivotGrid for ASP.NET AJAX satisfies the requirements of "Section 508" for so
 
 [This online example](http://demos.telerik.com/aspnet-ajax/pivotgrid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadPivotGrid accessible by leveraging the settings for the differentcaption, tooltip and summary properties of the rendered HTML elements.
 
-__RadPivotGrid.AccessibilitySettings__
+**RadPivotGrid.AccessibilitySettings**
 
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __RowHeaderTableCaption__ |Gets or sets the 'caption' attribute for the row header table.|
-| __RowHeaderTableSummary__ |Gets or sets the 'summary' attribute for the row header table.|
-| __DataTableCaption__ |Gets or sets the 'caption' attribute for the data table.|
-| __DataTableSummary__ |Gets or sets the 'summary' attribute for the data table.|
-| __ColumnHeaderTableCaption__ |Gets or sets the 'caption' attribute for the column header table.|
-| __ColumnHeaderTableSummary__ |Gets or sets the 'summary' attribute for the column header table.|
-| __OuterTableCaption__ |Gets or sets the 'caption' attribute for the outer table.|
-| __OuterTableSummary__ |Gets or sets the 'summary' attribute for the outer table.|
-| __WrapperTableCaption__ |Gets or sets the 'caption' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.|
-| __WrapperTableSummary__ |Gets or sets the 'summary' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.|
+| **RowHeaderTableCaption** |Gets or sets the 'caption' attribute for the row header table.|
+| **RowHeaderTableSummary** |Gets or sets the 'summary' attribute for the row header table.|
+| **DataTableCaption** |Gets or sets the 'caption' attribute for the data table.|
+| **DataTableSummary** |Gets or sets the 'summary' attribute for the data table.|
+| **ColumnHeaderTableCaption** |Gets or sets the 'caption' attribute for the column header table.|
+| **ColumnHeaderTableSummary** |Gets or sets the 'summary' attribute for the column header table.|
+| **OuterTableCaption** |Gets or sets the 'caption' attribute for the outer table.|
+| **OuterTableSummary** |Gets or sets the 'summary' attribute for the outer table.|
+| **WrapperTableCaption** |Gets or sets the 'caption' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.|
+| **WrapperTableSummary** |Gets or sets the 'summary' attribute for the table which wraps the RadPivtoGrid control when the configuration panel is shown.|
 
-__PivotGridPagerStyle__
+**PivotGridPagerStyle**
 
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __GoToPageTextBoxToolTip__ |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' textbox.|
-| __ChangePageSizeTextBoxToolTips__ |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'ChangePageSize' textbox.|
-| __GoToPageButtonToolTip__ |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' button.|
-| __ChangePageSizeButtonToolTip__ |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'Change' button|
-| __ChangePageSizeComboBoxTableSummary__ |Gets or sets the 'summary' attribute for the PageSizeComboBox control's table.|
-| __ChangePageSizeComboBoxToolTip__ |ToolTip that would appear over the pager's RadComboBox input.|
+| **GoToPageTextBoxToolTip** |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' textbox.|
+| **ChangePageSizeTextBoxToolTips** |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'ChangePageSize' textbox.|
+| **GoToPageButtonToolTip** |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'GoToPage' button.|
+| **ChangePageSizeButtonToolTip** |ToolTip that would appear if Mode is NextPrevNumericAndAdvanced for 'Change' button|
+| **ChangePageSizeComboBoxTableSummary** |Gets or sets the 'summary' attribute for the PageSizeComboBox control's table.|
+| **ChangePageSizeComboBoxToolTip** |ToolTip that would appear over the pager's RadComboBox input.|
 
-__ConfigurationPanelSettings__
+**ConfigurationPanelSettings**
 
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __ShowHideCheckBoxToolTip__ |ToolTip that would appear over the fields' checkboxes.|
+| **ShowHideCheckBoxToolTip** |ToolTip that would appear over the fields' checkboxes.|
 
 Covering this criterion is very important when you wouldlike to make your components accessible to people with disabilities.
 

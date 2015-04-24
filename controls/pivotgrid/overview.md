@@ -1,6 +1,6 @@
 ---
-title: PivotGrid Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadPivotGrid Overview | RadPivotGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: pivotgrid/overview
 tags: overview
@@ -12,24 +12,24 @@ position: 0
 
 
 
-In Q2 2012 SP1 a CTP version of new __RadPivotGrid__ control is released.	RadPivotGrid is a data summarization control where users can break down raw data in any manner they want.	A pivot table can help quickly summarize the reports and highlight the desired information. It displays data in format such as	spreadsheets or business intelligence applications.
+In Q2 2012 SP1 a CTP version of new **RadPivotGrid** control is released. RadPivotGrid is a data summarization control where users can break down raw data in any manner they want.	A pivot table can help quickly summarize the reports and highlight the desired information. It displays data in format such as	spreadsheets or business intelligence applications.
 
 The key features of the RadPivotGrid control are:
 
-* __Various field types__
+* **Various field types**
 
-* __Codeless data-binding using the DataSourceControls in ASP.NET 2.0/3.5__
+* **Codeless data-binding using the DataSourceControls in ASP.NET 2.0/3.5**
 
-* __Data-Binding to various data sources which implement the IEnumerable, IList, IQueryableor ICustomTypeDescriptor interfaces__
+* **Data-Binding to various data sources which implement the IEnumerable, IList, IQueryableor ICustomTypeDescriptor interfaces**
 
-* __Integrated paging__
+* **Integrated paging**
 
-* __Integrated sorting__
+* **Integrated sorting**
 
-* __Integrated scrolling__
+* **Integrated scrolling**
 
-* __Interoperability with RadAjax and loading indicators__ - dramatically improves the responsiveness	of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
+* **Interoperability with RadAjax and loading indicators** - dramatically improves the responsiveness	of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
 
-* __Easily customizable skinning mechanism (setting single Skin property of the pivotgrid)__
+* **Easily customizable skinning mechanism (setting single Skin property of the pivotgrid)**
 
-* __The expanded state of the items is persisted while navigating through pages.__
+* **The expanded state of the items is persisted while navigating through pages.**

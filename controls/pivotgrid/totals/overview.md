@@ -1,6 +1,6 @@
 ---
-title: Totals Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Totals Overview | RadPivotGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: pivotgrid/totals/overview
 tags: overview
@@ -12,22 +12,23 @@ position: 0
 
 
 
-The column and row totals in RadPivotGrid sum up the aggregate results whenthere are two or more column or row fields declared in the control.
+The column and row totals in RadPivotGrid sum up the aggregate results when there are two or more column or row fields declared in the control.
 
 There are six types of totals for a given aggregate field in RadPivotGrid:
 
-* __Row Total__ - represents a total for a single row field.
+* **Row Total** - represents a total for a single row field.
 
-* __Column Total__ - represents a total for a single column field.
+* **Column Total** - represents a total for a single column field.
 
-* __Row and Column Total__ - represents a total for one row and one column field.
+* **Row and Column Total** - represents a total for one row and one column field.
 
-* __Row Grand Total__ - represents a total for all row fields.
+* **Row Grand Total** - represents a total for all row fields.
 
-* __Column Grand Total__ - represents a total for all column fields.
+* **Column Grand Total** - represents a total for all column fields.
 
-* __Column Grand Total__ - represents a total for all column and row fields.
+* **Column Grand Total** - represents a total for all column and row fields.
 
 The below picture outlines the position and meaning of column and row totals/grand totals.
 
-## Demonstration of the column and row totals![RadPivotGrid totals and grand totals](images/pivotgrid-totals-overview_1.png)
+## Demonstration of the column and row totals
+![RadPivotGrid totals and grand totals](images/pivotgrid-totals-overview_1.png)
