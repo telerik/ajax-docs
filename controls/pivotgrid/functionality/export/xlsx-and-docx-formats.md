@@ -92,6 +92,7 @@ Protected Sub RadPivotGrid1_PivotGridCellExporting(sender As Object, e As PivotG
     End If
 End Sub
 ````
+
 ![pivotgrid-excel-export 1](images/pivotgrid-excel-export_1.png)
 ![pivotgrid-excel-export 2](images/pivotgrid-excel-export_2.png)
 

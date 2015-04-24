@@ -70,6 +70,7 @@ If cell.CellType = PivotGridDataCellType.DataCell Then
 	End If
 ````
 
+
 The result of the above code is light blue background for all data cells:
 ![DataCell formatting](images/pivotgrid-conditional_formatting_1.png) 
 and italic text style for those that are shown under the TotalPrice column.
@@ -221,6 +222,7 @@ ElseIf TypeOf e.Cell Is PivotGridColumnHeaderCell Then
     End If
 End If
 ````
+
 ![Row and column header formatting](images/pivotgrid-conditional_formatting_6.png)
 
 * **Formatting cells in PreRender**In PreRender you can access groups of items/cells, as they are all already created. An example of accessing all aggregate fields (the items/cells used to indicate the name of the fields that are aggregated). The **CellStyle** setting is applied to the aggregate fields under the column headers, while **RenderingControl**references the items shown in the data zone.
