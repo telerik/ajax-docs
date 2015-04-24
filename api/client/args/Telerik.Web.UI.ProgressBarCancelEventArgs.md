@@ -1,4 +1,4 @@
-﻿---
+---
 title: Telerik.Web.UI.ProgressBarCancelEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference

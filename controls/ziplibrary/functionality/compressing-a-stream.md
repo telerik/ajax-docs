@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compressing a Stream
 page_title: Compressing a Stream | UI for ASP.NET AJAX Documentation
 description: Compressing a Stream

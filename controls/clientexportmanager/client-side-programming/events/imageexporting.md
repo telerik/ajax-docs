@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageExporting
 page_title: ImageExporting | RadClientExportManager for ASP.NET AJAX Documentation
 description: ImageExporting

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Load On Demand
 page_title: Load On Demand | UI for ASP.NET AJAX Documentation
 description: Load On Demand

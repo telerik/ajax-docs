@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opening from the Server
 page_title: Opening from the Server | UI for ASP.NET AJAX Documentation
 description: Opening from the Server

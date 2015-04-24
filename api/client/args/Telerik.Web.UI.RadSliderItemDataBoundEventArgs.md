@@ -1,5 +1,5 @@
-﻿---
-title: Telerik.Web.UI.RadSliderItemDataBoundEventArgs: Sys.EventArgs
+---
+title: Telerik.Web.UI.RadSliderItemDataBoundEventArgs
 page_title: Client-side API Reference
 description: Client-side API Reference
 ---
