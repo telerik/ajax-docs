@@ -1,6 +1,6 @@
 ---
 title: RadPersistenceManagerProxy
-page_title: RadPersistenceManagerProxy | UI for ASP.NET AJAX Documentation
+page_title: RadPersistenceManagerProxy | RadPersistenceFramework for ASP.NET AJAX Documentation
 description: RadPersistenceManagerProxy
 slug: persistenceframework/radpersistencemanagerproxy
 tags: radpersistencemanagerproxy

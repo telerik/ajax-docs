@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadPivotGrid Overview | RadPivotGrid for ASP.NET AJAX Documentation
+page_title: RadPivotGrid Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: pivotgrid/overview
 tags: overview

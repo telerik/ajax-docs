@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadPanelBar for ASP.NET AJAX Documentation
 description: Overview
 slug: panelbar/getting-started/overview
 tags: overview

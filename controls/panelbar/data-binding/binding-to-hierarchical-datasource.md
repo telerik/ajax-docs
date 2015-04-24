@@ -1,6 +1,6 @@
 ---
 title: Binding to Hierarchical DataSource
-page_title: Binding to Hierarchical DataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to Hierarchical DataSource | RadPanelBar for ASP.NET AJAX Documentation
 description: Binding to Hierarchical DataSource
 slug: panelbar/data-binding/binding-to-hierarchical-datasource
 tags: binding,to,hierarchical,datasource
@@ -12,21 +12,21 @@ position: 4
 
 
 
-Some data sources are inherently hierarchical. These include __SiteMapDataSource__ and __XmlDataSource__. When data-bound to these types of data sources, __RadPanelBar__ automatically creates the panel item hierarchy. There is no need to use the __DataFieldID__ and __DataFieldParentID__ properties.
+Some data sources are inherently hierarchical. These include **SiteMapDataSource** and **XmlDataSource**. When data-bound to these types of data sources, **RadPanelBar** automatically creates the panel item hierarchy. There is no need to use the **DataFieldID** and **DataFieldParentID** properties.
 
 ## Binding to SiteMapDataSource
 
-When binding to __SiteMapDataSource__, there is no need to set any properties to map fields from the data source to properties of the panel items. This is because site maps have a strictly defined structure.
+When binding to **SiteMapDataSource**, there is no need to set any properties to map fields from the data source to properties of the panel items. This is because site maps have a strictly defined structure.
 
-The __SiteMapDataSource__ control defines the structure of your Web site. You can have only one sitemap per site. By default the __SiteMapDataSource__ control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
+The **SiteMapDataSource** control defines the structure of your Web site. You can have only one sitemap per site. By default the **SiteMapDataSource** control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
 
-The default site navigation provider is XML-based. It should stay in the root level of your project and should be named __web.sitemap__. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
+The default site navigation provider is XML-based. It should stay in the root level of your project and should be named **web.sitemap**. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
 
 ## Setting the SiteMapDataSource control
 
-Before adding the __SiteMapDataSource__ control to your page, you need to add the Site Navigation Provider.
+Before adding the **SiteMapDataSource** control to your page, you need to add the Site Navigation Provider.
 
-1. In the Solution Explorer, choose __Add New Item__... In the templates dialog, select __Site Map__:![New SiteMap](images/panelbar_newsitemap.png)
+1. In the Solution Explorer, choose **Add New Item**... In the templates dialog, select **Site Map**:![New SiteMap](images/panelbar_newsitemap.png)
 
 1. Click the Add button. Visual Studio generates the web.sitemap file with the initial code:
 
@@ -63,23 +63,23 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 >
 
 
-1. Drag a __SiteMapDataSource__ instance from the Toolbox to your Web page.
+1. Drag a **SiteMapDataSource** instance from the Toolbox to your Web page.
 
-1. Set the __ShowStartingNode__ property of the __SiteMapDataSource__ component to __False__. This allows you to use multiple panel items at the root level.
+1. Set the **ShowStartingNode** property of the **SiteMapDataSource** component to **False**. This allows you to use multiple panel items at the root level.
 
 ## Binding the SiteMapDataSource to Telerik RadPanelBar
 
-1. From the __RadPanelBar__ property pane, set the __DataSourceID__ to the __ID__ of the __SiteMapDataSource__ control.
+1. From the **RadPanelBar** property pane, set the **DataSourceID** to the **ID** of the **SiteMapDataSource** control.
 
-1. Each __siteMapNode__ has three attributes which are mapped automatically to the respective properties:
+1. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
 
-* __url__ - Maps to the __NavigateUrl__ property. The path can be either relative (using the ~/), or absolute.
+* **url** - Maps to the **NavigateUrl** property. The path can be either relative (using the ~/), or absolute.
 
-* __title__ - Maps to the __Text__ property.
+* **title** - Maps to the **Text** property.
 
-* __description__ - Maps to the __ToolTip__ property.
+* **description** - Maps to the **ToolTip** property.
 
-1. To set additional properties or overwrite already populated fields, use the __ItemDataBound__ event. The example below overwrites the __TooTip__ property with the Text value of the item and sets the __Value__ property to a concatenated string of [Text] + "_Value". 
+1. To set additional properties or overwrite already populated fields, use the **ItemDataBound** event. The example below overwrites the **TooTip** property with the Text value of the item and sets the **Value** property to a concatenated string of [Text] + "_Value". 
 
 
 
@@ -104,7 +104,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 ## Binding to XmlDataSource
 
-When binding to an __XmlDataSource__, __RadPanelBar__ creates the panel item hierarchy automatically. However, unlike __SiteMapDataSource__, properties such as __Text__ and __NavigateUrl__ are __not__ automatically populated.
+When binding to an **XmlDataSource**, **RadPanelBar** creates the panel item hierarchy automatically. However, unlike **SiteMapDataSource**, properties such as **Text** and **NavigateUrl** are **not** automatically populated.
 
 Consider the following example:
 
@@ -145,17 +145,17 @@ Consider the following example:
 
 
 
-1. Drag an instance of __XmlDataSource__ onto your Web form and configure the control:
+1. Drag an instance of **XmlDataSource** onto your Web form and configure the control:
 
 1. Set the Data file to the XML file you just added.
 
 1. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level panel items.![XML Data Source](images/panelbar_configurexmlsource.png)
 
-1. Set the __DataSourceID__ of your RadPanelBar to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Set XML Data Source](images/panelbar_setxmldatasource.gif)
+1. Set the **DataSourceID** of your RadPanelBar to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Set XML Data Source](images/panelbar_setxmldatasource.gif)
 
-1. Map the __Text__, __Value__ and __NavigateUrl__ fields by setting the __DataTextField__, __DataValueField__ and __DataNavigateUrlField__ properties:![Configure Properties](images/panelbar_setxmldatasource1.png)
+1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties:![Configure Properties](images/panelbar_setxmldatasource1.png)
 
->note This example has no separate field for value, so it uses the Text field for the __Value__ property, for illustrative purposes.
+>note This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
 >
 
 

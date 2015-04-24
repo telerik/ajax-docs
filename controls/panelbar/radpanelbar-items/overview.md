@@ -1,6 +1,6 @@
 ---
-title: RadPanelBar Items Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadPanelBar Items Overview | RadPanelBar for ASP.NET AJAX Documentation
 description: Overview
 slug: panelbar/radpanelbar-items/overview
 tags: overview

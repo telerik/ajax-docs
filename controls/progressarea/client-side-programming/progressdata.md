@@ -1,6 +1,6 @@
 ---
 title: ProgressData
-page_title: ProgressData | UI for ASP.NET AJAX Documentation
+page_title: ProgressData | RadProgressArea for ASP.NET AJAX Documentation
 description: ProgressData
 slug: progressarea/client-side-programming/progressdata
 tags: progressdata
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The __ProgressData__ client-side object contains the information that __RadProgressArea__ displays. It is required as a parameter to the __update()__ method of __RadProgressArea__, and is available from the event argument object of several events.
+The **ProgressData** client-side object contains the information that **RadProgressArea** displays. It is required as a parameter to the **update()** method of **RadProgressArea**, and is available from the event argument object of several events.
 
-The following table lists the properties of __ProgressData__:
+The following table lists the properties of **ProgressData**:
 
 
 >caption  

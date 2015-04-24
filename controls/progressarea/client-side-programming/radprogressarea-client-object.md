@@ -1,6 +1,6 @@
 ---
 title: RadProgressArea Client Object
-page_title: RadProgressArea Client Object | UI for ASP.NET AJAX Documentation
+page_title: RadProgressArea Client Object | RadProgressArea for ASP.NET AJAX Documentation
 description: RadProgressArea Client Object
 slug: progressarea/client-side-programming/radprogressarea-client-object
 tags: radprogressarea,client,object
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The following table lists the important methods of the __RadProgressArea__ client object:
+The following table lists the important methods of the **RadProgressArea** client object:
 
 
 >caption  

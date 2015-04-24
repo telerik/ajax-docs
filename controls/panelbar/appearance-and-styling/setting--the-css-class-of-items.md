@@ -1,6 +1,6 @@
 ---
 title: Setting  the CSS Class of Items
-page_title: Setting  the CSS Class of Items | UI for ASP.NET AJAX Documentation
+page_title: Setting  the CSS Class of Items | RadPanelBar for ASP.NET AJAX Documentation
 description: Setting  the CSS Class of Items
 slug: panelbar/appearance-and-styling/setting--the-css-class-of-items
 tags: setting,,the,css,class,of,items
@@ -12,31 +12,31 @@ position: 3
 
 
 
-__RadPanelItem__ objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+**RadPanelItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug panelbar/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
 
->caution Typically, the[Skin]({%slug panelbar/appearance-and-styling/skins%})overrides some of the attributes set using the CSS class properties. If your CSS class does not achieve the desired effect, try using the __!important__ modifier, or look at the[skin CSS file]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%})to understand what is happening.
+>caution Typically, the[Skin]({%slug panelbar/appearance-and-styling/skins%})overrides some of the attributes set using the CSS class properties. If your CSS class does not achieve the desired effect, try using the **!important** modifier, or look at the[skin CSS file]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%})to understand what is happening.
 >
 
 
-* __CssClass__: controls the appearance of the item in all states.
+* **CssClass**: controls the appearance of the item in all states.
 
-* __SelectedCssClass__: controls the appearance of the item when it is selected.
+* **SelectedCssClass**: controls the appearance of the item when it is selected.
 
-* __DisabledCssClass__: controls the appearance of the item when it is disabled.
+* **DisabledCssClass**: controls the appearance of the item when it is disabled.
 
-* __FocusedCssClass__: controls the appearance of the item when it has focus.
+* **FocusedCssClass**: controls the appearance of the item when it has focus.
 
-* __ExpandedCssClass__: controls the appearance of the item when it is expanded.
+* **ExpandedCssClass**: controls the appearance of the item when it is expanded.
 
-* __ClickedCssClass__: controls the appearance of the item when it is clicked.
+* **ClickedCssClass**: controls the appearance of the item when it is clicked.
 
-* __ChildGroupCssClass__: controls the appearance of the set of child items that appear when the item is expanded.
+* **ChildGroupCssClass**: controls the appearance of the set of child items that appear when the item is expanded.
 
 Most of these properties have a default value that identifies a class that is defined in the skin CSS file. For example, the default value for a disabled item is "rpDisabled".
 
 To set the CSS class properties of an item at design time, use the [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%}).
 
->note The CSS class of a tab is applied to the anchor (<a>) tag that represents the item in the rendered HTML output, except for the __ChildGroupCssClass__ property, which is applied to an unordered list (<ul>). For more information about the rendered output of __RadPanelBar__ , see[Understanding the Skin CSS File]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of a tab is applied to the anchor (<a>) tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list (<ul>). For more information about the rendered output of **RadPanelBar** , see[Understanding the Skin CSS File]({%slug panelbar/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 
@@ -73,7 +73,7 @@ There are two ways you can define the CSS classes that you add using the CSS cla
 
 ## Example
 
-The following example uses the __ChildGroupCssClass__ property to make the appearance of level 2 items more visually distinct:
+The following example uses the **ChildGroupCssClass** property to make the appearance of level 2 items more visually distinct:
 
 ![CSS Properties](images/panelbar_cssclassproperties.png)
 

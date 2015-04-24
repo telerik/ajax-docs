@@ -1,6 +1,6 @@
 ---
 title: Working With Items at the Server
-page_title: Working With Items at the Server | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at the Server | RadPanelBar for ASP.NET AJAX Documentation
 description: Working With Items at the Server
 slug: panelbar/radpanelbar-items/working-with-items-at-the-server
 tags: working,with,items,at,the,server
@@ -16,7 +16,7 @@ Using the server-side API, you can programmatically add, remove, and edit panel 
 
 ## Adding Items on page load
 
-After simply adding a __RadPanelBar__ control to your Web page, use the following server-side code to add items when the page loads:
+After simply adding a **RadPanelBar** control to your Web page, use the following server-side code to add items when the page loads:
 
 
 
@@ -67,7 +67,7 @@ After simply adding a __RadPanelBar__ control to your Web page, use the followin
 
 ## Adding items dynamically
 
-You can dynamically update the __Items__ collection of __RadPanelBar__ and __RadPanelItem__ in response to a postback as well. Consider the following panel bar declaration:
+You can dynamically update the **Items** collection of **RadPanelBar** and **RadPanelItem** in response to a postback as well. Consider the following panel bar declaration:
 
 ````ASPNET
 	<telerik:RadPanelBar ID="RadPanelBar1" runat="server">
@@ -84,7 +84,7 @@ You can dynamically update the __Items__ collection of __RadPanelBar__ and __Rad
 
 
 
-A root item will be added upon a button click (__Add Root Item__ button)A child item will be added to the first root item upon another button click (__Add Child Items__)
+A root item will be added upon a button click (**Add Root Item** button)A child item will be added to the first root item upon another button click (**Add Child Items**)
 
 
 
@@ -122,7 +122,7 @@ Clicking on both the buttons will result in the following:
 
 ## Removing, disabling, and enabling items
 
-To remove a panel item in server-side code, use the __Remove__ method of the __RadPanelItemCollection__ object that contains it. To enable or disable a panel item, use the __Enabled__ property of the __RadPanelItem__ object itself. The following example demonstrates these techniques:
+To remove a panel item in server-side code, use the **Remove** method of the **RadPanelItemCollection** object that contains it. To enable or disable a panel item, use the **Enabled** property of the **RadPanelItem** object itself. The following example demonstrates these techniques:
 
 Consider the following panel bar:
 

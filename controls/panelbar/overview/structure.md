@@ -1,6 +1,6 @@
 ---
 title: Structure
-page_title: Structure | UI for ASP.NET AJAX Documentation
+page_title: Structure | RadPanelBar for ASP.NET AJAX Documentation
 description: Structure
 slug: panelbar/overview/structure
 tags: structure
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-The structure of the __RadPanelBar__control is as follows:
+The structure of the **RadPanelBar**control is as follows:
 
 ![PanelBar Structure](images/panelbar_structure.png)
 
-The panel bar consists of a hierarchy of items. The items on one level are exposed when the parent item on the previous level is expanded. Each item is represented by a __RadPanelItem__ instance.
+The panel bar consists of a hierarchy of items. The items on one level are exposed when the parent item on the previous level is expanded. Each item is represented by a **RadPanelItem** instance.
 
-* At the top level are the __root items__. These items are always visible. They are available using the __Items__ property of the panel bar (__RadPanelBar.Items__).
+* At the top level are the **root items**. These items are always visible. They are available using the **Items** property of the panel bar (**RadPanelBar.Items**).
 
-* Each root item may have, nested within it, a set of child items. Children of the root items are considered __level 1 items__. They are available using the __Items__ property of the root item (__RadPanelItem.Items__)
+* Each root item may have, nested within it, a set of child items. Children of the root items are considered **level 1 items**. They are available using the **Items** property of the root item (**RadPanelItem.Items**)
 
-* Child items may have, nested within them, their own sets of child items. Children of level 1 items are considered __level 2 items__; children of level 2 items are considered __level 3 items__; and so on.
+* Child items may have, nested within them, their own sets of child items. Children of level 1 items are considered **level 2 items**; children of level 2 items are considered **level 3 items**; and so on.
 
 One item in the panel bar can be designated as the Selected item. This is the last item that the user clicks, and has a distinct appearance from the other items at its level.
 

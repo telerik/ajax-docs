@@ -1,6 +1,6 @@
 ---
 title: Working With Items at the Client
-page_title: Working With Items at the Client | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at the Client | RadPanelBar for ASP.NET AJAX Documentation
 description: Working With Items at the Client
 slug: panelbar/radpanelbar-items/working-with-items-at-the-client
 tags: working,with,items,at,the,client
@@ -12,11 +12,11 @@ position: 4
 
 
 
-__RadPanelBar__ provides a client-side API for adding, deleting and disabling items. By using the __trackChanges__ and __commitChanges__ methods of the client-side __RadPanelBar__ object, these changes can persist after a postback.
+**RadPanelBar** provides a client-side API for adding, deleting and disabling items. By using the **trackChanges** and **commitChanges** methods of the client-side **RadPanelBar** object, these changes can persist after a postback.
 
 ## Adding Items
 
-To add an item, use the __add__ or __insert__ method of the item collection:
+To add an item, use the **add** or **insert** method of the item collection:
 
 ````JavaScript
 	     
@@ -42,7 +42,7 @@ To add an item, use the __add__ or __insert__ method of the item collection:
 
 ## Removing items
 
-Use the __remove__ or __removeAt__ method of the item collection to remove items:
+Use the **remove** or **removeAt** method of the item collection to remove items:
 
 ````JavaScript
 	
@@ -64,7 +64,7 @@ Use the __remove__ or __removeAt__ method of the item collection to remove items
 
 ## Enabling and Disabling items
 
-Use the __disable__ and __enable__ methods of the item collection to disable or enable items:
+Use the **disable** and **enable** methods of the item collection to disable or enable items:
 
 ````JavaScript
 	

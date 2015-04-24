@@ -1,6 +1,6 @@
 ---
 title: OnLoad
-page_title: OnLoad | UI for ASP.NET AJAX Documentation
+page_title: OnLoad | RadProgressBar for ASP.NET AJAX Documentation
 description: OnLoad
 slug: progressbar/client-side-programming/events/onload
 tags: onload
@@ -12,17 +12,17 @@ position: 2
 
 
 
-The client-side __Load__ event is raised when the __RadProgressBar__ client-side object is fully loaded (the full	API of the control is available at this point). This article discusses the objects of the control's __Load__ event and shows	an example of how to retrieve properties when the event occurs (__Example 1__).
+The client-side **Load** event is raised when the **RadProgressBar** client-side object is fully loaded (the full	API of the control is available at this point). This article discusses the objects of the control's **Load** event and shows	an example of how to retrieve properties when the event occurs (**Example 1**).
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the	value of the the __OnLoad__ property in the control's __ClientEvents__ subtag.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the	value of the the **OnLoad** property in the control's **ClientEvents** subtag.
 
 ## 
 
-The client-side __OnLoad__ event handler receives one argument:
+The client-side **OnLoad** event handler receives one argument:
 
 1. Sender—the [RadProgressBar object]({%slug progressbar/client-side-programming/radprogressbar-object%}) that fired the event.
 
-__Example 1__: Handle the __RadProgressBar__'s client-side __Load__ event.
+**Example 1**: Handle the **RadProgressBar**'s client-side **Load** event.
 
 ````JavaScript
 			<telerik:RadProgressBar runat="server" ID="RadProgressBar2" Value="30">

@@ -1,6 +1,6 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | UI for ASP.NET AJAX Documentation
+page_title: Fluid Design | RadProgressBar for ASP.NET AJAX Documentation
 description: Fluid Design
 slug: progressbar/mobile-support/fluid-design
 tags: fluid,design
@@ -12,7 +12,7 @@ position: 1
 
 
 
-This article explains the __fluid design capabilities RadProgressBar offers__.	RadProgressBar is built semantically, using CSS for defining rounded corners, shadows and gradients.	The example bellow shows how you can set its size in percent so it can resize with its parent element.
+This article explains the **fluid design capabilities RadProgressBar offers**.	RadProgressBar is built semantically, using CSS for defining rounded corners, shadows and gradients.	The example bellow shows how you can set its size in percent so it can resize with its parent element.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience.	This often includes [changing the font size]({%slug progressbar/mobile-support/elastic-design%}) and having dimensions set in percent.
 
@@ -21,9 +21,9 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![progress-bar-fluid-design](images/progress-bar-fluid-design.png)
 
-You can set the __Width__ and __Height__ properties of the __RadProgressBar__ in __percent__.	This lets it resize together with its parent element size. The control is usually used with its default height and so the value label is designed	for this scenario. To accommodate heights that can change, you can override some of its CSS rules as shown in __Example 1__.
+You can set the **Width** and **Height** properties of the **RadProgressBar** in **percent**.	This lets it resize together with its parent element size. The control is usually used with its default height and so the value label is designed	for this scenario. To accommodate heights that can change, you can override some of its CSS rules as shown in **Example 1**.
 
-__Example 1__: Markup and CSS that provide a fluid RadProgressBar that changes size with the browser viewport
+**Example 1**: Markup and CSS that provide a fluid RadProgressBar that changes size with the browser viewport
 
 ````XML
 			<style type="text/css">

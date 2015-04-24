@@ -1,6 +1,6 @@
 ---
 title: OnCompleted
-page_title: OnCompleted | UI for ASP.NET AJAX Documentation
+page_title: OnCompleted | RadProgressBar for ASP.NET AJAX Documentation
 description: OnCompleted
 slug: progressbar/client-side-programming/events/oncompleted
 tags: oncompleted
@@ -12,17 +12,17 @@ position: 5
 
 
 
-The client-side __Completed__ event is raised when the __RadProgressBar__ reaches its max value.	This article discusses the objects of the control's __Completed__ event and shows	an example of how to retrieve properties when the event occurs (__Example 1__).
+The client-side **Completed** event is raised when the **RadProgressBar** reaches its max value.	This article discusses the objects of the control's **Completed** event and shows	an example of how to retrieve properties when the event occurs (**Example 1**).
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the	value of the the __OnCompleted__ property in the control's __ClientEvents__ subtag.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the	value of the the **OnCompleted** property in the control's **ClientEvents** subtag.
 
 ## 
 
-The client-side __OnCompleted__ event handler receives one argument:
+The client-side **OnCompleted** event handler receives one argument:
 
 1. Sender—the [RadProgressBar object]({%slug progressbar/client-side-programming/radprogressbar-object%}) that fired the event.
 
-__Example 1__: Handle the __RadProgressBar__'s client-side __Completed__ event.
+**Example 1**: Handle the **RadProgressBar**'s client-side **Completed** event.
 
 ````JavaScript
 			<telerik:RadProgressBar runat="server" ID="RadProgressBar5" Value="30">

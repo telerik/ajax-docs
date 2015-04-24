@@ -1,6 +1,6 @@
 ---
 title: RTL support
-page_title: RTL support | UI for ASP.NET AJAX Documentation
+page_title: RTL support | RadPanelBar for ASP.NET AJAX Documentation
 description: RTL support
 slug: panelbar/appearance-and-styling/rtl-support
 tags: rtl,support
@@ -14,11 +14,11 @@ position: 10
 
 ## 
 
-__RadPanelBar__ includes support for right-to-left locales using the direction attribute. If you set __dir="rtl"__ on the __RadPanelBar__ object or on any parent HTML element, __RadPanelBar__ changes the position of the text that appears on items:
+**RadPanelBar** includes support for right-to-left locales using the direction attribute. If you set **dir="rtl"** on the **RadPanelBar** object or on any parent HTML element, **RadPanelBar** changes the position of the text that appears on items:
 
 ![RTL](images/panelbar_rtl.png)
 
->note Image position is still controlled by the __ImagePosition__ property.
+>note Image position is still controlled by the **ImagePosition** property.
 >
 
 

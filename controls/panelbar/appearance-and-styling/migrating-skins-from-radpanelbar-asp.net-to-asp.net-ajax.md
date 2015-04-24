@@ -1,6 +1,6 @@
 ---
 title: Migrating Skins from RadPanelBar ASP.NET to ASP.NET AJAX
-page_title: Migrating Skins from RadPanelBar ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating Skins from RadPanelBar ASP.NET to ASP.NET AJAX | RadPanelBar for ASP.NET AJAX Documentation
 description: Migrating Skins from RadPanelBar ASP.NET to ASP.NET AJAX
 slug: panelbar/appearance-and-styling/migrating-skins-from-radpanelbar-asp.net-to-asp.net-ajax
 tags: migrating,skins,from,radpanelbar,asp.net,to,asp.net,ajax

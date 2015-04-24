@@ -1,6 +1,6 @@
 ---
 title: Progress Template
-page_title: Progress Template | UI for ASP.NET AJAX Documentation
+page_title: Progress Template | RadProgressArea for ASP.NET AJAX Documentation
 description: Progress Template
 slug: progressarea/progress-template
 tags: progress,template
@@ -12,9 +12,9 @@ position: 4
 
 
 
-__RadProgressArea__ provides a property called __ProgressTemplate__, used to instantiate its child controls. You can use the __ProgressTemplate__ property to change the position of elements in the dialog and customize the dialog by adding additional elements such as images.
+**RadProgressArea** provides a property called **ProgressTemplate**, used to instantiate its child controls. You can use the **ProgressTemplate** property to change the position of elements in the dialog and customize the dialog by adding additional elements such as images.
 
-You can let __RadProgressArea__ automatically locate and update the values of the controls in your progress template, if they have the same IDs as the elements in the default __ProgressArea__ dialog. The following table lists the IDs to use when creating a progress template:
+You can let **RadProgressArea** automatically locate and update the values of the controls in your progress template, if they have the same IDs as the elements in the default **ProgressArea** dialog. The following table lists the IDs to use when creating a progress template:
 
 
 >caption  
@@ -39,7 +39,7 @@ You can also update the values of elements in your template using the client-sid
 
 ## Example
 
-The following example shows a __RadProgressArea__ with a progress template and __OnClientProgressBarUpdating__ event handler:
+The following example shows a **RadProgressArea** with a progress template and **OnClientProgressBarUpdating** event handler:
 
 ````ASPNET
 	    <script type="text/javascript">

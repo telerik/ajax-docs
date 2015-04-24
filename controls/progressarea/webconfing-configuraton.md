@@ -1,6 +1,6 @@
 ---
 title: WebConfing Configuraton
-page_title: WebConfing Configuraton | UI for ASP.NET AJAX Documentation
+page_title: WebConfing Configuraton | RadProgressArea for ASP.NET AJAX Documentation
 description: WebConfing Configuraton
 slug: progressarea/webconfing-configuraton
 tags: webconfing,configuraton
@@ -12,13 +12,13 @@ position: 7
 
 
 
-In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add __RadProgressManager__ (as long as RadProgressArea) to yourpage and must register __RadUploadProgressHandler__ and__RadUploadHttpModule__ in your application __web.config__ file.
+In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to yourpage and must register **RadUploadProgressHandler** and**RadUploadHttpModule** in your application **web.config** file.
 
->note As of Q3 SP1 2008 (2008.3.1125), you can use the __SmartTag__ of the __RadProgressManager__ to add all settings.
+>note As of Q3 SP1 2008 (2008.3.1125), you can use the **SmartTag** of the **RadProgressManager** to add all settings.
 >
 
 
->caution  __RadProgressManager__ displays error messages if it is unable to findRadUploadHttpModule. __RadUploadHttpModule__ is incompatible with the ASP.NETapplication trace and __RadUploadHttpModule__ is incompatible with other similarmodules that handle file uploads.
+>caution  **RadProgressManager** displays error messages if it is unable to findRadUploadHttpModule. **RadUploadHttpModule** is incompatible with the ASP.NETapplication trace and **RadUploadHttpModule** is incompatible with other similarmodules that handle file uploads.
 >
 
 
@@ -30,7 +30,7 @@ In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you nee
 
 
 
-* Register __RadUploadHttpModule__ - add the following line in the__<httpModules>__ section of your web.config file:
+* Register **RadUploadHttpModule** - add the following line in the**<httpModules>** section of your web.config file:
 
 ````XML
 	    <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule" />
@@ -38,7 +38,7 @@ In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you nee
 
 
 
-now the __<httpModules>__ section is likely to look like this:
+now the **<httpModules>** section is likely to look like this:
 
 ````XML
 	    <httpmodules>  
@@ -50,7 +50,7 @@ now the __<httpModules>__ section is likely to look like this:
 
 
 
-* Register __RadUploadProgressHandler__ - add the following line in the__<httpHandlers>__ section of your web.config file:
+* Register **RadUploadProgressHandler** - add the following line in the**<httpHandlers>** section of your web.config file:
 
 ````XML
 	    <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
@@ -61,7 +61,7 @@ now the __<httpModules>__ section is likely to look like this:
 
 
 
-now the __<httpHandlers>__ section is likely to look like this:
+now the **<httpHandlers>** section is likely to look like this:
 
 ````XML
 	    <httpHandlers>
@@ -78,7 +78,7 @@ now the __<httpHandlers>__ section is likely to look like this:
 
 
 
->note It is not necessary the ashx page in the __path__ attribute above to exist, but you shouldensure that the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you shouldensure that the framework is configured to skip the ASHX file existence check.
 >
 
 
@@ -86,7 +86,7 @@ now the __<httpHandlers>__ section is likely to look like this:
 
 
 
-* Register __RadUploadHttpModule__ - add the following line in the__<modules>__ section (within __<system.webServer>__ section)of your web.config file:
+* Register **RadUploadHttpModule** - add the following line in the**<modules>** section (within **<system.webServer>** section)of your web.config file:
 
 ````XML
 	    <!-- *******  Register the RadUploadModule for IIS 7  ****** -->
@@ -95,7 +95,7 @@ now the __<httpHandlers>__ section is likely to look like this:
 
 
 
-* Register __RadUploadProgressHandler__ - add the following line in the __<handlers>__section (within __<system.webServer>__ section) of your web.config file:
+* Register **RadUploadProgressHandler** - add the following line in the **<handlers>**section (within **<system.webServer>** section) of your web.config file:
 
 ````XML
 	    <!-- *******  Register the RadUploadProgressHandler for IIS 7  ****** -->
@@ -105,11 +105,11 @@ now the __<httpHandlers>__ section is likely to look like this:
 
 
 
->note It is not necessary the ashx page in the __path__ attribute above to exist, but you should ensurethat the framework is configured to skip the ASHX file existence check.
+>note It is not necessary the ashx page in the **path** attribute above to exist, but you should ensurethat the framework is configured to skip the ASHX file existence check.
 >
 
 
-Now the __<system.webServer>__ section could look like this:
+Now the **<system.webServer>** section could look like this:
 
 ````XML
 	    <system.webserver>
@@ -134,15 +134,15 @@ Now the __<system.webServer>__ section could look like this:
 
 
 
->note  __Note__ : The above web.config snippets are valid for __.NET 2.0__ .The version of the __System.Web.Extensions__ in __.NET 3.5__ is __3.5.0.0__ 
+>note  **Note** : The above web.config snippets are valid for **.NET 2.0** .The version of the **System.Web.Extensions** in **.NET 3.5** is **3.5.0.0** 
 >
 
 
-* Open the file C:\Windows\System32\inetsrv\config\__applicationHost.config__ and find the line:
+* Open the file C:\Windows\System32\inetsrv\config\**applicationHost.config** and find the line:
 
 <section name="requestFiltering" overrideModeDefault="Deny" />
 
-Set the __overrideModeDefault__ property to __Allow__. So now the line should look like:
+Set the **overrideModeDefault** property to **Allow**. So now the line should look like:
 
 ````XML
 	    <section name="requestFiltering" overridemodedefault="Allow" />
@@ -152,9 +152,9 @@ Set the __overrideModeDefault__ property to __Allow__. So now the line should lo
 
 ## Forms Authentication
 
-If your application uses __Forms Authentication__, you must make an additional change to the__<location>__ section. __RadProgressManager__ looks for__RadUploadProgressHandler__ in the root directory of your application (e.g. http://YourServerName/ApplicationName/Telerik.RadUploadProgressHandler.ashx).
+If your application uses **Forms Authentication**, you must make an additional change to the**<location>** section. **RadProgressManager** looks for**RadUploadProgressHandler** in the root directory of your application (e.g. http://YourServerName/ApplicationName/Telerik.RadUploadProgressHandler.ashx).
 
-To ensure its proper operation, you must allow access to unauthenticated users for the path to__RadUploadProgressHandler__. Put the following lines in your application web.config:
+To ensure its proper operation, you must allow access to unauthenticated users for the path to**RadUploadProgressHandler**. Put the following lines in your application web.config:
 
 ````XML
 	    <location path="Telerik.RadUploadProgressHandler.ashx">
@@ -168,11 +168,11 @@ To ensure its proper operation, you must allow access to unauthenticated users f
 
 
 
-For more information about the location section of __web.config__, see [this MSDN article](http://msdn2.microsoft.com/en-us/library/ms178692.aspx).
+For more information about the location section of **web.config**, see [this MSDN article](http://msdn2.microsoft.com/en-us/library/ms178692.aspx).
 
 ## UrlRewriters
 
-If you are using __URL rewriter__ you should __exclude__the following path from rewritinghttp://MyServer/MyApplication/Telerik.RadUploadProgressHandler.ashx
+If you are using **URL rewriter** you should **exclude**the following path from rewritinghttp://MyServer/MyApplication/Telerik.RadUploadProgressHandler.ashx
 
 ## Submitting large pages
 

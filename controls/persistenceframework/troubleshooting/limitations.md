@@ -1,6 +1,6 @@
 ---
 title: Limitations
-page_title: Limitations | UI for ASP.NET AJAX Documentation
+page_title: Limitations | RadPersistenceFramework for ASP.NET AJAX Documentation
 description: Limitations
 slug: persistenceframework/troubleshooting/limitations
 tags: limitations

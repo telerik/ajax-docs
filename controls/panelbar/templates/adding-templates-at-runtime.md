@@ -1,6 +1,6 @@
 ---
 title: Adding Templates at Runtime
-page_title: Adding Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Adding Templates at Runtime | RadPanelBar for ASP.NET AJAX Documentation
 description: Adding Templates at Runtime
 slug: panelbar/templates/adding-templates-at-runtime
 tags: adding,templates,at,runtime
@@ -14,14 +14,14 @@ position: 2
 
 ## 
 
-Templates could be added to __RadPanelBar__ at runtime, using the __ItemTemplate__, __ContentTemplate__ and __HeaderTemplate__ properties. All of them are of type __ITemplate__, so you must assign an object that implements that interface as a value.
+Templates could be added to **RadPanelBar** at runtime, using the **ItemTemplate**, **ContentTemplate** and **HeaderTemplate** properties. All of them are of type **ITemplate**, so you must assign an object that implements that interface as a value.
 
 >note The RadPanelBar items should be dynamically added so that templates can be defined at run time.
->Also, the __items should be bound__ to be able to eval DataBinder expressions. In other words, you should call the __DataBind__ method of the RadPanelBar object or bind the items that are about to use __DataBinder.Eval__ . You can bind a specific item by calling the __DataBind__ method of this specific item.
+>Also, the **items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadPanelBar object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 
 
->tip The __ItemTemplate/ContentTemplate__ should be initialized in the __OnInit__ event of the page. This is needed as the template should be instantiated before the RadPanelBar items are initialized.
+>tip The **ItemTemplate/ContentTemplate** should be initialized in the **OnInit** event of the page. This is needed as the template should be instantiated before the RadPanelBar items are initialized.
 >
 
 
@@ -110,9 +110,9 @@ The example below shows how to add Item Templates at run-time.
 ````
 
 
-If you for some reason cannot define the template in the __OnInit__ event of the page, you could use another approach:
+If you for some reason cannot define the template in the **OnInit** event of the page, you could use another approach:
 
->note The template has to be instantiated for each item upon a postback. Since the __TextBoxTemplate__ class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
+>note The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
 >
 
 
@@ -267,7 +267,7 @@ Here is the class for the Content Template that is used in the PageLoad
 
 ## Header Template
 
-The dynamic creation of Header Template is a bit different that the one of the Item and Content templates. Once the HeaderTemplate property is set, the __ApplyHeaderTemplate__ method should be invoked in order to apply and instantiate the template.
+The dynamic creation of Header Template is a bit different that the one of the Item and Content templates. Once the HeaderTemplate property is set, the **ApplyHeaderTemplate** method should be invoked in order to apply and instantiate the template.
 
 Here is also an example that uses a Header Template at run-time.
 

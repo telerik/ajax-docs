@@ -1,6 +1,6 @@
 ---
 title: Custom Progress
-page_title: Custom Progress | UI for ASP.NET AJAX Documentation
+page_title: Custom Progress | RadProgressArea for ASP.NET AJAX Documentation
 description: Custom Progress
 slug: progressarea/custom-progress
 tags: custom,progress
@@ -12,21 +12,21 @@ position: 6
 
 
 
-__RadProgressArea__ can be used to monitor the progress of any measurable process.
+**RadProgressArea** can be used to monitor the progress of any measurable process.
 
 To monitor custom progress:
 
 1. Register [ RadUploadHttpModule and RadUploadProgressHandler ]({%slug progressarea/webconfing-configuraton%}) in web.config.
 
-1. Put a __RadProgressManager__ control on the Web page.
+1. Put a **RadProgressManager** control on the Web page.
 
-1. Put a __RadProgressArea__ control on the Web page.
+1. Put a **RadProgressArea** control on the Web page.
 
-* Set its __ProgressIndicators__ property to include only those controls you want to use. In the __Page_Load__ event handler, set the __Localization__ property of the __RadProgressArea__ object to change the labels so that they reflect your custom process.
+* Set its **ProgressIndicators** property to include only those controls you want to use. In the **Page_Load** event handler, set the **Localization** property of the **RadProgressArea** object to change the labels so that they reflect your custom process.
 
-1. In the code-behind, when the custom process executes, use the __RadProgressContext.Current__ property to access the progress context.
+1. In the code-behind, when the custom process executes, use the **RadProgressContext.Current** property to access the progress context.
 
-* At each measurable step of the process, updates the fields of the progress context to indicate the values that __RadProgressArea__ should display.
+* At each measurable step of the process, updates the fields of the progress context to indicate the values that **RadProgressArea** should display.
 
 The following table lists the fields of the progress context that you can set:
 
@@ -35,13 +35,13 @@ The following table lists the fields of the progress context that you can set:
 
 | Name | Description |
 | ------ | ------ |
-|PrimaryTotal|The maximum value of the primary progress indicators. By default, __RadProgressArea__ d isplays the request size.|
-|PrimaryValue|The current value of the primary progress indicators. By default, __RadProgressArea__ displays the uploaded bytes count.|
+|PrimaryTotal|The maximum value of the primary progress indicators. By default, **RadProgressArea** d isplays the request size.|
+|PrimaryValue|The current value of the primary progress indicators. By default, **RadProgressArea** displays the uploaded bytes count.|
 |PrimaryPercent|The current value of the primary progress, expressed as a percentage of PrimaryTotal.|
-|SecondaryTotal|The maximum value of the secondary progress indicators. By default, __RadProgressArea__ displays the total number of files.|
-|SecondaryValue|The current value of the secondary progress indicators. By default, __RadProgressArea__ displays the number of files already uploaded.|
+|SecondaryTotal|The maximum value of the secondary progress indicators. By default, **RadProgressArea** displays the total number of files.|
+|SecondaryValue|The current value of the secondary progress indicators. By default, **RadProgressArea** displays the number of files already uploaded.|
 |SecondaryPercent|The current value of the secondary progress, expressed as a percentage of SecondaryTotal.|
-|CurrentOperationText|The description of the current operation. By default, __RadProgressArea__ displays the name of the currently uploading file.|
+|CurrentOperationText|The description of the current operation. By default, **RadProgressArea** displays the name of the currently uploading file.|
 |TimeEstimated|The estimated time until the operation completes.|
 |TimeElapsed|The time that has elapsed from the beginning of the operation.|
 |Speed|The speed of the process. By default, RadProgressArea displays the upload speed.|
@@ -52,9 +52,9 @@ The following table lists the fields of the progress context that you can set:
 
 ## Example
 
-This example shows how to use __RadProgressArea__ to display the progress of a custom process:![upload custom progress monitor](images/progress_monitor.png)
+This example shows how to use **RadProgressArea** to display the progress of a custom process:![upload custom progress monitor](images/progress_monitor.png)
 
-The __RadProgressManager__ has __SuppressMissingHttpModuleError__set to "true", and the __RadProgressArea__ hides the primary progress indicators and__Speed__ indicator, as these all provide units to the value that reflect size:
+The **RadProgressManager** has **SuppressMissingHttpModuleError**set to "true", and the **RadProgressArea** hides the primary progress indicators and**Speed** indicator, as these all provide units to the value that reflect size:
 
 ````ASPNET
 	    <telerik:radprogressmanager id="RadProgressManager1" runat="server" />
@@ -72,7 +72,7 @@ The __RadProgressManager__ has __SuppressMissingHttpModuleError__set to "true", 
 
 
 
-In the __Page_Load__ event handler, the __Localization__property is set to reflect the new process:
+In the **Page_Load** event handler, the **Localization**property is set to reflect the new process:
 
 
 
@@ -105,9 +105,9 @@ In the __Page_Load__ event handler, the __Localization__property is set to refle
 ````
 
 
-The button's __Click__ event handler performs the lengthy process, and at each measurablestep, updates the progress context:
+The button's **Click** event handler performs the lengthy process, and at each measurablestep, updates the progress context:
 
->tip In addition to the __Dictionary__ type, the __RadProgressContext__ now offers strongly named properties:
+>tip In addition to the **Dictionary** type, the **RadProgressContext** now offers strongly named properties:
 >context["CurrentOperationText"] = "Doing step " + i.ToString();
 >is the same as
 >context.CurrentOperationText = "Doing step " + i.ToString();

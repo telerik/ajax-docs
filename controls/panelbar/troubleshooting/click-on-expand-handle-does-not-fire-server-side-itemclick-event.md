@@ -1,6 +1,6 @@
 ---
 title: Click on Expand Handle Does Not Fire Server-Side ItemClick Event
-page_title: Click on Expand Handle Does Not Fire Server-Side ItemClick Event | UI for ASP.NET AJAX Documentation
+page_title: Click on Expand Handle Does Not Fire Server-Side ItemClick Event | RadPanelBar for ASP.NET AJAX Documentation
 description: Click on Expand Handle Does Not Fire Server-Side ItemClick Event
 slug: panelbar/troubleshooting/click-on-expand-handle-does-not-fire-server-side-itemclick-event
 tags: click,on,expand,handle,does,not,fire,server-side,itemclick,event
@@ -14,15 +14,15 @@ position: 1
 
 ## Click on Expand/Collapse Handle Does Not Fire Server-Side ItemClick Event
 
-__PROBLEM__
+**PROBLEM**
 
 If I click on the Expand/Collapse button of the RadPanelItem the ItemClick never fires.
 
-__EXPLANATION__
+**EXPLANATION**
 
-In general expanding and collapsing RadPanelItems is entirely a client-side functinality. It is implemented for scenarios when __NavigateUrl__ property of the item is set. The expand/collapse handle enables a user to expand and collapse the item whithout navigating to the assigned page. It is intended by design that clicking the handle neither performs a postback of the page not triggers any of the RadPanelBar events.
+In general expanding and collapsing RadPanelItems is entirely a client-side functinality. It is implemented for scenarios when **NavigateUrl** property of the item is set. The expand/collapse handle enables a user to expand and collapse the item whithout navigating to the assigned page. It is intended by design that clicking the handle neither performs a postback of the page not triggers any of the RadPanelBar events.
 
-__WORKAROUND__
+**WORKAROUND**
 
 Below you can find several workarounds to enable the server side ItemClick event when expanding/collapsing a RadPanelItem.
 
@@ -45,7 +45,7 @@ Below you can find several workarounds to enable the server side ItemClick event
 	            //get the clicked handler element
 	            if (handler) {
 	                //perform postback
-	                __doPostBack();
+	                **doPostBack();
 	            }
 	            else {
 	                //do something else

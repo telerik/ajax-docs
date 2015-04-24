@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenu
-page_title: OnClientContextMenu | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenu | RadPanelBar for ASP.NET AJAX Documentation
 description: OnClientContextMenu
 slug: panelbar/client-side-programming/onclientcontextmenu
 tags: onclientcontextmenu
@@ -14,7 +14,7 @@ position: 15
 
 ## 
 
-The __OnClientContextMenu__ client-side event occurs just prior to opening a context menu (upon right-clicking a panel item).
+The **OnClientContextMenu** client-side event occurs just prior to opening a context menu (upon right-clicking a panel item).
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item()__: retrieves a reference to the clicked item.
+* **get_item()**: retrieves a reference to the clicked item.
 
-* __get_domEvent()__: returns the DOM event object for the mouse click.
+* **get_domEvent()**: returns the DOM event object for the mouse click.
 
 ````ASPNET
 	    <script>

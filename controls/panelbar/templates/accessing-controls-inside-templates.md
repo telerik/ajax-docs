@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadPanelBar for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: panelbar/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -14,7 +14,7 @@ position: 3
 
 ## Header Template
 
-In order to access a control (a CheckBox in the particular example) embedded in a __HeaderTemplate__ of a RadPanelBar control using server-side you can use the following code:
+In order to access a control (a CheckBox in the particular example) embedded in a **HeaderTemplate** of a RadPanelBar control using server-side you can use the following code:
 
 ````ASPNET
 	    <telerik:RadButton runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
@@ -34,7 +34,7 @@ In order to access a control (a CheckBox in the particular example) embedded in 
 
 
 
-__Server-side access__
+**Server-side access**
 
 
 
@@ -60,7 +60,7 @@ __Server-side access__
 
 ## Content Template
 
-If your __RadPanelBar__ has items with content templates you can access the controls embedded in the content templates directly by ID, regardless of the level of the template itself (it can be on a grand grand child of the root item). Please note that in this way you need to specify unique IDs for controls in content templates.
+If your **RadPanelBar** has items with content templates you can access the controls embedded in the content templates directly by ID, regardless of the level of the template itself (it can be on a grand grand child of the root item). Please note that in this way you need to specify unique IDs for controls in content templates.
 
 For example, use the following panel bar:
 
@@ -80,9 +80,9 @@ For example, use the following panel bar:
 
 
 
-Now in the __ColorChanged__ event handler, the following code locates and updates the label:
+Now in the **ColorChanged** event handler, the following code locates and updates the label:
 
-__Server-side access__
+**Server-side access**
 
 
 
@@ -103,7 +103,7 @@ __Server-side access__
 ````
 
 
-__Client-side access__
+**Client-side access**
 
 ````JavaScript
 	     
@@ -115,7 +115,7 @@ __Client-side access__
 
 ## Item Template
 
-If your __RadPanelBar__ has items with item templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the __RadPanelBarItem__ that has the item template, and use its __FindControl__ method.
+If your **RadPanelBar** has items with item templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **RadPanelBarItem** that has the item template, and use its **FindControl** method.
 
 For example, consider the following panel bar:
 
@@ -139,9 +139,9 @@ For example, consider the following panel bar:
 
 
 
-In the __ColorChanged__ event handler, the following code locates and updates the label:
+In the **ColorChanged** event handler, the following code locates and updates the label:
 
-__Server-side access__
+**Server-side access**
 
 
 
@@ -166,7 +166,7 @@ __Server-side access__
 ````
 
 
-__Client-side access__
+**Client-side access**
 
 ````JavaScript
 	     

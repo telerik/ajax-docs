@@ -1,6 +1,6 @@
 ---
 title: Animations
-page_title: Animations | UI for ASP.NET AJAX Documentation
+page_title: Animations | RadPanelBar for ASP.NET AJAX Documentation
 description: Animations
 slug: panelbar/appearance-and-styling/animations
 tags: animations
@@ -14,11 +14,11 @@ position: 8
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ properties let you apply animated effects when child panel items appear and disappear. Each property is of type __Telerik.Web.UI.AnimationSettings__, which has two fields:
+The **ExpandAnimation** and **CollapseAnimation** properties let you apply animated effects when child panel items appear and disappear. Each property is of type **Telerik.Web.UI.AnimationSettings**, which has two fields:
 
-* __Duration__: the duration of the effect in milliseconds
+* **Duration**: the duration of the effect in milliseconds
 
-* __Type__: the animated effect. It is one of the following pre-defined animation types:
+* **Type**: the animated effect. It is one of the following pre-defined animation types:
 
 * Linear
 

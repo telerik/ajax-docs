@@ -1,6 +1,6 @@
 ---
 title: DataBinding Expressions
-page_title: DataBinding Expressions | UI for ASP.NET AJAX Documentation
+page_title: DataBinding Expressions | RadPanelBar for ASP.NET AJAX Documentation
 description: DataBinding Expressions
 slug: panelbar/templates/databinding-expressions
 tags: databinding,expressions
@@ -51,7 +51,7 @@ When you run the application, the panel items all show empty text boxes:
 
 ![Unbound Template](images/panelbar_unboundtemplate.png)
 
-This is good as far as it goes, but perhaps you want to initialize the values of the text boxes. Note that the __Value__ property of the panel items has a name all ready to assign.To override the __Text__ property of the text box in the template, use a __DataBinder.Eval__ statement:
+This is good as far as it goes, but perhaps you want to initialize the values of the text boxes. Note that the **Value** property of the panel items has a name all ready to assign.To override the **Text** property of the text box in the template, use a **DataBinder.Eval** statement:
 
 ````ASPNET
 	    <itemtemplate>    
@@ -61,13 +61,13 @@ This is good as far as it goes, but perhaps you want to initialize the values of
 
 
 
-In the DataBinder.Eval statement, __Container__ is the __RadPanelItem__ and __"Value"__ identifies the __Value__ property of that item.
+In the DataBinder.Eval statement, **Container** is the **RadPanelItem** and **"Value"** identifies the **Value** property of that item.
 
->note In this example, the first parameter to the DataBinder.Eval statement is __Container__ , because the items are statically bound. If the panel bar was bound to a data source, then you must use __Container.DataItem__ instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the panel bar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 
-In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the __Value__ property:
+In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the **Value** property:
 
 
 

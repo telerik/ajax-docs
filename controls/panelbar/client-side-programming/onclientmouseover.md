@@ -1,6 +1,6 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | UI for ASP.NET AJAX Documentation
+page_title: OnClientMouseOver | RadPanelBar for ASP.NET AJAX Documentation
 description: OnClientMouseOver
 slug: panelbar/client-side-programming/onclientmouseover
 tags: onclientmouseover
@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-The __OnClientMouseOver__ client-side event occurs when the mouse moves over an item in the panel bar.
+The **OnClientMouseOver** client-side event occurs when the mouse moves over an item in the panel bar.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadPanelItem__ under the mouse.
+* **get_item** returns a reference to the **RadPanelItem** under the mouse.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
 You can use this event to respond when the mouse is over an item:
 

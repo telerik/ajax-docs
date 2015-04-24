@@ -1,6 +1,6 @@
 ---
 title: Element Structure
-page_title: Element Structure | UI for ASP.NET AJAX Documentation
+page_title: Element Structure | RadProgressBar for ASP.NET AJAX Documentation
 description: Element Structure
 slug: progressbar/getting-started/element-structure
 tags: element,structure
@@ -12,7 +12,7 @@ position: 1
 
 
 
-In this article you can find the names of the __RadProgressBar__ UI elements (__Figure 1__) and learn more about their purpose.
+In this article you can find the names of the **RadProgressBar** UI elements (**Figure 1**) and learn more about their purpose.
 
 ## 
 >caption Figure 1: RadProgressBar Element Structure
@@ -21,7 +21,7 @@ In this article you can find the names of the __RadProgressBar__ UI elements (__
 
 ### Progress Indicator
 
-The progress indicator is a bar that is filledas an operation progresses (by default from the left to the right). Depending on the value passed to the progress bar’s __BarType__ property, the current progress status can be displayed as [percent or value]({%slug progressbar/functionality/types%}).
+The progress indicator is a bar that is filledas an operation progresses (by default from the left to the right). Depending on the value passed to the progress bar’s **BarType** property, the current progress status can be displayed as [percent or value]({%slug progressbar/functionality/types%}).
 
 ### Progress Label
 

@@ -1,6 +1,6 @@
 ---
 title: RadProgressBar Object
-page_title: RadProgressBar Object | UI for ASP.NET AJAX Documentation
+page_title: RadProgressBar Object | RadProgressBar for ASP.NET AJAX Documentation
 description: RadProgressBar Object
 slug: progressbar/client-side-programming/radprogressbar-object
 tags: radprogressbar,object
@@ -14,53 +14,53 @@ position: 0
 
 ## 
 
-The __RadProgressBar__ client-side object exposes the following public methods and properties to control its behavior:
+The **RadProgressBar** client-side object exposes the following public methods and properties to control its behavior:
 
 
 >caption  Helper Methods 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __$telerik.findProgressBar(id, parent)__ |String, HTMLElement|RadProgressBar|Finds a __RadProgressBar__ instance. The first passed parameter is the string that contains at least a part of the ID of the __RadProgressBar__ to find and the second one is the component or element that contains it.|
-| __$telerik.toProgressBar(object)__ |Object|RadProgressBar|Casts an object to a __RadProgressBar__ instance.|
+| **$telerik.findProgressBar(id, parent)** |String, HTMLElement|RadProgressBar|Finds a **RadProgressBar** instance. The first passed parameter is the string that contains at least a part of the ID of the **RadProgressBar** to find and the second one is the component or element that contains it.|
+| **$telerik.toProgressBar(object)** |Object|RadProgressBar|Casts an object to a **RadProgressBar** instance.|
 
 
 >caption  RadProgressBar Client-Side Methods 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_animationSettings__ ||Object Literal|Returns the animation settings of the progress bar. They are presented with an object literal with the following fields:
+| **get_animationSettings** ||Object Literal|Returns the animation settings of the progress bar. They are presented with an object literal with the following fields:
 
-*  __duration__ - contains the duration of the animation in milliseconds.
+*  **duration** - contains the duration of the animation in milliseconds.
 
-*  __enableChunkAnimation__ - specifies whether the animation will be enabled when the __BarType__ property of the progress bar is set to __Chunk__ .|
-| __get_barType__ ||Telerik.Web.UI.ProgressBarType|Returns the type of the progress bar as a value from the __Telerik.Web.UI.ProgressBarType__ enum that has the following values:
+*  **enableChunkAnimation** - specifies whether the animation will be enabled when the **BarType** property of the progress bar is set to **Chunk** .|
+| **get_barType** ||Telerik.Web.UI.ProgressBarType|Returns the type of the progress bar as a value from the **Telerik.Web.UI.ProgressBarType** enum that has the following values:
 
 * Value
 
 * Percent
 
 * Chunk|
-| __get_chunksCount__ ||Number|Returns the number of chunks in the progress bar when its __BarType__ property is set to __Chunk__ .|
-| __get_enabled__ ||Boolean|Returns the enabled state of the progress bar.|
-| __get_label__ ||String|Returns the label text of the progress bar.|
-| __get_maxValue__ ||Number|Returns the maximum value of the progress bar.|
-| __get_minValue__ ||Number|Returns the minimum value of the progress bar.|
-| __get_orientation__ ||Telerik.Web.UI.ProgressBarOrientation|Returns the orientation of the progress bar as a value from the __Telerik.Web.UI.ProgressBarOrientation__ that has the following values:
+| **get_chunksCount** ||Number|Returns the number of chunks in the progress bar when its **BarType** property is set to **Chunk** .|
+| **get_enabled** ||Boolean|Returns the enabled state of the progress bar.|
+| **get_label** ||String|Returns the label text of the progress bar.|
+| **get_maxValue** ||Number|Returns the maximum value of the progress bar.|
+| **get_minValue** ||Number|Returns the minimum value of the progress bar.|
+| **get_orientation** ||Telerik.Web.UI.ProgressBarOrientation|Returns the orientation of the progress bar as a value from the **Telerik.Web.UI.ProgressBarOrientation** that has the following values:
 
 * Horizontal
 
 * Vertical|
-| __get_progressWrapper__ ||HTMLElement|Returns the progress wrapper DOM element.|
-| __get_reversed__ ||Boolean|Indicates whether the direction of the progress bar is reversed.|
-| __get_showLabel__ ||Boolean|Returns the visible state of the label of the progress bar.|
-| __get_value__ ||Number|Returns the current value of the progress bar. Undefined means indeterminate state.|
-| __isCompleted__ ||Boolean|Returns the completed state of the progress bar.|
-| __set_animationSettings__ |Object Literal||Sets the animation settings of the progress bar. They are presented with an object literal with the following fields:
+| **get_progressWrapper** ||HTMLElement|Returns the progress wrapper DOM element.|
+| **get_reversed** ||Boolean|Indicates whether the direction of the progress bar is reversed.|
+| **get_showLabel** ||Boolean|Returns the visible state of the label of the progress bar.|
+| **get_value** ||Number|Returns the current value of the progress bar. Undefined means indeterminate state.|
+| **isCompleted** ||Boolean|Returns the completed state of the progress bar.|
+| **set_animationSettings** |Object Literal||Sets the animation settings of the progress bar. They are presented with an object literal with the following fields:
 
-*  __duration__ - contains the duration of the animation in milliseconds.
+*  **duration** - contains the duration of the animation in milliseconds.
 
-*  __enableChunkAnimation__ - specifies whether the animation will be enabled when the __BarType__ property of the progress bar is set to __Chunk__ .
+*  **enableChunkAnimation** - specifies whether the animation will be enabled when the **BarType** property of the progress bar is set to **Chunk** .
 
 ````JavaScript
 			
@@ -69,7 +69,7 @@ The __RadProgressBar__ client-side object exposes the following public methods a
 ````
 
 |
-| __set_enabled__ |Boolean||Sets the enabled state of the progress bar.|
-| __set_label__ |String||Sets the label text of the progress bar.|
-| __set_showLabel__ |Boolean||Sets the visible state of the label of the progress bar.|
-| __set_value__ |Number, Boolean||Sets the current value of the progress bar. Undefined/false sets indeterminate state.|
+| **set_enabled** |Boolean||Sets the enabled state of the progress bar.|
+| **set_label** |String||Sets the label text of the progress bar.|
+| **set_showLabel** |Boolean||Sets the visible state of the label of the progress bar.|
+| **set_value** |Number, Boolean||Sets the current value of the progress bar. Undefined/false sets indeterminate state.|

@@ -1,6 +1,6 @@
 ---
 title: Expand All Levels of Child Items When Clicking the Root Item
-page_title: Expand All Levels of Child Items When Clicking the Root Item | UI for ASP.NET AJAX Documentation
+page_title: Expand All Levels of Child Items When Clicking the Root Item | RadPanelBar for ASP.NET AJAX Documentation
 description: Expand All Levels of Child Items When Clicking the Root Item
 slug: panelbar/how-to/expand-all-levels-of-child-items-when-clicking-the-root-item
 tags: expand,all,levels,of,child,items,when,clicking,the,root,item

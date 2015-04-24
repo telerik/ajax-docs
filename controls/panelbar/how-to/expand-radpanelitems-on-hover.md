@@ -1,6 +1,6 @@
 ---
 title: Expand RadPanelItems on Hover
-page_title: Expand RadPanelItems on Hover | UI for ASP.NET AJAX Documentation
+page_title: Expand RadPanelItems on Hover | RadPanelBar for ASP.NET AJAX Documentation
 description: Expand RadPanelItems on Hover
 slug: panelbar/how-to/expand-radpanelitems-on-hover
 tags: expand,radpanelitems,on,hover

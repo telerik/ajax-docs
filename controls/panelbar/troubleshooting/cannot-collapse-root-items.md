@@ -1,6 +1,6 @@
 ---
 title: Cannot Collapse Root Items
-page_title: Cannot Collapse Root Items | UI for ASP.NET AJAX Documentation
+page_title: Cannot Collapse Root Items | RadPanelBar for ASP.NET AJAX Documentation
 description: Cannot Collapse Root Items
 slug: panelbar/troubleshooting/cannot-collapse-root-items
 tags: cannot,collapse,root,items
@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-__PROBLEM__
+**PROBLEM**
 
-Root items that have __ItemTemplate__ defined cannot be collapsed. This is by design and can be observed on our [online demo](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx).
+Root items that have **ItemTemplate** defined cannot be collapsed. This is by design and can be observed on our [online demo](http://demos.telerik.com/aspnet-ajax/panelbar/examples/functionality/templates/defaultcs.aspx).
 
-__SOLUTION__
+**SOLUTION**
 
 Add an additional item with no text as a child item of the root item and set its ItemTemplate.
 
-__EXAMPLE__
+**EXAMPLE**
 
 The root item of this panelbar cannot be collapsed:
 

@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadPanelBar for ASP.NET AJAX Documentation
 description: What is New
 slug: panelbar/what-is-new
 tags: what,is,new
@@ -62,13 +62,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadPanelBar for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105):
 
-* Added new server side methods __FindItemByText__, __FindItemByValue__ which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindItemByText**, **FindItemByValue** which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindItem__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnItemDataBound__, __OnItemClick__, etc.
+* Added protected virtual methods for server-side events – **OnItemDataBound**, **OnItemClick**, etc.
 
-* Support for server-side expressions (<%= %>) in the __ItemTemplate__.
+* Support for server-side expressions (<%= %>) in the **ItemTemplate**.
 
 ## What’s New in RadPanelBar for ASP.NET AJAX Q2 SP1 2008 (Version Number 2008.2.826):
 

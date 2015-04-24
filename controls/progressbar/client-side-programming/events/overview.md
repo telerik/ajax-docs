@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadProgressBar for ASP.NET AJAX Documentation
 description: Overview
 slug: progressbar/client-side-programming/events/overview
 tags: overview
@@ -14,24 +14,24 @@ position: 0
 
 ## 
 
-__RadProgressBar__ provides a rich set of client-side events which allow easy and flexibleuse in a wide range of application scenarios. In this article you will find examples about each of these events,demonstrating how to handle and cancel them (if possible):
+**RadProgressBar** provides a rich set of client-side events which allow easy and flexibleuse in a wide range of application scenarios. In this article you will find examples about each of these events,demonstrating how to handle and cancel them (if possible):
 
-* __[OnInitialize]({%slug progressbar/client-side-programming/events/oninitialize%})__—raised when the __RadProgressBar__client-side object is initialized.
+* **[OnInitialize]({%slug progressbar/client-side-programming/events/oninitialize%})**—raised when the **RadProgressBar**client-side object is initialized.
 
-* __[OnLoad]({%slug progressbar/client-side-programming/events/onload%})__—raised when the __RadProgressBar__client-side object is fully loaded. The full API of the control is available at this point.
+* **[OnLoad]({%slug progressbar/client-side-programming/events/onload%})**—raised when the **RadProgressBar**client-side object is fully loaded. The full API of the control is available at this point.
 
-* __[OnValueChanging]({%slug progressbar/client-side-programming/events/onvaluechanging%})__—raised just before the __RadProgressBar__ value property is changed. You can handle this eventin case you want to prevent the current value from changing.
+* **[OnValueChanging]({%slug progressbar/client-side-programming/events/onvaluechanging%})**—raised just before the **RadProgressBar** value property is changed. You can handle this eventin case you want to prevent the current value from changing.
 
-* __[OnValueChanged]({%slug progressbar/client-side-programming/events/onvaluechanged%})__—raised after the __RadProgressBar__value property has been changed.
+* **[OnValueChanged]({%slug progressbar/client-side-programming/events/onvaluechanged%})**—raised after the **RadProgressBar**value property has been changed.
 
-* __[OnCompleted]({%slug progressbar/client-side-programming/events/oncompleted%})__—raised when the __RadProgressBar__reaches its max value.
+* **[OnCompleted]({%slug progressbar/client-side-programming/events/oncompleted%})**—raised when the **RadProgressBar**reaches its max value.
 
-To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the corresponding property in the control's __ClientEvents__ subtag.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the corresponding property in the control's **ClientEvents** subtag.
 
 ## RadProgressBar Client-side Methods for Attaching/Setaching Client-side Event Handlers
 
 
-|  __Name__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ |
 |add_initialize()|Function|Adds a handler for the OnInitialize ProgressBar client-side event.|
 |add_load()|Function|Adds a handler for the OnLoad ProgressBar client-side event.|

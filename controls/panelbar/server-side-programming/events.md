@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Server-side Events | RadPanelBar for ASP.NET AJAX Documentation
 description: Events
 slug: panelbar/server-side-programming/events
 tags: events
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadPanelBar__ introduces three server-side events for working with panel items:
+**RadPanelBar** introduces three server-side events for working with panel items:
 
 * [ItemClick]({%slug panelbar/server-side-programming/itemclick%}) occurs when the user clicks on a panel item.
 

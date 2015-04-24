@@ -1,6 +1,6 @@
 ---
 title: Binding to Table-Based DataSource
-page_title: Binding to Table-Based DataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to Table-Based DataSource | RadPanelBar for ASP.NET AJAX Documentation
 description: Binding to Table-Based DataSource
 slug: panelbar/data-binding/binding-to-table-based-datasource
 tags: binding,to,table-based,datasource
@@ -14,25 +14,25 @@ position: 3
 
 ## 
 
-Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDataSource__ can be used to bind the panel declaratively at design time. As with [binding to a DataSet, DataTable, or DataView]({%slug panelbar/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the panel items.
+Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the panel declaratively at design time. As with [binding to a DataSet, DataTable, or DataView]({%slug panelbar/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the panel items.
 
->note The[Binding to a Data Source]({%slug panelbar/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding __RadPanelBar__ to an __AccessDataSource__ .
+>note The[Binding to a Data Source]({%slug panelbar/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding **RadPanelBar** to an **AccessDataSource** .
 >
 
 
 To bind to a table-based DataSource component:
 
-1. Drag the __DataSource__ component from the toolbox onto the same page as your __RadPanelBar__ component.
+1. Drag the **DataSource** component from the toolbox onto the same page as your **RadPanelBar** component.
 
-1. Configure the __DataSource__ component to connect to the data.
+1. Configure the **DataSource** component to connect to the data.
 
-1. Set the __DataSourceID__ property of your __RadPanelBar__ to the __ID__ of the __DataSource__ component you added in step 1.
+1. Set the **DataSourceID** property of your **RadPanelBar** to the **ID** of the **DataSource** component you added in step 1.
 
-1. Set the __DataTextField__, __DataValueField__, and __DataNavigateUrlField__ properties to indicate the columns of the database table that supply values for the __Text__, __Value__, and __NavigateUrl__ properties of panel items.
+1. Set the **DataTextField**, **DataValueField**, and **DataNavigateUrlField** properties to indicate the columns of the database table that supply values for the **Text**, **Value**, and **NavigateUrl** properties of panel items.
 
-1. Establish the panel hierarchy by setting the __DataFieldID__ property to the key field for records, and the __DataFieldParentID__ property to the field that gives the key field value of the parent item.
+1. Establish the panel hierarchy by setting the **DataFieldID** property to the key field for records, and the **DataFieldParentID** property to the field that gives the key field value of the parent item.
 
->caution The __ParentID__ of the root items must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
+>caution The **ParentID** of the root items must be **null** ( **nothing** ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblDat
 >
 

@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadPanelBar for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: panelbar/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -12,23 +12,23 @@ position: 1
 
 
 
-There are a number of ways you can customize the look & feel of your __RadPanelBar__ control:
+There are a number of ways you can customize the look & feel of your **RadPanelBar** control:
 
 ## Layout
 
-* Use the __Height__ and __Width__ properties to limit the dimensions of the panel bar. Note that the Height property does not have an effect unless the __ExpandMode__ is "FullExpandedItem".
+* Use the **Height** and **Width** properties to limit the dimensions of the panel bar. Note that the Height property does not have an effect unless the **ExpandMode** is "FullExpandedItem".
 
 >note For more information about expand modes, see[Expanding and Collapsing Items]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
 >
 
 
-* Use the __Expanded__property of a __RadPanelItem__ object to specify whether it appears expanded.
+* Use the **Expanded**property of a **RadPanelItem** object to specify whether it appears expanded.
 
-* Use the __PreventCollapse__ property of a __RadPanelItem__ object to specify whether it can be collapsed.
+* Use the **PreventCollapse** property of a **RadPanelItem** object to specify whether it can be collapsed.
 
-* Add [separators]({%slug panelbar/appearance-and-styling/separators%}) to a the items by creating an item with the __IsSeparator__ property set to __True__.
+* Add [separators]({%slug panelbar/appearance-and-styling/separators%}) to a the items by creating an item with the **IsSeparator** property set to **True**.
 
-* Use the __dir="rtl"__ attribute to give the panel bar a [right-to-left orientation]({%slug panelbar/appearance-and-styling/rtl-support%}):
+* Use the **dir="rtl"** attribute to give the panel bar a [right-to-left orientation]({%slug panelbar/appearance-and-styling/rtl-support%}):
 
 ## Look and Feel
 

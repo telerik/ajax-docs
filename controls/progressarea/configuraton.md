@@ -1,6 +1,6 @@
 ---
 title: Configuraton
-page_title: Configuraton | UI for ASP.NET AJAX Documentation
+page_title: Configuraton | RadProgressArea for ASP.NET AJAX Documentation
 description: Configuraton
 slug: progressarea/configuraton
 tags: configuraton
@@ -14,35 +14,35 @@ position: 3
 
 ## 
 
-The indicators in the __RadProgressArea__ dialog can all be optionally included or excluded using the __ProgressIndicators__ property:
+The indicators in the **RadProgressArea** dialog can all be optionally included or excluded using the **ProgressIndicators** property:
 
-* The __Total Progress Bar__ appears when __ProgressIndicators__ includes "TotalProgressBar".
+* The **Total Progress Bar** appears when **ProgressIndicators** includes "TotalProgressBar".
 
-* The __Total Progress Percent__ appears when __ProgressIndicators__ includes "TotalProgressPercent".
+* The **Total Progress Percent** appears when **ProgressIndicators** includes "TotalProgressPercent".
 
-* The __Total Progress__ size appears when __ProgressIndicators__ includes "TotalProgress".
+* The **Total Progress** size appears when **ProgressIndicators** includes "TotalProgress".
 
-* The __Request Size__ appears when __ProgressIndicators__ includes "RequestSize".
+* The **Request Size** appears when **ProgressIndicators** includes "RequestSize".
 
-* The __Files Count Bar__ appears when __ProgressIndicators__ includes "FilesCountBar".
+* The **Files Count Bar** appears when **ProgressIndicators** includes "FilesCountBar".
 
-* The __Files Count Percent__ appears when __ProgressIndicators__ includes "FilesCountPercent".
+* The **Files Count Percent** appears when **ProgressIndicators** includes "FilesCountPercent".
 
-* The __Files Count__ appears when __ProgressIndicators__ includes "FilesCount".
+* The **Files Count** appears when **ProgressIndicators** includes "FilesCount".
 
-* The __Selected Files Count__ appears when __ProgressIndicators__ includes "SelectedFilesCount".
+* The **Selected Files Count** appears when **ProgressIndicators** includes "SelectedFilesCount".
 
-* The __Current File Name__ appears when __ProgressIndicators__ includes "CurrentFileName".
+* The **Current File Name** appears when **ProgressIndicators** includes "CurrentFileName".
 
-* The __Elapsed Time__ appears when __ProgressIndicators__ includes "TimeElapsed".
+* The **Elapsed Time** appears when **ProgressIndicators** includes "TimeElapsed".
 
-* The __Estimated Time__ appears when __ProgressIndicators__ includes "TimeEstimated".
+* The **Estimated Time** appears when **ProgressIndicators** includes "TimeEstimated".
 
-* The __Speed__ appears when __ProgressIndicators__ includes "TransferSpeed".
+* The **Speed** appears when **ProgressIndicators** includes "TransferSpeed".
 
-In addition, you can optionally display or hide the __Cancel__ button by setting the __DisplayCancelButton__ property.
+In addition, you can optionally display or hide the **Cancel** button by setting the **DisplayCancelButton** property.
 
-The following example shows a __RadProgressArea__ that shows only the files indicators and a cancel button:
+The following example shows a **RadProgressArea** that shows only the files indicators and a cancel button:
 
 ````ASPNET
 	    <telerik:radprogressarea id="RadProgressArea1" runat="server" displaycancelbutton="True"
@@ -52,7 +52,7 @@ The following example shows a __RadProgressArea__ that shows only the files indi
 
 
 
-When setting the __ProgressIndicators__ property at runtime, use the "or" operator to combine values:
+When setting the **ProgressIndicators** property at runtime, use the "or" operator to combine values:
 
 
 
@@ -79,7 +79,7 @@ When setting the __ProgressIndicators__ property at runtime, use the "or" operat
 ````
 
 
->note The __ProgressIndicators__ type is defined in the Telerik.Web.UI.Upload namespace.
+>note The **ProgressIndicators** type is defined in the Telerik.Web.UI.Upload namespace.
 >
 
 

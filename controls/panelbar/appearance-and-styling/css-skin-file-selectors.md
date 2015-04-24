@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadPanelBar for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: panelbar/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
@@ -14,12 +14,12 @@ position: 7
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadPanelBar__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadPanelBar** style sheets.
 
 
-|  __Class Name__  |  __Element__  |  __Description__  |
+|  **Class Name**  |  **Element**  |  **Description**  |
 | ------ | ------ | ------ |
-|RadPanelBar_[Skin]e.g. RadPanelBar_ __Outlook__ |DIV|Applied to the root element of the panel bar.|
+|RadPanelBar_[Skin]e.g. RadPanelBar_ **Outlook** |DIV|Applied to the root element of the panel bar.|
 |RadPanelBar_[Skin]_rtl|DIV|Applied to the root element of the panel bar when it has a right-to-left orientation.|
 |.rpRtl|DIV|Applied to the root element of the panel bar when it has a right-to-left orientation.|
 |.rpRootGroup|UL|Applied to the UL element that lays out the root-level items in the panel bar.|

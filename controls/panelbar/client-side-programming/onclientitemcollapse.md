@@ -1,6 +1,6 @@
 ---
 title: OnClientItemCollapse
-page_title: OnClientItemCollapse | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemCollapse | RadPanelBar for ASP.NET AJAX Documentation
 description: OnClientItemCollapse
 slug: panelbar/client-side-programming/onclientitemcollapse
 tags: onclientitemcollapse
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientItemCollapse__ client-side event occurs after the user has collapsed a panel item.
+The **OnClientItemCollapse** client-side event occurs after the user has collapsed a panel item.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadPanelItem__ that has been collapsed.
+* **get_item** returns a reference to the **RadPanelItem** that has been collapsed.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
 ````ASPNET
 	    <script>

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemExpand
-page_title: OnClientItemExpand | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemExpand | RadPanelBar for ASP.NET AJAX Documentation
 description: OnClientItemExpand
 slug: panelbar/client-side-programming/onclientitemexpand
 tags: onclientitemexpand
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientItemExpand__ client-side event occurs after the user has expanded a panel item.
+The **OnClientItemExpand** client-side event occurs after the user has expanded a panel item.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadPanelItem__ that has been expanded.
+* **get_item** returns a reference to the **RadPanelItem** that has been expanded.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
 ````ASPNET
 	    <script>

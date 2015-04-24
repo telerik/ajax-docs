@@ -1,6 +1,6 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Custom Attributes | RadPanelBar for ASP.NET AJAX Documentation
 description: Custom Attributes
 slug: panelbar/radpanelbar-items/custom-attributes
 tags: custom,attributes
@@ -12,11 +12,11 @@ position: 6
 
 
 
-__RadPanelItem__ objects provide a special collection called __Attributes__. You can use this collection to expand the information stored with the items. The __Attributes__ collection lets you store any number of attributes as name/value pairs. You can specify custom attributes declaratively in the __RadPanelItem__ tag or programmatically using the __Attributes__ collection of the RadPanelItem. You can also access custom attributes client-side, using the __get_attributes__ collection of the __RadPanelItem__ client-side object.
+**RadPanelItem** objects provide a special collection called **Attributes**. You can use this collection to expand the information stored with the items. The **Attributes** collection lets you store any number of attributes as name/value pairs. You can specify custom attributes declaratively in the **RadPanelItem** tag or programmatically using the **Attributes** collection of the RadPanelItem. You can also access custom attributes client-side, using the **get_attributes** collection of the **RadPanelItem** client-side object.
 
 ## Setting Attributes Declaratively
 
-In the ASP.NET declaration of your __RadPanelBar__ object, you can add custom attributes to panel items by simply adding Name="value" to the __RadPanelItem__ declaration. For example, the following RadPanelBar definition adds a "State" custom attribute to its non-root panel items:
+In the ASP.NET declaration of your **RadPanelBar** object, you can add custom attributes to panel items by simply adding Name="value" to the **RadPanelItem** declaration. For example, the following RadPanelBar definition adds a "State" custom attribute to its non-root panel items:
 
 ````ASPNET
 	<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2007" Width="54px">
@@ -39,7 +39,7 @@ In the ASP.NET declaration of your __RadPanelBar__ object, you can add custom at
 
 ## Using Attributes in Server-Side Code
 
-You can access custom attributes from code behind via the __Attributes__ collection exposed by the __RadPanelItem__ class.
+You can access custom attributes from code behind via the **Attributes** collection exposed by the **RadPanelItem** class.
 
 
 
@@ -62,7 +62,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 
 ## Using Attributes in Client-Side Code
 
-You can work with custom attributes from client-side code using the attributes collection returned by the __get_attributes__ method of the client-side __RadPanelItem__ object. The attributes collection has a __getAttribute__ method that lets you get attribute values, and a __setAttribute__ method that lets you set them:
+You can work with custom attributes from client-side code using the attributes collection returned by the **get_attributes** method of the client-side **RadPanelItem** object. The attributes collection has a **getAttribute** method that lets you get attribute values, and a **setAttribute** method that lets you set them:
 
 ````JavaScript
 	
@@ -89,7 +89,7 @@ You can work with custom attributes from client-side code using the attributes c
 
 ## Data Binding with Custom Attributes
 
-When binding the __RadPanelBar__ to data, custom attributes can be set in the __ItemDataBound__ event. The following code binds the panel bar to a __DataTable__ when the page Loads. The __DataTable__ contains a "__Roles"__ column which is not mapped to a property of the panel items:
+When binding the **RadPanelBar** to data, custom attributes can be set in the **ItemDataBound** event. The following code binds the panel bar to a **DataTable** when the page Loads. The **DataTable** contains a "**Roles"** column which is not mapped to a property of the panel items:
 
 
 
@@ -164,7 +164,7 @@ When binding the __RadPanelBar__ to data, custom attributes can be set in the __
 ````
 
 
-The __"Roles"__ column is mapped to a custom attribute in the [ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%}). The event handler also sets the __ToolTip__ property of the item to the value of its custom attribute to allow for testing of the custom attribute:
+The **"Roles"** column is mapped to a custom attribute in the [ItemDataBound event handler]({%slug panelbar/server-side-programming/itemdatabound%}). The event handler also sets the **ToolTip** property of the item to the value of its custom attribute to allow for testing of the custom attribute:
 
 
 

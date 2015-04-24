@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadPanelBar for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: panelbar/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -12,19 +12,19 @@ position: 0
 
 
 
-A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. __RadPanelBar__ seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
+A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. **RadPanelBar** seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
 
-Using the __AccessKey__ property, you can associate an activation combination (access key) which moves focus to a particular panel item and enables keyboard navigation. When there are multiple panel bars on a given page, each of them may have a different activation combination.
+Using the **AccessKey** property, you can associate an activation combination (access key) which moves focus to a particular panel item and enables keyboard navigation. When there are multiple panel bars on a given page, each of them may have a different activation combination.
 
 ## Setting access keys
 
-__AccessKey__ is a property of the __RadPanelItem__ class. __AccessKey__ sets the keyboard shortcut that can be used to move focus to a panel item. The value of the __AccessKey__ property can only be a single character. When the user presses the [ALT] key in combination with the value specified by __AccessKey__, focus moves to the associated item. The user can then subsequently use the arrow keys for navigation. (See below.)
+**AccessKey** is a property of the **RadPanelItem** class. **AccessKey** sets the keyboard shortcut that can be used to move focus to a panel item. The value of the **AccessKey** property can only be a single character. When the user presses the [ALT] key in combination with the value specified by **AccessKey**, focus moves to the associated item. The user can then subsequently use the arrow keys for navigation. (See below.)
 
 >note In Opera, access keys work by pressing Shift+ESC, then pressing the assigned access key.
 >
 
 
-To set a keyboard shortcut to a menu item, simply set the __AccessKey__ property to the desired key. When __AccessKey__ is set, the character specified by __AccessKey__ appears underlined in the panel item text:
+To set a keyboard shortcut to a menu item, simply set the **AccessKey** property to the desired key. When **AccessKey** is set, the character specified by **AccessKey** appears underlined in the panel item text:
 
 ![Access Keys](images/panelbar_accesskeys.png)
 

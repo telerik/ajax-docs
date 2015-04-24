@@ -1,6 +1,6 @@
 ---
 title: ItemClick
-page_title: ItemClick | UI for ASP.NET AJAX Documentation
+page_title: ItemClick | RadPanelBar for ASP.NET AJAX Documentation
 description: ItemClick
 slug: panelbar/server-side-programming/itemclick
 tags: itemclick
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-The server-side __ItemClick__ event occurs when the user clicks on a panel item, causing a postback.
+The server-side **ItemClick** event occurs when the user clicks on a panel item, causing a postback.
 
-The __ItemClick__ event handler receives two arguments:
+The **ItemClick** event handler receives two arguments:
 
-1. The __RadPanelBar__ that contains the clicked item. This argument is of type object, but can be cast to the __RadPanelBar__ type.
+1. The **RadPanelBar** that contains the clicked item. This argument is of type object, but can be cast to the **RadPanelBar** type.
 
-1. A __RadPanelBarEventArgs__ object. This object has an __Item__ property that you can use to access the item that was clicked.
+1. A **RadPanelBarEventArgs** object. This object has an **Item** property that you can use to access the item that was clicked.
 
-Use the __ItemClick__ event handler to respond when the user clicks an item in the panel bar.
+Use the **ItemClick** event handler to respond when the user clicks an item in the panel bar.
 
 
 

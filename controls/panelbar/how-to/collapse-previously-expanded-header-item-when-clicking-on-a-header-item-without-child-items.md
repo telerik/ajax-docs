@@ -1,6 +1,6 @@
 ---
 title: Collapse Previously Expanded Header Item When Clicking on a Header Item Without Child Items
-page_title: Collapse Previously Expanded Header Item When Clicking on a Header Item Without Child Items | UI for ASP.NET AJAX Documentation
+page_title: Collapse Previously Expanded Header Item When Clicking on a Header Item Without Child Items | RadPanelBar for ASP.NET AJAX Documentation
 description: Collapse Previously Expanded Header Item When Clicking on a Header Item Without Child Items
 slug: panelbar/how-to/collapse-previously-expanded-header-item-when-clicking-on-a-header-item-without-child-items
 tags: collapse,previously,expanded,header,item,when,clicking,on,a,header,item,without,child,items
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-You could easily achieve your goal by hooking on the __OnClientItemClicked__ event of the panelbar and use the following JS code:
+You could easily achieve your goal by hooking on the **OnClientItemClicked** event of the panelbar and use the following JS code:
 
 ````JavaScript
 	   <script language="javascript">

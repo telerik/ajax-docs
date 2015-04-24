@@ -1,6 +1,6 @@
 ---
 title: RadPanelBar with Dynamically Created RadMenu
-page_title: RadPanelBar with Dynamically Created RadMenu | UI for ASP.NET AJAX Documentation
+page_title: RadPanelBar with Dynamically Created RadMenu | RadPanelBar for ASP.NET AJAX Documentation
 description: RadPanelBar with Dynamically Created RadMenu
 slug: panelbar/how-to/radpanelbar-with-dynamically-created-radmenu
 tags: radpanelbar,with,dynamically,created,radmenu

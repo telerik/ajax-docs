@@ -1,6 +1,6 @@
 ---
 title: RadPanelItemCollection Object
-page_title: RadPanelItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadPanelItemCollection Object | RadPanelBar for ASP.NET AJAX Documentation
 description: RadPanelItemCollection Object
 slug: panelbar/client-side-programming/radpanelitemcollection-object
 tags: radpanelitemcollection,object
@@ -14,18 +14,18 @@ position: 3
 
 ## 
 
-The __RadPanelItemCollection__ object is returned by the __get_items__ method of the __RadPanelBar__ or __RadPanelItem__ object. The following table lists the most important methods.
+The **RadPanelItemCollection** object is returned by the **get_items** method of the **RadPanelBar** or **RadPanelItem** object. The following table lists the most important methods.
 
->note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the __trackChanges__ method of the panel bar object and the __commitChanges__ method of the panel bar object.
+>note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the panel bar object and the **commitChanges** method of the panel bar object.
 >
 
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __add__ |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Adds a child item to the end of the collection.|
+| **add** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Adds a child item to the end of the collection.|
 |
 
 ````JavaScript
@@ -43,7 +43,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __insert__ |int,[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Inserts the item into the collection at the position specified by the first (index) parameter.|
+| **insert** |int,[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Inserts the item into the collection at the position specified by the first (index) parameter.|
 |
 
 ````JavaScript
@@ -61,7 +61,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __remove__ |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Removes the specified item from the collection.|
+| **remove** |[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|none|Removes the specified item from the collection.|
 |
 
 ````JavaScript
@@ -80,7 +80,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __removeAt__ |int|none|Removes the item at the specified index.|
+| **removeAt** |int|none|Removes the item at the specified index.|
 |
 
 ````JavaScript
@@ -99,7 +99,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __clear__ |none|none|Clears the Items collection of all the child items it contains.|
+| **clear** |none|none|Clears the Items collection of all the child items it contains.|
 |
 
 ````JavaScript
@@ -114,7 +114,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __getItem__ |int|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the item from the collection that resides at the specified index.|
+| **getItem** |int|[RadPanelItem]({%slug panelbar/client-side-programming/radpanelitem-object%})|Returns the item from the collection that resides at the specified index.|
 |
 
 ````JavaScript
@@ -125,7 +125,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __indexOf__ |RadPanelItem|int|Returns the index of an item.|
+| **indexOf** |RadPanelItem|int|Returns the index of an item.|
 |
 
 ````JavaScript
@@ -140,7 +140,7 @@ The __RadPanelItemCollection__ object is returned by the __get_items__ method of
 ````
 
 ||||
-| __get_count__ |none|int|Returns the number of the items in the collection.|
+| **get_count** |none|int|Returns the number of the items in the collection.|
 |
 
 ````JavaScript

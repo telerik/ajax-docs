@@ -1,6 +1,6 @@
 ---
 title: Loading Items from XML
-page_title: Loading Items from XML | UI for ASP.NET AJAX Documentation
+page_title: Loading Items from XML | RadPanelBar for ASP.NET AJAX Documentation
 description: Loading Items from XML
 slug: panelbar/radpanelbar-items/loading-items-from-xml
 tags: loading,items,from,xml
@@ -14,7 +14,7 @@ position: 5
 
 You can easily load the items of a panel bar from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <PanelBar>. This node can include attributes for the __RadPanelBar__ properties:
+1. The top level consists of a single node, called <PanelBar>. This node can include attributes for the **RadPanelBar** properties:
 
 ````XML
 	    <?xml version="1.0" encoding="utf-8" ?>
@@ -45,15 +45,15 @@ You can easily load the items of a panel bar from an XML source, as long as the 
 
 
 
->note To discover the way to represent a specific __RadPanelBar__ feature in XML, create a __RadPanelBar__ with the feature and use the __RadPanelBar.GetXml__ method to get the corresponding XML string.
+>note To discover the way to represent a specific **RadPanelBar** feature in XML, create a **RadPanelBar** with the feature and use the **RadPanelBar.GetXml** method to get the corresponding XML string.
 >
 
 
-Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a __RadPanelBar__ object (for example, in a Page_Load event handler).
+Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a **RadPanelBar** object (for example, in a Page_Load event handler).
 
 ## Loading from an XML file
 
-Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method to load the items, passing in the path to the file:
+Create an XML file with content that complies with the rules described above and call the **LoadContentFile** method to load the items, passing in the path to the file:
 
 
 
@@ -71,7 +71,7 @@ Create an XML file with content that complies with the rules described above and
 
 ## Loading from an XML string
 
-Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML__ method to populate the panel bar from the string:
+Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXML** method to populate the panel bar from the string:
 
 
 
@@ -103,11 +103,11 @@ Create a string with valid XML content (or fetch it from a database, for example
 ````
 
 
->note You can also populate __RadPanelBar__ from an XML file or string using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%})for details.
+>note You can also populate **RadPanelBar** from an XML file or string using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%})for details.
 >
 
 
-You can use the __GetXml__ method to get the XML content of a panel bar and then create a new panel bar that copies the first panel bar's structure:
+You can use the **GetXml** method to get the XML content of a panel bar and then create a new panel bar that copies the first panel bar's structure:
 
 
 

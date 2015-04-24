@@ -1,6 +1,6 @@
 ---
 title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX
-page_title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX | RadPanelBar for ASP.NET AJAX Documentation
 description: Migrating From RadPanelBar ASP.NET to ASP.NET AJAX
 slug: panelbar/migrating-from-radpanelbar-asp.net-to-asp.net-ajax
 tags: migrating,from,radpanelbar,asp.net,to,asp.net,ajax
@@ -12,7 +12,7 @@ position: 3
 
 
 
-To migrate a Web application from __RadPanelBar__ "Classic" to __RadPanelBar__ for ASP.NET Ajax you need to follow these steps:
+To migrate a Web application from **RadPanelBar** "Classic" to **RadPanelBar** for ASP.NET Ajax you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
 
@@ -22,11 +22,11 @@ To migrate a Web application from __RadPanelBar__ "Classic" to __RadPanelBar__ f
 
 1. Drag and drop a control from the RadControls for ASP.NET Ajax package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic __RadPanelBar__ directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadPanelbar.NET2" %>with the new one of __RadPanelBar__ "for ASP.NET Ajax":<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+1. Replace the classic **RadPanelBar** directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadPanelbar.NET2" %>with the new one of **RadPanelBar** "for ASP.NET Ajax":<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
 ## Differences between RadPanelBar "classic" and RadPanelBar for ASP.NET Ajax
 
-__RadPanelBar__ for ASP.NET AJAX contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite. These changes are listed below:
+**RadPanelBar** for ASP.NET AJAX contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite. These changes are listed below:
 
 ## Server-side API changes
 
@@ -34,37 +34,37 @@ In the server-side API, some properties and methods have been removed and a few 
 
 ## RadPanelBar
 
-The following table lists the changes to the __RadPanelBar__ class:
+The following table lists the changes to the **RadPanelBar** class:
 
 
 >caption  
 
 | RadPanelBar "Classic" | RadPanelBar for ASP.NET Ajax |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |AutoPostBack|Removed. Postback is fired as soon as a server event is wired.|
-|ImageOverUrl|Renamed to __HoveredImageUrl__ .|
-|PanelbarAnimationType|Removed. Use __AnimationType__ instead.|
-|PanelbarAnimationSettings|Removed. Use __AnimationSettings__ instead.|
-| __Methods__ ||
+|ImageOverUrl|Renamed to **HoveredImageUrl** .|
+|PanelbarAnimationType|Removed. Use **AnimationType** instead.|
+|PanelbarAnimationSettings|Removed. Use **AnimationSettings** instead.|
+| **Methods** ||
 |FindItemByClientID|Removed.|
-|GetAllItems|Return type changed to __IList<RadPanelItem>__ |
+|GetAllItems|Return type changed to **IList<RadPanelItem>** |
 
 ## Renamed Types
 
-The following table lists the changes to the type names that __RadPanelBar__ uses:
+The following table lists the changes to the type names that **RadPanelBar** uses:
 
 
 >caption  
 
 | RadPanelBar "Classic" | RadPanelBar for ASP.NET Ajax |
 | ------ | ------ |
-|RadPanelbar|Renamed to __RadPanelBar__ to comply with the naming convention of the other navigation controls.|
-|PanelbarExpandMode|Renamed to __PanelBarExpandMode__ |
+|RadPanelbar|Renamed to **RadPanelBar** to comply with the naming convention of the other navigation controls.|
+|PanelbarExpandMode|Renamed to **PanelBarExpandMode** |
 
 ## XML structure changes
 
-The [XML structure]({%slug panelbar/radpanelbar-items/loading-items-from-xml%}) of the __RadPanelBar__ has changed:
+The [XML structure]({%slug panelbar/radpanelbar-items/loading-items-from-xml%}) of the **RadPanelBar** has changed:
 
 ````XML
 	    <panelitems>    
@@ -106,25 +106,25 @@ The [XML structure]({%slug panelbar/radpanelbar-items/loading-items-from-xml%}) 
 
 ## Client-side API changes
 
-The [client-side API]({%slug panelbar/client-side-programming/overview%}) has been changed to follow the MS AJAX naming convention. The control's client-side API is not backward-compatible with __RadPanelBar Classic__ edition. In order to migrate from __RadPanelBar__ "Classic", the method calls and property accessors should use the new convention. A reference table is included below.
+The [client-side API]({%slug panelbar/client-side-programming/overview%}) has been changed to follow the MS AJAX naming convention. The control's client-side API is not backward-compatible with **RadPanelBar Classic** edition. In order to migrate from **RadPanelBar** "Classic", the method calls and property accessors should use the new convention. A reference table is included below.
 
 ## RadPanelBar class
 
-The following table lists the changes to the __RadPanelBar__ client-side object:
+The following table lists the changes to the **RadPanelBar** client-side object:
 
 
 >caption  
 
 | RadPanelBar "Classic" | RadPanelBar for ASP.NET Ajax |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Disable()|disable()|
 |Enable()|enable()|
 |FindItemByID()|Removed.|
 |FindItemByUrl()|findItemByUrl()|
 |FindItemByValue()|findItemByValue()|
 |FindItemByText()|findItemByText()|
-|GetAttribute()|use __get_attributes().getAttribute()__ 
+|GetAttribute()|use **get_attributes().getAttribute()** 
 
 ````JavaScript
 	
@@ -134,7 +134,7 @@ The following table lists the changes to the __RadPanelBar__ client-side object:
 ````
 
 |
-|SetAttribute()|use __get_attributes().setAttribute()__ 
+|SetAttribute()|use **get_attributes().setAttribute()** 
 
 ````JavaScript
 	
@@ -144,9 +144,9 @@ The following table lists the changes to the __RadPanelBar__ client-side object:
 ````
 
 |
-|AttachEvent|use __get_events().addHandler()__ or __add_[eventName]()__ instead.|
-|DetachEvent|use __get_events().removeHandler()__ or __remove_[eventName]()__ instead.|
-| __Properties__ ||
+|AttachEvent|use **get_events().addHandler()** or **add_[eventName]()** instead.|
+|DetachEvent|use **get_events().removeHandler()** or **remove_[eventName]()** instead.|
+| **Properties** ||
 |ID|get_id()|
 |DomElement|get_element()|
 |Items|get_items()|
@@ -158,14 +158,14 @@ The following table lists the changes to the __RadPanelBar__ client-side object:
 
 ## RadPanelItem class
 
-The following table lists the changes to the __RadPanelItem__ client-side object:
+The following table lists the changes to the **RadPanelItem** client-side object:
 
 
 >caption  
 
 | RadPanelBar "Classic" | RadPanelBar for ASP.NET Ajax |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Disable()|disable()|
 |Enable()|enable()|
 |Focus()|focus()|
@@ -174,8 +174,8 @@ The following table lists the changes to the __RadPanelItem__ client-side object
 |SetText()|set_text()|
 |GetText()|get_text()|
 |SetValue()|set_value()|
-|GetAttribute()|use __get_attributes().getAttribute()__ instead.|
-|SetAttribute()|use __get_attributes().setAttribute()__ instead.|
+|GetAttribute()|use **get_attributes().getAttribute()** instead.|
+|SetAttribute()|use **get_attributes().setAttribute()** instead.|
 |FocusPreviousItem()|focusPreviousItem()|
 |FocusNextItem()|focusNextItem()|
 |FocusFirstChild()|focusFirstChild()|
@@ -185,7 +185,7 @@ The following table lists the changes to the __RadPanelItem__ client-side object
 |Expand()|expand()|
 |Collapse()|collapse()|
 |UnSelect()|unSelect()|
-| __Properties__ ||
+| **Properties** ||
 |Enabled|get_enabled(), set_enabled()|
 |Index|get_index()|
 |PanelBar|get_panelBar()|
@@ -204,7 +204,7 @@ The following table lists the changes to the __RadPanelItem__ client-side object
 
 ## CSS Class Names changes
 
-The following table lists the changes to CSS classes used in __RadPanelBar__ skins:
+The following table lists the changes to CSS classes used in **RadPanelBar** skins:
 
 
 >caption  

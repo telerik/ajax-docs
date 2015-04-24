@@ -1,6 +1,6 @@
 ---
-title: Programming Overview
-page_title: Server-side Overview | RadPivotGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Programming Overview | RadPivotGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: pivotgrid/server-side-programming/overview
 tags: overview

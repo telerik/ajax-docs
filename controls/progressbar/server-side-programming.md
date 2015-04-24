@@ -1,6 +1,6 @@
 ---
 title: Server-side Programming
-page_title: Server-side Programming | UI for ASP.NET AJAX Documentation
+page_title: Server-side Programming | RadProgressBar for ASP.NET AJAX Documentation
 description: Server-side Programming
 slug: progressbar/server-side-programming
 tags: server-side,programming
@@ -12,7 +12,7 @@ position: 7
 
 
 
-You can configure the settings of __RadProgressBar__ and create its elements in the code-behind via the Server-Side API of the control.
+You can configure the settings of **RadProgressBar** and create its elements in the code-behind via the Server-Side API of the control.
 
 ## RadProgressBar Public Properties and Methods
 
@@ -20,12 +20,12 @@ For a list with the server-side properties and methods of the control, see the[S
 
 ## Creating and Configuring a ProgressBar From the Code-behind
 
-__Example 1__ shows a how you can use the server-side API of the ProgressBar, to create the control instance and configure some of the main	settings of the control. You can see the result from this code in __Figure 1__.
+**Example 1** shows a how you can use the server-side API of the ProgressBar, to create the control instance and configure some of the main	settings of the control. You can see the result from this code in **Figure 1**.
 >caption Figure 1: A progress bar that is created and configured from the code-behind.
 
 ![programmatically-created-progress-bar](images/programmatically-created-progress-bar.png)
 
-__Example 1__: Configuring a progress bar on the server-side.
+**Example 1**: Configuring a progress bar on the server-side.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: RadPersistenceFramework Design Time | UI for ASP.NET AJAX Documentation
+page_title: RadPersistenceFramework Design Time | RadPersistenceFramework for ASP.NET AJAX Documentation
 description: Design Time
 slug: persistenceframework/design-time
 tags: design,time

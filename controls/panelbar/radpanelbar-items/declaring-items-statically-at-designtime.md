@@ -1,6 +1,6 @@
 ---
 title: Declaring Items Statically at Designtime
-page_title: Declaring Items Statically at Designtime | UI for ASP.NET AJAX Documentation
+page_title: Declaring Items Statically at Designtime | RadPanelBar for ASP.NET AJAX Documentation
 description: Declaring Items Statically at Designtime
 slug: panelbar/radpanelbar-items/declaring-items-statically-at-designtime
 tags: declaring,items,statically,at,designtime
