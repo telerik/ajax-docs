@@ -118,6 +118,7 @@ $(function() {
     var codeSampleMapper = {
         'C#': 'cs',
         'VB.NET': 'vb',
+        'VB': 'vb',
         'JavaScript': 'js',
         'ASPNET': 'html',
         'XML': 'xml',
