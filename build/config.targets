@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+
+    <PropertyGroup>
+        <!--Tfs Source Paths-->
+        <ServerApiReferenceConverterServerFolder>$/Telerik.Web.UI_Scrum/HelperProjects/ApiReferenceTools/ServerApiReferenceConverter</ServerApiReferenceConverterServerFolder>
+        <AjaxBuildHelpServerFolder>$/Telerik.Web.UI_Scrum/$(AjaxBranch)/BuildHelp</AjaxBuildHelpServerFolder>
+        <AjaxWebUIServerFolder>$/Telerik.Web.UI_Scrum/$(AjaxBranch)/Telerik.Web.UI</AjaxWebUIServerFolder>
+        <XamlServerFolder>$/WPF_Scrum/$(XamlBranch)</XamlServerFolder>
+        <XamlBuildServerFolder>$(XamlServerFolder)/Build</XamlBuildServerFolder>
+        <XamlDocumentsServerFolder>$(XamlServerFolder)/Documents</XamlDocumentsServerFolder>
+        <XamlFrameworksServerFolder>$(XamlServerFolder)/Frameworks</XamlFrameworksServerFolder>
+        <XamlLibServerFolder>$(XamlServerFolder)/lib</XamlLibServerFolder>
+        
+        <!-- TFS tools paths -->
+        <TFTool>"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\tf.exe"</TFTool>
+        <TFServer>http://tfs:8082</TFServer>
+    
+        <!--Workspace names-->
+        <ServerApiReferenceConverterWorkspaceName>ServerApiReferenceConverterTempWorkspace</ServerApiReferenceConverterWorkspaceName>
+        <AjaxBuildHelpWorkspaceName>AjaxBuildHelpTempWorkspace</AjaxBuildHelpWorkspaceName>
+        <AjaxWebUIWorkspaceName>AjaxWebUITempWorkspace</AjaxWebUIWorkspaceName>
+        <XamlBuildWorkspaceName>XamlBuildTempWorkspace</XamlBuildWorkspaceName>
+        <XAMLDocumentsWorkspaceName>AjaxDocsTempWorkspace</XAMLDocumentsWorkspaceName>
+        <XAMLFrameworksWorkspaceName>AjaxDocsTempWorkspace</XAMLFrameworksWorkspaceName>
+        <XAMLLibWorkspaceName>AjaxDocsTempWorkspace</XAMLLibWorkspaceName>
+        
+        <!--Root Directories-->
+        <TfsSourcesRootDirectory>$(MsBuildProjectDirectory)\..\TfsSources</TfsSourcesRootDirectory>
+        <ServerApiReferenceConverterRootDirectory>$(TfsSourcesRootDirectory)\HelperProjects\ApiReferenceTools\ServerApiReferenceConverter</ServerApiReferenceConverterRootDirectory>
+        <AjaxBuildHelpRootDirectory>$(TfsSourcesRootDirectory)\BuildHelp</AjaxBuildHelpRootDirectory>
+        <AjaxWebUIRootDirectory>$(TfsSourcesRootDirectory)\Telerik.Web.UI</AjaxWebUIRootDirectory>
+        <XAMLRootDirectory>$(TfsSourcesRootDirectory)\XAML</XAMLRootDirectory>
+        <XAMLBuildRootDirectory>$(XAMLRootDirectory)\Build</XAMLBuildRootDirectory>
+        <XAMLDocumentsRootDirectory>$(XAMLRootDirectory)\Documents</XAMLDocumentsRootDirectory>
+        <XAMLFrameworksRootDirectory>$(XAMLRootDirectory)\Frameworks</XAMLFrameworksRootDirectory>
+        <XAMLLibRootDirectory>$(XAMLRootDirectory)\lib</XAMLLibRootDirectory>
+    
+        <!--Configurations-->
+        <ReleaseConfiguration>Release</ReleaseConfiguration>
+        <ReleaseNet40Configuration>Release-NET40</ReleaseNet40Configuration>
+        <ReleaseNet45Configuration>Release-NET45</ReleaseNet45Configuration>
+        <Release45Configuration>Release45</Release45Configuration>
+        <SolutionPlatform>Any CPU</SolutionPlatform>
+        <SolutionPlatformWithoutSpace>AnyCPU</SolutionPlatformWithoutSpace>
+        
+        <!--ServerApiReferenceConverter-->
+        <ServerApiReferenceConverterDirectory>$(ServerApiReferenceConverterRootDirectory)</ServerApiReferenceConverterDirectory>
+        <ServerApiReferenceConverterSolution>$(ServerApiReferenceConverterDirectory)\ServerApiReferenceConverter.sln</ServerApiReferenceConverterSolution>
+        <ServerApiReferenceConverterInputDirectory>$(ServerApiReferenceConverterDirectory)\Input</ServerApiReferenceConverterInputDirectory>
+        <ServerApiReferenceConverterResultsDirectory>$(ServerApiReferenceConverterDirectory)\Output</ServerApiReferenceConverterResultsDirectory>
+        <ServerApiReferenceConverterOutputDirectory>$(ServerApiReferenceConverterDirectory)\bin\$(ReleaseConfiguration)</ServerApiReferenceConverterOutputDirectory>
+        <ServerApiReferenceConverterToolPath>$(ServerApiReferenceConverterOutputDirectory)\ServerApiReferenceConverter.exe</ServerApiReferenceConverterToolPath>
+
+        <!--WebUI Control-->
+        <WebUIProjectDirectory>$(AjaxWebUIRootDirectory)</WebUIProjectDirectory>
+        <WebUIReferencesDirectory>$(AjaxWebUIRootDirectory)\References</WebUIReferencesDirectory>
+        <WebUIProject>$(WebUIProjectDirectory)\Telerik.Web.UI.csproj</WebUIProject>
+
+        <!--Document Processing Library properties-->
+        <XAMLDirectory>$(XAMLRootDirectory)</XAMLDirectory>
+        <DocumentProcessingSolution>$(XAMLDirectory)\Documents\DocumentProcessing.sln</DocumentProcessingSolution>
+        
+        <ApiServerDirectory>$(MSBuildProjectDirectory)\..\api\server</ApiServerDirectory>
+    </PropertyGroup>
+
+</Project>
