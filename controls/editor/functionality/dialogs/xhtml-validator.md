@@ -1,6 +1,6 @@
 ---
 title: XHTML Validator
-page_title: XHTML Validator | UI for ASP.NET AJAX Documentation
+page_title: XHTML Validator | RadEditor for ASP.NET AJAX Documentation
 description: XHTML Validator
 slug: editor/functionality/dialogs/xhtml-validator
 tags: xhtml,validator
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __XhtmlValidator__dialog uses the W3C XHTML Validator Page to perform validation of the current editor content. The W3C service returns a compliancy report right within the editor dialog. This feature eliminates the need for manual copy/pasting of the HTML and validation in a separate browser window.
+The **XhtmlValidator**dialog uses the W3C XHTML Validator Page to perform validation of the current editor content. The W3C service returns a compliancy report right within the editor dialog. This feature eliminates the need for manual copy/pasting of the HTML and validation in a separate browser window.
 >caption 
 
 ![](images/editor-dialogs004.png)

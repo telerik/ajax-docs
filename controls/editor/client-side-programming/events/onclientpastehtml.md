@@ -1,6 +1,6 @@
 ---
 title: OnClientPasteHtml
-page_title: OnClientPasteHtml | UI for ASP.NET AJAX Documentation
+page_title: OnClientPasteHtml | RadEditor for ASP.NET AJAX Documentation
 description: OnClientPasteHtml
 slug: editor/client-side-programming/events/onclientpastehtml
 tags: onclientpastehtml
@@ -16,31 +16,31 @@ position: 7
 
 
 
-The __OnClientPasteHtml__ event is useful in scenarios where the developers need to examine or modify the HTML to be pasted by an editor tool before it is inserted in the editor content area.
+The **OnClientPasteHtml** event is useful in scenarios where the developers need to examine or modify the HTML to be pasted by an editor tool before it is inserted in the editor content area.
 
 
 
 
 >caption  
 
-|  __function OnClientPasteHtml(editor, args)__  |  |  |
+|  **function OnClientPasteHtml(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 
 >caption  
 
-|  __args parameter methods__  |  |
+|  **args parameter methods**  |  |
 | ------ | ------ |
-| __args.get_commandName()__ |Returns the command name|
-| __args.get_value()__ |Returns the value of the executed tool|
-| __args.set_value()__ |Sets the new content to be pasted in RadEditor|
-| __args.get_cancel(true)__ |Cancels the command execution|
+| **args.get_commandName()** |Returns the command name|
+| **args.get_value()** |Returns the value of the executed tool|
+| **args.set_value()** |Sets the new content to be pasted in RadEditor|
+| **args.get_cancel(true)** |Cancels the command execution|
 
 Some common cases where the event can be used are:
 
-* Check whether user specified __alt__ attribute for an image
+* Check whether user specified **alt** attribute for an image
 
 * Make modifications to a table being inserted (e.g. set a specific classname, etc)
 
@@ -48,7 +48,7 @@ Some common cases where the event can be used are:
 
 The event allows the developer to cancel the event as well - then no content will be inserted. Many of the editor tools and dialogs use the pasteHtml method to perform their action - here is a complete list:
 
-__Tools__
+**Tools**
 
 -------
 
@@ -72,7 +72,7 @@ InsertHorizontalRule
 
 InsertCustomLink
 
-__Dialogs__
+**Dialogs**
 
 -------
 
@@ -90,7 +90,7 @@ SetCellProperties
 
 FormatCodeBlock
 
-__Example:__The code below demonstrates how to check whether the inserted image through the Image manager has an "__alt__" attribute set and if it doesn't then urge the user to enter an "__alt__" attribute name:
+**Example:**The code below demonstrates how to check whether the inserted image through the Image manager has an "**alt**" attribute set and if it doesn't then urge the user to enter an "**alt**" attribute name:
 
 ````ASPNET
 	<script type="text/javascript">
@@ -126,7 +126,7 @@ __Example:__The code below demonstrates how to check whether the inserted image 
 
 
 
->note Safari and Chrome do not offer __onpaste__ event and for that reason the __OnClientPasteHtml__ event of RadEditor is not fired in these browsers when the paste command (Ctrl+V) is executed.
+>note Safari and Chrome do not offer **onpaste** event and for that reason the **OnClientPasteHtml** event of RadEditor is not fired in these browsers when the paste command (Ctrl+V) is executed.
 >
 
 

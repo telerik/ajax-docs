@@ -1,6 +1,6 @@
 ---
 title: Obtain Current Editor's Selection as HTML
-page_title: Obtain Current Editor's Selection as HTML | UI for ASP.NET AJAX Documentation
+page_title: Obtain Current Editor's Selection as HTML | RadEditor for ASP.NET AJAX Documentation
 description: Obtain Current Editor's Selection as HTML
 slug: editor/how-to/obtain-current-editor's-selection-as-html
 tags: obtain,current,editor's,selection,as,html
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-When implementing custom tools or dialogs, you may need to obtain the current editor selection in HTML form. The following solution shows how to do this using RadEditor cross-browser compatible, client-side methods. Use the client-side __getSelectionHtml()__ method to retrieve the selected HTML and the __pasteHtml()__ method to replace the HTML of the current selection.
+When implementing custom tools or dialogs, you may need to obtain the current editor selection in HTML form. The following solution shows how to do this using RadEditor cross-browser compatible, client-side methods. Use the client-side **getSelectionHtml()** method to retrieve the selected HTML and the **pasteHtml()** method to replace the HTML of the current selection.
 
 The example below shows how to obtain the current selection using a custom button, convert it to upper case and then paste it back (replacing the original text).
 >caption 

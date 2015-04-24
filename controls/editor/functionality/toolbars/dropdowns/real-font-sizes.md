@@ -1,6 +1,6 @@
 ---
 title: Real Font Sizes
-page_title: Real Font Sizes | UI for ASP.NET AJAX Documentation
+page_title: Real Font Sizes | RadEditor for ASP.NET AJAX Documentation
 description: Real Font Sizes
 slug: editor/functionality/toolbars/dropdowns/real-font-sizes
 tags: real,font,sizes
@@ -33,7 +33,7 @@ The Real Font Sizes dropdown displays a predefined set of font sizes in pixels a
 
 ## Using RealFontSizes Programmatically
 
-Use the RealFontSizes collection __Add()__method to include new items in the list.
+Use the RealFontSizes collection **Add()**method to include new items in the list.
 
 
 

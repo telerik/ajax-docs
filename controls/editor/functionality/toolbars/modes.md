@@ -1,6 +1,6 @@
 ---
 title: Modes
-page_title: Modes | UI for ASP.NET AJAX Documentation
+page_title: Modes | RadEditor for ASP.NET AJAX Documentation
 description: Modes
 slug: editor/functionality/toolbars/modes
 tags: modes
@@ -14,19 +14,19 @@ position: 1
 
 ## 
 
-RadEditor for ASP.NET AJAX introduces a property named __ToolbarMode__, whichspecifies the behavior of the toolbar/ribbonbar. Here are the different options for settingthe ToolbarMode:
+RadEditor for ASP.NET AJAX introduces a property named **ToolbarMode**, whichspecifies the behavior of the toolbar/ribbonbar. Here are the different options for settingthe ToolbarMode:
 
 
-|  __ToolBar__ related: |  __RibbonBar__ related: |
+|  **ToolBar** related: |  **RibbonBar** related: |
 | ------ | ------ |
-| __Default__ - the toolbar is static and positioned over the	content area![editor-defaulttoolbarmode](images/editor-defaulttoolbarmode.png)| __RibbonBar__ - the ribbonbar is static and positioned over the	content area![editor-ribbonbarmode](images/editor-ribbonbarmode.png)|
-| __PageTop__ - in this mode, when a particular editor gets the	focus its toolbar will appear docked at the top of the page![editor-pagetoptoolbarmode](images/editor-pagetoptoolbarmode.png)| __RibbonBarPageTop__ - in this mode, when a particular editor gets the	focus its ribbonbar will appear docked at the top of the page![editor-ribbonbarpagetopmode](images/editor-ribbonbarpagetopmode.png)|
-| __ShowOnFocus__ - here the toolbar will appear	right above the editor when it gets focus![editor-showonfocusmode](images/editor-showonfocusmode.png)| __RibbonBarShowOnFocus__ - here the ribbonbar will appear	right above the editor when it gets focus.![editor-ribbonbarshowonfocusmode](images/editor-ribbonbarshowonfocusmode.png)|
-| __Floating__ - the toolbar will pop up in a window and	will allow the user to move it over the page![editor-floatingmode](images/editor-floatingmode.png)| __RibbonBarFloating__ - the ribbonbar will pop up in a window and	will allow the user to move it over the page![editor-ribbonbarfloatingmode](images/editor-ribbonbarfloatingmode.png)|
+| **Default** - the toolbar is static and positioned over the	content area![editor-defaulttoolbarmode](images/editor-defaulttoolbarmode.png)| **RibbonBar** - the ribbonbar is static and positioned over the	content area![editor-ribbonbarmode](images/editor-ribbonbarmode.png)|
+| **PageTop** - in this mode, when a particular editor gets the	focus its toolbar will appear docked at the top of the page![editor-pagetoptoolbarmode](images/editor-pagetoptoolbarmode.png)| **RibbonBarPageTop** - in this mode, when a particular editor gets the	focus its ribbonbar will appear docked at the top of the page![editor-ribbonbarpagetopmode](images/editor-ribbonbarpagetopmode.png)|
+| **ShowOnFocus** - here the toolbar will appear	right above the editor when it gets focus![editor-showonfocusmode](images/editor-showonfocusmode.png)| **RibbonBarShowOnFocus** - here the ribbonbar will appear	right above the editor when it gets focus.![editor-ribbonbarshowonfocusmode](images/editor-ribbonbarshowonfocusmode.png)|
+| **Floating** - the toolbar will pop up in a window and	will allow the user to move it over the page![editor-floatingmode](images/editor-floatingmode.png)| **RibbonBarFloating** - the ribbonbar will pop up in a window and	will allow the user to move it over the page![editor-ribbonbarfloatingmode](images/editor-ribbonbarfloatingmode.png)|
 
 
 
-The __ToolbarMode__property is a __EditorToolbarMode__enumeration that can be set at runtime to:
+The **ToolbarMode**property is a **EditorToolbarMode**enumeration that can be set at runtime to:
 
 * Default
 

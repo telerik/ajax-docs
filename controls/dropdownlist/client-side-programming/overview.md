@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Client-side Programming Overview | UI for ASP.NET AJAX Documentation
+page_title: Client-side Programming Overview | RadDropDownList for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET RadDropDownList Client-side Programming Overview
 slug: dropdownlist/client-side-programming/overview
 tags: overview

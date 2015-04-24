@@ -1,6 +1,6 @@
 ---
 title: Localize Buttons, ToolTips, etc
-page_title: Localize Buttons, ToolTips, etc | UI for ASP.NET AJAX Documentation
+page_title: Localize Buttons, ToolTips, etc | RadEditor for ASP.NET AJAX Documentation
 description: Localize Buttons, ToolTips, etc
 slug: editor/accessibility-and-internationalization/localization/localize-buttons,-tooltips,-etc
 tags: localize,buttons,,tooltips,,etc
@@ -19,7 +19,7 @@ RadEditor is fully localized from resource files placed in the App_GlobalResourc
 
 ![](images/editor-localization006.png)
 
-The tools can be defined through the ToolsFile.xml, added declaratively or programmatically at run-time. The critical detail is that the tool name must match the __Name__ column in the resource file.
+The tools can be defined through the ToolsFile.xml, added declaratively or programmatically at run-time. The critical detail is that the tool name must match the **Name** column in the resource file.
 
 ````XML
 	    <root>  
@@ -69,7 +69,7 @@ The tools can be defined through the ToolsFile.xml, added declaratively or progr
 ````
 
 
-When you run the application, the new button will display with the string from the resource file __Value__ column for that tool:
+When you run the application, the new button will display with the string from the resource file **Value** column for that tool:
 >caption 
 
 ![](images/editor-localization005.png)

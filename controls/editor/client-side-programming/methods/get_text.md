@@ -1,6 +1,6 @@
 ---
 title: get_text
-page_title: get_text | UI for ASP.NET AJAX Documentation
+page_title: get_text | RadEditor for ASP.NET AJAX Documentation
 description: get_text
 slug: editor/client-side-programming/methods/get_text
 tags: get_text
@@ -12,9 +12,9 @@ position: 10
 
 
 
-You can find here more details about the usage of the client-side __get_text()__ method.
+You can find here more details about the usage of the client-side **get_text()** method.
 
-Returns the editor's content as plain text (strips down the tags). As of __Q1 2015__, optionally,you can configure how the text to be stripped via the *options* parameter.
+Returns the editor's content as plain text (strips down the tags). As of **Q1 2015**, optionally,you can configure how the text to be stripped via the *options* parameter.
 
 ## 
 
@@ -29,7 +29,7 @@ The table below shows more details about their purpose:
 
 | Parameter | Type | Description |
 | ------ | ------ | ------ |
-| __options__ | __Object__ |Options for the strip behavior. Example:`{ trimText: true, removeMultipleSpaces: true }`List of the available options to enable:
+| **options** | **Object** |Options for the strip behavior. Example:`{ trimText: true, removeMultipleSpaces: true }`List of the available options to enable:
 
 *  *trimText* - Removes all leading and trailing white-space characters.
 

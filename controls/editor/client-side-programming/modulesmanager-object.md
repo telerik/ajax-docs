@@ -1,6 +1,6 @@
 ---
 title: ModulesManager Object
-page_title: ModulesManager Object | UI for ASP.NET AJAX Documentation
+page_title: ModulesManager Object | RadEditor for ASP.NET AJAX Documentation
 description: ModulesManager Object
 slug: editor/client-side-programming/modulesmanager-object
 tags: modulesmanager,object

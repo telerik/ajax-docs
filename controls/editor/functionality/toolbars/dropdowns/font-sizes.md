@@ -1,6 +1,6 @@
 ---
 title: Font Sizes
-page_title: Font Sizes | UI for ASP.NET AJAX Documentation
+page_title: Font Sizes | RadEditor for ASP.NET AJAX Documentation
 description: Font Sizes
 slug: editor/functionality/toolbars/dropdowns/font-sizes
 tags: font,sizes
@@ -33,7 +33,7 @@ You can repopulate the Font Size dropdown with the sizes from 1 to 7 (these are 
 
 ## Adding to FontSizes Collection Programmatically
 
-Use the FontSizes collection __Add()__method to include new FontSizes in the list.
+Use the FontSizes collection **Add()**method to include new FontSizes in the list.
 
 
 
@@ -55,7 +55,7 @@ Use the FontSizes collection __Add()__method to include new FontSizes in the lis
 
 ## Using ToolsFile.xml
 
-You can also populate the __FontSizes__ dropdown using the ToolsFile, as shown in the example below:
+You can also populate the **FontSizes** dropdown using the ToolsFile, as shown in the example below:
 
 ````XML
 	    <root>  

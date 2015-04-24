@@ -1,6 +1,6 @@
 ---
 title: RadDropDownList Structure
-page_title: RadDropDownList Structure | UI for ASP.NET AJAX Documentation
+page_title: RadDropDownList Structure | RadDropDownList for ASP.NET AJAX Documentation
 description: RadDropDownList Structure
 slug: dropdownlist/raddropdownlist-structure
 tags: raddropdownlist,structure

@@ -1,6 +1,6 @@
 ---
 title: Disable Context Menu 
-page_title: Disable Context Menu  | UI for ASP.NET AJAX Documentation
+page_title: Disable Context Menu  | RadEditor for ASP.NET AJAX Documentation
 description: Disable Context Menu 
 slug: editor/functionality/context-menus/disable-context-menu-
 tags: disable,context,menu,
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-To disable RadEditor context menus, use code-behind to locate the context menu and set it __Enabled__property to false.
+To disable RadEditor context menus, use code-behind to locate the context menu and set it **Enabled**property to false.
 
 
 

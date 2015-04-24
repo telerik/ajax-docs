@@ -1,6 +1,6 @@
 ---
 title: Binding to WCF
-page_title: Binding to WCF | UI for ASP.NET AJAX Documentation
+page_title: Binding to WCF | RadDropDownList for ASP.NET AJAX Documentation
 description: Binding to WCF
 slug: dropdownlist/databinding/client-side-binding/binding-to-wcf
 tags: binding,to,wcf

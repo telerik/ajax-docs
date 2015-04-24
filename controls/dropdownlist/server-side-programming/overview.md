@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Server-side Programming Overview | UI for ASP.NET AJAX Documentation
+page_title: Server-side Programming Overview | RadDropDownList for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET RadDropDownList Server-side Programming Overview
 slug: dropdownlist/server-side-programming/overview
 tags: overview

@@ -1,6 +1,6 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Create a Custom Skin | RadEditor for ASP.NET AJAX Documentation
 description: Create a Custom Skin
 slug: editor/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
@@ -14,40 +14,40 @@ position: 2
 
 ## RadEditor for ASP.NET AJAX CSS: Classes and Their Use
 
-Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called __base stylesheet__ contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
+Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called **base stylesheet** contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
 
 The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e - Editor.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
 ## Creating a Custom Skin for RadEditor for ASP.NET AJAX from an Existing One
 
-__Getting and Renaming Files and CSS Classes__
+**Getting and Renaming Files and CSS Classes**
 
 In order to explain better the CSS classes of RadEditor, we will use both Editor.css and Editor.SkinName.css as external resources. We will modify an existing skin of RadEditor. Follow these steps to register an external skin for RadEditor for ASP.NET AJAX before editing any CSS:
 
-1. In your project, create a new directory named __Skins__
+1. In your project, create a new directory named **Skins**
 
-1. In the skins folder create a new directory __MyCustomSkin__.
+1. In the skins folder create a new directory **MyCustomSkin**.
 
-1. Go to __~/[ControlsInstallationFolder]/Skins__ and copy the __Common__ folder in your __Skins__ folder
+1. Go to **~/[ControlsInstallationFolder]/Skins** and copy the **Common** folder in your **Skins** folder
 
-1. Go to __~/[ControlsInstallationFolder]/Skins__ and copy __Editor.css__ in your __Skins__ folder
+1. Go to **~/[ControlsInstallationFolder]/Skins** and copy **Editor.css** in your **Skins** folder
 
-1. Go to __~/[ControlsInstallationFolder]/Skins/Default__ and copy __Editor.Default.css__ and the __Skins/Default/Editor__ folder in your __Skins__ folder.
+1. Go to **~/[ControlsInstallationFolder]/Skins/Default** and copy **Editor.Default.css** and the **Skins/Default/Editor** folder in your **Skins** folder.
 
->important If the used __Telerik UI for ASP.NET AJAX__ suite includes Lite and Mobile[Render Modes](e13d2a83-e66e-47f1-b14e-af0fbeee4a59)then it is recomended to include the corresponding skin folders	(e.g. __DefaultLite__ and __DefaultMobile__ ) and rename them accordingly to __MyCustomSkinLite__ and __MyCustomSkinMobile__ 
+>important If the used **Telerik UI for ASP.NET AJAX** suite includes Lite and Mobile[Render Modes](e13d2a83-e66e-47f1-b14e-af0fbeee4a59)then it is recomended to include the corresponding skin folders	(e.g. **DefaultLite** and **DefaultMobile** ) and rename them accordingly to **MyCustomSkinLite** and **MyCustomSkinMobile** 
 >
 
 
-1. Rename Editor.__Default__.css to Editor.__MyCustomSkin__.css and the folder __Default__ to __MyCustomSkin__.
+1. Rename Editor.**Default**.css to Editor.**MyCustomSkin**.css and the folder **Default** to **MyCustomSkin**.
 
 1. When you are finished you should have: Skins/Editor.css, Skins/MyCustomSkin/Editor.MyCustomSkin.css and Skins/MyCustomSkin/Editor. The last folder contains the images for MyCustomSkin.
 
-1. In order to support multiple skins of RadEditor on a single page, the wrapping skin-specific is .SkinName, i.e __.Default__, which is a secondary class of the main Editor's class - .Default.RadEditor (no space between the CSS classes in the rule) so in order to create a custom skin out of the Default skin, we should rename all occurences of "__Default__" in Editor.MyCustomSkin.css to "__MyCustomSkin__" as shown below:
+1. In order to support multiple skins of RadEditor on a single page, the wrapping skin-specific is .SkinName, i.e **.Default**, which is a secondary class of the main Editor's class - .Default.RadEditor (no space between the CSS classes in the rule) so in order to create a custom skin out of the Default skin, we should rename all occurences of "**Default**" in Editor.MyCustomSkin.css to "**MyCustomSkin**" as shown below:
 >caption 
 
 ![Editor CSS Classes Batch Rename](images/editor-cssclassesbatchrename.gif)
 
-1. Put a new server declaration of RadEditor on your page, and set __Skin="MyCustomSkin"__ and __EnableEmbeddedSkins="false"__:
+1. Put a new server declaration of RadEditor on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false" ID="RadEditor1">
@@ -68,7 +68,7 @@ Make sure the path to the files is correct, otherwise the skin will not apply.
 
 1. Telerik's Editor is a complex control and makes use of other controls from the Telerik UI for ASP.NET AJAX suite (e.g. RadWindow, RadFormDecorator, RadTabStrip, RadGrid, RadToolBar, RadFileExplorer), please, review the following two articles, and the relevant help topics about skinning these controls:
 
-* If the built-in dialogs of the __RadEditor__ are going to be used in your application,	you need to create a custom dialog CSS file that imports the files needed for the additionally used controls in ASCX files. You can find more information about this in the[DialogsCssFile Property]({%slug editor/appearance-and-styling/dialogscssfile-property%}) article.
+* If the built-in dialogs of the **RadEditor** are going to be used in your application,	you need to create a custom dialog CSS file that imports the files needed for the additionally used controls in ASCX files. You can find more information about this in the[DialogsCssFile Property]({%slug editor/appearance-and-styling/dialogscssfile-property%}) article.
 
 * [http://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx](http://www.telerik.com/community/forums/aspnet-ajax/editor/radeditor-q3-2008-skins-available-for-download.aspx)
 
@@ -185,12 +185,12 @@ Explained below is a simple method for modifying the image sprites of RadEditor 
 
 1. Drag ToolbarVerticalSprites.gif and ToolBarSprites.gif in Adobe© PhotoShop
 
-1. From the menu bar select __Image » Mode » RGB Color__ to prepare the images for editing (convert from optimized __Indexed Color__ to __RGB Color__):
+1. From the menu bar select **Image » Mode » RGB Color** to prepare the images for editing (convert from optimized **Indexed Color** to **RGB Color**):
 >caption 
 
 ![Convert from Indexed to RGB Color](images/editor-indexedtorgb.gif)
 
-1. Press __Set Foreground Color__ in PhotoShop's toolbox to invoke the color picker dialog:
+1. Press **Set Foreground Color** in PhotoShop's toolbox to invoke the color picker dialog:
 >caption 
 
 ![Adobe PhotoShop Toolbox](images/editor-presstoolbox.gif)
@@ -200,18 +200,18 @@ Explained below is a simple method for modifying the image sprites of RadEditor 
 
 ![Adobe PhotoShop ColorPicker](images/editor-colorpicker.gif)
 
-1. Choose the first image you will modify, for example ToolBarSprites.gif, and select __Image » Adjustments Hue » / Saturation to open the Hue / Saturation__ dialog of [Adobe© PhotoShop](http://adobe.com):
+1. Choose the first image you will modify, for example ToolBarSprites.gif, and select **Image » Adjustments Hue » / Saturation to open the Hue / Saturation** dialog of [Adobe© PhotoShop](http://adobe.com):
 >caption 
 
 ![Choose Hue and Saturation](images/editor-choosehue.gif)
 
-1. Check the __colorize__ checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
+1. Check the **colorize** checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
 >caption 
 
 ![Colorize](images/editor-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to finetune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
 
 1. Press "OK" when you are finished
 
-1. Select Image __Image » Mode » Indexed Color__ to flatten the layers of the image
+1. Select Image **Image » Mode » Indexed Color** to flatten the layers of the image
 
 1. Save and close the image

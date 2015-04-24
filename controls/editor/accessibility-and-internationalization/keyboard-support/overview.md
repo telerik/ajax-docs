@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/accessibility-and-internationalization/keyboard-support/overview
 tags: overview
@@ -16,13 +16,13 @@ position: 0
 
 RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This includes shortcuts to open and operate with drop-downs, tools and dialogs, achieving true full keyboard accessibility.
 
-* Use __F10__- focus goes on toolbars
+* Use **F10**- focus goes on toolbars
 
 * toolbars navigation - use arrow keys or TAB / Ctrl-TAB key
 
-* dropdown navigation - navigate through the dropdown items using the __up__ and __down__ arrow keys
+* dropdown navigation - navigate through the dropdown items using the **up** and **down** arrow keys
 
-* Press __ENTER__ to execute the selected button, dropdown item.
+* Press **ENTER** to execute the selected button, dropdown item.
 
 * built-in keyboard shortcuts - by default, RadEditor has the following shortcuts hardcoded internally:
 
@@ -56,7 +56,7 @@ RadEditor for ASP.NET AJAX is a fully keyboard navigable component. This include
 
 * Select All - CTRL+A
 
-You can assign a shortcut to all editor's buttons and dropdowns by using the __ShortCut__ attribute of the inner telerik:EditorTool tag of the RadEditor:
+You can assign a shortcut to all editor's buttons and dropdowns by using the **ShortCut** attribute of the inner telerik:EditorTool tag of the RadEditor:
 
 ````ASPNET
 	    <telerik:RadEditor ID="RadEditor1" runat="server">
@@ -103,7 +103,7 @@ or in the CodeBehind:
 ````
 
 
-or using the __ShortCut__ attribute of the __<tool>__ item in the ToolsFile.xml file:
+or using the **ShortCut** attribute of the **<tool>** item in the ToolsFile.xml file:
 
 ````XML
 	    <tool name="Cut" shortcut="CTRL+X" />
@@ -113,4 +113,4 @@ or using the __ShortCut__ attribute of the __<tool>__ item in the ToolsFile.xml 
 
 
 
-The shortcut mechanism will override the default shortcut of the browser, like __Ctrl+N, Ctrl+F, Ctrl+P__, so you can use those combinations for custom purposes.
+The shortcut mechanism will override the default shortcut of the browser, like **Ctrl+N, Ctrl+F, Ctrl+P**, so you can use those combinations for custom purposes.

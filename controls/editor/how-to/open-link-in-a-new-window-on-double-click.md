@@ -1,6 +1,6 @@
 ---
 title: Open Link in a New Window on Double Click
-page_title: Open Link in a New Window on Double Click | UI for ASP.NET AJAX Documentation
+page_title: Open Link in a New Window on Double Click | RadEditor for ASP.NET AJAX Documentation
 description: Open Link in a New Window on Double Click
 slug: editor/how-to/open-link-in-a-new-window-on-double-click
 tags: open,link,in,a,new,window,on,double,click

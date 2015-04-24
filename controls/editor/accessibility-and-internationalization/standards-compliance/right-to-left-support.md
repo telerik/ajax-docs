@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadEditor for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: editor/accessibility-and-internationalization/standards-compliance/right-to-left-support
 tags: right-to-left,support
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-The __RadEditor__ supports right-to-left (RTL) language locales. In order to configure the __RadEditor__ in RTL mode you should go through the following steps:
+The **RadEditor** supports right-to-left (RTL) language locales. In order to configure the **RadEditor** in RTL mode you should go through the following steps:
 
-1. RTL Support for the __RadEditor__Register the __Editor_RTL.css__ file in the <head> section of your webpage, i.e:<link rel="stylesheet" type="text/css" href="./RTL/Editor_RTL.css" />
+1. RTL Support for the **RadEditor**Register the **Editor_RTL.css** file in the <head> section of your webpage, i.e:<link rel="stylesheet" type="text/css" href="./RTL/Editor_RTL.css" />
 
-1. RTL for __RadEditor__ dialogs:Use the __DialogsCssFile__ property to include the __RadEditor_Dialogs_RTL.css__ file in the dialogs of __RadEditor__:<telerik:RadEditor DialogsCssFile="./RTL/RadEditor_Dialogs_RTL.css"></telerik:RadEditor>
+1. RTL for **RadEditor** dialogs:Use the **DialogsCssFile** property to include the **RadEditor_Dialogs_RTL.css** file in the dialogs of **RadEditor**:<telerik:RadEditor DialogsCssFile="./RTL/RadEditor_Dialogs_RTL.css"></telerik:RadEditor>
 
-1. RTL for the content area of the __RadEditor__:Use the __ContentAreaCssFile__ property of __RadEditor__ to include the __EditorContentArea_RTL.css__ file:<telerik:RadEditor runat="server" ID="RadEditor1" SkinID="DefaultSetOfTools" Height="350px" DialogsCssFile="./RTL/RadEditor_Dialogs_RTL.css" ContentAreaCssFile="./RTL/EditorContentArea_RTL.css"></telerik:RadEditor>The most important part of the __EditorContentArea_RTL.css__ file is the __direction: rtl;__ for the __<body>__ element.
+1. RTL for the content area of the **RadEditor**:Use the **ContentAreaCssFile** property of **RadEditor** to include the **EditorContentArea_RTL.css** file:<telerik:RadEditor runat="server" ID="RadEditor1" SkinID="DefaultSetOfTools" Height="350px" DialogsCssFile="./RTL/RadEditor_Dialogs_RTL.css" ContentAreaCssFile="./RTL/EditorContentArea_RTL.css"></telerik:RadEditor>The most important part of the **EditorContentArea_RTL.css** file is the **direction: rtl;** for the **<body>** element.
 
->note The CSS files are long and for readability they are not placed in this article. You can find them in the __Live Demos\Editor\Examples\RightToLeft\RTL__ folder under your controls for ASP.NET AJAX installation folder, which usually is	C:\Program Files [(x86) if on a 64bit machine]\Telerik\Telerik UI for ASP.NET AJAX QX YYYY\
+>note The CSS files are long and for readability they are not placed in this article. You can find them in the **Live Demos\Editor\Examples\RightToLeft\RTL** folder under your controls for ASP.NET AJAX installation folder, which usually is	C:\Program Files [(x86) if on a 64bit machine]\Telerik\Telerik UI for ASP.NET AJAX QX YYYY\
 >
 
 

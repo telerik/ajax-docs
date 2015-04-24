@@ -1,6 +1,6 @@
 ---
 title: getText
-page_title: getText | UI for ASP.NET AJAX Documentation
+page_title: getText | RadEditor for ASP.NET AJAX Documentation
 description: getText
 slug: editor/client-side-programming/methods/selection/gettext
 tags: gettext

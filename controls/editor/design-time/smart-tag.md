@@ -1,6 +1,6 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | UI for ASP.NET AJAX Documentation
+page_title: Smart Tag | RadEditor for ASP.NET AJAX Documentation
 description: Smart Tag
 slug: editor/design-time/smart-tag
 tags: smart,tag
@@ -12,44 +12,44 @@ position: 0
 
 
 
-The Smart Tag of __RadEditor__ lets you configure your control or quickly get help. You can display	the Smart Tag by right clicking on a __RadEditor__ control and choosing "Show Smart Tag",or clicking the small rightward-pointing arrow located in the upper right corner of the control. You can see how the Smart Tag opened in __Figure 1__.
+The Smart Tag of **RadEditor** lets you configure your control or quickly get help. You can display	the Smart Tag by right clicking on a **RadEditor** control and choosing "Show Smart Tag",or clicking the small rightward-pointing arrow located in the upper right corner of the control. You can see how the Smart Tag opened in **Figure 1**.
 >caption Figure 1: Shows the opened Smart Tag
 
 ![editor-design-time-smart-tag](images/editor-design-time-smart-tag/editor-design-time-smart-tag.png)
 
 ## Configuration Wizard
 
-__Open__ opens the wizard where you could configure RadEditor's:
+**Open** opens the wizard where you could configure RadEditor's:
 
-* __Tools__
+* **Tools**
 
-* __Dialog Managers__
+* **Dialog Managers**
 
-* __Fonts__
+* **Fonts**
 
-* __Font Sizes__
+* **Font Sizes**
 
-* __Real Font Sizes__
+* **Real Font Sizes**
 
-* __Paragraphs__
+* **Paragraphs**
 
-* __CSS Styles__
+* **CSS Styles**
 
-* __External CSS Files__
+* **External CSS Files**
 
-* __Custom Links__
+* **Custom Links**
 
-* __Colors__
+* **Colors**
 
 ## Ajax Resources
 
-* __Add RadAjaxManager...__ adds a __RadAjaxManager__ component to your Web page, and displays the __RadAjax Property Builder__ where you can configure it.
+* **Add RadAjaxManager...** adds a **RadAjaxManager** component to your Web page, and displays the **RadAjax Property Builder** where you can configure it.
 
-* __Add RadStyleSheetManager__ adds a __RadStyleSheetManager__ to your Web page.
+* **Add RadStyleSheetManager** adds a **RadStyleSheetManager** to your Web page.
 
 ## Skin
 
-The __Skin__ drop-down displays a list of available [skins]({%slug editor/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the __RadDock__ control looks like for each skin. Assign a skin by selecting the one you want from the list.
+The **Skin** drop-down displays a list of available [skins]({%slug editor/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the **RadDock** control looks like for each skin. Assign a skin by selecting the one you want from the list.
 
 ## Copy Built-in Dialogs to the Project
 

@@ -1,6 +1,6 @@
 ---
 title: Save and Cancel Buttons
-page_title: Save and Cancel Buttons | UI for ASP.NET AJAX Documentation
+page_title: Save and Cancel Buttons | RadEditor for ASP.NET AJAX Documentation
 description: Save and Cancel Buttons
 slug: editor/functionality/toolbars/buttons/examples/save-and-cancel-buttons
 tags: save,and,cancel,buttons
@@ -18,7 +18,7 @@ position: 2
 >
 
 
-You can implement custom save and cancel buttons using __RadEditor__, a __RadAjaxManager__ AjaxRequest, and two predefined "Save" and "Cancel" tools that are automatically styled according to the current skin.The example below is a stub implementation that configures the two button tools, implements save and cancel commands on the client and calls back to the server where save and cancel logic is carried out. In this example the server logic simply displays an alert dialog with the operation that should be carried out.
+You can implement custom save and cancel buttons using **RadEditor**, a **RadAjaxManager** AjaxRequest, and two predefined "Save" and "Cancel" tools that are automatically styled according to the current skin.The example below is a stub implementation that configures the two button tools, implements save and cancel commands on the client and calls back to the server where save and cancel logic is carried out. In this example the server logic simply displays an alert dialog with the operation that should be carried out.
 
 
 >caption 

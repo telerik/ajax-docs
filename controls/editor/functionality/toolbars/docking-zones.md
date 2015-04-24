@@ -1,6 +1,6 @@
 ---
 title: Docking Zones
-page_title: Docking Zones | UI for ASP.NET AJAX Documentation
+page_title: Docking Zones | RadEditor for ASP.NET AJAX Documentation
 description: Docking Zones
 slug: editor/functionality/toolbars/docking-zones
 tags: docking,zones
@@ -14,19 +14,19 @@ position: 3
 
 ## 
 
-The RadEditor Toolbar position can be changed by using the __DockingZone__ attribute which can have the following values:
+The RadEditor Toolbar position can be changed by using the **DockingZone** attribute which can have the following values:
 
-1. __Left__
+1. **Left**
 
-1. __Right__
+1. **Right**
 
-1. __Top__
+1. **Top**
 
-1. __Bottom__
+1. **Bottom**
 
-1. __Module__
+1. **Module**
 
-1. The __id__ of outer html element
+1. The **id** of outer html element
 >caption 
 
 ![](images/editor-dockingzone.png)

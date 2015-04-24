@@ -1,6 +1,6 @@
 ---
 title: Elements
-page_title: Elements | UI for ASP.NET AJAX Documentation
+page_title: Elements | RadDataPager for ASP.NET AJAX Documentation
 description: Elements
 slug: datapager/elements-and-templates/elements
 tags: elements

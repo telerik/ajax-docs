@@ -1,6 +1,6 @@
 ---
 title: TABs Replaced on Paste
-page_title: TABs Replaced on Paste | UI for ASP.NET AJAX Documentation
+page_title: TABs Replaced on Paste | RadEditor for ASP.NET AJAX Documentation
 description: TABs Replaced on Paste
 slug: editor/troubleshooting/tabs-replaced-on-paste
 tags: tabs,replaced,on,paste
@@ -16,7 +16,7 @@ position: 7
 
 PROBLEM 
 
-When cutting and pasting tabbed text from Word into Telerik RadEditor, it replaces all the tabs with a series of "__&nbsp;__".
+When cutting and pasting tabbed text from Word into Telerik RadEditor, it replaces all the tabs with a series of "**&nbsp;**".
 
 REASON
 

@@ -1,6 +1,6 @@
 ---
 title: Broken File Browser Dialogs
-page_title: Broken File Browser Dialogs | UI for ASP.NET AJAX Documentation
+page_title: Broken File Browser Dialogs | RadEditor for ASP.NET AJAX Documentation
 description: Broken File Browser Dialogs
 slug: editor/troubleshooting/broken-file-browser-dialogs
 tags: broken,file,browser,dialogs
@@ -14,14 +14,14 @@ position: 10
 
 ## Unregistered handler for RadAsyncUpload breaks the File Browser dialogs of RadEditor in Q3 2012
 
-__PROBLEM__
+**PROBLEM**
 
 If the Telerik.Web.UI.WebResource.axd handler is not registered AsyncUpload will	not function correctly and the File Browser (ImageManager, DocumentManager,	MediaManager, etc) dialogs will look in a similar way:
 >caption 
 
 ![editor-broken-fileexplor-dialogs](images/editor-broken-fileexplor-dialogs.png)
 
-__SOLUTION__
+**SOLUTION**
 
 To provide better File Upload experience and usability, starting from Q3 2012,	RadAsyncUpload is enabled out-of-the box in RadEditor's File Browser dialogs.	Therefore the handler for the AsyncUpload should be registered in the web.config	explicitly:
 

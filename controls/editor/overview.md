@@ -20,7 +20,7 @@ position: 0
 
 ![](images/radeditorpreview.png)
 
-Thank you for choosing __Telerik RadEditor for ASP.NET AJAX!____RadEditor for ASP.NET AJAX__ is the successor for the well-known industry standard Editor for ASP.NET. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component, turning it into the fastest loading Web Editor. Among the hottest features are: 
+Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.NET AJAX** is the successor for the well-known industry standard Editor for ASP.NET. The tight integration with ASP.NET AJAX and powerful new capabilities of the suite features the new WYSIWYG Editor as a flexible and lightweight component, turning it into the fastest loading Web Editor. Among the hottest features are: 
 
 * Unmatched loading speed
 

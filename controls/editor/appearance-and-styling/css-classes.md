@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadEditor for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: editor/appearance-and-styling/css-classes
 tags: css,classes
@@ -17,7 +17,7 @@ position: 3
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.SkinName.RadEditor|Primary wrapping class of the RadEditor|
 |.SkinName.reWrapper|Wrapping class|
@@ -124,7 +124,7 @@ position: 3
 ## Editor Commands
 
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.CustomDialog|Custom dialog|
 |.FormatCodeBlock|Format code block area|
@@ -270,7 +270,7 @@ position: 3
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reApplyClass td|Apply class to TD|
 |.reApplyClass span|Apply class to span|
@@ -296,7 +296,7 @@ position: 3
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reInsertLinkWrapper|Link wrapper|
 |.reInsertImageWrapper|Image Wrapper|

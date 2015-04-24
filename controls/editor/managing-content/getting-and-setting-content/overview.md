@@ -1,6 +1,6 @@
 ---
 title: Getting and Setting Content Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/managing-content/getting-and-setting-content/overview
 tags: overview
@@ -16,7 +16,7 @@ Most development tasks with RadEditor involve getting and setting content.
 
 ## Setting Content
 
-Use the __Content__ property to set or get text content, including HTML markup. You can set the __Content__directly inline within the __<Content>__ tag:
+Use the **Content** property to set or get text content, including HTML markup. You can set the **Content**directly inline within the **<Content>** tag:
 
 ````ASPNET
 	    <telerik:RadEditor ID="RadEditor1" runat="server">
@@ -26,7 +26,7 @@ Use the __Content__ property to set or get text content, including HTML markup. 
 
 
 
-In code-behind, set the __Content__ property:
+In code-behind, set the **Content** property:
 
 
 
@@ -54,9 +54,9 @@ In code-behind, set the __Content__ property:
 
 You can access RadEditor content through the following properties:
 
-* __Content__: Used to get or set RadEditor text content, including the XHTML markup.
+* **Content**: Used to get or set RadEditor text content, including the XHTML markup.
 
-* __Text__: This read-only property gets the RadEditor text without the HTML markup.
+* **Text**: This read-only property gets the RadEditor text without the HTML markup.
 
 ````ASPNET
 	    <asp:Button ID="Button1" runat="server" Text="Send" OnClick="Button1_Click" />
@@ -89,13 +89,13 @@ You can access RadEditor content through the following properties:
 
 
 
-__Note:__
+**Note:**
 
-The __Text__property of RadEditor returns editor content as pure text. It does convert __<BR/>__ tags into __\n__ lines correctly - so, if the editor content is loaded in a textarea, it will display those new lines correctly.
+The **Text**property of RadEditor returns editor content as pure text. It does convert **<BR/>** tags into **\n** lines correctly - so, if the editor content is loaded in a textarea, it will display those new lines correctly.
 
 However, if the content is loaded back into the editor, of course, there is a problem, because the "\n" symbols mean nothing in HTML and they will be simply ignored by the browser. So, to display content in several lines, use code such as
 
-RadEditor1.Content = dbContent.__Replace("\n", "<br/>")__;
+RadEditor1.Content = dbContent.**Replace("\n", "<br/>")**;
 
 # See Also
 

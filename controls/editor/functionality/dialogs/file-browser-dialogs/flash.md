@@ -1,6 +1,6 @@
 ---
 title: Flash
-page_title: Flash | UI for ASP.NET AJAX Documentation
+page_title: Flash | RadEditor for ASP.NET AJAX Documentation
 description: Flash
 slug: editor/functionality/dialogs/file-browser-dialogs/flash
 tags: flash
@@ -14,34 +14,34 @@ position: 5
 
 ## 
 
-__Functionality:__
+**Functionality:**
 
 Using the Flash Manager dialog the users of a RadEditor can:
 
-* __insert flash files__ in the editor's content area
+* **insert flash files** in the editor's content area
 
-* __upload new flash files__, which will be available for inserting
+* **upload new flash files**, which will be available for inserting
 
-* __delete flash files__
+* **delete flash files**
 
-__Properties to set:__
+**Properties to set:**
 
 The behavior of the Flash Manager dialog is controlled by the following properties:
 
 
 >caption  
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __ViewPaths__ |A string array which contains the paths where the RadEditor will look for flash files. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
-| __UploadPaths__ |A string array which contains the paths to which the RadEditor will be able to upload flash files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __DeletePaths__ |A string array which contains the paths from which the RadEditor will be able to delete flash files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __MaxUploadFileSize__ |The maximum flash file size in bytes, allowed for uploading. The default value is __204800__ bytes (200 kilobytes).|
-| __SearchPatterns__ |A string array which contains the file extension filters that controls which files are shown in the Flash Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.swf will match all flash names with extension swf.|
+| **ViewPaths** |A string array which contains the paths where the RadEditor will look for flash files. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
+| **UploadPaths** |A string array which contains the paths to which the RadEditor will be able to upload flash files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **DeletePaths** |A string array which contains the paths from which the RadEditor will be able to delete flash files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **MaxUploadFileSize** |The maximum flash file size in bytes, allowed for uploading. The default value is **204800** bytes (200 kilobytes).|
+| **SearchPatterns** |A string array which contains the file extension filters that controls which files are shown in the Flash Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.swf will match all flash names with extension swf.|
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading flash files into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access flash files located in another web application.
 
-__Example:__
+**Example:**
 
 The example below demonstrates the relationship between the folder structure and the property settings:
 
@@ -55,7 +55,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 
 
-__Setting Image manager properties in CodeBehind:__
+**Setting Image manager properties in CodeBehind:**
 
 
 

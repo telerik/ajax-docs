@@ -1,6 +1,6 @@
 ---
 title: Appearance Issues with Initially Hidden Editor
-page_title: Appearance Issues with Initially Hidden Editor | UI for ASP.NET AJAX Documentation
+page_title: Appearance Issues with Initially Hidden Editor | RadEditor for ASP.NET AJAX Documentation
 description: Appearance Issues with Initially Hidden Editor
 slug: editor/troubleshooting/appearance-issues-with-initially-hidden-editor
 tags: appearance,issues,with,initially,hidden,editor
@@ -24,7 +24,7 @@ When the editor is placed in an initially hidden container and the page renderin
 
 In this scenario, Telerik’s Editor is added to the page during a partial post back and its parent is notvisible initially, this is changed on the server. In this case, the layout is broken because the CSS stylesof the editor are not yet loaded when the HTML is rendered, so the control does not have all its appearancerules available when it has to calculate its layout. This may cause an issue with the editor’s dimensions.
 
->important This issue is fixed since __2014 Q1__ version of the __Telerik UI for ASP.NET AJAX__ suite.	The solution to this problem is achieved by implementing a logic that verifies that the needed resources are loaded and recalculates the editor’s dimensions.
+>important This issue is fixed since **2014 Q1** version of the **Telerik UI for ASP.NET AJAX** suite.	The solution to this problem is achieved by implementing a logic that verifies that the needed resources are loaded and recalculates the editor’s dimensions.
 >This behavior may cause a small flickering, due to possible delay of CSS resources. If this causes any inconvenience	(e.g. the delay is about 3-5 sec.) with the user experience, you can try[enabling the CDN support](http://www.telerik.com/help/aspnet-ajax/stylesheetmanager-cdn-support.html)or using the following workaround.
 >
 
@@ -32,9 +32,9 @@ In this scenario, Telerik’s Editor is added to the page during a partial post 
 
 ![editor-broken-layout-initially-hidden-ajax](images/editor-broken-layout-initially-hidden-ajax.png)
 
-The workaround for this problem is to register the RadEditor’s CSS files manually on the page. For this case follow __Example 1__.
+The workaround for this problem is to register the RadEditor’s CSS files manually on the page. For this case follow **Example 1**.
 
-__Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
+**Example 1**: Showing and hiding a RadEditor control dynamically via AJAX.
 
 
 
@@ -97,14 +97,14 @@ __Example 1__: Showing and hiding a RadEditor control dynamically via AJAX.
 
 ## Initially Hidden Wrapper Made Visible via JavaScript
 
-The editor is often hidden due to design requirements and shown with JavaScript. This causes the control layout being incorrect and the content area – disabled.You can examine __Figure 2__, which shows the result of the mentioned issue.
+The editor is often hidden due to design requirements and shown with JavaScript. This causes the control layout being incorrect and the content area – disabled.You can examine **Figure 2**, which shows the result of the mentioned issue.
 >caption Figure 2: Broken layout of the RadEditor control, due to the initial visibility of the wrapper.
 
 ![editor-broken-layout-initially-hidden](images/editor-broken-layout-initially-hidden.png)
 
-To resolve this, call the __repaint()__ method of the editor, after the container is shown.You can examine the exact scenario and the described solution in __Example 1__.
+To resolve this, call the **repaint()** method of the editor, after the container is shown.You can examine the exact scenario and the described solution in **Example 1**.
 
-__Example 2__: Showing and hiding the RadEditor control dynamically.
+**Example 2**: Showing and hiding the RadEditor control dynamically.
 
 ````ASPNET
 			<div id="wrapper" style="display:none;">
@@ -142,9 +142,9 @@ __Example 2__: Showing and hiding the RadEditor control dynamically.
 
 Sometimes the editor is moved in the DOM to another place to offer editing capabilities there. Due to such actions its content area appears disabled.This is happening because the editor’s functionality highly dependent on its parent elements along with the initially attached events to the editable iframe element.A common related scenario is when a[RadEditor is placed inside a RadWindow’s ContentTemplate to provide a popup editing](http://www.telerik.com/help/aspnet-ajax/window-troubleshooting-radeditor-in-radwindow.html).
 
-To resolve this, the editor’s __onParentNodeChanged()__ method must be called each timethe editor is moved into another DOM element. Working example of such a scenario is available in __Example 3__.
+To resolve this, the editor’s **onParentNodeChanged()** method must be called each timethe editor is moved into another DOM element. Working example of such a scenario is available in **Example 3**.
 
-__Example 3__: Moving the RadEditor in different DOM elements.
+**Example 3**: Moving the RadEditor in different DOM elements.
 
 ````ASPNET
 			<div class="container">
@@ -181,14 +181,14 @@ __Example 3__: Moving the RadEditor in different DOM elements.
 
 ## Using Width in Percent
 
-Due to fluid layout requirements of the applications, the editor’s __Width__ property may be set to a percentage value.This lets the control resize along with the browser window resizing. If the width becomes insufficient the editor’s height will increase and mayoverlay other controls on the page.
+Due to fluid layout requirements of the applications, the editor’s **Width** property may be set to a percentage value.This lets the control resize along with the browser window resizing. If the width becomes insufficient the editor’s height will increase and mayoverlay other controls on the page.
 >caption Figure 3: Example of an editor that is too narrow.
 
 ![editor-using-width-in-percent-layout-issue](images/editor-using-width-in-percent-layout-issue.png)
 
-The solution for this problem is to attach a handler to the resize event of the window object, which implementslogic that invokes the __repaint()__ method. __Example 4__ provides an example of such a scenario and the workaround.
+The solution for this problem is to attach a handler to the resize event of the window object, which implementslogic that invokes the **repaint()** method. **Example 4** provides an example of such a scenario and the workaround.
 
-__Example 4__: Setting the Width property in percent.
+**Example 4**: Setting the Width property in percent.
 
 ````ASPNET
 			<body>

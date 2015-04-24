@@ -1,6 +1,6 @@
 ---
 title: Custom Shapes and Connectors
-page_title: Custom Shapes and Connectors | UI for ASP.NET AJAX Documentation
+page_title: Custom Shapes and Connectors | RadDiagram for ASP.NET AJAX Documentation
 description: Custom Shapes and Connectors
 slug: diagram/how-to/custom-shapes-and-connectors
 tags: custom,shapes,and,connectors
@@ -16,7 +16,7 @@ This article provides information about the way you can create custom shapes in 
 
 When defining a custom shape you can use the built-in connectors every shape offers, or you can define your ownconnectors to match the shape and functionality you need.
 
-Below you will find examples of defining a custom shape that uses the built-in connectors (__Example 1__) and an example of setting up your own connectorson the custom shape (__Example 2__). In __Example 3__, you will find a sample configuration of the most popular shapes.
+Below you will find examples of defining a custom shape that uses the built-in connectors (**Example 1**) and an example of setting up your own connectorson the custom shape (**Example 2**). In **Example 3**, you will find a sample configuration of the most popular shapes.
 
 ## Custom Shape with Customized Set of Built-in Connectors
 
@@ -25,7 +25,7 @@ To create a custom shape, you need to pass the desired SVG path to the DiagramSh
 
 ![diagram-custom-shape](images/diagram-custom-shape.png)
 
-__Example 1__: Custom RadDiagram shape with customized set of built-in connectors.
+**Example 1**: Custom RadDiagram shape with customized set of built-in connectors.
 
 ````ASPNET
 			<telerik:RadDiagram id="RadDiagram1" runat="server">
@@ -48,12 +48,12 @@ __Example 1__: Custom RadDiagram shape with customized set of built-in connector
 
 ## Custom Shape with Custom Connectors
 
-When you need to create a custom shape, which bounds does not match with the position of the predefined connectors, you canmove the connectors to a desired position. All you need to do is to create a custom __DiagramShapeConnector__ and a function that returns a`kendo.datatviz.diagram.Point(x, y)` object with the coordinates where the connector will be placed. The function that positions the connector hasas an argument the parent shape of the connector and has to be set as a value to the DiagramShape’s [Position]({%slug diagram/structure/shape%})property.
+When you need to create a custom shape, which bounds does not match with the position of the predefined connectors, you canmove the connectors to a desired position. All you need to do is to create a custom **DiagramShapeConnector** and a function that returns a`kendo.datatviz.diagram.Point(x, y)` object with the coordinates where the connector will be placed. The function that positions the connector hasas an argument the parent shape of the connector and has to be set as a value to the DiagramShape’s [Position]({%slug diagram/structure/shape%})property.
 >caption Figure 2: Custom RadDiagram shape with custom connectors.
 
 ![diagram-custom-connectors](images/diagram-custom-connectors.png)
 
-__Example 2__: Defining a custom shape with custom connectors.
+**Example 2**: Defining a custom shape with custom connectors.
 
 ````ASPNET
 	        <script type="text/javascript">
@@ -88,12 +88,12 @@ __Example 2__: Defining a custom shape with custom connectors.
 
 ## Sample Paths for Common Shape Definitions
 
-In __Example 3__ you can find the __Path__ definitions for the most popular geometrical figures, so youcan directly use them in your application. You can find the list of the resulting shapes in __Figure 3__.
+In **Example 3** you can find the **Path** definitions for the most popular geometrical figures, so youcan directly use them in your application. You can find the list of the resulting shapes in **Figure 3**.
 >caption Figure 3: Set of commonly used custom shapes in RadDiagram.
 
 ![diagram-custom-shape-paths](images/diagram-custom-shape-paths.png)
 
-__Example 3__: Sample declarations of the common custom shapes shown in Figure 3.
+**Example 3**: Sample declarations of the common custom shapes shown in Figure 3.
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram3" runat="server" Width="1200px" Height="2000" Skin="WebBlue">

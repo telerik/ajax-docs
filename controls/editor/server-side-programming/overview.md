@@ -1,6 +1,6 @@
 ---
-title: Server-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Programming Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/server-side-programming/overview
 tags: overview
@@ -17,7 +17,7 @@ position: 0
 
 >caption  
 
-|  __Name__  |  __Description__  |
+|  **Name**  |  **Description**  |
 | ------ | ------ |
 |AccessKey|(Inherited from RadWebControl)|
 |AllowScripts|Gets or sets the value indicating whether script tags will be allowed in the editor content. This property is now obsolete. Please use the ContentFilters property or the EnableFilter and DisableFilter methods|
@@ -126,7 +126,7 @@ position: 0
 
 >caption  
 
-|  __Name__  |  __Description__  |
+|  **Name**  |  **Description**  |
 | ------ | ------ |
 |ApplyStyle|(Inherited from System.Web.UI.WebControls.WebControl )|
 |ApplyStyleSheetSkin|(Inherited from System.Web.UI.Control )|
@@ -154,18 +154,17 @@ position: 0
 |SetPaths|Used to set the file browser configuration paths for the editor dialogs|
 |SetRenderMethodDelegate|(Inherited from System.Web.UI.Control )|
 
-____
 
 ## Public Events
 
 
 >caption  
 
-|  __Name__  |  __Description__  |
+|  **Name**  |  **Description**  |
 | ------ | ------ |
 |DataBinding|(Inherited from System.Web.UI.Control )|
 |Disposed|(Inherited from System.Web.UI.Control )|
-|[ExportContent]({%slug editor/server-side-programming/events/onexportcontent%})|This event is raised before the export of a file. The file export can be canceled by	setting the __Cancel__ property exposed by the __EditorExportingArgs__ to *false* .|
+|[ExportContent]({%slug editor/server-side-programming/events/onexportcontent%})|This event is raised before the export of a file. The file export can be canceled by	setting the **Cancel** property exposed by the **EditorExportingArgs** to *false* .|
 |FileDelete|This event is raised before the deletion of a file and using the current content provider. The file deletion can be canceled if the event handler returns false.|
 |FileUpload|This event is raised before the storing of a file and using the current content provider. The file upload can be canceled if the event handler returns false.|
 |[ImportContent]({%slug editor/server-side-programming/events/onimportcontent%})|This event is raised before the import of a file.|

@@ -1,6 +1,6 @@
 ---
 title: ServerTemplates
-page_title: ServerTemplates | UI for ASP.NET AJAX Documentation
+page_title: ServerTemplates | RadDropDownList for ASP.NET AJAX Documentation
 description: ServerTemplates
 slug: dropdownlist/templates/servertemplates
 tags: servertemplates

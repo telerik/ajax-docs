@@ -1,6 +1,6 @@
 ---
 title: Content Area Appearance Problems
-page_title: Content Area Appearance Problems | UI for ASP.NET AJAX Documentation
+page_title: Content Area Appearance Problems | RadEditor for ASP.NET AJAX Documentation
 description: Content Area Appearance Problems
 slug: editor/troubleshooting/content-area-appearance-problems
 tags: content,area,appearance,problems
@@ -16,7 +16,7 @@ position: 3
 
 By default, RadEditor copies the styles from the parent page in which it resides in order to display its content identically to the content on the parent page. In some scenarios this is not convenient for the end-user because the editor's background and text colors can appear unreadable.
 
-The solution is setting the __CssFiles__property to point to an external css file and manually specify the classes that you want to load in the editor. By setting the __CssFiles__ property you will prevent the editor to pick up the styles from the parent page, e.g.
+The solution is setting the **CssFiles**property to point to an external css file and manually specify the classes that you want to load in the editor. By setting the **CssFiles** property you will prevent the editor to pick up the styles from the parent page, e.g.
 
 ````XML
 	    <telerik:RadEditor ID="RadEditor1" runat="server">
@@ -28,7 +28,7 @@ The solution is setting the __CssFiles__property to point to an external css fil
 
 
 
-By default, RadEditor loads the classes listed below from its default __EditorContentArea.css__(which is embedded in the Telerik.Web.UI.dll). You can copy these classes to your custom __EditorContentArea.css__which will be loaded by the __CssFiles__property:
+By default, RadEditor loads the classes listed below from its default **EditorContentArea.css**(which is embedded in the Telerik.Web.UI.dll). You can copy these classes to your custom **EditorContentArea.css**which will be loaded by the **CssFiles**property:
 
 ````XML
 	    .RadEWrongWord
@@ -103,7 +103,7 @@ You can also style other elements in the editor's content area by adding their r
 
 
 
-__list-style-type__[list-style-type Attribute | listStyleType Property](http://msdn.microsoft.com/en-us/library/ms530797.aspx)
+**list-style-type**[list-style-type Attribute | listStyleType Property](http://msdn.microsoft.com/en-us/library/ms530797.aspx)
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Manage Content
-page_title: Manage Content | UI for ASP.NET AJAX Documentation
+page_title: Manage Content | RadEditor for ASP.NET AJAX Documentation
 description: Manage Content
 slug: editor/getting-started/manage-content
 tags: manage,content

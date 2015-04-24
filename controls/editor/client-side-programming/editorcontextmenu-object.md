@@ -1,6 +1,6 @@
 ---
 title: EditorContextMenu Object
-page_title: EditorContextMenu Object | UI for ASP.NET AJAX Documentation
+page_title: EditorContextMenu Object | RadEditor for ASP.NET AJAX Documentation
 description: EditorContextMenu Object
 slug: editor/client-side-programming/editorcontextmenu-object
 tags: editorcontextmenu,object

@@ -1,6 +1,6 @@
 ---
 title: Line Spacing Dropdown
-page_title: Line Spacing Dropdown | UI for ASP.NET AJAX Documentation
+page_title: Line Spacing Dropdown | RadEditor for ASP.NET AJAX Documentation
 description: Line Spacing Dropdown
 slug: editor/functionality/toolbars/dropdowns/examples/line-spacing-dropdown
 tags: line,spacing,dropdown

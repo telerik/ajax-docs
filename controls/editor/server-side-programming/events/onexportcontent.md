@@ -1,6 +1,6 @@
 ---
 title: OnExportContent
-page_title: OnExportContent | UI for ASP.NET AJAX Documentation
+page_title: OnExportContent | RadEditor for ASP.NET AJAX Documentation
 description: OnExportContent
 slug: editor/server-side-programming/events/onexportcontent
 tags: onexportcontent
@@ -12,17 +12,17 @@ position: 0
 
 
 
-The __OnExportContent__ event fires just before the content from the __Telerik Editor__ is exported.It provides access to the generated output, so that it could be used or modified upon further application requirements.
+The **OnExportContent** event fires just before the content from the **Telerik Editor** is exported.It provides access to the generated output, so that it could be used or modified upon further application requirements.
 
 ## 
 
 The event handler receives two arguments:
 
-1. __Sender__–the __RadEditor__ instance that raised the event.
+1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. __Event arguments__–an object of type	[Telerik.Web.UI.EditorExportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorexportingargs.html)exposes the string __ExportOutput__ property, the[Telerik.Web.UI.ExportType ](www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_exporttype.html)__ExportType__ property and a __Boolean Cancel__ property with which you can	cancel the sending of the file to the client (by default is set to *false*).
+1. **Event arguments**–an object of type	[Telerik.Web.UI.EditorExportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorexportingargs.html)exposes the string **ExportOutput** property, the[Telerik.Web.UI.ExportType ](www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_exporttype.html)**ExportType** property and a **Boolean Cancel** property with which you can	cancel the sending of the file to the client (by default is set to *false*).
 
-__Example 1__: How to save the __ExportOutput__ to a file on the server and prevent it from being sent to the client
+**Example 1**: How to save the **ExportOutput** to a file on the server and prevent it from being sent to the client
 
 
 
@@ -93,7 +93,7 @@ __Example 1__: How to save the __ExportOutput__ to a file on the server and prev
 ````
 
 
-__Example 2__: Dynamically adding header and footer elements to the exported document in the __OnExportContent__ event
+**Example 2**: Dynamically adding header and footer elements to the exported document in the **OnExportContent** event
 
 
 
@@ -157,9 +157,9 @@ __Example 2__: Dynamically adding header and footer elements to the exported doc
 		Inherits System.Web.UI.Page
 	
 		Protected Sub RadEditor1_ExportContent(sender As Object, e As EditorExportingArgs)
-			Dim exportType__1 As ExportType = e.ExportType
+			Dim exportType**1 As ExportType = e.ExportType
 	
-			If exportType__1 = ExportType.Word Then
+			If exportType**1 = ExportType.Word Then
 				Dim exportedOutput As String = e.ExportOutput
 	
 				Dim output As [Byte]() = Encoding.[Default].GetBytes(exportedOutput)

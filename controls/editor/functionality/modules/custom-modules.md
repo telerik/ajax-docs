@@ -1,6 +1,6 @@
 ---
 title: Custom Modules
-page_title: Custom Modules | UI for ASP.NET AJAX Documentation
+page_title: Custom Modules | RadEditor for ASP.NET AJAX Documentation
 description: Custom Modules
 slug: editor/functionality/modules/custom-modules
 tags: custom,modules

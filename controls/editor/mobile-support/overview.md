@@ -1,6 +1,6 @@
 ---
-title: Mobile Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Mobile Support Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/mobile-support/overview
 tags: overview

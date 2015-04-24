@@ -1,6 +1,6 @@
 ---
 title: ItemSelected
-page_title: ItemSelected | UI for ASP.NET AJAX Documentation
+page_title: ItemSelected | RadDropDownList for ASP.NET AJAX Documentation
 description: ItemSelected
 slug: dropdownlist/server-side-programming/events/itemselected
 tags: itemselected

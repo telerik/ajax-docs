@@ -1,6 +1,6 @@
 ---
 title: How to Create An Entry or Select a Node
-page_title: How to Create An Entry or Select a Node | UI for ASP.NET AJAX Documentation
+page_title: How to Create An Entry or Select a Node | RadDropDownTree for ASP.NET AJAX Documentation
 description: How to Create An Entry or Select a Node
 slug: dropdowntree/how-to/how-to-create-an-entry-or-select-a-node
 tags: how,to,create,an,entry,or,select,a,node

@@ -1,6 +1,6 @@
 ---
 title: Edit Template in Grid
-page_title: Edit Template in Grid | UI for ASP.NET AJAX Documentation
+page_title: Edit Template in Grid | RadEditor for ASP.NET AJAX Documentation
 description: Edit Template in Grid
 slug: editor/how-to/edit-template-in-grid
 tags: edit,template,in,grid
@@ -12,7 +12,7 @@ position: 0
 
 
 
-You can use RadEditor in a __EditItemTemplate__ of a __DataGrid__, taking advantage of the standard framework provided by the DataGrid control. The example below demonstrates:
+You can use RadEditor in a **EditItemTemplate** of a **DataGrid**, taking advantage of the standard framework provided by the DataGrid control. The example below demonstrates:
 >caption 
 
 ![](images/editor-gettingsettingcontent003.png)
@@ -23,17 +23,17 @@ In a new AJAX Enabled Web Application:
 
 ## Add Data File
 
-1. Locate the Access database file "email.mdb" in the \__<Controls installation folder>\Live Demos\App_Data.__
+1. Locate the Access database file "email.mdb" in the \**<Controls installation folder>\Live Demos\App_Data.**
 
-1. In the Solution Explorer, copy the "email.mdb" file to the project's __App_Data__ folder.
+1. In the Solution Explorer, copy the "email.mdb" file to the project's **App_Data** folder.
 
 ## Configure Controls in Designer
 
 1. Add the DataGrid, RadEditor and label controls to your page. You can paste the ASP markup shown below.
 
->note The key portion of markup to notice in the example below is the tag __EditItemTemplate__ that contains the __RadEditor__ .You can bind text from the database to the editor by assigning the __Content__ property with an __Eval__ statement:
+>note The key portion of markup to notice in the example below is the tag **EditItemTemplate** that contains the **RadEditor** .You can bind text from the database to the editor by assigning the **Content** property with an **Eval** statement:
 >Content='<%# Eval("Body") %>'
->Note that this is done as an attribute of the __<telerik:RadEditor>__ tag and not within the __<Content>__ child element. Also note that the __Eval__ statement is surrounded in single quotes.
+>Note that this is done as an attribute of the **<telerik:RadEditor>** tag and not within the **<Content>** child element. Also note that the **Eval** statement is surrounded in single quotes.
 >
 
 
@@ -77,7 +77,7 @@ In a new AJAX Enabled Web Application:
 
 ## Handle Events in Code-Behind
 
-1. Add the namespaces __System.Data.OleDb__ and __Telerik.Web.UI__ to your "uses" (C#) or "Imports" (VB) portion of the code-behind.
+1. Add the namespaces **System.Data.OleDb** and **Telerik.Web.UI** to your "uses" (C#) or "Imports" (VB) portion of the code-behind.
 
 1. In the code-behind, create helper methods to connect to the Email table and populate the grid:
 

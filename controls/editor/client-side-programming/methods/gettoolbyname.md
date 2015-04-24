@@ -1,6 +1,6 @@
 ---
 title: getToolByName
-page_title: getToolByName | UI for ASP.NET AJAX Documentation
+page_title: getToolByName | RadEditor for ASP.NET AJAX Documentation
 description: getToolByName
 slug: editor/client-side-programming/methods/gettoolbyname
 tags: gettoolbyname
@@ -22,7 +22,7 @@ Returns tool so for the purposes of client-side manipulation.
 
 
 
-__Example 1__:
+**Example 1**:
 
 The solution below demonstrates how to implement an adaptive custom button that will be highlighted when an image in the content area is selected. When the image is not selected the button will be disabled:
 
@@ -72,7 +72,7 @@ The <telerik:EditorTool Name="MyCustomImageDialog" /> inner tag will be rendered
 
 
 
-__Example 2__:
+**Example 2**:
 
 By default the EditorSplitButton tools memorize the value of the lastly selected command and executes it when the header icon is clicked by the user. To expand the EditorSplitButtondropdown the tiny arrow icon should be clicked. To change the default behavior and be able to expand every time the dropdown by clicking on the header icon use the code solution below:
 

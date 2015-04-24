@@ -1,6 +1,6 @@
 ---
 title: getHtml
-page_title: getHtml | UI for ASP.NET AJAX Documentation
+page_title: getHtml | RadEditor for ASP.NET AJAX Documentation
 description: getHtml
 slug: editor/client-side-programming/methods/selection/gethtml
 tags: gethtml
@@ -24,7 +24,7 @@ Returns the currently selected html in the Telerik RadEditor ContentArea.
 
 
 
-__Note__: The return value contains the HTML formatting in contrast to the [getText]({%slug editor/client-side-programming/methods/selection/gettext%}) method.
+**Note**: The return value contains the HTML formatting in contrast to the [getText]({%slug editor/client-side-programming/methods/selection/gettext%}) method.
 
 The example below populates a Label and a TextBox with the currently selected html:
 

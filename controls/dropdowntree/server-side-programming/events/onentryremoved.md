@@ -1,6 +1,6 @@
 ---
 title: OnEntryRemoved
-page_title: OnEntryRemoved | UI for ASP.NET AJAX Documentation
+page_title: OnEntryRemoved | RadDropDownTree for ASP.NET AJAX Documentation
 description: OnEntryRemoved
 slug: dropdowntree/server-side-programming/events/onentryremoved
 tags: onentryremoved

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadDiagram Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: diagram/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadDiagram__ for ASP.NET AJAX helps developers build rich and interactive diagrams with ease. Powered by HTML5, this	ASP.NET AJAX Diagramming component offers excellent Client-Side responsiveness. The Diagram comes with multitude of predefined layouts and	rich built-in functionality, including drag and drop support, connection editing,shape rotation and resizing and more.
+**RadDiagram** for ASP.NET AJAX helps developers build rich and interactive diagrams with ease. Powered by HTML5, this	ASP.NET AJAX Diagramming component offers excellent Client-Side responsiveness. The Diagram comes with multitude of predefined layouts and	rich built-in functionality, including drag and drop support, connection editing,shape rotation and resizing and more.
 
 * Built-in essential shapes.
 
@@ -34,7 +34,7 @@ __RadDiagram__ for ASP.NET AJAX helps developers build rich and interactive diag
 
 * Easy-to-customize elements and shape templates.
 
->note  __RadDiagram__ is currently in Beta and supports all modern browsers like Firefox, Chrome, IE9+, Opera.
+>note  **RadDiagram** is currently in Beta and supports all modern browsers like Firefox, Chrome, IE9+, Opera.
 >
 
 

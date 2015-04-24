@@ -1,6 +1,6 @@
 ---
 title: Accessible Tables
-page_title: Accessible Tables | UI for ASP.NET AJAX Documentation
+page_title: Accessible Tables | RadEditor for ASP.NET AJAX Documentation
 description: Accessible Tables
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-tables
 tags: accessible,tables

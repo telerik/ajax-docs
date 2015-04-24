@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadEditor for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: editor/client-side-programming/events/onclientload
 tags: onclientload
@@ -21,10 +21,10 @@ This event is fired after the content is set in the content area, after the [OnC
 
 >caption  
 
-|  __function OnClientLoad(editor, args)__  |  |  |
+|  **function OnClientLoad(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 The example below demonstrates how to attach the onkeydown event to the content area of RadEditor. When the onkeydown event is raised it will alert the key code of the pressed button:
 

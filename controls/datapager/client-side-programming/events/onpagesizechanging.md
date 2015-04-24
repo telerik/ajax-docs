@@ -1,6 +1,6 @@
 ---
 title: OnPageSizeChanging
-page_title: OnPageSizeChanging | UI for ASP.NET AJAX Documentation
+page_title: OnPageSizeChanging | RadDataPager for ASP.NET AJAX Documentation
 description: OnPageSizeChanging
 slug: datapager/client-side-programming/events/onpagesizechanging
 tags: onpagesizechanging

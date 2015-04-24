@@ -1,6 +1,6 @@
 ---
 title: Format Sets
-page_title: Format Sets | UI for ASP.NET AJAX Documentation
+page_title: Format Sets | RadEditor for ASP.NET AJAX Documentation
 description: Format Sets
 slug: editor/functionality/toolbars/dropdowns/format-sets
 tags: format,sets
@@ -12,23 +12,23 @@ position: 4
 
 
 
-The __Format Sets__ tool is used in order to apply formatting to elements or sections in the content of the editor. There are three groups of sets in the dropdown:
+The **Format Sets** tool is used in order to apply formatting to elements or sections in the content of the editor. There are three groups of sets in the dropdown:
 
-* __Element Format Sets__ modify the selected DOM element or the first container, which has the same tag name as the one set in tag property of the format set
+* **Element Format Sets** modify the selected DOM element or the first container, which has the same tag name as the one set in tag property of the format set
 
-* __Inline Format Sets__ behave like the __Apply Css Class__ tool and apply formatting to the parent block element or create font elemnts and apply the formatting on them
+* **Inline Format Sets** behave like the **Apply Css Class** tool and apply formatting to the parent block element or create font elemnts and apply the formatting on them
 
-* __Block Format Sets__ apply formatting similar to the __Paragraph Styles__ tools by creating new block elemnts or replacing the currently selected ones
+* **Block Format Sets** apply formatting similar to the **Paragraph Styles** tools by creating new block elemnts or replacing the currently selected ones
 
-The set is defined by the __FormatSets__ collection which contains __EditorFormatSet__ elements. The editor format set has three properties:
+The set is defined by the **FormatSets** collection which contains **EditorFormatSet** elements. The editor format set has three properties:
 
-* __Tag__ - it sets the tag name of the formatted DOM elements
+* **Tag** - it sets the tag name of the formatted DOM elements
 
-* __Title__ - This is the HTML code, which is displayed as an option in the dropdown
+* **Title** - This is the HTML code, which is displayed as an option in the dropdown
 
-* __Attributes__ - this is a __EditorFormatSetAttributeCollection__ Name (attribute name), Value (attribute value) collection, which contains the attributes wich will be set to the formatted element.
+* **Attributes** - this is a **EditorFormatSetAttributeCollection** Name (attribute name), Value (attribute value) collection, which contains the attributes wich will be set to the formatted element.
 
-Below are some sample settings of the __FormatSets__ collection:![radeditor-format-sets-demo-example](images/radeditor-format-sets-demo-example.png)
+Below are some sample settings of the **FormatSets** collection:![radeditor-format-sets-demo-example](images/radeditor-format-sets-demo-example.png)
 
 ## Using the FormatSets Collection Declaratively
 
@@ -132,7 +132,7 @@ Below are some sample settings of the __FormatSets__ collection:![radeditor-form
 
 ## Display Style in Dropdown
 
-To display the dropdown items with their corresponding formatting, add the formatted HTML in the __Title__ attribute of the corresponding __FormatSet__.
+To display the dropdown items with their corresponding formatting, add the formatted HTML in the **Title** attribute of the corresponding **FormatSet**.
 
 ````ASPNET
 	<telerik:EditorFormatSet Tag="H1" Title="<h1 style='color: green'>green header 1</h1>">

@@ -1,6 +1,6 @@
 ---
 title: Create a New Language
-page_title: Create a New Language | UI for ASP.NET AJAX Documentation
+page_title: Create a New Language | RadEditor for ASP.NET AJAX Documentation
 description: Create a New Language
 slug: editor/accessibility-and-internationalization/localization/create-a-new-language
 tags: create,a,new,language
@@ -30,7 +30,7 @@ The best way to create a new language is to duplicate an existing set of resourc
 >
 
 
-Then open the resource file in Visual Studio and change the __Value__ column entries to their Italian counterparts.
+Then open the resource file in Visual Studio and change the **Value** column entries to their Italian counterparts.
 >caption 
 
 ![](images/editor-localization002.png)

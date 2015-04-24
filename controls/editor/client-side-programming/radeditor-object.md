@@ -1,6 +1,6 @@
 ---
 title: RadEditor Object
-page_title: RadEditor Object | UI for ASP.NET AJAX Documentation
+page_title: RadEditor Object | RadEditor for ASP.NET AJAX Documentation
 description: RadEditor Object
 slug: editor/client-side-programming/radeditor-object
 tags: radeditor,object
@@ -99,9 +99,9 @@ RadEditor Client-Side Methods
 |get_qualifiedSkin||String|Returns the qualified name of the skin.|
 |get_shortCutManager||Telerik.Web.UI.EditorShortCutManager|Returns a reference to the ShortCutManager instance.|
 |get_spellCheckService||Telerik.Web.UI.SpellCheckService|Returns a reference to the used SpellCheckService|
-|[get_text]({%slug editor/client-side-programming/methods/get_text%})|`Object`|String|Returns the editor content as plain text (strips down the tags).As of __Q1 2015__ , optionally,you can configure how the text to be stripped via the *options* parameter.
+|[get_text]({%slug editor/client-side-programming/methods/get_text%})|`Object`|String|Returns the editor content as plain text (strips down the tags).As of **Q1 2015** , optionally,you can configure how the text to be stripped via the *options* parameter.
 
-1.  __options__ - Options for the strip behavior. Example:`{ trimText: true, removeMultipleSpaces: true }`.
+1.  **options** - Options for the strip behavior. Example:`{ trimText: true, removeMultipleSpaces: true }`.
 
 *  *trimText* - Removes all leading and trailing white-space characters.
 

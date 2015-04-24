@@ -1,6 +1,6 @@
 ---
 title: OnClientInit
-page_title: OnClientInit | UI for ASP.NET AJAX Documentation
+page_title: OnClientInit | RadEditor for ASP.NET AJAX Documentation
 description: OnClientInit
 slug: editor/client-side-programming/events/onclientinit
 tags: onclientinit
@@ -19,10 +19,10 @@ This event is fired before the initialization of the editor's content area. You 
 
 >caption  
 
-|  __function OnClientInit(editor, args)__  |  |  |
+|  **function OnClientInit(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 The example below demonstrates how to fix the RadEditor width in case the Editor is added dynamically to the page and its CSS files have not yet been able to load when it is shown, which results in the Editor having bigger width than the expected.
 

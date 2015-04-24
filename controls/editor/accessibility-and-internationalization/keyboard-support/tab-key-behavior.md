@@ -1,6 +1,6 @@
 ---
 title: Tab Key Behavior
-page_title: Tab Key Behavior | UI for ASP.NET AJAX Documentation
+page_title: Tab Key Behavior | RadEditor for ASP.NET AJAX Documentation
 description: Tab Key Behavior
 slug: editor/accessibility-and-internationalization/keyboard-support/tab-key-behavior
 tags: tab,key,behavior
@@ -12,13 +12,13 @@ position: 2
 
 
 
-This help article describes the default behavior of the __tab key__ in __RadEditor__ and explains how to control it and obtain consistent behavior between browsers.
+This help article describes the default behavior of the **tab key** in **RadEditor** and explains how to control it and obtain consistent behavior between browsers.
 
 ## 
 
-The Tab key behaves differently among different browsers in RadEditor (__Table 1__). This is so because the tabbing functionality relies on the browsers' internal commands by default.
+The Tab key behaves differently among different browsers in RadEditor (**Table 1**). This is so because the tabbing functionality relies on the browsers' internal commands by default.
 
-__Table 1__: RadEditor tab key behavior in different browsers according to the cursor position.
+**Table 1**: RadEditor tab key behavior in different browsers according to the cursor position.
 
 
 | Browser | Table | List | Div/Span/P |
@@ -27,9 +27,9 @@ __Table 1__: RadEditor tab key behavior in different browsers according to the c
 |Chrome|Table cell navigation|Inserts white-spaces within a span element|Inserts white-spaces within a span element|
 |IE|Table cell navigation|Indents list element|Inserts four &nbsp; elements|
 
-You can select the behavior of IE browser and apply it to the rest (__Example 1__).
+You can select the behavior of IE browser and apply it to the rest (**Example 1**).
 
-__Example 1__: Make the RadEditor tab key behavior from IE (__Table 1__) apply to all browsers.
+**Example 1**: Make the RadEditor tab key behavior from IE (**Table 1**) apply to all browsers.
 
 
 

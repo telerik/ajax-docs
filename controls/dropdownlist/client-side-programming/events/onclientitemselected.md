@@ -1,6 +1,6 @@
 ---
 title: OnClientItemSelected
-page_title: OnClientItemSelected | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemSelected | RadDropDownList for ASP.NET AJAX Documentation
 description: OnClientItemSelected
 slug: dropdownlist/client-side-programming/events/onclientitemselected
 tags: onclientitemselected

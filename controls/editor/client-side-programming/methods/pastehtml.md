@@ -1,6 +1,6 @@
 ---
 title: pasteHtml
-page_title: pasteHtml | UI for ASP.NET AJAX Documentation
+page_title: pasteHtml | RadEditor for ASP.NET AJAX Documentation
 description: pasteHtml
 slug: editor/client-side-programming/methods/pastehtml
 tags: pastehtml
@@ -19,9 +19,9 @@ Pastes HTML content to the cursor position.
 
 >caption  
 
-|  __function pasteHtml(content)__  |  |  |
+|  **function pasteHtml(content)**  |  |  |
 | ------ | ------ | ------ |
-| __content__ | __string__ |The HTML content, that will be pasted in Telerik RadEditor|
+| **content** | **string** |The HTML content, that will be pasted in Telerik RadEditor|
 
 The following example will show you how to paste content into the editor's content area from an external input button:
 

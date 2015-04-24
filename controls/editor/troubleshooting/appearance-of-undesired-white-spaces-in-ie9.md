@@ -1,6 +1,6 @@
 ---
 title: Appearance of Undesired White Spaces in IE9
-page_title: Appearance of Undesired White Spaces in IE9 | UI for ASP.NET AJAX Documentation
+page_title: Appearance of Undesired White Spaces in IE9 | RadEditor for ASP.NET AJAX Documentation
 description: Appearance of Undesired White Spaces in IE9
 slug: editor/troubleshooting/appearance-of-undesired-white-spaces-in-ie9
 tags: appearance,of,undesired,white,spaces,in,ie9
@@ -14,7 +14,7 @@ position: 8
 
 ## Undesired white spaces added when pasting or deleting content into table cells
 
-__PROBLEM__
+**PROBLEM**
 
 When there is a table, placed within the HTML mode of the Editor, after switchingbetween HTML and Design view in IE9, occasionally the content is broken down to aseparate line:
 
@@ -42,7 +42,7 @@ Note, that this behavior is not connected with the RadEditor's implementation, b
 
 ![editor-paste-text-within-cells-1](images/editor-paste-text-within-cells-1.png)
 
-__SOLUTION__
+**SOLUTION**
 
 A possible solution is to render the page in IE8 mode which could be obtained by placing	the following meta tag in your markup:
 

@@ -1,6 +1,6 @@
 ---
 title: get_mode
-page_title: get_mode | UI for ASP.NET AJAX Documentation
+page_title: get_mode | RadEditor for ASP.NET AJAX Documentation
 description: get_mode
 slug: editor/client-side-programming/methods/get_mode
 tags: get_mode
@@ -21,11 +21,11 @@ Returns the editor's mode:
 
 >caption  
 
-|  __function__  __get_mode()__  |  |  |
+|  **function**  **get_mode()**  |  |  |
 | ------ | ------ | ------ |
-| __returned value: 1__ | __integer__ |represents Design mode|
-| __returned value: 2__ | __integer__ |represents HTML mode|
-| __returned value: 4__ | __integer__ |represents Preview mode|
+| **returned value: 1** | **integer** |represents Design mode|
+| **returned value: 2** | **integer** |represents HTML mode|
+| **returned value: 4** | **integer** |represents Preview mode|
 
 The following example demonstrates how to check the current mode of Telerik RadEditor:
 

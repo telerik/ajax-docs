@@ -1,6 +1,6 @@
 ---
 title: Insert Text from a Text Control at the Cursor Position
-page_title: Insert Text from a Text Control at the Cursor Position | UI for ASP.NET AJAX Documentation
+page_title: Insert Text from a Text Control at the Cursor Position | RadEditor for ASP.NET AJAX Documentation
 description: Insert Text from a Text Control at the Cursor Position
 slug: editor/how-to/insert-text-from-a-text-control-at-the-cursor-position
 tags: insert,text,from,a,text,control,at,the,cursor,position
@@ -36,7 +36,7 @@ The example below demonstrates how to insert text at the cursor position in RadE
 
 
 
-1. Include the __PasteTextInEditor__ method in your ascx/aspx file. Use the __pasteHtml__ method to paste the content from the textbox:
+1. Include the **PasteTextInEditor** method in your ascx/aspx file. Use the **pasteHtml** method to paste the content from the textbox:
 
 ````XML
 	    <script type="text/javascript">
@@ -52,6 +52,6 @@ The example below demonstrates how to insert text at the cursor position in RadE
 
 1. Test the solution.
 
-__EXAMPLE FILES__
+**EXAMPLE FILES**
 
 [Paste Text To Cursor Position](http://www.telerik.com/ArticleFileDownload.aspx?I=r8w&G=euY)

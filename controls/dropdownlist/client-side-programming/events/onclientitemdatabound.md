@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadDropDownList for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: dropdownlist/client-side-programming/events/onclientitemdatabound
 tags: onclientitemdatabound

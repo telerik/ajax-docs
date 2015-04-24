@@ -1,6 +1,6 @@
 ---
 title: Page-break Button
-page_title: Page-break Button | UI for ASP.NET AJAX Documentation
+page_title: Page-break Button | RadEditor for ASP.NET AJAX Documentation
 description: Page-break Button
 slug: editor/functionality/toolbars/buttons/examples/page-break-button
 tags: page-break,button
@@ -18,7 +18,7 @@ position: 0
 
 Here are the details on how to implement a print break button on the editor's toolbar:
 
-1. Add a custom [__PageBreak__] button to the toolbar:
+1. Add a custom [**PageBreak**] button to the toolbar:
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -32,7 +32,7 @@ Here are the details on how to implement a print break button on the editor's to
 
 
 
-1. In the aspx/ascx file with the editor add the following javascript command under the editor's declaration which will be executed each time when the user presses the [__PageBreak__] button:
+1. In the aspx/ascx file with the editor add the following javascript command under the editor's declaration which will be executed each time when the user presses the [**PageBreak**] button:
 
 ````JavaScript
 	
@@ -45,7 +45,7 @@ Here are the details on how to implement a print break button on the editor's to
 
 
 
-1. By executing the command above, the user will insert a special print break tag in the editor. The __PageBreak__ command will be rendered as a button on the toolbar. In order to look nice, you should provide a button icon and set the following style in the page:
+1. By executing the command above, the user will insert a special print break tag in the editor. The **PageBreak** command will be rendered as a button on the toolbar. In order to look nice, you should provide a button icon and set the following style in the page:
 
 ````XML
 	    <style>

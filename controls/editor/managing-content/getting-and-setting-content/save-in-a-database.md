@@ -1,6 +1,6 @@
 ---
 title: Save in a Database
-page_title: Save in a Database | UI for ASP.NET AJAX Documentation
+page_title: Save in a Database | RadEditor for ASP.NET AJAX Documentation
 description: Save in a Database
 slug: editor/managing-content/getting-and-setting-content/save-in-a-database
 tags: save,in,a,database
@@ -23,43 +23,43 @@ In a new AJAX Enabled Web Application:
 
 ## Add Data File
 
-1. Locate the Access database file "email.mdb" in the \__<Controls Installation Folder>\Live Demos\App_Data.__
+1. Locate the Access database file "email.mdb" in the \**<Controls Installation Folder>\Live Demos\App_Data.**
 
-1. In the Solution Explorer, copy the "email.mdb" file to the project's __App_Data__ folder.
+1. In the Solution Explorer, copy the "email.mdb" file to the project's **App_Data** folder.
 
 ## Configure Controls in Designer
 
-1. Add a __RadComboBox__ from the ToolBox to the web page. Set the RadComboBox properties:
+1. Add a **RadComboBox** from the ToolBox to the web page. Set the RadComboBox properties:
 
-1. __AutoPostBack__ = __True__
+1. **AutoPostBack** = **True**
 
-1. __Skin__ = __Vista__
+1. **Skin** = **Vista**
 
-1. __AllowCustomText__ = __True__
+1. **AllowCustomText** = **True**
 
-1. Add a __Standard Button__ control from the ToolBox to the web page. Set the Button __ID__ property to "btnNew". Set the __Text__ property to "New".
+1. Add a **Standard Button** control from the ToolBox to the web page. Set the Button **ID** property to "btnNew". Set the **Text** property to "New".
 
-1. Add a __Standard Button__ control from the ToolBox to the web page. Set the Button __ID__ property to "btnSave". Set the __Text__ property to "Save".
+1. Add a **Standard Button** control from the ToolBox to the web page. Set the Button **ID** property to "btnSave". Set the **Text** property to "Save".
 
-1. Open the RadEditor Smart Tag and set the the __Skin__ to __Vista__ from the drop down list.
+1. Open the RadEditor Smart Tag and set the the **Skin** to **Vista** from the drop down list.
 
 ## Configure Editor Tools
 
-1. In the Property Window, click the RadEditor __Tools__ property ellipses. This step will open the EditorToolGroup Collection Editor dialog.
+1. In the Property Window, click the RadEditor **Tools** property ellipses. This step will open the EditorToolGroup Collection Editor dialog.
 
-1. In the EditorToolGroup Collection Editor dialog, click the __Add__ button. This will add an EditorToolGroup item to the collection.
+1. In the EditorToolGroup Collection Editor dialog, click the **Add** button. This will add an EditorToolGroup item to the collection.
 
-1. Click the EditorToolGroup item __Tools__ property ellipses. This step will open the EditorTool Collection Editor dialog.
+1. Click the EditorToolGroup item **Tools** property ellipses. This step will open the EditorTool Collection Editor dialog.
 
-1. Click the EditorTool Collection __Add__ button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Bold" from the list.
+1. Click the EditorTool Collection **Add** button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Bold" from the list.
 
-1. Click the EditorTool Collection __Add__ button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Italic" from the list.
+1. Click the EditorTool Collection **Add** button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Italic" from the list.
 
-1. Click the EditorTool Collection __Add__ button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Underline" from the list.
+1. Click the EditorTool Collection **Add** button. In the properties for the EditorTool, locate the Name property, click the drop down arrow and select "Underline" from the list.
 
-1. Click the __OK__ button to close the EditorTool Collection Editor dialog.
+1. Click the **OK** button to close the EditorTool Collection Editor dialog.
 
-1. Click the __OK__ button to close the EditorToolGroup Collection Editor dialog.
+1. Click the **OK** button to close the EditorToolGroup Collection Editor dialog.
 
 1. The ASP.NET markup for the steps so far should look something like the example below:
 
@@ -215,7 +215,7 @@ In a new AJAX Enabled Web Application:
 ````
 
 
-1. In the designer, double-click the RadComboBox control to create a __SelectedIndexChanged__ event handler. Replace the event handler with the code below. In this snippet, the __SelectedValue__ contains the ID for the selected record.
+1. In the designer, double-click the RadComboBox control to create a **SelectedIndexChanged** event handler. Replace the event handler with the code below. In this snippet, the **SelectedValue** contains the ID for the selected record.
 
 
 
@@ -233,7 +233,7 @@ In a new AJAX Enabled Web Application:
 ````
 
 
-1. In the designer, double-click the "btnNew" Button control to create a __Click__ event handler. Replace the event handler with the code below.
+1. In the designer, double-click the "btnNew" Button control to create a **Click** event handler. Replace the event handler with the code below.
 
 
 
@@ -253,7 +253,7 @@ In a new AJAX Enabled Web Application:
 ````
 
 
-1. In the designer, double-click the "btnSave" Button control to create a __Click__ event handler. Replace the event handler with the code below.
+1. In the designer, double-click the "btnSave" Button control to create a **Click** event handler. Replace the event handler with the code below.
 
 
 
@@ -283,7 +283,7 @@ In a new AJAX Enabled Web Application:
 ````
 
 
-1. Press __F5__ to run the application. As you change selections in the RadComboBox list, the content of the RadEditor should change in unison. Make changes to content and click the save button. Navigate to and from the edited record to verify that the content has been saved to the database.
+1. Press **F5** to run the application. As you change selections in the RadComboBox list, the content of the RadEditor should change in unison. Make changes to content and click the save button. Navigate to and from the edited record to verify that the content has been saved to the database.
 
 # See Also
 

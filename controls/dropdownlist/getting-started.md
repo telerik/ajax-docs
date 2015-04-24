@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadDropDownList for ASP.NET AJAX Documentation
 description: Getting Started
 slug: dropdownlist/getting-started
 tags: getting,started

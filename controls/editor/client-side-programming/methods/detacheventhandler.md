@@ -1,6 +1,6 @@
 ---
 title: detachEventHandler
-page_title: detachEventHandler | UI for ASP.NET AJAX Documentation
+page_title: detachEventHandler | RadEditor for ASP.NET AJAX Documentation
 description: detachEventHandler
 slug: editor/client-side-programming/methods/detacheventhandler
 tags: detacheventhandler
@@ -17,10 +17,10 @@ This function detaches an event handler.
 
 >caption  
 
-|  __function__  __detachEventHandler (event, eventHandler)__  |  |  |
+|  **function**  **detachEventHandler (event, eventHandler)**  |  |  |
 | ------ | ------ | ------ |
-| __event__ | __string__ |Specifies a standard[DHTML](http://msdn2.microsoft.com/en-us/library/ms533051.aspx)event.|
-| __eventHandler__ | __function__ |Specifies the function that will no longer be called when the event fires|
+| **event** | **string** |Specifies a standard[DHTML](http://msdn2.microsoft.com/en-us/library/ms533051.aspx)event.|
+| **eventHandler** | **function** |Specifies the function that will no longer be called when the event fires|
 
 ## Example
 
@@ -51,16 +51,16 @@ The example below attaches a "onkeydown" event handler during the RadEditor OnCl
 
 
 
-To detach to external events such as __click__ and __blur__ use the RadEditor __removeExternalHandler__ function with the following syntax:
+To detach to external events such as **click** and **blur** use the RadEditor **removeExternalHandler** function with the following syntax:
 
 
 >caption  
 
-|  __$Telerik.removeExternalHandler(element, event, eventHandler)__  |  |  |
+|  **$Telerik.removeExternalHandler(element, event, eventHandler)**  |  |  |
 | ------ | ------ | ------ |
-| __element__ | __object__ |Specifies the element to which will be detached from the event|
-| __event__ | __string__ |Specifies the external (i.e. onclick, onfocus and onblur) event.|
-| __eventHandler__ | __function__ |Specifies the function that will be detached|
+| **element** | **object** |Specifies the element to which will be detached from the event|
+| **event** | **string** |Specifies the external (i.e. onclick, onfocus and onblur) event.|
+| **eventHandler** | **function** |Specifies the function that will be detached|
 
 ## Example
 
@@ -96,8 +96,8 @@ The example below demonstrates an external event being attached to a handler dur
 
 
 
->note In earlierversions, __removeExternalHandler()__ was referred to through the __Telerik.Web.DomElement__ object.Since thenhas undergone significant optimization of core scripts (script size was reduced by over 100K, and thecontrols now load even faster). One of the optimizations was to group allcore functionality into a single javascript class/object referred to as __$telerik__ .
+>note In earlierversions, **removeExternalHandler()** was referred to through the **Telerik.Web.DomElement** object.Since thenhas undergone significant optimization of core scripts (script size was reduced by over 100K, and thecontrols now load even faster). One of the optimizations was to group allcore functionality into a single javascript class/object referred to as **$telerik** .
 >So, the correct way to refer to a "system" method is:
-> __$telerik.removeExternalHandler()__ 
+> **$telerik.removeExternalHandler()** 
 >
 

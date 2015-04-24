@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadDropDownTree for ASP.NET AJAX Documentation
 description: Localization
 slug: dropdowntree/accessibility-and-internationalization/localization
 tags: localization

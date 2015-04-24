@@ -1,6 +1,6 @@
 ---
 title: Item Builder
-page_title: Item Builder | UI for ASP.NET AJAX Documentation
+page_title: Item Builder | RadDropDownList for ASP.NET AJAX Documentation
 description: Item Builder
 slug: dropdownlist/design-time/item-builder
 tags: item,builder

@@ -1,6 +1,6 @@
 ---
 title: set_visible
-page_title: set_visible | UI for ASP.NET AJAX Documentation
+page_title: set_visible | RadEditor for ASP.NET AJAX Documentation
 description: set_visible
 slug: editor/client-side-programming/methods/set_visible
 tags: set_visible
@@ -19,9 +19,9 @@ Sets the RadEditor visible on the client.
 
 >caption  
 
-|  __function__  __set_visible (isVisible)__  |  |  |
+|  **function**  **set_visible (isVisible)**  |  |  |
 | ------ | ------ | ------ |
-| __isVisible__ | __boolean__ |If __true__ RadEditor will be visible on the client.|
+| **isVisible** | **boolean** |If **true** RadEditor will be visible on the client.|
 
 The following example places a standard ASP checkbox input control on the form to toggle RadEditor visibility.
 >caption 

@@ -1,6 +1,6 @@
 ---
 title: Export to DOCX and RTF
-page_title: Export to DOCX and RTF | UI for ASP.NET AJAX Documentation
+page_title: Export to DOCX and RTF | RadEditor for ASP.NET AJAX Documentation
 description: Export to DOCX and RTF
 slug: editor/functionality/import-and-export/export-to-docx-and-rtf
 tags: export,to,docx,and,rtf
@@ -12,11 +12,11 @@ position: 2
 
 
 
-This help article explains how to export the __Telerik ASP.NET AJAX Editor__ content to an MS Word	document by using its built-in integration with the __Telerik document processing libraries__.
+This help article explains how to export the **Telerik ASP.NET AJAX Editor** content to an MS Word	document by using its built-in integration with the **Telerik document processing libraries**.
 
-Since __Q3 2014__ the export feature of the __RadEditor__ control supports DOCX and RTF files.
+Since **Q3 2014** the export feature of the **RadEditor** control supports DOCX and RTF files.
 
->important The __Telerik document processing libraries__ support __.NET Framework__ versions __4.0__ and above.As of __Q3 2014__ the __RadEditor__ export/import to RTF is not supported under __.NET 3.5__ .
+>important The **Telerik document processing libraries** support **.NET Framework** versions **4.0** and above.As of **Q3 2014** the **RadEditor** export/import to RTF is not supported under **.NET 3.5** .
 >
 
 
@@ -38,21 +38,21 @@ Quick navigation:
 
 ## Enabling the Export Feature for DOCX and RTF
 
-The built-in implementation of this feature depends on the __Telerik document processing libraries__.Since the __Q2 2014__ release, it comes with the installation of the __Telerik UI for ASP.NET AJAX__ suite.You can see how to obtain the needed assemblies in the [](65112864-d4c8-4ad6-8e5a-26f28c32ea8f) article.
+The built-in implementation of this feature depends on the **Telerik document processing libraries**.Since the **Q2 2014** release, it comes with the installation of the **Telerik UI for ASP.NET AJAX** suite.You can see how to obtain the needed assemblies in the [](65112864-d4c8-4ad6-8e5a-26f28c32ea8f) article.
 
-To use the built-in __document processing libraries__ integration with the __RadEditor__ Export to Word feature,you need to add references to the following assemblies in your project:
+To use the built-in **document processing libraries** integration with the **RadEditor** Export to Word feature,you need to add references to the following assemblies in your project:
 
-* __Telerik.Windows.Documents.Core.dll__
+* **Telerik.Windows.Documents.Core.dll**
 
-* __Telerik.Windows.Documents.Flow.dll__
+* **Telerik.Windows.Documents.Flow.dll**
 
-* __Telerik.Windows.Zip.dll__
+* **Telerik.Windows.Zip.dll**
 
 ## Exporting to an MS Word Document
 
-You can trigger an export to Word file action by calling the server-side __ExportToDocx()__method for DOCX __ExportToRtf()__ method for RTF. __Example 1__ illustrates their use.
+You can trigger an export to Word file action by calling the server-side **ExportToDocx()**method for DOCX **ExportToRtf()** method for RTF. **Example 1** illustrates their use.
 
-The default name of the exported file will be *RadEditorExport.docx* or *RadEditorExport.rtf*.Optionally, you can define it via the __FileName__ property in the __ExportSettings__ inner tag.You can read more about the available customization options in the [Defining Export Settings](#defining-export-settings) and [Using the Export Event](#using-export-event) sections.
+The default name of the exported file will be *RadEditorExport.docx* or *RadEditorExport.rtf*.Optionally, you can define it via the **FileName** property in the **ExportSettings** inner tag.You can read more about the available customization options in the [Defining Export Settings](#defining-export-settings) and [Using the Export Event](#using-export-event) sections.
 
 You can [modify the exported content](#modifying-the-exported-content)when the [OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%}) event is raised.
 
@@ -64,7 +64,7 @@ You can [modify the exported content](#modifying-the-exported-content)when the [
 >
 
 
-__Example 1__: Exporting the __RadEditor__ content to Word documents by using two simple ASP Button controls for __*.docx__ and __*.rtf__
+**Example 1**: Exporting the **RadEditor** content to Word documents by using two simple ASP Button controls for **.docx** and **.rtf**
 
 
 
@@ -105,19 +105,19 @@ __Example 1__: Exporting the __RadEditor__ content to Word documents by using tw
 
 ## Defining Export Settings
 
-Optionally, you can configure the export settings via the __Docx__ (for DOCX documents)or __Rtf__ (for RTF documents) inner tag, located in the __ExportSettings__ inner tag of the __RadEditor__ control.
+Optionally, you can configure the export settings via the **Docx** (for DOCX documents)or **Rtf** (for RTF documents) inner tag, located in the **ExportSettings** inner tag of the **RadEditor** control.
 
 The available options are:
 
-* __DefaultFontName__—sets the default font name for the Word document.
+* **DefaultFontName**—sets the default font name for the Word document.
 
-* __DefaultFontSizeInPoints__—sets the default font size for the Word document.
+* **DefaultFontSizeInPoints**—sets the default font size for the Word document.
 
-* __PageHeader__—defines a header text for the exported document.
+* **PageHeader**—defines a header text for the exported document.
 
-* __HeaderFontSizeInPoints__—sets the font size for the header element.
+* **HeaderFontSizeInPoints**—sets the font size for the header element.
 
-__Example 2__: Using the __ExportSettings__ options of the DOCX and RTF exporting functionality
+**Example 2**: Using the **ExportSettings** options of the DOCX and RTF exporting functionality
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" ContentFilters="PdfExportFilter, DefaultFilters">
@@ -136,9 +136,9 @@ __Example 2__: Using the __ExportSettings__ options of the DOCX and RTF exportin
 
 ## Modifying the Exported Content
 
-Exporting content from the Editor raises the __ExportContent__ event that can be handled toaccommodate the concrete application requirements. Additional information about the event arguments and how they can be used tointeract with the content is available in the [OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%}) article.
+Exporting content from the Editor raises the **ExportContent** event that can be handled toaccommodate the concrete application requirements. Additional information about the event arguments and how they can be used tointeract with the content is available in the [OnExportContent]({%slug editor/server-side-programming/events/onexportcontent%}) article.
 
-__Example 3__: Dynamically adding header and footer elements to the exported document via the __ExportContent__ event
+**Example 3**: Dynamically adding header and footer elements to the exported document via the **ExportContent** event
 
 
 
@@ -202,9 +202,9 @@ __Example 3__: Dynamically adding header and footer elements to the exported doc
 		Inherits System.Web.UI.Page
 	
 		Protected Sub RadEditor1_ExportContent(sender As Object, e As EditorExportingArgs)
-			Dim exportType__1 As ExportType = e.ExportType
+			Dim exportType**1 As ExportType = e.ExportType
 	
-			If exportType__1 = ExportType.Word Then
+			If exportType**1 = ExportType.Word Then
 				Dim exportedOutput As String = e.ExportOutput
 	
 				Dim output As [Byte]() = Encoding.[Default].GetBytes(exportedOutput)

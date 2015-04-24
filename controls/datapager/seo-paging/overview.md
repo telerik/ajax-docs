@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadDataPager SEO Paging Overview | UI for ASP.NET AJAX Documentation
+page_title: SEO Paging Overview | RadDataPager for ASP.NET AJAX Documentation
 description: Overview
 slug: datapager/seo-paging/overview
 tags: overview

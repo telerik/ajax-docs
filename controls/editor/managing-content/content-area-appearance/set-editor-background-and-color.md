@@ -1,6 +1,6 @@
 ---
 title: Set Editor Background and Color
-page_title: Set Editor Background and Color | UI for ASP.NET AJAX Documentation
+page_title: Set Editor Background and Color | RadEditor for ASP.NET AJAX Documentation
 description: Set Editor Background and Color
 slug: editor/managing-content/content-area-appearance/set-editor-background-and-color
 tags: set,editor,background,and,color
@@ -16,7 +16,7 @@ Set the RadEditor background and font color by using one of the following method
 
 ## Via CSS
 
-The rich text content area of RadEditor is an editable IFRAME element. This IFRAME is a separate document that has its own CSS styles that originate from the RadEditor skin. The default appearance in the content area can be overridden by setting the editor's __CssFiles__ property to point to your own CSS file, for example:
+The rich text content area of RadEditor is an editable IFRAME element. This IFRAME is a separate document that has its own CSS styles that originate from the RadEditor skin. The default appearance in the content area can be overridden by setting the editor's **CssFiles** property to point to your own CSS file, for example:
 
 ````ASPNET
 	<telerik:radeditor runat="server" ID="RadEditor1">
@@ -44,13 +44,13 @@ The CSS file should contain the following class:
 
 ![](images/editor-handlingcontent005.png)
 
-To style other HTML elements in the content area you need to define global css classes for them, e.g. __table__, __td__, __td__, __div__, __span__, etc
+To style other HTML elements in the content area you need to define global css classes for them, e.g. **table**, **td**, **td**, **div**, **span**, etc
 
 ## 
 
 Using Client-Side Code
 
-Use the __get_contentArea()__JavaScript method to get a reference to the content area style client object. You can use the style client object to set style properties.
+Use the **get_contentArea()**JavaScript method to get a reference to the content area style client object. You can use the style client object to set style properties.
 
 ````ASPNET
 	<telerik:RadEditor

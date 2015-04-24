@@ -1,6 +1,6 @@
 ---
 title: Connections
-page_title: Connections | UI for ASP.NET AJAX Documentation
+page_title: Connections | RadDiagram for ASP.NET AJAX Documentation
 description: Connections
 slug: diagram/data-binding/server-side/connections
 tags: connections
@@ -14,23 +14,23 @@ position: 1
 
 ## 
 
-In this article you can check how to data bind the connections in a __RadDiagram__ control. The diagram can use the standard data sources for binding an ASP.NET control:
+In this article you can check how to data bind the connections in a **RadDiagram** control. The diagram can use the standard data sources for binding an ASP.NET control:
 
 * Declarative ASP.NET data sources (SqlDatasource, ObjectDataSource, LinqDataSource, etc.)
 
-* Server-side collections that implement the __IEnumerable__ interface.
+* Server-side collections that implement the **IEnumerable** interface.
 
->note Before data binding the connections you need to have shapes in the diagram so that the controls knows the start and end of each connection. This is why the diagram in __Example 1__ has data binding of shapes as well.
+>note Before data binding the connections you need to have shapes in the diagram so that the controls knows the start and end of each connection. This is why the diagram in **Example 1** has data binding of shapes as well.
 >
 
 
-Similar to setting a data source for an ASP.NET control, you should either use the __ConnectionDataSourceID__ property when data binding declaratively or__ConnectionDataSource__ when the data source of the control is set on the server-side (such it the case in __Example 1__).
+Similar to setting a data source for an ASP.NET control, you should either use the **ConnectionDataSourceID** property when data binding declaratively or**ConnectionDataSource** when the data source of the control is set on the server-side (such it the case in **Example 1**).
 
 The data source should have columns for each of the diagram fields that you want to specify. For example, if you want to pull the start cap type of the connection from the data source, this willrequire a separate column that contains the start cap type of each connection.
 
-The columns of the data source are attached to their corresponding data fields in the connections via the properties with the structure __Data[__ in __RadDiagram > BindingSettings > ConnectionSettings__. You can find the full set of properties in the [Server-Side API of RadDiagram](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_raddiagram.html).
+The columns of the data source are attached to their corresponding data fields in the connections via the properties with the structure **Data[** in **RadDiagram > BindingSettings > ConnectionSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_raddiagram.html).
 
-__Example 1__: Data binding shapes and connections in a diagram to a collection of custom objects.
+**Example 1**: Data binding shapes and connections in a diagram to a collection of custom objects.
 
 ````ASPNET
 	            <telerik:RadDiagram ID="RadDiagram1" runat="server">

@@ -1,6 +1,6 @@
 ---
 title: Inline Editing Mode
-page_title: Inline Editing Mode | UI for ASP.NET AJAX Documentation
+page_title: Inline Editing Mode | RadEditor for ASP.NET AJAX Documentation
 description: Inline Editing Mode
 slug: editor/functionality/editor-views-and-modes/inline-editing-mode
 tags: inline,editing,mode
@@ -12,7 +12,7 @@ position: 2
 
 
 
-This article showcases the __Inline Editing__ functionality of the	__Telerik ASP.NET AJAX Editor__ that is available as of	__Q3 2014__. You can seeit in action in the[Inline Editing](http://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)	live demo.
+This article showcases the **Inline Editing** functionality of the	**Telerik ASP.NET AJAX Editor** that is available as of	**Q3 2014**. You can seeit in action in the[Inline Editing](http://demos.telerik.com/aspnet-ajax/editor/examples/inlineediting/defaultcs.aspx)	live demo.
 
 This article contains the following sections:
 
@@ -24,23 +24,23 @@ This article contains the following sections:
 
 ## What is Inline Editing
 
-Inline Editing feature enables you to directly edit the web page content by using __RadEditor__ and at the same time to have an overview of the real layout and appearance.
+Inline Editing feature enables you to directly edit the web page content by using **RadEditor** and at the same time to have an overview of the real layout and appearance.
 
-Here are the key features of the __Inline Editing__ mode:
+Here are the key features of the **Inline Editing** mode:
 
-* __Click__ on the content to __start editing__. At this point the editor toolbar appears above the content. It uses fade animation by default (see __Example 2__).
+* **Click** on the content to **start editing**. At this point the editor toolbar appears above the content. It uses fade animation by default (see **Example 2**).
 
-* The default toolbar contains only the most commonly used tools (__Figure 1__).
+* The default toolbar contains only the most commonly used tools (**Figure 1**).
 
 * While not editing, the borders, [modules]({%slug editor/functionality/modules/overview%}) and the default buttons for switching between the different [edit modes]({%slug editor/functionality/editor-views-and-modes/edit-modes%}) are hidden.
 
-* You can switch to HTML edit mode via the __ToggleEditMode__ button (__Figure 1__).
+* You can switch to HTML edit mode via the **ToggleEditMode** button (**Figure 1**).
 
 * The height of the editor is based on the content height via its [AutoResizeHeight feature]({%slug editor/managing-content/automatic-height-resize%}) that is enabled by default and cannot be disabled.
 
-* You can set the __Width__ property of the control so it matches your current design and layout.
+* You can set the **Width** property of the control so it matches your current design and layout.
 
-* The [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) of the editor is set to __Div__. Thus, the content area becomes part of the current page and the existing style sheets are automatically inherited.
+* The [ContentAreaMode]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) of the editor is set to **Div**. Thus, the content area becomes part of the current page and the existing style sheets are automatically inherited.
 
 * You can execute custom client-side code when finished with the inline-editing (i.e., clicking outside of the editor's content area) by handling the [OnClientInlineEditCompleted]({%slug editor/client-side-programming/events/onclientinlineeditcompleted%}) event.
 >caption Figure 1: RadEditor with Inline Editing enabled
@@ -49,15 +49,15 @@ Here are the key features of the __Inline Editing__ mode:
 
 ## Enabling RadEditor Inline Editing
 
-The inline editing functionality is controlled by the __EditType__ property of __RadEditor__. To enable it:
+The inline editing functionality is controlled by the **EditType** property of **RadEditor**. To enable it:
 
-1. Set the __EditType__ property to __Inline__.
+1. Set the **EditType** property to **Inline**.
 
-1. Wrap your already existing layout into the __Content__ tag of __RadEditor__ (see __Example 1__).
+1. Wrap your already existing layout into the **Content** tag of **RadEditor** (see **Example 1**).
 
-1. Optionally, set the __Width__ property of the editor so it fits your layout.
+1. Optionally, set the **Width** property of the editor so it fits your layout.
 
-__Example 1__: Enabling RadEditor inline editing:
+**Example 1**: Enabling RadEditor inline editing:
 
 ````ASPNET
 			<telerik:RadEditor ID="RadEditor1" runat="server" EditType="Inline">
@@ -79,11 +79,11 @@ __Example 1__: Enabling RadEditor inline editing:
 
 
 
-The result of this example is displayed in __Figure 1__.
+The result of this example is displayed in **Figure 1**.
 
 ## Customizing the Toolbar
 
-The toolbar width has a default value that accommodates the default toolbar. If you set the __Width__ property of the editor, however, the toolbar will also inherit this value. If you need to set different width only for the toolbar, you can use the __ToolsWidth__ property.
+The toolbar width has a default value that accommodates the default toolbar. If you set the **Width** property of the editor, however, the toolbar will also inherit this value. If you need to set different width only for the toolbar, you can use the **ToolsWidth** property.
 
 You can see how to add/remove tools in the toolbar in the following help articles:
 
@@ -93,9 +93,9 @@ You can see how to add/remove tools in the toolbar in the following help article
 
 * [Adding Your Own Buttons]({%slug editor/functionality/toolbars/buttons/add-your-own-buttons%})
 
-By default, the toolbar shows with a fade-in animation when the editor is in inline edit mode. You can use the __AnimationSettings__inner tag of the control to disable the animation or to change its duration via the __Type__ and__Duration__ properties of the __ToolbarAnimations__ section:
+By default, the toolbar shows with a fade-in animation when the editor is in inline edit mode. You can use the **AnimationSettings**inner tag of the control to disable the animation or to change its duration via the **Type** and**Duration** properties of the **ToolbarAnimations** section:
 
-__Example 2__: Changing the animation settings of RadEditor in Inline edit mode on the server
+**Example 2**: Changing the animation settings of RadEditor in Inline edit mode on the server
 
 ````ASPNET
 			<telerik:RadEditor ID="RadEditor1" runat="server" EditType="Inline">
@@ -109,7 +109,7 @@ __Example 2__: Changing the animation settings of RadEditor in Inline edit mode 
 
 You can also change the animation on the client:
 
-__Example 3__: Changing the animation settings of RadEditor in Inline edit mode on the client
+**Example 3**: Changing the animation settings of RadEditor in Inline edit mode on the client
 
 ````JavaScript
 				function changeAnimationSettings() {

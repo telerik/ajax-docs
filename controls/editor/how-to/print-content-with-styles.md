@@ -1,6 +1,6 @@
 ---
 title: Print Content with Styles
-page_title: Print Content with Styles | UI for ASP.NET AJAX Documentation
+page_title: Print Content with Styles | RadEditor for ASP.NET AJAX Documentation
 description: Print Content with Styles
 slug: editor/how-to/print-content-with-styles
 tags: print,content,with,styles
@@ -34,7 +34,7 @@ Fortunately, there is a workaround for this:
 
 
 
-1. Add the following custom __Print__ command under the editor declaration, i.e.
+1. Add the following custom **Print** command under the editor declaration, i.e.
 
 ````JavaScript
 	<script type="text/javascript">
@@ -93,7 +93,7 @@ Fortunately, there is a workaround for this:
 >
 
 
-__ADDITIONAL INFORMATION__
+**ADDITIONAL INFORMATION**
 
 You can find a good resource on how to print CSS styles on the Internet. You can see the following articles which we have chosen for you:
 
@@ -103,6 +103,6 @@ You can find a good resource on how to print CSS styles on the Internet. You can
 
 * [CSS For Printing](http://www.webdesignschoolreview.com/css-printing.html)
 
-__EXAMPLE FILES__
+**EXAMPLE FILES**
 
 [PrintWithStyles](http://www.telerik.com/ArticleFileDownload.aspx?I=jDO&G=Ctb)

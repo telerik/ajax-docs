@@ -1,6 +1,6 @@
 ---
-title: Changes and Backwards Compatibility Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Changes and Backwards Compatibility Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/changes-and-backwards-compatibility/overview
 tags: overview

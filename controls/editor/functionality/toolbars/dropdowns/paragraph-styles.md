@@ -1,6 +1,6 @@
 ---
 title: Paragraph Styles
-page_title: Paragraph Styles | UI for ASP.NET AJAX Documentation
+page_title: Paragraph Styles | RadEditor for ASP.NET AJAX Documentation
 description: Paragraph Styles
 slug: editor/functionality/toolbars/dropdowns/paragraph-styles
 tags: paragraph,styles
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the __Paragraphs__ collection. You can add to the __Paragraphs__ collection declaratively, programmatically and using the ToolsFile.
+The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the **Paragraphs** collection. You can add to the **Paragraphs** collection declaratively, programmatically and using the ToolsFile.
 >caption 
 
 ![](images/editor-dropdowns004.png)
@@ -34,7 +34,7 @@ The Paragraph style dropdown of RadEditor displays a predefined set of styles by
 
 ## Using Paragraphs Programmatically
 
-Use the Paragraphs collection __Add()__ method to include one or more paragraph styles in the list. When using the __Add()__ method the Paragraph style dropdown will be reset, so the items you add will create a new Paragraph style set. See the example below:
+Use the Paragraphs collection **Add()** method to include one or more paragraph styles in the list. When using the **Add()** method the Paragraph style dropdown will be reset, so the items you add will create a new Paragraph style set. See the example below:
 
 
 
@@ -65,7 +65,7 @@ To display the dropdown items with their corresponding formatting, add the tag a
 
 ## Use CSS Styles
 
-__RadEditor__ also supports block format with the CSS class set:
+**RadEditor** also supports block format with the CSS class set:
 >caption 
 
 ![](images/editor-dropdowns006.png)
@@ -92,7 +92,7 @@ __RadEditor__ also supports block format with the CSS class set:
 
 ## Using the ToolsFile
 
-You can also populate the __Paragraphs__ dropdown using the ToolsFile.xml, as shown in the example below (using default and custom class styles):
+You can also populate the **Paragraphs** dropdown using the ToolsFile.xml, as shown in the example below (using default and custom class styles):
 
 ````XML
 	<root>
@@ -111,7 +111,7 @@ You can also populate the __Paragraphs__ dropdown using the ToolsFile.xml, as sh
 
 
 
-Note: The ToolsFile file is an XML file and the opening tag < bracket symbol should be encoded to [its &lt; entity](http://www.w3schools.com/html/html_entities.asp) in the __name__and __value__attributes' values.
+Note: The ToolsFile file is an XML file and the opening tag < bracket symbol should be encoded to [its &lt; entity](http://www.w3schools.com/html/html_entities.asp) in the **name**and **value**attributes' values.
 
 # See Also
 

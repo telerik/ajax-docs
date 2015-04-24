@@ -1,6 +1,6 @@
 ---
 title: setFocus
-page_title: setFocus | UI for ASP.NET AJAX Documentation
+page_title: setFocus | RadEditor for ASP.NET AJAX Documentation
 description: setFocus
 slug: editor/client-side-programming/methods/setfocus
 tags: setfocus
@@ -19,7 +19,7 @@ Sets the focus on RadEditor.
 
 >caption  
 
-|  __function__  __setFocus()__  |
+|  **function**  **setFocus()**  |
 | ------ |
 
 This example demonstrates how to set the focus in the content area of RadEditor by firing the setFocus() method. The focus is initially set to on the text input below the editor control.

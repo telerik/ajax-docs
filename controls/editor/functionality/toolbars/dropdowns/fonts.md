@@ -1,6 +1,6 @@
 ---
 title: Fonts
-page_title: Fonts | UI for ASP.NET AJAX Documentation
+page_title: Fonts | RadEditor for ASP.NET AJAX Documentation
 description: Fonts
 slug: editor/functionality/toolbars/dropdowns/fonts
 tags: fonts
@@ -16,7 +16,7 @@ position: 0
 
 RadEditor is powerful enough to be used in any language you like: English, Bulgarian, Russian, Hindi, Vietnamese, Chinese, Japanese, Korean, etc.
 
-You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding: __<?xml version="1.0" encoding="utf-8" ?>__, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
+You'll need to set the proper encoding in the aspx files with the editor. You can use the following encoding: **<?xml version="1.0" encoding="utf-8" ?>**, which will make the editor compatible with Western Europe languages, Cyrillic, Greek, Asian, Arab, Chinese, Japanese, etc characters.
 
 >note If the characters are displayed properly by the browser on the same page where the editor is, they should be displayed properly in the editor as well.
 >
@@ -51,7 +51,7 @@ The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which 
 
 ## Using FontNames Programmatically
 
-Use the FontNames collection __Add()__method to include new fonts in the list. When first using the __Add()__ method, the Fonts dropdown will be reset, so the fonts you add will not be appended to the default set, but will rather create a new Fonts set.
+Use the FontNames collection **Add()**method to include new fonts in the list. When first using the **Add()** method, the Fonts dropdown will be reset, so the fonts you add will not be appended to the default set, but will rather create a new Fonts set.
 
 
 
@@ -79,7 +79,7 @@ Use the FontNames collection __Add()__method to include new fonts in the list. W
 
 ## Adding FontNames to ToolsFile.xml
 
-You can also populate the __Fonts__ dropdown using the ToolsFile, as shown in the example below:
+You can also populate the **Fonts** dropdown using the ToolsFile, as shown in the example below:
 
 ````XML
 	    <root>    

@@ -1,6 +1,6 @@
 ---
 title: OnClientEntryRemoved
-page_title: OnClientEntryRemoved | UI for ASP.NET AJAX Documentation
+page_title: OnClientEntryRemoved | RadDropDownTree for ASP.NET AJAX Documentation
 description: OnClientEntryRemoved
 slug: dropdowntree/client-side-programming/events/oncliententryremoved
 tags: oncliententryremoved

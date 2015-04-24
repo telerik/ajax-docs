@@ -1,6 +1,6 @@
 ---
 title: File Browser Dialogs Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/functionality/dialogs/file-browser-dialogs/overview
 tags: overview
@@ -25,13 +25,13 @@ The files which will be available in a FileBrowser dialog are controlled by a se
 
 All dialogs have the ViewPaths, UploadPaths and deletePaths properties in common which can be set in the dialog tag:
 
-* __ViewPaths__ - Specifies the paths where files are located. The FileBrowser dialog displays recursively all the subdirectories and the appropriate files.
+* **ViewPaths** - Specifies the paths where files are located. The FileBrowser dialog displays recursively all the subdirectories and the appropriate files.
 
-* __UploadPaths__ - Specifies the paths to which users can upload files. To be visible, these paths should be a subset (or child paths) of a __ViewPaths__ value.
+* **UploadPaths** - Specifies the paths to which users can upload files. To be visible, these paths should be a subset (or child paths) of a **ViewPaths** value.
 
-* __DeletePaths__ - Specifies the paths from which users can delete files. To be visible, these paths should be a subset (or child paths) of a __ViewPaths__ value.
+* **DeletePaths** - Specifies the paths from which users can delete files. To be visible, these paths should be a subset (or child paths) of a **ViewPaths** value.
 
-The example below shows __ViewPaths__ in the parent "/Images" directory, __UploadPaths__located in a "/New" subdirectory and __DeletePaths__ with two paths under "/New". This set of paths is defined for each of the FileBrowser dialogs:
+The example below shows **ViewPaths** in the parent "/Images" directory, **UploadPaths**located in a "/New" subdirectory and **DeletePaths** with two paths under "/New". This set of paths is defined for each of the FileBrowser dialogs:
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -46,13 +46,13 @@ The example below shows __ViewPaths__ in the parent "/Images" directory, __Uploa
 
 
 
-* __SearchPatterns__- Specifies the extensions of the files displayed by the FileBrowser dialog.
+* **SearchPatterns**- Specifies the extensions of the files displayed by the FileBrowser dialog.
 
-* __MaxUploadFileSize -__ Controls the maximum allowed file size of a FileBrowser dialog.
+* **MaxUploadFileSize -** Controls the maximum allowed file size of a FileBrowser dialog.
 
 When in a folder not having upload rights, the Upload tab is disabled. The Create New Folder operation is disabled as well. When in a folder not having delete rights, the Delete button is disabled. Security rights setting is explained in the [Example: Enforcing Roles]({%slug editor/functionality/dialogs/examples/enforce-roles%}) topic.
 
-__Note:__The relative path syntax is not currently supported, because RadEditor uses the so-called FileBrowserContentProvider abstraction which allows for the editor dialogs to be hooked into various CMS systems and/or databases.
+**Note:**The relative path syntax is not currently supported, because RadEditor uses the so-called FileBrowserContentProvider abstraction which allows for the editor dialogs to be hooked into various CMS systems and/or databases.
 
 The default implementation of the FileBrowserContentProvider has no notion of Page - hence, it is not able to determine in which context the relative path should be resolved in. E.g. here is some code from the provider:
 
@@ -64,4 +64,4 @@ string physicalPath = Context.Server.MapPath(path); ...
 
 Hence, the easiest way to "feed" relative paths to the editor is not declarative, but uses a little bit of code, e.g.:
 
-string path = __Page.ResolveUrl__("./images");
+string path = **Page.ResolveUrl**("./images");

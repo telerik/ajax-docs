@@ -1,6 +1,6 @@
 ---
-title: Context Menus Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Context Menus Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/functionality/context-menus/overview
 tags: overview

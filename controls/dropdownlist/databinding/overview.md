@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: DataBinding Overview | UI for ASP.NET AJAX Documentation
+page_title: Data Binding Overview | RadDropDownList for ASP.NET AJAX Documentation
 description: Telerik's ASP.NET RadDropDownList DataBinding Overview
 slug: dropdownlist/databinding/overview
 tags: overview

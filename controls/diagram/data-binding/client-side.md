@@ -1,6 +1,6 @@
 ---
 title: Client-side
-page_title: Client-side | UI for ASP.NET AJAX Documentation
+page_title: Client-side | RadDiagram for ASP.NET AJAX Documentation
 description: Client-side
 slug: diagram/data-binding/client-side
 tags: client-side
@@ -12,39 +12,39 @@ position: 1
 
 
 
-This help article illustrates how to data bind the __RadDiagram__ control on the client-side. You can do this in two ways:
+This help article illustrates how to data bind the **RadDiagram** control on the client-side. You can do this in two ways:
 
-* By importing a JSON literal with the shapes and connections data to the KendoUI Diagram through the __load()__ method. See the [Import from JSON]({%slug diagram/import-and-export/import-from-json%}) help article.
+* By importing a JSON literal with the shapes and connections data to the KendoUI Diagram through the **load()** method. See the [Import from JSON]({%slug diagram/import-and-export/import-from-json%}) help article.
 
-* By integrating __RadDiagram__ with two __RadClientDataSource__ controls, responsible for shapes and connections. See the [Binding RadDiagram Shapes and Connections with RadClientDataSource](#binding-raddiagram-shapes-and-connections-with-radclientdatasource) section below.
+* By integrating **RadDiagram** with two **RadClientDataSource** controls, responsible for shapes and connections. See the [Binding RadDiagram Shapes and Connections with RadClientDataSource](#binding-raddiagram-shapes-and-connections-with-radclientdatasource) section below.
 
 ## Binding RadDiagram Shapes and Connections with RadClientDataSource
 
-You can data bind __RadDiagram__ shapes and connections on the client-side to __RadClientDataSource__ controls (__Example 1__) since Q1 2015.
+You can data bind **RadDiagram** shapes and connections on the client-side to **RadClientDataSource** controls (**Example 1**) since Q1 2015.
 
 This functionality is provided through the following properties:
 
-* __ClientDataSourceID__—the server ID of the RadClientDataSource responsible for providing the [Shapes]({%slug diagram/structure/shape%}) data.
+* **ClientDataSourceID**—the server ID of the RadClientDataSource responsible for providing the [Shapes]({%slug diagram/structure/shape%}) data.
 
-* __ConnectionsClientDataSourceID__—the server ID of the RadClientDataSource responsible for providing the [Connections]({%slug diagram/structure/connection%}) data.
+* **ConnectionsClientDataSourceID**—the server ID of the RadClientDataSource responsible for providing the [Connections]({%slug diagram/structure/connection%}) data.
 
 The shapes and connections data should be in a JSON format with the necessary fields:
 
-* for __Shapes__, you need fields with the exact names from [The fields of the shape model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-shape-model) article. These fields control the type, position and dimensions of the shapes.
+* for **Shapes**, you need fields with the exact names from [The fields of the shape model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-shape-model) article. These fields control the type, position and dimensions of the shapes.
 
-* for __Connections__, you need fields with the exact names from [The fields of the connection model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-connection-model) article. These fields associate connections with the shapes.
+* for **Connections**, you need fields with the exact names from [The fields of the connection model](http://docs.telerik.com/kendo-ui/dataviz/diagram/editing#the-fields-of-the-connection-model) article. These fields associate connections with the shapes.
 
-You can also map shapes and connections field names of the diagram to the field names from the JSON literals through the __FieldName__ and __OriginalFieldName__ properties of the ClientDataSource Model of the RadClientDataSource. More information is available in the [](4697ee29-7b2c-4ac2-9bfd-1236a73b6c2b) help article.
+You can also map shapes and connections field names of the diagram to the field names from the JSON literals through the **FieldName** and **OriginalFieldName** properties of the ClientDataSource Model of the RadClientDataSource. More information is available in the [](4697ee29-7b2c-4ac2-9bfd-1236a73b6c2b) help article.
 
-If you want to customize the shapes yourself, you can get the necessary data from the __dataItem__ object and reconfigure the shapes in either of the following ways:
+If you want to customize the shapes yourself, you can get the necessary data from the **dataItem** object and reconfigure the shapes in either of the following ways:
 
-* Use the [OnChange](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change) event (__Example 3__). This approach is also illustrated in the [Diagram - Client-side Data Binding](http://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx) demo.
+* Use the [OnChange](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-change) event (**Example 3**). This approach is also illustrated in the [Diagram - Client-side Data Binding](http://demos.telerik.com/aspnet-ajax/diagram/examples/client-side-data-binding/defaultcs.aspx) demo.
 
-* In a [visual template]({%slug diagram/functionality/shape-templates%}) (__Example 4__).
+* In a [visual template]({%slug diagram/functionality/shape-templates%}) (**Example 4**).
 
 You can find the full list of properties that can be customized in the [Shapes API](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes) article.
 
-__Example 1__: Client-side binding of shapes and connections data in RadDiagram through __RadClientDataSource__ controls. The sample uses JSON literals from __Example 2__.
+**Example 1**: Client-side binding of shapes and connections data in RadDiagram through **RadClientDataSource** controls. The sample uses JSON literals from **Example 2**.
 
 ````ASPNET
 			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
@@ -76,7 +76,7 @@ __Example 1__: Client-side binding of shapes and connections data in RadDiagram 
 
 
 
-__Example 2__: Shapes and Connections JSON literals used in__Example 1__, __Example 3__ and __Example 4__.
+**Example 2**: Shapes and Connections JSON literals used in**Example 1**, **Example 3** and **Example 4**.
 
 ````JavaScript
 			[{
@@ -167,7 +167,7 @@ __Example 2__: Shapes and Connections JSON literals used in__Example 1__, __Exam
 
 
 
-__Example 3__: RadDiagram client-side data binding and shapes customization through the __OnChange__ event.The sample uses JSON literals from __Example 2__.
+**Example 3**: RadDiagram client-side data binding and shapes customization through the **OnChange** event.The sample uses JSON literals from **Example 2**.
 
 
 
@@ -218,7 +218,7 @@ __Example 3__: RadDiagram client-side data binding and shapes customization thro
 ````
 
 
-__Example 4__: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from __Example 2__.
+**Example 4**: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from **Example 2**.
 
 
 

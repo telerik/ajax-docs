@@ -1,6 +1,6 @@
 ---
 title: get_html
-page_title: get_html | UI for ASP.NET AJAX Documentation
+page_title: get_html | RadEditor for ASP.NET AJAX Documentation
 description: get_html
 slug: editor/client-side-programming/methods/get_html
 tags: get_html
@@ -21,9 +21,9 @@ Returns the editor content as HTML.
 
 >caption  
 
-|  __function__  __get_html(isFiltered)__  |  |  |
+|  **function**  **get_html(isFiltered)**  |  |  |
 | ------ | ------ | ------ |
-| __isFiltered__ | __bool__ |if set to __true__ , the returned HTML content will be modified by the RadEditor client filters|
+| **isFiltered** | **bool** |if set to **true** , the returned HTML content will be modified by the RadEditor client filters|
 
 
 

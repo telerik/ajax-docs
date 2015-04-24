@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | RadDock for ASP.NET AJAX Documentation
+page_title: RadDock Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: dock/overview
 tags: overview

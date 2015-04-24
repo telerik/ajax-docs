@@ -1,6 +1,6 @@
 ---
 title: Dialogs' CSS Classes
-page_title: Dialogs' CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: Dialogs' CSS Classes | RadEditor for ASP.NET AJAX Documentation
 description: Dialogs' CSS Classes
 slug: editor/appearance-and-styling/dialogs'-css-classes
 tags: dialogs',css,classes
@@ -17,7 +17,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |html|Telerik's Editor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX suite and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 |body|Same as above|
@@ -29,7 +29,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.RadToolBar .rtbText|Rad toolbar text|
 |.RadToolBar .rtbIconOnly .rtbText|Rad toolbar icon only text|
@@ -49,7 +49,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.RadTabStrip ul|RadTabStrip unordered list|
 |.controlsList li|Controls list LI element|
@@ -64,7 +64,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |#hyperlinkFieldset li|Hyperlink fieldset li|
 |#emailFieldset li|Email fieldset li|
@@ -81,7 +81,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ConstrainProportions button|Constrain proportions button|
 |.ConstrainProportions.toggle button|Constrain proportions toggle button|
@@ -91,7 +91,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.FormatCodeBlock input|Format code block input|
 
@@ -100,7 +100,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reTableWizardSpinBox|Table wizard spinbox content|
 |.reTableWizardSpinBox a|Table wizard spinbox link normal state|
@@ -114,7 +114,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.tableDesign|Table design TABLE|
 |.tableDesign td|Table design TD|
@@ -126,7 +126,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.tblBorderPropsToolbar|Table properties toolbar|
 |.tblBorderPropsToolbar li|Table properties toolbar list element|
@@ -151,7 +151,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |#TableBorder .propertiesLabel|Table border properties label|
 |#TableBorder .reToolWrapper|Table border tool wrapper|
@@ -165,7 +165,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reDialogLabel span|RadEditor dialog label span|
 |.reDialogLabelShort span|RadEditor dialog label short span|
@@ -175,7 +175,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reControlsLayout|RadEditor Controls Layout|
 |.reControlsLayout .reLabelCell|RadEditor Controls Layout label cell|
@@ -186,7 +186,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.FindAndReplaceDialog .reDialogLabel span|FAR dialog label span|
 |.FindAndReplaceDialog #find|FAR find|
@@ -202,7 +202,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ImageProperties .reImageDialogCaller input|Image properties dialog caller input|
 
@@ -211,7 +211,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.HelpDialog|Help dialog content|
 |.HelpDialog h1|Help dialog H1|
@@ -224,7 +224,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.PageProperties .reImageDialogCaller input|Page properties image dialog caller input|
 |.PageProperties .reImageDialogCaller .reTool|Page properties image dialog caller RadEditor tool|
@@ -234,7 +234,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.AboutDialog|About dialog content|
 |.AboutDialog h6|About dialog H6|
@@ -248,7 +248,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.reImageDialogCaller|Image dialog caller content|
 |.reImageDialogCaller .reTool|Image dialog caller RadEditor Tool|
@@ -260,7 +260,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.RadFileExplorer|RadFile Explorer content - The RadEditor dialogs are using some of the other controls from the Telerik UI for ASP.NET AJAX and inherits their CSS, it is necessary to overwrite some general styles to avoid unwanted behavior.|
 
@@ -269,7 +269,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.icnImageEditor .rtbText|Image Editor Text|
 |.imagePreview|Image Preview|
@@ -283,7 +283,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ManagerDialog .ImageProperties|Manager dialog image properties content|
 |.ManagerDialog .ImageProperties .reDialogLabel span|Manager dialog RadEditor label span|
@@ -301,7 +301,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.FlashManagerCombo|Flash manager combo|
 |.mediaPreviewer select|Media previewer select|
@@ -311,7 +311,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.ManagerDialog .LinkManager|Link manager content|
 |.ManagerDialog .LinkManager .reControlsLayout|Link manager controls layout|
@@ -333,7 +333,7 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.tblBorderTestTable|Table Dialog test TABLE|
 |.tblBorderTestTable td|Table Dialog test TD|
@@ -344,6 +344,6 @@ position: 4
 
 >caption  
 
-|  __CSS Class__  |  __Description__  |
+|  **CSS Class**  |  **Description**  |
 | ------ | ------ |
 |.rfeUploadContainer|Upload Container|
