@@ -1,6 +1,6 @@
 ---
-title: Items Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Items Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/items/overview
 tags: overview
@@ -32,7 +32,7 @@ The rows of the treelist control are called data items and are of type __TreeLis
 
 If the treelist uses different styling for odd- and even- numbered rows, the even-numbered are called __AlternitingItems__ while the odd ones are just __Items__. The __TreeListDataItem.ItemType__ property returns whether the current TreeListDataItem is Item or AlternatingItem. Its style can be customized by using respectively the __ItemStyle__ and __AlternatingItemStyle__ properties.![TreeListDataItems](images/treelist_items_dataitems.png)
 
-For more information on the TreeListDataItem object, see its [Server-side API]({%slug treelist/server-side-programming/treelistdataitem-object%}) and[Client-side API]({%slug treelist/client-side-programming/treelistdataitem-object%}) documentation articles.
+For more information on the TreeListDataItem object, see its [Server-side API]({%slug treelist/server-side-programming/treelistdataitem-object%}) and [Client-side API]({%slug treelist/client-side-programming/treelistdataitem-object%}) documentation articles.
 
 ## TreeListHeaderItem
 

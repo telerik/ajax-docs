@@ -29,8 +29,8 @@ To enable this functionality in RadTreeList, you need to:
 
 
 ````ASPNET
-	                    <ClientSettings AllowItemsDragDrop="true">
-	                        <Selecting AllowItemSelection="True" />
+<ClientSettings AllowItemsDragDrop="true">
+	<Selecting AllowItemSelection="True" />
 ````
 
 
@@ -45,8 +45,8 @@ RadTreeList supports automatic item reordering when SqlDataSource is used. In th
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| __OnItemDrop__ |event|Occurs when a RadTreeList item is dragged and dropped over HTML element (if not cancelled via the client-side API)|
-| __AllowItemsDragDrop__ |property|Occurs when a RadTreeList item is dragged and dropped over HTML element(if not cancelled via the client-side API)|
+| **OnItemDrop** |event|Occurs when a RadTreeList item is dragged and dropped over HTML element (if not cancelled via the client-side API)|
+| **AllowItemsDragDrop** |property|Occurs when a RadTreeList item is dragged and dropped over HTML element(if not cancelled via the client-side API)|
 
 ## Client-Side API
 
@@ -59,10 +59,10 @@ A convenient feature of the client-side API is that the control automatically de
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| __OnItemDragStarted__ |event|[](3ff831d8-b5e4-4276-ad35-29f55e0d675c)is fired when a drag action is started.|
-| __OnItemDragging__ |event|[](5754cdc6-745d-4456-8ab8-b5ada8d38c9a)is fired when a TreeListDataItem is being dragged.|
-| __OnItemDropping__ |event|[](2ed97033-2ca4-4466-bc40-e98c4b485e4c)is fired when a TreeListDataItem is being dropped.|
-| __OnItemDropped__ |event|[](a76044a8-82fe-4b95-a909-3365e1770389)is fired when a TreeListDataItem has been dropped.|
+| **OnItemDragStarted** |event|[](3ff831d8-b5e4-4276-ad35-29f55e0d675c)is fired when a drag action is started.|
+| **OnItemDragging** |event|[](5754cdc6-745d-4456-8ab8-b5ada8d38c9a)is fired when a TreeListDataItem is being dragged.|
+| **OnItemDropping** |event|[](2ed97033-2ca4-4466-bc40-e98c4b485e4c)is fired when a TreeListDataItem is being dropped.|
+| **OnItemDropped** |event|[](a76044a8-82fe-4b95-a909-3365e1770389)is fired when a TreeListDataItem has been dropped.|
 
 # See Also
 

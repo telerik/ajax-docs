@@ -14,19 +14,21 @@ position: 1
 
 ## 
 
-__RadTreeList__ is used to display self-hierarchical data in a grid style. When configuring it, you need to set the __DataKeyNames__ and the __ParentDataKeyNames__ properties. It is important to know that the fields used for the data key names should be of the same type. Thus if you have DataKeyName of type string, its corresponding ParentDataKeyName should be string as well.
+**RadTreeList** is used to display self-hierarchical data in a grid style. When configuring it, you need to set the **DataKeyNames** and the **ParentDataKeyNames** properties. It is important to know that the fields used for the data key names should be of the same type. Thus if you have DataKeyName of type string, its corresponding ParentDataKeyName should be string as well.
 
 After you have set the above mentioned properties and bound the RadTreeList to your data source, the RadTreeList can easily determine which are the root items and which are their child items. There are two rules followed when determining the root items:
 
 1. If the key fields are of value type or string, the root items are either:
 
-* items with ParentKeyValue set to the default value of the type
+	* items with ParentKeyValue set to the default value of the type
 
-* items for which the parent key value is equal to the key valueItems with parent key value which does not fulfil the above requirement, and have no parent item (e.g. their parent key value does not correspond to any other item key value) are not included in the resolved data source of the treelist at all.
+	* items for which the parent key value is equal to the key value
+
+	Items with parent key value which does not fulfil the above requirement, and have no parent item (e.g. their parent key value does not correspond to any other item key value) are not included in the resolved data source of the treelist at all.
 
 1. If the key fields are complex objects, a recursive check on their properties is performed until the above rule is met.
 
-Another important thing to know is what is the HierarchialIndex of each TreeListDataItem and how it is formed. This index is object of type __TreeListHierarchyIndex__ which has two properties: __NestedLevel__ and __LevelIndex__. The NestedLevel indicates in which level of the treelist hierarcy is the item in question, while LevelIndex returns the index of the item in this level.
+Another important thing to know is what is the HierarchialIndex of each TreeListDataItem and how it is formed. This index is object of type **TreeListHierarchyIndex** which has two properties: **NestedLevel** and **LevelIndex**. The NestedLevel indicates in which level of the treelist hierarcy is the item in question, while LevelIndex returns the index of the item in this level.
 
 The below table illustrates a sample structure with the corresponding indexes. Next to it, you can see a screenshot of a RadTreeList controlhaving this structure. In it you can observe how the key values and parent key values are reflected in the rendered table. The code used to build this treelist is shown below the images.
 

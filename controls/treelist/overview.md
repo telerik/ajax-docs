@@ -1,6 +1,6 @@
 ---
-title: TreeList Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/overview
 tags: overview
@@ -18,28 +18,28 @@ Telerik RadTreeList is a hybrid control combining treeview and grid in one. It g
 
 The key features of the RadTreelist control are:
 
-* __Various column types__
+* **Various column types**
 
-* __Codeless data-binding using the DataSourceControls in ASP.NET 2.0/3.5__
+* **Codeless data-binding using the DataSourceControls in ASP.NET 2.0/3.5**
 
-* __Data-Binding to various data sources which implement the IEnumerable, IList or ICustomTypeDescriptor interfaces__
+* **Data-Binding to various data sources which implement the IEnumerable, IList or ICustomTypeDescriptor interfaces**
 
-* __Data editing operations, auto-generated and custom edit forms support, as well as different edit modes__
+* **Data editing operations, auto-generated and custom edit forms support, as well as different edit modes**
 
-* __Integrated paging__
+* **Integrated paging**
 
-* __Integrated sorting__
+* **Integrated sorting**
 
-* __Easily customizable skinning mechanism (setting single Skin property of the treelist)__
+* **Easily customizable skinning mechanism (setting single Skin property of the treelist)**
 
-* __The ShowOuterBorders, ShowTreeLines and GridLines properties allow you to quickly change the appearance__
+* **The ShowOuterBorders, ShowTreeLines and GridLines properties allow you to quickly change the appearance**
 
-* __Interoperability with RadAjax and loading indicators__ - dramatically improves theresponsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
+* **Interoperability with RadAjax and loading indicators** - dramatically improves theresponsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
 
-* __Single and Multi-Row Server-Side and Client-Side Selection__
+* **Single and Multi-Row Server-Side and Client-Side Selection**
 
-* __The selected and the expanded state of the items is persisted while navigating through pages.__
+* **The selected and the expanded state of the items is persisted while navigating through pages.**
 
-* __XHTML 1.1 and Accessibility Compliance (WCAG Level AA)__
+* **XHTML 1.1 and Accessibility Compliance (WCAG Level AA)**
 
-* __WAI ARIA support__
+* **WAI ARIA support**
