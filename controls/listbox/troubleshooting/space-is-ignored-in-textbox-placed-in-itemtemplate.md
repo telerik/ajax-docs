@@ -1,6 +1,6 @@
 ---
 title: Space Is Ignored in Textbox Placed in ItemTemplate
-page_title: Space Is Ignored in Textbox Placed in ItemTemplate | UI for ASP.NET AJAX Documentation
+page_title: Space Is Ignored in Textbox Placed in ItemTemplate | RadListBox for ASP.NET AJAX Documentation
 description: Space Is Ignored in Textbox Placed in ItemTemplate
 slug: listbox/troubleshooting/space-is-ignored-in-textbox-placed-in-itemtemplate
 tags: space,is,ignored,in,textbox,placed,in,itemtemplate

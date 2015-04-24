@@ -1,6 +1,6 @@
 ---
 title: Postbacks
-page_title: Postbacks | UI for ASP.NET AJAX Documentation
+page_title: Postbacks | RadInput for ASP.NET AJAX Documentation
 description: Postbacks
 slug: input/getting-started/postbacks
 tags: postbacks

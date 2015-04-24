@@ -1,6 +1,6 @@
 ---
 title: Deleting
-page_title: Deleting | UI for ASP.NET AJAX Documentation
+page_title: Deleting | RadListBox for ASP.NET AJAX Documentation
 description: Deleting
 slug: listbox/server-side-programming/server-events/deleting
 tags: deleting

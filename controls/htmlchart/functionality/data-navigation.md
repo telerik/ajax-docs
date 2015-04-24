@@ -1,6 +1,6 @@
 ---
 title: Data Navigation
-page_title: Data Navigation | UI for ASP.NET AJAX Documentation
+page_title: Data Navigation | RadHtmlChart for ASP.NET AJAX Documentation
 description: Data Navigation
 slug: htmlchart/functionality/data-navigation
 tags: data,navigation
@@ -12,11 +12,11 @@ position: 3
 
 
 
-This help article describes the __Data Navigation__ functionality (added in the Q1 2014 release), that letsyou zoom and scroll data over time in __RadHtmlChart__ and provides an example on how to configure it in __Example 1__.
+This help article describes the **Data Navigation** functionality (added in the Q1 2014 release), that letsyou zoom and scroll data over time in **RadHtmlChart** and provides an example on how to configure it in **Example 1**.
 
 ## Overview of RadHtmlChart Data Navigation Feature
 
-The __Data Navigation__ functionality added as the __Stock__ layout of a __RadHtmlChart__allows users to visualize data over time with the ability to zoom and scroll certain periods. As you can see in __Figure 1__, there aretwo main areas: the main chart (in the yellow box) and the navigator pane area (in the green box).	The supported series types you can use in the main chart area and in the navigator include:
+The **Data Navigation** functionality added as the **Stock** layout of a **RadHtmlChart**allows users to visualize data over time with the ability to zoom and scroll certain periods. As you can see in **Figure 1**, there aretwo main areas: the main chart (in the yellow box) and the navigator pane area (in the green box).	The supported series types you can use in the main chart area and in the navigator include:
 
 * [Area series]({%slug htmlchart/chart-types/area-chart%})
 
@@ -28,56 +28,56 @@ The __Data Navigation__ functionality added as the __Stock__ layout of a __RadHt
 
 ## Data Navigation Element Structure
 
-The __Stock__ chart layout consists of two parts:
+The **Stock** chart layout consists of two parts:
 
-* __Main chart__ - Data from the selected time period is plotted in the main chart. A user can drag the plot area of the main chartto either side (left or right) in order to scroll to preceding or subsequent time intervals.While dragging, a tooltip in the upper part of the main chart called the __Selection Hint__ shows the selected time interval.
+* **Main chart** - Data from the selected time period is plotted in the main chart. A user can drag the plot area of the main chartto either side (left or right) in order to scroll to preceding or subsequent time intervals.While dragging, a tooltip in the upper part of the main chart called the **Selection Hint** shows the selected time interval.
 
-* [Navigator pane]({%slug htmlchart/server-side-programming/navigator-configuration%}) - Located below the main chart, the navigator pane is a view that shows the	trend of the __full data__. Users can use the navigator pane to selecta desired time period through the __Range Selector__ element. Users can drag	the whole __Range Selector__ element to the left or right side in order to scroll over the full data to a preceding or subsequent time frame.A user can also click and drag the left or right sides of the __Range Selector__ to expand or collapse it from either side, which lets the user to zoom in/out the selected time interval.With each change of the selected range, the corresponding data will be plotted dynamically on the main chart (see __Figure 1__).
+* [Navigator pane]({%slug htmlchart/server-side-programming/navigator-configuration%}) - Located below the main chart, the navigator pane is a view that shows the	trend of the **full data**. Users can use the navigator pane to selecta desired time period through the **Range Selector** element. Users can drag	the whole **Range Selector** element to the left or right side in order to scroll over the full data to a preceding or subsequent time frame.A user can also click and drag the left or right sides of the **Range Selector** to expand or collapse it from either side, which lets the user to zoom in/out the selected time interval.With each change of the selected range, the corresponding data will be plotted dynamically on the main chart (see **Figure 1**).
 >caption Figure 1: The visual elements in a stock chart layout.
 
 ![htmlchart-stockchart-simple-example](images/htmlchart-stockchart-simple-example.png)
 
 ## An Example of Configuring a Stock Chart Layout with Data Navigation
 
-The setup of a __Stock__ chart layout with a Data Navigation requires that you:
+The setup of a **Stock** chart layout with a Data Navigation requires that you:
 
 * Configure a main chart:
 
-1. Instantiate a __RadHtmlChart__ object and set its __Layout__ property to __"Stock"__.
+1. Instantiate a **RadHtmlChart** object and set its **Layout** property to **"Stock"**.
 
-1. Bind the chart to a data source that contains a __DateTime__ field forthe x-axis and use a __numeric__ field for the y-axis.
+1. Bind the chart to a data source that contains a **DateTime** field forthe x-axis and use a **numeric** field for the y-axis.
 
-1. Create a supported series type and configure it to load data for the y-axis throughthe corresponding properties (i.e., __DataFieldY__ for __Area, Column__ and __Line__ series and__DataOpenField, DataHighField, DataLowField, DataCloseField__ for __Candlestick__ series).
+1. Create a supported series type and configure it to load data for the y-axis throughthe corresponding properties (i.e., **DataFieldY** for **Area, Column** and **Line** series and**DataOpenField, DataHighField, DataLowField, DataCloseField** for **Candlestick** series).
 
-1. Set the __DataLabelsField__ property of the x-axis to the name of the __DateTime__ field of the data source in order todistribute dates over the x-axis. You must either set the __Type__ property of the x-axis to __Date__ or don't set it ( i.e., __Type__="__Date__" is the default value when you pass __DateTime__ values to the x-axis).
+1. Set the **DataLabelsField** property of the x-axis to the name of the **DateTime** field of the data source in order todistribute dates over the x-axis. You must either set the **Type** property of the x-axis to **Date** or don't set it ( i.e., **Type**="**Date**" is the default value when you pass **DateTime** values to the x-axis).
 
-1. The format strings of the dates over the x-axis can be controlled for each __BaseUnit__	(the x-axis' __BaseUnit__ property of the main chart is automaticallychanged according to the Navigator pane's __RangeSelector__) through the__XAxis.LabelsAppearance.DateFormats__ property which takes:
+1. The format strings of the dates over the x-axis can be controlled for each **BaseUnit**	(the x-axis' **BaseUnit** property of the main chart is automaticallychanged according to the Navigator pane's **RangeSelector**) through the**XAxis.LabelsAppearance.DateFormats** property which takes:
 
-* __SecondsFormat__
+* **SecondsFormat**
 
-* __MinutesFormat__
+* **MinutesFormat**
 
-* __HoursFormat__
+* **HoursFormat**
 
-* __DaysFormat__
+* **DaysFormat**
 
-* __WeeksFormat__
+* **WeeksFormat**
 
-* __MonthsFormat__
+* **MonthsFormat**
 
-* __YearsFormat__You can find the list with the standard and custom format strings that can be used in[Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%}) help article.
+* **YearsFormat**You can find the list with the standard and custom format strings that can be used in[Format Dates]({%slug htmlchart/appearance-and-styling/format-dates%}) help article.
 
 * Configure the [Navigator pane]({%slug htmlchart/server-side-programming/navigator-configuration%}):
 
-1. Add the __Navigator__ tag in the chart.
+1. Add the **Navigator** tag in the chart.
 
-1. Create a supported series type in the Navigator and set its __DataFieldY__ property to afield name of the data source used to load the data.
+1. Create a supported series type in the Navigator and set its **DataFieldY** property to afield name of the data source used to load the data.
 
-1. Fine tune the Navigator (e.g., modify the appearance of the __XAxis__, choose a range for the__RangeSelector__, set a __DataFormatString__ for the __Selection Hint__, etc.).
+1. Fine tune the Navigator (e.g., modify the appearance of the **XAxis**, choose a range for the**RangeSelector**, set a **DataFormatString** for the **Selection Hint**, etc.).
 
-__Example 1__ shows how to create the chart shown in __Figure 1__.
+**Example 1** shows how to create the chart shown in **Figure 1**.
 
-__Example 1__: The code that creates a __RadHtmlChart__ with a Data Navigation functionality, shown in __Figure 1__.
+**Example 1**: The code that creates a **RadHtmlChart** with a Data Navigation functionality, shown in **Figure 1**.
 
 
 

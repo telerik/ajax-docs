@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadInput for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: input/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support

@@ -1,6 +1,6 @@
 ---
 title: Using the CSS class to set the width
-page_title: Using the CSS class to set the width | UI for ASP.NET AJAX Documentation
+page_title: Using the CSS class to set the width | RadInput for ASP.NET AJAX Documentation
 description: Using the CSS class to set the width
 slug: input/appearance-and-styling/using-the-css-class-to-set-the-width
 tags: using,the,css,class,to,set,the,width

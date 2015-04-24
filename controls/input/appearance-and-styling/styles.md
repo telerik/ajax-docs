@@ -1,6 +1,6 @@
 ---
 title: Styles
-page_title: Styles | UI for ASP.NET AJAX Documentation
+page_title: Styles | RadInput for ASP.NET AJAX Documentation
 description: Styles
 slug: input/appearance-and-styling/styles
 tags: styles

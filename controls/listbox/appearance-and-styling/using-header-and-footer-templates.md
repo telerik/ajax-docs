@@ -1,6 +1,6 @@
 ---
 title: Using Header and Footer Templates
-page_title: Using Header and Footer Templates | UI for ASP.NET AJAX Documentation
+page_title: Using Header and Footer Templates | RadListBox for ASP.NET AJAX Documentation
 description: Using Header and Footer Templates
 slug: listbox/appearance-and-styling/using-header-and-footer-templates
 tags: using,header,and,footer,templates

@@ -1,6 +1,6 @@
 ---
 title: MaskPart Collection Editor
-page_title: MaskPart Collection Editor | UI for ASP.NET AJAX Documentation
+page_title: MaskPart Collection Editor | RadInput for ASP.NET AJAX Documentation
 description: MaskPart Collection Editor
 slug: input/design-time/maskpart-collection-editor
 tags: maskpart,collection,editor

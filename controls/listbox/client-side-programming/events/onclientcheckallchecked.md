@@ -1,6 +1,6 @@
 ---
 title: OnClientCheckAllChecked
-page_title: OnClientCheckAllChecked | UI for ASP.NET AJAX Documentation
+page_title: OnClientCheckAllChecked | RadListBox for ASP.NET AJAX Documentation
 description: OnClientCheckAllChecked
 slug: listbox/client-side-programming/events/onclientcheckallchecked
 tags: onclientcheckallchecked

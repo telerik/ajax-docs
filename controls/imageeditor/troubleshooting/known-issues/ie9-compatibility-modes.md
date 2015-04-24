@@ -1,6 +1,6 @@
 ---
 title: IE9 Compatibility Modes
-page_title: IE9 Compatibility Modes | UI for ASP.NET AJAX Documentation
+page_title: IE9 Compatibility Modes | RadImageEditor for ASP.NET AJAX Documentation
 description: IE9 Compatibility Modes
 slug: imageeditor/troubleshooting/known-issues/ie9-compatibility-modes
 tags: ie9,compatibility,modes
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-There is a known issue in __RadImageEditor__ with IE9 Compatibility modes. It applies in the following case:
+There is a known issue in **RadImageEditor** with IE9 Compatibility modes. It applies in the following case:
 
 * IE9 with "Browser Mode" different than IE9 or Document Mode different than IE9
 
 * Windows 7 adjusted for best appearance
 
-__RadImageEditor__ uses the MS Filters for some of its operations performed on the client for the older Internet Explorer browsers (IE6, IE7 and IE8). These are the filters used:
+**RadImageEditor** uses the MS Filters for some of its operations performed on the client for the older Internet Explorer browsers (IE6, IE7 and IE8). These are the filters used:
 
 * [Matrix Filter](http://msdn.microsoft.com/en-us/library/ms533014%28v=vs.85%29.aspx)
 
@@ -30,7 +30,7 @@ __RadImageEditor__ uses the MS Filters for some of its operations performed on t
 
 * [FlipV Filter](http://msdn.microsoft.com/en-us/library/ms532994%28v=vs.85%29.aspx)
 
-If this filters are applied to an image ( <img/>element) and the page is viewed in IE9 with "Browser Mode" different than IE9 or Document Mode different than IE9, under Windows 7 adjusted for best appearance, __the actual image is not shown - the <img/> element is shown and has the exact dimensions of the image but the image is invisible__. This issue can be reproduced with any image type.
+If this filters are applied to an image ( <img/>element) and the page is viewed in IE9 with "Browser Mode" different than IE9 or Document Mode different than IE9, under Windows 7 adjusted for best appearance, **the actual image is not shown - the <img/> element is shown and has the exact dimensions of the image but the image is invisible**. This issue can be reproduced with any image type.
 >caption 
 
 ![radimageeditor-best-appearance](images/radimageeditor-best-appearance.jpg)

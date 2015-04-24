@@ -1,6 +1,6 @@
 ---
 title: Edit and Insert
-page_title: Edit and Insert | UI for ASP.NET AJAX Documentation
+page_title: Edit and Insert | RadListView for ASP.NET AJAX Documentation
 description: Edit and Insert
 slug: listview/templates/edit-and-insert
 tags: edit,and,insert
@@ -16,7 +16,7 @@ position: 1
 
 RadListView for ASP.NET AJAX exposes a variety of templates that can used to model the look and feel of its source data and layout. This topic covers the edit and insert templates of the product.
 
-The __EditItemTemplate__ and __InsertItemTemplate__ of RadListView determine what controls will be rendered to allow end user input when you edit listview item or show the insertion form of the control. Since those are templates, you are free to customize their layout according to your custom conventions. We recommend synchronizing the editors with the data type of the underlying source field and using validation for the user entries. Below is a sample definition of EditItemTemplate/InsertItemTemplate which have fields and tables along with asp TextBoxes and RequiredFieldValidators in their cells:
+The **EditItemTemplate** and **InsertItemTemplate** of RadListView determine what controls will be rendered to allow end user input when you edit listview item or show the insertion form of the control. Since those are templates, you are free to customize their layout according to your custom conventions. We recommend synchronizing the editors with the data type of the underlying source field and using validation for the user entries. Below is a sample definition of EditItemTemplate/InsertItemTemplate which have fields and tables along with asp TextBoxes and RequiredFieldValidators in their cells:
 
 ````ASPNET
 	    <telerik:RadListView runat="server" ID="RadListView1">

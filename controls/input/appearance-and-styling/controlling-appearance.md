@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadInput for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: input/appearance-and-styling/controlling-appearance
 tags: controlling,appearance

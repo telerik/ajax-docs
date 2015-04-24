@@ -1,6 +1,6 @@
 ---
 title: XmlDataSource
-page_title: XmlDataSource | UI for ASP.NET AJAX Documentation
+page_title: XmlDataSource | RadHtmlChart for ASP.NET AJAX Documentation
 description: XmlDataSource
 slug: htmlchart/data-binding/xmldatasource
 tags: xmldatasource
@@ -14,15 +14,15 @@ position: 4
 
 ## 
 
-This Help article describes which properties to use to bind a __RadHtmlChart__ to an __XmlDataSource__ and presents a code example.You can bind the __RadHtmlChart__ to an __XmlDataSource__ using the following properties:
+This Help article describes which properties to use to bind a **RadHtmlChart** to an **XmlDataSource** and presents a code example.You can bind the **RadHtmlChart** to an **XmlDataSource** using the following properties:
 
-* __DataSourceID__ in the main tag sets the declarative datasource for the entire chart.You can use the __DataSource__ property for a programmatic data source if you create the connection in the code-behind.
+* **DataSourceID** in the main tag sets the declarative datasource for the entire chart.You can use the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 
-* __DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie;	and __DataFieldX__ for Scatter and ScatterLine)for the series to point it to the desired data source field.
+* **DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie;	and **DataFieldX** for Scatter and ScatterLine)for the series to point it to the desired data source field.
 
-* __DataLabelsField__ for the x-axis labels to populate the items for the axis.
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
-__Example 1__: Bind an __XmlDataSource__ to a __RadHtmlChart__. The content of the XML data follows next.
+**Example 1**: Bind an **XmlDataSource** to a **RadHtmlChart**. The content of the XML data follows next.
 
 ````ASPNET
 		<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="ChartData.xml">
@@ -51,9 +51,9 @@ __Example 1__: Bind an __XmlDataSource__ to a __RadHtmlChart__. The content of t
 
 
 
-The XML file in Example 2 is used in the data source __XmlDataSource1__:
+The XML file in Example 2 is used in the data source **XmlDataSource1**:
 
-__Example 2__: A simple XML file that serves as a data source.
+**Example 2**: A simple XML file that serves as a data source.
 
 ````XML
 		<?xml version="1.0" encoding="utf-8" ?>

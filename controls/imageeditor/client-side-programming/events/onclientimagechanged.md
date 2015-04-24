@@ -1,6 +1,6 @@
 ---
 title: OnClientImageChanged
-page_title: OnClientImageChanged | UI for ASP.NET AJAX Documentation
+page_title: OnClientImageChanged | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientImageChanged
 slug: imageeditor/client-side-programming/events/onclientimagechanged
 tags: onclientimagechanged
@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-The __OnClientImageChanged__ event is raised after the image has changed. The event is fired after __OnClientImageChanging__ event.
+The **OnClientImageChanged** event is raised after the image has changed. The event is fired after **OnClientImageChanging** event.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

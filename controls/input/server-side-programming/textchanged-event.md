@@ -1,6 +1,6 @@
 ---
 title: TextChanged Event
-page_title: TextChanged Event | UI for ASP.NET AJAX Documentation
+page_title: TextChanged Event | RadInput for ASP.NET AJAX Documentation
 description: TextChanged Event
 slug: input/server-side-programming/textchanged-event
 tags: textchanged,event

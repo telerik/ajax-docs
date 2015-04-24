@@ -1,6 +1,6 @@
 ---
 title: Dropped
-page_title: Dropped | UI for ASP.NET AJAX Documentation
+page_title: Dropped | RadListBox for ASP.NET AJAX Documentation
 description: Dropped
 slug: listbox/server-side-programming/server-events/dropped
 tags: dropped

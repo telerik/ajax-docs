@@ -1,6 +1,6 @@
 ---
 title: Persisting the Selected Items on Sorting/Paging/Filtering
-page_title: Persisting the Selected Items on Sorting/Paging/Filtering | UI for ASP.NET AJAX Documentation
+page_title: Persisting the Selected Items on Sorting/Paging/Filtering | RadListView for ASP.NET AJAX Documentation
 description: Persisting the Selected Items on Sorting/Paging/Filtering
 slug: listview/fuctionality/selecting/persisting-the-selected-items-on-sorting/paging/filtering
 tags: persisting,the,selected,items,on,sorting/paging/filtering
@@ -16,15 +16,15 @@ position: 1
 
 By default RadListView clears its selected items upon sorting, paging or filtering. To persist the selection across these events, follow the below steps:
 
-1. Handle the __ItemCommand__ event of the listview.
+1. Handle the **ItemCommand** event of the listview.
 
-1. When "Select" command occurs, store the key values for the selected item in a __Session__ variable.
+1. When "Select" command occurs, store the key values for the selected item in a **Session** variable.
 
-1. When "Deselect" command occurs, remove the key values for the deselected item from the __Session__ variable.
+1. When "Deselect" command occurs, remove the key values for the deselected item from the **Session** variable.
 
-1. Handle the __PreRender__ event of the listview.
+1. Handle the **PreRender** event of the listview.
 
-1. In the PreRender event traverse the listview items and compare their key values to the values saved in the __Session__ variable. Whenever you find a match, mark the item as selected.
+1. In the PreRender event traverse the listview items and compare their key values to the values saved in the **Session** variable. Whenever you find a match, mark the item as selected.
 
 1. Rebind the listview at the end of the PreRender event handler.
 

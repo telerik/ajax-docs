@@ -1,6 +1,6 @@
 ---
 title: Generic List of Custom Objects
-page_title: Generic List of Custom Objects | UI for ASP.NET AJAX Documentation
+page_title: Generic List of Custom Objects | RadHtmlChart for ASP.NET AJAX Documentation
 description: Generic List of Custom Objects
 slug: htmlchart/data-binding/generic-list-of-custom-objects
 tags: generic,list,of,custom,objects
@@ -12,13 +12,13 @@ position: 5
 
 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to a simple list of doublesor to a list of custom objects and presents code examples.
+This help article describes which properties to use to bind a **RadHtmlChart** to a simple list of doublesor to a list of custom objects and presents code examples.
 
 ## Binding to a Generic List of Simple Types
 
-You can bind a __RadHtmlChart__ to a simple list of doubles much in the same way that you bind to a regular array. Series that do not have explicit data defined will take the values from the list. You must manually configure the axesby adding items in the markup. __Example 1__ demonstrates this approach.
+You can bind a **RadHtmlChart** to a simple list of doubles much in the same way that you bind to a regular array. Series that do not have explicit data defined will take the values from the list. You must manually configure the axesby adding items in the markup. **Example 1** demonstrates this approach.
 
-__Example 1__: A Line chart setup that is bound to a simple array of doubles in __Example 2__.
+**Example 1**: A Line chart setup that is bound to a simple array of doubles in **Example 2**.
 
 ````ASPNET
 		   <telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="400px">
@@ -56,7 +56,7 @@ __Example 1__: A Line chart setup that is bound to a simple array of doubles in 
 
 
 
-__Example 2__: Data binding the Line chart in __Example 1__ to an array of doubles.
+**Example 2**: Data binding the Line chart in **Example 1** to an array of doubles.
 
 
 
@@ -91,9 +91,9 @@ __Example 2__: Data binding the Line chart in __Example 1__ to an array of doubl
 
 ## Binding to a Generic List of Objects
 
-You can bind a __RadHtmlChart__ to a list of custom objects that mimics a declarative data source. The	__DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie and Donut; __DataFieldX__ for Bubble, Scatter and ScatterLine; etc.)of the series and the __DataLabelsField__ property of the axis can be used to obtain data from the objects.__Example 3__ shows how to create a Pie chart with a list as the data source.
+You can bind a **RadHtmlChart** to a list of custom objects that mimics a declarative data source. The	**DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie and Donut; **DataFieldX** for Bubble, Scatter and ScatterLine; etc.)of the series and the **DataLabelsField** property of the axis can be used to obtain data from the objects.**Example 3** shows how to create a Pie chart with a list as the data source.
 
-__Example 3__: A Pie chart setup that is bound to a list of custom objects (i.e., the class __Browser__,declared in __Example 5__) in __Example 4__.
+**Example 3**: A Pie chart setup that is bound to a list of custom objects (i.e., the class **Browser**,declared in **Example 5**) in **Example 4**.
 
 ````ASPNET
 			<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Height="400px" Width="400px">
@@ -115,7 +115,7 @@ __Example 3__: A Pie chart setup that is bound to a list of custom objects (i.e.
 
 
 
-__Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom objects (i.e., the class __Browser__, declared in __Example 5__).
+**Example 4**: Data binding the Pie chart in **Example 3** to a listof custom objects (i.e., the class **Browser**, declared in **Example 5**).
 
 
 
@@ -146,9 +146,9 @@ __Example 4__: Data binding the Pie chart in __Example 3__ to a listof custom ob
 ````
 
 
-__Example 5__ shows how you can find the declaration of the custom class __Browser__that is used for populating the list:
+**Example 5** shows how you can find the declaration of the custom class **Browser**that is used for populating the list:
 
-__Example 5__: The declaration of the custom class __Browser__ used for populating thelist in __Example 4__ that is passed as a data source to the Pie chart from __Example 3__.
+**Example 5**: The declaration of the custom class **Browser** used for populating thelist in **Example 4** that is passed as a data source to the Pie chart from **Example 3**.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Advanced via NeedDataSource
-page_title: Advanced via NeedDataSource | UI for ASP.NET AJAX Documentation
+page_title: Advanced via NeedDataSource | RadImageGallery for ASP.NET AJAX Documentation
 description: Advanced via NeedDataSource
 slug: imagegallery/data-binding/server-side/advanced-via-needdatasource
 tags: advanced,via,needdatasource
@@ -12,23 +12,23 @@ position: 3
 
 
 
-The key to the advanced data binding of a __RadImageGallery__ controlis handling the __NeedDataSource__ event. __RadImageGallery__ fires the __NeedDataSource__event each time it needs to be bound to a data source.
+The key to the advanced data binding of a **RadImageGallery** controlis handling the **NeedDataSource** event. **RadImageGallery** fires the **NeedDataSource**event each time it needs to be bound to a data source.
 
 ## 
 
-This __NeedDataSource__event fires in the following cases:
+This **NeedDataSource**event fires in the following cases:
 
-* Immediately after __On_Load__ if the __RadImageGallery__ has not yet been data-bound and there is no __ViewState__ data. This means that if the__EnableViewState__ property is set to False, __RadImageGallery__ will bind each time the page loads, not only the first time;
+* Immediately after **On_Load** if the **RadImageGallery** has not yet been data-bound and there is no **ViewState** data. This means that if the**EnableViewState** property is set to False, **RadImageGallery** will bind each time the page loads, not only the first time;
 
-* When a paging operation occurs (including __PageIndexChanged__and __PageSizeChanged__);
+* When a paging operation occurs (including **PageIndexChanged**and **PageSizeChanged**);
 
-* When the __Rebind()__ method is called.
+* When the **Rebind()** method is called.
 
->caution  __Important__ : You should never call the __Rebind()__ method in a __NeedDataSource__ event handler.You should never call __DataBind()__ as well when using advanceddata-binding through __NeedDataSource__ .
+>caution  **Important** : You should never call the **Rebind()** method in a **NeedDataSource** event handler.You should never call **DataBind()** as well when using advanceddata-binding through **NeedDataSource** .
 >
 
 
-In the __NeedDataSource__ event handler, you should prepare the data source (list of objects) for RadImageGallery and assign it to the __DataSource__ property.The following example demonstrated how to assign a __DataTable__ as a data source for the __RadImageGallery__:
+In the **NeedDataSource** event handler, you should prepare the data source (list of objects) for RadImageGallery and assign it to the **DataSource** property.The following example demonstrated how to assign a **DataTable** as a data source for the **RadImageGallery**:
 
 ````ASPNET
 	        <telerik:RadImageGallery ID="RadImageGallery1" runat="server"

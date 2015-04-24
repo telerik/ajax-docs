@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadInput for ASP.NET AJAX Documentation
 description: Validation
 slug: input/how-to/validation
 tags: validation

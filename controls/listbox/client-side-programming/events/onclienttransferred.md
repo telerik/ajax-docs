@@ -1,6 +1,6 @@
 ---
 title: OnClientTransferred
-page_title: OnClientTransferred | UI for ASP.NET AJAX Documentation
+page_title: OnClientTransferred | RadListBox for ASP.NET AJAX Documentation
 description: OnClientTransferred
 slug: listbox/client-side-programming/events/onclienttransferred
 tags: onclienttransferred

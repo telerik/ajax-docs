@@ -1,6 +1,6 @@
 ---
 title: Donut Chart
-page_title: Donut Chart | UI for ASP.NET AJAX Documentation
+page_title: Donut Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Donut Chart
 slug: htmlchart/chart-types/donut-chart
 tags: donut,chart
@@ -14,31 +14,31 @@ position: 6
 
 ## 
 
-The Donut chart (__Figure 1__) displays data as sectors from a circle and is therefore useful for displaying data as parts of a whole. A Donut chart is a Pie chart variation with the ability to display single series of data in a two-dimensional circle. This help article will describe how to customize a Donut chart and provides code in __Example 1__ that shows how to create __Figure 1__.
+The Donut chart (**Figure 1**) displays data as sectors from a circle and is therefore useful for displaying data as parts of a whole. A Donut chart is a Pie chart variation with the ability to display single series of data in a two-dimensional circle. This help article will describe how to customize a Donut chart and provides code in **Example 1** that shows how to create **Figure 1**.
 
-__Figure 1__: A simple example of a Donut chart.![htmlchart-donutchart-simple-example](images/htmlchart-donutchart-simple-example.png)
+**Figure 1**: A simple example of a Donut chart.![htmlchart-donutchart-simple-example](images/htmlchart-donutchart-simple-example.png)
 
 You can customize a Donut chart.
 
-* The color is controlled via the __BackgroundColor__ property of the __PieSeriesItem__.
+* The color is controlled via the **BackgroundColor** property of the **PieSeriesItem**.
 
-* The name that is shown in the legend is set via the __Name__ property of the __PieSeriesItem__.
+* The name that is shown in the legend is set via the **Name** property of the **PieSeriesItem**.
 
-* Whether the sector is separated from the rest of the circle is controlled via the __Exploded__ property of the __PieSeriesItem__. This and the Pie chart are the only chart types in whose context the __Exploded__property is meaningful and will have effect.
+* Whether the sector is separated from the rest of the circle is controlled via the **Exploded** property of the **PieSeriesItem**. This and the Pie chart are the only chart types in whose context the **Exploded**property is meaningful and will have effect.
 
-* How big of a section of a Donut chart is is controlled by its __Y__ property of the __PieSeriesItem__ and its relation to the other items' value.
+* How big of a section of a Donut chart is is controlled by its **Y** property of the **PieSeriesItem** and its relation to the other items' value.
 
 >important Only positive values have meaning in the context of a Donut chart and the developer must make sure that positive value data is passed to the chart.
 >
 
 
-* Each item can have a label and a tooltip that follow the common pattern defined in the __DataFormatString__ property of the __LabelsAppearance__ and __TooltipsAppearance__ sections of the series. The format string uses the __Y__ of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
+* Each item can have a label and a tooltip that follow the common pattern defined in the **DataFormatString** property of the **LabelsAppearance** and **TooltipsAppearance** sections of the series. The format string uses the **Y** of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
 
-* The title, background colors and legend are controlled via the inner properties of the __RadHtmlChart__ control and are common for all charts. You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts. You can find more information in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%}) and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
-The Donut chart in __Figure 1__ is created with the code in __Example 1__.
+The Donut chart in **Figure 1** is created with the code in **Example 1**.
 
-__Example 1__: Creating the simple Donut chart in __Figure 1__ using hard coded data.
+**Example 1**: Creating the simple Donut chart in **Figure 1** using hard coded data.
 
 ````ASPNET
 	        <telerik:RadHtmlChart runat="server" ID="DonutChart" Width="500" Height="500" Transitions="true">

@@ -1,6 +1,6 @@
 ---
 title: Difference from RadWindow
-page_title: Difference from RadWindow | UI for ASP.NET AJAX Documentation
+page_title: Difference from RadWindow | RadLightBox for ASP.NET AJAX Documentation
 description: Difference from RadWindow
 slug: lightbox/difference-from-radwindow
 tags: difference,from,radwindow

@@ -1,6 +1,6 @@
 ---
 title: Validated
-page_title: Validated | UI for ASP.NET AJAX Documentation
+page_title: Validated | RadInput for ASP.NET AJAX Documentation
 description: Validated
 slug: input/radinputmanager/server-side-events/validated
 tags: validated

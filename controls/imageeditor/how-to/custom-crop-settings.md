@@ -1,6 +1,6 @@
 ---
 title: Custom Crop Settings
-page_title: Custom Crop Settings | UI for ASP.NET AJAX Documentation
+page_title: Custom Crop Settings | RadImageEditor for ASP.NET AJAX Documentation
 description: Custom Crop Settings
 slug: imageeditor/how-to/custom-crop-settings
 tags: custom,crop,settings
@@ -12,7 +12,7 @@ position: 0
 
 
 
-One of the most common scenarios connected with the cropping functionality of the __ImageEditor__ is setting the initial size or changing the ratio	constraints of the crop box. In the example bellow you will see a way to modify the Crop command in the __ImageEditor’s__ ClientCommandExecuted eventhandler by setting:
+One of the most common scenarios connected with the cropping functionality of the **ImageEditor** is setting the initial size or changing the ratio	constraints of the crop box. In the example bellow you will see a way to modify the Crop command in the **ImageEditor’s** ClientCommandExecuted eventhandler by setting:
 
 * the initial width and height of the crop box;
 

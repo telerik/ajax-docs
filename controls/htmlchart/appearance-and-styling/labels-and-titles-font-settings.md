@@ -1,6 +1,6 @@
 ---
 title: Labels and Titles Font Settings
-page_title: Labels and Titles Font Settings | UI for ASP.NET AJAX Documentation
+page_title: Labels and Titles Font Settings | RadHtmlChart for ASP.NET AJAX Documentation
 description: Labels and Titles Font Settings
 slug: htmlchart/appearance-and-styling/labels-and-titles-font-settings
 tags: labels,and,titles,font,settings
@@ -12,11 +12,11 @@ position: 3
 
 
 
-This Help article describes how to set a number of properties that let you change the fonts, colors, size, margin, etc., of labels, titles, and legends in a	__RadHtmlChart__. __Example 1__ shows how to set four different fonts plus different colors and size, eventually creating	__Figure 1__.
+This Help article describes how to set a number of properties that let you change the fonts, colors, size, margin, etc., of labels, titles, and legends in a	**RadHtmlChart**. **Example 1** shows how to set four different fonts plus different colors and size, eventually creating	**Figure 1**.
 
 ## Setting Text Styles for Titles and Labels
 
-As of Q1 2013, __RadHtmlChart__ exposes a number of properties that control the fonts and appearance of the various labelsthe control renders:
+As of Q1 2013, **RadHtmlChart** exposes a number of properties that control the fonts and appearance of the various labelsthe control renders:
 
 * Axis labels
 
@@ -28,34 +28,34 @@ As of Q1 2013, __RadHtmlChart__ exposes a number of properties that control the 
 
 * Series labels
 
-The object that exposes these properties is located under __<element>.Appearance.TextStyle__. All of these labels expose a common set of properties:
+The object that exposes these properties is located under **<element>.Appearance.TextStyle**. All of these labels expose a common set of properties:
 
-* __Bold__ - A Boolean value that indicates whether the text will be __bold__.
+* **Bold** - A Boolean value that indicates whether the text will be **bold**.
 
-* __Color__ - A string representing the color of the text. It can take a common color name or a hex value (e.g., "red", "#ff0000") when set in the markup and a value of type __System.Drawing.Color__ when set in the code behind.
+* **Color** - A string representing the color of the text. It can take a common color name or a hex value (e.g., "red", "#ff0000") when set in the markup and a value of type **System.Drawing.Color** when set in the code behind.
 
-* __FontFamily__ - A string representing the font-family of the text. More information is available in thenext section, *using the FontFamily property*).
+* **FontFamily** - A string representing the font-family of the text. More information is available in thenext section, *using the FontFamily property*).
 
-* __FontSize__ - An integer for the font size of the text in pixels.
+* **FontSize** - An integer for the font size of the text in pixels.
 
-* __Italic__ - A Boolean value that indicates whether the text will be *italic*.
+* **Italic** - A Boolean value that indicates whether the text will be *italic*.
 
-* __Margin__ - Takes from one to four integers that specifyall the labels' margins in pixels. For example:
+* **Margin** - Takes from one to four integers that specifyall the labels' margins in pixels. For example:
 
-* __Margin="15"__ - All four margins are 15px.
+* **Margin="15"** - All four margins are 15px.
 
-* __Margin="15 30"__ - Top and bottom margins are 15px, right and left margins are 30px.
+* **Margin="15 30"** - Top and bottom margins are 15px, right and left margins are 30px.
 
-* __Margin="15 30 45"__ - Top margin is 15px, right and left margins are 30px,	bottom margin is 45px.
+* **Margin="15 30 45"** - Top margin is 15px, right and left margins are 30px,	bottom margin is 45px.
 
-* __Margin="15 30 45 60"__ - Top margin is 15px, right margin is 30px,	bottom margin is 45px, left margin is 60px;
+* **Margin="15 30 45 60"** - Top margin is 15px, right margin is 30px,	bottom margin is 45px, left margin is 60px;
 
-* __Padding__ - Takes from one to four integers that specifyall the labels' paddings in pixels (see Margin property above).
+* **Padding** - Takes from one to four integers that specifyall the labels' paddings in pixels (see Margin property above).
 >caption Figure 1: An HtmlChart with different fonts, sizes, colors, margins and padding.
 
 ![htmlchart-appearance-text-style-properties-example](images/htmlchart-appearance-text-style-properties-example.png)
 
-__Example 1__: This example shows how to set fonts, colors and size for labels, the legend and title of the Column chart in__Figure 1__.
+**Example 1**: This example shows how to set fonts, colors and size for labels, the legend and title of the Column chart in**Figure 1**.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="TextStyleExamples" Width="800" Height="600">
@@ -127,11 +127,11 @@ __Example 1__: This example shows how to set fonts, colors and size for labels, 
 
 ## Using the FontFamily Property
 
-Use the __FontFamily__ property to set the font of the text in the [	chart title, chart legend]({%slug htmlchart/server-side-programming/basic-configuration%}),[XAxis/YAxis title, XAxis/YAxis labels]({%slug htmlchart/server-side-programming/axes-configuration%}),and [SeriesItems labels]({%slug htmlchart/server-side-programming/series-configuration%}). You can set the __FontFamily__ property throughthe __TextStyle__ property each of these elements exposes using the following syntax:
+Use the **FontFamily** property to set the font of the text in the [	chart title, chart legend]({%slug htmlchart/server-side-programming/basic-configuration%}),[XAxis/YAxis title, XAxis/YAxis labels]({%slug htmlchart/server-side-programming/axes-configuration%}),and [SeriesItems labels]({%slug htmlchart/server-side-programming/series-configuration%}). You can set the **FontFamily** property throughthe **TextStyle** property each of these elements exposes using the following syntax:
 
-__Font1,Font2,Font3__ (e.g. __FontFamily="Times New Roman,Arial,serif"__).
+**Font1,Font2,Font3** (e.g. **FontFamily="Times New Roman,Arial,serif"**).
 
-Use the __FontSize__ property under __TextStyle__ to set the desired size of the font.It always works together with the __FontFamily__ property to create the final settings for the font.
+Use the **FontSize** property under **TextStyle** to set the desired size of the font.It always works together with the **FontFamily** property to create the final settings for the font.
 
 
 >caption Table 1: The default font settings for different RadHtmlChart elements.
@@ -148,7 +148,7 @@ Use the __FontSize__ property under __TextStyle__ to set the desired size of the
 
 * The last font can be of [generic-family type](http://en.wikipedia.org/wiki/Font_family_%28HTML%29#Generic_fonts) (e.g. serif, sans serif, cursive, etc.), so that the browser can pick a similar font in the generic family,in case the other one is unavailable.
 
-You can se the __FontFamily__ property in the markup or in the code-behind, for example:
+You can se the **FontFamily** property in the markup or in the code-behind, for example:
 
 * RadHtmlChart1.PlotArea.XAxis.TitleAppearance.TextStyle.FontFamily = "Calibri,Arial,serif"*
 

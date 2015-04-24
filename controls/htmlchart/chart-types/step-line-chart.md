@@ -1,6 +1,6 @@
 ---
 title: Step Line Chart
-page_title: Step Line Chart | UI for ASP.NET AJAX Documentation
+page_title: Step Line Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Step Line Chart
 slug: htmlchart/chart-types/step-line-chart
 tags: step,line,chart
@@ -14,9 +14,9 @@ position: 19
 
 ## 
 
-A Step line chart is a form of line/area chart where each data point from the series is connected with vertical andhorizontal lines to form a step-like progression. This type of line/area visualization is useful in displaying theintermittent changes of a quantity that remains a constant during stages. The __AreaSeries__ and __LineSeries__ support Step line rendering. Telerik introduced the Step line chart in __Q1 2014__.
+A Step line chart is a form of line/area chart where each data point from the series is connected with vertical andhorizontal lines to form a step-like progression. This type of line/area visualization is useful in displaying theintermittent changes of a quantity that remains a constant during stages. The **AreaSeries** and **LineSeries** support Step line rendering. Telerik introduced the Step line chart in **Q1 2014**.
 
-You can display horizontal and vertical lines through the data points from the series by setting the	__LineAppearance.LineStyle__ property of the series to "__Step__".For example:
+You can display horizontal and vertical lines through the data points from the series by setting the	**LineAppearance.LineStyle** property of the series to "**Step**".For example:
 
 ````ASPNET
 		<telerik:AreaSeries Name="Area Series">
@@ -26,12 +26,12 @@ You can display horizontal and vertical lines through the data points from the s
 
 
 
-The code in __Example 1__ will show you how to build a Step line series in __Figure 1__.
+The code in **Example 1** will show you how to build a Step line series in **Figure 1**.
 >caption Figure 1: Data points in area and line series are connected through horizontal and vertical lines. The code in Example 1	illustrates how to setup a Step line area and line series.
 
 ![htmlchart-step-linechart-simple-example](images/htmlchart-step-linechart-simple-example.png)
 
-__Example 1__: Creating a chart that has two Step line series - __AreaSeries__ and__LineSeries__. The Step line functionality is enabled by simply setting the __LineAppearance.LineStyle__property of the series to "__Step__".
+**Example 1**: Creating a chart that has two Step line series - **AreaSeries** and**LineSeries**. The Step line functionality is enabled by simply setting the **LineAppearance.LineStyle**property of the series to "**Step**".
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="AreaLineSteplineChart" Width="800" Height="500" Transitions="true">

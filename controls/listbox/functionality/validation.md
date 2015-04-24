@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadListBox for ASP.NET AJAX Documentation
 description: Validation
 slug: listbox/functionality/validation
 tags: validation

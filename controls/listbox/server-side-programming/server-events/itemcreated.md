@@ -1,6 +1,6 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | UI for ASP.NET AJAX Documentation
+page_title: ItemCreated | RadListBox for ASP.NET AJAX Documentation
 description: ItemCreated
 slug: listbox/server-side-programming/server-events/itemcreated
 tags: itemcreated

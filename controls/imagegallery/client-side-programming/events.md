@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadImageGallery for ASP.NET AJAX Documentation
 description: Events
 slug: imagegallery/client-side-programming/events
 tags: events
@@ -14,28 +14,28 @@ position: 3
 
 ## 
 
-__RadImageGallery__ provides the following client-side events to which you can subscribe in order to perform additionalactions.
+**RadImageGallery** provides the following client-side events to which you can subscribe in order to perform additionalactions.
 
 
 | Event | Description | Arguments | Can be cancelled |
 | ------ | ------ | ------ | ------ |
-| __OnCommand__ |Fired when a command is about to be triggered.|commandName - String,commandArgument - String|Yes|
-| __OnFullScreenEntered__ |Fired after the __RadImageGallery__ enters full screen mode.||No|
-| __OnFullScreenEntering__ |Fired before the __RadImageGallery__ enters full screen mode.||Yes|
-| __OnFullScreenExited__ |Fired after __RadImageGallery__ has exited full screen mode.||No|
-| __OnImageGalleryCreated__ |Fired when the __RadImageGallery__ client-side object finishes initialization.||No|
-| __OnImageLoaded__ |Fired when the image is loaded.|item – __Telerik.Web.UI.ImageGalleryItemBase__ ,	imageType – __Telerik.Web.UI.ImageGallery.ImageType__ image - Image|No|
-| __OnImageLoading__ |Fired when an image starts loading.|item - __Telerik.Web.UI.ImageGalleryItemBase__ , imageType – __Telerik.Web.UI.ImageGallery.ImageType__ ,set_imageUrl - function|Yes|
-| __OnNavigated__ |Fired after navigating to a different item.|item - __Telerik.Web.UI.ImageGalleryItemBase__ |No|
-| __OnNavigating__ |Fired before changing the selection of an item and navigating to a different one.|item - __Telerik.Web.UI.ImageGalleryItemBase__ |Yes|
-| __OnSlideshowPlay__ |Fired just before the slideshow functionality is turned on.||Yes|
-| __OnSlideshowStop__ |Fired just before the slideshow functionality is turned off.||Yes|
+| **OnCommand** |Fired when a command is about to be triggered.|commandName - String,commandArgument - String|Yes|
+| **OnFullScreenEntered** |Fired after the **RadImageGallery** enters full screen mode.||No|
+| **OnFullScreenEntering** |Fired before the **RadImageGallery** enters full screen mode.||Yes|
+| **OnFullScreenExited** |Fired after **RadImageGallery** has exited full screen mode.||No|
+| **OnImageGalleryCreated** |Fired when the **RadImageGallery** client-side object finishes initialization.||No|
+| **OnImageLoaded** |Fired when the image is loaded.|item – **Telerik.Web.UI.ImageGalleryItemBase** ,	imageType – **Telerik.Web.UI.ImageGallery.ImageType** image - Image|No|
+| **OnImageLoading** |Fired when an image starts loading.|item - **Telerik.Web.UI.ImageGalleryItemBase** , imageType – **Telerik.Web.UI.ImageGallery.ImageType** ,set_imageUrl - function|Yes|
+| **OnNavigated** |Fired after navigating to a different item.|item - **Telerik.Web.UI.ImageGalleryItemBase** |No|
+| **OnNavigating** |Fired before changing the selection of an item and navigating to a different one.|item - **Telerik.Web.UI.ImageGalleryItemBase** |Yes|
+| **OnSlideshowPlay** |Fired just before the slideshow functionality is turned on.||Yes|
+| **OnSlideshowStop** |Fired just before the slideshow functionality is turned off.||Yes|
 
 >note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as[cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
 >
 
 
-The example below demonstrates how you can subscribe to the __RadImageGallery__ events and extract values from the event arguments.In the scenario, the main image will not be loaded unless it has a title.
+The example below demonstrates how you can subscribe to the **RadImageGallery** events and extract values from the event arguments.In the scenario, the main image will not be loaded unless it has a title.
 
 ````ASPNET
 	            <telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"

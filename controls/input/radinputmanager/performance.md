@@ -1,6 +1,6 @@
 ---
 title: Performance
-page_title: Performance | UI for ASP.NET AJAX Documentation
+page_title: Performance | RadInput for ASP.NET AJAX Documentation
 description: Performance
 slug: input/radinputmanager/performance
 tags: performance

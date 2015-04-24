@@ -1,6 +1,6 @@
 ---
 title: Working at Client-side
-page_title: Working at Client-side | UI for ASP.NET AJAX Documentation
+page_title: Working at Client-side | RadListBox for ASP.NET AJAX Documentation
 description: Working at Client-side
 slug: listbox/radlistbox-items/working-at-client-side
 tags: working,at,client-side

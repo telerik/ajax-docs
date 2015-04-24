@@ -1,6 +1,6 @@
 ---
 title: Array
-page_title: Array | UI for ASP.NET AJAX Documentation
+page_title: Array | RadHtmlChart for ASP.NET AJAX Documentation
 description: Array
 slug: htmlchart/data-binding/array
 tags: array
@@ -14,9 +14,9 @@ position: 7
 
 ## 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to an __Array__ andpresents a code example. To bind a __RadHtmlChart__ to an __Array__ object, you assignthe __RadHtmlChart____DataSource__ property to the array and then call the __RadHtmlChart____DataBind__() method.	The y-axis automatically adjusts to accomodate the values and its appearance can be controlled more precisely via its properties.	__Example 1__ demonstrates data binding to an array of doubles.
+This help article describes which properties to use to bind a **RadHtmlChart** to an **Array** andpresents a code example. To bind a **RadHtmlChart** to an **Array** object, you assignthe **RadHtmlChart DataSource** property to the array and then call the **RadHtmlChart DataBind**() method.	The y-axis automatically adjusts to accomodate the values and its appearance can be controlled more precisely via its properties.	**Example 1** demonstrates data binding to an array of doubles.
 
-__Example 1__: The __RadHtmlChart__ markup that is bound to an array of doubles in __Example 2__.
+**Example 1**: The **RadHtmlChart** markup that is bound to an array of doubles in **Example 2**.
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="RadHtmlChart1">
@@ -57,7 +57,7 @@ __Example 1__: The __RadHtmlChart__ markup that is bound to an array of doubles 
 
 
 
-__Example 2__: Binding the chart from __Example 1__ to an array of doubles.
+**Example 2**: Binding the chart from **Example 1** to an array of doubles.
 
 
 

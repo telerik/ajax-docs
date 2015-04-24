@@ -1,6 +1,6 @@
 ---
 title: Formatting Dates
-page_title: Formatting Dates | UI for ASP.NET AJAX Documentation
+page_title: Formatting Dates | RadInput for ASP.NET AJAX Documentation
 description: Formatting Dates
 slug: input/raddateinput/formatting-dates
 tags: formatting,dates

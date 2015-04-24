@@ -1,6 +1,6 @@
 ---
 title: Creating Custom Dialog
-page_title: Creating Custom Dialog | UI for ASP.NET AJAX Documentation
+page_title: Creating Custom Dialog | RadImageEditor for ASP.NET AJAX Documentation
 description: Creating Custom Dialog
 slug: imageeditor/functionality/creating-custom-dialog
 tags: creating,custom,dialog
@@ -18,7 +18,7 @@ RadImageEditor provides a flexible mechanism for adding custom dialogs that plug
 
 The custom image editor's dialog is a standard WebUserControl that has to be loaded in the tools panel. Here are the steps to create and add a custom dialog:
 
-1. Add a custom button to the RadImageEditor's toolbar and in its command implementation call __executeCommand()__ method:
+1. Add a custom button to the RadImageEditor's toolbar and in its command implementation call **executeCommand()** method:
 
 ````JavaScript
 	        Telerik.Web.UI.ImageEditor.CommandList["CustomInsertImage"] = function (imgEditor, commandName, args)
@@ -54,7 +54,7 @@ The custom image editor's dialog is a standard WebUserControl that has to be loa
 ````
 
 
-1. The user control should register a client-side class with the same name as the custom command. This client-side class should implement __Telerik.Web.UI.RadImageEditor.IToolWidget__ interface with the following structure:
+1. The user control should register a client-side class with the same name as the custom command. This client-side class should implement **Telerik.Web.UI.RadImageEditor.IToolWidget** interface with the following structure:
 
 ````JavaScript
 	        Telerik.Web.UI.IToolWidget = function () { }

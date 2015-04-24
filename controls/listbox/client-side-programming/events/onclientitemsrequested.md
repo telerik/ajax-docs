@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequested | RadListBox for ASP.NET AJAX Documentation
 description: OnClientItemsRequested
 slug: listbox/client-side-programming/events/onclientitemsrequested
 tags: onclientitemsrequested

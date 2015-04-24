@@ -1,6 +1,6 @@
 ---
 title: ObjectDataSource
-page_title: ObjectDataSource | UI for ASP.NET AJAX Documentation
+page_title: ObjectDataSource | RadHtmlChart for ASP.NET AJAX Documentation
 description: ObjectDataSource
 slug: htmlchart/data-binding/objectdatasource
 tags: objectdatasource
@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to an__ObjectDataSource__ and presents a code example. You can bind a__RadHtmlChart__ to an __ObjectDataSource__ using the following properties:
+This help article describes which properties to use to bind a **RadHtmlChart** to an**ObjectDataSource** and presents a code example. You can bind a**RadHtmlChart** to an **ObjectDataSource** using the following properties:
 
-* __DataSourceID__ in the main tag sets the declarative data source for the entire chart. You can use the __DataSource__ property for a programmatic data source if you create the connection in the code-behind.
+* **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 
-* __DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie; __DataFieldX__ for Scatter and ScatterLine, etc.) for the series to point it to the desired field from the data source.
+* **DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie; **DataFieldX** for Scatter and ScatterLine, etc.) for the series to point it to the desired field from the data source.
 
-* __DataLabelsField__ for the x-axis labels to populate the items for the axis.
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
-__Example 1__: Bind an __ObjectDataSource__ to a __RadHtmlChart__.
+**Example 1**: Bind an **ObjectDataSource** to a **RadHtmlChart**.
 
 ````ASPNET
 	        <telerik:RadHtmlChart runat="server" ID="RadHtmlChart3" Height="400px" Width="800px" DataSourceID="ObjectDataSource1">
@@ -54,9 +54,9 @@ __Example 1__: Bind an __ObjectDataSource__ to a __RadHtmlChart__.
 
 
 
-The class __Vehicle__ is declared in the directory __App_Code__ of the website and exposes a method,__GetVehicleRatings__, which returns the data for the chart, as shown in __Example 2__.
+The class **Vehicle** is declared in the directory **App_Code** of the website and exposes a method,**GetVehicleRatings**, which returns the data for the chart, as shown in **Example 2**.
 
-__Example 2__: Create a class with a static method that returns a DataTable filled with data from a database.
+**Example 2**: Create a class with a static method that returns a DataTable filled with data from a database.
 
 
 

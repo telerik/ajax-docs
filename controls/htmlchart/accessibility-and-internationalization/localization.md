@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadHtmlChart for ASP.NET AJAX Documentation
 description: Localization
 slug: htmlchart/accessibility-and-internationalization/localization
 tags: localization
@@ -12,9 +12,9 @@ position: 0
 
 
 
-Telerik makes it easy to localize __RadHtmlChart__. Some chart elements have custom strings that youlocalize before you pass them to the control and some text can be localized by using the KendoUI framework. ThisHelp article will show you how to use the KendoUI framework (__Example 1__) to create thelocalized __PieSeries__ shown in __Figure 1__.	__RadHtmlChart__ can use KendoUI framework localizations and in order to set a certain culture,you should follow the steps that are listed [here](http://docs.kendoui.com/getting-started/framework/globalization/overview). Here is a summary of the steps:
+Telerik makes it easy to localize **RadHtmlChart**. Some chart elements have custom strings that youlocalize before you pass them to the control and some text can be localized by using the KendoUI framework. ThisHelp article will show you how to use the KendoUI framework (**Example 1**) to create thelocalized **PieSeries** shown in **Figure 1**.	**RadHtmlChart** can use KendoUI framework localizations and in order to set a certain culture,you should follow the steps that are listed [here](http://docs.kendoui.com/getting-started/framework/globalization/overview). Here is a summary of the steps:
 
-1. Add a reference in your page to the desired culture file. (You can find the KendoUI Culture files	in the "__js/cultures__" folder located in the root of the archive. You can download KendoUI from [this page](http://www.kendoui.com/download.aspx).)
+1. Add a reference in your page to the desired culture file. (You can find the KendoUI Culture files	in the "**js/cultures**" folder located in the root of the archive. You can download KendoUI from [this page](http://www.kendoui.com/download.aspx).)
 
 >caution When using an external script the KendoUI culture script must be declared before setting the culture of the kendo object.
 >
@@ -22,18 +22,18 @@ Telerik makes it easy to localize __RadHtmlChart__. Some chart elements have cus
 
 1. Set the desired culture through the kendo object.
 
-1. Apply the desired numeric format either in the __DataFormatString__ property or in the __kendo.format()__ method when using templates. You can see an example on this regard in the [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})help article.
+1. Apply the desired numeric format either in the **DataFormatString** property or in the **kendo.format()** method when using templates. You can see an example on this regard in the [Format Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})help article.
 
 >important 
-*  __ChartTitle__ , __XAxis.Title__ / __YAxis.Title__ , __Series.Names__ and text in categorical __Axes' Items__ are custom strings that developers pass to the chart and arenot localized by the control.
-* Labels and tooltips of __SeriesItems__ , and labels of numeric or date axes can be localized by the KendoUI framework.>
+*  **ChartTitle** , **XAxis.Title** / **YAxis.Title** , **Series.Names** and text in categorical **Axes' Items** are custom strings that developers pass to the chart and arenot localized by the control.
+* Labels and tooltips of **SeriesItems** , and labels of numeric or date axes can be localized by the KendoUI framework.>
 
 
 ## Example of a Localized Chart
 
-You can see in __Example 1__ and __Figure 1__, an example of a localized __PieSeries RadHtmlChart__.
+You can see in **Example 1** and **Figure 1**, an example of a localized **PieSeries RadHtmlChart**.
 
-__Example 1__: Use the KendoUI framework JavaScript culture files to localize the labels and tooltips of a Pie chart.
+**Example 1**: Use the KendoUI framework JavaScript culture files to localize the labels and tooltips of a Pie chart.
 
 ````ASPNET
 	    <script type="text/javascript" src="kendo/js/cultures/kendo.culture.fr-FR.min.js"></script>
@@ -71,7 +71,7 @@ __Example 1__: Use the KendoUI framework JavaScript culture files to localize th
 
 ![htmlchart-localization](images/htmlchart-localization.png)
 
-__Figure 1__ shows a Pie chart localized from the default culture of the page: "en-US" to "fr-FR" culture.The format of the indicated labels and tooltips has been changed from$22,300.00 and $53,000.00 to 22 300,00 € and 53 000,00 €.
+**Figure 1** shows a Pie chart localized from the default culture of the page: "en-US" to "fr-FR" culture.The format of the indicated labels and tooltips has been changed from$22,300.00 and $53,000.00 to 22 300,00 € and 53 000,00 €.
 
 # See Also
 

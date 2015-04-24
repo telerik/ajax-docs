@@ -1,6 +1,6 @@
 ---
 title: Masks
-page_title: Masks | UI for ASP.NET AJAX Documentation
+page_title: Masks | RadInput for ASP.NET AJAX Documentation
 description: Masks
 slug: input/radmaskedtextbox/masks
 tags: masks

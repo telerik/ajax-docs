@@ -1,6 +1,6 @@
 ---
 title: AddText Limitation
-page_title: AddText Limitation | UI for ASP.NET AJAX Documentation
+page_title: AddText Limitation | RadImageEditor for ASP.NET AJAX Documentation
 description: AddText Limitation
 slug: imageeditor/troubleshooting/known-issues/addtext-limitation
 tags: addtext,limitation
@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-There is a known limitation in __RadImageEditor__'s __AddText__ tool.
+There is a known limitation in **RadImageEditor**'s **AddText** tool.
 
-The __AddText__ tool inserts the text to the image currently saved on the server. If any client-side operations are performed, such as Rotate, Flip, or Resize, and they are not applied on the server, the text will be added without taking into consideration the current client state of the image. To be sure that the text is added correctly please apply all changes to the image on the server.
+The **AddText** tool inserts the text to the image currently saved on the server. If any client-side operations are performed, such as Rotate, Flip, or Resize, and they are not applied on the server, the text will be added without taking into consideration the current client state of the image. To be sure that the text is added correctly please apply all changes to the image on the server.
 
-Example of how the __AddText__ tool does not respect the client operations performed up to now:
+Example of how the **AddText** tool does not respect the client operations performed up to now:
 
 1. Original image
 >caption 

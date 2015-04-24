@@ -1,6 +1,6 @@
 ---
 title: Single Input Rendering Mode
-page_title: Single Input Rendering Mode | UI for ASP.NET AJAX Documentation
+page_title: Single Input Rendering Mode | RadInput for ASP.NET AJAX Documentation
 description: Single Input Rendering Mode
 slug: input/single-input-rendering-mode
 tags: single,input,rendering,mode

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequestFailed
-page_title: OnClientItemsRequestFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequestFailed | RadListBox for ASP.NET AJAX Documentation
 description: OnClientItemsRequestFailed
 slug: listbox/client-side-programming/events/onclientitemsrequestfailed
 tags: onclientitemsrequestfailed

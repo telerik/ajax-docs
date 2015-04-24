@@ -1,6 +1,6 @@
 ---
 title: OnItemDropped
-page_title: OnItemDropped | UI for ASP.NET AJAX Documentation
+page_title: OnItemDropped | RadListView for ASP.NET AJAX Documentation
 description: OnItemDropped
 slug: listview/client-side-programming/events/onitemdropped
 tags: onitemdropped
@@ -17,10 +17,10 @@ position: 6
 This client-side event is fired when a RadListView item is dropped after dragging.
 
 
-|  __Fired by__  | RadListView |
+|  **Fired by**  | RadListView |
 | ------ | ------ |
-| __Arguments__ | __dataKeyValues__ - Array of the item key fields set through the ClientDataKeyNames property of the RadListView control __itemIndex__ - the index of the dragged item __destinationElement__ - the destination HTML element __domEvent__ - dom event|
-| __Can be canceled__ |No|
+| **Arguments** | **dataKeyValues** - Array of the item key fields set through the ClientDataKeyNames property of the RadListView control **itemIndex** - the index of the dragged item **destinationElement** - the destination HTML element **domEvent** - dom event|
+| **Can be canceled** |No|
 
 Example:
 

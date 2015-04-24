@@ -1,6 +1,6 @@
 ---
 title: Introduction
-page_title: Introduction | UI for ASP.NET AJAX Documentation
+page_title: Introduction | RadInput for ASP.NET AJAX Documentation
 description: Introduction
 slug: input/radinputmanager/introduction
 tags: introduction

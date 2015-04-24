@@ -1,6 +1,6 @@
 ---
 title: Funnel Chart
-page_title: Funnel Chart | UI for ASP.NET AJAX Documentation
+page_title: Funnel Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Funnel Chart
 slug: htmlchart/chart-types/funnel-chart
 tags: funnel,chart
@@ -20,26 +20,26 @@ Funnel charts are usually used to represent stages in a sales process (e.g., sho
 
 The Funnel series has several properties that control the way a chart's segments are rendered.
 
-* __SegmentSpacing__ - The property specifies the space between the different segments of the funnel chart in pixels.
+* **SegmentSpacing** - The property specifies the space between the different segments of the funnel chart in pixels.
 
-* __DynamicHeightEnabled__ - A Boolean property thatindicates whether all the segments will share the same size (when __DynamicHeightEnabled__="__false__") orthe height of each segment is determined according to its value (when __DynamicHeightEnabled__="__true__").Default value is __true__.
+* **DynamicHeightEnabled** - A Boolean property thatindicates whether all the segments will share the same size (when **DynamicHeightEnabled**="**false**") orthe height of each segment is determined according to its value (when **DynamicHeightEnabled**="**true**").Default value is **true**.
 
-* __NeckRatio__ - The property specifies the ratio between the top and the bottom bases of the whole funnel series. The propertycan take effect only if the __DynamicSlopeEnabled__ property is set to "__false__" (see the next line).
+* **NeckRatio** - The property specifies the ratio between the top and the bottom bases of the whole funnel series. The propertycan take effect only if the **DynamicSlopeEnabled** property is set to "**false**" (see the next line).
 
-* __DynamicSlopeEnabled__ - A Boolean property that indicates whether the form of each segment will be based on the ratiobetween the value from the current and the next segment. Default value is __false__.
+* **DynamicSlopeEnabled** - A Boolean property that indicates whether the form of each segment will be based on the ratiobetween the value from the current and the next segment. Default value is **false**.
 
->note If the __DynamicSlopeEnabled__ property is set to __true__ , __NeckRatio__ property is neglected.
+>note If the **DynamicSlopeEnabled** property is set to **true** , **NeckRatio** property is neglected.
 >
 
 
-The code in __Example 1__ will showyou how to build a __FunnelSeries__ that has its__NeckRatio__ and __SegmentSpacing__ properties set (__Figure 1__), while __DynamicHeightEnabled__ is enabled.
+The code in **Example 1** will showyou how to build a **FunnelSeries** that has its**NeckRatio** and **SegmentSpacing** properties set (**Figure 1**), while **DynamicHeightEnabled** is enabled.
 
-The code in __Example 2__ will showyou how to build a __FunnelSeries__ that has its__DynamicSlopeEnabled__ property enabled (__Figure 2__), while __DynamicHeightEnabled__ is disabled.
+The code in **Example 2** will showyou how to build a **FunnelSeries** that has its**DynamicSlopeEnabled** property enabled (**Figure 2**), while **DynamicHeightEnabled** is disabled.
 >caption Figure 1: Display a Funnel chart that has its bottom base four times smaller than its top base and five pixels space between all segments. The code in	Example 1 shows this setup.
 
 ![htmlchart-funnel-simple-example 1](images/htmlchart-funnel-simple-example1.png)
 
-Example 1: Creating a __FunnelSeries__ that has its__NeckRatio__ and __SegmentSpacing__ properties set while __DynamicHeightEnabled__ is enabled.
+Example 1: Creating a **FunnelSeries** that has its**NeckRatio** and **SegmentSpacing** properties set while **DynamicHeightEnabled** is enabled.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="FunnelChart1" Width="450" Height="400" Skin="Silk">
@@ -66,7 +66,7 @@ Example 1: Creating a __FunnelSeries__ that has its__NeckRatio__ and __SegmentSp
 
 ![htmlchart-funnel-simple-example 2](images/htmlchart-funnel-simple-example2.png)
 
-Example 2: Creating a __FunnelSeries__ that has its__DynamicSlopeEnabled__ property enabled while __DynamicHeightEnabled__ is disabled.
+Example 2: Creating a **FunnelSeries** that has its**DynamicSlopeEnabled** property enabled while **DynamicHeightEnabled** is disabled.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="FunnelChart2" Width="450" Height="400" Skin="Silk">

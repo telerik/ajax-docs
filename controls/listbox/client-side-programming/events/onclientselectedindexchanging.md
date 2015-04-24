@@ -1,6 +1,6 @@
 ---
 title: OnClientSelectedIndexChanging
-page_title: OnClientSelectedIndexChanging | UI for ASP.NET AJAX Documentation
+page_title: OnClientSelectedIndexChanging | RadListBox for ASP.NET AJAX Documentation
 description: OnClientSelectedIndexChanging
 slug: listbox/client-side-programming/events/onclientselectedindexchanging
 tags: onclientselectedindexchanging

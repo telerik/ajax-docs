@@ -1,6 +1,6 @@
 ---
 title: Server-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadHtmlChart for ASP.NET AJAX Documentation
 description: Overview
 slug: htmlchart/server-side-programming/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadHtmlChart__ offers many properties to allow detailed customizations.To keep the control and its numerous properties organized, they have a deep hierarchy that you can accessvia inner properties and inner tags in the markup.The sections in the diagram below (__Figure 1__) show the main control hierarchy visually.You can find more information on the control’s rendering and appearance in[this article about RadHtmlChart element structure]({%slug htmlchart/radhtmlchart-structure%}).
+The **RadHtmlChart** offers many properties to allow detailed customizations.To keep the control and its numerous properties organized, they have a deep hierarchy that you can accessvia inner properties and inner tags in the markup.The sections in the diagram below (**Figure 1**) show the main control hierarchy visually.You can find more information on the control’s rendering and appearance in[this article about RadHtmlChart element structure]({%slug htmlchart/radhtmlchart-structure%}).
 
 If you are looking for detailed server-side API reference, examine the following articles, depending on the chart elements you wish to customize:
 

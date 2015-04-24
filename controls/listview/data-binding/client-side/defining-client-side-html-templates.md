@@ -1,6 +1,6 @@
 ---
 title: Defining Client-Side HTML Templates
-page_title: Defining Client-Side HTML Templates | UI for ASP.NET AJAX Documentation
+page_title: Defining Client-Side HTML Templates | RadListView for ASP.NET AJAX Documentation
 description: Defining Client-Side HTML Templates
 slug: listview/data-binding/client-side/defining-client-side-html-templates
 tags: defining,client-side,html,templates
@@ -14,21 +14,21 @@ position: 1
 
 ## Introduction to client-side HTML templates
 
-RadListView provides a number of client-side HTML templates that define the layout of the control when databinding on the client-side. The client-side templates are properties of type string and they are sent to the browser unmodified. Then, the client RadListView component passes them to __Telerik.Web.UI.Template.compile()__ for building functions that render the HTML template.
+RadListView provides a number of client-side HTML templates that define the layout of the control when databinding on the client-side. The client-side templates are properties of type string and they are sent to the browser unmodified. Then, the client RadListView component passes them to **Telerik.Web.UI.Template.compile()** for building functions that render the HTML template.
 
-Here follows a list of all the client-side templates available for specifying in __RadListView.ClientSettings.DataBinding__:
+Here follows a list of all the client-side templates available for specifying in **RadListView.ClientSettings.DataBinding**:
 
 
 >caption  
 
-|  __ *Name* __  |  __ *Description* __  |
+|  ** *Name* **  |  ** *Description* **  |
 | ------ | ------ |
-| __LayoutTemplate__ |HTML layout template. If this template is omitted, the server-side LayoutTemplate needs to be defined.|
-| __ItemTemplate__ |HTML item template|
-| __AlternatingItemTemplate__ |HTML alternating item template|
-| __ItemSeparatorTemplate__ |HTML item separator template|
-| __EmptyDataTemplate__ |HTML template rendered when RadListView contains no data.|
-| __SelectedItemTemplate__ |HTML template rendered when an item is selected.|
+| **LayoutTemplate** |HTML layout template. If this template is omitted, the server-side LayoutTemplate needs to be defined.|
+| **ItemTemplate** |HTML item template|
+| **AlternatingItemTemplate** |HTML alternating item template|
+| **ItemSeparatorTemplate** |HTML item separator template|
+| **EmptyDataTemplate** |HTML template rendered when RadListView contains no data.|
+| **SelectedItemTemplate** |HTML template rendered when an item is selected.|
 
 >note Note that Visual Studio does not provide IntelliSense support inside string properties in the markup. Therefore, you get only code completion when typing HTML in a client-side RadListView template, but no IntelliSense.
 >
@@ -41,37 +41,37 @@ The client-side HTML templates support the following expressions for evaluating 
 
 >caption  
 
-|  __ *Format* __  |  __ *Name* __  |  __ *Description* __  |
+|  ** *Format* **  |  ** *Name* **  |  ** *Description* **  |
 | ------ | ------ | ------ |
-| __#= ... #__ |Data|Evaluates the Javascript code expression or a string property from the data item and outputs the result in the template.|
-| __# ... #__ |Code|Evaluates the JavaScript code expression inside. Does not output value.|
-| __#: ... #__ |HTML-encode|Same as the data expression, but HTML-encodes the result.|
+| **#= ... #** |Data|Evaluates the Javascript code expression or a string property from the data item and outputs the result in the template.|
+| **# ... #** |Code|Evaluates the JavaScript code expression inside. Does not output value.|
+| **#: ... #** |HTML-encode|Same as the data expression, but HTML-encodes the result.|
 
 ## Binding Context
 
-Every template is provided a binding context during rendering. The binding context is the __this__ object equivalent for javascript defined inside the HTML template. All RadListView templates are provided a context object with the following properties:
+Every template is provided a binding context during rendering. The binding context is the **this** object equivalent for javascript defined inside the HTML template. All RadListView templates are provided a context object with the following properties:
 
 
 >caption  
 
-|  __ *Field* __  |  __ *Description* __  |
+|  ** *Field* **  |  ** *Description* **  |
 | ------ | ------ |
-| __owner__ | __The current RadListView instance.__ Can be used for calling methods of the component.|
-| __format(value, format)__ |A formatting function that can format Date and Number values. This function is based on the MS AJAX __String.localeFormat(format, value)__ function.|
+| **owner** | **The current RadListView instance.** Can be used for calling methods of the component.|
+| **format(value, format)** |A formatting function that can format Date and Number values. This function is based on the MS AJAX **String.localeFormat(format, value)** function.|
 
-Along with these shared fields in the binding context of all templates, the __ItemTemplate__, __AlternatingItemTemplate__ and __SelectedItemTemplate__ (collectively referred to as "data templates") also get a number of additional fields in their binding contexts. Most importantly, when a data template is databinding to an item from RadListView's data source, all the fields in the data item are copied to the binding context. For example, a template bound to the JSON object {ID: 1, Name: "Item1"} will have the fields ID = 1 and Name = "Item1" in its binding context.
+Along with these shared fields in the binding context of all templates, the **ItemTemplate**, **AlternatingItemTemplate** and **SelectedItemTemplate** (collectively referred to as "data templates") also get a number of additional fields in their binding contexts. Most importantly, when a data template is databinding to an item from RadListView's data source, all the fields in the data item are copied to the binding context. For example, a template bound to the JSON object {ID: 1, Name: "Item1"} will have the fields ID = 1 and Name = "Item1" in its binding context.
 
 Additionally, each *data template* gets the following fields in its binding context:
 
 
 >caption  
 
-|  __ *Field* __  |  __ *Description* __  |
+|  ** *Field* **  |  ** *Description* **  |
 | ------ | ------ |
-| __item__ |The original JSON data object that the template is binding to.|
-| __index__ |The index of the currently databinding item in the current page.|
-| __dataIndex__ |The index of the item in the set of all RadListView data. This field has a meaning only when paging is enabled. It indicates the page-invariant index of the item.|
-| __isSelected__ |Indicates if the current item is selected.|
+| **item** |The original JSON data object that the template is binding to.|
+| **index** |The index of the currently databinding item in the current page.|
+| **dataIndex** |The index of the item in the set of all RadListView data. This field has a meaning only when paging is enabled. It indicates the page-invariant index of the item.|
+| **isSelected** |Indicates if the current item is selected.|
 
 ## Examples for HTML templates
 

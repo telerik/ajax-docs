@@ -1,6 +1,6 @@
 ---
 title: Polar Chart
-page_title: Polar Chart | UI for ASP.NET AJAX Documentation
+page_title: Polar Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Polar Chart
 slug: htmlchart/chart-types/polar-chart
 tags: polar,chart
@@ -14,24 +14,24 @@ position: 11
 
 ## 
 
-The __Polar__ chart shows data in a circular plot area in polar coordinates where each data point is represented by adistance/radius and an angle, beginning of the coordinate system.A point's location in the polar coordinate systems is defined by the __Value__ property of the __PolarSeriesItem__, which determinesthe radial coordinate (the radius) and the __Angle__ property, which determines the angular coordinate. __Polar__ charts are useful for visualizing scientific data like precipitation/heat distribution in the Earth's poles and other multivariate data.
+The **Polar** chart shows data in a circular plot area in polar coordinates where each data point is represented by adistance/radius and an angle, beginning of the coordinate system.A point's location in the polar coordinate systems is defined by the **Value** property of the **PolarSeriesItem**, which determinesthe radial coordinate (the radius) and the **Angle** property, which determines the angular coordinate. **Polar** charts are useful for visualizing scientific data like precipitation/heat distribution in the Earth's poles and other multivariate data.
 
-__RadHtmlChart__ supports three types of Polar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, polygon and point.
+**RadHtmlChart** supports three types of Polar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, polygon and point.
 
-* __PolarAreaSeries__ - In this series type, the data points are connected with straight line segments that enclose a filled areatogether with the chart pole.
+* **PolarAreaSeries** - In this series type, the data points are connected with straight line segments that enclose a filled areatogether with the chart pole.
 
-* __PolarLineSeries__ - This series types are represented on the chart as data points connected with straight line segments.
+* **PolarLineSeries** - This series types are represented on the chart as data points connected with straight line segments.
 
-* __PolarScatterSeries__ - This series type is represented on the chart as data points that are not connected.
+* **PolarScatterSeries** - This series type is represented on the chart as data points that are not connected.
 
-__PolarAreaSeries__ and __PolarLineSeries__ can also be visualized with[spline curves]({%slug htmlchart/chart-types/spline-chart%}).
+**PolarAreaSeries** and **PolarLineSeries** can also be visualized with[spline curves]({%slug htmlchart/chart-types/spline-chart%}).
 
-The code from __Example 1__ shows how to build the __PolarAreaSeries__,__PolarLineSeries__ and __PolarScatterSeries__ that are shown in __Figure 1__.
+The code from **Example 1** shows how to build the **PolarAreaSeries**,**PolarLineSeries** and **PolarScatterSeries** that are shown in **Figure 1**.
 >caption Figure 1: You can see plot data in polar coordinate system with Polar charts. The code in Example 1 shows how to setup PolarAreaSeries (i.e., the "Wind Rose Plot of Nighttime Peak Winds" chart), PolarLineSeries (i.e., the "Patch Antenna Directivity Pattern" chart) and PolarScatterSeries (i.e., the "QPSK Signal Constellation" chart).
 
 ![htmlchart-polarchart-simple-example](images/htmlchart-polarchart-simple-example.png)
 
-__Example 1__: Creating __PolarAreaSeries__, __PolarLineSeries__ and__PolarScatterSeries__ that plot data in a circular plot area in a polar coordinate system.
+**Example 1**: Creating **PolarAreaSeries**, **PolarLineSeries** and**PolarScatterSeries** that plot data in a circular plot area in a polar coordinate system.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="PolarAreaChart" Width="345" Height="345" Transitions="true">

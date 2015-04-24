@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Creating a Custom Skin | RadInput for ASP.NET AJAX Documentation
 description: Creating a Custom Skin
 slug: input/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin

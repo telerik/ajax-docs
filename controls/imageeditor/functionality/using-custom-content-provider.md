@@ -1,6 +1,6 @@
 ---
 title: Using Custom Content Provider
-page_title: Using Custom Content Provider | UI for ASP.NET AJAX Documentation
+page_title: Using Custom Content Provider | RadImageEditor for ASP.NET AJAX Documentation
 description: Using Custom Content Provider
 slug: imageeditor/functionality/using-custom-content-provider
 tags: using,custom,content,provider
@@ -14,7 +14,7 @@ position: 3
 
 ## Using Custom Content Provider
 
-Starting from __Q3 2011__ RadImageEditor can use custom content providers. This ability will ease the usage of the control in CMS scenarios and its colaboration with RadFileExplorer where the content is stored in a DataBase, FTP or even an online storage system such as Amazon S3.
+Starting from **Q3 2011** RadImageEditor can use custom content providers. This ability will ease the usage of the control in CMS scenarios and its colaboration with RadFileExplorer where the content is stored in a DataBase, FTP or even an online storage system such as Amazon S3.
 
 RadImageEditor is using the same abstract class, FileBrowserContentProvider, as RadFileExplorer and RadEditor for the custom content provider, which allows you to use already operational custom content providers without any modifications.
 
@@ -47,7 +47,7 @@ To configure RadImageEditor to use custom content provider you need to configure
 ````
 
 
->note  __ViewPaths__ , __UploadPaths__ and __DeletePaths__ for RadImageEditor's ImageManager should be set to the same path.
+>note  **ViewPaths** , **UploadPaths** and **DeletePaths** for RadImageEditor's ImageManager should be set to the same path.
 >
 
 

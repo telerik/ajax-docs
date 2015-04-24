@@ -1,6 +1,6 @@
 ---
 title: Important Changes Regarding Data Binding DateTime Parsable String Fields
-page_title: Important Changes Regarding Data Binding DateTime Parsable String Fields | UI for ASP.NET AJAX Documentation
+page_title: Important Changes Regarding Data Binding DateTime Parsable String Fields | RadHtmlChart for ASP.NET AJAX Documentation
 description: Important Changes Regarding Data Binding DateTime Parsable String Fields
 slug: htmlchart/changes-and-backwards-compatibility/important-changes-regarding-data-binding-datetime-parsable-string-fields
 tags: important,changes,regarding,data,binding,datetime,parsable,string,fields
@@ -14,14 +14,14 @@ position: 2
 
 ## 
 
-As of the __Q1 2014__ release, __RadHtmlChart__ takes into account the type of the columns from the data sourcethat are bound to the chart. This means if the chart's category x-axis refers to a string type column from the data source that can be parsedto a DateTime format, it will be handled as a string and the labeled displayed will not be parsed.
+As of the **Q1 2014** release, **RadHtmlChart** takes into account the type of the columns from the data sourcethat are bound to the chart. This means if the chart's category x-axis refers to a string type column from the data source that can be parsedto a DateTime format, it will be handled as a string and the labeled displayed will not be parsed.
 
-The old and the new behavior of the control is illustrated with the code from __Example 1__ and is shown in__Figure 1__.
+The old and the new behavior of the control is illustrated with the code from **Example 1** and is shown in**Figure 1**.
 >caption Figure 1: String columns from the data source that can be parsed to a DateTime format will be displayed as strings.
 
 ![htmlchart-important-changes-regarding-data-binding-datetime-parsable-string-fields](images/htmlchart-important-changes-regarding-data-binding-datetime-parsable-string-fields.png)
 
-__Example1:__ Data binding a DataTable data source that contains a string column that can be parsed to a DateTime format.
+**Example1:** Data binding a DataTable data source that contains a string column that can be parsed to a DateTime format.
 
 
 

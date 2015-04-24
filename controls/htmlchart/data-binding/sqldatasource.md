@@ -1,6 +1,6 @@
 ---
 title: SqlDataSource
-page_title: SqlDataSource | UI for ASP.NET AJAX Documentation
+page_title: SqlDataSource | RadHtmlChart for ASP.NET AJAX Documentation
 description: SqlDataSource
 slug: htmlchart/data-binding/sqldatasource
 tags: sqldatasource
@@ -14,17 +14,17 @@ position: 0
 
 ## 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to a __SqlDataSource__ and presents a code example. You can bind a __RadHtmlChart__ to a __SqlDataSource__using the following properties:
+This help article describes which properties to use to bind a **RadHtmlChart** to a **SqlDataSource** and presents a code example. You can bind a **RadHtmlChart** to a **SqlDataSource**using the following properties:
 
-* __DataSourceID__ in the main tag sets the declarative data source for the entire chart. You can use	the __DataSource__ property for a programmatic data source if you create the connection in the code-behind.
+* **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use	the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 
-* __DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie; __DataFieldX__ for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
+* **DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie; **DataFieldX** for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
 
-* __DataLabelsField__ for the x-axis labels to populate the items for the axis.
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
-The data, used in the following example, is pulled from the database __Telerik__, which can be foundin the App_Data folder in the main demos directory.
+The data, used in the following example, is pulled from the database **Telerik**, which can be foundin the App_Data folder in the main demos directory.
 
-__Example 1__: Bind a __SqlDataSource__ to a __RadHtmlChart__.
+**Example 1**: Bind a **SqlDataSource** to a **RadHtmlChart**.
 
 ````ASPNET
 		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"

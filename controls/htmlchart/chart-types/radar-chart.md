@@ -1,6 +1,6 @@
 ---
 title: Radar Chart
-page_title: Radar Chart | UI for ASP.NET AJAX Documentation
+page_title: Radar Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Radar Chart
 slug: htmlchart/chart-types/radar-chart
 tags: radar,chart
@@ -14,24 +14,24 @@ position: 12
 
 ## 
 
-A __Radar__ chart is a two-dimensional chart that has at least three quantitative factors, illustrated on axes that share the same starting point. Thischart type is useful in making comparisons between units that depend on such quantitative factors/variables. The closer the point/column of the particularvariable is to the center of the chart, the lower its value is. The nearest the point/column of the particular variable is to the edge of thechart, the higher its value is.
+A **Radar** chart is a two-dimensional chart that has at least three quantitative factors, illustrated on axes that share the same starting point. Thischart type is useful in making comparisons between units that depend on such quantitative factors/variables. The closer the point/column of the particularvariable is to the center of the chart, the lower its value is. The nearest the point/column of the particular variable is to the edge of thechart, the higher its value is.
 
-__RadHtmlChart__ supports three types of Radar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, column and polygon, respectively.
+**RadHtmlChart** supports three types of Radar series. They are only different in the graphical primitives that are drawn.The primitives are a polyline, column and polygon, respectively.
 
-* __RadarAreaSeries__ - In this series type, the data points are connected with straight line segments that enclose a filled area.
+* **RadarAreaSeries** - In this series type, the data points are connected with straight line segments that enclose a filled area.
 
-* __RadarColumnSeries__ - This series type are represented on the chart as data columns whose height varies according to their value.
+* **RadarColumnSeries** - This series type are represented on the chart as data columns whose height varies according to their value.
 
-* __RadarLineSeries__ - This series type are represented on the chart as data points connected with straight lines.
+* **RadarLineSeries** - This series type are represented on the chart as data points connected with straight lines.
 
-__RadarAreaSeries__ and __RadarLineSeries__ can also be visualized with[spline curves]({%slug htmlchart/chart-types/spline-chart%}).
+**RadarAreaSeries** and **RadarLineSeries** can also be visualized with[spline curves]({%slug htmlchart/chart-types/spline-chart%}).
 
-The code in __Example 1__ will show you how to build the __RadarAreaSeries__,__RadarColumnSeries__ and__RadarLineSeries__ in __Figure 1__.
+The code in **Example 1** will show you how to build the **RadarAreaSeries**,**RadarColumnSeries** and**RadarLineSeries** in **Figure 1**.
 >caption Figure 1: Compare units that depend on quantitative factors with Radar charts. The code in Example 1 shows how to setup RadarAreaSeries (i.e., the "Position Profile" chart), RadarColumnSeries (i.e., the "Fruit Nutrition Facts" chart) and RadarLineSeries (i.e., the "City Weather Temperatures" chart).
 
 ![htmlchart-radarchart-simple-example](images/htmlchart-radarchart-simple-example.png)
 
-__Example 1__: Creating __RadarAreaSeries__, __RadarLineSeries__ and__RadarColumnSeries__ that compare units depending on quantitative factors.
+**Example 1**: Creating **RadarAreaSeries**, **RadarLineSeries** and**RadarColumnSeries** that compare units depending on quantitative factors.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadarAreaChart" Width="345" Height="345" Transitions="true">

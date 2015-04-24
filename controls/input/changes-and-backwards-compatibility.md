@@ -1,6 +1,6 @@
 ---
 title: Changes and Backwards Compatibility
-page_title: Changes and Backwards Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and Backwards Compatibility | RadInput for ASP.NET AJAX Documentation
 description: Changes and Backwards Compatibility
 slug: input/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility

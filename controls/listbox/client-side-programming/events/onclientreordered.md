@@ -1,6 +1,6 @@
 ---
 title: OnClientReordered
-page_title: OnClientReordered | UI for ASP.NET AJAX Documentation
+page_title: OnClientReordered | RadListBox for ASP.NET AJAX Documentation
 description: OnClientReordered
 slug: listbox/client-side-programming/events/onclientreordered
 tags: onclientreordered

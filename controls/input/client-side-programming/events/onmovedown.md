@@ -1,6 +1,6 @@
 ---
 title: OnMoveDown
-page_title: OnMoveDown | UI for ASP.NET AJAX Documentation
+page_title: OnMoveDown | RadInput for ASP.NET AJAX Documentation
 description: OnMoveDown
 slug: input/client-side-programming/events/onmovedown
 tags: onmovedown
@@ -14,27 +14,27 @@ position: 14
 
 ## 
 
-The __OnMoveDown__ client-side event handler is called when the user decreases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
+The **OnMoveDown** client-side event handler is called when the user decreases the value of an enumeration or numeric range mask part by typing in a new value or using the arrow keys or mouse wheel.
 
->note The __OnMoveDown__ event is supported by __RadMaskedTextBox__ .
+>note The **OnMoveDown** event is supported by **RadMaskedTextBox** .
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the value from decreasing.
+* **set_cancel()** lets you prevent the value from decreasing.
 
-* __get_newValue()__ returns the new value assigned to the mask part if the change is allowed.
+* **get_newValue()** returns the new value assigned to the mask part if the change is allowed.
 
-* __get_oldValue()__ returns the current value assigned to the mask part, before the change.
+* **get_oldValue()** returns the current value assigned to the mask part, before the change.
 
-* __get_currentPart()__ returns the client-side object of the mask part whose value the user is trying to change.
+* **get_currentPart()** returns the client-side object of the mask part whose value the user is trying to change.
 
-The following example uses the __OnMoveDown__ event display an alert when the user decreases the value of a numeric range :
+The following example uses the **OnMoveDown** event display an alert when the user decreases the value of a numeric range :
 
 ````ASPNET
 	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" 

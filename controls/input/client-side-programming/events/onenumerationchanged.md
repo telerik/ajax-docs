@@ -1,6 +1,6 @@
 ---
 title: OnEnumerationChanged
-page_title: OnEnumerationChanged | UI for ASP.NET AJAX Documentation
+page_title: OnEnumerationChanged | RadInput for ASP.NET AJAX Documentation
 description: OnEnumerationChanged
 slug: input/client-side-programming/events/onenumerationchanged
 tags: onenumerationchanged
@@ -14,27 +14,27 @@ position: 6
 
 ## 
 
-The __OnEnumerationChanged__ client-side event handler is called when the value of an enumerated mask part is set. This event occurs even if the setting of the enumerated value does not result in a change (for example, after a postback).
+The **OnEnumerationChanged** client-side event handler is called when the value of an enumerated mask part is set. This event occurs even if the setting of the enumerated value does not result in a change (for example, after a postback).
 
->note The __OnEnumerationChanged__ event is supported by __RadMaskedTextBox__ .
+>note The **OnEnumerationChanged** event is supported by **RadMaskedTextBox** .
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the value from changing.
+* **set_cancel()** lets you prevent the value from changing.
 
-* __get_newValue()__ returns the new value assigned to the mask part if the change is allowed.
+* **get_newValue()** returns the new value assigned to the mask part if the change is allowed.
 
-* __get_oldValue()__ returns the current value assigned to the mask part, before the change.
+* **get_oldValue()** returns the current value assigned to the mask part, before the change.
 
-* __get_currentPart()__ returns the client-side object of the mask part whose value the user is trying to change.
+* **get_currentPart()** returns the client-side object of the mask part whose value the user is trying to change.
 
-The following example uses the __OnEnumerationChanged__ event display an alert when the user changes the value of an enumerated mask part :
+The following example uses the **OnEnumerationChanged** event display an alert when the user changes the value of an enumerated mask part :
 
 ````ASPNET
 	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="<Mon|Tue|Wed|Thu|Fri|Sat|Sun>" PromptChar="_">

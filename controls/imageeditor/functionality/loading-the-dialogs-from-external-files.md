@@ -1,6 +1,6 @@
 ---
 title: Loading the Dialogs from External Files
-page_title: Loading the Dialogs from External Files | UI for ASP.NET AJAX Documentation
+page_title: Loading the Dialogs from External Files | RadImageEditor for ASP.NET AJAX Documentation
 description: Loading the Dialogs from External Files
 slug: imageeditor/functionality/loading-the-dialogs-from-external-files
 tags: loading,the,dialogs,from,external,files
@@ -14,7 +14,7 @@ position: 0
 
 ## Externalizing the Dialogs
 
-By default, all __RadImageEditor__ dialogs are embedded as resource fils in the Telerik.Web.UI.dll file, which makes their customization harder. In order to provide an easy way to modify the ImageEditor's dialogs, __since Q1 2012__, the Telerik UI for ASP.NET AJAX installation now comes with an extrafolder named __ImageEditorDialogs__ which contains the dialogs' ascx files. You can configure __RadImageEditor__ to use the external dialog files by copying the __ImageEditorDialogs__ folder to the root of the web site and setting the __ExternalDialogsPath__ property (also available since Q1 2012) to point to it, e.g.
+By default, all **RadImageEditor** dialogs are embedded as resource fils in the Telerik.Web.UI.dll file, which makes their customization harder. In order to provide an easy way to modify the ImageEditor's dialogs, **since Q1 2012**, the Telerik UI for ASP.NET AJAX installation now comes with an extrafolder named **ImageEditorDialogs** which contains the dialogs' ascx files. You can configure **RadImageEditor** to use the external dialog files by copying the **ImageEditorDialogs** folder to the root of the web site and setting the **ExternalDialogsPath** property (also available since Q1 2012) to point to it, e.g.
 
 ````ASPNET
 	    <telerik:RadImageEditor ID="RadImageEditor1" ExternalDialogsPath="~/ImageEditorDialogs" runat="server">
@@ -27,11 +27,11 @@ By default, all __RadImageEditor__ dialogs are embedded as resource fils in the 
 
 This example demonstrates how to add fonts in the AddText dialog's dropdown:
 
-1. Copy the __ImageEditorDialogs__ folder to the root of the web site.
+1. Copy the **ImageEditorDialogs** folder to the root of the web site.
 
-1. Set the __ExternalDialogsPath__ property to point to the folder where you copied the files (e.g. ExternalDialogsPath="~/ImageEditorDialogs")
+1. Set the **ExternalDialogsPath** property to point to the folder where you copied the files (e.g. ExternalDialogsPath="~/ImageEditorDialogs")
 
-1. Open the __AddText.ascx__ file and locate the __RadComboBox__ with ID __fontFamily__ so you can add more options to it:
+1. Open the **AddText.ascx** file and locate the **RadComboBox** with ID **fontFamily** so you can add more options to it:
 
 ````ASPNET
 	    <telerik:RadComboBox ID="fontFamily" runat="server" AutoPostBack="false" EnableViewState="false"
@@ -53,7 +53,7 @@ This example demonstrates how to add fonts in the AddText dialog's dropdown:
 
 
 
-If you want to __hide some functionality__ in some dialog, you can do that by applying __style="display:none"__ to it. For example, here is how to hide the Preset Size dropdown in the Resize dialog:
+If you want to **hide some functionality** in some dialog, you can do that by applying **style="display:none"** to it. For example, here is how to hide the Preset Size dropdown in the Resize dialog:
 
 ````ASPNET
 	        <tr style="display: none;">

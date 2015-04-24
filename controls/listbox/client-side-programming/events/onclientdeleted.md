@@ -1,6 +1,6 @@
 ---
 title: OnClientDeleted
-page_title: OnClientDeleted | UI for ASP.NET AJAX Documentation
+page_title: OnClientDeleted | RadListBox for ASP.NET AJAX Documentation
 description: OnClientDeleted
 slug: listbox/client-side-programming/events/onclientdeleted
 tags: onclientdeleted

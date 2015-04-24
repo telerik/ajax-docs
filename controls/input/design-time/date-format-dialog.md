@@ -1,6 +1,6 @@
 ---
 title: Date Format Dialog
-page_title: Date Format Dialog | UI for ASP.NET AJAX Documentation
+page_title: Date Format Dialog | RadInput for ASP.NET AJAX Documentation
 description: Date Format Dialog
 slug: input/design-time/date-format-dialog
 tags: date,format,dialog

@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadListBox for ASP.NET AJAX Documentation
 description: What is New
 slug: listbox/what-is-new
 tags: what,is,new

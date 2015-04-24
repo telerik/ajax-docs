@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadListView for ASP.NET AJAX Documentation
 description: Getting Started
 slug: listview/getting-started
 tags: getting,started
@@ -22,11 +22,11 @@ This tutorial will walk you through creating a Web page that contains a RadListV
 
 ## Creating and Binding the RadListView
 
-1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed your controls. In this folder, find the "Northwind.mdf" file, and copy it into the __App_Data__ folder of your Web site/application. The __Solution Explorer__ for you application should look something like the following:![Solution Explorer](images/listview_gettingstarted1.JPG)
+1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed your controls. In this folder, find the "Northwind.mdf" file, and copy it into the **App_Data** folder of your Web site/application. The **Solution Explorer** for you application should look something like the following:![Solution Explorer](images/listview_gettingstarted1.JPG)
 
-1. Using the __RadListView__[ Smart tag]({%slug listview/design-time%}), expand the drop-down list labelled Choose Data Source and select __<New data source...>__:![ListView Smart Tag](images/listview_gettingstarted2.jpg)
+1. Using the **RadListView**[ Smart tag]({%slug listview/design-time%}), expand the drop-down list labelled Choose Data Source and select **<New data source...>**:![ListView Smart Tag](images/listview_gettingstarted2.jpg)
 
-1. The __Data Source Configuration Wizard__ appears. On the __Choose a Data Source Type__ page, select "SQL Database" and click __OK__:![Choose Data Source Type](images/listview_gettingstarted3.jpg)
+1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select "SQL Database" and click **OK**:![Choose Data Source Type](images/listview_gettingstarted3.jpg)
 
 1. On the Choose Your Data Connection page, click on the drop-down list to expand it and choose Northwind.mdf(This is the file that you copied earlier). Then click the Next button:![Choose Data Connection](images/listview_gettingstarted4.jpg)
 
@@ -38,7 +38,7 @@ This tutorial will walk you through creating a Web page that contains a RadListV
 
 ## Predefined layouts
 
-__RadListView__offers six __predefined layouts__ that enable you to display your data as a/an:
+**RadListView**offers six **predefined layouts** that enable you to display your data as a/an:
 
 * Grid
 
@@ -52,7 +52,7 @@ __RadListView__offers six __predefined layouts__ that enable you to display your
 
 * Floated tiles
 
-1. In order to take advantage of this feature of RadListView's you need to use the smart tag control designer and pick the __Open Configuration Wizard__ option:![Open Layout Editor](images/listview_gettingstarted8.jpg)
+1. In order to take advantage of this feature of RadListView's you need to use the smart tag control designer and pick the **Open Configuration Wizard** option:![Open Layout Editor](images/listview_gettingstarted8.jpg)
 
 1. The designer will open a Configuration Manager window where you can adjust two types of options:
 
@@ -84,6 +84,6 @@ __RadListView__offers six __predefined layouts__ that enable you to display your
 
 1. In the Smart Tag select "Edit Templates"![Edit Templates](images/listview_gettingstarted9.jpg)
 
-1. RadListView for ASP.NET AJAX exposes a variety of templates that can be used to model the look and feel of its source data and layout. The most general template of RadListView is its __LayoutTemplate__. It specifies the overall appearance of the control, the outer wrapper that will be used for the control rendering, as well as the holder of its content.![Layout Template](images/listview_gettingstarted12.jpg)
+1. RadListView for ASP.NET AJAX exposes a variety of templates that can be used to model the look and feel of its source data and layout. The most general template of RadListView is its **LayoutTemplate**. It specifies the overall appearance of the control, the outer wrapper that will be used for the control rendering, as well as the holder of its content.![Layout Template](images/listview_gettingstarted12.jpg)
 
-1. The __EditItemTemplate__and __InsertItemTemplate__of RadListView determine what controls will be rendered to allow end user input when they are editing the data in the list view, or adding new data. Since those are templates, you are free to customize their layout according to your custom conventions.![EditItem Template](images/listview_gettingstarted13.jpg)
+1. The **EditItemTemplate**and **InsertItemTemplate**of RadListView determine what controls will be rendered to allow end user input when they are editing the data in the list view, or adding new data. Since those are templates, you are free to customize their layout according to your custom conventions.![EditItem Template](images/listview_gettingstarted13.jpg)

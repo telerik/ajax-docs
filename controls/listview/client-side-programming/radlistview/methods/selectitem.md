@@ -1,6 +1,6 @@
 ---
 title: selectItem
-page_title: selectItem | UI for ASP.NET AJAX Documentation
+page_title: selectItem | RadListView for ASP.NET AJAX Documentation
 description: selectItem
 slug: listview/client-side-programming/radlistview/methods/selectitem
 tags: selectitem
@@ -14,12 +14,12 @@ position: 8
 
 ## 
 
-Method which selects the __RadListView__ item corresponding to the index passed as an argument.
+Method which selects the **RadListView** item corresponding to the index passed as an argument.
 
 
 | function selectItem(index) |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The item corresponding to the __index__ will be selected.|
+| **index** |Integer|The item corresponding to the **index** will be selected.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

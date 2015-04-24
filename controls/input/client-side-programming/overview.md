@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadInput for ASP.NET AJAX Documentation
 description: Overview
 slug: input/client-side-programming/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The __RadInput__ controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
+The **RadInput** controls provide a flexible client-side API. You can easily interact with the controls in the browser using their client-side objects. In addition to a variety of [client-side events]({%slug input/client-side-programming/events/overview%}), the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the client-side object
 
@@ -47,7 +47,7 @@ Another approach for getting the client-side object is to handle any client-side
 
 ## Getting a reference to the input area DOM element
 
-The input area of a __RadInput__ control is an HTML <input> element with a client id that is derived from the client id of the entire control. The following example shows how to get a reference to its DOM element:
+The input area of a **RadInput** control is an HTML <input> element with a client id that is derived from the client id of the entire control. The following example shows how to get a reference to its DOM element:
 
 The following example demonstrates how to access RadInput client object after Q2 2012:
 
@@ -100,12 +100,12 @@ Each client-side object exposes properties for getting the value of the control:
 
 | Property | Return Type | Description |
 | ------ | ------ | ------ |
-|get_value(), set_value()| __RadNumericTextBox__ : numberAll other input controls: string|Gets or sets the value of the input control.|
+|get_value(), set_value()| **RadNumericTextBox** : numberAll other input controls: string|Gets or sets the value of the input control.|
 |get_textBoxValue(), set_textBoxValue()|string|Gets or sets the value the user input text. It is not assigned as the value of the input control if it contains an error.|
 |get_editValue(), set_editValue()|string|Gets or sets the value of the input control as it is formatted when the control has focus.|
 |get_displayValue(), set_displayValue()|string|Gets or sets the value of the input control as it is formatted when the control does not have focus.|
 
->note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the __RadDateInput__ and __RadMaskedTextBox__ have additional methods for getting the value. See[RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%})and[RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})for details.
+>note In addition to the methods listed above, which are present in the client-side object for all the RadInput controls, the **RadDateInput** and **RadMaskedTextBox** have additional methods for getting the value. See[RadDateInput Client Object]({%slug input/client-side-programming/raddateinput-client-object%})and[RadMaskedTextBox Client Object]({%slug input/client-side-programming/radmaskedtextbox-client-object%})for details.
 >
 
 
@@ -132,7 +132,7 @@ Since Q2 2013 RadInput has Invalid property which is used to put the input in in
 
 ## Changing the appearance style of RadInput controls on the client
 
-Because the __RadInput__ controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the __EnabledStyle__ of a __RadTextBox__ instance using the __OnLoad__ client-side event hander.
+Because the **RadInput** controls have their own style mechanism, you can change some of the appearance styles so that they are preserved when the control state is changed (i.e. when it is focused, hovered etc.). Below is a sample of how to change the **EnabledStyle** of a **RadTextBox** instance using the **OnLoad** client-side event hander.
 
 ````ASPNET
 	    <script type="text/javascript">

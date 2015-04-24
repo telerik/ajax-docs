@@ -1,6 +1,6 @@
 ---
 title: Multiple Y-Axes
-page_title: Multiple Y-Axes | UI for ASP.NET AJAX Documentation
+page_title: Multiple Y-Axes | RadHtmlChart for ASP.NET AJAX Documentation
 description: Multiple Y-Axes
 slug: htmlchart/functionality/axes/multiple-y-axes
 tags: multiple,y-axes
@@ -14,16 +14,16 @@ position: 2
 
 ## 
 
-__RadHtmlChart__ supports multiple Y-axes to provide an additional scale against which to plot information as of the Q2 2012 release.
+**RadHtmlChart** supports multiple Y-axes to provide an additional scale against which to plot information as of the Q2 2012 release.
 
-To use multiple Y-axes, you add the required __telerik:AxisY__ definitions in the __AdditionalYAxes__ tag inside__PlotArea__. __Figure 1__ shows a Column chart with an additional y-axis defined on the right. As you can see in the markup in	__Example 1__, you configure the additional y-axes similar to the main YAxis, but you set the axis' __Name__property - its value is used in the series' __AxisName__ property to specify which axis is used by the current series.
+To use multiple Y-axes, you add the required **telerik:AxisY** definitions in the **AdditionalYAxes** tag inside**PlotArea**. **Figure 1** shows a Column chart with an additional y-axis defined on the right. As you can see in the markup in	**Example 1**, you configure the additional y-axes similar to the main YAxis, but you set the axis' **Name**property - its value is used in the series' **AxisName** property to specify which axis is used by the current series.
 
-As of Q1 2014, you can use the __AxisCrossingPoints__ tag to rearrange the position of the main and the additional Y-axes of the chart.__Figure 1__ shows the additional y-axis repositioned on the right of the chart. The markup in Example 1 shows that the __AxisCrossingPoints__ tag is defined in the__X-Axis__ configuration section. The order of the __AxisCrossingPoint__ properties corresponds to the Y-axes declarations and the __Value__	attribute sets the position through the X-axis.
+As of Q1 2014, you can use the **AxisCrossingPoints** tag to rearrange the position of the main and the additional Y-axes of the chart.**Figure 1** shows the additional y-axis repositioned on the right of the chart. The markup in Example 1 shows that the **AxisCrossingPoints** tag is defined in the**X-Axis** configuration section. The order of the **AxisCrossingPoint** properties corresponds to the Y-axes declarations and the **Value**	attribute sets the position through the X-axis.
 >caption Figure 1: A Column chart with an additional y-axis, which is repositioned on the right.
 
 ![htmlchart-multiple-y-axes-overview](images/htmlchart-multiple-y-axes-overview.png)
 
-__Example 1__: The simple markup to create __Figure 1__ with the __AdditionalYAxes__ and __AxisCrossingPoints__ tags.
+**Example 1**: The simple markup to create **Figure 1** with the **AdditionalYAxes** and **AxisCrossingPoints** tags.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="640px" Height="480px">

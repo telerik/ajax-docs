@@ -1,6 +1,6 @@
 ---
 title: Gestures
-page_title: Gestures | UI for ASP.NET AJAX Documentation
+page_title: Gestures | RadImageGallery for ASP.NET AJAX Documentation
 description: Gestures
 slug: imagegallery/mobile-support/gestures
 tags: gestures
@@ -12,7 +12,7 @@ position: 1
 
 
 
-__RadImageGallery__ for ASP.NET AJAX handles gestures from touch enabled screens.You can use tap, swipe, tap and hold and etc. to navigate through the images or turn on/off certain features of the control.
+**RadImageGallery** for ASP.NET AJAX handles gestures from touch enabled screens.You can use tap, swipe, tap and hold and etc. to navigate through the images or turn on/off certain features of the control.
 
 ## Image Navigation
 

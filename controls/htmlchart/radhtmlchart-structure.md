@@ -1,6 +1,6 @@
 ---
 title: RadHtmlChart Structure
-page_title: RadHtmlChart Structure | UI for ASP.NET AJAX Documentation
+page_title: RadHtmlChart Structure | RadHtmlChart for ASP.NET AJAX Documentation
 description: RadHtmlChart Structure
 slug: htmlchart/radhtmlchart-structure
 tags: radhtmlchart,structure
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __RadHtmlChart__ consists of a series of elements that have a strict hierarchy. The elements correspond to the structure of the controlin the markup or code behind. __Figure 1__ illustrates the basic structure and shows the names of each element. __Example 1__ shows the markup used to create __Figure 1__.
+The **RadHtmlChart** consists of a series of elements that have a strict hierarchy. The elements correspond to the structure of the controlin the markup or code behind. **Figure 1** illustrates the basic structure and shows the names of each element. **Example 1** shows the markup used to create **Figure 1**.
 >caption Figure 1: Basic structure of the RadHtmlChart.
 
 ![htmlchart-elements-structure](images/htmlchart-elements-structure.png)
@@ -21,37 +21,37 @@ The __RadHtmlChart__ consists of a series of elements that have a strict hierarc
 
 The main parts of the chart that can be controlled outside of the specific series are:
 
-* __Chart Area__ - __Figure 1__ shows the chart area as the main panel of the charton which everything else is placed, including the __PlotArea__ with the series and axes, chart title and legend. You can set the background color of the entire chart via the __Appearance.FillStyle.BackgroundColor__ property.
+* **Chart Area** - **Figure 1** shows the chart area as the main panel of the charton which everything else is placed, including the **PlotArea** with the series and axes, chart title and legend. You can set the background color of the entire chart via the **Appearance.FillStyle.BackgroundColor** property.
 
-* __Chart Title__ - A chart title is the global title of the chart and you configure it using the__ChartTitle__ inner tag. In the __ChartTitle__ inner tag you set the string for the __RadHtmlChart__. The chart title also provides an __Appearance__ inner tag whereyou set the position (__Bottom__ or __Top__), alignment(__Left__, __Right__ or __Center__), background color and visibility.
+* **Chart Title** - A chart title is the global title of the chart and you configure it using the**ChartTitle** inner tag. In the **ChartTitle** inner tag you set the string for the **RadHtmlChart**. The chart title also provides an **Appearance** inner tag whereyou set the position (**Bottom** or **Top**), alignment(**Left**, **Right** or **Center**), background color and visibility.
 
-* __Legend__ - A chart legend lists series names (or item names in the case of a Pie chart) along with asymbol that indicates their color in the actual chart. You can customize a chart legend's via the__Appearance__ tag inside the __Legend__ tag that is a direct child of the main tag.You can set properties of a chart legend to control background color, position(__Left__, __Right__, __Top__ or __Bottom__) and visibility.
+* **Legend** - A chart legend lists series names (or item names in the case of a Pie chart) along with asymbol that indicates their color in the actual chart. You can customize a chart legend's via the**Appearance** tag inside the **Legend** tag that is a direct child of the main tag.You can set properties of a chart legend to control background color, position(**Left**, **Right**, **Top** or **Bottom**) and visibility.
 
->tip  __Hovering__ a mouse over or __clicking__ on the series name in the	chart legend will highlight and toggle the visibility of the series.
+>tip  **Hovering** a mouse over or **clicking** on the series name in the	chart legend will highlight and toggle the visibility of the series.
 >
 
 
-* __Plot Area__ - A chart gets rendered in the plot area which includes the series with their labels plus the axes along with theirlabels and titles. __PlotArea__ is also the name of the inner tag of the main chart tag where the axes and series are defined.
+* **Plot Area** - A chart gets rendered in the plot area which includes the series with their labels plus the axes along with theirlabels and titles. **PlotArea** is also the name of the inner tag of the main chart tag where the axes and series are defined.
 
 All these elements have default styles that depend on the skin the control uses if they are not overriden by a configuration chosen by the developer.
 
 ## Describing the Series Elements of RadHtmlChart
 
-You add series via the __Series__ tag inside the __PlotArea__ tag. The inner tags of the series contain further propertiesthat you can use to control series' appearance and data binding. Regardless of their configuration, all series have the same common set of elements.
+You add series via the **Series** tag inside the **PlotArea** tag. The inner tags of the series contain further propertiesthat you can use to control series' appearance and data binding. Regardless of their configuration, all series have the same common set of elements.
 
-* __Series__ - This is the shape that is defined by the type of the series. __Figure 1__ shows the series asa line that connects points which represent the series items. For Bar and Column charts, the series consists of several rectangles that correspond to the series items;for the Scatter chart, the series is the points that represents the series items, etc.
+* **Series** - This is the shape that is defined by the type of the series. **Figure 1** shows the series asa line that connects points which represent the series items. For Bar and Column charts, the series consists of several rectangles that correspond to the series items;for the Scatter chart, the series is the points that represents the series items, etc.
 
-* __Series Item__ - This is the unit of data that is passed to the series. A series item defines the value of the chart:
+* **Series Item** - This is the unit of data that is passed to the series. A series item defines the value of the chart:
 
 * At the given point for numeric series (e.g., Scatter, ScatterLine and Bubble).
 
 * For the given x-axis item for category series (e.g., Area, Bar, Column, Line, etc.,).For line charts, series items define the spots through which the line passes.
 
-* __Series Item Label__ - This is the text next to each series item that shows the value it holds. You can modify this label	with a format string to show a pattern related to this value.
+* **Series Item Label** - This is the text next to each series item that shows the value it holds. You can modify this label	with a format string to show a pattern related to this value.
 
-* __Series Item Tooltip__ - This tooltip is shown only when the mouse hovers over a series item,which is why it is not present in __Figure 1__. It consists of a rectangle with the series' color (or the color predefined by the developer) and the item'svalue (plus format string) inside.
+* **Series Item Tooltip** - This tooltip is shown only when the mouse hovers over a series item,which is why it is not present in **Figure 1**. It consists of a rectangle with the series' color (or the color predefined by the developer) and the item'svalue (plus format string) inside.
 
->note The __PieSeries__ (see __Figure 2__ and the markup in __Example 2__ ) is a specifictype of chart and it consists of segments (that can be exploded or not) and the series items are what appears in thelegend instead of the series names. A __PieSeries__ does not have axes and thus none of the elements related to them are shown.	The chart title, plot area, legend, series item labels and series item tooltips are the same as with other series types.
+>note The **PieSeries** (see **Figure 2** and the markup in **Example 2** ) is a specifictype of chart and it consists of segments (that can be exploded or not) and the series items are what appears in thelegend instead of the series names. A **PieSeries** does not have axes and thus none of the elements related to them are shown.	The chart title, plot area, legend, series item labels and series item tooltips are the same as with other series types.
 >
 
 >caption Figure 2: Series elements of a PieSeries type of RadHtmlChart.
@@ -62,21 +62,21 @@ You add series via the __Series__ tag inside the __PlotArea__ tag. The inner tag
 
 The axes are two perpendicular lines that define the scale of the chart and show the reference values/items. They can be transposed to form grid lines insidethe chart to aid the visual estimation of the series' values. The axes are direct children of the plot area and this is also the place where they aredefined in the markup of the control via their own inner tags.
 
-* __Axis__ - The actual axis of the chart. An axis is a single line whosecolor and width can be changed if the default values do not match the needs of the developer.
+* **Axis** - The actual axis of the chart. An axis is a single line whosecolor and width can be changed if the default values do not match the needs of the developer.
 
-* __Ticks__ - Small marks on the axis that define axis values (or items) and are also starting points for the grid lines.
+* **Ticks** - Small marks on the axis that define axis values (or items) and are also starting points for the grid lines.
 
-* __Grid Lines__ - Lines that are parallel to the axes to aid readability of the values. There are two types of grid lines: major(usually thicker and spaced further from each other) and minor (usually thinner and with lighter color and closer together).
+* **Grid Lines** - Lines that are parallel to the axes to aid readability of the values. There are two types of grid lines: major(usually thicker and spaced further from each other) and minor (usually thinner and with lighter color and closer together).
 
-* __Axis Item Label__ - An axis item label is text that corresponds to each item on a category x-axis.An axis item label shows a string defined in the code. In the case of a numeric axis, the values are calculatedby the chart and the developer can set a particular format string to them.
+* **Axis Item Label** - An axis item label is text that corresponds to each item on a category x-axis.An axis item label shows a string defined in the code. In the case of a numeric axis, the values are calculatedby the chart and the developer can set a particular format string to them.
 
-* __Axis Title__ - An axis title shows the title of the entire axis. A developer uses an axis title toshow what the axis corresponds to or the unit of measurement.
+* **Axis Title** - An axis title shows the title of the entire axis. A developer uses an axis title toshow what the axis corresponds to or the unit of measurement.
 
 ## The Markup Used to Create a Line and Pie Chart
 
-__Figure 1__ shows the main structure of the control for a __RadHtmlChart__. __Example 1__ shows the markup used to create __Figure 1__. The markup used in __Example 1__ is taken from the	[Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx) of the RadHtmlChart.
+**Figure 1** shows the main structure of the control for a **RadHtmlChart**. **Example 1** shows the markup used to create **Figure 1**. The markup used in **Example 1** is taken from the	[Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx) of the RadHtmlChart.
 
-__Example 1__: The markup below sets many of the properties for the __RadHtmlChart__ in __Figure 1__, which is derived from the [Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx).
+**Example 1**: The markup below sets many of the properties for the **RadHtmlChart** in **Figure 1**, which is derived from the [Line Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/linechart/defaultcs.aspx).
 
 ````ASPNET
 			<telerik:RadHtmlChart runat="server" ID="LineChart" Width="800" Height="500" Transitions="true">
@@ -173,9 +173,9 @@ __Example 1__: The markup below sets many of the properties for the __RadHtmlCha
 
 
 
-__Figure 2__ (showing the Pie chart) is the result of the markup shown in__Example 2__. Most of the properties are set just to show their position in the markup.__Example 2__is taken from the [Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
+**Figure 2** (showing the Pie chart) is the result of the markup shown in**Example 2**. Most of the properties are set just to show their position in the markup.**Example 2**is taken from the [Pie Chart online demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/charttypes/piechart/defaultcs.aspx) of the RadHtmlChart.
 
-__Example 2__: This markup shows how to use a__RadHtmlChart__ to create the Pie chart shown in __Figure 2__.
+**Example 2**: This markup shows how to use a**RadHtmlChart** to create the Pie chart shown in **Figure 2**.
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="PieChart1" Width="800" Height="500"

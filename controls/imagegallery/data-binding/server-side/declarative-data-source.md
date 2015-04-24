@@ -1,6 +1,6 @@
 ---
 title: Declarative Data Source
-page_title: Declarative Data Source | UI for ASP.NET AJAX Documentation
+page_title: Declarative Data Source | RadImageGallery for ASP.NET AJAX Documentation
 description: Declarative Data Source
 slug: imagegallery/data-binding/server-side/declarative-data-source
 tags: declarative,data,source
@@ -12,27 +12,27 @@ position: 2
 
 
 
-You can bind a __RadImageGallery__ to any ASP.NET declarative data source control, including __SqlDataSource__, __AccessDataSource__, __ObjectDataSource__, __XmlDataSource__, __EntityDataSource__, __OpenAccessDataSource__, __LinqDataSource__ and __ObjectContainerDataSource__.
+You can bind a **RadImageGallery** to any ASP.NET declarative data source control, including **SqlDataSource**, **AccessDataSource**, **ObjectDataSource**, **XmlDataSource**, **EntityDataSource**, **OpenAccessDataSource**, **LinqDataSource** and **ObjectContainerDataSource**.
 
 ## 
 
-The steps below demonstrate how to bind a __RadImageGallery__ to a __SqlDataSource__. The sample assumes that you have installed the Telerik sample database. If you have not done that, there is an article [here](http://msdn.microsoft.com/en-us/library/8b6y4c7s.aspx) describing how to install a sample database.
+The steps below demonstrate how to bind a **RadImageGallery** to a **SqlDataSource**. The sample assumes that you have installed the Telerik sample database. If you have not done that, there is an article [here](http://msdn.microsoft.com/en-us/library/8b6y4c7s.aspx) describing how to install a sample database.
 
-1. Add a __SqlDataSource__ control to a page and set its SelectCommand appropriately.
+1. Add a **SqlDataSource** control to a page and set its SelectCommand appropriately.
 
-1. Place a __RadImageGallery__ control on the page.
+1. Place a **RadImageGallery** control on the page.
 
-1. Assign the __DataSourceID__ property to the data source control ID from step 1.
+1. Assign the **DataSourceID** property to the data source control ID from step 1.
 
-1. Set the __DataImageField__ property to the name of the data source field containing the images.
+1. Set the **DataImageField** property to the name of the data source field containing the images.
 
 In addition, you could set different optional properties:
 
-* __DataTitleField__: Specifies the field with the title for each image. If not specified, images would have no Title.
+* **DataTitleField**: Specifies the field with the title for each image. If not specified, images would have no Title.
 
-* __DataDescriptionField__: Specifies the field containing the description for each image. If not specified, images would have no Description.
+* **DataDescriptionField**: Specifies the field containing the description for each image. If not specified, images would have no Description.
 
-* __DataThumbnailField__: Specifies the field containing the thumbnail for each image. If this property is not set, thumbnails will be generated automatically.
+* **DataThumbnailField**: Specifies the field containing the thumbnail for each image. If this property is not set, thumbnails will be generated automatically.
 
 ## Example 1: Binding a RadImageGallery to a SqlDataSource
 

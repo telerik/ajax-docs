@@ -1,6 +1,6 @@
 ---
 title: Problem with Using Formatting Specifiers in Labels and Tooltips
-page_title: Problem with Using Formatting Specifiers in Labels and Tooltips | UI for ASP.NET AJAX Documentation
+page_title: Problem with Using Formatting Specifiers in Labels and Tooltips | RadHtmlChart for ASP.NET AJAX Documentation
 description: Problem with Using Formatting Specifiers in Labels and Tooltips
 slug: htmlchart/troubleshooting/known-issues/problem-with-using-formatting-specifiers-in-labels-and-tooltips
 tags: problem,with,using,formatting,specifiers,in,labels,and,tooltips
@@ -14,30 +14,30 @@ position: 0
 
 ## 
 
-Specifying [date format strings](http://msdn.microsoft.com/en-us/library/az4se3k1.aspx)(e.g.__{0:D}, {0:F}__) are not supported out-of-the-box and will not take effect if used In the __DataFormatString__ property of the __RadHtmlChart__ control. Only the[numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx)(e.g. __{0:e}, {0:p}__) are supported for the text elements (such as axis labels, series labels and tooltips).
+Specifying [date format strings](http://msdn.microsoft.com/en-us/library/az4se3k1.aspx)(e.g.**{0:D}, {0:F}**) are not supported out-of-the-box and will not take effect if used In the **DataFormatString** property of the **RadHtmlChart** control. Only the[numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx)(e.g. **{0:e}, {0:p}**) are supported for the text elements (such as axis labels, series labels and tooltips).
 
->note As of __Q3 2012__ , the[ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%})property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
+>note As of **Q3 2012** , the[ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%})property can expose additional columns for the series	labels and tooltips. With this you are able to specify a date set as a simple string.
 >
 
 
-Nevertheless, there is a possible approach that will allow you to format the labels in a non-numerical x-axis. For example,let’s take the items in an x-axis whose labels should display a month given an object of type __DateTime__.Follow these steps to format the labels accordingly:
+Nevertheless, there is a possible approach that will allow you to format the labels in a non-numerical x-axis. For example,let’s take the items in an x-axis whose labels should display a month given an object of type **DateTime**.Follow these steps to format the labels accordingly:
 
 1. On the server side, iterate through the data source that is used for populating the x-axis items.
 
-1. Get the __DateTime__ value of the current data source record.
+1. Get the **DateTime** value of the current data source record.
 
-1. Convert the __DateTime__ value to a string using the appropriate formatting specifier.
+1. Convert the **DateTime** value to a string using the appropriate formatting specifier.
 
-1. Create a new __AxisItem__ object by passing the formatted string as a parameter and add it in the __Items__ collection of the x-axis.
+1. Create a new **AxisItem** object by passing the formatted string as a parameter and add it in the **Items** collection of the x-axis.
 
-__Example 1__ demonstrates the approach described above.
+**Example 1** demonstrates the approach described above.
 
 >warning This approach cannot be used for creating such specially formatted text in SeriesItems' labels and tooltips. Each Series-Item does not	have its own tooltip and text properties that can be set declaratively, they are taken from its value automatically. An option is using their[ClientTemplates]({%slug htmlchart/functionality/clienttemplate/overview%})to load a column from the datasource.
->You cannot use the __DataFormatString__ property of the x-axis labels either because the x-axis items are created programmatically	and are not databound.
+>You cannot use the **DataFormatString** property of the x-axis labels either because the x-axis items are created programmatically	and are not databound.
 >
 
 
-__Example 1:__ Using date format string in __RadHtmlChart__.
+**Example 1:** Using date format string in **RadHtmlChart**.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Height="500px" Width="500px">

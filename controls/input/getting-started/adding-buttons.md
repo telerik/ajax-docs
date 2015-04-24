@@ -1,6 +1,6 @@
 ---
 title: Adding Buttons
-page_title: Adding Buttons | UI for ASP.NET AJAX Documentation
+page_title: Adding Buttons | RadInput for ASP.NET AJAX Documentation
 description: Adding Buttons
 slug: input/getting-started/adding-buttons
 tags: adding,buttons

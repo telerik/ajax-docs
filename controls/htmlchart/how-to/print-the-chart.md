@@ -1,6 +1,6 @@
 ---
 title: Print the Chart
-page_title: Print the Chart | UI for ASP.NET AJAX Documentation
+page_title: Print the Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Print the Chart
 slug: htmlchart/how-to/print-the-chart
 tags: print,the,chart
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-The __RadHtmlChart__ renders an __SVG__ or __VML__ element thatcannot be saved directly for printing as an image. In __Example 1__ you will see how to force the browser to print only the chartand not the entire page.
+The **RadHtmlChart** renders an **SVG** or **VML** element thatcannot be saved directly for printing as an image. In **Example 1** you will see how to force the browser to print only the chartand not the entire page.
 
 ## Print the HtmlChart's Content
 
-Printing anything from a web page ultimately relies on the browser printing engine and the __RadHtmlChart__ is not an exception.__Example 1__ shows how to use a little JavaScript and CSS to hide everything else on the page can so only the chart will show up.
+Printing anything from a web page ultimately relies on the browser printing engine and the **RadHtmlChart** is not an exception.**Example 1** shows how to use a little JavaScript and CSS to hide everything else on the page can so only the chart will show up.
 
->warning At the time of writing (7thof August, 2012) Safari has a bug with printing gradient images that affects the __RadHtmlChart__ as it utilizes them heavily. This means that under Safari the __RadHtmlChart__ will not print properly until they fix this problem.	The issue can be tracked in[this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
+>warning At the time of writing (7thof August, 2012) Safari has a bug with printing gradient images that affects the **RadHtmlChart** as it utilizes them heavily. This means that under Safari the **RadHtmlChart** will not print properly until they fix this problem.	The issue can be tracked in[this URI](http://code.google.com/p/chromium/issues/detail?id=99458).
 >
 
 
-__Example 1__: Force the browser to print only the Chart's content but not the whole page.
+**Example 1**: Force the browser to print only the Chart's content but not the whole page.
 
 ````JavaScript
 		<div id="chartContainer" style="width: 800px; height: 500px">

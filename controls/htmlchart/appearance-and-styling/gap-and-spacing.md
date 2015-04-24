@@ -1,6 +1,6 @@
 ---
 title: Gap and Spacing
-page_title: Gap and Spacing | UI for ASP.NET AJAX Documentation
+page_title: Gap and Spacing | RadHtmlChart for ASP.NET AJAX Documentation
 description: Gap and Spacing
 slug: htmlchart/appearance-and-styling/gap-and-spacing
 tags: gap,and,spacing
@@ -12,24 +12,24 @@ position: 2
 
 
 
-The __Gap__ and __Spacing__ properties for __BarSeries__, __ColumnSeries__and __RadarColumnSeries__ let you configure the gaps between the series categories and the spacing between the chart series items. Telerik introduced these properties in Q1 2014.
+The **Gap** and **Spacing** properties for **BarSeries**, **ColumnSeries**and **RadarColumnSeries** let you configure the gaps between the series categories and the spacing between the chart series items. Telerik introduced these properties in Q1 2014.
 
 ## 
 
-The __Gap__ and __Spacing__ properties of the chart series control the distance between the series items,visualized in the PlotArea of the chart (__Figure 1__):
+The **Gap** and **Spacing** properties of the chart series control the distance between the series items,visualized in the PlotArea of the chart (**Figure 1**):
 
-* __Gap__ - The distance between the series categories as a proportion of the width of a single series item.
+* **Gap** - The distance between the series categories as a proportion of the width of a single series item.
 
-* __Spacing__ - The space between the series items in one series category as a proportion of the width of a single series item.
+* **Spacing** - The space between the series items in one series category as a proportion of the width of a single series item.
 >caption Figure 1: Configuring Gap and Spacing in a Column chart. 'g' and 's' are the values of Gap and Spacing respectively and 'x' is the widthof the series item. For this chart g = 2 and s = 1.
 
 ![htmlchart-appearance-gap-and-spacing](images/htmlchart-appearance-gap-and-spacing.png)
 
-__Figure 1__ shows the rendered chart demonstrated in __Example 1__. Note how the gap is two times the width of the column item and the spacing has the same width, which corresponds to the values in the example.
+**Figure 1** shows the rendered chart demonstrated in **Example 1**. Note how the gap is two times the width of the column item and the spacing has the same width, which corresponds to the values in the example.
 
-As shown in __Example 1__, you configure the values of __Gap__ and __Spacing__ for the whole chart __in the first series__ and they are applied for all categories and series items.
+As shown in **Example 1**, you configure the values of **Gap** and **Spacing** for the whole chart **in the first series** and they are applied for all categories and series items.
 
-__Example 1__: Configuring Gap and Spacing in a Column chart.
+**Example 1**: Configuring Gap and Spacing in a Column chart.
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="500" Height="250">
@@ -63,7 +63,7 @@ __Example 1__: Configuring Gap and Spacing in a Column chart.
 
 
 
->note The __Gap__ and __Spacing__ properties can be configured only for[BarSeries]({%slug htmlchart/chart-types/bar-chart%}),[ColumnSeries]({%slug htmlchart/chart-types/column-chart%})and[RadarColumnSeries]({%slug htmlchart/chart-types/radar-chart%}).
+>note The **Gap** and **Spacing** properties can be configured only for[BarSeries]({%slug htmlchart/chart-types/bar-chart%}),[ColumnSeries]({%slug htmlchart/chart-types/column-chart%})and[RadarColumnSeries]({%slug htmlchart/chart-types/radar-chart%}).
 >
 
 

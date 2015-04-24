@@ -1,6 +1,6 @@
 ---
 title: Migrate Date Axis Configuration
-page_title: Migrate Date Axis Configuration | UI for ASP.NET AJAX Documentation
+page_title: Migrate Date Axis Configuration | RadHtmlChart for ASP.NET AJAX Documentation
 description: Migrate Date Axis Configuration
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-date-axis-configuration
 tags: migrate,date,axis,configuration
@@ -12,28 +12,28 @@ position: 3
 
 
 
-The term date axis refers to an axis from a chart that can display discrete or continuous data in a DateTime type.	This article illustrates how to migrate the configuration of date axis with discrete and continuous data from __RadChart__ to	__RadHtmlChart__. The examples illustrate how to migrate the date axes declaratively; however, the	same classes and properties of the axis can be used for the programmatic creation as well.
+The term date axis refers to an axis from a chart that can display discrete or continuous data in a DateTime type.	This article illustrates how to migrate the configuration of date axis with discrete and continuous data from **RadChart** to	**RadHtmlChart**. The examples illustrate how to migrate the date axes declaratively; however, the	same classes and properties of the axis can be used for the programmatic creation as well.
 
 ## Configuring Date Axis with Discrete Data
 
 ### Configuring Date Axis with Discrete Data in RadChart
 
-__RadChart__ doesn't support a date axis out of the box and therefore you must perform additional manipulations.
+**RadChart** doesn't support a date axis out of the box and therefore you must perform additional manipulations.
 
-1. Convert the DateTime values to __ToOADate__ format and then pass them to the XAxis' items.
+1. Convert the DateTime values to **ToOADate** format and then pass them to the XAxis' items.
 
-1. Set the XAxis' __AutoScale__ and __IsZeroBased__ propertiesto __false__.
+1. Set the XAxis' **AutoScale** and **IsZeroBased** propertiesto **false**.
 
-1. Choose an appropriate date __ValueFormat__ for the XAxis (i.e., __ShortTime__,__ShortDate__, __LongTime__ or __LongDate__).
+1. Choose an appropriate date **ValueFormat** for the XAxis (i.e., **ShortTime**,**ShortDate**, **LongTime** or **LongDate**).
 
-1. You can set a desired __CustomFormat__ for the XAxis (e.g., "M/dd/yyyy").
+1. You can set a desired **CustomFormat** for the XAxis (e.g., "M/dd/yyyy").
 
-__Example 1__ illustrates how to configure a date axis in__RadChart__ that displays discrete data in __Figure 1__.
+**Example 1** illustrates how to configure a date axis in**RadChart** that displays discrete data in **Figure 1**.
 >caption Figure 1: Display discrete data with date axis in RadChart.
 
 ![htmlchart-migrating-date-axis-chart-discrete](images/htmlchart-migrating-date-axis-chart-discrete.png)
 
-__Example 1__: Configuring date axis in __RadChart__ that displays discrete data.
+**Example 1**: Configuring date axis in **RadChart** that displays discrete data.
 
 
 
@@ -115,18 +115,18 @@ __Example 1__: Configuring date axis in __RadChart__ that displays discrete data
 
 ### Configuring Date Axis with Discrete Data in RadHtmlChart
 
-__RadHtmlChart__ does support date axis out of the box. The DateTime format of the x-axis itemsis automatically recognized and no additional configuration is needed.
+**RadHtmlChart** does support date axis out of the box. The DateTime format of the x-axis itemsis automatically recognized and no additional configuration is needed.
 
-1. In order to display discrete data in__RadHtmlChart__ you must set the x-axis __Type__ property to__Category__.
+1. In order to display discrete data in**RadHtmlChart** you must set the x-axis **Type** property to**Category**.
 
-1. The format of the x-axis items labels is controlled through the__XAxis.LabelsAppearance.DataFormatString__ property(e.g., __DataFormatString__="M/dd/yyyy").
+1. The format of the x-axis items labels is controlled through the**XAxis.LabelsAppearance.DataFormatString** property(e.g., **DataFormatString**="M/dd/yyyy").
 
-__Example 2__ illustrates how to configure a date axis in__RadHtmlChart__ that displays discrete data in __Figure 2__.
+**Example 2** illustrates how to configure a date axis in**RadHtmlChart** that displays discrete data in **Figure 2**.
 >caption Figure 2: Display discrete data with date axis in RadHtmlChart.
 
 ![htmlchart-migrating-date-axis-htmlchart-discrete](images/htmlchart-migrating-date-axis-htmlchart-discrete.png)
 
-__Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete data.
+**Example 2**: Configuring date axis in **RadHtmlChart** that displays discrete data.
 
 
 
@@ -191,24 +191,24 @@ __Example 2__: Configuring date axis in __RadHtmlChart__ that displays discrete 
 
 ### Configuring Date Axis with Continuous Data in RadChart
 
-__RadChart__ doesn't support a date axis out of the box and therefore you must perform additional manipulations.
+**RadChart** doesn't support a date axis out of the box and therefore you must perform additional manipulations.
 
-1. Convert the DateTime values to __ToOADate__ format and then pass them to the series item's X values.
+1. Convert the DateTime values to **ToOADate** format and then pass them to the series item's X values.
 
-1. Set the XAxis' __IsZeroBased__ propertyto __false__.
+1. Set the XAxis' **IsZeroBased** propertyto **false**.
 
-1. Choose an appropriate date __ValueFormat__ for the XAxis (i.e., __ShortTime__,__ShortDate__, __LongTime__ or __LongDate__).
+1. Choose an appropriate date **ValueFormat** for the XAxis (i.e., **ShortTime**,**ShortDate**, **LongTime** or **LongDate**).
 
-1. You can set a desired __CustomFormat__ for the XAxis (e.g., "M/dd/yyyy").
+1. You can set a desired **CustomFormat** for the XAxis (e.g., "M/dd/yyyy").
 
-1. If you want to set the XAxis' __MinValue__ and __MaxValue__properties, you must also set the __AutoScale__ property to __false__.
+1. If you want to set the XAxis' **MinValue** and **MaxValue**properties, you must also set the **AutoScale** property to **false**.
 
-__Example 3__ illustrates how to configure a date axis in__RadChart__ that displays continuous data in __Figure 3__.
+**Example 3** illustrates how to configure a date axis in**RadChart** that displays continuous data in **Figure 3**.
 >caption Figure 3: Display continuous data with date axis in RadChart.
 
 ![htmlchart-migrating-date-axis-chart-continuous](images/htmlchart-migrating-date-axis-chart-continuous.png)
 
-__Example 3__: Configuring date axis in __RadChart__ that displays continuous data.
+**Example 3**: Configuring date axis in **RadChart** that displays continuous data.
 
 
 
@@ -290,18 +290,18 @@ __Example 3__: Configuring date axis in __RadChart__ that displays continuous da
 
 ### Configuring Date Axis with Continuous Data in RadHtmlChart
 
-__RadHtmlChart__ does support date axis out of the box. The DateTime format of the x-axis itemsis automatically recognized and no additional configuration is needed.
+**RadHtmlChart** does support date axis out of the box. The DateTime format of the x-axis itemsis automatically recognized and no additional configuration is needed.
 
-1. In order to display continuous data in__RadHtmlChart__ you must set the x-axis __Type__ property to__Date__.
+1. In order to display continuous data in**RadHtmlChart** you must set the x-axis **Type** property to**Date**.
 
-1. The format of the x-axis items labels is controlled through the__XAxis.LabelsAppearance.DataFormatString__ property(e.g., __DataFormatString__="M/dd/yyyy").
+1. The format of the x-axis items labels is controlled through the**XAxis.LabelsAppearance.DataFormatString** property(e.g., **DataFormatString**="M/dd/yyyy").
 
-__Example 4__ illustrates how to configure a date axis in__RadHtmlChart__ that displays continuous data in __Figure 4__.
+**Example 4** illustrates how to configure a date axis in**RadHtmlChart** that displays continuous data in **Figure 4**.
 >caption Figure 4: Display continuous data with date axis in RadHtmlChart.
 
 ![htmlchart-migrating-date-axis-htmlchart-continuous](images/htmlchart-migrating-date-axis-htmlchart-continuous.png)
 
-__Example 4__: Configuring date axis in __RadHtmlChart__ that displays continuous data.
+**Example 4**: Configuring date axis in **RadHtmlChart** that displays continuous data.
 
 
 

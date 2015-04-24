@@ -1,6 +1,6 @@
 ---
 title: Updating
-page_title: Updating | UI for ASP.NET AJAX Documentation
+page_title: Updating | RadListBox for ASP.NET AJAX Documentation
 description: Updating
 slug: listbox/server-side-programming/server-events/updating
 tags: updating

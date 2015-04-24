@@ -1,6 +1,6 @@
 ---
 title: OnClientSaving
-page_title: OnClientSaving | UI for ASP.NET AJAX Documentation
+page_title: OnClientSaving | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientSaving
 slug: imageeditor/client-side-programming/events/onclientsaving
 tags: onclientsaving
@@ -14,11 +14,11 @@ position: 10
 
 ## 
 
-The __OnClientSaving__ event is raised when the user starts saving the changes on the image. The event can be canceled.
+The **OnClientSaving** event is raised when the user starts saving the changes on the image. The event can be canceled.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object. You can cancel the event by calling its set_cancel(true) method
 

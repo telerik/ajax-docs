@@ -1,6 +1,6 @@
 ---
 title: OnListViewDestroying
-page_title: OnListViewDestroying | UI for ASP.NET AJAX Documentation
+page_title: OnListViewDestroying | RadListView for ASP.NET AJAX Documentation
 description: OnListViewDestroying
 slug: listview/client-side-programming/events/onlistviewdestroying
 tags: onlistviewdestroying
@@ -17,10 +17,10 @@ position: 2
 This client-side event is fired when RadListView object is destroyed, i.e. on each *window.onunload*.
 
 
-|  __Fired by__  | RadListView |
+|  **Fired by**  | RadListView |
 | ------ | ------ |
-| __Arguments__ |System.EventArgs|
-| __Can be canceled__ |No|
+| **Arguments** |System.EventArgs|
+| **Can be canceled** |No|
 
 Example:
 

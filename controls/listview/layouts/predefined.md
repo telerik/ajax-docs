@@ -1,6 +1,6 @@
 ---
 title: Predefined
-page_title: Predefined | UI for ASP.NET AJAX Documentation
+page_title: Predefined | RadListView for ASP.NET AJAX Documentation
 description: Predefined
 slug: listview/layouts/predefined
 tags: predefined
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadListView__gives you the opportunity to specify custom layouts and thus display your data in any preferable way. In addition, as a greater convenience to the developer, the control offers six __predefined layouts__ that enable you to display your data as a/an:
+**RadListView**gives you the opportunity to specify custom layouts and thus display your data in any preferable way. In addition, as a greater convenience to the developer, the control offers six **predefined layouts** that enable you to display your data as a/an:
 
 * Grid
 
@@ -28,7 +28,7 @@ __RadListView__gives you the opportunity to specify custom layouts and thus disp
 
 * Floated tiles
 
-In order to take advantage of this feature of RadListView's you need to use the smart tag control designer and pick the __Open Configuration Wizard__ option:![Open Layout Editor](images/listview_gettingstarted8.jpg)
+In order to take advantage of this feature of RadListView's you need to use the smart tag control designer and pick the **Open Configuration Wizard** option:![Open Layout Editor](images/listview_gettingstarted8.jpg)
 
 The designer will open a Configuration Manager window where you can adjust two types of options:
 

@@ -1,6 +1,6 @@
 ---
 title: Declarative Data Source
-page_title: Declarative Data Source | UI for ASP.NET AJAX Documentation
+page_title: Declarative Data Source | RadListView for ASP.NET AJAX Documentation
 description: Declarative Data Source
 slug: listview/data-binding/server-side/declarative-data-source
 tags: declarative,data,source
@@ -14,13 +14,13 @@ position: 1
 
 RadListView can be bound to the following ASP 2.x DataSource control types:
 
-* __SqlDataSource__
+* **SqlDataSource**
 
-* __ObjectDataSource__
+* **ObjectDataSource**
 
-* __XmlDataSource__
+* **XmlDataSource**
 
-* __AccessDataSource__
+* **AccessDataSource**
 
 All you need to do is set the DataSourceID property of the ListView to the ID of the Data Source control. Then you can use ASP.NET binding expressions (Eval or Bind) for the fields that will be visualized in the control.
 
@@ -228,12 +228,12 @@ Refer to the [respective online demo](http://demos.telerik.com/aspnet-ajax/listv
 
 ## Additional resources
 
-The following MSDN articles describe how to configure some of the more common ASP.NET 2.x __DataSource__ controls:
+The following MSDN articles describe how to configure some of the more common ASP.NET 2.x **DataSource** controls:
 
-* __SqlDataSource:__[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
+* **SqlDataSource:**[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
 
-* __ObjectDataSource:__[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
+* **ObjectDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
 
-* __XmlDataSource:__[http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.xmldatasource.aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.xmldatasource.aspx)
+* **XmlDataSource:**[http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.xmldatasource.aspx](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.xmldatasource.aspx)
 
-* __AccessDataSource:__[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
+* **AccessDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)

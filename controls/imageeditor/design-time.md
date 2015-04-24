@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
+page_title: Design Time | RadImageEditor for ASP.NET AJAX Documentation
 description: Design Time
 slug: imageeditor/design-time
 tags: design,time
@@ -19,13 +19,13 @@ The Smart Tag lets you easily change the skin for your control or quickly get he
 
 ## Ajax Resources
 
-* __Add RadAjaxManager...__ adds a __RadAjaxManager__ component to your Web page, and displays the __r.a.d.ajax Property Builder__ where you can configure it.
+* **Add RadAjaxManager...** adds a **RadAjaxManager** component to your Web page, and displays the **r.a.d.ajax Property Builder** where you can configure it.
 
-* __Add RadStyleSheetManager__ adds a __RadStyleSheetManager__ to your Web page.
+* **Add RadStyleSheetManager** adds a **RadStyleSheetManager** to your Web page.
 
 ## Skin
 
-The __Skin__ drop-down displays a list of available [skins]({%slug imageeditor/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the tool tips look like for each skin. Assign a skin by selecting from the list.
+The **Skin** drop-down displays a list of available [skins]({%slug imageeditor/appearance-and-styling/skins%}) that you can apply to your control, along with an example of what the tool tips look like for each skin. Assign a skin by selecting from the list.
 
 ## Learning Center
 

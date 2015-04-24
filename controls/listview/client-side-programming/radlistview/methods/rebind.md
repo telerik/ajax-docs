@@ -1,6 +1,6 @@
 ---
 title: rebind
-page_title: rebind | UI for ASP.NET AJAX Documentation
+page_title: rebind | RadListView for ASP.NET AJAX Documentation
 description: rebind
 slug: listview/client-side-programming/radlistview/methods/rebind
 tags: rebind

@@ -1,6 +1,6 @@
 ---
 title: OnClientResizeEnd
-page_title: OnClientResizeEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientResizeEnd | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientResizeEnd
 slug: imageeditor/client-side-programming/events/onclientresizeend
 tags: onclientresizeend
@@ -14,11 +14,11 @@ position: 9
 
 ## 
 
-The __OnClientResizeEnd__ event is raised when the user has finished resizing the control.
+The **OnClientResizeEnd** event is raised when the user has finished resizing the control.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

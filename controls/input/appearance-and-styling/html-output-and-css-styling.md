@@ -1,6 +1,6 @@
 ---
 title: HTML Output and CSS Styling
-page_title: HTML Output and CSS Styling | UI for ASP.NET AJAX Documentation
+page_title: HTML Output and CSS Styling | RadInput for ASP.NET AJAX Documentation
 description: HTML Output and CSS Styling
 slug: input/appearance-and-styling/html-output-and-css-styling
 tags: html,output,and,css,styling

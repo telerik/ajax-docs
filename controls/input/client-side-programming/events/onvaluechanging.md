@@ -1,6 +1,6 @@
 ---
 title: OnValueChanging
-page_title: OnValueChanging | UI for ASP.NET AJAX Documentation
+page_title: OnValueChanging | RadInput for ASP.NET AJAX Documentation
 description: OnValueChanging
 slug: input/client-side-programming/events/onvaluechanging
 tags: onvaluechanging
@@ -14,27 +14,27 @@ position: 16
 
 ## 
 
-The __OnValueChanging__ client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus, but before its value has been updated.
+The **OnValueChanging** client-side event handler is called when the user changes the value of the input control. The event occurs immediately after the control loses focus, but before its value has been updated.
 
->note The __OnValueChanging__ event is supported by: __RadNumericTextBox__ , __RadDateInput__ , and __RadTextBox__ . On __RadNumericTextBox__ , __OnValueChanging__ does not occur if the user enters a non-numeric value.
+>note The **OnValueChanging** event is supported by: **RadNumericTextBox** , **RadDateInput** , and **RadTextBox** . On **RadNumericTextBox** , **OnValueChanging** does not occur if the user enters a non-numeric value.
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you permit or block the change to the value of the control. Calling __set_cancel(true)__ prevents the change.
+* **set_cancel()** lets you permit or block the change to the value of the control. Calling **set_cancel(true)** prevents the change.
 
-* __get_oldValue()__ returns the string value of the input control before the user made any changes.
+* **get_oldValue()** returns the string value of the input control before the user made any changes.
 
-* __get_newValue()__ returns the string value that is about to be assigned to the input control.
+* **get_newValue()** returns the string value that is about to be assigned to the input control.
 
-* __set_newValue()__ lets you change the value that is about to be assigned to the input control.
+* **set_newValue()** lets you change the value that is about to be assigned to the input control.
 
-The following example uses the __OnValueChanging__ event to force the value of a text box to be one of a limited number of possible values:
+The following example uses the **OnValueChanging** event to force the value of a text box to be one of a limited number of possible values:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server">

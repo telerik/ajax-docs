@@ -1,6 +1,6 @@
 ---
 title: Declaring the Items Inline
-page_title: Declaring the Items Inline | UI for ASP.NET AJAX Documentation
+page_title: Declaring the Items Inline | RadListBox for ASP.NET AJAX Documentation
 description: Declaring the Items Inline
 slug: listbox/radlistbox-items/declaring-the-items-inline
 tags: declaring,the,items,inline

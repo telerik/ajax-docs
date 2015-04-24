@@ -1,6 +1,6 @@
 ---
 title: Stacked Series
-page_title: Stacked Series | UI for ASP.NET AJAX Documentation
+page_title: Stacked Series | RadHtmlChart for ASP.NET AJAX Documentation
 description: Stacked Series
 slug: htmlchart/functionality/stacked-series
 tags: stacked,series
@@ -14,16 +14,16 @@ position: 5
 
 ## 
 
-__Stacked Column__ and __Bar__ series in __RadHtmlChart__can be __clustered__ in __groups__ since the Q3 2013 release.
+**Stacked Column** and **Bar** series in **RadHtmlChart**can be **clustered** in **groups** since the Q3 2013 release.
 
-Series that will be stacked in a separate group must have the same group name set in their __GroupName__ property.If you leave the __GroupName__ property blank, all series will be placed in one default stack. Setting the__GroupName__ property of any series automatically sets the__Stacked__ property of the first series to __true__, so it is not requiredto be explicitly set.
+Series that will be stacked in a separate group must have the same group name set in their **GroupName** property.If you leave the **GroupName** property blank, all series will be placed in one default stack. Setting the**GroupName** property of any series automatically sets the**Stacked** property of the first series to **true**, so it is not requiredto be explicitly set.
 >caption Example 1: Shows the markup code used to create Figure 1, which demonstrates a stacked column series.
 
 ![htmlchart-stacked-and-grouped-column-series](images/htmlchart-stacked-and-grouped-column-series.png)
 
-You can create __Figure 1__ using the markup in __Example 1__.
+You can create **Figure 1** using the markup in **Example 1**.
 
-__Example 1__: Shows an implementation of chart with stacked columns.
+**Example 1**: Shows an implementation of chart with stacked columns.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="1000" Height="500">

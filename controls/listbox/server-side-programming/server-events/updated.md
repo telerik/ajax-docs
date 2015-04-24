@@ -1,6 +1,6 @@
 ---
 title: Updated
-page_title: Updated | UI for ASP.NET AJAX Documentation
+page_title: Updated | RadListBox for ASP.NET AJAX Documentation
 description: Updated
 slug: listbox/server-side-programming/server-events/updated
 tags: updated

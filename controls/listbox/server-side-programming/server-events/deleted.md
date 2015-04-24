@@ -1,6 +1,6 @@
 ---
 title: Deleted
-page_title: Deleted | UI for ASP.NET AJAX Documentation
+page_title: Deleted | RadListBox for ASP.NET AJAX Documentation
 description: Deleted
 slug: listbox/server-side-programming/server-events/deleted
 tags: deleted

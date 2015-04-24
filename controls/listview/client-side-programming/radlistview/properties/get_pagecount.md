@@ -1,6 +1,6 @@
 ---
 title: get_pageCount
-page_title: get_pageCount | UI for ASP.NET AJAX Documentation
+page_title: get_pageCount | RadListView for ASP.NET AJAX Documentation
 description: get_pageCount
 slug: listview/client-side-programming/radlistview/properties/get_pagecount
 tags: get_pagecount
@@ -14,4 +14,4 @@ position: 2
 
 ## 
 
-Returns the page count for the respective __RadListView__object.
+Returns the page count for the respective **RadListView**object.

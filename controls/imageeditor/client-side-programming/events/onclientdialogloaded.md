@@ -1,6 +1,6 @@
 ---
 title: OnClientDialogLoaded
-page_title: OnClientDialogLoaded | UI for ASP.NET AJAX Documentation
+page_title: OnClientDialogLoaded | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientDialogLoaded
 slug: imageeditor/client-side-programming/events/onclientdialogloaded
 tags: onclientdialogloaded
@@ -14,11 +14,11 @@ position: 4
 
 ## 
 
-The __OnClientDialogLoaded__ event is raised when a tool widget dialog is loaded from the server.
+The **OnClientDialogLoaded** event is raised when a tool widget dialog is loaded from the server.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

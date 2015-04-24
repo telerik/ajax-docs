@@ -1,6 +1,6 @@
 ---
 title: Templates
-page_title: Templates | UI for ASP.NET AJAX Documentation
+page_title: Templates | RadImageGallery for ASP.NET AJAX Documentation
 description: Templates
 slug: imagegallery/functionality/templates
 tags: templates
@@ -18,13 +18,13 @@ Telerik RadImageGallery supports complete customization of the item layout. Usin
 
 The control provides the opportunity to display your data in any preferable way. You can include the template item in any desired position in the items collection, just as a regular ImageGalleryItem.
 
-__You can add a company logo, video, contact information or build your own advanced custom configuration to match your specific needs.__![Image Gallery Templates 1](images/image-gallery-templates1.png)
+**You can add a company logo, video, contact information or build your own advanced custom configuration to match your specific needs.**![Image Gallery Templates 1](images/image-gallery-templates1.png)
 
 ## Creating the Template Configuration
 
-The first step is to create a new ImageGalleryTemplateItem in the Items collection of the RadImageGallery. You can create as many as you want and set their __ThumbnailUrl__ property which determines the small image displayed in the thumbnail area to represent the original item. There are also __Title__ and __Description__ properties available, used to set a descriptive display message to the user.
+The first step is to create a new ImageGalleryTemplateItem in the Items collection of the RadImageGallery. You can create as many as you want and set their **ThumbnailUrl** property which determines the small image displayed in the thumbnail area to represent the original item. There are also **Title** and **Description** properties available, used to set a descriptive display message to the user.
 
-Inside the __ContentTemplate__ of the item you can build-up your custom configuration.
+Inside the **ContentTemplate** of the item you can build-up your custom configuration.
 
 ````ASPNET
 	        <telerik:RadImageGallery ID="RadImageGallery1" runat="server" Skin="Silk"

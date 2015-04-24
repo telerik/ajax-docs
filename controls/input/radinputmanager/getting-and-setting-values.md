@@ -1,6 +1,6 @@
 ---
 title: Getting and Setting Values
-page_title: Getting and Setting Values | UI for ASP.NET AJAX Documentation
+page_title: Getting and Setting Values | RadInput for ASP.NET AJAX Documentation
 description: Getting and Setting Values
 slug: input/radinputmanager/getting-and-setting-values
 tags: getting,and,setting,values

@@ -1,6 +1,6 @@
 ---
 title: InputStyles Client Object
-page_title: InputStyles Client Object | UI for ASP.NET AJAX Documentation
+page_title: InputStyles Client Object | RadInput for ASP.NET AJAX Documentation
 description: InputStyles Client Object
 slug: input/client-side-programming/inputstyles-client-object
 tags: inputstyles,client,object
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The InputStyles client object is returned by the __get_styles()__ method of any __RadInput__ control client object. It has a number of properties, each of which controls the style of the input control when it is in a particular state. The value of each property is an array of strings, where each string is a __name/value__ pair for a style attribute. See [OnLoad]({%slug input/client-side-programming/events/onload%}) for an example of using this object.
+The InputStyles client object is returned by the **get_styles()** method of any **RadInput** control client object. It has a number of properties, each of which controls the style of the input control when it is in a particular state. The value of each property is an array of strings, where each string is a **name/value** pair for a style attribute. See [OnLoad]({%slug input/client-side-programming/events/onload%}) for an example of using this object.
 
 The following table lists the properties of the InputStyles client object:
 
@@ -23,15 +23,15 @@ The following table lists the properties of the InputStyles client object:
 
 | Property | Description |
 | ------ | ------ |
-| __DisabledStyle__ |The style when the control is disabled.|
-| __EnabledStyle__ |The style when the control is enabled.|
-| __EmptyMessageStyle__ |The style when the control is displaying its empty message.|
-| __FocusedStyle__ |The style when the control has focus.|
-| __HoveredStyle__ |The style when the mouse hovers over the control.|
-| __InvalidStyle__ |The style when the control is displaying an invalid value.|
-| __NegativeStyle__ |The style when the control is displaying a negative value.|
+| **DisabledStyle** |The style when the control is disabled.|
+| **EnabledStyle** |The style when the control is enabled.|
+| **EmptyMessageStyle** |The style when the control is displaying its empty message.|
+| **FocusedStyle** |The style when the control has focus.|
+| **HoveredStyle** |The style when the mouse hovers over the control.|
+| **InvalidStyle** |The style when the control is displaying an invalid value.|
+| **NegativeStyle** |The style when the control is displaying a negative value.|
 
-This example demonstrates how the __InputStyles__ object could be used to modify the appearance of an input control:
+This example demonstrates how the **InputStyles** object could be used to modify the appearance of an input control:
 
 ````JavaScript
 	            <script type="text/javascript">

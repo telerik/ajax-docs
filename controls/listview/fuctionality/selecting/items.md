@@ -1,6 +1,6 @@
 ---
 title: Items
-page_title: Items | UI for ASP.NET AJAX Documentation
+page_title: Items | RadListView for ASP.NET AJAX Documentation
 description: Items
 slug: listview/fuctionality/selecting/items
 tags: items
@@ -14,19 +14,19 @@ position: 0
 
 ## Selecting items
 
-__RadListView__ exposes a server-side __API__, similar to __RadGrid__'s. The selected items are accessible through the __SelectedItems__ collection that consist of __RadListViewDataItem__ objects.
+**RadListView** exposes a server-side **API**, similar to **RadGrid**'s. The selected items are accessible through the **SelectedItems** collection that consist of **RadListViewDataItem** objects.
 
-By default you can select only one item at a time. Multiple selection is possible if enabled via the __AllowMultiItemSelection__ property.
+By default you can select only one item at a time. Multiple selection is possible if enabled via the **AllowMultiItemSelection** property.
 
-There are several ways to select/deselect an item in __RadListView__:
+There are several ways to select/deselect an item in **RadListView**:
 
-* to use the __Selected__ property of __RadListViewDataItem__
+* to use the **Selected** property of **RadListViewDataItem**
 
-* to fire __Select/Deselect__ command
+* to fire **Select/Deselect** command
 
-* to add/remove item's index to the __SelectedIndexes__ collection
+* to add/remove item's index to the **SelectedIndexes** collection
 
->note Note, that you need to provide Select/Deselect buttons in both __Item__ and __AlternatingItem__ templates.
+>note Note, that you need to provide Select/Deselect buttons in both **Item** and **AlternatingItem** templates.
 >
 
 
@@ -45,7 +45,7 @@ There are several ways to select/deselect an item in __RadListView__:
 
 
 
->note The selected items can be cleared using the __ClearSelectedItems__ method.
+>note The selected items can be cleared using the **ClearSelectedItems** method.
 >
 
 
@@ -54,19 +54,19 @@ Brief description of the selection-related properties/methods:
 
 | Property/Method | Type | Description |
 | ------ | ------ | ------ |
-| __SelectCommandName (Select)__ |Command / constant|Selects *RadListView* item|
-| __DeselectCommandName (Deselect)__ |Command / constant|Deselects *RadListView* item|
-| __AllowMultiItemSelection__ |Property ( *bool* )|Allows the user to select more that one item simultaneously|
-| __SelectedIndexes__ |Property ( *RadListViewIndexesCollection* )|Contains the indexes of the selected items|
-| __SelectedItems__ |Property ( *RadListViewDataItemCollection* )|Contains the selected items|
-| __SelectedValue__ |Property ( *object* )|Gets the first data key value of the selected item|
-| __SelectedValues__ |Property ( *DataKey* )|Gets the data key values from the selected item|
-| __SelectedIndexChanged__ |Event|This event fires when the user selects an item in *RadListView* |
-| __ClearSelectedItems__ |Method|Clears the selected items|
+| **SelectCommandName (Select)** |Command / constant|Selects *RadListView* item|
+| **DeselectCommandName (Deselect)** |Command / constant|Deselects *RadListView* item|
+| **AllowMultiItemSelection** |Property ( *bool* )|Allows the user to select more that one item simultaneously|
+| **SelectedIndexes** |Property ( *RadListViewIndexesCollection* )|Contains the indexes of the selected items|
+| **SelectedItems** |Property ( *RadListViewDataItemCollection* )|Contains the selected items|
+| **SelectedValue** |Property ( *object* )|Gets the first data key value of the selected item|
+| **SelectedValues** |Property ( *DataKey* )|Gets the data key values from the selected item|
+| **SelectedIndexChanged** |Event|This event fires when the user selects an item in *RadListView* |
+| **ClearSelectedItems** |Method|Clears the selected items|
 
 ## SelectedItemTemplate
 
-__SelectedItemTemplate__ defines the contents that represents the selected item in __RadListView__. As with any other template, __SelectedItemTemplate__ provides an unrestricted freedom for defining the appearance of the selected item.
+**SelectedItemTemplate** defines the contents that represents the selected item in **RadListView**. As with any other template, **SelectedItemTemplate** provides an unrestricted freedom for defining the appearance of the selected item.
 
 A simplified code-snippet is shown below:
 
@@ -86,9 +86,9 @@ A simplified code-snippet is shown below:
 
 ## Extracting values from a selected item
 
-There are various way to access/extract values from the items in __RadListView__.
+There are various way to access/extract values from the items in **RadListView**.
 
-1. Extracting __DataKey__ values on __ItemDataBound__ / __ItemCommand__ events
+1. Extracting **DataKey** values on **ItemDataBound** / **ItemCommand** events
 
 
 
@@ -139,7 +139,7 @@ There are various way to access/extract values from the items in __RadListView__
 ````
 
 
-2. Extracting values using the __ExtractValues__ method on __ItemDataBound__ / __ItemCommand__
+2. Extracting values using the **ExtractValues** method on **ItemDataBound** / **ItemCommand**
 
 
 
@@ -196,9 +196,9 @@ There are various way to access/extract values from the items in __RadListView__
 ````
 
 
-3. Extracting values using the __ExtractValuesFromItem__ method on __ItemDataBound__ / __ItemCommand__
+3. Extracting values using the **ExtractValuesFromItem** method on **ItemDataBound** / **ItemCommand**
 
-Similar to the previous example but uses __ExtractValuesFromItem__. A major advantage of this method is that it can also extract the __DataKeys__ values.
+Similar to the previous example but uses **ExtractValuesFromItem**. A major advantage of this method is that it can also extract the **DataKeys** values.
 
 
 
@@ -231,7 +231,7 @@ Similar to the previous example but uses __ExtractValuesFromItem__. A major adva
 ````
 
 
-4. Extracting values through the __DataItem__ on __ItemDataBound__
+4. Extracting values through the **DataItem** on **ItemDataBound**
 
 
 

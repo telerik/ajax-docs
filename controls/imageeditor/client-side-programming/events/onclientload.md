@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: imageeditor/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-The __OnClientLoad__ event is raised when the control is initialized.
+The **OnClientLoad** event is raised when the control is initialized.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

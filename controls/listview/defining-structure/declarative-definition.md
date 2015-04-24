@@ -1,6 +1,6 @@
 ---
 title: Declarative Definition
-page_title: Declarative Definition | UI for ASP.NET AJAX Documentation
+page_title: Declarative Definition | RadListView for ASP.NET AJAX Documentation
 description: Declarative Definition
 slug: listview/defining-structure/declarative-definition
 tags: declarative,definition
@@ -18,17 +18,17 @@ The RadListView control enables you to bind to data items that are returned from
 
 To help with determining the layout of the control, there are a number of templates exposed. These are:
 
-* __ItemTemplate__- determines the layout of the items in the control
+* **ItemTemplate**- determines the layout of the items in the control
 
-* __AlternatingItemTemplate__– determines the layout for the alternating items in the control
+* **AlternatingItemTemplate**– determines the layout for the alternating items in the control
 
-* __EmptyDataTemplate__ – determines the layout of the contents which will be rendered by the control in case no records are returned from the underlying data source
+* **EmptyDataTemplate** – determines the layout of the contents which will be rendered by the control in case no records are returned from the underlying data source
 
-* __ItemSeparatorTemplate__– determines the contents which will be rendered between individual items in the *ListView*
+* **ItemSeparatorTemplate**– determines the contents which will be rendered between individual items in the *ListView*
 
-* __LayoutTemplate__- Defines the basic template that governsthe main layout of the control. It contains a placeholder object, such as a *table row *(*tr*), *div*, or *span *element. This element will be replaced with the content that is defined in the *ItemTemplate*/*AlternatingItemTemplate*. It might also contain a *DataPager *object.
+* **LayoutTemplate**- Defines the basic template that governsthe main layout of the control. It contains a placeholder object, such as a *table row *(*tr*), *div*, or *span *element. This element will be replaced with the content that is defined in the *ItemTemplate*/*AlternatingItemTemplate*. It might also contain a *DataPager *object.
 
-* __EditItemTemplate__– Defines the structure of the *edit form*, which will be rendered when the control enters *edit *mode.
+* **EditItemTemplate**– Defines the structure of the *edit form*, which will be rendered when the control enters *edit *mode.
 
 A typical declaration for the *ListView* control will look like this:
 

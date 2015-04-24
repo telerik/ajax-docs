@@ -1,6 +1,6 @@
 ---
 title: CheckAllCheck
-page_title: CheckAllCheck | UI for ASP.NET AJAX Documentation
+page_title: CheckAllCheck | RadListBox for ASP.NET AJAX Documentation
 description: CheckAllCheck
 slug: listbox/server-side-programming/server-events/checkallcheck
 tags: checkallcheck

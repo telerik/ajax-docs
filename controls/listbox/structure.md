@@ -1,6 +1,6 @@
 ---
 title: Structure
-page_title: Structure | UI for ASP.NET AJAX Documentation
+page_title: Structure | RadListBox for ASP.NET AJAX Documentation
 description: Structure
 slug: listbox/structure
 tags: structure

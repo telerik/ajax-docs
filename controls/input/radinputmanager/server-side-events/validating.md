@@ -1,6 +1,6 @@
 ---
 title: Validating
-page_title: Validating | UI for ASP.NET AJAX Documentation
+page_title: Validating | RadInput for ASP.NET AJAX Documentation
 description: Validating
 slug: input/radinputmanager/server-side-events/validating
 tags: validating

@@ -1,6 +1,6 @@
 ---
 title: Format Dates
-page_title: Format Dates | UI for ASP.NET AJAX Documentation
+page_title: Format Dates | RadHtmlChart for ASP.NET AJAX Documentation
 description: Format Dates
 slug: htmlchart/appearance-and-styling/format-dates
 tags: format,dates
@@ -14,63 +14,63 @@ position: 4
 
 ## 
 
-The way the dates are shown on the axis labels, series labels and series tooltips are controlledvia the __DataFormatString__ property that must be set in the corresponding chart element as follows:
+The way the dates are shown on the axis labels, series labels and series tooltips are controlledvia the **DataFormatString** property that must be set in the corresponding chart element as follows:
 
-* __Series Labels__ and __Series Tooltips__ - {0} and/or {1} placeholdersare used to denote the corresponding SeriesItem's __X__ and/or __Y__value in the __DateFormatString__ followed by ":" and the desired date specifier(e.g., __DataFormatString="{1} units are ordered on {0:d}"__).
+* **Series Labels** and **Series Tooltips** - {0} and/or {1} placeholdersare used to denote the corresponding SeriesItem's **X** and/or **Y**value in the **DateFormatString** followed by ":" and the desired date specifier(e.g., **DataFormatString="{1} units are ordered on {0:d}"**).
 
-* __Axis Labels__ - Only the desired date specifier must be set in the__DateFormatString__ property,as placeholders are not applicable (e.g., __DataFormatString="y"__).
+* **Axis Labels** - Only the desired date specifier must be set in the**DateFormatString** property,as placeholders are not applicable (e.g., **DataFormatString="y"**).
 
->note Date formats can be used inside the __Client Templates__ . You can find more information	in the[Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})article, in the section, *Formatting Labels and Tooltips by Using their Client Templates* .
+>note Date formats can be used inside the **Client Templates** . You can find more information	in the[Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})article, in the section, *Formatting Labels and Tooltips by Using their Client Templates* .
 >
 
 
-__Table 1__ lists standard date format specifiers with descriptions.__Figure 1__ shows formatting the d, m|M and D pattern while__Example 1__ shows the markup to create the figure.
+**Table 1** lists standard date format specifiers with descriptions.**Figure 1** shows formatting the d, m|M and D pattern while**Example 1** shows the markup to create the figure.
 
 
 >caption Table 1: List of standard date format specifiers with descriptions.
 
-|  __Format Specifier__  |  __Description__  |  __Pattern Equivalent (for en-US Culture)__  |
+|  **Format Specifier**  |  **Description**  |  **Pattern Equivalent (for en-US Culture)**  |
 | ------ | ------ | ------ |
-| __d__ |short date pattern| __M/d/yyyy__ (e.g., the date 11th of November 2000 will be formatted as "11/6/2000")|
-| __D__ |long date pattern| __dddd, MMMM dd, yyyy__ (e.g., the date 11th of November 2000 will be formatted as "Monday, November 06, 2000")|
-| __F__ |full date/time pattern| __dddd, MMMM dd, yyyy h:mm:ss tt__ (e.g., the date 11th of November 2000 will be formatted as "Monday, November 06, 2000 12:00:00 AM")|
-| __g__ |general date/time pattern (short time)| __M/d/yyyy h:mm tt__ (e.g., the date 11th of November 2000 will be formatted as "11/6/2000 12:00 AM")|
-| __G__ |general date/time pattern (long time)| __M/d/yyyy h:mm:ss tt__ (e.g., the date 11th of November 2000 will be formatted as "11/6/2000 12:00:00 AM")|
-| __m|M__ |month/day pattern| __MMMM dd__ (e.g., the date 11th of November 2000 will be formatted as "November 06")|
-| __u__ |universal sortable date/time pattern| __yyyy'-'MM'-'dd HH':'mm':'ss'Z'__ (e.g., the date 11th of November 2000 will be formatted as "2000-11-06 00:00:00Z")|
-| __y|Y__ |month/year pattern| __MMMM, yyyy__ (e.g., the date 11th of November 2000 will be formatted as "November, 2000")|
+| **d** |short date pattern| **M/d/yyyy** (e.g., the date 11th of November 2000 will be formatted as "11/6/2000")|
+| **D** |long date pattern| **dddd, MMMM dd, yyyy** (e.g., the date 11th of November 2000 will be formatted as "Monday, November 06, 2000")|
+| **F** |full date/time pattern| **dddd, MMMM dd, yyyy h:mm:ss tt** (e.g., the date 11th of November 2000 will be formatted as "Monday, November 06, 2000 12:00:00 AM")|
+| **g** |general date/time pattern (short time)| **M/d/yyyy h:mm tt** (e.g., the date 11th of November 2000 will be formatted as "11/6/2000 12:00 AM")|
+| **G** |general date/time pattern (long time)| **M/d/yyyy h:mm:ss tt** (e.g., the date 11th of November 2000 will be formatted as "11/6/2000 12:00:00 AM")|
+| **m|M** |month/day pattern| **MMMM dd** (e.g., the date 11th of November 2000 will be formatted as "November 06")|
+| **u** |universal sortable date/time pattern| **yyyy'-'MM'-'dd HH':'mm':'ss'Z'** (e.g., the date 11th of November 2000 will be formatted as "2000-11-06 00:00:00Z")|
+| **y|Y** |month/year pattern| **MMMM, yyyy** (e.g., the date 11th of November 2000 will be formatted as "November, 2000")|
 
-__Table 2__ lists custom date format specifiers with descriptions.__Figure 2__ shows formatting the "MMM-yyyy", "ddd, MMM, yyyy" and "MMM yyyy" pattern while__Example 2__ shows the markup to create the figure.
+**Table 2** lists custom date format specifiers with descriptions.**Figure 2** shows formatting the "MMM-yyyy", "ddd, MMM, yyyy" and "MMM yyyy" pattern while**Example 2** shows the markup to create the figure.
 
 
 >caption Table 2: List of custom date format specifiers with descriptions.
 
-|  __Format Specifier__  |  __Description__  |
+|  **Format Specifier**  |  **Description**  |
 | ------ | ------ |
-| __d__ |The day of the month from 1 to 31.|
-| __dd__ |The zero-padded day of the month from 01 to 31.|
-| __ddd__ |The abbreviated name of the day of the week.|
-| __dddd__ |The full name of the day of the week.|
-| __M__ |The month from 1 to 12.|
-| __MM__ |The zero-padded month from 01 to 12.|
-| __MMM__ |The abbreviated name of the month.|
-| __MMMM__ |The full name of the month.|
-| __yy__ |The year, from 00 to 99.|
-| __yyyy__ |The year as a four-digit number.|
-| __h__ |The hour, using 12-hour clock from 1 to 12.|
-| __hh__ |The zero-padded hour, using 12-hour clock from 01 to 12.|
-| __H__ |The hour, using 24-hour clock from 0 to 23.|
-| __HH__ |The zero-padded hour, using 24-hour clock from 00 to 23.|
-| __m__ |The minute from 0 to 59.|
-| __mm__ |The zero-padded minute from 00 to 59.|
-| __s__ |The second from 0 to 59.|
-| __ss__ |The zero-padded second from 00 to 59.|
-| __tt__ |The AM/PM designator.|
+| **d** |The day of the month from 1 to 31.|
+| **dd** |The zero-padded day of the month from 01 to 31.|
+| **ddd** |The abbreviated name of the day of the week.|
+| **dddd** |The full name of the day of the week.|
+| **M** |The month from 1 to 12.|
+| **MM** |The zero-padded month from 01 to 12.|
+| **MMM** |The abbreviated name of the month.|
+| **MMMM** |The full name of the month.|
+| **yy** |The year, from 00 to 99.|
+| **yyyy** |The year as a four-digit number.|
+| **h** |The hour, using 12-hour clock from 1 to 12.|
+| **hh** |The zero-padded hour, using 12-hour clock from 01 to 12.|
+| **H** |The hour, using 24-hour clock from 0 to 23.|
+| **HH** |The zero-padded hour, using 24-hour clock from 00 to 23.|
+| **m** |The minute from 0 to 59.|
+| **mm** |The zero-padded minute from 00 to 59.|
+| **s** |The second from 0 to 59.|
+| **ss** |The zero-padded second from 00 to 59.|
+| **tt** |The AM/PM designator.|
 >caption Figure 1: Formatting axis labels, series labels and series tooltip with standard format via the DateFormatString property.
 
 ![htmlchart-dateaxis-overview](images/htmlchart-dateaxis-overview.png)
 
-__Example 1__ shows the simple markup used to format the series labels, axis labels andseries tooltip with standard format in __Figure 1__.
+**Example 1** shows the simple markup used to format the series labels, axis labels andseries tooltip with standard format in **Figure 1**.
 
 
 
@@ -154,7 +154,7 @@ __Example 1__ shows the simple markup used to format the series labels, axis lab
 
 ![htmlchart-formattingdates-customdateformats](images/htmlchart-formattingdates-customdateformats.png)
 
-__Example 2__ shows the simple markup used to format the series labels, axis labels andseries tooltip with custom pattern in __Figure 2__.
+**Example 2** shows the simple markup used to format the series labels, axis labels andseries tooltip with custom pattern in **Figure 2**.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Data Binding
-page_title: Data Binding | UI for ASP.NET AJAX Documentation
+page_title: Data Binding | RadLightBox for ASP.NET AJAX Documentation
 description: Data Binding
 slug: lightbox/data-binding
 tags: data,binding

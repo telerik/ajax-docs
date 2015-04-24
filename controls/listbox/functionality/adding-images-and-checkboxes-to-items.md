@@ -1,6 +1,6 @@
 ---
 title: Adding Images and Checkboxes to Items
-page_title: Adding Images and Checkboxes to Items | UI for ASP.NET AJAX Documentation
+page_title: Adding Images and Checkboxes to Items | RadListBox for ASP.NET AJAX Documentation
 description: Adding Images and Checkboxes to Items
 slug: listbox/functionality/adding-images-and-checkboxes-to-items
 tags: adding,images,and,checkboxes,to,items

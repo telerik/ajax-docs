@@ -1,6 +1,6 @@
 ---
 title: Client-Side Events Basics
-page_title: Client-Side Events Basics | UI for ASP.NET AJAX Documentation
+page_title: Client-Side Events Basics | RadImageEditor for ASP.NET AJAX Documentation
 description: Client-Side Events Basics
 slug: imageeditor/client-side-programming/events/client-side-events-basics
 tags: client-side,events,basics
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadImageEditor__ provides a rich set of client-side events which allow easy and flexible use in a wide range of application scenarios. Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
+**RadImageEditor** provides a rich set of client-side events which allow easy and flexible use in a wide range of application scenarios. Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
 
 * [OnClientLoad]({%slug imageeditor/client-side-programming/events/onclientload%}) - raised when the control is initialized.
 
@@ -86,28 +86,28 @@ Here is a list with the available methods to attach or detach event handlers:
 
 | Name | Description |
 | ------ | ------ |
-| __add_load__ |Adds a handler to the OnClientLoad event|
-| __remove_load__ |Removes a handler from the OnClientLoad event|
-| __add_commandExecuting__ |Adds a handler to the OnClientCommandExecuting event|
-| __remove_commandExecuting__ |Removes a handler from the OnClientCommandExecuting event|
-| __add_commandExecuted__ |Adds a handler to the OnClientCommandExecuted event|
-| __remove_commandExecuted__ |Removes a handler from the OnClientCommandExecuted event|
-| __add_imageChanging__ |Adds a handler to the OnClientImageChanging event|
-| __remove_imageChanging__ |Removes a handler from the OnClientImageChanging event|
-| __add_imageChanged__ |Adds a handler to the OnClientImageChanged event|
-| __remove_imageChanged__ |Removes a handler from the OnClientImageChanged event|
-| __add_resizeStart__ |Adds a handler to the OnClientResizeStart event|
-| __remove_resizeStart__ |Removes a handler from the OnClientResizeStart event|
-| __add_resizeEnd__ |Adds a handler to the OnClientResizeEnd event|
-| __remove_resizeEnd__ |Removes a handler from the OnClientResizeEnd event|
-| __add_saving__ |Adds a handler to the OnClientSaving event|
-| __add_shortCutHit__ |Adds a handler to the shortCutHit event|
-| __remove_saving__ |Removes a handler from the OnClientSaving event|
-| __remove_shortCutHit__ |Removes a handler from the shortCutHit event|
-| __add_saved__ |Adds a handler to the OnClientSaved event|
-| __remove_saved__ |Removes a handler from the OnClientSaved event|
-| __add_toolsDialogClosed__ |Adds a handler to the OnClientToolsDialogClosed event|
-| __remove_toolsDialogClosed__ |Removes a handler from the OnClientToolsDialogClosed event|
+| **add_load** |Adds a handler to the OnClientLoad event|
+| **remove_load** |Removes a handler from the OnClientLoad event|
+| **add_commandExecuting** |Adds a handler to the OnClientCommandExecuting event|
+| **remove_commandExecuting** |Removes a handler from the OnClientCommandExecuting event|
+| **add_commandExecuted** |Adds a handler to the OnClientCommandExecuted event|
+| **remove_commandExecuted** |Removes a handler from the OnClientCommandExecuted event|
+| **add_imageChanging** |Adds a handler to the OnClientImageChanging event|
+| **remove_imageChanging** |Removes a handler from the OnClientImageChanging event|
+| **add_imageChanged** |Adds a handler to the OnClientImageChanged event|
+| **remove_imageChanged** |Removes a handler from the OnClientImageChanged event|
+| **add_resizeStart** |Adds a handler to the OnClientResizeStart event|
+| **remove_resizeStart** |Removes a handler from the OnClientResizeStart event|
+| **add_resizeEnd** |Adds a handler to the OnClientResizeEnd event|
+| **remove_resizeEnd** |Removes a handler from the OnClientResizeEnd event|
+| **add_saving** |Adds a handler to the OnClientSaving event|
+| **add_shortCutHit** |Adds a handler to the shortCutHit event|
+| **remove_saving** |Removes a handler from the OnClientSaving event|
+| **remove_shortCutHit** |Removes a handler from the shortCutHit event|
+| **add_saved** |Adds a handler to the OnClientSaved event|
+| **remove_saved** |Removes a handler from the OnClientSaved event|
+| **add_toolsDialogClosed** |Adds a handler to the OnClientToolsDialogClosed event|
+| **remove_toolsDialogClosed** |Removes a handler from the OnClientToolsDialogClosed event|
 
 # See Also
 

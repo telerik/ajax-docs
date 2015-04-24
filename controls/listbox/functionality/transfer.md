@@ -1,6 +1,6 @@
 ---
 title: Transfer
-page_title: Transfer | UI for ASP.NET AJAX Documentation
+page_title: Transfer | RadListBox for ASP.NET AJAX Documentation
 description: Transfer
 slug: listbox/functionality/transfer
 tags: transfer

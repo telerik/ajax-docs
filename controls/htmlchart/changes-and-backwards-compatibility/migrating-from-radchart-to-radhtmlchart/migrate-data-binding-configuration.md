@@ -1,6 +1,6 @@
 ---
 title: Migrate Data Binding Configuration
-page_title: Migrate Data Binding Configuration | UI for ASP.NET AJAX Documentation
+page_title: Migrate Data Binding Configuration | RadHtmlChart for ASP.NET AJAX Documentation
 description: Migrate Data Binding Configuration
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-data-binding-configuration
 tags: migrate,data,binding,configuration
@@ -12,24 +12,24 @@ position: 2
 
 
 
-This article illustrates how to migrate the configuration of data binding with discrete and continuous data from	__RadChart__ to __RadHtmlChart__. The examples illustrate how to migrate the data binding declaratively;	however, you can use the same classes and properties of the series and axis to programmatically migrate the configuration of the data binding.
+This article illustrates how to migrate the configuration of data binding with discrete and continuous data from	**RadChart** to **RadHtmlChart**. The examples illustrate how to migrate the data binding declaratively;	however, you can use the same classes and properties of the series and axis to programmatically migrate the configuration of the data binding.
 
 ## Data Binding Discrete Data
 
 ### Data Binding Discrete Data in RadChart
 
-Data-bound specific properties in __RadChart__ are configured in the following objects:
+Data-bound specific properties in **RadChart** are configured in the following objects:
 
-* __XAxis__ - The object holds the corresponding x-axis related property -__DataLabelsColumn__.
+* **XAxis** - The object holds the corresponding x-axis related property -**DataLabelsColumn**.
 
-* __ChartSeries__ - The object holds the corresponding y-axis related properties -__DataYColumn__, __DataYColumn2__,__DataYColumn3__ and __DataYColumn4__.
+* **ChartSeries** - The object holds the corresponding y-axis related properties -**DataYColumn**, **DataYColumn2**,**DataYColumn3** and **DataYColumn4**.
 
-The code in __Example 1__ illustrates how to bind discrete data in a Candlestick series with __RadChart__and is shown in __Figure 1__.
+The code in **Example 1** illustrates how to bind discrete data in a Candlestick series with **RadChart**and is shown in **Figure 1**.
 >caption Figure 1: Display data-bound discrete data in a Candlestick series with RadChart.
 
 ![htmlchart-migrating-data-binding-chart-discrete](images/htmlchart-migrating-data-binding-chart-discrete.png)
 
-__Example 1__: Configuring data binding of discrete data in a Candlestick series with __RadChart__.
+**Example 1**: Configuring data binding of discrete data in a Candlestick series with **RadChart**.
 
 
 
@@ -107,11 +107,11 @@ __Example 1__: Configuring data binding of discrete data in a Candlestick series
 
 ### Data Binding Discrete Data in RadHtmlChart
 
-Data-bound specific properties in __RadHtmlChart__ are configured in the following objects:
+Data-bound specific properties in **RadHtmlChart** are configured in the following objects:
 
-* __XAxis__ - The object holds the corresponding x-axis related property -__DataLabelsField__.
+* **XAxis** - The object holds the corresponding x-axis related property -**DataLabelsField**.
 
-* __[Series Type]__ - The object holds the corresponding y-axis related properties.__RadHtmlChart__ exposes specific data-bound properties for each series type, which makes theconfiguration much easier and intuitive. __Table 1__ lists the corresponding data-boundproperties for each category series type.
+* **[Series Type]** - The object holds the corresponding y-axis related properties.**RadHtmlChart** exposes specific data-bound properties for each series type, which makes theconfiguration much easier and intuitive. **Table 1** lists the corresponding data-boundproperties for each category series type.
 
 
 >caption 	Table 1: List of data-bound properties for the corresponding category series types.
@@ -122,12 +122,12 @@ Data-bound specific properties in __RadHtmlChart__ are configured in the followi
 |Candlestick|DataOpenField, DataHighField, DataLowField, DataCloseField|
 |Pie|DataFieldY|
 
-The code in __Example 2__ illustrates how to bind discrete data in a Candlestick series with __RadHtmlChart__in __Figure 2__.
+The code in **Example 2** illustrates how to bind discrete data in a Candlestick series with **RadHtmlChart**in **Figure 2**.
 >caption Figure 2: Display data-bound discrete data in a Candlestick series with RadHtmlChart.
 
 ![htmlchart-migrating-data-binding-htmlchart-discrete](images/htmlchart-migrating-data-binding-htmlchart-discrete.png)
 
-__Example 2__: Configuring data binding of discrete data in a Candlestick series with __RadHtmlChart__.
+**Example 2**: Configuring data binding of discrete data in a Candlestick series with **RadHtmlChart**.
 
 
 
@@ -203,18 +203,18 @@ __Example 2__: Configuring data binding of discrete data in a Candlestick series
 
 ### Data Binding Continuous Data in RadChart
 
-Data-bound specific properties in __RadChart__ are configured in the __ChartSeries__ object:
+Data-bound specific properties in **RadChart** are configured in the **ChartSeries** object:
 
-* The corresponding x-axis related properties are__DataXColumn__ and __DataXColumn2__.
+* The corresponding x-axis related properties are**DataXColumn** and **DataXColumn2**.
 
-* The corresponding y-axis related properties are__DataYColumn__, __DataYColumn2__,__DataYColumn3__ and __DataYColumn4__.
+* The corresponding y-axis related properties are**DataYColumn**, **DataYColumn2**,**DataYColumn3** and **DataYColumn4**.
 
-The code in __Example 3__ illustrates how to bind continuous data in a Point series with __RadChart__and is shown in __Figure 3__.
+The code in **Example 3** illustrates how to bind continuous data in a Point series with **RadChart**and is shown in **Figure 3**.
 >caption Figure 3: Display data-bound continuous data in a Point series with RadChart.
 
 ![htmlchart-migrating-data-binding-chart-continuous](images/htmlchart-migrating-data-binding-chart-continuous.png)
 
-__Example 3__: Configuring data binding of continuous data in a Point series with __RadChart__.
+**Example 3**: Configuring data binding of continuous data in a Point series with **RadChart**.
 
 
 
@@ -284,7 +284,7 @@ __Example 3__: Configuring data binding of continuous data in a Point series wit
 
 ### Data Binding Continuous Data in RadHtmlChart
 
-Data-bound specific properties in __RadHtmlChart__ are configured in the __[Series Type]__ object.The series object holds the corresponding x-axis and y-axis related properties.__RadHtmlChart__ exposes specific data-bound properties for each series type, which makes theconfiguration much easier and intuitive. __Table 2__ lists the corresponding data-boundproperties for each numeric series type.
+Data-bound specific properties in **RadHtmlChart** are configured in the **[Series Type]** object.The series object holds the corresponding x-axis and y-axis related properties.**RadHtmlChart** exposes specific data-bound properties for each series type, which makes theconfiguration much easier and intuitive. **Table 2** lists the corresponding data-boundproperties for each numeric series type.
 
 
 >caption 	Table 2: List of data-bound properties for the corresponding numeric series types.
@@ -294,12 +294,12 @@ Data-bound specific properties in __RadHtmlChart__ are configured in the __[Seri
 |Scatter, ScatterLine|DataFieldY, DataFieldX|
 |Bubble|DataFieldY, DataFieldX, DataFieldSize, DataFieldTooltip|
 
-The code in __Example 4__ illustrates how to bind continuous data in a Scatter series with __RadHtmlChart__ as shown	in __Figure 4__.
+The code in **Example 4** illustrates how to bind continuous data in a Scatter series with **RadHtmlChart** as shown	in **Figure 4**.
 >caption Figure 4: Display data-bound continuous data in a Scatter series with RadHtmlChart.
 
 ![htmlchart-migrating-data-binding-htmlchart-continuous](images/htmlchart-migrating-data-binding-htmlchart-continuous.png)
 
-__Example 4__: Configuring data binding of continuous data in a Scatter series with __RadHtmlChart__.
+**Example 4**: Configuring data binding of continuous data in a Scatter series with **RadHtmlChart**.
 
 
 

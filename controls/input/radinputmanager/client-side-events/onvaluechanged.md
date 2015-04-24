@@ -1,6 +1,6 @@
 ---
 title: OnValueChanged
-page_title: OnValueChanged | UI for ASP.NET AJAX Documentation
+page_title: OnValueChanged | RadInput for ASP.NET AJAX Documentation
 description: OnValueChanged
 slug: input/radinputmanager/client-side-events/onvaluechanged
 tags: onvaluechanged

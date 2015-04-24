@@ -1,6 +1,6 @@
 ---
 title: Hide the Transfer to Left button
-page_title: Hide the Transfer to Left button | UI for ASP.NET AJAX Documentation
+page_title: Hide the Transfer to Left button | RadListBox for ASP.NET AJAX Documentation
 description: Hide the Transfer to Left button
 slug: listbox/how-to/hide-the-transfer-to-left-button
 tags: hide,the,transfer,to,left,button

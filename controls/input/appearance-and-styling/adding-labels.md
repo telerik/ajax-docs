@@ -1,6 +1,6 @@
 ---
 title: Adding Labels
-page_title: Adding Labels | UI for ASP.NET AJAX Documentation
+page_title: Adding Labels | RadInput for ASP.NET AJAX Documentation
 description: Adding Labels
 slug: input/appearance-and-styling/adding-labels
 tags: adding,labels

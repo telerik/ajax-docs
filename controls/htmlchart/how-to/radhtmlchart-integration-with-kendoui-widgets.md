@@ -1,6 +1,6 @@
 ---
 title: RadHtmlChart Integration With KendoUI Widgets
-page_title: RadHtmlChart Integration With KendoUI Widgets | UI for ASP.NET AJAX Documentation
+page_title: RadHtmlChart Integration With KendoUI Widgets | RadHtmlChart for ASP.NET AJAX Documentation
 description: RadHtmlChart Integration With KendoUI Widgets
 slug: htmlchart/how-to/radhtmlchart-integration-with-kendoui-widgets
 tags: radhtmlchart,integration,with,kendoui,widgets
@@ -12,7 +12,7 @@ position: 3
 
 
 
-This help article illustrates how to use a __RadHtmlChart__ control and a [Kendo UI Widget](http://docs.telerik.com/kendo-ui/introduction) on the same WebForms page. __RadHtmlChart__ is an ASP.NET server-side wrapper of the Kendo UI charting widget and it already loads the chart specific scripts and jQuery. You can select either pattern below in order to avoid script conflicts in such a setup:
+This help article illustrates how to use a **RadHtmlChart** control and a [Kendo UI Widget](http://docs.telerik.com/kendo-ui/introduction) on the same WebForms page. **RadHtmlChart** is an ASP.NET server-side wrapper of the Kendo UI charting widget and it already loads the chart specific scripts and jQuery. You can select either pattern below in order to avoid script conflicts in such a setup:
 
 * [Use External jQuery with RadScriptManager](#use-external-jquery-with-radscriptmanager)
 
@@ -24,7 +24,7 @@ When you load an external jQuery on a page that has a RadHtmlChart instance you 
 
 You can easily handle that situation by configuring RadScriptManager to use the external jQuery as follows:
 
-1. Add script references to the external jQuery library (__jQuery.js__) andKendo UI library (__kendo.all.min.js__) in the head tag.
+1. Add script references to the external jQuery library (**jQuery.js**) andKendo UI library (**kendo.all.min.js**) in the head tag.
 
 ````ASPNET
 	<head runat="server">
@@ -36,7 +36,7 @@ You can easily handle that situation by configuring RadScriptManager to use the 
 
 
 
-1. Configure the RadScriptManager as per the __Including external jQuery__ section from the [Using jQuery](020D635F-654D-41FB-9BD0-258E4ED5B401) article.
+1. Configure the RadScriptManager as per the **Including external jQuery** section from the [Using jQuery](020D635F-654D-41FB-9BD0-258E4ED5B401) article.
 
 ````ASPNET
 			<telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnableEmbeddedjQuery="false">
@@ -50,9 +50,9 @@ You can easily handle that situation by configuring RadScriptManager to use the 
 
 
 
-See an __Example 1__ for details.
+See an **Example 1** for details.
 
-__Example 1__: RadHtmlChart and Kendo UI editor integration with external jQuery.
+**Example 1**: RadHtmlChart and Kendo UI editor integration with external jQuery.
 
 ````ASPNET
 	<html xmlns="http://www.w3.org/1999/xhtml">
@@ -123,23 +123,23 @@ This can be done by loading a single jQuery and considering the following script
 
 1. Add script references to the files listed below in this specific order.
 
-1. __Core.js__ — a basic script that the Telerik.Web.UI depends on.
+1. **Core.js** — a basic script that the Telerik.Web.UI depends on.
 
-1. __jQuery.js__ — the jQuery JavaScript library from the Telerik.Web.UI assembly.
+1. **jQuery.js** — the jQuery JavaScript library from the Telerik.Web.UI assembly.
 
-1. __jQueryInclude.js__ — a script that assigns the Telerik.Web.UI jQuery to the global $ and jQuery aliases.
+1. **jQueryInclude.js** — a script that assigns the Telerik.Web.UI jQuery to the global $ and jQuery aliases.
 
-1. __jQueryPlugins.js__ — additional JavaScript plugins required by the __RadHtmlChart__.
+1. **jQueryPlugins.js** — additional JavaScript plugins required by the **RadHtmlChart**.
 
-1. __kendo.all.min.js__ — the Kendo UI JavaScript library.
+1. **kendo.all.min.js** — the Kendo UI JavaScript library.
 
-1. __RadHtmlChart.js__ — the __RadHtmlChart__'s specific scripts including the skins. It must be loaded after the__kendo.all.min.js__ file, in order to prevent the __RadHtmlChart__ skins from overriding by the Kendo UI themes.
+1. **RadHtmlChart.js** — the **RadHtmlChart**'s specific scripts including the skins. It must be loaded after the**kendo.all.min.js** file, in order to prevent the **RadHtmlChart** skins from overriding by the Kendo UI themes.
 
-1. If you are using __RadScriptManager__, set the __EnableScriptCombine__ property to __false__.
+1. If you are using **RadScriptManager**, set the **EnableScriptCombine** property to **false**.
 
-1. Set the __EnableEmbeddedScripts__ property of the __RadHtmlChart__ control to __false__
+1. Set the **EnableEmbeddedScripts** property of the **RadHtmlChart** control to **false**
 
-__Example2__: RadHtmlChart and Kendo UI editor integration with disabling embedded resources of the chart.
+**Example2**: RadHtmlChart and Kendo UI editor integration with disabling embedded resources of the chart.
 
 ````ASPNET
 			<!--Kendo UI editor specific CSS -->

@@ -1,6 +1,6 @@
 ---
 title: insertItem
-page_title: insertItem | UI for ASP.NET AJAX Documentation
+page_title: insertItem | RadListView for ASP.NET AJAX Documentation
 description: insertItem
 slug: listview/client-side-programming/radlistview/methods/insertitem
 tags: insertitem
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-Method which fired the PerformInsert command for the respective __RadListView__ object.
+Method which fired the PerformInsert command for the respective **RadListView** object.
 
 
 | function insertItem() |

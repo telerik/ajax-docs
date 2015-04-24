@@ -1,6 +1,6 @@
 ---
 title: Templates
-page_title: Templates | UI for ASP.NET AJAX Documentation
+page_title: Templates | RadLightBox for ASP.NET AJAX Documentation
 description: Templates
 slug: lightbox/functionality/templates
 tags: templates

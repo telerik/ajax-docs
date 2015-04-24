@@ -1,6 +1,6 @@
 ---
 title: Render Modes
-page_title: Render Modes | UI for ASP.NET AJAX Documentation
+page_title: Render Modes | RadInput for ASP.NET AJAX Documentation
 description: Render Modes
 slug: input/mobile-support/render-modes
 tags: render,modes

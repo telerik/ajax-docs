@@ -1,6 +1,6 @@
 ---
 title: OnKeyPress
-page_title: OnKeyPress | UI for ASP.NET AJAX Documentation
+page_title: OnKeyPress | RadInput for ASP.NET AJAX Documentation
 description: OnKeyPress
 slug: input/radinputmanager/client-side-events/onkeypress
 tags: onkeypress

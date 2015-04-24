@@ -1,6 +1,6 @@
 ---
 title: Switching between Insert/Update/Regular Modes
-page_title: Switching between Insert/Update/Regular Modes | UI for ASP.NET AJAX Documentation
+page_title: Switching between Insert/Update/Regular Modes | RadListView for ASP.NET AJAX Documentation
 description: Switching between Insert/Update/Regular Modes
 slug: listview/data-editing/how-to/switching-between-insert/update/regular-modes
 tags: switching,between,insert/update/regular,modes
@@ -132,7 +132,7 @@ One of the most common scenario is to display items in edit mode or the insert i
 
 There are three different approaches you can follow when you need to show the RadListView insert form:
 
-1. Add button with __CommandName__ set to __"InitInsert"__
+1. Add button with **CommandName** set to **"InitInsert"**
 
 ````ASPNET
 	            <asp:Button ID="Button1" runat="server" CommandName="InitInsert" Text="Add New Record" />
@@ -140,7 +140,7 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 
-1. Using the __InsertItemPosition__ property
+1. Using the **InsertItemPosition** property
 
 ````ASPNET
 	            <asp:Button ID="btnAddNewRecord" runat="server" Text="Add New Record" OnClick="btnAddNewRecord_Click" />
@@ -240,7 +240,7 @@ There are three different approaches you can follow when you need to show the Ra
 
 
 
-1. Calling the __ShowInsertItem()__ method
+1. Calling the **ShowInsertItem()** method
 
 ````ASPNET
 	            <asp:Button ID="btnAddNewRecord1" runat="server" Text="Add New Record" OnClick="btnAddNewRecord1_Click" />
@@ -426,7 +426,7 @@ For closing the insert form you can use the below code:
 
 To turn an item or multiple items in edit mode, you might choose between the following approaches:
 
-1. Add the indexes of the items to the __EditIndexes__ collection on Page_Load (without additional rebind)
+1. Add the indexes of the items to the **EditIndexes** collection on Page_Load (without additional rebind)
 
 
 
@@ -501,7 +501,7 @@ To turn an item or multiple items in edit mode, you might choose between the fol
 
 
 
-1. Set the __Edit__ property of an item to true and Rebind()
+1. Set the **Edit** property of an item to true and Rebind()
 
 
 

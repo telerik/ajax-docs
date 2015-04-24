@@ -1,6 +1,6 @@
 ---
 title: OnMouseOver
-page_title: OnMouseOver | UI for ASP.NET AJAX Documentation
+page_title: OnMouseOver | RadInput for ASP.NET AJAX Documentation
 description: OnMouseOver
 slug: input/client-side-programming/events/onmouseover
 tags: onmouseover
@@ -14,19 +14,19 @@ position: 12
 
 ## 
 
-The __OnMouseOver__ client-side event handler is called when the mouse moves over the input area of the control.
+The **OnMouseOver** client-side event handler is called when the mouse moves over the input area of the control.
 
->note The __OnMouseOver__ event is supported by all __RadInput__ controls.
+>note The **OnMouseOver** event is supported by all **RadInput** controls.
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
+* **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
-The following example uses the __OnMouseOver__ event to display an alert:
+The following example uses the **OnMouseOver** event to display an alert:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server">

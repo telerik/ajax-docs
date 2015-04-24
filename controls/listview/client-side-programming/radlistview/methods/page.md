@@ -1,6 +1,6 @@
 ---
 title: page
-page_title: page | UI for ASP.NET AJAX Documentation
+page_title: page | RadListView for ASP.NET AJAX Documentation
 description: page
 slug: listview/client-side-programming/radlistview/methods/page
 tags: page
@@ -19,7 +19,7 @@ Method which triggers paging action with page command passed as an argument. See
 
 | function page(pageCommand) |  |  |
 | ------ | ------ | ------ |
-| __pageCommand__ |Integer|The page command that will be executed.|
+| **pageCommand** |Integer|The page command that will be executed.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

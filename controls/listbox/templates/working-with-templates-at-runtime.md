@@ -1,6 +1,6 @@
 ---
 title: Working with Templates at Runtime
-page_title: Working with Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Working with Templates at Runtime | RadListBox for ASP.NET AJAX Documentation
 description: Working with Templates at Runtime
 slug: listbox/templates/working-with-templates-at-runtime
 tags: working,with,templates,at,runtime

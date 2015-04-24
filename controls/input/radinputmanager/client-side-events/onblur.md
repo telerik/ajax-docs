@@ -1,6 +1,6 @@
 ---
 title: OnBlur
-page_title: OnBlur | UI for ASP.NET AJAX Documentation
+page_title: OnBlur | RadInput for ASP.NET AJAX Documentation
 description: OnBlur
 slug: input/radinputmanager/client-side-events/onblur
 tags: onblur

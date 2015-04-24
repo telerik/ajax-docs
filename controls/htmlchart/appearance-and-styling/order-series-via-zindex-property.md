@@ -1,6 +1,6 @@
 ---
 title: Order Series via ZIndex Property
-page_title: Order Series via ZIndex Property | UI for ASP.NET AJAX Documentation
+page_title: Order Series via ZIndex Property | RadHtmlChart for ASP.NET AJAX Documentation
 description: Order Series via ZIndex Property
 slug: htmlchart/appearance-and-styling/order-series-via-zindex-property
 tags: order,series,via,zindex,property
@@ -12,16 +12,16 @@ position: 0
 
 
 
-As of __Q1 2015__ the __RadHtmlChart__ series items expose the __ZIndex__	property with which you can define a specific ordering defined by the numeric value assigned.
+As of **Q1 2015** the **RadHtmlChart** series items expose the **ZIndex**	property with which you can define a specific ordering defined by the numeric value assigned.
 >caption Figure 1: Examines the difference between the default and the predefined (via ZIndex) ordering.
 
 ![htmlchart-ordering-via-zindex](images/htmlchart-ordering-via-zindex.png)
 
 ## Defining the Series’ Ordering
 
-Using the __ZIndex__ property of a __Series__ item can change the default ordering of the series in the chart,i.e., one that is shown below, to be instructed to overlay the other series. The logic behind is based on simple	numeric value rules. Which means that the series with the greatest __ZIndex__ value will be shown above all.
+Using the **ZIndex** property of a **Series** item can change the default ordering of the series in the chart,i.e., one that is shown below, to be instructed to overlay the other series. The logic behind is based on simple	numeric value rules. Which means that the series with the greatest **ZIndex** value will be shown above all.
 
-You can see in __Example 1__ the markup that generates the charts in __Figure 1__. As shown in the first chart (Ordering via ZIndex),	*GreenSeries* is rendered above *BlackSeries*. This is because the __ZIndex__ property of the *GreenSeries*	is set to 2, whereas the one	of the *BlackSeries* to 1. As for the second chart, you can see that the BlackSeries is displayed on top, because as per to default	rendering, the first series added to the Series collection is the one to show on top.
+You can see in **Example 1** the markup that generates the charts in **Figure 1**. As shown in the first chart (Ordering via ZIndex),	*GreenSeries* is rendered above *BlackSeries*. This is because the **ZIndex** property of the *GreenSeries*	is set to 2, whereas the one	of the *BlackSeries* to 1. As for the second chart, you can see that the BlackSeries is displayed on top, because as per to default	rendering, the first series added to the Series collection is the one to show on top.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="AreaChart1" Width="300" Height="300">

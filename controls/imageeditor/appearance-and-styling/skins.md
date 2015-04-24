@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadImageEditor for ASP.NET AJAX Documentation
 description: Skins
 slug: imageeditor/appearance-and-styling/skins
 tags: skins
@@ -12,16 +12,16 @@ position: 0
 
 
 
-__RadImageEditor__uses __skins__ to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel.
+**RadImageEditor**uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel.
 
-To apply a skin to a __RadImageEditor__control, set its __Skin__ property.
+To apply a skin to a **RadImageEditor**control, set its **Skin** property.
 
-__RadImageEditor__ is installed with a number of preset skins. These are shown below:
+**RadImageEditor** is installed with a number of preset skins. These are shown below:
 >caption 
 
 ![radimagerditor-skins](images/radimagerditor-skins.png)
 
->note The __Hay__ , __Forest__ , __Sitefinity__ and __Transparent__ skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of __Q1 2014__ .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
@@ -33,6 +33,6 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 
 1. Drag and drop the CSS file from the Project Explorer onto your Web page.
 
-1. Set the __EnableEmbeddedSkins__ property of the control to __False__.
+1. Set the **EnableEmbeddedSkins** property of the control to **False**.
 
-The stylesheet for a __RadImageEditor__skin has the name __ImageEditor.[SkinName].css__ and can be found in the __...Skins/[SkinName]__ directory. The images are found in the __...Skins/[SkinName]/ImageEditor__ directory. For example, the stylesheet for the "Black" skin is called ImageEditor.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/ImageEditor directory. The images are referenced by name from within the stylesheet.
+The stylesheet for a **RadImageEditor**skin has the name **ImageEditor.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ImageEditor** directory. For example, the stylesheet for the "Black" skin is called ImageEditor.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/ImageEditor directory. The images are referenced by name from within the stylesheet.

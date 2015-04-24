@@ -1,6 +1,6 @@
 ---
-title: Grouping Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Grouping Overview | RadListView for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/fuctionality/grouping/overview
 tags: overview

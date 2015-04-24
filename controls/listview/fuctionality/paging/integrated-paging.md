@@ -1,6 +1,6 @@
 ---
 title: Integrated Paging
-page_title: Integrated Paging | UI for ASP.NET AJAX Documentation
+page_title: Integrated Paging | RadListView for ASP.NET AJAX Documentation
 description: Integrated Paging
 slug: listview/fuctionality/paging/integrated-paging
 tags: integrated,paging
@@ -16,24 +16,24 @@ position: 0
 
 RadListView natively supports paging, which lets users view large sets of data in small chunks for faster loading and easier navigation. You should set the AllowPaging property to True to have RadListView handle paging. By default, the AllowPaging property is False.
 
-In order to use integrated paging in RadListView you have to assign __CommandName__="__Page__" (or __RadListView.PageCommandName__)____and appropriate __CommandArgument__values for the corresponding LinkButton/Button/ImageButton controls.Thus the listview instance will fetch the corresponding set of data from its data source and display the results.
+In order to use integrated paging in RadListView you have to assign **CommandName**="**Page**" (or **RadListView.PageCommandName**) and appropriate **CommandArgument**values for the corresponding LinkButton/Button/ImageButton controls.Thus the listview instance will fetch the corresponding set of data from its data source and display the results.
 
 The command names are listed bellow:
 
-* __PageCommandName__represents the Page command name and fires the __RadListView.PageIndexChanged__ event. It can be raised by link/push/image buttons residing in the RadListView body when its __AllowPaging__property is set to true. Their __CommandName__ should be set to __'Page'__ and __CommandArgument__ must match one of the values from the table below:
+* **PageCommandName**represents the Page command name and fires the **RadListView.PageIndexChanged** event. It can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging**property is set to true. Their **CommandName** should be set to **'Page'** and **CommandArgument** must match one of the values from the table below:
 
 
 >caption  
 
 | Paging command arguments |  |
 | ------ | ------ |
-| __First__ |Indicates that the end user chose to navigate to the first page in the grid|
-| __Next__ |Indicates that the end user chose to navigate to the next page in the grid|
-| __Prev__ |Indicates that the end user chose to navigate to the previous page in the grid|
-| __Last__ |Indicates that the end user chose to navigate to the last page in the grid|
-| __<NumericValue>__ |<NumericValue> should be replaced with number that points to the page to which the control should navigate to|
+| **First** |Indicates that the end user chose to navigate to the first page in the grid|
+| **Next** |Indicates that the end user chose to navigate to the next page in the grid|
+| **Prev** |Indicates that the end user chose to navigate to the previous page in the grid|
+| **Last** |Indicates that the end user chose to navigate to the last page in the grid|
+| **<NumericValue>** |<NumericValue> should be replaced with number that points to the page to which the control should navigate to|
 
-* __ChangePageSizeCommandName__represents the ChangePageSize command name fires __RadListView.PageSizeChanged__ event. It can be raised by link/push/image buttons residing in the RadListView body when its __AllowPaging__property is set to true. Their __CommandName__ should be set to __'ChangePageSize'__ and __CommandArgument__ must be the actual number representing the new page size that will be set.
+* **ChangePageSizeCommandName**represents the ChangePageSize command name fires **RadListView.PageSizeChanged** event. It can be raised by link/push/image buttons residing in the RadListView body when its **AllowPaging**property is set to true. Their **CommandName** should be set to **'ChangePageSize'** and **CommandArgument** must be the actual number representing the new page size that will be set.
 
 Keep in mind that you need to specify ItemPlaceholderID property value for RadListView which matches the id of an ASP.NET server control and will be used as a holder of the actual listview data content. The RadListView instance in [this example](http://demos.telerik.com/aspnet-ajax/ListView/examples/Paging/IntegratedPaging/DefaultCS.aspx) has asp PlaceHolder defined inside its LayoutTemplates for this purpose.
 

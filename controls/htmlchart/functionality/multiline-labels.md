@@ -1,6 +1,6 @@
 ---
 title: Multiline Labels
-page_title: Multiline Labels | UI for ASP.NET AJAX Documentation
+page_title: Multiline Labels | RadHtmlChart for ASP.NET AJAX Documentation
 description: Multiline Labels
 slug: htmlchart/functionality/multiline-labels
 tags: multiline,labels
@@ -14,16 +14,16 @@ position: 2
 
 ## 
 
-You can split labels and titles in __RadHtmlChart__ into multiple lines by using the __"\n"__ line feed character. This help article shows how to wrap labels and titles in a chart (__Figure 1__) with a small sample (__Example 1__). The multiline labels feature is available since __Q3 2014__. If you are using an older version of the suite, [ this ]( http://feedback.telerik.com/Project/108/Feedback/Details/38633 ) page provides a workaround.
+You can split labels and titles in **RadHtmlChart** into multiple lines by using the **"\n"** line feed character. This help article shows how to wrap labels and titles in a chart (**Figure 1**) with a small sample (**Example 1**). The multiline labels feature is available since **Q3 2014**. If you are using an older version of the suite, [ this ]( http://feedback.telerik.com/Project/108/Feedback/Details/38633 ) page provides a workaround.
 
->note You can add line breaks in tooltips via the __<br />__ tag because tooltips in __RadHtmlChart__ are rendered with simple HTML.
+>note You can add line breaks in tooltips via the **<br />** tag because tooltips in **RadHtmlChart** are rendered with simple HTML.
 >
 
 >caption Figure 1: Wrapping text in chart labels and titles by using a line feed character ("\n").
 
 ![htmlchart-multiline-labels](images/htmlchart-multiline-labels.png)
 
-__Example 1__: How to split labels, titles and tooltips in __RadHtmlChart__ into several lines. This code creates the chart shown in __Figure 1__.
+**Example 1**: How to split labels, titles and tooltips in **RadHtmlChart** into several lines. This code creates the chart shown in **Figure 1**.
 
 ````ASPNET
 		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800px" Height="500px">

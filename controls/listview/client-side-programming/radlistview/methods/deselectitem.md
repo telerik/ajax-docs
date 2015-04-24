@@ -1,6 +1,6 @@
 ---
 title: deselectItem
-page_title: deselectItem | UI for ASP.NET AJAX Documentation
+page_title: deselectItem | RadListView for ASP.NET AJAX Documentation
 description: deselectItem
 slug: listview/client-side-programming/radlistview/methods/deselectitem
 tags: deselectitem
@@ -14,14 +14,14 @@ position: 9
 
 ## 
 
-Method which deselects the __RadListView__ item corresponding to the index passed as an argument.
+Method which deselects the **RadListView** item corresponding to the index passed as an argument.
 
 
 
 
 | function deselectItem(index) |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The item corresponding to the __index__ will be deselected.|
+| **index** |Integer|The item corresponding to the **index** will be deselected.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

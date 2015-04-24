@@ -1,6 +1,6 @@
 ---
 title: Transferred
-page_title: Transferred | UI for ASP.NET AJAX Documentation
+page_title: Transferred | RadListBox for ASP.NET AJAX Documentation
 description: Transferred
 slug: listbox/server-side-programming/server-events/transferred
 tags: transferred

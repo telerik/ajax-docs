@@ -1,6 +1,6 @@
 ---
 title: Date Axis
-page_title: Date Axis | UI for ASP.NET AJAX Documentation
+page_title: Date Axis | RadHtmlChart for ASP.NET AJAX Documentation
 description: Date Axis
 slug: htmlchart/functionality/axes/date-axis
 tags: date,axis
@@ -12,50 +12,50 @@ position: 0
 
 
 
-This Help article describes the __Data Axis__ support in __RadHtmlChart__ and provides	a figure and example. As of Q2 2013, __Date Axis__ support is available in __RadHtmlChart__,	so that the chart can now be databound to __DateTime__ objects (see __Figure 1__)	or their string representations.	[XAxis labels]({%slug htmlchart/server-side-programming/axes-configuration%}),	[series labels and tooltips]({%slug htmlchart/server-side-programming/series-configuration%}) can be formatted to the desired date format.
+This Help article describes the **Data Axis** support in **RadHtmlChart** and provides	a figure and example. As of Q2 2013, **Date Axis** support is available in **RadHtmlChart**,	so that the chart can now be databound to **DateTime** objects (see **Figure 1**)	or their string representations.	[XAxis labels]({%slug htmlchart/server-side-programming/axes-configuration%}),	[series labels and tooltips]({%slug htmlchart/server-side-programming/series-configuration%}) can be formatted to the desired date format.
 
->note  __Date Axis__ support is available only for a *databound*  __RadHtmlChart__ which automatically detects the __DateTime__ object data in the column/field and adjusts the distribution of the items on the XAxis.
+>note  **Date Axis** support is available only for a *databound*  **RadHtmlChart** which automatically detects the **DateTime** object data in the column/field and adjusts the distribution of the items on the XAxis.
 >
 
 
 ## Numeric Series (Bubble, Scatter, ScatterLine)
 
-The default base time intervalfor the __Date Axis labels__ is determined automatically from the value range. The__SeriesItems__ that are created appear over their corresponding date and respect the scale of theaxis (items for dates that are closer together are plotted next to each other).
+The default base time intervalfor the **Date Axis labels** is determined automatically from the value range. The**SeriesItems** that are created appear over their corresponding date and respect the scale of theaxis (items for dates that are closer together are plotted next to each other).
 
-The __BaseUnit__ property controls the scale of the axis. The available options are__"auto"__, __"years"__, __"months"__,	__"weeks"__, __"days"__,__"hours"__, __"minutes"__ and __"seconds"__.This controls the time intervals though which a label is placed on the date axis.
+The **BaseUnit** property controls the scale of the axis. The available options are**"auto"**, **"years"**, **"months"**,	**"weeks"**, **"days"**,**"hours"**, **"minutes"** and **"seconds"**.This controls the time intervals though which a label is placed on the date axis.
 
 No prior data sorting is required for the data source.
 
-The __Type__ property of the XAxis must not beset explicitly; otherwise, the dates will be converted to numbers.
+The **Type** property of the XAxis must not beset explicitly; otherwise, the dates will be converted to numbers.
 
 ## Category Series (Area, Bar, Candlestick, Column, Line)
 
-The type of the XAxis is controlled via its __Type__ property which takes astring value of __"Date"__ or __"Category"__.See __Table 1__ for more details on these properties.
+The type of the XAxis is controlled via its **Type** property which takes astring value of **"Date"** or **"Category"**.See **Table 1** for more details on these properties.
 
 
 >caption 	Table 1: Description of XAxis Type - "Date" and "Category".
 
 | Type | Description |
 | ------ | ------ |
-| __Date__ |
+| **Date** |
 
-* The XAxis behaves like a __Date Axis__ from a numeric series,	so series items are created for their corresponding date.
+* The XAxis behaves like a **Date Axis** from a numeric series,	so series items are created for their corresponding date.
 
-* The default base time interval for	the __Date Axis__ labels is determined automatically from the value range and it can be controlled through	the __BaseUnit__ property. Available options are __"auto"__ , __"years"__ , __"months"__ , __"weeks"__ , __"days"__ , __"hours"__ , __"minutes"__ and __"seconds"__ .
+* The default base time interval for	the **Date Axis** labels is determined automatically from the value range and it can be controlled through	the **BaseUnit** property. Available options are **"auto"** , **"years"** , **"months"** , **"weeks"** , **"days"** , **"hours"** , **"minutes"** and **"seconds"** .
 
 * No prior data sorting is required for the data source.
 
-* You can explicitly set the first and the last date to be displayed on the x-axis through the __MinDateValue__ and __MaxDateValue__ properties.|
-| __Category__ |
+* You can explicitly set the first and the last date to be displayed on the x-axis through the **MinDateValue** and **MaxDateValue** properties.|
+| **Category** |
 
-* The XAxis behaves like a __Category Axis__ , so that __DateTime__ intervals between	the items are not taken into consideration and XAxis items are plotted on the XAxis evenly.
+* The XAxis behaves like a **Category Axis** , so that **DateTime** intervals between	the items are not taken into consideration and XAxis items are plotted on the XAxis evenly.
 
-* A __SeriesItem__ will be created for each entry in the data source and they will be placed	in the order in which they passed. Thus, the data source may need to be sorted in ascending order	to have the series items placed subsequently according to their date.|
+* A **SeriesItem** will be created for each entry in the data source and they will be placed	in the order in which they passed. Thus, the data source may need to be sorted in ascending order	to have the series items placed subsequently according to their date.|
 >caption Figure 1: Configuration of a Numeric Series (ScatterLine) bound to DateTime object data.
 
 ![htmlchart-dateaxis-overview](images/htmlchart-dateaxis-overview.png)
 
-__Example 1__ shows the simple markup used to configure a__Numeric Series (ScatterLine)__ bound to __DateTime__object data in __Figure 1__.
+**Example 1** shows the simple markup used to configure a**Numeric Series (ScatterLine)** bound to **DateTime**object data in **Figure 1**.
 
 
 

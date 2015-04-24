@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDoubleClicked
-page_title: OnClientItemDoubleClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDoubleClicked | RadListBox for ASP.NET AJAX Documentation
 description: OnClientItemDoubleClicked
 slug: listbox/client-side-programming/events/onclientitemdoubleclicked
 tags: onclientitemdoubleclicked

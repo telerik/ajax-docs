@@ -1,6 +1,6 @@
 ---
 title: Add a Check All Item
-page_title: Add a Check All Item | UI for ASP.NET AJAX Documentation
+page_title: Add a Check All Item | RadListBox for ASP.NET AJAX Documentation
 description: Add a Check All Item
 slug: listbox/how-to/add-a-check-all-item
 tags: add,a,check,all,item

@@ -1,6 +1,6 @@
 ---
 title: Working with Templates at Design Time
-page_title: Working with Templates at Design Time | UI for ASP.NET AJAX Documentation
+page_title: Working with Templates at Design Time | RadListBox for ASP.NET AJAX Documentation
 description: Working with Templates at Design Time
 slug: listbox/templates/working-with-templates-at-design-time
 tags: working,with,templates,at,design,time

@@ -1,6 +1,6 @@
 ---
 title: Data and Layout
-page_title: Data and Layout | UI for ASP.NET AJAX Documentation
+page_title: Data and Layout | RadListView for ASP.NET AJAX Documentation
 description: Data and Layout
 slug: listview/templates/data-and-layout
 tags: data,and,layout
@@ -32,7 +32,7 @@ The most general template of RadListView is its LayoutTemplate. It specifies the
 
 
 
->note Note that you have to specify __ItemPlaceholderID__ property value for RadListView that matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. In the above code snippet this is __asp PlaceHolder__ with id __EmployeesContainer__ .
+>note Note that you have to specify **ItemPlaceholderID** property value for RadListView that matches the id of an ASP.NET server control (with id and runat=server properties set) which will be used as a holder of the actual listview data content. In the above code snippet this is **asp PlaceHolder** with id **EmployeesContainer** .
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Mouse Wheel Support
-page_title: Mouse Wheel Support | UI for ASP.NET AJAX Documentation
+page_title: Mouse Wheel Support | RadInput for ASP.NET AJAX Documentation
 description: Mouse Wheel Support
 slug: input/accessibility-and-internationalization/mouse-wheel-support
 tags: mouse,wheel,support

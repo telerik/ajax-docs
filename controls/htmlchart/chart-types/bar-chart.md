@@ -1,6 +1,6 @@
 ---
 title: Bar Chart
-page_title: Bar Chart | UI for ASP.NET AJAX Documentation
+page_title: Bar Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Bar Chart
 slug: htmlchart/chart-types/bar-chart
 tags: bar,chart
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-A Bar chart displays data as horizontal bars whose lengths vary according to their value. You can use a Bar chart to show a comparisonbetween several sets of data (for example, summaries of sales data for different time periods). Each series is automatically coloreddifferently for easier reading. This article describes some of the ways you can customize a Bar chart and__Example 1__ (at the end of this article) shows how to set properties for __Figure 1__.
+A Bar chart displays data as horizontal bars whose lengths vary according to their value. You can use a Bar chart to show a comparisonbetween several sets of data (for example, summaries of sales data for different time periods). Each series is automatically coloreddifferently for easier reading. This article describes some of the ways you can customize a Bar chart and**Example 1** (at the end of this article) shows how to set properties for **Figure 1**.
 
-__Figure 1:__ A basic Bar chart showing values by date.![htmlchart-barchart-simple-example](images/htmlchart-barchart-simple-example.png)
+**Figure 1:** A basic Bar chart showing values by date.![htmlchart-barchart-simple-example](images/htmlchart-barchart-simple-example.png)
 
 >note The y-axis is placed horizontally in this chart type, as this is where the item values must be positioned, whereas the x-axis that holds the items themselves is	vertical because this is where the base of the bars is.
 >
@@ -24,31 +24,31 @@ __Figure 1:__ A basic Bar chart showing values by date.![htmlchart-barchart-simp
 
 You can customize the Bar chart in several ways:
 
-* The color of each series is controlled via the __BackgroundColor__ property of the__BarSeries > Appearance > FillStyle__ inner tag.
+* The color of each series is controlled via the **BackgroundColor** property of the**BarSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the __Name__ property of the __BarSeries__.
+* The name that is shown in the legend is set via the **Name** property of the **BarSeries**.
 
-* The height of a bar is controlled by its __Y__ property of the __CategorySeriesItem__.
+* The height of a bar is controlled by its **Y** property of the **CategorySeriesItem**.
 
-* Each item can have a label and a tooltip which follow the common pattern defined in the __DataFormatString__ property of the__LabelsAppearance__ and __TooltipsAppearance__ sections of the series.The format string uses the __Y__ of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
+* Each item can have a label and a tooltip which follow the common pattern defined in the **DataFormatString** property of the**LabelsAppearance** and **TooltipsAppearance** sections of the series.The format string uses the **Y** of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
 
 * The axes are also fully customizable — they automatically adjust their scale to accomodate the data that comes in and for finer tuning,there are numerous properties that can change each aspect:
 
-* Directly in the axis tag you can use its properties to control color, major and minor tick types and sizes, minimal andmaximal values for the y-axis (plus a step size), whereas the x-axis requires a set of items to match the number of__SeriesItems__ the series have. This is also the place where the crossing value with the otheraxis can be set (the index of an item for an item axis) and whether the axis will be reversed.
+* Directly in the axis tag you can use its properties to control color, major and minor tick types and sizes, minimal andmaximal values for the y-axis (plus a step size), whereas the x-axis requires a set of items to match the number of**SeriesItems** the series have. This is also the place where the crossing value with the otheraxis can be set (the index of an item for an item axis) and whether the axis will be reversed.
 
-* The inner tags of the axis tag can control the major and minor grid lines in terms of color and sizeand the labels can have a __DataFormatString__, position and visibility set through each inner tag's properties.
+* The inner tags of the axis tag can control the major and minor grid lines in terms of color and sizeand the labels can have a **DataFormatString**, position and visibility set through each inner tag's properties.
 
-* Setting the __Stacked__ property of the first series stacks them all next to each other.Series that will be stacked in separate clusters	must have the same cluster name set in their [GroupName]({%slug htmlchart/functionality/stacked-series%}) property.
+* Setting the **Stacked** property of the first series stacks them all next to each other.Series that will be stacked in separate clusters	must have the same cluster name set in their [GroupName]({%slug htmlchart/functionality/stacked-series%}) property.
 
-* The title, background colors and legend are controlled via the inner properties of the __RadHtmlChart__ control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
-__Example 1__ shows how to set properties and generate __Figure 1__.
+**Example 1** shows how to set properties and generate **Figure 1**.
 
->tip Not all properties are necessary. The __RadHtmlChart__ will match the axes to the valuesif you do not declare explicit values, steps and tick properties (although the __Items__ for axes that need them are necessary).
+>tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the valuesif you do not declare explicit values, steps and tick properties (although the **Items** for axes that need them are necessary).
 >
 
 
-__Example 1__: Configuring a basic Bar chart (the one shown in __Figure 1__).
+**Example 1**: Configuring a basic Bar chart (the one shown in **Figure 1**).
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="BarChart1" Transitions="true">

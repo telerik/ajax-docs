@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadImageEditor for ASP.NET AJAX Documentation
 description: Localization
 slug: imageeditor/accessibility-and-internationalization/localization
 tags: localization
@@ -14,21 +14,21 @@ position: 3
 
 ## Localization Overview
 
-__RadImageEditor__ is fully localized using Global resources. The control comes with three built-in language packs, English, German and French, between you can easily switch be setting the __Language__ property or setting __UICulture__ property to the @Page. The __Language__ property is with higher priority than the global __UICulture__ setting.
+**RadImageEditor** is fully localized using Global resources. The control comes with three built-in language packs, English, German and French, between you can easily switch be setting the **Language** property or setting **UICulture** property to the @Page. The **Language** property is with higher priority than the global **UICulture** setting.
 
-Similar to __RadGrid__, __RadEditor__ and __RadScheduler__, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik UI for ASP.NET AJAX suite’s installation wizard copies the built-in resource files in the __App_GlobalResources__ folder in your local installation.![Resource Files Location](images/radimageeditor-resx-files-location.png)
+Similar to **RadGrid**, **RadEditor** and **RadScheduler**, you can use resx files to localize (or customize) the control’s localization strings with minimum efforts. The Telerik UI for ASP.NET AJAX suite’s installation wizard copies the built-in resource files in the **App_GlobalResources** folder in your local installation.![Resource Files Location](images/radimageeditor-resx-files-location.png)
 
 You can either create your own language pack or use an existing one (if available for your language).
 
 ## Create New Language
 
-The following steps demonstrate how to create a new language pack for __RadImageEditor__.
+The following steps demonstrate how to create a new language pack for **RadImageEditor**.
 
-1. Add __App_GlobalResources__ folder to the application folder (if it does not already exists).
+1. Add **App_GlobalResources** folder to the application folder (if it does not already exists).
 
-1. Copy __RadImageEditor.Main.resx__ and __RadImageEditor.Dialogs.resx__ files to __App_GlobalResources__ folder.
+1. Copy **RadImageEditor.Main.resx** and **RadImageEditor.Dialogs.resx** files to **App_GlobalResources** folder.
 
-1. Create another copies of the above files and name them according to the new language’s culture. __RadImageEditor.Main.[your_language].resx__ and __RadImageEditorDialogs.[your_language].resx__.
+1. Create another copies of the above files and name them according to the new language’s culture. **RadImageEditor.Main.[your_language].resx** and **RadImageEditorDialogs.[your_language].resx**.
 
 >note Please note that you need to keep the original files in the folder as well
 >

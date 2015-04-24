@@ -1,6 +1,6 @@
 ---
 title: DataSet
-page_title: DataSet | UI for ASP.NET AJAX Documentation
+page_title: DataSet | RadHtmlChart for ASP.NET AJAX Documentation
 description: DataSet
 slug: htmlchart/data-binding/dataset
 tags: dataset
@@ -14,17 +14,17 @@ position: 6
 
 ## 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to a __DataSet__ andpresents a code example. You can bind a __RadHtmlChart__ to a __DataSet__ using the followingproperties:
+This help article describes which properties to use to bind a **RadHtmlChart** to a **DataSet** andpresents a code example. You can bind a **RadHtmlChart** to a **DataSet** using the followingproperties:
 
-* __DataSourceID__ in the main tag sets the declarative data source for the entire chart. You can use	the __DataSource__ property for a programmatic data source if you create the connection in the code-behind.
+* **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use	the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 
-* __DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie; __DataFieldX__ for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
+* **DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie; **DataFieldX** for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
 
-* __DataLabelsField__ for the x-axis labels to populate the items for the axis.
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
-__Example 1__ demonstrates the setup of a __RadHtmlChart__, bound to a DataSet in __Example 2__.
+**Example 1** demonstrates the setup of a **RadHtmlChart**, bound to a DataSet in **Example 2**.
 
-__Example 1__: The markup of the __RadHtmlChart__ that is bound to a DataSet in __Example 2__.
+**Example 1**: The markup of the **RadHtmlChart** that is bound to a DataSet in **Example 2**.
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="RadHtmlChart1">
@@ -51,7 +51,7 @@ __Example 1__: The markup of the __RadHtmlChart__ that is bound to a DataSet in 
 
 
 
-__Example 2__: The DataSet for the __RadHtmlChart__ created in __Example 1__.
+**Example 2**: The DataSet for the **RadHtmlChart** created in **Example 1**.
 
 
 

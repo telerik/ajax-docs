@@ -1,6 +1,6 @@
 ---
 title: Flexible Validation
-page_title: Flexible Validation | UI for ASP.NET AJAX Documentation
+page_title: Flexible Validation | RadListView for ASP.NET AJAX Documentation
 description: Flexible Validation
 slug: listview/data-editing/flexible-validation
 tags: flexible,validation
@@ -16,11 +16,11 @@ position: 3
 
 The validation for the RadListView control follows the general logic for validating the input of any other server control. The main logic is to relate the validators to the field(s) of the edit or insert fields. In terms of settings, there are three properties, which are part of the ValidationSettings tag of the control. These are:
 
-* __EnableValidation__ – a Boolean field, which is enabled by default and specifies whether the validation will be enabled for the control.
+* **EnableValidation** – a Boolean field, which is enabled by default and specifies whether the validation will be enabled for the control.
 
-* __CommandsToValidate__- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be override.
+* **CommandsToValidate**- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be override.
 
-* __ValidationGroup__ – the name of the validation group to which the ListView control belongs.
+* **ValidationGroup** – the name of the validation group to which the ListView control belongs.
 
 The example bellow shows a typical set of validation settings, where the "CommandName" is the command which triggers validation:
 

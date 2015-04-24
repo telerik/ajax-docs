@@ -1,6 +1,6 @@
 ---
 title: Data Grouping
-page_title: Data Grouping | UI for ASP.NET AJAX Documentation
+page_title: Data Grouping | RadListView for ASP.NET AJAX Documentation
 description: Data Grouping
 slug: listview/fuctionality/grouping/data-grouping
 tags: data,grouping
@@ -12,7 +12,7 @@ position: 1
 
 
 
-As of Q3 2013 Beta release of the UI controls, you could test the advantage of the new __DataGrouping__ feature for the __RadListView__ control.Using the __DataGrouping__ with the __RadListView__, you could group the data source of the control according to one or more specified data fields.In order to define the layout for each group in the control you should set separate __data group templates__ in the __“DataGroupTemplate” tag__ under each __“ListViewDataGroup.”__ Option to access the __calculated aggregates__ according to a predefined function is also available. The __RadListView DataGrouping__ functionality provides not only a way to arrange the items in a grouped way (as the basic grouping available) but render grouped items form the __DataSource__ or in another words native __DataSource__ grouping as the other data-bound controls like RadGrid provides.
+As of Q3 2013 Beta release of the UI controls, you could test the advantage of the new **DataGrouping** feature for the **RadListView** control.Using the **DataGrouping** with the **RadListView**, you could group the data source of the control according to one or more specified data fields.In order to define the layout for each group in the control you should set separate **data group templates** in the **“DataGroupTemplate” tag** under each **“ListViewDataGroup.”** Option to access the **calculated aggregates** according to a predefined function is also available. The **RadListView DataGrouping** functionality provides not only a way to arrange the items in a grouped way (as the basic grouping available) but render grouped items form the **DataSource** or in another words native **DataSource** grouping as the other data-bound controls like RadGrid provides.
 
 ## Features
 
@@ -98,7 +98,7 @@ Using the code below you will enable the RadListView DataGrouping feature follow
 
 
 
-Using the aggregate function on a specific aggregate field, you could set aggregates for specific groups. The aggregate value could be accessed using __AggregatesValues__ property.
+Using the aggregate function on a specific aggregate field, you could set aggregates for specific groups. The aggregate value could be accessed using **AggregatesValues** property.
 
 ````ASPNET
 	             <telerik:ListViewDataGroup GroupField="BrandName" DataGroupPlaceholderID="DataGroupPlaceHolder1"
@@ -121,9 +121,9 @@ Using the aggregate function on a specific aggregate field, you could set aggreg
 
 ## Nested groups
 
-You could achive grouping in sevrela levels by nesting the __ListViewDataGroups__.
+You could achive grouping in sevrela levels by nesting the **ListViewDataGroups**.
 
-Note that the __DataGroupPlaceHolderID__ of each nested group should be set to be the PlaceHolder of its direct parrent group. Finelly the __ItemPlaceholderID__ of the RadListView control should be set to the container's ID od the most inner group.
+Note that the **DataGroupPlaceHolderID** of each nested group should be set to be the PlaceHolder of its direct parrent group. Finelly the **ItemPlaceholderID** of the RadListView control should be set to the container's ID od the most inner group.
 
 The example bellow presents two levels of grouping
 
@@ -162,22 +162,22 @@ The example bellow presents two levels of grouping
 Several new properties have been exposed for the DataGrouping functionality:
 
 
-|  __ *Property* __  |  __ *Description* __  |
+|  ** *Property* **  |  ** *Description* **  |
 | ------ | ------ |
-| __GroupAggregatesScope__ |Sets the way the aggregates for specific group is calculated–for the specific page or for all items. The default value is "AllItems"|
-| __InsertItemPostion__ (extended enumeration)|Sets the position of the insert item. The new enumeration includes __"BeforeDataGroups"__ and __"AfterDataGroups"__ |
-| __DataGroupKey__ |Holds the data key name of the current data group|
+| **GroupAggregatesScope** |Sets the way the aggregates for specific group is calculated–for the specific page or for all items. The default value is "AllItems"|
+| **InsertItemPostion** (extended enumeration)|Sets the position of the insert item. The new enumeration includes **"BeforeDataGroups"** and **"AfterDataGroups"** |
+| **DataGroupKey** |Holds the data key name of the current data group|
 
-__Events:__
+**Events:**
 
 
-|  __Events ** __  |  __Description ** __  |
+|  **Events ** **  |  **Description ** **  |
 | ------ | ------ |
-| __OnCustomAggregate__ |Fired when the __aggregate type__ is __“Custom.”__ User can specify custom calculated value because of the aggregate.|
+| **OnCustomAggregate** |Fired when the **aggregate type** is **“Custom.”** User can specify custom calculated value because of the aggregate.|
 
 ## Limitations
 
-* __Unsupported data sources/bindings__
+* **Unsupported data sources/bindings**
 
 * XMLDataSource
 
@@ -187,7 +187,7 @@ __Events:__
 
 * Client-side binding
 
-* __Unsupported features__
+* **Unsupported features**
 
 * Custom paging/sorting/filtering
 

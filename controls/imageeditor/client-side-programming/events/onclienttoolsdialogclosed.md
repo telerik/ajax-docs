@@ -1,6 +1,6 @@
 ---
 title: OnClientToolsDialogClosed
-page_title: OnClientToolsDialogClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientToolsDialogClosed | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientToolsDialogClosed
 slug: imageeditor/client-side-programming/events/onclienttoolsdialogclosed
 tags: onclienttoolsdialogclosed
@@ -14,11 +14,11 @@ position: 13
 
 ## 
 
-The __OnClientToolsDialogClosed__ event is raised when the tool's dialog is closed (if opened).
+The **OnClientToolsDialogClosed** event is raised when the tool's dialog is closed (if opened).
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

@@ -1,6 +1,6 @@
 ---
 title: Binding RadImageGallery to a Static Collection of Items
-page_title: Binding RadImageGallery to a Static Collection of Items | UI for ASP.NET AJAX Documentation
+page_title: Binding RadImageGallery to a Static Collection of Items | RadImageGallery for ASP.NET AJAX Documentation
 description: Binding RadImageGallery to a Static Collection of Items
 slug: imagegallery/data-binding/server-side/binding-radimagegallery-to-a-static-collection-of-items
 tags: binding,radimagegallery,to,a,static,collection,of,items
@@ -12,7 +12,7 @@ position: 1
 
 
 
-__RadImageGallery__ provides an option to bind to a static collection and manually define your gallery items by specifyingeach one individually in the __RadImageGallery.Items__ collection. This type of binding is ideal when the informationthat you want to display is not stored in a database and you want to add it manually.Each item has properties that define the image and thumbnail URL, description, title, width and height.__Example 1__ shows how to bind a __RadImageGallery__ to a static collection of images.__Figure1__ shows the result.
+**RadImageGallery** provides an option to bind to a static collection and manually define your gallery items by specifyingeach one individually in the **RadImageGallery.Items** collection. This type of binding is ideal when the informationthat you want to display is not stored in a database and you want to add it manually.Each item has properties that define the image and thumbnail URL, description, title, width and height.**Example 1** shows how to bind a **RadImageGallery** to a static collection of images.**Figure1** shows the result.
 
 ````ASPNET
 	    <telerik:radimagegallery id="RadImageGallery1" runat="server" contentviewmode="ContentArea">
@@ -41,7 +41,7 @@ __RadImageGallery__ provides an option to bind to a static collection and manual
 
 
 
-__This figure represents the thumbnail image, the title and the description of particular item from the ImageGallery.__![image-gallery-binding-to-static-collection](images/image-gallery-binding-to-static-collection.png)
+**This figure represents the thumbnail image, the title and the description of particular item from the ImageGallery.**![image-gallery-binding-to-static-collection](images/image-gallery-binding-to-static-collection.png)
 
 # See Also
 

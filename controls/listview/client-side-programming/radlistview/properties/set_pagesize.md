@@ -1,6 +1,6 @@
 ---
 title: set_pageSize
-page_title: set_pageSize | UI for ASP.NET AJAX Documentation
+page_title: set_pageSize | RadListView for ASP.NET AJAX Documentation
 description: set_pageSize
 slug: listview/client-side-programming/radlistview/properties/set_pagesize
 tags: set_pagesize
@@ -14,4 +14,4 @@ position: 4
 
 ## 
 
-Sets the page size for the respective __RadListView__object.
+Sets the page size for the respective **RadListView**object.

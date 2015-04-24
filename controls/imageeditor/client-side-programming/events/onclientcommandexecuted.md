@@ -1,6 +1,6 @@
 ---
 title: OnClientCommandExecuted
-page_title: OnClientCommandExecuted | UI for ASP.NET AJAX Documentation
+page_title: OnClientCommandExecuted | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientCommandExecuted
 slug: imageeditor/client-side-programming/events/onclientcommandexecuted
 tags: onclientcommandexecuted
@@ -14,11 +14,11 @@ position: 3
 
 ## 
 
-The __OnClientCommandExecuted__ event is raised after the user fires a command of the control. The event is subsequent to the __OnClientCommandExecuting__ event. It cannot be cancelled.
+The **OnClientCommandExecuted** event is raised after the user fires a command of the control. The event is subsequent to the **OnClientCommandExecuting** event. It cannot be cancelled.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object. You can call its get_commandName() method to get the command name.
 

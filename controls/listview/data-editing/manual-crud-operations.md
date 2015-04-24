@@ -1,6 +1,6 @@
 ---
 title: Manual CRUD Operations
-page_title: Manual CRUD Operations | UI for ASP.NET AJAX Documentation
+page_title: Manual CRUD Operations | RadListView for ASP.NET AJAX Documentation
 description: Manual CRUD Operations
 slug: listview/data-editing/manual-crud-operations
 tags: manual,crud,operations
@@ -56,7 +56,7 @@ The general logic is to use the ItemCommand event handler to trap the respective
 ````
 
 
-The *__e.ListViewItem__* is an object of type *__RadListViewEditableItem__*, and gives us access to the item, which raised the command. This, in turn, allows us to extract the newly entered data, or get the id of the record which needs to be deleted. Let us look into the possible operations which can be performed in the ItemCommand event handler.
+The **e.ListViewItem** is an object of type **RadListViewEditableItem**, and gives us access to the item, which raised the command. This, in turn, allows us to extract the newly entered data, or get the id of the record which needs to be deleted. Let us look into the possible operations which can be performed in the ItemCommand event handler.
 
 In case the user has entered new values into the edit form, and wants to persist the data into the underlying data source, the logical steps to perform are:
 

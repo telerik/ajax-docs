@@ -1,6 +1,6 @@
 ---
 title: OnListViewCreated
-page_title: OnListViewCreated | UI for ASP.NET AJAX Documentation
+page_title: OnListViewCreated | RadListView for ASP.NET AJAX Documentation
 description: OnListViewCreated
 slug: listview/client-side-programming/events/onlistviewcreated
 tags: onlistviewcreated
@@ -17,10 +17,10 @@ position: 1
 This client-side event is fired after the RadListView is created.
 
 
-|  __Fired by__  | RadListView |
+|  **Fired by**  | RadListView |
 | ------ | ------ |
-| __Arguments__ |System.EventArgs|
-| __Can be canceled__ |No|
+| **Arguments** |System.EventArgs|
+| **Can be canceled** |No|
 
 Example:
 

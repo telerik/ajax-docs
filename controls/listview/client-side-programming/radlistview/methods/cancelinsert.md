@@ -1,6 +1,6 @@
 ---
 title: cancelInsert
-page_title: cancelInsert | UI for ASP.NET AJAX Documentation
+page_title: cancelInsert | RadListView for ASP.NET AJAX Documentation
 description: cancelInsert
 slug: listview/client-side-programming/radlistview/methods/cancelinsert
 tags: cancelinsert

@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadListView Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/overview
 tags: overview
@@ -18,21 +18,21 @@ Telerik RadListView is designed to give your the freedom to specify predefined o
 
 At the same time Telerik RadListView delivers top-of-the line features:
 
-__Key Features__
+**Key Features**
 
-* __Interoperability with RadAjax and loading indicators__- dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server.
+* **Interoperability with RadAjax and loading indicators**- dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server.
 
-* __Various templates for data and layout presentation, edit or insert operations, selection, grouping etc.__
+* **Various templates for data and layout presentation, edit or insert operations, selection, grouping etc.**
 
-* __Set of commonly used predefined layouts and unlimited possibilities for custom layouts definitions__
+* **Set of commonly used predefined layouts and unlimited possibilities for custom layouts definitions**
 
-* __Codeless DataBinding using the DataSourceControls introduced in ASP.NET 2.x/3.5__
+* **Codeless DataBinding using the DataSourceControls introduced in ASP.NET 2.x/3.5**
 
-* __Data-Binding to various data sources which implement the IEnumerable, IList or ICustomTypeDescriptor interfaces__
+* **Data-Binding to various data sources which implement the IEnumerable, IList or ICustomTypeDescriptor interfaces**
 
-* __Easily customizable skinning mechanism (setting single Skin property of the listview)*__
+* **Easily customizable skinning mechanism (setting single Skin property of the listview)**
 
-* __Integrated sorting, paging, selecting and grouping capabilities__
+* **Integrated sorting, paging, selecting and grouping capabilities**
 
 * Integrated, Multi-Column and Custom Sorting
 
@@ -42,12 +42,12 @@ __Key Features__
 
 * Single and Multi-Row Server Selection
 
-* __Flexible edit form validation mechanism__
+* **Flexible edit form validation mechanism**
 
-* __ControlState feature__
+* **ControlState feature**
 
-* __Easy and straight-forward migration from MS ListView control__
+* **Easy and straight-forward migration from MS ListView control**
 
-* __XHTML 1.1____and____Accessibility Compliance__
+* **XHTML 1.1 and Accessibility Compliance**
 
-__* -__see the Skins topic under the 'Appearance and styling' chapter of the help for details
+*** -**see the Skins topic under the 'Appearance and styling' chapter of the help for details

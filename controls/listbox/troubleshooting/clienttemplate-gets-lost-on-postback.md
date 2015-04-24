@@ -1,6 +1,6 @@
 ---
 title: ClientTemplate Gets Lost on PostBack
-page_title: ClientTemplate Gets Lost on PostBack | UI for ASP.NET AJAX Documentation
+page_title: ClientTemplate Gets Lost on PostBack | RadListBox for ASP.NET AJAX Documentation
 description: ClientTemplate Gets Lost on PostBack
 slug: listbox/troubleshooting/clienttemplate-gets-lost-on-postback
 tags: clienttemplate,gets,lost,on,postback

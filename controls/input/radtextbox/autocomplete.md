@@ -1,6 +1,6 @@
 ---
 title: AutoComplete
-page_title: AutoComplete | UI for ASP.NET AJAX Documentation
+page_title: AutoComplete | RadInput for ASP.NET AJAX Documentation
 description: AutoComplete
 slug: input/radtextbox/autocomplete
 tags: autocomplete

@@ -1,6 +1,6 @@
 ---
 title: Commands Invoking Rebind Implicitly
-page_title: Commands Invoking Rebind Implicitly | UI for ASP.NET AJAX Documentation
+page_title: Commands Invoking Rebind Implicitly | RadListView for ASP.NET AJAX Documentation
 description: Commands Invoking Rebind Implicitly
 slug: listview/control-lifecycle/commands-invoking-rebind-implicitly
 tags: commands,invoking,rebind,implicitly
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-This topic lists which internal RadListView commands make an implicit call to the __Rebind__() method of the control in order to refresh its content and fetch the latest information from the data source.
+This topic lists which internal RadListView commands make an implicit call to the **Rebind**() method of the control in order to refresh its content and fetch the latest information from the data source.
 
-Here is the complete list of commands that trigger __Rebind__():
+Here is the complete list of commands that trigger **Rebind**():
 
 
 | Command Name | Field |

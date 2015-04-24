@@ -1,6 +1,6 @@
 ---
-title: RadListBox Items Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadListBox Items Overview | RadListBox for ASP.NET AJAX Documentation
 description: Overview
 slug: listbox/radlistbox-items/overview
 tags: overview

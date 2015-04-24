@@ -1,6 +1,6 @@
 ---
 title: RadListBoxItemCollection Object
-page_title: RadListBoxItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadListBoxItemCollection Object | RadListBox for ASP.NET AJAX Documentation
 description: RadListBoxItemCollection Object
 slug: listbox/client-side-programming/objects/radlistboxitemcollection-object
 tags: radlistboxitemcollection,object

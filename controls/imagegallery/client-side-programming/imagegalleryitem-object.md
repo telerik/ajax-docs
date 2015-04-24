@@ -1,6 +1,6 @@
 ---
 title: ImageGalleryItem Object
-page_title: ImageGalleryItem Object | UI for ASP.NET AJAX Documentation
+page_title: ImageGalleryItem Object | RadImageGallery for ASP.NET AJAX Documentation
 description: ImageGalleryItem Object
 slug: imagegallery/client-side-programming/imagegalleryitem-object
 tags: imagegalleryitem,object
@@ -12,24 +12,24 @@ position: 1
 
 
 
-__RadImageGallery__ exposes an __ImageGalleryItemCollection__ available through the __get_items()__ method. It contains the different __RadImageGalleryItems__ which hold data related to a certain image. The properties for every__RadImageGalleryItem__ are listed in the table below.
+**RadImageGallery** exposes an **ImageGalleryItemCollection** available through the **get_items()** method. It contains the different **RadImageGalleryItems** which hold data related to a certain image. The properties for every**RadImageGalleryItem** are listed in the table below.
 
 ## RadImageGalleryItem properties
 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_description()__ ||String|Gets the related description.|
-| __get_height()__ ||String|Returns the height of the image.|
-| __get_imageUrl()__ ||String|Returns the URL of the image.|
-| __get_itemIndex()__ ||Number|Gets the index of the particular item.|
-| __get_owner()__ || __Telerik.Web.UI.RadImageGallery__ |Gets the parent of the current object.|
-| __get_thumbnailElement()__ ||HTML Element|Returns the related thumbnail element.|
-| __get_thumbnailUrl()__ ||String|Returns the URL of the thumbnail.|
-| __get_title()__ ||String|Gets the title of the image.|
-| __get_width()__ ||String|Returns the width of the image.|
+| **get_description()** ||String|Gets the related description.|
+| **get_height()** ||String|Returns the height of the image.|
+| **get_imageUrl()** ||String|Returns the URL of the image.|
+| **get_itemIndex()** ||Number|Gets the index of the particular item.|
+| **get_owner()** || **Telerik.Web.UI.RadImageGallery** |Gets the parent of the current object.|
+| **get_thumbnailElement()** ||HTML Element|Returns the related thumbnail element.|
+| **get_thumbnailUrl()** ||String|Returns the URL of the thumbnail.|
+| **get_title()** ||String|Gets the title of the image.|
+| **get_width()** ||String|Returns the width of the image.|
 
-The example below illustrates how you can use a property to extract a value from the __RadImageGalleryItem__. The logic shown traverses all the items and stores the titles in a collection.
+The example below illustrates how you can use a property to extract a value from the **RadImageGalleryItem**. The logic shown traverses all the items and stores the titles in a collection.
 
 ````ASPNET
 	       <telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"

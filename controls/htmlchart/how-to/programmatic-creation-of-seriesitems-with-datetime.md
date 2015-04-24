@@ -1,6 +1,6 @@
 ---
 title: Programmatic Creation Of SeriesItems With DateTime
-page_title: Programmatic Creation Of SeriesItems With DateTime | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Creation Of SeriesItems With DateTime | RadHtmlChart for ASP.NET AJAX Documentation
 description: Programmatic Creation Of SeriesItems With DateTime
 slug: htmlchart/how-to/programmatic-creation-of-seriesitems-with-datetime
 tags: programmatic,creation,of,seriesitems,with,datetime
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-This help article illustrates how to create programmatically numeric series items (i.e., __ScatterSeriesItem__ and __BubbleSeriesItem__) with DateTime for their __X__ values.
+This help article illustrates how to create programmatically numeric series items (i.e., **ScatterSeriesItem** and **BubbleSeriesItem**) with DateTime for their **X** values.
 
 *Problem*:
 
-You cannot assign directly DateTime objects to numeric series item's __X__ property.
+You cannot assign directly DateTime objects to numeric series item's **X** property.
 
 *Cause*:
 
-Since the purpose of the numeric series (i.e., __ScatterSeries__, __ScatterLineSeries__ and __BubbleSeries__) is to display continuous data, the series items' __X__ property is of decimal type that doesn't correspond to the DateTime type.
+Since the purpose of the numeric series (i.e., **ScatterSeries**, **ScatterLineSeries** and **BubbleSeries**) is to display continuous data, the series items' **X** property is of decimal type that doesn't correspond to the DateTime type.
 
 *Solution*:
 
@@ -30,11 +30,11 @@ You can do the following steps, in order to assign programmatically DateTime val
 
 * Convert the .NET DateTime object to its JavaScript Date object representation. This conversion is necessary because JavaScript uses the Unix Epoch(* i.e., the number of seconds that have elapsed since 1/1/1970 at 12:00:00 AM*) as a base to track dates as the number of milliseconds from it to the actual date.
 
-* Cast the converted value to decimal and pass it to the series item's __X__ property.
+* Cast the converted value to decimal and pass it to the series item's **X** property.
 
-__Example 1__ illustrates how to convert .NET DateTime objects to JavaScript Date objects and add them to series items' __X__ values.
+**Example 1** illustrates how to convert .NET DateTime objects to JavaScript Date objects and add them to series items' **X** values.
 
-__Example 1__: Programmatic assignment of DateTime objects to __ScatterSeriesItem__'s __X__ property.
+**Example 1**: Programmatic assignment of DateTime objects to **ScatterSeriesItem**'s **X** property.
 
 
 

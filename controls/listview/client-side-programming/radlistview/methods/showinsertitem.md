@@ -1,6 +1,6 @@
 ---
 title: showInsertItem
-page_title: showInsertItem | UI for ASP.NET AJAX Documentation
+page_title: showInsertItem | RadListView for ASP.NET AJAX Documentation
 description: showInsertItem
 slug: listview/client-side-programming/radlistview/methods/showinsertitem
 tags: showinsertitem
@@ -14,12 +14,12 @@ position: 7
 
 ## 
 
-Method which fires the InitInsert command for the respective __RadListView__ object. As a result of its call the RadListView insert item is displayed as first or last item.
+Method which fires the InitInsert command for the respective **RadListView** object. As a result of its call the RadListView insert item is displayed as first or last item.
 
 
 | function showInsertItem(RadListViewInsertItemPosition) |  |  |
 | ------ | ------ | ------ |
-| __RadListViewInsertItemPosition__ |Integer or String.Empty|The insert item will be displayed at the corresponding position.|
+| **RadListViewInsertItemPosition** |Integer or String.Empty|The insert item will be displayed at the corresponding position.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

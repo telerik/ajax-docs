@@ -1,6 +1,6 @@
 ---
 title: ImageGallery Object
-page_title: ImageGallery Object | UI for ASP.NET AJAX Documentation
+page_title: ImageGallery Object | RadImageGallery for ASP.NET AJAX Documentation
 description: ImageGallery Object
 slug: imagegallery/client-side-programming/imagegallery-object
 tags: imagegallery,object
@@ -12,48 +12,48 @@ position: 0
 
 
 
-__RadImageGallery__ for ASP.NET AJAX offers a rich client-side API that lets you access and configure the different elements of the control as well as perform certain actions using JavaScript.
+**RadImageGallery** for ASP.NET AJAX offers a rich client-side API that lets you access and configure the different elements of the control as well as perform certain actions using JavaScript.
 
 ## RadImageGallery properties
 
 
 | Property | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_allowPaging()__ ||Bool|Gets a value indicating if the __RadImageGallery__ paging functionality is turned on.|
-| __get_displayAreaMode()__ || __Telerik.Web.UI.ImageGallery.DisplayAreaMode__ |Gets the type of the __DisplayAreaMode__ .|
-| __get_imageArea()__ || __Telerik.Web.UI.ImageGalleryImageArea__ |Gets the __ImageGalleryImageArea__ client-side object which is associated with the area element and its functionality.|
-| __get_items()__ ||A collection of __Telerik.Web.UI.ImageGalleryItemBase__ items|Gets the collection of __Telerik.Web.UI.ImageGalleryItemBase__ items which are part of the __RadImageGallery__ .|
-| __get_lightBox()__ || __Telerik.Web.UI.RadLightBox__ |Gets the __RadLightBox__ client-side object for the __RadImageGallery__ when __DisplayAreaMode="LightBox"__ .|
-| __get_loadingPanel()__ || __Telerik.Web.UI.RadAjaxLoadingPanel__ |Gets the __RadAjaxLoadingPanel__ client-side object for the __RadImageGallery__ which is shown when waiting for the image from a request.|
-| __get_pageSize()__ ||Number|Gets the __RadImageGallery.PageSize__ value.|
-| __get_selectedItem()__ || __Telerik.Web.UI.ImageGalleryItemBase__ |Gets __ImageGalleryItemBase__ client-side object for the current selected item.|
-| __get_thumbnailsArea()__ || __Telerik.Web.UI.ImageGalleryThumbnailsArea__ |Gets the __ImageGalleryThumbnailsArea__ client-side object which is associated with the thumbnail area element and its functionality.|
-| __get_toolTip()__ || __Telerik.Web.UI.RadToolTip__ |Gets the __RadToolTip__ client-side object for the __RadImageGallery__ when __DisplayAreaMode="ToolTip"__ .|
-| __isInFullScreen()__ ||Bool|Gets a value indicating if the control is in full screen mode.|
-| __isPaused()__ ||Bool|Gets a value indicating if the __RadImageGallery__ slideshow feature is currently (paused) turned off.|
-| __isPlaying()__ ||Bool|Gets a value indicating if the __RadImageGallery__ slideshow feature is currently (playing) turned on.|
+| **get_allowPaging()** ||Bool|Gets a value indicating if the **RadImageGallery** paging functionality is turned on.|
+| **get_displayAreaMode()** || **Telerik.Web.UI.ImageGallery.DisplayAreaMode** |Gets the type of the **DisplayAreaMode** .|
+| **get_imageArea()** || **Telerik.Web.UI.ImageGalleryImageArea** |Gets the **ImageGalleryImageArea** client-side object which is associated with the area element and its functionality.|
+| **get_items()** ||A collection of **Telerik.Web.UI.ImageGalleryItemBase** items|Gets the collection of **Telerik.Web.UI.ImageGalleryItemBase** items which are part of the **RadImageGallery** .|
+| **get_lightBox()** || **Telerik.Web.UI.RadLightBox** |Gets the **RadLightBox** client-side object for the **RadImageGallery** when **DisplayAreaMode="LightBox"** .|
+| **get_loadingPanel()** || **Telerik.Web.UI.RadAjaxLoadingPanel** |Gets the **RadAjaxLoadingPanel** client-side object for the **RadImageGallery** which is shown when waiting for the image from a request.|
+| **get_pageSize()** ||Number|Gets the **RadImageGallery.PageSize** value.|
+| **get_selectedItem()** || **Telerik.Web.UI.ImageGalleryItemBase** |Gets **ImageGalleryItemBase** client-side object for the current selected item.|
+| **get_thumbnailsArea()** || **Telerik.Web.UI.ImageGalleryThumbnailsArea** |Gets the **ImageGalleryThumbnailsArea** client-side object which is associated with the thumbnail area element and its functionality.|
+| **get_toolTip()** || **Telerik.Web.UI.RadToolTip** |Gets the **RadToolTip** client-side object for the **RadImageGallery** when **DisplayAreaMode="ToolTip"** .|
+| **isInFullScreen()** ||Bool|Gets a value indicating if the control is in full screen mode.|
+| **isPaused()** ||Bool|Gets a value indicating if the **RadImageGallery** slideshow feature is currently (paused) turned off.|
+| **isPlaying()** ||Bool|Gets a value indicating if the **RadImageGallery** slideshow feature is currently (playing) turned on.|
 
 ## RadImageGallery methods
 
-__RadImageGallery__ offers the following methods
+**RadImageGallery** offers the following methods
 
 
 | Method | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __enterFullScreen()__ |||Causes the __RadImageGallery__ control to enter full screen mode.|
-| __exitFullScreen()__ |||Causes the __RadImageGallery__ control to exit full screen mode.|
-| __exitFullScreen()__ |||Causes the __RadImageGallery__ control to exit full screen mode.|
-| __fireCommand(commandName, commandArgument)__ |String,String|Bool|Triggers a specific command for the __RadImageGallery__ |
-| __next()__ |||Selects the next item or selects the first if the currently selected item is the last.|
-| __page(command)__ |String|Bool|Fires a page command.|
-| __playSlideshow()__ |||Turns on the __RadImageGallery__ slideshow feature that navigates to the next image in a predefined amount of time determined by __RadImageGallery.AnimationSettings.SlideshowSlideDuration__ property.|
-| __prev()__ |||Selects the previous item or selects the last if the currently selected item is the first.|
-| __selectItem(itemOrItemIndex)__ | __Telerik.Web.UI.ImageGalleryItemBase__ ||Selects and animates (if animations are turned on) to the next item by specifying __Telerik.Web.UI.ImageGalleryItem__ or itemIndex.|
-| __set_currentPageIndex(pageIndex)__ |Number|Bool|Sets a value indicating the index of the current active page in case paging is enabled.|
-| __set_pageSize(pageSize)__ |Number|Bool|Sets the current page size.|
-| __stopSlideshow()__ |||Turns off the __RadImageGallery__ slideshow feature.|
-| __toggleFullScreen()__ |||Toggles __RadImageGallery__ current full screen state. It will exit the full screen mode if it is in full screen mode and vice versa.|
-| __toggleSlideshow()__ |||Toggles the __RadImageGallery__ slideshow feature.|
+| **enterFullScreen()** |||Causes the **RadImageGallery** control to enter full screen mode.|
+| **exitFullScreen()** |||Causes the **RadImageGallery** control to exit full screen mode.|
+| **exitFullScreen()** |||Causes the **RadImageGallery** control to exit full screen mode.|
+| **fireCommand(commandName, commandArgument)** |String,String|Bool|Triggers a specific command for the **RadImageGallery** |
+| **next()** |||Selects the next item or selects the first if the currently selected item is the last.|
+| **page(command)** |String|Bool|Fires a page command.|
+| **playSlideshow()** |||Turns on the **RadImageGallery** slideshow feature that navigates to the next image in a predefined amount of time determined by **RadImageGallery.AnimationSettings.SlideshowSlideDuration** property.|
+| **prev()** |||Selects the previous item or selects the last if the currently selected item is the first.|
+| **selectItem(itemOrItemIndex)** | **Telerik.Web.UI.ImageGalleryItemBase** ||Selects and animates (if animations are turned on) to the next item by specifying **Telerik.Web.UI.ImageGalleryItem** or itemIndex.|
+| **set_currentPageIndex(pageIndex)** |Number|Bool|Sets a value indicating the index of the current active page in case paging is enabled.|
+| **set_pageSize(pageSize)** |Number|Bool|Sets the current page size.|
+| **stopSlideshow()** |||Turns off the **RadImageGallery** slideshow feature.|
+| **toggleFullScreen()** |||Toggles **RadImageGallery** current full screen state. It will exit the full screen mode if it is in full screen mode and vice versa.|
+| **toggleSlideshow()** |||Toggles the **RadImageGallery** slideshow feature.|
 
 # See Also
 

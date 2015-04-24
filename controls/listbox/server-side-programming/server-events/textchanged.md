@@ -1,6 +1,6 @@
 ---
 title: TextChanged
-page_title: TextChanged | UI for ASP.NET AJAX Documentation
+page_title: TextChanged | RadListBox for ASP.NET AJAX Documentation
 description: TextChanged
 slug: listbox/server-side-programming/server-events/textchanged
 tags: textchanged

@@ -1,6 +1,6 @@
 ---
 title: OnMouseOut
-page_title: OnMouseOut | UI for ASP.NET AJAX Documentation
+page_title: OnMouseOut | RadInput for ASP.NET AJAX Documentation
 description: OnMouseOut
 slug: input/client-side-programming/events/onmouseout
 tags: onmouseout
@@ -14,19 +14,19 @@ position: 11
 
 ## 
 
-The __OnMouseOut__ client-side event handler is called when the mouse moves off the input area of the control.
+The **OnMouseOut** client-side event handler is called when the mouse moves off the input area of the control.
 
->note The __OnMouseOut__ event is supported by all __RadInput__ controls.
+>note The **OnMouseOut** event is supported by all **RadInput** controls.
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
+* **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
-The following example uses the __OnMouseOut__ event to display an alert:
+The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server">

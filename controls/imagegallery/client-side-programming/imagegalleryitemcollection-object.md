@@ -1,6 +1,6 @@
 ---
 title: ImageGalleryItemCollection Object
-page_title: ImageGalleryItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: ImageGalleryItemCollection Object | RadImageGallery for ASP.NET AJAX Documentation
 description: ImageGalleryItemCollection Object
 slug: imagegallery/client-side-programming/imagegalleryitemcollection-object
 tags: imagegalleryitemcollection,object
@@ -12,25 +12,25 @@ position: 2
 
 
 
-The __ImageGalleryItemCollection__ available through the __get_items()__ method of the __RadImageGallery__ object holds the different items of type __ImageGalleryItem__ containing data related to a certain image. The collection exposes methods listed in the table below.
+The **ImageGalleryItemCollection** available through the **get_items()** method of the **RadImageGallery** object holds the different items of type **ImageGalleryItem** containing data related to a certain image. The collection exposes methods listed in the table below.
 
 ## ImageGalleryItemCollection methods
 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add(item)__ | __ImageGalleryItem__ |None|Adds an item to the collection.|
-| __insert(index,item)__ | __ImageGalleryItem, Number__ |None|Adds an item at a given position.|
-| __remove(item)__ | __ImageGalleryItem__ |None|Removes an item from the collection.|
-| __removeAt(index)__ | __Number__ |None|Removes an item at a given position.|
-| __clear()__ ||None|Clears the items collection.|
-| __get_count()__ ||Number|Returns the number of items.|
-| __getItem(index)__ | __Number__ | __ImageGalleryItem__ |Returns the __ImageGalleryItem__ positioned at a given index.|
-| __indexOf(item)__ | __ImageGalleryItem__ |Number|Returns the index of the given item. If such does not exist returns -1.|
-| __forEach(lamda)__ | __Function expression__ |None|Applies the expression for every item in the collection.|
-| __toArray()__ ||Array|Returns a JavaScript Array containing items of type __ImageGalleryItem.__ |
+| **add(item)** | **ImageGalleryItem** |None|Adds an item to the collection.|
+| **insert(index,item)** | **ImageGalleryItem, Number** |None|Adds an item at a given position.|
+| **remove(item)** | **ImageGalleryItem** |None|Removes an item from the collection.|
+| **removeAt(index)** | **Number** |None|Removes an item at a given position.|
+| **clear()** ||None|Clears the items collection.|
+| **get_count()** ||Number|Returns the number of items.|
+| **getItem(index)** | **Number** | **ImageGalleryItem** |Returns the **ImageGalleryItem** positioned at a given index.|
+| **indexOf(item)** | **ImageGalleryItem** |Number|Returns the index of the given item. If such does not exist returns -1.|
+| **forEach(lamda)** | **Function expression** |None|Applies the expression for every item in the collection.|
+| **toArray()** ||Array|Returns a JavaScript Array containing items of type **ImageGalleryItem.** |
 
-The example below illustrates how you can add a __RadImageGalleryItem__ to the collection using the __add()__ method.
+The example below illustrates how you can add a **RadImageGalleryItem** to the collection using the **add()** method.
 
 ````ASPNET
 	    <telerik:RadImageGallery runat="server" ID="RadImageGallery1" ></telerik:RadImageGallery>

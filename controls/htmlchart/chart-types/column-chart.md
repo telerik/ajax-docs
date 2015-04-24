@@ -1,6 +1,6 @@
 ---
 title: Column Chart
-page_title: Column Chart | UI for ASP.NET AJAX Documentation
+page_title: Column Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Column Chart
 slug: htmlchart/chart-types/column-chart
 tags: column,chart
@@ -14,38 +14,38 @@ position: 4
 
 ## 
 
-The Column chart shows data as vertical bars whose heights vary according to their value. It can be useful for showing a comparisonbetween several sets of data (e.g., snapshots of data across different points in time). Column charts are very similar to	[Bar charts]({%slug htmlchart/chart-types/bar-chart%}), but the orientation of the bars is vertical instead ofhorizontal. This help article describes how to set some properties in a Column chart and __Example 1__(near the end of this article) shows the code used to create __Figure 1__.
+The Column chart shows data as vertical bars whose heights vary according to their value. It can be useful for showing a comparisonbetween several sets of data (e.g., snapshots of data across different points in time). Column charts are very similar to	[Bar charts]({%slug htmlchart/chart-types/bar-chart%}), but the orientation of the bars is vertical instead ofhorizontal. This help article describes how to set some properties in a Column chart and **Example 1**(near the end of this article) shows the code used to create **Figure 1**.
 >caption Figure 1: A basic Column chart showing product sales numbers by quarters.
 
 ![htmlchart-columnchart-simple-example](images/htmlchart-columnchart-simple-example.png)
 
 You can customize a Column chart in several ways:
 
-* The color of each series is controlled via the __BackgroundColor__ property of the__ColumnSeries > Appearance > FillStyle__ inner tag.
+* The color of each series is controlled via the **BackgroundColor** property of the**ColumnSeries > Appearance > FillStyle** inner tag.
 
-* The name that is shown in the legend is set via the __Name__ property of the __ColumnSeries__.
+* The name that is shown in the legend is set via the **Name** property of the **ColumnSeries**.
 
-* The height of a column is controlled by its __Y__ property of the __CategorySeriesItem__.
+* The height of a column is controlled by its **Y** property of the **CategorySeriesItem**.
 
-* Each item can have a label and a tooltip which follow the common pattern defined in the __DataFormatString__ property of the__LabelsAppearance__ and __TooltipsAppearance__ sections of the series.The format string uses the __Y__ of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
+* Each item can have a label and a tooltip which follow the common pattern defined in the **DataFormatString** property of the**LabelsAppearance** and **TooltipsAppearance** sections of the series.The format string uses the **Y** of the item. You can also load custom text from data source fields in labels and tooltips by using the composite [ClientTemplate]({%slug htmlchart/functionality/clienttemplate/overview%}) property.
 
 * The axes are also fully customizable — they automatically adjust their scale to accomodate the data that comes in and for finer tuning,there are numerous properties that can change each aspect:
 
-* Directly in the axis tag you can use its properties to control color, major and minor tick types and sizes,minimal and maximal values for the y-axis (plus a step size), whereas the x-axis requires a set of items to matchthe number of __SeriesItems__ the series have. This is also the place where the crossing valuewith the other axis can be set (the index of an item for an item axis) and whether the axis will be reversed.
+* Directly in the axis tag you can use its properties to control color, major and minor tick types and sizes,minimal and maximal values for the y-axis (plus a step size), whereas the x-axis requires a set of items to matchthe number of **SeriesItems** the series have. This is also the place where the crossing valuewith the other axis can be set (the index of an item for an item axis) and whether the axis will be reversed.
 
-* The inner tags of the axis tag can control the major and minor grid lines in terms of color and sizeand the labels can have a __DataFormatString__, position and visibility set through each inner tag's properties.
+* The inner tags of the axis tag can control the major and minor grid lines in terms of color and sizeand the labels can have a **DataFormatString**, position and visibility set through each inner tag's properties.
 
-* Setting the __Stacked__ property of the first series stacks them all next to each other. Series that will be stacked in separate clusters must have the same cluster name set in their [GroupName]({%slug htmlchart/functionality/stacked-series%}) property.
+* Setting the **Stacked** property of the first series stacks them all next to each other. Series that will be stacked in separate clusters must have the same cluster name set in their [GroupName]({%slug htmlchart/functionality/stacked-series%}) property.
 
-* The title, background colors and legend are controlled via the inner properties of the __RadHtmlChart__ control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.You can find more information in the [Server-side Programming Basic Configuration]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
-__Example 1__ demonstrates how to configure the Column chart shown in __Figure 1__.
+**Example 1** demonstrates how to configure the Column chart shown in **Figure 1**.
 
->tip Not all properties are necessary. The __RadHtmlChart__ will match the axes to the values if you do not declare explicit values, steps and tick properties (although the	Items for axes that need them are necessary).
+>tip Not all properties are necessary. The **RadHtmlChart** will match the axes to the values if you do not declare explicit values, steps and tick properties (although the	Items for axes that need them are necessary).
 >
 
 
-__Figure 1__: Configuring a Column chart to show product sales data.
+**Figure 1**: Configuring a Column chart to show product sales data.
 
 ````ASPNET
 	    <telerik:RadHtmlChart runat="server" ID="ColumnChart1" Transitions="true">

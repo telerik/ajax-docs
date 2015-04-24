@@ -1,6 +1,6 @@
 ---
 title: Sparkline Chart
-page_title: Sparkline Chart | UI for ASP.NET AJAX Documentation
+page_title: Sparkline Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Sparkline Chart
 slug: htmlchart/chart-types/sparkline-chart
 tags: sparkline,chart
@@ -14,16 +14,16 @@ position: 17
 
 ## 
 
-Generally, a __Sparkline__ is a very small chart, drawn without axes,coordinates, legend, title and other chart-specific elements. __Sparklines__ behave like *inline elements*(rendered inside spans) as opposed to *standard HtmlCharts*, which behave like block elements(rendered inside divs) so that they can be easily embedded in text. In this Help article, you’ll learn which type series can be rendered as a Sparkline chart,what common properties you might set to use a Sparkline, and see example code (__Example 1__) to see how to create the Sparkline shown in__Figure 1__.
+Generally, a **Sparkline** is a very small chart, drawn without axes,coordinates, legend, title and other chart-specific elements. **Sparklines** behave like *inline elements*(rendered inside spans) as opposed to *standard HtmlCharts*, which behave like block elements(rendered inside divs) so that they can be easily embedded in text. In this Help article, you’ll learn which type series can be rendered as a Sparkline chart,what common properties you might set to use a Sparkline, and see example code (**Example 1**) to see how to create the Sparkline shown in**Figure 1**.
 >caption Several examples of Sparklines.
 
 ![htmlchart-sparkline-chart](images/htmlchart-sparkline-chart.png)
 
-In order to create a __Sparkline__ chart, you must create a regular instance of __RadHtmlChart__ and set its	__Layout__ property to "Sparkline". You can read the list below to see the common properties you’ll set with __Sparklines__.
+In order to create a **Sparkline** chart, you must create a regular instance of **RadHtmlChart** and set its	**Layout** property to "Sparkline". You can read the list below to see the common properties you’ll set with **Sparklines**.
 
-* You can explicitly change the visibility of the hidden elements like axes, legend, title, etc., by setting the__Visible__ property of the particular elementto __true__ (e.g., see the __PieCharts Sparklines__ definition below).
+* You can explicitly change the visibility of the hidden elements like axes, legend, title, etc., by setting the**Visible** property of the particular elementto **true** (e.g., see the **PieCharts Sparklines** definition below).
 
-* A Sparkline’s default width is based upon the number of the __SeriesItems__ (the exception is __PieSeries__, whose width isequal to its default height).
+* A Sparkline’s default width is based upon the number of the **SeriesItems** (the exception is **PieSeries**, whose width isequal to its default height).
 
 * Different browsers have a different default height for Sparklines, which varies between 18 pixels and 20 pixels:
 
@@ -33,9 +33,9 @@ In order to create a __Sparkline__ chart, you must create a regular instance of 
 
 * Internet Explorer 8 and 7: 19 pixels
 
-* The __BarSeries__ type is stacked by default. You can unstack the series by explicitly setting the__Stack__ property of the first series to __false__.
+* The **BarSeries** type is stacked by default. You can unstack the series by explicitly setting the**Stack** property of the first series to **false**.
 
-* __Sparklines__ will display a single tooltip for every category, called a *shared tooltip* that consists of information about the category,the series' names and the corresponding values. You can reset the standard behavior of the tooltips bysetting the __Shared__ property of the CommonTooltipsAppearance element to __false__.
+* **Sparklines** will display a single tooltip for every category, called a *shared tooltip* that consists of information about the category,the series' names and the corresponding values. You can reset the standard behavior of the tooltips bysetting the **Shared** property of the CommonTooltipsAppearance element to **false**.
 
 ### Making a Series Work as Sparklines
 
@@ -51,7 +51,7 @@ You can use any of these types of series as Sparklines:
 
 * [Pie series]({%slug htmlchart/chart-types/pie-chart%})
 
-__Example 1__: How to create a Sparkline using different series types.
+**Example 1**: How to create a Sparkline using different series types.
 
 
 

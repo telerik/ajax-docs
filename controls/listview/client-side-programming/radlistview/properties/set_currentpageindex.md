@@ -1,6 +1,6 @@
 ---
 title: set_currentPageIndex
-page_title: set_currentPageIndex | UI for ASP.NET AJAX Documentation
+page_title: set_currentPageIndex | RadListView for ASP.NET AJAX Documentation
 description: set_currentPageIndex
 slug: listview/client-side-programming/radlistview/properties/set_currentpageindex
 tags: set_currentpageindex
@@ -14,4 +14,4 @@ position: 6
 
 ## 
 
-Sets the current page index for the respective __RadListView__object.
+Sets the current page index for the respective **RadListView**object.

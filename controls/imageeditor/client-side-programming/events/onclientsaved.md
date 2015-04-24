@@ -1,6 +1,6 @@
 ---
 title: OnClientSaved
-page_title: OnClientSaved | UI for ASP.NET AJAX Documentation
+page_title: OnClientSaved | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientSaved
 slug: imageeditor/client-side-programming/events/onclientsaved
 tags: onclientsaved
@@ -14,11 +14,11 @@ position: 11
 
 ## 
 
-The __OnClientSaved__ event is raised after the user has saved the image.
+The **OnClientSaved** event is raised after the user has saved the image.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

@@ -1,6 +1,6 @@
 ---
 title: Reorder
-page_title: Reorder | UI for ASP.NET AJAX Documentation
+page_title: Reorder | RadListBox for ASP.NET AJAX Documentation
 description: Reorder
 slug: listbox/functionality/reorder
 tags: reorder

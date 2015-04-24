@@ -1,6 +1,6 @@
 ---
 title: Event Sequence
-page_title: Event Sequence | UI for ASP.NET AJAX Documentation
+page_title: Event Sequence | RadListView for ASP.NET AJAX Documentation
 description: Event Sequence
 slug: listview/control-lifecycle/event-sequence
 tags: event,sequence
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The API and event sequence of __RadListView__ are quite similar to __MS ListView__. The sequence of the events is the following:
+The API and event sequence of **RadListView** are quite similar to **MS ListView**. The sequence of the events is the following:
 
-- RadListView with __EnableViewState__ set to __true__ (default value)
+- RadListView with **EnableViewState** set to **true** (default value)
 
 
 | First page load: |
@@ -65,7 +65,7 @@ The API and event sequence of __RadListView__ are quite similar to __MS ListView
 |----|
 |Invoking the Rebind() method from postback event handler of outside control or RadListView will raise automatically the NeedDataSource event|
 
-- RadListView with __EnableViewState__ set to __false__
+- RadListView with **EnableViewState** set to **false**
 
 
 | First page load: |
@@ -82,9 +82,9 @@ The API and event sequence of __RadListView__ are quite similar to __MS ListView
 | ------ |
 |For each Item in RadListView:|
 |ItemCreated|
-| __ItemDataBound__ |
+| **ItemDataBound** |
 |Page.Load|
-| __NeedDataSource__ |
+| **NeedDataSource** |
 |Postback Events|
 |Page.PreRender|
 
@@ -92,8 +92,8 @@ The API and event sequence of __RadListView__ are quite similar to __MS ListView
 | On server selection from LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadListView body): |
 | ------ |
 |For each Item in RadListView:|
-| __ItemCreated__ |
-| __ItemDataBound__ |
+| **ItemCreated** |
+| **ItemDataBound** |
 |Page.Load|
 |NeedDataSource|
 |ItemCommand|
@@ -110,10 +110,10 @@ The API and event sequence of __RadListView__ are quite similar to __MS ListView
 |NeedDataSource|
 |For each Item:|
 |ItemCreated|
-| __ItemDataBound__ |
+| **ItemDataBound** |
 |ItemCommand|
 |ItemEditing/ItemUpdating/ItemInserting/ItemDeleting/ItemCancelling,ItemEdited/ItemUpdated/ItemInserted/ItemDeleted/ItemCancelledorPageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
-| __NeedDataSource__ |
+| **NeedDataSource** |
 |For each Item in RadListView:|
 |ItemCreated|
 |ItemDataBound|

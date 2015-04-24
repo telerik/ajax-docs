@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls
-page_title: Accessing Controls | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls | RadListView for ASP.NET AJAX Documentation
 description: Accessing Controls
 slug: listview/templates/accessing-controls
 tags: accessing,controls

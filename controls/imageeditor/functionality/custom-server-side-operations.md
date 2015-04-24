@@ -1,6 +1,6 @@
 ---
 title: Custom Server-side Operations
-page_title: Custom Server-side Operations | UI for ASP.NET AJAX Documentation
+page_title: Custom Server-side Operations | RadImageEditor for ASP.NET AJAX Documentation
 description: Custom Server-side Operations
 slug: imageeditor/functionality/custom-server-side-operations
 tags: custom,server-side,operations
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-Starting with Q1 2012 the __RadImageEditor__ allows its built-in __OnImageEditing__[server-side event]({%slug imageeditor/server-side-programming/events%}) to handle the server-side execution of custom commands you have added to its toolbar. By using this you can also override the behavior of the built-in commands or add some custom functionality to them.
+Starting with Q1 2012 the **RadImageEditor** allows its built-in **OnImageEditing**[server-side event]({%slug imageeditor/server-side-programming/events%}) to handle the server-side execution of custom commands you have added to its toolbar. By using this you can also override the behavior of the built-in commands or add some custom functionality to them.
 
-In order to use a custom command you need to first add its handler in the JavaScript. To send the command to the server you need to call the control's __editImageOnServer__ JavaScript method.
+In order to use a custom command you need to first add its handler in the JavaScript. To send the command to the server you need to call the control's **editImageOnServer** JavaScript method.
 
 The handler for the command receives three parameters which are common for all custom client-side commands:
 
-1. imageEditor - the instance of the __RadImageEditor__ whose command is fired
+1. imageEditor - the instance of the **RadImageEditor** whose command is fired
 
-1. commandName - the name of the command as declared in the custom tool's __CommandName__ property
+1. commandName - the name of the command as declared in the custom tool's **CommandName** property
 
 1. args - an event arguments object that exposes the following two methods:
 
@@ -44,7 +44,7 @@ The editImageOnServer() method takes four arguments:
 
 1. serverData - the data object that comes from the server. This is where you can read the argument which is modified on the server - it is contained in the *args* field of the serverData object
 
-The __OnImageEditing__ server-side handler receives two arguments - one is of type object and is the __RadImageEditor__ instance and the second is of type *Telerik.Web.UI.ImageEditorEditingEventArgs* and contains the information passed from the client as well as the Image itself.
+The **OnImageEditing** server-side handler receives two arguments - one is of type object and is the **RadImageEditor** instance and the second is of type *Telerik.Web.UI.ImageEditorEditingEventArgs* and contains the information passed from the client as well as the Image itself.
 
 The below example shows how to add a custom command that will add some text to the image on the server. The added text is passed as an argument from the client and then some information is returned from the server to the client
 

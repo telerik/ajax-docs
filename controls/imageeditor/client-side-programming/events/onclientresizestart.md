@@ -1,6 +1,6 @@
 ---
 title: OnClientResizeStart
-page_title: OnClientResizeStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientResizeStart | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientResizeStart
 slug: imageeditor/client-side-programming/events/onclientresizestart
 tags: onclientresizestart
@@ -14,11 +14,11 @@ position: 8
 
 ## 
 
-The __OnClientResizeStart__ event is raised when the user starts resizing the control.
+The **OnClientResizeStart** event is raised when the user starts resizing the control.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

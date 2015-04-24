@@ -1,6 +1,6 @@
 ---
 title: OnClientShortCutHit
-page_title: OnClientShortCutHit | UI for ASP.NET AJAX Documentation
+page_title: OnClientShortCutHit | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientShortCutHit
 slug: imageeditor/client-side-programming/events/onclientshortcuthit
 tags: onclientshortcuthit
@@ -14,11 +14,11 @@ position: 12
 
 ## 
 
-The __OnClientShortCutHit__ event raises when a given Keyboard ShortCut of the RadImageEditor was hit. The event can be cancelled.
+The **OnClientShortCutHit** event raises when a given Keyboard ShortCut of the RadImageEditor was hit. The event can be cancelled.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object.
 

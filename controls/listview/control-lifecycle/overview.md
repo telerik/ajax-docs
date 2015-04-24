@@ -1,6 +1,6 @@
 ---
-title: Control Lifecycle Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Control Lifecycle Overview | RadListView for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/control-lifecycle/overview
 tags: overview

@@ -1,6 +1,6 @@
 ---
 title: Setting Focus
-page_title: Setting Focus | UI for ASP.NET AJAX Documentation
+page_title: Setting Focus | RadInput for ASP.NET AJAX Documentation
 description: Setting Focus
 slug: input/getting-started/setting-focus
 tags: setting,focus

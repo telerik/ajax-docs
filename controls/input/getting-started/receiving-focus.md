@@ -1,6 +1,6 @@
 ---
 title: Receiving Focus
-page_title: Receiving Focus | UI for ASP.NET AJAX Documentation
+page_title: Receiving Focus | RadInput for ASP.NET AJAX Documentation
 description: Receiving Focus
 slug: input/getting-started/receiving-focus
 tags: receiving,focus

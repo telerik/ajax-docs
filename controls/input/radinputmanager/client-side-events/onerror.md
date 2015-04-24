@@ -1,6 +1,6 @@
 ---
 title: OnError
-page_title: OnError | UI for ASP.NET AJAX Documentation
+page_title: OnError | RadInput for ASP.NET AJAX Documentation
 description: OnError
 slug: input/radinputmanager/client-side-events/onerror
 tags: onerror

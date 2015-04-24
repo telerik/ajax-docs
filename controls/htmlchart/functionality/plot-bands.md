@@ -1,6 +1,6 @@
 ---
 title: Plot Bands
-page_title: Plot Bands | UI for ASP.NET AJAX Documentation
+page_title: Plot Bands | RadHtmlChart for ASP.NET AJAX Documentation
 description: Plot Bands
 slug: htmlchart/functionality/plot-bands
 tags: plot,bands
@@ -12,34 +12,34 @@ position: 4
 
 
 
-__Plot Bands__ are colored ranges in __RadHtmlChart__, the purpose of which is to highlight areas of the chartby changing its background in a predefined axis range. Telerik introduced the plot bands in the Q1 2014 release.
+**Plot Bands** are colored ranges in **RadHtmlChart**, the purpose of which is to highlight areas of the chartby changing its background in a predefined axis range. Telerik introduced the plot bands in the Q1 2014 release.
 
 ## 
 
 The plot bands appear on the chart as colored areas that fill the entire space between two grid lines on the x-axis or on the y-axis.
 
-You can set up such a range by creating __PlotBand__ items and populating them in the __PlotBands__ collectionof the [axis element]({%slug htmlchart/server-side-programming/axes-configuration%}) (XAxis and YAxis).
+You can set up such a range by creating **PlotBand** items and populating them in the **PlotBands** collectionof the [axis element]({%slug htmlchart/server-side-programming/axes-configuration%}) (XAxis and YAxis).
 
-Each __PlotBand__ item exposes four properties that allow you to specify how the colored area should be visualized:
+Each **PlotBand** item exposes four properties that allow you to specify how the colored area should be visualized:
 
-* __From__ - The starting grid line of the plot band on the X or Y axes.
+* **From** - The starting grid line of the plot band on the X or Y axes.
 
-* __To__ - The ending grid line of the plot band on the X or Y axes.
+* **To** - The ending grid line of the plot band on the X or Y axes.
 
-* __Alpha__ - The opacity of the plot band in range [0-255].
+* **Alpha** - The opacity of the plot band in range [0-255].
 
-* __Color__ - The color of the plot band.
+* **Color** - The color of the plot band.
 
-The value of the properties __From__ and __To__ depends on the type of the chart:
+The value of the properties **From** and **To** depends on the type of the chart:
 
-* For the x-axis of categorical chart types (__Area__, __Bar__, __Column__, etc.), you need to set the index of the corresponding category.
+* For the x-axis of categorical chart types (**Area**, **Bar**, **Column**, etc.), you need to set the index of the corresponding category.
 
-* For numerical chart types (__Scatter__, __Scatter Line__, __Bubble__) and for the y-axis of categorical chart types, you need to set the actual value from the axis.
+* For numerical chart types (**Scatter**, **Scatter Line**, **Bubble**) and for the y-axis of categorical chart types, you need to set the actual value from the axis.
 >caption Figure 1: A chart with two plot bands. The red band is on the x-axis and blue band is on the y-axis The code in Example 1 illustrates how to setup the chart.
 
 ![htmlchart-plot-bands](images/htmlchart-plot-bands.png)
 
-__Example 1__: Creating a chart that has two plot bands – one on the x-axis and one on the y-axis.
+**Example 1**: Creating a chart that has two plot bands – one on the x-axis and one on the y-axis.
 
 ````ASPNET
 	        <telerik:RadHtmlChart ID="Chart" runat="server" Width="760px" Height="420px">

@@ -1,6 +1,6 @@
 ---
 title: OnClientPasswordStrengthCalculating
-page_title: OnClientPasswordStrengthCalculating | UI for ASP.NET AJAX Documentation
+page_title: OnClientPasswordStrengthCalculating | RadInput for ASP.NET AJAX Documentation
 description: OnClientPasswordStrengthCalculating
 slug: input/client-side-programming/events/onclientpasswordstrengthcalculating
 tags: onclientpasswordstrengthcalculating
@@ -12,9 +12,9 @@ position: 3
 
 
 
-__OnClientPasswordStrengthCalculating__ is fired when using the password strength check feature and changing the text, before the indicator is updated.
+**OnClientPasswordStrengthCalculating** is fired when using the password strength check feature and changing the text, before the indicator is updated.
 
->note The __OnClientPasswordStrengthCalculating__ event is supported by __RadTextBox__ with TextMode set to Password and for TextBoxSettings created with RadInputManager.
+>note The **OnClientPasswordStrengthCalculating** event is supported by **RadTextBox** with TextMode set to Password and for TextBoxSettings created with RadInputManager.
 >
 
 
@@ -22,13 +22,13 @@ __OnClientPasswordStrengthCalculating__ is fired when using the password strengt
 
 Four properties are exposed through the event arguments:
 
-* __get_passwordText__ - gets password entered by the user.
+* **get_passwordText** - gets password entered by the user.
 
-* __get_strengthScore__ - gets calculated password strength.
+* **get_strengthScore** - gets calculated password strength.
 
-* __set_strengthScore__ - sets custom calculated password strength.
+* **set_strengthScore** - sets custom calculated password strength.
 
-* __set_indicatorText__ - sets the text that will be used in the indicator element instead of the correspondading one from TextStrengthDescriptions.
+* **set_indicatorText** - sets the text that will be used in the indicator element instead of the correspondading one from TextStrengthDescriptions.
 
 ````ASPNET
 	    <telerik:RadTextBox runat="server" ID="RadTextBox1" Text="Enter Password" TextMode="Password">

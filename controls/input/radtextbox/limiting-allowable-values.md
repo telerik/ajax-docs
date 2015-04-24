@@ -1,6 +1,6 @@
 ---
 title: Limiting Allowable Values
-page_title: Limiting Allowable Values | UI for ASP.NET AJAX Documentation
+page_title: Limiting Allowable Values | RadInput for ASP.NET AJAX Documentation
 description: Limiting Allowable Values
 slug: input/radtextbox/limiting-allowable-values
 tags: limiting,allowable,values

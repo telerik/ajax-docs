@@ -1,6 +1,6 @@
 ---
 title: Simple vs Advanced
-page_title: Simple vs Advanced | UI for ASP.NET AJAX Documentation
+page_title: Simple vs Advanced | RadListView for ASP.NET AJAX Documentation
 description: Simple vs Advanced
 slug: listview/data-binding/server-side/simple-vs-advanced
 tags: simple,vs,advanced
@@ -18,15 +18,15 @@ The key to the advanced data binding of Telerik RadListView is handling correctl
 
 This event fires in the following cases:
 
-* Right after __OnLoad__, Telerik RadListView checks the viewstate for stored listview-related information. If such information is missing (when the page loads for the first time), the __NeedDataSource__ event is fired. This also means that if the __EnableViewState__ property of the controlhas been set to __false__, the listview will bind __each time the page__ loads (not only the first time)
+* Right after **OnLoad**, Telerik RadListView checks the viewstate for stored listview-related information. If such information is missing (when the page loads for the first time), the **NeedDataSource** event is fired. This also means that if the **EnableViewState** property of the controlhas been set to **false**, the listview will bind **each time the page** loads (not only the first time)
 
 * After automatic sorting
 
 * When paging event occurs
 
-* When __Select__ command is fired
+* When **Select** command is fired
 
-* Right after __Edit/Update/Delete/Insert__ commands finish execution. You can cancel these operations handling the __ItemCommand__ event and assigning __false__ value to the __Canceled__ property of the __e__ event argument
+* Right after **Edit/Update/Delete/Insert** commands finish execution. You can cancel these operations handling the **ItemCommand** event and assigning **false** value to the **Canceled** property of the **e** event argument
 
 * When grouping/ungrouping
 
@@ -34,15 +34,15 @@ This event fires in the following cases:
 
 * When filtering fields
 
-* When a call to the __Rebind()__ listview method takes place
+* When a call to the **Rebind()** listview method takes place
 
 * In some other custom cases.
 
 The advantages of using this event are that the developer does not need to write any code handling the logic about when and how the data-binding should be processed. It is still the developer's responsibility to construct properly a data source object and assign it to the RadListView's DataSource property.
 
-In the code of the __NeedDataSource__ handler you should prepare the data source (list of objects) for Telerik RadListView and assign it to the grid's __DataSource__ property.
+In the code of the **NeedDataSource** handler you should prepare the data source (list of objects) for Telerik RadListView and assign it to the grid's **DataSource** property.
 
->note  __You should never call the DataBind() method from inside the NeedDataSource handler or mix simple data-binding mode with advanced data-binding__ 
+>note  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simple data-binding mode with advanced data-binding** 
 >
 
 

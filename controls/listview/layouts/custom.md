@@ -1,6 +1,6 @@
 ---
 title: Custom
-page_title: Custom | UI for ASP.NET AJAX Documentation
+page_title: Custom | RadListView for ASP.NET AJAX Documentation
 description: Custom
 slug: listview/layouts/custom
 tags: custom
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-Telerik __RadListView__ supports complete customization of the layout. Using the LayoutTemplate and ItemTemplate, you can define a repeating HTML pattern that can build up various layout structures: horizontal lists, vertical lists, tables, etc. Moreover, including a __RadDataPager__ gives you off-the-shelf paging functionality in otherwise hard to implement scenarios like, for example, paging horizontal lists:
+Telerik **RadListView** supports complete customization of the layout. Using the LayoutTemplate and ItemTemplate, you can define a repeating HTML pattern that can build up various layout structures: horizontal lists, vertical lists, tables, etc. Moreover, including a **RadDataPager** gives you off-the-shelf paging functionality in otherwise hard to implement scenarios like, for example, paging horizontal lists:
 
 ````JavaScript
 	<telerik:RadListView ID="RadListView1" runat="server" DataSourceID="SqlDataSource2"

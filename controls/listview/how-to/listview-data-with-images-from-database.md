@@ -1,6 +1,6 @@
 ---
 title: ListView Data with Images from Database
-page_title: ListView Data with Images from Database | UI for ASP.NET AJAX Documentation
+page_title: ListView Data with Images from Database | RadListView for ASP.NET AJAX Documentation
 description: ListView Data with Images from Database
 slug: listview/how-to/listview-data-with-images-from-database
 tags: listview,data,with,images,from,database

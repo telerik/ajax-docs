@@ -1,6 +1,6 @@
 ---
 title: Parsing Dates
-page_title: Parsing Dates | UI for ASP.NET AJAX Documentation
+page_title: Parsing Dates | RadInput for ASP.NET AJAX Documentation
 description: Parsing Dates
 slug: input/raddateinput/parsing-dates
 tags: parsing,dates

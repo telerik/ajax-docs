@@ -1,6 +1,6 @@
 ---
 title: Client-side
-page_title: Client-side | UI for ASP.NET AJAX Documentation
+page_title: Client-side | RadImageGallery for ASP.NET AJAX Documentation
 description: Client-side
 slug: imagegallery/data-binding/client-side
 tags: client-side
@@ -12,11 +12,11 @@ position: 1
 
 
 
-__RadImageGallery__ allows you to have an entirely client-side data-binding scenario or apartial client-side binding in combination with one of the other binding methods. This is achieved by creating instances of __Telerik.Web.UI.ImageGalleryItem__ object andadding those objects to the items collection of __RadImageGallery__.
+**RadImageGallery** allows you to have an entirely client-side data-binding scenario or apartial client-side binding in combination with one of the other binding methods. This is achieved by creating instances of **Telerik.Web.UI.ImageGalleryItem** object andadding those objects to the items collection of **RadImageGallery**.
 
 ## 
 
-The code bellow demonstrates how to create and add an instanceof __Telerik.Web.UI.ImageGalleryItem__ object to the items collection:
+The code bellow demonstrates how to create and add an instanceof **Telerik.Web.UI.ImageGalleryItem** object to the items collection:
 
 ````ASPNET
 	        <telerik:RadCodeBlock runat="server">
@@ -42,7 +42,7 @@ The code bellow demonstrates how to create and add an instanceof __Telerik.Web.U
 
 
 
-Following is the complete list of properties that could be set when a new instance of__Telerik.Web.UI.ImageGalleryItem__ is created:
+Following is the complete list of properties that could be set when a new instance of**Telerik.Web.UI.ImageGalleryItem** is created:
 
 * Owner
 
@@ -58,15 +58,15 @@ Following is the complete list of properties that could be set when a new instan
 
 * ThumbnailUrl
 
-The only mandatory property from the above list is the __ImageUrl__.If the __ThumbnailUrl__ property is not specified, the __ImageUrl__ will be	used for showing a scaled image in the thumbnail area.
+The only mandatory property from the above list is the **ImageUrl**.If the **ThumbnailUrl** property is not specified, the **ImageUrl** will be	used for showing a scaled image in the thumbnail area.
 
->note When items are created and added to the items collection of the __RadImageGallery__ on the client, they will be lost after each postback.
+>note When items are created and added to the items collection of the **RadImageGallery** on the client, they will be lost after each postback.
 >
 
 
 ## Partial Client-side Binding Specifics
 
-When client-side binding is used in combination with server-side binding or	with a static collection of items, adding new items to the items collection	with the __add(item)__ method will add them at the end of the collection.	This is due to the fact that all items created on the server are already in the	items collection. In scenarios when items created on the client have to be	placed before the other items (or at a particular position), the __insert(index, item)__	method should be used instead. Here is an example for inserting items before	the server-side created items:
+When client-side binding is used in combination with server-side binding or	with a static collection of items, adding new items to the items collection	with the **add(item)** method will add them at the end of the collection.	This is due to the fact that all items created on the server are already in the	items collection. In scenarios when items created on the client have to be	placed before the other items (or at a particular position), the **insert(index, item)**	method should be used instead. Here is an example for inserting items before	the server-side created items:
 
 ````ASPNET
 			<telerik:RadCodeBlock runat="server">

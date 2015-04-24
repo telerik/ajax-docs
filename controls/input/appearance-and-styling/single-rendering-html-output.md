@@ -1,6 +1,6 @@
 ---
 title: Single Rendering HTML Output
-page_title: Single Rendering HTML Output | UI for ASP.NET AJAX Documentation
+page_title: Single Rendering HTML Output | RadInput for ASP.NET AJAX Documentation
 description: Single Rendering HTML Output
 slug: input/appearance-and-styling/single-rendering-html-output
 tags: single,rendering,html,output

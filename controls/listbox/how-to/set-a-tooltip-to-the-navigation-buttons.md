@@ -1,6 +1,6 @@
 ---
 title: Set a ToolTip to the Navigation Buttons
-page_title: Set a ToolTip to the Navigation Buttons | UI for ASP.NET AJAX Documentation
+page_title: Set a ToolTip to the Navigation Buttons | RadListBox for ASP.NET AJAX Documentation
 description: Set a ToolTip to the Navigation Buttons
 slug: listbox/how-to/set-a-tooltip-to-the-navigation-buttons
 tags: set,a,tooltip,to,the,navigation,buttons

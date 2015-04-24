@@ -1,6 +1,6 @@
 ---
-title: Sorting Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Sorting Overview | RadListView for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/fuctionality/sorting/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-RadListView possesses sorting capabilities that are similar to these, offered by __RadGrid__, so the developers who are familiar with Telerik controls will get used to __RadListView__easily.
+RadListView possesses sorting capabilities that are similar to these, offered by **RadGrid**, so the developers who are familiar with Telerik controls will get used to **RadListView**easily.
 
-Implementing sorting is very easy - you should add a __SortExpression__ object to the __SortExpressions__ collection as demonstrated on the following example.
+Implementing sorting is very easy - you should add a **SortExpression** object to the **SortExpressions** collection as demonstrated on the following example.
 
 
 
@@ -56,6 +56,6 @@ To facilitate the users that need a string representation of the sorting express
 ````
 
 
->note When binding __RadListView__ to __ObjectDataSource__ control you should set the __OverrideDataSourceControlSorting__ property to __true__ 
+>note When binding **RadListView** to **ObjectDataSource** control you should set the **OverrideDataSourceControlSorting** property to **true** 
 >
 

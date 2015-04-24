@@ -1,6 +1,6 @@
 ---
 title: Full Set of Tools
-page_title: Full Set of Tools | UI for ASP.NET AJAX Documentation
+page_title: Full Set of Tools | RadImageEditor for ASP.NET AJAX Documentation
 description: Full Set of Tools
 slug: imageeditor/getting-started/full-set-of-tools
 tags: full,set,of,tools
@@ -12,15 +12,15 @@ position: 2
 
 
 
-__RadImageEditor__ could be used in two different render modes - CanvasMode, using the HTML canvas tag where all the changes are made Client-side,and non CanvasMode, where the image editing is handled entirely on the Server. The core of the Server-side editing mode is the .NET standard GDI+ library. You can control	the mode of the control through its __CanvasMode__ property (with a value set to "Yes" or "No"). Thanks to the canvas functionality (available since Q3 2012)	__RadImageEditor__ has the following filters: Invert Color, Brightness and Contrast, Sepia and Greyscale along with drawing functionality.
+**RadImageEditor** could be used in two different render modes - CanvasMode, using the HTML canvas tag where all the changes are made Client-side,and non CanvasMode, where the image editing is handled entirely on the Server. The core of the Server-side editing mode is the .NET standard GDI+ library. You can control	the mode of the control through its **CanvasMode** property (with a value set to "Yes" or "No"). Thanks to the canvas functionality (available since Q3 2012)	**RadImageEditor** has the following filters: Invert Color, Brightness and Contrast, Sepia and Greyscale along with drawing functionality.
 
 Depending on the choosen mode, you can utilize the following sets of tools:
 
-* __All modes supported tools__:	Print, Save, Undo, Redo, Reset, Crop, Resize, Zoom, ZoomIn, ZoomOut, Opacity, Rotate, RotateRight, RotateLeft,	Flip, FlipVertical, FlipHorizontal, AddText, InsertImage (available since Q3 2011), Export (available since Q1 2013).
+* **All modes supported tools**:	Print, Save, Undo, Redo, Reset, Crop, Resize, Zoom, ZoomIn, ZoomOut, Opacity, Rotate, RotateRight, RotateLeft,	Flip, FlipVertical, FlipHorizontal, AddText, InsertImage (available since Q3 2011), Export (available since Q1 2013).
 
-* __CanvasMode supported tools__:	All tools from the list above, including BrightnessContrast, InvertColor, Sepia, Greyscale, HueSaturation, Pencil, DrawCircle, DrawRectangle, Line.
+* **CanvasMode supported tools**:	All tools from the list above, including BrightnessContrast, InvertColor, Sepia, Greyscale, HueSaturation, Pencil, DrawCircle, DrawRectangle, Line.
 
-The implementation of the __RadImageEditor__’s toolbar is based on RadToolBar. Still it resembles the toolbar structure of RadEditor, which can be set either:
+The implementation of the **RadImageEditor**’s toolbar is based on RadToolBar. Still it resembles the toolbar structure of RadEditor, which can be set either:
 
 * inline in the control’s declaration
 
@@ -28,7 +28,7 @@ The implementation of the __RadImageEditor__’s toolbar is based on RadToolBar.
 
 ## Defining the tools inline
 
->important When setting the ImageEditorTooltool tags, it is required to specify the __CommandName__ attribute. Other available attributes are: __CssClass__ , __Enabled__ , __ImageUrl__ , __Text__ and __ToolTip__ .
+>important When setting the ImageEditorTooltool tags, it is required to specify the **CommandName** attribute. Other available attributes are: **CssClass** , **Enabled** , **ImageUrl** , **Text** and **ToolTip** .
 >
 
 
@@ -118,15 +118,15 @@ The implementation of the __RadImageEditor__’s toolbar is based on RadToolBar.
 
 ## Loading the tools from an XML file
 
-Set the RadImageEditor’s __ToolsFile__ property to point to an XML file, which has the following structure and syntax.The available attributes are:
+Set the RadImageEditor’s **ToolsFile** property to point to an XML file, which has the following structure and syntax.The available attributes are:
 
-* __name__ - specifies the tool name.
+* **name** - specifies the tool name.
 
-* __toolstrip__ - when set to true renders a toolstrip button.
+* **toolstrip** - when set to true renders a toolstrip button.
 
-* __togglebutton__ - when set to true renders a togglebutton.
+* **togglebutton** - when set to true renders a togglebutton.
 
-* __tooltip__ - specify a tooltip for the button.
+* **tooltip** - specify a tooltip for the button.
 
 ````XML
 	    <?xml version="1.0" encoding="utf-8" ?>

@@ -1,6 +1,6 @@
 ---
 title: OnItemDragStarted
-page_title: OnItemDragStarted | UI for ASP.NET AJAX Documentation
+page_title: OnItemDragStarted | RadListView for ASP.NET AJAX Documentation
 description: OnItemDragStarted
 slug: listview/client-side-programming/events/onitemdragstarted
 tags: onitemdragstarted
@@ -17,10 +17,10 @@ position: 3
 This client-side event is fired when a RadListView item is about to be dragged.
 
 
-|  __Fired by__  | RadListView |
+|  **Fired by**  | RadListView |
 | ------ | ------ |
-| __Arguments__ | __dataKeyValues__ - Array of the item key fields set through the ClientDataKeyNames property of the RadListView control __itemIndex__ - the index of the dragged item __domEvent__ - dom event|
-| __Can be canceled__ |Yes|
+| **Arguments** | **dataKeyValues** - Array of the item key fields set through the ClientDataKeyNames property of the RadListView control **itemIndex** - the index of the dragged item **domEvent** - dom event|
+| **Can be canceled** |Yes|
 
 Example:
 

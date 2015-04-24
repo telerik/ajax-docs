@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadHtmlChart for ASP.NET AJAX Documentation
 description: Overview
 slug: htmlchart/client-side-programming/events/overview
 tags: overview
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-__RadHtmlChart__ exposes several client-side events for handling different user interactions:
+**RadHtmlChart** exposes several client-side events for handling different user interactions:
 
-* __OnLoad__—raised when the control is initialized.
+* **OnLoad**—raised when the control is initialized.
 
-* [OnSeriesClick](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesClick)—rised when the user clicks the __RadHtmlChart__ series.
+* [OnSeriesClick](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesClick)—rised when the user clicks the **RadHtmlChart** series.
 
-* [OnSeriesHover](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesHover)—rised when the user hovers the __RadHtmlChart__ series.
+* [OnSeriesHover](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-seriesHover)—rised when the user hovers the **RadHtmlChart** series.
 
 * [OnLegendItemClick](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events-legendItemClick)—raised when an legend item is clicked.
 
@@ -30,7 +30,7 @@ __RadHtmlChart__ exposes several client-side events for handling different user 
 
 * [OnClientSeriesHovered]({%slug htmlchart/client-side-programming/events/onclientserieshovered(deprecated)%}) (Deprecated)
 
-To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the thecorresponding property in the __ClientEvents__ RadHtmlChart subtag.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the thecorresponding property in the **ClientEvents** RadHtmlChart subtag.
 
 ````ASPNET
 			<script type="text/javascript">
@@ -66,7 +66,7 @@ To use these events, simply write a JavaScript function that can be called when 
 
 
 
-All client-side events, except __OnLoad__, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the[Kendo UI HtmlChart API reference](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
+All client-side events, except **OnLoad**, are references to their corresponding events of the Kendo UI HtmlChart object. You can get familiar with the full set of arguments coming with each event in the[Kendo UI HtmlChart API reference](http://docs.telerik.com/kendo-ui/api/dataviz/chart#events). For example:
 
 ````ASPNET
 		<script type="text/javascript">

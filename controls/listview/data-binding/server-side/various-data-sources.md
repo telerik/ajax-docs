@@ -1,6 +1,6 @@
 ---
 title: Various Data Sources
-page_title: Various Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Various Data Sources | RadListView for ASP.NET AJAX Documentation
 description: Various Data Sources
 slug: listview/data-binding/server-side/various-data-sources
 tags: various,data,sources
@@ -22,22 +22,22 @@ There are three ways to bind the listview control to a database:
 
 * *Using the NeedDataSource event* - RadListView calls this event each time it needs a data source.
 
-* *ASP.NET ListView-like binding* - You can set the __DataSource__ property manually in the control declaration. This property specifies the database, which is then used as a source for the grid.
+* *ASP.NET ListView-like binding* - You can set the **DataSource** property manually in the control declaration. This property specifies the database, which is then used as a source for the grid.
 
->note When binding RadListView by setting the __DataSource__ property, you can set the __DataSource__ property to an instance of any of the following types:
+>note When binding RadListView by setting the **DataSource** property, you can set the **DataSource** property to an instance of any of the following types:
 >
-*  __DataSet__ , __DataTable__ , or __DataView__ 
-* Array of __DataRow__ 
-* Any object collection that implements the __IListSource__ , __IList__ , __IEnumerable__ , or __ICustomTypeDescriptor__ interface.>
+*  **DataSet** , **DataTable** , or **DataView** 
+* Array of **DataRow** 
+* Any object collection that implements the **IListSource** , **IList** , **IEnumerable** , or **ICustomTypeDescriptor** interface.>
 
 
-You can use a wide variety of data sources for RadListView structure generation (the only requirement is that these custom objects implement the __ITypedList/IEnumarable/ICustomTypeDescriptor__ interfaces). The code in the next paragraph demonstrates how to:
+You can use a wide variety of data sources for RadListView structure generation (the only requirement is that these custom objects implement the **ITypedList/IEnumarable/ICustomTypeDescriptor** interfaces). The code in the next paragraph demonstrates how to:
 
-* use __ArrayList__ object for Telerik RadListView structure generation
+* use **ArrayList** object for Telerik RadListView structure generation
 
 * bind the listview to list of custom objects (Generic list)
 
-* bind RadListView to a __DataReader__
+* bind RadListView to a **DataReader**
 
 
 

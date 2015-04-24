@@ -1,6 +1,6 @@
 ---
 title: OnClientImageChanging
-page_title: OnClientImageChanging | UI for ASP.NET AJAX Documentation
+page_title: OnClientImageChanging | RadImageEditor for ASP.NET AJAX Documentation
 description: OnClientImageChanging
 slug: imageeditor/client-side-programming/events/onclientimagechanging
 tags: onclientimagechanging
@@ -14,11 +14,11 @@ position: 5
 
 ## 
 
-The __OnClientImageChanging__ event is raised when the user initiates an action on the image. The event can be canceled.
+The **OnClientImageChanging** event is raised when the user initiates an action on the image. The event can be canceled.
 
 The event handler receives the following parameters:
 
-1. The __RadImageEditor__ client instance that fired the event.
+1. The **RadImageEditor** client instance that fired the event.
 
 1. Event arguments object. You can cancel the event by calling its set_cancel(true) method
 

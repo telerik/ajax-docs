@@ -1,6 +1,6 @@
 ---
 title: Password Strength Checker
-page_title: Password Strength Checker | UI for ASP.NET AJAX Documentation
+page_title: Password Strength Checker | RadInput for ASP.NET AJAX Documentation
 description: Password Strength Checker
 slug: input/radtextbox/password-strength-checker
 tags: password,strength,checker

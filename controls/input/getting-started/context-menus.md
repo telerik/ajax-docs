@@ -1,6 +1,6 @@
 ---
 title: Context Menus
-page_title: Context Menus | UI for ASP.NET AJAX Documentation
+page_title: Context Menus | RadInput for ASP.NET AJAX Documentation
 description: Context Menus
 slug: input/getting-started/context-menus
 tags: context,menus

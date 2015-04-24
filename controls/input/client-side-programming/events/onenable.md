@@ -1,6 +1,6 @@
 ---
 title: OnEnable
-page_title: OnEnable | UI for ASP.NET AJAX Documentation
+page_title: OnEnable | RadInput for ASP.NET AJAX Documentation
 description: OnEnable
 slug: input/client-side-programming/events/onenable
 tags: onenable
@@ -14,19 +14,19 @@ position: 5
 
 ## 
 
-The __OnEnable__ client-side event handler is called when the input control is enabled.
+The **OnEnable** client-side event handler is called when the input control is enabled.
 
->note The __OnEnable__ event is supported by all __RadInput__ controls.
+>note The **OnEnable** event is supported by all **RadInput** controls.
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
+* **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
-The following example uses the __OnEnable__ event to disable another control when the input control is enabled:
+The following example uses the **OnEnable** event to disable another control when the input control is enabled:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">

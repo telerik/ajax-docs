@@ -1,6 +1,6 @@
 ---
 title: deleteItem
-page_title: deleteItem | UI for ASP.NET AJAX Documentation
+page_title: deleteItem | RadListView for ASP.NET AJAX Documentation
 description: deleteItem
 slug: listview/client-side-programming/radlistview/methods/deleteitem
 tags: deleteitem
@@ -14,14 +14,14 @@ position: 3
 
 ## 
 
-Method which fires the Delete command for the __RadListView__ item corresponding to the index passed as an argument in edit mode.
+Method which fires the Delete command for the **RadListView** item corresponding to the index passed as an argument in edit mode.
 
 
 
 
 | function deleteItem(index) |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The item corresponding to the __index__ will be deleted.|
+| **index** |Integer|The item corresponding to the **index** will be deleted.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

@@ -1,6 +1,6 @@
 ---
 title: Format Numbers
-page_title: Format Numbers | UI for ASP.NET AJAX Documentation
+page_title: Format Numbers | RadHtmlChart for ASP.NET AJAX Documentation
 description: Format Numbers
 slug: htmlchart/appearance-and-styling/format-numbers
 tags: format,numbers
@@ -14,7 +14,7 @@ position: 5
 
 ## Using DataFormatString
 
-Numbers can be formatted through the __DataFormatString property__ which is exposed by[XAxis/YAxis Labels]({%slug htmlchart/server-side-programming/axes-configuration%}),[Series Labels and ToolTips]({%slug htmlchart/server-side-programming/series-configuration%}).
+Numbers can be formatted through the **DataFormatString property** which is exposed by[XAxis/YAxis Labels]({%slug htmlchart/server-side-programming/axes-configuration%}),[Series Labels and ToolTips]({%slug htmlchart/server-side-programming/series-configuration%}).
 
 The number format can be set:
 
@@ -38,7 +38,7 @@ The number of zeros after the decimal mark can be indicated next to thenumber fo
 >
 
 
->note Since __Q2 2013__ the __RadHtmlChart__ can be databound	to __DateTime objects__ , so that[XAxis Labels]({%slug htmlchart/server-side-programming/axes-configuration%}),[Series Labels and ToolTips]({%slug htmlchart/server-side-programming/series-configuration%})can be formatted to the desired date format. More information on formatting dates is available in[Date Axis]({%slug htmlchart/functionality/axes/date-axis%})article.
+>note Since **Q2 2013** the **RadHtmlChart** can be databound	to **DateTime objects** , so that[XAxis Labels]({%slug htmlchart/server-side-programming/axes-configuration%}),[Series Labels and ToolTips]({%slug htmlchart/server-side-programming/series-configuration%})can be formatted to the desired date format. More information on formatting dates is available in[Date Axis]({%slug htmlchart/functionality/axes/date-axis%})article.
 >
 
 

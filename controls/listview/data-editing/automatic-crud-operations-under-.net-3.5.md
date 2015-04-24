@@ -1,6 +1,6 @@
 ---
 title: Automatic CRUD Operations under .NET 3.5
-page_title: Automatic CRUD Operations under .NET 3.5 | UI for ASP.NET AJAX Documentation
+page_title: Automatic CRUD Operations under .NET 3.5 | RadListView for ASP.NET AJAX Documentation
 description: Automatic CRUD Operations under .NET 3.5
 slug: listview/data-editing/automatic-crud-operations-under-.net-3.5
 tags: automatic,crud,operations,under,.net,3.5
@@ -12,9 +12,9 @@ position: 1
 
 
 
-__RadListView__ provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
+**RadListView** provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
 
-__Controlling the automatic data source operations under .NET35__
+**Controlling the automatic data source operations under .NET35**
 
 RadListView can be bound to all ASP.NET 3.5 DataSource control types:
 
@@ -22,9 +22,9 @@ RadListView can be bound to all ASP.NET 3.5 DataSource control types:
 
 * EntityDataSource
 
-Once it is bound to a __DataSource__ control that supports Insert, Update, and Delete operations, __RadListView__ can take an advantage of the data source capabilities to perform the required operations with no code except error handling required. Note that the automatic data source operations only work when binding the grid to a declarative data source using the __DataSourceID__ property of the listview. You must configure the data source so that it supports the automatic operations and make sure its __EnableInsert__, __EnableUpdate__ and __EnableDelete__ properties are set to __True__.
+Once it is bound to a **DataSource** control that supports Insert, Update, and Delete operations, **RadListView** can take an advantage of the data source capabilities to perform the required operations with no code except error handling required. Note that the automatic data source operations only work when binding the grid to a declarative data source using the **DataSourceID** property of the listview. You must configure the data source so that it supports the automatic operations and make sure its **EnableInsert**, **EnableUpdate** and **EnableDelete** properties are set to **True**.
 
-You also need to set the __DataKeyNames__ property of the RadListView control so that the insert, update, and delete operations perform as expected.
+You also need to set the **DataKeyNames** property of the RadListView control so that the insert, update, and delete operations perform as expected.
 
 ## 
 
@@ -379,6 +379,6 @@ EntityDataSource:
 
 ## Additional resources
 
-* __LinqDataSource:__[ http://msdn2.microsoft.com/en-us/library/bb547113.aspx ](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
+* **LinqDataSource:**[ http://msdn2.microsoft.com/en-us/library/bb547113.aspx ](http://msdn2.microsoft.com/en-us/library/bb547113.aspx)
 
-* __EntityDataSource:__[http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)
+* **EntityDataSource:**[http://msdn.microsoft.com/en-us/library/cc488502.aspx](http://msdn.microsoft.com/en-us/library/cc488502.aspx)

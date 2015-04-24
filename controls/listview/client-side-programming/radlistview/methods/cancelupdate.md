@@ -1,6 +1,6 @@
 ---
 title: cancelUpdate
-page_title: cancelUpdate | UI for ASP.NET AJAX Documentation
+page_title: cancelUpdate | RadListView for ASP.NET AJAX Documentation
 description: cancelUpdate
 slug: listview/client-side-programming/radlistview/methods/cancelupdate
 tags: cancelupdate
@@ -14,14 +14,14 @@ position: 5
 
 ## 
 
-Method which cancels the update for the __RadListView__ item corresponding to the index passed as an argument.
+Method which cancels the update for the **RadListView** item corresponding to the index passed as an argument.
 
 
 
 
 | function cancelUpdate(index) |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The edited item corresponding to the __index__ update will be canceled.|
+| **index** |Integer|The edited item corresponding to the **index** update will be canceled.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

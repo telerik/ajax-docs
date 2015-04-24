@@ -1,6 +1,6 @@
 ---
 title: EntityDataSource
-page_title: EntityDataSource | UI for ASP.NET AJAX Documentation
+page_title: EntityDataSource | RadHtmlChart for ASP.NET AJAX Documentation
 description: EntityDataSource
 slug: htmlchart/data-binding/entitydatasource
 tags: entitydatasource
@@ -14,17 +14,17 @@ position: 2
 
 ## 
 
-This help article describes which properties to use to bind a __RadHtmlChart__ to an __EntityDataSource__and presents a code example. You can bind a __RadHtmlChart__ to an __EntityDataSource__using the following properties:
+This help article describes which properties to use to bind a **RadHtmlChart** to an **EntityDataSource**and presents a code example. You can bind a **RadHtmlChart** to an **EntityDataSource**using the following properties:
 
-* __DataSourceID__ in the main tag sets the declarative data source for the entire chart. You can use	the __DataSource__ property for a programmatic data source if you create the connection in the code-behind.
+* **DataSourceID** in the main tag sets the declarative data source for the entire chart. You can use	the **DataSource** property for a programmatic data source if you create the connection in the code-behind.
 
-* __DataFieldY__ property (and __ColorField__, __ExplodeField__, __NameField__ for Pie and Donut; __DataFieldX__ for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
+* **DataFieldY** property (and **ColorField**, **ExplodeField**, **NameField** for Pie and Donut; **DataFieldX** for Bubble, Scatter and ScatterLine; etc.)for the series to point it to the desired data source field.
 
-* __DataLabelsField__ for the x-axis labels to populate the items for the axis.
+* **DataLabelsField** for the x-axis labels to populate the items for the axis.
 
 The data context, used in the following example, is created from the Northwind database.
 
-__Example 1__: Bind an __EntityDataSource__ to a __RadHtmlChart__.
+**Example 1**: Bind an **EntityDataSource** to a **RadHtmlChart**.
 
 ````ASPNET
 		<asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities"

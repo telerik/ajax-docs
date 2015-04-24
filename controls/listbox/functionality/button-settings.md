@@ -1,6 +1,6 @@
 ---
 title: Button Settings
-page_title: Button Settings | UI for ASP.NET AJAX Documentation
+page_title: Button Settings | RadListBox for ASP.NET AJAX Documentation
 description: Button Settings
 slug: listbox/functionality/button-settings
 tags: button,settings

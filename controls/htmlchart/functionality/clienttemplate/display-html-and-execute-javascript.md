@@ -1,6 +1,6 @@
 ---
 title: Display HTML and Execute JavaScript
-page_title: Display HTML and Execute JavaScript | UI for ASP.NET AJAX Documentation
+page_title: Display HTML and Execute JavaScript | RadHtmlChart for ASP.NET AJAX Documentation
 description: Display HTML and Execute JavaScript
 slug: htmlchart/functionality/clienttemplate/display-html-and-execute-javascript
 tags: display,html,and,execute,javascript
@@ -20,7 +20,7 @@ You can display HTML in tooltips and/or execute JavaScript (i.e., declare variab
 
 ClientTemplates let you use JavaScript, following this pattern: "#if (condition) {# expression #}#".
 
-* __If Statement__:
+* **If Statement**:
 
 ````ASPNET
 			<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="300px" Height="300px">
@@ -50,7 +50,7 @@ ClientTemplates let you use JavaScript, following this pattern: "#if (condition)
 
 Only PieSeries/DonutSeries items whose percentage of the whole is higher than 15% will display their actual value in tooltips and labels.The rest of the series items will display a zero value.
 
-* __For Loop__:
+* **For Loop**:
 
 ````C#
 			<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800" Height="500">
@@ -91,9 +91,9 @@ The tooltip will display three lines of text. The first line shows the category 
 
 ## Display HTML with a ClientTemplate
 
-ClientTemplate can render HTML from a data source following this syntax: __"#: #"__.__Figure 1__ shows an example of using a ClientTemplate to render HTML in a tooltip.
+ClientTemplate can render HTML from a data source following this syntax: **"#: #"**.**Figure 1** shows an example of using a ClientTemplate to render HTML in a tooltip.
 
-__Example 1__: This example illustrates how to render and display HTML in tooltips.
+**Example 1**: This example illustrates how to render and display HTML in tooltips.
 
 
 
@@ -164,7 +164,7 @@ __Example 1__: This example illustrates how to render and display HTML in toolti
 >
 
 
->note You can use number formats inside __Client Templates__ . You can find more information in[this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
+>note You can use number formats inside **Client Templates** . You can find more information in[this Formatting Numbers]({%slug htmlchart/appearance-and-styling/format-numbers%})article in the section called *Formatting Labels and Tooltips by Using their Client Templates.* 
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnError
-page_title: OnError | UI for ASP.NET AJAX Documentation
+page_title: OnError | RadInput for ASP.NET AJAX Documentation
 description: OnError
 slug: input/client-side-programming/events/onerror
 tags: onerror
@@ -14,47 +14,47 @@ position: 7
 
 ## 
 
-The __OnError__ client-side event handler is called when the input control detects that the user has tried to enter an invalid value. The input control may detect the error when the user presses a key to enter an invalid character, or after the input control loses focus and parses the value the user entered.
+The **OnError** client-side event handler is called when the input control detects that the user has tried to enter an invalid value. The input control may detect the error when the user presses a key to enter an invalid character, or after the input control loses focus and parses the value the user entered.
 
->note The __OnError__ event is supported by __RadNumericTextBox__ , __RadMaskedTextBox__ , and __RadDateInput__ .
+>note The **OnError** event is supported by **RadNumericTextBox** , **RadMaskedTextBox** , and **RadDateInput** .
 >
 
 
-On __RadNumericTextBox__ and __RadDateInput__, the following two parameters are passed to the event handler:
+On **RadNumericTextBox** and **RadDateInput**, the following two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you tell the input control to cancel the event that caused the error.
+* **set_cancel()** lets you tell the input control to cancel the event that caused the error.
 
-* __get_inputText()__ returns the value that the user tried to assign to the input control, except in the case when __RadNumericTextBox__ detects an invalid character, in which case it returns the current value of the numeric text box.
+* **get_inputText()** returns the value that the user tried to assign to the input control, except in the case when **RadNumericTextBox** detects an invalid character, in which case it returns the current value of the numeric text box.
 
-* __get_reason()__ returns a value indicating the type of error that was detected.The possible values are:
+* **get_reason()** returns a value indicating the type of error that was detected.The possible values are:
 
 1. Parsing error.
 
 1. Out of range.
 
->note When __RadDateInput__ cannot parse the value that the user entered, it raises two __OnError__ events -- the first with the reason set to 1 (Parsing error) and the second with the reason set to 2 (Out of range).
+>note When **RadDateInput** cannot parse the value that the user entered, it raises two **OnError** events -- the first with the reason set to 1 (Parsing error) and the second with the reason set to 2 (Out of range).
 >
 
 
-On __RadMaskedTextBox__, the following two parameters are passed to the event handler:
+On **RadMaskedTextBox**, the following two parameters are passed to the event handler:
 
-* __sender__ is the masked text box.
+* **sender** is the masked text box.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you tell the masked text box to cancel the event that caused the error.
+* **set_cancel()** lets you tell the masked text box to cancel the event that caused the error.
 
-* __get_newValue()__ returns the invalid value that the user tried to assign to a mask part.
+* **get_newValue()** returns the invalid value that the user tried to assign to a mask part.
 
-* __get_oldValue()__returns the value that was assigned to the mask part before the error.
+* **get_oldValue()**returns the value that was assigned to the mask part before the error.
 
-* __get_currentPart()__ returns the client-side object of the mask part that detected the error.
+* **get_currentPart()** returns the client-side object of the mask part that detected the error.
 
-The following example uses the __OnError__ event to raise an alert when an error is detected:
+The following example uses the **OnError** event to raise an alert when an error is detected:
 
 ````ASPNET
 	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="(###) ###-#####">

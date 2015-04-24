@@ -1,6 +1,6 @@
 ---
 title: OnFocus
-page_title: OnFocus | UI for ASP.NET AJAX Documentation
+page_title: OnFocus | RadInput for ASP.NET AJAX Documentation
 description: OnFocus
 slug: input/client-side-programming/events/onfocus
 tags: onfocus
@@ -14,19 +14,19 @@ position: 8
 
 ## 
 
-The __OnFocus__ client-side event handler is called when the input control gets focus.
+The **OnFocus** client-side event handler is called when the input control gets focus.
 
->note The __OnFocus__ event is supported by all __RadInput__ controls, if they are not __ReadOnly__ .
+>note The **OnFocus** event is supported by all **RadInput** controls, if they are not **ReadOnly** .
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
+* **eventArgs** is an instance of [Sys.EventArgs](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/EventArgsClass/default.aspx).
 
-The following example uses the __OnFocus__ event to show an alert:
+The following example uses the **OnFocus** event to show an alert:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server">

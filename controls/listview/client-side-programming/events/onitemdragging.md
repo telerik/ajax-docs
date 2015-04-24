@@ -1,6 +1,6 @@
 ---
 title: OnItemDragging
-page_title: OnItemDragging | UI for ASP.NET AJAX Documentation
+page_title: OnItemDragging | RadListView for ASP.NET AJAX Documentation
 description: OnItemDragging
 slug: listview/client-side-programming/events/onitemdragging
 tags: onitemdragging
@@ -19,10 +19,10 @@ This client-side event is fired when a RadListView item is dragged.
 
 >caption  
 
-|  __Fired by__  | RadListView |
+|  **Fired by**  | RadListView |
 | ------ | ------ |
-| __Arguments__ | __domEvent__ - dom event|
-| __Can be canceled__ |No|
+| **Arguments** | **domEvent** - dom event|
+| **Can be canceled** |No|
 
 Example:
 

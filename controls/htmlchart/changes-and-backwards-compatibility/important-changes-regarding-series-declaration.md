@@ -1,6 +1,6 @@
 ---
 title: Important Changes Regarding Series Declaration
-page_title: Important Changes Regarding Series Declaration | UI for ASP.NET AJAX Documentation
+page_title: Important Changes Regarding Series Declaration | RadHtmlChart for ASP.NET AJAX Documentation
 description: Important Changes Regarding Series Declaration
 slug: htmlchart/changes-and-backwards-compatibility/important-changes-regarding-series-declaration
 tags: important,changes,regarding,series,declaration
@@ -12,9 +12,9 @@ position: 1
 
 
 
-The programmatic creation of series items in the __RadHtmlChart__ control	should be done via the __SeriesItems__ collection. Telerik made the __Items__collection obsolete with the __Q2 2013__ release.
+The programmatic creation of series items in the **RadHtmlChart** control	should be done via the **SeriesItems** collection. Telerik made the **Items**collection obsolete with the **Q2 2013** release.
 
-Along with these changes, the respective series item object for each series type must be used.	The corresponding series items for each series type are listed in __Table 1__.
+Along with these changes, the respective series item object for each series type must be used.	The corresponding series items for each series type are listed in **Table 1**.
 
 
 >caption Table 1: List of series item objects for the corresponding series types.	
@@ -27,7 +27,7 @@ Along with these changes, the respective series item object for each series type
 |Bubble|telerik:BubbleSeriesItem|
 |Pie, Donut|telerik:PieSeriesItem|
 
-__XValue__, __YValue__, __SizeValue__ and __ToolTipValue__ properties of the __SeriesItem__ (now __CategorySeriesItem__, __PieSeriesItem__, __ScatterSeriesItem__ or __BubbleSeriesItem__) have been renamed respectively to __X__, __Y__, __Size__ and __ToolTip__.
+**XValue**, **YValue**, **SizeValue** and **ToolTipValue** properties of the **SeriesItem** (now **CategorySeriesItem**, **PieSeriesItem**, **ScatterSeriesItem** or **BubbleSeriesItem**) have been renamed respectively to **X**, **Y**, **Size** and **ToolTip**.
 
 >note In order to access the properties of the series in the code behind, the series should be converted explicitly to the respective series type.
 >Casting the first series to theAreaSeries class:
@@ -38,12 +38,12 @@ __XValue__, __YValue__, __SizeValue__ and __ToolTipValue__ properties of the __S
 
 ## How to Configure Chart Series
 
-You can find an example of how to configure a simple Area chart with the __SeriesItems__ collection in the markup and the code behind in __Example 1__. The output from either setup can be seen in __Figure 1__.
+You can find an example of how to configure a simple Area chart with the **SeriesItems** collection in the markup and the code behind in **Example 1**. The output from either setup can be seen in **Figure 1**.
 >caption Figure 1: This chart can be rendered with the setup from Example 1 or Example 2.
 
 ![htmlchart-important-changes-regarding-the-series-declaration](images/htmlchart-important-changes-regarding-the-series-declaration.png)
 
-__Example 1__: Creation of the Area chart with the __SeriesItems__ collection in the markup.
+**Example 1**: Creation of the Area chart with the **SeriesItems** collection in the markup.
 
 ````ASPNET
 			<telerik:radhtmlchart runat="server" id="Chart1" width="400">
@@ -63,9 +63,9 @@ __Example 1__: Creation of the Area chart with the __SeriesItems__ collection in
 
 
 
-The same result can be achieved programmatically by using the code in __Example 2__.
+The same result can be achieved programmatically by using the code in **Example 2**.
 
-__Example 2__: Programmatic creation of the Area chart with the __SeriesItems__ collection.
+**Example 2**: Programmatic creation of the Area chart with the **SeriesItems** collection.
 
 
 

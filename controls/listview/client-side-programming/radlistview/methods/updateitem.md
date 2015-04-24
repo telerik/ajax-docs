@@ -1,6 +1,6 @@
 ---
 title: updateItem
-page_title: updateItem | UI for ASP.NET AJAX Documentation
+page_title: updateItem | RadListView for ASP.NET AJAX Documentation
 description: updateItem
 slug: listview/client-side-programming/radlistview/methods/updateitem
 tags: updateitem
@@ -14,12 +14,12 @@ position: 2
 
 ## 
 
-Method which fires the Update command for the __RadListView__ edited item corresponding to the index passed as an argument in edit mode.
+Method which fires the Update command for the **RadListView** edited item corresponding to the index passed as an argument in edit mode.
 
 
-|  __function updateItem(index)__  |  |  |
+|  **function updateItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The edited item corresponding to the __index__ will be updated.|
+| **index** |Integer|The edited item corresponding to the **index** will be updated.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

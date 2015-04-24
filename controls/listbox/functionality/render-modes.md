@@ -1,6 +1,6 @@
 ---
 title: Render Modes
-page_title: Render Modes | UI for ASP.NET AJAX Documentation
+page_title: Render Modes | RadListBox for ASP.NET AJAX Documentation
 description: Render Modes
 slug: listbox/functionality/render-modes
 tags: render,modes

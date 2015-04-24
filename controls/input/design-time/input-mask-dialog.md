@@ -1,6 +1,6 @@
 ---
 title: Input Mask Dialog
-page_title: Input Mask Dialog | UI for ASP.NET AJAX Documentation
+page_title: Input Mask Dialog | RadInput for ASP.NET AJAX Documentation
 description: Input Mask Dialog
 slug: input/design-time/input-mask-dialog
 tags: input,mask,dialog

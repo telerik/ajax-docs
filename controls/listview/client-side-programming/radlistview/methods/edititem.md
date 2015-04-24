@@ -1,6 +1,6 @@
 ---
 title: editItem
-page_title: editItem | UI for ASP.NET AJAX Documentation
+page_title: editItem | RadListView for ASP.NET AJAX Documentation
 description: editItem
 slug: listview/client-side-programming/radlistview/methods/edititem
 tags: edititem
@@ -14,12 +14,12 @@ position: 1
 
 ## 
 
-Method which switches the __RadListView__ item corresponding to the index passed as an argument in edit mode.
+Method which switches the **RadListView** item corresponding to the index passed as an argument in edit mode.
 
 
-|  __function editItem(index)__  |  |  |
+|  **function editItem(index)**  |  |  |
 | ------ | ------ | ------ |
-| __index__ |Integer|The item corresponding to the __index__ will be switched in edit mode.|
+| **index** |Integer|The item corresponding to the **index** will be switched in edit mode.|
 
 ````ASPNET
 	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">

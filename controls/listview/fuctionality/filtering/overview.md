@@ -1,6 +1,6 @@
 ---
-title: Filtering Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Filtering Overview | RadListView for ASP.NET AJAX Documentation
 description: Overview
 slug: listview/fuctionality/filtering/overview
 tags: overview

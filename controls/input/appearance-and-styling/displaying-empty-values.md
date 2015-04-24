@@ -1,6 +1,6 @@
 ---
 title: Displaying Empty Values
-page_title: Displaying Empty Values | UI for ASP.NET AJAX Documentation
+page_title: Displaying Empty Values | RadInput for ASP.NET AJAX Documentation
 description: Displaying Empty Values
 slug: input/appearance-and-styling/displaying-empty-values
 tags: displaying,empty,values

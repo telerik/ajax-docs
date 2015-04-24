@@ -1,6 +1,6 @@
 ---
 title: Various Data Sources
-page_title: Various Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Various Data Sources | RadListView for ASP.NET AJAX Documentation
 description: Various Data Sources
 slug: listview/data-binding/client-side/various-data-sources
 tags: various,data,sources
@@ -14,19 +14,19 @@ position: 2
 
 This article will introduce you to the capabilities of RadListView to bind to various sources of data, and to the specifics related to these bindings.
 
-* __Binding to Javascript Arrayshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section0_self__
+* **Binding to Javascript Arrayshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section0_self**
 
-* __Binding to ASMX Web Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section1_self__
+* **Binding to ASMX Web Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section1_self**
 
-* __Binding to WCF Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section2_self__
+* **Binding to WCF Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section2_self**
 
-* __Binding to OData Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section3_self__
+* **Binding to OData Serviceshttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section3_self**
 
-* __Web Service Default Parametershttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section4_self__
+* **Web Service Default Parametershttp://www.telerik.com/help/aspnet-ajax/listview-clientside-various-datasources.html#Section4_self**
 
 ## Binding to Javascript Arrays
 
-To bind RadListView to a javascript array, use the __set_dataSource()__ and __dataBind()__ APIs in a point after the client-side AJAX framework (and RadListView) has loaded:
+To bind RadListView to a javascript array, use the **set_dataSource()** and **dataBind()** APIs in a point after the client-side AJAX framework (and RadListView) has loaded:
 
 
 
@@ -137,15 +137,15 @@ To bind RadListView to a javascript array, use the __set_dataSource()__ and __da
 
 To bind RadListView to an ASMX Web Service, you need to set the following properties:
 
-* __Location__: service base location
+* **Location**: service base location
 
-* __DataPath__: Data method name
+* **DataPath**: Data method name
 
-* __CountPath__: Count method name, if required
+* **CountPath**: Count method name, if required
 
-* __SortParameterType__: Sort expression format, if supported
+* **SortParameterType**: Sort expression format, if supported
 
-* __FilterParameterType__: Filter expression format, if supported
+* **FilterParameterType**: Filter expression format, if supported
 
 
 
@@ -257,7 +257,7 @@ To bind RadListView to an ASMX Web Service, you need to set the following proper
 ````
 
 
-If data and total row count is returned in one and the same service call, the __CountPath__ setting is omitted. In this case, RadListView searches for fields with name __Data__ and __Count__ in the web service JSON response, respectively. To modify the names of the response fields RadListView looks for, set the __DataPropertyName__ and __CountPropertyName__ settings.
+If data and total row count is returned in one and the same service call, the **CountPath** setting is omitted. In this case, RadListView searches for fields with name **Data** and **Count** in the web service JSON response, respectively. To modify the names of the response fields RadListView looks for, set the **DataPropertyName** and **CountPropertyName** settings.
 
 ## Binding to WCF Services
 
@@ -393,7 +393,7 @@ For automatic databinding to WCF services, RadListView is configured in an ident
 
 ## Binding to OData Services
 
-Binding RadListView to OData service is quite straightforward. The only two required parameters are __Location__ and __HttpMethod="Get"__. OData services require GET requests in RadListView. Additionally, if a remote OData request is accessed (and it supports JSONP), __ResponseType="JSONP"__ is also added to ensure RadListView can make a remote service request:
+Binding RadListView to OData service is quite straightforward. The only two required parameters are **Location** and **HttpMethod="Get"**. OData services require GET requests in RadListView. Additionally, if a remote OData request is accessed (and it supports JSONP), **ResponseType="JSONP"** is also added to ensure RadListView can make a remote service request:
 
 
 
@@ -545,23 +545,23 @@ Binding RadListView to OData service is quite straightforward. The only two requ
 
 ## Web Service Default Parameters
 
-When automatically binding to web services, RadListView uses a set of default values for various databinding settings. These default values depend on the __HttpMethod__ setting. Defaults for a __POST__ request differ from defaults for a __GET__ request. All default values can be replaced by their respective properties in the __RadListView.ClientSettings.DataBinding.DataService__ server settings. The following table describes default values and settings for the two HTTP methods:
+When automatically binding to web services, RadListView uses a set of default values for various databinding settings. These default values depend on the **HttpMethod** setting. Defaults for a **POST** request differ from defaults for a **GET** request. All default values can be replaced by their respective properties in the **RadListView.ClientSettings.DataBinding.DataService** server settings. The following table describes default values and settings for the two HTTP methods:
 
 
 >caption  
 
-|  __ *Setting* __  |  __ *Value when POST* __  |  __ *Value when GET* __  |
+|  ** *Setting* **  |  ** *Value when POST* **  |  ** *Value when GET* **  |
 | ------ | ------ | ------ |
-| __DataPropertyName__ |"Data"|"results"|
-| __CountPropertyName__ |"Count"|"__count"|
-| __FilterParameterName__ |"filterExpression"|"$filter"|
-| __FilterParameterType__ |"List|"OData"|
-| __SortParameterName__ |"sortExpression"|"$orderby"|
-| __SortParameterType__ |"List"|"OData"|
-| __StartRowIndexParameterName__ |"startRowIndex"|"$skip"|
-| __MaximumRowsParameterName__ |"maximumRows"|"$top"|
+| **DataPropertyName** |"Data"|"results"|
+| **CountPropertyName** |"Count"|"**count"|
+| **FilterParameterName** |"filterExpression"|"$filter"|
+| **FilterParameterType** |"List|"OData"|
+| **SortParameterName** |"sortExpression"|"$orderby"|
+| **SortParameterType** |"List"|"OData"|
+| **StartRowIndexParameterName** |"startRowIndex"|"$skip"|
+| **MaximumRowsParameterName** |"maximumRows"|"$top"|
 
->note The __DataPropertyName__ and __CountPropertyName__ settings specify names of fields in the JSON response that RadListView will look for when retrieving data and row count. The rest of the settings specify parameter names that RadListView adds when making HTTP requests to a service. In a __POST__ request, parameters are sent as a JSON-encoded object with the specified fields, while using __GET__ requests, RadListView sends a query string with the specified parameters appended to the service URL.
+>note The **DataPropertyName** and **CountPropertyName** settings specify names of fields in the JSON response that RadListView will look for when retrieving data and row count. The rest of the settings specify parameter names that RadListView adds when making HTTP requests to a service. In a **POST** request, parameters are sent as a JSON-encoded object with the specified fields, while using **GET** requests, RadListView sends a query string with the specified parameters appended to the service URL.
 >
 
 

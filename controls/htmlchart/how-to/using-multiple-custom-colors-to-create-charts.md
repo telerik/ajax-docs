@@ -1,6 +1,6 @@
 ---
 title: Using Multiple Custom Colors to Create Charts
-page_title: Using Multiple Custom Colors to Create Charts | UI for ASP.NET AJAX Documentation
+page_title: Using Multiple Custom Colors to Create Charts | RadHtmlChart for ASP.NET AJAX Documentation
 description: Using Multiple Custom Colors to Create Charts
 slug: htmlchart/how-to/using-multiple-custom-colors-to-create-charts
 tags: using,multiple,custom,colors,to,create,charts
@@ -14,17 +14,17 @@ position: 4
 
 ## 
 
-This help article addresses the challenge that __RadHtmlChart__ offers a limited number of ten predefined colors for its skins and suggests a solution for increasing them.
+This help article addresses the challenge that **RadHtmlChart** offers a limited number of ten predefined colors for its skins and suggests a solution for increasing them.
 
-If you create more series (or more items for a __PieSeries__) these colors will startrepeating themselves. Developers at Telerik decided that they cannot increase the internal number of colors indefinitelybecause the number may always be insufficient for a certain scenario.
+If you create more series (or more items for a **PieSeries**) these colors will startrepeating themselves. Developers at Telerik decided that they cannot increase the internal number of colors indefinitelybecause the number may always be insufficient for a certain scenario.
 
 There is a rather easy way around this, however. You can create a static class to hold a declaration of colors thatwill fit the current needs in terms of number, the exact colors that are chosen or any other logic that may apply.This static collection can be iterated over to return the desired color according to their indexes - the index ofthe series can point to the index of its color.
 
-All series types expose the __ColorField__ property since __Q1 2013__. It can be used to specify a column in the data source from which the color for each item in the series will be taken. __PieSeries__ expose this property a little bit earlier in __Q3 2012__.
+All series types expose the **ColorField** property since **Q1 2013**. It can be used to specify a column in the data source from which the color for each item in the series will be taken. **PieSeries** expose this property a little bit earlier in **Q3 2012**.
 
-__Example 1__ shows a simple example of creating a static class to increase the number of colors for a chart while __Example 2__ shows how a Bar chart could use the static class.
+**Example 1** shows a simple example of creating a static class to increase the number of colors for a chart while **Example 2** shows how a Bar chart could use the static class.
 
-__Example 1__: Creating a StaticColors class with ten hard-coded colors.
+**Example 1**: Creating a StaticColors class with ten hard-coded colors.
 
 
 
@@ -95,9 +95,9 @@ __Example 1__: Creating a StaticColors class with ten hard-coded colors.
 ````
 
 
-You can use a static class like this in different ways. For example __Example 2__ shows a loop(which is hardcoded for demonstration purposes, but can actuallyuse the number of columns and rows in the data source) with a Bar chart using the static color class.
+You can use a static class like this in different ways. For example **Example 2** shows a loop(which is hardcoded for demonstration purposes, but can actuallyuse the number of columns and rows in the data source) with a Bar chart using the static color class.
 
-__Example 2__: A Bar chart using the StaticColors class created in __Example 1__.
+**Example 2**: A Bar chart using the StaticColors class created in **Example 1**.
 
 
 

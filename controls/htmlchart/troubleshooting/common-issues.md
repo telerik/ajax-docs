@@ -1,6 +1,6 @@
 ---
 title: Common Issues
-page_title: Common Issues | UI for ASP.NET AJAX Documentation
+page_title: Common Issues | RadHtmlChart for ASP.NET AJAX Documentation
 description: Common Issues
 slug: htmlchart/troubleshooting/common-issues
 tags: common,issues
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This help article lists the most common issues one can face when using the __RadHtmlChart__ control and offers possible solutions for them.
+This help article lists the most common issues one can face when using the **RadHtmlChart** control and offers possible solutions for them.
 
 1. [ Тooltips are hidden behind RadWindow and/or RadNotification. ](#тooltips-are-hidden-behind-radwindow-and/or-radnotification)
 
@@ -28,7 +28,7 @@ This help article lists the most common issues one can face when using the __Rad
 
 ## Тooltips are Hidden Behind RadWindow and/or RadNotification
 
-Solution: The chart's tooltip has a z-index of 1000 which is lower than the z-index of the __RadWindow__/__RadNotification__. You can ensure a higher z-index for the tooltips by overriding the default style:
+Solution: The chart's tooltip has a z-index of 1000 which is lower than the z-index of the **RadWindow**/**RadNotification**. You can ensure a higher z-index for the tooltips by overriding the default style:
 
 ````HTML
 	    <style type="text/css">
@@ -44,22 +44,22 @@ You can find the list of Telerik UI controls with absolute positioning and their
 
 ## Legend is Not Visible
 
-Solution: The chart's legend consists of series' names for all series except for the pie, donut and funnel series where the items' names are used. You must set the __Name__ property of each series/item for them to show in the legend.
+Solution: The chart's legend consists of series' names for all series except for the pie, donut and funnel series where the items' names are used. You must set the **Name** property of each series/item for them to show in the legend.
 
 ## XAxis Labels are Cluttered/Overlapping
 
-Solution: This happens when the x-axis labels are either too long, or there are many labels on the x-axis (see the left chart in__Figure 1__). You can try one of the following steps (the fixed labels appearance is shown in the right chart in __Figure 1__):
+Solution: This happens when the x-axis labels are either too long, or there are many labels on the x-axis (see the left chart in**Figure 1**). You can try one of the following steps (the fixed labels appearance is shown in the right chart in **Figure 1**):
 
-* Render every n-th label through the __XAxis.LabelsAppearance.Step__ property.
+* Render every n-th label through the **XAxis.LabelsAppearance.Step** property.
 
-* Rotate x-axis labels to a particular angle through the __XAxis.LabelsAppearance.RotationAngle__ property.
+* Rotate x-axis labels to a particular angle through the **XAxis.LabelsAppearance.RotationAngle** property.
 
-* Wrap labels through the __"\n"__ line feed character. See an example in the [Multiline Labels]({%slug htmlchart/functionality/multiline-labels%}) help article.
+* Wrap labels through the **"\n"** line feed character. See an example in the [Multiline Labels]({%slug htmlchart/functionality/multiline-labels%}) help article.
 >caption Figure 1: A chart with cluttered x-axis labels next to a chart with properly displayed x-axis labels. The code that creates both charts isavailable in Example 1.
 
 ![htmlchart-troubleshooting-common-issues-cluttered-axislabels](images/htmlchart-troubleshooting-common-issues-cluttered-axislabels.png)
 
-__Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart (__Figure 1__) resolves the x-axis labels cluttering in the left chart(__Figure 1__).
+**Example 1**: Calling the FixAxisLabelsOverlapping() method for the right chart (**Figure 1**) resolves the x-axis labels cluttering in the left chart(**Figure 1**).
 
 
 
@@ -150,13 +150,13 @@ __Example 1__: Calling the FixAxisLabelsOverlapping() method for the right chart
 
 ## YAxis is not Rescaled in a Stock Chart When Changing the Selection Range
 
-Solution: The __YAxis.Name__ property of the main __YAxis__ is set but the series' __AxisName__ property is not. You must either remove the main axis' __YAxis.Name__ property declaration or associate it to the corresponding series __AxisName__ property.
+Solution: The **YAxis.Name** property of the main **YAxis** is set but the series' **AxisName** property is not. You must either remove the main axis' **YAxis.Name** property declaration or associate it to the corresponding series **AxisName** property.
 
 ## There is a Redundant Space Between Pie/Donut Chart and its Legend
 
-Solution: You can either offset the legend (see an example in the [ADD legend positioning options for RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item) or set a negative value for the __Margin__ property of the chart's __PlotArea__ (see __Example 2__).
+Solution: You can either offset the legend (see an example in the [ADD legend positioning options for RadHtmlChart](http://feedback.telerik.com/Project/108/Feedback/Details/67001) feedback item) or set a negative value for the **Margin** property of the chart's **PlotArea** (see **Example 2**).
 
-__Example 2__: Decreasing the distance between the pie and its legend by setting a negative margin for its __PlotArea__.
+**Example 2**: Decreasing the distance between the pie and its legend by setting a negative margin for its **PlotArea**.
 
 ````ASPNET
 			<telerik:RadHtmlChart runat="server" ID="PieChart1" Width="400px" Height="400px">
@@ -181,13 +181,13 @@ __Example 2__: Decreasing the distance between the pie and its legend by setting
 
 ## RadHtmlChart Cannot be Bound to a Data Source that Has Special Characters in Its Field Names
 
-Solution: Special characters in data source field names are escaped by surrounding the name with quotes and brackets (see __Example 3__).
+Solution: Special characters in data source field names are escaped by surrounding the name with quotes and brackets (see **Example 3**).
 
 >caution There are invalid characters in data source field names which cannot be escaped like "(", ")", "[", "]", ".", "/", "\". More information is available in the[Datacolumn name illegal character](https://social.msdn.microsoft.com/Forums/en-US/e2a88f75-da11-49db-8ec8-ef3007a66d28/datacolumn-name-illegal-character)forum post.
 >
 
 
-__Example 3__: Escaping special characters in field names by surrounding the name with quotes and brackets.
+**Example 3**: Escaping special characters in field names by surrounding the name with quotes and brackets.
 
 
 

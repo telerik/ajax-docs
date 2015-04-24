@@ -1,6 +1,6 @@
 ---
 title: Scroll Items Horizontally
-page_title: Scroll Items Horizontally | UI for ASP.NET AJAX Documentation
+page_title: Scroll Items Horizontally | RadListBox for ASP.NET AJAX Documentation
 description: Scroll Items Horizontally
 slug: listbox/how-to/scroll-items-horizontally
 tags: scroll,items,horizontally

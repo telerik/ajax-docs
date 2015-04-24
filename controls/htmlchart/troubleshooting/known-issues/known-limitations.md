@@ -1,6 +1,6 @@
 ---
 title: Known Limitations
-page_title: Known Limitations | UI for ASP.NET AJAX Documentation
+page_title: Known Limitations | RadHtmlChart for ASP.NET AJAX Documentation
 description: Known Limitations
 slug: htmlchart/troubleshooting/known-issues/known-limitations
 tags: known,limitations
@@ -12,17 +12,17 @@ position: 1
 
 
 
-This article lists some of the known limitations of using the __RadHtmlChart__ and presents some workarounds.
+This article lists some of the known limitations of using the **RadHtmlChart** and presents some workarounds.
 
 ## OnDataBound Server-side Event Is Not Available
 
-__RadHtmlChart__ does not implement the server-side __OnDataBound__ event because it uses client-sidedata binding and rendering. This is a paradigm of the control itself and therefore the server-side __OnDataBound__event could not fit in the main concept of the __RadHtmlChart__.You can find more information in this[Overview]({%slug htmlchart/overview%}) help article.
+**RadHtmlChart** does not implement the server-side **OnDataBound** event because it uses client-sidedata binding and rendering. This is a paradigm of the control itself and therefore the server-side **OnDataBound**event could not fit in the main concept of the **RadHtmlChart**.You can find more information in this[Overview]({%slug htmlchart/overview%}) help article.
 
-The __OnDataBound__ event is present in the Intellisense because it __is inherited from	System.Web.UI.WebControls.WebControl__. It cannot be used because no information is sent to it.
+The **OnDataBound** event is present in the Intellisense because it **is inherited from	System.Web.UI.WebControls.WebControl**. It cannot be used because no information is sent to it.
 
 ## Data Bound Series Items Cannot Be Accessed or Modified in the Code-behind
 
-* Items of a data bound series cannot be accessed or modified on the server-side. This is also a consequence of the client-sidedata binding and rendering of the control (no __OnDataBound__ event) which is described in the above section.
+* Items of a data bound series cannot be accessed or modified on the server-side. This is also a consequence of the client-sidedata binding and rendering of the control (no **OnDataBound** event) which is described in the above section.
 
 * Items of a data bound series can only be modified through the values in their corresponding data source columns.
 
@@ -33,7 +33,7 @@ The __OnDataBound__ event is present in the Intellisense because it __is inherit
 The text in the chart title, axes titles, series names and series labels is rendered as an SVG Text element.	Therefore, these elements do not accept any style or HTML tags.
 
 >tip The series tooltips are HTML elements and can, therefore, accept HTML strings, e.g., a <br />	tag to create a new line.
->Line breaking in labels is made with the __"\n"__ line feed characters. See an example in the[HtmlChart - Multiline Labels](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx)demo.
+>Line breaking in labels is made with the **"\n"** line feed characters. See an example in the[HtmlChart - Multiline Labels](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/multiline-labels/defaultcs.aspx)demo.
 >
 
 

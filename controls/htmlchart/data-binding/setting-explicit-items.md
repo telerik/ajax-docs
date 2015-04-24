@@ -1,6 +1,6 @@
 ---
 title: Setting Explicit Items
-page_title: Setting Explicit Items | UI for ASP.NET AJAX Documentation
+page_title: Setting Explicit Items | RadHtmlChart for ASP.NET AJAX Documentation
 description: Setting Explicit Items
 slug: htmlchart/data-binding/setting-explicit-items
 tags: setting,explicit,items
@@ -12,35 +12,35 @@ position: 8
 
 
 
-This Help article describes how the items of the __RadHtmlChart__ can be created or modified using different approaches (__Declarative__,	__DataBinding__, __Programmatic__ etc.).
+This Help article describes how the items of the **RadHtmlChart** can be created or modified using different approaches (**Declarative**,	**DataBinding**, **Programmatic** etc.).
 
 ## 
 
-The data that will be displayed in the __RadHtmlChart__ can be declared in several ways:
+The data that will be displayed in the **RadHtmlChart** can be declared in several ways:
 
-* __Declarative Creation__ - Setting items in the markup (statically) using the __SeriesItems__collection of the desired chart series. See the "In 2010 (Markup)" ColumnSeries in __Example 1__.
+* **Declarative Creation** - Setting items in the markup (statically) using the **SeriesItems**collection of the desired chart series. See the "In 2010 (Markup)" ColumnSeries in **Example 1**.
 
->note  __SeriesItems__ from the markup take precedence over data loaded from the __DataSource__ . See "In 2011	(Markup and DataSource)" ColumnSeries in the code in __Example 1__ for details.
+>note  **SeriesItems** from the markup take precedence over data loaded from the **DataSource** . See "In 2011	(Markup and DataSource)" ColumnSeries in the code in **Example 1** for details.
 >
 
 
-* __DataBinding__ - The __DataFieldY__ property of each series indicates the column from thedata source that is used to load data for the __SeriesItems__. The "Upper Threshold (DataSource)" __LineSeries__	in __Example 1__ is an example of this.
+* **DataBinding** - The **DataFieldY** property of each series indicates the column from thedata source that is used to load data for the **SeriesItems**. The "Upper Threshold (DataSource)" **LineSeries**	in **Example 1** is an example of this.
 
 >note The chart must be data bound to a data source that contains the given column.
 >
 
 
-* __Programmatic Creation__ – You can create __SeriesItems__ on the server like any other objects andthen add them to the __SeriesItems__ collection of the desired series. The __LineSeries__ named "Lower Threshold(Programmatic)" in __Example 1__ uses this approach.
+* **Programmatic Creation** – You can create **SeriesItems** on the server like any other objects andthen add them to the **SeriesItems** collection of the desired series. The **LineSeries** named "Lower Threshold(Programmatic)" in **Example 1** uses this approach.
 
 >note Such items are added after items declared in the markup and override any databinding.
 >
 
 
-* __Declarative and Programmatic Creation__ – You can create __SeriesItems__ programmatically and then add them to an existing	__SeriesItems__ collection that is set in the markup. __SeriesItems__set in the markup can also be accessed and modified from the code-behind. See the code-behind of"In 2010 (Markup)" __ColumnSeries__ in __Example 1__ for details.
+* **Declarative and Programmatic Creation** – You can create **SeriesItems** programmatically and then add them to an existing	**SeriesItems** collection that is set in the markup. **SeriesItems**set in the markup can also be accessed and modified from the code-behind. See the code-behind of"In 2010 (Markup)" **ColumnSeries** in **Example 1** for details.
 
 The y-axis automatically adjusts to accommodate the values and its appearance canbe controlled more precisely via its properties.
 
-__Example 1__: Shows how the above setups are used in a real-live scenario.
+**Example 1**: Shows how the above setups are used in a real-live scenario.
 
 
 

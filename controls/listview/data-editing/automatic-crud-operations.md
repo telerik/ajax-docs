@@ -1,6 +1,6 @@
 ---
 title: Automatic CRUD Operations
-page_title: Automatic CRUD Operations | UI for ASP.NET AJAX Documentation
+page_title: Automatic CRUD Operations | RadListView for ASP.NET AJAX Documentation
 description: Automatic CRUD Operations
 slug: listview/data-editing/automatic-crud-operations
 tags: automatic,crud,operations
@@ -12,11 +12,11 @@ position: 0
 
 
 
-__RadListView__ provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
+**RadListView** provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
 
-__Controlling the automatic data source operations under .NET2__
+**Controlling the automatic data source operations under .NET2**
 
-The automatic data source operations only work when binding the grid to a declarative data source using the __DataSourceID__ property of the grid. You must configure the data source so that it supports the automatic operations. Other than this, the functionality is automatically handled, without the need to write any custom code.
+The automatic data source operations only work when binding the grid to a declarative data source using the **DataSourceID** property of the grid. You must configure the data source so that it supports the automatic operations. Other than this, the functionality is automatically handled, without the need to write any custom code.
 
 ````C#
 	    <telerik:RadListView ID="RadListView1" DataSourceID="SqlDataSource1" runat="server"
@@ -245,8 +245,8 @@ The automatic data source operations only work when binding the grid to a declar
 
 ## Additional resources
 
-* __AccessDataSource:__[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
+* **AccessDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.accessdatasource.aspx)
 
-* __SqlDataSource:__[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
+* **SqlDataSource:**[http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx](http://msdn2.microsoft.com/en-us/library/dz12d98w(vs.80).aspx)
 
-* __ObjectDataSource:__[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)
+* **ObjectDataSource:**[http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx)

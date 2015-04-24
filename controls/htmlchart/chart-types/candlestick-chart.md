@@ -1,6 +1,6 @@
 ---
 title: Candlestick Chart
-page_title: Candlestick Chart | UI for ASP.NET AJAX Documentation
+page_title: Candlestick Chart | RadHtmlChart for ASP.NET AJAX Documentation
 description: Candlestick Chart
 slug: htmlchart/chart-types/candlestick-chart
 tags: candlestick,chart
@@ -14,25 +14,25 @@ position: 5
 
 ## 
 
-The __CandlestickChart__ describes the price movements of a financial instrument (e.g security or currency) over time.It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and[LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the__Open, High, Low__ and __Close__ prices for a single day. A Candlestick consists of:
+The **CandlestickChart** describes the price movements of a financial instrument (e.g security or currency) over time.It is a combination of [BarChart]({%slug htmlchart/chart-types/bar-chart%}) and[LineChart]({%slug htmlchart/chart-types/line-chart%}) where each SeriesItem (a Candlestick) displays the**Open, High, Low** and **Close** prices for a single day. A Candlestick consists of:
 
-* __Body__ - the wide part of the CandlestickSeriesItem that shows the Open and Close prices.
+* **Body** - the wide part of the CandlestickSeriesItem that shows the Open and Close prices.
 
-* If the Close price is higher than the Open price, the body iscalled __Hollow__ (usually colored white or green)and the __BackgroundColor__ property of the__CandlestickSeries -> Appearance -> FillStyle__ inner tag controls its color.
+* If the Close price is higher than the Open price, the body iscalled **Hollow** (usually colored white or green)and the **BackgroundColor** property of the**CandlestickSeries -> Appearance -> FillStyle** inner tag controls its color.
 
-* If, however, the Close price is lower than the Open price, the bodyis called __Filled__ (usually colored black or red) andthe __DownColor__ property of the CandlestickSeries tag controls its color.
+* If, however, the Close price is lower than the Open price, the bodyis called **Filled** (usually colored black or red) andthe **DownColor** property of the CandlestickSeries tag controls its color.
 
-* __Wicks__ - the __long thin lines__ located above and below the body, also called__shadows__ that show the High and Low prices. The High price is represented by the top of the__Upper Wick__, while the bottom of the __Lower Wick__ indicates the Low price.![htmlchart-candlestickchart-simple-example](images/htmlchart-candlestickchart-simple-example.png)
+* **Wicks** - the **long thin lines** located above and below the body, also called**shadows** that show the High and Low prices. The High price is represented by the top of the**Upper Wick**, while the bottom of the **Lower Wick** indicates the Low price.![htmlchart-candlestickchart-simple-example](images/htmlchart-candlestickchart-simple-example.png)
 
 The CandlestickChart can be fully customized:
 
-* The color of the Hollow CandlestickSeriesItems (Open Price < Close Price)of each series is controlled via the __BackgroundColor__property of the __CandlestickSeries -> Appearance -> FillStyle__ inner tag. The colorthe Filled CandlestickSeriesItems (Open Price > Close Price) of each series is controlled via the__DownColor__ property of the CandlestickSeries tag.
+* The color of the Hollow CandlestickSeriesItems (Open Price < Close Price)of each series is controlled via the **BackgroundColor**property of the **CandlestickSeries -> Appearance -> FillStyle** inner tag. The colorthe Filled CandlestickSeriesItems (Open Price > Close Price) of each series is controlled via the**DownColor** property of the CandlestickSeries tag.
 
-* The name that is shown in the legend is chosen via the __Name__ property of the __CandlestickSeries__.
+* The name that is shown in the legend is chosen via the **Name** property of the **CandlestickSeries**.
 
-* Open, High, Low and Close values of each item are controlled respectively by __Open, High, Low__ and__Close__ properties of the __CandlestickSeries__.
+* Open, High, Low and Close values of each item are controlled respectively by **Open, High, Low** and**Close** properties of the **CandlestickSeries**.
 
-* Each item can have a tooltip with an already predefined pattern by design. The tooltip pattern can be modified through the__DataFormatString__ property of the __TooltipsAppearance__ sections of theseries. The format string uses the __Open, High, Low, Close__ and the corresponing __XAxis item's value__.*(Series Labels in CandlestickSeries are not supported)*
+* Each item can have a tooltip with an already predefined pattern by design. The tooltip pattern can be modified through the**DataFormatString** property of the **TooltipsAppearance** sections of theseries. The format string uses the **Open, High, Low, Close** and the corresponing **XAxis item's value**.*(Series Labels in CandlestickSeries are not supported)*
 
 * The axes are also fully customizable - they automatically adjust their scale to accomodate the data that comes in and forfiner tuning there are numerous properties that can change each aspect:
 
@@ -40,7 +40,7 @@ The CandlestickChart can be fully customized:
 
 * The inner tags of the axis tag can control the major and minor grid lines in terms of colour and sizeand the labeles can have a DataFormatString, position and visibility set through each inner tag's properties
 
-* The title, background colors and legend are controlled via the inner properties of the __RadHtmlChart__ control and are common for all charts.More information on the matter is available in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
+* The title, background colors and legend are controlled via the inner properties of the **RadHtmlChart** control and are common for all charts.More information on the matter is available in the [Server-side API]({%slug htmlchart/server-side-programming/basic-configuration%})and in the [Element structure]({%slug htmlchart/radhtmlchart-structure%}) articles.
 
 The chart from the image above is created with the code below:
 

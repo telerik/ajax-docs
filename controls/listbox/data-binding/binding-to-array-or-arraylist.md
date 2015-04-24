@@ -1,6 +1,6 @@
 ---
 title: Binding to Array or ArrayList
-page_title: Binding to Array or ArrayList | UI for ASP.NET AJAX Documentation
+page_title: Binding to Array or ArrayList | RadListBox for ASP.NET AJAX Documentation
 description: Binding to Array or ArrayList
 slug: listbox/data-binding/binding-to-array-or-arraylist
 tags: binding,to,array,or,arraylist

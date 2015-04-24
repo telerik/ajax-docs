@@ -1,6 +1,6 @@
 ---
 title: OnButtonClick
-page_title: OnButtonClick | UI for ASP.NET AJAX Documentation
+page_title: OnButtonClick | RadInput for ASP.NET AJAX Documentation
 description: OnButtonClick
 slug: input/client-side-programming/events/onbuttonclick
 tags: onbuttonclick
@@ -14,29 +14,29 @@ position: 2
 
 ## 
 
-The __OnButtonClick__ client-side event handler is called when the user clicks on a button associated with the input control. This can be the button that is displayed when the __ShowButton__ property is __True__, or one of the spin buttons that is displayed when the __ShowSpinButtons__ property is __True__.
+The **OnButtonClick** client-side event handler is called when the user clicks on a button associated with the input control. This can be the button that is displayed when the **ShowButton** property is **True**, or one of the spin buttons that is displayed when the **ShowSpinButtons** property is **True**.
 
->note The __OnButtonClick__ event is supported by all __RadInput__ controls.
+>note The **OnButtonClick** event is supported by all **RadInput** controls.
 >
 
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the input control.
+* **sender** is the input control.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the default response to the button click.
+* **set_cancel()** lets you prevent the default response to the button click.
 
-* __get_buttonType()__ returns an integer that indicates which button was clicked. The possible values are
+* **get_buttonType()** returns an integer that indicates which button was clicked. The possible values are
 
-* The button that appears when the __ShowButton__ property is __True__.
+* The button that appears when the **ShowButton** property is **True**.
 
 * The upward spin button.
 
 * The downward spin button.
 
-Use the __OnButtonClick__ event to provide a client-side response when the user clicks on a button:
+Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
 ````ASPNET
 	    <telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">

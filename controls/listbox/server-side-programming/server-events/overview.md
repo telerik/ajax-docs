@@ -1,6 +1,6 @@
 ---
 title: Server Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadListBox for ASP.NET AJAX Documentation
 description: Overview
 slug: listbox/server-side-programming/server-events/overview
 tags: overview

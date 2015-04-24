@@ -1,6 +1,6 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | UI for ASP.NET AJAX Documentation
+page_title: Smart Tag | RadInput for ASP.NET AJAX Documentation
 description: Smart Tag
 slug: input/design-time/smart-tag
 tags: smart,tag

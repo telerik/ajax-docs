@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadListBox for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: listbox/client-side-programming/events/onclientload
 tags: onclientload

@@ -1,6 +1,6 @@
 ---
 title: OnFocus
-page_title: OnFocus | UI for ASP.NET AJAX Documentation
+page_title: OnFocus | RadInput for ASP.NET AJAX Documentation
 description: OnFocus
 slug: input/radinputmanager/client-side-events/onfocus
 tags: onfocus

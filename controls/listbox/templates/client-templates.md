@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadListBox for ASP.NET AJAX Documentation
 description: Client Templates
 slug: listbox/templates/client-templates
 tags: client,templates
