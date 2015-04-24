@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/getting-started/overview
 tags: overview

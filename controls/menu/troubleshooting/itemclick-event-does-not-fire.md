@@ -1,6 +1,6 @@
 ---
 title: ItemClick Event Does Not Fire
-page_title: ItemClick Event Does Not Fire | UI for ASP.NET AJAX Documentation
+page_title: ItemClick Event Does Not Fire | RadMenu for ASP.NET AJAX Documentation
 description: ItemClick Event Does Not Fire
 slug: menu/troubleshooting/itemclick-event-does-not-fire
 tags: itemclick,event,does,not,fire
@@ -14,11 +14,11 @@ position: 3
 
 ## 
 
-__Q:__ Why does my event does not fire?
+**Q:** Why does my event does not fire?
 
-__A:__ There are two reasons for not getting the __[OnItemClick]({%slug menu/server-side-programming/itemclick%})__ server-side event fired:
+**A:** There are two reasons for not getting the **[OnItemClick]({%slug menu/server-side-programming/itemclick%})** server-side event fired:
 
-* You have not subscribed to the __OnItemClick__ event. Here is the correct subscription:
+* You have not subscribed to the **OnItemClick** event. Here is the correct subscription:
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" 
@@ -40,7 +40,7 @@ __A:__ There are two reasons for not getting the __[OnItemClick]({%slug menu/ser
 
 
 
-* You have set the __NavigateUrl__ property of the menu item.
+* You have set the **NavigateUrl** property of the menu item.
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" runat="server" OnItemClick="RadMenu1_ItemClick">

@@ -1,6 +1,6 @@
 ---
 title: Populate Static Content
-page_title: Populate Static Content | UI for ASP.NET AJAX Documentation
+page_title: Populate Static Content | RadNotification for ASP.NET AJAX Documentation
 description: Populate Static Content
 slug: notification/setting-content/populate-static-content
 tags: populate,static,content
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-Content can be added to __RadNotification__ in multiple ways and is displayed in the following order of precedence:
+Content can be added to **RadNotification** in multiple ways and is displayed in the following order of precedence:
 
 1. Setting simple content:
 
-1. Setting the __Text__ property:
+1. Setting the **Text** property:
 
 
 
@@ -34,7 +34,7 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 ````
 
 
-1. Setting the __Title__ property:
+1. Setting the **Title** property:
 >caption 
 
 ![Title and Text](images/radnotification-title-and-text.png)
@@ -86,7 +86,7 @@ Content can be added to __RadNotification__ in multiple ways and is displayed in
 
 
 
->caution If you are planning to add controls dynamically you need to declare an empty __ContentTemplate__ , since if it is not present __RadNotification__ automatically detects it and enters into simple content mode and you will not be able to add controls in it.
+>caution If you are planning to add controls dynamically you need to declare an empty **ContentTemplate** , since if it is not present **RadNotification** automatically detects it and enters into simple content mode and you will not be able to add controls in it.
 >
 
 

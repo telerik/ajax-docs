@@ -1,6 +1,6 @@
 ---
 title: RadNotification Structure
-page_title: RadNotification Structure | UI for ASP.NET AJAX Documentation
+page_title: RadNotification Structure | RadNotification for ASP.NET AJAX Documentation
 description: RadNotification Structure
 slug: notification/getting-started/radnotification-structure
 tags: radnotification,structure
@@ -14,22 +14,22 @@ position: 1
 
 ## 
 
-The main visual elements of __RadNotification__ are:
+The main visual elements of **RadNotification** are:
 >caption 
 
 ![structure](images/radnotification-structure.png)
 
-* __TitleBar:__ This is the title of the notification.
+* **TitleBar:** This is the title of the notification.
 
-* __TitleIcon:__ The small image (16x16 pixels) shown in the titlebar.
+* **TitleIcon:** The small image (16x16 pixels) shown in the titlebar.
 
-* __Menu Icon:__ The button used to show the title menu. It appears only if the __ShowTitleMenu__ property is set to true.
+* **Menu Icon:** The button used to show the title menu. It appears only if the **ShowTitleMenu** property is set to true.
 
-* __Close Button:__ The button used to close the notification. It appears only if the __ShowCloseButton__ property is set to true.
+* **Close Button:** The button used to close the notification. It appears only if the **ShowCloseButton** property is set to true.
 
-* __ContentIcon:__ The image (32x32 pixels) shown in the content area of the notification.
+* **ContentIcon:** The image (32x32 pixels) shown in the content area of the notification.
 
-* __Content or Text:__ This is the main part of the control. It can be customized using Text property or by declaring content between the RadNotification's ContentTemplate tags in ASP.NET.
+* **Content or Text:** This is the main part of the control. It can be customized using Text property or by declaring content between the RadNotification's ContentTemplate tags in ASP.NET.
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Adding Images to Items
-page_title: Adding Images to Items | UI for ASP.NET AJAX Documentation
+page_title: Adding Images to Items | RadMenu for ASP.NET AJAX Documentation
 description: Adding Images to Items
 slug: menu/appearance-and-styling/adding-images-to-items
 tags: adding,images,to,items
@@ -16,25 +16,25 @@ position: 1
 
 ## 
 
-Each __RadMenuItem__ has a set of properties you can use to add images to your menu items. You can simply add a single image to each menu item, or you can add separate images that reflect the state of the menu item.
+Each **RadMenuItem** has a set of properties you can use to add images to your menu items. You can simply add a single image to each menu item, or you can add separate images that reflect the state of the menu item.
 
-The image appears to the left of the menu item text (unless you are using a [right-to-left orientation]({%slug menu/accessibility-and-internationalization/rtl-support%}), in which case it appear to the right of the menu item text). By setting the __Text__ property to an empty string, you can create menu items that consist solely of images.
+The image appears to the left of the menu item text (unless you are using a [right-to-left orientation]({%slug menu/accessibility-and-internationalization/rtl-support%}), in which case it appear to the right of the menu item text). By setting the **Text** property to an empty string, you can create menu items that consist solely of images.
 
 The following properties let you add images to menu items:
 
-* __ImageUrl__ specifies an image that is added to the menu item. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
+* **ImageUrl** specifies an image that is added to the menu item. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
 
-* __HoveredImageUrl__ specifies an image that is used when the mouse is over the menu item.
+* **HoveredImageUrl** specifies an image that is used when the mouse is over the menu item.
 
-* __ImageClickedUrl__ specifies an image that is used when the user clicks the menu item.
+* **ImageClickedUrl** specifies an image that is used when the user clicks the menu item.
 
-* __ExpandedImageUrl__ specifies an image that is used when the list of child items is showing.
+* **ExpandedImageUrl** specifies an image that is used when the list of child items is showing.
 
-* __DisabledImageUrl__ specifies an image that is used when the item is disabled.
+* **DisabledImageUrl** specifies an image that is used when the item is disabled.
 
 To set the image properties at design time, use the [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}).
 
-The following example uses the __ImageUrl__ and __HoveredImageUrl__ properties to create a __RadMenu__ that uses only images for items:
+The following example uses the **ImageUrl** and **HoveredImageUrl** properties to create a **RadMenu** that uses only images for items:
 
 ````ASPNET
 	    <telerik:radmenu id="RadMenu1" runat="server" skin="" flow="Horizontal">

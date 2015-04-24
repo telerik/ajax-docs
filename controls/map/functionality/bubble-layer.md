@@ -1,6 +1,6 @@
 ---
 title: Bubble Layer
-page_title: Bubble Layer | UI for ASP.NET AJAX Documentation
+page_title: Bubble Layer | RadMap for ASP.NET AJAX Documentation
 description: Bubble Layer
 slug: map/functionality/bubble-layer
 tags: bubble,layer
@@ -12,9 +12,9 @@ position: 4
 
 
 
-This article shows how to use, configure and data bind the __Bubble__ layer type of the Telerik Map control for ASP.NET AJAX.
+This article shows how to use, configure and data bind the **Bubble** layer type of the Telerik Map control for ASP.NET AJAX.
 
-The __Bubble__ layer type is available since the __Q3 2014__ release.
+The **Bubble** layer type is available since the **Q3 2014** release.
 >caption Figure 1: Simple RadMap with a Bubble layer, which is a result of the code in Example 1
 
 ![map-bubble-layer-overview](images/bubble-layer/map-bubble-layer-overview.png)
@@ -31,25 +31,25 @@ Quick navigation:
 
 ## Overview
 
-The __Bubble__ type of layer lets you create circular shapes on a geographic position with a radius that is calculated via the value associated with the shape.
+The **Bubble** type of layer lets you create circular shapes on a geographic position with a radius that is calculated via the value associated with the shape.
 
-The __radiuses of the bubbles__ are automatically calculated by the map control, based on the maximum and minimum values available in the data source.__Example 2__ demonstrates how simple values reflect on the radius of the circular shapes.
+The **radiuses of the bubbles** are automatically calculated by the map control, based on the maximum and minimum values available in the data source.**Example 2** demonstrates how simple values reflect on the radius of the circular shapes.
 
-Just like the [Shape layer]({%slug map/functionality/shapes%}), populating bubbles/shapes is done only via[client-side data binding](#client-side-data-binding).The data source fields that represent the location and the value of the shapes can be defined via the__LocationField__ and __ValueField__ properties of the __MapLayer__ item. __Example 1__ shows a basic data bindingconfiguration by using the __RadClientDataSource__ control.
+Just like the [Shape layer]({%slug map/functionality/shapes%}), populating bubbles/shapes is done only via[client-side data binding](#client-side-data-binding).The data source fields that represent the location and the value of the shapes can be defined via the**LocationField** and **ValueField** properties of the **MapLayer** item. **Example 1** shows a basic data bindingconfiguration by using the **RadClientDataSource** control.
 
-Optionally, the bubbles can also be styled by using the __StyleSettings__ inner tag.You can find more about this in the [Custom Stylization](#custom-stylization) section.
+Optionally, the bubbles can also be styled by using the **StyleSettings** inner tag.You can find more about this in the [Custom Stylization](#custom-stylization) section.
 
-User interaction, data source relations and dynamic modifications can be achieved via the[Client-side Events](#using-client-side-events-and-bubble-shapes) of the __RadMap__ control and their exposed event arguments.
+User interaction, data source relations and dynamic modifications can be achieved via the[Client-side Events](#using-client-side-events-and-bubble-shapes) of the **RadMap** control and their exposed event arguments.
 
 ## Client-side Data Binding
 
-Adding shapes in the __Bubble__ layer can be done only by binding it to a client-side data source.
+Adding shapes in the **Bubble** layer can be done only by binding it to a client-side data source.
 
-The __Bubble__ layer can be easily integrated with the __RadClientDataSource__ control and bound to a **.json* file that contains theJSON literal—the data source. To do this, set the __ClientDataSourceID__ property of the __MapLayer__ item to the RadClientDataSource control’s __ID__.
+The **Bubble** layer can be easily integrated with the **RadClientDataSource** control and bound to a **.json* file that contains theJSON literal—the data source. To do this, set the **ClientDataSourceID** property of the **MapLayer** item to the RadClientDataSource control’s **ID**.
 
-In __Example 1__, the *urban-areas.json* file is the one that contains the data and defines the shapes on the__Bubble__ layer. You can download the file from the[Bubble Layer](http://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx) demo and examine the structure of the JSON literal. __Figure 1__ is a result of the markup from __Example 1__.
+In **Example 1**, the *urban-areas.json* file is the one that contains the data and defines the shapes on the**Bubble** layer. You can download the file from the[Bubble Layer](http://demos.telerik.com/aspnet-ajax/map/examples/functionality/bubble-layer/defaultcs.aspx) demo and examine the structure of the JSON literal. **Figure 1** is a result of the markup from **Example 1**.
 
-__Example 1__: Data binding a Bubble layer to a RadClientDataSource
+**Example 1**: Data binding a Bubble layer to a RadClientDataSource
 
 ````ASPNET
 				<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
@@ -76,13 +76,13 @@ __Example 1__: Data binding a Bubble layer to a RadClientDataSource
 
 
 
-The data source items should contain two important fields: location and value (__Example 2__).
+The data source items should contain two important fields: location and value (**Example 2**).
 
-* __location__ field—it should be a geographical position represented by a JavaScript array with the latitude and longitude values.
+* **location** field—it should be a geographical position represented by a JavaScript array with the latitude and longitude values.
 
-* __value__ field—it depends on the purpose of the data that should be displayed, the value’s weight is the magnitude used to calculate the radius of each circle shape.
+* **value** field—it depends on the purpose of the data that should be displayed, the value’s weight is the magnitude used to calculate the radius of each circle shape.
 
-__Example 2__: JSON literal of a simple, valid data item.
+**Example 2**: JSON literal of a simple, valid data item.
 
 ````JavaScript
 				{
@@ -93,12 +93,12 @@ __Example 2__: JSON literal of a simple, valid data item.
 
 
 
-__Figure 2__ is the result of the simple data binding scenario from __Example 3__. You can see how the *"Value"*field set to the __ValueField__ property of the __Bubble__ layer affects the radius of the circle shapes.
+**Figure 2** is the result of the simple data binding scenario from **Example 3**. You can see how the *"Value"*field set to the **ValueField** property of the **Bubble** layer affects the radius of the circle shapes.
 >caption Figure 2: Value and circle radius dependency in the bubble shapes
 
 ![map-buble-layer-value-impact](images/bubble-layer/map-buble-layer-value-impact.png)
 
-__Example 3__: Simple data binding of a Bubble layer
+**Example 3**: Simple data binding of a Bubble layer
 
 ````ASPNET
 			<script type="text/javascript">
@@ -147,26 +147,26 @@ __Example 3__: Simple data binding of a Bubble layer
 
 ## Custom Stylization
 
-By default, the bubbles on the __Bubble__ layer are colorized according to the set [Skin]({%slug map/appearance-and-styling/skins%}).Optionally, you can change their appearance according to your design requirements.
+By default, the bubbles on the **Bubble** layer are colorized according to the set [Skin]({%slug map/appearance-and-styling/skins%}).Optionally, you can change their appearance according to your design requirements.
 
-To do so, you can use the __FillSettings__ and __StrokeSettings__ tags exposed in the __StyleSettings__ of the used __MapLayer__.More details about the available attributes and how to configure them are available in the [Kendo Map online documentation](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.shape.style).
+To do so, you can use the **FillSettings** and **StrokeSettings** tags exposed in the **StyleSettings** of the used **MapLayer**.More details about the available attributes and how to configure them are available in the [Kendo Map online documentation](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.shape.style).
 
-Simple markup demonstration of a custom shape stylization with the described settings is provided in __Example 3__and you can see the result in __Figure 2__.
+Simple markup demonstration of a custom shape stylization with the described settings is provided in **Example 3**and you can see the result in **Figure 2**.
 
 ## Using Client-side Events and Bubble Shapes
 
-You can dynamically alter the look and behavior of the __Bubble__ layer or implement some user-interaction capabilities by using the[client-side events of the RadMap control]({%slug map/client-side-programming%}) and changing the [style attributes of the shape](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.bubble.style) according to your logic (__Example 4__).
+You can dynamically alter the look and behavior of the **Bubble** layer or implement some user-interaction capabilities by using the[client-side events of the RadMap control]({%slug map/client-side-programming%}) and changing the [style attributes of the shape](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#configuration-layerDefaults.bubble.style) according to your logic (**Example 4**).
 
->tip To manipulate the bubbles you should use the __Shape__ related events, i.e.,[OnShapeCreated](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated),[OnShapeClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick),[OnShapeMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter)and[OnShapeMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
+>tip To manipulate the bubbles you should use the **Shape** related events, i.e.,[OnShapeCreated](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeCreated),[OnShapeClick](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeClick),[OnShapeMouseEnter](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseEnter)and[OnShapeMouseLeave](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map#events-shapeMouseLeave).
 >
 
 
-In __Example 3__, you can see how the __OnShapeCreated__ event is used to alter the fill-color of the bubbles based on the value of the shape objects.__Figure 3__ shows the rendered map as a result of the custom implementation.
+In **Example 3**, you can see how the **OnShapeCreated** event is used to alter the fill-color of the bubbles based on the value of the shape objects.**Figure 3** shows the rendered map as a result of the custom implementation.
 >caption Figure 3: Changing bubbles’ fill-color based on custom logic
 
 ![map-using-events-to-change-bubble-color](images/bubble-layer/map-using-events-to-change-bubble-color.png)
 
-__Example 4__: Using the OnShapeCreated event to dynamically change the shapes of a Bubble layer
+**Example 4**: Using the OnShapeCreated event to dynamically change the shapes of a Bubble layer
 
 ````ASPNET
 			<script type="text/javascript">

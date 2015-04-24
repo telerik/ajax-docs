@@ -1,6 +1,6 @@
 ---
 title: RadMenuItemCollection Object
-page_title: RadMenuItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadMenuItemCollection Object | RadMenu for ASP.NET AJAX Documentation
 description: RadMenuItemCollection Object
 slug: menu/client-side-programming/objects/radmenuitemcollection-object
 tags: radmenuitemcollection,object
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The __RadMenuItemCollection__ object is returned by the __get_items__ method of the [RadMenu object]({%slug menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects%}) or the [RadMenuItem object]({%slug menu/client-side-programming/objects/radmenuitem-object%}). The following table lists the most important methods.
+The **RadMenuItemCollection** object is returned by the **get_items** method of the [RadMenu object]({%slug menu/client-side-programming/objects/radmenu-and-radcontextmenu-objects%}) or the [RadMenuItem object]({%slug menu/client-side-programming/objects/radmenuitem-object%}). The following table lists the most important methods.
 
->note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the __trackChanges__ method of the menu object and the __commitChanges__ method of the menu object.
+>note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the menu object and the **commitChanges** method of the menu object.
 >
 
 
@@ -25,7 +25,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadMenuItem|none|Adds a child item to the collection.|
+| **add** |RadMenuItem|none|Adds a child item to the collection.|
 
 ````JavaScript
 	    var menu = $find("<%= RadMenu1.ClientID %>");
@@ -41,7 +41,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __insert__  | int, RadMenuItem | none | Inserts the item into the collection at the position defined by the first (index) parameter. |
+|  **insert**  | int, RadMenuItem | none | Inserts the item into the collection at the position defined by the first (index) parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -58,7 +58,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __remove__  | RadMenuItem | none | Removes the specified item from the collection. |
+|  **remove**  | RadMenuItem | none | Removes the specified item from the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -74,7 +74,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __clear__  | none | none | Clears the Items collection of all the child items it contains. |
+|  **clear**  | none | none | Clears the Items collection of all the child items it contains. |
 | ------ | ------ | ------ | ------ |
 
 
@@ -91,7 +91,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __getItem__  | int | RadMenuItem | Returns the item from the collection that resides at the specified index. |
+|  **getItem**  | int | RadMenuItem | Returns the item from the collection that resides at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 
@@ -106,7 +106,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __indexOf__  | RadMenuItem | int | Returns the index of an item. |
+|  **indexOf**  | RadMenuItem | int | Returns the index of an item. |
 | ------ | ------ | ------ | ------ |
 
 
@@ -122,7 +122,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __removeAt__  | int | none | Removes the item at the specified index. |
+|  **removeAt**  | int | none | Removes the item at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 
@@ -139,7 +139,7 @@ The __RadMenuItemCollection__ object is returned by the __get_items__ method of 
 
 >caption  
 
-|  __get_count__  | none | int | Returns the number of the items in the collection. |
+|  **get_count**  | none | int | Returns the number of the items in the collection. |
 | ------ | ------ | ------ | ------ |
 
 

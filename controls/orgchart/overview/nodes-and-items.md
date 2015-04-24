@@ -1,6 +1,6 @@
 ---
 title: Nodes and Items
-page_title: Nodes and Items | UI for ASP.NET AJAX Documentation
+page_title: Nodes and Items | RadOrgChart for ASP.NET AJAX Documentation
 description: Nodes and Items
 slug: orgchart/overview/nodes-and-items
 tags: nodes,and,items
@@ -12,33 +12,33 @@ position: 1
 
 
 
-During the design of RadOrgChart, two main types of objects were identified - __Nodes__ and __Items__.
+During the design of RadOrgChart, two main types of objects were identified - **Nodes** and **Items**.
 
 ## What's what?
 
-Organizational hierarchies mostly include relations of type __person-managing-person__:![radorgchart-nodes-and-items 1](images/radorgchart-nodes-and-items1.png)
+Organizational hierarchies mostly include relations of type **person-managing-person**:![radorgchart-nodes-and-items 1](images/radorgchart-nodes-and-items1.png)
 
 But there also are cases in which a department of people is represented by a single node in the tree structure:![radorgchart-nodes-and-items 2](images/radorgchart-nodes-and-items2.png)
 
 That is why we came up with the following object model:
 
-* __RadOrgChart__
+* **RadOrgChart**
 
 * NodesCollection
 
-* __Node__
+* **Node**
 
 * NodesCollection
 
 * GroupItemsCollection
 
-* __GroupItem__
+* **GroupItem**
 
-In this model, __Node's__ purpose is to hold GroupItems. In case that a node holds a single GroupItem - this node is __not__ considered *Group*. In the first example none of the items presented didn't have the visual representation of a group - the rounded rectangle with a background is missing:![radorgchart-nodes-and-items 3](images/radorgchart-nodes-and-items3.png)
+In this model, **Node's** purpose is to hold GroupItems. In case that a node holds a single GroupItem - this node is **not** considered *Group*. In the first example none of the items presented didn't have the visual representation of a group - the rounded rectangle with a background is missing:![radorgchart-nodes-and-items 3](images/radorgchart-nodes-and-items3.png)
 
 ## What's a Group?
 
-__A group is a single Node holding more than 1 GroupItem.__
+**A group is a single Node holding more than 1 GroupItem.**
 
 Adding more than one item to a single node will result in the creation of a group.
 

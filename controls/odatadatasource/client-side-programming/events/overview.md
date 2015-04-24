@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadODataDataSource for ASP.NET AJAX Documentation
 description: Overview
 slug: odatadatasource/client-side-programming/events/overview
 tags: overview

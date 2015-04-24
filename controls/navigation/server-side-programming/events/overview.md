@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadNavigation for ASP.NET AJAX Documentation
 description: Overview
 slug: navigation/server-side-programming/events/overview
 tags: overview

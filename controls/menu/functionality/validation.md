@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadMenu for ASP.NET AJAX Documentation
 description: Validation
 slug: menu/functionality/validation
 tags: validation
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-You can use the built in ASP.NET validation with __RadMenu__. The menu can trigger validation of other controls on the form when it performs a post-back to the server. Simply set the __CausesValidation__ property to __True__.
+You can use the built in ASP.NET validation with **RadMenu**. The menu can trigger validation of other controls on the form when it performs a post-back to the server. Simply set the **CausesValidation** property to **True**.
 
-By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the menu performs a post-back, while still allowing other controls on the Web page to be validated, by using __Validation Groups__. The validator controls have a __ValidationGroup__ property. The menu also has a __ValidationGroup__ property. The menu only causes validation by those validators whose __ValidationGroup__ property matches the __ValidationGroup__ property of the menu. (The reason the default behavior is for all validators to execute on post-back is because the default value of the __ValidationGroup__ property on both __Radmenu__ and validators is an empty string.)
+By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the menu performs a post-back, while still allowing other controls on the Web page to be validated, by using **Validation Groups**. The validator controls have a **ValidationGroup** property. The menu also has a **ValidationGroup** property. The menu only causes validation by those validators whose **ValidationGroup** property matches the **ValidationGroup** property of the menu. (The reason the default behavior is for all validators to execute on post-back is because the default value of the **ValidationGroup** property on both **Radmenu** and validators is an empty string.)
 
 ````ASPNET
 	    <telerik:RadMenu runat="server" ID="RadMenu1" Skin="Inox" ValidationGroup="LoginValidationGroup"

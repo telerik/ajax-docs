@@ -1,6 +1,6 @@
 ---
 title: Image flickering
-page_title: Image flickering | UI for ASP.NET AJAX Documentation
+page_title: Image flickering | RadMenu for ASP.NET AJAX Documentation
 description: Image flickering
 slug: menu/troubleshooting/image-flickering
 tags: image,flickering

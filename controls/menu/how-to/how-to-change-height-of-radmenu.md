@@ -1,6 +1,6 @@
 ---
 title: How to Change Height of RadMenu
-page_title: How to Change Height of RadMenu | UI for ASP.NET AJAX Documentation
+page_title: How to Change Height of RadMenu | RadMenu for ASP.NET AJAX Documentation
 description: How to Change Height of RadMenu
 slug: menu/how-to/how-to-change-height-of-radmenu
 tags: how,to,change,height,of,radmenu
@@ -12,11 +12,11 @@ position: 9
 
 
 
-The following tutorial demonstrates how you can alter the __height__ of the __RadMenu__ while preserving all of the hover effects that are applied.
+The following tutorial demonstrates how you can alter the **height** of the **RadMenu** while preserving all of the hover effects that are applied.
 
-__Q:__ I want to increase the height of the RadMenu. For example I need the root Items and the child Items to be 5px higher than their original state.How can I do that?
+**Q:** I want to increase the height of the RadMenu. For example I need the root Items and the child Items to be 5px higher than their original state.How can I do that?
 
-__A:__ One way would be to use our [Visual Style Builder](http://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx) to create your customized skin. However, the limitations of this approach are that the nicely shaped rounded corners of the RadMenu control will be lost as well as the different effects that are usually applied when using a sprite image. The second approach is when using some of the predefined Telerik skins. Since our skins are based on sprite images, in order to change the height one will need to change the whole sprite image of the control. Below is a full explanation of how this could be achieved and what the various elements of the RadMenu sprite are used for.
+**A:** One way would be to use our [Visual Style Builder](http://www.telerik.com/products/aspnet-ajax/visual-style-builder.aspx) to create your customized skin. However, the limitations of this approach are that the nicely shaped rounded corners of the RadMenu control will be lost as well as the different effects that are usually applied when using a sprite image. The second approach is when using some of the predefined Telerik skins. Since our skins are based on sprite images, in order to change the height one will need to change the whole sprite image of the control. Below is a full explanation of how this could be achieved and what the various elements of the RadMenu sprite are used for.
 
 ## Prepare the Project
 
@@ -44,9 +44,9 @@ __A:__ One way would be to use our [Visual Style Builder](http://www.telerik.com
 
 1. Drag and drop the *Menu.MySkin.css*file from the Solution Explorer onto your Web page.![Drag and drop the css file](images/menu_appearance_draganddropcss.png)
 
-1. Set the __EnableEmbeddedSkins__ property of the RadMenu control to *False*.
+1. Set the **EnableEmbeddedSkins** property of the RadMenu control to *False*.
 
-1. Change the __Skin__ property of your RadMenu control to *"MySkin"*.
+1. Change the **Skin** property of your RadMenu control to *"MySkin"*.
 
 1. Open the *Menu.Default.css* and replace all of the *RadMenu_ Default* instances with *RadMenu_MySkin* and save the file.![Ffind and replace css class name](images/menu_appearance_findandreplace.png)
 

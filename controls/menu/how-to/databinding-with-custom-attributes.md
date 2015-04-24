@@ -1,6 +1,6 @@
 ---
 title: Databinding with Custom Attributes
-page_title: Databinding with Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Databinding with Custom Attributes | RadMenu for ASP.NET AJAX Documentation
 description: Databinding with Custom Attributes
 slug: menu/how-to/databinding-with-custom-attributes
 tags: databinding,with,custom,attributes

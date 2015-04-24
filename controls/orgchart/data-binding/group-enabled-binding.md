@@ -1,6 +1,6 @@
 ---
 title: Group-Enabled Binding
-page_title: Group-Enabled Binding | UI for ASP.NET AJAX Documentation
+page_title: Group-Enabled Binding | RadOrgChart for ASP.NET AJAX Documentation
 description: Group-Enabled Binding
 slug: orgchart/data-binding/group-enabled-binding
 tags: group-enabled,binding
@@ -16,11 +16,11 @@ RadOrgChart supports grouping of items. The default (also called "simple") bindi
 
 ## 
 
-RadOrgChart supports binding to hierarchical data including groups as logical entities. This is done with __Group-Enabled Binding__.
+RadOrgChart supports binding to hierarchical data including groups as logical entities. This is done with **Group-Enabled Binding**.
 
-Group-Enabled Binding requires 2 separate data sources - __Node Datasource__ and __Item Datasource__.
+Group-Enabled Binding requires 2 separate data sources - **Node Datasource** and **Item Datasource**.
 
-The idea behind this solution is to have as small repetition of data as possible. The Node Datasource contains self-referenced data, so the hiearchical structure can be created. All the data about the items is contained in the Item Datasource. The connection between the two is the __NodeID__ field/column/property of the entities of the Item Datasource.
+The idea behind this solution is to have as small repetition of data as possible. The Node Datasource contains self-referenced data, so the hiearchical structure can be created. All the data about the items is contained in the Item Datasource. The connection between the two is the **NodeID** field/column/property of the entities of the Item Datasource.
 
 Here is a sample of a DB design:![radorgchart-group-enabled-binding](images/radorgchart-group-enabled-binding.png)
 

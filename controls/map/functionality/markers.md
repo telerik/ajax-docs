@@ -1,6 +1,6 @@
 ---
 title: Markers
-page_title: Markers | UI for ASP.NET AJAX Documentation
+page_title: Markers | RadMap for ASP.NET AJAX Documentation
 description: Markers
 slug: map/functionality/markers
 tags: markers
@@ -12,27 +12,27 @@ position: 2
 
 
 
-This article will demonstrate how to add and configure __Markers__ using the __RadMap__ control.	The marker functionality allows you to add points in the map. These points are defined by geographical position in the map and can show useful information to the user in a tooltip.
+This article will demonstrate how to add and configure **Markers** using the **RadMap** control.	The marker functionality allows you to add points in the map. These points are defined by geographical position in the map and can show useful information to the user in a tooltip.
 
-A simple illustration of a __Marker__ in a __RadMap__ is available in the [RadMap Structure]({%slug map/getting-started/radmap-structure%}) article.
+A simple illustration of a **Marker** in a **RadMap** is available in the [RadMap Structure]({%slug map/getting-started/radmap-structure%}) article.
 
 ## How to Add Markers
 
-The markers in the __RadMap__ are represented as a collection of objects. To add a simple marker:
+The markers in the **RadMap** are represented as a collection of objects. To add a simple marker:
 
-1. Use the __MarkersCollection__ inner tag;
+1. Use the **MarkersCollection** inner tag;
 
-1. Add a __MapMarker__ item;
+1. Add a **MapMarker** item;
 
-1. Use the __LocationSettings__ inner tag and its __Latitude__ and __Longitude__attributes to define the location of the marker.
+1. Use the **LocationSettings** inner tag and its **Latitude** and **Longitude**attributes to define the location of the marker.
 
-1. Optionally, you can set the __Shape__ attribute to a desirable value (__Pin__ or __PinTarget__);
+1. Optionally, you can set the **Shape** attribute to a desirable value (**Pin** or **PinTarget**);
 
-1. Optionally, set the __Title__ attribute with some HTML content (if a tooltip is not configured this content will be shown as a tooltip of the __Marker__).
+1. Optionally, set the **Title** attribute with some HTML content (if a tooltip is not configured this content will be shown as a tooltip of the **Marker**).
 
-In __Example 1__ you can examine a sample markup created by following the above steps anda code behind approach is available in __Example 2__.
+In **Example 1** you can examine a sample markup created by following the above steps anda code behind approach is available in **Example 2**.
 
-__Example 1__: Adding a simple __Marker__ in __RadMap__ with ASP.NET markup
+**Example 1**: Adding a simple **Marker** in **RadMap** with ASP.NET markup
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">
@@ -46,7 +46,7 @@ __Example 1__: Adding a simple __Marker__ in __RadMap__ with ASP.NET markup
 
 
 
-__Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
+**Example 2**: Programmatic approach to add a simple **Marker** in **RadMap**
 
 
 
@@ -76,14 +76,14 @@ __Example 2__: Programmatic approach to add a simple __Marker__ in __RadMap__
 
 ## Marker Shapes
 
-The Markers in __RadMap__ are two types - __Pin__ and __PinTarget__ (see __Figure 1__).They can be defined using the __Shape__ attribute of the __MapMarker__ item. The actual visual differences depend on the chosen Skin. The default visual appearance of the __Marker__ is the __PinTarget__.
+The Markers in **RadMap** are two types - **Pin** and **PinTarget** (see **Figure 1**).They can be defined using the **Shape** attribute of the **MapMarker** item. The actual visual differences depend on the chosen Skin. The default visual appearance of the **Marker** is the **PinTarget**.
 
-__Figure 1__ shows the differences of the two types when __RadMap__ is set to Default skin.	The markup that generates the displayed map is provided in __Example 3__.
+**Figure 1** shows the differences of the two types when **RadMap** is set to Default skin.	The markup that generates the displayed map is provided in **Example 3**.
 >caption Figure 1: Different Marker Shapes with the Default Skin
 
 ![Rad Map Markers Shapes With Pointers](images/RadMap_Markers_Shapes_WithPointers.png)
 
-__Example 3__: Setting __Marker__ shapes
+**Example 3**: Setting **Marker** shapes
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1" Skin="Default" Zoom="4">
@@ -103,11 +103,11 @@ __Example 3__: Setting __Marker__ shapes
 
 ## Using Tooltip Settings
 
-The __TooltipSettings__ tag allows you to fine tune the tooltips content, appearance and options.You can add HTML, use templates or load an entire page in the tooltip. You can then configure animations,show and hide delays, etc. You can find a full list of the available settings in the [API reference]({%slug map/server-side-programming%}).
+The **TooltipSettings** tag allows you to fine tune the tooltips content, appearance and options.You can add HTML, use templates or load an entire page in the tooltip. You can then configure animations,show and hide delays, etc. You can find a full list of the available settings in the [API reference]({%slug map/server-side-programming%}).
 
-In __Example 4__ you can see how the marker tooltip is configured to show a[Kendo-type HTML template](http://docs.telerik.com/kendo-ui/api/dataviz/map#configuration-layerDefaults-marker-tooltip-template)	and how the open and close behaviors can be changed.
+In **Example 4** you can see how the marker tooltip is configured to show a[Kendo-type HTML template](http://docs.telerik.com/kendo-ui/api/dataviz/map#configuration-layerDefaults-marker-tooltip-template)	and how the open and close behaviors can be changed.
 
-__Example 4__: Creating a complex tooltip
+**Example 4**: Creating a complex tooltip
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1" Zoom="4">

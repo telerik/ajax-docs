@@ -1,6 +1,6 @@
 ---
 title: How to Disable the Collapse Animation at Client-side
-page_title: How to Disable the Collapse Animation at Client-side | UI for ASP.NET AJAX Documentation
+page_title: How to Disable the Collapse Animation at Client-side | RadMenu for ASP.NET AJAX Documentation
 description: How to Disable the Collapse Animation at Client-side
 slug: menu/how-to/how-to-disable-the-collapse-animation-at-client-side
 tags: how,to,disable,the,collapse,animation,at,client-side
@@ -16,7 +16,7 @@ position: 8
 
 ## 
 
-This article describes how to hide the RadContextMenu and get a confirmation dialog when a user clicks on an item from the menu. In general you will notice that the context menu is not hidden until you close the confirmation dialog. Even if you call the __hide()__ method before showing the confirm dialog - the context menu is not hidden because the collapse animation needs some time to execute and the confirm method blocks its execution. You end up with a similar screen:
+This article describes how to hide the RadContextMenu and get a confirmation dialog when a user clicks on an item from the menu. In general you will notice that the context menu is not hidden until you close the confirmation dialog. Even if you call the **hide()** method before showing the confirm dialog - the context menu is not hidden because the collapse animation needs some time to execute and the confirm method blocks its execution. You end up with a similar screen:
 
 ![Hide RadContextMenu](images/menu_treecontext.png)
 
@@ -24,7 +24,7 @@ This article describes how to hide the RadContextMenu and get a confirmation dia
 
 
 
-To prevent this behavior you can disable the collapse animation of the context menu before we hide it. This way it will hide immediately. After that we can enable it again. To achieve that you need to subscribe to the [OnClientContextMenuItemClicking](B154D1F1-C612-4E34-9FD6-4193F8AB5697) (in case of a treeview's context menu) __or__[OnClientItemClicking]({%slug menu/client-side-programming/events/onclientitemclicking%}) event and define the event handlers as follows:
+To prevent this behavior you can disable the collapse animation of the context menu before we hide it. This way it will hide immediately. After that we can enable it again. To achieve that you need to subscribe to the [OnClientContextMenuItemClicking](B154D1F1-C612-4E34-9FD6-4193F8AB5697) (in case of a treeview's context menu) **or**[OnClientItemClicking]({%slug menu/client-side-programming/events/onclientitemclicking%}) event and define the event handlers as follows:
 
 ````JavaScript
 	    function OnClientContextMenuItemClicking(sender, e) {

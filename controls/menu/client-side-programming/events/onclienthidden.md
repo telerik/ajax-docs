@@ -1,6 +1,6 @@
 ---
 title: OnClientHidden
-page_title: OnClientHidden | UI for ASP.NET AJAX Documentation
+page_title: OnClientHidden | RadMenu for ASP.NET AJAX Documentation
 description: OnClientHidden
 slug: menu/client-side-programming/events/onclienthidden
 tags: onclienthidden
@@ -16,7 +16,7 @@ position: 19
 
 ## 
 
-(__RadContextMenu__ only) The __OnClientHidden__ client-side event occurs when the context menu disappears.
+(**RadContextMenu** only) The **OnClientHidden** client-side event occurs when the context menu disappears.
 
 The event handler receives a single parameter: a reference to the client-side object for the context menu.
 

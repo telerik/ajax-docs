@@ -1,6 +1,6 @@
 ---
 title: Server-side
-page_title: Server-side | UI for ASP.NET AJAX Documentation
+page_title: Server-side | RadNavigation for ASP.NET AJAX Documentation
 description: Server-side
 slug: navigation/data-binding/server-side
 tags: server-side

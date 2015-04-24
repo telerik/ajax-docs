@@ -1,6 +1,6 @@
 ---
 title: Viewport Breakpoints
-page_title: Viewport Breakpoints | UI for ASP.NET AJAX Documentation
+page_title: Viewport Breakpoints | RadPageLayout for ASP.NET AJAX Documentation
 description: Viewport Breakpoints
 slug: pagelayout/creating-responsive-design/viewport-breakpoints
 tags: viewport,breakpoints
@@ -12,13 +12,13 @@ position: 2
 
 
 
-The following article describes the meaning of the __viewport breakpoints__ for __RadPageLayout__ and their usage.
+The following article describes the meaning of the **viewport breakpoints** for **RadPageLayout** and their usage.
 
 ## Viewport Breakpoints
 
-In responsive web design, __viewport breakpoints__ are browser dimensions (usually just widths) that set the active range of a given media query. Once the browser dimensions are within that range, the styles associated with that media query will apply. In other words, without the breakpoints (and media queries) sites could be just fluid, but with breakpoints (and media queries), we can change the actual layout.
+In responsive web design, **viewport breakpoints** are browser dimensions (usually just widths) that set the active range of a given media query. Once the browser dimensions are within that range, the styles associated with that media query will apply. In other words, without the breakpoints (and media queries) sites could be just fluid, but with breakpoints (and media queries), we can change the actual layout.
 
-__RadPageLayout__ uses the following 5 breakpoints:
+**RadPageLayout** uses the following 5 breakpoints:
 
 * extra small resolutions (or xs)
 
@@ -30,7 +30,7 @@ __RadPageLayout__ uses the following 5 breakpoints:
 
 * extra large resolutions (or xl)
 
-The notion of __viewport breakpoints__ is not just within the media queries, but is used throughout the control. All responsive properties have a suffix that's actually the media query it applies for: __SpanXS__ means the span for extra small resolutions; __HiddenLG__ means hidden on large resolutions and so on.
+The notion of **viewport breakpoints** is not just within the media queries, but is used throughout the control. All responsive properties have a suffix that's actually the media query it applies for: **SpanXS** means the span for extra small resolutions; **HiddenLG** means hidden on large resolutions and so on.
 
 The following table describes the resolutions and the corresponding viewport breakpoints.
 

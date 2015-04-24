@@ -1,6 +1,6 @@
 ---
 title: Client-side Programming
-page_title: Client-side Programming | UI for ASP.NET AJAX Documentation
+page_title: Client-side Programming | RadMap for ASP.NET AJAX Documentation
 description: Client-side Programming
 slug: map/client-side-programming
 tags: client-side,programming
@@ -12,15 +12,15 @@ position: 8
 
 
 
-This article explains how to reference and use the __RadMap__ client-side object (__Examples 1-3__) and	its events (__Example 4__).
+This article explains how to reference and use the **RadMap** client-side object (**Examples 1-3**) and	its events (**Example 4**).
 
-__RadMap__ for ASP.NET AJAX is based on the __Kendo Map Widgethttp://demos.telerik.com/kendo-ui/map/index__. Thus, it exposes	the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/map) and mainly provides a wrapper and API for working with the map	on the server (programmatic creation, data binding, declaring in the markup).
+**RadMap** for ASP.NET AJAX is based on the **Kendo Map Widgethttp://demos.telerik.com/kendo-ui/map/index**. Thus, it exposes	the [client-side API and methods offered by the widget](http://docs.telerik.com/kendo-ui/api/dataviz/map) and mainly provides a wrapper and API for working with the map	on the server (programmatic creation, data binding, declaring in the markup).
 
 ## Get Client-side Object Reference
 
 There are two ways to get a reference to the Kendo Map widget in order to use its API:
 
-* Use the __get_kendoWidget__ method the __RadMap__ client-side object exposes. You can get the__RadMap__ object through the __$find()__ MS AJAX method.__Example 1:__ Get the Kendo Map object through the get_kendoWidget method:
+* Use the **get_kendoWidget** method the **RadMap** client-side object exposes. You can get the**RadMap** object through the **$find()** MS AJAX method.**Example 1:** Get the Kendo Map object through the get_kendoWidget method:
 
 ````JavaScript
 				var radMapObject = $find("<%=RadMap1.ClientID %>"); //the standard script control object
@@ -29,7 +29,7 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 
 
-* Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:__Example 2:__ Get the Kendo Map object through the data attribute of the DOM object:
+* Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:**Example 2:** Get the Kendo Map object through the data attribute of the DOM object:
 
 ````JavaScript
 				var kendoMap = $telerik.$("#<%=RadMap1.ClientID %>").data("kendoMap");//the jQuery selector must get the RadMap wrapping div element
@@ -37,15 +37,15 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 
 
->note  __RadMap__ is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Map)	during the`Sys.Application.Init`event. This means that the earliest event in which you can reference	the map widget is __Sys.Application.Load__ .
+>note  **RadMap** is an IScriptControl based on MS AJAX and so it instantiates its client-side object (i.e., the Kendo Map)	during the`Sys.Application.Init`event. This means that the earliest event in which you can reference	the map widget is **Sys.Application.Load** .
 >
 
 
 ## Client-side Methods
 
-__RadMap__ for ASP.NET AJAX, through the Kendo widget, exposes the[Kendo Map client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/map#methods). You can also find an example of the basics in the[RadMap Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
+**RadMap** for ASP.NET AJAX, through the Kendo widget, exposes the[Kendo Map client-side methods](http://docs.telerik.com/kendo-ui/api/dataviz/map#methods). You can also find an example of the basics in the[RadMap Client-side API online demo](http://demos.telerik.com/aspnet-ajax/map/examples/client-side-api/defaultcs.aspx).
 
-__Example 3:__ Center the map on a pair of coordinates:
+**Example 3:** Center the map on a pair of coordinates:
 
 ````JavaScript
 		<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="500" Height="500">
@@ -71,17 +71,17 @@ __Example 3:__ Center the map on a pair of coordinates:
 
 ## Client-side Events
 
-__RadMap__ exposes the[Kendo Map client-side events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events)in its markup (and, respectively, code-behind), via the __<ClientEvents>__ inner tag (class). The event name is constructed by concatenating __On__with the __Kendo Map event name__ in PascalCase.
+**RadMap** exposes the[Kendo Map client-side events](http://docs.telerik.com/kendo-ui/api/dataviz/map#events)in its markup (and, respectively, code-behind), via the **<ClientEvents>** inner tag (class). The event name is constructed by concatenating **On**with the **Kendo Map event name** in PascalCase.
 
-The server property only takes the handler function name as a string. The handler receives the Kendo Map event arguments. You can findexamples of attaching and using the events in __Example 4__.
+The server property only takes the handler function name as a string. The handler receives the Kendo Map event arguments. You can findexamples of attaching and using the events in **Example 4**.
 
 There are two additional events that are specific to the nature of the ISciptControl. They receive two arguments - the RadMap and event arguments objects.
 
-* __OnInitialize__—fires before the serialized settings from the server arepassed to the kendoMap() constructor as options. You can use it to apply modifications to the options JSON object.The methods and events of the map are not available yet because the Kendo Map is not yet created. You can find a simpledemonstration in __Example 5__.
+* **OnInitialize**—fires before the serialized settings from the server arepassed to the kendoMap() constructor as options. You can use it to apply modifications to the options JSON object.The methods and events of the map are not available yet because the Kendo Map is not yet created. You can find a simpledemonstration in **Example 5**.
 
-* __OnLoad__—fires when the RadMap client-side object is instantiated. Its full API and events are available at this point.
+* **OnLoad**—fires when the RadMap client-side object is instantiated. Its full API and events are available at this point.
 
-__Example 4:__ Attach client-side Map events in the markup and in the code-behind.
+**Example 4:** Attach client-side Map events in the markup and in the code-behind.
 
 
 
@@ -128,9 +128,9 @@ You can find an example of several of the map's events being handled in the	[Cli
 
 ## Get Options Object Passed to the kendoMap() Constructor
 
-You can use the __OnInitialize__ event __RadMap__ exposes to get the JSON literal thatwill be passed to the Kendo Map widget and modify it according to some custom logic (e.g., some configuration that has not been done on the server for any reason).You can utilize the full Kendo Map API to build thedesired options object according to your needs.This object is only available through the event argumentsobject of this event and is not available in later events.
+You can use the **OnInitialize** event **RadMap** exposes to get the JSON literal thatwill be passed to the Kendo Map widget and modify it according to some custom logic (e.g., some configuration that has not been done on the server for any reason).You can utilize the full Kendo Map API to build thedesired options object according to your needs.This object is only available through the event argumentsobject of this event and is not available in later events.
 
-__Example 5:__ Add a new markers layer to the map options before the widget initializes.
+**Example 5:** Add a new markers layer to the map options before the widget initializes.
 
 ````JavaScript
 		<telerik:RadMap runat="server" ID="RadMap1" Zoom="4" Width="500" Height="500">

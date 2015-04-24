@@ -1,6 +1,6 @@
 ---
 title: OnClientItemOpening
-page_title: OnClientItemOpening | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemOpening | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemOpening
 slug: menu/client-side-programming/events/onclientitemopening
 tags: onclientitemopening
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientItemOpening__ client-side event occurs when the menu item is about to expand, showing its child items. This event only occurs for menu items that have child items.
+The **OnClientItemOpening** client-side event occurs when the menu item is about to expand, showing its child items. This event only occurs for menu items that have child items.
 
 The event handler receives two parameters:
 
@@ -22,13 +22,13 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that is about to expand.
+* **get_item** returns a reference to the **RadMenuItem** that is about to expand.
 
-* __set_cancel__ lets you prevent the menu item from showing its children.
+* **set_cancel** lets you prevent the menu item from showing its children.
 
-* __get_cancel__ returns a boolean value indicating whether the menu item will expand after the event handler exits.
+* **get_cancel** returns a boolean value indicating whether the menu item will expand after the event handler exits.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the opening.
+* **get_domEvent** returns a reference to the DOM event that caused the opening.
 
 You can use this event to control when menu items can expand, or customize the child items before the menu expands:
 

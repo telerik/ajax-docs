@@ -1,6 +1,6 @@
 ---
 title: Known Issues
-page_title: Known Issues | UI for ASP.NET AJAX Documentation
+page_title: Known Issues | RadNotification for ASP.NET AJAX Documentation
 description: Known Issues
 slug: notification/troubleshooting/known-issues
 tags: known,issues
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This help article lists the most common issues one can face when using the __RadNotification__ control and offers possible solutions for them.
+This help article lists the most common issues one can face when using the **RadNotification** control and offers possible solutions for them.
 
 1. [ Using a ScriptControl (e.g. RadGrid) in the RadNotification with the RadScriptManager. ](#using-a-scriptcontrol-(e.g.-radgrid)-in-the-radnotification-with-the-radscriptmanager)
 
@@ -24,15 +24,15 @@ The RadScriptManager combines the scripts for the page into one file. The RadNot
 
 There are three ways to avoid this behavior:
 
-* Use the standard __ASP:ScriptManager__ control instead
+* Use the standard **ASP:ScriptManager** control instead
 
-* Set the __EnableScriptCombine__ property of the __RadScriptManager__ to __false__
+* Set the **EnableScriptCombine** property of the **RadScriptManager** to **false**
 
 * disable the script evaluation for the RadXmlHttpPanel in the[Sys.Application.Load event](http://msdn.microsoft.com/en-us/library/bb383829.aspx), e.g.:$find("<%=RadNotification1.ClientID %>")._xmlPanel.set_enableClientScriptEvaluation(false);.Note that this may cause some issues.
 
 ## Notification Audio Is Not Played In Mobile Devices
 
-Audio in mobile devices can only be played after a user action. This is a limitation of mobile browsers that also affects the __RadNotification__ control. You can find more information and a possible solution in the [Notification Audio Is Not Played In Mobile Devices]({%slug notification/troubleshooting/notification-audio-is-not-played-in-mobile-devices%}) help article.
+Audio in mobile devices can only be played after a user action. This is a limitation of mobile browsers that also affects the **RadNotification** control. You can find more information and a possible solution in the [Notification Audio Is Not Played In Mobile Devices]({%slug notification/troubleshooting/notification-audio-is-not-played-in-mobile-devices%}) help article.
 
 # See Also
 

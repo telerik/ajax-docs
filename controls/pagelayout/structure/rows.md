@@ -1,6 +1,6 @@
 ---
 title: Rows
-page_title: Rows | UI for ASP.NET AJAX Documentation
+page_title: Rows | RadPageLayout for ASP.NET AJAX Documentation
 description: Rows
 slug: pagelayout/structure/rows
 tags: rows
@@ -12,36 +12,36 @@ position: 1
 
 
 
-This article provides information about the rows that you can use in the __RadPageLayout__ control. You can also find out what attributes that can be applied and how to declare them on your page.
+This article provides information about the rows that you can use in the **RadPageLayout** control. You can also find out what attributes that can be applied and how to declare them on your page.
 
 ## Rows
 
-Since __Q2 2014__ rows could be nested using the property __Rows__. Rows are simple containers for holding columns. They can either hold LayoutRow element or Content elements. Below you can find few examples demonstrating the purpose of the Content elements and LayoutRow element as well as the attributes that can be set:
+Since **Q2 2014** rows could be nested using the property **Rows**. Rows are simple containers for holding columns. They can either hold LayoutRow element or Content elements. Below you can find few examples demonstrating the purpose of the Content elements and LayoutRow element as well as the attributes that can be set:
 
 
 | Property Name | Description |
 | ------ | ------ |
-| __HtmlTag__ |Gets or sets the HTML tag that will be rendered for this element. If the property is set to None, only the element's content will be rendered.|
-| __StaticId__ |Gets or sets the actual rendered ID attribute. If the property is not set, it will return an empty string.|
-| __WrapperHtmlTag__ |Gets or sets the HTML tag that will be rendered for the wrapper of this element. If the property is set to None, the wrapper will not be rendered.|
-| __WrapperCssClass__ |Gets or sets the wrapper HTML class.|
-| __Hidden[Device Resolution]__ |Boolean value to show (when set to __false__ ) or hide (when set to __true__ ) the corresponding row depending on the device resolution - Xl, Lg, Md, Sm, Xs (for instance this can be __HiddenXl="true"__ ).|
-| __Rows__ |Contains the nested rows.|
-| __RowType__ |Determine what styles will be applied for the row element. The available values are:
+| **HtmlTag** |Gets or sets the HTML tag that will be rendered for this element. If the property is set to None, only the element's content will be rendered.|
+| **StaticId** |Gets or sets the actual rendered ID attribute. If the property is not set, it will return an empty string.|
+| **WrapperHtmlTag** |Gets or sets the HTML tag that will be rendered for the wrapper of this element. If the property is set to None, the wrapper will not be rendered.|
+| **WrapperCssClass** |Gets or sets the wrapper HTML class.|
+| **Hidden[Device Resolution]** |Boolean value to show (when set to **false** ) or hide (when set to **true** ) the corresponding row depending on the device resolution - Xl, Lg, Md, Sm, Xs (for instance this can be **HiddenXl="true"** ).|
+| **Rows** |Contains the nested rows.|
+| **RowType** |Determine what styles will be applied for the row element. The available values are:
 
-*  __Container__ - applies the styles from the RadPagePayout div container to the row element.
+*  **Container** - applies the styles from the RadPagePayout div container to the row element.
 
-*  __Row__ - the default value.
+*  **Row** - the default value.
 
-*  __Generic__ - no styles are applied to the row element.
+*  **Generic** - no styles are applied to the row element.
 
-*  __Region__ - region styles are applied.|
+*  **Region** - region styles are applied.|
 
-Since rows in the __RadPageLayout__ control are designed in a very flexible way you can use them in two ways:
+Since rows in the **RadPageLayout** control are designed in a very flexible way you can use them in two ways:
 
-* You can directly place the desired content in the defined row only by using the __<Content> ...</Content>__. This can be any HTML or control that you need to place at the desired position.
+* You can directly place the desired content in the defined row only by using the **<Content> ...</Content>**. This can be any HTML or control that you need to place at the desired position.
 
-* You can create additional columns by using the __<Columns> ... </Columns>__
+* You can create additional columns by using the **<Columns> ... </Columns>**
 
 Below you can find a sample code that demonstrates how you can use either of the approaches:
 

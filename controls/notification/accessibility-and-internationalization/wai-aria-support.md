@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadNotification for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: notification/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
@@ -12,15 +12,15 @@ position: 3
 
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadNotification__ control.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadNotification** control.
 
 ## 
 
-The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.__RadNotification__ offers WAI-ARIA support.
+The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.**RadNotification** offers WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the __RadNotification__'s __EnableAriaSupport__property to __true__ as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadNotification**'s **EnableAriaSupport**property to **true** as shown in the example below.
 
-__Example 1__: Setting the __EnableAriaSupport__ property for __RadNotification__
+**Example 1**: Setting the **EnableAriaSupport** property for **RadNotification**
 
 
 
@@ -43,7 +43,7 @@ __Example 1__: Setting the __EnableAriaSupport__ property for __RadNotification_
 >
 
 
->tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens.	In case the __ContentTemplate__ of the control is used and it contains inputs, their focus should be handled by the developer.	The[OnClientShown event]({%slug notification/client-side-programming/events/onclientshown%})and the[control's Client-side API]({%slug notification/client-side-programming/radnotification-object%})can be used for this.
+>tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens.	In case the **ContentTemplate** of the control is used and it contains inputs, their focus should be handled by the developer.	The[OnClientShown event]({%slug notification/client-side-programming/events/onclientshown%})and the[control's Client-side API]({%slug notification/client-side-programming/radnotification-object%})can be used for this.
 >
 
 

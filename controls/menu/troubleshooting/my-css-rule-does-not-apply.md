@@ -1,6 +1,6 @@
 ---
 title: My CSS Rule Does Not Apply
-page_title: My CSS Rule Does Not Apply | UI for ASP.NET AJAX Documentation
+page_title: My CSS Rule Does Not Apply | RadMenu for ASP.NET AJAX Documentation
 description: My CSS Rule Does Not Apply
 slug: menu/troubleshooting/my-css-rule-does-not-apply
 tags: my,css,rule,does,not,apply
@@ -14,9 +14,9 @@ position: 2
 
 ## My CSS rule does not apply
 
-__Q:__ How come that my CSS rule does not apply to the page?
+**Q:** How come that my CSS rule does not apply to the page?
 
-__A:__ Most probably there is a more concrete CSS rule (usually defined in the skin) which overrides your settings. Let's assume you have defined a custom CSS class and you want to apply it to a specific menu item:
+**A:** Most probably there is a more concrete CSS rule (usually defined in the skin) which overrides your settings. Let's assume you have defined a custom CSS class and you want to apply it to a specific menu item:
 
 ````ASPNET
 	    <style type="text/css">

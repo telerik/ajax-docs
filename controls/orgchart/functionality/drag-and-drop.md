@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop
-page_title: Drag and Drop | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop | RadOrgChart for ASP.NET AJAX Documentation
 description: Drag and Drop
 slug: orgchart/functionality/drag-and-drop
 tags: drag,and,drop
@@ -14,11 +14,11 @@ position: 5
 
 ## 
 
-__RadOrgChart__ control supports __drag-and-drop__ of Nodes and GroupItems. By setting __EnableDragAndDrop__ propety to true the drag-and-drop functionality is enabled. __[NodeDrop]({%slug orgchart/server-side-programming/events/nodedrop%})__ and __[GroupItemDrop]({%slug orgchart/server-side-programming/events/groupitemdrop%})__ events are exposed. When a node is dropped the NodeDrop event is fired, when a GroupItem is dropped the GroupItemDrop event is fired. To change the OrgChart hierarchy you need to handle the events and update the underlying data sources. No automatic updates are available.
+**RadOrgChart** control supports **drag-and-drop** of Nodes and GroupItems. By setting **EnableDragAndDrop** propety to true the drag-and-drop functionality is enabled. **[NodeDrop]({%slug orgchart/server-side-programming/events/nodedrop%})** and **[GroupItemDrop]({%slug orgchart/server-side-programming/events/groupitemdrop%})** events are exposed. When a node is dropped the NodeDrop event is fired, when a GroupItem is dropped the GroupItemDrop event is fired. To change the OrgChart hierarchy you need to handle the events and update the underlying data sources. No automatic updates are available.
 
 Binding scenarios:
 
-Using __SimpleBinding__ the user can only drag-and-drop Nodes which enables him to change the hierarchy.
+Using **SimpleBinding** the user can only drag-and-drop Nodes which enables him to change the hierarchy.
 
 ````ASPNET
 	            <telerik:RadOrgChart runat="server" ID="RadOrgChart1" EnableDragAndDrop="true">
@@ -71,7 +71,7 @@ Using __SimpleBinding__ the user can only drag-and-drop Nodes which enables him 
 ````
 
 
-Using __GroupEnabledBinding__ one can drag-and-drop both Nodes and GroupItems. This allows the user to reorder the hierarchy and to move a GroupItem from one Node to another. By doing so (moving GroupItems), it is possible to have empty nodes. Now, the empty Nodes are rendered (except in SimpleBinding). However, using the __AllowGroupItemDragging__ property and setting it to false one can prevent dragging off the GroupItems from a Node.
+Using **GroupEnabledBinding** one can drag-and-drop both Nodes and GroupItems. This allows the user to reorder the hierarchy and to move a GroupItem from one Node to another. By doing so (moving GroupItems), it is possible to have empty nodes. Now, the empty Nodes are rendered (except in SimpleBinding). However, using the **AllowGroupItemDragging** property and setting it to false one can prevent dragging off the GroupItems from a Node.
 
 ````ASPNET
 	            <telerik:RadOrgChart runat="server" ID="RadOrgChart3" EnableDragAndDrop="true">

@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadMenu for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: menu/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-The __OnClientLoad__client-side event occurs when the menu is first loaded and fully initialized on the client.
+The **OnClientLoad**client-side event occurs when the menu is first loaded and fully initialized on the client.
 
 The event handler receives a single parameter: a reference to the client-side menu object.
 
 You can use this event to perform your own initialization to the menu when it is loaded, or to save a reference to the menu in a global variable for reference from within your client-side code.
 
-The following example illustrates the use of the __OnClientLoad__ event handler for saving a reference to the client-side object:
+The following example illustrates the use of the **OnClientLoad** event handler for saving a reference to the client-side object:
 
 ````ASPNET
 	    <script type="text/javascript">

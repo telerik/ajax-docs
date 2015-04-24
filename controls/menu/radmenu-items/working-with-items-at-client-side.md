@@ -1,6 +1,6 @@
 ---
 title: Working With Items at Client-side
-page_title: Working With Items at Client-side | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at Client-side | RadMenu for ASP.NET AJAX Documentation
 description: Working With Items at Client-side
 slug: menu/radmenu-items/working-with-items-at-client-side
 tags: working,with,items,at,client-side
@@ -12,11 +12,11 @@ position: 4
 
 
 
-__RadMenu for ASP.NET AJAX__ provides a client-side API for adding, deleting and disabling items.By using the __trackChanges__ and __commitChanges__ methods of the client-side __RadMenu__ object, these changes can persist after a postback.
+**RadMenu for ASP.NET AJAX** provides a client-side API for adding, deleting and disabling items.By using the **trackChanges** and **commitChanges** methods of the client-side **RadMenu** object, these changes can persist after a postback.
 
 ## Adding Items
 
-To add an item, use the __add__ or __insert__ method of the itemcollection:
+To add an item, use the **add** or **insert** method of the itemcollection:
 
 ````JavaScript
 	function AddNewItems()
@@ -40,7 +40,7 @@ To add an item, use the __add__ or __insert__ method of the itemcollection:
 
 ## Removing items
 
-Use the __remove__ or __removeAt__ method of the item collection to removeitems:
+Use the **remove** or **removeAt** method of the item collection to removeitems:
 
 ````JavaScript
 	function RemoveItem()
@@ -62,7 +62,7 @@ Use the __remove__ or __removeAt__ method of the item collection to removeitems:
 
 ## Enabling and Disabling items
 
-Use the __disable__ and __enable__ methods of the item collection to disable or enable items:
+Use the **disable** and **enable** methods of the item collection to disable or enable items:
 
 ````JavaScript
 	function DisableItem() {

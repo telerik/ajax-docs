@@ -1,6 +1,6 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Custom Attributes | RadMenu for ASP.NET AJAX Documentation
 description: Custom Attributes
 slug: menu/radmenu-items/custom-attributes
 tags: custom,attributes
@@ -12,11 +12,11 @@ position: 1
 
 
 
-__RadMenuItem__ objects provide a special collection called __Attributes__. You can use this collection to expand the information stored with the items. The __Attributes__ collection lets you store any number of attributes as name/value pairs.You can specify custom attributes declaratively in the __RadMenuItem__ tag or programmatically using the __Attributes__ collection of the RadMenuItem. You can also access custom attributes client-side, using the __get_attributes__ collection of the __RadMenuItem__ client-side object.
+**RadMenuItem** objects provide a special collection called **Attributes**. You can use this collection to expand the information stored with the items. The **Attributes** collection lets you store any number of attributes as name/value pairs.You can specify custom attributes declaratively in the **RadMenuItem** tag or programmatically using the **Attributes** collection of the RadMenuItem. You can also access custom attributes client-side, using the **get_attributes** collection of the **RadMenuItem** client-side object.
 
 ## Setting Attributes Declaratively
 
-In the ASP.NET declaration of your __RadMenu__ object, you can add custom attributes to menu items by simply adding Name="value" to the __RadMenuItem__ declaration. For example, the following RadMenu definition adds a "State" custom attribute to its non-root menu items:
+In the ASP.NET declaration of your **RadMenu** object, you can add custom attributes to menu items by simply adding Name="value" to the **RadMenuItem** declaration. For example, the following RadMenu definition adds a "State" custom attribute to its non-root menu items:
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Office2007" Width="54px" OnClientItemClicked="ToggleCheck"
@@ -40,7 +40,7 @@ In the ASP.NET declaration of your __RadMenu__ object, you can add custom attrib
 
 ## Data Binding with Custom Attributes
 
-When binding the __RadMenu__ to data, custom attributes can be set in the __ItemDataBound__ event. The following code binds the menu to a __DataTable__ when the page Loads. The __DataTable__ contains a "__Roles"__ column which is not mapped to a property of the menu items:
+When binding the **RadMenu** to data, custom attributes can be set in the **ItemDataBound** event. The following code binds the menu to a **DataTable** when the page Loads. The **DataTable** contains a "**Roles"** column which is not mapped to a property of the menu items:
 
 
 
@@ -117,7 +117,7 @@ When binding the __RadMenu__ to data, custom attributes can be set in the __Item
 ````
 
 
-The __"Roles"__ column is mapped to a custom attribute in the __[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})__. The event handler also sets the ToolTip property of the item to the value of its custom attribute to allow for testing of the custom attribute:
+The **"Roles"** column is mapped to a custom attribute in the **[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})**. The event handler also sets the ToolTip property of the item to the value of its custom attribute to allow for testing of the custom attribute:
 
 
 
@@ -142,7 +142,7 @@ The __"Roles"__ column is mapped to a custom attribute in the __[ItemDataBound e
 
 ## Using Attributes in Server-Side Code
 
-You can access custom attributes from code behind via the __Attributes__ collection exposed by the __RadMenuItem__ class.
+You can access custom attributes from code behind via the **Attributes** collection exposed by the **RadMenuItem** class.
 
 
 
@@ -162,7 +162,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 
 ## Using Attributes in Client-Side Code
 
-You can work with custom attributes from client-side code using the attributes collection returned by the __get_attributes__ method of the client-side __RadMenuItem__ object. The attributes collection has a __getAttribute__ method that lets you get attribute values, and a __setAttribute__ method that lets you set them:
+You can work with custom attributes from client-side code using the attributes collection returned by the **get_attributes** method of the client-side **RadMenuItem** object. The attributes collection has a **getAttribute** method that lets you get attribute values, and a **setAttribute** method that lets you set them:
 
 ````JavaScript
 	        function ToggleCheck(sender, args) {

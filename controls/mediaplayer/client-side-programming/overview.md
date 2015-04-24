@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadMediaPlayer for ASP.NET AJAX Documentation
 description: Overview
 slug: mediaplayer/client-side-programming/overview
 tags: overview
@@ -17,38 +17,38 @@ position: 0
 The functionality provided by RadMediaPlayer is strongly extablished on its client-side capabilities. Here is a list with the basic properties and methods exposed by its client-side object.
 
 
-|  __Methods/properties__  |  __Description__  |
+|  **Methods/properties**  |  **Description**  |
 | ------ | ------ |
-| __enterFullScreen__ |Enters Full Screen mode.|
-| __exitFullScreen__ |Exits Full Screen mode.|
-| __play__ |Plays the media.|
-| __seekTo__ |Proceeds to given time frame.|
-| __pause__ |Pauses playing the media.|
-| __mute__ |Mutes the media.|
-| __unmute__ |Unmutes the media.|
-| __toolbar__ |Provides a reference to the toolbar object.|
-| __titlebar__ |Provides a reference to the titlebar object.|
-| __stop__ |Stops playing the media.|
-| __isEnded__ |Determines whether the media has ended.|
-| __isPaused__ |Determines whether the media is paused.|
-| __isMuted__ |Determines whether the media is muted.|
-| __isPlaying__ |Determines whether the media is playing.|
-| __get_currentTime()__ |Gets the exact time which the player is currently on.|
-| __get_fsActive(), set_fsActive()__ |Controls the Full Screen mode of the media.|
-| __get_hdActive(), set_hdActive()__ |Controls the HD quality status of the media.|
-| __get_options(), set_options()__ |Controls a collection of the basic options for the player.|
-| __get_source()__ |Controls the source of the player.|
-| __get_toolbarDocked(), set_toolbarDocked()__ |Controls the toolbar's position.|
-| __get_volume(), set_volume()__ |Controls the volume of the media.|
+| **enterFullScreen** |Enters Full Screen mode.|
+| **exitFullScreen** |Exits Full Screen mode.|
+| **play** |Plays the media.|
+| **seekTo** |Proceeds to given time frame.|
+| **pause** |Pauses playing the media.|
+| **mute** |Mutes the media.|
+| **unmute** |Unmutes the media.|
+| **toolbar** |Provides a reference to the toolbar object.|
+| **titlebar** |Provides a reference to the titlebar object.|
+| **stop** |Stops playing the media.|
+| **isEnded** |Determines whether the media has ended.|
+| **isPaused** |Determines whether the media is paused.|
+| **isMuted** |Determines whether the media is muted.|
+| **isPlaying** |Determines whether the media is playing.|
+| **get_currentTime()** |Gets the exact time which the player is currently on.|
+| **get_fsActive(), set_fsActive()** |Controls the Full Screen mode of the media.|
+| **get_hdActive(), set_hdActive()** |Controls the HD quality status of the media.|
+| **get_options(), set_options()** |Controls a collection of the basic options for the player.|
+| **get_source()** |Controls the source of the player.|
+| **get_toolbarDocked(), set_toolbarDocked()** |Controls the toolbar's position.|
+| **get_volume(), set_volume()** |Controls the volume of the media.|
 
 ## Client-Side Events
 
 
-|  __Event name__  |  __Description__  |
+|  **Event name**  |  **Description**  |
 | ------ | ------ |
-| __OnClientEnded__ |This event is fired after the media finishes playing.|
-| __OnClientPaused__ |This event is fired after the media pauses.|
-| __OnClientPlay__ |This event is fired after the media begins playing.|
-| __OnClientReady__ |This event is fired when any loading is over and the player is ready to start playing the media.|
-| __OnClientSeekStart__ |This event is fired when the user selects a new play time.|
-| __OnClientVolumeChanged__ |This event is fired upon changing the volume level.|
+| **OnClientEnded** |This event is fired after the media finishes playing.|
+| **OnClientPaused** |This event is fired after the media pauses.|
+| **OnClientPlay** |This event is fired after the media begins playing.|
+| **OnClientReady** |This event is fired when any loading is over and the player is ready to start playing the media.|
+| **OnClientSeekStart** |This event is fired when the user selects a new play time.|
+| **OnClientVolumeChanged** |This event is fired upon changing the volume level.|

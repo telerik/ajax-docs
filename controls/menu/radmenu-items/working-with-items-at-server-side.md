@@ -1,6 +1,6 @@
 ---
 title: Working With Items at Server-side
-page_title: Working With Items at Server-side | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at Server-side | RadMenu for ASP.NET AJAX Documentation
 description: Working With Items at Server-side
 slug: menu/radmenu-items/working-with-items-at-server-side
 tags: working,with,items,at,server-side
@@ -66,7 +66,7 @@ After simply adding a RadMenu control to your Web page, use the following server
 
 ## Adding items dynamically
 
-You can dynamically update the __Items__ collection of __RadMenu__ and __RadMenuItem__ in response to a postback as well. Consider the following menu declaration:
+You can dynamically update the **Items** collection of **RadMenu** and **RadMenuItem** in response to a postback as well. Consider the following menu declaration:
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Gray" OnItemClick="RadMenu1_ItemClick">
@@ -83,7 +83,7 @@ You can dynamically update the __Items__ collection of __RadMenu__ and __RadMenu
 
 
 
-The __[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})__ adds items dynamically at runtime in the post-back:
+The **[ItemClick event handler]({%slug menu/server-side-programming/itemclick%})** adds items dynamically at runtime in the post-back:
 
 
 
@@ -137,7 +137,7 @@ Clicking on both menu items results in the following:
 
 ## Removing, disabling, and enabling items
 
-To remove a menu item in server-side code, use the __Remove__ method of the __RadMenuItemCollection__ object that contains it. To enable or disable a menu item, use the __Enabled__ property of the __RadMenuItem__ object itself. The following example demonstrates these techniques:
+To remove a menu item in server-side code, use the **Remove** method of the **RadMenuItemCollection** object that contains it. To enable or disable a menu item, use the **Enabled** property of the **RadMenuItem** object itself. The following example demonstrates these techniques:
 
 Consider the following menu:
 
@@ -168,7 +168,7 @@ Consider the following menu:
 
 
 
-The __ItemClick__ event handler deletes child items of the first root item dynamically at runtime in the post-back. It disables a clicked child item of the second root item, and enables all of its siblings:
+The **ItemClick** event handler deletes child items of the first root item dynamically at runtime in the post-back. It disables a clicked child item of the second root item, and enables all of its siblings:
 
 
 

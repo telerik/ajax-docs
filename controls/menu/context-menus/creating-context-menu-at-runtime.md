@@ -1,6 +1,6 @@
 ---
 title: Creating Context Menu at Runtime
-page_title: Creating Context Menu at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Creating Context Menu at Runtime | RadMenu for ASP.NET AJAX Documentation
 description: Creating Context Menu at Runtime
 slug: menu/context-menus/creating-context-menu-at-runtime
 tags: creating,context,menu,at,runtime

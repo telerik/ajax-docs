@@ -1,6 +1,6 @@
 ---
 title: Use RadMenu in a User Control with OutputCache Enabled
-page_title: Use RadMenu in a User Control with OutputCache Enabled | UI for ASP.NET AJAX Documentation
+page_title: Use RadMenu in a User Control with OutputCache Enabled | RadMenu for ASP.NET AJAX Documentation
 description: Use RadMenu in a User Control with OutputCache Enabled
 slug: menu/how-to/use-radmenu-in-a-user-control-with-outputcache-enabled
 tags: use,radmenu,in,a,user,control,with,outputcache,enabled
@@ -31,13 +31,13 @@ After a postback the menu will lose reference to its scripts and css styles. Her
 
 Also you might receive javascript error: "Telerik is undefined"
 
-The reason for this is that when the aspx page postbacks, it receives the cached output which doesn't contain registration for the css styles and script files of the control. __SOLUTION__ The solution is to manually register the skin and the java script files. __Part I - Registering the css styles__
+The reason for this is that when the aspx page postbacks, it receives the cached output which doesn't contain registration for the css styles and script files of the control. **SOLUTION** The solution is to manually register the skin and the java script files. **Part I - Registering the css styles**
 
-1. Find the __Skins__ folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Skins*
+1. Find the **Skins** folder in your local installation of Telerik.Web.UI. With default installation the path to the skins folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Skins*
 
 1. Copy the Skins folder (or just the skin which you need and the common css for the control you use) in the root of your application.
 
-1. Register the common css file for the control and the skin specific css file in the head of the __aspx__ page. For __RadMenu__ with __Default__ skin you need to register the following files:
+1. Register the common css file for the control and the skin specific css file in the head of the **aspx** page. For **RadMenu** with **Default** skin you need to register the following files:
 
 ````ASPNET
 	    <head runat="server">
@@ -48,15 +48,15 @@ The reason for this is that when the aspx page postbacks, it receives the cached
 
 
 
-4. Set the __EnableEmbeddedBaseStylesheet__ and __EnableEmbeddedSkins__ to False.
+4. Set the **EnableEmbeddedBaseStylesheet** and **EnableEmbeddedSkins** to False.
 
 
 
-__Part II - Registering the scripts__
+**Part II - Registering the scripts**
 
-1. Find the __Scripts__folder in your local installation of Telerik.Web.UI. With default installation the path to the scripts folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Sripts*The Scripts folder contains the __Common__ folder which is used by all controls and __javascript__ resources for __individual__ controls allocated in folders after the controls name.
+1. Find the **Scripts**folder in your local installation of Telerik.Web.UI. With default installation the path to the scripts folder would be: *Program Files\telerik\RadControls for ASPNET AJAX Q1 2008\Sripts*The Scripts folder contains the **Common** folder which is used by all controls and **javascript** resources for **individual** controls allocated in folders after the controls name.
 
-1. Copy the __Common__ folder and the __Menu__ in the root of your application:
+1. Copy the **Common** folder and the **Menu** in the root of your application:
 
 ![RadMenu Scripts Folder](images/menu_scriptsfolder.png)
 
@@ -76,8 +76,8 @@ __Part II - Registering the scripts__
 
 
 
-4. Set the __EnableEmbeddedScripts__ to False.
+4. Set the **EnableEmbeddedScripts** to False.
 
-5. Set the __RegisterWithScriptManager__ property of the control to False (ex: __<telerik:RadMenu ID="RadMenu1" runat="server" RegisterWithScriptManager="false">__) .
+5. Set the **RegisterWithScriptManager** property of the control to False (ex: **<telerik:RadMenu ID="RadMenu1" runat="server" RegisterWithScriptManager="false">**) .
 
 

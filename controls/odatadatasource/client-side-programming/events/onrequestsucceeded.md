@@ -1,6 +1,6 @@
 ---
 title: OnRequestSucceeded
-page_title: OnRequestSucceeded | UI for ASP.NET AJAX Documentation
+page_title: OnRequestSucceeded | RadODataDataSource for ASP.NET AJAX Documentation
 description: OnRequestSucceeded
 slug: odatadatasource/client-side-programming/events/onrequestsucceeded
 tags: onrequestsucceeded

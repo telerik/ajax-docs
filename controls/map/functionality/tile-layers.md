@@ -1,6 +1,6 @@
 ---
 title: Tile Layers
-page_title: Tile Layers | UI for ASP.NET AJAX Documentation
+page_title: Tile Layers | RadMap for ASP.NET AJAX Documentation
 description: Tile Layers
 slug: map/functionality/tile-layers
 tags: tile,layers
@@ -12,29 +12,29 @@ position: 1
 
 
 
-In this article you will find detailed information about the __Tile__ and __Bing__	layer types of the __RadMap__ control.
+In this article you will find detailed information about the **Tile** and **Bing**	layer types of the **RadMap** control.
 
-The images used to render the actual map are requested from third-party services that conform to the	[Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service).	The built-in configuration options of the __MapLayer__ allow you to set an URL template	via the __UrlTemplate__ property that will access the service and provide the needed images.
+The images used to render the actual map are requested from third-party services that conform to the	[Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service).	The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
 
->note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service.The __Telerik Map__ only provides an UI control that allows you to setup and place a map in aweb application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and,if needed, establish an account with the map owner to ensure unlimited/fast access.
+>note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service.The **Telerik Map** only provides an UI control that allows you to setup and place a map in aweb application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and,if needed, establish an account with the map owner to ensure unlimited/fast access.
 >
 
 
 ## Configuration of the MapLayer
 
-To generate a map, you must first configure the service it is going to use. The most important option is the__UrlTemplate__ that defines the provider you are going to use. It is built by combining the following parameters RadMap provides:
+To generate a map, you must first configure the service it is going to use. The most important option is the**UrlTemplate** that defines the provider you are going to use. It is built by combining the following parameters RadMap provides:
 
-* __SubDomain__ — the Subdomains property lets you configure an array of strings that are placed in the subdomain of the URL that is generated. By having more than one, you can let the browser have more active requests for map pieces at any given time, because usually browsers limit the maximum number of active requests per domain. This setting is optional.
+* **SubDomain** — the Subdomains property lets you configure an array of strings that are placed in the subdomain of the URL that is generated. By having more than one, you can let the browser have more active requests for map pieces at any given time, because usually browsers limit the maximum number of active requests per domain. This setting is optional.
 
-* __URL to the service__ — this is the actual site that provides maps. You can examine some URL examples listed below.
+* **URL to the service** — this is the actual site that provides maps. You can examine some URL examples listed below.
 
-* __Zoom level__ — controls the scale of the map. The larger the value, the larger the scale.
+* **Zoom level** — controls the scale of the map. The larger the value, the larger the scale.
 
-* __X coordinate__ — the X coordinate (longitude) for the map piece. It is provided by RadMap.
+* **X coordinate** — the X coordinate (longitude) for the map piece. It is provided by RadMap.
 
-* __Y coordinate__ — the Y coordinate (latitude) of the map piece. It is provided by RadMap.
+* **Y coordinate** — the Y coordinate (latitude) of the map piece. It is provided by RadMap.
 
-__Example 1__ shows how the __MapLayer__ configuration is achieved with markup and __Example 2__ - via code-behind.
+**Example 1** shows how the **MapLayer** configuration is achieved with markup and **Example 2** - via code-behind.
 
 Here is an example that combines these parameters to request maps from opencyclemap.org:
 
@@ -52,7 +52,7 @@ You can find more details about Web Map Services the following public pages:
 
 * [Open Source Geospatial Foundation](https://en.wikipedia.org/wiki/Open_Source_Geospatial_Foundation)
 
-__Example 1__: Configuring __MapLayer__ with ASP.NET markup
+**Example 1**: Configuring **MapLayer** with ASP.NET markup
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">
@@ -67,7 +67,7 @@ __Example 1__: Configuring __MapLayer__ with ASP.NET markup
 
 
 
-__Example 2__: Programmatic configuration of the __MapLayer__
+**Example 2**: Programmatic configuration of the **MapLayer**
 
 
 
@@ -95,11 +95,11 @@ __Example 2__: Programmatic configuration of the __MapLayer__
 
 ## Controlling the Visual Appearance of the MapLayer
 
-The __MapLayer__ appearance consists of two types of UI elements – __Attribution__ and __Tiles__.The attribution element is afooter-like box with predefined HTML content which is shown when a value is set to the __legacyBold__ attribute. You canchange the transparency of the tiles by using the __Opacity__ attribute.
+The **MapLayer** appearance consists of two types of UI elements – **Attribution** and **Tiles**.The attribution element is afooter-like box with predefined HTML content which is shown when a value is set to the **legacyBold** attribute. You canchange the transparency of the tiles by using the **Opacity** attribute.
 
-In __Example 3__ you can see how these attributes can be used in the Map control.
+In **Example 3** you can see how these attributes can be used in the Map control.
 
-__Example 3__: Setting attribution to the map and changing the opacity
+**Example 3**: Setting attribution to the map and changing the opacity
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">
@@ -118,11 +118,11 @@ __Example 3__: Setting attribution to the map and changing the opacity
 
 ## Using Bing Service with RadMap
 
-The Telerik Map provides a simplified setup for	[Bing Map Tile](http://msdn.microsoft.com/en-us/library/ff428643.aspx) service.	This option will let you render a Bing-like map only by adding a __MapLayer__ with	__Type Bing__ and the __Key__ attribute set with the provided	[key in your Microsoft account](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
+The Telerik Map provides a simplified setup for	[Bing Map Tile](http://msdn.microsoft.com/en-us/library/ff428643.aspx) service.	This option will let you render a Bing-like map only by adding a **MapLayer** with	**Type Bing** and the **Key** attribute set with the provided	[key in your Microsoft account](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
 
-In __Example 4__ you can examine a sample setup of a __RadMap__ with a Bing layer configured.
+In **Example 4** you can examine a sample setup of a **RadMap** with a Bing layer configured.
 
-__Example 4__: Using Bing service for map layer
+**Example 4**: Using Bing service for map layer
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1">

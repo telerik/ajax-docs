@@ -1,6 +1,6 @@
 ---
 title: Server-side
-page_title: Server-side | UI for ASP.NET AJAX Documentation
+page_title: Server-side | RadMap for ASP.NET AJAX Documentation
 description: Server-side
 slug: map/data-binding/server-side
 tags: server-side
@@ -12,40 +12,40 @@ position: 1
 
 
 
-The markers and layers of the __ASP.NET AJAX Map__ control can be bound both	[client-side]({%slug map/data-binding/client-side%}) client-side and server-side, as the way to achieve the later is described in this article.	In __Example 1__ you will see how to bind RadMap with a server-side collection, as the result from this sample is shown in __Figure 1__.	You can also use the RadMap's __OnItemCreared__ and __OnItemDataBound__server-side events to additinality manipulaet the data.
+The markers and layers of the **ASP.NET AJAX Map** control can be bound both	[client-side]({%slug map/data-binding/client-side%}) client-side and server-side, as the way to achieve the later is described in this article.	In **Example 1** you will see how to bind RadMap with a server-side collection, as the result from this sample is shown in **Figure 1**.	You can also use the RadMap's **OnItemCreared** and **OnItemDataBound**server-side events to additinality manipulaet the data.
 
 ## 
 
-__RadMap__ can use the standard data sources for binding an ASP.NET control:
+**RadMap** can use the standard data sources for binding an ASP.NET control:
 
 * Declarative ASP.NET data sources (SqlDatasource, ObjectDataSource, LinqDataSource, etc.)
 
-* Server-side collections that implement the __IEnumerable__ interface.
+* Server-side collections that implement the **IEnumerable** interface.
 >caption Figure 1: Binding layers and markers in RadMap to a collection of custom objects.
 
 ![map-server-side-binding](images/map-server-side-binding.png)
 
 ## Binding Markers
 
-Similar to setting a data source for an ASP.NET control, you should either use the __DataSourceID__ property when data binding markers declaratively or__DataSource__ when the data source of the control is set on the server (such is the case in__Example 1__).
+Similar to setting a data source for an ASP.NET control, you should either use the **DataSourceID** property when data binding markers declaratively or**DataSource** when the data source of the control is set on the server (such is the case in**Example 1**).
 
 The data source should have columns for each of the map fields that you want to specify. For example, if you want to pull the title of the markers from the data source, this will require a separatecolumn that contains the titles of each marker.
 
-The columns of the data source are attached to their corresponding data fields in the markers via the properties with the structure __Data[__in __RadMap > DataBindings > MarkerBinding__. For example: __DataShapeField__, __DataTitleField__, etc.You can find the full set of the MapMarker object's properties in the [Server-Side API of RadMap](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
+The columns of the data source are attached to their corresponding data fields in the markers via the properties with the structure **Data[**in **RadMap > DataBindings > MarkerBinding**. For example: **DataShapeField**, **DataTitleField**, etc.You can find the full set of the MapMarker object's properties in the [Server-Side API of RadMap](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
 
-Binding the __Marker__'s __Shape__ value can enable you to create an optional, custom look of the bound markers. You can examine the [Customizing Markers in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%}) article.
+Binding the **Marker**'s **Shape** value can enable you to create an optional, custom look of the bound markers. You can examine the [Customizing Markers in RadMap]({%slug map/appearance-and-styling/customizing-markers-in-radmap%}) article.
 
 ## Binding Layers
 
-Following the same logic, when binding layers you should use either the __LayersDataSourceID__ property when data binding layers declaratively or__LayersDataSource__ when the data source of the control is set on the server (you can refer __Example 1__ for a sample configuration).
+Following the same logic, when binding layers you should use either the **LayersDataSourceID** property when data binding layers declaratively or**LayersDataSource** when the data source of the control is set on the server (you can refer **Example 1** for a sample configuration).
 
-The columns of the data source here are also attached to their corresponding data fields in the layers via the properties with the structure __Data[__in __RadMap > DataBindings > LayerBinding__. For example: __DataTypeField__, __DataUrlTemplateField__, etc.You can find the full set of the MapLayer object's properties in the [Server-Side API of RadMap](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
+The columns of the data source here are also attached to their corresponding data fields in the layers via the properties with the structure **Data[**in **RadMap > DataBindings > LayerBinding**. For example: **DataTypeField**, **DataUrlTemplateField**, etc.You can find the full set of the MapLayer object's properties in the [Server-Side API of RadMap](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radmap.html).
 
 ## Examples
 
-In the example below you will see a way to databind the layers and the markers of a RadMap control to a server-side object. The result of this code is shown in__Figure 1__.
+In the example below you will see a way to databind the layers and the markers of a RadMap control to a server-side object. The result of this code is shown in**Figure 1**.
 
-__Example 1__: Data binding layers and markers in a map to a collection of custom objects.
+**Example 1**: Data binding layers and markers in a map to a collection of custom objects.
 
 ````ASPNET
 			<telerik:RadMap runat="server" ID="RadMap1" Zoom="3" Width="800" Height="400">

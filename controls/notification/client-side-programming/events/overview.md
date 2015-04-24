@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadNotification for ASP.NET AJAX Documentation
 description: Overview
 slug: notification/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadNotification__provides the following client-side events:
+**RadNotification**provides the following client-side events:
 
 * [OnClientShowing]({%slug notification/client-side-programming/events/onclientshowing%}) - fires just before RadNotification is shown. It can be canceled.
 
@@ -30,7 +30,7 @@ __RadNotification__provides the following client-side events:
 
 * [OnClientHidden]({%slug notification/client-side-programming/events/onclienthidden%}) - fires after RadNotification hides.
 
-If a __Notification Menu__ is configured, it has its own client events as specified in the [Client-Side Events article of RadContextMenu](21D51CC0-CAA4-4E0C-94C9-0394AB29E9ED).
+If a **Notification Menu** is configured, it has its own client events as specified in the [Client-Side Events article of RadContextMenu](21D51CC0-CAA4-4E0C-94C9-0394AB29E9ED).
 
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
 

@@ -1,6 +1,6 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Web Service Binding | RadOrgChart for ASP.NET AJAX Documentation
 description: Web Service Binding
 slug: orgchart/data-binding/web-service-binding
 tags: web,service,binding
@@ -14,7 +14,7 @@ position: 3
 
 ## WebService Binding
 
-__Web Service__ binding will give us the ability to load Nodes/GroupItems dynamically with __Web Services__. On initial page load children of collapsed Nodes/Groups will not be rendered (they will be empty). When a user expands a Node/Group its child elements will be loaded with Web Services (the services should return Node/GroupItem data).
+**Web Service** binding will give us the ability to load Nodes/GroupItems dynamically with **Web Services**. On initial page load children of collapsed Nodes/Groups will not be rendered (they will be empty). When a user expands a Node/Group its child elements will be loaded with Web Services (the services should return Node/GroupItem data).
 
 Here is how the web service bindings should look like in the mark up and code behind
 
@@ -278,7 +278,7 @@ OrgChartGroupItemDataService:
 
 ## Group-Enabled Binding
 
-The Node web service should return items from __OrgChartNodeData__ type. In case that __NodeServiceSettings__ section is not set the collapsed nodes will be rendered. The __GroupItem__ web service should return items from __OrgChartGroupItemData__ type.
+The Node web service should return items from **OrgChartNodeData** type. In case that **NodeServiceSettings** section is not set the collapsed nodes will be rendered. The **GroupItem** web service should return items from **OrgChartGroupItemData** type.
 
 Here is an example of RadOrgChart that is bound to Web Service in Group-Enabled binding:
 

@@ -1,6 +1,6 @@
 ---
 title: XML Export & Import
-page_title: XML Export & Import | UI for ASP.NET AJAX Documentation
+page_title: XML Export & Import | RadOrgChart for ASP.NET AJAX Documentation
 description: XML Export & Import
 slug: orgchart/functionality/xml-export-&-import
 tags: xml,export,&,import

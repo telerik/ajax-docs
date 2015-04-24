@@ -1,6 +1,6 @@
 ---
 title: Customizing Markers in RadMap
-page_title: Customizing Markers in RadMap | UI for ASP.NET AJAX Documentation
+page_title: Customizing Markers in RadMap | RadMap for ASP.NET AJAX Documentation
 description: Customizing Markers in RadMap
 slug: map/appearance-and-styling/customizing-markers-in-radmap
 tags: customizing,markers,in,radmap
@@ -12,7 +12,7 @@ position: 1
 
 
 
-This article explains how to customize the appearance of the [Markers]({%slug map/functionality/markers%}) on __RadMap__.
+This article explains how to customize the appearance of the [Markers]({%slug map/functionality/markers%}) on **RadMap**.
 
 You can quickly navigate through the sections in this list:
 
@@ -30,13 +30,13 @@ You can quickly navigate through the sections in this list:
 
 ## Marker as a DOM Element
 
-__RadMap__’s __Marker__, as part of the HTML page, is rendered as a plain `	<span>`tag. By design, the __Shape__ property defines the look of the __Marker__.Behind the scenes, this is achieved just by modifying the default class name of the `	<span>` tag.
+**RadMap**’s **Marker**, as part of the HTML page, is rendered as a plain `	<span>`tag. By design, the **Shape** property defines the look of the **Marker**.Behind the scenes, this is achieved just by modifying the default class name of the `	<span>` tag.
 
-For example, a __Shape__ property with value __myCustomShape__ or __my-custom-shape__will render this __Marker__ element - `	<span class="k-marker k-marker-my-custom-shape"></span>`. As you can see, values with camelCase style are converted to words separated with dashes.
+For example, a **Shape** property with value **myCustomShape** or **my-custom-shape**will render this **Marker** element - `	<span class="k-marker k-marker-my-custom-shape"></span>`. As you can see, values with camelCase style are converted to words separated with dashes.
 
-Later, this class can be used to specify the look of the __Marker__ using a CSS rule.
+Later, this class can be used to specify the look of the **Marker** using a CSS rule.
 
-__Example 1__: Setting the Shape property to a custom value
+**Example 1**: Setting the Shape property to a custom value
 
 ````ASPNET
 		<telerik:RadMap runat="server" ID="RadMap1">
@@ -51,16 +51,16 @@ __Example 1__: Setting the Shape property to a custom value
 
 ## Change Marker’s Color and Size
 
-This is the most basic scenario and it is the easiest one to implement. With the informationfrom the [Marker as a DOM Element](#marker-as-a-dom-element) section, you can see how a __Marker__can be identified in the DOM,in order to be targeted by a CSS selector.
+This is the most basic scenario and it is the easiest one to implement. With the informationfrom the [Marker as a DOM Element](#marker-as-a-dom-element) section, you can see how a **Marker**can be identified in the DOM,in order to be targeted by a CSS selector.
 
-It is important to note that, by default, __Marker__ icons are rendered via __glyph icons__ under modern browsers,and fall back to plain images when glyph icons are not supported by the browser. The solution here worksonly for modern browsers where __glyph icons__ are supported. If you need a solution for IE versions prior toIE9, see the [Change Marker’s Image](#change-marker’s-image) section.
+It is important to note that, by default, **Marker** icons are rendered via **glyph icons** under modern browsers,and fall back to plain images when glyph icons are not supported by the browser. The solution here worksonly for modern browsers where **glyph icons** are supported. If you need a solution for IE versions prior toIE9, see the [Change Marker’s Image](#change-marker’s-image) section.
 
-In order to change the marker color, you will need to decorate the __:before__ pseudo element of the __Marker__’s span tag.
+In order to change the marker color, you will need to decorate the **:before** pseudo element of the **Marker**’s span tag.
 >caption Figure 1: The result from the code in Example 2.
 
 ![custom-marker-colors-and-labels](images/custom-markers/custom-marker-colors-and-labels.png)
 
-__Example 2__: Setting a custom color to a marker.
+**Example 2**: Setting a custom color to a marker.
 
 ````ASPNET
 			<style type="text/css">
@@ -84,7 +84,7 @@ __Example 2__: Setting a custom color to a marker.
 
 
 
-Optionally, you can also change the marker size (__Figure 2__) by changing the font-sizevalue of the __:before__ pseudo element (__Example 3__).
+Optionally, you can also change the marker size (**Figure 2**) by changing the font-sizevalue of the **:before** pseudo element (**Example 3**).
 
 >note Changing the marker’s size will always cause the marker to be	rendered at an incorrect position according the longitude and latitude	values. The[Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltip’s-and-marker’s-positions)section explains	how to handle this situation.
 >
@@ -93,7 +93,7 @@ Optionally, you can also change the marker size (__Figure 2__) by changing the f
 
 ![marker-size](images/custom-markers/marker-size.png)
 
-__Example 3__: Using the font-size CSS property to change the size of the Marker’s pseudo element.
+**Example 3**: Using the font-size CSS property to change the size of the Marker’s pseudo element.
 
 ````VB
 				.RadMap .k-marker.k-marker-my-custom-shape:before {
@@ -106,13 +106,13 @@ __Example 3__: Using the font-size CSS property to change the size of the Marker
 
 ## Change Marker’s Image
 
-In order to replace the __Marker__’s glyph icon with an actual image, you should first reset the__:before__ pseudo element’s decoration, and use the CSS selector to apply the styles needed to show the image.
+In order to replace the **Marker**’s glyph icon with an actual image, you should first reset the**:before** pseudo element’s decoration, and use the CSS selector to apply the styles needed to show the image.
 
->note In order to apply the image, the __Marker__ ’s span element should be resized.	This will break the position of the marker. To fix that, see the[Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltip’s-and-marker’s-positions)section.
+>note In order to apply the image, the **Marker** ’s span element should be resized.	This will break the position of the marker. To fix that, see the[Fine-tune Marker’s and Tooltip’s Position](#fine-tune-tooltip’s-and-marker’s-positions)section.
 >
 
 
-__Example 4__: Replacing the glyph icon with an image.
+**Example 4**: Replacing the glyph icon with an image.
 
 ````ASPNET
 			<style type="text/css">
@@ -150,14 +150,14 @@ __Example 4__: Replacing the glyph icon with an image.
 
 ## Fine-tune Tooltip’s and Marker’s Positions
 
-Changing the size of the __Marker__element will always lead to incorrect position of the markeritself and its tooltip. You can see __Figure 3__ and __Figure 4__.
+Changing the size of the **Marker**element will always lead to incorrect position of the markeritself and its tooltip. You can see **Figure 3** and **Figure 4**.
 
-__Figure 3__ showcases the wrong tooltip appearance after changing the marker size(__Example 3__) in [Change Marker’s Color and Size](#change-marker’s-color-and-size).You can fix that by following the instructions in [Fine-tune the Tooltip Appearance](#fine-tune-tooltip’s-and-marker’s-positions) section.
+**Figure 3** showcases the wrong tooltip appearance after changing the marker size(**Example 3**) in [Change Marker’s Color and Size](#change-marker’s-color-and-size).You can fix that by following the instructions in [Fine-tune the Tooltip Appearance](#fine-tune-tooltip’s-and-marker’s-positions) section.
 >caption Figure 3: Incorrect tooltip appearance for a resized marker—callout is not aligned to the marker.
 
 ![wrong-tooltip-zoomed-final](images/custom-markers/wrong-tooltip-zoomed-final.png)
 
-In __Figure 4__, you can see the wrong __Marker__’s position,showcased by using two markers—a custom one and a default one.They are placed at the same geographic location, but the custom __Marker__’s position is incorrect.You can fix that by following the instructions in [Fine-tune the Marker’s Position](#2.-fine-tune-the-marker’s-position) section
+In **Figure 4**, you can see the wrong **Marker**’s position,showcased by using two markers—a custom one and a default one.They are placed at the same geographic location, but the custom **Marker**’s position is incorrect.You can fix that by following the instructions in [Fine-tune the Marker’s Position](#2.-fine-tune-the-marker’s-position) section
 >caption Figure 4: Incorrect Marker’s position for a resized marker
 
 ![wrong-position-zoom-final](images/custom-markers/wrong-position-zoom-final.png)
@@ -181,7 +181,7 @@ To make sure the tooltip looks as expected when its marker size is changed,you s
 
 ![fixed-tooltip](images/custom-markers/fixed-tooltip.png)
 
-__Example 5__: Fine-tuning the tooltip’s appearance.
+**Example 5**: Fine-tuning the tooltip’s appearance.
 
 ````ASPNET
 			<style type="text/css">
@@ -211,7 +211,7 @@ __Example 5__: Fine-tuning the tooltip’s appearance.
 
 ### 2. Fine-tune the Marker’s Position
 
-After changing the height of the span element rendered by the __Marker__,in order to fine-tune the marker’s position, you should fine-tune the markerelement’s top and left margins. The values that lead to the proper layout depend	on the differences between the original and the custom size used.
+After changing the height of the span element rendered by the **Marker**,in order to fine-tune the marker’s position, you should fine-tune the markerelement’s top and left margins. The values that lead to the proper layout depend	on the differences between the original and the custom size used.
 
 >tip : Use two Marker items—a default one and a custom one, set to the same coordinate position. This will help you to properly fine-tune the Marker’s position.
 >
@@ -224,7 +224,7 @@ After changing the height of the span element rendered by the __Marker__,in orde
 
 ![fixed-marker-position](images/custom-markers/fixed-marker-position.png)
 
-__Example 6__: Fine-tune the Marker’s position.
+**Example 6**: Fine-tune the Marker’s position.
 
 ````ASPNET
 			<style type="text/css">

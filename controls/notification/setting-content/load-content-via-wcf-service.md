@@ -1,6 +1,6 @@
 ---
 title: Load Content Via WCF Service
-page_title: Load Content Via WCF Service | UI for ASP.NET AJAX Documentation
+page_title: Load Content Via WCF Service | RadNotification for ASP.NET AJAX Documentation
 description: Load Content Via WCF Service
 slug: notification/setting-content/load-content-via-wcf-service
 tags: load,content,via,wcf,service
@@ -20,11 +20,11 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 
 1. In the properties pane for the RadXmlHttpPanelcomponent, set the WcfRequestMethod, WcfMethodPath and the WcfMethodName properties to identify the Web service:
 
-* __WcfRequestMethod__ - Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE.
+* **WcfRequestMethod** - Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE.
 
-* __WcfServicePath__ - Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
+* **WcfServicePath** - Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
 
-* __WcfServiceMethod__ - Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
+* **WcfServiceMethod** - Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
 
 1. Setting the Value property of RadNotification depends on the WcfRequestMethod property value. In both cases CustomerID is the name of the parameter in the Wcf Service method.In both cases country is the name of the parameter in the WcfRequestMethod method :
 

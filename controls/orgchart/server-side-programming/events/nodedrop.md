@@ -1,6 +1,6 @@
 ---
 title: NodeDrop
-page_title: NodeDrop | UI for ASP.NET AJAX Documentation
+page_title: NodeDrop | RadOrgChart for ASP.NET AJAX Documentation
 description: NodeDrop
 slug: orgchart/server-side-programming/events/nodedrop
 tags: nodedrop
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __NodeDrop__ is raised when a Node is dragged and dropped on non-child Node.
+The **NodeDrop** is raised when a Node is dragged and dropped on non-child Node.
 
 The event handler receives two parameters:
 
@@ -22,6 +22,6 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following properties:
 
-* __DestinationNode__ - the Node on which the dragged Node is dropped.
+* **DestinationNode** - the Node on which the dragged Node is dropped.
 
-* __SourceNode__ - the dropped Node.
+* **SourceNode** - the dropped Node.

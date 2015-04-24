@@ -1,6 +1,6 @@
 ---
 title: Animations
-page_title: Animations | UI for ASP.NET AJAX Documentation
+page_title: Animations | RadMenu for ASP.NET AJAX Documentation
 description: Animations
 slug: menu/functionality/animations
 tags: animations
@@ -16,11 +16,11 @@ position: 5
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ properties let you apply animated effects when child menu items appear and disappear. Each property is of type __Telerik.Web.UI.AnimationSettings__, which has two fields:
+The **ExpandAnimation** and **CollapseAnimation** properties let you apply animated effects when child menu items appear and disappear. Each property is of type **Telerik.Web.UI.AnimationSettings**, which has two fields:
 
-* __Duration__: the duration of the effect in milliseconds
+* **Duration**: the duration of the effect in milliseconds
 
-* __Type__: the animated effect. It is one of the following pre-defined animation types:
+* **Type**: the animated effect. It is one of the following pre-defined animation types:
 
 * Linear
 
@@ -80,7 +80,7 @@ The __ExpandAnimation__ and __CollapseAnimation__ properties let you apply anima
 
 * None
 
-By default, the children of a menu item are displayed when the user hovers the mouse over the parent item.When the mouse moves over a new parent item, the original submenu collapses and the children of the new parent menu item are displayed. The __ExpandDelay__ and __CollapseDelay__ properties specify the time, in milliseconds, after the mouse enters or exits a parent item until the list of child items begins to expand or collapse.
+By default, the children of a menu item are displayed when the user hovers the mouse over the parent item.When the mouse moves over a new parent item, the original submenu collapses and the children of the new parent menu item are displayed. The **ExpandDelay** and **CollapseDelay** properties specify the time, in milliseconds, after the mouse enters or exits a parent item until the list of child items begins to expand or collapse.
 
 
 

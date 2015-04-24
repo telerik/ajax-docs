@@ -1,6 +1,6 @@
 ---
 title: RadMenu Goes Behind Flash Object
-page_title: RadMenu Goes Behind Flash Object | UI for ASP.NET AJAX Documentation
+page_title: RadMenu Goes Behind Flash Object | RadMenu for ASP.NET AJAX Documentation
 description: RadMenu Goes Behind Flash Object
 slug: menu/troubleshooting/radmenu-goes-behind-flash-object
 tags: radmenu,goes,behind,flash,object
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__Q:__ Why does my RadMenu goes behind flash objects in Firefox browser?
+**Q:** Why does my RadMenu goes behind flash objects in Firefox browser?
 
-__A:__ Set the __W-MODE__ attribute of the Flash to __opaque__ (preferably) or __transparent__.
+**A:** Set the **W-MODE** attribute of the Flash to **opaque** (preferably) or **transparent**.
 
 To the Embed tag, add the following attribute:
 

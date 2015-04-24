@@ -1,6 +1,6 @@
 ---
 title: Gestures Support
-page_title: Gestures Support | UI for ASP.NET AJAX Documentation
+page_title: Gestures Support | RadMap for ASP.NET AJAX Documentation
 description: Gestures Support
 slug: map/mobile-support/gestures-support
 tags: gestures,support
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-__RadMap__ for ASP.NET AJAX handles gestures from touch enabled screens. You can use thetap, drag, spread and pinch gestures to perform the following actions:
+**RadMap** for ASP.NET AJAX handles gestures from touch enabled screens. You can use thetap, drag, spread and pinch gestures to perform the following actions:
 
-* __Pan__ — In order to pan through the map you can either __tap on the navigator buttons__ or __drag the layer__.
+* **Pan** — In order to pan through the map you can either **tap on the navigator buttons** or **drag the layer**.
 
-* __Zoom__ — In order to zoom-in and zoom-out the map you can either __tap on the zoom buttons__ or __spread/pinch the layer__.
+* **Zoom** — In order to zoom-in and zoom-out the map you can either **tap on the zoom buttons** or **spread/pinch the layer**.
 
-* __Display marker tooltip__ — In order to display a marker tooltip you can __tap on a marker__.
+* **Display marker tooltip** — In order to display a marker tooltip you can **tap on a marker**.
 
-* __Attribution navigation__ — In order to navigate to the attribution URL you can __tap on the attribution element__.
+* **Attribution navigation** — In order to navigate to the attribution URL you can **tap on the attribution element**.
 
-__Figure 1__ illustrates how to use touch device gestures on __RadMap__.
+**Figure 1** illustrates how to use touch device gestures on **RadMap**.
 >caption Figure 1: RadMap handles tap, drag, spread and pinch gestures on touch devices.
 
 ![Map Touch Gestures](images/Map_TouchGestures.png)

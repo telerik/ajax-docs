@@ -1,6 +1,6 @@
 ---
 title: OnClientHiding
-page_title: OnClientHiding | UI for ASP.NET AJAX Documentation
+page_title: OnClientHiding | RadMenu for ASP.NET AJAX Documentation
 description: OnClientHiding
 slug: menu/client-side-programming/events/onclienthiding
 tags: onclienthiding
@@ -16,7 +16,7 @@ position: 18
 
 ## 
 
-(__RadContextMenu__ only) The __OnClientHiding__ client-side event occurs when the context menu is about to disappear.
+(**RadContextMenu** only) The **OnClientHiding** client-side event occurs when the context menu is about to disappear.
 
 The event handler receives two parameters:
 
@@ -24,11 +24,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_targetElement__ returns a reference to the DOM element that was right-clicked to show the context menu. If the menu appeared in response to a call to the __show__ method rather than a right-click on one of its targets, __get_targetElement__ returns null.
+* **get_targetElement** returns a reference to the DOM element that was right-clicked to show the context menu. If the menu appeared in response to a call to the **show** method rather than a right-click on one of its targets, **get_targetElement** returns null.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the context menu to disappear. __set_cancel__ lets you prevent the menu from disappearing.
+* **get_domEvent** returns a reference to the DOM event that caused the context menu to disappear. **set_cancel** lets you prevent the menu from disappearing.
 
-* __get_cancel__ returns a boolean value indicating whether the context menu will disappear after the event handler exits.
+* **get_cancel** returns a boolean value indicating whether the context menu will disappear after the event handler exits.
 
 You can use this event to control when context menu can disappear:
 

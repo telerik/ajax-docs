@@ -1,6 +1,6 @@
 ---
 title: DataBinding expressions
-page_title: DataBinding expressions | UI for ASP.NET AJAX Documentation
+page_title: DataBinding expressions | RadMenu for ASP.NET AJAX Documentation
 description: DataBinding expressions
 slug: menu/templates/databinding-expressions
 tags: databinding,expressions
@@ -52,7 +52,7 @@ Often, when you use item templates, you want the controls in the template to dis
 
 When you run the application, the RadMenu items all show check boxes with no labels:![RadMenu Unbound Template](images/menu_unboundtemplate.png)
 
-This is hardly useful! To override the __Text__ property of the check box in the template, use a __DataBinder.Eval__ statement:
+This is hardly useful! To override the **Text** property of the check box in the template, use a **DataBinder.Eval** statement:
 
 ````ASPNET
 	    <itemtemplate>    
@@ -62,13 +62,13 @@ This is hardly useful! To override the __Text__ property of the check box in the
 
 
 
-In the DataBinder.Eval statement, __Container__ is the RadMenuItem and __"Text"__ identifies the __Text__ property of that item. (If you wanted to bind to the __Value__ property, for example, you could use the string "Value" instead.)
+In the DataBinder.Eval statement, **Container** is the RadMenuItem and **"Text"** identifies the **Text** property of that item. (If you wanted to bind to the **Value** property, for example, you could use the string "Value" instead.)
 
->note In this example, the first parameter to the DataBinder.Eval statement is __Container__ , because the items are statically bound. If the menu was bound to a data source, then you must use __Container.DataItem__ instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the menu was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 
-In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the __Text__ property:
+In addition to adding a DataBinder.Eval statement, you must also explicitly call the DataBind method for the items so that the template has access to the **Text** property:
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Events Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/client-side-programming/events/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-__RadMenu__ and __RadContextMenu__ support a number of client-side events that let you customize the behavior of the menu:
+**RadMenu** and **RadContextMenu** support a number of client-side events that let you customize the behavior of the menu:
 
 * [OnClientLoad]({%slug menu/client-side-programming/events/onclientload%}) occurs when the menu is first loaded.
 
@@ -36,21 +36,21 @@ __RadMenu__ and __RadContextMenu__ support a number of client-side events that l
 
 * [OnClientItemBlur]({%slug menu/client-side-programming/events/onclientitemblur%}) occurs when focus leaves an item.
 
-* [OnClientItemPopulating]({%slug menu/client-side-programming/events/onclientitempopulating%}) occurs when an item with __ExpandMode__ set to "WebService" is opened, immediately before the menu calls the Web service to populate the list of child items.
+* [OnClientItemPopulating]({%slug menu/client-side-programming/events/onclientitempopulating%}) occurs when an item with **ExpandMode** set to "WebService" is opened, immediately before the menu calls the Web service to populate the list of child items.
 
-* [OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%}) occurs immediately after the list of child items for an item with __ExpandMode__ set to "WebService" has been populated by a Web service.
+* [OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%}) occurs immediately after the list of child items for an item with **ExpandMode** set to "WebService" has been populated by a Web service.
 
 * [OnClientItemPopulationFailed]({%slug menu/client-side-programming/events/onclientitempopulationfailed%}) occurs when an attempt to populate a list of child items using a Web service fails.
 
-* [OnClientShowing]({%slug menu/client-side-programming/events/onclientshowing%}) (__RadContextMenu__ only) occurs immediately before the context menu appears.
+* [OnClientShowing]({%slug menu/client-side-programming/events/onclientshowing%}) (**RadContextMenu** only) occurs immediately before the context menu appears.
 
-* [OnClientShown]({%slug menu/client-side-programming/events/onclientshown%}) (__RadContextMenu__ only) occurs immediately after the context menu appears.
+* [OnClientShown]({%slug menu/client-side-programming/events/onclientshown%}) (**RadContextMenu** only) occurs immediately after the context menu appears.
 
-* [OnClientHidden]({%slug menu/client-side-programming/events/onclienthidden%}) (__RadContextMenu__ only) occurs when the context menu disappears.
+* [OnClientHidden]({%slug menu/client-side-programming/events/onclienthidden%}) (**RadContextMenu** only) occurs when the context menu disappears.
 
-* [OnClientHiding]({%slug menu/client-side-programming/events/onclienthiding%}) (__RadContextMenu__ only) occurs immediately before the context menu disappears.
+* [OnClientHiding]({%slug menu/client-side-programming/events/onclienthiding%}) (**RadContextMenu** only) occurs immediately before the context menu disappears.
 
-To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding __RadMenu__ or __RadContextMenu__ property.
+To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding **RadMenu** or **RadContextMenu** property.
 
 ````ASPNET
 	    <script type="text/javascript">
@@ -131,7 +131,7 @@ Note that on the client-side, the names of events are slightly different than on
 
 ## Enabling and disabling events
 
-If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the __disableEvents()__ and __enableEvents()__ methods. Unlike adding and removing individual event handlers, __enableEvents()__ and __disableEvents()__ affect all events at once.
+If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the **disableEvents()** and **enableEvents()** methods. Unlike adding and removing individual event handlers, **enableEvents()** and **disableEvents()** affect all events at once.
 
 
 

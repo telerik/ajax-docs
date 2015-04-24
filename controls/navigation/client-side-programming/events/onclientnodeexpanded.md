@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeExpanded
-page_title: OnClientNodeExpanded | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeExpanded | RadNavigation for ASP.NET AJAX Documentation
 description: OnClientNodeExpanded
 slug: navigation/client-side-programming/events/onclientnodeexpanded
 tags: onclientnodeexpanded

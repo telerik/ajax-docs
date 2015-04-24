@@ -1,6 +1,6 @@
 ---
 title: OnClientItemPopulated
-page_title: OnClientItemPopulated | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemPopulated | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemPopulated
 slug: menu/client-side-programming/events/onclientitempopulated
 tags: onclientitempopulated
@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-The __OnClientItemPopulated__ client-side event occurs when an item in the menu has just had its child items populated from a Web service.
+The **OnClientItemPopulated** client-side event occurs when an item in the menu has just had its child items populated from a Web service.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that just had its list of child items filled by a Web Service.
+* **get_item** returns a reference to the **RadMenuItem** that just had its list of child items filled by a Web Service.
 
-* __get_domEvent__ returns a reference to the DOM event.
+* **get_domEvent** returns a reference to the DOM event.
 
 You can use this event to tweak the child items that have just been added:
 

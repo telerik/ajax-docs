@@ -1,6 +1,6 @@
 ---
 title: OnClientHiding
-page_title: OnClientHiding | UI for ASP.NET AJAX Documentation
+page_title: OnClientHiding | RadNotification for ASP.NET AJAX Documentation
 description: OnClientHiding
 slug: notification/client-side-programming/events/onclienthiding
 tags: onclienthiding
@@ -14,11 +14,11 @@ position: 7
 
 ## 
 
-The __OnClientHiding__ event occurs just before the notification is hidden. This event is cancellable.
+The **OnClientHiding** event occurs just before the notification is hidden. This event is cancellable.
 
 The event handler receives the following parameters:
 
-1. The __RadNotification__ client instance that fired the event.
+1. The **RadNotification** client instance that fired the event.
 
 1. Event arguments object that allows the following functionality:
 

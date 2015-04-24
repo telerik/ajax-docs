@@ -1,6 +1,6 @@
 ---
 title: RadMap Structure
-page_title: RadMap Structure | UI for ASP.NET AJAX Documentation
+page_title: RadMap Structure | RadMap for ASP.NET AJAX Documentation
 description: RadMap Structure
 slug: map/getting-started/radmap-structure
 tags: radmap,structure
@@ -12,7 +12,7 @@ position: 1
 
 
 
-Examine the __RadMap__ element structure in __Figure 1__. You can see the names of the UI elements and read more about their purpose.
+Examine the **RadMap** element structure in **Figure 1**. You can see the names of the UI elements and read more about their purpose.
 
 ## 
 >caption Figure 1: Element structure of the RadMap control
@@ -21,7 +21,7 @@ Examine the __RadMap__ element structure in __Figure 1__. You can see the names 
 
 Elements:
 
-* __Layer__ – the layer is basically the main element of the map. There are four different types:
+* **Layer** – the layer is basically the main element of the map. There are four different types:
 
 * [Layer]({%slug map/functionality/tile-layers%}) - rendering the map usingMap Tile Service (e.g.	[OpenStreetMap](http://www.openstreetmap.org) );
 
@@ -31,13 +31,13 @@ Elements:
 
 * [Marker]({%slug map/functionality/markers%}) - defined by location data and indicates a point of interest based on some criteria.
 
-* __Navigator__ - allows the user to pan through the map;
+* **Navigator** - allows the user to pan through the map;
 
-* __Zoom__ - allows the user to zoom-in and zoom-out the map;
+* **Zoom** - allows the user to zoom-in and zoom-out the map;
 
-* __Marker Tooltip__ - developer-defined text that is shown on mouse click or mouse over of a marker;
+* **Marker Tooltip** - developer-defined text that is shown on mouse click or mouse over of a marker;
 
-* __Attribution__ - developer-defined footer element that can show additional information to the user, e.g. a copyright notice.
+* **Attribution** - developer-defined footer element that can show additional information to the user, e.g. a copyright notice.
 
 # See Also
 

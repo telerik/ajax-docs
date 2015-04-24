@@ -1,6 +1,6 @@
 ---
 title: RadODataDataSource Model Object
-page_title: RadODataDataSource Model Object | UI for ASP.NET AJAX Documentation
+page_title: RadODataDataSource Model Object | RadODataDataSource for ASP.NET AJAX Documentation
 description: RadODataDataSource Model Object
 slug: odatadatasource/client-side-programming/objects/radodatadatasource-model-object
 tags: radodatadatasource,model,object

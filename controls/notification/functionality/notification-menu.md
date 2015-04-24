@@ -1,6 +1,6 @@
 ---
 title: Notification Menu
-page_title: Notification Menu | UI for ASP.NET AJAX Documentation
+page_title: Notification Menu | RadNotification for ASP.NET AJAX Documentation
 description: Notification Menu
 slug: notification/functionality/notification-menu
 tags: notification,menu
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-__RadNotification__ offers a built-in context menu which can be used to extend the control and to attach some custom functionality. You can use it like the regular __RadContextMenu__ - it supports multiple targets, fully customizable layout, many client-side events and more - essentially the full functionality of the __RadContextMenu__ is employed in __RadNotification__.
+**RadNotification** offers a built-in context menu which can be used to extend the control and to attach some custom functionality. You can use it like the regular **RadContextMenu** - it supports multiple targets, fully customizable layout, many client-side events and more - essentially the full functionality of the **RadContextMenu** is employed in **RadNotification**.
 
-If the __ShowTitleMenu__ property is set to __true__ the menu icon will appear next to the close button in the titlebar. You can use both the left and the right mouse buttons to invoke this menu.
+If the **ShowTitleMenu** property is set to **true** the menu icon will appear next to the close button in the titlebar. You can use both the left and the right mouse buttons to invoke this menu.
 
-To activate the Notification Menu you need to declare some items in it and also a target. In this case the __ShowTitleMenu__ property is used:
+To activate the Notification Menu you need to declare some items in it and also a target. In this case the **ShowTitleMenu** property is used:
 
 ````ASPNET
 	    <telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"

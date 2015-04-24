@@ -1,6 +1,6 @@
 ---
 title: Set Event Handlers via JavaScript
-page_title: Set Event Handlers via JavaScript | UI for ASP.NET AJAX Documentation
+page_title: Set Event Handlers via JavaScript | RadNotification for ASP.NET AJAX Documentation
 description: Set Event Handlers via JavaScript
 slug: notification/client-side-programming/events/set-event-handlers-via-javascript
 tags: set,event,handlers,via,javascript
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-Aside from declaring an event handler in the server-side properties of the __RadNotification__ you can also assign them in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
+Aside from declaring an event handler in the server-side properties of the **RadNotification** you can also assign them in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
 ````ASPNET
 	    function addEvents()
@@ -44,20 +44,20 @@ Another advantage of the client-side API is that you can detach an event handler
 
 | Name | Description |
 | ------ | ------ |
-| __add_hidden__ |Add a handler to the OnClientHidden event.|
-| __add_hiding__ |Add a handler to the OnClientHiding event.|
-| __add_showing__ |Add a handler to the OnClientShowing event.|
-| __add_shown__ |Add a handler to the OnClientShown event.|
-| __add_updateError__ |dd a handler to the OnClientUpdateError event.|
-| __add_updated__ |Add a handler to the OnClientUpdated event.|
-| __add_updating__ |Add a handler to the OnClientUpdating event.|
-| __remove_hidden__ |Remove a handler from the OnClientHidden event.|
-| __remove_hiding__ |Remove a handler from the OnClientHiding event.|
-| __remove_showing__ |Remove a handler from the OnClientShowing event.|
-| __remove_shown__ |Remove a handler from the OnClientShown event.|
-| __remove_updateError__ |Remove a handler from the OnClientUpdateError event.|
-| __remove_updated__ |Remove a handler from the OnClientUpdated event.|
-| __remove_updating__ |Remove a handler from the OnClientUpdating event.|
+| **add_hidden** |Add a handler to the OnClientHidden event.|
+| **add_hiding** |Add a handler to the OnClientHiding event.|
+| **add_showing** |Add a handler to the OnClientShowing event.|
+| **add_shown** |Add a handler to the OnClientShown event.|
+| **add_updateError** |dd a handler to the OnClientUpdateError event.|
+| **add_updated** |Add a handler to the OnClientUpdated event.|
+| **add_updating** |Add a handler to the OnClientUpdating event.|
+| **remove_hidden** |Remove a handler from the OnClientHidden event.|
+| **remove_hiding** |Remove a handler from the OnClientHiding event.|
+| **remove_showing** |Remove a handler from the OnClientShowing event.|
+| **remove_shown** |Remove a handler from the OnClientShown event.|
+| **remove_updateError** |Remove a handler from the OnClientUpdateError event.|
+| **remove_updated** |Remove a handler from the OnClientUpdated event.|
+| **remove_updating** |Remove a handler from the OnClientUpdating event.|
 
 # See Also
 

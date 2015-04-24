@@ -1,6 +1,6 @@
 ---
 title: Expand Root MenuItem on Click Only
-page_title: Expand Root MenuItem on Click Only | UI for ASP.NET AJAX Documentation
+page_title: Expand Root MenuItem on Click Only | RadMenu for ASP.NET AJAX Documentation
 description: Expand Root MenuItem on Click Only
 slug: menu/how-to/expand-root-menuitem-on-click-only
 tags: expand,root,menuitem,on,click,only
@@ -16,7 +16,7 @@ position: 3
 
 ## 
 
-You can use the __ClickToOpen__ property to specify that menu items do not expand when the mouse hovers over them until the user clicks the menu with the mouse. When __ClickToOpen__ is __True__, the menu does not expand until the user clicks on a root item, at which point the root item expands. Once clicked, the menu expands and collapses as normal, until the user clicks again (either on a menu item or outside the menu).
+You can use the **ClickToOpen** property to specify that menu items do not expand when the mouse hovers over them until the user clicks the menu with the mouse. When **ClickToOpen** is **True**, the menu does not expand until the user clicks on a root item, at which point the root item expands. Once clicked, the menu expands and collapses as normal, until the user clicks again (either on a menu item or outside the menu).
 
 This example will show how to prevent expanding of the other root items on hover.
 

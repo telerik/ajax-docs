@@ -1,6 +1,6 @@
 ---
 title: Server Templates
-page_title: Server Templates | UI for ASP.NET AJAX Documentation
+page_title: Server Templates | RadNavigation for ASP.NET AJAX Documentation
 description: Server Templates
 slug: navigation/templates/server-templates
 tags: server,templates

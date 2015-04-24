@@ -1,6 +1,6 @@
 ---
 title: OnRequesting
-page_title: OnRequesting | UI for ASP.NET AJAX Documentation
+page_title: OnRequesting | RadODataDataSource for ASP.NET AJAX Documentation
 description: OnRequesting
 slug: odatadatasource/client-side-programming/events/onrequesting
 tags: onrequesting

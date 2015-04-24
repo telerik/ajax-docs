@@ -1,6 +1,6 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemClicked | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemClicked
 slug: menu/client-side-programming/events/onclientitemclicked
 tags: onclientitemclicked
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientItemClicked__ client-side event occurs when the user clicks on a menu item, after the menu responds to the mouse click.
+The **OnClientItemClicked** client-side event occurs when the user clicks on a menu item, after the menu responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that was clicked.
+* **get_item** returns a reference to the **RadMenuItem** that was clicked.
 
-* __get_targetElement__ (__RadContextMenu__ only) returns a reference to the target element attached to the context menu that is responsible for the context menu showing.
+* **get_targetElement** (**RadContextMenu** only) returns a reference to the target element attached to the context menu that is responsible for the context menu showing.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the clicking.
+* **get_domEvent** returns a reference to the DOM event that caused the clicking.
 
 You can use this event to respond when the user clicks on a menu item:
 

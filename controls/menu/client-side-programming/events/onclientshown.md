@@ -1,6 +1,6 @@
 ---
 title: OnClientShown
-page_title: OnClientShown | UI for ASP.NET AJAX Documentation
+page_title: OnClientShown | RadMenu for ASP.NET AJAX Documentation
 description: OnClientShown
 slug: menu/client-side-programming/events/onclientshown
 tags: onclientshown
@@ -14,7 +14,7 @@ position: 17
 
 ## 
 
-(__RadContextMenu__ only) The __OnClientShown__ client-side event occurs when the context menu first appears, either in response to a right-click on one of its targets or a call to its __show__ or __showAt__ method.
+(**RadContextMenu** only) The **OnClientShown** client-side event occurs when the context menu first appears, either in response to a right-click on one of its targets or a call to its **show** or **showAt** method.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_targetElement__ returns a reference to the DOM element that was right-clicked to show the context menu. If the menu appeared in response to a call to the __show__ or __showAt__ method rather than a right-click on one of its targets, __get_targetElement__ returns null.
+* **get_targetElement** returns a reference to the DOM element that was right-clicked to show the context menu. If the menu appeared in response to a call to the **show** or **showAt** method rather than a right-click on one of its targets, **get_targetElement** returns null.
 
-* __get_domEvent__ returns a reference to the DOM event.
+* **get_domEvent** returns a reference to the DOM event.
 
 You can use this event to initialize the context menu when it appears:
 

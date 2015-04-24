@@ -1,6 +1,6 @@
 ---
 title: Cross-Page Postback
-page_title: Cross-Page Postback | UI for ASP.NET AJAX Documentation
+page_title: Cross-Page Postback | RadMenu for ASP.NET AJAX Documentation
 description: Cross-Page Postback
 slug: menu/functionality/cross-page-postback
 tags: cross-page,postback
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-You can have your menu cause postbacks to a different Web page from the one that contains it. Simply set the __PostBackUrl__ property to the page that should handle the postback.
+You can have your menu cause postbacks to a different Web page from the one that contains it. Simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" PostBackUrl="CrossPageCS.aspx"
@@ -24,7 +24,7 @@ You can have your menu cause postbacks to a different Web page from the one that
 
 
 
-Once in the second page, you can access the menu (or any other control) on the previous page using the __Page.PreviousPage__ property.
+Once in the second page, you can access the menu (or any other control) on the previous page using the **Page.PreviousPage** property.
 
 
 

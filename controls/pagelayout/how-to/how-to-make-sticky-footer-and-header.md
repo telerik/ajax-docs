@@ -1,6 +1,6 @@
 ---
 title: How to Make Sticky Footer and Header
-page_title: How to Make Sticky Footer and Header | UI for ASP.NET AJAX Documentation
+page_title: How to Make Sticky Footer and Header | RadPageLayout for ASP.NET AJAX Documentation
 description: How to Make Sticky Footer and Header
 slug: pagelayout/how-to/how-to-make-sticky-footer-and-header
 tags: how,to,make,sticky,footer,and,header
@@ -16,7 +16,7 @@ This article demonstrates how to create a scenario with sticky footer and header
 
 ## Sticky footer and header
 
-In the example bellow you will see how to make the footer to be always positioned at the bottom of the page even if the content does not fill the entire gap between the header and the footer. Assuming the fact that in real scenario the header and footer are placed in master page this example shows how to use two nested RadPageLayouts to accomplish that. The inner one can go to your content page to define the content structure. The outer RadPageLayout will take care of positioning the header sections and the footer. In order to have the rows content to be centered they should have __RowType__ property set to __"Container"__.
+In the example bellow you will see how to make the footer to be always positioned at the bottom of the page even if the content does not fill the entire gap between the header and the footer. Assuming the fact that in real scenario the header and footer are placed in master page this example shows how to use two nested RadPageLayouts to accomplish that. The inner one can go to your content page to define the content structure. The outer RadPageLayout will take care of positioning the header sections and the footer. In order to have the rows content to be centered they should have **RowType** property set to **"Container"**.
 
 >note The "sticky" effect is accomplished by css and it does comes out of the box when using the RadPageLayout. In this scenario the RadPageLayout gives you the ability to structure your main elements and the content.
 >
@@ -25,7 +25,7 @@ In the example bellow you will see how to make the footer to be always positione
 
 ![sticky header footer](images/sticky_header_footer.png)
 
-__Example Code__
+**Example Code**
 
 ````ASPNET
 	    <style type="text/css">

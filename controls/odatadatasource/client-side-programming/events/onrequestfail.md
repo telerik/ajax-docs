@@ -1,6 +1,6 @@
 ---
 title: OnRequestFail
-page_title: OnRequestFail | UI for ASP.NET AJAX Documentation
+page_title: OnRequestFail | RadODataDataSource for ASP.NET AJAX Documentation
 description: OnRequestFail
 slug: odatadatasource/client-side-programming/events/onrequestfail
 tags: onrequestfail

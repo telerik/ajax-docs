@@ -1,6 +1,6 @@
 ---
 title: Column Count
-page_title: Column Count | UI for ASP.NET AJAX Documentation
+page_title: Column Count | RadOrgChart for ASP.NET AJAX Documentation
 description: Column Count
 slug: orgchart/functionality/column-count
 tags: column,count
@@ -18,7 +18,7 @@ In order to provide more flexibility to visualizing of groups in the hierarchy,	
 
 Column Count simply breaks the single-line presentation of the groups in RadOrgCharton multiple lines, through following the specified by the user number of columns in a group(how many Group Items are rendered on a single line/row).
 
-One can specify what's the value of the Column Count for a certain OrgChartNode, bysetting the Node.__ColumnCount__ property.
+One can specify what's the value of the Column Count for a certain OrgChartNode, bysetting the Node.**ColumnCount** property.
 
 Here is a sample of setting the property on OrgChartNode declared in the markup:
 
@@ -43,7 +43,7 @@ And this is how the result look like:![radorgchart-column-count 1](images/radorg
 
 ## Is there a way to set Column Count for all nodes?
 
-__There is such a way.__
+**There is such a way.**
 
 It's property of RadOrgChart called GroupColumnCount and setting this propertygives you the ability to control the ColumnCount from one place and at the same timeremoves the overhead of setting it to each and every node separately.
 
@@ -88,7 +88,7 @@ And this is the result:![radorgchart-column-count 2](images/radorgchart-column-c
 
 ## Whit if we want to use both in combination?
 
-Well, you simply __can__.
+Well, you simply **can**.
 
 You can set on OrgChart-level (OrgChart.GroupColumnCount) the most repeatedly ocurringColumn Count, and then set it locally to smaller part of nodes that require a differentnumber of columns.
 

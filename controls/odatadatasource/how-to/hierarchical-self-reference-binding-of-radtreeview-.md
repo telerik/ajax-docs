@@ -1,6 +1,6 @@
 ---
 title: Hierarchical Self-Reference Binding of RadTreeView 
-page_title: Hierarchical Self-Reference Binding of RadTreeView  | UI for ASP.NET AJAX Documentation
+page_title: Hierarchical Self-Reference Binding of RadTreeView  | RadODataDataSource for ASP.NET AJAX Documentation
 description: Hierarchical Self-Reference Binding of RadTreeView 
 slug: odatadatasource/how-to/hierarchical-self-reference-binding-of-radtreeview-
 tags: hierarchical,self-reference,binding,of,radtreeview,

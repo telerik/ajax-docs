@@ -1,6 +1,6 @@
 ---
 title: Use RadConfirm to Confirm MenuItem Click
-page_title: Use RadConfirm to Confirm MenuItem Click | UI for ASP.NET AJAX Documentation
+page_title: Use RadConfirm to Confirm MenuItem Click | RadMenu for ASP.NET AJAX Documentation
 description: Use RadConfirm to Confirm MenuItem Click
 slug: menu/how-to/use-radconfirm-to-confirm-menuitem-click
 tags: use,radconfirm,to,confirm,menuitem,click
@@ -24,7 +24,7 @@ We will subscribe to the [OnClientItemClicking]({%slug menu/client-side-programm
 
 * cancel the event
 
-* show RadConfirm dialog. If the user clicks on OK button - we will invoke the __click()__ method of the lastClickedItem menu item.
+* show RadConfirm dialog. If the user clicks on OK button - we will invoke the **click()** method of the lastClickedItem menu item.
 
 
 

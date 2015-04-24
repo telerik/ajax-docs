@@ -1,6 +1,6 @@
 ---
 title: Adding Templates at Run-time
-page_title: Adding Templates at Run-time | UI for ASP.NET AJAX Documentation
+page_title: Adding Templates at Run-time | RadMenu for ASP.NET AJAX Documentation
 description: Adding Templates at Run-time
 slug: menu/templates/adding-templates-at-run-time
 tags: adding,templates,at,run-time
@@ -14,12 +14,12 @@ position: 5
 
 ## 
 
-You can also add templates to __RadMenu__ at runtime, using the __ItemTemplate__ property. This property is of type __ITemplate__, so you must assign an object that implements that interface as a value:
+You can also add templates to **RadMenu** at runtime, using the **ItemTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
 
 
 >note The RadMenu items should be dynamically added so that templates can be defined at run time.
->Also, the __items should be bound__ to be able to eval DataBinder expressions. In other words, you should call the __DataBind__ method of the RadMenu object or bind the items that are about to use __DataBinder.Eval__ . You can bind a specific item by calling the __DataBind__ method of this specific item.
+>Also, the **items should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadMenu object or bind the items that are about to use **DataBinder.Eval** . You can bind a specific item by calling the **DataBind** method of this specific item.
 >
 
 
@@ -104,7 +104,7 @@ If you for some reason cannot define the template in the OnInit event of the pag
 
 
 
->note The template has to be instantiated for each item upon a postback. Since the __TextBoxTemplate__ class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
+>note The template has to be instantiated for each item upon a postback. Since the **TextBoxTemplate** class initializes the label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each item.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Separators
-page_title: Separators | UI for ASP.NET AJAX Documentation
+page_title: Separators | RadMenu for ASP.NET AJAX Documentation
 description: Separators
 slug: menu/functionality/separators
 tags: separators
@@ -18,7 +18,7 @@ position: 4
 
 The menu layout can be customized through separators. Use separators for grouping items into two or more categories. You can also use them to achieve cosmetic effects.
 
-To set a given menu item as a separator, set its __IsSeparator__ property to __True__. You can then define its size using the __Width__ property. The __Text__ property value will still be rendered, but the item will not respond when the user clicks it.
+To set a given menu item as a separator, set its **IsSeparator** property to **True**. You can then define its size using the **Width** property. The **Text** property value will still be rendered, but the item will not respond when the user clicks it.
 
 The example below shows menu with two separator items: one on the horizontally flowing root items, and one on the vertically flowing child items:
 

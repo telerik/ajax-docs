@@ -1,6 +1,6 @@
 ---
 title: React to Viewport Change
-page_title: React to Viewport Change | UI for ASP.NET AJAX Documentation
+page_title: React to Viewport Change | RadPageLayout for ASP.NET AJAX Documentation
 description: React to Viewport Change
 slug: pagelayout/how-to/react-to-viewport-change
 tags: react,to,viewport,change
@@ -12,15 +12,15 @@ position: 1
 
 
 
-This article will show you how to use the __RadPageLayout__ control and its viewport breakpoints to create a responsive	layout that changes according to the browser viewport size.
+This article will show you how to use the **RadPageLayout** control and its viewport breakpoints to create a responsive	layout that changes according to the browser viewport size.
 
-The breakpoints represents the predefined viewport sizes at which a __LayoutColumn__ could be set to be hidden	(e.g. __HiddenSm__ attribute) or to fit into different __Span__ size (e.g. __SpanSm__ attribute).
+The breakpoints represents the predefined viewport sizes at which a **LayoutColumn** could be set to be hidden	(e.g. **HiddenSm** attribute) or to fit into different **Span** size (e.g. **SpanSm** attribute).
 
 More about the breakpoints and the available attributes is explained in the [Viewport Breakpoints]({%slug pagelayout/creating-responsive-design/viewport-breakpoints%}) article.
 
 ## Creating a Page that Reacts to the Viewport Size
 
-__Example 1__ shows how to hide the first __LayoutColumn__ and change the __Span__ size of the second and third one when the viewport	size appear to be less than 768px. The results of this example can be examined in __Figure 1__ and __Figure 2__.
+**Example 1** shows how to hide the first **LayoutColumn** and change the **Span** size of the second and third one when the viewport	size appear to be less than 768px. The results of this example can be examined in **Figure 1** and **Figure 2**.
 >caption Figure 1: Result from the markup in Example 1 when the viewport size is greater than 768px.
 
 ![Page Layout-React-to-Viewport-Change-gt 768](images/PageLayout-React-to-Viewport-Change-gt768.png)
@@ -28,7 +28,7 @@ __Example 1__ shows how to hide the first __LayoutColumn__ and change the __Span
 
 ![Page Layout-React-to-Viewport-Change-lt 768](images/PageLayout-React-to-Viewport-Change-lt768.png)
 
-__Example 1__: Using Breakpoints to create a responsive layout.
+**Example 1**: Using Breakpoints to create a responsive layout.
 
 ````ASPNET
 	<!DOCTYPE html>

@@ -1,6 +1,6 @@
 ---
 title: Load Content Via Callback
-page_title: Load Content Via Callback | UI for ASP.NET AJAX Documentation
+page_title: Load Content Via Callback | RadNotification for ASP.NET AJAX Documentation
 description: Load Content Via Callback
 slug: notification/setting-content/load-content-via-callback
 tags: load,content,via,callback
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-You can use the built-in __OnCallbackUpdate__ event of the __RadNotification__ to load its content from the server via a callback. It is especially useful in combination with the __LoadContentOn__ property set to __EveryShow__. The key advantage of using a callback is that the server Page does not go through its whole lifecycle, but only a small part of it. The client state is not updated, and it is not sent back to the client-side.
+You can use the built-in **OnCallbackUpdate** event of the **RadNotification** to load its content from the server via a callback. It is especially useful in combination with the **LoadContentOn** property set to **EveryShow**. The key advantage of using a callback is that the server Page does not go through its whole lifecycle, but only a small part of it. The client state is not updated, and it is not sent back to the client-side.
 
->tip You can use this callback to set the notification's __Value__ property, because it will be passed to the client. You can use it, for example, as a flag or some small piece of necessary data in your application's logic.
+>tip You can use this callback to set the notification's **Value** property, because it will be passed to the client. You can use it, for example, as a flag or some small piece of necessary data in your application's logic.
 >
 
 
-The event passes a __RadNotificationEventArgs__ to the handler which contains the __Value__ property of the __RadNotification__ that initiated it.
+The event passes a **RadNotificationEventArgs** to the handler which contains the **Value** property of the **RadNotification** that initiated it.
 
-In the example below the server time is populated in the notification by using its __Text__ property.
+In the example below the server time is populated in the notification by using its **Text** property.
 
 ````ASPNET
 	    <telerik:RadNotification runat="server" ID="RadNotification1" ShowInterval="5000"

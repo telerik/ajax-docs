@@ -1,6 +1,6 @@
 ---
 title: Nesting RadPageLayout Elements
-page_title: Nesting RadPageLayout Elements | UI for ASP.NET AJAX Documentation
+page_title: Nesting RadPageLayout Elements | RadPageLayout for ASP.NET AJAX Documentation
 description: Nesting RadPageLayout Elements
 slug: pagelayout/how-to/nesting-radpagelayout-elements
 tags: nesting,radpagelayout,elements
@@ -12,18 +12,18 @@ position: 2
 
 
 
-This article explains how to leverage the `CompositeLayoutColumn` functionality of __RadPageLayout__. In the example bellowyou will see how to define such a column, allowing you to have nested rows in your __RadPageLayout__ declaration.
+This article explains how to leverage the `CompositeLayoutColumn` functionality of **RadPageLayout**. In the example bellowyou will see how to define such a column, allowing you to have nested rows in your **RadPageLayout** declaration.
 
 ## Nesting RadPageLayout Elements
 
 As a variation of the standard layout columns, the composite columns have a `content` element for the column's own content and a`rows` collection for nested rows. This allows you to easily alternate the orientation of the content in order to get the desired layout.Composite columns have the same attributes as the [standard RadPageLayout columns]({%slug pagelayout/structure/columns-%}).
 
-__Example 1__ shows how a composite column is used to nest different __RadPageLayout__ elements, would it be a custom	content or nested rows. The results of this example can be examined in __Figure 1__.
+**Example 1** shows how a composite column is used to nest different **RadPageLayout** elements, would it be a custom	content or nested rows. The results of this example can be examined in **Figure 1**.
 >caption Figure 1: Result of nesting different elements in one RadPageLayout declaration.
 
 
 
-__Example 1__: Nesting different layout elements.
+**Example 1**: Nesting different layout elements.
 
 ````ASPNET
 			<style type="text/css">

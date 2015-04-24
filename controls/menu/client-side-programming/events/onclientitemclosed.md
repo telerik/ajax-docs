@@ -1,6 +1,6 @@
 ---
 title: OnClientItemClosed
-page_title: OnClientItemClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemClosed | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemClosed
 slug: menu/client-side-programming/events/onclientitemclosed
 tags: onclientitemclosed
@@ -16,7 +16,7 @@ position: 10
 
 ## 
 
-The __OnClientItemClosed__ client-side event occurs immediately after an item in the menu contracts to hide its child items.
+The **OnClientItemClosed** client-side event occurs immediately after an item in the menu contracts to hide its child items.
 
 The event handler receives two parameters:
 
@@ -24,9 +24,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that was closed.
+* **get_item** returns a reference to the **RadMenuItem** that was closed.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the closing.
+* **get_domEvent** returns a reference to the DOM event that caused the closing.
 
 You can use this event to respond when the list of child items closes.
 

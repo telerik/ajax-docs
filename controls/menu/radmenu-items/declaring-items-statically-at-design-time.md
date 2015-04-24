@@ -1,6 +1,6 @@
 ---
 title: Declaring Items Statically at Design Time
-page_title: Declaring Items Statically at Design Time | UI for ASP.NET AJAX Documentation
+page_title: Declaring Items Statically at Design Time | RadMenu for ASP.NET AJAX Documentation
 description: Declaring Items Statically at Design Time
 slug: menu/radmenu-items/declaring-items-statically-at-design-time
 tags: declaring,items,statically,at,design,time

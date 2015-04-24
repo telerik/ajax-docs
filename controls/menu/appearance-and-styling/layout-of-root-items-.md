@@ -1,6 +1,6 @@
 ---
 title: Layout of Root Items 
-page_title: Layout of Root Items  | UI for ASP.NET AJAX Documentation
+page_title: Layout of Root Items  | RadMenu for ASP.NET AJAX Documentation
 description: Layout of Root Items 
 slug: menu/appearance-and-styling/layout-of-root-items-
 tags: layout,of,root,items,
@@ -12,25 +12,25 @@ position: 2
 
 
 
-There are a number of ways you can customize the look & feel of your __RadMenu__ control:
+There are a number of ways you can customize the look & feel of your **RadMenu** control:
 
 ## Layout
 
-Use the __Flow__ property to control the basic orientation of the menu. Flow can be __Horizontal__ (the default):
+Use the **Flow** property to control the basic orientation of the menu. Flow can be **Horizontal** (the default):
 
 ![RadMenu Horizontal Flow](images/menu_horizontalflow.png)
 
-or __Vertical__:
+or **Vertical**:
 
 ![RadMenu Vertical Flow](images/menu_verticalflow.png)
 
-* Use the __Height__ and __Width__ properties to limit the dimensions of the menu. If the __Width__ of a horizontal menu is too small to display all of its root items, the menu automatically creates additional rows:![RadMenu Extra Rows](images/menu_extrarows.png)
+* Use the **Height** and **Width** properties to limit the dimensions of the menu. If the **Width** of a horizontal menu is too small to display all of its root items, the menu automatically creates additional rows:![RadMenu Extra Rows](images/menu_extrarows.png)
 
-* Use the __GroupSettings__ property of a __RadMenuItem__ object to [control the layout of its child items]({%slug menu/appearance-and-styling/layout-of-child-items%}).
+* Use the **GroupSettings** property of a **RadMenuItem** object to [control the layout of its child items]({%slug menu/appearance-and-styling/layout-of-child-items%}).
 
-* Add [separators]({%slug menu/functionality/separators%}) to a list of items by creating an item with the __IsSeparator__ property set to __True__.
+* Add [separators]({%slug menu/functionality/separators%}) to a list of items by creating an item with the **IsSeparator** property set to **True**.
 
-* Use the __dir="rtl"__ attribute to give the menu a [right-to-left orientation]({%slug menu/accessibility-and-internationalization/rtl-support%}):![RadMenu RTL](images/menu_rtl.png)
+* Use the **dir="rtl"** attribute to give the menu a [right-to-left orientation]({%slug menu/accessibility-and-internationalization/rtl-support%}):![RadMenu RTL](images/menu_rtl.png)
 
 ## Look and Feel
 

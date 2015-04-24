@@ -1,6 +1,6 @@
 ---
 title: Migrating From RadMenu ASP.NET to ASP.NET AJAX
-page_title: Migrating From RadMenu ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating From RadMenu ASP.NET to ASP.NET AJAX | RadMenu for ASP.NET AJAX Documentation
 description: Migrating From RadMenu ASP.NET to ASP.NET AJAX
 slug: menu/migrating-from-radmenu-asp.net-to-asp.net-ajax
 tags: migrating,from,radmenu,asp.net,to,asp.net,ajax
@@ -12,7 +12,7 @@ position: 4
 
 
 
-__RadMenu for ASP.NET AJAX__ contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite.These changes are listed below:
+**RadMenu for ASP.NET AJAX** contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite.These changes are listed below:
 
 ## Context menu
 
@@ -22,9 +22,9 @@ The context menu functionality has been separated as a new control – [RadConte
 
 The changes to the server-side API are minimal:
 
-* __GetAllItems__ now returns __IList<RadMenuItem>__, instead of an ArrayList.
+* **GetAllItems** now returns **IList<RadMenuItem>**, instead of an ArrayList.
 
-* __ImageOverUrl__ has been renamed to __HoveredImageUrl__.
+* **ImageOverUrl** has been renamed to **HoveredImageUrl**.
 
 ## Client-side API changes
 
@@ -39,7 +39,7 @@ The [client-side API]({%slug menu/client-side-programming/overview%}) of RadMenu
 
 | RadMenu "Classic" | RadMenu for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Close|close|
 |Disable|disable|
 |DisableEvents|disableEvents|
@@ -63,7 +63,7 @@ The [client-side API]({%slug menu/client-side-programming/overview%}) of RadMenu
 |DetachEvent|remove_<EventName>|
 |TrackClientChanges|trackChanges|
 |CommitClientChanges|commitChanges|
-| __Properties__ ||
+| **Properties** ||
 |AllItems|get_allItems|
 |Enabled|get_enabled, set_enabled|
 |FocusedItem|get_focusedItem|
@@ -76,7 +76,7 @@ The [client-side API]({%slug menu/client-side-programming/overview%}) of RadMenu
 |Templated|get_templated|
 |CssClass|get_cssClass, set_cssClass|
 |DomElement|get_element|
-| __Events__ ||
+| **Events** ||
 |ItemBlur|itemBlur|
 |ItemFocus|itemFocus|
 |ItemClicked|itemClicked|
@@ -96,7 +96,7 @@ The [client-side API]({%slug menu/client-side-programming/overview%}) of RadMenu
 
 | RadMenu "Classic" | RadMenu for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Blur|blur|
 |Close|close|
 |Disable|disable|
@@ -118,7 +118,7 @@ The [client-side API]({%slug menu/client-side-programming/overview%}) of RadMenu
 |SetText|get_text, set_text|
 |SetValue|get_value, set_value|
 |Show|show|
-| __Properties__ ||
+| **Properties** ||
 |DomElement|get_element|
 |Enabled|get_enabled, set_enabled|
 |Focused|get_focused, set_focused|
@@ -147,7 +147,7 @@ The items property of RadMenu returns a fully-featured collection object. Here i
 
 | Member | Notes |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |add(item)|Adds an item to the end of the collection.|
 |insert(index, item)|Inserts an item at the specified index.|
 |remove(item)|Removes an item from the collection.|
@@ -155,7 +155,7 @@ The items property of RadMenu returns a fully-featured collection object. Here i
 |getItem(index)|Gets a specific item by index.|
 |indexOf(item)|Finds the index of a specified item in the collection.|
 |removeAt(index)|Removes an item at the specified index.|
-| __Properties__ ||
+| **Properties** ||
 |get_count()|Returns the number of items in the collection.|
 
 ## CSS class names

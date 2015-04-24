@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadMenu for ASP.NET AJAX Documentation
 description: What is New
 slug: menu/what-is-new
 tags: what,is,new
@@ -36,7 +36,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadMenu for ASP.NET AJAX Q3 2009 (Version Number 2009.3.1103):
 
-* [Multi columns]({%slug menu/functionality/multi-column-menu%}) enabled with the new pair of properties - __RepeatColumns__ and __RepeatDirection__ (either for DefaultGroupSettings or per-item GroupSettings).
+* [Multi columns]({%slug menu/functionality/multi-column-menu%}) enabled with the new pair of properties - **RepeatColumns** and **RepeatDirection** (either for DefaultGroupSettings or per-item GroupSettings).
 
 * New Skin - [Sitefinity]({%slug menu/appearance-and-styling/appearance-skins%}).
 
@@ -48,19 +48,19 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadMenu for ASP.NET AJAX Q2 SP1 2009:
 
-* New __RadMenuItem__ property: __OuterCssClass__ - gets or sets the Cascading Style Sheet (CSS) class applied on the outmost item element (<LI>).
+* New **RadMenuItem** property: **OuterCssClass** - gets or sets the Cascading Style Sheet (CSS) class applied on the outmost item element (<LI>).
 
-* New client-side methods of __RadContextMenu - addTargetElement(element), removeTargetElement(element).__ They are used to dynamically add/remove targets to the context menu.
+* New client-side methods of **RadContextMenu - addTargetElement(element), removeTargetElement(element).** They are used to dynamically add/remove targets to the context menu.
 
 * Bug-fixes
 
 ## What’s New in RadMenu for ASP.NET AJAX Q2 2009 (Version Number 2009.2.701):
 
-* Implemented __selection__ support. Added new properties to __RadMenu__ class: __EnableSelection__ - indicates if the currently selected item will be tracked and highlighted, __SelectedValue__(returns the Value of the selected item or its Text if the value is empty)____and __SelectedItem.__ In addition, a server side __ClearSelectedItem()__ and a client side __get_selectedItem__ methods were added.
+* Implemented **selection** support. Added new properties to **RadMenu** class: **EnableSelection** - indicates if the currently selected item will be tracked and highlighted, **SelectedValue**(returns the Value of the selected item or its Text if the value is empty) and **SelectedItem.** In addition, a server side **ClearSelectedItem()** and a client side **get_selectedItem** methods were added.
 
-* Added new properties to __RadMenuItem__ class: [Selected, SelectedCssClass and SelectedImageUrl]({%slug menu/radmenu-items/overview%}) to correspond to the __SelectedItem__ implementation
+* Added new properties to **RadMenuItem** class: [Selected, SelectedCssClass and SelectedImageUrl]({%slug menu/radmenu-items/overview%}) to correspond to the **SelectedItem** implementation
 
-* The __AccessKey__ property of __RadMenuItem__ is now Localizable
+* The **AccessKey** property of **RadMenuItem** is now Localizable
 
 ## What’s New in RadMenu for ASP.NET AJAX Q1 SP2 2009 (Version Number 2009.1.527):
 
@@ -84,19 +84,19 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Animations are using the jQuery library now
 
-* Added new property __UseHttpGet__ to the [WebServiceSettings]({%slug menu/data-binding/web-service-binding%}) properties. By default its value is *False*.
+* Added new property **UseHttpGet** to the [WebServiceSettings]({%slug menu/data-binding/web-service-binding%}) properties. By default its value is *False*.
 
 ## What’s New in RadMenu for ASP.NET AJAX Q3 2008 (2008.3.1105):
 
-* New property – __EnableRootItemScroll.__ Setting this property to “true” in combination with Width/Height will allow the root items to be scrolled.
+* New property – **EnableRootItemScroll.** Setting this property to “true” in combination with Width/Height will allow the root items to be scrolled.
 
-* Added new server side methods __FindItemByText__, __FindItemByValue__ which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindItemByText**, **FindItemByValue** which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindItem__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnItemDataBound__, __OnItemClick__, etc.
+* Added protected virtual methods for server-side events – **OnItemDataBound**, **OnItemClick**, etc.
 
-* Support for server-side expressions (<%= %>) in the __ItemTemplate__.
+* Support for server-side expressions (<%= %>) in the **ItemTemplate**.
 
 ## What’s New in RadMenu for ASP.NET AJAX Q2 SP1 2008 (Version Number 2008.2.826):
 
@@ -124,6 +124,6 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadMenu for ASP.NET AJAX Q1 2008 (Version Number 2008.1.415):
 
-* Client event arguments now have a __domEvent__ property
+* Client event arguments now have a **domEvent** property
 
 

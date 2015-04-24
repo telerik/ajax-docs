@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadNotification Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: notification/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadNotification__ is a light control which can be used to display a notification message both from the server and the client. The notification is completely customizable, can be loaded on demand through a callback or WebService, can be automatically displayed and/or updated at specific intervals and supports different animation effects and at different position.
+**RadNotification** is a light control which can be used to display a notification message both from the server and the client. The notification is completely customizable, can be loaded on demand through a callback or WebService, can be automatically displayed and/or updated at specific intervals and supports different animation effects and at different position.
 
 Key features:
 

@@ -1,6 +1,6 @@
 ---
 title: WCF Web Service Binding
-page_title: WCF Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: WCF Web Service Binding | RadMenu for ASP.NET AJAX Documentation
 description: WCF Web Service Binding
 slug: menu/data-binding/wcf-web-service-binding
 tags: wcf,web,service,binding
@@ -14,9 +14,9 @@ position: 8
 
 ## 
 
-As of Q1 2009, RadMenu supports load on demand from __WCF service__.
+As of Q1 2009, RadMenu supports load on demand from **WCF service**.
 
-The steps below show how to load the items of RadMenu from WCF service. It shows how to use the __context__ object to pass information from the client to the OperationContract. We will set additional __Attributes__ for every item (in addition to the __Text__ and __Value__ properties) so we can see how to use them in the [OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%}) event.
+The steps below show how to load the items of RadMenu from WCF service. It shows how to use the **context** object to pass information from the client to the OperationContract. We will set additional **Attributes** for every item (in addition to the **Text** and **Value** properties) so we can see how to use them in the [OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%}) event.
 
 
 
@@ -32,7 +32,7 @@ The steps below show how to load the items of RadMenu from WCF service. It shows
 
 3. Add the WCF service – right click on your project in the Solution Explorer and select Add New Item.
 
-This is __important__: select the __Ajax-enabled WCF service__ option (do not mix it with WCF Service):
+This is **important**: select the **Ajax-enabled WCF service** option (do not mix it with WCF Service):
 
 ![RadMenu Adding WCF Service](images/menu_addingwcfservice.png)
 
@@ -62,8 +62,8 @@ Clicking the Add button will create the .svc file as well as the code behind fil
 
 
 
->caution These settings are __important__ . If you don't have them correct - you might receive a javascript error:
-> __Method "MethodName" Failed.__ 
+>caution These settings are **important** . If you don't have them correct - you might receive a javascript error:
+> **Method "MethodName" Failed.** 
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to RadClientDataSource | RadMenu for ASP.NET AJAX Documentation
 description: Binding to RadClientDataSource
 slug: menu/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
@@ -12,17 +12,17 @@ position: 7
 
 
 
-This article demonstrates how to bind __RadMenu__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadMenu** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadMenu can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadMenu __DataText__ and __DataValue__, __DataFieldID__, __DataFieldParentID__ and __DataNavigateUrlField__ fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadMenu item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadMenu can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadMenu **DataText** and **DataValue**, **DataFieldID**, **DataFieldParentID** and **DataNavigateUrlField** fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadMenu item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
 
 ## 
 
 The code snippet below shows sample configuration of RadMenu bound to RadClientDataSource. The peculiarity of such scenario comes from the fact that the RadMenu represents hierarchical data. Considering that fact we expect such type of data to be returned by the web service to the RadClientDataSource.
 
->note Initially the RadMenu control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have __ParentID__ property value to null.
+>note Initially the RadMenu control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
 

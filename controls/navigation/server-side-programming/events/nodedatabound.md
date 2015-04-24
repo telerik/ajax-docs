@@ -1,6 +1,6 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | UI for ASP.NET AJAX Documentation
+page_title: NodeDataBound | RadNavigation for ASP.NET AJAX Documentation
 description: NodeDataBound
 slug: navigation/server-side-programming/events/nodedatabound
 tags: nodedatabound

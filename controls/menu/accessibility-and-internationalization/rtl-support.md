@@ -1,6 +1,6 @@
 ---
 title: RTL Support
-page_title: RTL Support | UI for ASP.NET AJAX Documentation
+page_title: RTL Support | RadMenu for ASP.NET AJAX Documentation
 description: RTL Support
 slug: menu/accessibility-and-internationalization/rtl-support
 tags: rtl,support
@@ -16,7 +16,7 @@ position: 2
 
 ## 
 
-__RadMenu__ includes support for right-to-left locales using the direction attribute. If you set __dir="rtl"__ on the __RadMenu__ objector to any parent HTML element, __RadMenu__ reverses item order and aligns itself to the right side of its container:
+**RadMenu** includes support for right-to-left locales using the direction attribute. If you set **dir="rtl"** on the **RadMenu** objector to any parent HTML element, **RadMenu** reverses item order and aligns itself to the right side of its container:
 
 ````ASPNET
 	    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Outlook" dir="rtl">

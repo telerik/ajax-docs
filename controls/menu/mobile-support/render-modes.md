@@ -1,6 +1,6 @@
 ---
 title: Render Modes
-page_title: Render Modes | UI for ASP.NET AJAX Documentation
+page_title: Render Modes | RadMenu for ASP.NET AJAX Documentation
 description: Render Modes
 slug: menu/mobile-support/render-modes
 tags: render,modes
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-__RadMenu__ has three different render modes that can change the actual HTML markup that is rendered. They are exposed via the __RenderMode__ property that can have four possible values - __Classic__, __Lightweight__ and __Auto__. This functionality was introduced in the __Q2 2013__ version.
+**RadMenu** has three different render modes that can change the actual HTML markup that is rendered. They are exposed via the **RenderMode** property that can have four possible values - **Classic**, **Lightweight** and **Auto**. This functionality was introduced in the **Q2 2013** version.
 
 The possible options are:
 
-* __Classic__ - this is the default value of the RenderMode property . It preserves the original rendering of the control - unordered list and nested elements are used to create layout.
+* **Classic** - this is the default value of the RenderMode property . It preserves the original rendering of the control - unordered list and nested elements are used to create layout.
 
-* __Auto__ - this mode makes each control choose the appropriate rendering mode according to the used browser - Classic or Lightweight. This functionality was added in Q3 2013.
+* **Auto** - this mode makes each control choose the appropriate rendering mode according to the used browser - Classic or Lightweight. This functionality was added in Q3 2013.
 
 * Lightweight - with this render mode, the control yields completely different markup making maximum use of CSS 3 and semantic HTML. This means that we have dropped the image gradients in favor of CSS gradients. As for the skins, the main goal of using the Lightweight render mode is that image gradients could be easily replaced by CSS gradients. Thus, the amount of data that the client browser should request is sensibly decreased.
 
@@ -36,7 +36,7 @@ More information about setting the RadMenu different render modes please check t
 
 There are two ways to set the RenderMode for the RadMenu:
 
-When the __RenderMode__ property is set in the markup you can type in a string, when set in the code-behind it takes a member of the Telerik.Web.UI.RenderMode enum. For example:
+When the **RenderMode** property is set in the markup you can type in a string, when set in the code-behind it takes a member of the Telerik.Web.UI.RenderMode enum. For example:
 
 ````ASPNET
 	    <telerik:RadMenu RenderMode="Lightweight" runat="server" ID="RadMenu1"> </telerik:RadMenu>
@@ -45,7 +45,7 @@ When the __RenderMode__ property is set in the markup you can type in a string, 
 
 
 
-A __global setting__ in the web.config file that will affect the entire application, unless a concrete value is specified for RadMenu instance:
+A **global setting** in the web.config file that will affect the entire application, unless a concrete value is specified for RadMenu instance:
 
 * Change render mode for all RadMenus in your application:
 

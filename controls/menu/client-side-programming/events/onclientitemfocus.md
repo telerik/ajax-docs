@@ -1,6 +1,6 @@
 ---
 title: OnClientItemFocus
-page_title: OnClientItemFocus | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemFocus | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemFocus
 slug: menu/client-side-programming/events/onclientitemfocus
 tags: onclientitemfocus
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientItemFocus__ client-side event occurs when an item in the menu receives focus.
+The **OnClientItemFocus** client-side event occurs when an item in the menu receives focus.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that received focus.
+* **get_item** returns a reference to the **RadMenuItem** that received focus.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the focusing.
+* **get_domEvent** returns a reference to the DOM event that caused the focusing.
 
 You can use this event to respond when an item receives focus. For example, the following event handler moves focus to the first child when a root level item receives focus:
 

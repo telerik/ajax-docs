@@ -1,6 +1,6 @@
 ---
 title: RadMenu Item Builder
-page_title: RadMenu Item Builder | UI for ASP.NET AJAX Documentation
+page_title: RadMenu Item Builder | RadMenu for ASP.NET AJAX Documentation
 description: RadMenu Item Builder
 slug: menu/design-time/radmenu-item-builder
 tags: radmenu,item,builder
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The __RadMenu Item Builder__ lets you populate your menu with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadMenu Item Builder:
+The **RadMenu Item Builder** lets you populate your menu with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadMenu Item Builder:
 
-* From the __RadMenu__[Smart Tag]({%slug menu/design-time/smart-tag%}), click on the __Build RadMenu__ link.
+* From the **RadMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}), click on the **Build RadMenu** link.
 
-* Right-click on the __RadMenu__ component and select __Build RadMenu__ from its context menu.
+* Right-click on the **RadMenu** component and select **Build RadMenu** from its context menu.
 
 ## RadMenu Item Builder
 
 ![Sample RadMenu](images/menu_samplemenu.png)
 
-The __RadMenu Item builder__ lets you add, rearrange, configure, and delete menu items. These actions are initiated using the tool bar at the upper left of the Item builder:
+The **RadMenu Item builder** lets you add, rearrange, configure, and delete menu items. These actions are initiated using the tool bar at the upper left of the Item builder:
 
 ![RadMenu Item Builder toolbar](images/menu_itembuildertoolbar.png)
 
@@ -41,27 +41,27 @@ The following table describes the controls in the tool bar:
 |![RadMenu Item Builder](images/menu_movebeforesibling.png)|Moves the currently selected menu item backward in its current list of siblings, so that it precedes the previous sibling.|
 |![RadMenu Item Builder](images/menu_moveaftersibling.png)|Moves the currently selected menu item forward in its current list of siblings, so that it follows the next sibling.|
 
-When a menu item (either a root item or a child item) is selected, the properties pane on the right of the __RadMenu Item Builder__ lets you configure the item by setting its properties. For each item,
+When a menu item (either a root item or a child item) is selected, the properties pane on the right of the **RadMenu Item Builder** lets you configure the item by setting its properties. For each item,
 
-* __Text__ is the text of the item as it appears in the menu.
+* **Text** is the text of the item as it appears in the menu.
 
-* __ToolTip__is the text of a tooltip that appears when the user hovers the mouse over the item.
+* **ToolTip**is the text of a tooltip that appears when the user hovers the mouse over the item.
 
-* __Enabled__ controls whether the item is initially enabled or disabled.
+* **Enabled** controls whether the item is initially enabled or disabled.
 
-* __GroupSettings__ lets you [specify how the child items are laid out]({%slug menu/appearance-and-styling/layout-of-child-items%}).
+* **GroupSettings** lets you [specify how the child items are laid out]({%slug menu/appearance-and-styling/layout-of-child-items%}).
 
-* __IsSeparator__ specifies whether the menu item acts as a separator.
+* **IsSeparator** specifies whether the menu item acts as a separator.
 
-* __Value__ lets you associate a text value with the menu item that you can use when programming the menu behavior.
+* **Value** lets you associate a text value with the menu item that you can use when programming the menu behavior.
 
-* __NavigateUrl__ and __Target__ cause the menu item to automatically launch another Web page (specified by __NavigateUrl__) in the window specified by __Target__. If the __Target__ property is not set, the new Web page uses the current browser window.
+* **NavigateUrl** and **Target** cause the menu item to automatically launch another Web page (specified by **NavigateUrl**) in the window specified by **Target**. If the **Target** property is not set, the new Web page uses the current browser window.
 
-* __PostBack__ specifies whether the item causes a postback.
+* **PostBack** specifies whether the item causes a postback.
 
-* __CssClass__, __ClickedCssClass__, __DisabledCssClass__, __ExpandedCssClas__, and __FocusedCssClass__[control the appearance of the menu item]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
+* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass**[control the appearance of the menu item]({%slug menu/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
 
-* __ImageUrl__, __ImageClickedUrl__, __DisabledImageUrl__, __ExpandedImageUrl__, and __HoveredImageUrl__ let you [specify an image]({%slug menu/appearance-and-styling/adding-images-to-items%}) that appears on the left of the menu item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.
+* **ImageUrl**, **ImageClickedUrl**, **DisabledImageUrl**, **ExpandedImageUrl**, and **HoveredImageUrl** let you [specify an image]({%slug menu/appearance-and-styling/adding-images-to-items%}) that appears on the left of the menu item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.
 
 # See Also
 

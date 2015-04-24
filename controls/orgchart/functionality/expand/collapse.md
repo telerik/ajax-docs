@@ -1,6 +1,6 @@
 ---
 title: Expand/Collapse
-page_title: Expand/Collapse | UI for ASP.NET AJAX Documentation
+page_title: Expand/Collapse | RadOrgChart for ASP.NET AJAX Documentation
 description: Expand/Collapse
 slug: orgchart/functionality/expand/collapse
 tags: expand/collapse
@@ -14,19 +14,19 @@ position: 6
 
 ## Expand/Collapse the RadOrgChart hierarchical tree
 
-__RadOrgChart__ supports __Expand/Collapse__ of the RadOrgChart hierarchical tree. The functionality could be enabled by setting __EnableCollapsing__ property to true. __DataCollapsedField__ property gets or sets the data field holding the __Collapsed__ property for the currently bound Node. You can set Node's Expand/Collapse state by setting __Collapsed__ property.
+**RadOrgChart** supports **Expand/Collapse** of the RadOrgChart hierarchical tree. The functionality could be enabled by setting **EnableCollapsing** property to true. **DataCollapsedField** property gets or sets the data field holding the **Collapsed** property for the currently bound Node. You can set Node's Expand/Collapse state by setting **Collapsed** property.
 
 ![Expand/Collapse](images/radorgchart_expand_collapse.png)
 
 To further customize the functionality of the RadOrgChart control there are also several server-side methods:
 
-* __CollapseAllNodes()__– collapse all nodes in the RadOrgChart
+* **CollapseAllNodes()**– collapse all nodes in the RadOrgChart
 
-* __CollapseNodes()__ - collapse nodes in the RadOrgChart by criteria (lambda)
+* **CollapseNodes()** - collapse nodes in the RadOrgChart by criteria (lambda)
 
-* __ExpandAllNodes()__ – expand all nodes in the RadOrgChart
+* **ExpandAllNodes()** – expand all nodes in the RadOrgChart
 
-* __ExpandNodes()__ - expand nodes in the RadOrgChart by criteria (lambda)
+* **ExpandNodes()** - expand nodes in the RadOrgChart by criteria (lambda)
 
 Here is an example how to enable the Expand/Collapse functionality from the markup.
 
@@ -304,19 +304,19 @@ Bind Node's Collapsed property in group-enabled binding scenario:
 
 ## Expand/Collapse Groups
 
-RadOrgChart also supports Expand/Collapse of a __Group__. The functionality could be enabled by setting __EnableGroupCollapsing__ property to true. The functionality is available when a Node has more than one GroupItem. DataGroupCollapsedField property (in the group-enabled binding settings) gets or sets the data field holding the GroupCollapsed property for the currently bound Node. You can set Group’s Expand/Collapse state by setting GroupCollapsed property of the Node.
+RadOrgChart also supports Expand/Collapse of a **Group**. The functionality could be enabled by setting **EnableGroupCollapsing** property to true. The functionality is available when a Node has more than one GroupItem. DataGroupCollapsedField property (in the group-enabled binding settings) gets or sets the data field holding the GroupCollapsed property for the currently bound Node. You can set Group’s Expand/Collapse state by setting GroupCollapsed property of the Node.
 
 ![Expand/Collapse Group](images/radorgchart_expand_collapse_group.PNG)
 
 To further customize the functionality of the RadOrgChart control there are also several server-side methods:
 
-* __CollapseAllGroups()__– collapse all groups in the RadOrgChart
+* **CollapseAllGroups()**– collapse all groups in the RadOrgChart
 
-* __CollapseGroups()__- collapse groups in the RadOrgChart by criteria (lambda)
+* **CollapseGroups()**- collapse groups in the RadOrgChart by criteria (lambda)
 
-* __ExpandAllGroups()__– expand all groups in the RadOrgChart
+* **ExpandAllGroups()**– expand all groups in the RadOrgChart
 
-* __ExpandGroups()__- expand groups in the RadOrgChart by criteria (lambda)
+* **ExpandGroups()**- expand groups in the RadOrgChart by criteria (lambda)
 
 Here is an example how to enable the Expanding/Collapsing of a Group from the markup.
 
@@ -369,7 +369,7 @@ Bind Node's GroupCollapsed property in group-enabled binding:
 
 ## Persist Expand/Collapse State of the Nodes
 
-When the __PersistExpandCollapseState__ propery is set to __true__ the nodes in RadOrgChart persist their __Collapsed__ and __GroupCollapsed__ state after postback. The default value of the __PersistExpandCollapseState__ is __true__ so if such functionality is not wanted it should be set to __false__.
+When the **PersistExpandCollapseState** propery is set to **true** the nodes in RadOrgChart persist their **Collapsed** and **GroupCollapsed** state after postback. The default value of the **PersistExpandCollapseState** is **true** so if such functionality is not wanted it should be set to **false**.
 
 # See Also
 

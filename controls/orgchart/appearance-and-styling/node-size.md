@@ -1,6 +1,6 @@
 ---
 title: Node Size
-page_title: Node Size | UI for ASP.NET AJAX Documentation
+page_title: Node Size | RadOrgChart for ASP.NET AJAX Documentation
 description: Node Size
 slug: orgchart/appearance-and-styling/node-size
 tags: node,size
@@ -14,7 +14,7 @@ position: 2
 
 ## How to change the size of some nodes?
 
-In case you would like to set a different size of a node, you can change it by adding a specific __CssClass__ to the node or groupItem.![radorgchart-node-size 1](images/radorgchart-node-size1.png)
+In case you would like to set a different size of a node, you can change it by adding a specific **CssClass** to the node or groupItem.![radorgchart-node-size 1](images/radorgchart-node-size1.png)
 
 This appearence can ba achieved in the NodeDataBound event by association the index as it is shown in the following code:
 

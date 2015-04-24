@@ -1,6 +1,6 @@
 ---
 title: OnClientUpdateError
-page_title: OnClientUpdateError | UI for ASP.NET AJAX Documentation
+page_title: OnClientUpdateError | RadNotification for ASP.NET AJAX Documentation
 description: OnClientUpdateError
 slug: notification/client-side-programming/events/onclientupdateerror
 tags: onclientupdateerror
@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-The __OnClientUpdateError__ event occurs if there has been an error when the __RadNotification__ content should be updated. An error alert which can be canceled is displayed.
+The **OnClientUpdateError** event occurs if there has been an error when the **RadNotification** content should be updated. An error alert which can be canceled is displayed.
 
 The event handler receives the following parameters:
 
-1. The __RadNotification__ client instance that fired the event.
+1. The **RadNotification** client instance that fired the event.
 
 1. Event arguments object. Call its set_cancelErrorAlert(true) method to cancel the alert.
 

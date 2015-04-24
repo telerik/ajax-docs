@@ -1,6 +1,6 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | UI for ASP.NET AJAX Documentation
+page_title: Binding to OData | RadMenu for ASP.NET AJAX Documentation
 description: Binding to OData
 slug: menu/data-binding/binding-to-odata
 tags: binding,to,odata
@@ -52,7 +52,7 @@ The applied settings are described below:
 
 1. All entities are grouped in Entity Sets. The EntityContainer collection contains records of such sets. Each set has a Name and EntityType properties.
 
-* Name is the name of the hosted collection that should be queried. For example, if one have set the Name to “Categories”, the query url would look like: __http://services.odata.org/OData/OData.svc/Categories__
+* Name is the name of the hosted collection that should be queried. For example, if one have set the Name to “Categories”, the query url would look like: **http://services.odata.org/OData/OData.svc/Categories**
 
 * The EntityType property maps declared EntityType to a type contained in a given collection. If we stick to the same example, the EntityType of the Categories collection would be Category
 
@@ -92,7 +92,7 @@ There are several differences from the Flat Binding:
 
 1. The Category EnitityType has NavigationPropertyset to Products. This means, that all categories have children of type product. This way, we are linking the entities in the Categories collection with the ones in the Products collection. The relationship is one to many i.e. a single category can contain multiple products.
 
-In short, Each Entry of an OData feed is described in the EDM by an Entity Type and each link between entries are described by a __Navigation Property.__
+In short, Each Entry of an OData feed is described in the EDM by an Entity Type and each link between entries are described by a **Navigation Property.**
 
 As you can see, having set the InitialContainerName property and the NavigationProperty on the first EnitityType we have described a hierarchy, which has categories at the root level and products in the child ones.
 

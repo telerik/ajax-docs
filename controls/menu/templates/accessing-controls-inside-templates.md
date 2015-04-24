@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadMenu for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: menu/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-If your __RadMenu__ has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the __RadMenuItem__ that has the template, and use its __FindControl__ method.
+If your **RadMenu** has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **RadMenuItem** that has the template, and use its **FindControl** method.
 
 For example, consider the following, very simple, menu:
 

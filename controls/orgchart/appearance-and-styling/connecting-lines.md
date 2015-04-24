@@ -1,6 +1,6 @@
 ---
 title: Connecting Lines
-page_title: Connecting Lines | UI for ASP.NET AJAX Documentation
+page_title: Connecting Lines | RadOrgChart for ASP.NET AJAX Documentation
 description: Connecting Lines
 slug: orgchart/appearance-and-styling/connecting-lines
 tags: connecting,lines
@@ -53,7 +53,7 @@ In case you would like to change the length of the connecting linesyou can add s
 
 ![radorgchart-connecting-lines 1](images/radorgchart-connecting-lines1.png)![radorgchart-connecting-lines 2](images/radorgchart-connecting-lines2.png)
 
-If you want to make the lines __invisible__ you can use the code below:
+If you want to make the lines **invisible** you can use the code below:
 
 ````ASPNET
 			 .rocLineHorizontal, .rocLineUp, .rocLineDown
@@ -82,4 +82,4 @@ If you want to add arrows to the ends of the connecting lines you can add the fo
 
 
 
-Such implementation is not supported in IE6 and IE7 browsers because they do not implement the __":after"__ css selector.![radorgchart-connecting-lines](images/radorgchart-connecting-lines.png)
+Such implementation is not supported in IE6 and IE7 browsers because they do not implement the **":after"** css selector.![radorgchart-connecting-lines](images/radorgchart-connecting-lines.png)

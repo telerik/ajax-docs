@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: Animation | UI for ASP.NET AJAX Documentation
+page_title: Animation | RadNotification for ASP.NET AJAX Documentation
 description: Animation
 slug: notification/appearance-and-styling/animation
 tags: animation
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-How the notification becomes visible on the screen can be controlled with the __Animation__ property. Possible values are:
+How the notification becomes visible on the screen can be controlled with the **Animation** property. Possible values are:
 
 * None
 
@@ -26,7 +26,7 @@ How the notification becomes visible on the screen can be controlled with the __
 
 * FlyIn
 
-You can define how long the animation will take by setting the __AnimationDuration__ property. Its value is set in milliseconds. This property takes effect only if the __Animation__ property is set to a value, different than __None__ (which is the default). The default value of the __AnimationDuration__ property itself is 500 milliseconds.
+You can define how long the animation will take by setting the **AnimationDuration** property. Its value is set in milliseconds. This property takes effect only if the **Animation** property is set to a value, different than **None** (which is the default). The default value of the **AnimationDuration** property itself is 500 milliseconds.
 
 For a live demonstration showing notifications with all possible combinations of values see[Configurator](http://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx).
 

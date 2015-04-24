@@ -1,6 +1,6 @@
 ---
 title: Grid Based Layout 
-page_title: Grid Based Layout  | UI for ASP.NET AJAX Documentation
+page_title: Grid Based Layout  | RadPageLayout for ASP.NET AJAX Documentation
 description: Grid Based Layout 
 slug: pagelayout/creating-responsive-design/grid-based-layout-
 tags: grid,based,layout,
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article provides information on the __Grid Based Layout__ that we used as a base for the __RadPageLayout__ control. You can find details on the structural elements of a grid system as well as how they are used in web development.
+This article provides information on the **Grid Based Layout** that we used as a base for the **RadPageLayout** control. You can find details on the structural elements of a grid system as well as how they are used in web development.
 
 ## Why are Grids Needed in Web Development?
 

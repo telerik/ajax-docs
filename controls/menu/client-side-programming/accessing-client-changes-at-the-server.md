@@ -1,6 +1,6 @@
 ---
 title: Accessing Client Changes at the Server
-page_title: Accessing Client Changes at the Server | UI for ASP.NET AJAX Documentation
+page_title: Accessing Client Changes at the Server | RadMenu for ASP.NET AJAX Documentation
 description: Accessing Client Changes at the Server
 slug: menu/client-side-programming/accessing-client-changes-at-the-server
 tags: accessing,client,changes,at,the,server
@@ -12,29 +12,29 @@ position: 1
 
 
 
-Client side changes are available on the server side after postback. You can use the __ClientChanges__ property of RadMenu to access them. The ClientChanges property of RadMenu returns a collection of objects of type __ClientOperation__.An operation has the following properties:
+Client side changes are available on the server side after postback. You can use the **ClientChanges** property of RadMenu to access them. The ClientChanges property of RadMenu returns a collection of objects of type **ClientOperation**.An operation has the following properties:
 
-* __Item__ - the item which has been affected by the client operation;
+* **Item** - the item which has been affected by the client operation;
 
-* __Type__ - the type of the operation which is one of the following four cases:
+* **Type** - the type of the operation which is one of the following four cases:
 
-* __Update__ - when a property is set on the the client through methods such as __set_text__(), __set_value__(), __enable__(), __disable__(), etc.: menuItem.disable();
+* **Update** - when a property is set on the the client through methods such as **set_text**(), **set_value**(), **enable**(), **disable**(), etc.: menuItem.disable();
 
-* __Remove__ - when the __remove__ client method is called: menu.get_items().remove(menuItem);
+* **Remove** - when the **remove** client method is called: menu.get_items().remove(menuItem);
 
-* __Insert__ - when the __add__client method is called: menu.get_items().add(menuItem);
+* **Insert** - when the **add**client method is called: menu.get_items().add(menuItem);
 
-* __Clear__ - when an item with child items calls the __clear__() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
+* **Clear** - when an item with child items calls the **clear**() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
 
 
 
->note Note that you need to call the __trackChanges__ () and __commitChanges__ () client methods of RadMenu in order to be able to access the changes on the server via the __ClientChanges__ property.
+>note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadMenu in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 
 ## Example:
 
-The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the __Item__ and __Type__ properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
+The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/menu/examples/programming/addremovedisableitemsclientside/defaultcs.aspx) example.
 
 
 

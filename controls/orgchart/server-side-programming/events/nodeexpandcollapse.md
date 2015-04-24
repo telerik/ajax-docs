@@ -1,6 +1,6 @@
 ---
 title: NodeExpandCollapse
-page_title: NodeExpandCollapse | UI for ASP.NET AJAX Documentation
+page_title: NodeExpandCollapse | RadOrgChart for ASP.NET AJAX Documentation
 description: NodeExpandCollapse
 slug: orgchart/server-side-programming/events/nodeexpandcollapse
 tags: nodeexpandcollapse
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __NodeExpandCollapse__ is raised when a Node expand or collapse icon is clicked.
+The **NodeExpandCollapse** is raised when a Node expand or collapse icon is clicked.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following properties:
 
-* __State__ - the state of the Node that have been expanded of collapsed.
+* **State** - the state of the Node that have been expanded of collapsed.
 
-* __SourceNode__ - the Node whose child nodes are expanded or collapsed.
+* **SourceNode** - the Node whose child nodes are expanded or collapsed.
 
 When this event is handled in order to make the changes persist properly the collapsed state of the node should be updated as it is shown in the sample code below:
 

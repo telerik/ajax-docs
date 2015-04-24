@@ -1,6 +1,6 @@
 ---
 title: Notification Audio Is Not Played In Mobile Devices
-page_title: Notification Audio Is Not Played In Mobile Devices | UI for ASP.NET AJAX Documentation
+page_title: Notification Audio Is Not Played In Mobile Devices | RadNotification for ASP.NET AJAX Documentation
 description: Notification Audio Is Not Played In Mobile Devices
 slug: notification/troubleshooting/notification-audio-is-not-played-in-mobile-devices
 tags: notification,audio,is,not,played,in,mobile,devices
@@ -12,15 +12,15 @@ position: 1
 
 
 
-This help article describes a browser limitation that cause the __RadNotification__ to not play audio in mobile devices. You can also read how to avoid it.
+This help article describes a browser limitation that cause the **RadNotification** to not play audio in mobile devices. You can also read how to avoid it.
 
 ## 
 
-Most mobile browsers require a user action in order to play audio files. __RadNotification__ is often shown via JavaScript alone and thus, its [ShowSound]({%slug notification/functionality/play-sound-on-show%})may not be played unless the developer takes the needed actions that are described in this help article.
+Most mobile browsers require a user action in order to play audio files. **RadNotification** is often shown via JavaScript alone and thus, its [ShowSound]({%slug notification/functionality/play-sound-on-show%})may not be played unless the developer takes the needed actions that are described in this help article.
 
-You cannot play audio files in most mobile browsers from events like load or DomReady that do not interact with a user action.This is a browser limitation that can also be reproduced on a page that contains no Telerik UI controls (__Example 1__).
+You cannot play audio files in most mobile browsers from events like load or DomReady that do not interact with a user action.This is a browser limitation that can also be reproduced on a page that contains no Telerik UI controls (**Example 1**).
 
-__Example 1__: Audio in browsers under mobile devices will not be played if triggered by the body's load event.
+**Example 1**: Audio in browsers under mobile devices will not be played if triggered by the body's load event.
 
 ````ASPNET
 	<body onload="playAudio();">
@@ -36,15 +36,15 @@ __Example 1__: Audio in browsers under mobile devices will not be played if trig
 
 
 
-__RadNotification__ exposes a public client-side method (__userInitSound()__) that lets you initializethe audio when there is a user interaction. You can add an event listener to the most appropriate element/control on your web page,usually the document itself, so that when the user makes an interaction with it, you can kick-start the audio (__Example 2__). You can also ensure that the sound is playable through the __verifySound()__ method.
+**RadNotification** exposes a public client-side method (**userInitSound()**) that lets you initializethe audio when there is a user interaction. You can add an event listener to the most appropriate element/control on your web page,usually the document itself, so that when the user makes an interaction with it, you can kick-start the audio (**Example 2**). You can also ensure that the sound is playable through the **verifySound()** method.
 
-__RadNotification__ doesn't attach an event handler to the document that kick-starts that audio when a user action is performedout of the box because such behavior contradicts with the one accepted in mobile devices.
+**RadNotification** doesn't attach an event handler to the document that kick-starts that audio when a user action is performedout of the box because such behavior contradicts with the one accepted in mobile devices.
 
->warning Handling the corresponding event and calling the __userInitSound()__ client-side method of the __RadNotification__ would make sure that the sounds are available until the user navigates away from the currently loaded page or the notification control is disposed with AJAX.
+>warning Handling the corresponding event and calling the **userInitSound()** client-side method of the **RadNotification** would make sure that the sounds are available until the user navigates away from the currently loaded page or the notification control is disposed with AJAX.
 >
 
 
-__Example 2__: Enable the __RadNotification__ audio in mobile devices by calling the __userInitSound()__ method after a user action.
+**Example 2**: Enable the **RadNotification** audio in mobile devices by calling the **userInitSound()** method after a user action.
 
 ````ASPNET
 		<script type="text/javascript">

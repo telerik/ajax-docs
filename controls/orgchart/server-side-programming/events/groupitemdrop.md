@@ -1,6 +1,6 @@
 ---
 title: GroupItemDrop
-page_title: GroupItemDrop | UI for ASP.NET AJAX Documentation
+page_title: GroupItemDrop | RadOrgChart for ASP.NET AJAX Documentation
 description: GroupItemDrop
 slug: orgchart/server-side-programming/events/groupitemdrop
 tags: groupitemdrop
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __GroupItemDrop__ is raised when a GroupItem is dragged and drooped on Node different than the Node which contains the item.
+The **GroupItemDrop** is raised when a GroupItem is dragged and drooped on Node different than the Node which contains the item.
 
 The event handler receives two parameters:
 
@@ -22,6 +22,6 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following properties:
 
-* __DestinationNode__ - the Node on which the GroupItem is dropped.
+* **DestinationNode** - the Node on which the GroupItem is dropped.
 
-* __SourceGroupItem__ - the dropped GroupItem
+* **SourceGroupItem** - the dropped GroupItem

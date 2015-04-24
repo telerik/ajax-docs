@@ -1,6 +1,6 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | UI for ASP.NET AJAX Documentation
+page_title: Fluid Design | RadMap for ASP.NET AJAX Documentation
 description: Fluid Design
 slug: map/mobile-support/fluid-design
 tags: fluid,design
@@ -12,7 +12,7 @@ position: 3
 
 
 
-This article explains the __fluid design capabilities RadMap offers__.	The example below shows how you can set its size in percent so it can resize with its parent element and refresh it when needed.
+This article explains the **fluid design capabilities RadMap offers**.	The example below shows how you can set its size in percent so it can resize with its parent element and refresh it when needed.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience.	This often includes [changing the font size]({%slug map/mobile-support/elastic-design%}) and having dimensions set in percent.
 
@@ -21,9 +21,9 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![map-fluid-design](images/map-fluid-design.png)
 
-You can set the __Width__ and __Height__ properties of the __RadMap__ in __percent__.This lets it resize together with its parent element. The control has no way of knowing its parent size has changed, however,so the developer needs to invoke the `resize()`[client-side method]({%slug map/client-side-programming%}) of the map so it can refresh the size of its tile layer.You can find a small sample in __Example 1__.
+You can set the **Width** and **Height** properties of the **RadMap** in **percent**.This lets it resize together with its parent element. The control has no way of knowing its parent size has changed, however,so the developer needs to invoke the `resize()`[client-side method]({%slug map/client-side-programming%}) of the map so it can refresh the size of its tile layer.You can find a small sample in **Example 1**.
 
-__Example 1__: Markup and script that provide a fluid RadMap that changes size with the browser viewport
+**Example 1**: Markup and script that provide a fluid RadMap that changes size with the browser viewport
 
 ````XML
 			<style type="text/css">

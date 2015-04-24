@@ -1,6 +1,6 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | UI for ASP.NET AJAX Documentation
+page_title: OnClientMouseOut | RadMenu for ASP.NET AJAX Documentation
 description: OnClientMouseOut
 slug: menu/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __OnClientMouseOut__client-side event occurs when the mouse moves off an item in the menu.
+The **OnClientMouseOut**client-side event occurs when the mouse moves off an item in the menu.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that the mouse just left.
+* **get_item** returns a reference to the **RadMenuItem** that the mouse just left.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the mouse movement.
+* **get_domEvent** returns a reference to the DOM event that caused the mouse movement.
 
 You can use this event to respond when the mouse moves off an item:
 

@@ -1,6 +1,6 @@
 ---
 title: Region and Composite Region
-page_title: Region and Composite Region | UI for ASP.NET AJAX Documentation
+page_title: Region and Composite Region | RadPageLayout for ASP.NET AJAX Documentation
 description: Region and Composite Region
 slug: pagelayout/structure/region-and-composite-region
 tags: region,and,composite,region

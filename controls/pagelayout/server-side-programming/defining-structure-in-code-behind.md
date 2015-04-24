@@ -1,6 +1,6 @@
 ---
 title: Defining Structure in Code-Behind
-page_title: Defining Structure in Code-Behind | UI for ASP.NET AJAX Documentation
+page_title: Defining Structure in Code-Behind | RadPageLayout for ASP.NET AJAX Documentation
 description: Defining Structure in Code-Behind
 slug: pagelayout/server-side-programming/defining-structure-in-code-behind
 tags: defining,structure,in,code-behind
@@ -12,17 +12,17 @@ position: 0
 
 
 
-The following article demonstrates how to define the structure of the __RadPageLayout__ from code-behind.
+The following article demonstrates how to define the structure of the **RadPageLayout** from code-behind.
 
 ## 
 
-You can define the structure of __RadPageLayout__ and add the content dynamically in server-side code. In order to achieve this, you should create an instance of the control along with the desired structure (Rows, Columns and Content) and add it to the page.
+You can define the structure of **RadPageLayout** and add the content dynamically in server-side code. In order to achieve this, you should create an instance of the control along with the desired structure (Rows, Columns and Content) and add it to the page.
 
 ## Example
 
-The example below demonstrates how to create the __RadPageLayout__ object, along with the needed content holders.
+The example below demonstrates how to create the **RadPageLayout** object, along with the needed content holders.
 
-__Figure 1__ demonstrates the layout of the example.
+**Figure 1** demonstrates the layout of the example.
 
 
 

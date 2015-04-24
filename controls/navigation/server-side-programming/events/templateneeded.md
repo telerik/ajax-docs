@@ -1,6 +1,6 @@
 ---
 title: TemplateNeeded
-page_title: TemplateNeeded | UI for ASP.NET AJAX Documentation
+page_title: TemplateNeeded | RadNavigation for ASP.NET AJAX Documentation
 description: TemplateNeeded
 slug: navigation/server-side-programming/events/templateneeded
 tags: templateneeded

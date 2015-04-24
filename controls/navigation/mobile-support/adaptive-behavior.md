@@ -1,6 +1,6 @@
 ---
 title: Adaptive Behavior
-page_title: Adaptive Behavior | UI for ASP.NET AJAX Documentation
+page_title: Adaptive Behavior | RadNavigation for ASP.NET AJAX Documentation
 description: Adaptive Behavior
 slug: navigation/mobile-support/adaptive-behavior
 tags: adaptive,behavior

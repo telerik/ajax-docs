@@ -1,6 +1,6 @@
 ---
-title: Templates Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Templates Overview | RadNavigation for ASP.NET AJAX Documentation
 description: Overview
 slug: navigation/templates/overview
 tags: overview

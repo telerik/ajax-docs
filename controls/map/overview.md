@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: RadMap Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: map/overview
 tags: overview
@@ -12,11 +12,11 @@ position: 0
 
 
 
-__RadMap__ for ASP.NET AJAX is a control powered by the	[Kendo UI DataViz Map](http://demos.telerik.com/kendo-ui/map/index) widget.	This control simplifies the setup of Map Tile Services with	[OpenStreetMap](http://www.openstreetmap.org/#map=8/42.745/25.494) and	[Bing](https://www.bingmapsportal.com/).	You can use different Shape layers and GeoJSON data to create helpful map modules in ASP.NET web applications.	The rich built-in functionality of the Map allows you to add and control predefined layouts, markers, tooltips, zoom levels,	UI elements and many more.
+**RadMap** for ASP.NET AJAX is a control powered by the	[Kendo UI DataViz Map](http://demos.telerik.com/kendo-ui/map/index) widget.	This control simplifies the setup of Map Tile Services with	[OpenStreetMap](http://www.openstreetmap.org/#map=8/42.745/25.494) and	[Bing](https://www.bingmapsportal.com/).	You can use different Shape layers and GeoJSON data to create helpful map modules in ASP.NET web applications.	The rich built-in functionality of the Map allows you to add and control predefined layouts, markers, tooltips, zoom levels,	UI elements and many more.
 
 ## 
 
-The __RadMap__ control in the Telerik UI for ASP.NET AJAX suite is available since __2014 Q2__ version.
+The **RadMap** control in the Telerik UI for ASP.NET AJAX suite is available since **2014 Q2** version.
 
 The control offers a rich set of features:
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeCollapsed
-page_title: OnClientNodeCollapsed | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeCollapsed | RadNavigation for ASP.NET AJAX Documentation
 description: OnClientNodeCollapsed
 slug: navigation/client-side-programming/events/onclientnodecollapsed
 tags: onclientnodecollapsed

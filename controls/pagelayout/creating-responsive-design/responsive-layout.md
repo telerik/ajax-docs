@@ -1,6 +1,6 @@
 ---
 title: Responsive Layout
-page_title: Responsive Layout | UI for ASP.NET AJAX Documentation
+page_title: Responsive Layout | RadPageLayout for ASP.NET AJAX Documentation
 description: Responsive Layout
 slug: pagelayout/creating-responsive-design/responsive-layout
 tags: responsive,layout
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The following article demonstrates the basics of creating a __Responsive Layout__.
+The following article demonstrates the basics of creating a **Responsive Layout**.
 
 ## Responsive Layout
 
-The concept behind __responsive layout__ is to adapt your application to the capabilities of the client (the end user) device (browser). This is usually done with two very simple transformations: resizing the content placeholders or hiding them. For example, showing the entire content of your web-site may not be quite user-friendly, in cases when it is browsed via mobile device. In that case you may need to hide portions of the content.
+The concept behind **responsive layout** is to adapt your application to the capabilities of the client (the end user) device (browser). This is usually done with two very simple transformations: resizing the content placeholders or hiding them. For example, showing the entire content of your web-site may not be quite user-friendly, in cases when it is browsed via mobile device. In that case you may need to hide portions of the content.
 
-With the __RadPageLayout__ control, you could easily do so, by using the responsive attributes: __HiddenXl, HiddenLg, HiddenMd, HiddenSm, and HiddenXs__. These manage the visibility of respective content place holders when viewed under various devices. In other cases you may need to resize a certain container. Again, that's easy to do with __RadPageLayout__ and responsive attributes: __SpanXs, SpanSm, SpanMd, SpanLg or SpanXl__. Those attributes, as the name suggests, control the Span of the columns under the various breakpoints. In other words once you have created your initial design, adding responsive capabilities is just a matter of configuration and setting a couple of properties.
+With the **RadPageLayout** control, you could easily do so, by using the responsive attributes: **HiddenXl, HiddenLg, HiddenMd, HiddenSm, and HiddenXs**. These manage the visibility of respective content place holders when viewed under various devices. In other cases you may need to resize a certain container. Again, that's easy to do with **RadPageLayout** and responsive attributes: **SpanXs, SpanSm, SpanMd, SpanLg or SpanXl**. Those attributes, as the name suggests, control the Span of the columns under the various breakpoints. In other words once you have created your initial design, adding responsive capabilities is just a matter of configuration and setting a couple of properties.
 
 ## Example
 
-The example below, demonstrates how you could hide the sidebars, when the resolution is small (sm) or extra small (xs). In addition, you could observe how the __Spans__ of the columns are changed, when the viewport size is less then 768px (using SpanXs and SpanSm).You can find more information about viewport breakpoints in the [this]({%slug pagelayout/creating-responsive-design/viewport-breakpoints%}) article.
+The example below, demonstrates how you could hide the sidebars, when the resolution is small (sm) or extra small (xs). In addition, you could observe how the **Spans** of the columns are changed, when the viewport size is less then 768px (using SpanXs and SpanSm).You can find more information about viewport breakpoints in the [this]({%slug pagelayout/creating-responsive-design/viewport-breakpoints%}) article.
 
 ````ASPNET
 	<head id="Head1" runat="server">

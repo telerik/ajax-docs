@@ -1,6 +1,6 @@
 ---
 title: Creating a Simple Context Menu
-page_title: Creating a Simple Context Menu | UI for ASP.NET AJAX Documentation
+page_title: Creating a Simple Context Menu | RadMenu for ASP.NET AJAX Documentation
 description: Creating a Simple Context Menu
 slug: menu/getting-started/creating-a-simple-context-menu
 tags: creating,a,simple,context,menu
@@ -14,39 +14,39 @@ position: 2
 
 ## 
 
-This tutorial will walk you through creating a simple __RadContextMenu__ and shows how to:
+This tutorial will walk you through creating a simple **RadContextMenu** and shows how to:
 
-* Use the __RadMenu Item Editor__ to build a simple context menu.
+* Use the **RadMenu Item Editor** to build a simple context menu.
 
 * Use the Targets collection to attach the context menu to another control.
 
-1. Drag a __RadContextMenu__ component from the toolbox onto your Web page. The __RadContextMenu__[Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically:![RadMenu Smart Tag](images/menu_smarttag.png)
+1. Drag a **RadContextMenu** component from the toolbox onto your Web page. The **RadContextMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}) should appear automatically:![RadMenu Smart Tag](images/menu_smarttag.png)
 
-1. On the Smart Tag, choose __Edit Items.__ The [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}) appears:![Contextmenu ItemBuilder](images/menu_contextmenuitembuilder.png)
+1. On the Smart Tag, choose **Edit Items.** The [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}) appears:![Contextmenu ItemBuilder](images/menu_contextmenuitembuilder.png)
 
-1. Click the __Add root item__ button (![RadMenu Add Root Item](images/menu_addrootitem.png)) to add a root item to your menu.
+1. Click the **Add root item** button (![RadMenu Add Root Item](images/menu_addrootitem.png)) to add a root item to your menu.
 
-1. With the root item selected, click the __Add child item__ button (![RadMenu Add Child Item](images/menu_addchilditem.png)) to add a child to your root item.
+1. With the root item selected, click the **Add child item** button (![RadMenu Add Child Item](images/menu_addchilditem.png)) to add a child to your root item.
 
-1. Add some more root items, and child items using the __Add root item__ button and the __Add child item__ button:![Contextmenu SampleMenu](images/menu_contextmenusamplemenu.png)
+1. Add some more root items, and child items using the **Add root item** button and the **Add child item** button:![Contextmenu SampleMenu](images/menu_contextmenusamplemenu.png)
 
-1. Select one of the child items, and change its __IsSeparator__ property to __True__ and its __Text__ property to an empty string (""):![Contextmenu IsSeparator](images/menu_contextmenuisseparator.png)
+1. Select one of the child items, and change its **IsSeparator** property to **True** and its **Text** property to an empty string (""):![Contextmenu IsSeparator](images/menu_contextmenuisseparator.png)
 
-1. Click __OK__ to confirm and exit.
+1. Click **OK** to confirm and exit.
 
-1. Right click on the __RadContextMenu__, and from its context menu, choose __Properties__.
+1. Right click on the **RadContextMenu**, and from its context menu, choose **Properties**.
 
-1. From the Standard area of the toolbox, drag a __Label__ onto your page. Set its __Text__ property to "Label1".
+1. From the Standard area of the toolbox, drag a **Label** onto your page. Set its **Text** property to "Label1".
 
-1. Move to the Source view of your Web page and locate the declaration of your __RadContextMenu__.
+1. Move to the Source view of your Web page and locate the declaration of your **RadContextMenu**.
 
-1. Select __Edit Targets__ from the smart tag.![RadContextMenu Targets](images/menu_targets.png)
+1. Select **Edit Targets** from the smart tag.![RadContextMenu Targets](images/menu_targets.png)
 
-1. From the __Target Editor__ select to __Add Control Target__. This attaches your context menu to a specific control, based on its ID:![RadContextMenu Control Target](images/menu_controltarget.png)
+1. From the **Target Editor** select to **Add Control Target**. This attaches your context menu to a specific control, based on its ID:![RadContextMenu Control Target](images/menu_controltarget.png)
 
 1. Select the ControlID attribute from the dropdown that appears:![RadContextMenu ControlID](images/menu_controlid.png)
 
-1. Select __Ok__ and run the application. Right-click on the label and see your context menu appear:![RadContextMenu](images/menu_contextmenu1.png)
+1. Select **Ok** and run the application. Right-click on the label and see your context menu appear:![RadContextMenu](images/menu_contextmenu1.png)
 
 # See Also
 

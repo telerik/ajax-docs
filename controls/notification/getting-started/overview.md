@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadNotification for ASP.NET AJAX Documentation
 description: Overview
 slug: notification/getting-started/overview
 tags: overview
@@ -14,29 +14,29 @@ position: 0
 
 ## 
 
-The following tutorial demonstrates how __RadNotification__ is used to provide a simple information popup.
+The following tutorial demonstrates how **RadNotification** is used to provide a simple information popup.
 >caption 
 
 
 
-1. In a new AJAX-Enabled Web Application drop a __RadNotification__ from the ToolBox to the default web page.
+1. In a new AJAX-Enabled Web Application drop a **RadNotification** from the ToolBox to the default web page.
 
-1. Set the __VisibleOnPageLoad__ property to true.
+1. Set the **VisibleOnPageLoad** property to true.
 
-1. Set the __Position__ property to __Center__.
+1. Set the **Position** property to **Center**.
 
-1. Set the __Text__ property to __Sample notification text__.
+1. Set the **Text** property to **Sample notification text**.
 
-1. Set the __Width__ property to __250px__.
+1. Set the **Width** property to **250px**.
 
-1. Set the __Height__ property to __100px__.
+1. Set the **Height** property to **100px**.
 
 1. Optionally you may also:
 
-* Set the __Title__ property to __Title__.
+* Set the **Title** property to **Title**.
 
-* Set the __EnableRoundedCorners__ property to __true__.
+* Set the **EnableRoundedCorners** property to **true**.
 
-* Set the __EnableShadow__ property to __true__.
+* Set the **EnableShadow** property to **true**.
 
-1. Press __F5__ to run the application. You will see a simple popup in the center of the browser.
+1. Press **F5** to run the application. You will see a simple popup in the center of the browser.

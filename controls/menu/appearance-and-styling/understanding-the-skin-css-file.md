@@ -1,6 +1,6 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding the Skin CSS File | RadMenu for ASP.NET AJAX Documentation
 description: Understanding the Skin CSS File
 slug: menu/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
@@ -20,7 +20,7 @@ Styles for RadControls are defined using Cascading Style Sheet (CSS) syntax. Eac
 
 
 
-See the [CSS Skin FileSelectors]({%slug menu/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for __RadMenu__ skins. You can see custom styles applied in the screenshot below:
+See the [CSS Skin FileSelectors]({%slug menu/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadMenu** skins. You can see custom styles applied in the screenshot below:
 
 ![RadMenu Custom Skin](images/menu_cssfinal.png)
 
@@ -87,13 +87,13 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 
 
 
-The control is rendered as a DIV element with the class "__RadMenu RadMenu_Green__". The item hierarchy is presented as nested unordered lists with links inside, all containing nested class attributes.
+The control is rendered as a DIV element with the class "**RadMenu RadMenu_Green**". The item hierarchy is presented as nested unordered lists with links inside, all containing nested class attributes.
 
 Here is a more detailed breakdown of the rendered markup:
 
 ## Root tag
 
-The menu is rendered as a __DIV__ tag. Here is an excerpt from the example above:
+The menu is rendered as a **DIV** tag. Here is an excerpt from the example above:
 
 ````HTML
 	    <div id="RadMenu1" class="RadMenu RadMenu_Green ">
@@ -103,9 +103,9 @@ The menu is rendered as a __DIV__ tag. Here is an excerpt from the example above
 
 
 
-The __ID__ attribute of the DIV tag is set to the __ClientID__ property of the __RadMenu__ control. As you can see two CSS classes have been applied: "__RadMenu__" and "__RadMenu_____Green__". The "__RadMenu__" class is always applied. It defines the basic presentation of the menu which is common for all skins. The "__RadMenu_Green__" class is applied because the __Skin__ of the menu is set to __"Green"__. If the the menu does not use a skin (the __Skin__ property is set to __""__) only the "__RadMenu__" CSS class would be rendered.
+The **ID** attribute of the DIV tag is set to the **ClientID** property of the **RadMenu** control. As you can see two CSS classes have been applied: "**RadMenu**" and "**RadMenu****_Green**". The "**RadMenu**" class is always applied. It defines the basic presentation of the menu which is common for all skins. The "**RadMenu_Green**" class is applied because the **Skin** of the menu is set to **"Green"**. If the the menu does not use a skin (the **Skin** property is set to **""**) only the "**RadMenu**" CSS class would be rendered.
 
-If you set the __Style__ or __CssClass__ property of the RadMenu control they would be applied to the root menu tag:
+If you set the **Style** or **CssClass** property of the RadMenu control they would be applied to the root menu tag:
 
 ````HTML
 	    <telerik:RadMenu runat="server" ID="RadMenu1" Skin="Green" CssClass="MyMenu" Style="position: relative; z-index: 1000">
@@ -115,7 +115,7 @@ If you set the __Style__ or __CssClass__ property of the RadMenu control they wo
 
 ## Root item group
 
-The root item group renders as a __UL__ (unordered list)tag:
+The root item group renders as a **UL** (unordered list)tag:
 
 ````HTML
 	        <ul class="rmHorizontal rmRootGroup">
@@ -127,11 +127,11 @@ The root item group renders as a __UL__ (unordered list)tag:
 
 
 
-It has two CSS classes applied: "__rmHorizontal__" and "__rmRootGroup__". The "__rmHorizontal__" class is applied because the __Flow__ of the __RadMenu__ is horizontal by default. If it were vertical that CSS class would be "__rmVertical__". The "__rmRootGroup__" CSS class is always rendered.
+It has two CSS classes applied: "**rmHorizontal**" and "**rmRootGroup**". The "**rmHorizontal**" class is applied because the **Flow** of the **RadMenu** is horizontal by default. If it were vertical that CSS class would be "**rmVertical**". The "**rmRootGroup**" CSS class is always rendered.
 
 ## Menu items
 
-RadMenuItem renders as a __LI__ (list item) tag, containing an __A__(link or anchor) tag. The text of the item is rendered inside a __SPAN__ tag:
+RadMenuItem renders as a **LI** (list item) tag, containing an **A**(link or anchor) tag. The text of the item is rendered inside a **SPAN** tag:
 
 ````HTML
 	        <li class="rmItem">
@@ -144,9 +144,9 @@ RadMenuItem renders as a __LI__ (list item) tag, containing an __A__(link or anc
 
 
 
-The __LI__ tag has its __class__ attribute always set to "__rmItem__". The __A__ tag has its class attribute always set to "__rmLink__". The __SPAN__ tag has its class attribute always set to "__rmText__". If the __Style__ or __CssClass__ properties of the __RadMenuItem__ class are set they are applied to the __A__ tag.
+The **LI** tag has its **class** attribute always set to "**rmItem**". The **A** tag has its class attribute always set to "**rmLink**". The **SPAN** tag has its class attribute always set to "**rmText**". If the **Style** or **CssClass** properties of the **RadMenuItem** class are set they are applied to the **A** tag.
 
-If the item is the first child of its parent, the __LI__ tag also has the "__rmFirst__" CSS class applied:
+If the item is the first child of its parent, the **LI** tag also has the "**rmFirst**" CSS class applied:
 
 ````HTML
 	        <li class="rmItem rmFirst">
@@ -159,7 +159,7 @@ If the item is the first child of its parent, the __LI__ tag also has the "__rmF
 
 
 
-If the item is the last child of its parent, the __LI__ tag has the "__rmLast__" CSS class applied:
+If the item is the last child of its parent, the **LI** tag has the "**rmLast**" CSS class applied:
 
 ````HTML
 	        <li class="rmItem rmLast">
@@ -171,13 +171,13 @@ If the item is the last child of its parent, the __LI__ tag has the "__rmLast__"
 
 
 
-Note that in this example, the item is disabled, so the __A__ tag has the "__rmDisabled__" class applied as well as the "__rmLink__" class.
+Note that in this example, the item is disabled, so the **A** tag has the "**rmDisabled**" class applied as well as the "**rmLink**" class.
 
->note If an item is the only child of its parent it has both the " __rmFirst__ " and " __rmLast__ " CSS classes.
+>note If an item is the only child of its parent it has both the " **rmFirst** " and " **rmLast** " CSS classes.
 >
 
 
-If the item is a separator (its __IsSeparator__ property is __True__), the __LI__tag gets the "__rmSeparator__" class applied. Because separators do not respond to user clicks, it has no __A__element:
+If the item is a separator (its **IsSeparator** property is **True**), the **LI**tag gets the "**rmSeparator**" class applied. Because separators do not respond to user clicks, it has no **A**element:
 
 ````HTML
 	        <li class="rmItem rmSeparator ">
@@ -189,17 +189,17 @@ If the item is a separator (its __IsSeparator__ property is __True__), the __LI_
 
 ## Item States
 
-The __Last Menu Item__ example showed a disabled item with the "__rmDisabled__" class applied to the __A__ tag. Other item states also result in additional CSS classes applied to the __A__ tag:
+The **Last Menu Item** example showed a disabled item with the "**rmDisabled**" class applied to the **A** tag. Other item states also result in additional CSS classes applied to the **A** tag:
 
-* __Focused items__: An item is focused when clicked or when it is selected with the keyboard (by using the TAB key or a shortcut - access key). When an item is focused one additional CSS class - "__rmFocused__" is applied to the __A__ tag.
+* **Focused items**: An item is focused when clicked or when it is selected with the keyboard (by using the TAB key or a shortcut - access key). When an item is focused one additional CSS class - "**rmFocused**" is applied to the **A** tag.
 
-* __Expanded items__: An item is expanded when the user hovers it with the mouse. When an item is expanded one additional CSS class - "__rmExpanded__" is applied to the __A__ tag.
+* **Expanded items**: An item is expanded when the user hovers it with the mouse. When an item is expanded one additional CSS class - "**rmExpanded**" is applied to the **A** tag.
 
-* __Clicked items__: An item is clicked when the user clicks it with the mouse and keeps the mouse button pressed. When an item is in clicked state one additional CSS class - "__rmClicked__" is applied to the __A__ tag. When the user releases the mouse button, the "__rmClicked__" CSS class is removed. This CSS class is useful to visually show that a menu item is clicked.
+* **Clicked items**: An item is clicked when the user clicks it with the mouse and keeps the mouse button pressed. When an item is in clicked state one additional CSS class - "**rmClicked**" is applied to the **A** tag. When the user releases the mouse button, the "**rmClicked**" CSS class is removed. This CSS class is useful to visually show that a menu item is clicked.
 
 ## Child item groups
 
-If the item has children they are rendered in an __UL__ tag within the __LI__ tag of their parent item:
+If the item has children they are rendered in an **UL** tag within the **LI** tag of their parent item:
 
 ````HTML
 	        <div class="rmSlide">
@@ -215,7 +215,7 @@ If the item has children they are rendered in an __UL__ tag within the __LI__ ta
 >
 
 
-The child item group has three CSS classes applied: "__rmVertical__", "__rmGroup__" and "__rmLevel1__". The "__rmVertical__" class is applied because the default item flow for child items is vertical. If it were horizontal (GroupSettings-Flow="Horizontal") that class would have been "__rmHorizontal__". The "__grGroup__" class is always applied for child item groups. The "__rmLevel1__" class is applied for all level 1 item groups. Root items are considered as level 0, their children are level 1, their children's children are level 2 and so on.
+The child item group has three CSS classes applied: "**rmVertical**", "**rmGroup**" and "**rmLevel1**". The "**rmVertical**" class is applied because the default item flow for child items is vertical. If it were horizontal (GroupSettings-Flow="Horizontal") that class would have been "**rmHorizontal**". The "**grGroup**" class is always applied for child item groups. The "**rmLevel1**" class is applied for all level 1 item groups. Root items are considered as level 0, their children are level 1, their children's children are level 2 and so on.
 
 ## Graphic representation of CSS Classes in the HTML output
 

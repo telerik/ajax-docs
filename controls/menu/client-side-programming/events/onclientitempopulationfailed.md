@@ -1,6 +1,6 @@
 ---
 title: OnClientItemPopulationFailed
-page_title: OnClientItemPopulationFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemPopulationFailed | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemPopulationFailed
 slug: menu/client-side-programming/events/onclientitempopulationfailed
 tags: onclientitempopulationfailed
@@ -14,7 +14,7 @@ position: 15
 
 ## 
 
-The __OnClientItemPopulationFailed__ client-side event occurs when an attempt to populate a list of child items using a Web service fails.
+The **OnClientItemPopulationFailed** client-side event occurs when an attempt to populate a list of child items using a Web service fails.
 
 The event handler receives two parameters:
 
@@ -22,15 +22,15 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadMenuItem__ whose child items the Web service failed to populate.
+* **get_item** returns a reference to the **RadMenuItem** whose child items the Web service failed to populate.
 
-* __set_cancel__ lets you prevent the default response to the error, which is a standard alert message displaying an error message describing the failure.
+* **set_cancel** lets you prevent the default response to the error, which is a standard alert message displaying an error message describing the failure.
 
-* __get_cancel__ returns a boolean value indicating whether the default alert message was canceled.
+* **get_cancel** returns a boolean value indicating whether the default alert message was canceled.
 
-* __get_errorMessage__ returns an error message describing the failure.
+* **get_errorMessage** returns an error message describing the failure.
 
-You can use this event to substitute your own mechanism for responding to errors from the Web service. For example, the following example disables the problem item and substitutes a call to the __radalert__ method so that the error message blends in to the look & feel of the Web site:
+You can use this event to substitute your own mechanism for responding to errors from the Web service. For example, the following example disables the problem item and substitutes a call to the **radalert** method so that the error message blends in to the look & feel of the Web site:
 
 ````ASPNET
 	    <script type="text/javascript">     

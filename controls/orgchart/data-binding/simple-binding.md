@@ -1,6 +1,6 @@
 ---
 title: Simple Binding
-page_title: Simple Binding | UI for ASP.NET AJAX Documentation
+page_title: Simple Binding | RadOrgChart for ASP.NET AJAX Documentation
 description: Simple Binding
 slug: orgchart/data-binding/simple-binding
 tags: simple,binding
@@ -12,7 +12,7 @@ position: 1
 
 
 
-In order to support a simple, straight-forward binding to a self-referenced data, without complex relations such as groups, RadOrgChart supports 2 different kinds of binding, first of which we called __Simple Data Binding__. Second one is called __Group-Enabled Binding__ (see the[Group-Enabled Binding]({%slug orgchart/data-binding/group-enabled-binding%}) article)
+In order to support a simple, straight-forward binding to a self-referenced data, without complex relations such as groups, RadOrgChart supports 2 different kinds of binding, first of which we called **Simple Data Binding**. Second one is called **Group-Enabled Binding** (see the[Group-Enabled Binding]({%slug orgchart/data-binding/group-enabled-binding%}) article)
 
 ## 
 

@@ -1,6 +1,6 @@
 ---
 title: Hide and Show the Menu on the Client
-page_title: Hide and Show the Menu on the Client | UI for ASP.NET AJAX Documentation
+page_title: Hide and Show the Menu on the Client | RadMenu for ASP.NET AJAX Documentation
 description: Hide and Show the Menu on the Client
 slug: menu/how-to/hide-and-show-the-menu-on-the-client
 tags: hide,and,show,the,menu,on,the,client

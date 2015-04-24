@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeClicking
-page_title: OnClientNodeClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeClicking | RadNavigation for ASP.NET AJAX Documentation
 description: OnClientNodeClicking
 slug: navigation/client-side-programming/events/onclientnodeclicking
 tags: onclientnodeclicking

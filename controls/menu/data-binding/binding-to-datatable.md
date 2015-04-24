@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable | RadMenu for ASP.NET AJAX Documentation
 description: Binding to DataTable
 slug: menu/data-binding/binding-to-datatable
 tags: binding,to,datatable
@@ -12,13 +12,13 @@ position: 2
 
 
 
-__RadMenu__ can be bound to __DataSet__, __DataTable__, and __DataView__. The menu hierarchy can be established with an*ID->ParentID* relation.
+**RadMenu** can be bound to **DataSet**, **DataTable**, and **DataView**. The menu hierarchy can be established with an*ID->ParentID* relation.
 
 ## Creating the data table in code
 
-The following example illustrates how to bind to a __DataTable__ that is created in code. The same type of logic can easily be applied to a __DataView__ instead:
+The following example illustrates how to bind to a **DataTable** that is created in code. The same type of logic can easily be applied to a **DataView** instead:
 
-1. Create a function that dynamically creates the data source (in this case, a __DataTable__):
+1. Create a function that dynamically creates the data source (in this case, a **DataTable**):
 
 
 
@@ -62,7 +62,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 ````
 
 
-1. Set the __DataSource__ property of the menu to the DataTable. At the same time, use the __RadMenu__ properties to specify the fields to use for the __Text__, __Value__, and __NavigateUrl__ properties of menu items. Indicate how to establish the item hierarchy by giving values to the __DataFieldID__ and __DataFieldParentID__ properties. Finally, call the __DataBind__ method to bind the menu:
+1. Set the **DataSource** property of the menu to the DataTable. At the same time, use the **RadMenu** properties to specify the fields to use for the **Text**, **Value**, and **NavigateUrl** properties of menu items. Indicate how to establish the item hierarchy by giving values to the **DataFieldID** and **DataFieldParentID** properties. Finally, call the **DataBind** method to bind the menu:
 
 
 
@@ -100,7 +100,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 ````
 
 
-1. Create an __[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})__ to set additional properties on the menu items:
+1. Create an **[ItemDataBound event handler]({%slug menu/server-side-programming/itemdatabound%})** to set additional properties on the menu items:
 
 
 
@@ -123,9 +123,9 @@ The following example illustrates how to bind to a __DataTable__ that is created
 
 ## Fetching the data from a separate database
 
-You can use a __DataSet__ when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a __DataSet__:
+You can use a **DataSet** when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a **DataSet**:
 
->note When binding to a __DataSet__ component, you can set the __DataMember__ property to identify the __DataTable__ within the __DataSet__ to which the menu should be bound.
+>note When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the menu should be bound.
 >
 
 
@@ -167,7 +167,7 @@ You can use a __DataSet__ when the data comes from a separate database. Just use
 ````
 
 
->caution The __ParentID__ of the root items must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:
+>caution The **ParentID** of the root items must be **null** ( **nothing** ). If for some reason the data source comes without null values for the ParentID column, you must either fix the data by writing code to modify ParentID values in the DataTable, or use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblData
 >
 

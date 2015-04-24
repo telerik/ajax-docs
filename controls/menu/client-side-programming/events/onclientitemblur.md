@@ -1,6 +1,6 @@
 ---
 title: OnClientItemBlur
-page_title: OnClientItemBlur | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemBlur | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemBlur
 slug: menu/client-side-programming/events/onclientitemblur
 tags: onclientitemblur
@@ -16,7 +16,7 @@ position: 12
 
 ## 
 
-The __OnClientItemBlur__ client-side event occurs when an item in the menu loses focus.
+The **OnClientItemBlur** client-side event occurs when an item in the menu loses focus.
 
 The event handler receives two parameters:
 
@@ -24,9 +24,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that lost focus.
+* **get_item** returns a reference to the **RadMenuItem** that lost focus.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the blur.
+* **get_domEvent** returns a reference to the DOM event that caused the blur.
 
 You can use this event to respond when an item loses focus.
 

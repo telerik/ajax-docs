@@ -1,6 +1,6 @@
 ---
 title: Horizontal Orientation
-page_title: Horizontal Orientation | UI for ASP.NET AJAX Documentation
+page_title: Horizontal Orientation | RadOrgChart for ASP.NET AJAX Documentation
 description: Horizontal Orientation
 slug: orgchart/functionality/horizontal-orientation
 tags: horizontal,orientation
@@ -16,9 +16,9 @@ position: 7
 
 ## 
 
-__Horizontal Orientation__ is a new feature available in __RadOrgChart__ since Q1 2015 release. Setting the __RadOrgChart__'s __Orientation__ property to __Horizontal__ expands all Nodes horizontally. This feature is available if the control's [Lightweight RenderMode]({%slug orgchart/mobile-support/render-modes%}) is selected.
+**Horizontal Orientation** is a new feature available in **RadOrgChart** since Q1 2015 release. Setting the **RadOrgChart**'s **Orientation** property to **Horizontal** expands all Nodes horizontally. This feature is available if the control's [Lightweight RenderMode]({%slug orgchart/mobile-support/render-modes%}) is selected.
 
-The following examples demonstrate how to use __Horizontal Orientation__ with Items Grouping and SimpleBinding.
+The following examples demonstrate how to use **Horizontal Orientation** with Items Grouping and SimpleBinding.
 >caption Figure 1: Horizontal Orientation of RadOrgChart with Items Grouping
 
 ![orgchart-horizontal-orientation](images/orgchart-horizontal-orientation.png)

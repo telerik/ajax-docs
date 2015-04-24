@@ -1,6 +1,6 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Web Service Binding | RadMenu for ASP.NET AJAX Documentation
 description: Web Service Binding
 slug: menu/data-binding/web-service-binding
 tags: web,service,binding
@@ -14,32 +14,32 @@ position: 9
 
 ## 
 
-You can load child items in a menu dynamically through a Web service. The following steps describe how to configure __RadMenu__ so that it can use a Web service to supply child items:
+You can load child items in a menu dynamically through a Web service. The following steps describe how to configure **RadMenu** so that it can use a Web service to supply child items:
 
-1. Add the parent items to your menu using the [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}). For each item whose child items are to be added using the Web service, set its __ExpandMode__ property to "WebService".
+1. Add the parent items to your menu using the [RadMenu Item Builder]({%slug menu/design-time/radmenu-item-builder%}). For each item whose child items are to be added using the Web service, set its **ExpandMode** property to "WebService".
 
-1. In the properties pane for the __RadMenu__ component, set the __WebServiceSettings__ property to identify the Web service and service method:
+1. In the properties pane for the **RadMenu** component, set the **WebServiceSettings** property to identify the Web service and service method:
 
-* Set the __Path__ sub-property to the URL for the Web service.
+* Set the **Path** sub-property to the URL for the Web service.
 
-* Set the __Method__ sub-property to the name of the method of the Web service that supplies child items.
+* Set the **Method** sub-property to the name of the method of the Web service that supplies child items.
 
-* Set the __UseHttpGet__ sub-property to *True* to change the default HTTP method (__POST)__. This property is added in Q1 2009 release
+* Set the **UseHttpGet** sub-property to *True* to change the default HTTP method (**POST)**. This property is added in Q1 2009 release
 
->note The __WebServiceSettings__ property is global to the __RadMenu__ object. You can't use separate methods on the Web service for different parent menu items.
+>note The **WebServiceSettings** property is global to the **RadMenu** object. You can't use separate methods on the Web service for different parent menu items.
 >
 
 
-1. Optionally, set the __[OnClientItemPopulating property]({%slug menu/client-side-programming/events/onclientitempopulating%})__ to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items.
+1. Optionally, set the **[OnClientItemPopulating property]({%slug menu/client-side-programming/events/onclientitempopulating%})** to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items.
 
-1. Optionally, set the __[OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%})__ and __[OnClientItemPopulationFailed]({%slug menu/client-side-programming/events/onclientitempopulationfailed%})__ properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
+1. Optionally, set the **[OnClientItemPopulated]({%slug menu/client-side-programming/events/onclientitempopulated%})** and **[OnClientItemPopulationFailed]({%slug menu/client-side-programming/events/onclientitempopulationfailed%})** properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
 
-1. Optionally, supply a Loading Status template by adding a __LoadingStatusTemplate__ section to your RadMenu declaration. The Loading Status template acts as a placeholder for the group of child items while the Web service handles the request for items.
+1. Optionally, supply a Loading Status template by adding a **LoadingStatusTemplate** section to your RadMenu declaration. The Loading Status template acts as a placeholder for the group of child items while the Web service handles the request for items.
 
-The following example shows a __RadMenu__ that fetches all child items from a Web Service. The LoadingStatusTemplate appears while the Web service is handling the request for items.
+The following example shows a **RadMenu** that fetches all child items from a Web Service. The LoadingStatusTemplate appears while the Web service is handling the request for items.
 
->note You can obtain the parent item's __Text__ and __Value__ from the __RadMenuItemData__ parameter passed to the the WebService's method.
->public RadMenuItemData[] GetMenuCategories( __RadMenuItemData__  __item__ , object context){ __item.Text__ //returns the __Text__ of the parent item, whose child items are being populated __item.Value__ //returns the __Value__ of the parent item, whose child items are being populated}
+>note You can obtain the parent item's **Text** and **Value** from the **RadMenuItemData** parameter passed to the the WebService's method.
+>public RadMenuItemData[] GetMenuCategories( **RadMenuItemData**  **item** , object context){ **item.Text** //returns the **Text** of the parent item, whose child items are being populated **item.Value** //returns the **Value** of the parent item, whose child items are being populated}
 >
 
 

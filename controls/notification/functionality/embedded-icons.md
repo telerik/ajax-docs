@@ -1,6 +1,6 @@
 ---
 title: Embedded Icons
-page_title: Embedded Icons | UI for ASP.NET AJAX Documentation
+page_title: Embedded Icons | RadNotification for ASP.NET AJAX Documentation
 description: Embedded Icons
 slug: notification/functionality/embedded-icons
 tags: embedded,icons
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadNotification__ provides two icons in its UI to help convey the message - the __TitleIcon__ and __ContentIcon__. The __TitleIcon__'s size is 16 by 16 pixels and the __ContentIcon__'s size is 32 by 32 pixels. You can point these properties to a custom image in your application or you can use the embedded icons. The list with the possible values for the embedded icons is as follows:
+**RadNotification** provides two icons in its UI to help convey the message - the **TitleIcon** and **ContentIcon**. The **TitleIcon**'s size is 16 by 16 pixels and the **ContentIcon**'s size is 32 by 32 pixels. You can point these properties to a custom image in your application or you can use the embedded icons. The list with the possible values for the embedded icons is as follows:
 
 * info
 

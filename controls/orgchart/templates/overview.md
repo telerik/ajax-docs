@@ -1,6 +1,6 @@
 ---
-title: Templates Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Templates Overview | RadOrgChart for ASP.NET AJAX Documentation
 description: Overview
 slug: orgchart/templates/overview
 tags: overview
@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-__RadOrgChart__ is highly customizable. Besides the built-in skins that you can apply you can customize the appearance of the nodes by using templates. For example if the sizes of images does not apply to already collected number of employee profile pictures, a template can be created without the restrain of 48x48 pixels (which is the default image size for RadOrgChart). When a template is used the rendered fields of the GroupItem are not applied.
+**RadOrgChart** is highly customizable. Besides the built-in skins that you can apply you can customize the appearance of the nodes by using templates. For example if the sizes of images does not apply to already collected number of employee profile pictures, a template can be created without the restrain of 48x48 pixels (which is the default image size for RadOrgChart). When a template is used the rendered fields of the GroupItem are not applied.
 
-In order to facilitate that we have implemented a __3-level__ templating engine giving the power of applying templates on:
+In order to facilitate that we have implemented a **3-level** templating engine giving the power of applying templates on:
 
-1. __OrgChart level (ItemTemplate)__ - for all items that doesn't have template nor does their node;
+1. **OrgChart level (ItemTemplate)** - for all items that doesn't have template nor does their node;
 
-1. __Node level (ItemTemplate)__ - for all items within the node which doesn't have template;
+1. **Node level (ItemTemplate)** - for all items within the node which doesn't have template;
 
-1. __GroupItem level (simply Template)__ - for the item, with disregard of node or global (OrgChart.ItemTemplate) template.
+1. **GroupItem level (simply Template)** - for the item, with disregard of node or global (OrgChart.ItemTemplate) template.
 
 Here is an example that demonstrates how the above mentioned templated can be applied:
 
@@ -175,7 +175,7 @@ Here is an example that demonstrates how to add dynamically a template:
 
 ## 
 
-Here is an example that demonstrates how to evaluate a template. Please keep in mind that the __Container__ is the object reference against which the expression is evaluated and the __Container.DataItem__ is the reference to row from the data source to which the item is bound.
+Here is an example that demonstrates how to evaluate a template. Please keep in mind that the **Container** is the object reference against which the expression is evaluated and the **Container.DataItem** is the reference to row from the data source to which the item is bound.
 
 ````C#
 	        <telerik:RadOrgChart runat="server" ID="RadOrgChart3" DataFieldID="ID" DataFieldParentID="ParentID">

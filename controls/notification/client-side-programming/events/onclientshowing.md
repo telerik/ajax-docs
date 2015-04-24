@@ -1,6 +1,6 @@
 ---
 title: OnClientShowing
-page_title: OnClientShowing | UI for ASP.NET AJAX Documentation
+page_title: OnClientShowing | RadNotification for ASP.NET AJAX Documentation
 description: OnClientShowing
 slug: notification/client-side-programming/events/onclientshowing
 tags: onclientshowing
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-The __OnClientShowing__ event occurs just before the notification is shown. This event is cancellable.
+The **OnClientShowing** event occurs just before the notification is shown. This event is cancellable.
 
 The event handler receives the following parameters:
 
-1. The __RadNotification__ client instance that fired the event.
+1. The **RadNotification** client instance that fired the event.
 
 1. Event arguments object. Call its set_cancel(true) method to cancel the event.
 

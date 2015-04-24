@@ -1,6 +1,6 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Creation | RadMediaPlayer for ASP.NET AJAX Documentation
 description: Programmatic Creation
 slug: mediaplayer/server-side-programming/programmatic-creation
 tags: programmatic,creation
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-In some scenarios it is required to create the __RadMediaPlayer__ control programmatically. Depending on some user interaction or selection, you can even build up the Playlist anew. The following example demonstrates a generic dynamic creation and configuration of the player and adds it to the main Controls collection. You can add it to a PlaceHolder or similar container control instead.
+In some scenarios it is required to create the **RadMediaPlayer** control programmatically. Depending on some user interaction or selection, you can even build up the Playlist anew. The following example demonstrates a generic dynamic creation and configuration of the player and adds it to the main Controls collection. You can add it to a PlaceHolder or similar container control instead.
 
 
 

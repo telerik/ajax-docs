@@ -1,6 +1,6 @@
 ---
 title: Rendered Fields
-page_title: Rendered Fields | UI for ASP.NET AJAX Documentation
+page_title: Rendered Fields | RadOrgChart for ASP.NET AJAX Documentation
 description: Rendered Fields
 slug: orgchart/functionality/rendered-fields
 tags: rendered,fields
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The Telerik's __RadOrgChart__ control supports custom fields for __Nodes__ and __Items__. Using custom fields that we call __RenderedFields__ one can add an extra text information about every Node or Item in __RadOrgChart__ control. Rendered fields can be added either to the Node or to the Items of the RadOrgChart or to both.
+The Telerik's **RadOrgChart** control supports custom fields for **Nodes** and **Items**. Using custom fields that we call **RenderedFields** one can add an extra text information about every Node or Item in **RadOrgChart** control. Rendered fields can be added either to the Node or to the Items of the RadOrgChart or to both.
 
 >note When you need to set custom fields on a Node it is important that you also set the *Group-Enable Binding* .
 >
@@ -24,17 +24,17 @@ The Telerik's __RadOrgChart__ control supports custom fields for __Nodes__ and _
 
 RenderedFields, for Nodes or Items, can be set from the mark up in section RenderedFields or in codebind. There are several properties that you can use with in the OrgChartRenderedField tag:
 
-* __DataField__ - this is the field name from the data source that populates each custom field's text property during binding.
+* **DataField** - this is the field name from the data source that populates each custom field's text property during binding.
 
-* __Label__ - short description about custom field's text. It is optional.
+* **Label** - short description about custom field's text. It is optional.
 
-* __Text__ - short description of the custom field that will appear in the Node or the Item depending on where it is set.
+* **Text** - short description of the custom field that will appear in the Node or the Item depending on where it is set.
 
 ## How to Set Rendered Fields
 
 In general there are two ways to set custom fields. They include:
 
-* Set Rendered fields when the RadOrgChart is Databound (in the markup or in code behind) - using the name of the column of your database you can set the __DataField__ property and the __Label__ property of the __OrgChartRenderedField__ as follows:
+* Set Rendered fields when the RadOrgChart is Databound (in the markup or in code behind) - using the name of the column of your database you can set the **DataField** property and the **Label** property of the **OrgChartRenderedField** as follows:
 
 ````ASPNET
 				<telerik:RadOrgChart ID="RadOrgChart1" runat="server">

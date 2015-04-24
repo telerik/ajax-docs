@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadODataDataSource for ASP.NET AJAX Documentation
 description: Getting Started
 slug: odatadatasource/getting-started
 tags: getting,started

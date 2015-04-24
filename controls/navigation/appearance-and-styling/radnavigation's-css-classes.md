@@ -1,6 +1,6 @@
 ---
 title: RadNavigation's CSS Classes
-page_title: RadNavigation's CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: RadNavigation's CSS Classes | RadNavigation for ASP.NET AJAX Documentation
 description: RadNavigation's CSS Classes
 slug: navigation/appearance-and-styling/radnavigation's-css-classes
 tags: radnavigation's,css,classes

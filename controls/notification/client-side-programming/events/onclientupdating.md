@@ -1,6 +1,6 @@
 ---
 title: OnClientUpdating
-page_title: OnClientUpdating | UI for ASP.NET AJAX Documentation
+page_title: OnClientUpdating | RadNotification for ASP.NET AJAX Documentation
 description: OnClientUpdating
 slug: notification/client-side-programming/events/onclientupdating
 tags: onclientupdating
@@ -14,11 +14,11 @@ position: 4
 
 ## 
 
-The __OnClientUpdating__ event occurs after the new content is received and just before it is updated in the control. This event is cancellable (i.e. the visual update can be cancelled, the call to the server for new content will always be performed). It will not be fired when the content is static. It is only fired when new content is received via a WebService or via a callback. The __LoadContentOn__ setting is also used to control whether it will be fired or not.
+The **OnClientUpdating** event occurs after the new content is received and just before it is updated in the control. This event is cancellable (i.e. the visual update can be cancelled, the call to the server for new content will always be performed). It will not be fired when the content is static. It is only fired when new content is received via a WebService or via a callback. The **LoadContentOn** setting is also used to control whether it will be fired or not.
 
 The event handler receives the following parameters:
 
-1. The __RadNotification__ client instance that fired the event.
+1. The **RadNotification** client instance that fired the event.
 
 1. Event arguments object. It exposes the following methods: Call its set_cancel(true) method to cancel the event.
 

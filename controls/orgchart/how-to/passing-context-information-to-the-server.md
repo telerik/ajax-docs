@@ -1,6 +1,6 @@
 ---
 title: Passing Context Information to the Server
-page_title: Passing Context Information to the Server | UI for ASP.NET AJAX Documentation
+page_title: Passing Context Information to the Server | RadOrgChart for ASP.NET AJAX Documentation
 description: Passing Context Information to the Server
 slug: orgchart/how-to/passing-context-information-to-the-server
 tags: passing,context,information,to,the,server
@@ -12,13 +12,13 @@ position: 0
 
 
 
-On the client side, you can use the client-side __OnClientGroupPopulating__ and __OnClientNodePopulating__ events to set attributes of the context object that is passed to the server along with the request for groups/items. The context object is an object of type __IDictionary__.After the __OnClientGroupPopulating__ and __OnClientNodePopulating__ events fire those attributes are available on the server.
+On the client side, you can use the client-side **OnClientGroupPopulating** and **OnClientNodePopulating** events to set attributes of the context object that is passed to the server along with the request for groups/items. The context object is an object of type **IDictionary**.After the **OnClientGroupPopulating** and **OnClientNodePopulating** events fire those attributes are available on the server.
 
 ## Using context information with a WebService
 
 Below you may find an example that shows how to retrieve the text value typed in the text box and send this value to the web service. This attribute could be used to filter the RadOrgChart data in order to return only the teams containing this value.
 
-1. Add a javascript function to your Web page that serves the role of handler for the __RadOrgChart OnClientNodePopulating__ client-side event.
+1. Add a javascript function to your Web page that serves the role of handler for the **RadOrgChart OnClientNodePopulating** client-side event.
 
 1. Add an filter attribute for the context object based on the value typed in the text box field.
 

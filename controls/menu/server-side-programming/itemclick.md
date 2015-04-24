@@ -1,6 +1,6 @@
 ---
 title: ItemClick
-page_title: ItemClick | UI for ASP.NET AJAX Documentation
+page_title: ItemClick | RadMenu for ASP.NET AJAX Documentation
 description: ItemClick
 slug: menu/server-side-programming/itemclick
 tags: itemclick
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-The server-side __ItemClick__ event occurs when the user clicks on a menu item, causing a postback.
+The server-side **ItemClick** event occurs when the user clicks on a menu item, causing a postback.
 
-The __ItemClick__ event handler receives two arguments:
+The **ItemClick** event handler receives two arguments:
 
-1. The __RadMenu__ that contains the clicked item. This argument is of type object, but can be cast to the __RadMenu__ type.
+1. The **RadMenu** that contains the clicked item. This argument is of type object, but can be cast to the **RadMenu** type.
 
-1. A __RadMenuEventArgs__ object. This object has an __Item__ property that you can use to access the item that was clicked.
+1. A **RadMenuEventArgs** object. This object has an **Item** property that you can use to access the item that was clicked.
 
-Use the __ItemClick__ event handler to respond when the user clicks an item in the menu.
+Use the **ItemClick** event handler to respond when the user clicks an item in the menu.
 
 
 

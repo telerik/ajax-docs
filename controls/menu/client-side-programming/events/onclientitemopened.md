@@ -1,6 +1,6 @@
 ---
 title: OnClientItemOpened
-page_title: OnClientItemOpened | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemOpened | RadMenu for ASP.NET AJAX Documentation
 description: OnClientItemOpened
 slug: menu/client-side-programming/events/onclientitemopened
 tags: onclientitemopened
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientItemOpened__ client-side event occurs immediately after an item in the menu expands to show its child items.
+The **OnClientItemOpened** client-side event occurs immediately after an item in the menu expands to show its child items.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadMenuItem__ that was opened.
+* **get_item** returns a reference to the **RadMenuItem** that was opened.
 
-* __get_domEvent__ returns a reference to the DOM event that caused the opening.
+* **get_domEvent** returns a reference to the DOM event that caused the opening.
 
 You can use this event to initialize the list of child items:
 

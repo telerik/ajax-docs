@@ -1,6 +1,6 @@
 ---
 title: Binding to Object-Based Data Sources
-page_title: Binding to Object-Based Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Binding to Object-Based Data Sources | RadNavigation for ASP.NET AJAX Documentation
 description: Binding to Object-Based Data Sources
 slug: navigation/data-binding/binding-to-object-based-data-sources
 tags: binding,to,object-based,data,sources

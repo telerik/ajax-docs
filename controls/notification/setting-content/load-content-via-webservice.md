@@ -1,6 +1,6 @@
 ---
 title: Load Content Via WebService
-page_title: Load Content Via WebService | UI for ASP.NET AJAX Documentation
+page_title: Load Content Via WebService | RadNotification for ASP.NET AJAX Documentation
 description: Load Content Via WebService
 slug: notification/setting-content/load-content-via-webservice
 tags: load,content,via,webservice
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__RadNotification__ offers a built-in support for gathering data from a WebService. The path to the web service and the name of the service method are specified in the __WebMethodPath__ and __WebMethodName__ properties. In order to use the integrated support, the web service should have the following signature:
+**RadNotification** offers a built-in support for gathering data from a WebService. The path to the web service and the name of the service method are specified in the **WebMethodPath** and **WebMethodName** properties. In order to use the integrated support, the web service should have the following signature:
 
 
 

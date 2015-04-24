@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadMenu for ASP.NET AJAX Documentation
 description: Events
 slug: menu/server-side-programming/events
 tags: events
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadMenu__ introduces three server-side events for working with menu items:
+**RadMenu** introduces three server-side events for working with menu items:
 
 * [ItemClick]({%slug menu/server-side-programming/itemclick%}) occurs when the user clicks on a menu item.
 
