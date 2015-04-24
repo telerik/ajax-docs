@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadFileExplorer for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: fileexplorer/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadFileExplorer__ fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set __dir=rtl to the html or body__ element or to its parent element.
+The **RadFileExplorer** fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set **dir=rtl to the html or body** element or to its parent element.
 
 ````ASPNET
 	    <div style="direction: rtl;">

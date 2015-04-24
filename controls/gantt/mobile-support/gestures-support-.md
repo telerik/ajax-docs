@@ -1,6 +1,6 @@
 ---
 title: Gestures Support 
-page_title: Gestures Support  | UI for ASP.NET AJAX Documentation
+page_title: Gestures Support  | RadGantt for ASP.NET AJAX Documentation
 description: Gestures Support 
 slug: gantt/mobile-support/gestures-support-
 tags: gestures,support,

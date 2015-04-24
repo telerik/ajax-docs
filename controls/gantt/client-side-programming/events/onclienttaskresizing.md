@@ -1,6 +1,6 @@
 ---
 title: OnClientTaskResizing
-page_title: OnClientTaskResizing | UI for ASP.NET AJAX Documentation
+page_title: OnClientTaskResizing | RadGantt for ASP.NET AJAX Documentation
 description: OnClientTaskResizing
 slug: gantt/client-side-programming/events/onclienttaskresizing
 tags: onclienttaskresizing

@@ -1,6 +1,6 @@
 ---
-title: Server-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Programming Overview | RadFileExplorer for ASP.NET AJAX Documentation
 description: Overview
 slug: fileexplorer/server-side-programming/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-The __RadFileExplorer__ control exposes a number or properties that can be used in order to change its behavior.
+The **RadFileExplorer** control exposes a number or properties that can be used in order to change its behavior.
 
 ## 
 

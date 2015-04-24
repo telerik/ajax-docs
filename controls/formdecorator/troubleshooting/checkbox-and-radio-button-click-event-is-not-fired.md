@@ -1,6 +1,6 @@
 ---
 title: Checkbox And Radio Button Click Event Is Not Fired
-page_title: Checkbox And Radio Button Click Event Is Not Fired | UI for ASP.NET AJAX Documentation
+page_title: Checkbox And Radio Button Click Event Is Not Fired | RadFormDecorator for ASP.NET AJAX Documentation
 description: Checkbox And Radio Button Click Event Is Not Fired
 slug: formdecorator/troubleshooting/checkbox-and-radio-button-click-event-is-not-fired
 tags: checkbox,and,radio,button,click,event,is,not,fired
@@ -16,7 +16,7 @@ position: 1
 
 This help article offers a solution to an issue where a decorated input's click event is not triggered when the input is followed by an HTML label element.
 
-__Problem:__
+**Problem:**
 
 The client-side click event of decorated HTML input element of type "radio" or "checkbox" is not fired when the following conditions are met at the same time.
 
@@ -24,19 +24,19 @@ The client-side click event of decorated HTML input element of type "radio" or "
 
 * The "for" attribute of the label element and the "id" attribute of the input element are not declared.
 
-__Cause:__
+**Cause:**
 
-When a __RadFormDecorator__ decorates "radio button" and "checkbox" HTML elements, it positions them outside of the visible viewport and then puts a label with a background image that represents the decorated input in their place.
+When a **RadFormDecorator** decorates "radio button" and "checkbox" HTML elements, it positions them outside of the visible viewport and then puts a label with a background image that represents the decorated input in their place.
 
-Before inserting a new label, however, the __RadFormDecorator__ tries to set the corresponding background image to the HTML label element that follows the input element. This operation is performed because the control assumes a relation between the input and the following label. In scenarios where this association is missing (i.e., the "for" attribute of the label HTML element is not specified), however, the click event of the input will not be raised. The main purpose of the label HTML element is to create an association with an input element, soit is advisable to use the "for" attribute.
+Before inserting a new label, however, the **RadFormDecorator** tries to set the corresponding background image to the HTML label element that follows the input element. This operation is performed because the control assumes a relation between the input and the following label. In scenarios where this association is missing (i.e., the "for" attribute of the label HTML element is not specified), however, the click event of the input will not be raised. The main purpose of the label HTML element is to create an association with an input element, soit is advisable to use the "for" attribute.
 
 This limitation is a consequence of the control's implementation and if the input-label relation cannot be created, one of the workaroundsbelow must be used.
 
-__Solution:__
+**Solution:**
 
 There are a few options you can choose from, in order to handle the scenario described above.
 
-* Declare the "for" and "id" attributes for the label and the input respectively. For example:__Example 1__: Associating a label to an input element by matching the input's "id" to the label's "for" attribute.
+* Declare the "for" and "id" attributes for the label and the input respectively. For example:**Example 1**: Associating a label to an input element by matching the input's "id" to the label's "for" attribute.
 
 ````ASPNET
 		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
@@ -46,7 +46,7 @@ There are a few options you can choose from, in order to handle the scenario des
 
 
 
-* Insert a space between the input and the label - either in the markup (see an __Example 2__), or with JavaScript prior to the __RadFormDecorator__'s decoration (see an __Example 3__).__Example 2__: Inserting a whitespace between an input and a label element in the markup.
+* Insert a space between the input and the label - either in the markup (see an **Example 2**), or with JavaScript prior to the **RadFormDecorator**'s decoration (see an **Example 3**).**Example 2**: Inserting a whitespace between an input and a label element in the markup.
 
 ````ASPNET
 		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
@@ -54,7 +54,7 @@ There are a few options you can choose from, in order to handle the scenario des
 		<input type="radio" name="name2" value="value2" onclick="alert(2);" /> <label>label 2</label>
 ````
 
-__Example 3__: Inserting a whitespace between an input and a label element with JavaScript prior to decoration.
+**Example 3**: Inserting a whitespace between an input and a label element with JavaScript prior to decoration.
 
 ````JavaScript
 		<%--The external jQuery reference is needed because RadFormDecorator doesn't reference internally jQuery--%>

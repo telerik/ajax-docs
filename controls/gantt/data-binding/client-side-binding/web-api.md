@@ -1,6 +1,6 @@
 ---
 title: Web API
-page_title: Web API | UI for ASP.NET AJAX Documentation
+page_title: Web API | RadGantt for ASP.NET AJAX Documentation
 description: Web API
 slug: gantt/data-binding/client-side-binding/web-api
 tags: web,api

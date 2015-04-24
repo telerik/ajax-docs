@@ -1,6 +1,6 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes And Backward Compatibility | RadFormDecorator for ASP.NET AJAX Documentation
 description: Changes And Backward Compatibility
 slug: formdecorator/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -18,7 +18,7 @@ A complete list of all changes can be found on Release History page: [http://www
 
 ## Telerik RadFormDecorator for ASP.NET AJAX Q2 2010
 
-__Breaking Change:__ Before Q2 2010, RadFormDecorator will style checkboxes and radiobuttons even if they have a class property assigned. From Q2 2010 this behavior is changed - RadFormDecorator will style them only if they don't have a class property assigned.
+**Breaking Change:** Before Q2 2010, RadFormDecorator will style checkboxes and radiobuttons even if they have a class property assigned. From Q2 2010 this behavior is changed - RadFormDecorator will style them only if they don't have a class property assigned.
 
 ## Telerik RadFormDecorator for ASP.NET AJAX Q1 2010
 

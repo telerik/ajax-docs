@@ -1,6 +1,6 @@
 ---
 title: Cell Editing
-page_title: Cell Editing | UI for ASP.NET AJAX Documentation
+page_title: Cell Editing | RadGantt for ASP.NET AJAX Documentation
 description: Cell Editing
 slug: gantt/functionality/cell-editing
 tags: cell,editing

@@ -1,6 +1,6 @@
 ---
 title: Multiple Pointers
-page_title: Multiple Pointers | UI for ASP.NET AJAX Documentation
+page_title: Multiple Pointers | RadGauge for ASP.NET AJAX Documentation
 description: Multiple Pointers
 slug: gauge/gauge-types/multiple-pointers
 tags: multiple,pointers
@@ -12,26 +12,26 @@ position: 2
 
 
 
-As for __Q1 2015__, you can add multiple pointers in a	RadGauge control by using the Pointers collection. It is available for	both the [Linear Gauge]({%slug gauge/gauge-types/linear%}) and the	[Radial Gauge]({%slug gauge/gauge-types/radial%}) (__Figure 1__).
+As for **Q1 2015**, you can add multiple pointers in a	RadGauge control by using the Pointers collection. It is available for	both the [Linear Gauge]({%slug gauge/gauge-types/linear%}) and the	[Radial Gauge]({%slug gauge/gauge-types/radial%}) (**Figure 1**).
 >caption Figure 1: Multiple pointers in Linear Gauge and Radial Gauge.
 
 ![gauge-multiple-pointers](images/gauge-multiple-pointers.png)
 
 ## Adding Pointers
 
-You can add multiple pointers in a __RadGauge__ control by using the __Pointers__ collection and add LinearPointeritems for a __LinearGauge__ and __RadialPointer__ items for a __RadialGauge__.
+You can add multiple pointers in a **RadGauge** control by using the **Pointers** collection and add LinearPointeritems for a **LinearGauge** and **RadialPointer** items for a **RadialGauge**.
 
-__Figure 1__ shows two gauge controls with multiple pointers and you can examine the code that renders them in__Example 1__ and __Example 2__.
+**Figure 1** shows two gauge controls with multiple pointers and you can examine the code that renders them in**Example 1** and **Example 2**.
 
->important Note that the __Pointer__ inner tag used together with the __Pointers__ collection is not a valid scenario.	If it happens that both are added to one __RadGauge__ configuration, the multiple pointers will overwrite	the single one and it won’t be rendered.
+>important Note that the **Pointer** inner tag used together with the **Pointers** collection is not a valid scenario.	If it happens that both are added to one **RadGauge** configuration, the multiple pointers will overwrite	the single one and it won’t be rendered.
 >
 
 
 The style and value options available for each type of the multiple pointers are the same as the ones exposed for the single pointer.You can learn more about the available properties for [Linear Gauge]({%slug gauge/gauge-types/linear%}) itemsand for the [Radial Gauge]({%slug gauge/gauge-types/radial%}).
 
-In __Figure 1__ are shown the two gauge controls with multiple pointers added, whereas in	__Example 1__ you can examine the code that renders them.
+In **Figure 1** are shown the two gauge controls with multiple pointers added, whereas in	**Example 1** you can examine the code that renders them.
 
-__Example 1__: Adding pointers in the Pointers collection of Linear Gauge and Radial Gauge in the markup.
+**Example 1**: Adding pointers in the Pointers collection of Linear Gauge and Radial Gauge in the markup.
 
 ````ASPNET
 		<telerik:RadLinearGauge runat="server" ID="RadLinearGauge1" Width="100px" Height="300px">
@@ -52,7 +52,7 @@ __Example 1__: Adding pointers in the Pointers collection of Linear Gauge and Ra
 
 
 
-__Example 2__: Adding pointers in the Pointers collection via the code behind.
+**Example 2**: Adding pointers in the Pointers collection via the code behind.
 
 
 

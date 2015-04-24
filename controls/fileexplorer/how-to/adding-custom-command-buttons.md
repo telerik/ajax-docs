@@ -1,6 +1,6 @@
 ---
 title: Adding Custom Command Buttons
-page_title: Adding Custom Command Buttons | UI for ASP.NET AJAX Documentation
+page_title: Adding Custom Command Buttons | RadFileExplorer for ASP.NET AJAX Documentation
 description: Adding Custom Command Buttons
 slug: fileexplorer/how-to/adding-custom-command-buttons
 tags: adding,custom,command,buttons
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-__RadFileExplorer__
+**RadFileExplorer**
 
-The server code creates a new toolbar button and a new context menu item and adds them in the __RadFileExplorer__control. The client code executes when the __RadFileExplorer__is loaded and attaches new event handlers for the toolbar and treeview/grid context menus. These handlers will be used to execute code when the custom button/item is clicked. The CSSstyle for the toolbar button can be used to add an image.
+The server code creates a new toolbar button and a new context menu item and adds them in the **RadFileExplorer**control. The client code executes when the **RadFileExplorer**is loaded and attaches new event handlers for the toolbar and treeview/grid context menus. These handlers will be used to execute code when the custom button/item is clicked. The CSSstyle for the toolbar button can be used to add an image.
 
 
 

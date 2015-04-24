@@ -1,6 +1,6 @@
 ---
 title: Decorating RadWindow When DecorationZoneID Is Set
-page_title: Decorating RadWindow When DecorationZoneID Is Set | UI for ASP.NET AJAX Documentation
+page_title: Decorating RadWindow When DecorationZoneID Is Set | RadFormDecorator for ASP.NET AJAX Documentation
 description: Decorating RadWindow When DecorationZoneID Is Set
 slug: formdecorator/how-to/decorating-radwindow-when-decorationzoneid-is-set
 tags: decorating,radwindow,when,decorationzoneid,is,set
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__RadFormDecorator__ lets you style controls that are inside of the __ContentTemplate__ of __RadWindow__. However, when the __RadFormDecorator's__ property __DecorationZoneID__ is set, the content of RadWindow will not be decorated. This behaviour manifests because RadWindow moves its contents in the __DOM__ when it is opened - i.e. controls declared in its __ContentTemplate__ are no longer in the same place in the markup where they were declared. This needs to be done in order to allow the popup element of the __RadWindow__ to be shown above all other elements, so that it does not inherit any visibility restrictions from its parent elements (such as the CSS display property being set to none).
+**RadFormDecorator** lets you style controls that are inside of the **ContentTemplate** of **RadWindow**. However, when the **RadFormDecorator's** property **DecorationZoneID** is set, the content of RadWindow will not be decorated. This behaviour manifests because RadWindow moves its contents in the **DOM** when it is opened - i.e. controls declared in its **ContentTemplate** are no longer in the same place in the markup where they were declared. This needs to be done in order to allow the popup element of the **RadWindow** to be shown above all other elements, so that it does not inherit any visibility restrictions from its parent elements (such as the CSS display property being set to none).
 
-Therefore this scenario is not supported by FormDecorator as the ContentTemplate and its controls are getting out of the scope of __DecorationZoneID__. A simple solution to this scenario could be to decorate the content of the __RadWindow__ with custom JavaScript through FormDecorator's[client-side method - decorate()]({%slug formdecorator/client-side-programming/overview%}). For example:
+Therefore this scenario is not supported by FormDecorator as the ContentTemplate and its controls are getting out of the scope of **DecorationZoneID**. A simple solution to this scenario could be to decorate the content of the **RadWindow** with custom JavaScript through FormDecorator's[client-side method - decorate()]({%slug formdecorator/client-side-programming/overview%}). For example:
 
 ````JavaScript
 	    <script type="text/javascript">

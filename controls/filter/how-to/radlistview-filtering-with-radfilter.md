@@ -1,6 +1,6 @@
 ---
 title: RadListView Filtering with RadFilter
-page_title: RadListView Filtering with RadFilter | UI for ASP.NET AJAX Documentation
+page_title: RadListView Filtering with RadFilter | RadFilter for ASP.NET AJAX Documentation
 description: RadListView Filtering with RadFilter
 slug: filter/how-to/radlistview-filtering-with-radfilter
 tags: radlistview,filtering,with,radfilter

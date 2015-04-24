@@ -1,6 +1,6 @@
 ---
 title: Filter Items
-page_title: Filter Items | UI for ASP.NET AJAX Documentation
+page_title: Filter Items | RadFileExplorer for ASP.NET AJAX Documentation
 description: Filter Items
 slug: fileexplorer/functionality/filter-items
 tags: filter,items
@@ -14,29 +14,29 @@ position: 0
 
 ## Filter items in FileExplorer
 
-Starting from Q1 2011 the users can filter the files and folders in the FileExplorer's Grid. Setting the __EnableFilterTextBox__ property to __true__ will render a search box above the Grid's header. Note that the FileExplorer searches for the keyword in the currently selected directory, omitting the items in the subfolders.![radfileeplorer-filter](images/radfileeplorer-filter.png)
+Starting from Q1 2011 the users can filter the files and folders in the FileExplorer's Grid. Setting the **EnableFilterTextBox** property to **true** will render a search box above the Grid's header. Note that the FileExplorer searches for the keyword in the currently selected directory, omitting the items in the subfolders.![radfileeplorer-filter](images/radfileeplorer-filter.png)
 
 These are the properties the related to the Filtering functionality:
 
-* __EnableFilterTextBox__ - When set to true, renders a textbox used to filter files in the grid.
+* **EnableFilterTextBox** - When set to true, renders a textbox used to filter files in the grid.
 
-* __EnableFilteringOnEnterPressed__ - When set to true, performs the filtering after the "Enter" key is pressed. Its default value is __false__ which means the items are filtered on every keystroke. Note that, the filter box must be enabled for this property to be considered, i.e. the previous property must be set to true.
+* **EnableFilteringOnEnterPressed** - When set to true, performs the filtering after the "Enter" key is pressed. Its default value is **false** which means the items are filtered on every keystroke. Note that, the filter box must be enabled for this property to be considered, i.e. the previous property must be set to true.
 
-* __FilterTextBoxLabel__ - Gets or sets the text of the label displayed next to the Filter TextBox.
+* **FilterTextBoxLabel** - Gets or sets the text of the label displayed next to the Filter TextBox.
 
-* __OnClientFilter__ - The name of the JavaScript function called when the user filters the files in the grid.
+* **OnClientFilter** - The name of the JavaScript function called when the user filters the files in the grid.
 
-The *__filter__* client-side event (__OnClientFilter__ property) is raised before the filtering occurs, and event argument object with the following properties and methods is passed to the event handler method:
+The **filter** client-side event (**OnClientFilter** property) is raised before the filtering occurs, and event argument object with the following properties and methods is passed to the event handler method:
 
-* __get_text()__ - gets the text (keyword) to search for
+* **get_text()** - gets the text (keyword) to search for
 
-* __set_text(newText)__ - sets the text (keyword) to search for
+* **set_text(newText)** - sets the text (keyword) to search for
 
-* __set_cancel(toCancel)__ - sets bool value that determines whether the filtering will be cancelled. For example, set_cancel(true) will cancel the filtering process.
+* **set_cancel(toCancel)** - sets bool value that determines whether the filtering will be cancelled. For example, set_cancel(true) will cancel the filtering process.
 
-* __get_domEvent()__ - gets a reference to the current domEvent object - it comes handy when you need to determine which key was pressed
+* **get_domEvent()** - gets a reference to the current domEvent object - it comes handy when you need to determine which key was pressed
 
-It is not necessary to have the built-in filter textbox enabled in order to perform filtering. The FileExplorer's __filter(__ client-side method can be used to filter the items in the currently selected directory. For example the following code performs the search from a user-defined textbox on every key stroke.
+It is not necessary to have the built-in filter textbox enabled in order to perform filtering. The FileExplorer's **filter(** client-side method can be used to filter the items in the currently selected directory. For example the following code performs the search from a user-defined textbox on every key stroke.
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

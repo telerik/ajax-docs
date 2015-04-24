@@ -1,6 +1,6 @@
 ---
 title: TaskUpdate
-page_title: TaskUpdate | UI for ASP.NET AJAX Documentation
+page_title: TaskUpdate | RadGantt for ASP.NET AJAX Documentation
 description: TaskUpdate
 slug: gantt/server-side-programming/events/taskupdate
 tags: taskupdate

@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadFormDecorator for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: formdecorator/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -12,7 +12,7 @@ position: 0
 
 
 
-Form elements styled by __RadFormDecorator__ provide the same set of keyboard navigation shortcuts that you usually get fromthe standard, unmodified elements by the browser.
+Form elements styled by **RadFormDecorator** provide the same set of keyboard navigation shortcuts that you usually get fromthe standard, unmodified elements by the browser.
 
 ## 
 
@@ -25,26 +25,26 @@ Below you can find the options for keyboard navigation that are supported by the
 
 | Operation | Keyboard Shortcut |  |
 | ------ | ------ | ------ |
-|Open/close the drop-down list.| __Alt + Up/Down arrow__ |+|
-|Close the drop-down list.| __Enter__ or __Escape__ | *or* |
+|Open/close the drop-down list.| **Alt + Up/Down arrow** |+|
+|Close the drop-down list.| **Enter** or **Escape** | *or* |
 
 ### Navigating the list
 
 
 | Operation | Keyboard Shortcut |  |
 | ------ | ------ | ------ |
-|Select the previous/next element from the list.| __Up/Down arrow__ ||
-|Select the first item that starts with the typed letter sequence.| __Keyboard letters__ ||
+|Select the previous/next element from the list.| **Up/Down arrow** ||
+|Select the first item that starts with the typed letter sequence.| **Keyboard letters** ||
 
 ### Using multiple selection list
 
 
 | Operation | Keyboard Shortcut |  |
 | ------ | ------ | ------ |
-|Put the previous/next element in active state.| __Ctrl + Up/Down arrow__ |+|
-|Toggle the active element between selected and unselected state.| __Space__ or __Ctrl + Space__ | *or* +|
-|Toggle the selected state of the elements in the selected direction.| __Shift + Up/Down arrow__ |+|
-|Put the active item in selected state.| __Enter__ ||
+|Put the previous/next element in active state.| **Ctrl + Up/Down arrow** |+|
+|Toggle the active element between selected and unselected state.| **Space** or **Ctrl + Space** | *or* +|
+|Toggle the selected state of the elements in the selected direction.| **Shift + Up/Down arrow** |+|
+|Put the active item in selected state.| **Enter** ||
 
 # See Also
 

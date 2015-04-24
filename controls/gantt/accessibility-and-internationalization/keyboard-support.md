@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadGantt for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: gantt/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support

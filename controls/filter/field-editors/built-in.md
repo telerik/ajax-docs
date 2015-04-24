@@ -1,6 +1,6 @@
 ---
 title: Built-in
-page_title: Built-in | UI for ASP.NET AJAX Documentation
+page_title: Built-in | RadFilter for ASP.NET AJAX Documentation
 description: Built-in
 slug: filter/field-editors/built-in
 tags: built-in

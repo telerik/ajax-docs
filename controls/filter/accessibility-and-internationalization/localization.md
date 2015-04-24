@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadFilter for ASP.NET AJAX Documentation
 description: Localization
 slug: filter/accessibility-and-internationalization/localization
 tags: localization

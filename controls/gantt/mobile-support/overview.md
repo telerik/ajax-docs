@@ -1,6 +1,6 @@
 ---
-title: Mobile Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Mobile Support Overview | RadGantt for ASP.NET AJAX Documentation
 description: Overview
 slug: gantt/mobile-support/overview
 tags: overview

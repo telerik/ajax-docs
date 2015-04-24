@@ -1,6 +1,6 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes And Backward Compatibility | RadFileExplorer for ASP.NET AJAX Documentation
 description: Changes And Backward Compatibility
 slug: fileexplorer/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -28,4 +28,4 @@ RadFileExplorer for ASP.NET AJAX which is part of the Q2 2009 release is fully b
 
 ## RadFileExplorer for ASP.NET AJAX Q1 2009
 
-This is the first release of __RadFileExplorer__.
+This is the first release of **RadFileExplorer**.

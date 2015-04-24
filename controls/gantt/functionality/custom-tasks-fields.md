@@ -1,6 +1,6 @@
 ---
 title: Custom Tasks Fields
-page_title: Custom Tasks Fields | UI for ASP.NET AJAX Documentation
+page_title: Custom Tasks Fields | RadGantt for ASP.NET AJAX Documentation
 description: Custom Tasks Fields
 slug: gantt/functionality/custom-tasks-fields
 tags: custom,tasks,fields

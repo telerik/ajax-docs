@@ -1,6 +1,6 @@
 ---
 title: Configuration Manager
-page_title: Configuration Manager | UI for ASP.NET AJAX Documentation
+page_title: Configuration Manager | RadGauge for ASP.NET AJAX Documentation
 description: Configuration Manager
 slug: gauge/design-time/configuration-manager
 tags: configuration,manager
@@ -16,34 +16,34 @@ The designers for the Linear and Radial gauges are very similar. On the left a s
 
 ## Radial Gauge Specific Configuration
 
-__Pointer__![gauge-design-time-radial-pointer](images/gauge-design-time-radial-pointer.png)
+**Pointer**![gauge-design-time-radial-pointer](images/gauge-design-time-radial-pointer.png)
 
 The Pointer tab exposes the pointer and its cap, so they can be configured in terms of value, color and size.
 
-__Scale__![gauge-design-time-radial-scale](images/gauge-design-time-radial-scale.png)
+**Scale**![gauge-design-time-radial-scale](images/gauge-design-time-radial-scale.png)
 
 The Scale tab exposes the main properties of the scale. Its inner tags are exposed in other tabs to simplify the designer.
 
 ## Linear Gauge Specific Configuration
 
-__Pointer__![gauge-design-time-linear-pointer](images/gauge-design-time-linear-pointer.png)
+**Pointer**![gauge-design-time-linear-pointer](images/gauge-design-time-linear-pointer.png)
 
 The Pointer tab exposes the pointer and its track, so they can be configured in terms of value, visibility, opacity, shape color and size.
 
-__Scale__![gauge-design-time-linear-scale](images/gauge-design-time-linear-scale.png)
+**Scale**![gauge-design-time-linear-scale](images/gauge-design-time-linear-scale.png)
 
 The Scale tab exposes the main properties of the scale. Its inner tags are exposed in other tabs to simplify the designer.
 
 ## Common configuration
 
-__Scale Labels__![gauge-design-time-scale-labels](images/gauge-design-time-scale-labels.png)
+**Scale Labels**![gauge-design-time-scale-labels](images/gauge-design-time-scale-labels.png)
 
 The properties the labels have are exposed in one tab that is common for both gauge types
 
-__Ticks__![gauge-design-time-scale-ticks](images/gauge-design-time-scale-ticks.png)
+**Ticks**![gauge-design-time-scale-ticks](images/gauge-design-time-scale-ticks.png)
 
 The Ticks tab allows for configuration of the minor and major ticks - size, color, visibility.
 
-__Scale Ranges__![gauge-design-time-scale-ranges](images/gauge-design-time-scale-ranges.png)
+**Scale Ranges**![gauge-design-time-scale-ranges](images/gauge-design-time-scale-ranges.png)
 
 The scale ranges collection items can be added/removed with the buttons in above the list and on the righttheir configuration is exposed - their From and To properties, as well as the color picker Microsoft provide.

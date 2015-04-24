@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadGantt for ASP.NET AJAX Documentation
 description: Overview
 slug: gantt/client-side-programming/events/overview
 tags: overview

@@ -1,6 +1,6 @@
 ---
 title: Linear
-page_title: Linear | UI for ASP.NET AJAX Documentation
+page_title: Linear | RadGauge for ASP.NET AJAX Documentation
 description: Linear
 slug: gauge/gauge-types/linear
 tags: linear
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadLinearGauge__ represents the ranges and the value in a linear format, like its name suggests.It can be explained quite simply like a termomether - the pointer is the quicksilver that fills the tube and the ranges can representthe temperatures in which we feel cold, hot or simply fine. For example:![gauge-linear-gauge-thermometer-example](images/gauge-linear-gauge-thermometer-example.png)
+The **RadLinearGauge** represents the ranges and the value in a linear format, like its name suggests.It can be explained quite simply like a termomether - the pointer is the quicksilver that fills the tube and the ranges can representthe temperatures in which we feel cold, hot or simply fine. For example:![gauge-linear-gauge-thermometer-example](images/gauge-linear-gauge-thermometer-example.png)
 
 To get a better idea which element corresponds to which tag check the [RadGauge Structure]({%slug gauge/radgauge-structure%}) article.The above gauge was created with the following simple markup:
 
@@ -38,14 +38,14 @@ To get a better idea which element corresponds to which tag check the [RadGauge 
 
 The control offers more customization options than the ones shown above:
 
-* __Advanced pointer customizations__ - the pointer can be a tick or a bar depending on its __Shape__ property,you can choose its __Color and Value__ as well. When the pointer is a bar you an also control its __Track__ - the background behind the bar itself - its __Color and Opacity__ properties allow you to choose its appearance. The Opacitymust be between 0 and 1.
+* **Advanced pointer customizations** - the pointer can be a tick or a bar depending on its **Shape** property,you can choose its **Color and Value** as well. When the pointer is a bar you an also control its **Track** - the background behind the bar itself - its **Color and Opacity** properties allow you to choose its appearance. The Opacitymust be between 0 and 1.
 
-* __Basic Scale configuration__ - the __Scale__ is the main wrapper of the control and details are configurablethrough inner properties. The main __Scale__ tag, however, offers the basic functionality - the __Min and Max__values of the gauge, the __MajorUnit and MinorUnit__ properties that control the ticks and label distance, the__Mirror__ property which chooses the side on which the ticks and labels are shown, the __Vertical__ propertywhich makes the gauge horizontal when set to false and the __Reverse__ property which shows the higher values first when set to true.
+* **Basic Scale configuration** - the **Scale** is the main wrapper of the control and details are configurablethrough inner properties. The main **Scale** tag, however, offers the basic functionality - the **Min and Max**values of the gauge, the **MajorUnit and MinorUnit** properties that control the ticks and label distance, the**Mirror** property which chooses the side on which the ticks and labels are shown, the **Vertical** propertywhich makes the gauge horizontal when set to false and the **Reverse** property which shows the higher values first when set to true.
 
-* __Labels configuration__ - you can choose the __BackgroundColor, Color and Font__ to customize their appearance.The __Visible__ property controls if they are shown and the __Format__ takes a format string that will be appliedto the text according to the value. The format string uses the __{0}__ placeholder to indicate the value.The __Template__ property is a client template similar to the format - it takes a similar string to show in the labels,but the value placeholder is __#=value#__.
+* **Labels configuration** - you can choose the **BackgroundColor, Color and Font** to customize their appearance.The **Visible** property controls if they are shown and the **Format** takes a format string that will be appliedto the text according to the value. The format string uses the **{0}** placeholder to indicate the value.The **Template** property is a client template similar to the format - it takes a similar string to show in the labels,but the value placeholder is **#=value#**.
 
-* __Ticks configuration__ - the __MajorTicks and MinorTicks__ inner tags expose the small lines that protrudefrom the ranges to show the value. They can be customized in terms of __Color__, __Size or Width__ (in pixels) and__Visibility__ (boolean).
+* **Ticks configuration** - the **MajorTicks and MinorTicks** inner tags expose the small lines that protrudefrom the ranges to show the value. They can be customized in terms of **Color**, **Size or Width** (in pixels) and**Visibility** (boolean).
 
-* __Ranges configuration__ - the __Ranges__ tag contains several __GaugeRange__ tagsthat represent the areas of the gauge that will show differently than the regular scale. Each range has the __From and To__properties that control is positioning on the scale and also the __Color__ property that can be used to specify their fill.
+* **Ranges configuration** - the **Ranges** tag contains several **GaugeRange** tagsthat represent the areas of the gauge that will show differently than the regular scale. Each range has the **From and To**properties that control is positioning on the scale and also the **Color** property that can be used to specify their fill.
 
-* __Main gauge configuration__ - the __Appearance__ tag of the control allows for customizing its entirelook. Currently it offers the __BackgroundColor__ property which sets the wrapper's background fill.
+* **Main gauge configuration** - the **Appearance** tag of the control allows for customizing its entirelook. Currently it offers the **BackgroundColor** property which sets the wrapper's background fill.

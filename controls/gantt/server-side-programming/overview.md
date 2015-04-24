@@ -1,6 +1,6 @@
 ---
-title: Server-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Programming Overview | RadGantt for ASP.NET AJAX Documentation
 description: Overview
 slug: gantt/server-side-programming/overview
 tags: overview

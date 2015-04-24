@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadFilter Server-Side Programming Overview | UI for ASP.NET AJAX Documentation
+page_title: RadFilter Server-Side Programming Overview | RadFilter for ASP.NET AJAX Documentation
 description: Overview
 slug: filter/server-side-programming/overview
 tags: overview

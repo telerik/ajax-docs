@@ -1,6 +1,6 @@
 ---
 title: DependencyDelete
-page_title: DependencyDelete | UI for ASP.NET AJAX Documentation
+page_title: DependencyDelete | RadGantt for ASP.NET AJAX Documentation
 description: DependencyDelete
 slug: gantt/server-side-programming/events/dependencydelete
 tags: dependencydelete

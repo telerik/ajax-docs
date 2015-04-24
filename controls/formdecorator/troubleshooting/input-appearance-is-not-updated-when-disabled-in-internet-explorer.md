@@ -1,6 +1,6 @@
 ---
 title: Input Appearance Is Not Updated When Disabled In Internet Explorer
-page_title: Input Appearance Is Not Updated When Disabled In Internet Explorer | UI for ASP.NET AJAX Documentation
+page_title: Input Appearance Is Not Updated When Disabled In Internet Explorer | RadFormDecorator for ASP.NET AJAX Documentation
 description: Input Appearance Is Not Updated When Disabled In Internet Explorer
 slug: formdecorator/troubleshooting/input-appearance-is-not-updated-when-disabled-in-internet-explorer
 tags: input,appearance,is,not,updated,when,disabled,in,internet,explorer
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-This help article describes an appearance issue with decorated inputs by __RadFormDecorator__ when disabled with JavaScript in Internet Explorer and offers a resolution to it.
+This help article describes an appearance issue with decorated inputs by **RadFormDecorator** when disabled with JavaScript in Internet Explorer and offers a resolution to it.
 
-__Problem:__
+**Problem:**
 
-The appearance of decorated enabled inputs of type "checkbox", "button" and "radio" is not updated when they are disabled with JavaScript in Internet Explorer 10 and below. This issue is reproducible with the code from __Example 1__.
+The appearance of decorated enabled inputs of type "checkbox", "button" and "radio" is not updated when they are disabled with JavaScript in Internet Explorer 10 and below. This issue is reproducible with the code from **Example 1**.
 
-__Example 1:__ Decorated inputs of type "checkbox", "button" and "radio" do not change their appearance when disabled with JavaScript under IE 10 and below.
+**Example 1:** Decorated inputs of type "checkbox", "button" and "radio" do not change their appearance when disabled with JavaScript under IE 10 and below.
 
 ````JavaScript
 	    <script type="text/javascript">
@@ -50,15 +50,15 @@ __Example 1:__ Decorated inputs of type "checkbox", "button" and "radio" do not 
 
 
 
-__Cause:__
+**Cause:**
 
 Internet Explorer 10 and below have an issue with tracking the disabled property of DOM elements when an enabled element is disabled. This is a bug in Internet Explorer and there is no workaround about it.
 
-__Solution:__
+**Solution:**
 
 There are two ways to workaround this browser limitation:
 
-* Skip the checkbox, button and radio button elements from decoration by setting the __ControlsToSkip__ property of the __RadFormDecorator__ to __"CheckBoxes,Buttons,RadioButtons"__.__Example 2:__ Skipping checkbox, button and radio button elements from decoration by __RadFormDecorator__.
+* Skip the checkbox, button and radio button elements from decoration by setting the **ControlsToSkip** property of the **RadFormDecorator** to **"CheckBoxes,Buttons,RadioButtons"**.**Example 2:** Skipping checkbox, button and radio button elements from decoration by **RadFormDecorator**.
 
 ````ASPNET
 		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" ControlsToSkip="CheckBoxes,Buttons,RadioButtons" />
@@ -66,7 +66,7 @@ There are two ways to workaround this browser limitation:
 
 
 
-* Set the CSS classes __RadFormDecorator__ uses for the disabled inputs appearance manually. __RadFormDecorator__ will remove them when needed (e.g., if inputs are enabled their appearance will be updated too).__Example 3:__ Setting the necessary CSS classes to the decorated elements used for their disabled state in Internet Explorer.
+* Set the CSS classes **RadFormDecorator** uses for the disabled inputs appearance manually. **RadFormDecorator** will remove them when needed (e.g., if inputs are enabled their appearance will be updated too).**Example 3:** Setting the necessary CSS classes to the decorated elements used for their disabled state in Internet Explorer.
 
 ````JavaScript
 		<script type="text/javascript">

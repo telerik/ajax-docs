@@ -1,6 +1,6 @@
 ---
 title: Adding Tasks
-page_title: Adding Tasks | UI for ASP.NET AJAX Documentation
+page_title: Adding Tasks | RadGantt for ASP.NET AJAX Documentation
 description: Adding Tasks
 slug: gantt/functionality/adding-tasks
 tags: adding,tasks

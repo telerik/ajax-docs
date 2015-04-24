@@ -1,6 +1,6 @@
 ---
 title: ColumnCreating
-page_title: ColumnCreating | UI for ASP.NET AJAX Documentation
+page_title: ColumnCreating | RadGantt for ASP.NET AJAX Documentation
 description: ColumnCreating
 slug: gantt/server-side-programming/events/columncreating
 tags: columncreating

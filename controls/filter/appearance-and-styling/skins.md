@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadFilter for ASP.NET AJAX Documentation
 description: Skins
 slug: filter/appearance-and-styling/skins
 tags: skins

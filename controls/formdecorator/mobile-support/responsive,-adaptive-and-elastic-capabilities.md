@@ -1,6 +1,6 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Responsive, Adaptive and Elastic Capabilities | RadFormDecorator for ASP.NET AJAX Documentation
 description: Responsive, Adaptive and Elastic Capabilities
 slug: formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article explains the __responsive design capabilities RadFormDecorator offers__.	The [Lightweight RenderMode]({%slug formdecorator/mobile-support/render-modes%}) of RadFormDecorator supports	__elastic design since Q2 2013__.
+This article explains the **responsive design capabilities RadFormDecorator offers**.	The [Lightweight RenderMode]({%slug formdecorator/mobile-support/render-modes%}) of RadFormDecorator supports	**elastic design since Q2 2013**.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating	the user experience. This often includes changing the font size and having dimensions set in percent.
 
@@ -21,15 +21,15 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![formdecorator-changed-font-size-comparison](images/formdecorator-changed-font-size-comparison.png)
 
-__RadFormDecorator__ can be used to create elastic design for the controls placed in a pagethat follows this pattern, __changing their font size__.This means that RadFormDecorator's __Lightweight RenderMode__ supports changing	the font size without breaking the decorated control's appearance. If the new size set to the decorated elements is larger than the original one,the elements in the controls will simply increase their size as well to accommodate the text. This fluid layout is achievedby using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
+**RadFormDecorator** can be used to create elastic design for the controls placed in a pagethat follows this pattern, **changing their font size**.This means that RadFormDecorator's **Lightweight RenderMode** supports changing	the font size without breaking the decorated control's appearance. If the new size set to the decorated elements is larger than the original one,the elements in the controls will simply increase their size as well to accommodate the text. This fluid layout is achievedby using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
 Elements that use images or images sprites, however, cannot be increased in size, so the icons will keep having their original dimensions and position.
 
-__Example 1__ shows how to increase the font size of the elements on the page withRadFormDecorator and the effect can be seen in comparison in Figure 1.RadFormDecorator should have a specific approach as its root element is set to the HTML element and giving some specificfont size could change some parts that	are not part of RadFormDecorator. So, we will need to group the RadFormDecorator elements that should be increased:
+**Example 1** shows how to increase the font size of the elements on the page withRadFormDecorator and the effect can be seen in comparison in Figure 1.RadFormDecorator should have a specific approach as its root element is set to the HTML element and giving some specificfont size could change some parts that	are not part of RadFormDecorator. So, we will need to group the RadFormDecorator elements that should be increased:
 
-When using a	[Decoration Zone](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in __Example 2__.
+When using a	[Decoration Zone](http://demos.telerik.com/aspnet-ajax/formdecorator/examples/decorationzoneid/defaultcs.aspx), you should cascade the selectors through that zone to make them heavier, as shown in **Example 2**.
 
-__Example 1__ CSS selectors for using elastic design with RadFormDecorator.
+**Example 1** CSS selectors for using elastic design with RadFormDecorator.
 
 ````ASPNET
 			<style type="text/css">
@@ -105,7 +105,7 @@ __Example 1__ CSS selectors for using elastic design with RadFormDecorator.
 
 
 
-__Example 2__ CSS selectors for using elastic design with RadFormDecorator and a Decoration Zone.
+**Example 2** CSS selectors for using elastic design with RadFormDecorator and a Decoration Zone.
 
 ````ASPNET
 			<style type="text/css">

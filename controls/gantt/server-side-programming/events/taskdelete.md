@@ -1,6 +1,6 @@
 ---
 title: TaskDelete
-page_title: TaskDelete | UI for ASP.NET AJAX Documentation
+page_title: TaskDelete | RadGantt for ASP.NET AJAX Documentation
 description: TaskDelete
 slug: gantt/server-side-programming/events/taskdelete
 tags: taskdelete

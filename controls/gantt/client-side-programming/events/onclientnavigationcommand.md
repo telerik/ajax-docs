@@ -1,6 +1,6 @@
 ---
 title: OnClientNavigationCommand
-page_title: OnClientNavigationCommand | UI for ASP.NET AJAX Documentation
+page_title: OnClientNavigationCommand | RadGantt for ASP.NET AJAX Documentation
 description: OnClientNavigationCommand
 slug: gantt/client-side-programming/events/onclientnavigationcommand
 tags: onclientnavigationcommand

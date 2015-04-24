@@ -1,6 +1,6 @@
 ---
 title: Working with Expressions
-page_title: Working with Expressions | UI for ASP.NET AJAX Documentation
+page_title: Working with Expressions | RadFilter for ASP.NET AJAX Documentation
 description: Working with Expressions
 slug: filter/filter-expressions/working-with-expressions
 tags: working,with,expressions

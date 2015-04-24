@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadFileExplorer for ASP.NET AJAX Documentation
 description: Events
 slug: fileexplorer/server-side-programming/events
 tags: events
@@ -12,27 +12,27 @@ position: 1
 
 
 
-The __RadFileExplorer__ control provides two server side event - __ItemCommand__ and __ExplorerPopulated__
+The **RadFileExplorer** control provides two server side event - **ItemCommand** and **ExplorerPopulated**
 
 ## ItemCommand
 
 Called on the following commands:
 
-* __UploadFile__ - fired before each uploaded file is saved
+* **UploadFile** - fired before each uploaded file is saved
 
-* __CreateDirectory__ - fired before the file explorer creates a new folder
+* **CreateDirectory** - fired before the file explorer creates a new folder
 
-* __DeleteDirectory__ - fired before the file explorer deletes a folder
+* **DeleteDirectory** - fired before the file explorer deletes a folder
 
-* __DeleteFile__ - fired before a file is deleted
+* **DeleteFile** - fired before a file is deleted
 
-* __MoveFile__ - fired before a file is moved/renamed
+* **MoveFile** - fired before a file is moved/renamed
 
-* __MoveDirectory__ - fired before a directory is moved/renamed
+* **MoveDirectory** - fired before a directory is moved/renamed
 
-* __CopyFile__ - fired before a file is copied
+* **CopyFile** - fired before a file is copied
 
-* __CopyDirectory__ - fired before the file explorer copies a folder
+* **CopyDirectory** - fired before the file explorer copies a folder
 
 Example:
 

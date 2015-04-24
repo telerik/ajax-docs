@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadFileExplorer for ASP.NET AJAX Documentation
 description: Events
 slug: fileexplorer/client-side-programming/events
 tags: events
@@ -12,25 +12,25 @@ position: 1
 
 
 
-__RadFileExplorer__ has a number of client-side events that you could use:
+**RadFileExplorer** has a number of client-side events that you could use:
 
 ## RadFileExplorer's server-side properties for handling client-side events:
 
 
 >caption  
 
-|  __Event__  |  __Description__  |
+|  **Event**  |  **Description**  |
 | ------ | ------ |
-| __OnClientCreateNewFolder__ |Sets the the name of the JavaScript function called when a new folder is created|
-| __OnClientDelete__ |Sets the the name of the JavaScript function called when the user tries to delete an item(file or folder).|
-| __OnClientFileOpen__ |Sets the name of the JavaScript function called when an item is double clicked in the grid or in the tree.|
-| __OnClientFolderChange__ |Sets the name of the JavaScript function called when the selected folder in the tree changes.|
-| __OnClientFolderLoaded__ |Sets the name of the JavaScript function called when a folder is loaded in the grid.|
-| __OnClientItemSelected__ |Sets the name of the JavaScript function called when the user selects an item in the grid.|
-| __OnClientLoad__ |Sets the name of the JavaScript function called when the control loads in the browser.|
-| __OnClientMove__ |Set the name of the JavaScript function called when the user tries to move or rename an item.|
-| __OnClientCopy__ |Set the name of the JavaScript function called when the user tries to copy an item.|
-| __OnClientFilter__ |The name of the JavaScript function called when the user filters the files in the grid.|
+| **OnClientCreateNewFolder** |Sets the the name of the JavaScript function called when a new folder is created|
+| **OnClientDelete** |Sets the the name of the JavaScript function called when the user tries to delete an item(file or folder).|
+| **OnClientFileOpen** |Sets the name of the JavaScript function called when an item is double clicked in the grid or in the tree.|
+| **OnClientFolderChange** |Sets the name of the JavaScript function called when the selected folder in the tree changes.|
+| **OnClientFolderLoaded** |Sets the name of the JavaScript function called when a folder is loaded in the grid.|
+| **OnClientItemSelected** |Sets the name of the JavaScript function called when the user selects an item in the grid.|
+| **OnClientLoad** |Sets the name of the JavaScript function called when the control loads in the browser.|
+| **OnClientMove** |Set the name of the JavaScript function called when the user tries to move or rename an item.|
+| **OnClientCopy** |Set the name of the JavaScript function called when the user tries to copy an item.|
+| **OnClientFilter** |The name of the JavaScript function called when the user filters the files in the grid.|
 
 
 
