@@ -225,7 +225,7 @@ End If
 
 ![Row and column header formatting](images/pivotgrid-conditional_formatting_6.png)
 
-* **Formatting cells in PreRender**In PreRender you can access groups of items/cells, as they are all already created. An example of accessing all aggregate fields (the items/cells used to indicate the name of the fields that are aggregated). The **CellStyle** setting is applied to the aggregate fields under the column headers, while **RenderingControl**references the items shown in the data zone.
+* **Formatting cells in PreRender** In PreRender you can access groups of items/cells, as they are all already created. An example of accessing all aggregate fields (the items/cells used to indicate the name of the fields that are aggregated). The **CellStyle** setting is applied to the aggregate fields under the column headers, while **RenderingControl** references the items shown in the data zone.
 
 
 

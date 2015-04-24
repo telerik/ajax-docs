@@ -18,4 +18,5 @@ Changing the aggregate operator for a field in RadPivotGrid is done through the 
 ![pivotgrid-summarize-by-settings-dialogue 1](images/pivotgrid-summarize-by-settings-dialogue1.jpg)
 ![pivotgrid-summarize-by-settings-dialogue 2](images/pivotgrid-summarize-by-settings-dialogue2.jpg)
 
-The Summarize By Settings Window contains a list box with all of the available aggregate functions. The user picks up one and clicks OK to reflect the change into the pivot data report:![pivotgrid-summarize-by-settings-dialogue 3](images/pivotgrid-summarize-by-settings-dialogue3.jpg)
+The Summarize By Settings Window contains a list box with all of the available aggregate functions. The user picks up one and clicks OK to reflect the change into the pivot data report:
+![pivotgrid-summarize-by-settings-dialogue 3](images/pivotgrid-summarize-by-settings-dialogue3.jpg)

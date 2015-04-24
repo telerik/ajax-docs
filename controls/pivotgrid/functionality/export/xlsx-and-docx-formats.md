@@ -12,7 +12,7 @@ position: 1
 
 
 
-This help article describes the specifics of exporting a **RadPivotGrid** control to **XLSX** and**DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use XLSX export formats, you have to set the **ExportSettings-Excel-Format** property to**Xlsx**, while **DOCX** format does not require applying a property.
+This help article describes the specifics of exporting a **RadPivotGrid** control to **XLSX** and **DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use XLSX export formats, you have to set the **ExportSettings-Excel-Format** property to **Xlsx**, while **DOCX** format does not require applying a property.
 
 ## How to use it
 
@@ -120,9 +120,9 @@ The other parameter which is passed into the **PivotGridCellExporting** is the m
 
 * **TableCellType** - Gets the type of cell
 
-Since Q1 2015 version of UI for ASP.NET AJAX you can also access the **PivotGridCell** object from the**PivotGridCellExporting** arguments. You can cast the object to the appropriate type and use all its properties which will help you to change the text apply different styles etc.
+Since Q1 2015 version of UI for ASP.NET AJAX you can also access the **PivotGridCell** object from the **PivotGridCellExporting** arguments. You can cast the object to the appropriate type and use all its properties which will help you to change the text apply different styles etc.
 
-Additionally since Q1 2015 version you are able to style the elements of **RadPivotGrid** by using the the built-in styles such as**RowHeaderCellStyle**, **ColumnTotalCellStyle** etc. It is important to note that you have to enable the**UseItemStyle** property in order the applied styles to be exported. This property gives you the ability to apply the item styles to theexported file.
+Additionally since Q1 2015 version you are able to style the elements of **RadPivotGrid** by using the the built-in styles such as **RowHeaderCellStyle**, **ColumnTotalCellStyle** etc. It is important to note that you have to enable the**UseItemStyle** property in order the applied styles to be exported. This property gives you the ability to apply the item styles to theexported file.
 
 ````ASPNET
 <RowHeaderCellStyle BackColor="Green" />

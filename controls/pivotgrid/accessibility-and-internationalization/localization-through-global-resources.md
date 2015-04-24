@@ -16,7 +16,7 @@ position: 1
 
 ## Using the resource files
 
-The resource files should be placed within the **App_GlobalResources**folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). UI controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
+The resource files should be placed within the **App_GlobalResources** folder in your application. You can either create your own language pack (see below) or use an existing one (if available for your language). UI controls installation wizard automatically copies the built-in resources to the **App_GlobalResources** in your local installation.
 ![pivotgrid-logalization-global-resources 1](images/pivotgrid-logalization-global-resources_1.jpg)
 
 To change the current language/resource you should set the **Culture** property accordingly.

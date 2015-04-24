@@ -24,19 +24,19 @@ The **RadPivotGrid ConfigurationPanelSettings** property represents options for 
 
 * **Position** - which determines the panel position relative to the RadPivotGrid control.
 
-1. **FieldsWindow(default)**–places the panel in the RadPivotGrid FieldsWindow RadWindow control which could be shown by setting the EnableZoneContextMenu to true and clicking “Show Fields Window”.
+1. **FieldsWindow(default)** –places the panel in the RadPivotGrid FieldsWindow RadWindow control which could be shown by setting the EnableZoneContextMenu to true and clicking “Show Fields Window”.
 
 2. **Up, Right, Down, Left** -values correspondingly place the panel up, right, down, left relative to the pivot table.
 
 * **LayoutType** - the panel layout could be altered on the client and its default type could be altered by setting one of the four available values.
 
 1. **Stacked, SideBySide** - includes all five available sections. The two types position the five sections differently as shown below.
-| ![pivotgrid-Configuration Panel-Side-Layout](images/pivotgrid-ConfigurationPanel-Side-Layout.png) | ![pivotgrid-configuration Panel-Sideby Side-layout](images/pivotgrid-configurationPanel-SidebySide-layout.png) |
-| ------ | ------ |
+![pivotgrid-Configuration Panel-Side-Layout](images/pivotgrid-ConfigurationPanel-Side-Layout.png)
+![pivotgrid-configuration Panel-Sideby Side-layout](images/pivotgrid-configurationPanel-SidebySide-layout.png)
 
 1. **TwoByTwo, OneByFour** – includes four sections excluding the “Hidden fields” container. The two types position the four sections differently as shown below.
-| ![pivotgrid-configuration Panel-Twoby Two-layout](images/pivotgrid-configurationPanel-TwobyTwo-layout.png) | ![pivotgrid-configuration Panel-Fourby Four-layout](images/pivotgrid-configurationPanel-FourbyFour-layout.png) |
-| ------ | ------ |
+![pivotgrid-configuration Panel-Twoby Two-layout](images/pivotgrid-configurationPanel-TwobyTwo-layout.png)
+![pivotgrid-configuration Panel-Fourby Four-layout](images/pivotgrid-configurationPanel-FourbyFour-layout.png)
 
 * **EnableDragDrop** - a Boolean property determining if fields could be dragged or not.
 

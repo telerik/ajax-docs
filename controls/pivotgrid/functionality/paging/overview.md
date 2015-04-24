@@ -23,7 +23,7 @@ You could control how many items will be fetched and displayed by the **PageSize
 
 **RadPivotGrid** supports different pager styles, that you could choose from. For more information see [this article]({%slug pivotgrid/functionality/paging/pager-item%}).
 
-**RadPivotGrid** exposes the **PageSizeControlType** property in its**PagerStyle** property collection which is an enum of type **PagerDropDownControlType**. It has three values available with **RadComboBox** being the default one:
+**RadPivotGrid** exposes the **PageSizeControlType** property in its **PagerStyle** property collection which is an enum of type **PagerDropDownControlType**. It has three values available with **RadComboBox** being the default one:
 
 * **None**
 

@@ -184,7 +184,7 @@ Here is the same layout with three column fields and some collapsed items:
 * Below is an example with aggregates on level one with three column fields and some collapsed items:
 ````ASPNET
 <telerik:RadPivotGrid ID="RadPivotGrid1" runat="server" DataSourceID="SqlDataSource1" Skin="Metro" AggregatesPosition="Columns" RowTableLayout="Compact" AggregatesLevel="1">
-                
+````                
 
 ![Pivot Grid-Columns Compact 1 Level Collapsed](images/PivotGrid-ColumnsCompact1LevelCollapsed.jpg)
 

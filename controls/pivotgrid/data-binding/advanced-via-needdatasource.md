@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-The key to the advanced data binding of a **RadPivotGrid** control is handling the**NeedDataSource** event. **RadPivotGrid** fires the **NeedDataSource**event each time it needs to be bound to a data source. If, at the time of the event, the **DataSource** property is not set to a valid data source object, the pivot grid will not behave correctly.
+The key to the advanced data binding of a **RadPivotGrid** control is handling the **NeedDataSource** event. **RadPivotGrid** fires the **NeedDataSource** event each time it needs to be bound to a data source. If, at the time of the event, the **DataSource** property is not set to a valid data source object, the pivot grid will not behave correctly.
 
 This event fires in the following cases:
 
-* Right after **OnLoad**, Telerik RadTreeList checks the ViewState for stored TreeList-related information. If such information is missing (when the page loads for the first time), the **NeedDataSource** event is fired. This also means that if the**EnableViewState** property of the control has been set to false, the treelist will bind e**ach time the page loads**(not only the first time).
+* Right after **OnLoad**, Telerik RadTreeList checks the ViewState for stored TreeList-related information. If such information is missing (when the page loads for the first time), the **NeedDataSource** event is fired. This also means that if the **EnableViewState** property of the control has been set to false, the treelist will bind **each time the page loads** (not only the first time).
 
 * When a paging operation occurs.
 

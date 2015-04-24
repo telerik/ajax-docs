@@ -48,7 +48,8 @@ Value filters too are applicable to both RadPivotGrid’s row and value fields.
 
 ## Special filter functions
 
-Whereas most filter operators are self-explanatory, the **Top** and **Bottom** ones might not be that obvious. Those operators allow three modes: **Items, Percent** and **Sum**.![pivotgrid-filter-specialfilterfunctions 1](images/pivotgrid-filter-specialfilterfunctions1.png)
+Whereas most filter operators are self-explanatory, the **Top** and **Bottom** ones might not be that obvious. Those operators allow three modes: **Items, Percent** and **Sum**.
+![pivotgrid-filter-specialfilterfunctions 1](images/pivotgrid-filter-specialfilterfunctions1.png)
 
 They also expect and aggregate field and a filter value as part of the overall filter condition.
 ![pivotgrid-filter-specialfilterfunctions 2](images/pivotgrid-filter-specialfilterfunctions2.png)

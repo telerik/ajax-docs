@@ -34,19 +34,20 @@ There are several predefined calculations that you can use. To explain each of t
 * **DifferenceFrom** - instead of showing Totals in the cells you can show how items differentiate from a particular group. In the example below we have set DifferenceFrom "Pen":
 
 ````ASPNET
-	        <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="DifferenceFrom" Axis="Rows" Level="0"  
-	                      GroupName="Pen"/>         
-	        </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+           <TotalFormat TotalFunction="DifferenceFrom" Axis="Rows" Level="0"  
+              GroupName="Pen"/>         
+</telerik:PivotGridAggregateField>
 ````
 
-![pivotgrid-totals-calculations 2](images/pivotgrid-totals-calculations_2.png)You can also set DifferenceFromNext or DifferenceFromPrevious - this way each cell will show how the value in it differentiate from the value in next/previous cell. For example we can set DifferenceFromNext for our Rows and here is the result:
+![pivotgrid-totals-calculations 2](images/pivotgrid-totals-calculations_2.png)
+You can also set DifferenceFromNext or DifferenceFromPrevious - this way each cell will show how the value in it differentiate from the value in next/previous cell. For example we can set DifferenceFromNext for our Rows and here is the result:
 
 ````ASPNET
-	        <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="DifferenceFromNext" Axis="Rows" Level="0"  
-	                      GroupName="Pen"/>         
-	        </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+           <TotalFormat TotalFunction="DifferenceFromNext" Axis="Rows" Level="0"  
+              GroupName="Pen"/>         
+</telerik:PivotGridAggregateField>
 ````
 
 ![pivotgrid-totals-calculations 3](images/pivotgrid-totals-calculations_3.png)
@@ -54,20 +55,21 @@ There are several predefined calculations that you can use. To explain each of t
 * **PercentDifferenceFrom** - the logic behind this calculation is the same as DifferenceFrom, but instead, the difference is calculated in percents.
 
 ````ASPNET
-	         <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="PercentDifferenceFrom" Axis="Rows" Level="0"  
-	                      GroupName="Pen"/>         
-	         </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+          <TotalFormat TotalFunction="PercentDifferenceFrom" Axis="Rows" Level="0"  
+             GroupName="Pen"/>         
+</telerik:PivotGridAggregateField>
 ````
 
-![pivotgrid-totals-calculations 4](images/pivotgrid-totals-calculations_4.png)You can also set PercentDifferenceFromNext or PercentDifferenceFromPrevious and this way the value in each cell will be the difference between its value and the value in next/previous cell, but calculated in percents.
+![pivotgrid-totals-calculations 4](images/pivotgrid-totals-calculations_4.png)
+You can also set PercentDifferenceFromNext or PercentDifferenceFromPrevious and this way the value in each cell will be the difference between its value and the value in next/previous cell, but calculated in percents.
 
 * **Index** - calculates a weighted average by using the following formula: ((value in cell) x (Grand Total)) / ((Grand Row Total) x (Grand Column Total)). If we apply Index calculation on our example here is the result:
 
 ````ASPNET
-	          <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="Index" />         
-	          </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+         <TotalFormat TotalFunction="Index" />         
+</telerik:PivotGridAggregateField>
 ````
 
 ![pivotgrid-totals-calculations 5](images/pivotgrid-totals-calculations_5.png)
@@ -83,9 +85,9 @@ There are several predefined calculations that you can use. To explain each of t
 * **RunningTotalsIn** - the value in the cell is aggregation of the value in the previous cell and the total in the current one. Last item in the collection holds the GrandTotal values. For example in the image below the value which stands for "Pen" in promotion "Extra Discount" is a sum of its own total (32.67) and the value of "Notebook" in promotion "Extra Discount" (69.10).
 
 ````ASPNET
-	         <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="RunningTotalsIn" Axis="Rows" Level="0"  />         
-	         </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+          <TotalFormat TotalFunction="RunningTotalsIn" Axis="Rows" Level="0"  />         
+</telerik:PivotGridAggregateField>
 ````
 
 ![pivotgrid-totals-calculations 6](images/pivotgrid-totals-calculations_6.png)
@@ -93,9 +95,9 @@ There are several predefined calculations that you can use. To explain each of t
 * **PercentRunningTotalsIn** - the value in each cell is accumulated from the total in it and the value in the previous cell. The result is presented as percent of the GrandTotal. GrandTotal is present in the last item in the collection with the value 100 percents.
 
 ````ASPNET
-	         <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="PercentRunningTotalsIn" Axis="Rows" Level="0"  />         
-	         </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+          <TotalFormat TotalFunction="PercentRunningTotalsIn" Axis="Rows" Level="0"  />         
+</telerik:PivotGridAggregateField>
 ````
 
 ![pivotgrid-totals-calculations 7](images/pivotgrid-totals-calculations_7.png)
@@ -103,9 +105,9 @@ There are several predefined calculations that you can use. To explain each of t
 * **RankTotals** - the value in the cell is integer representing the rank of the current total in the current collection of totals. You can set ranking to be from smallest to largest or from largest to smallest.
 
 ````ASPNET
-	         <telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
-	                   <TotalFormat TotalFunction="RankTotals" Axis="Rows" Level="0"  />         
-	        </telerik:PivotGridAggregateField>
+<telerik:PivotGridAggregateField  Aggregate="Sum" DataField="Price">
+           <TotalFormat TotalFunction="RankTotals" Axis="Rows" Level="0"  />         
+</telerik:PivotGridAggregateField>
 ````
 
 ![pivotgrid-totals-calculations 8](images/pivotgrid-totals-calculations_8.png)
