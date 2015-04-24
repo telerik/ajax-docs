@@ -1,4 +1,4 @@
-﻿---
+---
 title: Telerik.Web.UI.RadOrgChartGroupPopulationFailedArguments
 page_title: Client-side API Reference
 description: Client-side API Reference

@@ -1,6 +1,6 @@
 ---
 title: Custom EntityFramework Provider
-page_title: Custom EntityFramework Provider | UI for ASP.NET AJAX Documentation
+page_title: Custom EntityFramework Provider | RadGantt for ASP.NET AJAX Documentation
 description: Custom EntityFramework Provider
 slug: gantt/resources/data-binding/custom-entityframework-provider
 tags: custom,entityframework,provider

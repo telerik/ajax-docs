@@ -1,6 +1,6 @@
 ---
 title: Use Headers in Content
-page_title: Use Headers in Content | UI for ASP.NET AJAX Documentation
+page_title: Use Headers in Content | RadEditor for ASP.NET AJAX Documentation
 description: Use Headers in Content
 slug: editor/accessibility-and-internationalization/creating-accessible-content/use-headers-in-content
 tags: use,headers,in,content

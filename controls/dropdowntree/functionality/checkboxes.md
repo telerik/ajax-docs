@@ -1,6 +1,6 @@
 ---
 title: CheckBoxes
-page_title: CheckBoxes | UI for ASP.NET AJAX Documentation
+page_title: CheckBoxes | RadDropDownTree for ASP.NET AJAX Documentation
 description: CheckBoxes
 slug: dropdowntree/functionality/checkboxes
 tags: checkboxes

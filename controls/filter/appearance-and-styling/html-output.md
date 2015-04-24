@@ -1,6 +1,6 @@
 ---
 title: HTML Output
-page_title: HTML Output | UI for ASP.NET AJAX Documentation
+page_title: HTML Output | RadFilter for ASP.NET AJAX Documentation
 description: HTML Output
 slug: filter/appearance-and-styling/html-output
 tags: html,output

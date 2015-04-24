@@ -1,6 +1,6 @@
 ---
 title: External CSS Files
-page_title: External CSS Files | UI for ASP.NET AJAX Documentation
+page_title: External CSS Files | RadEditor for ASP.NET AJAX Documentation
 description: External CSS Files
 slug: editor/functionality/toolbars/dropdowns/external-css-files
 tags: external,css,files
@@ -80,7 +80,7 @@ By default RadEditor for ASP.NET AJAX uses the CSS classes available in the curr
 >
 
 
-The css classes available in the external css files will populate the "Apply Css Class" dropdown. If you would like you you can easily modify this set of external classes in the dropdown and display only a few classes using the *__Add__* method of CssClasses Collection:
+The css classes available in the external css files will populate the "Apply Css Class" dropdown. If you would like you you can easily modify this set of external classes in the dropdown and display only a few classes using the **Add** method of CssClasses Collection:
 
 
 
@@ -94,7 +94,7 @@ The css classes available in the external css files will populate the "Apply Css
 ````
 
 
-You can also populate the CSS class dropdown using the __ToolsFile__, as shown in the example below:
+You can also populate the CSS class dropdown using the **ToolsFile**, as shown in the example below:
 
 ````XML
 	    <classes>

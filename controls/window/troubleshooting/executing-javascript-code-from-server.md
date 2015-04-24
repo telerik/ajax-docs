@@ -1,4 +1,4 @@
-﻿---
+---
 title: Executing JavaScript Code from Server
 page_title: Executing JavaScript Code from Server | UI for ASP.NET AJAX Documentation
 description: Executing JavaScript Code from Server

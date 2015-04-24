@@ -1,6 +1,6 @@
 ---
 title: OnClientInlineEditCompleted
-page_title: OnClientInlineEditCompleted | UI for ASP.NET AJAX Documentation
+page_title: OnClientInlineEditCompleted | RadEditor for ASP.NET AJAX Documentation
 description: OnClientInlineEditCompleted
 slug: editor/client-side-programming/events/onclientinlineeditcompleted
 tags: onclientinlineeditcompleted
@@ -12,17 +12,17 @@ position: 10
 
 
 
-The __OnClientInlineEditCompleted__ event is fired after the completion of inline editing	(i.e., clicking outside of the content area of an editor with enabled inline-editing). The event is useful for executing custom	client-side code when the user finishes with the inline-editing (e.g., saving the updated content in a database). See a sample in __Example 1__.
+The **OnClientInlineEditCompleted** event is fired after the completion of inline editing	(i.e., clicking outside of the content area of an editor with enabled inline-editing). The event is useful for executing custom	client-side code when the user finishes with the inline-editing (e.g., saving the updated content in a database). See a sample in **Example 1**.
 
-This event is available as of __Q3 2014__. You can find more details about the Inline Editing in the [Inline Editing Mode]({%slug editor/functionality/editor-views-and-modes/inline-editing-mode%}) article.
+This event is available as of **Q3 2014**. You can find more details about the Inline Editing in the [Inline Editing Mode]({%slug editor/functionality/editor-views-and-modes/inline-editing-mode%}) article.
 
 ## 
 
 The event handler receives one argument- the [RadEditor client-side object]({%slug editor/client-side-programming/getting-a-reference-to-radeditor%}) that fired the event.
 
-The __Example 1__ showcases how to perform an AJAX request when the __OnClientInlineEditCompleted__ event is fired and put the editor's content in a simple div element from code behind. With a similar approach you can update a database record with the content, for example.
+The **Example 1** showcases how to perform an AJAX request when the **OnClientInlineEditCompleted** event is fired and put the editor's content in a simple div element from code behind. With a similar approach you can update a database record with the content, for example.
 
-__Example 1:__ Storing __RadEditor__'s content in a div in __OnClientInlineEditCompleted__ event.
+**Example 1:** Storing **RadEditor**'s content in a div in **OnClientInlineEditCompleted** event.
 
 
 

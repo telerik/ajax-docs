@@ -1,6 +1,6 @@
 ---
 title: Insert Select Element
-page_title: Insert Select Element | UI for ASP.NET AJAX Documentation
+page_title: Insert Select Element | RadEditor for ASP.NET AJAX Documentation
 description: Insert Select Element
 slug: editor/functionality/dialogs/insert-select-element
 tags: insert,select,element
@@ -14,32 +14,32 @@ position: 3
 
 ## 
 
-__Insert Select dialog__ offers a way to easily create or edit __<select>__dropdowns in RadEditor. It consists of two panels - the first one is for __adding and removing options elements__ while the second one is for __setting up the properties__ of the drop-down list:![editor-insertselect](images/editor-insertselect.png)
+**Insert Select dialog** offers a way to easily create or edit **<select>**dropdowns in RadEditor. It consists of two panels - the first one is for **adding and removing options elements** while the second one is for **setting up the properties** of the drop-down list:![editor-insertselect](images/editor-insertselect.png)
 
-__Add/Remove Options__ Panel:
+**Add/Remove Options** Panel:
 
-* __Add Option__ - Adds an option element to the drop-down list
+* **Add Option** - Adds an option element to the drop-down list
 
-* __Remove Option__ - Removes an option element from the drop-down list
+* **Remove Option** - Removes an option element from the drop-down list
 
-* __Options__ - Shows the list of the options elements
+* **Options** - Shows the list of the options elements
 
-* __Text__ - Sets/Gets the text for selected option element from the Options field
+* **Text** - Sets/Gets the text for selected option element from the Options field
 
-* __Value__ - Sets/Gets the value for selected option element from the Options field.
+* **Value** - Sets/Gets the value for selected option element from the Options field.
 
-__Properties__ Panel:
+**Properties** Panel:
 
-* __Width/Height__ - Specifies the height and the width of the drop-down list (in pixels or percent)
+* **Width/Height** - Specifies the height and the width of the drop-down list (in pixels or percent)
 
-* __Style builder__ - Opens another dialog that allows for fine tuningthe appearance of the drop-down list (e.g. borders, alignment, spacing, etc.)
+* **Style builder** - Opens another dialog that allows for fine tuningthe appearance of the drop-down list (e.g. borders, alignment, spacing, etc.)
 
-* __CSS Class__ - Specifies Select CSS class and style. This property should be used only by advanced users
+* **CSS Class** - Specifies Select CSS class and style. This property should be used only by advanced users
 
-* __Id__ - Defines the ID attribute for the drop-down list
+* **Id** - Defines the ID attribute for the drop-down list
 
-* __Size__ - Specifies the number of visible options in the drop-down list
+* **Size** - Specifies the number of visible options in the drop-down list
 
-* __Name__ - Defines a name for the drop-down list
+* **Name** - Defines a name for the drop-down list
 
-* __Multiple__ - Specifies that multiple options can be selected at once.
+* **Multiple** - Specifies that multiple options can be selected at once.

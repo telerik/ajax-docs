@@ -1,6 +1,6 @@
 ---
 title: Custom FileBrowserContentProvider
-page_title: Custom FileBrowserContentProvider | UI for ASP.NET AJAX Documentation
+page_title: Custom FileBrowserContentProvider | RadEditor for ASP.NET AJAX Documentation
 description: Custom FileBrowserContentProvider
 slug: editor/functionality/dialogs/examples/custom-filebrowsercontentprovider
 tags: custom,filebrowsercontentprovider
@@ -18,15 +18,15 @@ FileBrowserContentProvider provides the ability for using different files source
 
 By default the editor file-based dialogs, such as ImageManager, FlashManager etc. read files from and upload files to physical directories within the web application. You may need an alternative mechanism in some scenarios, e.g. integrating RadEditor to existing CMS systems that have an established way of dealing with file resources.
 
-RadEditor offers the ability to implement custom content providers that are plugged into the file-browser dialogs instead of the default provider. This enables the use of database, XML files for storing of files and file information. To create a custom content provider you need to create a descendant of __FileBrowserContentProvider__ and implement it's methods.__FileBrowserContentProvider__ is in the Telerik.Web.UI.Widgets namespace.
+RadEditor offers the ability to implement custom content providers that are plugged into the file-browser dialogs instead of the default provider. This enables the use of database, XML files for storing of files and file information. To create a custom content provider you need to create a descendant of **FileBrowserContentProvider** and implement it's methods.**FileBrowserContentProvider** is in the Telerik.Web.UI.Widgets namespace.
 
 ## Implementation Overview
 
-The steps to implement a custom __FileBrowserContentProvider__ are:
+The steps to implement a custom **FileBrowserContentProvider** are:
 
 1. Extend the abstract [Telerik.Web.UI.Widgets.FileBrowserContentProvider](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_widgets_filebrowsercontentprovider.html) class and implement its methods.
 
-1. Set the dialog's property *[ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html)* e.g. *RadEditor1.ImageManager.ContentProviderTypeName* = "__DatabaseFileBrowser, EditorWebApp"__ where the value of the property [ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html) should be the qualified assembly name of your custom content provider. The general format of the assembly name should be __"Full.Class.Name.Including.The.Namespace, Assembly.Name"__. For example if your content provider class is in a separate project and is declared like this:
+1. Set the dialog's property *[ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html)* e.g. *RadEditor1.ImageManager.ContentProviderTypeName* = "**DatabaseFileBrowser, EditorWebApp"** where the value of the property [ContentProviderTypeName](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html) should be the qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example if your content provider class is in a separate project and is declared like this:
 
 
 
@@ -62,7 +62,7 @@ The steps to implement a custom __FileBrowserContentProvider__ are:
 ````
 
 
-...when it is compiled in the __ContentProviders.dll__ assembly, you should set the following value:
+...when it is compiled in the **ContentProviders.dll** assembly, you should set the following value:
 
 RadEditor1.ImageManager.ContentProviderTypeName = "ContentProviders.RadEditor.DatabaseContentProvider,ContentProviders"
 
@@ -96,13 +96,13 @@ There are methods to be implemented for creating a directory, creating a file, d
 
 To get started implementing FileBrowserContentProvider:
 
-1. Add the __Telerik.Web.UI.Widgets__ namespace to your "uses" (C#) or "Imports" (VB) section of code.
+1. Add the **Telerik.Web.UI.Widgets** namespace to your "uses" (C#) or "Imports" (VB) section of code.
 
-1. Create a new class, e.g. "MyFileBrowserContentProvider" that descends from __FileBrowserContentProvider__.
+1. Create a new class, e.g. "MyFileBrowserContentProvider" that descends from **FileBrowserContentProvider**.
 
 1. In C# projects:
 
-1. right-click the __FileBrowserContentProvider__ declaration and select __Implement Abstract Class__ from the context menu.
+1. right-click the **FileBrowserContentProvider** declaration and select **Implement Abstract Class** from the context menu.
 >caption 
 
 ![](images/editor-dialogs006.png)This step will create all the methods that can be implemented:
@@ -152,17 +152,17 @@ Some important details aimed at reducing the overall time needed by developers t
 
 1. Since the FileBrowserContentProvider class needs a number of parameters to be configured when created, it has no default constructor. This means that the subclass must explicitly define a similar constructor with the exact same number of arguments and it needs to explicitly make a call to the parent constructor.
 
-1. The DirectoryItem class has two properties __Files__ and __Directories__ of array type. These are read-only and cannot be replaced, once set. These properties also need to be set during the __DirectoryItem__ construction phase__.__ This could have some implications on the exact algorithm for building the file tree.
+1. The DirectoryItem class has two properties **Files** and **Directories** of array type. These are read-only and cannot be replaced, once set. These properties also need to be set during the **DirectoryItem** construction phase**.** This could have some implications on the exact algorithm for building the file tree.
 
-1. The information here is for the ImageManager, but is valid for each of the remaining file-browser dialogs:If the property editor property __ViewPaths__ is not set, the __ResolveRootDirectoryAsTree__ method will not be called at all! This is because it will be assumed that no directory browsing should be allowed for the particular user using the editor. The __ResolveRootDirectoryAsTree__ is called for each item in the __ViewPaths__ array.
+1. The information here is for the ImageManager, but is valid for each of the remaining file-browser dialogs:If the property editor property **ViewPaths** is not set, the **ResolveRootDirectoryAsTree** method will not be called at all! This is because it will be assumed that no directory browsing should be allowed for the particular user using the editor. The **ResolveRootDirectoryAsTree** is called for each item in the **ViewPaths** array.
 
-1. In order to allow creation of directories (and the *CreateDirectory* method to be called) the __CanCreateDirectory__ property must return true.
+1. In order to allow creation of directories (and the *CreateDirectory* method to be called) the **CanCreateDirectory** property must return true.
 
-1. __GetFile__, __GetFileName, GetPath__ and __StoreBitmap__ methods are only related to the Thumbnail creation functionality and are not called by the regular file browser. Their implementation can be postponed for the end once all other functionality is working.
+1. **GetFile**, **GetFileName, GetPath** and **StoreBitmap** methods are only related to the Thumbnail creation functionality and are not called by the regular file browser. Their implementation can be postponed for the end once all other functionality is working.
 
 ## Sample FileBrowserContentProvider implementation
 
-The sample implementation is using a database for information storage, and a single physical directory as a file storage. The screenshots below explain the relationship between the actions that can be taken in the editor (using the [Custom File Dialogs Content Provider LiveDemo](http://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx)) and the methods that must be implemented in your __FileBrowserContentProvider__ descendant implementation:
+The sample implementation is using a database for information storage, and a single physical directory as a file storage. The screenshots below explain the relationship between the actions that can be taken in the editor (using the [Custom File Dialogs Content Provider LiveDemo](http://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx)) and the methods that must be implemented in your **FileBrowserContentProvider** descendant implementation:
 
 
 

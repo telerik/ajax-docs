@@ -1,6 +1,6 @@
 ---
 title: Documents
-page_title: Documents | UI for ASP.NET AJAX Documentation
+page_title: Documents | RadEditor for ASP.NET AJAX Documentation
 description: Documents
 slug: editor/functionality/dialogs/file-browser-dialogs/documents
 tags: documents
@@ -18,11 +18,11 @@ Functionality:
 
 Using the Document Manager dialog, RadEditor users can:
 
-* __insert documents__ in the editor's content area
+* **insert documents** in the editor's content area
 
-* __upload new documents__, which will be available for inserting.
+* **upload new documents**, which will be available for inserting.
 
-* __delete documents__
+* **delete documents**
 
 Properties to set: 
 
@@ -31,13 +31,13 @@ The behavior of the Document Manager dialog is controlled by the following prope
 
 >caption  
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __ViewPaths__ |A string array which contains the paths where the RadEditor will look for documents. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
-| __UploadPaths__ |A string array which contains the paths to which the RadEditor will be able to upload documents. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __DeletePaths__ |A string array which contains the paths from which the RadEditor will be able to delete documents. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __MaxUploadFileSize__ |The maximum document file size in bytes, allowed for uploading. The default value is __204800__ bytes (200 kilobytes).|
-| __SearchPatterns__ |A string array which contains the file extension filters that controls which files are shown in the Document Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.doc will match all document names with extension doc.|
+| **ViewPaths** |A string array which contains the paths where the RadEditor will look for documents. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
+| **UploadPaths** |A string array which contains the paths to which the RadEditor will be able to upload documents. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **DeletePaths** |A string array which contains the paths from which the RadEditor will be able to delete documents. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **MaxUploadFileSize** |The maximum document file size in bytes, allowed for uploading. The default value is **204800** bytes (200 kilobytes).|
+| **SearchPatterns** |A string array which contains the file extension filters that controls which files are shown in the Document Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.doc will match all document names with extension doc.|
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading documents into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access Document files located in another web application.
 
@@ -45,7 +45,7 @@ Example:
 
 The example below demonstrates the relationship between the folder structure and the property settings:
 
-The users will be able to browse all subfolders of the "~/Documents" folder. They will be able to upload documents to the "~/Documents/New" folder and all its subfolders and delete documents from "~/Documents/New/Articles" and "~/Documents/New/News".__Setting Document manager properties inline:__
+The users will be able to browse all subfolders of the "~/Documents" folder. They will be able to upload documents to the "~/Documents/New" folder and all its subfolders and delete documents from "~/Documents/New/Articles" and "~/Documents/New/News".**Setting Document manager properties inline:**
 
 ````XML
 	    <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -55,7 +55,7 @@ The users will be able to browse all subfolders of the "~/Documents" folder. The
 
 
 
-__Setting the DocumentManager properties in CodeBehind:__
+**Setting the DocumentManager properties in CodeBehind:**
 
 
 
@@ -102,11 +102,11 @@ Note that the viewDocuments, uploadDocuments and deleteDocuments variables are s
 | 
 >caption 
 
-![](images/editor-hs_note.gif) | The Links inserted via the __DocumentManager__ have __relative paths__ . In scenarios when __absolute paths__ are needed enable the __MakeUrlsAbsolute__ client-side filter of RadEditor:
+![](images/editor-hs_note.gif) | The Links inserted via the **DocumentManager** have **relative paths** . In scenarios when **absolute paths** are needed enable the **MakeUrlsAbsolute** client-side filter of RadEditor:
 
-* via the codebehind: RadEditor1.EnableFilter(EditorFilters. __MakeUrlsAbsolute__ );
+* via the codebehind: RadEditor1.EnableFilter(EditorFilters. **MakeUrlsAbsolute** );
 
-* inline: <telerik:RadEditor ID="RadEditor1" __ContentFilters="MakeUrlsAbsolute"__ runat="server" /> |
+* inline: <telerik:RadEditor ID="RadEditor1" **ContentFilters="MakeUrlsAbsolute"** runat="server" /> |
 | ------ | ------ |
 
 

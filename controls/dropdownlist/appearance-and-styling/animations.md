@@ -1,6 +1,6 @@
 ---
 title: Animations
-page_title: Animations | UI for ASP.NET AJAX Documentation
+page_title: Animations | RadDropDownList for ASP.NET AJAX Documentation
 description: Animations
 slug: dropdownlist/appearance-and-styling/animations
 tags: animations

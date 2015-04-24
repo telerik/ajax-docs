@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfExporting
 page_title: PdfExporting | RadClientExportManager for ASP.NET AJAX Documentation
 description: PdfExporting

@@ -1,6 +1,6 @@
 ---
 title: Server-side Programming
-page_title: Server-side Programming | UI for ASP.NET AJAX Documentation
+page_title: Server-side Programming | RadDiagram for ASP.NET AJAX Documentation
 description: Server-side Programming
 slug: diagram/server-side-programming
 tags: server-side,programming
@@ -12,16 +12,16 @@ position: 8
 
 
 
-You can configure the settings of __RadDiagram__ and create its elements on the code-behind via the Server-Side API of this customizable ASP.NET Diagram control.
+You can configure the settings of **RadDiagram** and create its elements on the code-behind via the Server-Side API of this customizable ASP.NET Diagram control.
 
 ## Configuring a Diagram From the Code-Behind
 
-__Example 1__ shows a possible application of the Server-Side API of the diagram. The code in the example configures some settings of the diagram, of its layout, then adds sever shapes and connects them. You can use it to do all of this on the sever-side and achieve the result in__Figure 1__.
+**Example 1** shows a possible application of the Server-Side API of the diagram. The code in the example configures some settings of the diagram, of its layout, then adds sever shapes and connects them. You can use it to do all of this on the sever-side and achieve the result in**Figure 1**.
 >caption Figure 1: A diagram that is configured from the code-behind
 
 ![diagram-programmatic-creation](images/diagram-programmatic-creation.png)
 
-__Example 1__: Configuring a diagram on the server-side.
+**Example 1**: Configuring a diagram on the server-side.
 
 
 

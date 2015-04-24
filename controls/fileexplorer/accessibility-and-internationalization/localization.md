@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadFileExplorer for ASP.NET AJAX Documentation
 description: Localization
 slug: fileexplorer/accessibility-and-internationalization/localization
 tags: localization
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __RadFileExplorer__control uses the same localization mechanism as RadEditor (.resx files in the __App_GlobalResources__folder). If you want to change the localization strings, you need to copy the __RadEditor.Dialogs.resx__file in the __App_GlobalResources__folder of your application and edit the strings inside.
+The **RadFileExplorer**control uses the same localization mechanism as RadEditor (.resx files in the **App_GlobalResources**folder). If you want to change the localization strings, you need to copy the **RadEditor.Dialogs.resx**file in the **App_GlobalResources**folder of your application and edit the strings inside.
 
 
 

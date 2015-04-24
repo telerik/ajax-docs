@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadFileExplorer for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: fileexplorer/appearance-and-styling/css-classes
 tags: css,classes
@@ -21,8 +21,8 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer__ |RadFileExplorer main wrapping element|
-| __.rfeAddressBox__ |Sets RadFileExplorer address box – INPUT element|
+| **.RadFileExplorer** |RadFileExplorer main wrapping element|
+| **.rfeAddressBox** |Sets RadFileExplorer address box – INPUT element|
 
 
 
@@ -35,12 +35,12 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.rfeUploadContainer__ |RadFileExplorer upload container|
-| __.rfeUploadInfoPanel__ |RadFileExplorer upload info panel|
-| __.rfeUploadInfoPanel dt__ |RadFileExplorer upload info panel DT element|
-| __.ruActions__ |Overwrites RadUpload settings for the needs of RadFileExplorer|
-| __.rfeUploadButtonContainer__ |RadFileExplorer upload button container|
-| __.rfeUploadButtonContainer input__ |RadFileExplorer upload button container INPUT|
+| **.rfeUploadContainer** |RadFileExplorer upload container|
+| **.rfeUploadInfoPanel** |RadFileExplorer upload info panel|
+| **.rfeUploadInfoPanel dt** |RadFileExplorer upload info panel DT element|
+| **.ruActions** |Overwrites RadUpload settings for the needs of RadFileExplorer|
+| **.rfeUploadButtonContainer** |RadFileExplorer upload button container|
+| **.rfeUploadButtonContainer input** |RadFileExplorer upload button container INPUT|
 
 
 
@@ -53,8 +53,8 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.rfeFileExtension__ |Sprite Image background|
-| __.folder__ |Folder|
+| **.rfeFileExtension** |Sprite Image background|
+| **.folder** |Folder|
 
 
 
@@ -67,24 +67,24 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer .RadToolBar .rtbDisabled__ |FileExplorer RadToolBar disabled – opacity for IE7|
-| __.RadFileExplorer .RadToolBar__ |FileExplorer RadToolBar|
-| __.RadFileExplorer .RadToolBar .rtbOuter__ |FileExplorer RadToolBar outer|
-| __.RadFileExplorer .RadToolBar .rtbMiddle__ |FileExplorer RadToolBar middle|
-| __.RadFileExplorer .RadToolBar .rtbInner__ |FileExplorer RadToolBar inner|
-| __.RadFileExplorer .RadToolBar .rtbWrap__ |FileExplorer RadToolBar wrapper element|
-| __.RadFileExplorer .RadToolBar .rtbText__ |FileExplorer RadToolBar text|
-| __.RadFileExplorer .RadToolBar .rtbUL__ |FileExplorer RadToolBar Unordered List|
-| __.RadFileExplorer .RadToolBar .rtbIconOnly .rtbText__ |FileExplorer RadToolBar icon only text|
-| __.RadFileExplorer .RadToolBar .icnRefresh .rtbText__ |FileExplorer RadToolBar icon refresh text|
-| __.RadFileExplorer .RadToolBar .icnNewFolder .rtbText__ |FileExplorer RadToolBar icon new folder text|
-| __.RadFileExplorer .RadToolBar .icnDelete .rtbText__ |FileExplorer RadToolBar icon delete text|
-| __.RadFileExplorer .RadToolBar .icnUpload .rtbText__ |FileExplorer RadToolBar icon upload text|
-| __.RadFileExplorer .RadToolBar .icnBack .rtbText__ |FileExplorer RadToolBar icon back text|
-| __.RadFileExplorer .RadToolBar .icnForward .rtbText__ |FileExplorer RadToolBar icon forward text|
-| __.RadFileExplorer .RadToolBar .icnOpen .rtbText__ |FileExplorer RadToolBar icon open text|
-| __.RadFileExplorer .RadToolBar .NoIcon .rtbText__ |FileExplorer RadToolBar no icon text|
-| __.RadFileExplorer .RadToolBar .NoIcon.rtbChecked__ |FileExplorer RadToolBar no icon checked|
+| **.RadFileExplorer .RadToolBar .rtbDisabled** |FileExplorer RadToolBar disabled – opacity for IE7|
+| **.RadFileExplorer .RadToolBar** |FileExplorer RadToolBar|
+| **.RadFileExplorer .RadToolBar .rtbOuter** |FileExplorer RadToolBar outer|
+| **.RadFileExplorer .RadToolBar .rtbMiddle** |FileExplorer RadToolBar middle|
+| **.RadFileExplorer .RadToolBar .rtbInner** |FileExplorer RadToolBar inner|
+| **.RadFileExplorer .RadToolBar .rtbWrap** |FileExplorer RadToolBar wrapper element|
+| **.RadFileExplorer .RadToolBar .rtbText** |FileExplorer RadToolBar text|
+| **.RadFileExplorer .RadToolBar .rtbUL** |FileExplorer RadToolBar Unordered List|
+| **.RadFileExplorer .RadToolBar .rtbIconOnly .rtbText** |FileExplorer RadToolBar icon only text|
+| **.RadFileExplorer .RadToolBar .icnRefresh .rtbText** |FileExplorer RadToolBar icon refresh text|
+| **.RadFileExplorer .RadToolBar .icnNewFolder .rtbText** |FileExplorer RadToolBar icon new folder text|
+| **.RadFileExplorer .RadToolBar .icnDelete .rtbText** |FileExplorer RadToolBar icon delete text|
+| **.RadFileExplorer .RadToolBar .icnUpload .rtbText** |FileExplorer RadToolBar icon upload text|
+| **.RadFileExplorer .RadToolBar .icnBack .rtbText** |FileExplorer RadToolBar icon back text|
+| **.RadFileExplorer .RadToolBar .icnForward .rtbText** |FileExplorer RadToolBar icon forward text|
+| **.RadFileExplorer .RadToolBar .icnOpen .rtbText** |FileExplorer RadToolBar icon open text|
+| **.RadFileExplorer .RadToolBar .NoIcon .rtbText** |FileExplorer RadToolBar no icon text|
+| **.RadFileExplorer .RadToolBar .NoIcon.rtbChecked** |FileExplorer RadToolBar no icon checked|
 
 
 
@@ -97,12 +97,12 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer .RadGrid__ |FileExplorer RadGrid container|
-| __.RadFileExplorer .RadGrid div__ |FileExplorer RadGrid DIV|
-| __.RadFileExplorer .RadGrid td__ |FileExplorer RadGrid TD|
-| __.RadFileExplorer .RadGrid td.rfeFileExtension__ |FileExplorer RadGrid file extension TD|
-| __.RadFileExplorer .RadGrid .rgNoRecords div__ |FileExplorer RadGrid no records DIV|
-| __.RadFileExplorer .RadGrid .rgSliderLabel__ |FileExplorer RadGrid slider label|
+| **.RadFileExplorer .RadGrid** |FileExplorer RadGrid container|
+| **.RadFileExplorer .RadGrid div** |FileExplorer RadGrid DIV|
+| **.RadFileExplorer .RadGrid td** |FileExplorer RadGrid TD|
+| **.RadFileExplorer .RadGrid td.rfeFileExtension** |FileExplorer RadGrid file extension TD|
+| **.RadFileExplorer .RadGrid .rgNoRecords div** |FileExplorer RadGrid no records DIV|
+| **.RadFileExplorer .RadGrid .rgSliderLabel** |FileExplorer RadGrid slider label|
 
 
 
@@ -115,11 +115,11 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer .RadTreeView__ |FileExplorer RadTreeView Container|
-| __.RadFileExplorer .RadTreeView .rtIn__ |FileExplorer RadTreeView inner|
-| __.RadFileExplorer .rtTemplate__ |FileExplorer RadTreeView template|
-| __.RadFileExplorer .RadTreeView .rfeFileExtension__ |FileExplorer RadTreeView file explorer file extension|
-| __* + html .RadFileExplorer .rtLoadingBefore__ |FileExplorer RadTreeView loading before IE7 fix|
+| **.RadFileExplorer .RadTreeView** |FileExplorer RadTreeView Container|
+| **.RadFileExplorer .RadTreeView .rtIn** |FileExplorer RadTreeView inner|
+| **.RadFileExplorer .rtTemplate** |FileExplorer RadTreeView template|
+| **.RadFileExplorer .RadTreeView .rfeFileExtension** |FileExplorer RadTreeView file explorer file extension|
+| ** + html .RadFileExplorer .rtLoadingBefore** |FileExplorer RadTreeView loading before IE7 fix|
 
 
 
@@ -132,44 +132,44 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer .folderup__ |RadFileExplorer . folder icon|
-| __.RadFileExplorer .gif__ |RadFileExplorer .gif icon|
-| __.RadFileExplorer .html, .RadFileExplorer .htm, .RadFileExplorer .xhtml, .RadFileExplorer .hta__ |RadFileExplorer .html, . htm, .xhtml, .hta icons|
-| __.RadFileExplorer .exe, .RadFileExplorer .bat__ |RadFileExplorer .exe and .bat icons|
-| __.RadFileExplorer .rar, .RadFileExplorer .zip, .RadFileExplorer .ace__ |RadFileExplorer .rar, .zip and .ace icons|
-| __.RadFileExplorer .psd, .RadFileExplorer .pdd__ |RadFileExplorer .psd and .pdd icons|
-| __.RadFileExplorer .js__ |RadFileExplorer .js icon|
-| __.RadFileExplorer .vbs__ |RadFileExplorer .vbs icon|
-| __.RadFileExplorer .css__ |RadFileExplorer .css icon|
-| __.RadFileExplorer .txt__ |RadFileExplorer .txt icon|
-| __.RadFileExplorer .asp__ |RadFileExplorer .asp icon|
-| __.RadFileExplorer .aspx__ |RadFileExplorer .aspx icon|
-| __.RadFileExplorer .sln__ |RadFileExplorer .sln icon|
-| __.RadFileExplorer .config__ |RadFileExplorer .config icon|
-| __.RadFileExplorer .cs__ |RadFileExplorer .cs icon|
-| __.RadFileExplorer .vb__ |RadFileExplorer .vb icon|
-| __.RadFileExplorer .doc, .RadFileExplorer .docx, .RadFileExplorer .rtf, .RadFileExplorer .dot__ |RadFileExplorer .doc, .docx, .rtf and .dot icons|
-| __.RadFileExplorer .ppt, .RadFileExplorer .pptx__ |RadFileExplorer .ppt and .pptx icons|
-| __.RadFileExplorer .xls, .RadFileExplorer .xlsx__ |RadFileExplorer .xls and .xlsx icons|
-| __.RadFileExplorer .ascx__ |RadFileExplorer .ascx icon|
-| __.RadFileExplorer .jpg, .RadFileExplorer .jpeg, .RadFileExplorer .jpe__ |RadFileExplorer .jpg, .jpeg and .jpe icons|
-| __.RadFileExplorer .png__ |RadFileExplorer .png icon|
-| __.RadFileExplorer .mdb__ |RadFileExplorer .mdb icon|
-| __.RadFileExplorer .csproj__ |RadFileExplorer .csproj icon|
-| __.RadFileExplorer .webinfo__ |RadFileExplorer .webinfo icon|
-| __.RadFileExplorer .vbproj__ |RadFileExplorer .vbproj icon|
-| __.RadFileExplorer .pdf__ |RadFileExplorer .pdf icon|
-| __.RadFileExplorer .bmp__ |RadFileExplorer .bmp icon|
-| __.RadFileExplorer .swf__ |RadFileExplorer .swf icon|
-| __.RadFileExplorer .tif, .RadFileExplorer .tiff__ |RadFileExplorer .tiff and .tiff icon|
-| __.RadFileExplorer .mpg, .RadFileExplorer .mpeg, .RadFileExplorer .avi, .RadFileExplorer .gp3, .RadFileExplorer .mov, .RadFileExplorer .mpeg4, .RadFileExplorer .aif, .RadFileExplorer .aiff, .RadFileExplorer .rm, .RadFileExplorer .wmv__ |RadFileExplorer .mpg, .mpeg, .avi, .gp3, .mov, .mpeg4, .aif, .aiff, .rm and .wmv icons|
-| __.RadFileExplorer .mp3, .RadFileExplorer .mp4, .RadFileExplorer .mid, .RadFileExplorer .midi, .RadFileExplorer .wav, .RadFileExplorer .gp3, .RadFileExplorer .gp4, .RadFileExplorer .gp5, .RadFileExplorer .wma, .RadFileExplorer .ogg__ |RadFileExplorer .mp3, .mp4, .mid, .midi, .wav, .gp3, .gp4, .gp5, .wma and .ogg files|
-| __.RadFileExplorer .fla, .RadFileExplorer .flv__ |RadFileExplorer .fla and .flv files|
-| __.RadFileExplorer .dll__ |RadFileExplorer .dll file|
-| __.RadFileExplorer .xml__ |RadFileExplorer .xml file|
-| __.RadFileExplorer .xslt__ |RadFileExplorer .xslt file|
-| __.RadFileExplorer .xsl__ |RadFileExplorer .xsl file|
-| __.RadFileExplorer .bac__ |RadFileExplorer .bac file|
+| **.RadFileExplorer .folderup** |RadFileExplorer . folder icon|
+| **.RadFileExplorer .gif** |RadFileExplorer .gif icon|
+| **.RadFileExplorer .html, .RadFileExplorer .htm, .RadFileExplorer .xhtml, .RadFileExplorer .hta** |RadFileExplorer .html, . htm, .xhtml, .hta icons|
+| **.RadFileExplorer .exe, .RadFileExplorer .bat** |RadFileExplorer .exe and .bat icons|
+| **.RadFileExplorer .rar, .RadFileExplorer .zip, .RadFileExplorer .ace** |RadFileExplorer .rar, .zip and .ace icons|
+| **.RadFileExplorer .psd, .RadFileExplorer .pdd** |RadFileExplorer .psd and .pdd icons|
+| **.RadFileExplorer .js** |RadFileExplorer .js icon|
+| **.RadFileExplorer .vbs** |RadFileExplorer .vbs icon|
+| **.RadFileExplorer .css** |RadFileExplorer .css icon|
+| **.RadFileExplorer .txt** |RadFileExplorer .txt icon|
+| **.RadFileExplorer .asp** |RadFileExplorer .asp icon|
+| **.RadFileExplorer .aspx** |RadFileExplorer .aspx icon|
+| **.RadFileExplorer .sln** |RadFileExplorer .sln icon|
+| **.RadFileExplorer .config** |RadFileExplorer .config icon|
+| **.RadFileExplorer .cs** |RadFileExplorer .cs icon|
+| **.RadFileExplorer .vb** |RadFileExplorer .vb icon|
+| **.RadFileExplorer .doc, .RadFileExplorer .docx, .RadFileExplorer .rtf, .RadFileExplorer .dot** |RadFileExplorer .doc, .docx, .rtf and .dot icons|
+| **.RadFileExplorer .ppt, .RadFileExplorer .pptx** |RadFileExplorer .ppt and .pptx icons|
+| **.RadFileExplorer .xls, .RadFileExplorer .xlsx** |RadFileExplorer .xls and .xlsx icons|
+| **.RadFileExplorer .ascx** |RadFileExplorer .ascx icon|
+| **.RadFileExplorer .jpg, .RadFileExplorer .jpeg, .RadFileExplorer .jpe** |RadFileExplorer .jpg, .jpeg and .jpe icons|
+| **.RadFileExplorer .png** |RadFileExplorer .png icon|
+| **.RadFileExplorer .mdb** |RadFileExplorer .mdb icon|
+| **.RadFileExplorer .csproj** |RadFileExplorer .csproj icon|
+| **.RadFileExplorer .webinfo** |RadFileExplorer .webinfo icon|
+| **.RadFileExplorer .vbproj** |RadFileExplorer .vbproj icon|
+| **.RadFileExplorer .pdf** |RadFileExplorer .pdf icon|
+| **.RadFileExplorer .bmp** |RadFileExplorer .bmp icon|
+| **.RadFileExplorer .swf** |RadFileExplorer .swf icon|
+| **.RadFileExplorer .tif, .RadFileExplorer .tiff** |RadFileExplorer .tiff and .tiff icon|
+| **.RadFileExplorer .mpg, .RadFileExplorer .mpeg, .RadFileExplorer .avi, .RadFileExplorer .gp3, .RadFileExplorer .mov, .RadFileExplorer .mpeg4, .RadFileExplorer .aif, .RadFileExplorer .aiff, .RadFileExplorer .rm, .RadFileExplorer .wmv** |RadFileExplorer .mpg, .mpeg, .avi, .gp3, .mov, .mpeg4, .aif, .aiff, .rm and .wmv icons|
+| **.RadFileExplorer .mp3, .RadFileExplorer .mp4, .RadFileExplorer .mid, .RadFileExplorer .midi, .RadFileExplorer .wav, .RadFileExplorer .gp3, .RadFileExplorer .gp4, .RadFileExplorer .gp5, .RadFileExplorer .wma, .RadFileExplorer .ogg** |RadFileExplorer .mp3, .mp4, .mid, .midi, .wav, .gp3, .gp4, .gp5, .wma and .ogg files|
+| **.RadFileExplorer .fla, .RadFileExplorer .flv** |RadFileExplorer .fla and .flv files|
+| **.RadFileExplorer .dll** |RadFileExplorer .dll file|
+| **.RadFileExplorer .xml** |RadFileExplorer .xml file|
+| **.RadFileExplorer .xslt** |RadFileExplorer .xslt file|
+| **.RadFileExplorer .xsl** |RadFileExplorer .xsl file|
+| **.RadFileExplorer .bac** |RadFileExplorer .bac file|
 
 
 
@@ -182,7 +182,7 @@ position: 1
 
 | CSS Class | Description |
 | ------ | ------ |
-| __.RadFileExplorer_Default .RadToolBar .rtbText__ |Applies sprite background buttons to the skin specific Toolbar|
-| __.RadFileExplorer_Default, .RadFileExplorer_Default .rfeAddressBox__ |Sets border color to the elements|
-| __.DialogSeparator__ |Styles the dialog separator to mimic splitter|
-| __div.selectedFileName__ |Styles selected file name|
+| **.RadFileExplorer_Default .RadToolBar .rtbText** |Applies sprite background buttons to the skin specific Toolbar|
+| **.RadFileExplorer_Default, .RadFileExplorer_Default .rfeAddressBox** |Sets border color to the elements|
+| **.DialogSeparator** |Styles the dialog separator to mimic splitter|
+| **div.selectedFileName** |Styles selected file name|

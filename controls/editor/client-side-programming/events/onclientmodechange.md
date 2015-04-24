@@ -1,6 +1,6 @@
 ---
 title: OnClientModeChange
-page_title: OnClientModeChange | UI for ASP.NET AJAX Documentation
+page_title: OnClientModeChange | RadEditor for ASP.NET AJAX Documentation
 description: OnClientModeChange
 slug: editor/client-side-programming/events/onclientmodechange
 tags: onclientmodechange
@@ -19,10 +19,10 @@ This event is fired before the mode is changed.
 
 >caption  
 
-|  __function OnClientModeChange(editor, args)__  |  |  |
+|  **function OnClientModeChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 The following example demonstrates how to check the current mode of Telerik RadEditor:
 

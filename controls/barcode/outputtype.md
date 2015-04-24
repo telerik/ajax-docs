@@ -1,4 +1,4 @@
-﻿---
+---
 title: OutputType
 page_title: OutputType | UI for ASP.NET AJAX Documentation
 description: OutputType

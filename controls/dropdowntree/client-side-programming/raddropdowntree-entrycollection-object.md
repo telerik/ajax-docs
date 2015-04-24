@@ -1,6 +1,6 @@
 ---
 title: RadDropDownTree EntryCollection Object
-page_title: RadDropDownTree EntryCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadDropDownTree EntryCollection Object | RadDropDownTree for ASP.NET AJAX Documentation
 description: RadDropDownTree EntryCollection Object
 slug: dropdowntree/client-side-programming/raddropdowntree-entrycollection-object
 tags: raddropdowntree,entrycollection,object

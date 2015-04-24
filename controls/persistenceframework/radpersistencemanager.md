@@ -37,11 +37,11 @@ Note that you cannot have more than one **RadPersistenceManager** in a singe pag
 Declaratively you can define **PersistenceSetting** by **ControlId** defining single control to be persisted.
 
 ````ASPNET
-			<telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
-				<PersistenceSettings>
-					<telerik:PersistenceSetting ControlID="RadTreeView1" />
-				</PersistenceSettings>
-			</telerik:RadPersistenceManager>
+<telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
+	<PersistenceSettings>
+		<telerik:PersistenceSetting ControlID="RadTreeView1" />
+	</PersistenceSettings>
+</telerik:RadPersistenceManager>
 ````
 
 
@@ -50,42 +50,45 @@ Declaratively you can define **PersistenceSetting** by **ControlId** defining si
 
 In code-behind you can add persistence settings to define controls in three different ways:
 
-1. Define **PersistenceSetting** by control's **ID** - define single control for persistence
+* Define **PersistenceSetting** by control's **ID** - define single control for persistence
 
 
 
 ````C#
-			RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1");//add setting by control's ID
+//add setting by control's ID
+RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1");
 ````
 ````VB.NET
-			'add setting by control's ID
-			RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1")
+'add setting by control's ID
+RadPersistenceManager1.PersistenceSettings.AddSetting("RadTreeView1")
 ````
 
 
-1. Define **PersistenceSetting** by control's instance - define single control for persistence
+* Define **PersistenceSetting** by control's instance - define single control for persistence
 
 
 
 ````C#
-			RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1);//add setting by control's instance
+//add setting by control's instance
+RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1);
 ````
 ````VB.NET
-			'add setting by control's instance
-			RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1)
+'add setting by control's instance
+RadPersistenceManager1.PersistenceSettings.AddSetting(RadTreeView1)
 ````
 
 
-1. Define **PersistenceSetting** by control's type - define all controls of specific type for persistence
+* Define **PersistenceSetting** by control's type - define all controls of specific type for persistence
 
 
 
 ````C#
-			RadPersistenceManager1.PersistenceSettings.AddSetting(typeof(RadTreeView));//add setting by control's type
+//add setting by control's type
+RadPersistenceManager1.PersistenceSettings.AddSetting(typeof(RadTreeView));
 ````
 ````VB.NET
-			'add setting by control's type
-			RadPersistenceManager1.PersistenceSettings.AddSetting(GetType(RadTreeView))
+'add setting by control's type
+RadPersistenceManager1.PersistenceSettings.AddSetting(GetType(RadTreeView))
 ````
 
 

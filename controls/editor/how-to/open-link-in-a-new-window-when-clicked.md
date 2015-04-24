@@ -1,6 +1,6 @@
 ---
 title: Open Link in a New Window When Clicked
-page_title: Open Link in a New Window When Clicked | UI for ASP.NET AJAX Documentation
+page_title: Open Link in a New Window When Clicked | RadEditor for ASP.NET AJAX Documentation
 description: Open Link in a New Window When Clicked
 slug: editor/how-to/open-link-in-a-new-window-when-clicked
 tags: open,link,in,a,new,window,when,clicked
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The code below demonstrates how to iterate RadEditor document links when the editor is loaded. The code sets the link target attribute to so that the link is opened in a new window when clicked. You can use this approach to modify the attributes and events of all HTML elements in the editor content area. This example opens the editor in __Preview EditorMode__so that clicking the links will have the expected behavior.
+The code below demonstrates how to iterate RadEditor document links when the editor is loaded. The code sets the link target attribute to so that the link is opened in a new window when clicked. You can use this approach to modify the attributes and events of all HTML elements in the editor content area. This example opens the editor in **Preview EditorMode**so that clicking the links will have the expected behavior.
 
 
 >caption 

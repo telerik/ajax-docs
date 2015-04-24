@@ -1,6 +1,6 @@
 ---
 title: Codeless Save in Database ASP.NET
-page_title: Codeless Save in Database ASP.NET | UI for ASP.NET AJAX Documentation
+page_title: Codeless Save in Database ASP.NET | RadEditor for ASP.NET AJAX Documentation
 description: Codeless Save in Database ASP.NET
 slug: editor/managing-content/getting-and-setting-content/codeless-save-in-database-asp.net
 tags: codeless,save,in,database,asp.net
@@ -51,7 +51,7 @@ Configure a SqlDataSource. Be sure to define the delete, insert, select and upda
 
 
 
-Add a __FormView__ control to your page. Select __Choose DataSource__ from the __Smart Tag__. Choosing the data source will populate the FormView templates with appropriate controls and bindings. For columns that should have editors, replace the generated TextBox controls with RadEditor controls. Change the RadEditor declaration to bind the __Content__property to the database column that contains the text:
+Add a **FormView** control to your page. Select **Choose DataSource** from the **Smart Tag**. Choosing the data source will populate the FormView templates with appropriate controls and bindings. For columns that should have editors, replace the generated TextBox controls with RadEditor controls. Change the RadEditor declaration to bind the **Content**property to the database column that contains the text:
 
 Content='<%# Bind("Content") %>'
 

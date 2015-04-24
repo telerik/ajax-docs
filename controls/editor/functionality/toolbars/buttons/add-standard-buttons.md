@@ -1,6 +1,6 @@
 ---
 title: Add Standard Buttons
-page_title: Add Standard Buttons | UI for ASP.NET AJAX Documentation
+page_title: Add Standard Buttons | RadEditor for ASP.NET AJAX Documentation
 description: Add Standard Buttons
 slug: editor/functionality/toolbars/buttons/add-standard-buttons
 tags: add,standard,buttons
@@ -30,7 +30,7 @@ RadEditor provides 4 different ways to configure toolbars:
 
 
 
-A useful design-time feature of the __Name__ attribute is that it offers a list with the names of all available RadEditor tools. Press Ctrl-Space to display the drop down list.
+A useful design-time feature of the **Name** attribute is that it offers a list with the names of all available RadEditor tools. Press Ctrl-Space to display the drop down list.
 >caption 
 
 ![](images/editor-nameattributeautocomplete.png)
@@ -130,12 +130,12 @@ You can also use the following syntax to add a standard button to the toolbar. T
 
 ## Setting the tools by using Themes
 
-You can use a theme to conveniently set the tools for a number of RadSpell instances that use the theme. In this example the skin file is part of a __Theme__named "Skin1".
+You can use a theme to conveniently set the tools for a number of RadSpell instances that use the theme. In this example the skin file is part of a **Theme**named "Skin1".
 >caption 
 
 ![](images/editor-buttons001.png)
 
-In your .skin file declare RadEditor with the tools that will be displayed in the RadEditor instances that use this theme.Set the __SkinId__property for the RadEditor. This will be referenced later in the RadEditor that uses the theme. In this example skin file the __SkinId__ is "SomeTools".
+In your .skin file declare RadEditor with the tools that will be displayed in the RadEditor instances that use this theme.Set the **SkinId**property for the RadEditor. This will be referenced later in the RadEditor that uses the theme. In this example skin file the **SkinId** is "SomeTools".
 
 ````XML
 	    <%@ register tagprefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" %>
@@ -151,7 +151,7 @@ In your .skin file declare RadEditor with the tools that will be displayed in th
 
 
 
-Once the skin is set, you need to declare the RadEditor and specify the __SkinId__property. You also need to set the Page __Theme__attribute. In the example below the __Theme__ is named "Skin1" and the __SkinId__ is "SomeTools".
+Once the skin is set, you need to declare the RadEditor and specify the **SkinId**property. You also need to set the Page **Theme**attribute. In the example below the **Theme** is named "Skin1" and the **SkinId** is "SomeTools".
 
 ````ASPNET
 	

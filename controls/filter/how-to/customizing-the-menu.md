@@ -1,6 +1,6 @@
 ---
 title: Customizing the Menu
-page_title: Customizing the Menu | UI for ASP.NET AJAX Documentation
+page_title: Customizing the Menu | RadFilter for ASP.NET AJAX Documentation
 description: Customizing the Menu
 slug: filter/how-to/customizing-the-menu
 tags: customizing,the,menu

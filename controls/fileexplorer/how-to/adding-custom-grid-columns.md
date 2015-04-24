@@ -1,6 +1,6 @@
 ---
 title: Adding Custom Grid Columns
-page_title: Adding Custom Grid Columns | UI for ASP.NET AJAX Documentation
+page_title: Adding Custom Grid Columns | RadFileExplorer for ASP.NET AJAX Documentation
 description: Adding Custom Grid Columns
 slug: fileexplorer/how-to/adding-custom-grid-columns
 tags: adding,custom,grid,columns
@@ -16,7 +16,7 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 
 
 
-1. Implement a [custom FileSystemContentProvider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}). The easiest way to do this is to override the FileSystemContentProvider class. We need to override the __ResolveDirectory__ and __ResolveRootDirectoryAsTree__ methods in order to add two additional properties in the every __DirectoryItem__and __FileItem__ respectively.
+1. Implement a [custom FileSystemContentProvider]({%slug fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider%}). The easiest way to do this is to override the FileSystemContentProvider class. We need to override the **ResolveDirectory** and **ResolveRootDirectoryAsTree** methods in order to add two additional properties in the every **DirectoryItem**and **FileItem** respectively.
 
 ## Override the Resolve RootDirectoryAsTree:
 
@@ -151,7 +151,7 @@ Since Telerik UI for ASP.NET AJAX Q2 2009 it is possible to add custom columns i
 ````
 
 
->caution Important! Set the newly added properties name (“Date” and “Owner”)to the __UniqueName__ property of the newly created column
+>caution Important! Set the newly added properties name (“Date” and “Owner”)to the **UniqueName** property of the newly created column
 >
 
 

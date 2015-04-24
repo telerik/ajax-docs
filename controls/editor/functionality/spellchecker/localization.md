@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadEditor for ASP.NET AJAX Documentation
 description: Localization
 slug: editor/functionality/spellchecker/localization
 tags: localization
@@ -18,7 +18,7 @@ position: 2
 
 Similarly to the Telerik RadEditor, the spellchecking component Telerik RadSpell can be easily localized. This means that you can translate all labels, tooltips, and error messages, by switching the RadEditor [Language](http://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radspell_language.html) property to the new localization.
 
-__Localizing the SpellChecker dialog (<tool name="SpellCheck"/>):__
+**Localizing the SpellChecker dialog (<tool name="SpellCheck"/>):**
 
 The best way to create a new language is to duplicate the en-US localization folder of Telerik RadSpell (RadControls/Spell/en-US) and localize the files in it.
 
@@ -53,7 +53,7 @@ The best way to create a new language is to duplicate the en-US localization fol
 
 
 
-At the end you need to use set the __Language__ property of Telerik RadEditor to apply the new language:
+At the end you need to use set the **Language** property of Telerik RadEditor to apply the new language:
 
 ````ASPNET
 	

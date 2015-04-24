@@ -1,6 +1,6 @@
 ---
 title: OnClientCommandExecuted
-page_title: OnClientCommandExecuted | UI for ASP.NET AJAX Documentation
+page_title: OnClientCommandExecuted | RadEditor for ASP.NET AJAX Documentation
 description: OnClientCommandExecuted
 slug: editor/client-side-programming/events/onclientcommandexecuted
 tags: onclientcommandexecuted
@@ -23,22 +23,22 @@ This event is fired after a command is executed.
 
 >caption  
 
-|  __function OnClientCommandExecuted(editor, args)__  |  |  |
+|  **function OnClientCommandExecuted(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 
 
 
 >caption  
 
-|  __args parameter methods__  |  |
+|  **args parameter methods**  |  |
 | ------ | ------ |
-| __args.get_commandName()__ |Returns the command name|
-| __args.get_value()__ |Returns the value of the executed tool|
-| __args.set_value()__ |Sets the new content to be pasted in RadEditor|
-| __args.get_cancel(true)__ |Cancels the command execution|
+| **args.get_commandName()** |Returns the command name|
+| **args.get_value()** |Returns the value of the executed tool|
+| **args.set_value()** |Sets the new content to be pasted in RadEditor|
+| **args.get_cancel(true)** |Cancels the command execution|
 
 ````ASPNET
 	     

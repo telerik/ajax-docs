@@ -1,6 +1,6 @@
 ---
 title: Custom Dialogs
-page_title: Custom Dialogs | UI for ASP.NET AJAX Documentation
+page_title: Custom Dialogs | RadEditor for ASP.NET AJAX Documentation
 description: Custom Dialogs
 slug: editor/functionality/dialogs/custom-dialogs
 tags: custom,dialogs
@@ -87,7 +87,7 @@ RadEditor provides a flexible mechanism for adding custom dialogs that plug dire
 	    </script>
 ````
 
-The custom command functions are to open a specified custom dialog and to supply arguments from the main page to the opened dialog by firing the showExternalDialog method. The editor's showExternalDialog() method has the following arguments: __showExternalDialog__(*url (aspx/html file), argument, width, height, callbackFunction, callbackArgs, title, modal, behaviors, showStatusbar, showTitlebar*);
+The custom command functions are to open a specified custom dialog and to supply arguments from the main page to the opened dialog by firing the showExternalDialog method. The editor's showExternalDialog() method has the following arguments: **showExternalDialog**(*url (aspx/html file), argument, width, height, callbackFunction, callbackArgs, title, modal, behaviors, showStatusbar, showTitlebar*);
 
 1. The next step is to create the dialog aspx file. For this scenario, you should create a page named InsertLink.aspx. Once the dialog file is created add the following JavaScript code in it as well as the code for the link insertion:
 

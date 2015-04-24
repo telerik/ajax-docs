@@ -1,6 +1,6 @@
 ---
 title: OnClientDropDownClosed
-page_title: OnClientDropDownClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientDropDownClosed | RadDropDownList for ASP.NET AJAX Documentation
 description: OnClientDropDownClosed
 slug: dropdownlist/client-side-programming/events/onclientdropdownclosed
 tags: onclientdropdownclosed
@@ -25,23 +25,23 @@ The event handler receives two parameters:
 You can use this event to perform any client-side actions when the drop-down is completely closed:
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function OnClientDropDownClosedHandler(sender, eventArgs) {
-	                alert("Dropdown is closed now");
-	            }
-	        </script>
-	
-	        <telerik:RadDropDownList
-	            ID="RadDropDownList1"
-	            OnClientDropDownClosed="OnClientDropDownClosedHandler"
-	            runat="server">
-	            <Items>
-	                <telerik:DropDownListItem Text="Item 1" />
-	                <telerik:DropDownListItem Text="Item 2" />
-	                <telerik:DropDownListItem Text="Item 3" />
-	                <telerik:DropDownListItem Text="Item 4" />
-	            </Items>
-	        </telerik:RadDropDownList>
+<script type="text/javascript">
+    function OnClientDropDownClosedHandler(sender, eventArgs) {
+        alert("Dropdown is closed now");
+    }
+</script>
+
+<telerik:RadDropDownList
+    ID="RadDropDownList1"
+    OnClientDropDownClosed="OnClientDropDownClosedHandler"
+    runat="server">
+    <Items>
+        <telerik:DropDownListItem Text="Item 1" />
+        <telerik:DropDownListItem Text="Item 2" />
+        <telerik:DropDownListItem Text="Item 3" />
+        <telerik:DropDownListItem Text="Item 4" />
+    </Items>
+</telerik:RadDropDownList>
 ````
 
 

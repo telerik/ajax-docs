@@ -1,6 +1,6 @@
 ---
 title: getting width
-page_title: getting width | UI for ASP.NET AJAX Documentation
+page_title: getting width | RadEditor for ASP.NET AJAX Documentation
 description: getting width
 slug: editor/client-side-programming/methods/getting-width
 tags: getting,width

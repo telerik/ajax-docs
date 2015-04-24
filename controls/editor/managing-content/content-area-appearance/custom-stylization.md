@@ -1,6 +1,6 @@
 ---
 title: Custom Stylization
-page_title: Custom Stylization | UI for ASP.NET AJAX Documentation
+page_title: Custom Stylization | RadEditor for ASP.NET AJAX Documentation
 description: Custom Stylization
 slug: editor/managing-content/content-area-appearance/custom-stylization
 tags: custom,stylization
@@ -12,9 +12,9 @@ position: 1
 
 
 
-Customizing the RadEditor’s content could be achieved with two properties __ContentAreaCssFile__ and __CSSFiles__.The values of this properties are the relative path to a CSS file, where are placed the styling rules for the default design of the content area.
+Customizing the RadEditor’s content could be achieved with two properties **ContentAreaCssFile** and **CSSFiles**.The values of this properties are the relative path to a CSS file, where are placed the styling rules for the default design of the content area.
 
->warning Both properties work only in __ContentAreaMode="Iframe"__ mode. In __“DIV”__ mode the content areastylization should be done with ordinary link to the CSS file in the __head__ element using the __.reContentArea__ as parent for all desired child elements in the CSS selectors.
+>warning Both properties work only in **ContentAreaMode="Iframe"** mode. In **“DIV”** mode the content areastylization should be done with ordinary link to the CSS file in the **head** element using the **.reContentArea** as parent for all desired child elements in the CSS selectors.
 >
 
 
@@ -33,11 +33,11 @@ When it comes to stylization for the default design rules there are no differenc
 
 
 
-The biggest difference is that the __ContentAreaCssFile__ property is intended for default settings like the example above and using custom class names(Example: __.redText__) in the CSS selectors will not affect the content design.
+The biggest difference is that the **ContentAreaCssFile** property is intended for default settings like the example above and using custom class names(Example: **.redText**) in the CSS selectors will not affect the content design.
 
-As for the __CSSFiles__ property - it is created so that the users could choose different predefine set of class names,populated from the CSS file/s or override from the __CssClasses__ property. This class names could be selected from a dropdown menu(__Apply CSS class__ tool) for the desired element in the content and with that to change its class name and respectively the stylingand/or formatting with predefined styling rules from the pointed CSS file.
+As for the **CSSFiles** property - it is created so that the users could choose different predefine set of class names,populated from the CSS file/s or override from the **CssClasses** property. This class names could be selected from a dropdown menu(**Apply CSS class** tool) for the desired element in the content and with that to change its class name and respectively the stylingand/or formatting with predefined styling rules from the pointed CSS file.
 
-The following example shows how to set a default body background and an option in the __Apply CSS class__ dropdown for text with white color:
+The following example shows how to set a default body background and an option in the **Apply CSS class** dropdown for text with white color:
 
 ````XML
 	    <telerik:radeditor runat="server" id="RadEditor1">
@@ -107,7 +107,7 @@ Setting the CSS rules
 
 
 
-Note that the __RadEditor__ control has some default styling for some of the elements inside the content area,so that the user could easily interact with them in the __Design__ mode. Using the __ContentAreaCssFile__ property for custom stylization willoverride the default one. Example for an element with such stylization is the __table__.
+Note that the **RadEditor** control has some default styling for some of the elements inside the content area,so that the user could easily interact with them in the **Design** mode. Using the **ContentAreaCssFile** property for custom stylization willoverride the default one. Example for an element with such stylization is the **table**.
 
 In addition to preserve or override this default stylization and preserve the user-friendly interface you could follow this[online live demo project](http://demos.telerik.com/aspnet-ajax/editor/examples/settingcontentareadefaults/defaultcs.aspx#qsf-demo-source)for the whole CSS file or use these example CSS rules:
 
@@ -152,7 +152,7 @@ In addition to preserve or override this default stylization and preserve the us
 
 ## Using CSSFiles property
 
-The example shows how to populate the __Apply CSS class__ dropdown and define the CSS rules for the corresponding options.
+The example shows how to populate the **Apply CSS class** dropdown and define the CSS rules for the corresponding options.
 
 Setting the property from the markup
 
@@ -199,11 +199,11 @@ Result:
 
 ![Populated Tool Bar From Selectors](images/PopulatedToolBarFromSelectors.png)
 
->note Note that using a link to a CSS file in the head element, with global CSS selectors will affect the content of the RadEditor control as well.sing the __CssFiles__ property will override the CSS rules from these files. Also using an empty property will clear them.
+>note Note that using a link to a CSS file in the head element, with global CSS selectors will affect the content of the RadEditor control as well.sing the **CssFiles** property will override the CSS rules from these files. Also using an empty property will clear them.
 >
 
 
-The names populated in the dropdown menu could be modified from the property __CSSClasses__ with the attributes __Name__ and __Value__.__Name__ holds the value to the text which appears in the dropdown menu and __Value__ – the class name for the selected element.
+The names populated in the dropdown menu could be modified from the property **CSSClasses** with the attributes **Name** and **Value**.**Name** holds the value to the text which appears in the dropdown menu and **Value** – the class name for the selected element.
 
 Example:
 
@@ -241,13 +241,13 @@ Result:
 
 ![Populated Tool Bar From Css Classes](images/PopulatedToolBarFromCssClasses.png)
 
->note Class name (Value) set within the __CSSClasses__ property, which does not exist as selector in one of the CSS files will not be populated in the menu. The opposite - if there is a class name not set within the __CSSClasses__ , but exists in a CSS file will be restricted also.
+>note Class name (Value) set within the **CSSClasses** property, which does not exist as selector in one of the CSS files will not be populated in the menu. The opposite - if there is a class name not set within the **CSSClasses** , but exists in a CSS file will be restricted also.
 >
 
 
 ## User functionality for previewing the content without custom stylization
 
-The built-in tool __Show/Hide Borders__ gives the possibility to the users to preview the content without the set default customization.This is due to the reason that after sending, submitting or sending the content outside the scope of the Editor’s iframe the stylization is not included and does notdepend on the CSS files pointed from the properties. This tool (button) actually disables the CSS links in the head element of the iframe.
+The built-in tool **Show/Hide Borders** gives the possibility to the users to preview the content without the set default customization.This is due to the reason that after sending, submitting or sending the content outside the scope of the Editor’s iframe the stylization is not included and does notdepend on the CSS files pointed from the properties. This tool (button) actually disables the CSS links in the head element of the iframe.
 
 The followin example shows the functionality with this custom CSS rules:
 

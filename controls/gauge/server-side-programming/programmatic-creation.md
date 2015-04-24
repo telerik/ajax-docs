@@ -1,6 +1,6 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Creation | RadGauge for ASP.NET AJAX Documentation
 description: Programmatic Creation
 slug: gauge/server-side-programming/programmatic-creation
 tags: programmatic,creation

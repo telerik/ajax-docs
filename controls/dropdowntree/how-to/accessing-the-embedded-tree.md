@@ -1,6 +1,6 @@
 ---
 title: Accessing the Embedded Tree
-page_title: Accessing the Embedded Tree | UI for ASP.NET AJAX Documentation
+page_title: Accessing the Embedded Tree | RadDropDownTree for ASP.NET AJAX Documentation
 description: Accessing the Embedded Tree
 slug: dropdowntree/how-to/accessing-the-embedded-tree
 tags: accessing,the,embedded,tree

@@ -1,6 +1,6 @@
 ---
 title: Export to SVG
-page_title: Export to SVG | UI for ASP.NET AJAX Documentation
+page_title: Export to SVG | RadDiagram for ASP.NET AJAX Documentation
 description: Export to SVG
 slug: diagram/import-and-export/export-to-svg
 tags: export,to,svg
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-You can export __RadDiagram__ as an SVG document on the client. This is done in two simple steps (__Example 1__):
+You can export **RadDiagram** as an SVG document on the client. This is done in two simple steps (**Example 1**):
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the [Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
@@ -24,7 +24,7 @@ You can export __RadDiagram__ as an SVG document on the client. This is done in 
 >
 
 
-__Example 1__: Export a diagram as an SVG document.
+**Example 1**: Export a diagram as an SVG document.
 
 ````ASPNET
 	    <telerik:RadDiagram ID="RadDiagram1" runat="server">
@@ -58,7 +58,7 @@ __Example 1__: Export a diagram as an SVG document.
 
 
 
-You can find a list of the available parameters of the __exportSVG__ method in the [Kendo UI Diagram API Reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG).
+You can find a list of the available parameters of the **exportSVG** method in the [Kendo UI Diagram API Reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-exportSVG).
 
 # See Also
 

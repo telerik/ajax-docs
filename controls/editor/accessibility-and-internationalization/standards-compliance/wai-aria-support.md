@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadEditor for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: editor/accessibility-and-internationalization/standards-compliance/wai-aria-support
 tags: wai-aria,support
@@ -12,15 +12,15 @@ position: 3
 
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadEditor__	and __AccessibleRadEditor__ controls.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadEditor**	and **AccessibleRadEditor** controls.
 
 ## 
 
-The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.__RadEditor__ and __AccessibleRadEditor__ offer WAI-ARIA support.
+The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.**RadEditor** and **AccessibleRadEditor** offer WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the __RadEditor__ / __AccessibleRadEditor__ contol's __EnableAriaSupport__property to __true__ as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadEditor** / **AccessibleRadEditor** contol's **EnableAriaSupport**property to **true** as shown in the example below.
 
-__Example 1__: Setting the __EnableAriaSupport__ property for __RadEditor__ and __AccessibleRadEditor__
+**Example 1**: Setting the **EnableAriaSupport** property for **RadEditor** and **AccessibleRadEditor**
 
 
 

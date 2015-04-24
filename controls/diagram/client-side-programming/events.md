@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadDiagram for ASP.NET AJAX Documentation
 description: Events
 slug: diagram/client-side-programming/events
 tags: events
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__RadDiagram__ provides a rich set of Client-Side events which allow easy and flexible use in a wide range of application scenarios.	Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
+**RadDiagram** provides a rich set of Client-Side events which allow easy and flexible use in a wide range of application scenarios.	Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
 
-* __OnLoad__—raised when the control is initialized. You can use it to store object references.You can get the underlying Kendo widget from the RadDiagram object via the get_kendoWidget() method.
+* **OnLoad**—raised when the control is initialized. You can use it to store object references.You can get the underlying Kendo widget from the RadDiagram object via the get_kendoWidget() method.
 
 * [OnAdd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-add)—raised when the user adds a new shape or a new connection.
 
@@ -44,7 +44,7 @@ __RadDiagram__ provides a rich set of Client-Side events which allow easy and fl
 
 * [OnZoomEnd](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events-zoomEnd)—raised when the user changes the diagram zoom level.
 
-To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the	corresponding property in the __ClientEvents__ RadDiagram subtag.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the	corresponding property in the **ClientEvents** RadDiagram subtag.
 
 ````ASPNET
 	      	<telerik:RadDiagram ID="RadDiagram1" runat="server">
@@ -62,7 +62,7 @@ To use these events, simply write a JavaScript function that can be called when 
 
 
 
-All Client-Side events, except __OnLoad__, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full setof arguments coming with each event in the[Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
+All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full setof arguments coming with each event in the[Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram2" runat="server">

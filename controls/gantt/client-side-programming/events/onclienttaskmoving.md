@@ -1,6 +1,6 @@
 ---
 title: OnClientTaskMoving
-page_title: OnClientTaskMoving | UI for ASP.NET AJAX Documentation
+page_title: OnClientTaskMoving | RadGantt for ASP.NET AJAX Documentation
 description: OnClientTaskMoving
 slug: gantt/client-side-programming/events/onclienttaskmoving
 tags: onclienttaskmoving

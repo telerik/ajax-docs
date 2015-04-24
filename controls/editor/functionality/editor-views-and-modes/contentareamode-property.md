@@ -1,6 +1,6 @@
 ---
 title: ContentAreaMode Property
-page_title: ContentAreaMode Property | UI for ASP.NET AJAX Documentation
+page_title: ContentAreaMode Property | RadEditor for ASP.NET AJAX Documentation
 description: ContentAreaMode Property
 slug: editor/functionality/editor-views-and-modes/contentareamode-property
 tags: contentareamode,property
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__ContentAreaMode__ - This property specifies if the content area element of RadEditor is editable IFRAME or DIV. There are two values available for the property: "__Iframe__" and "__Div__". The default value is "Iframe".
+**ContentAreaMode** - This property specifies if the content area element of RadEditor is editable IFRAME or DIV. There are two values available for the property: "**Iframe**" and "**Div**". The default value is "Iframe".
 
 
 

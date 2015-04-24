@@ -1,6 +1,6 @@
 ---
 title: Structure Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadDiagram for ASP.NET AJAX Documentation
 description: Overview
 slug: diagram/structure/overview
 tags: overview
@@ -12,14 +12,14 @@ position: 0
 
 
 
-__Telerik .NET Diagram__ control consists of series of distinct elements that have a strict hierarchy which corresponds directly to the structure	of the control in the markup (or code-behind). __Figure 1__ explaining the basic structure and shows the names of each element. You can see the code	that creates it in __Example 1__.
+**Telerik .NET Diagram** control consists of series of distinct elements that have a strict hierarchy which corresponds directly to the structure	of the control in the markup (or code-behind). **Figure 1** explaining the basic structure and shows the names of each element. You can see the code	that creates it in **Example 1**.
 >caption Figure 1: Basic elements in RadDiagram
 
 ![diagram-structure-1](images/diagram-structure-1.png)
 
 ## 
 
-The main elements of the __RadDiagram__ control are:
+The main elements of the **RadDiagram** control are:
 
 * [Layout]({%slug diagram/structure/layout/overview%})—the diagram layout consists in an automatic organization of a diagram based on the wayits shapes are connected (the so-called incidence structure). It allows you to choose the order in which the diagram objects will be rendered	(e.g. as a tree, mind map, etc.).
 
@@ -31,7 +31,7 @@ The main elements of the __RadDiagram__ control are:
 
 ## Configuring Diagram Elements
 
-__Example 1__: The following example shows how to create the basic RadDiagram configuration, the result of which is displayed in __Figure 1__:
+**Example 1**: The following example shows how to create the basic RadDiagram configuration, the result of which is displayed in **Figure 1**:
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram1" runat="server">

@@ -1,6 +1,6 @@
 ---
 title: OnClientEntryAdding
-page_title: OnClientEntryAdding | UI for ASP.NET AJAX Documentation
+page_title: OnClientEntryAdding | RadDropDownTree for ASP.NET AJAX Documentation
 description: OnClientEntryAdding
 slug: dropdowntree/client-side-programming/events/oncliententryadding
 tags: oncliententryadding

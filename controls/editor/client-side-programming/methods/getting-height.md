@@ -1,6 +1,6 @@
 ---
 title: getting height
-page_title: getting height | UI for ASP.NET AJAX Documentation
+page_title: getting height | RadEditor for ASP.NET AJAX Documentation
 description: getting height
 slug: editor/client-side-programming/methods/getting-height
 tags: getting,height

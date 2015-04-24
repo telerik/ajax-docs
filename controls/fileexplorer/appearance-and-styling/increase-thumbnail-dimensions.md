@@ -1,6 +1,6 @@
 ---
 title: Increase Thumbnail Dimensions
-page_title: Increase Thumbnail Dimensions | UI for ASP.NET AJAX Documentation
+page_title: Increase Thumbnail Dimensions | RadFileExplorer for ASP.NET AJAX Documentation
 description: Increase Thumbnail Dimensions
 slug: fileexplorer/appearance-and-styling/increase-thumbnail-dimensions
 tags: increase,thumbnail,dimensions
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-The thumbnail item of the __RadFileExplorer__ consists of an image preview icon or a folder/extension icon (txt, doc, pdf, js, etc) as shown below, e.g.:![radfileexplorer-standard-thumbnail-size](images/radfileexplorer-standard-thumbnail-size.png)
+The thumbnail item of the **RadFileExplorer** consists of an image preview icon or a folder/extension icon (txt, doc, pdf, js, etc) as shown below, e.g.:![radfileexplorer-standard-thumbnail-size](images/radfileexplorer-standard-thumbnail-size.png)
 
-By default, the thumbnail items of the __RadFileExplorer__ have built-in dimension of 65x65px along with the image preview/extensionicons' size of 32x32px. The __RadFileExplorer__ offers one additional built-in larger item size of 100x100px. Note that the built-in extension icon will be rendered as 32x32px, but the image preview thumbnail icon will be shown as 64x64px. To enable this mode set the __CssClasses__ property to __rfeLargeThumbnails__:
+By default, the thumbnail items of the **RadFileExplorer** have built-in dimension of 65x65px along with the image preview/extensionicons' size of 32x32px. The **RadFileExplorer** offers one additional built-in larger item size of 100x100px. Note that the built-in extension icon will be rendered as 32x32px, but the image preview thumbnail icon will be shown as 64x64px. To enable this mode set the **CssClasses** property to **rfeLargeThumbnails**:
 
 ````ASPNET
 	    <telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" ExplorerMode="Thumbnails" CssClass="rfeLargeThumbnails">
@@ -27,7 +27,7 @@ By default, the thumbnail items of the __RadFileExplorer__ have built-in dimensi
 
 Here is the final result:![radfileexplorer-large-thumbnail-size](images/radfileexplorer-large-thumbnail-size.png)
 
-It is also possible to define custom size for Thumbnail items by overwriting the __.rfeLargeThumbnails__ class, e.g.
+It is also possible to define custom size for Thumbnail items by overwriting the **.rfeLargeThumbnails** class, e.g.
 
 ````JavaScript
 	    /* Large thumbnails */

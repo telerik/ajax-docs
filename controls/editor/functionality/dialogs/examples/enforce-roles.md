@@ -1,6 +1,6 @@
 ---
 title: Enforce Roles
-page_title: Enforce Roles | UI for ASP.NET AJAX Documentation
+page_title: Enforce Roles | RadEditor for ASP.NET AJAX Documentation
 description: Enforce Roles
 slug: editor/functionality/dialogs/examples/enforce-roles
 tags: enforce,roles
@@ -14,21 +14,21 @@ position: 8
 
 ## 
 
-RadEditor for ASP.NET AJAX provides you with a flexible mechanism for enforcing user roles, which makes it suitable even for large enterprise-wide applications with multiple users and roles. By dynamically setting the __ViewPaths__, __UploadPaths__, __DeletePaths__ or the respective properties for Flash, Media, Templates and Documents, you can strictly control user access to resources, in accordance with their roles or profiles.
+RadEditor for ASP.NET AJAX provides you with a flexible mechanism for enforcing user roles, which makes it suitable even for large enterprise-wide applications with multiple users and roles. By dynamically setting the **ViewPaths**, **UploadPaths**, **DeletePaths** or the respective properties for Flash, Media, Templates and Documents, you can strictly control user access to resources, in accordance with their roles or profiles.
 
 The table below shows a sample scenario with 4 users and the respective property values that can facilitate those rights.
 
 
 >caption  
 
-|  __User__ (Role) |  __Insert__  |  __Delete__  |  __Upload__  |  __Properties__  |
+|  **User** (Role) |  **Insert**  |  **Delete**  |  **Upload**  |  **Properties**  |
 | ------ | ------ | ------ | ------ | ------ |
-| __Mike__ (Administrator)|~//* the tilde ~ symbol represents the root of your web application */|~/|~/| __ViewPaths__ ="~/" __DeletePaths__ ="~/" __UploadPaths__ ="~/"|
-| __John__ (Marketing)|~/Common~/Marketing~/Marketing/John|~/Marketing/John|~/Marketing~/Marketing/John| __ViewPaths__ ="~/Common,~/Marketing" __DeletePaths__ ="~/Marketing/John" __UploadPaths__ ="~/Marketing"|
-| __Steve__ (Sales)|~/Common~/Sales/Steve|~/Sales/Steve|~/Sales/Steve| __ViewPaths__ ="~/Common,~/Sales/Steve" __DeletePaths__ ="~/Sales/Steve" __UploadPaths__ ="~/Sales/Steve"|
-| __Diana__ (HR)|~/HR||| __ViewPaths__ ="~/HR" __DeletePaths__ ="" __UploadPaths__ =""|
+| **Mike** (Administrator)|~//* the tilde ~ symbol represents the root of your web application */|~/|~/| **ViewPaths** ="~/" **DeletePaths** ="~/" **UploadPaths** ="~/"|
+| **John** (Marketing)|~/Common~/Marketing~/Marketing/John|~/Marketing/John|~/Marketing~/Marketing/John| **ViewPaths** ="~/Common,~/Marketing" **DeletePaths** ="~/Marketing/John" **UploadPaths** ="~/Marketing"|
+| **Steve** (Sales)|~/Common~/Sales/Steve|~/Sales/Steve|~/Sales/Steve| **ViewPaths** ="~/Common,~/Sales/Steve" **DeletePaths** ="~/Sales/Steve" **UploadPaths** ="~/Sales/Steve"|
+| **Diana** (HR)|~/HR||| **ViewPaths** ="~/HR" **DeletePaths** ="" **UploadPaths** =""|
 
-__Example:__
+**Example:**
 
 The example below demonstrates a basic user role scenario for setting the Image manager properties and folders access. For example in our scenario we have three users: Mike (Administrator) - he has full access to all files in all folders, John who has access to view, upload and delete files in the Common and Marketing folders and all other users have access to the resources subfolder only.
 
@@ -101,9 +101,9 @@ The example below demonstrates a basic user role scenario for setting the Image 
 
 * a subdirectory of your web application
 
-* a directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. __ViewPaths__ = " __/Files__ ";
+* a directory placed in the root of IIS - you can set this folder by using the / forward slash symbol, e.g. **ViewPaths** = " **/Files** ";
 
-* a virtual directory of your web application that has a physical path pointing outside of your web application.You should also grant full __ASPNET__ (WinXP) / __NETWORK SERVICE__ (Win 2003 and Vista) account permissions to the Files Folders. |
+* a virtual directory of your web application that has a physical path pointing outside of your web application.You should also grant full **ASPNET** (WinXP) / **NETWORK SERVICE** (Win 2003 and Vista) account permissions to the Files Folders. |
 | ------ | ------ |
 
 # See Also

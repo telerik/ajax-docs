@@ -1,6 +1,6 @@
 ---
 title: RadGrid Filtering with RadFilter
-page_title: RadGrid Filtering with RadFilter | UI for ASP.NET AJAX Documentation
+page_title: RadGrid Filtering with RadFilter | RadFilter for ASP.NET AJAX Documentation
 description: RadGrid Filtering with RadFilter
 slug: filter/how-to/radgrid-filtering-with-radfilter
 tags: radgrid,filtering,with,radfilter

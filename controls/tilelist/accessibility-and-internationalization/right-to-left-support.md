@@ -1,4 +1,4 @@
-﻿---
+---
 title: Right-to-Left Support
 page_title: Right-to-Left Support | UI for ASP.NET AJAX Documentation
 description: Right-to-Left Support

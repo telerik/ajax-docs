@@ -1,6 +1,6 @@
 ---
 title: Compliance Check Dialog
-page_title: Compliance Check Dialog | UI for ASP.NET AJAX Documentation
+page_title: Compliance Check Dialog | RadEditor for ASP.NET AJAX Documentation
 description: Compliance Check Dialog
 slug: editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog
 tags: compliance,check,dialog

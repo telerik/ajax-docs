@@ -1,6 +1,6 @@
 ---
 title: Global Resource Files
-page_title: Global Resource Files | UI for ASP.NET AJAX Documentation
+page_title: Global Resource Files | RadEditor for ASP.NET AJAX Documentation
 description: Global Resource Files
 slug: editor/accessibility-and-internationalization/localization/global-resource-files
 tags: global,resource,files
@@ -16,29 +16,29 @@ position: 0
 
 With RadEditor you can create a new language pack or alter labels of an existing language pack.
 
-Localization strings are contained in resource (.resx ) files. The resource files can be found in the installation directory under "\App_GlobalResources". There are three built-in localizations (English, French and German) which can be set through the __Language__ property. For example to localize the editor in German set Language="de-DE".
+Localization strings are contained in resource (.resx ) files. The resource files can be found in the installation directory under "\App_GlobalResources". There are three built-in localizations (English, French and German) which can be set through the **Language** property. For example to localize the editor in German set Language="de-DE".
 
-To create your own localizations for the editor, you need to create the__App_Global Resources__ folder in the root of your web application and copy the English resx files into it.
+To create your own localizations for the editor, you need to create the**App_Global Resources** folder in the root of your web application and copy the English resx files into it.
 
-* __RadEditor.Dialogs.resx__
+* **RadEditor.Dialogs.resx**
 
-* __RadEditor.Main.resx__
+* **RadEditor.Main.resx**
 
-* __RadEditor.Modules.resx__
+* **RadEditor.Modules.resx**
 
-* __RadEditor.Tools.resx__
+* **RadEditor.Tools.resx**
 
 After you have copied the resx files, you must duplicate each copy of these files and rename them using the syntax shown in the few examples below:
 
-* __RadEditor.Dialogs.<Your_Language>.resx__
+* **RadEditor.Dialogs.<Your_Language>.resx**
 
-* __RadEditor.Main.<Your_Language>.resx__
+* **RadEditor.Main.<Your_Language>.resx**
 
-* __RadEditor.Modules.<Your_Language>.resx__
+* **RadEditor.Modules.<Your_Language>.resx**
 
-* __RadEditor.Tools.<Your_Language>.resx__
+* **RadEditor.Tools.<Your_Language>.resx**
 
-All resx file contain two columns: __Name__ and __Value__ as it is shown below:
+All resx file contain two columns: **Name** and **Value** as it is shown below:
 >caption 
 
 ![](images/editor-localization.png)
@@ -47,7 +47,7 @@ All resx file contain two columns: __Name__ and __Value__ as it is shown below:
 >
 
 
-After renaming the files, localize the strings in the __Value__ column of your new __resx__files. Then set the __Language__ property of RadEditor to the name of the <localization> string in the __RadEditor.Tools.<language>.resx__ file:
+After renaming the files, localize the strings in the **Value** column of your new **resx**files. Then set the **Language** property of RadEditor to the name of the <localization> string in the **RadEditor.Tools.<language>.resx** file:
 
 ````ASPNET
 		<telerik:radeditor runat="server" id="RadEditor1" language="it-IT"></telerik:radeditor>
@@ -71,6 +71,6 @@ After renaming the files, localize the strings in the __Value__ column of your n
 
 
 
->note  __If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work.__ 
+>note  **If you provide a new localization for RadEditor for ASP.NET AJAX which works properly, we will gladly reward you for your work.** 
 >
 

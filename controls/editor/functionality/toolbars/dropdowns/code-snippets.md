@@ -1,6 +1,6 @@
 ---
 title: Code Snippets
-page_title: Code Snippets | UI for ASP.NET AJAX Documentation
+page_title: Code Snippets | RadEditor for ASP.NET AJAX Documentation
 description: Code Snippets
 slug: editor/functionality/toolbars/dropdowns/code-snippets
 tags: code,snippets
@@ -12,7 +12,7 @@ position: 11
 
 
 
-The Code snippets dropdown is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the __Snippets__collection. You can add to the Snippets____collection declaratively, programmatically and using the ToolsFile.
+The Code snippets dropdown is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the **Snippets**collection. You can add to the Snippets collection declaratively, programmatically and using the ToolsFile.
 >caption 
 
 ![](images/editor-dropdowns015.png)
@@ -40,7 +40,7 @@ The Code snippets dropdown is a convenient tool for inserting predefined chunks 
 
 ## Using Snippets Programmatically
 
-Use the __Snippets__collection __Add()__method to include new items in the list.In the following example, we construct a new set of code snippets with two items - a Product Template and an e-mail Signature:
+Use the **Snippets**collection **Add()**method to include new items in the list.In the following example, we construct a new set of code snippets with two items - a Product Template and an e-mail Signature:
 
 
 
@@ -58,7 +58,7 @@ Use the __Snippets__collection __Add()__method to include new items in the list.
 ````
 
 
-To create a dropdown with image thumbnails, insert the img tag as the first argument of the __Add()__ method. The img tag content is the path to the image source:
+To create a dropdown with image thumbnails, insert the img tag as the first argument of the **Add()** method. The img tag content is the path to the image source:
 >caption 
 
 ![](images/editor-dropdowns014.png)
@@ -79,7 +79,7 @@ To create a dropdown with image thumbnails, insert the img tag as the first argu
 
 ## Using the ToolsFile
 
-You can also populate the Custom links dropdown using the ToolsFile.xml file. For the HTML code to be interpreted correctly in the XML file, enclose the code in __<![CDATA[ //]]>__ as shown in the example below:
+You can also populate the Custom links dropdown using the ToolsFile.xml file. For the HTML code to be interpreted correctly in the XML file, enclose the code in **<![CDATA[ //]]>** as shown in the example below:
 >caption 
 
 ![](images/editor-dropdowns016.png)
@@ -89,8 +89,8 @@ You can also populate the Custom links dropdown using the ToolsFile.xml file. Fo
 	        <snippet name="Product Template">      
 	            <![CDATA[         
 	                <div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background- color:#F1EFE6;">
-	                    Dear ____________________,<br>
-	                    Thank you for inquiring about ____________. Your request will be processed in 48 hours and shipped at the address you have provided.
+	                    Dear ********************,<br>
+	                    Thank you for inquiring about ************. Your request will be processed in 48 hours and shipped at the address you have provided.
 	                    <b>Please, contact us if you have any problems.</b>
 	                </div>
 	            //]]>  

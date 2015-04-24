@@ -1,6 +1,6 @@
 ---
 title: Connection
-page_title: Connection | UI for ASP.NET AJAX Documentation
+page_title: Connection | RadDiagram for ASP.NET AJAX Documentation
 description: Connection
 slug: diagram/structure/connection
 tags: connection
@@ -12,15 +12,15 @@ position: 2
 
 
 
-This article explains how to configure the connections between two or more shapes in __Telerik ASP.NET Diagramming component__.	Below you can find examples that show how to create a standard shape connection, as well as how to set intermediate connection points to a connection.
+This article explains how to configure the connections between two or more shapes in **Telerik ASP.NET Diagramming component**.	Below you can find examples that show how to create a standard shape connection, as well as how to set intermediate connection points to a connection.
 
 ## 
 
-The __DiagramConnection__ object is a visual link or connection in the graph or diagram. Each diagram has a connections collection, containing all configured	connections. Connections are usually created in order to connect to shapes of a Diagram instance. Through the __DiagramConnection__ object you have access to	properties like __StartCap__ and __EndCap__, and composite properties for configuring the __FromSettings__,	__HoverSettings__, __StrokeSettings__, __ToSettings__, __PointsCollection__, etc.
+The **DiagramConnection** object is a visual link or connection in the graph or diagram. Each diagram has a connections collection, containing all configured	connections. Connections are usually created in order to connect to shapes of a Diagram instance. Through the **DiagramConnection** object you have access to	properties like **StartCap** and **EndCap**, and composite properties for configuring the **FromSettings**,	**HoverSettings**, **StrokeSettings**, **ToSettings**, **PointsCollection**, etc.
 
 ### StartCap
 
-The start cap (arrow, head or decoration) represents the beginning of the connection. The appearance of this point can be controlled by configuring its__StartCap__ property:
+The start cap (arrow, head or decoration) represents the beginning of the connection. The appearance of this point can be controlled by configuring its**StartCap** property:
 
 * *"none"*—no cap
 
@@ -33,7 +33,7 @@ The start cap (arrow, head or decoration) represents the beginning of the connec
 
 ### EndCap
 
-The end cap (arrow, head or decoration) represents the end of the connection. The appearance of this point can be controlled by configuring its__EndCap__ property:
+The end cap (arrow, head or decoration) represents the end of the connection. The appearance of this point can be controlled by configuring its**EndCap** property:
 
 * *"none"*—no cap
 
@@ -46,25 +46,25 @@ The end cap (arrow, head or decoration) represents the end of the connection. Th
 
 ### ContentSettings
 
-Defines the content settings for the connection, including the __Text__ of the connection and the __Color__ of the text.
+Defines the content settings for the connection, including the **Text** of the connection and the **Color** of the text.
 
 ### FromSettings
 
-Defines the connection settings for the source shape, including the __ID__ of the shape and the __Connector__we will connect to.
+Defines the connection settings for the source shape, including the **ID** of the shape and the **Connector**we will connect to.
 
 ### ToSettings
 
-Defines the connection settings for the target shape, including the __ID__ of the shape and the __Connector__ we	will connect to.
+Defines the connection settings for the target shape, including the **ID** of the shape and the **Connector** we	will connect to.
 
 ### StrokeSettings
 
-Defines the stroke configuration of a connection. You can configure the following stroke-specific properties through the DiagramConnection's composite__StrokeSettings__ property:
+Defines the stroke configuration of a connection. You can configure the following stroke-specific properties through the DiagramConnection's composite**StrokeSettings** property:
 
-__Color__—defines the color of the connection.
+**Color**—defines the color of the connection.
 
-__Width__—defines the thickness or width of the connection.
+**Width**—defines the thickness or width of the connection.
 
-__DashType__—defines the dash type of the connection. The following dash types are supported:
+**DashType**—defines the dash type of the connection. The following dash types are supported:
 
 * *"Solid"*—a solid line.
 
@@ -85,7 +85,7 @@ __DashType__—defines the dash type of the connection. The following dash types
 
 ### HoverSettings
 
-Defines the hover configuration of a connection. Through the inner __StrokeSetting__'s tag you can configure the preferable hover__Color__, __Width__ and __DashType__ of the hovered connection.
+Defines the hover configuration of a connection. Through the inner **StrokeSetting**'s tag you can configure the preferable hover**Color**, **Width** and **DashType** of the hovered connection.
 >caption Figure 4. A connection with a defined hover color:
 
 ![diagram-structure-connections-hoversettings 1](images/diagram-structure-connections-hoversettings1.png)
@@ -97,7 +97,7 @@ Sets the intermediate points of the connection (set in global coordinates accord
 
 ![diagram-structure-connections-points-1](images/diagram-structure-connections-points-1.png)
 
-__Example 1__: Setting intermediate connection points:
+**Example 1**: Setting intermediate connection points:
 
 
 
@@ -145,7 +145,7 @@ By configuring the default connection settings you can preset the initial values
 
 ![diagram-structure-connections-example-1](images/diagram-structure-connections-example-1.png)
 
-__Example 2__. How to use the Connection properties to configure their appearance:
+**Example 2**. How to use the Connection properties to configure their appearance:
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram2" runat="server">

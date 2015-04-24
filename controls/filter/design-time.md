@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
+page_title: Design Time | RadFilter for ASP.NET AJAX Documentation
 description: Design Time
 slug: filter/design-time
 tags: design,time

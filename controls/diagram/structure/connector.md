@@ -1,6 +1,6 @@
 ---
 title: Connector
-page_title: Connector | UI for ASP.NET AJAX Documentation
+page_title: Connector | RadDiagram for ASP.NET AJAX Documentation
 description: Connector
 slug: diagram/structure/connector
 tags: connector
@@ -12,11 +12,11 @@ position: 3
 
 
 
-This article explains what a connector is, how to use it and how to configure the connectors of a __DiagramShape__ object in __Telerik ASP.NET	Diagram component__. Asample configuration of the described properties can be seen in __Example 1__.
+This article explains what a connector is, how to use it and how to configure the connectors of a **DiagramShape** object in **Telerik ASP.NET	Diagram component**. Asample configuration of the described properties can be seen in **Example 1**.
 
 ## 
 
-The __DiagramConnector__ is a visual intermediate between the Connection and the Shape. It represents the attachment point of a Connection to a	Shape.
+The **DiagramConnector** is a visual intermediate between the Connection and the Shape. It represents the attachment point of a Connection to a	Shape.
 
 Connectors are part of a [Shape]({%slug diagram/structure/shape%})'s definition and you can specify the binding of a connection to a shape directlyvia the shape or via one of its connectors. If you specify a shape as a connection's endpoint the auto-connector will be used. This means that the endpoint of the connectionwill switch to the most convenient (in the sense of shortest path) connector automatically. If you specify a shape's connector as an endpoint for a connection the endpoint willremain attached to that given Connector instance.
 >caption 
@@ -25,23 +25,23 @@ Connectors are part of a [Shape]({%slug diagram/structure/shape%})'s definition 
 
 ### ConnectorsCollection
 
-Defines the connectors the shape owns. By default each shape has five active connectors – four for the directions and one auto connector. You can control the active	connectors of a shape by adding them to the shape’s __ConnectorsCollection__. Through the __DiagramShapeConnector__ object	you can configure the values of its properties like __Name__, __Description__ and __Position__.
+Defines the connectors the shape owns. By default each shape has five active connectors – four for the directions and one auto connector. You can control the active	connectors of a shape by adding them to the shape’s **ConnectorsCollection**. Through the **DiagramShapeConnector** object	you can configure the values of its properties like **Name**, **Description** and **Position**.
 
-__Name__—defines which of the nine predefined connectors to be enabled. The available values are: __auto__, __bottom__,__bottomLeft__, __bottomRight__, __left__, __right__, __top__,	__topLeft__ and __topRight__.
+**Name**—defines which of the nine predefined connectors to be enabled. The available values are: **auto**, **bottom**,**bottomLeft**, **bottomRight**, **left**, **right**, **top**,	**topLeft** and **topRight**.
 >caption Figure 1. Connector names
 
 ![diagram-structure-connectors-2](images/diagram-structure-connectors-2.png)
 
-__Description__—the connector description.
+**Description**—the connector description.
 
-__Position__—the function that positions the connector. It can be used in order to add custom connectors to a custom shape.
+**Position**—the function that positions the connector. It can be used in order to add custom connectors to a custom shape.
 
 ## 
 >caption Figure 2. Connectors configuration
 
 ![diagram-structure-connectors-3](images/diagram-structure-connectors-3.png)
 
-__Example 1__: In this example you can see how to enable all built-in connectors of a shape. The first shape in __Figure 1__ has the defaultset of five connectors, while the second one has all nine connectors defined:
+**Example 1**: In this example you can see how to enable all built-in connectors of a shape. The first shape in **Figure 1** has the defaultset of five connectors, while the second one has all nine connectors defined:
 
 ````ASPNET
 			<telerik:RadDiagram ID="RadDiagram1" runat="server" Height="700">

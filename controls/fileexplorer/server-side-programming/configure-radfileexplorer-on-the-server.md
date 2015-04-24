@@ -1,6 +1,6 @@
 ---
 title: Configure RadFileExplorer on the Server
-page_title: Configure RadFileExplorer on the Server | UI for ASP.NET AJAX Documentation
+page_title: Configure RadFileExplorer on the Server | RadFileExplorer for ASP.NET AJAX Documentation
 description: Configure RadFileExplorer on the Server
 slug: fileexplorer/server-side-programming/configure-radfileexplorer-on-the-server
 tags: configure,radfileexplorer,on,the,server
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-For convenience the subcontrols of __RadFileExplorer__(RadMenu, RadUpload, etc.) are exposed so developers could change their look or behavior, however the configuration of the RadFileExplorer itself is done in __RadFileExplorer.Configuration__.
+For convenience the subcontrols of **RadFileExplorer**(RadMenu, RadUpload, etc.) are exposed so developers could change their look or behavior, however the configuration of the RadFileExplorer itself is done in **RadFileExplorer.Configuration**.
 
 Example:
 

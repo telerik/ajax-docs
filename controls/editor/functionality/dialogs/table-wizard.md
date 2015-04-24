@@ -1,6 +1,6 @@
 ---
 title: Table Wizard
-page_title: Table Wizard | UI for ASP.NET AJAX Documentation
+page_title: Table Wizard | RadEditor for ASP.NET AJAX Documentation
 description: Table Wizard
 slug: editor/functionality/dialogs/table-wizard
 tags: table,wizard
@@ -12,7 +12,7 @@ position: 2
 
 
 
-The Table Wizard provides advanced features for creating and customizing tables in the editor's content area. The Table Wizard is a dialog with tabs for detailed table design: __Table Design__, __Table Properties__, __Cell Properties__ and __Accessibility.__The Table Wizard can be invoked using the __Insert Table Dropdown.__
+The Table Wizard provides advanced features for creating and customizing tables in the editor's content area. The Table Wizard is a dialog with tabs for detailed table design: **Table Design**, **Table Properties**, **Cell Properties** and **Accessibility.**The Table Wizard can be invoked using the **Insert Table Dropdown.**
 
 ## Table Design
 
@@ -25,23 +25,23 @@ This tab allows you to adjust the number of rows and columns, and adjust the row
 
 This tab allows you to configure table dimensions and layout by setting one or more of the following table properties:
 
-* __Width/Height__ - Specifies the height and the width of the table (in pixels or percent).
+* **Width/Height** - Specifies the height and the width of the table (in pixels or percent).
 
-* __ID -__Setting an ID for a table gives some options for advanced table handling.
+* **ID -**Setting an ID for a table gives some options for advanced table handling.
 
-* __CSS Class__- Specifies table CSS class and style. This property should be used only by advanced users__.__
+* **CSS Class**- Specifies table CSS class and style. This property should be used only by advanced users**.**
 
-* __Background Color -__ Sets the background color of the table.
+* **Background Color -** Sets the background color of the table.
 
-* __Background Image -__ Sets an image as the table background.
+* **Background Image -** Sets an image as the table background.
 
-* __Alignment -__ Aligns the table to the left, center or right side of the page.
+* **Alignment -** Aligns the table to the left, center or right side of the page.
 
-* __Cell spacing__ - Increases or decreases the space between the borders of the cells.
+* **Cell spacing** - Increases or decreases the space between the borders of the cells.
 
-* __Cell padding__ - Increases or decreases the space between the content and the border of a cell.
+* **Cell padding** - Increases or decreases the space between the content and the border of a cell.
 
-* __Borders__ - Includes setting border width, color, and layout.
+* **Borders** - Includes setting border width, color, and layout.
 >caption 
 
 ![](images/editor-dropdowns020.png)

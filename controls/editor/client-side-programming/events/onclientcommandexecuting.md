@@ -1,6 +1,6 @@
 ---
 title: OnClientCommandExecuting
-page_title: OnClientCommandExecuting | UI for ASP.NET AJAX Documentation
+page_title: OnClientCommandExecuting | RadEditor for ASP.NET AJAX Documentation
 description: OnClientCommandExecuting
 slug: editor/client-side-programming/events/onclientcommandexecuting
 tags: onclientcommandexecuting
@@ -19,21 +19,21 @@ This event is fired just before a command is executed.
 
 >caption  
 
-|  __function OnClientCommandExecuting(editor, args)__  |  |  |
+|  **function OnClientCommandExecuting(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 
 >caption  
 
-|  __args parameter methods__  |  |
+|  **args parameter methods**  |  |
 | ------ | ------ |
-| __args.get_commandName()__ |Returns the command name|
-| __args.get_value()__ |Returns the value of the executed tool|
-| __args.set_value()__ |Sets the new content to be pasted in RadEditor|
-| __args.get_cancel()__ |Returns Boolean value that indicates whether the event has been canceled or not.|
-| __args.set_cancel(true)__ |Cancels the command execution|
+| **args.get_commandName()** |Returns the command name|
+| **args.get_value()** |Returns the value of the executed tool|
+| **args.set_value()** |Sets the new content to be pasted in RadEditor|
+| **args.get_cancel()** |Returns Boolean value that indicates whether the event has been canceled or not.|
+| **args.set_cancel(true)** |Cancels the command execution|
 
 The following example demonstrates how to alert the selected dropdown item name and value:
 

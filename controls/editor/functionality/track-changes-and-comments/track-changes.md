@@ -1,6 +1,6 @@
 ---
 title: Track Changes
-page_title: Track Changes | UI for ASP.NET AJAX Documentation
+page_title: Track Changes | RadEditor for ASP.NET AJAX Documentation
 description: Track Changes
 slug: editor/functionality/track-changes-and-comments/track-changes
 tags: track,changes
@@ -12,9 +12,9 @@ position: 0
 
 
 
-This article shows how to enable, configure and use the built-in __Track Changes__ feature of the __Telerik Editor for ASP.NET AJAX__.
+This article shows how to enable, configure and use the built-in **Track Changes** feature of the **Telerik Editor for ASP.NET AJAX**.
 
-The __Track Changes__ feature is available since __Q2 2012__.
+The **Track Changes** feature is available since **Q2 2012**.
 >caption Figure 1: RadEditor with Tracked Changes enabled.
 
 ![editor-track-changes-enabled](images/editor-track-changes/editor-track-changes-enabled.png)
@@ -37,30 +37,30 @@ Quick navigation:
 
 ## Overview
 
-The __Track Changes__ feature enables end-users to keep track of the changes made when editing the content in the__RadEditor__. Changes are tracked when e.g., applying text formatting to a text selection, entering new content,deleting existing one, etc (__Figure 1__). Additionally, on selecting a tracked change a little popup with details aboutit will appear at the bottom right corner of the browser or the relative positioned parent (__Figure 2__).
+The **Track Changes** feature enables end-users to keep track of the changes made when editing the content in the**RadEditor**. Changes are tracked when e.g., applying text formatting to a text selection, entering new content,deleting existing one, etc (**Figure 1**). Additionally, on selecting a tracked change a little popup with details aboutit will appear at the bottom right corner of the browser or the relative positioned parent (**Figure 2**).
 >caption Figure 2: Popup dialog with details about the selected tracked change.
 
 ![editor-track-changes-details-popup](images/editor-track-changes/editor-track-changes-details-popup.png)
 
 Further, the tracked change(s) can be accepted or rejected based on the set user permissions(you can check how to configure the user settings in the [User Configuration](#user-configuration) section).
 
-The __Track Changes__ feature comes with built-in tools that enables the user to enable/disable the feature,and to accept or reject track changes in the content. The following list provides descriptions for all of the provided tools:
+The **Track Changes** feature comes with built-in tools that enables the user to enable/disable the feature,and to accept or reject track changes in the content. The following list provides descriptions for all of the provided tools:
 
-* __Accept Track Change__ - click the button to accept the last change
+* **Accept Track Change** - click the button to accept the last change
 
-* __Reject Track Change__ - press the button to reject the selected change
+* **Reject Track Change** - press the button to reject the selected change
 
-* __Accept All Track Changes__ - accepts all changes in the document
+* **Accept All Track Changes** - accepts all changes in the document
 
-* __Reject All Track Changes__ - rejects all changes in the document
+* **Reject All Track Changes** - rejects all changes in the document
 
-* __Enable Track Changes Override__ - turns Track Changes on or off
+* **Enable Track Changes Override** - turns Track Changes on or off
 
 ## Enabling Track Changes Feature and Tools
 
-The following steps will guide you on enabling the __Track Changes__ feature and adding the tools in the__RadEditor__ toolbar:
+The following steps will guide you on enabling the **Track Changes** feature and adding the tools in the**RadEditor** toolbar:
 
-1. Set the __EnableTrackChanges__ property to __true__:
+1. Set the **EnableTrackChanges** property to **true**:
 
 ````ASPNET
 			<telerik:RadEditor runat="server" ID="RadEditor1" EnableTrackChanges="true">
@@ -70,7 +70,7 @@ The following steps will guide you on enabling the __Track Changes__ feature and
 
 
 
-1. Enable the built-in __Track Changes__ tools:
+1. Enable the built-in **Track Changes** tools:
 
 
 
@@ -122,23 +122,23 @@ The following steps will guide you on enabling the __Track Changes__ feature and
 ````
 
 
-At this point, the __Track Changes__ feature is ready to be used by end-users.Changes can be tracked in the text and the built-in tools are provided in the toolbar.
+At this point, the **Track Changes** feature is ready to be used by end-users.Changes can be tracked in the text and the built-in tools are provided in the toolbar.
 
-By default, the tracked changes cannot be accepted or rejected, because the initial usersetting restricts it, i.e., the corresponding tools are disabled. Optionally, you canalter the user settings by reconfiguring the __TrackChangesSettings__ where you can change the__Author__, __UserCssId__ and __CanAcceptTrackChanges__ properties.The following section will explain more details about these properties.
+By default, the tracked changes cannot be accepted or rejected, because the initial usersetting restricts it, i.e., the corresponding tools are disabled. Optionally, you canalter the user settings by reconfiguring the **TrackChangesSettings** where you can change the**Author**, **UserCssId** and **CanAcceptTrackChanges** properties.The following section will explain more details about these properties.
 
 ## User Configuration
 
-In __Track Changes__ the user settings are the way to define the name of the editor,what stylization are applied based on the settings and configure if changes can be accepted/rejected.
+In **Track Changes** the user settings are the way to define the name of the editor,what stylization are applied based on the settings and configure if changes can be accepted/rejected.
 
-These setting are available in the __TrackChangesSettings__ inner tag, where the following properties are exposed:
+These setting are available in the **TrackChangesSettings** inner tag, where the following properties are exposed:
 
-* __Author__—the name with which the editor to be recognized.
+* **Author**—the name with which the editor to be recognized.
 
-* __UserCssId__—the class name that defines the color of the changes made in the content. There are ten ready-to-use, predefined classes	(reU0, reU1, reU2, reU3, reU4, reU5, reU6, reU7, reU8, reU9).
+* **UserCssId**—the class name that defines the color of the changes made in the content. There are ten ready-to-use, predefined classes	(reU0, reU1, reU2, reU3, reU4, reU5, reU6, reU7, reU8, reU9).
 
-* __CanAcceptTrackChanges__—a Boolean property that defines if the user can accept and reject changes.
+* **CanAcceptTrackChanges**—a Boolean property that defines if the user can accept and reject changes.
 
-__Example 1__: Using TrackChangesSettings to define user settings
+**Example 1**: Using TrackChangesSettings to define user settings
 
 
 
@@ -159,9 +159,9 @@ __Example 1__: Using TrackChangesSettings to define user settings
 ````
 
 
-Optionally, you can use a custom __UserCssId__ value and define custom appearance for it. To do so you should implement a CSSfile with CSS rules like the ones in __Example 2__. This file should be imported into the RadEditor’s content area via the[CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) or the[ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/custom-stylization%}) only if the[ContentAreaMode property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is set to Iframe. If the Div mode is set, theCSS file should be directly imported in the main page.
+Optionally, you can use a custom **UserCssId** value and define custom appearance for it. To do so you should implement a CSSfile with CSS rules like the ones in **Example 2**. This file should be imported into the RadEditor’s content area via the[CssFiles collection]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) or the[ContentAreaCssFile property]({%slug editor/managing-content/content-area-appearance/custom-stylization%}) only if the[ContentAreaMode property]({%slug editor/functionality/editor-views-and-modes/contentareamode-property%}) is set to Iframe. If the Div mode is set, theCSS file should be directly imported in the main page.
 
-__Example 2__: Custom styles for the reU10 UserCssId value
+**Example 2**: Custom styles for the reU10 UserCssId value
 
 ````XML
 	        /*User border and text colors*/
@@ -188,7 +188,7 @@ __Example 2__: Custom styles for the reU10 UserCssId value
 
 ## Generated HTML
 
-The __Track Changes__ functionality entirely relies on HTML to show, recognize and manipulate the tracked content.Upon user interaction __Track Changes__ adds and/or modifies the HTML output with additional tags and attributes whichrepresent the actual tracked change. The examples listed below show the HTML generation upon some user interactions:
+The **Track Changes** functionality entirely relies on HTML to show, recognize and manipulate the tracked content.Upon user interaction **Track Changes** adds and/or modifies the HTML output with additional tags and attributes whichrepresent the actual tracked change. The examples listed below show the HTML generation upon some user interactions:
 
 * Text insertion:
 
@@ -233,21 +233,21 @@ The __Track Changes__ functionality entirely relies on HTML to show, recognize a
 
 Enabling the Track Changes feature enables you to use the following client-side methods:
 
-* __get_htmlAcceptChanges()__-returns HTML content as if Accept All Track Changes is fired.
+* **get_htmlAcceptChanges()**-returns HTML content as if Accept All Track Changes is fired.
 
-* __get_htmlRejectChanges()__-returns HTML content as if Reject All Track Changes is fired.
+* **get_htmlRejectChanges()**-returns HTML content as if Reject All Track Changes is fired.
 
 ## Server-side Methods
 
-Since __Q3 2012____Track Changes__ feature also exposes new server-side methods for accepting and rejecting the changes:
+Since **Q3 2012 Track Changes** feature also exposes new server-side methods for accepting and rejecting the changes:
 
-* __AcceptTrackChanges()__-changes the content of RadEditor by accepting the track changes..
+* **AcceptTrackChanges()**-changes the content of RadEditor by accepting the track changes..
 
-* __RejectTrackChanges()__-changes the content of RadEditor by rejecting the track changes.
+* **RejectTrackChanges()**-changes the content of RadEditor by rejecting the track changes.
 
 ## Supported Commands
 
-The following commands are officially supported by __Track Changes__ and are designed to work with tracked content:
+The following commands are officially supported by **Track Changes** and are designed to work with tracked content:
 
 * Bold
 

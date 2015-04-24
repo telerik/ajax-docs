@@ -1,6 +1,6 @@
 ---
 title: Expand Node on Single Click
-page_title: Expand Node on Single Click | UI for ASP.NET AJAX Documentation
+page_title: Expand Node on Single Click | RadDropDownTree for ASP.NET AJAX Documentation
 description: Expand Node on Single Click
 slug: dropdowntree/functionality/expand-node-on-single-click
 tags: expand,node,on,single,click

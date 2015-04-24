@@ -1,6 +1,6 @@
 ---
-title: Resources Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Resources Overview | RadGantt for ASP.NET AJAX Documentation
 description: Overview
 slug: gantt/resources/overview
 tags: overview

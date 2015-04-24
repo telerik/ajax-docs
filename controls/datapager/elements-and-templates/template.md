@@ -1,6 +1,6 @@
 ---
 title: Template
-page_title: Template | UI for ASP.NET AJAX Documentation
+page_title: Template | RadDataPager for ASP.NET AJAX Documentation
 description: Template
 slug: datapager/elements-and-templates/template
 tags: template

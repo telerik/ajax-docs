@@ -1,6 +1,6 @@
 ---
 title: Inner Toolbars are Displayed in Multiple Lines
-page_title: Inner Toolbars are Displayed in Multiple Lines | UI for ASP.NET AJAX Documentation
+page_title: Inner Toolbars are Displayed in Multiple Lines | RadEditor for ASP.NET AJAX Documentation
 description: Inner Toolbars are Displayed in Multiple Lines
 slug: editor/troubleshooting/inner-toolbars-are-displayed-in-multiple-lines
 tags: inner,toolbars,are,displayed,in,multiple,lines

@@ -1,6 +1,6 @@
 ---
 title: ItemDataBound
-page_title: ItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: ItemDataBound | RadDropDownList for ASP.NET AJAX Documentation
 description: ItemDataBound
 slug: dropdownlist/server-side-programming/events/itemdatabound
 tags: itemdatabound

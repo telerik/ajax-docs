@@ -1,6 +1,6 @@
 ---
 title: Migrating From RadDock ASP.NET To ASP.NET AJAX
-page_title: Migrating From RadDock ASP.NET To ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating From RadDock ASP.NET To ASP.NET AJAX | RadDock for ASP.NET AJAX Documentation
 description: Migrating From RadDock ASP.NET To ASP.NET AJAX
 slug: dock/changes-and-backward-compatibility/migrating-from-raddock-asp.net-to-asp.net-ajax
 tags: migrating,from,raddock,asp.net,to,asp.net,ajax
@@ -26,14 +26,14 @@ To add RadDock for ASP.NET AJAX to an existing ASP.NET web application you need 
 
 ## Differences between RadDock "classic" and RadDock for ASP.NET AJAX
 
-RadDock for ASP.NET AJAX has a new architecture exposing many new properties and methods. In addition, some of the properties and methods that existed in __RadDock__ classic have been removed. The changes to __RadDock__ are listed below:
+RadDock for ASP.NET AJAX has a new architecture exposing many new properties and methods. In addition, some of the properties and methods that existed in **RadDock** classic have been removed. The changes to **RadDock** are listed below:
 
 ## Classes
 
 The names of the classes have changed as follows:
 
 
->caption  
+
 
 | RadDock Classic | RadDock for ASP.NET AJAX |
 | ------ | ------ |
@@ -45,58 +45,57 @@ The names of the classes have changed as follows:
 
 ## RadDockingManager -> RadDockLayout Class
 
-The following __RadDockingManager__ properties and methods from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX __RadDockLayout__ class:
+The following **RadDockingManager** properties and methods from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX **RadDockLayout** class:
 
 
->caption  
+
 
 | RadDockingManager | RadDockLayout |
 | ------ | ------ |
-| __Properties__ ||
-|DockableObjects|Replaced by the __RegisteredDocks__ property|
-|DockingZones|Replaced by the __RegisteredZones__ property|
+| **Properties** ||
+|DockableObjects|Replaced by the **RegisteredDocks** property|
+|DockingZones|Replaced by the **RegisteredZones** property|
 |DockEnabled|Removed|
 |EffectsEnabled|Removed|
 |EffectsDuration|Removed|
 |EffectsUpdateRate|Removed|
 |ShowContentWhileDragging|Removed|
 |ShowToolTipWhileDragging|Removed|
-| __Methods__ ||
-|LoadState()|Removed: use the __LoadDockLayout__ event instead|
-|SaveState()|Removed: use the __GetRegisteredDocksState__ property and __SaveDockLayout__ event instead.|
+| **Methods** ||
+|LoadState()|Removed: use the **LoadDockLayout** event instead|
+|SaveState()|Removed: use the **GetRegisteredDocksState** property and **SaveDockLayout** event instead.|
 
-The following property is new to the __RadDockLayout__ component. It has no equivalent in the classic versions:
+The following property is new to the **RadDockLayout** component. It has no equivalent in the classic versions:
 
 
->caption  
+
 
 | New Property | Description |
 | ------ | ------ |
-|StoreLayoutInViewState|By default __RadDockLayout__ stores the positions of its inner docks in the ViewState. If you want to store the positions in other storage medium such as a database or the Session, set this property to __false__ . Setting __StoreLayoutInViewState__ to __false__ minimizes the ViewState usage.|
+|StoreLayoutInViewState|By default **RadDockLayout** stores the positions of its inner docks in the ViewState. If you want to store the positions in other storage medium such as a database or the Session, set this property to **false** . Setting **StoreLayoutInViewState** to **false** minimizes the ViewState usage.|
 
 ## RadDockingZone -> RadDockZone Class
 
-The following __RadDockingZone__ properties from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX __RadDockZone__ class:
+The following **RadDockingZone** properties from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX **RadDockZone** class:
 
-
->caption  
+  
 
 | RadDockingZone | RadDockZone |
 | ------ | ------ |
-|DockableObjects|Replaced by the __Docks__ property|
+|DockableObjects|Replaced by the **Docks** property|
 |DockEnabled|Removed|
 |FixedByWidth|FitDocks|
-|HighlightedStyle|Use the __HighlightedCssClass__ property instead.|
-|IsHorizontal|Use the __Orientation__ property instead.|
-|IsVertical|Use the __Orientation__ property instead.|
-|MinimumHeight|Renamed to __MinHeight__ |
-|MinimumWidth|Renamed to __MinWidth__ |
-|Type|Replaced in part by the __Orientation__ property.|
+|HighlightedStyle|Use the **HighlightedCssClass** property instead.|
+|IsHorizontal|Use the **Orientation** property instead.|
+|IsVertical|Use the **Orientation** property instead.|
+|MinimumHeight|Renamed to **MinHeight** |
+|MinimumWidth|Renamed to **MinWidth** |
+|Type|Replaced in part by the **Orientation** property.|
 
-The following property is new to the __RadDockZone__ control. It has no equivalent in the classic versions:
+The following property is new to the **RadDockZone** control. It has no equivalent in the classic versions:
 
 
->caption  
+
 
 | New Property | Description |
 | ------ | ------ |
@@ -104,65 +103,64 @@ The following property is new to the __RadDockZone__ control. It has no equivale
 
 ## RadDockableObject -> RadDock Class
 
-The following __RadDockableObject__ properties from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX __RadDock__ class:
+The following **RadDockableObject** properties from RadDock "Classic" have been removed or changed in the RadDock for ASP.NET AJAX **RadDock** class:
 
 
->caption  
+  
 
 | RadDockableObject | RadDock |
 | ------ | ------ |
-|AllowedDockingZones|Removed, use the __ForbiddenZones__ property instead. __ForbiddenZones__ lists the __UniqueName__ properties of any __RadDockZone__ controls where the __RadDock__ control is not allowed to dock.|
-|AllowedDockingZoneTypes|Removed, use the __ForbiddenZones__ property instead.|
-|Behavior|Removed, use the __DefaultCommands__ and __Commands__ properties instead.|
+|AllowedDockingZones|Removed, use the **ForbiddenZones** property instead. **ForbiddenZones** lists the **UniqueName** properties of any **RadDockZone** controls where the **RadDock** control is not allowed to dock.|
+|AllowedDockingZoneTypes|Removed, use the **ForbiddenZones** property instead.|
+|Behavior|Removed, use the **DefaultCommands** and **Commands** properties instead.|
 |CanDockTo|Removed.|
-|Container|Removed, use the __ContentContainer__ property instead.|
-|DockingMode|Replaced by the __DockMode__ property.|
-|Expanded|Removed, use the __Collapsed__ property instead.|
-|IsDocked|Removed. Use __DockZoneID != String.Empty__ .|
-|IsFloating|Removed. Use __DockZoneID == String.Empty__ .|
-|ParentDockingZone|Removed. Use the __DockZoneID__ property instead.|
-|Text|Changed. __Text__ now specifies a string that appears in the content area of the control. __Title__ specifies a string that appears in the title bar.|
-|FloatingObjectEnabledGrips|Removed, use the __DockHandle__ property instead.|
-|DockedObjectEnabledGrips|Removed, use the __DockHandle__ property instead.|
-|ShowTitlebarWhenDisabled|Removed, use the __DockHandle__ property instead.|
-|TitleBarStyle|Removed. You can customize the appearance of the title bar using the __TitlebarTemplate__ property.|
+|Container|Removed, use the **ContentContainer** property instead.|
+|DockingMode|Replaced by the **DockMode** property.|
+|Expanded|Removed, use the **Collapsed** property instead.|
+|IsDocked|Removed. Use **DockZoneID != String.Empty** .|
+|IsFloating|Removed. Use **DockZoneID == String.Empty** .|
+|ParentDockingZone|Removed. Use the **DockZoneID** property instead.|
+|Text|Changed. **Text** now specifies a string that appears in the content area of the control. **Title** specifies a string that appears in the title bar.|
+|FloatingObjectEnabledGrips|Removed, use the **DockHandle** property instead.|
+|DockedObjectEnabledGrips|Removed, use the **DockHandle** property instead.|
+|ShowTitlebarWhenDisabled|Removed, use the **DockHandle** property instead.|
+|TitleBarStyle|Removed. You can customize the appearance of the title bar using the **TitlebarTemplate** property.|
 |VerticalGripStyle|Removed|
 |HorizontalGripStyle|Removed|
-|OnClientDock|Removed, use __OnClientDockPositionChanged__ instead.|
-|OnClientUnDock|Removed, use __OnClientDockPositionChanging__ instead.|
-|OnClientDockStateChanged|Removed, use __OnClientDockPositionChanged__ instead.|
-|OnClientDrop|Removed, use __OnClientDockPositionChanged__ or __OnClientDragEnd__ instead.|
+|OnClientDock|Removed, use **OnClientDockPositionChanged** instead.|
+|OnClientUnDock|Removed, use **OnClientDockPositionChanging** instead.|
+|OnClientDockStateChanged|Removed, use **OnClientDockPositionChanged** instead.|
+|OnClientDrop|Removed, use **OnClientDockPositionChanged** or **OnClientDragEnd** instead.|
 
-The following properties and methods are new to the __RadDock__ control. They have no equivalent in the classic versions:
+The following properties and methods are new to the **RadDock** control. They have no equivalent in the classic versions:
 
 
->caption  
 
 | Property or Method | Description |
 | ------ | ------ |
-| __Properties__ ||
-|AutoPostBack|When __true__ , the __RadDock__ control performs a postback every time the its __DockZoneID__ or __Index__ property changes. When __false__ , the __DockPositionChanged__ event does not occur until another control on the page causes a postback.|
+| **Properties** ||
+|AutoPostBack|When **true** , the **RadDock** control performs a postback every time the its **DockZoneID** or **Index** property changes. When **false** , the **DockPositionChanged** event does not occur until another control on the page causes a postback.|
 |CloseText|Specifies the text of the tooltip for the Close command icon.|
 |CollapseText|Specifies the text of the tooltip for the Collapse command icon.|
 |ExpandText|Specifies the text of the tooltip for the Expand command icon.|
-|Index|Indicates the position of the __RadDock__ control in its parent __DockZone__ , where 0 represents the first position. If the __RadDock__ control is not docked, __Index__ is -1.|
-|Left|Specifies the X-position of the __RadDock__ control when it is not docked.|
+|Index|Indicates the position of the **RadDock** control in its parent **DockZone** , where 0 represents the first position. If the **RadDock** control is not docked, **Index** is -1.|
+|Left|Specifies the X-position of the **RadDock** control when it is not docked.|
 |OnClientCommand|Specifies the name of a client-side function that is called when the user clicks a command icon in the title bar.|
-|OnClientInitialize|Specifies the name of a client-side function that is called when the __RadDock__ control is loaded. This can be used to initialize the control.|
+|OnClientInitialize|Specifies the name of a client-side function that is called when the **RadDock** control is loaded. This can be used to initialize the control.|
 |PinText|Specifies the text of the tooltip for the Pin command icon.|
-|Tag|Specifies a string that is saved in the __DockState__ . This allows you to add your own custom data to the __RadDock__ control.|
-|Text|Specifies a string that appears in the content area of the __RadDock__ control.|
-|Title|Specifies the string that appears in the title bar of the __RadDock__ control.|
+|Tag|Specifies a string that is saved in the **DockState** . This allows you to add your own custom data to the **RadDock** control.|
+|Text|Specifies a string that appears in the content area of the **RadDock** control.|
+|Title|Specifies the string that appears in the title bar of the **RadDock** control.|
 |TitlebarContainer|Returns the parent control in which the title bar template is instantiated.|
 |TitlebarTemplate|Specifies the class of a template to use for the title bar area.|
 |Top|Specifies the Y-position of the RadDock control when it is not docked.|
-|UniqueName|Specifies a unique identifier for the __RadDock__ control that the __RadDockLayout__ component uses to manage its position. If __UniqueName__ is not set, the control's ID is used instead.|
+|UniqueName|Specifies a unique identifier for the **RadDock** control that the **RadDockLayout** component uses to manage its position. If **UniqueName** is not set, the control's ID is used instead.|
 |UnpinText|Specifies the text of the tooltip for the Unpin command icon.|
-| __Methods__ ||
-|ApplyState|Restores the __RadDock__ control to the state specified by a __DockState__ object.|
-|Dock|Docks the __RadDock__ control in a specified __RadDockZone__ .|
-|GetState|Gets a __DockState__ object that represents the current state of the __RadDock__ control.|
-|Undock|Removes the __RadDock__ control from its parent __RadDockZone__ .|
+| **Methods** ||
+|ApplyState|Restores the **RadDock** control to the state specified by a **DockState** object.|
+|Dock|Docks the **RadDock** control in a specified **RadDockZone** .|
+|GetState|Gets a **DockState** object that represents the current state of the **RadDock** control.|
+|Undock|Removes the **RadDock** control from its parent **RadDockZone** .|
 
 ## Client-side API changes
 
@@ -170,68 +168,67 @@ The client-side API of RadDock for ASP.NET AJAX has been completely revised to a
 
 ## RadDockLayout object
 
-The __RadDockLayout__ component is not rendered on the page. Therefore, it does not have any client-side properties or methods to replace the client-side properties of the __RadDockingManager__ client-side object.
+The **RadDockLayout** component is not rendered on the page. Therefore, it does not have any client-side properties or methods to replace the client-side properties of the **RadDockingManager** client-side object.
 
 ## RadDockZone object
 
-All of the RadDock "Classic" client-side properties for __RadDockingZone__ have been removed, as have the __RadDockingZoneTypeFlags__. The __RadDockZone__ client-side object supports two new methods:
+All of the RadDock "Classic" client-side properties for **RadDockingZone** have been removed, as have the **RadDockingZoneTypeFlags**. The **RadDockZone** client-side object supports two new methods:
 
 
->caption  
+
 
 | Method | Description |
 | ------ | ------ |
-|dock(RadDock object [, index])|Docks a specified __RadDock__ object into the __RadDockZone__ . An optional index parameter specifies the (0-offset) position where __RadDock__ object should be placed among the children of the __RadDockZone__ .|
-|get_docks()|Returns an array containing references to all docked __RadDock__ controls.|
+|dock(RadDock object [, index])|Docks a specified **RadDock** object into the **RadDockZone** . An optional index parameter specifies the (0-offset) position where **RadDock** object should be placed among the children of the **RadDockZone** .|
+|get_docks()|Returns an array containing references to all docked **RadDock** controls.|
 
 ## RadDock object
 
-The following table lists the properties and methods of the __RadDockableObject__ client-side object that have been removed or changed in the new __RadDock__ object:
+The following table lists the properties and methods of the **RadDockableObject** client-side object that have been removed or changed in the new **RadDock** object:
 
 
->caption  
+
 
 | RadDockableObject | RadDock |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |TopGrip, BottomGrip, LeftGrip, RightGrip|Removed|
 |IsDockableObject|Removed|
-|ParentDockingZone|Use __get_parent()__ instead|
+|ParentDockingZone|Use **get_parent()** instead|
 |TitleBar|Removed|
-| __Methods__ ||
-|Expand(expanded)|Use __set_collapsed(false)__ instead|
-|Collapse()|Use __set_collapsed(true)__ instead|
-|Pin()|Use __set_pinned(true)__ instead|
-|Unpin()|Use __set_pinned(false)__ instead|
+| **Methods** ||
+|Expand(expanded)|Use **set_collapsed(false)** instead|
+|Collapse()|Use **set_collapsed(true)** instead|
+|Pin()|Use **set_pinned(true)** instead|
+|Unpin()|Use **set_pinned(false)** instead|
 |IsGripVisible(oGrip)|Removed|
 |SetGripVisible(oGrip, bVisible)|Removed|
 |MoveTo(x, y, useEffects)|Removed.|
 |SetSize(width, height)|Removed.|
-|IsVisible(), Show(), Hide()|Removed. Use __get_closed()__ and __set_closed()__ instead.|
-|DockTo(zone)|Removed. Use __RadDockZone.dock(RadDock object, [, index])__ .|
-|GetCommandByName(sCommandName)|Renamed to __getCommand(sCommandName)__ |
+|IsVisible(), Show(), Hide()|Removed. Use **get_closed()** and **set_closed()** instead.|
+|DockTo(zone)|Removed. Use **RadDockZone.dock(RadDock object, [, index])** .|
+|GetCommandByName(sCommandName)|Renamed to **getCommand(sCommandName)** |
 |IsDocked()|Removed.|
-|AddEventHandler(sEventName, funcEventHandler)|Removed. Use __add_<EventName>(funcEventHandler)__ instead. (eg add_dockPositionChanged(myHandler); )|
-|RemoveEventHandler(sEventName, funcEventHandler)|Removed. Use __remove_<EventName>(funcEventHandler)__ instead.|
-| __Events__ ||
-|OnClientDockStateChange, OnClientDock, OnClientUnDock|Removed. Use __dockPositionChanged__ or __dockPositionChanging__ instead.|
+|AddEventHandler(sEventName, funcEventHandler)|Removed. Use **add_<EventName>(funcEventHandler)** instead. (eg add_dockPositionChanged(myHandler); )|
+|RemoveEventHandler(sEventName, funcEventHandler)|Removed. Use **remove_<EventName>(funcEventHandler)** instead.|
+| **Events** ||
+|OnClientDockStateChange, OnClientDock, OnClientUnDock|Removed. Use **dockPositionChanged** or **dockPositionChanging** instead.|
 |OnClientDrop|Removed.|
 
-The following properties, methods, and events are new to the __RadDock__ client-side object. They have no equivalent in the classic versions:
+The following properties, methods, and events are new to the **RadDock** client-side object. They have no equivalent in the classic versions:
 
-
->caption  
+ 
 
 | Property or Method | Description |
 | ------ | ------ |
-| __Properties__ ||
-|get_forbiddenZones, set_forbiddenZones|Gets or sets the forbidden zones where the __RadDock__ object is not allowed to dock.|
-|set_handle|Sets the dock handle of the __RadDock__ object. This is the element within the __RadDock__ object that the user can drag to move the __RadDock__ object.|
-|get_enableDrag, set_enableDrag|Gets or sets a boolean controlling whether the __RadDock__ object can be dragged.|
-| __Methods__ ||
-|conditionalPostback|Calls __this.doPostBack__ if __AutoPostBack__ is __true__ .|
-|doPostBack|Causes a server-side __DockPositionChanged__ event if the current position of the control differs from the position it had the last time the page was loaded.|
-|getCommand|Returns the DOM anchor element (<a>) associated with a specified command name.|
+| **Properties** ||
+|get_forbiddenZones, set_forbiddenZones|Gets or sets the forbidden zones where the **RadDock** object is not allowed to dock.|
+|set_handle|Sets the dock handle of the **RadDock** object. This is the element within the **RadDock** object that the user can drag to move the **RadDock** object.|
+|get_enableDrag, set_enableDrag|Gets or sets a boolean controlling whether the **RadDock** object can be dragged.|
+| **Methods** ||
+|conditionalPostback|Calls **this.doPostBack** if **AutoPostBack** is **true** .|
+|doPostBack|Causes a server-side **DockPositionChanged** event if the current position of the control differs from the position it had the last time the page was loaded.|
+|getCommand|Returns the DOM anchor element (`<a>`) associated with a specified command name.|
 
 # See Also
 

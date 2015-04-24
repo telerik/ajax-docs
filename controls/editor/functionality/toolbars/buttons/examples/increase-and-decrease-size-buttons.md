@@ -1,6 +1,6 @@
 ---
 title: Increase and Decrease Size Buttons
-page_title: Increase and Decrease Size Buttons | UI for ASP.NET AJAX Documentation
+page_title: Increase and Decrease Size Buttons | RadEditor for ASP.NET AJAX Documentation
 description: Increase and Decrease Size Buttons
 slug: editor/functionality/toolbars/buttons/examples/increase-and-decrease-size-buttons
 tags: increase,and,decrease,size,buttons
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The following example demonstrates how to implement custom __IncreaseSize__ and __DecreaseSize__ buttons that expand and shrink the editor vertically.
+The following example demonstrates how to implement custom **IncreaseSize** and **DecreaseSize** buttons that expand and shrink the editor vertically.
 
-Place IncreaseSize and DecreaseSize JavaScript commands below the editor declaration. Both commands get the editor DOM element the RadEditor __get_element()__ method. The __clientWidth__ and __clientHeight__ DOM properties of the element provide the current editor dimensions. Then the RadEditor __setSize()__ is used to assign new editor dimensions, this time with 30 pixels more or less, depending on the button clicked.
+Place IncreaseSize and DecreaseSize JavaScript commands below the editor declaration. Both commands get the editor DOM element the RadEditor **get_element()** method. The **clientWidth** and **clientHeight** DOM properties of the element provide the current editor dimensions. Then the RadEditor **setSize()** is used to assign new editor dimensions, this time with 30 pixels more or less, depending on the button clicked.
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" ID="RadEditor1">

@@ -1,6 +1,6 @@
 ---
 title: Inline and Block Commands Behavior Change
-page_title: Inline and Block Commands Behavior Change | UI for ASP.NET AJAX Documentation
+page_title: Inline and Block Commands Behavior Change | RadEditor for ASP.NET AJAX Documentation
 description: Inline and Block Commands Behavior Change
 slug: editor/changes-and-backwards-compatibility/inline-and-block-commands-behavior-change
 tags: inline,and,block,commands,behavior,change
@@ -16,7 +16,7 @@ position: 4
 
 During the last few years, the editor got many new important features and functionalities. All these goodies highly increasedthe end-user’s usability and support for different scenarios, although they led to some unwanted side effects with the basicfunctionalities. In addition to that, lots of new browsers and browser versions were released through the time. The RadEditorcontrol is designed to depend on browser commands for most of the basic editing functionalities.
 
-Since Q2 2013, in order to improve the consistency across different browsers and achieve stronger coherence with the desktop text editing applications,we have introduced major changes in the behavior of some major commands used in the __RadEditor__ control. These commands take careof user actions for editing, insertion and modification of inline (span, font etc.) and block (lists, paragraphs, tables, etc.) elements.
+Since Q2 2013, in order to improve the consistency across different browsers and achieve stronger coherence with the desktop text editing applications,we have introduced major changes in the behavior of some major commands used in the **RadEditor** control. These commands take careof user actions for editing, insertion and modification of inline (span, font etc.) and block (lists, paragraphs, tables, etc.) elements.
 
 As a result of the modification, these commands now exhibit behavior different from what was observed in previous versions of that control.
 
@@ -40,35 +40,35 @@ As a result of the modification, these commands now exhibit behavior different f
 
 ## User Experience with RadEditor
 
-The users has already gained experience for text editing from desktop rich text editors (e.g. MS Word). For their convenience most of the known commands are implemented in the __RadEditor__ control via different [tools]({%slug editor/functionality/toolbars/overview%}) and their [keyboard shortcuts](6C74ED39-DB39-45F5-ADD5-1CCA662C580A).
+The users has already gained experience for text editing from desktop rich text editors (e.g. MS Word). For their convenience most of the known commands are implemented in the **RadEditor** control via different [tools]({%slug editor/functionality/toolbars/overview%}) and their [keyboard shortcuts](6C74ED39-DB39-45F5-ADD5-1CCA662C580A).
 
-If the __NewLineMode__ property is used with its default value ("Br") some known actions are somehow different in the __RadEditor__. You can find a list of them in the following table.
+If the **NewLineMode** property is used with its default value ("Br") some known actions are somehow different in the **RadEditor**. You can find a list of them in the following table.
 
 
 | Action | RadEditor | MS Word |
 | ------ | ------ | ------ |
-|Insert Line Break|keyboard shortcut __Shift+Enter__ 
+|Insert Line Break|keyboard shortcut **Shift+Enter** 
 
->tip If the NewLineMode="Br" property is used - __Enter__ key
+>tip If the NewLineMode="Br" property is used - **Enter** key
 >
-|keyboard shortcut __Shift+Enter__ |
-|Insert Paragraph|keyboard shortcut __Ctrl+Enter__ 
+|keyboard shortcut **Shift+Enter** |
+|Insert Paragraph|keyboard shortcut **Ctrl+Enter** 
 
->tip If the NewLineMode="P" property is used - __Enter__ key
+>tip If the NewLineMode="P" property is used - **Enter** key
 >
-| __Enter__ key|
+| **Enter** key|
 
->note As shown in this table if the __NewLineMode__ property is set to "P", the user would be able to use the __RadEditor__ with the same experience as in MS Word.
+>note As shown in this table if the **NewLineMode** property is set to "P", the user would be able to use the **RadEditor** with the same experience as in MS Word.
 >
 
 
 ## List of the Updated Commands
 
 
-|  __Release__  |  __Commands__  |
+|  **Release**  |  **Commands**  |
 | ------ | ------ |
-|[Q2 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| __Indent/Outdent__ , __InsertList__ , __Align__ and __Insert List (Sorted and Bulleted)__ .|
-|[Q3 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q3-2013-version-2013-3-1015.aspx).| __Bold__ , __Italic__ , __Underline__  __Strikethrough__ |
+|[Q2 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2013-version-2013-2-611.aspx#Editor)| **Indent/Outdent** , **InsertList** , **Align** and **Insert List (Sorted and Bulleted)** .|
+|[Q3 2013](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q3-2013-version-2013-3-1015.aspx).| **Bold** , **Italic** , **Underline**  **Strikethrough** |
 
 ## How to Get the Old Behavior Back
 
@@ -78,7 +78,7 @@ If the __NewLineMode__ property is used with its default value ("Br") some known
 
 In order to ease the transition between the old and the new behavior of the commands and allow the developers to decide whether to implement or not the introduced breaking change,there is a built-in ability that offers the possibility of bringing back their old behavior.
 
-For the block commands this can be achieved by referencing the __LegacyCommands.js__ script file which resides in__Telerik.Web.UI.Editor.RadEditor.Commands__ namespace, as illustrated in the example below.
+For the block commands this can be achieved by referencing the **LegacyCommands.js** script file which resides in**Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
 
 ````ASPNET
 			<asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
@@ -87,7 +87,7 @@ For the block commands this can be achieved by referencing the __LegacyCommands.
 
 
 
-And for the inline commands - the __LegacyInlineCommands.js__ script file which resides in__Telerik.Web.UI.Editor.RadEditor.Commands__ namespace, as illustrated in the example below.
+And for the inline commands - the **LegacyInlineCommands.js** script file which resides in**Telerik.Web.UI.Editor.RadEditor.Commands** namespace, as illustrated in the example below.
 
 ````ASPNET
 			<asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
@@ -96,7 +96,7 @@ And for the inline commands - the __LegacyInlineCommands.js__ script file which 
 
 
 
->note Please, note that the JavaScript files has to be included __after__ the page's Script Manager in order to override the	default commands.
+>note Please, note that the JavaScript files has to be included **after** the page's Script Manager in order to override the	default commands.
 >
 
 

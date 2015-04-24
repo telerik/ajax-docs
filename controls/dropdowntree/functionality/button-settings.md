@@ -1,6 +1,6 @@
 ---
 title: Button Settings
-page_title: Button Settings | UI for ASP.NET AJAX Documentation
+page_title: Button Settings | RadDropDownTree for ASP.NET AJAX Documentation
 description: Button Settings
 slug: dropdowntree/functionality/button-settings
 tags: button,settings

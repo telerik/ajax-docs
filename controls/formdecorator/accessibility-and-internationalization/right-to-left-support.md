@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadFormDecorator for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: formdecorator/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadFormDecorator__ fully supports right-to-left (RTL) language locales. It is applied not only to the<body> element, but to any wrapping element as well.You only need to add the __dir=rtl attribute to the element or to the <body> tag__, or use the respective CSS property, i.e __direction: rtl;__.
+The **RadFormDecorator** fully supports right-to-left (RTL) language locales. It is applied not only to the<body> element, but to any wrapping element as well.You only need to add the **dir=rtl attribute to the element or to the <body> tag**, or use the respective CSS property, i.e **direction: rtl;**.
 
 ````ASPNET
 	    .formRow

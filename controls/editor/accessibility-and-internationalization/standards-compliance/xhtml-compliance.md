@@ -1,6 +1,6 @@
 ---
 title: XHTML Compliance
-page_title: XHTML Compliance | UI for ASP.NET AJAX Documentation
+page_title: XHTML Compliance | RadEditor for ASP.NET AJAX Documentation
 description: XHTML Compliance
 slug: editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance
 tags: xhtml,compliance
@@ -21,17 +21,17 @@ Compliance Level
 
 RadEditor for ASP.NET AJAX can provide a high degree of XHTML 1.1 compliance, which has the following two aspects:
 
-* __XHTML____rendering on the control__ - The markup comprising the interface of the editor (toolbar, dialogs, etc.) is XHTML 1.1 compliant.
+* **XHTML rendering on the control** - The markup comprising the interface of the editor (toolbar, dialogs, etc.) is XHTML 1.1 compliant.
 
-* __Out-of-the-box XHTML-enabled output__ - RadEditor has always provided a number of tools for enforcing XHTML compliant content. Out of the box, RadEditor for ASP.NET AJAX will output XHTML compliant content (the content being edited) across all major browsers. RadEditor for ASP.NET AJAX provides enhanced client-side XHTML filters.
+* **Out-of-the-box XHTML-enabled output** - RadEditor has always provided a number of tools for enforcing XHTML compliant content. Out of the box, RadEditor for ASP.NET AJAX will output XHTML compliant content (the content being edited) across all major browsers. RadEditor for ASP.NET AJAX provides enhanced client-side XHTML filters.
 
 Although it is not possible to guarantee 100% XHTML compliant content, RadEditor for ASP.NET AJAX provides the following tools, which significantly ease the task of producing valid content:
 
-1. __XHTML Validatorhttp://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx__dialog
+1. **XHTML Validatorhttp://demos.telerik.com/aspnet-ajax/editor/examples/built-in-dialogs/defaultcs.aspx**dialog
 
-1. Out-of-the-box__ConvertToXhtml__ and __ConvertFontToSpan__ enabled client-side filters (performs client-side XHTML conversion)
+1. Out-of-the-box**ConvertToXhtml** and **ConvertFontToSpan** enabled client-side filters (performs client-side XHTML conversion)
 
-1. The __XHTML__server-side filter which is enabled by default. You can use the __Content__property to obtain the content as XHTML on the server.
+1. The **XHTML**server-side filter which is enabled by default. You can use the **Content**property to obtain the content as XHTML on the server.
 
 1. Modified dialogs and [Node Inspector]({%slug editor/functionality/modules/overview%}) module to facilitate the removal of non-XHTML compliant attributes
 
@@ -53,7 +53,7 @@ We are always working on improving the produced by RadEditor Xhtml content and i
 | 
 >caption 
 
-![](images/editor-hs_note.gif) | While the Telerik RadEditor can compensate and automatically convert many of these non-valid tags, the responsibility for producing valid XHTML compliant content is partially on the side of the user. Therefore, we strongly suggest the use of the new integrated __XHTML Validator__ for the timely discovery and correction of non-compliant content. |
+![](images/editor-hs_note.gif) | While the Telerik RadEditor can compensate and automatically convert many of these non-valid tags, the responsibility for producing valid XHTML compliant content is partially on the side of the user. Therefore, we strongly suggest the use of the new integrated **XHTML Validator** for the timely discovery and correction of non-compliant content. |
 | ------ | ------ |
 
 
@@ -64,13 +64,13 @@ To assist end-users in the XHTML content validation process, Telerik RadEditor p
 
 You can enable the XHTML validation module by selecting it from the Modules list. If you do not see the module in the list this means that it has not been defined in the ToolsFile.xml file. For more information how to define modules in the ToolsFile see the following article " [Using ToolsFile.xml]({%slug editor/functionality/toolbars/using-toolsfile.xml%}) ".
 
-Once the XHTML validation module is enabled you can check the HTML content you are currently working on by clicking the __[Validate XHTML]__ button. Telerik RadEditor will make a callback request to the W3C site and will display the report in the module's window.
+Once the XHTML validation module is enabled you can check the HTML content you are currently working on by clicking the **[Validate XHTML]** button. Telerik RadEditor will make a callback request to the W3C site and will display the report in the module's window.
 
 
 
 ## What is XHTML
 
-XHTML stands for E__X__tensible __H__yper__T__ext __M__arkup __L__anguage and it is a stricter and cleaner version of HTML recommended by W3C (World Wide Web Consortium). XHTML is the effective inheritor of HTML 4.01 and although it is almost identical to its predecessor it is aimed to replace it.
+XHTML stands for E**X**tensible **H**yper**T**ext **M**arkup **L**anguage and it is a stricter and cleaner version of HTML recommended by W3C (World Wide Web Consortium). XHTML is the effective inheritor of HTML 4.01 and although it is almost identical to its predecessor it is aimed to replace it.
 
 # See Also
 

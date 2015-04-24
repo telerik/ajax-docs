@@ -1,6 +1,6 @@
 ---
 title: Shape Templates
-page_title: Shape Templates | UI for ASP.NET AJAX Documentation
+page_title: Shape Templates | RadDiagram for ASP.NET AJAX Documentation
 description: Shape Templates
 slug: diagram/functionality/shape-templates
 tags: shape,templates
@@ -14,18 +14,18 @@ position: 1
 
 ## 
 
-You can fully control where and how data is displayed in the __RadDiagram__ shapes by defining a visual template. This requires the creation of a function, which uses the [Kendo UI Diagram API](http://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual) for defining the visual element to render. You can set the name of this function in two properties of the diagram control:
+You can fully control where and how data is displayed in the **RadDiagram** shapes by defining a visual template. This requires the creation of a function, which uses the [Kendo UI Diagram API](http://docs.telerik.com/kendo-ui/api/dataviz/diagram#configuration-shapeDefaults.visual) for defining the visual element to render. You can set the name of this function in two properties of the diagram control:
 
-* The __ShapeDefaultsSettings-Visual__ inner property of __RadDiagram__ controls the template of all shapes, so if you set the function name here, the template will be applied to all of them.
+* The **ShapeDefaultsSettings-Visual** inner property of **RadDiagram** controls the template of all shapes, so if you set the function name here, the template will be applied to all of them.
 
-* If you use the __Visual__ property of a __DiagramShape__ object in the diagram, the template will be applied to that particular shape.
+* If you use the **Visual** property of a **DiagramShape** object in the diagram, the template will be applied to that particular shape.
 
-__Example 1__ creates the diagram with circles in __Figure 1__ rather than the default rectangular shapes.
+**Example 1** creates the diagram with circles in **Figure 1** rather than the default rectangular shapes.
 >caption Figure 1: Shapes with configured template.
 
 ![diagram-visual-template](images/diagram-visual-template.png)
 
-__Example 1__: Client-side function that creates a template with green circles and white text for the shapes in the diagram.
+**Example 1**: Client-side function that creates a template with green circles and white text for the shapes in the diagram.
 
 ````ASPNET
 	        <script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Shapes
-page_title: Shapes | UI for ASP.NET AJAX Documentation
+page_title: Shapes | RadDiagram for ASP.NET AJAX Documentation
 description: Shapes
 slug: diagram/data-binding/server-side/shapes
 tags: shapes
@@ -14,19 +14,19 @@ position: 0
 
 ## 
 
-In this article you can check how to data bind the shapes in this __ASP.NET AJAX Diagram__ control. __RadDiagram__ can use the standard	data sources for binding an ASP.NET control:
+In this article you can check how to data bind the shapes in this **ASP.NET AJAX Diagram** control. **RadDiagram** can use the standard	data sources for binding an ASP.NET control:
 
 * Declarative ASP.NET data sources (SqlDatasource, ObjectDataSource, LinqDataSource, etc.)
 
-* Server-side collections that implement the __IEnumerable__ interface.
+* Server-side collections that implement the **IEnumerable** interface.
 
-Similar to setting a data source for an ASP.NET control, you should either use the __DataSourceID__ property when data binding declaratively or __DataSource__ when the data source of the control is set on the server-side (such it the case in__Example 1__).
+Similar to setting a data source for an ASP.NET control, you should either use the **DataSourceID** property when data binding declaratively or **DataSource** when the data source of the control is set on the server-side (such it the case in**Example 1**).
 
 The data source should have columns for each of the diagram fields that you want to specify. For example, if you want to pull the width of the shape from the data source, this will require a separate column that contains the widths of each shape.
 
-The columns of the data source are attached to their corresponding data fields in the shapes via the properties with the structure __Data[__ in __RadDiagram > BindingSettings > ShapeSettings__. You can find the full set of properties in the [Server-Side API of RadDiagram](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_raddiagram.html).
+The columns of the data source are attached to their corresponding data fields in the shapes via the properties with the structure **Data[** in **RadDiagram > BindingSettings > ShapeSettings**. You can find the full set of properties in the [Server-Side API of RadDiagram](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_raddiagram.html).
 
-__Example 1__: Data binding shapes in a diagram to a collection of custom objects.
+**Example 1**: Data binding shapes in a diagram to a collection of custom objects.
 
 ````ASPNET
 	            <telerik:RadDiagram ID="RadDiagram1" runat="server">

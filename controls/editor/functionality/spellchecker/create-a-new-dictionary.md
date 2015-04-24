@@ -1,6 +1,6 @@
 ---
 title: Create a New Dictionary
-page_title: Create a New Dictionary | UI for ASP.NET AJAX Documentation
+page_title: Create a New Dictionary | RadEditor for ASP.NET AJAX Documentation
 description: Create a New Dictionary
 slug: editor/functionality/spellchecker/create-a-new-dictionary
 tags: create,a,new,dictionary
@@ -16,11 +16,11 @@ position: 1
 
 Here are the instructions demonstrating how to create a custom TDF dictionary using the [Dictionary Configuration](http://www.telerik.com/support/code-library/using-openoffice-spell-provider-in-radspell) project.
 
-1. See whether the needed dictionary exists on the following site: [Dictionaries](http://extensions.openoffice.org/en/search?f[0]=field_project_tags%3A157) or create a __text__ file following the "word-per-line" rule. You should exclude any special symbols after each word for example: __test/SDG__ or __test::__. The correct syntax is __test__
+1. See whether the needed dictionary exists on the following site: [Dictionaries](http://extensions.openoffice.org/en/search?f[0]=field_project_tags%3A157) or create a **text** file following the "word-per-line" rule. You should exclude any special symbols after each word for example: **test/SDG** or **test::**. The correct syntax is **test**
 
-1. Save the __text__file with __Unicode (UTF-8 with signature)__ encoding____
+1. Save the **text**file with **Unicode (UTF-8 with signature)** encoding
 
-1. Rename the __.dic / .txt__extension to__.tdf__
+1. Rename the **.dic / .txt**extension to**.tdf**
 
 1. Convert the file by using the [Dictionary Configurator](http://www.telerik.com/support/code-library/dictionary-configuration) tool.
 

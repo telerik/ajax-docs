@@ -1,6 +1,6 @@
 ---
 title: Add Your Own Buttons
-page_title: Add Your Own Buttons | UI for ASP.NET AJAX Documentation
+page_title: Add Your Own Buttons | RadEditor for ASP.NET AJAX Documentation
 description: Add Your Own Buttons
 slug: editor/functionality/toolbars/buttons/add-your-own-buttons
 tags: add,your,own,buttons
@@ -95,7 +95,7 @@ You can add any number of custom buttons using the sample code below. All you ne
 
 ## Setting the tools by using Theme:
 
-____In your .skin file:
+In your .skin file:
 
 ````ASPNET
 	    <%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>

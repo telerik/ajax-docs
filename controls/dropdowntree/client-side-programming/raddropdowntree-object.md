@@ -1,6 +1,6 @@
 ---
 title: RadDropDownTree Object
-page_title: RadDropDownTree Object | UI for ASP.NET AJAX Documentation
+page_title: RadDropDownTree Object | RadDropDownTree for ASP.NET AJAX Documentation
 description: RadDropDownTree Object
 slug: dropdowntree/client-side-programming/raddropdowntree-object
 tags: raddropdowntree,object

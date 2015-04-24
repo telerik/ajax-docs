@@ -1,6 +1,6 @@
 ---
 title: Layout
-page_title: Layout | UI for ASP.NET AJAX Documentation
+page_title: Layout | RadGantt for ASP.NET AJAX Documentation
 description: Layout
 slug: gantt/structure/layout
 tags: layout

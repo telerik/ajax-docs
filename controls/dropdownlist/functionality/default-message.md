@@ -1,6 +1,6 @@
 ---
 title: Default Message
-page_title: Default Message | UI for ASP.NET AJAX Documentation
+page_title: Default Message | RadDropDownList for ASP.NET AJAX Documentation
 description: Default Message
 slug: dropdownlist/functionality/default-message
 tags: default,message

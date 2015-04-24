@@ -1,6 +1,6 @@
 ---
 title: Tree
-page_title: Tree | UI for ASP.NET AJAX Documentation
+page_title: Tree | RadDiagram for ASP.NET AJAX Documentation
 description: Tree
 slug: diagram/structure/layout/tree
 tags: tree
@@ -12,11 +12,11 @@ position: 1
 
 
 
-__RadDiagram__ supports several tree layout based algorithms which are explained in this article.
+**RadDiagram** supports several tree layout based algorithms which are explained in this article.
 
 ## "Tree" Layout Type
 
-When the [LayoutSettings]({%slug diagram/structure/layout/overview%})’ __Type__ property is set to *"Tree"* thediagram is organized in a hierarchical way and is typically used in organizational representations.
+When the [LayoutSettings]({%slug diagram/structure/layout/overview%})’ **Type** property is set to *"Tree"* thediagram is organized in a hierarchical way and is typically used in organizational representations.
 
 ## Tree Layout Specific Subtypes
 
@@ -26,38 +26,38 @@ The subtype further defines the layout type by specifying in greater detail the 
 
 When organizing a diagram in a classic tree layout, you can specify its orientation by configuring one of the following subtypes:
 
-* __Down__—the root is arranged at the top and its children downwards.
+* **Down**—the root is arranged at the top and its children downwards.
 
-* __Up__—the root is arranged at the bottom and its children upwards.
+* **Up**—the root is arranged at the bottom and its children upwards.
 
-* __Left__—layout the root is arranged at the left and its children sideways to the right.
+* **Left**—layout the root is arranged at the left and its children sideways to the right.
 
-* __Right__—layout the root is arranged at the right and its children sideways to the left.
+* **Right**—layout the root is arranged at the right and its children sideways to the left.
 >caption Figure 1: Tree-down Layout
 
 ![tree Down Parameters](images/treeDownParameters.png)
 
 ### Mindmap Tree
 
-The Mindmap layout of __RadDiagram__ is available in two possible directions, you can specify the desired one by choosing between these subtypes:
+The Mindmap layout of **RadDiagram** is available in two possible directions, you can specify the desired one by choosing between these subtypes:
 
-* __MindmapHorizontal__—The root sits at the center and its children are spread equally to the left and right.
+* **MindmapHorizontal**—The root sits at the center and its children are spread equally to the left and right.
 
-* __MindmapVertical__—The root sits at the center and its children are spread equally above and below.
+* **MindmapVertical**—The root sits at the center and its children are spread equally above and below.
 >caption Figure 2: Mindmap-horizontal Layout
 
 ![mindmap Parameters](images/mindmapParameters.png)
 
 ### Radial Tree
 
-When the subtype of a tree is set to __Radial__ the root sits at the center and its children are spread radially around.
+When the subtype of a tree is set to **Radial** the root sits at the center and its children are spread radially around.
 >caption Figure 3: Radial-tree Layout
 
 ![radial Tree](images/radialTree.png)
 
 ### TipOver Tree
 
-The __TipOver__ algorithm is a special version of the tree-down layout where the grand-children (and iteratively) are arranged vertically	while the direct children are arranged horizontally. This arrangement has the advantage that it doesn't spread as much as the classic tree-down layout. 
+The **TipOver** algorithm is a special version of the tree-down layout where the grand-children (and iteratively) are arranged vertically	while the direct children are arranged horizontally. This arrangement has the advantage that it doesn't spread as much as the classic tree-down layout. 
 >caption Figure 4: TipOver-Tree Layout
 
 ![tip Over Parameters](images/tipOverParameters.png)

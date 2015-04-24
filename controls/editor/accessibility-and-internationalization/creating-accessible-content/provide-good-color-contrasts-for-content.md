@@ -1,6 +1,6 @@
 ---
 title: Provide Good Color Contrasts for Content
-page_title: Provide Good Color Contrasts for Content | UI for ASP.NET AJAX Documentation
+page_title: Provide Good Color Contrasts for Content | RadEditor for ASP.NET AJAX Documentation
 description: Provide Good Color Contrasts for Content
 slug: editor/accessibility-and-internationalization/creating-accessible-content/provide-good-color-contrasts-for-content
 tags: provide,good,color,contrasts,for,content
@@ -18,7 +18,7 @@ Accessibility is an important part of web design. By choosing the right colors, 
 
 You can find below examples of contents with various contrast ratios.
 
-__Content with contrast ratio, which passes at 3:1__
+**Content with contrast ratio, which passes at 3:1**
 
 
 
@@ -34,7 +34,7 @@ __Content with contrast ratio, which passes at 3:1__
 |#C0C|Sample|4.24|
 |#C0F|Sample|4.78|
 
-__Content with contrast ratio, which passes at 4.5:1__
+**Content with contrast ratio, which passes at 4.5:1**
 
 
 >caption  
@@ -48,7 +48,7 @@ __Content with contrast ratio, which passes at 4.5:1__
 |#C6C|Sample|6.05|
 |#C6F|Sample|6.60|
 
-__Content with perfect color contrast ratio, which passes at 7:1__
+**Content with perfect color contrast ratio, which passes at 7:1**
 
 
 >caption  
@@ -62,7 +62,7 @@ __Content with perfect color contrast ratio, which passes at 7:1__
 |#6FC|Sample|15.98|
 |#6FF|Sample|16.52|
 
-__Content demonstrating bad color contrast rating__
+**Content demonstrating bad color contrast rating**
 
 
 >caption  

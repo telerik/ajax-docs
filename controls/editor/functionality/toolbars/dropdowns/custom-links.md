@@ -1,6 +1,6 @@
 ---
 title: Custom Links
-page_title: Custom Links | UI for ASP.NET AJAX Documentation
+page_title: Custom Links | RadEditor for ASP.NET AJAX Documentation
 description: Custom Links
 slug: editor/functionality/toolbars/dropdowns/custom-links
 tags: custom,links
@@ -18,7 +18,7 @@ The RadEditor Custom Links dropdown is a convenient tool for inserting pre-defin
 
 * Frequently used external links (e.g. Google).
 
-Custom links are kept in the __Links__ collection. You can add a new custom link to the __Links__ collection declaratively, programmatically and using the ToolsFile.
+Custom links are kept in the **Links** collection. You can add a new custom link to the **Links** collection declaratively, programmatically and using the ToolsFile.
 >caption 
 
 ![](images/editor-dropdowns011.png)
@@ -129,7 +129,7 @@ You can also populate the Custom Links treeview using the ToolsFile.xml file, as
 
 
 
->note Please bear in mind that RadEditor will persist its state (including the Custom Links set) between postbacks. In order to create a new set of Custom Links (e.g. for different users), you will need to clear it first. This can be done using __Remove()__ or __Clear()__ methods of the Links collection.
+>note Please bear in mind that RadEditor will persist its state (including the Custom Links set) between postbacks. In order to create a new set of Custom Links (e.g. for different users), you will need to clear it first. This can be done using **Remove()** or **Clear()** methods of the Links collection.
 >
 
 

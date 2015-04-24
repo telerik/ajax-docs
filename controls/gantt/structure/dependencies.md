@@ -1,6 +1,6 @@
 ---
 title: Dependencies
-page_title: Dependencies | UI for ASP.NET AJAX Documentation
+page_title: Dependencies | RadGantt for ASP.NET AJAX Documentation
 description: Dependencies
 slug: gantt/structure/dependencies
 tags: dependencies

@@ -1,6 +1,6 @@
 ---
 title: Getting a Reference to the RadEditor Document Object
-page_title: Getting a Reference to the RadEditor Document Object | UI for ASP.NET AJAX Documentation
+page_title: Getting a Reference to the RadEditor Document Object | RadEditor for ASP.NET AJAX Documentation
 description: Getting a Reference to the RadEditor Document Object
 slug: editor/client-side-programming/getting-a-reference-to-the-radeditor-document-object
 tags: getting,a,reference,to,the,radeditor,document,object
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The client-side __get_document()__ method provides a reference to the editor's content area document object. By getting a reference to the editor's document object, you can manipulate the selection in the content area, execute browser commands and call low level browser API methods.
+The client-side **get_document()** method provides a reference to the editor's content area document object. By getting a reference to the editor's document object, you can manipulate the selection in the content area, execute browser commands and call low level browser API methods.
 
 The following example demonstrates how to get a reference to the editor's document and apply bold formatting over the selected content:
 

@@ -1,6 +1,6 @@
 ---
 title: Using CSS Styles
-page_title: Using CSS Styles | UI for ASP.NET AJAX Documentation
+page_title: Using CSS Styles | RadEditor for ASP.NET AJAX Documentation
 description: Using CSS Styles
 slug: editor/functionality/toolbars/dropdowns/using-css-styles
 tags: using,css,styles
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-By default the CSS class dropdown will display all global CSS styles and CSS styles that are directly related to the object - e.g. __a.class__ for the Hyperlink Manager. The same holds true for the Table Properties dialog and any other RadEditor dialogs where CSS classes can be applied. The example style markup shown below includes six styles:
+By default the CSS class dropdown will display all global CSS styles and CSS styles that are directly related to the object - e.g. **a.class** for the Hyperlink Manager. The same holds true for the Table Properties dialog and any other RadEditor dialogs where CSS classes can be applied. The example style markup shown below includes six styles:
 
 ````XML
 	

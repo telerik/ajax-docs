@@ -1,6 +1,6 @@
 ---
 title: Layout Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadDiagram for ASP.NET AJAX Documentation
 description: Overview
 slug: diagram/structure/layout/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article explains the layout algorithms __RadDiagram__ provides and how to configure them.	__RadDiagram__ offers three of the most common layout algorithms that should cover most of your layout needs: __tree layout__,	__force-directed layout__ and __layered layout__.
+This article explains the layout algorithms **RadDiagram** provides and how to configure them.	**RadDiagram** offers three of the most common layout algorithms that should cover most of your layout needs: **tree layout**,	**force-directed layout** and **layered layout**.
 
 ## Basics
 
@@ -40,9 +40,9 @@ The criteria on which an algorithm is based vary but the common denominator is:
 
 ## LayoutSettings Configuration
 
-The __LayoutSettings__ property is the gateway to a variety of layout algorithms. You can choose which layout will be applied on the currentdiagram by configuring its __Type__ and __Subtype__ properties. The LayoutSettings properties can contain parametersspecific to the layout as well as parameters customizing the global grid layout. Parameters which apply to other layout algorithms can be included but willbe ignored if they are not applicable to the chosen layout type.
+The **LayoutSettings** property is the gateway to a variety of layout algorithms. You can choose which layout will be applied on the currentdiagram by configuring its **Type** and **Subtype** properties. The LayoutSettings properties can contain parametersspecific to the layout as well as parameters customizing the global grid layout. Parameters which apply to other layout algorithms can be included but willbe ignored if they are not applicable to the chosen layout type.
 
->note To use the layout in the __RadDiagram__ control you should enable it in the __LayoutSettings__ composite property.	Then use the __Type__ and __Subtype__ properties to define the desired layout.
+>note To use the layout in the **RadDiagram** control you should enable it in the **LayoutSettings** composite property.	Then use the **Type** and **Subtype** properties to define the desired layout.
 >
 
 
@@ -60,25 +60,25 @@ The type of the layout algorithm to use. The available values are:
 
 The subtype further defines the layout type by specifying in greater detail the behavior expected by the layout algorithm. Possible values are:
 
-* __Down__—*tree layout* and *layered layout* specific subtype.
+* **Down**—*tree layout* and *layered layout* specific subtype.
 
-* __Up__—*tree layout* and *layered layout* specific subtype.
+* **Up**—*tree layout* and *layered layout* specific subtype.
 
-* __Left__—*tree layout* and *layered layout* specific subtype.
+* **Left**—*tree layout* and *layered layout* specific subtype.
 
-* __Right__—*tree layout* and *layered layout* specific subtype.
+* **Right**—*tree layout* and *layered layout* specific subtype.
 
-* __MindmapHorizontal__—*tree layout* specific subtype.
+* **MindmapHorizontal**—*tree layout* specific subtype.
 
-* __MindmapVertical__—*tree layout* specific subtype.
+* **MindmapVertical**—*tree layout* specific subtype.
 
-* __Radial__—*tree layout* specific subtype.
+* **Radial**—*tree layout* specific subtype.
 
-* __TipOver__—*tree layout* specific subtype.
+* **TipOver**—*tree layout* specific subtype.
 
-* __Horizontal__—*layered layout* specific subtype.
+* **Horizontal**—*layered layout* specific subtype.
 
-* __Vertical__—*layered layout* specific subtype.
+* **Vertical**—*layered layout* specific subtype.
 
 ### HorizontalSeparation
 
@@ -86,7 +86,7 @@ The distance between the siblings if the tree is up/down or between levels if th
 
 ### VerticalSeparation
 
-The distance between levels if the tree is up/down or between siblings if the tree is left/right. This property is not used in *TipOver tree layout* but rather replacedwith three additional ones - __UnderneathVerticalTopOffset__, __UnderneathVerticalSeparation__ and__UnderneathHorizontalOffset__.
+The distance between levels if the tree is up/down or between siblings if the tree is left/right. This property is not used in *TipOver tree layout* but rather replacedwith three additional ones - **UnderneathVerticalTopOffset**, **UnderneathVerticalSeparation** and**UnderneathHorizontalOffset**.
 >caption Figure 1. Difference between vertical and horizontal separation in Tree-down and Tree-right layout
 
 ![tree Parameters](images/treeParameters.png)
@@ -97,15 +97,15 @@ Controls the distance between the root and the immediate children of the root. *
 
 ### RadialSeparation
 
-Defines the radial separation between the levels (except the first one which is defined by the aforementioned __radialFirstLevelSeparation__).*This setting is specific to the Radial tree layout*.
+Defines the radial separation between the levels (except the first one which is defined by the aforementioned **radialFirstLevelSeparation**).*This setting is specific to the Radial tree layout*.
 
 ### StartRadialAngle
 
-Defines where the circle/arc starts. The positive direction is __clockwise__ and the angle is in __degrees__. *	This setting is	specific to the Radial tree layout*.
+Defines where the circle/arc starts. The positive direction is **clockwise** and the angle is in **degrees**. *	This setting is	specific to the Radial tree layout*.
 
 ### EndRadialAngle
 
-Defines where the circle/arc ends. The positive direction is __clockwise__ and the angle is in __degrees__. *	This setting is specific to the Radial tree layout*.
+Defines where the circle/arc ends. The positive direction is **clockwise** and the angle is in **degrees**. *	This setting is specific to the Radial tree layout*.
 
 ### EndRadialAngle
 
@@ -132,9 +132,9 @@ In situations where there is enough symmetry in the diagram the increased number
 
 ### NodeDistance
 
-In the __Force-directed layout__ this setting defines the optimal length between 2 nodes, which directly correlates to the state of thelink between them. If a link is longer than needed the force will pull the nodes together, if the link is short - the force will push the nodes apart. The optimallength is more and indication in the algorithm than a guarantee that all nodes will be at this distance. The result of the layout is really a combination of theincidence structure of the diagram, the initial topology (positions of the nodes) and the number of iterations.
+In the **Force-directed layout** this setting defines the optimal length between 2 nodes, which directly correlates to the state of thelink between them. If a link is longer than needed the force will pull the nodes together, if the link is short - the force will push the nodes apart. The optimallength is more and indication in the algorithm than a guarantee that all nodes will be at this distance. The result of the layout is really a combination of theincidence structure of the diagram, the initial topology (positions of the nodes) and the number of iterations.
 
-In the __Layered layout__ it defines the minimum distance between nodes on the same level. Due to the nature of the algorithm this distancewill only be respected if the whole crossing of links and optimization does not induce a shift of the siblings.
+In the **Layered layout** it defines the minimum distance between nodes on the same level. Due to the nature of the algorithm this distancewill only be respected if the whole crossing of links and optimization does not induce a shift of the siblings.
 
 *This setting is specific to the Force-directed layout and Layered layout*.
 
@@ -158,15 +158,15 @@ When you apply a certain layout, an analysis will first split the diagram in com
 
 The available properties are:
 
-__Width__—defines the width of the grid. The bigger this parameter is, the more components will be organized in a horizontal row.	The count of the components depends on the diagram configuration and the type of the layout applied to each of them. The default is set to 800.
+**Width**—defines the width of the grid. The bigger this parameter is, the more components will be organized in a horizontal row.	The count of the components depends on the diagram configuration and the type of the layout applied to each of them. The default is set to 800.
 
-__OffsetX__—defines the left offset of the grid layout. The default is 50.
+**OffsetX**—defines the left offset of the grid layout. The default is 50.
 
-__OffsetY__—defines the top offset of the grid layout. The default is 50.
+**OffsetY**—defines the top offset of the grid layout. The default is 50.
 
-__ComponentSpacingX__—defines the horizontal spacing between each component. The default is 50.
+**ComponentSpacingX**—defines the horizontal spacing between each component. The default is 50.
 
-__ComponentSpacingY__—defines the vertical spacing between each component. The default is 50.
+**ComponentSpacingY**—defines the vertical spacing between each component. The default is 50.
 
 # See Also
 

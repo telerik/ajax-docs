@@ -1,6 +1,6 @@
 ---
 title: getSelectionHtml
-page_title: getSelectionHtml | UI for ASP.NET AJAX Documentation
+page_title: getSelectionHtml | RadEditor for ASP.NET AJAX Documentation
 description: getSelectionHtml
 slug: editor/client-side-programming/methods/selection/getselectionhtml
 tags: getselectionhtml
@@ -19,7 +19,7 @@ Returns the HTML of the selection.
 
 >caption  
 
-|  __function__  __getSelectionHtml()__  |
+|  **function**  **getSelectionHtml()**  |
 | ------ |
 
 The example below demonstrates how to get the selected HTML and wrap it inside a DIV element with applied formatting:

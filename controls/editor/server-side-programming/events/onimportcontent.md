@@ -1,6 +1,6 @@
 ---
 title: OnImportContent
-page_title: OnImportContent | UI for ASP.NET AJAX Documentation
+page_title: OnImportContent | RadEditor for ASP.NET AJAX Documentation
 description: OnImportContent
 slug: editor/server-side-programming/events/onimportcontent
 tags: onimportcontent
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The __OnImportConent__ event fires just before the content is imported in the __Telerik Editor__ control.It provides access to the content that is going to be imported so you can modify it (__Example 2__).
+The **OnImportConent** event fires just before the content is imported in the **Telerik Editor** control.It provides access to the content that is going to be imported so you can modify it (**Example 2**).
 
 ## 
 
 The event handler receives two arguments:
 
-1. __Sender__–the __RadEditor__ instance that raised the event.
+1. **Sender**–the **RadEditor** instance that raised the event.
 
-1. __Event arguments__–an object of type[Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html)that exposes the	[HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055)and the[RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)	instances with which you can programmatically control the settings or the content imported.
+1. **Event arguments**–an object of type[Telerik.Web.UI.EditorImportingArgs](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_editorimportingargs.html)that exposes the	[HtmlFormatProvider](055c74e8-b87e-4c0f-b36c-b8210aab2055)and the[RadFlowDocument](dd4dbe18-3a7a-4b31-a1e4-2b2ff6fba91e)	instances with which you can programmatically control the settings or the content imported.
 
-__Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatProvider](d8c19145-c148-435a-9e1b-ef0633785267) instance
+**Example 1**: Using the event to modify the [ExportSettings of the HtmlFormatProvider](d8c19145-c148-435a-9e1b-ef0633785267) instance
 
 
 
@@ -77,7 +77,7 @@ __Example 1__: Using the event to modify the [ExportSettings of the HtmlFormatPr
 ````
 
 
-__Example 2__: Adding an additional paragraph to the __RadFlowDocument__ through the __OnImportContent__ event
+**Example 2**: Adding an additional paragraph to the **RadFlowDocument** through the **OnImportContent** event
 
 
 

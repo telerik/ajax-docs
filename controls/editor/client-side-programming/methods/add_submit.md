@@ -1,6 +1,6 @@
 ---
 title: add_submit
-page_title: add_submit | UI for ASP.NET AJAX Documentation
+page_title: add_submit | RadEditor for ASP.NET AJAX Documentation
 description: add_submit
 slug: editor/client-side-programming/methods/add_submit
 tags: add_submit
@@ -19,7 +19,7 @@ Performs submit operation - sends all content to the server.
 
 >caption  
 
-|  __function add_submit()__  |
+|  **function add_submit()**  |
 | ------ |
 
 Here is an example on how to submit the content and strip its MS Word formatting:

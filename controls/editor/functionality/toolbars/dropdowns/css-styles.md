@@ -1,6 +1,6 @@
 ---
 title: CSS Styles
-page_title: CSS Styles | UI for ASP.NET AJAX Documentation
+page_title: CSS Styles | RadEditor for ASP.NET AJAX Documentation
 description: CSS Styles
 slug: editor/functionality/toolbars/dropdowns/css-styles
 tags: css,styles
@@ -12,14 +12,14 @@ position: 6
 
 
 
-The CSS class dropdown of RadEditor displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) by default. The dropdown is populated from the __CssClasses__Collection. You can add to the CssClasses collection declaratively, programmatically and using the ToolsFile.
+The CSS class dropdown of RadEditor displays all classes defined in the page or from [external CSS files]({%slug editor/functionality/toolbars/dropdowns/external-css-files%}) by default. The dropdown is populated from the **CssClasses**Collection. You can add to the CssClasses collection declaratively, programmatically and using the ToolsFile.
 >caption 
 
 ![](images/editor-dropdowns010.png)
 
 ## Using the CssClasses Collection Declaratively
 
-In the RadEditor declaration, add __EditorCssClass__ elements to __CssClasses__. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the CssClasses tag is empty all available classes will be listed.
+In the RadEditor declaration, add **EditorCssClass** elements to **CssClasses**. In the example below all three CSS classes are listed along with a "Clear Class" entry. If the CssClasses tag is empty all available classes will be listed.
 
 ````ASPNET
 	     
@@ -75,16 +75,16 @@ Use the Add() method to include classes in the CssClasses collection. In the exa
 ````
 
 
->caution Make sure you specify the exact name of the class (i.e. " __a.link__ " - not "a" or "link"; " __.img__ " - not "img").
+>caution Make sure you specify the exact name of the class (i.e. " **a.link** " - not "a" or "link"; " **.img** " - not "img").
 >
 
 
-Using the __Add()__ method resets the CssClasses dropdown, so the CssClasses you add will not be appended to the default set, but will rather create a new CssClasses set. If the CssClasses collection is left empty, all available classes will be listed.
+Using the **Add()** method resets the CssClasses dropdown, so the CssClasses you add will not be appended to the default set, but will rather create a new CssClasses set. If the CssClasses collection is left empty, all available classes will be listed.
 
 
 >caption  
 
-|  __Default state__  |  __Programmatic population__  |
+|  **Default state**  |  **Programmatic population**  |
 | ------ | ------ |
 |
 >caption 
@@ -93,11 +93,11 @@ Using the __Add()__ method resets the CssClasses dropdown, so the CssClasses you
 >caption 
 
 ![](images/editor-dropdowns027.png)|
-|(The CSS class dropdown containsall existing classes)|(The CSS class dropdown containsonly the classes added usingthe __Add()__ method)|
+|(The CSS class dropdown containsall existing classes)|(The CSS class dropdown containsonly the classes added usingthe **Add()** method)|
 
 ## Using the ToolsFile
 
-____You can also populate the CSS class dropdown using the __ToolsFile__, as shown in the example below:
+You can also populate the CSS class dropdown using the **ToolsFile**, as shown in the example below:
 
 ````XML
 	     
@@ -117,7 +117,7 @@ ____You can also populate the CSS class dropdown using the __ToolsFile__, as sho
 
 
 
->note Bear in mind that RadEditor will persist its state (including the CSS classes set) between postbacks. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using __Remove()__ and __Clear()__ methods of CssClasses Collection.
+>note Bear in mind that RadEditor will persist its state (including the CSS classes set) between postbacks. In order to create a new set of CSS classes (e.g. for different users), you will need to clear it first. This can be done using **Remove()** and **Clear()** methods of CssClasses Collection.
 >
 
 

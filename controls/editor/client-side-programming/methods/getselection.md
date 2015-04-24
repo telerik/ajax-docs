@@ -1,6 +1,6 @@
 ---
 title: getSelection
-page_title: getSelection | UI for ASP.NET AJAX Documentation
+page_title: getSelection | RadEditor for ASP.NET AJAX Documentation
 description: getSelection
 slug: editor/client-side-programming/methods/getselection
 tags: getselection
@@ -24,7 +24,7 @@ Returns a reference to the current RadEditorSelection object.
 
 
 
-The __RadEditorSelection__ object is used to provide information on the text/objects selected currently in the RadEditor Content Area.
+The **RadEditorSelection** object is used to provide information on the text/objects selected currently in the RadEditor Content Area.
 
 This example below demonstrates how to pop up an alert message with the currently selected text and HTML and selection tag name:
 

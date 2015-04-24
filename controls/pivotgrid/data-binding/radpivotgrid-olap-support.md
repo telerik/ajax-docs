@@ -1,6 +1,6 @@
 ---
 title: RadPivotGrid OLAP Support
-page_title: RadPivotGrid OLAP Support | UI for ASP.NET AJAX Documentation
+page_title: RadPivotGrid OLAP Support | RadPivotGrid for ASP.NET AJAX Documentation
 description: RadPivotGrid OLAP Support
 slug: pivotgrid/data-binding/radpivotgrid-olap-support
 tags: radpivotgrid,olap,support
@@ -22,9 +22,9 @@ RadPivotGrid allows for binding to OLAP data sources through XMLA.
 
 Here are the property settings you need to configure the XMLA data provider for RadPivotGrid
 
-* __OlapSettings.ProviderType__ – tells the pivot grid control what type of provider should be used for binding to the OLAP data source. In this case, it should be set to Xmla.
+* **OlapSettings.ProviderType** – tells the pivot grid control what type of provider should be used for binding to the OLAP data source. In this case, it should be set to Xmla.
 
-* __OlapSettings.XmlaConnectionSettings__ - this property is of type XmlaConnectionSettings. It is used to define all needed connection settings through the XmlaConnectionSettings properties:
+* **OlapSettings.XmlaConnectionSettings** - this property is of type XmlaConnectionSettings. It is used to define all needed connection settings through the XmlaConnectionSettings properties:
 
 * *Cube* - string property defining the exact name of the Cube.
 
@@ -34,18 +34,18 @@ Here are the property settings you need to configure the XMLA data provider for 
 
 * *Credentials* - this property is of type XmlaNetworkCredential and it is used to define the authentication details for the server(if it has any kind of authentication).
 
-* __OlapSettings.SetConditionListCapacity__ – sets the capacity of the set conditionfilter (checkbox filter into filter window) when the pivot is bind to OLAP.
+* **OlapSettings.SetConditionListCapacity** – sets the capacity of the set condition filter (checkbox filter into filter window) when the pivot is bind to OLAP.
 
 The following configuration will give RadPivotGrid XMLA access to the Adventure Works cube at the OLAP server address given below:
 
 ````ASPNET
-	        <OlapSettings ProviderType="Xmla"> 
-	           <XmlaConnectionSettings  
-	              Cube="Adventure Works"  
-	              Database=" AdventureWorksDW2012Multidimensional-EE"  
-	              ServerAddress="http://demos.telerik.com/olap/msmdpump.dll"> 
-	           </ XmlaConnectionSettings> 
-	        </OlapSettings> 
+<OlapSettings ProviderType="Xmla"> 
+   <XmlaConnectionSettings  
+      Cube="Adventure Works"  
+      Database=" AdventureWorksDW2012Multidimensional-EE"  
+      ServerAddress="http://demos.telerik.com/olap/msmdpump.dll"> 
+   </ XmlaConnectionSettings> 
+</OlapSettings> 
 ````
 
 
@@ -58,9 +58,9 @@ RadPivotGrid supports displaying data from OLAP data sources through the ADOMD.N
 
 You can find below the property necessary to configure the XMLA data provider for RadPivotGrid:
 
-* __OlapSettings.ProviderType__ = “Adomd”.
+* **OlapSettings.ProviderType** = “Adomd”.
 
-* __OlapSettings.AdomdConnectionSettings__ - this property is of type AdomdConnectionSettings and it exposes several properties that are mandatory when connecting to the OLAP Cube:
+* **OlapSettings.AdomdConnectionSettings** - this property is of type AdomdConnectionSettings and it exposes several properties that are mandatory when connecting to the OLAP Cube:
 
 * *Cube* - string property defining the exact name of the Cube.
 
@@ -70,7 +70,7 @@ You can find below the property necessary to configure the XMLA data provider fo
 
 * *Credentials* - this property is of type XmlaNetworkCredential and it is used to define the authentication.
 
-* __OlapSettings.SetConditionListCapacity__ – sets the capacity of the set conditionfilter (checkbox filter into filter window) when the pivot is bind to OLAP.
+* **OlapSettings.SetConditionListCapacity** – sets the capacity of the set condition filter (checkbox filter into filter window) when the pivot is bind to OLAP.
 
 The OLE DB connection string format has several keys and values connected with equal sign. The different key-value pairs are separated by semicolon characters. Some of the important properties are Provider, Data Source, Integrated Security, etc. Here are some examples for different OLE DB connection strings:
 
@@ -89,13 +89,13 @@ The OLE DB connection string format has several keys and values connected with e
 The following setting will provide the information necessary for the ADOMD.NET provider to connect to the Adventure Works cube at the OLAP server address specified:
 
 ````ASPNET
-		   <OlapSettings ProviderType="Adomd"> 
-	          <AdomdConnectionSettings  
-	             Cube="Adventure Works"  
-	             Database="Adventure Works DW 2008R2"  
-	             ConnectionString="Data Source= http://demos.telerik.com/olap/msmdpump.dll; Catalog=AdventureWorksDW2012Multidimensional-EE"> 
-	          </ AdomdConnectionSettings> 
-	       </OlapSettings> 
+<OlapSettings ProviderType="Adomd"> 
+   <AdomdConnectionSettings  
+      Cube="Adventure Works"  
+      Database="Adventure Works DW 2008R2"  
+      ConnectionString="Data Source= http://demos.telerik.com/olap/msmdpump.dll; Catalog=AdventureWorksDW2012Multidimensional-EE"> 
+   </ AdomdConnectionSettings> 
+</OlapSettings> 
 ````
 
 
@@ -104,77 +104,77 @@ The following setting will provide the information necessary for the ADOMD.NET p
 >
 
 
-Since __Q1 2014 SP1__ version, __RadPivotGrid__ provides a new __PrepareDescriptionForField__ and __GetDescriptionsDataCompleted__ events when bound to an OLAP source.
+Since **Q1 2014 SP1** version, **RadPivotGrid** provides a new **PrepareDescriptionForField** and **GetDescriptionsDataCompleted** events when bound to an OLAP source.
 
-You can use __PrepareDescriptionForField__ handler to enhance the sorting capabilities of the control as demonstrated in the sample provided in the [Basic Sorting]({%slug pivotgrid/functionality/sorting%}) article.
+You can use **PrepareDescriptionForField** handler to enhance the sorting capabilities of the control as demonstrated in the sample provided in the [Basic Sorting]({%slug pivotgrid/functionality/sorting%}) article.
 
-Into __GetDescriptionsDataCompleted__ event all nodes from the olap cube are available and you can remove some of them based on your logic. For example if you want to show only nodes (and theirs child nodes) which are [Account] and [Department] you can use the following code snippet:
+Into **GetDescriptionsDataCompleted** event all nodes from the OLAP cube are available and you can remove some of them based on your logic. For example if you want to show only nodes (and theirs child nodes) which are [Account] and [Department] you can use the following code snippet:
 
 
 
 ````C#
-	    protected void RadPivotGrid1_GetDescriptionsDataCompleted(object sender, GetDescriptionsDataCompletedEventArgs e)
-	    {
-	        var root = e.DescriptionsData.RootFieldInfo;
-	
-	        if (root.HasChildren)
-	        {
-	            List<ContainerNode> nodes = new List<ContainerNode>();
-	
-	            foreach (var item in root.Children)
-	            {
-	                nodes.Add(item);
-	            }
-	
-	            foreach (var item in nodes)
-	            {
-	                if (item.Name != "[Account]" &&
-	                    item.Name != "[Department]")
-	                {
-	                    root.Children.Remove(item);
-	                }
-	            }
-	        }
-	    }
+protected void RadPivotGrid1_GetDescriptionsDataCompleted(object sender, GetDescriptionsDataCompletedEventArgs e)
+{
+    var root = e.DescriptionsData.RootFieldInfo;
+
+    if (root.HasChildren)
+    {
+        List<ContainerNode> nodes = new List<ContainerNode>();
+
+        foreach (var item in root.Children)
+        {
+            nodes.Add(item);
+        }
+
+        foreach (var item in nodes)
+        {
+            if (item.Name != "[Account]" &&
+                item.Name != "[Department]")
+            {
+                root.Children.Remove(item);
+            }
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadPivotGrid1_GetDescriptionsDataCompleted(sender As Object, e As GetDescriptionsDataCompletedEventArgs)
-	        Dim root = e.DescriptionsData.RootFieldInfo
-	
-	        If root.HasChildren Then
-	            Dim nodes As New List(Of ContainerNode)()
-	
-	            For Each item As var In root.Children
-	                nodes.Add(item)
-	            Next
-	
-	            For Each item As var In nodes
-	                If item.Name <> "[Account]" AndAlso item.Name <> "[Department]" Then
-	                    root.Children.Remove(item)
-	                End If
-	            Next
-	        End If
-	    End Sub
+Protected Sub RadPivotGrid1_GetDescriptionsDataCompleted(sender As Object, e As GetDescriptionsDataCompletedEventArgs)
+    Dim root = e.DescriptionsData.RootFieldInfo
+
+    If root.HasChildren Then
+        Dim nodes As New List(Of ContainerNode)()
+
+        For Each item As var In root.Children
+            nodes.Add(item)
+        Next
+
+        For Each item As var In nodes
+            If item.Name <> "[Account]" AndAlso item.Name <> "[Department]" Then
+                root.Children.Remove(item)
+            End If
+        Next
+    End If
+End Sub
 ````
 
 
 ## Support for OLAP connection strings stored in web.config
 
-This functionality allows you to set the connection string for your pivot controls globally, in your web.config file. The key name should be set to the __ConnectionString__ property in __OlapSettings__ and it should be put in the*appSettings* section under *configuration* in your web.config file. The following example demonstrates that.
+This functionality allows you to set the connection string for your pivot controls globally, in your web.config file. The key name should be set to the **ConnectionString** property in **OlapSettings** and it should be put in the*appSettings* section under *configuration* in your web.config file. The following example demonstrates that.
 
 ````ASPNET
-		   <OlapSettings ConnectionString="PivotGridOlapConnectionString">
-	       </OlapSettings>
+<OlapSettings ConnectionString="PivotGridOlapConnectionString">
+</OlapSettings>
 ````
 
 
 
 ````XML
-		   <configuration>
-	          <appSettings>
-	            <add key="PivotGridOlapConnectionString" value="Data Source=http://website/msmdpump.dll; Initial Catalog=name; Cube=name; OlapProvider=Adomd"/>
+<configuration>
+   <appSettings>
+     <add key="PivotGridOlapConnectionString" value="Data Source=http://website/msmdpump.dll; Initial Catalog=name; Cube=name; OlapProvider=Adomd"/>
 ````
 
 
 
-All you need to do to configure the OLAP connection is to add the aforementioned key to the web.config file andset the __ConnectionString__ property. The only configurable settings, other than the connection string itself is the__OlapProvider__ parameter. It has two possible values – __Xmla__, or __Adomd__. If the parameteris not set, the control will assume that the provider type is __Adomd__.
+All you need to do to configure the OLAP connection is to add the aforementioned key to the web.config file and set the **ConnectionString** property. The only configurable settings, other than the connection string itself is the **OlapProvider** parameter. It has two possible values – **Xmla**, or **Adomd**. If the parameter is not set, the control will assume that the provider type is **Adomd**.

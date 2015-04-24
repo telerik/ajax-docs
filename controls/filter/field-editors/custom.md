@@ -1,6 +1,6 @@
 ---
 title: Custom
-page_title: Custom | UI for ASP.NET AJAX Documentation
+page_title: Custom | RadFilter for ASP.NET AJAX Documentation
 description: Custom
 slug: filter/field-editors/custom
 tags: custom

@@ -1,6 +1,6 @@
 ---
-title: Spellchecker Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Spellchecker Overview | RadEditor for ASP.NET AJAX Documentation
 description: Overview
 slug: editor/functionality/spellchecker/overview
 tags: overview

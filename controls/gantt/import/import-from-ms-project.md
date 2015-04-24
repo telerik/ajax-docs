@@ -1,6 +1,6 @@
 ---
 title: Import from MS Project
-page_title: Import from MS Project | UI for ASP.NET AJAX Documentation
+page_title: Import from MS Project | RadGantt for ASP.NET AJAX Documentation
 description: Import from MS Project
 slug: gantt/import/import-from-ms-project
 tags: import,from,ms,project

@@ -1,6 +1,6 @@
 ---
 title: Tasks
-page_title: Tasks | UI for ASP.NET AJAX Documentation
+page_title: Tasks | RadGantt for ASP.NET AJAX Documentation
 description: Tasks
 slug: gantt/structure/tasks
 tags: tasks

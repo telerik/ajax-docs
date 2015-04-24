@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadDropDownTree for ASP.NET AJAX Documentation
 description: Client Templates
 slug: dropdowntree/templates/client-templates
 tags: client,templates
@@ -14,7 +14,7 @@ position: 1
 
 ## Overview
 
-As of **Q2 2013****RadDropDownTree** provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Entry's content on the client. The templates support the following type of expressions which are evaluated at run-time:
+As of **Q2 2013** **RadDropDownTree** provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Entry's content on the client. The templates support the following type of expressions which are evaluated at run-time:
 
 * **#=...#** - DATA- Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 

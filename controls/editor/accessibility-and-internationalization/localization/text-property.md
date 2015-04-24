@@ -1,6 +1,6 @@
 ---
 title: Text Property
-page_title: Text Property | UI for ASP.NET AJAX Documentation
+page_title: Text Property | RadEditor for ASP.NET AJAX Documentation
 description: Text Property
 slug: editor/accessibility-and-internationalization/localization/text-property
 tags: text,property
@@ -12,7 +12,7 @@ position: 2
 
 
 
-Another way to localize RadEditor labels, buttons and tooltips is by using the __Text__ property:
+Another way to localize RadEditor labels, buttons and tooltips is by using the **Text** property:
 
 
 
@@ -41,7 +41,7 @@ Another way to localize RadEditor labels, buttons and tooltips is by using the _
 ````
 
 
-You can also set the __Text__property inline in the RadEditor declaration:
+You can also set the **Text**property inline in the RadEditor declaration:
 
 ````ASPNET
 	<telerik:RadEditor runat="server" ID="RadEditor1">
@@ -59,7 +59,7 @@ You can also set the __Text__property inline in the RadEditor declaration:
 
 ## Order of Precedence
 
-The order of precedence for localization is generally that __Text__assigned at runtime (in the Page_Load for example) is considered first, then in-line declaration and lastly the resource file strings are the default.For example, if the __Language__ property is set to "fr-FR", the editor tool in-line __Text__declaration for the "Copy" tool is "My In-Line Copy Button" and the Page_Load event handler includes an assignment "My Runtime Copy Button", the run-time assignment will win out:
+The order of precedence for localization is generally that **Text**assigned at runtime (in the Page_Load for example) is considered first, then in-line declaration and lastly the resource file strings are the default.For example, if the **Language** property is set to "fr-FR", the editor tool in-line **Text**declaration for the "Copy" tool is "My In-Line Copy Button" and the Page_Load event handler includes an assignment "My Runtime Copy Button", the run-time assignment will win out:
 >caption 
 
 ![](images/editor-localization008.png)

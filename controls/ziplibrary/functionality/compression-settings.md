@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compression Settings
 page_title: Compression Settings | UI for ASP.NET AJAX Documentation
 description: Compression Settings

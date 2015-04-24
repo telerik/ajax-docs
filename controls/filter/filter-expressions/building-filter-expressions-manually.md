@@ -1,6 +1,6 @@
 ---
 title: Building Filter Expressions Manually
-page_title: Building Filter Expressions Manually | UI for ASP.NET AJAX Documentation
+page_title: Building Filter Expressions Manually | RadFilter for ASP.NET AJAX Documentation
 description: Building Filter Expressions Manually
 slug: filter/filter-expressions/building-filter-expressions-manually
 tags: building,filter,expressions,manually

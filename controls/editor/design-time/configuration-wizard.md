@@ -1,6 +1,6 @@
 ---
 title: Configuration Wizard
-page_title: Configuration Wizard | UI for ASP.NET AJAX Documentation
+page_title: Configuration Wizard | RadEditor for ASP.NET AJAX Documentation
 description: Configuration Wizard
 slug: editor/design-time/configuration-wizard
 tags: configuration,wizard
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The Smart Tag of __RadEditor__ lets you easily configure your control or quickly get help. You can display the Smart Tag by right clicking on a __RadEditor__ control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
+The Smart Tag of **RadEditor** lets you easily configure your control or quickly get help. You can display the Smart Tag by right clicking on a **RadEditor** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
 
 ## Tools
 

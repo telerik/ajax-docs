@@ -1,6 +1,6 @@
 ---
 title: OnDataPagerCreated
-page_title: OnDataPagerCreated | UI for ASP.NET AJAX Documentation
+page_title: OnDataPagerCreated | RadDataPager for ASP.NET AJAX Documentation
 description: OnDataPagerCreated
 slug: datapager/client-side-programming/events/ondatapagercreated
 tags: ondatapagercreated

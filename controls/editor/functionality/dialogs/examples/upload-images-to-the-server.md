@@ -1,6 +1,6 @@
 ---
 title: Upload Images to the Server
-page_title: Upload Images to the Server | UI for ASP.NET AJAX Documentation
+page_title: Upload Images to the Server | RadEditor for ASP.NET AJAX Documentation
 description: Upload Images to the Server
 slug: editor/functionality/dialogs/examples/upload-images-to-the-server
 tags: upload,images,to,the,server
@@ -66,7 +66,7 @@ There are two approaches to set the Image Manager's paths:
 >
 * a subdirectory of your web application or
 * a virtual directory of your web application that has a physical path pointing outside of your web application.
-* a shared drive that is a virtual folder of your web application.>You should also grant full __ASPNET__ (WinXP) / __NETWORK SERVICE__ (Win 2003 and Vista) account permissions to the Images Folders.
+* a shared drive that is a virtual folder of your web application.>You should also grant full **ASPNET** (WinXP) / **NETWORK SERVICE** (Win 2003 and Vista) account permissions to the Images Folders.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Layered
-page_title: Layered | UI for ASP.NET AJAX Documentation
+page_title: Layered | RadDiagram for ASP.NET AJAX Documentation
 description: Layered
 slug: diagram/structure/layout/layered
 tags: layered
@@ -12,11 +12,11 @@ position: 2
 
 
 
-__RadDiagram__ supports several layered layout based algorithms which are explained in this article.
+**RadDiagram** supports several layered layout based algorithms which are explained in this article.
 
 ## "Layered" Layout Type
 
-When the [LayoutSettings]({%slug diagram/structure/layout/overview%})’ __Type__ property is set to *“Layered”* the diagram	is organized with an emphasis on flow and minimizing the crossing between layers of shapes. This layout works well when few components are present and some sort of top-down flow is	present. The concept of flow in this context being a more or less clear direction of the connections with a minimum of cycles (connections flowing back upstream). Layered graph layout	is a type of graph layout in which the nodes of a (directed) graph are drawn in horizontal or vertical layers with the links directed in the complementary direction. It is also known	as Sugiyama or hierarchical graph layout. When the graph is a tree the layout reduces to a standard tree layout and thus can be considered as an extension to the classic tree layout.
+When the [LayoutSettings]({%slug diagram/structure/layout/overview%})’ **Type** property is set to *“Layered”* the diagram	is organized with an emphasis on flow and minimizing the crossing between layers of shapes. This layout works well when few components are present and some sort of top-down flow is	present. The concept of flow in this context being a more or less clear direction of the connections with a minimum of cycles (connections flowing back upstream). Layered graph layout	is a type of graph layout in which the nodes of a (directed) graph are drawn in horizontal or vertical layers with the links directed in the complementary direction. It is also known	as Sugiyama or hierarchical graph layout. When the graph is a tree the layout reduces to a standard tree layout and thus can be considered as an extension to the classic tree layout.
 
 There are several criteria on which this algorithm is based and which are respected in as far as the incidence structure allows it:
 
@@ -49,17 +49,17 @@ The construction of a layered graph drawing proceeds in a series of steps (assum
 
 The subtype further defines the layout type by specifying in greater detail the behavior expected by the layout algorithm. The Layered layout specific subtypes are:
 
-* __Horizontal__—the links are directed horizontally.
+* **Horizontal**—the links are directed horizontally.
 
-* __Vertical__—the links are directed vertically.
+* **Vertical**—the links are directed vertically.
 
-* __Down__—the links are directed downwards.
+* **Down**—the links are directed downwards.
 
-* __Up__—the links are directed upwards.
+* **Up**—the links are directed upwards.
 
-* __Left__—the links are directed to the left.
+* **Left**—the links are directed to the left.
 
-* __Right__—the links are directed downwards.
+* **Right**—the links are directed downwards.
 
 # See Also
 

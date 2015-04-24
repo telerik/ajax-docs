@@ -1,6 +1,6 @@
 ---
 title: Export to PDF
-page_title: Export to PDF | UI for ASP.NET AJAX Documentation
+page_title: Export to PDF | RadEditor for ASP.NET AJAX Documentation
 description: Export to PDF
 slug: editor/functionality/import-and-export/export-to-pdf
 tags: export,to,pdf
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This help article treats the PDF export functionality of __RadEditor__ and the corresponding settings, events and limitations.
+This help article treats the PDF export functionality of **RadEditor** and the corresponding settings, events and limitations.
 
 * [How-to Export the RadEditor Content to a PDF File](#how-to-export-the-radeditor-content-to-a-pdf-file)
 
@@ -28,13 +28,13 @@ This help article treats the PDF export functionality of __RadEditor__ and the c
 
 The approach is very straight-forward - to export the editor content to PDF format:
 
-1. Enable the __PdfExportFilter__ filter of RadEditor: __ContentFilters="DefaultFilters,PdfExportFilter"__ -	if it is disabled tables will not be exported.
+1. Enable the **PdfExportFilter** filter of RadEditor: **ContentFilters="DefaultFilters,PdfExportFilter"** -	if it is disabled tables will not be exported.
 
-1. Fire the __ExportToPdf()__ server-side method to export the content to a PDF file and send it to the user.
+1. Fire the **ExportToPdf()** server-side method to export the content to a PDF file and send it to the user.
 
 ## PDF Specific Settings
 
-There is an additional sub-category (__Pdf__) for the __ExportSettings__ dedicated to various configuration settings for the exported .pdf document. Below is a list of them:
+There is an additional sub-category (**Pdf**) for the **ExportSettings** dedicated to various configuration settings for the exported .pdf document. Below is a list of them:
 
 
 | Name | Description |
@@ -44,9 +44,9 @@ There is an additional sub-category (__Pdf__) for the __ExportSettings__ dedicat
 |PageTitle|Sets the page title (appears on the top of the page)|
 |PageWidth / PageHeight|These properties are related to the size of the generated page. You can define the size manually using *PageWidth* / *PageHeight* .|
 |PageBottomMargin / PageTopMargin / PageLeftMargin / PageRightMargin / PageFooterMargin / PageHeaderMargin|All the page margins could be controlled via these settings.|
-|PageHeader / PageFooter|You can define a header and/or footer through these elements for the left/middle/right cell ( __Example 1__ ).|
+|PageHeader / PageFooter|You can define a header and/or footer through these elements for the left/middle/right cell ( **Example 1** ).|
 
-__Example 1__: Configure PDF export settings - title, author, header and footer.
+**Example 1**: Configure PDF export settings - title, author, header and footer.
 
 
 
@@ -92,19 +92,19 @@ __Example 1__: Configure PDF export settings - title, author, header and footer.
 
 >note The default page orientation for the *PDF* file is *Portrait.* You can easily switch to *Landscape* by modifying the *PageWidth* / *PageHeight* properties manually.
 >
-*  * __A4 Portrait__ :* <Pdf PageWidth="210mm" PageHeight="297mm" />
-*  * __A4 Landscape__ :* <Pdf PageWidth="297mm" PageHeight="210mm" />>
+*  * **A4 Portrait** :* <Pdf PageWidth="210mm" PageHeight="297mm" />
+*  * **A4 Landscape** :* <Pdf PageWidth="297mm" PageHeight="210mm" />>
 
 
 ## OnExportContent Event
 
-It is possible to silently export the content as PDF on the server via the __OnExportContent__ event of RadEditor withoutany user interaction. After doing so, the server code will just need to redirect to the page from which the request was initially made.For the purposes of the export, you may need to configure the relative settings of the control through the	__RadEditor.ExportSettings__ section. The available properties are:
+It is possible to silently export the content as PDF on the server via the **OnExportContent** event of RadEditor withoutany user interaction. After doing so, the server code will just need to redirect to the page from which the request was initially made.For the purposes of the export, you may need to configure the relative settings of the control through the	**RadEditor.ExportSettings** section. The available properties are:
 
-* __FileName__ - a string specifying the name (without the extension) of the file that will be created. The file extension is automatically added based on the method that is used.
+* **FileName** - a string specifying the name (without the extension) of the file that will be created. The file extension is automatically added based on the method that is used.
 
-* __OpenInNewWindow__ - open the exported PDF in a new instead of the same page.
+* **OpenInNewWindow** - open the exported PDF in a new instead of the same page.
 
-Below you can find an example demonstrating how to export the editor'scontent as PDF on the server using the __OnExportContent__ event of __Telerik Editor__.
+Below you can find an example demonstrating how to export the editor'scontent as PDF on the server using the **OnExportContent** event of **Telerik Editor**.
 
 
 
@@ -177,7 +177,7 @@ Below you can find an example demonstrating how to export the editor'scontent as
 
 ## Using an External HTML to PDF Conversion Library
 
-It is possible to use an external HTML to PDF conversion library for the Export to PDF feature of RadEditor.In order to use a custom one, the __RadEditorExportTemplate__ abstract class, defined in the __Telerik.Web.UI.Editor.Export__	namespace of the Telerik.Web.UI assembly has to be implemented. Below is an example demonstrating the class constructor and its methods that wouldneed to be overridden.
+It is possible to use an external HTML to PDF conversion library for the Export to PDF feature of RadEditor.In order to use a custom one, the **RadEditorExportTemplate** abstract class, defined in the **Telerik.Web.UI.Editor.Export**	namespace of the Telerik.Web.UI assembly has to be implemented. Below is an example demonstrating the class constructor and its methods that wouldneed to be overridden.
 
 
 
@@ -344,7 +344,7 @@ It is possible to use an external HTML to PDF conversion library for the Export 
 ````
 
 
-Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the__Page_Load__ event handler, for example, in the following way.
+Next, an instance of the Custom Pdf Export Template needs to be passed to the Editor. This can be done in the**Page_Load** event handler, for example, in the following way.
 
 
 
@@ -363,7 +363,7 @@ Next, an instance of the Custom Pdf Export Template needs to be passed to the Ed
 ````
 
 
-Last, but not least, by calling the __ExportToPDF()__ the content will be exported using the newly defined	library instead of the default one.
+Last, but not least, by calling the **ExportToPDF()** the content will be exported using the newly defined	library instead of the default one.
 
 For more information on how to use an external library and a complete example with source code, refer to the[Using an external library for the export to PDF functionality in Telerik’s ASP.NET Editor](http://blogs.telerik.com/aspnet-ajax/posts/13-02-21/using-an-external-library-for-the-export-to-pdf-functionality-in-telerik-s-asp.net-editor	) blog post.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Model Binding and Strongly Typed Data Controls Support
 page_title: Model Binding and Strongly Typed Data Controls Support | RadDataForm for ASP.NET AJAX 
 description: Model Binding and Strongly Typed Data Controls Support

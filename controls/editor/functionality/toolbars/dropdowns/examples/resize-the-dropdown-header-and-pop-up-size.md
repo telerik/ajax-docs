@@ -1,6 +1,6 @@
 ---
 title: Resize the Dropdown Header and Pop-up Size
-page_title: Resize the Dropdown Header and Pop-up Size | UI for ASP.NET AJAX Documentation
+page_title: Resize the Dropdown Header and Pop-up Size | RadEditor for ASP.NET AJAX Documentation
 description: Resize the Dropdown Header and Pop-up Size
 slug: editor/functionality/toolbars/dropdowns/examples/resize-the-dropdown-header-and-pop-up-size
 tags: resize,the,dropdown,header,and,pop-up,size
@@ -20,7 +20,7 @@ You can set the header and pop up width and height of a specified dropdown tool 
 
 
 
-* __inline in the RadEditor's declaration:__
+* **inline in the RadEditor's declaration:**
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" OnClientLoad="OnClientLoad" ID="RadEditor1">
@@ -36,7 +36,7 @@ You can set the header and pop up width and height of a specified dropdown tool 
 
 
 
-* __through the ToolsFile.xml file:__
+* **through the ToolsFile.xml file:**
 
 ````XML
 	    <tools>    
@@ -48,7 +48,7 @@ You can set the header and pop up width and height of a specified dropdown tool 
 
 
 
-* __or through the codebehind:__
+* **or through the codebehind:**
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Set Button State
-page_title: Set Button State | UI for ASP.NET AJAX Documentation
+page_title: Set Button State | RadEditor for ASP.NET AJAX Documentation
 description: Set Button State
 slug: editor/functionality/toolbars/buttons/set-button-state
 tags: set,button,state
@@ -19,22 +19,22 @@ RadEditor toolbar buttons have four states:
 
 ![](images/editor-buttons003.png)
 
-__Active__
+**Active**
 >caption 
 
 ![](images/editor-buttons004.png)
 
-__Highlighted__
+**Highlighted**
 >caption 
 
 ![](images/editor-buttons005.png)
 
-__Pressed__
+**Pressed**
 >caption 
 
 ![](images/editor-buttons006.png)
 
-__Disabled__
+**Disabled**
 
 The highlighted state is controlled by a CSS class of RadEditor. The active, pressed and disabled button states can be controlled programmatically on the client. Here is an example that demonstrates how to implement an adaptive custom button that will be highlighted when an image in the content area is selected. The custom button will be highlighted only when the image is selected in the content area:
 
@@ -66,7 +66,7 @@ The highlighted state is controlled by a CSS class of RadEditor. The active, pre
 
 
 
-To put the custom button in pressed state use oTool.setState(__1__);
+To put the custom button in pressed state use oTool.setState(**1**);
 
 To set an icon to the custom button use the following css syntax:
 

@@ -1,6 +1,6 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Web Service Binding | RadGantt for ASP.NET AJAX Documentation
 description: Web Service Binding
 slug: gantt/resources/data-binding/web-service-binding
 tags: web,service,binding

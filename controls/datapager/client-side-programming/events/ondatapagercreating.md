@@ -1,6 +1,6 @@
 ---
 title: OnDataPagerCreating
-page_title: OnDataPagerCreating | UI for ASP.NET AJAX Documentation
+page_title: OnDataPagerCreating | RadDataPager for ASP.NET AJAX Documentation
 description: OnDataPagerCreating
 slug: datapager/client-side-programming/events/ondatapagercreating
 tags: ondatapagercreating

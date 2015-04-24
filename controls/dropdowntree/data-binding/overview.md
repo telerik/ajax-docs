@@ -1,7 +1,7 @@
 ---
-title: Data Binding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+title: Overview
+page_title: Data Binding Overview | RadDropDownTree for ASP.NET AJAX Documentation
+description: Telerik's ASP.NET RadDropDownTree Overview
 slug: dropdowntree/data-binding/overview
 tags: overview
 published: True
@@ -32,14 +32,14 @@ The following properties and methods are used when binding the **RadDropDownTree
 
 * **DataSourceID** property: Set to the ID of your data source. This is mandatory when binding the **RadDropDownTree** declaratively.
 
-* **DataFieldID**property:****This is the field name from the data source used to uniquely identify each row. This field is required when binding to hierarchical data.
+* **DataFieldID** property: This is the field name from the data source used to uniquely identify each row. This field is required when binding to hierarchical data.
 
-* **DataFieldParentID**property: This is the field name from the data source used to identify the row for the parent node. This field is required when binding to hierarchical data.
+* **DataFieldParentID** property: This is the field name from the data source used to identify the row for the parent node. This field is required when binding to hierarchical data.
 
-* **DataTextField property:**This is the field name from the data source that populates each Node's**Text** property during binding.
+* **DataTextField property:** This is the field name from the data source that populates each Node's **Text** property during binding.
 
 * **DataValueField** property: This is the field name from the data source that populates each Node's **Value** property during binding.
 
 ## Using Templates with RadDropDownTree
 
-You can also use [Templates]({%slug dropdowntree/templates/templates-overview%}) with a data-bound **RadDropDownTree**. To bind template node to column values, you will need to use DataBinder.Eval expressions in the Template's definition.
+You can also use [Templates]({%slug dropdowntree/templates/templates-overview%}) with a data-bound **RadDropDownTree**. To bind template node to column values, you will need to use DataBinder. Eval expressions in the Template's definition.

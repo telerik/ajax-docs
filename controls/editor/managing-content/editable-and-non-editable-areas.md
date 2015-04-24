@@ -1,6 +1,6 @@
 ---
 title: Editable and Non-Editable Areas
-page_title: Editable and Non-Editable Areas | UI for ASP.NET AJAX Documentation
+page_title: Editable and Non-Editable Areas | RadEditor for ASP.NET AJAX Documentation
 description: Editable and Non-Editable Areas
 slug: editor/managing-content/editable-and-non-editable-areas
 tags: editable,and,non-editable,areas
@@ -12,7 +12,7 @@ position: 7
 
 
 
-To Define editable and non-editable regions in RadEditor, you should place several DIV or SPAN element containers in the editor content area. After that, set the __unselectable="on"__ attribute to their tags in order to prohibit selection of these elements. You should also set the __contentEditable__ attribute to "__false__" to put these elements in non-editable mode.
+To Define editable and non-editable regions in RadEditor, you should place several DIV or SPAN element containers in the editor content area. After that, set the **unselectable="on"** attribute to their tags in order to prohibit selection of these elements. You should also set the **contentEditable** attribute to "**false**" to put these elements in non-editable mode.
 
 Here is an example:
 

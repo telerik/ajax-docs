@@ -1,6 +1,6 @@
 ---
 title: OnEntryAdded
-page_title: OnEntryAdded | UI for ASP.NET AJAX Documentation
+page_title: OnEntryAdded | RadDropDownTree for ASP.NET AJAX Documentation
 description: OnEntryAdded
 slug: dropdowntree/server-side-programming/events/onentryadded
 tags: onentryadded

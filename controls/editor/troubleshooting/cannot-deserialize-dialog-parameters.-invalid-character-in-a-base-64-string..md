@@ -1,6 +1,6 @@
 ---
 title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
-page_title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string. | UI for ASP.NET AJAX Documentation
+page_title: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string. | RadEditor for ASP.NET AJAX Documentation
 description: Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 slug: editor/troubleshooting/cannot-deserialize-dialog-parameters.-invalid-character-in-a-base-64-string.
 tags: cannot,deserialize,dialog,parameters.,invalid,character,in,a,base-64,string.
@@ -14,20 +14,20 @@ position: 5
 
 ## 
 
-__Error:__
+**Error:**
 
 Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 >caption 
 
 ![](images/editor-radspellerror.jpg)
 
-__Solution:__
+**Solution:**
 
 The way dialog parameters are serialized was changed due to a security issue in a previous release of the Telerik UI for ASP.NET AJAX. The parameters are now using a random key each time the application is restarted. This means that if the user leaves the page in the browser and the application is restarted, the spell dialog will stop working after that, because the encryption key has changed.
 
 A specific encryption key could be forced for the editor/spell dialogs with the following application setting in the web.config:
 
-You can use any combination of letters and numbers - the key has no specific format. 46 bytes is 46 characters. For example you can use __2u4kjbfoiuhtk2lh4bgl4i2gbvhjbajhbk3jhtrgkjhrtgkjf324__ as a key value
+You can use any combination of letters and numbers - the key has no specific format. 46 bytes is 46 characters. For example you can use **2u4kjbfoiuhtk2lh4bgl4i2gbvhjbajhbk3jhtrgkjhrtgkjf324** as a key value
 
 ````XML
 	    <appSettings>

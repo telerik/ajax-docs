@@ -1,6 +1,6 @@
 ---
 title: Range Grouping
-page_title: Range Grouping | UI for ASP.NET AJAX Documentation
+page_title: Range Grouping | RadPivotGrid for ASP.NET AJAX Documentation
 description: Range Grouping
 slug: pivotgrid/functionality/range-grouping
 tags: range,grouping
@@ -16,58 +16,58 @@ RadPivotGrid supports three types of grouping by ranges for its row and column f
 
 ## DateTime range grouping
 
-RadPivotGrid can combine ranges of date time row/column groups into the following time spans: __Year__,__Quarter__, __Month__, __Day__.
+RadPivotGrid can combine ranges of date time row/column groups into the following time spans: **Year**,**Quarter**, **Month**, **Day**.
 
-In order to switch on this feature, just set the __GroupInterval__ property of the row/column fieldto the corresponding value given by the __PivotGridGroupInterval__ enumeration.
+In order to switch on this feature, just set the **GroupInterval** property of the row/column field to the corresponding value given by the **PivotGridGroupInterval** enumeration.
 
-The following mark-up defines a column field that will combine groups containing SafetyLeveldata into four-monthperiods.
+The following mark-up defines a column field that will combine groups containing SafetyLeveldata into four-month periods.
 
 ````ASPNET
-							<telerik:PivotGridColumnField DataField="SellStartDate" GroupInterval="Quarter"
-								ShowGroupsWhenNoData="false">
-							</telerik:PivotGridColumnField>
+<telerik:PivotGridColumnField DataField="SellStartDate" GroupInterval="Quarter"
+	ShowGroupsWhenNoData="false">
+</telerik:PivotGridColumnField>
 ````
 
 ![DateTime grouping](images/pivotgrid-range-grouping_1.png)
 
 ## Numeric range grouping
 
-RadPivotGrid also sports the capability to aggregate numeric row/column groups into custom numeric ranges. For anyfield that needs to combine its groups into numeric ranges, the __GroupInterval__ property should beset to __Numeric__ whereas the __GroupIntervalNumericRange__ should be give thenumeric span of the interval. The latter accepts double values.
+RadPivotGrid also sports the capability to aggregate numeric row/column groups into custom numeric ranges. For any field that needs to combine its groups into numeric ranges, the **GroupInterval** property should beset to **Numeric** whereas the **GroupIntervalNumericRange** should be give the numeric span of the interval. The latter accepts double values.
 
 The row field defined below will aggregate groups of SafetyLevel data into ranges as follows: 0-100, 100-200,200-300 etc.
 
 ````ASPNET
-							<telerik:PivotGridRowField DataField="SafetyLevel" GroupInterval="Numeric"
-								GroupIntervalNumericRange="100" ShowGroupsWhenNoData="false">
-							</telerik:PivotGridRowField>
+<telerik:PivotGridRowField DataField="SafetyLevel" GroupInterval="Numeric"
+	GroupIntervalNumericRange="100" ShowGroupsWhenNoData="false">
+</telerik:PivotGridRowField>
 ````
 
 ![Numeric Grouping](images/pivotgrid-range-grouping_2.png)
 
 ## ShowGroupsWhenNoData
 
-The __ShowGroupsWhenNoData__ property is applicable to PivotGridRowField and PivotGridColumnField.	When this property is set to __false__(the default value), RadPivotGrid	will not display the empty (row/column) groups.
+The **ShowGroupsWhenNoData** property is applicable to PivotGridRowField and PivotGridColumnField.	When this property is set to **false** (the default value), RadPivotGrid	will not display the empty (row/column) groups.
 
 ````ASPNET
-							<telerik:PivotGridColumnField DataField="Make" ShowGroupsWhenNoData="false">
-							</telerik:PivotGridColumnField>
-							<telerik:PivotGridRowField DataField="Type" ShowGroupsWhenNoData="false">
-							</telerik:PivotGridRowField>
+<telerik:PivotGridColumnField DataField="Make" ShowGroupsWhenNoData="false">
+</telerik:PivotGridColumnField>
+<telerik:PivotGridRowField DataField="Type" ShowGroupsWhenNoData="false">
+</telerik:PivotGridRowField>
 ````
 
 ![pivotgrid-range-grouping 3](images/pivotgrid-range-grouping_3.png)
 
 ## Custom range grouping
 
-The last but not least range grouping feature of RadPivotGrid’s provides the flexibilityto implement a custom way of grouping any row/column field group values. The approach to customgrouping is programmatic and includes the creation of a new pivot grid field class that shouldinherit the __PivotGridColumnField__ (for column fields) or the__PivotGridRowField__ (for row fields) class. In the child class the__GroupDescription__ property should be overridden to return an instanceof a custom __GroupDescription__ class. The latter must inherit the__PropertyGroupDescription__ class and override the__GroupNameFromItem__ method where the custom grouping logic is to beimplemented.
+The last but not least range grouping feature of RadPivotGrid’s provides the flexibility to implement a custom way of grouping any row/column field group values. The approach to custom grouping is programmatic and includes the creation of a new pivot grid field class that should inherit the **PivotGridColumnField** (for column fields) or the**PivotGridRowField** (for row fields) class. In the child class the**GroupDescription** property should be overridden to return an instance of a custom **GroupDescription** class. The latter must inherit the**PropertyGroupDescription** class and override the**GroupNameFromItem** method where the custom grouping logic is to be implemented.
 
-The __GroupNameFromItem__ method must return a new instance of auser-defined class/struct object that implements the__IEquatable<T>__, __IComparable<T>__and __IComparable__ interfaces. The class/struct should also define ahash that’s unique for each group range and override the ToString() method to return theunique name for each group interval constructed in compliance with the custom grouping logic.
+The **GroupNameFromItem** method must return a new instance of a user-defined class/struct object that implements the**IEquatable<T>**, **IComparable<T>**and **IComparable** interfaces. The class/struct should also define a hash that’s unique for each group range and override the ToString() method to return the unique name for each group interval constructed in compliance with the custom grouping logic.
 
-In addition, the __CreateInstanceCore__ method is to be overriden obligatorily to return a new instance of the custom group descritpion class.
+In addition, the **CreateInstanceCore** method is to be overridden obligatorily to return a new instance of the custom group description class.
 
-Finally, when the custom group description class defines new properties, they have to be cloned inthe __CloneCore__ method.
+Finally, when the custom group description class defines new properties, they have to be cloned in the **CloneCore** method.
 
-An example of a custom-defined field that provides a specific, user-tailored range grouping is givenbelow. The __CustomDateTimeField__ will group date-time values into half-year periods.
+An example of a custom-defined field that provides a specific, user-tailored range grouping is given below. The **CustomDateTimeField** will group date-time values into half-year periods.
 
 
 

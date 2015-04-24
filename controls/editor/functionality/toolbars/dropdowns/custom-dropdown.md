@@ -1,6 +1,6 @@
 ---
 title: Custom Dropdown
-page_title: Custom Dropdown | UI for ASP.NET AJAX Documentation
+page_title: Custom Dropdown | RadEditor for ASP.NET AJAX Documentation
 description: Custom Dropdown
 slug: editor/functionality/toolbars/dropdowns/custom-dropdown
 tags: custom,dropdown
@@ -43,7 +43,7 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 	    </telerik:RadEditor>
 ````
 
-To populate the items of the dropdown use the telerik:EditorDropDownItem inner tag of telerik:EditorDropDown. The __Name__ attribute of the telerik:EditorDropDownItem tag represents the item name that will be rendered in the dropdown and the __Value__ represents the value of the selected item.
+To populate the items of the dropdown use the telerik:EditorDropDownItem inner tag of telerik:EditorDropDown. The **Name** attribute of the telerik:EditorDropDownItem tag represents the item name that will be rendered in the dropdown and the **Value** represents the value of the selected item.
 
 1. To create and configure a custom dropdown dynamically on the server use the code below:
 

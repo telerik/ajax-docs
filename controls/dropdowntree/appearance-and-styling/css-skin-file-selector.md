@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selector
-page_title: CSS Skin File Selector | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selector | RadDropDownTree for ASP.NET AJAX Documentation
 description: CSS Skin File Selector
 slug: dropdowntree/appearance-and-styling/css-skin-file-selector
 tags: css,skin,file,selector

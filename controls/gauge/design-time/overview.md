@@ -1,6 +1,6 @@
 ---
-title: Design Time Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Design Time Overview | RadGauge for ASP.NET AJAX Documentation
 description: Overview
 slug: gauge/design-time/overview
 tags: overview

@@ -1,6 +1,6 @@
 ---
 title: Disable Keyboard Shortcuts
-page_title: Disable Keyboard Shortcuts | UI for ASP.NET AJAX Documentation
+page_title: Disable Keyboard Shortcuts | RadEditor for ASP.NET AJAX Documentation
 description: Disable Keyboard Shortcuts
 slug: editor/accessibility-and-internationalization/keyboard-support/disable-keyboard-shortcuts
 tags: disable,keyboard,shortcuts
@@ -16,7 +16,7 @@ position: 1
 
 Depending on the case, sometimes it is necessary to remove some of the tools from the editor toolbar. However, the browser automatically assigns keyboard shortcuts to some of the rich text editor commands such as Bold (Ctrl+B), Italic (Ctrl+I), Underline (Ctrl+U) and these shortcuts will still work even if the bold, italic and underline buttons are not added to the toolbar.
 
-To disable a specific command shortcut attach a function to the OnCommandExecuting handler and check for the name of the current executing command. If it is a command that is in the exclude list, then just cancel the execution of the command. Here is how to do it with the command __Bold__ for example:
+To disable a specific command shortcut attach a function to the OnCommandExecuting handler and check for the name of the current executing command. If it is a command that is in the exclude list, then just cancel the execution of the command. Here is how to do it with the command **Bold** for example:
 
 ````ASPNET
 	    <script type="text/javascript">

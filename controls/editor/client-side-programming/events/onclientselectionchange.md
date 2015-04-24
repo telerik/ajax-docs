@@ -1,6 +1,6 @@
 ---
 title: OnClientSelectionChange
-page_title: OnClientSelectionChange | UI for ASP.NET AJAX Documentation
+page_title: OnClientSelectionChange | RadEditor for ASP.NET AJAX Documentation
 description: OnClientSelectionChange
 slug: editor/client-side-programming/events/onclientselectionchange
 tags: onclientselectionchange
@@ -19,10 +19,10 @@ The OnClientSelectionChange event signals that the selection within the editor c
 
 >caption  
 
-|  __function OnClientSelectionChange(editor, args)__  |  |  |
+|  **function OnClientSelectionChange(editor, args)**  |  |  |
 | ------ | ------ | ------ |
-| __editor__ | __object__ |Returns a reference to RadEditor client object|
-| __args__ | __object__ |Returns the needed information about the event|
+| **editor** | **object** |Returns a reference to RadEditor client object|
+| **args** | **object** |Returns the needed information about the event|
 
 The example below alerts the editor content when the user clicks inside the content area or makes a selection:
 

@@ -14,9 +14,7 @@ position: 0
 
 ## RadCaptcha for ASP.NET AJAX
 
-* A complete list of all changes can be found on Release History page:[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
-
-
+A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
 
 
 

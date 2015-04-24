@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Events Overview | RadDock for ASP.NET AJAX Documentation
 description: Overview
 slug: dock/client-side-programming/events/overview
 tags: overview
@@ -12,55 +12,54 @@ position: 0
 
 
 
-## 
 
-__RadDock__ supports a number of client-side events that let you customize the behavior of the control:
+**RadDock** supports a number of client-side events that let you customize the behavior of the control:
 
-* [OnClientCommand]({%slug dock/client-side-programming/events/onclientcommand%}) occurs when the user clicks on a command in the __RadDock__ title bar, before the default handling of the command.
+* [OnClientCommand]({%slug dock/client-side-programming/events/onclientcommand%}) occurs when the user clicks on a command in the **RadDock** title bar, before the default handling of the command.
 
-* [OnClientDockPositionChanging]({%slug dock/client-side-programming/events/onclientdockpositionchanging%}) occurs when the user tries to drop the __RadDock__ control.
+* [OnClientDockPositionChanging]({%slug dock/client-side-programming/events/onclientdockpositionchanging%}) occurs when the user tries to drop the **RadDock** control.
 
-* [OnClientDockPositionChanged]({%slug dock/client-side-programming/events/onclientdockpositionchanged%}) occurs immediately after the client-side __RadDock__ control is updated to reflect its new position after a drag-and-drop operation.
+* [OnClientDockPositionChanged]({%slug dock/client-side-programming/events/onclientdockpositionchanged%}) occurs immediately after the client-side **RadDock** control is updated to reflect its new position after a drag-and-drop operation.
 
-* [OnClientInitialize]({%slug dock/client-side-programming/events/onclientinitialize%}) occurs when the client-side object for the __RadDock__ control is initialized.
+* [OnClientInitialize]({%slug dock/client-side-programming/events/onclientinitialize%}) occurs when the client-side object for the **RadDock** control is initialized.
 
 * [OnClientDragStart]({%slug dock/client-side-programming/events/onclientdragstart%}) occurs when the user starts a drag operation.
 
 * [OnClientDrag]({%slug dock/client-side-programming/events/onclientdrag%}) occurs when the user moves the mouse during a drag operation.
 
-* [OnClientDragEnd]({%slug dock/client-side-programming/events/onclientdragend%}) occurs when the user drops the __RadDock__ control after a drag operation.
+* [OnClientDragEnd]({%slug dock/client-side-programming/events/onclientdragend%}) occurs when the user drops the **RadDock** control after a drag operation.
 
-* [OnClientResizeStart]({%slug dock/client-side-programming/events/onclientresizestart%}) occurs when __RadDock__'s resizing has started.
+* [OnClientResizeStart]({%slug dock/client-side-programming/events/onclientresizestart%}) occurs when **RadDock**'s resizing has started.
 
-* [OnClientResizeEnd]({%slug dock/client-side-programming/events/onclientresizeend%}) occurs fires when __RadDock__'s resizing has finished.
+* [OnClientResizeEnd]({%slug dock/client-side-programming/events/onclientresizeend%}) occurs fires when **RadDock**'s resizing has finished.
 
-To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the correspondingproperty.
+To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
 
-````ASPNET
-	    <script type="text/javascript">
-	        function Undock(sender, eventArgs)
-	        {
-	            var cmd = eventArgs.command;
-	            if (cmd.get_name() == "Undock" && sender.get_dockZoneID() != "")
-	            {
-	                sender.undock();
-	            }
-	        }
-	    </script>
-	    <telerik:raddocklayout id="RadDockLayout1" runat="server">  
-	        <telerik:RadDockZone ID="RadDockZone1" runat="server">     
-	        <telerik:RadDock ID="RadDock1" 
-	            runat="server" 
-	            Text="Undock, Expand/Collapse, and Close" 
-	            Title="Commands"
-	            OnClientCommand="Undock">       
-	            <Commands>         
-	                <telerik:DockCommand Name="Undock" Text="Undock" />         
-	                <telerik:DockExpandCollapseCommand />         
-	                <telerik:DockCloseCommand />       
-	            </Commands>     
-	        </telerik:RadDock>  
-	    </telerik:RadDockZone></telerik:raddocklayout>
+````ASP.NET
+<script type="text/javascript">
+    function Undock(sender, eventArgs)
+    {
+        var cmd = eventArgs.command;
+        if (cmd.get_name() == "Undock" && sender.get_dockZoneID() != "")
+        {
+            sender.undock();
+        }
+    }
+</script>
+<telerik:raddocklayout id="RadDockLayout1" runat="server">  
+    <telerik:RadDockZone ID="RadDockZone1" runat="server">     
+    <telerik:RadDock ID="RadDock1" 
+        runat="server" 
+        Text="Undock, Expand/Collapse, and Close" 
+        Title="Commands"
+        OnClientCommand="Undock">       
+        <Commands>         
+            <telerik:DockCommand Name="Undock" Text="Undock" />         
+            <telerik:DockExpandCollapseCommand />         
+            <telerik:DockCloseCommand />       
+        </Commands>     
+    </telerik:RadDock>  
+</telerik:RadDockZone></telerik:raddocklayout>
 ````
 
 
@@ -68,23 +67,20 @@ To use these events, simply write a javascript function that can be called when 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
 ````JavaScript
-	     
-	
-	function DoCommand1()
-	{  
-	    alert("First handler called");
-	}
-	function DoCommand2()
-	{  
-	    alert("Second handler called");
-	}
-	function AddCommandHandlers()
-	{  
-	    var dock = $find(<%=RadDock1.ClientID%>);    
-	    dock.add_command(DoCommand1);  
-	    dock.add_command(DoCommand2);
-	}
-				
+function DoCommand1()
+{  
+    alert("First handler called");
+}
+function DoCommand2()
+{  
+    alert("Second handler called");
+}
+function AddCommandHandlers()
+{  
+    var dock = $find(<%=RadDock1.ClientID%>);    
+    dock.add_command(DoCommand1);  
+    dock.add_command(DoCommand2);
+}	
 ````
 
 
@@ -92,14 +88,11 @@ You can also assign event handlers in client-side code. When using the client-si
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	     
-	
-	function removeCommandHandler()
-	{  
-	    var dock = $find(<%=RadDock1.ClientID%>);   
-	    dock.remove_command(DoCommand2);
-	}
-				
+function removeCommandHandler()
+{  
+    var dock = $find(<%=RadDock1.ClientID%>);   
+    dock.remove_command(DoCommand2);
+}	
 ````
 
 
@@ -107,7 +100,7 @@ Another advantage of the client-side API is that you can detach an event handler
 Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondance between client-side and server-side names:
 
 
->caption  
+
 
 | Server-Side Name | Client-SideName | Methods to add and Remove |
 | ------ | ------ | ------ |

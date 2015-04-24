@@ -1,6 +1,6 @@
 ---
 title: Fluid Design
-page_title: Fluid Design | UI for ASP.NET AJAX Documentation
+page_title: Fluid Design | RadEditor for ASP.NET AJAX Documentation
 description: Fluid Design
 slug: editor/mobile-support/fluid-design
 tags: fluid,design
@@ -12,7 +12,7 @@ position: 3
 
 
 
-This article explains the __fluid design capabilities RadEditor offers__.	The example below shows how you can set its size in percent so it can resize with its parent element and refresh it when needed.
+This article explains the **fluid design capabilities RadEditor offers**.	The example below shows how you can set its size in percent so it can resize with its parent element and refresh it when needed.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience.	This often includes [changing the font size]({%slug editor/mobile-support/elastic-design%}) and having dimensions set in percent.
 
@@ -21,9 +21,9 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![editor-fluid-design](images/editor-fluid-design.png)
 
-You can set the __Width__ and __Height__ properties of the __RadEditor__ in __percent__.This lets it resize together with its parent element. The control has no way of knowing its parent size has changed, however,so the developer needs to invoke the `repaint() `[client-side method]({%slug editor/client-side-programming/radeditor-object%}) of the map so it can recalculate its elements (toolbar, modules etc.).You can find a small sample in __Example 1__.
+You can set the **Width** and **Height** properties of the **RadEditor** in **percent**.This lets it resize together with its parent element. The control has no way of knowing its parent size has changed, however,so the developer needs to invoke the `repaint() `[client-side method]({%slug editor/client-side-programming/radeditor-object%}) of the map so it can recalculate its elements (toolbar, modules etc.).You can find a small sample in **Example 1**.
 
-__Example 1__: Markup and script that provide a fluid RadEditor that changes size with the browser viewport
+**Example 1**: Markup and script that provide a fluid RadEditor that changes size with the browser viewport
 
 ````XML
 	 		<style type="text/css">

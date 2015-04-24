@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadFormDecorator for ASP.NET AJAX Documentation
 description: Overview
 slug: formdecorator/client-side-programming/overview
 tags: overview
@@ -15,9 +15,9 @@ position: 0
 ## 
 
 
-|  __Name__  |  __Description__  |
+|  **Name**  |  **Description**  |
 | ------ | ------ |
-| __decorate(element)__ |
+| **decorate(element)** |
 
 * The argument of the method is the DOM element whose children will be decorated
 

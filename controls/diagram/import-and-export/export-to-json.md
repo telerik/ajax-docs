@@ -1,6 +1,6 @@
 ---
 title: Export to JSON
-page_title: Export to JSON | UI for ASP.NET AJAX Documentation
+page_title: Export to JSON | RadDiagram for ASP.NET AJAX Documentation
 description: Export to JSON
 slug: diagram/import-and-export/export-to-json
 tags: export,to,json
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-You can export __RadDiagram__ to a JSON object literal on the client. This is done in two simple steps (__Example 1__):
+You can export **RadDiagram** to a JSON object literal on the client. This is done in two simple steps (**Example 1**):
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the[Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
 1. Call the [save](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-save) method of the client-side object of the diagram.
 
-__Example 1__: Export a diagram to a JSON object literal.
+**Example 1**: Export a diagram to a JSON object literal.
 
 ````ASPNET
 	    <telerik:RadDiagram ID="RadDiagram2" runat="server">

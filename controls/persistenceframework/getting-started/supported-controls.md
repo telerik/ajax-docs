@@ -12,47 +12,41 @@ position: 1
 
 
 
-The main functionality of Telerik's Persistence Framework is to provide long-term UI state persistence of Telerik UI for ASP.NET AJAX. Since not all Telerik controls have user interaction modifiable configuration not all of the controls' state can be persisted.
+The main functionality of Telerik Persistence Framework is to provide long-term UI state persistence of Telerik UI for ASP.NET AJAX controls. Since not all Telerik controls have user interaction modifiable configuration not all of the controls' state can be persisted.
 
-The following is a list of controls and the properties that can be persisted with Persistence Framework:
+Following is a list of controls and the properties that can be persisted with Persistence Framework:
 
 
 | Control | Properties |
 | ------ | ------ |
-| __RadButton__ |CheckedSelectedToggleStateIndex|
-| __RadCalendar__ |FocusedDateSelectedDate|
-| __RadColorPicker__ |SelectedColor|
-| __RadComboBox__ |Selected NodesChecked Nodes|
-| __RadDataPager__ |PageSizeStartRowIndex|
-| __RadDock__ |ClosedCollapsedDockZoneIDExpandedHeightHeightIndexLeftPinnedTopWidth|
-| __RadDropDownList__ |SelectedIndex|
-| __RadDropDownTree__ |ExpandedIndicesCheckedIndicesSelected indices of the embedded tree|
-| __RadFilter__ |FilterExpression (internal property)|
-| __RadGrid__ |CurrentPageIndexPageSizeEditIndexesSelectedCellIndexesSelectedIndexesMulti-column sorting|
-| __GridTableView__ |ColumnSettingsCurrentPageIndexFilterExpressionGroupByExpressionIsItemInsertedPageSizeSortExpression|
-| __RadListBox__ |CheckedIndices (internal property)SelectedIndices (internal property)|
-| __RadListView__ |CurrentPageIndexEditIndexesFilterExpressionsIsItemInsertedPageSizeSelectedIndexesSortExpressions|
-| __RadMenu__ |SelectedIndex|
-| __RadOrgChart__ |CollapsedIndices (internal property)GroupCollapseIndices (internal property)|
-| __RadPane__ |CollapsedHeightWidth|
-| __RadPanelBar__ |ExpandedIndices (internal property)SelectedIndex (internal property)|
-| __RadPivotGrid__ |AggregatesPositionAggregatesLevelPageSizeCurrentPageIndexFilterExpressionsFields collection (FieldSettings)
+| **RadButton** | **Checked**, **SelectedToggleStateIndex** |
+| **RadCalendar** | **FocusedDate**, **SelectedDate** |
+| **RadColorPicker** | **SelectedColor** |
+| **RadComboBox** | **Selected Nodes**, **Checked Nodes** |
+| **RadDataPager** | **PageSize**, **StartRowIndex** |
+| **RadDock** | **Closed**, **Collapsed**, **DockZoneID**, **ExpandedHeight**, **Height**, **Index**, **Left**, **Pinned**, **Top**, **Width** |
+| **RadDropDownList** | **SelectedIndex** |
+| **RadDropDownTree** | **ExpandedIndices**, **CheckedIndices**, Selected indices of the embedded tree |
+| **RadFilter** | **FilterExpression** (internal property) |
+| **RadGrid** | **CurrentPageIndex**, **PageSize**, **EditIndexes**, **SelectedCellIndexes**, **SelectedIndexes**, **AllowMultiColumnSorting** |
+| **GridTableView** | **ColumnSettings**, **CurrentPageIndex**, **FilterExpression**, **GroupByExpression**, **IsItemInserted**, **PageSize**, **SortExpression** |
+| **RadListBox** | **CheckedIndices** (internal property), **SelectedIndices** (internal property)|
+| **RadListView** | **CurrentPageIndex**, **EditIndexes**, **FilterExpressions**, **IsItemInserted**, **PageSize**, **SelectedIndexes**, **SortExpressions** |
+| **RadMenu** | **SelectedIndex** |
+| **RadOrgChart** | **CollapsedIndices** (internal property), **GroupCollapseIndices** (internal property) |
+| **RadPane** | **CollapsedHeightWidth** |
+| **RadPanelBar** | **ExpandedIndices** (internal property), **SelectedIndex** (internal property) |
+| **RadPivotGrid** | **AggregatesPosition**, **AggregatesLevel**, **PageSize**, **CurrentPageIndex**, **FilterExpressions**, field settings (**SortOrder**, **ZoneIndex**, **UniqueName**, **ZoneType**),  **CollapsedRowIndexes**, **CollapsedColumnIndexes**, **SortExpressions**, **ConfigurationPanel-LayoutType** |
+| **RadRibbonBar** | **Minimized**, **SelectedTabIndex** |
+| **RadScheduler** | **Selected Date**, **Selected View** |
+| **RadSkinManager** | **Skin** |
+| **RadSlider** | **SelectionEnd**, **SelectionStart**, **Value** |
+| **RadSlidingPane** | **Height**, **Width** |
+| **RadSlidingZone** | **DockedPaneId**, **ExpandedPaneId** |
+| **RadTabStrip** | **SelectedIndices** (internal property) |
+| **RadTileList** | **TileGroupIndices** (internal property), **SelectedTilesUniqueIds** (internal property) |
+| **RadToolBar** | **CheckedIndices** (internal property) |
+| **RadTreeList** | **CurrentPageIndex**, **EditIndexes**, **ExpandedIndexes**, **InsertIndexes**, **IsItemInserted**, **PageSize**, **SelectedIndexes**, **SortExpressions** |
+| **RadTreeView** | **CheckedIndices** (internal property), **ExpandedIndices** (internal property), **SelectedIndex** (internal property) |
 
-* SortOrder
 
-* ZoneIndex
-
-* UniqueName
-
-* ZoneTypeCollapsedRowIndexesCollapsedColumnIndexesSortExpressionsConfigurationPanel-LayoutType|
-| __RadRibbonBar__ |MinimizedSelectedTabIndex|
-| __RadScheduler__ |Selected DateSelected View|
-| __RadSkinManager__ |Skin|
-| __RadSlider__ |SelectionEndSelectionStartValue|
-| __RadSlidingPane__ |HeightWidth|
-| __RadSlidingZone__ |DockedPaneIdExpandedPaneId|
-| __RadTabStrip__ |SelectedIndices (internal property)|
-| __RadTileList__ |TileGroupIndices (internal property)SelectedTilesUniqueIds (internal property)|
-| __RadToolBar__ |CheckedIndices (internal property)|
-| __RadTreeList__ |CurrentPageIndexEditIndexesExpandedIndexesInsertIndexesIsItemInsertedPageSizeSelectedIndexesSortExpressions|
-| __RadTreeView__ |CheckedIndices (internal property)ExpandedIndices (internal property)SelectedIndex (internal property)|

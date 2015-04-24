@@ -1,6 +1,6 @@
 ---
 title: OnClientClearButtonClicked
-page_title: OnClientClearButtonClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientClearButtonClicked | RadDropDownTree for ASP.NET AJAX Documentation
 description: OnClientClearButtonClicked
 slug: dropdowntree/client-side-programming/events/onclientclearbuttonclicked
 tags: onclientclearbuttonclicked

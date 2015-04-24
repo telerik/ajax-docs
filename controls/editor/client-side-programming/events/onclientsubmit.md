@@ -1,6 +1,6 @@
 ---
 title: OnClientSubmit
-page_title: OnClientSubmit | UI for ASP.NET AJAX Documentation
+page_title: OnClientSubmit | RadEditor for ASP.NET AJAX Documentation
 description: OnClientSubmit
 slug: editor/client-side-programming/events/onclientsubmit
 tags: onclientsubmit
@@ -16,9 +16,9 @@ position: 9
 
 This event is fired just before the content is filtered and encoded.
 
-__Example__:
+**Example**:
 
-The code below demonstrates how to strip the Word formatting automatically on page submit using the OnClientSubmit event and FormatStripper command of RadEditor. The solution is useful for browsers that do not provide __onpaste__ event.
+The code below demonstrates how to strip the Word formatting automatically on page submit using the OnClientSubmit event and FormatStripper command of RadEditor. The solution is useful for browsers that do not provide **onpaste** event.
 
 ````ASPNET
 	<script type="text/javascript">
@@ -38,4 +38,4 @@ The code below demonstrates how to strip the Word formatting automatically on pa
 
 
 
-Other possible values for the __FormatStripper__ command are __All, ALL_NO_BRAKES, CSS, SPAN, FONT, WORD_ALL__and __WORD_NO_FONTS__.
+Other possible values for the **FormatStripper** command are **All, ALL_NO_BRAKES, CSS, SPAN, FONT, WORD_ALL**and **WORD_NO_FONTS**.

@@ -1,6 +1,6 @@
 ---
 title: Selection Object
-page_title: Selection Object | UI for ASP.NET AJAX Documentation
+page_title: Selection Object | RadEditor for ASP.NET AJAX Documentation
 description: Selection Object
 slug: editor/client-side-programming/selection-object
 tags: selection,object

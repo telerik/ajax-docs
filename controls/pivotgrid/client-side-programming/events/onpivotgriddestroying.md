@@ -1,6 +1,6 @@
 ---
 title: OnPivotGridDestroying
-page_title: OnPivotGridDestroying | UI for ASP.NET AJAX Documentation
+page_title: OnPivotGridDestroying | RadPivotGrid for ASP.NET AJAX Documentation
 description: OnPivotGridDestroying
 slug: pivotgrid/client-side-programming/events/onpivotgriddestroying
 tags: onpivotgriddestroying
@@ -19,7 +19,7 @@ This event is fired when the RadPivotGrid client component is about to be dispos
 
 >caption  
 
-|  __Fired by__  | RadPivotGrid |
+|  **Fired by**  | RadPivotGrid |
 | ------ | ------ |
-| __Arguments__ |none|
-| __Can be canceled__ |No|
+| **Arguments** |none|
+| **Can be canceled** |No|

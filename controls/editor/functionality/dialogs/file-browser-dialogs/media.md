@@ -1,6 +1,6 @@
 ---
 title: Media
-page_title: Media | UI for ASP.NET AJAX Documentation
+page_title: Media | RadEditor for ASP.NET AJAX Documentation
 description: Media
 slug: editor/functionality/dialogs/file-browser-dialogs/media
 tags: media
@@ -14,40 +14,40 @@ position: 4
 
 ## 
 
-__Functionality:__
+**Functionality:**
 
 Using the Media Manager dialog, users of RadEditor can:
 
-* __insert media files__ in the editor's content area
+* **insert media files** in the editor's content area
 
-* __upload new media files__, which will be available for inserting
+* **upload new media files**, which will be available for inserting
 
-* __delete files__
+* **delete files**
 
-__Properties to set:__
+**Properties to set:**
 
 The behavior of the Media Manager dialog is controlled by the following properties:
 
 
 >caption  
 
-|  __Property__  |  __Description__  |
+|  **Property**  |  **Description**  |
 | ------ | ------ |
-| __ViewPaths__ |A string array which contains the paths where the RadEditor will look for media files. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
-| __UploadPaths__ |A string array which contains the paths to which the RadEditor will be able to upload media files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __DeletePaths__ |A string array which contains the paths from which the RadEditor will be able to delete media files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
-| __MaxUploadFileSize__ |The maximum media file size in bytes, allowed for uploading. The default value is __204800__ bytes (200 kilobytes).|
-| __SearchPatterns__ |A string array which contains the file extension filters that controls which files are shown in the Media Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.mpg will match all video file names with extension mpg.|
+| **ViewPaths** |A string array which contains the paths where the RadEditor will look for media files. The default value is an empty array. These folders will be visible in the file browser part of the dialog.|
+| **UploadPaths** |A string array which contains the paths to which the RadEditor will be able to upload media files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **DeletePaths** |A string array which contains the paths from which the RadEditor will be able to delete media files. The default value is an empty string array. The elements of this array must be a subset of the ViewPaths array.|
+| **MaxUploadFileSize** |The maximum media file size in bytes, allowed for uploading. The default value is **204800** bytes (200 kilobytes).|
+| **SearchPatterns** |A string array which contains the file extension filters that controls which files are shown in the Media Manager dialog and which file types can be uploaded through the upload dialog.The * character can be used as a wildcard in the file name, for example *.mpg will match all video file names with extension mpg.|
 
 
 
 In order for a folder to be visible in the file browser, it must be present in the ViewPaths array. The users will be able to browse its subfolders since they inherit the permissions. If it is needed to grant permission for deleting or uploading media into a specific folder, it must be present in the corresponding array - DeletePaths or UploadPaths. These permissions are also inherited by the subfolders.The application root folder can be substituted with the "~" (tilde) character. It is possible to use paths relative to the root. For example, in order to access media files located in another web application.
 
-__Example:__
+**Example:**
 
 The example below demonstrates the relationship between the folder structure and the property settings:
 
-With the settings above, the users will be able to browse all subfolders of the "~/Media" folder. They will be able to upload media files to the "~/Media/New" folder and all its subfolders and delete media files from "~/Media/New/Articles" and "~/Media/New/News".__Setting Image manager properties inline:__
+With the settings above, the users will be able to browse all subfolders of the "~/Media" folder. They will be able to upload media files to the "~/Media/New" folder and all its subfolders and delete media files from "~/Media/New/Articles" and "~/Media/New/News".**Setting Image manager properties inline:**
 
 ````XML
 	    <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -57,7 +57,7 @@ With the settings above, the users will be able to browse all subfolders of the 
 
 
 
-__Setting Image manager properties in CodeBehind:__
+**Setting Image manager properties in CodeBehind:**
 
 
 

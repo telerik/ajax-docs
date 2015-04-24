@@ -8,57 +8,52 @@ published: True
 position: 1
 ---
 
-# SaveCustomSettings
+# SaveCustomSettings event
 
 
 
-__SaveCustomSettings__ server-side event is raised by the SaveState() method of RadPersistenceManager and can be used to	store custom settings to be used when restoring the state.
+**SaveCustomSettings** server-side event is raised by the SaveState() method of **RadPersistenceManager** and can be used to store custom settings to be used when restoring the state.
 
-The example below demonstrates how to store CustomSettings from a hidden field:
+The example below demonstrates how to store **CustomSettings** from a hidden field:
 
 ````ASPNET
-				<asp:HiddenField ID="wndStateHolder" runat="server" />
-	
-				<telerik:RadPersistenceManager id="persistenceMngr" runat="server"
-					OnSaveCustomSettings="persistenceMngr_SaveCustomSettings" OnLoadCustomSettings="persistenceMngr_LoadCustomSettings">
-				</telerik:RadPersistenceManager>
-	
-				<telerik:RadButton ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
-				</telerik:RadButton>
-				<telerik:RadButton ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
-				</telerik:RadButton>
+<asp:HiddenField ID="wndStateHolder" runat="server" />
+
+<telerik:RadPersistenceManager id="persistenceMngr" runat="server"
+	OnSaveCustomSettings="persistenceMngr_SaveCustomSettings" OnLoadCustomSettings="persistenceMngr_LoadCustomSettings">
+</telerik:RadPersistenceManager>
+
+<telerik:RadButton ID="saveBtn" Text="Save State" runat="server" Width="67px" OnClick="saveBtn_Click">
+</telerik:RadButton>
+<telerik:RadButton ID="loadBtn" Text="Load State" runat="server" Width="67px" OnClick="loadBtn_Click">
+</telerik:RadButton>
 ````
-
-
-
-
-
 ````C#
-		protected void persistenceMngr_SaveCustomSettings(object sender, Telerik.Web.UI.PersistenceManagerSaveStateEventArgs e)
-		{
-			e.CustomSettings.Add(new Telerik.Web.UI.ControlSetting() { Name = "pos", Value = wndStateHolder.Value });
-		}
-	
-		protected void saveBtn_Click(object sender, EventArgs e)
-		{
-			string fileId = Session["CustomPersistenceSettingsKey"].ToString();
-			persistenceMngr.StorageProviderKey = fileId;
-			persistenceMngr.SaveState();
-		}
+protected void persistenceMngr_SaveCustomSettings(object sender, Telerik.Web.UI.PersistenceManagerSaveStateEventArgs e)
+{
+	e.CustomSettings.Add(new Telerik.Web.UI.ControlSetting() { Name = "pos", Value = wndStateHolder.Value });
+}
+
+protected void saveBtn_Click(object sender, EventArgs e)
+{
+	string fileId = Session["CustomPersistenceSettingsKey"].ToString();
+	persistenceMngr.StorageProviderKey = fileId;
+	persistenceMngr.SaveState();
+}
 ````
 ````VB.NET
-		Protected Sub persistenceMngr_SaveCustomSettings(sender As Object, e As Telerik.Web.UI.PersistenceManagerSaveStateEventArgs)
-			e.CustomSettings.Add(New Telerik.Web.UI.ControlSetting() With { _
-				.Name = "pos", _
-				.Value = wndStateHolder.Value _
-			})
-		End Sub
-	
-		Protected Sub saveBtn_Click(sender As Object, e As EventArgs)
-			Dim fileId As String = Session("CustomPersistenceSettingsKey").ToString()
-			persistenceMngr.StorageProviderKey = fileId
-			persistenceMngr.SaveState()
-		End Sub
+Protected Sub persistenceMngr_SaveCustomSettings(sender As Object, e As Telerik.Web.UI.PersistenceManagerSaveStateEventArgs)
+	e.CustomSettings.Add(New Telerik.Web.UI.ControlSetting() With { _
+		.Name = "pos", _
+		.Value = wndStateHolder.Value _
+	})
+End Sub
+
+Protected Sub saveBtn_Click(sender As Object, e As EventArgs)
+	Dim fileId As String = Session("CustomPersistenceSettingsKey").ToString()
+	persistenceMngr.StorageProviderKey = fileId
+	persistenceMngr.SaveState()
+End Sub
 ````
 
 

@@ -1,6 +1,6 @@
 ---
 title: getParentElement
-page_title: getParentElement | UI for ASP.NET AJAX Documentation
+page_title: getParentElement | RadEditor for ASP.NET AJAX Documentation
 description: getParentElement
 slug: editor/client-side-programming/methods/selection/getparentelement
 tags: getparentelement
@@ -22,9 +22,9 @@ Returns a reference to the currently selected HTML element in the RadEditor for 
 
 
 
-__Note__: The return value is an HTML element. The method returns the first parent element of the selection. For example, if the cursor is in the middle of a bolded text, the call to the __getParentElement__ will return a reference to the __<strong>__ tag.
+**Note**: The return value is an HTML element. The method returns the first parent element of the selection. For example, if the cursor is in the middle of a bolded text, the call to the **getParentElement** will return a reference to the **<strong>** tag.
 
-____You can use also__editor.getSelectedElement();__ to get a reference to the currently selected HTML element.
+****You can use also**editor.getSelectedElement();** to get a reference to the currently selected HTML element.
 
 This example checks if the currently selected object is an image and adds a border to the element if so.If the selected element is a link, it changes its style:
 

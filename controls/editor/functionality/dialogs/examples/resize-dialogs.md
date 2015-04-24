@@ -1,6 +1,6 @@
 ---
 title: Resize Dialogs
-page_title: Resize Dialogs | UI for ASP.NET AJAX Documentation
+page_title: Resize Dialogs | RadEditor for ASP.NET AJAX Documentation
 description: Resize Dialogs
 slug: editor/functionality/dialogs/examples/resize-dialogs
 tags: resize,dialogs
@@ -12,17 +12,17 @@ position: 6
 
 
 
-Due to designer requirements, the __RadEditor__ dialogs should be resized to a non-default dimensions. The following article explains how the size of the built-in dialogscould be easily manipulated via the __DialogDefinition__ class.
+Due to designer requirements, the **RadEditor** dialogs should be resized to a non-default dimensions. The following article explains how the size of the built-in dialogscould be easily manipulated via the **DialogDefinition** class.
 
 ## 
 
->caution As of the Q3 2013 release, setting a custom size for the built-in dialogs using the approach suggested in this article will not work as expected due to	improvements Telerik made to dialogs in __RadEditor__ . You can find information about this subject in the["The Autosize feature of the Built-in Dialogs is Enabled"]({%slug editor/changes-and-backwards-compatibility/the-autosize-feature-of-the-built-in-dialogs-is-enabled%})article, in which an appropriate approach for resizing is also provided.
+>caution As of the Q3 2013 release, setting a custom size for the built-in dialogs using the approach suggested in this article will not work as expected due to	improvements Telerik made to dialogs in **RadEditor** . You can find information about this subject in the["The Autosize feature of the Built-in Dialogs is Enabled"]({%slug editor/changes-and-backwards-compatibility/the-autosize-feature-of-the-built-in-dialogs-is-enabled%})article, in which an appropriate approach for resizing is also provided.
 >
 
 
-As shown in __Example 1__, the __DialogDefinition__ class of __RadEditor__ provides the ability to change the initial size of __RadEditor__ dialogs in the	__Page_PreRenderComplete__ event. For example, to increase the size of the __LinkManager__dialog you can get a reference to it with the __GetDialogDefinition__ method of the __DialogDefinition__ class and then use the__Width__ and __Height__ properties to set the desired dimension:
+As shown in **Example 1**, the **DialogDefinition** class of **RadEditor** provides the ability to change the initial size of **RadEditor** dialogs in the	**Page_PreRenderComplete** event. For example, to increase the size of the **LinkManager**dialog you can get a reference to it with the **GetDialogDefinition** method of the **DialogDefinition** class and then use the**Width** and **Height** properties to set the desired dimension:
 
-__Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ class.
+**Example 1**: Resizing the **LinkManager** dialog via the **DialogDefinition** class.
 
 
 
@@ -58,7 +58,7 @@ __Example 1__: Resizing the __LinkManager__ dialog via the __DialogDefinition__ 
 
 
 
-The __DialogDefinition__ class also provides different useful __RadWidow__ configuration settings such as __Behaviors__, __VisibleStatusbar__, __VisibleTitlebar__, etc.
+The **DialogDefinition** class also provides different useful **RadWidow** configuration settings such as **Behaviors**, **VisibleStatusbar**, **VisibleTitlebar**, etc.
 
 # See Also
 

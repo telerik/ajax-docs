@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgExporting
 page_title: SvgExporting | RadClientExportManager for ASP.NET AJAX Documentation
 description: SvgExporting

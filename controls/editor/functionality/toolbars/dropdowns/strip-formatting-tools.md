@@ -1,6 +1,6 @@
 ---
 title: Strip Formatting Tools
-page_title: Strip Formatting Tools | UI for ASP.NET AJAX Documentation
+page_title: Strip Formatting Tools | RadEditor for ASP.NET AJAX Documentation
 description: Strip Formatting Tools
 slug: editor/functionality/toolbars/dropdowns/strip-formatting-tools
 tags: strip,formatting,tools
@@ -12,21 +12,21 @@ position: 13
 
 
 
-This article provides information about the built-in __Format Stripper__ dropdown,	and the Strip Formatting tools exposed inside.
+This article provides information about the built-in **Format Stripper** dropdown,	and the Strip Formatting tools exposed inside.
 
 ## 
 
-The __Strip Formatting__ tools enable the end-user to strip the formatting from existing content.The built-in __Format Stripper__ dropdown exposes a list of __Strip Formatting__ tools for the user tochoose from (__Figure 1__). The following list specifies each tool’s purpose:
+The **Strip Formatting** tools enable the end-user to strip the formatting from existing content.The built-in **Format Stripper** dropdown exposes a list of **Strip Formatting** tools for the user tochoose from (**Figure 1**). The following list specifies each tool’s purpose:
 
-* __Strip All Formatting__—removes all styles and formatting applied to the content (i.e., transforms it to plain text).
+* **Strip All Formatting**—removes all styles and formatting applied to the content (i.e., transforms it to plain text).
 
-* __Strip Css Formatting__—removes all inline CSS rules (i.e., the style attribute).
+* **Strip Css Formatting**—removes all inline CSS rules (i.e., the style attribute).
 
-* __Strip Font Elements__—strips all <font< tags from the HTML content.
+* **Strip Font Elements**—strips all <font< tags from the HTML content.
 
-* __Strip Span Elements__—strips all <span< tags from the HTML content.
+* **Strip Span Elements**—strips all <span< tags from the HTML content.
 
-* __Strip Word Formatting__—cleans the HTML content from unnecessary XML tags and comments inserted by[pasting MS Word content]({%slug editor/managing-content/pasting-content/clean-ms-word-formatting-%}).
+* **Strip Word Formatting**—cleans the HTML content from unnecessary XML tags and comments inserted by[pasting MS Word content]({%slug editor/managing-content/pasting-content/clean-ms-word-formatting-%}).
 >caption Figure 1: Plain HTML content, later (in Figure 2) stripped to plain text.
 
 ![editor-paste-dialogs-result](images/editor-paste-dialogs-result.png)
@@ -36,9 +36,9 @@ The __Strip Formatting__ tools enable the end-user to strip the formatting from 
 
 ## Adding Format Stripper Tool to a Custom Tool-set
 
-In a custom collection of tools, the build-in __Format Stripper__ dropdowncan be added by [adding a plain tool]({%slug editor/functionality/toolbars/overview%}) with a name set to	__FormatStripper__ (__Example 1__).
+In a custom collection of tools, the build-in **Format Stripper** dropdowncan be added by [adding a plain tool]({%slug editor/functionality/toolbars/overview%}) with a name set to	**FormatStripper** (**Example 1**).
 
-__Example 1__: Adding the PasteStrip dropdown to a tools collection.
+**Example 1**: Adding the PasteStrip dropdown to a tools collection.
 
 
 
@@ -58,12 +58,12 @@ __Example 1__: Adding the PasteStrip dropdown to a tools collection.
 ````
 
 
-Optionally, you can further enable stand-alone __Strip Formatting__ tools in a toolbar or fine tune the collectioninside the __PasteStrip__ dropdown (__Example 2__).
+Optionally, you can further enable stand-alone **Strip Formatting** tools in a toolbar or fine tune the collectioninside the **PasteStrip** dropdown (**Example 2**).
 >caption Figure 2: The result of the tools collection configuration in Example 2.
 
 ![custom-strip-tools-collection](images/custom-strip-tools-collection.png)
 
-__Example 2__: Defining stand-alone Strip Formatting tools in a toolbar and a custom set of tools in the PasteStrip dropdown.
+**Example 2**: Defining stand-alone Strip Formatting tools in a toolbar and a custom set of tools in the PasteStrip dropdown.
 
 
 

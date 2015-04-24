@@ -1,6 +1,6 @@
 ---
 title: Import from JSON
-page_title: Import from JSON | UI for ASP.NET AJAX Documentation
+page_title: Import from JSON | RadDiagram for ASP.NET AJAX Documentation
 description: Import from JSON
 slug: diagram/import-and-export/import-from-json
 tags: import,from,json
@@ -14,13 +14,13 @@ position: 0
 
 ## 
 
-You can import the shapes and connections of __RadDiagram__ from a data object in JSON format on the client.This is done in two simple steps (__Example 1__):
+You can import the shapes and connections of **RadDiagram** from a data object in JSON format on the client.This is done in two simple steps (**Example 1**):
 
 1. Get a reference to the client-side object of the underlying Kendo UI diagram as described in the[Overview]({%slug diagram/client-side-programming/overview%}) help article.
 
 1. Call the [load](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#methods-load) method of the client-side object of the diagram and pass a JSON object literal with the diagram data as an argument. The JSON object literal uses a specific format that you can check by [exportingan already declared diagram in JSON format]({%slug diagram/import-and-export/export-to-json%}).
 
-__Example 1__: Import a diagram from a JSON object literal.
+**Example 1**: Import a diagram from a JSON object literal.
 
 ````ASPNET
 	    <telerik:RadDiagram ID="RadDiagram1" runat="server">

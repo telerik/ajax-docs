@@ -1,6 +1,6 @@
 ---
 title: Insert Table
-page_title: Insert Table | UI for ASP.NET AJAX Documentation
+page_title: Insert Table | RadEditor for ASP.NET AJAX Documentation
 description: Insert Table
 slug: editor/functionality/toolbars/dropdowns/insert-table
 tags: insert,table
@@ -23,7 +23,7 @@ RadEditor offers two ways for creating tables. The best approach depends on your
 
 ## Table Wizard
 
-The Table Wizard provides advanced features for creating and customizing tables in the editor's content area. The Table Wizard is a dialog with tabs for detailed table design: __Table Design, Table Properties, Cell Properties and Accessibility__. The Table Wizard can be invoked using the __Insert Table Dropdown__.
+The Table Wizard provides advanced features for creating and customizing tables in the editor's content area. The Table Wizard is a dialog with tabs for detailed table design: **Table Design, Table Properties, Cell Properties and Accessibility**. The Table Wizard can be invoked using the **Insert Table Dropdown**.
 
 ## Table Design
 
@@ -35,25 +35,25 @@ This tab allows you to adjust the number of rows and columns, and adjust the row
 
 This tab allows you to configure table dimensions and layout by setting one or more of the following table properties:
 
-* __Width/Height__ - Specifies the height and the width of the table (in pixels or percent).
+* **Width/Height** - Specifies the height and the width of the table (in pixels or percent).
 
-* __ID__ - Setting an ID for a table gives some options for advanced table handling.
+* **ID** - Setting an ID for a table gives some options for advanced table handling.
 
-* __CSS Class__ - Specifies table CSS class and style. This property should be used only by advanced users.
+* **CSS Class** - Specifies table CSS class and style. This property should be used only by advanced users.
 
-* __Background Color__ - Sets the background color of the table.
+* **Background Color** - Sets the background color of the table.
 
-* __Background Image__ - Sets an image as the table background.
+* **Background Image** - Sets an image as the table background.
 
-* __Alignment__ - Aligns the table to the left, center or right side of the page.
+* **Alignment** - Aligns the table to the left, center or right side of the page.
 
-* __Cell spacing__ - Increases or decreases the space between the borders of the cells.
+* **Cell spacing** - Increases or decreases the space between the borders of the cells.
 
-* __Cell padding__ - Increases or decreases the space between the content and the border of a cell.
+* **Cell padding** - Increases or decreases the space between the content and the border of a cell.
 
-* __CSS Class Layout__ - Styles the entire table by using a predefined layout. For more information see the[Table Properties CSS Class Layout toolOnline Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
+* **CSS Class Layout** - Styles the entire table by using a predefined layout. For more information see the[Table Properties CSS Class Layout toolOnline Demo](http://demos.telerik.com/aspnet-ajax/editor/examples/tablelayoutcssfile/defaultcs.aspx).
 
-* __Style Builder__ - Opens another dialog that allows for fine tuning of the various table properties (e.g. borders,alignment, spacing, etc.).
+* **Style Builder** - Opens another dialog that allows for fine tuning of the various table properties (e.g. borders,alignment, spacing, etc.).
 
 ![](images/editor-dropdowns020.png)
 

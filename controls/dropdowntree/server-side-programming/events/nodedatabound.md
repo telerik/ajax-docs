@@ -1,6 +1,6 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | UI for ASP.NET AJAX Documentation
+page_title: NodeDataBound | RadDropDownTree for ASP.NET AJAX Documentation
 description: NodeDataBound
 slug: dropdowntree/server-side-programming/events/nodedatabound
 tags: nodedatabound

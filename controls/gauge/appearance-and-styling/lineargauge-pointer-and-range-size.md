@@ -1,6 +1,6 @@
 ---
 title: LinearGauge Pointer and Range Size
-page_title: LinearGauge Pointer and Range Size | UI for ASP.NET AJAX Documentation
+page_title: LinearGauge Pointer and Range Size | RadGauge for ASP.NET AJAX Documentation
 description: LinearGauge Pointer and Range Size
 slug: gauge/appearance-and-styling/lineargauge-pointer-and-range-size
 tags: lineargauge,pointer,and,range,size

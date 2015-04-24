@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadDropDownList for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: dropdownlist/client-side-programming/events/onclientitemdatabound
 tags: onclientitemdatabound
@@ -20,22 +20,22 @@ The event handler receives two parameters:
 
 1. The instance of the DropDownList firing the event.
 
-1. An eventArgs parameter containing the following methods:
+2. An eventArgs parameter containing the following methods:
 
-* **get_item()** returns a RadDropDownListItem client-object
+	* **get_item()** returns a RadDropDownListItem client-object
 
-* **get_dataItem()** returns a reference to the **DataItem** that the current Item is being bound to.
+	* **get_dataItem()** returns a reference to the **DataItem** that the current Item is being bound to.
 
 The following example shows how a value is extracted from the **DataItem** and set as a Custom Attribute to Items loaded via a Web Service:
 
 ````JavaScript
 	
-	            function onItemDataBound(sender, eventArgs) {
-	                var item = eventArgs.get_item();
-	                var dataItem = eventArgs.get_dataItem();
-	                var phone = dataItem.Phone;
-	                item.get_attributes().setAttribute("phone", phone);
-	            }
+function onItemDataBound(sender, eventArgs) {
+    var item = eventArgs.get_item();
+    var dataItem = eventArgs.get_dataItem();
+    var phone = dataItem.Phone;
+    item.get_attributes().setAttribute("phone", phone);
+}
 	
 ````
 

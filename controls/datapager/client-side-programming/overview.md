@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: RadDataPager Client-side Programming Overview | UI for ASP.NET AJAX Documentation
+page_title: Client-side Programming Overview | RadDataPager for ASP.NET AJAX Documentation
 description: Overview
 slug: datapager/client-side-programming/overview
 tags: overview

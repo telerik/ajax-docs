@@ -1,6 +1,6 @@
 ---
 title: Scrollable Non Editable Mode
-page_title: Scrollable Non Editable Mode | UI for ASP.NET AJAX Documentation
+page_title: Scrollable Non Editable Mode | RadEditor for ASP.NET AJAX Documentation
 description: Scrollable Non Editable Mode
 slug: editor/functionality/editor-views-and-modes/scrollable-non-editable-mode
 tags: scrollable,non,editable,mode
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-When RadEditor is set in non-editable mode (__Enabled__="__false__") it is displayed as a simple DIV element and contains the value of its __Content__property. To prevent the resizing of the content and display scrollbars around the DIV element, set the __Style__property of RadEditor to __overflow: scroll__ or __overflow: auto__.
+When RadEditor is set in non-editable mode (**Enabled**="**false**") it is displayed as a simple DIV element and contains the value of its **Content**property. To prevent the resizing of the content and display scrollbars around the DIV element, set the **Style**property of RadEditor to **overflow: scroll** or **overflow: auto**.
 
 ````ASPNET
 			<style type="text/css">

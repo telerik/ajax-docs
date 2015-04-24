@@ -1,6 +1,6 @@
 ---
 title: RadDropDownList Object
-page_title: RadDropDownList Object | UI for ASP.NET AJAX Documentation
+page_title: RadDropDownList Object | RadDropDownList for ASP.NET AJAX Documentation
 description: RadDropDownList Object
 slug: dropdownlist/client-side-programming/objects/raddropdownlist-object
 tags: raddropdownlist,object

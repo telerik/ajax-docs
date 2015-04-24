@@ -1,6 +1,6 @@
 ---
 title: Strip Image and Anchor Paths
-page_title: Strip Image and Anchor Paths | UI for ASP.NET AJAX Documentation
+page_title: Strip Image and Anchor Paths | RadEditor for ASP.NET AJAX Documentation
 description: Strip Image and Anchor Paths
 slug: editor/functionality/dialogs/examples/strip-image-and-anchor-paths
 tags: strip,image,and,anchor,paths
@@ -18,7 +18,7 @@ You may require that URLs (both href and src) are expressed as full paths, inste
 
 SOLUTION
 
-RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs (href and src) in the editor content absolute (e.g. http://server/page.html instead of "page.html"). __MakeUrlsAbsolute__is disabled by default. To enable this filter, assign the filter to the RadEditor __ContentFilters__property:
+RadEditor includes a new content filter **MakeUrlsAbsolute** that makes all URLs (href and src) in the editor content absolute (e.g. http://server/page.html instead of "page.html"). **MakeUrlsAbsolute**is disabled by default. To enable this filter, assign the filter to the RadEditor **ContentFilters**property:
 
 
 
@@ -40,7 +40,7 @@ RadEditor includes a new content filter __MakeUrlsAbsolute__ that makes all URLs
 ````
 
 
->note  __StripAbsoluteAnchorPaths__ and __StripAbsoluteImagesPaths__ properties are no longer available in favor of the new __MakeUrlsAbsolute__ filter.
+>note  **StripAbsoluteAnchorPaths** and **StripAbsoluteImagesPaths** properties are no longer available in favor of the new **MakeUrlsAbsolute** filter.
 >
 
 
@@ -50,7 +50,7 @@ By default, an image path might look like the following example when viewed in H
 
 <img alt="" src="/images/mydownloads/WebPages001.png" />
 
-With __MakeUrlsAbsolute__ assigned to __ContentFilters__ the path now shows the full path:
+With **MakeUrlsAbsolute** assigned to **ContentFilters** the path now shows the full path:
 
 <IMG alt="" src="http://localhost:49573/images/mydownloads/WebPages001.png">
 

@@ -1,6 +1,6 @@
 ---
 title: Getting a Reference to RadEditor
-page_title: Getting a Reference to RadEditor | UI for ASP.NET AJAX Documentation
+page_title: Getting a Reference to RadEditor | RadEditor for ASP.NET AJAX Documentation
 description: Getting a Reference to RadEditor
 slug: editor/client-side-programming/getting-a-reference-to-radeditor
 tags: getting,a,reference,to,radeditor
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-Telerik RadEditor provides a client-side object of type __Telerik.Web.UI.RadEditor__.You can get a reference to it using `$find("<%= name.ClientID %>")`. The following code demonstrates that:
+Telerik RadEditor provides a client-side object of type **Telerik.Web.UI.RadEditor**.You can get a reference to it using `$find("<%= name.ClientID %>")`. The following code demonstrates that:
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
@@ -55,7 +55,7 @@ Telerik RadEditor provides a client-side object of type __Telerik.Web.UI.RadEdit
 
 You can see that the client object representation of MS AJAX controls are created just as the last code on the page in the Sys.Application.init event, which is raised after the window.onload event. For that reason you can get a reference to RadEditor no earlier that in the [Sys.Application.load](http://www.asp.net/AJAX/Documentation/Live/ClientReference/Sys/ApplicationClass/SysApplicationLoadEvent.aspx) event, which is raised after all scripts have been loaded and the objects in the application have been created and initialized.
 
-Using the client-side __RadEditor__ object, you can access the exposed properties and methods.
+Using the client-side **RadEditor** object, you can access the exposed properties and methods.
 
 # See Also
 

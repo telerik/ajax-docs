@@ -1,6 +1,6 @@
 ---
 title: Disable RadEditor
-page_title: Disable RadEditor | UI for ASP.NET AJAX Documentation
+page_title: Disable RadEditor | RadEditor for ASP.NET AJAX Documentation
 description: Disable RadEditor
 slug: editor/functionality/editor-views-and-modes/disable-radeditor
 tags: disable,radeditor
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-You could set the __Enabled__ property to disable the editing functionality of RadEditor. When the __Enabled__ property is set to __False__, RadEditor will be displayed as a simple DIV element, containing the value of its __Content__ property.
+You could set the **Enabled** property to disable the editing functionality of RadEditor. When the **Enabled** property is set to **False**, RadEditor will be displayed as a simple DIV element, containing the value of its **Content** property.
 
-* __Enabled__ - in this mode the content of the RadEditor can be edited right after the page is loaded in the client's browser:
+* **Enabled** - in this mode the content of the RadEditor can be edited right after the page is loaded in the client's browser:
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" ID="RadEditor1">
@@ -28,7 +28,7 @@ You could set the __Enabled__ property to disable the editing functionality of R
 
 
 
-* __Disabled__- in this mode the content is not editable when the page is loaded and cannot be switched to Editable. This is useful in situations where you want to prevent editing the content:
+* **Disabled**- in this mode the content is not editable when the page is loaded and cannot be switched to Editable. This is useful in situations where you want to prevent editing the content:
 
 ````ASPNET
 	    <telerik:RadEditor runat="server" ID="RadEditor1" Enabled="false">
@@ -42,7 +42,7 @@ You could set the __Enabled__ property to disable the editing functionality of R
 
 
 
-If you would like to prevent the resizing of the content when the editor is disabled and display scrollbars around the DIV element, then set the __Style__ property of RadEditor to overflow: scroll or overflow: auto.
+If you would like to prevent the resizing of the content when the editor is disabled and display scrollbars around the DIV element, then set the **Style** property of RadEditor to overflow: scroll or overflow: auto.
 
 Here is an example demonstrating this feature:
 

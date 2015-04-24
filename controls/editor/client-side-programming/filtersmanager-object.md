@@ -1,6 +1,6 @@
 ---
 title: FiltersManager Object
-page_title: FiltersManager Object | UI for ASP.NET AJAX Documentation
+page_title: FiltersManager Object | RadEditor for ASP.NET AJAX Documentation
 description: FiltersManager Object
 slug: editor/client-side-programming/filtersmanager-object
 tags: filtersmanager,object
