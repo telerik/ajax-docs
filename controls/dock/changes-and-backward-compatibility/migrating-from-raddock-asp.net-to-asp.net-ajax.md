@@ -228,7 +228,7 @@ The following properties, methods, and events are new to the **RadDock** client-
 | **Methods** ||
 |conditionalPostback|Calls **this.doPostBack** if **AutoPostBack** is **true** .|
 |doPostBack|Causes a server-side **DockPositionChanged** event if the current position of the control differs from the position it had the last time the page was loaded.|
-|getCommand|Returns the DOM anchor element (<a>) associated with a specified command name.|
+|getCommand|Returns the DOM anchor element (`<a>`) associated with a specified command name.|
 
 # See Also
 

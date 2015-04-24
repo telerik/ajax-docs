@@ -74,4 +74,6 @@ The following table lists significant CSS selectors and descriptions for RadDock
 
  * [HTML Rendering and CSS]({%slug dock/appearance-and-styling/html-rendering-and-css%})
 
- * [Tutorial: Creating a Custom Skin]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Classic Skin]({%slug dock/appearance-and-styling/creating-custom-classic-skin%})
+
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug dock/appearance-and-styling/creating-custom-lightweight-skin%})

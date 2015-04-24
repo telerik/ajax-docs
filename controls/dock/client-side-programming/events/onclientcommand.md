@@ -20,12 +20,9 @@ The event handler receives two parameters:
 1. The instance of the **RadDock** control firing the event.
 
 1. An eventArgs parameter containing the following properties and methods:
-
-* **command** (property) is the **DockCommand** client-side object for the command that was clicked.
-
-* **set_cancel** lets you prevent the command from raising any additional events.
-
-* **get_cancel** returns a boolean value indicating whether the command was canceled.
+	* **command** (property) is the **DockCommand** client-side object for the command that was clicked.
+	* **set_cancel** lets you prevent the command from raising any additional events.
+	* **get_cancel** returns a boolean value indicating whether the command was canceled.
 
 >caution Calling the **set_cancel** method of the eventArgs parameter does not prevent the default response on built-in command types. It only prevents any subsequent **OnClientCommand** events and the server-side **Command** event.
 

@@ -58,4 +58,6 @@ To modify the image that appears as a custom command's icon, you need to follow 
 
  * [DockCommand Collection Editor]({%slug dock/design-time/dockcommand-collection-editor%})
 
- * [Tutorial: Creating a Custom Skin]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Classic Skin]({%slug dock/appearance-and-styling/creating-custom-classic-skin%})
+
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug dock/appearance-and-styling/creating-custom-lightweight-skin%})

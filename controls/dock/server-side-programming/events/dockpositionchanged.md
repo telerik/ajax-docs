@@ -31,12 +31,9 @@ The **DockPositionChanged** event handler receives two arguments:
 1. The **RadDock** control whose position has changed.
 
 1. A **DockPositionChangedEventArgs** object. This object has two properties describe the new position of the **RadDock** object:
-
-* **DockZoneID** is the **ID** of the new **RadDockZone** to which the control is moved. If the **RadDock** control is moved to a floating position, **DockZoneID** is null.
-
-* **Index** is the new index of the **RadDock** control in the **RadDockZone** identified by **DockZoneID**. If the **RadDock** control is moved to a floating position, **Index** is -1.
-
-* **IsDragged** determines whether the position of the **RadDock** control is changed as a result of dragging. If the position of the dock control is changed because another one is closed or moved out of the **RadDockZone**, **IsDragged** will be set to **false**.
+	* **DockZoneID** is the **ID** of the new **RadDockZone** to which the control is moved. If the **RadDock** control is moved to a floating position, **DockZoneID** is null.
+	* **Index** is the new index of the **RadDock** control in the **RadDockZone** identified by **DockZoneID**. If the **RadDock** control is moved to a floating position, **Index** is -1.
+	* **IsDragged** determines whether the position of the **RadDock** control is changed as a result of dragging. If the position of the dock control is changed because another one is closed or moved out of the **RadDockZone**, **IsDragged** will be set to **false**.
 
 In the **DockPositionChanged** event handler, the **DockZoneID** and **Index** properties of the **RadDock** control reflect the old position from which the **RadDock** control is being moved. This is true even if the event handler is called after a delay because the value of the **AutoPostBack** property is **False**.
 

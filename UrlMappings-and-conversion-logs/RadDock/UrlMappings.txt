@@ -2,7 +2,7 @@ http://www.telerik.com/help/aspnet-ajax/dock-accessibility-support.html http://d
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-controlling-appearance.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/controlling-raddock's-appearance
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-css-selectors.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/css-classes
 http://www.telerik.com/help/aspnet-ajax/dock-appearance-skins.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/skins
-http://www.telerik.com/help/aspnet-ajax/dock-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/tutorial:-creating-a-custom-skin
+http://www.telerik.com/help/aspnet-ajax/dock-appearance-tutorial-custom-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/dock/appearance-and-styling/creating-custom-classic-skin
 http://www.telerik.com/help/aspnet-ajax/dock-built-in-state-persistence.html http://docs.telerik.com/devtools/ajax/dock/structure/dock-layout/built-in-dock-state-persistence
 http://www.telerik.com/help/aspnet-ajax/dock-changes-and-backward-compatibility.html http://docs.telerik.com/devtools/ajax/dock/changes-and-backward-compatibility/overview
 http://www.telerik.com/help/aspnet-ajax/dock-client-raddock.html http://docs.telerik.com/devtools/ajax/dock/client-side-programming/raddock-object
@@ -25,7 +25,7 @@ http://www.telerik.com/help/aspnet-ajax/dock-commands-tooltips.html http://docs.
 http://www.telerik.com/help/aspnet-ajax/dock-content.html http://docs.telerik.com/devtools/ajax/dock/how-to/adding-content-to-raddock
 http://www.telerik.com/help/aspnet-ajax/dock-control-creation.html http://docs.telerik.com/devtools/ajax/dock/how-to/creating-raddock-dynamically
 http://www.telerik.com/help/aspnet-ajax/dock-control-lifecycle.html http://docs.telerik.com/devtools/ajax/dock/structure/dock/lifecycle
-http://www.telerik.com/help/aspnet-ajax/dock-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/tutorial:-creating-a-custom-lightweight-skin
+http://www.telerik.com/help/aspnet-ajax/dock-creating-custom-lightweight-skin.html http://docs.telerik.com/devtools/ajax/dock/appearance-and-styling/dock/appearance-and-styling/creating-custom-lightweight-skin
 http://www.telerik.com/help/aspnet-ajax/dock-design-command-collection-editor.html http://docs.telerik.com/devtools/ajax/dock/design-time/dockcommand-collection-editor
 http://www.telerik.com/help/aspnet-ajax/dock-design-raddock-collection-editor.html http://docs.telerik.com/devtools/ajax/dock/design-time/dock-collection-editor
 http://www.telerik.com/help/aspnet-ajax/dock-design-smart-tag.html http://docs.telerik.com/devtools/ajax/dock/design-time/smart-tag

@@ -56,6 +56,6 @@ The following example uses the **OnClientDockPositionChanged** event to pin a **
 
  * [OnClientDragStart]({%slug dock/client-side-programming/events/onclientdragstart%})
 
- * [ DockPositionChanged]({%slug dock/server-side-programming/events/-dockpositionchanged%})
+ * [ DockPositionChanged]({%slug dock/server-side-programming/events/dockpositionchanged%})
 
  * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})

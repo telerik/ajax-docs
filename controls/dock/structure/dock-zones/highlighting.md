@@ -65,6 +65,8 @@ When the **HighlightedCssClass** property is set, the **RadDockZone** uses the n
 
  * [Controlling RadDock's Appearance]({%slug dock/appearance-and-styling/controlling-raddock's-appearance%})
 
- * [Tutorial: Creating a Custom Skin]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Classic Skin]({%slug dock/appearance-and-styling/creating-custom-classic-skin%})
+
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug dock/appearance-and-styling/creating-custom-lightweight-skin%})
 
  * [OnClientDockPositionChanging]({%slug dock/client-side-programming/events/onclientdockpositionchanging%})

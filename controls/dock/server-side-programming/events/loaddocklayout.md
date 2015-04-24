@@ -19,10 +19,8 @@ The **LoadDockLayout** event handler receives two arguments:
 1. The **RadDockLayout** control that is responsible for managing the layout of **RadDockZone** and **RadDock** controls. This argument is of type object, but can be cast to the **RadDockLayout** type.
 
 1. A **DockLayoutEventArgs** object. This object provides access to layout information in two properties:
-
-* **Indices** is a **Dictionary** that stores the **Index** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
-
-* **Positions** is a **Dictionary** that stores the **DockZoneID** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
+	* **Indices** is a **Dictionary** that stores the **Index** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
+	* **Positions** is a **Dictionary** that stores the **DockZoneID** property of all **RadDock** controls, accessed through the **UniqueName** property of the **RadDock** control.
 
 >note If the application has not explicitly set the **UniqueName** property of the **RadDock** controls, the **Indices** and **Positions** properties of the **DockLayoutEventArgs** object are indexed by the server-side **ID** of the **RadDock** controls.
 >

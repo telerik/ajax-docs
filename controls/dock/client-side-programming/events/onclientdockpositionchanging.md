@@ -20,10 +20,8 @@ The event handler receives two parameters:
 1. The instance of the **RadDock** control that has just been dragged.
 
 1. An eventArgs parameter containing the following methods:
-
-* **set_cancel** lets you prevent the control from moving to the new location. If you call set_cancel(true), the **RadDock** control snaps back to its starting point, and no further events occur.
-
-* **get_cancel** returns a boolean value indicating whether the drop operation was cancelled.
+	* **set_cancel** lets you prevent the control from moving to the new location. If you call set_cancel(true), the **RadDock** control snaps back to its starting point, and no further events occur.
+	* **get_cancel** returns a boolean value indicating whether the drop operation was cancelled.
 
 The following example uses the **OnClientDockPositionChanging** event to cancel a move when a **RadDock** control is the last control in its old docking zone:
 
@@ -69,6 +67,6 @@ The following example uses the **OnClientDockPositionChanging** event to cancel 
 
  * [OnClientDragEnd]({%slug dock/client-side-programming/events/onclientdragend%})
 
- * [ DockPositionChanged]({%slug dock/server-side-programming/events/-dockpositionchanged%})
+ * [ DockPositionChanged]({%slug dock/server-side-programming/events/dockpositionchanged%})
 
  * [Drag And Drop]({%slug dock/getting-started/drag-and-drop%})

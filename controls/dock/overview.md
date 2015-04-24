@@ -28,7 +28,7 @@ The **Telerik Docking controls** consist of **RadDock**, **RadDockZone**, and **
 
 * Built-in [skins]({%slug dock/appearance-and-styling/skins%}) to quickly change the look and feel.
 
-* The ability to create your own [custom skins]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%}).
+* The ability to create your own [custom skins]({%slug dock/appearance-and-styling/creating-custom-lightweight-skin%}).
 
 * Support for [title bar templates]({%slug dock/structure/dock/title-bar-template%}) to customize the title bar of a control.
 
@@ -38,7 +38,7 @@ The **Telerik Docking controls** consist of **RadDock**, **RadDockZone**, and **
 
 * The ability to [specify tooltips]({%slug dock/commands/specifying-command-tooltips%}) for the commands in the title bar.
 
-* [Server-side events]({%slug dock/server-side-programming/overview%}) that let you [save the layout]({%slug dock/server-side-programming/events/savedocklayout%}) of docked controls in a database or other permanent storage medium and [load it at a later time]({%slug dock/server-side-programming/events/loaddocklayout%}), [respond to commands]({%slug dock/server-side-programming/events/command%}), and [respond when the user changes the layout]({%slug dock/server-side-programming/events/-dockpositionchanged%}) of docked controls.
+* [Server-side events]({%slug dock/server-side-programming/overview%}) that let you [save the layout]({%slug dock/server-side-programming/events/savedocklayout%}) of docked controls in a database or other permanent storage medium and [load it at a later time]({%slug dock/server-side-programming/events/loaddocklayout%}), [respond to commands]({%slug dock/server-side-programming/events/command%}), and [respond when the user changes the layout]({%slug dock/server-side-programming/events/dockpositionchanged%}) of docked controls.
 
 * Support for [dynamically creating RadDock controls]({%slug dock/how-to/creating-raddock-dynamically%}) that [contain custom controls]({%slug dock/how-to/adding-controls-inside-dynamically-created-docks%}), so that you can build personalized portal pages.
 

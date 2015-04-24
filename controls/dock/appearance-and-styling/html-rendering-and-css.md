@@ -38,7 +38,7 @@ And if you choose to have rounded corners the output HTML will be:
 
 
 
-Below is represented the HTML code that renders a RadDock, set with a specific options. If you want to make changes you should do that in the inline styles (when possible) or you should [create a custom skin]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%}) and to change the styles in the CSS file.
+Below is represented the HTML code that renders a RadDock, set with a specific options. If you want to make changes you should do that in the inline styles (when possible) or you should [create a custom skin]({%slug dock/appearance-and-styling/creating-custom-classic-skin%}) and to change the styles in the CSS file.
 
 ````HTML 
 <div style="width: 250px; min-width: 10px; min-height: 400px;" class="RadDockZone RadDockZone_Default rdVertical "
@@ -141,4 +141,6 @@ The code above will render a RadDock block as shown in the picture bellow:
 
 # See Also
 
- * [Tutorial: Creating a Custom Skin]({%slug dock/appearance-and-styling/tutorial:-creating-a-custom-skin%})
+ * [Tutorial: Creating a Custom Classic Skin]({%slug dock/appearance-and-styling/creating-custom-classic-skin%})
+
+ * [Tutorial: Creating a Custom Lightweight Skin]({%slug dock/appearance-and-styling/creating-custom-lightweight-skin%})

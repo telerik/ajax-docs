@@ -27,7 +27,7 @@ Here is a detailed list of steps:
 
 1. Drag a **RadDockLayout** component from the toolbox onto your Web page. The **RadDockLayout** component is responsible for ensuring that the layout of the **RadDock** controls on your page is maintained after any postbacks. This happens automatically, as long as the **RadDock** and **RadDockZone** controls are created inside the **RadDockLayout** control.
 
-1. Drag a **RadDockZone** control from the toolbox onto the surface of the **RadDockLayout** component. The **RadDockZone**[Smart Tag]({%slug dock/design-time/smart-tag%}) should appear automatically. In the Smart Tag, set the **Skin** property to "Black":
+1. Drag a **RadDockZone** control from the toolbox onto the surface of the **RadDockLayout** component. The **RadDockZone** [Smart Tag]({%slug dock/design-time/smart-tag%}) should appear automatically. In the Smart Tag, set the **Skin** property to "Black":
 
 	![](images/raddockzone1.png)
 
@@ -40,25 +40,20 @@ Here is a detailed list of steps:
 	![](images/dock-verticalproperties.png)
 
 1. Drag a second **RadDockZone** control into the **RadDockLayout**. Using the properties pane,
-
 	* Set its **Height** property to "100px".
-	
 	* Set its **Width** property to "600px".
-	
 	* Set its **Orientation** property to "Horizontal".
 
 	![](images/dock-horizontalproperties.png)
+
 
 1. Drag a **RadDock** control from the toolbox into the first **RadDockZone**:
 
 	![](images/dock-addraddock.png)
 
 1. Use the properties pane to set:
-
 	* the **Text** property to "This must be docked in Zone 1."
-	
 	* the **DockHandle** property to "Grip". This replaces the default title bar and command buttons with a simple grip control.
-	
 	* the **DockMode** property to "Docked". This restricts the **RadDock** control so that it must be docked in a dock zone.
 
 	![](images/dockhandlegrip.png)
@@ -72,11 +67,8 @@ Here is a detailed list of steps:
 	![](images/raddock2.png)
 
 1. On the second RadDock control
-
 	* Set the Text property to "This can't be closed."
-	
 	* Set the **DefaultCommands** property to "ExpandCollapse". This specifies that the title bar for the **RadDock** control contains a single icon, for expanding or collapsing the **RadDock** window.
-	
 	* Set the **DockMode** property to "Docked". This restricts the RadDock control so that it can only be placed in one of the two dock zones.
 
 	![](images/dock-defaultcommands.png)
@@ -120,16 +112,11 @@ Here is a detailed list of steps:
 	![](images/dock-gettingstarted1.png)
 
 1. Experiment with the drag-and-drop behavior of the **RadDock** controls:
-
-1. Click the mouse on the title bar of the second RadDock control. Try to drag it onto the space between the two dock zones. Note that it snaps back to its starting point.
-
-1. Drag the second RadDock control into the first dock zone. It can move to the new position because it is in a dock zone. The dock zone expands to hold the new control, because its **Height** property is not set.
-
-1. Try to drag the first **RadDock** control into the second dock zone. It snaps back because the second dock zone is in its **ForbiddenZones** list.
-
-1. Drag the first **RadDock** control around the first dock zone. you can change its position in the first dock zone.
-
-1. Drag the third **RadDock** control. Note that you can drop it anywhere on the page, not just in the dock zones. When you drop it in the dock zones, it is moved to a position in the horizontal or vertical layout.
+	1. Click the mouse on the title bar of the second RadDock control. Try to drag it onto the space between the two dock zones. Note that it snaps back to its starting point.
+	1. Drag the second RadDock control into the first dock zone. It can move to the new position because it is in a dock zone. The dock zone expands to hold the new control, because its **Height** property is not set.
+	1. Try to drag the first **RadDock** control into the second dock zone. It snaps back because the second dock zone is in its **ForbiddenZones** list.
+	1. Drag the first **RadDock** control around the first dock zone. you can change its position in the first dock zone.
+	1. Drag the third **RadDock** control. Note that you can drop it anywhere on the page, not just in the dock zones. When you drop it in the dock zones, it is moved to a position in the horizontal or vertical layout.
 
 	![](images/dock-gettingstarted2.png)
 
