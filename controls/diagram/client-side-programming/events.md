@@ -10,10 +10,6 @@ position: 1
 
 # Events
 
-
-
-## 
-
 **RadDiagram** provides a rich set of Client-Side events which allow easy and flexible use in a wide range of application scenarios.	Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
 
 * **OnLoad**—raised when the control is initialized. You can use it to store object references.You can get the underlying Kendo widget from the RadDiagram object via the get_kendoWidget() method.
@@ -47,24 +43,22 @@ position: 1
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the	corresponding property in the **ClientEvents** RadDiagram subtag.
 
 ````ASPNET
-	      	<telerik:RadDiagram ID="RadDiagram1" runat="server">
-				<ClientEvents OnLoad="OnLoad" />
-				<ShapesCollection>
-					<telerik:DiagramShape Id="s1"></telerik:DiagramShape>
-				</ShapesCollection>
-			</telerik:RadDiagram>
-			<script type="text/javascript">
-				function OnLoad(diagram) {
-					alert("OnLoad event fired by RadDiagram with ID: " + diagram.get_id());
-				}
-			</script>
+<telerik:RadDiagram ID="RadDiagram1" runat="server">
+	<ClientEvents OnLoad="OnLoad" />
+	<ShapesCollection>
+		<telerik:DiagramShape Id="s1"></telerik:DiagramShape>
+	</ShapesCollection>
+</telerik:RadDiagram>
+<script type="text/javascript">
+	function OnLoad(diagram) {
+		alert("OnLoad event fired by RadDiagram with ID: " + diagram.get_id());
+	}
+</script>
 ````
 
+All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full set of arguments coming with each event in the [Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
 
-
-All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full setof arguments coming with each event in the[Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
-
-````ASPNET
+````ASP.NET
 			<telerik:RadDiagram ID="RadDiagram2" runat="server">
 				<ClientEvents OnClick="OnClick" />
 				<ShapesCollection>
@@ -80,8 +74,6 @@ All Client-Side events, except **OnLoad**, are references to their corresponding
 				}
 			</script>
 ````
-
-
 
 # See Also
 

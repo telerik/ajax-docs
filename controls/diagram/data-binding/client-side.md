@@ -10,8 +10,6 @@ position: 1
 
 # Client-side
 
-
-
 This help article illustrates how to data bind the **RadDiagram** control on the client-side. You can do this in two ways:
 
 * By importing a JSON literal with the shapes and connections data to the KendoUI Diagram through the **load()** method. See the [Import from JSON]({%slug diagram/import-and-export/import-from-json%}) help article.
@@ -44,241 +42,233 @@ If you want to customize the shapes yourself, you can get the necessary data fro
 
 You can find the full list of properties that can be customized in the [Shapes API](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#configuration-shapes) article.
 
-**Example 1**: Client-side binding of shapes and connections data in RadDiagram through **RadClientDataSource** controls. The sample uses JSON literals from **Example 2**.
+>caption **Example 1**: Client-side binding of shapes and connections data in RadDiagram through **RadClientDataSource** controls. The sample uses JSON literals from **Example 2**.
 
 ````ASPNET
-			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="shapes-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-			</telerik:RadClientDataSource>
-			<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="connections-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-				<Schema>
-					<Model>
-						<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
-						<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
-					</Model>
-				</Schema>
-			</telerik:RadClientDataSource>
-			<telerik:RadDiagram ID="RadDiagram1" runat="server" Width="800px" Height="530px" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
-				<ShapeDefaultsSettings>
-					<ContentSettings Template="#=dataItem.content.text#" FontSize="16" />
-				</ShapeDefaultsSettings>
-			</telerik:RadDiagram>
+<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="shapes-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
+<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="connections-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+	<Schema>
+		<Model>
+			<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
+			<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
+		</Model>
+	</Schema>
+</telerik:RadClientDataSource>
+<telerik:RadDiagram ID="RadDiagram1" runat="server" Width="800px" Height="530px" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
+	<ShapeDefaultsSettings>
+		<ContentSettings Template="#=dataItem.content.text#" FontSize="16" />
+	</ShapeDefaultsSettings>
+</telerik:RadDiagram>
 ````
 
+>caption **Example 2**: Shapes and Connections JSON literals used in **Example 1**, **Example 3** and **Example 4**.
 
-
-**Example 2**: Shapes and Connections JSON literals used in**Example 1**, **Example 3** and **Example 4**.
+>caption shapes-data.json
 
 ````JavaScript
-			[{
-				"id": "management",
-				"content": {
-					"align": "center middle",
-					"text": "Management",
-					"color": "#fff"
-				},
-				"type": "circle",
-				"x": 260,
-				"y": 45,
-				"width": 120,
-				"height": 104,
-				"stroke": {
-					"width": 1,
-					"color": "#808080"
-				},
-				"fill": {
-					"color": "#8db310"
-				}
-			}, {
-				"id": "teamlead1",
-				"content": {
-					"align": "center middle",
-					"text": "Team Lead",
-					"color": "#fff"
-				},
-				"type": "circle",
-				"x": 155,
-				"y": 199,
-				"width": 120,
-				"height": 104,
-				"stroke": {
-					"width": 1,
-					"color": "#808080"
-				},
-				"fill": {
-					"color": "#f28200"
-				}
-			}, {
-				"id": "teamlead2",
-				"content": {
-					"align": "center middle",
-					"text": "Team Lead",
-					"color": "#fff"
-				},
-				"type": "circle",
-				"x": 470,
-				"y": 199,
-				"width": 120,
-				"height": 104,
-				"stroke": {
-					"width": 1,
-					"color": "#808080"
-				},
-				"fill": {
-					"color": "#f28200"
-				}
-			}]
+[{
+	"id": "management",
+	"content": {
+		"align": "center middle",
+		"text": "Management",
+		"color": "#fff"
+	},
+	"type": "circle",
+	"x": 260,
+	"y": 45,
+	"width": 120,
+	"height": 104,
+	"stroke": {
+		"width": 1,
+		"color": "#808080"
+	},
+	"fill": {
+		"color": "#8db310"
+	}
+}, {
+	"id": "teamlead1",
+	"content": {
+		"align": "center middle",
+		"text": "Team Lead",
+		"color": "#fff"
+	},
+	"type": "circle",
+	"x": 155,
+	"y": 199,
+	"width": 120,
+	"height": 104,
+	"stroke": {
+		"width": 1,
+		"color": "#808080"
+	},
+	"fill": {
+		"color": "#f28200"
+	}
+}, {
+	"id": "teamlead2",
+	"content": {
+		"align": "center middle",
+		"text": "Team Lead",
+		"color": "#fff"
+	},
+	"type": "circle",
+	"x": 470,
+	"y": 199,
+	"width": 120,
+	"height": 104,
+	"stroke": {
+		"width": 1,
+		"color": "#808080"
+	},
+	"fill": {
+		"color": "#f28200"
+	}
+}]
 ````
 
-
+>caption connections-data.json
 
 ````JavaScript
-			[{
-				"id" : "gj2Tb1uIvF",
-				"from" : {
-					"shapeId" : "management",
-					"connector" : "Auto"
-				},
-				"to" : {
-					"shapeId" : "teamlead1",
-					"connector" : "Auto"
-				}
-			}, {
-				"id" : "lqYXdfGvhH",
-				"from" : {
-					"shapeId" : "management",
-					"connector" : "Auto"
-				},
-				"to" : {
-					"shapeId" : "teamlead2",
-					"connector" : "Auto"
-				}
-			}]
+[{
+	"id" : "gj2Tb1uIvF",
+	"from" : {
+		"shapeId" : "management",
+		"connector" : "Auto"
+	},
+	"to" : {
+		"shapeId" : "teamlead1",
+		"connector" : "Auto"
+	}
+}, {
+	"id" : "lqYXdfGvhH",
+	"from" : {
+		"shapeId" : "management",
+		"connector" : "Auto"
+	},
+	"to" : {
+		"shapeId" : "teamlead2",
+		"connector" : "Auto"
+	}
+}]
 ````
 
-
-
-**Example 3**: RadDiagram client-side data binding and shapes customization through the **OnChange** event.The sample uses JSON literals from **Example 2**.
-
-
+>caption **Example 3**: RadDiagram client-side data binding and shapes customization through the **OnChange** event.The sample uses JSON literals from **Example 2**.
 
 ````JavaScript
-			function OnChange(args) {
-				var shape = args.added[0],
-					dataItem = shape.dataItem;
-				shape.redraw({
-					fill: { color: dataItem.fill.color },
-					stroke: {
-						width: dataItem.stroke.width,
-						color: dataItem.stroke.color
-					},
-					content: {
-						color: dataItem.content.color,
-						align: dataItem.content.align
-					},
-				});
+function OnChange(args) {
+	var shape = args.added[0],
+		dataItem = shape.dataItem;
+	shape.redraw({
+		fill: { color: dataItem.fill.color },
+		stroke: {
+			width: dataItem.stroke.width,
+			color: dataItem.stroke.color
+		},
+		content: {
+			color: dataItem.content.color,
+			align: dataItem.content.align
+		},
+	});
+}
+````
+````ASPNET
+<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="shapes-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
+<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="connections-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+	<Schema>
+		<Model>
+			<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
+			<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
+		</Model>
+	</Schema>
+</telerik:RadClientDataSource>
+<telerik:RadDiagram ID="RadDiagramOnChange" runat="server" Width="800px" Height="530px" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
+	<ClientEvents OnChange="OnChange" />
+	<ShapeDefaultsSettings>
+		<ContentSettings Template="#=dataItem.content.text#" FontSize="16" />
+	</ShapeDefaultsSettings>
+</telerik:RadDiagram>
+````
+
+>caption **Example 4**: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from **Example 2**.
+
+````JavaScript
+var visualTemplate = function (options) {
+	var dataItem = options.dataItem;
+	var diagram = kendo.dataviz.diagram;
+	var group = new diagram.Group();
+	var shapeType;
+	if (options.type == "circle") {
+		shapeType = new diagram.Circle({
+			fill: dataItem.fill,
+			width: dataItem.width,
+			height: dataItem.height,
+			stroke: {
+				width: dataItem.stroke.width,
+				color: dataItem.stroke.color
 			}
+		});
+	}
+	group.append(shapeType);
+
+	var textBlock1 = new diagram.TextBlock({
+		text: dataItem.content.text,
+		color: dataItem.content.color,
+		fontSize: 16,
+		x: 18,
+		y: 43
+	});
+	group.append(textBlock1);
+	return group;
+}
 ````
 ````ASPNET
-			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="shapes-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-			</telerik:RadClientDataSource>
-			<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="connections-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-				<Schema>
-					<Model>
-						<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
-						<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
-					</Model>
-				</Schema>
-			</telerik:RadClientDataSource>
-			<telerik:RadDiagram ID="RadDiagramOnChange" runat="server" Width="800px" Height="530px" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
-				<ClientEvents OnChange="OnChange" />
-				<ShapeDefaultsSettings>
-					<ContentSettings Template="#=dataItem.content.text#" FontSize="16" />
-				</ShapeDefaultsSettings>
-			</telerik:RadDiagram>
+<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="shapes-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
+<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings>
+			<Select Url="connections-data.json" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+	<Schema>
+		<Model>
+			<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
+			<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
+		</Model>
+	</Schema>
+</telerik:RadClientDataSource>
+<telerik:RadDiagram ID="RadDiagramVisual" runat="server" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
+	<ShapeDefaultsSettings Visual="visualTemplate">
+	</ShapeDefaultsSettings>
+</telerik:RadDiagram>
 ````
-
-
-**Example 4**: RadDiagram client-side data binding and shapes customization through a visual template.The sample uses JSON literals from **Example 2**.
-
-
-
-````JavaScript
-			var visualTemplate = function (options) {
-				var dataItem = options.dataItem;
-				var diagram = kendo.dataviz.diagram;
-				var group = new diagram.Group();
-				var shapeType;
-				if (options.type == "circle") {
-					shapeType = new diagram.Circle({
-						fill: dataItem.fill,
-						width: dataItem.width,
-						height: dataItem.height,
-						stroke: {
-							width: dataItem.stroke.width,
-							color: dataItem.stroke.color
-						}
-					});
-				}
-				group.append(shapeType);
-	
-				var textBlock1 = new diagram.TextBlock({
-					text: dataItem.content.text,
-					color: dataItem.content.color,
-					fontSize: 16,
-					x: 18,
-					y: 43
-				});
-				group.append(textBlock1);
-				return group;
-			}
-````
-````ASPNET
-			<telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="shapes-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-			</telerik:RadClientDataSource>
-			<telerik:RadClientDataSource ID="ConnectionsDataSource" runat="server">
-				<DataSource>
-					<WebServiceDataSourceSettings>
-						<Select Url="connections-data.json" DataType="JSON" />
-					</WebServiceDataSourceSettings>
-				</DataSource>
-				<Schema>
-					<Model>
-						<telerik:ClientDataSourceModelField FieldName="from" OriginalFieldName="from.shapeId" DataType="String" />
-						<telerik:ClientDataSourceModelField FieldName="to" OriginalFieldName="to.shapeId" DataType="String" />
-					</Model>
-				</Schema>
-			</telerik:RadClientDataSource>
-			<telerik:RadDiagram ID="RadDiagramVisual" runat="server" ClientDataSourceID="ShapesDataSource" ConnectionsClientDataSourceID="ConnectionsDataSource">
-				<ShapeDefaultsSettings Visual="visualTemplate">
-				</ShapeDefaultsSettings>
-			</telerik:RadDiagram>
-````
-
 
 # See Also
 

@@ -14,7 +14,11 @@ This article provides information about the way you can create custom shapes in 
 
 When defining a custom shape you can use the built-in connectors every shape offers, or you can define your own connectors to match the shape and functionality you need.
 
+<<<<<<< HEAD
+Below you will find examples of defining a custom shape that uses the built-in connectors (**Example 1**) and an example of setting up your own connectorson the custom shape (**Example 2**). In **Example 3**, you will find a sample configuration of the most popular shapes.
+=======
 Below you will find examples of defining a custom shape that uses the built-in connectors (**Example 1**) and an example of setting up your own connectors on the custom shape (**Example 2**). In **Example 3**, you will find a sample configuration of the most popular shapes.
+>>>>>>> Fix diagram .md files
 
 ## Custom Shape with Customized Set of Built-in Connectors
 
@@ -24,7 +28,11 @@ To create a custom shape, you need to pass the desired SVG path to the DiagramSh
 
 ![diagram-custom-shape](images/diagram-custom-shape.png)
 
+<<<<<<< HEAD
+**Example 1**: Custom RadDiagram shape with customized set of built-in connectors.
+=======
 >caption **Example 1**: Custom RadDiagram shape with customized set of built-in connectors.
+>>>>>>> Fix diagram .md files
 
 ````ASPNET
 <telerik:RadDiagram id="RadDiagram1" runat="server">
@@ -45,6 +53,14 @@ To create a custom shape, you need to pass the desired SVG path to the DiagramSh
 
 ## Custom Shape with Custom Connectors
 
+<<<<<<< HEAD
+When you need to create a custom shape, which bounds does not match with the position of the predefined connectors, you canmove the connectors to a desired position. All you need to do is to create a custom **DiagramShapeConnector** and a function that returns a`kendo.datatviz.diagram.Point(x, y)` object with the coordinates where the connector will be placed. The function that positions the connector hasas an argument the parent shape of the connector and has to be set as a value to the DiagramShape’s [Position]({%slug diagram/structure/shape%})property.
+>caption Figure 2: Custom RadDiagram shape with custom connectors.
+
+![diagram-custom-connectors](images/diagram-custom-connectors.png)
+
+**Example 2**: Defining a custom shape with custom connectors.
+=======
 When you need to create a custom shape, which bounds does not match with the position of the predefined connectors, you can move the connectors to a desired position. All you need to do is to create a custom **DiagramShapeConnector** and a function that returns a`kendo.datatviz.diagram.Point(x, y)` object with the coordinates where the connector will be placed. The function that positions the connector has as an argument the parent shape of the connector and has to be set as a value to the DiagramShape’s [Position]({%slug diagram/structure/shape%}) property.
 
 >caption **Figure 2**: Custom RadDiagram shape with custom connectors.
@@ -52,6 +68,7 @@ When you need to create a custom shape, which bounds does not match with the pos
 ![diagram-custom-connectors](images/diagram-custom-connectors.png)
 
 >caption **Example 2**: Defining a custom shape with custom connectors.
+>>>>>>> Fix diagram .md files
 
 ````ASPNET
 <script type="text/javascript">
@@ -84,6 +101,14 @@ When you need to create a custom shape, which bounds does not match with the pos
 
 ## Sample Paths for Common Shape Definitions
 
+<<<<<<< HEAD
+In **Example 3** you can find the **Path** definitions for the most popular geometrical figures, so youcan directly use them in your application. You can find the list of the resulting shapes in **Figure 3**.
+>caption Figure 3: Set of commonly used custom shapes in RadDiagram.
+
+![diagram-custom-shape-paths](images/diagram-custom-shape-paths.png)
+
+**Example 3**: Sample declarations of the common custom shapes shown in Figure 3.
+=======
 In **Example 3** you can find the **Path** definitions for the most popular geometrical figures, so you can directly use them in your application. You can find the list of the resulting shapes in **Figure 3**.
 
 >caption **Figure 3**: Set of commonly used custom shapes in RadDiagram.
@@ -91,6 +116,7 @@ In **Example 3** you can find the **Path** definitions for the most popular geom
 ![diagram-custom-shape-paths](images/diagram-custom-shape-paths.png)
 
 >caption **Example 3**: Sample declarations of the common custom shapes shown in **Figure 3**.
+>>>>>>> Fix diagram .md files
 
 ````ASPNET
 <telerik:RadDiagram ID="RadDiagram3" runat="server" Width="1200px" Height="2000" Skin="WebBlue">

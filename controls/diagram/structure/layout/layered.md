@@ -10,8 +10,6 @@ position: 2
 
 # Layered
 
-
-
 **RadDiagram** supports several layered layout based algorithms which are explained in this article.
 
 ## "Layered" Layout Type
@@ -41,7 +39,8 @@ The construction of a layered graph drawing proceeds in a series of steps (assum
 * Each node is assigned a coordinate within its layer, consistent with the permutation calculated in the previous step.
 
 * The edges reversed in the first step of the algorithm are returned to their original orientations, the dummy vertices are removed from the graph and the vertices	and edges are drawn.
->caption Figure 1. Layered Layout
+
+>caption **Figure 1**. Layered Layout
 
 ![layered Parameters](images/layeredParameters.png)
 
