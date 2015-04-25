@@ -20,19 +20,23 @@ You can take advantage of the additional functionality that we implemented with 
 >
 
 
-* **ShowCheckAll** - displays a checkbox that allows checking of all checkboxes in the dropdown;![Checkall Property](images/dropdowntree_checkall.png)
+* **ShowCheckAll** - displays a checkbox that allows checking of all checkboxes in the dropdown;
 
-* **ShowClear** - displays a button that clears the entries from the entry area.![Clear Button](images/dropdowntree_clearbutton.png)
+![Checkall Property](images/dropdowntree_checkall.png)
+
+* **ShowClear** - displays a button that clears the entries from the entry area.
+
+![Clear Button](images/dropdowntree_clearbutton.png)
 
 Here is sample code demonstrating how to set them inline:
 
 ````ASPNET
-	            <telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="250px" 
-	                DefaultMessage="Please select" CheckBoxes="SingleCheck"
-	                DataSourceID="ObjectDataSource1" DataFieldID="ID" DataFieldParentID="ParentID"
-	                DataTextField="Text">
-	                <ButtonSettings ShowCheckAll="true" ShowClear="true" />
-	            </telerik:RadDropDownTree>
+<telerik:RadDropDownTree ID="RadDropDownTree1" runat="server" Width="250px" 
+    DefaultMessage="Please select" CheckBoxes="SingleCheck"
+    DataSourceID="ObjectDataSource1" DataFieldID="ID" DataFieldParentID="ParentID"
+    DataTextField="Text">
+    <ButtonSettings ShowCheckAll="true" ShowClear="true" />
+</telerik:RadDropDownTree>
 ````
 
 

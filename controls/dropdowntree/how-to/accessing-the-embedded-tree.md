@@ -14,7 +14,7 @@ position: 0
 
 When creating the RadDropDownTree control we embedded the RadTreeView control in the dropdown. By using the properties and methods described below you can easily access the RadTreeView control on the client and server side.
 
->note Note that once you have access to the tree there might be unexpected behavior of thecontrol. Since we use the RadTreeView control as embedded tree it is also important to clarify that not all scenarios that can be implemented with the RadTreeViewcontrol are supported for the RadDropDownTree. Accessing the embedded tree is available with the **Q2 2013 SP1** (version 2013.2.717 of the RadControls.)
+>note Note that once you have access to the tree there might be unexpected behavior of the control. Since we use the RadTreeView control as embedded tree it is also important to clarify that not all scenarios that can be implemented with the RadTreeView control are supported for the RadDropDownTree. Accessing the embedded tree is available with the **Q2 2013 SP1** (version 2013.2.717 of the RadControls.)
 >
 
 
@@ -29,29 +29,40 @@ In order to access the tree in the dropdown on the server side you will need to 
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadDropDownTree1.EmbeddedTree.Nodes.FindNodeByText("Node1").Checked = true;
-	        RadDropDownTree1.SyncEmbeddedTree(); 
-	
-	    }
+
+protected void Page_Load(object sender, EventArgs e)
+{
+    RadDropDownTree1.EmbeddedTree.Nodes.FindNodeByText("Node1").Checked = true;
+    RadDropDownTree1.SyncEmbeddedTree(); 
+
+}
+
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	
-	        RadDropDownTree1.EmbeddedTree.Nodes.FindNodeByText("Node1").Checked = True
-	        RadDropDownTree1.SyncEmbeddedTree()
-	
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    RadDropDownTree1.EmbeddedTree.Nodes.FindNodeByText("Node1").Checked = True
+    RadDropDownTree1.SyncEmbeddedTree()
+
+End Sub
 	
 ````
 
 
 ## Client side
 
-To access the tree object from the client side you need to use the **get_embeddedTree()**as demonstrated below:
+To access the tree object from the client side you need to use the **get_embeddedTree()** as demonstrated below:
 
+````ASPNET
 
+<script>
+	 function pageLoad() {
+		var dropdowntree1 = $find("RadDropDownTree1");
+		var tree = dropdowntree1.get_embeddedTree();
+		var node1 = tree.get_nodes().getNode(0);
+	}
+</script>
 
+````
 

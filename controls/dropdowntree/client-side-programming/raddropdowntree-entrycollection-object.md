@@ -14,7 +14,7 @@ position: 3
 
 ## RadDropDownTree EntryCollection Object
 
-The **RadDropDownTreeEntryCollection** object is returned by the **get_entries()**method of the RadDropDownTree object.The following table lists the most important methods.
+The **RadDropDownTreeEntryCollection** object is returned by the **get_entries()** method of the RadDropDownTree object. The following table lists the most important methods.
 
 
 | Name | Parameters | Return Type | Description |

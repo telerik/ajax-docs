@@ -24,7 +24,7 @@ As a part of Q2 2013 **RadDropDownTree** control introduces fully built-in **Key
 
 1. Once the dropdown is opened you can move the focus to the filter field and then to the nodes by using the **"Tab"** key.![dropdowntree-forwardnavigation](images/dropdowntree-forwardnavigation.png)
 
-1. After the focus is set to the dropdown the user can use the **UpArrow and DownArrows** to navigate up and down the tree and the**RightArrow and LeftArrow** to expand and collapse the nodes respectively.![dropdowntree-navigationupdown](images/dropdowntree-navigationupdown.png)![dropdowntree-expandcollapsenode](images/dropdowntree-expandcollapsenode.png)
+1. After the focus is set to the dropdown the user can use the **UpArrow and DownArrows** to navigate up and down the tree and the **RightArrow and LeftArrow** to expand and collapse the nodes respectively.![dropdowntree-navigationupdown](images/dropdowntree-navigationupdown.png)![dropdowntree-expandcollapsenode](images/dropdowntree-expandcollapsenode.png)
 
 * **Action Key** -When the focus is set to a node, pressing the "Space" key checks the node.![dropdowntree-ckecknodes](images/dropdowntree-ckecknodes.png)
 

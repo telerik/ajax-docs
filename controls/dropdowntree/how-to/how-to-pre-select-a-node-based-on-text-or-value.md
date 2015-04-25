@@ -21,30 +21,30 @@ There are two options to pre-select a value in the **RadDropDownTree** when it i
 
 
 ````ASPNET
-	        <telerik:raddropdowntree runat="server" id="RadDropDownTreeTest" datatextfield="LastName"
-	            datafieldparentid="ReportsTo" datafieldid="EmployeeID" ondatabound="RadDropDownTreeTest_DataBound"
-	            datavaluefield="EmployeeID" datasourceid="SqlDataSource2" selectedvalue='<%#Bind("EmployeeID") %>'>
-	                                <DropDownSettings OpenDropDownOnLoad="true" />
-	                            </telerik:raddropdowntree>
+<telerik:raddropdowntree runat="server" id="RadDropDownTreeTest" datatextfield="LastName"
+    datafieldparentid="ReportsTo" datafieldid="EmployeeID" ondatabound="RadDropDownTreeTest_DataBound"
+    datavaluefield="EmployeeID" datasourceid="SqlDataSource2" selectedvalue='<%#Bind("EmployeeID") %>'>
+	<DropDownSettings OpenDropDownOnLoad="true" />
+</telerik:raddropdowntree>
 ````
 
 
 
 ## How to pre-select more than one node when checkboxes are enabled
 
-This section describes how one can pre-select several nodes in the scenario when checkboxes are enabled (in other words, when more that one nodecan be selected). In such case the **SelectedValue** and **SelectedText** properties can be set from code behind. It is however, important to notice that in this case there is a delimiter separating the nodes. By default, the text of the entries in the entry area isseparated by a semicolon and therefore a semicolon needs to be used when selecting more than one node. However, this can easily be changedby using the[EntriesDelimiter property]({%slug dropdowntree/functionality/delimiters%}). Note, that you will also need to change the delimiter that is used in the code behind when the **SelectedText** is set.
+This section describes how one can pre-select several nodes in the scenario when checkboxes are enabled (in other words, when more that one node can be selected). In such case the **SelectedValue** and **SelectedText** properties can be set from code behind. It is, however, important to notice that in this case there is a delimiter separating the nodes. By default, the text of the entries in the entry area is separated by a semicolon and therefore a semicolon needs to be used when selecting more than one node. However, this can easily be changed by using the [EntriesDelimiter property]({%slug dropdowntree/functionality/delimiters%}). Note, that you will also need to change the delimiter that is used in the code behind when the **SelectedText** is set.
 
-In contrast to that, when the **SelectedValue** property is set in the code behind, the values for the nodes are separated by comma. Below you can find and example how to select few nodes from the RadDropDownTree when using SelectedValue and/or SelectedText propety.
+In contrast to that, when the **SelectedValue** property is set in the code behind, the values for the nodes are separated by comma. Below you can find and example how to select few nodes from the RadDropDownTree when using SelectedValue and/or SelectedText property.
 
 ````ASPNET
-	           <telerik:RadDropDownTree runat="server" Skin="Default" ID="RadDropDownTreeTest" DataTextField="LastName" DataFieldParentID="ReportsTo"
-	                DataFieldID="EmployeeID" OnDataBound="RadDropDownTreeTest_DataBound" CheckBoxes="TriState"
-	                DataValueField="EmployeeID" DataSourceID="SqlDataSource2">
-	                <DropDownSettings OpenDropDownOnLoad="true" />
-	
-	            </telerik:RadDropDownTree>
-	            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	                SelectCommand="SELECT EmployeeID, ReportsTo, LastName FROM [Employees]"></asp:SqlDataSource>
+<telerik:RadDropDownTree runat="server" Skin="Default" ID="RadDropDownTreeTest" DataTextField="LastName" DataFieldParentID="ReportsTo"
+    DataFieldID="EmployeeID" OnDataBound="RadDropDownTreeTest_DataBound" CheckBoxes="TriState"
+    DataValueField="EmployeeID" DataSourceID="SqlDataSource2">
+    <DropDownSettings OpenDropDownOnLoad="true" />
+
+</telerik:RadDropDownTree>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT EmployeeID, ReportsTo, LastName FROM [Employees]"></asp:SqlDataSource>
 ````
 
 
@@ -52,27 +52,25 @@ In contrast to that, when the **SelectedValue** property is set in the code behi
 
 
 ````C#
-	    protected void RadDropDownTreeTest_DataBound(object sender, System.EventArgs e)
-	    {
-	        ((RadDropDownTree)sender).ExpandAllDropDownNodes();
-	        //either of the two methods can be used to select a node by using text
-	        RadDropDownTreeTest.SelectedText = "Davolio" + ";" + "Leverling";
-	        //RadDropDownTreeTest.SelectedText = "Davolio; Leverling";
-	        //the value of the nodes are separated by a comma 
-	        RadDropDownTreeTest.SelectedValue = "3,4";
-	
-	    }
-	
+protected void RadDropDownTreeTest_DataBound(object sender, System.EventArgs e)
+{
+    ((RadDropDownTree)sender).ExpandAllDropDownNodes();
+    //either of the two methods can be used to select a node by using text
+    RadDropDownTreeTest.SelectedText = "Davolio" + ";" + "Leverling";
+    //RadDropDownTreeTest.SelectedText = "Davolio; Leverling";
+    //the value of the nodes are separated by a comma 
+    RadDropDownTreeTest.SelectedValue = "3,4";
+}	
 ````
 ````VB.NET
-	    Protected Sub RadDropDownTreeTest_DataBound(sender As Object, e As System.EventArgs)
-	        DirectCast(sender, RadDropDownTree).ExpandAllDropDownNodes()
-	        'either of the two methods can be used to select a node by using text
-	        RadDropDownTreeTest.SelectedText = "Davolio" + ";" + "Leverling"
-	        'RadDropDownTreeTest.SelectedText = "Davolio; Leverling";
-	        'the value of the nodes are separated by a comma 
-	        RadDropDownTreeTest.SelectedValue = "3,4"
-	
-	    End Sub
+Protected Sub RadDropDownTreeTest_DataBound(sender As Object, e As System.EventArgs)
+    DirectCast(sender, RadDropDownTree).ExpandAllDropDownNodes()
+    'either of the two methods can be used to select a node by using text
+    RadDropDownTreeTest.SelectedText = "Davolio" + ";" + "Leverling"
+    'RadDropDownTreeTest.SelectedText = "Davolio; Leverling";
+    'the value of the nodes are separated by a comma 
+    RadDropDownTreeTest.SelectedValue = "3,4"
+
+End Sub
 ````
 

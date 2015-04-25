@@ -14,7 +14,7 @@ position: 2
 
 ## RadDropDownTree Entry Object
 
-The **RadDropDownTree Entry object** is returned by the **getEntry()**method of the RadDropDownTree EntryCollection object. It is also exposed by the eventArgs of many client-side events. The following table lists the most important methods:
+The **RadDropDownTree Entry object** is returned by the **getEntry()** method of the RadDropDownTree EntryCollection object. It is also exposed by the eventArgs of many client-side events. The following table lists the most important methods:
 
 
 >caption  

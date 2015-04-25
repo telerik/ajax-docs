@@ -20,6 +20,6 @@ The event handler receives two parameters:
 
 1. The instance of the **DropDownTree** firing the event
 
-1. An event argument parameter that contains the following property:
+2. An event argument parameter that contains the following property:
 
-* **Entry** -returns the entry that has jush being removed from the input.
+	* **Entry** - returns the entry that has just being removed from the input.

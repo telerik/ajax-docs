@@ -22,20 +22,20 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event can be cancelled - simply set **args.set_cancel** to **true** -**args.set_cancel(true);** from the event handler and the RadDropDownTree dropdown will not be opened.
+The event can be cancelled - simply set **args.set_cancel** to **true** - **args.set_cancel(true);** from the event handler and the RadDropDownTree dropdown will not be opened.
 
 ## Scroll into view to a selected node
 
 In **OnClientDropDownOpening** client-side event of RadDropDownTree we can scroll to the selected entry by using **scrollIntoView()** function of the node as in the code below:
 
 ````ASPNET
-	                    function OnClientDropDownOpening(sender, args) {
-	                        var tree = sender.get_embeddedTree(),
-	                            node = tree.get_selectedNode();
-	                        if (node) {
-	                            node.scrollIntoView();
-	                        }
-	                    }
+function OnClientDropDownOpening(sender, args) {
+    var tree = sender.get_embeddedTree(),
+        node = tree.get_selectedNode();
+    if (node) {
+        node.scrollIntoView();
+    }
+}
 ````
 
 

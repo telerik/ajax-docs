@@ -22,4 +22,4 @@ The event handler receives two parameters:
 
 1. An Event argument parameter.
 
-The event cannotbe cancelled.
+The event cannot be cancelled.
