@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadWindow for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: window/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __RadWindow__ fully supports right-to-left (RTL) language locales. The __RadWindows__are rendered to the page as children of the form element and in order to turn on the RTL support you should set__dir=rtl to the html or body__ elements.
+The **RadWindow** fully supports right-to-left (RTL) language locales. The **RadWindows**are rendered to the page as children of the form element and in order to turn on the RTL support you should set**dir=rtl to the html or body** elements.
 
 ````ASPNET
 	        html

@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadUpload for ASP.NET AJAX Documentation
 description: Overview
 slug: upload/client-side-programming/overview
 tags: overview

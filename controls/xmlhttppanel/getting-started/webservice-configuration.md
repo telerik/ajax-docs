@@ -1,6 +1,6 @@
 ---
 title: WebService Configuration
-page_title: WebService Configuration | UI for ASP.NET AJAX Documentation
+page_title: WebService Configuration | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: WebService Configuration
 slug: xmlhttppanel/getting-started/webservice-configuration
 tags: webservice,configuration
@@ -14,11 +14,11 @@ position: 3
 
 ## 
 
-__How to configure a WebService to work with RadXmlHttpPanel?__
+**How to configure a WebService to work with RadXmlHttpPanel?**
 
-1. Add XmlHttpPanel and set __EnableClientScriptEvaluation__ to __true__.
+1. Add XmlHttpPanel and set **EnableClientScriptEvaluation** to **true**.
 
-1. Right click on the WebSite to __Add New Item__ and in the window opened choose "Web Service". Make sure the check-box "Place code in separate file" is checked.
+1. Right click on the WebSite to **Add New Item** and in the window opened choose "Web Service". Make sure the check-box "Place code in separate file" is checked.
 
 1. Open the newly created "Web Service" class in the App_Code folder of your application.
 
@@ -36,7 +36,7 @@ __How to configure a WebService to work with RadXmlHttpPanel?__
 
 The string returned from this method is the actual HTML content that will be pasted within the XmlHttpPanel.
 
-1. Set the __WebMethodPath__ property to the “Web Service” (usually the .asmx file), and the __WebMethodName__ to the method that will be called by the XmlHttpPanel (i.e. GetHTML).
+1. Set the **WebMethodPath** property to the “Web Service” (usually the .asmx file), and the **WebMethodName** to the method that will be called by the XmlHttpPanel (i.e. GetHTML).
 
 1. Create an <input/> that will call set_value() method of the XmlHttpPanel. Here is how the page with the XMLHttpPanel and the WebService code-behind file should look when accomplishing the steps above:
 

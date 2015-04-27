@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadWindow for ASP.NET AJAX Documentation
 description: Localization
 slug: window/accessibility-and-internationalization/localization
 tags: localization
@@ -12,9 +12,9 @@ position: 0
 
 
 
-__RadWindow__ and __RadWindowManager__ provide a mechanism for easy localization of the command buttons' tooltips and the predefine dialogs' button texts. It is based on the native ASP.NET localization and thus requires that the new string is set to the corresponding property. You can do this either via a resource (.resx) files, or by hardcoding the values in the ASPX or code-behind.
+**RadWindow** and **RadWindowManager** provide a mechanism for easy localization of the command buttons' tooltips and the predefine dialogs' button texts. It is based on the native ASP.NET localization and thus requires that the new string is set to the corresponding property. You can do this either via a resource (.resx) files, or by hardcoding the values in the ASPX or code-behind.
 
-To activate the localization you need to use the __Localization__ property and declare the strings you wish to localize in it:![radwindow-localization](images/radwindow-localization.png)
+To activate the localization you need to use the **Localization** property and declare the strings you wish to localize in it:![radwindow-localization](images/radwindow-localization.png)
 
 ## Providing values declaratively
 
@@ -52,7 +52,7 @@ Or through the code-behind:
 
 ## Using the ASP.NET resource files
 
-You need to create the resource (*.resx) files in the __App_GlobalResources__ folder of your web application and name them accordingly:__RadWindow.<language>.resx__. Then you need to point the __Localization__ property to read the resource files:
+You need to create the resource (*.resx) files in the **App_GlobalResources** folder of your web application and name them accordingly:**RadWindow.<language>.resx**. Then you need to point the **Localization** property to read the resource files:
 
 ````ASPNET
 	    <telerik:RadWindow runat="server" ID="RadWindow1">

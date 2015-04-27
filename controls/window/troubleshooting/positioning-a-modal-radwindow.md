@@ -1,6 +1,6 @@
 ---
 title: Positioning a Modal RadWindow
-page_title: Positioning a Modal RadWindow | UI for ASP.NET AJAX Documentation
+page_title: Positioning a Modal RadWindow | RadWindow for ASP.NET AJAX Documentation
 description: Positioning a Modal RadWindow
 slug: window/troubleshooting/positioning-a-modal-radwindow
 tags: positioning,a,modal,radwindow
@@ -14,15 +14,15 @@ position: 8
 
 ## 
 
-By design, when a __RadWindow__ is __Modal__ (i.e. its Modal property is set to true - either in its own declaration,or in the declaration of the RadWindowManager that contains it) it always shows up positioned in the __center__ of the browser window.
+By design, when a **RadWindow** is **Modal** (i.e. its Modal property is set to true - either in its own declaration,or in the declaration of the RadWindowManager that contains it) it always shows up positioned in the **center** of the browser window.
 
-This means that setting its __Left__ and/or __Top__ properties will not have a visual effect and the desired positionwill not be applied.
+This means that setting its **Left** and/or **Top** properties will not have a visual effect and the desired positionwill not be applied.
 
-In order to get a custom position for a modal RadWindow the __CenterIfModal__ property or the __OnClientShow__ client-side event must be used together with its[Client-side API]({%slug window/client-side-programming/radwindow-object%}) to move the RadWindow after it shows.
+In order to get a custom position for a modal RadWindow the **CenterIfModal** property or the **OnClientShow** client-side event must be used together with its[Client-side API]({%slug window/client-side-programming/radwindow-object%}) to move the RadWindow after it shows.
 
 ## Using Q1 2013 and newer versions
 
-The __CenterIfModal__ property is available and setting it to false will have the RadWindow honor the Left and Top.Its default value is true to preserve the original behavior of the control.
+The **CenterIfModal** property is available and setting it to false will have the RadWindow honor the Left and Top.Its default value is true to preserve the original behavior of the control.
 
 ````ASPNET
 		<telerik:RadWindow ID="RadWindow1" runat="server" CenterIfModal="false" Left="20"

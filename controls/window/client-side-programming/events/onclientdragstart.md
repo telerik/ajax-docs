@@ -1,6 +1,6 @@
 ---
 title: OnClientDragStart
-page_title: OnClientDragStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientDragStart | RadWindow for ASP.NET AJAX Documentation
 description: OnClientDragStart
 slug: window/client-side-programming/events/onclientdragstart
 tags: onclientdragstart
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientDragStart__ event of the __RadWindow__ fires when the user starts dragging the popup.This action is also initiated by a click or a tap on the title bar.
+The **OnClientDragStart** event of the **RadWindow** fires when the user starts dragging the popup.This action is also initiated by a click or a tap on the title bar.
 
 The event handler receives the following arguments:
 

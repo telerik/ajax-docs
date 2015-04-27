@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadWizard for ASP.NET AJAX Documentation
 description: Localization
 slug: wizard/accessibility-and-internationalization/localization
 tags: localization
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The localization support for __RadWizard__ lets you translate some of the control’s predefined strings.
+The localization support for **RadWizard** lets you translate some of the control’s predefined strings.
 
 ## Localization property
 
@@ -39,27 +39,27 @@ By changing the values of each of its named properties, you change the appearanc
 
 ![wizard-localization-property](images/wizard-localization-property.png)
 
->note This technique is useful when customizing some of the strings of a __particular instance__ . The messages are not shared between RadWizard instances. A complete translation using this approach is inappropriate.
+>note This technique is useful when customizing some of the strings of a **particular instance** . The messages are not shared between RadWizard instances. A complete translation using this approach is inappropriate.
 >
 
 
 ## Global Resource files
 
-The primary means for localization in ASP.NET is to use __resource files__. Resource files are simple XML files that can be easily edited and transferred to other applications. You can use resource files to change the default (English) localization for RadWizard that is stored in the Telerik.Web.UI assembly.
+The primary means for localization in ASP.NET is to use **resource files**. Resource files are simple XML files that can be easily edited and transferred to other applications. You can use resource files to change the default (English) localization for RadWizard that is stored in the Telerik.Web.UI assembly.
 
 Follow these steps to create a global resource file to localize the RadWizard:
 
-1. Create the __App_GlobalResources__ folder in the root of your Web Application.
+1. Create the **App_GlobalResources** folder in the root of your Web Application.
 
-2. Copy the default resource __RadWizard.resx__ file into it. This file can be found in the __App_GlobalResources__ folder of the directory where you installed RadControls for ASP.NET AJAX.
+2. Copy the default resource **RadWizard.resx** file into it. This file can be found in the **App_GlobalResources** folder of the directory where you installed RadControls for ASP.NET AJAX.
 
-3. Make a copy of the file and rename the copy so that its name contains the __Culture Identifier__. The resource files used by RadComboBox follow a strict naming convention: RadWizard.<Culture Identifier>.resx
+3. Make a copy of the file and rename the copy so that its name contains the **Culture Identifier**. The resource files used by RadComboBox follow a strict naming convention: RadWizard.<Culture Identifier>.resx
 
 >note The Culture Identifier consists of a language code followed by a dash and the country code. Example: “en-US”, “fr-CA” and so on.
 >
 
 
-For example, add the __RadWizard.fr-FR.resx__ file to the App_GlobalResources folder (both localization files should be present there):
+For example, add the **RadWizard.fr-FR.resx** file to the App_GlobalResources folder (both localization files should be present there):
 
 ![wizard-localization-resource-file](images/wizard-localization-resource-file.png)
 
@@ -69,7 +69,7 @@ For example, add the __RadWizard.fr-FR.resx__ file to the App_GlobalResources fo
 
 ![wizard-localization-resource-file-edit](images/wizard-localization-resource-file-edit.png)
 
->caution Make sure that the __ReservedResource__ entry is preserved. It is used for identification purposes and is never displayed.
+>caution Make sure that the **ReservedResource** entry is preserved. It is used for identification purposes and is never displayed.
 >
 
 

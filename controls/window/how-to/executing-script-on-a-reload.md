@@ -1,6 +1,6 @@
 ---
 title: Executing Script on a Reload
-page_title: Executing Script on a Reload | UI for ASP.NET AJAX Documentation
+page_title: Executing Script on a Reload | RadWindow for ASP.NET AJAX Documentation
 description: Executing Script on a Reload
 slug: window/how-to/executing-script-on-a-reload
 tags: executing,script,on,a,reload
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-There are times when you want to perform a postback from a __RadWindow__ object, and then when the window reloads, execute some client-side script. For example, when a window opens a Wizard that performs some action and then does a postback to the server, you may want to close the window automatically without requiring the user to explicitly close it. Another case is when the __RadWindow__ performs some action via a postback which has an effect on the main page, and you want to force a reload of the main page so that the effect on the main page occurs immediately.
+There are times when you want to perform a postback from a **RadWindow** object, and then when the window reloads, execute some client-side script. For example, when a window opens a Wizard that performs some action and then does a postback to the server, you may want to close the window automatically without requiring the user to explicitly close it. Another case is when the **RadWindow** performs some action via a postback which has an effect on the main page, and you want to force a reload of the main page so that the effect on the main page occurs immediately.
 
 1. To execute the client-side script on a reload, first add the JavaScript to the dialog page:
 

@@ -1,6 +1,6 @@
 ---
 title: Adding Images to Steps
-page_title: Adding Images to Steps | UI for ASP.NET AJAX Documentation
+page_title: Adding Images to Steps | RadWizard for ASP.NET AJAX Documentation
 description: Adding Images to Steps
 slug: wizard/appearance-and-styling/adding-images-to-steps
 tags: adding,images,to,steps
@@ -16,21 +16,21 @@ position: 2
 
 ## 
 
-Each __RadWizardStep__ has a set of properties you can use to add images to your steps.You can simply add a single image to each step, or you can add separate images that reflect the state of the step.
+Each **RadWizardStep** has a set of properties you can use to add images to your steps.You can simply add a single image to each step, or you can add separate images that reflect the state of the step.
 
 The image appears to the left of the step title (unless you are using a [right-to-left orientation]({%slug wizard/accessibility-and-internationalization/rtl-support%}), in which case it appear to the right of the step title).
 
 The following properties let you add images to steps:
 
-* __ImageUrl__ specifies an image that is added to the step.
+* **ImageUrl** specifies an image that is added to the step.
 
-* __HoveredImageUrl__ specifies an image that is used when the mouse is over the step element.
+* **HoveredImageUrl** specifies an image that is used when the mouse is over the step element.
 
-* __ActiveImageUrl__ specifies an image that is used when this step is active.
+* **ActiveImageUrl** specifies an image that is used when this step is active.
 
-* __DisabledImageUrl__ specifies an image that is used when the step is disabled.
+* **DisabledImageUrl** specifies an image that is used when the step is disabled.
 
-The following example uses the __ImageUrl__ property to apply images to the steps:
+The following example uses the **ImageUrl** property to apply images to the steps:
 
 ````ASPNET
 	        <telerik:RadWizard runat="server">
@@ -52,9 +52,9 @@ The following example uses the __ImageUrl__ property to apply images to the step
 
 ![wizard-step-images-imgurl](images/wizard-step-images-imgurl.png)
 
-RadWizard provides support for sprites.This functionality is controlled by the __RadWizardStep__ property __SpriteCssClass__. Its purpose is to replace the step image element with a sized span for easier use of sprites. Unlike the use of ImageUrl property which will make a request for each image this approach will get and use one image that combines all step icons.
+RadWizard provides support for sprites.This functionality is controlled by the **RadWizardStep** property **SpriteCssClass**. Its purpose is to replace the step image element with a sized span for easier use of sprites. Unlike the use of ImageUrl property which will make a request for each image this approach will get and use one image that combines all step icons.
 
-The following example uses the __SpriteCssClass__ property to apply images to the steps:
+The following example uses the **SpriteCssClass** property to apply images to the steps:
 
 ````ASPNET
 	        <style type="text/css">

@@ -1,6 +1,6 @@
 ---
-title: Changes And Backward Compatibility Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Changes And Backward Compatibility Overview | RadWindow for ASP.NET AJAX Documentation
 description: Overview
 slug: window/changes-and-backward-compatibility/overview
 tags: overview

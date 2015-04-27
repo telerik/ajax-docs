@@ -1,6 +1,6 @@
 ---
 title: Tracking History
-page_title: Tracking History | UI for ASP.NET AJAX Documentation
+page_title: Tracking History | RadWizard for ASP.NET AJAX Documentation
 description: Tracking History
 slug: wizard/functionality/tracking-history
 tags: tracking,history
@@ -12,13 +12,13 @@ position: 2
 
 
 
-__Tracking history__ is functionality that enables the developer to get the list with the active steps and the order in which they have been activated. This article demonstrates how you can use this functionality on client and server side.
+**Tracking history** is functionality that enables the developer to get the list with the active steps and the order in which they have been activated. This article demonstrates how you can use this functionality on client and server side.
 
 ## Tracking history on the client side
 
-In order to track the user interaction with the RadWizard you can use the control client-side __get_history()__ method. It returns an array of indexes of the steps that have been activated and they are also arranged in the same order they have been activated.
+In order to track the user interaction with the RadWizard you can use the control client-side **get_history()** method. It returns an array of indexes of the steps that have been activated and they are also arranged in the same order they have been activated.
 
-__Example 1__ demonstrates how to add an item to a list that already exists. Each item contains the step title.
+**Example 1** demonstrates how to add an item to a list that already exists. Each item contains the step title.
 
 ````JavaScript
 	            function PrintHistoryButton_ClientClicked(sender, args) {
@@ -65,15 +65,15 @@ __Example 1__ demonstrates how to add an item to a list that already exists. Eac
 
 
 
->caution The array returned by the __get_history()__ method is cleared if a post-back occurs.Therefore this approach will not work if the __RenderedSteps__ property is set to __"Active"__ or you are subscribed for any __RadWizard__ server-side event.
+>caution The array returned by the **get_history()** method is cleared if a post-back occurs.Therefore this approach will not work if the **RenderedSteps** property is set to **"Active"** or you are subscribed for any **RadWizard** server-side event.
 >
 
 
 ## Tracking history on the server side
 
-The RadWizard server-side method __GetHistory__ returns the list with the active steps and the order in which they have been activated.
+The RadWizard server-side method **GetHistory** returns the list with the active steps and the order in which they have been activated.
 
-__Example 2__ demonstrates how to print the active step titles and the order in which they have been activated on server-side.
+**Example 2** demonstrates how to print the active step titles and the order in which they have been activated on server-side.
 
 
 

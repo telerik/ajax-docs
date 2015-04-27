@@ -1,6 +1,6 @@
 ---
 title: ButtonClicked
-page_title: ButtonClicked | UI for ASP.NET AJAX Documentation
+page_title: ButtonClicked | RadWizard for ASP.NET AJAX Documentation
 description: ButtonClicked
 slug: wizard/client-side-programming/events/buttonclicked
 tags: buttonclicked
@@ -12,13 +12,13 @@ position: 3
 
 
 
-The client-side __ButtonClicked__ event occurs immediately after the __RadWizard__ responds to button or step click. This article discusses the objects of the control's __ButtonClicking__ event and shows an example of how to retrieve properties when the event occurs (__Example 1__).
+The client-side **ButtonClicked** event occurs immediately after the **RadWizard** responds to button or step click. This article discusses the objects of the control's **ButtonClicking** event and shows an example of how to retrieve properties when the event occurs (**Example 1**).
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the __OnClientButtonClicked__ property.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the **OnClientButtonClicked** property.
 
 ## 
 
-The client-side __ButtonClicked__ event handler receives two arguments:
+The client-side **ButtonClicked** event handler receives two arguments:
 
 * Sender—the [RadWizard object]({%slug wizard/client-side-programming/wizard-object%}) that fired the event.
 
@@ -27,12 +27,12 @@ The client-side __ButtonClicked__ event handler receives two arguments:
 
 >caption ButtonClicked Event Arguments Object
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_activeStep()||RadWizardStep|Returs the current RadWizard active step.|
 |get_command()||int|Returns the wizard command. The WizardCommand can be: 0 - WizardCommand.Previous; 1 - WizardCommand.Next;2- WizardCommand.Finish; 3- WizardCommand.Cancel; 4 - WizardCommand.NavigationBarButtonClick;|
 
-__Example 1__: Handle the __RadWizard__'s client-side __ButtonClicked__ event.
+**Example 1**: Handle the **RadWizard**'s client-side **ButtonClicked** event.
 
 ````JavaScript
 	        <script type="text/javascript">

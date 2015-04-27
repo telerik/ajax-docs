@@ -1,6 +1,6 @@
 ---
 title: Examples
-page_title: Examples | UI for ASP.NET AJAX Documentation
+page_title: Examples | RadWindow for ASP.NET AJAX Documentation
 description: Examples
 slug: window/server-side-programming/examples
 tags: examples
@@ -16,13 +16,13 @@ position: 2
 
 It is possible to increase the flexibility of the RadWindowManager and RadWindow by configuring them dynamically in the code-behind, based on external conditions on the page.The code below shows:
 
-* Looping through the __Windows__ collection of a __RadWindowManager__
+* Looping through the **Windows** collection of a **RadWindowManager**
 
-* Setting properties to __RadWindowManager__ and __RadWindow__ objects
+* Setting properties to **RadWindowManager** and **RadWindow** objects
 
-* Creating a new __RadWindow__ dynamically and adding it to the __RadWindowManager____Windows__ collection or as a separate control in the form (for ASP.NET AJAX feature only)
+* Creating a new **RadWindow** dynamically and adding it to the **RadWindowManager Windows** collection or as a separate control in the form (for ASP.NET AJAX feature only)
 
-* Retrieving a window from the __RadWindowManager____Windows__ collection and configuring it.
+* Retrieving a window from the **RadWindowManager Windows** collection and configuring it.
 
 
 

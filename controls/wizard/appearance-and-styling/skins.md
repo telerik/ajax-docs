@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadWizard for ASP.NET AJAX Documentation
 description: Skins
 slug: wizard/appearance-and-styling/skins
 tags: skins
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-__RadWizard__ uses __skins__ to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their appearance.
+**RadWizard** uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their appearance.
 
-To apply a skin to a __RadWizard__ control, set its __Skin__ property.
+To apply a skin to a **RadWizard** control, set its **Skin** property.
 
-__RadWizard__ is installed with a number of preset skins. These are shown below:
+**RadWizard** is installed with a number of preset skins. These are shown below:
 >caption 
 
 ![wizard-skins](images/wizard-skins.png)

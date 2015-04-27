@@ -1,6 +1,6 @@
 ---
 title: WizardStepCreated
-page_title: WizardStepCreated | UI for ASP.NET AJAX Documentation
+page_title: WizardStepCreated | RadWizard for ASP.NET AJAX Documentation
 description: WizardStepCreated
 slug: wizard/server-side-programming/events/wizardstepcreated
 tags: wizardstepcreated
@@ -14,15 +14,15 @@ position: 7
 
 ## 
 
-The server-side __OnWizardStepCreated__ event occurs when a RadWizardStep object is created.
+The server-side **OnWizardStepCreated** event occurs when a RadWizardStep object is created.
 
-The __OnWizardStepCreated__ event handler receives two arguments:
+The **OnWizardStepCreated** event handler receives two arguments:
 
-1. The __RadWizard__ that contains the active step. This argument is of type object, but can be cast to the __RadWizard__ type.
+1. The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
-1. A __WizardStepCreatedEventArgs__ object. This object has a property __RadWizardStep__ that you can use to access the wizard step that was created.
+1. A **WizardStepCreatedEventArgs** object. This object has a property **RadWizardStep** that you can use to access the wizard step that was created.
 
-Use the __OnPreviousButtonClick__ event handler to respond when a RadWizardStep object is created.
+Use the **OnPreviousButtonClick** event handler to respond when a RadWizardStep object is created.
 
 
 

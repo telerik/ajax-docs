@@ -1,6 +1,6 @@
 ---
 title: OnClientResizeStart
-page_title: OnClientResizeStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientResizeStart | RadWindow for ASP.NET AJAX Documentation
 description: OnClientResizeStart
 slug: window/client-side-programming/events/onclientresizestart
 tags: onclientresizestart
@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-The __OnClientResizeStart__ event of the __RadWindow__ fires when the user is about to start resizing the popup.You can cancel the event to prevent the user from resizing the control by calling the `set_canel(true)` method theevent arguments object exposes. You can also entirely disable resizing through the	[Behaviors]({%slug window/getting-started/user-interaction-with-the-window%}) property of the __RadWindow__.
+The **OnClientResizeStart** event of the **RadWindow** fires when the user is about to start resizing the popup.You can cancel the event to prevent the user from resizing the control by calling the `set_canel(true)` method theevent arguments object exposes. You can also entirely disable resizing through the	[Behaviors]({%slug window/getting-started/user-interaction-with-the-window%}) property of the **RadWindow**.
 
 The event handler receives the following arguments:
 

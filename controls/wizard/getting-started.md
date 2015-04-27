@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadWizard for ASP.NET AJAX Documentation
 description: Getting Started
 slug: wizard/getting-started
 tags: getting,started
@@ -12,16 +12,16 @@ position: 1
 
 
 
-The following tutorial demonstrates how you can add a __RadWizard__ control with three steps. The end result will be similar to __Figure 1__:
+The following tutorial demonstrates how you can add a **RadWizard** control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadWizard with three steps.
 
 ![wizard-getting-started](images/wizard-getting-started.png)
 
 ## 
 
-1. Add a __ScriptManager__ control on a Web Form.
+1. Add a **ScriptManager** control on a Web Form.
 
-1. Add a __RadWizard__ control on this AJAX-enabled Web Form:__Example 1__: Declaration of a __RadWizard__ control:
+1. Add a **RadWizard** control on this AJAX-enabled Web Form:**Example 1**: Declaration of a **RadWizard** control:
 
 ````ASPNET
 	             <telerik:RadWizard ID="RadWizard2" runat="server" Width="550px">

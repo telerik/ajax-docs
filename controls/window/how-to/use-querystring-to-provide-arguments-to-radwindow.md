@@ -1,6 +1,6 @@
 ---
 title: Use Querystring to Provide Arguments to RadWindow
-page_title: Use Querystring to Provide Arguments to RadWindow | UI for ASP.NET AJAX Documentation
+page_title: Use Querystring to Provide Arguments to RadWindow | RadWindow for ASP.NET AJAX Documentation
 description: Use Querystring to Provide Arguments to RadWindow
 slug: window/how-to/use-querystring-to-provide-arguments-to-radwindow
 tags: use,querystring,to,provide,arguments,to,radwindow
@@ -16,7 +16,7 @@ position: 1
 
 You can use the window URL to pass parameters that are read on the server-side to configure the controls inside the window. For example, a common application is to send the ID of a database row to extract or edit information from a database table (such as Users, Orders, Products).
 
-The main page which calls up the __RadWindow__ dialog presents a grid with a link field in one column to bring up the __RadWindow__. When the user clicks the link, it calls openRadWindow, which constructs the URL with the arguments in the query string and calls __radopen__ to show the details window (MyDialog.aspx):
+The main page which calls up the **RadWindow** dialog presents a grid with a link field in one column to bring up the **RadWindow**. When the user clicks the link, it calls openRadWindow, which constructs the URL with the arguments in the query string and calls **radopen** to show the details window (MyDialog.aspx):
 
 ````ASPNET
 	    <script type="text/javascript">
@@ -52,7 +52,7 @@ The main page which calls up the __RadWindow__ dialog presents a grid with a lin
 
 
 
-The parameters that you send can be read from the Request object in the __Page_Load__ method of the page (__MyDialog.aspx__) being loaded in the window:
+The parameters that you send can be read from the Request object in the **Page_Load** method of the page (**MyDialog.aspx**) being loaded in the window:
 
 
 

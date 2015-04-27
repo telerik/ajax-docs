@@ -1,6 +1,6 @@
 ---
 title: OnClientResizeEnd
-page_title: OnClientResizeEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientResizeEnd | RadWindow for ASP.NET AJAX Documentation
 description: OnClientResizeEnd
 slug: window/client-side-programming/events/onclientresizeend
 tags: onclientresizeend
@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-The __OnClientResizeEnd__ event of the __RadWindow__ fires when the user finished resizing the popup.
+The **OnClientResizeEnd** event of the **RadWindow** fires when the user finished resizing the popup.
 
 The event handler receives the following arguments:
 

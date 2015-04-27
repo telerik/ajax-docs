@@ -1,6 +1,6 @@
 ---
 title: Update ZipArchive
-page_title: Update ZipArchive | UI for ASP.NET AJAX Documentation
+page_title: Update ZipArchive | RadZipLibrary for ASP.NET AJAX Documentation
 description: Update ZipArchive
 slug: ziplibrary/functionality/update-ziparchive
 tags: update,ziparchive
@@ -12,11 +12,11 @@ position: 1
 
 
 
-With __RadZipLibrary__ you can update existing ZIP archive in order to add new entries to it, delete or update existing entries.
+With **RadZipLibrary** you can update existing ZIP archive in order to add new entries to it, delete or update existing entries.
 
-The __ZipArchive__ class provides three modes: *Read*, *Create* and *Update*. More information on creating and reading an archive is available [here]({%slug ziplibrary/getting-started%}).
+The **ZipArchive** class provides three modes: *Read*, *Create* and *Update*. More information on creating and reading an archive is available [here]({%slug ziplibrary/getting-started%}).
 
-The following code snippet opens a ZIP archive in update mode using __ZipArchive__ class:
+The following code snippet opens a ZIP archive in update mode using **ZipArchive** class:
 
 
 
@@ -39,7 +39,7 @@ The following code snippet opens a ZIP archive in update mode using __ZipArchive
 ````
 
 
->note You must always dispose the ZIP archive object when all update operations (add/delete/update) are competed. The best practice is declaration and instantiation of the ZIP archive object in a using statement. If it is not possible for some reason then do not forget to call __Dispose()__ method when you complete all operations.
+>note You must always dispose the ZIP archive object when all update operations (add/delete/update) are competed. The best practice is declaration and instantiation of the ZIP archive object in a using statement. If it is not possible for some reason then do not forget to call **Dispose()** method when you complete all operations.
 >
 
 
@@ -47,7 +47,7 @@ The following code snippet opens a ZIP archive in update mode using __ZipArchive
 
 In order to add a new entry into the ZIP archive you should perform the following steps:
 
-1. Use __CreateEntry()__ method of the __ZipArchive__ object to create a new entry.
+1. Use **CreateEntry()** method of the **ZipArchive** object to create a new entry.
 
 1. Open the entry to obtain stream for writing.
 
@@ -74,15 +74,15 @@ In order to add a new entry into the ZIP archive you should perform the followin
 ````
 
 
->note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
+>note If you are using **StremWriter** to write information into the entry stream (the stream opened using entry.Open() method) then you must use **Flush()** method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
 >
 
 
 ## Delete Entry
 
-The __ZipArchive__ class provides a __GetEntry()__ method which allows you access to a particular entry in the archive.
+The **ZipArchive** class provides a **GetEntry()** method which allows you access to a particular entry in the archive.
 
-The following code snippet obtains an entry and deletes it from the ZIP archive using the __Delete()__ method:
+The following code snippet obtains an entry and deletes it from the ZIP archive using the **Delete()** method:
 
 
 
@@ -105,13 +105,13 @@ The following code snippet obtains an entry and deletes it from the ZIP archive 
 
 In order to update an existing entry in the ZIP archive you should perform the following steps:
 
-1. Use __GetEntry()__ method of the __ZipArchive__ object to obtain existing entry.
+1. Use **GetEntry()** method of the **ZipArchive** object to obtain existing entry.
 
 1. Open entry to get stream for reading/writing.
 
 1. Read/Write necessary information from/to the entry.
 
-1. Dispose entry when all necessary information is written. In the __Update__ mode this step is optional. You can omit it if you are going to add/delete/update other entries in the archive.
+1. Dispose entry when all necessary information is written. In the **Update** mode this step is optional. You can omit it if you are going to add/delete/update other entries in the archive.
 
 
 
@@ -145,6 +145,6 @@ In order to update an existing entry in the ZIP archive you should perform the f
 ````
 
 
->note If you are using __StremWriter__ to write information into the entry stream (the stream opened using entry.Open() method) then you must use __Flush()__ method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
+>note If you are using **StremWriter** to write information into the entry stream (the stream opened using entry.Open() method) then you must use **Flush()** method when you finish writing. However, do not dispose the entry stream or writer which uses it as this can cause unpredictable result. The entry stream is disposed automatically when you dispose the entry or archive opened in the *Update* mode.
 >
 

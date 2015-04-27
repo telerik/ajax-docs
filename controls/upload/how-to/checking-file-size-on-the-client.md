@@ -1,6 +1,6 @@
 ---
 title: Checking File Size on the Client
-page_title: Checking File Size on the Client | UI for ASP.NET AJAX Documentation
+page_title: Checking File Size on the Client | RadUpload for ASP.NET AJAX Documentation
 description: Checking File Size on the Client
 slug: upload/how-to/checking-file-size-on-the-client
 tags: checking,file,size,on,the,client
@@ -12,23 +12,23 @@ position: 3
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
 ## 
 
-When [validating selected files in client-side code]({%slug upload/validation/client-side-validation%}), you canonly check the file extensions.Information about the file sizes is not available on the client until files are uploaded. Once the upload begins, however,__RadProgressManager__ relays to __RadProgressArea__ information from the sever,including the combined file size.
+When [validating selected files in client-side code]({%slug upload/validation/client-side-validation%}), you canonly check the file extensions.Information about the file sizes is not available on the client until files are uploaded. Once the upload begins, however,**RadProgressManager** relays to **RadProgressArea** information from the sever,including the combined file size.
 
-While it is not possible to check the file size before upload begins, you can use the client-side __OnClientProgressUpdating__event to access information about the file size when it first becomes available.
+While it is not possible to check the file size before upload begins, you can use the client-side **OnClientProgressUpdating**event to access information about the file size when it first becomes available.
 
 >note You may need to set[maxRequestLength]({%slug upload/uploading-files/uploading-large-files%})to a large value so that the user does notget "Page not found" errors, which cannot be handled, when selecting very large files
 >
 
 
-The following example illustrates how to use __OnClientProgressUpdating__ to check the size of uploaded files (in bytes) afterthe upload process starts. This event occurs every time the __RadProgressArea__ updates, so you need to use a customvariable to flag when the check has already occurred.
+The following example illustrates how to use **OnClientProgressUpdating** to check the size of uploaded files (in bytes) afterthe upload process starts. This event occurs every time the **RadProgressArea** updates, so you need to use a customvariable to flag when the check has already occurred.
 
->caution When the upload request is canceled, the page refreshes and all information entered in the __RadUpload__ control is lost.
+>caution When the upload request is canceled, the page refreshes and all information entered in the **RadUpload** control is lost.
 >
 
 

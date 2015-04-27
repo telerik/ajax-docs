@@ -1,6 +1,6 @@
 ---
 title: PreviousButtonClick
-page_title: PreviousButtonClick | UI for ASP.NET AJAX Documentation
+page_title: PreviousButtonClick | RadWizard for ASP.NET AJAX Documentation
 description: PreviousButtonClick
 slug: wizard/server-side-programming/events/previousbuttonclick
 tags: previousbuttonclick
@@ -14,23 +14,23 @@ position: 6
 
 ## 
 
-The server-side __OnPreviousButtonClick__ event occurs when a the previous button is clicked.
+The server-side **OnPreviousButtonClick** event occurs when a the previous button is clicked.
 
-The __OnPreviousButtonClick__ event handler receives two arguments:
+The **OnPreviousButtonClick** event handler receives two arguments:
 
-1. The __RadWizard__ that contains the active step. This argument is of type object, but can be cast to the __RadWizard__ type.
+1. The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
-1. A __WizardEventArgs__ object. This object has two properties:
+1. A **WizardEventArgs** object. This object has two properties:
 
-* __CurrentStepIndex__ - the current step index.
+* **CurrentStepIndex** - the current step index.
 
-* __CurrentStep__ - a reference the current step.
+* **CurrentStep** - a reference the current step.
 
-* __NextStepIndex__ - the next step index.
+* **NextStepIndex** - the next step index.
 
-* __NextStep__ - a reference to the next step.
+* **NextStep** - a reference to the next step.
 
-Use the __OnPreviousButtonClick__ event handler to respond when a the previous button is clicked.
+Use the **OnPreviousButtonClick** event handler to respond when a the previous button is clicked.
 
 
 

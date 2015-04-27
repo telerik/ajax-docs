@@ -1,6 +1,6 @@
 ---
 title: Tutorial on Creating Custom Skin
-page_title: Tutorial on Creating Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Tutorial on Creating Custom Skin | RadUpload for ASP.NET AJAX Documentation
 description: Tutorial on Creating Custom Skin
 slug: upload/appearance-and-styling/tutorial-on-creating-custom-skin
 tags: tutorial,on,creating,custom,skin
@@ -12,11 +12,11 @@ position: 4
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
-The following tutorial demonstrates creating a custom __RadUpload__ skin, using the default skin as a base. This new skin will take the appearance of __RadUpload__ and __RadProgressDialog__ from their default look:
+The following tutorial demonstrates creating a custom **RadUpload** skin, using the default skin as a base. This new skin will take the appearance of **RadUpload** and **RadProgressDialog** from their default look:
 
 ![Default Skin](images/upload_default_skin.png)
 
@@ -28,13 +28,13 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 ## Prepare the Project
 
-1. In the Solution explorer, double-click the __Web.config__ file to open it for editing:![Web Config](images/upload_webconfig.png)
+1. In the Solution explorer, double-click the **Web.config** file to open it for editing:![Web Config](images/upload_webconfig.png)
 
-1. Under the __<configuration>__ element, locate the __<system.web>__ element. Add it if it does not exist.
+1. Under the **<configuration>** element, locate the **<system.web>** element. Add it if it does not exist.
 
-1. Under the __<system.web>__ element locate the __<httpModules>__ element. Add it if it does not exist.
+1. Under the **<system.web>** element locate the **<httpModules>** element. Add it if it does not exist.
 
-1. In the __<httpModules>__ element add the following tag to [register RadUploadHttpModule](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
+1. In the **<httpModules>** element add the following tag to [register RadUploadHttpModule](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
 
 ````XML
 	    <add name="RadUploadModule" type="Telerik.Web.UI.RadUploadHttpModule, Telerik.Web.UI" />
@@ -42,9 +42,9 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. Under the __<system.web>__ element, locate the __<httpHandlers>__ element. Add it if it does not exist.
+1. Under the **<system.web>** element, locate the **<httpHandlers>** element. Add it if it does not exist.
 
-1. In the __<httpHandlers>__ element, add the following tag to [register RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
+1. In the **<httpHandlers>** element, add the following tag to [register RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9):
 
 ````XML
 	    <add verb="*" path="Telerik.RadUploadProgressHandler.ashx" type="Telerik.Web.UI.RadUploadProgressHandler, Telerik.Web.UI" />
@@ -75,7 +75,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
-1. Copy the default __RadUpload__ skin files from the installation directory to the "Green" directory; copy both the \Upload directory that contains the images for this skin and the Upload.Default.css file that defines the skin styles.
+1. Copy the default **RadUpload** skin files from the installation directory to the "Green" directory; copy both the \Upload directory that contains the images for this skin and the Upload.Default.css file that defines the skin styles.
 
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
 >
@@ -87,29 +87,29 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 1. Drag the "Upload.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:![Drap and Drop](images/upload_drag_and_drop.png)
 
-1. Drag a __RadUpload__ control from the toolbox onto your Web page.
+1. Drag a **RadUpload** control from the toolbox onto your Web page.
 
-* Set the __ControlObjectsVisibility__ property to "All".
+* Set the **ControlObjectsVisibility** property to "All".
 
-* Set the __EnableEmbeddedSkins__ property to __False__.
+* Set the **EnableEmbeddedSkins** property to **False**.
 
-* Change the __Skin__ property to "Green".
+* Change the **Skin** property to "Green".
 
-1. Drag a __RadProgressManager__ control from the toolbox onto your Web page.
+1. Drag a **RadProgressManager** control from the toolbox onto your Web page.
 
-1. Drag a __RadProgressArea__ control from the toolbox onto your Web page.
+1. Drag a **RadProgressArea** control from the toolbox onto your Web page.
 
-* Set the __DisplayCancelButton__ property to __True__.
+* Set the **DisplayCancelButton** property to **True**.
 
-* Set the __EnableEmbeddedSkins__ property to __False__.
+* Set the **EnableEmbeddedSkins** property to **False**.
 
-* Change the __Skin__ property to "Green".
+* Change the **Skin** property to "Green".
 
-1. Drag a __Button__ from the toolbox onto your Web page.
+1. Drag a **Button** from the toolbox onto your Web page.
 
-* Change its __Text__ property to "Submit"
+* Change its **Text** property to "Submit"
 
-* Assign the following __Click__ event handler, so that you can easily see the progress dialog:
+* Assign the following **Click** event handler, so that you can easily see the progress dialog:
 
 
 
@@ -141,7 +141,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 ## Css classes for RadUpload
 
-1. The skin CSS class that is applied to the <div> element which represents the rendered __RadUpload__ control is __RadUpload_Green__. (This is also the class applied to the <div> element for __RadProgressArea__.) All other style definitions in the CSS files are qualified by this class. Within that top-level <div> element is an unordered list <ul> element, that handles the layout of the __RadUpload__ control. This <ul> element has the __ruInputs__ class applied. The default skin does not have a selector for the __ruInputs__ class alone, which is why the default skin does not show the outlines of the entire __RadUpload__ control. Add such a selector, giving it the following rules:
+1. The skin CSS class that is applied to the <div> element which represents the rendered **RadUpload** control is **RadUpload_Green**. (This is also the class applied to the <div> element for **RadProgressArea**.) All other style definitions in the CSS files are qualified by this class. Within that top-level <div> element is an unordered list <ul> element, that handles the layout of the **RadUpload** control. This <ul> element has the **ruInputs** class applied. The default skin does not have a selector for the **ruInputs** class alone, which is why the default skin does not show the outlines of the entire **RadUpload** control. Add such a selector, giving it the following rules:
 
 ````ASPNET
 	    .RadUpload_Green .ruInputs { 
@@ -158,7 +158,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 1. Another approach is to simply set the background to none, thus disable the customized sprite, and apply your own styles as decribed below:
 
-1. The input area is actually a composite of a standard file input element sitting over a text box and button control that simulate a file input element. This is done so that the skin CSS file has more control over [styling the input area]({%slug upload/appearance-and-styling/file-input-appearance%}). The __ruFakeInput__ class is applied to the text box.Locate the rule for this element, and change the border color to "green" and the background to "#eeffee":
+1. The input area is actually a composite of a standard file input element sitting over a text box and button control that simulate a file input element. This is done so that the skin CSS file has more control over [styling the input area]({%slug upload/appearance-and-styling/file-input-appearance%}). The **ruFakeInput** class is applied to the text box.Locate the rule for this element, and change the border color to "green" and the background to "#eeffee":
 
 ````ASPNET
 	    div.RadUpload_Green .ruFakeInput { 
@@ -170,7 +170,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. All of the buttons in the __RadUpload__ control (and the __RadProgressArea__ control, as well) have the __ruButton__ class applied. Locate the selector for this class(.RadUpload_Green .ruButton,.RadUploadProgressArea_Green .ruButton), and add a green border, change the background from a url to "#88ff88", and change the color to "green":
+1. All of the buttons in the **RadUpload** control (and the **RadProgressArea** control, as well) have the **ruButton** class applied. Locate the selector for this class(.RadUpload_Green .ruButton,.RadUploadProgressArea_Green .ruButton), and add a green border, change the background from a url to "#88ff88", and change the color to "green":
 
 ````ASPNET
 	    div.RadUpload_Green .ruButton,
@@ -192,7 +192,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. Each button has an additional class applied that is specific to that type of button. These classes include __ruCheck__, __ruBrowse__, __ruRemove__, __ruAdd__, and __ruDelete__. The "Green" style sheet is not going to do anything special for different button types, so locate the selector for__.RadUpload_Green .ruRemove__ and delete the class definition. However, if you need to change anything in that button, the text color, for instance, you could modify the class as follows:
+1. Each button has an additional class applied that is specific to that type of button. These classes include **ruCheck**, **ruBrowse**, **ruRemove**, **ruAdd**, and **ruDelete**. The "Green" style sheet is not going to do anything special for different button types, so locate the selector for**.RadUpload_Green .ruRemove** and delete the class definition. However, if you need to change anything in that button, the text color, for instance, you could modify the class as follows:
 
 ````ASPNET
 	    div.RadUpload_Green .ruRemove{
@@ -203,7 +203,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. The Add and Delete buttons appear inside a separate <li> element with the __ruActions__ class applied. Therefore if you need to modify them you have to add the __div.RadUpload_Green .ruActions .ruButton__ selector. In order to change the text color, the width and the margin, for example, add the following class definition:
+1. The Add and Delete buttons appear inside a separate <li> element with the **ruActions** class applied. Therefore if you need to modify them you have to add the **div.RadUpload_Green .ruActions .ruButton** selector. In order to change the text color, the width and the margin, for example, add the following class definition:
 
 ````ASPNET
 	    div.RadUpload_Green .ruActions .ruButton {
@@ -221,7 +221,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 ## Css classes for RadProgressArea
 
-1. Like the __RadUpload__ control, __RadProgressArea__ is laid out using a <div> element with the __RadUpload_Green__ class applied, and within that by a <ul> element. In the case of __RadProgressArea__, however, the <ul> element has the __ruProgress__ class applied instead of the __ruInputs__ class. Locate the rule for this class, change the background color to "#efe", change the border to green, and reduce its width to 4px:
+1. Like the **RadUpload** control, **RadProgressArea** is laid out using a <div> element with the **RadUpload_Green** class applied, and within that by a <ul> element. In the case of **RadProgressArea**, however, the <ul> element has the **ruProgress** class applied instead of the **ruInputs** class. Locate the rule for this class, change the background color to "#efe", change the border to green, and reduce its width to 4px:
 
 ````ASPNET
 	    .RadUpload_Green .ruProgress { border:4px solid Green; background:#efe; padding:15px;}
@@ -229,7 +229,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. Locate the __RadUpload_Green .ruProgress li__ selector. This class is applied to the rows of the progress dialog. Change the color to "green":
+1. Locate the **RadUpload_Green .ruProgress li** selector. This class is applied to the rows of the progress dialog. Change the color to "green":
 
 ````ASPNET
 	    .RadUpload_Green .ruProgress li { margin:0 0 0.8em; color:green;}
@@ -237,7 +237,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. Each row in the progress dialog has its own syle class, which is assigned to the <li> element. Locate the element for the row with the current file name, which has the __ruCurrentFile__ class (__.radUpload_Green .ruProgress li.ruCurrentFile__). Change the color to "#0b0" and reduce the font-size to 14px:
+1. Each row in the progress dialog has its own syle class, which is assigned to the <li> element. Locate the element for the row with the current file name, which has the **ruCurrentFile** class (**.radUpload_Green .ruProgress li.ruCurrentFile**). Change the color to "#0b0" and reduce the font-size to 14px:
 
 ````ASPNET
 	    .RadUpload_Green .ruProgress li.ruCurrentFile { margin:0 0 0.3em; font-size:14px;
@@ -246,7 +246,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. The name of the current file is rendered using a <li> element for the row. Locate the __.radUpload_Green .ruProgress li.ruCurrentFile__ selector. Use this rule to change the color to green and reduce the font size to 14 px:
+1. The name of the current file is rendered using a <li> element for the row. Locate the **.radUpload_Green .ruProgress li.ruCurrentFile** selector. Use this rule to change the color to green and reduce the font size to 14 px:
 
 ````ASPNET
 	    .RadUpload_Green .ruProgress li.ruCurrentFile { font-size:14px; color:green;}
@@ -254,7 +254,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. The progress bars are rendered using two nested <div> elements. The outer <div> has the __ruBar__ class applied. Locate the __.RadUpload_Green .ruProgress .ruBar__ selector. Change the border to green and add a white background:
+1. The progress bars are rendered using two nested <div> elements. The outer <div> has the **ruBar** class applied. Locate the **.RadUpload_Green .ruProgress .ruBar** selector. Change the border to green and add a white background:
 
 ````ASPNET
 	    div.RadUpload_Green .ruProgress .ruBar 
@@ -266,7 +266,7 @@ See [Understanding the Skin CSS File]({%slug upload/appearance-and-styling/under
 
 
 
-1. In order to alter the progress area, you need to locate the following class selector __.RadUploadProgressArea_Green .ruProgress .ruBar div__ and apply the desired color for the background:
+1. In order to alter the progress area, you need to locate the following class selector **.RadUploadProgressArea_Green .ruProgress .ruBar div** and apply the desired color for the background:
 
 ````ASPNET
 	    div.RadUploadProgressArea_Green .ruProgress .ruBar div{

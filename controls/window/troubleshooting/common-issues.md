@@ -1,6 +1,6 @@
 ---
 title: Common Issues
-page_title: Common Issues | UI for ASP.NET AJAX Documentation
+page_title: Common Issues | RadWindow for ASP.NET AJAX Documentation
 description: Common Issues
 slug: window/troubleshooting/common-issues
 tags: common,issues
@@ -20,9 +20,9 @@ Below you can see several common cases that occur when RadWindow is used and wha
 
 This happens because by default, when a RadWindow is closed, its object is not destroyed but remains hidden on the page so it can be quickly called again when needed. There are 2 ways to avoid that issue:
 
-1. Set __DestroyOnClose=true__. See p.5 for more details on the subject.
+1. Set **DestroyOnClose=true**. See p.5 for more details on the subject.
 
-1. Use the __OnClientClose__ event handler that is called every time when a RadWindow is closed. There you could use setUrl() client-side method to change the content page’s Url which will stop the media as well. e.g.
+1. Use the **OnClientClose** event handler that is called every time when a RadWindow is closed. There you could use setUrl() client-side method to change the content page’s Url which will stop the media as well. e.g.
 
 ````JavaScript
 	        function ShowWindow()
@@ -70,12 +70,12 @@ This could happen if you have set DestroyOnClose to true. When this property is 
 
 ## RadComboBox, RadCalendar, RadDatePicker, etc. are not visible when a RadWindow is maximized
 
-By default, when maximized, a __RadWindow__ changes its z-index to a very high value (100 000) in order to ensure that it is the topmost control on the page. If its __ContentTemplate__ is used then the controls inside are part of the main page and normal z-index rules apply to them as well. This means that they will be hidden behind the popup element of the RadWindow with its new value. You can find a list with the default z-index values in [this help article](A346ABA1-4892-4441-B66E-B4A8F7549BD0).
+By default, when maximized, a **RadWindow** changes its z-index to a very high value (100 000) in order to ensure that it is the topmost control on the page. If its **ContentTemplate** is used then the controls inside are part of the main page and normal z-index rules apply to them as well. This means that they will be hidden behind the popup element of the RadWindow with its new value. You can find a list with the default z-index values in [this help article](A346ABA1-4892-4441-B66E-B4A8F7549BD0).
 
-There is an easy way to control this behavior - setting the __ShowOnTopWhenMaximized__ property of the __RadWindow__ to __false__ will prevent this z-index increase and the control will behave the same way in maximized and non-maximized state. The default value of this property is __true__.
+There is an easy way to control this behavior - setting the **ShowOnTopWhenMaximized** property of the **RadWindow** to **false** will prevent this z-index increase and the control will behave the same way in maximized and non-maximized state. The default value of this property is **true**.
 
 ## RestrictionZondeID and MinimizeZoneID - common issues and requirements
 
-The __RestrictionZoneID__ can be useful, but due to the way HTML works it has some requirements in order to function properly. The main concern is that pure HTML elements do not fire resize events, so the control cannot be notified if their dimensions or positions change. This means that the __HTML element__ whose __ClientID__ is passed to the __RestrictionZoneID__ property __must have static dimensions set in__. Also, __the size of the restriction zone must be large enough to accommodate the RadWindows that will be opened inside. These dimensions must not change during runtime__ because such a modification can lead to a RadWindow being left outside of its zone which is an incorrect scenario and cannot be handled by the control. If we move the control automatically this is behavior that is not initiated by the user and is perceived as buggy; if we modify the size of the popup this may break the functionality required by the developer; if we modify the restriction zone we may break the page layout.
+The **RestrictionZoneID** can be useful, but due to the way HTML works it has some requirements in order to function properly. The main concern is that pure HTML elements do not fire resize events, so the control cannot be notified if their dimensions or positions change. This means that the **HTML element** whose **ClientID** is passed to the **RestrictionZoneID** property **must have static dimensions set in**. Also, **the size of the restriction zone must be large enough to accommodate the RadWindows that will be opened inside. These dimensions must not change during runtime** because such a modification can lead to a RadWindow being left outside of its zone which is an incorrect scenario and cannot be handled by the control. If we move the control automatically this is behavior that is not initiated by the user and is perceived as buggy; if we modify the size of the popup this may break the functionality required by the developer; if we modify the restriction zone we may break the page layout.
 
-Similar restrictions and requirements apply to the __MinimizeZoneID__ property. What is also important with it is that using it moves the RadWnidow in the DOM - upon minimizing inside the element, upon restoring - back to being a direct child of the form. __This DOM modification causes iframes to reload__. This can be avoided by creating an MDI-like interface by following[this online demo](http://demos.telerik.com/aspnet-ajax/window/examples/radwindowandmdi/defaultcs.aspx).
+Similar restrictions and requirements apply to the **MinimizeZoneID** property. What is also important with it is that using it moves the RadWnidow in the DOM - upon minimizing inside the element, upon restoring - back to being a direct child of the form. **This DOM modification causes iframes to reload**. This can be avoided by creating an MDI-like interface by following[this online demo](http://demos.telerik.com/aspnet-ajax/window/examples/radwindowandmdi/defaultcs.aspx).

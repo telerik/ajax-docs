@@ -1,6 +1,6 @@
 ---
 title: Custom Validation
-page_title: Custom Validation | UI for ASP.NET AJAX Documentation
+page_title: Custom Validation | RadUpload for ASP.NET AJAX Documentation
 description: Custom Validation
 slug: upload/validation/custom-validation
 tags: custom,validation
@@ -12,17 +12,17 @@ position: 1
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
 ## 
 
-In addition to the integrated validation, __RadUpload__ lets you perform your own custom validation using the server-side __ValidatingFile__ event. By using this event, you can use your own custom validation logic and override the integrated validation if needed.
+In addition to the integrated validation, **RadUpload** lets you perform your own custom validation using the server-side **ValidatingFile** event. By using this event, you can use your own custom validation logic and override the integrated validation if needed.
 
-To validate a file in the __ValidatingFile__ event handler, set the __IsValid__ property of the event arguments to __true__ or __false__, in order to indicate whether the file is valid. Then set the __SkipInternalValidation__ property of the event arguments to true to bypass the default validation on any files you have validated using the event handler.
+To validate a file in the **ValidatingFile** event handler, set the **IsValid** property of the event arguments to **true** or **false**, in order to indicate whether the file is valid. Then set the **SkipInternalValidation** property of the event arguments to true to bypass the default validation on any files you have validated using the event handler.
 
-As with [integrated validation]({%slug upload/validation/integrated-validation%}), valid files can be accessed using the __UploadedFiles__ property and invalid files using the __InvalidFiles__ property.
+As with [integrated validation]({%slug upload/validation/integrated-validation%}), valid files can be accessed using the **UploadedFiles** property and invalid files using the **InvalidFiles** property.
 
 The following example illustrates using custom validation to bypass the integrated size validation for zip files. The rest of the uploaded files are validated against the declared maximum file size:
 

@@ -1,6 +1,6 @@
 ---
 title: Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX
-page_title: Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX | RadUpload for ASP.NET AJAX Documentation
 description: Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX
 slug: upload/migrating-from-radupload-classic-to-radupload-for-asp.net-ajax
 tags: migrating,from,radupload,classic,to,radupload,for,asp.net,ajax
@@ -12,11 +12,11 @@ position: 6
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
-To migrate a Web application from __RadUpload__ "Classic" to __RadUpload__ for ASP.NET AJAX you need to follow these steps:
+To migrate a Web application from **RadUpload** "Classic" to **RadUpload** for ASP.NET AJAX you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
 
@@ -34,15 +34,15 @@ To migrate a Web application from __RadUpload__ "Classic" to __RadUpload__ for A
 
 ## Differences between RadUpload "classic" and RadUpload for ASP.NET AJAX
 
-Due to the migration of the __RadUpload__ control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
+Due to the migration of the **RadUpload** control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
 
 ## Server-side API changes
 
 There are no changes in the names in the server-side API of the control.
 
-__Removed methods:__
+**Removed methods:**
 
-* __MoveTo()__method has been removed.
+* **MoveTo()**method has been removed.
 
 ## Client-side API changes
 
@@ -68,7 +68,7 @@ As a result of this change, several client-side arguments have been replaced by 
 |FileInputFields|get_fileInputFields()|
 |ProgressData|get_progressData()|
 
-To cancel an event (which can be cancelled) you now call "set_cancel(true)" on the eventArgs argument instead of returning __false__ from the event handler:
+To cancel an event (which can be cancelled) you now call "set_cancel(true)" on the eventArgs argument instead of returning **false** from the event handler:
 
 ````JavaScript
 	
@@ -80,14 +80,14 @@ To cancel an event (which can be cancelled) you now call "set_cancel(true)" on t
 
 ## RadUpload object
 
-The following table lists the changes to the methods of the __RadUpload__ client object:
+The following table lists the changes to the methods of the **RadUpload** client object:
 
 
 >caption  
 
 | RadUpload Classic | RadUpload for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |AddFileInput()|addFileInput()|
 |ClearFileInputAt()|clearFileInputAt()|
 |DeleteFileInputAt()|deleteFileInputAt()|
@@ -98,26 +98,26 @@ The following table lists the changes to the methods of the __RadUpload__ client
 
 ## RadProgressManager object
 
-The following table lists the changes to the methods of the __RadProgressManager__ client object:
+The following table lists the changes to the methods of the **RadProgressManager** client object:
 
 
 >caption  
 
 | RadUpload Classic | RadUpload for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |StartProgressPolling()|startProgressPolling()|
 
 ## RadProgressArea object
 
-The following table lists the changes to the methods of the __RadProgressArea__ client object:
+The following table lists the changes to the methods of the **RadProgressArea** client object:
 
 
 >caption  
 
 | RadUpload Classic | RadUpload for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |CancelRequest()|cancelRequest()|
 |Show()|show()|
 |Hide()|hide()|
@@ -127,9 +127,9 @@ The following table lists the changes to the methods of the __RadProgressArea__ 
 
 ## New Rendering
 
-__RadUpload__ for ASP.NET AJAX has a completely different rendering from that of the classic __RadUpload__ control. The new rendering provides easier modification in the appearance of the control. However, it is not compatible with the rendering of the classic __RadUpload__.
+**RadUpload** for ASP.NET AJAX has a completely different rendering from that of the classic **RadUpload** control. The new rendering provides easier modification in the appearance of the control. However, it is not compatible with the rendering of the classic **RadUpload**.
 
->caution If your application contains code that modifies the DOM elements of the classic __RadUpload__ , this code must be completely rewritten so that it is compatible with the new rendering.
+>caution If your application contains code that modifies the DOM elements of the classic **RadUpload** , this code must be completely rewritten so that it is compatible with the new rendering.
 >
 
 

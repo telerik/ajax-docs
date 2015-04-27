@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadWindow for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: window/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-__RadWindow__ supports keyboard shortcuts to invoke its commands. This is an accessibility feature as well as functionality that can make working with the application more convenient for the end user.
+**RadWindow** supports keyboard shortcuts to invoke its commands. This is an accessibility feature as well as functionality that can make working with the application more convenient for the end user.
 
-Shortcuts can be global for the __RadWindowManager__ - for commands that affect all its child __RadWindows__ such as __Tile, RestoreAll, CloseAll__.
+Shortcuts can be global for the **RadWindowManager** - for commands that affect all its child **RadWindows** such as **Tile, RestoreAll, CloseAll**.
 
-Commands that are specific for each separate __RadWindow__ such as __Close, Minimize, Maximize__ must be declared for each separate __RadWindow__. They are only active if the __RadWindow__ has focus.
+Commands that are specific for each separate **RadWindow** such as **Close, Minimize, Maximize** must be declared for each separate **RadWindow**. They are only active if the **RadWindow** has focus.
 
-There are three ways to specify these shortcuts. The more common two are: in the __<Shortcuts>__ inner tag:
+There are three ways to specify these shortcuts. The more common two are: in the **<Shortcuts>** inner tag:
 
 ````ASPNET
 	    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
@@ -43,7 +43,7 @@ There are three ways to specify these shortcuts. The more common two are: in the
 
 
 
-or via the __Shortcuts__ server-side property:
+or via the **Shortcuts** server-side property:
 
 
 
@@ -63,7 +63,7 @@ or via the __Shortcuts__ server-side property:
 
 
 
-Since Q2 2012 the __RadWindow__ also offers the option to modify the shortcuts via JavaScript by using the following methods:
+Since Q2 2012 the **RadWindow** also offers the option to modify the shortcuts via JavaScript by using the following methods:
 
 ````JavaScript
 	        var oWnd = $find("RadWindow1"); //get a reference to the desired RadWindow
@@ -76,7 +76,7 @@ Since Q2 2012 the __RadWindow__ also offers the option to modify the shortcuts v
 
 
 
->note Shortcut modifications done via JavaScript will *not* be persisted if the control is disposed - either in an AJAX request, a full postback or via the DestroyOnClose functionality. These modifications are available *only* for a __RadWindow__ instances and *not* for the __RadWindowManager__ .
+>note Shortcut modifications done via JavaScript will *not* be persisted if the control is disposed - either in an AJAX request, a full postback or via the DestroyOnClose functionality. These modifications are available *only* for a **RadWindow** instances and *not* for the **RadWindowManager** .
 >
 
 
@@ -84,31 +84,31 @@ Since Q2 2012 the __RadWindow__ also offers the option to modify the shortcuts v
 >
 
 
-__Here follows a list with the available commands:__
+**Here follows a list with the available commands:**
 
 
 >caption for the RadWindowManager
 
-|  __Name__  |  __Executed command__  |
+|  **Name**  |  **Executed command**  |
 | ------ | ------ |
-| __CloseAll__ |Closes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
-| __MinimizeAll__ |Minimizes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
-| __RestoreAll__ |Restores all opened RadWindows from the Windows Collection of the specific RadWindowManager|
-| __MaximizeAll__ |Maximizes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
-| __MinimizeActiveWindow__ |Minimizes the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
-| __RestoreActiveWindow__ |Restores the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
-| __CloseActiveWindow__ |Closes the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
+| **CloseAll** |Closes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
+| **MinimizeAll** |Minimizes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
+| **RestoreAll** |Restores all opened RadWindows from the Windows Collection of the specific RadWindowManager|
+| **MaximizeAll** |Maximizes all opened RadWindows from the Windows Collection of the specific RadWindowManager|
+| **MinimizeActiveWindow** |Minimizes the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
+| **RestoreActiveWindow** |Restores the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
+| **CloseActiveWindow** |Closes the currently active (focused) RadWindow from the Windows Collection of the specific RadWindowManager|
 
 
 >caption For each separate RadWindow
 
-|  __Name__  |  __Executed command__  |
+|  **Name**  |  **Executed command**  |
 | ------ | ------ |
-| __Minimize__ |Minimizes the RadWindow|
-| __togglePin__ |Changes the Pinned property of the RadWindow to the opposite value (true/false)|
-| __Close__ |Closes the RadWindow|
-| __Maximize__ |Maximizes the RadWindow|
-| __Reload__ |Reloads the RadWindow|
+| **Minimize** |Minimizes the RadWindow|
+| **togglePin** |Changes the Pinned property of the RadWindow to the opposite value (true/false)|
+| **Close** |Closes the RadWindow|
+| **Maximize** |Maximizes the RadWindow|
+| **Reload** |Reloads the RadWindow|
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Client-side Events | RadUpload for ASP.NET AJAX Documentation
 description: Events
 slug: upload/client-side-programming/events
 tags: events
@@ -12,17 +12,17 @@ position: 1
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
-__RadUpload__, __RadProgressArea__, and__RadProgressManager__ support the following client-side events:
+**RadUpload**, **RadProgressArea**, and**RadProgressManager** support the following client-side events:
 
 ## RadUpload
 
-* [OnClientAdding]({%slug upload/client-side-programming/onclientadding%}) occurs when a row is aboutto be added to the __RadUpload__ control.
+* [OnClientAdding]({%slug upload/client-side-programming/onclientadding%}) occurs when a row is aboutto be added to the **RadUpload** control.
 
-* [OnClientAdded]({%slug upload/client-side-programming/onclientadded%}) occurs when a row has just beenadded to the __RadUpload__ control.
+* [OnClientAdded]({%slug upload/client-side-programming/onclientadded%}) occurs when a row has just beenadded to the **RadUpload** control.
 
 * [OnClientClearing]({%slug upload/client-side-programming/onclientclearing%}) occurs when a file input control is cleared.
 
@@ -34,13 +34,13 @@ __RadUpload__, __RadProgressArea__, and__RadProgressManager__ support the follow
 
 ## RadProgressArea
 
-* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before thetext indicators in the __RadProgressArea__ dialog are updated.
+* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before thetext indicators in the **RadProgressArea** dialog are updated.
 
-* [OnClientProgressBarUpdating](7E5BCE41-B12C-4B58-BD7F-8B21CA092561) occurs immediately before oneof the progress bars in the __RadProgressArea__ dialog is updated.
+* [OnClientProgressBarUpdating](7E5BCE41-B12C-4B58-BD7F-8B21CA092561) occurs immediately before oneof the progress bars in the **RadProgressArea** dialog is updated.
 
 ## RadProgressManager
 
-* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before any__RadProgressArea__ dialogs on the page are updated.
+* [OnClientProgressUpdating](1273E21C-A0E8-4F54-A1EF-407C0A712F84) occurs immediately before any**RadProgressArea** dialogs on the page are updated.
 
 * [OnClientProgressStarted](048DD8B2-210A-4239-8CBE-00B6082F1B78) occurs when the progress managerstarts monitoring the progress of a file upload operation.
 

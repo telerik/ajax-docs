@@ -1,6 +1,6 @@
 ---
 title: Minimize Zone
-page_title: Minimize Zone | UI for ASP.NET AJAX Documentation
+page_title: Minimize Zone | RadWindow for ASP.NET AJAX Documentation
 description: Minimize Zone
 slug: window/getting-started/minimize-zone
 tags: minimize,zone
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-Popup windows in most Web applications can't be treated like regular windows. They may or may not allow resizing, and certainly not minimizing or maximizing.RadWindow-based popup windows can be minimized as long as the __Behaviors__ property includes "Minimize". By default, whenthe user clicks on the minimize icon on the window's title bar, the window isminimized in its current location:
+Popup windows in most Web applications can't be treated like regular windows. They may or may not allow resizing, and certainly not minimizing or maximizing.RadWindow-based popup windows can be minimized as long as the **Behaviors** property includes "Minimize". By default, whenthe user clicks on the minimize icon on the window's title bar, the window isminimized in its current location:
 >caption 
 
 ![](images/window-nominimizezone.png)
@@ -25,12 +25,12 @@ To use use a minimize zone:
 
 1. Add a control to your form that hold the minimized windows.
 
-1. In the __RadWindowManager__ or __RadWindow__ control, set the __MinimizeZoneId__ property to the ID for	the control you added in step 1.
+1. In the **RadWindowManager** or **RadWindow** control, set the **MinimizeZoneId** property to the ID for	the control you added in step 1.
 >caption 
 
 ![](images/window-minimizezone.png)
 
->tip If you have several windows that all minimize to the same minimize zone, set the __MinimizeZoneID__ property of the __RadWindowManager__ rather than setting the property for each individual __RadWindow__ .
+>tip If you have several windows that all minimize to the same minimize zone, set the **MinimizeZoneID** property of the **RadWindowManager** rather than setting the property for each individual **RadWindow** .
 >
 
 

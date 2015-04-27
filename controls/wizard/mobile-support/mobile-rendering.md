@@ -1,6 +1,6 @@
 ---
 title: Mobile Rendering
-page_title: Mobile Rendering | UI for ASP.NET AJAX Documentation
+page_title: Mobile Rendering | RadWizard for ASP.NET AJAX Documentation
 description: Mobile Rendering
 slug: wizard/mobile-support/mobile-rendering
 tags: mobile,rendering
@@ -12,9 +12,9 @@ position: 2
 
 
 
-This article explains the __Mobile Rendering__ of __RadWizard__ control.
+This article explains the **Mobile Rendering** of **RadWizard** control.
 
-The RadWizard __Mobile__ rendering mode is specifically designed to be used in mobile devices where its behavior is relatively different from the one on a desktop device. This is controlled through their __RenderMode__ property.
+The RadWizard **Mobile** rendering mode is specifically designed to be used in mobile devices where its behavior is relatively different from the one on a desktop device. This is controlled through their **RenderMode** property.
 
 ## Mobile Rendering
 
@@ -23,7 +23,7 @@ With the Mobile rendering of the RadWizard you will have a specific functionalit
 
 ![wizard-mobile-rendering-index-box](images/wizard-mobile-rendering-index-box.png)
 
-__Example 3__: How to set the mobile rendering for the RadWizard.
+**Example 3**: How to set the mobile rendering for the RadWizard.
 
 ````ASPNET
 	            <telerik:RadWizard ID="RadWizard5" runat="server" Width="500px" RenderMode="Mobile">
@@ -65,7 +65,7 @@ __Example 3__: How to set the mobile rendering for the RadWizard.
 
 ### Adaptive Design with RadWizard
 
-__RadWizard__ supports __changing the rendering__ if user switch from portrait to landscape orientation or vice versa. For example if in portrait mode sum of each WizardStep width exceeds the overall RadWizard width the control shows a horizontal scrollbar and indicate the active step index. If you change the device orientation and the RadWizard width exceeds the sum of all WizardStep width the scroll bar and the little box will be hidden.
+**RadWizard** supports **changing the rendering** if user switch from portrait to landscape orientation or vice versa. For example if in portrait mode sum of each WizardStep width exceeds the overall RadWizard width the control shows a horizontal scrollbar and indicate the active step index. If you change the device orientation and the RadWizard width exceeds the sum of all WizardStep width the scroll bar and the little box will be hidden.
 >caption Figure 1: RadWizard different rendering in portrait and landscape mode
 
 ![wizard-adaptive-behavior](images/wizard-adaptive-behavior.png)

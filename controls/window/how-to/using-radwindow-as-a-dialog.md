@@ -1,6 +1,6 @@
 ---
 title: Using RadWindow as a Dialog
-page_title: Using RadWindow as a Dialog | UI for ASP.NET AJAX Documentation
+page_title: Using RadWindow as a Dialog | RadWindow for ASP.NET AJAX Documentation
 description: Using RadWindow as a Dialog
 slug: window/how-to/using-radwindow-as-a-dialog
 tags: using,radwindow,as,a,dialog
@@ -12,13 +12,13 @@ position: 3
 
 
 
-__RadWindow__ events and properties provide the support you need to create dialogs that communicate with your Web page.
+**RadWindow** events and properties provide the support you need to create dialogs that communicate with your Web page.
 
 ## On the Main Page
 
-* The __OnClientShow__ event handler sets the argument to the dialog being opened.
+* The **OnClientShow** event handler sets the argument to the dialog being opened.
 
-* The __OnClientClose__ event handler receives the result of the dialog and responds.
+* The **OnClientClose** event handler receives the result of the dialog and responds.
 
 * The necessary code - a RadWindow declaration and the event handlers themselves:
 
@@ -50,7 +50,7 @@ __RadWindow__ events and properties provide the support you need to create dialo
 
 ## On the Dialog Page
 
-* To get a reference to the __RadWindow__ object that hosts the content, add the following script to the dialog page:
+* To get a reference to the **RadWindow** object that hosts the content, add the following script to the dialog page:
 
 ````JavaScript
 	        function GetRadWindow()
@@ -96,7 +96,7 @@ __RadWindow__ events and properties provide the support you need to create dialo
 
 
 
-* The __Cancel__ button closes the containing window like this:
+* The **Cancel** button closes the containing window like this:
 
 ````JavaScript
 	        //return no argument and close the RadWindow
@@ -109,7 +109,7 @@ __RadWindow__ events and properties provide the support you need to create dialo
 
 
 
-* The __Close With Argument__ button invokes the OnClientClose function and provides it with a return value like this:
+* The **Close With Argument** button invokes the OnClientClose function and provides it with a return value like this:
 
 ````JavaScript
 	        //Close the dialog and return the argument to the OnClientClose event handler

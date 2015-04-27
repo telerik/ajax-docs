@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadWizard for ASP.NET AJAX Documentation
 description: Validation
 slug: wizard/functionality/validation
 tags: validation
@@ -12,21 +12,21 @@ position: 1
 
 
 
-__Validation__ functionality allows implementing an intuitive step by step form that will give users chance to move through the Wizard sequentially and have some required fields on each step.
+**Validation** functionality allows implementing an intuitive step by step form that will give users chance to move through the Wizard sequentially and have some required fields on each step.
 
 ## 
 
 The following properties are essential in implementing a validation for a RadWizardStep:
 
-* __CausesValidation__ enables/disables the validation for specific RadWizardStep.
+* **CausesValidation** enables/disables the validation for specific RadWizardStep.
 
-* __ValidationGroup__ specifies which group of controls is validated on validation.
+* **ValidationGroup** specifies which group of controls is validated on validation.
 
 There are some specifics about the RadWizard validation functionality:
 
-* You can use same __ValidationGroup__ value for more than one __RadWizardStep__. In this case you will be able to navigate between those steps without firing the validation. The validation will fail only if you go to a step that is not part of that ValidationGroup and leave some required fields empty.
+* You can use same **ValidationGroup** value for more than one **RadWizardStep**. In this case you will be able to navigate between those steps without firing the validation. The validation will fail only if you go to a step that is not part of that ValidationGroup and leave some required fields empty.
 
-* The validation will not be fired if user clicks on the __Previous Navigation button__ or directly navigate to any of the previous steps in the Navigation Bar.
+* The validation will not be fired if user clicks on the **Previous Navigation button** or directly navigate to any of the previous steps in the Navigation Bar.
 
 Please find below a little demonstration on how to make a text field within a RadWizardStep to be required in order to activate another step.
 

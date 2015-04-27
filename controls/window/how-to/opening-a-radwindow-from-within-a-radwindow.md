@@ -1,6 +1,6 @@
 ---
 title: Opening a RadWindow from Within a RadWindow
-page_title: Opening a RadWindow from Within a RadWindow | UI for ASP.NET AJAX Documentation
+page_title: Opening a RadWindow from Within a RadWindow | RadWindow for ASP.NET AJAX Documentation
 description: Opening a RadWindow from Within a RadWindow
 slug: window/how-to/opening-a-radwindow-from-within-a-radwindow
 tags: opening,a,radwindow,from,within,a,radwindow
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-When opening a __RadWindow__ from code that is inside another __RadWindow__ object, you can use any of the methods described in [Opening Windows]({%slug window/getting-started/opening-windows%}). However, by default the parent of the new __RadWindow__ object is the window that is executing the JavaScript. This limits the second window from moving outside the borders of the first __RadWindow__ object, which is likely to be unduly constricting and unintuitive to the end user.
+When opening a **RadWindow** from code that is inside another **RadWindow** object, you can use any of the methods described in [Opening Windows]({%slug window/getting-started/opening-windows%}). However, by default the parent of the new **RadWindow** object is the window that is executing the JavaScript. This limits the second window from moving outside the borders of the first **RadWindow** object, which is likely to be unduly constricting and unintuitive to the end user.
 
-You can, instead, use the current __RadWindow's__ parent window as the parent of the new window. This allows the new window the same freedom of movement as the current __RadWindow__ object. There are two ways to accomplish this:
+You can, instead, use the current **RadWindow's** parent window as the parent of the new window. This allows the new window the same freedom of movement as the current **RadWindow** object. There are two ways to accomplish this:
 
-* Obtain a reference to the parent window, and call __radopen__ from there.
+* Obtain a reference to the parent window, and call **radopen** from there.
 
-* Obtain a reference to the RadWindowManager, which is on the parent window, and use its __open__ method.
+* Obtain a reference to the RadWindowManager, which is on the parent window, and use its **open** method.
 
-For either method, your first step is to get a reference to the current RadWindow. The most robust way to do this is to add the following function to the __RadWindow__ that will open the second __RadWindow__:
+For either method, your first step is to get a reference to the current RadWindow. The most robust way to do this is to add the following function to the **RadWindow** that will open the second **RadWindow**:
 
 ````JavaScript
 	
@@ -36,7 +36,7 @@ For either method, your first step is to get a reference to the current RadWindo
 
 
 
-Next, if you want to use the first approach, you can use the current __RadWindow__ to get a reference to the parent page, and use it to call __radopen__:
+Next, if you want to use the first approach, you can use the current **RadWindow** to get a reference to the parent page, and use it to call **radopen**:
 
 ````JavaScript
 	        var oBrowserWnd = GetRadWindow().BrowserWindow;
@@ -48,7 +48,7 @@ Next, if you want to use the first approach, you can use the current __RadWindow
 
 
 
-If you choose the second approach, use the current __RadWindow__ to get a reference to the __RadWindowManager__ in the parent page, and use it to call __open__:
+If you choose the second approach, use the current **RadWindow** to get a reference to the **RadWindowManager** in the parent page, and use it to call **open**:
 
 ````JavaScript
 	        var oManager = GetRadWindow().get_windowManager();
@@ -62,7 +62,7 @@ If you choose the second approach, use the current __RadWindow__ to get a refere
 
 
 
->tip The timeout is needed to allow the browser to properly set the active __RadWindow__ . This happens because the __RadWindow's__ entire UI is created at this point via JavaScript and the browser needs to first accomplish this operation.
+>tip The timeout is needed to allow the browser to properly set the active **RadWindow** . This happens because the **RadWindow's** entire UI is created at this point via JavaScript and the browser needs to first accomplish this operation.
 >
 
 

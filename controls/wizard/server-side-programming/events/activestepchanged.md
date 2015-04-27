@@ -1,6 +1,6 @@
 ---
 title: ActiveStepChanged
-page_title: ActiveStepChanged | UI for ASP.NET AJAX Documentation
+page_title: ActiveStepChanged | RadWizard for ASP.NET AJAX Documentation
 description: ActiveStepChanged
 slug: wizard/server-side-programming/events/activestepchanged
 tags: activestepchanged
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-The server-side __ActiveStepChanged__ event occurs when occurs when the active step is changed.
+The server-side **ActiveStepChanged** event occurs when occurs when the active step is changed.
 
-The __ActiveStepChanged__ event handler receives two arguments:
+The **ActiveStepChanged** event handler receives two arguments:
 
-* The __RadWizard__ that contains the active step. This argument is of type object, but can be cast to the __RadWizard__ type.
+* The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
-Use the __ActiveStepChanged__ event handler to respond when the user changes the active step.
+Use the **ActiveStepChanged** event handler to respond when the user changes the active step.
 
 
 

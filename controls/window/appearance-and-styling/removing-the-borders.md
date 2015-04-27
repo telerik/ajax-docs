@@ -1,6 +1,6 @@
 ---
 title: Removing the Borders
-page_title: Removing the Borders | UI for ASP.NET AJAX Documentation
+page_title: Removing the Borders | RadWindow for ASP.NET AJAX Documentation
 description: Removing the Borders
 slug: window/appearance-and-styling/removing-the-borders
 tags: removing,the,borders
@@ -12,9 +12,9 @@ position: 2
 
 
 
-The __RadWindow's__ borders are achieved via CSS, background image sprites and dedicated HTML elements for the purpose.There is no simple property for turning them off. Properties like BorderWidth, BorderStyle, BorderWidth are present in the controls markup and intellisense, yet they are merely inherited from the[System.Web.UI.WebControls.WebControl Class](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol.aspx) and are not implemented in the __RadWindow__, as such simple properties cannot have a clear and easily determinable effecton such a complex HTML structure.
+The **RadWindow's** borders are achieved via CSS, background image sprites and dedicated HTML elements for the purpose.There is no simple property for turning them off. Properties like BorderWidth, BorderStyle, BorderWidth are present in the controls markup and intellisense, yet they are merely inherited from the[System.Web.UI.WebControls.WebControl Class](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.webcontrol.aspx) and are not implemented in the **RadWindow**, as such simple properties cannot have a clear and easily determinable effecton such a complex HTML structure.
 
-It is possible, however, to override the default CSS styles of the __RadWindow__ so that the elements that hold the borders are not displayed.Examples are offered for both Lightweight and Classic RenderModes.
+It is possible, however, to override the default CSS styles of the **RadWindow** so that the elements that hold the borders are not displayed.Examples are offered for both Lightweight and Classic RenderModes.
 
 An alternative is [creating a custom skin]({%slug window/appearance-and-styling/radwindow-css-classes-and-their-use%}) where you can freely modify the visibility of the borders.In the [Tutorial on creating a custom skin]({%slug window/appearance-and-styling/radwindow-css-classes-and-their-use%})'s last section there is also a tutorial on modifying the sprites, e.g., their color.
 
@@ -110,12 +110,12 @@ With [Lightweight RenderMode]({%slug window/mobile-support/render-modes%}) the a
 
 The above code will should be placed in the head section of the page where you wish to remove the borders. You may additionaly change/remove some of the classes so that certain elements are visible, if required by your logic.
 
->tip Use background: none !important; if you wish to preserve the space that the elements take so that the __RadWindow__ can be dragged and resized, as display:none; will remove the HTML elements from view.
+>tip Use background: none !important; if you wish to preserve the space that the elements take so that the **RadWindow** can be dragged and resized, as display:none; will remove the HTML elements from view.
 >
 
 
->tip The above cascade goes through the built-in skin __Sunset__ , i.e. it will affect only __RadWindow__ that use this skin. This is useful if you wish to have borders for most windows, yet some should not. Thus you can set the skin for the ones that will be borderless to a certain one you otherwise do not use and use its name instead of __Sunset__ .
->Of course, the __CssClass__ property of the control can also be used to create the needed cascade through a custom class.
+>tip The above cascade goes through the built-in skin **Sunset** , i.e. it will affect only **RadWindow** that use this skin. This is useful if you wish to have borders for most windows, yet some should not. Thus you can set the skin for the ones that will be borderless to a certain one you otherwise do not use and use its name instead of **Sunset** .
+>Of course, the **CssClass** property of the control can also be used to create the needed cascade through a custom class.
 >
 
 

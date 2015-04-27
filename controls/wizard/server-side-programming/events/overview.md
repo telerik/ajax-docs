@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Events Overview | RadWizard for ASP.NET AJAX Documentation
 description: Overview
 slug: wizard/server-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadWizard__ introduces the following server-side events:
+**RadWizard** introduces the following server-side events:
 
 * [OnActiveStepChanged]({%slug wizard/server-side-programming/events/activestepchanged%}) occurs when the active step is changed.
 

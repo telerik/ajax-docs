@@ -1,6 +1,6 @@
 ---
 title: Using RadConfirm In Server Code
-page_title: Using RadConfirm In Server Code | UI for ASP.NET AJAX Documentation
+page_title: Using RadConfirm In Server Code | RadWindow for ASP.NET AJAX Documentation
 description: Using RadConfirm In Server Code
 slug: window/how-to/using-radconfirm-in-server-code
 tags: using,radconfirm,in,server,code
@@ -12,11 +12,11 @@ position: 9
 
 
 
-The __RadConfirm__ dialog is essentially a RadWindow, which means it is entirely a client-side object. It can be manipulated via JavaScript	on the client-side only. This means that when called from the server __it can be shown to the end user only once all the server code has ran and the responseis received in the browser__. Logic that requires the user's confirmation during execution cannot be achieved directly with the __RadConfirm, norwith a standard confirm()__ and thus it must be separated in two parts - the first one ends with the confirmation call, while the second part	receives the response and takes the necessary action. Ultimately this will require an additional request to the server to send the user's choice and this is done	in the __RadConfirm's callback function__ because it receives the true/false result as an argument. There, depending on the result, a request can be	initiated to finish the work. There are different ways to achieve it, for example:
+The **RadConfirm** dialog is essentially a RadWindow, which means it is entirely a client-side object. It can be manipulated via JavaScript	on the client-side only. This means that when called from the server **it can be shown to the end user only once all the server code has ran and the responseis received in the browser**. Logic that requires the user's confirmation during execution cannot be achieved directly with the **RadConfirm, norwith a standard confirm()** and thus it must be separated in two parts - the first one ends with the confirmation call, while the second part	receives the response and takes the necessary action. Ultimately this will require an additional request to the server to send the user's choice and this is done	in the **RadConfirm's callback function** because it receives the true/false result as an argument. There, depending on the result, a request can be	initiated to finish the work. There are different ways to achieve it, for example:
 
 ## Initiating A Postback
 
-A hidden button with the desired event handler can be placed on the page and the ____doPostBack()__ function can be used to call it.There are different ways to use it and some of them are listed in the[Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx)or in[this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using___doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
+A hidden button with the desired event handler can be placed on the page and the ****doPostBack()** function can be used to call it.There are different ways to use it and some of them are listed in the[Confirm Server Clicks Online Demo](http://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx)or in[this article in the net](http://www.codedigest.com/Articles/ASPNET/320_Doing_or_Raising_Postback_using**_doPostBack()_function_from_Javascript_in_AspNet.aspx). For example:
 
 
 
@@ -29,7 +29,7 @@ A hidden button with the desired event handler can be placed on the page and the
 			{
 				if (arg) //the user clicked OK
 				{
-					__doPostBack("<%=HiddenButton.UniqueID %>", "");
+					**doPostBack("<%=HiddenButton.UniqueID %>", "");
 				}
 			}
 		</script>
@@ -134,7 +134,7 @@ The above example can contain an UpdatePanel around the hidden button in order t
 
 ## Using Page Methods
 
-An alternative is to use Page methods to finish the task as they also provide an easy feedback mechanism for the user.[This article](http://www.singingeels.com/Articles/Using_Page_Methods_in_ASPNET_AJAX.aspx)can be a good starting point for using them. Note that you need to set the __EnablePageMethods__ property of the script managerto __true__ to enable them and to also include a reference to __System.Web.Services__.
+An alternative is to use Page methods to finish the task as they also provide an easy feedback mechanism for the user.[This article](http://www.singingeels.com/Articles/Using_Page_Methods_in_ASPNET_AJAX.aspx)can be a good starting point for using them. Note that you need to set the **EnablePageMethods** property of the script managerto **true** to enable them and to also include a reference to **System.Web.Services**.
 
 
 

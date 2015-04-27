@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadWindow for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: window/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
@@ -12,15 +12,15 @@ position: 3
 
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadWindow__and __RadWindowManager__ controls.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadWindow**and **RadWindowManager** controls.
 
 ## 
 
-The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.__RadWindow__ and __RadWindowManager__ offer WAI-ARIA support.
+The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.**RadWindow** and **RadWindowManager** offer WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the __RadWindow__ / __RadWindowManager__ control's __EnableAriaSupport__property to __true__ as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadWindow** / **RadWindowManager** control's **EnableAriaSupport**property to **true** as shown in the example below.
 
-__Example 1__: Setting the __EnalbeAriaSupport__ property for __RadWindow__ and __RadWindowManager__
+**Example 1**: Setting the **EnalbeAriaSupport** property for **RadWindow** and **RadWindowManager**
 
 
 
@@ -45,11 +45,11 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadWindow__ and 
 >
 
 
->tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens.	This is done out of the box for the[RadAlert]({%slug window/alert,-confirm,-prompt-dialogs/radalert-dialog%}),[RadConfirm]({%slug window/alert,-confirm,-prompt-dialogs/radconfirm-dialog%})and[RadPrompt]({%slug window/alert,-confirm,-prompt-dialogs/radprompt-dialog%})dialogs.	For custom __RadWindows__ this should be done by the developer.
+>tip According to the WAI-ARIA specifications, the first input in a dialog should get the focus when the dialog opens.	This is done out of the box for the[RadAlert]({%slug window/alert,-confirm,-prompt-dialogs/radalert-dialog%}),[RadConfirm]({%slug window/alert,-confirm,-prompt-dialogs/radconfirm-dialog%})and[RadPrompt]({%slug window/alert,-confirm,-prompt-dialogs/radprompt-dialog%})dialogs.	For custom **RadWindows** this should be done by the developer.
 >
 
 
->note  __RadWindows__ in the Windows collection of a __RadWindowManager__ , or ones dynamically created by a manager,will inherit the value of its __EnableAriaSupport__ property.
+>note  **RadWindows** in the Windows collection of a **RadWindowManager** , or ones dynamically created by a manager,will inherit the value of its **EnableAriaSupport** property.
 >
 
 

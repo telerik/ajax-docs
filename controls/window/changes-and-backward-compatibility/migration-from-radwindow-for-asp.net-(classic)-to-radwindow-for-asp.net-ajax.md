@@ -1,6 +1,6 @@
 ---
 title: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX
-page_title: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX | RadWindow for ASP.NET AJAX Documentation
 description: Migration from RadWindow for ASP.NET (Classic) to RadWindow for ASP.NET AJAX
 slug: window/changes-and-backward-compatibility/migration-from-radwindow-for-asp.net-(classic)-to-radwindow-for-asp.net-ajax
 tags: migration,from,radwindow,for,asp.net,(classic),to,radwindow,for,asp.net,ajax
@@ -26,9 +26,9 @@ You can find below the list of steps to migrate your web applications from the c
 
 1. Drag and drop a control from the Telerik UI for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic RadWindow's directive __<%@ Register Assembly="RadWindow.NET2" Namespace="Telerik.WebControls" TagPrefix="radW" %>__ with the new one of RadWindow for ASP.NET AJAX __:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>__
+1. Replace the classic RadWindow's directive **<%@ Register Assembly="RadWindow.NET2" Namespace="Telerik.WebControls" TagPrefix="radW" %>** with the new one of RadWindow for ASP.NET AJAX **:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>**
 
-1. Replace the classic RadWindow's declaration:__<radW:RadWindow id="RadWindow1" Runat="server">Sample Content</radW:RadWindow>__ with the new RadWindow for ASP.NET AJAX one: __<telerik:RadWindow ID="RadWindow1" runat="server"></telerik:RadWindow>__
+1. Replace the classic RadWindow's declaration:**<radW:RadWindow id="RadWindow1" Runat="server">Sample Content</radW:RadWindow>** with the new RadWindow for ASP.NET AJAX one: **<telerik:RadWindow ID="RadWindow1" runat="server"></telerik:RadWindow>**
 
 
 

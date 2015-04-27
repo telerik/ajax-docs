@@ -1,6 +1,6 @@
 ---
 title: NavigationBarButtonClick
-page_title: NavigationBarButtonClick | UI for ASP.NET AJAX Documentation
+page_title: NavigationBarButtonClick | RadWizard for ASP.NET AJAX Documentation
 description: NavigationBarButtonClick
 slug: wizard/server-side-programming/events/navigationbarbuttonclick
 tags: navigationbarbuttonclick
@@ -14,23 +14,23 @@ position: 4
 
 ## 
 
-The server-side __NavigationBarButton__ event occurs when a button within the navigation bar is clicked.
+The server-side **NavigationBarButton** event occurs when a button within the navigation bar is clicked.
 
-The __NavigationBarButton__ event handler receives two arguments:
+The **NavigationBarButton** event handler receives two arguments:
 
-1. The __RadWizard__ that contains the active step. This argument is of type object, but can be cast to the __RadWizard__ type.
+1. The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
-1. A __WizardEventArgs__ object. This object has two properties:
+1. A **WizardEventArgs** object. This object has two properties:
 
-* __CurrentStepIndex__ - the current step index.
+* **CurrentStepIndex** - the current step index.
 
-* __CurrentStep__ - a reference the current step.
+* **CurrentStep** - a reference the current step.
 
-* __NextStepIndex__ - the next step index.
+* **NextStepIndex** - the next step index.
 
-* __NextStep__ - a reference to the next step.
+* **NextStep** - a reference to the next step.
 
-Use the __NavigationBarButton__ event handler to respond when a button within the navigation bar is clicked.
+Use the **NavigationBarButton** event handler to respond when a button within the navigation bar is clicked.
 
 
 

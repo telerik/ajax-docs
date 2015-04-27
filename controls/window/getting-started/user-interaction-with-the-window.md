@@ -1,6 +1,6 @@
 ---
 title: User Interaction With The Window
-page_title: User Interaction With The Window | UI for ASP.NET AJAX Documentation
+page_title: User Interaction With The Window | RadWindow for ASP.NET AJAX Documentation
 description: User Interaction With The Window
 slug: window/getting-started/user-interaction-with-the-window
 tags: user,interaction,with,the,window
@@ -14,34 +14,34 @@ position: 6
 
 ## 
 
-Use the __Behaviors__ property to determine how the user can interact with the __RadWindow__ object. __Behaviors__ controls whether the user can move or resize the window, whether it has maximize and minimize buttons, whether it can be pinned, and whether there is a close button on the title bar.
+Use the **Behaviors** property to determine how the user can interact with the **RadWindow** object. **Behaviors** controls whether the user can move or resize the window, whether it has maximize and minimize buttons, whether it can be pinned, and whether there is a close button on the title bar.
 
-Here are the __Behaviors__' property values:
+Here are the **Behaviors**' property values:
 
-* __None__ - The user can perform none of the actions on the window.
+* **None** - The user can perform none of the actions on the window.
 
-* __Resize__ - The user can resize the window by dragging its border.
+* **Resize** - The user can resize the window by dragging its border.
 
-* __Minimize__ - The window can be minimized, and has a minimize button on the title bar.
+* **Minimize** - The window can be minimized, and has a minimize button on the title bar.
 
-* __Close__ - The user can close the window using a title bar button.
+* **Close** - The user can close the window using a title bar button.
 
-* __Pin__ - The window can be pinned, and has a pin button on the title bar.
+* **Pin** - The window can be pinned, and has a pin button on the title bar.
 
-* __Maximize__ - The window can be maximized, and has a maximize button on the title bar.
+* **Maximize** - The window can be maximized, and has a maximize button on the title bar.
 
-* __Move__ - The user can click on the window title bar and drag it to a new location.
+* **Move** - The user can click on the window title bar and drag it to a new location.
 
-* __Reload__ - The user can reload the window contents using a title bar button.
+* **Reload** - The user can reload the window contents using a title bar button.
 
-* __Default__ - Default object behavior: all of the above.
+* **Default** - Default object behavior: all of the above.
 
-To specify a combination of behaviors (other than the default), combine __Behaviors__ values. For example, if you want to let the user close the window using a button on the title bar, and to move the window by dragging it, but do not want any other buttons on the title bar, set __Behaviors="Close, Move"__:
+To specify a combination of behaviors (other than the default), combine **Behaviors** values. For example, if you want to let the user close the window using a button on the title bar, and to move the window by dragging it, but do not want any other buttons on the title bar, set **Behaviors="Close, Move"**:
 >caption 
 
 ![](images/window-behaviors.png)
 
-You can also set the __Behaviors__ property from the codebehind:
+You can also set the **Behaviors** property from the codebehind:
 
 
 

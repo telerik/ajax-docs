@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeShow
-page_title: OnClientBeforeShow | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeShow | RadWindow for ASP.NET AJAX Documentation
 description: OnClientBeforeShow
 slug: window/client-side-programming/events/onclientbeforeshow
 tags: onclientbeforeshow
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientBeforeShow__ event of the __RadWindow__ control fires when it is about to show.You can cancel the event to prevent the dialog from showing (__Example 1__). Doing so will prevent its markup from being generated.You cannot modify the HTML of the popup element in this event because it does not exist yet.
+The **OnClientBeforeShow** event of the **RadWindow** control fires when it is about to show.You can cancel the event to prevent the dialog from showing (**Example 1**). Doing so will prevent its markup from being generated.You cannot modify the HTML of the popup element in this event because it does not exist yet.
 
 The event handler receives the following arguments:
 
@@ -30,7 +30,7 @@ The event handler receives the following arguments:
 
 1. boolean—a value that indicates whether the event is to be cancelled.|
 
-__Example 1__: Cancelling the OnClientBeforeShow event of the RadWindow to prevent it from showing up.
+**Example 1**: Cancelling the OnClientBeforeShow event of the RadWindow to prevent it from showing up.
 
 ````XML
 			<asp:Button ID="Button1" Text="show the dialog" runat="server" />

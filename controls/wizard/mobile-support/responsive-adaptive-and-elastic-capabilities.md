@@ -1,6 +1,6 @@
 ---
 title: Responsive Adaptive and Elastic Capabilities
-page_title: Responsive Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Responsive Adaptive and Elastic Capabilities | RadWizard for ASP.NET AJAX Documentation
 description: Responsive Adaptive and Elastic Capabilities
 slug: wizard/mobile-support/responsive-adaptive-and-elastic-capabilities
 tags: responsive,adaptive,and,elastic,capabilities
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article explains the __responsive design capabilities RadWizard offers__.
+This article explains the **responsive design capabilities RadWizard offers**.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having dimensions set in percent.
 
@@ -21,9 +21,9 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![wizard-elastic-capabilities](images/wizard-elastic-capabilities.png)
 
-__RadWizard__ supports __changing the font size__ without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px` because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
+**RadWizard** supports **changing the font size** without breaking the control's appearance - if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text. This layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px` because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
-__Example 1:__ How to increase the font size of a RadWizard as shown in Figure 1.
+**Example 1:** How to increase the font size of a RadWizard as shown in Figure 1.
 
 ````ASPNET
 	    <style type="text/css">
@@ -51,9 +51,9 @@ __Example 1:__ How to increase the font size of a RadWizard as shown in Figure 1
 
 ![wizard-fluid](images/wizard-fluid.png)
 
-You can set the __Width__ and __Height__ properties of the __RadWizard__ in __percent__. This lets it resize together with its parent element size.
+You can set the **Width** and **Height** properties of the **RadWizard** in **percent**. This lets it resize together with its parent element size.
 
-__Example 2__: Markup and CSS that provide a fluid RadWizard that changes size with the browser viewport
+**Example 2**: Markup and CSS that provide a fluid RadWizard that changes size with the browser viewport
 
 ````ASPNET
 	     <telerik:RadWizard ID="RadWizard4" runat="server" Width="100%">
@@ -73,4 +73,4 @@ __Example 2__: Markup and CSS that provide a fluid RadWizard that changes size w
 
 ## Adaptive Design with RadWizard
 
-When the RenderMode is set to "Mobile" the __RadWizard__ supports __changing the rendering__ if user switch from portrait to landscape orientation or vice versa. More information about RadWizard adaptive design please find in the [ Mobile Rendering help article ]({%slug wizard/mobile-support/mobile-rendering%})
+When the RenderMode is set to "Mobile" the **RadWizard** supports **changing the rendering** if user switch from portrait to landscape orientation or vice versa. More information about RadWizard adaptive design please find in the [ Mobile Rendering help article ]({%slug wizard/mobile-support/mobile-rendering%})

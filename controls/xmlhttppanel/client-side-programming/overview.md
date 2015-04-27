@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: Overview
 slug: xmlhttppanel/client-side-programming/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-To get a reference to the __RadXmlHttpPanel__ control, use the ASP.NET AJAX's native __$find()__ method:
+To get a reference to the **RadXmlHttpPanel** control, use the ASP.NET AJAX's native **$find()** method:
 
 ````JavaScript
 	            var panel = $find("<%=RadXmlHttpPanel.ClientID %>");
@@ -22,7 +22,7 @@ To get a reference to the __RadXmlHttpPanel__ control, use the ASP.NET AJAX's na
 
 
 
-Note, that this object is available in the __Sys.Application.Load event__ at the earliest.
+Note, that this object is available in the **Sys.Application.Load event** at the earliest.
 
 Once you have the client-side object of the control, you can use its [client-side API]({%slug xmlhttppanel/client-side-programming/xmlhttppanel-object%}).
 

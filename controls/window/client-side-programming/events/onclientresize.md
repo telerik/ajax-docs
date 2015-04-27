@@ -1,6 +1,6 @@
 ---
 title: OnClientResize
-page_title: OnClientResize | UI for ASP.NET AJAX Documentation
+page_title: OnClientResize | RadWindow for ASP.NET AJAX Documentation
 description: OnClientResize
 slug: window/client-side-programming/events/onclientresize
 tags: onclientresize
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientResize__ event of the __RadWindow__ fires while the user is resizing the popup.
+The **OnClientResize** event of the **RadWindow** fires while the user is resizing the popup.
 
 The event handler receives the following arguments:
 

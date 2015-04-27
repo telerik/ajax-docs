@@ -1,6 +1,6 @@
 ---
 title: Changes
-page_title: Changes | UI for ASP.NET AJAX Documentation
+page_title: Changes | RadZipLibrary for ASP.NET AJAX Documentation
 description: Changes
 slug: ziplibrary/changes-and-backwards-compatibility-/changes
 tags: changes
@@ -16,7 +16,7 @@ This topic summarizes the new functionality introduced in the library with helpf
 
 ## What's New in 2015 Q1
 
-ZipPackage has been deprecated since Q1 2015 release of Telerik UI for ASP.NET AJAX, but you can use __ZipArchive__ instead. The ZIP archive is represented by __ZipArchive__ class and it can be used in 3 modes (Read, Create and Update). For more information about them you can refer to the [Getting Started]({%slug ziplibrary/getting-started%}) article.
+ZipPackage has been deprecated since Q1 2015 release of Telerik UI for ASP.NET AJAX, but you can use **ZipArchive** instead. The ZIP archive is represented by **ZipArchive** class and it can be used in 3 modes (Read, Create and Update). For more information about them you can refer to the [Getting Started]({%slug ziplibrary/getting-started%}) article.
 
 You can check the new version equivalents of the obsolated ZIP classes in the [Backward Compatibility]({%slug ziplibrary/changes-and-backwards-compatibility-/backward-compatibility%}) topic.
 

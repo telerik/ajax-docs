@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
+page_title: Design Time | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: Design Time
 slug: xmlhttppanel/design-time
 tags: design,time

@@ -1,6 +1,6 @@
 ---
 title: OnClientResponseError
-page_title: OnClientResponseError | UI for ASP.NET AJAX Documentation
+page_title: OnClientResponseError | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: OnClientResponseError
 slug: xmlhttppanel/client-side-programming/events/onclientresponseerror
 tags: onclientresponseerror
@@ -16,19 +16,19 @@ position: 3
 
 
 
-The __OnClientResponseError__occurs in the cases when an error (WebService or Callback error) occurs when the __RadXmlHttpPanel__tries to load certain content.
+The **OnClientResponseError**occurs in the cases when an error (WebService or Callback error) occurs when the **RadXmlHttpPanel**tries to load certain content.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadXmlHttpPanel__control in which the error occurred.
+1. The instance of the **RadXmlHttpPanel**control in which the error occurred.
 
 1. An eventArgs parameter containing the following properties and methods:
 
 1. set_cancelErrorAlert lets you prevent from displaying the built-in error alert that notifies the user that an error has occurred, and gives the possibility to display a custom error message.
 
-1. get_cancelErrorAlert returns a boolean value indicating whether the __RadXmlHttpPanel’s__ displaying of the built-in error alert has been canceled.
+1. get_cancelErrorAlert returns a boolean value indicating whether the **RadXmlHttpPanel’s** displaying of the built-in error alert has been canceled.
 
-The following example demonstrates how the user can display: a custom content inside the __RadXmlHttpPanel__ or a custom error message (alert), if an error has occurred while loading content inside the panel. The panel tries to load RadCalendar control, but an error will occur because the control’s RegisterWithScriptManager property has not been set to false.
+The following example demonstrates how the user can display: a custom content inside the **RadXmlHttpPanel** or a custom error message (alert), if an error has occurred while loading content inside the panel. The panel tries to load RadCalendar control, but an error will occur because the control’s RegisterWithScriptManager property has not been set to false.
 
 ````JavaScript
 	    <script type="text/javascript">

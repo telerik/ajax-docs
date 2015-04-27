@@ -1,6 +1,6 @@
 ---
 title: Gestures
-page_title: Gestures | UI for ASP.NET AJAX Documentation
+page_title: Gestures | RadWizard for ASP.NET AJAX Documentation
 description: Gestures
 slug: wizard/mobile-support/gestures
 tags: gestures
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__RadWizard__ for ASP.NET AJAX handles gestures from touch enabled screens. You can use the drag to perform scrolling between the wizard steps as shown in __Figure 1__.
+**RadWizard** for ASP.NET AJAX handles gestures from touch enabled screens. You can use the drag to perform scrolling between the wizard steps as shown in **Figure 1**.
 
-__Figure 1__ illustrates how to use touch device gestures on __RadWizard__.
+**Figure 1** illustrates how to use touch device gestures on **RadWizard**.
 >caption Figure 1: RadWizard handles drag to scroll between the wizard steps.
 
 ![wizard-gestures-previous-step](images/wizard-gestures-previous-step.png)

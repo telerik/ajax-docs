@@ -1,6 +1,6 @@
 ---
-title: Wizard Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadWizard Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: wizard/overview
 tags: overview
@@ -12,14 +12,14 @@ position: 0
 
 
 
-__RadWizard__ for ASP.NET AJAX is a Step-by-Step User Interface which takes the user through a series of steps in order to accomplish some task or collect user input.It also shows the current level of completion of the entire process by the built-in progress bar.
+**RadWizard** for ASP.NET AJAX is a Step-by-Step User Interface which takes the user through a series of steps in order to accomplish some task or collect user input.It also shows the current level of completion of the entire process by the built-in progress bar.
 
 ## 
 >caption Figure 1: Three RadWizard in an ASP.NET page
 
 ![wizard-overview](images/wizard-overview.png)
 
-The __RadWizard__ control in the Telerik UI for ASP.NET AJAX suite is available since the __2014 Q3__ version.
+The **RadWizard** control in the Telerik UI for ASP.NET AJAX suite is available since the **2014 Q3** version.
 
 The control offers a rich set of features:
 

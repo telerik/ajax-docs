@@ -1,6 +1,6 @@
 ---
 title: Client-Side WCF Service Binding
-page_title: Client-Side WCF Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-Side WCF Service Binding | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: Client-Side WCF Service Binding
 slug: xmlhttppanel/getting-started/client-side-wcf-service-binding
 tags: client-side,wcf,service,binding
@@ -20,11 +20,11 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 
 1. In the properties pane for the RadXmlHttpPanelcomponent, set the WcfRequestMethod, WcfMethodPath and the WcfMethodName properties to identify the Web service:
 
-* __WcfRequestMethod__ - Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE.
+* **WcfRequestMethod** - Gets or sets the request method for WCF Service used to populate content GET, POST, PUT, DELETE.
 
-* __WcfServicePath__ - Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
+* **WcfServicePath** - Gets or sets a string value that indicates the virtual path of the WCF Service used by the RadXmlHttpPanel.
 
-* __WcfServiceMethod__ - Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
+* **WcfServiceMethod** - Gets or sets a string value that indicates the WCF Service method used by the RadXmlHttpPanel.
 
 1. Setting the Value property of the panel depends on theWcfRequestMethod property.In both cases country is the name of the parameter in the WcfRequestMethod method :
 

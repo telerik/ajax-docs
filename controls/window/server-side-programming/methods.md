@@ -1,6 +1,6 @@
 ---
 title: Methods
-page_title: Methods | UI for ASP.NET AJAX Documentation
+page_title: Methods | RadWindow for ASP.NET AJAX Documentation
 description: Methods
 slug: window/server-side-programming/methods
 tags: methods
@@ -17,7 +17,7 @@ position: 1
 
 | Name | Description |
 | ------ | ------ |
-| __RadAlert__ |Calls the RadAlert dialog when the page is loaded. Takes the following arguments:
+| **RadAlert** |Calls the RadAlert dialog when the page is loaded. Takes the following arguments:
 
 1. Text - an HTML string to be shown as the alert message
 
@@ -30,7 +30,7 @@ position: 1
 1. callBackFnName - the name of the client-side JavaScript function to be called when the dialog is closed
 
 1. imgUrl - optional - a string that is the URL of the new image that will be displayed on the left side of the dialog. If this parameter is not passed (or null/Nothing is passed) the default image is retained; if an empty string is passed the image is removed.|
-| __RadConfirm__ |Calls the RadConfirm dialog when the page is loaded. Takes the following arguments:
+| **RadConfirm** |Calls the RadConfirm dialog when the page is loaded. Takes the following arguments:
 
 1. Text - an HTML string to be shown as the alert message
 
@@ -45,7 +45,7 @@ position: 1
 1. Title - a string to be shown in the titlebar
 
 1. imgUrl - optional - a string that is the URL of the new image that will be displayed on the left side of the dialog. If this parameter is not passed (or null/Nothing is passed) the default image is retained; if an empty string is passed the image is removed.|
-| __RadPrompt__ |Calls the RadPrompt dialog when the page is loaded. Takes the following arguments:
+| **RadPrompt** |Calls the RadPrompt dialog when the page is loaded. Takes the following arguments:
 
 1. Text - an HTML string to be shown as the alert message
 

@@ -1,6 +1,6 @@
 ---
 title: CancelButtonClick
-page_title: CancelButtonClick | UI for ASP.NET AJAX Documentation
+page_title: CancelButtonClick | RadWizard for ASP.NET AJAX Documentation
 description: CancelButtonClick
 slug: wizard/server-side-programming/events/cancelbuttonclick
 tags: cancelbuttonclick

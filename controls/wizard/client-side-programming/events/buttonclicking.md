@@ -1,6 +1,6 @@
 ---
 title: ButtonClicking
-page_title: ButtonClicking | UI for ASP.NET AJAX Documentation
+page_title: ButtonClicking | RadWizard for ASP.NET AJAX Documentation
 description: ButtonClicking
 slug: wizard/client-side-programming/events/buttonclicking
 tags: buttonclicking
@@ -12,13 +12,13 @@ position: 2
 
 
 
-The client-side __ButtonClicking__ event is raised when user clicks on a button orstep before the__RadWizard__ responds to the click. You can handle this event in case you want to prevent the click.This article discusses the objects of the control's __ButtonClicking__ event and shows an example of how to retrieve properties when the event occurs (__Example 1__).
+The client-side **ButtonClicking** event is raised when user clicks on a button orstep before the**RadWizard** responds to the click. You can handle this event in case you want to prevent the click.This article discusses the objects of the control's **ButtonClicking** event and shows an example of how to retrieve properties when the event occurs (**Example 1**).
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the __OnClientButtonClicking__ property.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the **OnClientButtonClicking** property.
 
 ## 
 
-The client-side __ButtonClicking__ event handler receives two arguments:
+The client-side **ButtonClicking** event handler receives two arguments:
 
 * Sender—the [RadWizard object]({%slug wizard/client-side-programming/wizard-object%}) that fired the event.
 
@@ -27,14 +27,14 @@ The client-side __ButtonClicking__ event handler receives two arguments:
 
 >caption ButtonClicking Event Arguments Object
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()||bool|Gets a value that indicates whether the event is canceled.|
 |get_command()||int|Returns the command that is about to be executed. The WizardCommand can be: 0 - WizardCommand.Previous; 1 - WizardCommand.Next;2- WizardCommand.Finish; 3- WizardCommand.Cancel; 4 - WizardCommand.NavigationBarButtonClick;|
 |get_nextActiveStep()||RadWizardStep|Returns the step user is trying to navigate to.|
 |set_cancel(value)|bool||Sets whether the event will be canceled (if true is passed).|
 
-__Example 1__: Handle the __RadWizard__'s client-side __ButtonClicking__ event.
+**Example 1**: Handle the **RadWizard**'s client-side **ButtonClicking** event.
 
 ````JavaScript
 	        <script type="text/javascript">

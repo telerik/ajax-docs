@@ -1,6 +1,6 @@
 ---
 title: Compression Settings
-page_title: Compression Settings | UI for ASP.NET AJAX Documentation
+page_title: Compression Settings | RadZipLibrary for ASP.NET AJAX Documentation
 description: Compression Settings
 slug: ziplibrary/functionality/compression-settings
 tags: compression,settings
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The __RadZipLibrary__ allows you compress and decompress data in your application seamlessly. There are different settings that can be used for compression and this article discusses all of them.
+The **RadZipLibrary** allows you compress and decompress data in your application seamlessly. There are different settings that can be used for compression and this article discusses all of them.
 
 ## Deflate Settings
 
@@ -22,13 +22,13 @@ Deflate settings are used for compressing data using a combination of the LZ77 a
 >
 
 
-The __DeflateSettings__ class exposes some configurable parameters:
+The **DeflateSettings** class exposes some configurable parameters:
 
-* __CompressionLevel__: Property of type CompressionLevel representing the level of compression of the algorithm.
+* **CompressionLevel**: Property of type CompressionLevel representing the level of compression of the algorithm.
 
-* __HeaderType__: Represents the compression stream header type. The possible values are None and ZLib.
+* **HeaderType**: Represents the compression stream header type. The possible values are None and ZLib.
 
-__Example 1__ demonstrates how to create DeflateSettings.
+**Example 1** demonstrates how to create DeflateSettings.
 
 ````C#
 	            DeflateSettings compressionSettings = new DeflateSettings();
@@ -75,19 +75,19 @@ LZMA settings are used for compressing your data using Lempel-Ziv-Markov chain a
 >
 
 
-The configurable parameters of the __LzmaSettings__ class are as follows:
+The configurable parameters of the **LzmaSettings** class are as follows:
 
-* __DictionarySize__: The size of the used dictionary. Allowed values are in the range [0 – 27] and the default value is 23 (8MB).
+* **DictionarySize**: The size of the used dictionary. Allowed values are in the range [0 – 27] and the default value is 23 (8MB).
 
-* __PositionStateBits__: The number of position state bits. Allowed values are in the range [0 – 4]; the default value is 2.
+* **PositionStateBits**: The number of position state bits. Allowed values are in the range [0 – 4]; the default value is 2.
 
-* __LiteralContextBits__: The number of literal context bits. Allowed values are in the range [0 – 4]; the default value is 3.
+* **LiteralContextBits**: The number of literal context bits. Allowed values are in the range [0 – 4]; the default value is 3.
 
-* __LiteralPositionBits__: The number of literal position bits. Allowed values are in the range [0 – 4]; the default value is 3.
+* **LiteralPositionBits**: The number of literal position bits. Allowed values are in the range [0 – 4]; the default value is 3.
 
-* __FastBytes__: The number of fast bytes. Allowed values are in the range [5 – 273]; the default value is 32.
+* **FastBytes**: The number of fast bytes. Allowed values are in the range [5 – 273]; the default value is 32.
 
-* __MatchFinderType__: The type of the match finder. Allowed values are BT2(match finder that uses two bytes for the hash) and BT4(uses four bytes for the hash).
+* **MatchFinderType**: The type of the match finder. Allowed values are BT2(match finder that uses two bytes for the hash) and BT4(uses four bytes for the hash).
 
 ````C#
 	            LzmaSettings compressionSettings = new LzmaSettings();

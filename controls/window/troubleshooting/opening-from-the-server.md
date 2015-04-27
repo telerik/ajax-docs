@@ -1,6 +1,6 @@
 ---
 title: Opening from the Server
-page_title: Opening from the Server | UI for ASP.NET AJAX Documentation
+page_title: Opening from the Server | RadWindow for ASP.NET AJAX Documentation
 description: Opening from the Server
 slug: window/troubleshooting/opening-from-the-server
 tags: opening,from,the,server
@@ -14,17 +14,17 @@ position: 0
 
 ## 
 
-The __RadWindow__ is a client-side object – its UI is created when it is first shown and this is the point when the CSS and scripts are loaded as well. This means that it should be used on the client via JavaScript, yet it turns out that it is a very common scenario that the developer wishes to initiate the __RadWindow__’s showing from the code-behind.
+The **RadWindow** is a client-side object – its UI is created when it is first shown and this is the point when the CSS and scripts are loaded as well. This means that it should be used on the client via JavaScript, yet it turns out that it is a very common scenario that the developer wishes to initiate the **RadWindow**’s showing from the code-behind.
 
->warning The __VisibleOnPageLoad__ property should __ *not* __ be used for this purpose. It is a behavior property which will result in the RadWindow opening every time the page is post back.
+>warning The **VisibleOnPageLoad** property should ** *not* ** be used for this purpose. It is a behavior property which will result in the RadWindow opening every time the page is post back.
 >
 
 
-Quite often the __VisibleOnPageLoad__ property gets set to __true__ while the intention is that the RadWindow should only show once. Doing so will result in the RadWindow reopening if a postback is initiated from another element from the page, which is rarely the desired behavior. Also, this approach will not work in case this happens in an AJAX request and the RadWindow is not included in the partial page update.
+Quite often the **VisibleOnPageLoad** property gets set to **true** while the intention is that the RadWindow should only show once. Doing so will result in the RadWindow reopening if a postback is initiated from another element from the page, which is rarely the desired behavior. Also, this approach will not work in case this happens in an AJAX request and the RadWindow is not included in the partial page update.
 
 There are several ways to work around this:
 
-* [Register a JavaScript function from the server-side]({%slug window/troubleshooting/executing-javascript-code-from-server%}) and do __not__ use the __VisibleOnPageLoad__ property, for example:
+* [Register a JavaScript function from the server-side]({%slug window/troubleshooting/executing-javascript-code-from-server%}) and do **not** use the **VisibleOnPageLoad** property, for example:
 
 ````ASPNET
 	    <telerik:RadWindow runat="server" ID="RadWindow1" NavigateUrl="http://google.com/"></telerik:RadWindow>
@@ -57,6 +57,6 @@ There are several ways to work around this:
 
 
 
-* Reset the __VisibleOnPageLoad__ property to __false__ with code when suitable, depending on the particular scenario
+* Reset the **VisibleOnPageLoad** property to **false** with code when suitable, depending on the particular scenario
 
-* Set __EnableViewState__ to __false__ for the RadWindowManager that contains the desired RadWindows
+* Set **EnableViewState** to **false** for the RadWindowManager that contains the desired RadWindows

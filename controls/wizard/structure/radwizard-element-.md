@@ -1,6 +1,6 @@
 ---
 title: RadWizard Element 
-page_title: RadWizard Element  | UI for ASP.NET AJAX Documentation
+page_title: RadWizard Element  | RadWizard for ASP.NET AJAX Documentation
 description: RadWizard Element 
 slug: wizard/structure/radwizard-element-
 tags: radwizard,element,
@@ -12,7 +12,7 @@ position: 0
 
 
 
-In this article you can find the names of the __RadWizard__ UI elements (__Figure 1__) and learn more about their purpose.
+In this article you can find the names of the **RadWizard** UI elements (**Figure 1**) and learn more about their purpose.
 
 ## 
 >caption Figure 1: A RadWizard Element Structure
@@ -29,4 +29,4 @@ This is is an optional wizard element that contains buttons like elements that p
 
 ### Navigation buttons
 
-The __RadWizard__ navigation buttons are special buttons positioned at the bottom of the control. The following Next, Previous, Finish and Cancel navigation buttons are generated based on the current __RadWizard StepType__. Each of them has a separate server and client event that can be handled and can be localized.
+The **RadWizard** navigation buttons are special buttons positioned at the bottom of the control. The following Next, Previous, Finish and Cancel navigation buttons are generated based on the current **RadWizard StepType**. Each of them has a separate server and client event that can be handled and can be localized.

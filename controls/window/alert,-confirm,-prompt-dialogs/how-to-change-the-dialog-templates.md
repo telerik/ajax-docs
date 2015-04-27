@@ -1,6 +1,6 @@
 ---
 title: How to Change the Dialog Templates
-page_title: How to Change the Dialog Templates | UI for ASP.NET AJAX Documentation
+page_title: How to Change the Dialog Templates | RadWindow for ASP.NET AJAX Documentation
 description: How to Change the Dialog Templates
 slug: window/alert,-confirm,-prompt-dialogs/how-to-change-the-dialog-templates
 tags: how,to,change,the,dialog,templates
@@ -12,7 +12,7 @@ position: 4
 
 
 
-The look of the predefined dialogs that appear when you call __RadAlert, RadConfirm__, or __RadPrompt__ is controlled by templates that correspond to each dialog. To get the current code for these templates, you need to put a RadWindowManager on your page, run it in your browser and examine the HTML dump.
+The look of the predefined dialogs that appear when you call **RadAlert, RadConfirm**, or **RadPrompt** is controlled by templates that correspond to each dialog. To get the current code for these templates, you need to put a RadWindowManager on your page, run it in your browser and examine the HTML dump.
 
 >note Important: Because of the changes that were made in controls' skins in Q1 2009 version of the Telerik UI for ASP.NET AJAX suite, the templates are using different classes. Below you can see the templates for RadWindowManagerpre-Q1 2009 and RadWindowManager Qx 2009. They are declared in RadWindowManager's Templates collection for convenience.
 >The[Lightweight RenderMode]({%slug window/mobile-support/render-modes%})that was added in Q2 2013 comes with a different set of templates as well. You can find them below.
@@ -29,7 +29,7 @@ The parameters provided to the template are the following:
 
 * {2} - Default text (for the prompt template)
 
-You can change the look of the alert, confirm, and prompt dialogs in your application by changing these templates.There are two ways to change the template that the __RadWindowManager__ in your application uses:	in the markup or by creating them in the code-behind. Information for both of them is available in the article below.
+You can change the look of the alert, confirm, and prompt dialogs in your application by changing these templates.There are two ways to change the template that the **RadWindowManager** in your application uses:	in the markup or by creating them in the code-behind. Information for both of them is available in the article below.
 
 This topic contains the following sections.
 
@@ -262,16 +262,16 @@ This topic contains the following sections.
 
 ## Changing the Templates through the Markup
 
-1. Go to the Source view of your HTML page and locate the tag that defines your __RadWindowManager__.
+1. Go to the Source view of your HTML page and locate the tag that defines your **RadWindowManager**.
 
 1. Inside the RadWindowManager tag, just before the window definitions, type the start of a new tag ("<").
 
-1. A window pops up letting you choose the template you want to enter:Note that you can enter a template for __RadWindow__ objects that the manager creates as well as for the alert, confirm, and prompt templates.
+1. A window pops up letting you choose the template you want to enter:Note that you can enter a template for **RadWindow** objects that the manager creates as well as for the alert, confirm, and prompt templates.
 >caption 
 
 ![](images/window-templates.png)
 
-1. Add your new template to the __RadWindowManager__. For example:
+1. Add your new template to the **RadWindowManager**. For example:
 
 ````ASPNET
 	    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
@@ -294,9 +294,9 @@ This topic contains the following sections.
 
 ## Changing the Templates through the Code-Behind
 
-The second way to change the template that the __RadWindowManager__ in your application uses is to create a Web User Control for the template and assign that template in code.The RadWindowManager object has three properties, __AlertTemplate__, __ConfirmTemplate__, and __PromptTemplate__, to which you can assign the new template.
+The second way to change the template that the **RadWindowManager** in your application uses is to create a Web User Control for the template and assign that template in code.The RadWindowManager object has three properties, **AlertTemplate**, **ConfirmTemplate**, and **PromptTemplate**, to which you can assign the new template.
 
-1. In the Project Explorer, right click on the project and select __Add New Item...__
+1. In the Project Explorer, right click on the project and select **Add New Item...**
 
 1. Select Web User Control, and give the new template the name "AlertTemplate.ascx".
 
@@ -318,7 +318,7 @@ The second way to change the template that the __RadWindowManager__ in your appl
 
 
 
-1. Each of the Template properties is an ITemplate type. Implement an ITemplate class to load the new Web User Control that you defined. This class gains a reference to the web page in its constructor. The implementation of the one ITemplate method, __InstantiateIn__(), then loads the Web User Control onto that page and adds it to the supplied owner:
+1. Each of the Template properties is an ITemplate type. Implement an ITemplate class to load the new Web User Control that you defined. This class gains a reference to the web page in its constructor. The implementation of the one ITemplate method, **InstantiateIn**(), then loads the Web User Control onto that page and adds it to the supplied owner:
 
 
 
@@ -358,7 +358,7 @@ The second way to change the template that the __RadWindowManager__ in your appl
 ````
 
 
-1. In the __Page_Load__ event handler of the page that contains your __RadWindowManager__, create an instance of your new ITemplate class and assign the instance as the value of the appropriate template property:
+1. In the **Page_Load** event handler of the page that contains your **RadWindowManager**, create an instance of your new ITemplate class and assign the instance as the value of the appropriate template property:
 
 
 

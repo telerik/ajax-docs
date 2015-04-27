@@ -1,6 +1,6 @@
 ---
 title: Skin Selectors
-page_title: Skin Selectors | UI for ASP.NET AJAX Documentation
+page_title: Skin Selectors | RadWizard for ASP.NET AJAX Documentation
 description: Skin Selectors
 slug: wizard/appearance-and-styling/skin-selectors
 tags: skin,selectors
@@ -16,13 +16,13 @@ position: 1
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadWizard__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadWizard** style sheets.
 
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |
 |RadWizard|DIV|Applied to the root element of the Wizard.|
-|RadWizard_[Skin] e.g __RadWizard_Silk__ |DIV|Applied to the root element of the Wizard with applied skin name.|
+|RadWizard_[Skin] e.g **RadWizard_Silk** |DIV|Applied to the root element of the Wizard with applied skin name.|
 |RadWizard_rtl||Applied to the root element of the Wizard with right to left direction.|
 |rwzHorizontal|DIV|Applied to the root element of the Wizard with top or bottom navigation bar position.|
 |rwzVertical|DIV|Applied to the root element of the Wizard with left or right navigation bar position.|

@@ -1,6 +1,6 @@
 ---
 title: Callback Configuration
-page_title: Callback Configuration | UI for ASP.NET AJAX Documentation
+page_title: Callback Configuration | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: Callback Configuration
 slug: xmlhttppanel/getting-started/callback-configuration
 tags: callback,configuration
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-__How to configure the RadXmlHttpPanel's callback?__
+**How to configure the RadXmlHttpPanel's callback?**
 
 1. Add RadXmlHttpPanel ASP.NET AJAX to the page
 
-1. Set the __EnableClientScriptEvaluation____property to__
+1. Set the **EnableClientScriptEvaluation property to**
 
 1. Place a Label control inside the RadXmlHttpPanel
 
@@ -37,7 +37,7 @@ __How to configure the RadXmlHttpPanel's callback?__
 
 
 
-1. Create an <input/> of type button that will call the __set_value__ client method of the XmlHttpPanel, on a button click.You can also access the callback value from the client on the server using the e.Value property in the ServiceRequest event.Here is how the page and its code-behind should look after completing the steps above:
+1. Create an <input/> of type button that will call the **set_value** client method of the XmlHttpPanel, on a button click.You can also access the callback value from the client on the server using the e.Value property in the ServiceRequest event.Here is how the page and its code-behind should look after completing the steps above:
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -80,4 +80,3 @@ __How to configure the RadXmlHttpPanel's callback?__
 ````
 
 
-____

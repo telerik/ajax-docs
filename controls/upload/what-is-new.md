@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadUpload for ASP.NET AJAX Documentation
 description: What is New
 slug: upload/what-is-new
 tags: what,is,new
@@ -12,7 +12,7 @@ position: 4
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -80,7 +80,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [ RadProgressManager and RadProgressArea now support partial updates ](24460397-0E19-44D1-8EEE-A8459A54B179) – custom progress of partially updated controls can be monitored
 
-* The RadUpload client-side event arguments are now consistent; Now you have direct references to the __row,__ the __file input__ field and the __rowIndex__.
+* The RadUpload client-side event arguments are now consistent; Now you have direct references to the **row,** the **file input** field and the **rowIndex**.
 
 ## What's New in RadUpload for ASP.NET AJAX Q2 SP1 (Version Number 2008.2.826)
 
@@ -94,13 +94,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * [ New Localization for RadProgressArea using the Localization property or GlobalResource Files ](BCC18A1A-3EF6-44C2-A38B-D5BB8CE9BFD1)
 
-* __RadProgressArea__ now works under Safari [with limited restrictions](F507ECE7-6ED0-4F4C-A3E3-9A89D2137F84)
+* **RadProgressArea** now works under Safari [with limited restrictions](F507ECE7-6ED0-4F4C-A3E3-9A89D2137F84)
 
-* __Gray__ skin has been added.
+* **Gray** skin has been added.
 
-* RadUpload’s __HttpModule__ is reworked and now the control supports __IIS7__ integrated mode.
+* RadUpload’s **HttpModule** is reworked and now the control supports **IIS7** integrated mode.
 
-* __RadProgressContext__[ exposes named properties to ease the creation of a custom progress ](CA8786F9-D48D-4423-92EA-D2C8907D19BA).
+* **RadProgressContext**[ exposes named properties to ease the creation of a custom progress ](CA8786F9-D48D-4423-92EA-D2C8907D19BA).
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientShow
-page_title: OnClientShow | UI for ASP.NET AJAX Documentation
+page_title: OnClientShow | RadWindow for ASP.NET AJAX Documentation
 description: OnClientShow
 slug: window/client-side-programming/events/onclientshow
 tags: onclientshow
@@ -14,11 +14,11 @@ position: 14
 
 ## 
 
-The __OnClientShow__ event of the __RadWindow__ fires when the popup shows. It follows the[OnClientBeforeShow]({%slug window/client-side-programming/events/onclientbeforeshow%}) event.
+The **OnClientShow** event of the **RadWindow** fires when the popup shows. It follows the[OnClientBeforeShow]({%slug window/client-side-programming/events/onclientbeforeshow%}) event.
 
-__RadWindow__ renders its popup element with JavaScript when it is shown for the first time, so this isthe earliest event in which you can manipulate it.
+**RadWindow** renders its popup element with JavaScript when it is shown for the first time, so this isthe earliest event in which you can manipulate it.
 
-You can use this event to change settings of the __RadWindow__ that will affect its behavior, e.g., making sureit is always maximized (__Example 1__) or pinned (__Example 2__).The __OnClientShow__ event is commonly used for [adding dynamic handlers]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) for other eventsthat may be needed only once (e.g., to [OnClientPageLoad]({%slug window/client-side-programming/events/onclientpageload%})or to [OnClientClose]({%slug window/client-side-programming/events/onclientclose%}) - __Example 3__).
+You can use this event to change settings of the **RadWindow** that will affect its behavior, e.g., making sureit is always maximized (**Example 1**) or pinned (**Example 2**).The **OnClientShow** event is commonly used for [adding dynamic handlers]({%slug window/client-side-programming/events/setting-handlers-by-using-javascript%}) for other eventsthat may be needed only once (e.g., to [OnClientPageLoad]({%slug window/client-side-programming/events/onclientpageload%})or to [OnClientClose]({%slug window/client-side-programming/events/onclientclose%}) - **Example 3**).
 
 The event handler receives the following arguments:
 
@@ -26,7 +26,7 @@ The event handler receives the following arguments:
 
 1. An event arguments object that does not expose any methods and properties.
 
-__Example 1:__ How to have a RadWindow that is always maximized:
+**Example 1:** How to have a RadWindow that is always maximized:
 
 ````XML
 			<asp:Button ID="Button4" Text="show the RadWindow" runat="server" />
@@ -40,7 +40,7 @@ __Example 1:__ How to have a RadWindow that is always maximized:
 
 
 
-__Example 2:__ How to have a RadWindow that is always pinned when shown:
+**Example 2:** How to have a RadWindow that is always pinned when shown:
 
 ````XML
 			<asp:Button ID="Button5" Text="show the RadWindow" runat="server" />
@@ -56,7 +56,7 @@ __Example 2:__ How to have a RadWindow that is always pinned when shown:
 
 
 
-__Example 3:__ How to add event handlers dynamically that will remove the URL from the status bar and will notify the developer that the dialog was closed by the user:
+**Example 3:** How to add event handlers dynamically that will remove the URL from the status bar and will notify the developer that the dialog was closed by the user:
 
 ````XML
 			<asp:Button ID="Button6" Text="show the RadWindow" runat="server" />

@@ -1,6 +1,6 @@
 ---
 title: OnClientDragEnd
-page_title: OnClientDragEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientDragEnd | RadWindow for ASP.NET AJAX Documentation
 description: OnClientDragEnd
 slug: window/client-side-programming/events/onclientdragend
 tags: onclientdragend
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientDragEnd__ event of the __RadWindow__ fires when the user stops dragging the popup.
+The **OnClientDragEnd** event of the **RadWindow** fires when the user stops dragging the popup.
 
 The event handler receives the following arguments:
 

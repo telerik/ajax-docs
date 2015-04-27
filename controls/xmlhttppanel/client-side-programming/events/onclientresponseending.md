@@ -1,6 +1,6 @@
 ---
 title: OnClientResponseEnding
-page_title: OnClientResponseEnding | UI for ASP.NET AJAX Documentation
+page_title: OnClientResponseEnding | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: OnClientResponseEnding
 slug: xmlhttppanel/client-side-programming/events/onclientresponseending
 tags: onclientresponseending
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
- The __OnClientResponseEnding__ client-side event replaces the existing __OnClientResponseEnd__ client-side event . Please note that although the __OnClientResponseEnding__ should be used from now on, the __OnClientResponseEnd__ is still present in the control’s API so that any existing applications are not broken after an upgrade to a newer version of the control.
+ The **OnClientResponseEnding** client-side event replaces the existing **OnClientResponseEnd** client-side event . Please note that although the **OnClientResponseEnding** should be used from now on, the **OnClientResponseEnd** is still present in the control’s API so that any existing applications are not broken after an upgrade to a newer version of the control.
 
-The __OnClientResponseEnding__ occurs before the data (content) is pasted into the RadXmlHttpPanel, after a partial update request has been initiated by the __RadXmlHttpPanel__ set_value method.
+The **OnClientResponseEnding** occurs before the data (content) is pasted into the RadXmlHttpPanel, after a partial update request has been initiated by the **RadXmlHttpPanel** set_value method.
 
 The event handler receives two parameters:
 
-1. The instance of the __RadXmlHttpPanel__ control firing the event.
+1. The instance of the **RadXmlHttpPanel** control firing the event.
 
 1. An eventArgs parameter containing the following properties and methods:
 
@@ -30,7 +30,7 @@ The event handler receives two parameters:
 
 1. get_content() gets the HTML content rendered inside the RadXmlHttpPanel
 
-The following example demonstrates how the user can cancel the loading of the content inside the __RadXmlHttpPanel__. An event handler should be provided for the __OnClientResponseEnding__ client-side event where the action can be canceled by using the cancel property of the eventArgs passed to the handler
+The following example demonstrates how the user can cancel the loading of the content inside the **RadXmlHttpPanel**. An event handler should be provided for the **OnClientResponseEnding** client-side event where the action can be canceled by using the cancel property of the eventArgs passed to the handler
 
 ````JavaScript
 	    <script type="text/javascript">

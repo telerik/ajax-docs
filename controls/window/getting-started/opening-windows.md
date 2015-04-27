@@ -1,6 +1,6 @@
 ---
 title: Opening Windows
-page_title: Opening Windows | UI for ASP.NET AJAX Documentation
+page_title: Opening Windows | RadWindow for ASP.NET AJAX Documentation
 description: Opening Windows
 slug: window/getting-started/opening-windows
 tags: opening,windows
@@ -12,19 +12,19 @@ position: 2
 
 
 
-Several functions let you open a __RadWindow__ object from your client-side JavaScript:
+Several functions let you open a **RadWindow** object from your client-side JavaScript:
 
-* The __show__ method lets you open a single window that has been declared on your page when there is no __RadWindowManager__ object. You can use ASP.NET AJAX's __$find__ methodto obtain a reference to the window.
+* The **show** method lets you open a single window that has been declared on your page when there is no **RadWindowManager** object. You can use ASP.NET AJAX's **$find** methodto obtain a reference to the window.
 
-* The __RadWindowManager.open__ method opens a window if you have a reference to a __RadWindowManager__ object. You can easily obtain this reference by calling __GetRadWindowManager__.
+* The **RadWindowManager.open** method opens a window if you have a reference to a **RadWindowManager** object. You can easily obtain this reference by calling **GetRadWindowManager**.
 
-* The __radopen__ function is essentially the same as __GetRadWindowManager().open()__. It requires the __RadWindowManager__ to exist on the page, even though you do not explicitly reference it in your code.
+* The **radopen** function is essentially the same as **GetRadWindowManager().open()**. It requires the **RadWindowManager** to exist on the page, even though you do not explicitly reference it in your code.
 
-* The __radalert__, __radconfirm__, and__radprompt__ functions open the built-in [alert, confirm, and prompt dialogs]({%slug window/alert,-confirm,-prompt-dialogs/overview%}). As with __radopen__, these functions require a __RadWindowManager__ to be present on the page.
+* The **radalert**, **radconfirm**, and**radprompt** functions open the built-in [alert, confirm, and prompt dialogs]({%slug window/alert,-confirm,-prompt-dialogs/overview%}). As with **radopen**, these functions require a **RadWindowManager** to be present on the page.
 
 ## Using show()
 
-The following code illustrates how to use the __window.show__ method to open a window when there is no __RadWindowManager__ object:
+The following code illustrates how to use the **window.show** method to open a window when there is no **RadWindowManager** object:
 
 ````JavaScript
 	
@@ -38,17 +38,17 @@ The following code illustrates how to use the __window.show__ method to open a w
 
 ## Using radopen and GetRadWindowManager().open
 
-Both the __radopen()__ function and the __GetRadWindowManager().open()__ method take two required parameters and can take four optional parameters:
+Both the **radopen()** function and the **GetRadWindowManager().open()** method take two required parameters and can take four optional parameters:
 
-* __Url__ - This supplies the URL for the content window. If this is given an argument of null, the __NavigateUrl__ property set for the window on the server is used.
+* **Url** - This supplies the URL for the content window. If this is given an argument of null, the **NavigateUrl** property set for the window on the server is used.
 
-* __Name__ - This is the ID of a particular (existing) __RadWindow__ object to show. If this is given an argument of null, the function creates a new window with a random ID. If a window with the provided ID does not exist, a new one is created using this ID.
+* **Name** - This is the ID of a particular (existing) **RadWindow** object to show. If this is given an argument of null, the function creates a new window with a random ID. If a window with the provided ID does not exist, a new one is created using this ID.
 
-* *Optional: *__content element__—a DOM element that will be placed in the [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the control.If one is provided and an URL is passed, the URL will be ignored.The *content element* argument is only available in the `RadWindowManagerInstance.open()` method, but *not*in the `window.radopen()` method.
+* *Optional: content element**—a DOM element that will be placed in the [ContentTemplate]({%slug window/getting-started/using-radwindow-as-controls-container%}) of the control.If one is provided and an URL is passed, the URL will be ignored.The *content element* argument is only available in the `RadWindowManagerInstance.open()` method, but *not*in the `window.radopen()` method.
 
-* *Optional: *__Width, Height, Left, Top__ - Since Q1 2013, these four additional parameters can be usedto specify the dimensions and position of a popup even while opening it. If these parameters are not passed, the values from the __RadWindow's__ declaration will be usedand in case they aren't specified or a dynamic instance is created, the dimensions will fall back to the default 300x300 pixels at the center of the screen.
+* *Optional: Width, Height, Left, Top* - Since Q1 2013, these four additional parameters can be usedto specify the dimensions and position of a popup even while opening it. If these parameters are not passed, the values from the **RadWindow's** declaration will be usedand in case they aren't specified or a dynamic instance is created, the dimensions will fall back to the default 300x300 pixels at the center of the screen.
 
-Both functions return a reference to the __RadWindow__ object, so it can be additionally configured using the various [	RadWindow methods]({%slug window/client-side-programming/radwindow-object%}). The following code illustrates the possibilities for using __radopen__. (Note, you could replace the call to __radopen()__ with a call to __GetRadWindowManager().open()__).
+Both functions return a reference to the **RadWindow** object, so it can be additionally configured using the various [	RadWindow methods]({%slug window/client-side-programming/radwindow-object%}). The following code illustrates the possibilities for using **radopen**. (Note, you could replace the call to **radopen()** with a call to **GetRadWindowManager().open()**).
 
 ````JavaScript
 	
@@ -76,7 +76,7 @@ Both functions return a reference to the __RadWindow__ object, so it can be addi
 
 ## Example
 
-The following markup shows how to use __radopen()__, __GetRadWindowManager().open()__, and the __RadWindow__ object's __show()__ method to open a window:
+The following markup shows how to use **radopen()**, **GetRadWindowManager().open()**, and the **RadWindow** object's **show()** method to open a window:
 
 ````JavaScript
 	    //The RadWindowManager object has two child windows

@@ -1,6 +1,6 @@
 ---
 title: FileExists
-page_title: FileExists | UI for ASP.NET AJAX Documentation
+page_title: FileExists | RadUpload for ASP.NET AJAX Documentation
 description: FileExists
 slug: upload/server-side-programming/fileexists
 tags: fileexists
@@ -12,27 +12,27 @@ position: 1
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
 ## 
 
-The server-side __FileExists__ event occurs when the following three conditions hold:
+The server-side **FileExists** event occurs when the following three conditions hold:
 
-* The __TargetFolder__ or __TargetPhysicalFolder__ property is set.
+* The **TargetFolder** or **TargetPhysicalFolder** property is set.
 
-* The __OverwriteExistingFiles__ property is set to __false.__
+* The **OverwriteExistingFiles** property is set to **false.**
 
 * The target folder already contains a file with the same name as the currently uploaded file.
 
-The __FileExists__ event handler receives two arguments:
+The **FileExists** event handler receives two arguments:
 
-1. The __RadUpload__ control that initiated the file upload. This argument is of type object, but can be cast to the __RadUpload__ type.
+1. The **RadUpload** control that initiated the file upload. This argument is of type object, but can be cast to the **RadUpload** type.
 
-1. An __UploadedFileEventArgs__ object. This object has an __UploadedFile__ property that you can use to access the file that could not be automatically saved.
+1. An **UploadedFileEventArgs** object. This object has an **UploadedFile** property that you can use to access the file that could not be automatically saved.
 
-The example below demonstrates how to use the __FileExists__ event to rename the uploaded files:
+The example below demonstrates how to use the **FileExists** event to rename the uploaded files:
 
 
 

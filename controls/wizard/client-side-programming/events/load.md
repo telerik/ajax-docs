@@ -1,6 +1,6 @@
 ---
 title: Load
-page_title: Load | UI for ASP.NET AJAX Documentation
+page_title: Load | RadWizard for ASP.NET AJAX Documentation
 description: Load
 slug: wizard/client-side-programming/events/load
 tags: load
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The client-side __Load__ event is raised when the __RadWizard__ client-side object is fully loaded (the full API of the control is available at this point). This article discusses the objects of the control's __Load__ event and shows an example of how to retrieve properties when the event occurs (__Example 1__).
+The client-side **Load** event is raised when the **RadWizard** client-side object is fully loaded (the full API of the control is available at this point). This article discusses the objects of the control's **Load** event and shows an example of how to retrieve properties when the event occurs (**Example 1**).
 
-To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the __OnLoad__ property.
+To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the **OnLoad** property.
 
 ## 
 
-The client-side __OnLoad__ event handler receives one argument:
+The client-side **OnLoad** event handler receives one argument:
 
 * Sender—the [RadWizard object]({%slug wizard/client-side-programming/wizard-object%}) that fired the event.
 
-__Example 1__: Handle the __RadWizard__'s client-side __Load__ event.
+**Example 1**: Handle the **RadWizard**'s client-side **Load** event.
 
 ````JavaScript
 	        <script type="text/javascript">

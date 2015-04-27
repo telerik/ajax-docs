@@ -1,6 +1,6 @@
 ---
 title: OnClientResponseEnded
-page_title: OnClientResponseEnded | UI for ASP.NET AJAX Documentation
+page_title: OnClientResponseEnded | RadXmlHttpPanel for ASP.NET AJAX Documentation
 description: OnClientResponseEnded
 slug: xmlhttppanel/client-side-programming/events/onclientresponseended
 tags: onclientresponseended
@@ -14,4 +14,4 @@ position: 1
 
 ## 
 
-The __OnClientResponseEnded__ occurs immediately after the data (content) is pasted into the __RadXmlHttpPanel__. This client-side event is subsequent to the __OnClientResponseEnding__ event.The event handler receives a single parameter: the instance of the RadXmlHttpPanel control firing the event.
+The **OnClientResponseEnded** occurs immediately after the data (content) is pasted into the **RadXmlHttpPanel**. This client-side event is subsequent to the **OnClientResponseEnding** event.The event handler receives a single parameter: the instance of the RadXmlHttpPanel control firing the event.

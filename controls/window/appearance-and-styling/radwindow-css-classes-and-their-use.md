@@ -1,6 +1,6 @@
 ---
 title: RadWindow CSS Classes and Their Use
-page_title: RadWindow CSS Classes and Their Use | UI for ASP.NET AJAX Documentation
+page_title: RadWindow CSS Classes and Their Use | RadWindow for ASP.NET AJAX Documentation
 description: RadWindow CSS Classes and Their Use
 slug: window/appearance-and-styling/radwindow-css-classes-and-their-use
 tags: radwindow,css,classes,and,their,use
@@ -16,7 +16,7 @@ position: 1
 
 ## Abstract
 
-Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called __base stylesheet__ contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
+Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled with two CSS files that are loaded in a certain order. The first one - ControlName.css, also called **base stylesheet** contains CSS properties and values that are common for all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc. In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins.
 
 The second file represents the actual skin of the control, and its name consists of the control name plus the skin name, i.e - Window.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specific CSS properties, and references to images, colors, borders and backgrounds.
 
@@ -26,24 +26,24 @@ Getting and Renaming Files and CSS Classes
 
 In order to explain better the CSS classes of RadWindow, we will use both Window.css and Window.SkinName.css as external resources. We will modify an existing skin of RadWindow. Follow these steps to register an external skin for RadWindow for ASP.NET AJAX before editing any CSS:
 
-1. In your project, create a new directory named __Skins__
+1. In your project, create a new directory named **Skins**
 
-1. In the skins folder create a new directory __MyCustomSkin__.
+1. In the skins folder create a new directory **MyCustomSkin**.
 
-1. Go to __~/[ControlsInstallationFolder]/Skins__ and copy __Window.css__ in your __Skins__ folder
+1. Go to **~/[ControlsInstallationFolder]/Skins** and copy **Window.css** in your **Skins** folder
 
-1. Go to __~/[ControlsInstallationFolder]/Skins/Default__ and copy __Window.Default.css__ and the __Skins/Default/Window__ folder in your __Skins__ folder.
+1. Go to **~/[ControlsInstallationFolder]/Skins/Default** and copy **Window.Default.css** and the **Skins/Default/Window** folder in your **Skins** folder.
 
-1. Rename Window.__Default__.css to Window.__MyCustomSkin__.css and the folder __Default__ to __MyCustomSkin__.
+1. Rename Window.**Default**.css to Window.**MyCustomSkin**.css and the folder **Default** to **MyCustomSkin**.
 
 1. When you are finished you should have: Skins/Window.css, Skins/MyCustomSkin/Window.MyCustomSkin.css and Skins/MyCustomSkin/Window. The last folder contains the images for MyCustomSkin.
 
-1. In order to support multiple skins of RadWindow on a single page, the wrapping skin-specific class is coined by the name of the control, RadWindow plus underscore ("_") plus SkinName, i.e __.RadWindow_Default__, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "__Default__" in Window.MyCustomSkin.css to "__MyCustomSkin__" as shown below:
+1. In order to support multiple skins of RadWindow on a single page, the wrapping skin-specific class is coined by the name of the control, RadWindow plus underscore ("_") plus SkinName, i.e **.RadWindow_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "**Default**" in Window.MyCustomSkin.css to "**MyCustomSkin**" as shown below:
 >caption 
 
 ![Window CSS Classes Batch Rename](images/window-cssclassesbatchrename.gif)
 
-1. Put a new server declaration of RadWindow on your page, and set __Skin="MyCustomSkin", EnableEmbeddedSkins="false"__ and __EnableEmbeddedBasestylesheet="false"__:
+1. Put a new server declaration of RadWindow on your page, and set **Skin="MyCustomSkin", EnableEmbeddedSkins="false"** and **EnableEmbeddedBasestylesheet="false"**:
 
 ````ASPNET
 	    <telerik:RadWindow ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
@@ -54,7 +54,7 @@ In order to explain better the CSS classes of RadWindow, we will use both Window
 
 
 
-1. Register __Window.css__ and __Window.MyCustomSkin.css__ in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
+1. Register **Window.css** and **Window.MyCustomSkin.css** in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
 ````XML
 	    <link rel="stylesheet" type="text/css" href="Skins/Window.css"></link>
@@ -244,7 +244,7 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 ![RadWindow Vertical Sprite](images/windowverticalsprites.gif)
 
-1. Classes that use WindowHorizontalSprites.gif. Their use has already been explained in __The Base Stylesheet - Window.css__
+1. Classes that use WindowHorizontalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
 ````XML
 	        
@@ -268,7 +268,7 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 
 
-1. Classes that use WindowVerticalSprites.gif. Their use has already been explained in __The Base Stylesheet - Window.css__
+1. Classes that use WindowVerticalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
 ````XML
 	        
@@ -294,7 +294,7 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 
 
-1. Classes that use CommandButtonSprites.gif. Their use has already been explained in __The Base Stylesheet - Window.css__
+1. Classes that use CommandButtonSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
 ````XML
 	        
@@ -358,12 +358,12 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 
 1. Drag CommandButtonSprites.gif, WindowHorizontalSprites.gif and WindowVerticalSprites.gif in [Adobe© PhotoShop](http://adobe.com)
 
-1. From the menu bar select __Image » Mode » RGB Color__ to prepare the images for editing (convert from optimized __Indexed Color__ to __RGB Color__):
+1. From the menu bar select **Image » Mode » RGB Color** to prepare the images for editing (convert from optimized **Indexed Color** to **RGB Color**):
 >caption 
 
 ![Convert from Indexed to RGB Color](images/window-indexedtorgb.gif)
 
-1. Press __Set Foreground Color__ in PhotoShop's toolbox to invoke the color picker dialog:
+1. Press **Set Foreground Color** in PhotoShop's toolbox to invoke the color picker dialog:
 >caption 
 
 ![Adobe PhotoShop Toolbox](images/window-presstoolbox.gif)
@@ -373,19 +373,19 @@ Explained below is a simple method for modifying the image sprites of RadWindow 
 
 ![Adobe PhotoShop ColorPicker](images/window-colorpicker.gif)
 
-1. Choose the first image you will modify, for example WindowHorizontalSprites.gif, and select __Image » Adjustments Hue » / Saturation to open the Hue / Saturation__ dialog of [Adobe© PhotoShop](http://adobe.com):
+1. Choose the first image you will modify, for example WindowHorizontalSprites.gif, and select **Image » Adjustments Hue » / Saturation to open the Hue / Saturation** dialog of [Adobe© PhotoShop](http://adobe.com):
 >caption 
 
 ![Choose Hue and Saturation](images/window-choosehue.gif)
 
-1. Check the __colorize__ checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
+1. Check the **colorize** checkbox in the Hue / Saturation dialog, and the image you have selected will be immediately colorized in the hue you have selected from the toolbox:
 >caption 
 
 ![Colorize](images/window-colorize.gif)You may then play with the Hue, Saturation and Lightness sliders to fine tune or further modify the image. Make sure you memorize the values of the sliders, as you will need to add the same settings to all three images in order to achieve consistent looks
 
 1. Press "OK" when you are finished
 
-1. Select Image __Image » Mode » Indexed Color__ to flatten the layers of the image
+1. Select Image **Image » Mode » Indexed Color** to flatten the layers of the image
 
 1. Save and close the image
 

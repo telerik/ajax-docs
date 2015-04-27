@@ -1,6 +1,6 @@
 ---
 title: Initial Window State
-page_title: Initial Window State | UI for ASP.NET AJAX Documentation
+page_title: Initial Window State | RadWindow for ASP.NET AJAX Documentation
 description: Initial Window State
 slug: window/getting-started/initial-window-state
 tags: initial,window,state
@@ -14,27 +14,27 @@ position: 7
 
 ## 
 
-Use the __InitialBehaviors__ property to control the state of the window when it first appears. __InitialBehaviors__ controls whether the window appears maximized, minimized, and/or pinned.
+Use the **InitialBehaviors** property to control the state of the window when it first appears. **InitialBehaviors** controls whether the window appears maximized, minimized, and/or pinned.
 
-__InitialBehaviors__ is a collection of Telerik.Web.UI.WindowBehaviors values, just like the __Behaviors__ property. However, not all possible values make sense for __InitialBehaviors__. For example, if you set __InitialBehaviors__ to "Resize", the value has no effect.
+**InitialBehaviors** is a collection of Telerik.Web.UI.WindowBehaviors values, just like the **Behaviors** property. However, not all possible values make sense for **InitialBehaviors**. For example, if you set **InitialBehaviors** to "Resize", the value has no effect.
 
-Here are the __InitialBehaviors'__ property values that have an effect:
+Here are the **InitialBehaviors'** property values that have an effect:
 
-* __None__ - The window appears unpinned and of normal size.
+* **None** - The window appears unpinned and of normal size.
 
-* __Minimize__ - The window appears in a minimized state.
+* **Minimize** - The window appears in a minimized state.
 
-* __Pin__ - The starts out pinned.
+* **Pin** - The starts out pinned.
 
-* __Maximize__ - The window appears maximized within the parent window.
+* **Maximize** - The window appears maximized within the parent window.
 
-* __Default__ - The window appears both maximized and pinned. (The Maximize in this collection takes precedence over the Minimize).
+* **Default** - The window appears both maximized and pinned. (The Maximize in this collection takes precedence over the Minimize).
 
-You can combine __InitialBehaviors__ values to make the window appear both pinned and either maximized or minimized. For example, if you want the window to appear minimized and pinned, set __InitialBehaviors="Minimize, Pin"__.
+You can combine **InitialBehaviors** values to make the window appear both pinned and either maximized or minimized. For example, if you want the window to appear minimized and pinned, set **InitialBehaviors="Minimize, Pin"**.
 
-The value of __InitialBehaviors__ is not limited to the values that make up the __Behaviors__ property. For example, if you want the window to be pinned and not to let the user unpin it, you can set __InitialBehaviors="Pin"__ and set __Behaviors__ to a value that does not include "Pin".
+The value of **InitialBehaviors** is not limited to the values that make up the **Behaviors** property. For example, if you want the window to be pinned and not to let the user unpin it, you can set **InitialBehaviors="Pin"** and set **Behaviors** to a value that does not include "Pin".
 
-You can also set the __InitialBehaviors__ property from the codebehind:
+You can also set the **InitialBehaviors** property from the codebehind:
 
 ````C#
 	     

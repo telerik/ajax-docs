@@ -1,6 +1,6 @@
 ---
 title: Render Selected Step Only
-page_title: Render Selected Step Only | UI for ASP.NET AJAX Documentation
+page_title: Render Selected Step Only | RadWizard for ASP.NET AJAX Documentation
 description: Render Selected Step Only
 slug: wizard/functionality/render-selected-step-only
 tags: render,selected,step,only
@@ -12,13 +12,13 @@ position: 3
 
 
 
-Setting the__RenderedSteps__ property to __Active__ loads only the content of the active step. When another step is selected, RadWizard will make a request to the server in order to load the content of the newly selected step.
+Setting the**RenderedSteps** property to **Active** loads only the content of the active step. When another step is selected, RadWizard will make a request to the server in order to load the content of the newly selected step.
 
 ## 
 
-When a large amount of data and HTML is loaded in each RadWizardStep, setting the __RenderedSteps__ to __Active__ can significantly improve the performance of your application. By default this property is set to __All__ and the content of all steps is loaded on the page.
+When a large amount of data and HTML is loaded in each RadWizardStep, setting the **RenderedSteps** to **Active** can significantly improve the performance of your application. By default this property is set to **All** and the content of all steps is loaded on the page.
 
-__Example 1__ demonstrates how to enable this option by setting the __RenderedSteps__ to __Active__.
+**Example 1** demonstrates how to enable this option by setting the **RenderedSteps** to **Active**.
 
 ````ASPNET
 	            <telerik:RadWizard ID="RadWizard7" runat="server" RenderedSteps="Active">

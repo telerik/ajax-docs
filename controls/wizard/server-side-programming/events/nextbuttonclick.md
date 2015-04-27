@@ -1,6 +1,6 @@
 ---
 title: NextButtonClick
-page_title: NextButtonClick | UI for ASP.NET AJAX Documentation
+page_title: NextButtonClick | RadWizard for ASP.NET AJAX Documentation
 description: NextButtonClick
 slug: wizard/server-side-programming/events/nextbuttonclick
 tags: nextbuttonclick
@@ -14,23 +14,23 @@ position: 5
 
 ## 
 
-The server-side __OnNextButtonClick__ event occurs when the next button is clicked.
+The server-side **OnNextButtonClick** event occurs when the next button is clicked.
 
-The __OnNextButtonClick__ event handler receives two arguments:
+The **OnNextButtonClick** event handler receives two arguments:
 
-1. The __RadWizard__ that contains the active step. This argument is of type object, but can be cast to the __RadWizard__ type.
+1. The **RadWizard** that contains the active step. This argument is of type object, but can be cast to the **RadWizard** type.
 
-1. A __WizardEventArgs__ object. This object has two properties:
+1. A **WizardEventArgs** object. This object has two properties:
 
-* __CurrentStepIndex__ - the current step index.
+* **CurrentStepIndex** - the current step index.
 
-* __CurrentStep__ - a reference the current step.
+* **CurrentStep** - a reference the current step.
 
-* __NextStepIndex__ - the next step index.
+* **NextStepIndex** - the next step index.
 
-* __NextStep__ - a reference to the next step.
+* **NextStep** - a reference to the next step.
 
-Use the __OnNextButtonClick__ event handler to respond when the next button is clicked.
+Use the **OnNextButtonClick** event handler to respond when the next button is clicked.
 
 
 

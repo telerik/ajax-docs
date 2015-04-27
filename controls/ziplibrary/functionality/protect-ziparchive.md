@@ -1,6 +1,6 @@
 ---
 title: Protect ZipArchive
-page_title: Protect ZipArchive | UI for ASP.NET AJAX Documentation
+page_title: Protect ZipArchive | RadZipLibrary for ASP.NET AJAX Documentation
 description: Protect ZipArchive
 slug: ziplibrary/functionality/protect-ziparchive
 tags: protect,ziparchive
@@ -12,9 +12,9 @@ position: 2
 
 
 
-__RadZipLibrary__ lets you protect a ZIP archive with a password. This help article will teach you to use __RadZipLibrary__ to password protect files and how to open files that are protected with a password. To protect a ZIP archive and all __ZipArchiveEntry__ items in it you should specify encryption settings when creating the [ZipArchive]({%slug ziplibrary/getting-started%}) object.
+**RadZipLibrary** lets you protect a ZIP archive with a password. This help article will teach you to use **RadZipLibrary** to password protect files and how to open files that are protected with a password. To protect a ZIP archive and all **ZipArchiveEntry** items in it you should specify encryption settings when creating the [ZipArchive]({%slug ziplibrary/getting-started%}) object.
 
-__RadZipLibrary__ supports traditional PKWARE encryption only. The settings for this encryption type are represented by the __DefaultEncryptionSettings__ class.
+**RadZipLibrary** supports traditional PKWARE encryption only. The settings for this encryption type are represented by the **DefaultEncryptionSettings** class.
 
 * [Create a Password-protected ZipArchive](#create-a-password-protected-ziparchive)
 
@@ -22,11 +22,11 @@ __RadZipLibrary__ supports traditional PKWARE encryption only. The settings for 
 
 ## Create a Password-protected ZipArchive
 
-In order to create a password-protected ZIP archive you need to pass a __DefaultEncryptionSettings__ object to the __ZipArchive__'s constructor along with the __ZipArchiveMode.Create__ parameter.
+In order to create a password-protected ZIP archive you need to pass a **DefaultEncryptionSettings** object to the **ZipArchive**'s constructor along with the **ZipArchiveMode.Create** parameter.
 
-__DefaultEncryptionSettings__ has a __Password__ property of type string which represents the used password.
+**DefaultEncryptionSettings** has a **Password** property of type string which represents the used password.
 
-__Example 1__: Create a password-protected ZIP archive:
+**Example 1**: Create a password-protected ZIP archive:
 
 
 
@@ -61,15 +61,15 @@ __Example 1__: Create a password-protected ZIP archive:
 ````
 
 
->tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.
+>tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the **Dispose()** method when you complete all operations.
 >
 
 
 ## Read a Password-protected ZipArchive
 
-In order to open a password-protected __ZipArchive__ you need to pass a __DefaultEncryptionSettings__ object with the password that was used to create the archive in the first place.
+In order to open a password-protected **ZipArchive** you need to pass a **DefaultEncryptionSettings** object with the password that was used to create the archive in the first place.
 
-__Example 2__: Open and read a password-protected ZIP archive.
+**Example 2**: Open and read a password-protected ZIP archive.
 
 
 
@@ -99,7 +99,7 @@ __Example 2__: Open and read a password-protected ZIP archive.
 ````
 
 
->tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the __Dispose()__ method when you complete all operations.
+>tip You must always dispose of the ZIP archive object when all operations that use it are competed. Telerik Support recommends that you declare and instantiate the ZIP archive object in a using statement. If it is not possible for some reason, then do not forget to call the **Dispose()** method when you complete all operations.
 >
 
 

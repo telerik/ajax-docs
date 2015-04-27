@@ -1,6 +1,6 @@
 ---
 title: Calling Functions in Windows
-page_title: Calling Functions in Windows | UI for ASP.NET AJAX Documentation
+page_title: Calling Functions in Windows | RadWindow for ASP.NET AJAX Documentation
 description: Calling Functions in Windows
 slug: window/how-to/calling-functions-in-windows
 tags: calling,functions,in,windows
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-By obtaining a reference to a __RadWindow__ component, you can call any function that is defined in that windows content window. Just use the contentWindow property to reference the Content Window of the page loaded inside the __RadWindow__.
+By obtaining a reference to a **RadWindow** component, you can call any function that is defined in that windows content window. Just use the contentWindow property to reference the Content Window of the page loaded inside the **RadWindow**.
 
 The example below shows one way to get a reference to the RadWindow with server ID RadWindow1. This approach may vary according to the scenario.
 
@@ -44,7 +44,7 @@ You can also see how you can pass information along to the other function. Passi
 
 
 
-Using this technique lets you call functions in a __RadWindow's__ parent window or in a sibling window:
+Using this technique lets you call functions in a **RadWindow's** parent window or in a sibling window:
 
 ````JavaScript
 	    

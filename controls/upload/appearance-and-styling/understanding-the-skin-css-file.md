@@ -1,6 +1,6 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding the Skin CSS File | RadUpload for ASP.NET AJAX Documentation
 description: Understanding the Skin CSS File
 slug: upload/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
@@ -12,7 +12,7 @@ position: 1
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -32,11 +32,11 @@ Styles for RadControls are defined using Cascading Style Sheet (CSS) syntax. Eac
 
 
 
-See the [CSS Skin File Selectors]({%slug upload/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for __RadUpload__skins. You can see custom styles applied in the screenshot below:
+See the [CSS Skin File Selectors]({%slug upload/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadUpload**skins. You can see custom styles applied in the screenshot below:
 
 ![Progress Area Overview](images/upload_green_progress_dialog.png)
 
-Each style maps to a "class" attribute in an HTML tag. For example, consider the HTML rendering of the __RadProgressArea__ shown above:
+Each style maps to a "class" attribute in an HTML tag. For example, consider the HTML rendering of the **RadProgressArea** shown above:
 
 ````HTML
 	    
@@ -76,25 +76,25 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 
 
 
-The dialog is rendered as a <div> element with the __radupload__and __RadUpload_Green__classes applied. The __radupload__class is always applied, and supplies the basic presentation of all __RadUpload__and __RadProgressArea__ controls, regardless of the skin. The __RadUpload_Green__class is applied because the __Skin__property was set to "Green".If no skin had been supplied, the <div> would only have the __radupload__class applied.
+The dialog is rendered as a <div> element with the **radupload**and **RadUpload_Green**classes applied. The **radupload**class is always applied, and supplies the basic presentation of all **RadUpload**and **RadProgressArea** controls, regardless of the skin. The **RadUpload_Green**class is applied because the **Skin**property was set to "Green".If no skin had been supplied, the <div> would only have the **radupload**class applied.
 
-Inside the main <div> element is an unordered list (<ul> element) which is responsible for laying out the rows of the dialog. This <ul> element has the __ruProgress__class applied.
+Inside the main <div> element is an unordered list (<ul> element) which is responsible for laying out the rows of the dialog. This <ul> element has the **ruProgress**class applied.
 
 Each row is an <li> element, and has a class applied that identifies the row:
 
-* The row with the __Total Progress Bar__ and __Total Progress Indicators__ has the __ruFilePortion__ class applied.
+* The row with the **Total Progress Bar** and **Total Progress Indicators** has the **ruFilePortion** class applied.
 
-* The row with the __Files Count Bar__ and __Files Count Indicators__ has the __ruFileCount__ class applied.
+* The row with the **Files Count Bar** and **Files Count Indicators** has the **ruFileCount** class applied.
 
-* The row with the __Current File Name__ has the __ruCurrentFile__ class applied.
+* The row with the **Current File Name** has the **ruCurrentFile** class applied.
 
-* The row with __Time and Speed Indicators__ has the __ruTimeSpeed__ class applied.
+* The row with **Time and Speed Indicators** has the **ruTimeSpeed** class applied.
 
-* The row with the __Cancel button__ has the __ruActions__ class applied.
+* The row with the **Cancel button** has the **ruActions** class applied.
 
-Inside the rows, different types of elements get additional classes applied. For example, progress bars are <div> elements with the __ruBar__ class applied, while the cancel button is an <input> element with the __ruButton__ and __ruCancel__ classes applied.
+Inside the rows, different types of elements get additional classes applied. For example, progress bars are <div> elements with the **ruBar** class applied, while the cancel button is an <input> element with the **ruButton** and **ruCancel** classes applied.
 
-Selectors in the CSS file identifies styles based on this rendering. Thus, a selector such as __.RadUpload_Green .ruBar__ would apply to both progress bars, while a selector such as __.RadUpload_Green .ruFilePortion .ruBar__ would apply only to the __Total Progress Bar__ but not the__Files Count Bar__.
+Selectors in the CSS file identifies styles based on this rendering. Thus, a selector such as **.RadUpload_Green .ruBar** would apply to both progress bars, while a selector such as **.RadUpload_Green .ruFilePortion .ruBar** would apply only to the **Total Progress Bar** but not the**Files Count Bar**.
 
 # See Also
 

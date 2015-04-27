@@ -1,6 +1,6 @@
 ---
 title: OnClientCommand
-page_title: OnClientCommand | UI for ASP.NET AJAX Documentation
+page_title: OnClientCommand | RadWindow for ASP.NET AJAX Documentation
 description: OnClientCommand
 slug: window/client-side-programming/events/onclientcommand
 tags: onclientcommand
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientCommand__ event fires when a command button from the __RadWindow__'s title bar is clicked or tapped by the user.	The developer can also initiate it by using the [client-side API]({%slug window/client-side-programming/radwindow-object%}) of the control(e.g., the `minimize()`, `maximize()`, `restore()`, `togglePin()` and `reload()` methods).You can cancel this event to prevent the command from executing (__Example 1__).
+The **OnClientCommand** event fires when a command button from the **RadWindow**'s title bar is clicked or tapped by the user.	The developer can also initiate it by using the [client-side API]({%slug window/client-side-programming/radwindow-object%}) of the control(e.g., the `minimize()`, `maximize()`, `restore()`, `togglePin()` and `reload()` methods).You can cancel this event to prevent the command from executing (**Example 1**).
 
 The event handler receives the following arguments:
 
@@ -31,7 +31,7 @@ The event handler receives the following arguments:
 
 1. boolean—a value that indicates whether the event is to be cancelled.|
 
-__Example 1:__ Getting the command and cancelling its execution according to a condition.
+**Example 1:** Getting the command and cancelling its execution according to a condition.
 
 ````JavaScript
 			<telerik:RadWindow runat="server" ID="RadWindow1" OnClientCommand="OnClientCommandHandler" VisibleonPageLoad="true"></telerik:RadWindow>

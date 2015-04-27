@@ -1,6 +1,6 @@
 ---
 title: Using the Target Attribute
-page_title: Using the Target Attribute | UI for ASP.NET AJAX Documentation
+page_title: Using the Target Attribute | RadWindow for ASP.NET AJAX Documentation
 description: Using the Target Attribute
 slug: window/how-to/using-the-target-attribute
 tags: using,the,target,attribute
@@ -12,13 +12,13 @@ position: 5
 
 
 
-The __RadWindow__ objects on your page are automatically added to the frames collection of the browser. As a result, you can use the __RadWindow__ objects as the target of a link, just as you link to any other frame or window.
+The **RadWindow** objects on your page are automatically added to the frames collection of the browser. As a result, you can use the **RadWindow** objects as the target of a link, just as you link to any other frame or window.
 
-When you use the __RadWindow__as the target of a link, the link will not open unless the window is currently visible. You can prevent this limitation by adding an __onclick__ attribute to the link in which you open the window.
+When you use the **RadWindow**as the target of a link, the link will not open unless the window is currently visible. You can prevent this limitation by adding an **onclick** attribute to the link in which you open the window.
 
 ## Example
 
-Copy the following markup into your default.aspx source. Run the application and click on both links. Observe that the target attribute opens each specified URL in the target window. Close both windows, and click the links again. Notice that the Navigation link, which has an __onclick__ attribute, reopens and displays the Google Web site, but the Content link no longer works.
+Copy the following markup into your default.aspx source. Run the application and click on both links. Observe that the target attribute opens each specified URL in the target window. Close both windows, and click the links again. Notice that the Navigation link, which has an **onclick** attribute, reopens and displays the Google Web site, but the Content link no longer works.
 
 
 

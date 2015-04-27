@@ -1,6 +1,6 @@
 ---
 title: ValidatingFile
-page_title: ValidatingFile | UI for ASP.NET AJAX Documentation
+page_title: ValidatingFile | RadUpload for ASP.NET AJAX Documentation
 description: ValidatingFile
 slug: upload/server-side-programming/validatingfile
 tags: validatingfile
@@ -12,27 +12,27 @@ position: 2
 
 
 
->caution  __RadUpload__ has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using __RadUpload__ in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for __RadUpload__ has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that __RadAsyncUpload__ can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
 ## 
 
-The server-side __ValidatingFile__ event occurs when files are uploaded, before any [ integrated file validation ]({%slug upload/validation/integrated-validation%}) occurs:
+The server-side **ValidatingFile** event occurs when files are uploaded, before any [ integrated file validation ]({%slug upload/validation/integrated-validation%}) occurs:
 
-The __ValidatingFile__ event handler receives two arguments:
+The **ValidatingFile** event handler receives two arguments:
 
-1. The __RadUpload__ control that initiated the file upload. This argument is of type object, but can be cast to the __RadUpload__ type.
+1. The **RadUpload** control that initiated the file upload. This argument is of type object, but can be cast to the **RadUpload** type.
 
-1. A __ValidatingFileEventArgs__ object. This object has the following properties:
+1. A **ValidatingFileEventArgs** object. This object has the following properties:
 
-* __UploadedFile__ is the file that has not yet been validated.
+* **UploadedFile** is the file that has not yet been validated.
 
-* __IsValid__ is a boolean you can set to indicate whether or not the file is valid.
+* **IsValid** is a boolean you can set to indicate whether or not the file is valid.
 
 * SkipInternalValidation lets you disabled the integrated file validation for this specific file.
 
-Use the __ValidatingFile__ event [custom file validation]({%slug upload/validation/custom-validation%}). The following example uses the event to check that the content of the file matches the file name. If it does, the integrated file validation can proceed, if not, the file is considered invalid, and there is no need of further validation:
+Use the **ValidatingFile** event [custom file validation]({%slug upload/validation/custom-validation%}). The following example uses the event to check that the content of the file matches the file name. If it does, the integrated file validation can proceed, if not, the file is considered invalid, and there is no need of further validation:
 
 
 

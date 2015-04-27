@@ -1,6 +1,6 @@
 ---
 title: Show RadAlert that Blocks the Entire Page
-page_title: Show RadAlert that Blocks the Entire Page | UI for ASP.NET AJAX Documentation
+page_title: Show RadAlert that Blocks the Entire Page | RadWindow for ASP.NET AJAX Documentation
 description: Show RadAlert that Blocks the Entire Page
 slug: window/how-to/show-radalert-that-blocks-the-entire-page
 tags: show,radalert,that,blocks,the,entire,page

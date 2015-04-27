@@ -1,6 +1,6 @@
 ---
 title: RTL Support
-page_title: RTL Support | UI for ASP.NET AJAX Documentation
+page_title: RTL Support | RadWizard for ASP.NET AJAX Documentation
 description: RTL Support
 slug: wizard/accessibility-and-internationalization/rtl-support
 tags: rtl,support
@@ -12,18 +12,18 @@ position: 2
 
 
 
-The Telerik __RadWizard__ supports right-to-left (RTL) direction.
+The Telerik **RadWizard** supports right-to-left (RTL) direction.
 
-To put the __RadWizard__ control in RTL mode, its parent container should have its __CSS direction__ property or __dir attribute__ set to __rtl__.
+To put the **RadWizard** control in RTL mode, its parent container should have its **CSS direction** property or **dir attribute** set to **rtl**.
 
-This parent element can be the __BODY__, the __HTML__ element, or just a simple wrapper element. If you set the direction of the body tag (or any other parent element that contains the control) to rtl,__RadWizard__ reverses the step order and aligns itself to the right side of the container. The rendered result from the code in __Example 1__ is illustrated in __Figure 1__.
+This parent element can be the **BODY**, the **HTML** element, or just a simple wrapper element. If you set the direction of the body tag (or any other parent element that contains the control) to rtl,**RadWizard** reverses the step order and aligns itself to the right side of the container. The rendered result from the code in **Example 1** is illustrated in **Figure 1**.
 
 ## 
 >caption Figure 1: RadWizard control in Right-to-Left mode
 
 ![wizard-right-to-left-support](images/wizard-right-to-left-support.png)
 
-__Example 1__: Putting the __Telerik RadWizard__ in Right-to-Left mode
+**Example 1**: Putting the **Telerik RadWizard** in Right-to-Left mode
 
 ````ASPNET
 	           <telerik:RadWizard runat="server" ID="RadWizard9" Width="800px" Height="360px" DisplayCancelButton="true" dir="rtl">
