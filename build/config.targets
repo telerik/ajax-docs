@@ -26,7 +26,8 @@
         <XAMLLibWorkspaceName>AjaxDocsTempWorkspace</XAMLLibWorkspaceName>
         
         <!--Root Directories-->
-        <TfsSourcesRootDirectory>$(MsBuildProjectDirectory)\..\TfsSources</TfsSourcesRootDirectory>
+        <WorkspaceDirectory>$(MsBuildProjectDirectory)\..\..\</WorkspaceDirectory>
+        <TfsSourcesRootDirectory>$(WorkspaceDirectory)\TfsSources</TfsSourcesRootDirectory>
         <ServerApiReferenceConverterRootDirectory>$(TfsSourcesRootDirectory)\HelperProjects\ApiReferenceTools\ServerApiReferenceConverter</ServerApiReferenceConverterRootDirectory>
         <AjaxBuildHelpRootDirectory>$(TfsSourcesRootDirectory)\BuildHelp</AjaxBuildHelpRootDirectory>
         <AjaxWebUIRootDirectory>$(TfsSourcesRootDirectory)\Telerik.Web.UI</AjaxWebUIRootDirectory>
