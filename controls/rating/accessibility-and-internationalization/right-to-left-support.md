@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadRating for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: rating/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadRating__ fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set its __IsDirectionReversed__ property to __true__ as well as __dir=rtl to the html or body__ elements or to its direct parent.
+The **RadRating** fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set its **IsDirectionReversed** property to **true** as well as **dir=rtl to the html or body** elements or to its direct parent.
 
 ````ASPNET
 	    <div dir="rtl">

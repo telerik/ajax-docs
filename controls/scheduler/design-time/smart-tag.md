@@ -1,6 +1,6 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | UI for ASP.NET AJAX Documentation
+page_title: Smart Tag | RadScheduler for ASP.NET AJAX Documentation
 description: Smart Tag
 slug: scheduler/design-time/smart-tag
 tags: smart,tag
@@ -12,15 +12,15 @@ position: 0
 
 
 
-The __RadScheduler__ Smart Tag allows easy access to frequently needed tasks.You can display the Smart Tag by right clicking on a __RadScheduler__ control in the designwindow, and choosing __Show Smart Tag__. Using the __RadScheduler__Smart Tag you can perform the following:
+The **RadScheduler** Smart Tag allows easy access to frequently needed tasks.You can display the Smart Tag by right clicking on a **RadScheduler** control in the designwindow, and choosing **Show Smart Tag**. Using the **RadScheduler**Smart Tag you can perform the following:
 
 ## RadScheduler Tasks
 
-* __Choose Data Source__ opens the [ Data Source Configuration Wizard]({%slug scheduler/design-time/data-source-configuration-wizard%}), where you can bind the RadScheduler to a data source and specify thefields that provide data for appointment properties.
+* **Choose Data Source** opens the [ Data Source Configuration Wizard]({%slug scheduler/design-time/data-source-configuration-wizard%}), where you can bind the RadScheduler to a data source and specify thefields that provide data for appointment properties.
 
-* __Resource Types__ opens the [ResourceType Collection Editor]({%slug scheduler/design-time/resource-type-collection-editor%}), where you can define custom resources to store additional information with appointments,such as rooms, users, etc.
+* **Resource Types** opens the [ResourceType Collection Editor]({%slug scheduler/design-time/resource-type-collection-editor%}), where you can define custom resources to store additional information with appointments,such as rooms, users, etc.
 
-* __Skin__ lets you select from a list of available [ skins]({%slug scheduler/appearance-and-styling/skins%}) to customize the look of your __RadScheduler__.
+* **Skin** lets you select from a list of available [ skins]({%slug scheduler/appearance-and-styling/skins%}) to customize the look of your **RadScheduler**.
 
 ## Learning Center
 

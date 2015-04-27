@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequested | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemsRequested
 slug: rotator/client-side-programming/events/onclientitemsrequested
 tags: onclientitemsrequested
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __ItemsRequested__ event is related the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired when the items are successfully loaded.
+The **ItemsRequested** event is related the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired when the items are successfully loaded.
 
 The event handler receives two parameters:
 

@@ -1,6 +1,6 @@
 ---
 title: Using ResourcePopulationMode in ServerSide and Authentication
-page_title: Using ResourcePopulationMode in ServerSide and Authentication | UI for ASP.NET AJAX Documentation
+page_title: Using ResourcePopulationMode in ServerSide and Authentication | RadScheduler for ASP.NET AJAX Documentation
 description: Using ResourcePopulationMode in ServerSide and Authentication
 slug: scheduler/web-service-binding/using-resourcepopulationmode-in-serverside-and-authentication
 tags: using,resourcepopulationmode,in,serverside,and,authentication
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-If you set __ResourcePopulationMode__="ServerSide" and use __authentication__ as shown below:**
+If you set **ResourcePopulationMode**="ServerSide" and use **authentication** as shown below:**
 
 ````ASPNET
 	
@@ -49,7 +49,7 @@ you may experience the following error (or similar):
 >
 
 
-The solution is to set the authentication cookie in __ResourcesPopulating__:
+The solution is to set the authentication cookie in **ResourcesPopulating**:
 
 
 
@@ -84,7 +84,7 @@ The solution is to set the authentication cookie in __ResourcesPopulating__:
 ````
 
 
-Another scenario when the __"401: Unauthorized"__ error may be seen is when __"Windows authentication"__ is used and the __ResourcePopulationMode__="ServerSide". In this case you should declare the NetWork credentials in the __ResourcesPopulating__ event as it is done below. This only other thing that have to be done is to turn the impersonation off of because of the Double Hop issue that may occur as is explained here:
+Another scenario when the **"401: Unauthorized"** error may be seen is when **"Windows authentication"** is used and the **ResourcePopulationMode**="ServerSide". In this case you should declare the NetWork credentials in the **ResourcesPopulating** event as it is done below. This only other thing that have to be done is to turn the impersonation off of because of the Double Hop issue that may occur as is explained here:
 
 
 

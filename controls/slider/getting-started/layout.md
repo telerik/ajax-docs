@@ -1,6 +1,6 @@
 ---
 title: Layout
-page_title: Layout | UI for ASP.NET AJAX Documentation
+page_title: Layout | RadSlider for ASP.NET AJAX Documentation
 description: Layout
 slug: slider/getting-started/layout
 tags: layout
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-Set the __Orientation__ property to display the slider __Vertical__ or __Horizontal__.
+Set the **Orientation** property to display the slider **Vertical** or **Horizontal**.
 >caption 
 
 ![](images/slider001.png)

@@ -1,6 +1,6 @@
 ---
 title: SchedulerResourceTypeCollection Object
-page_title: SchedulerResourceTypeCollection Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerResourceTypeCollection Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerResourceTypeCollection Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresourcetypecollection-object
 tags: schedulerresourcetypecollection,object
@@ -12,9 +12,9 @@ position: 5
 
 
 
-The __SchedulerResourceTypeCollection__ client-side object represents a list of __ResourcesTypes__ defined in the Scheduler.
+The **SchedulerResourceTypeCollection** client-side object represents a list of **ResourcesTypes** defined in the Scheduler.
 
-The tables below lists all public properties and the most important methods of the __SchedulerResourceTypeCollection__ client-side object.
+The tables below lists all public properties and the most important methods of the **SchedulerResourceTypeCollection** client-side object.
 
 ## Properties
 
@@ -23,7 +23,7 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_count()__ |None|Int|Gets the number of ResourcesType in the collection.|
+| **get_count()** |None|Int|Gets the number of ResourcesType in the collection.|
 
 ## Methods
 
@@ -32,14 +32,14 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add()__ |ResourceType|None|Adds the specified ResourceType to the collection.|
-| __clear()__ |None|None|Clears the collection of all ResourcesType in it.|
-| __forEach()__ |function|ResourceTypeCollection|Gets the collection of all ResourcesType.|
-| __getResourceType()__ |Int|ResourceType|Gets the ResourceType at the specified index in the collection.|
-| __getResourcesTypeByName()__ |String|ResourceType|Gets a list of all ResourcesTypes of the specified type.|
-| __insert()__ |Int (index), ResourceType|None|Inserts the specified ResourceType at the specified index in the collection.|
-| __remove()__ |ResourceType|None|Removes the specified ResourceType (if it exists) from the collection.|
-| __removeAt()__ |Int|None|Removes the ResourceType at the specified index from the collection.|
+| **add()** |ResourceType|None|Adds the specified ResourceType to the collection.|
+| **clear()** |None|None|Clears the collection of all ResourcesType in it.|
+| **forEach()** |function|ResourceTypeCollection|Gets the collection of all ResourcesType.|
+| **getResourceType()** |Int|ResourceType|Gets the ResourceType at the specified index in the collection.|
+| **getResourcesTypeByName()** |String|ResourceType|Gets a list of all ResourcesTypes of the specified type.|
+| **insert()** |Int (index), ResourceType|None|Inserts the specified ResourceType at the specified index in the collection.|
+| **remove()** |ResourceType|None|Removes the specified ResourceType (if it exists) from the collection.|
+| **removeAt()** |Int|None|Removes the ResourceType at the specified index from the collection.|
 
 ````JavaScript
 	     

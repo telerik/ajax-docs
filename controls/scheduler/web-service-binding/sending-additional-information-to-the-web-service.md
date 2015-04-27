@@ -1,6 +1,6 @@
 ---
 title: Sending Additional Information to the Web Service
-page_title: Sending Additional Information to the Web Service | UI for ASP.NET AJAX Documentation
+page_title: Sending Additional Information to the Web Service | RadScheduler for ASP.NET AJAX Documentation
 description: Sending Additional Information to the Web Service
 slug: scheduler/web-service-binding/sending-additional-information-to-the-web-service
 tags: sending,additional,information,to,the,web,service
@@ -68,7 +68,7 @@ In our examples, the Web Service methods take SchedulerInfo as first parameter, 
 
 
 
-* [OnClientAppointmentsPopulating]({%slug scheduler/client-side-programming/events/onclientappointmentspopulating%}) (Note: Will beraised before calling __each__ web service method)
+* [OnClientAppointmentsPopulating]({%slug scheduler/client-side-programming/events/onclientappointmentspopulating%}) (Note: Will beraised before calling **each** web service method)
 
 * [OnClientResourcesPopulating]({%slug scheduler/client-side-programming/events/onclientresourcespopulating%})
 

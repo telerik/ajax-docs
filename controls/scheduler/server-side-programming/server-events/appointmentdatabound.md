@@ -1,6 +1,6 @@
 ---
 title: AppointmentDataBound
-page_title: AppointmentDataBound | UI for ASP.NET AJAX Documentation
+page_title: AppointmentDataBound | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentDataBound
 slug: scheduler/server-side-programming/server-events/appointmentdatabound
 tags: appointmentdatabound
@@ -12,13 +12,13 @@ position: 7
 
 
 
-The __AppointmentDataBound__ event occurs when an appointment has been added to the Appointmentscollection from the data source.
+The **AppointmentDataBound** event occurs when an appointment has been added to the Appointmentscollection from the data source.
 
-__AppointmentDataBound__ has two parameters:
+**AppointmentDataBound** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerEventArgs__.It has an Appointment property that lets you access the appointment that was just loaded.
+* **e** is an object of type **SchedulerEventArgs**.It has an Appointment property that lets you access the appointment that was just loaded.
 
 You can use this event to make adjustments to the appointments as they are loaded.
 

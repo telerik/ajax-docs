@@ -1,6 +1,6 @@
 ---
 title: OnClientColorPickerColorChanged
-page_title: OnClientColorPickerColorChanged | UI for ASP.NET AJAX Documentation
+page_title: OnClientColorPickerColorChanged | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientColorPickerColorChanged
 slug: ribbonbar/client-side-programming/events/onclientcolorpickercolorchanged
 tags: onclientcolorpickercolorchanged
@@ -14,11 +14,11 @@ position: 26
 
 ## 
 
-The __OnClientColorPickerColorChanged__ client-side event occurs when the user has already changed the color in the ColorPicker.
+The **OnClientColorPickerColorChanged** client-side event occurs when the user has already changed the color in the ColorPicker.
 
-1. The instance of the __ribbonbar__ firing the event
+1. The instance of the **ribbonbar** firing the event
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
 * get_colorPicker()
 

@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Events | RadRotator for ASP.NET AJAX Documentation
 description: Events
 slug: rotator/server-side-programming/events
 tags: events

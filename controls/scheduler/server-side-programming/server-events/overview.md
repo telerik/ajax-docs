@@ -1,6 +1,6 @@
 ---
-title: Server Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Events Overview | RadScheduler for ASP.NET AJAX Documentation
 description: Overview
 slug: scheduler/server-side-programming/server-events/overview
 tags: overview
@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# Server Events Overview
+# Server-side Events Overview
 
 
 
 ## 
 
-__RadScheduler__ supports a number of server-side events that let you customize its behavior. These events are listed below:
+**RadScheduler** supports a number of server-side events that let you customize its behavior. These events are listed below:
 
 * [AppointmentClick]({%slug scheduler/server-side-programming/server-events/appointmentclick%}) - occurs when the user clicks an appointment.
 

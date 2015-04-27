@@ -1,6 +1,6 @@
 ---
 title: Customize the Control Buttons
-page_title: Customize the Control Buttons | UI for ASP.NET AJAX Documentation
+page_title: Customize the Control Buttons | RadRotator for ASP.NET AJAX Documentation
 description: Customize the Control Buttons
 slug: rotator/appearance-and-styling/customize-the-control-buttons
 tags: customize,the,control,buttons
@@ -16,7 +16,7 @@ position: 2
 
 
 
-__RadRotator__ provides the ability to specify custom buttons as rotator's buttons - Up and Down for vertical rotator or Left and Right for horizontal rotator.All you need to do is to set UpButtonID and DownButtonID or LeftButtonID and RightButtonID properties of the ControlButtons of the rotator to the IDs of the corresponding custom buttons. The custom buttons can be placed anywhere on the page.
+**RadRotator** provides the ability to specify custom buttons as rotator's buttons - Up and Down for vertical rotator or Left and Right for horizontal rotator.All you need to do is to set UpButtonID and DownButtonID or LeftButtonID and RightButtonID properties of the ControlButtons of the rotator to the IDs of the corresponding custom buttons. The custom buttons can be placed anywhere on the page.
 
 ````ASPNET
 	    <asp:Image ImageUrl="images/right.gif" ID="img_right" AlternateText="right" runat="server"

@@ -1,6 +1,6 @@
 ---
 title: Quick Access Toolbar
-page_title: Quick Access Toolbar | UI for ASP.NET AJAX Documentation
+page_title: Quick Access Toolbar | RadRibbonBar for ASP.NET AJAX Documentation
 description: Quick Access Toolbar
 slug: ribbonbar/radribbonbar-items/quick-access-toolbar
 tags: quick,access,toolbar
@@ -22,19 +22,19 @@ Additionally the drop down of the QAT allows the user to hide/show those command
 
 Configuring the Quick Access Toolbar is straightforward:
 
-* RadRibbonBar.__EnableQuickAccessToolbar__
+* RadRibbonBar.**EnableQuickAccessToolbar**
 
-* __False__ (default) - disables the QAT.
+* **False** (default) - disables the QAT.
 
-* __True__ - enables the QAT (allows the buttons whose QuickAccess property is set to true).
+* **True** - enables the QAT (allows the buttons whose QuickAccess property is set to true).
 
-* RibbonBar[Button|SplitButton|Menu|ToggleButton].__QuickAccess__
+* RibbonBar[Button|SplitButton|Menu|ToggleButton].**QuickAccess**
 
-* __Disabled__ (default) - the command does not appear in the QAT.
+* **Disabled** (default) - the command does not appear in the QAT.
 
-* __Active__ - the command is added to the QAT and is immediately available for usage.
+* **Active** - the command is added to the QAT and is immediately available for usage.
 
-* __Inactive__ - the command is added to the QAT but is not immediately available for usage. Can be shown by checking its corresponding option in the QAT drop down.
+* **Inactive** - the command is added to the QAT but is not immediately available for usage. Can be shown by checking its corresponding option in the QAT drop down.
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Client-side Data Binding
-page_title: Client-side Data Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Data Binding | RadRotator for ASP.NET AJAX Documentation
 description: Client-side Data Binding
 slug: rotator/data-binding/client-side-data-binding
 tags: client-side,data,binding
@@ -12,24 +12,24 @@ position: 2
 
 
 
-This article introduces the client-side data binding feature of the __RadRotator__ control.
+This article introduces the client-side data binding feature of the **RadRotator** control.
 
 ## Getting Started with Client-side Data Binding
 
-The __RadRotator__ can be bound to various type of data sources to populate its items. To create a proper data binding you canuse the __RadClientDataSource__ control or fetch an already retrieved data via the__dataBind()__ method, available in the Rotator's	[Client-side API]({%slug rotator/client-side-programming/overview%}).
+The **RadRotator** can be bound to various type of data sources to populate its items. To create a proper data binding you canuse the **RadClientDataSource** control or fetch an already retrieved data via the**dataBind()** method, available in the Rotator's	[Client-side API]({%slug rotator/client-side-programming/overview%}).
 
-The layout of the bound Rotator items should be defined in the __ClientTemplate__ inner tag.You can create their design with HTML code where the fetched data source fields should be set with this syntax - __#= datasourceField #__.
+The layout of the bound Rotator items should be defined in the **ClientTemplate** inner tag.You can create their design with HTML code where the fetched data source fields should be set with this syntax - **#= datasourceField #**.
 
 The following two sections will provide more details about the data binding.
 
 ## Simple Data Binding
 
-Simple data binding is used when the desired data source is already retrieved from the web service or from another appropriate source.__Example 1__ demonstrates how a simple JS array can be used for data binding, by using the __dataBind()__ method in a function attached to the	[OnClientLoad event of the Rotator]({%slug rotator/client-side-programming/events/onclientload%}). The result of this implementation is shown in __Figure 1__.
+Simple data binding is used when the desired data source is already retrieved from the web service or from another appropriate source.**Example 1** demonstrates how a simple JS array can be used for data binding, by using the **dataBind()** method in a function attached to the	[OnClientLoad event of the Rotator]({%slug rotator/client-side-programming/events/onclientload%}). The result of this implementation is shown in **Figure 1**.
 >caption Figure 1: RadRotator control bound to a simple JS array.
 
 ![rotator simple databinding](images/Client-side-databinding/rotator_simple_databinding.png)
 
-__Example 1:__ Simple data binding.
+**Example 1:** Simple data binding.
 
 
 
@@ -75,12 +75,12 @@ __Example 1:__ Simple data binding.
 
 ## Using RadClientDataSource for Data Binding
 
-The __RadClientDataSource__ provides the ability to connect to a web service and fetch data to bind any appropriate Telerik control.	After configuring the ClientDataSource with the needed settings, all you need is to set its ID to the __ClientDataSourceID__ property	of the __RadRotator__ control. __Example 2__ demonstrates a sample implementation of such approach and the corresponding resultis shown in __Figure 2__.
+The **RadClientDataSource** provides the ability to connect to a web service and fetch data to bind any appropriate Telerik control.	After configuring the ClientDataSource with the needed settings, all you need is to set its ID to the **ClientDataSourceID** property	of the **RadRotator** control. **Example 2** demonstrates a sample implementation of such approach and the corresponding resultis shown in **Figure 2**.
 >caption Figure 2: Data bound Rotator via RadClientDataSource control.
 
 ![rotator using radclientdatasource](images/Client-side-databinding/rotator_using_radclientdatasource.png)
 
-__Example 2:__ Using __RadClientDataSource__ control for Rotator data binding.
+**Example 2:** Using **RadClientDataSource** control for Rotator data binding.
 
 
 

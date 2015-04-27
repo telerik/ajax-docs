@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentMoveEnd
-page_title: OnClientAppointmentMoveEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentMoveEnd | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentMoveEnd
 slug: scheduler/client-side-programming/events/onclientappointmentmoveend
 tags: onclientappointmentmoveend
@@ -12,25 +12,25 @@ position: 12
 
 
 
-The __OnClientAppointmenMoveEnd__ client-side event is called when the user stops moving an appointment.
+The **OnClientAppointmenMoveEnd** client-side event is called when the user stops moving an appointment.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
 * 
 
-* __get_appointment()__ that returns the appointment instance.
+* **get_appointment()** that returns the appointment instance.
 
-* __get_editingRecurringSeries()__ returns __True__ if the user is trying to move a series to which the appointment belongs, __False__ if the user is trying to move a single occurrence of an appointment.
+* **get_editingRecurringSeries()** returns **True** if the user is trying to move a series to which the appointment belongs, **False** if the user is trying to move a single occurrence of an appointment.
 
-* __get_newStartTime()__ returns the new time of the appointment after the move operation is complete.
+* **get_newStartTime()** returns the new time of the appointment after the move operation is complete.
 
-* __get_targetSlot()__ returns the Time Slot on which the mouse is located at this moment.
+* **get_targetSlot()** returns the Time Slot on which the mouse is located at this moment.
 
-* __set_cancel()__ lets you permit or block the moving of the appointment.Calling __set_cancel(true)__ aborts the moving operation, while __set_cancel(false)__allows the scheduler to proceed with moving the appointment.
+* **set_cancel()** lets you permit or block the moving of the appointment.Calling **set_cancel(true)** aborts the moving operation, while **set_cancel(false)**allows the scheduler to proceed with moving the appointment.
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Responsive, Adaptive and Elastic Capabilities | RadSlider for ASP.NET AJAX Documentation
 description: Responsive, Adaptive and Elastic Capabilities
 slug: slider/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
@@ -12,20 +12,20 @@ position: 0
 
 
 
-This article explains the __responsive design capabilities RadSlider offers__. The [ Lightweight RenderMode ]({%slug slider/mobile-support/render-modes%}) of __RadSlider__ supports __responsive design since Q2 2014__ and __fluid design since Q3 2014__.
+This article explains the **responsive design capabilities RadSlider offers**. The [ Lightweight RenderMode ]({%slug slider/mobile-support/render-modes%}) of **RadSlider** supports **responsive design since Q2 2014** and **fluid design since Q3 2014**.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience.This often includes changing the font size and having dimensions set in percent.
 
 ## Elastic Design with RadSlider
 
-The __Lightweight RenderMode__ of the slider supports changing the font size without breaking the control's appearance -if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text.This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
+The **Lightweight RenderMode** of the slider supports changing the font size without breaking the control's appearance -if the new size is larger than the original, the elements in the control will simply increase their size as well to accommodate the text.This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because em units are tied to the font size.This allows dimensions and sizes to scale with the font size.
 
-The following sample shows how to increase the font size of a slider and the effect can be seen in comparison in __Figure 1__.
+The following sample shows how to increase the font size of a slider and the effect can be seen in comparison in **Figure 1**.
 >caption Figure 1: Comparison between appearance of a slider with regular font size and with increased font size.
 
 ![Font size comparison](images/slider-font-size-comparison.png)
 
-__Example 1__: Slider with increased font size to 18px.
+**Example 1**: Slider with increased font size to 18px.
 
 ````ASPNET
 	        <style type="text/css">
@@ -42,9 +42,9 @@ __Example 1__: Slider with increased font size to 18px.
 
 ## Fluid Design with RadSlider
 
-__RadSlider__ supports setting its __Width__ property in percentage only when Lightweight render mode is enabled as of the Q3 2014 release of UI for ASP.NET AJAX.This means that the slider changes its width according to the current screen resolution when you set its __Width__ property in percentage as shown in__Example 1__. The actual width of the slider is calculated from its parent element, so if you place the slider from __Example 1__ in an HTML div element that is 300px wide, the width of the slider should also be 300px.
+**RadSlider** supports setting its **Width** property in percentage only when Lightweight render mode is enabled as of the Q3 2014 release of UI for ASP.NET AJAX.This means that the slider changes its width according to the current screen resolution when you set its **Width** property in percentage as shown in**Example 1**. The actual width of the slider is calculated from its parent element, so if you place the slider from **Example 1** in an HTML div element that is 300px wide, the width of the slider should also be 300px.
 
-__Example 1__: Slider with 100% width.
+**Example 1**: Slider with 100% width.
 
 ````ASPNET
 	        <telerik:RadSlider ID="RadSlider1" runat="server" Width="100%" RenderMode="Lightweight">
@@ -53,13 +53,13 @@ __Example 1__: Slider with 100% width.
 
 
 
-There are controls and elements that allow you to resize them by dragging their borders, such as the __RadDock__ and __RadWindow__ Telerikcontrols, or HTML elements with drag resizing, enabled via client scripts. If you place a fluid slider in such a container, you need to get the client-side object of the slider and call its __repaint()__ method when you change the size of the container. __Example 2__ shows how to achieve this when you have placed a slider in a __RadDock__ control.
+There are controls and elements that allow you to resize them by dragging their borders, such as the **RadDock** and **RadWindow** Telerikcontrols, or HTML elements with drag resizing, enabled via client scripts. If you place a fluid slider in such a container, you need to get the client-side object of the slider and call its **repaint()** method when you change the size of the container. **Example 2** shows how to achieve this when you have placed a slider in a **RadDock** control.
 
->tip If you place a slider in a __RadSplitter__ control, you will not have to call its __repaint()__ method, because the splitter does this automatically.
+>tip If you place a slider in a **RadSplitter** control, you will not have to call its **repaint()** method, because the splitter does this automatically.
 >
 
 
-__Example 2__: Slider with 100% width in a resizable RadDock.
+**Example 2**: Slider with 100% width in a resizable RadDock.
 
 ````ASPNET
 	        <script type="text/javascript">

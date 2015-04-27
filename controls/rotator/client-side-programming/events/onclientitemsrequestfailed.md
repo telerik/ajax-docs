@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequestFailed
-page_title: OnClientItemsRequestFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequestFailed | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemsRequestFailed
 slug: rotator/client-side-programming/events/onclientitemsrequestfailed
 tags: onclientitemsrequestfailed
@@ -14,13 +14,13 @@ position: 7
 
 ## 
 
-The __ItemsRequestFailed__ event is related the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired when the request has failed.
+The **ItemsRequestFailed** event is related the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired when the request has failed.
 
 The event handler receives two parameters:
 
 1. The RadRotator instance that fired the event.
 
-1. An eventArgs parameter of type Telerik.Web.UI.__RadRotatorErrorEventArgs__, containing the following properties and methods:
+1. An eventArgs parameter of type Telerik.Web.UI.**RadRotatorErrorEventArgs**, containing the following properties and methods:
 
 * get_errorMessage() - returns the error message that describes the specific problem.
 

@@ -1,6 +1,6 @@
 ---
 title: AppointmentContextMenuItemClicked 
-page_title: AppointmentContextMenuItemClicked  | UI for ASP.NET AJAX Documentation
+page_title: AppointmentContextMenuItemClicked  | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentContextMenuItemClicked 
 slug: scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicked-
 tags: appointmentcontextmenuitemclicked,
@@ -14,17 +14,17 @@ position: 21
 
 ## 
 
-The __AppointmentContextMenuItemClicked__ event occurs after an appointment context menu item is clicked.
+The **AppointmentContextMenuItemClicked** event occurs after an appointment context menu item is clicked.
 
 AppointmentContextMenuItemClicking has two parameters:
 
-* __sender__ is the scheduler control
+* **sender** is the scheduler control
 
-* __e__ is an object of type AppointmentContextMenuItemClickedEventArgs. It has two properties:
+* **e** is an object of type AppointmentContextMenuItemClickedEventArgs. It has two properties:
 
-* __MenuItem__
+* **MenuItem**
 
-* __Appointment__
+* **Appointment**
 
 This event cannot be cancelled.
 

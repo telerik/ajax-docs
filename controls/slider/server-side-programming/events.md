@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Server-side Events | RadSlider for ASP.NET AJAX Documentation
 description: Events
 slug: slider/server-side-programming/events
 tags: events
@@ -14,7 +14,7 @@ position: 0
 
 ## OnValueChanged
 
-The __RadSlider__ control raises a server-side event, __ValueChanged__ that fires when the user changes the __Value__ with the mouse or mouse wheel. Set the __AutoPostBack__ property __True__ to raise the event right after the value is changed on the client. Retrieve the __Value__ property within the __ValueChanged__ event handler:
+The **RadSlider** control raises a server-side event, **ValueChanged** that fires when the user changes the **Value** with the mouse or mouse wheel. Set the **AutoPostBack** property **True** to raise the event right after the value is changed on the client. Retrieve the **Value** property within the **ValueChanged** event handler:
 
 
 
@@ -37,7 +37,7 @@ The __RadSlider__ control raises a server-side event, __ValueChanged__ that fire
 
 ## OnDataBound
 
-The __OnDataBound__ sever-side event of the __RadSlider__ fires when all its items are loaded from a specified data source.	You can use this event when you are data binding the __RadSlider__ and you want to execute logic that relies on already loaded items.	The example below demonstrates setting the fouth item of a data-bound __RadSlider__ as a selected item:
+The **OnDataBound** sever-side event of the **RadSlider** fires when all its items are loaded from a specified data source.	You can use this event when you are data binding the **RadSlider** and you want to execute logic that relies on already loaded items.	The example below demonstrates setting the fouth item of a data-bound **RadSlider** as a selected item:
 
 
 

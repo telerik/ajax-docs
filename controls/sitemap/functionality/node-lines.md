@@ -1,6 +1,6 @@
 ---
 title: Node Lines
-page_title: Node Lines | UI for ASP.NET AJAX Documentation
+page_title: Node Lines | RadSiteMap for ASP.NET AJAX Documentation
 description: Node Lines
 slug: sitemap/functionality/node-lines
 tags: node,lines
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-__RadSiteMap__ supports node lines. You can toggle them on and off by using the __ShowNodeLines__ boolean property.
+**RadSiteMap** supports node lines. You can toggle them on and off by using the **ShowNodeLines** boolean property.
 
->note The node lines are rendered in __List__ layout mode only. They are __not__ rendered in __Flow__ layout mode.
+>note The node lines are rendered in **List** layout mode only. They are **not** rendered in **Flow** layout mode.
 >
 
 

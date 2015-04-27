@@ -1,6 +1,6 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTemplateDataBound | RadRotator for ASP.NET AJAX Documentation
 description: OnClientTemplateDataBound
 slug: rotator/client-side-programming/events/onclienttemplatedatabound
 tags: onclienttemplatedatabound
@@ -12,7 +12,7 @@ position: 13
 
 
 
-This article demonstrates how the __OnClientTemplateDataBound__ event can be used to manipulate the HTML code of the item before rendered in the browser.
+This article demonstrates how the **OnClientTemplateDataBound** event can be used to manipulate the HTML code of the item before rendered in the browser.
 
 ## 
 
@@ -20,24 +20,24 @@ This event is raised when the data from the request is received and the HTML of 
 
 The event handler receives two parameters:
 
-1. The __RadRotator__ instance that fired the event.
+1. The **RadRotator** instance that fired the event.
 
 1. An event arguments object containing the following methods:
 
-* __get_dataItem()__ - returns the client-side data object bound to the Rotator item.
+* **get_dataItem()** - returns the client-side data object bound to the Rotator item.
 
-* __get_html()__ - returns the HTML the Rotator is about to render.
+* **get_html()** - returns the HTML the Rotator is about to render.
 
-* __get_template()__ - returns the template the RadRotator uses.
+* **get_template()** - returns the template the RadRotator uses.
 
-* __set_html(string)__ - sets a new HTML that will be placed in the Rotator item.
+* **set_html(string)** - sets a new HTML that will be placed in the Rotator item.
 
-__Figure 1__ and __Example 1__ demonstrates how to use the methods of the event arguments object to	dynamically manipulate the HTML that is going to be rendered.
+**Figure 1** and **Example 1** demonstrates how to use the methods of the event arguments object to	dynamically manipulate the HTML that is going to be rendered.
 >caption Figure 1: The rendered Rotator items modified via the OnClientTemplateDataBound event
 
 ![rotator onclienttemplatedatabound](images/Client-side-databinding/rotator_onclienttemplatedatabound.png)
 
-__Example 1__: Using the __OnClientTemplateDataBound__ event's arguments in client-side logic.
+**Example 1**: Using the **OnClientTemplateDataBound** event's arguments in client-side logic.
 
 
 

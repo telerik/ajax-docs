@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadRating for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: rating/client-side-programming/events/onclientload
 tags: onclientload
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __OnClientLoad__ event is raised when the RadRating client-side object is initialized. It can notify you that the control is available(e.g. to store a reference to its client-side object for later use).
+The **OnClientLoad** event is raised when the RadRating client-side object is initialized. It can notify you that the control is available(e.g. to store a reference to its client-side object for later use).
 
 ## 
 
@@ -22,9 +22,9 @@ The event handler receives two arguments:
 
 1. Event arguments – an empty event arguments object.
 
-You can check how to set the value of the rating control in its __OnClientLoad__ event in __Example 1__.
+You can check how to set the value of the rating control in its **OnClientLoad** event in **Example 1**.
 
-__Example 1__: Using the __OnClientLoad__ event.
+**Example 1**: Using the **OnClientLoad** event.
 
 ````ASPNET
 	    <telerik:RadRating runat="server" ID="RadRating1" OnClientLoad="OnClientLoad"></telerik:RadRating>

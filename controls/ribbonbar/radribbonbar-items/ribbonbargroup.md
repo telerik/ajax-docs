@@ -1,6 +1,6 @@
 ---
 title: RibbonBarGroup
-page_title: RibbonBarGroup | UI for ASP.NET AJAX Documentation
+page_title: RibbonBarGroup | RadRibbonBar for ASP.NET AJAX Documentation
 description: RibbonBarGroup
 slug: ribbonbar/radribbonbar-items/ribbonbargroup
 tags: ribbonbargroup
@@ -14,18 +14,18 @@ position: 8
 
 ## RibbonBarGroup
 
-The __RibbonBarGroup__ has a few important properties, which are listed below:
+The **RibbonBarGroup** has a few important properties, which are listed below:
 
 
 
-* __Text__ is the string that the user sees displayed on the __RibbonBarGroup__.
+* **Text** is the string that the user sees displayed on the **RibbonBarGroup**.
 
-* __ToolTip__ is the text of the tooltip that appears when the user hovers the mouse over the button.
+* **ToolTip** is the text of the tooltip that appears when the user hovers the mouse over the button.
 
 >note Setting the tooltip can enable an accessibility feature: Special accessibility readers like JAWS can pronounce the tooltip of the highlighted item.
 >
 
 
-* __EnableLauncher__ allows the user to click the __RibbonBarGroup__ container when set to __"true"__.
+* **EnableLauncher** allows the user to click the **RibbonBarGroup** container when set to **"true"**.
 
-* __CssClass__ is the name of a CSS style to be applied to the __RibbonBarGroup__. The style can be declared in the CSS file of the applied skin.
+* **CssClass** is the name of a CSS style to be applied to the **RibbonBarGroup**. The style can be declared in the CSS file of the applied skin.

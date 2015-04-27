@@ -1,6 +1,6 @@
 ---
 title: WCF Service Binding
-page_title: WCF Service Binding | UI for ASP.NET AJAX Documentation
+page_title: WCF Service Binding | RadSearchBox for ASP.NET AJAX Documentation
 description: WCF Service Binding
 slug: searchbox/data-binding/wcf-service-binding
 tags: wcf,service,binding
@@ -16,7 +16,7 @@ position: 6
 
 RadSearchBox supports WCF binding. The following steps demonstrate how to bind RadSearchBox through WCF service.
 
-The path to the service and the name of the service method are specified in the __WebServiceSettings' Path__ and __Method__ properties:
+The path to the service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
 			 <telerik:RadSearchBox runat="server" ID="RadSearchBox1">

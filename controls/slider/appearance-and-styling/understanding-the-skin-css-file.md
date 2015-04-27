@@ -1,6 +1,6 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding the Skin CSS File | RadSlider for ASP.NET AJAX Documentation
 description: Understanding the Skin CSS File
 slug: slider/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
@@ -12,17 +12,17 @@ position: 3
 
 
 
-Styles for __Telerik controls__ are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. See the [CSS Skin File Selectors]({%slug slider/appearance-and-styling/css-classes%}) topic for more information on the specific CSS selectors used for __RadSlider__ skins.
+Styles for **Telerik controls** are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. See the [CSS Skin File Selectors]({%slug slider/appearance-and-styling/css-classes%}) topic for more information on the specific CSS selectors used for **RadSlider** skins.
 
-Each style maps to a "class" attribute in an HTML tag. For example, consider the HTML rendering of a __RadSlider__ control:
+Each style maps to a "class" attribute in an HTML tag. For example, consider the HTML rendering of a **RadSlider** control:
 
 ## Rendering Horizontal Slider with Items:
 
-The slider control is rendered within a wrapping DIV with__id="RadSliderWrapper_RadSlider_Items"__ which specifies the using of RadSlider with Items. For proper rendering two classes were also added:__class=”rslHorizontal rslMiddle”__. The __rslHorizzontal__ class defines that the slider will be in horizontal position and the __rslMiddle__ class is used when you want to render __Slider with Items__ or__Slider with Ticks__. The slider options are rendered with an unordered list. You have four classes for the LI element which are __rslItem__ – for each LI element,__rslItemFirst__ – only for the first LI element, __rslItemSelected__ – only for the selected element and __rslItemLast__- only for the last LI element.
+The slider control is rendered within a wrapping DIV with**id="RadSliderWrapper_RadSlider_Items"** which specifies the using of RadSlider with Items. For proper rendering two classes were also added:**class=”rslHorizontal rslMiddle”**. The **rslHorizzontal** class defines that the slider will be in horizontal position and the **rslMiddle** class is used when you want to render **Slider with Items** or**Slider with Ticks**. The slider options are rendered with an unordered list. You have four classes for the LI element which are **rslItem** – for each LI element,**rslItemFirst** – only for the first LI element, **rslItemSelected** – only for the selected element and **rslItemLast**- only for the last LI element.
 
-The Handles within the slider are rendered with anchor elements with classes specifying that it is a handle and its functionality – increasing or decreasing the slider: __rslHandle__, __rslDecrease__, __rslIncrease__.
+The Handles within the slider are rendered with anchor elements with classes specifying that it is a handle and its functionality – increasing or decreasing the slider: **rslHandle**, **rslDecrease**, **rslIncrease**.
 
-Rendering of the other RadSlider options use the same or very similar HTML semantics. The difference is in the used CSS classes that specify the __Orientation__, __Direction__, __Position__, number of __Drag handles__, __Enabling__ or __Disabling__ the server-side rendering and __RadSlider__ itself. The CSS classes are named sensitively and it is easy to predict what their exact usage is.
+Rendering of the other RadSlider options use the same or very similar HTML semantics. The difference is in the used CSS classes that specify the **Orientation**, **Direction**, **Position**, number of **Drag handles**, **Enabling** or **Disabling** the server-side rendering and **RadSlider** itself. The CSS classes are named sensitively and it is easy to predict what their exact usage is.
 >caption 
 
 ![RadSlider with items](images/slider-rs_with_items.gif)

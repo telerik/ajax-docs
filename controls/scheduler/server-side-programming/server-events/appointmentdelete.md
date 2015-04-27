@@ -1,6 +1,6 @@
 ---
 title: AppointmentDelete
-page_title: AppointmentDelete | UI for ASP.NET AJAX Documentation
+page_title: AppointmentDelete | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentDelete
 slug: scheduler/server-side-programming/server-events/appointmentdelete
 tags: appointmentdelete
@@ -12,17 +12,17 @@ position: 6
 
 
 
-The __AppointmentDelete__ event occurs just before the scheduler calls its data source to delete an appointment.
+The **AppointmentDelete** event occurs just before the scheduler calls its data source to delete an appointment.
 
-__AppointmentDelete__ has two parameters:
+**AppointmentDelete** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerCancelEventArgs__. It has two properties:
+* **e** is an object of type **SchedulerCancelEventArgs**. It has two properties:
 
-* __Appointment__ is the appointment that is about to be deleted.
+* **Appointment** is the appointment that is about to be deleted.
 
-* __Cancel__ is a boolean value that lets you prevent the deletion.
+* **Cancel** is a boolean value that lets you prevent the deletion.
 
 ## Example
 

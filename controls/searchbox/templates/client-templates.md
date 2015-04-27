@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadSearchBox for ASP.NET AJAX Documentation
 description: Client Templates
 slug: searchbox/templates/client-templates
 tags: client,templates
@@ -14,15 +14,15 @@ position: 1
 
 ## Overview
 
-RadSearchBox provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a __DataItem__ and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
+RadSearchBox provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Item's content on the client. The templates support the following type of expressions which are evaluated at run-time:
 
-* __#=...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
+* **#=...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 
-* __#...#__ - Evaluates the JavaScript code expression inside, but does not output value.
+* **#...#** - Evaluates the JavaScript code expression inside, but does not output value.
 
-* __#:...#__ - Evaluates the JavaScript code expression or a string property from the data item, and outputs the HTML encoded result in the template.
+* **#:...#** - Evaluates the JavaScript code expression or a string property from the data item, and outputs the HTML encoded result in the template.
 
->important Client templates __can not__ contain server controls.
+>important Client templates **can not** contain server controls.
 >
 
 

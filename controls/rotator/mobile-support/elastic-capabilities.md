@@ -1,6 +1,6 @@
 ---
 title: Elastic Capabilities
-page_title: Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Elastic Capabilities | RadRotator for ASP.NET AJAX Documentation
 description: Elastic Capabilities
 slug: rotator/mobile-support/elastic-capabilities
 tags: elastic,capabilities
@@ -12,7 +12,7 @@ position: 1
 
 
 
-This article explains the __elastic capabilities RadRotator offers__. The control supports __elastic design since Q2 2014__.
+This article explains the **elastic capabilities RadRotator offers**. The control supports **elastic design since Q2 2014**.
 
 Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
 
@@ -21,15 +21,15 @@ Generally, elastic design means that the page and its content are able to adapt 
 
 ![rotator-elastic-comparison](images/rotator-elastic-comparison.png)
 
-__RadRotator__ supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the rotator's control buttons will simplyincrease their size as well to accommodate the element inside. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because emunits are tied to the font size. This allows dimensions and sizes to scale with the font size. The elastic capabilities of __RadRotator are supported by IE10+ and all modern browsers__.
+**RadRotator** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the rotator's control buttons will simplyincrease their size as well to accommodate the element inside. This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because emunits are tied to the font size. This allows dimensions and sizes to scale with the font size. The elastic capabilities of **RadRotator are supported by IE10+ and all modern browsers**.
 
->note The size of __RadRotator__ remains the same when the control buttons are resized. As a result the rotator changes the width of its view port (the area in which the items are visible), which means that most probably the first or/and last item will be cut off.
+>note The size of **RadRotator** remains the same when the control buttons are resized. As a result the rotator changes the width of its view port (the area in which the items are visible), which means that most probably the first or/and last item will be cut off.
 >
 
 
-__Example 1__ shows how to increase the font size of a __RadRotator__ control and the effect can be seen in comparison in __Figure 1__.
+**Example 1** shows how to increase the font size of a **RadRotator** control and the effect can be seen in comparison in **Figure 1**.
 
-Example 1: The font size of __RadRotator__ is set to 18px.
+Example 1: The font size of **RadRotator** is set to 18px.
 
 ````ASPNET
 	       <style type="text/css">

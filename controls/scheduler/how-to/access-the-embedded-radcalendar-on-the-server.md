@@ -1,6 +1,6 @@
 ---
 title: Access the Embedded RadCalendar on the Server
-page_title: Access the Embedded RadCalendar on the Server | UI for ASP.NET AJAX Documentation
+page_title: Access the Embedded RadCalendar on the Server | RadScheduler for ASP.NET AJAX Documentation
 description: Access the Embedded RadCalendar on the Server
 slug: scheduler/how-to/access-the-embedded-radcalendar-on-the-server
 tags: access,the,embedded,radcalendar,on,the,server
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The popup calendar in RadScheduler is actually RadCalendar and is a child control of RadScheduler. The __ID__ of the embedded RadCalendaris __"SelectedDateCalendar"__, so getting a reference to it on the server-side can be done easily in RadScheduler's __PreRender__event as shown below:
+The popup calendar in RadScheduler is actually RadCalendar and is a child control of RadScheduler. The **ID** of the embedded RadCalendaris **"SelectedDateCalendar"**, so getting a reference to it on the server-side can be done easily in RadScheduler's **PreRender**event as shown below:
 
 
 

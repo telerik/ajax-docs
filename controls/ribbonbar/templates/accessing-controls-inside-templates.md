@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadRibbonBar for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: ribbonbar/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -12,13 +12,13 @@ position: 0
 
 
 
-In this example you will see how to find __RadComboBox__ control nested in __RibbonBarTemplateItem__ of RadRibbonBar control.
+In this example you will see how to find **RadComboBox** control nested in **RibbonBarTemplateItem** of RadRibbonBar control.
 
 ## Find the RadComboBox server-side
 
-In order to find the control that is located in a __RibbonBarTemplateItem__ of a RadRibbonBar, first you need to find the tab that it is located in. This is done by using the __FindTabByValue__ property (note that to make this work, the tab needs to have a previously assigned value, ex: __<telerik:RibbonBarTab Text="Tab2"Value="Tab2">__ )Then you will need to find the Group by its index (this is zero in the particular case - *Groups[0]*) that is placed in the tab with __Value="Tab2"__ and get the Group's first item (again this is done by index - *Items[0]*). Finally, by using the __FindControl__ property you can access the RadComboBox control.
+In order to find the control that is located in a **RibbonBarTemplateItem** of a RadRibbonBar, first you need to find the tab that it is located in. This is done by using the **FindTabByValue** property (note that to make this work, the tab needs to have a previously assigned value, ex: **<telerik:RibbonBarTab Text="Tab2"Value="Tab2">** )Then you will need to find the Group by its index (this is zero in the particular case - *Groups[0]*) that is placed in the tab with **Value="Tab2"** and get the Group's first item (again this is done by index - *Items[0]*). Finally, by using the **FindControl** property you can access the RadComboBox control.
 
->note Alternatively, a tab can also be found by its index as well. Furthermore, depending on one’s requirements, a Group can be referred to by using the __FindByValue__ property of the tab ( with the code below such example would be __tab2.FindByValue(“Group1”);__ ).
+>note Alternatively, a tab can also be found by its index as well. Furthermore, depending on one’s requirements, a Group can be referred to by using the **FindByValue** property of the tab ( with the code below such example would be **tab2.FindByValue(“Group1”);** ).
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Appointment Context Menu
-page_title: Appointment Context Menu | UI for ASP.NET AJAX Documentation
+page_title: Appointment Context Menu | RadScheduler for ASP.NET AJAX Documentation
 description: Appointment Context Menu
 slug: scheduler/context-menus/appointment-context-menu
 tags: appointment,context,menu
@@ -16,7 +16,7 @@ position: 0
 
 With Q3 2009, RadScheduler gives you the option to enable a default appointment context menu.
 
-If __AppointmentContextMenuSettings__-__EnableDefault__ is set to __true__,right-clicking on an appointment will display a default context menu with two action items - "Edit" and "Delete". The default appointment context menu is disabled by default.
+If **AppointmentContextMenuSettings**-**EnableDefault** is set to **true**,right-clicking on an appointment will display a default context menu with two action items - "Edit" and "Delete". The default appointment context menu is disabled by default.
 
 You can use the AppointmentContextMenuSettings to also style the menu through a [skin registration](CC071FB0-3F19-408A-8AEA-7A82330F6831), or to [disable its embedded resources](F02D3323-FFA7-46E6-A4DE-303D5EF15A43):
 
@@ -63,7 +63,7 @@ The default appointment context menu can be customized declaratively:
 
 
 
-The functionality of the default menu items can be achieved by setting the __Value__ property of the menu item to a command name.RadScheduler's appointment context menu will recognize the following commands:
+The functionality of the default menu items can be achieved by setting the **Value** property of the menu item to a command name.RadScheduler's appointment context menu will recognize the following commands:
 
 * CommandEdit
 
@@ -71,13 +71,13 @@ The functionality of the default menu items can be achieved by setting the __Val
 
 To allow associating other functionality to a menu item, RadScheduler exposes the following events:
 
-__Client Side__
+**Client Side**
 
 * [OnClientAppointmentContextMenuItemClicking]({%slug scheduler/client-side-programming/events/onclientappointmentcontextmenuitemclicking%})
 
 * [OnClientAppointmentContextMenuItemClicked]({%slug scheduler/client-side-programming/events/onclientappointmentcontextmenuitemclicked%})
 
-__Server Side__
+**Server Side**
 
 * [OnAppointmentContextMenuItemClicking]({%slug scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicking%})
 
@@ -85,7 +85,7 @@ __Server Side__
 
 For more information, please see the [Context menu](http://demos.telerik.com/aspnet-ajax/scheduler/examples/contextmenu/defaultcs.aspx) online demo.
 
-If more than one appointment context menu is declared, you can specify which one to be opened for a specific appointmentvia the Appointment's __ContextMenuID__ property. For example:
+If more than one appointment context menu is declared, you can specify which one to be opened for a specific appointmentvia the Appointment's **ContextMenuID** property. For example:
 
 
 
@@ -106,8 +106,8 @@ If more than one appointment context menu is declared, you can specify which one
 ````
 
 
-If the RadScheduler is read-only (via the __ReadOnly__ property) – then you will not be able to edit or delete appointments. This reflects on the context menu items too. The two options of the default appointment context menu will be disabled. Also if __AllowEdit__ or __AllowDelete__ properties of the RadScheduler are set to __“False”__ – the corresponding menu item will be disabled.
+If the RadScheduler is read-only (via the **ReadOnly** property) – then you will not be able to edit or delete appointments. This reflects on the context menu items too. The two options of the default appointment context menu will be disabled. Also if **AllowEdit** or **AllowDelete** properties of the RadScheduler are set to **“False”** – the corresponding menu item will be disabled.
 
-The picture below demonstrates disabled __“Edit”__ item as the __AllowEdit__ property of the RadScheduler is set to __“False”__:
+The picture below demonstrates disabled **“Edit”** item as the **AllowEdit** property of the RadScheduler is set to **“False”**:
 
 ![RadScheduler Appointment Contextmenu Customized](images/scheduler_appointmentcontextmenucustomized1.png)

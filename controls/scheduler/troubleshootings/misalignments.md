@@ -1,6 +1,6 @@
 ---
 title: Misalignments
-page_title: Misalignments | UI for ASP.NET AJAX Documentation
+page_title: Misalignments | RadScheduler for ASP.NET AJAX Documentation
 description: Misalignments
 slug: scheduler/troubleshootings/misalignments
 tags: misalignments
@@ -39,7 +39,7 @@ Here is how it usually looks like in the discribed scenario:
 
 ![scheduler troubleshootings misalignments 1](images/scheduler_troubleshootings_misalignments1.png)
 
-You need to add the following __CSS__ to improve this behavior:
+You need to add the following **CSS** to improve this behavior:
 
 ````ASPNET
 	    <style type="text/css">
@@ -68,11 +68,11 @@ You need to add the following __CSS__ to improve this behavior:
 
 ## Timeline resources vertical formatting issue.(Fixed in Q3 2012)
 
-This issue is observed sometimes when the __RadScheduler__ is grouped by resources vertically, ExactTimeRendering is set "true" and more than one appointments are situated in same time slot.
+This issue is observed sometimes when the **RadScheduler** is grouped by resources vertically, ExactTimeRendering is set "true" and more than one appointments are situated in same time slot.
 
 ![scheduler troubleshootings misalignments 2](images/scheduler_troubleshootings_misalignments2.png)
 
-Here bellow is shown a possible workaround with __JavaScript__:
+Here bellow is shown a possible workaround with **JavaScript**:
 
 ````JavaScript
 	    <script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Binding to ASP DataSource Components
-page_title: Binding to ASP DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to ASP DataSource Components | RadRotator for ASP.NET AJAX Documentation
 description: Binding to ASP DataSource Components
 slug: rotator/data-binding/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadRotator__ supports binding to all ASP.NET 2.0 DataSource components, including
+**RadRotator** supports binding to all ASP.NET 2.0 DataSource components, including
 
 * AccessDataSource
 
@@ -28,9 +28,9 @@ __RadRotator__ supports binding to all ASP.NET 2.0 DataSource components, includ
 
 * LinqDataSource
 
-To bind to a DataSource component, all you need to do is set the __DataSourceID__ property of the rotator to the ID of the DataSource component.
+To bind to a DataSource component, all you need to do is set the **DataSourceID** property of the rotator to the ID of the DataSource component.
 
-Bind to __SqlDataSource__
+Bind to **SqlDataSource**
 
 ````ASPNET
 	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
@@ -46,7 +46,7 @@ Bind to __SqlDataSource__
 
 
 
-Bind to __XmlDataSource__
+Bind to **XmlDataSource**
 
 ````C#
 	    <telerik:RadRotator ID="RadRotator1" RotatorType="AutomaticAdvance" ScrollDirection="Up"
@@ -66,7 +66,7 @@ Bind to __XmlDataSource__
 
 
 
-The __AccessDataSource__ is a table-based __DataSource__ component. It can be used to bind the rotator declaratively at design time.
+The **AccessDataSource** is a table-based **DataSource** component. It can be used to bind the rotator declaratively at design time.
 
 ````ASPNET
 	    <asp:AccessDataSource runat="server" ID="AccessDataSource1" DataFile="~/App_Data/Nwind.mdb"

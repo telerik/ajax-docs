@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentResizing
-page_title: OnClientAppointmentResizing | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentResizing | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentResizing
 slug: scheduler/client-side-programming/events/onclientappointmentresizing
 tags: onclientappointmentresizing
@@ -12,19 +12,19 @@ position: 8
 
 
 
-The __OnClientAppointmentResizing__ client-side event is called when the mouse moves while an appointment is being resized.
+The **OnClientAppointmentResizing** client-side event is called when the mouse moves while an appointment is being resized.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ - returns the appointment instance.
+* **get_appointment()** - returns the appointment instance.
 
-* __get_targetSlot()__ returns the Time Slot which the appointment is being resized to.
+* **get_targetSlot()** returns the Time Slot which the appointment is being resized to.
 
-* __set_cancel()__ lets you permit or block the resizing of the appointment. Calling __set_cancel(true)__ stops the resizing, while __set_cancel(false)__ allows the scheduler to finish resizing of the appointment.
+* **set_cancel()** lets you permit or block the resizing of the appointment. Calling **set_cancel(true)** stops the resizing, while **set_cancel(false)** allows the scheduler to finish resizing of the appointment.
 
 ## Example
 

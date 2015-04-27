@@ -1,6 +1,6 @@
 ---
 title: Contextual Tabs
-page_title: Contextual Tabs | UI for ASP.NET AJAX Documentation
+page_title: Contextual Tabs | RadRibbonBar for ASP.NET AJAX Documentation
 description: Contextual Tabs
 slug: ribbonbar/radribbonbar-items/contextual-tabs
 tags: contextual,tabs
@@ -16,7 +16,7 @@ position: 9
 
 RadRibbonBar's contextual tabs allows you to group a number of tabs based on some context. Contextual tabs are contained in a contextual tab group and following Microsoft's Ribbon specification they are positioned always last, after the normal set of tabs.
 
-It is also important to note that the contextual tab groups are inactive by default. Therefore in order to enable them you will need to set their __Active__ property to __true__. For example here is sample code that demonstrates the basic structure of the contextual tab group:
+It is also important to note that the contextual tab groups are inactive by default. Therefore in order to enable them you will need to set their **Active** property to **true**. For example here is sample code that demonstrates the basic structure of the contextual tab group:
 
 ````ASPNET
 		

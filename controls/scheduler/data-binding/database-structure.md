@@ -1,6 +1,6 @@
 ---
 title: Database Structure
-page_title: Database Structure | UI for ASP.NET AJAX Documentation
+page_title: Database Structure | RadScheduler for ASP.NET AJAX Documentation
 description: Database Structure
 slug: scheduler/data-binding/database-structure
 tags: database,structure
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
->note A sample SQL 2005 database for RadScheduler can be found in your local installation of theTelerik.Web.UI suite - Live Demos\App_Data\ __Telerik.mdf__ 
+>note A sample SQL 2005 database for RadScheduler can be found in your local installation of theTelerik.Web.UI suite - Live Demos\App_Data\ **Telerik.mdf** 
 >
 
 
-The sample database for RadScheduler contains various tables which can be used to bind the controlto store appointments' info, resources or custom attributes. Here is the structure of the __Appointments__ table:
+The sample database for RadScheduler contains various tables which can be used to bind the controlto store appointments' info, resources or custom attributes. Here is the structure of the **Appointments** table:
 
 ![appointments table](images/scheduler_appointmentstable.png)
 
 
 
->note Note that the required fields for RadScheduler are __ID__ , __Subject__ , __Start__ and __End.__ These fields cannot contain null values.
+>note Note that the required fields for RadScheduler are **ID** , **Subject** , **Start** and **End.** These fields cannot contain null values.
 >
 
 

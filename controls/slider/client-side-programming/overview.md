@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadSlider for ASP.NET AJAX Documentation
 description: Overview
 slug: slider/client-side-programming/overview
 tags: overview
@@ -16,7 +16,7 @@ RadSlider provides a flexible client-side API that allows you to interact with t
 
 ## Getting the RadSlider client-side object
 
-__RadSlider____ClientID__
+**RadSlider ClientID**
 
 ````JavaScript
 	

@@ -1,6 +1,6 @@
 ---
 title: Combining External Scripts
-page_title: Combining External Scripts | UI for ASP.NET AJAX Documentation
+page_title: Combining External Scripts | RadScriptManager for ASP.NET AJAX Documentation
 description: Combining External Scripts
 slug: scriptmanager/combining-external-scripts
 tags: combining,external,scripts
@@ -12,13 +12,13 @@ position: 2
 
 
 
-Starting with __Q1 2013____RadScriptManager__ has the ability to combine external scripts (specified only by path) through the Telerik.Web.UI.WebResource.axd handler. Since this operation requires access to the project file structure, a 'safe' folder or a list of folders must be specified in the __web.config__ file of the web application/site.
+Starting with **Q1 2013 RadScriptManager** has the ability to combine external scripts (specified only by path) through the Telerik.Web.UI.WebResource.axd handler. Since this operation requires access to the project file structure, a 'safe' folder or a list of folders must be specified in the **web.config** file of the web application/site.
 
 ## Example
 
 You can specify one or more folders from your project that host the external scripts.
 
->caution The folder paths must be relative to the root of the application, e.g. *' __~/__ path_to_folder'* .
+>caution The folder paths must be relative to the root of the application, e.g. *' **~/** path_to_folder'* .
 >
 
 
@@ -36,7 +36,7 @@ Add the following<appSetting/> entry in your *web.config*:
 
 ### Usage
 
-Register the external scripts in __RadScriptManager__. The paths to the files can be relative to the root or to the folder containing the current page.
+Register the external scripts in **RadScriptManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
 	        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

@@ -1,6 +1,6 @@
 ---
 title: AppointmentInsert
-page_title: AppointmentInsert | UI for ASP.NET AJAX Documentation
+page_title: AppointmentInsert | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentInsert
 slug: scheduler/server-side-programming/server-events/appointmentinsert
 tags: appointmentinsert
@@ -12,17 +12,17 @@ position: 3
 
 
 
-The __AppointmentInsert__ event occurs when an appointment is about to be inserted in the data source.
+The **AppointmentInsert** event occurs when an appointment is about to be inserted in the data source.
 
-__AppointmentInsert__ has two parameters:
+**AppointmentInsert** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerCancelEventArgs__.It has two properties:
+* **e** is an object of type **SchedulerCancelEventArgs**.It has two properties:
 
-* __Appointment__ is the appointment that is about to be inserted.You can modify this object to change the data that is sent to the data source.
+* **Appointment** is the appointment that is about to be inserted.You can modify this object to change the data that is sent to the data source.
 
-* __Cancel__ is a boolean value that lets you prevent the insertion.
+* **Cancel** is a boolean value that lets you prevent the insertion.
 
 ## Example
 

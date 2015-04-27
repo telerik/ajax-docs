@@ -1,6 +1,6 @@
 ---
 title: Understanding Skin CSS File
-page_title: Understanding Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding Skin CSS File | RadRotator for ASP.NET AJAX Documentation
 description: Understanding Skin CSS File
 slug: rotator/appearance-and-styling/understanding-skin-css-file
 tags: understanding,skin,css,file
@@ -78,7 +78,7 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 
 
 
-Where __.className__ will replace the inline styles in:
+Where **.className** will replace the inline styles in:
 
 ````ASPNET
 	    <div style="width: aut0; border: 1px dotted #eee;" class="className">

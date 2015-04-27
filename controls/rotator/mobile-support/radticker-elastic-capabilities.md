@@ -1,6 +1,6 @@
 ---
 title: RadTicker Elastic Capabilities
-page_title: RadTicker Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: RadTicker Elastic Capabilities | RadRotator for ASP.NET AJAX Documentation
 description: RadTicker Elastic Capabilities
 slug: rotator/mobile-support/radticker-elastic-capabilities
 tags: radticker,elastic,capabilities
@@ -12,7 +12,7 @@ position: 2
 
 
 
-This article explains the __elastic capabilities RadTicker offers__. The control supports __elastic design since Q1 2015__.
+This article explains the **elastic capabilities RadTicker offers**. The control supports **elastic design since Q1 2015**.
 
 Generally, elastic design means that the page and its content are able to adapt to different font size by scaling the elements properly depending on the chosen font-size.
 
@@ -21,15 +21,15 @@ Generally, elastic design means that the page and its content are able to adapt 
 
 ![ticker-elastic-comparison](images/ticker-elastic-comparison.png)
 
-__RadTicker__ supports changing the font size without breaking the control's appearance - if the new size is larger than the original, theticker items' text will increase in size as well.This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because emunits are tied to the font size. This allows dimensions and sizes to scale with the font size of the page.
+**RadTicker** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, theticker items' text will increase in size as well.This fluid layout is achieved by using em units for setting dimensions and paddings in the control, instead of px because emunits are tied to the font size. This allows dimensions and sizes to scale with the font size of the page.
 
-__Example 1__ shows how to increase the font size of a __RadTicker__ control and the effect can be seen in comparison in __Figure 1__.
+**Example 1** shows how to increase the font size of a **RadTicker** control and the effect can be seen in comparison in **Figure 1**.
 
->tip  __RadTicker__ does not render additional HTML elements or apply any CSS to the text it shows.	Thus, it inherits thefont settings of the browser (usually 16px Arial) or the page (defined by the developer).	This means that you can use any appropriate selector for its parent element to change the ticker items' font-size.	This can be a the CSS class of its parent and	it is not mandatory to use the body element for the cascade.
+>tip  **RadTicker** does not render additional HTML elements or apply any CSS to the text it shows.	Thus, it inherits thefont settings of the browser (usually 16px Arial) or the page (defined by the developer).	This means that you can use any appropriate selector for its parent element to change the ticker items' font-size.	This can be a the CSS class of its parent and	it is not mandatory to use the body element for the cascade.
 >
 
 
-__Example 1__: The font size of RadTicker is set to 22px.
+**Example 1**: The font size of RadTicker is set to 22px.
 
 ````ASPNET
 	<html xmlns="http://www.w3.org/1999/xhtml">

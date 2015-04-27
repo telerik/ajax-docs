@@ -1,6 +1,6 @@
 ---
-title: Slider Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSlider Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: slider/overview
 tags: overview
@@ -14,17 +14,17 @@ position: 0
 
 ## Slider Elements
 
-__RadSlider__ was designed to be as simple as possible and consists of the following elements:![](images/slider-overview001.png)
+**RadSlider** was designed to be as simple as possible and consists of the following elements:![](images/slider-overview001.png)
 
-* __Increase handle:__ Increases the value of the slider by a single step.
+* **Increase handle:** Increases the value of the slider by a single step.
 
-* __Selected region:__ Visualizes the selected range.
+* **Selected region:** Visualizes the selected range.
 
-* __Drag handle:__ Changes the value of the slider by dragging the handle with the mouse.
+* **Drag handle:** Changes the value of the slider by dragging the handle with the mouse.
 
-* __Track:__ Visualizes the slider and changes its value when clicked.
+* **Track:** Visualizes the slider and changes its value when clicked.
 
-* __Decrease handle:__ Decreases the value of the slider by a single step.
+* **Decrease handle:** Decreases the value of the slider by a single step.
 
 ## Behavior
 
@@ -32,7 +32,7 @@ Control the position and value behavior of RadSlider by setting [MinimumValue, M
 
 ## Layout
 
-The layout of RadSlider is controlled by the [Orientation]({%slug slider/getting-started/layout%}) property and can be __Vertical__ or __Horizontal__.
+The layout of RadSlider is controlled by the [Orientation]({%slug slider/getting-started/layout%}) property and can be **Vertical** or **Horizontal**.
 
 ## Animation
 
@@ -40,15 +40,15 @@ The [AnimationDuration]({%slug slider/getting-started/animation-duration%}) prop
 
 ## Handles
 
-RadSlider has three "handle" [visual elements]({%slug slider/getting-started/structure%}): the drag handle, increment handle and decrement handle. The visibility for handles are controlled by [ShowDragHandle, ShowDecreaseHandle and ShowIncreaseHandle]({%slug slider/getting-started/handles%})____properties respectively. Tooltip text for handles is set in the [DragText, DecreaseText and IncreaseText]({%slug slider/getting-started/handles%})____properties.
+RadSlider has three "handle" [visual elements]({%slug slider/getting-started/structure%}): the drag handle, increment handle and decrement handle. The visibility for handles are controlled by [ShowDragHandle, ShowDecreaseHandle and ShowIncreaseHandle]({%slug slider/getting-started/handles%}) properties respectively. Tooltip text for handles is set in the [DragText, DecreaseText and IncreaseText]({%slug slider/getting-started/handles%}) properties.
 
 ## Mouse Wheel Support
 
-Mouse wheel support is enabled through the __TrackMouseWheel__ property (true by default) and further controlled by the __SmallChange__property.__SmallChange__ represents the amount that the slider moves in response to the mouse wheel.
+Mouse wheel support is enabled through the **TrackMouseWheel** property (true by default) and further controlled by the **SmallChange**property.**SmallChange** represents the amount that the slider moves in response to the mouse wheel.
 
 ## State Persistence
 
-The state of the RadSlider is automatically persisted across partial and full postbacks. All the properties set on the client including the current __Value__property will be available in the code-behind and after page refresh, they will be persisted on the client.
+The state of the RadSlider is automatically persisted across partial and full postbacks. All the properties set on the client including the current **Value**property will be available in the code-behind and after page refresh, they will be persisted on the client.
 
 ## Multi-Touch Support
 

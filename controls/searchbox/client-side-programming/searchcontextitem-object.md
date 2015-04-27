@@ -1,6 +1,6 @@
 ---
 title: SearchContextItem Object
-page_title: SearchContextItem Object | UI for ASP.NET AJAX Documentation
+page_title: SearchContextItem Object | RadSearchBox for ASP.NET AJAX Documentation
 description: SearchContextItem Object
 slug: searchbox/client-side-programming/searchcontextitem-object
 tags: searchcontextitem,object
@@ -14,23 +14,23 @@ position: 2
 
 ## SearchContextItem Client Object
 
-The following table lists the most important methods of the client-side __SearchContextItem__ object:
+The following table lists the most important methods of the client-side **SearchContextItem** object:
 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_element__ |None|DOM element|Gets the DOM element of the SearchContextItem.|
-| __set_element__ |DOM element|None|Sets the DOM element of the SearchContextItem.|
-| __get_index__ |None|Int|Gets the index of the SearchContextItem from the SearchContextItemCollection.|
-| __get_parent__ |None|SearchContext|Gets the parent SearchContext object.|
-| __set_parent__ |SearchContext|None|Sets the parent SearchContext object.|
-| __get_textElement__ |None|DOM element|Gets the DOM element of the SearchContextItem, when imageUrl is set.|
-| __get_imageElement__ |None|DOM element|Returns the <img/> element of the SearchContextItem.|
-| __get_imageUrl__ |None|String|Gets the value of the ImageUrl property.|
-| __set_imageUrl__ |String|None|Sets the ImageUrl property of the button.|
-| __get_text__ |None|String|Gets the text of the SearchContextItem.|
-| __set_text__ |String|None|Sets the text of the SearchContextItem.|
-| __get_key__ |None|String|Gets the value of the Key property.|
-| __set_key__ |String|None|Sets the Key property of the item.|
-| __get_selected__ |None|Boolean|Gets the value of the Selected property.|
-| __set_selected__ |Boolean|None|Toggles the selected state of the SearchContextItem.|
+| **get_element** |None|DOM element|Gets the DOM element of the SearchContextItem.|
+| **set_element** |DOM element|None|Sets the DOM element of the SearchContextItem.|
+| **get_index** |None|Int|Gets the index of the SearchContextItem from the SearchContextItemCollection.|
+| **get_parent** |None|SearchContext|Gets the parent SearchContext object.|
+| **set_parent** |SearchContext|None|Sets the parent SearchContext object.|
+| **get_textElement** |None|DOM element|Gets the DOM element of the SearchContextItem, when imageUrl is set.|
+| **get_imageElement** |None|DOM element|Returns the <img/> element of the SearchContextItem.|
+| **get_imageUrl** |None|String|Gets the value of the ImageUrl property.|
+| **set_imageUrl** |String|None|Sets the ImageUrl property of the button.|
+| **get_text** |None|String|Gets the text of the SearchContextItem.|
+| **set_text** |String|None|Sets the text of the SearchContextItem.|
+| **get_key** |None|String|Gets the value of the Key property.|
+| **set_key** |String|None|Sets the Key property of the item.|
+| **get_selected** |None|Boolean|Gets the value of the Selected property.|
+| **set_selected** |Boolean|None|Toggles the selected state of the SearchContextItem.|

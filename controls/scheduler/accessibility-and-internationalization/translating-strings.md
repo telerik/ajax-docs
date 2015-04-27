@@ -1,6 +1,6 @@
 ---
 title: Translating Strings
-page_title: Translating Strings | UI for ASP.NET AJAX Documentation
+page_title: Translating Strings | RadScheduler for ASP.NET AJAX Documentation
 description: Translating Strings
 slug: scheduler/accessibility-and-internationalization/translating-strings
 tags: translating,strings
@@ -16,7 +16,7 @@ The localization support for RadScheduler lets you completely translate the user
 
 ## Localization Property
 
-The __Localization__ property specifies the strings that appear in the runtime user interface of the scheduler, including the message pop-up dialogs and edit forms.By changing the values of each named sub-property, you change the appearance of the string the scheduler uses:
+The **Localization** property specifies the strings that appear in the runtime user interface of the scheduler, including the message pop-up dialogs and edit forms.By changing the values of each named sub-property, you change the appearance of the string the scheduler uses:
 
 ````ASPNET
 	
@@ -38,19 +38,19 @@ The primary means for localization in ASP.NET is to use resource files. Resource
 
 To create a global resource file to localize the scheduler:
 
-1. Create the __App_GlobalResources__ folder in the root of your web application.
+1. Create the **App_GlobalResources** folder in the root of your web application.
 
-1. Copy the default resource __RadScheduler.Main.resx__ file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the RadControls.
+1. Copy the default resource **RadScheduler.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
-1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadScheduler follow a strict naming convention:__RadScheduler.Main.<Culture Identifier>.resx__
+1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadScheduler follow a strict naming convention:**RadScheduler.Main.<Culture Identifier>.resx**
 
->note The __Culture Identifier__ consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
+>note The **Culture Identifier** consists of a language code followed by a dash and the country code.Example: “en-US”, “fr-CA” and so on.
 >
 For example RadScheduler.Main.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![localization files](images/scheduler_localizationfiles.png)
 
-1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the __Localization__ property .![edit global resources](images/scheduler_editglobalresources.png)
+1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would set the **Localization** property .![edit global resources](images/scheduler_editglobalresources.png)
 
->caution Make sure that the __ReservedResource__ message is preserved. It is used for identification purposes and is never displayed.
+>caution Make sure that the **ReservedResource** message is preserved. It is used for identification purposes and is never displayed.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: Set Different Styles to Appointments 
-page_title: Set Different Styles to Appointments  | UI for ASP.NET AJAX Documentation
+page_title: Set Different Styles to Appointments  | RadScheduler for ASP.NET AJAX Documentation
 description: Set Different Styles to Appointments 
 slug: scheduler/how-to/set-different-styles-to-appointments-
 tags: set,different,styles,to,appointments,
@@ -14,13 +14,13 @@ position: 1
 
 If you are ready to give up the gradient and rounded corners, with Q2 2009 SP1 we have exposed four new properties which allow you to customize the appointment's appearance:
 
-* __BackColor__
+* **BackColor**
 
-* __BorderColor__
+* **BorderColor**
 
-* __BorderStyle__
+* **BorderStyle**
 
-* __BorderWidth__
+* **BorderWidth**
 
 For example:
 
@@ -81,7 +81,7 @@ Here is how each style looks like:
 
 ![set appointment styles](images/scheduler_appointmentstyles.png)
 
-You can handle the __AppointmentDataBound__ event and use a custom condition based on attributes, resources or any other property of the Appointmentobject to set the appointment __CssClass__ property. For example, the above screenshot can be replicated with the following code:
+You can handle the **AppointmentDataBound** event and use a custom condition based on attributes, resources or any other property of the Appointmentobject to set the appointment **CssClass** property. For example, the above screenshot can be replicated with the following code:
 
 
 
@@ -105,7 +105,7 @@ You can handle the __AppointmentDataBound__ event and use a custom condition bas
 ````
 
 
-This code causes RadScheduler to render the value of the CssClass property that you set in the __AppointmentDataBound__ event to the __rsApt__ div of the appointments.Here is the resulting html output for the "Green" appointment:
+This code causes RadScheduler to render the value of the CssClass property that you set in the **AppointmentDataBound** event to the **rsApt** div of the appointments.Here is the resulting html output for the "Green" appointment:
 
 ````HTML
 	
@@ -150,7 +150,7 @@ Similar css rules are loaded for the other 9 styles.
 
 ## Resource style mapping
 
-The CssClass property can be set declaratively for resources using the new __ResourceStyleMapping__ feature of RadScheduler:
+The CssClass property can be set declaratively for resources using the new **ResourceStyleMapping** feature of RadScheduler:
 
 ````ASPNET
 	
@@ -246,7 +246,7 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 
 
-3. Set the appointment __CssClass__ property:
+3. Set the appointment **CssClass** property:
 
 
 
@@ -269,4 +269,4 @@ If you need to use your own custom style for the appointments, here is how to pr
 ````
 
 
-The background images for the appointment styles can be found in your local installation of the Telerik.Web.UI suit -> *Skins\Common\Scheduler* and the cssrules are defined in __Scheduler.css__ in the Skins folder.
+The background images for the appointment styles can be found in your local installation of the Telerik.Web.UI suit -> *Skins\Common\Scheduler* and the cssrules are defined in **Scheduler.css** in the Skins folder.

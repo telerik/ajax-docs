@@ -1,6 +1,6 @@
 ---
 title: Load On Demand
-page_title: Load On Demand | UI for ASP.NET AJAX Documentation
+page_title: Load On Demand | RadRotator for ASP.NET AJAX Documentation
 description: Load On Demand
 slug: rotator/functionality/load-on-demand
 tags: load,on,demand
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-The RadRotator supports __Load On Demand__ functionality through a WebService.To enable this feature you should create a WebService that will control the displaying items and attach it to the RadRotator control.The inner property __WebServiceSettings__ of the RadRotator has two properties for this purpose:
+The RadRotator supports **Load On Demand** functionality through a WebService.To enable this feature you should create a WebService that will control the displaying items and attach it to the RadRotator control.The inner property **WebServiceSettings** of the RadRotator has two properties for this purpose:
 
-* __Path__ - sets the location of the WebService file;
+* **Path** - sets the location of the WebService file;
 
-* __Method__ - sets the WebService method that implements the RadRotator logic for displaying the items;
+* **Method** - sets the WebService method that implements the RadRotator logic for displaying the items;
 
 Since the RadRotator functionality is entirely controlled by the WebMethod, you can also return different number of items on each request.
 
-Below you can find an example of the setup that is used with enabled __Load on Demand__:
+Below you can find an example of the setup that is used with enabled **Load on Demand**:
 
 ````ASPNET
 	    <telerik:RadRotator ID="RadRotator1" runat="server" Width="220px" Height="135px"
@@ -84,9 +84,9 @@ The attached WebService should have the following signature:
 
 
 
-The HTML, which should be rendered in the item, is assigned to the Html property of the __RadRotatorItemData__ object.
+The HTML, which should be rendered in the item, is assigned to the Html property of the **RadRotatorItemData** object.
 
-There is an option for passing an argument to the WebService method. This can be achieved via the RadRotator’s client event __OnClientItemsRequesting__. The argument is sent in the handler of this event, as demonstrated below:
+There is an option for passing an argument to the WebService method. This can be achieved via the RadRotator’s client event **OnClientItemsRequesting**. The argument is sent in the handler of this event, as demonstrated below:
 
 ````ASPNET
 		<script type="text/javascript">
@@ -98,7 +98,7 @@ There is an option for passing an argument to the WebService method. This can be
 
 
 
-The passed argument can be accessed through the __argument__ parameter of the WebService method.
+The passed argument can be accessed through the **argument** parameter of the WebService method.
 
 
 
@@ -121,7 +121,7 @@ The passed argument can be accessed through the __argument__ parameter of the We
 
 
 
-There are three client events that are related to the __Load On Demand__ functionality:
+There are three client events that are related to the **Load On Demand** functionality:
 
 * [OnClientItemsRequested]({%slug rotator/client-side-programming/events/onclientitemsrequested%}) - fires when the items of the control are successfully loaded on demand.
 

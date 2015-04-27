@@ -1,6 +1,6 @@
 ---
 title: SchedulerResource Object
-page_title: SchedulerResource Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerResource Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerResource Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresource-object
 tags: schedulerresource,object
@@ -21,11 +21,11 @@ The tables below lists the all public properties of the SchedulerResource client
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_available()__ |None|Boolean|Gets a value indicating whether the Resource is available.|
-| __get_key()__ |None|Int|Gets the key of the Resource.|
-| __get_text()__ |None|String|Gets the name of the Resource.|
-| __get_type()__ |None|String|Gets the type name of the Resource.|
-| __get_attributes()__ |None|SchedulerAttributeCollection|Gets a collection of the Attributes associated to the current Resource.|
+| **get_available()** |None|Boolean|Gets a value indicating whether the Resource is available.|
+| **get_key()** |None|Int|Gets the key of the Resource.|
+| **get_text()** |None|String|Gets the name of the Resource.|
+| **get_type()** |None|String|Gets the type name of the Resource.|
+| **get_attributes()** |None|SchedulerAttributeCollection|Gets a collection of the Attributes associated to the current Resource.|
 
 # See Also
 

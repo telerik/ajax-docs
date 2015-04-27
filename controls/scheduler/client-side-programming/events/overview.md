@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Events Overview | RadScheduler for ASP.NET AJAX Documentation
 description: Overview
 slug: scheduler/client-side-programming/events/overview
 tags: overview
@@ -8,23 +8,23 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Client-side Events Overview
 
 
 
 ## 
 
-__RadScheduler__ has a number of properties which value is the name of a JavaScript function that executes when specific client-side events occur. These events are listed below:
+**RadScheduler** has a number of properties which value is the name of a JavaScript function that executes when specific client-side events occur. These events are listed below:
 
-* __[OnClientAppointmentClick]({%slug scheduler/client-side-programming/events/onclientappointmentclick%})__ - occurs when the user clicks an appointment.
+* **[OnClientAppointmentClick]({%slug scheduler/client-side-programming/events/onclientappointmentclick%})** - occurs when the user clicks an appointment.
 
-* __[OnClientAppointmentDoubleClick]({%slug scheduler/client-side-programming/events/onclientappointmentdoubleclick%})__ - occurs when the user double-clicks an appointment.
+* **[OnClientAppointmentDoubleClick]({%slug scheduler/client-side-programming/events/onclientappointmentdoubleclick%})** - occurs when the user double-clicks an appointment.
 
-* __[OnClientAppointmentDeleting]({%slug scheduler/client-side-programming/events/onclientappointmentdeleting%})__ - occurs when the user tries to delete an appointment.
+* **[OnClientAppointmentDeleting]({%slug scheduler/client-side-programming/events/onclientappointmentdeleting%})** - occurs when the user tries to delete an appointment.
 
-* __[OnClientAppointmentEditing]({%slug scheduler/client-side-programming/events/onclientappointmentediting%})__ - occurs immediately before an appointment is edited.
+* **[OnClientAppointmentEditing]({%slug scheduler/client-side-programming/events/onclientappointmentediting%})** - occurs immediately before an appointment is edited.
 
-* __[OnClientAppointmentInserting]({%slug scheduler/client-side-programming/events/onclientappointmentinserting%})__ - occurs before an appointment is inserted.
+* **[OnClientAppointmentInserting]({%slug scheduler/client-side-programming/events/onclientappointmentinserting%})** - occurs before an appointment is inserted.
 
 * [OnClientAppointmentMoveStart]({%slug scheduler/client-side-programming/events/onclientappointmentmovestart%}) - occurs when the user starts to move an appointment.
 
@@ -32,13 +32,13 @@ __RadScheduler__ has a number of properties which value is the name of a JavaScr
 
 * [OnClientAppointmentMoveEnd]({%slug scheduler/client-side-programming/events/onclientappointmentmoveend%}) - occurs when the user stops moving an appointment.
 
-* __[OnClientAppointmentResizeStart]({%slug scheduler/client-side-programming/events/onclientappointmentresizestart%})__ - occurs when the user starts resizing an appointment.
+* **[OnClientAppointmentResizeStart]({%slug scheduler/client-side-programming/events/onclientappointmentresizestart%})** - occurs when the user starts resizing an appointment.
 
-* __[OnClientAppointmentResizing]({%slug scheduler/client-side-programming/events/onclientappointmentresizing%})__ - occurs when the user moves the mouse while resizing an appointment.
+* **[OnClientAppointmentResizing]({%slug scheduler/client-side-programming/events/onclientappointmentresizing%})** - occurs when the user moves the mouse while resizing an appointment.
 
-* __[OnClientAppointmentResizeEnd]({%slug scheduler/client-side-programming/events/onclientappointmentresizeend%})__ - occurs when the user releases the mouse after resizing an appointment.
+* **[OnClientAppointmentResizeEnd]({%slug scheduler/client-side-programming/events/onclientappointmentresizeend%})** - occurs when the user releases the mouse after resizing an appointment.
 
-* __[OnClientAppointmentContextMenu]({%slug scheduler/client-side-programming/events/onclientappointmentcontextmenu%})__ - occurs when the user right-clicks on an appointment.
+* **[OnClientAppointmentContextMenu]({%slug scheduler/client-side-programming/events/onclientappointmentcontextmenu%})** - occurs when the user right-clicks on an appointment.
 
 * [OnClientNavigationCommand]({%slug scheduler/client-side-programming/events/onclientnavigationcommand%}) - occurs when the scheduler is about to execute a navigation command.
 
@@ -46,47 +46,47 @@ __RadScheduler__ has a number of properties which value is the name of a JavaScr
 
 * [OnClientRecurrenceActionDialogShowing]({%slug scheduler/client-side-programming/events/onclientrecurrenceactiondialogshowing%}) - occurs just before the dialog appears to ask whether the change the user just started on a recurring appointment is to affect the appointment itself or the entire series.
 
-* __[OnClientRecurrenceActionDialogClosed]({%slug scheduler/client-side-programming/events/onclientrecurrenceactiondialogclosed%})__ - occurs when the dialog that asks whether a change affects a single occurrence or an entire series closes.
+* **[OnClientRecurrenceActionDialogClosed]({%slug scheduler/client-side-programming/events/onclientrecurrenceactiondialogclosed%})** - occurs when the dialog that asks whether a change affects a single occurrence or an entire series closes.
 
-* __[OnClientTimeSlotClick]({%slug scheduler/client-side-programming/events/onclienttimeslotclick%})__ - occurs when the user clicks on a time slot in the scheduler.
+* **[OnClientTimeSlotClick]({%slug scheduler/client-side-programming/events/onclienttimeslotclick%})** - occurs when the user clicks on a time slot in the scheduler.
 
-* __[OnClientTimeSlotContextMenu]({%slug scheduler/client-side-programming/events/onclienttimeslotcontextmenu%})__ - occurs when the user right-clicks on a time slot in the scheduler.
+* **[OnClientTimeSlotContextMenu]({%slug scheduler/client-side-programming/events/onclienttimeslotcontextmenu%})** - occurs when the user right-clicks on a time slot in the scheduler.
 
-* __[OnClientFormCreated]({%slug scheduler/client-side-programming/events/onclientformcreated%})__ - occurs when an in-line editor or edit form is about to appear.
+* **[OnClientFormCreated]({%slug scheduler/client-side-programming/events/onclientformcreated%})** - occurs when an in-line editor or edit form is about to appear.
 
 
 
 Web Service binding specific events:
 
-* __[OnClientAppointmentsPopulating]({%slug scheduler/client-side-programming/events/onclientappointmentspopulating%})__ - occurs when the scheduler is about to request appointments.
+* **[OnClientAppointmentsPopulating]({%slug scheduler/client-side-programming/events/onclientappointmentspopulating%})** - occurs when the scheduler is about to request appointments.
 
-* __[OnClientAppointmentsPopulated]({%slug scheduler/client-side-programming/events/onclientappointmentspopulated%})__ - occurs when the scheduler has received appointments from the Web Service.
+* **[OnClientAppointmentsPopulated]({%slug scheduler/client-side-programming/events/onclientappointmentspopulated%})** - occurs when the scheduler has received appointments from the Web Service.
 
-* __[OnClientAppointmentDataBound]({%slug scheduler/client-side-programming/events/onclientappointmentdatabound%})__ - occurs when an appointment is received and is about to be rendered.
+* **[OnClientAppointmentDataBound]({%slug scheduler/client-side-programming/events/onclientappointmentdatabound%})** - occurs when an appointment is received and is about to be rendered.
 
 * [OnClientAppointmentSerialized]({%slug scheduler/client-side-programming/events/onclientappointmentserialized%}) - allows you to populate appointments with custom data before sending them to the Web Service
 
-* __[OnClientAppointmentCreated]({%slug scheduler/client-side-programming/events/onclientappointmentcreated%})__ - occurs when an appointment is received and has been rendered.
+* **[OnClientAppointmentCreated]({%slug scheduler/client-side-programming/events/onclientappointmentcreated%})** - occurs when an appointment is received and has been rendered.
 
-* __[OnClientResourcesPopulating]({%slug scheduler/client-side-programming/events/onclientresourcespopulating%})__ - occurs when the scheduler is about to request resources.
+* **[OnClientResourcesPopulating]({%slug scheduler/client-side-programming/events/onclientresourcespopulating%})** - occurs when the scheduler is about to request resources.
 
-* __[OnClientResourcesPopulated]({%slug scheduler/client-side-programming/events/onclientresourcespopulated%})__ - occurs when the scheduler has received resources.
+* **[OnClientResourcesPopulated]({%slug scheduler/client-side-programming/events/onclientresourcespopulated%})** - occurs when the scheduler has received resources.
 
-* __[OnClientDataBound]({%slug scheduler/client-side-programming/events/onclientdatabound%})__ - occurs when the scheduler has been populated with data.
+* **[OnClientDataBound]({%slug scheduler/client-side-programming/events/onclientdatabound%})** - occurs when the scheduler has been populated with data.
 
-* __[OnClientRequestFailed]({%slug scheduler/client-side-programming/events/onclientrequestfailed%})__ - occurs when a request to the Web Service has failed.
+* **[OnClientRequestFailed]({%slug scheduler/client-side-programming/events/onclientrequestfailed%})** - occurs when a request to the Web Service has failed.
 
-* __[OnClientRequestSuccess]({%slug scheduler/client-side-programming/events/onclientrequestsuccess%})__ -occurs when when a request to the Web Service has succeeded.
+* **[OnClientRequestSuccess]({%slug scheduler/client-side-programming/events/onclientrequestsuccess%})** -occurs when when a request to the Web Service has succeeded.
 
-* __[OnClientAppointmentWebServiceInserting]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceinserting%})__ - occurs when an appointment is about to be stored via Web Service call.
+* **[OnClientAppointmentWebServiceInserting]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceinserting%})** - occurs when an appointment is about to be stored via Web Service call.
 
-* __[OnClientAppointmentWebServiceDeleting]({%slug scheduler/client-side-programming/events/onclientappointmentwebservicedeleting%})__ - occurs when an appointment is about to be deleted via Web Service call.
+* **[OnClientAppointmentWebServiceDeleting]({%slug scheduler/client-side-programming/events/onclientappointmentwebservicedeleting%})** - occurs when an appointment is about to be deleted via Web Service call.
 
-* __[OnClientAppointmentWebServiceUpdating]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceupdating%})__ - occurs when an appointment is about to be updated via Web Service call.
+* **[OnClientAppointmentWebServiceUpdating]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceupdating%})** - occurs when an appointment is about to be updated via Web Service call.
 
-* __[OnClientRecurrenceExceptionCreating]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptioncreating%})__ - occurs when a recurrence exception is about to be created via Web Service call.
+* **[OnClientRecurrenceExceptionCreating]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptioncreating%})** - occurs when a recurrence exception is about to be created via Web Service call.
 
-* __[OnClientRecurrenceExceptionsRemoving]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptionsremoving%})__ - occurs when recurrence exceptions are about to be removed via Web Service call.
+* **[OnClientRecurrenceExceptionsRemoving]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptionsremoving%})** - occurs when recurrence exceptions are about to be removed via Web Service call.
 
 
 
@@ -100,7 +100,7 @@ Reminder related events:
 
 
 
-To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding __RadScheduler__ property.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding **RadScheduler** property.
 
 ````JavaScript
 	     

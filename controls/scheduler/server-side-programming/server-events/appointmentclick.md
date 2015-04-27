@@ -1,6 +1,6 @@
 ---
 title: AppointmentClick
-page_title: AppointmentClick | UI for ASP.NET AJAX Documentation
+page_title: AppointmentClick | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentClick
 slug: scheduler/server-side-programming/server-events/appointmentclick
 tags: appointmentclick
@@ -12,13 +12,13 @@ position: 1
 
 
 
-The __AppointmentClick__ event occurs when the user clicks on an appointment and __RadScheduler__ is inReadOnly mode- either __ReadOnly="true"__ or __AllowEdit="false"__. You can use this event to perform additional actions when an appointment is clicked.
+The **AppointmentClick** event occurs when the user clicks on an appointment and **RadScheduler** is inReadOnly mode- either **ReadOnly="true"** or **AllowEdit="false"**. You can use this event to perform additional actions when an appointment is clicked.
 
-__AppointmentClick__ has two parameters:
+**AppointmentClick** has two parameters:
 
-* __sender__ is the scheduler that contains the appointment the user clicked.
+* **sender** is the scheduler that contains the appointment the user clicked.
 
-* __e__ is an object of type __SchedulerEventArgs__. It has an Appointment property thatgives you access to the appointment that was clicked.
+* **e** is an object of type **SchedulerEventArgs**. It has an Appointment property thatgives you access to the appointment that was clicked.
 
 ## Example
 

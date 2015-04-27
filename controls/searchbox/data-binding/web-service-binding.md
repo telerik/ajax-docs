@@ -1,6 +1,6 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Web Service Binding | RadSearchBox for ASP.NET AJAX Documentation
 description: Web Service Binding
 slug: searchbox/data-binding/web-service-binding
 tags: web,service,binding
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-RadSearchBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the __WebServiceSettings' Path__ and __Method__ properties:
+RadSearchBox can be bound to Web service. The path to the Web service and the name of the service method are specified in the **WebServiceSettings' Path** and **Method** properties:
 
 ````ASPNET
 			<telerik:RadSearchBox runat="server" ID="RadSearchBox1">

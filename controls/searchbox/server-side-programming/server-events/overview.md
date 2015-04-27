@@ -1,6 +1,6 @@
 ---
-title: Server Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Events Overview | RadSearchBox for ASP.NET AJAX Documentation
 description: Overview
 slug: searchbox/server-side-programming/server-events/overview
 tags: overview
@@ -8,13 +8,13 @@ published: True
 position: 0
 ---
 
-# Server Events Overview
+# Events Overview
 
 
 
-## Server-Side Events
+## Server-side Events
 
-__RadSearchBox__ supports a number of server-side events that let you respond to complex actions at the server.
+**RadSearchBox** supports a number of server-side events that let you respond to complex actions at the server.
 
 * [OnSearch]({%slug searchbox/server-side-programming/server-events/onsearch%})
 

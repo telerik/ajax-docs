@@ -1,6 +1,6 @@
 ---
 title: AppointmentCommand
-page_title: AppointmentCommand | UI for ASP.NET AJAX Documentation
+page_title: AppointmentCommand | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentCommand
 slug: scheduler/server-side-programming/server-events/appointmentcommand
 tags: appointmentcommand
@@ -12,19 +12,19 @@ position: 2
 
 
 
-The __AppointmentCommand__ event occurs when the user clicks any button in the appointment template. This event is typically used to handle button controls with a custom CommandName value.
+The **AppointmentCommand** event occurs when the user clicks any button in the appointment template. This event is typically used to handle button controls with a custom CommandName value.
 
-__AppointmentCommand__ has two parameters:
+**AppointmentCommand** has two parameters:
 
-* __sender__ is the scheduler that contains the appointment with the button the user clicked.
+* **sender** is the scheduler that contains the appointment with the button the user clicked.
 
-* __e__ is an object of type __AppointmentCommandEventArgs__. It has three properties:
+* **e** is an object of type **AppointmentCommandEventArgs**. It has three properties:
 
-* __CommandName__ is the __CommandName__ attribute of the button that was clicked.
+* **CommandName** is the **CommandName** attribute of the button that was clicked.
 
-* __CommandArgument__ is the __CommandArgument__ attribute of the button that was clicked.
+* **CommandArgument** is the **CommandArgument** attribute of the button that was clicked.
 
-* __Container__ is an object of type __SchedulerAppointmentContainer__ that represents the appointment in the scheduler.
+* **Container** is an object of type **SchedulerAppointmentContainer** that represents the appointment in the scheduler.
 
 ## Example
 

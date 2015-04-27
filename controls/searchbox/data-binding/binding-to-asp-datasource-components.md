@@ -1,6 +1,6 @@
 ---
 title: Binding to ASP DataSource Components
-page_title: Binding to ASP DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to ASP DataSource Components | RadSearchBox for ASP.NET AJAX Documentation
 description: Binding to ASP DataSource Components
 slug: searchbox/data-binding/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components
@@ -12,7 +12,7 @@ position: 3
 
 
 
-__RadSearchBox__ supports binding to all ASP.NET DataSource components, including:
+**RadSearchBox** supports binding to all ASP.NET DataSource components, including:
 
 * SqlDataSource
 
@@ -24,9 +24,9 @@ __RadSearchBox__ supports binding to all ASP.NET DataSource components, includin
 
 * LinqDataSource
 
-To bind RadSearchBox to a DataSource component, you need to set its __DataSourceID__ property to the ID of the DataSource component. You should also set its __DataTextField__ and __DataValueField__ properties to map the __Text__ and __Value__ properties of the items to the respective columns or fields from the data source.
+To bind RadSearchBox to a DataSource component, you need to set its **DataSourceID** property to the ID of the DataSource component. You should also set its **DataTextField** and **DataValueField** properties to map the **Text** and **Value** properties of the items to the respective columns or fields from the data source.
 
-You can also set the __DataKeyNames__ property to add additional fields from the data source that you will need in the DataItem object for your scenario.
+You can also set the **DataKeyNames** property to add additional fields from the data source that you will need in the DataItem object for your scenario.
 
 ## SqlDataSource
 

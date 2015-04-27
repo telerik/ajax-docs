@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadSlider for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: slider/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -12,19 +12,19 @@ position: 1
 
 
 
-There are a number of ways to customize the look and feel of __RadSlider__:
+There are a number of ways to customize the look and feel of **RadSlider**:
 
-* To change the overall look and feel of the RadSlider control, set its __Skin__ property.
+* To change the overall look and feel of the RadSlider control, set its **Skin** property.
 
-* To change the layout of __RadSlider__, use the __Orientation__ property.
+* To change the layout of **RadSlider**, use the **Orientation** property.
 
-* To change the visibility of handles, use the __ShowDragHandle__, __ShowDecreaseHandle__ and __ShowIncreaseHandle__ properties.
+* To change the visibility of handles, use the **ShowDragHandle**, **ShowDecreaseHandle** and **ShowIncreaseHandle** properties.
 
-* To show two drag handles use the __IsSelectionRangeEnabled__ property
+* To show two drag handles use the **IsSelectionRangeEnabled** property
 
-* To reverse the slider set the __IsDirectionReversed__ property to __true__
+* To reverse the slider set the **IsDirectionReversed** property to **true**
 
-* To Disable the slider set the __Enabled__ property to __false__
+* To Disable the slider set the **Enabled** property to **false**
 
 
 

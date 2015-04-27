@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadScheduler for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: scheduler/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-As of __Q2 2011__ RadScheduler introduces keyboars support. In order to activate it, appropriate TabIndex should be set.
+As of **Q2 2011** RadScheduler introduces keyboars support. In order to activate it, appropriate TabIndex should be set.
 
 The keyboard navigation has the following functionalities:
 

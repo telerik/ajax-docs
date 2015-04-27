@@ -1,6 +1,6 @@
 ---
 title: OnClientItemClicked
-page_title: OnClientItemClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemClicked | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemClicked
 slug: rotator/client-side-programming/events/onclientitemclicked
 tags: onclientitemclicked
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-The event __ItemClicked__ is subsequent to the __ItemClicking__ (__OnClientItemClicking__) event and occurs when an item of the RadRotator control is clicked. The event is fired after the client-side validation is completed, just before the page is submitted, and cannot be cancelled.
+The event **ItemClicked** is subsequent to the **ItemClicking** (**OnClientItemClicking**) event and occurs when an item of the RadRotator control is clicked. The event is fired after the client-side validation is completed, just before the page is submitted, and cannot be cancelled.
 
 The event handler receives two parameters:
 
 1. The RadRotator instance that fired the event.
 
-1. An eventArgs parameter of type Telerik.Web.UI.__RadRotatorEventArgs__ containing the following properties and methods:
+1. An eventArgs parameter of type Telerik.Web.UI.**RadRotatorEventArgs** containing the following properties and methods:
 
 * get_item() - returns the client object of the clicked item.
 

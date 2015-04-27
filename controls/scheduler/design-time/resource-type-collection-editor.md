@@ -1,6 +1,6 @@
 ---
 title: Resource Type Collection Editor
-page_title: Resource Type Collection Editor | UI for ASP.NET AJAX Documentation
+page_title: Resource Type Collection Editor | RadScheduler for ASP.NET AJAX Documentation
 description: Resource Type Collection Editor
 slug: scheduler/design-time/resource-type-collection-editor
 tags: resource,type,collection,editor
@@ -14,19 +14,19 @@ position: 2
 
 The Resource Type Collection Editor lets you define custom resources for additional information you add to appointments. The resources you define in the Resource Type Collection Editor act like enumerated values, with a set of possible values that users can choose from a drop-down list.
 
-To display the Resource Type Collection Editor, open the property pane for __RadScheduler__ and click the ellipsis button on the __ResourceTypes__ property.
+To display the Resource Type Collection Editor, open the property pane for **RadScheduler** and click the ellipsis button on the **ResourceTypes** property.
 
->note The resources you define in the Resource Type Collection Editor are not used if __RadScheduler__ gets its data from a[data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, __RadScheduler__ gets information about the available data from the provider instead.
+>note The resources you define in the Resource Type Collection Editor are not used if **RadScheduler** gets its data from a[data provider]({%slug scheduler/data-binding/providers/using-a-data-provider%}). When using a data provider, **RadScheduler** gets information about the available data from the provider instead.
 >
 
 
 ## Resource Type Collection Editor
 
-* Click the __Add__ button to append a new resource type to the collection.
+* Click the **Add** button to append a new resource type to the collection.
 
 * Use the up and down arrow buttons to rearrange the resource types in the collection. This order determines the order the resources appear in the appointment edit form.
 
-* Select a resource type and click the __Remove__ button to delete it from the list.
+* Select a resource type and click the **Remove** button to delete it from the list.
 
 * Select individual resource types to change the properties that tell the scheduler where to look up information about the resource type.
 
@@ -34,21 +34,21 @@ To display the Resource Type Collection Editor, open the property pane for __Rad
 
 For each resource type,
 
-* __AllowMultipleValues__ indicates whether an appointment can select multiple values for the resource type, as opposed to a single instance of this resource type.
+* **AllowMultipleValues** indicates whether an appointment can select multiple values for the resource type, as opposed to a single instance of this resource type.
 
->caution Assigning multiple resources of the same type to an appointment requires maintaining a many-to-many relationship between resources and appointments. Because of this, __AllowMultipleValues__ has no effect when binding to declarative data sources. To use multiple values, the scheduler must use a custom provider that is capable of storing the relationships.
+>caution Assigning multiple resources of the same type to an appointment requires maintaining a many-to-many relationship between resources and appointments. Because of this, **AllowMultipleValues** has no effect when binding to declarative data sources. To use multiple values, the scheduler must use a custom provider that is capable of storing the relationships.
 >
 
 
-* __DataSourceID__ is the ID attribute of a DataSource component that the scheduler uses to look up possible values that can be assigned to resources of this type.
+* **DataSourceID** is the ID attribute of a DataSource component that the scheduler uses to look up possible values that can be assigned to resources of this type.
 
-* __ForeignKeyField__ indicates the name of the column in the Appointments data source that is used to link a particular appointment and resource. This column is usually constrained by a foreign key that points to the primary key of the Resource data source.
+* **ForeignKeyField** indicates the name of the column in the Appointments data source that is used to link a particular appointment and resource. This column is usually constrained by a foreign key that points to the primary key of the Resource data source.
 
-* __KeyField__ is the field in the data source identified by __DataSourceID__ that uniquely identifies a resource value.
+* **KeyField** is the field in the data source identified by **DataSourceID** that uniquely identifies a resource value.
 
-* __Name__ is the Name of the Resource Type. It that appears in the appointment edit form to prompt users to enter a resource of this type.
+* **Name** is the Name of the Resource Type. It that appears in the appointment edit form to prompt users to enter a resource of this type.
 
-* __TextField__ is the field in the data source identified by __DataSourceID__ that holds a string representation of the resource value.
+* **TextField** is the field in the data source identified by **DataSourceID** that holds a string representation of the resource value.
 
 # See Also
 

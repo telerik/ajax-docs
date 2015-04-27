@@ -1,6 +1,6 @@
 ---
 title: OnClientNavigationComplete
-page_title: OnClientNavigationComplete | UI for ASP.NET AJAX Documentation
+page_title: OnClientNavigationComplete | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientNavigationComplete
 slug: scheduler/client-side-programming/events/onclientnavigationcomplete
 tags: onclientnavigationcomplete
@@ -14,15 +14,15 @@ position: 33
 
 ## 
 
-If specified, the __OnClientNavigationComplete__ client-side event handler is called when anavigation command has been completed. In the case of server-side binding, the event will not be raised.
+If specified, the **OnClientNavigationComplete** client-side event handler is called when anavigation command has been completed. In the case of server-side binding, the event will not be raised.
 
 Two parameters are passed to the handler:
 
-* __sender__ - the scheduler client object;
+* **sender** - the scheduler client object;
 
-* __eventArgs__ with one property:
+* **eventArgs** with one property:
 
-* __get_command() -__the navigation command that is completed;
+* **get_command() -**the navigation command that is completed;
 
 This event cannot be cancelled.
 

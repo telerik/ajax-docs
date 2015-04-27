@@ -1,6 +1,6 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | UI for ASP.NET AJAX Documentation
+page_title: Binding to OData | RadScheduler for ASP.NET AJAX Documentation
 description: Binding to OData
 slug: scheduler/data-binding/binding-to-odata
 tags: binding,to,odata
@@ -16,33 +16,33 @@ Required introduction
 
 ## Binding to OData
 
-Forth from Q1 2012, __RadScheduler__ can be bound to an __OData service. The Open Data Protocol (OData)__ is an open web protocol for querying and updating data. The protocol allows for a consumer to query a data source over the HTTP protocol and get the result back in formats like Atom, JSON or plain XML, including pagination, ordering or filtering of the data. Also, the binding is one way only, i.e. it is not possible to perform update/insert/delete on the data source.The binding can be flat or hierarchical, the RadScheduler can utilize only the flat binding.
+Forth from Q1 2012, **RadScheduler** can be bound to an **OData service. The Open Data Protocol (OData)** is an open web protocol for querying and updating data. The protocol allows for a consumer to query a data source over the HTTP protocol and get the result back in formats like Atom, JSON or plain XML, including pagination, ordering or filtering of the data. Also, the binding is one way only, i.e. it is not possible to perform update/insert/delete on the data source.The binding can be flat or hierarchical, the RadScheduler can utilize only the flat binding.
 
-With the introduction of the __RadODataDataSource__ control, binding to an OData feed is pretty similar to the standard binding, except for the fact that the RadScheduler is in Read-Only mode.
+With the introduction of the **RadODataDataSource** control, binding to an OData feed is pretty similar to the standard binding, except for the fact that the RadScheduler is in Read-Only mode.
 
 ## Configuration
 
 The following properties could be set in order to map the exposed feed to the binding fields:
 
-* __DataStartField__
+* **DataStartField**
 
-* __DataEndField__
+* **DataEndField**
 
-* __DataSubjectField__
+* **DataSubjectField**
 
-* __DataKeyField__
+* **DataKeyField**
 
-* __DataDescriptionField__
+* **DataDescriptionField**
 
-* __DataModelID__
+* **DataModelID**
 
-It is necessary to set __DataModelID__ property to the OData Entity that contains your appointment data.
+It is necessary to set **DataModelID** property to the OData Entity that contains your appointment data.
 
->caution The __InitialContainerName__ property is now depricated and __DataModelID__ should be used instead.
+>caution The **InitialContainerName** property is now depricated and **DataModelID** should be used instead.
 >
 
 
-The OData binding does not require serialized __AppointmentData__ objects. Instead, the developer is free to expose whatever objects they want as a JSON feed, as long as the data is meaningful to the Scheduler.
+The OData binding does not require serialized **AppointmentData** objects. Instead, the developer is free to expose whatever objects they want as a JSON feed, as long as the data is meaningful to the Scheduler.
 
 Here is how the declaration of a RadScheduler bound to a RadODataDataSource control would look like:
 

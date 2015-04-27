@@ -1,6 +1,6 @@
 ---
 title: OnClientSlide
-page_title: OnClientSlide | UI for ASP.NET AJAX Documentation
+page_title: OnClientSlide | RadSlider for ASP.NET AJAX Documentation
 description: OnClientSlide
 slug: slider/client-side-programming/events/onclientslide
 tags: onclientslide
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientSlide__client-side event occurs as the drag handle is moved along the track.
+The **OnClientSlide**client-side event occurs as the drag handle is moved along the track.
 
 The event handler receives parameters:
 

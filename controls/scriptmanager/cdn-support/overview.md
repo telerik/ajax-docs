@@ -1,6 +1,6 @@
 ---
-title: CDN Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: CDN Support Overview | RadScriptManager for ASP.NET AJAX Documentation
 description: Overview
 slug: scriptmanager/cdn-support/overview
 tags: overview

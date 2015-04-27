@@ -1,6 +1,6 @@
 ---
 title: Create a Custom Skin
-page_title: Create a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Create a Custom Skin | RadRating for ASP.NET AJAX Documentation
 description: Create a Custom Skin
 slug: rating/appearance-and-styling/create-a-custom-skin
 tags: create,a,custom,skin
@@ -20,29 +20,29 @@ The second file represents the actual skin of the control, and its name consists
 
 ## Creating a Custom Skin for RadRating for ASP.NET AJAX from an Existing OneGetting and Renaming Files and CSS Classes
 
-A skin of RadRating consists of only one selector. All of the other settings are common for all designs and are stored in the control’s base style sheet (__Skins/Rating.css__).
+A skin of RadRating consists of only one selector. All of the other settings are common for all designs and are stored in the control’s base style sheet (**Skins/Rating.css**).
 
-In order to explain better the CSS classes of RadRating, we will use both __Rating.css__ and __Rating.SkinName.css__ as external resources. We will modify an existing skin of RadRating. Follow these steps to register an external skin for RadRating for ASP.NET AJAX before editing any CSS:
+In order to explain better the CSS classes of RadRating, we will use both **Rating.css** and **Rating.SkinName.css** as external resources. We will modify an existing skin of RadRating. Follow these steps to register an external skin for RadRating for ASP.NET AJAX before editing any CSS:
 
 1. In your project, create a new directory named Skins
 
 1. In the skins folder create a new directory MyCustomSkin.
 
-1. Go to ~/[TelerikControlsInstallationFolder]/Skins and copy __Rating.css__in your Skins folder
+1. Go to ~/[TelerikControlsInstallationFolder]/Skins and copy **Rating.css**in your Skins folder
 
-1. Go to ~/[TelerikControlsInstallationFolder]/Skins/Default and copy __Rating.Default.css__ and the __Skins/Default/Rating__ folder in your Skins folder.
+1. Go to ~/[TelerikControlsInstallationFolder]/Skins/Default and copy **Rating.Default.css** and the **Skins/Default/Rating** folder in your Skins folder.
 
-1. Rename __Rating.Default.css__ to __Rating.MyCustomSkin.css__ and the folder __Default__ to __MyCustomSkin__.
+1. Rename **Rating.Default.css** to **Rating.MyCustomSkin.css** and the folder **Default** to **MyCustomSkin**.
 
 1. When you are finished you should have the following files:
 
-1. __Skins/Rating.css__
+1. **Skins/Rating.css**
 
-1. __Skins/MyCustomSkin/Rating.MyCustomSkin.css__
+1. **Skins/MyCustomSkin/Rating.MyCustomSkin.css**
 
-1. __Skins/MyCustomSkin/Rating__ with a single image in it – __Sprite.png__
+1. **Skins/MyCustomSkin/Rating** with a single image in it – **Sprite.png**
 
-1. In order to support multiple skins of RadRating on a single page, the wrapping skin-specific class is coined by the name of the control - RadRating plus underscore ("_") plus SkinName, i.e. __.RadRating_Default__, so in order to create a custom skin out of the Default skin, we should rename the sole occurrence of "Default" in __Rating.MyCustomSkin.css__ to "MyCustomSkin" as shown below:
+1. In order to support multiple skins of RadRating on a single page, the wrapping skin-specific class is coined by the name of the control - RadRating plus underscore ("_") plus SkinName, i.e. **.RadRating_Default**, so in order to create a custom skin out of the Default skin, we should rename the sole occurrence of "Default" in **Rating.MyCustomSkin.css** to "MyCustomSkin" as shown below:
 
 1. Add a new server declaration of RadRating on your page, and set Skin="MyCustomSkin", EnableEmbeddedSkins="false" and EnableEmbeddedBasestylesheet="false":
 
@@ -57,7 +57,7 @@ In order to explain better the CSS classes of RadRating, we will use both __Rati
 
 
 
-1. Register __Rating.css__and __Rating.MyCustomSkin.css__in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:(Make sure the paths to the files are correct; otherwise the skin will not apply correctly)
+1. Register **Rating.css**and **Rating.MyCustomSkin.css**in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:(Make sure the paths to the files are correct; otherwise the skin will not apply correctly)
 
 ````HTML
 	    <link rel="stylesheet" type="text/css" href="Skins/Rating.css"></link>

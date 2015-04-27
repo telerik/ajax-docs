@@ -1,6 +1,6 @@
 ---
 title: OnClientButtonClicking
-page_title: OnClientButtonClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientButtonClicking | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientButtonClicking
 slug: ribbonbar/client-side-programming/events/onclientbuttonclicking
 tags: onclientbuttonclicking
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientButtonClicking__ client-side event occurs when the user clicks on a ribbonbar button, before the ribbonbar responds to the mouse click.
+The **OnClientButtonClicking** client-side event occurs when the user clicks on a ribbonbar button, before the ribbonbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_button()__ returns a reference to the ribbonbar button that was clicked. In this case it is __RibbonBarButton__.
+* **get_button()** returns a reference to the ribbonbar button that was clicked. In this case it is **RibbonBarButton**.
 
-* __set_cancel()__ lets you prevent the ribbonbar from responding to the mouse click.You can use this event to respond when the user clicks on a ribbonbar button:
+* **set_cancel()** lets you prevent the ribbonbar from responding to the mouse click.You can use this event to respond when the user clicks on a ribbonbar button:
 
 ````JavaScript
 	    <script type="text/javascript">
@@ -51,9 +51,9 @@ The event handler receives two parameters:
 
 
 
-* __set_enabled()__ - disables a RadRibbonBarButton when set to __false__.
+* **set_enabled()** - disables a RadRibbonBarButton when set to **false**.
 
-* __get_enabled()__ - returns __true__ if the RadRibbonBar is enabled and __flase__ when it is disabled.
+* **get_enabled()** - returns **true** if the RadRibbonBar is enabled and **flase** when it is disabled.
 
 ````JavaScript
 	        

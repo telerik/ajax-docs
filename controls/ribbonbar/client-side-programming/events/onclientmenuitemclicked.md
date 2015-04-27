@@ -1,6 +1,6 @@
 ---
 title: OnClientMenuItemClicked
-page_title: OnClientMenuItemClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientMenuItemClicked | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientMenuItemClicked
 slug: ribbonbar/client-side-programming/events/onclientmenuitemclicked
 tags: onclientmenuitemclicked
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientMenuItemClicked__ client-side event occurs when the user clicks on a ribbonbar menu item, after the ribbonbar responds to the mouse click.
+The **OnClientMenuItemClicked** client-side event occurs when the user clicks on a ribbonbar menu item, after the ribbonbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item()__ returns a reference to the ribbonbar menu item that was clicked. In this case it is __RibbonBarMenuItem__.
+* **get_item()** returns a reference to the ribbonbar menu item that was clicked. In this case it is **RibbonBarMenuItem**.
 
 You can use this event to respond when the user clicks on a ribbonbar menu item:
 

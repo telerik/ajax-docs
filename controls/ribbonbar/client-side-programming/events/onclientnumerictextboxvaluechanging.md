@@ -1,6 +1,6 @@
 ---
 title: OnClientNumericTextBoxValueChanging
-page_title: OnClientNumericTextBoxValueChanging | UI for ASP.NET AJAX Documentation
+page_title: OnClientNumericTextBoxValueChanging | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientNumericTextBoxValueChanging
 slug: ribbonbar/client-side-programming/events/onclientnumerictextboxvaluechanging
 tags: onclientnumerictextboxvaluechanging
@@ -14,11 +14,11 @@ position: 23
 
 ## 
 
-The __OnClientNumericTextBoxValueChanging__ client-side event occurs when the user is changing the value in the NumericTextBox.
+The **OnClientNumericTextBoxValueChanging** client-side event occurs when the user is changing the value in the NumericTextBox.
 
-1. The instance of the __ribbonbar__ firing the event
+1. The instance of the **ribbonbar** firing the event
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
 * get_numericTextBox()
 

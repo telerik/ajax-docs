@@ -1,6 +1,6 @@
 ---
 title: Reading the Recurrence Rule
-page_title: Reading the Recurrence Rule | UI for ASP.NET AJAX Documentation
+page_title: Reading the Recurrence Rule | RadScheduler for ASP.NET AJAX Documentation
 description: Reading the Recurrence Rule
 slug: scheduler/recurrence-editor/client-side-programming/reading-the-recurrence-rule
 tags: reading,the,recurrence,rule
@@ -16,9 +16,9 @@ position: 0
 
 The recurrence rule is incomplete without the start and end date of the first occurrence.
 
-You need to set them to the __startDate__ and __endDate__ properties before retrieving the recurrence rule.
+You need to set them to the **startDate** and **endDate** properties before retrieving the recurrence rule.
 
-The following example builds the recurrence rule by reading the Start and End date from two __RadDatePickers__ on the page:
+The following example builds the recurrence rule by reading the Start and End date from two **RadDatePickers** on the page:
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Header and Footer Templates
-page_title: Header and Footer Templates | UI for ASP.NET AJAX Documentation
+page_title: Header and Footer Templates | RadSearchBox for ASP.NET AJAX Documentation
 description: Header and Footer Templates
 slug: searchbox/templates/header-and-footer-templates
 tags: header,and,footer,templates

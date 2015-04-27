@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadRibbonBar for ASP.NET AJAX Documentation
 description: Overview
 slug: ribbonbar/server-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadRibbonBar__supports a number of server-side events that let you respond to complex actions at the server.
+**RadRibbonBar**supports a number of server-side events that let you respond to complex actions at the server.
 
 * [ApplicationMenuItemClick]({%slug ribbonbar/server-side-programming/events/applicationmenuitemclick%}): Occurs when the user clicks on application menu item.
 

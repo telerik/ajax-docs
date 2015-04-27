@@ -1,6 +1,6 @@
 ---
 title: Returning Extra Data from the Web Service
-page_title: Returning Extra Data from the Web Service | UI for ASP.NET AJAX Documentation
+page_title: Returning Extra Data from the Web Service | RadScheduler for ASP.NET AJAX Documentation
 description: Returning Extra Data from the Web Service
 slug: scheduler/web-service-binding/returning-extra-data-from-the-web-service
 tags: returning,extra,data,from,the,web,service
@@ -24,7 +24,7 @@ The Web Service methods normally return only a list with the current appointment
 
 
 
-You might want to extend this result with information that concerns your application, such as status codes and additional metadata. For such scenarios RadScheduler recognizes a second return type: __ISchedulerOperationResult__. This interface is defined as:
+You might want to extend this result with information that concerns your application, such as status codes and additional metadata. For such scenarios RadScheduler recognizes a second return type: **ISchedulerOperationResult**. This interface is defined as:
 
 ````C#
 	
@@ -39,9 +39,9 @@ You might want to extend this result with information that concerns your applica
 
 Implementers of this interface can define their own properties, as long as they are serializable.
 
-A default implementation of this interface is included for convenience - __SchedulerOperationResult__.
+A default implementation of this interface is included for convenience - **SchedulerOperationResult**.
 
-__Example__
+**Example**
 
 For this example we are going to return an extra Code value (int) along with the result from GetAppointments.
 

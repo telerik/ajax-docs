@@ -1,6 +1,6 @@
 ---
 title: LauncherClick 
-page_title: LauncherClick  | UI for ASP.NET AJAX Documentation
+page_title: LauncherClick  | RadRibbonBar for ASP.NET AJAX Documentation
 description: LauncherClick 
 slug: ribbonbar/server-side-programming/events/launcherclick-
 tags: launcherclick,
@@ -14,13 +14,13 @@ position: 5
 
 ## 
 
-The server-side __LauncherClick__ event occurs when a group launcher is clicked, causing a postback.
+The server-side **LauncherClick** event occurs when a group launcher is clicked, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
-1. An EventArgs object with __Group__ property providing access to the group of the clicked launcher.
+1. An EventArgs object with **Group** property providing access to the group of the clicked launcher.
 
 The following example demonstrates how to use the LauncherClick event to determine the group of the clicked launcher.
 

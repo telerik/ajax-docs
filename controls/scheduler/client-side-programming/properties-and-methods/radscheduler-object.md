@@ -1,6 +1,6 @@
 ---
 title: RadScheduler Object
-page_title: RadScheduler Object | UI for ASP.NET AJAX Documentation
+page_title: RadScheduler Object | RadScheduler for ASP.NET AJAX Documentation
 description: RadScheduler Object
 slug: scheduler/client-side-programming/properties-and-methods/radscheduler-object
 tags: radscheduler,object
@@ -291,7 +291,7 @@ The tables below lists the most important, public properties and methods of the 
 ````
 
 |
-|updateAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Updates the specified appointment.The second parameter is optional and if set to __true__ , the method will update all appointments in the recurrence series; otherwise an exception will be created for the updated appointment.
+|updateAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Updates the specified appointment.The second parameter is optional and if set to **true** , the method will update all appointments in the recurrence series; otherwise an exception will be created for the updated appointment.
 
 ````JavaScript
 	function onClientAppointmentClick(sender, eventArgs)
@@ -305,7 +305,7 @@ The tables below lists the most important, public properties and methods of the 
 ````
 
 |
-|editAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.The second parameter is optional and if set to __true__ , the method will edit all appointments in the recurrence series; otherwise an exception will be created for the edited appointment.
+|editAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.The second parameter is optional and if set to **true** , the method will edit all appointments in the recurrence series; otherwise an exception will be created for the edited appointment.
 
 ````JavaScript
 	function onClientAppointmentClick(sender, eventArgs)
@@ -316,7 +316,7 @@ The tables below lists the most important, public properties and methods of the 
 ````
 
 |
-|editAppointmentWithConfirmation()|Telerik.Web.UI.[SchedulerAppointment]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.This method is identical to __editAppointment__ , but the user is presented with a confirmation dialog if the appointment is recurring.
+|editAppointmentWithConfirmation()|Telerik.Web.UI.[SchedulerAppointment]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})|None|Opens the AdvancedEditForm for the specified appointment; Identical to double-clicking an appointment. When opening the form, the corresponding FormCreating and FormCreated server-side events are fired.This method is identical to **editAppointment** , but the user is presented with a confirmation dialog if the appointment is recurring.
 
 ````JavaScript
 	function onClientAppointmentClick(sender, eventArgs)
@@ -327,7 +327,7 @@ The tables below lists the most important, public properties and methods of the 
 ````
 
 |
-|deleteAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Deletes the specified appointment.The second parameter - deleteSeries - is optional and if set to __true__ ,the method will delete all appointments in the recurrence series; otherwise only the specified appointment will be deleted.
+|deleteAppointment()|Telerik.Web.UI.[SchedulerAppointment,]({%slug scheduler/client-side-programming/properties-and-methods/schedulerappointment-object%})Boolean (optional)|None|Deletes the specified appointment.The second parameter - deleteSeries - is optional and if set to **true** ,the method will delete all appointments in the recurrence series; otherwise only the specified appointment will be deleted.
 
 ````JavaScript
 	function onClientAppointmentClick(sender, eventArgs)

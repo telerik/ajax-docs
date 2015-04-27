@@ -1,6 +1,6 @@
 ---
 title: OnClientSlideEnd
-page_title: OnClientSlideEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientSlideEnd | RadSlider for ASP.NET AJAX Documentation
 description: OnClientSlideEnd
 slug: slider/client-side-programming/events/onclientslideend
 tags: onclientslideend
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientSlideEnd__client-side event occurs as the drag handle stops moving along the track.
+The **OnClientSlideEnd**client-side event occurs as the drag handle stops moving along the track.
 
 The event handler receives parameters:
 

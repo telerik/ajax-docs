@@ -1,6 +1,6 @@
 ---
 title: AppointmentContextMenuItemClicking
-page_title: AppointmentContextMenuItemClicking | UI for ASP.NET AJAX Documentation
+page_title: AppointmentContextMenuItemClicking | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentContextMenuItemClicking
 slug: scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicking
 tags: appointmentcontextmenuitemclicking
@@ -14,18 +14,18 @@ position: 20
 
 ## 
 
-The __AppointmentContextMenuItemClicking__ event occurs when an appointment context menu item is clicked, before processing default commands.
+The **AppointmentContextMenuItemClicking** event occurs when an appointment context menu item is clicked, before processing default commands.
 
 AppointmentContextMenuItemClicking has two parameters:
 
-* __sender__ is the scheduler control
+* **sender** is the scheduler control
 
-* __e__ is an object of type AppointmentContextMenuItemClickingEventArgs. It has three properties:
+* **e** is an object of type AppointmentContextMenuItemClickingEventArgs. It has three properties:
 
-* __MenuItem__
+* **MenuItem**
 
-* __Appointment__
+* **Appointment**
 
-* __Cancel__
+* **Cancel**
 
 This event can be cancelled.

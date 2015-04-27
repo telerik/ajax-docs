@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: ribbonbar/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientLoad__ client-side event occurs when the RadRibbonBar is first loaded and fully initialized on the client. The event handler receives a single parameter: the instance of the ribbonbar firing the event.
+The **OnClientLoad** client-side event occurs when the RadRibbonBar is first loaded and fully initialized on the client. The event handler receives a single parameter: the instance of the ribbonbar firing the event.
 
 ````JavaScript
 				

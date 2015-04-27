@@ -1,6 +1,6 @@
 ---
 title: Using the Data Source Property
-page_title: Using the Data Source Property | UI for ASP.NET AJAX Documentation
+page_title: Using the Data Source Property | RadScheduler for ASP.NET AJAX Documentation
 description: Using the Data Source Property
 slug: scheduler/data-binding/using-the-data-source-property
 tags: using,the,data,source,property
@@ -12,15 +12,15 @@ position: 5
 
 
 
-RadScheduler has a __DataSource__ property that lets you bind it to any object that implements the IListSource or IEnumerable interface. Thus, you can bind the scheduler directly to a DataTable or DataView (IListSource), or to various List objects (IEnumerable). When using the __DataSource__ property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the __RadScheduler__ server-side events.
+RadScheduler has a **DataSource** property that lets you bind it to any object that implements the IListSource or IEnumerable interface. Thus, you can bind the scheduler directly to a DataTable or DataView (IListSource), or to various List objects (IEnumerable). When using the **DataSource** property to bind the scheduler, you must also implement the code for inserting, updating, and deleting appointments using the **RadScheduler** server-side events.
 
 ## Example
 
-The following example demonstrates binding to a generic list of objects, which represents appointment information, including a custom resource for room. It implements __AppointmentInsert__, __AppointmentUpdate__, and __AppointmentDelete__ event handlers to allow the scheduler to insert, update, and delete appointments.
+The following example demonstrates binding to a generic list of objects, which represents appointment information, including a custom resource for room. It implements **AppointmentInsert**, **AppointmentUpdate**, and **AppointmentDelete** event handlers to allow the scheduler to insert, update, and delete appointments.
 
-1. Drag a __RadScheduler__ control from the toolbox onto your page.
+1. Drag a **RadScheduler** control from the toolbox onto your page.
 
-1. Move to the code-behind page for your web page, and add two lines to the __using__ section (C#) or __Imports__ section (VB).
+1. Move to the code-behind page for your web page, and add two lines to the **using** section (C#) or **Imports** section (VB).
 
 
 
@@ -316,7 +316,7 @@ The following example demonstrates binding to a generic list of objects, which r
 ````
 
 
-1. Add the __FindById__ helper function to the class for your Web page:
+1. Add the **FindById** helper function to the class for your Web page:
 
 
 
@@ -401,9 +401,9 @@ The following example demonstrates binding to a generic list of objects, which r
 ````
 
 
-1. Return to the designer for Default.aspx and select the __RadScheduler__ control.
+1. Return to the designer for Default.aspx and select the **RadScheduler** control.
 
-1. In the properties pane, double-click on the __AppointmentInsert__ event and add the following event handler:
+1. In the properties pane, double-click on the **AppointmentInsert** event and add the following event handler:
 
 
 
@@ -427,7 +427,7 @@ The following example demonstrates binding to a generic list of objects, which r
 ````
 
 
-1. Double-click on the __AppointmentUpdate__ event and add the following event handler:
+1. Double-click on the **AppointmentUpdate** event and add the following event handler:
 
 
 
@@ -476,7 +476,7 @@ The following example demonstrates binding to a generic list of objects, which r
 ````
 
 
-You have now bound your scheduler using the __DataSource__ property. Run the application andnote the custom resource is available in the edit form.
+You have now bound your scheduler using the **DataSource** property. Run the application andnote the custom resource is available in the edit form.
 
 # See Also
 

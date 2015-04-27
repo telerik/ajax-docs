@@ -1,6 +1,6 @@
 ---
 title: RadSiteMap Item Builder
-page_title: RadSiteMap Item Builder | UI for ASP.NET AJAX Documentation
+page_title: RadSiteMap Item Builder | RadSiteMap for ASP.NET AJAX Documentation
 description: RadSiteMap Item Builder
 slug: sitemap/design-time/radsitemap/radsitemap-item-builder
 tags: radsitemap,item,builder
@@ -12,11 +12,11 @@ position: 1
 
 
 
-The __RadSiteMap Item Builder__ lets you populate your sitemap with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadSiteMap Item Builder:
+The **RadSiteMap Item Builder** lets you populate your sitemap with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadSiteMap Item Builder:
 
-* From the __RadSiteMap__[Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}), click on the __Build RadSiteMap__ link.
+* From the **RadSiteMap**[Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}), click on the **Build RadSiteMap** link.
 
-* Right-click on the __RadSiteMap__ component and select __Build RadSiteMap__ from its context menu.
+* Right-click on the **RadSiteMap** component and select **Build RadSiteMap** from its context menu.
 
 ## RadSiteMap Item Builder
 
@@ -24,7 +24,7 @@ The __RadSiteMap Item Builder__ lets you populate your sitemap with a hierarchy 
 
 
 
-The __RadSiteMap Item builder__ lets you add, rearrange, configure, and delete sitemap items. These actions are initiated using the tool bar at the upper left of the Item builder:
+The **RadSiteMap Item builder** lets you add, rearrange, configure, and delete sitemap items. These actions are initiated using the tool bar at the upper left of the Item builder:
 
 ![RadSiteMap iItem Builder Toolbar](images/sitemap_itembuildertoolbar.png)
 
@@ -47,18 +47,18 @@ The following table describes the controls in the tool bar:
 
 ## 
 
-__RadSiteMap Item Builder__
+**RadSiteMap Item Builder**
 
-* __Text__ is the text of the item as it appears in the sitemap.
+* **Text** is the text of the item as it appears in the sitemap.
 
-* __ToolTip__is the text of a tooltip that appears when the user hovers the mouse over the item.
+* **ToolTip**is the text of a tooltip that appears when the user hovers the mouse over the item.
 
-* __Enabled__ controls whether the item is initially enabled or disabled.
+* **Enabled** controls whether the item is initially enabled or disabled.
 
-* __Value__ lets you associate a text value with the sitemap item that you can use when programming the sitemap behavior.
+* **Value** lets you associate a text value with the sitemap item that you can use when programming the sitemap behavior.
 
-* __NavigateUrl__ and __Target__ cause the sitemap item to automatically launch another Web page (specified by __NavigateUrl__) in the window specified by __Target__. If the __Target__ property is not set, the new Web page uses the current browser window.
+* **NavigateUrl** and **Target** cause the sitemap item to automatically launch another Web page (specified by **NavigateUrl**) in the window specified by **Target**. If the **Target** property is not set, the new Web page uses the current browser window.
 
-* __CssClass__, __ClickedCssClass__, __DisabledCssClass__, __ExpandedCssClas__, and __FocusedCssClass__ control the appearance of the sitemap item when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
+* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass** control the appearance of the sitemap item when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
 
-* __ImageUrl__, __ImageClickedUrl__, __DisabledImageUrl__, __ExpandedImageUrl__, and __HoveredImageUrl__ let you specify an image that appears on the left of the sitemap item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.
+* **ImageUrl**, **ImageClickedUrl**, **DisabledImageUrl**, **ExpandedImageUrl**, and **HoveredImageUrl** let you specify an image that appears on the left of the sitemap item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.

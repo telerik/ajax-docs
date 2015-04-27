@@ -1,6 +1,6 @@
 ---
 title: Binding RadTicker
-page_title: Binding RadTicker | UI for ASP.NET AJAX Documentation
+page_title: Binding RadTicker | RadRotator for ASP.NET AJAX Documentation
 description: Binding RadTicker
 slug: rotator/data-binding/binding-radticker
 tags: binding,radticker
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadTicker__'s databinding mechanism is the same as [RadRotator's]({%slug rotator/data-binding/binding-to-asp-datasource-components%}) one. Because __RadRotator__support literal content only, you must use the __DataTextField__property to select which field to bind to:
+**RadTicker**'s databinding mechanism is the same as [RadRotator's]({%slug rotator/data-binding/binding-to-asp-datasource-components%}) one. Because **RadRotator**support literal content only, you must use the **DataTextField**property to select which field to bind to:
 
 
 
@@ -56,7 +56,7 @@ __RadTicker__'s databinding mechanism is the same as [RadRotator's]({%slug rotat
 ````
 
 
-If needed, you can feed different lines to the control's <items> collection by using the __<RadTickerItem>__ tag. RadTicker is also able to read literal content that is inside the __<RadTickerItem>__ tags. This way you can construct your tickers easily without having to worry about missing to use the template tags. You can use them only when you need them.
+If needed, you can feed different lines to the control's <items> collection by using the **<RadTickerItem>** tag. RadTicker is also able to read literal content that is inside the **<RadTickerItem>** tags. This way you can construct your tickers easily without having to worry about missing to use the template tags. You can use them only when you need them.
 
 ````ASPNET
 	    <telerik:RadTicker ID="RadTicker1" AutoStart="true" Loop="true" runat="server">

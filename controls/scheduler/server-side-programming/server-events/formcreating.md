@@ -1,6 +1,6 @@
 ---
 title: FormCreating
-page_title: FormCreating | UI for ASP.NET AJAX Documentation
+page_title: FormCreating | RadScheduler for ASP.NET AJAX Documentation
 description: FormCreating
 slug: scheduler/server-side-programming/server-events/formcreating
 tags: formcreating
@@ -12,27 +12,27 @@ position: 11
 
 
 
-The __FormCreating__ event occurs when the edit form or in-line editor is about to be created to insert or edit an appointment.
+The **FormCreating** event occurs when the edit form or in-line editor is about to be created to insert or edit an appointment.
 
-__FormCreating__ has two parameters:
+**FormCreating** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerFormCreatingEventArgs__.It has the following properties:
+* **e** is an object of type **SchedulerFormCreatingEventArgs**.It has the following properties:
 
-* __Appointment__ is the appointment that is about to be inserted or updated using an editor.
+* **Appointment** is the appointment that is about to be inserted or updated using an editor.
 
-* __Mode__ indicates the type of editor that is about to be created and what action it isto perform. It can have one of the following values:
+* **Mode** indicates the type of editor that is about to be created and what action it isto perform. It can have one of the following values:
 
-* __SchedulerFormMode.Edit__ indicates that the appointment is about to be updated usingthe in-line editor.
+* **SchedulerFormMode.Edit** indicates that the appointment is about to be updated usingthe in-line editor.
 
-* __SchedulerFormMode.AdvancedEdit__ indicates that the appointment is about to be updatedusing the edit form.
+* **SchedulerFormMode.AdvancedEdit** indicates that the appointment is about to be updatedusing the edit form.
 
-* __SchedulerFormMode.Insert__ indicates that a new appointment is about to be inserted usingthe in-line editor.
+* **SchedulerFormMode.Insert** indicates that a new appointment is about to be inserted usingthe in-line editor.
 
-* __SchedulerFormMode.AdvancedInsert__ indicates that a new appointment is about to be insertedusing the edit form.
+* **SchedulerFormMode.AdvancedInsert** indicates that a new appointment is about to be insertedusing the edit form.
 
-* __Cancel__ is a boolean value that lets you prevent the scheduler from displaying an edit form or in-line editor.
+* **Cancel** is a boolean value that lets you prevent the scheduler from displaying an edit form or in-line editor.
 
 ## Example
 

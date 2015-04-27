@@ -1,6 +1,6 @@
 ---
-title: Web Service Binding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Web Service Binding Overview | RadScheduler for ASP.NET AJAX Documentation
 description: Overview
 slug: scheduler/web-service-binding/overview
 tags: overview
@@ -16,7 +16,7 @@ position: 0
 
 Web-Service binding allows the developer to improve performance by minimizing the HTML output and removing the need ofa page refresh. In this mode RadScheduler does not postback to the page and the appointments are rendered on the client.
 
->caution Currently, __Resource Grouped__ views (GroupBy="User") are supported when using Web Service data binding for all views (DayView, WeekView, MonthView, TimelineView) only if __ResourcePopulationMode="ServerSide"__ .
+>caution Currently, **Resource Grouped** views (GroupBy="User") are supported when using Web Service data binding for all views (DayView, WeekView, MonthView, TimelineView) only if **ResourcePopulationMode="ServerSide"** .
 >
 
 
@@ -46,11 +46,11 @@ Here is a step-by-step tutorial on how to bind RadScheduler to Web Services:
 
 
 
-3. Add a new __Web Service__ file to your web site and rename it to __SchedulerWebService.asmx__.
+3. Add a new **Web Service** file to your web site and rename it to **SchedulerWebService.asmx**.
 
 ![asmx file](images/scheduler_schedulerasmxfile.png)
 
-This will automatically add __SchedulerWebService.cs__ in the __App_Code__ folder.
+This will automatically add **SchedulerWebService.cs** in the **App_Code** folder.
 
 4. In the SchedulerWebService.cs file define:
 
@@ -126,7 +126,7 @@ This will automatically add __SchedulerWebService.cs__ in the __App_Code__ folde
 
 
 
-5. Copy the __Appointments_Outlook.xml__ file to the App_Data folder of your web site. It’s located at:**
+5. Copy the **Appointments_Outlook.xml** file to the App_Data folder of your web site. It’s located at:**
 
 *[your local installation of Telerik.Web.UI controls]/Live Demos/App_Data*
 
@@ -134,7 +134,7 @@ This file contains sample data for the XmlSchedulerProvider.
 
 
 
-6. Set the __Path__ and __ResourcePopulationMode__ of RadScheduler's WebServiceSettings as shown below:
+6. Set the **Path** and **ResourcePopulationMode** of RadScheduler's WebServiceSettings as shown below:
 
 ````ASPNET
 	
@@ -147,15 +147,15 @@ This file contains sample data for the XmlSchedulerProvider.
 
 
 
-In addition you can find a full sample project for __"Web Services with Custom Provider"__ by adding a Scenario Template. Follow these steps to add the scenario:
+In addition you can find a full sample project for **"Web Services with Custom Provider"** by adding a Scenario Template. Follow these steps to add the scenario:
 
 1. Right-click on the Web site name in Solution Explorer window. Select "RadControls for ASP.NET AJAX". From the submenu choose "Add RadScheduler Scenario".
 
-1. __Scenario Wizard__ appears with different scenarios. Choose __"Web Service with Custom Provider"__: ![RadScheduler Scenario Wizard](images/scheduler_scenariowizard1.png)
+1. **Scenario Wizard** appears with different scenarios. Choose **"Web Service with Custom Provider"**: ![RadScheduler Scenario Wizard](images/scheduler_scenariowizard1.png)
 
-1. Follow the wizard by pressing__"Next"__ button and finally press __"Finish"__. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing**"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
-1. Press __Ctrl+F5__ and run the application.
+1. Press **Ctrl+F5** and run the application.
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: CDN
-page_title: CDN | UI for ASP.NET AJAX Documentation
+page_title: CDN | RadScriptManager for ASP.NET AJAX Documentation
 description: CDN
 slug: scriptmanager/troubleshooting/cdn
 tags: cdn
@@ -20,7 +20,7 @@ In certain cases, e.g. the web server is behind a load balancer, which is the SS
 
 ### Solution:
 
-In these cases, a solution is to force secure links by setting the __BaseUrl__ property to the value of the __BaseSecureUrl__. There are three alternative ways of doing this (identically applicable to __RadStyleSheetManager__):
+In these cases, a solution is to force secure links by setting the **BaseUrl** property to the value of the **BaseSecureUrl**. There are three alternative ways of doing this (identically applicable to **RadStyleSheetManager**):
 
 * 
 

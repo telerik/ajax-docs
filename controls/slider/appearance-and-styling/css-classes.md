@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadSlider for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: slider/appearance-and-styling/css-classes
 tags: css,classes
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The following table lists significant CSS selectors and descriptions for __RadSlider__ style sheets. The CSS styles define the basic elements of the [RadSlider visual structure]({%slug slider/getting-started/structure%}).
+The following table lists significant CSS selectors and descriptions for **RadSlider** style sheets. The CSS styles define the basic elements of the [RadSlider visual structure]({%slug slider/getting-started/structure%}).
 
 
 >caption  

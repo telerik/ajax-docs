@@ -1,6 +1,6 @@
 ---
 title: Change the End Date When the Start Date Changes
-page_title: Change the End Date When the Start Date Changes | UI for ASP.NET AJAX Documentation
+page_title: Change the End Date When the Start Date Changes | RadScheduler for ASP.NET AJAX Documentation
 description: Change the End Date When the Start Date Changes
 slug: scheduler/how-to/change-the-end-date-when-the-start-date-changes
 tags: change,the,end,date,when,the,start,date,changes
@@ -18,7 +18,7 @@ This article will show how to change the End Date when the Start Date has change
 
 Here are the steps:
 
-1. Subscribe to the [OnFormCreated]({%slug scheduler/server-side-programming/server-events/formcreated%}) event and find the __RadDatePicker__ object.Then subscribe to its __OnDateSelected__ event:
+1. Subscribe to the [OnFormCreated]({%slug scheduler/server-side-programming/server-events/formcreated%}) event and find the **RadDatePicker** object.Then subscribe to its **OnDateSelected** event:
 
 
 

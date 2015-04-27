@@ -1,6 +1,6 @@
 ---
 title: Script Combining
-page_title: Script Combining | UI for ASP.NET AJAX Documentation
+page_title: Script Combining | RadScriptManager for ASP.NET AJAX Documentation
 description: Script Combining
 slug: scriptmanager/script-combining
 tags: script,combining
@@ -29,11 +29,11 @@ Add the following<appSetting/> entry in your *web.config*:
 
 
 
->caution The folder paths must be relative to the root of the application, e.g. *' __~/__ path_to_folder'* .
+>caution The folder paths must be relative to the root of the application, e.g. *' **~/** path_to_folder'* .
 >
 
 
-Register the external scripts in __RadScriptManager__. The paths to the files can be relative to the root or to the folder containing the current page.
+Register the external scripts in **RadScriptManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
 			<telerik:RadScriptManager ID="RadScriptManager2" runat="server" EnableScriptCombine="true"> 

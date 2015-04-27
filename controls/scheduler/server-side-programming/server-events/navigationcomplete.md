@@ -1,6 +1,6 @@
 ---
 title: NavigationComplete
-page_title: NavigationComplete | UI for ASP.NET AJAX Documentation
+page_title: NavigationComplete | RadScheduler for ASP.NET AJAX Documentation
 description: NavigationComplete
 slug: scheduler/server-side-programming/server-events/navigationcomplete
 tags: navigationcomplete
@@ -12,31 +12,31 @@ position: 10
 
 
 
-The __NavigationComplete__ event occurs when a navigation action has been completed.
+The **NavigationComplete** event occurs when a navigation action has been completed.
 
-__NavigationComplete__ has two parameters:
+**NavigationComplete** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerNavigationCompleteEventArgs__. It has a single __Command__ property that indicates what navigation event occurred. Command is of type __SchedulerNavigationCommand__, and can have any of the following values:
+* **e** is an object of type **SchedulerNavigationCompleteEventArgs**. It has a single **Command** property that indicates what navigation event occurred. Command is of type **SchedulerNavigationCommand**, and can have any of the following values:
 
-* __SchedulerNavigationCommand.NavigateToNextPeriod__ - the schedule moved to the next time period in response to the user clicking the right-arrow button in the navigation pane.
+* **SchedulerNavigationCommand.NavigateToNextPeriod** - the schedule moved to the next time period in response to the user clicking the right-arrow button in the navigation pane.
 
-* __SchedulerNavigationCommand.NavigateToPreviousPeriod__ - the scheduler moved to the previous time period in response to the user clicking the left-arrow button in the navigation pane.
+* **SchedulerNavigationCommand.NavigateToPreviousPeriod** - the scheduler moved to the previous time period in response to the user clicking the left-arrow button in the navigation pane.
 
-* __SchedulerNavigationCommand.SwitchFullTime__ - the scheduler changed from full-day mode to business hours, or vice versa.
+* **SchedulerNavigationCommand.SwitchFullTime** - the scheduler changed from full-day mode to business hours, or vice versa.
 
-* __SchedulerNavigationCommand.SwitchToDayview__ - the scheduler switched from Week or Month view into Day view.
+* **SchedulerNavigationCommand.SwitchToDayview** - the scheduler switched from Week or Month view into Day view.
 
-* __SchedulerNavigationCommand.SwitchToWeekView__ - the scheduler switched from Day or Month view into Week view.
+* **SchedulerNavigationCommand.SwitchToWeekView** - the scheduler switched from Day or Month view into Week view.
 
-* __SchedulerNavigationCommand.SwitchToMonthView__ - the scheduler switched from Day or Week view into Month view.
+* **SchedulerNavigationCommand.SwitchToMonthView** - the scheduler switched from Day or Week view into Month view.
 
-* __SchedulerNavigationCommand.SwitchToSelectedDay__ - the scheduler changed to Day view displaying the currently selected day.
+* **SchedulerNavigationCommand.SwitchToSelectedDay** - the scheduler changed to Day view displaying the currently selected day.
 
-* __SchedulerNavigationCommand.DisplayNextAppointmentSegment__ - the scheduler moved to the next segment of an appointment that spans multiple days.
+* **SchedulerNavigationCommand.DisplayNextAppointmentSegment** - the scheduler moved to the next segment of an appointment that spans multiple days.
 
-* __SchedulerNavigationCommand.DisplayPreviousAppointmentSegment__ - the scheduler moved to the previous segment of an appointment that spans multiple days.
+* **SchedulerNavigationCommand.DisplayPreviousAppointmentSegment** - the scheduler moved to the previous segment of an appointment that spans multiple days.
 
 You can use this event to perform custom actions when a navigation action has been completed.
 

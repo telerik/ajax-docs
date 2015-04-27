@@ -1,6 +1,6 @@
 ---
 title: Passing Additional Information to the Server
-page_title: Passing Additional Information to the Server | UI for ASP.NET AJAX Documentation
+page_title: Passing Additional Information to the Server | RadSearchBox for ASP.NET AJAX Documentation
 description: Passing Additional Information to the Server
 slug: searchbox/functionality/passing-additional-information-to-the-server
 tags: passing,additional,information,to,the,server
@@ -14,7 +14,7 @@ position: 5
 
 ## Passing Additional Information to the Server
 
-When using __RadSearchBox__ it can often be useful to pass additional information to the server to improve its performance or to set some specific condition. This can easily be achieved in the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event by using the __userContext object__, which is of type __IDictionary__, and setting its __KeyValue parameters__. After that this object is passed to the server along with the search request and is available in the [OnDataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) event handler or to the Web Service that searches items to the __RadSearchBox__.
+When using **RadSearchBox** it can often be useful to pass additional information to the server to improve its performance or to set some specific condition. This can easily be achieved in the [OnClientDataRequesting]({%slug searchbox/client-side-programming/events/onclientdatarequesting%}) event by using the **userContext object**, which is of type **IDictionary**, and setting its **KeyValue parameters**. After that this object is passed to the server along with the search request and is available in the [OnDataSourceSelect]({%slug searchbox/server-side-programming/server-events/ondatasourceselect%}) event handler or to the Web Service that searches items to the **RadSearchBox**.
 
 ## Using Additional userContext information with a WebService
 

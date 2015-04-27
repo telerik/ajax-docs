@@ -1,6 +1,6 @@
 ---
 title: Handles
-page_title: Handles | UI for ASP.NET AJAX Documentation
+page_title: Handles | RadSlider for ASP.NET AJAX Documentation
 description: Handles
 slug: slider/getting-started/handles
 tags: handles
@@ -14,12 +14,12 @@ position: 5
 
 ## Handles Visibility
 
-Using the __ShowDragHandle__, __ShowDecreaseHandle__, __ShowIncreaseHandle__ properties you can control which of the handles will be displayed. By default all the handles are displayed.
+Using the **ShowDragHandle**, **ShowDecreaseHandle**, **ShowIncreaseHandle** properties you can control which of the handles will be displayed. By default all the handles are displayed.
 >caption 
 
 ![](images/slider002.png)
 
-Using the __IsSelectionRangeEnabled__, __SelectionStart__, __SelectionEnd__ properties you can configure the slider to display two drag handles instead of one.
+Using the **IsSelectionRangeEnabled**, **SelectionStart**, **SelectionEnd** properties you can configure the slider to display two drag handles instead of one.
 
 ````ASPNET
 	    <telerik:radslider id="RadSlider1" runat="server" orientation="horizontal" showdecreasehandle="true"
@@ -57,7 +57,7 @@ Using the __IsSelectionRangeEnabled__, __SelectionStart__, __SelectionEnd__ prop
 
 ## Handles Tooltips
 
-Tooltips are automatically supplied to all three handles and are controlled by the __DecreaseText__, __IncreaseText__ and __DragText__ properties and have the default values "Decrease", "Increase" and "Drag", respectively.
+Tooltips are automatically supplied to all three handles and are controlled by the **DecreaseText**, **IncreaseText** and **DragText** properties and have the default values "Decrease", "Increase" and "Drag", respectively.
 >caption 
 
 ![](images/slider003.png)

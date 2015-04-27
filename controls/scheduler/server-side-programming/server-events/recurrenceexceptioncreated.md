@@ -1,6 +1,6 @@
 ---
 title: RecurrenceExceptionCreated
-page_title: RecurrenceExceptionCreated | UI for ASP.NET AJAX Documentation
+page_title: RecurrenceExceptionCreated | RadScheduler for ASP.NET AJAX Documentation
 description: RecurrenceExceptionCreated
 slug: scheduler/server-side-programming/server-events/recurrenceexceptioncreated
 tags: recurrenceexceptioncreated
@@ -14,11 +14,11 @@ position: 13
 
 
 
-The __RecurrenceExceptionCreated__ event occurs when the user creates an exception in a recurrent series. __RecurrenceExceptionCreated__ has two parameters:
+The **RecurrenceExceptionCreated** event occurs when the user creates an exception in a recurrent series. **RecurrenceExceptionCreated** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __RecurrenceExceptionCreatedEventArgs__.It has four properties:- __Appointment__- the master appointment;- __ExceptionAppointment__- the newly created exception appointment;- __OccurenceAppointment__- the original occurrencebefore the exception was created;- __Cancel__ is a boolean value that lets you prevent the creation of the exception;
+* **e** is an object of type **RecurrenceExceptionCreatedEventArgs**.It has four properties:- **Appointment**- the master appointment;- **ExceptionAppointment**- the newly created exception appointment;- **OccurenceAppointment**- the original occurrencebefore the exception was created;- **Cancel** is a boolean value that lets you prevent the creation of the exception;
 
 ## Example
 

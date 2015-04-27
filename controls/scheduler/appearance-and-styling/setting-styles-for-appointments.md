@@ -1,6 +1,6 @@
 ---
 title: Setting Styles for Appointments
-page_title: Setting Styles for Appointments | UI for ASP.NET AJAX Documentation
+page_title: Setting Styles for Appointments | RadScheduler for ASP.NET AJAX Documentation
 description: Setting Styles for Appointments
 slug: scheduler/appearance-and-styling/setting-styles-for-appointments
 tags: setting,styles,for,appointments
@@ -14,13 +14,13 @@ position: 6
 
 The following Appointment properties allow you to customize their appearance:
 
-* __BackColor__
+* **BackColor**
 
-* __BorderColor__
+* **BorderColor**
 
-* __BorderStyle__
+* **BorderStyle**
 
-* __BorderWidth__
+* **BorderWidth**
 
 For example:
 
@@ -79,7 +79,7 @@ Here is how each style looks like:
 
 ![set appointment styles](images/scheduler_appointmentstyles.png)
 
-You can handle the __AppointmentDataBound__ event and use a custom condition based on attributes, resources or any other property of theAppointment object to set the appointment __CssClass__ property. For example, the above screenshot can be replicated with the following code:
+You can handle the **AppointmentDataBound** event and use a custom condition based on attributes, resources or any other property of theAppointment object to set the appointment **CssClass** property. For example, the above screenshot can be replicated with the following code:
 
 
 
@@ -103,7 +103,7 @@ You can handle the __AppointmentDataBound__ event and use a custom condition bas
 ````
 
 
-This code causes RadScheduler to render the value of the CssClass property that you set in the__AppointmentDataBound__ event to the __rsApt__ div of the appointments. Here is the resulting html output for the "Green" appointment:
+This code causes RadScheduler to render the value of the CssClass property that you set in the**AppointmentDataBound** event to the **rsApt** div of the appointments. Here is the resulting html output for the "Green" appointment:
 
 ````HTML
 	 
@@ -132,13 +132,13 @@ This code causes RadScheduler to render the value of the CssClass property that 
 
 The AppointmentStyleMode property of RadScheduler determines the rendering style of the appointments with customized background and border colors. The possible values are:
 
-* __Auto__- Appointments with set background or border color are rendered using the Simple style - without rounded corners or gradiented background.All others are rendered using their default style - with rounded corners and gradiented background.
+* **Auto**- Appointments with set background or border color are rendered using the Simple style - without rounded corners or gradiented background.All others are rendered using their default style - with rounded corners and gradiented background.
 
-* __Simple__- Appointments are rendered using the simple style - without rounded corners or gradiented background.
+* **Simple**- Appointments are rendered using the simple style - without rounded corners or gradiented background.
 
-* __Default__- Appointments rendered with rounded corners and gradiented background. Custom background and border colorsare supported. Gradiented backgrounds for custom colors are not available in IE6.
+* **Default**- Appointments rendered with rounded corners and gradiented background. Custom background and border colorsare supported. Gradiented backgrounds for custom colors are not available in IE6.
 
-It's recommended to explicitly set __AppointmentStyleMode="Default"__ unless you have legacy custom skins. This willforce the use of the default rendering (with rounded corners and gradients) even to appointments with custom colors.
+It's recommended to explicitly set **AppointmentStyleMode="Default"** unless you have legacy custom skins. This willforce the use of the default rendering (with rounded corners and gradients) even to appointments with custom colors.
 
 ## Resource style mapping
 
@@ -238,7 +238,7 @@ If you need to use your own custom style for the appointments, here is how to pr
 
 
 
-3. Set the appointment __CssClass__ property:
+3. Set the appointment **CssClass** property:
 
 
 
@@ -261,4 +261,4 @@ If you need to use your own custom style for the appointments, here is how to pr
 ````
 
 
-The background images for the appointment styles can be found in your local installation of the Telerik.Web.UIsuit -> *Skins\Common\Scheduler* and the css rules are defined in __Scheduler.css__ in the Skins folder.
+The background images for the appointment styles can be found in your local installation of the Telerik.Web.UIsuit -> *Skins\Common\Scheduler* and the css rules are defined in **Scheduler.css** in the Skins folder.

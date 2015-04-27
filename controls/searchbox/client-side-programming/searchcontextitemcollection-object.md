@@ -1,6 +1,6 @@
 ---
 title: SearchContextItemCollection Object
-page_title: SearchContextItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: SearchContextItemCollection Object | RadSearchBox for ASP.NET AJAX Documentation
 description: SearchContextItemCollection Object
 slug: searchbox/client-side-programming/searchcontextitemcollection-object
 tags: searchcontextitemcollection,object
@@ -14,16 +14,16 @@ position: 3
 
 ## SearchContext Client Object
 
-The following table lists the most important methods of the client-side __SearchContextItemCollection__ object:
+The following table lists the most important methods of the client-side **SearchContextItemCollection** object:
 
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __add__ |SearchContextItem|None|Adds a SearchContextItem to the Items collection.|
-| __insert__ |Int, SearchContextItem|SearchContextItemCollection|Inserts a SearchContextItem into the Items collection at the position specified by the first (index) parameter.|
-| __remove__ |SearchContextItem|None|Removes an item from the Items collection.|
-| __removeAt__ |Int|None|Removes the item at the specified index.|
-| __clear__ |None|None|Clears the Items collection of RadSearchBox's SearchContext.|
-| __getItem__ |Int|SearchContextItem|Gets the SearchContextItem from the Items collection residing at the index specified by the parameter.|
-| __indexOf__ |SearchContextItem|Int|Gets the index of an item.|
-| __get_count__ |None|Int|Returns the number of items in the Items collection.|
+| **add** |SearchContextItem|None|Adds a SearchContextItem to the Items collection.|
+| **insert** |Int, SearchContextItem|SearchContextItemCollection|Inserts a SearchContextItem into the Items collection at the position specified by the first (index) parameter.|
+| **remove** |SearchContextItem|None|Removes an item from the Items collection.|
+| **removeAt** |Int|None|Removes the item at the specified index.|
+| **clear** |None|None|Clears the Items collection of RadSearchBox's SearchContext.|
+| **getItem** |Int|SearchContextItem|Gets the SearchContextItem from the Items collection residing at the index specified by the parameter.|
+| **indexOf** |SearchContextItem|Int|Gets the index of an item.|
+| **get_count** |None|Int|Returns the number of items in the Items collection.|

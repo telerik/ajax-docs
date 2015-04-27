@@ -1,6 +1,6 @@
 ---
 title: Working with Time Values
-page_title: Working with Time Values | UI for ASP.NET AJAX Documentation
+page_title: Working with Time Values | RadScheduler for ASP.NET AJAX Documentation
 description: Working with Time Values
 slug: scheduler/server-side-programming/working-with-time-values
 tags: working,with,time,values
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-Because the scheduler stores its time values using UTC, a little extra work is required when working with appointmenttimes programmatically.To help with this extra work, RadScheduler has a pair of methods for converting between the display time (as it appears inthe scheduler)and UTC (as the scheduler stores the date value). These methods are __DisplayToUtc__ and__UtcToDisplay__. Each takes a DateTime value as an argument and returns a converted DateTime value.
+Because the scheduler stores its time values using UTC, a little extra work is required when working with appointmenttimes programmatically.To help with this extra work, RadScheduler has a pair of methods for converting between the display time (as it appears inthe scheduler)and UTC (as the scheduler stores the date value). These methods are **DisplayToUtc** and**UtcToDisplay**. Each takes a DateTime value as an argument and returns a converted DateTime value.
 
 When adding appointments to the scheduler programmatically, you must converttime values to universal time sothat they willbe displayed properly:
 

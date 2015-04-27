@@ -1,6 +1,6 @@
 ---
 title: Inline Form Resizing
-page_title: Inline Form Resizing | UI for ASP.NET AJAX Documentation
+page_title: Inline Form Resizing | RadScheduler for ASP.NET AJAX Documentation
 description: Inline Form Resizing
 slug: scheduler/appearance-and-styling/inline-form-resizing
 tags: inline,form,resizing
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The Inline Insert/Edit Form can be resized by the end-user for improved usability. You can enforce a minimum size by using the__MinimumInlineFormHeight__ and __MinimumInlineFormWidth__ properties of RadScheduler. For example:
+The Inline Insert/Edit Form can be resized by the end-user for improved usability. You can enforce a minimum size by using the**MinimumInlineFormHeight** and **MinimumInlineFormWidth** properties of RadScheduler. For example:
 
 ````ASPNET
 	     
@@ -24,6 +24,6 @@ The Inline Insert/Edit Form can be resized by the end-user for improved usabilit
 
 
 
->note  __Note__ that the values are always in pixels.
+>note  **Note** that the values are always in pixels.
 >
 

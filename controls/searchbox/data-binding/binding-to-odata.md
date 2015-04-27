@@ -1,6 +1,6 @@
 ---
 title: Binding to OData
-page_title: Binding to OData | UI for ASP.NET AJAX Documentation
+page_title: Binding to OData | RadSearchBox for ASP.NET AJAX Documentation
 description: Binding to OData
 slug: searchbox/data-binding/binding-to-odata
 tags: binding,to,odata

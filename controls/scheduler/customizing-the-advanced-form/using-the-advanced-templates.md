@@ -1,6 +1,6 @@
 ---
 title: Using the Advanced Templates
-page_title: Using the Advanced Templates | UI for ASP.NET AJAX Documentation
+page_title: Using the Advanced Templates | RadScheduler for ASP.NET AJAX Documentation
 description: Using the Advanced Templates
 slug: scheduler/customizing-the-advanced-form/using-the-advanced-templates
 tags: using,the,advanced,templates
@@ -14,9 +14,9 @@ position: 3
 
 ## Overview
 
-The Advanced Templates provide great flexibility for customizing the Advanced Form. However, a common problem when using the __AdvancedInsertTemplate__ or the __AdvancedEditTemplate__ is that the functionality related to recurrence and resources is lost. In other words, if you chose to customize the advanced form you will not be able to insert or edit recurring appointments or appointments with resources, unless you implement this functionality from scratch. For instance, consider the [ Templates online example ](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/Templates/DefaultCS.aspx).
+The Advanced Templates provide great flexibility for customizing the Advanced Form. However, a common problem when using the **AdvancedInsertTemplate** or the **AdvancedEditTemplate** is that the functionality related to recurrence and resources is lost. In other words, if you chose to customize the advanced form you will not be able to insert or edit recurring appointments or appointments with resources, unless you implement this functionality from scratch. For instance, consider the [ Templates online example ](http://demos.telerik.com/aspnet-ajax/Scheduler/Examples/Templates/DefaultCS.aspx).
 
-The solution which we offer is a set of user controls that recreates the default advanced form, yet allowing for unrestricted customization.We will show how to use the advanced form controls in both __Server Side__ and __Client Side__ binding scenarios.
+The solution which we offer is a set of user controls that recreates the default advanced form, yet allowing for unrestricted customization.We will show how to use the advanced form controls in both **Server Side** and **Client Side** binding scenarios.
 
 Here is the structure of the advanced form with each user control outlined with different border style:
 
@@ -24,17 +24,17 @@ Here is the structure of the advanced form with each user control outlined with 
 
 Legend:
 
-* __AdvancedForm__.ascx
+* **AdvancedForm**.ascx
 
-* __ResourceControl__.ascx
+* **ResourceControl**.ascx
 
-* __MultipleValuesResourceControl__.ascx
+* **MultipleValuesResourceControl**.ascx
 
-* __BooleanAttributeControl__.ascx is not shown here, but it can be used in AdvancedForm.ascx just like ResourceControl.ascx
+* **BooleanAttributeControl**.ascx is not shown here, but it can be used in AdvancedForm.ascx just like ResourceControl.ascx
 
 The above user controls can be found in the folder of your local installation of Telerik.Web.UI suite ->
 
-* Live Demos\Scheduler\Examples\__AdvancedFormTemplate__*
+* Live Demos\Scheduler\Examples\**AdvancedFormTemplate**
 
 For an online demo, please see the [Advanced Templates](http://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx) example.
 
@@ -62,7 +62,7 @@ The advanced form looks like this:
 
 1. Open the [Advanced Templates]( http://demos.telerik.com/aspnet-ajax/scheduler/examples/advancedformtemplate/defaultcs.aspx ) demo locally.
 
-2. In __AdvancedForm__.__ascx__ add the following code right above the Custom Attributes panel:
+2. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
 ````ASPNET
 	
@@ -75,9 +75,9 @@ The advanced form looks like this:
 
 
 
-3. Expose an __AppointmentColor__property using the RadColorpicker control added in step 2 above.
+3. Expose an **AppointmentColor**property using the RadColorpicker control added in step 2 above.
 
-In code behind of __AdvancedForm__.ascx____ add the following code in the "Attributes and resources" region:
+In code behind of **AdvancedForm**.ascx add the following code in the "Attributes and resources" region:
 
 
 
@@ -121,7 +121,7 @@ In code behind of __AdvancedForm__.ascx____ add the following code in the "Attri
 ````
 
 
-4. In __DefaultCS__.aspx or __DefaultVB__.aspx
+4. In **DefaultCS**.aspx or **DefaultVB**.aspx
 
 * set CustomAttributeName="AppointmentColor"
 
@@ -196,7 +196,7 @@ optionally -
 
 
 
-5. In code behind of __Default__.aspx, handle __AppointmentDataBound__ like this to set the color of the appointments:
+5. In code behind of **Default**.aspx, handle **AppointmentDataBound** like this to set the color of the appointments:
 
 
 
@@ -234,7 +234,7 @@ optionally -
 ````
 
 
-6. Register __AdvancedForm__.__js__with the script manager for the page and handle RadScheduler's __OnClientFormCreated__event.
+6. Register **AdvancedForm**.**js**with the script manager for the page and handle RadScheduler's **OnClientFormCreated**event.
 
 >note This is actually already done in the sample demo. This step is to serve just as a reminder.
 >
@@ -294,13 +294,13 @@ optionally -
 
 
 
-7. Run and test the application. If you experience problems, please refer to the __Modified_AddedDescription__ folder for a solution.
+7. Run and test the application. If you experience problems, please refer to the **Modified_AddedDescription** folder for a solution.
 
 ## How to use the advanced user controls in Client Side binding mode (Web Services)
 
 The AdvancedForm.js will automatically handle resources and custom attributes defined in AdvancedForm.ascx, as long as you follow a certain naming convention.
 
-* __Resource__ controls should follow the convention Res[Resource Name] for ID. For example:
+* **Resource** controls should follow the convention Res[Resource Name] for ID. For example:
 
 ````ASPNET
 	     
@@ -310,7 +310,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 
 
-* __Attribute__ controls should follow the convention Attr[Attribute Name] for ID. For example:
+* **Attribute** controls should follow the convention Attr[Attribute Name] for ID. For example:
 
 ````ASPNET
 	     
@@ -324,9 +324,9 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 1. Download a sample project from [here](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/sample-project-of-customizing-the-advanced-form-in-client-side-binding-mode-web-services.aspx).
 
-2. In __RadSchedulerAdvancedForm__.__aspx__ add AppointmentColor custom attribute for RadScheduler -CustomAttributeNames="__AppointmentColor__"
+2. In **RadSchedulerAdvancedForm**.**aspx** add AppointmentColor custom attribute for RadScheduler -CustomAttributeNames="**AppointmentColor**"
 
-3. In __AdvancedForm__.__ascx__ add the following code right above the Custom Attributes panel:
+3. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
 ````ASPNET
 	
@@ -339,7 +339,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 
 
-4. In code-behind of the __AdvancedForm__ user control add the following code:
+4. In code-behind of the **AdvancedForm** user control add the following code:
 
 
 
@@ -381,7 +381,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 ````
 
 
-5. In __AdvancedForm.js__add a method to get the client object of RadColorPicker:
+5. In **AdvancedForm.js**add a method to get the client object of RadColorPicker:
 
 ````JavaScript
 	
@@ -441,7 +441,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 
 
-9. In __Default.aspx__ handle __OnClientAppointmentDataBound__like this to apply the selected color to the appointment:
+9. In **Default.aspx** handle **OnClientAppointmentDataBound**like this to apply the selected color to the appointment:
 
 ````JavaScript
 	
@@ -466,7 +466,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 
 
-10. In __Default.aspx__ add the following css fix for RadColorPicker:
+10. In **Default.aspx** add the following css fix for RadColorPicker:
 
 ````ASPNET
 	 
@@ -481,7 +481,7 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 
 
-11. Run and test the application. If you experience problem, please refer to the sample in the __Modified_AddColorPicker__ folder.
+11. Run and test the application. If you experience problem, please refer to the sample in the **Modified_AddColorPicker** folder.
 
 
 
@@ -493,11 +493,11 @@ In addition you can find a full sample project for "Default Advanced Form Templa
 
 1. Right-click on the Web site name in Solution Explorer window. Select "RadControls for ASP.NET AJAX". From the submenu choose "Add RadScheduler Scenario".
 
-1. __Scenario Wizard__ appears with different scenarios. Choose __"Default Advanced Form Template"__:![RadScheduler Scenario Wizard](images/scheduler_scenariowizardformtemplate.png)
+1. **Scenario Wizard** appears with different scenarios. Choose **"Default Advanced Form Template"**:![RadScheduler Scenario Wizard](images/scheduler_scenariowizardformtemplate.png)
 
-1. Follow the wizard by pressing__"Next"__ button and finally press __"Finish"__. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing**"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
-1. Press __Ctrl+F5__ and run the application.
+1. Press **Ctrl+F5** and run the application.
 
 # See Also
 

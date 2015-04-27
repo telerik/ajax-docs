@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadRating for ASP.NET AJAX Documentation
 description: Overview
 slug: rating/client-side-programming/overview
 tags: overview
@@ -33,22 +33,22 @@ Once you have a reference to the control, you could use the following methods:
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __repaint__ |||Repaints the rating control and forces it to recalculate the size of its elements. Use this method when the control is in an initially hidden element|
-| __get_itemCount__ |Number|Number|Gets the number of items (stars) in the rating control|
-| __get_value__ ||Number|Gets the current value of the rating control|
-| __set_value__ |Number||Sets the current value of the rating control|
-| __get_selectionMode__ ||Telerik.Web.UI.RatingSelectionMode|Gets the selection mode of the rating control|
-| __set_selectionMode__ |Telerik.Web.UI.RatingSelectionMode||Sets the selection mode of the rating control|
-| __get_precision__ ||Telerik.Web.UI.RatingPrecision|Gets the rate precision of the rating control|
-| __set_precision__ |Telerik.Web.UI.RatingPrecision||Sets the rate precision of the rating control|
-| __get_orientation__ ||Telerik.Web.UI.Orientation|Gets the orientation of the rating control|
-| __get_isDirectionReversed__ ||Boolean|Returns a value, indicating whether the direction of the rating control is revered|
-| __get_enableToolTips__ ||Boolean|Returns a value, indicating whether the rating control will display a browser toolip for its values|
-| __get_readOnly__ ||Boolean|Returns a value, indicating whether the rating control is in read-only mode|
-| __set_readOnly__ |Boolean||Sets a value, indicating whether the rating control is in read-only mode|
-| __get_enabled__ ||Boolean|Returns a value, indicating whether the rating control is enabled|
-| __set_enabled__ |Boolean||Sets whether the slider is enabled|
-| __get_itemData__ ||Array|Gets information about the items of the rating|
+| **repaint** |||Repaints the rating control and forces it to recalculate the size of its elements. Use this method when the control is in an initially hidden element|
+| **get_itemCount** |Number|Number|Gets the number of items (stars) in the rating control|
+| **get_value** ||Number|Gets the current value of the rating control|
+| **set_value** |Number||Sets the current value of the rating control|
+| **get_selectionMode** ||Telerik.Web.UI.RatingSelectionMode|Gets the selection mode of the rating control|
+| **set_selectionMode** |Telerik.Web.UI.RatingSelectionMode||Sets the selection mode of the rating control|
+| **get_precision** ||Telerik.Web.UI.RatingPrecision|Gets the rate precision of the rating control|
+| **set_precision** |Telerik.Web.UI.RatingPrecision||Sets the rate precision of the rating control|
+| **get_orientation** ||Telerik.Web.UI.Orientation|Gets the orientation of the rating control|
+| **get_isDirectionReversed** ||Boolean|Returns a value, indicating whether the direction of the rating control is revered|
+| **get_enableToolTips** ||Boolean|Returns a value, indicating whether the rating control will display a browser toolip for its values|
+| **get_readOnly** ||Boolean|Returns a value, indicating whether the rating control is in read-only mode|
+| **set_readOnly** |Boolean||Sets a value, indicating whether the rating control is in read-only mode|
+| **get_enabled** ||Boolean|Returns a value, indicating whether the rating control is enabled|
+| **set_enabled** |Boolean||Sets whether the slider is enabled|
+| **get_itemData** ||Array|Gets information about the items of the rating|
 
 
 
@@ -57,11 +57,11 @@ Once you have a reference to the control, you could use the following methods:
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add_load__ |Function||Adds a handler for the load event|
-| __remove_load__ |Function||Removes a handler for the load event|
-| __add_rating__ |Function||Adds a handler for the rating event|
-| __remove_rating__ |Function||Removes a handler for the rating event|
-| __add_rated__ |Function||Adds a handler for the rated event|
-| __remove_rated__ |Function||Removes a handler for the rated event|
+| **add_load** |Function||Adds a handler for the load event|
+| **remove_load** |Function||Removes a handler for the load event|
+| **add_rating** |Function||Adds a handler for the rating event|
+| **remove_rating** |Function||Removes a handler for the rating event|
+| **add_rated** |Function||Adds a handler for the rated event|
+| **remove_rated** |Function||Removes a handler for the rated event|
 
 

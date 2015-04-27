@@ -1,6 +1,6 @@
 ---
 title: Client-side Data Binding
-page_title: Client-side Data Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Data Binding | RadSlider for ASP.NET AJAX Documentation
 description: Client-side Data Binding
 slug: slider/data-binding/client-side-data-binding
 tags: client-side,data,binding
@@ -12,13 +12,13 @@ position: 1
 
 
 
-This article introduces the client-side data binding feature of the __RadSlider__ control.
+This article introduces the client-side data binding feature of the **RadSlider** control.
 
 ## Getting Started with RadSlider's Client-side Data Binding
 
-You can data bind the slider to various types of data sources to populate its items when its __ItemType__ property is set to __Item__. You can use the __RadClientDataSource__ control or call the __dataBind__ method after the data source is specifiedvia the __set_dataSource__ method, shown in the slider's [client-side API]({%slug slider/client-side-programming/radslider-object%}).
+You can data bind the slider to various types of data sources to populate its items when its **ItemType** property is set to **Item**. You can use the **RadClientDataSource** control or call the **dataBind** method after the data source is specifiedvia the **set_dataSource** method, shown in the slider's [client-side API]({%slug slider/client-side-programming/radslider-object%}).
 
-You should define the __TextField__, __ValueField__, __ToolTipField__ properties of the bound slider items in the__ItemBinding__ inner tag of the bound slider. These properties provide the field names from which the slider takes the data for each item, as shownin__Example 1__ and __Example 2__.
+You should define the **TextField**, **ValueField**, **ToolTipField** properties of the bound slider items in the**ItemBinding** inner tag of the bound slider. These properties provide the field names from which the slider takes the data for each item, as shownin**Example 1** and **Example 2**.
 
 There are three events related to the client-side data binding:
 
@@ -32,12 +32,12 @@ The following two sections will provide more details about the client-side data 
 
 ## Simple Data Binding
 
-When you have already retrieved the desired data source from a web service or from another appropriate source, you can use the following approach to databind it to the slider. __Example 1__ demonstrates how you can use a simple JavaScript array for data binding by passing the array as a parameter of the __set_dataSource__ function of __RadSlider__ and then calling __dataBind__. You need to set the properties in the __ItemBinding__ composite property of the slider with the fields in the data source that will populate the corresponding slider item fields. The result of this implementation is shown in __Figure 1__.
+When you have already retrieved the desired data source from a web service or from another appropriate source, you can use the following approach to databind it to the slider. **Example 1** demonstrates how you can use a simple JavaScript array for data binding by passing the array as a parameter of the **set_dataSource** function of **RadSlider** and then calling **dataBind**. You need to set the properties in the **ItemBinding** composite property of the slider with the fields in the data source that will populate the corresponding slider item fields. The result of this implementation is shown in **Figure 1**.
 >caption Figure 1: Slider that is data bound to a simple array.
 
 ![Data binding to a an array on the client](images/slider-client-side-data-bound-to-array.png)
 
-__Example 1__: Data binding a slider to an array on the client.
+**Example 1**: Data binding a slider to an array on the client.
 
 ````ASPNET
 	        <script type="text/javascript">
@@ -64,12 +64,12 @@ __Example 1__: Data binding a slider to an array on the client.
 
 ## Using a RadClientDataSource Control for Data Binding
 
-The __RadClientDataSource__ control allows you to connect to a web service and fetch data that you can bind to any appropriate Telerik control. After configuring the client data source, all you need is to set its __ID__ to the __ClientDataSourceID__property of the slider control. You can see this approach in __Example 2__ and the rendered result in __Figure 2__.
+The **RadClientDataSource** control allows you to connect to a web service and fetch data that you can bind to any appropriate Telerik control. After configuring the client data source, all you need is to set its **ID** to the **ClientDataSourceID**property of the slider control. You can see this approach in **Example 2** and the rendered result in **Figure 2**.
 >caption Figure 2: Slider that is data bound to RadClientDataSource.
 
 ![slider-client-side-data-bound-to-client-data-source](images/slider-client-side-data-bound-to-client-data-source.png)
 
-__Example 2__: Using __RadClientDataSource__ control for data binding a rotator.
+**Example 2**: Using **RadClientDataSource** control for data binding a rotator.
 
 ````ASPNET
 	        <telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="10" AllowPaging="true">

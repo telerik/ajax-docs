@@ -1,6 +1,6 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes And Backward Compatibility | RadSlider for ASP.NET AJAX Documentation
 description: Changes And Backward Compatibility
 slug: slider/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -22,7 +22,7 @@ A complete list of all changes can be found on Release History page:
 
 ## Telerik RadSlider for ASP.NET AJAX Q2 2010 BETA
 
-Changed the type of the following properties from __Int__ to __Decimal__ - __Value__, __SelectionStart__, __SelectionEnd__, __MaximumValue__, __MinimumValue__, __SmallChange__, __LargeChange__.
+Changed the type of the following properties from **Int** to **Decimal** - **Value**, **SelectionStart**, **SelectionEnd**, **MaximumValue**, **MinimumValue**, **SmallChange**, **LargeChange**.
 
 ## Telerik RadSlider for ASP.NET AJAX Q1 2010
 
@@ -87,7 +87,7 @@ The new release brings the following changes:
 
 ## Telerik RadSlider for ASP.NET AJAX Q2 2009 SP1
 
-* OnClientLoaded property is marked as obsolete. Please use the __OnClientLoad__ property instead.
+* OnClientLoaded property is marked as obsolete. Please use the **OnClientLoad** property instead.
 
 ## Telerik RadSlider for ASP.NET AJAX Q1 2009
 
@@ -95,7 +95,7 @@ The new release brings the following changes:
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor example:was:__radslider RadSlider_Default__now:__RadSlider RadSlider_Default__
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor example:was:**radslider RadSlider_Default**now:**RadSlider RadSlider_Default**
 
 
 
@@ -106,7 +106,7 @@ Some of the RadSlider's properties are obsolete and new ones which offer the sam
 
 >caption  
 
-|  __Obsolete property__  |  __Actual property__  |
+|  **Obsolete property**  |  **Actual property**  |
 | ------ | ------ |
 |ClickOffset|LargeChange|
 |SlideStep|SmallChange|
@@ -117,13 +117,13 @@ Some new properties were introduced - the table below contains them along with a
 
 >caption  
 
-|  __Property Name__  |  __Description__  |
+|  **Property Name**  |  **Description**  |
 | ------ | ------ |
-|ItemType|Sets the type of the items, can be set to __Item__ and __Tick__ . When set to __Tick__ , the slider can be additionally configured by setting its __LargeChange__ and __SmallChange__ properties.|
-|TrackPosition|This property is used to set the position of the track. It can be set to __TopLeft__ , __BottomRight__ and __Center__ |
+|ItemType|Sets the type of the items, can be set to **Item** and **Tick** . When set to **Tick** , the slider can be additionally configured by setting its **LargeChange** and **SmallChange** properties.|
+|TrackPosition|This property is used to set the position of the track. It can be set to **TopLeft** , **BottomRight** and **Center** |
 |IsSelectionRangeEnabled|When set to true, configures the slider to display two drag-handles|
-|SelectionStart|Sets the first value of the slider when __IsSelectionRangeEnabled__ = true|
-|SelectionEnd|Sets the second value of the slider when __IsSelectionRangeEnabled__ = true|
+|SelectionStart|Sets the first value of the slider when **IsSelectionRangeEnabled** = true|
+|SelectionEnd|Sets the second value of the slider when **IsSelectionRangeEnabled** = true|
 |LiveDrag|Controls when the value of the slider changes - when set to true the value changes while the handle drag is changing its position whereas when false the value changes only after the user has moved and already released the drag handle|
 |IsDirectionReversed|Controls whether the minimum and the maximum values are reversed or not|
 |OnClientBeforeVaueChange|event, which before the value changes. You can use the set_cancel method of the args to cancel the value change operation|

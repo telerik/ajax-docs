@@ -1,6 +1,6 @@
 ---
 title: What Is New
-page_title: What Is New | UI for ASP.NET AJAX Documentation
+page_title: What Is New | RadSiteMap for ASP.NET AJAX Documentation
 description: What Is New
 slug: sitemap/what-is-new
 tags: what,is,new

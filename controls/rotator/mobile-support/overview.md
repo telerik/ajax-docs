@@ -1,6 +1,6 @@
 ---
-title: Mobile Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Mobile Support Overview | RadRotator for ASP.NET AJAX Documentation
 description: Overview
 slug: rotator/mobile-support/overview
 tags: overview
@@ -12,17 +12,17 @@ position: 0
 
 
 
-This article explains the __responsive design capabilities RadRotator offers__. The control supports __responsive design since Q2 2014__.
+This article explains the **responsive design capabilities RadRotator offers**. The control supports **responsive design since Q2 2014**.
 
 Generally, responsive design means that the page and its content are able to adapt to different screen resolutions without deteriorating the user experience. This often includes changing the font size and having dimensions set in percent.
 
 ## Responsive design
 
-__RadRotator__ is a control that moves its content dynamically in order to display parts of it in a sequence. The size of the rotator and its items is usually set in pixels according to the instructions in the [How to configure RadRotator]({%slug rotator/getting-started/overview%}) help article so that the control can calculate how much items will be visible in its view port.
+**RadRotator** is a control that moves its content dynamically in order to display parts of it in a sequence. The size of the rotator and its items is usually set in pixels according to the instructions in the [How to configure RadRotator]({%slug rotator/getting-started/overview%}) help article so that the control can calculate how much items will be visible in its view port.
 
-__RadRotator__ supports setting its __Width__ property in percentage as of the Q2 2014 release of UI for ASP.NET AJAX. This means that the control can adapt to the width of the current screen resolution. You can try the responsive capabilities of __RadRotator__ with __Example 1__.
+**RadRotator** supports setting its **Width** property in percentage as of the Q2 2014 release of UI for ASP.NET AJAX. This means that the control can adapt to the width of the current screen resolution. You can try the responsive capabilities of **RadRotator** with **Example 1**.
 
-Example 1: __RadRotator__ with 100% width.
+Example 1: **RadRotator** with 100% width.
 
 ````ASPNET
 	        <telerik:RadRotator runat="server" ID="RadRotator1" RotatorType="Buttons" Width="100%" ItemWidth="200px" Height="50px">
@@ -60,15 +60,15 @@ Example 1: __RadRotator__ with 100% width.
 
 
 
->note When you set the width of __RadRotator__ in percentage the number of items in its view port cannot be controlled, because the width will change dynamically, however the items' width is fixed. As a result the first and last item in the view port may be partially visible.
+>note When you set the width of **RadRotator** in percentage the number of items in its view port cannot be controlled, because the width will change dynamically, however the items' width is fixed. As a result the first and last item in the view port may be partially visible.
 >
 
 
 ## Responsiveness of Carousel and CoverFlow rotators
 
-If you have set the RotatorType property to __Carousel__, __CarouselButtons__, __CoverFlow__ or __CoverFlowButtons__, changing the screen width will trigger the resizing of the rotator container, however, the position of the items inside will remain the same and part of them may be hidden. You can handle this scenario manually by attaching to an event that is fired when the width of the rotator changes and calling the Client-Side function __repaint()__. __Example 2__ shows a possible approach to achieve this.
+If you have set the RotatorType property to **Carousel**, **CarouselButtons**, **CoverFlow** or **CoverFlowButtons**, changing the screen width will trigger the resizing of the rotator container, however, the position of the items inside will remain the same and part of them may be hidden. You can handle this scenario manually by attaching to an event that is fired when the width of the rotator changes and calling the Client-Side function **repaint()**. **Example 2** shows a possible approach to achieve this.
 
-Example 2: __RadRotator__ is repainted on window resize so that its items are adjusted according to its size.
+Example 2: **RadRotator** is repainted on window resize so that its items are adjusted according to its size.
 
 ````ASPNET
 	        <script type="text/javascript">
@@ -91,7 +91,7 @@ Example 2: __RadRotator__ is repainted on window resize so that its items are ad
 
 
 
->note The __repaint()__ functions redraws the entire rotator control. If you call it repeatedly you will most probably encounter performance issues. This is why it issuggested to invoke this function with an interval to achieve as smooth resizing as possible.
+>note The **repaint()** functions redraws the entire rotator control. If you call it repeatedly you will most probably encounter performance issues. This is why it issuggested to invoke this function with an interval to achieve as smooth resizing as possible.
 >
 
 

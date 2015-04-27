@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadSlider for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: slider/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientLoad__client-side event occurs after the slider loads on the page.
+The **OnClientLoad**client-side event occurs after the slider loads on the page.
 
 The event handler receives parameters:
 

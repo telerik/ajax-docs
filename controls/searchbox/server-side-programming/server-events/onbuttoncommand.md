@@ -1,6 +1,6 @@
 ---
 title: OnButtonCommand
-page_title: OnButtonCommand | UI for ASP.NET AJAX Documentation
+page_title: OnButtonCommand | RadSearchBox for ASP.NET AJAX Documentation
 description: OnButtonCommand
 slug: searchbox/server-side-programming/server-events/onbuttoncommand
 tags: onbuttoncommand
@@ -14,7 +14,7 @@ position: 2
 
 ## OnButtonCommand
 
-The __OnButtonCommand__ event is raised when an image button is clicked.
+The **OnButtonCommand** event is raised when an image button is clicked.
 
 The event handler receives two parameters:
 
@@ -22,6 +22,6 @@ The event handler receives two parameters:
 
 1. An event arguments parameter that contains the following properties:
 
-* __CommandName__ -returns the command name.
+* **CommandName** -returns the command name.
 
-* __CommandArgument__ -returns the command argument.
+* **CommandArgument** -returns the command argument.

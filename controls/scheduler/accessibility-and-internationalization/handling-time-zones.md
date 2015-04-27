@@ -1,6 +1,6 @@
 ---
 title: Handling Time Zones
-page_title: Handling Time Zones | UI for ASP.NET AJAX Documentation
+page_title: Handling Time Zones | RadScheduler for ASP.NET AJAX Documentation
 description: Handling Time Zones
 slug: scheduler/accessibility-and-internationalization/handling-time-zones
 tags: handling,time,zones
@@ -12,23 +12,23 @@ position: 2
 
 
 
-In order to properly handle time zones, __RadScheduler__ uses the __TimeZoneInfo__ object, which comes together with __.NET 3.5__ . This places some additional overhead, but is essential for solving the following problems:
+In order to properly handle time zones, **RadScheduler** uses the **TimeZoneInfo** object, which comes together with **.NET 3.5** . This places some additional overhead, but is essential for solving the following problems:
 
 * Displaying correct times for the appointments when the clients and/or the server are in different time zones.
 
 * Correctly evaluating recurrence rules with respect to Daylight Saving Time.
 
-To overcome these problems __RadScheduler__ defines the __TimeZoneID__ property. It uses __TimeZoneInfoProvider__capable of returning correct __LocalToUTC__ and __UTCToLocal__ information depending on the __TimeZone RadScheduler__ should be operating under. If __TimeZoneID__ is not set initially, the default time zone is (UTC). In addition to this a __DataTimeZone__ field is added to enable eachAppointment to be set in different timezone. The provider and the specific settings in each TimeZone are responsible for all __DateTime__ related calculations.
+To overcome these problems **RadScheduler** defines the **TimeZoneID** property. It uses **TimeZoneInfoProvider**capable of returning correct **LocalToUTC** and **UTCToLocal** information depending on the **TimeZone RadScheduler** should be operating under. If **TimeZoneID** is not set initially, the default time zone is (UTC). In addition to this a **DataTimeZone** field is added to enable eachAppointment to be set in different timezone. The provider and the specific settings in each TimeZone are responsible for all **DateTime** related calculations.
 
 ![scheduler timezones](images/scheduler_timezones.png)
 
->note In order to allow selecting individual timezone for each Appointment in the Advanced Form the "EnableCustomTimeZones" property can be set. If it is set to "True"all the appointments inherit the __TimeZone of RadScheduler__ 
+>note In order to allow selecting individual timezone for each Appointment in the Advanced Form the "EnableCustomTimeZones" property can be set. If it is set to "True"all the appointments inherit the **TimeZone of RadScheduler** 
 >
 
 
 ![scheduler timezone advanced Form](images/scheduler_timezone_advancedForm.png)
 
->note If __TimeZoneID__ property is not set the __TimeZoneOffset__ property is applied. In this case during data binding __RadScheduler__ assumes all dates to be UTC.If you use a custom provider or create the Appointment objects programmatically you should take care to convert the date-times to UTC by calling DateTime.ToUniversalTime() or by other appropriate means.
+>note If **TimeZoneID** property is not set the **TimeZoneOffset** property is applied. In this case during data binding **RadScheduler** assumes all dates to be UTC.If you use a custom provider or create the Appointment objects programmatically you should take care to convert the date-times to UTC by calling DateTime.ToUniversalTime() or by other appropriate means.
 >
 
 
@@ -38,23 +38,23 @@ Dateline Standard Time; UTC-11; Samoa Standard Time; Hawaiian Standard Time; Ala
 
 ## Example
 
->note This excample is showing how the __TimeZoneOffset__ can be used in custom scenario without TimeZoneID and DataTimeZone properties.
+>note This excample is showing how the **TimeZoneOffset** can be used in custom scenario without TimeZoneID and DataTimeZone properties.
 >
 
 
 You can allow the user to manually set the preferred time zone or use JavaScript and asynchronous AJAX requests to discover the time zone on the client. This example demonstrates both approaches.
 
-1. Drag a __RadAjaxLoadingPanel__ from the toolbox onto your Web page. On the body of the loading panel, type the literal "Loading..."
+1. Drag a **RadAjaxLoadingPanel** from the toolbox onto your Web page. On the body of the loading panel, type the literal "Loading..."
 
-1. Drag a __Panel__ onto your Web page.
+1. Drag a **Panel** onto your Web page.
 
-1. Set its __ID__ property to __TimeZonePanel__.
+1. Set its **ID** property to **TimeZonePanel**.
 
 1. Inside the panel, type the literal string "Active Time Zone:"
 
-1. Following the literal string, drag a __Label__ into the panel. Set its __ID__ to "PleaseWaitLabel" and its text to "[Looking up time zone...]"
+1. Following the literal string, drag a **Label** into the panel. Set its **ID** to "PleaseWaitLabel" and its text to "[Looking up time zone...]"
 
-1. Following the label, drag a __DropDownList__ into the panel. Set its __ID__ to "TimeZoneDropDown". Add the following items to the drop-down list:
+1. Following the label, drag a **DropDownList** into the panel. Set its **ID** to "TimeZoneDropDown". Add the following items to the drop-down list:
 
 ````ASPNET
 	     
@@ -91,9 +91,9 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 
 
 
-1. Drag a __RadScheduler__ control from the toolbox onto your Web page. [Bind it to a data source]({%slug scheduler/data-binding/overview%}) of your choice.
+1. Drag a **RadScheduler** control from the toolbox onto your Web page. [Bind it to a data source]({%slug scheduler/data-binding/overview%}) of your choice.
 
-1. Add an event handler to the __SelectedIndexChanged__ event of the drop-down list (__TimeZoneDropDown__):
+1. Add an event handler to the **SelectedIndexChanged** event of the drop-down list (**TimeZoneDropDown**):
 
 
 
@@ -114,12 +114,12 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 ````
 The drop-down list now allows the user to manually set the time zone of the scheduler.
 
-1. Drag a __RadAjaxManager__ from the toolbox onto your Web page. In the __RadAjaxManager__ Smart Tag, choose"__Configure Ajax Manager__". In the property builder that appears, indicate that both the scheduler and the time zone drop-down controls caninitiate requests and thatthe scheduler will be updated by requests. Assign the __RadAjaxLoadingPanel__ as the loading panel when the__RadScheduler gets__ updated.
+1. Drag a **RadAjaxManager** from the toolbox onto your Web page. In the **RadAjaxManager** Smart Tag, choose"**Configure Ajax Manager**". In the property builder that appears, indicate that both the scheduler and the time zone drop-down controls caninitiate requests and thatthe scheduler will be updated by requests. Assign the **RadAjaxLoadingPanel** as the loading panel when the**RadScheduler gets** updated.
 >caption 
 
 
 
-1. Give the __RadAjaxManager__ a handler for the __AjaxRequest__ event to update the scheduler and time zone drop-down given an offset:
+1. Give the **RadAjaxManager** a handler for the **AjaxRequest** event to update the scheduler and time zone drop-down given an offset:
 
 
 
@@ -143,7 +143,7 @@ The drop-down list now allows the user to manually set the time zone of the sche
 ````
 
 
-1. Drag a __RadCodeBlock__ component from the toolbox onto your Web page. Switch to the Source view, and add the following script to the code block:
+1. Drag a **RadCodeBlock** component from the toolbox onto your Web page. Switch to the Source view, and add the following script to the code block:
 
 ````ASPNET
 	     
@@ -181,9 +181,9 @@ The drop-down list now allows the user to manually set the time zone of the sche
 	
 ````
 
-This defines a global variable, syncComplete, to track when the asynchronous function that looks up and sets the client time zone is complete. It defines two functions:__InitiateAsyncRequest__, which passes an asynchronous request to the __RadAjaxManager__ with a time zone offset,and __SynchronizeClientTimeZoneOffset__, which displays the loading panel while it looks up the client time zone and then calls __InitiateAxyncRequest__ to pass that time zone to the AJAX manager so that the appropriate controls are updated. __SynchronizeClientTimeZoneOffset__ is added to handle the loading event of the application.
+This defines a global variable, syncComplete, to track when the asynchronous function that looks up and sets the client time zone is complete. It defines two functions:**InitiateAsyncRequest**, which passes an asynchronous request to the **RadAjaxManager** with a time zone offset,and **SynchronizeClientTimeZoneOffset**, which displays the loading panel while it looks up the client time zone and then calls **InitiateAxyncRequest** to pass that time zone to the AJAX manager so that the appropriate controls are updated. **SynchronizeClientTimeZoneOffset** is added to handle the loading event of the application.
 
-1. Finally, in the __Page_Load__ event handler for your Web Page, add code to show or hide the PleaseWaitLabel (note that DataSourceID should be set appropriately for your scheduler):
+1. Finally, in the **Page_Load** event handler for your Web Page, add code to show or hide the PleaseWaitLabel (note that DataSourceID should be set appropriately for your scheduler):
 
 
 

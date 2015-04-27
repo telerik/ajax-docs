@@ -1,6 +1,6 @@
 ---
 title: OnClientTimeSlotClick
-page_title: OnClientTimeSlotClick | UI for ASP.NET AJAX Documentation
+page_title: OnClientTimeSlotClick | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientTimeSlotClick
 slug: scheduler/client-side-programming/events/onclienttimeslotclick
 tags: onclienttimeslotclick
@@ -12,17 +12,17 @@ position: 13
 
 
 
-The __OnClientTimeSlotClick__ client-side event is called when the user clicks on a time slot in the scheduler.
+The **OnClientTimeSlotClick** client-side event is called when the user clicks on a time slot in the scheduler.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has two methods:
+* **eventArgs** has two methods:
 
-* __get_time()__ - returns the time of the slot that was clicked.
+* **get_time()** - returns the time of the slot that was clicked.
 
-* __get_domEvent()__-____returns a reference to the raw DOM event.
+* **get_domEvent()**- returns a reference to the raw DOM event.
 
 >note This event is not raised if the user clicks on the all-day row.
 >

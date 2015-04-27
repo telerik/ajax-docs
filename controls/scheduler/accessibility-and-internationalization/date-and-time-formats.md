@@ -1,6 +1,6 @@
 ---
 title: Date and Time Formats
-page_title: Date and Time Formats | UI for ASP.NET AJAX Documentation
+page_title: Date and Time Formats | RadScheduler for ASP.NET AJAX Documentation
 description: Date and Time Formats
 slug: scheduler/accessibility-and-internationalization/date-and-time-formats
 tags: date,and,time,formats
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-All dates and times are automatically displayed in accordance with the selected __Culture__.You can customize their format further using standard .NET formatting strings for any of the following properties:
+All dates and times are automatically displayed in accordance with the selected **Culture**.You can customize their format further using standard .NET formatting strings for any of the following properties:
 
 
 

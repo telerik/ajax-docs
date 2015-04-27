@@ -1,6 +1,6 @@
 ---
 title: OnClientReminderDismissing 
-page_title: OnClientReminderDismissing  | UI for ASP.NET AJAX Documentation
+page_title: OnClientReminderDismissing  | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientReminderDismissing 
 slug: scheduler/client-side-programming/events/onclientreminderdismissing-
 tags: onclientreminderdismissing,
@@ -18,9 +18,9 @@ The OnClientReminderTriggering client-side event handler is called when an appoi
 
 Two parameters are passed to the handler:
 
-* __sender__, the scheduler client object;
+* **sender**, the scheduler client object;
 
-* __eventArgs__, with three properties:
+* **eventArgs**, with three properties:
 
 * get_appointment(), the instance of the appointment.
 

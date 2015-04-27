@@ -1,6 +1,6 @@
 ---
 title: Smart Tag
-page_title: Smart Tag | UI for ASP.NET AJAX Documentation
+page_title: Smart Tag | RadSiteMap for ASP.NET AJAX Documentation
 description: Smart Tag
 slug: sitemap/design-time/radsitemapdatasource/smart-tag
 tags: smart,tag
@@ -12,13 +12,13 @@ position: 0
 
 
 
-The __RadSiteMapDataSource__ Smart Tag allows easy access to frequently needed tasks. You can display the Smart Tag by right clicking on a __RadSiteMapDataSource__ control in the design window, and choosing __Show Smart Tag__. The Smart Tag looks like the following:
+The **RadSiteMapDataSource** Smart Tag allows easy access to frequently needed tasks. You can display the Smart Tag by right clicking on a **RadSiteMapDataSource** control in the design window, and choosing **Show Smart Tag**. The Smart Tag looks like the following:
 
 ![RadSiteMapDataSource Smart Tag](images/sitemap_smds_smarttag.png)
 
 ## Create a new SiteMap
 
-Clicking on the "__Create a New SiteMap__" link will open the SiteMap Editor.
+Clicking on the "**Create a New SiteMap**" link will open the SiteMap Editor.
 
 ![SiteMap Editor](images/sitemap_smds_sitemapeditor.png)
 
@@ -45,14 +45,14 @@ The following table describes the controls in the tool bar:
 |![RadSiteMapDataSource Get Site Structure](images/sitemap_smds_getsitestructure.png)|Moves the entire site's structure to the sitemap.|
 |![RadSiteMapDataSource Use Selected Node](images/sitemap_smds_useselectednode.png)|Moves the selected node to be used in the sitemap.|
 
-The SiteMap Editor allows you to also set the Description, Title, and Url properties of the selected node through the __SiteMap Node Properties__ box at the bottom:
+The SiteMap Editor allows you to also set the Description, Title, and Url properties of the selected node through the **SiteMap Node Properties** box at the bottom:
 
 ![RadSiteMapDataSource Node Properties](images/sitemap_smds_sitemapnodepreperties.png)
 
-Finally, at the bottom left corner is the "Export To Sitemap" button which allows you to save your sitemap in __Sitemap protocol__ format that can be used by google and other such robots.
+Finally, at the bottom left corner is the "Export To Sitemap" button which allows you to save your sitemap in **Sitemap protocol** format that can be used by google and other such robots.
 
 ![RadSiteMapDataSource Export to Sitemap](images/sitemap_smds_exporttositemapbutton.png)
 
 ## Edit SiteMap
 
-Clicking on the "__Edit SiteMap__" link of the smart tag dialog will also open the SiteMap Editor. However, the difference in the editor in this case will be that the Sitemap treeview on the right will be already populated with the structure of the file specified by the __SiteMapFile__ property.
+Clicking on the "**Edit SiteMap**" link of the smart tag dialog will also open the SiteMap Editor. However, the difference in the editor in this case will be that the Sitemap treeview on the right will be already populated with the structure of the file specified by the **SiteMapFile** property.

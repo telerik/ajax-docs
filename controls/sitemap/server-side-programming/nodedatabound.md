@@ -1,6 +1,6 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | UI for ASP.NET AJAX Documentation
+page_title: NodeDataBound | RadSiteMap for ASP.NET AJAX Documentation
 description: NodeDataBound
 slug: sitemap/server-side-programming/nodedatabound
 tags: nodedatabound
@@ -14,11 +14,11 @@ position: 0
 
 ## 
 
-The __NodeDataBound__ fires for every Node that is bound to data. Use the __RadSiteMapNodeEventArgs__ to access the properties of the bound Node. Use the Node's __DataItem__ property to access the underlying object or data row being bound to.
+The **NodeDataBound** fires for every Node that is bound to data. Use the **RadSiteMapNodeEventArgs** to access the properties of the bound Node. Use the Node's **DataItem** property to access the underlying object or data row being bound to.
 
 
 
-Binding to a __database__:
+Binding to a **database**:
 
 
 
@@ -41,7 +41,7 @@ Binding to a __database__:
 
 
 
-Binding to __SiteMapDataSource__:
+Binding to **SiteMapDataSource**:
 
 
 

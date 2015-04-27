@@ -1,6 +1,6 @@
 ---
 title: Advanced Form
-page_title: Advanced Form | UI for ASP.NET AJAX Documentation
+page_title: Advanced Form | RadScheduler for ASP.NET AJAX Documentation
 description: Advanced Form
 slug: scheduler/mobile-support/advanced-form
 tags: advanced,form

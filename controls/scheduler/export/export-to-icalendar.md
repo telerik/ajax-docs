@@ -1,6 +1,6 @@
 ---
 title: Export to ICalendar
-page_title: Export to ICalendar | UI for ASP.NET AJAX Documentation
+page_title: Export to ICalendar | RadScheduler for ASP.NET AJAX Documentation
 description: Export to ICalendar
 slug: scheduler/export/export-to-icalendar
 tags: export,to,icalendar
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__RadScheduler__ allows you to export appointments in the industry-standard ICalendar format.
+**RadScheduler** allows you to export appointments in the industry-standard ICalendar format.
 
-1. Add a __RadScheduler__ control to your Web page and [bind it to a data source]({%slug scheduler/data-binding/overview%}).
+1. Add a **RadScheduler** control to your Web page and [bind it to a data source]({%slug scheduler/data-binding/overview%}).
 
 1. Add a [custom template]({%slug scheduler/appearance-and-styling/templates%}) to the scheduler so that each appointment has an export button:
 
@@ -74,7 +74,7 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 ````
 
 
-1. Give the scheduler an __AppointmentCommand__ event handler to respond when the user clicks the new button in the template.This event handler uses the RadScheduler's static __ExportToICalendar__ method that takes a single appointment as first parameter and converts it into the ICalendar format. Its second parameter __hasTimeZones__ is indicating whether time zone support is enabled.
+1. Give the scheduler an **AppointmentCommand** event handler to respond when the user clicks the new button in the template.This event handler uses the RadScheduler's static **ExportToICalendar** method that takes a single appointment as first parameter and converts it into the ICalendar format. Its second parameter **hasTimeZones** is indicating whether time zone support is enabled.
 
 
 
@@ -103,7 +103,7 @@ __RadScheduler__ allows you to export appointments in the industry-standard ICal
 ````
 
 
-1. Add __ImageButton__ control with the same image as the one in the appointment template. On its __Click__ event,add an event handler to export all of the appointments in the scheduler. This event handler calls the RadScheduler's static__ExportToICalendar__ method to convert a collection of appointments to the ICalendar format:
+1. Add **ImageButton** control with the same image as the one in the appointment template. On its **Click** event,add an event handler to export all of the appointments in the scheduler. This event handler calls the RadScheduler's static**ExportToICalendar** method to convert a collection of appointments to the ICalendar format:
 
 
 

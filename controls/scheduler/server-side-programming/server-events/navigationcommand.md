@@ -1,6 +1,6 @@
 ---
 title: NavigationCommand
-page_title: NavigationCommand | UI for ASP.NET AJAX Documentation
+page_title: NavigationCommand | RadScheduler for ASP.NET AJAX Documentation
 description: NavigationCommand
 slug: scheduler/server-side-programming/server-events/navigationcommand
 tags: navigationcommand
@@ -12,21 +12,21 @@ position: 9
 
 
 
-The __NavigationCommand__ occurs when the user clicks on a control that changes the selected day, view, or mode of the scheduler.
+The **NavigationCommand** occurs when the user clicks on a control that changes the selected day, view, or mode of the scheduler.
 
-__NavigationCommand__ has two parameters:
+**NavigationCommand** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerNavigationCommandEventArgs__. It has three properties:
+* **e** is an object of type **SchedulerNavigationCommandEventArgs**. It has three properties:
 
-* __Command__ indicates what control the user clicked. Possible values are listed in the table below.
+* **Command** indicates what control the user clicked. Possible values are listed in the table below.
 
-* __SelectedDay__ is a DateTime specifying the target date when __Command__ is __SchedulerNavigationCommand.SwitchToSelectedDay__.
+* **SelectedDay** is a DateTime specifying the target date when **Command** is **SchedulerNavigationCommand.SwitchToSelectedDay**.
 
-* __Cancel__ is a boolean value that lets you prevent the scheduler from responding to the navigation command.
+* **Cancel** is a boolean value that lets you prevent the scheduler from responding to the navigation command.
 
-The __Command__ property is of type __SchedulerNavigationCommand__. This type has the following possible values:
+The **Command** property is of type **SchedulerNavigationCommand**. This type has the following possible values:
 
 
 >caption  

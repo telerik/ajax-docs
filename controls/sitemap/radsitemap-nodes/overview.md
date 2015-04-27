@@ -1,6 +1,6 @@
 ---
-title: RadSiteMap Nodes Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSiteMap Nodes Overview | RadSiteMap for ASP.NET AJAX Documentation
 description: Overview
 slug: sitemap/radsitemap-nodes/overview
 tags: overview

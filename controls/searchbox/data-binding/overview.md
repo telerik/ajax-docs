@@ -1,6 +1,6 @@
 ---
-title: Data Binding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Data Binding Overview | RadSearchBox for ASP.NET AJAX Documentation
 description: Overview
 slug: searchbox/data-binding/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-__RadSearchBox__ supports binding to various data sources, which include:
+**RadSearchBox** supports binding to various data sources, which include:
 
 * [Array, ArrayList]({%slug searchbox/data-binding/binding-to-array-or-arraylist%})
 
@@ -30,16 +30,16 @@ __RadSearchBox__ supports binding to various data sources, which include:
 
 The following properties and methods are used when binding RadSearchBox to a data source.
 
-* __DataSource__ property - set to an instance of your data source. This is mandatory when binding RadSearchBox at runtime.
+* **DataSource** property - set to an instance of your data source. This is mandatory when binding RadSearchBox at runtime.
 
-* __DataSourceID__ property - set to the ID of your data source. This is mandatory when binding RadSearchBox declaratively.
+* **DataSourceID** property - set to the ID of your data source. This is mandatory when binding RadSearchBox declaratively.
 
-* __DataTextField__ property - field name from the data source bound to the RadSearchBox DropDownItem's __Text__ property.
+* **DataTextField** property - field name from the data source bound to the RadSearchBox DropDownItem's **Text** property.
 
-* __DataValueField__ property - field name from the data source bound to the RadSearchBox DropDownItem's __Value__ property.
+* **DataValueField** property - field name from the data source bound to the RadSearchBox DropDownItem's **Value** property.
 
-* __[DataKeyNames]({%slug searchbox/functionality/datakeynames%})__ property - lists the additional fields of the RadSearchBox DropDownItem that are needed from the DataSource.
+* **[DataKeyNames]({%slug searchbox/functionality/datakeynames%})** property - lists the additional fields of the RadSearchBox DropDownItem that are needed from the DataSource.
 
-* __DataContextKeyField__ property - this poperty defines a field from the data source which is used as a context when search operation is performed. It should be used along with the [Search Context]({%slug searchbox/search-context/overview%})
+* **DataContextKeyField** property - this poperty defines a field from the data source which is used as a context when search operation is performed. It should be used along with the [Search Context]({%slug searchbox/search-context/overview%})
 
-* __DataModelID__ property is used to set the ModelID when binding RadSearchBox to OData DataSource.
+* **DataModelID** property is used to set the ModelID when binding RadSearchBox to OData DataSource.

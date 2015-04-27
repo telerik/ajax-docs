@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadRibbonBar for ASP.NET AJAX Documentation
 description: Overview
 slug: ribbonbar/client-side-programming/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadRibbonBar__ provides a flexible client-side API that allows you to interact with the RibbonBar – RibbonBarMenu, RibbonBarMenuItems collection and individual RibbonBarButtons, all on the client side. Here is the basic structure of a simple RadRibbonBar control and its elements:
+**RadRibbonBar** provides a flexible client-side API that allows you to interact with the RibbonBar – RibbonBarMenu, RibbonBarMenuItems collection and individual RibbonBarButtons, all on the client side. Here is the basic structure of a simple RadRibbonBar control and its elements:
 
 ![Basic Structure](images/ribbonbar_basicstructure.png)
 
@@ -67,7 +67,7 @@ Given the following markup there are some examples of how you can get different 
 
 ## Getting the RadRibbonBar client-side object
 
-RadRibbonBar creates a client-side object with the __ClientID__ of the ribbonbar. You can obtain the reference using the following JavaScript code:
+RadRibbonBar creates a client-side object with the **ClientID** of the ribbonbar. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
 	
@@ -82,7 +82,7 @@ RadRibbonBar creates a client-side object with the __ClientID__ of the ribbonbar
 
 ## Getting an instance of a particular RibbonBarTab
 
-Once you have the client-side object of __RadRibbonBar__, you can use the __findTabByValue()__ method to get the instance of a particular tab:
+Once you have the client-side object of **RadRibbonBar**, you can use the **findTabByValue()** method to get the instance of a particular tab:
 
 ````JavaScript
 	          
@@ -98,7 +98,7 @@ Once you have the client-side object of __RadRibbonBar__, you can use the __find
 
 ## Getting an instance of a particular RibbonBarGroup
 
-Now that you have the RibbonBarTab object you can easily get the __Group__ object directly from the ribbonbar using the __findGroupByValue()__ method.
+Now that you have the RibbonBarTab object you can easily get the **Group** object directly from the ribbonbar using the **findGroupByValue()** method.
 
 ````JavaScript
 			 function OnClientLoad(sender, args) {
@@ -117,7 +117,7 @@ Now that you have the RibbonBarTab object you can easily get the __Group__ objec
 
 ## Getting an instance of a particular RibbonBarButton
 
-By using the __findButtonByValue()__ method you could get the instance of a particular __RibbonBarButton__ :
+By using the **findButtonByValue()** method you could get the instance of a particular **RibbonBarButton** :
 
 ````JavaScript
 	function OnClientLoad(sender, args) {
@@ -134,7 +134,7 @@ By using the __findButtonByValue()__ method you could get the instance of a part
 
 ## Getting an instance of a particular RibbonBarToggleButton
 
-Also using the __findToggleButtonByValue()__ method you can find a particular button in the __RibbonBarToggleList__ collection
+Also using the **findToggleButtonByValue()** method you can find a particular button in the **RibbonBarToggleList** collection
 
 ````JavaScript
 			function OnClientLoad(sender, args) {
@@ -193,7 +193,7 @@ Also using the __findToggleButtonByValue()__ method you can find a particular bu
 
 ## Cancelling an action
 
-Several client side events occur immediately before the ribbonbar performs some action. Most of these events all have names that end in "-ing". You can use these events to cancel the ribbonbar action by using the __set_cancel()__ method of the eventArgs passed to the handler:
+Several client side events occur immediately before the ribbonbar performs some action. Most of these events all have names that end in "-ing". You can use these events to cancel the ribbonbar action by using the **set_cancel()** method of the eventArgs passed to the handler:
 
 ````JavaScript
 	

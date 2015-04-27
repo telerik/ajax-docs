@@ -1,6 +1,6 @@
 ---
 title: OnClientApplicationMenuItemClicked
-page_title: OnClientApplicationMenuItemClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientApplicationMenuItemClicked | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientApplicationMenuItemClicked
 slug: ribbonbar/client-side-programming/events/onclientapplicationmenuitemclicked
 tags: onclientapplicationmenuitemclicked
@@ -14,7 +14,7 @@ position: 17
 
 ## 
 
-The __OnClientApplicationMenuItemClicked__ client-side event occurs after an ApplicationMenu items is clicked.
+The **OnClientApplicationMenuItemClicked** client-side event occurs after an ApplicationMenu items is clicked.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_applicationMenu()__ returns a reference to the ribbonbar application menu.
+* **get_applicationMenu()** returns a reference to the ribbonbar application menu.
 
-* __get_item()__ returns a reference to the clicked application menu item.
+* **get_item()** returns a reference to the clicked application menu item.
 
-* __get_domEvent()__ returns the DOM event object.
+* **get_domEvent()** returns the DOM event object.
 
 # See Also
 

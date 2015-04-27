@@ -1,6 +1,6 @@
 ---
 title: Views
-page_title: Views | UI for ASP.NET AJAX Documentation
+page_title: Views | RadScheduler for ASP.NET AJAX Documentation
 description: Views
 slug: scheduler/mobile-support/views
 tags: views

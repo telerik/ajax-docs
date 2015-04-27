@@ -1,6 +1,6 @@
 ---
 title: Run the RadScheduler in Anonymous Authorization Disabled Environment
-page_title: Run the RadScheduler in Anonymous Authorization Disabled Environment | UI for ASP.NET AJAX Documentation
+page_title: Run the RadScheduler in Anonymous Authorization Disabled Environment | RadScheduler for ASP.NET AJAX Documentation
 description: Run the RadScheduler in Anonymous Authorization Disabled Environment
 slug: scheduler/troubleshootings/run-the-radscheduler-in-anonymous-authorization-disabled-environment
 tags: run,the,radscheduler,in,anonymous,authorization,disabled,environment
@@ -12,11 +12,11 @@ position: 2
 
 
 
-This article shows how to configure the WCF service in order to run the __RadScheduler__ in anonymous authorization disabled environment.
+This article shows how to configure the WCF service in order to run the **RadScheduler** in anonymous authorization disabled environment.
 
 ## Troubleshooting
 
-In order to run the __RadScheduler__ in anonymous authorization disabled environment you have to enable the __CredentialsTransportation__ within the WCF configuration.
+In order to run the **RadScheduler** in anonymous authorization disabled environment you have to enable the **CredentialsTransportation** within the WCF configuration.
 
 Example 1: Configure WCF service to enable the CredentialsTransportation.
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientRecurrenceActionDialogClosed
-page_title: OnClientRecurrenceActionDialogClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientRecurrenceActionDialogClosed | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientRecurrenceActionDialogClosed
 slug: scheduler/client-side-programming/events/onclientrecurrenceactiondialogclosed
 tags: onclientrecurrenceactiondialogclosed
@@ -12,17 +12,17 @@ position: 16
 
 
 
-The __OnClientRecurrenceActionDialogClosed__ client-side event is called when the dialog that asks whether achange affects a single occurrence or an entire series closes. Two parameters are passed to the event handler:
+The **OnClientRecurrenceActionDialogClosed** client-side event is called when the dialog that asks whether achange affects a single occurrence or an entire series closes. Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ that returns the appointment instance.____
+* **get_appointment()** that returns the appointment instance.
 
-* __get_editSeries()__ returns __True__ if the user has selected to edit the series, __False__ if the user has selected to edit a single occurrence of an appointment.
+* **get_editSeries()** returns **True** if the user has selected to edit the series, **False** if the user has selected to edit a single occurrence of an appointment.
 
-* __get_recurrenceAction()__returns __1__ for __edit__, __2__ for __delete__, __3__ for __resize__, and __4__ for __move__.
+* **get_recurrenceAction()**returns **1** for **edit**, **2** for **delete**, **3** for **resize**, and **4** for **move**.
 
 ## Example
 

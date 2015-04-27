@@ -1,6 +1,6 @@
 ---
 title: Implementing a Provider
-page_title: Implementing a Provider | UI for ASP.NET AJAX Documentation
+page_title: Implementing a Provider | RadScheduler for ASP.NET AJAX Documentation
 description: Implementing a Provider
 slug: scheduler/data-binding/providers/implementing-a-provider
 tags: implementing,a,provider
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-To implement a __RadScheduler__ provider, you create a class that inherits from __SchedulerProviderBase__.It must implement the __GetAppointments__, __Insert__, __Update__, __Delete__, __GetResourceTypes__ and __GetResourcesByType__ methods.
+To implement a **RadScheduler** provider, you create a class that inherits from **SchedulerProviderBase**.It must implement the **GetAppointments**, **Insert**, **Update**, **Delete**, **GetResourceTypes** and **GetResourcesByType** methods.
 
->note The provider is instantiated once per application domain and is shared across threads. __RadScheduler__ ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods.
+>note The provider is instantiated once per application domain and is shared across threads. **RadScheduler** ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods.
 >
 
 
-This example shows how to create the XML-based provider that is already included in the Telerik.Web.UI assembly, along with __RadScheduler__ itself. It is a lightweight and easy to deploy alternative to using a full-blown database. The provider uses an XML file to store information about each appointment. The XML file also contains information about the custom resources and some implementation-specific details such as the next appointment identity key. The XML file looks like this:
+This example shows how to create the XML-based provider that is already included in the Telerik.Web.UI assembly, along with **RadScheduler** itself. It is a lightweight and easy to deploy alternative to using a full-blown database. The provider uses an XML file to store information about each appointment. The XML file also contains information about the custom resources and some implementation-specific details such as the next appointment identity key. The XML file looks like this:
 
 ````XML
 	
@@ -150,7 +150,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. Before implementing the constructors, we need two helper functions for reading from the XML document.__ReadNextID__() looks up the next appointment ID. __LoadResources__() loads the resource data from the XML document.
+1. Before implementing the constructors, we need two helper functions for reading from the XML document.**ReadNextID**() looks up the next appointment ID. **LoadResources**() loads the resource data from the XML document.
 
 
 
@@ -284,7 +284,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. In order to support declarative configuration by a Web.config section, the provider overrides the __Initialize__ method.After checking for valid parameters, __Initialize__ calls its base implementation and uses the config collectionto read the configuration values. The "persistChanges" attribute defaults to "true" if not specified. The actual loading of the documentis deferred for performance reasons.
+1. In order to support declarative configuration by a Web.config section, the provider overrides the **Initialize** method.After checking for valid parameters, **Initialize** calls its base implementation and uses the config collectionto read the configuration values. The "persistChanges" attribute defaults to "true" if not specified. The actual loading of the documentis deferred for performance reasons.
 
 
 
@@ -354,7 +354,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. A provider must implement the __GetAppointments__, __Insert__,__Update__, __Delete__, __GetResourceTypes__, and__GetResourcesByTypes__ methods. However, before implementing these methods, we add some more helper functions. __SaveAppointmentResources__ adds the resources for an appointment to the XML node for that appointment. __SaveAppointmentAttributes__ adds any custom attributes for the appointment to its XML node.__CreateAppointmentNode__ adds a node to the XML document that gets its data from an __Appointment__ object.__LoadDataFile__ checks whether the XML document needs to be loaded from the file, and if so, loads it and initializesthe _nextID field. __SaveDataFile__ saves the XML document to the associated file.__EnsureFilePath__calls __Page.MapPath__ to resolve the XML file name.
+1. A provider must implement the **GetAppointments**, **Insert**,**Update**, **Delete**, **GetResourceTypes**, and**GetResourcesByTypes** methods. However, before implementing these methods, we add some more helper functions. **SaveAppointmentResources** adds the resources for an appointment to the XML node for that appointment. **SaveAppointmentAttributes** adds any custom attributes for the appointment to its XML node.**CreateAppointmentNode** adds a node to the XML document that gets its data from an **Appointment** object.**LoadDataFile** checks whether the XML document needs to be loaded from the file, and if so, loads it and initializesthe _nextID field. **SaveDataFile** saves the XML document to the associated file.**EnsureFilePath**calls **Page.MapPath** to resolve the XML file name.
 
 
 
@@ -566,7 +566,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider must implement __GetAppointments__ to provide the scheduler with the appointment data currentlystored in the XML document. __GetAppointments__ reads the appointment nodes from the XML file, and for each one,generates an __Appointment__ object. These __Appointment__ objects are added to a list ofappointments, which __GetAppointments__ returns to the scheduler.
+1. The provider must implement **GetAppointments** to provide the scheduler with the appointment data currentlystored in the XML document. **GetAppointments** reads the appointment nodes from the XML file, and for each one,generates an **Appointment** object. These **Appointment** objects are added to a list ofappointments, which **GetAppointments** returns to the scheduler.
 
 
 
@@ -673,7 +673,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider must implement an __Insert__ method to add appointments to the XML document. __Insert__ assigns an ID to the new appointment, using the _nextID global field, and savesa new value for _nextID in the XML document as well as the data for the new appointment:
+1. The provider must implement an **Insert** method to add appointments to the XML document. **Insert** assigns an ID to the new appointment, using the _nextID global field, and savesa new value for _nextID in the XML document as well as the data for the new appointment:
 
 
 
@@ -711,7 +711,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider must implement the __Update__ method to apply changes from the scheduler:
+1. The provider must implement the **Update** method to apply changes from the scheduler:
 
 
 
@@ -750,7 +750,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider implements the __Delete__ method to delete appointments from the XML document:
+1. The provider implements the **Delete** method to delete appointments from the XML document:
 
 
 
@@ -779,7 +779,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider implements the __GetResourceTypes__ method to tell the scheduler what custom resourcesare available. Note that is only needs to specify the names of the types:
+1. The provider implements the **GetResourceTypes** method to tell the scheduler what custom resourcesare available. Note that is only needs to specify the names of the types:
 
 
 
@@ -828,7 +828,7 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-1. The provider implements __GetResourcesByType__ to supply the possible values for a specific resource type:
+1. The provider implements **GetResourcesByType** to supply the possible values for a specific resource type:
 
 
 
@@ -860,15 +860,15 @@ This example shows how to create the XML-based provider that is already included
 ````
 
 
-In addition you can find a full sample project for __"Web Services with Custom Provider"__ by adding a Scenario Template. Follow these steps to add the scenario:
+In addition you can find a full sample project for **"Web Services with Custom Provider"** by adding a Scenario Template. Follow these steps to add the scenario:
 
 1. Right-click on the Web site name in Solution Explorer window. Select "RadControls for ASP.NET AJAX". From the submenu choose"Add RadScheduler Scenario".
 
-1. __Scenario Wizard__ appears with different scenarios. Choose __"Web Service with Custom Provider"__:![RadScheduler Scenario Wizard](images/scheduler_scenariowizard1.png)
+1. **Scenario Wizard** appears with different scenarios. Choose **"Web Service with Custom Provider"**:![RadScheduler Scenario Wizard](images/scheduler_scenariowizard1.png)
 
-1. Follow the wizard by pressing__"Next"__ button and finally press __"Finish"__. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing**"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
-1. Press __Ctrl+F5__ and run the application.
+1. Press **Ctrl+F5** and run the application.
 
 # See Also
 

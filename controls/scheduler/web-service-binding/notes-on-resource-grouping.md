@@ -1,6 +1,6 @@
 ---
 title: Notes on Resource Grouping
-page_title: Notes on Resource Grouping | UI for ASP.NET AJAX Documentation
+page_title: Notes on Resource Grouping | RadScheduler for ASP.NET AJAX Documentation
 description: Notes on Resource Grouping
 slug: scheduler/web-service-binding/notes-on-resource-grouping
 tags: notes,on,resource,grouping
@@ -18,15 +18,15 @@ There are additional steps that must be performed to enable resource grouping wh
 
 The control needs the list of resources on the server in order to be able to render its basic structure.
 
-The __ResourcePopulationMode__ property controls how the resources are obtained. The possible options are:
+The **ResourcePopulationMode** property controls how the resources are obtained. The possible options are:
 
-* __ServerSide__ - The resources will be populated from the server by issuing a request to the Web Service.
+* **ServerSide** - The resources will be populated from the server by issuing a request to the Web Service.
 
-* __Manual__ - In manual mode RadScheduler will not request resources from the Web Service. They can be populated from the code-behind of the ASP.NET page that hosts the RadScheduler control.
+* **Manual** - In manual mode RadScheduler will not request resources from the Web Service. They can be populated from the code-behind of the ASP.NET page that hosts the RadScheduler control.
 
-* __ClientSide__ (default) - The resources will be populated from the client by issuing a request to the Web Service.
+* **ClientSide** (default) - The resources will be populated from the client by issuing a request to the Web Service.
 
-You have to set the mode to either __ServerSide__ or __Manual__ in order to enable grouped views. The server-side mode is recommended, as it requires no additional code. The drawback is that it does not work in medium trust. In such case you will have to fall back to manually populating the resource list.
+You have to set the mode to either **ServerSide** or **Manual** in order to enable grouped views. The server-side mode is recommended, as it requires no additional code. The drawback is that it does not work in medium trust. In such case you will have to fall back to manually populating the resource list.
 
 ````ASPNET
 	
@@ -56,7 +56,7 @@ You have to set the mode to either __ServerSide__ or __Manual__ in order to enab
 
 ## Passing additional arguments to the GetResources method when using server-side mode
 
-In some cases you might want to pass additional arguments to the GetResources method. This can be done by handling the __ResourcesPopulating__ event.
+In some cases you might want to pass additional arguments to the GetResources method. This can be done by handling the **ResourcesPopulating** event.
 
 You need to implement ISchedulerInfo first:
 

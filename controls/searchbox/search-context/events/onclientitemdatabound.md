@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadSearchBox for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: searchbox/search-context/events/onclientitemdatabound
 tags: onclientitemdatabound
@@ -12,21 +12,21 @@ position: 0
 
 
 
-The following article demonstrates the usage of the __OnClientItemDataBound__ client-side event.
+The following article demonstrates the usage of the **OnClientItemDataBound** client-side event.
 
 ## 
 
-The __OnClientItemDataBound__ client-side event occurs for each item that is created during a __ODataDataSource__ binding.
+The **OnClientItemDataBound** client-side event occurs for each item that is created during a **ODataDataSource** binding.
 
 The event handler receives two parameters:
 
-1. The instance of the __SearchContext__ firing the event.
+1. The instance of the **SearchContext** firing the event.
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item()__ - returns a reference of the SearchContextItem.
+* **get_item()** - returns a reference of the SearchContextItem.
 
-* __get_dataItem()__ - returns a reference to the DataItem object (data container).
+* **get_dataItem()** - returns a reference to the DataItem object (data container).
 
 
 

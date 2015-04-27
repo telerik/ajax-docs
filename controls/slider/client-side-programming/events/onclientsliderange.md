@@ -1,6 +1,6 @@
 ---
 title: OnClientSlideRange
-page_title: OnClientSlideRange | UI for ASP.NET AJAX Documentation
+page_title: OnClientSlideRange | RadSlider for ASP.NET AJAX Documentation
 description: OnClientSlideRange
 slug: slider/client-side-programming/events/onclientsliderange
 tags: onclientsliderange
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __OnClientSlideRange__client-side event occurs as the user is sliding the selected region of RadSlider, thus changingboth __SelectionStart__ and __SelectionEnd__ values. The properties __EnableDragRange__	and __IsSelectionRangeEnabled__ of RadSlider should be set to __true__ in order to enable the sliding region of the control.
+The **OnClientSlideRange**client-side event occurs as the user is sliding the selected region of RadSlider, thus changingboth **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange**	and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
 
 The event handler receives two parameters:
 

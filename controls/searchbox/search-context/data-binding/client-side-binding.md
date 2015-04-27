@@ -1,6 +1,6 @@
 ---
 title: Client-side Binding
-page_title: Client-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Binding | RadSearchBox for ASP.NET AJAX Documentation
 description: Client-side Binding
 slug: searchbox/search-context/data-binding/client-side-binding
 tags: client-side,binding
@@ -73,7 +73,7 @@ The items in the SearchContext drop-down can be also loaded from Web Service by 
 
 ## OData binding
 
-When SearchContext is bound to __RadODataDataSource__ control, its __DataModelID__ property should be set to a Model ID from the data source. In such scenario in a similar manner as when the control is bound programatically, the __DataContextKeyField__ field set to the SearchBox will be used as a context field. In order to set ImageUrl for the context items the __OnClientItemDataBound__ event of the Search Context could be used as shown below:
+When SearchContext is bound to **RadODataDataSource** control, its **DataModelID** property should be set to a Model ID from the data source. In such scenario in a similar manner as when the control is bound programatically, the **DataContextKeyField** field set to the SearchBox will be used as a context field. In order to set ImageUrl for the context items the **OnClientItemDataBound** event of the Search Context could be used as shown below:
 
 ````ASPNET
 		<telerik:RadODataDataSource runat="server" ID="DataSource1">

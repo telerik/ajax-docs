@@ -1,6 +1,6 @@
 ---
 title: TimeSlotContextMenuItemClicking
-page_title: TimeSlotContextMenuItemClicking | UI for ASP.NET AJAX Documentation
+page_title: TimeSlotContextMenuItemClicking | RadScheduler for ASP.NET AJAX Documentation
 description: TimeSlotContextMenuItemClicking
 slug: scheduler/server-side-programming/server-events/timeslotcontextmenuitemclicking
 tags: timeslotcontextmenuitemclicking
@@ -14,18 +14,18 @@ position: 18
 
 ## 
 
-The __TimeSlotContextMenuItemClicking__ event occurs when a time slotcontext menu item is clicked, before processing default commands.
+The **TimeSlotContextMenuItemClicking** event occurs when a time slotcontext menu item is clicked, before processing default commands.
 
 TimeSlotContextMenuItemClicking has two parameters:
 
-* __sender__ is the scheduler control
+* **sender** is the scheduler control
 
-* __e__ is an object of type __TimeSlotContextMenuItemClickingEventArgs__.It has three properties:
+* **e** is an object of type **TimeSlotContextMenuItemClickingEventArgs**.It has three properties:
 
-* __MenuItem__
+* **MenuItem**
 
-* __TimeSlot__
+* **TimeSlot**
 
-* __Cancel__
+* **Cancel**
 
 This event can be cancelled.

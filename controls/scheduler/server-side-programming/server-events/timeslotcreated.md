@@ -1,6 +1,6 @@
 ---
 title: TimeSlotCreated
-page_title: TimeSlotCreated | UI for ASP.NET AJAX Documentation
+page_title: TimeSlotCreated | RadScheduler for ASP.NET AJAX Documentation
 description: TimeSlotCreated
 slug: scheduler/server-side-programming/server-events/timeslotcreated
 tags: timeslotcreated
@@ -12,11 +12,11 @@ position: 14
 
 
 
-The __TimeSlotCreatedevent__ occurs when a time slot is created. __TimeSlotCreated__ has two parameters:
+The **TimeSlotCreatedevent** occurs when a time slot is created. **TimeSlotCreated** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __TimeSlotCreatedEventArgs__. It has the __TimeSlot__ property.
+* **e** is an object of type **TimeSlotCreatedEventArgs**. It has the **TimeSlot** property.
 
 
 

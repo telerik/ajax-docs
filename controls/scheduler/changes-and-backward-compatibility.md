@@ -1,6 +1,6 @@
 ---
 title: Changes and Backward Compatibility
-page_title: Changes and Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and Backward Compatibility | RadScheduler for ASP.NET AJAX Documentation
 description: Changes and Backward Compatibility
 slug: scheduler/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -72,11 +72,11 @@ Cumulative list of removed or obsoleted properties over the last few releases an
 
 ## RadScheduler for ASP.NET AJAX Q2 2009 (Version Number 2009.2.701)
 
-__Breaking change__:
+**Breaking change**:
 
 Customized advanced templates will not be styled correctly due to rendering changes. Please, see this KB article - [http://www.telerik.com/support/kb/aspnet-ajax/scheduler/kb.aspx](http://www.telerik.com/support/kb/aspnet-ajax/scheduler/compatability-css-styles-for-q1-2-9-advanced-form-templates.aspx)
 
-__Potentially breaking changes__:
+**Potentially breaking changes**:
 
 * The Subject text box in the integrated advanced form is now of type RadTextBox (was TextBox)
 
@@ -102,13 +102,13 @@ __Potentially breaking changes__:
 
 * Facelift for Default and Vista skins which result in breaking changes for certain scenarios. Please, test before upgrading to the new version.
 
-* __Default2006,____Gray, Inox and SkyBlue__ skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins.
+* **Default2006, Gray, Inox and SkyBlue** skins are discontinued -- we are recommending the new Default skin for anyone that might have used the obsolete skins.
 
 * Updated jQuery to version 1.3
 
 ## RadScheduler for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105)
 
-__What’s changed__:
+**What’s changed**:
 
 * The buttons in the integrated advanced form are now named “InsertButton”, “UpdateButton” and “CancelButton”. Update the IDs if you are using FindControl to access them.
 
@@ -120,7 +120,7 @@ __What’s changed__:
 
 ## RadScheduler for ASP.NET AJAX Q1 2008 (Version Number 2008.1.415)
 
-__Breaking changes__:
+**Breaking changes**:
 
 * The get_appointments client-side property of RadScheduler returns an AppointmentCollection instance instead of a JavaScript array- get_appointments().length => get_appointments().get_count()- get_appointments()[index] => get_appointments().getAppointment (index)
 
@@ -130,7 +130,7 @@ __Breaking changes__:
 
 * The day order in the RecurrenceDay enum was changed to improve compatibility with Outlook. Sunday is now first day of week and the integer values are changed to reflect the new ordering.
 
-__Non-breaking changes__:
+**Non-breaking changes**:
 
 * Obsoleted RadScheduler properties in favor of view-specific complex properties:- DayHeaderDateFormat => DayView.HeaderDateFormat- WeekHeaderDateFormat => WeekView.HeaderDateFormat- MonthHeaderDateFormat => MonthView.HeaderDateFormat- WeekColumnHeaderDateFormat => WeekView.ColumnHeaderDateFormat- MonthColumnHeaderDateFormat => MonthView. ColumnHeaderDateFormat- MonthVisibleAppointmentsPerDay => MonthView. VisibleAppointmentsPerDay
 

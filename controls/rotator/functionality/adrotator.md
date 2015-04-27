@@ -1,6 +1,6 @@
 ---
 title: AdRotator
-page_title: AdRotator | UI for ASP.NET AJAX Documentation
+page_title: AdRotator | RadRotator for ASP.NET AJAX Documentation
 description: AdRotator
 slug: rotator/functionality/adrotator
 tags: adrotator
@@ -14,7 +14,7 @@ position: 1
 
 ## AdRotator functionality
 
-RadRotator can be easily configured to animate through a set of images that reside into a single directory. All that needs to be done is setting the __BannersPath__ property to the virtual path of the images’ directory and the control will be ready for use (of course assuming that the Rotator’s and its items’ dimensions are set, which is required for all RotatorTypes). The control will handle the creation of the items and the item’s html template. This functionality can be used with all RotatorTypes, giving you the ability to choose the right type for your specific scenario. Below you will find the basic facts about the feature and how to use it, as well as tutorial to get you started.
+RadRotator can be easily configured to animate through a set of images that reside into a single directory. All that needs to be done is setting the **BannersPath** property to the virtual path of the images’ directory and the control will be ready for use (of course assuming that the Rotator’s and its items’ dimensions are set, which is required for all RotatorTypes). The control will handle the creation of the items and the item’s html template. This functionality can be used with all RotatorTypes, giving you the ability to choose the right type for your specific scenario. Below you will find the basic facts about the feature and how to use it, as well as tutorial to get you started.
 
 ### When to Use
 
@@ -22,11 +22,11 @@ Basically, when you have a folder of images and you want the Rotator to play the
 
 ### BannersPath property
 
-The default value of the __BannersPath__ property is __string.Empty__. Setting this property to non-empty string will cause the Rotator to search for images in the specified directory. Virtual path should be provided, and it is recommended that it starts with ‘~’ (tilde) so it is relative to the applications root directory. It doesn’t matter if the path ends with path separator (i.e. ‘/’) or not. The Rotator will work its way, as long as the directory exists. This means that __“~/Images”__ is as good as __“~/Images/”__.	The property can be set in the .aspx markup, as well as in the code-behind. Page.Load or events of postback controls (Button.Click, DropDownList.SelectedIndexChanged) are good place for setting this property.
+The default value of the **BannersPath** property is **string.Empty**. Setting this property to non-empty string will cause the Rotator to search for images in the specified directory. Virtual path should be provided, and it is recommended that it starts with ‘~’ (tilde) so it is relative to the applications root directory. It doesn’t matter if the path ends with path separator (i.e. ‘/’) or not. The Rotator will work its way, as long as the directory exists. This means that **“~/Images”** is as good as **“~/Images/”**.	The property can be set in the .aspx markup, as well as in the code-behind. Page.Load or events of postback controls (Button.Click, DropDownList.SelectedIndexChanged) are good place for setting this property.
 
 ### Supported Image Formats
 
-The following image formats are supported: __*.jpg, *.jpeg, *.gif, *.png, *.bmp__. If you want to include different image types, then the Telerik.Web.UI.__RadRotator__ class should be inherited and the protected __GetImageExtensions()__ overridden. Then you should return a different string of comma separated extensions, keeping in mind that the string should end with comma. This is example that includes only GIF and PNG images:
+The following image formats are supported: *.jpg, .jpeg, .gif, .png, .bmp*. If you want to include different image types, then the Telerik.Web.UI.**RadRotator** class should be inherited and the protected **GetImageExtensions()** overridden. Then you should return a different string of comma separated extensions, keeping in mind that the string should end with comma. This is example that includes only GIF and PNG images:
 
 
 
@@ -45,19 +45,19 @@ The following image formats are supported: __*.jpg, *.jpeg, *.gif, *.png, *.bmp_
 
 ### Accessing the Items in the Code-Behind
 
-The Rotator requests for the images __OnPreRender__, which means that if you want to access the __RadRotator.Items__ collection earlier in the page life-cycle you need to force the Rotator to request its items. This is done by calling the __RadRotator.BindToBanners(forceBind)__ method. Note that the forceBind parameter is optional, and by default its value is __false__. In case your scenario requires that the rotator should explicitly request for its items from the server, then pass __true__ to this method.
+The Rotator requests for the images **OnPreRender**, which means that if you want to access the **RadRotator.Items** collection earlier in the page life-cycle you need to force the Rotator to request its items. This is done by calling the **RadRotator.BindToBanners(forceBind)** method. Note that the forceBind parameter is optional, and by default its value is **false**. In case your scenario requires that the rotator should explicitly request for its items from the server, then pass **true** to this method.
 
 ### Modifying the Items
 
 In some scenarios you might want to have direct control on which images are selected and added to the Rotator. There are two options of handling this:
 
-1. Handling the RadRotator.__ItemDataBound__ and modifying the items according to your specific logic.
+1. Handling the RadRotator.**ItemDataBound** and modifying the items according to your specific logic.
 
-1. Inheriting the Telerik.Web.UI.__RadRotator__ class and overriding the __GetBanners(string virtualPath, string allowedExtensions)__ method, which should return a collection of type List<Telerik.Web.UI.Rotator.__BannerDataItem__>.The following steps will help you achieve this:
+1. Inheriting the Telerik.Web.UI.**RadRotator** class and overriding the **GetBanners(string virtualPath, string allowedExtensions)** method, which should return a collection of type List<Telerik.Web.UI.Rotator.**BannerDataItem**>.The following steps will help you achieve this:
 
-1. In your project create a new class that inherits the __RadRotator__ class.
+1. In your project create a new class that inherits the **RadRotator** class.
 
-1. Override the __GetBanners__ method in order to implement your logic for retreiving the rotator images.	For example the following method will look for images not only in the currently specified directory, but also all the images in the subdirectories:
+1. Override the **GetBanners** method in order to implement your logic for retreiving the rotator images.	For example the following method will look for images not only in the currently specified directory, but also all the images in the subdirectories:
 
 
 
@@ -207,7 +207,7 @@ This tutorial shows how to create a simple web application with RadRotator that 
 
 1. Create a directory in the root of your web site and name it “Images”. Place the images you want to rotate in this directory.
 
-1. Set the __BannersPath__ property of the rotator to __“~/Images”__. The mark-up should look like the following:
+1. Set the **BannersPath** property of the rotator to **“~/Images”**. The mark-up should look like the following:
 
 ````ASPNET
 		<telerik:RadRotator ID="RadRotator1" runat="server"

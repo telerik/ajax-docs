@@ -1,6 +1,6 @@
 ---
-title: Reminders Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Reminders Overview | RadScheduler for ASP.NET AJAX Documentation
 description: Overview
 slug: scheduler/reminders/overview
 tags: overview
@@ -22,7 +22,7 @@ The Reminders.MaxAge property keeps your reminder appointments "alive" for a spe
 
 Users can configure reminders through the advanced edit form. Due reminders are shown in a dialog familiar to Microsoft Outlook users dialog. The dialog allows the user to dismiss and snooze reminders.
 
->caution  __Reminders require browser cookies to operate properly!__ 
+>caution  **Reminders require browser cookies to operate properly!** 
 >
 
 
@@ -34,7 +34,7 @@ Dismissing a reminder removes it from the appointment and stores the changes to 
 
 The Snooze operation is local to the user and does not update the appointment. Snoozed reminders are persisted as browser cookies and will reappear if the page is opened by another user or with different browser.
 
-You can store reminders in the database via the __DataReminderField__. __DataReminderField__ writes a string in the database using a subset of the __RFC2445__ (__iCalendar__) specification. For example here's what will be written in the database for the [Reminders Demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/reminders/defaultcs.aspx) when you press "Create Appointment with Reminder" button:
+You can store reminders in the database via the **DataReminderField**. **DataReminderField** writes a string in the database using a subset of the **RFC2445** (**iCalendar**) specification. For example here's what will be written in the database for the [Reminders Demo](https://demos.telerik.com/aspnet-ajax/scheduler/examples/reminders/defaultcs.aspx) when you press "Create Appointment with Reminder" button:
 
 BEGIN:VALARM
 
@@ -44,7 +44,7 @@ X-TELERIK-UID:d1f02b03-82f2-4267-b24e-89baeb9170e3
 
 END:VALARM
 
-For more information on the __RFC 2445__( __iCalendar__ ) specification, please see the [Wikipedia article](http://en.wikipedia.org/wiki/ICalendar)
+For more information on the **RFC 2445**( **iCalendar** ) specification, please see the [Wikipedia article](http://en.wikipedia.org/wiki/ICalendar)
 
 # See Also
 

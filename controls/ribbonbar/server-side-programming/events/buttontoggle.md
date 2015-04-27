@@ -1,6 +1,6 @@
 ---
 title: ButtonToggle
-page_title: ButtonToggle | UI for ASP.NET AJAX Documentation
+page_title: ButtonToggle | RadRibbonBar for ASP.NET AJAX Documentation
 description: ButtonToggle
 slug: ribbonbar/server-side-programming/events/buttontoggle
 tags: buttontoggle
@@ -14,19 +14,19 @@ position: 4
 
 ## 
 
-The server-side __ButtonToggle__ event occurs when a toggle button is toggled, causing a postback.
+The server-side **ButtonToggle** event occurs when a toggle button is toggled, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object with the following properties:
 
-* __Button__ - the toggle button that has been toggled.
+* **Button** - the toggle button that has been toggled.
 
-* __Group__ - the group of the clicked toggle button parent's group.
+* **Group** - the group of the clicked toggle button parent's group.
 
-* __Index__ - the index of the clicked button in its containing group.
+* **Index** - the index of the clicked button in its containing group.
 
 The following example shows how to use the properties of the event arguments:
 

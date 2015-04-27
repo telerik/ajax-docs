@@ -1,6 +1,6 @@
 ---
 title: TimeSlotContextMenuItemClicked
-page_title: TimeSlotContextMenuItemClicked | UI for ASP.NET AJAX Documentation
+page_title: TimeSlotContextMenuItemClicked | RadScheduler for ASP.NET AJAX Documentation
 description: TimeSlotContextMenuItemClicked
 slug: scheduler/server-side-programming/server-events/timeslotcontextmenuitemclicked
 tags: timeslotcontextmenuitemclicked
@@ -14,17 +14,17 @@ position: 19
 
 ## 
 
-The __TimeSlotContextMenuItemClicked__ event occurs after a time slot context menu item is clicked.
+The **TimeSlotContextMenuItemClicked** event occurs after a time slot context menu item is clicked.
 
 TimeSlotContextMenuItemClicked has two parameters:
 
-* __sender__ is the scheduler control
+* **sender** is the scheduler control
 
-* __e__ is an object of type __TimeSlotContextMenuItemClickedEventArgs__.It has two properties:
+* **e** is an object of type **TimeSlotContextMenuItemClickedEventArgs**.It has two properties:
 
-* __MenuItem__
+* **MenuItem**
 
-* __TimeSlot__
+* **TimeSlot**
 
 This event cannot be cancelled.
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientRecurrenceActionDialogShowing
-page_title: OnClientRecurrenceActionDialogShowing | UI for ASP.NET AJAX Documentation
+page_title: OnClientRecurrenceActionDialogShowing | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientRecurrenceActionDialogShowing
 slug: scheduler/client-side-programming/events/onclientrecurrenceactiondialogshowing
 tags: onclientrecurrenceactiondialogshowing
@@ -12,25 +12,25 @@ position: 15
 
 
 
-The __OnClientRecurrenceActionDialogShowing__ client-side event is called just before the dialog appears to ask whether the change the user just started on a recurring appointment is to affect the appointment itself or the entire series.
+The **OnClientRecurrenceActionDialogShowing** client-side event is called just before the dialog appears to ask whether the change the user just started on a recurring appointment is to affect the appointment itself or the entire series.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ that returns the appointment instance.____
+* **get_appointment()** that returns the appointment instance.
 
-* __get_recurrenceAction()__returns __1__ for__edit__, __2__ for __delete__, __3__ for__resize__, and __4__ for __move__.
+* **get_recurrenceAction()**returns **1** for**edit**, **2** for **delete**, **3** for**resize**, and **4** for **move**.
 
-* __set_cancel()__ lets you permit or block the showing of the recurrence action dialog of the appointment. Calling __set_cancel(true)__ suppresses the showing of the dialog, while __set_cancel(false)__ allows the scheduler to proceed with showing the dialog.
+* **set_cancel()** lets you permit or block the showing of the recurrence action dialog of the appointment. Calling **set_cancel(true)** suppresses the showing of the dialog, while **set_cancel(false)** allows the scheduler to proceed with showing the dialog.
 
-* __set_editSeries()__- instructs the scheduler whether to edit the entire series or just the occurrence.
+* **set_editSeries()**- instructs the scheduler whether to edit the entire series or just the occurrence.
 
 ## Example
 
-This example shows how to suppress the "Edit this occurrence" or "Edit Series" dialog and choose to either edit the entire series or just the occurrence:____
+This example shows how to suppress the "Edit this occurrence" or "Edit Series" dialog and choose to either edit the entire series or just the occurrence:
 
 ````ASPNET
 	 

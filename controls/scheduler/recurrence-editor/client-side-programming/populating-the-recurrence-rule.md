@@ -1,6 +1,6 @@
 ---
 title: Populating the Recurrence Rule
-page_title: Populating the Recurrence Rule | UI for ASP.NET AJAX Documentation
+page_title: Populating the Recurrence Rule | RadScheduler for ASP.NET AJAX Documentation
 description: Populating the Recurrence Rule
 slug: scheduler/recurrence-editor/client-side-programming/populating-the-recurrence-rule
 tags: populating,the,recurrence,rule
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The recurrence editor can be populated from a __RecurrenceRule__ object
+The recurrence editor can be populated from a **RecurrenceRule** object
 
 ````JavaScript
 	    

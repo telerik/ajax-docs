@@ -1,6 +1,6 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | UI for ASP.NET AJAX Documentation
+page_title: OnClientMouseOut | RadRotator for ASP.NET AJAX Documentation
 description: OnClientMouseOut
 slug: rotator/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
@@ -14,13 +14,13 @@ position: 9
 
 ## 
 
-The __mouseOut__ event is fired when the mouse pointer leaves the control.
+The **mouseOut** event is fired when the mouse pointer leaves the control.
 
 The event handler receives two parameters:
 
 1. The RadRotator instance that fired the event.
 
-1. An eventArgs parameter of type Telerik.Web.UI.__RadRotatorEventArgs__, containing the following properties and methods:
+1. An eventArgs parameter of type Telerik.Web.UI.**RadRotatorEventArgs**, containing the following properties and methods:
 
 * get_item() - returns the client object of the item that was hovered, before moving the mouse pointer.
 

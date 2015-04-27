@@ -1,6 +1,6 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to RadClientDataSource | RadSearchBox for ASP.NET AJAX Documentation
 description: Binding to RadClientDataSource
 slug: searchbox/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
@@ -12,13 +12,13 @@ position: 7
 
 
 
-This article demonstrates how to bind __RadSearchBox__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadSearchBox** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadSearchBox can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadSearchBox __DataText__ and __DataValue__ fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadSearchBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadSearchBox can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadSearchBox **DataText** and **DataValue** fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadSearchBox item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
 
-The RadSearchBox property __MaxResultCount__ works in exactly the same manner as with any other data source control.
+The RadSearchBox property **MaxResultCount** works in exactly the same manner as with any other data source control.
 
 ## 
 

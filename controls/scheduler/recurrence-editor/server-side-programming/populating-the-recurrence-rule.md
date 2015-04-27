@@ -1,6 +1,6 @@
 ---
 title: Populating the Recurrence Rule
-page_title: Populating the Recurrence Rule | UI for ASP.NET AJAX Documentation
+page_title: Populating the Recurrence Rule | RadScheduler for ASP.NET AJAX Documentation
 description: Populating the Recurrence Rule
 slug: scheduler/recurrence-editor/server-side-programming/populating-the-recurrence-rule
 tags: populating,the,recurrence,rule
@@ -36,7 +36,7 @@ position: 1
 
 ## The following examples show how different rules can be generated in FormCrated event of the Scheduler.
 
-__HourlyRecurence:__
+**HourlyRecurence:**
 
 
 
@@ -76,7 +76,7 @@ __HourlyRecurence:__
 ````
 
 
-__DailyRecurence:__
+**DailyRecurence:**
 
 
 
@@ -106,7 +106,7 @@ __DailyRecurence:__
 ````
 
 
-__WeeklyRecurence:__
+**WeeklyRecurence:**
 
 
 
@@ -139,7 +139,7 @@ __WeeklyRecurence:__
 ````
 
 
-__MonthlyRecurence:__
+**MonthlyRecurence:**
 
 
 
@@ -172,7 +172,7 @@ __MonthlyRecurence:__
 ````
 
 
-__YearlyRecurence:__
+**YearlyRecurence:**
 
 
 

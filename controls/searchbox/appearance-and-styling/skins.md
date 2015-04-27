@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadSearchBox for ASP.NET AJAX Documentation
 description: Skins
 slug: searchbox/appearance-and-styling/skins
 tags: skins

@@ -1,6 +1,6 @@
 ---
 title: Change the Style of the Today Cell in Month View
-page_title: Change the Style of the Today Cell in Month View | UI for ASP.NET AJAX Documentation
+page_title: Change the Style of the Today Cell in Month View | RadScheduler for ASP.NET AJAX Documentation
 description: Change the Style of the Today Cell in Month View
 slug: scheduler/how-to/change-the-style-of-the-today-cell-in-month-view
 tags: change,the,style,of,the,today,cell,in,month,view
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-In Month View the Today Cell has the __rsTodayCell__ class applied to it. So changing the style of this cell is possible with the following CSS style:
+In Month View the Today Cell has the **rsTodayCell** class applied to it. So changing the style of this cell is possible with the following CSS style:
 
 >note  -Note:- The selector is Skin-dependent. One should replace [skinName] with the name of the currently used Skin.
 >

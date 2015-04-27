@@ -1,6 +1,6 @@
 ---
 title: ButtonClick
-page_title: ButtonClick | UI for ASP.NET AJAX Documentation
+page_title: ButtonClick | RadRibbonBar for ASP.NET AJAX Documentation
 description: ButtonClick
 slug: ribbonbar/server-side-programming/events/buttonclick
 tags: buttonclick
@@ -14,19 +14,19 @@ position: 2
 
 ## 
 
-The server-side __ButtonClick__event occurs when the user clicks on a button, causing a postback.
+The server-side **ButtonClick**event occurs when the user clicks on a button, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object with the following properties:
 
-* __Button__ - the clicked button.
+* **Button** - the clicked button.
 
-* __Group__ - the parent group of the clicked button.
+* **Group** - the parent group of the clicked button.
 
-* __Index__ - the index of the clicked button in its containing group.
+* **Index** - the index of the clicked button in its containing group.
 
 ````ASPNET
 	    <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnButtonClick="RadRibbonBar1_ButtonClick">

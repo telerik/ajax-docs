@@ -1,6 +1,6 @@
 ---
 title: Adding Templates at Runtime
-page_title: Adding Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Adding Templates at Runtime | RadRibbonBar for ASP.NET AJAX Documentation
 description: Adding Templates at Runtime
 slug: ribbonbar/templates/adding-templates-at-runtime
 tags: adding,templates,at,runtime
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The following help article demonstrates how you can add templates to RadRibbonBar control at runtime, using the __RibbonBarTemplateItem__.
+The following help article demonstrates how you can add templates to RadRibbonBar control at runtime, using the **RibbonBarTemplateItem**.
 
->note The __RibbonBarTemplateItem__ should be initialized in the OnInit event of the page. This is needed as the template should be instantiated before the elements of the RadRibbonBar are initialized. The tabs and groups should be dynamically added so that templates can be defined at run time.
+>note The **RibbonBarTemplateItem** should be initialized in the OnInit event of the page. This is needed as the template should be instantiated before the elements of the RadRibbonBar are initialized. The tabs and groups should be dynamically added so that templates can be defined at run time.
 >
 
 

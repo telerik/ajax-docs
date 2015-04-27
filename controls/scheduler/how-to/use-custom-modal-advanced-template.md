@@ -1,6 +1,6 @@
 ---
 title: Use Custom Modal Advanced Template
-page_title: Use Custom Modal Advanced Template | UI for ASP.NET AJAX Documentation
+page_title: Use Custom Modal Advanced Template | RadScheduler for ASP.NET AJAX Documentation
 description: Use Custom Modal Advanced Template
 slug: scheduler/how-to/use-custom-modal-advanced-template
 tags: use,custom,modal,advanced,template
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly - __rsAdvancedEdit__. When using the advanced templates, you need to make sure that you wrap your content within a container which has this class. There are also other CSS classes which you can reuse such as rsAdvInnerTitle or rsAdvEditClose. Here is an example:
+When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly - **rsAdvancedEdit**. When using the advanced templates, you need to make sure that you wrap your content within a container which has this class. There are also other CSS classes which you can reuse such as rsAdvInnerTitle or rsAdvEditClose. Here is an example:
 
 ![custom modal template](images/scheduler_custom_modal_template.png)
 

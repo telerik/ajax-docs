@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadScheduler for ASP.NET AJAX Documentation
 description: Getting Started
 slug: scheduler/getting-started
 tags: getting,started
@@ -12,9 +12,9 @@ position: 3
 
 
 
-This tutorial will walk you through creating a __RadScheduler__ and shows how to:
+This tutorial will walk you through creating a **RadScheduler** and shows how to:
 
-* Bind the RadScheduler to a custom provider - __XmlSchedulerProvider__.
+* Bind the RadScheduler to a custom provider - **XmlSchedulerProvider**.
 
 * Use the scheduler to add, update, and delete appointments.
 
@@ -28,13 +28,13 @@ This tutorial will walk you through creating a __RadScheduler__ and shows how to
 
 Firstly, you need to add an .xml file which will act as a repository for allappointments that are created and displayed.
 
-1. Download the Appointments.xml file from the App_Data folder in the local path where your RadControls areinstalled. For example:__C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Live Demos\App_Data.__
+1. Download the Appointments.xml file from the App_Data folder in the local path where your RadControls areinstalled. For example:**C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Live Demos\App_Data.**
 
 1. In the Solution Explorer, right click on the App_Data folder and paste the downloaded file.
 
 1. Open the Toolbox window and drag a RadScheduler control. Please make sure you haveRadScriptManager or ScriptManager on the same page as this is a requirement for the ASP.NET AJAX Telerik controls.
 
-1. Subscribe to the __Page_Init__ event and put the following code in the handler:
+1. Subscribe to the **Page_Init** event and put the following code in the handler:
 
 
 
@@ -52,9 +52,9 @@ Firstly, you need to add an .xml file which will act as a repository for allappo
 	        RadScheduler1.Provider = New XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), True)
 	    End Sub
 ````
-This code creates and sets a new provider to RadScheduler. Please note that you'll need to replace "RadScheduler1" with the ID of your RadScheduler instance. Also replace the name of the .xml file with the name of your .xml file. The second parameter in the __XmlSchedulerProvider__ constructor is of type __boolean__ and is called __persistChanges__. Please set it to __"true"__ if you need any changes to be committed to the xml file.
+This code creates and sets a new provider to RadScheduler. Please note that you'll need to replace "RadScheduler1" with the ID of your RadScheduler instance. Also replace the name of the .xml file with the name of your .xml file. The second parameter in the **XmlSchedulerProvider** constructor is of type **boolean** and is called **persistChanges**. Please set it to **"true"** if you need any changes to be committed to the xml file.
 
-1. Now taht everything is set, press __Ctrl+F5__ to run tha application.
+1. Now taht everything is set, press **Ctrl+F5** to run tha application.
 
 ## Using RadScheduler to manage Appointments
 
@@ -62,7 +62,7 @@ This code creates and sets a new provider to RadScheduler. Please note that you'
 
 1. Enter a description of the appointment:![Adding an appointment](images/scheduler_addinganappointment.png)
 
-1. Click the __"Save"__ button to close the inline editor. Your scheduler now displays the new appointment.
+1. Click the **"Save"** button to close the inline editor. Your scheduler now displays the new appointment.
 
 1. Click on the appointment in the schedular and drag it to expand the end time. You have just rescheduled your new appointment.
 
@@ -78,17 +78,17 @@ This code creates and sets a new provider to RadScheduler. Please note that you'
 
 ## Customizing the Scheduler
 
-1. In the designer, select the __RadScheduler__, and in the properties pane, choose a new Skinfrom the drop-down list. Try setting various values of skin from the list and observe the changes to the lookof the scheduler. Set __Skin__ to "Office2007".
+1. In the designer, select the **RadScheduler**, and in the properties pane, choose a new Skinfrom the drop-down list. Try setting various values of skin from the list and observe the changes to the lookof the scheduler. Set **Skin** to "Office2007".
 
-1. Change the __ShowFullTime__ property to __True__.
+1. Change the **ShowFullTime** property to **True**.
 
-1. Set the __ShowFooter__ property to __False__.
+1. Set the **ShowFooter** property to **False**.
 
-1. Set the __StartInsertingInAdvancedForm__ property to __True__.
+1. Set the **StartInsertingInAdvancedForm** property to **True**.
 
-1. Change the __StartEditingInAdvancedForm__ property to __False__.
+1. Change the **StartEditingInAdvancedForm** property to **False**.
 
-1. Change the __MinutesPerRow__ property to 15.
+1. Change the **MinutesPerRow** property to 15.
 
 1. Run the application. Note the new look. Note that you have a 24-hour view, and no footer to changeto a business hours view. Each row is now 15 minutes, with a label for every half hour instead of every hour.
 
@@ -108,9 +108,9 @@ This code creates and sets a new provider to RadScheduler. Please note that you'
 
 To further customize your scheduler - you can use custom attributes and/or resources.
 
-__Custom attributes:__
+**Custom attributes:**
 
-Custom attributes are text values that are associated with the appointment. The user can enter any string as the value of a custom attribute. To define custom attributes - you need to set thethe __CustomAttributeNames__property. For example if we want to add Materials custom attribute - you'll need to set the property: __CustomAttributeNames__= "Materials". For more than one custom attributes you'll need to separate the values with comma e.g: __CustomAttributeNames__= "Materials, Stocks". Custom attributes create TextBoxes in the Advanced Form where you can put their values. To be able to see and edit custom attribute values -__EnableCustomAttributeEditing__ property must be set to true:
+Custom attributes are text values that are associated with the appointment. The user can enter any string as the value of a custom attribute. To define custom attributes - you need to set thethe **CustomAttributeNames**property. For example if we want to add Materials custom attribute - you'll need to set the property: **CustomAttributeNames**= "Materials". For more than one custom attributes you'll need to separate the values with comma e.g: **CustomAttributeNames**= "Materials, Stocks". Custom attributes create TextBoxes in the Advanced Form where you can put their values. To be able to see and edit custom attribute values -**EnableCustomAttributeEditing** property must be set to true:
 
 ![RadScheduler Edit Appointment](images/scheduler_editappointmentgettingst.png)
 
@@ -130,7 +130,7 @@ When RadScheduler is bound to XmlProvider, attributes as well as the appointment
 
 
 
-__Resources:__
+**Resources:**
 
 Custom resources let you associate additional information with your appointments, where the information for each field can be selected from a limited number of possibilities. That is, a custom resource acts like an enumerated type.Please follow this model when you create Resources in your .xml file:
 
@@ -158,7 +158,7 @@ Custom resources are represented by a combobox in the Advanced Form. You can cha
 
 ![Rad Scheduler Edit Appointment](images/scheduler_editappointmentgettingst1.png)
 
-Based on the resources you can customize the appearance of appointments or perform custom actions. To group appointments by a custom resource, set the __GroupBy__ property to the name of the custom resource.
+Based on the resources you can customize the appearance of appointments or perform custom actions. To group appointments by a custom resource, set the **GroupBy** property to the name of the custom resource.
 
 ## Add RadScheduler Scenario
 
@@ -166,8 +166,8 @@ The purpose of Scenario Templates is to let you quickly start using RadControls 
 
 1. Right-click on the Web site name in Solution Explorer window. Select "RadControls for ASP.NET AJAX". From the submenu choose "Add RadScheduler Scenario".
 
-1. __Scenario Wizard__ appears with different scenarios. Choose __"XmlProvider"__:![Rad Scheduler Scenario Wizard](images/scheduler_scenariowizard.png)
+1. **Scenario Wizard** appears with different scenarios. Choose **"XmlProvider"**:![Rad Scheduler Scenario Wizard](images/scheduler_scenariowizard.png)
 
-1. Follow the wizard by pressing __"Next"__ button and finally press__"Finish"__. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
+1. Follow the wizard by pressing **"Next"** button and finally press**"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added to your project.
 
-1. Press __Ctrl+F5__ and run the application.
+1. Press **Ctrl+F5** and run the application.

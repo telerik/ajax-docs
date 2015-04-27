@@ -1,6 +1,6 @@
 ---
 title: Item Sizes
-page_title: Item Sizes | UI for ASP.NET AJAX Documentation
+page_title: Item Sizes | RadRibbonBar for ASP.NET AJAX Documentation
 description: Item Sizes
 slug: ribbonbar/appearance-and-styling/item-sizes
 tags: item,sizes
@@ -44,9 +44,9 @@ Consider the following example:
 
 ## RibbonBarTemplateItem
 
-1. __Columns and Lines__RibbonBarTemplateItem practically has only 2 supported sizes, since there is no default text to display, and only its content is rendered – small (Small and Medium – 1 line) and large (Large – 3 lines). This means that if you have 3 non-large (for sake of simplicity) RibbonBarTemplateItems, they should be aligned in a single column, while 3 large RibbonBarTemplateItems, should be placed in 3 separate columns.
+1. **Columns and Lines**RibbonBarTemplateItem practically has only 2 supported sizes, since there is no default text to display, and only its content is rendered – small (Small and Medium – 1 line) and large (Large – 3 lines). This means that if you have 3 non-large (for sake of simplicity) RibbonBarTemplateItems, they should be aligned in a single column, while 3 large RibbonBarTemplateItems, should be placed in 3 separate columns.
 
-1. __Height and Width__The height of non-large items is rendered with style height: 22px, hence your items should not go beyond that if you set them to be non-large.Here is an example of 3 non-large template items declaration:
+1. **Height and Width**The height of non-large items is rendered with style height: 22px, hence your items should not go beyond that if you set them to be non-large.Here is an example of 3 non-large template items declaration:
 
 ````ASPNET
 				<telerik:RibbonBarGroup Text="Templates">
@@ -67,7 +67,7 @@ Consider the following example:
 				</telerik:RibbonBarGroup>
 ````
 
-And here is how the group is rendered:![3 RibbonBarTemplateItems in a column](images/ribbonbar-itemsizes_column.png)The overflow of the container (rrbTemplate) is set to visible => if the first item is declared with 30px height it will not affect the flow of the controls (the alignment will be the same, only the first item will render through the rest of the column without pushing them on the vertical axis more than the preset 22px).Here is how it would render (the color is changed to red, too):![Overflowing RibbonBarTemplateItem](images/ribbonbar-itemsizes_template_overflow.png)The overflow:visible is set, because we want to enable you to use controls opening a dropdown.__Note__: if you need to open a spanning outside the RibbonBar dropdown which is not absolutely positioned, you should set your RibbonBar to Width=”100%” (disable the resize) and the following style to the page:
+And here is how the group is rendered:![3 RibbonBarTemplateItems in a column](images/ribbonbar-itemsizes_column.png)The overflow of the container (rrbTemplate) is set to visible => if the first item is declared with 30px height it will not affect the flow of the controls (the alignment will be the same, only the first item will render through the rest of the column without pushing them on the vertical axis more than the preset 22px).Here is how it would render (the color is changed to red, too):![Overflowing RibbonBarTemplateItem](images/ribbonbar-itemsizes_template_overflow.png)The overflow:visible is set, because we want to enable you to use controls opening a dropdown.**Note**: if you need to open a spanning outside the RibbonBar dropdown which is not absolutely positioned, you should set your RibbonBar to Width=”100%” (disable the resize) and the following style to the page:
 
 ````ASPNET
 	div.RadRibbonBar .rrbButtonArea

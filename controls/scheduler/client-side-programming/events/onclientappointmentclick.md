@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentClick
-page_title: OnClientAppointmentClick | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentClick | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentClick
 slug: scheduler/client-side-programming/events/onclientappointmentclick
 tags: onclientappointmentclick
@@ -12,13 +12,13 @@ position: 1
 
 
 
-The __OnClientAppointmentClick__ client-side event is called when the user clicks on an appointment with the mouse.
+The **OnClientAppointmentClick** client-side event is called when the user clicks on an appointment with the mouse.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has one method - __get_appointment()__ that returns the appointment instance.
+* **eventArgs** has one method - **get_appointment()** that returns the appointment instance.
 
 ## Example
 

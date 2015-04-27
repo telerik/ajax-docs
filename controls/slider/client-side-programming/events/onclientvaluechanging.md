@@ -1,6 +1,6 @@
 ---
 title: OnClientValueChanging
-page_title: OnClientValueChanging | UI for ASP.NET AJAX Documentation
+page_title: OnClientValueChanging | RadSlider for ASP.NET AJAX Documentation
 description: OnClientValueChanging
 slug: slider/client-side-programming/events/onclientvaluechanging
 tags: onclientvaluechanging
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-The __OnClientValueChanging__ client-side event occurs before the value property changes.
+The **OnClientValueChanging** client-side event occurs before the value property changes.
 
 The event handler receives parameters:
 
@@ -22,13 +22,13 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-* __get_oldValue__: returns the slider value just prior to the change.
+* **get_oldValue**: returns the slider value just prior to the change.
 
-* __get_newValue__: returns the value that will be set after the change.
+* **get_newValue**: returns the value that will be set after the change.
 
-* __set_cancel__: cancel the change of the value.
+* **set_cancel**: cancel the change of the value.
 
-* __get_cancel__: returns a boolean that indicates whether the change of the value is cancelled.
+* **get_cancel**: returns a boolean that indicates whether the change of the value is cancelled.
 
 The example below displays the new and old values.
 

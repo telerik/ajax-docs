@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequesting
-page_title: OnClientItemsRequesting | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequesting | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemsRequesting
 slug: rotator/client-side-programming/events/onclientitemsrequesting
 tags: onclientitemsrequesting
@@ -14,17 +14,17 @@ position: 8
 
 ## 
 
-The __ItemsRequesting__ event is related to the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired before the items of the control are loaded, i.e. request to the server is still not sent.
+The **ItemsRequesting** event is related to the[Load On Demand](http://demos.telerik.com/aspnet-ajax/rotator/examples/loadondemand/defaultcs.aspx)functionality of the RadRotator. It is fired before the items of the control are loaded, i.e. request to the server is still not sent.
 
 The event handler receives two parameters:
 
 1. The RadRotator instance that fired the event.
 
-1. An eventArgs parameter of type __Sys.CancelEventArgs()__, containing the following properties and methods:
+1. An eventArgs parameter of type **Sys.CancelEventArgs()**, containing the following properties and methods:
 
-* get_argument() - returns the __argument__ parameter of the WebService method that loads the items of the rotator control.
+* get_argument() - returns the **argument** parameter of the WebService method that loads the items of the rotator control.
 
-* set_argument(*argument*) - sets the __argument__ parameter of the WebService method that loads the items of the rotator control.
+* set_argument(*argument*) - sets the **argument** parameter of the WebService method that loads the items of the rotator control.
 
 * get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 
@@ -48,7 +48,7 @@ This event can be used for executing custom code before the items of the RadRota
 
 
 
-The value, passed to the WebService method, can be accessed via the __argument__ parameter of that method.
+The value, passed to the WebService method, can be accessed via the **argument** parameter of that method.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: ToggleListToggle
-page_title: ToggleListToggle | UI for ASP.NET AJAX Documentation
+page_title: ToggleListToggle | RadRibbonBar for ASP.NET AJAX Documentation
 description: ToggleListToggle
 slug: ribbonbar/server-side-programming/events/togglelisttoggle
 tags: togglelisttoggle
@@ -14,23 +14,23 @@ position: 9
 
 ## 
 
-The server-side __ToggleListToggle__ event occurs when a ToggleButton inside a ToggleList is toggled, causing a postback.
+The server-side **ToggleListToggle** event occurs when a ToggleButton inside a ToggleList is toggled, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object with the following properties:
 
-* __ToggleButton__ - the ToggleButton that has been toggled.
+* **ToggleButton** - the ToggleButton that has been toggled.
 
-* __ToggleList__ - the parent toggle list of the clicked toggle button.
+* **ToggleList** - the parent toggle list of the clicked toggle button.
 
-* __ToggleListButtons__ - a collection of all toggle button in the parent toggle list.
+* **ToggleListButtons** - a collection of all toggle button in the parent toggle list.
 
-* __Group__ - the parent group of the clicked toggle button.
+* **Group** - the parent group of the clicked toggle button.
 
-* __Index__ - the index of the clicked toggle button in its containing toggle list.
+* **Index** - the index of the clicked toggle button in its containing toggle list.
 
 The following example shows how to use the properties of the event arguments:
 

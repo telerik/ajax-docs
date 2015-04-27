@@ -1,6 +1,6 @@
 ---
 title: RadRibbonBar Object 
-page_title: RadRibbonBar Object  | UI for ASP.NET AJAX Documentation
+page_title: RadRibbonBar Object  | RadRibbonBar for ASP.NET AJAX Documentation
 description: RadRibbonBar Object 
 slug: ribbonbar/client-side-programming/radribbonbar-object-
 tags: radribbonbar,object,
@@ -14,30 +14,30 @@ position: 1
 
 ## 
 
-The table below lists the most important functions of the client-side __RadRibbonBar__ object as well as many significant functions for performing common tasks.
+The table below lists the most important functions of the client-side **RadRibbonBar** object as well as many significant functions for performing common tasks.
 
 
 | Name | Return Value | Type | Description |
 | ------ | ------ | ------ | ------ |
-| __findButtonByValue__ |RibbonBarButton|string|Returns the first __RibbonBarButton__ object whose __Value__ property is equal to the passed parameter.|
-| __findContextualTabGroupByText__ |RibbonBarContextualTabGroup|string|Returns the first __RibbonBarContextualTabGroup__ object whose __Text__ property is equal to the passed parameter.|
-| __findGroupByValue__ |RibbonBarGroup|string|Returns the first __RibbonBarGroup__ object whose __Value__ property is equal to the passed parameter.|
-| __findItemByText__ |RibbonBarItem|string|Returns the first __RibbonBarItem__ object whose __Text__ property is equal to the passed argument|
-| __findMenuItemByValue__ |RibbonBarMenuItem|string|Returns the first __RibbonBarMenuItem__ object whose __Value__ property is equal to the passed parameter.|
-| __findTabByDomElement__ |RibbonBarTab|none|Returns the __RadRibbonBar__ object associated with the passed __DOM element__ .|
-| __findTabByValue__ |RibbonBarTab|string|Returns the first __RibbonBarTab__ object whose __Value__ property is equal to the passed parameter.|
-| __findToggleButtonByValue__ |RibbonBarToggleButton|string|Returns the first __RibbonBarToggleButton__ object whose __Value__ property is equal to the passed parameter.|
-| __get_applicationMenuDropDpwn__ |none|none|Returns the __ApplicationMenu__ dropdown object.|
-| __set_defaultDesabledImageUrl__ |none|string|Sets the default disabled image.|
-| __get_defaultDesabledImageUrl__ |string|none|Returns the url of the default disabled image.|
-| __set_defaultDesabledImageUrlLarge__ |none|string|Sets the default disabled large image.|
-| __get_defaultDesabledImageUrlLarge__ |string|none|Returns the url of the default disabled large image.|
-| __set_defaultImageUrl__ |none|string|Sets the defaultimage.|
-| __get_defaultImageUrl__ |string|none|Returns the url of the defaultimage.|
-| __get_id__ |string|none|Returns the __id__ of the RadRibbonBar object.|
-| __set_selectedTabIndex__ |none|integer|Sets the selected tab by its index.|
-| __get_element__ |DOM Element|none|Returns the outmost DOM element container of __RadRibbonBar__ .|
-| __get_quickAccessToolbar__ |RibbonBarQuickAccessToolbar|none|Returns the __RibbonBarQuickAccessToolbar__ object.|
-| __get_selectedTab__ |RibbonBarTab|none|Returns the object of the selected tab.|
-| __get_selectedTabIndex__ |integer|none|Returns the index of the selected tab.|
-| __get_tabs__ |RibbonBarTabCollection|none|Returns the colleciton of all Tabs.|
+| **findButtonByValue** |RibbonBarButton|string|Returns the first **RibbonBarButton** object whose **Value** property is equal to the passed parameter.|
+| **findContextualTabGroupByText** |RibbonBarContextualTabGroup|string|Returns the first **RibbonBarContextualTabGroup** object whose **Text** property is equal to the passed parameter.|
+| **findGroupByValue** |RibbonBarGroup|string|Returns the first **RibbonBarGroup** object whose **Value** property is equal to the passed parameter.|
+| **findItemByText** |RibbonBarItem|string|Returns the first **RibbonBarItem** object whose **Text** property is equal to the passed argument|
+| **findMenuItemByValue** |RibbonBarMenuItem|string|Returns the first **RibbonBarMenuItem** object whose **Value** property is equal to the passed parameter.|
+| **findTabByDomElement** |RibbonBarTab|none|Returns the **RadRibbonBar** object associated with the passed **DOM element** .|
+| **findTabByValue** |RibbonBarTab|string|Returns the first **RibbonBarTab** object whose **Value** property is equal to the passed parameter.|
+| **findToggleButtonByValue** |RibbonBarToggleButton|string|Returns the first **RibbonBarToggleButton** object whose **Value** property is equal to the passed parameter.|
+| **get_applicationMenuDropDpwn** |none|none|Returns the **ApplicationMenu** dropdown object.|
+| **set_defaultDesabledImageUrl** |none|string|Sets the default disabled image.|
+| **get_defaultDesabledImageUrl** |string|none|Returns the url of the default disabled image.|
+| **set_defaultDesabledImageUrlLarge** |none|string|Sets the default disabled large image.|
+| **get_defaultDesabledImageUrlLarge** |string|none|Returns the url of the default disabled large image.|
+| **set_defaultImageUrl** |none|string|Sets the defaultimage.|
+| **get_defaultImageUrl** |string|none|Returns the url of the defaultimage.|
+| **get_id** |string|none|Returns the **id** of the RadRibbonBar object.|
+| **set_selectedTabIndex** |none|integer|Sets the selected tab by its index.|
+| **get_element** |DOM Element|none|Returns the outmost DOM element container of **RadRibbonBar** .|
+| **get_quickAccessToolbar** |RibbonBarQuickAccessToolbar|none|Returns the **RibbonBarQuickAccessToolbar** object.|
+| **get_selectedTab** |RibbonBarTab|none|Returns the object of the selected tab.|
+| **get_selectedTabIndex** |integer|none|Returns the index of the selected tab.|
+| **get_tabs** |RibbonBarTabCollection|none|Returns the colleciton of all Tabs.|

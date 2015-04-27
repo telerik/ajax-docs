@@ -1,6 +1,6 @@
 ---
 title: SelectedTabChange
-page_title: SelectedTabChange | UI for ASP.NET AJAX Documentation
+page_title: SelectedTabChange | RadRibbonBar for ASP.NET AJAX Documentation
 description: SelectedTabChange
 slug: ribbonbar/server-side-programming/events/selectedtabchange
 tags: selectedtabchange
@@ -14,17 +14,17 @@ position: 8
 
 ## 
 
-The server-side __SelectedTabChange__ event occurs when non-selected tab is clicked, causing a postback.
+The server-side **SelectedTabChange** event occurs when non-selected tab is clicked, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object has the following properties:
 
-* __Tab__ - the currently selected tab.
+* **Tab** - the currently selected tab.
 
-* __PreviouslySelectedTab__ - the previously selected tab.
+* **PreviouslySelectedTab** - the previously selected tab.
 
 The following example demonstrates how to use the SelectedTabChange event to determine the new and the previously selected tab.
 

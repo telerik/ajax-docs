@@ -1,6 +1,6 @@
 ---
 title: OccurrenceDelete 
-page_title: OccurrenceDelete  | UI for ASP.NET AJAX Documentation
+page_title: OccurrenceDelete  | RadScheduler for ASP.NET AJAX Documentation
 description: OccurrenceDelete 
 slug: scheduler/server-side-programming/server-events/occurrencedelete-
 tags: occurrencedelete,
@@ -14,16 +14,16 @@ position: 17
 
 ## 
 
-The __OccurenceDelete__ event occurs when a single occurrence is deleted,but no exception is created in its place.
+The **OccurenceDelete** event occurs when a single occurrence is deleted,but no exception is created in its place.
 
-__OccurenceDelete__ has two parameters:
+**OccurenceDelete** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __OccurrenceDeleteEventArgs__.It has the following properties
+* **e** is an object of type **OccurrenceDeleteEventArgs**.It has the following properties
 
-* __Appointment -__the Master appointment;
+* **Appointment -**the Master appointment;
 
-* __OccurrenceAppointment -__the Occurrence that is about to be deleted;
+* **OccurrenceAppointment -**the Occurrence that is about to be deleted;
 
-* __Cancel -__if set to true, cancels the event;
+* **Cancel -**if set to true, cancels the event;

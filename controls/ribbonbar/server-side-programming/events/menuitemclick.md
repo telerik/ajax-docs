@@ -1,6 +1,6 @@
 ---
 title: MenuItemClick
-page_title: MenuItemClick | UI for ASP.NET AJAX Documentation
+page_title: MenuItemClick | RadRibbonBar for ASP.NET AJAX Documentation
 description: MenuItemClick
 slug: ribbonbar/server-side-programming/events/menuitemclick
 tags: menuitemclick
@@ -14,23 +14,23 @@ position: 6
 
 ## 
 
-The server-side __MenuItemClick__event occurs when the user clicks on a menu item, causing a postback.
+The server-side **MenuItemClick**event occurs when the user clicks on a menu item, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object with the following properties:
 
-* __Item__ - the clicked item.
+* **Item** - the clicked item.
 
-* __ParentItem__ - the parent item of the clicked item.
+* **ParentItem** - the parent item of the clicked item.
 
-* __Menu__ - the parent menu of the clicked item.
+* **Menu** - the parent menu of the clicked item.
 
-* __Group__ - the group of the clicked item parent menu.
+* **Group** - the group of the clicked item parent menu.
 
-* __Index__ - the index of the clicked item in its containing group.
+* **Index** - the index of the clicked item in its containing group.
 
 ````ASPNET
 	    <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" 

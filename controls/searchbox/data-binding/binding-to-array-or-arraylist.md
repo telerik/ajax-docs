@@ -1,6 +1,6 @@
 ---
 title: Binding to Array or ArrayList
-page_title: Binding to Array or ArrayList | UI for ASP.NET AJAX Documentation
+page_title: Binding to Array or ArrayList | RadSearchBox for ASP.NET AJAX Documentation
 description: Binding to Array or ArrayList
 slug: searchbox/data-binding/binding-to-array-or-arraylist
 tags: binding,to,array,or,arraylist
@@ -12,7 +12,7 @@ position: 1
 
 
 
-Both __Array__ and __ArrayList__ could be used as a Data Source by RadSearchBox. The following example demonstrates a valid use of both Data Sources, defining them at runtime.
+Both **Array** and **ArrayList** could be used as a Data Source by RadSearchBox. The following example demonstrates a valid use of both Data Sources, defining them at runtime.
 
 ## Binding to Array and ArrayList at runtime
 
@@ -29,7 +29,7 @@ The declarations of the RadSearchBox objects does not include DataSourceID prope
 
 
 
-One can use the __Page_Load__ event handler to create the Array and ArrayList by setting the __DataSource__ property of RadSearchBox accordingly.
+One can use the **Page_Load** event handler to create the Array and ArrayList by setting the **DataSource** property of RadSearchBox accordingly.
 
 
 

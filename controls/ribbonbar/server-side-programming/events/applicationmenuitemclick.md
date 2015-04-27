@@ -1,6 +1,6 @@
 ---
 title: ApplicationMenuItemClick
-page_title: ApplicationMenuItemClick | UI for ASP.NET AJAX Documentation
+page_title: ApplicationMenuItemClick | RadRibbonBar for ASP.NET AJAX Documentation
 description: ApplicationMenuItemClick
 slug: ribbonbar/server-side-programming/events/applicationmenuitemclick
 tags: applicationmenuitemclick
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-The server-side __ApplicationMenuItemClick__ event occurs when the user clicks on application menu item, causing a postback.
+The server-side **ApplicationMenuItemClick** event occurs when the user clicks on application menu item, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
-1. An EventArgs object. This object has an __Item__ property, which provides access to the item that has just been clicked.
+1. An EventArgs object. This object has an **Item** property, which provides access to the item that has just been clicked.
 
 The following example shows how to get the text of the clicked item:
 

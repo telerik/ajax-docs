@@ -1,6 +1,6 @@
 ---
 title: Design Time
-page_title: Design Time | UI for ASP.NET AJAX Documentation
+page_title: Design Time | RadRibbonBar for ASP.NET AJAX Documentation
 description: Design Time
 slug: ribbonbar/design-time
 tags: design,time
@@ -12,25 +12,25 @@ position: 2
 
 
 
-The __RadRibbonBar__ Smart Tag allows easy access to frequently needed tasks. You can display the Smart Tag by right clicking on a __RadRibbonBar__ control in the design window, and choosing __Show Smart Tag__.
+The **RadRibbonBar** Smart Tag allows easy access to frequently needed tasks. You can display the Smart Tag by right clicking on a **RadRibbonBar** control in the design window, and choosing **Show Smart Tag**.
 
 ## Smart Tag
 
-__RadRibbonBar's__ Smart Tag looks like the following:
+**RadRibbonBar's** Smart Tag looks like the following:
 
 ![RibbonBar Smart Tag](images/ribbonbar_smarttag.png)
 
-Using the__RadRibbonBar__ Smart Tag you can perform the following:
+Using the**RadRibbonBar** Smart Tag you can perform the following:
 
 ## Ajax Resources
 
-* __Add RadAjaxManager...__ adds a RadAjaxManager component to your Web page, and displays the __r.a.d.ajax Property Builder__ where you can configure it.
+* **Add RadAjaxManager...** adds a RadAjaxManager component to your Web page, and displays the **r.a.d.ajax Property Builder** where you can configure it.
 
-* Add __RadStyleSheetManager__ adds a __RadStyleSheetManager__ to your Web page.
+* Add **RadStyleSheetManager** adds a **RadStyleSheetManager** to your Web page.
 
 ## Skin
 
-The __Skin__ drop-down lets you preview the built-in [skins](F027C770-AAB1-4942-8908-0E448B952734) and select one for your menu.
+The **Skin** drop-down lets you preview the built-in [skins](F027C770-AAB1-4942-8908-0E448B952734) and select one for your menu.
 
 ![RibbonBar Skins](images/ribbonbar_skins.png)
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsCreated
-page_title: OnClientItemsCreated | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsCreated | RadSlider for ASP.NET AJAX Documentation
 description: OnClientItemsCreated
 slug: slider/client-side-programming/events/onclientitemscreated
 tags: onclientitemscreated
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientItemsCreated__ client-side event occurs when the items of the RadSlider control are created.
+The **OnClientItemsCreated** client-side event occurs when the items of the RadSlider control are created.
 
 The event handler receives two parameters:
 

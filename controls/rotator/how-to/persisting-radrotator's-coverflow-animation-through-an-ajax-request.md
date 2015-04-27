@@ -1,6 +1,6 @@
 ---
 title: Persisting RadRotator's CoverFlow Animation Through an AJAX Request
-page_title: Persisting RadRotator's CoverFlow Animation Through an AJAX Request | UI for ASP.NET AJAX Documentation
+page_title: Persisting RadRotator's CoverFlow Animation Through an AJAX Request | RadRotator for ASP.NET AJAX Documentation
 description: Persisting RadRotator's CoverFlow Animation Through an AJAX Request
 slug: rotator/how-to/persisting-radrotator's-coverflow-animation-through-an-ajax-request
 tags: persisting,radrotator's,coverflow,animation,through,an,ajax,request
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-In some scenarios you may need to Ajaxify the RadRotator control on your page.	Please keep in mind that if you have set the rotator control in __CoverFlow__ mode (__RotatorType=”CoverFlow”__),	the script that configures its animation options should be registered from the code-behind in order to persist the animation through the Ajax request.
+In some scenarios you may need to Ajaxify the RadRotator control on your page.	Please keep in mind that if you have set the rotator control in **CoverFlow** mode (**RotatorType=”CoverFlow”**),	the script that configures its animation options should be registered from the code-behind in order to persist the animation through the Ajax request.
 
-The following example demonstrates how to set the animation options if a RadRotator in __CoverFlow__ mode is placed in an UpdatePanel control.
+The following example demonstrates how to set the animation options if a RadRotator in **CoverFlow** mode is placed in an UpdatePanel control.
 
 ````ASPNET
 		<asp:UpdatePanel ID="UpdatePanel1" runat="server">

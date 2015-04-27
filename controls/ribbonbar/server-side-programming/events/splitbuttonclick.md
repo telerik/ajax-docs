@@ -1,6 +1,6 @@
 ---
 title: SplitButtonClick
-page_title: SplitButtonClick | UI for ASP.NET AJAX Documentation
+page_title: SplitButtonClick | RadRibbonBar for ASP.NET AJAX Documentation
 description: SplitButtonClick
 slug: ribbonbar/server-side-programming/events/splitbuttonclick
 tags: splitbuttonclick
@@ -14,21 +14,21 @@ position: 7
 
 ## 
 
-The server-side __SplitButtonClick__event occurs when the user clicks on a SplitButton item, causing a postback.
+The server-side **SplitButtonClick**event occurs when the user clicks on a SplitButton item, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar type__.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar type**.
 
 1. An EventArgs object with the following properties:
 
-* __Button__ - the button that has been clicked.
+* **Button** - the button that has been clicked.
 
-* __SplitButton__ - the parent split button of the clicked button.
+* **SplitButton** - the parent split button of the clicked button.
 
-* __Group__ - the group of the clicked button parent's group.
+* **Group** - the group of the clicked button parent's group.
 
-* __Index__ - the index of the clicked button in its containing group.
+* **Index** - the index of the clicked button in its containing group.
 
 ````ASPNET
 	    <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnSplitButtonClick="RadRibbonBar1_SplitButtonClick">

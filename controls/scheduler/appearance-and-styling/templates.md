@@ -1,6 +1,6 @@
 ---
 title: Templates
-page_title: Templates | UI for ASP.NET AJAX Documentation
+page_title: Templates | RadScheduler for ASP.NET AJAX Documentation
 description: Templates
 slug: scheduler/appearance-and-styling/templates
 tags: templates
@@ -12,23 +12,23 @@ position: 3
 
 
 
-__RadScheduler__ lets you change the appearance of appointments and of the in-line editor using templates. The __RadScheduler__ templates are powerfulenough to accommodate any content you want to embed, including HTML markup, ASP.NET server controls, and other third-party controls.
+**RadScheduler** lets you change the appearance of appointments and of the in-line editor using templates. The **RadScheduler** templates are powerfulenough to accommodate any content you want to embed, including HTML markup, ASP.NET server controls, and other third-party controls.
 
->caution When the advanced form is __modal__ (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly- __rsAdvancedEdit__ . When using the advanced templates, you need to make sure that you wrap your content within a container which has this class.You can find an example[here]({%slug scheduler/how-to/use-custom-modal-advanced-template%}).
+>caution When the advanced form is **modal** (<AdvancedForm Modal="true" />), it relies on a special CSS class to be displayed properly- **rsAdvancedEdit** . When using the advanced templates, you need to make sure that you wrap your content within a container which has this class.You can find an example[here]({%slug scheduler/how-to/use-custom-modal-advanced-template%}).
 >
 
 
-There are five types of templates that can be used with __RadScheduler__:
+There are five types of templates that can be used with **RadScheduler**:
 
-* __AppointmentTemplate__ - determines how appointments are rendered within the scheduler's view.
+* **AppointmentTemplate** - determines how appointments are rendered within the scheduler's view.
 
-* __InlineInsertTemplate__ - determines how the in-line editor appears for inserting a new appointment.
+* **InlineInsertTemplate** - determines how the in-line editor appears for inserting a new appointment.
 
-* __InlineEditTemplate__ - determines how the in-line editor appears for editing an existing appointment.
+* **InlineEditTemplate** - determines how the in-line editor appears for editing an existing appointment.
 
-* __AdvancedInsertTemplate__ - determines how the advanced edit form appears for inserting a new appointment.
+* **AdvancedInsertTemplate** - determines how the advanced edit form appears for inserting a new appointment.
 
-* __AdvancedEditTemplate__ - determines how the advanced edit form appears for editing an existing appointment.
+* **AdvancedEditTemplate** - determines how the advanced edit form appears for editing an existing appointment.
 
 ## AppointmentTemplate
 
@@ -77,7 +77,7 @@ There are five types of templates that can be used with __RadScheduler__:
 
 
 
-This template is more complicated, including a text box for entering the appointment subject, insert and cancel buttons that call client-side functions to insert or cancel,a link button to bring up the edit form, and a radio button list with color codes. To initialize the radio button list, use the __FormCreated__ event:
+This template is more complicated, including a text box for entering the appointment subject, insert and cancel buttons that call client-side functions to insert or cancel,a link button to bring up the edit form, and a radio button list with color codes. To initialize the radio button list, use the **FormCreated** event:
 
 
 
@@ -201,7 +201,7 @@ The edit template is similar to the insert template, except that it does not nee
 
 
 
-__FormCreated__
+**FormCreated**
 
 
 
@@ -257,7 +257,7 @@ __FormCreated__
 ````
 
 
-In addition, we need to add an __AppointmentCommand__ event handler to create the recurrence rule if the Repeat CheckBox is checked:
+In addition, we need to add an **AppointmentCommand** event handler to create the recurrence rule if the Repeat CheckBox is checked:
 
 
 
@@ -356,7 +356,7 @@ The result of the above code is shown below:![Advanced insert template](images/s
 
 
 
-__FormCreated__
+**FormCreated**
 
 
 
@@ -422,7 +422,7 @@ __FormCreated__
 ````
 
 
->note We do not need to make any changes to the __AppointmentCommand__ event handler for handling the recurring event check box.The existing event handler that we added for the __AdvancedInsertTemplate__ already handles the "Insert" command.
+>note We do not need to make any changes to the **AppointmentCommand** event handler for handling the recurring event check box.The existing event handler that we added for the **AdvancedInsertTemplate** already handles the "Insert" command.
 >
 
 
@@ -432,11 +432,11 @@ In addition you can find a full sample project for "Custom Edit Templates" by ad
 
 1. Right-click on the Web site name in Solution Explorer window. Select "RadControls for ASP.NET AJAX". From the submenu choose "Add RadScheduler Scenario".
 
-1. __Scenario Wizard__ appears with different scenarios. Choose __"Custom Edit Templates"__:![RadScheduler Scenario Wizard](images/scheduler_scenariowizardcustomedittemplate.png)
+1. **Scenario Wizard** appears with different scenarios. Choose **"Custom Edit Templates"**:![RadScheduler Scenario Wizard](images/scheduler_scenariowizardcustomedittemplate.png)
 
-1. Follow the wizard by pressing__"Next"__ button and finally press __"Finish"__. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added toyour project.
+1. Follow the wizard by pressing**"Next"** button and finally press **"Finish"**. A new .aspx page will be added to your project, depending on your choice in the Scenario Wizard. All necessary references will be added toyour project.
 
-1. Press __Ctrl+F5__ and run the application.
+1. Press **Ctrl+F5** and run the application.
 
 # See Also
 

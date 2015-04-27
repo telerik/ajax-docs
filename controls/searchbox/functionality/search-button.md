@@ -1,6 +1,6 @@
 ---
 title: Search Button
-page_title: Search Button | UI for ASP.NET AJAX Documentation
+page_title: Search Button | RadSearchBox for ASP.NET AJAX Documentation
 description: Search Button
 slug: searchbox/functionality/search-button
 tags: search,button
@@ -14,7 +14,7 @@ position: 2
 
 ## Search Button
 
-RadSearchBox contains a default "Search" button. Its visibility can be controlled easily with the __ShowSearchButton__ property.
+RadSearchBox contains a default "Search" button. Its visibility can be controlled easily with the **ShowSearchButton** property.
 
 ![searchbox autocomplete false with search button](images/searchbox_autocomplete_false_with_search_button.png)
 

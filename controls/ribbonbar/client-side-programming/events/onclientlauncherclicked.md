@@ -1,6 +1,6 @@
 ---
 title: OnClientLauncherClicked
-page_title: OnClientLauncherClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientLauncherClicked | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientLauncherClicked
 slug: ribbonbar/client-side-programming/events/onclientlauncherclicked
 tags: onclientlauncherclicked
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientLauncherClicked__ client-side event occurs when the user clicks on a ribbonbar group, after the ribbonbar responds to the mouse click.
+The **OnClientLauncherClicked** client-side event occurs when the user clicks on a ribbonbar group, after the ribbonbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_group()__ returns a reference to the ribbonbar group that was clicked. In this case it is __RibbonBarGroup__.
+* **get_group()** returns a reference to the ribbonbar group that was clicked. In this case it is **RibbonBarGroup**.
 
 # See Also
 

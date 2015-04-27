@@ -1,6 +1,6 @@
 ---
 title: Gestures Support
-page_title: Gestures Support | UI for ASP.NET AJAX Documentation
+page_title: Gestures Support | RadScheduler for ASP.NET AJAX Documentation
 description: Gestures Support
 slug: scheduler/mobile-support/gestures-support
 tags: gestures,support
@@ -14,20 +14,20 @@ position: 2
 
 ## 
 
-__RadScheduler__ handles gestures from touch enabled screens. You can use the tap, drag and tap and hold gestures to perform the following actions:
+**RadScheduler** handles gestures from touch enabled screens. You can use the tap, drag and tap and hold gestures to perform the following actions:
 
-* __Select an appointment__ — In order to select an appointment please __tap__ on the appointment element.
+* **Select an appointment** — In order to select an appointment please **tap** on the appointment element.
 
-* __Modify the start or end time of an appointment__ — In order to modify the start or end time of an appointment either __drag the appointment top resize handle__ or __drag the appointment bottom resize handle__.
+* **Modify the start or end time of an appointment** — In order to modify the start or end time of an appointment either **drag the appointment top resize handle** or **drag the appointment bottom resize handle**.
 
-* __Edit an appointment__ — In order to edit an appointment you can __tap and hold on the appointment element__.
+* **Edit an appointment** — In order to edit an appointment you can **tap and hold on the appointment element**.
 
-__Figure 1__ illustrates how to use touch device gestures on __RadScheduler__ for selecting and resizing an appointment.
+**Figure 1** illustrates how to use touch device gestures on **RadScheduler** for selecting and resizing an appointment.
 >caption Figure 1: RadScheduler handles tap and drag gestures on touch devices.
 
 ![scheduler-mobilerendering-selectandresizeappointment](images/scheduler-mobilerendering-selectandresizeappointment.png)
 
-__Figure 2__ illustrates how to use touch device gestures on __RadScheduler__ for editing an appointment.
+**Figure 2** illustrates how to use touch device gestures on **RadScheduler** for editing an appointment.
 >caption Figure 2: RadScheduler handles tap and hold gestures on touch devices.
 
 ![scheduler-edit-appointment-gestures](images/scheduler-edit-appointment-gestures.png)

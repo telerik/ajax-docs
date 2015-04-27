@@ -1,6 +1,6 @@
 ---
 title: AppointmentUpdate
-page_title: AppointmentUpdate | UI for ASP.NET AJAX Documentation
+page_title: AppointmentUpdate | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentUpdate
 slug: scheduler/server-side-programming/server-events/appointmentupdate
 tags: appointmentupdate
@@ -12,19 +12,19 @@ position: 4
 
 
 
-The __AppointmentUpdate__ event occurs just before the scheduler calls its data source to update an appointment.
+The **AppointmentUpdate** event occurs just before the scheduler calls its data source to update an appointment.
 
-__AppointmentUpdate__ has two parameters:
+**AppointmentUpdate** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __AppointmentUpdateEventArgs__.It has three properties:
+* **e** is an object of type **AppointmentUpdateEventArgs**.It has three properties:
 
-* __Appointment__ is the original appointment before any updates. Any modificationsyou make to this object are discarded.
+* **Appointment** is the original appointment before any updates. Any modificationsyou make to this object are discarded.
 
-* __ModifiedAppointment__ is the updated appointment that is about to bewritten to the data source. You can modify the updated appointment to change the way the updatesare written to the data source.
+* **ModifiedAppointment** is the updated appointment that is about to bewritten to the data source. You can modify the updated appointment to change the way the updatesare written to the data source.
 
-* __Cancel__ is a boolean value that lets you prevent the update.
+* **Cancel** is a boolean value that lets you prevent the update.
 
 ## Example
 

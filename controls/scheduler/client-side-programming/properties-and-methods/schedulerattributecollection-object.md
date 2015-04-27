@@ -1,6 +1,6 @@
 ---
 title: SchedulerAttributeCollection Object
-page_title: SchedulerAttributeCollection Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerAttributeCollection Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerAttributeCollection Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerattributecollection-object
 tags: schedulerattributecollection,object
@@ -23,7 +23,7 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_count()__ |None|Int|Gets the number of attributes in the collection.|
+| **get_count()** |None|Int|Gets the number of attributes in the collection.|
 
 ## Methods
 
@@ -32,9 +32,9 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Value | Description |
 | ------ | ------ | ------ | ------ |
-| __getAttribute()__ |String|String|Gets the value of the attribute with the specified name (key).|
-| __removeAttribute()__ |String|None|Removes the attribute with the specified name (key) from the collection.|
-| __setAttribute()__ |String (key), String (value)|None|Sets the specified value to the attribute with the specified name (key). If an attribute with such name (key) does not exist in the collection, it will be added.|
+| **getAttribute()** |String|String|Gets the value of the attribute with the specified name (key).|
+| **removeAttribute()** |String|None|Removes the attribute with the specified name (key) from the collection.|
+| **setAttribute()** |String (key), String (value)|None|Sets the specified value to the attribute with the specified name (key). If an attribute with such name (key) does not exist in the collection, it will be added.|
 
 # See Also
 

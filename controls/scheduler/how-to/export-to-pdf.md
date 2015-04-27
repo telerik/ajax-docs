@@ -1,6 +1,6 @@
 ---
 title: Export to PDF
-page_title: Export to PDF | UI for ASP.NET AJAX Documentation
+page_title: Export to PDF | RadScheduler for ASP.NET AJAX Documentation
 description: Export to PDF
 slug: scheduler/how-to/export-to-pdf
 tags: export,to,pdf
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-To export the scheduler content to PDF format simply use the__ExportToPdf()__server-side method. For example in case you want to apply a simple button using the server-side OnClick event of the button you could add the following code:
+To export the scheduler content to PDF format simply use the**ExportToPdf()**server-side method. For example in case you want to apply a simple button using the server-side OnClick event of the button you could add the following code:
 
 ````ASPNET
 	 
@@ -53,11 +53,11 @@ To export the scheduler content to PDF format simply use the__ExportToPdf()__ser
 
 ## Troubleshooting
 
-The rendered scheduler output should be valid XHTML. If it is not, you will receive exceptions on export.The most common cause for bad XHTML are symbols like __<__,__>__,__&__ that need to bereplaced by the correct *XHTML* entity: __& l t ;__, __& g t ;__, __& a m p ;__respectively. Another frequent problem is unclosed tags.
+The rendered scheduler output should be valid XHTML. If it is not, you will receive exceptions on export.The most common cause for bad XHTML are symbols like **<**,**>**,**&** that need to bereplaced by the correct *XHTML* entity: **& l t ;**, **& g t ;**, **& a m p ;**respectively. Another frequent problem is unclosed tags.
 
 Problem:
 
-__'div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.__
+**'div' start tag on line 96 position 15 does not match the end tag of 'li'. Line 102, position 13.**
 
 Suggested solution:
 
@@ -65,11 +65,11 @@ Most likely it is caused by not closed html tags declared in scheduler templates
 
 Problem:
 
-__System.SystemException: Error while creating area : Encountered web exception while fetching image from__
+**System.SystemException: Error while creating area : Encountered web exception while fetching image from**
 
-__http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:__
+**http://localhost:51300/Telerik.Web.UI.WebResource.axd?imgid=324e7fbdeca947c2b9a6c7ca14c88e87&type=rbi:**
 
-__The remote server returned an error: (500) Internal Server Error.__
+**The remote server returned an error: (500) Internal Server Error.**
 
 Suggested solution:
 
@@ -83,7 +83,7 @@ For more details refer to the [General TroubleShooting help topic](http://www.te
 
 Problem:
 
-__System.ArgumentException: Parameter is not valid.
+**System.ArgumentException: Parameter is not valid.
 at System.Drawing.Bitmap..ctor(Stream stream)
 at Telerik.Web.Apoc.Image.ApocImage..ctor(String href, Byte[] imageData)
 at Telerik.Web.Apoc.Image.ApocImageFactory.Make(String href)
@@ -94,7 +94,7 @@ at Telerik.Web.Apoc.Fo.Flow.Flow.Layout(Area area)
 at Telerik.Web.Apoc.Fo.Pagination.PageSequence.Format(AreaTree areaTree)
 at Telerik.Web.Apoc.StreamRenderer.Render(PageSequence pageSequence)
 at Telerik.Web.Apoc.Fo.FOTreeBuilder.EndElement()
-at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)__
+at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)**
 
 Suggested solution:
 
@@ -135,65 +135,65 @@ Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
 
 Problem:
 
-__An error occurred while parsing EntityName. Line 1246, position 58or'' is an unexpected token. The expected token is ';'. Line 131, position 10.__
+**An error occurred while parsing EntityName. Line 1246, position 58or'' is an unexpected token. The expected token is ';'. Line 131, position 10.**
 
 Suggested solution:
 
 If special characters are used, replace them by valid HTML equivalents:
-__&__ - __& a m p ;__ …..
+**&** - **& a m p ;** …..
 
 You can use this article for reference -[Special Characters in HTML](http://www.degraeve.com/reference/specialcharacters.php)
 .
 
 ## Common properties
 
-You can configure the exporting settings for the scheduler through the	__RadScheduler.ExportSettings__ section. Furthermore there is additional sub-category (Pdf) dedicated on various configuration settings for the exported .pdf document. Here are the available properties:
+You can configure the exporting settings for the scheduler through the	**RadScheduler.ExportSettings** section. Furthermore there is additional sub-category (Pdf) dedicated on various configuration settings for the exported .pdf document. Here are the available properties:
 
-* __FileName__ - - a string specifying the name (without the extension)of the file that will be created. The file extension is automatically added based on the method that is used.
+* **FileName** - - a string specifying the name (without the extension)of the file that will be created. The file extension is automatically added based on the method that is used.
 
-* __OpenInNewWindow__ - open the exported scheduler in a new instead of the same page.
+* **OpenInNewWindow** - open the exported scheduler in a new instead of the same page.
 
-There is an additional sub-category __(Pdf)__for the __ExportSettings__ dedicated on various configuration settings for the exported .pdf document. Below is a list of them:
+There is an additional sub-category **(Pdf)**for the **ExportSettings** dedicated on various configuration settings for the exported .pdf document. Below is a list of them:
 
-* __AllowAdd__- Boolean property which determines whether content adding is allowed
+* **AllowAdd**- Boolean property which determines whether content adding is allowed
 
-* __AllowCopy__- Boolean property which determines whether content copying is allowed
+* **AllowCopy**- Boolean property which determines whether content copying is allowed
 
-* __AllowModify__- Boolean property which determines whether content modifications are allowed
+* **AllowModify**- Boolean property which determines whether content modifications are allowed
 
-* __AllowPrint__ - Boolean property which determines whether the pdf document can be printed
+* **AllowPrint** - Boolean property which determines whether the pdf document can be printed
 
-* __PageTitle__- Sets the title of the page
+* **PageTitle**- Sets the title of the page
 
-* __PageLeftMargin__- Sets the left margin for the pages in the pdf document
+* **PageLeftMargin**- Sets the left margin for the pages in the pdf document
 
-* __PageRightMargin__- Sets the right margin for the pages in the pdf document
+* **PageRightMargin**- Sets the right margin for the pages in the pdf document
 
-* __PageTopMargin__- Sets the top margin for the pages in the pdf document
+* **PageTopMargin**- Sets the top margin for the pages in the pdf document
 
-* __PageBottomMargin__- Sets the bottom margin for the pages in the pdf document
+* **PageBottomMargin**- Sets the bottom margin for the pages in the pdf document
 
-* __PageHeaderMargin__- Sets the header margin for the pages in the pdf document
+* **PageHeaderMargin**- Sets the header margin for the pages in the pdf document
 
-* __PageFooterMargin__- Sets the footer margin for the pages in the pdf document
+* **PageFooterMargin**- Sets the footer margin for the pages in the pdf document
 
-* __PageHeight__- Sets the height of the pages in the pdf document
+* **PageHeight**- Sets the height of the pages in the pdf document
 
-* __PageWidth__- Sets the width of the pages in the pdf document
+* **PageWidth**- Sets the width of the pages in the pdf document
 
-* __Author__- Sets the name of the author of the pdf document
+* **Author**- Sets the name of the author of the pdf document
 
-* __Keywords__- Sets the keywords for the pdf document
+* **Keywords**- Sets the keywords for the pdf document
 
-* __Subject__- Sets the subject of the pdf document
+* **Subject**- Sets the subject of the pdf document
 
-* __Title__- Sets the title of the pdf document
+* **Title**- Sets the title of the pdf document
 
-* __PaperSize__- Enumeration which specifies the paper font size. The default value is Letter
+* **PaperSize**- Enumeration which specifies the paper font size. The default value is Letter
 
-* __Producer__ - Specifies the producer of the resulting pdf document
+* **Producer** - Specifies the producer of the resulting pdf document
 
-* __Creator__- Specifies the creator of the resulting pdf document
+* **Creator**- Specifies the creator of the resulting pdf document
 
 Here is an example of how to apply these settings:
 

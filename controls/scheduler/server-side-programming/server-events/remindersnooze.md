@@ -1,6 +1,6 @@
 ---
 title: ReminderSnooze
-page_title: ReminderSnooze | UI for ASP.NET AJAX Documentation
+page_title: ReminderSnooze | RadScheduler for ASP.NET AJAX Documentation
 description: ReminderSnooze
 slug: scheduler/server-side-programming/server-events/remindersnooze
 tags: remindersnooze
@@ -18,13 +18,13 @@ The ReminderSnooze event occurs when a reminder has been snoozed.
 
 The event arguments contain:
 
-* __Reminder__ - The snoozed reminder with updated Trigger value
+* **Reminder** - The snoozed reminder with updated Trigger value
 
-* __Appointment__ - The original appointment with non-modified reminders
+* **Appointment** - The original appointment with non-modified reminders
 
-* __ModifiedAppointment__ - The modified appointment with updated reminders
+* **ModifiedAppointment** - The modified appointment with updated reminders
 
-The operation can be cancelled by setting the __Cancel__ property of the event arguments to true.
+The operation can be cancelled by setting the **Cancel** property of the event arguments to true.
 
 
 

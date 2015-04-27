@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentResizeStart
-page_title: OnClientAppointmentResizeStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentResizeStart | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentResizeStart
 slug: scheduler/client-side-programming/events/onclientappointmentresizestart
 tags: onclientappointmentresizestart
@@ -12,17 +12,17 @@ position: 7
 
 
 
-The __OnClientAppointmentResizeStart__ client-side event is called before an appointment starts to resize.
+The **OnClientAppointmentResizeStart** client-side event is called before an appointment starts to resize.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ returns the appointment that is about to be resized.
+* **get_appointment()** returns the appointment that is about to be resized.
 
-* __set_cancel()__ lets you permit or block the resize of the appointment. Calling __set_cancel(true)__ stops the resize, while __set_cancel(false)__ allows the user to give the appointment a new duration.
+* **set_cancel()** lets you permit or block the resize of the appointment. Calling **set_cancel(true)** stops the resize, while **set_cancel(false)** allows the user to give the appointment a new duration.
 
 ## Example
 

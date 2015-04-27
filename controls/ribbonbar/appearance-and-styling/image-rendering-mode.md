@@ -1,6 +1,6 @@
 ---
 title: Image Rendering Mode
-page_title: Image Rendering Mode | UI for ASP.NET AJAX Documentation
+page_title: Image Rendering Mode | RadRibbonBar for ASP.NET AJAX Documentation
 description: Image Rendering Mode
 slug: ribbonbar/appearance-and-styling/image-rendering-mode
 tags: image,rendering,mode
@@ -34,11 +34,11 @@ Image Rendering Mode is implemented on both control and item level. And in both 
 
 By default the selected value is Auto.
 
-1. __ImageRenderingMode.Auto__When no mode is explicitly selected (or Auto is), RadRibbonBar tries to determine the appropriate rendering mode on per-item basis. We strongly recommend to always explicitly set on of the other two modes – Clip and Dual. Simply because there are items with very hard to determine mode scenarios. Perhaps the best example of such item is RibbonBarSplitButton – it has a selected button, but at the same time it has the possibility of setting all images directly on it. This makes the determining of the Rendering Mode far too complex and many scenarios cannot be covered automatically. Otherwise the algorithm is basically working as following: if there is a large image set (ImageUrlLarge or DisabledImageUrlLarge), the mode is Dual. If there are no large images set, but there is a small image set – the mode is Clip. If no images are set – the mode is Dual again and default RibbonBar images are displayed.
+1. **ImageRenderingMode.Auto**When no mode is explicitly selected (or Auto is), RadRibbonBar tries to determine the appropriate rendering mode on per-item basis. We strongly recommend to always explicitly set on of the other two modes – Clip and Dual. Simply because there are items with very hard to determine mode scenarios. Perhaps the best example of such item is RibbonBarSplitButton – it has a selected button, but at the same time it has the possibility of setting all images directly on it. This makes the determining of the Rendering Mode far too complex and many scenarios cannot be covered automatically. Otherwise the algorithm is basically working as following: if there is a large image set (ImageUrlLarge or DisabledImageUrlLarge), the mode is Dual. If there are no large images set, but there is a small image set – the mode is Clip. If no images are set – the mode is Dual again and default RibbonBar images are displayed.
 
-1. __ImageRenderingMode.Clip__In this mode the images are assigned through the ImageUrl and DisabledImageUrl. ImageUrl image contains both small and large image for the enabled state of the item, and the DisabledImageUrl contains the images for the disabled state. Images set in the ImageUrlLarge and DisabledImageUrlLarge are disregarded.
+1. **ImageRenderingMode.Clip**In this mode the images are assigned through the ImageUrl and DisabledImageUrl. ImageUrl image contains both small and large image for the enabled state of the item, and the DisabledImageUrl contains the images for the disabled state. Images set in the ImageUrlLarge and DisabledImageUrlLarge are disregarded.
 
-1. __ImageRenderingMode.Dual__When Dual is explicitly set (or resolved to, from Auto), small images are set through ImageUrl and DisabledImageUrl and large images are set through ImageUrlLarge and DisabledImageUrlLarge.
+1. **ImageRenderingMode.Dual**When Dual is explicitly set (or resolved to, from Auto), small images are set through ImageUrl and DisabledImageUrl and large images are set through ImageUrlLarge and DisabledImageUrlLarge.
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientDataBound | RadRotator for ASP.NET AJAX Documentation
 description: OnClientDataBound
 slug: rotator/client-side-programming/events/onclientdatabound
 tags: onclientdatabound
@@ -12,15 +12,15 @@ position: 11
 
 
 
-This article demonstrates how the __OnClientDataBound__ event can be used to trigger a logic when the data binding of the __RadRortator__ is finished.
+This article demonstrates how the **OnClientDataBound** event can be used to trigger a logic when the data binding of the **RadRortator** is finished.
 
 ## 
 
-The event handler receives only one parameter. The __RadRotator__ instance that fired the event.
+The event handler receives only one parameter. The **RadRotator** instance that fired the event.
 
-__Example 1__ demonstrates how to use the __OnClientDataBound__ event to show an alert in the browser when the data binding is finished.
+**Example 1** demonstrates how to use the **OnClientDataBound** event to show an alert in the browser when the data binding is finished.
 
-__Example 1__: Using the __OnClientDataBound__ event.
+**Example 1**: Using the **OnClientDataBound** event.
 
 ````ASPNET
 		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">

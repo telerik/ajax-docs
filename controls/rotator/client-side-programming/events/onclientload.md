@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadRotator for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: rotator/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientLoad__ client-side event occurs after the RadRotator loads on the page.
+The **OnClientLoad** client-side event occurs after the RadRotator loads on the page.
 
 The event handler receives two parameters:
 

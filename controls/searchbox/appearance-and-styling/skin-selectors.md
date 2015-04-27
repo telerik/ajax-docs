@@ -1,6 +1,6 @@
 ---
 title: Skin Selectors
-page_title: Skin Selectors | UI for ASP.NET AJAX Documentation
+page_title: Skin Selectors | RadSearchBox for ASP.NET AJAX Documentation
 description: Skin Selectors
 slug: searchbox/appearance-and-styling/skin-selectors
 tags: skin,selectors
@@ -19,7 +19,7 @@ The following table lists the CSS selectors and descriptions for RadSearchBox st
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |
-|RadSearchBox_[Skin]e.g. RadSearchBox_ __Default__ |DIV|Applied to the root element of the searchBox.|
+|RadSearchBox_[Skin]e.g. RadSearchBox_ **Default** |DIV|Applied to the root element of the searchBox.|
 |rsbInner|SPAN|Applied to the inner wrap of the searchBox.|
 |rsbInput|INPUT|Applied to the input element of the searchBox. The class controls the font of the input e.g. font-size, color etc.|
 |rsbEmptyMessage|INPUT|Applied to the input element of the searchBox if there is no text in it. The class controls the font of the empty message e.g. font-size, colors etc.|

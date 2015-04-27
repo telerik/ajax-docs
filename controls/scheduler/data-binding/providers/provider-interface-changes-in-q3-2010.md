@@ -1,6 +1,6 @@
 ---
 title: Provider Interface Changes in Q3 2010
-page_title: Provider Interface Changes in Q3 2010 | UI for ASP.NET AJAX Documentation
+page_title: Provider Interface Changes in Q3 2010 | RadScheduler for ASP.NET AJAX Documentation
 description: Provider Interface Changes in Q3 2010
 slug: scheduler/data-binding/providers/provider-interface-changes-in-q3-2010
 tags: provider,interface,changes,in,q3,2010
@@ -14,7 +14,7 @@ position: 3
 
 ## Motivation
 
-It is often necessary to send additional data to the underlying data provider. This can be any form of meta-data that is not part of the appointments themselves. The interface defined by the original __SchedulerProviderBase__ abstract base class did not provide any means of doing so. Side-channels, such as the Session, had to be used to transfer such meta-data.
+It is often necessary to send additional data to the underlying data provider. This can be any form of meta-data that is not part of the appointments themselves. The interface defined by the original **SchedulerProviderBase** abstract base class did not provide any means of doing so. Side-channels, such as the Session, had to be used to transfer such meta-data.
 
 We also chose to simplify the retrieving of resources and it now requires implementing one method instead of two.
 
@@ -22,9 +22,9 @@ The Q3 2010 version of RadScheduler introduces a number of important changes tha
 
 ## Changes to the provider interface
 
-1. The __GetAppointments__, __Insert__, __Update__ and __Delete__ methods now have overloads that take __ISchedulerInfo__ as first parameter instead of RadScheduler.
+1. The **GetAppointments**, **Insert**, **Update** and **Delete** methods now have overloads that take **ISchedulerInfo** as first parameter instead of RadScheduler.
 
-1. A new __GetResources__ method replaces __GetResourceTypes__ and __GetResourcesByType__. It also takes __ISchedulerInfo__ as first parameter.
+1. A new **GetResources** method replaces **GetResourceTypes** and **GetResourcesByType**. It also takes **ISchedulerInfo** as first parameter.
 
 1. The legacy methods are no longer abstract. A runtime exception will be throw if you don't implement either the new or the old version of each method.
 
@@ -99,7 +99,7 @@ Your existing provider implementations will continue to work without change. The
 
 1. Replace the "*RadScheduler owner*" parameter with "*ISchedulerInfo schedulerInfo*"
 
-1. Merge __GetResourceTypes__ and __GetResourcesByType__ into a single method overriding __GetResources__
+1. Merge **GetResourceTypes** and **GetResourcesByType** into a single method overriding **GetResources**
 
 # See Also
 

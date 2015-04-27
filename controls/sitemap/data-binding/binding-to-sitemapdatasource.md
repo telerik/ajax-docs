@@ -1,6 +1,6 @@
 ---
 title: Binding to SiteMapDataSource
-page_title: Binding to SiteMapDataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to SiteMapDataSource | RadSiteMap for ASP.NET AJAX Documentation
 description: Binding to SiteMapDataSource
 slug: sitemap/data-binding/binding-to-sitemapdatasource
 tags: binding,to,sitemapdatasource
@@ -12,23 +12,23 @@ position: 1
 
 
 
-Some data sources are inherently hierarchical. These include __SiteMapDataSource__ and __XmlDataSource__. When data-bound to these types of data sources, __RadSiteMap__ automatically creates the node hierarchy. There is no need to use the __DataFieldID__ and __DataFieldParentID__ properties.
+Some data sources are inherently hierarchical. These include **SiteMapDataSource** and **XmlDataSource**. When data-bound to these types of data sources, **RadSiteMap** automatically creates the node hierarchy. There is no need to use the **DataFieldID** and **DataFieldParentID** properties.
 
 ## Binding to SiteMapDataSource
 
-When binding to __SiteMapDataSource__, there is no need to set any properties to map fields from the data source to properties of the nodes. This is because site maps have a strictly defined structure.
+When binding to **SiteMapDataSource**, there is no need to set any properties to map fields from the data source to properties of the nodes. This is because site maps have a strictly defined structure.
 
-The __SiteMapDataSource__ control defines the structure of your Web site. By default the __SiteMapDataSource__ control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
+The **SiteMapDataSource** control defines the structure of your Web site. By default the **SiteMapDataSource** control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
 
-The default site navigation provider is XML-based. It should stay in the root level of your project and should be named __web.sitemap__. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
+The default site navigation provider is XML-based. It should stay in the root level of your project and should be named **web.sitemap**. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
 
 
 
 ## Setting the SiteMapDataSource control
 
-Before adding the __SiteMapDataSource__ control to your page, you need to add the Site Navigation Provider.
+Before adding the **SiteMapDataSource** control to your page, you need to add the Site Navigation Provider.
 
-1. In the Solution Explorer, choose __Add New Item__... In the templates dialog, select __Site Map__:
+1. In the Solution Explorer, choose **Add New Item**... In the templates dialog, select **Site Map**:
 
 ![New SiteMap](images/sitemap_newsitemap.png)
 
@@ -74,25 +74,25 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 
 
-4. Drag a __SiteMapDataSource__ instance from the Toolbox to your Web page.
+4. Drag a **SiteMapDataSource** instance from the Toolbox to your Web page.
 
-5. Set the __ShowStartingNode__ property of the __SiteMapDataSource__ component to __False__. This allows you to use multiple menu items at the root level.
+5. Set the **ShowStartingNode** property of the **SiteMapDataSource** component to **False**. This allows you to use multiple menu items at the root level.
 
 
 
 ## Binding RadSiteMap to SiteMapDataSource
 
-1. From the __RadSiteMap__ property pane, set the __DataSourceID__ to the __ID__ of the __SiteMapDataSource__ control.
+1. From the **RadSiteMap** property pane, set the **DataSourceID** to the **ID** of the **SiteMapDataSource** control.
 
-2. Each __siteMapNode__ has three attributes which are mapped automatically to the respective properties:
+2. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
 
-* __url__ - Maps to the __NavigateUrl__ property.The path can be either relative (using the ~/), or absolute.
+* **url** - Maps to the **NavigateUrl** property.The path can be either relative (using the ~/), or absolute.
 
-* __title__ - Maps to the __Text__ property.
+* **title** - Maps to the **Text** property.
 
-* __description__ - Maps to the __ToolTip__ property.
+* **description** - Maps to the **ToolTip** property.
 
-To set additional properties or overwrite already populated fields, use the [NodeDataBound]({%slug sitemap/server-side-programming/nodedatabound%}) event. The example below overwrites the __TooTip__ property with the Text value of the item and sets the __Value__ property to a concatenated string of [Text] + [URL]:
+To set additional properties or overwrite already populated fields, use the [NodeDataBound]({%slug sitemap/server-side-programming/nodedatabound%}) event. The example below overwrites the **TooTip** property with the Text value of the item and sets the **Value** property to a concatenated string of [Text] + [URL]:
 
 
 

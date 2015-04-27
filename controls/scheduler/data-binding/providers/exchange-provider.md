@@ -1,6 +1,6 @@
 ---
 title: Exchange Provider
-page_title: Exchange Provider | UI for ASP.NET AJAX Documentation
+page_title: Exchange Provider | RadScheduler for ASP.NET AJAX Documentation
 description: Exchange Provider
 slug: scheduler/data-binding/providers/exchange-provider
 tags: exchange,provider
@@ -16,11 +16,11 @@ position: 5
 
 The provider model supported by RadScheduler can be used for synchronization with multitude of data sources. The provider uses Exchange Web Services over HTTP/HTTPS as means to communicate with the Exchange server.
 
-__Distribution__
+**Distribution**
 
 The Exchange provider is distributed as web site project in our [RadScheduler SDK](https://github.com/telerik/aspnet-sdk/tree/master/Scheduler) and the source code of the provider is located in the App_Code folder.
 
-__Usage__
+**Usage**
 
 >note Please be aware that Reminders functionality is not supported when Exchange provider is used.
 >
@@ -96,12 +96,12 @@ The provider is now set up and will be shared by all RadScheduler instances that
 
 
 
-__Reference__
+**Reference**
 
 * The Exchange provider uses proxies generated using the wsdl tool. Complete description of the wsdl tool can be found here: [http://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx](http://msdn.microsoft.com/en-us/library/7h3ystb6(VS.71).aspx).
 
 * Information about using Exchange Web Services can be found on MSDN: [http://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx](http://msdn.microsoft.com/en-us/library/bb204119(EXCHG.80).aspx).
 
-__Recommended reading:__
+**Recommended reading:**
 
 * “Inside Microsoft® Exchange Server 2007 Web Services”, David Sterling, Ben Spain, Michael Mainer, Mark Taylor, Huw Upshall; Microsoft Press, ISBN: 0735623929

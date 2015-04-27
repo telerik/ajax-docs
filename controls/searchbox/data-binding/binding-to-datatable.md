@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable | RadSearchBox for ASP.NET AJAX Documentation
 description: Binding to DataTable
 slug: searchbox/data-binding/binding-to-datatable
 tags: binding,to,datatable
@@ -12,11 +12,11 @@ position: 2
 
 
 
-__RadSearchBox__ can be bound to a __DataTable__, __DataSet__ and __DataView__ objects. The following example shows binding to a DataTable object.
+**RadSearchBox** can be bound to a **DataTable**, **DataSet** and **DataView** objects. The following example shows binding to a DataTable object.
 
 ## Binding to a DataTable at runtime
 
-The declaration of __RadSearchBox__ in the markup does not include __DataSourceID__ property.
+The declaration of **RadSearchBox** in the markup does not include **DataSourceID** property.
 
 ````ASPNET
 		 <telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
@@ -26,7 +26,7 @@ The declaration of __RadSearchBox__ in the markup does not include __DataSourceI
 
 
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then setting the __DataSource__ property.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then setting the **DataSource** property.
 
 
 

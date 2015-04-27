@@ -1,6 +1,6 @@
 ---
 title: Changes and Backward Compatibility
-page_title: Changes and Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and Backward Compatibility | RadRotator for ASP.NET AJAX Documentation
 description: Changes and Backward Compatibility
 slug: rotator/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -42,8 +42,8 @@ RadRotator for ASP.NET AJAX which is part of the Q3 2008 release is fully backwa
 
 ## Important:
 
-__RadRotator for ASP.NET AJAX__ is built upon a new logic which improves the experience and at the same time reduces the number of properties needed to configure the control. There are two major reasons for the new architecture being very different from RadRotator for ASP.NET. The new version is built upon the MS AJAX convention rules and programming model and the second reason is that we plan to add several new important reasons to the control which would not have been possible to integrate in an elegant manner with the old logic.
+**RadRotator for ASP.NET AJAX** is built upon a new logic which improves the experience and at the same time reduces the number of properties needed to configure the control. There are two major reasons for the new architecture being very different from RadRotator for ASP.NET. The new version is built upon the MS AJAX convention rules and programming model and the second reason is that we plan to add several new important reasons to the control which would not have been possible to integrate in an elegant manner with the old logic.
 
 
 
-__RadRotator for ASP.NET AJAX__ is not compatible with RadRotator for ASP.NET, however its simplified configuration logic will allow users to easily replace the old version with the new one. The controls is yet to be further improved and new features will be added, providing even better experience in the future.
+**RadRotator for ASP.NET AJAX** is not compatible with RadRotator for ASP.NET, however its simplified configuration logic will allow users to easily replace the old version with the new one. The controls is yet to be further improved and new features will be added, providing even better experience in the future.

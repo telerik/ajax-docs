@@ -1,6 +1,6 @@
 ---
 title: OnClientItemShowing
-page_title: OnClientItemShowing | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemShowing | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemShowing
 slug: rotator/client-side-programming/events/onclientitemshowing
 tags: onclientitemshowing
@@ -14,13 +14,13 @@ position: 4
 
 ## 
 
-The __ItemShowing__ event occurs when an item of the RadRotator control is about to be shown, before the __ItemShown__ event (__OnClientItemShown__). This event can be canceled.
+The **ItemShowing** event occurs when an item of the RadRotator control is about to be shown, before the **ItemShown** event (**OnClientItemShown**). This event can be canceled.
 
 The event handler receives two parameters:
 
 1. The RadRotator instance that fired the event.
 
-1. An eventArgs parameter of type Telerik.Web.UI.__RadRotatorCancelEventArgs__ containing the following properties and methods:
+1. An eventArgs parameter of type Telerik.Web.UI.**RadRotatorCancelEventArgs** containing the following properties and methods:
 
 * get_cancel() - returns a bool value that indicates whether the event was canceled. True means the event is canceled.
 

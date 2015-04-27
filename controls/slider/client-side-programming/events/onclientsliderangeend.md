@@ -1,6 +1,6 @@
 ---
 title: OnClientSlideRangeEnd
-page_title: OnClientSlideRangeEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientSlideRangeEnd | RadSlider for ASP.NET AJAX Documentation
 description: OnClientSlideRangeEnd
 slug: slider/client-side-programming/events/onclientsliderangeend
 tags: onclientsliderangeend
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientSlideRangeEnd__ client-side event occurs when user releases the selected region of RadSlider after dragging it, thus changingboth __SelectionStart__ and __SelectionEnd__ values. The properties __EnableDragRange__and __IsSelectionRangeEnabled__ of RadSlider should be set to __true__ in order to enable the sliding region of the control.
+The **OnClientSlideRangeEnd** client-side event occurs when user releases the selected region of RadSlider after dragging it, thus changingboth **SelectionStart** and **SelectionEnd** values. The properties **EnableDragRange**and **IsSelectionRangeEnabled** of RadSlider should be set to **true** in order to enable the sliding region of the control.
 
 The event handler receives two parameters:
 

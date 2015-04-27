@@ -1,6 +1,6 @@
 ---
 title: OnItemDataBound
-page_title: OnItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnItemDataBound | RadSearchBox for ASP.NET AJAX Documentation
 description: OnItemDataBound
 slug: searchbox/search-context/events/onitemdatabound
 tags: onitemdatabound
@@ -12,17 +12,17 @@ position: 0
 
 
 
-The following article demonstrates the usage of the server-side event __OnItemDataBound__.
+The following article demonstrates the usage of the server-side event **OnItemDataBound**.
 
 ## 
 
-The __ItemDataBound__ event occurs for each item that is added to the Items collection of the __SearchContext__ when it is bound. This event only occurs if the items are loaded from a data source (the DataSource or DataSourceID property is set). The event handler receives two parameters:
+The **ItemDataBound** event occurs for each item that is added to the Items collection of the **SearchContext** when it is bound. This event only occurs if the items are loaded from a data source (the DataSource or DataSourceID property is set). The event handler receives two parameters:
 
-* __The SearchContext__ that is loading items. This argument is of type object, but can be cast to the SearchContext type.
+* **The SearchContext** that is loading items. This argument is of type object, but can be cast to the SearchContext type.
 
-* A __SearchBoxContextItemEventArgs__ object. This object has an Item property, which provides access to the item that was just bound. This item has a DataItem property, which lets you access the item in the data source, to which the __SearchContextItem__ is being bound.
+* A **SearchBoxContextItemEventArgs** object. This object has an Item property, which provides access to the item that was just bound. This item has a DataItem property, which lets you access the item in the data source, to which the **SearchContextItem** is being bound.
 
-__Example 1__: Demonstrates how to use the __ItemDataBound__ event handler, in order to set the __ImageUrl__ property of the __SearchContextItem__. 
+**Example 1**: Demonstrates how to use the **ItemDataBound** event handler, in order to set the **ImageUrl** property of the **SearchContextItem**. 
 
 
 

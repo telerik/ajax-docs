@@ -1,6 +1,6 @@
 ---
 title: NumericTextBoxValueChanged 
-page_title: NumericTextBoxValueChanged  | UI for ASP.NET AJAX Documentation
+page_title: NumericTextBoxValueChanged  | RadRibbonBar for ASP.NET AJAX Documentation
 description: NumericTextBoxValueChanged 
 slug: ribbonbar/server-side-programming/events/numerictextboxvaluechanged-
 tags: numerictextboxvaluechanged,
@@ -14,16 +14,16 @@ position: 13
 
 ## 
 
-The server-side __OnNumericTextBoxValueChanged__ event occurs when the user changes the value in the NumericTextBox, causing a postback.
+The server-side **OnNumericTextBoxValueChanged** event occurs when the user changes the value in the NumericTextBox, causing a postback.
 
 The event handler function receives two arguments:
 
-1. The __RadRibbonBar__ which has fired the event. This argument is of type object, but can be cast to the __RadRibbonBar__ type.
+1. The **RadRibbonBar** which has fired the event. This argument is of type object, but can be cast to the **RadRibbonBar** type.
 
-1. An __EventArgs__ object.This object has a number of properties for handling the request for the items:
+1. An **EventArgs** object.This object has a number of properties for handling the request for the items:
 
-* __Value__– the new value of the NumericTextBox.
+* **Value**– the new value of the NumericTextBox.
 
-* __NumericTextBox__ – the NumericTextBox which fired the event.
+* **NumericTextBox** – the NumericTextBox which fired the event.
 
-* __Group__ – the group in which the DropDown is placed.
+* **Group** – the group in which the DropDown is placed.

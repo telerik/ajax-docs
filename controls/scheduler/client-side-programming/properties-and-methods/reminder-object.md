@@ -1,6 +1,6 @@
 ---
 title: Reminder Object
-page_title: Reminder Object | UI for ASP.NET AJAX Documentation
+page_title: Reminder Object | RadScheduler for ASP.NET AJAX Documentation
 description: Reminder Object
 slug: scheduler/client-side-programming/properties-and-methods/reminder-object
 tags: reminder,object
@@ -12,9 +12,9 @@ position: 8
 
 
 
-The __Telerik.Web.UI.Reminder__ client-side object represents a single instance of a Reminder defined in the RadScheduler.
+The **Telerik.Web.UI.Reminder** client-side object represents a single instance of a Reminder defined in the RadScheduler.
 
-The tables below lists the all public properties of the __Telerik.Web.UI.Reminder__ client-side object.
+The tables below lists the all public properties of the **Telerik.Web.UI.Reminder** client-side object.
 
 ## Methods
 

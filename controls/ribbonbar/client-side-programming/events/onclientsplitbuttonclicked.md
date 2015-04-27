@@ -1,6 +1,6 @@
 ---
 title: OnClientSplitButtonClicked
-page_title: OnClientSplitButtonClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientSplitButtonClicked | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientSplitButtonClicked
 slug: ribbonbar/client-side-programming/events/onclientsplitbuttonclicked
 tags: onclientsplitbuttonclicked
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientSplitButtonClicked__ client-side event occurs when the user clicks on a ribbonbar split button, after the ribbonbar responds to the mouse click.
+The **OnClientSplitButtonClicked** client-side event occurs when the user clicks on a ribbonbar split button, after the ribbonbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_button()__ returns a reference to the ribbonbar split button that was clicked. In this case it is __RibbonBarSplitButton__.
+* **get_button()** returns a reference to the ribbonbar split button that was clicked. In this case it is **RibbonBarSplitButton**.
 
 # See Also
 

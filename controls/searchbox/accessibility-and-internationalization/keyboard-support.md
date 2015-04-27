@@ -1,6 +1,6 @@
 ---
 title: Keyboard support
-page_title: Keyboard support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard support | RadSearchBox for ASP.NET AJAX Documentation
 description: Keyboard support
 slug: searchbox/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -16,13 +16,13 @@ position: 0
 
 RadSearchBox has a full keyboard support, including selection and navigation through search results.
 
-* The user is able to tab through the image buttons using the __Tab__ key and trigger their actions with the __Enter__ key.
+* The user is able to tab through the image buttons using the **Tab** key and trigger their actions with the **Enter** key.
 
-* When the focus is in the input field of the control, the user can use the __Enter__ key to trigger the default search event.
+* When the focus is in the input field of the control, the user can use the **Enter** key to trigger the default search event.
 
-* When the focus is in the input field of the control, the user can use the __Esc__ key to clear the entered text and close the dropdown (if opened).
+* When the focus is in the input field of the control, the user can use the **Esc** key to clear the entered text and close the dropdown (if opened).
 
-* In addition, when AutoComplete is enabled and the dropdown list of results is shown,the user can use the arrow (__Up/Down__) keysto navigate through the list, focusing a particular search result.
+* In addition, when AutoComplete is enabled and the dropdown list of results is shown,the user can use the arrow (**Up/Down**) keysto navigate through the list, focusing a particular search result.
 
 ## SearchContext Keyboard Support
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadRotator for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: rotator/client-side-programming/events/onclientitemdatabound
 tags: onclientitemdatabound
@@ -12,25 +12,25 @@ position: 12
 
 
 
-This article demonstrates how the __OnClientItemDataBound__ event can be used to manipulate the items of a __RadRotator__ bound to a client-side data source.
+This article demonstrates how the **OnClientItemDataBound** event can be used to manipulate the items of a **RadRotator** bound to a client-side data source.
 
 ## 
 
-The __OnClientItemDataBound__ event is raised when an item in the Rotator is bound to the provided data source.
+The **OnClientItemDataBound** event is raised when an item in the Rotator is bound to the provided data source.
 
 The event handler receives two parameters:
 
-1. The __RadRotator__ instance that fired the event.
+1. The **RadRotator** instance that fired the event.
 
 1. An event arguments object containing the following methods:
 
-* __get_dataItem()__ - returns the client-side data object to the Rotator item.
+* **get_dataItem()** - returns the client-side data object to the Rotator item.
 
-* __get_item()__ - returns the client-side object of the Rotator item.
+* **get_item()** - returns the client-side object of the Rotator item.
 
-__Example 1__ demonstrates how to use a data source field of the bound item to locate the index of the rendered Rotator item,using the __OnClientItemDataBound__ event.
+**Example 1** demonstrates how to use a data source field of the bound item to locate the index of the rendered Rotator item,using the **OnClientItemDataBound** event.
 
-__Example 1__: Using the __OnClientItemDataBound__ event's arguments in Client-side logic.
+**Example 1**: Using the **OnClientItemDataBound** event's arguments in Client-side logic.
 
 ````ASPNET
 		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="5" AllowPaging="true">

@@ -1,6 +1,6 @@
 ---
 title: Localization for Web Services Mode
-page_title: Localization for Web Services Mode | UI for ASP.NET AJAX Documentation
+page_title: Localization for Web Services Mode | RadScheduler for ASP.NET AJAX Documentation
 description: Localization for Web Services Mode
 slug: scheduler/web-service-binding/localization-for-web-services-mode
 tags: localization,for,web,services,mode
@@ -22,7 +22,7 @@ are required as listed below:
 
 
 
-__1__. Enable script globalization for the ScriptManager or
+**1**. Enable script globalization for the ScriptManager or
 RadScriptManager on the page:
 
 ````ASPNET
@@ -31,7 +31,7 @@ RadScriptManager on the page:
 
 
 
-__2__. Set the page culture either in web.config or in the page
+**2**. Set the page culture either in web.config or in the page
 directive. For example:
 
 ````XML
@@ -50,7 +50,7 @@ or
 
 
 
-__3__. Set the Culture property for
+**3**. Set the Culture property for
 RadScheduler.
 
 ````ASPNET

@@ -1,6 +1,6 @@
 ---
 title: Level Settings
-page_title: Level Settings | UI for ASP.NET AJAX Documentation
+page_title: Level Settings | RadSiteMap for ASP.NET AJAX Documentation
 description: Level Settings
 slug: sitemap/functionality/level-settings
 tags: level,settings
@@ -14,13 +14,13 @@ position: 1
 
 ## 
 
-__RadSiteMap__ provides a way to customize the behavior of the nodes at any level.
+**RadSiteMap** provides a way to customize the behavior of the nodes at any level.
 
-RadSiteMap support both __global__ level settings and __per level__ settings.
+RadSiteMap support both **global** level settings and **per level** settings.
 
-* __DefaultLevelSettings__ - applied globally to the nodes on all levels.
+* **DefaultLevelSettings** - applied globally to the nodes on all levels.
 
-The following example shows how to show only the first three nodes in every level by utilizing the __MaximumNodes__ property:
+The following example shows how to show only the first three nodes in every level by utilizing the **MaximumNodes** property:
 
 ````ASPNET
 	    <telerik:RadSiteMap ID="RadSiteMap2" runat="server" DataSourceID="SiteMapDataSource">
@@ -31,7 +31,7 @@ The following example shows how to show only the first three nodes in every leve
 
 
 
-* __LevelSettings__ - applied to the nodes per level. It __overrides__ the DefaultLevelSettings.
+* **LevelSettings** - applied to the nodes per level. It **overrides** the DefaultLevelSettings.
 
 The following example shows how the LevelSettings override the MaximumNodes value of the first (zero) level:
 

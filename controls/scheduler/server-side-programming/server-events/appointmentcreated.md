@@ -1,6 +1,6 @@
 ---
 title: AppointmentCreated
-page_title: AppointmentCreated | UI for ASP.NET AJAX Documentation
+page_title: AppointmentCreated | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentCreated
 slug: scheduler/server-side-programming/server-events/appointmentcreated
 tags: appointmentcreated
@@ -12,17 +12,17 @@ position: 5
 
 
 
-The __AppointmentCreated__ event occurs immediately after an appointment template is instantiated.
+The **AppointmentCreated** event occurs immediately after an appointment template is instantiated.
 
-__AppointmentCreated__ has two parameters:
+**AppointmentCreated** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __AppointmentCreatedEventArgs__.It has two properties:
+* **e** is an object of type **AppointmentCreatedEventArgs**.It has two properties:
 
-* __Appointment__ is the appointment which representation is about to be shown.
+* **Appointment** is the appointment which representation is about to be shown.
 
-* __Container__ is the representation template of the appointment.
+* **Container** is the representation template of the appointment.
 
 You can use this event to modify the appointment template before data binding.
 

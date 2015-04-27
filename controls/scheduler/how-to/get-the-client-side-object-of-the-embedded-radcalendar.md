@@ -1,6 +1,6 @@
 ---
 title: Get the Client-side Object of the Embedded RadCalendar
-page_title: Get the Client-side Object of the Embedded RadCalendar | UI for ASP.NET AJAX Documentation
+page_title: Get the Client-side Object of the Embedded RadCalendar | RadScheduler for ASP.NET AJAX Documentation
 description: Get the Client-side Object of the Embedded RadCalendar
 slug: scheduler/how-to/get-the-client-side-object-of-the-embedded-radcalendar
 tags: get,the,client-side,object,of,the,embedded,radcalendar

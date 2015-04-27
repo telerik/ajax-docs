@@ -1,6 +1,6 @@
 ---
 title: Implementing a Provider That Supports Multi-Valued Resources
-page_title: Implementing a Provider That Supports Multi-Valued Resources | UI for ASP.NET AJAX Documentation
+page_title: Implementing a Provider That Supports Multi-Valued Resources | RadScheduler for ASP.NET AJAX Documentation
 description: Implementing a Provider That Supports Multi-Valued Resources
 slug: scheduler/data-binding/providers/implementing-a-provider-that-supports-multi-valued-resources
 tags: implementing,a,provider,that,supports,multi-valued,resources
@@ -14,7 +14,7 @@ position: 2
 
 Although they are more difficult to implement, custom providers are more powerful than using data sources because you have more control over every detail of data access operations. Only custom providers can provide the support to allow multi-valued resources (resources that can have multiple values assigned to a single appointment).
 
->caution The provider is instantiated once per application domain and is shared across threads. __RadScheduler__ ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods. However, you should take care of synchronizing access to instance field members where appropriate.
+>caution The provider is instantiated once per application domain and is shared across threads. **RadScheduler** ensures basic thread safety by encapsulating each provider in a wrapper that provides locks around each of its public methods. However, you should take care of synchronizing access to instance field members where appropriate.
 >
 
 
@@ -26,11 +26,11 @@ This example uses a database containing student classes, teachers and students. 
 
 ![DB schema](images/scheduler_dbschema.png)
 
-Each class is treated by the scheduler as an appointment. Teachers and students are treated as resource types. Note that we keep a cross-link table, __ClassStudents__, to store the many-to-many relationships between classes and students.
+Each class is treated by the scheduler as an appointment. Teachers and students are treated as resource types. Note that we keep a cross-link table, **ClassStudents**, to store the many-to-many relationships between classes and students.
 
 ## The base class
 
-To make the implementation of database-driven RadScheduler providers easier, Telerik.Web.UI includes an abstract base class - __DbSchedulerProviderBase__. This base class takes care of common configuration and initialization tasks. When initialization is complete, you can use the DbFactory object or the shortcut methods to create connections, parameters, etc. An outline of __DbSchedulerProviderBase__ is shown below:
+To make the implementation of database-driven RadScheduler providers easier, Telerik.Web.UI includes an abstract base class - **DbSchedulerProviderBase**. This base class takes care of common configuration and initialization tasks. When initialization is complete, you can use the DbFactory object or the shortcut methods to create connections, parameters, etc. An outline of **DbSchedulerProviderBase** is shown below:
 
 
 
@@ -96,7 +96,7 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 
 ## Implementing the provider
 
-1. Declare the provider class, inheriting from __DbSchedulerProviderBase__:
+1. Declare the provider class, inheriting from **DbSchedulerProviderBase**:
 
 
 
@@ -116,9 +116,9 @@ To make the implementation of database-driven RadScheduler providers easier, Tel
 	End Class
 	
 ````
-Both __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract classes. The new provider class must provide an implementation for the abstract methods __GetAppointments__, __Insert__, __Update__, __Delete__, __GetResourceTypes__, and __GetResourcesByType__.
+Both **SchedulerProviderBase** and **DbSchedulerProviderBase** are abstract classes. The new provider class must provide an implementation for the abstract methods **GetAppointments**, **Insert**, **Update**, **Delete**, **GetResourceTypes**, and **GetResourcesByType**.
 
-1. Before implementing the methods that deal with appointments, lay the groundwork by implementing the support for custom resources. The first step is to implement __GetResourceTypes__ to supply the scheduler with a list of available resource types. __GetResourceTypes__ returns only basic information: the name of the resource and a boolean value indicating whether the provider supports multiple resource values for that type. Because this provider supports multiple values of the Student resource, we indicate that now:
+1. Before implementing the methods that deal with appointments, lay the groundwork by implementing the support for custom resources. The first step is to implement **GetResourceTypes** to supply the scheduler with a list of available resource types. **GetResourceTypes** returns only basic information: the name of the resource and a boolean value indicating whether the provider supports multiple resource values for that type. Because this provider supports multiple values of the Student resource, we indicate that now:
 
 
 
@@ -146,7 +146,7 @@ Both __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract clas
 ````
 
 
-1. Implement the __GetResourcesByType__ method to supply the scheduler with a list of possible values given a resource type. This requires a query to the database to obtain the list of values. Once retrieved, the resources are cached. The base class, DbSchedulerProviderBase, provides the infrastructure for querying the database: The connection is established by calling __OpenConnection()__ and database commands are created using the __DbFactory__ object:
+1. Implement the **GetResourcesByType** method to supply the scheduler with a list of possible values given a resource type. This requires a query to the database to obtain the list of values. Once retrieved, the resources are cached. The base class, DbSchedulerProviderBase, provides the infrastructure for querying the database: The connection is established by calling **OpenConnection()** and database commands are created using the **DbFactory** object:
 
 
 
@@ -379,7 +379,7 @@ Both __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract clas
 ````
 
 
-1. Provide the implementation for __GetAppointments__ to supply the scheduler with a list of all the appointments in the database. Note that this assigns an owner and a class ID before calling LoadResources to load the resources for the appointment:
+1. Provide the implementation for **GetAppointments** to supply the scheduler with a list of all the appointments in the database. Note that this assigns an owner and a class ID before calling LoadResources to load the resources for the appointment:
 
 
 
@@ -461,11 +461,11 @@ Both __SchedulerProviderBase__ and __DbSchedulerProviderBase__ are abstract clas
 ````
 
 
->note Note that this method reads UTC dates from the database. To make this clear to __RadScheduler__ it calls __DateTime.SpecifyKind()__ . You should store dates in UTC format to ensure proper handling of[time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
+>note Note that this method reads UTC dates from the database. To make this clear to **RadScheduler** it calls **DateTime.SpecifyKind()** . You should store dates in UTC format to ensure proper handling of[time zones]({%slug scheduler/accessibility-and-internationalization/handling-time-zones%}).
 >
-This method gets a reference to the scheduler as a parameter (owner). You can use the RadScheduler properties to optimize your query. For example, the __VisibleRangeStart__ and __VisibleRangeEnd__ properties can be used to limit the number of records that the query retrieves. Recurring appointments are evaluated in-memory, however, so they should be always retrieved regardless of __VisibleRangeStart__ and __VisibleRangeEnd__.
+This method gets a reference to the scheduler as a parameter (owner). You can use the RadScheduler properties to optimize your query. For example, the **VisibleRangeStart** and **VisibleRangeEnd** properties can be used to limit the number of records that the query retrieves. Recurring appointments are evaluated in-memory, however, so they should be always retrieved regardless of **VisibleRangeStart** and **VisibleRangeEnd**.
 
-1. Before proceeding to the __Insert__, __Update__, and __Delete__ commands, the provider needs a few more helper functions. Because the provider is supporting multiple students for each class, it needs helper functions to add and delete these many-to-many relationships in the cross-link table (__ClassStudents__):
+1. Before proceeding to the **Insert**, **Update**, and **Delete** commands, the provider needs a few more helper functions. Because the provider is supporting multiple students for each class, it needs helper functions to add and delete these many-to-many relationships in the cross-link table (**ClassStudents**):
 
 
 
@@ -577,7 +577,7 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 ````
 
 
-1. Inserting appointments is a bit complicated as you need to retrieve the identity value. A stored procedure might be of help here. However, in order to target both MS SQL Server and MS Access, the provider uses normal queries. The __Insert__ method breaks abstraction for the sake of data integrity: MS SQL Server provides the SCOPE_IDENTITY() function to retrieve the identity value of the current transaction, unlike @@IDENTITY that is a global identity value. After inserting the new class and obtaining its identity value, the identity value is passed to the __FillClassStudents__ method, to create the many-to-many relationship between classes and students. The __Insert__ method works in a transaction to ensure data integrity.
+1. Inserting appointments is a bit complicated as you need to retrieve the identity value. A stored procedure might be of help here. However, in order to target both MS SQL Server and MS Access, the provider uses normal queries. The **Insert** method breaks abstraction for the sake of data integrity: MS SQL Server provides the SCOPE_IDENTITY() function to retrieve the identity value of the current transaction, unlike @@IDENTITY that is a global identity value. After inserting the new class and obtaining its identity value, the identity value is passed to the **FillClassStudents** method, to create the many-to-many relationship between classes and students. The **Insert** method works in a transaction to ensure data integrity.
 
 
 
@@ -720,7 +720,7 @@ This method gets a reference to the scheduler as a parameter (owner). You can us
 ````
 
 
-1. The __Delete__ method executes two queries: one to delete the entries for the appointment in the cross-link table and another to delete the appointment itself.
+1. The **Delete** method executes two queries: one to delete the entries for the appointment in the cross-link table and another to delete the appointment itself.
 
 
 

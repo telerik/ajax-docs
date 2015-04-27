@@ -1,6 +1,6 @@
 ---
 title: Animations
-page_title: Animations | UI for ASP.NET AJAX Documentation
+page_title: Animations | RadSearchBox for ASP.NET AJAX Documentation
 description: Animations
 slug: searchbox/appearance-and-styling/animations
 tags: animations
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadSearchBox__ are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify __Type__ and __Duration__:
+The **ExpandAnimation** and **CollapseAnimation** tags of **RadSearchBox** are used to customize the way the drop-down list is expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
 
-* The __Type__ is one of the following pre-defined animation types:
+* The **Type** is one of the following pre-defined animation types:
 
 * Linear
 
@@ -74,9 +74,9 @@ The __ExpandAnimation__ and __CollapseAnimation__ tags of __RadSearchBox__ are u
 
 * InOutElastic
 
-* The __Duration__ is set in milliseconds.
+* The **Duration** is set in milliseconds.
 
-__Example 1:__ a sample animation configuration.
+**Example 1:** a sample animation configuration.
 
 ````ASPNET
 	    <telerik:RadSearchBox ID="RadSearchBox1" runat="server">

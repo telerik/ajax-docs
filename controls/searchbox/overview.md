@@ -1,6 +1,6 @@
 ---
-title: SearchBox Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSearchBox Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: searchbox/overview
 tags: overview
@@ -14,17 +14,17 @@ position: 0
 
 ## Overview
 
-__Telerik RadSearchBox for ASP.NET AJAX__is a light control which provides the ability to write text in an input field with an optional autocomplete functionality or searching the plain result of the text written in it.The control has a property __"EnableAutoComplete"__ that enables or disables the[AutoComplete feature]({%slug searchbox/functionality/autocomplete%}). It has a default __[ “search” button ]({%slug searchbox/functionality/search-button%})__, which triggers an event containing the typed value, as well as a[ collection of additional image buttons. ]({%slug searchbox/functionality/buttons-collection%}) Each of them is displayed inside the control and trigger an event when clicked.
+**Telerik RadSearchBox for ASP.NET AJAX**is a light control which provides the ability to write text in an input field with an optional autocomplete functionality or searching the plain result of the text written in it.The control has a property **"EnableAutoComplete"** that enables or disables the[AutoComplete feature]({%slug searchbox/functionality/autocomplete%}). It has a default **[ “search” button ]({%slug searchbox/functionality/search-button%})**, which triggers an event containing the typed value, as well as a[ collection of additional image buttons. ]({%slug searchbox/functionality/buttons-collection%}) Each of them is displayed inside the control and trigger an event when clicked.
 
 RadSearchBox has a rich client-side API and a comprehensive set of events that guarantee full control over various scenarios on the client.![searchbox autocomplete false with search button](images/searchbox_autocomplete_false_with_search_button.png)![searchbox autocomplete false](images/searchbox_autocomplete_false.png)![searchbox autocomplete true](images/searchbox_autocomplete_true.png)
 
 ## Summary of features supported by RadSearchBox
 
-* __[ Default Search Button ]({%slug searchbox/functionality/search-button%})__
+* **[ Default Search Button ]({%slug searchbox/functionality/search-button%})**
 
-* __[ Collection of image buttons. ]({%slug searchbox/functionality/buttons-collection%})__
+* **[ Collection of image buttons. ]({%slug searchbox/functionality/buttons-collection%})**
 
-* __[ AutoComplete ]({%slug searchbox/functionality/autocomplete%})__ functionality. When the AutoComplete is enabled, the following features are available:
+* **[ AutoComplete ]({%slug searchbox/functionality/autocomplete%})** functionality. When the AutoComplete is enabled, the following features are available:
 
 * [DropDown Header/Footer Templates]({%slug searchbox/templates/header-and-footer-templates%})
 
@@ -34,13 +34,13 @@ RadSearchBox has a rich client-side API and a comprehensive set of events that g
 
 * [Filtering ]({%slug searchbox/functionality/filtering%})- StartsWith or Contains
 
-* __MinFilterLength__ - defines the minimum number of characters that must be typed before the autocomplete dropdown is shown. The default value is 1.
+* **MinFilterLength** - defines the minimum number of characters that must be typed before the autocomplete dropdown is shown. The default value is 1.
 
-* __MaxResultsCount__ - defines how many results are shown in the dropdown.
+* **MaxResultsCount** - defines how many results are shown in the dropdown.
 
-* __[ Search Context ]({%slug searchbox/search-context/overview%})__ functionality was added from Q2 2013 in order to provide context for the search operation.The search context is represented as a simple drop-down giving a choice to select a context item.This feature improves the performance and usability when searching in large data sets.
+* **[ Search Context ]({%slug searchbox/search-context/overview%})** functionality was added from Q2 2013 in order to provide context for the search operation.The search context is represented as a simple drop-down giving a choice to select a context item.This feature improves the performance and usability when searching in large data sets.
 
-* __Data Binding__
+* **Data Binding**
 
 * [Array, ArrayList]({%slug searchbox/data-binding/binding-to-array-or-arraylist%})
 

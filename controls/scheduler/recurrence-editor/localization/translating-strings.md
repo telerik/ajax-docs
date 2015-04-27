@@ -1,6 +1,6 @@
 ---
 title: Translating Strings
-page_title: Translating Strings | UI for ASP.NET AJAX Documentation
+page_title: Translating Strings | RadScheduler for ASP.NET AJAX Documentation
 description: Translating Strings
 slug: scheduler/recurrence-editor/localization/translating-strings
 tags: translating,strings
@@ -16,7 +16,7 @@ The localization support for RadSchedulerRecurrenceEditor lets you completely tr
 
 ## Localization Property
 
-The __Localization__ property specifies the strings that appear in the runtime user interface of the control. By changing the values of each named sub-property, you change the string the control uses:
+The **Localization** property specifies the strings that appear in the runtime user interface of the control. By changing the values of each named sub-property, you change the string the control uses:
 
 ````ASPNET
 		<telerik:RadSchedulerRecurrenceEditor ID="RadSchedulerRecurrenceEditor1" runat="server">  
@@ -36,16 +36,16 @@ The primary means for localization in ASP.NET is to use resource files. Resource
 
 To create a global resource file to localize the control:
 
-1. Create the __App_GlobalResources__ folder in the root of your web application.
+1. Create the **App_GlobalResources** folder in the root of your web application.
 
-1. Copy the default resource __RadSchedulerRecurrenceEditor.resx__ file into it. This file canbe found in the App_GlobalResources folder of the directory where you installed the RadControls.
+1. Copy the default resource **RadSchedulerRecurrenceEditor.resx** file into it. This file canbe found in the App_GlobalResources folder of the directory where you installed the RadControls.
 
-1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resourcefiles used by control follow a strict naming convention:__RadSchedulerRecurrenceEditor.<Culture Identifier>.resx__
+1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resourcefiles used by control follow a strict naming convention:**RadSchedulerRecurrenceEditor.<Culture Identifier>.resx**
 
->note The __Culture Identifier__ consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.
+>note The **Culture Identifier** consists of a language code followed by a dash and thecountry code.Example: “en-US”, “fr-CA” and so on.
 >
 For example RadSchedulerRecurrenceEditor.fr-CA.resx. Both files should be present in the App_GlobalResources folder:![Recurrence Editor Resource](images/scheduler_recurrenceeditorresource.png)
 
-1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would setthe __Localization__ property.![Recurrence Editor Resource](images/scheduler_recurrenceeditorresourceedit.png)
+1. Edit the strings using the Visual Studio editor or your favorite text editor. Customize strings just as you would setthe **Localization** property.![Recurrence Editor Resource](images/scheduler_recurrenceeditorresourceedit.png)
 
 You can now switch the scheduler so that it uses your new resource file by setting the active culture:![Culture property](images/scheduler_cultureproperty.png)

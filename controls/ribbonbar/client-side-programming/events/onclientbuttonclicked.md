@@ -1,6 +1,6 @@
 ---
 title: OnClientButtonClicked
-page_title: OnClientButtonClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientButtonClicked | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientButtonClicked
 slug: ribbonbar/client-side-programming/events/onclientbuttonclicked
 tags: onclientbuttonclicked
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientButtonClicked__ client-side event occurs when the user clicks on a ribbonbar button, after the ribbonbar responds to the mouse click.
+The **OnClientButtonClicked** client-side event occurs when the user clicks on a ribbonbar button, after the ribbonbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_button()__ returns a reference to the ribbonbar button that was clicked. In this case it is __RibbonBarButton__.
+* **get_button()** returns a reference to the ribbonbar button that was clicked. In this case it is **RibbonBarButton**.
 
 You can use this event to respond when the user clicks on a ribbonbar button:
 

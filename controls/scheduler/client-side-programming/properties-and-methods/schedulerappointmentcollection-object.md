@@ -1,6 +1,6 @@
 ---
 title: SchedulerAppointmentCollection Object
-page_title: SchedulerAppointmentCollection Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerAppointmentCollection Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerAppointmentCollection Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerappointmentcollection-object
 tags: schedulerappointmentcollection,object
@@ -23,7 +23,7 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_count()__ |None|Int|Gets the number of Appointments in the collection.|
+| **get_count()** |None|Int|Gets the number of Appointments in the collection.|
 
 ## Methods
 
@@ -34,17 +34,17 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Value | Description |
 | ------ | ------ | ------ | ------ |
-| __add()__ |Appointment|None|Adds the specified Appointment to the collection.|
-| __clear()__ |None|None|Clears the collection of all Appointments in it.|
-| __findByID()__ |Int|Appointment|Gets the Appointment with the specified ID in the collection. Returns __null__ ifsuch an Appointment does not exist in the collection __.__ |
-| __findByResource()__ |Resource|Appointment|Gets the Appointment with the specified Resource in the collection. Returns __null__ if such an Appointmentdoes not exist in the collection __.__ |
-| __getAppointment()__ |Int|Appointment|Gets the Appointment at the specified index in the collection.|
-| __getAppointmentsInRange()__ |Date (start Date), Date (end Date)|SchedulerAppointmentCollection|Gets a list of all Appointments in the specified range.|
-| __getAppointmentsStartingInRange()__ |Date (start Date), Date (end Date)|SchedulerAppointmentCollection|Gets a list of all Appointments which start date is in the specified range.|
-| __indexOf()__ |Appointment|Int|Gets the index of the specified Appointment in the collection. Returns __-1__ if the Appointment is not in the collection.|
-| __insert()__ |Int (index), Appointment|None|Inserts the specified Appointment at the specified index in the collection.|
-| __remove()__ |Appointment|None|Removes the specified Appointment from the collection.|
-| __removeAt()__ |Int|None|Removes the Appointment at the specified index from the collection.|
+| **add()** |Appointment|None|Adds the specified Appointment to the collection.|
+| **clear()** |None|None|Clears the collection of all Appointments in it.|
+| **findByID()** |Int|Appointment|Gets the Appointment with the specified ID in the collection. Returns **null** ifsuch an Appointment does not exist in the collection **.** |
+| **findByResource()** |Resource|Appointment|Gets the Appointment with the specified Resource in the collection. Returns **null** if such an Appointmentdoes not exist in the collection **.** |
+| **getAppointment()** |Int|Appointment|Gets the Appointment at the specified index in the collection.|
+| **getAppointmentsInRange()** |Date (start Date), Date (end Date)|SchedulerAppointmentCollection|Gets a list of all Appointments in the specified range.|
+| **getAppointmentsStartingInRange()** |Date (start Date), Date (end Date)|SchedulerAppointmentCollection|Gets a list of all Appointments which start date is in the specified range.|
+| **indexOf()** |Appointment|Int|Gets the index of the specified Appointment in the collection. Returns **-1** if the Appointment is not in the collection.|
+| **insert()** |Int (index), Appointment|None|Inserts the specified Appointment at the specified index in the collection.|
+| **remove()** |Appointment|None|Removes the specified Appointment from the collection.|
+| **removeAt()** |Int|None|Removes the Appointment at the specified index from the collection.|
 
 # See Also
 

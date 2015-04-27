@@ -1,6 +1,6 @@
 ---
 title: Filtering
-page_title: Filtering | UI for ASP.NET AJAX Documentation
+page_title: Filtering | RadSearchBox for ASP.NET AJAX Documentation
 description: Filtering
 slug: searchbox/functionality/filtering
 tags: filtering
@@ -14,14 +14,14 @@ position: 3
 
 ## Filtering
 
-The __RadSearchBox__ provides inbuilt server-side filtering functionality.
+The **RadSearchBox** provides inbuilt server-side filtering functionality.
 
-There are two __filtering__ options available:
+There are two **filtering** options available:
 
-* __Contains__ - filters all items with Text containing the searched text.
+* **Contains** - filters all items with Text containing the searched text.
 
-* __StartsWith__ - filters all items with Text starting with the searched text.
+* **StartsWith** - filters all items with Text starting with the searched text.
 
->important The default value of Filter property is __Contains__ .
+>important The default value of Filter property is **Contains** .
 >
 

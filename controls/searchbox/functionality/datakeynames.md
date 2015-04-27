@@ -1,6 +1,6 @@
 ---
 title: DataKeyNames
-page_title: DataKeyNames | UI for ASP.NET AJAX Documentation
+page_title: DataKeyNames | RadSearchBox for ASP.NET AJAX Documentation
 description: DataKeyNames
 slug: searchbox/functionality/datakeynames
 tags: datakeynames
@@ -14,7 +14,7 @@ position: 4
 
 ## DataKeyNames
 
-__DataKeyNames__ property lists the additional fields of the DataSource that will be mapped to each result item. They can be easily retrieved and used after that in the [OnClientSearch]({%slug searchbox/client-side-programming/events/onclientsearch%}) event and in the [OnSearch]({%slug searchbox/server-side-programming/server-events/onsearch%}) server event, as show in the following code:
+**DataKeyNames** property lists the additional fields of the DataSource that will be mapped to each result item. They can be easily retrieved and used after that in the [OnClientSearch]({%slug searchbox/client-side-programming/events/onclientsearch%}) event and in the [OnSearch]({%slug searchbox/server-side-programming/server-events/onsearch%}) server event, as show in the following code:
 
 ````ASPNET
 			

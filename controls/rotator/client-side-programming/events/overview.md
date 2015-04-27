@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadRotator for ASP.NET AJAX Documentation
 description: Overview
 slug: rotator/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadRotator__ provides the following client-side events:
+**RadRotator** provides the following client-side events:
 
 * [OnClientLoad]({%slug rotator/client-side-programming/events/onclientload%}) - fires after the RadRotator loads on the page.
 
@@ -38,7 +38,7 @@ __RadRotator__ provides the following client-side events:
 
 The event handler method for any of the events can be set on the server and on the client.
 
-__Server-side__
+**Server-side**
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event. Here is an example:
 
@@ -59,9 +59,9 @@ To handle the desired event, the user must set the respective property to the na
 
 
 
-__Client-side__
+**Client-side**
 
-To handle the desired event, the user should use the respective __add_<eventName>(handlerFunction)__ to attach the desired handler (i.e. __add_clicked__ for the clicked event), where the parameter *handlerFunction* should be of type __function__. To remove a handler that has been added previously, the respective __remove_<eventName>(handlerFunction)__ should be used. Here is an example showing how to add handler on the client:
+To handle the desired event, the user should use the respective **add_<eventName>(handlerFunction)** to attach the desired handler (i.e. **add_clicked** for the clicked event), where the parameter *handlerFunction* should be of type **function**. To remove a handler that has been added previously, the respective **remove_<eventName>(handlerFunction)** should be used. Here is an example showing how to add handler on the client:
 
 ````ASPNET
 		<script type="text/javascript">

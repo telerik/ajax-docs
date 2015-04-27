@@ -1,6 +1,6 @@
 ---
 title: SchedulerAppointment Object
-page_title: SchedulerAppointment Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerAppointment Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerAppointment Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerappointment-object
 tags: schedulerappointment,object
@@ -21,14 +21,14 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_allowDelete()__  __set_allowDelete()__ |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment can be deleted.|
-| __get_allowEdit()__  __set_allowEdit()__ |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment can be edited.|
-| __get_attributes()__ |None|[SchedulerAttributeCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerattributecollection-object%})|Gets all Attributes of the Appointment.|
-| __get_backColor()__  __set_backColor()__ |NoneString|StringNone|Gets or sets the backColor of the Appointment.|
-| __get_borderColor()__  __set_borderColor()__ |NoneString|StringNone|Gets or sets the borderColor of the Appointment.|
-| __get_borderStyle()__  __set_borderStyle()__ |NoneString|StringNone|Gets or sets the borderStyle of the Appointment.(Works only if the __AppointmentStyleMode="Simple"__ )|
-| __get_borderWidth()__  __set_borderWidth()__ |NoneString|StringNone|Gets or sets the borderWidth of the Appointment.(Works only if the __AppointmentStyleMode="Simple"__ )|
-| __get_contextMenu()__ |None|ContextMenu|Gets the ContextMenu of the Appointment.
+| **get_allowDelete()**  **set_allowDelete()** |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment can be deleted.|
+| **get_allowEdit()**  **set_allowEdit()** |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment can be edited.|
+| **get_attributes()** |None|[SchedulerAttributeCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerattributecollection-object%})|Gets all Attributes of the Appointment.|
+| **get_backColor()**  **set_backColor()** |NoneString|StringNone|Gets or sets the backColor of the Appointment.|
+| **get_borderColor()**  **set_borderColor()** |NoneString|StringNone|Gets or sets the borderColor of the Appointment.|
+| **get_borderStyle()**  **set_borderStyle()** |NoneString|StringNone|Gets or sets the borderStyle of the Appointment.(Works only if the **AppointmentStyleMode="Simple"** )|
+| **get_borderWidth()**  **set_borderWidth()** |NoneString|StringNone|Gets or sets the borderWidth of the Appointment.(Works only if the **AppointmentStyleMode="Simple"** )|
+| **get_contextMenu()** |None|ContextMenu|Gets the ContextMenu of the Appointment.
 
 ````JavaScript
 	     
@@ -40,26 +40,26 @@ The tables below lists the most important, public properties of the SchedulerApp
 ````
 
 |
-| __get_cssClass()__  __set_cssClass()__ |NoneString|StringNone|Gets or sets the cssClass of the Appointment.|
-| __get_description()__  __set_description()__ |NoneString|StringNone|Gets or sets the description of the Appointment.|
-| __get_duration()__ |None|Int|Gets the duration of the Appointment in milliseconds.|
-| __get_durationInMinutes()__ |None|Int|Gets the duration of the Appointment in minutes.|
-| __get_element()__ |None|DomElement|Gets the DomElement representing the Appointment.|
-| __get_elements()__ |None|Array of DomElements|Gets all DomElements that represent this appointment (for multi-part appointments)|
-| __get_end()__  __set_end()__ |NoneDate|DateNone|Gets or sets the end date of the Appointment.|
-| __get_id()__ |None|Int|Gets the ID of the Appointment|
-| __get_radScheduler()__ |None|RadScheduler|Gets the owner Scheduler.|
-| __get_recurrenceParentID()__ |None|Int / undefined|Gets the ID of the parent Appointment if the current Appointment is recurrent or __'undefined'__ otherwise.|
-| __get_recurrenceState()__ |None|Telerik.Web.UI.RecurrenceState or int|Gets the recurrence state of the Appointment. __RecurrenceState__ can be:
+| **get_cssClass()**  **set_cssClass()** |NoneString|StringNone|Gets or sets the cssClass of the Appointment.|
+| **get_description()**  **set_description()** |NoneString|StringNone|Gets or sets the description of the Appointment.|
+| **get_duration()** |None|Int|Gets the duration of the Appointment in milliseconds.|
+| **get_durationInMinutes()** |None|Int|Gets the duration of the Appointment in minutes.|
+| **get_element()** |None|DomElement|Gets the DomElement representing the Appointment.|
+| **get_elements()** |None|Array of DomElements|Gets all DomElements that represent this appointment (for multi-part appointments)|
+| **get_end()**  **set_end()** |NoneDate|DateNone|Gets or sets the end date of the Appointment.|
+| **get_id()** |None|Int|Gets the ID of the Appointment|
+| **get_radScheduler()** |None|RadScheduler|Gets the owner Scheduler.|
+| **get_recurrenceParentID()** |None|Int / undefined|Gets the ID of the parent Appointment if the current Appointment is recurrent or **'undefined'** otherwise.|
+| **get_recurrenceState()** |None|Telerik.Web.UI.RecurrenceState or int|Gets the recurrence state of the Appointment. **RecurrenceState** can be:
 
-*  __"NotRecurring"__ or 0
+*  **"NotRecurring"** or 0
 
-*  __"Master"__ or 1
+*  **"Master"** or 1
 
-*  __"Occurrence"__ or 2
+*  **"Occurrence"** or 2
 
-*  __"Exception"__ or 3|
-| __get_recurrenceRule()__ |None|String|Gets the recurrence rule of the Appointment if it is __"Master"__ and WebService binding is used or __'undefined'__ otherwise.|
+*  **"Exception"** or 3|
+| **get_recurrenceRule()** |None|String|Gets the recurrence rule of the Appointment if it is **"Master"** and WebService binding is used or **'undefined'** otherwise.|
 
 ````JavaScript
 	
@@ -87,17 +87,17 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 
 
-|  __get_reminders()__  | None | [Telerik.Web.UI.ReminderCollection]({%slug scheduler/client-side-programming/properties-and-methods/remindercollection-object%}) | Gets a collection of reminders for the Appointment |
+|  **get_reminders()**  | None | [Telerik.Web.UI.ReminderCollection]({%slug scheduler/client-side-programming/properties-and-methods/remindercollection-object%}) | Gets a collection of reminders for the Appointment |
 | ------ | ------ | ------ | ------ |
-| __get_resources()__ |None|[Telerik.Web.UI.SchedulerResourceCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object%})|Gets a collection of resources for the Appointment|
-| __get_start()__  __set_start()__ |NoneDate|DateNone|Gets or sets the start date of the Appointment.|
-| __get_subject()__  __set_subject()__ |NoneString|StringNone|Gets or sets the subject of the Appointment.|
-| __get_selected()__  __set_selected()__ |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment is selected.|
-| __get_timeSlot()__ |None|TimeSlot|Gets the asociated time slot object for the current Appointment.|
-| __get_toolTip()__  __set_toolTip()__ |NoneString|StringNone|Gets or sets the ToolTip of the Appointment.|
-| __get_visible()__ |None|Boolean|Gets a Boolean value indicating whether the Appointment is visible.|
-| ___isAllDay()__ |None|Boolean|Gets a Boolean value indicating whether the Appointment's duration is all day or not.|
-| __clone()__ |None|Appointment|Creats a new Appointment that is copy of the instant one.
+| **get_resources()** |None|[Telerik.Web.UI.SchedulerResourceCollection]({%slug scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object%})|Gets a collection of resources for the Appointment|
+| **get_start()**  **set_start()** |NoneDate|DateNone|Gets or sets the start date of the Appointment.|
+| **get_subject()**  **set_subject()** |NoneString|StringNone|Gets or sets the subject of the Appointment.|
+| **get_selected()**  **set_selected()** |NoneBoolean|BooleanNone|Gets or sets a Boolean value indicating whether the Appointment is selected.|
+| **get_timeSlot()** |None|TimeSlot|Gets the asociated time slot object for the current Appointment.|
+| **get_toolTip()**  **set_toolTip()** |NoneString|StringNone|Gets or sets the ToolTip of the Appointment.|
+| **get_visible()** |None|Boolean|Gets a Boolean value indicating whether the Appointment is visible.|
+| **_isAllDay()** |None|Boolean|Gets a Boolean value indicating whether the Appointment's duration is all day or not.|
+| **clone()** |None|Appointment|Creats a new Appointment that is copy of the instant one.
 
 ````JavaScript
 	
@@ -112,7 +112,7 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 |
 
->note The properties __set_subject()__ , __set_start()__ and __set_end()__ will persist after postback.
+>note The properties **set_subject()** , **set_start()** and **set_end()** will persist after postback.
 >
 
 
@@ -137,7 +137,7 @@ The tables below lists the most important, public properties of the SchedulerApp
 
 
 
->note The other setters can update the appointment in case of WebService binding where there __is NO postback__ and the onClientAppointmentDataBound is fired.
+>note The other setters can update the appointment in case of WebService binding where there **is NO postback** and the onClientAppointmentDataBound is fired.
 >
 
 

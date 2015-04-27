@@ -1,6 +1,6 @@
 ---
 title: Accessibility and Internationalization
-page_title: Accessibility and Internationalization | UI for ASP.NET AJAX Documentation
+page_title: Accessibility and Internationalization | RadRotator for ASP.NET AJAX Documentation
 description: Accessibility and Internationalization
 slug: rotator/accessibility-and-internationalization
 tags: accessibility,and,internationalization
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The interface of __RadRotator for ASP.NET AJAX__ is level A accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the [WAVE](http://wave.webaim.org/) automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level A.
+The interface of **RadRotator for ASP.NET AJAX** is level A accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the [WAVE](http://wave.webaim.org/) automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level A.
 
 # See Also
 

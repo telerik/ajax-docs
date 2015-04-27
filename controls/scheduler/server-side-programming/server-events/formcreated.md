@@ -1,6 +1,6 @@
 ---
 title: FormCreated
-page_title: FormCreated | UI for ASP.NET AJAX Documentation
+page_title: FormCreated | RadScheduler for ASP.NET AJAX Documentation
 description: FormCreated
 slug: scheduler/server-side-programming/server-events/formcreated
 tags: formcreated
@@ -12,17 +12,17 @@ position: 12
 
 
 
-The __FormCreated__ event occurs when the edit form or in-line editor has just been created.
+The **FormCreated** event occurs when the edit form or in-line editor has just been created.
 
-__FormCreated__ has two parameters:
+**FormCreated** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __SchedulerFormCreatedEventArgs__.It has the following properties:
+* **e** is an object of type **SchedulerFormCreatedEventArgs**.It has the following properties:
 
-* __Appointment__ is the appointment that is about to be inserted or updated using an editor.
+* **Appointment** is the appointment that is about to be inserted or updated using an editor.
 
-* __Container__ is the edit form or in-line editor that has just been instantiated.
+* **Container** is the edit form or in-line editor that has just been instantiated.
 
 You can use this event to make modifications to the editor template.
 

@@ -1,6 +1,6 @@
 ---
 title: Server Templates
-page_title: Server Templates | UI for ASP.NET AJAX Documentation
+page_title: Server Templates | RadSearchBox for ASP.NET AJAX Documentation
 description: Server Templates
 slug: searchbox/templates/server-templates
 tags: server,templates
@@ -14,7 +14,7 @@ position: 2
 
 ## Server Templates
 
-You can define the ItemTemplate programmatically by assigning a new __ITemplate__ instanceto the __ItemTemplate__ property of the searchBox, as shown in the code below:
+You can define the ItemTemplate programmatically by assigning a new **ITemplate** instanceto the **ItemTemplate** property of the searchBox, as shown in the code below:
 
 ````ASPNET
 		  <telerik:RadSearchBox ID="RadSearchBox1" runat="server" DataSourceID="SqlDataSource1"

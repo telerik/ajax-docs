@@ -1,6 +1,6 @@
 ---
 title: OnClientGalleryCommandPreview 
-page_title: OnClientGalleryCommandPreview  | UI for ASP.NET AJAX Documentation
+page_title: OnClientGalleryCommandPreview  | RadRibbonBar for ASP.NET AJAX Documentation
 description: OnClientGalleryCommandPreview 
 slug: ribbonbar/client-side-programming/events/onclientgallerycommandpreview-
 tags: onclientgallerycommandpreview,
@@ -14,12 +14,12 @@ position: 27
 
 ## OnClientGalleryCommandPreview
 
-The __OnClientGalleryCommandPreview__ client-side event occurs when the user moves the mouse over a GalleryItem.
+The **OnClientGalleryCommandPreview** client-side event occurs when the user moves the mouse over a GalleryItem.
 
 The event handler receives two parameters:
 
-1. The instance of the __ribbonbar__ firing the event
+1. The instance of the **ribbonbar** firing the event
 
-1. An __eventArgs__ parameter containing the following methods:
+1. An **eventArgs** parameter containing the following methods:
 
-* __get_item()__
+* **get_item()**

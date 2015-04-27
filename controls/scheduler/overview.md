@@ -1,6 +1,6 @@
 ---
-title: Scheduler Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadScheduler Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: scheduler/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-Using the Telerik __RadScheduler__ control, you can build powerful ASP.NET applications to allow users to create and manage tasks. __RadScheduler__ displays and edits scheduled appointments that are stored in a separate data source.A variety of [data binding]({%slug scheduler/data-binding/overview%}) options allows you to work with data sources that are as simple or as powerful as you want.
+Using the Telerik **RadScheduler** control, you can build powerful ASP.NET applications to allow users to create and manage tasks. **RadScheduler** displays and edits scheduled appointments that are stored in a separate data source.A variety of [data binding]({%slug scheduler/data-binding/overview%}) options allows you to work with data sources that are as simple or as powerful as you want.
 
-Using __RadScheduler__, users can
+Using **RadScheduler**, users can
 
 * [Add]({%slug scheduler/usability/adding-appointments%}), [edit]({%slug scheduler/usability/editing-appointments%}),[resize, move, and delete]({%slug scheduler/usability/resizing-moving-and-deleting-appointments%}) appointments.
 
@@ -26,9 +26,9 @@ Using __RadScheduler__, users can
 
 * [Navigate]({%slug scheduler/usability/navigating-radscheduler%}) between different representations of the appointment data.
 
-__RadScheduler__ is highly configurable, letting you customize the user interface to your purpose. You can
+**RadScheduler** is highly configurable, letting you customize the user interface to your purpose. You can
 
-* Use [skins]({%slug scheduler/appearance-and-styling/skins%}) to customize the look and feel of __RadScheduler__.
+* Use [skins]({%slug scheduler/appearance-and-styling/skins%}) to customize the look and feel of **RadScheduler**.
 
 * Use [templates]({%slug scheduler/appearance-and-styling/templates%}) to customize the appearance of appointments in the scheduler, or the look and behavior of the editors.
 

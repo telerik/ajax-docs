@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadRating for ASP.NET AJAX Documentation
 description: Overview
 slug: rating/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadRating__ exposes several client-side events that allow easy and flexible use of the control:
+The **RadRating** exposes several client-side events that allow easy and flexible use of the control:
 
 1. [OnClientLoad]({%slug rating/client-side-programming/events/onclientload%}) - fires when the [RadRating client-side object]({%slug rating/client-side-programming/overview%}) is initialized.
 

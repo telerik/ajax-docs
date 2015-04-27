@@ -1,6 +1,6 @@
 ---
 title: Broken Skin When Loading RadSlider via AJAX
-page_title: Broken Skin When Loading RadSlider via AJAX | UI for ASP.NET AJAX Documentation
+page_title: Broken Skin When Loading RadSlider via AJAX | RadSlider for ASP.NET AJAX Documentation
 description: Broken Skin When Loading RadSlider via AJAX
 slug: slider/troubleshooting/broken-skin-when-loading-radslider-via-ajax
 tags: broken,skin,when,loading,radslider,via,ajax
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-When the __RadSlider__ in not initially visible on the page and it is loaded through AJAX, its skin may not be loaded correctly.The following code sample shows such a scenario:
+When the **RadSlider** in not initially visible on the page and it is loaded through AJAX, its skin may not be loaded correctly.The following code sample shows such a scenario:
 
 ````ASPNET
 	    <telerik:RadAjaxPanel runat="server" ID="panUpdate">
@@ -51,7 +51,7 @@ This is a common issue when dynamically loading controls through AJAX requests. 
 
 The way around this issue is to have the styles already loaded on the page. There are two basic ways to do this.
 
-* Using the __GetWebResourceUrl__ method to load the styles:
+* Using the **GetWebResourceUrl** method to load the styles:
 
 
 

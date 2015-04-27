@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentResizeEnd
-page_title: OnClientAppointmentResizeEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentResizeEnd | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentResizeEnd
 slug: scheduler/client-side-programming/events/onclientappointmentresizeend
 tags: onclientappointmentresizeend
@@ -12,25 +12,25 @@ position: 9
 
 
 
-The __OnClientAppointmentResizeEnd__ client-side event is called when the user releases the mouse after resizing an appointment.
+The **OnClientAppointmentResizeEnd** client-side event is called when the user releases the mouse after resizing an appointment.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ returns the appointment instance.
+* **get_appointment()** returns the appointment instance.
 
-* __get_editingRecurringSeries()__ returns __True__ ifthe user is trying to delete a series to which the appointment belongs, __False__ if the user is tryingto delete a single occurrence of an appointment.
+* **get_editingRecurringSeries()** returns **True** ifthe user is trying to delete a series to which the appointment belongs, **False** if the user is tryingto delete a single occurrence of an appointment.
 
-* __get_newStartTime()__ returns the new start time of the appointment if user has resized the upper part of the appointment - the appointment start time.
+* **get_newStartTime()** returns the new start time of the appointment if user has resized the upper part of the appointment - the appointment start time.
 
-* __get_newEndTime()__ returns the new end time of the appointment if user has resized the bottom part of the appointment - the appointment end time.
+* **get_newEndTime()** returns the new end time of the appointment if user has resized the bottom part of the appointment - the appointment end time.
 
-* __get_targetSlot()__ returns the instance of the time slot that the appointment has been resized to.
+* **get_targetSlot()** returns the instance of the time slot that the appointment has been resized to.
 
-* __set_cancel()__lets you permit or block the resize of the appointment. Calling __set_cancel(true)__ cancels the resize,while __set_cancel(false)__ allows the scheduler to proceed with updating the appointment to reflect the resize.
+* **set_cancel()**lets you permit or block the resize of the appointment. Calling **set_cancel(true)** cancels the resize,while **set_cancel(false)** allows the scheduler to proceed with updating the appointment to reflect the resize.
 
 ## Example
 

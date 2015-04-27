@@ -1,6 +1,6 @@
 ---
 title: Modify the Tooltip Text of RadRating Items
-page_title: Modify the Tooltip Text of RadRating Items | UI for ASP.NET AJAX Documentation
+page_title: Modify the Tooltip Text of RadRating Items | RadRating for ASP.NET AJAX Documentation
 description: Modify the Tooltip Text of RadRating Items
 slug: rating/how-to/modify-the-tooltip-text-of-radrating-items
 tags: modify,the,tooltip,text,of,radrating,items
@@ -18,9 +18,9 @@ By default the text that appears in the tooltips of the RadRating items is deter
 
 The following approach can be used for changing the tooltip text of the items:
 
-1. The data of the rating items is retrieved on the client-side by calling the function __get_itemData()__ of RadRating.
+1. The data of the rating items is retrieved on the client-side by calling the function **get_itemData()** of RadRating.
 
-1. The collection, returned from the function is iterated through and the __tooltip__ field of each item in the collection (which correspondsto an item of the rating) is set with the new text that should appear in the tooltip.
+1. The collection, returned from the function is iterated through and the **tooltip** field of each item in the collection (which correspondsto an item of the rating) is set with the new text that should appear in the tooltip.
 
 The code sample below demonstrates how to configure the rating to show textual representation of each item when hovered:
 

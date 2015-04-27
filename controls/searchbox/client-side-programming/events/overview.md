@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Events Overview | RadSearchBox for ASP.NET AJAX Documentation
 description: Overview
 slug: searchbox/client-side-programming/events/overview
 tags: overview
@@ -12,7 +12,7 @@ position: 0
 
 
 
-## Client-Side Events
+## Client-side Events
 
 These are the client events that can be used with RadSearchBox control:
 

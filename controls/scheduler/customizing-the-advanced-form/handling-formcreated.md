@@ -1,6 +1,6 @@
 ---
 title: Handling FormCreated
-page_title: Handling FormCreated | UI for ASP.NET AJAX Documentation
+page_title: Handling FormCreated | RadScheduler for ASP.NET AJAX Documentation
 description: Handling FormCreated
 slug: scheduler/customizing-the-advanced-form/handling-formcreated
 tags: handling,formcreated
@@ -16,9 +16,9 @@ RadScheduler's FormCreated event allows you to access elements on the advanced f
 
 ![scheduler Advanced Panel](images/scheduler_AdvancedPanel.png)
 
-To find a resource RadCombobox, use the following convention - __Res__[NameOfResourceType]. For example -*e.Container.FindControl("ResUser")*.
+To find a resource RadCombobox, use the following convention - **Res**[NameOfResourceType]. For example -*e.Container.FindControl("ResUser")*.
 
-To find a custom attributes RadTextBox, use the following convention - __Attr__[CustomAttributeName].For example - *e.Container.FindControl("AttrAnnotations")*.
+To find a custom attributes RadTextBox, use the following convention - **Attr**[CustomAttributeName].For example - *e.Container.FindControl("AttrAnnotations")*.
 
 Here are some examples:
 

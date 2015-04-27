@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadScheduler for ASP.NET AJAX Documentation
 description: What is New
 slug: scheduler/what-is-new
 tags: what,is,new
@@ -48,11 +48,11 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * New Skin - [Sitefinity]({%slug scheduler/appearance-and-styling/skins%})
 
-* New description field which can be enabled by setting the __DataDescriptionField__ property or, when using a provider,setting __EnableDescriptionField__ to true. ![description field](images/scheduler_descriptionfield.png)
+* New description field which can be enabled by setting the **DataDescriptionField** property or, when using a provider,setting **EnableDescriptionField** to true. ![description field](images/scheduler_descriptionfield.png)
 
 
 
-* New __Localization strings__ for the Context Menu default items – ContextMenuEdit, ContextMenuDelete,ContextMenuAddAppointment, ContextMenuAddRecurringAppointment, ContextMenuGoToToday
+* New **Localization strings** for the Context Menu default items – ContextMenuEdit, ContextMenuDelete,ContextMenuAddAppointment, ContextMenuAddRecurringAppointment, ContextMenuGoToToday
 
 
 
@@ -152,7 +152,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadScheduler for ASP.NET AJAX Q1SP1 2009(Version Number 2009.1.402)
 
-* New property - TimelineView.__ShowInsertArea__. Controls whether to show the empty area at the end of each timeslot that can be used to insert appointments.
+* New property - TimelineView.**ShowInsertArea**. Controls whether to show the empty area at the end of each timeslot that can be used to insert appointments.
 
 * Resource-grouped week and day views are now supported when using Web Service data binding
 
@@ -166,29 +166,29 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## Client-side binding to Web Services
 
-* Add __get_endTime__ property to the client-side [time slot objects]({%slug scheduler/client-side-programming/properties-and-methods/schedulertimeslot-and-schedulermodel-object%})
+* Add **get_endTime** property to the client-side [time slot objects]({%slug scheduler/client-side-programming/properties-and-methods/schedulertimeslot-and-schedulermodel-object%})
 
-* Add __get_targetSlot__ property to the client-side [AppointmentResizeEnd]({%slug scheduler/client-side-programming/events/onclientappointmentresizeend%}) event arguments.
+* Add **get_targetSlot** property to the client-side [AppointmentResizeEnd]({%slug scheduler/client-side-programming/events/onclientappointmentresizeend%}) event arguments.
 
-* Added new RadScheduler client-side method - __showAdvancedEditForm(appointment, editSeries)__
+* Added new RadScheduler client-side method - **showAdvancedEditForm(appointment, editSeries)**
 
-* Added new RadScheduler client-side method - __showAllDayAdvancedInsertForm(date)__
+* Added new RadScheduler client-side method - **showAllDayAdvancedInsertForm(date)**
 
-* Added new RadScheduler client-side method - __showAdvancedInsertForm(date)__
+* Added new RadScheduler client-side method - **showAdvancedInsertForm(date)**
 
-* Added new RadScheduler client-side method - __showAllDayInlineInsertForm(date)__
+* Added new RadScheduler client-side method - **showAllDayInlineInsertForm(date)**
 
-* Added __get_domEvent__ property to AppointmentClickEventArgs (client-side)
+* Added **get_domEvent** property to AppointmentClickEventArgs (client-side)
 
 * XMLScheduler provider now supports resource attributes
 
-* New property: __Resource.CssClass__ - used to specify the cascading style sheet (CSS) class rendered for appointments that use this resource.
+* New property: **Resource.CssClass** - used to specify the cascading style sheet (CSS) class rendered for appointments that use this resource.
 
-* New property: __RadScheduler.ResourceStyles -__ can be used to declaratively apply CSS styles to appointments that contain specific resources.A number of predefined styles are provided to aid common scenarios.
+* New property: **RadScheduler.ResourceStyles -** can be used to declaratively apply CSS styles to appointments that contain specific resources.A number of predefined styles are provided to aid common scenarios.
 
-* New property: __MonthView.DayHeaderDateFormat -__ allows you to control the format of the day headers in month view
+* New property: **MonthView.DayHeaderDateFormat -** allows you to control the format of the day headers in month view
 
-* New property: __MonthView.FirstDayHeaderDateFormat -__ controls the format of the header for the first day of each month
+* New property: **MonthView.FirstDayHeaderDateFormat -** controls the format of the header for the first day of each month
 
 * New client events: [OnClientAppointmentsPopulating]({%slug scheduler/client-side-programming/events/onclientappointmentspopulating%}),[OnClientAppointmentsPopulated]({%slug scheduler/client-side-programming/events/onclientappointmentspopulated%}), [OnClientAppointmentDataBound]({%slug scheduler/client-side-programming/events/onclientappointmentdatabound%}),[OnClientAppointmentCreated]({%slug scheduler/client-side-programming/events/onclientappointmentcreated%}), [OnClientResourcesPopulating]({%slug scheduler/client-side-programming/events/onclientresourcespopulating%}),[OnClientResourcesPopulated]({%slug scheduler/client-side-programming/events/onclientresourcespopulated%}), [OnClientDataBound]({%slug scheduler/client-side-programming/events/onclientdatabound%}),[OnClientRequestFailed]({%slug scheduler/client-side-programming/events/onclientrequestfailed%}), [OnClientAppointmentWebServiceInserting]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceinserting%}), [OnClientAppointmentWebServiceDeleting]({%slug scheduler/client-side-programming/events/onclientappointmentwebservicedeleting%}), [OnClientAppointmentWebServiceUpdating]({%slug scheduler/client-side-programming/events/onclientappointmentwebserviceupdating%}),[OnClientRecurrenceExceptionCreating]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptioncreating%}), [OnClientRecurrenceExceptionsRemoving]({%slug scheduler/client-side-programming/events/onclientrecurrenceexceptionsremoving%})
 
@@ -210,7 +210,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadScheduler for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105)
 
-* [Horizontal scroll]({%slug scheduler/appearance-and-styling/horizontal-scrolling%}) in all views. Use the new __ColumnWidth__ property to enable it.
+* [Horizontal scroll]({%slug scheduler/appearance-and-styling/horizontal-scrolling%}) in all views. Use the new **ColumnWidth** property to enable it.
 
 * Reduced markup size.
 
@@ -218,7 +218,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Design tweaks to all skins.
 
-* Improved Inline Form. It is now with [resizable]({%slug scheduler/appearance-and-styling/inline-form-resizing%}) and will maintain the minimum size specified by the__MinimumInlineFormHeight__ and __MinimumInlineFormWidth__ properties. Opening it no longer requires postback, instead it is rendered on theclient (disabled when using Templates).
+* Improved Inline Form. It is now with [resizable]({%slug scheduler/appearance-and-styling/inline-form-resizing%}) and will maintain the minimum size specified by the**MinimumInlineFormHeight** and **MinimumInlineFormWidth** properties. Opening it no longer requires postback, instead it is rendered on theclient (disabled when using Templates).
 
 * Improved Advanced Form. Changes include validated inputs, animations, design tweaks and smaller script size. Both the integrated and the sample Forms are updated.
 
@@ -226,29 +226,29 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Better resizing in vertically grouped Week Views (resource boundaries are now honored).
 
-* New __SchedulerAppointment__ property (client-side) - __get_duration()__. Gets the duration of the Appointment in milliseconds.
+* New **SchedulerAppointment** property (client-side) - **get_duration()**. Gets the duration of the Appointment in milliseconds.
 
-* New properties - __ColumnWidth__ and __RowHeight__. Used to control the Width of Columns and the Height of Rows in allViews except Month View.
+* New properties - **ColumnWidth** and **RowHeight**. Used to control the Width of Columns and the Height of Rows in allViews except Month View.
 
-* New properties - __Appointment.DataItem__ and __Resource.DataItem__. Each holds a reference to the data item used toconstruct the particular Appointment/Resource. Available only during data binding.
+* New properties - **Appointment.DataItem** and **Resource.DataItem**. Each holds a reference to the data item used toconstruct the particular Appointment/Resource. Available only during data binding.
 
-* New property - __ValidationGroup__. Used by the integrated validators.
+* New property - **ValidationGroup**. Used by the integrated validators.
 
-* New property - __VisualTimeZoneOffset__. Used by RadScheduler for determining today’s date, in cases when the server and the clients are indifferent time zones. The property does not affect the stored data in any way. This property is ignored when __TimeZoneOffset__ is set.
+* New property - **VisualTimeZoneOffset**. Used by RadScheduler for determining today’s date, in cases when the server and the clients are indifferent time zones. The property does not affect the stored data in any way. This property is ignored when **TimeZoneOffset** is set.
 
-* New property - __EnableRecurrenceSupport__. Can be used to disable recurrence support when using custom providers. When binding to a datasource, setting __DataRecurrenceField__ and __DataRecurrenceParentKeyField__ to empty string also disables it.
+* New property - **EnableRecurrenceSupport**. Can be used to disable recurrence support when using custom providers. When binding to a datasource, setting **DataRecurrenceField** and **DataRecurrenceParentKeyField** to empty string also disables it.
 
-* New __TimelineView__property - __ColumnHeaderDateFormat__. Controls the date format of the column headers in Timeline View.
+* New **TimelineView**property - **ColumnHeaderDateFormat**. Controls the date format of the column headers in Timeline View.
 
-* New __ISchedulerTimeSlot__ property - __Control__. This is a reference to the rendered control (typically a__TableCell__) that represents this time slot.
+* New **ISchedulerTimeSlot** property - **Control**. This is a reference to the rendered control (typically a**TableCell**) that represents this time slot.
 
-* New __ISchedulerTimeSlot__ property - __Resource__ (available in the grouped views).
+* New **ISchedulerTimeSlot** property - **Resource** (available in the grouped views).
 
-* New event: __ResourceHeaderCreated__ now complements the Resource Header templates.
+* New event: **ResourceHeaderCreated** now complements the Resource Header templates.
 
-* New localization string: __“Save”__; Replaces __“Insert”__ and __“Update”__.
+* New localization string: **“Save”**; Replaces **“Insert”** and **“Update”**.
 
-* The options button is no longer rendered in the Inline Form when __EnableAdvancedForm__ is __false__.
+* The options button is no longer rendered in the Inline Form when **EnableAdvancedForm** is **false**.
 
 * The Templates used in the "Customizing the Advanced Form" Example are now available in Visual Basic.NET.
 
@@ -276,7 +276,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 >
 
 
->note  __Limitations of the Futures version:__ 
+>note  **Limitations of the Futures version:** 
 >
 * Creating recurring appointments is not supported.
 * Recurrence exceptions are not associated with the recurrence series.

@@ -1,6 +1,6 @@
 ---
 title: Custom CDN Provider
-page_title: Custom CDN Provider | UI for ASP.NET AJAX Documentation
+page_title: Custom CDN Provider | RadScriptManager for ASP.NET AJAX Documentation
 description: Custom CDN Provider
 slug: scriptmanager/cdn-support/custom-cdn-provider
 tags: custom,cdn,provider
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-In case you want to use your own __CDN provider__ for hosting RadControls script / css files you need to follow these steps:
+In case you want to use your own **CDN provider** for hosting RadControls script / css files you need to follow these steps:
 
-1. Obtain the __CDN resource package__ for your controls version. For example __Telerik.Web.UI_2011_2_712_CDN_Resources.zip__.This file is available on demand and can be found where all product files for the RadControls for ASP.NET AJAX are located.
+1. Obtain the **CDN resource package** for your controls version. For example **Telerik.Web.UI_2011_2_712_CDN_Resources.zip**.This file is available on demand and can be found where all product files for the RadControls for ASP.NET AJAX are located.
 
 For this purpose you need to log in to your Telerik account and follow the steps below:
 
@@ -24,9 +24,9 @@ For this purpose you need to log in to your Telerik account and follow the steps
 
 1. Select the product name (this can be the *DevCraft Ultimate* for example);
 
-1. From the newly opened page select the *__Download__ Installer and other resources* option;
+1. From the newly opened page select the **Download** Installer and other resources* option;
 
-1. From the __RadControls for ASP.NET AJAX__ section you will need to choose the *Browse all products files*;
+1. From the **RadControls for ASP.NET AJAX** section you will need to choose the *Browse all products files*;
 
 1. In the *Other* field section you can find the *CDN Resources*.
 
@@ -46,7 +46,7 @@ For this purpose you need to log in to your Telerik account and follow the steps
 
 * ReadMe
 
-The Scripts/__ajaxz__ folder contains the compressed (gzipped) javascript files. The Scripts/__ajax__ folder contains the uncompressed javascript files for compatibility with older browsers (IE6).
+The Scripts/**ajaxz** folder contains the compressed (gzipped) javascript files. The Scripts/**ajax** folder contains the uncompressed javascript files for compatibility with older browsers (IE6).
 
 
 
@@ -64,7 +64,7 @@ The Scripts/__ajaxz__ folder contains the compressed (gzipped) javascript files.
 
 
 
-5. Set the __BaseUrl__ attribute of the __CdnSettings__ property to the domain name of your CDN and TelerikCdn="Enabled":
+5. Set the **BaseUrl** attribute of the **CdnSettings** property to the domain name of your CDN and TelerikCdn="Enabled":
 
 ````ASPNET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">

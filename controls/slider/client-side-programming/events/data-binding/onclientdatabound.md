@@ -1,6 +1,6 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientDataBound | RadSlider for ASP.NET AJAX Documentation
 description: OnClientDataBound
 slug: slider/client-side-programming/events/data-binding/onclientdatabound
 tags: onclientdatabound
@@ -12,13 +12,13 @@ position: 0
 
 
 
-This article demonstrates how you can use the __OnClientDataBound__ eventto execute a script when the data binding of __RadSlider__ is finished.
+This article demonstrates how you can use the **OnClientDataBound** eventto execute a script when the data binding of **RadSlider** is finished.
 
 The only parameter the event handler receives is the client-side object of the slider that fired the event.
 
 ## 
 
-You can check in __Example 1__ how this event can be used for notifyingthe user that the data binding of the slider is finished.
+You can check in **Example 1** how this event can be used for notifyingthe user that the data binding of the slider is finished.
 
 Example 1: Using the OnClientDataBound event.
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentDoubleClick
-page_title: OnClientAppointmentDoubleClick | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentDoubleClick | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentDoubleClick
 slug: scheduler/client-side-programming/events/onclientappointmentdoubleclick
 tags: onclientappointmentdoubleclick
@@ -12,13 +12,13 @@ position: 2
 
 
 
-The __OnClientAppointmentDoubleClick__ client-side event is called when the user double-clicks on an appointment.
+The **OnClientAppointmentDoubleClick** client-side event is called when the user double-clicks on an appointment.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has one method - __get_appointment()__ that returns the appointment instance.
+* **eventArgs** has one method - **get_appointment()** that returns the appointment instance.
 
 ## Example
 

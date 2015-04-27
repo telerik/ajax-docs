@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadRibbonBar for ASP.NET AJAX Documentation
 description: Overview
 slug: ribbonbar/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadRibbonBar__ control supports a number of client-side events that let you customize its behavior:
+**RadRibbonBar** control supports a number of client-side events that let you customize its behavior:
 
 * [OnClientLoad]({%slug ribbonbar/client-side-programming/events/onclientload%}) occurs after the client object of RadRibbonBar is initialized.
 

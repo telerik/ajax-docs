@@ -1,6 +1,6 @@
 ---
 title: OnClientAppointmentDeleting
-page_title: OnClientAppointmentDeleting | UI for ASP.NET AJAX Documentation
+page_title: OnClientAppointmentDeleting | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientAppointmentDeleting
 slug: scheduler/client-side-programming/events/onclientappointmentdeleting
 tags: onclientappointmentdeleting
@@ -12,19 +12,19 @@ position: 4
 
 
 
-The __OnClientAppointmentDeleting__ client-side event is called before an appointment is deleted.
+The **OnClientAppointmentDeleting** client-side event is called before an appointment is deleted.
 
 Two parameters are passed to the event handler:
 
-* __sender__ is the scheduler client object.
+* **sender** is the scheduler client object.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_appointment()__ returns the appointment instance.
+* **get_appointment()** returns the appointment instance.
 
-* __get_editingRecurringSeries()__ returns __True__ if the user is tryingto delete a series to which the appointment belongs, __False__ if the user is trying to delete a single occurrenceof an appointment.
+* **get_editingRecurringSeries()** returns **True** if the user is tryingto delete a series to which the appointment belongs, **False** if the user is trying to delete a single occurrenceof an appointment.
 
-* __set_cancel()__ lets you permit or block the deletion of the appointment.Calling __set_cancel(true)__ aborts the deletion, while __set_cancel(false)__ allows thescheduler to proceed with deleting the appointment.
+* **set_cancel()** lets you permit or block the deletion of the appointment.Calling **set_cancel(true)** aborts the deletion, while **set_cancel(false)** allows thescheduler to proceed with deleting the appointment.
 
 ## Example
 

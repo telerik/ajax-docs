@@ -1,6 +1,6 @@
 ---
 title: Using Custom Style Sheet Files
-page_title: Using Custom Style Sheet Files | UI for ASP.NET AJAX Documentation
+page_title: Using Custom Style Sheet Files | RadScheduler for ASP.NET AJAX Documentation
 description: Using Custom Style Sheet Files
 slug: scheduler/export/pdf/using-custom-style-sheet-files
 tags: using,custom,style,sheet,files
@@ -14,7 +14,7 @@ position: 1
 
 ## Overview
 
-As of Q3 2013 SP1 we introduced the property StyleSheets of the RadScheduler __ExportSettings__.Its main purpose is to set custom styles by excluding the skin styles (by default the skin styles are applied to the exported RadScheduler).
+As of Q3 2013 SP1 we introduced the property StyleSheets of the RadScheduler **ExportSettings**.Its main purpose is to set custom styles by excluding the skin styles (by default the skin styles are applied to the exported RadScheduler).
 
 >note Please note that this property allows you to use a relative path and absolute path to the style sheet file. You are absolutely free to combine relative and absolute paths for different files when you want to include more style sheet files.
 >
@@ -46,6 +46,6 @@ Please find the below example that show how you can include to your ExportSettin
 
 
 
-__Figure 1__
+**Figure 1**
 
 ![scheduler-pdfexport-stylesheets](images/scheduler-pdfexport-stylesheets.png)

@@ -1,6 +1,6 @@
 ---
 title: Web API Binding
-page_title: Web API Binding | UI for ASP.NET AJAX Documentation
+page_title: Web API Binding | RadScheduler for ASP.NET AJAX Documentation
 description: Web API Binding
 slug: scheduler/web-service-binding/web-api-binding
 tags: web,api,binding
@@ -14,17 +14,17 @@ position: 1
 
 ## Web API Binding
 
-Since Service Pack 1 Q2 2013 __RadScheduler__ can be bound to __HTTP services using ASP.NET Web API__. ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients- both browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
+Since Service Pack 1 Q2 2013 **RadScheduler** can be bound to **HTTP services using ASP.NET Web API**. ASP.NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients- both browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
 
-RadScheduler supports all CRUD operations "Create, Read, Update, and Delete” when it is using __Web API DataBinding__.
+RadScheduler supports all CRUD operations "Create, Read, Update, and Delete” when it is using **Web API DataBinding**.
 
->caution Besides referencing theTelerik dlls files, RadScheduler Web API binding requires references to __Newtonsoft.Json.dll__ , __System.Net.Http.Formatting.dll__ , __System.Web.Http.dll__ and __System.Web.Http.WebHost.dll__ .
+>caution Besides referencing theTelerik dlls files, RadScheduler Web API binding requires references to **Newtonsoft.Json.dll** , **System.Net.Http.Formatting.dll** , **System.Web.Http.dll** and **System.Web.Http.WebHost.dll** .
 >
 
 
 ## Configuration
 
-__RadScheduler Web API binding__ is quite similar to the usual [Web Service binding]({%slug scheduler/web-service-binding/overview%}) with several specific differences. In the mark up of the control we should set the correct path. If RadScheduler is loading resources make sure that __UseHttpGet__ property is set to __true__ as for example in the code below:
+**RadScheduler Web API binding** is quite similar to the usual [Web Service binding]({%slug scheduler/web-service-binding/overview%}) with several specific differences. In the mark up of the control we should set the correct path. If RadScheduler is loading resources make sure that **UseHttpGet** property is set to **true** as for example in the code below:
 
 ````ASPNET
 	
@@ -34,7 +34,7 @@ __RadScheduler Web API binding__ is quite similar to the usual [Web Service bind
 
 
 
-The __Routing information__ should be defined in the __Global.asax__ file. Here the jsonFormatter should be of type __new System.Net.Http.Formatting.JsonMediaTypeFormatter()__ in order to have a properly working binding of RadScheduler:
+The **Routing information** should be defined in the **Global.asax** file. Here the jsonFormatter should be of type **new System.Net.Http.Formatting.JsonMediaTypeFormatter()** in order to have a properly working binding of RadScheduler:
 
 ````ASPNET
 	     
@@ -61,7 +61,7 @@ The __Routing information__ should be defined in the __Global.asax__ file. Here 
 
 
 
-In the controller class each event is using a __WebApiData object__ that contains the information needed for updating the appointments. In the __HTTP__ attributes above each event is used to define an action that will be performed through the __Web API__.
+In the controller class each event is using a **WebApiData object** that contains the information needed for updating the appointments. In the **HTTP** attributes above each event is used to define an action that will be performed through the **Web API**.
 
 
 
@@ -263,7 +263,7 @@ In the controller class each event is using a __WebApiData object__ that contain
 ````
 
 
-In order for all CRUD operations to work properly when you host the application on __IIS server__ in the configuration file, you need to add the following settings in the __system.webServer__ section:
+In order for all CRUD operations to work properly when you host the application on **IIS server** in the configuration file, you need to add the following settings in the **system.webServer** section:
 
 ````ASPNET
 	

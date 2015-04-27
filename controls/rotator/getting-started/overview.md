@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadRotator for ASP.NET AJAX Documentation
 description: Overview
 slug: rotator/getting-started/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-__These steps should be followed in order to configure RadRotator control:__
+**These steps should be followed in order to configure RadRotator control:**
 
-__RadRotator__ is a dynamic control that moves its content. To do that the control should be "aware" of its items size. The *ItemWidth* and *ItemHeight* properties are intended to provide this information to the control. If these properties are not set accordingly to the *ItemTemplate's *size*, *then the __RadRotator__ may behave inconsistently in different browsers.
+**RadRotator** is a dynamic control that moves its content. To do that the control should be "aware" of its items size. The *ItemWidth* and *ItemHeight* properties are intended to provide this information to the control. If these properties are not set accordingly to the *ItemTemplate's *size*, *then the **RadRotator** may behave inconsistently in different browsers.
 
 * The items are not shown when the control is first loaded. After clicking the "Refresh" button the items become visible.
 
@@ -66,7 +66,7 @@ This example demonstrates the purpose of the [Width, ItemWidth, Height and ItemH
 
 
 
-After implementing the above steps two items will be shown in the __RadRotator__'s viewport, because of the *Width="200"* and *ItemWidth="100"* properties.
+After implementing the above steps two items will be shown in the **RadRotator**'s viewport, because of the *Width="200"* and *ItemWidth="100"* properties.
 
 
 >caption 
@@ -75,16 +75,16 @@ After implementing the above steps two items will be shown in the __RadRotator__
 
 
 
-In case that the requirement is to show 3 items in the viewport, then the *Width* property should be changed to "300". Also, if one of the __RadRotator__'s buttons' type is used , then the *Width *property should be set to *"240"* (the buttons have dimensions: 20x20 pixels).
+In case that the requirement is to show 3 items in the viewport, then the *Width* property should be changed to "300". Also, if one of the **RadRotator**'s buttons' type is used , then the *Width *property should be set to *"240"* (the buttons have dimensions: 20x20 pixels).
 
 All of the explained logic stays the same if the *ScrollDirection="Up, Down"* is set*,* but it should be applied to the *Height* and *ItemHeight* properties, respectively.
 
->important The built-in skin __MetroTouch__ (introduced with the Q2 2012 release) requires some additional modifications of the values that should be set in the properties __Width__ and __Height__ of __RadRotator__ :
+>important The built-in skin **MetroTouch** (introduced with the Q2 2012 release) requires some additional modifications of the values that should be set in the properties **Width** and **Height** of **RadRotator** :
 >
-* You should always add 14px to the __Width__ and the __Height__ of __RadRotator__ .
-* If the __RadRotator__ is configured in a mode that uses control buttons (for example __Buttons__ , __ButtonsOver__ ) you should add 28px for every button (the buttons have dimensions: 28x28 pixels).	In case the __RadRotator__ has horizontal orientation the pixels are added to the __Width__ property and in case the rotator control is oriented vertically, you should increase the __Height__ property.>
+* You should always add 14px to the **Width** and the **Height** of **RadRotator** .
+* If the **RadRotator** is configured in a mode that uses control buttons (for example **Buttons** , **ButtonsOver** ) you should add 28px for every button (the buttons have dimensions: 28x28 pixels).	In case the **RadRotator** has horizontal orientation the pixels are added to the **Width** property and in case the rotator control is oriented vertically, you should increase the **Height** property.>
 
 
-__IMPORTANT__
+**IMPORTANT**
 
-The __RadRotator__ control does not support percent values and all of the above properties should be set in pixels.
+The **RadRotator** control does not support percent values and all of the above properties should be set in pixels.

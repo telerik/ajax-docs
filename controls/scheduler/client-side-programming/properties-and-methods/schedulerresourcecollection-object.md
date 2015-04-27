@@ -1,6 +1,6 @@
 ---
 title: SchedulerResourceCollection Object
-page_title: SchedulerResourceCollection Object | UI for ASP.NET AJAX Documentation
+page_title: SchedulerResourceCollection Object | RadScheduler for ASP.NET AJAX Documentation
 description: SchedulerResourceCollection Object
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object
 tags: schedulerresourcecollection,object
@@ -23,7 +23,7 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_count()__ |None|Int|Gets the number of Resources in the collection.|
+| **get_count()** |None|Int|Gets the number of Resources in the collection.|
 
 ## Methods
 
@@ -32,16 +32,16 @@ The tables below lists all public properties and the most important methods of t
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add()__ |Resource|None|Adds the specified Resource to the collection.|
-| __clear()__ |None|None|Clears the collection of all Resources in it.|
-| __forEach()__ |function|SchedulerResourceCollection|Gets the collection of all Resources.|
-| __getResource()__ |Int|Resource|Gets the Resource at the specified index in the collection.|
-| __getResourceByType()__ |String|Resource|Gets the Resource of a specified type in the collection.|
-| __getResourcesByType()__ |String|SchedulerResourceCollection|Gets a list of all Resources of the specified type.|
-| __getResourceByTypeAndKey()__ |String, String|Resource|Gets a Resources of the specified type and key.|
-| __insert()__ |Int (index), Resource|None|Inserts the specified Resource at the specified index in the collection.|
-| __remove()__ |Resource|None|Removes the specified Resource (if it exists) from the collection.|
-| __removeAt()__ |Int|None|Removes the Resource at the specified index from the collection.|
+| **add()** |Resource|None|Adds the specified Resource to the collection.|
+| **clear()** |None|None|Clears the collection of all Resources in it.|
+| **forEach()** |function|SchedulerResourceCollection|Gets the collection of all Resources.|
+| **getResource()** |Int|Resource|Gets the Resource at the specified index in the collection.|
+| **getResourceByType()** |String|Resource|Gets the Resource of a specified type in the collection.|
+| **getResourcesByType()** |String|SchedulerResourceCollection|Gets a list of all Resources of the specified type.|
+| **getResourceByTypeAndKey()** |String, String|Resource|Gets a Resources of the specified type and key.|
+| **insert()** |Int (index), Resource|None|Inserts the specified Resource at the specified index in the collection.|
+| **remove()** |Resource|None|Removes the specified Resource (if it exists) from the collection.|
+| **removeAt()** |Int|None|Removes the Resource at the specified index from the collection.|
 
 ````JavaScript
 	        function OnClientAppointmentClick(sender, args) {

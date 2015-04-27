@@ -1,6 +1,6 @@
 ---
 title: Working with Recurring Appointments
-page_title: Working with Recurring Appointments | UI for ASP.NET AJAX Documentation
+page_title: Working with Recurring Appointments | RadScheduler for ASP.NET AJAX Documentation
 description: Working with Recurring Appointments
 slug: scheduler/server-side-programming/working-with-recurring-appointments
 tags: working,with,recurring,appointments
@@ -12,13 +12,13 @@ position: 0
 
 
 
-__RadScheduler__ includes support for recurring events on hourly, weekly, daily, monthly and yearly basis. Exceptions to the recurrence rules are also permitted. To support this recurrence behavior, the __Appointment__ class includes the __RecurrenceRule__, __RecurrenceParentID__ and __RecurrenceState__ properties. When an appointment is promoted into a recurring event its __RecurrenceState__ changes to __RecurrenceState.Master__ and the __RecurrenceRule__ is populated with the string representation of the recurrence rule.
+**RadScheduler** includes support for recurring events on hourly, weekly, daily, monthly and yearly basis. Exceptions to the recurrence rules are also permitted. To support this recurrence behavior, the **Appointment** class includes the **RecurrenceRule**, **RecurrenceParentID** and **RecurrenceState** properties. When an appointment is promoted into a recurring event its **RecurrenceState** changes to **RecurrenceState.Master** and the **RecurrenceRule** is populated with the string representation of the recurrence rule.
 
-The recurrence master is stored in the database and its occurrences are generated on the fly with __RecurrenceState__ set to __RecurrenceState.Occurrence__.
+The recurrence master is stored in the database and its occurrences are generated on the fly with **RecurrenceState** set to **RecurrenceState.Occurrence**.
 
-If the user modifies an individual appointment occurrence, this creates an exception. The __RecurrenceRule__ of the master is modified to include the date and time of the exception so that no occurrence is generated for the exception occurrence. Then the exception is stored in the database and its __RecurrenceParentID__ property is set to reference the original master. This way the exception is still linked to the original recurrence series.
+If the user modifies an individual appointment occurrence, this creates an exception. The **RecurrenceRule** of the master is modified to include the date and time of the exception so that no occurrence is generated for the exception occurrence. Then the exception is stored in the database and its **RecurrenceParentID** property is set to reference the original master. This way the exception is still linked to the original recurrence series.
 
-The __RecurrenceRule__ class is the engine for creating and evaluating recurrence rules. It serves as a base class to several specialized classes and cannot be instantiated directly. The specialized classes are:
+The **RecurrenceRule** class is the engine for creating and evaluating recurrence rules. It serves as a base class to several specialized classes and cannot be instantiated directly. The specialized classes are:
 
 * HourlyRecurrenceRule
 
@@ -34,7 +34,7 @@ Using the specialized classes makes it easier to define recurrence rules because
 
 ## Example
 
-Here is an example using the __HourlyRecurrenceRule__ class:
+Here is an example using the **HourlyRecurrenceRule** class:
 
 
 
@@ -120,8 +120,8 @@ Here is an example using the __HourlyRecurrenceRule__ class:
 ````
 
 
-The __RecurrenceRange__ class specifies the time frame for the recurrence. It consists of the start timeof the event, it's duration and optional limits.
+The **RecurrenceRange** class specifies the time frame for the recurrence. It consists of the start timeof the event, it's duration and optional limits.
 
-The __Occurrences__ property returns an enumerator that can be used to retrieve all the occurrences defined by the rule.
+The **Occurrences** property returns an enumerator that can be used to retrieve all the occurrences defined by the rule.
 
-The __RecurrenceRule__ class supports the __ToString__ and __TryParse__methods that __RadScheduler__ uses for storing and retrieving the recurrence rules instances. The format is a subset of the standard iCalendar format. The example above produces the following output: ![](images/recurrenceoutput.png)
+The **RecurrenceRule** class supports the **ToString** and **TryParse**methods that **RadScheduler** uses for storing and retrieving the recurrence rules instances. The format is a subset of the standard iCalendar format. The example above produces the following output: ![](images/recurrenceoutput.png)

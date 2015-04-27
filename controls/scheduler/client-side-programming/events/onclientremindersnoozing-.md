@@ -1,6 +1,6 @@
 ---
 title: OnClientReminderSnoozing 
-page_title: OnClientReminderSnoozing  | UI for ASP.NET AJAX Documentation
+page_title: OnClientReminderSnoozing  | RadScheduler for ASP.NET AJAX Documentation
 description: OnClientReminderSnoozing 
 slug: scheduler/client-side-programming/events/onclientremindersnoozing-
 tags: onclientremindersnoozing,
@@ -18,9 +18,9 @@ The OnClientReminderTriggering client-side event handler is called when an appoi
 
 Two parameters are passed to the handler:
 
-* __sender__, the scheduler client object;
+* **sender**, the scheduler client object;
 
-* __eventArgs__, with three properties:
+* **eventArgs**, with three properties:
 
 * get_appointment(), the instance of the appointment.
 

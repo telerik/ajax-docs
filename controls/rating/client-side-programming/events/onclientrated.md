@@ -1,6 +1,6 @@
 ---
 title: OnClientRated
-page_title: OnClientRated | UI for ASP.NET AJAX Documentation
+page_title: OnClientRated | RadRating for ASP.NET AJAX Documentation
 description: OnClientRated
 slug: rating/client-side-programming/events/onclientrated
 tags: onclientrated
@@ -12,7 +12,7 @@ position: 3
 
 
 
-The __OnClientRated__ event is raised after you click an item of the __RadRating__ control therefore after the [OnClientRating event]({%slug rating/client-side-programming/events/onclientrating%}). It is not cancellable. If you cancel the __OnClientRating__ event, it will not be fired.
+The **OnClientRated** event is raised after you click an item of the **RadRating** control therefore after the [OnClientRating event]({%slug rating/client-side-programming/events/onclientrating%}). It is not cancellable. If you cancel the **OnClientRating** event, it will not be fired.
 
 ## 
 
@@ -29,7 +29,7 @@ The event handler receives two arguments:
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __get_oldValue__ ||number|The method returns an object of type number. It shows the value of the rating control before clicking on the rating item.In __Example 1__ you can check how to indicate if there is a change in the value of the rating via this method. __Example 1__ : Using the __OnClientRated__ event.
+| **get_oldValue** ||number|The method returns an object of type number. It shows the value of the rating control before clicking on the rating item.In **Example 1** you can check how to indicate if there is a change in the value of the rating via this method. **Example 1** : Using the **OnClientRated** event.
 
 ````ASPNET
 	    <telerik:RadRating runat="server" ID="RadRating3" OnClientRated="OnClientRated"></telerik:RadRating>

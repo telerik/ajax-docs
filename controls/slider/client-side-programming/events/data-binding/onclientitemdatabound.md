@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadSlider for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: slider/client-side-programming/events/data-binding/onclientitemdatabound
 tags: onclientitemdatabound
@@ -12,25 +12,25 @@ position: 2
 
 
 
-This article demonstrates how you can use the __OnClientItemDataBound__ event to manipulate the items of a __RadSlider__ that you have bound to a client-side data source.
+This article demonstrates how you can use the **OnClientItemDataBound** event to manipulate the items of a **RadSlider** that you have bound to a client-side data source.
 
 ## 
 
-The __OnClientItemDataBound__ event is raised when an item in the slider is data-bound to the provided data source.
+The **OnClientItemDataBound** event is raised when an item in the slider is data-bound to the provided data source.
 
 The event handler receives two parameters:
 
-* The client-side object of the __RadSlider__ instance that fired the event.
+* The client-side object of the **RadSlider** instance that fired the event.
 
 * An event arguments object containing the following methods:
 
-* __get_dataItem()__ - returns the client-side data object of the slider’s item.
+* **get_dataItem()** - returns the client-side data object of the slider’s item.
 
-* __get_sliderItem()__ - returns the client-side object of the slider’s item.
+* **get_sliderItem()** - returns the client-side object of the slider’s item.
 
-You can check in __Example 1__ how this event can be used for modifying the text in the slider items after they are data bound.
+You can check in **Example 1** how this event can be used for modifying the text in the slider items after they are data bound.
 
-Example 1: Using the __OnClientItemDataBound__ event.
+Example 1: Using the **OnClientItemDataBound** event.
 
 ````ASPNET
 	        <script type="text/javascript">

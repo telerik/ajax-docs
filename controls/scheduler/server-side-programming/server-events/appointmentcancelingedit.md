@@ -1,6 +1,6 @@
 ---
 title: AppointmentCancelingEdit
-page_title: AppointmentCancelingEdit | UI for ASP.NET AJAX Documentation
+page_title: AppointmentCancelingEdit | RadScheduler for ASP.NET AJAX Documentation
 description: AppointmentCancelingEdit
 slug: scheduler/server-side-programming/server-events/appointmentcancelingedit
 tags: appointmentcancelingedit
@@ -12,19 +12,19 @@ position: 8
 
 
 
-The __AppointmentCancelingEdit__ event occurs when the user clicks the cancel button of the in-line editor or the edit form.
+The **AppointmentCancelingEdit** event occurs when the user clicks the cancel button of the in-line editor or the edit form.
 
-__AppointmentCancelingEdit__ has two parameters:
+**AppointmentCancelingEdit** has two parameters:
 
-* __sender__ is the scheduler control.
+* **sender** is the scheduler control.
 
-* __e__ is an object of type __AppointmentCancelingEditEventArgs__. It has three properties:
+* **e** is an object of type **AppointmentCancelingEditEventArgs**. It has three properties:
 
-* __Appointment__ is the appointment that was being inserted or updated by the editor.
+* **Appointment** is the appointment that was being inserted or updated by the editor.
 
-* __Container__ is the editor that was being used to insert or edit an appointment.
+* **Container** is the editor that was being used to insert or edit an appointment.
 
-* __Cancel__ is a boolean value that lets you prevent the user from exiting the edit form or in-line editor.
+* **Cancel** is a boolean value that lets you prevent the user from exiting the edit form or in-line editor.
 
 ## Example
 
