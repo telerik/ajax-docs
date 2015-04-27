@@ -10,28 +10,14 @@ position: 1
 
 # CSS Classes
 
-
-
 ## RadFileExplorer Default CSS Styles
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
 | **.RadFileExplorer** |RadFileExplorer main wrapping element|
 | **.rfeAddressBox** |Sets RadFileExplorer address box – INPUT element|
 
-
-
 ## Upload Container
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -42,28 +28,14 @@ position: 1
 | **.rfeUploadButtonContainer** |RadFileExplorer upload button container|
 | **.rfeUploadButtonContainer input** |RadFileExplorer upload button container INPUT|
 
-
-
-## File Extension Sprites
-
-
-
-
->caption  
+## File Extension Sprites 
 
 | CSS Class | Description |
 | ------ | ------ |
 | **.rfeFileExtension** |Sprite Image background|
 | **.folder** |Folder|
 
-
-
 ## RadToolBar related CSS
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -86,14 +58,7 @@ position: 1
 | **.RadFileExplorer .RadToolBar .NoIcon .rtbText** |FileExplorer RadToolBar no icon text|
 | **.RadFileExplorer .RadToolBar .NoIcon.rtbChecked** |FileExplorer RadToolBar no icon checked|
 
-
-
 ## RadGrid Related CSS
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -104,14 +69,7 @@ position: 1
 | **.RadFileExplorer .RadGrid .rgNoRecords div** |FileExplorer RadGrid no records DIV|
 | **.RadFileExplorer .RadGrid .rgSliderLabel** |FileExplorer RadGrid slider label|
 
-
-
 ## RadTreeView Related CSS
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -121,14 +79,7 @@ position: 1
 | **.RadFileExplorer .RadTreeView .rfeFileExtension** |FileExplorer RadTreeView file explorer file extension|
 | ** + html .RadFileExplorer .rtLoadingBefore** |FileExplorer RadTreeView loading before IE7 fix|
 
-
-
 ## RadFileExplorer File Extensions
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -171,14 +122,7 @@ position: 1
 | **.RadFileExplorer .xsl** |RadFileExplorer .xsl file|
 | **.RadFileExplorer .bac** |RadFileExplorer .bac file|
 
-
-
 ## Skin Specific Settings
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |

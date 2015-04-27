@@ -10,10 +10,7 @@ position: 0
 
 # FileExplorer Overview
 
-
-
 **RadFileExplorer** is a part of the Telerik UI for ASP.NET AJAX suite and it is officially included in the suite in Q1 2009. It allows you to easily add a file explorer functionality to your pages providing your users with the ability to organize files and folders directly from the web page.
->caption 
 
 ![Default images](images/FileExplorer-DefaultImage.gif)
 
@@ -35,13 +32,10 @@ position: 0
 
 * Ability to create new folders
 
-
-
 RadFileExplorer is installed with a number of preset skins. They are shown below:
->caption 
 
 ![radfileexplorer-skins](images/radfileexplorer-skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
->
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+
 

@@ -10,11 +10,11 @@ position: 0
 
 # Filter Items
 
-
-
 ## Filter items in FileExplorer
 
-Starting from Q1 2011 the users can filter the files and folders in the FileExplorer's Grid. Setting the **EnableFilterTextBox** property to **true** will render a search box above the Grid's header. Note that the FileExplorer searches for the keyword in the currently selected directory, omitting the items in the subfolders.![radfileeplorer-filter](images/radfileeplorer-filter.png)
+Starting from **Q1 2011** the users can filter the files and folders in the FileExplorer's Grid. Setting the **EnableFilterTextBox** property to **true** will render a search box above the Grid's header. Note that the FileExplorer searches for the keyword in the currently selected directory, omitting the items in the subfolders.
+
+![radfileeplorer-filter](images/radfileeplorer-filter.png)
 
 These are the properties the related to the Filtering functionality:
 
@@ -38,25 +38,25 @@ The **filter** client-side event (**OnClientFilter** property) is raised before 
 
 It is not necessary to have the built-in filter textbox enabled in order to perform filtering. The FileExplorer's **filter(** client-side method can be used to filter the items in the currently selected directory. For example the following code performs the search from a user-defined textbox on every key stroke.
 
-````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-		<script type="text/javascript">
-		    function Search(txt)
-		    {
-		        var keyWord = txt.value;
-		        var fileExplorer = $find("<%=RadFileExplorer1.ClientID %>");
-		        //Search for the keyword
-		        fileExplorer.filter(keyWord);
-		    }
-		</script>
-	
-		<div>
-			<span>Search:</span><input type="text" onkeyup="Search(this); return false;" />
-			<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" PageSize="4" AllowPaging="true">
-				<Configuration ViewPaths="~/Images/Northwind/" UploadPaths="~/Images/Northwind/"
-					DeletePaths="~/Images/Northwind/" />
-			</telerik:RadFileExplorer>
-		</div>
+````ASP.NET
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+<script type="text/javascript">
+	function Search(txt)
+	{
+		var keyWord = txt.value;
+		var fileExplorer = $find("<%=RadFileExplorer1.ClientID %>");
+		//Search for the keyword
+		fileExplorer.filter(keyWord);
+	}
+</script>
+
+<div>
+	<span>Search:</span><input type="text" onkeyup="Search(this); return false;" />
+	<telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" PageSize="4" AllowPaging="true">
+		<Configuration ViewPaths="~/Images/Northwind/" UploadPaths="~/Images/Northwind/"
+			DeletePaths="~/Images/Northwind/" />
+	</telerik:RadFileExplorer>
+</div>
 ````
 
 

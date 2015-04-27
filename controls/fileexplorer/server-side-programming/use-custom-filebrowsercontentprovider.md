@@ -10,8 +10,6 @@ position: 3
 
 # Use Custom FileBrowserContentProvider
 
-
-
 **The FileBrowserContentProvider** abstract class allows for different file sources to be used for the content in the **RadFileExplorer** control, such as file system, database system, CMS-specific resource system or even online storage systems such as Amazon S3.
 
 The **FileBrowserContentProvider** implementation in **RadFileExplorer** is an instance of **Telerik.Web.UI.Widgets.FileSystemContentProvider. It works with the underlying machine's physical file system.**
@@ -26,32 +24,85 @@ While the default implementation is good for most scenarios, in some cases (see 
 
 The following example shows how to override the **ResolveDirectory** method so it does not show files that have names starting with "private_":
 
-
-
 ````C#
-	
-	
-		protected void Page_Load(object sender, EventArgs e)
-		{
-			string[] paths = new string[] { "~/" };
-			RadFileExplorer1.Configuration.ViewPaths = paths;
-			RadFileExplorer1.Configuration.UploadPaths = paths;
-			RadFileExplorer1.Configuration.DeletePaths = paths;
-	
-			#region assign-provider_cs
-			RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
+protected void Page_Load(object sender, EventArgs e)
+{
+    string[] paths = new string[] { "~/" };
+    RadFileExplorer1.Configuration.ViewPaths = paths;
+    RadFileExplorer1.Configuration.UploadPaths = paths;
+    RadFileExplorer1.Configuration.DeletePaths = paths;
+
+    #region assign-provider_cs
+    RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
+    #endregion
+}
+
+
+public class ExtendedFileProvider : Telerik.Web.UI.Widgets.FileSystemContentProvider
+{
+    //constructor must be present when overriding a base content provider class
+    //you can leave it empty
+    public ExtendedFileProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)
+        : base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+    {
+    }
+    public override Telerik.Web.UI.Widgets.DirectoryItem ResolveDirectory(string path)
+    {
+        //get the directory information
+        Telerik.Web.UI.Widgets.DirectoryItem baseDirectory = base.ResolveDirectory(path);
+        //remove files that we do not want to see
+        System.Collections.Generic.List<Telerik.Web.UI.Widgets.FileItem> files = new System.Collections.Generic.List<Telerik.Web.UI.Widgets.FileItem>();
+        foreach (Telerik.Web.UI.Widgets.FileItem file in baseDirectory.Files)
+        {
+            if (!file.Name.StartsWith("private_"))
+            {
+                files.Add(file);
+            }
+        }
+
+        Telerik.Web.UI.Widgets.DirectoryItem newDirectory = new Telerik.Web.UI.Widgets.DirectoryItem(baseDirectory.Name, baseDirectory.Location, baseDirectory.FullPath, baseDirectory.Tag, baseDirectory.Permissions, files.ToArray(), baseDirectory.Directories);
+        //return the updated directory information
+        return newDirectory;
+    }
+}
 ````
-````VB.NET
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        Dim paths As String() = New String() {"~/"}
-	        RadFileExplorer1.Configuration.ViewPaths = paths
-	        RadFileExplorer1.Configuration.UploadPaths = paths
-	        RadFileExplorer1.Configuration.DeletePaths = paths
-	
-	
-	        '#region assign-provider_vb
-	        RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+	Dim paths As String() = New String() {"~/"}
+	RadFileExplorer1.Configuration.ViewPaths = paths
+	RadFileExplorer1.Configuration.UploadPaths = paths
+	RadFileExplorer1.Configuration.DeletePaths = paths
+
+
+	'#region assign-provider_vb
+	RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
+	'#endregion
+End Sub
+Public Class ExtendedFileProvider
+	Inherits Telerik.Web.UI.Widgets.FileSystemContentProvider
+	'constructor must be present when overriding a base content provider class
+	'you can leave it empty
+	Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, _
+	 ByVal selectedItemTag As String)
+		MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, _
+		 selectedItemTag)
+	End Sub
+	Public Overloads Overrides Function ResolveDirectory(ByVal path As String) As Telerik.Web.UI.Widgets.DirectoryItem
+		'get the directory information
+		Dim baseDirectory As Telerik.Web.UI.Widgets.DirectoryItem = MyBase.ResolveDirectory(path)
+		'remove files that we do not want to see
+		Dim files As New System.Collections.Generic.List(Of Telerik.Web.UI.Widgets.FileItem)()
+		For Each file As Telerik.Web.UI.Widgets.FileItem In baseDirectory.Files
+			If Not file.Name.StartsWith("private_") Then
+				files.Add(file)
+			End If
+		Next
+		Dim newDirectory As New Telerik.Web.UI.Widgets.DirectoryItem(baseDirectory.Name, baseDirectory.Location, baseDirectory.FullPath, baseDirectory.Tag, baseDirectory.Permissions, files.ToArray(), _
+		 baseDirectory.Directories)
+		'return the updated directory information
+		Return newDirectory
+	End Function
+End Class
 ````
 
 
@@ -59,269 +110,224 @@ The following example shows how to override the **ResolveDirectory** method so i
 
 When subclassing is not enough to do the job, you can design a completely new FileBrowserContentProvider. The steps to implement are:
 
-1. Extend the abstract **Telerik.Web.UI.Widgets.FileBrowserContentProvider** class and implement its methods.
-
-
+* Extend the abstract **Telerik.Web.UI.Widgets.FileBrowserContentProvider** class and implement its methods.
 
 ````C#
-	
-		public class myNewProvider : Telerik.Web.UI.Widgets.FileBrowserContentProvider
-		{
-			//constructor must be present when overriding a base content provider class
-			//you can leave it empty
-			public myNewProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)
-				: base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
-			{
-			}
-			public override Telerik.Web.UI.Widgets.DirectoryItem ResolveRootDirectoryAsTree(string path)
-			{
-				throw new NotImplementedException();
-			}
-			public override Telerik.Web.UI.Widgets.DirectoryItem ResolveDirectory(string path)
-			{
-				throw new NotImplementedException();
-			}
-			public override string GetFileName(string url)
-			{
-				throw new NotImplementedException();
-			}
-			public override string GetPath(string url)
-			{
-				throw new NotImplementedException();
-			}
-			public override System.IO.Stream GetFile(string url)
-			{
-				throw new NotImplementedException();
-			}
-			public override string StoreBitmap(System.Drawing.Bitmap bitmap, string url, System.Drawing.Imaging.ImageFormat format)
-			{
-				throw new NotImplementedException();
-			}
-			public override string StoreFile(Telerik.Web.UI.UploadedFile file, string path, string name, params string[] arguments)
-			{
-				throw new NotImplementedException();
-			}
-			public override string DeleteFile(string path)
-			{
-				throw new NotImplementedException();
-			}
-			public override string DeleteDirectory(string path)
-			{
-				throw new NotImplementedException();
-			}
-			public override string CreateDirectory(string path, string name)
-			{
-				throw new NotImplementedException();
-			}
-			public override string MoveFile(string path, string newPath)
-			{
-				return base.MoveFile(path, newPath);
-			}
-			public override string MoveDirectory(string path, string newPath)
-			{
-				return base.MoveDirectory(path, newPath);
-			}
-			public override string CopyFile(string path, string newPath)
-			{
-				return base.CopyFile(path, newPath);
-			}
-			public override string CopyDirectory(string path, string newPath)
-			{
-				return base.CopyDirectory(path, newPath);
-			}
-	
-			// ##############################################################################
-			// !!! IMPORTANT !!!
-			// The compilator will not complain if these methods are not overridden, but it is highly recommended to override them
-	
-			public override bool CheckDeletePermissions(string folderPath)
-			{
-				return base.CheckDeletePermissions(folderPath);
-			}
-			public override bool CheckWritePermissions(string folderPath)
-			{
-				return base.CheckWritePermissions(folderPath);
-			}
-	
-			//Introduced in the 2010.2.826 version of the control
-			public override bool CheckReadPermissions(string folderPath)
-			{
-				return base.CheckReadPermissions(folderPath);
-			}
-			// ##############################################################################
-		}
+public class myNewProvider : Telerik.Web.UI.Widgets.FileBrowserContentProvider
+{
+	//constructor must be present when overriding a base content provider class
+	//you can leave it empty
+	public myNewProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)
+		: base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+	{
+	}
+	public override Telerik.Web.UI.Widgets.DirectoryItem ResolveRootDirectoryAsTree(string path)
+	{
+		throw new NotImplementedException();
+	}
+	public override Telerik.Web.UI.Widgets.DirectoryItem ResolveDirectory(string path)
+	{
+		throw new NotImplementedException();
+	}
+	public override string GetFileName(string url)
+	{
+		throw new NotImplementedException();
+	}
+	public override string GetPath(string url)
+	{
+		throw new NotImplementedException();
+	}
+	public override System.IO.Stream GetFile(string url)
+	{
+		throw new NotImplementedException();
+	}
+	public override string StoreBitmap(System.Drawing.Bitmap bitmap, string url, System.Drawing.Imaging.ImageFormat format)
+	{
+		throw new NotImplementedException();
+	}
+	public override string StoreFile(Telerik.Web.UI.UploadedFile file, string path, string name, params string[] arguments)
+	{
+		throw new NotImplementedException();
+	}
+	public override string DeleteFile(string path)
+	{
+		throw new NotImplementedException();
+	}
+	public override string DeleteDirectory(string path)
+	{
+		throw new NotImplementedException();
+	}
+	public override string CreateDirectory(string path, string name)
+	{
+		throw new NotImplementedException();
+	}
+	public override string MoveFile(string path, string newPath)
+	{
+		return base.MoveFile(path, newPath);
+	}
+	public override string MoveDirectory(string path, string newPath)
+	{
+		return base.MoveDirectory(path, newPath);
+	}
+	public override string CopyFile(string path, string newPath)
+	{
+		return base.CopyFile(path, newPath);
+	}
+	public override string CopyDirectory(string path, string newPath)
+	{
+		return base.CopyDirectory(path, newPath);
+	}
+
+	// ##############################################################################
+	// !!! IMPORTANT !!!
+	// The compilator will not complain if these methods are not overridden, but it is highly recommended to override them
+
+	public override bool CheckDeletePermissions(string folderPath)
+	{
+		return base.CheckDeletePermissions(folderPath);
+	}
+	public override bool CheckWritePermissions(string folderPath)
+	{
+		return base.CheckWritePermissions(folderPath);
+	}
+
+	//Introduced in the 2010.2.826 version of the control
+	public override bool CheckReadPermissions(string folderPath)
+	{
+		return base.CheckReadPermissions(folderPath);
+	}
+	// ##############################################################################
+}
 ````
-````VB.NET
-	
-	    Public Class myNewProvider
-	        Inherits Telerik.Web.UI.Widgets.FileBrowserContentProvider
-	        'constructor must be present when overriding a base content provider class
-	        'you can leave it empty
-	        Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, _
-	         ByVal selectedItemTag As String)
-	            MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, _
-	             selectedItemTag)
-	        End Sub
-	        Public Overloads Overrides Function ResolveRootDirectoryAsTree(ByVal path As String) As Telerik.Web.UI.Widgets.DirectoryItem
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function ResolveDirectory(ByVal path As String) As Telerik.Web.UI.Widgets.DirectoryItem
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function GetFileName(ByVal url As String) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function GetPath(ByVal url As String) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function GetFile(ByVal url As String) As System.IO.Stream
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function StoreBitmap(ByVal bitmap As System.Drawing.Bitmap, ByVal url As String, ByVal format As System.Drawing.Imaging.ImageFormat) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function StoreFile(ByVal file As Telerik.Web.UI.UploadedFile, ByVal path As String, ByVal name As String, ByVal ParamArray arguments As String()) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function DeleteFile(ByVal path As String) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function DeleteDirectory(ByVal path As String) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function CreateDirectory(ByVal path As String, ByVal name As String) As String
-	            Throw New NotImplementedException()
-	        End Function
-	        Public Overloads Overrides Function MoveFile(ByVal path As String, ByVal newPath As String) As String
-	            Return MyBase.MoveFile(path, newPath)
-	        End Function
-	        Public Overloads Overrides Function MoveDirectory(ByVal path As String, ByVal newPath As String) As String
-	            Return MyBase.MoveDirectory(path, newPath)
-	        End Function
-	        Public Overloads Overrides Function CopyFile(ByVal path As String, ByVal newPath As String) As String
-	            Return MyBase.CopyFile(path, newPath)
-	        End Function
-	        Public Overloads Overrides Function CopyDirectory(ByVal path As String, ByVal newPath As String) As String
-	            Return MyBase.CopyDirectory(path, newPath)
-	        End Function
-	
-	
-	        ' ##############################################################################
-	        ' !!! IMPORTANT !!!
-	        ' The compilator will not complain if these methods are not overridden, but it is highly recommended to override them
-	        Public Overrides Function CheckDeletePermissions(ByVal folderPath As String) As Boolean
-	            Return MyBase.CheckDeletePermissions(folderPath)
-	        End Function
-	
-	        Public Overrides Function CheckWritePermissions(ByVal folderPath As String) As Boolean
-	            Return MyBase.CheckWritePermissions(folderPath)
-	        End Function
-	
-	        ' Introduced in the 2010.2.826 version of the control
-	        Public Overrides Function CheckReadPermissions(ByVal folderPath As String) As Boolean
-	            Return MyBase.CheckReadPermissions(folderPath)
-	        End Function
-	        ' ##############################################################################
-	
-	
-	    End Class
-	
+````VB
+Public Class myNewProvider
+	Inherits Telerik.Web.UI.Widgets.FileBrowserContentProvider
+	'constructor must be present when overriding a base content provider class
+	'you can leave it empty
+	Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, _
+	 ByVal selectedItemTag As String)
+		MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, _
+		 selectedItemTag)
+	End Sub
+	Public Overloads Overrides Function ResolveRootDirectoryAsTree(ByVal path As String) As Telerik.Web.UI.Widgets.DirectoryItem
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function ResolveDirectory(ByVal path As String) As Telerik.Web.UI.Widgets.DirectoryItem
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function GetFileName(ByVal url As String) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function GetPath(ByVal url As String) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function GetFile(ByVal url As String) As System.IO.Stream
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function StoreBitmap(ByVal bitmap As System.Drawing.Bitmap, ByVal url As String, ByVal format As System.Drawing.Imaging.ImageFormat) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function StoreFile(ByVal file As Telerik.Web.UI.UploadedFile, ByVal path As String, ByVal name As String, ByVal ParamArray arguments As String()) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function DeleteFile(ByVal path As String) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function DeleteDirectory(ByVal path As String) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function CreateDirectory(ByVal path As String, ByVal name As String) As String
+		Throw New NotImplementedException()
+	End Function
+	Public Overloads Overrides Function MoveFile(ByVal path As String, ByVal newPath As String) As String
+		Return MyBase.MoveFile(path, newPath)
+	End Function
+	Public Overloads Overrides Function MoveDirectory(ByVal path As String, ByVal newPath As String) As String
+		Return MyBase.MoveDirectory(path, newPath)
+	End Function
+	Public Overloads Overrides Function CopyFile(ByVal path As String, ByVal newPath As String) As String
+		Return MyBase.CopyFile(path, newPath)
+	End Function
+	Public Overloads Overrides Function CopyDirectory(ByVal path As String, ByVal newPath As String) As String
+		Return MyBase.CopyDirectory(path, newPath)
+	End Function
+
+
+	' ##############################################################################
+	' !!! IMPORTANT !!!
+	' The compilator will not complain if these methods are not overridden, but it is highly recommended to override them
+	Public Overrides Function CheckDeletePermissions(ByVal folderPath As String) As Boolean
+		Return MyBase.CheckDeletePermissions(folderPath)
+	End Function
+
+	Public Overrides Function CheckWritePermissions(ByVal folderPath As String) As Boolean
+		Return MyBase.CheckWritePermissions(folderPath)
+	End Function
+
+	' Introduced in the 2010.2.826 version of the control
+	Public Overrides Function CheckReadPermissions(ByVal folderPath As String) As Boolean
+		Return MyBase.CheckReadPermissions(folderPath)
+	End Function
+	' ##############################################################################
+
+
+End Class
 ````
 
-
-1. Set the **RadFileExplorer's** property **Configuration**.**ContentProviderTypeName**to the fully qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example:
-
-
+* Set the **RadFileExplorer's** property **Configuration**.**ContentProviderTypeName**to the fully qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example:
 
 ````C#
-			RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
+RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(ExtendedFileProvider).AssemblyQualifiedName;
 ````
-````VB.NET
-	        RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
+````VB
+RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(ExtendedFileProvider).AssemblyQualifiedName
 ````
-
-
-
 
 Below you can see the order of calling the various methods of FileBrowserContentProvider's common operations such as initial loading, moving, deleting and uploading files
-
-
 
 **Initial Loading**
 
 1. **ResolveRootDirectoryAsTree** - Called from the server in order to bind the treeview and get the root folder
-
 1. **ResolveRootDirectoryAsTree** - Get all subfolders of the root folder
-
 1. **ResolveRootDirectoryAsTree** - Checks all folders in the root for subfolders (*called for every folder*)
-
 1. **ResolveRootDirectoryAsTree** - Updates folders in grid
-
 1. **ResolveDirectory**- Updates files in grid
-
 
 
 **Moving File**
 
 1. **GetPath** - Gets the current item's parent folder
-
 1. **ResolveDirectory** - Checks permissions
-
 1. **GetPath** - Gets the parent folder where the file will be copied (including file's name)
-
 1. **ResolveDirectory** - Checks permissions
-
 1. **MoveFile** - Moves the file
-
 1. **ResolveRootDirectoryAsTree** - Updates the RadTreeView in RadFileExplorer
-
 1. **ResolveDirectory** - Updates the RadTreeView in RadFileExplorer
-
 1. **ResolveRootDirectoryAsTree** - Updates the RadGrid
-
 1. **ResolveDirectory** - Updates the RadGrid
-
-
 
 **Deleting File**
 
 1. **GetPath** - Gets the parent folder for the deleted item
-
 1. **ResolveDirectory** - Checks permissions
-
 1. **DeleteFile** - Deletes the item
-
 1. **ResolveRootDirectoryAsTree** - Updates the parent tree node
-
 1. **ResolveDirectory** - Updates the parent tree node
-
 1. **ResolveRootDirectoryAsTree** - Updates the RadGrid
-
 1. **ResolveDirectory** - Updates the RadGrid
-
-
 
 **Uploading File**
 
 1. **GetFile** - Returns Stream for accessing the contents of the file item with the given Url
-
 1. **StoreFile** - Creates a file item from a Telerik.Web.UI.UploadedFile in the given path with the given name.
-
 1. **ResolveRootDirectoryAsTree** - Update the RadTreeView in RadFileExplorer
-
 1. **ResolveDirectory** - Updates the RadTreeView
-
 1. **ResolveRootDirectoryAsTree** - Updates the RadGrid
-
 1. **ResolveDirectory** - Updates the RadGrid
-
-
-
-
 
 ## FileBrowserContentProvider's properties and methods:
 
-**ResolveRootDirectoryAsTree(string path):** called for every path set in the ViewPaths collection per request. It returns all subfolders in the root folder given as a parameter.*Sample:**string path: "/FileExplorerCustomProvider"returns:dir: {C:\Work\InHouse\FileExplorerCustomProvider}virtualName: "FileExplorerCustomProvider"virtualParentPath: "/"path: "/FileExplorerCustomProvider"*
+**ResolveRootDirectoryAsTree(string path):** called for every path set in the ViewPaths collection per request. It returns all subfolders in the root folder given as a parameter.*Sample:* *string path: "/FileExplorerCustomProvider" returns:dir: {C:\Work\InHouse\FileExplorerCustomProvider} virtualName: "FileExplorerCustomProvider"virtualParentPath: "/"path: "/FileExplorerCustomProvider"*
 
 **ResolveRootDirectoryAsList(string path):** This method is obsolete and you do not need to implement it
 
@@ -401,7 +407,7 @@ Below you can see the order of calling the various methods of FileBrowserContent
 
 **DeletePaths:** The paths which will allow deleting in the dialog. This is passed by RadEditor and is one of the values of DeleteImagesPaths, DeleteDocumentsPaths, DeleteMediaPaths, DeleteFlashPaths, DeleteTemplatesPaths properties. You can disregard this value if you have custom mechanism for determining the rights for deleting.
 
-# See Also
+## See Also
 
  * [Overview]({%slug fileexplorer/client-side-programming/overview%})[RadEditor's Custom FileBrowserContent Provider](E04CA8C6-F600-49EC-8414-F49C2698BEA5)
 

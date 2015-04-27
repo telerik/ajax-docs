@@ -10,16 +10,9 @@ position: 0
 
 # Client-side Programming Overview
 
-
-
-**RadFileExplorer** has a number of client-side properties and methods that you could use :
+**RadFileExplorer** has a number of client-side properties and methods that you could use:
 
 ## Telerik.Web.UI.FileExplorer methods
-
-
-
-
->caption  
 
 |  **Method**  |  **Description**  |
 | ------ | ------ |
@@ -77,13 +70,8 @@ position: 0
 | **removeFileNameInvalidChar(char)** |Removes items from the file name invalid characters list. Default list is ['\\', '/', ':', '*', '?', '"', '<', '>', '|']|
 
 
-
 ## Telerik.Web.UI.FileExplorer.FileList Methods
-
-
-
-
->caption  
+ 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
@@ -126,14 +114,7 @@ position: 0
 |clearFilter()|||Clears the filtering by reseting the filter and clearing the filter text box|
 |dispose()|||Disposes the control. Does not dispose the underlying bindable control|
 
-
-
 ## Telerik.Web.UI.RadFileExplorerEventArgs
-
-
-
-
->caption  
 
 |  **Method**  |  **Description**  |
 | ------ | ------ |
@@ -141,14 +122,7 @@ position: 0
 | **get_newPath()** |When "Rename" is performed returns the new name of the item. When the "Move" is performed returns the new destination of the moved folder (see the OnClientMove example bellow)|
 | **get_item()** |Returns an object of type Telerik.Web.UI.FileExplorerItem|
 
-
-
 ## Telerik.Web.UI.FileExplorerItem
-
-
-
-
->caption  
 
 |  **Method**  |  **Description**  |
 | ------ | ------ |

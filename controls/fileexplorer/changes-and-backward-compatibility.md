@@ -10,8 +10,6 @@ position: 1
 
 # Changes And Backward Compatibility
 
-
-
 ## Telerik RadFileExplorer for ASP.NET AJAX
 
 * A complete list of all changes can be found on Release History page:[http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
@@ -19,8 +17,6 @@ position: 1
 ## Telerik RadFileExplorer for ASP.NET AJAX Q3 2009
 
 RadFileExplorer for ASP.NET AJAX which is part of the Q3 2009 release is fully backwards compatible with its previous version (Q2 2009).
-
-
 
 ## Telerik RadFileExplorer for ASP.NET AJAX Q2 2009
 

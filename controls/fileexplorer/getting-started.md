@@ -10,10 +10,6 @@ position: 2
 
 # Getting Started
 
-
-
-## 
-
 Here are the basic steps to insert a **RadFileExplorer** control on your page:
 
 1. Create a new ASP.NET AJAX - enabled web site.
@@ -25,9 +21,8 @@ Here are the basic steps to insert a **RadFileExplorer** control on your page:
 1. Right-click on the inserted RadFileExplorer control and select properties.
 
 1. Set the following properties in the Configuration section: ViewPaths, DeletePaths and UploadPaths in the following format: **~/<path>** where the tilde (~) represents the root of your web application.
->caption 
-
-![Design view](images/FileExplorer-DesignView.gif)
+	
+	![Design view](images/FileExplorer-DesignView.gif)
 
 1. You can additionally set properties for the RadGrid, RadTreeview and RadToolbar controls which will allow you to modify the look and behavior of RadFileExplorer so it fully matches your requirements.
 

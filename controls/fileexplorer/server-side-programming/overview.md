@@ -10,12 +10,7 @@ position: 0
 
 # Server-side Programming Overview
 
-
-
 The **RadFileExplorer** control exposes a number or properties that can be used in order to change its behavior.
-
-## 
-
 
 | Property name | Type | Description |
 | ------ | ------ | ------ |

@@ -10,15 +10,11 @@ position: 2
 
 # Keyboard Support
 
-
-
-## Keyboard support
-
 Starting from Q1 2011 user-defined keyboard shortcuts can be set to the FileExplorer control. This improves the accessibility of the control, and makes it easier to use.
 
 All the shortcuts are controlled through the RadFileExplorer.**KeyboardShortcuts** property, which is of type Telerik.Web.UI.FileExplorer.**FileExplorerShortcut**. The full list of the **FileExplorerShortcut**'s properties can be found below. The shortcut properties should be specified by providing the string corresponding to the respective key.
 
-* The alphanumeric keys are set using their corresponding characters (Letter case is ignored). For example setting RadFileExplorer.**KeyboardShortcuts.Open="O"** and RadFileExplorer.**KeyboardShortcuts.Delete="2"** will make the control open the files when "O" keys is pressed, and delete files when "2" key is pressed.
+* The alphanumeric keys are set using their corresponding characters (Letter case is ignored). For example setting RadFileExplorer. **KeyboardShortcuts.Open="O"** and RadFileExplorer.**KeyboardShortcuts.Delete="2"** will make the control open the files when "O" keys is pressed, and delete files when "2" key is pressed.
 
 * The non-alphanumeric and modifier keys are set by using their corresponding string keyword. The keywords are fixed and created to be intuitive, so if you want to use the "Space" key to focus the grid, you should simply set the RadFileExplorer.**KeyboardShortcuts.FocusGrid** property to the string "space", or "SPACE", or "Space". Letter case is **ignored**. Here is the full list of keywords for the respective keys (upper case used for convenience):
 
@@ -46,7 +42,7 @@ All the shortcuts are controlled through the RadFileExplorer.**KeyboardShortcuts
 
 * BACK - corresponds to the "Backspace" key
 
-* CONTEXT - corresponds to the["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) key
+* CONTEXT - corresponds to the ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) key
 
 * ESCAPE оr ESC - correspond to the "Escape" key
 
@@ -77,17 +73,16 @@ Default shortcuts:
 * **Delete** - delete selected file, folder in the Grid or TreeView. Note, that you need to press "Enter" to select a folder in the TreeView.
 
 * ["(Context) Menu"](http://en.wikipedia.org/wiki/Menu_key) - open/close the Context Menu of the TreeView or the Grid, close to the selected file or folder.
->caption 
 
-![](images/radfileexplorer-context-menu.png)
+	![](images/radfileexplorer-context-menu.png)
 
 * **"Arrow Keys"** - used to navigate through the items in the TreeView, Grid, Context Menu and the paging slider of the Grid.
 
 Standard keyboard navigation:
 
-* Use **Tab**or **Shift + Tab** to navigate through the items (tools) of the ToolBar
+* Use **Tab** or **Shift + Tab** to navigate through the items (tools) of the ToolBar
 
-* Use **Tab**or **Shift + Tab** to navigate through the different controls of the FileExplorer, i.e. ToolBar, AddressBar, TreeView, Grid.
+* Use **Tab** or **Shift + Tab** to navigate through the different controls of the FileExplorer, i.e. ToolBar, AddressBar, TreeView, Grid.
 
 How to style the focused(active) controls?
 
@@ -96,15 +91,20 @@ A visual indication that the user is currently interacting with one of the FileE
 1. First the RadFileExplorer's CssClass property needs to be set to (any) desired class. In this example we will use **rfeFocused**.
 
 1. Use the following CSS code to set blue border to active controls. Note, that you could use the same selectors to apply your desired style.
-.rfeFocused:focus,
-.rfeFocused.RadTreeView:focus,
-.rfeFocused.RadGrid:focus,
-.rfeFocused.RadToolBar:focus
-{ border: 2px solid Blue !important;
-} ![](images/radfileexplorer-focused-element.png)
+		
+	**CSS**	
+		
+		.rfeFocused:focus,
+		.rfeFocused.RadTreeView:focus,
+		.rfeFocused.RadGrid:focus,
+		.rfeFocused.RadToolBar:focus
+		{ 
+			border: 2px solid Blue !important;
+		} 
 
-**Telerik.Web.UI.FileExplorer.**
+	![](images/radfileexplorer-focused-element.png)
 
+>caption Table 1: FileExplorerShortcut properties
 
 |  **Property**  |  **Description**  |
 | ------ | ------ |

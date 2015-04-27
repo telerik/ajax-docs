@@ -10,61 +10,54 @@ position: 2
 
 # Configure RadFileExplorer on the Server
 
-
-
-## 
-
-For convenience the subcontrols of **RadFileExplorer**(RadMenu, RadUpload, etc.) are exposed so developers could change their look or behavior, however the configuration of the RadFileExplorer itself is done in **RadFileExplorer.Configuration**.
-
-Example:
-
-
+For convenience the subcontrols of **RadFileExplorer** (RadMenu, RadUpload, etc.) are exposed so developers could change their look or behavior, however the configuration of the RadFileExplorer itself is done in **RadFileExplorer.Configuration**.
 
 ````C#
-		protected void Page_Load(object sender, EventArgs e)
-		{
-			string[] paths = new string[] { "~/" };
-			// This code sets RadFileExplorer's paths
-			RadFileExplorer1.Configuration.ViewPaths = paths;
-			RadFileExplorer1.Configuration.UploadPaths = paths;
-			RadFileExplorer1.Configuration.DeletePaths = paths;
-	
-			// Sets Max file size
-			RadFileExplorer1.Configuration.MaxUploadFileSize = 10485760;
-	
-			// Enables Paging on the Grid
-			RadFileExplorer1.AllowPaging = true;
-			// Sets the page size
-			RadFileExplorer1.PageSize = 20;
-	
-			//Load the default FileSystemContentProvider
-			RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(Telerik.Web.UI.Widgets.FileSystemContentProvider).AssemblyQualifiedName;
-		}
+protected void Page_Load(object sender, EventArgs e)
+{
+	string[] paths = new string[] { "~/" };
+	// This code sets RadFileExplorer's paths
+	RadFileExplorer1.Configuration.ViewPaths = paths;
+	RadFileExplorer1.Configuration.UploadPaths = paths;
+	RadFileExplorer1.Configuration.DeletePaths = paths;
+
+	// Sets Max file size
+	RadFileExplorer1.Configuration.MaxUploadFileSize = 10485760;
+
+	// Enables Paging on the Grid
+	RadFileExplorer1.AllowPaging = true;
+	// Sets the page size
+	RadFileExplorer1.PageSize = 20;
+
+	//Load the default FileSystemContentProvider
+	RadFileExplorer1.Configuration.ContentProviderTypeName = 
+		typeof(Telerik.Web.UI.Widgets.FileSystemContentProvider).AssemblyQualifiedName;
+}
 ````
-````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-	        Dim paths As String() = New String() {"~/"}
-	        'This code sets RadFileExplorer's paths
-	        RadFileExplorer1.Configuration.ViewPaths = paths
-	        RadFileExplorer1.Configuration.UploadPaths = paths
-	        RadFileExplorer1.Configuration.DeletePaths = paths
-	
-	        'Sets Max file size
-	        RadFileExplorer1.Configuration.MaxUploadFileSize = 10485760
-	
-	        ' Enables Paging on the Grid
-	        RadFileExplorer1.AllowPaging = True
-	        ' Sets the page size
-	        RadFileExplorer1.PageSize = 20
-	
-	        'Load the default FileSystemContentProvider
-	        RadFileExplorer1.Configuration.ContentProviderTypeName = GetType(Telerik.Web.UI.Widgets.FileSystemContentProvider).AssemblyQualifiedName
-	
-	    End Sub
+````VB
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+	Dim paths As String() = New String() {"~/"}
+	'This code sets RadFileExplorer's paths
+	RadFileExplorer1.Configuration.ViewPaths = paths
+	RadFileExplorer1.Configuration.UploadPaths = paths
+	RadFileExplorer1.Configuration.DeletePaths = paths
+
+	'Sets Max file size
+	RadFileExplorer1.Configuration.MaxUploadFileSize = 10485760
+
+	' Enables Paging on the Grid
+	RadFileExplorer1.AllowPaging = True
+	' Sets the page size
+	RadFileExplorer1.PageSize = 20
+
+	'Load the default FileSystemContentProvider
+	RadFileExplorer1.Configuration.ContentProviderTypeName = 
+		GetType(Telerik.Web.UI.Widgets.FileSystemContentProvider).AssemblyQualifiedName
+
+End Sub
 ````
 
-
-# See Also
+## See Also
 
  * [FileExplorerControls Enumeration](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_fileexplorer_fileexplorercontrols.html)
 
