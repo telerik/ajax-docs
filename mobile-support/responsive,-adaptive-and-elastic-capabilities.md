@@ -104,7 +104,7 @@ __Example 1__ provides the CSS selectors that let you resize the supported contr
 
 __Example 1:__ CSS selectors to enable the elastic design capabilities of the controls in the UI for ASP.NET AJAX suite
 
-````JavaScript
+````CSS
 	/* AutoCompleteBox */ html .RadAutoCompleteBox, html .RadAutoCompleteBoxPopup,
 	/* Button */ html .RadButton,
 	/* Calendar */ html .RadCalendar,
@@ -114,6 +114,10 @@ __Example 1:__ CSS selectors to enable the elastic design capabilities of the co
 	/* Dock */ html .RadDock,
 	/* DropDownList */ html .RadDropDownList, html .rddlPopup,
 	/* DropDownTree */ html .RadDropDownTree, html .rddtPopup,
+    /* Editor */ 	div.RadEditor,
+					div.RadEditor .reToolbarWrapper,
+					div.RadEditor .reToolBar
+   					 div.reDropDownBody
 	/* Filter */ html .RadFilter, html .RadMenu,
 	/* Gantt */ html .RadGantt,
 	/* ImageGallery */ html .RadImageGallery,

@@ -29,16 +29,17 @@ Generally, responsive design means that the page and its content are able to ada
 
 **Example 1:** How to increase the font size of a RadEditor as shown in Figure 1.
 
-````XML
-			<style type="text/css">
-				div.RadEditor,
-				div.RadEditor .reToolbarWrapper,
-				div.RadEditor .reToolBar {
-					font-size: 14px;
-				}
-			</style>
-			
-			<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight"></telerik:RadEditor>
+````CSS
+<style type="text/css">
+	div.RadEditor,
+	div.RadEditor .reToolbarWrapper,
+	div.RadEditor .reToolBar
+    div.reDropDownBody {
+		font-size: 14px;
+	}
+</style>
+
+<telerik:RadEditor runat="server" ID="RadEditor1" RenderMode="Lightweight"></telerik:RadEditor>
 ````
 
 
