@@ -29,3 +29,5 @@ You can set the delimiter using the ***FullPathDelimiter*** property. It serves 
 ````ASPNET
 <telerik:RadDropDownTree ID="RadDropDownTree2" CheckBoxes="TriState" runat="server" Width="250px" TextMode="FullPath" FullPathDelimiter="-->" DefaultMessage="Select a car from the list" >
 ````
+
+
