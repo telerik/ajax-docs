@@ -6,6 +6,7 @@ def start_watch(paths)
 	
 	listener = Listen.to(paths) do |modified, added, removed|
 	  puts "\n Modified File: #{modified} \n\n Building Jekyll site."
+	  File.delete("SlugLog.log") if File.exist?("SlugLog.log")
 	  system "Jekyll build"
 	  puts "Use Ctrl+C to stop the process!"
 	end
