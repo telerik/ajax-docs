@@ -38,7 +38,7 @@ Defines the connectors the shape owns. By default each shape has five active con
 
 >caption **Example 1**: In this example you can see how to enable all built-in connectors of a shape. The first shape in **Figure 1** has the default set of five connectors, while the second one has all nine connectors defined:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server" Height="700">
 	<ShapesCollection>
 		<telerik:DiagramShape Id="s1" X="40" Y="40">

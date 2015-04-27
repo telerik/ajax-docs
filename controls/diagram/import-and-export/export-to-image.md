@@ -20,7 +20,7 @@ You can export **RadDiagram** as an image on the client. This is done in two sim
 
 >caption **Example 1**: Export a diagram as an image.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
 	</LayoutSettings>

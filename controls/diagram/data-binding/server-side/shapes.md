@@ -24,7 +24,7 @@ The columns of the data source are attached to their corresponding data fields i
 
 >caption **Example 1**: Data binding shapes in a diagram to a collection of custom objects.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<BindingSettings>
 		<ShapeSettings DataContentTextField="text" DataIdField="id" DataTypeField="type"

@@ -30,7 +30,7 @@ The main elements of the **RadDiagram** control are:
 
 >caption **Example 1**: The following example shows how to create the basic RadDiagram configuration, the result of which is displayed in **Figure 1**:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
 	</LayoutSettings>

@@ -18,7 +18,7 @@ You can import the shapes and connections of **RadDiagram** from a data object i
 
 >caption **Example 1**: Import a diagram from a JSON object literal.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<ClientEvents OnLoad="onLoad" />
 </telerik:RadDiagram>

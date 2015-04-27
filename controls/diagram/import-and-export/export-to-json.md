@@ -18,7 +18,7 @@ You can export **RadDiagram** to a JSON object literal on the client. This is do
 
 >caption **Example 1**: Export a diagram to a JSON object literal.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagra1" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
 	</LayoutSettings>

@@ -24,7 +24,7 @@ You can fully control where and how data is displayed in the **RadDiagram** shap
 
 >caption **Example 1**: Client-side function that creates a template with green circles and white text for the shapes in the diagram.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
 	var visualTemplate = function (options) {
 		var diagram = kendo.dataviz.diagram;

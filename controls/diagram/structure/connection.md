@@ -100,7 +100,7 @@ Sets the intermediate points of the connection (set in global coordinates accord
 
 >caption **Example 1**: Setting intermediate connection points:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<ShapesCollection>
 		<telerik:DiagramShape Id="a1" Width="100" Height="60" X="20" Y="20"></telerik:DiagramShape>
@@ -146,7 +146,7 @@ By configuring the default connection settings you can preset the initial values
 
 >caption **Example 2**. How to use the Connection properties to configure their appearance:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram2" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Right" Enabled="true">
 	</LayoutSettings>

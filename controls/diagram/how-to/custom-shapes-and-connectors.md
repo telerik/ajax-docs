@@ -26,7 +26,7 @@ To create a custom shape, you need to pass the desired SVG path to the DiagramSh
 
 >caption **Example 1**: Custom RadDiagram shape with customized set of built-in connectors.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram id="RadDiagram1" runat="server">
 	<LayoutSettings Enabled="true"></LayoutSettings>
 	<ShapesCollection>
@@ -53,7 +53,7 @@ When you need to create a custom shape, which bounds does not match with the pos
 
 >caption **Example 2**: Defining a custom shape with custom connectors.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
 	function getRightPosition(shape) {
 		var p = shape.bounds().right();
@@ -92,7 +92,7 @@ In **Example 3** you can find the **Path** definitions for the most popular geom
 
 >caption **Example 3**: Sample declarations of the common custom shapes shown in **Figure 3**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram3" runat="server" Width="1200px" Height="2000" Skin="WebBlue">
 	<LayoutSettings Enabled="true">
 		<GridSettings Width="750" />

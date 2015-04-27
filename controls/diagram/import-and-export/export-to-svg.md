@@ -20,7 +20,7 @@ You can export **RadDiagram** as an SVG document on the client. This is done in 
 
 >caption **Example 1**: Export a diagram as an SVG document.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
 	</LayoutSettings>

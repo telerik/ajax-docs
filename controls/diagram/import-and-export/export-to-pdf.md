@@ -22,7 +22,7 @@ RadDiagram has a composite property **PdfSettings** that exposes properties for 
 
 >caption **Example 1**: Export a diagram to PDF via the **saveAsPDF** method.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<PdfSettings FileName="diagram.pdf" Title="Diagram Exported to PDF" />
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
@@ -52,7 +52,7 @@ The **saveAsPDF** method is a shortcut for [exportPDF](http://docs.telerik.com/k
 
 >caption **Example 2**: Export a diagram to PDF via the **exportPDF** method.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<LayoutSettings Type="Tree" Subtype="Down" Enabled="true">
 	</LayoutSettings>

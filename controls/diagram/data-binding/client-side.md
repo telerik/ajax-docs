@@ -44,7 +44,7 @@ You can find the full list of properties that can be customized in the [Shapes A
 
 >caption **Example 1**: Client-side binding of shapes and connections data in RadDiagram through **RadClientDataSource** controls. The sample uses JSON literals from **Example 2**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
 	<DataSource>
 		<WebServiceDataSourceSettings>
@@ -182,7 +182,7 @@ function OnChange(args) {
 	});
 }
 ````
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
 	<DataSource>
 		<WebServiceDataSourceSettings>
@@ -243,7 +243,7 @@ var visualTemplate = function (options) {
 	return group;
 }
 ````
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource ID="ShapesDataSource" runat="server">
 	<DataSource>
 		<WebServiceDataSourceSettings>

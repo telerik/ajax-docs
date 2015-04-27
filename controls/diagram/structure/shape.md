@@ -30,7 +30,7 @@ Specifies the type of the Shape using any of the built-in shape type. Currently 
 
 **Example 1**: How to use images to create shapes in RadDiagram:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram2" runat="server">
 	<ShapesCollection>
 		<telerik:DiagramShape Id="cocktails" Type="Rectangle" X="50" Y="50" Width="310" Height="40">
@@ -126,7 +126,7 @@ Configuring the default shape settings you can preset the initial values for the
 
 >caption **Example 2**: How to use the Shape properties to configure their appearance:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<ShapesCollection>
 		<telerik:DiagramShape Id="s1" Height="100" X="130" Y="20" Type="circle">

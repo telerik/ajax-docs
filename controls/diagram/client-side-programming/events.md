@@ -42,7 +42,7 @@ position: 1
 
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the	corresponding property in the **ClientEvents** RadDiagram subtag.
 
-````ASPNET
+````ASP.NET
 <telerik:RadDiagram ID="RadDiagram1" runat="server">
 	<ClientEvents OnLoad="OnLoad" />
 	<ShapesCollection>
@@ -59,20 +59,20 @@ To use these events, simply write a JavaScript function that can be called when 
 All Client-Side events, except **OnLoad**, are references to their corresponding events of the Kendo UI diagram object. You can get familiar will the full set of arguments coming with each event in the [Kendo UI diagram API reference](http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram#events). For example:
 
 ````ASP.NET
-			<telerik:RadDiagram ID="RadDiagram2" runat="server">
-				<ClientEvents OnClick="OnClick" />
-				<ShapesCollection>
-					<telerik:DiagramShape Id="DiagramShape1"></telerik:DiagramShape>
-				</ShapesCollection>
-			</telerik:RadDiagram>
-			<script type="text/javascript">
-				function OnClick(args) {
-					var kendoWidget = args.sender;
-					var itemId = args.item.id;
-					var point = args.point;
-					alert("You have just clicked on an item with ID: " + itemId + " at position: {x=" + point.x + ", y=" + point.y + "}");
-				}
-			</script>
+<telerik:RadDiagram ID="RadDiagram2" runat="server">
+	<ClientEvents OnClick="OnClick" />
+	<ShapesCollection>
+		<telerik:DiagramShape Id="DiagramShape1"></telerik:DiagramShape>
+	</ShapesCollection>
+</telerik:RadDiagram>
+<script type="text/javascript">
+	function OnClick(args) {
+		var kendoWidget = args.sender;
+		var itemId = args.item.id;
+		var point = args.point;
+		alert("You have just clicked on an item with ID: " + itemId + " at position: {x=" + point.x + ", y=" + point.y + "}");
+	}
+</script>
 ````
 
 # See Also
