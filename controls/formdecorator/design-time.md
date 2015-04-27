@@ -10,10 +10,7 @@ position: 4
 
 # Design Time
 
-
-
 The Smart Tag of **RadFormDecorator** lets you configure your control or quickly get help. You can display the	Smart Tag by right clicking on a **RadFormDecorator** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
 
 ![formdecorator-smart-tag](images/formdecorator-smart-tag.png)
 

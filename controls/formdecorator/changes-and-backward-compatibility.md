@@ -10,8 +10,6 @@ position: 1
 
 # Changes And Backward Compatibility
 
-
-
 ## RadFormDecorator for ASP.NET AJAX
 
 A complete list of all changes can be found on Release History page: [http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history.aspx)
@@ -43,8 +41,6 @@ RadFormDecorator for ASP.NET AJAX which is part of the Q2 2009 release is fully 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
 * Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention
-
-
 
 ## Telerik RadFormDecorator for ASP.NET AJAX Q3 2008
 
