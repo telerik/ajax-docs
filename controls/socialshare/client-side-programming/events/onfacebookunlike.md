@@ -1,6 +1,6 @@
 ---
 title: OnFacebookUnLike
-page_title: OnFacebookUnLike | UI for ASP.NET AJAX Documentation
+page_title: OnFacebookUnLike | RadSocialShare for ASP.NET AJAX Documentation
 description: OnFacebookUnLike
 slug: socialshare/client-side-programming/events/onfacebookunlike
 tags: onfacebookunlike
@@ -14,11 +14,11 @@ position: 3
 
 ## 
 
-__OnFacebookUnLike__ - fires when the Facebook UnLike button is clicked.
+**OnFacebookUnLike** - fires when the Facebook UnLike button is clicked.
 
 The event handler receives two parameters:
 
-1. sender - the __RadSocialShare__ instance that fired the event.
+1. sender - the **RadSocialShare** instance that fired the event.
 
 1. eventArgs - event arguments. It exposes the get_url() method that returns the shared URL.
 

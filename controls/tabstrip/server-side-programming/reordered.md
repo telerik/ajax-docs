@@ -1,6 +1,6 @@
 ---
 title: Reordered
-page_title: Reordered | UI for ASP.NET AJAX Documentation
+page_title: Reordered | RadTabStrip for ASP.NET AJAX Documentation
 description: Reordered
 slug: tabstrip/server-side-programming/reordered
 tags: reordered
@@ -14,14 +14,14 @@ position: 6
 
 ## 
 
-The server-side __Reordered__ event occurs when the tabs of the RadTabStrip are reordered.
+The server-side **Reordered** event occurs when the tabs of the RadTabStrip are reordered.
 
->note This event will be fired only when the __EnableDragToReorder__ property is set to __"true"__ 
+>note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 
-The __Reordered__ event handler receives two arguments:
+The **Reordered** event handler receives two arguments:
 
-1. The __RadTabStrip__ firing the event. This argument is of type object, but can be cast to the __RadTabStrip__ type.
+1. The **RadTabStrip** firing the event. This argument is of type object, but can be cast to the **RadTabStrip** type.
 
-1. A __RadTabStripReorderedEventArgs__ object with the following two properties: __Tab__ and __Offset__. The Tab property is a reference to the tab which has been reordered, the Offset property is the difference between zero-based index of the tab before it has been reordered and after the reorder operation.
+1. A **RadTabStripReorderedEventArgs** object with the following two properties: **Tab** and **Offset**. The Tab property is a reference to the tab which has been reordered, the Offset property is the difference between zero-based index of the tab before it has been reordered and after the reorder operation.

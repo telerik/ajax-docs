@@ -1,6 +1,6 @@
 ---
 title: Use Custom Icons for Styled Buttons
-page_title: Use Custom Icons for Styled Buttons | UI for ASP.NET AJAX Documentation
+page_title: Use Custom Icons for Styled Buttons | RadSocialShare for ASP.NET AJAX Documentation
 description: Use Custom Icons for Styled Buttons
 slug: socialshare/appearance-and-styling/use-custom-icons-for-styled-buttons
 tags: use,custom,icons,for,styled,buttons
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-The __RadSocialShare__ offers several ways to change the default icons that the [Styled Buttons]({%slug socialshare/configuring-buttons/styled%}) have. You can see it live in [this online demo]() and here follows a short explanation with some simpler examples:
+The **RadSocialShare** offers several ways to change the default icons that the [Styled Buttons]({%slug socialshare/configuring-buttons/styled%}) have. You can see it live in [this online demo]() and here follows a short explanation with some simpler examples:
 
-* Via the __CustomIconUrl__ property for each button. Note that it requires a 16 x 16px icon by default. You can change these dimensions by using the__CustomIconWidth__ and __CustomIconHeight__ properties of the button and thus each button may have different size, for example:
+* Via the **CustomIconUrl** property for each button. Note that it requires a 16 x 16px icon by default. You can change these dimensions by using the**CustomIconWidth** and **CustomIconHeight** properties of the button and thus each button may have different size, for example:
 
 ````ASPNET
 	    <telerik:RadSocialButton SocialNetType="MailTo" CustomIconUrl="custom-mailto-icon-32px.png" CustomIconHeight="32px" CustomIconWidth="32px" />
@@ -24,7 +24,7 @@ The __RadSocialShare__ offers several ways to change the default icons that the 
 
 
 
-* Via the __CssClass__ property of the __RadSocialShare__ you can override the default sizes and then set the imagevia the __CustomIconUrl__ property:
+* Via the **CssClass** property of the **RadSocialShare** you can override the default sizes and then set the imagevia the **CustomIconUrl** property:
 
 ````ASPNET
 	        .RadSocialShare.myClass

@@ -1,6 +1,6 @@
 ---
 title: Tab Wizard at Client-side
-page_title: Tab Wizard at Client-side | UI for ASP.NET AJAX Documentation
+page_title: Tab Wizard at Client-side | RadTabStrip for ASP.NET AJAX Documentation
 description: Tab Wizard at Client-side
 slug: tabstrip/how-to/tab-wizard-at-client-side
 tags: tab,wizard,at,client-side

@@ -1,6 +1,6 @@
 ---
 title: Working With Tabs at the Server
-page_title: Working With Tabs at the Server | UI for ASP.NET AJAX Documentation
+page_title: Working With Tabs at the Server | RadTabStrip for ASP.NET AJAX Documentation
 description: Working With Tabs at the Server
 slug: tabstrip/tabs/working-with-tabs-at-the-server
 tags: working,with,tabs,at,the,server
@@ -16,7 +16,7 @@ Using the server-side API, you can programmatically add, remove, and edit the ta
 
 ## Adding tabs on page load
 
-After adding a __RadTabStrip__ control to your Web page, you can use the following server-side code to add tabs when the page loads:
+After adding a **RadTabStrip** control to your Web page, you can use the following server-side code to add tabs when the page loads:
 
 
 
@@ -76,7 +76,7 @@ After adding a __RadTabStrip__ control to your Web page, you can use the followi
 
 ## Adding tabs dynamically
 
-You can dynamically update the __Tabs__ collection of __RadTabStrip__ and __RadTab__ in response to a postback as well. Consider the following tab strip declaration:
+You can dynamically update the **Tabs** collection of **RadTabStrip** and **RadTab** in response to a postback as well. Consider the following tab strip declaration:
 
 ````ASPNET
 	     
@@ -102,7 +102,7 @@ You can dynamically update the __Tabs__ collection of __RadTabStrip__ and __RadT
 
 
 
-The __TabClick__ event handler adds tabs dynamically at runtime in the post-back:
+The **TabClick** event handler adds tabs dynamically at runtime in the post-back:
 
 
 
@@ -169,7 +169,7 @@ Clicking on both menu items results in the following:
 
 ## Removing, disabling, and enabling items
 
-To remove a tab in server-side code, use the __Remove__ method of the __RadTabCollection__ object that contains it. To enable or disable a tab, use the __Enabled__ property of the __RadTab__ object itself. The following example demonstrates these techniques.
+To remove a tab in server-side code, use the **Remove** method of the **RadTabCollection** object that contains it. To enable or disable a tab, use the **Enabled** property of the **RadTab** object itself. The following example demonstrates these techniques.
 
 Consider the following tab strip:
 
@@ -218,7 +218,7 @@ Consider the following tab strip:
 
 
 
-The __TabClick__ event handler deletes, disables, and enables tabs dynamically at runtime in the post-back when child tabs are clicked. It deletes children of the first root tab and disables the selected child tab of the second root tab, enabling all of its siblings:
+The **TabClick** event handler deletes, disables, and enables tabs dynamically at runtime in the post-back when child tabs are clicked. It deletes children of the first root tab and disables the selected child tab of the second root tab, enabling all of its siblings:
 
 
 

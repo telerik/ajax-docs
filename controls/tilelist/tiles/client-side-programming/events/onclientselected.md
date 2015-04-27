@@ -1,6 +1,6 @@
 ---
 title: OnClientSelected
-page_title: OnClientSelected | UI for ASP.NET AJAX Documentation
+page_title: OnClientSelected | RadTileList for ASP.NET AJAX Documentation
 description: OnClientSelected
 slug: tilelist/tiles/client-side-programming/events/onclientselected
 tags: onclientselected
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientSelected__ event is raised after a [Tile]({%slug tilelist/tiles/overview%}) is [selected]({%slug tilelist/functionality/selecting%}). It is fired after the [OnClientSelecting event]({%slug tilelist/tiles/client-side-programming/events/onclientselecting%}), if the latter has not been cancelled. This event is also cancellable.
+The **OnClientSelected** event is raised after a [Tile]({%slug tilelist/tiles/overview%}) is [selected]({%slug tilelist/functionality/selecting%}). It is fired after the [OnClientSelecting event]({%slug tilelist/tiles/client-side-programming/events/onclientselecting%}), if the latter has not been cancelled. This event is also cancellable.
 
 OnClientSelected can be used to cancel the postback (if AutoPostBack is true), but still allows the tile to be selected. Cancelling this event will prevent the postback, but not the selection.
 
@@ -27,14 +27,14 @@ The event handler receives two arguments:
 
 >caption OnClientSelected event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_newValue()|string||Gets the current URL the tile will navigate to. It could have been changed dynamically in the[OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}).|
 |get_oldValue()|string||Gets the original NavigateUrl of the clicked tile. It can be used to compare the current and original values.|
 |set_cancel(value)||bool|Sets whether the event will be cancelled (if true is passed).|
 
-The following code snippet shows how to get information about a selected tile through the methods exposed by the __OnClientSelected__ event's arguments. Note that selection is performed by right-clicking on a tile.
+The following code snippet shows how to get information about a selected tile through the methods exposed by the **OnClientSelected** event's arguments. Note that selection is performed by right-clicking on a tile.
 
 ````JavaScript
 	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
@@ -57,7 +57,7 @@ The following code snippet shows how to get information about a selected tile th
 
 
 
-The example below demonstrates how the __get_selected()__ method of the __Tile__ objectand the __set_cancel()__ method exposed by the __OnClientTileSelected__ event arguments can be used to determine whether a tile is selected or deselected.
+The example below demonstrates how the **get_selected()** method of the **Tile** objectand the **set_cancel()** method exposed by the **OnClientTileSelected** event arguments can be used to determine whether a tile is selected or deselected.
 
 ````JavaScript
 	         <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"

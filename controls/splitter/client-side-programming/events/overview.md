@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Events Overview | RadSplitter for ASP.NET AJAX Documentation
 description: Overview
 slug: splitter/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The following table lists the client-side events for __RadSplitter__, __RadPane__, __RadSlidingZone__, and __RadSlidingPane__:
+The following table lists the client-side events for **RadSplitter**, **RadPane**, **RadSlidingZone**, and **RadSlidingPane**:
 
 
 
@@ -23,17 +23,17 @@ The following table lists the client-side events for __RadSplitter__, __RadPane_
 
 | Event | Applies to | Description |
 | ------ | ------ | ------ |
-|[OnClientLoad]({%slug splitter/client-side-programming/events/onclientload%})| __RadSplitter__ , __RadSlidingZone__ |Occurs when the control is first loaded on the client.|
-|[OnClientResizing]({%slug splitter/client-side-programming/events/onclientresizing%})| __RadSplitter__ , __RadPane__ , __RadSlidingPane__ |Occurs before the control is resized.|
-|[OnClientResized]({%slug splitter/client-side-programming/events/onclientresized%})| __RadSplitter__ , __RadPane__ , __RadSlidingPane__ |Occurs when the control has just been resized.|
-|[OnClientCollapsing]({%slug splitter/client-side-programming/events/onclientcollapsing%})| __RadPane__ , __RadSlidingPane__ |Occurs when the pane is about to be collapsed.|
-|[OnClientCollapsed]({%slug splitter/client-side-programming/events/onclientcollapsed%})| __RadPane__ , __RadSlidingPane__ |Occurs when the pane has just been collapsed.|
-|[OnClientExpanding]({%slug splitter/client-side-programming/events/onclientexpanding%})| __RadPane__ , __RadSlidingPane__ |Occurs when the pane is about to be expanded|
-|[OnClientExpanded]({%slug splitter/client-side-programming/events/onclientexpanded%})| __RadPane__ , __RadSlidingPane__ |Occurs when the pane has just been expanded.|
-|[OnClientDocking]({%slug splitter/client-side-programming/events/onclientdocking%})| __RadSlidingPane__ |Occurs when the pane is about to be docked.|
-|[OnClientDocked]({%slug splitter/client-side-programming/events/onclientdocked%})| __RadSlidingPane__ |Occurs when the pane has just been docked.|
-|[OnClientUndocking]({%slug splitter/client-side-programming/events/onclientundocking%})| __RadSlidingPane__ |Occurs when the pane is about to be undocked.|
-|[OnClientUndocked]({%slug splitter/client-side-programming/events/onclientundocked%})| __RadSlidingPane__ |Occurs when the pane has just been undocked.|
+|[OnClientLoad]({%slug splitter/client-side-programming/events/onclientload%})| **RadSplitter** , **RadSlidingZone** |Occurs when the control is first loaded on the client.|
+|[OnClientResizing]({%slug splitter/client-side-programming/events/onclientresizing%})| **RadSplitter** , **RadPane** , **RadSlidingPane** |Occurs before the control is resized.|
+|[OnClientResized]({%slug splitter/client-side-programming/events/onclientresized%})| **RadSplitter** , **RadPane** , **RadSlidingPane** |Occurs when the control has just been resized.|
+|[OnClientCollapsing]({%slug splitter/client-side-programming/events/onclientcollapsing%})| **RadPane** , **RadSlidingPane** |Occurs when the pane is about to be collapsed.|
+|[OnClientCollapsed]({%slug splitter/client-side-programming/events/onclientcollapsed%})| **RadPane** , **RadSlidingPane** |Occurs when the pane has just been collapsed.|
+|[OnClientExpanding]({%slug splitter/client-side-programming/events/onclientexpanding%})| **RadPane** , **RadSlidingPane** |Occurs when the pane is about to be expanded|
+|[OnClientExpanded]({%slug splitter/client-side-programming/events/onclientexpanded%})| **RadPane** , **RadSlidingPane** |Occurs when the pane has just been expanded.|
+|[OnClientDocking]({%slug splitter/client-side-programming/events/onclientdocking%})| **RadSlidingPane** |Occurs when the pane is about to be docked.|
+|[OnClientDocked]({%slug splitter/client-side-programming/events/onclientdocked%})| **RadSlidingPane** |Occurs when the pane has just been docked.|
+|[OnClientUndocking]({%slug splitter/client-side-programming/events/onclientundocking%})| **RadSlidingPane** |Occurs when the pane is about to be undocked.|
+|[OnClientUndocked]({%slug splitter/client-side-programming/events/onclientundocked%})| **RadSlidingPane** |Occurs when the pane has just been undocked.|
 
 ````ASPNET
 	     

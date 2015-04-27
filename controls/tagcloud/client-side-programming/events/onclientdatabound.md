@@ -1,6 +1,6 @@
 ---
 title: OnClientDataBound
-page_title: OnClientDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientDataBound | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientDataBound
 slug: tagcloud/client-side-programming/events/onclientdatabound
 tags: onclientdatabound
@@ -12,17 +12,17 @@ position: 7
 
 
 
-The __OnClientDataBound__ event is raised when the __RadTagCloud__ object is successfully bound to the requested data.
+The **OnClientDataBound** event is raised when the **RadTagCloud** object is successfully bound to the requested data.
 
 ## 
 
 The event handler receives two arguments:
 
-* __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+* **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-* __Event arguments__–an empty event arguments object.
+* **Event arguments**–an empty event arguments object.
 
-__Example 1__: Shows how you can use the event to alert when the TagCloud is successfully bound.
+**Example 1**: Shows how you can use the event to alert when the TagCloud is successfully bound.
 
 ````ASPNET
 			<script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Icon Tile
-page_title: Icon Tile | UI for ASP.NET AJAX Documentation
+page_title: Icon Tile | RadTileList for ASP.NET AJAX Documentation
 description: Icon Tile
 slug: tilelist/tiles/icon-tile
 tags: icon,tile
@@ -14,13 +14,13 @@ position: 3
 
 ## 
 
-A __RadIconTile__ has an image centered in its content area that is called an icon. Its URLis set through the __ImageUrl__ of the tile:
+A **RadIconTile** has an image centered in its content area that is called an icon. Its URLis set through the **ImageUrl** of the tile:
 
 >note The examples below show specific functionality for the given tile type, for more infomration on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 >
 
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 			<telerik:RadTileList runat="server" ID="RadTileList1" Skin="Hay">
@@ -41,7 +41,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadIconTile ID="Tile1" runat="server" ImageUrl="icon_ajax.png" Shape="Wide">

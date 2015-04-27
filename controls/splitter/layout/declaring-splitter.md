@@ -1,6 +1,6 @@
 ---
 title: Declaring Splitter
-page_title: Declaring Splitter | UI for ASP.NET AJAX Documentation
+page_title: Declaring Splitter | RadSplitter for ASP.NET AJAX Documentation
 description: Declaring Splitter
 slug: splitter/layout/declaring-splitter
 tags: declaring,splitter
@@ -12,11 +12,11 @@ position: 0
 
 
 
-With __RadSplitter__ you can define any table layout.
+With **RadSplitter** you can define any table layout.
 
-* __Simple splitter__ - using one splitter you can define a horizontally or vertically split page or area in a page.
+* **Simple splitter** - using one splitter you can define a horizontally or vertically split page or area in a page.
 
-* __Complex splitter__ - you can define complex layouts using several nested splitters that provide both horizontally and vertically split regions.
+* **Complex splitter** - you can define complex layouts using several nested splitters that provide both horizontally and vertically split regions.
 
 >note RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
 >
@@ -24,7 +24,7 @@ With __RadSplitter__ you can define any table layout.
 
 ## Simple Structures with a Single Splitter
 
-The easiest way to define the __RadSplitter__ structure is declaratively in the ASPX page. The following example demonstrates how to declare a __Vertical__ splitter with three collapsible panes and split bars with different collapse modes:
+The easiest way to define the **RadSplitter** structure is declaratively in the ASPX page. The following example demonstrates how to declare a **Vertical** splitter with three collapsible panes and split bars with different collapse modes:
 
 ````ASPNET
 	     

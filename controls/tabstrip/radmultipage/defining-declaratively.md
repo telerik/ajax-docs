@@ -1,6 +1,6 @@
 ---
 title: Defining Declaratively
-page_title: Defining Declaratively | UI for ASP.NET AJAX Documentation
+page_title: Defining Declaratively | RadTabStrip for ASP.NET AJAX Documentation
 description: Defining Declaratively
 slug: tabstrip/radmultipage/defining-declaratively
 tags: defining,declaratively
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadMultiPage__provides a convenient mechanism that lets you define its structure in-line - directly in the .ASPX/.ASCX file.To do this, you need to enclose every __RadPageView__ definition in the __<telerik:RadPageView >__ ...__</telerik:RadPageView>__ tags:
+**RadMultiPage**provides a convenient mechanism that lets you define its structure in-line - directly in the .ASPX/.ASCX file.To do this, you need to enclose every **RadPageView** definition in the **<telerik:RadPageView >** ...**</telerik:RadPageView>** tags:
 
 ````ASPNET
 	  

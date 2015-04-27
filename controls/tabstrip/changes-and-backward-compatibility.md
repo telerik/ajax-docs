@@ -1,6 +1,6 @@
 ---
 title: Changes and backward compatibility
-page_title: Changes and backward compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and backward compatibility | RadTabStrip for ASP.NET AJAX Documentation
 description: Changes and backward compatibility
 slug: tabstrip/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -24,7 +24,7 @@ Since Q2 2010 all major changes for the controls are listed in the official Rele
 
 ## RadTabStrip for ASP.NET AJAX Q3 2009 (Version Number: 2009.3.1103):
 
-* Some changes have been introduced in the rendering of the __RadMultiPage__ in order to improve its __SEO__ performance. The control now relies on a base stylesheet instead of inline styles. If you have set __Telerik.EnableEmbeddedBaseStylesheet__ to "false" in the __web.config/appSettings__ RadMultiPage will not render correctly. You have to set __EnableEmbeddedBaseStylesheet to "true"__ on the control itself to fix this issue
+* Some changes have been introduced in the rendering of the **RadMultiPage** in order to improve its **SEO** performance. The control now relies on a base stylesheet instead of inline styles. If you have set **Telerik.EnableEmbeddedBaseStylesheet** to "false" in the **web.config/appSettings** RadMultiPage will not render correctly. You have to set **EnableEmbeddedBaseStylesheet to "true"** on the control itself to fix this issue
 
 ## RadTabStrip for ASP.NET AJAX Q2 2009 SP1 (Version Number 2009.2.826)
 

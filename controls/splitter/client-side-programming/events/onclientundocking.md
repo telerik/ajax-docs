@@ -1,6 +1,6 @@
 ---
 title: OnClientUndocking
-page_title: OnClientUndocking | UI for ASP.NET AJAX Documentation
+page_title: OnClientUndocking | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientUndocking
 slug: splitter/client-side-programming/events/onclientundocking
 tags: onclientundocking
@@ -14,23 +14,23 @@ position: 16
 
 ## 
 
-The __OnClientUndocking__ client-side event handler is called when a sliding pane is about to be undocked. The event can occur because the user clicks on the undock button, or as the result of a a call to a client-side method.
+The **OnClientUndocking** client-side event handler is called when a sliding pane is about to be undocked. The event can occur because the user clicks on the undock button, or as the result of a a call to a client-side method.
 
->note The __OnClientUndocking__ event is supported by __RadSlidingPane__ . It takes the place of the depricated OnClientBeforeUndock event.
+>note The **OnClientUndocking** event is supported by **RadSlidingPane** . It takes the place of the depricated OnClientBeforeUndock event.
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be undocked.
+* **sender** is the pane that is about to be undocked.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being undocked.
+* **set_cancel()** lets you prevent the pane from being undocked.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientUndocking__ event to show a confirmation dialog:
+The following example uses the **OnClientUndocking** event to show a confirmation dialog:
 
 ````ASPNET
 	     

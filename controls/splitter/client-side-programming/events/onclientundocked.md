@@ -1,6 +1,6 @@
 ---
 title: OnClientUndocked
-page_title: OnClientUndocked | UI for ASP.NET AJAX Documentation
+page_title: OnClientUndocked | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientUndocked
 slug: splitter/client-side-programming/events/onclientundocked
 tags: onclientundocked
@@ -14,17 +14,17 @@ position: 17
 
 ## 
 
-The __OnClientUndocked__ client-side event handler is called when a pane has just been undocked. The event can occur because of the user clicks on the sliding pane's undock button, or as the result of a a call to a client-side method.
+The **OnClientUndocked** client-side event handler is called when a pane has just been undocked. The event can occur because of the user clicks on the sliding pane's undock button, or as the result of a a call to a client-side method.
 
->note The __OnClientUndocked__ event is supported by __RadSlidingPane__ .
+>note The **OnClientUndocked** event is supported by **RadSlidingPane** .
 >
 
 
 The following parameter is passed to the event handler:
 
-* __sender__ is the pane that is has just been undocked.
+* **sender** is the pane that is has just been undocked.
 
-The following example uses the __OnClientUndocked__ event to update the content of the pane:
+The following example uses the **OnClientUndocked** event to update the content of the pane:
 
 ````ASPNET
 	     

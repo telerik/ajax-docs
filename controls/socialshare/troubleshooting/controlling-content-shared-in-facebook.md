@@ -1,6 +1,6 @@
 ---
 title: Controlling Content Shared in Facebook
-page_title: Controlling Content Shared in Facebook | UI for ASP.NET AJAX Documentation
+page_title: Controlling Content Shared in Facebook | RadSocialShare for ASP.NET AJAX Documentation
 description: Controlling Content Shared in Facebook
 slug: socialshare/troubleshooting/controlling-content-shared-in-facebook
 tags: controlling,content,shared,in,facebook
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-When configuring your page to work with different social networks the developer may sometimes wish to control the exact content (or preview) that will be shared. To a certain extent this is possible through the __RadSocialShare__ as it offers options to control the URL and the title of the post (see [this article]({%slug socialshare/functionality/controlling-posts%}) for more details).
+When configuring your page to work with different social networks the developer may sometimes wish to control the exact content (or preview) that will be shared. To a certain extent this is possible through the **RadSocialShare** as it offers options to control the URL and the title of the post (see [this article]({%slug socialshare/functionality/controlling-posts%}) for more details).
 
-This is not always sufficient, however. For example, Facebook crawls the page and by default shares the page title property, the first text found in the body of the page and prepares a list with the images it finds. There is no way for the __RadSocialShare__ to influence this, as this is a separate request from the Facebook servers. There is, however, a way to explicitly set the title, images and text for your page by using the [Open Graph Protocol](http://ogp.me/) that Facebook support.
+This is not always sufficient, however. For example, Facebook crawls the page and by default shares the page title property, the first text found in the body of the page and prepares a list with the images it finds. There is no way for the **RadSocialShare** to influence this, as this is a separate request from the Facebook servers. There is, however, a way to explicitly set the title, images and text for your page by using the [Open Graph Protocol](http://ogp.me/) that Facebook support.
 
 This approach consists of several meta tags in the head of the page in which you can set title, text, URL for the images, etc. More information on the way Facebook implements and reads these tags is available in their [online documentation](http://developers.facebook.com/docs/) and more precisely on [this page](http://developers.facebook.com/docs/opengraph/).
 

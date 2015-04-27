@@ -1,6 +1,6 @@
 ---
 title: Filling the Entire Page
-page_title: Filling the Entire Page | UI for ASP.NET AJAX Documentation
+page_title: Filling the Entire Page | RadSplitter for ASP.NET AJAX Documentation
 description: Filling the Entire Page
 slug: splitter/layout/filling-the-entire-page
 tags: filling,the,entire,page
@@ -12,25 +12,25 @@ position: 3
 
 
 
-A common use of __RadSplitter__ is to split an entire Web page. To do this, you need to set __Width__ and __Height__ properties to "100%". However, when doing this, you can encounter problems or unexpected behavior.
+A common use of **RadSplitter** is to split an entire Web page. To do this, you need to set **Width** and **Height** properties to "100%". However, when doing this, you can encounter problems or unexpected behavior.
 
 To achieve the expected behavior, you need set the following attributes on the elements of the ASPX page:
 
-* The <HTML> tag should have its height set to 100% and its margin set to 0px:__<html style="height:100%" >__
+* The <HTML> tag should have its height set to 100% and its margin set to 0px:**<html style="height:100%" >**
 
-* The <BODY> tag should have its height set to 100% and its margin set to 0px. (The default margin of the body is 5 pixels.)__<body style="height:100%;margin:0px" >__
+* The <BODY> tag should have its height set to 100% and its margin set to 0px. (The default margin of the body is 5 pixels.)**<body style="height:100%;margin:0px" >**
 
-* Any elements that contain the splitter control must also have those properties set:__<form style="height:100%;margin:0px" >__
+* Any elements that contain the splitter control must also have those properties set:**<form style="height:100%;margin:0px" >**
 
-* Optionally, if you want your page to be standards compliant, you can set the __DOCTYPE__ directive to:__<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">__
+* Optionally, if you want your page to be standards compliant, you can set the **DOCTYPE** directive to:**<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/tr/xhtml11/dtd/xhtml11.dtd">**
 
-* Optionally, you can remove the page scroll bars so that the application is as close as possible to a desktop application:__<body scroll="no" >__
+* Optionally, you can remove the page scroll bars so that the application is as close as possible to a desktop application:**<body scroll="no" >**
 
 ## Example
 
-The following example shows how to configure __RadSplitter__ to fill the entire page and to achieve consistent behavior by setting the height of all of its parent elements.
+The following example shows how to configure **RadSplitter** to fill the entire page and to achieve consistent behavior by setting the height of all of its parent elements.
 
->note The example is __cross browser compatible.__ 
+>note The example is **cross browser compatible.** 
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: tabstrip/client-side-programming/onclientload
 tags: onclientload

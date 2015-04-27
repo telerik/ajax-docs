@@ -1,6 +1,6 @@
 ---
 title: OnClientDoubleClick
-page_title: OnClientDoubleClick | UI for ASP.NET AJAX Documentation
+page_title: OnClientDoubleClick | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientDoubleClick
 slug: tabstrip/client-side-programming/onclientdoubleclick
 tags: onclientdoubleclick
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-The __OnClientDoubleClick__ client-side event occurs when the user double-clicks on a tab.
+The **OnClientDoubleClick** client-side event occurs when the user double-clicks on a tab.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_tab__ returns a reference to the __RadTab__that was double clicked.
+* **get_tab** returns a reference to the **RadTab**that was double clicked.
 
-* __get_domEvent__ returns a reference to the DOM event object for the double click.
+* **get_domEvent** returns a reference to the DOM event object for the double click.
 
 You can use this event to perform special actions when the user double-clicks on a tab:
 

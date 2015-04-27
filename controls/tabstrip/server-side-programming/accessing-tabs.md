@@ -1,6 +1,6 @@
 ---
 title: Accessing Tabs
-page_title: Accessing Tabs | UI for ASP.NET AJAX Documentation
+page_title: Accessing Tabs | RadTabStrip for ASP.NET AJAX Documentation
 description: Accessing Tabs
 slug: tabstrip/server-side-programming/accessing-tabs
 tags: accessing,tabs
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-__RadTabStrip__ has a number of useful methods for accessing the tabs in the tab strip. The following table lists these methods:
+**RadTabStrip** has a number of useful methods for accessing the tabs in the tab strip. The following table lists these methods:
 
 
 
@@ -24,9 +24,9 @@ __RadTabStrip__ has a number of useful methods for accessing the tabs in the tab
 | Method | Parameters | Return Value | Description |
 | ------ | ------ | ------ | ------ |
 |GetAllTabs|none|IList<RadTab>|Returns a list of all tabs in the tab strip, flattening out the tab strip hierarchy.|
-|FindTabByText|string|RadTab|Returns the first tab in the tab strip whose __Text__ property matches the parameter.|
-|FindTabByUrl|string|RadTab|Returns the first tab in the tab strip whose __NavigateUrl__ property matches the parameter.|
-|FindTabByValue|string|RadTab|Returns the first tab in the tab strip whose __Value__ property matches the parameter.|
+|FindTabByText|string|RadTab|Returns the first tab in the tab strip whose **Text** property matches the parameter.|
+|FindTabByUrl|string|RadTab|Returns the first tab in the tab strip whose **NavigateUrl** property matches the parameter.|
+|FindTabByValue|string|RadTab|Returns the first tab in the tab strip whose **Value** property matches the parameter.|
 
 # See Also
 

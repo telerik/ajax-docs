@@ -1,6 +1,6 @@
 ---
 title: suppressCompleteMessage Method
-page_title: suppressCompleteMessage Method | UI for ASP.NET AJAX Documentation
+page_title: suppressCompleteMessage Method | RadSpell for ASP.NET AJAX Documentation
 description: suppressCompleteMessage Method
 slug: spell/changes-and-backward-compatibility/suppresscompletemessage-method
 tags: suppresscompletemessage,method
@@ -12,11 +12,11 @@ position: 2
 
 
 
-As of __Q1 2015__, the __suppressCompleteMessage__ property of the [OnClientCheckFinished]({%slug spell/client-side-programming/events/onclientcheckfinished%}) event's arguments	__is a method__.
+As of **Q1 2015**, the **suppressCompleteMessage** property of the [OnClientCheckFinished]({%slug spell/client-side-programming/events/onclientcheckfinished%}) event's arguments	**is a method**.
 
-To prevent the informational alert, you now have to pass *false* as an *argument*(__Example 1__), instead of setting the property value, as in older versions (__Example 2__).
+To prevent the informational alert, you now have to pass *false* as an *argument*(**Example 1**), instead of setting the property value, as in older versions (**Example 2**).
 
-__Example 1__: Preventing the information alert in OnClientCheckFinished in Q1 2015 and later.
+**Example 1**: Preventing the information alert in OnClientCheckFinished in Q1 2015 and later.
 
 ````JavaScript
 	    	function OnClientCheckFinishedHandler(sender, args) {
@@ -27,7 +27,7 @@ __Example 1__: Preventing the information alert in OnClientCheckFinished in Q1 2
 
 
 
-__Example 2__: Preventing the information alert in OnClientCheckFinished in versions before Q1 2015.
+**Example 2**: Preventing the information alert in OnClientCheckFinished in versions before Q1 2015.
 
 ````JavaScript
 	    	function OnClientCheckFinishedHandler(sender, args) {

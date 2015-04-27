@@ -1,6 +1,6 @@
 ---
 title: Setting a Control to Check
-page_title: Setting a Control to Check | UI for ASP.NET AJAX Documentation
+page_title: Setting a Control to Check | RadSpell for ASP.NET AJAX Documentation
 description: Setting a Control to Check
 slug: spell/how-to/setting-a-control-to-check
 tags: setting,a,control,to,check
@@ -12,11 +12,11 @@ position: 0
 
 
 
-__RadSpell__ can be configured to check any server or client-side editable element by setting the __ControlToCheck__ property to the ID of the respective element. By default every instance of RadSpell can check only one control. However, you can configure RadSpell to check multiple controls at once.
+**RadSpell** can be configured to check any server or client-side editable element by setting the **ControlToCheck** property to the ID of the respective element. By default every instance of RadSpell can check only one control. However, you can configure RadSpell to check multiple controls at once.
 
 ## Checking a Single Control
 
-The easiest way set a control to check is by setting the __ControlToCheck__ property directly in the RadSpell tag:
+The easiest way set a control to check is by setting the **ControlToCheck** property directly in the RadSpell tag:
 
 ````ASPNET
 	<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>

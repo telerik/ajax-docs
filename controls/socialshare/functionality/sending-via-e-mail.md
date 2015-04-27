@@ -1,6 +1,6 @@
 ---
 title: Sending via E-mail
-page_title: Sending via E-mail | UI for ASP.NET AJAX Documentation
+page_title: Sending via E-mail | RadSocialShare for ASP.NET AJAX Documentation
 description: Sending via E-mail
 slug: socialshare/functionality/sending-via-e-mail
 tags: sending,via,e-mail
@@ -14,9 +14,9 @@ position: 1
 
 ## Built-in Send E-mail Form
 
-The __RadSocialShare__ control offers the ability to send the link, provided in the __UrlToShare__ property, via an E-mail, not just to the social networks. In order to do so there is a built-in form that prompts the user for the required information - sender name, e-mail, recipient mail and name, optional subject and message body. The URL can also be altered. There are several requirements to activate this functionality:
+The **RadSocialShare** control offers the ability to send the link, provided in the **UrlToShare** property, via an E-mail, not just to the social networks. In order to do so there is a built-in form that prompts the user for the required information - sender name, e-mail, recipient mail and name, optional subject and message body. The URL can also be altered. There are several requirements to activate this functionality:
 
-1. Add the __SendEmail__ button  that will open the form to the __MainButtons__ or __CompactButtons__ collection of the __RadSocialShare__:
+1. Add the **SendEmail** button  that will open the form to the **MainButtons** or **CompactButtons** collection of the **RadSocialShare**:
 
 ````ASPNET
 	    <telerik:RadSocialButton SocialNetType="SendEmail" />
@@ -24,7 +24,7 @@ The __RadSocialShare__ control offers the ability to send the link, provided in 
 
 
 
-1. Set all the properties from the __EmailSettings__ inner tag - __FromEmail__ (the e-mail from which the message will ultimately be received by the recipient), __SMTPServer__ (the server that will be handling the requests), __UserName__ (for the server) and __Password__ (for the server). 
+1. Set all the properties from the **EmailSettings** inner tag - **FromEmail** (the e-mail from which the message will ultimately be received by the recipient), **SMTPServer** (the server that will be handling the requests), **UserName** (for the server) and **Password** (for the server). 
 
 ````ASPNET
 	    <telerik:RadSocialShare ID="RadSocialShare1" runat="server">
@@ -41,7 +41,7 @@ Alternatively, e-mail settings can be set in the code-behind on every page load 
 
 ## Using the E-mail Agent from the User Machine
 
-The __RadSocialShare__ also allows the user to use the system's mail client - for example MS Outlook, Outlook Express, etc. This feature is activated by adding the __MailTo__ button to either the __MainButtons__ or __CompactButtons__ collection of the __RadSocialShare__:
+The **RadSocialShare** also allows the user to use the system's mail client - for example MS Outlook, Outlook Express, etc. This feature is activated by adding the **MailTo** button to either the **MainButtons** or **CompactButtons** collection of the **RadSocialShare**:
 
 ````ASPNET
 	    <telerik:RadSocialButton SocialNetType="MailTo" />
@@ -49,7 +49,7 @@ The __RadSocialShare__ also allows the user to use the system's mail client - fo
 
 
 
-Clicking this button results in the default mail agent opening a blank e-mail template with the __UrlToShare__ property preset as the message body. The User can fully customize the mail and it will be sent from his/her account that is set up in the local software.
+Clicking this button results in the default mail agent opening a blank e-mail template with the **UrlToShare** property preset as the message body. The User can fully customize the mail and it will be sent from his/her account that is set up in the local software.
 
 # See Also
 

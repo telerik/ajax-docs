@@ -1,6 +1,6 @@
 ---
-title: Data Binding Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Data Binding Overview | RadTileList for ASP.NET AJAX Documentation
 description: Overview
 slug: tilelist/data-binding/overview
 tags: overview

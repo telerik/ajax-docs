@@ -1,6 +1,6 @@
 ---
 title: RadSpell Object
-page_title: RadSpell Object | UI for ASP.NET AJAX Documentation
+page_title: RadSpell Object | RadSpell for ASP.NET AJAX Documentation
 description: RadSpell Object
 slug: spell/client-side-programming/radspell-object
 tags: radspell,object
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The following table lists significant members of the client-side __RadSpell__ object:
+The following table lists significant members of the client-side **RadSpell** object:
 
 ## Public Properties
 
@@ -68,7 +68,7 @@ The following table lists significant members of the client-side __RadSpell__ ob
 ````
 
 |
-|get_spellChecked|Returns true if spell checking for the target control has been completed. (the __OnClientCheckFinished__ event has been fired).||
+|get_spellChecked|Returns true if spell checking for the target control has been completed. (the **OnClientCheckFinished** event has been fired).||
 |set_spellChecked|Sets whether the spellcheck process is completed (true) or not (false). Note: Should not be used directly. It is used by the spellcheck validator.|
 
 ````JavaScript

@@ -1,6 +1,6 @@
 ---
 title: Adding Images to Tabs
-page_title: Adding Images to Tabs | UI for ASP.NET AJAX Documentation
+page_title: Adding Images to Tabs | RadTabStrip for ASP.NET AJAX Documentation
 description: Adding Images to Tabs
 slug: tabstrip/appearance-and-styling/adding-images-to-tabs
 tags: adding,images,to,tabs
@@ -14,23 +14,23 @@ position: 2
 
 ## 
 
-Each __RadTab__ has a set of properties you can use to add images to the tab. You can simply add a single image to each tab, or you can add separate images that reflect the state of the tab.
+Each **RadTab** has a set of properties you can use to add images to the tab. You can simply add a single image to each tab, or you can add separate images that reflect the state of the tab.
 
-The image appears to the left of the tab's text (unless you are using a [right-to-left orientation]({%slug tabstrip/appearance-and-styling/rtl-support%}), in which case it appear to the right of the tab's text). By setting the __Text__ property to an empty string, you can create tabs that are labelled solely with images.
+The image appears to the left of the tab's text (unless you are using a [right-to-left orientation]({%slug tabstrip/appearance-and-styling/rtl-support%}), in which case it appear to the right of the tab's text). By setting the **Text** property to an empty string, you can create tabs that are labelled solely with images.
 
 The following properties let you add images to tabs:
 
-* __ImageUrl__ specifies an image that is added to the tab. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
+* **ImageUrl** specifies an image that is added to the tab. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
 
-* __SelectedImageUrl__ specifies an image that is used when the tab is selected.
+* **SelectedImageUrl** specifies an image that is used when the tab is selected.
 
-* __HoveredImageUrl__ specifies an image that is used when the mouse is over the tab.
+* **HoveredImageUrl** specifies an image that is used when the mouse is over the tab.
 
-* __DisabledImageUrl__ specifies an image that is used when the tab is disabled.
+* **DisabledImageUrl** specifies an image that is used when the tab is disabled.
 
 To set the image properties at design time, use the [RadTabStrip Item Builder]({%slug tabstrip/design-time/radtabstrip-item-builder%}).
 
-The following example uses the __ImageUrl__ and __SelectedImageUrl__ properties to create a __RadTabStrip__ that adds images to the top-level items:
+The following example uses the **ImageUrl** and **SelectedImageUrl** properties to create a **RadTabStrip** that adds images to the top-level items:
 
 ````ASPNET
 	 

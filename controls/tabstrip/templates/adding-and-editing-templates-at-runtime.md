@@ -1,6 +1,6 @@
 ---
 title: Adding and Editing Templates at Runtime
-page_title: Adding and Editing Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Adding and Editing Templates at Runtime | RadTabStrip for ASP.NET AJAX Documentation
 description: Adding and Editing Templates at Runtime
 slug: tabstrip/templates/adding-and-editing-templates-at-runtime
 tags: adding,and,editing,templates,at,runtime
@@ -14,14 +14,14 @@ position: 3
 
 ## 
 
-You can also add templates to __RadTabStrip__ at runtime, using the __TabTemplate__ property. This property is of type __ITemplate__, so you must assign an object that implements that interface as a value:
+You can also add templates to **RadTabStrip** at runtime, using the **TabTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
 >note The tabs should be dynamically added so that templates can be defined at run time.
 >Also, the tabs should be bound to be able to eval DataBinder expressions. In other words, you should call the DataBind method of the RadTabStrip object or bind the tabs that are about to use DataBinder.Eval. You can bind a specific tab by calling the DataBind method of this specific tab.
 >
 
 
->caution The TabTemplate should be initialized in the __OnInit__ event of the page. This is needed as the template should be instantiated before the RadTabs are initialized.
+>caution The TabTemplate should be initialized in the **OnInit** event of the page. This is needed as the template should be instantiated before the RadTabs are initialized.
 >
 
 

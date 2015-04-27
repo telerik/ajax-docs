@@ -1,6 +1,6 @@
 ---
 title: OnTweet
-page_title: OnTweet | UI for ASP.NET AJAX Documentation
+page_title: OnTweet | RadSocialShare for ASP.NET AJAX Documentation
 description: OnTweet
 slug: socialshare/client-side-programming/events/ontweet
 tags: ontweet
@@ -14,11 +14,11 @@ position: 9
 
 ## 
 
-__OnTweet__ - fires when the Tweet button is clicked in the sharing popup (i.e. after the actual tweet is posted). Does not fire immediately after the Tweet Standard button is clicked in the RadSocialShare control. Scripts from Twitter return the information about this event and its behavior cannot be changed.
+**OnTweet** - fires when the Tweet button is clicked in the sharing popup (i.e. after the actual tweet is posted). Does not fire immediately after the Tweet Standard button is clicked in the RadSocialShare control. Scripts from Twitter return the information about this event and its behavior cannot be changed.
 
 The event handler receives two parameters:
 
-1. sender - the __RadSocialShare__ instance that fired the event.
+1. sender - the **RadSocialShare** instance that fired the event.
 
 1. eventArgs - event arguments. It exposes the get_url() method that returns the shared URL.
 

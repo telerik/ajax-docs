@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadSpell for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: spell/appearance-and-styling/css-classes
 tags: css,classes

@@ -1,6 +1,6 @@
 ---
 title: Declaring Tabs Statically in Design Time
-page_title: Declaring Tabs Statically in Design Time | UI for ASP.NET AJAX Documentation
+page_title: Declaring Tabs Statically in Design Time | RadTabStrip for ASP.NET AJAX Documentation
 description: Declaring Tabs Statically in Design Time
 slug: tabstrip/tabs/declaring-tabs-statically-in-design-time
 tags: declaring,tabs,statically,in,design,time

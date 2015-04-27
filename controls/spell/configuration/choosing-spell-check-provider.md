@@ -1,6 +1,6 @@
 ---
 title: Choosing Spell Check Provider
-page_title: Choosing Spell Check Provider | UI for ASP.NET AJAX Documentation
+page_title: Choosing Spell Check Provider | RadSpell for ASP.NET AJAX Documentation
 description: Choosing Spell Check Provider
 slug: spell/configuration/choosing-spell-check-provider
 tags: choosing,spell,check,provider
@@ -14,13 +14,13 @@ position: 3
 
 ## 
 
-__RadSpell__ can use three spellcheck algorithms to provide the most adequate spelling suggestions for your language. The algorithms are selected by setting the __SpellCheckProvider__ property to one of the following values:
+**RadSpell** can use three spellcheck algorithms to provide the most adequate spelling suggestions for your language. The algorithms are selected by setting the **SpellCheckProvider** property to one of the following values:
 
-* __PhoneticProvider__, __TelerikProvider__: This provider uses phonetic codes to provide "sounds like" word suggestions.Really effective for English, but less so for other languages. The __TelerikProvider__ is the default value of the __SpellCheckProvider__ property and is equivalent to __PhoneticProvider__.
+* **PhoneticProvider**, **TelerikProvider**: This provider uses phonetic codes to provide "sounds like" word suggestions.Really effective for English, but less so for other languages. The **TelerikProvider** is the default value of the **SpellCheckProvider** property and is equivalent to **PhoneticProvider**.
 
-* __EditDistanceProvider__: This provider uses the edit distance algorithm. __EditDistanceProvider__ work best for non-western languages. The __EditDistanceProvider__ has a specific setting, called __EditDistance__, which controls the count of the suggested words and affects the performance of the spellcheck algorithm.
+* **EditDistanceProvider**: This provider uses the edit distance algorithm. **EditDistanceProvider** work best for non-western languages. The **EditDistanceProvider** has a specific setting, called **EditDistance**, which controls the count of the suggested words and affects the performance of the spellcheck algorithm.
 
-* __MicrosoftWordProvider__: This provider automates Microsoft Word via its COM Interop interface. You need to have installed Microsoft Word on your server in order to use this provider.
+* **MicrosoftWordProvider**: This provider automates Microsoft Word via its COM Interop interface. You need to have installed Microsoft Word on your server in order to use this provider.
 
 The example below demonstrates how to use and configure the EditDistanceProvider:
 

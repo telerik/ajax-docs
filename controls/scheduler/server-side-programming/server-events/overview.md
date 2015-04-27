@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Server-side Events Overview
+# Server Events Overview
 
 
 

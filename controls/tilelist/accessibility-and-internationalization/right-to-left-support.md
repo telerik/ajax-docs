@@ -1,6 +1,6 @@
 ---
 title: Right-to-Left Support
-page_title: Right-to-Left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-Left Support | RadTileList for ASP.NET AJAX Documentation
 description: Right-to-Left Support
 slug: tilelist/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,18 +14,18 @@ position: 1
 
 ## 
 
-__RadTileList__ offers Right-to-Left (RTL) support. It is enabled automatically when	you place a __RadTileList__ control in a containerwith its `dir` property (or its CSS `direction` property) set to `rtl`.
+**RadTileList** offers Right-to-Left (RTL) support. It is enabled automatically when	you place a **RadTileList** control in a containerwith its `dir` property (or its CSS `direction` property) set to `rtl`.
 
-When in RTL mode, the __RadTileList__ reverses the tiles order, i.e., the first tile is on the top right-hand side instead ofon the top left-hand side. The direction rule applies to all its child elements, so tiles will also have their texts in RTL mode automatically.
+When in RTL mode, the **RadTileList** reverses the tiles order, i.e., the first tile is on the top right-hand side instead ofon the top left-hand side. The direction rule applies to all its child elements, so tiles will also have their texts in RTL mode automatically.
 
-__RadTileList__ uses the __rtlistRtl__ CSS class to apply the needed changesso you can use it to cascade and apply any customizations you need. The __rtileRtl__ class is applied to individual tiles in RTL mode.
+**RadTileList** uses the **rtlistRtl** CSS class to apply the needed changesso you can use it to cascade and apply any customizations you need. The **rtileRtl** class is applied to individual tiles in RTL mode.
 
-__Example 1__ shows a simple declaration that will put the __RadTileList__ in RTL mode (__Figure 1__).
+**Example 1** shows a simple declaration that will put the **RadTileList** in RTL mode (**Figure 1**).
 >caption Figure1: RadTileList in RTL mode.
 
 ![tilelist-rtl-example](images/tilelist-rtl-example.png)
 
-__Example 1: RadTileList in RTL mode.__
+**Example 1: RadTileList in RTL mode.**
 
 ````ASPNET
 	  <div style="direction: rtl; width: 750px;">

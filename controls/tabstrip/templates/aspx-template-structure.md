@@ -1,6 +1,6 @@
 ---
 title: ASPX Template Structure
-page_title: ASPX Template Structure | UI for ASP.NET AJAX Documentation
+page_title: ASPX Template Structure | RadTabStrip for ASP.NET AJAX Documentation
 description: ASPX Template Structure
 slug: tabstrip/templates/aspx-template-structure
 tags: aspx,template,structure
@@ -16,15 +16,15 @@ position: 1
 
 You can define two types of Telerik RadTabStrip templates:
 
-1. __Global (RadTabStrip Tab Template)__ templates are applied to all RadTabs automatically;
+1. **Global (RadTabStrip Tab Template)** templates are applied to all RadTabs automatically;
 
-1. __Per tab (Tab Template)__ templates override global templates.
+1. **Per tab (Tab Template)** templates override global templates.
 
 ![Templates](images/tabstrip_templates_aspx1.gif)
 
 
 
->note  __DataBinder.Eval__ expressions work only when the tabstrip is in a bound mode. In other words, you should explicitly call the __DataBind()__ method even if no datasource is set to the tabstrip.
+>note  **DataBinder.Eval** expressions work only when the tabstrip is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no datasource is set to the tabstrip.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemDataBound
-page_title: OnClientItemDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemDataBound | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientItemDataBound
 slug: tagcloud/client-side-programming/events/onclientitemdatabound
 tags: onclientitemdatabound
@@ -12,15 +12,15 @@ position: 8
 
 
 
-The __OnClientItemDataBound__ event occurs when a __RadTagCloudItem__ is successfully bound to the requested data source item.
+The **OnClientItemDataBound** event occurs when a **RadTagCloudItem** is successfully bound to the requested data source item.
 
 ## 
 
 The event handler receives two parameters:
 
-1. __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+1. **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-1. __Event arguments__–event arguments object of type __Sys.EventArgs__, that exposes the following properties and methods:
+1. **Event arguments**–event arguments object of type **Sys.EventArgs**, that exposes the following properties and methods:
 
 
 | Name | Parameters | Return Type | Description |
@@ -28,7 +28,7 @@ The event handler receives two parameters:
 |get_item||RadTagCloudItem|Returns the client-side object of the clicked item.|
 |get_dataItem||Object|Returns the fetched client-side object bound to the item.|
 
-__Example 1:__ Shows how you can use the __OnClientItemDataBound__event to hide items upon client-side programmatic rule base on the data fetched from the data source.
+**Example 1:** Shows how you can use the **OnClientItemDataBound**event to hide items upon client-side programmatic rule base on the data fetched from the data source.
 
 ````ASPNET
 			<script type="text/javascript">

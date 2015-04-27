@@ -1,6 +1,6 @@
 ---
 title: Specifying Tab appearance
-page_title: Specifying Tab appearance | UI for ASP.NET AJAX Documentation
+page_title: Specifying Tab appearance | RadSplitter for ASP.NET AJAX Documentation
 description: Specifying Tab appearance
 slug: splitter/sliding-zones/specifying-tab-appearance
 tags: specifying,tab,appearance
@@ -12,27 +12,27 @@ position: 2
 
 
 
-The sliding zone tab of a __RadSlidingPane__ control can represent its content using both a title and an image:
+The sliding zone tab of a **RadSlidingPane** control can represent its content using both a title and an image:
 
-* Use the __IconUrl__ property to specify the image that appears on the tab for a sliding pane.
+* Use the **IconUrl** property to specify the image that appears on the tab for a sliding pane.
 
-* Use the __Title__ property to specify the text that appears on the tab for a sliding pane.
+* Use the **Title** property to specify the text that appears on the tab for a sliding pane.
 
-Once you have set the __Title__ and/or __IconUrl__ properties of a __RadSlidingPane__ control, you can control the way its sliding zone tab is rendered by setting its __TabView__ property. The __TabView__ property uses the __Telerik.Web.UI.SplitterSlidePaneTabView__ enumeration which has the following values:
+Once you have set the **Title** and/or **IconUrl** properties of a **RadSlidingPane** control, you can control the way its sliding zone tab is rendered by setting its **TabView** property. The **TabView** property uses the **Telerik.Web.UI.SplitterSlidePaneTabView** enumeration which has the following values:
 
-* __TextAndImage__ (default) - both the Icon and Title are displayed in the tab
+* **TextAndImage** (default) - both the Icon and Title are displayed in the tab
 
-* __TextOnly__ - only the Title is displayed
+* **TextOnly** - only the Title is displayed
 
-* __ImageOnly__ - only the Icon is displayed
+* **ImageOnly** - only the Icon is displayed
 
->tip Since the vertical alignment of the text in pane tabs is not supported by Mozilla-based browsers at this time, you can use the __TabView__ property to let the pane tabs look the same in all browsers. Just prepare images that include both the title and the icon of the pane, and set __TabView="ImageOnly"__ .
+>tip Since the vertical alignment of the text in pane tabs is not supported by Mozilla-based browsers at this time, you can use the **TabView** property to let the pane tabs look the same in all browsers. Just prepare images that include both the title and the icon of the pane, and set **TabView="ImageOnly"** .
 >
 
 
 ## Example
 
-The following example shows a splitter that contains a sliding pane with each of the possible __TabView__ values:
+The following example shows a splitter that contains a sliding pane with each of the possible **TabView** values:
 
 ````ASPNET
 	<telerik:RadSplitter ID="RadSplitter1" runat="server" Height="300" Width="700">

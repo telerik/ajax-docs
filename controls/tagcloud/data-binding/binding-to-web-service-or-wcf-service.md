@@ -1,6 +1,6 @@
 ---
 title: Binding to Web Service or Wcf Service
-page_title: Binding to Web Service or Wcf Service | UI for ASP.NET AJAX Documentation
+page_title: Binding to Web Service or Wcf Service | RadTagCloud for ASP.NET AJAX Documentation
 description: Binding to Web Service or Wcf Service
 slug: tagcloud/data-binding/binding-to-web-service-or-wcf-service
 tags: binding,to,web,service,or,wcf,service
@@ -14,7 +14,7 @@ position: 3
 
 ## Overview
 
-You can load child items in a tag cloud dynamically through a Web service. The following steps describe how to configure __RadTagCloud__ so that it can use a Web service to supply child items. Since Q2 2012 a WCF Web Service can be used as well.
+You can load child items in a tag cloud dynamically through a Web service. The following steps describe how to configure **RadTagCloud** so that it can use a Web service to supply child items. Since Q2 2012 a WCF Web Service can be used as well.
 
 >note Both types of Web Services must return an array of type TagCloudDataItem which has the following signature:
 >
@@ -176,7 +176,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 
 ## Using a WebService
 
-1. In the properties pane for the __RadTagCloud__ component, set the __WebServiceSettings__ property to identify the Web service and service method:
+1. In the properties pane for the **RadTagCloud** component, set the **WebServiceSettings** property to identify the Web service and service method:
 
 * Set the Path sub-property to the URL for the Web service.
 
@@ -211,7 +211,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 
 
 
-1. Optionally, set the __OnClientItemsRequesting__ property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items.
+1. Optionally, set the **OnClientItemsRequesting** property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items.
 
 ````JavaScript
 	        //Fired before the request is sent to the Web Service
@@ -227,7 +227,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 
 
 
-1. Optionally, set the __OnClientItemsRequested__ and __OnClientItemsRequestFailed__ properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
+1. Optionally, set the **OnClientItemsRequested** and **OnClientItemsRequestFailed** properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
 
 ````JavaScript
 	        //Fired when the items are successfully loaded.
@@ -247,7 +247,7 @@ You can load child items in a tag cloud dynamically through a Web service. The f
 
 
 
-1. To use the integrated WebService support of __RadTagCloud__, the WebService should have the following signature:
+1. To use the integrated WebService support of **RadTagCloud**, the WebService should have the following signature:
 
 
 
@@ -308,7 +308,7 @@ For a live example of using a Web service to populate items, see the[Web Service
 
 ## Using a WCF Web Service
 
-1. In the properties pane for the __RadTagCloud__ component, set the __WebServiceSettings__ property to identify the WCF Web service and service method:
+1. In the properties pane for the **RadTagCloud** component, set the **WebServiceSettings** property to identify the WCF Web service and service method:
 
 * Set the Path sub-property to the URL for the Web service.
 
@@ -353,7 +353,7 @@ where the WCF WebService must be in the website, e.g.:
 
 
 
-1. Optionally, set the __OnClientItemsRequesting__ property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items. Note that setting the context requires an object as shown above.
+1. Optionally, set the **OnClientItemsRequesting** property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items. Note that setting the context requires an object as shown above.
 
 ````JavaScript
 	        //Fired before the request is sent to the Web Service
@@ -369,7 +369,7 @@ where the WCF WebService must be in the website, e.g.:
 
 
 
-1. Optionally, set the __OnClientItemsRequested__ and __OnClientItemsRequestFailed__ properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
+1. Optionally, set the **OnClientItemsRequested** and **OnClientItemsRequestFailed** properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
 
 ````JavaScript
 	        //Fired when the items are successfully loaded.
@@ -389,7 +389,7 @@ where the WCF WebService must be in the website, e.g.:
 
 
 
-1. To use the integrated WCF WebService support of __RadTagCloud__, the WCF WebService should have the following signature:
+1. To use the integrated WCF WebService support of **RadTagCloud**, the WCF WebService should have the following signature:
 
 
 

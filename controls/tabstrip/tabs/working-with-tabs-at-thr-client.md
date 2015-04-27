@@ -1,6 +1,6 @@
 ---
 title: Working With Tabs at thr Client
-page_title: Working With Tabs at thr Client | UI for ASP.NET AJAX Documentation
+page_title: Working With Tabs at thr Client | RadTabStrip for ASP.NET AJAX Documentation
 description: Working With Tabs at thr Client
 slug: tabstrip/tabs/working-with-tabs-at-thr-client
 tags: working,with,tabs,at,thr,client
@@ -12,11 +12,11 @@ position: 6
 
 
 
-__RadTabStrip__provides a client-side API for adding, deleting and disabling tabs. By using the __trackChanges__ and __commitChanges__ methods of the client-side __RadTabStrip__ object, these changes can persist after a postback.
+**RadTabStrip**provides a client-side API for adding, deleting and disabling tabs. By using the **trackChanges** and **commitChanges** methods of the client-side **RadTabStrip** object, these changes can persist after a postback.
 
 ## Adding tabs
 
-To add a tab, use the __add__ or __insert__ method of the tabs collection:
+To add a tab, use the **add** or **insert** method of the tabs collection:
 
 ````JavaScript
 	     
@@ -45,7 +45,7 @@ To add a tab, use the __add__ or __insert__ method of the tabs collection:
 
 ## Removing tabs
 
-Use the __remove__ or __removeAt__ method of the tabs collection to remove tabs:
+Use the **remove** or **removeAt** method of the tabs collection to remove tabs:
 
 ````JavaScript
 	     
@@ -72,7 +72,7 @@ Use the __remove__ or __removeAt__ method of the tabs collection to remove tabs:
 
 ## Enabling and Disabling items
 
-Use the __disable__ and __enable__ methods of the tabs collection to disable or enable items:
+Use the **disable** and **enable** methods of the tabs collection to disable or enable items:
 
 ````JavaScript
 	     

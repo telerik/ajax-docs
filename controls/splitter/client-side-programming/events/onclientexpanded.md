@@ -1,6 +1,6 @@
 ---
 title: OnClientExpanded
-page_title: OnClientExpanded | UI for ASP.NET AJAX Documentation
+page_title: OnClientExpanded | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientExpanded
 slug: splitter/client-side-programming/events/onclientexpanded
 tags: onclientexpanded
@@ -14,17 +14,17 @@ position: 11
 
 ## 
 
-The __OnClientExpanded__ client-side event handler is called when a pane has just been expanded. The expansion can occur because of a user action such as clicking an expand button or sliding zone tab, on page load, or as the result of a a call to a client-side method.
+The **OnClientExpanded** client-side event handler is called when a pane has just been expanded. The expansion can occur because of a user action such as clicking an expand button or sliding zone tab, on page load, or as the result of a a call to a client-side method.
 
->note The __OnClientExpanded__ event is supported by __RadPane__ and __RadSlidingPane__ .
+>note The **OnClientExpanded** event is supported by **RadPane** and **RadSlidingPane** .
 >
 
 
 The following parameter is passed to the event handler:
 
-* __sender__ is the pane that is has just been expanded.
+* **sender** is the pane that is has just been expanded.
 
-The following example uses the __OnClientExpanded__ event to update the content of the pane:
+The following example uses the **OnClientExpanded** event to update the content of the pane:
 
 ````ASPNET
 	     

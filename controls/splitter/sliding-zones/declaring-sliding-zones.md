@@ -1,6 +1,6 @@
 ---
 title: Declaring Sliding Zones
-page_title: Declaring Sliding Zones | UI for ASP.NET AJAX Documentation
+page_title: Declaring Sliding Zones | RadSplitter for ASP.NET AJAX Documentation
 description: Declaring Sliding Zones
 slug: splitter/sliding-zones/declaring-sliding-zones
 tags: declaring,sliding,zones
@@ -12,15 +12,15 @@ position: 0
 
 
 
-__RadSlidingZone__ and __RadSlidingPane__ controls let you add sliding panes to your splitter control. Sliding panes are used to optimize the layout of a page. By defining sliding panes in the sliding zone container, you can initially hide content that your users do not need to see all the time.
+**RadSlidingZone** and **RadSlidingPane** controls let you add sliding panes to your splitter control. Sliding panes are used to optimize the layout of a page. By defining sliding panes in the sliding zone container, you can initially hide content that your users do not need to see all the time.
 
 By clicking on the pane tab, users can display the content of a sliding pane. Then the user can dock the content in the page layout if it should be visible all the time.
 
 ## Declarative Syntax
 
-To declare a sliding zone, put a __RadSlidingZone__ control into a regular __RadPane__. Then add as may __RadSlidingPane__ controls as you want to the __RadSlidingZone__. Each time you add a __RadSlidingPane__ control to the __RadSlidingZone__, the __RadSlidingZone__ displays a tab for the pane, which can then be used to display the __RadSlidingPane__ itself.
+To declare a sliding zone, put a **RadSlidingZone** control into a regular **RadPane**. Then add as may **RadSlidingPane** controls as you want to the **RadSlidingZone**. Each time you add a **RadSlidingPane** control to the **RadSlidingZone**, the **RadSlidingZone** displays a tab for the pane, which can then be used to display the **RadSlidingPane** itself.
 
->note  __RadSlidingZone__ controls must be placed inside a __RadPane__ control. __RadSlidingPane__ controls must be placed inside a __RadSlidingZone__ control.
+>note  **RadSlidingZone** controls must be placed inside a **RadPane** control. **RadSlidingPane** controls must be placed inside a **RadSlidingZone** control.
 >
 
 

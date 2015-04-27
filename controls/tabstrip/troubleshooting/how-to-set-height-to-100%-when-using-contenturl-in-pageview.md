@@ -1,6 +1,6 @@
 ---
 title: How to set height to 100% when using ContentUrl in PageView
-page_title: How to set height to 100% when using ContentUrl in PageView | UI for ASP.NET AJAX Documentation
+page_title: How to set height to 100% when using ContentUrl in PageView | RadTabStrip for ASP.NET AJAX Documentation
 description: How to set height to 100% when using ContentUrl in PageView
 slug: tabstrip/troubleshooting/how-to-set-height-to-100%-when-using-contenturl-in-pageview
 tags: how,to,set,height,to,100%,when,using,contenturl,in,pageview
@@ -14,7 +14,7 @@ position: 0
 
 ## Problem
 
-Can not set width to 100% when using RadPageView of a RadMultiPage control when having *ContentUrl* property set to another aspx page (ex: * ContentUrl="Default2.aspx"***). The contents are chopped vertically, and are only visible by scrolling up/down. Setting a height of "100%" on either the RadTab or RadPageView has no effect. The only way we have been able to override that is by setting the RadPageView height in pixels.
+Can not set width to 100% when using RadPageView of a RadMultiPage control when having *ContentUrl* property set to another aspx page (ex: *ContentUrl="Default2.aspx"*). The contents are chopped vertically, and are only visible by scrolling up/down. Setting a height of "100%" on either the RadTab or RadPageView has no effect. The only way we have been able to override that is by setting the RadPageView height in pixels.
 
 >note Please note that width to 100% can be set only when the ContentUrl redirects to another aspx page and not to a url. When *ContentUrl* is set to a website in another domain (like google.com) the mentioned approach may not be used due to[cross site scripting](http://en.wikipedia.org/wiki/Cross-site_scripting).
 >
@@ -24,7 +24,7 @@ Can not set width to 100% when using RadPageView of a RadMultiPage control when 
 
 Add the following javascript to the below definition of the RadTabStrip control:
 
->note Note that the following JavaScript needs to be put in the page whose content needs to be loaded (in the particular case this would be the __Default2.aspx__ page). If you have Telerik controls on the page but __$telerik__ is still undefined make sure that the script provided is placed after the script manager declaration.
+>note Note that the following JavaScript needs to be put in the page whose content needs to be loaded (in the particular case this would be the **Default2.aspx** page). If you have Telerik controls on the page but **$telerik** is still undefined make sure that the script provided is placed after the script manager declaration.
 >
 
 

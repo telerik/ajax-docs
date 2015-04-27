@@ -1,6 +1,6 @@
 ---
 title: Responsive Layout and Dynamic Height
-page_title: Responsive Layout and Dynamic Height | UI for ASP.NET AJAX Documentation
+page_title: Responsive Layout and Dynamic Height | RadTileList for ASP.NET AJAX Documentation
 description: Responsive Layout and Dynamic Height
 slug: tilelist/how-to/responsive-layout-and-dynamic-height
 tags: responsive,layout,and,dynamic,height
@@ -12,31 +12,31 @@ position: 0
 
 
 
-__RadTileList__ offers [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) that lets it react to the	viewport width. This is achieved via [CSS and media queries]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%}) for smaller viewports.
+**RadTileList** offers [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}) that lets it react to the	viewport width. This is achieved via [CSS and media queries]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%}) for smaller viewports.
 
 This article explains several key points you need to keep in mind when employing the control's responsive capabilities and offers examples	that show how to achieve some of the scenarios:
 
-* __A responsive RadTileList must be able to use to entire viewport width__	because the layout of the control changes in correlation to the viewport size. This is usually achieved by placing it in a high-level container (e.g., directly under the form tag	with as few parents as possible). Deeper nesting may limit the width the control can use and result in clipped content, for example.
+* **A responsive RadTileList must be able to use to entire viewport width**	because the layout of the control changes in correlation to the viewport size. This is usually achieved by placing it in a high-level container (e.g., directly under the form tag	with as few parents as possible). Deeper nesting may limit the width the control can use and result in clipped content, for example.
 
-* __The Height property does not support values in percent__.	In some scenarios, however, the developer may want to change the number of rows that are shown dynamically (e.g., with a viewport height change).	This is possible (see the examples below), but it is not	done out of the box, because it requires a call to the __set_height()__ and __repaint()__[client-side methods]({%slug tilelist/client-side-programming/tilelist-object%})	, which is an expensive operation and must not be called unnecessarily.The second reason for this is that the standard (desktop) layout scrolls the tiles to the left and right. The number of rows is controlled via the __Height__	or __TileRows__ property of the __RadTileList__.	Thus, the change in the layout to the tablet- and phone-oriented layouts is based on the width and the height is controlled explicitly by the developer.
+* **The Height property does not support values in percent**.	In some scenarios, however, the developer may want to change the number of rows that are shown dynamically (e.g., with a viewport height change).	This is possible (see the examples below), but it is not	done out of the box, because it requires a call to the **set_height()** and **repaint()**[client-side methods]({%slug tilelist/client-side-programming/tilelist-object%})	, which is an expensive operation and must not be called unnecessarily.The second reason for this is that the standard (desktop) layout scrolls the tiles to the left and right. The number of rows is controlled via the **Height**	or **TileRows** property of the **RadTileList**.	Thus, the change in the layout to the tablet- and phone-oriented layouts is based on the width and the height is controlled explicitly by the developer.
 
-* __The parent HTML element must allow for scrolling for the tablet- and phone-oriented layouts__.	In these modes the tiles flow downward and the __RadTileList__ does not have __height__	or __scrolling__ specified. This means that, usually, its parent HTML element	is must have a __specified height__ and its __overflow-y__ CSS property can be set to __auto__.
+* **The parent HTML element must allow for scrolling for the tablet- and phone-oriented layouts**.	In these modes the tiles flow downward and the **RadTileList** does not have **height**	or **scrolling** specified. This means that, usually, its parent HTML element	is must have a **specified height** and its **overflow-y** CSS property can be set to **auto**.
 
 ## Responsive Layout and Dynamic Height
 
 To react to the height of the parent element in desktop mode, you need to:
 
-1. Explicitly provide the new height in pixels via the __set_height()__ client-side method.
+1. Explicitly provide the new height in pixels via the **set_height()** client-side method.
 
-1. Call the __repaint()__ method to update the tiles arrangement.
+1. Call the **repaint()** method to update the tiles arrangement.
 
 1. Use an appropriate event to call this logic again. This can be window.resize or any business logic that changes the parent element's height.
 
-You can see a basic sample in __Example 1__. For simplicity, tiles are generated in the code-behind (__Example 2__).The __window.resize__ event is used to change the dimensions and a simple logic is added to ensure resizing willbe executed only once per browser resize. The Sys.Application.Load event provides the hook for the initial resize.
+You can see a basic sample in **Example 1**. For simplicity, tiles are generated in the code-behind (**Example 2**).The **window.resize** event is used to change the dimensions and a simple logic is added to ensure resizing willbe executed only once per browser resize. The Sys.Application.Load event provides the hook for the initial resize.
 
 The tablet- and phone-oriented layouts will take the height of their parent HTML element, so you only need to make sure it does not have scrolling disabled.
 
-__Example 1: Changing the height of a responsive RadTileList.__
+**Example 1: Changing the height of a responsive RadTileList.**
 
 ````JavaScript
 	<head id="Head1" runat="server">
@@ -103,7 +103,7 @@ __Example 1: Changing the height of a responsive RadTileList.__
 
 
 
-__Example 2: Generating some tiles in the code-behind to populate the RadTileList from Example1 and Example 3.__
+**Example 2: Generating some tiles in the code-behind to populate the RadTileList from Example1 and Example 3.**
 
 
 
@@ -163,7 +163,7 @@ __Example 2: Generating some tiles in the code-behind to populate the RadTileLis
 
 
 
-When __RadTileList__ is nested in other controls/elements,you may need to use events they offer to recalculate the height (e.g., when they are shown or resized),or override some of their default CSS settings to make sure scrolling is enabled. It is still important that they provide the entire viewport widthso the desktop mode can use it.
+When **RadTileList** is nested in other controls/elements,you may need to use events they offer to recalculate the height (e.g., when they are shown or resized),or override some of their default CSS settings to make sure scrolling is enabled. It is still important that they provide the entire viewport widthso the desktop mode can use it.
 
 # See Also
 

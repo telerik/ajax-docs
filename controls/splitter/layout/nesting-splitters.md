@@ -1,6 +1,6 @@
 ---
 title: Nesting Splitters
-page_title: Nesting Splitters | UI for ASP.NET AJAX Documentation
+page_title: Nesting Splitters | RadSplitter for ASP.NET AJAX Documentation
 description: Nesting Splitters
 slug: splitter/layout/nesting-splitters
 tags: nesting,splitters
@@ -16,7 +16,7 @@ position: 4
 
 By nesting splitters inside the panes of other splitters and alternating the [Orientation]({%slug splitter/layout/orientation%}) of the nested splitters, you can define complex structures that divide the page into vertically and horizontally resizable regions. You can nest splitters up to any depth.
 
-By default, the nested splitters are resized when the panes that contain them are resized. If you do not want the nested splitters to resize together with their parent panes, set the __ResizeWithParentPane__ property to __False__.
+By default, the nested splitters are resized when the panes that contain them are resized. If you do not want the nested splitters to resize together with their parent panes, set the **ResizeWithParentPane** property to **False**.
 
 >note RadSplitter must have at least two child RadPanes. You can experience many unexpected issues when the control is used with a single RadPane, making it a highly not recommended scenario.
 >

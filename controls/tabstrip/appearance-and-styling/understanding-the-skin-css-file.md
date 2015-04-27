@@ -1,6 +1,6 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding the Skin CSS File | RadTabStrip for ASP.NET AJAX Documentation
 description: Understanding the Skin CSS File
 slug: tabstrip/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file
@@ -27,7 +27,7 @@ Styles for RadControls are defined using Cascading Style Sheet (CSS) syntax. Eac
 
 
 
-See the [CSS Skin FileSelectors]({%slug tabstrip/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for __RadTabStrip__ skins.
+See the [CSS Skin FileSelectors]({%slug tabstrip/appearance-and-styling/css-skin-file-selectors%}) topic for more information on the specific CSS selectors used for **RadTabStrip** skins.
 
 Each style maps to a "class" attribute in an HTML tag. For example, consider the excerpt from the HTML rendering of a tab strip shown below:
 
@@ -96,13 +96,13 @@ Each style maps to a "class" attribute in an HTML tag. For example, consider the
 
 
 
-The control is rendered as a DIV element with the class "__RadTabStrip RadTabStrip_Default RadTabStripTop_Default__". Each level of tabs in the hierarchy is rendered as another DIV element nested within the main DIV. The tabs at a level are rendered as an unordered list, where each list element is a tab.
+The control is rendered as a DIV element with the class "**RadTabStrip RadTabStrip_Default RadTabStripTop_Default**". Each level of tabs in the hierarchy is rendered as another DIV element nested within the main DIV. The tabs at a level are rendered as an unordered list, where each list element is a tab.
 
 Here is a more detailed breakdown of the rendered markup:
 
 ## Root tag
 
-The tab strip is rendered as a __DIV__ tag. Here is an excerpt from the example above:
+The tab strip is rendered as a **DIV** tag. Here is an excerpt from the example above:
 
 ````HTML
 	
@@ -114,9 +114,9 @@ The tab strip is rendered as a __DIV__ tag. Here is an excerpt from the example 
 
 
 
-The __ID__ attribute of the DIV tag is set to the __ClientID__ property of the __RadTabStrip__ control. As you can see, three CSS classes have been applied: "__RadTabStrip__", "__RadTabStrip_____Default__", and "__RadTabStripTop_Default__". The "__RadTabStrip__" class is always applied. It defines the basic presentation of the tab strip which is common for all skins. The "__RadTabStrip_Default__" class is applied because the __Skin__ of the tab strip is set to __"Default"__. The "__RadTabStripTop_Default__" class is applied because the tab strip has a "HorizontalTop" orientation. If the tab strip had another orientation, this class would be replaced by "__RadTabStripBottom_Default__", "__RadTabStripLeft_Default__", or "__RadTabStripRight_Default__".
+The **ID** attribute of the DIV tag is set to the **ClientID** property of the **RadTabStrip** control. As you can see, three CSS classes have been applied: "**RadTabStrip**", "**RadTabStrip_Default**", and "**RadTabStripTop_Default**". The "**RadTabStrip**" class is always applied. It defines the basic presentation of the tab strip which is common for all skins. The "**RadTabStrip_Default**" class is applied because the **Skin** of the tab strip is set to **"Default"**. The "**RadTabStripTop_Default**" class is applied because the tab strip has a "HorizontalTop" orientation. If the tab strip had another orientation, this class would be replaced by "**RadTabStripBottom_Default**", "**RadTabStripLeft_Default**", or "**RadTabStripRight_Default**".
 
-If you set the __Style__ or __CssClass__ property of the __RadTabStrip__ control they would be applied to the root menu tag:
+If you set the **Style** or **CssClass** property of the **RadTabStrip** control they would be applied to the root menu tag:
 
 ````HTML
 	     
@@ -140,13 +140,13 @@ Each level of tabs in the tab strip is rendered as a DIV nested inside the main 
 
 
 
-The DIV has two CSS classes applied: "__rtsLevel__" and "__rtsLevel1__". The "__rtsLevel__" class is applied to every DIV element that encapsulates a level of tabs. The "__rtsLevel1__" class is applied because this DIV renders the root level tabs. The second level of tabs has the "__rtsLevel2__" class applied instead.
+The DIV has two CSS classes applied: "**rtsLevel**" and "**rtsLevel1**". The "**rtsLevel**" class is applied to every DIV element that encapsulates a level of tabs. The "**rtsLevel1**" class is applied because this DIV renders the root level tabs. The second level of tabs has the "**rtsLevel2**" class applied instead.
 
-The UL element has the "__rtsUL__" class applied. If scrolling is enabled, it has the "__rtsScroll__" class applied as well.
+The UL element has the "**rtsUL**" class applied. If scrolling is enabled, it has the "**rtsScroll**" class applied as well.
 
 ## Tabs
 
-__RadTab__ renders as an __LI__ (list item) tag, containing an __A__(link or anchor) tag. The text of the item is rendered inside a set of __SPAN__ tags:
+**RadTab** renders as an **LI** (list item) tag, containing an **A**(link or anchor) tag. The text of the item is rendered inside a set of **SPAN** tags:
 
 ````HTML
 	
@@ -162,13 +162,13 @@ __RadTab__ renders as an __LI__ (list item) tag, containing an __A__(link or anc
 
 
 
-The __LI__ tag has its __class__ attribute always set to "__rtsLI__". In addition, if the element represents the first tab at a level, it also gets the "__rtsFirst__" class applied, and if it represents the last tab at a level, it gets the "__rtsLast__" class applied.
+The **LI** tag has its **class** attribute always set to "**rtsLI**". In addition, if the element represents the first tab at a level, it also gets the "**rtsFirst**" class applied, and if it represents the last tab at a level, it gets the "**rtsLast**" class applied.
 
-The __A__ tag has its class attribute always set to "__rtsLink__". It can include additional classes depending on its state.
+The **A** tag has its class attribute always set to "**rtsLink**". It can include additional classes depending on its state.
 
-The __SPAN__ tags always have the attributes "__rtsOut__", __rtsIn__" and "__rtsTxt__", respectively.If the __Style__ or __CssClass__ properties of the __RadTab__ class are set they are applied to the __A__ tag. If the tab includes an image, a separate __IMG__ tag appears next to the innermost __SPAN__ tag, with the "__rtsImg__" class applied.
+The **SPAN** tags always have the attributes "**rtsOut**", **rtsIn**" and "**rtsTxt**", respectively.If the **Style** or **CssClass** properties of the **RadTab** class are set they are applied to the **A** tag. If the tab includes an image, a separate **IMG** tag appears next to the innermost **SPAN** tag, with the "**rtsImg**" class applied.
 
-If the item is a separator (its __IsSeparator__ property is __True__), the __LI__ tag gets the "__rtsSeparator__" class applied. Because separators do not respond to user clicks, it has no __A__ element, and the text is not included in a __SPAN__ tag:
+If the item is a separator (its **IsSeparator** property is **True**), the **LI** tag gets the "**rtsSeparator**" class applied. Because separators do not respond to user clicks, it has no **A** element, and the text is not included in a **SPAN** tag:
 
 ````HTML
 	     
@@ -178,7 +178,7 @@ If the item is a separator (its __IsSeparator__ property is __True__), the __LI_
 
 
 
-If a tab at a level has its __IsBreak__ property set to __True__, an additional __LI__ tag, with the "__rtsBreak__" class applied, is added to the rendered tab strip, following the break tab:
+If a tab at a level has its **IsBreak** property set to **True**, an additional **LI** tag, with the "**rtsBreak**" class applied, is added to the rendered tab strip, following the break tab:
 
 ````HTML
 	     

@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop
-page_title: Drag and Drop | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop | RadTileList for ASP.NET AJAX Documentation
 description: Drag and Drop
 slug: tilelist/functionality/drag-and-drop
 tags: drag,and,drop
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-__RadTileList__ supports __drag-and-drop__ for __reordering of the tiles__ and for__moving tiles from one group to another__. This includes __creating a new group__. The tiles arereordered in realtime around the tile that is being dragged.
+**RadTileList** supports **drag-and-drop** for **reordering of the tiles** and for**moving tiles from one group to another**. This includes **creating a new group**. The tiles arereordered in realtime around the tile that is being dragged.
 
-The drag-and-drop functionality is enabled by setting the TileList's __EnableDragAndDrop__ property to__true__. Its default value is *false*.
+The drag-and-drop functionality is enabled by setting the TileList's **EnableDragAndDrop** property to**true**. Its default value is *false*.
 
 >note If the end user reorders the tiles this new order will be persisted across postbacks.
 >

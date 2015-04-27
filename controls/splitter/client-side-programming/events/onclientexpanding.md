@@ -1,6 +1,6 @@
 ---
 title: OnClientExpanding
-page_title: OnClientExpanding | UI for ASP.NET AJAX Documentation
+page_title: OnClientExpanding | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientExpanding
 slug: splitter/client-side-programming/events/onclientexpanding
 tags: onclientexpanding
@@ -14,23 +14,23 @@ position: 10
 
 ## 
 
-The __OnClientExpanding__ client-side event handler is called when a pane is about to be expanded. The expansion can occur because of a user action such as clicking an expand button or sliding zone tab, on page load, or as the result of a a call to a client-side method.
+The **OnClientExpanding** client-side event handler is called when a pane is about to be expanded. The expansion can occur because of a user action such as clicking an expand button or sliding zone tab, on page load, or as the result of a a call to a client-side method.
 
->note The __OnClientExpanding__ event is supported by __RadPane__ and __RadSlidingPane__ . It takes the place of the depricated OnClientBeforeExpand event.
+>note The **OnClientExpanding** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the depricated OnClientBeforeExpand event.
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be expanded.
+* **sender** is the pane that is about to be expanded.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being expanded.
+* **set_cancel()** lets you prevent the pane from being expanded.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientExpanding__ event to show a confirmation dialog:
+The following example uses the **OnClientExpanding** event to show a confirmation dialog:
 
 ````ASPNET
 	     

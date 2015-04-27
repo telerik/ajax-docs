@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: tagcloud/client-side-programming/events/onclientload
 tags: onclientload
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The __OnClientLoad__ event is raised when the __RadTagCloud__ object is loaded on the page.	It can notify the developer that the control is available for further client-side programmatic interaction.
+The **OnClientLoad** event is raised when the **RadTagCloud** object is loaded on the page.	It can notify the developer that the control is available for further client-side programmatic interaction.
 
 ## 
 
 The event handler receives two arguments:
 
-* __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+* **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-* __Event arguments__–an empty event arguments object.
+* **Event arguments**–an empty event arguments object.
 
-__Example 1__: Shows how you can use the event to alert the count of the loaded items in the TagCloud.
+**Example 1**: Shows how you can use the event to alert the count of the loaded items in the TagCloud.
 
 ````ASPNET
 					<telerik:RadTagCloud runat="server" ID="RadTagCloud1" OnClientLoad="OnClientLoad">

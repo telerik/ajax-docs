@@ -1,6 +1,6 @@
 ---
 title: Programmatic Creation
-page_title: Programmatic Creation | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Creation | RadTileList for ASP.NET AJAX Documentation
 description: Programmatic Creation
 slug: tilelist/server-side-programming/programmatic-creation
 tags: programmatic,creation
@@ -12,21 +12,21 @@ position: 2
 
 
 
-__RadTileList__ can be declared in the mark-up, and it can also be added programmatically from the code-behind.
+**RadTileList** can be declared in the mark-up, and it can also be added programmatically from the code-behind.
 
 When doing so, you will need to create:
 
-1. A new __[RadTileList]({%slug tilelist/server-side-programming/tilelist-object%})__ object;
+1. A new **[RadTileList]({%slug tilelist/server-side-programming/tilelist-object%})** object;
 
-1. A new __[RadTileGroup]({%slug tilelist/server-side-programming/tilegroup-object%})__ object which will	contain the Tiles. Note, that you can create any number of Groups within one TileList as long as at least one is present;
+1. A new **[RadTileGroup]({%slug tilelist/server-side-programming/tilegroup-object%})** object which will	contain the Tiles. Note, that you can create any number of Groups within one TileList as long as at least one is present;
 
-1. Last, but not least - new __[RadTile]({%slug tilelist/tiles/server-side-programming/tile-object%})__objects of any type supported ([RadIconTile]({%slug tilelist/tiles/icon-tile%}),[RadTextTile]({%slug tilelist/tiles/text-tile%}),[RadImageTile]({%slug tilelist/tiles/image-tile%}),	[RadImageAndTextTile]({%slug tilelist/tiles/imageandtext-tile%})).	Note, that there is no limit on the number of Tiles within one Group.
+1. Last, but not least - new **[RadTile]({%slug tilelist/tiles/server-side-programming/tile-object%})**objects of any type supported ([RadIconTile]({%slug tilelist/tiles/icon-tile%}),[RadTextTile]({%slug tilelist/tiles/text-tile%}),[RadImageTile]({%slug tilelist/tiles/image-tile%}),	[RadImageAndTextTile]({%slug tilelist/tiles/imageandtext-tile%})).	Note, that there is no limit on the number of Tiles within one Group.
 
 ## Creating a RadTileList in the Code-behind
 
 The sample code below illustrates a possible approach to creating and defining the properties of a new RadTileList programmatically. Itexhibits both the commonly shared and the tile-specific properties, as described in the[Tile Object]({%slug tilelist/tiles/server-side-programming/tile-object%}) help article.
 
->important When __[Drag-and-drop]({%slug tilelist/functionality/drag-and-drop%})__ is enabled, and/or __[Data Binding]({%slug tilelist/data-binding/overview%})__ is used,tiles *must* be created in the`Page_Init`event.
+>important When **[Drag-and-drop]({%slug tilelist/functionality/drag-and-drop%})** is enabled, and/or **[Data Binding]({%slug tilelist/data-binding/overview%})** is used,tiles *must* be created in the`Page_Init`event.
 >This requirement arises from the way client state is loaded for IScriptControls - between the Page_Init and Page_Load events. At this point RadTileList loads the client state of its tiles as they came in from the client and, to apply it correctly, the tiles that were present in its collection when the page was sent to the client must already be recreated by the developer.
 >
 

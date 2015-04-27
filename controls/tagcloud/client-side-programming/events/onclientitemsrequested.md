@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequested
-page_title: OnClientItemsRequested | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequested | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientItemsRequested
 slug: tagcloud/client-side-programming/events/onclientitemsrequested
 tags: onclientitemsrequested
@@ -12,15 +12,15 @@ position: 5
 
 
 
-The __OnClientItemsRequested__ is fired when the requested items from the Web Service are successfully loaded.
+The **OnClientItemsRequested** is fired when the requested items from the Web Service are successfully loaded.
 
 ## 
 
 The event handler receives two arguments:
 
-* __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+* **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-* __Event arguments__–an empty event arguments object.
+* **Event arguments**–an empty event arguments object.
 
 In the TagCloud's [Web Service online example](http://demos.telerik.com/aspnet-ajax/tagcloud/examples/webservice/defaultcs.aspx) you can examine how this event can be used.
 

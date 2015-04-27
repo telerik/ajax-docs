@@ -1,6 +1,6 @@
 ---
 title: Sprite Guide
-page_title: Sprite Guide | UI for ASP.NET AJAX Documentation
+page_title: Sprite Guide | RadTabStrip for ASP.NET AJAX Documentation
 description: Sprite Guide
 slug: tabstrip/appearance-and-styling/sprite-guide
 tags: sprite,guide

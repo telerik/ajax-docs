@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeCollapse
-page_title: OnClientBeforeCollapse | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeCollapse | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientBeforeCollapse
 slug: splitter/client-side-programming/events/onclientbeforecollapse
 tags: onclientbeforecollapse
@@ -14,27 +14,27 @@ position: 6
 
 ## 
 
->caution  __OnClientBeforeCollapse__ Client-Side event has been deprecated. Please, use the[OnClientCollapsing]({%slug splitter/client-side-programming/events/onclientcollapsing%})instead.
+>caution  **OnClientBeforeCollapse** Client-Side event has been deprecated. Please, use the[OnClientCollapsing]({%slug splitter/client-side-programming/events/onclientcollapsing%})instead.
 >
 
 
-The __OnClientBeforeCollapse__ client-side event handler is called when a pane is about to be collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a a call to a client-side method.
+The **OnClientBeforeCollapse** client-side event handler is called when a pane is about to be collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a a call to a client-side method.
 
->note The __OnClientBeforeCollapse__ event is supported by __RadPane__ and __RadSlidingPane__ .
+>note The **OnClientBeforeCollapse** event is supported by **RadPane** and **RadSlidingPane** .
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be collapsed.
+* **sender** is the pane that is about to be collapsed.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being collapsed.
+* **set_cancel()** lets you prevent the pane from being collapsed.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientBeforeCollapse__ event to show a confirmation dialog:
+The following example uses the **OnClientBeforeCollapse** event to show a confirmation dialog:
 
 ````ASPNET
 	     

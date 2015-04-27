@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadSplitter for ASP.NET AJAX Documentation
 description: Overview
 slug: splitter/client-side-programming/overview
 tags: overview
@@ -12,11 +12,11 @@ position: 0
 
 
 
-__RadSplitter__ provides a flexible client-side API. You can easily interact with the splitter in the browser using the splitter client-side object.
+**RadSplitter** provides a flexible client-side API. You can easily interact with the splitter in the browser using the splitter client-side object.
 
 ## Getting the RadSplitter client-side object
 
-__RadSplitter__ creates a client-side object with the __ClientID__ of the splitter. You can obtain a reference using the __$find()__ method, as shown in the following JavaScript code:
+**RadSplitter** creates a client-side object with the **ClientID** of the splitter. You can obtain a reference using the **$find()** method, as shown in the following JavaScript code:
 
 ````JavaScript
 	
@@ -32,7 +32,7 @@ __RadSplitter__ creates a client-side object with the __ClientID__ of the splitt
 
 ## Getting the instance of a particular RadPane
 
-Once you get the client-side object of __RadSplitter__, you can use the __getPaneById()__ method to get the instance of a particular pane:
+Once you get the client-side object of **RadSplitter**, you can use the **getPaneById()** method to get the instance of a particular pane:
 
 ````JavaScript
 	
@@ -45,7 +45,7 @@ Once you get the client-side object of __RadSplitter__, you can use the __getPan
 
 ## Getting the instance of a particular RadSlidingZone
 
-__RadSlidingZone__ creates a client-side object with the __ClientID__ of the sliding zone. You can obtain the reference using the following JavaScript code:
+**RadSlidingZone** creates a client-side object with the **ClientID** of the sliding zone. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
 	
@@ -57,7 +57,7 @@ __RadSlidingZone__ creates a client-side object with the __ClientID__ of the sli
 
 ## Getting the instance of a particular RadSlidingPane
 
-Once you get the client-side object of __RadSlidingZone__, you can use the __getPaneById()__ method to get the instance of a particular sliding pane:
+Once you get the client-side object of **RadSlidingZone**, you can use the **getPaneById()** method to get the instance of a particular sliding pane:
 
 ````JavaScript
 	
@@ -70,7 +70,7 @@ Once you get the client-side object of __RadSlidingZone__, you can use the __get
 
 ## Calling a client-side method
 
-When you get the instance of a particular control, you can call its client-side methods to perform various tasks. The following example shows how to collapse a __RadPane__ control:
+When you get the instance of a particular control, you can call its client-side methods to perform various tasks. The following example shows how to collapse a **RadPane** control:
 
 ````JavaScript
 	

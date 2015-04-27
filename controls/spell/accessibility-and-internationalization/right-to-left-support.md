@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadSpell for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: spell/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __RadSpell__ fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set its __DialogsCssFile__ property to an external CSS file in which you have the __direction: rtl__ property set for the html or body element.
+The **RadSpell** fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set its **DialogsCssFile** property to an external CSS file in which you have the **direction: rtl** property set for the html or body element.
 
 ````ASPNET
 	body

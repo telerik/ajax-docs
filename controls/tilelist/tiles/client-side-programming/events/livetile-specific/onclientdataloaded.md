@@ -1,6 +1,6 @@
 ---
 title: OnClientDataLoaded
-page_title: OnClientDataLoaded | UI for ASP.NET AJAX Documentation
+page_title: OnClientDataLoaded | RadTileList for ASP.NET AJAX Documentation
 description: OnClientDataLoaded
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloaded
 tags: onclientdataloaded
@@ -14,21 +14,21 @@ position: 0
 
 ## 
 
-The __OnClientDataLoaded__ event is fired by the __RadLiveTile__ when its data request hasreturned successfully. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
+The **OnClientDataLoaded** event is fired by the **RadLiveTile** when its data request hasreturned successfully. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
 
 The event handler receives two arguments:
 
-1. The __RadLiveTile__ that fired the event
+1. The **RadLiveTile** that fired the event
 
 1. An event arguments object that exposes the following members:
 
 
 >caption OnClientDataLoaded event arguments object members
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_data()__ |object||Returns the data object that is received from the service request.|
-| __set_data()__ ||object|Sets a new data object that will be bound to the tile's template. It can be a modification of the original data.|
+| **get_data()** |object||Returns the data object that is received from the service request.|
+| **set_data()** ||object|Sets a new data object that will be bound to the tile's template. It can be a modification of the original data.|
 
 The following example shows how some data can be modified according to a condition so it is presented to the user in a more	meaningful manner:
 

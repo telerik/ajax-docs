@@ -1,6 +1,6 @@
 ---
 title: OnClientTabDisabled
-page_title: OnClientTabDisabled | UI for ASP.NET AJAX Documentation
+page_title: OnClientTabDisabled | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientTabDisabled
 slug: tabstrip/client-side-programming/onclienttabdisabled
 tags: onclienttabdisabled
@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-The __OnClientTabDisabled__ client-side event occurs when a tab is disabled.
+The **OnClientTabDisabled** client-side event occurs when a tab is disabled.
 
 The event handler receives two parameters:
 
@@ -22,7 +22,7 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_tab__ returns a reference to the __RadTab__ that has been disabled.
+* **get_tab** returns a reference to the **RadTab** that has been disabled.
 
 You can use this event to respond when a tab is disabled:
 

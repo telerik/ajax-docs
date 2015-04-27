@@ -1,6 +1,6 @@
 ---
 title: OnClientTabDragStart
-page_title: OnClientTabDragStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientTabDragStart | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientTabDragStart
 slug: tabstrip/client-side-programming/onclienttabdragstart
 tags: onclienttabdragstart
@@ -14,9 +14,9 @@ position: 16
 
 ## 
 
-The __OnClientTabDragStart__ event is fired when a drag-to-reorder operation is about to start.
+The **OnClientTabDragStart** event is fired when a drag-to-reorder operation is about to start.
 
->note This event will be fired only when the __EnableDragToReorder__ property is set to __"true"__ 
+>note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 
@@ -26,8 +26,8 @@ The event handler function receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_tab__ returns a reference to the __RadTab__ which is about to be dragged.
+* **get_tab** returns a reference to the **RadTab** which is about to be dragged.
 
-* __get_domEvent__ returns a reference to the DOM event object for the action that caused the drag-to-reorder operation to start.
+* **get_domEvent** returns a reference to the DOM event object for the action that caused the drag-to-reorder operation to start.
 
-* __set_cancel__ lets you stop the operation by passing boolen value as a parameter.
+* **set_cancel** lets you stop the operation by passing boolen value as a parameter.

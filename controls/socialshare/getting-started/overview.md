@@ -1,6 +1,6 @@
 ---
-title: Getting Started Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Getting Started Overview | RadSocialShare for ASP.NET AJAX Documentation
 description: Overview
 slug: socialshare/getting-started/overview
 tags: overview
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-The following tutorial demonstrates how a simple __RadSocialShare__ control can be used to share an URL. The end result will be similar to the following image once the __CompactButtons__ are shown:![getting-started-result](images/getting-started-result.png)
+The following tutorial demonstrates how a simple **RadSocialShare** control can be used to share an URL. The end result will be similar to the following image once the **CompactButtons** are shown:![getting-started-result](images/getting-started-result.png)
 
-1. In a new AJAX-Enabled Web Application add a __RadSocialShare__ control to the default web page:
+1. In a new AJAX-Enabled Web Application add a **RadSocialShare** control to the default web page:
 
 ````ASPNET
 	    <telerik:RadSocialShare runat="server" ID="RadSocialShare1">
@@ -25,11 +25,11 @@ The following tutorial demonstrates how a simple __RadSocialShare__ control can 
 
 
 
-1. Set the __UrlToShare__ property to __http://www.telerik.com/products/aspnet-ajax.aspx__ .
+1. Set the **UrlToShare** property to **http://www.telerik.com/products/aspnet-ajax.aspx** .
 
-1. Set the __TitleToShare__ property to __ASP.NET AJAX Controls, .NET Web UI Components | Telerik__ .
+1. Set the **TitleToShare** property to **ASP.NET AJAX Controls, .NET Web UI Components | Telerik** .
 
-1. Add some buttons to the __MainButtons__ collection. You can choose the social network which they target via the __SocialNetType__ property. For example add a Facebook share button, a Twitter tweet button and a Blogger button. The last button is the __RadCompactButton__ so that you can pop up a __RadWindow__ with the rest of the networks:
+1. Add some buttons to the **MainButtons** collection. You can choose the social network which they target via the **SocialNetType** property. For example add a Facebook share button, a Twitter tweet button and a Blogger button. The last button is the **RadCompactButton** so that you can pop up a **RadWindow** with the rest of the networks:
 
 ````ASPNET
 	    <telerik:RadSocialShare runat="server" ID="RadSocialShare1" UrlToShare="http://www.telerik.com/products/aspnet-ajax.aspx"

@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadSocialShare for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: socialshare/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadSocialShare__ fully supports right-to-left (RTL) language locales. It is created and added to the page as a child of the form element and in order to turn on the RTL support you should set __dir=rtl to the html or body__ element.
+The **RadSocialShare** fully supports right-to-left (RTL) language locales. It is created and added to the page as a child of the form element and in order to turn on the RTL support you should set **dir=rtl to the html or body** element.
 
 ````ASPNET
 	        html

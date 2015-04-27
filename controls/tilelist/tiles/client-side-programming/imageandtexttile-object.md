@@ -1,6 +1,6 @@
 ---
 title: ImageAndTextTile Object
-page_title: ImageAndTextTile Object | UI for ASP.NET AJAX Documentation
+page_title: ImageAndTextTile Object | RadTileList for ASP.NET AJAX Documentation
 description: ImageAndTextTile Object
 slug: tilelist/tiles/client-side-programming/imageandtexttile-object
 tags: imageandtexttile,object
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-This article explains the client-side properties and methods __[RadImageAndTextTile]({%slug tilelist/tiles/imageandtext-tile%})__ exposes.
+This article explains the client-side properties and methods **[RadImageAndTextTile]({%slug tilelist/tiles/imageandtext-tile%})** exposes.
 
->note  __RadImageAndTextTile__ inherits the __[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})__ type and has the API it provides in addition to the ImageAndTextTile specific methods.
+>note  **RadImageAndTextTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ImageAndTextTile specific methods.
 >
 
 

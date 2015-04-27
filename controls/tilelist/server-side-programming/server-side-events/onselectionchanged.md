@@ -1,6 +1,6 @@
 ---
 title: OnSelectionChanged
-page_title: OnSelectionChanged | UI for ASP.NET AJAX Documentation
+page_title: OnSelectionChanged | RadTileList for ASP.NET AJAX Documentation
 description: OnSelectionChanged
 slug: tilelist/server-side-programming/server-side-events/onselectionchanged
 tags: onselectionchanged
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-The __SelectionChanged__ server-side event is fired when a new[tile is selected]({%slug tilelist/functionality/selecting%}) and __AutoPostBack__ is setto __true__. It allows the developer to obtain a list of the selected tiles in order to use that information.An example is available in the[Selection online demo](http://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx).
+The **SelectionChanged** server-side event is fired when a new[tile is selected]({%slug tilelist/functionality/selecting%}) and **AutoPostBack** is setto **true**. It allows the developer to obtain a list of the selected tiles in order to use that information.An example is available in the[Selection online demo](http://demos.telerik.com/aspnet-ajax/TileList/Examples/selecting/defaultcs.aspx).
 
-The event handler receives two arguments - of type __object__ that is a reference to theRadTileList control that fired the event and can be cast to it, and a __System.EventArgs__object.
+The event handler receives two arguments - of type **object** that is a reference to theRadTileList control that fired the event and can be cast to it, and a **System.EventArgs**object.
 
 >tip The API of the[RadTileList object]({%slug tilelist/server-side-programming/tilelist-object%})itself is used to obtain the tiles selection, so this can be done in any other event.	The OnSelectionChanged event only provides an immediate event that can be used by the developer.
 >

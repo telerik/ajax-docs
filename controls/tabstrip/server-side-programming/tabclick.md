@@ -1,6 +1,6 @@
 ---
 title: TabClick
-page_title: TabClick | UI for ASP.NET AJAX Documentation
+page_title: TabClick | RadTabStrip for ASP.NET AJAX Documentation
 description: TabClick
 slug: tabstrip/server-side-programming/tabclick
 tags: tabclick
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-The server-side __TabClick__ event occurs when the user clicks on a tab, causing a postback.
+The server-side **TabClick** event occurs when the user clicks on a tab, causing a postback.
 
-The __TabClick__ event handler receives two arguments:
+The **TabClick** event handler receives two arguments:
 
-1. The __RadTabStrip__ that contains the clicked tab. This argument is of type object, but can be cast to the __RadTabStrip__ type.
+1. The **RadTabStrip** that contains the clicked tab. This argument is of type object, but can be cast to the **RadTabStrip** type.
 
-1. A __RadTabStripEventArgs__ object. This object has a __Tab__property that you can use to access the tab that was clicked.
+1. A **RadTabStripEventArgs** object. This object has a **Tab**property that you can use to access the tab that was clicked.
 
-Use the __TabClick__ event handler to respond when the user clicks a tab in the tab strip:
+Use the **TabClick** event handler to respond when the user clicks a tab in the tab strip:
 
 
 

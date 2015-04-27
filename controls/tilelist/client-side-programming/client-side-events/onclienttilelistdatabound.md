@@ -1,6 +1,6 @@
 ---
 title: OnClientTileListDataBound
-page_title: OnClientTileListDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileListDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileListDataBound
 slug: tilelist/client-side-programming/client-side-events/onclienttilelistdatabound
 tags: onclienttilelistdatabound
@@ -12,17 +12,17 @@ position: 10
 
 
 
-This article provides information about the __OnClientTileListDataBound__ event.
+This article provides information about the **OnClientTileListDataBound** event.
 
 ## 
 
-The __OnClientTileListDataBound__ event is raised when the TileList data binding is finished.
+The **OnClientTileListDataBound** event is raised when the TileList data binding is finished.
 
 The event handler receives one arguments - the [RadTileList object]({%slug tilelist/client-side-programming/tilelist-object%}) that fired the event.
 
-__Example 1__ demonstrates how to attach a handler to the __OnClientTileListDataBound__	event and use it for custom client-side logic upon application requirements.
+**Example 1** demonstrates how to attach a handler to the **OnClientTileListDataBound**	event and use it for custom client-side logic upon application requirements.
 
-__Example 1__: Using __OnClientTileListDataBound__ event.
+**Example 1**: Using **OnClientTileListDataBound** event.
 
 ````ASPNET
 			<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="8" AllowPaging="true">

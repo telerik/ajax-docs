@@ -1,6 +1,6 @@
 ---
 title: ContentTemplate Tile
-page_title: ContentTemplate Tile | UI for ASP.NET AJAX Documentation
+page_title: ContentTemplate Tile | RadTileList for ASP.NET AJAX Documentation
 description: ContentTemplate Tile
 slug: tilelist/tiles/contenttemplate-tile
 tags: contenttemplate,tile
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-The __RadContentTemplateTile__ is a tile that allows the developer to set any content in the primary content of the tileas well as in the [Peek template]({%slug tilelist/tiles/peek-template%}).This is done by using the __ContentTemplate__ inner tag in the markup and controls can be added programmaticallyin the code-behind to the tile's __ContentContainer__.
+The **RadContentTemplateTile** is a tile that allows the developer to set any content in the primary content of the tileas well as in the [Peek template]({%slug tilelist/tiles/peek-template%}).This is done by using the **ContentTemplate** inner tag in the markup and controls can be added programmaticallyin the code-behind to the tile's **ContentContainer**.
 
 >note The examples below show specific functionality for the given tile type, for more infomration on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 >
 
 
-The following example shows a simple declaration of a __RadContentTemplateTile__ and how to access both the tile itself,and the controls inside:
+The following example shows a simple declaration of a **RadContentTemplateTile** and how to access both the tile itself,and the controls inside:
 
-__RadTileList__ example:
+**RadTileList** example:
 
 
 
@@ -76,7 +76,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 
 

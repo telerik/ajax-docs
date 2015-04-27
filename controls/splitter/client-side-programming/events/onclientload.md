@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: splitter/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,21 +14,21 @@ position: 1
 
 ## 
 
->caution  __OnClientLoaded__ Client-side event has been deprecated. Please, use the[OnClientLoad]({%slug splitter/client-side-programming/events/onclientexpanding%})instead.
+>caution  **OnClientLoaded** Client-side event has been deprecated. Please, use the[OnClientLoad]({%slug splitter/client-side-programming/events/onclientexpanding%})instead.
 >
 
 
-The __OnClientLoad__ client-side event handler is called when a __RadSplitter__ or __RadSlidingZone__ control is loaded on the client.
+The **OnClientLoad** client-side event handler is called when a **RadSplitter** or **RadSlidingZone** control is loaded on the client.
 
->note The __OnClientLoad__ event is supported by __RadSplitter__ and __RadSlidingZone__ .
+>note The **OnClientLoad** event is supported by **RadSplitter** and **RadSlidingZone** .
 >
 
 
 One parameters is passed to the event handler:
 
-* __sender__ is the __RadSplitter__ or __RadSlidingZone__ that has just been loaded.
+* **sender** is the **RadSplitter** or **RadSlidingZone** that has just been loaded.
 
-The following example uses the __OnClientLoad__ event to set the height of a splitter:
+The following example uses the **OnClientLoad** event to set the height of a splitter:
 
 ````ASPNET
 	     
@@ -55,7 +55,7 @@ The following example uses the __OnClientLoad__ event to set the height of a spl
 
 
 
-__OnClientLoad__
+**OnClientLoad**
 
 ````ASPNET
 	     

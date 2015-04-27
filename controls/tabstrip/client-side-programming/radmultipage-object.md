@@ -1,6 +1,6 @@
 ---
 title: RadMultiPage Object
-page_title: RadMultiPage Object | UI for ASP.NET AJAX Documentation
+page_title: RadMultiPage Object | RadTabStrip for ASP.NET AJAX Documentation
 description: RadMultiPage Object
 slug: tabstrip/client-side-programming/radmultipage-object
 tags: radmultipage,object
@@ -12,7 +12,7 @@ position: 5
 
 
 
-Telerik RadMultiPage exposes a client-side API to manage the switching of the pages. The client-side __RadMultiPage__ object has a method named __get_pageViews__, which returns a RadPageViewCollection of all pageviews contained within the multipage.
+Telerik RadMultiPage exposes a client-side API to manage the switching of the pages. The client-side **RadMultiPage** object has a method named **get_pageViews**, which returns a RadPageViewCollection of all pageviews contained within the multipage.
 
 
 
@@ -25,9 +25,9 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_visible__ |none|Boolean|Returns true if the multipage is visible.|
+| **get_visible** |none|Boolean|Returns true if the multipage is visible.|
 
 ````JavaScript
 	
@@ -48,7 +48,7 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __set_visible__  | Boolean | none | Shows/Hides the multipage. |
+|  **set_visible**  | Boolean | none | Shows/Hides the multipage. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -70,7 +70,7 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __get_selectedPageView__  | none | RadPageView | Returns the currently selected pageview. |
+|  **get_selectedPageView**  | none | RadPageView | Returns the currently selected pageview. |
 | ------ | ------ | ------ | ------ |
 
 ````XML
@@ -89,7 +89,7 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __get_pageViews__  | none | RadPageViewCollection | Returns a collection of all pageviews. |
+|  **get_pageViews**  | none | RadPageViewCollection | Returns a collection of all pageviews. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -108,7 +108,7 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __findPageViewByID__  | String | RadMultiPage | Gets the first RadMultiPage instance, whose id corresponds to the passed parameter. |
+|  **findPageViewByID**  | String | RadMultiPage | Gets the first RadMultiPage instance, whose id corresponds to the passed parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -125,7 +125,7 @@ Telerik RadMultiPage exposes a client-side API to manage the switching of the pa
 
 >caption  
 
-|  __get_selectedIndex__  | none | Integer | Returns the index of the selected pageview. |
+|  **get_selectedIndex**  | none | Integer | Returns the index of the selected pageview. |
 | ------ | ------ | ------ | ------ |
-| __set_selectedIndex__ |Integer|none|Sets the SelectedIndex of the multipage.|
-| __get_element__ |none|HTML Element|Gets the DOM element for the multipage.|
+| **set_selectedIndex** |Integer|none|Sets the SelectedIndex of the multipage.|
+| **get_element** |none|HTML Element|Gets the DOM element for the multipage.|

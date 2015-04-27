@@ -1,6 +1,6 @@
 ---
 title: RadTabStrip Object
-page_title: RadTabStrip Object | UI for ASP.NET AJAX Documentation
+page_title: RadTabStrip Object | RadTabStrip for ASP.NET AJAX Documentation
 description: RadTabStrip Object
 slug: tabstrip/client-side-programming/radtabstrip-object
 tags: radtabstrip,object
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-The table below lists the most important methods of the client-side __RadTabStrip__ object. Many significant methods for performing common tasks such as adding, inserting and removing tabs are actually performed using the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}).
+The table below lists the most important methods of the client-side **RadTabStrip** object. Many significant methods for performing common tasks such as adding, inserting and removing tabs are actually performed using the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}).
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __trackChanges__ |none|none|Begins tracking changes to the tabs. Only changes to the tabs that occur between a call to __trackChanges__ and __commitChanges__ persist after a postback.|
-| __commitChanges__ |none|none|Ends tracking changes to the tabs. Only changes to the tabs that occur between a call to __trackChanges__ and __commitChanges__ persist after a postback.|
+| **trackChanges** |none|none|Begins tracking changes to the tabs. Only changes to the tabs that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
+| **commitChanges** |none|none|Ends tracking changes to the tabs. Only changes to the tabs that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
 
 Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug tabstrip/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 
@@ -43,7 +43,7 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __disable/set_enabled(false)__  | none | none | Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened. |
+|  **disable/set_enabled(false)**  | none | none | Disables all tabs in the tab strip. Clicking on any tab has no effect, child tabs cannot be opened. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -61,7 +61,7 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __enable/set_enabled(true)__  | none | none | Enables all tabs in the tab strip. |
+|  **enable/set_enabled(true)**  | none | none | Enables all tabs in the tab strip. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -80,15 +80,15 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __get_enabled__  | none | boolean | True if the tab strip is enabled. To enable a tab strip, use the enable() or set_enabled(true) methods. |
+|  **get_enabled**  | none | boolean | True if the tab strip is enabled. To enable a tab strip, use the enable() or set_enabled(true) methods. |
 | ------ | ------ | ------ | ------ |
-| __findTabByValue__ |(string value)|RadTab|Returns the first __RadTab__ object whose __Value__ property is equal to the passed parameter.|
-| __findTabByText__ |(string text)|RadTab|Returns the first __RadTab__ object whose __Text__ property is equal to the passed parameter.|
-| __findTabByUrl__ |(string URL)|RadTab|Returns the first __RadTab__ object whose __NavigateUrl__ property is equal to the passed parameter.|
-| __findTabByAbsoluteUrl__ |(string URL)|RadTab|Returns the first __RadTab__ object whose __NavigateUrl__ property is equal to the passed parameter. Note that the parameter should ends with '/' like:var item = sender.findTabByAbsoluteUrl('http://www.test.com/');|
-| __findTabByAttribute__ |(string attributeName, string value)|RadTab|Returns the first __RadTab__ object with a custom attribute of the specified name that has the specified value.|
-| __repaint__ |none|none|Redraws the RadTabStrip control|
-| __get_tabs__ |none|RadTabCollection|Returns the collection of root level tabs.|
+| **findTabByValue** |(string value)|RadTab|Returns the first **RadTab** object whose **Value** property is equal to the passed parameter.|
+| **findTabByText** |(string text)|RadTab|Returns the first **RadTab** object whose **Text** property is equal to the passed parameter.|
+| **findTabByUrl** |(string URL)|RadTab|Returns the first **RadTab** object whose **NavigateUrl** property is equal to the passed parameter.|
+| **findTabByAbsoluteUrl** |(string URL)|RadTab|Returns the first **RadTab** object whose **NavigateUrl** property is equal to the passed parameter. Note that the parameter should ends with '/' like:var item = sender.findTabByAbsoluteUrl('http://www.test.com/');|
+| **findTabByAttribute** |(string attributeName, string value)|RadTab|Returns the first **RadTab** object with a custom attribute of the specified name that has the specified value.|
+| **repaint** |none|none|Redraws the RadTabStrip control|
+| **get_tabs** |none|RadTabCollection|Returns the collection of root level tabs.|
 
 ````JavaScript
 	     
@@ -110,7 +110,7 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __get_allTabs__  | none | Array | Gets a linear collection of all tabs. This includes all root and child tabs in the tab strip. |
+|  **get_allTabs**  | none | Array | Gets a linear collection of all tabs. This includes all root and child tabs in the tab strip. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -131,12 +131,12 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __get_selectedTab__  | none | RadTab | Returns the root level selected tab. Null if no root tab has been selected. |
+|  **get_selectedTab**  | none | RadTab | Returns the root level selected tab. Null if no root tab has been selected. |
 | ------ | ------ | ------ | ------ |
-| __get_multiPageID__ |none|String|Returns the value of __MultiPageID__ property, if any.|
-| __set_multiPageID__ |String|none|Returns __true__ if the tab is visible or __false__ otherwise.|
-| __get_attributes__ |none|Collection|Returns the collection of custom attributes for the tab strip.|
-| __get_element__ |none|HTML Element|Gets the DOM element for the tab strip.|
+| **get_multiPageID** |none|String|Returns the value of **MultiPageID** property, if any.|
+| **set_multiPageID** |String|none|Returns **true** if the tab is visible or **false** otherwise.|
+| **get_attributes** |none|Collection|Returns the collection of custom attributes for the tab strip.|
+| **get_element** |none|HTML Element|Gets the DOM element for the tab strip.|
 
 ````JavaScript
 	     
@@ -161,11 +161,11 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __get_childListElement__  | none | HTML Element | Gets the DOM element for the list of tabs in the tab strip. |
+|  **get_childListElement**  | none | HTML Element | Gets the DOM element for the list of tabs in the tab strip. |
 | ------ | ------ | ------ | ------ |
-| __get_validationGroup__ |none|String|Gets the name of the validation group to be used for the integrated validation controls.|
-| __set_validationGroup__ |String|none|Sets the name of the validation group to be used for the integrated validation controls.|
-| __add_<EventName>__ |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name <EventName>. Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}).|
+| **get_validationGroup** |none|String|Gets the name of the validation group to be used for the integrated validation controls.|
+| **set_validationGroup** |String|none|Sets the name of the validation group to be used for the integrated validation controls.|
+| **add_<EventName>** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name <EventName>. Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}).|
 
 ````JavaScript
 	     
@@ -185,7 +185,7 @@ Client side changes are available on the server side after postback. You can use
 
 >caption  
 
-|  __remove_<EventName>__  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name <EventName>.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}). |
+|  **remove_<EventName>**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name <EventName>.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

@@ -1,6 +1,6 @@
 ---
 title: OnClientDataLoading
-page_title: OnClientDataLoading | UI for ASP.NET AJAX Documentation
+page_title: OnClientDataLoading | RadTileList for ASP.NET AJAX Documentation
 description: OnClientDataLoading
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading
 tags: onclientdataloading
@@ -14,23 +14,23 @@ position: 1
 
 ## 
 
-The __OnClientDataLoading__ event is fired by the __RadLiveTile__ when its data request is about to beinitiated. You can cancel it to prevent the request. The __Value__ the tile passes to the service can also be changed here.
+The **OnClientDataLoading** event is fired by the **RadLiveTile** when its data request is about to beinitiated. You can cancel it to prevent the request. The **Value** the tile passes to the service can also be changed here.
 
 The event handler receives two arguments:
 
-1. The __RadLiveTile__ that fired the event
+1. The **RadLiveTile** that fired the event
 
 1. An event arguments object that exposes the following members:
 
 
 >caption OnClientDataLoading event arguments object members
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_cancel()__ |bool||Returns a flag that indicates whether the request will be canceled.|
-| __get_value()__ |string / object||Returns the Value property of the LiveTile that will be sent to the service. It could have been changed through	the *set_value()* method.|
-| __set_cancel()__ ||bool|Sets a flag that indicates whether the request will be canceled.	If *true* is passed the request will not be performed.|
-| __set_value()__ ||string / object|Sets a new string that will be passed as an argument to the service.For OData services this is a complex object that can be used to pass/edit information about the datasource, e.g. add a filter. In this case	the Value object exposes the arguments of the[Requesting client-side event](4434b90a-8b61-4cbf-b1e6-cc62cae29812)of the __RadODataDataSource__ control.	This means it is also possible to directly filter the datasource control in its own event. An example of this is available in the[Loading Data]({%slug tilelist/tiles/live-tile/loading-data%})article.
+| **get_cancel()** |bool||Returns a flag that indicates whether the request will be canceled.|
+| **get_value()** |string / object||Returns the Value property of the LiveTile that will be sent to the service. It could have been changed through	the *set_value()* method.|
+| **set_cancel()** ||bool|Sets a flag that indicates whether the request will be canceled.	If *true* is passed the request will not be performed.|
+| **set_value()** ||string / object|Sets a new string that will be passed as an argument to the service.For OData services this is a complex object that can be used to pass/edit information about the datasource, e.g. add a filter. In this case	the Value object exposes the arguments of the[Requesting client-side event](4434b90a-8b61-4cbf-b1e6-cc62cae29812)of the **RadODataDataSource** control.	This means it is also possible to directly filter the datasource control in its own event. An example of this is available in the[Loading Data]({%slug tilelist/tiles/live-tile/loading-data%})article.
 
 ````JavaScript
 		<script type="text/javascript">

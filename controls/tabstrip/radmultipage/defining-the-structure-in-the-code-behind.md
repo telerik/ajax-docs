@@ -1,6 +1,6 @@
 ---
 title: Defining the Structure in the Code-Behind
-page_title: Defining the Structure in the Code-Behind | UI for ASP.NET AJAX Documentation
+page_title: Defining the Structure in the Code-Behind | RadTabStrip for ASP.NET AJAX Documentation
 description: Defining the Structure in the Code-Behind
 slug: tabstrip/radmultipage/defining-the-structure-in-the-code-behind
 tags: defining,the,structure,in,the,code-behind
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-__RadMultiPage__ can be easily created dynamically(in the codebehind).
+**RadMultiPage** can be easily created dynamically(in the codebehind).
 
->note The __PageViewCreated__ event is fired for each page view added to the __RadPageViewCollection__ of the __RadMultiPage__ . The __PageViewCreated__ event fires on every postback. This is the best place to add controls to the Controls collections of the page views.
+>note The **PageViewCreated** event is fired for each page view added to the **RadPageViewCollection** of the **RadMultiPage** . The **PageViewCreated** event fires on every postback. This is the best place to add controls to the Controls collections of the page views.
 >
 
 
->caution The __ID__ s of controls that are added to the __Controls__ collection of page views should be set on each postback to the same value. Otherwise, different IDs will be set to these controls on each postback and this can lead to ViewState problems.
+>caution The **ID** s of controls that are added to the **Controls** collection of page views should be set on each postback to the same value. Otherwise, different IDs will be set to these controls on each postback and this can lead to ViewState problems.
 >
 
 
@@ -88,4 +88,4 @@ __RadMultiPage__ can be easily created dynamically(in the codebehind).
 ````
 
 
-__See__ a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/dynamicpageview/defaultcs.aspx)
+**See** a live example at: [Dynamic RadPageView](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/dynamicpageview/defaultcs.aspx)

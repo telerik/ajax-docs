@@ -1,6 +1,6 @@
 ---
 title: OnClientCollapsing
-page_title: OnClientCollapsing | UI for ASP.NET AJAX Documentation
+page_title: OnClientCollapsing | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientCollapsing
 slug: splitter/client-side-programming/events/onclientcollapsing
 tags: onclientcollapsing
@@ -14,23 +14,23 @@ position: 7
 
 ## 
 
-The __OnClientCollapsing__ Client-Side event handler is called when a pane is about to be collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a call to a client-side method.
+The **OnClientCollapsing** Client-Side event handler is called when a pane is about to be collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a call to a client-side method.
 
->note The __OnClientCollapsing__ event is supported by __RadPane__ and __RadSlidingPane__ . It takes the place of the depricated OnClientBeforeCollapse event.
+>note The **OnClientCollapsing** event is supported by **RadPane** and **RadSlidingPane** . It takes the place of the depricated OnClientBeforeCollapse event.
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be collapsed.
+* **sender** is the pane that is about to be collapsed.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being collapsed.
+* **set_cancel()** lets you prevent the pane from being collapsed.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientCollapsing__ event to show a confirmation dialog:
+The following example uses the **OnClientCollapsing** event to show a confirmation dialog:
 
 ````ASPNET
 	     

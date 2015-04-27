@@ -1,6 +1,6 @@
 ---
 title: OnClientTileDragStart
-page_title: OnClientTileDragStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileDragStart | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileDragStart
 slug: tilelist/client-side-programming/client-side-events/onclienttiledragstart
 tags: onclienttiledragstart
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientTileDragStart__ event is raised when the user starts dragging a[tile]({%slug tilelist/tiles/overview%}). It is the first event related to draggingthat is fired and can be cancelled. If it is cancelled no other dragging-related event will be fired.
+The **OnClientTileDragStart** event is raised when the user starts dragging a[tile]({%slug tilelist/tiles/overview%}). It is the first event related to draggingthat is fired and can be cancelled. If it is cancelled no other dragging-related event will be fired.
 
 This event can be used to check for a certain condition and prevent drag and drop. For example, the developermay want only certain tiles to be draggable, so this event can be cancelled for the rest.
 
@@ -27,7 +27,7 @@ The event handler receives two arguments:
 
 >caption OnClientTileDragStart event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_tile()|[RadBaseTile client-side object]({%slug tilelist/tiles/client-side-programming/basetile-object%})||Gets a reference to the tile that is clicked.|

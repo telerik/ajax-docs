@@ -1,6 +1,6 @@
 ---
 title: Properties Enumerators
-page_title: Properties Enumerators | UI for ASP.NET AJAX Documentation
+page_title: Properties Enumerators | RadSocialShare for ASP.NET AJAX Documentation
 description: Properties Enumerators
 slug: socialshare/server-side-programming/properties-enumerators
 tags: properties,enumerators
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-This is a list with the enumerators different properties of the __RadSocialShare__ and its buttons have:
+This is a list with the enumerators different properties of the **RadSocialShare** and its buttons have:
 
-* __Orientation__ main property
+* **Orientation** main property
 
 * Horizontal - the control's buttons are ordered horizontally
 
 * Vertical - the control's buttons are ordered vertically
 
-* __SocialNetType__ property of the RadSocialButton
+* **SocialNetType** property of the RadSocialButton
 
 * ShareOnTwitter - a Styled button for[www.Twitter.com](http://www.Twitter.com/)
 
@@ -76,7 +76,7 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * Pinterest - a Standard PinIt Button for[www.pinterest.com](http://www.pinterest.com/)
 
-* __ButtonType__ property of the:
+* **ButtonType** property of the:
 
 * Facebook Standard button
 
@@ -102,7 +102,7 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * PinPageImage - This is the popular Pinterest Pin it bookmarklet. It creates a Pin button that letsyou grab images and videos from the current site and add them to your Pinterest boards.
 
-* __ButtonLayout__ property of the Facebook Standard button
+* **ButtonLayout** property of the Facebook Standard button
 
 * Standard - displays social text to the right of the button and friends' profile photos below. Minimum width: 225 pixels.Default width: 450 pixels. Height: 35 pixels (without photos) or 80 pixels (with photos).
 
@@ -114,13 +114,13 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * ButtonCount - displays the total number of likes to the right of the button. Minimum width: 90 pixels. Default width: 90 pixels. Height: 20 pixels
 
-* __ColorScheme__ property of the Facebook Standard button
+* **ColorScheme** property of the Facebook Standard button
 
 * Light
 
 * Dark
 
-* __Font__ property of the Facebook Standard button
+* **Font** property of the Facebook Standard button
 
 * Arial
 
@@ -134,7 +134,7 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * Verdana
 
-* __ButtonSize__ property of the Google Standard button
+* **ButtonSize** property of the Google Standard button
 
 * Small
 
@@ -144,7 +144,7 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * Tall
 
-* __AnnotationType__ property of the Google Standard button
+* **AnnotationType** property of the Google Standard button
 
 * None - do not render any additional annotations
 
@@ -152,7 +152,7 @@ This is a list with the enumerators different properties of the __RadSocialShare
 
 * Inline - display profile pictures of connected users who have +1'd the page and a count of users who have +1'd the page
 
-* __CounterMode__ property for the Twitter, LinkedIn or Pinterest Standard buttons
+* **CounterMode** property for the Twitter, LinkedIn or Pinterest Standard buttons
 
 * None - no counter is displayed
 

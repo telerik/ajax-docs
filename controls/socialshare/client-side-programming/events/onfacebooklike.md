@@ -1,6 +1,6 @@
 ---
 title: OnFacebookLike
-page_title: OnFacebookLike | UI for ASP.NET AJAX Documentation
+page_title: OnFacebookLike | RadSocialShare for ASP.NET AJAX Documentation
 description: OnFacebookLike
 slug: socialshare/client-side-programming/events/onfacebooklike
 tags: onfacebooklike
@@ -14,11 +14,11 @@ position: 1
 
 ## 
 
-__OnFacebookLike__ - fires when the Facebook Like button is clicked.
+**OnFacebookLike** - fires when the Facebook Like button is clicked.
 
 The event handler receives two parameters:
 
-1. sender - the __RadSocialShare__ instance that fired the event.
+1. sender - the **RadSocialShare** instance that fired the event.
 
 1. eventArgs - event arguments. It exposes the get_url() method that returns the shared URL.
 

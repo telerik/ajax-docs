@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadTabStrip for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: tabstrip/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-If your __RadTabStrip__has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the __RadTab__that has the template, and use its __FindControl__ method.
+If your **RadTabStrip**has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **RadTab**that has the template, and use its **FindControl** method.
 
 For example, consider the following, very simple, tab strip:
 
@@ -43,11 +43,9 @@ For example, consider the following, very simple, tab strip:
 
 
 
-____
+* **Server-side access**
 
-* __Server-side access__
-
-The __TabClick__ event handler uses the __FindControl__ method to locate the __CheckBox__ in the template, so that it can be synchronized with the Selected property:
+The **TabClick** event handler uses the **FindControl** method to locate the **CheckBox** in the template, so that it can be synchronized with the Selected property:
 
 
 
@@ -92,9 +90,9 @@ The __TabClick__ event handler uses the __FindControl__ method to locate the __C
 ````
 
 
-* __Client-side access__
+* **Client-side access**
 
-The client-side __findControl__ method can be used to find an embedded Control's client-side object. For example, if there is a RadToolBar instead of a CheckBox in the example above, the client-side object of the ToolBar can be obtained, like this:
+The client-side **findControl** method can be used to find an embedded Control's client-side object. For example, if there is a RadToolBar instead of a CheckBox in the example above, the client-side object of the ToolBar can be obtained, like this:
 
 ````JavaScript
 	    var tabStrip = $find("<%= RadTabStrip1.ClientID %>;");

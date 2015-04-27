@@ -1,6 +1,6 @@
 ---
 title: OnClientDialogClosing
-page_title: OnClientDialogClosing | UI for ASP.NET AJAX Documentation
+page_title: OnClientDialogClosing | RadSpell for ASP.NET AJAX Documentation
 description: OnClientDialogClosing
 slug: spell/client-side-programming/events/onclientdialogclosing
 tags: onclientdialogclosing
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientDialogClosing__client-side event occurs just before the spell check dialog closes. The event handler receives parameters:
+The **OnClientDialogClosing**client-side event occurs just before the spell check dialog closes. The event handler receives parameters:
 
 1. The spell checker instance that fired the event.
 

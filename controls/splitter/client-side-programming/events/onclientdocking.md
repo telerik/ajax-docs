@@ -1,6 +1,6 @@
 ---
 title: OnClientDocking
-page_title: OnClientDocking | UI for ASP.NET AJAX Documentation
+page_title: OnClientDocking | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientDocking
 slug: splitter/client-side-programming/events/onclientdocking
 tags: onclientdocking
@@ -14,23 +14,23 @@ position: 13
 
 ## 
 
-The __OnClientDocking__ client-side event handler is called when a sliding pane is about to be docked. The event can occur because the user clicks on the dock button, on page load, or as the result of a a call to a client-side method.
+The **OnClientDocking** client-side event handler is called when a sliding pane is about to be docked. The event can occur because the user clicks on the dock button, on page load, or as the result of a a call to a client-side method.
 
->note The __OnClientDocking__ event is supported by __RadSlidingPane__ . It takes the place of the depricated OnClientBeforeDock event.
+>note The **OnClientDocking** event is supported by **RadSlidingPane** . It takes the place of the depricated OnClientBeforeDock event.
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be docked.
+* **sender** is the pane that is about to be docked.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being docked.
+* **set_cancel()** lets you prevent the pane from being docked.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientDocking__ event to show a confirmation dialog:
+The following example uses the **OnClientDocking** event to show a confirmation dialog:
 
 ````ASPNET
 	     

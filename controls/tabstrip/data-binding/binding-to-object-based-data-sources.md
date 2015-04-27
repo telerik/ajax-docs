@@ -1,6 +1,6 @@
 ---
 title: Binding to Object-Based Data Sources
-page_title: Binding to Object-Based Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Binding to Object-Based Data Sources | RadTabStrip for ASP.NET AJAX Documentation
 description: Binding to Object-Based Data Sources
 slug: tabstrip/data-binding/binding-to-object-based-data-sources
 tags: binding,to,object-based,data,sources
@@ -12,7 +12,7 @@ position: 1
 
 
 
-You can bind __RadTabStrip__ to an object-based data source such as __ObjectDataSource__, __LinqDataSource__ or any class that implements the __IEnumerable__ interface.
+You can bind **RadTabStrip** to an object-based data source such as **ObjectDataSource**, **LinqDataSource** or any class that implements the **IEnumerable** interface.
 
 ## Binding to ObjectDataSource
 
@@ -20,26 +20,26 @@ You can bind __RadTabStrip__ to an object-based data source such as __ObjectData
 >
 
 
-When using __ObjectDataSource__, you can bind __RadTabStrip__ declaratively at design time. The __SelectMethod__ of the __ObjectDataSource__ should return an object that supports the __IEnumerable__ or __ICollection__ interface. Such collections include __Array__, __ArrayList__, and __List<type>__.
+When using **ObjectDataSource**, you can bind **RadTabStrip** declaratively at design time. The **SelectMethod** of the **ObjectDataSource** should return an object that supports the **IEnumerable** or **ICollection** interface. Such collections include **Array**, **ArrayList**, and **List<type>**.
 
-If the __SelectMethod__ returns a collection of strings, those strings are automatically mapped to the __Text__ property of the respective tabs. If the collection contains objects (as opposed to string values), you can use the __DataTextField__, __DataNavigateUrlField__, and the __DataValueField__ properties to map a property from the object directly to the __Text__, __NavigateUrl__ and __Value__ properties of __RadTab__. If the __DataFieldID__ and __DataFieldParentID__ properties are set, RadTabStrip will create a hierarchy of Tabs, determining the Root ones using the following algorithm:
+If the **SelectMethod** returns a collection of strings, those strings are automatically mapped to the **Text** property of the respective tabs. If the collection contains objects (as opposed to string values), you can use the **DataTextField**, **DataNavigateUrlField**, and the **DataValueField** properties to map a property from the object directly to the **Text**, **NavigateUrl** and **Value** properties of **RadTab**. If the **DataFieldID** and **DataFieldParentID** properties are set, RadTabStrip will create a hierarchy of Tabs, determining the Root ones using the following algorithm:
 
->tip - their __DataFieldParentID__ property must be __null__ if it is of nullable (e.g. __int?__ ) or reference (e.g. __string__ ) type.
+>tip - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 (null)
 >2 1
->- their __DataFieldParentID__ property must return the __default value__ if it is value type (e.g. __0__ for __int__ , __Guid.Empty__ for __Guid__ ).
+>- their **DataFieldParentID** property must return the **default value** if it is value type (e.g. **0** for **int** , **Guid.Empty** for **Guid** ).
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 0
 >2 1
 >
 
 
-To map additional properties from the object to other properties of the respective tab, use an __[TabDataBound event handler]({%slug tabstrip/server-side-programming/tabdatabound%})__. The event arguments passed to the event, __e.Tab__ and __e.Tab.DataItem__, hold the instance of the tab being bound and the __DataItem__ associated with the tab. You can map a property from the __DataItem__ to the property of the __RadTab__ class (make sure to cast the __DataItem__ object to your respective data type first).
+To map additional properties from the object to other properties of the respective tab, use an **[TabDataBound event handler]({%slug tabstrip/server-side-programming/tabdatabound%})**. The event arguments passed to the event, **e.Tab** and **e.Tab.DataItem**, hold the instance of the tab being bound and the **DataItem** associated with the tab. You can map a property from the **DataItem** to the property of the **RadTab** class (make sure to cast the **DataItem** object to your respective data type first).
 
-The following example shows a __RadTabStrip__ bound declaratively to an __ObjectDataSource__:
+The following example shows a **RadTabStrip** bound declaratively to an **ObjectDataSource**:
 
 ````ASPNET
 	<telerik:RadTabStrip
@@ -57,7 +57,7 @@ The following example shows a __RadTabStrip__ bound declaratively to an __Object
 
 
 
-The __ObjectDataSource__ component is configured to use the __SiteDataItem__ business object. The __SiteDataItem__ class is defined below:
+The **ObjectDataSource** component is configured to use the **SiteDataItem** business object. The **SiteDataItem** class is defined below:
 
 
 
@@ -182,19 +182,19 @@ The __ObjectDataSource__ component is configured to use the __SiteDataItem__ bus
 >
 
 
-Instead of going through an __ObjectDataSource__, you can bind __RadTabStrip__ directly to any collection that implements the __ICollection__ or __IEnumerable__ interface.Mapping properties of the objects in the collection to properties of the tabs works exactly the same way as when using __ObjectDataSource__.
+Instead of going through an **ObjectDataSource**, you can bind **RadTabStrip** directly to any collection that implements the **ICollection** or **IEnumerable** interface.Mapping properties of the objects in the collection to properties of the tabs works exactly the same way as when using **ObjectDataSource**.
 
 To bind directly to a collection, you must bind the tabstrip at runtime, using the following steps:
 
 1. Create the collection.
 
-1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that provide data for the various properties of __RadTab__ and/or for the __ID__ -> __ParentID__ relationship.
+1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that provide data for the various properties of **RadTab** and/or for the **ID** -> **ParentID** relationship.
 
-1. Set the __DataSource__ property of __RadTabStrip__ to the instance of the collection.
+1. Set the **DataSource** property of **RadTabStrip** to the instance of the collection.
 
-1. Call the __DataBind__ method.
+1. Call the **DataBind** method.
 
-The following example shows a tabstrip bound to an __ArrayList__. The list contains __SiteDataItem__ objects with the same definition as in the __ObjectDataSource__ example, only that their __ParentID__ property is of nullable type - __int?__:
+The following example shows a tabstrip bound to an **ArrayList**. The list contains **SiteDataItem** objects with the same definition as in the **ObjectDataSource** example, only that their **ParentID** property is of nullable type - **int?**:
 
 
 

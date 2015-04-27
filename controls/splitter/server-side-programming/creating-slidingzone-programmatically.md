@@ -1,6 +1,6 @@
 ---
 title: Creating SlidingZone Programmatically
-page_title: Creating SlidingZone Programmatically | UI for ASP.NET AJAX Documentation
+page_title: Creating SlidingZone Programmatically | RadSplitter for ASP.NET AJAX Documentation
 description: Creating SlidingZone Programmatically
 slug: splitter/server-side-programming/creating-slidingzone-programmatically
 tags: creating,slidingzone,programmatically
@@ -12,9 +12,9 @@ position: 1
 
 
 
-You can create sliding panes dynamically in server-side code. To do this, you need to create __RadSlidingZone__ controls and add them to the __Controls__ collection of existing __RadPane__ controls. Then create __RadSlidingPane__ controls and add them to the __Items__ collections of the __RadSlidingZone__ controls.
+You can create sliding panes dynamically in server-side code. To do this, you need to create **RadSlidingZone** controls and add them to the **Controls** collection of existing **RadPane** controls. Then create **RadSlidingPane** controls and add them to the **Items** collections of the **RadSlidingZone** controls.
 
->caution The __Items__ collections do not persist in the ViewState when you create the splitter controls in the code-behind. You need to recreate them on __every__ postback!
+>caution The **Items** collections do not persist in the ViewState when you create the splitter controls in the code-behind. You need to recreate them on **every** postback!
 >
 
 

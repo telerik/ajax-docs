@@ -1,6 +1,6 @@
 ---
 title: Yammer Specifics
-page_title: Yammer Specifics | UI for ASP.NET AJAX Documentation
+page_title: Yammer Specifics | RadSocialShare for ASP.NET AJAX Documentation
 description: Yammer Specifics
 slug: socialshare/troubleshooting/yammer-specifics
 tags: yammer,specifics
@@ -16,9 +16,9 @@ position: 4
 
 The proper functionality of the Yammer buttons requires the following properties of RadSocialShare to be set:
 
-* __YammerAppId__ - This is a global property for the control and its value can be obtained from [https://www.yammer.com/client_applications](https://www.yammer.com/client_applications)
+* **YammerAppId** - This is a global property for the control and its value can be obtained from [https://www.yammer.com/client_applications](https://www.yammer.com/client_applications)
 
-* __YammerNetwork__ - This property is exposed by the standard Yammer button class. Its value is related to your network permalink. More information about getting it is available at [http://developer.yammer.com/connect/](http://developer.yammer.com/connect/)
+* **YammerNetwork** - This property is exposed by the standard Yammer button class. Its value is related to your network permalink. More information about getting it is available at [http://developer.yammer.com/connect/](http://developer.yammer.com/connect/)
 
 ## Known issues
 

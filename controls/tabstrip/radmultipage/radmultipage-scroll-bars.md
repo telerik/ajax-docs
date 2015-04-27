@@ -1,6 +1,6 @@
 ---
 title: RadMultiPage Scroll Bars
-page_title: RadMultiPage Scroll Bars | UI for ASP.NET AJAX Documentation
+page_title: RadMultiPage Scroll Bars | RadTabStrip for ASP.NET AJAX Documentation
 description: RadMultiPage Scroll Bars
 slug: tabstrip/radmultipage/radmultipage-scroll-bars
 tags: radmultipage,scroll,bars
@@ -12,19 +12,19 @@ position: 4
 
 
 
-Set the __ScrollBars__ property of the __RadMultiPage__ control to specify how you want the page views that it contains to handle scrolling:
+Set the **ScrollBars** property of the **RadMultiPage** control to specify how you want the page views that it contains to handle scrolling:
 
-* When __ScrollBars__ is "None" (the default), the page view expands to fit its content.
+* When **ScrollBars** is "None" (the default), the page view expands to fit its content.
 
-* When __ScrollBars__ is "Hidden", the page view clips its content to fit the dimensions of the page.
+* When **ScrollBars** is "Hidden", the page view clips its content to fit the dimensions of the page.
 
-* When __ScrollBars__ is "Both", the page view displays both horizontal and vertical scroll bars. The scroll bars are disabled if the content fits inside the page.
+* When **ScrollBars** is "Both", the page view displays both horizontal and vertical scroll bars. The scroll bars are disabled if the content fits inside the page.
 
-* When __ScrollBars__ is "Horizontal", the page view displays a horizontal scroll bar, but expands vertically to fit the height of its content.
+* When **ScrollBars** is "Horizontal", the page view displays a horizontal scroll bar, but expands vertically to fit the height of its content.
 
-* When __ScrollBars__ is "Vertical", the page view displays a vertical scroll bar, but expands horizontally to fit the width of its content.
+* When **ScrollBars** is "Vertical", the page view displays a vertical scroll bar, but expands horizontally to fit the width of its content.
 
-* When __ScrollBars__ is "Auto" the page view displays scroll bars only when the content exceeds the dimensions of the page.
+* When **ScrollBars** is "Auto" the page view displays scroll bars only when the content exceeds the dimensions of the page.
 
 The following screen shots illustrate some of these options:
 

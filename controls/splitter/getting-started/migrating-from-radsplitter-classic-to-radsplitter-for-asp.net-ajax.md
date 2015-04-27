@@ -1,6 +1,6 @@
 ---
 title: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX
-page_title: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX | RadSplitter for ASP.NET AJAX Documentation
 description: Migrating from RadSplitter Classic to RadSplitter for ASP.NET AJAX
 slug: splitter/getting-started/migrating-from-radsplitter-classic-to-radsplitter-for-asp.net-ajax
 tags: migrating,from,radsplitter,classic,to,radsplitter,for,asp.net,ajax
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-To migrate a Web application from __RadSplitter__ "Classic" to __RadSplitter__ for ASP.NET AJAX you need to follow these steps:
+To migrate a Web application from **RadSplitter** "Classic" to **RadSplitter** for ASP.NET AJAX you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
 
@@ -24,13 +24,13 @@ To migrate a Web application from __RadSplitter__ "Classic" to __RadSplitter__ f
 
 1. Drag and drop a control from the Telerik UI for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic __RadSplitter__ directive
+1. Replace the classic **RadSplitter** directive
 
 ````ASPNET
 	<%@ Register Assembly="RadSplitter.Net2" Namespace="Telerik.WebControls" TagPrefix="RadSpl" %>
 ````
 
-with the new one of __RadSplitter__ for ASP.NET AJAX:
+with the new one of **RadSplitter** for ASP.NET AJAX:
 
 ````ASPNET
 	<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
@@ -38,7 +38,7 @@ with the new one of __RadSplitter__ for ASP.NET AJAX:
 
 
 
-1. Replace the classic __RadSplitter__ controls declarations:
+1. Replace the classic **RadSplitter** controls declarations:
 
 ````ASPNET
 	     
@@ -50,7 +50,7 @@ with the new one of __RadSplitter__ for ASP.NET AJAX:
 				
 ````
 
-with the new __RadSplitter__ declarations:
+with the new **RadSplitter** declarations:
 
 ````ASPNET
 	     

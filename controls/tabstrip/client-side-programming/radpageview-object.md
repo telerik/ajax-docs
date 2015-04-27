@@ -1,6 +1,6 @@
 ---
 title: RadPageView Object
-page_title: RadPageView Object | UI for ASP.NET AJAX Documentation
+page_title: RadPageView Object | RadTabStrip for ASP.NET AJAX Documentation
 description: RadPageView Object
 slug: tabstrip/client-side-programming/radpageview-object
 tags: radpageview,object
@@ -12,7 +12,7 @@ position: 4
 
 
 
-The __RadPageView__object is returned by the __getPageView__ method of the RadPageView collection.
+The **RadPageView**object is returned by the **getPageView** method of the RadPageView collection.
 
 ````JavaScript
 	
@@ -36,15 +36,15 @@ The following table lists the most important methods:
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __select__ |none|none|Selects the pageview.|
-| __unselect__ |none|none|Unselects the pageview.|
-| __get_selected__ |none|Boolean|Returns true if the pageview is selected.|
-| __set_selected__ |Boolean|none|Selects/Unselects the pageview.|
-| __get_multiPage__ |none|RadMultiPage|Gets the MultiPage containing the pageview.|
-| __get_index__ |none|Integer|Returns the index of the pageview.|
-| __get_element__ |none|DOM|Gets the DOM element for the pageview.|
-| __get_id__ |none|Integer|Gets the ID of the pageview.|
-| __show__ |none|none|Shows the pageview.|
-| __hide__ |none|none|Hides the pageview.|
-| __get_contentUrl__ |none|none|Gets the URL of the page that is opened in the pageview.|
-| __set_contentUrl__ |String|none|Sets the URL of the page that is opened in the pageview.|
+| **select** |none|none|Selects the pageview.|
+| **unselect** |none|none|Unselects the pageview.|
+| **get_selected** |none|Boolean|Returns true if the pageview is selected.|
+| **set_selected** |Boolean|none|Selects/Unselects the pageview.|
+| **get_multiPage** |none|RadMultiPage|Gets the MultiPage containing the pageview.|
+| **get_index** |none|Integer|Returns the index of the pageview.|
+| **get_element** |none|DOM|Gets the DOM element for the pageview.|
+| **get_id** |none|Integer|Gets the ID of the pageview.|
+| **show** |none|none|Shows the pageview.|
+| **hide** |none|none|Hides the pageview.|
+| **get_contentUrl** |none|none|Gets the URL of the page that is opened in the pageview.|
+| **set_contentUrl** |String|none|Sets the URL of the page that is opened in the pageview.|

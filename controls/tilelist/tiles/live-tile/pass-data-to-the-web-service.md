@@ -1,6 +1,6 @@
 ---
 title: Pass Data to the Web Service
-page_title: Pass Data to the Web Service | UI for ASP.NET AJAX Documentation
+page_title: Pass Data to the Web Service | RadTileList for ASP.NET AJAX Documentation
 description: Pass Data to the Web Service
 slug: tilelist/tiles/live-tile/pass-data-to-the-web-service
 tags: pass,data,to,the,web,service
@@ -12,15 +12,15 @@ position: 2
 
 
 
-This article explains how to pass information to the web service the __LiveTile__ uses to get its contents. This data	is a string that can be used to identify the request and prepare the response accordingly.
+This article explains how to pass information to the web service the **LiveTile** uses to get its contents. This data	is a string that can be used to identify the request and prepare the response accordingly.
 
-The parameter that is passed to the web service is the __Value__ property of the __LiveTile__. The sections	below explain how to access it in the [different types of services that are supported]({%slug tilelist/tiles/live-tile/loading-data%}).	At the end of the article you can also see how you can change the value dynamically just before the request is performed.
+The parameter that is passed to the web service is the **Value** property of the **LiveTile**. The sections	below explain how to access it in the [different types of services that are supported]({%slug tilelist/tiles/live-tile/loading-data%}).	At the end of the article you can also see how you can change the value dynamically just before the request is performed.
 
 ## Passing Data to a Web Service
 
-The __Value__ property of the __LiveTile__ is passed to the web service method (__Example 1__) and it can be obtained by casting theobject received as an argument, to a Dictionary with a string key called *Value*.
+The **Value** property of the **LiveTile** is passed to the web service method (**Example 1**) and it can be obtained by casting theobject received as an argument, to a Dictionary with a string key called *Value*.
 
-__Example 1: How to access the arguments a web service receives.__
+**Example 1: How to access the arguments a web service receives.**
 
 
 
@@ -110,9 +110,9 @@ __Example 1: How to access the arguments a web service receives.__
 			End Property
 			Private m_Description As String
 	
-			Public Sub New(name__1 As String, description__2 As String)
-				Name = name__1
-				Description = description__2
+			Public Sub New(name**1 As String, description**2 As String)
+				Name = name**1
+				Description = description**2
 			End Sub
 	
 			Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -131,9 +131,9 @@ __Example 1: How to access the arguments a web service receives.__
 
 
 
-This example returns the value that the __LiveTile__ passes, or uses some default setting. By using such logic, you can have several __LiveTiles__ thatrequest similar data use one service and distinguish them by their values. __Example 2__ shows two simple __LiveTiles__ that use the same method and will getdifferent data. They use the simplest template possible. You can find more information on using complex objects in the[Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}).
+This example returns the value that the **LiveTile** passes, or uses some default setting. By using such logic, you can have several **LiveTiles** thatrequest similar data use one service and distinguish them by their values. **Example 2** shows two simple **LiveTiles** that use the same method and will getdifferent data. They use the simplest template possible. You can find more information on using complex objects in the[Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}).
 
-__Example 2: Two simple LiveTiles that request data from the same web service with different arguments.__
+**Example 2: Two simple LiveTiles that request data from the same web service with different arguments.**
 
 ````ASPNET
 				<telerik:RadLiveTile runat="server" ID="RadLiveTile1" Value="first">
@@ -156,9 +156,9 @@ __Example 2: Two simple LiveTiles that request data from the same web service wi
 
 ## Passing Data to a WCF Service
 
-The __Value__ property of the __LiveTile__ is passed to a WCF service wrapped in an object and to access it,you need a strongly-typed object as the argument of the method. __Examples 3-6__ demonstrate a simple __LiveTile__ that requests data:
+The **Value** property of the **LiveTile** is passed to a WCF service wrapped in an object and to access it,you need a strongly-typed object as the argument of the method. **Examples 3-6** demonstrate a simple **LiveTile** that requests data:
 
-__Example 3: A sample WCF class and method that will return information.__
+**Example 3: A sample WCF class and method that will return information.**
 
 
 
@@ -241,9 +241,9 @@ __Example 3: A sample WCF class and method that will return information.__
 			End Property
 			Private m_Description As String
 	
-			Public Sub New(name__1 As String, description__2 As String)
-				Name = name__1
-				Description = description__2
+			Public Sub New(name**1 As String, description**2 As String)
+				Name = name**1
+				Description = description**2
 			End Sub
 	
 			Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -262,7 +262,7 @@ __Example 3: A sample WCF class and method that will return information.__
 
 
 
-__Example 4: The class that is needed to access the value from the LiveTile in a WCF service.__
+**Example 4: The class that is needed to access the value from the LiveTile in a WCF service.**
 
 
 
@@ -317,9 +317,9 @@ __Example 4: The class that is needed to access the value from the LiveTile in a
 			End Property
 			Private m_Description As String
 	
-			Public Sub New(name__1 As String, description__2 As String)
-				Name = name__1
-				Description = description__2
+			Public Sub New(name**1 As String, description**2 As String)
+				Name = name**1
+				Description = description**2
 			End Sub
 	
 			Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -338,7 +338,7 @@ __Example 4: The class that is needed to access the value from the LiveTile in a
 
 
 
-__Example 5: A sample class that will provide data to the service.__
+**Example 5: A sample class that will provide data to the service.**
 
 
 
@@ -394,9 +394,9 @@ __Example 5: A sample class that will provide data to the service.__
 			End Property
 			Private m_Description As String
 	
-			Public Sub New(name__1 As String, description__2 As String)
-				Name = name__1
-				Description = description__2
+			Public Sub New(name**1 As String, description**2 As String)
+				Name = name**1
+				Description = description**2
 			End Sub
 	
 			Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -415,7 +415,7 @@ __Example 5: A sample class that will provide data to the service.__
 
 
 
-__Example 6: Two simple LiveTiles that request information for different people from the class in Example 5.__
+**Example 6: Two simple LiveTiles that request information for different people from the class in Example 5.**
 
 ````ASPNET
 				<telerik:RadLiveTile runat="server" ID="RadLiveTile1" Value="Margaret">
@@ -438,15 +438,15 @@ __Example 6: Two simple LiveTiles that request information for different people 
 
 ## Passing Data to Page Methods
 
-Data is not passed to page methods and the __LiveTile__ cannot be identified uniquely. Thus, if different data is needed, differentmethods will need to be defined and configured in the tiles.
+Data is not passed to page methods and the **LiveTile** cannot be identified uniquely. Thus, if different data is needed, differentmethods will need to be defined and configured in the tiles.
 
 ## Passing Data to an ODataDataSource Control
 
-While a __LiveTile__ can use an __ODataDataSource__ control as its data source, in this case, the data that is returned is controlled by the data source controland it should be configured to return the expected information.
+While a **LiveTile** can use an **ODataDataSource** control as its data source, in this case, the data that is returned is controlled by the data source controland it should be configured to return the expected information.
 
-You can see an example in the[Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}), in the *Loading Data From ODataDataSource*section. It shows how the data source itself can be filtered in its own event (__Example 7__).
+You can see an example in the[Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}), in the *Loading Data From ODataDataSource*section. It shows how the data source itself can be filtered in its own event (**Example 7**).
 
-__Example 7: Filtering an ODataDataSource control.__
+**Example 7: Filtering an ODataDataSource control.**
 
 ````ASPNET
 	        <telerik:RadLiveTile ID="RadLiveTile3" runat="server" 
@@ -484,9 +484,9 @@ __Example 7: Filtering an ODataDataSource control.__
 
 
 
-Another option is to change the filter in the [OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}),because the event arguments expose the data source arguments. Essentially, the logic is the same, but you can apply filters per __LiveTile__(e.g., by using different __OnClientDataLoading__ event handlers, see __Example 8__)and use the same __ODataDataSource__ control.
+Another option is to change the filter in the [OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}),because the event arguments expose the data source arguments. Essentially, the logic is the same, but you can apply filters per **LiveTile**(e.g., by using different **OnClientDataLoading** event handlers, see **Example 8**)and use the same **ODataDataSource** control.
 
-__Example 8: Filtering the data source in the OnClientDataLoading event.__
+**Example 8: Filtering the data source in the OnClientDataLoading event.**
 
 ````JavaScript
 		<script type="text/javascript">
@@ -505,9 +505,9 @@ __Example 8: Filtering the data source in the OnClientDataLoading event.__
 
 ## Change the Value for the Given Request
 
-Just before the request is initiated, the [OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}) is fired.You can use it to change the value that will be passed in the request. In __Example 7__ you saw how it can be used to filter an__ODataDataSource__ control.__Example 9__ demonstrates how you can change the value passed to web services and WCF services. You need to emulate the JSON object that is sentvia the `set_value()` method the event arguments object exposes.
+Just before the request is initiated, the [OnClientDataLoading event]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}) is fired.You can use it to change the value that will be passed in the request. In **Example 7** you saw how it can be used to filter an**ODataDataSource** control.**Example 9** demonstrates how you can change the value passed to web services and WCF services. You need to emulate the JSON object that is sentvia the `set_value()` method the event arguments object exposes.
 
-__Example 9: Changing the value passed to a WCF/Web service.__
+**Example 9: Changing the value passed to a WCF/Web service.**
 
 ````JavaScript
 						<script type="text/javascript">

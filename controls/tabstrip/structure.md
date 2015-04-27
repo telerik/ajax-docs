@@ -1,6 +1,6 @@
 ---
 title: Structure
-page_title: Structure | UI for ASP.NET AJAX Documentation
+page_title: Structure | RadTabStrip for ASP.NET AJAX Documentation
 description: Structure
 slug: tabstrip/structure
 tags: structure
@@ -14,15 +14,15 @@ position: 1
 
 ## 
 
-The structure of the __RadTabStrip__ control is as follows:
+The structure of the **RadTabStrip** control is as follows:
 
 ![Structure](images/tabstrip_structure.png)
 
-The tab strip consists of a hierarchy of tabs. The tabs on one level are exposed when the parent tab on the previous level is selected. Each tab is represented by a __RadTab__ instance.
+The tab strip consists of a hierarchy of tabs. The tabs on one level are exposed when the parent tab on the previous level is selected. Each tab is represented by a **RadTab** instance.
 
-* At the top level are the __root tabs__. These items are always visible. They are available using the __Tabs__ property of the tab strip control (__RadTabStrip.Tabs__).
+* At the top level are the **root tabs**. These items are always visible. They are available using the **Tabs** property of the tab strip control (**RadTabStrip.Tabs**).
 
-* Each root tab may have, nested within it, a set of child tabs. Children of the root tabs are available using the __Tabs__ property of the root tab (__RadTab.Tabs__)
+* Each root tab may have, nested within it, a set of child tabs. Children of the root tabs are available using the **Tabs** property of the root tab (**RadTab.Tabs**)
 
 * Child tabs may have, nested within them, their own sets of child tabs.
 

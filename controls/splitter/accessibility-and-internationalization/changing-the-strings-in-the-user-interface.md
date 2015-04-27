@@ -1,6 +1,6 @@
 ---
 title: Changing the Strings in the User Interface
-page_title: Changing the Strings in the User Interface | UI for ASP.NET AJAX Documentation
+page_title: Changing the Strings in the User Interface | RadSplitter for ASP.NET AJAX Documentation
 description: Changing the Strings in the User Interface
 slug: splitter/accessibility-and-internationalization/changing-the-strings-in-the-user-interface
 tags: changing,the,strings,in,the,user,interface
@@ -12,25 +12,25 @@ position: 2
 
 
 
-Both __RadSplitBar__ and __RadSlidingPane__ controls contain icons that the user can click to interact with them. When the user hovers the mouse over these icons, they display tool tips that inform the user on the effects of clicking on them.
+Both **RadSplitBar** and **RadSlidingPane** controls contain icons that the user can click to interact with them. When the user hovers the mouse over these icons, they display tool tips that inform the user on the effects of clicking on them.
 
 ## RadSplitBar
 
-The __CollapseExpandPanelText__ property lets you change the tool tip that appears when the mouse hovers over the collapse or expand buttons on the split bar. The value of this property is a format string that can include a single argument. The argument identifies the pane that is about to collapse or expand using the string "top", "bottom", "left" or "right".
+The **CollapseExpandPanelText** property lets you change the tool tip that appears when the mouse hovers over the collapse or expand buttons on the split bar. The value of this property is a format string that can include a single argument. The argument identifies the pane that is about to collapse or expand using the string "top", "bottom", "left" or "right".
 
 ## RadSlidingPane
 
-* The __CollapseText__property specifies the tool tip that appears when the user hovers the mouse over the collapse button in the title bar.
+* The **CollapseText**property specifies the tool tip that appears when the user hovers the mouse over the collapse button in the title bar.
 
-* The __DockText__ property specifies the tool tip that appears when the user hovers the mouse over the dock button in the title bar.
+* The **DockText** property specifies the tool tip that appears when the user hovers the mouse over the dock button in the title bar.
 
-* The __UndockText__ property specifies the tool tip that appears when the user hovers the mouse over the undock button in the title bar.
+* The **UndockText** property specifies the tool tip that appears when the user hovers the mouse over the undock button in the title bar.
 
-* The __ResizeText__ property specifies the tool tip that appears when the user hovers the mouse over the resizable border of the sliding pane.
+* The **ResizeText** property specifies the tool tip that appears when the user hovers the mouse over the resizable border of the sliding pane.
 
 ## Example
 
-The following example shows a __RadSplitter__ control with the text of the tool tips changed:
+The following example shows a **RadSplitter** control with the text of the tool tips changed:
 
 ````ASPNET
 	     

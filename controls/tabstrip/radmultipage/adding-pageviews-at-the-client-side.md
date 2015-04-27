@@ -1,6 +1,6 @@
 ---
 title: Adding Pageviews at the Client-Side
-page_title: Adding Pageviews at the Client-Side | UI for ASP.NET AJAX Documentation
+page_title: Adding Pageviews at the Client-Side | RadTabStrip for ASP.NET AJAX Documentation
 description: Adding Pageviews at the Client-Side
 slug: tabstrip/radmultipage/adding-pageviews-at-the-client-side
 tags: adding,pageviews,at,the,client-side
@@ -16,7 +16,7 @@ position: 3
 
 You can add PageViews at the client-side and apply simple HTML to the pageviews.
 
-__Example:__
+**Example:**
 
 ````ASPNET
 	 

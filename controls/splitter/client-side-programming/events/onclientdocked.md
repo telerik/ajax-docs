@@ -1,6 +1,6 @@
 ---
 title: OnClientDocked
-page_title: OnClientDocked | UI for ASP.NET AJAX Documentation
+page_title: OnClientDocked | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientDocked
 slug: splitter/client-side-programming/events/onclientdocked
 tags: onclientdocked
@@ -14,17 +14,17 @@ position: 14
 
 ## 
 
-The __OnClientDocked__ client-side event handler is called when a pane has just been docked. The event can occur because of the user clicks on the sliding pane's dock button, on page load, or as the result of a a call to a client-side method.
+The **OnClientDocked** client-side event handler is called when a pane has just been docked. The event can occur because of the user clicks on the sliding pane's dock button, on page load, or as the result of a a call to a client-side method.
 
->note The __OnClientDocked__ event is supported by __RadSlidingPane__ .
+>note The **OnClientDocked** event is supported by **RadSlidingPane** .
 >
 
 
 The following parameter is passed to the event handler:
 
-* __sender__ is the pane that is has just been docked.
+* **sender** is the pane that is has just been docked.
 
-The following example uses the __OnClientDocked__ event to update the content of the pane:
+The following example uses the **OnClientDocked** event to update the content of the pane:
 
 ````ASPNET
 	     

@@ -1,6 +1,6 @@
 ---
 title: Printing Problem
-page_title: Printing Problem | UI for ASP.NET AJAX Documentation
+page_title: Printing Problem | RadSplitter for ASP.NET AJAX Documentation
 description: Printing Problem
 slug: splitter/troubleshooting/printing-problem
 tags: printing,problem

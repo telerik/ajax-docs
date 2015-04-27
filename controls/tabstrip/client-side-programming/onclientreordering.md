@@ -1,6 +1,6 @@
 ---
 title: OnClientReordering
-page_title: OnClientReordering | UI for ASP.NET AJAX Documentation
+page_title: OnClientReordering | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientReordering
 slug: tabstrip/client-side-programming/onclientreordering
 tags: onclientreordering
@@ -14,9 +14,9 @@ position: 14
 
 ## 
 
-The __OnClientReordering__ event is fired just before the drag-to-reorder operation is completed and the dragged tab is still in its initial position.
+The **OnClientReordering** event is fired just before the drag-to-reorder operation is completed and the dragged tab is still in its initial position.
 
->note This event will be fired only when the __EnableDragToReorder__ property is set to __"true"__ 
+>note This event will be fired only when the **EnableDragToReorder** property is set to **"true"** 
 >
 
 
@@ -26,12 +26,12 @@ The event handler function receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_tab__ returns a reference to the __RadTab__ which has been dragged.
+* **get_tab** returns a reference to the **RadTab** which has been dragged.
 
-* __get_index__ returns the zero-based index where the dragged tab will be inserted in the tabs collection once dropped.
+* **get_index** returns the zero-based index where the dragged tab will be inserted in the tabs collection once dropped.
 
-* __get_offset__ returns the offset between the index of the dragged tab before the drag operation and the one where it's about to be dropped.
+* **get_offset** returns the offset between the index of the dragged tab before the drag operation and the one where it's about to be dropped.
 
-* __get_domEvent__ returns a reference to the DOM event object for the action that caused this event to be fired.
+* **get_domEvent** returns a reference to the DOM event object for the action that caused this event to be fired.
 
-* __set_cancel__ lets you stop the reorder operation by passing boolen value as a parameter. This will leave the dragged tab in its initial position.
+* **set_cancel** lets you stop the reorder operation by passing boolen value as a parameter. This will leave the dragged tab in its initial position.

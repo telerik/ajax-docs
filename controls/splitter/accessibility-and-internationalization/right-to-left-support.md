@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadSplitter for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: splitter/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadSplitter__ fully supports right-to-left (RTL) language locales.In order to turn on the RTL support for the __RadSlidingPane__ you need to set a CSS class for it forces the __text-align__ property of the content to __right__ in order to override the default setting from the table cell. You also need to place the __RadSplitter__ in a container with __dir=rtl__ or the __direction:rtl__ CSS property.
+The **RadSplitter** fully supports right-to-left (RTL) language locales.In order to turn on the RTL support for the **RadSlidingPane** you need to set a CSS class for it forces the **text-align** property of the content to **right** in order to override the default setting from the table cell. You also need to place the **RadSplitter** in a container with **dir=rtl** or the **direction:rtl** CSS property.
 
 ````ASPNET
 	     

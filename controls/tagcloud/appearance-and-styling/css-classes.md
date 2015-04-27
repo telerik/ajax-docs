@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadTagCloud for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: tagcloud/appearance-and-styling/css-classes
 tags: css,classes
@@ -21,19 +21,19 @@ position: 2
 
 | Name | Description |
 | ------ | ------ |
-| __.RadTagCloud__ |Main wrapping element of RadTagCloud Control|
-| __.RadTagCloud .rtcTagList__ |Main wrapping element for the tags list itself. It is an unordered list|
-| __.RadTagCloud .rtcTagList .rtcTagItem__ |The list item in the RadTagCloud – a LI element|
-| __.RadTagCloud .rtcTagList .rtcTagItem:hover__ |Sets the style of the LI element when hovered|
-| __.RadTagCloud .rtcTagList .rtcTagItem a__ |Sets the style of the anchor in RadTagCloud list's normal state|
-| __.RadTagCloud .rtcTagList .rtcTagItem a:hover__ |Sets the style of the anchor in RadTagCloud list's hovered state|
-| __.RadTagCloud .rtcTagList .rtcTagItem span__ |Set the style for the tag cloud span where tag weight is placed|
-| __.rtcRtl__ |The class applies Right to Left support|
-| __div.rtcRtl .rtcTagList .rtcTagItem span__ |Sets the style for tag cloud span where tag weight is placed in Right to Left support mode|
-| __div.rtcDisabled .rtcTagList .rtcTagItem__ |Sets the style for the List element when disabled state=”true”|
-| __div.rtcDisabled .rtcTagList .rtcTagItem:hover__ |Sets the style for hovered List element when disabled state=”true”|
-| __div.rtcDisabled .rtcTagList .rtcTagItem a__ |Sets the style for the Anchor element when disabled state=”true”|
-| __div.rtcDisabled .rtcTagList .rtcTagItem a:hover__ |Sets the style for hovered Anchor element when disabled state=”true”|
+| **.RadTagCloud** |Main wrapping element of RadTagCloud Control|
+| **.RadTagCloud .rtcTagList** |Main wrapping element for the tags list itself. It is an unordered list|
+| **.RadTagCloud .rtcTagList .rtcTagItem** |The list item in the RadTagCloud – a LI element|
+| **.RadTagCloud .rtcTagList .rtcTagItem:hover** |Sets the style of the LI element when hovered|
+| **.RadTagCloud .rtcTagList .rtcTagItem a** |Sets the style of the anchor in RadTagCloud list's normal state|
+| **.RadTagCloud .rtcTagList .rtcTagItem a:hover** |Sets the style of the anchor in RadTagCloud list's hovered state|
+| **.RadTagCloud .rtcTagList .rtcTagItem span** |Set the style for the tag cloud span where tag weight is placed|
+| **.rtcRtl** |The class applies Right to Left support|
+| **div.rtcRtl .rtcTagList .rtcTagItem span** |Sets the style for tag cloud span where tag weight is placed in Right to Left support mode|
+| **div.rtcDisabled .rtcTagList .rtcTagItem** |Sets the style for the List element when disabled state=”true”|
+| **div.rtcDisabled .rtcTagList .rtcTagItem:hover** |Sets the style for hovered List element when disabled state=”true”|
+| **div.rtcDisabled .rtcTagList .rtcTagItem a** |Sets the style for the Anchor element when disabled state=”true”|
+| **div.rtcDisabled .rtcTagList .rtcTagItem a:hover** |Sets the style for hovered Anchor element when disabled state=”true”|
 
 
 
@@ -44,10 +44,10 @@ position: 2
 
 | Name | Description |
 | ------ | ------ |
-| __.RadTagCloud_Default__ |Sets the style of the main wrapping element|
-| __.RadTagCloud_Default .rtcTagList .rtcTagItem__ |Set the style of the LI element|
-| __.RadTagCloud_Default .rtcTagList .rtcTagItem:hover__ |Set the style of the LI element when hovered|
-| __.RadTagCloud_Default .rtcTagList .rtcTagItem a__ |Set the style of the TagCloud anchor|
-| __.RadTagCloud_Default .rtcTagList .rtcTagItem a:hover__ |Set the style of the TagCloud anchor when hovered|
+| **.RadTagCloud_Default** |Sets the style of the main wrapping element|
+| **.RadTagCloud_Default .rtcTagList .rtcTagItem** |Set the style of the LI element|
+| **.RadTagCloud_Default .rtcTagList .rtcTagItem:hover** |Set the style of the LI element when hovered|
+| **.RadTagCloud_Default .rtcTagList .rtcTagItem a** |Set the style of the TagCloud anchor|
+| **.RadTagCloud_Default .rtcTagList .rtcTagItem a:hover** |Set the style of the TagCloud anchor when hovered|
 
 

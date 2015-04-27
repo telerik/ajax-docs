@@ -1,6 +1,6 @@
 ---
 title: ImageTile Object
-page_title: ImageTile Object | UI for ASP.NET AJAX Documentation
+page_title: ImageTile Object | RadTileList for ASP.NET AJAX Documentation
 description: ImageTile Object
 slug: tilelist/tiles/client-side-programming/imagetile-object
 tags: imagetile,object
@@ -14,9 +14,9 @@ position: 5
 
 ## 
 
-This article explains the client-side properties and methods __[RadImageTile]({%slug tilelist/tiles/image-tile%})__ exposes.
+This article explains the client-side properties and methods **[RadImageTile]({%slug tilelist/tiles/image-tile%})** exposes.
 
->note  __RadImageTile__ inherits the __[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})__ type and has the API it provides in addition to the ImageTile specific methods.
+>note  **RadImageTile** inherits the **[RadBaseTile]({%slug tilelist/tiles/client-side-programming/basetile-object%})** type and has the API it provides in addition to the ImageTile specific methods.
 >
 
 

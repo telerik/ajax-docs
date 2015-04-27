@@ -1,6 +1,6 @@
 ---
 title: Tutorial Creating a Custom Skin Using Sprite 
-page_title: Tutorial Creating a Custom Skin Using Sprite  | UI for ASP.NET AJAX Documentation
+page_title: Tutorial Creating a Custom Skin Using Sprite  | RadTabStrip for ASP.NET AJAX Documentation
 description: Tutorial Creating a Custom Skin Using Sprite 
 slug: tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin-using-sprite-
 tags: tutorial,creating,a,custom,skin,using,sprite,
@@ -12,7 +12,7 @@ position: 11
 
 
 
-The following tutorial demonstrates creating a custom __RadTabStrip__ skin, using the default skin as a base. This new skin will take the appearance of the tab strip from its default look:
+The following tutorial demonstrates creating a custom **RadTabStrip** skin, using the default skin as a base. This new skin will take the appearance of the tab strip from its default look:
 
 ![tabstrip defaultlook](images/tabstrip_defaultlook.png)
 
@@ -20,9 +20,9 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 ## Prepare the Project
 
-1. Drag a __RadTabStrip__ from the toolbox onto a new AJAX-enabled application Web form.
+1. Drag a **RadTabStrip** from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Use the __RadTabStrip Item Builder__ to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
+1. Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
 
 ````ASPNET
 	 
@@ -49,7 +49,7 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 
 
-1. Copy the default __RadTabStrip__ skin files from the installation directory to your project; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
+1. Copy the default **RadTabStrip** skin files from the installation directory to your project; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
 
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
 >
@@ -61,9 +61,9 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 1. Drag the "TabStrip.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:![tabstrip link](images/tabstrip_link.png)
 
-1. Set the __EnableEmbeddedSkins__ property of the __RadTabStrip__ control to __False__.
+1. Set the **EnableEmbeddedSkins** property of the **RadTabStrip** control to **False**.
 
-1. Change the __Skin__ property of your __RadTabStrip__ control to "Green".
+1. Change the **Skin** property of your **RadTabStrip** control to "Green".
 
 1. Run the application. The new "Green" skin looks just like the Default skin:![tabstrip defaultlook](images/tabstrip_defaultlook.png)
 
@@ -73,11 +73,11 @@ Instead of just two or three images being combined into one, you can combine an 
 
 In order to modify the existing sprite according to some specific requirements such as different rounded corners or background-color applied to the rounded corners of the RadTabStrip you will need to change the sprite image as described below:
 
-1. Locate the already existing sprite of the RadTabStrip -__TabStripStates.png__(using the default installation it should be in C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Skins\Default\TabStrip ).
+1. Locate the already existing sprite of the RadTabStrip -**TabStripStates.png**(using the default installation it should be in C:\Program Files (x86)\Telerik\RadControls for ASP.NET AJAX Q3 2010\Skins\Default\TabStrip ).
 
-1. Modify the sprite image of the __RadTabStrip__ as desired – changing the shape of the corners, the background-color, the color of the different states of the tabs etc.![tabstrip states details](images/tabstrip_states_details.png)
+1. Modify the sprite image of the **RadTabStrip** as desired – changing the shape of the corners, the background-color, the color of the different states of the tabs etc.![tabstrip states details](images/tabstrip_states_details.png)
 
-1. Save the Sprite with the same name - __TabStripStates.png__.
+1. Save the Sprite with the same name - **TabStripStates.png**.
 
 1. Simply replace the new image with the old one in the \TabStrip folder.
 

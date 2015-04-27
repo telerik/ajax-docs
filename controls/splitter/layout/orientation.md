@@ -1,6 +1,6 @@
 ---
 title: Orientation
-page_title: Orientation | UI for ASP.NET AJAX Documentation
+page_title: Orientation | RadSplitter for ASP.NET AJAX Documentation
 description: Orientation
 slug: splitter/layout/orientation
 tags: orientation
@@ -12,14 +12,14 @@ position: 1
 
 
 
-The __Orientation__ property of the __RadSplitter__ control defines the __orientation of its split bars__:
+The **Orientation** property of the **RadSplitter** control defines the **orientation of its split bars**:
 
-* The __Horizontal__ orientation renders horizontal split bars, which can be moved up and down to [resize the height of the splitter's panes]({%slug splitter/panes/resizing%}). The panes themselves are stacked vertically:
+* The **Horizontal** orientation renders horizontal split bars, which can be moved up and down to [resize the height of the splitter's panes]({%slug splitter/panes/resizing%}). The panes themselves are stacked vertically:
 >caption 
 
 ![](images/splitter-horizontalsplitter.png)
 
-* The __Vertical__ orientation renders vertical split bars, which can be moved left and right to resize the width of the splitter's panes. The panes themselves are laid out side by side:
+* The **Vertical** orientation renders vertical split bars, which can be moved left and right to resize the width of the splitter's panes. The panes themselves are laid out side by side:
 >caption 
 
 ![](images/splitter-simplesplitter.png)
@@ -30,7 +30,7 @@ The __Orientation__ property of the __RadSplitter__ control defines the __orient
 
 ## Setting Orientation
 
-You can assign the orientation declaratively in the __RadSplitter__ declaration:
+You can assign the orientation declaratively in the **RadSplitter** declaration:
 
 ````ASPNET
 	     
@@ -55,7 +55,7 @@ You can assign the orientation declaratively in the __RadSplitter__ declaration:
 
 
 
-You can also set the __Orientation__ property of the splitter from the code-behind:
+You can also set the **Orientation** property of the splitter from the code-behind:
 
 
 

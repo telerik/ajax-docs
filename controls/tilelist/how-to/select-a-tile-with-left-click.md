@@ -1,6 +1,6 @@
 ---
 title: Select a Tile with Left Click
-page_title: Select a Tile with Left Click | UI for ASP.NET AJAX Documentation
+page_title: Select a Tile with Left Click | RadTileList for ASP.NET AJAX Documentation
 description: Select a Tile with Left Click
 slug: tilelist/how-to/select-a-tile-with-left-click
 tags: select,a,tile,with,left,click
@@ -12,13 +12,13 @@ position: 1
 
 
 
-This article demonstrates how to let the users [select]({%slug tilelist/functionality/selecting%}) a	__Tile__ with a left click instead of the default right click.
+This article demonstrates how to let the users [select]({%slug tilelist/functionality/selecting%}) a	**Tile** with a left click instead of the default right click.
 
 ## 
 
-The code in __Example 1__ shows how to use the [OnClientTileClicking]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%})	event and the [Client-side API]({%slug tilelist/tiles/client-side-programming/basetile-object%}) of the __Tile__ tocancel the default click event and toggle its selection state.This approach will prevent the [Click]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%}) event	(and subsequent post back) and/or [navigation]({%slug tilelist/functionality/navigation%}).	A single user action should cause one effect and in this case it will toggle the selected state of the tile.
+The code in **Example 1** shows how to use the [OnClientTileClicking]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%})	event and the [Client-side API]({%slug tilelist/tiles/client-side-programming/basetile-object%}) of the **Tile** tocancel the default click event and toggle its selection state.This approach will prevent the [Click]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%}) event	(and subsequent post back) and/or [navigation]({%slug tilelist/functionality/navigation%}).	A single user action should cause one effect and in this case it will toggle the selected state of the tile.
 
-__Example 1__: Select a tile with left click inside a __RadTileList__.
+**Example 1**: Select a tile with left click inside a **RadTileList**.
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1" OnClientTileClicking="toggleTileSelection"
@@ -40,7 +40,7 @@ __Example 1__: Select a tile with left click inside a __RadTileList__.
 
 
 
-__Example 2__: Select a standalone __Tile__ with left click.
+**Example 2**: Select a standalone **Tile** with left click.
 
 ````ASPNET
 			<telerik:RadTextTile runat="server" ID="RadTextTile1" OnClientClicking="toggleSelection" EnableSelection="true">

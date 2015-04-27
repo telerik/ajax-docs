@@ -1,6 +1,6 @@
 ---
 title: CSS for Responsive Layout
-page_title: CSS for Responsive Layout | UI for ASP.NET AJAX Documentation
+page_title: CSS for Responsive Layout | RadTileList for ASP.NET AJAX Documentation
 description: CSS for Responsive Layout
 slug: tilelist/appearance-and-styling/css-for-responsive-layout
 tags: css,for,responsive,layout
@@ -12,25 +12,25 @@ position: 2
 
 
 
-This article shows the code that is used to achieve the [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})	of the __RadTileList__ control. Comments in the CSS code explain what each rule does so that you can use them as a base	if you need to apply further modifications.
+This article shows the code that is used to achieve the [responsive layout]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%})	of the **RadTileList** control. Comments in the CSS code explain what each rule does so that you can use them as a base	if you need to apply further modifications.
 
 ## Media Queries Trigger the TileList Layout Change
 
-[CSS media queries](http://www.w3.org/TR/css3-mediaqueries/)are used to detect the viewport size (and its change), so that appropriate CSS rules are applied to the __RadTileList__,its HTML elements and the __Tiles__ themselves. Upon a viewport change, the __RadTileList__ is notified through a JavaScript eventso it can recalculate the available space and, if needed, reorder the tiles and change its HTML elements.
+[CSS media queries](http://www.w3.org/TR/css3-mediaqueries/)are used to detect the viewport size (and its change), so that appropriate CSS rules are applied to the **RadTileList**,its HTML elements and the **Tiles** themselves. Upon a viewport change, the **RadTileList** is notified through a JavaScript eventso it can recalculate the available space and, if needed, reorder the tiles and change its HTML elements.
 
 Out of the box, two resolutions are used in the media queries to trigger the two additional layouts—768px and 480px. You can see examples of the layout with each of them in the[responsive layout article]({%slug tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities%}).
 
 ## CSS Changes the Tiles' Layout
 
-When the HTML of the __RadTileList__ has changed so that groups of tiles stack vertically instead of flow to the right, the CSS rules from __Example 1__come in effect to modify the tiles.
+When the HTML of the **RadTileList** has changed so that groups of tiles stack vertically instead of flow to the right, the CSS rules from **Example 1**come in effect to modify the tiles.
 
 The [Viewport width units](http://dev.w3.org/csswg/css-values/#vw-unit) are used in the two special layouts to modify the tiles.The `vw` unit is relative to the viewport's width. The viewport's width is equal to 100 `vw` units.You will see them later in the CSS used to match the tiles' size to the viewport and provide zooming.
 
-In __Example 1__, you will find rules with selectors already weighed down so that they can override the built-in ones, should you want to make a change.Comments in the code explain what each rule does.
+In **Example 1**, you will find rules with selectors already weighed down so that they can override the built-in ones, should you want to make a change.Comments in the code explain what each rule does.
 
 All cascades for the responsive layout go through the `rtlistResponsive` class.
 
-__Example 1: CSS rules that affect the RadTileList and its tiles.__
+**Example 1: CSS rules that affect the RadTileList and its tiles.**
 
 ````JavaScript
 			/* tablet-oriented layout:  groups stack vertically, no tile columns are used; there are maximum four square tiles per row */

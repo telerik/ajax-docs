@@ -1,6 +1,6 @@
 ---
 title: RadTab Object
-page_title: RadTab Object | UI for ASP.NET AJAX Documentation
+page_title: RadTab Object | RadTabStrip for ASP.NET AJAX Documentation
 description: RadTab Object
 slug: tabstrip/client-side-programming/radtab-object
 tags: radtab,object
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-The __RadTab__ object is returned by the __getTab__ method of the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}). It is also exposed by the eventArgs of many [client-side events]({%slug tabstrip/client-side-programming/events%}). The following table lists the most important methods:
+The **RadTab** object is returned by the **getTab** method of the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}). It is also exposed by the eventArgs of many [client-side events]({%slug tabstrip/client-side-programming/events%}). The following table lists the most important methods:
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __findControl__ |String|Object|Returns the client-side object of the Control with the specified ID nested in the Tab's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
-| __disable__ |none|none|Disables the tab.|
+| **findControl** |String|Object|Returns the client-side object of the Control with the specified ID nested in the Tab's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
+| **disable** |none|none|Disables the tab.|
 
 ````JavaScript
 	 
@@ -37,7 +37,7 @@ The __RadTab__ object is returned by the __getTab__ method of the [RadTabCollect
 
 >caption  
 
-|  __enable__  | none | none | Enables the tab if it is disabled. |
+|  **enable**  | none | none | Enables the tab if it is disabled. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -53,21 +53,21 @@ The __RadTab__ object is returned by the __getTab__ method of the [RadTabCollect
 
 >caption  
 
-|  __get_isEnabled__  | none | Boolean | Returns true if both the tab and the tabstrip are enabled. If one of them is disabled, get_isEnabled() will return false. |
+|  **get_isEnabled**  | none | Boolean | Returns true if both the tab and the tabstrip are enabled. If one of them is disabled, get_isEnabled() will return false. |
 | ------ | ------ | ------ | ------ |
-| __get_enabled__ |none|Boolean|Same as get_isEnabled.|
-| __set_enabled__ |Boolean|none|Sets the enabled state of the tab.|
-| __get_tabs__ |none|RadTabCollection|Gets the child tabs of the current tab.|
-| __get_nextSibling__ |none|RadTab|Returns the next sibling of the tab. If the tab is last, returns null.|
-| __get_previousSibling__ |none|RadTab|Returns the previous sibling of the tab. If the tab is first, returns null.|
-| __get_parent__ |none|RadTabStrip or RadTab|Returns an instance of the parent object. RadTabStrip if this is a root tab, RadTab if it is a child tab.|
-| __get_tabStrip__ |none|RadTabStrip|Returns an instance of the tabstrip that contains the tab.|
-| __get_pageView__ |none|RadPageView|Returns the pageview associated with the tab.|
-| __get_pageViewID__ |none|string|Returns the ID of the pageview.|
-| __set_pageViewID__ |string|none|Sets the ID of the pageview.|
-| __get_index__ |none|Integer|Gets the zero based index of the tab inside the parent tabs collection.|
-| __get_level__ |none|Integer|Gets the level of the tab. Root level tabs are first level.|
-| __get_attributes__ |(none)|Collection|Returns the collection of custom attributes for the tab.|
+| **get_enabled** |none|Boolean|Same as get_isEnabled.|
+| **set_enabled** |Boolean|none|Sets the enabled state of the tab.|
+| **get_tabs** |none|RadTabCollection|Gets the child tabs of the current tab.|
+| **get_nextSibling** |none|RadTab|Returns the next sibling of the tab. If the tab is last, returns null.|
+| **get_previousSibling** |none|RadTab|Returns the previous sibling of the tab. If the tab is first, returns null.|
+| **get_parent** |none|RadTabStrip or RadTab|Returns an instance of the parent object. RadTabStrip if this is a root tab, RadTab if it is a child tab.|
+| **get_tabStrip** |none|RadTabStrip|Returns an instance of the tabstrip that contains the tab.|
+| **get_pageView** |none|RadPageView|Returns the pageview associated with the tab.|
+| **get_pageViewID** |none|string|Returns the ID of the pageview.|
+| **set_pageViewID** |string|none|Sets the ID of the pageview.|
+| **get_index** |none|Integer|Gets the zero based index of the tab inside the parent tabs collection.|
+| **get_level** |none|Integer|Gets the level of the tab. Root level tabs are first level.|
+| **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the tab.|
 
 ````JavaScript
 	
@@ -92,35 +92,35 @@ The __RadTab__ object is returned by the __getTab__ method of the [RadTabCollect
 
 >caption  
 
-|  __get_visible__  | none | boolean | Returns __true__ if the tab is visible or __false__ otherwise. |
+|  **get_visible**  | none | boolean | Returns **true** if the tab is visible or **false** otherwise. |
 | ------ | ------ | ------ | ------ |
-| __set_visible__ |boolean|none|Shows/Hides a tab.|
-| __set_text__ |string text|none|Sets the text of the tab.|
-| __get_text__ |none|string text|Returns the text of the tab.|
-| __set_value__ |string value|none|Sets the Value property of the tab.|
-| __get_value__ |none|string value|Returns the Value property of the tab.|
-| __get_isSeparator__ |none|boolean|Returns __true__ the tab is a separator (sever-side property IsSeparator = true)|
-| __get_selected__ |none|boolean|Returns whether the tab is selected.|
-| __set_selected__ |boolean|none|Selects or de-selects the tab.|
-| __select__ |none|none|Selects the tab.|
-| __unselect__ |none|none|De-selects the tab.|
-| __get_navigateUrl__ |none|string|Gets the URL of the Web page the tab launches.|
-| __set_navigateUrl__ |string|none|Sets the navigateURL property of the tab. This is the URL of the Web page the tab launches.
+| **set_visible** |boolean|none|Shows/Hides a tab.|
+| **set_text** |string text|none|Sets the text of the tab.|
+| **get_text** |none|string text|Returns the text of the tab.|
+| **set_value** |string value|none|Sets the Value property of the tab.|
+| **get_value** |none|string value|Returns the Value property of the tab.|
+| **get_isSeparator** |none|boolean|Returns **true** the tab is a separator (sever-side property IsSeparator = true)|
+| **get_selected** |none|boolean|Returns whether the tab is selected.|
+| **set_selected** |boolean|none|Selects or de-selects the tab.|
+| **select** |none|none|Selects the tab.|
+| **unselect** |none|none|De-selects the tab.|
+| **get_navigateUrl** |none|string|Gets the URL of the Web page the tab launches.|
+| **set_navigateUrl** |string|none|Sets the navigateURL property of the tab. This is the URL of the Web page the tab launches.
 
->caution The __navigateUrl__ property must be an absolute URL on the client side: e.g." *http://mydomain.com/default.aspx"* not *"default.aspx".* 
+>caution The **navigateUrl** property must be an absolute URL on the client side: e.g." *http://mydomain.com/default.aspx"* not *"default.aspx".* 
 >
 |
-| __get_imageUrl__ |none|(string imageUrl)|Gets the URL of the image.|
-| __set_imageUrl__ |(string imageUrl)|none|Sets the URL of the image.|
-| __get_hoveredImageUrl__ |none|(string imageUrl)|Gets the URL of the image displayed when the mouse if over the tab.|
-| __set_hoveredImageUrl__ |(string imageUrl)|none|Sets the URL of the image displayed when the mouse if over the tab.|
-| __get_element__ |none|HTML Element|Gets the root DOM element of the tab (LI).|
-| __get_linkElement__ |none|HTML Element|Gets the anchor DOM element of the tab(A).|
-| __get_imageElement__ |none|HTML Element|Gets the image DOM element of the tab. If the server side ImageUrl property is not set,returns null.|
-| __get_textElement__ |none|HTML Element|Gets the DOM element of the tab text (SPAN).|
-| __get_childListElement__ |none|HTML Element|Gets the DOM element of the list of child tabs (UL).|
-| __scrollIntoView__ |none|none|Scrolls to the tab.|
-| __click__ |none|none|Simulate user click on a tab.|
+| **get_imageUrl** |none|(string imageUrl)|Gets the URL of the image.|
+| **set_imageUrl** |(string imageUrl)|none|Sets the URL of the image.|
+| **get_hoveredImageUrl** |none|(string imageUrl)|Gets the URL of the image displayed when the mouse if over the tab.|
+| **set_hoveredImageUrl** |(string imageUrl)|none|Sets the URL of the image displayed when the mouse if over the tab.|
+| **get_element** |none|HTML Element|Gets the root DOM element of the tab (LI).|
+| **get_linkElement** |none|HTML Element|Gets the anchor DOM element of the tab(A).|
+| **get_imageElement** |none|HTML Element|Gets the image DOM element of the tab. If the server side ImageUrl property is not set,returns null.|
+| **get_textElement** |none|HTML Element|Gets the DOM element of the tab text (SPAN).|
+| **get_childListElement** |none|HTML Element|Gets the DOM element of the list of child tabs (UL).|
+| **scrollIntoView** |none|none|Scrolls to the tab.|
+| **click** |none|none|Simulate user click on a tab.|
 
 ````JavaScript
 	

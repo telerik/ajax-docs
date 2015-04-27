@@ -1,6 +1,6 @@
 ---
 title: PageViewCreated 
-page_title: PageViewCreated  | UI for ASP.NET AJAX Documentation
+page_title: PageViewCreated  | RadTabStrip for ASP.NET AJAX Documentation
 description: PageViewCreated 
 slug: tabstrip/server-side-programming/pageviewcreated-
 tags: pageviewcreated,
@@ -14,19 +14,19 @@ position: 5
 
 ## 
 
-__RadMultiPage__ exposes a single server-side event - the __PageViewCreated__ event.
+**RadMultiPage** exposes a single server-side event - the **PageViewCreated** event.
 
-__PageViewCreated__ occurs every time a new page view is added to __RadPageViewCollection__ of the __RadMultiPage__ instance.
+**PageViewCreated** occurs every time a new page view is added to **RadPageViewCollection** of the **RadMultiPage** instance.
 
-The __PageViewCreated__ event handler receives two arguments:
+The **PageViewCreated** event handler receives two arguments:
 
-1. The __RadMultiPage__ to which the page view has just been added. This argument is of type object, but can be cast to the __RadMultiPage__ type.
+1. The **RadMultiPage** to which the page view has just been added. This argument is of type object, but can be cast to the **RadMultiPage** type.
 
-1. A __RadMultiPageEventArgs__ object. This object has a __PageView__ property that you can use to access the page view that has just been added.
+1. A **RadMultiPageEventArgs** object. This object has a **PageView** property that you can use to access the page view that has just been added.
 
-Use a __PageViewCreated__ event handler to add controls to the Controls collections of the page views as they are added to the multi-page.
+Use a **PageViewCreated** event handler to add controls to the Controls collections of the page views as they are added to the multi-page.
 
->caution The __ID__ s of the controls that will be added to the __Controls__ collection of the page views should be set upon each postback to the same value. Otherwise, different ID will be set to these controls on each postback and this might lead to ViewState problems
+>caution The **ID** s of the controls that will be added to the **Controls** collection of the page views should be set upon each postback to the same value. Otherwise, different ID will be set to these controls on each postback and this might lead to ViewState problems
 >
 
 

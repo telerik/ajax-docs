@@ -1,6 +1,6 @@
 ---
 title: What's New
-page_title: What's New | UI for ASP.NET AJAX Documentation
+page_title: What's New | RadTabStrip for ASP.NET AJAX Documentation
 description: What's New
 slug: tabstrip/what's-new
 tags: what's,new
@@ -34,7 +34,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTabStrip for ASP.NET AJAX Q2 2009 SP1 (Version Number: 2009.2.826):
 
-* Added a __OuterCssClass__ property to RadTab (gets added to LI elements)
+* Added a **OuterCssClass** property to RadTab (gets added to LI elements)
 
 * [Bug-fixes](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q2-2009-sp1-version-2009-2-826.aspx)
 
@@ -52,13 +52,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTabStrip for ASP.NET AJAX Q3 2008 (Version Number 2008.3.1105):
 
-* Added new server side methods __FindTabByText__, __FindTabByValue__which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindTabByText**, **FindTabByValue**which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindTab__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindTab**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnTabDataBound__, __OnTabClick__, etc.
+* Added protected virtual methods for server-side events – **OnTabDataBound**, **OnTabClick**, etc.
 
-* Support for server-side expressions (<%= %>) in the __TabTemplate__.
+* Support for server-side expressions (<%= %>) in the **TabTemplate**.
 
 ## What's New in RadTabStrip for ASP.NET AJAX Q2 SP1 2008 (Version Number 2008.2.826):
 

@@ -1,6 +1,6 @@
 ---
 title: Binding to Hierarchical DataSource Components
-page_title: Binding to Hierarchical DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to Hierarchical DataSource Components | RadTabStrip for ASP.NET AJAX Documentation
 description: Binding to Hierarchical DataSource Components
 slug: tabstrip/data-binding/binding-to-hierarchical-datasource-components
 tags: binding,to,hierarchical,datasource,components
@@ -12,21 +12,21 @@ position: 4
 
 
 
-Some data sources are inherently hierarchical. These include __SiteMapDataSource__ and __XmlDataSource__. When data-bound to these types of data sources, __RadTabStrip__ automatically creates the tab hierarchy. There is no need to use the __DataFieldID__ and __DataFieldParentID__ properties.
+Some data sources are inherently hierarchical. These include **SiteMapDataSource** and **XmlDataSource**. When data-bound to these types of data sources, **RadTabStrip** automatically creates the tab hierarchy. There is no need to use the **DataFieldID** and **DataFieldParentID** properties.
 
 ## Binding to SiteMapDataSource
 
-When binding to __SiteMapDataSource__, there is no need to set any properties to map fields from the data source to properties of the tabs. This is because site maps have a strictly defined structure.
+When binding to **SiteMapDataSource**, there is no need to set any properties to map fields from the data source to properties of the tabs. This is because site maps have a strictly defined structure.
 
-The __SiteMapDataSource__ control defines the structure of your Web site. You can have only one site map per site. By default the __SiteMapDataSource__ control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
+The **SiteMapDataSource** control defines the structure of your Web site. You can have only one site map per site. By default the **SiteMapDataSource** control uses the default Site Navigation Provider. This provider lets you define the structure of your site, separating the real page structure of the site on one hand, and the UI presentation on the other.
 
-The default site navigation provider is XML-based. It should stay in the root level of your project and should be named __web.sitemap__. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
+The default site navigation provider is XML-based. It should stay in the root level of your project and should be named **web.sitemap**. Using the Site Navigation API provided in ASP.NET v2.0, you can write your own Site Navigation Provider and expose the navigation information from any back-end system, if needed.
 
 ## Setting the SiteMapDataSource control
 
-Before adding the __SiteMapDataSource__ control to your page, you need to add the Site Navigation Provider.
+Before adding the **SiteMapDataSource** control to your page, you need to add the Site Navigation Provider.
 
-1. In the Solution Explorer, choose __Add New Item__... In the templates dialog, select __Site Map__:![New SiteMap](images/tabstrip_newsitemap.png)
+1. In the Solution Explorer, choose **Add New Item**... In the templates dialog, select **Site Map**:![New SiteMap](images/tabstrip_newsitemap.png)
 
 1. Click the Add button. Visual Studio generates the web.sitemap file with the initial code:
 
@@ -66,23 +66,23 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 >
 
 
-1. Drag a __SiteMapDataSource__ instance from the Toolbox to your Web page.
+1. Drag a **SiteMapDataSource** instance from the Toolbox to your Web page.
 
-1. Set the __ShowStartingNode__ property of the __SiteMapDataSource__ component to __False__. This allows you to use multiple tabs at the root level.
+1. Set the **ShowStartingNode** property of the **SiteMapDataSource** component to **False**. This allows you to use multiple tabs at the root level.
 
 ## Binding the SiteMapDataSource to Telerik RadTabStrip
 
-1. From the __RadTabStrip__ property pane, set the __DataSourceID__ to the __ID__ of the __SiteMapDataSource__ control.
+1. From the **RadTabStrip** property pane, set the **DataSourceID** to the **ID** of the **SiteMapDataSource** control.
 
-1. Each __siteMapNode__ has three attributes which are mapped automatically to the respective properties:
+1. Each **siteMapNode** has three attributes which are mapped automatically to the respective properties:
 
-* __url__ - Maps to the __NavigateUrl__ property.The path can be either relative (using the ~/), or absolute.
+* **url** - Maps to the **NavigateUrl** property.The path can be either relative (using the ~/), or absolute.
 
-* __title__ - Maps to the __Text__ property.
+* **title** - Maps to the **Text** property.
 
-* __description__ - Maps to the __ToolTip__ property.
+* **description** - Maps to the **ToolTip** property.
 
-1. To set additional properties or overwrite already populated fields, use the __TabDataBound__ event. The example below overwrites the __TooTip__ property:
+1. To set additional properties or overwrite already populated fields, use the **TabDataBound** event. The example below overwrites the **TooTip** property:
 
 
 
@@ -107,7 +107,7 @@ Before adding the __SiteMapDataSource__ control to your page, you need to add th
 
 ## Binding to XmlDataSource
 
-When binding to an __XmlDataSource__, __RadTabStrip__ creates the tab hierarchy automatically. However, unlike __SiteMapDataSource__, properties such as __Text__ and __NavigateUrl__ are __not__ automatically populated.
+When binding to an **XmlDataSource**, **RadTabStrip** creates the tab hierarchy automatically. However, unlike **SiteMapDataSource**, properties such as **Text** and **NavigateUrl** are **not** automatically populated.
 
 Consider the following example:
 
@@ -149,21 +149,21 @@ Consider the following example:
 
 
 
-1. Drag an instance of __XmlDataSource__ onto your Web form and configure the control:
+1. Drag an instance of **XmlDataSource** onto your Web form and configure the control:
 
 1. Set the Data file to the XML file you just added.
 
 1. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level tabs.![Configure XML source](images/tabstrip_configurexmlsource.png)
 
-1. Set the __DataSourceID__ of your RadTabStrip to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Choose XML DataSource](images/tabstrip_choosexmldatasource.png)
+1. Set the **DataSourceID** of your RadTabStrip to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Choose XML DataSource](images/tabstrip_choosexmldatasource.png)
 
-1. Map the __Text__, __Value__ and __NavigateUrl__ fields by setting the __DataTextField__, __DataValueField__ and __DataNavigateUrlField__ properties:![Binding fields](images/tabstrip_bindingfields.png)
+1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties:![Binding fields](images/tabstrip_bindingfields.png)
 
->note This example has no separate field for value, so it uses the Text field for the __Value__ property, for illustrative purposes.
+>note This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
 >
 
 
-1. As with the __SiteMapDataSource__ example above, you can map additional properties using the __[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})__:
+1. As with the **SiteMapDataSource** example above, you can map additional properties using the **[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})**:
 
 
 

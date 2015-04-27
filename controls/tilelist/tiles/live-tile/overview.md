@@ -1,6 +1,6 @@
 ---
 title: Live Tile Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadTileList for ASP.NET AJAX Documentation
 description: Overview
 slug: tilelist/tiles/live-tile/overview
 tags: overview
@@ -12,29 +12,29 @@ position: 0
 
 
 
-__RadLiveTile__ is designed to load content on demand from a Webservice on a predefined interval.It [supports various webservice types]({%slug tilelist/tiles/live-tile/loading-data%}) like WCF services,Page Methods and OData services.
+**RadLiveTile** is designed to load content on demand from a Webservice on a predefined interval.It [supports various webservice types]({%slug tilelist/tiles/live-tile/loading-data%}) like WCF services,Page Methods and OData services.
 
-The __RadLiveTile__ control was added to the Telerik UI for ASP.NET AJAX suite in __Q3 2013__.
+The **RadLiveTile** control was added to the Telerik UI for ASP.NET AJAX suite in **Q3 2013**.
 
-When the __UpdateInterval__ times out a __request to the service is made__ and when the data is receivedthe __ClientTemplate__ is __populated and shown__ with an animation. If a PeekTemplate is shown at this pointit is hidden regardless of its own timers because the ClientTemplate has higher priority.
+When the **UpdateInterval** times out a **request to the service is made** and when the data is receivedthe **ClientTemplate** is **populated and shown** with an animation. If a PeekTemplate is shown at this pointit is hidden regardless of its own timers because the ClientTemplate has higher priority.
 
-The __ClientTemplate__ property can be used to set the template that will be resolved and popupated with theinformation from the datasource. The __UpdateInterval__ property determines the intervals between requests are sent.
+The **ClientTemplate** property can be used to set the template that will be resolved and popupated with theinformation from the datasource. The **UpdateInterval** property determines the intervals between requests are sent.
 
->tip The __ClientTemplate__ can also be used as an inner tag in the tile. This allows for more intuitive markup input, even though you cannot have intellisense because Visual Studio does not offer intellisense for string properties.
+>tip The **ClientTemplate** can also be used as an inner tag in the tile. This allows for more intuitive markup input, even though you cannot have intellisense because Visual Studio does not offer intellisense for string properties.
 >
 
 
-The inner __WebServiceSettings__ tag offers several properties that configure how the requests are made:
+The inner **WebServiceSettings** tag offers several properties that configure how the requests are made:
 
-* __Method:__ the name of the Webservice method that will be called
+* **Method:** the name of the Webservice method that will be called
 
-* __Path:__ the URL of the Webservice that will be called. This is the path to the asmx or svc file that defines the service code or thepage whose Page Method will be called.
+* **Path:** the URL of the Webservice that will be called. This is the path to the asmx or svc file that defines the service code or thepage whose Page Method will be called.
 
-* __UseHttpGet:__ defines whether a GET request should be made instead of the default POST
+* **UseHttpGet:** defines whether a GET request should be made instead of the default POST
 
-The __ODataDataSourceID__ property of the __RadLiveTile__ can be used to set the ID of a[RadODataDataSource control](9a9b4db2-aeb8-44c2-b1d2-781280d18fdc) that will be used to contact the OData service.You can use the [OnClientDataLoading]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}) event to pass additional information ormodify the request.
+The **ODataDataSourceID** property of the **RadLiveTile** can be used to set the ID of a[RadODataDataSource control](9a9b4db2-aeb8-44c2-b1d2-781280d18fdc) that will be used to contact the OData service.You can use the [OnClientDataLoading]({%slug tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading%}) event to pass additional information ormodify the request.
 
-The __Value__ property of the Tile is used to __transfer information to the web service__ that provides theactual data. It can be used to identify the tile that makes the request in order to provide specific data. For more information and examplessee the [Pass Data to the Web Service help article]({%slug tilelist/tiles/live-tile/pass-data-to-the-web-service%}). Each load-on-demand type is shown with a simple examplethat also shows how to consume the Value property.
+The **Value** property of the Tile is used to **transfer information to the web service** that provides theactual data. It can be used to identify the tile that makes the request in order to provide specific data. For more information and examplessee the [Pass Data to the Web Service help article]({%slug tilelist/tiles/live-tile/pass-data-to-the-web-service%}). Each load-on-demand type is shown with a simple examplethat also shows how to consume the Value property.
 
 >note The examples below show specific functionality for the given tile type, for more infomration on the general options for navigation and selecting please examine the additional resources at the end of the article.
 >
@@ -42,7 +42,7 @@ The __Value__ property of the Tile is used to __transfer information to the web 
 
 ## Example - RadLiveTile with Page Methods
 
-This simple example below shows a basic configuration of the __RadLiveTile__ so that it fetches data from a __Page Method__. The end result would be similar to the image:![Tile List-Tiles-Live Tile-Simple-Example](images/TileList-Tiles-LiveTile-Simple-Example.png)
+This simple example below shows a basic configuration of the **RadLiveTile** so that it fetches data from a **Page Method**. The end result would be similar to the image:![Tile List-Tiles-Live Tile-Simple-Example](images/TileList-Tiles-LiveTile-Simple-Example.png)
 
 
 
@@ -80,9 +80,9 @@ This simple example below shows a basic configuration of the __RadLiveTile__ so 
 
 The points of interest in this example are the following:
 
-* The __EnablePageMethods__ property of the ScriptManager is set to __true__
+* The **EnablePageMethods** property of the ScriptManager is set to **true**
 
-* The __Path__ property of the __RadLiveTile.WebServiceSettings__ is set to the __current page__.
+* The **Path** property of the **RadLiveTile.WebServiceSettings** is set to the **current page**.
 
 * arguments are not passed to the method, nor the returned object is complex. More information on passing arguments and working with the returned data in the template is available in the [Loading Data help article]({%slug tilelist/tiles/live-tile/loading-data%}).
 

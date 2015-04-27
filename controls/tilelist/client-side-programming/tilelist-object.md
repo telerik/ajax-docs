@@ -1,6 +1,6 @@
 ---
 title: TileList Object
-page_title: TileList Object | UI for ASP.NET AJAX Documentation
+page_title: TileList Object | RadTileList for ASP.NET AJAX Documentation
 description: TileList Object
 slug: tilelist/client-side-programming/tilelist-object
 tags: tilelist,object
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadTileList__ object exposes the following public methods and properties to control its behavior:
+The **RadTileList** object exposes the following public methods and properties to control its behavior:
 
 
 >caption 	Helper Methods
@@ -74,26 +74,26 @@ To see how to work dynamically with client-side event handlers examine the[Clien
 |set_height(value)|String/int||Sets the height of the RadTileList element.|
 |set_scrollingMode(value)|Int||Sets the RadTileList[scrolling mode]({%slug tilelist/functionality/scrolling%}).	The`Telerik.Web.UI.TileList.TileListScrollingMode`enum can be used	instead of an integer, where:
 
-* 1 = Telerik.Web.UI.TileList.TileListScrollingMode. __Auto__ mode
+* 1 = Telerik.Web.UI.TileList.TileListScrollingMode. **Auto** mode
 
-* 2 = Telerik.Web.UI.TileList.TileListScrollingMode. __None__ mode
+* 2 = Telerik.Web.UI.TileList.TileListScrollingMode. **None** mode
 
-* 4 = Telerik.Web.UI.TileList.TileListScrollingMode. __Native__ mode
+* 4 = Telerik.Web.UI.TileList.TileListScrollingMode. **Native** mode
 
-* 8 = Telerik.Web.UI.TileList.TileListScrollingMode. __Accelerated__ mode|
+* 8 = Telerik.Web.UI.TileList.TileListScrollingMode. **Accelerated** mode|
 |set_selectionMode(value)|Int||Sets the[selection mode]({%slug tilelist/functionality/selecting%})of RadTileList.	The`Telerik.Web.UI.TileList.TileListSelectionMode`enum can be used	instead of an integer, where:
 
-* 1 = Telerik.Web.UI.TileList.TileListSelectionMode. __None__ mode
+* 1 = Telerik.Web.UI.TileList.TileListSelectionMode. **None** mode
 
-* 2 = Telerik.Web.UI.TileList.TileListSelectionMode. __Single__ mode
+* 2 = Telerik.Web.UI.TileList.TileListSelectionMode. **Single** mode
 
-* 4 = Telerik.Web.UI.TileList.TileListSelectionMode. __Multiple__ mode|
+* 4 = Telerik.Web.UI.TileList.TileListSelectionMode. **Multiple** mode|
 |set_width(value)|String/int||Sets the width of the RadTileList element.|
 
 
 >caption RadTileList Client-Side Methods for attaching/detaching client-side event handlers
 
-|  __Name__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ |
 |add_clientTileContentTemplateDataBound()|Function|Adds a handler for the OnClientTileContentTemplateDataBound TileList client event.|
 |add_clientTileCreating()|Function|Adds a handler for the OnClientTileCreating TileList client event.|

@@ -1,6 +1,6 @@
 ---
 title: OnClientCheckStarted
-page_title: OnClientCheckStarted | UI for ASP.NET AJAX Documentation
+page_title: OnClientCheckStarted | RadSpell for ASP.NET AJAX Documentation
 description: OnClientCheckStarted
 slug: spell/client-side-programming/events/onclientcheckstarted
 tags: onclientcheckstarted
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __OnClientCheckStarted__client-side event occurs when the spell check begins and before the spell check dialog appears.
+The **OnClientCheckStarted**client-side event occurs when the spell check begins and before the spell check dialog appears.
 
 The event handler receives parameters:
 
@@ -22,7 +22,7 @@ The event handler receives parameters:
 
 1. Event arguments with the following properties:
 
-1. __set_cancel__: Can be used to cancel the event. Calling __set_cancel(true)__ prevents the spell check from continuing.
+1. **set_cancel**: Can be used to cancel the event. Calling **set_cancel(true)** prevents the spell check from continuing.
 
 The example below displays the discontinues the spell check if the contents of "TextBox1" contain the string [www.telerik.com](http://www.telerik.com).
 

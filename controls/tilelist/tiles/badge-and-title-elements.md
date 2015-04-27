@@ -1,6 +1,6 @@
 ---
 title: Badge and Title Elements
-page_title: Badge and Title Elements | UI for ASP.NET AJAX Documentation
+page_title: Badge and Title Elements | RadTileList for ASP.NET AJAX Documentation
 description: Badge and Title Elements
 slug: tilelist/tiles/badge-and-title-elements
 tags: badge,and,title,elements
@@ -14,13 +14,13 @@ position: 8
 
 ## Overview
 
-The __Badge__ and the __Title__ of each tile are the two constant indicators thatare shown on the tile, even when the __Peek Template__ is shown.They can be used to convey information to the user in a visual manner (e.g. through images) or throughtext (the title) and a number (the badge).
+The **Badge** and the **Title** of each tile are the two constant indicators thatare shown on the tile, even when the **Peek Template** is shown.They can be used to convey information to the user in a visual manner (e.g. through images) or throughtext (the title) and a number (the badge).
 
 The title is in the bottom left corner of the tile and the badge is in the bottom right corner. They have a 10px offset from the border of the tile.![tile List-title-and-badge-overview](images/tileList-title-and-badge-overview.png)
 
 Here is the sample declaration that results in the above screenshot:
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 		<telerik:RadTileList runat="server" id="RadTileList1">
@@ -37,7 +37,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadTextTile ID="Tile1" runat="server" Text="Lorem ipsum dolor sit amet.">
@@ -50,7 +50,7 @@ Standalone __Tile__ example:
 
 ## Title
 
-It is placed in the bottom left corner of the tile and the inner __<Title>__ tagin each tile is used to control it. There are two properties it exposes:
+It is placed in the bottom left corner of the tile and the inner **<Title>** tagin each tile is used to control it. There are two properties it exposes:
 
 * Text - this is the string that is displayed in the title.
 
@@ -60,7 +60,7 @@ When text is used it is rendered inside an <h6> element that takes 70% of the ti
 
 ## Badge
 
-The __<Badge>__ inner tag inside each tile controls the behavior of the badge.It exposes the following ways to set the content, listed in order of precedence (the last one hasthe highest priority).
+The **<Badge>** inner tag inside each tile controls the behavior of the badge.It exposes the following ways to set the content, listed in order of precedence (the last one hasthe highest priority).
 
 * ImageUrl - the URL to the image that will be shown in the title
 

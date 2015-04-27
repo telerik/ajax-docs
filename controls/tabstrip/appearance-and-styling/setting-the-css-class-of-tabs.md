@@ -1,6 +1,6 @@
 ---
 title: Setting the CSS Class of Tabs
-page_title: Setting the CSS Class of Tabs | UI for ASP.NET AJAX Documentation
+page_title: Setting the CSS Class of Tabs | RadTabStrip for ASP.NET AJAX Documentation
 description: Setting the CSS Class of Tabs
 slug: tabstrip/appearance-and-styling/setting-the-css-class-of-tabs
 tags: setting,the,css,class,of,tabs
@@ -12,29 +12,29 @@ position: 3
 
 
 
-__RadTab__ objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin%}).
+**RadTab** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual tabs in the tab strip without using a [custom skin]({%slug tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin%}).
 
->caution Typically, the[Skin]({%slug tabstrip/appearance-and-styling/skins%})overrides the CSS class properties. When using the CSS class properties, set the __Skin__ property to an empty string ("").
+>caution Typically, the[Skin]({%slug tabstrip/appearance-and-styling/skins%})overrides the CSS class properties. When using the CSS class properties, set the **Skin** property to an empty string ("").
 >
 
 
 The CSS class properties are
 
-* __CssClass__: controls the appearance of the tab in all states.
+* **CssClass**: controls the appearance of the tab in all states.
 
-* __SelectedCssClass__: controls the appearance of the tab when it is selected.
+* **SelectedCssClass**: controls the appearance of the tab when it is selected.
 
-* __DisabledCssClass__: controls the appearance of the tab when it is disabled.
+* **DisabledCssClass**: controls the appearance of the tab when it is disabled.
 
-* __HoveredCssClass__: controls the appearance of the tab when the mouse is over it.
+* **HoveredCssClass**: controls the appearance of the tab when the mouse is over it.
 
-* __ChildGroupCssClass__: controls the appearance of the set of child tabs that appear when the tab is selected.
+* **ChildGroupCssClass**: controls the appearance of the set of child tabs that appear when the tab is selected.
 
-* __OuterCssClass__: controls the appearance of the outmost tab wrapper (<LI> element) /added in Q2 2009 SP1/
+* **OuterCssClass**: controls the appearance of the outmost tab wrapper (<LI> element) /added in Q2 2009 SP1/
 
 To set the CSS class properties of an item at design time, use the [RadTabStrip Item Builder]({%slug tabstrip/design-time/radtabstrip-item-builder%}).
 
->note The CSS class of a tab is applied to the anchor (<a>) tag that represents the item in the rendered HTML output, except for the __ChildGroupCssClass__ property, which is applied to an unordered list (<ul>). For more information about the rendered output of __RadTabStrip__ , see[Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of a tab is applied to the anchor (<a>) tag that represents the item in the rendered HTML output, except for the **ChildGroupCssClass** property, which is applied to an unordered list (<ul>). For more information about the rendered output of **RadTabStrip** , see[Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 

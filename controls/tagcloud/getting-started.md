@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadTagCloud for ASP.NET AJAX Documentation
 description: Getting Started
 slug: tagcloud/getting-started
 tags: getting,started
@@ -14,14 +14,14 @@ position: 2
 
 ## 
 
-__Synopsis:__ The followingtutorial demonstrates how to set up a page with __RadTagCloud__ and manually populate the control with keywords. The walk-through will also show how to sort the items alphabetically in ascending order.
+**Synopsis:** The followingtutorial demonstrates how to set up a page with **RadTagCloud** and manually populate the control with keywords. The walk-through will also show how to sort the items alphabetically in ascending order.
 
 1. Add a RadTagCloud control in the default page of a new ASP.NET AJAX-enabled Web Application.
 >caption 
 
 ![RadTagCloud](images/tagcloud_getting_started01.png)
 
-1. In the Source view of the .aspx page, find the definition of the TagCloud, and add the __<Items></Items>__ inner property.
+1. In the Source view of the .aspx page, find the definition of the TagCloud, and add the **<Items></Items>** inner property.
 
 1. Add the following list of items between the opening and the closing tag of the <Items> property. Every item represents a country, with the Weight of the item equal representing the millions of people living there, and the NavigateUrl pointing to the country's Wikipedia article
 
@@ -44,7 +44,7 @@ __Synopsis:__ The followingtutorial demonstrates how to set up a page with __Rad
 
 
 
-1. Set the following properties in the Properties Window of RadTagCloud __Width="400px"MaxFontSize="50px"Sorting="AlphabeticAsc"__
+1. Set the following properties in the Properties Window of RadTagCloud **Width="400px"MaxFontSize="50px"Sorting="AlphabeticAsc"**
 
 1. Press F5 to run the application. When a tag is clicked the browser navigates to the respective Wikipedia article.
 >caption 

@@ -1,6 +1,6 @@
 ---
 title: OnTileClick
-page_title: OnTileClick | UI for ASP.NET AJAX Documentation
+page_title: OnTileClick | RadTileList for ASP.NET AJAX Documentation
 description: OnTileClick
 slug: tilelist/server-side-programming/server-side-events/ontileclick
 tags: ontileclick
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-The __TileClick__ server side event is triggered when a tile is clicked with the left mouse button(or is tapped on a touch device) and the __AutoPostBack__ property is set to __true__.[Navigation]({%slug tilelist/functionality/navigation%}) will not occur even if a NavigateUrl is provided in the given tile,but a postback will be invoked instead.
+The **TileClick** server side event is triggered when a tile is clicked with the left mouse button(or is tapped on a touch device) and the **AutoPostBack** property is set to **true**.[Navigation]({%slug tilelist/functionality/navigation%}) will not occur even if a NavigateUrl is provided in the given tile,but a postback will be invoked instead.
 
-The event handler receives two arguments - of type __object__ that is a reference to theRadTileList control that fired the event and can be cast to it, and a __Telerik.Web.UI.TileListEventArgs__object that can be used to get a reference to the clicked [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%}) throughits __Tile__ property. It returns an object of type *RadBaseTile*.
+The event handler receives two arguments - of type **object** that is a reference to theRadTileList control that fired the event and can be cast to it, and a **Telerik.Web.UI.TileListEventArgs**object that can be used to get a reference to the clicked [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%}) throughits **Tile** property. It returns an object of type *RadBaseTile*.
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" OnTileClick="OnTileClick">

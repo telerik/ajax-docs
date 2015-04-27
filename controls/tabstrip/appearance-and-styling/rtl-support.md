@@ -1,6 +1,6 @@
 ---
 title: RTL support
-page_title: RTL support | UI for ASP.NET AJAX Documentation
+page_title: RTL support | RadTabStrip for ASP.NET AJAX Documentation
 description: RTL support
 slug: tabstrip/appearance-and-styling/rtl-support
 tags: rtl,support
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-__RadTabStrip__ includes support for right-to-left locales using the direction attribute. If you set __dir="tabstrip-rtl"__ on the __RadTabStrip__ objector to any parent HTML element, __RadTabStrip__ reverses the tab order:
+**RadTabStrip** includes support for right-to-left locales using the direction attribute. If you set **dir="tabstrip-rtl"** on the **RadTabStrip** objector to any parent HTML element, **RadTabStrip** reverses the tab order:
 
 ````ASPNET
 	     

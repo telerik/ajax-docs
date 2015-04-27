@@ -1,6 +1,6 @@
 ---
 title: OnClientResized
-page_title: OnClientResized | UI for ASP.NET AJAX Documentation
+page_title: OnClientResized | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientResized
 slug: splitter/client-side-programming/events/onclientresized
 tags: onclientresized
@@ -14,23 +14,23 @@ position: 5
 
 ## 
 
-The __OnClientResized__ client-side event handler is called when a control has just been resized. The resize can occur because of a user action (such as dragging a split bar or resizing the window that contains a splitter), or as the result of a a call to a client-side method.
+The **OnClientResized** client-side event handler is called when a control has just been resized. The resize can occur because of a user action (such as dragging a split bar or resizing the window that contains a splitter), or as the result of a a call to a client-side method.
 
->note The __OnClientResized__ event is supported by __RadSplitter__ , __RadPane__ , and __RadSlidingPane__ .
+>note The **OnClientResized** event is supported by **RadSplitter** , **RadPane** , and **RadSlidingPane** .
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the splitter or pane that was just resized.
+* **sender** is the splitter or pane that was just resized.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __get_oldHeight()__ returns the height of the control before the resize.
+* **get_oldHeight()** returns the height of the control before the resize.
 
-* __get_oldWidth()__ returns the width of the control before the resize.
+* **get_oldWidth()** returns the width of the control before the resize.
 
-The following example uses the __OnClientResized__ event to show an alert:
+The following example uses the **OnClientResized** event to show an alert:
 
 ````ASPNET
 	     

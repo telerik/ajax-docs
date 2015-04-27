@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenu
-page_title: OnClientContextMenu | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenu | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientContextMenu
 slug: tabstrip/client-side-programming/onclientcontextmenu
 tags: onclientcontextmenu
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientContextMenu__ client-side event occurs when the user right-clicks on a tab in the tab strip.
+The **OnClientContextMenu** client-side event occurs when the user right-clicks on a tab in the tab strip.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_tab__returns a reference to the __RadTab__ that was clicked.
+* **get_tab**returns a reference to the **RadTab** that was clicked.
 
-* __get_domEvent__returns a reference to the DOM event object for the right-click.
+* **get_domEvent**returns a reference to the DOM event object for the right-click.
 
 You can use this event to perform special actions when the user right-clicks on a tab:
 

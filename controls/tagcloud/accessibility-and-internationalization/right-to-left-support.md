@@ -1,6 +1,6 @@
 ---
 title: Right-to-left Support
-page_title: Right-to-left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-to-left Support | RadTagCloud for ASP.NET AJAX Documentation
 description: Right-to-left Support
 slug: tagcloud/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __RadTagCloud__ fully supports right-to-left (RTL) language locales. The __RadTagCloud__ is added to the page as child of the body element and in order to turn on the RTL support you should set __dir=rtl to the html or body__ elements or to its direct parent.
+The **RadTagCloud** fully supports right-to-left (RTL) language locales. The **RadTagCloud** is added to the page as child of the body element and in order to turn on the RTL support you should set **dir=rtl to the html or body** elements or to its direct parent.
 
 ````ASPNET
 	    <div dir="rtl">

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequesting
-page_title: OnClientItemsRequesting | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequesting | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientItemsRequesting
 slug: tagcloud/client-side-programming/events/onclientitemsrequesting
 tags: onclientitemsrequesting
@@ -12,15 +12,15 @@ position: 4
 
 
 
-The __OnClientItemsRequesting__ is fired before sending a request to a Web Service for the items to be bound.
+The **OnClientItemsRequesting** is fired before sending a request to a Web Service for the items to be bound.
 
 ## 
 
 The event handler receives two arguments:
 
-* __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+* **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-* __Event arguments__–event arguments object of type __Sys.CancelEventArgs__, that exposes the following properties and methods:
+* **Event arguments**–event arguments object of type **Sys.CancelEventArgs**, that exposes the following properties and methods:
 
 
 | Name | Parameters | Return Type | Description |

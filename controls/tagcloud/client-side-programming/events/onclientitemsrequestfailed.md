@@ -1,6 +1,6 @@
 ---
 title: OnClientItemsRequestFailed
-page_title: OnClientItemsRequestFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemsRequestFailed | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientItemsRequestFailed
 slug: tagcloud/client-side-programming/events/onclientitemsrequestfailed
 tags: onclientitemsrequestfailed
@@ -12,15 +12,15 @@ position: 6
 
 
 
-The __OnClientItemsRequestFailed__ is fired when the request to the web service is failed.The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise
+The **OnClientItemsRequestFailed** is fired when the request to the web service is failed.The event arguments provide information about the error message and allow the developer to cancel the error alert and process the error otherwise
 
 ## 
 
 The event handler receives two arguments:
 
-* __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+* **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-* __Event arguments__–event arguments object of type __Telerik.Web.UI.RadTagCloudErrorEventArgs__, that exposes the following properties and methods:
+* **Event arguments**–event arguments object of type **Telerik.Web.UI.RadTagCloudErrorEventArgs**, that exposes the following properties and methods:
 
 
 | Name | Parameters | Return Type | Description |

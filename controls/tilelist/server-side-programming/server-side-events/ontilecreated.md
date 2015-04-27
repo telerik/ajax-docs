@@ -1,6 +1,6 @@
 ---
 title: OnTileCreated
-page_title: OnTileCreated | UI for ASP.NET AJAX Documentation
+page_title: OnTileCreated | RadTileList for ASP.NET AJAX Documentation
 description: OnTileCreated
 slug: tilelist/server-side-programming/server-side-events/ontilecreated
 tags: ontilecreated
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-The __OnTileCreated__ event is fired for each [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%})that is created from a [databound RadTileList]({%slug tilelist/data-binding/overview%}) when itscontrol instance is being created on the server.
+The **OnTileCreated** event is fired for each [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%})that is created from a [databound RadTileList]({%slug tilelist/data-binding/overview%}) when itscontrol instance is being created on the server.
 
 It precedes the [OnTileDataBound]({%slug tilelist/server-side-programming/server-side-events/ontiledatabound%}) event.
 
-The __OnTileCreated__ event can be used to set common properties for the tiles, like the__PeekTemplateSettings__ configuration.
+The **OnTileCreated** event can be used to set common properties for the tiles, like the**PeekTemplateSettings** configuration.
 
 If the ViewState on the page (or the control) is not disabled, these properties will be stored there as well.
 

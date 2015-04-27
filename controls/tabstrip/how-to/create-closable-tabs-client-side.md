@@ -1,6 +1,6 @@
 ---
 title: Create Closable Tabs Client-Side
-page_title: Create Closable Tabs Client-Side | UI for ASP.NET AJAX Documentation
+page_title: Create Closable Tabs Client-Side | RadTabStrip for ASP.NET AJAX Documentation
 description: Create Closable Tabs Client-Side
 slug: tabstrip/how-to/create-closable-tabs-client-side
 tags: create,closable,tabs,client-side

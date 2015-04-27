@@ -1,6 +1,6 @@
 ---
 title: ImageAndText Tile
-page_title: ImageAndText Tile | UI for ASP.NET AJAX Documentation
+page_title: ImageAndText Tile | RadTileList for ASP.NET AJAX Documentation
 description: ImageAndText Tile
 slug: tilelist/tiles/imageandtext-tile
 tags: imageandtext,tile
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-A __RadImageAndTextTile__ consists of an __image__ that starts from the top left corner of the tileand may reach the tile's borders and a __text__ string that is placed __between__ the__Title__ and the __Badge__.
+A **RadImageAndTextTile** consists of an **image** that starts from the top left corner of the tileand may reach the tile's borders and a **text** string that is placed **between** the**Title** and the **Badge**.
 
-The image is chosen through the __ImageUrl__ property of the tile and the text string is set in the	__Text__ property.
+The image is chosen through the **ImageUrl** property of the tile and the text string is set in the	**Text** property.
 
 To accommodate the text the title is narrowed down and is designed to be used with an image instead of text.There are 44 pixels available to the left of the text and 2x10 of them are padding for the title, so the titleimage that will fit best is 24x24 pixels.
 
@@ -26,7 +26,7 @@ To the right, towards the badge, there are 35 pixels left available and the badg
 >
 
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1">
@@ -44,7 +44,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadImageAndTextTile ID="Tile1" runat="server" Shape="Wide" BackColor="Orange" ImageUrl="images/swim.png"

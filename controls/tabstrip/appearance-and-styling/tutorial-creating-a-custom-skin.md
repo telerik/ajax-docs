@@ -1,6 +1,6 @@
 ---
 title: Tutorial Creating A Custom Skin
-page_title: Tutorial Creating A Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Tutorial Creating A Custom Skin | RadTabStrip for ASP.NET AJAX Documentation
 description: Tutorial Creating A Custom Skin
 slug: tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin
 tags: tutorial,creating,a,custom,skin
@@ -12,7 +12,7 @@ position: 5
 
 
 
-The following tutorial demonstrates creating a custom __RadTabStrip__ skin, using the default skin as a base. This new skin will take the appearance of the tab strip from its default look:
+The following tutorial demonstrates creating a custom **RadTabStrip** skin, using the default skin as a base. This new skin will take the appearance of the tab strip from its default look:
 
 ![Custom Skin Start](images/tabstrip_customskinstart.png)
 
@@ -24,9 +24,9 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 ## Prepare the Project
 
-1. Drag a __RadTabStrip__ from the toolbox onto a new AJAX-enabled application Web form.
+1. Drag a **RadTabStrip** from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Use the __RadTabStrip Item Builder__ to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
+1. Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
 
 ````ASPNET
 	 
@@ -55,7 +55,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
-1. Copy the default __RadTabStrip__ skin files from the installation directory to the "Green" directory; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
+1. Copy the default **RadTabStrip** skin files from the installation directory to the "Green" directory; copy both the \TabStrip directory that contains the images for this skin and the TabStrip.Default.css file that defines the skin styles.
 
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
 >
@@ -67,15 +67,15 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 1. Drag the "TabStrip.Green.Css" file from the Solution Explorer onto your Web page. This automatically adds a reference to the page "<head>" tag as a "<link>" to the new stylesheet:![Add link](images/tabstrip_addlink.png)
 
-1. Set the __EnableEmbeddedSkins__ property of the __RadTabStrip__ control to __False__.
+1. Set the **EnableEmbeddedSkins** property of the **RadTabStrip** control to **False**.
 
-1. Change the __Skin__ property of your __RadTabStrip__ control to "Green".
+1. Change the **Skin** property of your **RadTabStrip** control to "Green".
 
 1. Run the application. The new "Green" skin looks just like the Default skin:![Custom Skin Start](images/tabstrip_customskinstart.png)
 
 ## Modifying the CSS file
 
-1. The first selector in the CSS file sets the "color" attribute for the __.rtsLI__ and __.rtsLink__ classes. These are the classes applied to the LI and A elements that represent a rendered tab. (Separator tabs get the __.rtsLI__ class on an LI element, but have no A element with the __.rtsLink__ class). Change the color to green, so that the text labels on tabs use a green font :
+1. The first selector in the CSS file sets the "color" attribute for the **.rtsLI** and **.rtsLink** classes. These are the classes applied to the LI and A elements that represent a rendered tab. (Separator tabs get the **.rtsLI** class on an LI element, but have no A element with the **.rtsLink** class). Change the color to green, so that the text labels on tabs use a green font :
 
 ````ASPNET
 	
@@ -89,7 +89,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 
 
-1. Locate the selector for the __.rtsIn__ class. This class is applied to a SPAN that wraps the text and images that label the tabs. Change the padding attribute from "9px 20px 7px" to "0 5px 5px" to reduce the size of the tabs:
+1. Locate the selector for the **.rtsIn** class. This class is applied to a SPAN that wraps the text and images that label the tabs. Change the padding attribute from "9px 20px 7px" to "0 5px 5px" to reduce the size of the tabs:
 
 ````ASPNET
 	     
@@ -103,7 +103,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 
 
-1. Locate the selector for the __.rtsDisabled__ class (it is qualified by the __.RadTabStrip_Green__, __.RadTabStripLeft_Green__, __.RadTabStripRight_Green__, __.RadTabStripBottom_Green__, and __.RadTabStrip_Green_disabled__ classes for additional specificity). Change the color attribute from "#ccc" to "#bcb", to give the disabled text a greener font:
+1. Locate the selector for the **.rtsDisabled** class (it is qualified by the **.RadTabStrip_Green**, **.RadTabStripLeft_Green**, **.RadTabStripRight_Green**, **.RadTabStripBottom_Green**, and **.RadTabStrip_Green_disabled** classes for additional specificity). Change the color attribute from "#ccc" to "#bcb", to give the disabled text a greener font:
 
 ````ASPNET
 	
@@ -121,7 +121,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 
 
-1. Locate the group of selectors that all begin with __.RadTabStripTop__. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for __.rtsLink__ and replace the background attribute (which loads an image) with "#aff1a1":
+1. Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
 
 ````ASPNET
 	     
@@ -131,9 +131,9 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 
 
-1. In the same group, delete the selectors __.rtsFirst .rtsLink__, __.rtsLast .rtsLink__, and __.rtsLast .rtsOut__. These classes provide the shape of the first and last tabs in the tab strip (with the .rtsOut class to handle the interior portion of the tab).
+1. In the same group, delete the selectors **.rtsFirst .rtsLink**, **.rtsLast .rtsLink**, and **.rtsLast .rtsOut**. These classes provide the shape of the first and last tabs in the tab strip (with the .rtsOut class to handle the interior portion of the tab).
 
-1. Locate the remaining selectors that set a background image for the tabs. These are __.rtsSelected__, __.rtsSelected .rtsOut__, __.rtsFirst .rtsSelected__, __.rtsLast .rtsSelected__, and __.rtsLast .rtsSelected .rtsOut__. These apply to selected tabs, with qualifiers for the first and last tabs, and with the __.rtsOut__ class added for the portion of the tab that contains images and text. Change the background attribute so that instead of a transparent color, it uses "#aff1a1":
+1. Locate the remaining selectors that set a background image for the tabs. These are **.rtsSelected**, **.rtsSelected .rtsOut**, **.rtsFirst .rtsSelected**, **.rtsLast .rtsSelected**, and **.rtsLast .rtsSelected .rtsOut**. These apply to selected tabs, with qualifiers for the first and last tabs, and with the **.rtsOut** class added for the portion of the tab that contains images and text. Change the background attribute so that instead of a transparent color, it uses "#aff1a1":
 
 ````ASPNET
 	.RadTabStripTop_Green .rtsSelected { background: #aff1a1 url('TabStrip/TabStripHStates.gif') no-repeat 0 -72px; }
@@ -145,7 +145,7 @@ See [Understanding the Skin CSS File]({%slug tabstrip/appearance-and-styling/und
 
 
 
-1. Locate the group of selectors that all begin with __.RadTabStripTop__. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for __.rtsLink__ and replace the background attribute (which loads an image) with "#aff1a1":
+1. Locate the group of selectors that all begin with **.RadTabStripTop**. These are for tab strips with a "HorizontalTop" orientation. Within this group, locate the selector for **.rtsLink** and replace the background attribute (which loads an image) with "#aff1a1":
 
 ````ASPNET
 	     

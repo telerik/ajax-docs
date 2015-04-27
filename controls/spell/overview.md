@@ -1,6 +1,6 @@
 ---
-title: Spell Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSpell Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: spell/overview
 tags: overview
@@ -22,7 +22,7 @@ RadSpell for ASP.NET AJAX enables developers to add multilingual spellchecking c
 
 RadSpell for ASP.NET AJAX is a cross-browser server control, which uses no-postback algorithm and requires no installation or downloads on the client machine. To suit the specific requirements of your web-application the spellchecker interface can be easily localized, re-skinned or completely redesigned.
 
-__Key Features__
+**Key Features**
 
 * No-postback algorithm for superior performance
 

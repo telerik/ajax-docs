@@ -1,6 +1,6 @@
 ---
 title: Changes And Backward Compatibility
-page_title: Changes And Backward Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes And Backward Compatibility | RadSplitter for ASP.NET AJAX Documentation
 description: Changes And Backward Compatibility
 slug: splitter/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
@@ -182,13 +182,13 @@ Client-side API
 
 ## Telerik RadSplitter for ASP.NET AJAX Q1 2009
 
-* The __FullScreenMode__ property is now obsolete.
+* The **FullScreenMode** property is now obsolete.
 
 * Total redesign of the skins, which aims for a uniformity of the appearance of all controls in the suite in the cases they are used to build RIAs
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention For example was: __RadSplitter_Default__ now: __RadSplitter RadSplitter_Default__
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming convention For example was: **RadSplitter_Default** now: **RadSplitter RadSplitter_Default**
 
 ## Telerik RadSplitter for ASP.NET AJAX Q3 2008
 
@@ -204,38 +204,38 @@ RadSplitter for ASP.NET AJAX which is part of the Q2 2008 release is fully backw
 
 ## Differences between RadSplitter "classic" and RadSplitter for ASP.NET AJAX
 
-The __RadSplitter's__ API has changed slightly from the classic product:
+The **RadSplitter's** API has changed slightly from the classic product:
 
 ## Server-side API changes
 
-In the __RadSplitter__ server-side API, a few properties have been removed or renamed, the names of the client-side events have changed, and a few type names have changed:
+In the **RadSplitter** server-side API, a few properties have been removed or renamed, the names of the client-side events have changed, and a few type names have changed:
 
 ## RadSplitter
 
-The following table lists the changes to the __RadSplitter__ object:
+The following table lists the changes to the **RadSplitter** object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |UseEmbeddedScripts|(removed)|
 |SkinsPath|(removed)|
 |TelerikControlsDir|(removed)|
 
 ## RadPane
 
-The following table lists the changes to the __RadPane__ object:
+The following table lists the changes to the **RadPane** object:
 
 
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |UseEmbeddedScripts|(removed)|
 |TelerikControlsDir|(removed)|
 |InitiallyCollapsed|Collapsed|
@@ -248,27 +248,27 @@ The following table lists the changes to the __RadPane__ object:
 
 ## RadSplitBar
 
-The following table lists the changes to the __RadSplitBar__ object:
+The following table lists the changes to the **RadSplitBar** object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |UseEmbeddedScripts|(removed)|
 |TelerikControlsDir|(removed)|
 
 ## RadSlidingZone
 
-The following table lists the changes to the __RadSlidingZone__ object:
+The following table lists the changes to the **RadSlidingZone** object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |UseEmbeddedScripts|(removed)|
 |SkinsPath|(removed)|
 |TelerikControlsDir|(removed)|
@@ -277,14 +277,14 @@ The following table lists the changes to the __RadSlidingZone__ object:
 
 ## RadSlidingPane
 
-The following table lists the changes to the __RadSlidingPane__ object:
+The following table lists the changes to the **RadSlidingPane** object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |UseEmbeddedScripts|(removed)|
 |TelerikControlsDir|(removed)|
 |OnClientBeforePaneCollapse|OnClientBeforeCollapse|
@@ -305,7 +305,7 @@ The following table lists the type name changes:
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
 |Telerik.WebControls.RadSplitterOrientation|Telerik.Web.UI.Orientation|
 |Telerik.WebControls.RadSplitterItemsCollection|Telerik.Web.UI.SplitterItemsCollection|
@@ -317,7 +317,7 @@ The following table lists the type name changes:
 
 ## Client-side API changes
 
-Due to the migration of the __RadSplitter__ control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
+Due to the migration of the **RadSplitter** control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
 
 ## Event handlers
 
@@ -327,7 +327,7 @@ The signature for client-side events has been unified, so that all event handler
 
 1. The second argument (eventArgs) is a holder for the old arguments passed in the respective handler.
 
-To cancel an event (which can be cancelled) you now call "set_cancel(true)" on the eventArgs argument instead of returning __false__ from the event handler:
+To cancel an event (which can be cancelled) you now call "set_cancel(true)" on the eventArgs argument instead of returning **false** from the event handler:
 
 ````JavaScript
 	
@@ -342,14 +342,14 @@ To cancel an event (which can be cancelled) you now call "set_cancel(true)" on t
 
 ## RadSplitter object
 
-The following table lists the changes to the methods of the __RadSplitter__ client object:
+The following table lists the changes to the methods of the **RadSplitter** client object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |GetMinWidth()|getMinWidth()|
 |GetMaxWidth()|getMaxWidth()|
 |GetMinHeight()|getMinHeight()|
@@ -371,14 +371,14 @@ The following table lists the changes to the methods of the __RadSplitter__ clie
 
 ## RadPane object
 
-The following table lists the changes to the methods of the __RadPane__ client object:
+The following table lists the changes to the methods of the **RadPane** client object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |GetScrollPos()|getScrollPos()|
 |SetScrollPos()|setScrollPos()|
 |Resize()|resize()|
@@ -397,14 +397,14 @@ The following table lists the changes to the methods of the __RadPane__ client o
 
 ## RadSplitBar object
 
-The following table lists the changes to the methods of the __RadSplitBar__ client object:
+The following table lists the changes to the methods of the **RadSplitBar** client object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |IsCollapseDirectionEnabled()|isCollapseDirectionEnabled()|
 |GetCollapseBarElement()|getCollapseBarElement()|
 |IsCollapsed()|isCollapsed()|
@@ -414,14 +414,14 @@ The following table lists the changes to the methods of the __RadSplitBar__ clie
 
 ## RadSlidingZone object
 
-The following table lists the changes to the methods of the __RadSlidingZone__ client object:
+The following table lists the changes to the methods of the **RadSlidingZone** client object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |GetPaneById()|getPaneById()|
 |GetTabsContainer()|getTabsContainer()|
 |DockPane()|dockPane()|
@@ -436,14 +436,14 @@ The following table lists the changes to the methods of the __RadSlidingZone__ c
 
 ## RadSlidingPane object
 
-The following table lists the changes to the methods of the __RadSlidingPane__ client object:
+The following table lists the changes to the methods of the **RadSlidingPane** client object:
 
 
 >caption  
 
-|  __RadSplitter Classic__  |  __RadSplitter for ASP.NET AJAX__  |
+|  **RadSplitter Classic**  |  **RadSplitter for ASP.NET AJAX**  |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |GetContentContainer()|getContentContainer()|
 |GetContent()|getContent()|
 |SetContent()|setContent()|

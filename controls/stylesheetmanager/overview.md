@@ -1,6 +1,6 @@
 ---
-title: StylesheetManager Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadStyleSheetManager Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: stylesheetmanager/overview
 tags: overview
@@ -20,25 +20,25 @@ Usually this problem is overcome by disabling the automatic stylesheet serving o
 
 This approach is not the best for of a number of reasons:- you must extract the files from the assembly for each control release;- files become too large to be maintainable (or you have to write a script to merge the source files);- the number of merged files you need to maintain can become very large depending on the control sets you have on different pages;
 
-With the newly added __RadStyleSheetManager__ control, RadControls for ASP.NET Ajax suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a __RadStyleSheetManager__ to your page and the stylesheet requests will be combined into a single request.
+With the newly added **RadStyleSheetManager** control, RadControls for ASP.NET Ajax suite gives developers the advantage of a simple drag-and-drop to achieve the combination of resources to a single request. All you need is to add a **RadStyleSheetManager** to your page and the stylesheet requests will be combined into a single request.
 
->note The __performance__ gain of __RadStyleSheetManager__ should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the resources. This comes at the cost of some processor load, because the resources get combined and compressed on the server.
->When testing locally, the largest part of the result you get is the time __RadStyleSheetManager__ takes to combine the resources and serve them to the browser.
+>note The **performance** gain of **RadStyleSheetManager** should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the resources. This comes at the cost of some processor load, because the resources get combined and compressed on the server.
+>When testing locally, the largest part of the result you get is the time **RadStyleSheetManager** takes to combine the resources and serve them to the browser.
 >
 
 
-__RadStyleSheetManager__ needs an __HttpHandler__ to be declared in the application configuration file to operate properly. The addition of the handler is made easy by the SmartTags of the control:
+**RadStyleSheetManager** needs an **HttpHandler** to be declared in the application configuration file to operate properly. The addition of the handler is made easy by the SmartTags of the control:
 
 
 >caption 
 
 
 
-As the __RadStyleSheetManager__ control uses ASP.NET 2.0 WebResource capabilities it benefits from gzip content compression (for browsers, supporting that) and script caching.
+As the **RadStyleSheetManager** control uses ASP.NET 2.0 WebResource capabilities it benefits from gzip content compression (for browsers, supporting that) and script caching.
 
-Similar to RadScriptManager, __RadStyleSheetManager__ combines all the requests (to the "stylesheet resource files" on the page) into a single one, reducing the page load time and traffic. The difference is that it does not replace the ScriptManager, but instead works together with it.
+Similar to RadScriptManager, **RadStyleSheetManager** combines all the requests (to the "stylesheet resource files" on the page) into a single one, reducing the page load time and traffic. The difference is that it does not replace the ScriptManager, but instead works together with it.
 
-__RadStyleSheetManager__ outputs a __<link>__ tag with a specific URL, making a request to an HttpHandler, which serves the combined scripts.
+**RadStyleSheetManager** outputs a **<link>** tag with a specific URL, making a request to an HttpHandler, which serves the combined scripts.
 
 RadStyleSheetManager also needs the HttpHandler to be registered in the application's configuration file, e.g.
 
@@ -54,9 +54,9 @@ RadStyleSheetManager also needs the HttpHandler to be registered in the applicat
 
 
 
-The actual URL of the HttpHandler can be changed using the __HttpHandlerUrlhttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html__ property of the control.
+The actual URL of the HttpHandler can be changed using the **HttpHandlerUrlhttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_httphandlerurl.html** property of the control.
 
-If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the __EnableStyleSheetCombinehttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html__ property to *false*.
+If the stylesheet combination is not needed for some reason (e.g. debugging) it can be disabled by setting the **EnableStyleSheetCombinehttp://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_radstylesheetmanager_enablestylesheetcombine.html** property to *false*.
 
 
 
@@ -66,15 +66,15 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 1. Adding an assembly as a WebResource:
 
-1. Add a new project of type *__Class Library__* to the solution and call it __TelerikCustomSkins__;
+1. Add a new project of type **Class Library** to the solution and call it **TelerikCustomSkins**;
 
-1. Add a StyleSheet file to the __TelerikCustomSkins__project and call it __TelerikSkinForComboBox__;
+1. Add a StyleSheet file to the **TelerikCustomSkins**project and call it **TelerikSkinForComboBox**;
 
-1. Set it to be an EmbeddedResource (using the Visual Studio Properties pane). __Right-click__ the css file -> __Properties__ ->choose __Embedded Resource__ for __Build Action__;
+1. Set it to be an EmbeddedResource (using the Visual Studio Properties pane). **Right-click** the css file -> **Properties** ->choose **Embedded Resource** for **Build Action**;
 
-1. Rename __Class1.cs__ to __TelerikSkin.cs__ in the TelerikCustomSkins project (this is a cosmetic step to create more meaningful names for the files used in this guide);
+1. Rename **Class1.cs** to **TelerikSkin.cs** in the TelerikCustomSkins project (this is a cosmetic step to create more meaningful names for the files used in this guide);
 
-1. Declare __TelerikSkinForComboBox.css__ as a WebResource by adding the __WebResource__ assembly attribute to the TelerikSkin.cs code file:
+1. Declare **TelerikSkinForComboBox.css** as a WebResource by adding the **WebResource** assembly attribute to the TelerikSkin.cs code file:
 
 
 
@@ -110,11 +110,11 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 ````
 
 
-1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> __ComboBox.Telerik.css__ to the __TelerikSkinForComboBox.css__ file.
+1. Copy the content of [My Telerik.Web.UI installation]\Skins\Telerik -> **ComboBox.Telerik.css** to the **TelerikSkinForComboBox.css** file.
 
 1. If the skin css file uses images, which you want to store as WebResources, you need to:
 
-1. Copy the images to __TelerikCustomSkins__ project. For the RadComboBox Telerik skin, the images are located at [My Telerik.Web.UI installation]\Skins\Telerik\__ComboBox__. Let's create a __ComboBox_Images__ folder to store the images.
+1. Copy the images to **TelerikCustomSkins** project. For the RadComboBox Telerik skin, the images are located at [My Telerik.Web.UI installation]\Skins\Telerik\**ComboBox**. Let's create a **ComboBox_Images** folder to store the images.
 
 1. Set the images as EmbeddedResources (using the Visual Studio Properties pane);
 
@@ -160,7 +160,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 >
 
 
->caution In __Visual Basic__ the name of the folder is[not honored](http://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx)so you need to be careful with the embedded resource name
+>caution In **Visual Basic** the name of the folder is[not honored](http://msdn.microsoft.com/en-us/library/aa289232(VS.71).aspx)so you need to be careful with the embedded resource name
 >
 
 
@@ -180,12 +180,12 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 
 
-1. Add System.Web as reference for the __TelerikCustomSkins__project and build the project. 
+1. Add System.Web as reference for the **TelerikCustomSkins**project and build the project. 
 >caption 
 
 
 
-1. Add the __TelerikCustomSkins__ project as reference to your web site and Build the entire solution.
+1. Add the **TelerikCustomSkins** project as reference to your web site and Build the entire solution.
 
 1. Add a StyleSheetReference to the StyleSheets property of RadStyleSheetManager, providing the full StyleSheet resource name and the Assembly it is located in, e.g
 
@@ -200,7 +200,7 @@ If the stylesheet combination is not needed for some reason (e.g. debugging) it 
 
 
 
-1. Test the page by adding RadComboBox with Skin="Telerik" and __EnableEmbeddedSkins__="__False__"__.__The expected result is that the Telerik skin is successfully applied to RadCombobBox.
+1. Test the page by adding RadComboBox with Skin="Telerik" and **EnableEmbeddedSkins**="**False**"**.**The expected result is that the Telerik skin is successfully applied to RadCombobBox.
 
 ````ASPNET
 	    <telerik:RadComboBox ID="RadComboBox1" Skin="Telerik" EnableEmbeddedSkins="False"
@@ -213,4 +213,4 @@ You can download a [sample project](http://www.telerik.com/support/code-library/
 
 ## Serving external StyleSheets through RadStyleSheetManager
 
-Since __Q2 2011 SP RadStyleSheetManager__ provides the ability to combine external style sheets as well. [This](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager-serving-external-style-sheets.html) help topic describes the feature and how it is configured in more detail.
+Since **Q2 2011 SP RadStyleSheetManager** provides the ability to combine external style sheets as well. [This](http://www.telerik.com/help/aspnet-ajax/radstylesheetmanager-serving-external-style-sheets.html) help topic describes the feature and how it is configured in more detail.

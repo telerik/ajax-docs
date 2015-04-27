@@ -1,6 +1,6 @@
 ---
 title: Client-side Data Binding
-page_title: Client-side Data Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Data Binding | RadTileList for ASP.NET AJAX Documentation
 description: Client-side Data Binding
 slug: tilelist/data-binding/client-side-data-binding
 tags: client-side,data,binding
@@ -12,30 +12,30 @@ position: 3
 
 
 
-This article demonstrates how the __RadTileList__ can be bound to a client-side data source.
+This article demonstrates how the **RadTileList** can be bound to a client-side data source.
 
 ## Getting Started with Client-side Data Binding
 
-Data binding the __TileList__ can be done with:
+Data binding the **TileList** can be done with:
 
-* the __RadClientDataSource__ control by setting its ID to the TileList's__ClientDataSourceID__ property;
+* the **RadClientDataSource** control by setting its ID to the TileList's**ClientDataSourceID** property;
 
-* using the __set_dataSource()__ method to attach an already requested data sourceand invoke the __dataBind()__ method to start the binding.
+* using the **set_dataSource()** method to attach an already requested data sourceand invoke the **dataBind()** method to start the binding.
 
-Designing the tiles and defining the data fields requested from the data source can be achieved with the same approach as described in the	[Data Binding Basics]({%slug tilelist/data-binding/overview%}) article - defining the layout of the tiles using the Data Binding properties in the __DataBindings__tag with the appropriate data field names.
+Designing the tiles and defining the data fields requested from the data source can be achieved with the same approach as described in the	[Data Binding Basics]({%slug tilelist/data-binding/overview%}) article - defining the layout of the tiles using the Data Binding properties in the **DataBindings**tag with the appropriate data field names.
 
-The main difference is generating the __ClientTilePeekTemplate__ and the __ContentTemplateTileBinding__. You can design themusing only HTML code where the fetched data source fields should be set with this syntax - __#= datasourceField #__.
+The main difference is generating the **ClientTilePeekTemplate** and the **ContentTemplateTileBinding**. You can design themusing only HTML code where the fetched data source fields should be set with this syntax - **#= datasourceField #**.
 
-The following sections provide examples which will clarify the data binding matter of the __RadTileList__ control.
+The following sections provide examples which will clarify the data binding matter of the **RadTileList** control.
 
 ## Data Binding the TileList using the RadClientDataSource control
 
-The __RadClientDataSource__ provides the ability to connect to a web service and fetch data to bind any appropriate Telerik control.After configuring the ClientDataSource with the needed settings, all you need is to set its ID to the __ClientDataSourceID__ propertyof the __RadTileList__ control. __Example 1__ demonstrates a sample implementation of such approach and shows how the__ContentTemplateTileBinding__ is used in client-side data binding scenario. The result of the implemented code is shown in __Figure 1__.
+The **RadClientDataSource** provides the ability to connect to a web service and fetch data to bind any appropriate Telerik control.After configuring the ClientDataSource with the needed settings, all you need is to set its ID to the **ClientDataSourceID** propertyof the **RadTileList** control. **Example 1** demonstrates a sample implementation of such approach and shows how the**ContentTemplateTileBinding** is used in client-side data binding scenario. The result of the implemented code is shown in **Figure 1**.
 >caption Figure 1: TileList data binding via the RadClientDataSource control
 
 ![tilelist-client-side-databinding-with-radclientdatasource](images/ClientSide-DataBinding/tilelist-client-side-databinding-with-radclientdatasource.png)
 
-__Example 1__: Using the __RadClientDataSource__ control for __RadTileList__ data binding
+**Example 1**: Using the **RadClientDataSource** control for **RadTileList** data binding
 
 ````ASPNET
 		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="8" AllowPaging="true">
@@ -76,9 +76,9 @@ __Example 1__: Using the __RadClientDataSource__ control for __RadTileList__ dat
 
 ## Simple Data Binding
 
-__Example 2__ demonstrates how the __set_dataSource()__ and the __dataBind()__methods are used to bind the __TileList__ to a simple dummy JS array. You can examine __Figure 2__ which shows	the result from the set data binding properties in the __DataBindings__ tag by generating the groups of the TileList and	define the elements of the [RadTextTile]({%slug tilelist/tiles/text-tile%}) type.
+**Example 2** demonstrates how the **set_dataSource()** and the **dataBind()**methods are used to bind the **TileList** to a simple dummy JS array. You can examine **Figure 2** which shows	the result from the set data binding properties in the **DataBindings** tag by generating the groups of the TileList and	define the elements of the [RadTextTile]({%slug tilelist/tiles/text-tile%}) type.
 
-And in __Figure 3__ - how the __ClientTilePeekTemplate__ is designed using HTML markup and how the	data field names should be declared.
+And in **Figure 3** - how the **ClientTilePeekTemplate** is designed using HTML markup and how the	data field names should be declared.
 >caption Figure 2: TileList bound to a simple JS array
 
 ![tilelist-client-side-simple-databinding-tiles](images/ClientSide-DataBinding/tilelist-client-side-simple-databinding-tiles.png)
@@ -86,7 +86,7 @@ And in __Figure 3__ - how the __ClientTilePeekTemplate__ is designed using HTML 
 
 ![tilelist-client-side-simple-databinding-peektemplates](images/ClientSide-DataBinding/tilelist-client-side-simple-databinding-peektemplates.png)
 
-__Example 2__: Simple data binding of the __RadTileList__ control.
+**Example 2**: Simple data binding of the **RadTileList** control.
 
 ````ASPNET
 			<telerik:RadTileList runat="server" ID="RadTileList1" Height="400" OnClientLoad="OnClientLoad">

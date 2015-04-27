@@ -1,6 +1,6 @@
 ---
 title: Responsive, Adaptive and Elastic Capabilities
-page_title: Responsive, Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Responsive, Adaptive and Elastic Capabilities | RadTileList for ASP.NET AJAX Documentation
 description: Responsive, Adaptive and Elastic Capabilities
 slug: tilelist/mobile-support/responsive,-adaptive-and-elastic-capabilities
 tags: responsive,,adaptive,and,elastic,capabilities
@@ -12,34 +12,34 @@ position: 0
 
 
 
-__RadTileList__ (__Figure 1__) can provide __responsive layout__ that reacts to the size of the available viewport.	Depending on the viewport size, __RadTileList__ will __automatically__ change its appearance to better fit the screen.	This feature is enabled by setting the __RenderMode__ property to __Mobile__.	This help article will show three layouts supported by __RadTileList__ (standard, tablet-oriented, phone-oriented)and then will show the code example used to generate the figures below.
+**RadTileList** (**Figure 1**) can provide **responsive layout** that reacts to the size of the available viewport.	Depending on the viewport size, **RadTileList** will **automatically** change its appearance to better fit the screen.	This feature is enabled by setting the **RenderMode** property to **Mobile**.	This help article will show three layouts supported by **RadTileList** (standard, tablet-oriented, phone-oriented)and then will show the code example used to generate the figures below.
 
 Depending on the viewport width, the layout can be:
 
-* __standard__—columns and groups of tiles with rows that flow to the right (__Figure 1__). The number of rows depends on the __Height__	and __TileRows__ properties of the control. This "*standard*" layout is the default and this is how	__RadTileList__ usually renders.	This mode is in effect	__for viewports wider than 768px__.
+* **standard**—columns and groups of tiles with rows that flow to the right (**Figure 1**). The number of rows depends on the **Height**	and **TileRows** properties of the control. This "*standard*" layout is the default and this is how	**RadTileList** usually renders.	This mode is in effect	**for viewports wider than 768px**.
 >caption Figure 1: The RadTileList's default (desktop) layout. The image is in 50% scale.
 
 ![tilelist-responsive-layout-full-size](images/tilelist-responsive-layout-full-size.png)
 
-* __tablet-oriented__—tile groups appear vertically under each other (__Figure 2__) and there are no separate tile columns; all tiles flow next to each other. This is in effect	__for viewports between 480px and 768px wide__.
+* **tablet-oriented**—tile groups appear vertically under each other (**Figure 2**) and there are no separate tile columns; all tiles flow next to each other. This is in effect	**for viewports between 480px and 768px wide**.
 >caption Figure 2: The RadTileList's tablet-oriented layout. The image is in 50% scale.
 
 ![tilelist-responsive-layout-tablet-size](images/tilelist-responsive-layout-tablet-size.png)
 
-* __phone-oriented__—tile groups appear stacked under each other (__Figure 3__). There are two tiles adjacent to each other that zoom according to the available screen width. This is in effect	__for viewports less than 480px wide__.
+* **phone-oriented**—tile groups appear stacked under each other (**Figure 3**). There are two tiles adjacent to each other that zoom according to the available screen width. This is in effect	**for viewports less than 480px wide**.
 >caption Figure 3: The RadTileList's phone-oriented layout. The image is in 50% scale.
 
 ![tilelist-responsive-layout-phone-size](images/tilelist-responsive-layout-phone-size.png)
 
-You can find the code that produces this __RadTileList__ at the end of the article—__Example 4__.
+You can find the code that produces this **RadTileList** at the end of the article—**Example 4**.
 
-Telerik released the responsive layout feature for __RadTileList__ in the __Q1 2014__ release.
+Telerik released the responsive layout feature for **RadTileList** in the **Q1 2014** release.
 
 To read more about the CSS rules that achieve the different layouts, examine the	[CSS for RadTileList and RadTile Responsive Layout]({%slug tilelist/appearance-and-styling/css-for-responsive-layout%}) help article.
 
->important  __RadTileList__ is designed to be a high-level element on the page (i.e., not nested deeply in the control hierarchy),because it reacts to the viewport size. Thus, placing it in an element with dimensions smaller than the viewportmay result in incorrect appearance or missing scrollbars.
->Changing the tiles order in the standard layout (i.e., the number of columns) requires a call to the __.repaint()__ [client-side method]({%slug tilelist/client-side-programming/tilelist-object%})of the __RadTileList__ .This is an expensive operation and it should not be invoked arbitrarily. Therefore, __heights in percent are not supported__ .
->To see how to integrate the __RadTileList__ in a nested or initially hidden element or how to support dynamic height,examine the[RadTileList responsive layout and dynamic height]({%slug tilelist/how-to/responsive-layout-and-dynamic-height%})help article.
+>important  **RadTileList** is designed to be a high-level element on the page (i.e., not nested deeply in the control hierarchy),because it reacts to the viewport size. Thus, placing it in an element with dimensions smaller than the viewportmay result in incorrect appearance or missing scrollbars.
+>Changing the tiles order in the standard layout (i.e., the number of columns) requires a call to the **.repaint()** [client-side method]({%slug tilelist/client-side-programming/tilelist-object%})of the **RadTileList** .This is an expensive operation and it should not be invoked arbitrarily. Therefore, **heights in percent are not supported** .
+>To see how to integrate the **RadTileList** in a nested or initially hidden element or how to support dynamic height,examine the[RadTileList responsive layout and dynamic height]({%slug tilelist/how-to/responsive-layout-and-dynamic-height%})help article.
 >
 
 
@@ -47,7 +47,7 @@ To read more about the CSS rules that achieve the different layouts, examine the
 
 To enable the responsive layout, you need to:
 
-* Set the __[RenderMode]({%slug tilelist/mobile-support/render-modes%})__ property of the control to __Mobile__. If `Auto` is set,responsive layout will be available only on mobile devices.__Example 1: A sample setting for the RenderMode of a RadTileList control that enables responsive layout:__
+* Set the **[RenderMode]({%slug tilelist/mobile-support/render-modes%})** property of the control to **Mobile**. If `Auto` is set,responsive layout will be available only on mobile devices.**Example 1: A sample setting for the RenderMode of a RadTileList control that enables responsive layout:**
 
 ````HTML
 	 <telerik:RadTileList runat="server" ID="RadTileList1" RenderMode="Mobile"></telerik:RadTileList>
@@ -55,7 +55,7 @@ To enable the responsive layout, you need to:
 
 
 
-* Add the following meta tag to the head section of the page.__Example 2: The meta tag that is needed for the responsive layout of a RadTileList to work:__
+* Add the following meta tag to the head section of the page.**Example 2: The meta tag that is needed for the responsive layout of a RadTileList to work:**
 
 ````HTML
 	<head id="Head1" runat="server">
@@ -66,11 +66,11 @@ To enable the responsive layout, you need to:
 
 
 
-By default, __RadTileList__ will calculate the __TileRows__ value for a best fit in the available height.Thus, *you do not need to set the __TileRows__ property*. If you set it explicitly, its value will be taken into account and no automatic calculations will be performed. This may leave	you with too many rows or empty space below the tiles if the value is not properly calculated according to the __Height__ property.
+By default, **RadTileList** will calculate the **TileRows** value for a best fit in the available height.Thus, *you do not need to set the **TileRows** property*. If you set it explicitly, its value will be taken into account and no automatic calculations will be performed. This may leave	you with too many rows or empty space below the tiles if the value is not properly calculated according to the **Height** property.
 
-Removing the default padding or margins the browser adds can also improve the appearance, so we also advise that you include the CSS from __Example 3__ on your page.
+Removing the default padding or margins the browser adds can also improve the appearance, so we also advise that you include the CSS from **Example 3** on your page.
 
-__Example 3: CSS rules to minimize unwanted margins and padding from the browser.__
+**Example 3: CSS rules to minimize unwanted margins and padding from the browser.**
 
 ````HTML
 				html, body, form
@@ -84,9 +84,9 @@ __Example 3: CSS rules to minimize unwanted margins and padding from the browser
 
 ## Sample Code
 
-__Example 4__ shows the declaration that creates __Figures 1-3__. It is important to note that the __RenderMode=Mobile__ property and	that __Height is set__to provide dimensions for the standard (desktop) layout. Most of the other code is related to generating and styling the tiles themselves.
+**Example 4** shows the declaration that creates **Figures 1-3**. It is important to note that the **RenderMode=Mobile** property and	that **Height is set**to provide dimensions for the standard (desktop) layout. Most of the other code is related to generating and styling the tiles themselves.
 
-__Example 4: The actual declaration that will produce Figures 1-3.__
+**Example 4: The actual declaration that will produce Figures 1-3.**
 
 ````ASPNET
 	<head id="Head1" runat="server">
@@ -173,7 +173,7 @@ __Example 4: The actual declaration that will produce Figures 1-3.__
 
 
 
-You can find the actual images by downloading the Telerik UI for ASP.NET AJAX Live Demos from your account. At the root of the site, the *Img*folder contains a lot of images, and some of them are used for the examples in this help article. You can find the chart icon for the	__RadIconTile__ example in the *TileList\Img\Icons* folder.You may also find useful the[RadTileList Data Binding demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/databinding/defaultcs.aspx) that you can use as base to easily generate a lot of tiles from a data source.
+You can find the actual images by downloading the Telerik UI for ASP.NET AJAX Live Demos from your account. At the root of the site, the *Img*folder contains a lot of images, and some of them are used for the examples in this help article. You can find the chart icon for the	**RadIconTile** example in the *TileList\Img\Icons* folder.You may also find useful the[RadTileList Data Binding demo](http://demos.telerik.com/aspnet-ajax/tilelist/examples/databinding/defaultcs.aspx) that you can use as base to easily generate a lot of tiles from a data source.
 
 # See Also
 

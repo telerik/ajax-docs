@@ -1,6 +1,6 @@
 ---
 title: OnClientTabUnSelected
-page_title: OnClientTabUnSelected | UI for ASP.NET AJAX Documentation
+page_title: OnClientTabUnSelected | RadTabStrip for ASP.NET AJAX Documentation
 description: OnClientTabUnSelected
 slug: tabstrip/client-side-programming/onclienttabunselected
 tags: onclienttabunselected
@@ -14,7 +14,7 @@ position: 20
 
 ## 
 
-The __OnClientTabUnSelected__ client-side event occurs when the user selects a new tab, after the previously selected tab has been unselected.
+The **OnClientTabUnSelected** client-side event occurs when the user selects a new tab, after the previously selected tab has been unselected.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following method:
 
-* __get_tab__ returns a reference to the __RadTab__ that was previously selected.
+* **get_tab** returns a reference to the **RadTab** that was previously selected.
 
-* __get_domEvent__ returns a reference to the DOM event object for the action that caused the selection.
+* **get_domEvent** returns a reference to the DOM event object for the action that caused the selection.
 
 You can use this event to respond when the user deselects a tab:
 

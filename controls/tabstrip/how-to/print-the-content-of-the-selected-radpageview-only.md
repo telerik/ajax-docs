@@ -1,6 +1,6 @@
 ---
 title: Print the Content of the Selected RadPageView only
-page_title: Print the Content of the Selected RadPageView only | UI for ASP.NET AJAX Documentation
+page_title: Print the Content of the Selected RadPageView only | RadTabStrip for ASP.NET AJAX Documentation
 description: Print the Content of the Selected RadPageView only
 slug: tabstrip/how-to/print-the-content-of-the-selected-radpageview-only
 tags: print,the,content,of,the,selected,radpageview,only

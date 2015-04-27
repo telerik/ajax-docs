@@ -1,6 +1,6 @@
 ---
 title: How To
-page_title: How To | UI for ASP.NET AJAX Documentation
+page_title: How To | RadTabStrip for ASP.NET AJAX Documentation
 description: How To
 slug: tabstrip/how-to
 tags: application,scenarios
@@ -14,15 +14,15 @@ position: 17
 
 ## 
 
-__Q:__ I get the following error message:*__Multiple controls with the same ID were found. FindControl requires that controls have unique IDs__*. What am I doing wrong?
+**Q:** I get the following error message: **Multiple controls with the same ID were found. FindControl requires that controls have unique IDs**. What am I doing wrong?
 
-__A:__ It is very likely that you get this error message when you create your controls at runtime. In general it indicates that you create another control with the same ID on a postback of the page. There are a couple of ways to workaround it:
+**A:** It is very likely that you get this error message when you create your controls at runtime. In general it indicates that you create another control with the same ID on a postback of the page. There are a couple of ways to workaround it:
 
-* To prevent the postback of the page as implemented in our [Load on Demand demo](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/loadondemand/defaultcs.aspx) and using the __OnClientTabSelecting__ client side event.![Client-side code](images/tabstrip_faq.png)
+* To prevent the postback of the page as implemented in our [Load on Demand demo](http://demos.telerik.com/aspnet-ajax/tabstrip/examples/applicationscenarios/loadondemand/defaultcs.aspx) and using the **OnClientTabSelecting** client side event.![Client-side code](images/tabstrip_faq.png)
 
-* If you need the page to do a postback you __do not__ need to attach the client-side __OnClientTabSelecting__ event but simply need to check if there is already an existing PageViewId in the __OnTabClick__ server side event handler:![Server-side code](images/tabstrip_faq-server-side.png)
+* If you need the page to do a postback you **do not** need to attach the client-side **OnClientTabSelecting** event but simply need to check if there is already an existing PageViewId in the **OnTabClick** server side event handler:![Server-side code](images/tabstrip_faq-server-side.png)
 
-__Q:__ When I use the code below I am able to select the child tab when I click on a parent tab but I cannot load the content of its corresponding page when I use NavigateUrl property:
+**Q:** When I use the code below I am able to select the child tab when I click on a parent tab but I cannot load the content of its corresponding page when I use NavigateUrl property:
 
 ````JavaScript
 	 <script type="text/javascript">
@@ -39,7 +39,7 @@ __Q:__ When I use the code below I am able to select the child tab when I click 
 
 
 
-__A:__ You may add this code to your RadTabStrip control so that you can get the desired behavior:
+**A:** You may add this code to your RadTabStrip control so that you can get the desired behavior:
 
 ````JavaScript
 	
@@ -78,9 +78,9 @@ __A:__ You may add this code to your RadTabStrip control so that you can get the
 
 
 
-__Q:__ Can I do Intended-vertical-left align tabs? If so, how can it be done?
+**Q:** Can I do Intended-vertical-left align tabs? If so, how can it be done?
 
-__A:__ By using the *OuterCssClass=""* and *CssClass* proprties of the RadTabstrip control along with the right css class selectors you can achieve the desired look. Example:
+**A:** By using the *OuterCssClass=""* and *CssClass* proprties of the RadTabstrip control along with the right css class selectors you can achieve the desired look. Example:
 
 ````ASPNET
 	

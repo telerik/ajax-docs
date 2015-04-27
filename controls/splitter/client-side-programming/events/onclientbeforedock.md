@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeDock
-page_title: OnClientBeforeDock | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeDock | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientBeforeDock
 slug: splitter/client-side-programming/events/onclientbeforedock
 tags: onclientbeforedock
@@ -14,27 +14,27 @@ position: 12
 
 ## 
 
->caution  __OnClientBeforeDock__ Client-Side event has been deprecated. Please, use the[OnClientDocking]({%slug splitter/client-side-programming/events/onclientdocking%})instead.
+>caution  **OnClientBeforeDock** Client-Side event has been deprecated. Please, use the[OnClientDocking]({%slug splitter/client-side-programming/events/onclientdocking%})instead.
 >
 
 
-The __OnClientBeforeDock__ client-side event handler is called when a sliding pane is about to be docked. The event can occur because the user clicks on the dock button, on page load, or as the result of a a call to a client-side method.
+The **OnClientBeforeDock** client-side event handler is called when a sliding pane is about to be docked. The event can occur because the user clicks on the dock button, on page load, or as the result of a a call to a client-side method.
 
->note The __OnClientBeforeDock__ event is supported by __RadSlidingPane__ .
+>note The **OnClientBeforeDock** event is supported by **RadSlidingPane** .
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be docked.
+* **sender** is the pane that is about to be docked.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being docked.
+* **set_cancel()** lets you prevent the pane from being docked.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientBeforeDock__ event to show a confirmation dialog:
+The following example uses the **OnClientBeforeDock** event to show a confirmation dialog:
 
 ````ASPNET
 	     

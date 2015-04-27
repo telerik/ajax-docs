@@ -1,6 +1,6 @@
 ---
 title: Peek Template
-page_title: Peek Template | UI for ASP.NET AJAX Documentation
+page_title: Peek Template | RadTileList for ASP.NET AJAX Documentation
 description: Peek Template
 slug: tilelist/tiles/peek-template
 tags: peek,template
@@ -14,7 +14,7 @@ position: 9
 
 ## Overview
 
-The __PeekTemplate__ of each tile is the HTML that replaces the default contentat certain intervals or user actions. It can be defined freely by the developer to adapt the cotrol to a variety of scenarios,e.g. show additional information about a product, pricing, more images or even server controls with more complex data, structure and functionality.
+The **PeekTemplate** of each tile is the HTML that replaces the default contentat certain intervals or user actions. It can be defined freely by the developer to adapt the cotrol to a variety of scenarios,e.g. show additional information about a product, pricing, more images or even server controls with more complex data, structure and functionality.
 
 Since the template is entirely customizable it has no predefined dimensions, so they can be specified by the developer -the new content can cover the entire tile, go outside of the tile (overflowing content will be clipped) or hide only a part of the tile, startingfrom the top left corner if its size is smaller than the size of the tile.
 
@@ -28,7 +28,7 @@ and
 
 result from the following code when the tile peeks automatically:
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 		<telerik:RadTileList runat="server" id="RadTileList1">
@@ -51,7 +51,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadTextTile ID="Tile1" runat="server" Text="Original content of the tile.">
@@ -72,7 +72,7 @@ where, of course, the inline styles can be extracted to CSS classes to create un
 
 The defauls size of the tiles is 150x150 and 310x150 pixels for the Square and Wide tiles respectively. The dimensions of the peek templatein this example are set to 110x110 so that the 20px padding on each side fills the div to 150x150px.
 
-How and when the peek template is shown can be controlled via the __<PeekTemplateSettings />__ inner tagin each tile. It exposes the following properties:
+How and when the peek template is shown can be controlled via the **<PeekTemplateSettings />** inner tagin each tile. It exposes the following properties:
 
 * Animation - the type of animation that is used for showing and hiding the Peek Template.See the following section for details on configuring animations and timings.
 

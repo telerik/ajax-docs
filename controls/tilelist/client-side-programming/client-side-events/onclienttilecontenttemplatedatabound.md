@@ -1,6 +1,6 @@
 ---
 title: OnClientTileContentTemplateDataBound
-page_title: OnClientTileContentTemplateDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileContentTemplateDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileContentTemplateDataBound
 slug: tilelist/client-side-programming/client-side-events/onclienttilecontenttemplatedatabound
 tags: onclienttilecontenttemplatedatabound
@@ -12,11 +12,11 @@ position: 12
 
 
 
-This article provides information about the __OnClientTileContentTemplateDataBound__ event.
+This article provides information about the **OnClientTileContentTemplateDataBound** event.
 
 ## 
 
-The __OnClientTileContentTemplateDataBound__ event is raised before rendering the __ClientContentTemplate__ in the browser.
+The **OnClientTileContentTemplateDataBound** event is raised before rendering the **ClientContentTemplate** in the browser.
 
 The event handler receives two arguments:
 
@@ -27,15 +27,15 @@ The event handler receives two arguments:
 
 >caption OnClientTileContentTemplateDataBound event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_dataItem()|object||Gets the data source object.|
 |get_html()|string||Gets the HTML code that is going to be rendered.|
 |set_html(string)||string|Sets the HTML that is going to be rendered.|
 
-__Example 1__ demonstrates how to use the __OnClientTileContentTemplateDataBound__ event to change theoriginal HTML upon a client-side logic.
+**Example 1** demonstrates how to use the **OnClientTileContentTemplateDataBound** event to change theoriginal HTML upon a client-side logic.
 
-__Example 1__: Using __OnClientTileContentTemplateDataBound__ event.
+**Example 1**: Using **OnClientTileContentTemplateDataBound** event.
 
 ````ASPNET
 			<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="8" AllowPaging="true">

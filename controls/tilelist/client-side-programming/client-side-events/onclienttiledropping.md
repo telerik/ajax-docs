@@ -1,6 +1,6 @@
 ---
 title: OnClientTileDropping
-page_title: OnClientTileDropping | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileDropping | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileDropping
 slug: tilelist/client-side-programming/client-side-events/onclienttiledropping
 tags: onclienttiledropping
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-The __OnClientTileDropping__ event is raised when the user drops a[tile]({%slug tilelist/tiles/overview%}) after dragging it,but before the [OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%}) event.This event can be cancelled. If it is cancelled the OnClientTileDropped will not fire.
+The **OnClientTileDropping** event is raised when the user drops a[tile]({%slug tilelist/tiles/overview%}) after dragging it,but before the [OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%}) event.This event can be cancelled. If it is cancelled the OnClientTileDropped will not fire.
 
 This event can be used to check for a certain condition and prevent the drop of a tile.
 
@@ -27,7 +27,7 @@ The event handler receives two arguments:
 
 >caption OnClientTileDropping event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_tile()|[RadBaseTile client-side object]({%slug tilelist/tiles/client-side-programming/basetile-object%})||Gets a reference to the tile that is clicked.|

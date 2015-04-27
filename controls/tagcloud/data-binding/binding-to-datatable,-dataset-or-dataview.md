@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable, DataSet or DataView
-page_title: Binding to DataTable, DataSet or DataView | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable, DataSet or DataView | RadTagCloud for ASP.NET AJAX Documentation
 description: Binding to DataTable, DataSet or DataView
 slug: tagcloud/data-binding/binding-to-datatable,-dataset-or-dataview
 tags: binding,to,datatable,,dataset,or,dataview
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-__RadTagCloud__ can be bound to a __DataTable__, __DataSet__ and a __DataView__. This example shows binding to a __DataTable__ object.
+**RadTagCloud** can be bound to a **DataTable**, **DataSet** and a **DataView**. This example shows binding to a **DataTable** object.
 
-The declaration of the __RadTagCloud__ object includes no __DataSourceID__ property or <Items> section:
+The declaration of the **RadTagCloud** object includes no **DataSourceID** property or <Items> section:
 
 ````ASPNET
 	    <telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
@@ -27,7 +27,7 @@ The declaration of the __RadTagCloud__ object includes no __DataSourceID__ prope
 
 
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the __tagCloud__. You must call the __DataBind__ method after setting the __DataSource__ property.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then bind it to the **tagCloud**. You must call the **DataBind** method after setting the **DataSource** property.
 
 
 

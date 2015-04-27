@@ -1,6 +1,6 @@
 ---
 title: Fixed Layout
-page_title: Fixed Layout | UI for ASP.NET AJAX Documentation
+page_title: Fixed Layout | RadSplitter for ASP.NET AJAX Documentation
 description: Fixed Layout
 slug: splitter/layout/fixed-layout
 tags: fixed,layout
@@ -14,12 +14,12 @@ position: 5
 
 ## 
 
-You can use RadSplitter to create several non-resizable regions. To do this, simply add __RadPane__ controls to the splitter without any __RadSplitBar__ controls between them:
+You can use RadSplitter to create several non-resizable regions. To do this, simply add **RadPane** controls to the splitter without any **RadSplitBar** controls between them:
 >caption 
 
 ![](images/splitter-fixedregions.png)
 
->tip The borders of the panes can be removed by setting the __PanesBorderSize__ property to 0.
+>tip The borders of the panes can be removed by setting the **PanesBorderSize** property to 0.
 >
 
 

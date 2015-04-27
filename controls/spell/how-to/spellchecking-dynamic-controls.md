@@ -1,6 +1,6 @@
 ---
 title: Spellchecking Dynamic Controls
-page_title: Spellchecking Dynamic Controls | UI for ASP.NET AJAX Documentation
+page_title: Spellchecking Dynamic Controls | RadSpell for ASP.NET AJAX Documentation
 description: Spellchecking Dynamic Controls
 slug: spell/how-to/spellchecking-dynamic-controls
 tags: spellchecking,dynamic,controls
@@ -24,7 +24,7 @@ To spellcheck dynamic controls:
 
 * Add both controls to a placeholder control inside your ASPX / ASCX template.
 
->note You need to set the __ControlToCheck__ property __after__ you add both controls to the Controls collection of their parent!
+>note You need to set the **ControlToCheck** property **after** you add both controls to the Controls collection of their parent!
 >
 
 

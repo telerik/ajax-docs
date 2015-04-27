@@ -1,6 +1,6 @@
 ---
 title: OnClientTilePeekTemplateDataBound
-page_title: OnClientTilePeekTemplateDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTilePeekTemplateDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTilePeekTemplateDataBound
 slug: tilelist/client-side-programming/client-side-events/onclienttilepeektemplatedatabound
 tags: onclienttilepeektemplatedatabound
@@ -12,11 +12,11 @@ position: 13
 
 
 
-This article provides information about the __OnClientTilePeekTemplateDataBound__ event.
+This article provides information about the **OnClientTilePeekTemplateDataBound** event.
 
 ## 
 
-The __OnClientTilePeekTemplateDataBound__ event is raised before rendering the [Peek Template]({%slug tilelist/tiles/peek-template%}) in the browser.
+The **OnClientTilePeekTemplateDataBound** event is raised before rendering the [Peek Template]({%slug tilelist/tiles/peek-template%}) in the browser.
 
 The event handler receives two arguments:
 
@@ -27,15 +27,15 @@ The event handler receives two arguments:
 
 >caption OnClientTilePeekTemplateDataBound event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_dataItem()|object||Gets the data source object.|
 |get_html()|string||Gets the HTML code that is going to be rendered.|
 |set_html(string)||string|Sets the HTML that is going to be rendered.|
 
-__Example 1__ demonstrates how to use the __OnClientTilePeekTemplateDataBound__ event to change the original [Peek Template]({%slug tilelist/tiles/peek-template%}) HTML upon a client-side logic.
+**Example 1** demonstrates how to use the **OnClientTilePeekTemplateDataBound** event to change the original [Peek Template]({%slug tilelist/tiles/peek-template%}) HTML upon a client-side logic.
 
-__Example 1__: Using __OnClientTilePeekTemplateDataBound__ event.
+**Example 1**: Using **OnClientTilePeekTemplateDataBound** event.
 
 ````ASPNET
 			<style>

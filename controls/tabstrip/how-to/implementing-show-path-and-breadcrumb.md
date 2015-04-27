@@ -1,6 +1,6 @@
 ---
 title: Implementing Show Path and BreadCrumb
-page_title: Implementing Show Path and BreadCrumb | UI for ASP.NET AJAX Documentation
+page_title: Implementing Show Path and BreadCrumb | RadTabStrip for ASP.NET AJAX Documentation
 description: Implementing Show Path and BreadCrumb
 slug: tabstrip/how-to/implementing-show-path-and-breadcrumb
 tags: implementing,show,path,and,breadcrumb
@@ -14,11 +14,11 @@ position: 5
 
 ## 
 
-__Q:__ How can I use the SiteMap as a BreadCrumb with a RadTabStrip? Meaning when clicking on a Root Tab or a Child Tab will show the current path where the user has clicked as demonstrated in the image below:
+**Q:** How can I use the SiteMap as a BreadCrumb with a RadTabStrip? Meaning when clicking on a Root Tab or a Child Tab will show the current path where the user has clicked as demonstrated in the image below:
 
 ![RadTabStrip BreadCrumb](images/tabstrip_breadcrumb.png)
 
-__A:__ Just like with the RadMenu, using the RadTabStrip one easily can implement the BreadCrumb functionality using the code below:
+**A:** Just like with the RadMenu, using the RadTabStrip one easily can implement the BreadCrumb functionality using the code below:
 
 ````ASPNET
 			<telerik:RadSiteMap ID="BreadCrumbSiteMap" runat="server" DataTextField="Text" DataNavigateUrlField="NavigateUrl">

@@ -1,6 +1,6 @@
 ---
 title: Change Tabs on Mouseover
-page_title: Change Tabs on Mouseover | UI for ASP.NET AJAX Documentation
+page_title: Change Tabs on Mouseover | RadTabStrip for ASP.NET AJAX Documentation
 description: Change Tabs on Mouseover
 slug: tabstrip/how-to/change-tabs-on-mouseover
 tags: change,tabs,on,mouseover

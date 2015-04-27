@@ -1,6 +1,6 @@
 ---
 title: Resposnive, Adaptive and Elastic Capabilities
-page_title: Resposnive, Adaptive and Elastic Capabilities | UI for ASP.NET AJAX Documentation
+page_title: Resposnive, Adaptive and Elastic Capabilities | RadTagCloud for ASP.NET AJAX Documentation
 description: Resposnive, Adaptive and Elastic Capabilities
 slug: tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities
 tags: resposnive,,adaptive,and,elastic,capabilities
@@ -12,7 +12,7 @@ position: 0
 
 
 
-This article explains the __elastic capabilities RadTagCloud offers__. The control supports __elastic design since Q2 2014__.
+This article explains the **elastic capabilities RadTagCloud offers**. The control supports **elastic design since Q2 2014**.
 
 ## 
 
@@ -21,15 +21,15 @@ Generally, elastic design means that the page and its content are able to adapt 
 
 ![tagcloud-elastic-comparison](images/tagcloud-elastic-comparison.png)
 
-__RadTagCloud__ supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the tag cloud will simply increase their size as well to accommodate the text inside. This fluid layout is achieved by using __em__ units for setting dimensions and paddings in the control, instead of __px__ because __em__ units are tied to the font size. This allows dimensions and sizes to scale with the font size.
+**RadTagCloud** supports changing the font size without breaking the control's appearance - if the new size is larger than the original, the elements of the tag cloud will simply increase their size as well to accommodate the text inside. This fluid layout is achieved by using **em** units for setting dimensions and paddings in the control, instead of **px** because **em** units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
->note If you configure the __MinFontSize__ and __MaxFontSize__ properties of __RadTagCloud__ in pixels or without specifying a unit, the text in the tag cloud will not be scaled, because the font size of the items will be calculated in pixels. It is recommended to __set these properties in em units__ to ensure that the whole control will be resized according to the chosen font size.
+>note If you configure the **MinFontSize** and **MaxFontSize** properties of **RadTagCloud** in pixels or without specifying a unit, the text in the tag cloud will not be scaled, because the font size of the items will be calculated in pixels. It is recommended to **set these properties in em units** to ensure that the whole control will be resized according to the chosen font size.
 >
 
 
 To use the elasticity of the RadTagCloud change the font size of the control's element (Example 1). As a result the sizing of the tags is proportionally changed (Figure 1).
 
-Example 1: The font size of __RadTagCloud__ is set to 20px.
+Example 1: The font size of **RadTagCloud** is set to 20px.
 
 ````ASPNET
 	        <style type="text/css">

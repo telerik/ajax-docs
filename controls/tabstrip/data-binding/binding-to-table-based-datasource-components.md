@@ -1,6 +1,6 @@
 ---
 title: Binding to Table-Based DataSource Components
-page_title: Binding to Table-Based DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to Table-Based DataSource Components | RadTabStrip for ASP.NET AJAX Documentation
 description: Binding to Table-Based DataSource Components
 slug: tabstrip/data-binding/binding-to-table-based-datasource-components
 tags: binding,to,table-based,datasource,components
@@ -14,30 +14,30 @@ position: 3
 
 ## 
 
-Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDataSource__ can be used to bind the tab strip declaratively in design time. As with [binding to a DataSet, DataTable, or DataView]({%slug tabstrip/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the tabs.
+Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the tab strip declaratively in design time. As with [binding to a DataSet, DataTable, or DataView]({%slug tabstrip/data-binding/binding-to-datatable%}), you can use the *ID-ParentID* relation to establish a hierarchy among the tabs.
 
->note The[Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding __RadTabStrip__ to an __AccessDataSource__ .
+>note The[Binding to a Data Source]({%slug tabstrip/getting-started/binding-to-a-data-source%})tutorial gives step-by-step instructions for binding **RadTabStrip** to an **AccessDataSource** .
 >
 
 
 To bind to a table-based DataSource component:
 
-1. Drag the __DataSource__ component from the toolbox onto the same page as your __RadTabStrip__ component.
+1. Drag the **DataSource** component from the toolbox onto the same page as your **RadTabStrip** component.
 
-1. Configure the __DataSource__ component to connect to the data.
+1. Configure the **DataSource** component to connect to the data.
 
-1. Set the __DataSourceID__ property of your __RadTabStrip__ to the __ID__ of the __DataSource__ component you added in step 1.
+1. Set the **DataSourceID** property of your **RadTabStrip** to the **ID** of the **DataSource** component you added in step 1.
 
-1. Set the __DataTextField__, __DataValueField__, and __DataNavigateUrlField__ properties to indicate the columns of the database table that supply values for the __Text__, __Value__, and __NavigateUrl__ properties of tabs.
+1. Set the **DataTextField**, **DataValueField**, and **DataNavigateUrlField** properties to indicate the columns of the database table that supply values for the **Text**, **Value**, and **NavigateUrl** properties of tabs.
 
-1. Establish the tabstrip hierarchy by setting the __DataFieldID__ property to the key field for records, and the __DataFieldParentID__ property to the field that gives the key field value of the parent tab.
+1. Establish the tabstrip hierarchy by setting the **DataFieldID** property to the key field for records, and the **DataFieldParentID** property to the field that gives the key field value of the parent tab.
 
->tip The __ParentID__ of the root tabs must be __null__ ( __nothing__ ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
+>tip The **ParentID** of the root tabs must be **null** ( **nothing** ). If for some reason the data source comes without null values for the ParentID column, use a query that returns the expected value (null). For example:
 >SELECT ID, Text, IF(ParentID = 0, NULL, ParentID) FROM tblDat
 >
 
 
-1. Bind any additional properties of the tabs using the __[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})__:
+1. Bind any additional properties of the tabs using the **[TabDataBound event]({%slug tabstrip/server-side-programming/tabdatabound%})**:
 
 
 

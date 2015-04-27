@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadSplitter for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: splitter/appearance-and-styling/css-classes
 tags: css,classes
@@ -14,26 +14,26 @@ position: 2
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadSplitter__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadSplitter** style sheets.
 
 
 >caption  
 
-|  __Class Name__  |  __Element__  |  __Description__  |
+|  **Class Name**  |  **Element**  |  **Description**  |
 | ------ | ------ | ------ |
-|RadSplitter_[Skin]e.g. __RadSplitter_Outlook__ |TABLE|Applied to the main table that lays out the splitter control.|
-|.nested|TABLE|Applied to the main table of a nested splitter with __Orientation__ set to "Vertical".|
-|.nestedHorizontal|TABLE|Applied to the main table of a nested splitter with __Orientation__ set to "Horizontal".|
-|.pane|TD|Applied to the panes of a splitter with __Orientation__ set to "Vertical".|
-|.paneHorizontal|TD|Applied to the panes of a splitter with __Orientation__ set to "Horizontal".|
+|RadSplitter_[Skin]e.g. **RadSplitter_Outlook** |TABLE|Applied to the main table that lays out the splitter control.|
+|.nested|TABLE|Applied to the main table of a nested splitter with **Orientation** set to "Vertical".|
+|.nestedHorizontal|TABLE|Applied to the main table of a nested splitter with **Orientation** set to "Horizontal".|
+|.pane|TD|Applied to the panes of a splitter with **Orientation** set to "Vertical".|
+|.paneHorizontal|TD|Applied to the panes of a splitter with **Orientation** set to "Horizontal".|
 |.firstItem|TD|Applied to the first pane in a splitter.|
 |.lastItem|TD|Applied to the last pane in a splitter.|
 |.resizeBar|TD|Applied to the cell for a vertical split bar.|
 |.resizeBarOver|TD|Applied to the cell for a vertical split bar when the mouse hovers over it.|
-|.resizeBarInactive|TD|Applied to the cell for a vertical split bar when it is inactive( __EnableResize__ = __False__ ).|
+|.resizeBarInactive|TD|Applied to the cell for a vertical split bar when it is inactive( **EnableResize** = **False** ).|
 |.resizeBarHorizontal|TD|Applied to the cell for a horizontal split bar.|
 |.resizeBarOverHorizontal|TD|Applied to the cell for a horizontal split bar when the mouse hovers over it.|
-|.resizeBarInactiveHorizontal|TD|Applied to cell for a horizontal split bar when it is inactive ( __EnableResize__ = __False__ )|
+|.resizeBarInactiveHorizontal|TD|Applied to cell for a horizontal split bar when it is inactive ( **EnableResize** = **False** )|
 |.collapseBarWrapper|DIV|Applied to the portion of a vertical split bar where the expand and collapse buttons go.|
 |.collapseBarOver|DIV|Applied to the portion of a vertical split bar where the expand and collapse buttons go, when the mouse hovers over it.|
 |.collapseBarError|DIV|Applied to the portion of a vertical split bar where the expand and collapse buttons go, when a button is clicked that cannot perform its action.|

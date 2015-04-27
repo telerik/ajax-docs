@@ -1,6 +1,6 @@
 ---
 title: OnClientTemplateDataBound
-page_title: OnClientTemplateDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTemplateDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTemplateDataBound
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound
 tags: onclienttemplatedatabound
@@ -14,23 +14,23 @@ position: 3
 
 ## 
 
-The __OnClientTemplateDataBound__ event is fired by the __RadLiveTile__ when the data from a successful requestis evaluated and placed in its __ClientTemplate__. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
+The **OnClientTemplateDataBound** event is fired by the **RadLiveTile** when the data from a successful requestis evaluated and placed in its **ClientTemplate**. It can be used to change the information according to some custom logic or just for notification about the successof the operation.
 
 The event handler receives two arguments:
 
-1. The __RadLiveTile__ that fired the event
+1. The **RadLiveTile** that fired the event
 
 1. An event arguments object that exposes the following members:
 
 
 >caption OnClientDataLoaded event arguments object members
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __get_dataItem()__ |object||Returns the data object that is received from the service request.|
-| __get_html()__ |string||Returns the HTML the RadLiveTile is about to render.|
-| __get_template()__ |string||Returns the template the RadLiveTile uses.|
-| __set_html(string)__ ||string|Sets a new HTML that will be placed in the tile. It can be a modification of the original content.|
+| **get_dataItem()** |object||Returns the data object that is received from the service request.|
+| **get_html()** |string||Returns the HTML the RadLiveTile is about to render.|
+| **get_template()** |string||Returns the template the RadLiveTile uses.|
+| **set_html(string)** ||string|Sets a new HTML that will be placed in the tile. It can be a modification of the original content.|
 
 The following example shows how to obtain and how to change the HTML that will be rendered in the tile:
 

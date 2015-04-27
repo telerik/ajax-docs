@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadTileList for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: tilelist/client-side-programming/client-side-events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientLoad__ event is raised when the RadTileList object is initialized. It can notify the developer that the control isavailable (e.g. to store a reference to its client-side object for later use). For example, event handlers can be attached dynamically through the[Client-side API]({%slug tilelist/client-side-programming/tilelist-object%}) of the RadTileList.
+The **OnClientLoad** event is raised when the RadTileList object is initialized. It can notify the developer that the control isavailable (e.g. to store a reference to its client-side object for later use). For example, event handlers can be attached dynamically through the[Client-side API]({%slug tilelist/client-side-programming/tilelist-object%}) of the RadTileList.
 
 The event handler receives two arguments:
 
@@ -22,7 +22,7 @@ The event handler receives two arguments:
 
 1. an empty event arguments object
 
-The following example shows how to set the __SelectionMode__ of a RadTileList in its __OnClientLoad__ event.
+The following example shows how to set the **SelectionMode** of a RadTileList in its **OnClientLoad** event.
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="true">
@@ -55,7 +55,7 @@ The following example shows how to set the __SelectionMode__ of a RadTileList in
 
 
 
-The code snippet below demonstrates how an event handler can be attached in the __OnClientLoad__ event of the __RadTileList__.
+The code snippet below demonstrates how an event handler can be attached in the **OnClientLoad** event of the **RadTileList**.
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" OnClientLoad="OnClientLoad" AutoPostBack="false">

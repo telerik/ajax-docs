@@ -1,6 +1,6 @@
 ---
 title: OnClientCheckCancelled
-page_title: OnClientCheckCancelled | UI for ASP.NET AJAX Documentation
+page_title: OnClientCheckCancelled | RadSpell for ASP.NET AJAX Documentation
 description: OnClientCheckCancelled
 slug: spell/client-side-programming/events/onclientcheckcancelled
 tags: onclientcheckcancelled
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientCheckCancelled__client-side event occurs if the user cancels the spell check. The event handler receives parameters:
+The **OnClientCheckCancelled**client-side event occurs if the user cancels the spell check. The event handler receives parameters:
 
 1. The spell checker instance that fired the event.
 

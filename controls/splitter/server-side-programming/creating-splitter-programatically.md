@@ -1,6 +1,6 @@
 ---
 title: Creating Splitter Programatically
-page_title: Creating Splitter Programatically | UI for ASP.NET AJAX Documentation
+page_title: Creating Splitter Programatically | RadSplitter for ASP.NET AJAX Documentation
 description: Creating Splitter Programatically
 slug: splitter/server-side-programming/creating-splitter-programatically
 tags: creating,splitter,programatically
@@ -12,15 +12,15 @@ position: 0
 
 
 
-You can define the structure of __RadSplitter__ dynamically in server-side code. To do this, you need to create __RadPane__ and __RadSplitBar__ objects and add them to the __Items__ collection of their parent __RadSplitter__.
+You can define the structure of **RadSplitter** dynamically in server-side code. To do this, you need to create **RadPane** and **RadSplitBar** objects and add them to the **Items** collection of their parent **RadSplitter**.
 
->caution The __Items__ collection does not persist in the ViewState if you create the splitter controls in the code-behind. You need to recreate them on __every__ postback!
+>caution The **Items** collection does not persist in the ViewState if you create the splitter controls in the code-behind. You need to recreate them on **every** postback!
 >
 
 
 ## Example
 
-The example below demonstrates how to create new __RadSplitter__ object, populate its __Items__ collection and add it to the page form. It also shows how to add a dynamically created label in the __Controls__ collection of a __RadPane__ control:
+The example below demonstrates how to create new **RadSplitter** object, populate its **Items** collection and add it to the page form. It also shows how to add a dynamically created label in the **Controls** collection of a **RadPane** control:
 
 
 

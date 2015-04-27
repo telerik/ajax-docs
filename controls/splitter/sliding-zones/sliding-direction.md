@@ -1,6 +1,6 @@
 ---
 title: Sliding Direction
-page_title: Sliding Direction | UI for ASP.NET AJAX Documentation
+page_title: Sliding Direction | RadSplitter for ASP.NET AJAX Documentation
 description: Sliding Direction
 slug: splitter/sliding-zones/sliding-direction
 tags: sliding,direction
@@ -14,24 +14,24 @@ position: 1
 
 ## 
 
-You can position a __RadSlidingZone__ at the left, right, top or bottom end of the splitter. In any of these cases, the __SlideDirection__ property lets you configure the sliding zone so that the panes slide in the expected direction:
+You can position a **RadSlidingZone** at the left, right, top or bottom end of the splitter. In any of these cases, the **SlideDirection** property lets you configure the sliding zone so that the panes slide in the expected direction:
 
-* Set the __SlideDirection__ property to "Left" to configure the sliding zone so that panes slide from right to left. When __SlideDirection__ is "Left", the sliding zone lays out its tabs vertically:
+* Set the **SlideDirection** property to "Left" to configure the sliding zone so that panes slide from right to left. When **SlideDirection** is "Left", the sliding zone lays out its tabs vertically:
 >caption 
 
 ![](images/splitter-slidedirectionleft.png)
 
-* Set the __SlideDirection__ property to "Right" to configure the sliding zone so that panes slide from left to right. When __SlideDirection__ is "Right", the sliding zone lays out its tabs vertically:
+* Set the **SlideDirection** property to "Right" to configure the sliding zone so that panes slide from left to right. When **SlideDirection** is "Right", the sliding zone lays out its tabs vertically:
 >caption 
 
 ![](images/splitter-slidedirectionright.png)
 
-* Set the __SlideDirection__ property to "Bottom" to configure the sliding zone so that panes slide from top to bottom. When __SlideDirection__ is "Bottom", the sliding zone lays out its tabs horizontally:
+* Set the **SlideDirection** property to "Bottom" to configure the sliding zone so that panes slide from top to bottom. When **SlideDirection** is "Bottom", the sliding zone lays out its tabs horizontally:
 >caption 
 
 ![](images/splitter-slidedirectionbottom.png)
 
-* Set the __SlideDirection__ property to "Top" to configure the sliding zone so that panes slide from bottom to top. When __SlideDirection__ is "Top", the sliding zone lays out its tabs horizontally:
+* Set the **SlideDirection** property to "Top" to configure the sliding zone so that panes slide from bottom to top. When **SlideDirection** is "Top", the sliding zone lays out its tabs horizontally:
 >caption 
 
 ![](images/splitter-slidedirectiontop.png)

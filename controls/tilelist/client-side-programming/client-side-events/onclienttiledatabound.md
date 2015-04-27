@@ -1,6 +1,6 @@
 ---
 title: OnClientTileDataBound
-page_title: OnClientTileDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileDataBound
 slug: tilelist/client-side-programming/client-side-events/onclienttiledatabound
 tags: onclienttiledatabound
@@ -12,11 +12,11 @@ position: 11
 
 
 
-This article demonstrates how the __OnClientTileDataBound__ event can be used to further configure the Tile elements via its client-side API.
+This article demonstrates how the **OnClientTileDataBound** event can be used to further configure the Tile elements via its client-side API.
 
 ## 
 
-The __OnClientTileDataBound__ event is raised when the tile is bound to the fetched data.
+The **OnClientTileDataBound** event is raised when the tile is bound to the fetched data.
 
 The event handler receives two arguments:
 
@@ -27,17 +27,17 @@ The event handler receives two arguments:
 
 >caption OnClientTileDataBound event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_dataItem()|object||Gets the data source object.|
 |get_tile()|object||Gets the client-side object of the bound tile.|
 
-__Example 1__ demonstrates how to use the __OnClientTileDataBound__ event to configure the	[PeekTemplateSettings]({%slug tilelist/tiles/peek-template%}) client-side.	The result of the sample code is shown in __Figure 1__.
+**Example 1** demonstrates how to use the **OnClientTileDataBound** event to configure the	[PeekTemplateSettings]({%slug tilelist/tiles/peek-template%}) client-side.	The result of the sample code is shown in **Figure 1**.
 >caption Figure 1: Shows the configured Peek Template
 
 ![tilelist-client-side-events-onclienttiledatabound](images/tilelist-client-side-events-onclienttiledatabound.png)
 
-__Example 1__: Using __OnClientTileDataBound__ event to define Peek Template settings.
+**Example 1**: Using **OnClientTileDataBound** event to define Peek Template settings.
 
 ````ASPNET
 			<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1" PageSize="8" AllowPaging="true">

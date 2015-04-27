@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadTabStrip for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: tabstrip/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
@@ -14,12 +14,12 @@ position: 7
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadTabStrip__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadTabStrip** style sheets.
 
 
-|  __Class Name__  |  __Element__  |  __Description__  |
+|  **Class Name**  |  **Element**  |  **Description**  |
 | ------ | ------ | ------ |
-|RadTabStrip_[Skin]e.g. RadTabStrip_ __Outlook__ |DIV|Applied to the root element of the tab strip.|
+|RadTabStrip_[Skin]e.g. RadTabStrip_ **Outlook** |DIV|Applied to the root element of the tab strip.|
 |RadTabStrip_[Skin]_tabstrip-rtl|DIV|Applied to the root element of the tab strip when it has a right-to-left orientation.|
 |RadTabStripTop_[Skin]|DIV|Applied to the root element of the tab strip when it has a "HorizontalTop" orientation.|
 |RadTabStripBottom_[Skin]|DIV|Applied to the root element of the tab strip when it has a "HorizontalBottom" orientation.|
@@ -34,7 +34,7 @@ The following table lists the CSS selectors and descriptions for __RadTabStrip__
 |.rtsFirst|LI|Applied to the LI element for the first tab at a level.|
 |.rtsLast|LI|Applied to the LI element for the last tab at a level.|
 |.rtsSeparator|LI|Applied to the LI element for a separator.|
-|.rtsBreak|LI|Applied to the LI element that is inserted when the previous tab has its __IsBreak__ property set to __True__ .|
+|.rtsBreak|LI|Applied to the LI element that is inserted when the previous tab has its **IsBreak** property set to **True** .|
 |.rtsLink|A|Applied to the anchor element of a tab.|
 |.rtsBefore|A|Applied to the anchor element of the tab before the selected tab.|
 |.rtsSelected|A|Applied to the anchor element for the selected tab.|

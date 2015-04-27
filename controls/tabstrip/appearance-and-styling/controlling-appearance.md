@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadTabStrip for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: tabstrip/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -12,19 +12,19 @@ position: 1
 
 
 
-There are a number of ways you can customize the look & feel of your __RadTabStrip__ control:
+There are a number of ways you can customize the look & feel of your **RadTabStrip** control:
 
 ## Layout
 
-* Use the __Orientation__ property to control the basic orientation of the tab strip.
+* Use the **Orientation** property to control the basic orientation of the tab strip.
 
-* Set the __IsBreak__ property on individual tabs to add a break after the tab. On horizontal tab strips, the next tabs appear in a new row. On vertical tab strips, a gap appears before the next tabs.
+* Set the **IsBreak** property on individual tabs to add a break after the tab. On horizontal tab strips, the next tabs appear in a new row. On vertical tab strips, a gap appears before the next tabs.
 
-* Set the __IsSeparator__ property of individual tabs to have them act as separators that visually break up the layout but can't be selected.
+* Set the **IsSeparator** property of individual tabs to have them act as separators that visually break up the layout but can't be selected.
 
-* Set the __Height__ and __Width__ properties to limit the dimensions of the tab strip. When the tab strip is too small to display its child tabs, it truncates the display unless you enable [scrolling]({%slug tabstrip/tabs/scrolling-tabs%}).
+* Set the **Height** and **Width** properties to limit the dimensions of the tab strip. When the tab strip is too small to display its child tabs, it truncates the display unless you enable [scrolling]({%slug tabstrip/tabs/scrolling-tabs%}).
 
-* Use the __dir="tabstrip-rtl"__ attribute to give the menu a [right-to-left orientation]({%slug tabstrip/appearance-and-styling/rtl-support%}).
+* Use the **dir="tabstrip-rtl"** attribute to give the menu a [right-to-left orientation]({%slug tabstrip/appearance-and-styling/rtl-support%}).
 
 For more information about using the layout properties, see [Controlling Layout]({%slug tabstrip/appearance-and-styling/controlling-layout%}).
 

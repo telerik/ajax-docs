@@ -1,6 +1,6 @@
 ---
 title: Triggering Spellchecker on Page_Load
-page_title: Triggering Spellchecker on Page_Load | UI for ASP.NET AJAX Documentation
+page_title: Triggering Spellchecker on Page_Load | RadSpell for ASP.NET AJAX Documentation
 description: Triggering Spellchecker on Page_Load
 slug: spell/how-to/triggering-spellchecker-on-page_load
 tags: triggering,spellchecker,on,page_load
@@ -18,11 +18,11 @@ How to trigger the spellchecker on Page_Load.
 
 ## Solution
 
-You can trigger the spellcheck on __Page_Load__, but you have to use a client-side approach:
+You can trigger the spellcheck on **Page_Load**, but you have to use a client-side approach:
 
-1) Set the spellcheck __ButtonType__ property to "None"
+1) Set the spellcheck **ButtonType** property to "None"
 
-2) Set the <body> __OnLoad__ event like this:
+2) Set the <body> **OnLoad** event like this:
 
 ````ASPNET
 	<body onload="setTimeout(function() { $find('<%= RadSpell1.ClientID %>').startSpellCheck(); }, 100);">  

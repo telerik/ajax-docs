@@ -1,6 +1,6 @@
 ---
 title: TagCloud Object
-page_title: TagCloud Object | UI for ASP.NET AJAX Documentation
+page_title: TagCloud Object | RadTagCloud for ASP.NET AJAX Documentation
 description: TagCloud Object
 slug: tagcloud/client-side-programming/tagcloud-object
 tags: tagcloud,object
@@ -12,7 +12,7 @@ position: 0
 
 
 
-You can find in this help article information how to get the __RadTagCloud__ client-side object and use its properties and methods.
+You can find in this help article information how to get the **RadTagCloud** client-side object and use its properties and methods.
 
 ## Getting the RadTagCloud client-side object
 

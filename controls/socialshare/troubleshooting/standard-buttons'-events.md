@@ -1,6 +1,6 @@
 ---
 title: Standard Buttons' Events
-page_title: Standard Buttons' Events | UI for ASP.NET AJAX Documentation
+page_title: Standard Buttons' Events | RadSocialShare for ASP.NET AJAX Documentation
 description: Standard Buttons' Events
 slug: socialshare/troubleshooting/standard-buttons'-events
 tags: standard,buttons',events
@@ -16,7 +16,7 @@ The [Standard Buttons]({%slug socialshare/configuring-buttons/standard%}) are cr
 
 ## Facebook button events are not fired
 
-Sometimes the __OnFacebookLike__, __OnFacebookUnLike__ and __OnFacebookSend__ events are not fired when the external Facebook buttons are used (the <telerik:RadFacebookButton ..... /> buttons). This is usually due to a missing __Facebook App ID__. When these external buttons are used we rely on scripts from Facebook for these events and if the __Facebook App ID__ is incorrect they are not fired or are fired unreliably. More information on the matter is available in [this post from Veronika Rieglerova's blog](http://rieglerova.net/how-to-get-a-facebook-app-id/). Once you have this ID you can pass it to the __RadSocialShare__'s __FacebookAppId__ property.
+Sometimes the **OnFacebookLike**, **OnFacebookUnLike** and **OnFacebookSend** events are not fired when the external Facebook buttons are used (the <telerik:RadFacebookButton ..... /> buttons). This is usually due to a missing **Facebook App ID**. When these external buttons are used we rely on scripts from Facebook for these events and if the **Facebook App ID** is incorrect they are not fired or are fired unreliably. More information on the matter is available in [this post from Veronika Rieglerova's blog](http://rieglerova.net/how-to-get-a-facebook-app-id/). Once you have this ID you can pass it to the **RadSocialShare**'s **FacebookAppId** property.
 
 
 
@@ -28,7 +28,7 @@ Another addition that sometimes helps is the following namespaces to the <html> 
 
 
 
-For Telerik UI versions prior to __Q3 2014__ release you must use the following XML namespace:
+For Telerik UI versions prior to **Q3 2014** release you must use the following XML namespace:
 
 ````HTML
 	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
@@ -37,7 +37,7 @@ For Telerik UI versions prior to __Q3 2014__ release you must use the following 
 
 
 
-More information on the matter is available in the [Changes and Backwards Compatibility]({%slug socialshare/changes-and-backwards-compatibility%}) help article, in the section called __Telerik RadSocialShare for ASP.NET AJAX Q3 2014__.
+More information on the matter is available in the [Changes and Backwards Compatibility]({%slug socialshare/changes-and-backwards-compatibility%}) help article, in the section called **Telerik RadSocialShare for ASP.NET AJAX Q3 2014**.
 
 Facebook seem to track the origin of the requests, so it often blocks when testing from *localhost*. Little can be done for this, except for simply waiting. An option that sometimes yields a testable site during development is replacing *localhost* with its IP equivalent - *127.0.0.1*. The other option is to immediately deploy to a staging server that is accessible from the general Internet (and therefore from Facebook) and testing there.
 

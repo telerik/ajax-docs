@@ -1,6 +1,6 @@
 ---
 title: Setting Dictionary Language
-page_title: Setting Dictionary Language | UI for ASP.NET AJAX Documentation
+page_title: Setting Dictionary Language | RadSpell for ASP.NET AJAX Documentation
 description: Setting Dictionary Language
 slug: spell/configuration/setting-dictionary-language
 tags: setting,dictionary,language
@@ -14,7 +14,7 @@ position: 0
 
 ## Setting Single Language
 
-The simplest configuration is to specify a single language by setting the __RadSpell____DictionaryLanguage__ property. The example below configures __RadSpell__to spell check using a French dictionary.
+The simplest configuration is to specify a single language by setting the **RadSpell DictionaryLanguage** property. The example below configures **RadSpell**to spell check using a French dictionary.
 
 ````ASPNET
 	     
@@ -40,7 +40,7 @@ The simplest configuration is to specify a single language by setting the __RadS
 
 ## Setting Multiple Languages
 
-__RadSpell__ can spellcheck using several language dictionaries at once. Set the __SupportedLanguages__ property to a list of cultures that the spell checker will be supporting. With the __SupportedLanguages__ property set, __RadSpell__ will render an additional dropdown with the specified languages You can also specify the default selected language by setting the __DictionaryLanguage__ property:
+**RadSpell** can spellcheck using several language dictionaries at once. Set the **SupportedLanguages** property to a list of cultures that the spell checker will be supporting. With the **SupportedLanguages** property set, **RadSpell** will render an additional dropdown with the specified languages You can also specify the default selected language by setting the **DictionaryLanguage** property:
 
 ````ASPNET
 	     

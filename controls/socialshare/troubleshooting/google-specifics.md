@@ -1,6 +1,6 @@
 ---
 title: Google Specifics
-page_title: Google Specifics | UI for ASP.NET AJAX Documentation
+page_title: Google Specifics | RadSocialShare for ASP.NET AJAX Documentation
 description: Google Specifics
 slug: socialshare/troubleshooting/google-specifics
 tags: google,specifics
@@ -14,7 +14,7 @@ position: 3
 
 ## Google Analytics account
 
-In order to work with Google Analytics you need to have an account with Google and to have registered an Analytics Account. You can pass the __UA__ you get from Google to the __GoogleAnalyticsUA__ property of the __RadSocialShare__. Please keep in mind that the statistics are updated every 24 hours and not in realtime.
+In order to work with Google Analytics you need to have an account with Google and to have registered an Analytics Account. You can pass the **UA** you get from Google to the **GoogleAnalyticsUA** property of the **RadSocialShare**. Please keep in mind that the statistics are updated every 24 hours and not in realtime.
 
 ## Google PlusOne Button API and Limitations
 

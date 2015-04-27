@@ -1,6 +1,6 @@
 ---
 title: OnSocialButtonClicking
-page_title: OnSocialButtonClicking | UI for ASP.NET AJAX Documentation
+page_title: OnSocialButtonClicking | RadSocialShare for ASP.NET AJAX Documentation
 description: OnSocialButtonClicking
 slug: socialshare/client-side-programming/events/onsocialbuttonclicking
 tags: onsocialbuttonclicking
@@ -14,11 +14,11 @@ position: 8
 
 ## 
 
-__OnSocialButtonClicking__ - fires when one of the __RadSocialButtons__ is clicked. The event is raised before the [OnSocialButtonClicked]({%slug socialshare/client-side-programming/events/onsocialbuttonclicked%}) event and it can be canceled.
+**OnSocialButtonClicking** - fires when one of the **RadSocialButtons** is clicked. The event is raised before the [OnSocialButtonClicked]({%slug socialshare/client-side-programming/events/onsocialbuttonclicked%}) event and it can be canceled.
 
 The event handler receives two parameters:
 
-1. sender - the __RadSocialShare__ instance that fired the event.
+1. sender - the **RadSocialShare** instance that fired the event.
 
 1. eventArgs - event arguments that expose the following methods:
 
@@ -26,7 +26,7 @@ The event handler receives two parameters:
 
 * set_cancel(*shouldCancel*) - sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.
 
-* get_socialNetType() - returns the type of the clicked __RadSocialButton__.
+* get_socialNetType() - returns the type of the clicked **RadSocialButton**.
 
 * get_url() - returns the shared URL.
 

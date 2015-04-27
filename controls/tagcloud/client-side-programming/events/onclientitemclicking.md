@@ -1,6 +1,6 @@
 ---
 title: OnClientItemClicking
-page_title: OnClientItemClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemClicking | RadTagCloud for ASP.NET AJAX Documentation
 description: OnClientItemClicking
 slug: tagcloud/client-side-programming/events/onclientitemclicking
 tags: onclientitemclicking
@@ -12,15 +12,15 @@ position: 2
 
 
 
-The __OnClientItemClicking__ event occurs when an item of the __RadTagCloud__ control is clicked,	immediately after the mouse button is released. The event is fired before the client-side validation occurs, and can be canceled
+The **OnClientItemClicking** event occurs when an item of the **RadTagCloud** control is clicked,	immediately after the mouse button is released. The event is fired before the client-side validation occurs, and can be canceled
 
 ## 
 
 The event handler receives two parameters:
 
-1. __Sender__–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
+1. **Sender**–the [TagCould object]({%slug tagcloud/client-side-programming/tagcloud-object%}) that fired the event.
 
-1. __Event arguments__–event arguments object of type __Telerik.Web.UI.RadTagCloudEventArgs__, that exposes the following properties and methods:
+1. **Event arguments**–event arguments object of type **Telerik.Web.UI.RadTagCloudEventArgs**, that exposes the following properties and methods:
 
 
 | Name | Parameters | Return Type | Description |
@@ -29,7 +29,7 @@ The event handler receives two parameters:
 |get_cancel||Bool|Returns a bool value that indicates whether the event was canceled. True means the event is canceled.|
 |set_cancel|bool||Sets a bool value that indicates whether the event will be canceled. Setting true means the event will be canceled.|
 
-__Example 1:__ Shows how you can use the __OnClientItemClicking__event to cancel the [OnClientClicked]({%slug tagcloud/client-side-programming/events/onclientitemclicked%}) event firing upon programmatic rule.
+**Example 1:** Shows how you can use the **OnClientItemClicking**event to cancel the [OnClientClicked]({%slug tagcloud/client-side-programming/events/onclientitemclicked%}) event firing upon programmatic rule.
 
 ````ASPNET
 			<telerik:RadTagCloud runat="server" ID="RadTagCloud1" 

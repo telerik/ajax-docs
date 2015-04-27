@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadSpell for ASP.NET AJAX Documentation
 description: Overview
 slug: spell/client-side-programming/overview
 tags: overview
@@ -16,7 +16,7 @@ RadSpell provides a flexible client-side API that allows you to interact with th
 
 ## Getting the RadSpell client-side object
 
-__RadSpell____ClientID__
+**RadSpell ClientID**
 
 ````JavaScript
 	     
@@ -33,7 +33,7 @@ Many public properties that are defined on the server are available on the clien
 
 RadSpell1.get_[PROPERTY_NAME];RadSpell1.set_[PROPERTY_NAME];
 
-For example to get/set the __ControlToCheck__ property using the client-side object:
+For example to get/set the **ControlToCheck** property using the client-side object:
 
 ````JavaScript
 	var spell = $find('<%= RadSpell1.ClientID %>');

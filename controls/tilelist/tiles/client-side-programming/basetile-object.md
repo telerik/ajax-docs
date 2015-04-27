@@ -1,6 +1,6 @@
 ---
 title: BaseTile Object
-page_title: BaseTile Object | UI for ASP.NET AJAX Documentation
+page_title: BaseTile Object | RadTileList for ASP.NET AJAX Documentation
 description: BaseTile Object
 slug: tilelist/tiles/client-side-programming/basetile-object
 tags: basetile,object
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __RadTiles__ expose the following public methods and properties to control their behavior:
+The **RadTiles** expose the following public methods and properties to control their behavior:
 
 ## Helper Methods
 
@@ -76,33 +76,33 @@ The __RadTiles__ expose the following public methods and properties to control t
 |set_selected(value, triggerEvents)|bool, bool||Sets the selected state of the tile. If the second passed parameter is false the selecting and selected client events are not fired.|
 |set_showPeekTemplateOnMouseOver(value)|bool||Sets if the peek template should be shown on mouse over.|
 |set_target(value)|String||Sets the target window or frame in which to display the Web page content linked to when the NavigateUrl property when the control is clicked.|
-|setBadgeImageUrl(imageUrl)|String||Sets the __imageUrl__ property of the tile's badge and updates the image in the bottom right corner of the tile.|
-|setBadgePredefinedType(predefindedType)|Int||Sets the __predefinedType__ property of the tile's badge and updates the type of the badge. The`Telerik.Web.UI.TileBadgeType`enum can be used instead of an integer, where:
+|setBadgeImageUrl(imageUrl)|String||Sets the **imageUrl** property of the tile's badge and updates the image in the bottom right corner of the tile.|
+|setBadgePredefinedType(predefindedType)|Int||Sets the **predefinedType** property of the tile's badge and updates the type of the badge. The`Telerik.Web.UI.TileBadgeType`enum can be used instead of an integer, where:
 
-* 0 = Telerik.Web.UI.TileBadgeType. __None__ mode
+* 0 = Telerik.Web.UI.TileBadgeType. **None** mode
 
-* 1 = Telerik.Web.UI.TileBadgeType. __Activity__ mode
+* 1 = Telerik.Web.UI.TileBadgeType. **Activity** mode
 
-* 2 = Telerik.Web.UI.TileBadgeType. __Alert__ mode
+* 2 = Telerik.Web.UI.TileBadgeType. **Alert** mode
 
-* 3 = Telerik.Web.UI.TileBadgeType. __Attention__ mode
+* 3 = Telerik.Web.UI.TileBadgeType. **Attention** mode
 
-* 4 = Telerik.Web.UI.TileBadgeType. __Available__ mode
+* 4 = Telerik.Web.UI.TileBadgeType. **Available** mode
 
-* 5 = Telerik.Web.UI.TileBadgeType. __Away__ mode
+* 5 = Telerik.Web.UI.TileBadgeType. **Away** mode
 
-* 6 = Telerik.Web.UI.TileBadgeType. __Busy__ mode
+* 6 = Telerik.Web.UI.TileBadgeType. **Busy** mode
 
-* 7 = Telerik.Web.UI.TileBadgeType. __Error__ mode
+* 7 = Telerik.Web.UI.TileBadgeType. **Error** mode
 
-* 8 = Telerik.Web.UI.TileBadgeType. __NewMessage__ mode
+* 8 = Telerik.Web.UI.TileBadgeType. **NewMessage** mode
 
-* 9 = Telerik.Web.UI.TileBadgeType. __Paused__ mode
+* 9 = Telerik.Web.UI.TileBadgeType. **Paused** mode
 
-* 10 = Telerik.Web.UI.TileBadgeType. __Playing__ mode
+* 10 = Telerik.Web.UI.TileBadgeType. **Playing** mode
 
-* 11 = Telerik.Web.UI.TileBadgeType. __Unavailable__ mode|
-|setBadgeValue(value)|Int||Sets the __value__ property of the tile's badge and updates the number displayed in the bottom right corner of the tile.|
+* 11 = Telerik.Web.UI.TileBadgeType. **Unavailable** mode|
+|setBadgeValue(value)|Int||Sets the **value** property of the tile's badge and updates the number displayed in the bottom right corner of the tile.|
 |setTitleImageUrl(imageUrl)|String||Updates the title image in the bottom left corner of the tile.|
 |setTitleText(text)|String||Updates the title text displayed in the bottom left corner of the tile.|
 

@@ -1,6 +1,6 @@
 ---
 title: Spellchecking Multiple Text Areas
-page_title: Spellchecking Multiple Text Areas | UI for ASP.NET AJAX Documentation
+page_title: Spellchecking Multiple Text Areas | RadSpell for ASP.NET AJAX Documentation
 description: Spellchecking Multiple Text Areas
 slug: spell/how-to/spellchecking-multiple-text-areas
 tags: spellchecking,multiple,text,areas
@@ -40,7 +40,7 @@ This general approach can be used not just for TextBoxes, but for spell checking
 
 >note At runtime the joined string might look like:
 >"bad spelling 1<controlSeparator><br/></controlSeparator>bad spelling 2<controlSeparator><br/></controlSeparator>bad spelling 3"
->But is displayed as in __Figure 1__ .
+>But is displayed as in **Figure 1** .
 >The "<controlSeparator>" tags are arbitrary and can be any unique string that is used to join in the get_text() method and parse back apart in the set_text() method. The "<br> tags are necessary to show each misspelling on a separate line in the "Not in Dictionary' section of the dialog.
 >
 

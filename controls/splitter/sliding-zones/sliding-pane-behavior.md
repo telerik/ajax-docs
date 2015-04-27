@@ -1,6 +1,6 @@
 ---
 title: Sliding Pane Behavior
-page_title: Sliding Pane Behavior | UI for ASP.NET AJAX Documentation
+page_title: Sliding Pane Behavior | RadSplitter for ASP.NET AJAX Documentation
 description: Sliding Pane Behavior
 slug: splitter/sliding-zones/sliding-pane-behavior
 tags: sliding,pane,behavior
@@ -16,9 +16,9 @@ A number of properties control how users can interact with the sliding panes in 
 
 ## Opening sliding panes
 
-By default, a sliding pane expands when the user hovers the mouse over its tab in the sliding zone. You can use the __ClickToOpen__ property of the __RadSlidingZone__ control to change this default behavior so that the panes only expand when the user clicks the tab.
+By default, a sliding pane expands when the user hovers the mouse over its tab in the sliding zone. You can use the **ClickToOpen** property of the **RadSlidingZone** control to change this default behavior so that the panes only expand when the user clicks the tab.
 
-When the sliding pane expands, an animated effect makes it appear to slide out from the sliding zone tab. You can use the __SlideDuration__ property of the __RadSlidingZone__ control to change the speed of this animated effect. __SlideDuration__ specifies the duration, in milliseconds, of the animated effect.
+When the sliding pane expands, an animated effect makes it appear to slide out from the sliding zone tab. You can use the **SlideDuration** property of the **RadSlidingZone** control to change the speed of this animated effect. **SlideDuration** specifies the duration, in milliseconds, of the animated effect.
 
 ## Closing sliding panes
 
@@ -28,7 +28,7 @@ There are a number of ways the user can close a sliding pane that is expanded:
 
 * A sliding pane closes automatically when the user opens another sliding pane in the same sliding zone.
 
-* If the __ClickToOpen__ property is __False__, a sliding zone closes automatically after a brief delay when the user moves the mouse off of the sliding pane and its tab.
+* If the **ClickToOpen** property is **False**, a sliding zone closes automatically after a brief delay when the user moves the mouse off of the sliding pane and its tab.
 
 ## Docking sliding panes
 
@@ -40,7 +40,7 @@ When a sliding pane is in the docked state, its Dock button changes to an "Undoc
 >
 
 
-You can remove the Dock/Undock button from the title bar of a sliding pane by setting its __EnableDock__ property to __False__. When the __EnableDock__ property of a __RadSlidingPane__ control is __False__, the title bar shows only a collapse button, and the pane cannot be docked (not even using the [client-side API]({%slug splitter/client-side-programming/radslidingpane-object%}) or by specifying the [initial state]({%slug splitter/sliding-zones/specifying-the-initial-state%}) of the sliding zone).
+You can remove the Dock/Undock button from the title bar of a sliding pane by setting its **EnableDock** property to **False**. When the **EnableDock** property of a **RadSlidingPane** control is **False**, the title bar shows only a collapse button, and the pane cannot be docked (not even using the [client-side API]({%slug splitter/client-side-programming/radslidingpane-object%}) or by specifying the [initial state]({%slug splitter/sliding-zones/specifying-the-initial-state%}) of the sliding zone).
 
 ## Resizing sliding panes
 
@@ -48,13 +48,13 @@ By default, sliding panes have a single resizable edge that the user can drag on
 
 * When the [SlideDirection]({%slug splitter/sliding-zones/sliding-direction%}) of the sliding zone is "Right", the right edge of the sliding pane is resizable.
 
-* When the __SlideDirection__ of the sliding zone is "Left", the left edge of the sliding pane is resizable.
+* When the **SlideDirection** of the sliding zone is "Left", the left edge of the sliding pane is resizable.
 
-* When the __SlideDirection__ of the sliding zone is "Bottom", the lower edge of the sliding pane is resizable.
+* When the **SlideDirection** of the sliding zone is "Bottom", the lower edge of the sliding pane is resizable.
 
-* When the __SlideDirection__ of the sliding zone is "Top", the upper edge of the sliding pane is resizable.
+* When the **SlideDirection** of the sliding zone is "Top", the upper edge of the sliding pane is resizable.
 
-You can disable the resizing of a sliding panes using its __EnableResize__ property. When __EnableResize__ is __False__, the size of expanded sliding panes is limited to the dimensions you specify [using the Height and Width properties]({%slug splitter/layout/specifying-size%}).
+You can disable the resizing of a sliding panes using its **EnableResize** property. When **EnableResize** is **False**, the size of expanded sliding panes is limited to the dimensions you specify [using the Height and Width properties]({%slug splitter/layout/specifying-size%}).
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: Binding Templates
-page_title: Binding Templates | UI for ASP.NET AJAX Documentation
+page_title: Binding Templates | RadTabStrip for ASP.NET AJAX Documentation
 description: Binding Templates
 slug: tabstrip/templates/binding-templates
 tags: binding,templates
@@ -44,7 +44,7 @@ Often, when you use tab templates, you want the controls in the template to disp
 
 When you run the application, the tabs all show check boxes with no labels:![template no binding](images/tabstrip_templatenobinding.png)
 
-This is hardly useful! To override the properties of the check box in the template, use a __DataBinder.Eval__ statement:
+This is hardly useful! To override the properties of the check box in the template, use a **DataBinder.Eval** statement:
 
 ````ASPNET
 	
@@ -60,13 +60,13 @@ This is hardly useful! To override the properties of the check box in the templa
 
 
 
-In the DataBinder.Eval statement, __Container__ is the __RadTab__ and __"Text"__ or __"Selected"__ identifies the __Text__ or __Selected__ property of that item.
+In the DataBinder.Eval statement, **Container** is the **RadTab** and **"Text"** or **"Selected"** identifies the **Text** or **Selected** property of that item.
 
->note In this example, the first parameter to the DataBinder.Eval statement is __Container__ , because the tabs are statically bound. If the tab strip was bound to a data source, then you must use __Container.DataItem__ instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the tabs are statically bound. If the tab strip was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 
-In addition to adding a DataBinder.Eval statement, you must also explicitly call the __DataBind__ method for the tabs so that the template has access to the properties of the tab:
+In addition to adding a DataBinder.Eval statement, you must also explicitly call the **DataBind** method for the tabs so that the template has access to the properties of the tab:
 
 
 

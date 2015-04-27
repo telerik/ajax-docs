@@ -1,6 +1,6 @@
 ---
 title: Launching on Client-side Event
-page_title: Launching on Client-side Event | UI for ASP.NET AJAX Documentation
+page_title: Launching on Client-side Event | RadSpell for ASP.NET AJAX Documentation
 description: Launching on Client-side Event
 slug: spell/how-to/launching-on-client-side-event
 tags: launching,on,client-side,event
@@ -24,7 +24,7 @@ Follow the steps below to achieve this scenario:
 
 1. We will assume that the TextBox control you want to check has ID of "TextBox1".
 
-2. Set the __RadSpell ButtonType__ property to __None__. This will hide the default spellcheck button from the form:
+2. Set the **RadSpell ButtonType** property to **None**. This will hide the default spellcheck button from the form:
 
 ````ASPNET
 	     
@@ -45,7 +45,7 @@ Follow the steps below to achieve this scenario:
 
 
 
-4. Make the TextBox control __onBlur__ client-side handler call the new spellCheck() function:
+4. Make the TextBox control **onBlur** client-side handler call the new spellCheck() function:
 
 ````ASPNET
 	     

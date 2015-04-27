@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeUndock
-page_title: OnClientBeforeUndock | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeUndock | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientBeforeUndock
 slug: splitter/client-side-programming/events/onclientbeforeundock
 tags: onclientbeforeundock
@@ -14,27 +14,27 @@ position: 15
 
 ## 
 
->caution  __OnClientBeforeUndock__ Client-Side event has been deprecated. Please, use the[OnClientUndocking]({%slug splitter/client-side-programming/events/onclientundocking%})instead.
+>caution  **OnClientBeforeUndock** Client-Side event has been deprecated. Please, use the[OnClientUndocking]({%slug splitter/client-side-programming/events/onclientundocking%})instead.
 >
 
 
-The __OnClientBeforeUndock__ client-side event handler is called when a sliding pane is about to be undocked. The event can occur because the user clicks on the undock button, or as the result of a a call to a client-side method.
+The **OnClientBeforeUndock** client-side event handler is called when a sliding pane is about to be undocked. The event can occur because the user clicks on the undock button, or as the result of a a call to a client-side method.
 
->note The __OnClientBeforeUndock__ event is supported by __RadSlidingPane__ .
+>note The **OnClientBeforeUndock** event is supported by **RadSlidingPane** .
 >
 
 
 The following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be undocked.
+* **sender** is the pane that is about to be undocked.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being undocked.
+* **set_cancel()** lets you prevent the pane from being undocked.
 
-* __get_cancel()__ returns whether the operation was cancelled.
+* **get_cancel()** returns whether the operation was cancelled.
 
-The following example uses the __OnClientBeforeUndock__ event to show a confirmation dialog:
+The following example uses the **OnClientBeforeUndock** event to show a confirmation dialog:
 
 ````ASPNET
 	     

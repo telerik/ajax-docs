@@ -1,6 +1,6 @@
 ---
 title: OnClientClicked
-page_title: OnClientClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientClicked | RadTileList for ASP.NET AJAX Documentation
 description: OnClientClicked
 slug: tilelist/tiles/client-side-programming/events/onclientclicked
 tags: onclientclicked
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientClicked__ event is raised after a [Tile]({%slug tilelist/tiles/overview%}) is clicked and therefore after the [OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}) and before the [server-side OnClick event]({%slug tilelist/tiles/server-side-programming/events/onclick%}). It is *not* cancellable. If the OnClientClicking event is cancelled it will not be fired.
+The **OnClientClicked** event is raised after a [Tile]({%slug tilelist/tiles/overview%}) is clicked and therefore after the [OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}) and before the [server-side OnClick event]({%slug tilelist/tiles/server-side-programming/events/onclick%}). It is *not* cancellable. If the OnClientClicking event is cancelled it will not be fired.
 
 This event can be used to monitor navigation and postbacks and obtain information for the tile that is clicked. If AutoPostBack is true [navigation]({%slug tilelist/functionality/navigation%}) will not be performed.
 
@@ -29,14 +29,14 @@ The event handler receives two arguments:
 
 >caption OnClientClicked event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_newValue()|string||Gets the current URL the tile will navigate to. It could have been changed dynamically in the[OnClientClicking event]({%slug tilelist/tiles/client-side-programming/events/onclientclicking%}).|
 |get_oldValue()|string||Gets the original NavigateUrl of the clicked tile. It can be used to compare the current and original values.|
 |set_cancel(value)||bool|Sets whether the event will be cancelled (if true is passed).|
 
-The following example shows how to get and set the __navigateURL__ property of a Tile in the __OnClientClicked__ event.
+The following example shows how to get and set the **navigateURL** property of a Tile in the **OnClientClicked** event.
 
 ````JavaScript
 	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"
@@ -61,7 +61,7 @@ The following example shows how to get and set the __navigateURL__ property of a
 
 
 
-The code snippet below shows how to use the __OnClientClicked__ event to check if the navigation URL of a Tile has been set to a new value.
+The code snippet below shows how to use the **OnClientClicked** event to check if the navigation URL of a Tile has been set to a new value.
 
 ````JavaScript
 	        <telerik:RadTextTile ID="Tile1" runat="server" Name="Sample Text Tile" Text="Lorem ipsum dolor sit amet" Title-Text="Sample"

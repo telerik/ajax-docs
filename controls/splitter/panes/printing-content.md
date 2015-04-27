@@ -1,6 +1,6 @@
 ---
 title: Printing Content
-page_title: Printing Content | UI for ASP.NET AJAX Documentation
+page_title: Printing Content | RadSplitter for ASP.NET AJAX Documentation
 description: Printing Content
 slug: splitter/panes/printing-content
 tags: printing,content
@@ -12,7 +12,7 @@ position: 3
 
 
 
-You can print the content of a __RadPane__ control using its [client-side API]({%slug splitter/client-side-programming/radpane-object%}). The __RadPane__ client-side object has a __print()__ method that prints the content of the pane.
+You can print the content of a **RadPane** control using its [client-side API]({%slug splitter/client-side-programming/radpane-object%}). The **RadPane** client-side object has a **print()** method that prints the content of the pane.
 
 * If the content of the pane comes [from an external source]({%slug splitter/panes/displaying-external-content%}), the URL must be from the same domain as the splitter parent page. Otherwise, the pane cannot print its content due to security restrictions of the browser.
 
@@ -60,7 +60,7 @@ The following example demonstrates how to print the content of a pane:
 
 ## Printing Telerik controls in the content of a RadPane
 
-If there are Telerik controls in the content of a __RadPane__ you should add the CSS files that decorate the controls to the array, containing the external stylesheets.Below you can find a modified version of the __PrintPane__ function that includes the Telerik controls CSS files, linked on the page, and adds them to the __arrExtStylsheetFiles__ array.
+If there are Telerik controls in the content of a **RadPane** you should add the CSS files that decorate the controls to the array, containing the external stylesheets.Below you can find a modified version of the **PrintPane** function that includes the Telerik controls CSS files, linked on the page, and adds them to the **arrExtStylsheetFiles** array.
 
 ````JavaScript
 			<script type="text/javascript">

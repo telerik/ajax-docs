@@ -1,6 +1,6 @@
 ---
 title: OnClientTileDropped
-page_title: OnClientTileDropped | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileDropped | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileDropped
 slug: tilelist/client-side-programming/client-side-events/onclienttiledropped
 tags: onclienttiledropped
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The __OnClientTileDropped__ event is raised after a [tile]({%slug tilelist/tiles/overview%})is dropped by the user in the browser. It is *not* cancellable.
+The **OnClientTileDropped** event is raised after a [tile]({%slug tilelist/tiles/overview%})is dropped by the user in the browser. It is *not* cancellable.
 
 The event handler receives two arguments:
 
@@ -25,11 +25,11 @@ The event handler receives two arguments:
 
 >caption OnClientTileDropped event arguments object
 
-|  __Name__  |  __Return type__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Description**  |
 | ------ | ------ | ------ |
 |get_tile()|[RadBaseTile client-side object]({%slug tilelist/tiles/client-side-programming/basetile-object%})|Gets a reference to the tile that is clicked.|
 
-The following example will show how the __OnClientTileDropped__ event can be used to	__prompt the user to save the changes__ that aremade to the layout. The full version would require a __RadWindowManager__ for the confirmation dialog, a__RadAjaxManager__ for the request to the server and a __RadPersistenceManager__ to save the state.
+The following example will show how the **OnClientTileDropped** event can be used to	**prompt the user to save the changes** that aremade to the layout. The full version would require a **RadWindowManager** for the confirmation dialog, a**RadAjaxManager** for the request to the server and a **RadPersistenceManager** to save the state.
 
 ````ASPNET
 		<telerik:RadTileList EnableDragAndDrop="true" ID="TileList2" runat="server" OnClientTileDropped="OnClientTileDroppedHandler">

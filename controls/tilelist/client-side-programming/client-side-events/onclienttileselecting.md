@@ -1,6 +1,6 @@
 ---
 title: OnClientTileSelecting
-page_title: OnClientTileSelecting | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileSelecting | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileSelecting
 slug: tilelist/client-side-programming/client-side-events/onclienttileselecting
 tags: onclienttileselecting
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-The __OnClientTileSelecting__ event is raised just before a [tile]({%slug tilelist/tiles/overview%})is [selected]({%slug tilelist/functionality/selecting%}). It is cancellable and precedes the[OnClientTileSelected event]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%}). If it is cancelled the OnClientTileSelected event is not raised.
+The **OnClientTileSelecting** event is raised just before a [tile]({%slug tilelist/tiles/overview%})is [selected]({%slug tilelist/functionality/selecting%}). It is cancellable and precedes the[OnClientTileSelected event]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%}). If it is cancelled the OnClientTileSelected event is not raised.
 
 This event can be used to prevent selection based on a certain criteria (e.g. information for the tile that is about to be selected).Cancelling this event will prevent the postback and the selection.
 
@@ -27,14 +27,14 @@ The event handler receives two arguments:
 
 >caption OnClientTileSelecting event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_tile()|[RadBaseTile client-side object]({%slug tilelist/tiles/client-side-programming/basetile-object%})||Gets a reference to the tile that is about to be selected.|
 |get_value()|bool||Returns true if the tile is selected.|
 |set_cancel(value)||bool|Sets whether the event will be cancelled (if true is passed).|
 
-The following example shows how to get information about a tile using the __OnClientTileSelecting__ event of the __RadTileList__.	Note that the event is cancellable and that selection is performed by right-clicking on a tile.
+The following example shows how to get information about a tile using the **OnClientTileSelecting** event of the **RadTileList**.	Note that the event is cancellable and that selection is performed by right-clicking on a tile.
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileSelecting="OnClientTileSelecting">

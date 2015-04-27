@@ -1,6 +1,6 @@
 ---
 title: TileGroup Object
-page_title: TileGroup Object | UI for ASP.NET AJAX Documentation
+page_title: TileGroup Object | RadTileList for ASP.NET AJAX Documentation
 description: TileGroup Object
 slug: tilelist/server-side-programming/tilegroup-object
 tags: tilegroup,object
@@ -14,20 +14,20 @@ position: 1
 
 ## 
 
-A __TileGroup__ object is obtained from the [TileList Object]({%slug tilelist/server-side-programming/tilelist-object%})though its __Groups__ collection which offers an enumerator.
+A **TileGroup** object is obtained from the [TileList Object]({%slug tilelist/server-side-programming/tilelist-object%})though its **Groups** collection which offers an enumerator.
 
 
 >caption Public methods
 
-|  __Name__  |  __Return type__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Description**  |
 | ------ | ------ | ------ |
-| __GetAllTiles__ |List<Telerik.Web.UI.RadBaseTile>|Gets all tiles inside the group.|
-| __GetSelectedTiles__ |List<Telerik.Web.UI.RadBaseTile>|Gets the selected tiles from the group.|
+| **GetAllTiles** |List<Telerik.Web.UI.RadBaseTile>|Gets all tiles inside the group.|
+| **GetSelectedTiles** |List<Telerik.Web.UI.RadBaseTile>|Gets the selected tiles from the group.|
 
 
 >caption Public properties
 
-|  __Name__  |  __Return type__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Description**  |
 | ------ | ------ | ------ |
-| __Name__ |string|Gets or sets the Name of the group.|
-| __Tiles__ |Telerik.Web.UI.BaseTileCollection|Gets the children of the group. The collection can be modified by adding/removing tiles.|
+| **Name** |string|Gets or sets the Name of the group.|
+| **Tiles** |Telerik.Web.UI.BaseTileCollection|Gets the children of the group. The collection can be modified by adding/removing tiles.|

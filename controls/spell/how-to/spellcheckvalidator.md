@@ -1,6 +1,6 @@
 ---
 title: SpellCheckValidator
-page_title: SpellCheckValidator | UI for ASP.NET AJAX Documentation
+page_title: SpellCheckValidator | RadSpell for ASP.NET AJAX Documentation
 description: SpellCheckValidator
 slug: spell/how-to/spellcheckvalidator
 tags: spellcheckvalidator
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-__SpellCheckValidator__validates a form based on a __RadSpell__ control. It can be used to enforce spell checking before form submission. The __ControlToValidate__must be set to the ID of a RadSpell control. The RadSpell control should be separately set up with a control to check and other options.
+**SpellCheckValidator**validates a form based on a **RadSpell** control. It can be used to enforce spell checking before form submission. The **ControlToValidate**must be set to the ID of a RadSpell control. The RadSpell control should be separately set up with a control to check and other options.
 
 SpellCheckValidator descends from [CustomValidator](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.customvalidator(VS.71).aspx) and ultimately [BaseValidator](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.basevalidator(VS.71).aspx) and so shares behavior and properties with the other ASP.NET Standard validation controls.
 

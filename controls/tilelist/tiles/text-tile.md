@@ -1,6 +1,6 @@
 ---
 title: Text Tile
-page_title: Text Tile | UI for ASP.NET AJAX Documentation
+page_title: Text Tile | RadTileList for ASP.NET AJAX Documentation
 description: Text Tile
 slug: tilelist/tiles/text-tile
 tags: text,tile
@@ -14,13 +14,13 @@ position: 7
 
 ## 
 
-The __RadTextTile__ is designed to only show some text as its primary content. The string is set through its__Text__ property:![tile List-text Tile-grid-example](images/tileList-textTile-grid-example.png)
+The **RadTextTile** is designed to only show some text as its primary content. The string is set through its**Text** property:![tile List-text Tile-grid-example](images/tileList-textTile-grid-example.png)
 
 >note The examples below show specific functionality for the given tile type, for more infomration on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 >
 
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1" Skin="Glow">
@@ -37,7 +37,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadTextTile ID="Tile1" runat="server" Shape="Wide" Font-Size="18px" Font-Bold="true"

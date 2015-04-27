@@ -1,6 +1,6 @@
 ---
 title: Image Tile
-page_title: Image Tile | UI for ASP.NET AJAX Documentation
+page_title: Image Tile | RadTileList for ASP.NET AJAX Documentation
 description: Image Tile
 slug: tilelist/tiles/image-tile
 tags: image,tile
@@ -14,13 +14,13 @@ position: 5
 
 ## 
 
-A __RadImageTile__ uses an image as the primary content of the tile. It begins from 0,0 and can be as large as the tile.If it is larger it will be clipped. Unlike the [ImageAndText tile]({%slug tilelist/tiles/imageandtext-tile%}) it has notext and the Title element is not limited to a smaller size.![tilelist-image Tile-documentation-example](images/tilelist-imageTile-documentation-example.png)
+A **RadImageTile** uses an image as the primary content of the tile. It begins from 0,0 and can be as large as the tile.If it is larger it will be clipped. Unlike the [ImageAndText tile]({%slug tilelist/tiles/imageandtext-tile%}) it has notext and the Title element is not limited to a smaller size.![tilelist-image Tile-documentation-example](images/tilelist-imageTile-documentation-example.png)
 
 >note The examples below show specific functionality for the given tile type, for more infomration on the general options	for navigation and selecting please examine the additional resources at the end of the article.
 >
 
 
-__RadTileList__ example:
+**RadTileList** example:
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1" Skin="Metro">
@@ -36,7 +36,7 @@ __RadTileList__ example:
 
 
 
-Standalone __Tile__ example:
+Standalone **Tile** example:
 
 ````ASPNET
 		<telerik:RadImageTile ID="Tile1" runat="server" ImageUrl="img_documentation.png" Shape="Wide">

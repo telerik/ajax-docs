@@ -1,6 +1,6 @@
 ---
 title: Scrolling
-page_title: Scrolling | UI for ASP.NET AJAX Documentation
+page_title: Scrolling | RadTileList for ASP.NET AJAX Documentation
 description: Scrolling
 slug: tilelist/functionality/scrolling
 tags: scrolling
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__RadTileList__ allows the developer the choose the scrolling experience for the end users.Generally, the control scrolls only horizontally and this can be done by using the mousewheel. Turning it downward will scroll the control to the right.The __ScrollingMode__ property is used to control the general behavior:
+**RadTileList** allows the developer the choose the scrolling experience for the end users.Generally, the control scrolls only horizontally and this can be done by using the mousewheel. Turning it downward will scroll the control to the right.The **ScrollingMode** property is used to control the general behavior:
 
 * Auto - the default value - the scrolling mode is automatically set to Native or Accelerated depending on the device touch capabilities.
 

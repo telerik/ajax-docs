@@ -1,6 +1,6 @@
 ---
 title: OnClientTileClicking
-page_title: OnClientTileClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientTileClicking | RadTileList for ASP.NET AJAX Documentation
 description: OnClientTileClicking
 slug: tilelist/client-side-programming/client-side-events/onclienttileclicking
 tags: onclienttileclicking
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientTileClicking__ event is raised just before a [tile]({%slug tilelist/tiles/overview%})is clicked and therefore before the [server-side OnTileClick event]({%slug tilelist/server-side-programming/server-side-events/ontileclick%}) as well.It is cancellable and precedes the[OnClientTileClicked event]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicked%}). If it is cancelled the OnClientTileClicked event is not raised,nor is a postback initiated if AutoPostBack is true.
+The **OnClientTileClicking** event is raised just before a [tile]({%slug tilelist/tiles/overview%})is clicked and therefore before the [server-side OnTileClick event]({%slug tilelist/server-side-programming/server-side-events/ontileclick%}) as well.It is cancellable and precedes the[OnClientTileClicked event]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicked%}). If it is cancelled the OnClientTileClicked event is not raised,nor is a postback initiated if AutoPostBack is true.
 
 This event can be used to prevent navigation and postbacks based on certain criteria (e.g. information for the tile that is about to be clicked).Cancelling this event will prevent the postback and the navigation. The URL that the tile navigates to can also be changed dynamically.
 
@@ -27,7 +27,7 @@ The event handler receives two arguments:
 
 >caption OnClientTileClicking event arguments object
 
-|  __Name__  |  __Return type__  |  __Arguments__  |  __Description__  |
+|  **Name**  |  **Return type**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_cancel()|bool||Gets a value that indicates whether the event is cancelled.|
 |get_tile()|[RadBaseTile client-side object]({%slug tilelist/tiles/client-side-programming/basetile-object%})||Gets a reference to the tile that is about to be clicked.|
@@ -35,7 +35,7 @@ The event handler receives two arguments:
 |set_cancel(value)||bool|Sets whether the event will be cancelled (if true is passed).|
 |set_value(value)||string|Sets a new NavigateUrl for the tile. If there is not going to be a postback (AutoPostback is false)	this is the new URL that the tile is going to navigate to. This new URL will not be persisted in the tile,	so the next time the same tile is clicked it will retain its original URL.|
 
-The example below demonstrates how to get a tile's __NavigateUrl__ in the __OnClientTileClicking__ event of	a __RadTileList__. Based on the returned Url, the clicking event is cancelled or allowed.
+The example below demonstrates how to get a tile's **NavigateUrl** in the **OnClientTileClicking** event of	a **RadTileList**. Based on the returned Url, the clicking event is cancelled or allowed.
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single" OnClientTileClicking="OnClientTileClicking">
@@ -67,7 +67,7 @@ The example below demonstrates how to get a tile's __NavigateUrl__ in the __OnCl
 
 
 
-The following code snippet represents a simple example of how to use the __OnClientTileClicking__	event to get a reference to the clicked tile's name and, on user request, cancel the execution of the event.
+The following code snippet represents a simple example of how to use the **OnClientTileClicking**	event to get a reference to the clicked tile's name and, on user request, cancel the execution of the event.
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="true" OnClientTileClicking="OnClientTileClicking" SelectionMode="Single">

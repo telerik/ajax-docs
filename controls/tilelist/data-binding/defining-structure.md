@@ -1,6 +1,6 @@
 ---
 title: Defining Structure
-page_title: Defining Structure | UI for ASP.NET AJAX Documentation
+page_title: Defining Structure | RadTileList for ASP.NET AJAX Documentation
 description: Defining Structure
 slug: tilelist/data-binding/defining-structure
 tags: defining,structure
@@ -16,9 +16,9 @@ position: 1
 
 By default, when the control iterates through the datasource, a tile is created for each row/item from the collection. This meansthat the TileGroups are also created when they are first encountered and tiles are added to an existing group only when it is encounteredfor a second time.
 
-The __order__ and layout of the __RadTileList__ can be controlled by generating the desired __TileGroups__in the __markup or in the code-behind__.
+The **order** and layout of the **RadTileList** can be controlled by generating the desired **TileGroups**in the **markup or in the code-behind**.
 
-The __Name__ property of each __TileGroup__ can be used to __match a group from the datasource__	(set through the DataGroupNameField databinding property) __with an already defined group in the page__.
+The **Name** property of each **TileGroup** can be used to **match a group from the datasource**	(set through the DataGroupNameField databinding property) **with an already defined group in the page**.
 
 Groups from the datasource that do not already exist are appended to the current ones.
 
@@ -212,9 +212,9 @@ If the groups from the markup and/or code-behind are removed the order of the ti
 
 ## Defining Tiles Order
 
-It is possible that some tiles must always be present in the control and do not or cannot be created from the datasource. This is why the	__AppendDataBoundItems__ property of the __RadTileList__ allows the developer to __keep itemsfrom the markup/code-behind when databinding the control__.
+It is possible that some tiles must always be present in the control and do not or cannot be created from the datasource. This is why the	**AppendDataBoundItems** property of the **RadTileList** allows the developer to **keep itemsfrom the markup/code-behind when databinding the control**.
 
-When __AppendDataBoundItems__ is set to __true__ tiles created from the datasource will be__added__ to tiles already present in the control.
+When **AppendDataBoundItems** is set to **true** tiles created from the datasource will be**added** to tiles already present in the control.
 
 The default value of AppendDataBoundItems is false.
 

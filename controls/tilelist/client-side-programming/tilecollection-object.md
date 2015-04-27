@@ -1,6 +1,6 @@
 ---
 title: TileCollection Object
-page_title: TileCollection Object | UI for ASP.NET AJAX Documentation
+page_title: TileCollection Object | RadTileList for ASP.NET AJAX Documentation
 description: TileCollection Object
 slug: tilelist/client-side-programming/tilecollection-object
 tags: tilecollection,object
@@ -16,7 +16,7 @@ position: 3
 
 A `TileCollection` is obtained by calling the `get_tiles()` method of a[TileGroup object]({%slug tilelist/client-side-programming/tilegroup-object%}).
 
-The __Telerik.Web.UI.TileList.TileCollection__ object exposes the following public methods and properties to control its behavior:
+The **Telerik.Web.UI.TileList.TileCollection** object exposes the following public methods and properties to control its behavior:
 
 
 >caption 	TileCollection Client-Side Methods

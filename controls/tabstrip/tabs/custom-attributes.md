@@ -1,6 +1,6 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Custom Attributes | RadTabStrip for ASP.NET AJAX Documentation
 description: Custom Attributes
 slug: tabstrip/tabs/custom-attributes
 tags: custom,attributes
@@ -12,11 +12,11 @@ position: 3
 
 
 
-__RadTab__ objects provide a special collection called __Attributes__. You can use this collection to expand the information stored with the tabs. The __Attributes__ collection lets you store any number of attributes as name/value pairs. You can specify custom attributes declaratively in the __RadTab__ tag or programmatically using the __Attributes__ collection of the __RadTab__. You can also access custom attributes client-side, using the __get_attributes__ collection of the __RadTab__ client-side object.
+**RadTab** objects provide a special collection called **Attributes**. You can use this collection to expand the information stored with the tabs. The **Attributes** collection lets you store any number of attributes as name/value pairs. You can specify custom attributes declaratively in the **RadTab** tag or programmatically using the **Attributes** collection of the **RadTab**. You can also access custom attributes client-side, using the **get_attributes** collection of the **RadTab** client-side object.
 
 ## Setting attributes declaratively
 
-In the ASP.NET declaration of your __RadTabStrip__ object, you can add custom attributes to tabs by simply adding Name="value" to the __RadTab__ declaration. For example, the following __RadTabStrip__ definition adds two custom attributes named "state" and "labelName" to its tabs:
+In the ASP.NET declaration of your **RadTabStrip** object, you can add custom attributes to tabs by simply adding Name="value" to the **RadTab** declaration. For example, the following **RadTabStrip** definition adds two custom attributes named "state" and "labelName" to its tabs:
 
 ````ASPNET
 	     
@@ -53,7 +53,7 @@ In the ASP.NET declaration of your __RadTabStrip__ object, you can add custom at
 
 ## Using attributes in server-side code
 
-You can access custom attributes from code behind via the __Attributes__ collection exposed by the __RadTab__ class.
+You can access custom attributes from code behind via the **Attributes** collection exposed by the **RadTab** class.
 
 
 
@@ -99,7 +99,7 @@ You can access custom attributes from code behind via the __Attributes__ collect
 
 ## Using attributes in client-side code
 
-You can work with custom attributes from client-side code using the attributes collection returned by the __get_attributes__ method of the client-side __RadTab__ object. The attributes collection has a __getAttribute__ method that lets you get attribute values, and a __setAttribute__ method that lets you set them:
+You can work with custom attributes from client-side code using the attributes collection returned by the **get_attributes** method of the client-side **RadTab** object. The attributes collection has a **getAttribute** method that lets you get attribute values, and a **setAttribute** method that lets you set them:
 
 ````JavaScript
 	     
@@ -124,7 +124,7 @@ You can work with custom attributes from client-side code using the attributes c
 
 ## Data Binding with Custom Attributes
 
-When binding the __RadTabStrip__ to data, custom attributes can be set in the __TabDataBound__ event. The following code binds the tab strip to a __DataTable__ when the page loads. The __DataTable__ contains a "__Roles"__ column that does not map to a property of the tabs:
+When binding the **RadTabStrip** to data, custom attributes can be set in the **TabDataBound** event. The following code binds the tab strip to a **DataTable** when the page loads. The **DataTable** contains a "**Roles"** column that does not map to a property of the tabs:
 
 
 
@@ -232,7 +232,7 @@ When binding the __RadTabStrip__ to data, custom attributes can be set in the __
 ````
 
 
-The __"Roles"__ column is mapped to a custom attribute in the __TabDataBound__ event handler. The event handler also sets the __ToolTip__ property of the tab to the value of its custom attribute to allow for testing of the custom attribute:
+The **"Roles"** column is mapped to a custom attribute in the **TabDataBound** event handler. The event handler also sets the **ToolTip** property of the tab to the value of its custom attribute to allow for testing of the custom attribute:
 
 
 

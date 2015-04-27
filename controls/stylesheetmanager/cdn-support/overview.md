@@ -1,6 +1,6 @@
 ---
-title: CDN Support Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: CDN Support Overview | RadStyleSheetManager for ASP.NET AJAX Documentation
 description: Overview
 slug: stylesheetmanager/cdn-support/overview
 tags: overview
@@ -12,35 +12,35 @@ position: 0
 
 
 
-Starting with the __Q3 2009 Service Pack 1__ release you will be able to load the controls scripts and skins from the Telerik CDN. Telerik CDN is hosted on the Amazon CloudFront service. This is a __global content delivery service__ with edge locations in the US, Europe and Asia.
+Starting with the **Q3 2009 Service Pack 1** release you will be able to load the controls scripts and skins from the Telerik CDN. Telerik CDN is hosted on the Amazon CloudFront service. This is a **global content delivery service** with edge locations in the US, Europe and Asia.
 
 Using the Content Delivery Network has a number of advantages:
 
-* __Reduced latency__ – requests will be automatically redirected to the nearest server
+* **Reduced latency** – requests will be automatically redirected to the nearest server
 
-* __Compressed output__ - the css files are already compressed so they are in minimum size
+* **Compressed output** - the css files are already compressed so they are in minimum size
 
-* __Better use of caching__ – each resource only needs to be downloaded once
+* **Better use of caching** – each resource only needs to be downloaded once
 
-* __Reduced hosting expenses__ – we host the resources for you so you can pay less
+* **Reduced hosting expenses** – we host the resources for you so you can pay less
 
 
 
-__Caching__ is what a CDN is all about. Say you have a number of applications that all utilize RadGrid. A customer will load the RadGrid css and images just once and then use the cached version until he clears his browser’s cache. Proxies will also aggressively cache these resources.
+**Caching** is what a CDN is all about. Say you have a number of applications that all utilize RadGrid. A customer will load the RadGrid css and images just once and then use the cached version until he clears his browser’s cache. Proxies will also aggressively cache these resources.
 
 ## When NOT to use CDN?
 
 * Intranet applications in particular are a bad candidate for it. Your Intranet is likely to be a lot faster than any type of CDN. You’ll also lose the ability to run your application without an Internet connection.
 
-* When you are using a latest internal build (not an official one). We will not host the resources for any intermediate versions. __Only the official__ release version will support CDN.
+* When you are using a latest internal build (not an official one). We will not host the resources for any intermediate versions. **Only the official** release version will support CDN.
 
 
 
 ## How to enable Telerik CDN
 
-1. Make sure you are using Telerik.Web.UI version 2009.3.1207 (__Q3 2009 SP1__) or later.
+1. Make sure you are using Telerik.Web.UI version 2009.3.1207 (**Q3 2009 SP1**) or later.
 
-2. Set the __CdnSettings-TelerikCdn__ property of the RadStyleSheetManager to Enabled:
+2. Set the **CdnSettings-TelerikCdn** property of the RadStyleSheetManager to Enabled:
 
 ````ASPNET
 	    <telerik:RadStyleSheetManager 
@@ -51,7 +51,7 @@ __Caching__ is what a CDN is all about. Say you have a number of applications th
 
 
 
-Another way to set that property is to use the composite __<CdnSettings>__ property of RadStyleSheetManager:
+Another way to set that property is to use the composite **<CdnSettings>** property of RadStyleSheetManager:
 
 ````ASPNET
 	    <telerik:RadStyleSheetManager 
@@ -63,7 +63,7 @@ Another way to set that property is to use the composite __<CdnSettings>__ prope
 
 
 
-Moreover, you can enable the CDN support __globally__ by adding the following keys in the <appSettings> section of your web.config file:
+Moreover, you can enable the CDN support **globally** by adding the following keys in the <appSettings> section of your web.config file:
 
 ````XML
 	    <appsettings>   
@@ -80,9 +80,9 @@ Note, that the first line will enable the CDN support for the [javascript files]
 
 The Telerik CDN uses the following host names for loading the control resources:
 
-* __http://aspnet-scripts.telerikstatic.com__ - for the scripts;
+* **http://aspnet-scripts.telerikstatic.com** - for the scripts;
 
-* __http://aspnet-skins.telerikstatic.com__ - for the skins (css and images);
+* **http://aspnet-skins.telerikstatic.com** - for the skins (css and images);
 
 Your users need to have access to the above URLs.
 
@@ -92,9 +92,9 @@ Your users need to have access to the above URLs.
 
 When a SSL connection is used RadScriptManager and RadStyleSheetManager will use the native Amazon CloudFront distribution hosts:
 
-* __https://d2i2wahzwrm1n5.cloudfront.net__ - for the scripts;
+* **https://d2i2wahzwrm1n5.cloudfront.net** - for the scripts;
 
-* __https://d35islomi5rx1v.cloudfront.net__ - for the skins (css and images);
+* **https://d35islomi5rx1v.cloudfront.net** - for the skins (css and images);
 
 
 
@@ -102,7 +102,7 @@ When a SSL connection is used RadScriptManager and RadStyleSheetManager will use
 
 Let's add some RadControls on the page (RadMenu, RadTabStrip, RadListBox) and RadStyleSheetManager with enabled CDN support. When you run the page you will observe the following:
 
-1. The needed CSS files are loaded from the CDN network. If the browser supports compression (the request has __Accept-Encoding__ HTTP header set to *gzip,deflate*) then the files are served __compressed__. The compression is done before uploading of the files to the CDN network, so there are no CPU cycles on the server to compress at run-time. If the browser is __IE6__ then the files are served __uncompressed__ (from another URL) that is because earlier versions of the browser has problems with decompressing the output.
+1. The needed CSS files are loaded from the CDN network. If the browser supports compression (the request has **Accept-Encoding** HTTP header set to *gzip,deflate*) then the files are served **compressed**. The compression is done before uploading of the files to the CDN network, so there are no CPU cycles on the server to compress at run-time. If the browser is **IE6** then the files are served **uncompressed** (from another URL) that is because earlier versions of the browser has problems with decompressing the output.
 
 Here is how the html output look like:
 
@@ -139,4 +139,4 @@ There is no more long web resource urls like this:
 
 
 
-Note that the CSS files from the CDN are placed in the __/ajaxz/__ folder - this means that the compressed file is downloaded. If your browser does not support content encoding (or it is IE6) then you will notice that the scripts are loaded from the __/ajax/__ folder.
+Note that the CSS files from the CDN are placed in the **/ajaxz/** folder - this means that the compressed file is downloaded. If your browser does not support content encoding (or it is IE6) then you will notice that the scripts are loaded from the **/ajax/** folder.

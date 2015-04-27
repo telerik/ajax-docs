@@ -1,6 +1,6 @@
 ---
 title: Ignoring Words and Fragments
-page_title: Ignoring Words and Fragments | UI for ASP.NET AJAX Documentation
+page_title: Ignoring Words and Fragments | RadSpell for ASP.NET AJAX Documentation
 description: Ignoring Words and Fragments
 slug: spell/configuration/ignoring-words-and-fragments
 tags: ignoring,words,and,fragments
@@ -12,35 +12,35 @@ position: 1
 
 
 
-RadSpell can be configured to ignore certain words or text fragments by setting the __WordIgnoreOptions__ and __FragmentIgnoreOptions__ properties:
+RadSpell can be configured to ignore certain words or text fragments by setting the **WordIgnoreOptions** and **FragmentIgnoreOptions** properties:
 
-__WordIgnoreOptions__
+**WordIgnoreOptions**
 
-* __None__: no words will be ignored when spellchecking
+* **None**: no words will be ignored when spellchecking
 
-* __UPPERCASE__: specifies to ignore words in CAPITALS (e.g. 'UNESCO')
+* **UPPERCASE**: specifies to ignore words in CAPITALS (e.g. 'UNESCO')
 
-* __WordsWithCapitalLetters__: specifies to ignore words in Capitals (e.g. 'Washington')
+* **WordsWithCapitalLetters**: specifies to ignore words in Capitals (e.g. 'Washington')
 
-* __RepeatedWords__: specifies to not consider repeating words as errors (e.g. 'very very')
+* **RepeatedWords**: specifies to not consider repeating words as errors (e.g. 'very very')
 
-* __WordsWithNumbers__: specifies to ignore words containing numbers (e.g. 'l8r')
+* **WordsWithNumbers**: specifies to ignore words containing numbers (e.g. 'l8r')
 
-__FragmentIgnoreOptions__
+**FragmentIgnoreOptions**
 
-* __None__: no fragments will be ignored when spellchecking
+* **None**: no fragments will be ignored when spellchecking
 
-* __FileNames__: specifies to ignore filenames when spellchecking (e.g. 'C:\Temp\Document.doc')
+* **FileNames**: specifies to ignore filenames when spellchecking (e.g. 'C:\Temp\Document.doc')
 
-* __Urls__: specifies to ignore Urls when spellchecking (e.g. 'http://www.telerik.com/Telerik RadSpell')
+* **Urls**: specifies to ignore Urls when spellchecking (e.g. 'http://www.telerik.com/Telerik RadSpell')
 
-* __EmailAddresses__: specifies to ignore Email addresses when spellchecking ([support@telerik.com](mailto:support@telerik.com))
+* **EmailAddresses**: specifies to ignore Email addresses when spellchecking ([support@telerik.com](mailto:support@telerik.com))
 
-* __All__: specifies to ignore all fragments above when spellchecking
+* **All**: specifies to ignore all fragments above when spellchecking
 
 ## Example
 
-The example below demonstrates how to set multiple __WordIgnoreOptions__ and multiple __FragmentIgnoreOptions__
+The example below demonstrates how to set multiple **WordIgnoreOptions** and multiple **FragmentIgnoreOptions**
 
 ````ASPNET
 	<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>

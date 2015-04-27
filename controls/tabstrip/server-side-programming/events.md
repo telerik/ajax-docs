@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Server-side Events | RadTabStrip for ASP.NET AJAX Documentation
 description: Events
 slug: tabstrip/server-side-programming/events
 tags: events
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadTabStrip__ introduces three server-side events for working with tabs:
+**RadTabStrip** introduces three server-side events for working with tabs:
 
 * [TabClick]({%slug tabstrip/server-side-programming/tabclick%}) occurs when the user clicks on a tab.
 
@@ -24,7 +24,7 @@ __RadTabStrip__ introduces three server-side events for working with tabs:
 
 * [Reordered]({%slug tabstrip/server-side-programming/reordered%}) occurs after the reorder operation is completed.
 
-In addition, __RadMultiPage__ introduces a single server-side event:
+In addition, **RadMultiPage** introduces a single server-side event:
 
 * [PageViewCreated]({%slug tabstrip/server-side-programming/pageviewcreated-%}) occurs when a new page view is added to the multi-page.
 

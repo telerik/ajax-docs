@@ -1,6 +1,6 @@
 ---
-title: Client-side Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Events Overview | RadTileList for ASP.NET AJAX Documentation
 description: Overview
 slug: tilelist/client-side-programming/client-side-events/overview
 tags: overview
@@ -14,42 +14,42 @@ position: 0
 
 ## 
 
-__RadTileList__ offers a rich set of client-side events that can fully control its behavior - they allow the developerto obtain information about the selected and clicked tiles, then change the page they will navigate to or prevent selection, navigation or the postbackaccording to the desired logic:
+**RadTileList** offers a rich set of client-side events that can fully control its behavior - they allow the developerto obtain information about the selected and clicked tiles, then change the page they will navigate to or prevent selection, navigation or the postbackaccording to the desired logic:
 
-1. __[OnClientLoad]({%slug tilelist/client-side-programming/client-side-events/onclientload%})__—fires when the RadTileList [RadTileList client-side object]({%slug tilelist/client-side-programming/tilelist-object%}) isinitialized.
+1. **[OnClientLoad]({%slug tilelist/client-side-programming/client-side-events/onclientload%})**—fires when the RadTileList [RadTileList client-side object]({%slug tilelist/client-side-programming/tilelist-object%}) isinitialized.
 
-1. __[OnClientTileClicking]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%})__—fires when a tile is being clicked. It can be used to prevent the navigation and the postback or to change the URL.
+1. **[OnClientTileClicking]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicking%})**—fires when a tile is being clicked. It can be used to prevent the navigation and the postback or to change the URL.
 
-1. __[OnClientTileClicked]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicked%})__—fires after a tile is clicked. Can be used to compare the original NavigateUrl with the current and to cancel the postback.
+1. **[OnClientTileClicked]({%slug tilelist/client-side-programming/client-side-events/onclienttileclicked%})**—fires after a tile is clicked. Can be used to compare the original NavigateUrl with the current and to cancel the postback.
 
-1. __[OnClientTileDragging]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragging%})__—fires while the user is dragging a tile.
+1. **[OnClientTileDragging]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragging%})**—fires while the user is dragging a tile.
 
-1. __[OnClientTileDragStart]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragstart%})__—fires when the user starts dragging a tile. Can be cancelled.
+1. **[OnClientTileDragStart]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragstart%})**—fires when the user starts dragging a tile. Can be cancelled.
 
-1. __[OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%})__—fires after a tile is dropped.
+1. **[OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%})**—fires after a tile is dropped.
 
-1. __[OnClientTileDropping]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropping%})__—fires just before a tile is dropped. Can be cancelled.
+1. **[OnClientTileDropping]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropping%})**—fires just before a tile is dropped. Can be cancelled.
 
-1. __[OnClientTileSelecting]({%slug tilelist/client-side-programming/client-side-events/onclienttileselecting%})__—fires just before a tile is [selected]({%slug tilelist/functionality/selecting%})and can be used to prevent the selection and the automatic postback.
+1. **[OnClientTileSelecting]({%slug tilelist/client-side-programming/client-side-events/onclienttileselecting%})**—fires just before a tile is [selected]({%slug tilelist/functionality/selecting%})and can be used to prevent the selection and the automatic postback.
 
-1. __[OnClientTileSelected]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%})__—fires after a tile is selected. It can be used to prevent the postback.
+1. **[OnClientTileSelected]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%})**—fires after a tile is selected. It can be used to prevent the postback.
 
-1. __[OnClientTileListDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilelistdatabound%})__—fires when the TileList data binding is finished.
+1. **[OnClientTileListDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilelistdatabound%})**—fires when the TileList data binding is finished.
 
-1. __[OnClientTileDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttiledatabound%})__—fires when the tile is bound to the fetched data.
+1. **[OnClientTileDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttiledatabound%})**—fires when the tile is bound to the fetched data.
 
-1. __[OnClientTileContentTemplateDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilecontenttemplatedatabound%})__—fires before rendering the __ClientContentTemplate__ in the browser.
+1. **[OnClientTileContentTemplateDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilecontenttemplatedatabound%})**—fires before rendering the **ClientContentTemplate** in the browser.
 
-1. __[OnClientTilePeekTemplateDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilepeektemplatedatabound%})__—fires before rendering the [Peek Template]({%slug tilelist/tiles/peek-template%}) in the browser.
+1. **[OnClientTilePeekTemplateDataBound]({%slug tilelist/client-side-programming/client-side-events/onclienttilepeektemplatedatabound%})**—fires before rendering the [Peek Template]({%slug tilelist/tiles/peek-template%}) in the browser.
 
-1. __[OnClientTileCreating]({%slug tilelist/client-side-programming/client-side-events/onclienttilecreating%})__—fires before the tile is initialized by the TileList.
+1. **[OnClientTileCreating]({%slug tilelist/client-side-programming/client-side-events/onclienttilecreating%})**—fires before the tile is initialized by the TileList.
 
 >note If[selection]({%slug tilelist/functionality/selecting%})is disabled the[OnClientTileSelecting]({%slug tilelist/client-side-programming/client-side-events/onclienttileselecting%})and[OnClientTileSelected]({%slug tilelist/client-side-programming/client-side-events/onclienttileselected%})events will not be fired at all.
 >If[drag-and-drop]({%slug tilelist/functionality/drag-and-drop%})is not enabled the related events will not fire	([OnClientTileDragging]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragging%}),[OnClientTileDragStart]({%slug tilelist/client-side-programming/client-side-events/onclienttiledragstart%}),[OnClientTileDropped]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropped%}),[OnClientTileDropping]({%slug tilelist/client-side-programming/client-side-events/onclienttiledropping%})).
 >
 
 
-The following example shows how to add and remove event handlers dynamically by using the methods exposed by the __TileList's__[Client-side API]({%slug tilelist/client-side-programming/tilelist-object%}).
+The following example shows how to add and remove event handlers dynamically by using the methods exposed by the **TileList's**[Client-side API]({%slug tilelist/client-side-programming/tilelist-object%}).
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" AutoPostBack="false" SelectionMode="Single">

@@ -1,6 +1,6 @@
 ---
 title: Supported Data Sources
-page_title: Supported Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Supported Data Sources | RadTileList for ASP.NET AJAX Documentation
 description: Supported Data Sources
 slug: tilelist/data-binding/supported-data-sources
 tags: supported,data,sources
@@ -12,7 +12,7 @@ position: 2
 
 
 
-The datasource __RadTileList__ can use is an __IEnumerable__ collection.	This includes:
+The datasource **RadTileList** can use is an **IEnumerable** collection.	This includes:
 
 * Declarative ASP datasources (SqlDatasource, ObjectDataSource, LinqDataSource, RadClientDataSource etc.)
 
@@ -24,7 +24,7 @@ In order to preselect the structure of the control follow the information from t
 
 ## Declarative Datasource
 
-The declarative DataSource controls in ASP can return the needed collection type. In order to use them, the __DataSourceID__property of the __RadTileList__ must be set to the __ID__ of the __declarative datasource control__.
+The declarative DataSource controls in ASP can return the needed collection type. In order to use them, the **DataSourceID**property of the **RadTileList** must be set to the **ID** of the **declarative datasource control**.
 
 Here is a simple example with an SqlDataSource:
 
@@ -47,9 +47,9 @@ Here is a simple example with an SqlDataSource:
 
 Once the SELECT statement is in place the control automatically receives the result from the query.
 
-When __RadClientDataSource__ control is used for client-side data binding, the __ID__ of the control is set with the	TileList's __ClientDataSourceID__ property.
+When **RadClientDataSource** control is used for client-side data binding, the **ID** of the control is set with the	TileList's **ClientDataSourceID** property.
 
-Here is a simple example with a __RadClientDataSource__:
+Here is a simple example with a **RadClientDataSource**:
 
 ````C#
 		<telerik:RadClientDataSource runat="server" ID="RadClientDataSource1">
@@ -73,7 +73,7 @@ Here is a simple example with a __RadClientDataSource__:
 
 ## Programmatic Datasources
 
-In order to set a datasource from the __code-behind__ to the __RadTileList__ its __DataSource__property must be used and then its __DataBind()__ method must be called.
+In order to set a datasource from the **code-behind** to the **RadTileList** its **DataSource**property must be used and then its **DataBind()** method must be called.
 
 Here follow several examples.
 

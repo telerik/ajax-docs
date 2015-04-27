@@ -1,6 +1,6 @@
 ---
-title: SocialShare Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSocialShare Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: socialshare/overview
 tags: overview

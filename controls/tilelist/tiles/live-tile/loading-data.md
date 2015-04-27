@@ -1,6 +1,6 @@
 ---
 title: Loading Data
-page_title: Loading Data | UI for ASP.NET AJAX Documentation
+page_title: Loading Data | RadTileList for ASP.NET AJAX Documentation
 description: Loading Data
 slug: tilelist/tiles/live-tile/loading-data
 tags: loading,data
@@ -14,21 +14,21 @@ position: 1
 
 ## Client Template
 
-The template that will be populated when the RadLiveTile is databound, is defined in the inner property __ClientTemplate__. This property allows for runtime evaluation of the __data__ object associated with the populated data, which means that additional fields from the datasource can be displayed as the content.
+The template that will be populated when the RadLiveTile is databound, is defined in the inner property **ClientTemplate**. This property allows for runtime evaluation of the **data** object associated with the populated data, which means that additional fields from the datasource can be displayed as the content.
 
-The required template is - __#= data.<fieldName> #__. You can concatenate a few of them for separate evaluation to get the data from several fields, while custom content can be hardcoded between them. Also, you can reference a field directly by using the field name in the template - __#= <fieldName> #__.
+The required template is - **#= data.<fieldName> #**. You can concatenate a few of them for separate evaluation to get the data from several fields, while custom content can be hardcoded between them. Also, you can reference a field directly by using the field name in the template - **#= <fieldName> #**.
 
-If the returned data from the datasource is not an object with fields, but a string, number or boolean value, it can be accessed directly via the data object - __#= data #__.
+If the returned data from the datasource is not an object with fields, but a string, number or boolean value, it can be accessed directly via the data object - **#= data #**.
 
-The __ClientTemplate__ is utilizing the [Kendo UI Templates](http://docs.kendoui.com/getting-started/framework/templates/overview).
+The **ClientTemplate** is utilizing the [Kendo UI Templates](http://docs.kendoui.com/getting-started/framework/templates/overview).
 
 ## Loading Data From Web Service
 
-The RadLiveTile can be populated from a [Web Service](http://msdn.microsoft.com/en-us/library/t745kdsh%28v=vs.90%29.aspx) by setting the following properties of the inner property __WebServiceSettings__:
+The RadLiveTile can be populated from a [Web Service](http://msdn.microsoft.com/en-us/library/t745kdsh%28v=vs.90%29.aspx) by setting the following properties of the inner property **WebServiceSettings**:
 
-* __Path__ - the location of the web service.
+* **Path** - the location of the web service.
 
-* __Method__ - the method of the web service that returns the data to the LiveTile.
+* **Method** - the method of the web service that returns the data to the LiveTile.
 
 The following example shows how to setup the LiveTile in this scenario:
 
@@ -85,7 +85,7 @@ The following example shows how to setup the LiveTile in this scenario:
 
 
 
-Below is the definition of the class __CustomObject__
+Below is the definition of the class **CustomObject**
 
 
 
@@ -142,9 +142,9 @@ Below is the definition of the class __CustomObject__
 	        End Property
 	        Private m_Description As String
 	
-	        Public Sub New(name__1 As String, description__2 As String)
-	            Name = name__1
-	            Description = description__2
+	        Public Sub New(name**1 As String, description**2 As String)
+	            Name = name**1
+	            Description = description**2
 	        End Sub
 	
 	        Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -195,11 +195,11 @@ Below is the definition of the class __CustomObject__
 
 ## Loading Data From WCF Service
 
-The RadLiveTile can be populated from a [WCF Service](http://msdn.microsoft.com/en-us/library/bb412167.aspx) by setting the following properties of the inner property __WebServiceSettings__:
+The RadLiveTile can be populated from a [WCF Service](http://msdn.microsoft.com/en-us/library/bb412167.aspx) by setting the following properties of the inner property **WebServiceSettings**:
 
-* __Path__ - the location of the WCF service.
+* **Path** - the location of the WCF service.
 
-* __Method__ - the method of the WCF service that returns the data to the LiveTile.
+* **Method** - the method of the WCF service that returns the data to the LiveTile.
 
 The configuration of the LiveTile will be as follows:
 
@@ -249,7 +249,7 @@ The configuration of the LiveTile will be as follows:
 
 
 
-Below is the definition of the class __CustomObject__
+Below is the definition of the class **CustomObject**
 
 
 
@@ -306,9 +306,9 @@ Below is the definition of the class __CustomObject__
 	        End Property
 	        Private m_Description As String
 	
-	        Public Sub New(name__1 As String, description__2 As String)
-	            Name = name__1
-	            Description = description__2
+	        Public Sub New(name**1 As String, description**2 As String)
+	            Name = name**1
+	            Description = description**2
 	        End Sub
 	
 	        Public Shared Function GetDataItems() As List(Of CustomObject)
@@ -361,9 +361,9 @@ Below is the definition of the class __CustomObject__
 
 The RadLiveTile can be populated from a [ODataDataSource](9a9b4db2-aeb8-44c2-b1d2-781280d18fdc) control by setting the following properties of the control:
 
-* __ODataDataSourceID__ - the __ID__ of the ODataDataSource control that will provide the data.
+* **ODataDataSourceID** - the **ID** of the ODataDataSource control that will provide the data.
 
-* __DataModelID__ - the __ModelID__ of the __DataModel__ that will define the data object model of the LiveTile.
+* **DataModelID** - the **ModelID** of the **DataModel** that will define the data object model of the LiveTile.
 
 In this case the setup will be similar to the following example:
 
@@ -407,11 +407,11 @@ Note the filter that is applied to the RadODataDataSource, so that a specific re
 
 ## Loading Data From Page Method
 
-The RadLiveTile can be populated from a [page method](http://www.asp.net/ajaxlibrary/jquery_webforms_retrieve_data_from_pagemethod.ashx) by setting the following properties of the inner property __WebServiceSettings__:
+The RadLiveTile can be populated from a [page method](http://www.asp.net/ajaxlibrary/jquery_webforms_retrieve_data_from_pagemethod.ashx) by setting the following properties of the inner property **WebServiceSettings**:
 
-* __Path__ - the current ASPX page.
+* **Path** - the current ASPX page.
 
-* __Method__ - the name of the page method.
+* **Method** - the name of the page method.
 
 The example below shows this setup:
 
@@ -451,7 +451,7 @@ The example below shows this setup:
 
 
 
-Below is the definition of the class __CustomObject__
+Below is the definition of the class **CustomObject**
 
 
 
@@ -508,9 +508,9 @@ Below is the definition of the class __CustomObject__
 	        End Property
 	        Private m_Description As String
 	
-	        Public Sub New(name__1 As String, description__2 As String)
-	            Name = name__1
-	            Description = description__2
+	        Public Sub New(name**1 As String, description**2 As String)
+	            Name = name**1
+	            Description = description**2
 	        End Sub
 	
 	        Public Shared Function GetDataItems() As List(Of CustomObject)

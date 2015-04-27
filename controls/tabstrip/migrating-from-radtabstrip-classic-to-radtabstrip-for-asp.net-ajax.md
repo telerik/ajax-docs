@@ -1,6 +1,6 @@
 ---
 title: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax
-page_title: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax | UI for ASP.NET AJAX Documentation
+page_title: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax | RadTabStrip for ASP.NET AJAX Documentation
 description: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax
 slug: tabstrip/migrating-from-radtabstrip-classic-to-radtabstrip-for-asp.net-ajax
 tags: migrating,from,radtabstrip,classic,to,radtabstrip,for,asp.net,ajax
@@ -12,7 +12,7 @@ position: 6
 
 
 
-To migrate a Web application from __RadTabStrip__ "Classic" to __RadTabStrip__ "for ASP.NET Ajax" you need to follow these steps:
+To migrate a Web application from **RadTabStrip** "Classic" to **RadTabStrip** "for ASP.NET Ajax" you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
 
@@ -22,15 +22,15 @@ To migrate a Web application from __RadTabStrip__ "Classic" to __RadTabStrip__ "
 
 1. Drag and drop a control from the RadControls "for ASP.NET Ajax" package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic __RadTabStrip__ directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadTabStrip.NET2" %>with the new one of __RadTabStrip__ for ASP.NET Ajax:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+1. Replace the classic **RadTabStrip** directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadTabStrip.NET2" %>with the new one of **RadTabStrip** for ASP.NET Ajax:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
 ## Differences between RadTabStrip "classic" and RadTabStrip for ASP.NET Ajax
 
-__RadTabStrip__ for ASP.NET Ajax has changed: All of the client-side properties and methods' names have changed along with several server API changes. Some properties and methods have been completely removed, while new ones have been added. The control's client-side API is not backward-compatible with __RadTabStrip Classic__ edition. All the changes included in the control are listed below:
+**RadTabStrip** for ASP.NET Ajax has changed: All of the client-side properties and methods' names have changed along with several server API changes. Some properties and methods have been completely removed, while new ones have been added. The control's client-side API is not backward-compatible with **RadTabStrip Classic** edition. All the changes included in the control are listed below:
 
 ## Server-side API changes
 
-In the __RadTabStrip__ server-side API, a few properties have been removed or renamed and a few type names have changed:
+In the **RadTabStrip** server-side API, a few properties have been removed or renamed and a few type names have changed:
 
 ## Type names
 
@@ -52,63 +52,63 @@ A number of type names have changed in order to comply with the naming conventio
 
 ## RadTabStrip
 
-The following table lists the changes to the __RadTabStrip__ object:
+The following table lists the changes to the **RadTabStrip** object:
 
 
 >caption  
 
 | RadTabStrip Classic | RadTabStrip for ASP.NET Ajax |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |EnableImmediateNavigation|Removed|
-|InnerMostSelectedTab|Renamed to __InnermostSelectedTab__ |
-|ReorderTabRows|Renamed to __ReorderTabsOnSelect__ |
+|InnerMostSelectedTab|Renamed to **InnermostSelectedTab** |
+|ReorderTabRows|Renamed to **ReorderTabsOnSelect** |
 |OnClientTabEnabled|Removed|
 |OnClientTabDisabled|Removed|
-| __Methods__ ||
-|GetAllTabs|Return type changed to __IList<RadTab>__ |
+| **Methods** ||
+|GetAllTabs|Return type changed to **IList<RadTab>** |
 
 ## RadTab Class
 
-The following table lists the changes to the __RadTab__ (formerly __Tab__) object:
+The following table lists the changes to the **RadTab** (formerly **Tab**) object:
 
 
 >caption  
 
 | RadTabStrip Classic | RadTabStrip for ASP.NET Ajax |
 | ------ | ------ |
-| __Properties__ ||
-|ImageOverUrl|Renamed to __HoveredImageUrl__ |
+| **Properties** ||
+|ImageOverUrl|Renamed to **HoveredImageUrl** |
 |ID|Reserved for internal use only. Cannot be user-defined.|
 
 ## RadMultiPage Class
 
-The following table lists the changes to the __RadMultiPage__ object:
+The following table lists the changes to the **RadMultiPage** object:
 
 
 >caption  
 
 | RadTabStrip Classic | RadTabStrip for ASP.NET Ajax |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |AutoScrollBars|ScrollBars (of type PageViewScrollBars)|
-| __Events__ ||
+| **Events** ||
 |PageViewItemCreated|PageViewCreated|
 
 ## Client-side API changes
 
-Due to the migration of the __RadTabStrip__ control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
+Due to the migration of the **RadTabStrip** control to the ASP.NET Ajax framework and to the Telerik.Web.UI suite, the client-side API is completely changed to match the naming convention of the new framework.
 
 ## RadTabStrip Class
 
-The following table lists the changes to the __RadTabStrip__ client-side object:
+The following table lists the changes to the **RadTabStrip** client-side object:
 
 
 >caption  
 
 | RadTabStrip Classic | RadTabStrip for ASP.NET Ajax |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Disable()|disable() or set_enabled(false)|
 |Enable()|enable() or set_enabled(true)|
 |GetAllTabs()|get_allTabs()|
@@ -116,12 +116,12 @@ The following table lists the changes to the __RadTabStrip__ client-side object:
 |FindTabByText()|findTabByText()|
 |FindTabById()|removed: tab ID is not rendered to preserve output.|
 |FindTabByValue()|findTabByValue()|
-|AttachEvent()| __get_events().addHandler__ can be used instead|
-|DetachEvent()| __get_events().removeHandler__ can be used instead|
-| __Properties__ ||
+|AttachEvent()| **get_events().addHandler** can be used instead|
+|DetachEvent()| **get_events().removeHandler** can be used instead|
+| **Properties** ||
 |ID|get_id()|
 |DomElement|get_element()|
-|Tabs|get_tabs()The returned value is no longer Array. It is __Telerik.Web.UI.RadTabCollection__ |
+|Tabs|get_tabs()The returned value is no longer Array. It is **Telerik.Web.UI.RadTabCollection** |
 
 ````JavaScript
 	for (var i=0; i<tabstrip.get_tabs().get_count();i++)
@@ -145,14 +145,14 @@ The following table lists the changes to the __RadTabStrip__ client-side object:
 
 ## RadTab Class
 
-The following table lists the changes to the __RadTab__ client-side object:
+The following table lists the changes to the **RadTab** client-side object:
 
 
 >caption  
 
 | RadTabStrip Classic | RadTabStrip for ASP.NET Ajax |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |Disable()|disable() or set_enabled(false)|
 |Enable()|enable() or set_enabled(true)|
 |Select()|select() or set_selected(true)|
@@ -163,11 +163,11 @@ The following table lists the changes to the __RadTab__ client-side object:
 |SetDisabledCssClass()|set_disabledCssClass()|
 |SetSelectedCssClass()|set_selectedCssClass()|
 |SetText()|set_text()|
-| __Properties__ ||
+| **Properties** ||
 |DomElement|get_element()|
 |ImageDomElement|get_imageElement()|
 |ChildStripDomElement|get_childListElement()|
-|Tabs|get_tabs()The returned value is no longer Array. It is __Telerik.Web.UI.RadTabCollection__ |
+|Tabs|get_tabs()The returned value is no longer Array. It is **Telerik.Web.UI.RadTabCollection** |
 |SelectedTab|get_selectedTab()|
 |SelectedIndex|get_selectedIndex()|
 |Parent|get_parent()|
@@ -179,18 +179,18 @@ The following table lists the changes to the __RadTab__ client-side object:
 |Text|get_text()|
 |Value|get_value()|
 |DepthLevel|get_level()|
-||get_attributes() – returns __Telerik.Web.UI.AttributeCollection__ of custom attributes associated with the tab|
+||get_attributes() – returns **Telerik.Web.UI.AttributeCollection** of custom attributes associated with the tab|
 
 ## RadTabCollection class (new)
 
-The following table lists the methods of the new __RadTabCollection__ client-side object:
+The following table lists the methods of the new **RadTabCollection** client-side object:
 
 
 >caption  
 
 | Method | Description |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |add()|Adds a tab|
 |insert()|Inserts a tab|
 |remove()|Removes a tab|

@@ -1,6 +1,6 @@
 ---
 title: Loading Tabs from XML
-page_title: Loading Tabs from XML | UI for ASP.NET AJAX Documentation
+page_title: Loading Tabs from XML | RadTabStrip for ASP.NET AJAX Documentation
 description: Loading Tabs from XML
 slug: tabstrip/tabs/loading-tabs-from-xml
 tags: loading,tabs,from,xml
@@ -14,7 +14,7 @@ position: 7
 
 You can easily load the tabs of a tab strip from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <TabStrip>. This node can include attributes for the __RadTabStrip__ properties:
+1. The top level consists of a single node, called <TabStrip>. This node can include attributes for the **RadTabStrip** properties:
 
 ````XML
 	  
@@ -45,15 +45,15 @@ You can easily load the tabs of a tab strip from an XML source, as long as the s
 
 
 
->tip To discover the way to represent a specific __RadTabStrip__ feature in XML, create a __RadTabStrip__ with the feature and use the __RadTabStrip.GetXml__ method to get the corresponding XML string.
+>tip To discover the way to represent a specific **RadTabStrip** feature in XML, create a **RadTabStrip** with the feature and use the **RadTabStrip.GetXml** method to get the corresponding XML string.
 >
 
 
-Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a __RadTabStrip__ object.
+Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a **RadTabStrip** object.
 
 ## Loading from an XML file
 
-Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method to load the items, passing in the path to the file:
+Create an XML file with content that complies with the rules described above and call the **LoadContentFile** method to load the items, passing in the path to the file:
 
 
 
@@ -75,7 +75,7 @@ Create an XML file with content that complies with the rules described above and
 
 ## Loading from an XML string
 
-Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML__ method to populate the tab strip from the string:
+Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXML** method to populate the tab strip from the string:
 
 
 
@@ -113,7 +113,7 @@ Create a string with valid XML content (or fetch it from a database, for example
 ````
 
 
->note You can also populate __RadTabStrip__ from an XML file using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic.
+>note You can also populate **RadTabStrip** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic.
 >
 
 

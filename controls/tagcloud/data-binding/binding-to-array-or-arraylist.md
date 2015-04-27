@@ -1,6 +1,6 @@
 ---
 title: Binding to Array or ArrayList
-page_title: Binding to Array or ArrayList | UI for ASP.NET AJAX Documentation
+page_title: Binding to Array or ArrayList | RadTagCloud for ASP.NET AJAX Documentation
 description: Binding to Array or ArrayList
 slug: tagcloud/data-binding/binding-to-array-or-arraylist
 tags: binding,to,array,or,arraylist
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-__RadTagCloud__can be bound to an __Array__ or __ArrayList__. This example shows how to bind __RadTagCloud__ to an __Array__ and __ArrayList__ at runtime
+**RadTagCloud**can be bound to an **Array** or **ArrayList**. This example shows how to bind **RadTagCloud** to an **Array** and **ArrayList** at runtime
 
-The declaration of the __RadTagCloud__ objects includes no __DataSourceID__property or <Items> section:
+The declaration of the **RadTagCloud** objects includes no **DataSourceID**property or <Items> section:
 
 ````ASPNET
 	    <telerik:RadTagCloud ID="RadTagCloud1" runat="server" Width="400px">
@@ -27,7 +27,7 @@ The declaration of the __RadTagCloud__ objects includes no __DataSourceID__prope
 
 
 
-In the __Page_Load__ event handler, create the __Array__ and the __ArrayList__, and bind them to the __RadTagCloud__ objects. You must call the __DataBind__ method after setting the __DataSource__ property.
+In the **Page_Load** event handler, create the **Array** and the **ArrayList**, and bind them to the **RadTagCloud** objects. You must call the **DataBind** method after setting the **DataSource** property.
 
 
 

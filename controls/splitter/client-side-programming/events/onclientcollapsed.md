@@ -1,6 +1,6 @@
 ---
 title: OnClientCollapsed
-page_title: OnClientCollapsed | UI for ASP.NET AJAX Documentation
+page_title: OnClientCollapsed | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientCollapsed
 slug: splitter/client-side-programming/events/onclientcollapsed
 tags: onclientcollapsed
@@ -14,17 +14,17 @@ position: 8
 
 ## 
 
-The __OnClientCollapsed__ client-side event handler is called when a pane has just been collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a a call to a client-side method.
+The **OnClientCollapsed** client-side event handler is called when a pane has just been collapsed. The collapse can occur because the user clicks on a collapse button, or as the result of a a call to a client-side method.
 
->note The __OnClientCollapsed__ event is supported by __RadPane__ and __RadSlidingPane__ .
+>note The **OnClientCollapsed** event is supported by **RadPane** and **RadSlidingPane** .
 >
 
 
 The following parameter is passed to the event handler:
 
-* __sender__ is the pane that is has just been collapsed.
+* **sender** is the pane that is has just been collapsed.
 
-The following example uses the __OnClientCollapsed__ event to update the content of the pane:
+The following example uses the **OnClientCollapsed** event to update the content of the pane:
 
 ````ASPNET
 	     

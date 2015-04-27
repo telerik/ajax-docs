@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadSpell for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: spell/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -20,8 +20,8 @@ The visual aspects of RadSpell consist of the button or link that triggers the s
 
 * Set the RadSpell CSSClass property to change the RadSpell button or link visual properties through styles.
 
-* Set the __AllowAddCustom__property to true (the default) to enable the "Add Custom" button in the spell check dialog.
+* Set the **AllowAddCustom**property to true (the default) to enable the "Add Custom" button in the spell check dialog.
 
-* Set the __ButtonType__property to show the spell check trigger as a __PushButton__, __LinkButton__, __ImageButton__ or __None__. The __ImageButton__ value renders a link with assigned __.rscLinkImg__ class that can be used to modify the look of the rendered control. A sample implementation of custom CSS for RadSpell's ImageButton can be seen in the [default demo](http://demos.telerik.com/aspnet-ajax/spell/examples/whatsnew/defaultcs.aspx).
+* Set the **ButtonType**property to show the spell check trigger as a **PushButton**, **LinkButton**, **ImageButton** or **None**. The **ImageButton** value renders a link with assigned **.rscLinkImg** class that can be used to modify the look of the rendered control. A sample implementation of custom CSS for RadSpell's ImageButton can be seen in the [default demo](http://demos.telerik.com/aspnet-ajax/spell/examples/whatsnew/defaultcs.aspx).
 
 * Change the look and feel for the RadSpell dialog by selecting a predefined [skin]({%slug spell/appearance-and-styling/skins%}).

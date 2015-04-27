@@ -1,6 +1,6 @@
 ---
 title: Navigation
-page_title: Navigation | UI for ASP.NET AJAX Documentation
+page_title: Navigation | RadTileList for ASP.NET AJAX Documentation
 description: Navigation
 slug: tilelist/functionality/navigation
 tags: navigation
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The main purpose of the __RadTileList__ control is to create a navigation menu.This is why all __Tile__ types have the __NavigateUrl__ and __Target__ properties.They are used to set the URL to which each respective tile will navigate the browser and precisely how this is done.
+The main purpose of the **RadTileList** control is to create a navigation menu.This is why all **Tile** types have the **NavigateUrl** and **Target** properties.They are used to set the URL to which each respective tile will navigate the browser and precisely how this is done.
 
 The possible targets for the navigation are similar to those a standard *anchor* element offers:
 
@@ -36,12 +36,12 @@ The possible targets for the navigation are similar to those a standard *anchor*
 * popup blocker programs on the user's machine can prevent opening a new browser window>
 
 
->note If the __AutoPostBack__ property of the __RadTileList__ control is set to __true__ a postback will occur instead of navigation. By default (AutoPostBack=false) each tile will act like a large hyperlink.
+>note If the **AutoPostBack** property of the **RadTileList** control is set to **true** a postback will occur instead of navigation. By default (AutoPostBack=false) each tile will act like a large hyperlink.
 >To allow certain tiles to navigate to a page while keeping AutoPostBack=true for the TileList, examine the[Allow Tile Navigation with AutoPostBack=true in RadTileList](http://www.telerik.com/support/kb/aspnet-ajax/tilelist/details/allow-tile-navigation-with-autopostback=true-in-radtilelist)KB article.
 >
 
 
-The following code snippet examines the possible values of the the Tiles' __Target__ property and the ways__NavigateUrl__ paths can be specified.
+The following code snippet examines the possible values of the the Tiles' **Target** property and the ways**NavigateUrl** paths can be specified.
 
 ````ASPNET
 		<telerik:RadTileList runat="server" ID="RadTileList1" Width="1030px" TileRows="3"
@@ -99,7 +99,7 @@ The following code snippet examines the possible values of the the Tiles' __Targ
 
 
 
-The __OnClientTileClicking__ event can be used to prevent navigation (according to given criteria)by cancelling the event itself:
+The **OnClientTileClicking** event can be used to prevent navigation (according to given criteria)by cancelling the event itself:
 
 ````JavaScript
 		<telerik:RadTileList runat="server" ID="RadTileList1" OnClientTileClicking="OnClientTileClicking">

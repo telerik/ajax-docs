@@ -1,6 +1,6 @@
 ---
 title: Get the Previously Selected Tab
-page_title: Get the Previously Selected Tab | UI for ASP.NET AJAX Documentation
+page_title: Get the Previously Selected Tab | RadTabStrip for ASP.NET AJAX Documentation
 description: Get the Previously Selected Tab
 slug: tabstrip/how-to/get-the-previously-selected-tab
 tags: get,the,previously,selected,tab
@@ -24,7 +24,7 @@ If you need to get the previously selected tab you can use the approach describe
 
 * At the server-side use the value of the hidden field to locate the selected tab
 
-__Example__
+**Example**
 
 ````ASPNET
 	
@@ -71,7 +71,7 @@ __Example__
 	{
 	   if (Page.IsPostBack)
 	   {
-	       if (Request.Form["__EVENTTARGET"] == RadTabStrip1.UniqueID)
+	       if (Request.Form["**EVENTTARGET"] == RadTabStrip1.UniqueID)
 	       {
 	           //locate the selected tab by using the value of the hidden field
 	           //The code below will be executed only if the postback is fired by the tabstrip
@@ -91,7 +91,7 @@ __Example__
 	Private lastClickedTab As RadTab = Nothing
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	    If Page.IsPostBack Then
-	        If Request.Form("__EVENTTARGET") = RadTabStrip1.UniqueID Then
+	        If Request.Form("**EVENTTARGET") = RadTabStrip1.UniqueID Then
 	            'locate the selected tab by using the value of the hidden field
 	            'The code below will be executed only if the postback is fired by the tabstrip
 	            lastClickedTab = RadTabStrip1.FindTabByText(previousTabHidden.Value)

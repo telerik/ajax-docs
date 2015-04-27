@@ -1,6 +1,6 @@
 ---
 title: SelectionStateChanged
-page_title: SelectionStateChanged | UI for ASP.NET AJAX Documentation
+page_title: SelectionStateChanged | RadTileList for ASP.NET AJAX Documentation
 description: SelectionStateChanged
 slug: tilelist/tiles/server-side-programming/events/selectionstatechanged
 tags: selectionstatechanged
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-The __SelectionStateChanged__ server-side event is fired when a [Tile is selected]({%slug tilelist/functionality/selecting%}) and __AutoPostBack__ is set to __true__. It allows the developer to obtain the selected tile in order to use that information.
+The **SelectionStateChanged** server-side event is fired when a [Tile is selected]({%slug tilelist/functionality/selecting%}) and **AutoPostBack** is set to **true**. It allows the developer to obtain the selected tile in order to use that information.
 
-The event handler receives two arguments - of type __object__ that is a reference to the RadBaseTile control that fired the event and can be cast to it, and a __System.EventArgs__ object.
+The event handler receives two arguments - of type **object** that is a reference to the RadBaseTile control that fired the event and can be cast to it, and a **System.EventArgs** object.
 
 >tip The API of the RadBaseTile object itself is used to obtain the tile selection, so this can be done in any other event.The OnSelectionStateChanged event only provides an immediate event that can be used by the developer.
 >

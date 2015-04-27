@@ -1,6 +1,6 @@
 ---
 title: OnClientResizing
-page_title: OnClientResizing | UI for ASP.NET AJAX Documentation
+page_title: OnClientResizing | RadSplitter for ASP.NET AJAX Documentation
 description: OnClientResizing
 slug: splitter/client-side-programming/events/onclientresizing
 tags: onclientresizing
@@ -14,49 +14,49 @@ position: 4
 
 ## 
 
-The __OnClientResizing__ client-side event handler is called when a control is about to be resized. The resize can occur because of a user action (such as dragging a split bar or resizing the window that contains a splitter), or as the result of a a call to a client-side method.
+The **OnClientResizing** client-side event handler is called when a control is about to be resized. The resize can occur because of a user action (such as dragging a split bar or resizing the window that contains a splitter), or as the result of a a call to a client-side method.
 
->note The __OnClientResizing__ event is supported by __RadSplitter__ , __RadPane__ , and __RadSlidingPane__ . It takes the place of the depricated OnClientBeforeResize event.
+>note The **OnClientResizing** event is supported by **RadSplitter** , **RadPane** , and **RadSlidingPane** . It takes the place of the depricated OnClientBeforeResize event.
 >
 
 
-On __RadPane__ and __RadSlidingPane__, the following two parameters are passed to the event handler:
+On **RadPane** and **RadSlidingPane**, the following two parameters are passed to the event handler:
 
-* __sender__ is the pane that is about to be resized.
+* **sender** is the pane that is about to be resized.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the pane from being resized.
+* **set_cancel()** lets you prevent the pane from being resized.
 
-* __get_cancel()__ returns whether the resize operation was cancelled.
+* **get_cancel()** returns whether the resize operation was cancelled.
 
-* __get_delta()__ returns the number of pixels by which the pane's size is changing. Negative values mean the pane is getting smaller; positive values mean the pane is getting larger.
+* **get_delta()** returns the number of pixels by which the pane's size is changing. Negative values mean the pane is getting smaller; positive values mean the pane is getting larger.
 
-* __get_resizeDirection()__ returns a value indicating which side of the pane is being resized:
+* **get_resizeDirection()** returns a value indicating which side of the pane is being resized:
 
 * 1: The side on the top or left of the pane (depending on the splitter orientation).
 
 * 2: The side on the bottom or right of the pane (depending on the splitter orientation).
 
->note Because sliding panes have only a single resizable border, for __RadSlidingPane__ , __get_resizeDirection()__ returns null.
+>note Because sliding panes have only a single resizable border, for **RadSlidingPane** , **get_resizeDirection()** returns null.
 >
 
 
-On __RadSplitter__ the following two parameters are passed to the event handler:
+On **RadSplitter** the following two parameters are passed to the event handler:
 
-* __sender__ is the splitter control that is being resized.
+* **sender** is the splitter control that is being resized.
 
-* __eventArgs__ has the following methods:
+* **eventArgs** has the following methods:
 
-* __set_cancel()__ lets you prevent the splitter from being resized.
+* **set_cancel()** lets you prevent the splitter from being resized.
 
-* __get_cancel()__ returns whether the resize operation was cancelled.
+* **get_cancel()** returns whether the resize operation was cancelled.
 
-* __get_newHeight()__ returns the new height of the splitter, or null if the height is not changing.
+* **get_newHeight()** returns the new height of the splitter, or null if the height is not changing.
 
-* __get_newWidth()__ returns the new width of the splitter, or null if the width is not changing.
+* **get_newWidth()** returns the new width of the splitter, or null if the width is not changing.
 
-The following example uses the __OnClientResizing__ event to prevent resizes that decrease the size of a pane:
+The following example uses the **OnClientResizing** event to prevent resizes that decrease the size of a pane:
 
 ````JavaScript
 	     
@@ -85,7 +85,7 @@ The following example uses the __OnClientResizing__ event to prevent resizes tha
 
 
 
-__OnClientResizing__
+**OnClientResizing**
 
 ````ASPNET
 	     

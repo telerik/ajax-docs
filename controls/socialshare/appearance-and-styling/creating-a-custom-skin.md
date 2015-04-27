@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom Skin
-page_title: Creating a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Creating a Custom Skin | RadSocialShare for ASP.NET AJAX Documentation
 description: Creating a Custom Skin
 slug: socialshare/appearance-and-styling/creating-a-custom-skin
 tags: creating,a,custom,skin
@@ -18,19 +18,19 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 ## Creating a Custom Skin for RadSocialShare for ASP.NET AJAX from an Existing One
 
-1. In your project, create a new directory named __Skins__
+1. In your project, create a new directory named **Skins**
 
-1. In the __Skins__ folder create a new directory __MyCustomSkin__
+1. In the **Skins** folder create a new directory **MyCustomSkin**
 
-1. Go to ~/__[TelerikControlsInstallationFolder]/Skins/Default__ and copy __SocialShare.Default.css__ and the __Skins/Default/SocialShare__ folder in your __Skins__ folder.
+1. Go to ~/**[TelerikControlsInstallationFolder]/Skins/Default** and copy **SocialShare.Default.css** and the **Skins/Default/SocialShare** folder in your **Skins** folder.
 
-1. Rename __SocialShare.Default.css__ to __SocialShare.MyCustomSkin.css__ and the folder __Default__ to __MyCustomSkin__
+1. Rename **SocialShare.Default.css** to **SocialShare.MyCustomSkin.css** and the folder **Default** to **MyCustomSkin**
 
-1. When you are finished you should have __Skins/MyCustomSkin/SocialShare.MyCustomSkin.css__ and __Skins/MyCustomSkin/SocialShare__. The last folder contains the images for __MyCustomSkin__
+1. When you are finished you should have **Skins/MyCustomSkin/SocialShare.MyCustomSkin.css** and **Skins/MyCustomSkin/SocialShare**. The last folder contains the images for **MyCustomSkin**
 
-1. In order to support multiple skins of __RadSocialShare__ on a single page, the wrapping skin-specific class is coined by the name of the control, __RadSocialShare__ plus underscore ("_____") plus __SkinName__, i.e.__.RadSocialShare_Default__, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "__Default__" in SocialShare.MyCustomSkin.css to "__MyCustomSkin__" as shown below:![radsocialshare-find-and-replace](images/radsocialshare-find-and-replace.gif)
+1. In order to support multiple skins of **RadSocialShare** on a single page, the wrapping skin-specific class is coined by the name of the control, **RadSocialShare** plus underscore ("_") plus **SkinName**, i.e.**.RadSocialShare_Default**, so in order to create a custom skin out of the Default skin, we should rename all occurrences of "**Default**" in SocialShare.MyCustomSkin.css to "**MyCustomSkin**" as shown below:![radsocialshare-find-and-replace](images/radsocialshare-find-and-replace.gif)
 
-1. Add a new server declaration of __RadSocialShare__ on your page, and set __Skin="MyCustomSkin"____and EnableEmbeddedSkins="false"__:
+1. Add a new server declaration of **RadSocialShare** on your page, and set **Skin="MyCustomSkin" and EnableEmbeddedSkins="false"**:
 
 ````ASPNET
 	    <telerik:RadSocialShare ID="ssh1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
@@ -39,7 +39,7 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 
 
-1. Register __SocialShare.MyCustomSkin.css__ in the <head>…</head> section of your webpage.In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
+1. Register **SocialShare.MyCustomSkin.css** in the <head>…</head> section of your webpage.In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
 ````ASPNET
 	    <link href="Skins/MyCustomSkin/SocialShare.MyCustomSkin.css" rel="stylesheet" type="text/css" />
@@ -47,15 +47,15 @@ Each of the controls included in the Telerik UI for ASP.NET AJAX suite is styled
 
 Make sure the path to the files is correct; otherwise the skin will not apply.
 
-1. Reload the page, and if the steps 0-8 have been followed correctly, you will see __RadSocialShare__running a custom __Default__ skin set as an external resource
+1. Reload the page, and if the steps 0-8 have been followed correctly, you will see **RadSocialShare**running a custom **Default** skin set as an external resource
 
 ## Modifying the Image Sprites to Achieve Totally New Looks for the Skin
 
-Each skin of __RadSocialShare__ consists of one image sprite common for all embedded skins which is placed in __Skins/Common/SocialShare/SocialShareSprite.png__ . In order to override it for the custom skin, you will need to do the following steps:
+Each skin of **RadSocialShare** consists of one image sprite common for all embedded skins which is placed in **Skins/Common/SocialShare/SocialShareSprite.png** . In order to override it for the custom skin, you will need to do the following steps:
 
-1. Copy the sprite from __Skins/Common/SocialShare/__ and paste it to __Skins/MyCustomSkin/SocialShare__ folder.
+1. Copy the sprite from **Skins/Common/SocialShare/** and paste it to **Skins/MyCustomSkin/SocialShare** folder.
 
-1. As in the embedded skin the background image url is set in the base stylesheet, you have to override it in __SocialShare.MyCustomSkin.css__:
+1. As in the embedded skin the background image url is set in the base stylesheet, you have to override it in **SocialShare.MyCustomSkin.css**:
 
 ````ASPNET
 	    .RadSocialShare_MyCustomSkin .sshIcon
@@ -68,9 +68,9 @@ Each skin of __RadSocialShare__ consists of one image sprite common for all embe
 
 
 
-Explained below is a simple method for modifying the image sprites of __RadSocialShare__ withAdobe© PhotoShop to achieve new looks without creating a new design:
+Explained below is a simple method for modifying the image sprites of **RadSocialShare** withAdobe© PhotoShop to achieve new looks without creating a new design:
 
-1. Drag __SocialShareSprite.png__ in Adobe© PhotoShop
+1. Drag **SocialShareSprite.png** in Adobe© PhotoShop
 
 1. From the menu bar select Image » Mode » RGB Color to prepare the images for editing (convert from optimized Indexed Color to RGB Color):![radsocialshare-rgb](images/radsocialshare-rgb.gif)
 
@@ -90,9 +90,9 @@ Explained below is a simple method for modifying the image sprites of __RadSocia
 
 1. Repeat Steps 5 - 9 for each of the remaining images
 
-1. Once you are ready, save your work and reload the page. You will have a brand-new skin based on Telerik's__Default__ skin of __RadSocialShare__
+1. Once you are ready, save your work and reload the page. You will have a brand-new skin based on Telerik's**Default** skin of **RadSocialShare**
 
-1. This is not mandatory, but you could decide to change __RadSocialShare__ background and border colors to match the newly colorized sprite
+1. This is not mandatory, but you could decide to change **RadSocialShare** background and border colors to match the newly colorized sprite
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: RadTabCollection Object
-page_title: RadTabCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadTabCollection Object | RadTabStrip for ASP.NET AJAX Documentation
 description: RadTabCollection Object
 slug: tabstrip/client-side-programming/radtabcollection-object
 tags: radtabcollection,object
@@ -14,18 +14,18 @@ position: 3
 
 ## 
 
-The __RadTabCollection__ object is returned by the __get_tabs__ method of the __RadTabStrip__ or the __RadTab__ object. The following table lists the most important methods.
+The **RadTabCollection** object is returned by the **get_tabs** method of the **RadTabStrip** or the **RadTab** object. The following table lists the most important methods.
 
->caution Changes to the tab collection made using these methods do not persist after a postback unless surrounded by a call to the __trackChanges__ method of the tab strip object and the __commitChanges__ method of the tab strip object.
+>caution Changes to the tab collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the tab strip object and the **commitChanges** method of the tab strip object.
 >
 
 
 
 >caption  
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadTab|none|Adds a child tab to the collection.|
+| **add** |RadTab|none|Adds a child tab to the collection.|
 
 ````JavaScript
 	var tabStrip = $find("<%=RadTabStrip1.ClientID %>");
@@ -41,7 +41,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __insert__  | int, RadTab | none | Inserts the tab into the collection at the position defined by the first (index) parameter. |
+|  **insert**  | int, RadTab | none | Inserts the tab into the collection at the position defined by the first (index) parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -60,7 +60,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __remove__  | RadTab | none | Removes the specified tab from the collection. |
+|  **remove**  | RadTab | none | Removes the specified tab from the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -78,7 +78,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __clear__  | none | none | Clears the Tabs collection of all the child tabs it contains. |
+|  **clear**  | none | none | Clears the Tabs collection of all the child tabs it contains. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -95,7 +95,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __getTab__  | int | RadTab | Returns the tab from the collection that resides at the specified index. |
+|  **getTab**  | int | RadTab | Returns the tab from the collection that resides at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -110,7 +110,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __indexOf__  | RadTab | int | Returns the index of a tab. |
+|  **indexOf**  | RadTab | int | Returns the index of a tab. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -130,7 +130,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __removeAt__  | int | none | Removes the tab at the specified index. |
+|  **removeAt**  | int | none | Removes the tab at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -148,7 +148,7 @@ The __RadTabCollection__ object is returned by the __get_tabs__ method of the __
 
 >caption  
 
-|  __get_count__  | none | int | Returns the number of the tabs in the collection. |
+|  **get_count**  | none | int | Returns the number of the tabs in the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

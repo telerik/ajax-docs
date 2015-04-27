@@ -1,6 +1,6 @@
 ---
-title: Splitter Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadSplitter Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: splitter/overview
 tags: overview

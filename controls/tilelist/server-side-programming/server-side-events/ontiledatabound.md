@@ -1,6 +1,6 @@
 ---
 title: OnTileDataBound
-page_title: OnTileDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnTileDataBound | RadTileList for ASP.NET AJAX Documentation
 description: OnTileDataBound
 slug: tilelist/server-side-programming/server-side-events/ontiledatabound
 tags: ontiledatabound
@@ -14,13 +14,13 @@ position: 3
 
 ## 
 
-The __OnTileDataBound__ event is fired for each [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%})that is created from a [databound RadTileList]({%slug tilelist/data-binding/overview%}) when it is receiving the necessaryproperties from the datasource.
+The **OnTileDataBound** event is fired for each [Tile]({%slug tilelist/tiles/server-side-programming/tile-object%})that is created from a [databound RadTileList]({%slug tilelist/data-binding/overview%}) when it is receiving the necessaryproperties from the datasource.
 
 It is subsequent to the [OnTileCreated event]({%slug tilelist/server-side-programming/server-side-events/ontilecreated%}).
 
-The __OnTileDataBound__ event can be used to fine tune settings for the tiles that are related to data that comes fromthe datasource, for example changing URLs to images, generating navigation URLs, adding formatting to strings.
+The **OnTileDataBound** event can be used to fine tune settings for the tiles that are related to data that comes fromthe datasource, for example changing URLs to images, generating navigation URLs, adding formatting to strings.
 
-The entire __DataRowView__ object from the datasource that is related to the given tile is passed to the__DataItem__ property the tile exposes. The __Tile__ reference is passed in the__event arguments__ object.
+The entire **DataRowView** object from the datasource that is related to the given tile is passed to the**DataItem** property the tile exposes. The **Tile** reference is passed in the**event arguments** object.
 
 The example below shows two different ways of obtaining data from the datasource in order to modify certain tile properties:
 
