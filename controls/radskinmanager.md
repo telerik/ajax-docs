@@ -1,5 +1,5 @@
 ---
-title: RadSkinManager
+title: SkinManager
 page_title: RadSkinManager | UI for ASP.NET AJAX Documentation
 description: RadSkinManager
 slug: controls/radskinmanager
@@ -12,17 +12,17 @@ position: 4
 
 
 
-* __What is RadSkinManager?http://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section0_self__
+* **What is RadSkinManager?http://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section0_self**
 
-* __How to use RadSkinManager?http://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section1_self__
+* **How to use RadSkinManager?http://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section1_self**
 
-* __Server-side specificshttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section2_self__
+* **Server-side specificshttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section2_self**
 
-* __Using RadSkinManager for applying custom skins__
+* **Using RadSkinManager for applying custom skins**
 
-1. __Loading skins by specifying a pathhttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section3_self__
+1. **Loading skins by specifying a pathhttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section3_self**
 
-1. __Loading skins from external assemblyhttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section4_self__
+1. **Loading skins from external assemblyhttp://www.telerik.com/help/aspnet-ajax/radskinmanager.html#Section4_self**
 
 ## What is RadSkinManager?
 
@@ -36,11 +36,11 @@ This is where the RadSkinManager control comes into place. Its intuitive design-
 
 ## How to use RadSkinManager?
 
-By default the __Skin__ property of RadSkinManager is an empty string. If the property is set to a different value and Enabled is set to true for the control, the manager will apply automatically the specified skin to all Telerik controls on the form.
+By default the **Skin** property of RadSkinManager is an empty string. If the property is set to a different value and Enabled is set to true for the control, the manager will apply automatically the specified skin to all Telerik controls on the form.
 
-If you set the __ShowChooser__ property to true the manager will display run-time RadComboBox as a part of its smart tag, populated with all embedded skins, where you can pick a skin. Additionally, in the TargetControls (persisted in ViewState) collection you can add per-control skin setting (setting __TargetControl -> ID__ and __TargetControl -> Skin__) alongside with __Enabled__ property value to enable/disable this particular setting.You can select any Telerik control on the form and the manager will find recursively all ISkinableControl instances to set their skin.
+If you set the **ShowChooser** property to true the manager will display run-time RadComboBox as a part of its smart tag, populated with all embedded skins, where you can pick a skin. Additionally, in the TargetControls (persisted in ViewState) collection you can add per-control skin setting (setting **TargetControl -> ID** and **TargetControl -> Skin**) alongside with **Enabled** property value to enable/disable this particular setting.You can select any Telerik control on the form and the manager will find recursively all ISkinableControl instances to set their skin.
 
-Here is a sample RadSkinManager definition which will apply __Web20__ skin for all Telerik controls which does not have __Skin__ set explicitly via their individual property or are not included as skinned controls through the __TargetControls__ collection. For the rest of the components either the skin defined through their __Skin__ property or via the respective __TargetControls__ definition will be propagated:
+Here is a sample RadSkinManager definition which will apply **Web20** skin for all Telerik controls which does not have **Skin** set explicitly via their individual property or are not included as skinned controls through the **TargetControls** collection. For the rest of the components either the skin defined through their **Skin** property or via the respective **TargetControls** definition will be propagated:
 
 ````ASPNET
 	    <asp:ScriptManager ID="ScriptManager1" runat="server" />
@@ -151,7 +151,7 @@ Here is a sample RadSkinManager definition which will apply __Web20__ skin for a
 
 
 
-Since you can have only a single RadSkinManager instance on your page/master page, if you have master/content page or user control in page scenario, consider utilizing the __RadSkinManager.GetCurrent(Page)__method to specify programmatically Telerik control targets to be skinned by the manager. Here is a code snippet that demonstrates how to utilize the __ApplySkin(control, skinName)__ method under master/content page or page/user control configuration:
+Since you can have only a single RadSkinManager instance on your page/master page, if you have master/content page or user control in page scenario, consider utilizing the **RadSkinManager.GetCurrent(Page)**method to specify programmatically Telerik control targets to be skinned by the manager. Here is a code snippet that demonstrates how to utilize the **ApplySkin(control, skinName)** method under master/content page or page/user control configuration:
 
 
 
@@ -173,9 +173,9 @@ Since you can have only a single RadSkinManager instance on your page/master pag
 ````
 
 
-For the same __INamingContainer__ (the page in which the RadSkinManager resides) you also have the option to modify the TargetControls collection of the manager using the __TargetControls.Add(id, skinName)__ method.
+For the same **INamingContainer** (the page in which the RadSkinManager resides) you also have the option to modify the TargetControls collection of the manager using the **TargetControls.Add(id, skinName)** method.
 
-To limit the skins displayed in the combobox skin chooser mode of RadSkinManager (when setting its __ShowChooser__ property to true), wire the PreRender event of the control, get reference to the internal RadComboBox instance which holds the skin names and hide the skins you do not want to be shown as list item options. Here are some sample code snippets for that:
+To limit the skins displayed in the combobox skin chooser mode of RadSkinManager (when setting its **ShowChooser** property to true), wire the PreRender event of the control, get reference to the internal RadComboBox instance which holds the skin names and hide the skins you do not want to be shown as list item options. Here are some sample code snippets for that:
 
 
 
@@ -230,13 +230,13 @@ To limit the skins displayed in the combobox skin chooser mode of RadSkinManager
 
 ## Server-side specifics
 
-The control exposes two server-side events - __OnSkinChanging__ and __OnSkinChanged__. The __OnSkinChanging__ event can be cancelled in order to get the skin that would be applied or set a new skin (using the __e.Skin__ argument passed in the respective handler).
+The control exposes two server-side events - **OnSkinChanging** and **OnSkinChanged**. The **OnSkinChanging** event can be cancelled in order to get the skin that would be applied or set a new skin (using the **e.Skin** argument passed in the respective handler).
 
-Furthermore, there are two properties available which specify where to persist the information about the applied skins - PersistenceKey and __PersistenceMode:__
+Furthermore, there are two properties available which specify where to persist the information about the applied skins - PersistenceKey and **PersistenceMode:**
 
-* The __PersistenceKey__default value is "__Telerik.Skin__" if no custom value is specified.
+* The **PersistenceKey**default value is "**Telerik.Skin**" if no custom value is specified.
 
-* __PersistenceMode__defaults to __ViewState__, however you can specify __Session__ or __Cookie__ in order to store the skin settings in the session or in browser cookie if you prefer.
+* **PersistenceMode**defaults to **ViewState**, however you can specify **Session** or **Cookie** in order to store the skin settings in the session or in browser cookie if you prefer.
 
 >note In case a Theme is applied on the page, the general Skin property settings for RadSkinManager will be disregarded.
 >
@@ -258,9 +258,9 @@ Putting your custom skins in a folder and providing a path to it will make them 
 
 The steps that you need to take in order to load skins by specifying a path are:
 
-1. Create a folder for the skins and inside it add a separate folder for each skin. The inner folders should have the same name as the skin itself. The .css files should be put inside this folder and should comply with the following naming convention:__[ControlName].[SkinName].css__ where __[ControlName]__ is the name of the control without the "Rad" prefix (Calendar, Editor, Grid, etc.) and __[SkinName]__ is the name of the skin.![structuring the skins folder](images/skinmanager-using_custom_skins_1.PNG)
+1. Create a folder for the skins and inside it add a separate folder for each skin. The inner folders should have the same name as the skin itself. The .css files should be put inside this folder and should comply with the following naming convention:**[ControlName].[SkinName].css** where **[ControlName]** is the name of the control without the "Rad" prefix (Calendar, Editor, Grid, etc.) and **[SkinName]** is the name of the skin.![structuring the skins folder](images/skinmanager-using_custom_skins_1.PNG)
 
-1. Add a __SkinReference__ in the RadSkinManager and set the __Path__ property to point to the name of the folder containing the skin folders.
+1. Add a **SkinReference** in the RadSkinManager and set the **Path** property to point to the name of the folder containing the skin folders.
 
 ````ASPNET
 	    <telerik:RadSkinManager runat="server" ID="RadSkinManager1" ShowChooser="true">
@@ -272,9 +272,9 @@ The steps that you need to take in order to load skins by specifying a path are:
 
 
 
-1. Set the __EnableEmbeddedSkins__ property of the controls which you want to skin through the manager to __false__.
+1. Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **false**.
 
-1. If you have a __RadStyleSheetManager__ on the page, you have to add the following key in your web.config in order for the two managers to work seamlessly with the custom skins:
+1. If you have a **RadStyleSheetManager** on the page, you have to add the following key in your web.config in order for the two managers to work seamlessly with the custom skins:
 
 ````XML
 	  <appSettings>
@@ -293,7 +293,7 @@ In this scenario the urls in your skin file should declare a path starting from 
 
 
 
-1. If there is no __RadStyleSheetManager__ on the page, the urls in your skin file should declare a path starting from the control folder name:
+1. If there is no **RadStyleSheetManager** on the page, the urls in your skin file should declare a path starting from the control folder name:
 
 ````XML
 	.RadCalendar_Yellow .rcTitlebar
@@ -312,7 +312,7 @@ The steps which you should follow are:
 
 1. Create an assembly and register it following the guidelines provided in this article: [How to load skins from external assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-skins-external-assembly.html)
 
-1. Add a __SkinReference__ in the RadSkinManager and set the __Assembly__ property to point to the loaded assembly name.
+1. Add a **SkinReference** in the RadSkinManager and set the **Assembly** property to point to the loaded assembly name.
 
 ````ASPNET
 	    <telerik:RadSkinManager runat="server" ID="RadSkinManager1" ShowChooser="true">
@@ -332,4 +332,4 @@ You could alternatively add this reference in the web.config:
 
 
 
-1. Set the __EnableEmbeddedSkins__ property of the controls which you want to skin through the manager to __true__.
+1. Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **true**.

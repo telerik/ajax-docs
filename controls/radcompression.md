@@ -1,5 +1,5 @@
 ---
-title: RadCompression
+title: Compression
 page_title: RadCompression | UI for ASP.NET AJAX Documentation
 description: RadCompression
 slug: controls/radcompression
@@ -18,9 +18,9 @@ Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI f
 
 ## 
 
-RadCompression is designed based on other HTTPcompression tools, such as the built-in __HTTP Compression__ in IIS7 and higher versions. By adding RadCompression to your project, you start compressing your __AJAX__ and __Web Service__ responses.
+RadCompression is designed based on other HTTPcompression tools, such as the built-in **HTTP Compression** in IIS7 and higher versions. By adding RadCompression to your project, you start compressing your **AJAX** and **Web Service** responses.
 
-__RadCompression__	will automatically detect and compress requests that expect these content response types	(as found in the HTTP request's "__ContentType__" header or "__AcceptsTypes__" header):
+**RadCompression**	will automatically detect and compress requests that expect these content response types	(as found in the HTTP request's "**ContentType**" header or "**AcceptsTypes**" header):
 
 * application/x-www-form-urlencoded
 
@@ -104,7 +104,7 @@ Another aspect of the RadCompression model allows you to exclude particular requ
 
 
 
->note When using __IIS dynamic compression ____ __ enabling RadCompression is not required as this will result in double compression of the response.
+>note When using **IIS dynamic compression **** ** enabling RadCompression is not required as this will result in double compression of the response.
 >
 
 
@@ -124,7 +124,7 @@ When you enable the RadCompression module, you get the entire response compresse
 
 
 
-To use this adapter you *do not need to enable RadCompression module* through the web.config file as described above.__RadHiddenFieldPageStateCompression__ might be used separately from the RadCompression module in cases where only viewstate compression is needed.Using both at the same time could result in compressing the ViewState twice.
+To use this adapter you *do not need to enable RadCompression module* through the web.config file as described above.**RadHiddenFieldPageStateCompression** might be used separately from the RadCompression module in cases where only viewstate compression is needed.Using both at the same time could result in compressing the ViewState twice.
 
 You can also store the compressed ViewState in the Session:
 
@@ -144,9 +144,9 @@ In this case enabling RadCompression at the same time would be fine, as when the
 
 ## RadCompression and SessionPageState
 
-Due to the fact that __RadCompression__ module takes advantage of theASP.NET's __SessionPageStatePersister__ there are some scenarios where you may need to fine-tune its settings:
+Due to the fact that **RadCompression** module takes advantage of theASP.NET's **SessionPageStatePersister** there are some scenarios where you may need to fine-tune its settings:
 
-* __ControlState__ - by default, the __SessionPageStatePersister__ doesn't addthe __ControlState__ to the __Session__ so you may need to add it manually:
+* **ControlState** - by default, the **SessionPageStatePersister** doesn't addthe **ControlState** to the **Session** so you may need to add it manually:
 
 ````ASPNET
 	<system.web>
@@ -160,7 +160,7 @@ Due to the fact that __RadCompression__ module takes advantage of theASP.NET's _
 
 
 
-* __Page history__ - in applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the __Session__. The default value of the history size is 9.
+* **Page history** - in applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the **Session**. The default value of the history size is 9.
 
 ````ASPNET
 	<system.web>   
@@ -170,7 +170,7 @@ Due to the fact that __RadCompression__ module takes advantage of theASP.NET's _
 
 
 
->note When IIS __dynamic compression__ is enabled the __ViewState__ will be automatically compressed even if the __RadCompression__ module is not enabled.
+>note When IIS **dynamic compression** is enabled the **ViewState** will be automatically compressed even if the **RadCompression** module is not enabled.
 >
 
 
@@ -201,11 +201,11 @@ You can enable the postback compression by setting the *enablePostbackCompressio
 
 Here are some of the known issues you can face when using RadCompression.
 
-__1.__*Problem:* When RadCompression is enabled and you are using __.NET 4.0 or .NET 4.5__, event handlers might not be raised in a default document in IIS 7 and higher versions __Integrated Mode.__
+**1.***Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
 
-*Solution: *This problem is caused by a breaking change in .NET 4.0 described[here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set __preCondition="managedHandler"__ for the RadCompression module. You may also need to remove the __runAllManagedModulesForAllRequests__ setting from your web.config if you have it (or set it to false).
+*Solution: *This problem is caused by a breaking change in .NET 4.0 described[here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
-__2.__*Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
+**2.***Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
 
 *Solution: *Try removing RadCompression from the HttpModules section of the web.config. We have found out that on some machines RadCompression halts the WCF responses, effectively breaking the pages that consume the services.
 
@@ -217,4 +217,4 @@ You can see the results from eight unique tests made by our evangelist Todd Angl
 
 When it comes to RadCompression, the impact it has on your site just depends on where your users are located. If you have a sitethat is deployed over the web where latency and connection speeds are unpredictable, reducing the bytes you send over the wire is	an easy way to improve your site's performance. And since RadCompression can literally be implemented with a single change to your	config file, you really do not have much to lose. In a quick word:
 
-__RadCompression is an easy way to reduce the bytes sent over the wire for XHR operations.__
+**RadCompression is an easy way to reduce the bytes sent over the wire for XHR operations.**

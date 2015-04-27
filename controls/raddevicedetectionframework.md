@@ -1,5 +1,5 @@
 ---
-title: RadDeviceDetectionFramework
+title: DeviceDetectionFramework
 page_title: RadDeviceDetectionFramework | UI for ASP.NET AJAX Documentation
 description: RadDeviceDetectionFramework
 slug: controls/raddevicedetectionframework
@@ -12,15 +12,15 @@ position: 14
 
 
 
-Nowadays supporting mobile devices in the Web Development is a must. However finding the right screen size can be laborious. Here in help comes Telerik's __Device Detection Framework__. Added in __Q1 2014__ this .NET library allow developers to determine the Screen Resolution of huge number of mobile devices in an elegant way. Telerik ships __Device Detection Framework__ as a separate assembly -__Telerik.Web.Device.Detection.dll__.
+Nowadays supporting mobile devices in the Web Development is a must. However finding the right screen size can be laborious. Here in help comes Telerik's **Device Detection Framework**. Added in **Q1 2014** this .NET library allow developers to determine the Screen Resolution of huge number of mobile devices in an elegant way. Telerik ships **Device Detection Framework** as a separate assembly -**Telerik.Web.Device.Detection.dll**.
 
->note When __Telerik.Web.Device.Detection.dll__ assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve __RenderMode="Auto"__ will use it to determine, whether to activate __Mobile Render Mode__ .
+>note When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode** .
 >
 
 
 ## How to use it?
 
-In order to use __Detection Framework__ you need to add reference to __Telerik.Web.Device.Detection.dll__ in your project.
+In order to use **Detection Framework** you need to add reference to **Telerik.Web.Device.Detection.dll** in your project.
 
 
 
@@ -39,9 +39,9 @@ In order to use __Detection Framework__ you need to add reference to __Telerik.W
 
 | Name | Description |
 | ------ | ------ |
-| __GetScreenDimensions(string userAgent)__ |Returns the screens dimensions of the device made request in CSS pixels. If there is no match the dimensions will be 0.|
-| __GetScreenSize(string userAgent)__ |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
-| __GetScreenSize(string userAgent, ScreenRanges screenRanges)__ |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
+| **GetScreenDimensions(string userAgent)** |Returns the screens dimensions of the device made request in CSS pixels. If there is no match the dimensions will be 0.|
+| **GetScreenSize(string userAgent)** |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
+| **GetScreenSize(string userAgent, ScreenRanges screenRanges)** |Returns the screens size based on default screen ranges (in CSS pixels).The default ranges are:Small (to 600) CSS pixelsMedium (601-1024) CSS pixelsLarge (1025 - 1366) CSS pixelsExtraLarge (over 1366) CSS pixels|
 
 ## Getting the Screen Size by User Agent String
 
