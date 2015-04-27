@@ -1,6 +1,6 @@
 ---
 title: Simple vs Advanced
-page_title: Simple vs Advanced | UI for ASP.NET AJAX Documentation
+page_title: Simple vs Advanced | RadTreeList for ASP.NET AJAX Documentation
 description: Simple vs Advanced
 slug: treelist/data-binding/simple-vs-advanced
 tags: simple,vs,advanced
@@ -14,29 +14,29 @@ position: 0
 
 ## Advanced binding with NeedDataSource event handling
 
-There are several approaches you can use to bind RadTreeList control. However in all of them youshould make sure that the __DataKeyNames__ and __ParentDataKeyNames__properties for the TreeList control are set.
+There are several approaches you can use to bind RadTreeList control. However in all of them youshould make sure that the **DataKeyNames** and **ParentDataKeyNames**properties for the TreeList control are set.
 
-The key to the advanced data binding of Telerik RadTreeList is handling correctly the__NeedDataSource__ event. That's why we choose this exact name. 'Need' in this caseactually means that if at an exact moment the data-source property does not point to a valid data-source object,the treelist will not behave correctly. This event fires in the following cases:
+The key to the advanced data binding of Telerik RadTreeList is handling correctly the**NeedDataSource** event. That's why we choose this exact name. 'Need' in this caseactually means that if at an exact moment the data-source property does not point to a valid data-source object,the treelist will not behave correctly. This event fires in the following cases:
 
-* Right after __OnLoad__, Telerik RadTreeList checks the ViewState for storedTreeList-related information. If such information is missing (when the page loads for the first time), the__NeedDataSource__ event is fired. This also means that if the__EnableViewState__ property of the controlhas been set to __false__,the treelist will bind __each time the page__ loads (not only the first time)
+* Right after **OnLoad**, Telerik RadTreeList checks the ViewState for storedTreeList-related information. If such information is missing (when the page loads for the first time), the**NeedDataSource** event is fired. This also means that if the**EnableViewState** property of the controlhas been set to **false**,the treelist will bind **each time the page** loads (not only the first time)
 
 * After expand/collapse
 
 * When paging event occurs
 
-* When __other operations requiring Rebind__ occurs
+* When **other operations requiring Rebind** occurs
 
-The advantages of using this event are that the developer does not need to write any code handling thelogic about when and how the data-binding should be processed. It is still the developer's responsibility toconstruct properly a data source object and assign it to the RadTreeList's DataSource property. In the code ofthe __NeedDataSource__ handler you should prepare the data source (list of objects) forthe RadTreeList and assign it to the treelist's __DataSource__ property. Also you shouldset the __DataKeyNames__ and __ParentDataKeyNames__ properties forthe treelist control.
+The advantages of using this event are that the developer does not need to write any code handling thelogic about when and how the data-binding should be processed. It is still the developer's responsibility toconstruct properly a data source object and assign it to the RadTreeList's DataSource property. In the code ofthe **NeedDataSource** handler you should prepare the data source (list of objects) forthe RadTreeList and assign it to the treelist's **DataSource** property. Also you shouldset the **DataKeyNames** and **ParentDataKeyNames** properties forthe treelist control.
 
->note  __You should never call the DataBind() method from inside the NeedDataSource handler or mix simpledata-binding mode with advanced data-binding.__ 
+>note  **You should never call the DataBind() method from inside the NeedDataSource handler or mix simpledata-binding mode with advanced data-binding.** 
 >
 
 
-Alternatively, you can use __AccessDataSource/SqlDataSource/ObjectDataSource/XmlDataSource__	controls to populate Telerik RadTreeList with data - this is another advanced data-binding mode of the control.	See the the rest of the examples in this section for more information.
+Alternatively, you can use **AccessDataSource/SqlDataSource/ObjectDataSource/XmlDataSource**	controls to populate Telerik RadTreeList with data - this is another advanced data-binding mode of the control.	See the the rest of the examples in this section for more information.
 
 ## Simple binding
 
-Simple data-binding with the __DataBind()__ method can be used in simple scenarioswhich does not require complex operations. The correct approach when using simple data-binding is to call the __DataBind()__ method on the first page load when __!Page.IsPostBack__ and after handling some event (sortevent for example). Keep in mind that if you choose simple data-binding, you will need to assign datasourceand rebind the treelist after each operation (expanding/collapsing, paging, sorting, etc.)
+Simple data-binding with the **DataBind()** method can be used in simple scenarioswhich does not require complex operations. The correct approach when using simple data-binding is to call the **DataBind()** method on the first page load when **!Page.IsPostBack** and after handling some event (sortevent for example). Keep in mind that if you choose simple data-binding, you will need to assign datasourceand rebind the treelist after each operation (expanding/collapsing, paging, sorting, etc.)
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: Positioning
-page_title: Positioning | UI for ASP.NET AJAX Documentation
+page_title: Positioning | RadTooltip for ASP.NET AJAX Documentation
 description: Positioning
 slug: tooltip/getting-started/positioning
 tags: positioning
@@ -12,16 +12,16 @@ position: 5
 
 
 
-To precisely position the tooltip, use the following __RadToolTip__and __RadToolTipManager__properties:
+To precisely position the tooltip, use the following **RadToolTip**and **RadToolTipManager**properties:
 
-__Position:__defines the relative location where the ToolTip will appear and can be one of the following values: BottomCenter, BottomLeft, BottomRight, Center, MiddleLeft, MiddleRight, TopCenter, TopLeft, TopRight. Notice in the screenshot below that the [callout]({%slug tooltip/getting-started/radtooltip-structure%}) points in relation to the tooltip position.
+**Position:**defines the relative location where the ToolTip will appear and can be one of the following values: BottomCenter, BottomLeft, BottomRight, Center, MiddleLeft, MiddleRight, TopCenter, TopLeft, TopRight. Notice in the screenshot below that the [callout]({%slug tooltip/getting-started/radtooltip-structure%}) points in relation to the tooltip position.
 >caption 
 
 ![](images/tooltip-positiontooltip.png)
 
-* __RelativeTo__: defines which element the ToolTip will appear in relation to. The possible values are __Mouse__ (the default) and __Element__.
+* **RelativeTo**: defines which element the ToolTip will appear in relation to. The possible values are **Mouse** (the default) and **Element**.
 
-* __OffsetX, OffsetY:__ sets the X and Y offsets from the __Position__ property of the ToolTip. These properties can be used for a more precise positioning of the ToolTip. The default values are zero.
+* **OffsetX, OffsetY:** sets the X and Y offsets from the **Position** property of the ToolTip. These properties can be used for a more precise positioning of the ToolTip. The default values are zero.
 
 ## Example
 

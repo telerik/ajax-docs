@@ -1,6 +1,6 @@
 ---
 title: Changing TreeList ScrollHeight at Runtime to Fill its Container Height
-page_title: Changing TreeList ScrollHeight at Runtime to Fill its Container Height | UI for ASP.NET AJAX Documentation
+page_title: Changing TreeList ScrollHeight at Runtime to Fill its Container Height | RadTreeList for ASP.NET AJAX Documentation
 description: Changing TreeList ScrollHeight at Runtime to Fill its Container Height
 slug: treelist/functionality/scrolling/how-to/changing-treelist-scrollheight-at-runtime-to-fill-its-container-height
 tags: changing,treelist,scrollheight,at,runtime,to,fill,its,container,height
@@ -14,15 +14,15 @@ position: 0
 
 ## 
 
-In a __RadTreeList__ control with scrolling enabled, you can modify
+In a **RadTreeList** control with scrolling enabled, you can modify
 the default treelist scroll height to match the height of its container element.
 The following steps describe how to achieve this:
 
-1. Create a handler for the client-side __TreeListCreated__ event.
+1. Create a handler for the client-side **TreeListCreated** event.
 
-1. In the __TreeListCreated__ event handler, use the treelist's dataDiv to obtain a reference to the DOM element for the treelist's scrollable region.
+1. In the **TreeListCreated** event handler, use the treelist's dataDiv to obtain a reference to the DOM element for the treelist's scrollable region.
 
-1. Alter the __style.height__ attribute of this DOM element to make it equal the height of the treelist's container element. Note that if static headers are enabled you will have to take into account the header height.
+1. Alter the **style.height** attribute of this DOM element to make it equal the height of the treelist's container element. Note that if static headers are enabled you will have to take into account the header height.
 
 The following example illustrates this technique:
 

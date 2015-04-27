@@ -1,6 +1,6 @@
 ---
 title: Multi-Node Selection
-page_title: Multi-Node Selection | UI for ASP.NET AJAX Documentation
+page_title: Multi-Node Selection | RadTreeView for ASP.NET AJAX Documentation
 description: Multi-Node Selection
 slug: treeview/accessibility-and-internationalization/multi-node-selection
 tags: multi-node,selection

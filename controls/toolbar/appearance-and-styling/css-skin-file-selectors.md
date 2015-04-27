@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadToolBar for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: toolbar/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
@@ -14,12 +14,12 @@ position: 7
 
 ## 
 
-The following table lists the CSS selectors and descriptions for __RadToolBar__ style sheets.
+The following table lists the CSS selectors and descriptions for **RadToolBar** style sheets.
 
 
 | Class Name | Element | Description |
 | ------ | ------ | ------ |
-|RadToolBar_[Skin]e.g. RadToolBar_ __Outlook__ |DIV|Applied to the root element of the toolbar.|
+|RadToolBar_[Skin]e.g. RadToolBar_ **Outlook** |DIV|Applied to the root element of the toolbar.|
 |RadToolBar_[Skin]_Horizontal|DIV|Applied to the root element of the toolbar when it has a horizontal orientation.|
 |RadToolBar_[Skin]_Vertical|DIV|Applied to the root element of the toolbar when it has a vertical orientation.|
 |.rtbOuter|DIV|Applied to the outermost of three nested DIV elements that enclose the toolbar. The three nested DIV elements are designed to work together for shaping the toolbar.|
@@ -27,9 +27,9 @@ The following table lists the CSS selectors and descriptions for __RadToolBar__ 
 |.rtbInner|DIV|Applied to the innermost of three nested DIV elements that enclose the toolbar. The three nested DIV elements are designed to work together for shaping the toolbar.|
 |.rtbUL|UL|Applied to the UL element that manages the layout of the buttons in the toolbar.|
 |.rtbItem|LI|Applied to the LI element that represents a single item in the toolbar or drop-down list.|
-|.rtbBtn|LI|Applied to the LI element for a __RadToolBarButton__ in the toolbar.|
-|.rtbDropDown|LI|Applied to the LI element for a __RadToolBarDropDown__ .|
-|.rtbSplBtn|LI|Applied to the LI element for a __RadToolBarSplitButton__ .|
+|.rtbBtn|LI|Applied to the LI element for a **RadToolBarButton** in the toolbar.|
+|.rtbDropDown|LI|Applied to the LI element for a **RadToolBarDropDown** .|
+|.rtbSplBtn|LI|Applied to the LI element for a **RadToolBarSplitButton** .|
 |.rtbChecked|LI|Applied to the LI element that represents a button in the "checked" state.|
 |.rtbDisabled|LI|Applied to the LI element for a disabled item.|
 |.rtbItemFocused|LI|Applied to the LI element for an item when it has focus.|

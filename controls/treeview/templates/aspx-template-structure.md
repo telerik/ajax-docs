@@ -1,6 +1,6 @@
 ---
 title: ASPX Template Structure
-page_title: ASPX Template Structure | UI for ASP.NET AJAX Documentation
+page_title: ASPX Template Structure | RadTreeView for ASP.NET AJAX Documentation
 description: ASPX Template Structure
 slug: treeview/templates/aspx-template-structure
 tags: aspx,template,structure
@@ -16,16 +16,16 @@ position: 2
 
 You can define two types of Telerik RadTreeView templates:
 
-1. __Global (RadTreeView Node Template)__ Templates are applied to all tree Nodes automatically;
+1. **Global (RadTreeView Node Template)** Templates are applied to all tree Nodes automatically;
 
-1. __Per-Node (Node Template)__ Templates override global Templates.
+1. **Per-Node (Node Template)** Templates override global Templates.
 
 
 >caption 
 
 ![RadTreeView Templates Structure](images/treeview_templatesstructure01.png)
 
->note  __DataBinder.Eval__ expressions work only when the TreeView is in a bound mode. In other words, you should explicitly call the __DataBind()__ method even if no datasource is set to the TreeView.
+>note  **DataBinder.Eval** expressions work only when the TreeView is in a bound mode. In other words, you should explicitly call the **DataBind()** method even if no datasource is set to the TreeView.
 >
 
 

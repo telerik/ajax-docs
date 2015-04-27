@@ -1,6 +1,6 @@
 ---
 title: Deleting Records
-page_title: Deleting Records | UI for ASP.NET AJAX Documentation
+page_title: Deleting Records | RadTreeList for ASP.NET AJAX Documentation
 description: Deleting Records
 slug: treelist/data-editing/deleting-records
 tags: deleting,records
@@ -19,12 +19,12 @@ There are generally two ways to perform a delete operation inside RadTreeList:
 * Manually, by wiring the ItemCommand or DeleteCommand event of the control.
 
 In both cases, the most straightforward way to trigger the delete is to use a
-__TreeListButtonColumn__ with a CommandName property set to "Delete".
+**TreeListButtonColumn** with a CommandName property set to "Delete".
 
 ## Deleting records using automatic operations
 
 You can take advantage of the automatic datasource operations of RadTreeList by setting up a
-datasource control to allow deletes and binding the treelist to it. Additionally, if you allow cascade deletes for your database, you can set the __AllowRecursiveDelete__ property to __"true"__ which will take care of deleting all child items (if any) of the currently deleted item.
+datasource control to allow deletes and binding the treelist to it. Additionally, if you allow cascade deletes for your database, you can set the **AllowRecursiveDelete** property to **"true"** which will take care of deleting all child items (if any) of the currently deleted item.
 
 ## Deleting records manually
 
@@ -34,7 +34,7 @@ The manual delete operations in RadTreeList consist of two main parts:
 
 1. Using it to find the record inside the treelistcdatasource and deleting it.
 
-Once the user clicks the delete button inside the treelist, you can handle the __DeleteCommand__ event and perform these steps there. The code snippet below demonstrated a possible approach:
+Once the user clicks the delete button inside the treelist, you can handle the **DeleteCommand** event and perform these steps there. The code snippet below demonstrated a possible approach:
 
 
 

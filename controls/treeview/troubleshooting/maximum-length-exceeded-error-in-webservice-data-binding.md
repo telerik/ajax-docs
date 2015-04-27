@@ -1,6 +1,6 @@
 ---
 title: Maximum Length Exceeded Error in WebService Data Binding
-page_title: Maximum Length Exceeded Error in WebService Data Binding | UI for ASP.NET AJAX Documentation
+page_title: Maximum Length Exceeded Error in WebService Data Binding | RadTreeView for ASP.NET AJAX Documentation
 description: Maximum Length Exceeded Error in WebService Data Binding
 slug: treeview/troubleshooting/maximum-length-exceeded-error-in-webservice-data-binding
 tags: maximum,length,exceeded,error,in,webservice,data,binding
@@ -15,13 +15,13 @@ position: 9
 ## Problem
 
 When you load a lot of nodes via WebService you receive an
-error "__Maximum length exceeded__".
+error "**Maximum length exceeded**".
 
 
 
 ## Solution
 
-Extend the __maxJsonLength__ property, by adding the following
+Extend the **maxJsonLength** property, by adding the following
 section to your web.config file, at the configuration level, after the
 system.web node:
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientButtonClicking
-page_title: OnClientButtonClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientButtonClicking | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientButtonClicking
 slug: toolbar/client-side-programming/onclientbuttonclicking
 tags: onclientbuttonclicking
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientButtonClicking__ client-side event occurs when the user clicks on a toolbar button, before the toolbar responds to the mouse click.
+The **OnClientButtonClicking** client-side event occurs when the user clicks on a toolbar button, before the toolbar responds to the mouse click.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the toolbar item that was clicked. In this case it is a RadToolBarButton.
+* **get_item** returns a reference to the toolbar item that was clicked. In this case it is a RadToolBarButton.
 
-* __set_cancel__ lets you prevent the toolbar from responding to the mouse click.
+* **set_cancel** lets you prevent the toolbar from responding to the mouse click.
 
-* __get_domEvent__ - returns the browser's event object.
+* **get_domEvent** - returns the browser's event object.
 
 You can use this event to pre-process an item click or to cancel the default response:
 

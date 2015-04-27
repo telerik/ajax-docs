@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeChecking
-page_title: OnClientNodeChecking | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeChecking | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeChecking
 slug: treeview/client-side-programming/events/onclientnodechecking
 tags: onclientnodechecking
@@ -14,7 +14,7 @@ position: 20
 
 ## 
 
-The __OnClientNodeChecking__ client-side event occurs when the user selects a checkbox using mouse or keyboard. The checked state returned by the node __get_checked()__ function has not changed to reflect the new value. The event is called just prior to postback or url redirection and can be canceled.
+The **OnClientNodeChecking** client-side event occurs when the user selects a checkbox using mouse or keyboard. The checked state returned by the node **get_checked()** function has not changed to reflect the new value. The event is called just prior to postback or url redirection and can be canceled.
 
 The event handler receives parameters:
 
@@ -22,13 +22,13 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __set_cancel()__ call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves a DOM event object of the node check.
+* **get_domEvent()** retrieves a DOM event object of the node check.
 
-The example below shows how to cancel the event if the category for the node is "NonCheckable". Note that the __OnClientNodeChecked__ event does not fire if set_cancel(true) is called.
+The example below shows how to cancel the event if the category for the node is "NonCheckable". Note that the **OnClientNodeChecked** event does not fire if set_cancel(true) is called.
 
 ````ASPNET
 	

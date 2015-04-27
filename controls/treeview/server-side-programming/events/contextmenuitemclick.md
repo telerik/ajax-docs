@@ -1,6 +1,6 @@
 ---
 title: ContextMenuItemClick
-page_title: ContextMenuItemClick | UI for ASP.NET AJAX Documentation
+page_title: ContextMenuItemClick | RadTreeView for ASP.NET AJAX Documentation
 description: ContextMenuItemClick
 slug: treeview/server-side-programming/events/contextmenuitemclick
 tags: contextmenuitemclick
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__ContextMenuItemClick__ event fires when the user right clicks on a node that have associated context menu and clicks on a context menu item. Use the __RadTreeViewContextMenuEventArgs.MenuItem__ property to get or set the clicked-on menu item properties. Use the __RadTreeViewContextMenuEventArgs.____Node__ property to get or set the clicked-on Node properties.
+**ContextMenuItemClick** event fires when the user right clicks on a node that have associated context menu and clicks on a context menu item. Use the **RadTreeViewContextMenuEventArgs.MenuItem** property to get or set the clicked-on menu item properties. Use the **RadTreeViewContextMenuEventArgs. Node** property to get or set the clicked-on Node properties.
 
 
 

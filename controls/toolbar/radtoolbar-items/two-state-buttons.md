@@ -1,6 +1,6 @@
 ---
 title: Two State Buttons
-page_title: Two State Buttons | UI for ASP.NET AJAX Documentation
+page_title: Two State Buttons | RadToolBar for ASP.NET AJAX Documentation
 description: Two State Buttons
 slug: toolbar/radtoolbar-items/two-state-buttons
 tags: two,state,buttons
@@ -14,15 +14,15 @@ position: 4
 
 ## 
 
-__RadToolBarButton__ supports use as a two-state button, where the button can be "on" (checked) or "off" (unchecked). The checked state has an appearance distinct from other buttons in the toolbar to reflect its state.
+**RadToolBarButton** supports use as a two-state button, where the button can be "on" (checked) or "off" (unchecked). The checked state has an appearance distinct from other buttons in the toolbar to reflect its state.
 
-To enable a button as a two-state button, set its __CheckOnClick__ property to __True__. When a button has __CheckOnClick__ set to __True__, its __Checked__ property specifies whether it is "On" or "Off".
+To enable a button as a two-state button, set its **CheckOnClick** property to **True**. When a button has **CheckOnClick** set to **True**, its **Checked** property specifies whether it is "On" or "Off".
 
 There are two models for the way two-state buttons can work:
 
-* The user clicks the button to turn it "on". It remains in that state until the user clicks it again to turn it "off". To enable this model, set the __AllowSelfUnCheck__ property to __True__.
+* The user clicks the button to turn it "on". It remains in that state until the user clicks it again to turn it "off". To enable this model, set the **AllowSelfUnCheck** property to **True**.
 
-* The button acts like a radio button in a group of buttons, where one of the buttons in the group is checked at all times. When the user clicks on another button in the group, the first button becomes unchecked.To enable this model, set the __Group__ property for every button in the group to a string that identifies the group of buttons.
+* The button acts like a radio button in a group of buttons, where one of the buttons in the group is checked at all times. When the user clicks on another button in the group, the first button becomes unchecked.To enable this model, set the **Group** property for every button in the group to a string that identifies the group of buttons.
 
 The following example illustrates how to create both types of two-state buttons:
 

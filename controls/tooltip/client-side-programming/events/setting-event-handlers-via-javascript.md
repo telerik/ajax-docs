@@ -1,6 +1,6 @@
 ---
 title: Setting Event Handlers via JavaScript
-page_title: Setting Event Handlers via JavaScript | UI for ASP.NET AJAX Documentation
+page_title: Setting Event Handlers via JavaScript | RadTooltip for ASP.NET AJAX Documentation
 description: Setting Event Handlers via JavaScript
 slug: tooltip/client-side-programming/events/setting-event-handlers-via-javascript
 tags: setting,event,handlers,via,javascript
@@ -48,11 +48,11 @@ Another advantage of the client-side API is that you can detach an event handler
 
 | Name | Description |
 | ------ | ------ |
-| __add_beforeShow__ |Add a handler to the BeforeShow event.|
-| __add_show__ |Add a handler to the Show event.|
-| __add_beforeHide__ |Add a handler to the BeforeHide event.|
-| __add_hide__ |Add a handler to the Hide event.|
-| __remove_beforeShow__ |Remove a handler from the BeforeShow event.|
-| __remove_show__ |Remove a handler from the Show event.|
-| __remove_beforeHide__ |Remove a handler from the BeforeHide event.|
-| __remove_hide__ |Remove a handler from the Hide event.|
+| **add_beforeShow** |Add a handler to the BeforeShow event.|
+| **add_show** |Add a handler to the Show event.|
+| **add_beforeHide** |Add a handler to the BeforeHide event.|
+| **add_hide** |Add a handler to the Hide event.|
+| **remove_beforeShow** |Remove a handler from the BeforeShow event.|
+| **remove_show** |Remove a handler from the Show event.|
+| **remove_beforeHide** |Remove a handler from the BeforeHide event.|
+| **remove_hide** |Remove a handler from the Hide event.|

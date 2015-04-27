@@ -1,6 +1,6 @@
 ---
 title: Loading Related SQL Tables
-page_title: Loading Related SQL Tables | UI for ASP.NET AJAX Documentation
+page_title: Loading Related SQL Tables | RadTreeView for ASP.NET AJAX Documentation
 description: Loading Related SQL Tables
 slug: treeview/application-scenarios/data-binding/loading-related-sql-tables
 tags: loading,related,sql,tables
@@ -24,21 +24,21 @@ It is not always possible to load your treeview data from a single self-referenc
 
 Sites may contain any number of Groups. Groups, in turn, my contain any number of Items, e.g.
 
-__Site1__
+**Site1**
 
-__Group 1.1__
+**Group 1.1**
 
 *Item 1.1.1*
 
 *Item 1.1.2*
 
-__Group 1.2__
+**Group 1.2**
 
 *Item 1.2.1*
 
-__Site__ 2
+**Site** 2
 
-__Group 2.1__
+**Group 2.1**
 
 
 

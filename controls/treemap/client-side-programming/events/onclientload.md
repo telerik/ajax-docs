@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadTreeMap for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: treemap/client-side-programming/events/onclientload
 tags: onclientload
@@ -12,17 +12,17 @@ position: 0
 
 
 
-The article bellow, focuses on the usage of the __OnClientLoad__ client-side event of the __RadTreeMap__.
+The article bellow, focuses on the usage of the **OnClientLoad** client-side event of the **RadTreeMap**.
 
 ## 
 
-The __OnClientLoad__ client-side event occurs after the __RadTreeMap__ has been fully initialized on the client-side.
+The **OnClientLoad** client-side event occurs after the **RadTreeMap** has been fully initialized on the client-side.
 
 The event handler receives one parameter:
 
-* The instance of the __RadTreeMap__ control firing the event.
+* The instance of the **RadTreeMap** control firing the event.
 
-Hook the __OnClientLoad__ event and get the client-side instance of the __RadTreeMap__ as demonstrated in the example below. This technique can be used to retrieve the __RadTreeMap__ instance for use elsewhere.
+Hook the **OnClientLoad** event and get the client-side instance of the **RadTreeMap** as demonstrated in the example below. This technique can be used to retrieve the **RadTreeMap** instance for use elsewhere.
 
 ````JavaScript
 	        <script type="text/javascript">

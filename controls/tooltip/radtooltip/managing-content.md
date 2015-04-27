@@ -1,6 +1,6 @@
 ---
 title: Managing Content
-page_title: Managing Content | UI for ASP.NET AJAX Documentation
+page_title: Managing Content | RadTooltip for ASP.NET AJAX Documentation
 description: Managing Content
 slug: tooltip/radtooltip/managing-content
 tags: managing,content
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __RadToolTip__ exposes the server-side __Title__ property, which can be used to set an overall title for the tooltip that is separate from the rest of the content. It is always displayed, regardless of the other content that is shown and the method that set it.
+The **RadToolTip** exposes the server-side **Title** property, which can be used to set an overall title for the tooltip that is separate from the rest of the content. It is always displayed, regardless of the other content that is shown and the method that set it.
 >caption 
 
 ![](images/tooltip002.png)
@@ -37,9 +37,9 @@ The __RadToolTip__ exposes the server-side __Title__ property, which can be used
 
 
 
-Content can be added to __RadTooltip__ in multiple ways and is displayed in the below listed order of precedence. This means that if the first is not available the next one is tried until content is found.
+Content can be added to **RadTooltip** in multiple ways and is displayed in the below listed order of precedence. This means that if the first is not available the next one is tried until content is found.
 
-1. Setting the __Text__ property:
+1. Setting the **Text** property:
 
 
 
@@ -56,11 +56,11 @@ Content can be added to __RadTooltip__ in multiple ways and is displayed in the 
 ````
 
 
-1. Content from the __ToolTip__ property of the target control. It renders as the __title__ property. Images supply the __AlternateText__ and __alt__ properties in ASP.NET and HTML respectively.
+1. Content from the **ToolTip** property of the target control. It renders as the **title** property. Images supply the **AlternateText** and **alt** properties in ASP.NET and HTML respectively.
 
->tip You can use the __IgnoreAltAttribute__ to instruct the __RadToolTip__ to ignore the AlternateText and alt properties and not remove them from its target element. This will result in a change of the content source priorities for images and a second tooltip being shown under IE6 and IE7, as these browsers interpret the alt attribute like the title attribute.
+>tip You can use the **IgnoreAltAttribute** to instruct the **RadToolTip** to ignore the AlternateText and alt properties and not remove them from its target element. This will result in a change of the content source priorities for images and a second tooltip being shown under IE6 and IE7, as these browsers interpret the alt attribute like the title attribute.
 >
-The following code snippet will show the __AlternateText__ as a content in the tooltip, despite the existence of markup in the tooltip itself. You can set the __IgnoreAltAttribute__ to true and see how the behavior changes:
+The following code snippet will show the **AlternateText** as a content in the tooltip, despite the existence of markup in the tooltip itself. You can set the **IgnoreAltAttribute** to true and see how the behavior changes:
 
 ````ASPNET
 	    <asp:Image runat="server" ID="Image1" AlternateText="the alternate text" Width="100px" Height="100px" />

@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadTreeView for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: treeview/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
@@ -14,9 +14,9 @@ position: 4
 
 ## 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadTreeView__. The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria), defines an approach to make Web content and Web applications more accessible to people with disabilities.__RadTreeView__ control offer WAI-ARIA support. In order to enable the WAI-ARIA support, set the __RadTreeView__ contol's __EnableAriaSupport__ property to true as shown in the example below.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadTreeView**. The [WAI-ARIA Suite](http://www.w3.org/WAI/intro/aria), defines an approach to make Web content and Web applications more accessible to people with disabilities.**RadTreeView** control offer WAI-ARIA support. In order to enable the WAI-ARIA support, set the **RadTreeView** contol's **EnableAriaSupport** property to true as shown in the example below.
 
-__Example 1:__ Setting the EnalbeAriaSupport property for __RadTreeView__. 
+**Example 1:** Setting the EnalbeAriaSupport property for **RadTreeView**. 
 
 
 

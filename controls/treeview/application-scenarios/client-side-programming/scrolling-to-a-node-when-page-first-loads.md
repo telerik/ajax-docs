@@ -1,6 +1,6 @@
 ---
 title: Scrolling to a Node When Page First Loads
-page_title: Scrolling to a Node When Page First Loads | UI for ASP.NET AJAX Documentation
+page_title: Scrolling to a Node When Page First Loads | RadTreeView for ASP.NET AJAX Documentation
 description: Scrolling to a Node When Page First Loads
 slug: treeview/application-scenarios/client-side-programming/scrolling-to-a-node-when-page-first-loads
 tags: scrolling,to,a,node,when,page,first,loads
@@ -18,9 +18,9 @@ To scroll a node into view when the page first loads:
 
 1. Get the client-side instance of the [RadTreeView object]({%slug treeview/client-side-programming/objects/radtreeview%}).
 
-1. Get the selected node by using the __get_selectedNode()__ client-side function of the __R____adTreeView__ class.
+1. Get the selected node by using the **get_selectedNode()** client-side function of the **RadTreeView** class.
 
-1. Make the selected node visible by using __scrollIntoView()__ function of the __RadTreeNode__ class.
+1. Make the selected node visible by using **scrollIntoView()** function of the **RadTreeNode** class.
 
 1. Set the Height of the RadTreeView to make the scrollIntoView() method works.
 

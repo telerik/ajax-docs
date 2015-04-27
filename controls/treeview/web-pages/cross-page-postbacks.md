@@ -1,6 +1,6 @@
 ---
 title: Cross-Page Postbacks
-page_title: Cross-Page Postbacks | UI for ASP.NET AJAX Documentation
+page_title: Cross-Page Postbacks | RadTreeView for ASP.NET AJAX Documentation
 description: Cross-Page Postbacks
 slug: treeview/web-pages/cross-page-postbacks
 tags: cross-page,postbacks
@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-ASP.NET 2.0 introduces the ability to have an ASPX page postback to a different ASPX page with cross-page postbacks. This can be achieved by setting the __PostBackUrl__ property of the RadTreeView to the page that will handle the postback. Once in the second page you can access the controls from the previous page by accessing the __Page.PreviousPage__ property. Use the __FindControl()__ method of __PreviousPage__ to retrieve a reference to the RadTreeView control.
+ASP.NET 2.0 introduces the ability to have an ASPX page postback to a different ASPX page with cross-page postbacks. This can be achieved by setting the **PostBackUrl** property of the RadTreeView to the page that will handle the postback. Once in the second page you can access the controls from the previous page by accessing the **Page.PreviousPage** property. Use the **FindControl()** method of **PreviousPage** to retrieve a reference to the RadTreeView control.
 
-In the example below, the default page contains a RadTreeView with a single Node. The __PostBackUrl__ property is assigned another page in the project, "page2.aspx". In the Page_Load for Page2, the __Page.PreviousPage.FindControl()__ provides a reference to the RadTreeView. The text of the only Node in the TreeView is displayed in a Label on Page2.
+In the example below, the default page contains a RadTreeView with a single Node. The **PostBackUrl** property is assigned another page in the project, "page2.aspx". In the Page_Load for Page2, the **Page.PreviousPage.FindControl()** provides a reference to the RadTreeView. The text of the only Node in the TreeView is displayed in a Label on Page2.
 
 ````ASPNET
 	    <form id="form1" runat="server">

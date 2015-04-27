@@ -1,6 +1,6 @@
 ---
 title: Auto-Generated Editors
-page_title: Auto-Generated Editors | UI for ASP.NET AJAX Documentation
+page_title: Auto-Generated Editors | RadTreeList for ASP.NET AJAX Documentation
 description: Auto-Generated Editors
 slug: treelist/data-editing/column-editors/auto-generated-editors
 tags: auto-generated,editors
@@ -12,9 +12,9 @@ position: 0
 
 
 
-Editable columns inside a __RadTreeList__ control supply a default editor that enables users to edit the values in the column.
+Editable columns inside a **RadTreeList** control supply a default editor that enables users to edit the values in the column.
 
->note Editable columns are columns that implement the __ITreeListEditableColumn__ interface.
+>note Editable columns are columns that implement the **ITreeListEditableColumn** interface.
 >
 
 

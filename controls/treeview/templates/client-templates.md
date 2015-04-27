@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadTreeView for ASP.NET AJAX Documentation
 description: Client Templates
 slug: treeview/templates/client-templates
 tags: client,templates
@@ -14,21 +14,21 @@ position: 1
 
 ## Overview
 
-As of Q2 2012 RadTreeView provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a __DataItem__ and then rendered as the Node's content on the client. The templates support the following type of expressions which are evaluated at run-time:
+As of Q2 2012 RadTreeView provides support for client templates. The template itself contains mark up and binding expressions which are evaluated against a **DataItem** and then rendered as the Node's content on the client. The templates support the following type of expressions which are evaluated at run-time:
 
-* __#=...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
+* **#=...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 
-* __#...#__ - Evaluates the JavaScript code expression inside, but doesn't output value.
+* **#...#** - Evaluates the JavaScript code expression inside, but doesn't output value.
 
-* __#:...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoeded.
+* **#:...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoeded.
 
->important Client templates __couldn't__ contain server-side controls.
+>important Client templates **couldn't** contain server-side controls.
 >
 
 
 ## Server side representation
 
-On the server the template will be presented as a string property of the control, named __ClientItemTemplate__. Below a static and dynamic definition of a client template is shown
+On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
 ````ASPNET
 	
@@ -80,7 +80,7 @@ On the server the template will be presented as a string property of the control
 
 ## Client side representation
 
-The template will be applied automatically to all nodes loaded through __Web Service__. If a node is added through JavaScript, the template would not be applied, unless its __bindTemplate()__ method is explicitly invoked. The method can be called before, as well as after the node is added to the node collection of the control.
+The template will be applied automatically to all nodes loaded through **Web Service**. If a node is added through JavaScript, the template would not be applied, unless its **bindTemplate()** method is explicitly invoked. The method can be called before, as well as after the node is added to the node collection of the control.
 
 Client teplates could be applied globally for all RadTreeView nodes or per Node basis allowing a diversity in the look and feel of the different nodes. This functionality is very useful in case of hierarchy when the root nodes doesn't have templates, by their children does.
 
@@ -124,7 +124,7 @@ Sample code for the usage of the new method is demonstrated below.
 
 
 
-* Creating item, setting its client template and calling __bindTemplate__ method before inserting it into the nodes collection of the RadTreeView:
+* Creating item, setting its client template and calling **bindTemplate** method before inserting it into the nodes collection of the RadTreeView:
 
 ````JavaScript
 	        var node = new Telerik.Web.UI.RadTreeNode();
@@ -136,7 +136,7 @@ Sample code for the usage of the new method is demonstrated below.
 
 
 
-* Creating item, setting it’s client template and calling __bindTemplate__ method after inserting it into the nodes colelction of the RadTreeView:
+* Creating item, setting it’s client template and calling **bindTemplate** method after inserting it into the nodes colelction of the RadTreeView:
 
 ````JavaScript
 	        var node = new Telerik.Web.UI.RadTreeNode();

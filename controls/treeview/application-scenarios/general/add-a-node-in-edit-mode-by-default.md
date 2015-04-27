@@ -1,6 +1,6 @@
 ---
 title: Add a Node in edit mode by Default
-page_title: Add a Node in edit mode by Default | UI for ASP.NET AJAX Documentation
+page_title: Add a Node in edit mode by Default | RadTreeView for ASP.NET AJAX Documentation
 description: Add a Node in edit mode by Default
 slug: treeview/application-scenarios/general/add-a-node-in-edit-mode-by-default
 tags: add,a,node,in,edit,mode,by,default
@@ -14,11 +14,11 @@ position: 2
 
 ## 
 
-The example given below uses the __OnContextMenuItemClick__and __NodeEdit__ events in conjunction with __client-side script__ to enable the requested functionality.
+The example given below uses the **OnContextMenuItemClick**and **NodeEdit** events in conjunction with **client-side script** to enable the requested functionality.
 
 The result is:
 
-After clicking the context menu item with text __Create__ of a random TreeView Node, a Node with text __default__ will be added as last root Node in the TreeView structure and will be in edit mode. The changes in the text made by the user are reflected in the __NodeEdit__ event handler. Review the code snippet below for further details:
+After clicking the context menu item with text **Create** of a random TreeView Node, a Node with text **default** will be added as last root Node in the TreeView structure and will be in edit mode. The changes in the text made by the user are reflected in the **NodeEdit** event handler. Review the code snippet below for further details:
 
 ````JavaScript
 	

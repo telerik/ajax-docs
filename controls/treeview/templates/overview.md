@@ -1,6 +1,6 @@
 ---
-title: Templates Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Templates Overview | RadTreeView for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/templates/overview
 tags: overview
@@ -29,6 +29,5 @@ Normally, RadTreeView allows great flexibility with regard to the functionality 
 
 ![RadTreeView Templates Overview](images/treeview_templatesoverview.jpg)
 
-____
 
-__See__ live example at:[RadTreeView Templates](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/Templates/DefaultCS.aspx)
+**See** live example at:[RadTreeView Templates](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Functionality/Templates/DefaultCS.aspx)

@@ -1,6 +1,6 @@
 ---
 title: Manual Insert/Update Operations
-page_title: Manual Insert/Update Operations | UI for ASP.NET AJAX Documentation
+page_title: Manual Insert/Update Operations | RadTreeList for ASP.NET AJAX Documentation
 description: Manual Insert/Update Operations
 slug: treelist/data-editing/manual-insert/update-operations
 tags: manual,insert/update,operations
@@ -14,7 +14,7 @@ position: 3
 
 ## Extracting values
 
-There are two ways to extract the values from the item. From the item itself (__ExtractValues__) or through the __RadTreeList__ control (__ExtractValuesFromItem__).
+There are two ways to extract the values from the item. From the item itself (**ExtractValues**) or through the **RadTreeList** control (**ExtractValuesFromItem**).
 
 
 
@@ -36,7 +36,7 @@ There are two ways to extract the values from the item. From the item itself (__
 ````
 
 
-The syntax of the __ExtractValuesFromItem__ method is as follows:
+The syntax of the **ExtractValuesFromItem** method is as follows:
 
 
 >caption  
@@ -47,7 +47,7 @@ The syntax of the __ExtractValuesFromItem__ method is as follows:
 |dataItem|The item that will be used to extract the values from|
 |includePrimaryKey|Determines whether the primary key will be extracted and added to the IDictionary collection|
 
-The __ExtractValues__ method syntax is omitted as it is accepts only one object - the IDictionary collection that holds the extracted values.
+The **ExtractValues** method syntax is omitted as it is accepts only one object - the IDictionary collection that holds the extracted values.
 
 ## Update
 

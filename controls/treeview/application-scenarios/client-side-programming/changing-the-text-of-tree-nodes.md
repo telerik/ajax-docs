@@ -1,6 +1,6 @@
 ---
 title: Changing the Text of Tree Nodes
-page_title: Changing the Text of Tree Nodes | UI for ASP.NET AJAX Documentation
+page_title: Changing the Text of Tree Nodes | RadTreeView for ASP.NET AJAX Documentation
 description: Changing the Text of Tree Nodes
 slug: treeview/application-scenarios/client-side-programming/changing-the-text-of-tree-nodes
 tags: changing,the,text,of,tree,nodes
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The client-side API of Telerik RadTreeView for ASP.NET AJAX provides the __get_textElement()__ function that returns the instance of the text element of a particular node.
+The client-side API of Telerik RadTreeView for ASP.NET AJAX provides the **get_textElement()** function that returns the instance of the text element of a particular node.
 
 For example, the following Javascript changes the first node of the treeview to "new text":
 

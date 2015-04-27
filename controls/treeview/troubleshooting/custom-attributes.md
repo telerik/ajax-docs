@@ -1,6 +1,6 @@
 ---
 title: Custom Attributes
-page_title: Custom Attributes | UI for ASP.NET AJAX Documentation
+page_title: Custom Attributes | RadTreeView for ASP.NET AJAX Documentation
 description: Custom Attributes
 slug: treeview/troubleshooting/custom-attributes
 tags: custom,attributes
@@ -14,15 +14,15 @@ position: 12
 
 ## 
 
-__PROBLEM__
+**PROBLEM**
 
 The get_attributes().getAttribute(attributeName) method does not work.
 
 
 
-__DESCRIPTION__
+**DESCRIPTION**
 
-By design all custom attributes which are __valid html attributes__ (such as "type", "onclick" etc) are rendered as __html attributes__ and are not serialized in the attributes collection. You can still access them on the server-side though. If you need to access them on the client-side you can use this code:
+By design all custom attributes which are **valid html attributes** (such as "type", "onclick" etc) are rendered as **html attributes** and are not serialized in the attributes collection. You can still access them on the server-side though. If you need to access them on the client-side you can use this code:
 
 ````JavaScript
 	     
@@ -35,7 +35,7 @@ By design all custom attributes which are __valid html attributes__ (such as "ty
 
 
 
-__RECOMMENDATION__
+**RECOMMENDATION**
 
 Avoid using names of custom attributes which are valid html attributes. These include:
 

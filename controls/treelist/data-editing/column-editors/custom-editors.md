@@ -1,6 +1,6 @@
 ---
 title: Custom Editors
-page_title: Custom Editors | UI for ASP.NET AJAX Documentation
+page_title: Custom Editors | RadTreeList for ASP.NET AJAX Documentation
 description: Custom Editors
 slug: treelist/data-editing/column-editors/custom-editors
 tags: custom,editors
@@ -12,19 +12,19 @@ position: 1
 
 
 
-RadTreeList provides a straightforward way to specify a non-default editor for an editable column. The __RadTreeList.CreateColumnEditor__ event fires whenever a column editor needs to be initialized.
+RadTreeList provides a straightforward way to specify a non-default editor for an editable column. The **RadTreeList.CreateColumnEditor** event fires whenever a column editor needs to be initialized.
 
 The event argument object of type TreeListCreateColumnEditorEventArgs provides the following properties:
 
-* __Column__ - the TreeListEditableColumn instance for which a column editor will be initialized.
+* **Column** - the TreeListEditableColumn instance for which a column editor will be initialized.
 
-* __DefaultEditor__ - the default ITreeListColumnEditor instance that the column provides.
+* **DefaultEditor** - the default ITreeListColumnEditor instance that the column provides.
 
-* __CustomEditorInitializer__ - a delegate that does not accept parameters and returns an instance of type ITreeListColumnEditor.
+* **CustomEditorInitializer** - a delegate that does not accept parameters and returns an instance of type ITreeListColumnEditor.
 
 ## Custom Column Editors
 
-The user is expected to provide a delegate function to __e.CustomEditorInitializer__ that instantiates and returns an __ITreeListColumnEditor__ object.A column editor instance usually accepts the target editable column in its constructor. With the following sample code, we provide a custom column editor for the ""Notes" column in the RadTreeList:
+The user is expected to provide a delegate function to **e.CustomEditorInitializer** that instantiates and returns an **ITreeListColumnEditor** object.A column editor instance usually accepts the target editable column in its constructor. With the following sample code, we provide a custom column editor for the ""Notes" column in the RadTreeList:
 
 
 

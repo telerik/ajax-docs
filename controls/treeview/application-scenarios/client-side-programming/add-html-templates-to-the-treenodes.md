@@ -1,6 +1,6 @@
 ---
 title: Add HTML Templates to the TreeNodes
-page_title: Add HTML Templates to the TreeNodes | UI for ASP.NET AJAX Documentation
+page_title: Add HTML Templates to the TreeNodes | RadTreeView for ASP.NET AJAX Documentation
 description: Add HTML Templates to the TreeNodes
 slug: treeview/application-scenarios/client-side-programming/add-html-templates-to-the-treenodes
 tags: add,html,templates,to,the,treenodes

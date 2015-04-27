@@ -1,6 +1,6 @@
 ---
 title: Appearance and Styling
-page_title: Appearance and Styling | UI for ASP.NET AJAX Documentation
+page_title: Appearance and Styling | RadTreeList for ASP.NET AJAX Documentation
 description: Appearance and Styling
 slug: treelist/functionality/exporting/pdf/appearance-and-styling
 tags: appearance,and,styling

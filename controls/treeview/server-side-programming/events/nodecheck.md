@@ -1,6 +1,6 @@
 ---
 title: NodeCheck
-page_title: NodeCheck | UI for ASP.NET AJAX Documentation
+page_title: NodeCheck | RadTreeView for ASP.NET AJAX Documentation
 description: NodeCheck
 slug: treeview/server-side-programming/events/nodecheck
 tags: nodecheck
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-When the user selects or unselects a Node checkbox, the __NodeCheck__ event fires. The __RadTreeNodeEventArgs__ has a __Node__ property that can be used to get the current __Checked__ property value of that Node.
+When the user selects or unselects a Node checkbox, the **NodeCheck** event fires. The **RadTreeNodeEventArgs** has a **Node** property that can be used to get the current **Checked** property value of that Node.
 
 
 

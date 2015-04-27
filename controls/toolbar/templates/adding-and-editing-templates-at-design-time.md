@@ -1,6 +1,6 @@
 ---
 title: Adding and Editing Templates at Design Time
-page_title: Adding and Editing Templates at Design Time | UI for ASP.NET AJAX Documentation
+page_title: Adding and Editing Templates at Design Time | RadToolBar for ASP.NET AJAX Documentation
 description: Adding and Editing Templates at Design Time
 slug: toolbar/templates/adding-and-editing-templates-at-design-time
 tags: adding,and,editing,templates,at,design,time
@@ -16,7 +16,7 @@ position: 2
 
 With RadToolBar it is really easy to add and edit templates at design time. The steps below describe how to add a textbox to a toolbar button and how to set its Tooltip property.
 
-1. Click on RadToolBar's __smart tag__ and choose __Edit Templates__.
+1. Click on RadToolBar's **smart tag** and choose **Edit Templates**.
 
 ![ToolBar Edit Template Smart Tag](images/toolbar_smarttagtemplates.png)
 
@@ -30,7 +30,7 @@ With RadToolBar it is really easy to add and edit templates at design time. The 
 
 
 
-4. Finally, click again on RadToolbar's smart tag and choose __End Template Editing__.
+4. Finally, click again on RadToolbar's smart tag and choose **End Template Editing**.
 
 ![ToolBar End Template Editing](images/toolbar_endtemplateediting1.png)
 

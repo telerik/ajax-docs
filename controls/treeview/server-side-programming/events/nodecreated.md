@@ -1,6 +1,6 @@
 ---
 title: NodeCreated
-page_title: NodeCreated | UI for ASP.NET AJAX Documentation
+page_title: NodeCreated | RadTreeView for ASP.NET AJAX Documentation
 description: NodeCreated
 slug: treeview/server-side-programming/events/nodecreated
 tags: nodecreated
@@ -14,7 +14,7 @@ position: 6
 
 ## 
 
-The NodeCreated event fires when new Nodes are created and added to the RadTreeView. The __RadTreeNodeEventArgs__ provides a reference to the newly created Node.
+The NodeCreated event fires when new Nodes are created and added to the RadTreeView. The **RadTreeNodeEventArgs** provides a reference to the newly created Node.
 
 
 

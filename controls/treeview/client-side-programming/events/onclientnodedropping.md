@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeDropping
-page_title: OnClientNodeDropping | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeDropping | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeDropping
 slug: treeview/client-side-programming/events/onclientnodedropping
 tags: onclientnodedropping
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The __OnClientNodeDropping__ client-side event is called before nodes are dropped and can be canceled.
+The **OnClientNodeDropping** client-side event is called before nodes are dropped and can be canceled.
 
 The event handler receives parameters:
 
@@ -22,19 +22,19 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_destNode()__ retrieves a reference to the destination node, i.e. the node that is being dropped onto.
+* **get_destNode()** retrieves a reference to the destination node, i.e. the node that is being dropped onto.
 
-* __get_dropPosition()__ returns the relative position of the dropped node(s) and can be "over", "above" or "below".
+* **get_dropPosition()** returns the relative position of the dropped node(s) and can be "over", "above" or "below".
 
-* __get_htmlElement()__ retrieves the DOM html element representing the destination node.
+* **get_htmlElement()** retrieves the DOM html element representing the destination node.
 
-* __get_sourceNode()__ retrieves the node being dropped.
+* **get_sourceNode()** retrieves the node being dropped.
 
-* __get_sourceNodes()__ retrieves an array of nodes being dropped. It is useful when the RadTreeView __MultipleSelect__ property is __True__.
+* **get_sourceNodes()** retrieves an array of nodes being dropped. It is useful when the RadTreeView **MultipleSelect** property is **True**.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves a DOM event object of the node dropping.
+* **get_domEvent()** retrieves a DOM event object of the node dropping.
 
 The example below demonstrates preventing a node from being dropped between levels and also displays information from each of the eventArgs functions.
 

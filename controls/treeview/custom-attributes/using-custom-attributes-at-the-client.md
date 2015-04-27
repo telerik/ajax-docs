@@ -1,6 +1,6 @@
 ---
 title: Using Custom Attributes at the Client
-page_title: Using Custom Attributes at the Client | UI for ASP.NET AJAX Documentation
+page_title: Using Custom Attributes at the Client | RadTreeView for ASP.NET AJAX Documentation
 description: Using Custom Attributes at the Client
 slug: treeview/custom-attributes/using-custom-attributes-at-the-client
 tags: using,custom,attributes,at,the,client
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-Access custom attributes on the client side by using first the __get_attributes()__ method. Then extract the specific attribute with the __getAttribute()__ method, passing the attribute name.
+Access custom attributes on the client side by using first the **get_attributes()** method. Then extract the specific attribute with the **getAttribute()** method, passing the attribute name.
 
->caution The custom attribute's name should not be an __HTML reserved word__ . Please see[this article]({%slug treeview/troubleshooting/custom-attributes%})for more information.
+>caution The custom attribute's name should not be an **HTML reserved word** . Please see[this article]({%slug treeview/troubleshooting/custom-attributes%})for more information.
 >
 
 

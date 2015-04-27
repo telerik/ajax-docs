@@ -1,6 +1,6 @@
 ---
 title: Event Sequence
-page_title: Event Sequence | UI for ASP.NET AJAX Documentation
+page_title: Event Sequence | RadTreeList for ASP.NET AJAX Documentation
 description: Event Sequence
 slug: treelist/control-lifecycle/event-sequence
 tags: event,sequence
@@ -16,7 +16,7 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 
 ## 
 
-* RadTreeList with __EnableViewState__ set to __true__ (default value)
+* RadTreeList with **EnableViewState** set to **true** (default value)
 
 
 | First page load: |
@@ -48,7 +48,7 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 |Page.PreRender|
 
 
-| On server selection from TreeListSelectColumn/LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadTreeList body) when __AllowRecursiveSelection="true"__ : |
+| On server selection from TreeListSelectColumn/LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadTreeList body) when **AllowRecursiveSelection="true"** : |
 | ------ |
 |For each Item in RadTreeList:|
 |ItemCreated|
@@ -75,7 +75,7 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 |ItemDataBound|
 |Page.PreRender|
 
-* RadTreeList with __EnableViewState__ set to __false__
+* RadTreeList with **EnableViewState** set to **false**
 
 
 | First page load: |
@@ -91,10 +91,10 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 | Normal postback from a control outside of RadTreeList: |
 | ------ |
 |Page.Load|
-| __NeedDataSource__ |
+| **NeedDataSource** |
 |For each Item in RadTreeList:|
 |ItemCreated|
-| __ItemDataBound__ |
+| **ItemDataBound** |
 |Postback Events|
 |Page.PreRender|
 
@@ -102,10 +102,10 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 | On server selection/recursive selection from TreeListSelectColumn/LinkButton/PushButton/ImageButton with CommandName Select or Deselect (part of the RadTreeList body): |
 | ------ |
 |Page.Load|
-| __NeedDataSource__ |
+| **NeedDataSource** |
 |For each Item in RadTreeList:|
-| __ItemCreated__ |
-| __ItemDataBound__ |
+| **ItemCreated** |
+| **ItemDataBound** |
 |ItemCommand|
 |Other postback events|
 |Page.PreRender|
@@ -114,10 +114,10 @@ This article elaborates on the event sequence of the RadTreeList control in the 
 | On expand/collapse action or paging/sorting operation or Edit/InitInsert/Cancel/Delete/Update/PerformInsert command |
 | ------ |
 |Page.Load|
-| __NeedDataSource__ |
+| **NeedDataSource** |
 |For each Item in RadTreeList:|
-| __ItemCreated__ |
-| __ItemDataBound__ |
+| **ItemCreated** |
+| **ItemDataBound** |
 |ItemCommand|
 |PageIndexChanged/PageSizeChanged/Sorting/ItemCommand|
 |NeedDataSource|

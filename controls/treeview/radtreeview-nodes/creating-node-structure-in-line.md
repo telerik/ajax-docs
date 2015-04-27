@@ -1,6 +1,6 @@
 ---
 title: Creating Node Structure In-Line
-page_title: Creating Node Structure In-Line | UI for ASP.NET AJAX Documentation
+page_title: Creating Node Structure In-Line | RadTreeView for ASP.NET AJAX Documentation
 description: Creating Node Structure In-Line
 slug: treeview/radtreeview-nodes/creating-node-structure-in-line
 tags: creating,node,structure,in-line
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-You can define the RadTreeView structure inline, directly in the ASPX/ASCX file. To do this, enclose every RadTreeNode definition within the __<telerik:radtreeview>__ and__</telerik:radtreeview>__ tags. The example below has two root level nodes and a child node under the first root node. Notice in the markup for the RadTreeView that a __<Nodes>__tag surrounds one or more node definitions contained in __<telerik:RadTreeNode>__ tags.
+You can define the RadTreeView structure inline, directly in the ASPX/ASCX file. To do this, enclose every RadTreeNode definition within the **<telerik:radtreeview>** and**</telerik:radtreeview>** tags. The example below has two root level nodes and a child node under the first root node. Notice in the markup for the RadTreeView that a **<Nodes>**tag surrounds one or more node definitions contained in **<telerik:RadTreeNode>** tags.
 
 
 >caption 

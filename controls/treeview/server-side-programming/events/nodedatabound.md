@@ -1,6 +1,6 @@
 ---
 title: NodeDataBound
-page_title: NodeDataBound | UI for ASP.NET AJAX Documentation
+page_title: NodeDataBound | RadTreeView for ASP.NET AJAX Documentation
 description: NodeDataBound
 slug: treeview/server-side-programming/events/nodedatabound
 tags: nodedatabound
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __NodeDataBound__ fires for every Node that is bound to data. Use the __RadTreeNodeEventArgs__ to access the properties of the bound Node. Use the Node's __DataItem__ property to access the underlying object or data row being bound to.
+The **NodeDataBound** fires for every Node that is bound to data. Use the **RadTreeNodeEventArgs** to access the properties of the bound Node. Use the Node's **DataItem** property to access the underlying object or data row being bound to.
 
 Binding to a database:
 

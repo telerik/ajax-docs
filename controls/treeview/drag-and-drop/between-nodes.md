@@ -1,6 +1,6 @@
 ---
 title: Between Nodes
-page_title: Between Nodes | UI for ASP.NET AJAX Documentation
+page_title: Between Nodes | RadTreeView for ASP.NET AJAX Documentation
 description: Between Nodes
 slug: treeview/drag-and-drop/between-nodes
 tags: between,nodes
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-RadTreeView allows you to drop Nodes in between other Nodes. Set the __EnableDragAndDropBetweenNodes__ property to __True__ to support this behavior. In the __OnNodeDrop__ event, use the __RadTreeNodeDragDropEventArgs DropPosition__ property to find the relationship of the dropped Nodes and the destination Nodes. In the example below the __OnNodeDrop__ event handler checks to see that the destination Node is not __null__. The number of Nodes being dragged determines how many times the __PerformDragAndDrop()__ method is called.In the __PerformDragAndDrop()__ method the __DropPosition__ drives the rest of the logic. If the __DropPosition__ is __Over__ then the Nodes are added directly to the destination Nodes collection. If __DropPosition__ is __Above__, the Nodes are inserted before the destination Node and if __Below__ the Nodes are inserted after the destination Node.
+RadTreeView allows you to drop Nodes in between other Nodes. Set the **EnableDragAndDropBetweenNodes** property to **True** to support this behavior. In the **OnNodeDrop** event, use the **RadTreeNodeDragDropEventArgs DropPosition** property to find the relationship of the dropped Nodes and the destination Nodes. In the example below the **OnNodeDrop** event handler checks to see that the destination Node is not **null**. The number of Nodes being dragged determines how many times the **PerformDragAndDrop()** method is called.In the **PerformDragAndDrop()** method the **DropPosition** drives the rest of the logic. If the **DropPosition** is **Over** then the Nodes are added directly to the destination Nodes collection. If **DropPosition** is **Above**, the Nodes are inserted before the destination Node and if **Below** the Nodes are inserted after the destination Node.
 
 ![RadTreeView Drag and Drop Between Nodes](images/treeview_draganddropbetweennodespng.png)
 

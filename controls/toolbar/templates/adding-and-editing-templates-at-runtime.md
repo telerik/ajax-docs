@@ -1,6 +1,6 @@
 ---
 title: Adding and Editing Templates at Runtime
-page_title: Adding and Editing Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Adding and Editing Templates at Runtime | RadToolBar for ASP.NET AJAX Documentation
 description: Adding and Editing Templates at Runtime
 slug: toolbar/templates/adding-and-editing-templates-at-runtime
 tags: adding,and,editing,templates,at,runtime
@@ -14,14 +14,14 @@ position: 3
 
 ## 
 
-You can also add templates to __RadToolBar__ at runtime, using the __ItemTemplate__ property of the RadToolBarButtons and RadToolBarSplitButtons. This property is of type __ITemplate__, so you must assign an object that implements that interface as a value:
+You can also add templates to **RadToolBar** at runtime, using the **ItemTemplate** property of the RadToolBarButtons and RadToolBarSplitButtons. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
->note Only __RadToolBarButton__ and __RadToolBarSplitButton__ support templates. If you set a template to a RaToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
+>note Only **RadToolBarButton** and **RadToolBarSplitButton** support templates. If you set a template to a RaToolBarSplitButton, this template will not be inherited by the child buttons of the split button. If you want to define templates for the child buttons, you should define an ItemTemplate for each child button.
 >
 
 
 >note The buttons (split buttons) should be dynamically added so that templates can be defined at run time.
->Also, the buttons (split buttons) should be bound to be able to eval __DataBinder__ expressions. In other words, you should call the __DataBind__ method of the RadToolBar object or bind the buttons (split buttons) that are about to use __DataBinder.Eval__ . You can bind a specific button (split button) by calling the __DataBind__ method of this specific button (split button).
+>Also, the buttons (split buttons) should be bound to be able to eval **DataBinder** expressions. In other words, you should call the **DataBind** method of the RadToolBar object or bind the buttons (split buttons) that are about to use **DataBinder.Eval** . You can bind a specific button (split button) by calling the **DataBind** method of this specific button (split button).
 >
 
 

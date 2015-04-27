@@ -1,6 +1,6 @@
 ---
 title: OnClientMouseOver
-page_title: OnClientMouseOver | UI for ASP.NET AJAX Documentation
+page_title: OnClientMouseOver | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientMouseOver
 slug: treeview/client-side-programming/events/onclientmouseover
 tags: onclientmouseover
@@ -14,7 +14,7 @@ position: 22
 
 ## 
 
-The __OnClientMouseOver__client-side event occurs when the mouse cursor passes over a node.
+The **OnClientMouseOver**client-side event occurs when the mouse cursor passes over a node.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the node.
+* **get_node()** retrieves a reference to the node.
 
-* __get_domEvent()__ retrieves a DOM event object of the mouse movement.
+* **get_domEvent()** retrieves a DOM event object of the mouse movement.
 
 The example below retrieves text of the node the mouse is passing over and displays the text in a div.
 

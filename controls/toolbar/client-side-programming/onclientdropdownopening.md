@@ -1,6 +1,6 @@
 ---
 title: OnClientDropDownOpening
-page_title: OnClientDropDownOpening | UI for ASP.NET AJAX Documentation
+page_title: OnClientDropDownOpening | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientDropDownOpening
 slug: toolbar/client-side-programming/onclientdropdownopening
 tags: onclientdropdownopening
@@ -14,7 +14,7 @@ position: 15
 
 ## 
 
-The __OnClientDropDownOpening__ client-side event occurs when the drop-down is about to expand, showing its child buttons.
+The **OnClientDropDownOpening** client-side event occurs when the drop-down is about to expand, showing its child buttons.
 
 The event handler receives two parameters:
 
@@ -22,11 +22,11 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadToolBarItem__that is about to expand. In this case it is a drop-down.
+* **get_item** returns a reference to the **RadToolBarItem**that is about to expand. In this case it is a drop-down.
 
-* __set_cancel__ lets you prevent the toolbar from showing its children.
+* **set_cancel** lets you prevent the toolbar from showing its children.
 
-* __get_domEvent__ - returns the browser's event object.
+* **get_domEvent** - returns the browser's event object.
 
 You can use this event to control when drop-down can expand, or customize the child buttons before the toolbar expands:
 

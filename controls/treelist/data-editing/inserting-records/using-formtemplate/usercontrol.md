@@ -1,6 +1,6 @@
 ---
 title: Using FormTemplate/UserControl
-page_title: Using FormTemplate/UserControl | UI for ASP.NET AJAX Documentation
+page_title: Using FormTemplate/UserControl | RadTreeList for ASP.NET AJAX Documentation
 description: Using FormTemplate/UserControl
 slug: treelist/data-editing/inserting-records/using-formtemplate/usercontrol
 tags: using,formtemplate/usercontrol
@@ -16,7 +16,7 @@ This article will show you how you can retrieve the values from FormTemplate and
 
 ## Inserting values using FormTemplate
 
-The main logic here lies on using the FindControl(controlID) method - once you obtain a reference to the __TreeListEditFormInsertItem__ you can easily access the controls in it by ID.
+The main logic here lies on using the FindControl(controlID) method - once you obtain a reference to the **TreeListEditFormInsertItem** you can easily access the controls in it by ID.
 
 
 

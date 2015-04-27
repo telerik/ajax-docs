@@ -1,6 +1,6 @@
 ---
 title: Separators
-page_title: Separators | UI for ASP.NET AJAX Documentation
+page_title: Separators | RadToolBar for ASP.NET AJAX Documentation
 description: Separators
 slug: toolbar/appearance-and-styling/separators
 tags: separators
@@ -14,11 +14,11 @@ position: 9
 
 ## 
 
-You can use the __RadToolBarButton__ objects that appear in drop-down lists as separators. By using separators, you can divide the items in a drop-down list into two or more groups, making them easier for a user to interpret.
+You can use the **RadToolBarButton** objects that appear in drop-down lists as separators. By using separators, you can divide the items in a drop-down list into two or more groups, making them easier for a user to interpret.
 
-To set a given button as a separator, set its __IsSeparator__ property to __True__. When __IsSeparator__ is __True__, the separator is rendered as a horizontal line. Its __Text__ and __ImageUrl__ properties are ignored.
+To set a given button as a separator, set its **IsSeparator** property to **True**. When **IsSeparator** is **True**, the separator is rendered as a horizontal line. Its **Text** and **ImageUrl** properties are ignored.
 
->note If you set the __IsSeparator__ property to __True__ on a button that is in the toolbar rather than a drop-down list, it has no effect on the appearance of the toolbar. The toolbar appears as if the button did not exist in its __Items__ collection.
+>note If you set the **IsSeparator** property to **True** on a button that is in the toolbar rather than a drop-down list, it has no effect on the appearance of the toolbar. The toolbar appears as if the button did not exist in its **Items** collection.
 >
 
 

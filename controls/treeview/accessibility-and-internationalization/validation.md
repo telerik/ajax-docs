@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadTreeView for ASP.NET AJAX Documentation
 description: Validation
 slug: treeview/accessibility-and-internationalization/validation
 tags: validation
@@ -12,11 +12,11 @@ position: 3
 
 
 
-You can use the built in ASP.NET validation with __RadTreeView__.
+You can use the built in ASP.NET validation with **RadTreeView**.
 
 ## Validating the TreeView with RequiredFieldValidator
 
-To validate for selected node of a treeview, just specify the ID of the tree in the __ControlToValidate__ property of the __RequiredFieldValidator__. Validation checks to see if there is at least one selected node.
+To validate for selected node of a treeview, just specify the ID of the tree in the **ControlToValidate** property of the **RequiredFieldValidator**. Validation checks to see if there is at least one selected node.
 
 ````ASPNET
 	    <telerik:RadTreeView runat="server" ID="RadTreeView1">
@@ -40,7 +40,7 @@ If no node is selected, the validator detects an error and displays the error me
 
 ## Validating the TreeView using the CompareValidator
 
-You can validate the treeview using the CompareValidator. You need to specify the ID of the tree in the __ControlToValidate__ property, the __Operator__ and __ValueToCompare__ properties. The validation will be made against the __Value__ property of the nodes if they have values and if not - against their __Text__ property.
+You can validate the treeview using the CompareValidator. You need to specify the ID of the tree in the **ControlToValidate** property, the **Operator** and **ValueToCompare** properties. The validation will be made against the **Value** property of the nodes if they have values and if not - against their **Text** property.
 
 ````ASPNET
 	    <telerik:RadTreeView runat="server" ID="RadTreeView1" Skin="Hay">
@@ -80,9 +80,9 @@ If a root nodes is selected, the validator detects an error and displays the err
 
 ## Causing Validation
 
-The treeview can trigger validation of other controls on the form when it performs a post-back to the server. Simply set the __CausesValidation__ property to __True__.
+The treeview can trigger validation of other controls on the form when it performs a post-back to the server. Simply set the **CausesValidation** property to **True**.
 
-By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the treeview performs a post-back, while still allowing other controls on the Web page to be validated, by using __Validation Groups__. The validator controls have a __ValidationGroup__ property. The treeview also has a __ValidationGroup__ property. The treeview only causes validation by those validators whose __ValidationGroup__ property matches the __ValidationGroup__ property of the treeview. (The reason the default behavior is for all validators to execute on post-back is because the default value of the __ValidationGroup__ property on both treeview and validators is an empty string.)
+By default, all validators on the Web page must be successful before the postback can occur. You can limit the controls that must be validated when the treeview performs a post-back, while still allowing other controls on the Web page to be validated, by using **Validation Groups**. The validator controls have a **ValidationGroup** property. The treeview also has a **ValidationGroup** property. The treeview only causes validation by those validators whose **ValidationGroup** property matches the **ValidationGroup** property of the treeview. (The reason the default behavior is for all validators to execute on post-back is because the default value of the **ValidationGroup** property on both treeview and validators is an empty string.)
 
 For a live example, see [Validation Groups](http://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/validating/defaultcs.aspx)
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientItemCreated
-page_title: OnClientItemCreated | UI for ASP.NET AJAX Documentation
+page_title: OnClientItemCreated | RadTreeMap for ASP.NET AJAX Documentation
 description: OnClientItemCreated
 slug: treemap/client-side-programming/events/onclientitemcreated
 tags: onclientitemcreated
@@ -12,28 +12,28 @@ position: 1
 
 
 
-The following article demonstrates the usage of the __OnClientItemCreated__ client-side event of the __RadTreeMap__.
+The following article demonstrates the usage of the **OnClientItemCreated** client-side event of the **RadTreeMap**.
 
 ## 
 
-The __OnClientItemCreated__ client-side event of the __RadTreeMap__ is fired for each of the __RadTreeMapItems__ in the collection of items. The event could be very useful, for example, if you want to set a specific color for a given item.
+The **OnClientItemCreated** client-side event of the **RadTreeMap** is fired for each of the **RadTreeMapItems** in the collection of items. The event could be very useful, for example, if you want to set a specific color for a given item.
 
 The event handler receives two parameter:
 
-1. The instance of the __RadTreeMap__ control firing the event.
+1. The instance of the **RadTreeMap** control firing the event.
 
 1. Event arguments—an event arguments object that exposes the following methods:
 
 
 >caption ClientItemCreated Event Arguments Object
 
-|  __Name__  |  __Parameters__  |  __Return Type__  |  __Description__  |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 |get_dataItem()||DataItem|Gets reference to the DataItem object (data container), exposing Text and Value for the currently evaluated item, along with any values set for the[DataKeyNames collection]({%slug treemap/templates/client-templates%}).|
 |get_element()||DOM Element|Returns the DOM element of the div, which the currently evaluated RadTreeMapItem is rendered in.|
 |get_kendoWidget()||KendoTreeMap|Gets a reference to the KendoTreeMap object.|
 
-__Example 1__: Handle the __RadTreeMap__'s client-side __OnClientItemCreated__ event to set a specific color for a given item.
+**Example 1**: Handle the **RadTreeMap**'s client-side **OnClientItemCreated** event to set a specific color for a given item.
 
 ````JavaScript
 	

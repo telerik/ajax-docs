@@ -1,6 +1,6 @@
 ---
 title: Working With Items at the Client
-page_title: Working With Items at the Client | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at the Client | RadToolBar for ASP.NET AJAX Documentation
 description: Working With Items at the Client
 slug: toolbar/radtoolbar-items/working-with-items-at-the-client
 tags: working,with,items,at,the,client
@@ -12,15 +12,15 @@ position: 3
 
 
 
-__RadToolBar__ provides a client-side API for adding, deleting and updating items.
+**RadToolBar** provides a client-side API for adding, deleting and updating items.
 
->note Don't forget to wrap the changes in the __toolBar.trackChanges()__ ; and __toolBar.commitChanges();__ if you want to preserve these changes at the server-side.
+>note Don't forget to wrap the changes in the **toolBar.trackChanges()** ; and **toolBar.commitChanges();** if you want to preserve these changes at the server-side.
 >
 
 
 ## Adding Items
 
-You can add items to the __RadTooBarItemCollection__of the toolbar or you can add buttons to the Buttons collections of the drop-down and the split button.
+You can add items to the **RadTooBarItemCollection**of the toolbar or you can add buttons to the Buttons collections of the drop-down and the split button.
 
 ````JavaScript
 	
@@ -56,7 +56,7 @@ You can add items to the __RadTooBarItemCollection__of the toolbar or you can ad
 
 ## Removing Items
 
-Use the __remove__ method of the __RadComboBoxItemCollection__ object to remove items or the __remove__ method of the Buttons collections of the split button or the drop-down objects to remove buttons.
+Use the **remove** method of the **RadComboBoxItemCollection** object to remove items or the **remove** method of the Buttons collections of the split button or the drop-down objects to remove buttons.
 
 ````JavaScript
 	
@@ -83,7 +83,7 @@ Use the __remove__ method of the __RadComboBoxItemCollection__ object to remove 
 
 ## Enabling/Disabling Items
 
-Use the __disable__ method to disable items in the RadToolBarItemCollection or buttons in the Buttons collections of the split button and drop-down objects:
+Use the **disable** method to disable items in the RadToolBarItemCollection or buttons in the Buttons collections of the split button and drop-down objects:
 
 ````JavaScript
 	

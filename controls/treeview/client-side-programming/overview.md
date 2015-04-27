@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadTreeView for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/client-side-programming/overview
 tags: overview
@@ -28,7 +28,7 @@ RadTreeView creates a client-side object with the ClientID of the TreeView. You 
 
 ## Getting a RadTreeNode client-side object
 
-Once you get the client-side object of RadTreeView, you can use one of the  [client RadTreeView object functions]({%slug treeview/client-side-programming/objects/radtreeview%}) __findNodeByText()__,__findNodeByValue()__ or __findNodeByAttribute()__to get the instance of a particular Node.
+Once you get the client-side object of RadTreeView, you can use one of the  [client RadTreeView object functions]({%slug treeview/client-side-programming/objects/radtreeview%}) **findNodeByText()**,**findNodeByValue()** or **findNodeByAttribute()**to get the instance of a particular Node.
 
 ````JavaScript
 	        function FindNode() {
@@ -65,7 +65,7 @@ Once you have a client-side reference to a Node, you can call functions to
 
 See [the RadTreeNode Object]({%slug treeview/client-side-programming/objects/radtreenode%}) topic for more specifics on calling these functions.
 
-For example, the __selectNode__ function below demonstrates getting a client-side reference to a RadTreeView, finding a specific Node and selecting it.
+For example, the **selectNode** function below demonstrates getting a client-side reference to a RadTreeView, finding a specific Node and selecting it.
 
 
 >caption 
@@ -82,7 +82,7 @@ For example, the __selectNode__ function below demonstrates getting a client-sid
 
 
 
-The full project shows several links that call __selectNode()__ with text of specific Nodes to find. When the user clicks on the link the corresponding Node is found and highlighted.
+The full project shows several links that call **selectNode()** with text of specific Nodes to find. When the user clicks on the link the corresponding Node is found and highlighted.
 
 ````ASPNET
 	
@@ -131,13 +131,13 @@ The full project shows several links that call __selectNode()__ with text of spe
 
 ## Using the RadTreeNodeCollection client-side Object
 
-To operate on all Nodes of a collection of Nodes use the [RadTreeNodeCollection object]({%slug treeview/client-side-programming/objects/radtreenodecollection%}). You can get a reference to this collection through____the __get_nodes()__ function of [RadTreeNode]({%slug treeview/client-side-programming/objects/radtreenode%}) object or use the following functions of the client [RadTreeView]({%slug treeview/client-side-programming/objects/radtreeview%}) object:
+To operate on all Nodes of a collection of Nodes use the [RadTreeNodeCollection object]({%slug treeview/client-side-programming/objects/radtreenodecollection%}). You can get a reference to this collection through the **get_nodes()** function of [RadTreeNode]({%slug treeview/client-side-programming/objects/radtreenode%}) object or use the following functions of the client [RadTreeView]({%slug treeview/client-side-programming/objects/radtreeview%}) object:
 
-* __get_selectedNodes__
+* **get_selectedNodes**
 
-* __get_nodes__
+* **get_nodes**
 
-* __get_allNodes__
+* **get_allNodes**
 
 ````JavaScript
 	        function GetNodes() {

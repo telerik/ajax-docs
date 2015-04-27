@@ -1,6 +1,6 @@
 ---
 title: Save Made Changes to TreeView to Database
-page_title: Save Made Changes to TreeView to Database | UI for ASP.NET AJAX Documentation
+page_title: Save Made Changes to TreeView to Database | RadTreeView for ASP.NET AJAX Documentation
 description: Save Made Changes to TreeView to Database
 slug: treeview/application-scenarios/server-side-programming/save-made-changes-to-treeview-to-database
 tags: save,made,changes,to,treeview,to,database
@@ -14,9 +14,9 @@ position: 1
 
 ## 
 
-This example demonstrates a simple mechanism using __Access database__ with single self-referencing table containing columns __id__, __parentId__ and __Text__.
+This example demonstrates a simple mechanism using **Access database** with single self-referencing table containing columns **id**, **parentId** and **Text**.
 
-The structure of the treeview is loaded from this database in the __Page_Load__ event. Then the user edits the text of random nodes in the treeview and hits the __Save__ button on the page. Thus, a postback is triggered and the updated information is saved back in the database file.
+The structure of the treeview is loaded from this database in the **Page_Load** event. Then the user edits the text of random nodes in the treeview and hits the **Save** button on the page. Thus, a postback is triggered and the updated information is saved back in the database file.
 
 The code below shows the approach:
 

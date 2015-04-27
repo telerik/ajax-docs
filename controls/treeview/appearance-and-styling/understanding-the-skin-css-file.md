@@ -1,6 +1,6 @@
 ---
 title: Understanding the Skin CSS File
-page_title: Understanding the Skin CSS File | UI for ASP.NET AJAX Documentation
+page_title: Understanding the Skin CSS File | RadTreeView for ASP.NET AJAX Documentation
 description: Understanding the Skin CSS File
 slug: treeview/appearance-and-styling/understanding-the-skin-css-file
 tags: understanding,the,skin,css,file

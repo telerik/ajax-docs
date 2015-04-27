@@ -1,6 +1,6 @@
 ---
 title: Server-side Selection
-page_title: Server-side Selection | UI for ASP.NET AJAX Documentation
+page_title: Server-side Selection | RadTreeList for ASP.NET AJAX Documentation
 description: Server-side Selection
 slug: treelist/functionality/selecting/server-side-selection
 tags: server-side,selection
@@ -14,15 +14,15 @@ position: 1
 
 There might be scenarios where you need to perform server-side selection for the RadTreeList items.For that purpose, you can use one of the below approaches:
 
-* Add a __TreeListSelectColumn__ and provide the ability to the user toselect the desired items through it.
+* Add a **TreeListSelectColumn** and provide the ability to the user toselect the desired items through it.
 
 * Use server-side code to programmatically select the treelist items.
 
-In both cases, to enable multi-item selection, you need to set the RadTreeList__AllowMultiItemSelection__ property to __true__.
+In both cases, to enable multi-item selection, you need to set the RadTreeList**AllowMultiItemSelection** property to **true**.
 
 ## Using the TreeListSelectColumn
 
-RadTreeList server-side selection is enabled for the users once you add the__TreeListSelectColumn__ to the RadTreeList Columns collection. You do not need toset any additional properties. Then checking the checkbox rendered in the column marks the correspondingitem as selected. As a result, postback is performed and the __ItemCommand__ eventis fired with command name __RadTreeList.SelectCommandName__. To deselect an item,one should uncheck the checkbox in the select column. Then again postback is performed and theItemCommand event is fired with command name __RadTreeList.DeselectCommandName__.
+RadTreeList server-side selection is enabled for the users once you add the**TreeListSelectColumn** to the RadTreeList Columns collection. You do not need toset any additional properties. Then checking the checkbox rendered in the column marks the correspondingitem as selected. As a result, postback is performed and the **ItemCommand** eventis fired with command name **RadTreeList.SelectCommandName**. To deselect an item,one should uncheck the checkbox in the select column. Then again postback is performed and theItemCommand event is fired with command name **RadTreeList.DeselectCommandName**.
 
 
 
@@ -65,7 +65,7 @@ RadTreeList server-side selection is enabled for the users once you add the__Tre
 
 ## Programmatic items selection
 
-To select an item/items with server-side code, you can set the particular item/items__Selected__ property to __true__:
+To select an item/items with server-side code, you can set the particular item/items**Selected** property to **true**:
 
 
 
@@ -86,6 +86,6 @@ To select an item/items with server-side code, you can set the particular item/i
 
 ## Deselecting items programmatically
 
-To deselect an item/items programmatically, set its __Selected__ property to __false__.
+To deselect an item/items programmatically, set its **Selected** property to **false**.
 
-You can also call the __ClearSelectedItems()__ method of the RadTreeList controlto deselect all selected items which are visible on the current page.
+You can also call the **ClearSelectedItems()** method of the RadTreeList controlto deselect all selected items which are visible on the current page.

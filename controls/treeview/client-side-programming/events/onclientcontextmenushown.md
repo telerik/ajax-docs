@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenuShown
-page_title: OnClientContextMenuShown | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenuShown | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientContextMenuShown
 slug: treeview/client-side-programming/events/onclientcontextmenushown
 tags: onclientcontextmenushown
@@ -14,7 +14,7 @@ position: 25
 
 ## 
 
-The __OnClientContextMenuShown__client-side event occurs after opening a context menu.
+The **OnClientContextMenuShown**client-side event occurs after opening a context menu.
 
 The event handler receives parameters:
 
@@ -22,11 +22,11 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_menu()__ retrieves a reference to the context menu.
+* **get_menu()** retrieves a reference to the context menu.
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM element that represents the context menu.
+* **get_domEvent()** retrieves a DOM element that represents the context menu.
 
 The example below displays the menu id and the node that the context menu is being opened for. The event is canceled if the menu is being opened for node "Printers".
 

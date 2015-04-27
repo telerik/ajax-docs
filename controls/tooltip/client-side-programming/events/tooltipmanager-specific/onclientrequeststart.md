@@ -1,6 +1,6 @@
 ---
 title: OnClientRequestStart
-page_title: OnClientRequestStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientRequestStart | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientRequestStart
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientrequeststart
 tags: onclientrequeststart
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__OnClientRequestStart__ - it is fired when the call to the WebService or the AJAX request starts. The event is cancellable and receives the following parameters:
+**OnClientRequestStart** - it is fired when the call to the WebService or the AJAX request starts. The event is cancellable and receives the following parameters:
 
 1. The RadToolTipManager instance that fired the event. Note that this is not the tooltip that is being shown, this reference should be obtained via the static getCurrent() method of the class
 

@@ -1,6 +1,6 @@
 ---
 title: Reordering
-page_title: Reordering | UI for ASP.NET AJAX Documentation
+page_title: Reordering | RadTreeList for ASP.NET AJAX Documentation
 description: Reordering
 slug: treelist/column/reordering
 tags: reordering

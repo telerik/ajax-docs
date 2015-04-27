@@ -1,6 +1,6 @@
 ---
 title: Changes And Backwards Compatibility
-page_title: Changes And Backwards Compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes And Backwards Compatibility | RadTooltip for ASP.NET AJAX Documentation
 description: Changes And Backwards Compatibility
 slug: tooltip/changes-and-backwards-compatibility
 tags: changes,and,backwards,compatibility
@@ -20,7 +20,7 @@ Telerik RadToolTip for ASP.NET AJAX A complete list of all changes can be found 
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2009 SP1
 
-* From Q3 2009 SP1, __RadToolTip__ uses a base stylesheet file for its skins. If you want to use a custom (pre-Q3 2009 SP1) skin with the latest release, you need to set the __EnableEmbeddedBaseStylesheet__ property to __false__.
+* From Q3 2009 SP1, **RadToolTip** uses a base stylesheet file for its skins. If you want to use a custom (pre-Q3 2009 SP1) skin with the latest release, you need to set the **EnableEmbeddedBaseStylesheet** property to **false**.
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2009
 
@@ -36,25 +36,24 @@ RadToolTip for ASP.NET AJAX which is part of the Q2 2009 release is fully backwa
 
 * Refactoring of the CSS code to achieve better understanding, easier maintenance and handle problems with global styles
 
-* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor examplewas:__radtooltip_Default__now:__RadToolTip_Default__
+* Changes to the CSS classes, so now all controls for ASP.NET AJAX comply with a common naming conventionFor examplewas:**radtooltip_Default**now:**RadToolTip_Default**
 
-* The__ManualClose__and__Sticky__ properties are obsolete, a new property is introduced to control the event on which the tooltip should hide -__HideEvent.__ The __HideEvent__ property is an enum and can take the following values, which names describe the effect when they are set:
+* The**ManualClose**and**Sticky** properties are obsolete, a new property is introduced to control the event on which the tooltip should hide -**HideEvent.** The **HideEvent** property is an enum and can take the following values, which names describe the effect when they are set:
 
-* __Default__
+* **Default**
 
-* __FromCode__
+* **FromCode**
 
-* __LeaveTargetAndToolTip__
+* **LeaveTargetAndToolTip**
 
-* __LeaveToolTip__
+* **LeaveToolTip**
 
-* __ManualClose__
+* **ManualClose**
 
-__An online demo about the HideEvent property is available below:__
+**An online demo about the HideEvent property is available below:**
 
-__http://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspxhttp://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx__
+**http://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspxhttp://demos.telerik.com/aspnet-ajax/tooltip/examples/hideevent/defaultcs.aspx**
 
-____
 
 ## Telerik RadToolTip for ASP.NET AJAX Q3 2008
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenu
-page_title: OnClientContextMenu | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenu | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientContextMenu
 slug: toolbar/client-side-programming/onclientcontextmenu
 tags: onclientcontextmenu
@@ -14,7 +14,7 @@ position: 18
 
 ## 
 
-The __OnClientContextMenu__ client-side event occurs when the user right-clicks an item in the toolbar.
+The **OnClientContextMenu** client-side event occurs when the user right-clicks an item in the toolbar.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the item that was right-clicked.
+* **get_item** returns a reference to the item that was right-clicked.
 
-* __get_domEvent__ returns the DOM event object for the click.
+* **get_domEvent** returns the DOM event object for the click.
 
 You can use this event to respond when the user right-clicks an item:
 

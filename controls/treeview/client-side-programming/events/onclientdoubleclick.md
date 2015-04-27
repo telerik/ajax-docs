@@ -1,6 +1,6 @@
 ---
 title: OnClientDoubleClick
-page_title: OnClientDoubleClick | UI for ASP.NET AJAX Documentation
+page_title: OnClientDoubleClick | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientDoubleClick
 slug: treeview/client-side-programming/events/onclientdoubleclick
 tags: onclientdoubleclick
@@ -14,7 +14,7 @@ position: 24
 
 ## 
 
-The __OnClientDoubleClick__client-side event occurs when the end user double-clicks a node.
+The **OnClientDoubleClick**client-side event occurs when the end user double-clicks a node.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the double click.
+* **get_domEvent()** retrieves a DOM event object of the double click.
 
 The example below displays the text for the double-clicked node.
 

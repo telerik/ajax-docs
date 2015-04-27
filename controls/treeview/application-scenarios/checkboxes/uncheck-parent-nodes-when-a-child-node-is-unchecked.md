@@ -1,6 +1,6 @@
 ---
 title: Uncheck Parent Nodes When a Child Node Is Unchecked
-page_title: Uncheck Parent Nodes When a Child Node Is Unchecked | UI for ASP.NET AJAX Documentation
+page_title: Uncheck Parent Nodes When a Child Node Is Unchecked | RadTreeView for ASP.NET AJAX Documentation
 description: Uncheck Parent Nodes When a Child Node Is Unchecked
 slug: treeview/application-scenarios/checkboxes/uncheck-parent-nodes-when-a-child-node-is-unchecked
 tags: uncheck,parent,nodes,when,a,child,node,is,unchecked
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-To uncheck parent Nodes when any child Node has been unchecked, traverse from the child Node upward toward the root Node, unchecking Nodes as you go. The example below extracts the current Node (the child Node) and if it is unchecked, walks back through the Node hierarchy moving from parent to parent. Also node the condition of the __while()__ loop. The condition checks that the parent has a __set_checked__ function. If __set_checked__ is undefined, we are at the root Node (the treeview itself does not have a __set_checked__ function).
+To uncheck parent Nodes when any child Node has been unchecked, traverse from the child Node upward toward the root Node, unchecking Nodes as you go. The example below extracts the current Node (the child Node) and if it is unchecked, walks back through the Node hierarchy moving from parent to parent. Also node the condition of the **while()** loop. The condition checks that the parent has a **set_checked** function. If **set_checked** is undefined, we are at the root Node (the treeview itself does not have a **set_checked** function).
 
 ````ASPNET
 	

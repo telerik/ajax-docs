@@ -1,6 +1,6 @@
 ---
 title: Using the TargetControls Collection
-page_title: Using the TargetControls Collection | UI for ASP.NET AJAX Documentation
+page_title: Using the TargetControls Collection | RadTooltip for ASP.NET AJAX Documentation
 description: Using the TargetControls Collection
 slug: tooltip/radtooltipmanager/using-the-targetcontrols-collection
 tags: using,the,targetcontrols,collection
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The __TargetControls__ collection specifies a list of IDs of server controls (or ClientIDs of HTML elements, depending on the __IsClientID__ flag) that should be 'tooltipified'. By default the __RadToolTipManager__ assumes that the IDs in the __TargetControls__ collection are the server IDs of the controls. If the IDs are client-side, (e.g. when elements are pure HTML and not server controls), then the __IsClientID__ property should be set to __True__.The __Value__ property is a string, containg information, specific for this target. Is can be used to pass additional information to the __OnAjaxUpdate__ event handler so that context-specific content can be populated in the tooltip.
+The **TargetControls** collection specifies a list of IDs of server controls (or ClientIDs of HTML elements, depending on the **IsClientID** flag) that should be 'tooltipified'. By default the **RadToolTipManager** assumes that the IDs in the **TargetControls** collection are the server IDs of the controls. If the IDs are client-side, (e.g. when elements are pure HTML and not server controls), then the **IsClientID** property should be set to **True**.The **Value** property is a string, containg information, specific for this target. Is can be used to pass additional information to the **OnAjaxUpdate** event handler so that context-specific content can be populated in the tooltip.
 
 >tip If targets are declared for the manager setting AutoTooltipify to true will not have effect because explicit targets have higher priority.
 >
@@ -48,7 +48,7 @@ The __TargetControls__ collection specifies a list of IDs of server controls (or
 ````
 
 
-When adding controls with client-side IDs to the __TargetControls__ collection use the overloaded version of the __Add()__ that takes two arguments. The second argument represents the __IsClientID__property.
+When adding controls with client-side IDs to the **TargetControls** collection use the overloaded version of the **Add()** that takes two arguments. The second argument represents the **IsClientID**property.
 
 
 
@@ -70,7 +70,7 @@ When adding controls with client-side IDs to the __TargetControls__ collection u
 ````
 
 
-The __Value__ property is a string that can, for example, originate from the datasource. It passes information to the event handlers:
+The **Value** property is a string that can, for example, originate from the datasource. It passes information to the event handlers:
 
 
 

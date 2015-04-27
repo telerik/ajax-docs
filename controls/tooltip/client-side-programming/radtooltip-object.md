@@ -1,6 +1,6 @@
 ---
 title: RadToolTip Object
-page_title: RadToolTip Object | UI for ASP.NET AJAX Documentation
+page_title: RadToolTip Object | RadTooltip for ASP.NET AJAX Documentation
 description: RadToolTip Object
 slug: tooltip/client-side-programming/radtooltip-object
 tags: radtooltip,object
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The following table lists the most important members of the client-side __RadToolTip__ object:
+The following table lists the most important members of the client-side **RadToolTip** object:
 
 ## RadToolTip
 
@@ -21,11 +21,11 @@ The following table lists the most important members of the client-side __RadToo
 
 | Name | Description |
 | ------ | ------ |
-| __get_animation__ |Gets animation value for the tooltip. Returns an object of type __Telerik.Web.UI.ToolTipAnimation__ .|
-| __get_animationDuration__ |Gets animation duration value for the tooltip in milliseconds.|
-| __get_autoCloseDelay__ |Gets delay in milliseconds for the tooltip to close automatically|
-| __get_content__ |Gets the current content of the tooltip|
-| __get_contentElement__ |Gets the content element of the tooltip
+| **get_animation** |Gets animation value for the tooltip. Returns an object of type **Telerik.Web.UI.ToolTipAnimation** .|
+| **get_animationDuration** |Gets animation duration value for the tooltip in milliseconds.|
+| **get_autoCloseDelay** |Gets delay in milliseconds for the tooltip to close automatically|
+| **get_content** |Gets the current content of the tooltip|
+| **get_contentElement** |Gets the content element of the tooltip
 
 ````JavaScript
 	
@@ -36,26 +36,26 @@ The following table lists the most important members of the client-side __RadToo
 ````
 
 |
-| __get_contentScrolling__ |Gets a new overflow value for the tooltip content area. Returns an object of type __Telerik.Web.UI.ToolTipScrolling__ |
-| __get_enableShadow__ |Gets a value indicating whether the tooltip should have a shadow.|
-| __get_height__ |Gets height of the tooltip|
-| __get_hideDelay__ |Gets the delay in milliseconds before the tooltip is hidden.|
-| __get_ignoreAltAttribute__ |Gets a value indicating whether the Alt attribute of the target should be ignored.|
-| __get_modal__ |Gets whether the tooltip is displayed modally.|
-| __get_manualClose__ |Gets whether the tooltip requires to be hidden manually by the user, or hides automatically|
-| __get_mouseTrailing__ |Gets whether the tooltip should follows the mouse movement or not|
-| __get_offsetX__ |Gets the horizontal offset relative to its target element|
-| __get_offsetY__ |Gets the vertical offset relative to its target element|
-| __get_overlay__ |Gets a value indicating whether the tooltip has an overlay element.|
-| __get_popupElement__ |Returns a reference to the DOM object of the popup element.|
-| __get_position__ |Gets the relative position to the tooltip to its target element. Returns an object of type __Telerik.Web.UI.ToolTipPosition__ .|
-| __get_relativeTo__ |Gets whether the tooltip is positioned relative to the mouse or relative to the tooltip. Returns an object of type __Telerik.Web.UI.ToolTipRelativeDisplay__ .|
-| __get_showCallout__ |Gets whether the tooltip callout image will be displayed|
-| __get_showDelay__ |Gets delay in milliseconds for the tooltip to appear|
-| __get_sticky__ |Gets whether the tooltip is hidden when the mouse leaves the target control, or the tooltip itself|
-| __get_targetControl__ |Gets a reference to the tooltip target element|
-| __get_targetControlID__ |Gets the target control of the tooltip|
-| __get_text__ |Gets the text of the tooltip
+| **get_contentScrolling** |Gets a new overflow value for the tooltip content area. Returns an object of type **Telerik.Web.UI.ToolTipScrolling** |
+| **get_enableShadow** |Gets a value indicating whether the tooltip should have a shadow.|
+| **get_height** |Gets height of the tooltip|
+| **get_hideDelay** |Gets the delay in milliseconds before the tooltip is hidden.|
+| **get_ignoreAltAttribute** |Gets a value indicating whether the Alt attribute of the target should be ignored.|
+| **get_modal** |Gets whether the tooltip is displayed modally.|
+| **get_manualClose** |Gets whether the tooltip requires to be hidden manually by the user, or hides automatically|
+| **get_mouseTrailing** |Gets whether the tooltip should follows the mouse movement or not|
+| **get_offsetX** |Gets the horizontal offset relative to its target element|
+| **get_offsetY** |Gets the vertical offset relative to its target element|
+| **get_overlay** |Gets a value indicating whether the tooltip has an overlay element.|
+| **get_popupElement** |Returns a reference to the DOM object of the popup element.|
+| **get_position** |Gets the relative position to the tooltip to its target element. Returns an object of type **Telerik.Web.UI.ToolTipPosition** .|
+| **get_relativeTo** |Gets whether the tooltip is positioned relative to the mouse or relative to the tooltip. Returns an object of type **Telerik.Web.UI.ToolTipRelativeDisplay** .|
+| **get_showCallout** |Gets whether the tooltip callout image will be displayed|
+| **get_showDelay** |Gets delay in milliseconds for the tooltip to appear|
+| **get_sticky** |Gets whether the tooltip is hidden when the mouse leaves the target control, or the tooltip itself|
+| **get_targetControl** |Gets a reference to the tooltip target element|
+| **get_targetControlID** |Gets the target control of the tooltip|
+| **get_text** |Gets the text of the tooltip
 
 ````JavaScript
 	
@@ -65,11 +65,11 @@ The following table lists the most important members of the client-side __RadToo
 ````
 
 |
-| __get_title__ |Gets the title of the tooltip|
-| __get_width__ |Gets width of the tooltip|
-| __set_animation__ |Sets animation value for the tooltip. Requires a parameter of type __Telerik.Web.UI.ToolTipAnimation__ . The possible values of this enumerator are __None__ , __Resize__ , __Fade__ , __Slide__ , __FlyIn__ . For example: radToolTip.set_animation(Telerik.Web.UI.ToolTipAnimation.None);|
-| __set_animationDuration__ |Sets animation duration value for the tooltip in milliseconds.|
-| __set_autoCloseDelay__ |Sets delay in milliseconds for the tooltip to close automatically
+| **get_title** |Gets the title of the tooltip|
+| **get_width** |Gets width of the tooltip|
+| **set_animation** |Sets animation value for the tooltip. Requires a parameter of type **Telerik.Web.UI.ToolTipAnimation** . The possible values of this enumerator are **None** , **Resize** , **Fade** , **Slide** , **FlyIn** . For example: radToolTip.set_animation(Telerik.Web.UI.ToolTipAnimation.None);|
+| **set_animationDuration** |Sets animation duration value for the tooltip in milliseconds.|
+| **set_autoCloseDelay** |Sets delay in milliseconds for the tooltip to close automatically
 
 ````JavaScript
 	
@@ -79,13 +79,13 @@ The following table lists the most important members of the client-side __RadToo
 ````
 
 |
-| __set_content__ |Sets new content to the tooltip|
-| __set_contentElement__ |Sets a new content element to the tooltip|
-| __set_contentScrolling__ |Sets a new overflow value for the tooltip content area. Requires a parameter of type __Telerik.Web.UI.ToolTipScrolling__ . The possible values are __Auto__ , __None__ , __X__ , __Y__ , __Both__ , __Default__ . For example: radToolTip.set_contentScrolling(Telerik.Web.UI.ToolTipScrolling.None);|
-| __set_enableShadow__ |Sets a value indicating whether the tooltip should have a shadow.|
-| __set_height__ |Sets new height to the tooltip|
-| __set_hideDelay__ |Sets the delay in milliseconds before the tooltip is hidden.|
-| __set_hideEvent__ |Sets on what event the tooltip should hide
+| **set_content** |Sets new content to the tooltip|
+| **set_contentElement** |Sets a new content element to the tooltip|
+| **set_contentScrolling** |Sets a new overflow value for the tooltip content area. Requires a parameter of type **Telerik.Web.UI.ToolTipScrolling** . The possible values are **Auto** , **None** , **X** , **Y** , **Both** , **Default** . For example: radToolTip.set_contentScrolling(Telerik.Web.UI.ToolTipScrolling.None);|
+| **set_enableShadow** |Sets a value indicating whether the tooltip should have a shadow.|
+| **set_height** |Sets new height to the tooltip|
+| **set_hideDelay** |Sets the delay in milliseconds before the tooltip is hidden.|
+| **set_hideEvent** |Sets on what event the tooltip should hide
 
 ````JavaScript
 	
@@ -94,27 +94,27 @@ The following table lists the most important members of the client-side __RadToo
 	
 ````
 
-The __HideEvent__ property is an enum and can take the following values, which names describe the effect when they are set:
+The **HideEvent** property is an enum and can take the following values, which names describe the effect when they are set:
 
-*  __Default__ 
+*  **Default** 
 
-*  __FromCode__ 
+*  **FromCode** 
 
-*  __LeaveTargetAndToolTip__ 
+*  **LeaveTargetAndToolTip** 
 
-*  __LeaveToolTip__ 
+*  **LeaveToolTip** 
 
-*  __ManualClose__ |
-| __set_ignoreAltAttribute__ |Sets a value indicating whether the Alt attribute of the target should be ignored.|
-| __set_modal__ |Sets whether the tooltip is displayed modally.|
-| __set_mouseTrailing__ |Sets whether the tooltip should follows the mouse movement or not|
-| __set_offsetX__ |Sets a new horizontal offset relative to its target element|
-| __set_offsetY__ |Sets a new vertical offset relative to its target element|
-| __set_overlay__ |Sets a value indicating whether the tooltip will create an overlay element.|
-| __set_position__ |Sets a new relative position to the tooltip according to its target element. Requires an object of type __Telerik.Web.UI.ToolTipPosition__ as a parameter. The possible values are __TopLeft__ , __TopCenter__ , __TopRight__ , __MiddleLeft__ , __Center__ , __MiddleRight__ , __BottomLeft__ , __BottomCenter__ , __BottomRight__ . For example: radToolTip.set_position(Telerik.Web.UI.ToolTipPosition.BottomRight);|
-| __set_relativeTo__ |Sets whether the tooltip is positioned relative to the mouse or relative to the tooltip. Requires a parameter of type __Telerik.Web.UI.ToolTipRelativeDisplay__ . Its possible values are __Mouse__ , __Element__ , __BrowserWindow__ . For example: radToolTip.set_position(Telerik.Web.UI.ToolTipRelativeDisplay.Element);|
-| __set_showCallout__ |Sets whether the tooltip callout image will be displayed|
-| __set_showDelay__ |Sets delay in milliseconds for the tooltip to appear
+*  **ManualClose** |
+| **set_ignoreAltAttribute** |Sets a value indicating whether the Alt attribute of the target should be ignored.|
+| **set_modal** |Sets whether the tooltip is displayed modally.|
+| **set_mouseTrailing** |Sets whether the tooltip should follows the mouse movement or not|
+| **set_offsetX** |Sets a new horizontal offset relative to its target element|
+| **set_offsetY** |Sets a new vertical offset relative to its target element|
+| **set_overlay** |Sets a value indicating whether the tooltip will create an overlay element.|
+| **set_position** |Sets a new relative position to the tooltip according to its target element. Requires an object of type **Telerik.Web.UI.ToolTipPosition** as a parameter. The possible values are **TopLeft** , **TopCenter** , **TopRight** , **MiddleLeft** , **Center** , **MiddleRight** , **BottomLeft** , **BottomCenter** , **BottomRight** . For example: radToolTip.set_position(Telerik.Web.UI.ToolTipPosition.BottomRight);|
+| **set_relativeTo** |Sets whether the tooltip is positioned relative to the mouse or relative to the tooltip. Requires a parameter of type **Telerik.Web.UI.ToolTipRelativeDisplay** . Its possible values are **Mouse** , **Element** , **BrowserWindow** . For example: radToolTip.set_position(Telerik.Web.UI.ToolTipRelativeDisplay.Element);|
+| **set_showCallout** |Sets whether the tooltip callout image will be displayed|
+| **set_showDelay** |Sets delay in milliseconds for the tooltip to appear
 
 ````JavaScript
 	
@@ -124,7 +124,7 @@ The __HideEvent__ property is an enum and can take the following values, which n
 ````
 
 |
-| __set_showEvent__ |Sets on what event the tooltip should show
+| **set_showEvent** |Sets on what event the tooltip should show
 
 ````JavaScript
 	
@@ -133,18 +133,18 @@ The __HideEvent__ property is an enum and can take the following values, which n
 	
 ````
 
-The __ShowEvent__ property is an enum and can take the following values, which names describe the effect when they are set:
+The **ShowEvent** property is an enum and can take the following values, which names describe the effect when they are set:
 
-*  __OnMouseOver__ 
+*  **OnMouseOver** 
 
-*  __OnClick__ 
+*  **OnClick** 
 
-*  __OnRightClick__ 
+*  **OnRightClick** 
 
-*  __OnFocus__ 
+*  **OnFocus** 
 
-*  __FromCode__ |
-| __set_targetControl__ |Sets a new target control to the tooltip
+*  **FromCode** |
+| **set_targetControl** |Sets a new target control to the tooltip
 
 ````JavaScript
 	
@@ -158,7 +158,7 @@ The __ShowEvent__ property is an enum and can take the following values, which n
 ````
 
 When showing a tooltip after changing its target on the client a small timeout is needed.|
-| __set_targetControlID__ |Sets a new target control to the tooltip
+| **set_targetControlID** |Sets a new target control to the tooltip
 
 ````JavaScript
 	
@@ -171,7 +171,7 @@ When showing a tooltip after changing its target on the client a small timeout i
 ````
 
 When showing a tooltip after changing its target on the client a small timeout is needed.|
-| __set_text__ |Sets new text to the tooltip
+| **set_text** |Sets new text to the tooltip
 
 ````JavaScript
 	
@@ -181,7 +181,7 @@ When showing a tooltip after changing its target on the client a small timeout i
 ````
 
 |
-| __set_title__ |Sets a new title to the tooltip
+| **set_title** |Sets a new title to the tooltip
 
 ````JavaScript
 	
@@ -191,16 +191,16 @@ When showing a tooltip after changing its target on the client a small timeout i
 ````
 
 |
-| __set_width__ |Sets new width to the tooltip|
+| **set_width** |Sets new width to the tooltip|
 
 
 >caption Public Methods
 
 | Name | Description |
 | ------ | ------ |
-| __clone__ |Creates a clone of the tooltip for another targetElement, and possibly with a different text to display.|
-| __getManualCloseButton__ |Returns a reference to the DOM object of the tooltip's close button when HideEvent="ManualClose".|
-| __hide__ |Hides the tooltip
+| **clone** |Creates a clone of the tooltip for another targetElement, and possibly with a different text to display.|
+| **getManualCloseButton** |Returns a reference to the DOM object of the tooltip's close button when HideEvent="ManualClose".|
+| **hide** |Hides the tooltip
 
 ````JavaScript
 	
@@ -213,7 +213,7 @@ When showing a tooltip after changing its target on the client a small timeout i
 ````
 
 |
-| __isVisible__ |Returns whether the tooltip control is currently visible
+| **isVisible** |Returns whether the tooltip control is currently visible
 
 ````JavaScript
 	
@@ -227,8 +227,8 @@ When showing a tooltip after changing its target on the client a small timeout i
 ````
 
 |
-| __isModal__ |Returns whether the tooltip control is displaying modally.|
-| __show__ |Displays the tooltip at the proper position, relative to its target control.
+| **isModal** |Returns whether the tooltip control is displaying modally.|
+| **show** |Displays the tooltip at the proper position, relative to its target control.
 
 ````JavaScript
 	
@@ -251,8 +251,8 @@ If the target of the tooltip has been changed with JavaScript, a small timeout i
 ````
 
 |
-| __showLoadingMessage__ |Displays the loading message.|
-| __updateLocation__ |Calculates the tooltip position according to its targets and repositions the tooltip accordingly.|
+| **showLoadingMessage** |Displays the loading message.|
+| **updateLocation** |Calculates the tooltip position according to its targets and repositions the tooltip accordingly.|
 
 For a live demo see [Client Side API](http://demos.telerik.com/aspnet-ajax/ToolTip/Examples/ClientSideAPI/DefaultCS.aspx).
 
@@ -261,7 +261,7 @@ For a live demo see [Client Side API](http://demos.telerik.com/aspnet-ajax/ToolT
 
 | Name | Description |
 | ------ | ------ |
-| __getCurrent__ |Gets a reference to the tooltip element that is currently open.
+| **getCurrent** |Gets a reference to the tooltip element that is currently open.
 
 ````JavaScript
 	

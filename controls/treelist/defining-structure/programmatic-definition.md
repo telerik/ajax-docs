@@ -1,6 +1,6 @@
 ---
 title: Programmatic Definition
-page_title: Programmatic Definition | UI for ASP.NET AJAX Documentation
+page_title: Programmatic Definition | RadTreeList for ASP.NET AJAX Documentation
 description: Programmatic Definition
 slug: treelist/defining-structure/programmatic-definition
 tags: programmatic,definition
@@ -14,9 +14,9 @@ position: 1
 
 There are many cases where you will need to create the RadTreeList control dynamically. In somescenarios you might want to declare it statically on the page and configure it with server-side code orbuild it entirely in code-behind. Both cases have a few requirements you should follow:
 
-* __Create the RadTreeList entirely in code-behind__ - here you should place allthe code in the __Page_Init__ event handler. Note that the columns have to beadded to the Columns collection after their properties are set.This approach for creating the treelist should be used when *creating TreeListTemplateColumns dynamically* (as well as any other templates).
+* **Create the RadTreeList entirely in code-behind** - here you should place allthe code in the **Page_Init** event handler. Note that the columns have to beadded to the Columns collection after their properties are set.This approach for creating the treelist should be used when *creating TreeListTemplateColumns dynamically* (as well as any other templates).
 
-* __Add the RadTreeList declaration statically in the page mark-up and configure itserver-side__ - configuration is to be done in the __Page_Load__ eventhandler and only on initial load (with Not IsPostBack condition) to avoid adding the same structuretwice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
+* **Add the RadTreeList declaration statically in the page mark-up and configure itserver-side** - configuration is to be done in the **Page_Load** eventhandler and only on initial load (with Not IsPostBack condition) to avoid adding the same structuretwice. In contrast to the scenario above, columns have to be added to the Columns collection before their properties are set.
 
 The samples bellow illustrate both approaches:
 
@@ -326,9 +326,9 @@ The samples bellow illustrate both approaches:
 
 When creating a treelist dynamically that contains a template column, you must create the templates dynamically in	the code-behind and assign them to the ItemTemplate, EditItemTemplate, etc. properties of the column.
 
-To create an ItemTemplate dynamically, you must define a custom class that implements the __ITemplate__ interface.	For an EditItemTemplate and InsertItemTemplate the class that you will build needs to implement __IBindableTemplate__. Then you can assignan instance of the class to the respective property of the TreeListTemplateColumn object.
+To create an ItemTemplate dynamically, you must define a custom class that implements the **ITemplate** interface.	For an EditItemTemplate and InsertItemTemplate the class that you will build needs to implement **IBindableTemplate**. Then you can assignan instance of the class to the respective property of the TreeListTemplateColumn object.
 
->note Column templates must be added in the __Page_Init__ event handler, so that the template controls can be added to the ViewState.
+>note Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the ViewState.
 >
 
 

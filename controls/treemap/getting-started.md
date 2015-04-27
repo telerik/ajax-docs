@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-page_title: Getting Started | UI for ASP.NET AJAX Documentation
+page_title: Getting Started | RadTreeMap for ASP.NET AJAX Documentation
 description: Getting Started
 slug: treemap/getting-started
 tags: getting,started
@@ -12,26 +12,26 @@ position: 1
 
 
 
-The following article demonstrates how you can add a __RadTreeMap__ control with three steps. The end result will be similar to __Figure 1__:
+The following article demonstrates how you can add a **RadTreeMap** control with three steps. The end result will be similar to **Figure 1**:
 >caption Figure 1: RadTreeMap data visualization with three easy steps.
 
 ![treemap-gettingstarted](images/treemap-gettingstarted.png)
 
->note The control visualizes its data in __Squarified AlgorithmType__ as this is the default algorithm type.
+>note The control visualizes its data in **Squarified AlgorithmType** as this is the default algorithm type.
 >
 
 
 ## 
 
-To add a __RadTreeMap__ control into the page, you can simply drag it from the Visual Studio Toolbox into an ASP.NET page with correctly set ScriptManager control. Or you can paste the markup from__Example 1__ into the form element.
+To add a **RadTreeMap** control into the page, you can simply drag it from the Visual Studio Toolbox into an ASP.NET page with correctly set ScriptManager control. Or you can paste the markup from**Example 1** into the form element.
 
-1. Add a __ScriptManager__ control on the Web Form.
+1. Add a **ScriptManager** control on the Web Form.
 
-1. Add a __RadTreeMap__ control on Web Form, with a preferable __Width__ and __Height__:
+1. Add a **RadTreeMap** control on Web Form, with a preferable **Width** and **Height**:
 
-1. Add __RadTreeMapItems__ into the declaration of __RadTreeMap__ and set preferable __Text__ and __Value__. Note that the __Value__ of the items is used for calculation of their ratio, regarding the visualization.
+1. Add **RadTreeMapItems** into the declaration of **RadTreeMap** and set preferable **Text** and **Value**. Note that the **Value** of the items is used for calculation of their ratio, regarding the visualization.
 
-__Example 1__: Simple declaration of a __RadTreeMap__ control.
+**Example 1**: Simple declaration of a **RadTreeMap** control.
 
 
 
@@ -69,6 +69,6 @@ __Example 1__: Simple declaration of a __RadTreeMap__ control.
 ````
 
 
->note All __RadTreeMapItems__ should have one __Parent__ item.
+>note All **RadTreeMapItems** should have one **Parent** item.
 >
 

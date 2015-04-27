@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadTreeView for ASP.NET AJAX Documentation
 description: What is New
 slug: treeview/what-is-new
 tags: what,is,new
@@ -70,9 +70,9 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q1 2009 (Version Number 2009.1.311):
 
-* Added __get_sourceNodes()__ method to the event arguments of the [OnClientNodeDragStart]({%slug treeview/client-side-programming/events/onclientnodedragstart%}) and [OnClientNodeDragging]({%slug treeview/client-side-programming/events/onclientnodedragging%}) event handlers.
+* Added **get_sourceNodes()** method to the event arguments of the [OnClientNodeDragStart]({%slug treeview/client-side-programming/events/onclientnodedragstart%}) and [OnClientNodeDragging]({%slug treeview/client-side-programming/events/onclientnodedragging%}) event handlers.
 
-* Added new property __UseHttpGet__ to the [WebServiceSettings]({%slug treeview/load-on-demand/web-service-binding%}) properties. By default its value is *False*.
+* Added new property **UseHttpGet** to the [WebServiceSettings]({%slug treeview/load-on-demand/web-service-binding%}) properties. By default its value is *False*.
 
 ## What's New in RadTreeView for ASP.NET AJAX Q3 SP2 2008 (Version Number 2008.3.1314):
 
@@ -94,19 +94,19 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * Improved WebService load on demand performance.
 
-* Added __ContentCssClass__ property which is applied at the DIV tag of a RadTreeNode.
+* Added **ContentCssClass** property which is applied at the DIV tag of a RadTreeNode.
 
-* Added new server side methods __FindNodeByText__, __FindNodeByValue__which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindNodeByText**, **FindNodeByValue**which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindNode__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find a Node by some custom criteria.
+* Added a new server side method **FindNode**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find a Node by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnNodeDataBound__, __OnNodeClick__, etc.
+* Added protected virtual methods for server-side events – **OnNodeDataBound**, **OnNodeClick**, etc.
 
-* Support for server-side expressions (<%= %>) in the __NodeTemplate__.
+* Support for server-side expressions (<%= %>) in the **NodeTemplate**.
 
 * Added new client-side event: [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%})
 
-* Animations are using the __jQuery__ library now
+* Animations are using the **jQuery** library now
 
 ## What's New in RadTreeView for ASP.NET AJAX Q2SP1 2008 (Version Number 2008.2.826):
 
@@ -124,11 +124,11 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What's New in RadTreeView for ASP.NET AJAX Q2 Futures (Version Number 2008.1.707):
 
-* [Tri-State CheckBoxes]({%slug treeview/checkboxes/tri-state/tri-state-checkboxes-overview%}) - allows for CheckBoxes of RadTreeView to have three states: __Checked, Unchecked__and __Indeterminate__. The Tri-State behavior of RadTreeView can be controlled by the two new properties:
+* [Tri-State CheckBoxes]({%slug treeview/checkboxes/tri-state/tri-state-checkboxes-overview%}) - allows for CheckBoxes of RadTreeView to have three states: **Checked, Unchecked**and **Indeterminate**. The Tri-State behavior of RadTreeView can be controlled by the two new properties:
 
-* __TriStateCheckBoxes__ - enables the "Tri-State" CheckBoxes (the __CheckBoxes__ property must be also enabled for this functionality to work)
+* **TriStateCheckBoxes** - enables the "Tri-State" CheckBoxes (the **CheckBoxes** property must be also enabled for this functionality to work)
 
-* __CheckChildNodes__ - when enabled all child Nodes of a Node are automatically: Checked if their parent has been Checked and Unchecked if their parent has been Unchecked
+* **CheckChildNodes** - when enabled all child Nodes of a Node are automatically: Checked if their parent has been Checked and Unchecked if their parent has been Unchecked
 
 # See Also
 

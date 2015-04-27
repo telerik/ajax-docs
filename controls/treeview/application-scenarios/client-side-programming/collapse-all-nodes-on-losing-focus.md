@@ -1,6 +1,6 @@
 ---
 title: Collapse All Nodes on Losing Focus
-page_title: Collapse All Nodes on Losing Focus | UI for ASP.NET AJAX Documentation
+page_title: Collapse All Nodes on Losing Focus | RadTreeView for ASP.NET AJAX Documentation
 description: Collapse All Nodes on Losing Focus
 slug: treeview/application-scenarios/client-side-programming/collapse-all-nodes-on-losing-focus
 tags: collapse,all,nodes,on,losing,focus
@@ -16,11 +16,11 @@ position: 13
 
 In some cases it might be more convenient for the end user if TreeView Nodes automatically collapse when the user sets the focus on different control on the page.
 
-__Example:__
+**Example:**
 
-1. Invoke a custom script in the __onload__ attribute of the __<body>__ tag on the page which holds the TreeView. The script should obtain the TreeView div object on the client and relate a client function for Nodes collapsing to its __onblur__ event.____
+1. Invoke a custom script in the **onload** attribute of the **<body>** tag on the page which holds the TreeView. The script should obtain the TreeView div object on the client and relate a client function for Nodes collapsing to its **onblur** event.
 
-1. Collapse the expanded Nodes in the TreeView using the __collapse()__ function from the Client API of the control.
+1. Collapse the expanded Nodes in the TreeView using the **collapse()** function from the Client API of the control.
 
 ````ASPNET
 	    <body ms_positioning="GridLayout" onload="ProceedRequest()">
@@ -55,6 +55,6 @@ __Example:__
 
 
 
->note The RadTreeView control should has its __TabIndex__ property set so that the __onblur__ event of its __div__ element fires.
+>note The RadTreeView control should has its **TabIndex** property set so that the **onblur** event of its **div** element fires.
 >
 

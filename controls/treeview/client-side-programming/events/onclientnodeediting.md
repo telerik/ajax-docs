@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeEditing
-page_title: OnClientNodeEditing | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeEditing | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeEditing
 slug: treeview/client-side-programming/events/onclientnodeediting
 tags: onclientnodeediting
@@ -14,7 +14,7 @@ position: 9
 
 ## 
 
-The __OnClientNodeEditing__ client-side event is called when editing is completed and before the OnClientNodeEdit event fires. This event can be canceled.
+The **OnClientNodeEditing** client-side event is called when editing is completed and before the OnClientNodeEdit event fires. This event can be canceled.
 
 The event handler receives parameters:
 
@@ -22,13 +22,13 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the node being edited. You can call get_text() from this node reference to get the "old" text prior to editing.
+* **get_node()** retrieves a reference to the node being edited. You can call get_text() from this node reference to get the "old" text prior to editing.
 
-* __get_newText()__ returns the new text entered by the user.
+* **get_newText()** returns the new text entered by the user.
 
-* __get_domEvent()__ retrieves a DOM event object of the node edit.
+* **get_domEvent()** retrieves a DOM event object of the node edit.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
 
 The example below demonstrates preventing non-numeric entry to a node.
 

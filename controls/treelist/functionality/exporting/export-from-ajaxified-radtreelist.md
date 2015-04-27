@@ -1,6 +1,6 @@
 ---
 title: Export from Ajaxified RadTreeList
-page_title: Export from Ajaxified RadTreeList | UI for ASP.NET AJAX Documentation
+page_title: Export from Ajaxified RadTreeList | RadTreeList for ASP.NET AJAX Documentation
 description: Export from Ajaxified RadTreeList
 slug: treelist/functionality/exporting/export-from-ajaxified-radtreelist
 tags: export,from,ajaxified,radtreelist
@@ -12,7 +12,7 @@ position: 1
 
 
 
-Generally speaking, the exporting feature of the control works with regular postbacks only. The reason is that the treelist prepares additional information available on postback when performing the export operation. When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpObject* - that is why the communication between the browser and the server fails. To bypass the limitation you can wire the [OnRequestStart](1DA8C181-3B68-4113-8F82-4A4F9076F5BF) event of the __RadAjaxPanel__ or the __RadAjaxManager__, determine whether the target control is ajaxified and explicitly disable the AJAX in order to export with a regular postback:
+Generally speaking, the exporting feature of the control works with regular postbacks only. The reason is that the treelist prepares additional information available on postback when performing the export operation. When the action is performed through asynchronous requests, this information can not be passed through the *XMLHttpObject* - that is why the communication between the browser and the server fails. To bypass the limitation you can wire the [OnRequestStart](1DA8C181-3B68-4113-8F82-4A4F9076F5BF) event of the **RadAjaxPanel** or the **RadAjaxManager**, determine whether the target control is ajaxified and explicitly disable the AJAX in order to export with a regular postback:
 
 
 
@@ -47,7 +47,7 @@ Generally speaking, the exporting feature of the control works with regular post
 ````
 
 
-If you export from a *Button* that is nested in a __MS AJAX UpdatePanel__, you should set the button as a *PostBackTrigger*:
+If you export from a *Button* that is nested in a **MS AJAX UpdatePanel**, you should set the button as a *PostBackTrigger*:
 
 ````ASPNET
 	        <Triggers>         

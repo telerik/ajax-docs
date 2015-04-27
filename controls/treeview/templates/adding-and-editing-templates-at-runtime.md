@@ -1,6 +1,6 @@
 ---
 title: Adding and Editing Templates at Runtime
-page_title: Adding and Editing Templates at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Adding and Editing Templates at Runtime | RadTreeView for ASP.NET AJAX Documentation
 description: Adding and Editing Templates at Runtime
 slug: treeview/templates/adding-and-editing-templates-at-runtime
 tags: adding,and,editing,templates,at,runtime
@@ -14,10 +14,10 @@ position: 4
 
 ## 
 
-You can also add Templates to __RadTreeView__ at runtime, using the __NodeTemplate__ property. This property is of type __ITemplate__, so you must assign an object that implements that interface as a value:
+You can also add Templates to **RadTreeView** at runtime, using the **NodeTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
 
 >note The TreeNodes should be dynamically added so that Templates can be defined at run time.
->Also, the __Nodes should be bound__ to be able to eval DataBinder expressions. In other words, you should call the __DataBind__ method of the RadTreeView object or bind the Nodes that are about to use __DataBinder.Eval__ . You can bind a specific node by calling the __DataBind__ method of this specific Node.
+>Also, the **Nodes should be bound** to be able to eval DataBinder expressions. In other words, you should call the **DataBind** method of the RadTreeView object or bind the Nodes that are about to use **DataBinder.Eval** . You can bind a specific node by calling the **DataBind** method of this specific Node.
 >
 
 
@@ -105,7 +105,7 @@ You can also add Templates to __RadTreeView__ at runtime, using the __NodeTempla
 ````
 
 
-If you want to add different templates to specific nodes, based on some property or value for instance, the best way is to use the __TemplateNeeded__ event.
+If you want to add different templates to specific nodes, based on some property or value for instance, the best way is to use the **TemplateNeeded** event.
 
 
 
@@ -144,7 +144,7 @@ If you want to add different templates to specific nodes, based on some property
 
 If for some reason you cannot define the Template in the OnInit event of the page, or take advantage of the TemplateNeeded event, you could use another approach:
 
->note The Template has to be instantiated for each Node upon a postback. Since the __TextBoxTemplate__ class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Node.
+>note The Template has to be instantiated for each Node upon a postback. Since the **TextBoxTemplate** class initializes the Label on InstantiateIn we called the InstantiateIn method of the TextBoxTemplate object for each Node.
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientMouseOut
-page_title: OnClientMouseOut | UI for ASP.NET AJAX Documentation
+page_title: OnClientMouseOut | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientMouseOut
 slug: treeview/client-side-programming/events/onclientmouseout
 tags: onclientmouseout
@@ -14,7 +14,7 @@ position: 23
 
 ## 
 
-The __OnClientMouseOut__client-side event occurs just before the mouse passes out of a node.
+The **OnClientMouseOut**client-side event occurs just before the mouse passes out of a node.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the node.
+* **get_node()** retrieves a reference to the node.
 
-* __get_domEvent()__ retrieves a DOM event object of the mouse movement.
+* **get_domEvent()** retrieves a DOM event object of the mouse movement.
 
 The example below retrieves node text just before the mouse passes out of the node area. The text is displayed in a div.
 

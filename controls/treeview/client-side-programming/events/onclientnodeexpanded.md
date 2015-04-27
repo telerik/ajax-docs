@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeExpanded
-page_title: OnClientNodeExpanded | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeExpanded | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeExpanded
 slug: treeview/client-side-programming/events/onclientnodeexpanded
 tags: onclientnodeexpanded
@@ -14,9 +14,9 @@ position: 7
 
 ## 
 
-The __OnClientNodeExpanded__ client-side event occurs after a parent node expands to display child nodes.
+The **OnClientNodeExpanded** client-side event occurs after a parent node expands to display child nodes.
 
->caution Calling the client-side __expand()__ or __set_expanded(true)__ method does not fire __OnClientNodeExpanding__ and __OnClientNodeExpanded__ client-side events. More information is available[[!] here]({%slug treeview/troubleshooting/expanding-nodes%}).
+>caution Calling the client-side **expand()** or **set_expanded(true)** method does not fire **OnClientNodeExpanding** and **OnClientNodeExpanded** client-side events. More information is available[[!] here]({%slug treeview/troubleshooting/expanding-nodes%}).
 >
 
 
@@ -26,9 +26,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the node expand.
+* **get_domEvent()** retrieves a DOM event object of the node expand.
 
 The example below displays the text for the parent node and a count of child nodes.
 

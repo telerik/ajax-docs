@@ -1,6 +1,6 @@
 ---
 title: Loading XML Content
-page_title: Loading XML Content | UI for ASP.NET AJAX Documentation
+page_title: Loading XML Content | RadTreeView for ASP.NET AJAX Documentation
 description: Loading XML Content
 slug: treeview/data-binding/loading-xml-content
 tags: loading,xml,content
@@ -29,7 +29,7 @@ You can load an XML content file to define your Tree. The XML file should be str
 
 ## Loading from an XML file
 
-Create an XML file with content that complies with the rules described above and call the __LoadContentFile()__ method to load the Nodes, passing in the path to the file:
+Create an XML file with content that complies with the rules described above and call the **LoadContentFile()** method to load the Nodes, passing in the path to the file:
 
 
 >caption 
@@ -113,7 +113,7 @@ Create an XML file with content that complies with the rules described above and
 
 
 
-A button click event handler calls the __LoadContentFile()__ method:
+A button click event handler calls the **LoadContentFile()** method:
 
 
 
@@ -136,7 +136,7 @@ A button click event handler calls the __LoadContentFile()__ method:
 
 ## Loading from an XML string
 
-Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML()__ method to populate the TreeView from the string:
+Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXML()** method to populate the TreeView from the string:
 
 
 

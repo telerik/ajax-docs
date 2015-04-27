@@ -1,6 +1,6 @@
 ---
 title: Aggregates
-page_title: Aggregates | UI for ASP.NET AJAX Documentation
+page_title: Aggregates | RadTreeList for ASP.NET AJAX Documentation
 description: Aggregates
 slug: treelist/column/aggregates
 tags: aggregates

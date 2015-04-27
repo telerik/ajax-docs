@@ -1,6 +1,6 @@
 ---
 title: Setting  the CSS Class of Buttons
-page_title: Setting  the CSS Class of Buttons | UI for ASP.NET AJAX Documentation
+page_title: Setting  the CSS Class of Buttons | RadToolBar for ASP.NET AJAX Documentation
 description: Setting  the CSS Class of Buttons
 slug: toolbar/appearance-and-styling/setting--the-css-class-of-buttons
 tags: setting,,the,css,class,of,buttons
@@ -12,27 +12,27 @@ position: 2
 
 
 
-__RadToolBarItem__ objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual buttons in the toolbar without using a [custom skin]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%}).
+**RadToolBarItem** objects have a number of properties whose value is the name of a CSS class. These properties let you alter the appearance of individual buttons in the toolbar without using a [custom skin]({%slug toolbar/appearance-and-styling/tutorial-creating-a-custom-skin%}).
 
 The CSS class properties are
 
-* __CssClass__: controls the appearance of the button in all states.
+* **CssClass**: controls the appearance of the button in all states.
 
-* __OuterCssClass__: controls the appearance of the button's outmost (<LI>) element. Added in Q1 2010 release
+* **OuterCssClass**: controls the appearance of the button's outmost (<LI>) element. Added in Q1 2010 release
 
-* __FocusedCssClass__: controls the appearance of the button when it has focus.
+* **FocusedCssClass**: controls the appearance of the button when it has focus.
 
-* __DisabledCssClass__: controls the appearance of the button when it is disabled.
+* **DisabledCssClass**: controls the appearance of the button when it is disabled.
 
-* __HoveredCssClass__: controls the appearance of the button when the mouse is over it.
+* **HoveredCssClass**: controls the appearance of the button when the mouse is over it.
 
-* __ClickedCssClass__: controls the appearance of the button when it is clicked.
+* **ClickedCssClass**: controls the appearance of the button when it is clicked.
 
-* __CheckedCssClass__ (__RadToolBarButton__ only): controls the appearance of the button when it is in the checked state.
+* **CheckedCssClass** (**RadToolBarButton** only): controls the appearance of the button when it is in the checked state.
 
 To set the CSS class properties of an item at design time, use the [RadToolBar Item Builder]({%slug toolbar/design-time/radtoolbar-item-editor%}).
 
->note The CSS class of a button is applied to the anchor (<a>) tag that represents the button in the rendered HTML output. For more information about the rendered output of __RadToolBar__ , see[Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}).
+>note The CSS class of a button is applied to the anchor (<a>) tag that represents the button in the rendered HTML output. For more information about the rendered output of **RadToolBar** , see[Understanding the Skin CSS File]({%slug toolbar/appearance-and-styling/understanding-the-skin-css-file%}).
 >
 
 
@@ -125,7 +125,7 @@ The following example shows how to use the CssClass property to change the appea
 
 
 
->note Note the use of the __!important__ modifier in the CSS class definitions. This allows the CSS class to affect the appearance of items in spite of a competing definition in the Skin CSS file.
+>note Note the use of the **!important** modifier in the CSS class definitions. This allows the CSS class to affect the appearance of items in spite of a competing definition in the Skin CSS file.
 >
 
 

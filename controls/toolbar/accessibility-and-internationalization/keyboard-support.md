@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadToolBar for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: toolbar/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support

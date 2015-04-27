@@ -1,6 +1,6 @@
 ---
 title: Cross-Page Postback
-page_title: Cross-Page Postback | UI for ASP.NET AJAX Documentation
+page_title: Cross-Page Postback | RadToolBar for ASP.NET AJAX Documentation
 description: Cross-Page Postback
 slug: toolbar/web-pages/cross-page-postback
 tags: cross-page,postback
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-You can have the buttons in your toolbar cause postbacks to a different Web page from the one that contains them. Simply set the __PostBackUrl__ property to the page that should handle the postback. You can set the __PostBackUrl__ for the entire toolbar, or for individual buttons. If you set the __PostBackUrl__ in both places, the URL of the button overrides the setting on the toolbar:
+You can have the buttons in your toolbar cause postbacks to a different Web page from the one that contains them. Simply set the **PostBackUrl** property to the page that should handle the postback. You can set the **PostBackUrl** for the entire toolbar, or for individual buttons. If you set the **PostBackUrl** in both places, the URL of the button overrides the setting on the toolbar:
 
 ````ASPNET
 	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook" PostBackUrl="CrossPage.aspx">
@@ -28,7 +28,7 @@ You can have the buttons in your toolbar cause postbacks to a different Web page
 
 
 
-Once in the second page, you can access the the toolbar (or any other control) on the previous page using the __Page.PreviousPage__ property.
+Once in the second page, you can access the the toolbar (or any other control) on the previous page using the **Page.PreviousPage** property.
 
 
 

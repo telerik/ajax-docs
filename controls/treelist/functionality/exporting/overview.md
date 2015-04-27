@@ -1,6 +1,6 @@
 ---
-title: Exporting Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Exporting Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/functionality/exporting/overview
 tags: overview
@@ -18,9 +18,9 @@ Export to Excel functionality is added since Q1 2012. The corresponding method i
 
 ## Common properties
 
-In addition to the export format's specific properties, the __ExportSettings__ group exposes several common properties:
+In addition to the export format's specific properties, the **ExportSettings** group exposes several common properties:
 
-__ExportOnlyData__ - this is an enumeration with four possible values described below:
+**ExportOnlyData** - this is an enumeration with four possible values described below:
 
 * *DefaultContent* - the whole data and content of the RadTreeList are sent for export,without removing or replacing anything;
 
@@ -30,15 +30,15 @@ __ExportOnlyData__ - this is an enumeration with four possible values described 
 
 * *RemoveAll* - removes all non-text controls.
 
-__IgnorePaging__ - when you enable it, the RadTreeList will rebind before export in order tofetch all the data from your datasource.
+**IgnorePaging** - when you enable it, the RadTreeList will rebind before export in order tofetch all the data from your datasource.
 
-__OpenInNewWindow__ - by default, the exported file will be handled by the program associated with theappropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, youcan enable this property.
+**OpenInNewWindow** - by default, the exported file will be handled by the program associated with theappropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, youcan enable this property.
 
 >note Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
-__FileName__ - This is helpful when you want to give a predefined name for your file. Please note that the file namecannot be longer than 256 symbols. __Unicode__ names are not supported out-of-the-box for *Internet Explorer 6* and *7*. Of course you can manually encode the file name and it will be shown properly in the "*Save*" dialog (*OpenInNewWindow="true"*):
+**FileName** - This is helpful when you want to give a predefined name for your file. Please note that the file namecannot be longer than 256 symbols. **Unicode** names are not supported out-of-the-box for *Internet Explorer 6* and *7*. Of course you can manually encode the file name and it will be shown properly in the "*Save*" dialog (*OpenInNewWindow="true"*):
 
 *HttpUtility.UrlEncode("unicode string", System.Text.Encoding.UTF8);*
 
@@ -67,7 +67,7 @@ The exporting feature works only with regular postbacks. This means that the asy
 
 ## Exporting a large amount of data
 
-We strongly recommend not to export large amounts of data since there is a chance to encounter an exception (*Timeout*or *OutOfMemory*) if more than one user tries to export the same data simultaneously. __RadTreeList__ is not suitable for such scenarios and therefore we suggest that you limit the number of columns and rows.
+We strongly recommend not to export large amounts of data since there is a chance to encounter an exception (*Timeout*or *OutOfMemory*) if more than one user tries to export the same data simultaneously. **RadTreeList** is not suitable for such scenarios and therefore we suggest that you limit the number of columns and rows.
 
 ## Export in SharePoint webpart
 

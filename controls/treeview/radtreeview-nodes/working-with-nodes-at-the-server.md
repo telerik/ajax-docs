@@ -1,6 +1,6 @@
 ---
 title: Working with Nodes at the Server
-page_title: Working with Nodes at the Server | UI for ASP.NET AJAX Documentation
+page_title: Working with Nodes at the Server | RadTreeView for ASP.NET AJAX Documentation
 description: Working with Nodes at the Server
 slug: treeview/radtreeview-nodes/working-with-nodes-at-the-server
 tags: working,with,nodes,at,the,server
@@ -12,7 +12,7 @@ position: 2
 
 
 
-Using the server-side API, you can programmatically add, remove, disable, or select __RadTreeView__ nodes.
+Using the server-side API, you can programmatically add, remove, disable, or select **RadTreeView** nodes.
 
 ## Adding Nodes
 
@@ -46,8 +46,8 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 ![RadTreeView Adding Nodes](images/treeview_addingnodes.png)
 
 >note 
-* All __RadTreeNodes__ have a property called __ParentNode__ containing an instance to the parent __RadTreeNode__ (if any) or __null__ if the parent is the __RadTreeView__ itself(i.e. this node is a root).
-* All __RadTreeNodes__ have an attribute called __TreeView__ containing an instance to the parent __RadTreeView__ .>
+* All **RadTreeNodes** have a property called **ParentNode** containing an instance to the parent **RadTreeNode** (if any) or **null** if the parent is the **RadTreeView** itself(i.e. this node is a root).
+* All **RadTreeNodes** have an attribute called **TreeView** containing an instance to the parent **RadTreeView** .>
 
 
 
@@ -111,7 +111,7 @@ By adding nodes to the RadTreeView Nodes collection or to the Nodes collection o
 
 
 
-You can add multiple nodes at once by using the __AddRange__ method of the RadTreeNodeCollection. The following code creates a new root node and adds all current nodes as a child of that node:
+You can add multiple nodes at once by using the **AddRange** method of the RadTreeNodeCollection. The following code creates a new root node and adds all current nodes as a child of that node:
 
 
 
@@ -135,13 +135,13 @@ You can add multiple nodes at once by using the __AddRange__ method of the RadTr
 
 You can remove nodes by:
 
-* Calling the node's __Remove()__ method.
+* Calling the node's **Remove()** method.
 
-* Calling the Nodes collection __Remove()__ method and passing a reference to the node.
+* Calling the Nodes collection **Remove()** method and passing a reference to the node.
 
-* Calling the Nodes collection __RemoveAt()__ method and passing the index of the node to be removed. Be careful with this last method as the indexing is relative to each Nodes collection. Notice in the code example how the __RemoveAt()__ method is called not from the RadTreeView nodes collection, but through the parent of the node being removed.
+* Calling the Nodes collection **RemoveAt()** method and passing the index of the node to be removed. Be careful with this last method as the indexing is relative to each Nodes collection. Notice in the code example how the **RemoveAt()** method is called not from the RadTreeView nodes collection, but through the parent of the node being removed.
 
-* Calling __Nodes.Clear()__ to remove all nodes at one time.
+* Calling **Nodes.Clear()** to remove all nodes at one time.
 
 
 
@@ -177,7 +177,7 @@ You can remove nodes by:
 
 ## Selecting Nodes
 
-Setting the RadTreeNode __Selected__ property typically highlights the node, depending on the styling of the RadTreeView [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The typical scenario for selecting a node programmatically is first locating the node, then setting its __Selected__ property. The example below uses a LinkButton to trigger finding a node with "Biography" in the text, then selects the node.
+Setting the RadTreeNode **Selected** property typically highlights the node, depending on the styling of the RadTreeView [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The typical scenario for selecting a node programmatically is first locating the node, then setting its **Selected** property. The example below uses a LinkButton to trigger finding a node with "Biography" in the text, then selects the node.
 
 ![RadTreeView Selecting Nodes](images/treeview_selectingingnodes.png)
 
@@ -209,7 +209,7 @@ Setting the RadTreeNode __Selected__ property typically highlights the node, dep
 
 ## Disabling/Enabling Nodes
 
-Setting the RadTreeNode __Enabled__ property to false makes the node inactive and un-clickable. The appearance of the node is typically in a gray or other faint color, depending on the styling of the RadTreeView [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The example below locates the "Books" node and disables all its child nodes.
+Setting the RadTreeNode **Enabled** property to false makes the node inactive and un-clickable. The appearance of the node is typically in a gray or other faint color, depending on the styling of the RadTreeView [skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). The example below locates the "Books" node and disables all its child nodes.
 
 
 >caption 

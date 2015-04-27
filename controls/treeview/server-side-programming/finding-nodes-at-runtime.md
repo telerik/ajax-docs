@@ -1,6 +1,6 @@
 ---
 title: Finding Nodes at Runtime
-page_title: Finding Nodes at Runtime | UI for ASP.NET AJAX Documentation
+page_title: Finding Nodes at Runtime | RadTreeView for ASP.NET AJAX Documentation
 description: Finding Nodes at Runtime
 slug: treeview/server-side-programming/finding-nodes-at-runtime
 tags: finding,nodes,at,runtime
@@ -12,7 +12,7 @@ position: 2
 
 
 
-To find a Node by __Text__, __Value__ or Attribute, use the methods __FindNodeByText()__, __FindNodeByValue()__ and __FindNodeByAttribute()__. Both RadTreeView and RadTreeView.Nodes has all three methods. In addition, RadTreeView has a __FindNodeByUrl()__ method. For a step by step tutorial on using these find methods see [Tutorial: Finding Nodes]({%slug treeview/server-side-programming/tutorial:-finding-nodes%}).
+To find a Node by **Text**, **Value** or Attribute, use the methods **FindNodeByText()**, **FindNodeByValue()** and **FindNodeByAttribute()**. Both RadTreeView and RadTreeView.Nodes has all three methods. In addition, RadTreeView has a **FindNodeByUrl()** method. For a step by step tutorial on using these find methods see [Tutorial: Finding Nodes]({%slug treeview/server-side-programming/tutorial:-finding-nodes%}).
 
 >note To use the code examples below, include a reference to Telerik.Web.UI in the "using" (C#) or the "Imports" (VB) section of code.
 >
@@ -20,7 +20,7 @@ To find a Node by __Text__, __Value__ or Attribute, use the methods __FindNodeBy
 
 ## FindNodeByText()
 
-The example below searches for a Node with a __Text__ property of "Product Categories".
+The example below searches for a Node with a **Text** property of "Product Categories".
 
 
 
@@ -46,7 +46,7 @@ The example below searches for a Node with a __Text__ property of "Product Categ
 
 ## FindNodeByValue()
 
-The example below searches for a Node with a __Value__ property of "1234".
+The example below searches for a Node with a **Value** property of "1234".
 
 
 
@@ -72,7 +72,7 @@ The example below searches for a Node with a __Value__ property of "1234".
 
 ## FindNodeByAttribute()
 
-In the example below several Nodes are added to the RadTreeView. The first Node, "root1" has an attribute added to it. When a button is clicked, the __FindNodeByAttribute()__ method looks for the Node with the identical key and value pair.
+In the example below several Nodes are added to the RadTreeView. The first Node, "root1" has an attribute added to it. When a button is clicked, the **FindNodeByAttribute()** method looks for the Node with the identical key and value pair.
 
 
 

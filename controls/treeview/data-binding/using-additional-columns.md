@@ -1,6 +1,6 @@
 ---
 title: Using Additional Columns
-page_title: Using Additional Columns | UI for ASP.NET AJAX Documentation
+page_title: Using Additional Columns | RadTreeView for ASP.NET AJAX Documentation
 description: Using Additional Columns
 slug: treeview/data-binding/using-additional-columns
 tags: using,additional,columns
@@ -14,9 +14,9 @@ position: 6
 
 ## 
 
-If you need to map additional columns from the Data Source to properties of the RadTreeView Nodes, you can use the __NodeDataBound__ event. The event arguments passed to the event, __e.Node__and __e.Node.DataItem__, hold the instance of the RadTreeView Node being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of the RadTreeView Node. Be sure to cast the __DataItem__ object to the proper data type first.
+If you need to map additional columns from the Data Source to properties of the RadTreeView Nodes, you can use the **NodeDataBound** event. The event arguments passed to the event, **e.Node**and **e.Node.DataItem**, hold the instance of the RadTreeView Node being bound and the **DataItem** to which it is bound. You can map a property from the **DataItem** to the corresponding property of the RadTreeView Node. Be sure to cast the **DataItem** object to the proper data type first.
 
-In the example below, the RadTreeView is bound to a __DataTable__ and the DataItem is of type __DataRowView__. If you were binding to an array of a custom object "Employee", then the __DataItem__ would be cast to the __Employee__ type before using.
+In the example below, the RadTreeView is bound to a **DataTable** and the DataItem is of type **DataRowView**. If you were binding to an array of a custom object "Employee", then the **DataItem** would be cast to the **Employee** type before using.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadTooltip for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: tooltip/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -22,11 +22,11 @@ There are a number of ways you can customize the look & feel of your tooltips:
 
 * To change the way the tooltip initially becomes visible, use the [Animation]({%slug tooltip/appearance-and-styling/animation%}) property.
 
-* To change the look of an individual aspect of the tooltip, use its __CssClass__ property and set up CSS styles as needed.
+* To change the look of an individual aspect of the tooltip, use its **CssClass** property and set up CSS styles as needed.
 
 * To change the initial position of the tooltip use the [Position]({%slug tooltip/getting-started/positioning%}) property which is an enumerator.
 
-* Since Q1 2012 the shadow is enabled by default. You can control it via the __EnableShadow__ property.
+* Since Q1 2012 the shadow is enabled by default. You can control it via the **EnableShadow** property.
 
 # See Also
 

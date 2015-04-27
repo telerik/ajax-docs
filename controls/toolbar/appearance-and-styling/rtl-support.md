@@ -1,6 +1,6 @@
 ---
 title: RTL support
-page_title: RTL support | UI for ASP.NET AJAX Documentation
+page_title: RTL support | RadToolBar for ASP.NET AJAX Documentation
 description: RTL support
 slug: toolbar/appearance-and-styling/rtl-support
 tags: rtl,support
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-__RadToolBar__ includes support for right-to-left locales using the direction attribute. If you set __dir="rtl"__ on the __RadToolBar__ object (or to any parent HTML element), __RadToolBar__ reverses button order and moves the drop-down arrow on __RadToolBarDropDown__ and __RadToolBarSplitButton__ to the left side:
+**RadToolBar** includes support for right-to-left locales using the direction attribute. If you set **dir="rtl"** on the **RadToolBar** object (or to any parent HTML element), **RadToolBar** reverses button order and moves the drop-down arrow on **RadToolBarDropDown** and **RadToolBarSplitButton** to the left side:
 
 
 >caption 

@@ -1,6 +1,6 @@
 ---
 title: Right-To-Left Support
-page_title: Right-To-Left Support | UI for ASP.NET AJAX Documentation
+page_title: Right-To-Left Support | RadTreeView for ASP.NET AJAX Documentation
 description: Right-To-Left Support
 slug: treeview/appearance-and-styling/right-to-left-support
 tags: right-to-left,support
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-RadTreeView supports right-to-left (RTL) language locales. Set the __dir__attribute of the page HTML or div tag to "rtl".
+RadTreeView supports right-to-left (RTL) language locales. Set the **dir**attribute of the page HTML or div tag to "rtl".
 
 
 >caption 

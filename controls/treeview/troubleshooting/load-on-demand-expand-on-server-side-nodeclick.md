@@ -1,6 +1,6 @@
 ---
 title: Load On Demand Expand on Server-side NodeClick
-page_title: Load On Demand Expand on Server-side NodeClick | UI for ASP.NET AJAX Documentation
+page_title: Load On Demand Expand on Server-side NodeClick | RadTreeView for ASP.NET AJAX Documentation
 description: Load On Demand Expand on Server-side NodeClick
 slug: treeview/troubleshooting/load-on-demand-expand-on-server-side-nodeclick
 tags: load,on,demand,expand,on,server-side,nodeclick
@@ -14,29 +14,29 @@ position: 13
 
 ## 
 
-__Case:__
+**Case:**
 
 A Load On Demand TreeView for which:
 
-* The __ExpandMode__ for Load On Demand Nodes is either __ServerSideCallBack__ or __WebService__.
+* The **ExpandMode** for Load On Demand Nodes is either **ServerSideCallBack** or **WebService**.
 
-* The __NodeClick__ server-side event is handled.
+* The **NodeClick** server-side event is handled.
 
-* A Node is expanded when clicked (in either the __OnClientNodeClicking__ or __OnClientNodeClicked__event handlers).
+* A Node is expanded when clicked (in either the **OnClientNodeClicking** or **OnClientNodeClicked**event handlers).
 
-__Problem:__
+**Problem:**
 
-Due to timing issues in case __ExpandMode__ for the clicked Node is:
+Due to timing issues in case **ExpandMode** for the clicked Node is:
 
-* __ServerSideCallBack__ - the Node does not expand after the postback although its child Nodes are loaded.
+* **ServerSideCallBack** - the Node does not expand after the postback although its child Nodes are loaded.
 
-* __WebService__ - the Web Method fails.
+* **WebService** - the Web Method fails.
 
-__Resolution:__
+**Resolution:**
 
-Ensure that the __NodeClick__ event fires after the Node finishes loading its Nodes:
+Ensure that the **NodeClick** event fires after the Node finishes loading its Nodes:
 
-1. Expand the Node in the __OnClientNodeClicking__ event handler. If the Node's __ExpandMode__ is __ServerSideCallBack__ or __WebService__ and the Node does not have children, cancel the event. Below is an example:
+1. Expand the Node in the **OnClientNodeClicking** event handler. If the Node's **ExpandMode** is **ServerSideCallBack** or **WebService** and the Node does not have children, cancel the event. Below is an example:
 
 ````JavaScript
 	    function onClientNodeClicking(sender, eventArgs){
@@ -55,7 +55,7 @@ Ensure that the __NodeClick__ event fires after the Node finishes loading its No
 
 
 
-1. Handle the __OnClientNodePopulated__event and select the expanded Node in the event handler, like this:
+1. Handle the **OnClientNodePopulated**event and select the expanded Node in the event handler, like this:
 
 ````JavaScript
 	    function onClientNodePopulated(sender, eventArgs){ 

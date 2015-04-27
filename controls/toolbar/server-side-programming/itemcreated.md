@@ -1,6 +1,6 @@
 ---
 title: ItemCreated
-page_title: ItemCreated | UI for ASP.NET AJAX Documentation
+page_title: ItemCreated | RadToolBar for ASP.NET AJAX Documentation
 description: ItemCreated
 slug: toolbar/server-side-programming/itemcreated
 tags: itemcreated
@@ -14,15 +14,15 @@ position: 2
 
 ## 
 
-The __ItemCreated__ event occurs for each new item that is added to the __Items__ collection of the toolbar.
+The **ItemCreated** event occurs for each new item that is added to the **Items** collection of the toolbar.
 
-The __ItemCreated__ event handler receives two arguments:
+The **ItemCreated** event handler receives two arguments:
 
-1. The __RadToolBar__ that is loading items. This argument is of type object, but can be cast to the __RadToolBar__ type.
+1. The **RadToolBar** that is loading items. This argument is of type object, but can be cast to the **RadToolBar** type.
 
-1. An EventArgs object. This object has an __Item__ property, which provides access to the item that has just been added.
+1. An EventArgs object. This object has an **Item** property, which provides access to the item that has just been added.
 
-Use the __ItemCreated__ event handler to make changes to items as they are added to the toolbar:
+Use the **ItemCreated** event handler to make changes to items as they are added to the toolbar:
 
 
 

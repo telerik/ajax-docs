@@ -1,6 +1,6 @@
 ---
 title: Conditional Formatting
-page_title: Conditional Formatting | UI for ASP.NET AJAX Documentation
+page_title: Conditional Formatting | RadTreeList for ASP.NET AJAX Documentation
 description: Conditional Formatting
 slug: treelist/appearance-and-styling/conditional-formatting
 tags: conditional,formatting
@@ -14,9 +14,9 @@ position: 3
 
 ## 
 
-__RadTreeList__ provides the option to conditionally modify the appearance ofa given elements. For example, it might be convenient to change the background of the cells that containnegative values.
+**RadTreeList** provides the option to conditionally modify the appearance ofa given elements. For example, it might be convenient to change the background of the cells that containnegative values.
 
-The following example shows how to handle the __ItemDataBound__ event inorder to apply a custom color/decoration to RadTreeList cell/row.
+The following example shows how to handle the **ItemDataBound** event inorder to apply a custom color/decoration to RadTreeList cell/row.
 
 
 

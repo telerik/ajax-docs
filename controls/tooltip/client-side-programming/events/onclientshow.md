@@ -1,6 +1,6 @@
 ---
 title: OnClientShow
-page_title: OnClientShow | UI for ASP.NET AJAX Documentation
+page_title: OnClientShow | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientShow
 slug: tooltip/client-side-programming/events/onclientshow
 tags: onclientshow
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __OnClientShow__ client-side event occurs as the tooltip is displayed. The event cannot be canceled.
+The **OnClientShow** client-side event occurs as the tooltip is displayed. The event cannot be canceled.
 
 The event handler receives parameters:
 

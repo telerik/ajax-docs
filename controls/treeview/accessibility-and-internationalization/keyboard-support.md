@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | UI for ASP.NET AJAX Documentation
+page_title: Keyboard Support | RadTreeView for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: treeview/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -12,25 +12,25 @@ position: 0
 
 
 
-This article demonstrates the usage and the advantages that the __RadTrewView__ provides through its KeyBoard Support.
+This article demonstrates the usage and the advantages that the **RadTrewView** provides through its KeyBoard Support.
 
 ## 
 
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). RadTreeView provides two aspects of keyboard support:
 
-__1. Access Keys__ - a key combination that allows the end-user to focus on the respective __RadTreeView__ (e.g. Alt+W) and subsequently use the arrow keys for navigation. The access key is defined using the __AccessKey__ property (you need to set __TabIndex__ as well if you want to use __AccessKey__).
+**1. Access Keys** - a key combination that allows the end-user to focus on the respective **RadTreeView** (e.g. Alt+W) and subsequently use the arrow keys for navigation. The access key is defined using the **AccessKey** property (you need to set **TabIndex** as well if you want to use **AccessKey**).
 
 
 
-The __TabIndex__ attribute (__RadTreeView__ class) specifies the tab stop index of the __RadTreeView__, e.g. when set to 3 the user will have to press Tab three times to focus on the treeview.
+The **TabIndex** attribute (**RadTreeView** class) specifies the tab stop index of the **RadTreeView**, e.g. when set to 3 the user will have to press Tab three times to focus on the treeview.
 
->note To focus the RadTreeView in FireFox use the __Shift + Alt + AccessKey__ (or Alt + AccessKey for Chrome and Safari).
+>note To focus the RadTreeView in FireFox use the **Shift + Alt + AccessKey** (or Alt + AccessKey for Chrome and Safari).
 >
 
 
 
 
-__Example 1__: Setting the __TabIndex__ and __AccessKey__ properties for __RadTrewView__
+**Example 1**: Setting the **TabIndex** and **AccessKey** properties for **RadTrewView**
 
 ````ASPNET
 	    <telerik:RadTreeView runat="server" TabIndex="1" AccessKey="W" ... /> </para>
@@ -41,44 +41,44 @@ __Example 1__: Setting the __TabIndex__ and __AccessKey__ properties for __RadTr
 
 ![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport01g.gif)
 
-__2. Arrow Key Navigation and Key Commands__ - allows end-users to navigate around the treeview structure using the arrow keys, as well as to use the Plus, Minus, Space, Enter, and F2 keys for additional control:
+**2. Arrow Key Navigation and Key Commands** - allows end-users to navigate around the treeview structure using the arrow keys, as well as to use the Plus, Minus, Space, Enter, and F2 keys for additional control:
 
-* The __Left Arrow__will collapse the current node or navigate to the parent node if the current node is already collapsed.
+* The **Left Arrow**will collapse the current node or navigate to the parent node if the current node is already collapsed.
 
-* The __Right Arrow__ will expand the current node or navigate to the first child node if the current node is already expanded.
+* The **Right Arrow** will expand the current node or navigate to the first child node if the current node is already expanded.
 
-* The __Plus/Minus__ keys will expand/collapse the current node.
+* The **Plus/Minus** keys will expand/collapse the current node.
 
-* The __Up/Down__ arrows will move the node selection one node up/down respectively.
+* The **Up/Down** arrows will move the node selection one node up/down respectively.
 
-* The __Enter__ key will select the node and fire its event.
+* The **Enter** key will select the node and fire its event.
 
 * Typing a letter key moves focus to the next instance of a visible node whose title begins with that letter.
 
-* The __Space__ key will check/uncheck the current node (in case it has a checkbox).
+* The **Space** key will check/uncheck the current node (in case it has a checkbox).
 
-* __Home__ key moves to the top node in the treeview.
+* **Home** key moves to the top node in the treeview.
 
-* __End__ key moves to the last visible node in the treeview.
+* **End** key moves to the last visible node in the treeview.
 
-* __Ctrl+Arrow__ to an item with the keyboard focuses the item (but does not select it). Previous selections are maintained, provided that the "Ctrl" key is not released or that some other keyboard function is not performed.
+* **Ctrl+Arrow** to an item with the keyboard focuses the item (but does not select it). Previous selections are maintained, provided that the "Ctrl" key is not released or that some other keyboard function is not performed.
 
-* __Shift+Up Arrow__ extends selection up one node.
+* **Shift+Up Arrow** extends selection up one node.
 
-* __Shift+Down Arrow__ extends selection down one node.
+* **Shift+Down Arrow** extends selection down one node.
 
-* __Shift+Home__ extends selection up to the top-most node.
+* **Shift+Home** extends selection up to the top-most node.
 
-* __Shift+PageDown__ extends selection down to the last node.
+* **Shift+PageDown** extends selection down to the last node.
 
-* __Ctrl+Space__ with focus on an item toggles the selection of the item.
+* **Ctrl+Space** with focus on an item toggles the selection of the item.
 
-* The __F2__ key will make the node text editable (in case the __AllowNodeEditing__ property is set to __true__). Click "Enter" to confirm, "Esc to cancel.
+* The **F2** key will make the node text editable (in case the **AllowNodeEditing** property is set to **true**). Click "Enter" to confirm, "Esc to cancel.
 
-* __*(asterisk)__ on keypad expands all nodes.
+* **(asterisk)** on keypad expands all nodes.
 
-__Example 2__: Demonstration of some of the key Navigations of the __RadTrewView__.![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport02.gif)
+**Example 2**: Demonstration of some of the key Navigations of the **RadTrewView**.![RadTreeView ArrowKey Navigation](images/treeview_keyboardsupport02.gif)
 
->note The __RadTreeView__ KeyBoard Support is implemented base on the[ W3 Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
+>note The **RadTreeView** KeyBoard Support is implemented base on the[ W3 Specification. ](http://www.w3.org/TR/2010/WD-wai-aria-practices-20100916/#TreeView)
 >
 

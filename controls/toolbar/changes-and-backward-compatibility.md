@@ -1,6 +1,6 @@
 ---
 title: Changes and backward compatibility
-page_title: Changes and backward compatibility | UI for ASP.NET AJAX Documentation
+page_title: Changes and backward compatibility | RadToolBar for ASP.NET AJAX Documentation
 description: Changes and backward compatibility
 slug: toolbar/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility

@@ -1,6 +1,6 @@
 ---
 title: Using Custom Attributes Declaratively
-page_title: Using Custom Attributes Declaratively | UI for ASP.NET AJAX Documentation
+page_title: Using Custom Attributes Declaratively | RadTreeView for ASP.NET AJAX Documentation
 description: Using Custom Attributes Declaratively
 slug: treeview/custom-attributes/using-custom-attributes-declaratively
 tags: using,custom,attributes,declaratively
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-Custom attributes can be added to a node by simply adding an HTML attribute to a RadTreeNode tag. Then access the attribute in [server-side]({%slug treeview/custom-attributes/using-custom-attributes-at-the-server%}) or [client-side]({%slug treeview/custom-attributes/using-custom-attributes-at-the-client%}) code. The example below defines a custom "ScientificName" attribute. The attribute is accessed in the server-side NodeClick event through the __Attributes__ property.
+Custom attributes can be added to a node by simply adding an HTML attribute to a RadTreeNode tag. Then access the attribute in [server-side]({%slug treeview/custom-attributes/using-custom-attributes-at-the-server%}) or [client-side]({%slug treeview/custom-attributes/using-custom-attributes-at-the-client%}) code. The example below defines a custom "ScientificName" attribute. The attribute is accessed in the server-side NodeClick event through the **Attributes** property.
 
 
 >caption 
@@ -56,7 +56,7 @@ Custom attributes can be added to a node by simply adding an HTML attribute to a
 ````
 
 
->caution The custom attribute's name should not be an __HTML reserved word__ . Please see[this article]({%slug treeview/troubleshooting/custom-attributes%})for more information.
+>caution The custom attribute's name should not be an **HTML reserved word** . Please see[this article]({%slug treeview/troubleshooting/custom-attributes%})for more information.
 >
 
 

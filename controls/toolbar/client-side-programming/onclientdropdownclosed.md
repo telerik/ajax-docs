@@ -1,6 +1,6 @@
 ---
 title: OnClientDropDownClosed
-page_title: OnClientDropDownClosed | UI for ASP.NET AJAX Documentation
+page_title: OnClientDropDownClosed | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientDropDownClosed
 slug: toolbar/client-side-programming/onclientdropdownclosed
 tags: onclientdropdownclosed
@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-The __OnClientDropDownClosed__ client-side event occurs immediately after the drop-down has closed.
+The **OnClientDropDownClosed** client-side event occurs immediately after the drop-down has closed.
 
 The event handler receives two parameters:
 
@@ -22,9 +22,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the __RadToolBarItem__ that was closed. In this case this is a drop-down.
+* **get_item** returns a reference to the **RadToolBarItem** that was closed. In this case this is a drop-down.
 
-* __get_domEvent__ - returns the browser's event object.
+* **get_domEvent** - returns the browser's event object.
 
 You can use this event to respond when the list of child buttons closes.
 

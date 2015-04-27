@@ -1,6 +1,6 @@
 ---
 title: OnDataBinding
-page_title: OnDataBinding | UI for ASP.NET AJAX Documentation
+page_title: OnDataBinding | RadTreeMap for ASP.NET AJAX Documentation
 description: OnDataBinding
 slug: treemap/server-side-programming/events/ondatabinding
 tags: ondatabinding

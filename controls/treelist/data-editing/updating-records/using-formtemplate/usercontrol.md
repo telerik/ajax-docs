@@ -1,6 +1,6 @@
 ---
 title: Using FormTemplate/UserControl
-page_title: Using FormTemplate/UserControl | UI for ASP.NET AJAX Documentation
+page_title: Using FormTemplate/UserControl | RadTreeList for ASP.NET AJAX Documentation
 description: Using FormTemplate/UserControl
 slug: treelist/data-editing/updating-records/using-formtemplate/usercontrol
 tags: using,formtemplate/usercontrol
@@ -16,7 +16,7 @@ This article will introduce you to how you can proceed when updating values in R
 
 ## Updating values using FormTemplate
 
-Once the __UpdateCommand__ event of RadTreeList is fired, you can access the __TreeListEditFormItem__ through the event arguments (e.Item).Now you only need to use the __FindControl(controlId)__ method and extract the values from the respective controls.
+Once the **UpdateCommand** event of RadTreeList is fired, you can access the **TreeListEditFormItem** through the event arguments (e.Item).Now you only need to use the **FindControl(controlId)** method and extract the values from the respective controls.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Expand Disabled Node
-page_title: Expand Disabled Node | UI for ASP.NET AJAX Documentation
+page_title: Expand Disabled Node | RadTreeView for ASP.NET AJAX Documentation
 description: Expand Disabled Node
 slug: treeview/application-scenarios/client-side-programming/expand-disabled-node
 tags: expand,disabled,node
@@ -14,11 +14,11 @@ position: 8
 
 ## 
 
-__HOW-TO__Have a disabled node which can be expanded and collapsed, but not clicked.
+**HOW-TO**Have a disabled node which can be expanded and collapsed, but not clicked.
 
-__DESCRIPTION__Disabled nodes cannot be selected, expanded and collapsed by design. Sometimes you might need a node which looks like disabled, cannot be selected, but still be expandable and collapsible.
+**DESCRIPTION**Disabled nodes cannot be selected, expanded and collapsed by design. Sometimes you might need a node which looks like disabled, cannot be selected, but still be expandable and collapsible.
 
-__SOLUTION__To achieve the task we will leave the node enabled, but we will add an additional CSS class ("rtDisabled") to its parentElement. This will give the node a "disabled" look. We will assign a category "Disabled" to the node so we can distinguish it from the others. To prevent selecting that node we will subscribe to the [OnClientNodeClicking]({%slug treeview/client-side-programming/events/onclientnodeclicking%}) event and cancel the event if that node is clicked.
+**SOLUTION**To achieve the task we will leave the node enabled, but we will add an additional CSS class ("rtDisabled") to its parentElement. This will give the node a "disabled" look. We will assign a category "Disabled" to the node so we can distinguish it from the others. To prevent selecting that node we will subscribe to the [OnClientNodeClicking]({%slug treeview/client-side-programming/events/onclientnodeclicking%}) event and cancel the event if that node is clicked.
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" OnClientNodeClicking="OnClientNodeClickingHandler"

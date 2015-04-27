@@ -1,6 +1,6 @@
 ---
 title: Overview
-page_title: Overview | RadTreeList for ASP.NET AJAX Documentation
+page_title: RadTreeList Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/overview
 tags: overview

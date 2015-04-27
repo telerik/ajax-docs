@@ -1,6 +1,6 @@
 ---
 title: CSS Classes
-page_title: CSS Classes | UI for ASP.NET AJAX Documentation
+page_title: CSS Classes | RadTooltip for ASP.NET AJAX Documentation
 description: CSS Classes
 slug: tooltip/appearance-and-styling/css-classes
 tags: css,classes
@@ -21,34 +21,34 @@ position: 3
 
 | CSS Class | Description |
 | ------ | ------ |
-| __div.RadToolTip__ |RadToolTip Container|
-| __.RadToolTip.rtLoading__ |RadToolTip loading|
-| __div.RadToolTip div.rtCallout__ |RadToolTip tail wrapping class|
-| __div.RadToolTip.rtVisibleCallout div.rtCallout__ |RadToolTip tail wrapping class|
-| __div.RadToolTip table.rtWrapper__ |RadToolTip wrapping control table|
-| __.RadToolTip table.rtWrapper td.rtWrapperTopLeft__ |RadToolTip top left corner|
-| __.RadToolTip table.rtWrapper td.rtWrapperTopRight__ |RadToolTip top right corner|
-| __.RadToolTip table.rtWrapper td.rtWrapperBottomLeft__ |RadToolTip bottom left corner|
-| __.RadToolTip table.rtWrapper td.rtWrapperBottomRight__ |RadToolTip bottom right corner|
-| __div.RadToolTip table.rtWrapper td.rtWrapperTopCenter__ |RadToolTip top central content|
-| __div.RadToolTip table.rtWrapper td.rtWrapperBottomCenter__ |RadToolTip bottom central content|
-| __div.RadToolTip table.rtWrapper td.rtWrapperLeftMiddle__ |RadToolTip left middle|
-| __div.RadToolTip table.rtWrapper td.rtWrapperRightMiddle__ |RadToolTip right middle|
-| __div.RadToolTip table.rtWrapper td.rtWrapperContent__ |RadToolTip content cell|
-| __div.RadToolTip div.rtTitlebar__ |RadToolTip title bar|
-| __div.RadToolTip a.rtCloseButton__ |RadToolTip close button normal state|
-| __div.RadToolTip_rtl a.rtCloseButton:hover__ |RadToolTip close button hovered state|
-| __div.RadToolTip div.rtCallout__ |RadToolTip callout button dimensions|
-| __div.RadToolTip .rtCalloutCenter__ |RadToolTip callout center - visibility: hidden|
-| __.RadToolTip .rtCalloutTopLeft__ |RadToolTip callout top left button|
-| __.RadToolTip .rtCalloutTopCenter__ |RadToolTip callout top center button|
-| __.RadToolTip .rtCalloutTopRight__ |RadToolTip callout top right button|
-| __.RadToolTip .rtCalloutBottomCenter__ |RadToolTip callout bottom center button|
-| __.RadToolTip .rtCalloutBottomRight__ |RadToolTip callout bottom right button|
-| __.RadToolTip .rtCalloutBottomLeft__ |RadToolTip callout bottom left button|
-| __.RadToolTip .rtCalloutMiddleLeft__ |RadToolTip callout middle left button|
-| __.RadToolTip .rtCalloutMiddleRight__ |RadToolTip callout middle right button|
-| __.RadToolTip table.rtShadow__ |RadToolTIp Shadows Enabled – the selectors are the same, and the only difference is that the cascade is made via the __table.rtShadow__ class.|
+| **div.RadToolTip** |RadToolTip Container|
+| **.RadToolTip.rtLoading** |RadToolTip loading|
+| **div.RadToolTip div.rtCallout** |RadToolTip tail wrapping class|
+| **div.RadToolTip.rtVisibleCallout div.rtCallout** |RadToolTip tail wrapping class|
+| **div.RadToolTip table.rtWrapper** |RadToolTip wrapping control table|
+| **.RadToolTip table.rtWrapper td.rtWrapperTopLeft** |RadToolTip top left corner|
+| **.RadToolTip table.rtWrapper td.rtWrapperTopRight** |RadToolTip top right corner|
+| **.RadToolTip table.rtWrapper td.rtWrapperBottomLeft** |RadToolTip bottom left corner|
+| **.RadToolTip table.rtWrapper td.rtWrapperBottomRight** |RadToolTip bottom right corner|
+| **div.RadToolTip table.rtWrapper td.rtWrapperTopCenter** |RadToolTip top central content|
+| **div.RadToolTip table.rtWrapper td.rtWrapperBottomCenter** |RadToolTip bottom central content|
+| **div.RadToolTip table.rtWrapper td.rtWrapperLeftMiddle** |RadToolTip left middle|
+| **div.RadToolTip table.rtWrapper td.rtWrapperRightMiddle** |RadToolTip right middle|
+| **div.RadToolTip table.rtWrapper td.rtWrapperContent** |RadToolTip content cell|
+| **div.RadToolTip div.rtTitlebar** |RadToolTip title bar|
+| **div.RadToolTip a.rtCloseButton** |RadToolTip close button normal state|
+| **div.RadToolTip_rtl a.rtCloseButton:hover** |RadToolTip close button hovered state|
+| **div.RadToolTip div.rtCallout** |RadToolTip callout button dimensions|
+| **div.RadToolTip .rtCalloutCenter** |RadToolTip callout center - visibility: hidden|
+| **.RadToolTip .rtCalloutTopLeft** |RadToolTip callout top left button|
+| **.RadToolTip .rtCalloutTopCenter** |RadToolTip callout top center button|
+| **.RadToolTip .rtCalloutTopRight** |RadToolTip callout top right button|
+| **.RadToolTip .rtCalloutBottomCenter** |RadToolTip callout bottom center button|
+| **.RadToolTip .rtCalloutBottomRight** |RadToolTip callout bottom right button|
+| **.RadToolTip .rtCalloutBottomLeft** |RadToolTip callout bottom left button|
+| **.RadToolTip .rtCalloutMiddleLeft** |RadToolTip callout middle left button|
+| **.RadToolTip .rtCalloutMiddleRight** |RadToolTip callout middle right button|
+| **.RadToolTip table.rtShadow** |RadToolTIp Shadows Enabled – the selectors are the same, and the only difference is that the cascade is made via the **table.rtShadow** class.|
 
 
 
@@ -61,20 +61,20 @@ position: 3
 
 | CSS Class | Description |
 | ------ | ------ |
-| __div.RadToolTip_rtl a.rtCloseButton__ |RadToolTip right to left close button link normal state|
-| __div.RadToolTip_rtl a.rtCloseButton:hover__ |RadToolTip right to left close button link hover state|
-| __div.RadToolTip_rtl div.rtTitlebar__ |RadToolTip right to left title bar|
-| __div.RadToolTip_rtl table.rtWrapper td.rtWrapperTopCenter div.rtTitlebar div__ |RadToolTip right to left top center title bar|
-| __div.RadToolTip_rtl .rtCalloutCenter__ |RadToolTip right to left callout center|
-| __.RadToolTip_rtl .rtCalloutTopLeft__ |RadToolTip right to left callout top left button|
-| __.RadToolTip_rtl .rtCalloutTopCenter__ |RadToolTip right to left callout top center button|
-| __.RadToolTip_rtl .rtCalloutTopRight__ |RadToolTip right to left callout top right button|
-| __.RadToolTip_rtl .rtCalloutBottomCenter__ |RadToolTip right to left callout bottom center button|
-| __.RadToolTip_rtl .rtCalloutBottomRight__ |RadToolTip right to left callout bottom right button|
-| __.RadToolTip_rtl .rtCalloutBottomLeft__ |RadToolTip right to left callout bottom left button|
-| __.RadToolTip_rtl .rtCalloutMiddleLeft__ |RadToolTip right to left callout middle left button|
-| __.RadToolTip_rtl .rtCalloutMiddleRight__ |RadToolTip right to left callout middle right button|
-| __div.RadToolTip_rtl .rtShadow__ |RadToolTIp Shadows Enabled – the selectors are the same, and the only difference is that the cascade is made via the __.rtShadow__ class.|
+| **div.RadToolTip_rtl a.rtCloseButton** |RadToolTip right to left close button link normal state|
+| **div.RadToolTip_rtl a.rtCloseButton:hover** |RadToolTip right to left close button link hover state|
+| **div.RadToolTip_rtl div.rtTitlebar** |RadToolTip right to left title bar|
+| **div.RadToolTip_rtl table.rtWrapper td.rtWrapperTopCenter div.rtTitlebar div** |RadToolTip right to left top center title bar|
+| **div.RadToolTip_rtl .rtCalloutCenter** |RadToolTip right to left callout center|
+| **.RadToolTip_rtl .rtCalloutTopLeft** |RadToolTip right to left callout top left button|
+| **.RadToolTip_rtl .rtCalloutTopCenter** |RadToolTip right to left callout top center button|
+| **.RadToolTip_rtl .rtCalloutTopRight** |RadToolTip right to left callout top right button|
+| **.RadToolTip_rtl .rtCalloutBottomCenter** |RadToolTip right to left callout bottom center button|
+| **.RadToolTip_rtl .rtCalloutBottomRight** |RadToolTip right to left callout bottom right button|
+| **.RadToolTip_rtl .rtCalloutBottomLeft** |RadToolTip right to left callout bottom left button|
+| **.RadToolTip_rtl .rtCalloutMiddleLeft** |RadToolTip right to left callout middle left button|
+| **.RadToolTip_rtl .rtCalloutMiddleRight** |RadToolTip right to left callout middle right button|
+| **div.RadToolTip_rtl .rtShadow** |RadToolTIp Shadows Enabled – the selectors are the same, and the only difference is that the cascade is made via the **.rtShadow** class.|
 
 # See Also[](09C9E617-F53F-4A6F-8335-065A6A4D9775)
 

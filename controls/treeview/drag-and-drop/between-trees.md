@@ -1,6 +1,6 @@
 ---
 title: Between Trees
-page_title: Between Trees | UI for ASP.NET AJAX Documentation
+page_title: Between Trees | RadTreeView for ASP.NET AJAX Documentation
 description: Between Trees
 slug: treeview/drag-and-drop/between-trees
 tags: between,trees
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-RadTreeView handles dragging to other RadTreeViews. Set the __EnableDragAndDrop__ property of the RadTreeView that should allow dragging.
+RadTreeView handles dragging to other RadTreeViews. Set the **EnableDragAndDrop** property of the RadTreeView that should allow dragging.
 
->note In the __OnNodeDrop__ event, the __RadTreeNodeDragDropEventArgs SourceDragNode__ will still be the node from the RadTreeView from where the node is being dragged. The __DestDragNode__ will be the node in the destination treeview. You can confirm this behavior by examining each node's __TreeView.ID__ property.
+>note In the **OnNodeDrop** event, the **RadTreeNodeDragDropEventArgs SourceDragNode** will still be the node from the RadTreeView from where the node is being dragged. The **DestDragNode** will be the node in the destination treeview. You can confirm this behavior by examining each node's **TreeView.ID** property.
 >
 
 
-In the example below, both RadTreeViews have their __EnableDragAndDrop__ property set to __True__. Both RadTreeViews hook their __OnNodeDrop__ to the same event handler. In the screenshot for this example, the second RadTreeView "Tree 2" is located directly below the first. Dragging a Node from "Tree 2" to the first tree causes the Node to be moved to the destination Node's __Nodes__ collection.
+In the example below, both RadTreeViews have their **EnableDragAndDrop** property set to **True**. Both RadTreeViews hook their **OnNodeDrop** to the same event handler. In the screenshot for this example, the second RadTreeView "Tree 2" is located directly below the first. Dragging a Node from "Tree 2" to the first tree causes the Node to be moved to the destination Node's **Nodes** collection.
 
 ![RadTreeView Drag and Drop Between Trees](images/treeview_draganddropbetweentreespng.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable | RadToolBar for ASP.NET AJAX Documentation
 description: Binding to DataTable
 slug: toolbar/data-binding/binding-to-datatable
 tags: binding,to,datatable
@@ -12,13 +12,13 @@ position: 2
 
 
 
-__RadToolBar__ can be bound to __DataSet__, __DataTable__, and __DataView__.
+**RadToolBar** can be bound to **DataSet**, **DataTable**, and **DataView**.
 
 ## Creating the data table in code
 
-The following example illustrates how to bind to a __DataTable__ that is created in code. The same type of logic can easily be applied to a __DataView__ instead:
+The following example illustrates how to bind to a **DataTable** that is created in code. The same type of logic can easily be applied to a **DataView** instead:
 
-1. Create a function that dynamically creates the data source (in this case, a __DataTable__): 
+1. Create a function that dynamically creates the data source (in this case, a **DataTable**): 
 
 
 
@@ -56,7 +56,7 @@ The following example illustrates how to bind to a __DataTable__ that is created
 ````
 
 
-1. Set the __DataSource__ property of the toolbar to the __DataTable__. At the same time, use the __RadToolBar__ properties to specify the fields to use for the __Text__ and __Value__ properties of buttons. Finally, call the __DataBind__ method to bind the toolbar: 
+1. Set the **DataSource** property of the toolbar to the **DataTable**. At the same time, use the **RadToolBar** properties to specify the fields to use for the **Text** and **Value** properties of buttons. Finally, call the **DataBind** method to bind the toolbar: 
 
 
 
@@ -120,9 +120,9 @@ The following example illustrates how to bind to a __DataTable__ that is created
 
 ## Fetching the data from a separate database
 
-You can use a __DataSet__ when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a __DataSet__:
+You can use a **DataSet** when the data comes from a separate database. Just use a data adapter component to assign the data from the database to a **DataSet**:
 
->note When binding to a __DataSet__ component, you can set the __DataMember__ property to identify the __DataTable__ within the __DataSet__ to which the toolbar should be bound.
+>note When binding to a **DataSet** component, you can set the **DataMember** property to identify the **DataTable** within the **DataSet** to which the toolbar should be bound.
 >
 
 

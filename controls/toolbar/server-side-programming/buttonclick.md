@@ -1,6 +1,6 @@
 ---
 title: ButtonClick
-page_title: ButtonClick | UI for ASP.NET AJAX Documentation
+page_title: ButtonClick | RadToolBar for ASP.NET AJAX Documentation
 description: ButtonClick
 slug: toolbar/server-side-programming/buttonclick
 tags: buttonclick
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-The server-side __ButtonClick__event occurs when the user clicks on a button, causing a postback.
+The server-side **ButtonClick**event occurs when the user clicks on a button, causing a postback.
 
-The __ButtonClick__ event handler receives two arguments:
+The **ButtonClick** event handler receives two arguments:
 
-1. The __RadToolBar__ that contains the clicked button. This argument is of type object, but can be cast to the __RadToolBar__ type.
+1. The **RadToolBar** that contains the clicked button. This argument is of type object, but can be cast to the **RadToolBar** type.
 
-1. A __RadToolBarEventArgs__ object. This object has an __Item__ property that you can use to access the button that was clicked.
+1. A **RadToolBarEventArgs** object. This object has an **Item** property that you can use to access the button that was clicked.
 
-Use the __ButtonClick__ event handler to respond when the user clicks a button in the toolbar.
+Use the **ButtonClick** event handler to respond when the user clicks a button in the toolbar.
 
->note  __e.Item__ is of type __RadToolBarItem__ . Therefore, you should first cast the __e.Item__ object to __RadToolBarButton__ type if you need to use the clickedbutton.
+>note  **e.Item** is of type **RadToolBarItem** . Therefore, you should first cast the **e.Item** object to **RadToolBarButton** type if you need to use the clickedbutton.
 >
 
 

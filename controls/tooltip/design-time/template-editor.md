@@ -1,6 +1,6 @@
 ---
 title: Template Editor
-page_title: Template Editor | UI for ASP.NET AJAX Documentation
+page_title: Template Editor | RadTooltip for ASP.NET AJAX Documentation
 description: Template Editor
 slug: tooltip/design-time/template-editor
 tags: template,editor

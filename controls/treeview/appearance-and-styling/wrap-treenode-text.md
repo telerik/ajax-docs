@@ -1,6 +1,6 @@
 ---
 title: Wrap TreeNode Text
-page_title: Wrap TreeNode Text | UI for ASP.NET AJAX Documentation
+page_title: Wrap TreeNode Text | RadTreeView for ASP.NET AJAX Documentation
 description: Wrap TreeNode Text
 slug: treeview/appearance-and-styling/wrap-treenode-text
 tags: wrap,treenode,text
@@ -14,13 +14,13 @@ position: 9
 
 ## 
 
-The text of the tree Nodes can be easily wrapped when needed. For example, if the value applied to the RadTreeView's __Width__ property is smaller than the width of the Nodes.
+The text of the tree Nodes can be easily wrapped when needed. For example, if the value applied to the RadTreeView's **Width** property is smaller than the width of the Nodes.
 
-You can apply __style="white-space:normal"__ directly to the Node or the entire TreeView.
+You can apply **style="white-space:normal"** directly to the Node or the entire TreeView.
 
-If you apply __style="white-space:normal"__ to the whole TreeView, each Node's text will be wrapped when its width exceeds the width of the TreeView.
+If you apply **style="white-space:normal"** to the whole TreeView, each Node's text will be wrapped when its width exceeds the width of the TreeView.
 
-__Example:__
+**Example:**
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" runat="server" LoadingStatusPosition="BeforeNodeText"

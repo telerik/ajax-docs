@@ -1,6 +1,6 @@
 ---
 title: RadToolBarButtonCollection Object
-page_title: RadToolBarButtonCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadToolBarButtonCollection Object | RadToolBar for ASP.NET AJAX Documentation
 description: RadToolBarButtonCollection Object
 slug: toolbar/client-side-programming/radtoolbarbuttoncollection-object
 tags: radtoolbarbuttoncollection,object
@@ -14,11 +14,11 @@ position: 4
 
 ## 
 
-RadToolBar's items can contain __Buttons__, __DropDowns__ and __SplitButtons__. Each __DropDown__ and __SplitButton__ has its __Buttons__ collection so that buttons can be added to these collections.
+RadToolBar's items can contain **Buttons**, **DropDowns** and **SplitButtons**. Each **DropDown** and **SplitButton** has its **Buttons** collection so that buttons can be added to these collections.
 
-The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ method of the __RadToolBarDropDown__ or the __RadToolBarSplitButton__ objects.The following table lists the most important methods.
+The **RadToolBarButtonCollection** object is returned by the **get_buttons** method of the **RadToolBarDropDown** or the **RadToolBarSplitButton** objects.The following table lists the most important methods.
 
->note Changes to the button collection made using these methods do not persist after a postback unless surrounded by a call to the __trackChanges__ and the __commitChanges__ methods of the toolbar object.
+>note Changes to the button collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** and the **commitChanges** methods of the toolbar object.
 >
 
 
@@ -27,7 +27,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadToolBarButton|none|Adds a child button to the collection.|
+| **add** |RadToolBarButton|none|Adds a child button to the collection.|
 
 ````JavaScript
 	
@@ -58,7 +58,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __insert__  | int, RadToolBarButton | none | Inserts the button into the collection at the position defined by the first (index) parameter. |
+|  **insert**  | int, RadToolBarButton | none | Inserts the button into the collection at the position defined by the first (index) parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -87,7 +87,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __remove__  | RadToolBarButton | none | Removes the specified button from the collection. |
+|  **remove**  | RadToolBarButton | none | Removes the specified button from the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -110,7 +110,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __clear__  | none | none | Clears the Buttons collection of all the child buttons it contains. |
+|  **clear**  | none | none | Clears the Buttons collection of all the child buttons it contains. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -127,7 +127,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __getButton__  | int | RadToolBarButton | Returns the button from the collection that resides at the specified index. |
+|  **getButton**  | int | RadToolBarButton | Returns the button from the collection that resides at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -142,7 +142,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __indexOf__  | RadToolBarButton | int | Returns the index of a button. |
+|  **indexOf**  | RadToolBarButton | int | Returns the index of a button. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -159,7 +159,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __removeAt__  | int | none | Removes the button at the specified index. |
+|  **removeAt**  | int | none | Removes the button at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -176,7 +176,7 @@ The __RadToolBarButtonCollection__ object is returned by the __get_buttons__ met
 
 >caption  
 
-|  __get_count__  | none | int | Returns the number of the buttons in the collection. |
+|  **get_count**  | none | int | Returns the number of the buttons in the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

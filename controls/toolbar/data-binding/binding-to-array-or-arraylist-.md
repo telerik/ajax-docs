@@ -1,6 +1,6 @@
 ---
 title: Binding to Array or ArrayList 
-page_title: Binding to Array or ArrayList  | UI for ASP.NET AJAX Documentation
+page_title: Binding to Array or ArrayList  | RadToolBar for ASP.NET AJAX Documentation
 description: Binding to Array or ArrayList 
 slug: toolbar/data-binding/binding-to-array-or-arraylist-
 tags: binding,to,array,or,arraylist,
@@ -12,23 +12,23 @@ position: 1
 
 
 
-You can bind __RadToolBar__ to an object-based data source such as __ObjectDataSource__ or any class that implements the __IEnumerable__ interface.
+You can bind **RadToolBar** to an object-based data source such as **ObjectDataSource** or any class that implements the **IEnumerable** interface.
 
 ## Binding to an object that supports IEnumerable
 
-Instead of going through an __ObjectDataSource__, you can bind __RadToolBar__ directly to any collection that implements the __ICollection__ or __IEnumerable__ interface.Mapping properties of the objects in the collection to properties of the buttons works exactly the same way as when using __ObjectDataSource__.
+Instead of going through an **ObjectDataSource**, you can bind **RadToolBar** directly to any collection that implements the **ICollection** or **IEnumerable** interface.Mapping properties of the objects in the collection to properties of the buttons works exactly the same way as when using **ObjectDataSource**.
 
 To bind directly to a collection, you must bind the toolbar at runtime, using the following steps:
 
 1. Create the collection.
 
-1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that correspond to __RadToolBarButton__ properties.
+1. Add items to the collection. Depending on the type of the collection, these can be strings, or more complex objects with properties that correspond to **RadToolBarButton** properties.
 
-1. Set the __DataSource__ property of __RadToolBar__ to the instance of the collection.
+1. Set the **DataSource** property of **RadToolBar** to the instance of the collection.
 
-1. Call the __DataBind__ method.
+1. Call the **DataBind** method.
 
-The following example shows a toolbar bound to an __ArrayList__. The items in the list are simple strings, so the buttons map their __Text__ property automatically to the strings in the list:
+The following example shows a toolbar bound to an **ArrayList**. The items in the list are simple strings, so the buttons map their **Text** property automatically to the strings in the list:
 
 
 

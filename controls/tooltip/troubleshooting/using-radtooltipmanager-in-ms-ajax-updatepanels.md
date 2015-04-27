@@ -1,6 +1,6 @@
 ---
 title: Using RadToolTipManager in MS AJAX UpdatePanels
-page_title: Using RadToolTipManager in MS AJAX UpdatePanels | UI for ASP.NET AJAX Documentation
+page_title: Using RadToolTipManager in MS AJAX UpdatePanels | RadTooltip for ASP.NET AJAX Documentation
 description: Using RadToolTipManager in MS AJAX UpdatePanels
 slug: tooltip/troubleshooting/using-radtooltipmanager-in-ms-ajax-updatepanels
 tags: using,radtooltipmanager,in,ms,ajax,updatepanels
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-__RadToolTipManager__ fully integrates into MS AJAX __UpdatePanels__. For example, if the UpdatePanel participates in an AJAX request, the developer has a chance to update the TargetControls collection.
+**RadToolTipManager** fully integrates into MS AJAX **UpdatePanels**. For example, if the UpdatePanel participates in an AJAX request, the developer has a chance to update the TargetControls collection.
 
 One common scenario is to place a RadGrid and a RadToolTipManager together in an UpdatePanel and to use the RadToolTipManager to tooltipify grid elements. When a column of the grid is sorted, or some other AJAX event happens, the manager is able to correctly re-tooltipify the grid elements.
 
@@ -22,7 +22,7 @@ One common scenario is to place a RadGrid and a RadToolTipManager together in an
 >
 
 
->caution When the RadToolTipManager is used together with MS AJAX UpdatePanels and its own OnAjaxUpdate event is used, the __UpdateMode__ property of the __UpdatePanel__ wrapping the RadToolTipManager should be set to __Conditional.__ 
+>caution When the RadToolTipManager is used together with MS AJAX UpdatePanels and its own OnAjaxUpdate event is used, the **UpdateMode** property of the **UpdatePanel** wrapping the RadToolTipManager should be set to **Conditional.** 
 >When an UpdatePanel triggers an AJAX update, it causes all UpdatePanels to have their content updated. This is not desirable in this case because it degrades performance and slows AJAX requests unnecessarily. Also, in order to perform its own AJAX update, the RadToolTipManager uses an internal UpdatePanel. Thus, in effect, if the UpdateMode = Conditional is not set on the page UpdatePanels, each showing of a tooltip triggers an AJAX event that updates all panels. This can even result in error if the manager is inside such an UpdatePanel as the system tries to dispose it at the very same time as it is displaying a tooltip.
 >In summary, using RadToolTipManager with MS AJAX UpdatePanels is easy and the integration is seamless in most cases, but in some scenarios UpdateMode = Conditional must be set to ensure proper behavior.
 >

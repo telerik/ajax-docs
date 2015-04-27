@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeDataBound
-page_title: OnClientNodeDataBound | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeDataBound | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeDataBound
 slug: treeview/client-side-programming/events/onclientnodedatabound
 tags: onclientnodedatabound
@@ -14,7 +14,7 @@ position: 19
 
 ## 
 
-The __OnClientDataBound__ event is added in __Q3 2008__ release and fires when a Node is being created during Web Service Load on Demand. The event cannot be canceled.
+The **OnClientDataBound** event is added in **Q3 2008** release and fires when a Node is being created during Web Service Load on Demand. The event cannot be canceled.
 
 The event handler receives the following parameters:
 
@@ -22,13 +22,13 @@ The event handler receives the following parameters:
 
 1. Event arguments with functions:
 
-* __get_dataItem() -__gets a reference to the __DataItem__ (__RadTreeNodeData__ or any other serializable custom class) that the current Node is being bound to.
+* **get_dataItem() -**gets a reference to the **DataItem** (**RadTreeNodeData** or any other serializable custom class) that the current Node is being bound to.
 
-* __get_domEvent()__ - __undefined__for this event.
+* **get_domEvent()** - **undefined**for this event.
 
-* __get_node()__ - gets a reference to the __Node__ that is being bound.
+* **get_node()** - gets a reference to the **Node** that is being bound.
 
-The following example shows how a value is extracted from the __DataItem__ and set as a Custom Attribute to Nodes loaded via a Web Service.
+The following example shows how a value is extracted from the **DataItem** and set as a Custom Attribute to Nodes loaded via a Web Service.
 
 ````JavaScript
 	
@@ -44,7 +44,7 @@ The following example shows how a value is extracted from the __DataItem__ and s
 
 
 
->tip Another usage of the __DataItem__ object is in client-side Templates that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details -[RadControls and ASP.NET Ajax 4.0 Preview](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-23/RadControls_and_ASP_NET_Ajax_4_0_Preview.aspx?ReturnURL=/AtanasKorchev/Posts.aspx%3fPage%3d2).
+>tip Another usage of the **DataItem** object is in client-side Templates that are about to be introduced with the next version of ASP.NET AJAX. See the following blog post for more details -[RadControls and ASP.NET Ajax 4.0 Preview](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-23/RadControls_and_ASP_NET_Ajax_4_0_Preview.aspx?ReturnURL=/AtanasKorchev/Posts.aspx%3fPage%3d2).
 >
 
 

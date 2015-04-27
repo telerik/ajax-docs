@@ -1,6 +1,6 @@
 ---
 title: XLSX and DOCX Format
-page_title: XLSX and DOCX Format | UI for ASP.NET AJAX Documentation
+page_title: XLSX and DOCX Format | RadTreeList for ASP.NET AJAX Documentation
 description: XLSX and DOCX Format
 slug: treelist/functionality/exporting/xlsx-and-docx-format
 tags: xlsx,and,docx,format
@@ -12,7 +12,7 @@ position: 5
 
 
 
-This help article describes the specifics of exporting a __RadTreeList__ control to __XLSX__ and__DOCX__ format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use __xlsx__ export formats, you have to set the__ExportSettings-Excel-Format__ property to __Xlsx__, while __docx__ format does notrequire applying a property.
+This help article describes the specifics of exporting a **RadTreeList** control to **XLSX** and**DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use **xlsx** export formats, you have to set the**ExportSettings-Excel-Format** property to **Xlsx**, while **docx** format does notrequire applying a property.
 
 ````ASPNET
 	        <ExportSettings>
@@ -24,7 +24,7 @@ This help article describes the specifics of exporting a __RadTreeList__ control
 
 ## Formatting
 
-When you set __DataFormatString__ of __RadTreeList__ columns, the format will be applied to the exported file.Note that only the [custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual __RadTreeList__cells values. When __DataFormatString__ is applied, these values will already be formatted which could be prevented by setting the__SuppressColumnDataFormatStrings__ property to true.
+When you set **DataFormatString** of **RadTreeList** columns, the format will be applied to the exported file.Note that only the [custom numeric format strings](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.71%29.aspx) (Example 1)will work because in most scenarios they match the [Microsoft Excel’s custom numeric format](http://office.microsoft.com/en-gb/excel-help/create-a-custom-number-format-HP010342372.aspx). The built-in .NET [standard numeric format strings](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.71%29.aspx) (Example 2) can still beused, but the output will not be as expected. It is important to note, that the exported file is based on the actual **RadTreeList**cells values. When **DataFormatString** is applied, these values will already be formatted which could be prevented by setting the**SuppressColumnDataFormatStrings** property to true.
 
 Example 1:
 
@@ -60,7 +60,7 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 
 ## Styling Columns / Rows / Cells
 
-In order to style the elements of the __RadTreeList__ you could use the standard ASP.NET style properties such as ItemStyle,AlternatingItemStyle, HeaderStyle and FooterStyle to provide a custom style for the items of __RadTreeList__ control.
+In order to style the elements of the **RadTreeList** you could use the standard ASP.NET style properties such as ItemStyle,AlternatingItemStyle, HeaderStyle and FooterStyle to provide a custom style for the items of **RadTreeList** control.
 
 ````ASPNET
 	        <AlternatingItemStyle BorderColor="Red" BorderStyle="Solid" BorderWidth="1px" />
@@ -124,7 +124,7 @@ Another approach is to hook OnInfrastructureExporting event handler and apply th
 
 ## Image Support
 
-Both __xlsx__ and __docx__ support exporting of images. The images are included automatically in theexported document and you do not have to set any specific property. Keep in mind images with an absolute or relative path are supported, but binary images are not.
+Both **xlsx** and **docx** support exporting of images. The images are included automatically in theexported document and you do not have to set any specific property. Keep in mind images with an absolute or relative path are supported, but binary images are not.
 
 ## Limitations
 

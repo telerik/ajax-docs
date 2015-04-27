@@ -1,6 +1,6 @@
 ---
 title: OnClientNodePopulated
-page_title: OnClientNodePopulated | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodePopulated | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodePopulated
 slug: treeview/client-side-programming/events/onclientnodepopulated
 tags: onclientnodepopulated
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientNodePopulated__ client-side event occurs when child nodes are loaded on-demand. The __ExpandMode__ property of the parent node should be __ServerSideCallback__ or __WebService__ for this event to fire.
+The **OnClientNodePopulated** client-side event occurs when child nodes are loaded on-demand. The **ExpandMode** property of the parent node should be **ServerSideCallback** or **WebService** for this event to fire.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the node population.
+* **get_domEvent()** retrieves a DOM event object of the node population.
 
 The example below demonstrates retrieving the parent node that is being populated and also getting information about the child nodes.
 
@@ -61,7 +61,7 @@ The example below demonstrates retrieving the parent node that is being populate
 
 
 
-The server __NodeExpand__ event handler for the RadTreeView defined above:
+The server **NodeExpand** event handler for the RadTreeView defined above:
 
 
 

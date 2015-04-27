@@ -1,6 +1,6 @@
 ---
 title: Adding Images to Buttons
-page_title: Adding Images to Buttons | UI for ASP.NET AJAX Documentation
+page_title: Adding Images to Buttons | RadToolBar for ASP.NET AJAX Documentation
 description: Adding Images to Buttons
 slug: toolbar/appearance-and-styling/adding-images-to-buttons
 tags: adding,images,to,buttons
@@ -14,23 +14,23 @@ position: 1
 
 ## 
 
-Each __RadToolBarItem__ has a set of properties you can use to add images to the buttons in your toolbar. You can simply add a single image to each button, or you can add separate images that reflect the state of the button.
+Each **RadToolBarItem** has a set of properties you can use to add images to the buttons in your toolbar. You can simply add a single image to each button, or you can add separate images that reflect the state of the button.
 
 The following properties let you add images to toolbar buttons:
 
-* __ImageUrl__ specifies an image that is added to the button. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
+* **ImageUrl** specifies an image that is added to the button. This image is always used, unless you set one of the other properties to specify an alternate image to use in a specific state.
 
-* __HoveredImageUrl__ specifies an image that is used when the mouse is over the button.
+* **HoveredImageUrl** specifies an image that is used when the mouse is over the button.
 
-* __ClickedImageUrl__ specifies an image that is used when the user clicks the button.
+* **ClickedImageUrl** specifies an image that is used when the user clicks the button.
 
-* __FocusedImageUrl__ specifies an image that is used when the button has input focus.
+* **FocusedImageUrl** specifies an image that is used when the button has input focus.
 
-* __DisabledImageUrl__ specifies an image that is used when the button is disabled.
+* **DisabledImageUrl** specifies an image that is used when the button is disabled.
 
-* __CheckedImageUrl__ (__RadToolBarButton__ only) specifies an image that is used when the button is checked.
+* **CheckedImageUrl** (**RadToolBarButton** only) specifies an image that is used when the button is checked.
 
-The __ImagePosition__ property specifies where the image appears relative to the text of the button. The possible values are
+The **ImagePosition** property specifies where the image appears relative to the text of the button. The possible values are
 
 * "Left"
 
@@ -40,13 +40,13 @@ The __ImagePosition__ property specifies where the image appears relative to the
 
 * "BelowText"
 
->caution The __ImagePosition__ property only affects the position of images in the toolbar. For buttons that appear in drop-down lists, the image always appears to the left of the text.
+>caution The **ImagePosition** property only affects the position of images in the toolbar. For buttons that appear in drop-down lists, the image always appears to the left of the text.
 >
 
 
 To set the image properties at design time, use the [RadToolBar Item Builder]({%slug toolbar/design-time/radtoolbar-item-editor%}).
 
-The following example adds images (in various positions) to the buttons in a toolbar. Note that the split button takes its image (and text) from the default button in its drop-down list, but uses its own setting for the __ImagePosition__ property:
+The following example adds images (in various positions) to the buttons in a toolbar. Note that the split button takes its image (and text) from the default button in its drop-down list, but uses its own setting for the **ImagePosition** property:
 
 ![ToolBar](images/toolbar_overview.png)
 

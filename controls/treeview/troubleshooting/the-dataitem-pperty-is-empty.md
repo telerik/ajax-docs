@@ -1,6 +1,6 @@
 ---
 title: The DataItem Pperty is Empty
-page_title: The DataItem Pperty is Empty | UI for ASP.NET AJAX Documentation
+page_title: The DataItem Pperty is Empty | RadTreeView for ASP.NET AJAX Documentation
 description: The DataItem Pperty is Empty
 slug: treeview/troubleshooting/the-dataitem-pperty-is-empty
 tags: the,dataitem,pperty,is,empty
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __DataItem__ property is available only during databinding in the __[NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%})__ event:
+The **DataItem** property is available only during databinding in the **[NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%})** event:
 
 
 
@@ -35,4 +35,4 @@ The __DataItem__ property is available only during databinding in the __[NodeDat
 ````
 
 
-You should not use it elsewhere. You can use the __Value__ property or [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) instead.
+You should not use it elsewhere. You can use the **Value** property or [Custom Attributes]({%slug treeview/custom-attributes/custom-attributes-overview%}) instead.

@@ -1,6 +1,6 @@
 ---
 title: Client Templates
-page_title: Client Templates | UI for ASP.NET AJAX Documentation
+page_title: Client Templates | RadTreeMap for ASP.NET AJAX Documentation
 description: Client Templates
 slug: treemap/templates/client-templates
 tags: client,templates
@@ -12,23 +12,23 @@ position: 0
 
 
 
-The following article, demonstrates the techniques of usage of the __RadTreeMap ClientTemplates__
+The following article, demonstrates the techniques of usage of the **RadTreeMap ClientTemplates**
 
 ## 
 
-The __ClientTemplate__ contains mark up and binding expressions, which are evaluated against the __DataItem__ and then rendered as the Item's content on the client. As The __RadTreeMap__ supports only __ClientTemplate__, the control provides the ability to directly evaluate the __DataKeyFields__ in the declaration of the __ClientTemplate__. In such a manner you could visualize any needed data from the underlying data source. You need to simply enumerate the needed fields in the __DataKeyNames__ property of the RadTreeMap, in order for the control to be aware of the fields, which are about to be used from the DataItem. The templates support the following type of expressions which are evaluated at run-time:
+The **ClientTemplate** contains mark up and binding expressions, which are evaluated against the **DataItem** and then rendered as the Item's content on the client. As The **RadTreeMap** supports only **ClientTemplate**, the control provides the ability to directly evaluate the **DataKeyFields** in the declaration of the **ClientTemplate**. In such a manner you could visualize any needed data from the underlying data source. You need to simply enumerate the needed fields in the **DataKeyNames** property of the RadTreeMap, in order for the control to be aware of the fields, which are about to be used from the DataItem. The templates support the following type of expressions which are evaluated at run-time:
 
-* __#=...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
+* **#=...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template.
 
-* __#...#__ - Evaluates the JavaScript code expression inside, but doesn't output value.
+* **#...#** - Evaluates the JavaScript code expression inside, but doesn't output value.
 
-* __#:...#__ - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoded.
+* **#:...#** - Evaluates the JavaScript code expression or a string property from the data item and outputs the result in the template which is HTML encoded.
 
->important Client templates __could not__ contain server-side controls.
+>important Client templates **could not** contain server-side controls.
 >
 
 
-As mentioned above, the __RadTreeMap__ supports only __ClientTemplate__. This is why, you can use the template to evaluate any KeyField from the datasource and use the __DataKeyNames__ property to enumerate them. In the example bellow you could observe how this is achieved using __SqlDataSource__. If you are binding the __RadTreeMap__ from code-behind, you would need to call __DataBind()__, in order to bind the template with the specified KeyFields.
+As mentioned above, the **RadTreeMap** supports only **ClientTemplate**. This is why, you can use the template to evaluate any KeyField from the datasource and use the **DataKeyNames** property to enumerate them. In the example bellow you could observe how this is achieved using **SqlDataSource**. If you are binding the **RadTreeMap** from code-behind, you would need to call **DataBind()**, in order to bind the template with the specified KeyFields.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Loading Items from XML
-page_title: Loading Items from XML | UI for ASP.NET AJAX Documentation
+page_title: Loading Items from XML | RadToolBar for ASP.NET AJAX Documentation
 description: Loading Items from XML
 slug: toolbar/radtoolbar-items/loading-items-from-xml
 tags: loading,items,from,xml
@@ -14,7 +14,7 @@ position: 6
 
 You can easily load the buttons of a toolbar from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <ToolBar>. This node can include attributes for the __RadToolBar__ properties:
+1. The top level consists of a single node, called <ToolBar>. This node can include attributes for the **RadToolBar** properties:
 
 ````XML
 	     
@@ -44,19 +44,19 @@ You can easily load the buttons of a toolbar from an XML source, as long as the 
 
 
 
->tip To discover the way to represent a specific __RadToolBar__ feature in XML, create a __RadToolBar__ with the feature and use the __RadToolBar.GetXml__ method to get the corresponding XML string.
+>tip To discover the way to represent a specific **RadToolBar** feature in XML, create a **RadToolBar** with the feature and use the **RadToolBar.GetXml** method to get the corresponding XML string.
 >
 
 
-Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a __RadToolBar__ object.
+Once you have an XML file of the proper format, or an XML string in the proper format, you can use it to populate a **RadToolBar** object.
 
->note You can also populate __RadToolBar__ from an XML file using an __XmlDataSource__ component. When using __XmlDataSource__ , the XML file does not have to follow the format shown in this topic. For details, see[Binding to ASP DataSource components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}).
+>note You can also populate **RadToolBar** from an XML file using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. For details, see[Binding to ASP DataSource components]({%slug toolbar/data-binding/binding-to-asp-datasource-components%}).
 >
 
 
 ## Loading from an XML file
 
-Create an XML file with content that complies with the rules described above and call the __LoadContentFile__ method to load the items, passing in the path to the file:
+Create an XML file with content that complies with the rules described above and call the **LoadContentFile** method to load the items, passing in the path to the file:
 
 
 
@@ -74,7 +74,7 @@ Create an XML file with content that complies with the rules described above and
 
 ## Loading from an XML string
 
-Create a string with valid XML content (or fetch it from a database, for example) and use the __LoadXML__ method to populate the toolbar from the string:
+Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXML** method to populate the toolbar from the string:
 
 
 

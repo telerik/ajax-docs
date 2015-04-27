@@ -1,6 +1,6 @@
 ---
 title: Events
-page_title: Events | UI for ASP.NET AJAX Documentation
+page_title: Client-side Events | RadToolBar for ASP.NET AJAX Documentation
 description: Events
 slug: toolbar/client-side-programming/events
 tags: events

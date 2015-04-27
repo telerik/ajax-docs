@@ -1,6 +1,6 @@
 ---
 title: Validation
-page_title: Validation | UI for ASP.NET AJAX Documentation
+page_title: Validation | RadTreeList for ASP.NET AJAX Documentation
 description: Validation
 slug: treelist/data-editing/validation
 tags: validation
@@ -16,11 +16,11 @@ position: 7
 
 The validation for the RadTreeList control follows the general logic for validating the input of any other server control.The main logic is to relate the validators to the field(s) of the edit or insert fields. In terms of settings, there are three properties, which are part of the ValidationSettings tag of the control. These are:
 
-* __EnableValidation__ – a Boolean field, which is enabled by default and specifies whether the validation will be enabled for the control.
+* **EnableValidation** – a Boolean field, which is enabled by default and specifies whether the validation will be enabled for the control.
 
-* __CommandsToValidate__- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be overriden.
+* **CommandsToValidate**- the names of the commands to validate. CommandsToValidate is an array which triggers validation for Insert and Update commands by default. If you set for example "Edit" as the only command name which should be validated, default commands (Insert and Update ) will be overriden.
 
-* __ValidationGroup__ – the name of the validation group to which the TreeList control belongs.
+* **ValidationGroup** – the name of the validation group to which the TreeList control belongs.
 
 ## Adding a validator to an edit field in RadTreeList
 

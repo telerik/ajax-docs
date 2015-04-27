@@ -1,6 +1,6 @@
 ---
 title: WCF Service Binding
-page_title: WCF Service Binding | UI for ASP.NET AJAX Documentation
+page_title: WCF Service Binding | RadTreeView for ASP.NET AJAX Documentation
 description: WCF Service Binding
 slug: treeview/load-on-demand/wcf-service-binding
 tags: wcf,service,binding
@@ -14,9 +14,9 @@ position: 5
 
 ## 
 
-As of Q1 2009, RadTreeView supports load on demand from __WCF service__.
+As of Q1 2009, RadTreeView supports load on demand from **WCF service**.
 
-The steps below show how to load the nodes of RadTreeView from WCF service. It shows how to use the __context__ object to pass information from the client to the OperationContract. We will set additional __Attributes__ for every node (in addition to the __Text__ and __Value__ properties) so we can see how to use them in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event.
+The steps below show how to load the nodes of RadTreeView from WCF service. It shows how to use the **context** object to pass information from the client to the OperationContract. We will set additional **Attributes** for every node (in addition to the **Text** and **Value** properties) so we can see how to use them in the [OnClientNodeDataBound]({%slug treeview/client-side-programming/events/onclientnodedatabound%}) event.
 
 
 
@@ -38,7 +38,7 @@ The steps below show how to load the nodes of RadTreeView from WCF service. It s
 
 3. Add the WCF service – right click on your project in the Solution Explorer and select Add New Item.
 
-This is __important__: select the __Ajax-enabled WCF service__ option (do not mix it with WCF Service):
+This is **important**: select the **Ajax-enabled WCF service** option (do not mix it with WCF Service):
 
 
 >caption 
@@ -71,8 +71,8 @@ Clicking the Add button will create the .svc file as well as the code behind fil
 
 
 
->caution These settings are __important__ . If you don't have them correct - you might receive a javascript error:
-> __Method "MethodName" Failed.__ 
+>caution These settings are **important** . If you don't have them correct - you might receive a javascript error:
+> **Method "MethodName" Failed.** 
 >
 
 

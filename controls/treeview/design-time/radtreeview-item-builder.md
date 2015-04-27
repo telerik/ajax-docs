@@ -1,6 +1,6 @@
 ---
 title: RadTreeView Item Builder
-page_title: RadTreeView Item Builder | UI for ASP.NET AJAX Documentation
+page_title: RadTreeView Item Builder | RadTreeView for ASP.NET AJAX Documentation
 description: RadTreeView Item Builder
 slug: treeview/design-time/radtreeview-item-builder
 tags: radtreeview,item,builder
@@ -12,11 +12,11 @@ position: 1
 
 
 
-The __RadTreeView Item Builder__ lets you add, edit, delete and set properties for nodes at design-time.
+The **RadTreeView Item Builder** lets you add, edit, delete and set properties for nodes at design-time.
 
-* From the __RadTreeView__ [Smart Tag]({%slug treeview/design-time/smart-tag%}) , click on the __Build RadTreeView__ link.
+* From the **RadTreeView** [Smart Tag]({%slug treeview/design-time/smart-tag%}) , click on the **Build RadTreeView** link.
 
-* Right-click on the __RadTreeView__ control and select __Build RadTreeView__ from the context menu.
+* Right-click on the **RadTreeView** control and select **Build RadTreeView** from the context menu.
 
 ## RadTreeView Item Builder
 
@@ -45,7 +45,7 @@ The __RadTreeView Item Builder__ lets you add, edit, delete and set properties f
 
 ![RadTreeView Demote Button](images/treeview_designdemote.png) Use the Demote button to make the selected node a child of its preceding sibling.
 
-* Select individual nodes to change their properties using the property pane on the right of the __RadTreeView____Item Builder__.
+* Select individual nodes to change their properties using the property pane on the right of the **RadTreeView Item Builder**.
 
 * 
 >caption 

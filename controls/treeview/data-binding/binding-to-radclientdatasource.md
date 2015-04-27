@@ -1,6 +1,6 @@
 ---
 title: Binding to RadClientDataSource
-page_title: Binding to RadClientDataSource | UI for ASP.NET AJAX Documentation
+page_title: Binding to RadClientDataSource | RadTreeView for ASP.NET AJAX Documentation
 description: Binding to RadClientDataSource
 slug: treeview/data-binding/binding-to-radclientdatasource
 tags: binding,to,radclientdatasource
@@ -12,17 +12,17 @@ position: 8
 
 
 
-This article demonstrates how to bind __RadTreeView__ to __RadClientDataSource__.
+This article demonstrates how to bind **RadTreeView** to **RadClientDataSource**.
 
 ## 
 
-Since __Q2 2014__ RadTreeView can be bound to a __RadClientDataSource__ control. An important aspect of binding to the RadClientDataSource is that the RadTreeView __DataText__ and __DataValue__, __DataFieldID__, __DataFieldParentID__ and __DataNavigateUrlField__ fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadTreeView item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
+Since **Q2 2014** RadTreeView can be bound to a **RadClientDataSource** control. An important aspect of binding to the RadClientDataSource is that the RadTreeView **DataText** and **DataValue**, **DataFieldID**, **DataFieldParentID** and **DataNavigateUrlField** fields should be associated with the custom object properties. Thus you can choose which property value to be shown as RadTreeView item text and value. For reference at the bottom of the web service implementation below you will find the custom class and its properties declaration.
 
 ## 
 
 The code snippet below shows sample configuration of RadTreeView bound to RadClientDataSource. The peculiarity of such scenario comes from the fact that the RadTreeView represents hierarchical data. Considering that fact we expect such type of data to be returned by the service to the RadClientDataSource.
 
->note Initially the RadTreeView control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have __ParentID__ property value to null.
+>note Initially the RadTreeView control requests only the root items data from the RadClientDataSource. In the example below it will check for all items data that have **ParentID** property value to null.
 >
 
 

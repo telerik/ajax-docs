@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenuItemClicking
-page_title: OnClientContextMenuItemClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenuItemClicking | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientContextMenuItemClicking
 slug: treeview/client-side-programming/events/onclientcontextmenuitemclicking
 tags: onclientcontextmenuitemclicking
@@ -14,7 +14,7 @@ position: 27
 
 ## 
 
-The __OnClientContextMenuItemClicking__ client-side event occurs when the user clicks a menu item, but before the __OnClientContextMenuItemClicked__event fires. The event is called just prior to postback or url redirection and can be canceled.
+The **OnClientContextMenuItemClicking** client-side event occurs when the user clicks a menu item, but before the **OnClientContextMenuItemClicked**event fires. The event is called just prior to postback or url redirection and can be canceled.
 
 The event handler receives parameters:
 
@@ -22,13 +22,13 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_menuItem()__ retrieves a reference to the selected context menu item.
+* **get_menuItem()** retrieves a reference to the selected context menu item.
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __set_cancel()__ call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves the DOM event object of the item click.
+* **get_domEvent()** retrieves the DOM event object of the item click.
 
 The example below shows how to cancel the event if the text of the menu item is "Search"
 

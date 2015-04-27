@@ -1,6 +1,6 @@
 ---
 title: Creating Context Menus from XML Files
-page_title: Creating Context Menus from XML Files | UI for ASP.NET AJAX Documentation
+page_title: Creating Context Menus from XML Files | RadTreeView for ASP.NET AJAX Documentation
 description: Creating Context Menus from XML Files
 slug: treeview/context-menus/creating-context-menus-from-xml-files
 tags: creating,context,menus,from,xml,files
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __ContextMenus__ property in RadTreeView for ASP.NET AJAX is a collection of RadTreeViewContextMenu objects. The RadTreeViewContextMenu control inherits the RadContextMenu, which in turn inherits RadMenu.
+The **ContextMenus** property in RadTreeView for ASP.NET AJAX is a collection of RadTreeViewContextMenu objects. The RadTreeViewContextMenu control inherits the RadContextMenu, which in turn inherits RadMenu.
 
 The easiest way to populate a RadTreeViewContextMenu from an XML document is using the following syntax:
 

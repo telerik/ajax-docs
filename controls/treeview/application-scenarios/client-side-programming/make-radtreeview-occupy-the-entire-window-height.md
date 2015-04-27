@@ -1,6 +1,6 @@
 ---
 title: Make RadTreeView Occupy the Entire Window Height
-page_title: Make RadTreeView Occupy the Entire Window Height | UI for ASP.NET AJAX Documentation
+page_title: Make RadTreeView Occupy the Entire Window Height | RadTreeView for ASP.NET AJAX Documentation
 description: Make RadTreeView Occupy the Entire Window Height
 slug: treeview/application-scenarios/client-side-programming/make-radtreeview-occupy-the-entire-window-height
 tags: make,radtreeview,occupy,the,entire,window,height
@@ -36,7 +36,7 @@ You can use the following JavaScript code to achieve the desired effect:
 
 
 
-Add the following attributes to the __<body>__ tag of the page:
+Add the following attributes to the **<body>** tag of the page:
 
 ````ASPNET
 	    <body ms_positioning="GridLayout" onload="resizeTree()" onresize="resizeTree()" topmargin="0"

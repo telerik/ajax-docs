@@ -1,6 +1,6 @@
 ---
 title: Migrating From RadToolBar ASP.NET to ASP.NET AJAX
-page_title: Migrating From RadToolBar ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating From RadToolBar ASP.NET to ASP.NET AJAX | RadToolBar for ASP.NET AJAX Documentation
 description: Migrating From RadToolBar ASP.NET to ASP.NET AJAX
 slug: toolbar/migrating-from-radtoolbar-asp.net-to-asp.net-ajax
 tags: migrating,from,radtoolbar,asp.net,to,asp.net,ajax
@@ -12,7 +12,7 @@ position: 6
 
 
 
-To migrate a Web application from __RadToolBar__ "Classic" to __RadToolBar__ for ASP.NET AJAX you need to follow these steps:
+To migrate a Web application from **RadToolBar** "Classic" to **RadToolBar** for ASP.NET AJAX you need to follow these steps:
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at[http://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx](http://www.asp.net/ajax/documentation/live/InstallingASPNETAJAX.aspx)
 
@@ -22,21 +22,21 @@ To migrate a Web application from __RadToolBar__ "Classic" to __RadToolBar__ for
 
 1. Drag and drop a control from the RadControls for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic __RadToolBar__ directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadToolbar.NET2" %>with the new one of __RadToolBar__ for ASP.NET AJAX:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+1. Replace the classic **RadToolBar** directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadToolbar.NET2" %>with the new one of **RadToolBar** for ASP.NET AJAX:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
 ## Differences between RadToolBar "classic" and RadToolBar for ASP.NET AJAX
 
-__RadToolbar__ for ASP.NET AJAX contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite. These changes are listed below:
+**RadToolbar** for ASP.NET AJAX contains a number of changes because of moving from the ASP.NET to the Ajax framework of the Telerik.Web.UI suite. These changes are listed below:
 
 ## New button types
 
-The types of buttons you can add to the toolbar has been expanded. Instead of a single type of control that the toolbar can contain (__RadToolBarButton__), you can now choose from three button types:
+The types of buttons you can add to the toolbar has been expanded. Instead of a single type of control that the toolbar can contain (**RadToolBarButton**), you can now choose from three button types:
 
-* __RadToolBarButton__
+* **RadToolBarButton**
 
-* __RadToolBarDropDown__
+* **RadToolBarDropDown**
 
-* __RadToolBarSplitButton__
+* **RadToolBarSplitButton**
 
 ## Server-side API changes
 
@@ -44,14 +44,14 @@ In the server-side API, some properties have been removed and a few have changed
 
 ## RadToolbar
 
-The following table lists the changes to the __RadToolBar__ class:
+The following table lists the changes to the **RadToolBar** class:
 
 
 >caption  
 
 | RadToolBar "Classic" | RadToolBar for ASP.NET AJAX |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |ContentFile|use LoadContentFile () instead.|
 |DisplayEnds|-|
 |ImagesDir|use ImageUrl for each item|
@@ -65,20 +65,20 @@ The following table lists the changes to the __RadToolBar__ class:
 |UseFadeEffect|-|
 |AutoPostBack|obsolete|
 |UseFadeEffect|-|
-| __Events__ ||
+| **Events** ||
 |OnClick|ButtonClick|
 |ItemAdded|ItemCreated and ItemDataBound|
 
 ## RadToolBarButton
 
-The following table lists the changes to the __RadToolBarButton__ class:
+The following table lists the changes to the **RadToolBarButton** class:
 
 
 >caption  
 
 | RadToolBar "Classic" | RadToolBar for ASP.NET AJAX |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |BubbleCommandArgument|-|
 |BubbleCommandName|-|
 |ButtonImage|ImageUrl|
@@ -87,24 +87,24 @@ The following table lists the changes to the __RadToolBarButton__ class:
 |Hidden|-|
 |ParentToolbar|ToolBar|
 
->note The RadToolbarButton class for ASP.NET now has the __PostBack__ property which can be set in code-behind to specify which buttons will postback and which will not.
+>note The RadToolbarButton class for ASP.NET now has the **PostBack** property which can be set in code-behind to specify which buttons will postback and which will not.
 >
 
 
 ## Client-side API changes
 
-The [client-side API]({%slug toolbar/client-side-programming/overview%}) has been heavily revised to accommodate new features. In addition, all for ASP.NET AJAX controls follow the MS AJAX naming convention. In order to migrate from __RadToolbar__ "Classic", the method calls and property accessors should use the new convention. A reference table is included below.
+The [client-side API]({%slug toolbar/client-side-programming/overview%}) has been heavily revised to accommodate new features. In addition, all for ASP.NET AJAX controls follow the MS AJAX naming convention. In order to migrate from **RadToolbar** "Classic", the method calls and property accessors should use the new convention. A reference table is included below.
 
 ## RadToolbar class
 
-The following table lists the changes to the __RadToolBar__ client-side object:
+The following table lists the changes to the **RadToolBar** client-side object:
 
 
 >caption  
 
 | RadToolBar "Classic" | RadToolBar for ASP.NET AJAX |
 | ------ | ------ |
-| __Methods__ ||
+| **Methods** ||
 |MakeHorizontal()|set_orientation(Telerik.Web.UI.RadToolBarOrientation.Horizontal)|
 |MakeVertical()|set_orientation(Telerik.Web.UI.RadToolBarOrientation.Vertical)|
 |EnableButton()|item.set_enabled(true) or item.enable()|
@@ -114,11 +114,11 @@ The following table lists the changes to the __RadToolBar__ client-side object:
 |AttachEvent()|obsolete|
 |ToggleONButton()|item.set_checked(true) oritem.toggle()|
 |ToggleOFFButton()|item.set_checked(false) oritem.unCheck()|
-| __Properties__ ||
+| **Properties** ||
 |AutoPostBack|obsolete|
 |Orientation|get_orientation()|
 |UseFadeEffect|-|
-| __Events__ ||
+| **Events** ||
 |OnClientMouseOver|OnClientMouseOver|
 |OnClientMouseOut|OnClientMouseOut|
 |OnClientClick|OnClientButtonClicking OnClientButtonClicked|
@@ -135,7 +135,7 @@ The following table lists the changes to the RadToolBarButton client-side object
 
 | RadToolbar "Classic" | RadToolBar for ASP.NET AJAX |
 | ------ | ------ |
-| __Properties__ ||
+| **Properties** ||
 |CommandName|get_commandName()|
 |Enabled|get_enabled()|
 |Hidden|get_visible()|
@@ -144,7 +144,7 @@ The following table lists the changes to the RadToolBarButton client-side object
 
 ## 
 
-The __RadToolbarToggleButton__ has been removed. Now you can achieve this functionality by setting the __CheckOnCLick__="true" for the toolbar button.
+The **RadToolbarToggleButton** has been removed. Now you can achieve this functionality by setting the **CheckOnCLick**="true" for the toolbar button.
 
 # See Also
 

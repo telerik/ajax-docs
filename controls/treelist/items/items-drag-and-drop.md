@@ -1,6 +1,6 @@
 ---
 title: Items Drag and Drop
-page_title: Items Drag and Drop | UI for ASP.NET AJAX Documentation
+page_title: Items Drag and Drop | RadTreeList for ASP.NET AJAX Documentation
 description: Items Drag and Drop
 slug: treelist/items/items-drag-and-drop
 tags: items,drag,and,drop

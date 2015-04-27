@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeShow
-page_title: OnClientBeforeShow | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeShow | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientBeforeShow
 slug: tooltip/client-side-programming/events/onclientbeforeshow
 tags: onclientbeforeshow
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientBeforeShow__ client-side event occurs just prior to the display of the tool tip. The event can be canceled.
+The **OnClientBeforeShow** client-side event occurs just prior to the display of the tool tip. The event can be canceled.
 
 The event handler receives parameters:
 

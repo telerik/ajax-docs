@@ -1,6 +1,6 @@
 ---
 title: Tutorial on Web Service Binding
-page_title: Tutorial on Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Tutorial on Web Service Binding | RadTreeView for ASP.NET AJAX Documentation
 description: Tutorial on Web Service Binding
 slug: treeview/load-on-demand/tutorial-on-web-service-binding
 tags: tutorial,on,web,service,binding
@@ -21,9 +21,9 @@ The following tutorial demonstrates how to create a web service that can be cons
 
 ![RadTreeView Web Service Tutorial](images/treeview_loadondemandwebservicetut03.png)
 
-1. Create an AJAX-Enabled Web Site by selecting the Visual Studio menu __File | New | Web Site.__
+1. Create an AJAX-Enabled Web Site by selecting the Visual Studio menu **File | New | Web Site.**
 
-1. Select the __ASP.NET AJAX-Enabled Web Site__ option, set the __Location__ to __File System__ and enter a path for the web site. Click OK to close the New Web Site dialog.
+1. Select the **ASP.NET AJAX-Enabled Web Site** option, set the **Location** to **File System** and enter a path for the web site. Click OK to close the New Web Site dialog.
 >caption 
 
 ![RadTreeView Web Service Tutorial](images/treeview_loadondemandwebservicetut01.png)
@@ -50,21 +50,21 @@ The following tutorial demonstrates how to create a web service that can be cons
 
 
 
-1. In the Solution Explorer, right click the project and select __Add ASP.NET Folder | App_Code__ from the context menu.
+1. In the Solution Explorer, right click the project and select **Add ASP.NET Folder | App_Code** from the context menu.
 
-1. In the Solution Explorer, right click the project and select __Add New Item__ from the context menu. From the __Add New Item__ dialog Select __Web Service,__ name the service "ProductCategories.asmx" and click __Add__ to close the dialog.
+1. In the Solution Explorer, right click the project and select **Add New Item** from the context menu. From the **Add New Item** dialog Select **Web Service,** name the service "ProductCategories.asmx" and click **Add** to close the dialog.
 >caption 
 
 ![RadTreeView Web Service Tutorial](images/treeview_loadondemandwebservicetut02.png)
 
 1. In the solution explorer, locate ProductCategories.cs in the App_Code folder. Replace the code with the code below.
 
->note You can access the __Text__ and __Value__ of the node, which is being expanded, from the RadTreeNodeData parameter passed to the web method.
+>note You can access the **Text** and **Value** of the node, which is being expanded, from the RadTreeNodeData parameter passed to the web method.
 >public RadTreeNodeData[]
->GetTreeViewCategories( __RadTreeNodeData node__ , object context)
+>GetTreeViewCategories( **RadTreeNodeData node** , object context)
 >{
-> __node.Text__ //returns the node's text
-> ____  __node.Value__ //returns node's value
+> **node.Text** //returns the node's text
+>   **node.Value** //returns node's value
 >}
 >
 
@@ -114,6 +114,6 @@ The following tutorial demonstrates how to create a web service that can be cons
 ````
 
 
-1. In the Solution Explorer, right click the default page and select __Set as Start Page__ from the context menu.
+1. In the Solution Explorer, right click the default page and select **Set as Start Page** from the context menu.
 
 1. Press F5 to run the web site. Click OK to enable debugging.

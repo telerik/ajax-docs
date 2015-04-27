@@ -1,6 +1,6 @@
 ---
 title: Using Inplace and EditForms Modes
-page_title: Using Inplace and EditForms Modes | UI for ASP.NET AJAX Documentation
+page_title: Using Inplace and EditForms Modes | RadTreeList for ASP.NET AJAX Documentation
 description: Using Inplace and EditForms Modes
 slug: treelist/data-editing/updating-records/using-inplace-and-editforms-modes
 tags: using,inplace,and,editforms,modes
@@ -105,7 +105,7 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 
 This can be achieved by getting hold of the current editable item and then accessing each column editor by column UniqueName. Then you just get the value from the control that the editor holds by using the control's own API.
 
->note If you need to access the datakeyvalue of the currently edited item, you should keep in mind that the __TreeListEditableItem__ should becast to __TreeListDataItem__ if you are using __InPlace__ edit mode, and to __TreeListEditFormItem__ if you are using __EditForms__ . Then you can use the GetDataKeyValue("DataKeyNames") method.
+>note If you need to access the datakeyvalue of the currently edited item, you should keep in mind that the **TreeListEditableItem** should becast to **TreeListDataItem** if you are using **InPlace** edit mode, and to **TreeListEditFormItem** if you are using **EditForms** . Then you can use the GetDataKeyValue("DataKeyNames") method.
 >
 
 

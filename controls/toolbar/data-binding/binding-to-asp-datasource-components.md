@@ -1,6 +1,6 @@
 ---
 title: Binding to ASP DataSource Components
-page_title: Binding to ASP DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to ASP DataSource Components | RadToolBar for ASP.NET AJAX Documentation
 description: Binding to ASP DataSource Components
 slug: toolbar/data-binding/binding-to-asp-datasource-components
 tags: binding,to,asp,datasource,components
@@ -12,7 +12,7 @@ position: 3
 
 
 
-__RadToolBar__ supports binding to all ASP.NET 2.0 DataSource components, including
+**RadToolBar** supports binding to all ASP.NET 2.0 DataSource components, including
 
 * AccessDataSource
 
@@ -26,9 +26,9 @@ __RadToolBar__ supports binding to all ASP.NET 2.0 DataSource components, includ
 
 * LinqDataSource
 
-To bind to a DataSource component, all you need to do is set the __DataSourceID__ property of the toolbar to the ID of the DataSource component. You should also set the __DataTextField__ and __DataValueField__ properties of the toolbar to map the __Text__ and __Value__ properties of the buttons to the respective columns/fields from the data source.
+To bind to a DataSource component, all you need to do is set the **DataSourceID** property of the toolbar to the ID of the DataSource component. You should also set the **DataTextField** and **DataValueField** properties of the toolbar to map the **Text** and **Value** properties of the buttons to the respective columns/fields from the data source.
 
-If you need to map additional columns from the data source to properties of the toolbar buttons, you can use the __ButtonDataBound__ event. The event arguments passed to the event, __e.Button__ and __e.Button.DataItem__, hold the instance of the toolbar button being bound and the __DataItem__ to which it is bound. You can map a property from the __DataItem__ to the corresponding property of the toolbar button. Be sure to cast the __DataItem__ object to the proper data type first.
+If you need to map additional columns from the data source to properties of the toolbar buttons, you can use the **ButtonDataBound** event. The event arguments passed to the event, **e.Button** and **e.Button.DataItem**, hold the instance of the toolbar button being bound and the **DataItem** to which it is bound. You can map a property from the **DataItem** to the corresponding property of the toolbar button. Be sure to cast the **DataItem** object to the proper data type first.
 
 
 
@@ -55,7 +55,7 @@ If you need to map additional columns from the data source to properties of the 
 ````
 
 
-Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDataSource__ can be used to bind the toolbar declaratively in design time.
+Table-based **DataSource** components, such as **SqlDataSource** and **AccessDataSource** can be used to bind the toolbar declaratively in design time.
 
 ## AccessDataSource
 
@@ -106,15 +106,15 @@ Table-based __DataSource__ components, such as __SqlDataSource__ and __AccessDat
 
 ## ObjectDataSource
 
-You can bind __RadToolBar__ to an object-based data source such as __ObjectDataSource__ or any class that implements the __IEnumerable__ interface.
+You can bind **RadToolBar** to an object-based data source such as **ObjectDataSource** or any class that implements the **IEnumerable** interface.
 
-When using __ObjectDataSource__, you can bind __RadToolBar__ declaratively at design time. The __SelectMethod__ of the __ObjectDataSource__ should return an object that supports the __IEnumerable__ or __ICollection__ interface. Such collections include __Array__, __ArrayList__, and __List<type>__.
+When using **ObjectDataSource**, you can bind **RadToolBar** declaratively at design time. The **SelectMethod** of the **ObjectDataSource** should return an object that supports the **IEnumerable** or **ICollection** interface. Such collections include **Array**, **ArrayList**, and **List<type>**.
 
-If the __SelectMethod__ returns a collection of strings, those strings are automatically mapped to the __Text__ property of the respective buttons. If the collection contains objects (as opposed to string values), you can use the __DataTextField__ and the __DataValueField__ properties to map a property from the object directly to the __Text__ and __Value__ properties of the button.
+If the **SelectMethod** returns a collection of strings, those strings are automatically mapped to the **Text** property of the respective buttons. If the collection contains objects (as opposed to string values), you can use the **DataTextField** and the **DataValueField** properties to map a property from the object directly to the **Text** and **Value** properties of the button.
 
-To map additional properties from the object to other properties of the respective button, use a [ButtonDataBound event handler]({%slug toolbar/server-side-programming/buttondatabound%}). The event arguments passed to the event, __e.Button__and __e.Button.DataItem__, hold the instance of the button being bound and the __DataItem__ associated with the button. You can map a property from the __DataItem__ to the property of the __RadToolBarButton__ class (make sure to cast the __DataItem__ object to your respective data type first).
+To map additional properties from the object to other properties of the respective button, use a [ButtonDataBound event handler]({%slug toolbar/server-side-programming/buttondatabound%}). The event arguments passed to the event, **e.Button**and **e.Button.DataItem**, hold the instance of the button being bound and the **DataItem** associated with the button. You can map a property from the **DataItem** to the property of the **RadToolBarButton** class (make sure to cast the **DataItem** object to your respective data type first).
 
-The following example shows a __RadToolBar__ bound declaratively to an __ObjectDataSource__:
+The following example shows a **RadToolBar** bound declaratively to an **ObjectDataSource**:
 
 ````ASPNET
 	    <telerik:RadToolBar ID="RadToolBar1" runat="server" DataSourceID="ObjectDataSource1">
@@ -192,7 +192,7 @@ The following example shows a __RadToolBar__ bound declaratively to an __ObjectD
 ````
 
 
-The __ObjectDataSource__ component is configured to use the following class definition:
+The **ObjectDataSource** component is configured to use the following class definition:
 
 # See Also
 

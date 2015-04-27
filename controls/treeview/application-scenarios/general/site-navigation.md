@@ -1,6 +1,6 @@
 ---
 title: Site Navigation
-page_title: Site Navigation | UI for ASP.NET AJAX Documentation
+page_title: Site Navigation | RadTreeView for ASP.NET AJAX Documentation
 description: Site Navigation
 slug: treeview/application-scenarios/general/site-navigation
 tags: site,navigation
@@ -16,7 +16,7 @@ position: 0
 
 One of the most common scenarios, in which the treeview can be used, is navigating through pages using tha treeview control. However, due to the page redirect performed by clicking on a node, the treeview state is lost and the current node loses its selected state.
 
-This example shows how to overcome this limitation using the __RadTreeView.FindNodeByUrl()__ method in conjunction with __RadTreeNode.ExpandParentNodes()__.
+This example shows how to overcome this limitation using the **RadTreeView.FindNodeByUrl()** method in conjunction with **RadTreeNode.ExpandParentNodes()**.
 
 Please review the code for more details.
 

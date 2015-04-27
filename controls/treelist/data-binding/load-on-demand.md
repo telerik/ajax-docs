@@ -1,6 +1,6 @@
 ---
 title: Load On Demand
-page_title: Load On Demand | UI for ASP.NET AJAX Documentation
+page_title: Load On Demand | RadTreeList for ASP.NET AJAX Documentation
 description: Load On Demand
 slug: treelist/data-binding/load-on-demand
 tags: load,on,demand
@@ -12,15 +12,15 @@ position: 4
 
 
 
-Starting with the Q2 2011 release __RadTreeList__ supports a new __Load-on-Demand__functionality. It allows child nodes to be added on the fly as parent nodes are expanded. This mode is useful when you need to fill sub nodes only when the parent node is expanded or the data source contains thousands of records:
+Starting with the Q2 2011 release **RadTreeList** supports a new **Load-on-Demand**functionality. It allows child nodes to be added on the fly as parent nodes are expanded. This mode is useful when you need to fill sub nodes only when the parent node is expanded or the data source contains thousands of records:
 
 ## Load On Demand mechanism
 
 To use the Load-On-Demand mechanism:
 
-1. Set __AllowLoadOnDemand__ property to __true__
+1. Set **AllowLoadOnDemand** property to **true**
 
-1. Get the root items from the datasource and assign them to the __RadTreeList.DataSource__ into __RadTreeList.NeedDataSource__ event handler:
+1. Get the root items from the datasource and assign them to the **RadTreeList.DataSource** into **RadTreeList.NeedDataSource** event handler:
 
 
 
@@ -37,7 +37,7 @@ To use the Load-On-Demand mechanism:
 ````
 
 
-1. Handle the __RadTreeList.ChildItemsDataBind__ event and select the subset of items related to theexpanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
+1. Handle the **RadTreeList.ChildItemsDataBind** event and select the subset of items related to theexpanded item. Assign them to the child items datasource property that is available through the second argument passed to the event handler:
 
 
 
@@ -60,6 +60,6 @@ To use the Load-On-Demand mechanism:
 
 In addition the RadTreeList control always shows ExpandCollapse button in front of each item. When the item is expanded and there is no nested items, by default nothing will be displayed below the expanded item, but the ExpandCollapse button will stay.
 
->note Note that the __HideExpandCollapseButtonIfNoChildren__ property is not applicable when LoadOnDemand is enabled.
+>note Note that the **HideExpandCollapseButtonIfNoChildren** property is not applicable when LoadOnDemand is enabled.
 >
 

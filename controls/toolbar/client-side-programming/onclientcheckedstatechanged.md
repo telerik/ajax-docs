@@ -1,6 +1,6 @@
 ---
 title: OnClientCheckedStateChanged
-page_title: OnClientCheckedStateChanged | UI for ASP.NET AJAX Documentation
+page_title: OnClientCheckedStateChanged | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientCheckedStateChanged
 slug: toolbar/client-side-programming/onclientcheckedstatechanged
 tags: onclientcheckedstatechanged
@@ -14,9 +14,9 @@ position: 16
 
 ## 
 
-The __OnClientCheckedStateChanged__ client-side event occurs immediately after a button has been checked.
+The **OnClientCheckedStateChanged** client-side event occurs immediately after a button has been checked.
 
->caution To check a button it should be marked with __CheckOnClick="True"__ 
+>caution To check a button it should be marked with **CheckOnClick="True"** 
 >
 
 
@@ -26,9 +26,9 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* __get_item__ returns a reference to the toolbar item that was checked. In this case this is a __RadToolBarButton__.
+* **get_item** returns a reference to the toolbar item that was checked. In this case this is a **RadToolBarButton**.
 
-* __get_domEvent__ returns the browser's event object
+* **get_domEvent** returns the browser's event object
 
 You can use this event to respond when a button has been checked.
 

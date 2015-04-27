@@ -1,6 +1,6 @@
 ---
 title: Load Content On Demand
-page_title: Load Content On Demand | UI for ASP.NET AJAX Documentation
+page_title: Load Content On Demand | RadTooltip for ASP.NET AJAX Documentation
 description: Load Content On Demand
 slug: tooltip/radtooltipmanager/load-content-on-demand
 tags: load,content,on,demand
@@ -12,7 +12,7 @@ position: 2
 
 
 
-The __RadToolTipManager__ offers two ways to load the content of the tooltips - via an AJAX request and from a WebService.	This article shows how you can use both and how you can cache data in the tooltips:
+The **RadToolTipManager** offers two ways to load the content of the tooltips - via an AJAX request and from a WebService.	This article shows how you can use both and how you can cache data in the tooltips:
 
 * [AJAX request (partial page rendering)](#loading-content-with-ajax)
 
@@ -26,13 +26,13 @@ The __RadToolTipManager__ offers two ways to load the content of the tooltips - 
 
 ## Loading Content with AJAX
 
-The __OnAjaxUpdate__event fires when the user moves the mouse over a particular 'tooltipified' element on the client. The event is useful for load-on-demand scenarios where the data needs to come from the server, needs to be loaded from a database or where particularly large amounts of data are involved.
+The **OnAjaxUpdate**event fires when the user moves the mouse over a particular 'tooltipified' element on the client. The event is useful for load-on-demand scenarios where the data needs to come from the server, needs to be loaded from a database or where particularly large amounts of data are involved.
 
-The event passes a __ToolTipUpdateEventArgs__ to the handler with properties:
+The event passes a **ToolTipUpdateEventArgs** to the handler with properties:
 
-* __TargetControlID__: Identifies the control for which the a RadToolTip is about to open.
+* **TargetControlID**: Identifies the control for which the a RadToolTip is about to open.
 
-* __UpdatePanel__: A reference to an UpdatePanel from which the callback is initiated. The UpdatePanel is positioned in the RadToolTip and holds the content.
+* **UpdatePanel**: A reference to an UpdatePanel from which the callback is initiated. The UpdatePanel is positioned in the RadToolTip and holds the content.
 
 In the example below, HTMLGenericControls are created and populated with an HTML "Header 1" tag and a "Horizontal Rule" tag.
 >caption 
@@ -67,7 +67,7 @@ In the example below, HTMLGenericControls are created and populated with an HTML
 
 ## Loading Content via a WebService
 
-When a tooltip controlled by the __RadToolTipManager__ needs to be shown a call to the WebService is made.This should return a string (which may contain HTML, which will be rendered) and its value is passed to the tooltip.The path to the WebService and the name of the service method are specified in the __WebServiceSettings__ inner tag's__Path__ and __Method__ properties, for example:
+When a tooltip controlled by the **RadToolTipManager** needs to be shown a call to the WebService is made.This should return a string (which may contain HTML, which will be rendered) and its value is passed to the tooltip.The path to the WebService and the name of the service method are specified in the **WebServiceSettings** inner tag's**Path** and **Method** properties, for example:
 
 >note WebServices return simple strings and even though they can contain HTML, they are not rendered by the ASP engine.	This means that script controls like the Telerik UI for ASP.NET AJAX	controls *cannot* be used in the content (e.g., user control) that is returned from the service call.
 >
@@ -295,15 +295,15 @@ Where the context object is the following:
 
 ## Caching the Loaded Content
 
-Since Q2 2012 the __RadToolTipManager__ offers a new property - __EnableDataCaching__.It defaults to false to preserve the old behavior - a request is made for the content each time a tooltip is shown, including subsequent showings of the same tooltip.
+Since Q2 2012 the **RadToolTipManager** offers a new property - **EnableDataCaching**.It defaults to false to preserve the old behavior - a request is made for the content each time a tooltip is shown, including subsequent showings of the same tooltip.
 
-When __EnableDataCaching__ is set to __true__ caching is enabled and only one requestwill be performed for each target, regardless of how many times the tooltip will be shown.
+When **EnableDataCaching** is set to **true** caching is enabled and only one requestwill be performed for each target, regardless of how many times the tooltip will be shown.
 
 This can be useful in scenarios where the content that is loaded will not changeover time, e.g. static details about a product. This allows the initial page loadto be quick, because all the data for the tooltips will not be retrieved at thispoint, yet in the same time prevents excessive requests for the same data whichcan reduce the server load.
 
 You can see it in action in the[ToolTip - Cache Loaded Data](http://demos.telerik.com/aspnet-ajax/tooltip/examples/enabledatacaching/defaultcs.aspx) online demo.
 
->important  __Important:__ when data caching is enabled __only simple HTML__ content is supported for the tooltips.	This means that __controls that rely on postbacks and Telerik controls cannot be put__ in the content.	There are several reasons for this:
+>important  **Important:** when data caching is enabled **only simple HTML** content is supported for the tooltips.	This means that **controls that rely on postbacks and Telerik controls cannot be put** in the content.	There are several reasons for this:
 >
 * The instance of the loaded user control on the server is the last one	that was requested. Therefore postbacks should not occur inside because they may be coming from	a tooltip that is cached, so the data on the server will no longer match what the tooltip will expect.	Should updates be necessary - caching can be disabled through JavaScript so requests start anew:	tooltipTipManagerReference.set_enableDataCaching(false); can be used.
 * Only the HTML string of the content is preserved (i.e. cached), so all event handlers and ScriptControl instances	are going to be lost. The next time this HTML string is shown the styling may appear correctly but the	Telerik controls (or any script controls) will not work (e.g. a RadRotator will not rotate even on click of its buttons).>

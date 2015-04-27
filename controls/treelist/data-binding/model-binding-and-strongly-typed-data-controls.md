@@ -1,6 +1,6 @@
 ---
 title: Model Binding and Strongly Typed Data Controls
-page_title: Model Binding and Strongly Typed Data Controls | UI for ASP.NET AJAX Documentation
+page_title: Model Binding and Strongly Typed Data Controls | RadTreeList for ASP.NET AJAX Documentation
 description: Model Binding and Strongly Typed Data Controls
 slug: treelist/data-binding/model-binding-and-strongly-typed-data-controls
 tags: model,binding,and,strongly,typed,data,controls
@@ -141,7 +141,7 @@ The code snippet above will get the name parameter from the QueryString and inte
 
 ## Model Binding CRUD operations
 
-__Editing__
+**Editing**
 
 In order to have editing enabled into the data bound controls you need to set the UpdateMethodof the corresponding control to the web form page’s method. The UpdateMethod can have following signature:
 
@@ -178,11 +178,11 @@ Or you could use following signature:
 
 
 
-__Inserting__
+**Inserting**
 
 In order to have inserting enabled into the data bound controls you need to set the InsertMethod property of the corresponding control to the name of the web form page’s insert method. The InsertMethodcan have following signatures:
 
-__Deleting__
+**Deleting**
 
 In order to have deleting enabled into the data bound controls you need to set the DeleteMethod property of the corresponding control to thename of the web form page’s delete method. The DeleteMethod can have following signature:
 
@@ -279,4 +279,4 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ## ModelBinding Limitations
 
-We do not support model binding when the __ViewState__ of the page is__disabled__. In order to use the model binding you need to set__Page.EnableViewState = “true”__
+We do not support model binding when the **ViewState** of the page is**disabled**. In order to use the model binding you need to set**Page.EnableViewState = “true”**

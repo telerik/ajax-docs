@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeCollapsed
-page_title: OnClientNodeCollapsed | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeCollapsed | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeCollapsed
 slug: treeview/client-side-programming/events/onclientnodecollapsed
 tags: onclientnodecollapsed
@@ -14,7 +14,7 @@ position: 16
 
 ## 
 
-The __OnClientNodeCollapsed__ client-side event occurs after the user clicks the collapse (minus) button.
+The **OnClientNodeCollapsed** client-side event occurs after the user clicks the collapse (minus) button.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the node collapsing.
+* **get_domEvent()** retrieves a DOM event object of the node collapsing.
 
 The example below demonstrates retrieving a reference to the collapsed parent node.
 

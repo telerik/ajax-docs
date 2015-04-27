@@ -1,6 +1,6 @@
 ---
 title: WAI-ARIA Support
-page_title: WAI-ARIA Support | UI for ASP.NET AJAX Documentation
+page_title: WAI-ARIA Support | RadTooltip for ASP.NET AJAX Documentation
 description: WAI-ARIA Support
 slug: tooltip/accessibility-and-internationalization/wai-aria-support
 tags: wai-aria,support
@@ -12,15 +12,15 @@ position: 2
 
 
 
-This article demonstrates how to enable and use the WAI-ARIA support of the __RadToolTip__	and __RadToolTipManager__ controls.
+This article demonstrates how to enable and use the WAI-ARIA support of the **RadToolTip**	and **RadToolTipManager** controls.
 
 ## 
 
-The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.__RadToolTip__ and __RadToolTipManager__ offer WAI-ARIA support.
+The[WAI-ARIA Suite	](http://www.w3.org/WAI/intro/aria)defines an approach to make web content and web applications more accessible to people with disabilities.**RadToolTip** and **RadToolTipManager** offer WAI-ARIA support.
 
-In order to enable the WAI-ARIA support, set the __RadToolTip__ / __RadToolTipManager__ contol's __EnableAriaSupport__property to __true__ as shown in the example below.
+In order to enable the WAI-ARIA support, set the **RadToolTip** / **RadToolTipManager** contol's **EnableAriaSupport**property to **true** as shown in the example below.
 
-__Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and __RadToolTip__
+**Example 1**: Setting the **EnalbeAriaSupport** property for **RadToolTip** and **RadToolTip**
 
 
 
@@ -49,7 +49,7 @@ __Example 1__: Setting the __EnalbeAriaSupport__ property for __RadToolTip__ and
 >
 
 
->note  __RadToolTips__ created by a __RadToolTipManager__ will inherit the value of its __EnableAriaSupport__ property.
+>note  **RadToolTips** created by a **RadToolTipManager** will inherit the value of its **EnableAriaSupport** property.
 >
 
 

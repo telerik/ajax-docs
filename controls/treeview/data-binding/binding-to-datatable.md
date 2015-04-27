@@ -1,6 +1,6 @@
 ---
 title: Binding to DataTable
-page_title: Binding to DataTable | UI for ASP.NET AJAX Documentation
+page_title: Binding to DataTable | RadTreeView for ASP.NET AJAX Documentation
 description: Binding to DataTable
 slug: treeview/data-binding/binding-to-datatable
 tags: binding,to,datatable
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-__RadTreeView__can be bound to a __DataTable__, __DataSet__ and a __DataView__. This example shows binding to a __DataTable__ object.
+**RadTreeView**can be bound to a **DataTable**, **DataSet** and a **DataView**. This example shows binding to a **DataTable** object.
 
-The declaration of the __RadTreeView__ object includes no __DataSourceID__ property or __<Items>__ section:
+The declaration of the **RadTreeView** object includes no **DataSourceID** property or **<Items>** section:
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" runat="server" Skin="WebBlue" OnNodeDataBound="RadTreeView1_NodeDataBound">
@@ -25,7 +25,7 @@ The declaration of the __RadTreeView__ object includes no __DataSourceID__ prope
 
 
 
-In the __Page_Load__ event handler, create and fill the __DataTable__ object, then bind it to the __RadTreeView__. You must call the __DataBind__ method after setting the __DataSource__ property. Minimally you must assign the __DataSource__and __DataTextField__properties. Optionally, you can assign __DataFieldID__ and __DataValueField__ properties. The following example binds to a table but does not create a hierarchy. See the [Binding to Hierarchical Data]({%slug treeview/data-binding/binding-to-hierarchical-data%}) and [Getting Started, Binding to a Database]({%slug treeview/getting-started/binding-to-a-database%}) for more information.
+In the **Page_Load** event handler, create and fill the **DataTable** object, then bind it to the **RadTreeView**. You must call the **DataBind** method after setting the **DataSource** property. Minimally you must assign the **DataSource**and **DataTextField**properties. Optionally, you can assign **DataFieldID** and **DataValueField** properties. The following example binds to a table but does not create a hierarchy. See the [Binding to Hierarchical Data]({%slug treeview/data-binding/binding-to-hierarchical-data%}) and [Getting Started, Binding to a Database]({%slug treeview/getting-started/binding-to-a-database%}) for more information.
 
 
 

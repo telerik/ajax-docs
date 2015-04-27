@@ -1,6 +1,6 @@
 ---
-title: CheckBoxes Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: CheckBoxes Overview | RadTreeView for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/checkboxes/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-RadTreeView provides checkboxes displayed next to each node. Enable this behavior by setting the __CheckBoxes__property of the RadTreeView to __True__. Disable the checkbox for a particular node by setting the __Checkable__property of the Node to __False__. Retrieve all checked nodes on postback by using the __CheckedNodes__property of the RadTreeView; __CheckedNodes__returns a generic list of __RadTreeNode__objects. Use the __NodeCheck__server event to automatically postback when a Node is checked. If you need to disable postback for certain Nodes, you can use the __OnClientNodeChecking__ event and call __set_cancel(true)__ in the event handler.
+RadTreeView provides checkboxes displayed next to each node. Enable this behavior by setting the **CheckBoxes**property of the RadTreeView to **True**. Disable the checkbox for a particular node by setting the **Checkable**property of the Node to **False**. Retrieve all checked nodes on postback by using the **CheckedNodes**property of the RadTreeView; **CheckedNodes**returns a generic list of **RadTreeNode**objects. Use the **NodeCheck**server event to automatically postback when a Node is checked. If you need to disable postback for certain Nodes, you can use the **OnClientNodeChecking** event and call **set_cancel(true)** in the event handler.
 
 * See the [Using Checkboxes Server-Side]({%slug treeview/checkboxes/server-side%}) topic for more information on configuring checkbox behavior and manipulating checkboxes on postback.
 

@@ -1,6 +1,6 @@
 ---
 title: Implement findNodesByAttribute Mthod
-page_title: Implement findNodesByAttribute Mthod | UI for ASP.NET AJAX Documentation
+page_title: Implement findNodesByAttribute Mthod | RadTreeView for ASP.NET AJAX Documentation
 description: Implement findNodesByAttribute Mthod
 slug: treeview/application-scenarios/client-side-programming/implement-findnodesbyattribute-mthod
 tags: implement,findnodesbyattribute,mthod
@@ -16,7 +16,7 @@ position: 19
 
 Usually, the findNode client-side methods (findNodeByText, findNodeByValue, findNodeByAttribute) return the first node that satisfies the search criterion.
 
-Below is the implementation of a function which returns an __array of nodes__ having the same value of a particular __attribute__:
+Below is the implementation of a function which returns an **array of nodes** having the same value of a particular **attribute**:
 
 ````JavaScript
 	

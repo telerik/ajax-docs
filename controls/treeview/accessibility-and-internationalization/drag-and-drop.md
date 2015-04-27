@@ -1,6 +1,6 @@
 ---
 title: Drag And Drop
-page_title: Drag And Drop | UI for ASP.NET AJAX Documentation
+page_title: Drag And Drop | RadTreeView for ASP.NET AJAX Documentation
 description: Drag And Drop
 slug: treeview/accessibility-and-internationalization/drag-and-drop
 tags: drag,and,drop

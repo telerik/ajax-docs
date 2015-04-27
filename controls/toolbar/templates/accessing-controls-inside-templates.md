@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadToolBar for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: toolbar/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-If your __RadToolBar__ has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the __RadToolBarItem__ that has the template, and use its __FindControl__ method.
+If your **RadToolBar** has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **RadToolBarItem** that has the template, and use its **FindControl** method.
 
 For example, consider the following, very simple, toolbar:
 
@@ -51,7 +51,7 @@ To access the TextBox in the item template, use the following code:
 ````
 
 
-You can also acces different controls place in an Item of the RadToolBar control from the __client-side__ For example having the following code you can get to the RadButton by finding the RadToolbarButton first:
+You can also acces different controls place in an Item of the RadToolBar control from the **client-side** For example having the following code you can get to the RadButton by finding the RadToolbarButton first:
 
 ````JavaScript
 	    <script type="text/javascript">

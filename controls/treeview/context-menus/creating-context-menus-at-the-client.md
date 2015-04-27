@@ -1,6 +1,6 @@
 ---
 title: Creating Context Menus at the Client
-page_title: Creating Context Menus at the Client | UI for ASP.NET AJAX Documentation
+page_title: Creating Context Menus at the Client | RadTreeView for ASP.NET AJAX Documentation
 description: Creating Context Menus at the Client
 slug: treeview/context-menus/creating-context-menus-at-the-client
 tags: creating,context,menus,at,the,client
@@ -16,7 +16,7 @@ position: 3
 
 The built-in Context Menu of RadTreeView allows you to add Items at the client-side. The example below shows how to add a child Item upon clicking an existing Item:
 
-__JavaScript Example__
+**JavaScript Example**
 
 ````JavaScript
 	      function OnClientContextMenuItemClicked(sender, eventArgs)

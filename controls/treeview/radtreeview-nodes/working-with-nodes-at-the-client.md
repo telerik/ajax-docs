@@ -1,6 +1,6 @@
 ---
 title: Working with Nodes at the Client
-page_title: Working with Nodes at the Client | UI for ASP.NET AJAX Documentation
+page_title: Working with Nodes at the Client | RadTreeView for ASP.NET AJAX Documentation
 description: Working with Nodes at the Client
 slug: treeview/radtreeview-nodes/working-with-nodes-at-the-client
 tags: working,with,nodes,at,the,client
@@ -12,9 +12,9 @@ position: 3
 
 
 
-Using the client-side API, you can programmatically add, remove, disable, or select __RadTreeView__ nodes.
+Using the client-side API, you can programmatically add, remove, disable, or select **RadTreeView** nodes.
 
->note Note that you should call the __trackChanges__ function before you add/delete/update nodes and __commitChanges__ function after you finished the client-side changes. This will ensure that all changes made will persist at the server side.
+>note Note that you should call the **trackChanges** function before you add/delete/update nodes and **commitChanges** function after you finished the client-side changes. This will ensure that all changes made will persist at the server side.
 >
 
 
@@ -42,11 +42,11 @@ To add a node programmatically, get a reference to the RadTreeView object. Creat
 
 You can remove nodes by:
 
-* Calling the Nodes collection's __remove()__ method and passing a reference to the node.
+* Calling the Nodes collection's **remove()** method and passing a reference to the node.
 
-* Calling the Nodes collection's __removeAt()__ method and passing the index of the node to be removed. Be careful with this function as the index is relative to each Nodes collection. Notice in the code example how the __removeAt()__ function is called not from the RadTreeView nodes collection, but through the parent of the node being removed.
+* Calling the Nodes collection's **removeAt()** method and passing the index of the node to be removed. Be careful with this function as the index is relative to each Nodes collection. Notice in the code example how the **removeAt()** function is called not from the RadTreeView nodes collection, but through the parent of the node being removed.
 
-* Calling __nodes.clear()__ to remove all nodes at one time.
+* Calling **nodes.clear()** to remove all nodes at one time.
 
 ````JavaScript
 	

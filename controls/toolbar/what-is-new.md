@@ -1,6 +1,6 @@
 ---
 title: What is New
-page_title: What is New | UI for ASP.NET AJAX Documentation
+page_title: What is New | RadToolBar for ASP.NET AJAX Documentation
 description: What is New
 slug: toolbar/what-is-new
 tags: what,is,new
@@ -20,7 +20,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 * jQuery updated to 1.4.2
 
-* Added: __OuterCssClass__ property - allows CSS class to be applied on the outmost element (<LI> element)
+* Added: **OuterCssClass** property - allows CSS class to be applied on the outmost element (<LI> element)
 
 * [Bug fixes](http://www.telerik.com/products/aspnet-ajax/whats-new/release-history/q1-2010-version-2010-1-309.aspx)
 
@@ -70,13 +70,13 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadToolBar for ASP.NET AJAX Q3 2008:
 
-* Added new server side methods __FindItemByText__, __FindItemByValue__which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (__true__) or case-insensitive (__false__).
+* Added new server side methods **FindItemByText**, **FindItemByValue**which have a second argument *ignoreCase* which indicates whether the comparison is case-sensitive (**true**) or case-insensitive (**false**).
 
-* Added a new server side method __FindItem__which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
+* Added a new server side method **FindItem**which has one argument *match *of type [Predicate Generic Delegate](http://msdn.microsoft.com/en-us/library/bfcke1bz(VS.80).aspx). This method can be used to find an Item by some custom criteria.
 
-* Added protected virtual methods for server-side events – __OnItemDataBound__, __OnItemClick__, etc.
+* Added protected virtual methods for server-side events – **OnItemDataBound**, **OnItemClick**, etc.
 
-* Support for server-side expressions (<%= %>) in the __ItemTemplate__.
+* Support for server-side expressions (<%= %>) in the **ItemTemplate**.
 
 ## What’s New in RadToolBar for ASP.NET AJAX Q2 2008 (Version Number 2008.2.723):
 

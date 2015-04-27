@@ -1,6 +1,6 @@
 ---
 title: Web Service Binding
-page_title: Web Service Binding | UI for ASP.NET AJAX Documentation
+page_title: Web Service Binding | RadTreeView for ASP.NET AJAX Documentation
 description: Web Service Binding
 slug: treeview/load-on-demand/web-service-binding
 tags: web,service,binding
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-Instead of supplying a __NodeExpand__event handler to add nodes on-demand to the treeview, you can let the treeview call on a WebService to service the request. The path to the web service and the name of the service method are specified in the __WebServiceSettings____Path__and __Method__ properties:
+Instead of supplying a **NodeExpand**event handler to add nodes on-demand to the treeview, you can let the treeview call on a WebService to service the request. The path to the web service and the name of the service method are specified in the **WebServiceSettings Path**and **Method** properties:
 
 ````ASPNET
 	    <telerik:radtreeview id="RadTreeView1" runat="server" onclientnodepopulating="nodePopulating">
@@ -40,15 +40,15 @@ Instead of supplying a __NodeExpand__event handler to add nodes on-demand to the
 
 
 
-The HTTP method by default is __POST__. To change that you can set the __UseHttpGet__ property of the WebServiceSettings to *True*. This property is added in Q1 2009 release.
+The HTTP method by default is **POST**. To change that you can set the **UseHttpGet** property of the WebServiceSettings to *True*. This property is added in Q1 2009 release.
 
 To use the integrated support, the Web service should have the signature as shown in the code example below.
 
 >note Notice in the code below:
 >
-* The __ScriptService__ attribute marks the ProductCategories class and makes the web method callable from client-side script and therefore available to AJAX.
-* The signature of the web method includes parameters for a __RadTreeNodeData__ and an object. The __RadTreeNodeData__ parameter represents the parent node being populated. The second parameter is an object that contains context information. Cast the object as IDictionary as shown in the example below. You can then retrieve values that have been placed in the dictionary earlier in the __OnClientNodePopulating__ client event.
-* The array of __RadTreeNodeData__ returned by the method is used to store the data that will populate the child nodes. Create and assign properties to the RadTreeNodeData array members just as you would to the actual child nodes.>
+* The **ScriptService** attribute marks the ProductCategories class and makes the web method callable from client-side script and therefore available to AJAX.
+* The signature of the web method includes parameters for a **RadTreeNodeData** and an object. The **RadTreeNodeData** parameter represents the parent node being populated. The second parameter is an object that contains context information. Cast the object as IDictionary as shown in the example below. You can then retrieve values that have been placed in the dictionary earlier in the **OnClientNodePopulating** client event.
+* The array of **RadTreeNodeData** returned by the method is used to store the data that will populate the child nodes. Create and assign properties to the RadTreeNodeData array members just as you would to the actual child nodes.>
 
 
 
@@ -115,4 +115,4 @@ To use the integrated support, the Web service should have the signature as show
 ````
 
 
-For a live example of using a Web service to populate a __RadTreeView__, see [Populate From Web Service](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx).
+For a live example of using a Web service to populate a **RadTreeView**, see [Populate From Web Service](http://demos.telerik.com/aspnet-ajax/TreeView/Examples/Programming/WebService/DefaultCS.aspx).

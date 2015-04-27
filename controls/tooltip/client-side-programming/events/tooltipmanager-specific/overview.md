@@ -1,6 +1,6 @@
 ---
 title: ToolTipManager Specific Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadTooltip for ASP.NET AJAX Documentation
 description: Overview
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-The __RadToolTipManager__ differs from the stand-alone __RadToolTip__ in the way its content is loaded -it uses two Load-On-Demand mechanisms to fetch the content only when needed, instead of always putting it in the page. For this reason it provides three additional events that allow better control over this functionality:
+The **RadToolTipManager** differs from the stand-alone **RadToolTip** in the way its content is loaded -it uses two Load-On-Demand mechanisms to fetch the content only when needed, instead of always putting it in the page. For this reason it provides three additional events that allow better control over this functionality:
 
 * [OnClientRequestStart]({%slug tooltip/client-side-programming/events/tooltipmanager-specific/onclientrequeststart%}) is fired when the call to the WebService or the AJAX request starts. The event is cancellable
 
@@ -70,12 +70,12 @@ Here follows the full list with the API related to the dynamic handling of event
 
 | Name | Description |
 | ------ | ------ |
-| __add_requestStart__ |Add a handler to the RequestStart event.|
-| __add_requestEnd__ |Add a handler to the ResponseEnd event.|
-| __add_responseError__ |Add a handler to the ResponseError event.|
-| __remove_requestStart__ |Remove a handler from the RequestStart event.|
-| __remove_requestEnd__ |Remove a handler from the ResponseEnd event.|
-| __remove_responseError__ |Remove a handler from the ResponseError event.|
+| **add_requestStart** |Add a handler to the RequestStart event.|
+| **add_requestEnd** |Add a handler to the ResponseEnd event.|
+| **add_responseError** |Add a handler to the ResponseError event.|
+| **remove_requestStart** |Remove a handler from the RequestStart event.|
+| **remove_requestEnd** |Remove a handler from the ResponseEnd event.|
+| **remove_responseError** |Remove a handler from the ResponseError event.|
 
 # See Also
 

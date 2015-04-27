@@ -1,6 +1,6 @@
 ---
 title: Paging
-page_title: Paging | UI for ASP.NET AJAX Documentation
+page_title: Paging | RadTreeList for ASP.NET AJAX Documentation
 description: Paging
 slug: treelist/functionality/paging
 tags: paging
@@ -12,9 +12,9 @@ position: 0
 
 
 
-__RadTreeList__ supports paging functionality which allows the users to view thedata, separated in chunks. This is helpful in cases where the control is bound to a large collection ofdata which would be impractical or even impossible to display on a single page. Depending on thedevelopers' preferences, the appearance of the pager may vary from a simple page-number buttons to amore sophisticated slider control.
+**RadTreeList** supports paging functionality which allows the users to view thedata, separated in chunks. This is helpful in cases where the control is bound to a large collection ofdata which would be impractical or even impossible to display on a single page. Depending on thedevelopers' preferences, the appearance of the pager may vary from a simple page-number buttons to amore sophisticated slider control.
 
-To enable this functionality in __RadTreeList__, you should set the__AllowPaging__ property to true.
+To enable this functionality in **RadTreeList**, you should set the**AllowPaging** property to true.
 
 ````ASPNET
 	    <telerik:RadTreeList ID="RadTreeList1" runat="server" AllowPaging="true" />
@@ -22,37 +22,37 @@ To enable this functionality in __RadTreeList__, you should set the__AllowPaging
 
 
 
-__RadTreeList__ exposes the __PageSizeControlType__ property in its __PagerStyle__ property collection which is an enum of type __PagerDropDownControlType__.It has three values available with __RadComboBox__ being the default one:
+**RadTreeList** exposes the **PageSizeControlType** property in its **PagerStyle** property collection which is an enum of type **PagerDropDownControlType**.It has three values available with **RadComboBox** being the default one:
 
-* __None__
+* **None**
 
-* __RadComboBox__
+* **RadComboBox**
 
-* __RadDropDownList__
+* **RadDropDownList**
 
-As it name implies, the property specifies what type of page size drop down control will be rendered.The property provides an easy way to switch off the page size combo or replace it with its light weight counterpart __RadDropDownList__.
+As it name implies, the property specifies what type of page size drop down control will be rendered.The property provides an easy way to switch off the page size combo or replace it with its light weight counterpart **RadDropDownList**.
 
 ## Pager API
 
-The following methods and properties are exposed in the __RadTreeList__'sserver-side Pager API:
+The following methods and properties are exposed in the **RadTreeList**'sserver-side Pager API:
 
 
 | Property | Description |
 | ------ | ------ |
-| __PageSize__ |Determines the maximum items displayed on a single page.|
-| __PagerStyle-FirstPageToolTip__ |The text that is displayed when hovering the FirstPage button|
-| __PagerStyle-NextPageToolTip__ |The text that is displayed when hovering the NextPage button|
-| __PagerStyle-PrevPageToolTip__ |The text that is displayed when hovering the PrevPage button|
-| __PagerStyle-LastPageToolTip__ |The text that is displayed when hovering the LastPage button|
-| __PageButtonCount__ |The number of numeric buttons in the pager|
-| __Position__ |Determines the position of the Pager in RadTreeList:
+| **PageSize** |Determines the maximum items displayed on a single page.|
+| **PagerStyle-FirstPageToolTip** |The text that is displayed when hovering the FirstPage button|
+| **PagerStyle-NextPageToolTip** |The text that is displayed when hovering the NextPage button|
+| **PagerStyle-PrevPageToolTip** |The text that is displayed when hovering the PrevPage button|
+| **PagerStyle-LastPageToolTip** |The text that is displayed when hovering the LastPage button|
+| **PageButtonCount** |The number of numeric buttons in the pager|
+| **Position** |Determines the position of the Pager in RadTreeList:
 
 * Top
 
 * Bottom
 
 * TopAndBottom|
-| __Mode__ |This property sets the appearance of the Pager. The available modes are:
+| **Mode** |This property sets the appearance of the Pager. The available modes are:
 
 * NextPrev
 

@@ -1,6 +1,6 @@
 ---
 title: Cloning a RadTreeView
-page_title: Cloning a RadTreeView | UI for ASP.NET AJAX Documentation
+page_title: Cloning a RadTreeView | RadTreeView for ASP.NET AJAX Documentation
 description: Cloning a RadTreeView
 slug: treeview/application-scenarios/server-side-programming/cloning-a-radtreeview
 tags: cloning,a,radtreeview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-To clone a Tree, use the __GetXml()__ and __LoadXmlString()__ methods of RadTreeView.
+To clone a Tree, use the **GetXml()** and **LoadXmlString()** methods of RadTreeView.
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" runat="server">

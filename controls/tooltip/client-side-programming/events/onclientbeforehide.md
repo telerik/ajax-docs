@@ -1,6 +1,6 @@
 ---
 title: OnClientBeforeHide
-page_title: OnClientBeforeHide | UI for ASP.NET AJAX Documentation
+page_title: OnClientBeforeHide | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientBeforeHide
 slug: tooltip/client-side-programming/events/onclientbeforehide
 tags: onclientbeforehide
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientBeforeHide__ client-side event occurs just prior to the tool tip being hidden. The event can be canceled.
+The **OnClientBeforeHide** client-side event occurs just prior to the tool tip being hidden. The event can be canceled.
 
 The event handler receives parameters:
 

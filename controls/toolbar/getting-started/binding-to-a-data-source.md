@@ -1,6 +1,6 @@
 ---
 title: Binding to a Data Source
-page_title: Binding to a Data Source | UI for ASP.NET AJAX Documentation
+page_title: Binding to a Data Source | RadToolBar for ASP.NET AJAX Documentation
 description: Binding to a Data Source
 slug: toolbar/getting-started/binding-to-a-data-source
 tags: binding,to,a,data,source
@@ -14,49 +14,49 @@ position: 1
 
 ## 
 
-This tutorial shows how to bind __RadToolBar__ to an __AccessDataSource__:
+This tutorial shows how to bind **RadToolBar** to an **AccessDataSource**:
 
-1. Locate the file "Chart.mdb" file that appears in the __Live Demos/App_Data__ folder of your __RadControls__ installation. Drag this file to the __App_Data__ folder in the Solution Explorer for your project:
+1. Locate the file "Chart.mdb" file that appears in the **Live Demos/App_Data** folder of your **RadControls** installation. Drag this file to the **App_Data** folder in the Solution Explorer for your project:
 >caption 
 
 ![toolbar chartmdb](images/toolbar_chartmdb.png)
 
-1. Drag a __RadToolBar__ component from the toolbox onto your Web page. The __RadToolBar__[Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25) should appear automatically:
+1. Drag a **RadToolBar** component from the toolbox onto your Web page. The **RadToolBar**[Smart Tag](5BB964CF-AA36-443D-824B-60964E411B25) should appear automatically:
 >caption 
 
 ![toolbar smarttag](images/toolbar_smarttag.png)
 
-1. In the __RadToolBar__ Smart Tag, use the __Skin__ drop-down to change the [skin]({%slug toolbar/appearance-and-styling/skins%}) for the __RadToolBar__ to "Hay":
+1. In the **RadToolBar** Smart Tag, use the **Skin** drop-down to change the [skin]({%slug toolbar/appearance-and-styling/skins%}) for the **RadToolBar** to "Hay":
 >caption 
 
 ![toolbar chooseskin](images/toolbar_chooseskin.png)
 
-1. Still in the Smart Tag, open the __Choose Data Source__ drop-down and select __New Data Source__.
+1. Still in the Smart Tag, open the **Choose Data Source** drop-down and select **New Data Source**.
 >caption 
 
 ![toolbar newdatasource](images/toolbar_newdatasource.png)
 
-1. The Data Source Configuration Wizard appears. In the Select a DataSource Type screen, specify an __AccessDataSource__ and click __OK.__
+1. The Data Source Configuration Wizard appears. In the Select a DataSource Type screen, specify an **AccessDataSource** and click **OK.**
 >caption 
 
 ![Data Source Configuration Wizard](images/toolbar_chooseadatasourcetype.png)
 
-1. In the __Choose a Database__ screen, click the __Browse__ button, and select the "Chart.mdb" file. Then choose __Next__ to continue:
+1. In the **Choose a Database** screen, click the **Browse** button, and select the "Chart.mdb" file. Then choose **Next** to continue:
 >caption 
 
 ![Configure Data Source](images/toolbar_chooseadatabase.png)
 
-1. In the __Configure the Select Statement__ screen, choose __Specify columns from a table or view__. Select the "Subcategory" table from the __Name__ drop down, and select the "Id", "Name", and "Category_id" fields:
+1. In the **Configure the Select Statement** screen, choose **Specify columns from a table or view**. Select the "Subcategory" table from the **Name** drop down, and select the "Id", "Name", and "Category_id" fields:
 >caption 
 
 ![Configure Data Source](images/toolbar_configureselect.png)
 
-1. Click the __WHERE__ button to add a where clause to your query. In the Add WHERE Clause screen, set the __Column__ to "Category_Id", the __Operator__ to "=", the __Source__ to "None", and set the parameter value to "1":
+1. Click the **WHERE** button to add a where clause to your query. In the Add WHERE Clause screen, set the **Column** to "Category_Id", the **Operator** to "=", the **Source** to "None", and set the parameter value to "1":
 >caption 
 
 ![Add Where Clause](images/toolbar_addwhereclause.png)
 
-1. Click the __Add__ button to add the WHERE clause, and then click OK.
+1. Click the **Add** button to add the WHERE clause, and then click OK.
 
 1. Back in the Configure The Select Statement page, click Next to accept the select statement.
 
@@ -65,11 +65,11 @@ This tutorial shows how to bind __RadToolBar__ to an __AccessDataSource__:
 
 ![ToolBar Test Query](images/toolbar_testquery.png)
 
-1. In the Properties pane for the __RadToolBar__ component:
+1. In the Properties pane for the **RadToolBar** component:
 
-1. Set the __DataTextField__ property to "Name".
+1. Set the **DataTextField** property to "Name".
 
-1. Set the __DataValueField__ property to "Id".
+1. Set the **DataValueField** property to "Id".
 >caption 
 
 ![toolbar datafieldproperties](images/toolbar_datafieldproperties.png)

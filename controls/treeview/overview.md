@@ -1,6 +1,6 @@
 ---
-title: TreeView Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadTreeView Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/overview
 tags: overview

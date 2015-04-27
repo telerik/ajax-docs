@@ -1,6 +1,6 @@
 ---
 title: Client-side Binding
-page_title: Client-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Binding | RadTreeView for ASP.NET AJAX Documentation
 description: Client-side Binding
 slug: treeview/load-on-demand/client-side-binding
 tags: client-side,binding
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug treeview/load-on-demand/server-side-binding%}). The difference is in setting the __ExpandMode__ property of each node to __ServerSideCallback__ instead to __ServerSide__. When a node is clicked, an asynchronous callback is performed automatically to retrieve the data for just that node. Minimally, you must set the __ExpandMode__ to __ServerSideCallback__ and handle the __NodeExpand__ event as shown in the example below. The example has a single root element and only one child element that is loaded on demand.
+Loading on-demand, client-side is similar to [server-side load-on-demand]({%slug treeview/load-on-demand/server-side-binding%}). The difference is in setting the **ExpandMode** property of each node to **ServerSideCallback** instead to **ServerSide**. When a node is clicked, an asynchronous callback is performed automatically to retrieve the data for just that node. Minimally, you must set the **ExpandMode** to **ServerSideCallback** and handle the **NodeExpand** event as shown in the example below. The example has a single root element and only one child element that is loaded on demand.
 
 
 >caption 
@@ -76,19 +76,19 @@ To load an arbitrary number of levels on-demand client-side, the general steps a
 
 * Query the root node data, i.e. for the nodes that the user will see first. When using self-referential hierarchical databases this can be done by querying for nodes where the "parent id" is null. Querying may involve a literal SQL query, but could also be any extraction of data using the root node.
 
-* Iterate through the root node data and add new node objects for each record. Assign to the __Text__ property the data column representing readable text and assign the column containing unique identifiers to the __Value__ property of each node. The Value property will be used later as a parent id when opening a node. Set the Node __ExpandMode__ property to __ServerSideCallback;__ expanding a node will cause an asynchronous callback. During the callback, the server __NodeExpand__ event handler will fire.
+* Iterate through the root node data and add new node objects for each record. Assign to the **Text** property the data column representing readable text and assign the column containing unique identifiers to the **Value** property of each node. The Value property will be used later as a parent id when opening a node. Set the Node **ExpandMode** property to **ServerSideCallback;** expanding a node will cause an asynchronous callback. During the callback, the server **NodeExpand** event handler will fire.
 
-* Create a __NodeExpand__ event handler. This event will pass a reference to the clicked-on node as a parameter. Use the node __Value__ property to query for all child nodes of this parent node.
+* Create a **NodeExpand** event handler. This event will pass a reference to the clicked-on node as a parameter. Use the node **Value** property to query for all child nodes of this parent node.
 
-* Iterate through the child nodes, again populating the __Text__ and __Value__ properties of each node. Set each child node's __ExpandMode__ property to __ServerSideCallback.__ You do not need to set the __ExpandNode__ for the clicked-on, parent node to __ClientSide;__ the ServerSideCallback expand mode automatically handles the case so that the server is not queried twice. Also set the __Expanded__ property of the parent node to __True__.
+* Iterate through the child nodes, again populating the **Text** and **Value** properties of each node. Set each child node's **ExpandMode** property to **ServerSideCallback.** You do not need to set the **ExpandNode** for the clicked-on, parent node to **ClientSide;** the ServerSideCallback expand mode automatically handles the case so that the server is not queried twice. Also set the **Expanded** property of the parent node to **True**.
 
-The example below loads data from the Access Database.mdb database. This database can be found in the RadControls installation directory under Live Demos\App_Data. Any data that has ID, Parent ID and text column data would work in this scenario. In this example the LoadRootNodes() method loads only the node called "Root". When the user clicks that node the first time, the __NodeExpand__ event is fired:
+The example below loads data from the Access Database.mdb database. This database can be found in the RadControls installation directory under Live Demos\App_Data. Any data that has ID, Parent ID and text column data would work in this scenario. In this example the LoadRootNodes() method loads only the node called "Root". When the user clicks that node the first time, the **NodeExpand** event is fired:
 
 * The data for the child nodes of the parent "Root" are retrieved.
 
-* Nodes are created for each record and attached as child nodes to the parent node. The __ExpandMode__ property of each child node is set to __ServerSideCallback__.
+* Nodes are created for each record and attached as child nodes to the parent node. The **ExpandMode** property of each child node is set to **ServerSideCallback**.
 
-* The parent "Root" node's __Expanded__ property is set to __True__, opening the node to display the child nodes.
+* The parent "Root" node's **Expanded** property is set to **True**, opening the node to display the child nodes.
 
 The same general pattern for NodeExpand is repeated when the user clicks a node that has not yet been expanded.
 

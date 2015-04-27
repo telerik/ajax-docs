@@ -1,6 +1,6 @@
 ---
 title: Using Custom Attributes at the Server
-page_title: Using Custom Attributes at the Server | UI for ASP.NET AJAX Documentation
+page_title: Using Custom Attributes at the Server | RadTreeView for ASP.NET AJAX Documentation
 description: Using Custom Attributes at the Server
 slug: treeview/custom-attributes/using-custom-attributes-at-the-server
 tags: using,custom,attributes,at,the,server
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-Access attributes through the RadTreeNode __Attributes__ collection by specifying a key name:
+Access attributes through the RadTreeNode **Attributes** collection by specifying a key name:
 
 
 
@@ -30,7 +30,7 @@ Access attributes through the RadTreeNode __Attributes__ collection by specifyin
 ````
 
 
-The example below iterates the __Attributes__ collection of a selected node and displays the key names and values in a RadTextBox.
+The example below iterates the **Attributes** collection of a selected node and displays the key names and values in a RadTextBox.
 
 ![RadTreeView Custom Attributes](images/treeview_customattributesserverside.png)
 

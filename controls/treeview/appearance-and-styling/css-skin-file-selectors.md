@@ -1,6 +1,6 @@
 ---
 title: CSS Skin File Selectors
-page_title: CSS Skin File Selectors | UI for ASP.NET AJAX Documentation
+page_title: CSS Skin File Selectors | RadTreeView for ASP.NET AJAX Documentation
 description: CSS Skin File Selectors
 slug: treeview/appearance-and-styling/css-skin-file-selectors
 tags: css,skin,file,selectors
@@ -17,7 +17,7 @@ position: 5
 The following table lists significant CSS selectors and descriptions for RadTreeView style sheets.
 
 
-|  __CSS Selector__  |  __Description__  |
+|  **CSS Selector**  |  **Description**  |
 | ------ | ------ |
 |RadTreeView_Telerik|The default style for the <div> tag that contains the control representation.|
 |rtPlus, rtMinus|Applied to the plus and minus (expand and collapse) buttons.|

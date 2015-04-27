@@ -1,6 +1,6 @@
 ---
 title: Client-side Binding
-page_title: Client-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Client-side Binding | RadTreeMap for ASP.NET AJAX Documentation
 description: Client-side Binding
 slug: treemap/data-binding/client-side-binding
 tags: client-side,binding
@@ -12,17 +12,17 @@ position: 1
 
 
 
-The following article, demonstrates the technique to bind the __RadTreeMap__ at client-side.
+The following article, demonstrates the technique to bind the **RadTreeMap** at client-side.
 
 ## 
 
-The RadTreeMap control could be bound entirely at client-side. This scenario can be achieved, by supplying the RadTreeMap with a data, using the __set_dataSource()__ function. The function accepts two parameters, which are as follows:
+The RadTreeMap control could be bound entirely at client-side. This scenario can be achieved, by supplying the RadTreeMap with a data, using the **set_dataSource()** function. The function accepts two parameters, which are as follows:
 
-* __data__ - the data, with witch the control will be supplied with. (see __Example 1__ for a structure reference)
+* **data** - the data, with witch the control will be supplied with. (see **Example 1** for a structure reference)
 
-* __fields__ - the data fields, which presents the mapping between the values of the data source and the control: __textField, valueField and colorField__. In addition, you could specify the name for the sub-items collection from the data source, using the __childrenField__. The __childrenField__ has a default value - __items__. (see __Example 1__ for a structure reference)
+* **fields** - the data fields, which presents the mapping between the values of the data source and the control: **textField, valueField and colorField**. In addition, you could specify the name for the sub-items collection from the data source, using the **childrenField**. The **childrenField** has a default value - **items**. (see **Example 1** for a structure reference)
 
-__Example 1__ - demonstrates the technique for achieving a client-side data-binding for __RadTreeMap__.
+**Example 1** - demonstrates the technique for achieving a client-side data-binding for **RadTreeMap**.
 
 
 

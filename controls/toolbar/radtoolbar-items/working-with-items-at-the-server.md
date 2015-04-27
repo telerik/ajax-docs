@@ -1,6 +1,6 @@
 ---
 title: Working With Items at the Server
-page_title: Working With Items at the Server | UI for ASP.NET AJAX Documentation
+page_title: Working With Items at the Server | RadToolBar for ASP.NET AJAX Documentation
 description: Working With Items at the Server
 slug: toolbar/radtoolbar-items/working-with-items-at-the-server
 tags: working,with,items,at,the,server
@@ -12,11 +12,11 @@ position: 2
 
 
 
-Using the server-side API, you can programmatically add, remove, disable, or select items in __RadToolBar__.
+Using the server-side API, you can programmatically add, remove, disable, or select items in **RadToolBar**.
 
 ## Adding items
 
-Use the __Add__ method of the __RadToolBarItemCollection__ object to add items programmatically. To add buttons to the __RadToolBarDropDown__ or __RadToolBarSplitButton__, use the __Buttons__ collections of these objects as shown below:
+Use the **Add** method of the **RadToolBarItemCollection** object to add items programmatically. To add buttons to the **RadToolBarDropDown** or **RadToolBarSplitButton**, use the **Buttons** collections of these objects as shown below:
 
 
 
@@ -71,7 +71,7 @@ Use the __Add__ method of the __RadToolBarItemCollection__ object to add items p
 
 ## Removing items
 
-Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ collections of the __RadToolBarDropDown__ or the __RadToolBarSplitButton__ objects to remove items:
+Use the **Remove** method of the **RadToolBarItemCollection**or the **Buttons** collections of the **RadToolBarDropDown** or the **RadToolBarSplitButton** objects to remove items:
 
 
 
@@ -101,7 +101,7 @@ Use the __Remove__ method of the __RadToolBarItemCollection__or the __Buttons__ 
 
 ## Disabling items
 
-Use the __Enable__ property of the __RadToolBarItem__ object to enable or disable an item:
+Use the **Enable** property of the **RadToolBarItem** object to enable or disable an item:
 
 
 

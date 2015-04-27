@@ -1,6 +1,6 @@
 ---
 title: RadTreeNode
-page_title: RadTreeNode | UI for ASP.NET AJAX Documentation
+page_title: RadTreeNode | RadTreeView for ASP.NET AJAX Documentation
 description: RadTreeNode
 slug: treeview/client-side-programming/objects/radtreenode
 tags: radtreenode
@@ -16,7 +16,7 @@ position: 1
 
 The table below lists the most important function of the RadTreeNode object.
 
->caution When setting a property to a node via the methods below, first make sure that the node is __already added__ to the treeview to prevent javascript errors on the page.
+>caution When setting a property to a node via the methods below, first make sure that the node is **already added** to the treeview to prevent javascript errors on the page.
 >
 
 
@@ -27,9 +27,9 @@ The table below lists the most important function of the RadTreeNode object.
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __findControl__ |String|Object|Returns the client-side object of the Control with the specified ID nested in the Node's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
-| __toJsonString__ |none|string|Returns the JSON representation of the node (serialize the node as a string in JSON format).|
-| __get_previousNode__ |none|RadTreeNode|Gets an instance of the previous sibling of a Node.|
+| **findControl** |String|Object|Returns the client-side object of the Control with the specified ID nested in the Node's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
+| **toJsonString** |none|string|Returns the JSON representation of the node (serialize the node as a string in JSON format).|
+| **get_previousNode** |none|RadTreeNode|Gets an instance of the previous sibling of a Node.|
 
 ````JavaScript
 	     
@@ -52,7 +52,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_nextNode__  | none | RadTreeNode | Gets an instance of the next sibling of a Node. |
+|  **get_nextNode**  | none | RadTreeNode | Gets an instance of the next sibling of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -75,7 +75,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __expand & collapse__  | none | none | expand() opens a Node to display child Nodes. collapse() closes a Node to hide child Nodes. |
+|  **expand & collapse**  | none | none | expand() opens a Node to display child Nodes. collapse() closes a Node to hide child Nodes. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -99,7 +99,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_expanded__  | bool | none | Expands or collapses a Node. |
+|  **set_expanded**  | bool | none | Expands or collapses a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -126,7 +126,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __toggle__  | none | none | Collapses an expanded Node or expands a collapsed Node. |
+|  **toggle**  | none | none | Collapses an expanded Node or expands a collapsed Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -146,7 +146,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __highlight & unhighlight__  | none | none | Highlights or un-highlights a Node. Highlighted Nodes are visually emphasized. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). |
+|  **highlight & unhighlight**  | none | none | Highlights or un-highlights a Node. Highlighted Nodes are visually emphasized. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -167,7 +167,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __select & unselect__  | none | none | Select or unselect a Node. Selecting a Node typically emphasizes the Node. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). Highlighting and selecting have similar but not identical displays.If selecting a Node with a mouse does postback, calling the __select()__ function will select the Node and do postback. |
+|  **select & unselect**  | none | none | Select or unselect a Node. Selecting a Node typically emphasizes the Node. The specific display is dictated by the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). Highlighting and selecting have similar but not identical displays.If selecting a Node with a mouse does postback, calling the **select()** function will select the Node and do postback. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -194,7 +194,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_selected__  | bool | none | Selects or unselects a Node based on the boolean parameter.If selecting a Node with a mouse does postback, calling the __set_selected(true)__ function will select the Node but will NOT do postback. |
+|  **set_selected**  | bool | none | Selects or unselects a Node based on the boolean parameter.If selecting a Node with a mouse does postback, calling the **set_selected(true)** function will select the Node but will NOT do postback. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -221,7 +221,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __enable & disable__  | none | none | disable() makes a Node inactive and unclickable. Typically the Node is displayed in a lighter color dictated by the style setting of the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). enable() returns the Node to a usable, clickable state. disable is a functionally equivalent to set_enabled(false) and enable() is equivalent to set_enabled(true). |
+|  **enable & disable**  | none | none | disable() makes a Node inactive and unclickable. Typically the Node is displayed in a lighter color dictated by the style setting of the[Skin](A2ACD8E0-A5F3-4093-A5DA-FF45D737F6FA). enable() returns the Node to a usable, clickable state. disable is a functionally equivalent to set_enabled(false) and enable() is equivalent to set_enabled(true). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -249,7 +249,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_enabled__  | bool | none | Enables or disables a Node based on the boolean parameter passed in. set_enabled(false) is a functionally equivalent to disable() and set_enabled(true) is equivalent to enable(). |
+|  **set_enabled**  | bool | none | Enables or disables a Node based on the boolean parameter passed in. set_enabled(false) is a functionally equivalent to disable() and set_enabled(true) is equivalent to enable(). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -278,7 +278,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __check & uncheck__  | none | none | Marks or unmarks the checkbox for a Node. check() is a functionally equivalent to set_checked(true) and uncheck() is equivalent to set_checked(false); |
+|  **check & uncheck**  | none | none | Marks or unmarks the checkbox for a Node. check() is a functionally equivalent to set_checked(true) and uncheck() is equivalent to set_checked(false); |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -307,7 +307,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_checked__  | bool | none | Marks or unmarks the checkbox for a Node. check() is a functionally equivalent to set_checked(true) and uncheck() is equivalent to set_checked(false); |
+|  **set_checked**  | bool | none | Marks or unmarks the checkbox for a Node. check() is a functionally equivalent to set_checked(true) and uncheck() is equivalent to set_checked(false); |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -337,9 +337,9 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_checkState__  | none | Telerik.Web.UI.TreeNodeCheckState | Returns the current check state of a node. It can be one of the following:Telerik.Web.UI.TreeNodeCheckState.Unchecked, Telerik.Web.UI.TreeNodeCheckState.Checked or Telerik.Web.UI.TreeNodeCheckState.Indeterminate |
+|  **get_checkState**  | none | Telerik.Web.UI.TreeNodeCheckState | Returns the current check state of a node. It can be one of the following:Telerik.Web.UI.TreeNodeCheckState.Unchecked, Telerik.Web.UI.TreeNodeCheckState.Checked or Telerik.Web.UI.TreeNodeCheckState.Indeterminate |
 | ------ | ------ | ------ | ------ |
-| __startEdit__ |none|none|Allows the Node to be edited. This is equivalent to the user[clicking the Node twice or pressing F2]({%slug treeview/accessibility-and-internationalization/keyboard-support%}).|
+| **startEdit** |none|none|Allows the Node to be edited. This is equivalent to the user[clicking the Node twice or pressing F2]({%slug treeview/accessibility-and-internationalization/keyboard-support%}).|
 
 ````JavaScript
 	     
@@ -360,7 +360,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __endEdit__  | none | none | Takes the Node out of editing mode. |
+|  **endEdit**  | none | none | Takes the Node out of editing mode. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -398,7 +398,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_checkBoxElement__  | none | DOM Element | Gets the DOM Element of the checkbox. |
+|  **get_checkBoxElement**  | none | DOM Element | Gets the DOM Element of the checkbox. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -418,7 +418,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __scrollIntoView__  | none | none | Causes the Node to scroll into view, aligning the Node to the bottom of the TreeView area. This function repositions the *TreeView's* scrollbars, not the scrollbars for the page itself. |
+|  **scrollIntoView**  | none | none | Causes the Node to scroll into view, aligning the Node to the bottom of the TreeView area. This function repositions the *TreeView's* scrollbars, not the scrollbars for the page itself. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -438,7 +438,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_imageElement__  | none | DOM Element | Gets the DOM Element of the image set to the node. __Note:__ Images are set using the RadTreeView __ImageUrl__ property. |
+|  **get_imageElement**  | none | DOM Element | Gets the DOM Element of the image set to the node. **Note:** Images are set using the RadTreeView **ImageUrl** property. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -458,7 +458,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_textElement__  | none | DOM Element | Gets the DOM Element of the text set to the Node. __Note__ : Changes to the text element are not persisted across postbacks. |
+|  **get_textElement**  | none | DOM Element | Gets the DOM Element of the text set to the Node. **Note** : Changes to the text element are not persisted across postbacks. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -479,7 +479,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_text__  | none | string | Retrieves the text for a Node. |
+|  **get_text**  | none | string | Retrieves the text for a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -500,10 +500,10 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_text__  | string | none | Sets the text of the Node. |
+|  **set_text**  | string | none | Sets the text of the Node. |
 | ------ | ------ | ------ | ------ |
-| __get_value__ |none|string|Gets the value of the Node.|
-| __set_value__ |string|none|Sets the value of the Node.|
+| **get_value** |none|string|Gets the value of the Node.|
+| **set_value** |string|none|Sets the value of the Node.|
 
 ````JavaScript
 	     
@@ -523,9 +523,9 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_category__  | none | string | Gets the category of the Node. |
+|  **get_category**  | none | string | Gets the category of the Node. |
 | ------ | ------ | ------ | ------ |
-| __set_category__ |string|none|Sets the category of the Node.|
+| **set_category** |string|none|Sets the category of the Node.|
 
 ````JavaScript
 	     
@@ -545,9 +545,9 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_isEnabled__  | none | bool | Returns true if both the Node and the tree are enabled. If one of them is disabled, the get_isEnabled returns false. |
+|  **get_isEnabled**  | none | bool | Returns true if both the Node and the tree are enabled. If one of them is disabled, the get_isEnabled returns false. |
 | ------ | ------ | ------ | ------ |
-| __get_enabled__ |none|bool|Gets the enabled state of the Node. The Node is enabled if get_enabled() returns true.|
+| **get_enabled** |none|bool|Gets the enabled state of the Node. The Node is enabled if get_enabled() returns true.|
 
 ````JavaScript
 	     
@@ -574,7 +574,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_expanded__  | none | bool | Gets the expanded/collapsed state of a Node. The Node is expanded if get_expanded() returns true. |
+|  **get_expanded**  | none | bool | Gets the expanded/collapsed state of a Node. The Node is expanded if get_expanded() returns true. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -602,7 +602,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_checked__  | none | bool | Gets the checked state of a Node. The Node is checked if get_checked() returns true. |
+|  **get_checked**  | none | bool | Gets the checked state of a Node. The Node is checked if get_checked() returns true. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -630,7 +630,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_selected__  | none | bool | Gets the selected state of a Node. Returns true if the Node is selected. |
+|  **get_selected**  | none | bool | Gets the selected state of a Node. Returns true if the Node is selected. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -658,7 +658,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_nodes__  | none | Telerik.Web.UI.RadTreeNodeCollection | Returns the RadTreeNodeCollection of a Node. |
+|  **get_nodes**  | none | Telerik.Web.UI.RadTreeNodeCollection | Returns the RadTreeNodeCollection of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -680,7 +680,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_allNodes__  | none | array of RadTreeNode objects | Returns all child nodes of a Node. |
+|  **get_allNodes**  | none | array of RadTreeNode objects | Returns all child nodes of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -702,7 +702,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_parent__  | none | RadTreeNode/RadTreeView | Gets an instance of the parent-Node or the RadTreeView object if the Node is a root Node. |
+|  **get_parent**  | none | RadTreeNode/RadTreeView | Gets an instance of the parent-Node or the RadTreeView object if the Node is a root Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -721,7 +721,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_treeView__  | none | RadTreeView | Gets an instance to the parent RadTreeView. The example below retrieves the TreeView and calls various methods from the TreeView. |
+|  **get_treeView**  | none | RadTreeView | Gets an instance to the parent RadTreeView. The example below retrieves the TreeView and calls various methods from the TreeView. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -751,7 +751,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_element__  | none | DOM Element | Returns the DOM element for a Node. |
+|  **get_element**  | none | DOM Element | Returns the DOM element for a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -769,7 +769,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_contextMenu__  | none | RadMenu | Returns the context menu object (if any). |
+|  **get_contextMenu**  | none | RadMenu | Returns the context menu object (if any). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -789,9 +789,9 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_navigateUrl__  | none | String | Returns the URL of the Node(the href attribute of the link). Null if the NavigateUrl server property is not set. |
+|  **get_navigateUrl**  | none | String | Returns the URL of the Node(the href attribute of the link). Null if the NavigateUrl server property is not set. |
 | ------ | ------ | ------ | ------ |
-| __set_navigateUrl__ |String|none|Sets the URL of the Node. Works only if the NavigateUrl property has been set at the server-side beforehand or if the Node is not added at the client-side.|
+| **set_navigateUrl** |String|none|Sets the URL of the Node. Works only if the NavigateUrl property has been set at the server-side beforehand or if the Node is not added at the client-side.|
 
 ````JavaScript
 	function setNavigateUrlToTheSelectedNode() {
@@ -808,7 +808,7 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_attributes__  | none | Collection | Returns a Collection of all custom attributes set to the Node. |
+|  **get_attributes**  | none | Collection | Returns a Collection of all custom attributes set to the Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -829,35 +829,35 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __set_target__  | String | none | Sets the target of the Node. |
+|  **set_target**  | String | none | Sets the target of the Node. |
 | ------ | ------ | ------ | ------ |
-| __get_target__ |none|String|Gets the target of the Node. If a target is not set, returns __null__ .|
-| __set_toolTip__ |String|none|Sets the ToolTip of the Node.|
-| __get_toolTip__ |none|String|Gets the ToolTip of the Node. If a ToolTip is not set, returns __null__ .|
-| __get_level__ |none|Integer|Gets the Level of the Node in the TreeView structure. Root Nodes are at level 0, their children Nodes - at 1 and so on.|
-| __set_checkable__ |Boolean|none|Enables/Disables the checkability of the Node.|
-| __get_imageUrl__ |none|String|Returns the path to the image displayed next to the Node.|
-| __set_imageUrl__ |String|none|Sets the path to the image displayed next to the Node.|
-| __get_disabledImageUrl__ |none|String|Returns the path to the image displayed next to the Node when disabled.|
-| __set_disabledImageUrl__ |String|none|Sets the path to the image displayed next to the Node when disabled.|
-| __get_expandedImageUrl__ |none|String|Returns the path to the image displayed next to the Node when expanded.|
-| __set_expandedImageUrl__ |String|none|Sets the path to the image displayed next to the Node when expanded.|
-| __get_selectedImageUrl__ |none|String|Returns the path to the image displayed next to the Node when selected.|
-| __set_selectedImageUrl__ |String|none|Sets the path to the image displayed next to the Node when selected.|
-| __get_hoveredImageUrl__ |none|String|Returns the path to the image displayed next to the Node when hovered.|
-| __set_hoveredImageUrl__ |String|none|Sets the path to the image displayed next to the Node when hovered.|
-| __get_cssClass__ |none|String|Returns the name of the CSS class applied to the Node.|
-| __set_cssClass__ |String|none|Sets the name of the CSS class to be applied to the Node.|
-| __get_disabledCssClass__ |none|String|Returns the name of the CSS class applied to the Node when disabled.|
-| __set_disabledCssClass__ |String|none|Sets the name of the CSS class to be applied to the Node when disabled.|
-| __get_hoveredCssClass__ |none|String|Returns the name of the CSS class applied to the Node when hovered.|
-| __set_hoveredCssClass__ |String|none|Sets the name of the CSS class to be applied to the Node when hovered.|
-| __get_childListElement__ |none|HTML Element|Returns the UL HTML element which contains the HTML elements of the child Nodes. Null if there are no child Nodes.|
-| __get_contextMenuID__ |none|String|Returns the ID of the Context Menu assigned to the Node.|
-| __set_contextMenuID__ |String|none|Sets the ID of the Context menu to be assigned to the Node.|
-| __get_toggleElement__ |none|HTML Element|Returns the HTML element representing the toggle image. Null, if the Node has no child Nodes.|
-| __get_enableContextMenu__ |none|Boolean|True if the Context Menus are enabled, False otherwise.|
-| __showLoadingStatus__ |statusText, position|none|Shows the loading message at the specified position. The available positions are: Telerik.Web.UI.TreeViewLoadingStatusPosition.BelowNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.AfterNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.BeforeNodeText|
+| **get_target** |none|String|Gets the target of the Node. If a target is not set, returns **null** .|
+| **set_toolTip** |String|none|Sets the ToolTip of the Node.|
+| **get_toolTip** |none|String|Gets the ToolTip of the Node. If a ToolTip is not set, returns **null** .|
+| **get_level** |none|Integer|Gets the Level of the Node in the TreeView structure. Root Nodes are at level 0, their children Nodes - at 1 and so on.|
+| **set_checkable** |Boolean|none|Enables/Disables the checkability of the Node.|
+| **get_imageUrl** |none|String|Returns the path to the image displayed next to the Node.|
+| **set_imageUrl** |String|none|Sets the path to the image displayed next to the Node.|
+| **get_disabledImageUrl** |none|String|Returns the path to the image displayed next to the Node when disabled.|
+| **set_disabledImageUrl** |String|none|Sets the path to the image displayed next to the Node when disabled.|
+| **get_expandedImageUrl** |none|String|Returns the path to the image displayed next to the Node when expanded.|
+| **set_expandedImageUrl** |String|none|Sets the path to the image displayed next to the Node when expanded.|
+| **get_selectedImageUrl** |none|String|Returns the path to the image displayed next to the Node when selected.|
+| **set_selectedImageUrl** |String|none|Sets the path to the image displayed next to the Node when selected.|
+| **get_hoveredImageUrl** |none|String|Returns the path to the image displayed next to the Node when hovered.|
+| **set_hoveredImageUrl** |String|none|Sets the path to the image displayed next to the Node when hovered.|
+| **get_cssClass** |none|String|Returns the name of the CSS class applied to the Node.|
+| **set_cssClass** |String|none|Sets the name of the CSS class to be applied to the Node.|
+| **get_disabledCssClass** |none|String|Returns the name of the CSS class applied to the Node when disabled.|
+| **set_disabledCssClass** |String|none|Sets the name of the CSS class to be applied to the Node when disabled.|
+| **get_hoveredCssClass** |none|String|Returns the name of the CSS class applied to the Node when hovered.|
+| **set_hoveredCssClass** |String|none|Sets the name of the CSS class to be applied to the Node when hovered.|
+| **get_childListElement** |none|HTML Element|Returns the UL HTML element which contains the HTML elements of the child Nodes. Null if there are no child Nodes.|
+| **get_contextMenuID** |none|String|Returns the ID of the Context Menu assigned to the Node.|
+| **set_contextMenuID** |String|none|Sets the ID of the Context menu to be assigned to the Node.|
+| **get_toggleElement** |none|HTML Element|Returns the HTML element representing the toggle image. Null, if the Node has no child Nodes.|
+| **get_enableContextMenu** |none|Boolean|True if the Context Menus are enabled, False otherwise.|
+| **showLoadingStatus** |statusText, position|none|Shows the loading message at the specified position. The available positions are: Telerik.Web.UI.TreeViewLoadingStatusPosition.BelowNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.AfterNodeText Telerik.Web.UI.TreeViewLoadingStatusPosition.BeforeNodeText|
 
 ````JavaScript
 	     
@@ -871,14 +871,14 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __hideLoadingStatus__  | none | none | Hides the loading message. |
+|  **hideLoadingStatus**  | none | none | Hides the loading message. |
 | ------ | ------ | ------ | ------ |
-| __get_postBack__ |none|Boolean|True if postback is enabled, false otherwise.|
-| __set_postBack__ |Boolean|none|Determines if the Node should postback.|
-| __get_expandMode__ |none|Int|Returns the ExpandMode of the Node.ExpandMode can be:0 - ExpandMode.ClientSide;1 - ExpandMode.ServerSide;2 - ExpandMode.ServerSideCallBack;3 - ExpandMode.WebService;|
-| __set_expandMode__ |ExpandMode|none|Sets the ExpandMode of the Node.ExpandMode can be:Telerik.Web.UI.TreeNodeExpandMode.ClientSide;Telerik.Web.UI.TreeNodeExpandMode.ServerSide;Telerik.Web.UI.TreeNodeExpandMode.ServerSideCallBack;Telerik.Web.UI.TreeNodeExpandMode.WebService;|
-| __get_visible__ |none|Boolean|True if the item is visible.|
-| __set_visible__ |Boolean|none|Sets the visibility of the item.|
+| **get_postBack** |none|Boolean|True if postback is enabled, false otherwise.|
+| **set_postBack** |Boolean|none|Determines if the Node should postback.|
+| **get_expandMode** |none|Int|Returns the ExpandMode of the Node.ExpandMode can be:0 - ExpandMode.ClientSide;1 - ExpandMode.ServerSide;2 - ExpandMode.ServerSideCallBack;3 - ExpandMode.WebService;|
+| **set_expandMode** |ExpandMode|none|Sets the ExpandMode of the Node.ExpandMode can be:Telerik.Web.UI.TreeNodeExpandMode.ClientSide;Telerik.Web.UI.TreeNodeExpandMode.ServerSide;Telerik.Web.UI.TreeNodeExpandMode.ServerSideCallBack;Telerik.Web.UI.TreeNodeExpandMode.WebService;|
+| **get_visible** |none|Boolean|True if the item is visible.|
+| **set_visible** |Boolean|none|Sets the visibility of the item.|
 
 ````JavaScript
 	     
@@ -892,14 +892,14 @@ The table below lists the most important function of the RadTreeNode object.
 
 >caption  
 
-|  __get_allowEdit__  | none | Boolean | True, if Node edit is allowed, false, otherwise. |
+|  **get_allowEdit**  | none | Boolean | True, if Node edit is allowed, false, otherwise. |
 | ------ | ------ | ------ | ------ |
-| __set_allowEdit__ |Boolean|none|Allows/Disallows Node editing.|
-| __get_allowDrag__ |none|Boolean|True, if dragging is allowed, false otherwise.|
-| __set_allowDrag__ |Boolean|none|Enables/Disables dragging.|
-| __get_allowDrop__ |none|Boolean|True, if dropping is allowed, false otherwise.|
-| __set_allowDrop__ |Boolean|none|Enables/Disables dragging.|
-| __get_index__ |none|int|Returns the index of the node in the nodes collection of its parent.|
+| **set_allowEdit** |Boolean|none|Allows/Disallows Node editing.|
+| **get_allowDrag** |none|Boolean|True, if dragging is allowed, false otherwise.|
+| **set_allowDrag** |Boolean|none|Enables/Disables dragging.|
+| **get_allowDrop** |none|Boolean|True, if dropping is allowed, false otherwise.|
+| **set_allowDrop** |Boolean|none|Enables/Disables dragging.|
+| **get_index** |none|int|Returns the index of the node in the nodes collection of its parent.|
 
 # See Also
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeEditStart
-page_title: OnClientNodeEditStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeEditStart | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeEditStart
 slug: treeview/client-side-programming/events/onclientnodeeditstart
 tags: onclientnodeeditstart
@@ -14,9 +14,9 @@ position: 8
 
 ## 
 
-The __OnClientNodeEditStart__ client-side event is called as the edit begins. This event can not be canceled.
+The **OnClientNodeEditStart** client-side event is called as the edit begins. This event can not be canceled.
 
-You can use this event to set any properties of the __input__ area of the edited node.
+You can use this event to set any properties of the **input** area of the edited node.
 
 The event handler receives parameters:
 
@@ -24,19 +24,19 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-1. __get_node()__ retrieves a reference to the node being edited.
+1. **get_node()** retrieves a reference to the node being edited.
 
-* You can call __get_text()__ from this node reference to get the "old" text prior to editing.
+* You can call **get_text()** from this node reference to get the "old" text prior to editing.
 
-* You can call __get_inputElement()__ from this node reference to get the INPUT area of the edited node
+* You can call **get_inputElement()** from this node reference to get the INPUT area of the edited node
 
-1. __get_domEvent()__ retrieves a DOM event object of the node edit.
+1. **get_domEvent()** retrieves a DOM event object of the node edit.
 
 
 
-The example below uses the __OnClientNodeEditStart__ event to change the text displayed in the INPUT area.
+The example below uses the **OnClientNodeEditStart** event to change the text displayed in the INPUT area.
 
-We will achieve the following: when you edit a node like __Drafts (2)__ you will not see the (2) in the INPUT area, but only the real text like below. We will use the [OnClientNodeEdited]({%slug treeview/client-side-programming/events/onclientnodeedited%}) event to restore the number (2) to the original text upon saving.
+We will achieve the following: when you edit a node like **Drafts (2)** you will not see the (2) in the INPUT area, but only the real text like below. We will use the [OnClientNodeEdited]({%slug treeview/client-side-programming/events/onclientnodeedited%}) event to restore the number (2) to the original text upon saving.
 
 
 >caption 
@@ -102,7 +102,7 @@ We will achieve the following: when you edit a node like __Drafts (2)__ you will
 
 
 
->note This event is available in all versions after __Q3 SP2 2008__ release.
+>note This event is available in all versions after **Q3 SP2 2008** release.
 >
 
 

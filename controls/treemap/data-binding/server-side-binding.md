@@ -1,6 +1,6 @@
 ---
 title: Server-side Binding
-page_title: Server-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Server-side Binding | RadTreeMap for ASP.NET AJAX Documentation
 description: Server-side Binding
 slug: treemap/data-binding/server-side-binding
 tags: server-side,binding
@@ -12,21 +12,21 @@ position: 0
 
 
 
-The following article demonstrates how the __RadTreeMap__ could be bound to __SqlDataSource__.
+The following article demonstrates how the **RadTreeMap** could be bound to **SqlDataSource**.
 
 ## 
 
-__RadTreeMap__ can be bound to declarative data source controls like __SqlDataSource, ObjectDataSource, EntityDataSource, OpenAccessDataSource and LinqDataSource__.
+**RadTreeMap** can be bound to declarative data source controls like **SqlDataSource, ObjectDataSource, EntityDataSource, OpenAccessDataSource and LinqDataSource**.
 
-The steps listed below demonstrate how to bind the control using __SqlDataSource__.
+The steps listed below demonstrate how to bind the control using **SqlDataSource**.
 
-1. Place the __RadTreeMap__ control on the page.
+1. Place the **RadTreeMap** control on the page.
 
-1. Add __SqlDataSource__ control to the page and set the __SelectCommand__ appropriately. In the __SelectCommand__ you should enumerate the desired fields, which you need to bind the control against and the __ParentID__, so that the hierarchyof the items could be achieved.
+1. Add **SqlDataSource** control to the page and set the **SelectCommand** appropriately. In the **SelectCommand** you should enumerate the desired fields, which you need to bind the control against and the **ParentID**, so that the hierarchyof the items could be achieved.
 
-1. Assign the __DataSourceID__ to the __RadTreeMap__.
+1. Assign the **DataSourceID** to the **RadTreeMap**.
 
-1. Set the properties of the RadTreeMap (__DataTextField, DataValueField, DataFieldID, DataFieldParentID__), in order to match the desirable fields from the database table.
+1. Set the properties of the RadTreeMap (**DataTextField, DataValueField, DataFieldID, DataFieldParentID**), in order to match the desirable fields from the database table.
 
 In the example below, you could observe a possible implementation of the SqlDataSource binding:
 

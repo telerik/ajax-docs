@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeDropped
-page_title: OnClientNodeDropped | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeDropped | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeDropped
 slug: treeview/client-side-programming/events/onclientnodedropped
 tags: onclientnodedropped
@@ -14,7 +14,7 @@ position: 13
 
 ## 
 
-The __OnClientNodeDropped__ client-side event is called after node(s) are dropped.
+The **OnClientNodeDropped** client-side event is called after node(s) are dropped.
 
 The event handler receives parameters:
 
@@ -22,11 +22,11 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_sourceNode()__ retrieves the node being dropped. When the RadTreeView __MultipleSelect__ property is __True__, __get_sourceNode()__ refers to the first node selected.
+* **get_sourceNode()** retrieves the node being dropped. When the RadTreeView **MultipleSelect** property is **True**, **get_sourceNode()** refers to the first node selected.
 
-* __get_sourceNodes()__ retrieves an array of nodes being dropped if the RadTreeView __MultipleSelect__ property is __True__.
+* **get_sourceNodes()** retrieves an array of nodes being dropped if the RadTreeView **MultipleSelect** property is **True**.
 
-* __get_domEvent()__ retrieves a DOM event object of the node dropping.
+* **get_domEvent()** retrieves a DOM event object of the node dropping.
 
 The example below displays information for the dropped source nodes.
 

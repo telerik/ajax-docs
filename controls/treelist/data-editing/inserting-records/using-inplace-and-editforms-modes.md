@@ -1,6 +1,6 @@
 ---
 title: Using InPlace and EditForms Modes
-page_title: Using InPlace and EditForms Modes | UI for ASP.NET AJAX Documentation
+page_title: Using InPlace and EditForms Modes | RadTreeList for ASP.NET AJAX Documentation
 description: Using InPlace and EditForms Modes
 slug: treelist/data-editing/inserting-records/using-inplace-and-editforms-modes
 tags: using,inplace,and,editforms,modes
@@ -20,7 +20,7 @@ This article will show you how you can access the values on insert when you are 
 
 ## Accessing the insert values using ExtractValuesFromItem() method
 
-The __ExtractValuesFromItem(dictionaryObject, editableItem, includePrimaryKey)__ method of RadTreeList takes the following arguments:
+The **ExtractValuesFromItem(dictionaryObject, editableItem, includePrimaryKey)** method of RadTreeList takes the following arguments:
 
 * IDictionary dictionaryObject - the collection which will hold the values, using the column UniqueName of each edit field as a key.
 

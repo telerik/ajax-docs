@@ -1,6 +1,6 @@
 ---
 title: Expanding and Collapsing All Nodes
-page_title: Expanding and Collapsing All Nodes | UI for ASP.NET AJAX Documentation
+page_title: Expanding and Collapsing All Nodes | RadTreeView for ASP.NET AJAX Documentation
 description: Expanding and Collapsing All Nodes
 slug: treeview/application-scenarios/client-side-programming/expanding-and-collapsing-all-nodes
 tags: expanding,and,collapsing,all,nodes

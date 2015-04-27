@@ -1,6 +1,6 @@
 ---
-title: TreeMap Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadTreeMap Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: treemap/overview
 tags: overview

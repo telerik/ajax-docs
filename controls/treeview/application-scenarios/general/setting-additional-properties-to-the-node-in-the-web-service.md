@@ -1,6 +1,6 @@
 ---
 title: Setting Additional Properties to the Node in the Web Service
-page_title: Setting Additional Properties to the Node in the Web Service | UI for ASP.NET AJAX Documentation
+page_title: Setting Additional Properties to the Node in the Web Service | RadTreeView for ASP.NET AJAX Documentation
 description: Setting Additional Properties to the Node in the Web Service
 slug: treeview/application-scenarios/general/setting-additional-properties-to-the-node-in-the-web-service
 tags: setting,additional,properties,to,the,node,in,the,web,service
@@ -95,7 +95,7 @@ Imagine that you need to set a property that is not available in the RadTreeNode
 Here is the JSON output for the first child node:
 
 ````JavaScript
-	    {"__type":"CustomRadTreeNodeData","ToolTip":"Tooltip for node 1","ExpandMode":0,"NavigateUrl":"","PostBack"
+	    {"**type":"CustomRadTreeNodeData","ToolTip":"Tooltip for node 1","ExpandMode":0,"NavigateUrl":"","PostBack"
 	    :true,"CssClass":"","DisabledCssClass":"","SelectedCssClass":"","ContentCssClass":null,"HoveredCssClass"
 	    :"","ImageUrl":"","HoveredImageUrl":null,"DisabledImageUrl":"","ExpandedImageUrl":"","ContextMenuID"
 	    :null,"Text":"node 1","Value":"","Enabled":true,"Attributes":{}}
@@ -146,7 +146,7 @@ Here is the JSON output for the first child node:
 Here is the JSON output for the first child node:
 
 ````JavaScript
-	    {"__type":"Telerik.Web.UI.RadTreeNodeData","ExpandMode":0,"NavigateUrl":"","PostBack":true,"CssClass"
+	    {"**type":"Telerik.Web.UI.RadTreeNodeData","ExpandMode":0,"NavigateUrl":"","PostBack":true,"CssClass"
 	    :"","DisabledCssClass":"","SelectedCssClass":"","ContentCssClass":null,"HoveredCssClass":"","ImageUrl"
 	    :"","HoveredImageUrl":null,"DisabledImageUrl":"","ExpandedImageUrl":"","ContextMenuID":null,"Text":"node
 	    1","Value":"","Enabled":true,"Attributes":{"ToolTip":"new tooltip for node 1"}}

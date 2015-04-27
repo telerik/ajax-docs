@@ -1,6 +1,6 @@
 ---
 title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height
-page_title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height | UI for ASP.NET AJAX Documentation
+page_title: Resizing TreeList with Scrolling when Data is Less Than Scroll Height | RadTreeList for ASP.NET AJAX Documentation
 description: Resizing TreeList with Scrolling when Data is Less Than Scroll Height
 slug: treelist/functionality/scrolling/how-to/resizing-treelist-with-scrolling-when-data-is-less-than-scroll-height
 tags: resizing,treelist,with,scrolling,when,data,is,less,than,scroll,height
@@ -14,9 +14,9 @@ position: 2
 
 ## 
 
-Sometimes your application may reduce the records that __RadTreeList__ displays by some method such as adynamically changing the page size. When this occurs, the treelist automatically resizes its contentarea for the smaller amount of data, except when scrolling is enabled.
+Sometimes your application may reduce the records that **RadTreeList** displays by some method such as adynamically changing the page size. When this occurs, the treelist automatically resizes its contentarea for the smaller amount of data, except when scrolling is enabled.
 
-To reduce the size of the treelist when the data does not fill the content area when scrolling is enabled, use the client-side__TreeListCreated__ event. In the __TreeListCreated__ event handler, check whether theinner table height is less than the value of the __ClientSettings.Scrolling.ScrollHeight__ property, and if so,explicitly modify the scroll area height to match the height of the data items.
+To reduce the size of the treelist when the data does not fill the content area when scrolling is enabled, use the client-side**TreeListCreated** event. In the **TreeListCreated** event handler, check whether theinner table height is less than the value of the **ClientSettings.Scrolling.ScrollHeight** property, and if so,explicitly modify the scroll area height to match the height of the data items.
 
 The following example illustrates this technique:
 

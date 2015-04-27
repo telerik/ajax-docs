@@ -1,6 +1,6 @@
 ---
 title: PDF Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/functionality/exporting/pdf/overview
 tags: overview
@@ -13,7 +13,7 @@ position: 0
 
 
 >note Note that the *RadTreeList* will render as an *XHTML* table and will convert that table to a *PDF* document. This requires that the rendered treelist output is valid *XHTML* . If it is not,you will receive an exception that the export cannot be completed.
->The most common cause for bad *XHTML* are symbols like __<__ , __>__ , __&__ that need to be replaced by the correct *XHTML* entity: __& l t ;__ , __& g t ;__ , __& a m p ;__ respectively. Another frequent problem are unclosed tags.
+>The most common cause for bad *XHTML* are symbols like **<** , **>** , **&** that need to be replaced by the correct *XHTML* entity: **& l t ;** , **& g t ;** , **& a m p ;** respectively. Another frequent problem are unclosed tags.
 >
 
 
@@ -41,13 +41,13 @@ position: 0
 
 ## OnPdfExporting event
 
-The reason for having separate __OnPdfExporting__ event is that by the time the __OnExporting__ event is raised, the *Pdf* output is already generated and ready for adding to the response. Some cases where the __OnPdfExporting__ event is helpful, is when you want to modify the output - for example, you can add HTML to the *e.RawHTML*. However, please note that will be part of your custom logic and we do not support it.
+The reason for having separate **OnPdfExporting** event is that by the time the **OnExporting** event is raised, the *Pdf* output is already generated and ready for adding to the response. Some cases where the **OnPdfExporting** event is helpful, is when you want to modify the output - for example, you can add HTML to the *e.RawHTML*. However, please note that will be part of your custom logic and we do not support it.
 
 ## Fonts / Unicode support
 
-*RadTreeList*'s *PDF* exporting engine supports all languages that use __left-to-right__orientation when the appropriate *Unicode* font is set. The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
+*RadTreeList*'s *PDF* exporting engine supports all languages that use **left-to-right**orientation when the appropriate *Unicode* font is set. The most common international font is [Arial Unicode MS](http://support.microsoft.com/kb/287247) because it covers all *Unicode* characters. Of course, you can use other language-specific fonts as [Batang](http://www.ascenderfonts.com/font/batang-korean.aspx) for *Korean*, [SimSun](http://www.ascenderfonts.com/font/simsun-simplified-chinese.aspx) for *Chinese*, [MS Mincho](http://www.ascenderfonts.com/font/ms-mincho-japanese.aspx) for *Japanese* and etc.
 
-The default font of the generated pages is specified by the __DefaultFontFamily__ property:
+The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
 ````ASPNET
 	                <ExportSettings>
@@ -73,11 +73,11 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 
 There are a few rules that should be followed when exporting *HTML* tables to *PDF*:
 
-* The table should define __<colgroup>__ and __<col>__ elements
+* The table should define **<colgroup>** and **<col>** elements
 
-* The number of __col__ elements should be equal to the number of the columns in the table body
+* The number of **col** elements should be equal to the number of the columns in the table body
 
-* Width in __pixels__ (or another *absolute* units) should be set to the table
+* Width in **pixels** (or another *absolute* units) should be set to the table
 
 ````XML
 	 <table width="300px">
@@ -118,31 +118,31 @@ Although we are striving to constantly improve our products, there are some limi
 
 ## Exceptions
 
-* *__At least one of minimum, optimum, or maximum IPD must be specified on table__*
+* **At least one of minimum, optimum, or maximum IPD must be specified on table**
 
 Reason: Nested tables should have width in pixels
 
-* *__The '*' character, hexadecimal value 0x2A, cannot be included in a name__*
+* **The '*' character, hexadecimal value 0x2A, cannot be included in a name**
 
 The default pager's *RadComboBox* uses special *CSS* approach that is unsupported by the*PDF* parser
 
-* __Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow,fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption,fo:table-cell or fo:wrapper not fo:table-header__
+* **Telerik.Web.Apoc.ApocException: fo:block must be child of fo:basic-link, fo:block, fo:block-container, fo:float, fo:flow,fo:footnote-body, fo:inline, fo:inline-container, fo:list-item-body, fo:list-item-label, fo:marker, fo:multi-case, fo:static-content, fo:table-caption,fo:table-cell or fo:wrapper not fo:table-header**
 
-This exception is probably result of a __hard____pagebreak__, inserted in a wrong place - for example directlyafter the starting tag of a table
+This exception is probably result of a **hard pagebreak**, inserted in a wrong place - for example directlyafter the starting tag of a table
 
-* *__System.IndexOutOfRangeException: Index was outside the bounds of the array. at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)__*
+* **System.IndexOutOfRangeException: Index was outside the bounds of the array. at Telerik.Web.Apoc.Render.Pdf.Fonts.Type2CIDSubsetFont.GetWidth(Int32 charIndex)**
 
 You are either using *RTL* fonts or mixing *Korean* characters with another language in thesame element (rare scenario)
 
-* *__Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'__*
+* **Unable to cast object of type 'Telerik.Web.Apoc.Layout.BlockArea' to type 'Telerik.Web.Apoc.Layout.AreaContainer'**
 
 Most probably you have *DIV* element with specified dimensions or absolute positioning. Remove the relevantwidth/height/position attributes to avoid this exception.
 
-* __System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission__
+* **System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.FileIOPermission**
 
-*RadTreeList's PDF* export engine doesn't work in __medium trust__.
+*RadTreeList's PDF* export engine doesn't work in **medium trust**.
 
-* *__Telerik.Web.Apoc.ApocException: internal-destination or external-destination must be specified in basic-link__*
+* **Telerik.Web.Apoc.ApocException: internal-destination or external-destination must be specified in basic-link**
 
 *PDF* engine is trying to resolve *empty anchor**URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
 

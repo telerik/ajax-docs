@@ -1,6 +1,6 @@
 ---
 title: Validate Treeview by Checked Nodes
-page_title: Validate Treeview by Checked Nodes | UI for ASP.NET AJAX Documentation
+page_title: Validate Treeview by Checked Nodes | RadTreeView for ASP.NET AJAX Documentation
 description: Validate Treeview by Checked Nodes
 slug: treeview/application-scenarios/checkboxes/validate-treeview-by-checked-nodes
 tags: validate,treeview,by,checked,nodes
@@ -14,7 +14,7 @@ position: 4
 
 By design, the RequiredFieldValidator can [validate RadTreeView]({%slug treeview/accessibility-and-internationalization/validation%}) for a selected node.
 
-This article shows two methods of validating RadTreeView for a __checked__ nodes. In this way, you will be sure that there is at least one checked node of your treeview.
+This article shows two methods of validating RadTreeView for a **checked** nodes. In this way, you will be sure that there is at least one checked node of your treeview.
 
 ## Using the RequiredFieldValidator
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenuItemClicked
-page_title: OnClientContextMenuItemClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenuItemClicked | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientContextMenuItemClicked
 slug: treeview/client-side-programming/events/onclientcontextmenuitemclicked
 tags: onclientcontextmenuitemclicked
@@ -14,7 +14,7 @@ position: 28
 
 ## 
 
-The __OnClientContextMenuItemClicked__client-side event occurs when the user clicks the context menu item for a node.
+The **OnClientContextMenuItemClicked**client-side event occurs when the user clicks the context menu item for a node.
 
 The event handler receives parameters:
 
@@ -22,11 +22,11 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_menuItem()__ retrieves a reference to the selected context menu item. You can also call get_menu() from the menu item reference and use the menu to retrieve the other items on the menu.
+* **get_menuItem()** retrieves a reference to the selected context menu item. You can also call get_menu() from the menu item reference and use the menu to retrieve the other items on the menu.
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves the DOM event object of the item click.
+* **get_domEvent()** retrieves the DOM event object of the item click.
 
 The example below displays the text for the selected context menu item, the text for the node and the ID for the menu.
 

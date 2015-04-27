@@ -1,6 +1,6 @@
 ---
 title: Server-side Binding
-page_title: Server-side Binding | UI for ASP.NET AJAX Documentation
+page_title: Server-side Binding | RadTreeView for ASP.NET AJAX Documentation
 description: Server-side Binding
 slug: treeview/load-on-demand/server-side-binding
 tags: server-side,binding
@@ -18,21 +18,21 @@ To load data on-demand using server side code:
 
 * Query the root node data, i.e. for the nodes that the user will see first. When using self-referential hierarchical databases this can be done by querying for nodes where the "parent id" is null.
 
-* Iterate the root node data and add new node objects for each record. Assign to the __Text__ property the data column representing readable text and assign the column containing unique identifiers to the __Value__ property of each node. The __Value__ property will be used later as a parent id when opening a node. Set the Node __ExpandMode__ property to __ServerSide;__ expanding a node will cause a postback to the server. During the postback, the server __NodeExpand__ event handler will have a chance to fire.
+* Iterate the root node data and add new node objects for each record. Assign to the **Text** property the data column representing readable text and assign the column containing unique identifiers to the **Value** property of each node. The **Value** property will be used later as a parent id when opening a node. Set the Node **ExpandMode** property to **ServerSide;** expanding a node will cause a postback to the server. During the postback, the server **NodeExpand** event handler will have a chance to fire.
 
-* Create a __NodeExpand__ event handler. This event will pass a reference to the clicked-on node as a parameter. Use the node __Value__ property to query for all child nodes of this parent node.
+* Create a **NodeExpand** event handler. This event will pass a reference to the clicked-on node as a parameter. Use the node **Value** property to query for all child nodes of this parent node.
 
-* Iterate the child nodes, again populating the __Text__ and __Value__ property of each node. Set each child node's __ExpandMode__ property to __ServerSide.__ Set the __ExpandNode__ for the clicked-on, parent node to __ClientSide;__ the child nodes for this parent node have already been loaded with data so there is no need to return to the server. Also, set the __Expanded__ property of the parent node to __True__.
+* Iterate the child nodes, again populating the **Text** and **Value** property of each node. Set each child node's **ExpandMode** property to **ServerSide.** Set the **ExpandNode** for the clicked-on, parent node to **ClientSide;** the child nodes for this parent node have already been loaded with data so there is no need to return to the server. Also, set the **Expanded** property of the parent node to **True**.
 
-The example below loads data from the Access Database.mdb database. This database can be found in the RadControls installation directory under Live Demos\App_Data. Any data that has ID, Parent ID and text column data would work in this scenario. In this example the LoadRootNodes() method loads only the node called "Root". When the user clicks that node the first time, the __NodeExpand__ event is fired:
+The example below loads data from the Access Database.mdb database. This database can be found in the RadControls installation directory under Live Demos\App_Data. Any data that has ID, Parent ID and text column data would work in this scenario. In this example the LoadRootNodes() method loads only the node called "Root". When the user clicks that node the first time, the **NodeExpand** event is fired:
 
 * The data for the child nodes of the parent "Root" are retrieved.
 
-* Nodes are created for each record and attached as child nodes to the parent node. The __ExpandMode__ property of each child node is set to __ServerSide__.
+* Nodes are created for each record and attached as child nodes to the parent node. The **ExpandMode** property of each child node is set to **ServerSide**.
 
-* The parent node "Root" __Expanded__ property is set to __True__, opening the node to display the child nodes.
+* The parent node "Root" **Expanded** property is set to **True**, opening the node to display the child nodes.
 
-* The parent node "Root" __ExpandMode__ property is set to __ClientSide__ because the child nodes have already been loaded.
+* The parent node "Root" **ExpandMode** property is set to **ClientSide** because the child nodes have already been loaded.
 
 The same general pattern for NodeExpand is repeated when the user clicks a node that has not yet been expanded.
 

@@ -1,6 +1,6 @@
 ---
 title: ASPX Template Structure
-page_title: ASPX Template Structure | UI for ASP.NET AJAX Documentation
+page_title: ASPX Template Structure | RadToolBar for ASP.NET AJAX Documentation
 description: ASPX Template Structure
 slug: toolbar/templates/aspx-template-structure
 tags: aspx,template,structure
@@ -58,7 +58,7 @@ Only RadToolBarButtons and RadToolBarSplitButtons support templates.
 
 
 
->note  __DataBinder.Eval__ expressions work only when the toolbar is in a bound mode. In other words, you should explicitly call the DataBind() method even if no datasource is set to the toolbar.
+>note  **DataBinder.Eval** expressions work only when the toolbar is in a bound mode. In other words, you should explicitly call the DataBind() method even if no datasource is set to the toolbar.
 >
 
 

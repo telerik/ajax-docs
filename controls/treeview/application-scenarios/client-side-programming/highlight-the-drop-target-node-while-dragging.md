@@ -1,6 +1,6 @@
 ---
 title: Highlight the Drop Target Node While Dragging
-page_title: Highlight the Drop Target Node While Dragging | UI for ASP.NET AJAX Documentation
+page_title: Highlight the Drop Target Node While Dragging | RadTreeView for ASP.NET AJAX Documentation
 description: Highlight the Drop Target Node While Dragging
 slug: treeview/application-scenarios/client-side-programming/highlight-the-drop-target-node-while-dragging
 tags: highlight,the,drop,target,node,while,dragging

@@ -1,6 +1,6 @@
 ---
 title: Scroll to Selected Node After MS.NET AJAX Request
-page_title: Scroll to Selected Node After MS.NET AJAX Request | UI for ASP.NET AJAX Documentation
+page_title: Scroll to Selected Node After MS.NET AJAX Request | RadTreeView for ASP.NET AJAX Documentation
 description: Scroll to Selected Node After MS.NET AJAX Request
 slug: treeview/application-scenarios/client-side-programming/scroll-to-selected-node-after-ms.net-ajax-request
 tags: scroll,to,selected,node,after,ms.net,ajax,request
@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-To scroll to the selected TreeNode after an ajax request has occurred you should use the __OnEndRequest__ client-side event of MS.NET AJAX and select the node in the OnEndRequest event handler, like:
+To scroll to the selected TreeNode after an ajax request has occurred you should use the **OnEndRequest** client-side event of MS.NET AJAX and select the node in the OnEndRequest event handler, like:
 
 ````ASPNET
 	

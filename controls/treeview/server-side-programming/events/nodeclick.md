@@ -1,6 +1,6 @@
 ---
 title: NodeClick
-page_title: NodeClick | UI for ASP.NET AJAX Documentation
+page_title: NodeClick | RadTreeView for ASP.NET AJAX Documentation
 description: NodeClick
 slug: treeview/server-side-programming/events/nodeclick
 tags: nodeclick
@@ -14,7 +14,7 @@ position: 8
 
 ## 
 
-When the user clicks a Node, the __NodeClick__ event fires. Use the __RadTreeNodeEventArgs.____Node__ property to get or set the clicked-on Node properties.
+When the user clicks a Node, the **NodeClick** event fires. Use the **RadTreeNodeEventArgs. Node** property to get or set the clicked-on Node properties.
 
 
 

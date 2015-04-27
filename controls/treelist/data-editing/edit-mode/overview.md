@@ -1,6 +1,6 @@
 ---
-title: Edit Mode Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Edit Mode Overview | RadTreeList for ASP.NET AJAX Documentation
 description: Overview
 slug: treelist/data-editing/edit-mode/overview
 tags: overview
@@ -14,17 +14,17 @@ position: 0
 
 RadTreeList supports the below edit modes:
 
-* __InPlacehttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section1_self__
+* **InPlacehttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section1_self**
 
-* __EditFormshttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section2_self__
+* **EditFormshttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section2_self**
 
-* __PopUphttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section3_self__
+* **PopUphttp://www.telerik.com/help/aspnet-ajax/treelist-edit-modes.html#Section3_self**
 
-The default edit mode of RadTreeList is __EditForms__. To specify which edit mode will your control, you can set its __EditMode__ property to one of the above values.
+The default edit mode of RadTreeList is **EditForms**. To specify which edit mode will your control, you can set its **EditMode** property to one of the above values.
 
 ## InPlace edit mode
 
-To display the treelist in-place edit form, you need to set the __EditMode__ property of your RadTreeList control to __InPlace__. When an item goes in edit mode, the edit form will be displayed instead of the regular treelist item.
+To display the treelist in-place edit form, you need to set the **EditMode** property of your RadTreeList control to **InPlace**. When an item goes in edit mode, the edit form will be displayed instead of the regular treelist item.
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList1" runat="server" EditMode="InPlace" 
@@ -38,7 +38,7 @@ To display the treelist in-place edit form, you need to set the __EditMode__ pro
 >
 
 
-When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can access the edit/insert form as below:
+When **InPlace** editing is applied, in the ItemCreated/ItemDataBound you can access the edit/insert form as below:
 
 
 
@@ -76,7 +76,7 @@ When __InPlace__ editing is applied, in the ItemCreated/ItemDataBound you can ac
 
 ## EditForms edit mode
 
-To display the treelist in-forms edit form, you need to set the __EditMode__ property of your RadTreeList control to __EditForms__. When an item goes in edit mode, the edit form will be displaed just below the edited item.
+To display the treelist in-forms edit form, you need to set the **EditMode** property of your RadTreeList control to **EditForms**. When an item goes in edit mode, the edit form will be displaed just below the edited item.
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList2" runat="server" EditMode="EditForms" 
@@ -124,7 +124,7 @@ When the RadTreeList edit mode is EditForms, you can access the edited item and 
 
 ## PopUp edit mode
 
-To display the treelist pop-up edit form, you need to set the __EditMode__ property of your RadTreeList control to __PopUp__. When an item goes into edit mode, the edit form will be displayed in front of the treelist and the edited item style will change respectively.
+To display the treelist pop-up edit form, you need to set the **EditMode** property of your RadTreeList control to **PopUp**. When an item goes into edit mode, the edit form will be displayed in front of the treelist and the edited item style will change respectively.
 
 ````ASPNET
 	        <telerik:RadTreeList ID="RadTreeList3" runat="server" EditMode="PopUp" 
@@ -170,7 +170,7 @@ When the RadTreeList edit mode is PopUp, you can access the edited item and the 
 ````
 
 
->note If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the __EditFormSettings.PopUpSettings.ShowCaptionInEditForm__ property of the treelist control to __false__ .
+>note If you want to hide the the duplicate caption text that shows in the popup edit form, you can set the **EditFormSettings.PopUpSettings.ShowCaptionInEditForm** property of the treelist control to **false** .
 >
 
 

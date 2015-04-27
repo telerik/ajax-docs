@@ -1,6 +1,6 @@
 ---
 title: Integration with Telerik Document Processing Library
-page_title: Integration with Telerik Document Processing Library | UI for ASP.NET AJAX Documentation
+page_title: Integration with Telerik Document Processing Library | RadTreeList for ASP.NET AJAX Documentation
 description: Integration with Telerik Document Processing Library
 slug: treelist/functionality/exporting/integration-with-telerik-document-processing-library
 tags: integration,with,telerik,document,processing,library
@@ -12,7 +12,7 @@ position: 4
 
 
 
-The __Telerik document processing libraries__ allow you export RadTreeList to Excel or Word with the appropriately __xlsx__ and __docx__ extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of __Telerik UI for ASP.NET AJAX__. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html)help article.
+The **Telerik document processing libraries** allow you export RadTreeList to Excel or Word with the appropriately **xlsx** and **docx** extension. Those extensions are used by Excel Microsoft Office version 2007 and above. These libraries are supported since the Q2 2014 version of **Telerik UI for ASP.NET AJAX**. More information about the assemblies and how to include them in your project can be found in the [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html)help article.
 
 ## Exporting RadTreeList to Excel
 
@@ -153,7 +153,7 @@ The following steps walk you through the entire process of creating an Excel doc
 ````
 
 
-1. After the worksheet is populated with data an instance of the __XlsxFormatProvider__ is created and by callingits __Export__ method a file is generated on the server.
+1. After the worksheet is populated with data an instance of the **XlsxFormatProvider** is created and by callingits **Export** method a file is generated on the server.
 
 
 
@@ -442,7 +442,7 @@ The assemblies that must be referenced in order to export the RadTreeList are:
 
 The following steps walk you through the entire process of creating an Word document and then export it to the server.
 
-1. Create an instance of the __RadFlowDocument__ class and add a new __Section__ object to the__Sections__ collection. After the section is created a new __Table__ object is added to it.
+1. Create an instance of the **RadFlowDocument** class and add a new **Section** object to the**Sections** collection. After the section is created a new **Table** object is added to it.
 
 
 
@@ -558,7 +558,7 @@ The following steps walk you through the entire process of creating an Word docu
 ````
 
 
-1. After the worksheet is populated with data an instance of the __DocxFormatProvider__ is created and by calling its__Export__ method a file is generated on the server.
+1. After the worksheet is populated with data an instance of the **DocxFormatProvider** is created and by calling its**Export** method a file is generated on the server.
 
 
 

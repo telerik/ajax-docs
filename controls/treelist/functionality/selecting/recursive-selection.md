@@ -1,6 +1,6 @@
 ---
 title: Recursive Selection
-page_title: Recursive Selection | UI for ASP.NET AJAX Documentation
+page_title: Recursive Selection | RadTreeList for ASP.NET AJAX Documentation
 description: Recursive Selection
 slug: treelist/functionality/selecting/recursive-selection
 tags: recursive,selection
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-As part of its server-side selection __RadTreeList__ gives you the ability toselect items recursively. To enable the RadTreeList recursive selection, set the__AllowRecursiveSelection__ property to true.
+As part of its server-side selection **RadTreeList** gives you the ability toselect items recursively. To enable the RadTreeList recursive selection, set the**AllowRecursiveSelection** property to true.
 
 >note When AllowRecursiveSelection is set to true, this implicitly enables multi-item selection for the RadTreeList.
 >
@@ -26,7 +26,7 @@ When recursive selection is enabled for the RadTreeList and you select an item, 
 
 However, for the recursive selection to work and all items' state to be updated properly, a postback isrequired. Thus if client-side selection is enabled, it is automatically turned off. Also when items areselected/deselected, an implicit rebind is invoked for the RadTreeList control.
 
-To deselect all items, you can call the __ClearSelectedItems()__ method of theRadTreeList. As a result all selected items will be deselected, be they on the current page or not, visible or not.
+To deselect all items, you can call the **ClearSelectedItems()** method of theRadTreeList. As a result all selected items will be deselected, be they on the current page or not, visible or not.
 
 >note Note that, if you want to traverse the RadTreeList items in a foreach loop and change their selectedstate in the loop while recursive selection is enabled, you need to rebind the RadTreeList first.
 >

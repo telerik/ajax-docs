@@ -1,6 +1,6 @@
 ---
 title: Scrolling to the Selected Item
-page_title: Scrolling to the Selected Item | UI for ASP.NET AJAX Documentation
+page_title: Scrolling to the Selected Item | RadTreeList for ASP.NET AJAX Documentation
 description: Scrolling to the Selected Item
 slug: treelist/functionality/scrolling/how-to/scrolling-to-the-selected-item
 tags: scrolling,to,the,selected,item
@@ -18,13 +18,13 @@ If you have an initially selected item (row) in a scrollable treelist, you may w
 
 1. Set one of the items in the control as selected.
 
-1. Provide a handler for the client-side __TreeListCreated__ event.
+1. Provide a handler for the client-side **TreeListCreated** event.
 
-1. In the event handler, locate the selected row using the__get_selectedItems()__ method.
+1. In the event handler, locate the selected row using the**get_selectedItems()** method.
 
 1. Use the treelist's dataDiv to access the DOM element for the scrollable region of the treelist.
 
-1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the __scrollTop__ property of the scrollable region to scroll the treelist so that the selected rowis showing.
+1. Use the DOM element for the row to check if it is visible in the scrollable region. If it is not, set the **scrollTop** property of the scrollable region to scroll the treelist so that the selected rowis showing.
 
 The following example demonstrates this technique:
 

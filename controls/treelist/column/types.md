@@ -1,6 +1,6 @@
 ---
 title: Types
-page_title: Types | UI for ASP.NET AJAX Documentation
+page_title: Types | RadTreeList for ASP.NET AJAX Documentation
 description: Types
 slug: treelist/column/types
 tags: types

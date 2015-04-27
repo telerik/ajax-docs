@@ -1,6 +1,6 @@
 ---
 title: Hide TreeView Images
-page_title: Hide TreeView Images | UI for ASP.NET AJAX Documentation
+page_title: Hide TreeView Images | RadTreeView for ASP.NET AJAX Documentation
 description: Hide TreeView Images
 slug: treeview/application-scenarios/client-side-programming/hide-treeview-images
 tags: hide,treeview,images
@@ -18,7 +18,7 @@ This article shows how to hide all TreeView Images - the Line Images, Plus and M
 
 
 
-Line Images are hidden by setting the __ShowLineImages__ property of the TreeView to __false__.
+Line Images are hidden by setting the **ShowLineImages** property of the TreeView to **false**.
 
 
 

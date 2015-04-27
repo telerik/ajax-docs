@@ -1,6 +1,6 @@
 ---
 title: Binding to Array and ArrayList
-page_title: Binding to Array and ArrayList | UI for ASP.NET AJAX Documentation
+page_title: Binding to Array and ArrayList | RadTreeView for ASP.NET AJAX Documentation
 description: Binding to Array and ArrayList
 slug: treeview/data-binding/binding-to-array-and-arraylist
 tags: binding,to,array,and,arraylist
@@ -14,17 +14,17 @@ position: 1
 
 ## 
 
-Binding RadTreeView to a data source that implements __IEnumerable__, such as Array or ArrayList, can create a flat data structure as well as a hierarchy if the proper __ID__ -> __ParentID__ relationship is provided.
+Binding RadTreeView to a data source that implements **IEnumerable**, such as Array or ArrayList, can create a flat data structure as well as a hierarchy if the proper **ID** -> **ParentID** relationship is provided.
 
-Here is a general outline of __IEnumerable__ data binding:
+Here is a general outline of **IEnumerable** data binding:
 
 1. Create the collection.
 
-1. Add values to the collection and set the __DataSource__ property of RadTreeView to the instance of the collection.
+1. Add values to the collection and set the **DataSource** property of RadTreeView to the instance of the collection.
 
-1. Call the __DataBind()__ method.
+1. Call the **DataBind()** method.
 
-The collection is automatically mapped to the __Text__ property of the respective TreeView Node. The example below takes an array of strings as a data source.
+The collection is automatically mapped to the **Text** property of the respective TreeView Node. The example below takes an array of strings as a data source.
 
 
 >caption 
@@ -58,16 +58,16 @@ The collection is automatically mapped to the __Text__ property of the respectiv
 ````
 
 
-If you have a collection (any collection implementing __ICollection__ or __IEnumerable__) that contains objects (as opposed to simple values), you can take advantage of __DataTextField__, __DataNavigateUrlField__, and __DataValueField__ properties to map object properties from the object directly to the __Text__, __NavigateUrl__ or __Value__ fields. If the __DataFieldID__ and __DataFieldParentID__ properties are set, RadTreeView will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
+If you have a collection (any collection implementing **ICollection** or **IEnumerable**) that contains objects (as opposed to simple values), you can take advantage of **DataTextField**, **DataNavigateUrlField**, and **DataValueField** properties to map object properties from the object directly to the **Text**, **NavigateUrl** or **Value** fields. If the **DataFieldID** and **DataFieldParentID** properties are set, RadTreeView will create a hierarchy of Nodes, determining the Root ones using the following algorithm:
 
->tip - their __DataFieldParentID__ property must be __null__ if it is of nullable (e.g. __int?__ ) or reference (e.g. __string__ ) type.
+>tip - their **DataFieldParentID** property must be **null** if it is of nullable (e.g. **int?** ) or reference (e.g. **string** ) type.
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 (null)
 >2 1
->- their __DataFieldParentID__ property must return the __default value__ if it is value type (e.g. __0__ for __int__ , __Guid.Empty__ for __Guid__ ).
+>- their **DataFieldParentID** property must return the **default value** if it is value type (e.g. **0** for **int** , **Guid.Empty** for **Guid** ).
 > -example:- 
-> __ID__  __ParentID__ 
+> **ID**  **ParentID** 
 >1 0
 >2 1
 >
@@ -77,9 +77,9 @@ If you have a collection (any collection implementing __ICollection__ or __IEnum
 >
 
 
-If you need to map additional properties from the object, subscribe to the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event. The event arguments passed to the event, __e.NodeBound__ and __e.NodeBound.DataItem__, hold the instance of the TreeView Node being bound and the __DataItem__ associated with the TreeView Node. You can then map a property from the __DataItem__ (make sure to cast the __DataItem__ object to your respective data type first) to a property of the __RadTreeNode__ class.
+If you need to map additional properties from the object, subscribe to the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event. The event arguments passed to the event, **e.NodeBound** and **e.NodeBound.DataItem**, hold the instance of the TreeView Node being bound and the **DataItem** associated with the TreeView Node. You can then map a property from the **DataItem** (make sure to cast the **DataItem** object to your respective data type first) to a property of the **RadTreeNode** class.
 
-The example below creates a list of car objects, each with properties for Name, Price and URL. __DataTextField__ is bound to "Name", __DataNavigateUrlField__ is bound to "URL" and __DataValueField__ is bound to "Price". Note that the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event handler sets the __Target__ property of each Node to "_self" so that the URL for each Node will display in a new window. When the Node is clicked, the __Text__ and __Value__ of the Node is displayed in the page title and the Node is selected. Navigation to the URL occurs automatically. Also notice that the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event handler sets the tooltip of the Node based on the Node __DataItem__. The __DataItem__ is cast to the underlying Car object type.
+The example below creates a list of car objects, each with properties for Name, Price and URL. **DataTextField** is bound to "Name", **DataNavigateUrlField** is bound to "URL" and **DataValueField** is bound to "Price". Note that the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event handler sets the **Target** property of each Node to "_self" so that the URL for each Node will display in a new window. When the Node is clicked, the **Text** and **Value** of the Node is displayed in the page title and the Node is selected. Navigation to the URL occurs automatically. Also notice that the [NodeDataBound]({%slug treeview/server-side-programming/events/nodedatabound%}) event handler sets the tooltip of the Node based on the Node **DataItem**. The **DataItem** is cast to the underlying Car object type.
 
 
 >caption 

@@ -1,6 +1,6 @@
 ---
 title: Accessing Controls Inside Templates
-page_title: Accessing Controls Inside Templates | UI for ASP.NET AJAX Documentation
+page_title: Accessing Controls Inside Templates | RadTreeView for ASP.NET AJAX Documentation
 description: Accessing Controls Inside Templates
 slug: treeview/templates/accessing-controls-inside-templates
 tags: accessing,controls,inside,templates
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-If your RadTreeView has Nodes with Templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the __Node__ that has the Template, and use its __FindControl__ server-side/__findControl__ client-side method.
+If your RadTreeView has Nodes with Templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **Node** that has the Template, and use its **FindControl** server-side/**findControl** client-side method.
 
 For example, consider the following, very simple TreeView:
 
@@ -33,9 +33,9 @@ For example, consider the following, very simple TreeView:
 
 To access the RadDatePicker in the Node Template, use the following code:
 
-* __Server-side access__
+* **Server-side access**
 
-* __Client-side access__
+* **Client-side access**
 
 ````JavaScript
 	

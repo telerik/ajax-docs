@@ -1,6 +1,6 @@
 ---
 title: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX
-page_title: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX | UI for ASP.NET AJAX Documentation
+page_title: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX | RadTreeView for ASP.NET AJAX Documentation
 description: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX
 slug: treeview/migrating-from-radtreeview-for-asp.net-to-asp.net-ajax
 tags: migrating,from,radtreeview,for,asp.net,to,asp.net,ajax
@@ -12,7 +12,7 @@ position: 4
 
 
 
-__RadTreeView for ASP.NET AJAX__ contains a number of changes from moving to the ASP.NET Ajax framework and to the Telerik.Web.UI suite.These changes are listed below:
+**RadTreeView for ASP.NET AJAX** contains a number of changes from moving to the ASP.NET Ajax framework and to the Telerik.Web.UI suite.These changes are listed below:
 
 ## Client-Side Changes
 
@@ -26,7 +26,7 @@ __RadTreeView for ASP.NET AJAX__ contains a number of changes from moving to the
 | RadTreeView Client-Side Object - "Classic" | RadTreeView Client-Side Object for ASP.NET AJAX |
 | ------ | ------ |
 |||
-| __Methods__ ||
+| **Methods** ||
 |FindNodeByText|findNodeByText()|
 |FindNodeByValue|findNodeByValue()|
 |FindNodeByAttribute|findNodeByAttribute()|
@@ -35,7 +35,7 @@ __RadTreeView for ASP.NET AJAX__ contains a number of changes from moving to the
 |UpdateState|N/A (no longer required)|
 |HideContextMenu|N/A (other API will be provided for Context Menu handling)|
 |||
-| __Properties__ ||
+| **Properties** ||
 |Nodes|get_nodes()The return value is no longer an Array. The return value is now a Telerik.Web.UI.RadTreeNodeCollection object.Enumerating Nodes:<script type=”text/javascript”>for (var i=0; i<tree.get_nodes().get_count();i++){var node = tree.get_nodes().getNode(i);alert(node.get_text());}</script>|
 |AllNodes|get_allNodes()The return value is Array.|
 |ID|get_id()|
@@ -51,7 +51,7 @@ __RadTreeView for ASP.NET AJAX__ contains a number of changes from moving to the
 | RadTreeNode Client-Side Object - "Classic" | RadTreeNode Client-Side Object for ASP.NET AJAX |
 | ------ | ------ |
 |||
-| __Methods__ ||
+| **Methods** ||
 |Prev|get_previousNode()|
 |Next|get_nextNode()|
 |Expand|set_expanded(true) or expand()|
@@ -71,7 +71,7 @@ __RadTreeView for ASP.NET AJAX__ contains a number of changes from moving to the
 |ImageElement|get_imageElement()|
 |TextElement|get_textElement()|
 ||get_contentElement()Returns an HTML DOM element (a <LI> tag) that represents a Tree Node.|
-| __Properties__ ||
+| **Properties** ||
 |Text|get_text()|
 |Value|get_value()|
 |Category|get_category()|
@@ -118,7 +118,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 | RadTreeView - "Classic" | RadTreeView for ASP.NET AJAX |
 | ------ | ------ |
 |||
-| __Properties__ ||
+| **Properties** ||
 |AfterClientFocus|OnClientFocused|
 |BeforeClientContextMenu|OnClientContextMenuShowing|
 |BeforeClientClick|OnClientNodeClicking|
@@ -139,7 +139,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 |AppendDataBoundNodes|AppendDataBoundItems|
 |NodeBound|NodeDataBound|
 |||
-| __Types__ ||
+| **Types** ||
 |LoadingMessagePosition|TreeViewLoadingStatusPosition|
 
 
@@ -187,7 +187,7 @@ See [RadTreeNodeCollection Object]({%slug treeview/client-side-programming/objec
 
 RadTreeViewEventHandler has been split into other delegates:
 
-1. __RadTreeViewEventHandler__ is used by the following events:
+1. **RadTreeViewEventHandler** is used by the following events:
 
 * NodeClick
 
@@ -201,9 +201,9 @@ RadTreeViewEventHandler has been split into other delegates:
 
 * NodeCheck
 
-1. __RadTreeViewDragDropEventHandler__ is used only by the NodeDrop event
+1. **RadTreeViewDragDropEventHandler** is used only by the NodeDrop event
 
-1. __RadTreeViewEditEventHandler__ is used only by the NodeEdit event
+1. **RadTreeViewEditEventHandler** is used only by the NodeEdit event
 
 
 
@@ -217,7 +217,7 @@ RadTreeViewEventHandler has been split into other delegates:
 | RadTreeNode - "Classic" | RadTreeNode for ASP.NET AJAX |
 | ------ | ------ |
 |||
-| __Properties__ ||
+| **Properties** ||
 |CssClassSelect|SelectedCssClass|
 |ImageExpandedUrl|ExpandedImageUrl|
 |Parent|ParentNode|
@@ -233,7 +233,7 @@ RadTreeViewEventHandler has been split into other delegates:
 
 That class has been split into other classes:
 
-1. __RadTreeNodeEventArgs__ contains only one property - Node. It is used by the following events:
+1. **RadTreeNodeEventArgs** contains only one property - Node. It is used by the following events:
 
 * NodeClick
 
@@ -247,7 +247,7 @@ That class has been split into other classes:
 
 * NodeCheck
 
-1. __RadTreeNodeDragDropEventArgs__ is used solely by the NodeDrop event. It contains the following properties:
+1. **RadTreeNodeDragDropEventArgs** is used solely by the NodeDrop event. It contains the following properties:
 
 * SourceDragNode
 
@@ -257,7 +257,7 @@ That class has been split into other classes:
 
 * HtmlElementID
 
-1. __RadTreeNodeEditEventArgs__ is used solely by the NodeEdit event. It contains the following properties
+1. **RadTreeNodeEditEventArgs** is used solely by the NodeEdit event. It contains the following properties
 
 * Node
 

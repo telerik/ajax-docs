@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeDragStart
-page_title: OnClientNodeDragStart | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeDragStart | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeDragStart
 slug: treeview/client-side-programming/events/onclientnodedragstart
 tags: onclientnodedragstart
@@ -14,7 +14,7 @@ position: 12
 
 ## 
 
-The __OnClientNodeDragStart__client-side event is called each time the user begins to drag a node.
+The **OnClientNodeDragStart**client-side event is called each time the user begins to drag a node.
 
 The event handler receives parameters:
 
@@ -22,15 +22,15 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves a DOM event object of the node dragging.
+* **get_domEvent()** retrieves a DOM event object of the node dragging.
 
-* __get_htmlElement()__ retrieves the <SPAN> element of the dragged node.
+* **get_htmlElement()** retrieves the <SPAN> element of the dragged node.
 
-* __get_sourceNodes()__ returns an array of all the nodes being dragged (Useful when __MultipleSelect__ is *True*).
+* **get_sourceNodes()** returns an array of all the nodes being dragged (Useful when **MultipleSelect** is *True*).
 
 The example below demonstrates getting the current x and y coordinates of the mouse while the node is being dragged.
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: treeview/client-side-programming/events/onclientload
 tags: onclientload
@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The __OnClientLoad__ event fires after the RadTreeView client-side object has been fully initialized.
+The **OnClientLoad** event fires after the RadTreeView client-side object has been fully initialized.
 
 The event handler has two parameters:
 
@@ -22,7 +22,7 @@ The event handler has two parameters:
 
 1. An empty event arguments object.
 
-The example below demonstrates handling the __OnClientLoad__ event and displaying the id of the initialized RadTreeView object to the user:
+The example below demonstrates handling the **OnClientLoad** event and displaying the id of the initialized RadTreeView object to the user:
 
 ````ASPNET
 	

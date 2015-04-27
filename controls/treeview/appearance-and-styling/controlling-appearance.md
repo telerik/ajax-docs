@@ -1,6 +1,6 @@
 ---
 title: Controlling Appearance
-page_title: Controlling Appearance | UI for ASP.NET AJAX Documentation
+page_title: Controlling Appearance | RadTreeView for ASP.NET AJAX Documentation
 description: Controlling Appearance
 slug: treeview/appearance-and-styling/controlling-appearance
 tags: controlling,appearance
@@ -18,9 +18,9 @@ There are a number of ways you can customize the look & feel of your RadTreeView
 
 To change the basic dimensions of the RadTreeView:
 
-* Use the __Height__ property to control the height of the TreeView. If you do not set __Height__, the TreeView list sizes itself automatically based on the number of items in the list. If the value of __Height__ is too small to display all of the items in the list, a vertical scroll bar appears.
+* Use the **Height** property to control the height of the TreeView. If you do not set **Height**, the TreeView list sizes itself automatically based on the number of items in the list. If the value of **Height** is too small to display all of the items in the list, a vertical scroll bar appears.
 
-* Set the __Width__ property to specify the width of the input area of the control. 
+* Set the **Width** property to specify the width of the input area of the control. 
 >caption 
 
 ![RadTreeView Controlling Appearance](images/treeview_appearancecontrolling.png)
@@ -31,7 +31,7 @@ To change the basic dimensions of the RadTreeView:
 
 * To change the way the Nodes expand and collapse, use [Animation]({%slug treeview/appearance-and-styling/animation%}).
 
-* To change the look of an individual item in the RadTreeView, use its __CssClass__ property and set up the CSS styles as needed.
+* To change the look of an individual item in the RadTreeView, use its **CssClass** property and set up the CSS styles as needed.
 
 * To provide a [right-to-left look and feel]({%slug treeview/appearance-and-styling/right-to-left-support%}), set the attribute of the page HTML or set the dir attribute within a div tag.
 

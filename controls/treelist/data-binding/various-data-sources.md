@@ -1,6 +1,6 @@
 ---
 title: Various Data Sources
-page_title: Various Data Sources | UI for ASP.NET AJAX Documentation
+page_title: Various Data Sources | RadTreeList for ASP.NET AJAX Documentation
 description: Various Data Sources
 slug: treelist/data-binding/various-data-sources
 tags: various,data,sources
@@ -14,15 +14,15 @@ position: 3
 
 ## 
 
-You can use a wide variety of data-sources for RadTreeList structure generation. A requirement isthat these custom objects implement the __ITypedList__/__IEnumarable__ /__ICustomTypeDescriptor__ interfaces and representing self-hierarchical data. Rememberto set the __DataKeyNames__ and __ParentDataKeyNames__ propertiesof the RadTreeList controls. Also note that the type of the fields used for DataKeyNames and ParentDatakeyNamesshould be the same.
+You can use a wide variety of data-sources for RadTreeList structure generation. A requirement isthat these custom objects implement the **ITypedList**/**IEnumarable** /**ICustomTypeDescriptor** interfaces and representing self-hierarchical data. Rememberto set the **DataKeyNames** and **ParentDataKeyNames** propertiesof the RadTreeList controls. Also note that the type of the fields used for DataKeyNames and ParentDatakeyNamesshould be the same.
 
 The code in the next paragraph demonstrates how to:
 
-* use __List__ of custom objects with __Nullable__ properties
+* use **List** of custom objects with **Nullable** properties
 
 * bind the RadTreeList to list of custom objects (Generic list)
 
-* bind RadTreeList to a __DataReader__
+* bind RadTreeList to a **DataReader**
 
 
 
@@ -279,11 +279,11 @@ The code in the next paragraph demonstrates how to:
 	            End Set
 	        End Property
 	        Private m_ParentID As Integer
-	        Public Sub New(ByVal id__1 As Integer, ByVal title__2 As String, ByVal description__3 As String, ByVal parentID__4 As Integer)
-	            ID = id__1
-	            Title = title__2
-	            Description = description__3
-	            ParentID = parentID__4
+	        Public Sub New(ByVal id**1 As Integer, ByVal title**2 As String, ByVal description**3 As String, ByVal parentID**4 As Integer)
+	            ID = id**1
+	            Title = title**2
+	            Description = description**3
+	            ParentID = parentID**4
 	        End Sub
 	    End Class
 	    Public Class TestListItem
@@ -314,10 +314,10 @@ The code in the next paragraph demonstrates how to:
 	            End Set
 	        End Property
 	        Private m_Text As String
-	        Public Sub New(ByVal id__1 As System.Nullable(Of Integer), ByVal text__2 As String, ByVal pid__3 As System.Nullable(Of Integer))
-	            ID = id__1
-	            Text = text__2
-	            PID = pid__3
+	        Public Sub New(ByVal id**1 As System.Nullable(Of Integer), ByVal text**2 As String, ByVal pid**3 As System.Nullable(Of Integer))
+	            ID = id**1
+	            Text = text**2
+	            PID = pid**3
 	        End Sub
 	    End Class
 ````

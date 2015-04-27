@@ -1,6 +1,6 @@
 ---
 title: Resizing
-page_title: Resizing | UI for ASP.NET AJAX Documentation
+page_title: Resizing | RadTreeList for ASP.NET AJAX Documentation
 description: Resizing
 slug: treelist/column/resizing
 tags: resizing

@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeEdited
-page_title: OnClientNodeEdited | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeEdited | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeEdited
 slug: treeview/client-side-programming/events/onclientnodeedited
 tags: onclientnodeedited
@@ -14,7 +14,7 @@ position: 10
 
 ## 
 
-The __OnClientNodeEdited__ client-side event is called after editing is completed.
+The **OnClientNodeEdited** client-side event is called after editing is completed.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the node being edited. You can call get_text() from this node reference to get the "new" edited text.
+* **get_node()** retrieves a reference to the node being edited. You can call get_text() from this node reference to get the "new" edited text.
 
-* __get_domEvent()__ retrieves a DOM event object of the node edit.
+* **get_domEvent()** retrieves a DOM event object of the node edit.
 
 The example below displays the new node text just after the user has finished editing it.
 

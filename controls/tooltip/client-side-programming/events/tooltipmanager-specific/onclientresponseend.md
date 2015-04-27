@@ -1,6 +1,6 @@
 ---
 title: OnClientResponseEnd
-page_title: OnClientResponseEnd | UI for ASP.NET AJAX Documentation
+page_title: OnClientResponseEnd | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientResponseEnd
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseend
 tags: onclientresponseend
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-__OnClientResponseEnd__ - fired immediately after the response from a WebService or an AJAX request is received. This provides an opportunity to make changes just before the content of the tooltip is displayed. It receives two parameters:
+**OnClientResponseEnd** - fired immediately after the response from a WebService or an AJAX request is received. This provides an opportunity to make changes just before the content of the tooltip is displayed. It receives two parameters:
 
 1. The RadToolTipManager instance that fired the event. Note that this is not the tooltip that is being shown, this reference should be obtained via the static getCurrent() method of the class
 

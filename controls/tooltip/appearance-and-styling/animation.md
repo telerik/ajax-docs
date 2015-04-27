@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: Animation | UI for ASP.NET AJAX Documentation
+page_title: Animation | RadTooltip for ASP.NET AJAX Documentation
 description: Animation
 slug: tooltip/appearance-and-styling/animation
 tags: animation
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-How the tooltip becomes visible on the screen can be controlled with the __Animation__property. Possible values are:
+How the tooltip becomes visible on the screen can be controlled with the **Animation**property. Possible values are:
 
 * None
 

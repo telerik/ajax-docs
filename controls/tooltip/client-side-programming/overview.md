@@ -1,6 +1,6 @@
 ---
-title: Client-side Programming Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Programming Overview | RadTooltip for ASP.NET AJAX Documentation
 description: Overview
 slug: tooltip/client-side-programming/overview
 tags: overview
@@ -12,11 +12,11 @@ position: 0
 
 
 
-The __RadToolTip__and __RadToolTipManager__objects provide a client-side API that lets you interact with the controls in client-side code. In addition to a full set of [client-side events]({%slug tooltip/client-side-programming/events/overview%}), the client-side object model lets you manipulate tool tips while avoiding unnecessary post-backs.
+The **RadToolTip**and **RadToolTipManager**objects provide a client-side API that lets you interact with the controls in client-side code. In addition to a full set of [client-side events]({%slug tooltip/client-side-programming/events/overview%}), the client-side object model lets you manipulate tool tips while avoiding unnecessary post-backs.
 
 ## Getting the RadToolTip and RadToolTipManager Client-side Objects
 
-__RadToolTip__and __RadToolTipManager__create a client-side object with the __ClientID__ of the control. You can obtain the reference to these objects using the following JavaScript code:
+**RadToolTip**and **RadToolTipManager**create a client-side object with the **ClientID** of the control. You can obtain the reference to these objects using the following JavaScript code:
 
 ````JavaScript
 	
@@ -43,7 +43,7 @@ You can use this to close the current tooltip according to your logic (e.g., a b
 
 ## Cancelling an Event
 
-Some client-side events occur immediately before __RadToolTip__ or __RadToolTipManager__ performs some action. You can use these events to cancel the impending action by using the cancel property of the eventArgs passed to the handler:
+Some client-side events occur immediately before **RadToolTip** or **RadToolTipManager** performs some action. You can use these events to cancel the impending action by using the cancel property of the eventArgs passed to the handler:
 
 ````JavaScript
 	

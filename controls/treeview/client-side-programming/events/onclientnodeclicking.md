@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeClicking
-page_title: OnClientNodeClicking | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeClicking | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeClicking
 slug: treeview/client-side-programming/events/onclientnodeclicking
 tags: onclientnodeclicking
@@ -14,7 +14,7 @@ position: 17
 
 ## 
 
-The __OnClientNodeClicking__ client-side event occurs just before the user navigates to a node using mouse or keyboard. The event is called just prior to postback or url redirection and can be canceled.
+The **OnClientNodeClicking** client-side event occurs just before the user navigates to a node using mouse or keyboard. The event is called just prior to postback or url redirection and can be canceled.
 
 The event handler receives parameters:
 
@@ -22,11 +22,11 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves a DOM event object of the node click.
+* **get_domEvent()** retrieves a DOM event object of the node click.
 
 The example below shows how to cancel the event if the text of the node is "Search"
 

@@ -1,6 +1,6 @@
 ---
 title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+page_title: Overview | RadTooltip for ASP.NET AJAX Documentation
 description: Overview
 slug: tooltip/client-side-programming/events/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__RadToolTip__ and __RadToolTipManager__ both support the same client-side events that let you customize the behavior of the control:
+**RadToolTip** and **RadToolTipManager** both support the same client-side events that let you customize the behavior of the control:
 
 * [OnClientBeforeShow]({%slug tooltip/client-side-programming/events/onclientbeforeshow%}) occurs just prior to the display of the tool tip.
 
@@ -44,7 +44,7 @@ You can also assign event handlers in client-side code. For more information see
 
 For a live example illustrating the RadToolTip client-side events, see [Client-side events](http://demos.telerik.com/aspnet-ajax/tooltip/examples/clientsideevents/defaultcs.aspx).
 
->tip The __RadToolTipManager__ also offers three additional events that are specific for its Load-On-Demand functionaliaty:
+>tip The **RadToolTipManager** also offers three additional events that are specific for its Load-On-Demand functionaliaty:
 >
 * OnClientRequestStart
 * OnClientResponseEnd

@@ -1,6 +1,6 @@
 ---
 title: Data Binding Expressions
-page_title: Data Binding Expressions | UI for ASP.NET AJAX Documentation
+page_title: Data Binding Expressions | RadToolBar for ASP.NET AJAX Documentation
 description: Data Binding Expressions
 slug: toolbar/templates/data-binding-expressions
 tags: data,binding,expressions
@@ -58,9 +58,9 @@ When you run the application, the button templates display as an empty text box 
 
 
 
-In the DataBinder.Eval statement, __Container__ is the __RadToolBarButton__and __"Value"__ or __"Text"__identifies the __Value__or __Text__ property of that item.
+In the DataBinder.Eval statement, **Container** is the **RadToolBarButton**and **"Value"** or **"Text"**identifies the **Value**or **Text** property of that item.
 
->note In this example, the first parameter to the DataBinder.Eval statement is __Container__ , because the items are statically bound. If the toolbar was bound to a data source, then you must use __Container.DataItem__ instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
+>note In this example, the first parameter to the DataBinder.Eval statement is **Container** , because the items are statically bound. If the toolbar was bound to a data source, then you must use **Container.DataItem** instead. e.g.<%#DataBinder.Eval(Container.DataItem, "TextField") %>
 >
 
 

@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeChecked
-page_title: OnClientNodeChecked | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeChecked | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeChecked
 slug: treeview/client-side-programming/events/onclientnodechecked
 tags: onclientnodechecked
@@ -14,7 +14,7 @@ position: 21
 
 ## 
 
-The __OnClientNodeChecked__client-side event occurs after the end user selects a checkbox using mouse or keyboard. The node checked status returned by the node __get_checked()__ function has now changed to reflect the new value. The action can longer be canceled.
+The **OnClientNodeChecked**client-side event occurs after the end user selects a checkbox using mouse or keyboard. The node checked status returned by the node **get_checked()** function has now changed to reflect the new value. The action can longer be canceled.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the node check.
+* **get_domEvent()** retrieves a DOM event object of the node check.
 
 The example below shows a message containing the text of a node and the checked state of its checkbox when checked/unchecked.
 

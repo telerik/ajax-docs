@@ -1,6 +1,6 @@
 ---
 title: Animation
-page_title: Animation | UI for ASP.NET AJAX Documentation
+page_title: Animation | RadTreeView for ASP.NET AJAX Documentation
 description: Animation
 slug: treeview/appearance-and-styling/animation
 tags: animation
@@ -14,11 +14,11 @@ position: 6
 
 ## 
 
-The __ExpandAnimation__ and __CollapseAnimation__ tags of RadTreeView are used to customize the way groups are expanded and collapsed. For each expand or collapse animation, you can specify __Type__ and __Duration__:
+The **ExpandAnimation** and **CollapseAnimation** tags of RadTreeView are used to customize the way groups are expanded and collapsed. For each expand or collapse animation, you can specify **Type** and **Duration**:
 
 
 
-* The __Type__ is chosen from a list of predefined animation effects:
+* The **Type** is chosen from a list of predefined animation effects:
 
 * Linear
 
@@ -76,6 +76,6 @@ The __ExpandAnimation__ and __CollapseAnimation__ tags of RadTreeView are used t
 
 * InOutElastic
 
-* The __Duration__ is set in milliseconds and describes the amount of time to animate the expanding or collapsing of the RadTreeView.
+* The **Duration** is set in milliseconds and describes the amount of time to animate the expanding or collapsing of the RadTreeView.
 
-To disable expand animation effects, set the __Type__ to __AnimationType.None__.
+To disable expand animation effects, set the **Type** to **AnimationType.None**.

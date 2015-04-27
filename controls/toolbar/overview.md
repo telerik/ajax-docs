@@ -1,6 +1,6 @@
 ---
-title: ToolBar Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: RadToolBar Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: toolbar/overview
 tags: overview
@@ -14,7 +14,7 @@ position: 0
 
 ## 
 
-__Telerik RadToolBar for ASP.NET AJAX__lets you build tool bars used in ASP.NET applications.Using __RadToolBar__, you get
+**Telerik RadToolBar for ASP.NET AJAX** lets you build tool bars used in ASP.NET applications.Using **RadToolBar**, you get
 
 * A [client-side API]({%slug toolbar/client-side-programming/overview%}) that includes the ability to respond when the user clicks a button without unnecessary postbacks.
 

@@ -1,6 +1,6 @@
 ---
 title: Binding to Hierarchical Data
-page_title: Binding to Hierarchical Data | UI for ASP.NET AJAX Documentation
+page_title: Binding to Hierarchical Data | RadTreeView for ASP.NET AJAX Documentation
 description: Binding to Hierarchical Data
 slug: treeview/data-binding/binding-to-hierarchical-data
 tags: binding,to,hierarchical,data
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-Minimally, to bind hierarchical data you must assign the __DataSource,____DataFieldID__, __DataFieldParentID__and __DataTextField__properties of the RadTreeView. Optionally, you can assign the __DataValueField__property.
+Minimally, to bind hierarchical data you must assign the **DataSource, DataFieldID**, **DataFieldParentID**and **DataTextField**properties of the RadTreeView. Optionally, you can assign the **DataValueField**property.
 
 The following example binds to a query of the Northwind database Categories and Products tables that are joined so that they form a hierarchy. The raw data from the query looks something like the example below.
 
@@ -34,7 +34,7 @@ When bound to the RadTreeView the application looks like the screenshot below.
 
 ![RadTriewView Binding to Hierarchical Data](images/treeview_databindinghierarchical02.png)
 
-In the __BindToDataTable()__ method below, the hierarchical query is created, loaded into the DataTable and assigned to the __DataSource__ property of the RadTreeView. The "Name" of the category or product is assigned to the __DataTextField__for display in the TreeView. The __DataFieldParentID__property is assigned null, for top level categories, or the id of the category. A unique identifier must be assigned to the __DataFieldID__; in this case the identifier is the CategoryID or a number constructed from the CategoryID and ProductID combined. Optionally, you can assign the __DataValueField__. Also, you can optionally create a handler for the __NodeDataBound__event and use any of the bound columns; in this example the Description column is assigned to the Node __ToolTip__property.____
+In the **BindToDataTable()** method below, the hierarchical query is created, loaded into the DataTable and assigned to the **DataSource** property of the RadTreeView. The "Name" of the category or product is assigned to the **DataTextField**for display in the TreeView. The **DataFieldParentID**property is assigned null, for top level categories, or the id of the category. A unique identifier must be assigned to the **DataFieldID**; in this case the identifier is the CategoryID or a number constructed from the CategoryID and ProductID combined. Optionally, you can assign the **DataValueField**. Also, you can optionally create a handler for the **NodeDataBound**event and use any of the bound columns; in this example the Description column is assigned to the Node **ToolTip**property.
 
 
 

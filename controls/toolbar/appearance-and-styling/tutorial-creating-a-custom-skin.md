@@ -1,6 +1,6 @@
 ---
 title: Tutorial Creating A Custom Skin
-page_title: Tutorial Creating A Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Tutorial Creating A Custom Skin | RadToolBar for ASP.NET AJAX Documentation
 description: Tutorial Creating A Custom Skin
 slug: toolbar/appearance-and-styling/tutorial-creating-a-custom-skin
 tags: tutorial,creating,a,custom,skin
@@ -12,7 +12,7 @@ position: 4
 
 
 
-The following tutorial demonstrates creating a custom __RadToolBar__ skin, using the default skin as a base. This new skin will take the appearance of the toolbar from its default look:
+The following tutorial demonstrates creating a custom **RadToolBar** skin, using the default skin as a base. This new skin will take the appearance of the toolbar from its default look:
 
 ![ToolBar](images/toolbar_customskinstart.png)
 
@@ -26,9 +26,9 @@ to the following:
 
 ## Prepare the Project
 
-1. Drag a __RadToolBar__ from the toolbox onto a new AJAX-enabled application Web form.
+1. Drag a **RadToolBar** from the toolbox onto a new AJAX-enabled application Web form.
 
-1. Use the __RadToolBar Item Builder__ to add items to the toolbar, or add them in the HTML markup:
+1. Use the **RadToolBar Item Builder** to add items to the toolbar, or add them in the HTML markup:
 
 ````ASPNET
 	    <telerik:RadToolBar ID="RadToolBar1" runat="server">
@@ -62,7 +62,7 @@ to the following:
 
 1. In the Solution Explorer, create a new "Green" directory in your project.
 
-1. Copy the default __RadToolBar__ skin files from the installation directory to the "Green" directory; copy both the \ToolBar directory that contains the images for this skin and the ToolBar.Default.css file that defines the skin styles.
+1. Copy the default **RadToolBar** skin files from the installation directory to the "Green" directory; copy both the \ToolBar directory that contains the images for this skin and the ToolBar.Default.css file that defines the skin styles.
 
 >note The file path will typically be similar to this example: *\Program Files\Telerik\<Your Version of RadControls for ASPNET>\Skins\Default.* 
 >
@@ -83,15 +83,15 @@ to the following:
 
 
 
-1. Set the __EnableEmbeddedSkins__ property of your __RadToolBar__ control to __False__.
+1. Set the **EnableEmbeddedSkins** property of your **RadToolBar** control to **False**.
 
-1. Change the __Skin__ property of your __RadToolBar__ control to "Green".
+1. Change the **Skin** property of your **RadToolBar** control to "Green".
 
 1. Run the application. The new "Green" skin looks just like the Default skin:![ToolBar](images/toolbar_customskinstart.png)
 
 ## CSS classes for toolbar buttons
 
-1. The rounded edges of the toolbar are handled by a series of nested DIV elements in the rendered HTML for the toolbar. These DIV elements have the following classes applied (in order): __.RadToolBar_Green_Horizontal__, __.rtbOuter__,__.rtbMiddle__, and __.rtbInner__. Locate the selectors that assign the background graphics for these outer DIV elements.They should look like the following:
+1. The rounded edges of the toolbar are handled by a series of nested DIV elements in the rendered HTML for the toolbar. These DIV elements have the following classes applied (in order): **.RadToolBar_Green_Horizontal**, **.rtbOuter**,**.rtbMiddle**, and **.rtbInner**. Locate the selectors that assign the background graphics for these outer DIV elements.They should look like the following:
 
 ````XML
 	    .RadToolBar_Green_Horizontal
@@ -161,7 +161,7 @@ to the following:
 
 
 
-1. The toolbar is rendered using an unordered list <UL>. Each button in the toolbar is a list item (<LI>) with the __.rtbItem__ class applied, along with additional classes that reflect the button's state. Inside the <LI> element, the button is represented by an anchor element (<A>) with the __.rtbWrap__ class applied. Locate the selectors for buttons when the mouse hovers over them. These are __.rtbItemHovered .rtbWrap__ and (using the :hover pseudo-class) __.rtbItem .rtbWrap:hover__. Instead of the background image, provide the following rule:
+1. The toolbar is rendered using an unordered list <UL>. Each button in the toolbar is a list item (<LI>) with the **.rtbItem** class applied, along with additional classes that reflect the button's state. Inside the <LI> element, the button is represented by an anchor element (<A>) with the **.rtbWrap** class applied. Locate the selectors for buttons when the mouse hovers over them. These are **.rtbItemHovered .rtbWrap** and (using the :hover pseudo-class) **.rtbItem .rtbWrap:hover**. Instead of the background image, provide the following rule:
 
 ````XML
 	     .RadToolBar_Green .rtbItemHovered .rtbWrap,
@@ -170,7 +170,7 @@ to the following:
 
 
 
-1. Locate the selectors for buttons that are checked, expanded, or have focus. These have the __.rtbItemFocused__, __.rtbChecked__, __.rtbDropDownExpanded__, or .__rtbSplBtnExpanded__ classes applied. Instead of the background image, provide the following rule:
+1. Locate the selectors for buttons that are checked, expanded, or have focus. These have the **.rtbItemFocused**, **.rtbChecked**, **.rtbDropDownExpanded**, or .**rtbSplBtnExpanded** classes applied. Instead of the background image, provide the following rule:
 
 ````XML
 	    .RadToolBar_Green .rtbItemFocused .rtbWrap, 
@@ -181,7 +181,7 @@ to the following:
 
 
 
-1. Locate the __.RadToolBarGreen .rtbWrap__ selector. This rule is applied to all tools in the toolbar. Add a green border:
+1. Locate the **.RadToolBarGreen .rtbWrap** selector. This rule is applied to all tools in the toolbar. Add a green border:
 
 ````XML
 	    .RadToolBar_Green .rtbWrap
@@ -194,7 +194,7 @@ to the following:
 
 
 
-1. Inside the <A> element for each button, three nested <SPAN> elements are used to create rounded corners on buttons, similar to the way the three nested <DIV> elements are used to create rounded corners on the toolbar.They have the __.rtbOut__, __.rtbMid__, and __.rtbIn__ classes applied. Delete the selectors that assign background graphics to create these rounded corners (but keep the selectors that assign padding):
+1. Inside the <A> element for each button, three nested <SPAN> elements are used to create rounded corners on buttons, similar to the way the three nested <DIV> elements are used to create rounded corners on the toolbar.They have the **.rtbOut**, **.rtbMid**, and **.rtbIn** classes applied. Delete the selectors that assign background graphics to create these rounded corners (but keep the selectors that assign padding):
 
 ````XML
 	    .RadToolBar_Green .rtbItemHovered .rtbOut,
@@ -266,7 +266,7 @@ to the following:
 
 
 
-1. The text labels for buttons is rendered as a SPAN element with the __.rtbText__ class applied. Locate the selectors that set the font color when the mouse hovers over the button, and change the font color to green:
+1. The text labels for buttons is rendered as a SPAN element with the **.rtbText** class applied. Locate the selectors that set the font color when the mouse hovers over the button, and change the font color to green:
 
 ````XML
 	    .RadToolBar_Green .rtbWrap:hover .rtbText,
@@ -280,7 +280,7 @@ to the following:
 
 ## CSS classes for drop-down lists
 
-1. Drop-down lists are rendered as DIV elements with the __RadToolBarDropDown_Green__ class applied. Inside the DIV, the layout of the drop-down list is handled by a UL element with the __.rtbGroup__ class applied. Each item in the list has the __.rtbItem__ class applied. locate the .RadToolBarDropDown_Green .rtbGroup and .RadToolBarDropDown_Green .rtbGroup .rtbItem selectors, and change the background color to a pale green:
+1. Drop-down lists are rendered as DIV elements with the **RadToolBarDropDown_Green** class applied. Inside the DIV, the layout of the drop-down list is handled by a UL element with the **.rtbGroup** class applied. Each item in the list has the **.rtbItem** class applied. locate the .RadToolBarDropDown_Green .rtbGroup and .RadToolBarDropDown_Green .rtbGroup .rtbItem selectors, and change the background color to a pale green:
 
 ````XML
 	    .RadToolBarDropDown_Green .rtbGroup 
@@ -296,7 +296,7 @@ to the following:
 
 
 
-1. When items in the drop-down list have focus, they get the __.rtbFocused__ class applied. When the mouse hovers over them, they get the __.rtbItemHovered__ class applied. Locate the selector that changes the background color for focused items and change it from "#444" to "#595":
+1. When items in the drop-down list have focus, they get the **.rtbFocused** class applied. When the mouse hovers over them, they get the **.rtbItemHovered** class applied. Locate the selector that changes the background color for focused items and change it from "#444" to "#595":
 
 ````XML
 	    .RadToolBarDropDown_Green .rtbGroup .rtbItemHovered,
@@ -309,7 +309,7 @@ to the following:
 
 
 
-1. Locate the rule with the __.RadToolBarDropDown_Green .rtbGroup__ selector that assigns the border of the drop down lists. Change the border color to green and the background to "#595":
+1. Locate the rule with the **.RadToolBarDropDown_Green .rtbGroup** selector that assigns the border of the drop down lists. Change the border color to green and the background to "#595":
 
 ````XML
 	    .RadToolBarDropDown_Green .rtbGroup 
@@ -321,7 +321,7 @@ to the following:
 
 
 
-1. Disabled items in the drop-down list have the __.rtbDisabled__ class applied. Locate the selector for disabled items and change the background color to "#dfd":
+1. Disabled items in the drop-down list have the **.rtbDisabled** class applied. Locate the selector for disabled items and change the background color to "#dfd":
 
 ````XML
 	    .RadToolBarDropDown_Green .rtbGroup .rtbItem .rtbDisabled 
@@ -332,7 +332,7 @@ to the following:
 
 
 
-1. Separators are rendered with the __.rtbSeparator__ class applied. Locate the rule for the separator item and change the background color to "#dfd":
+1. Separators are rendered with the **.rtbSeparator** class applied. Locate the rule for the separator item and change the background color to "#dfd":
 
 ````XML
 	    .RadToolBarDropDown_Green .rtbSeparator 

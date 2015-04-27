@@ -1,6 +1,6 @@
 ---
-title: Drag and Drop Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Drag and Drop Overview | RadTreeView for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/drag-and-drop/overview
 tags: overview

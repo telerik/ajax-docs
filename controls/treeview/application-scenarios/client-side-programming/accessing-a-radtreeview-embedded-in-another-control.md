@@ -1,6 +1,6 @@
 ---
 title: Accessing a RadTreeView Embedded in Another Control
-page_title: Accessing a RadTreeView Embedded in Another Control | UI for ASP.NET AJAX Documentation
+page_title: Accessing a RadTreeView Embedded in Another Control | RadTreeView for ASP.NET AJAX Documentation
 description: Accessing a RadTreeView Embedded in Another Control
 slug: treeview/application-scenarios/client-side-programming/accessing-a-radtreeview-embedded-in-another-control
 tags: accessing,a,radtreeview,embedded,in,another,control

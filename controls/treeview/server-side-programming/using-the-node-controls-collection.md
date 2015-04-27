@@ -1,6 +1,6 @@
 ---
 title: Using the Node Controls Collection
-page_title: Using the Node Controls Collection | UI for ASP.NET AJAX Documentation
+page_title: Using the Node Controls Collection | RadTreeView for ASP.NET AJAX Documentation
 description: Using the Node Controls Collection
 slug: treeview/server-side-programming/using-the-node-controls-collection
 tags: using,the,node,controls,collection
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-You can add controls directly to the __Controls__ collection of a RadTreeNode. The example below shows three Nodes being created and a TextBox, Label and Button controls being added to each __Controls__ collection.
+You can add controls directly to the **Controls** collection of a RadTreeNode. The example below shows three Nodes being created and a TextBox, Label and Button controls being added to each **Controls** collection.
 
 
 

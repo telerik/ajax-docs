@@ -1,6 +1,6 @@
 ---
 title: Accessing Client Changes on the Server Side
-page_title: Accessing Client Changes on the Server Side | UI for ASP.NET AJAX Documentation
+page_title: Accessing Client Changes on the Server Side | RadTreeView for ASP.NET AJAX Documentation
 description: Accessing Client Changes on the Server Side
 slug: treeview/client-side-programming/accessing-client-changes-on-the-server-side
 tags: accessing,client,changes,on,the,server,side
@@ -14,29 +14,29 @@ position: 1
 
 
 
-Client side changes are available on the server side after postback. You can use the __ClientChanges__ property of RadTreeView to access them. The ClientChanges property of RadTreeView returns a collection of objects of type __ClientOperation__.An operation has two properties:
+Client side changes are available on the server side after postback. You can use the **ClientChanges** property of RadTreeView to access them. The ClientChanges property of RadTreeView returns a collection of objects of type **ClientOperation**.An operation has two properties:
 
-* __Item__ - the item which has been affected by the client operation;
+* **Item** - the item which has been affected by the client operation;
 
-* __Type__ - the type of the operation which is one of the following four cases:
+* **Type** - the type of the operation which is one of the following four cases:
 
-* __Update__ - when a property is set on the the client through methods such as __set_text__(), __set_value__(), __enable__(), __disable__(), etc.: treeNode.disable();
+* **Update** - when a property is set on the the client through methods such as **set_text**(), **set_value**(), **enable**(), **disable**(), etc.: treeNode.disable();
 
-* __Remove__ - when the __remove__ client method is called: treeview.get_nodes().remove(treeNode);
+* **Remove** - when the **remove** client method is called: treeview.get_nodes().remove(treeNode);
 
-* __Insert__ - when the __add__client method is called: treeview.get_nodes().add(treeNode);
+* **Insert** - when the **add**client method is called: treeview.get_nodes().add(treeNode);
 
-* __Clear__ - when a node with child nodes calls the __clear__() method: parentNode.get_nodes().clear(). If the parent node has no child nodes, the ClientChanges collection is not altered.
+* **Clear** - when a node with child nodes calls the **clear**() method: parentNode.get_nodes().clear(). If the parent node has no child nodes, the ClientChanges collection is not altered.
 
 
 
->note Note that you need to call the __trackChanges__ () and __commitChanges__ () client methods of RadTreeView in order to be able to access the changes on the server via the __ClientChanges__ property.
+>note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadTreeView in order to be able to access the changes on the server via the **ClientChanges** property.
 >
 
 
 ## Example:
 
-The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the __Item__ and __Type__ properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/treeview/examples/programming/clientsideapi/defaultcs.aspx) example.
+The code snippet below enumerates through all operations in the ClientChanges collection and utilizes both the **Item** and **Type** properties. For a complete demo, please see the client-side [Add/Remove/Disable Items](http://demos.telerik.com/aspnet-ajax/treeview/examples/programming/clientsideapi/defaultcs.aspx) example.
 
 
 

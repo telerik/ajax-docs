@@ -1,6 +1,6 @@
 ---
 title: OnClientHide
-page_title: OnClientHide | UI for ASP.NET AJAX Documentation
+page_title: OnClientHide | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientHide
 slug: tooltip/client-side-programming/events/onclienthide
 tags: onclienthide
@@ -14,7 +14,7 @@ position: 5
 
 ## 
 
-The __OnClientHide__ client-side event occurs as the tooltip is hidden. The event cannot be canceled.
+The **OnClientHide** client-side event occurs as the tooltip is hidden. The event cannot be canceled.
 
 The event handler receives parameters:
 

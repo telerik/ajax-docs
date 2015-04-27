@@ -1,6 +1,6 @@
 ---
 title: NodeCollapse
-page_title: NodeCollapse | UI for ASP.NET AJAX Documentation
+page_title: NodeCollapse | RadTreeView for ASP.NET AJAX Documentation
 description: NodeCollapse
 slug: treeview/server-side-programming/events/nodecollapse
 tags: nodecollapse
@@ -14,7 +14,7 @@ position: 7
 
 ## 
 
-When the user clicks the minus button next to a Node that has child Nodes, the __NodeCollapse__ event fires. Use the __RadTreeNodeEventArgs.Node__ property to get or set the collapsed Node properties. The Node __ExpandMode__ property must be set to __ServerSide__ for this event to fire.
+When the user clicks the minus button next to a Node that has child Nodes, the **NodeCollapse** event fires. Use the **RadTreeNodeEventArgs.Node** property to get or set the collapsed Node properties. The Node **ExpandMode** property must be set to **ServerSide** for this event to fire.
 
 
 
@@ -35,7 +35,7 @@ When the user clicks the minus button next to a Node that has child Nodes, the _
 ````
 
 
->note Every collapse of a node __causes a postback__ if the ExpandMode is set to ServerSide.
+>note Every collapse of a node **causes a postback** if the ExpandMode is set to ServerSide.
 >
 
 

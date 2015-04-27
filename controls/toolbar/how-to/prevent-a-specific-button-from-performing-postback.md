@@ -1,6 +1,6 @@
 ---
 title: Prevent a Specific Button from Performing Postback
-page_title: Prevent a Specific Button from Performing Postback | UI for ASP.NET AJAX Documentation
+page_title: Prevent a Specific Button from Performing Postback | RadToolBar for ASP.NET AJAX Documentation
 description: Prevent a Specific Button from Performing Postback
 slug: toolbar/how-to/prevent-a-specific-button-from-performing-postback
 tags: prevent,a,specific,button,from,performing,postback
@@ -16,7 +16,7 @@ position: 0
 
 This topic shows how to prevent a specific button from performing postback. There are two ways to achieve this.
 
-You can set the __PostBack__ property to __false__ for the item for which you want to prevent postback:
+You can set the **PostBack** property to **false** for the item for which you want to prevent postback:
 
 ````ASPNET
 	    <items>        
@@ -31,7 +31,7 @@ You can set the __PostBack__ property to __false__ for the item for which you wa
 
 
 
-Or, you can __cancel__ the __OnClientButtonClicking__ event for the specific item:
+Or, you can **cancel** the **OnClientButtonClicking** event for the specific item:
 
 ````ASPNET
 	    <telerik:radtoolbar id="RadToolbar1" runat="server" onbuttonclick="RadToolbar1_ButtonClick"

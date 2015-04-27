@@ -1,6 +1,6 @@
 ---
 title: NodeEdit
-page_title: NodeEdit | UI for ASP.NET AJAX Documentation
+page_title: NodeEdit | RadTreeView for ASP.NET AJAX Documentation
 description: NodeEdit
 slug: treeview/server-side-programming/events/nodeedit
 tags: nodeedit
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-The __NodeEdit__ event fires when the user clicks the __Enter__ key after [editing a Node]({%slug treeview/accessibility-and-internationalization/keyboard-support%}). The __RadTreeNodeEditEventArgs__ passed to the event handler provides a reference to the edited Node and a __Text__ property. Set the RadTreeView __AllowNodeEditing__ to enable the ability to edit. Edited nodes don't automatically persist user changes.
+The **NodeEdit** event fires when the user clicks the **Enter** key after [editing a Node]({%slug treeview/accessibility-and-internationalization/keyboard-support%}). The **RadTreeNodeEditEventArgs** passed to the event handler provides a reference to the edited Node and a **Text** property. Set the RadTreeView **AllowNodeEditing** to enable the ability to edit. Edited nodes don't automatically persist user changes.
 
 In the example below the "old" text is represented by e.Node.Text and the "new" text entered by the user as e.Text. The new text is assigned to the Node.
 

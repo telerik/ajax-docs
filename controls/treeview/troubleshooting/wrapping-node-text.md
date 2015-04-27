@@ -1,6 +1,6 @@
 ---
 title: Wrapping Node Text
-page_title: Wrapping Node Text | UI for ASP.NET AJAX Documentation
+page_title: Wrapping Node Text | RadTreeView for ASP.NET AJAX Documentation
 description: Wrapping Node Text
 slug: treeview/troubleshooting/wrapping-node-text
 tags: wrapping,node,text

@@ -1,6 +1,6 @@
 ---
 title: Rendering
-page_title: Rendering | UI for ASP.NET AJAX Documentation
+page_title: Rendering | RadTreeView for ASP.NET AJAX Documentation
 description: Rendering
 slug: treeview/web-pages/rendering
 tags: rendering

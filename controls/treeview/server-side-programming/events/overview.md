@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | UI for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-side Events Overview | RadTreeView for ASP.NET AJAX Documentation
 description: Overview
 slug: treeview/server-side-programming/events/overview
 tags: overview

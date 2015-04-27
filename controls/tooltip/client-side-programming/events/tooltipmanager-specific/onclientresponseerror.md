@@ -1,6 +1,6 @@
 ---
 title: OnClientResponseError
-page_title: OnClientResponseError | UI for ASP.NET AJAX Documentation
+page_title: OnClientResponseError | RadTooltip for ASP.NET AJAX Documentation
 description: OnClientResponseError
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseerror
 tags: onclientresponseerror
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-__OnClientResponseError__ - it is fired when a server error occurs during the request. It allows the developer to choose the behavior if this happens. The event receives the following parameters:
+**OnClientResponseError** - it is fired when a server error occurs during the request. It allows the developer to choose the behavior if this happens. The event receives the following parameters:
 
 1. The RadToolTipManager instance that fired the event. Note that this is not the tooltip that is being shown, this reference should be obtained via the static getCurrent() method of the class
 

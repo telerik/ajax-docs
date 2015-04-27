@@ -1,6 +1,6 @@
 ---
 title: Migrating Skins
-page_title: Migrating Skins | UI for ASP.NET AJAX Documentation
+page_title: Migrating Skins | RadTreeView for ASP.NET AJAX Documentation
 description: Migrating Skins
 slug: treeview/appearance-and-styling/migrating-skins
 tags: migrating,skins

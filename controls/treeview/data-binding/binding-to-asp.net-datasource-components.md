@@ -1,6 +1,6 @@
 ---
 title: Binding to ASP.NET DataSource Components
-page_title: Binding to ASP.NET DataSource Components | UI for ASP.NET AJAX Documentation
+page_title: Binding to ASP.NET DataSource Components | RadTreeView for ASP.NET AJAX Documentation
 description: Binding to ASP.NET DataSource Components
 slug: treeview/data-binding/binding-to-asp.net-datasource-components
 tags: binding,to,asp.net,datasource,components
@@ -12,7 +12,7 @@ position: 3
 
 
 
-__RadTreeView__ supports binding to all ASP.NET 2.0 DataSource components, including
+**RadTreeView** supports binding to all ASP.NET 2.0 DataSource components, including
 
 * AccessDataSource
 
@@ -26,7 +26,7 @@ __RadTreeView__ supports binding to all ASP.NET 2.0 DataSource components, inclu
 
 * LinqDataSource
 
-To bind to an ASP.NET DataSource component, set the __DataSourceID__ property of the __RadTreeView__ to the __ID__ of the DataSource component. You should also set the __DataTextField__ and __DataValueField__ properties of the __RadTreeView__ to map the __Text__ and __Value__ properties of the Nodes to the respective columns/fields from the Data Source. Additionally, you can set the __DataFieldID__ and __DateFieldParentID__ properties to create a hierarchical RadTreeView for all types of data sources except XmlDataSource and SiteMapDataSource (which are inherently hierarchical). If you need to map additional columns use the [NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%}).
+To bind to an ASP.NET DataSource component, set the **DataSourceID** property of the **RadTreeView** to the **ID** of the DataSource component. You should also set the **DataTextField** and **DataValueField** properties of the **RadTreeView** to map the **Text** and **Value** properties of the Nodes to the respective columns/fields from the Data Source. Additionally, you can set the **DataFieldID** and **DateFieldParentID** properties to create a hierarchical RadTreeView for all types of data sources except XmlDataSource and SiteMapDataSource (which are inherently hierarchical). If you need to map additional columns use the [NodeDataBound event]({%slug treeview/data-binding/using-additional-columns%}).
 
 ## AccessDataSource
 
@@ -58,7 +58,7 @@ AccessDataSource allows you to bind to MS Access data files.The AccessDataSource
 
 ## SqlDataSource
 
-__SqlDataSource__ allows you to bind to a MS SQL database table or view. You must supply the SqlDataSource with a valid connection string and a SelectCommand.
+**SqlDataSource** allows you to bind to a MS SQL database table or view. You must supply the SqlDataSource with a valid connection string and a SelectCommand.
 
 >tip You can use the[Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247297(VS.80).aspx)Smart Tag option to get help building the SqlDataSource properties in the designer.
 >
@@ -86,7 +86,7 @@ __SqlDataSource__ allows you to bind to a MS SQL database table or view. You mus
 
 ## XmlDataSource
 
-__XmlDataSource__ allows you to bind to an XML file or document. __XmlDataSource__ supports a __DataFile__ property for specifying the path to an XML data file to be used as input. You may also specify the __TransformFile__ property to apply an XSLT transformation to the data and the __XPath__ property to specify a subset of Nodes to expose from the Data Source. In the example below notice the XML file structure where the root level Node is "Customers" containing multiple "Customer" elements. Use the XPath expression "/Customers/Customer" to surface just those Nodes to __RadTreeView__.
+**XmlDataSource** allows you to bind to an XML file or document. **XmlDataSource** supports a **DataFile** property for specifying the path to an XML data file to be used as input. You may also specify the **TransformFile** property to apply an XSLT transformation to the data and the **XPath** property to specify a subset of Nodes to expose from the Data Source. In the example below notice the XML file structure where the root level Node is "Customers" containing multiple "Customer" elements. Use the XPath expression "/Customers/Customer" to surface just those Nodes to **RadTreeView**.
 
 >tip You can use the[Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247291(VS.80).aspx)Smart Tag option to get help building the XmlDataSource properties in the designer.
 >
@@ -131,7 +131,7 @@ __XmlDataSource__ allows you to bind to an XML file or document. __XmlDataSource
 
 ## ObjectDataSource
 
-ObjectDataSource allows you to get data from a variety of underlying data stores. The ObjectDataSource requires the __TypeName__ of the object that will supply the data and a __SelectMethod__ that will return the data. In the example below __SiteDataItem__ is a simple class with Text, Url, ID and ParentID properties. In the __RadTreeView__, the __DataTextField__, __DataNavigateUrlField__, __DataFieldID__ and __DataFieldParentID__ properties are assigned to the corresponding properties of __SiteDataItem__.
+ObjectDataSource allows you to get data from a variety of underlying data stores. The ObjectDataSource requires the **TypeName** of the object that will supply the data and a **SelectMethod** that will return the data. In the example below **SiteDataItem** is a simple class with Text, Url, ID and ParentID properties. In the **RadTreeView**, the **DataTextField**, **DataNavigateUrlField**, **DataFieldID** and **DataFieldParentID** properties are assigned to the corresponding properties of **SiteDataItem**.
 
 >tip You can also use the[Configure DataSource](http://msdn2.microsoft.com/en-us/library/ms247284(VS.80).aspx)Smart Tag option to get help building the ObjectDataSource properties in the designer.
 >

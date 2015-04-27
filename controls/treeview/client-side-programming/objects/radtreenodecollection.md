@@ -1,6 +1,6 @@
 ---
 title: RadTreeNodeCollection
-page_title: RadTreeNodeCollection | UI for ASP.NET AJAX Documentation
+page_title: RadTreeNodeCollection | RadTreeView for ASP.NET AJAX Documentation
 description: RadTreeNodeCollection
 slug: treeview/client-side-programming/objects/radtreenodecollection
 tags: radtreenodecollection
@@ -21,7 +21,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add__ |RadTreeNode|none|Adds a child Node to the Nodes collection of a Node.|
+| **add** |RadTreeNode|none|Adds a child Node to the Nodes collection of a Node.|
 
 ````JavaScript
 	        function AddNode() {
@@ -37,7 +37,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __insert__  | int, RadTreeNode | none | Inserts a Node at the position defined by the first (index) parameter. The Node is inserted in the Nodes collection of a Node. |
+|  **insert**  | int, RadTreeNode | none | Inserts a Node at the position defined by the first (index) parameter. The Node is inserted in the Nodes collection of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -54,7 +54,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __remove__  | RadTreeNode | none | Removes a child Node from the Nodes collection of a Node. |
+|  **remove**  | RadTreeNode | none | Removes a child Node from the Nodes collection of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -70,7 +70,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __removeAt__  | int | none | Removes the Node at the specified index. |
+|  **removeAt**  | int | none | Removes the Node at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -86,7 +86,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __clear__  | none | none | Removes all Nodes from a Node collection. |
+|  **clear**  | none | none | Removes all Nodes from a Node collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -102,7 +102,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __getNode__  | int | RadTreeNode | Gets the Node from the Nodes collection residing at the index defined by the parameter passed to the function. |
+|  **getNode**  | int | RadTreeNode | Gets the Node from the Nodes collection residing at the index defined by the parameter passed to the function. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -116,7 +116,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __indexOf__  | RadTreeNode | int | Gets the position of the Node within the Nodes collection. |
+|  **indexOf**  | RadTreeNode | int | Gets the position of the Node within the Nodes collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -131,7 +131,7 @@ The table below lists the most important functions of the client-side RadTreeNod
 
 
 
-|  __get_count__  | none | int | Gets the count of the Nodes in the Nodes collection of a Node. |
+|  **get_count**  | none | int | Gets the count of the Nodes in the Nodes collection of a Node. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

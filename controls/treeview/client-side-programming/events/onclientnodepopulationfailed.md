@@ -1,6 +1,6 @@
 ---
 title: OnClientNodePopulationFailed
-page_title: OnClientNodePopulationFailed | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodePopulationFailed | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodePopulationFailed
 slug: treeview/client-side-programming/events/onclientnodepopulationfailed
 tags: onclientnodepopulationfailed
@@ -14,11 +14,11 @@ position: 3
 
 ## 
 
-The __OnClientNodePopulationFailed__ client-side event occurs when:
+The **OnClientNodePopulationFailed** client-side event occurs when:
 
 * Child nodes are loaded on-demand.
 
-* The parent node __ExpandMode__ property is __ServerSideCallback__ or __WebService__.
+* The parent node **ExpandMode** property is **ServerSideCallback** or **WebService**.
 
 * An exception occurs while loading.
 
@@ -28,13 +28,13 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the parent node.
+* **get_node()** retrieves a reference to the parent node.
 
-* __get_errorMessage()__ retrieves the exception message text.
+* **get_errorMessage()** retrieves the exception message text.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false). Canceling of the event will prevent the exception from propagating.
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false). Canceling of the event will prevent the exception from propagating.
 
-* __get_domEvent()__ retrieves a DOM event object.
+* **get_domEvent()** retrieves a DOM event object.
 
 In the example below an exception is raised in the server-side [NodeExpand]({%slug treeview/server-side-programming/events/nodeexpand%}) event handler
 
@@ -73,14 +73,14 @@ In the example below an exception is raised in the server-side [NodeExpand]({%sl
 
 
 
->caution Note that the custom alert will appear on remote clients, only if the __customErrors__ mode is set to __Off__ in the web.config:
+>caution Note that the custom alert will appear on remote clients, only if the **customErrors** mode is set to **Off** in the web.config:
 ><customErrors mode="Off"></customErrors>
 >
 
 
 
 
-The server __NodeExpand__ event handler for the RadTreeView defined above:
+The server **NodeExpand** event handler for the RadTreeView defined above:
 
 
 

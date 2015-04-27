@@ -1,6 +1,6 @@
 ---
 title: OnClientNodeClicked
-page_title: OnClientNodeClicked | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodeClicked | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodeClicked
 slug: treeview/client-side-programming/events/onclientnodeclicked
 tags: onclientnodeclicked
@@ -14,7 +14,7 @@ position: 18
 
 ## 
 
-The __OnClientNodeClicked__ client-side event occurs when the end user navigates to a node using mouse or keyboard.
+The **OnClientNodeClicked** client-side event occurs when the end user navigates to a node using mouse or keyboard.
 
 The event handler receives parameters:
 
@@ -22,9 +22,9 @@ The event handler receives parameters:
 
 1. Event arguments with function:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM event object of the node click.
+* **get_domEvent()** retrieves a DOM event object of the node click.
 
 The example below displays the text for the clicked node.
 

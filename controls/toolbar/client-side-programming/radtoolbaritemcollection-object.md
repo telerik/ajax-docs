@@ -1,6 +1,6 @@
 ---
 title: RadToolBarItemCollection Object
-page_title: RadToolBarItemCollection Object | UI for ASP.NET AJAX Documentation
+page_title: RadToolBarItemCollection Object | RadToolBar for ASP.NET AJAX Documentation
 description: RadToolBarItemCollection Object
 slug: toolbar/client-side-programming/radtoolbaritemcollection-object
 tags: radtoolbaritemcollection,object
@@ -14,13 +14,13 @@ position: 2
 
 ## 
 
-The __RadToolBarItemCollection__ object is returned by the __get_items__ method of the __RadToolBar__ object. The following table lists the most important methods.
+The **RadToolBarItemCollection** object is returned by the **get_items** method of the **RadToolBar** object. The following table lists the most important methods.
 
->caution RadToolBar's items can contain __Buttons__ , __DropDowns__ and __SplitButtons__ . Each __DropDown__ and __SplitButton__ has its __Buttons__ collection so that buttons can be added to these collections.
+>caution RadToolBar's items can contain **Buttons** , **DropDowns** and **SplitButtons** . Each **DropDown** and **SplitButton** has its **Buttons** collection so that buttons can be added to these collections.
 >
 
 
->note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the __trackChanges__ method of the toolbar object and the __commitChanges__ method of the toolbar object.
+>note Changes to the item collection made using these methods do not persist after a postback unless surrounded by a call to the **trackChanges** method of the toolbar object and the **commitChanges** method of the toolbar object.
 >
 
 
@@ -29,7 +29,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 | Name | Parameters | Return Type | Description |
 | ------ | ------ | ------ | ------ |
-| __add__ |[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%})|none|Adds a child item to the collection.|
+| **add** |[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%})|none|Adds a child item to the collection.|
 
 ````JavaScript
 	
@@ -65,7 +65,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __insert__  | int,[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Inserts the item into the collection at the position defined by the first (index) parameter. |
+|  **insert**  | int,[RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Inserts the item into the collection at the position defined by the first (index) parameter. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -89,7 +89,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __remove__  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Removes the specified item from the collection. |
+|  **remove**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | none | Removes the specified item from the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -106,7 +106,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __clear__  | none | none | Clears the Items collection of all the child items it contains. |
+|  **clear**  | none | none | Clears the Items collection of all the child items it contains. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -122,7 +122,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __getItem__  | int | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | Returns the item from the collection that resides at the specified index. |
+|  **getItem**  | int | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | Returns the item from the collection that resides at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -136,7 +136,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __indexOf__  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | int | Returns the index of an item. |
+|  **indexOf**  | [RadToolBarItem]({%slug toolbar/client-side-programming/radtoolbaritem-object%}) | int | Returns the index of an item. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -151,7 +151,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __removeAt__  | int | none | Removes the item at the specified index. |
+|  **removeAt**  | int | none | Removes the item at the specified index. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
@@ -167,7 +167,7 @@ The __RadToolBarItemCollection__ object is returned by the __get_items__ method 
 
 >caption  
 
-|  __get_count__  | none | int | Returns the number of the items in the collection. |
+|  **get_count**  | none | int | Returns the number of the items in the collection. |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript

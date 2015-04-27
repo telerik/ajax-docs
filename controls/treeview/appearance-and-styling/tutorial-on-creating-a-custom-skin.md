@@ -1,6 +1,6 @@
 ---
 title: Tutorial on Creating a Custom Skin
-page_title: Tutorial on Creating a Custom Skin | UI for ASP.NET AJAX Documentation
+page_title: Tutorial on Creating a Custom Skin | RadTreeView for ASP.NET AJAX Documentation
 description: Tutorial on Creating a Custom Skin
 slug: treeview/appearance-and-styling/tutorial-on-creating-a-custom-skin
 tags: tutorial,on,creating,a,custom,skin
@@ -21,7 +21,7 @@ The following tutorial demonstrates creating a custom RadTreeView Skin, using th
 
 ## Prepare the Project
 
-1. In a new AJAX-Enabled application web form, add a RadTreeView. Set the __EnableEmbeddedSkins__ property to __false__.
+1. In a new AJAX-Enabled application web form, add a RadTreeView. Set the **EnableEmbeddedSkins** property to **false**.
 
 1. In the Solution Explorer, create a new "MySkin" directory in your project.
 
@@ -91,11 +91,11 @@ The following tutorial demonstrates creating a custom RadTreeView Skin, using th
 
 1. Open "TreeView.Default.css" for editing in Visual Studio.
 
-1. Press __Control-H__ to invoke the Find and Replace dialog.
+1. Press **Control-H** to invoke the Find and Replace dialog.
 
-1. Set __Find what:__ to "_Default", __Replace with:__ to "_MySkin", and __Look in:__to __Current Document__.
+1. Set **Find what:** to "_Default", **Replace with:** to "_MySkin", and **Look in:**to **Current Document**.
 
-1. Click the __Replace All__ button.
+1. Click the **Replace All** button.
 >caption 
 
 ![RadTreeView Custom Skins](images/treeview_appearancecustomskin05.png)
@@ -118,6 +118,6 @@ The following tutorial demonstrates creating a custom RadTreeView Skin, using th
 
 ![RadTreeView Custom Skins](images/treeview_appearancecustomskin07.png)
 
-1. Enter "MySkin" in the RadTreeView __Skin__ property.
+1. Enter "MySkin" in the RadTreeView **Skin** property.
 
-1. Press __F5__ to run the application. *Notice the new plus/minus button graphics and new colors and font styles for hover, selected and disabled states.*
+1. Press **F5** to run the application. *Notice the new plus/minus button graphics and new colors and font styles for hover, selected and disabled states.*

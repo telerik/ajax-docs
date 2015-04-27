@@ -1,6 +1,6 @@
 ---
 title: Expanding Nodes on a Single Click
-page_title: Expanding Nodes on a Single Click | UI for ASP.NET AJAX Documentation
+page_title: Expanding Nodes on a Single Click | RadTreeView for ASP.NET AJAX Documentation
 description: Expanding Nodes on a Single Click
 slug: treeview/application-scenarios/client-side-programming/expanding-nodes-on-a-single-click
 tags: expanding,nodes,on,a,single,click
@@ -14,7 +14,7 @@ position: 3
 
 ## 
 
-By default, RadTreeView expands a node by clicking the plus button or by double clicking the parent node. You can change this behavior by handling the __OnClientNodeClicked__event, getting a reference to the clicked on node and calling the __RadTreeNode toggle()__function. You can tailor this behavior to only occur when particular nodes are clicked by [checking the node text, value, category or attributes]({%slug treeview/client-side-programming/objects/radtreenode%}).
+By default, RadTreeView expands a node by clicking the plus button or by double clicking the parent node. You can change this behavior by handling the **OnClientNodeClicked**event, getting a reference to the clicked on node and calling the **RadTreeNode toggle()**function. You can tailor this behavior to only occur when particular nodes are clicked by [checking the node text, value, category or attributes]({%slug treeview/client-side-programming/objects/radtreenode%}).
 
 ````ASPNET
 	

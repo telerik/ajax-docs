@@ -1,6 +1,6 @@
 ---
 title: Editing Node Text When Using Templates
-page_title: Editing Node Text When Using Templates | UI for ASP.NET AJAX Documentation
+page_title: Editing Node Text When Using Templates | RadTreeView for ASP.NET AJAX Documentation
 description: Editing Node Text When Using Templates
 slug: treeview/troubleshooting/editing-node-text-when-using-templates
 tags: editing,node,text,when,using,templates
@@ -18,9 +18,9 @@ When using Templates for the Nodes of a RadTreeView, editing of the Text of thes
 
 The approach demonstrated in the example below is an elegant way to edit Node Text, save it in a database and then populate the TreeView with the new data.
 
-__Example:__
+**Example:**
 
-This example shows a TreeView that is bound to a database. It uses Templates for its Nodes. The Template displays the Text of Nodes using the __DataBinder.Eval__ expression.
+This example shows a TreeView that is bound to a database. It uses Templates for its Nodes. The Template displays the Text of Nodes using the **DataBinder.Eval** expression.
 
 ````ASPNET
 	    <telerik:RadTreeView ID="RadTreeView1" runat="server" AllowNodeEditing="true" OnNodeEdit="RadTreeView1_NodeEdit">

@@ -1,6 +1,6 @@
 ---
 title: Skins
-page_title: Skins | UI for ASP.NET AJAX Documentation
+page_title: Skins | RadTreeList for ASP.NET AJAX Documentation
 description: Skins
 slug: treelist/appearance-and-styling/skins
 tags: skins
@@ -16,7 +16,7 @@ RadTreeList uses skins to control its overall look-and-feel. A skin is a set of 
 
 ## Built-in skins
 
-These are the skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin the user only needs to set the __Skin__ property of the control. Built-in skins are also provided in "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
+These are the skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin the user only needs to set the **Skin** property of the control. Built-in skins are also provided in "C:\Program Files\Telerik\UI for ASP.NET AJAX QX 20XX\Skins".
 
 Below is a set of the Telerik RadTreeList skins:![RadTreeList Skins](images/treelist_skins.png)
 
@@ -28,6 +28,6 @@ Below is a set of the Telerik RadTreeList skins:![RadTreeList Skins](images/tree
 
 ## Custom skins
 
-These are skins created by the developer. They are not embedded so the control cannot register them automatically. If you use a custom skin you need to set the __Skin__ property, and the __EnableEmbeddedSkins__ property of the treelist control to __false__. If you do not do so, an exception will be thrown saying that there is no embedded skin matching the Skin property.
+These are skins created by the developer. They are not embedded so the control cannot register them automatically. If you use a custom skin you need to set the **Skin** property, and the **EnableEmbeddedSkins** property of the treelist control to **false**. If you do not do so, an exception will be thrown saying that there is no embedded skin matching the Skin property.
 
 Examine the [Creating a custom skin](D8D21563-E984-4C34-8822-CCF8F7EB6E6F) help topic for additional information.

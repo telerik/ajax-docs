@@ -1,6 +1,6 @@
 ---
 title: OnClientNodePopulating
-page_title: OnClientNodePopulating | UI for ASP.NET AJAX Documentation
+page_title: OnClientNodePopulating | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientNodePopulating
 slug: treeview/client-side-programming/events/onclientnodepopulating
 tags: onclientnodepopulating
@@ -14,7 +14,7 @@ position: 4
 
 ## 
 
-The __OnClientNodePopulating__ client-side event occurs just before child nodes are loaded on-demand. The __ExpandMode__ property of the parent node should be __ServerSideCallback__ or __WebService__ for this event to fire. The event can be canceled.
+The **OnClientNodePopulating** client-side event occurs just before child nodes are loaded on-demand. The **ExpandMode** property of the parent node should be **ServerSideCallback** or **WebService** for this event to fire. The event can be canceled.
 
 The event handler receives parameters:
 
@@ -22,15 +22,15 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_context()__ retrieves an object that is automatically passed to a load-on-demand web service.
+* **get_context()** retrieves an object that is automatically passed to a load-on-demand web service.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false).
 
-* __get_domEvent()__ retrieves a DOM event object of the node population.
+* **get_domEvent()** retrieves a DOM event object of the node population.
 
-The example below shows how to prevent populating a "Network Locations" node. Note that the __OnClientNodePopulated__ event does not fire when set_cancel() is called. See the [Webservice Load-On-Demand]({%slug treeview/load-on-demand/web-service-binding%}) topic for another example.
+The example below shows how to prevent populating a "Network Locations" node. Note that the **OnClientNodePopulated** event does not fire when set_cancel() is called. See the [Webservice Load-On-Demand]({%slug treeview/load-on-demand/web-service-binding%}) topic for another example.
 
 ````ASPNET
 	
@@ -73,7 +73,7 @@ The example below shows how to prevent populating a "Network Locations" node. No
 
 
 
-The server __NodeExpand__ event handler for the RadTreeView defined above:
+The server **NodeExpand** event handler for the RadTreeView defined above:
 
 
 

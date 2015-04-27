@@ -1,6 +1,6 @@
 ---
 title: HTML Structure
-page_title: HTML Structure | UI for ASP.NET AJAX Documentation
+page_title: HTML Structure | RadToolBar for ASP.NET AJAX Documentation
 description: HTML Structure
 slug: toolbar/appearance-and-styling/html-structure
 tags: html,structure

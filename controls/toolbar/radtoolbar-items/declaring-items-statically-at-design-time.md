@@ -1,6 +1,6 @@
 ---
 title: Declaring Items Statically at Design Time
-page_title: Declaring Items Statically at Design Time | UI for ASP.NET AJAX Documentation
+page_title: Declaring Items Statically at Design Time | RadToolBar for ASP.NET AJAX Documentation
 description: Declaring Items Statically at Design Time
 slug: toolbar/radtoolbar-items/declaring-items-statically-at-design-time
 tags: declaring,items,statically,at,design,time
@@ -12,13 +12,13 @@ position: 1
 
 
 
-The definition of __RadToolBar__ items can be added to the in-line declaration of the toolbar using the [RadToolBar Item Builder]({%slug toolbar/design-time/radtoolbar-item-editor%}). The item builder updates the ASPX or ASCX file to include the list of items and their properties.
+The definition of **RadToolBar** items can be added to the in-line declaration of the toolbar using the [RadToolBar Item Builder]({%slug toolbar/design-time/radtoolbar-item-editor%}). The item builder updates the ASPX or ASCX file to include the list of items and their properties.
 
-You can also directly edit the ASPX or ASCX file by adding items to the <Items></Items> section of the __RadToolBar__ declaration. The item declaration might be <telerik:RadToolBarButton .../>, <telerik:RadToolBarDropDown .../>or <telerik:RadToolBarSplitButton ... />.
+You can also directly edit the ASPX or ASCX file by adding items to the <Items></Items> section of the **RadToolBar** declaration. The item declaration might be <telerik:RadToolBarButton .../>, <telerik:RadToolBarDropDown .../>or <telerik:RadToolBarSplitButton ... />.
 
 ## Example
 
-Add the following __inline__ definition of a toolbar to your ASPX or ASCX file:
+Add the following **inline** definition of a toolbar to your ASPX or ASCX file:
 
 ````ASPNET
 	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal">

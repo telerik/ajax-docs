@@ -1,6 +1,6 @@
 ---
 title: Set the Tooltip of the Node with Javascript
-page_title: Set the Tooltip of the Node with Javascript | UI for ASP.NET AJAX Documentation
+page_title: Set the Tooltip of the Node with Javascript | RadTreeView for ASP.NET AJAX Documentation
 description: Set the Tooltip of the Node with Javascript
 slug: treeview/application-scenarios/client-side-programming/set-the-tooltip-of-the-node-with-javascript
 tags: set,the,tooltip,of,the,node,with,javascript
@@ -33,7 +33,7 @@ Normally, you [set the ToolTip]({%slug treeview/radtreeview-nodes/overview%}) pr
 
 
 
-In the above code snippets __node__ is a reference to a node of the treeview.
+In the above code snippets **node** is a reference to a node of the treeview.
 
 # See Also
 

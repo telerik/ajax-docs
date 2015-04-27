@@ -1,6 +1,6 @@
 ---
 title: Localization
-page_title: Localization | UI for ASP.NET AJAX Documentation
+page_title: Localization | RadTreeList for ASP.NET AJAX Documentation
 description: Localization
 slug: treelist/accessibility-and-internationalization/localization
 tags: localization
@@ -18,19 +18,19 @@ The RadTreeList control supports built-in localization through Global resources.
 
 The primary means for localization in ASP.NET is to use resource files. Resource files are simple XML files that can be easily edited and transferred to otherapplications. You can use resource files to change the default (English) localization for RadTreeList that is stored in the Telerik.Web.UI assembly.
 
->note RadTreeList's default __Culture__ is taken from the page's __CurrentUICulture__ .
+>note RadTreeList's default **Culture** is taken from the page's **CurrentUICulture** .
 >
 
 
 To create a global resource file to localize the treelist:
 
-1. Create the __App_GlobalResources__ folder in the root of your web application.
+1. Create the **App_GlobalResources** folder in the root of your web application.
 
-1. Copy the default resource __RadTreeList.Main.resx__ file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the UI controls.
+1. Copy the default resource **RadTreeList.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the UI controls.
 
-1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadTreeList follow a strict naming convention:__RadTreeList.Main.<Culture Identifier>.resx__
+1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadTreeList follow a strict naming convention:**RadTreeList.Main.<Culture Identifier>.resx**
 
->note  __The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.__ 
+>note  **The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
 >
 For example RadTreeList.Main.bg-BG.resx. Both files should be present in the App_GlobalResources folder:![Global Resources](images/treelist_localization1.png)
 

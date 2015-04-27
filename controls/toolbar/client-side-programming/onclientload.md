@@ -1,6 +1,6 @@
 ---
 title: OnClientLoad
-page_title: OnClientLoad | UI for ASP.NET AJAX Documentation
+page_title: OnClientLoad | RadToolBar for ASP.NET AJAX Documentation
 description: OnClientLoad
 slug: toolbar/client-side-programming/onclientload
 tags: onclientload
@@ -14,13 +14,13 @@ position: 9
 
 ## 
 
-The __OnClientLoad__ client-side event occurs when the toolbar is first loaded and fully initialized on the client.
+The **OnClientLoad** client-side event occurs when the toolbar is first loaded and fully initialized on the client.
 
 The event handler receives a single parameter: a reference to the client-side toolbar object.
 
 You can use this event to perform your own initialization to the toolbar when it is loaded, or to save a reference to the toolbar in a global variable for reference from within your client-side code.
 
-The following example illustrates the use of the __OnClientLoad__ event handler for saving a reference to the client-side object:
+The following example illustrates the use of the **OnClientLoad** event handler for saving a reference to the client-side object:
 
 ````ASPNET
 	

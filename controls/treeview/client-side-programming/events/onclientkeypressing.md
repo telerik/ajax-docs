@@ -1,6 +1,6 @@
 ---
 title: OnClientKeyPressing
-page_title: OnClientKeyPressing | UI for ASP.NET AJAX Documentation
+page_title: OnClientKeyPressing | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientKeyPressing
 slug: treeview/client-side-programming/events/onclientkeypressing
 tags: onclientkeypressing
@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-The __OnClientKeyPressing__ client-side event occurs when any key is clicked while the treeview is having the focus:
+The **OnClientKeyPressing** client-side event occurs when any key is clicked while the treeview is having the focus:
 
 The event handler receives parameters:
 
@@ -22,11 +22,11 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_node()__ retrieves a reference to the node which is selected before pressing the key.
+* **get_node()** retrieves a reference to the node which is selected before pressing the key.
 
-* __get_domEvent()__ retrieves the dom event.
+* **get_domEvent()** retrieves the dom event.
 
-* __set_cancel()__ - call this function to specify wether the event should be canceled (true) or not (false). Canceling the event will for example stop the KeyBoard navigation.
+* **set_cancel()** - call this function to specify wether the event should be canceled (true) or not (false). Canceling the event will for example stop the KeyBoard navigation.
 
 The example below shows how to toggle the nodes upon clicking the Enter key:
 

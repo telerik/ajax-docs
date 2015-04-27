@@ -1,6 +1,6 @@
 ---
 title: Automatic Data Operations
-page_title: Automatic Data Operations | UI for ASP.NET AJAX Documentation
+page_title: Automatic Data Operations | RadTreeList for ASP.NET AJAX Documentation
 description: Automatic Data Operations
 slug: treelist/data-editing/automatic-data-operations
 tags: automatic,data,operations
@@ -12,13 +12,13 @@ position: 2
 
 
 
-__RadTreeList__ provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
+**RadTreeList** provides an API for inserting new data, updating existing data and deleting data from the specified data source. You can use these features while writing very little code.
 
 ## Controlling the automatic data source operations
 
-Once it is bound to a DataSource control that supports Insert, Update, and Delete operations, RadTreeList can take an advantage of the data source capabilities to perform the requiredoperations.The only requirement is binding the treelist to a declarative data source using the__DataSourceID__ property of the control. Other than this, the functionality is automatically handled, without the need to write any custom code.
+Once it is bound to a DataSource control that supports Insert, Update, and Delete operations, RadTreeList can take an advantage of the data source capabilities to perform the requiredoperations.The only requirement is binding the treelist to a declarative data source using the**DataSourceID** property of the control. Other than this, the functionality is automatically handled, without the need to write any custom code.
 
-You also need to set the __DataKeyNames__ and __ParentDataKeyNames__ properties of the RadTreeList control so that the insert, update, and delete operations perform as expected.
+You also need to set the **DataKeyNames** and **ParentDataKeyNames** properties of the RadTreeList control so that the insert, update, and delete operations perform as expected.
 
 ## RadTreeList bound to SqlDataSource
 

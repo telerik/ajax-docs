@@ -1,6 +1,6 @@
 ---
 title: RadTreeView Structure
-page_title: RadTreeView Structure | UI for ASP.NET AJAX Documentation
+page_title: RadTreeView Structure | RadTreeView for ASP.NET AJAX Documentation
 description: RadTreeView Structure
 slug: treeview/radtreeview-structure
 tags: radtreeview,structure

@@ -1,6 +1,6 @@
 ---
 title: OnClientContextMenuShowing
-page_title: OnClientContextMenuShowing | UI for ASP.NET AJAX Documentation
+page_title: OnClientContextMenuShowing | RadTreeView for ASP.NET AJAX Documentation
 description: OnClientContextMenuShowing
 slug: treeview/client-side-programming/events/onclientcontextmenushowing
 tags: onclientcontextmenushowing
@@ -14,7 +14,7 @@ position: 26
 
 ## 
 
-The __OnClientContextMenuShowing__ client-side event occurs just prior to opening a context menu. If the event is canceled, the __OnClientContextMenuShown__event does not fire.
+The **OnClientContextMenuShowing** client-side event occurs just prior to opening a context menu. If the event is canceled, the **OnClientContextMenuShown**event does not fire.
 
 The event handler receives parameters:
 
@@ -22,13 +22,13 @@ The event handler receives parameters:
 
 1. Event arguments with functions:
 
-* __get_menu()__ retrieves a reference to the context menu.
+* **get_menu()** retrieves a reference to the context menu.
 
-* __get_node()__ retrieves a reference to the clicked on node.
+* **get_node()** retrieves a reference to the clicked on node.
 
-* __get_domEvent()__ retrieves a DOM element that represents the context menu.
+* **get_domEvent()** retrieves a DOM element that represents the context menu.
 
-* __set_cancel()__ call this function to specify wether the event should be canceled (true) or not (false).
+* **set_cancel()** call this function to specify wether the event should be canceled (true) or not (false).
 
 The example below displays the menu id and the node that the context menu is being opened for. The event is canceled if the menu is being opened for node "Printers".
 

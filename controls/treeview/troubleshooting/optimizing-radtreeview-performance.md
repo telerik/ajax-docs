@@ -1,6 +1,6 @@
 ---
 title: Optimizing RadTreeView Performance
-page_title: Optimizing RadTreeView Performance | UI for ASP.NET AJAX Documentation
+page_title: Optimizing RadTreeView Performance | RadTreeView for ASP.NET AJAX Documentation
 description: Optimizing RadTreeView Performance
 slug: treeview/troubleshooting/optimizing-radtreeview-performance
 tags: optimizing,radtreeview,performance
@@ -16,7 +16,7 @@ position: 3
 
 The performance of RadTreeView for ASP.NET AJAX depends mainly on the number of Nodes that are loaded in the control at any moment. The overall output of the TreeView increases with the number of Nodes, which impacts the control’s performance.
 
-__Load on demand__
+**Load on demand**
 
 The load on demand mechanism of RadTreeView for ASP.NET AJAX comes of a great help in this situation. It enables the control to load Nodes only when they are required (about to be rendered), that is when a Node is expanded and its children Nodes are shown.
 
@@ -176,45 +176,45 @@ Each of the Load on Demand modes has its pros and cons. Below are a visual compa
 
 
 
-__Server Side PostBack__
+**Server Side PostBack**
 
-__Performance__
+**Performance**
 
 The Server Side PostBack mode has worst performance without any doubts. The page is posted back and as a result all controls are rendered and updated. A possible workaround is to wrap the RadTreeView control inside RadAjaxPanel or UpdatePanel. Then only the RadTreeView control will be updated. Still performance will be worse than other load on demand modes because the whole RadTreeView control will be rendered and updated.
 
-__Templates__
+**Templates**
 
 Full support for templates with no limitations.
 
-__Implementation__
+**Implementation**
 
 As with the Server Side Callback mode the user should subscribe to the NodeExpand event and add child nodes to the currently expanded Node. A side effect from the full postback is that the developer can update other controls in the page (provided RadTreeView is not wrapped inside RadAjaxPanel/UpdatePanel).
 
-__Server Side Callback__
+**Server Side Callback**
 
-__Performance__
+**Performance**
 
 Server Side Callback mode comes second. Using ASP.NET 2.0 Callbacks involves sending the ViewState of the page back to the server. The page life cycle is executed as well. The good thing is that only a small portion of HTML is returned - only the nodes added during the NodeExpand event.
 
-__Templates__
+**Templates**
 
 Server Side Callback mode supports templates with one limitation. It does not support any controls with client-side behavior (e.g. other RadControls for ASP.NET AJAX). You can use anything else though - static HTML, text boxes, buttons etc.
 
-__Implementation__
+**Implementation**
 
-It is a lot easier to subscribe to an event and create RadTreeNode objects than implement a Web Service. A good thing to know when using Server Side Callback mode is that only the expanded RadTreeNode will be updated after the load on demand request finishes. If you update any other control in the page the changes will not be applied (rendered). Additionally the __IsCallback__ property of the page is __true__ during server side callbacks. So binding of other controls on the page during such requests can be skipped if necessary.
+It is a lot easier to subscribe to an event and create RadTreeNode objects than implement a Web Service. A good thing to know when using Server Side Callback mode is that only the expanded RadTreeNode will be updated after the load on demand request finishes. If you update any other control in the page the changes will not be applied (rendered). Additionally the **IsCallback** property of the page is **true** during server side callbacks. So binding of other controls on the page during such requests can be skipped if necessary.
 
-__Web Service__
+**Web Service**
 
-__Performance__
+**Performance**
 
 The Web Service load on demand mode undisputedly delivers the best performance. It does not execute the page lifecycle, does not send the ViewState to the server and outputs tidy JSON which saves precious traffic.
 
-__Templates__
+**Templates**
 
 The Web Service load on demand mode completely disregards the template set for RadTreeView, or otherwise put templates do not work in this case. The reason is simple. Since only JSON is sent back and forth the actual template contents (controls and HTML that is) are lost. RadTreeView utilizes its client-side rendering abilities to convert the JSON returned from the web service into HTML representation of tree nodes. A possible workaround is to use ASP.NET AJAX 4.0 templates (check [here](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-23/RadControls_and_ASP_NET_Ajax_4_0_Preview.aspx?ReturnURL=/AtanasKorchev/Posts.aspx) for more information, a sample project and running demo).
 
-__Implementation__
+**Implementation**
 
 Implementing a Web Service method is a bit more complicated than subscribing to a server-side event (NodeExpand) for example, but the resulting performance boost is worth the extra work.
 
@@ -222,9 +222,9 @@ Implementing a Web Service method is a bit more complicated than subscribing to 
 
 The Web Service load on demand mode in its basic implementation delivers the best performance compared to the other two modes: Server Side PostBack and Server Side Callback. But this is not all - the mode can further be optimized to achieve even better performance.
 
-__Web Service load on demand optimization tips__
+**Web Service load on demand optimization tips**
 
-__Use a custom class instead of RadTreeNodeData__
+**Use a custom class instead of RadTreeNodeData**
 
 The serialized output of the WebService can be minimized by using a custom class instead of the default RadTreeNodeData. This class can represent the minimum amount of data that is required for the Nodes of the RadTreeView. Below is a sample implementation of a 'minimized' NodeData class and a sample use case:
 
@@ -282,20 +282,20 @@ The serialized output of the WebService can be minimized by using a custom class
 ````
 
 
-__Do not persist nodes loaded on demand__
+**Do not persist nodes loaded on demand**
 
-Setting the __PersistLoadOnDemandNodes__ property to __false__ will also improve performance. However the nodes loaded on demand will not be able to fire server-side events (NodeClick, NodeDrop etc). There are workarounds still - using RadAjaxManager to simulate the postbacks (check [here](http://demos.telerik.com/aspnet/prometheus/TreeView/Examples/Programming/Performance/DefaultCS.aspx) for a running demo of this approach).
+Setting the **PersistLoadOnDemandNodes** property to **false** will also improve performance. However the nodes loaded on demand will not be able to fire server-side events (NodeClick, NodeDrop etc). There are workarounds still - using RadAjaxManager to simulate the postbacks (check [here](http://demos.telerik.com/aspnet/prometheus/TreeView/Examples/Programming/Performance/DefaultCS.aspx) for a running demo of this approach).
 
 
 
 These were the optimization tips for the load on demand process of RadTreeView. There are still a few more things that can improve the performance.
 
-__Other optimization tips__
+**Other optimization tips**
 
-__Make sure ASP.NET Ajax scripts are not in debug mode__
+**Make sure ASP.NET Ajax scripts are not in debug mode**
 
-Either set __<compilation debug="false">__ in your web.config or set the __ScriptMode__ property of the ScriptManager to __"Release"__. This is a general performance tip when working with RadControls for ASP.NET Ajax. Always deploy your web sites with __<compilation debug="false">__.
+Either set **<compilation debug="false">** in your web.config or set the **ScriptMode** property of the ScriptManager to **"Release"**. This is a general performance tip when working with RadControls for ASP.NET Ajax. Always deploy your web sites with **<compilation debug="false">**.
 
-__Line images affect performance__
+**Line images affect performance**
 
-By using a skin with no line images (e.g. "Vista") or setting the __ShowLineImages__ property to __false__ you can improve the loading time even more.
+By using a skin with no line images (e.g. "Vista") or setting the **ShowLineImages** property to **false** you can improve the loading time even more.

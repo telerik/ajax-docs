@@ -1,6 +1,6 @@
 ---
 title: Drag and Drop to HTML Elements That Have No ID
-page_title: Drag and Drop to HTML Elements That Have No ID | UI for ASP.NET AJAX Documentation
+page_title: Drag and Drop to HTML Elements That Have No ID | RadTreeView for ASP.NET AJAX Documentation
 description: Drag and Drop to HTML Elements That Have No ID
 slug: treeview/application-scenarios/client-side-programming/drag-and-drop-to-html-elements-that-have-no-id
 tags: drag,and,drop,to,html,elements,that,have,no,id
@@ -14,11 +14,11 @@ position: 7
 
 ## 
 
-If you need to drop a TreeNode onto an HTML element that has no ID, then a postback will not occur upon dropping. Hence, the __NodeDrop__ event will not be executed, either.
+If you need to drop a TreeNode onto an HTML element that has no ID, then a postback will not occur upon dropping. Hence, the **NodeDrop** event will not be executed, either.
 
 
 
-To solve the problem you need to hook on the __OnClientNodeDropping__ event and set an ID to the target HTML element, like:
+To solve the problem you need to hook on the **OnClientNodeDropping** event and set an ID to the target HTML element, like:
 
 ````JavaScript
 	    function onNodeDropping(sender, args){ 
@@ -28,7 +28,7 @@ To solve the problem you need to hook on the __OnClientNodeDropping__ event and 
 
 
 
-You can get the ID of the HTML element in the __NodeDrop__ event handler by using the event arguments:
+You can get the ID of the HTML element in the **NodeDrop** event handler by using the event arguments:
 
 
 

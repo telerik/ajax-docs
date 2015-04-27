@@ -1,6 +1,6 @@
 ---
 title: Colors
-page_title: Colors | UI for ASP.NET AJAX Documentation
+page_title: Colors | RadTreeMap for ASP.NET AJAX Documentation
 description: Colors
 slug: treemap/functionality/colors
 tags: colors
@@ -12,13 +12,13 @@ position: 1
 
 
 
-The following article demonstrates the usage of the __Colors__ property of the __RadTreeMap__.
+The following article demonstrates the usage of the **Colors** property of the **RadTreeMap**.
 
 ## 
 
-The __Colors__ property of the __RadTreeMap__ is a collection of type __System.Drawing.Color__, which provides the ability to set custom colors. The list of colors will be applied on each group of TreeMapItems. If the amount of predefined colors, exceeds the number of items, the coloration stars from the first color all over again.
+The **Colors** property of the **RadTreeMap** is a collection of type **System.Drawing.Color**, which provides the ability to set custom colors. The list of colors will be applied on each group of TreeMapItems. If the amount of predefined colors, exceeds the number of items, the coloration stars from the first color all over again.
 
-In the example bellow, you could examine how several colors are assigned to the __Colors__ collection of the RadTreeMap and in the __Figure 1__, you could observe how the control is visualized:
+In the example bellow, you could examine how several colors are assigned to the **Colors** collection of the RadTreeMap and in the **Figure 1**, you could observe how the control is visualized:
 
 
 
@@ -82,6 +82,6 @@ In the example bellow, you could examine how several colors are assigned to the 
 ````
 
 
-__Figure 1__: Demonstrates how the __RadTreeMap__ is visualized, when custom colors are set.![functionality-colors](images/functionality-colors.png)
+**Figure 1**: Demonstrates how the **RadTreeMap** is visualized, when custom colors are set.![functionality-colors](images/functionality-colors.png)
 
-__Note__ : The sub-items count of __Item 2__ exceeds the amount of predefined colors. Therefore, __Sub Item 2.5__ has the same color as __Sub Item 2.1__.
+**Note** : The sub-items count of **Item 2** exceeds the amount of predefined colors. Therefore, **Sub Item 2.5** has the same color as **Sub Item 2.1**.
