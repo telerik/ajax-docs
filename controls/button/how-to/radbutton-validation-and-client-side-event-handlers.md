@@ -10,49 +10,34 @@ position: 0
 
 # RadButton Validation and Client-side Event Handlers
 
+When the ASP.NET Validation is used along with a **RadButton** that has client-side event handler attached, an unexpected behavior may occur. The client-side script will be executed before the validation takes place, which is an expected behavior and can be observed with standard Button control as well. As a result the client's script logic won't be executed properly if it relies on postback of the page and the validation is not successful.
 
+To avoid this effect, the client-side method [Page_ClientValidate](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx) should be utilized. It forces the validation on the client and returns a boolean value, indicating whether it is successful. Using this value you can stop the execution of the client-side function in case the page is not validated. The following example shows how to achieve this.
 
-## 
+>note As of Q2 2012 the client-side event **OnClientClicking** is raised after the validation of the page and calling the method **Page_ClientValidate** is no longer needed.
 
-When the ASP.NET Validation is used along with a **RadButton** that has client-sideevent handler attached, an unexpected behavior may occur. The client-side script will be executed beforethe validation takes place, which is an expected behavior and can be observed with standard Button controlas well. As a result the client's script logic won't be executed properly if it relies on postback of the page and the validation is not successful.
+On the ASPX page markup below are added a **TextBox**, which is validated with **RequiredFieldValidator**. The page is submitted through a**RadButton**, that has postback confirmation executed on its **OnClientClicking** event:
 
-To avoid this effect, the client-side method[Page_ClientValidate](http://msdn.microsoft.com/en-us/library/aa338815%28v=vs.71%29.aspx)should be utilized. It forces the validation on the client and returns a boolean value, indicating whetherit is successful. Using this value you can stop the execution of the client-side function in case thepage is not validated. The following example shows how to achieve this.
-
->note As of Q2 2012 the client-side event **OnClientClicking** is raised after thevalidation of the page and calling the method **Page_ClientValidate** is no longer needed.
->
-
-
-On the ASPX page markup below are added a **TextBox**, which is validatedwith **RequiredFieldValidator**. The page is submitted through a**RadButton**, that has postback confirmation executed on its **OnClientClicking** event:
-
-````ASPNET
-		<asp:TextBox ID="Textbox1" runat="server" />
-		<asp:RequiredFieldValidator ID="Requiredfieldvalidator1" ErrorMessage="Field is empty!"
-				ControlToValidate="Textbox1" runat="server" ValidationGroup="Val" />
-		<br />
-		<telerik:RadButton ID="btnStandardConfirm" runat="server" Text="Standard window.confirm"
-				OnClientClicking="StandardConfirm" ValidationGroup="Val">
-		</telerik:RadButton>
-		
+````ASP.NET
+<asp:TextBox ID="Textbox1" runat="server" />
+<asp:RequiredFieldValidator ID="Requiredfieldvalidator1" ErrorMessage="Field is empty!"
+		ControlToValidate="Textbox1" runat="server" ValidationGroup="Val" />
+<br />
+<telerik:RadButton ID="btnStandardConfirm" runat="server" Text="Standard window.confirm"
+		OnClientClicking="StandardConfirm" ValidationGroup="Val">
+</telerik:RadButton>
 ````
 
+Below is the JavaScript function, specified as handler of the **OnClientClicking** event.Note that before the main logic is executed, the **Page_ClientValidate** method is used in order to validate the page on the client. If the validation is successful, the confirm dialog is displayed:
 
-
-Below is the JavaScript function, specified as handler of the **OnClientClicking** event.Note that before the main logic is executed, the **Page_ClientValidate** method is usedin order to validate the page on the client. If the validation is successful, the confirm dialog is displayed:
-
-````ASPNET
-		<script type="text/javascript">
-	        //<![CDATA[
-					function StandardConfirm(sender, args) {
-						var validated = Page_ClientValidate('Val');
-						if (!validated) return;
-						args.set_cancel(!window.confirm("Are you sure you want to submit the page?"));
-					}
-			//]]>
-		</script>
+````JavaSript
+	function StandardConfirm(sender, args) {
+		var validated = Page_ClientValidate('Val');
+		if (!validated) return;
+		args.set_cancel(!window.confirm("Are you sure you want to submit the page?"));
+	}
 ````
 
-
-
-# See Also
+## See Also
 
  * [Use NavigateUrl with StandardButton Type]({%slug button/how-to/use-navigateurl-with-standardbutton-type%})

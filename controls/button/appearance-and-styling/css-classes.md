@@ -10,12 +10,7 @@ position: 1
 
 # CSS Classes
 
-
-
 ## Common Styles
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -86,9 +81,6 @@ position: 1
 
 ## Skin - Specific styles
 
-
->caption  
-
 | CSS Class | Description |
 | ------ | ------ |
 |.RadButton_SkinName.rbSkinnedButton,.RadButton_SkinName.rbDecorated,.RadButton_SkinName.rbVerticalSkinnedButton,.RadButton_SkinName .rbVerticalDecorated,.RadButton_SkinName.rbSplitRight,.RadButton_SkinName.rbSplitLeft|These are the selectors for the background image sprite (ButtonSprites.gif).	This image sprite sets the background for buttons, arrows, split border, vertical button|
@@ -106,7 +98,6 @@ position: 1
 |.RadButton_SkinName.rbLinkButtonChecked:hover|Styles checked link button hovered state|
 
 ## Lightweight Rendering - Specific Styles
-
 
 | CSS Class | Description |
 | ------ | ------ |
@@ -147,7 +138,7 @@ position: 1
 |rbRtl|Applies styles to render Button properly in Right to Left mode|
 |span.RadButton.rbButton|Applies specific styles for SplitButton wrapper, which is SPAN and not BUTTON element.|
 
-# See Also
+## See Also
 
  * [Skins]({%slug button/appearance-and-styling/skins%})
 

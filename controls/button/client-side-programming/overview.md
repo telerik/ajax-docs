@@ -10,10 +10,6 @@ position: 0
 
 # Client-side Programming Overview
 
-
-
-
-
 **RadButton** provides a flexible client-side API. You can easily interact with the button in the browser using the RadButton client-side object. In addition to a variety of client-side events, the client-side object model lets you achieve complicated tasks while avoiding unnecessary post-backs.
 
 ## Getting the RadButton client-side object
@@ -21,27 +17,18 @@ position: 0
 **RadButton** creates a client-side object with the **ClientID** of the button. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
-	
-			var button = $find("<%= RadButton1.ClientID %>");
-	
+var button = $find("<%= RadButton1.ClientID %>");
 ````
 
 
 
 ````JavaScript
-	
-			var button = $telerik.findButton("<%= RadButton1.ClientID %>");
-	
+var button = $telerik.findButton("<%= RadButton1.ClientID %>");
 ````
-
-
 
 ## Client-side Object Model
 
 Telerik **RadButton** provides the following objects on the client-side:
-
-
->caption  
 
 | Events and Properties | Description |
 | ------ | ------ |
@@ -115,9 +102,6 @@ Telerik **RadButton** provides the following objects on the client-side:
 | **.set_validationGroup()** |Sets the validation group to which RadButton should be assigned.|
 
 **RadButtonToggleState**
-
-
->caption  
 
 | Properties | Description |
 | ------ | ------ |

@@ -64,7 +64,7 @@ End Sub
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadButton runat="server" ID="RadButton1" Width="160px" Height="70px">
 </telerik:RadButton>
 ````
@@ -114,7 +114,7 @@ End Class
 ````
 
 
-# See Also
+## See Also
 
  * [Button Types Overview]({%slug button/button-types/overview%})
 

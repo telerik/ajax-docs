@@ -138,7 +138,7 @@ To take a closer look at **RadButton**'s "toggle button" functionality please vi
 
 
 
-# See Also
+## See Also
 
  * [Button - Toggle Button Online Demo](http://demos.telerik.com/aspnet-ajax/button/examples/togglebutton/defaultcs.aspx)
 

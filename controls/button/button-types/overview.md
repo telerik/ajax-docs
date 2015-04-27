@@ -33,7 +33,7 @@ position: 0
 
 >caption Example 1: The code that creates **StandardButton** in **Figure 1**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadButton ID="RadButton1" runat="server" Text="Standard Button" 
 	ButtonType="StandardButton" UseSubmitBehavior="true" EnableBrowserButtonStyle="false" />
 ````
@@ -51,7 +51,7 @@ position: 0
 
 >caption Example 2: The code that creates **LinkButton** in **Figure 2**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadButton ID="RadButton1" runat="server" Text="Link Button"
 	ButtonType="LinkButton" NavigateUrl="http://www.telerik.com" Target="_blank" />
 ````
@@ -71,11 +71,11 @@ position: 0
 
 >caption Example 3: The code that creates **SkinnedButton** in **Figure 3**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadButton ID="RadButton1" runat="server" Text="Skinned Button" ButtonType="SkinnedButton" />
 ````
 
-# See Also
+## See Also
 
  * [Split Button]({%slug button/button-types/split-button%})
 

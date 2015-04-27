@@ -18,7 +18,7 @@ The **RadButton** control (**Figure 1**) provides the features, that ASP.NET But
 
 ![RadButton](images/radbuttons.png)
 
-# See Also
+## See Also
 
  * [RadButton Online Demos](http://demos.telerik.com/aspnet-ajax/button/examples/overview/defaultcs.aspx)
  

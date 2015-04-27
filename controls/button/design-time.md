@@ -36,7 +36,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug button/appear
 
 * You can navigate directly to the [Telerik Support Center](http://www.telerik.com/support/home.aspx).
 
-# See Also
+## See Also
 
  * [Telerik's ASP.NET Button Overview]({%slug button/telerik's-asp.net-button-overview%})
  

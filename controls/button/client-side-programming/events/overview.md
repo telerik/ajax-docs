@@ -10,8 +10,6 @@ position: 0
 
 # Events Overview
 
-
-
 ## RadButton Client-side events
 
 The RadButton exposes several client-side events which allow easy and flexible use in a wide range of application scenarios:
@@ -40,55 +38,47 @@ The event handler method for any of the events can be set on the server and on t
 
 To handle the desired event, the user must set the respective property to the name of the JavaScript function handling the event or to anonymous JavaScript function. Here is an example:
 
-1. Passing named (non-anonymous) JavaScript function
+* Passing named (non-anonymous) JavaScript function
 
-````ASPNET
-		<script type="text/javascript">
-		    function Click(sender, args)
-		    {
-		        alert("RadButton was clicked.");
-		    }
-		</script>
-	    <telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="Click">
-	    </telerik:RadButton>
+````ASP.NET
+<script type="text/javascript">
+	function Click(sender, args)
+	{
+		alert("RadButton was clicked.");
+	}
+</script>
+<telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="Click">
+</telerik:RadButton>
 ````
-
-
-
-
 
 ````C#
-	        RadButton1.OnClientClicked = "Click";  //passing the name of the JS function
+RadButton1.OnClientClicked = "Click";  //passing the name of the JS function
 ````
 ````VB
-	        RadButton1.OnClientClicked = "Click"  'passing the name of the JS function
+RadButton1.OnClientClicked = "Click"  'passing the name of the JS function
 ````
 
 
-1. Passing anonymous JavaScript function
+* Passing anonymous JavaScript function
 
-````ASPNET
-	    <script type="text/javascript">
-	        function Click(button, args, arg1, arg2)
-	        {
-	            alert("arg1:" + arg1 + " arg2:" + arg2);
-	        }
-	    </script>
-	    <telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
-	    </telerik:RadButton>
+````ASP.NET
+<script type="text/javascript">
+	function Click(button, args, arg1, arg2)
+	{
+		alert("arg1:" + arg1 + " arg2:" + arg2);
+	}
+</script>
+
+<telerik:RadButton ID="RadButton1" runat="server" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}">
+</telerik:RadButton>
 ````
-
-
-
-
 
 ````C#
-	        RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
+RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
 ````
 ````VB
-	        RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
+RadButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
 ````
-
 
 **Client-side**
 
@@ -96,38 +86,36 @@ To handle the desired event, the user should use the respective **add_<eventName
 
 Here is an example showing how to add handler on the client:
 
-1. Adding named (non-anonymous) JavaScript function
+* Adding named (non-anonymous) JavaScript function
 
-````ASPNET
-	    <script type="text/javascript">
-	        function Click(button, args)
-	        {
-	            alert("Button was clicked");
-	        }
-	        function addHandler()
-	        {
-	            var button = $find("<%=RadButton1.ClientID %>");
-	            button.add_clicked(Click);
-	        }
-	    </script>
+````ASP.NET
+<script type="text/javascript">
+	function Click(button, args)
+	{
+		alert("Button was clicked");
+	}
+	function addHandler()
+	{
+		var button = $find("<%=RadButton1.ClientID %>");
+		button.add_clicked(Click);
+	}
+</script>
 ````
 
+* Adding anonymous JavaScript function
 
-
-1. Adding anonymous JavaScript function
-
-````ASPNET
-	    <script type="text/javascript">
-	        function Click(button, args, arg1)
-	        {
-	            alert("Button was clicked. arg1: " + arg1);
-	        }
-	        function addHandler()
-	        {
-	            var button = $find("<%=RadButton1.ClientID %>");
-	            button.add_clicked(function (button, args) { Click(button, args, "Value1") });
-	        }
-	    </script>
+````ASP.NET
+<script type="text/javascript">
+	function Click(button, args, arg1)
+	{
+		alert("Button was clicked. arg1: " + arg1);
+	}
+	function addHandler()
+	{
+		var button = $find("<%=RadButton1.ClientID %>");
+		button.add_clicked(function (button, args) { Click(button, args, "Value1") });
+	}
+</script>
 ````
 
 

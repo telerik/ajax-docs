@@ -62,7 +62,7 @@ You can make your button more intuitive by showing an icon on the left-hand and/
 
 **Example 2:** Setup unique icons for the normal, hovered and active state of a **RadButton**.
 
-````ASPNET
+````ASP.NET
 <style>
 	.classNextArrow, .classPreviousArrow {
 		background-image: url('http://demos.telerik.com/aspnet-ajax/button/examples/embeddedicons/images/rbPredefinedIcons.png');
@@ -137,7 +137,7 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 
 	![Rad Button icons offset](images/RadButton_icons_offset.png)
 
-# See Also
+## See Also
 
  * [Embedded Icons]({%slug button/button-types/icons/embedded-icons%})
 

@@ -18,42 +18,40 @@ The **RadButton**, just like the rest of the Telerik controls, only needs the *n
 
 Its client-side click events are [OnClientClicking]({%slug button/client-side-programming/events/onclientclicking%}) and	[OnClientClicked]({%slug button/client-side-programming/events/onclientclicked%}) to be uniform with the rest of the controls.
 
-The **AutoPostBack** property, when set to **false**, hasthe same effect as adding the **return false;** statement to the	**OnClientClick** handler for the regular ASP button. Alternatively, youcan cancel the **OnClientClicking** event to avoid the postback.
+The **AutoPostBack** property, when set to **false**, has the same effect as adding the **return false;** statement to the	**OnClientClick** handler for the regular ASP button. Alternatively, you can cancel the **OnClientClicking** event to avoid the postback.
 
-Below is shown a comparison between ASP button and **RadButton** client-sideevent handling (**Example 1** and **Example 2**).
+Below is shown a comparison between ASP button and **RadButton** client-side event handling (**Example 1** and **Example 2**).
 
-**Example 1**: Handling client-side click event of ASP Button without performing a postback.
+>caption Example 1: Handling client-side click event of ASP Button without performing a postback.
 
-````ASPNET
-		<script type="text/javascript">
-			function ButtonClick(button) {
-				alert("The Button with ID " + button.id + " was clicked.");
-			}
-		</script>
-		<asp:Button ID="Button1" Text="Regular Button" OnClientClick="ButtonClick(this); return false;"
-			runat="server" />
+````ASP.NET
+<script type="text/javascript">
+	function ButtonClick(button) {
+		alert("The Button with ID " + button.id + " was clicked.");
+	}
+</script>
+
+<asp:Button ID="Button1" Text="Regular Button" OnClientClick="ButtonClick(this); return false;"
+	runat="server" />
 ````
 
+>caption Example 2: Handling client-side click event of RaButton without performing a postback.
 
+````ASP.NET
+<script type="text/javascript">
+	function ButtonClick(sender, args) {
+		alert("The Button with ID " + sender.get_uniqueID() + " was clicked.");
+	}
+</script>
 
-**Example 2**: Handling client-side click event of RaButton without performing a postback.
-
-````ASPNET
-		<script type="text/javascript">
-			function ButtonClick(sender, args) {
-				alert("The Button with ID " + sender.get_uniqueID() + " was clicked.");
-			}
-		</script>
-		<telerik:RadButton runat="server" ID="RadButton1" Text="RadButton" OnClientClicked="ButtonClick"
-			AutoPostBack="false">
-		</telerik:RadButton>
+<telerik:RadButton runat="server" ID="RadButton1" Text="RadButton" OnClientClicked="ButtonClick"
+	AutoPostBack="false">
+</telerik:RadButton>
 ````
-
-
 
 More information is available in the [Migrating OnClientClick handlers from ASP button to Telerik’s ASP.NET AJAX Button](http://blogs.telerik.com/aspnet-ajax/posts/12-08-10/migrating-onclientclick-handlers-from-asp-button-to-telerik-s-asp-net-ajax-button.aspx) blog post.
 
-# See Also
+## See Also
 
  * [RadButton Known Issues in IE6 and IE7]({%slug button/troubleshooting/radbutton-known-issues-in-ie6-and-ie7%})
 

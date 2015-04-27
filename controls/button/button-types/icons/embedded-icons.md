@@ -68,7 +68,7 @@ Each of these built-in icons is offered with three different colors, depending o
 
 >caption Example 1: Embedded icons in **RadButton** can be configured through the **PrimaryIconCssClass** and **SecondaryIconCssClass** properties. This example creates the tables from **Figure 1**.
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	/*Format tables*/
 	tr:first-child {

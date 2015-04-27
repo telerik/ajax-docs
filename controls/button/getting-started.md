@@ -14,7 +14,7 @@ The following tutorial demonstrates how to set up a page with a **RadButton** co
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadButton** control:
 
-	**ASPNET**	
+	**ASP.NET**	
 	
 		<telerik:RadButton id="RadButton1" runat="server" text="My Button">
 		</telerik:RadButton>	
@@ -29,14 +29,14 @@ The following tutorial demonstrates how to set up a page with a **RadButton** co
 		{
 		}
 
-	**VB.NET**
+	**VB**
 	
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 		End Sub
 
 	as well as add `OnClick="RadButton1_Click"` to the **RadButton**'s declaration.In the Click event handler add the code that you want to be executed when the **RadButton** control is clicked.
 
-# See Also
+## See Also
 
  * [Properties and Events]({%slug button/server-side-programming/properties-and-events%})
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating a Custom LightWeight Skin
 page_title: Creating a Custom LightWeight Skin | RadButton for ASP.NET AJAX Documentation
 description: Creating a Custom LightWeight Skin
@@ -44,7 +44,7 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 
 1. Add a new server declaration of **RadButton** on your page, and set **Skin="MyCustomSkin"**and **EnableEmbeddedSkins="false"**:
 
-````ASPNET
+````ASP.NET
 			<telerik:RadButton ID="RadButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
 ````
 
@@ -52,7 +52,7 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 
 1. Register **Button.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-````ASPNET
+````ASP.NET
 			<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
 ````
 
@@ -68,7 +68,7 @@ As of **Q1 2015** RadButton has a [LightWeight render mode]({%slug button/mobile
 
 Below is shown how to modify the CSS in order not only to change some colors and background colors, but also some base layout settings such as font size, element height, border-radius etc.
 
-````ASPNET
+````ASP.NET
 	<!DOCTYPE html>
 	
 	<html xmlns="http://www.w3.org/1999/xhtml">
@@ -139,6 +139,6 @@ Below is shown how to modify the CSS in order not only to change some colors and
 
 
 
-# See Also
+## See Also
 
  * [Render Modes]({%slug button/mobile-support/render-modes%})

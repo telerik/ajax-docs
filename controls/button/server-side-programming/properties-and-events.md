@@ -10,22 +10,11 @@ position: 0
 
 # Properties and Events
 
-
-
 ## RadButton common features (properties)
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
-| **ButtonType** |Gets or sets the type of the button. The following types exist:
-
-* StandardButton (default)
-
-* LinkButton
-
-* ToggleButtonEach ButtonType provides certain functionality that is unique. More information on the features of different button types can be found in each button category.|
+| **ButtonType** |Gets or sets the type of the button. The following types exist: StandardButton (default), LinkButton, ToggleButton. Each ButtonType provides certain functionality that is unique. More information on the features of different button types can be found in each button category.|
 | **AutoPostBack** |Gets or sets a bool value indicating whether the control will automatically post the page back to the server.|
 | **CausesValidation** |Gets or sets a bool value indicating whether validation is performed when the RadButton is clicked.|
 | **PostbackUrl** |Gets or sets the URL of the page to post to from the current page, when the RadButton is clicked.|
@@ -44,12 +33,7 @@ position: 0
 | **OnClientToggleStateChanging** |Sets a name of a JavaScript function that will be called when the toggle state of the RadButton is changed. The event is cancelable, and when cancelled, **OnClientCheckedChanged** and **OnClientToggleStateChanged** are not raised.|
 | **OnClientToggleStateChanged** |Sets a name of a JavaScript function that will be called when when the toggle state of the RadButton is changed, after the **OnClientToggleStateChanging** event.|
 
-
-
 ## Icon specific features (properties)
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
@@ -76,12 +60,7 @@ position: 0
 | **SecondaryIconRight** |Gets or sets the right edge of the secondary icon, relative to the RadButton control's wrapper element.|
 | **SecondaryIconBottom** |Gets or sets the bottom edge of the secondary icon, relative to the RadButton control's wrapper element.|
 
-
-
 ## Image specific features (properties)
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
@@ -91,91 +70,40 @@ position: 0
 | **PressedImageUrl** |Gets or sets the URL to the image showed when the RadButton is pressed.|
 | **EnableImageButton** |Gets or sets a bool value indicating whether the RadButton is rendered as Image Button.|
 
-
-
 ## SplitButton specific features (properties)
-
-
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
 | **EnableSplitButton** |Gets or sets a bool value that indicates whether the SplitButton functionality will be enabled|
-| **SplitButtonPosition** |Gets or sets the position where the SplitButton will appear, relatively to the main button (Left or Right). Position:
-
-* Right (default)
-
-* Left|
+| **SplitButtonPosition** |Gets or sets the position where the SplitButton will appear, relatively to the main button (Left or Right). Position: Right (default), Left|
 | **SplitButtonCssClass** |Gets or sets the CSS class applied to the SplitButton|
 
-
-
 ## Type:Button specific features (properties)
-
-
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
 | **UseSubmitBehavior** |Gets or sets a bool value indicating whether the RadButton control uses the client browser's submit mechanism or the ASP.NET postback mechanism.|
 
-
-
-
-
 ## Type:LinkButton specific features (properties)
-
-
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
 | **NavigateUrl** |Gets or sets the URL of the page to navigate to, without posting the page back to the server. When this property is sets, the button is rendered as an <a/> (anchor) element.|
 | **Target** |Gets or sets the target window or frame in which to display the Web page content linked to when the RadButton control is clicked.|
 
-
-
 ## Type: ToggleButton specific features (properties)
-
-
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
-| **ToggleType** |Gets or sets the type of the Toggle Button. There are three toggle types:
-
-* None (default)
-
-* Radio
-
-* CheckBox
-
-* CustomToggle|
+| **ToggleType** |Gets or sets the type of the Toggle Button. There are three toggle types: None (default), Radio, CheckBox, CustomToggle|
 | **GroupName** |Valid when ToggleType: Radio. Gets or sets the name of the group that the radio button belongs to.|
 | **Checked** |Gets or sets a bool value indicating whether the RadButton control is checked. In the case when the ToggleButton has more than 2(two) states, the control is not checked in the case when the current state of the RadButton is the First state, in all other cases it is Checked.|
-| **Direction** |Gets or sets the direction in which the states will be switched, when more than two ToggleStates are specified. Directions:
-
-* Standard (default)
-
-* Reversed|
+| **Direction** |Gets or sets the direction in which the states will be switched, when more than two ToggleStates are specified. Directions: Standard (default), Reversed|
 | **SelectedToggleState** |Gets or sets the current state of the RadButton.|
 | **SelectedToggleStateIndex** |Gets or sets the index of the currently selected ToggleState of the RadButton control, when used as a custom toggle button.|
 | **ToggleStates** |Collection of **RadButtonToggleState** . The different states are controlled through a collection of states. The collection can contain, maximum of four states. The order of switching the states is determined by the 0-based position index at which the state occurs in the collection. So, the first item in the ToggleStates, is the first state, the second item is the second state, and so on. When the ToggleType is Radio or CheckBox, the first item (state) of the ToggleStates is used as the alternate state of the RadButton.|
 
-
-
 ## RadButtonToggleState specific features (properties)
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |
@@ -210,12 +138,7 @@ position: 0
 | **HoveredImageUrl** |Gets or sets the URL to the image showed when the RadButton is hovered.|
 | **IsBackgroundImage** |Gets or sets a bool value indicating how the image is used - i.e. as a background image or as an Image Button.|
 
-
-
 ## Server - side Events:
-
-
->caption  
 
 | Property | Description |
 | ------ | ------ |

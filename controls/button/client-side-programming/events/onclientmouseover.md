@@ -10,8 +10,6 @@ position: 5
 
 # OnClientMouseOver
 
-
-
 ## OnClientMouseOver (mouseOver client-side event)
 
 The **mouseOver** event is fired when the user moves the mouse pointer over the control.
@@ -22,6 +20,6 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter of type Telerik.Web.UI.**RadButtonEventArgs**, containing the following properties and methods:
 
-* get_commandName() - returns the value assigned to the RadButton's **CommandName** property
+	* get_commandName() - returns the value assigned to the RadButton's **CommandName** property
 
-* get_commandArgument() - returns the value assigned to the RadButton's **CommandArgument** property
+	* get_commandArgument() - returns the value assigned to the RadButton's **CommandArgument** property
