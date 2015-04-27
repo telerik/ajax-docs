@@ -18,16 +18,16 @@ Templates could be added using the [Template Design Surface]({%slug combobox/des
 
 The following example demonstrates how to use the Template Design Surface to add a **RadCalendar** control to the ItemTemplate.
 
-1. Drag a **RadComboBox** from the Toolbox onto your web page.
+* Drag a **RadComboBox** from the Toolbox onto your web page.
 
-2. From the Smart Tag that appears when you drop the **RadComboBox**, choose **Edit Templates**.
+* From the Smart Tag that appears when you drop the **RadComboBox**, choose **Edit Templates**.
 
-3. The Template Design Surface appears, set for editing the **ItemTemplate**.
+* The Template Design Surface appears, set for editing the **ItemTemplate**.
 
-4. Drag a **RadCalendar** control from the Toolbox onto the Template Design Surface.
+* Drag a **RadCalendar** control from the Toolbox onto the Template Design Surface.
 ![ComboBox Item Template](images/combobox_controlintemplate.png)
 
-5. Right click on the **RadCalendar** control, choose **Properties** from its context menu, and set the following properties:
+* Right click on the **RadCalendar** control, choose **Properties** from its context menu, and set the following properties:
 
 	* Set the **TitleFormat** property to "MMM yyyy".
 
@@ -37,7 +37,7 @@ The following example demonstrates how to use the Template Design Surface to add
 
 	* Set the **EnableMultiSelect** property to **True**.
 
-6. Subscribe the **RadCalendar** control to its **SelectionChanged** event: 
+* Subscribe the **RadCalendar** control to its **SelectionChanged** event: 
 
 
 
@@ -67,11 +67,12 @@ Protected Sub RadCalendar1_SelectionChanged(
 End Sub
 	
 ````
- Note that the event handler finds the RadCalendar control within the RadComboBox's **SelectedItem** and uses that to set the text of the selected item.
 
-7. Use the Smart Tag anchor to display the Edit Templates pop-up, and choose **End Template Editing** to close the Template Design Surface.
+Note that the event handler finds the RadCalendar control within the RadComboBox's **SelectedItem** and uses that to set the text of the selected item.
 
-8. From the Smart Tag, choose **Build RadComboBox**. In the RadComboBox Item Builder, add a single item to the RadComboBox with no **Text** property. At this point, the declaration for RadComboBox should look as follows:
+* Use the Smart Tag anchor to display the Edit Templates pop-up, and choose **End Template Editing** to close the Template Design Surface.
+
+* From the Smart Tag, choose **Build RadComboBox**. In the RadComboBox Item Builder, add a single item to the RadComboBox with no **Text** property. At this point, the declaration for RadComboBox should look as follows:
 
 ````ASPNET
 <telerik:radcombobox id="RadComboBox1" runat="server">      
@@ -94,7 +95,8 @@ End Sub
 
 
 
-9. Run the application.When you click the RadComboBox's drop-down toggle, the RadCalendar appears. The RadCalendar selected date becomes the selected text in the RadComboBox:
+* Run the application.When you click the RadComboBox's drop-down toggle, the RadCalendar appears. The RadCalendar selected date becomes the selected text in the RadComboBox:
+
 ![ComboBox Calendar Template](images/combobox_calendarcombo.png)
 
 ## Adding templates at runtime

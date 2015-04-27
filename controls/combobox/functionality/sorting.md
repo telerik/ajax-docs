@@ -18,7 +18,7 @@ As of Q2 2008, **RadComboBox** introduces a new feature - **sorting**. The sorti
 
 To enable sorting you need to:
 
-1. Set the **Sort** property. Its value can be either **Ascending**, **Descending** or **None** (default).
+* Set the **Sort** property. Its value can be either **Ascending**, **Descending** or **None** (default).
 
 	* In code-behind:
 
@@ -44,7 +44,7 @@ RadComboBox1.Sort = RadComboBoxSort.Descending
 
 
 
-2. Call the **SortItems()** method of the combobox or **Items.Sort()** method of the items collection. These approaches are equal:
+* Call the **SortItems()** method of the combobox or **Items.Sort()** method of the items collection. These approaches are equal:
 
 	* RadComboBox1.SortItems()
 

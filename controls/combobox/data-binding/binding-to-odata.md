@@ -20,23 +20,23 @@ Flat OData Binding means binding to a non-hierarchical data. Here is an example 
 
 ````ASPNET
 	
-	<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
-		<Transport>
-			<Read Url="http://services.odata.org/Northwind/Northwind.svc/" DataType="JSONP"/>
-		</Transport>
-		<Schema>
-			<telerik:DataModel ModelID="Category" Set="Categories">
-				<telerik:DataModelField FieldName="CategoryID" />
-				<telerik:DataModelField FieldName="CategoryName" />
-			</telerik:DataModel>
-		</Schema>
-	</telerik:RadODataDataSource>
-	
-	<telerik:RadComboBox ID="RadComboBox1" runat="server" EnableLoadOnDemand="true"
-		ODataDataSourceID="RadODataDataSource1" DataModelID="Category"
-		DataTextField="CategoryName" DataValueField="CategoryID"
-		ShowMoreResultsBox="true" ItemsPerRequest="4">
-	</telerik:RadComboBox>
+<telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
+	<Transport>
+		<Read Url="http://services.odata.org/Northwind/Northwind.svc/" DataType="JSONP"/>
+	</Transport>
+	<Schema>
+		<telerik:DataModel ModelID="Category" Set="Categories">
+			<telerik:DataModelField FieldName="CategoryID" />
+			<telerik:DataModelField FieldName="CategoryName" />
+		</telerik:DataModel>
+	</Schema>
+</telerik:RadODataDataSource>
+
+<telerik:RadComboBox ID="RadComboBox1" runat="server" EnableLoadOnDemand="true"
+	ODataDataSourceID="RadODataDataSource1" DataModelID="Category"
+	DataTextField="CategoryName" DataValueField="CategoryID"
+	ShowMoreResultsBox="true" ItemsPerRequest="4">
+</telerik:RadComboBox>
 	
 ````
 

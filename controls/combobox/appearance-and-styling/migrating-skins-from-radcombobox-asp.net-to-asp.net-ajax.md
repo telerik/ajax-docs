@@ -21,7 +21,7 @@ RadComboBox for ASP.NET AJAX offers improved HTML code that allows easier stylin
 
 | Affected part of RadComboBox | RadComboBox "Classic" | RadComboBox for ASP.NET AJAX |
 | ------ | ------ | ------ |
-|Input box & arrow|
+|Input box & arrow|||
 
 ````ASPNET
 <div class="ComboBox_{SkinName}">
@@ -31,7 +31,7 @@ class="ComboBoxInput_{SkinName}" />
 <img class="ComboBoxImage_{SkinName}" />
 ````
 
-|
+
 
 ````ASPNET
 <div class="RadComboBox RadComboBox_{SkinName}">
@@ -48,8 +48,8 @@ class="ComboBoxInput_{SkinName}" />
 </div>
 ````
 
-|
-|Drop-down|
+
+Drop-down
 
 ````ASPNET
 <div class="ComboBoxDropDown_{SkinName}">
@@ -68,7 +68,6 @@ class="ComboBoxInput_{SkinName}" />
 </div>
 ````
 
-|
 
 ````ASPNET
 <div class="RadComboBoxDropDown_{SkinName}">
@@ -87,12 +86,9 @@ class="ComboBoxInput_{SkinName}" />
 </div>
 ````
 
-|
 
 Below is a table that shows the RadComboBox "Classic" class names and their equivalents in the RadComboBox for ASP.NET AJAX.
 
-
->caption  
 
 | RadComboBox "Classic" | RadComboBox for ASP.NET AJAX |
 | ------ | ------ |

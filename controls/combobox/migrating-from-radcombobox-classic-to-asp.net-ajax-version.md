@@ -27,7 +27,7 @@ position: 6
 
 |  **RadComboBox Classic**  |  **RadComboBox AJAX**  |
 | ------ | ------ |
-| ** _Methods_ ** ||
+| **_Methods_** ||
 |HideDropDown|hideDropDown|
 |ToggleDropDown|toggleDropDown|
 |ShowDropDown|showDropDown|
@@ -37,19 +37,20 @@ position: 6
 |FindItemByText|findItemByText|
 |GetText / SetText|get_text / set_text|
 |GetValue / SetValue|get_value / set_value|
+|RequestItems|requestItems|
 |ClearItems|clearItems|
 |ClearSelection|clearSelection|
 |ClientDataString|The ClientDataString property has been removed. The **OnClientItemsRequesting** event's event arguments should be used instead:
 
 ````ASPNET
 	     
-	function OnClientItemsRequesting(sender, eventArgs)
-	{    
-	    //get the context object    
-	    var context = eventArgs.get_context();    
-	    //set a value to the context object    
-	    context["FilterString"] = eventArgs.get_text();  
-	}
+function OnClientItemsRequesting(sender, eventArgs)
+{    
+    //get the context object    
+    var context = eventArgs.get_context();    
+    //set a value to the context object    
+    context["FilterString"] = eventArgs.get_text();  
+}
 				
 ````
 
@@ -57,8 +58,8 @@ Then, you can access the context object in the **WebService** method:
 
 ````C#
 	     
-	IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
-	string txt = contextDictionary["FilterString"].ToStrring();
+IDictionary<string, object> contextDictionary = (IDictionary<string, object>) context;
+string txt = contextDictionary["FilterString"].ToStrring();
 				
 ````
 
@@ -66,16 +67,17 @@ You can also access the context object in the **ItemsRequested** event handler u
 
 ````C#
 	     
-	protected void RadComboBox1_ItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
-	{    
-	    string txt = e.Context["FilterString"].ToString();
-	}
+protected void RadComboBox1_ItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
+{    
+    string txt = e.Context["FilterString"].ToString();
+}
 				
 ````
 
-|
-|RequestItems|requestItems|
-| ** _Properties_ ** ||
+
+|  **RadComboBox Classic**  |  **RadComboBox AJAX**  |
+| ------ | ------ |
+| **_Properties_** ||
 |MoreResultsBoxID|get_moreResultsBoxElement()- returns the DOM element of the MoreResultsBox.|
 |MoreResultsMessageBoxID|get_moreResultsBoxMessageElement() - returns the DOM element of the MoreResultsBox element.|
 |DropDownVisible|get_DropDownVisible()|
@@ -88,20 +90,18 @@ You can also access the context object in the **ItemsRequested** event handler u
 |HighlightedItem|get_highlightedItem() / set_highlightedItem(item)|
 
 ## RadComboBoxItem class
-
-
->caption  
+ 
 
 |  **RadComboBoxItem Classic**  |  **RadComboBoxItem AJAX**  |
 | ------ | ------ |
-| ** _Methods_ ** ||
+| **_Methods_** ||
 |Highlight|highlight|
 |UnHighlight|unHighlight|
 |Disable|disable|
 |Enable|enable|
 |Select|select|
 |SetAttribute|setAttribute|
-| ** _Properties_ ** ||
+| **_Properties_** ||
 |Enabled|get_enabled() - returns true if the item is enabled, false otherwise. set_enabled(true) - enables an item, set_enabled(false) - disables an item.|
 |Index|get_index()|
 |ComboBox|get_combobox()|
@@ -111,11 +111,9 @@ You can also access the context object in the **ItemsRequested** event handler u
 ## RadComboBoxItemCollection class (new)
 
 
->caption  
-
 |  **Member**  |  **Notes**  |
 | ------ | ------ |
-| ** _Methods_ ** ||
+| **_Methods_** ||
 |add|Adds an item|
 |insert|Inserts an item|
 |remove|Removes an item|
@@ -131,20 +129,17 @@ You can also access the context object in the **ItemsRequested** event handler u
 
 ## RadComboBox class
 
-
-
-
->caption  
+ 
 
 |  **RadComboBox Classic**  |  **Notes**  |
 | ------ | ------ |
-| ** _Properties_ ** ||
+| **_Properties_** ||
 |ContentFile|Removed: The **LoadContentFile** method should be used instead.|
 |ExternalCallbackPage|Removed: An external streamer page is no longer needed. The items' population of the RadComboBox should be done via [WebService]({%slug combobox/load-on-demand/loading-items-from-a-web-service%}) instead.|
 |IsCallBack|Removed: The **Page.IsCallBack** property should be used instead.|
 |Value|Removed: With the new **RadComboBox for ASP.NET AJAX** , the **SelectedValue** property is persisted on the server even when the items are loaded on demand. Therefore, the Value property is no longer needed.|
 |RadComboBoxItemsRequestedEventArgs.ClientDataString|Removed: The **RadComboBoxItemsRequestedEventArgs.Context** property should be used instead. It returns an object of type **IDictionary** .|
 |AfterClientCallBackError|Changed to **OnClientItemsRequestFailed.** |
-| ** _Methods_ ** ||
+| **_Methods_** ||
 |GetXmlString|Changed to **GetXml** (inherited from ControlItemContainer class).|
 |LoadXmlString|Changed to **LoadXml** (inherited from ControlItemContainer class).|

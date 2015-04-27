@@ -42,7 +42,10 @@ There are two ways to set the **RenderMode** for the **RadComboBox**:
 
 * A **global setting in the web.config** file that will affect the entire application, unless a concrete value is specified for **RadComboBox** instance:
 
-	* Change render mode for all **RadComboBoxes** in your application:
+	* Change render mode for all **RadComboBoxes** in your application
+	* Change render mode for **all controls** in your application
+
+Change render mode for all **RadComboBoxes**:
 
 ````XML
 <appSettings>
@@ -50,7 +53,7 @@ There are two ways to set the **RenderMode** for the **RadComboBox**:
 </appSettings>
 ````
 
-	* Change render mode for **all controls** in your application:
+Change render mode for all **all controls**:
 
 ````XML
 <appSettings>

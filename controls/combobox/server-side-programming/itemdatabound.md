@@ -38,25 +38,25 @@ Use the **ItemDataBound** event handler to make changes to items as they are bou
 
 ````C#
 	     
-	protected void RadComboBox1_ItemDataBound(object o, RadComboBoxItemEventArgs e)
-	{ 
-	    DataRowView dataSourceRow = (DataRowView) e.Item.DataItem;  
-	    //set custom attributes from the datasource:  
-	    e.Item.Attributes["customAttribute1"] = dataSourceRow["CustomAttribute1"].ToString(); 
-	    e.Item.Attributes["customAttribute2"] = dataSourceRow["CustomAttribute2"].ToString();
-	}
+protected void RadComboBox1_ItemDataBound(object o, RadComboBoxItemEventArgs e)
+{ 
+    DataRowView dataSourceRow = (DataRowView) e.Item.DataItem;  
+    //set custom attributes from the datasource:  
+    e.Item.Attributes["customAttribute1"] = dataSourceRow["CustomAttribute1"].ToString(); 
+    e.Item.Attributes["customAttribute2"] = dataSourceRow["CustomAttribute2"].ToString();
+}
 				
 ````
 ````VB.NET
 	
-	    Protected Sub RadComboBox1_ItemDataBound(ByVal o As Object, ByVal e As RadComboBoxItemEventArgs) Handles RadComboBox1.ItemDataBound
-	
-	        Dim dataSourceRow As DataRowView = CType(e.Item.DataItem, DataRowView)
-	        'set custom attributes from the datasource:  
-	        e.Item.Attributes("customAttribute1") = dataSourceRow("CustomAttribute1").ToString()
-	        e.Item.Attributes("customAttribute1") = dataSourceRow("CustomAttribute2").ToString()
-	
-	    End Sub
+Protected Sub RadComboBox1_ItemDataBound(ByVal o As Object, ByVal e As RadComboBoxItemEventArgs) Handles RadComboBox1.ItemDataBound
+
+    Dim dataSourceRow As DataRowView = CType(e.Item.DataItem, DataRowView)
+    'set custom attributes from the datasource:  
+    e.Item.Attributes("customAttribute1") = dataSourceRow("CustomAttribute1").ToString()
+    e.Item.Attributes("customAttribute1") = dataSourceRow("CustomAttribute2").ToString()
+
+End Sub
 	
 ````
 

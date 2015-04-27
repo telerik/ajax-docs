@@ -20,9 +20,9 @@ The steps below show how to load items from WCF service. It shows how to use the
 
 
 
-1. Create a new Web Site in Visual Studio 2008. Make sure the target framework is set to 3.5.
+* Create a new Web Site in Visual Studio 2008. Make sure the target framework is set to 3.5.
 
-2. Drag RadComboBox from your Toolbox. From the SmartTag click on the Add RadScriptManager link. It will automatically register the handler in the web.config file.
+* Drag RadComboBox from your Toolbox. From the SmartTag click on the Add RadScriptManager link. It will automatically register the handler in the web.config file.
 
 	![combobox smarttag](images/combobox_smarttag.png)
 
@@ -30,7 +30,7 @@ The steps below show how to load items from WCF service. It shows how to use the
 
 
 
-3. Add the WCF service – right click on your project in the Solution Explorer and select Add New Item. This is **important**: select the **Ajax-enabled WCF service** option (do not mix it with WCF Service).
+* Add the WCF service – right click on your project in the Solution Explorer and select Add New Item. This is **important**: select the **Ajax-enabled WCF service** option (do not mix it with WCF Service).
 
 	![Add Wcf Service](images/combobox_adding_wcf_service.png)
 
@@ -67,7 +67,7 @@ Clicking the Add button will create the .svc file as well as the code behind fil
 
 
 
-4. Open the Service.cs file and add the method which will return the RadComboBox items.
+* Open the Service.cs file and add the method which will return the RadComboBox items.
 
 ````C#
 	     
