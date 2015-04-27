@@ -10,15 +10,11 @@ position: 1
 
 # Set Font of the Scale Labels
 
-
-
-## 
-
 The purpose of Font property is to set the size and the font family of the Scale Labels. It has the following syntax:
 
 SizeInPixels Font1,Font2,Font3 (e.g. **Font="10px Times New Roman,Arial,serif"**). Default Font is **12px Arial,Helvetica,sans-serif**
 
-* The size of the Font is set in the begginning of the Font declaration, like in the example above.
+* The size of the Font is set in the beginning of the Font declaration, like in the example above.
 
 * The property holds several font names which act as a "fallback" system. This means that if the browser does not support the first font, it will try the next one.
 
@@ -26,4 +22,10 @@ SizeInPixels Font1,Font2,Font3 (e.g. **Font="10px Times New Roman,Arial,serif"**
 
 The Font property can be set either in the markup, or in the code behind, for example:
 
-*RadLinearGauge1.Scale.Labels.Font = "12px Times New Roman,Helvetica,sans-serif"*
+````C#
+RadLinearGauge1.Scale.Labels.Font = "12px Times New Roman,Helvetica,sans-serif";
+````
+````VB
+RadLinearGauge1.Scale.Labels.Font = "12px Times New Roman,Helvetica,sans-serif"
+````
+
