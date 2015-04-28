@@ -34,15 +34,23 @@ module Reading
 				# [Multiple paragraphs issue] Solution 2 (using div wrapper): between <para> elements, a > character to be added.
 				block ="<div class='alert #{alertType}'><span class='label'>#{alertType}</span><hr/>" +  @converter.convert("> " + s[1]) + "</div>"
 
-				slugsInBlock = block.scan(/.*?(%7[Bb]%slug%20([\w-]+)%{2}7[Dd])/)
-				if	slugsInBlock.count > 0
-					slugsInBlock.each do |slug|
-						targetPage = @site.pages.find {|p| p.data['slug'] == slug[1]}
-						if targetPage
-							block.sub!(slug[0], targetPage.url.sub('.html', ''))
-						end
-					end
+				# Old: handle slugs in blocks
+				# slugsInBlock = block.scan(/.*?(%7[Bb]%slug%20([\w-]+)%{2}7[Dd])/)
+				# if	slugsInBlock.count > 0
+				# 	slugsInBlock.each do |slug|
+				# 		targetPage = @site.pages.find {|p| p.data['slug'] == slug[1]}
+				# 		if targetPage
+				# 			block.sub!(slug[0], targetPage.url.sub('.html', ''))
+				# 		end
+				# 	end
+				# end
+				
+				# New: handle slugs in blocks
+				slugs = block.scan(/href="%7[Bb]%\s*slug[^"]*"/)
+				slugs.each do |slug|
+					block[block.index(slug), slug.length] = URI.decode(slug)
 				end
+	
 				content.sub!(s[0]+s[1], block)
 			end
 		end
