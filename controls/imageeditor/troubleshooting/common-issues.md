@@ -10,9 +10,16 @@ position: 1
 
 # Common Issues
 
+This article lists the most common issues related to RadImageEditor:
+
+* [The Image Disappears When I Click on  Crop / Add Text / Save / Reset](#the-image-disappears-when-i-click-on--crop--add-text--save--reset)
+
+* [Dialogs Are Not Working Properly or Throw a JavaScript Error](#dialogs-are-not-working-properly-or-throw-a-javascript-error)
+
+* [Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode](#event-handlers-might-not-be-not-raised-in-a-default-document-in-iis-7-or-iis-75-integrated-mode)
 
 
-## The Image Disappears When I Click on a Crop / Add Text / Save / Reset
+## The Image Disappears When I Click on  Crop / Add Text / Save / Reset
 
 The most likely reason for this behavior is that the HttpHandler is not present in the web.config. These three operations are not performed on the client and thus require that the **RadImageEditor** can properly communicate with the server.
 
@@ -20,27 +27,27 @@ The easiest approach to enable the Telerik HttpHandler is to go to the design vi
 
 You can also manually add the needed handlers under system.web -> httpHandlers for IIS versions prior to 7.0. For example:
 
-````ASPNET
-	  <system.web>
-	     . . . . 
-	    <httpHandlers>
-	      <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
-	    </httpHandlers>
-	  </system.web>
+````XML
+<system.web>
+   . . . . 
+  <httpHandlers>
+    <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
+  </httpHandlers>
+</system.web>
 ````
 
 
 
 and under system.webServer -> handlers for ISS 7.0 and later, for example:
 
-````ASPNET
-	  <system.webServer>
-	    <modules runAllManagedModulesForAllRequests="true" />
-	    <validation validateIntegratedModeConfiguration="false" />
-	    <handlers>
-	      <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
-	    </handlers>
-	  </system.webServer>
+````XML
+<system.webServer>
+  <modules runAllManagedModulesForAllRequests="true" />
+  <validation validateIntegratedModeConfiguration="false" />
+  <handlers>
+    <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
+  </handlers>
+</system.webServer>
 ````
 
 
@@ -51,10 +58,11 @@ If the dialogs are not properly displayed (for example with no content or with t
 
 ## Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode
 
-Problem
+
+*Problem*
 
 When RadCompression is enabled and you are using .NET 4.0, event handlers might not be raised in a default document in IIS 7 or IIS 7.5 Integrated Mode, **which could break the normal work of RadImageEditor**.
 
-Solution
+*Solution*
 
 This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).

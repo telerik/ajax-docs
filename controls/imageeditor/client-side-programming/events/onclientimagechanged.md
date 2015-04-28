@@ -12,7 +12,6 @@ position: 6
 
 
 
-## 
 
 The **OnClientImageChanged** event is raised after the image has changed. The event is fired after **OnClientImageChanging** event.
 
@@ -22,14 +21,14 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageChanged"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientImageChanged(sender, eventArgs)
-	        {
-	            alert("OnClientImageChanged event fired by RadImageEditor with ID: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageChanged"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientImageChanged(sender, eventArgs)
+    {
+        alert("OnClientImageChanged event fired by RadImageEditor with ID: " + sender.get_id());
+    }
+</script>
 ````
 
 

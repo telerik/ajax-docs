@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+
 
 The **OnClientDialogLoaded** event is raised when a tool widget dialog is loaded from the server.
 
@@ -22,13 +22,13 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-		<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientToolsDialogClosed="OnClientDialogLoaded"></telerik:RadImageEditor>
-		<script type="text/javascript">
-			function OnClientDialogLoaded(sender, eventArgs) {
-				alert("OnClientDialogLoaded event fired by RadImageEditor with ID: " + sender.get_id());
-			}
-		</script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientToolsDialogClosed="OnClientDialogLoaded"></telerik:RadImageEditor>
+<script type="text/javascript">
+	function OnClientDialogLoaded(sender, eventArgs) {
+		alert("OnClientDialogLoaded event fired by RadImageEditor with ID: " + sender.get_id());
+	}
+</script>
 ````
 
 

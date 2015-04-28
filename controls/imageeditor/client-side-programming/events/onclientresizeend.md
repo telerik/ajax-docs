@@ -11,8 +11,7 @@ position: 9
 # OnClientResizeEnd
 
 
-
-## 
+ 
 
 The **OnClientResizeEnd** event is raised when the user has finished resizing the control.
 
@@ -22,14 +21,14 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientResizeEnd="OnClientResizeEnd"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientResizeEnd(sender, eventArgs)
-	        {
-	            alert("OnClientResizeEnd event fired by RadImageEditor with ID: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientResizeEnd="OnClientResizeEnd"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientResizeEnd(sender, eventArgs)
+    {
+        alert("OnClientResizeEnd event fired by RadImageEditor with ID: " + sender.get_id());
+    }
+</script>
 ````
 
 

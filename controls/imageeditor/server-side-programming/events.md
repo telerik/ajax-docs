@@ -12,8 +12,6 @@ position: 1
 
 
 
-## 
-
 
 | Event | Description |
 | ------ | ------ |

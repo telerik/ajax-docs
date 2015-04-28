@@ -12,27 +12,27 @@ position: 2
 
 
 
-## 
 
-The **RadImageEditor** fully supports right-to-left (RTL) language locales. It is created and added to the page root (as a direct child of the form element) and in order to turn on the RTL support you should set **dir=rtl to the html or body** element.
+**RadImageEditor** fully supports right-to-left (RTL) language locales. It is created and added to the page root (as a direct child of the form element) and in order to turn on the RTL support you should set **dir=rtl to the html or body** element.
 
-````ASPNET
-	        html
-	        {
-	            direction: rtl;
-	        }
+````CSS
+html
+{
+    direction: rtl;
+}
 ````
 
 
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" Skin="Telerik" ImageUrl="~/Image1.jpg"
-	        Height="365px" Width="585px">
-	    </telerik:RadImageEditor>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" Skin="Telerik" ImageUrl="~/Image1.jpg"
+    Height="365px" Width="585px">
+</telerik:RadImageEditor>
 ````
 
+>caption RadImageEditor in RTL mode
 ![radimageeditor-rtl-screenshot](images/radimageeditor-rtl-screenshot.png)
 
 # See Also
 
- * [See this live in an online demo](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/righttoleft/defaultcs.aspx)
+ * [Live Demo: RadImageEditor Right-to-left Support](http://demos.telerik.com/aspnet-ajax/imageeditor/examples/righttoleft/defaultcs.aspx)

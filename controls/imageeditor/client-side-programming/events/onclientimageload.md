@@ -12,7 +12,6 @@ position: 7
 
 
 
-## 
 
 The **OnClientImageLoad** event is raised after the control has been loaded.
 
@@ -22,15 +21,15 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageLoad"></telerik:RadImageEditor>
-			<script type="text/javascript">
-				function OnClientImageLoad(imgEditor)
-				{
-					//set initial zoom to the loaded image
-					imgEditor.zoomImage(200);
-				}
-			</script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientImageChanged="OnClientImageLoad"></telerik:RadImageEditor>
+	<script type="text/javascript">
+		function OnClientImageLoad(imgEditor)
+		{
+			//set initial zoom to the loaded image
+			imgEditor.zoomImage(200);
+		}
+	</script>
 ````
 
 

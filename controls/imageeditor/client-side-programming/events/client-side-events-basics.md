@@ -1,18 +1,18 @@
 ---
-title: Client-Side Events Basics
-page_title: Client-Side Events Basics | RadImageEditor for ASP.NET AJAX Documentation
-description: Client-Side Events Basics
+title: Overview
+page_title: Client-Side Events Overview | RadImageEditor for ASP.NET AJAX Documentation
+description: Client-Side Events Overview
 slug: imageeditor/client-side-programming/events/client-side-events-basics
 tags: client-side,events,basics
 published: True
 position: 0
 ---
 
-# Client-Side Events Basics
+# Client-Side Events Overview
 
 
 
-## 
+
 
 **RadImageEditor** provides a rich set of client-side events which allow easy and flexible use in a wide range of application scenarios. Many of the events are cancelable giving you the possibility to cancel any operation performed on the image:
 
@@ -44,39 +44,39 @@ position: 0
 
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientLoad="OnClientLoad"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientLoad(sender, eventArgs)
-	        {
-	            alert("OnClientLoad event fired by RadImageEditor with ID: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientLoad="OnClientLoad"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientLoad(sender, eventArgs)
+    {
+        alert("OnClientLoad event fired by RadImageEditor with ID: " + sender.get_id());
+    }
+</script>
 ````
 
 
 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
-````ASPNET
-	    function addEvents()
-	    {
-	        var radImageEditor1 = $find("<%= RadImageEditor1.ClientID%>");
-	        radImageEditor1.add_commandExecuting(function1);
-	        radImageEditor1.add_commandExecuting(function2);
-	    }
+````JavaScript
+function addEvents()
+{
+    var radImageEditor1 = $find("<%= RadImageEditor1.ClientID%>");
+    radImageEditor1.add_commandExecuting(function1);
+    radImageEditor1.add_commandExecuting(function2);
+}
 ````
 
 
 
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
-````ASPNET
-	    function removeEvents()
-	    {
-	        var radImageEditor1 = $find("<%= RadImageEditor1.ClientID%>");
-	        radImageEditor1.remove_commandExecuting(function1);
-	    }
+````JavaScript
+function removeEvents()
+{
+    var radImageEditor1 = $find("<%= RadImageEditor1.ClientID%>");
+    radImageEditor1.remove_commandExecuting(function1);
+}
 ````
 
 

@@ -12,7 +12,6 @@ position: 1
 
 
 
-## 
 
 There is a known limitation in **RadImageEditor**'s **AddText** tool.
 
@@ -21,21 +20,17 @@ The **AddText** tool inserts the text to the image currently saved on the server
 Example of how the **AddText** tool does not respect the client operations performed up to now:
 
 1. Original image
->caption 
 
-![radimageeditor-add-text-limitation-im 1](images/radimageeditor-add-text-limitation-im1.jpg)
+	![radimageeditor-add-text-limitation-im 1](images/radimageeditor-add-text-limitation-im1.jpg)
 
 1. We rotate the image
->caption 
 
-![radimageeditor-add-text-limitation-im 2](images/radimageeditor-add-text-limitation-im2.jpg)
+	![radimageeditor-add-text-limitation-im 2](images/radimageeditor-add-text-limitation-im2.jpg)
 
 1. We AddText
->caption 
 
-![radimageeditor-add-text-limitation-im 3](images/radimageeditor-add-text-limitation-im3.jpg)
+	![radimageeditor-add-text-limitation-im 3](images/radimageeditor-add-text-limitation-im3.jpg)
 
 1. Result
->caption 
 
-![radimageeditor-add-text-limitation-im 4](images/radimageeditor-add-text-limitation-im4.jpg)
+	![radimageeditor-add-text-limitation-im 4](images/radimageeditor-add-text-limitation-im4.jpg)

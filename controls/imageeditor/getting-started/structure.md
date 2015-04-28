@@ -12,7 +12,7 @@ position: 1
 
 
 
-## 
+
 
 The diagram below show the element structure of **RadImageEditor**. The control elements are described below.![radimageeditor-structure](images/radimageeditor-structure.png)
 

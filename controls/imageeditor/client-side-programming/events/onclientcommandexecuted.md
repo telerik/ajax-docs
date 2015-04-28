@@ -12,7 +12,6 @@ position: 3
 
 
 
-## 
 
 The **OnClientCommandExecuted** event is raised after the user fires a command of the control. The event is subsequent to the **OnClientCommandExecuting** event. It cannot be cancelled.
 
@@ -22,14 +21,14 @@ The event handler receives the following parameters:
 
 1. Event arguments object. You can call its get_commandName() method to get the command name.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientCommandExecuted="OnClientCommandExecuted"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientCommandExecuted(sender, eventArgs)
-	        {
-	            alert("OnClientCommandExecuted event fired. Command name was: " + eventArgs.get_commandName());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientCommandExecuted="OnClientCommandExecuted"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientCommandExecuted(sender, eventArgs)
+    {
+        alert("OnClientCommandExecuted event fired. Command name was: " + eventArgs.get_commandName());
+    }
+</script>
 ````
 
 

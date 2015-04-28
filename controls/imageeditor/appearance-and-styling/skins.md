@@ -12,16 +12,16 @@ position: 0
 
 
 
-**RadImageEditor**uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel.
+**RadImageEditor** uses **skins** to control its overall look-and-feel. A skin is a set of images and a CSS stylesheet that can be applied to the control elements (items, images, etc.) and defines their look and feel.
 
-To apply a skin to a **RadImageEditor**control, set its **Skin** property.
+To apply a skin to a **RadImageEditor** control, set its **Skin** property.
 
 **RadImageEditor** is installed with a number of preset skins. These are shown below:
->caption 
+
 
 ![radimagerditor-skins](images/radimagerditor-skins.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .	You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014**.	You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
@@ -35,4 +35,4 @@ You can tweak the existing skins or create your own. Each skin has two main elem
 
 1. Set the **EnableEmbeddedSkins** property of the control to **False**.
 
-The stylesheet for a **RadImageEditor**skin has the name **ImageEditor.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ImageEditor** directory. For example, the stylesheet for the "Black" skin is called ImageEditor.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/ImageEditor directory. The images are referenced by name from within the stylesheet.
+The stylesheet for a **RadImageEditor** skin has the name **ImageEditor.[SkinName].css** and can be found in the **...Skins/[SkinName]** directory. The images are found in the **...Skins/[SkinName]/ImageEditor** directory. For example, the stylesheet for the "Black" skin is called ImageEditor.Black.css and is located in the ...Skins/Black directory. The images are found in the ...Skins/Black/ImageEditor directory. The images are referenced by name from within the stylesheet.

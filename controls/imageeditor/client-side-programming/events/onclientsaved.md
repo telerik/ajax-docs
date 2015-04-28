@@ -12,7 +12,6 @@ position: 11
 
 
 
-## 
 
 The **OnClientSaved** event is raised after the user has saved the image.
 
@@ -22,14 +21,14 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientSaved="OnClientSaved"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientSaved(sender, eventArgs)
-	        {
-	            alert("OnClientSaved event fired by RadImageEditor with ID: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientSaved="OnClientSaved"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientSaved(sender, eventArgs)
+    {
+        alert("OnClientSaved event fired by RadImageEditor with ID: " + sender.get_id());
+    }
+</script>
 ````
 
 

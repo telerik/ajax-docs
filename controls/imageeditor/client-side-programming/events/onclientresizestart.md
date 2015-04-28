@@ -12,7 +12,6 @@ position: 8
 
 
 
-## 
 
 The **OnClientResizeStart** event is raised when the user starts resizing the control.
 
@@ -22,14 +21,14 @@ The event handler receives the following parameters:
 
 1. Event arguments object.
 
-````ASPNET
-	    <telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientResizeStart="OnClientResizeStart"></telerik:RadImageEditor>
-	    <script type="text/javascript">
-	        function OnClientResizeStart(sender, eventArgs)
-	        {
-	            alert("OnClientResizeStart event fired by RadImageEditor with ID: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadImageEditor runat="server" ID="RadImageEditor1" OnClientResizeStart="OnClientResizeStart"></telerik:RadImageEditor>
+<script type="text/javascript">
+    function OnClientResizeStart(sender, eventArgs)
+    {
+        alert("OnClientResizeStart event fired by RadImageEditor with ID: " + sender.get_id());
+    }
+</script>
 ````
 
 

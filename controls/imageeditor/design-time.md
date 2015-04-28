@@ -5,7 +5,7 @@ description: Design Time
 slug: imageeditor/design-time
 tags: design,time
 published: True
-position: 2
+position: 3
 ---
 
 # Design Time
@@ -13,7 +13,7 @@ position: 2
 
 
 The Smart Tag lets you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on the control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
+
 
 ![imageeditor-smart-tag](images/imageeditor-smart-tag.png)
 

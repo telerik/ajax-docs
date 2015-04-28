@@ -10,7 +10,27 @@ position: 0
 
 # Server-side Programming Overview
 
+This article lists the server-side API of the RadImageEditor control and its related classes. It contains the following sections:
 
+* [RadImageEditor Public Methods](#radimageeditor-public-methods)
+
+* [RadImageEditor Public Properties](#radimageeditor-public-properties)
+
+* [RadImageEditor Properties For Setting Client-Side Event Handlers](#radimageeditor-properties-for-setting-client-side-event-handlers)
+
+* [RadImageEditor EditableImage Methods](#radimageeditor-editableimage-methods)
+
+* [RadImageEditor EditableImage Properties](#radimageeditor-editableimage-properties)
+
+* [RadImageEditor Tool Methods](#radimageeditor-tool-methods)
+
+* [RadImageEditor Tool Properties](#radimageeditor-tool-properties)
+
+* [RadImageEditor ToolGroup Methods](#radimageeditor-toolgroup-methods)
+
+* [RadImageEditor ToolGroup Properties](#radimageeditor-toolgroup-properties)
+
+* [RadImageEditor Enumerators](#radimageeditor-enumerators)
 
 ## RadImageEditor Public Methods
 
@@ -44,7 +64,7 @@ position: 0
 | __CurrentImageUrl__ |Gets or sets the location of the currently edited image within the Image editor.|
 | __DescriptionUrl__ |Gets or sets the location to a detailed description for the edited image.|
 | __EnableResize__ |Gets or sets a bool value that indicates whether the control can be resized.|
-| __ExternalDialogsPath__ |Gets or sets a value indicating where the image editor will look for its dialogs.The required argument is a relative path to the dialogs location,	for example: "~/controls/RadImageEditorDialogs/". If specified, the __ExternalDialogsPath__ property allows the image editordialogs to be customized and loaded from normal ASCX files.|
+| __ExternalDialogsPath__ |Gets or sets a value indicating where the image editor will look for its dialogs.The required argument is a relative path to the dialogs location,	for example: `"~/controls/RadImageEditorDialogs/"`. If specified, the __ExternalDialogsPath__ property allows the image editordialogs to be customized and loaded from normal ASCX files.|
 | __Height__ |Gets or sets the height of the RadImageEditor control.|
 | __HttpHandlerUrl__ |Specifies the URL of the HTTPHandler that serves the cached image. The HTTPHandler should either be registered in the application configuration file, or a file with the specified name should exist at the location, which HttpHandlerUrl points to. If a file is to serve the files, it should inherit the class Telerik.Web.UI.WebResource.|
 | __ImageCacheStorageLocation__ |Specifies where the cached imaged from the operation will be stored. When the image is stored in the session the HttpHandler definition (in the web.config file) must be changed from Telerik.Web.UI.WebResource to Telerik.Web.UI.WebResourceSession so that the image can be retrieved from the Session|
@@ -61,7 +81,7 @@ position: 0
 | __ToolBarMode__ |Gets or sets value that controls the behavior of the Toolbar. The options available are: "Default" and "Docked".|
 | __ToolBarPosition__ |Gets or sets the position of the Toolbar relative to the edited content (content area).|
 | __Tools__ |Gets the collection containing RadImageEditor tools.|
-| __ToolsFile__ |Gets or sets a string containing the path to the XML toolbar configuration file. Use "~" (tilde) as a substitution of the web-application's root directory. You can also provide this property with an absolute URL which returns a valid XML toolbar configuration file, e.g.[http://MyServer/MyApplication/Tools/MyToolsFile.aspx](http://MyServer/MyApplication/Tools/MyToolsFile.aspx)|
+| __ToolsFile__ |Gets or sets a string containing the path to the XML toolbar configuration file. Use `"~"` (tilde) as a substitution of the web-application's root directory. You can also provide this property with an absolute URL which returns a valid XML toolbar configuration file, e.g., `http://MyServer/MyApplication/Tools/MyToolsFile.aspx`|
 | __ToolsLoadPanelType__ |The panel type to use for loading the tools dialogs' content.|
 | __UndoLimit__ |Gets or sets the maximal number of operations that will be stored in the Undo stack. Zero (0) is the default value, meaning there is no limit on the number of operations stored.|
 | __UndoStack__ |The collection of commands that are applied on the client, and need to be applied on the server.|
@@ -102,15 +122,7 @@ position: 0
 | __Clone__ |Creates copy of the current EditableImage. Returnes the cloned EditableImage.|
 | __Crop__ |Crops a selected area of the current EditableImage. Takes as arguement an instance of the class Rectangle, which determines the cropped zone.|
 | __Dispose__ |Disposes the current EditableImage.|
-| __EditableImage__ |Creates an EditableImage. Takes as arguments any of the following variants:
-
-* A stream, containing the image data.
-
-* A path to the specific image.
-
-* An object of type __System.Drawing.Image__ .
-
-* An object of type __System.Drawing.Image__ and an object, implementing the IGraphicsCore interface.|
+| __EditableImage__ |Creates an EditableImage. Takes as arguments any of the following variants: A stream, containing the image data; A path to the specific image; An object of type __System.Drawing.Image__; An object of type __System.Drawing.Image__ and an object, implementing the IGraphicsCore interface.|
 | __FixGifColors__ |Fixes a problem with the Gif file format support in the .NET framework.|
 | __Flip__ |Flips the current EditableImage to the specified direction. Takes as arguement the direction, to which the EditableImage should be flipped.|
 | __InsertImage__ |Inserts an image in a specific position in the current EditableImage. Takes as arguements the point, in which the image should be placed, and the image itself.|
@@ -189,64 +201,12 @@ position: 0
 
 | Name | Values |
 | ------ | ------ |
-| __AllowedSavingLocation__ |Specifies where the end user can save the edited image:
-
-*  __ClientAndServer__ - The user can save the image on the client and server machine.
-
-*  __Client__ - The user can save image on the client only.
-
-*  __Server__ - The user can save image on the server only.|
-| __FlipDirection__ |
-
-* Vertical
-
-* Horizontal
-
-* Both|
-| __Rotation__ |
-
-* Rotate90
-
-* Rotate180
-
-* Rotate270|
-| __StatusBarMode__ |Specifies the possible values for the __StatusBarMode__ property of the RadImageEditor control:
-
-*  __Bottom__ - The StatusBar is rendered below the editable area of the ImageEditor.
-
-*  __Top__ - The StatusBar is rendered above the editable area of the ImageEditor and below the ToolBar.
-
-*  __Hidden__ - The StatusBar is not rendered at all.|
-| __ToolBarMode__ |Specifies the Toolbar behavior of the RadImageEditor control:
-
-*  __Default__ - The Toolbar is attached to the ImageEditor control. In this mode the Toolbar is static and can't be moved.
-
-*  __Docked__ - The Toolbar is rendered within a dock and can be docked into one of the 4(four) zones available, or left undocked anywhere on the page.|
-| __ToolBarPosition__ |Specifies the position of the Toolbar relative to the edited content (content area):
-
-*  __Top__ - The Toolbar is rendered above the content area.
-
-*  __Right__ - The Toolbar is rendered to the right of the content area.
-
-*  __Bottom__ - The Toolbar is rendered below the content area.
-
-*  __Left__ - The Toolbar is rendered to the left of the content area.|
-| __CanvasMode__ |Specifies the options for enabling the canvas mode (using HTML5 canvas element for editing images) in the RadImageEditor control:
-
-*  __Automatic__ - The RadImageEditor enables the canvas mode if the client browser supports the HTML5 canvas element, and doesn't enable the canvas mode if the canvas element is not supported.
-
-*  __Yes__ - The canvas mode is always enabled no matter if the browser does not support the HTML5 canvas element.
-
-*  __No__ - The canvas mode is disabled.|
-| __ImageStorage__ |Specifies the locations where a Telerik.Web.UI.RadImageEditor instance can store its intermediary EditableImage objects, resulting from server operations:
-
-*  __Cache__ - The EditableImage objects are stored in the System.Web.Caching.Cache of the current application.
-
-*  __Session__ - The EditableImage objects are stored in the System.Web.SessionState.HttpSessionState of the current HTTP Request.
-
-*  __FileSystem__ - The EditableImage objects are stored in the WebServer's file system.|
-| __ToolsLoadPanelTypes__ |
-
-* AjaxPanel
-
-* XmlHttpPanel|
+| __AllowedSavingLocation__ |Specifies where the end user can save the edited image:  __ClientAndServer__ - The user can save the image on the client and server machine;  __Client__ - The user can save image on the client only;  __Server__ - The user can save image on the server only.|
+| __FlipDirection__ | Vertical, Horizontal, Both|
+| __Rotation__ | Rotate90, Rotate180, Rotate270|
+| __StatusBarMode__ |Specifies the possible values for the __StatusBarMode__ property of the RadImageEditor control:  __Bottom__ - The StatusBar is rendered below the editable area of the ImageEditor;  __Top__ - The StatusBar is rendered above the editable area of the ImageEditor and below the ToolBar;  __Hidden__ - The StatusBar is not rendered at all.|
+| __ToolBarMode__ |Specifies the Toolbar behavior of the RadImageEditor control:  __Default__ - The Toolbar is attached to the ImageEditor control. In this mode the Toolbar is static and can't be moved;  __Docked__ - The Toolbar is rendered within a dock and can be docked into one of the 4(four) zones available, or left undocked anywhere on the page.|
+| __ToolBarPosition__ |Specifies the position of the Toolbar relative to the edited content (content area):  __Top__ - The Toolbar is rendered above the content area;  __Right__ - The Toolbar is rendered to the right of the content area;  __Bottom__ - The Toolbar is rendered below the content area;  __Left__ - The Toolbar is rendered to the left of the content area.|
+| __CanvasMode__ |Specifies the options for enabling the canvas mode (using HTML5 canvas element for editing images) in the RadImageEditor control:  __Automatic__ - The RadImageEditor enables the canvas mode if the client browser supports the HTML5 canvas element, and doesn't enable the canvas mode if the canvas element is not supported;  __Yes__ - The canvas mode is always enabled no matter if the browser does not support the HTML5 canvas element;  __No__ - The canvas mode is disabled.|
+| __ImageStorage__ |Specifies the locations where a Telerik.Web.UI.RadImageEditor instance can store its intermediary EditableImage objects, resulting from server operations:  __Cache__ - The EditableImage objects are stored in the System.Web.Caching.Cache of the current application;  __Session__ - The EditableImage objects are stored in the System.Web.SessionState.HttpSessionState of the current HTTP Request;  __FileSystem__ - The EditableImage objects are stored in the WebServer's file system.|
+| __ToolsLoadPanelTypes__ | AjaxPanel, XmlHttpPanel|
