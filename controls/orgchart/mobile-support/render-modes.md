@@ -35,8 +35,8 @@ There are two ways to configure the rendering mode of the controls:
 * The property **RenderMode** of RadOrgChart can be used to set the render mode of a particular instance of the control:
 
 ````ASPNET
-	    <telerik:RadOrgChart runat="server" ID="RadOrgChart1" RenderMode="Lightweight">
-	    </telerik:RadOrgChart>
+<telerik:RadOrgChart runat="server" ID="RadOrgChart1" RenderMode="Lightweight">
+</telerik:RadOrgChart>
 ````
 
 
@@ -44,12 +44,11 @@ There are two ways to configure the rendering mode of the controls:
 
 
 ````C#
-			RadOrgChart1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
+RadOrgChart1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight;
 ````
 ````VB.NET
-			RadOrgChart1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
-	#End Region
-	End Class
+RadOrgChart1.RenderMode = Telerik.Web.UI.RenderMode.Lightweight
+````
 
 
 
@@ -57,9 +56,9 @@ There are two ways to configure the rendering mode of the controls:
 * The render mode for the dock control can be specified globally in web.config by adding an app key:
 
 ````XML
-	<appSettings>
-	  <add key="Telerik.Web.UI.OrgChart.RenderMode" value="lightweight" />
-	</appSettings>
+<appSettings>
+  <add key="Telerik.Web.UI.OrgChart.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 

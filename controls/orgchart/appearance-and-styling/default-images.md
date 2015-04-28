@@ -16,13 +16,13 @@ RadOrgChart has default profile image for GroupItems, which appears in case,	the
 
 ## How to change the default image?
 
-In case you would like to use a different default image(for example special image applied to all GroupItems), you can change itby setting the **DefaultImageUrl** property of RadOrgChart.
+In case you would like to use a different default image(for example special image applied to all GroupItems), you can change it by setting the **DefaultImageUrl** property of RadOrgChart.
 
 Here is an example:
 
 ````ASPNET
-			<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DefaultImageUrl="/newDefaultImage.png">
-			</telerik:RadOrgChart>
+<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DefaultImageUrl="/newDefaultImage.png">
+</telerik:RadOrgChart>
 ````
 
 
@@ -33,13 +33,13 @@ The images for GroupItems are limited to **48x48 pixels**.This means that even *
 
 ## How to disable the default image?
 
-If you don't need a default image to appear, you can disable it bysetting the **DisableDefaultImage** property of RadOrgChart.
+If you don't need a default image to appear, you can disable it by setting the **DisableDefaultImage** property of RadOrgChart.
 
 Here is an example:
 
 ````ASPNET
-			<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DisableDefaultImage="true">
-			</telerik:RadOrgChart>
+<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DisableDefaultImage="true">
+</telerik:RadOrgChart>
 ````
 
 

@@ -12,7 +12,7 @@ position: 1
 
 
 
-In order to support a simple, straight-forward binding to a self-referenced data, without complex relations such as groups, RadOrgChart supports 2 different kinds of binding, first of which we called **Simple Data Binding**. Second one is called **Group-Enabled Binding** (see the[Group-Enabled Binding]({%slug orgchart/data-binding/group-enabled-binding%}) article)
+In order to support a simple, straight-forward binding to a self-referenced data, without complex relations such as groups, RadOrgChart supports 2 different kinds of binding, first of which we called **Simple Data Binding**. Second one is called **Group-Enabled Binding** (see the [Group-Enabled Binding]({%slug orgchart/data-binding/group-enabled-binding%}) article)
 
 ## 
 
@@ -21,13 +21,14 @@ This binding is no different from what you have already used with other hiearchi
 For example, having a RadTreeView bound to a self referenced data with specified DataFieldID, DataFieldParentID and DataTextField, one can switch the opening and closing tag names with telerik:RadOrgChart	and the result would be an Org Chart bound to the data of RadTreeView:
 
 ````ASPNET
-				<telerik:RadTreeView runat="server" ID="RadTreeView1" DataSource="RadTreeViewDataSource1"
-					DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
-				</telerik:RadTreeView>
-	
-				<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DataSource="RadTreeViewDataSource1"
-					DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
-				</telerik:RadOrgChart>
+
+<telerik:RadTreeView runat="server" ID="RadTreeView1" DataSource="RadTreeViewDataSource1"
+	DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
+</telerik:RadTreeView>
+
+<telerik:RadOrgChart runat="server" ID="RadOrgChart1" DataSource="RadTreeViewDataSource1"
+	DataFieldID="ID" DataFieldParentID="ParentID" DataTextField="Text">
+</telerik:RadOrgChart>
 	
 ````
 

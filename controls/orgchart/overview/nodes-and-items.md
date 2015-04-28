@@ -16,23 +16,25 @@ During the design of RadOrgChart, two main types of objects were identified - **
 
 ## What's what?
 
-Organizational hierarchies mostly include relations of type **person-managing-person**:![radorgchart-nodes-and-items 1](images/radorgchart-nodes-and-items1.png)
+Organizational hierarchies mostly include relations of type **person-managing-person**:
+![radorgchart-nodes-and-items 1](images/radorgchart-nodes-and-items1.png)
 
-But there also are cases in which a department of people is represented by a single node in the tree structure:![radorgchart-nodes-and-items 2](images/radorgchart-nodes-and-items2.png)
+But there also are cases in which a department of people is represented by a single node in the tree structure:
+![radorgchart-nodes-and-items 2](images/radorgchart-nodes-and-items2.png)
 
 That is why we came up with the following object model:
 
 * **RadOrgChart**
 
-* NodesCollection
+	* NodesCollection
 
-* **Node**
+		* **Node**
 
-* NodesCollection
+			* NodesCollection
 
-* GroupItemsCollection
+			* GroupItemsCollection
 
-* **GroupItem**
+				* **GroupItem**
 
 In this model, **Node's** purpose is to hold GroupItems. In case that a node holds a single GroupItem - this node is **not** considered *Group*. In the first example none of the items presented didn't have the visual representation of a group - the rounded rectangle with a background is missing:![radorgchart-nodes-and-items 3](images/radorgchart-nodes-and-items3.png)
 
@@ -52,21 +54,20 @@ Here is an example that will illustrate the case of single-item group:
 
 ````ASPNET
 	
-				<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
-					<Nodes>
-						<telerik:OrgChartNode>
-							<RenderedFields>
-								<telerik:OrgChartRenderedField Text="Group's Name" />
-							</RenderedFields>
-							<GroupItems>
-								<telerik:OrgChartGroupItem Text="Only Item of the group" />
-							</GroupItems>
-						</telerik:OrgChartNode>
-					</Nodes>
-				</telerik:RadOrgChart>
+<telerik:RadOrgChart runat="server" ID="RadOrgChart1">
+	<Nodes>
+		<telerik:OrgChartNode>
+			<RenderedFields>
+				<telerik:OrgChartRenderedField Text="Group's Name" />
+			</RenderedFields>
+			<GroupItems>
+				<telerik:OrgChartGroupItem Text="Only Item of the group" />
+			</GroupItems>
+		</telerik:OrgChartNode>
+	</Nodes>
+</telerik:RadOrgChart>
 	
 ````
 
-
-
-And this is how the results looks like:![radorgchart-nodes-and-items 4](images/radorgchart-nodes-and-items4.png)
+And this is how the results looks like:
+![radorgchart-nodes-and-items 4](images/radorgchart-nodes-and-items4.png)

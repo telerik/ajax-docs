@@ -18,30 +18,30 @@ The **Load-On-Demand** feature of RadOrgChart allows child **Nodes** or **Groups
 
 **Properties:**
 
-If you want to start using Load on Demand you should set the **"LoadOnDemand"**enum property of the RadOrgChart control to one of the following values:
+If you want to start using Load on Demand you should set the **"LoadOnDemand"** enum property of the RadOrgChart control to one of the following values:
 
 1. **“None”**
 
-* Default value
+	* Default value
 
-1. **“Nodes”**
+2. **“Nodes”**
 
-* allows the user to load**Nodes** on demand
+	* allows the user to load **Nodes** on demand
 
-* **EnableCollapsing** property is automatically set to **true**
+	* **EnableCollapsing** property is automatically set to **true**
 
-1. **“Groups”**
+3. **“Groups”**
 
-* allows the user to load**GroupItems** on demand
+	* allows the user to load **GroupItems** on demand
 
-* **EnableGroupCollapsing** property is automatically set to**true** (in SimpleBinding there are no Groups, so it is not applicable)
+	* **EnableGroupCollapsing** property is automatically set to **true** (in SimpleBinding there are no Groups, so it is not applicable)
 
-1. **“NodesAndGroups”**
+4. **“NodesAndGroups”**
 
-* allows the user to load**Nodes** and**GroupItems** on demand
+	* allows the user to load **Nodes** and **GroupItems** on demand
 
-* **EnableCollapsing** and**EnableGroupCollapsing** properties are automatically set to true (in SimpleBinding there are no Groups, so only Nodes can be loaded)
+	* **EnableCollapsing** and **EnableGroupCollapsing** properties are automatically set to true (in SimpleBinding there are no Groups, so only Nodes can be loaded)
 
 **Binding:**
 
-On the initial page load all**Nodes** and**GroupItems** of the RadOrgChart are bound. On every callback the RadOrgChart is rebound as well.
+On the initial page load all **Nodes** and **GroupItems** of the RadOrgChart are bound. On every callback the RadOrgChart is rebound as well.
