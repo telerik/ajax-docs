@@ -79,15 +79,24 @@ function onExpand(e) {
 
 $(function() {
 
-    $("#inheritance-tree")
-        .insertAfter("#inheritance-hierarchy")
-        .end()
+   $("#inheritance-hierarchy")
+        .next("ul")
+        .attr("id", "inheritance-tree")
         .children("li")
         .each(function (index, node) {
-            var parentIndex = index - 1;
+            var treeNode = $(node).attr("data-expanded", "true");
+            var text = treeNode.text();
+            var lastIndexOf;
+
+            if (/^Telerik/.test(text)) {
+                lastIndexOf = text.lastIndexOf(".");
+                treeNode
+                    .append("<a href='/devtools/aspnet-ajax/api/server/" + text.substring(0, lastIndexOf) + "/" + text.substring(++lastIndexOf) + "'/>");
+            }
+
             if (index !== 0) {
-                $(node)
-                    .appendTo($("#inheritance-tree").find("li:eq(" + parentIndex + ")"))
+                treeNode
+                    .appendTo($("#inheritance-tree").find("li:eq(" + (--index) + ")"))
                     .end()
                     .wrap("<ul>");
             }

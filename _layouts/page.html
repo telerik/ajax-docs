@@ -32,23 +32,6 @@ layout: index
 
     {% if page.kind == "api" %}<div id="markdown-toc"></div>{% endif %}
 
-    {% if page.type == "server" %}
-    {% assign parents = page.inheritance | split:"," %}
-    <ul id="inheritance-tree">
-        {% for item in parents reversed %}
-        <li data-expanded="true">
-            {% for page in site.pages %}
-                {% if page.title == {{item}} %}
-            <a href="{{site.baseurl}}{{ page.url | replace: '.html',''| strip_html }}"></a>
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-            {{item}}
-        </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-
     <div id="page-article">
         <article>
             {{ content }}
