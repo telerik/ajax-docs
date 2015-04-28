@@ -39,34 +39,34 @@ Below are the code snippets of an example in which we add a RequiredFieldValidat
 
 
 ````C#
-	    protected void RadTreeList1_ItemCreated(object sender, Telerik.Web.UI.TreeListItemCreatedEventArgs e)
-	    {
-	        if (e.Item is TreeListEditFormItem)
-	        {
-	            TreeListEditFormItem editForm = e.Item as TreeListEditFormItem;
-	
-	            TreeListTextBoxColumnEditor editorID = editForm.GetColumnEditor("ID") as TreeListTextBoxColumnEditor;
-	            RequiredFieldValidator requiredFieldValidator1 = new RequiredFieldValidator();
-	            requiredFieldValidator1.ID = "RequiredFieldValidator1";
-	            requiredFieldValidator1.ControlToValidate = editorID.TextBoxControl.ID;
-	            requiredFieldValidator1.ErrorMessage = "Required field!";
-	            editorID.TextBoxControl.Parent.Controls.Add(requiredFieldValidator1);
-	        }
-	    }
+protected void RadTreeList1_ItemCreated(object sender, Telerik.Web.UI.TreeListItemCreatedEventArgs e)
+{
+	if (e.Item is TreeListEditFormItem)
+	{
+		TreeListEditFormItem editForm = e.Item as TreeListEditFormItem;
+
+		TreeListTextBoxColumnEditor editorID = editForm.GetColumnEditor("ID") as TreeListTextBoxColumnEditor;
+		RequiredFieldValidator requiredFieldValidator1 = new RequiredFieldValidator();
+		requiredFieldValidator1.ID = "RequiredFieldValidator1";
+		requiredFieldValidator1.ControlToValidate = editorID.TextBoxControl.ID;
+		requiredFieldValidator1.ErrorMessage = "Required field!";
+		editorID.TextBoxControl.Parent.Controls.Add(requiredFieldValidator1);
+	}
+}
 ````
 ````VB.NET
-	    Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListItemCreatedEventArgs)
-	        If TypeOf e.Item Is TreeListEditFormItem Then
-	            Dim editForm As TreeListEditFormItem = TryCast(e.Item, TreeListEditFormItem)
-	
-	            Dim editorID As TreeListTextBoxColumnEditor = TryCast(editForm.GetColumnEditor("ID"), TreeListTextBoxColumnEditor)
-	            Dim requiredFieldValidator1 As New RequiredFieldValidator()
-	            requiredFieldValidator1.ID = "RequiredFieldValidator1"
-	            requiredFieldValidator1.ControlToValidate = editorID.TextBoxControl.ID
-	            requiredFieldValidator1.ErrorMessage = "Required field!"
-	            editorID.TextBoxControl.Parent.Controls.Add(requiredFieldValidator1)
-	        End If
-	    End Sub
+Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListItemCreatedEventArgs)
+	If TypeOf e.Item Is TreeListEditFormItem Then
+		Dim editForm As TreeListEditFormItem = TryCast(e.Item, TreeListEditFormItem)
+
+		Dim editorID As TreeListTextBoxColumnEditor = TryCast(editForm.GetColumnEditor("ID"), TreeListTextBoxColumnEditor)
+		Dim requiredFieldValidator1 As New RequiredFieldValidator()
+		requiredFieldValidator1.ID = "RequiredFieldValidator1"
+		requiredFieldValidator1.ControlToValidate = editorID.TextBoxControl.ID
+		requiredFieldValidator1.ErrorMessage = "Required field!"
+		editorID.TextBoxControl.Parent.Controls.Add(requiredFieldValidator1)
+	End If
+End Sub
 ````
 
 

@@ -12,7 +12,7 @@ position: 4
 
 
 
-Starting with the Q2 2011 release **RadTreeList** supports a new **Load-on-Demand**functionality. It allows child nodes to be added on the fly as parent nodes are expanded. This mode is useful when you need to fill sub nodes only when the parent node is expanded or the data source contains thousands of records:
+Starting with the Q2 2011 release **RadTreeList** supports a new **Load-on-Demand** functionality. It allows child nodes to be added on the fly as parent nodes are expanded. This mode is useful when you need to fill sub nodes only when the parent node is expanded or the data source contains thousands of records:
 
 ## Load On Demand mechanism
 
@@ -25,15 +25,15 @@ To use the Load-On-Demand mechanism:
 
 
 ````C#
-	    protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
-	    {
-	       RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", null);
-	    }
+protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
+{
+   RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", null);
+}
 ````
 ````VB.NET
-	    Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs)
-	        RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", Nothing)
-	    End Sub
+Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs)
+	RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", Nothing)
+End Sub
 ````
 
 
@@ -42,17 +42,17 @@ To use the Load-On-Demand mechanism:
 
 
 ````C#
-	    protected void RadTreeList1_ChildItemsDataBind(object sender, TreeListChildItemsDataBindEventArgs e)
-	    {
-	        int id = Convert.ToInt32(e.ParentDataKeyValues["ID"].ToString());
-	        e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " + id);
-	    }
+protected void RadTreeList1_ChildItemsDataBind(object sender, TreeListChildItemsDataBindEventArgs e)
+{
+	int id = Convert.ToInt32(e.ParentDataKeyValues["ID"].ToString());
+	e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " + id);
+}
 ````
 ````VB.NET
-	    Protected Sub RadTreeList1_ChildItemsDataBind(ByVal sender As Object, ByVal e As TreeListChildItemsDataBindEventArgs)
-	        Dim id As Integer = Convert.ToInt32(e.ParentDataKeyValues("ID").ToString())
-	        e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " & id)
-	    End Sub
+Protected Sub RadTreeList1_ChildItemsDataBind(ByVal sender As Object, ByVal e As TreeListChildItemsDataBindEventArgs)
+	Dim id As Integer = Convert.ToInt32(e.ParentDataKeyValues("ID").ToString())
+	e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " & id)
+End Sub
 ````
 
 

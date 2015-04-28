@@ -31,13 +31,11 @@ The table below explains the parameters which you can pass to that method to fir
 |Delete| **TreeListDataItem** |FireCommandEvent("Delete", TreeListCommandEventArgs)|Required but not used **Example:** FireCommandEvent("Delete", String.Empty)|
 |Sort| **TreeListHeaderItem** |FireCommandEvent("Sort", TreeListSortEventArgs)|string argument: fieldName (mandatory), sortOrder (optional) **Example:** FireCommandEvent("Sort", "ContactName")|
 |Page| **TreeListPagerItem** |FireCommandEvent("Page", TreeListPageChangedEventArgs)|string argument: "First", "Next", "Prev", "Last", numeric values as string representation **Example:** FireCommandEvent("Page", "Next")|
-|Select| **TreeListDataItem** |FireCommandEvent("Select", TreeListSelectEventArgs)|Required but not used **Example:** FireCommandEvent("Select", String.Empty)
+|Select| **TreeListDataItem** |FireCommandEvent("Select", TreeListSelectEventArgs)|Required but not used **Example:** FireCommandEvent("Select", String.Empty)|
+|Deselect| **TreeListDataItem** |FireCommandEvent("Deselect", TreeListDeselectEventArgs)|Required but not used **Example:** FireCommandEvent("Deselect", String.Empty)|
 
 >note Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be selected.
 >
-|
-|Deselect| **TreeListDataItem** |FireCommandEvent("Deselect", TreeListDeselectEventArgs)|Required but not used **Example:** FireCommandEvent("Deselect", String.Empty)
 
 >note Note that if you have AllowRecursiveSelection="true" the current item and all its child items will be deselected.
 >
-|

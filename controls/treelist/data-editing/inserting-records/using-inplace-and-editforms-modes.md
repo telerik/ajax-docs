@@ -33,68 +33,68 @@ After you get the IDictionary object populated, you can use the provided values 
 
 
 ````ASPNET
-	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
-	            AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList1_InsertCommand">
-	            <Columns>
-	                <telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />
-	                <telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName" />
-	                <telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName" />
-	                <telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title" />
-	                <telerik:TreeListDateTimeColumn DataField="HireDate" HeaderText="HireDate" UniqueName="HireDate" />
-	                <telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo" ReadOnly="true" />
-	                <telerik:TreeListEditCommandColumn UniqueName="EditColumn" />
-	            </Columns>
-	        </telerik:RadTreeList>
+<telerik:RadTreeList ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList1_InsertCommand">
+	<Columns>
+		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />
+		<telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName" />
+		<telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName" />
+		<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title" />
+		<telerik:TreeListDateTimeColumn DataField="HireDate" HeaderText="HireDate" UniqueName="HireDate" />
+		<telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo" ReadOnly="true" />
+		<telerik:TreeListEditCommandColumn UniqueName="EditColumn" />
+	</Columns>
+</telerik:RadTreeList>
 ````
 ````C#
-	    protected void RadTreeList1_InsertCommand(object sender, TreeListCommandEventArgs e)
-	    {
-	        //Canceling out the automatic datasource operation (needed if you use a datasource control)
-	        e.Canceled = true;
+protected void RadTreeList1_InsertCommand(object sender, TreeListCommandEventArgs e)
+{
+	//Canceling out the automatic datasource operation (needed if you use a datasource control)
+	e.Canceled = true;
+
+	//Using the ExtractValuesFromItem() method to get hold of the newly provided values
+	Hashtable insertValues = new Hashtable();
+	TreeListEditableItem editedItem = e.Item as TreeListEditableItem;
+	e.Item.OwnerTreeList.ExtractValuesFromItem(insertValues, editedItem, false);
+
+	//Inserting logic follows, this part depends on your own custom way of performing CRUD operations
+	SqlDataSource1.InsertParameters["LastName"].DefaultValue = insertValues["LastName"].ToString();
+	SqlDataSource1.InsertParameters["LastName"].DefaultValue = insertValues["LastName"].ToString();
+	SqlDataSource1.InsertParameters["FirstName"].DefaultValue = insertValues["FirstName"].ToString();
+	SqlDataSource1.InsertParameters["Title"].DefaultValue = insertValues["Title"].ToString();
+	SqlDataSource1.InsertParameters["HireDate"].DefaultValue = insertValues["HireDate"].ToString();
 	
-	        //Using the ExtractValuesFromItem() method to get hold of the newly provided values
-	        Hashtable insertValues = new Hashtable();
-	        TreeListEditableItem editedItem = e.Item as TreeListEditableItem;
-	        e.Item.OwnerTreeList.ExtractValuesFromItem(insertValues, editedItem, false);
-	
-	        //Inserting logic follows, this part depends on your own custom way of performing CRUD operations
-	        SqlDataSource1.InsertParameters["LastName"].DefaultValue = insertValues["LastName"].ToString();
-	        SqlDataSource1.InsertParameters["LastName"].DefaultValue = insertValues["LastName"].ToString();
-	        SqlDataSource1.InsertParameters["FirstName"].DefaultValue = insertValues["FirstName"].ToString();
-	        SqlDataSource1.InsertParameters["Title"].DefaultValue = insertValues["Title"].ToString();
-	        SqlDataSource1.InsertParameters["HireDate"].DefaultValue = insertValues["HireDate"].ToString();
-	        
-	        SqlDataSource1.Insert();
-	
-	        //Closing the insert form and rebinding the treelist control (needed when the default action was canceled)
-	        RadTreeList1.InsertIndexes.Clear();
-	        RadTreeList1.Rebind();
-	    }
+	SqlDataSource1.Insert();
+
+	//Closing the insert form and rebinding the treelist control (needed when the default action was canceled)
+	RadTreeList1.InsertIndexes.Clear();
+	RadTreeList1.Rebind();
+}
 	
 ````
 ````VB.NET
-	    Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.InsertCommand
-	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
-	        e.Canceled = True
-	
-	        'Using the ExtractValuesFromItem() method to get hold of the newly provided values
-	        Dim insertValues As New Hashtable()
-	        Dim editedItem As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
-	        e.Item.OwnerTreeList.ExtractValuesFromItem(insertValues, editedItem, False)
-	
-	        'Inserting logic follows, this part depends on your own custom way of performing CRUD operations
-	        SqlDataSource1.InsertParameters("LastName").DefaultValue = insertValues("LastName").ToString()
-	        SqlDataSource1.InsertParameters("LastName").DefaultValue = insertValues("LastName").ToString()
-	        SqlDataSource1.InsertParameters("FirstName").DefaultValue = insertValues("FirstName").ToString()
-	        SqlDataSource1.InsertParameters("Title").DefaultValue = insertValues("Title").ToString()
-	        SqlDataSource1.InsertParameters("HireDate").DefaultValue = insertValues("HireDate").ToString()
-	
-	        SqlDataSource1.Insert()
-	
-	        'Closing the insert form and rebinding the treelist control
-	        RadTreeList1.InsertIndexes.Clear()
-	        RadTreeList1.Rebind()
-	    End Sub
+Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.InsertCommand
+	'Canceling out the automatic datasource operation (needed if you use a datasource control)
+	e.Canceled = True
+
+	'Using the ExtractValuesFromItem() method to get hold of the newly provided values
+	Dim insertValues As New Hashtable()
+	Dim editedItem As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
+	e.Item.OwnerTreeList.ExtractValuesFromItem(insertValues, editedItem, False)
+
+	'Inserting logic follows, this part depends on your own custom way of performing CRUD operations
+	SqlDataSource1.InsertParameters("LastName").DefaultValue = insertValues("LastName").ToString()
+	SqlDataSource1.InsertParameters("LastName").DefaultValue = insertValues("LastName").ToString()
+	SqlDataSource1.InsertParameters("FirstName").DefaultValue = insertValues("FirstName").ToString()
+	SqlDataSource1.InsertParameters("Title").DefaultValue = insertValues("Title").ToString()
+	SqlDataSource1.InsertParameters("HireDate").DefaultValue = insertValues("HireDate").ToString()
+
+	SqlDataSource1.Insert()
+
+	'Closing the insert form and rebinding the treelist control
+	RadTreeList1.InsertIndexes.Clear()
+	RadTreeList1.Rebind()
+End Sub
 ````
 
 
@@ -105,68 +105,68 @@ This can be achieved by getting hold of the current editable item and then acces
 
 
 ````ASPNET
-	        <telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
-	            AutoGenerateColumns="false" EditMode="InPlace" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList2_InsertCommand">
-	            <Columns>
-	                <telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />
-	                <telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName" />
-	                <telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName" />
-	                <telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title" />
-	                <telerik:TreeListDateTimeColumn DataField="HireDate" HeaderText="HireDate" UniqueName="HireDate" />
-	                <telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo" ReadOnly="true" />
-	                <telerik:TreeListEditCommandColumn UniqueName="EditColumn" />
-	            </Columns>
-	        </telerik:RadTreeList>
+<telerik:RadTreeList ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
+	AutoGenerateColumns="false" EditMode="InPlace" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList2_InsertCommand">
+	<Columns>
+		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID" ReadOnly="true" />
+		<telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName" />
+		<telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName" />
+		<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title" />
+		<telerik:TreeListDateTimeColumn DataField="HireDate" HeaderText="HireDate" UniqueName="HireDate" />
+		<telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo" ReadOnly="true" />
+		<telerik:TreeListEditCommandColumn UniqueName="EditColumn" />
+	</Columns>
+</telerik:RadTreeList>
 ````
 ````C#
-	    protected void RadTreeList2_InsertCommand(object sender, TreeListCommandEventArgs e)
-	    {
-	        //Canceling out the automatic datasource operation (needed if you use a datasource control)
-	        e.Canceled = true;
-	
-	        //Accessing the values of the insert item through the column editors
-	        TreeListEditableItem insertedItem = e.Item as TreeListEditableItem;
-	        string lastName = (insertedItem.GetColumnEditor("LastName") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
-	        string firstName = (insertedItem.GetColumnEditor("FirstName") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
-	        string title = (insertedItem.GetColumnEditor("Title") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
-	        DateTime? hireDate = (insertedItem.GetColumnEditor("HireDate") as TreeListDateTimeColumnEditor).DatePickerControl.SelectedDate;
-	
-	        //Inserting logic follows, this part depends on your own custom way of performing CRUD operations
-	        SqlDataSource1.InsertParameters["LastName"].DefaultValue = lastName;
-	        SqlDataSource1.InsertParameters["FirstName"].DefaultValue = firstName;
-	        SqlDataSource1.InsertParameters["Title"].DefaultValue = title;
-	        SqlDataSource1.InsertParameters["HireDate"].DefaultValue = hireDate.ToString();
-	        SqlDataSource1.Insert();
-	
-	        //Closing the insert form and rebinding the treelist control
-	        RadTreeList2.InsertIndexes.Clear();
-	        RadTreeList2.Rebind();
-	    }
+protected void RadTreeList2_InsertCommand(object sender, TreeListCommandEventArgs e)
+{
+	//Canceling out the automatic datasource operation (needed if you use a datasource control)
+	e.Canceled = true;
+
+	//Accessing the values of the insert item through the column editors
+	TreeListEditableItem insertedItem = e.Item as TreeListEditableItem;
+	string lastName = (insertedItem.GetColumnEditor("LastName") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
+	string firstName = (insertedItem.GetColumnEditor("FirstName") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
+	string title = (insertedItem.GetColumnEditor("Title") as TreeListTextBoxColumnEditor).TextBoxControl.Text;
+	DateTime? hireDate = (insertedItem.GetColumnEditor("HireDate") as TreeListDateTimeColumnEditor).DatePickerControl.SelectedDate;
+
+	//Inserting logic follows, this part depends on your own custom way of performing CRUD operations
+	SqlDataSource1.InsertParameters["LastName"].DefaultValue = lastName;
+	SqlDataSource1.InsertParameters["FirstName"].DefaultValue = firstName;
+	SqlDataSource1.InsertParameters["Title"].DefaultValue = title;
+	SqlDataSource1.InsertParameters["HireDate"].DefaultValue = hireDate.ToString();
+	SqlDataSource1.Insert();
+
+	//Closing the insert form and rebinding the treelist control
+	RadTreeList2.InsertIndexes.Clear();
+	RadTreeList2.Rebind();
+}
 ````
 ````VB.NET
-	    Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs)
-	        'Canceling out the automatic datasource operation (needed if you use a datasource control)
-	        e.Canceled = True
-	
-	        'Accessing the values of the insert item through the column editors
-	        Dim insertedItem As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
-	        Dim lastName As String = TryCast(insertedItem.GetColumnEditor("LastName"), TreeListTextBoxColumnEditor).TextBoxControl.Text
-	        Dim firstName As String = TryCast(insertedItem.GetColumnEditor("FirstName"), TreeListTextBoxColumnEditor).TextBoxControl.Text
-	        Dim title As String = TryCast(insertedItem.GetColumnEditor("Title"), TreeListTextBoxColumnEditor).TextBoxControl.Text
-	        Dim hireDate As System.Nullable(Of DateTime) = TryCast(insertedItem.GetColumnEditor("HireDate"), TreeListDateTimeColumnEditor).DatePickerControl.SelectedDate
-	
-	
-	        'Inserting logic follows, this part depends on your own custom way of performing CRUD operations
-	        SqlDataSource1.InsertParameters("LastName").DefaultValue = lastName
-	        SqlDataSource1.InsertParameters("FirstName").DefaultValue = firstName
-	        SqlDataSource1.InsertParameters("Title").DefaultValue = title
-	        SqlDataSource1.InsertParameters("HireDate").DefaultValue = hireDate.ToString()
-	        SqlDataSource1.Insert()
-	
-	        'Closing the insert form and rebinding the treelist control
-	        RadTreeList2.InsertIndexes.Clear()
-	        RadTreeList2.Rebind()
-	    End Sub
+Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs)
+	'Canceling out the automatic datasource operation (needed if you use a datasource control)
+	e.Canceled = True
+
+	'Accessing the values of the insert item through the column editors
+	Dim insertedItem As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
+	Dim lastName As String = TryCast(insertedItem.GetColumnEditor("LastName"), TreeListTextBoxColumnEditor).TextBoxControl.Text
+	Dim firstName As String = TryCast(insertedItem.GetColumnEditor("FirstName"), TreeListTextBoxColumnEditor).TextBoxControl.Text
+	Dim title As String = TryCast(insertedItem.GetColumnEditor("Title"), TreeListTextBoxColumnEditor).TextBoxControl.Text
+	Dim hireDate As System.Nullable(Of DateTime) = TryCast(insertedItem.GetColumnEditor("HireDate"), TreeListDateTimeColumnEditor).DatePickerControl.SelectedDate
+
+
+	'Inserting logic follows, this part depends on your own custom way of performing CRUD operations
+	SqlDataSource1.InsertParameters("LastName").DefaultValue = lastName
+	SqlDataSource1.InsertParameters("FirstName").DefaultValue = firstName
+	SqlDataSource1.InsertParameters("Title").DefaultValue = title
+	SqlDataSource1.InsertParameters("HireDate").DefaultValue = hireDate.ToString()
+	SqlDataSource1.Insert()
+
+	'Closing the insert form and rebinding the treelist control
+	RadTreeList2.InsertIndexes.Clear()
+	RadTreeList2.Rebind()
+End Sub
 ````
 
 

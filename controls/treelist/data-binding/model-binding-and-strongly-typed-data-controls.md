@@ -279,4 +279,4 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 ## ModelBinding Limitations
 
-We do not support model binding when the **ViewState** of the page is**disabled**. In order to use the model binding you need to set**Page.EnableViewState = “true”**
+We do not support model binding when the **ViewState** of the page is**disabled**. In order to use the model binding you need to set **Page.EnableViewState = “true”**

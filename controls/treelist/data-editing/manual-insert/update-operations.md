@@ -19,20 +19,20 @@ There are two ways to extract the values from the item. From the item itself (**
 
 
 ````C#
-	            item.ExtractValues(table);
+item.ExtractValues(table);
 ````
 ````VB
-	            item.ExtractValues(table)
+item.ExtractValues(table)
 ````
 
 
 
 
 ````C#
-	            RadTreeList1.ExtractValuesFromItem(table, item, true);
+RadTreeList1.ExtractValuesFromItem(table, item, true);
 ````
 ````VB
-	            RadTreeList1.ExtractValuesFromItem(table, item, True)
+RadTreeList1.ExtractValuesFromItem(table, item, True)
 ````
 
 
@@ -56,29 +56,29 @@ The update operation is nothing different compared to other databound controls l
 
 
 ````C#
-	            Hashtable table = new Hashtable();
-	            TreeListEditableItem item = e.Item as TreeListEditableItem;
-	            item.ExtractValues(table);
-	
-	            ConvertEmptyValuesToDBNull(table);
-	
-	            if (table["LastName"] != DBNull.Value && table["FirstName"] != DBNull.Value)
-	            {
-	                string commandText = "UPDATE [Employees] SET [LastName] = @LastName, [FirstName] = @FirstName, [TitleOfCourtesy] = @TitleOfCourtesy, [ReportsTo] = @ReportsTo, [Notes] = @Notes WHERE [EmployeeID] = @EmployeeID";
-	                ExecuteNonQuery(commandText, table);
-	            }
+Hashtable table = new Hashtable();
+TreeListEditableItem item = e.Item as TreeListEditableItem;
+item.ExtractValues(table);
+
+ConvertEmptyValuesToDBNull(table);
+
+if (table["LastName"] != DBNull.Value && table["FirstName"] != DBNull.Value)
+{
+	string commandText = "UPDATE [Employees] SET [LastName] = @LastName, [FirstName] = @FirstName, [TitleOfCourtesy] = @TitleOfCourtesy, [ReportsTo] = @ReportsTo, [Notes] = @Notes WHERE [EmployeeID] = @EmployeeID";
+	ExecuteNonQuery(commandText, table);
+}
 ````
 ````VB
-	            Dim table As New Hashtable()
-	            Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
-	            item.ExtractValues(table)
-	
-	            ConvertEmptyValuesToDBNull(table)
-	
-	            If Not table("LastName") Is DBNull.Value AndAlso Not table("FirstName") Is DBNull.Value Then
-	                Dim commandText As String = "UPDATE [Employees] SET [LastName] = @LastName, [FirstName] = @FirstName, [TitleOfCourtesy] = @TitleOfCourtesy, [ReportsTo] = @ReportsTo, [Notes] = @Notes WHERE [EmployeeID] = @EmployeeID"
-	                ExecuteNonQuery(commandText, table)
-	            End If
+Dim table As New Hashtable()
+Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
+item.ExtractValues(table)
+
+ConvertEmptyValuesToDBNull(table)
+
+If Not table("LastName") Is DBNull.Value AndAlso Not table("FirstName") Is DBNull.Value Then
+	Dim commandText As String = "UPDATE [Employees] SET [LastName] = @LastName, [FirstName] = @FirstName, [TitleOfCourtesy] = @TitleOfCourtesy, [ReportsTo] = @ReportsTo, [Notes] = @Notes WHERE [EmployeeID] = @EmployeeID"
+	ExecuteNonQuery(commandText, table)
+End If
 ````
 
 
@@ -89,16 +89,16 @@ Although the insert operation is generally the same as the update there is one p
 
 
 ````C#
-	            Hashtable table = new Hashtable();
-	            TreeListEditableItem item = e.Item as TreeListEditableItem;
-	            #region treelist-manual-operations_1
-	            item.ExtractValues(table);
+Hashtable table = new Hashtable();
+TreeListEditableItem item = e.Item as TreeListEditableItem;
+#region treelist-manual-operations_1
+item.ExtractValues(table);
 ````
 ````VB
-	            Dim table As New Hashtable()
-	            Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
-	            ' #region treelist-manual-operations_3
-	            item.ExtractValues(table)
+Dim table As New Hashtable()
+Dim item As TreeListEditableItem = TryCast(e.Item, TreeListEditableItem)
+' #region treelist-manual-operations_3
+item.ExtractValues(table)
 ````
 
 

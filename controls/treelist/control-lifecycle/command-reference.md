@@ -16,15 +16,15 @@ The ASP.NET page framework provides a technique called event bubbling that allow
 
 ## RadTreeList command names
 
-When an event bubbles from a child control, RadTreeList will fire**ItemCommand** event. A child control (such as a **Button**server control) raises a bubble event if you set any value in **CommandName** property.
+When an event bubbles from a child control, RadTreeList will fire **ItemCommand** event. A child control (such as a **Button** server control) raises a bubble event if you set any value in **CommandName** property.
 
 >note Merely the **MS**  **LinkButton, MS Button** and **MS ImageButton** controls have **CommandName** property and cantrigger the event bubbling mechanism of the treelist.
 >
 
 
-For example the command name is "Custom" , then RadTreeList will fire**ItemCommand** event and the event argument of the handler function (generally the "e"variable ) will have the same command name , i.e. "**Custom**" as a value for the**e.CommandName** property. Moreover, the **e.Item** argument willbe a reference to the **Item** which is the parent of the control raised the bubble event(i.e. the **Item** where the button resides).
+For example the command name is "Custom" , then RadTreeList will fire **ItemCommand** event and the event argument of the handler function (generally the "e"variable ) will have the same command name , i.e. "**Custom**" as a value for the **e.CommandName** property. Moreover, the **e.Item** argument willbe a reference to the **Item** which is the parent of the control raised the bubble event(i.e. the **Item** where the button resides).
 
-Some command names are predefined in RadTreeList and the control will respond to them automatically(like the value of **RadTreeList.SelectCommandName**constant or**RadTreeList.SortCommandName**). The integrated paging in RadTreeList is also based oncommands, with **CommandName** ="**Page**"(or **RadTreeList.PageCommandName**) and command various arguments for different pagingoperations like the string "Next","Prev" or "First".
+Some command names are predefined in RadTreeList and the control will respond to them automatically(like the value of **RadTreeList.SelectCommandName** constant or **RadTreeList.SortCommandName**). The integrated paging in RadTreeList is also based oncommands, with **CommandName** ="**Page**"(or **RadTreeList.PageCommandName**) and command various arguments for different pagingoperations like the string "Next","Prev" or "First".
 
 Here follows a list of the recognized command names in Telerik RadTreeList:
 
@@ -40,7 +40,7 @@ Here follows a list of the recognized command names in Telerik RadTreeList:
 | **PerformInsertCommandName** |Represents the PerformInsert command name. Fires **RadTreeList.InsertCommand** event.Creates a new entry in the datasource and populates it with the values provided in the insert form.|
 | **DeleteCommandName** |Represents the Delete command name. Fires **RadTreeList.Delete** event.Deletes the entry in the datasource corresponding to the data item upon which the command was fired.|
 | **SortCommandName** |Represents the Sort command name. Fires **RadTreeList.Sorting** event.Can be raised by link/push/image buttons residing in the RadTreeList body when its **AllowSorting** property is set to true. Their **CommandName** should be set to **'Sort'** and **CommandArgument** must match the name of the underlying source field to be sorted(for example ContactName for Customers Northwind table).|
-| **PageCommandName** |Represents the Page command name.Fires the **RadTreeList.PageIndexChanged** event. Can be raised by link/push/image buttons residing in the RadTreeList body when its **AllowPaging** property is set to true. Their **CommandName** should be set to **'Page'** and **CommandArgument** must match one of the values from the second table below.See also:[Paging]({%slug treelist/functionality/paging%}).|
+| **PageCommandName** |Represents the Page command name.Fires the **RadTreeList.PageIndexChanged** event. Can be raised by link/push/image buttons residing in the RadTreeList body when its **AllowPaging** property is set to true. Their **CommandName** should be set to **'Page'** and **CommandArgument** must match one of the values from the second table below.See also: [Paging]({%slug treelist/functionality/paging%}).|
 | **ChangePageSizeCommandName** |Represents the ChangePageSize command name. Fires **RadTreeList.PageSizeChanged** event. Can be raised by link/push/image buttonsresiding in the RadTreeList body when its **AllowPaging** property is set to true. Their **CommandName** should be set to **'ChangePageSize'** and **CommandArgument** must be the actual number representing the new page size thatwill be set.|
 | **SelectCommandName** |Represents the Select command name. Fires **RadTreeList.ItemCommand** event.Sets **Item.Selected** to **true** .|
 | **SelectAllCommandName** |Represents the SelectAll command name. Fires **RadTreeList.ItemCommand** event. Sets **Item.Selected** to **true** for all visible TreeListDataItem.|
