@@ -19,20 +19,20 @@ The **RadNotification** object provides a client-side API that lets you interact
 The **RadNotification** creates a client-side object with the ClientID of the control. You can obtain the reference to this object by using the following JavaScript code:
 
 ````JavaScript
-	    var radNotification1 = $find("<%= RadNotification1.ClientID %>");
+var radNotification1 = $find("<%= RadNotification1.ClientID %>");
 ````
 
 
 
-## Cancelling an action
+## Cancelling an Action
 
-Some client-side events occur immediately before **RadNotification**performs some action. You can use these events to cancel the impending action by using the cancel property of the eventArgs passed to the handler:
+Some client-side events occur immediately before **RadNotification** performs some action. You can use these events to cancel the impending action by using the cancel property of the eventArgs passed to the handler:
 
 ````JavaScript
-	        function OnClientShowing(sender, eventArgs)
-	        {
-	            eventArgs.set_cancel(true);
-	        }
+function OnClientShowing(sender, eventArgs)
+{
+    eventArgs.set_cancel(true);
+}
 ````
 
 

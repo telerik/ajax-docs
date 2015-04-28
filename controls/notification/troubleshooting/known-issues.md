@@ -14,7 +14,7 @@ position: 0
 
 This help article lists the most common issues one can face when using the **RadNotification** control and offers possible solutions for them.
 
-1. [ Using a ScriptControl (e.g. RadGrid) in the RadNotification with the RadScriptManager. ](#using-a-scriptcontrol-(e.g.-radgrid)-in-the-radnotification-with-the-radscriptmanager)
+1. [ Using a ScriptControl (e.g. RadGrid) in the RadNotification with the RadScriptManager. ](#using-a-scriptcontrol-eg-radgrid-in-the-radnotification-with-the-radscriptmanager)
 
 1. [ Notification Audio Is Not Played In Mobile Devices. ](#notification-audio-is-not-played-in-mobile-devices)
 

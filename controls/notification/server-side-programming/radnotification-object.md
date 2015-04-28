@@ -91,58 +91,10 @@ The value of these properties is a string specifying the **name** of the JavaScr
 
 | Name | Values |
 | ------ | ------ |
-| **NotificationAnimation** |
-
-* None
-
-* Resize
-
-* Fade
-
-* Slide
-
-* FlyIn|
-| **NotificationLoad** |
-
-* PageLoad
-
-* FirstShow
-
-* EveryShow
-
-* TimeInterval|
-| **NotificationPosition** |
-
-* TopLeft
-
-* TopCenter
-
-* TopRight
-
-* MiddleLeft
-
-* Center
-
-* MiddleRight
-
-* BottomLeft
-
-* BottomCenter
-
-* BottomRight|
-| **NotificationScrolling** |
-
-* Auto
-
-* None
-
-* X
-
-* Y
-
-* Both
-
-* Default|
+| **NotificationAnimation** | None, Resize, Fade, Slide, FlyIn|
+| **NotificationLoad** | PageLoad, FirstShow, EveryShow, TimeInterval|
+| **NotificationPosition** | TopLeft, TopCenter, TopRight, MiddleLeft, Center, MiddleRight, BottomLeft, BottomCenter, BottomRight|
+| **NotificationScrolling** | Auto, None, X, Y, Both, Default|
 
 # See Also
 

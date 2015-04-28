@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | RadNotification for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-side Events Overview | RadNotification for ASP.NET AJAX Documentation
 description: Overview
 slug: notification/client-side-programming/events/overview
 tags: overview
@@ -8,13 +8,12 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Client-side Events Overview
 
 
+ 
 
-## 
-
-**RadNotification**provides the following client-side events:
+**RadNotification** provides the following client-side events:
 
 * [OnClientShowing]({%slug notification/client-side-programming/events/onclientshowing%}) - fires just before RadNotification is shown. It can be canceled.
 
@@ -30,22 +29,22 @@ position: 0
 
 * [OnClientHidden]({%slug notification/client-side-programming/events/onclienthidden%}) - fires after RadNotification hides.
 
-If a **Notification Menu** is configured, it has its own client events as specified in the [Client-Side Events article of RadContextMenu](21D51CC0-CAA4-4E0C-94C9-0394AB29E9ED).
+If a **Notification Menu** is configured, it has its own client events as specified in the [Client-Side Events article of RadContextMenu]({%slug menu/client-side-programming/events/overview%}).
 
-To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding property.
+To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of the JavaScript function as the value of the the corresponding property.
 
-````ASPNET
-	    <telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
-	        Position="BottomRight" Width="250px" Height="100px"
-	        OnClientShowing="OnClientShowing" Text="Sample notification text">
-	    </telerik:RadNotification>
-	    
-	    <script type="text/javascript">
-	        function OnClientShowing(sender, eventArgs)
-	        {
-	            alert("OnClientShowing event fired by RadNotification with id: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+    Position="BottomRight" Width="250px" Height="100px"
+    OnClientShowing="OnClientShowing" Text="Sample notification text">
+</telerik:RadNotification>
+
+<script type="text/javascript">
+    function OnClientShowing(sender, eventArgs)
+    {
+        alert("OnClientShowing event fired by RadNotification with id: " + sender.get_id());
+    }
+</script>
 ````
 
 

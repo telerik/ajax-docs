@@ -5,7 +5,7 @@ description: Design Time
 slug: notification/design-time
 tags: design,time
 published: True
-position: 2
+position: 3
 ---
 
 # Design Time
@@ -13,7 +13,7 @@ position: 2
 
 
 The Smart Tag of **RadNotification** lets you easily change the skin for your control or quickly get help. You can display the Smart Tag by right clicking on a **RadNotification** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
+
 
 ![notification-smart-tag](images/notification-smart-tag.png)
 
@@ -36,7 +36,7 @@ The **Skin** drop-down displays a list of available [skins]({%slug notification/
 ## Edit the template
 
 At the bottom you can find the Edit Templates link that allows you to modify the ContentTemplate of the notification and add rich content as well. When you click that link you can type text or drag controls in the content template that opens in the RadNotification placeholder. When you are done you need to click the End Template Editing link in the Smart Tag.
->caption 
+
 
 ![radnotification-smart-tag-1](images/radnotification-smart-tag-1.png)
 

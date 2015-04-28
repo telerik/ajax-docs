@@ -5,7 +5,7 @@ description: Mobile Support
 slug: notification/mobile-support
 tags: mobile,support
 published: True
-position: 5
+position: 15
 ---
 
 # Mobile Support
@@ -21,25 +21,25 @@ Generally, responsive design means that the page and its content are able to ada
 
 ![notification-changed-font-size-comparison](images/notification-changed-font-size-comparison.png)
 
-**RadNotification** does not create elastic design by itself, but can fit in a page that follows this pattern.This means that RadNotification does not support dimensions set in percent, but supports **changing the font size**without breaking the control's appearance - if the new size is larger than the original,the elements in the control will simply increase their size as well to accommodate the text.This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
+**RadNotification** does not create elastic design by itself, but can fit in a page that follows this pattern.This means that RadNotification does not support dimensions set in percent, but supports **changing the font size** without breaking the control's appearance - if the new size is larger than the original,the elements in the control will simply increase their size as well to accommodate the text.This fluid layout is achieved by using `em` units for setting dimensions and paddings in the control, instead of `px`because `em` units are tied to the font size. This allows dimensions and sizes to scale with the font size.
 
 Elements that use images or images sprites, however, cannot be increased in size, so the commands will keep having their original dimensions and position(aligned to the top of the titlebar).
 
 **Example 1:** how to increase the font size of a RadNotification and the effect can be seen in comparison in Figure 1.
 
-````ASPNET
-			<style type="text/css">
-				div.RadNotification
-				{
-					font-size: 18px;
-				}
-			</style>
-			<telerik:RadNotification ID="RadNotification1" runat="server" ShowCloseButton="true" VisibleOnPageLoad="true"
-				Title="This is a very very very long title" AutoCloseDelay="100000000" Position="Center">
-				<ContentTemplate>
-					<p>Hello World</p>
-				</ContentTemplate>
-			</telerik:RadNotification>
+````ASP.NET
+<style type="text/css">
+	div.RadNotification
+	{
+		font-size: 18px;
+	}
+</style>
+<telerik:RadNotification ID="RadNotification1" runat="server" ShowCloseButton="true" VisibleOnPageLoad="true"
+	Title="This is a very very very long title" AutoCloseDelay="100000000" Position="Center">
+	<ContentTemplate>
+		<p>Hello World</p>
+	</ContentTemplate>
+</telerik:RadNotification>
 ````
 
 
@@ -55,11 +55,11 @@ You can see this feature in the [Size in percent](http://demos.telerik.com/aspne
 
 **Example 2:** create a full width notification bar at the top of the page:
 
-````ASPNET
-		<telerik:RadNotification ID="RadNotification1" runat="server" Width="100%" Height="100px" Position="TopCenter" Animation="Slide"
-			Title="Information box" Text="Resize the browser to see how I react. I will stay shown for 15 seconds"
-			VisibleOnPageLoad="true" AutoCloseDelay="15000">
-		</telerik:RadNotification>
+````ASP.NET
+<telerik:RadNotification ID="RadNotification1" runat="server" Width="100%" Height="100px" Position="TopCenter" Animation="Slide"
+	Title="Information box" Text="Resize the browser to see how I react. I will stay shown for 15 seconds"
+	VisibleOnPageLoad="true" AutoCloseDelay="15000">
+</telerik:RadNotification>
 ````
 
 

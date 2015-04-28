@@ -12,29 +12,28 @@ position: 1
 
 
 
-## 
 
 Aside from declaring an event handler in the server-side properties of the **RadNotification** you can also assign them in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
-````ASPNET
-	    function addEvents()
-	    {
-	        var radNotification1 = $find("<%= RadNotification1.ClientID %>");
-	        radNotification1.add_shown(clientShown1);
-	        radNotification1.add_shown(clientShown2);
-	    }
+````JavaScript
+function addEvents()
+{
+    var radNotification1 = $find("<%= RadNotification1.ClientID %>");
+    radNotification1.add_shown(clientShown1);
+    radNotification1.add_shown(clientShown2);
+}
 ````
 
 
 
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
-````ASPNET
-	    function removeEvents()
-	    {
-	        var radNotification1 = $find("<%= RadNotification1.ClientID %>");
-	        radNotification1.remove_shown(clientShown1);
-	    }
+````JavaScript
+function removeEvents()
+{
+    var radNotification1 = $find("<%= RadNotification1.ClientID %>");
+    radNotification1.remove_shown(clientShown1);
+}
 ````
 
 

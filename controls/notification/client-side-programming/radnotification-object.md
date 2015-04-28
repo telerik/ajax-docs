@@ -45,68 +45,20 @@ position: 1
 | **get_visibleTitlebar** |Gets a value indicating whether the RadNotification should have a visible titlebar.|
 | **get_width** |Gets the width of the notification.|
 | **get_zIndex** |Gets the z-index of the RadNotification.|
-| **set_animation** |Sets new animation value for the notification. The parameter must be of type Telerik.Web.UI.NotificationAnimation. The **NotificationAnimation** property is an enum and can take the following values, which names describe the effect when they are set:
-
-* None
-
-* Resize
-
-* Fade
-
-* Slide
-
-* FlyInFor example: **notification.set_animation(Telerik.Web.UI.NotificationAnimation.Slide);** |
+| **set_animation** |Sets new animation value for the notification. The parameter must be of type Telerik.Web.UI.NotificationAnimation. The **NotificationAnimation** property is an enum and can take the following values, which names describe the effect when they are set: None, Resize, Fade, Slide, FlyIn. For example: **notification.set_animation(Telerik.Web.UI.NotificationAnimation.Slide);** |
 | **set_animationDuration** |Sets animation duration value for the notification.|
 | **set_autoCloseDelay** |Sets delay in milliseconds for the notification to close automatically.|
-| **set_contentScrolling** |Sets a new overflow value for the notification content area. The **Scrolling** property is an enum (Telerik.Web.UI.NotificationScrolling) and can take the following values, which names describe the effect when they are set:
-
-* Default
-
-* Auto
-
-* None
-
-* X
-
-* Y
-
-* BothFor example: **notification.set_contentScrolling(Telerik.Web.UI.NotificationScrolling.None);** |
+| **set_contentScrolling** |Sets a new overflow value for the notification content area. The **Scrolling** property is an enum (Telerik.Web.UI.NotificationScrolling) and can take the following values, which names describe the effect when they are set: Default, Auto, None, X, Y, Both. For example: **notification.set_contentScrolling(Telerik.Web.UI.NotificationScrolling.None);** |
 | **set_enabled** |Sets a value indicating whether the notification is enabled.|
 | **set_height** |Sets new height to the notification.|
 | **set_keepOnMouseOver** |Sets a value indicating whether the notification should stay on the screen when hovered (autoclose is delayed until the mouse goes outside the popup).|
-| **set_loadContentOn** |Sets when the content should be loaded. The parameter must be of type Telerik.Web.UI.NotificationLoad. The **NotificationLoad** property is an enum and can take the following values, which names describe the effect when they are set:
-
-* PageLoad
-
-* FirstShow
-
-* EveryShow
-
-* TimeIntervalFor example: **notification.set_loadContentOn(Telerik.Web.UI.NotificationLoad.TimeInterval);** |
+| **set_loadContentOn** |Sets when the content should be loaded. The parameter must be of type Telerik.Web.UI.NotificationLoad. The **NotificationLoad** property is an enum and can take the following values, which names describe the effect when they are set: PageLoad, FirstShow, EveryShow, TimeInterval.For example: **notification.set_loadContentOn(Telerik.Web.UI.NotificationLoad.TimeInterval);** |
 | **set_offsetX** |Sets a new horizontal offset relative to the browser window.|
 | **set_offsetY** |Sets a new vertical offset relative to the browser window.|
 | **set_opacity** |Sets the value indicating the opacity of the RadNotification. The value should be between 0 and 100 where 100 is opaque.|
 | **set_overlay** |Sets a value indicating whether the notification will create an overlay element.|
 | **set_pinned** |Sets a value indicating whether the notification should be scrolled along with the content or not.|
-| **set_position** |Sets a new relative to the browser window position for the notification. The parameter must be of type Telerik.Web.UI.NotificationPosition. The **NotificationPosition** property is an enum and can take the following values, which names describe the effect when they are set:
-
-* TopLeft
-
-* TopCenter
-
-* TopRight
-
-* MiddleLeft
-
-* Center
-
-* MiddleRight
-
-* BottomLeft
-
-* BottomCenter
-
-* BottomRightFor example: **notification.set_position(Telerik.Web.UI.NotificationPosition.Center);** |
+| **set_position** |Sets a new relative to the browser window position for the notification. The parameter must be of type Telerik.Web.UI.NotificationPosition. The **NotificationPosition** property is an enum and can take the following values, which names describe the effect when they are set: TopLeft, TopCenter, TopRight, MiddleLeft, Center, MiddleRight, BottomLeft, BottomCenter, BottomRight. For example: **notification.set_position(Telerik.Web.UI.NotificationPosition.Center);** |
 | **set_showInterval** |Sets new show interval to the notification.|
 | **set_text** |Sets new text to the notification.|
 | **set_title** | Sets a new title to the notification.|

@@ -12,7 +12,7 @@ position: 2
 
 
 
-## 
+
 
 The **OnClientShowing** event occurs just before the notification is shown. This event is cancellable.
 
@@ -22,18 +22,18 @@ The event handler receives the following parameters:
 
 1. Event arguments object. Call its set_cancel(true) method to cancel the event.
 
-````ASPNET
-	    <telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
-	        Position="BottomRight" Width="250px" Height="100px"
-	        OnClientShowing="OnClientShowing" Text="Sample notification text">
-	    </telerik:RadNotification>
-	    
-	    <script type="text/javascript">
-	        function OnClientShowing(sender, eventArgs)
-	        {
-	            alert("OnClientShowing event fired by RadNotification with id: " + sender.get_id());
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadNotification runat="server" ID="RadNotification1" VisibleOnPageLoad="true"
+    Position="BottomRight" Width="250px" Height="100px"
+    OnClientShowing="OnClientShowing" Text="Sample notification text">
+</telerik:RadNotification>
+
+<script type="text/javascript">
+    function OnClientShowing(sender, eventArgs)
+    {
+        alert("OnClientShowing event fired by RadNotification with id: " + sender.get_id());
+    }
+</script>
 ````
 
 

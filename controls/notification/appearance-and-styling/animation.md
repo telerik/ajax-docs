@@ -12,7 +12,7 @@ position: 4
 
 
 
-## 
+
 
 How the notification becomes visible on the screen can be controlled with the **Animation** property. Possible values are:
 
@@ -28,7 +28,7 @@ How the notification becomes visible on the screen can be controlled with the **
 
 You can define how long the animation will take by setting the **AnimationDuration** property. Its value is set in milliseconds. This property takes effect only if the **Animation** property is set to a value, different than **None** (which is the default). The default value of the **AnimationDuration** property itself is 500 milliseconds.
 
-For a live demonstration showing notifications with all possible combinations of values see[Configurator](http://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx).
+For a live demonstration showing notifications with all possible combinations of values see the [Notification Configurator Live Demo](http://demos.telerik.com/aspnet-ajax/notification/examples/configurator/defaultcs.aspx).
 
 # See Also
 

@@ -11,8 +11,7 @@ position: 2
 # Control Appearance
 
 
-
-## 
+ 
 
 There are a number of ways you can customize the look & feel of your notifications:
 

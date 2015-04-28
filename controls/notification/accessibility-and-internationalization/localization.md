@@ -12,6 +12,6 @@ position: 2
 
 
 
-## 
+
 
 You can localize **RadNotification** by setting its **TitleMenuToolTip** and **CloseButtonToolTip** properties to the desired values. This can be done either by using Global Resources in the App_GlobalResources folder of the site, or by evaluating the desired value and setting it directly to the property.
