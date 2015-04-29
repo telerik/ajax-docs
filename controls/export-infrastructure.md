@@ -30,7 +30,7 @@ The core structure is very simple and easy to use. Due to the fact that its buil
 >
 
 
-__Cell__
+#### **Cell**
 
 
 | Name | Description |
@@ -46,7 +46,7 @@ __Cell__
 |Text|The value of the cell converted to text|
 |Format|Get/set the numeric format of the cell value|
 
-__Column__
+#### **Column**
 
 
 | Name | Description |
@@ -57,7 +57,7 @@ __Column__
 |Cells|Returns a collection containing the cells belonging to this Column|
 |Index|The index of the current Column. Note that the column indices start from 1, not from 0.|
 
-__Row__
+#### **Row**
 
 
 | Name | Description |
@@ -68,7 +68,7 @@ __Row__
 |Cells|Returns a collection containing the cells belonging to this Row|
 |Index|The index of the current Row. Note that the row indices start from 1, not from 0.|
 
-__Table__
+#### **Table**
 
 
 | Name | Description |
@@ -80,14 +80,14 @@ __Table__
 |Columns|Returns a collection containing the Columns belonging to this Table|
 |Style|Container for the Table styles|
 
-__ExportStructure__
+#### **ExportStructure**
 
 
 | Name | Description |
 | ------ | ------ |
 |Tables|Returns a collection containing the Rows belonging to this ExportStructure|
 
-__ExportStyle__
+#### **ExportStyle**
 
 
 | Name | Description |
@@ -117,18 +117,18 @@ Using the Export Infrastructure - Example 1
 
 
 ````C#
-	        Telerik.Web.UI.ExportInfrastructure.ExportStructure structure = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
-	        Telerik.Web.UI.ExportInfrastructure.Table table = new Telerik.Web.UI.ExportInfrastructure.Table("Sheet1");
-	        table.Rows[1].Height = 20;
-	        table.Cells[1, 1].Value = 1.2;
-	        structure.Tables.Add(table);
+Telerik.Web.UI.ExportInfrastructure.ExportStructure structure = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
+Telerik.Web.UI.ExportInfrastructure.Table table = new Telerik.Web.UI.ExportInfrastructure.Table("Sheet1");
+table.Rows[1].Height = 20;
+table.Cells[1, 1].Value = 1.2;
+structure.Tables.Add(table);
 ````
 ````VB.NET
-	        Dim [structure] As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
-	        Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Sheet1")
-	        table.Rows(1).Height = 20
-	        table.Cells(1, 1).Value = 1.2
-	        [structure].Tables.Add(table)
+Dim [structure] As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
+Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Sheet1")
+table.Rows(1).Height = 20
+table.Cells(1, 1).Value = 1.2
+[structure].Tables.Add(table)
 ````
 
 
@@ -137,72 +137,72 @@ Using the Export Infrastructure - Example 2
 
 
 ````C#
-	        Telerik.Web.UI.ExportInfrastructure.ExportStructure structure2 = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
-	        Telerik.Web.UI.ExportInfrastructure.Table table2 = new Telerik.Web.UI.ExportInfrastructure.Table("S1");
-	        table2.Cells["A5"].Value = "Wine";
-	        Telerik.Web.UI.ExportInfrastructure.Cell b2Cell = table2.Cells["B2"];
-	        b2Cell.Value = "White";
-	        b2Cell.Style.BackColor = System.Drawing.Color.Blue;
-	        structure2.Tables.Add(table2);
+Telerik.Web.UI.ExportInfrastructure.ExportStructure structure2 = new Telerik.Web.UI.ExportInfrastructure.ExportStructure();
+Telerik.Web.UI.ExportInfrastructure.Table table2 = new Telerik.Web.UI.ExportInfrastructure.Table("S1");
+table2.Cells["A5"].Value = "Wine";
+Telerik.Web.UI.ExportInfrastructure.Cell b2Cell = table2.Cells["B2"];
+b2Cell.Value = "White";
+b2Cell.Style.BackColor = System.Drawing.Color.Blue;
+structure2.Tables.Add(table2);
 ````
 ````VB.NET
-	        Dim structure2 As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
-	        Dim table2 As New Telerik.Web.UI.ExportInfrastructure.Table("S1")
-	        table2.Cells("A5").Value = "Wine"
-	        Dim b2Cell As Telerik.Web.UI.ExportInfrastructure.Cell = table2.Cells("B2")
-	        b2Cell.Value = "White"
-	        b2Cell.Style.BackColor = System.Drawing.Color.Blue
-	        structure2.Tables.Add(table2)
+Dim structure2 As New Telerik.Web.UI.ExportInfrastructure.ExportStructure()
+Dim table2 As New Telerik.Web.UI.ExportInfrastructure.Table("S1")
+table2.Cells("A5").Value = "Wine"
+Dim b2Cell As Telerik.Web.UI.ExportInfrastructure.Cell = table2.Cells("B2")
+b2Cell.Value = "White"
+b2Cell.Style.BackColor = System.Drawing.Color.Blue
+structure2.Tables.Add(table2)
 ````
 
 
-__ShiftRowsDown__ method gives you the opportunity to insert new rows at the chosen position.The first argument of the method is the start row index, and the second argument is the number of the new rows which would be inserted.A possible use case is when the user wants to insert a custom header above the exported RadGrid,the customer could use this method to shift the rows down, up to the desired point.Although it is a part of the Export Infrastructure API, it is mostly suitable when exporting from RadGrid.
+**ShiftRowsDown** method gives you the opportunity to insert new rows at the chosen position.The first argument of the method is the start row index, and the second argument is the number of the new rows which would be inserted.A possible use case is when the user wants to insert a custom header above the exported RadGrid,the customer could use this method to shift the rows down, up to the desired point.Although it is a part of the Export Infrastructure API, it is mostly suitable when exporting from RadGrid.
 
 
 
 ````C#
-	        Telerik.Web.UI.ExportInfrastructure.Table tbl = e.ExportStructure.Tables[0];
-	        tbl.ShiftRowsDown(2, 5);
+Telerik.Web.UI.ExportInfrastructure.Table tbl = e.ExportStructure.Tables[0];
+tbl.ShiftRowsDown(2, 5);
 ````
 ````VB.NET
-	        Dim tbl As Telerik.Web.UI.ExportInfrastructure.Table = e.ExportStructure.Tables(0)
-	        tbl.ShiftRowsDown(2, 5)
+Dim tbl As Telerik.Web.UI.ExportInfrastructure.Table = e.ExportStructure.Tables(0)
+tbl.ShiftRowsDown(2, 5)
 ````
 
 
 ## Rendering
 
-As mentioned in the beginning of this topic, at this point there are three renderers available. Note that XLSX and DOXS renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. You could use them to generate the appropriate file from a given structure. Simply create an instance of the XlsBiffRenderer, XlsxRenderer orDocxRenderer class, provide a reference to the ExportStructure object and then invoke the Render method. When executed, it will return a byte array that could beeither saved in a file or sent to the client via the Response object.
+As mentioned in the beginning of this topic, at this point there are three renderers available. Note that XLSX and DOXS renderers are supported since Q3 2014 version of UI for ASP.NET AJAX. You could use them to generate the appropriate file from a given structure. Simply create an instance of the XlsBiffRenderer, XlsxRenderer orDocxRenderer class, provide a reference to the ExportStructure object and then invoke the Render method. When executed, it will return a byte array that could be either saved in a file or sent to the client via the Response object.
 
 Using the different renderers
 
 
 
 ````C#
-	        //Renders XLS file
-	        XlsBiffRenderer renderer = new XlsBiffRenderer(structure);
-	        byte[] renderedBytes = renderer.Render();
-	
-	        //Renders XLSX file
-	        XlsxRenderer renderer = new XlsxRenderer(structure);
-	        byte[] renderedBytes = renderer.Render();
-	
-	        //Renders DOCX file
-	        DocxRenderer renderer = new DocxRenderer(structure);
-	        byte[] renderedBytes = renderer.Render();
+//Renders XLS file
+XlsBiffRenderer renderer = new XlsBiffRenderer(structure);
+byte[] renderedBytes = renderer.Render();
+
+//Renders XLSX file
+XlsxRenderer renderer = new XlsxRenderer(structure);
+byte[] renderedBytes = renderer.Render();
+
+//Renders DOCX file
+DocxRenderer renderer = new DocxRenderer(structure);
+byte[] renderedBytes = renderer.Render();
 ````
 ````VB.NET
-	        'Renders XLS file
-	        Dim renderer As New XlsBiffRenderer([structure])
-	        Dim renderedBytes As Byte() = renderer.Render()
-	
-	        'Renders XLSX file
-	        Dim renderer As New XlsxRenderer([structure])
-	        Dim renderedBytes As Byte() = renderer.Render()
-	
-	        'Renders DOCX file
-	        Dim renderer As New DocxRenderer([structure])
-	        Dim renderedBytes As Byte() = renderer.Render()
+'Renders XLS file
+Dim renderer As New XlsBiffRenderer([structure])
+Dim renderedBytes As Byte() = renderer.Render()
+
+'Renders XLSX file
+Dim renderer As New XlsxRenderer([structure])
+Dim renderedBytes As Byte() = renderer.Render()
+
+'Renders DOCX file
+Dim renderer As New DocxRenderer([structure])
+Dim renderedBytes As Byte() = renderer.Render()
 ````
 
 
@@ -210,7 +210,7 @@ Using the different renderers
 
 From Q3 2012 we provide Image support when using the Export Infrastructure. You just need instantiate the ExportStructure class,and then insert the image in a cell of your choice inside the table.
 
-In the __InsertImage__ method you should pass the cell or range of cells where the image will be located andthe image path. Both relative and absolute paths are supported. It is also possible to create a new Image object directly and thenadd it to the Images collection of the Table object. You can specify a third boolean argument, indicating whether the image should be auto-sized to fit the cell(s) which hold it.
+In the **InsertImage** method you should pass the cell or range of cells where the image will be located and the image path. Both relative and absolute paths are supported. It is also possible to create a new Image object directly and then add it to the Images collection of the Table object. You can specify a third boolean argument, indicating whether the image should be auto-sized to fit the cell(s) which hold it.
 
 The method has the following overloads:
 
@@ -229,16 +229,16 @@ The method has the following overloads:
 
 
 ````C#
-	        ExportStructure exportStructure = new ExportStructure();
-	        Telerik.Web.UI.ExportInfrastructure.Table table = new Telerik.Web.UI.ExportInfrastructure.Table("Table1");
-	        table.InsertImage(new Range("A1", "B2"), "Image.png");
-	        exportStructure.Tables.Add(table);
+ExportStructure exportStructure = new ExportStructure();
+Telerik.Web.UI.ExportInfrastructure.Table table = new Telerik.Web.UI.ExportInfrastructure.Table("Table1");
+table.InsertImage(new Range("A1", "B2"), "Image.png");
+exportStructure.Tables.Add(table);
 ````
 ````VB.NET
-	        Dim exportStructure As New ExportStructure()
-	        Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Table1")
-	        table.InsertImage(New Range("A1", "B2"), "Image.png")
-	        exportStructure.Tables.Add(table)
+Dim exportStructure As New ExportStructure()
+Dim table As New Telerik.Web.UI.ExportInfrastructure.Table("Table1")
+table.InsertImage(New Range("A1", "B2"), "Image.png")
+exportStructure.Tables.Add(table)
 ````
 
 
@@ -248,42 +248,41 @@ The method has the following overloads:
 
 ## Text Wrapping
 
-Since __Q3 2014 SP1__ you are able to wrap a text (carried onto the next line) when using the__ExportInfrastructure__. For this purpose you you should set __TextWrap__ to __true__ to the desired cell, plus you have to insert the newline character __('\n')__ wherever you want the text to be wrapped. The example below demonstrates how to wrap a text.
+Since **Q3 2014 SP1** you are able to wrap a text (carried onto the next line) when using the **ExportInfrastructure**. For this purpose you you should set **TextWrap** to **true** to the desired cell, plus you have to insert the newline character **('\n')** wherever you want the text to be wrapped. The example below demonstrates how to wrap a text.
 
 
 
 ````C#
-	        ExportStructure structure = new ExportStructure();
-	        Table tbl = new Table();
-	        structure.Tables.Add(tbl);
-	
-	        var cell1 = tbl.Cells[1, 1];
-	        cell1.Value = "First line text.\nSecond line text.";
-	        cell1.TextWrap = true;
-	
-	
-	        XlsBiffRenderer renderer = new XlsBiffRenderer(structure);
-	
-	        byte[] output = renderer.Render();
+ExportStructure structure = new ExportStructure();
+Table tbl = new Table();
+structure.Tables.Add(tbl);
+
+var cell1 = tbl.Cells[1, 1];
+cell1.Value = "First line text.\nSecond line text.";
+cell1.TextWrap = true;
+
+
+XlsBiffRenderer renderer = new XlsBiffRenderer(structure);
+
+byte[] output = renderer.Render();
 ````
 ````VB.NET
-	        Dim [structure] As New ExportStructure()
-	        Dim tbl As New Table()
-	        [structure].Tables.Add(tbl)
-	
-	        Dim cell1 = tbl.Cells(1, 1)
-	        cell1.Value = "First line text.\nSecond line text."
-	        cell1.TextWrap = True
-	
-	
-	        Dim renderer As New XlsBiffRenderer([structure])
-	
-	        Dim output As Byte() = renderer.Render()
+Dim [structure] As New ExportStructure()
+Dim tbl As New Table()
+[structure].Tables.Add(tbl)
+
+Dim cell1 = tbl.Cells(1, 1)
+cell1.Value = "First line text.\nSecond line text."
+cell1.TextWrap = True
+
+
+Dim renderer As New XlsBiffRenderer([structure])
+
+Dim output As Byte() = renderer.Render()
 ````
 
 
 ## Limitations
-
 
 
 * No hierarchy support

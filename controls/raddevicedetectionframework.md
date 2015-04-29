@@ -12,9 +12,9 @@ position: 14
 
 
 
-Nowadays supporting mobile devices in the Web Development is a must. However finding the right screen size can be laborious. Here in help comes Telerik's **Device Detection Framework**. Added in **Q1 2014** this .NET library allow developers to determine the Screen Resolution of huge number of mobile devices in an elegant way. Telerik ships **Device Detection Framework** as a separate assembly -**Telerik.Web.Device.Detection.dll**.
+Nowadays supporting mobile devices in the Web Development is a must. However finding the right screen size can be laborious. Here in help comes Telerik **Device Detection Framework**. Added in **Q1 2014** this .NET library allow developers to determine the Screen Resolution of huge number of mobile devices in an elegant way. Telerik ships **Device Detection Framework** as a separate assembly - **Telerik.Web.Device.Detection.dll**.
 
->note When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode** .
+>note When **Telerik.Web.Device.Detection.dll** assembly is referenced in a project, Telerik controls will use it automatically. For example those controls which need to resolve **RenderMode="Auto"** will use it to determine, whether to activate **Mobile Render Mode**.
 >
 
 
@@ -25,10 +25,10 @@ In order to use **Detection Framework** you need to add reference to **Telerik.W
 
 
 ````C#
-	    using Telerik.Web.Device.Detection;
+using Telerik.Web.Device.Detection;
 ````
 ````VBNET
-	    Imports Telerik.Web.Device.Detection
+Imports Telerik.Web.Device.Detection
 ````
 
 
@@ -50,33 +50,33 @@ In order to use **Detection Framework** you need to add reference to **Telerik.W
 
 
 ````C#
-	    protected override void OnInit(EventArgs e)
-	    {
-	        DeviceScreenDimensions screenDimensions = Detector.GetScreenDimensions(Request.UserAgent);
-	        HidePlaceHolders(screenDimensions);
-	    }
-	
-	    private void HidePlaceHolders(DeviceScreenDimensions screenDimensions)
-	    {
-	        if (screenDimensions.Height < 650 && screenDimensions.Width < 500)
-	        {
-	            //Hide PlaceHolder1 for mobile browsers
-	            PlaceHolder1.Visible = false;
-	        }
-	    }
+protected override void OnInit(EventArgs e)
+{
+    DeviceScreenDimensions screenDimensions = Detector.GetScreenDimensions(Request.UserAgent);
+    HidePlaceHolders(screenDimensions);
+}
+
+private void HidePlaceHolders(DeviceScreenDimensions screenDimensions)
+{
+    if (screenDimensions.Height < 650 && screenDimensions.Width < 500)
+    {
+        //Hide PlaceHolder1 for mobile browsers
+        PlaceHolder1.Visible = false;
+    }
+}
 ````
 ````VBNET
-	    protected override void OnInit(EventArgs e)
-	    Dim screenDimensions As DeviceScreenDimensions = Detector.GetScreenDimensions(Request.UserAgent)
-	        HidePlaceHolders(screenDimensions)
-	    End Sub
-	
-	    Private Sub HidePlaceHolders(screenDimensions As DeviceScreenDimensions)
-	        If screenDimensions.Height < 650 AndAlso screenDimensions.Width < 500 Then
-	            'Hide PlaceHolder1 for mobile browsers
-	            PlaceHolder1.Visible = False
-	        End If
-	    End Sub
+protected override void OnInit(EventArgs e)
+Dim screenDimensions As DeviceScreenDimensions = Detector.GetScreenDimensions(Request.UserAgent)
+    HidePlaceHolders(screenDimensions)
+End Sub
+
+Private Sub HidePlaceHolders(screenDimensions As DeviceScreenDimensions)
+    If screenDimensions.Height < 650 AndAlso screenDimensions.Width < 500 Then
+        'Hide PlaceHolder1 for mobile browsers
+        PlaceHolder1.Visible = False
+    End If
+End Sub
 ````
 
 
@@ -84,27 +84,25 @@ In order to use **Detection Framework** you need to add reference to **Telerik.W
 
 
 
-
-
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        DeviceScreenSize screenSize = Detector.GetScreenSize(Request.UserAgent);
-	        if (screenSize == DeviceScreenSize.ExtraLarge)
-	        {
-	            //Display PlaceHolder1 if the mobile device has ExtraLarge screen size.
-	            PlaceHolder1.Visible = true;
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    DeviceScreenSize screenSize = Detector.GetScreenSize(Request.UserAgent);
+    if (screenSize == DeviceScreenSize.ExtraLarge)
+    {
+        //Display PlaceHolder1 if the mobile device has ExtraLarge screen size.
+        PlaceHolder1.Visible = true;
+    }
+}
 ````
 ````VBNET
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent)
-	        If screenSize = DeviceScreenSize.ExtraLarge Then
-	            'Display PlaceHolder1 if the mobile device has ExtraLarge screen size.
-	            PlaceHolder1.Visible = True
-	        End If
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent)
+    If screenSize = DeviceScreenSize.ExtraLarge Then
+        'Display PlaceHolder1 if the mobile device has ExtraLarge screen size.
+        PlaceHolder1.Visible = True
+    End If
+End Sub
 ````
 
 
@@ -113,33 +111,33 @@ In order to use **Detection Framework** you need to add reference to **Telerik.W
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        ScreenRanges customScreenRanges = new ScreenRanges();
-	        customScreenRanges.SmallScreenSizeRange = new ScreenRange(0, 100);
-	        customScreenRanges.MediumScreenSizeRange = new ScreenRange(101, 200);
-	        customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(201, 300);
-	        customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(301, 400);
-	        DeviceScreenSize screenSize = Detector.GetScreenSize(Request.UserAgent,  customScreenRanges);
-	
-	        if (screenSize == DeviceScreenSize.Large)
-	        {
-	            //Do some action if the device's screen size matches the custom defined ranges
-	        }
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    ScreenRanges customScreenRanges = new ScreenRanges();
+    customScreenRanges.SmallScreenSizeRange = new ScreenRange(0, 100);
+    customScreenRanges.MediumScreenSizeRange = new ScreenRange(101, 200);
+    customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(201, 300);
+    customScreenRanges.ExtraLargeScreenSizeRange = new ScreenRange(301, 400);
+    DeviceScreenSize screenSize = Detector.GetScreenSize(Request.UserAgent,  customScreenRanges);
+
+    if (screenSize == DeviceScreenSize.Large)
+    {
+        //Do some action if the device's screen size matches the custom defined ranges
+    }
+}
 ````
 ````VBNET
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        Dim customScreenRanges As New ScreenRanges()
-	        customScreenRanges.SmallScreenSizeRange = New ScreenRange(0, 100)
-	        customScreenRanges.MediumScreenSizeRange = New ScreenRange(101, 200)
-	        customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(201, 300)
-	        customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(301, 400)
-	        Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent, customScreenRanges)
-	
-	        If screenSize = DeviceScreenSize.Large Then
-	            'Do some action if the device's screen size matches the custom defined ranges
-	        End If
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Dim customScreenRanges As New ScreenRanges()
+    customScreenRanges.SmallScreenSizeRange = New ScreenRange(0, 100)
+    customScreenRanges.MediumScreenSizeRange = New ScreenRange(101, 200)
+    customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(201, 300)
+    customScreenRanges.ExtraLargeScreenSizeRange = New ScreenRange(301, 400)
+    Dim screenSize As DeviceScreenSize = Detector.GetScreenSize(Request.UserAgent, customScreenRanges)
+
+    If screenSize = DeviceScreenSize.Large Then
+        'Do some action if the device's screen size matches the custom defined ranges
+    End If
+End Sub
 ````
 

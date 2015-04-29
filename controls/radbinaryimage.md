@@ -18,7 +18,6 @@ position: 6
 
 The most important properties of the **RadBinaryImage** control are presented in the table from the next paragraph:
 
-
 >caption  
 
 | Property | Description |
@@ -35,14 +34,10 @@ The most important properties of the **RadBinaryImage** control are presented in
 | **ImageAlign** |Specifies the image alignment inside its container.|
 | **ImageStorageLocation** |Gets or sets a value indicating where the binary image will be stored.|
 | **ResizeMode** |Specifies whether the image should be sized automatically if width and height of the image are set in pixels. Possible values are:
-
-*  **Crop** (the image will be trimmed)
-
-*  **Fill** (the image will be sized to fill both given dimensions)
-
-*  **Fit** (the image will be sized to fit the given dimensions)
-
-*  **None** (default)|
+| -  **Crop** | (the image will be trimmed)|
+| -  **Fill** | (the image will be sized to fill both given dimensions)|
+| - **Fit** | (the image will be sized to fit the given dimensions)|
+| -  **None** | (default)|
 | **SavedImageName** |Sets image’s filename which will appear inside SaveAs browser dialog if image is saved|
 | **PersistDataIfNotVisible** |If set to true image data persistence is forced if the control is invisible.|
 | **VisibleWithoutSource** |Specifies whether the image will be rendered if a valid source is not present. The default value is **True** .|
@@ -127,7 +122,6 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
 ````
 
 
-
 >note You need to register the http handler of the **RadBinaryImage** control either using its **Smart**  **Tag** or manually in the **web.config** file to ensure that it will be served as expected when the page is rendered. Namely:
 >
 
@@ -150,7 +144,6 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
     </handlers>
 </system.webServer>
 ````
-
 
 
 ## WAI-ARIA Support

@@ -23,24 +23,24 @@ FIPS stands for Federal Information Processing Standard. This standard	imposes s
 
 There are at least two ways to enforce the FIPS compliance:
 
-* Via the security policies:Open Administrative Tools and then go to Local Security Policyapplet (or press WinKey+R and enter 'secpol.msc'). Expand LocalPolicies, Security Options and scroll down to"System cryptography: Use FIPS compliant algorithms for encryption,hashing and signing".
+* Via the security policies:Open Administrative Tools and then go to Local Security Policy applet (or press WinKey+R and enter 'secpol.msc'). Expand LocalPolicies, Security Options and scroll down to"System cryptography: Use FIPS compliant algorithms for encryption,hashing and signing".
 
-* By editing the corresponding registry key directly:Open the Registry Editor and then expand HKEY_LOCAL_MACHINE,System, CurrentControlSet, Control, Lsa then select theFIPSAlgorithmPolicy key. There, you will find a DWORD valuewhich should be set to 0 (0x00000000) for disabled and 1 for enabled.
+* By editing the corresponding registry key directly:Open the Registry Editor and then expand HKEY_LOCAL_MACHINE,System, CurrentControlSet, Control, Lsa then select theFIPSAlgorithmPolicy key. There, you will find a DWORD value which should be set to 0 (0x00000000) for disabled and 1 for enabled.
 
 Note that in NET 3.5 environment, the default ViewState validation	algorithm (SHA1) is not FIPS compliant. In this case you may need to	change the default algorithms to 3DES as shown below:
 
-````XML
-					<machineKey validationKey="AutoGenerate,IsolateApps" 
-					     decryptionKey="AutoGenerate,IsolateApps" 
-					     validation="3DES" 
-					     decryption="3DES" />
+````ASPNET
+<machineKey validationKey="AutoGenerate,IsolateApps" 
+     decryptionKey="AutoGenerate,IsolateApps" 
+     validation="3DES" 
+     decryption="3DES" />
 ````
 
 
 
 This is not needed for .NET 4.0 where the default validation is set to HMACSHA256.
 
->note Setting __<compilation debug="true" />__ inweb.config will cause FIPS exception. You can find a possible workaround here:
+>note Setting **`<compilation debug="true" />`** inweb.config will cause FIPS exception. You can find a possible workaround here:
 >[Visual Studio 2008 cannot debug with FIPS enabled](http://forums.asp.net/t/1265047.aspx)
 >
 

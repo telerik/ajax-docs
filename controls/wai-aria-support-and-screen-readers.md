@@ -11,7 +11,6 @@ position: 12
 # WAI-ARIA Support and Screen Readers
 
 
-
 [WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)](http://www.w3.org/WAI/PF/aria-practices/) is a World Wide Web Consortium specification. It explains how to increase the accessibility of the web pages	to help people with disabilities navigate the Internet.
 
 WAI-ARIA represents a series of HTML attributes that screen readers can use.Attributes like `"role", "area-expanded", "area-haspopup"` and others provide	information to the readers and help people with disabilities interact with dynamic content on the page.
@@ -20,45 +19,45 @@ Some controls from the Telerik UI for ASP.NET AJAX suite have support for WAI-AR
 
 The following controls offer WAI-ARIA support:
 
-* [Ajax](bb812736-0cee-4b80-b9db-de247a800935)
+* [Ajax]({%slug ajax/overview%})
 
-* [Barcode](fa6e68e4-200a-41f8-8885-6a49c27a067a)
+* [Barcode](%slug barcode/overview%})
 
-* [Calendar (DatePicker, TimePicker and MonthYearPicker)](2b62e120-e964-4735-8c91-1d2a1e16a932)
+* [Calendar (DatePicker, TimePicker and MonthYearPicker)]({%slug calendar/overview%})
 
-* [ComboBox](d98832e6-ce1f-4b49-8333-6bae098f10fc)
+* [ComboBox]({%slug combobox/overview%})
 
-* [DataPager](6feeb3a0-fe99-418c-83c3-149015d011c9)
+* [DataPager]({%slug datapager/overview%})
 
-* [DropDownList]()
+* [DropDownList]({%slug dropdownlist/overview%})
 
-* [Editor](a329b275-1f61-471e-97f4-f18429528aef)
+* [Editor]({%slug editor/overview%})
 
-* [Filter](7f3cbf11-b438-4788-9ef1-ec5c5237808c)
+* [Filter]({%slug filter/overview%})
 
-* [Grid](c81df0bc-6b7b-4cbb-9e46-19b519befe4e)
+* [Grid]({%slug grid/overview%})
 
-* [Input](ef11ca77-806b-49f8-9121-577ffb3d2a76)
+* [Input]({%slug input/overview%})
 
-* [Notification](13c0d134-6655-45d6-8622-0071de67a95f)
+* [Notification]({%slug notification/overview%})
 
-* [PivotGrid](9e167baf-9215-4b83-8591-36a41cd8a30b)
+* [PivotGrid]({%slug pivotgrid/overview%})
 
-* [Tooltip](59c013ae-25a3-4fa0-bd60-c5aefd7f3e2a)
+* [Tooltip]({%slug tooltip/overview%})
 
-* [TreeList](81ad2dee-cd40-4be8-9ff5-1dc20b6062a4)
+* [TreeList]({%slug treelist/overview%})
 
-* [TreeView](841e4647-0f56-44f1-a6eb-b3647ad6d433)
+* [TreeView]({%slug treeview/overview%})
 
-* [Window](d84d0f18-b139-416f-8689-815718f765e4)
+* [Window]({%slug window/overview%})
 
 ## 
 
-To enable WAI-ARIA support, you need to set the __EnableAriaSupport__property of the control to __true__.
+To enable WAI-ARIA support, you need to set the **EnableAriaSupport** property of the control to **true**.
 
-Note that the WAI-ARIA attributes are not part of the HTML specifications and a pagewhose markup contains them would not validate and the browser would enter quirks mode.To avoid this, the Telerik controls render the WAI-ARIA attributes with JavaScript.Thus, you need to examine the source code of the rendered page in the developer toolbarof the browser in order to see them because they will not be present in the markup sent from the server.
+Note that the WAI-ARIA attributes are not part of the HTML specifications and a page whose markup contains them would not validate and the browser would enter quirks mode.To avoid this, the Telerik controls render the WAI-ARIA attributes with JavaScript.Thus, you need to examine the source code of the rendered page in the developer toolbar of the browser in order to see them because they will not be present in the markup sent from the server.
 
-A screen reader commonly used with is __JAWS__ ([JAWS official site](http://www.freedomscientific.com/products/fs/jaws-product-page.asp	)) and the Telerik controls are tested with it.
+A screen reader commonly used with is **JAWS** ([JAWS official site](http://www.freedomscientific.com/products/fs/jaws-product-page.asp	)) and the Telerik controls are tested with it.
 
 >note WAI-ARIA support for the *Window* and *Tooltip* controls can be expected to work with *JAWS* when the controls' *Lightweight[RenderMode]({%slug controls/render-modes%})* is used. With it, they render with semantic HTML elements.
 >Both the *Window* and *Tooltip* controls render their popup elements with JavaScript. Thus, it is up to the screen reader software to	detect this change in the DOM and read them out.

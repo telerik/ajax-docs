@@ -54,7 +54,7 @@ Enabling RadCompression could not be easier. It is a simple matter of adding a H
 
 
 
-By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you can enable compression for regular postbacks as well setting the *enablePostbackCompression * property to true (its default value is false, see web.config section below).You also have the option to disable the compression for particular pages if necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
+By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you can enable compression for regular postbacks as well setting the *enablePostbackCompression* property to true (its default value is false, see web.config section below).You also have the option to disable the compression for particular pages if necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
 
 
 
@@ -74,7 +74,10 @@ End Class
 ````
 
 
-Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done (note the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
+Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done 
+>note 
+>the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
+
 ````ASPNET
 <configSections>
 ....................
@@ -201,9 +204,9 @@ Here are some of the known issues you can face when using RadCompression.
 
 **1.** *Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
 
-*Solution:* This problem is caused by a breaking change in .NET 4.0 described[here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+*Solution:* This problem is caused by a breaking change in .NET 4.0 described [here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
-**2.***Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
+**2.** *Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
 
 *Solution:* Try removing RadCompression from the HttpModules section of the web.config. We have found out that on some machines RadCompression halts the WCF responses, effectively breaking the pages that consume the services.
 
