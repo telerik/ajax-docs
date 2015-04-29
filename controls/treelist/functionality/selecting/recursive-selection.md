@@ -14,7 +14,7 @@ position: 2
 
 ## 
 
-As part of its server-side selection **RadTreeList** gives you the ability toselect items recursively. To enable the RadTreeList recursive selection, set the**AllowRecursiveSelection** property to true.
+As part of its server-side selection **RadTreeList** gives you the ability toselect items recursively. To enable the RadTreeList recursive selection, set the **AllowRecursiveSelection** property to true.
 
 >note When AllowRecursiveSelection is set to true, this implicitly enables multi-item selection for the RadTreeList.
 >

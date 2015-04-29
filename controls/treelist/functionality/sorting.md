@@ -12,7 +12,7 @@ position: 1
 
 
 
-As expected from a sophisticated databound control, **RadTreeList** offerssorting capabilities that allows the users to conveniently order the items in the desired direction. Toenable this functionality you just have to set **AllowSorting** property to**true** and the control will handle the sorting operations automatically.
+As expected from a sophisticated databound control, **RadTreeList** offerssorting capabilities that allows the users to conveniently order the items in the desired direction. Toenable this functionality you just have to set **AllowSorting** property to **true** and the control will handle the sorting operations automatically.
 
 There are three sort modes:
 
@@ -22,7 +22,7 @@ There are three sort modes:
 
 * **None** - the items are ordered in the way they came from the datasource ("Natural" sort).
 
-**RadTreeList** also supports sorting by multiple data fields - this is theso-called **Multi-column sorting**. To enable this mode, set the**AllowMultiColumnSorting** to **true**.
+**RadTreeList** also supports sorting by multiple data fields - this is theso-called **Multi-column sorting**. To enable this mode, set the **AllowMultiColumnSorting** to **true**.
 
 ## Sorting in RadTreeList
 

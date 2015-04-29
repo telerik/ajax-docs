@@ -29,31 +29,31 @@ Different approaches for setting styles in the code-behind could be used dependi
 
 
 ````C#
-	    bool isExport = false;
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        isExport = true;
-	        RadTreeList1.ExportToPdf();
-	    }
-	
-	    protected void RadTreeList1_ItemCreated(object sender, TreeListItemCreatedEventArgs e)
-	    {
-	        if (e.Item is TreeListDataItem && isExport)
-	            e.Item.Style["background-color"] = "#888888";
-	    }
+bool isExport = false;
+protected void Button1_Click(object sender, EventArgs e)
+{
+	isExport = true;
+	RadTreeList1.ExportToPdf();
+}
+
+protected void RadTreeList1_ItemCreated(object sender, TreeListItemCreatedEventArgs e)
+{
+	if (e.Item is TreeListDataItem && isExport)
+		e.Item.Style["background-color"] = "#888888";
+}
 ````
 ````VB.NET
-	    Private isExport As Boolean = False
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
-	        isExport = True
-	        RadTreeList1.ExportToPdf()
-	    End Sub
-	
-	    Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As TreeListItemCreatedEventArgs)
-	        If TypeOf e.Item Is TreeListDataItem AndAlso isExport Then
-	            e.Item.Style("background-color") = "#888888"
-	        End If
-	    End Sub
+Private isExport As Boolean = False
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
+	isExport = True
+	RadTreeList1.ExportToPdf()
+End Sub
+
+Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As TreeListItemCreatedEventArgs)
+	If TypeOf e.Item Is TreeListDataItem AndAlso isExport Then
+		e.Item.Style("background-color") = "#888888"
+	End If
+End Sub
 ````
 
 
@@ -62,20 +62,20 @@ When *Rebind* will be invoked, you can apply the styles directly:
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        foreach (TreeListDataItem item in RadTreeList1.Items)
-	            item.Style["background-color"] = "#888888";
-	        RadTreeList1.ExportToPdf();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+	foreach (TreeListDataItem item in RadTreeList1.Items)
+		item.Style["background-color"] = "#888888";
+	RadTreeList1.ExportToPdf();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
-	        For Each item As TreeListDataItem In RadTreeList1.Items
-	            item.Style("background-color") = "#888888"
-	        Next
-	        RadTreeList1.ExportToPdf()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
+	For Each item As TreeListDataItem In RadTreeList1.Items
+		item.Style("background-color") = "#888888"
+	Next
+	RadTreeList1.ExportToPdf()
+End Sub
 ````
 
 
@@ -94,14 +94,14 @@ The treelist offers the following built-in style descriptors for export to PDF:
 The first three inherit the [TableItemStyle](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.tableitemstyle.aspx) and style the corresponding treelist rows. The *ExpandCollapseCellStyle* styles only the Expand/Collapse cells in the control. You should set either the expand/collapse text, or the expand/collapse images (not both).The path for the expand/collapse images should be relative, otherwise they will not be found and exported on the production server.
 
 ````ASPNET
-	                <ExportSettings>
-	                    <Pdf>
-	                        <ItemStyle BackColor="Green" ForeColor="DarkGreen" />
-	                        <AlternatingItemStyle BackColor="WhiteSmoke" ForeColor="Black" />
-	                        <HeaderStyle Font-Size="Large" />
-	                        <ExpandCollapseCellStyle ExpandText="(+)" CollapseText="(-)" />
-	                    </Pdf>
-	                </ExportSettings> 
+<ExportSettings>
+	<Pdf>
+		<ItemStyle BackColor="Green" ForeColor="DarkGreen" />
+		<AlternatingItemStyle BackColor="WhiteSmoke" ForeColor="Black" />
+		<HeaderStyle Font-Size="Large" />
+		<ExpandCollapseCellStyle ExpandText="(+)" CollapseText="(-)" />
+	</Pdf>
+</ExportSettings> 
 ````
 
 
@@ -111,23 +111,23 @@ The first three inherit the [TableItemStyle](http://msdn.microsoft.com/en-us/lib
 Another option to export styled treelist is to specify the styles declaratively to the control:
 
 ````ASPNET
-	        <telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
-	            AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId"
-	            AutoGenerateColumns="false">
-	            <HeaderStyle ForeColor="BlueViolet" />
-	            <AlternatingItemStyle Font-Size="Small" />
-	            <Columns>
-	                <telerik:TreeListBoundColumn DataField="id" UniqueName="id" HeaderText="ID" ReadOnly="true" />
-	                <telerik:TreeListBoundColumn DataField="Text" UniqueName="Text" HeaderText="Name">
-	                    <ItemStyle Font-Italic="true" />
-	                    <HeaderStyle BackColor="BlanchedAlmond" />
-	                </telerik:TreeListBoundColumn>
-	                <telerik:TreeListBoundColumn DataField="parentid" UniqueName="parentid" HeaderText="Parent ID"
-	                    ReadOnly="true" />
-	            </Columns>
-	        </telerik:RadTreeList>        
-	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-	            SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
+<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+	AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId"
+	AutoGenerateColumns="false">
+	<HeaderStyle ForeColor="BlueViolet" />
+	<AlternatingItemStyle Font-Size="Small" />
+	<Columns>
+		<telerik:TreeListBoundColumn DataField="id" UniqueName="id" HeaderText="ID" ReadOnly="true" />
+		<telerik:TreeListBoundColumn DataField="Text" UniqueName="Text" HeaderText="Name">
+			<ItemStyle Font-Italic="true" />
+			<HeaderStyle BackColor="BlanchedAlmond" />
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="parentid" UniqueName="parentid" HeaderText="Parent ID"
+			ReadOnly="true" />
+	</Columns>
+</telerik:RadTreeList>        
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+	SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
 ````
 
 

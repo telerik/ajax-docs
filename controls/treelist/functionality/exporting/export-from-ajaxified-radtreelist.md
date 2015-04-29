@@ -17,42 +17,42 @@ Generally speaking, the exporting feature of the control works with regular post
 
 
 ````ASPNET
-	        <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="onRequestStart">
-	            <asp:Button Text="Export to PDF" ID="btnExport" runat="server" OnClick="Button1_Click" />
-	            <telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
-	                AutoGenerateColumns="true" AllowPaging="true" PageSize="5" DataKeyNames="id"
-	                ParentDataKeyNames="parentId">
-	            </telerik:RadTreeList>
-	        </telerik:RadAjaxPanel>
-	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-	            SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
+<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="onRequestStart">
+	<asp:Button Text="Export to PDF" ID="btnExport" runat="server" OnClick="Button1_Click" />
+	<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+		AutoGenerateColumns="true" AllowPaging="true" PageSize="5" DataKeyNames="id"
+		ParentDataKeyNames="parentId">
+	</telerik:RadTreeList>
+</telerik:RadAjaxPanel>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+	SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
 ````
 ````JavaScript
-	                function onRequestStart(sender, args) {
-	                    if (args.get_eventTarget().indexOf("btnExport") >= 0) {
-	                        args.set_enableAjax(false);
-	                    }
-	                }
+function onRequestStart(sender, args) {
+	if (args.get_eventTarget().indexOf("btnExport") >= 0) {
+		args.set_enableAjax(false);
+	}
+}
 ````
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadTreeList1.ExportToPdf();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+	RadTreeList1.ExportToPdf();
+}
 ````
 ````VB
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
-	        RadTreeList1.ExportToPdf()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
+	RadTreeList1.ExportToPdf()
+End Sub
 ````
 
 
 If you export from a *Button* that is nested in a **MS AJAX UpdatePanel**, you should set the button as a *PostBackTrigger*:
 
 ````ASPNET
-	        <Triggers>         
-	            <asp:PostBackTrigger ControlID="btnExport" />
-	        </Triggers>
+<Triggers>         
+	<asp:PostBackTrigger ControlID="btnExport" />
+</Triggers>
 ````
 
 
@@ -62,11 +62,13 @@ It is also possible to register the control as a trigger for full postback in th
 
 
 ````C#
-	    ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport);          
+ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport);          
 ````
 ````VB
-	    ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
+ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
 ````
 
 
-# See Also[Exclude Controls from Ajaxifying](25CA11AE-56BC-4E4A-98A5-C920FC13E3ED)
+# See Also 
+
+[Exclude Controls from Ajaxifying]({%slug ajax/how-to/exclude-controls-from-ajaxifying%})

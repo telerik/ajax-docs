@@ -23,40 +23,40 @@ As the detail item is part of each treelist item, it is visible when its parent 
 The following sample illustrates one possible usage of the detail item feature of RadTreeList:
 
 ````ASPNET
-	    <telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
-	        AutoGenerateColumns="false" AllowPaging="true" PageSize="5" DataKeyNames="EmployeeID"
-	        ParentDataKeyNames="ReportsTo">
-	        <DetailTemplate>
-	            <table>
-	                <tr>
-	                    <td>
-	                        <img src='<%# Page.ResolveUrl("~/TreeList/Examples/Appearance/DetailItemTemplate/Img/") + Eval("EmployeeID") + ".jpg" %>'
-	                            alt='<%# Eval("FirstName") + " " + Eval("LastName") %>' />
-	                    </td>
-	                    <td>
-	                        <asp:Label ID="lblNotes" runat="server" Text='<%# Eval("Notes") %>'></asp:Label>
-	                    </td>
-	                </tr>
-	            </table>
-	        </DetailTemplate>
-	        <Columns>
-	            <telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="LastName" HeaderText="Last Name" UniqueName="LastName">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="FirstName" HeaderText="First Name" UniqueName="FirstName">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo">
-	            </telerik:TreeListBoundColumn>
-	        </Columns>
-	    </telerik:RadTreeList>
-	    <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        ProviderName="System.Data.SqlClient" runat="server" SelectCommand="SELECT EmployeeID, LastName, FirstName, Title, ReportsTo, Notes FROM Employees">
-	    </asp:SqlDataSource>
+<telerik:RadTreeList runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
+	AutoGenerateColumns="false" AllowPaging="true" PageSize="5" DataKeyNames="EmployeeID"
+	ParentDataKeyNames="ReportsTo">
+	<DetailTemplate>
+		<table>
+			<tr>
+				<td>
+					<img src='<%# Page.ResolveUrl("~/TreeList/Examples/Appearance/DetailItemTemplate/Img/") + Eval("EmployeeID") + ".jpg" %>'
+						alt='<%# Eval("FirstName") + " " + Eval("LastName") %>' />
+				</td>
+				<td>
+					<asp:Label ID="lblNotes" runat="server" Text='<%# Eval("Notes") %>'></asp:Label>
+				</td>
+			</tr>
+		</table>
+	</DetailTemplate>
+	<Columns>
+		<telerik:TreeListBoundColumn DataField="EmployeeID" HeaderText="EmployeeID" UniqueName="EmployeeID">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="LastName" HeaderText="Last Name" UniqueName="LastName">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="FirstName" HeaderText="First Name" UniqueName="FirstName">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="ReportsTo" HeaderText="ReportsTo" UniqueName="ReportsTo">
+		</telerik:TreeListBoundColumn>
+	</Columns>
+</telerik:RadTreeList>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	ProviderName="System.Data.SqlClient" runat="server" SelectCommand="SELECT EmployeeID, LastName, FirstName, Title, ReportsTo, Notes FROM Employees">
+</asp:SqlDataSource>
 ````
 
 
 
-For a live example, check	[this](http://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx) online demo.
+For a live example, check [this](http://demos.telerik.com/aspnet-ajax/treelist/examples/appearance/detailitemtemplate/defaultcs.aspx) online demo.

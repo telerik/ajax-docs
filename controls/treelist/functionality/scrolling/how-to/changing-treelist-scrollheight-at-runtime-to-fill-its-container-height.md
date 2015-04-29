@@ -27,30 +27,30 @@ The following steps describe how to achieve this:
 The following example illustrates this technique:
 
 ````JavaScript
-	   <script type="text/javascript">
-	       function TreeListCreated(sender, args) {
-	           var scrollArea = $get(sender.get_element().id + '_rtlData');
-	           var parent = $get("treelistContainer")
-	           var header = $get(sender.get_element().id + '_rtlHeader')
-	           scrollArea.style.height = parent.clientHeight - header.clientHeight + "px";
-	       }
-	    </script>
+<script type="text/javascript">
+   function TreeListCreated(sender, args) {
+	   var scrollArea = $get(sender.get_element().id + '_rtlData');
+	   var parent = $get("treelistContainer")
+	   var header = $get(sender.get_element().id + '_rtlHeader')
+	   scrollArea.style.height = parent.clientHeight - header.clientHeight + "px";
+   }
+</script>
 ````
 
 
 
 ````ASPNET
-	      <div style="height: 500px; width: 800px" id="treelistContainer">
-	        <telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
-	            AutoGenerateColumns="true" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
-	            <ClientSettings>
-	                <Scrolling AllowScroll="true" UseStaticHeaders="true" ScrollHeight="300px" />
-	                <ClientEvents OnTreeListCreated="TreeListCreated" />
-	            </ClientSettings>
-	        </telerik:RadTreeList>
-	    </div>
-	    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT EmployeeID, FirstName, LastName, ReportsTo FROM [Employees]" />
+  <div style="height: 500px; width: 800px" id="treelistContainer">
+	<telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
+		AutoGenerateColumns="true" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
+		<ClientSettings>
+			<Scrolling AllowScroll="true" UseStaticHeaders="true" ScrollHeight="300px" />
+			<ClientEvents OnTreeListCreated="TreeListCreated" />
+		</ClientSettings>
+	</telerik:RadTreeList>
+</div>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	SelectCommand="SELECT EmployeeID, FirstName, LastName, ReportsTo FROM [Employees]" />
 ````
 
 

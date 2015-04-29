@@ -12,7 +12,8 @@ position: 0
 
 
 
-Often, when constructing a Web page that contains a treelist, there aredesign limitations regarding the size of the treelist. In such cases, youmay need to enable client-side treelist scrolling so that the treelist can fit it in the allowed space. You can enable scrolling by setting the**ClientSettings.Scrolling.AllowScroll** property to **True** (By default its value is False.)![Scrolling enabled](images/treelist_scrolling1.png)
+Often, when constructing a Web page that contains a treelist, there aredesign limitations regarding the size of the treelist. In such cases, youmay need to enable client-side treelist scrolling so that the treelist can fit it in the allowed space. You can enable scrolling by setting the **ClientSettings.Scrolling.AllowScroll** property to **True** (By default its value is False.)
+![Scrolling enabled](images/treelist_scrolling1.png)
 
 >note When scrolling is enabled, the treelist columns should declare HeaderStyle.Width.
 >
@@ -41,11 +42,11 @@ When **UseStaticHeaders** is **False**, the header scrolls along with the data r
 You can set the scrolling properties as below:
 
 ````ASPNET
-	  <telerik:RadTreeList ID="RadTreeList1" runat="server">
-	        <ClientSettings>
-	            <Scrolling AllowScroll="true" UseStaticHeaders="true" SaveScrollPosition="true" ScrollHeight="350px" />
-	        </ClientSettings>
-	    </telerik:RadTreeList>
+<telerik:RadTreeList ID="RadTreeList1" runat="server">
+	<ClientSettings>
+		<Scrolling AllowScroll="true" UseStaticHeaders="true" SaveScrollPosition="true" ScrollHeight="350px" />
+	</ClientSettings>
+</telerik:RadTreeList>
 ````
 
 

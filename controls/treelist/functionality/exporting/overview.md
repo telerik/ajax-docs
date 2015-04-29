@@ -34,7 +34,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 **OpenInNewWindow** - by default, the exported file will be handled by the program associated with theappropriate file type. If you prefer to give the user the option to choose whether to save, open (inline) or cancel, youcan enable this property.
 
->note Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like[NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
+>note Even if you set *OpenInNewWindow="false"* , that does not guarantee that the file will be opened inside the browser window.The way the exported file will be displayed inline depends on the *OS* / *browser* settings.The end-user could manage the file extensions with programs like [NirSoft's FileTypesMan](http://www.nirsoft.net/utils/file_types_manager.html). For browsers, other than *Internet Explorer* , you should use the built-in settings.
 >
 
 
@@ -47,12 +47,12 @@ In addition to the export format's specific properties, the **ExportSettings** g
 
 
 ````ASPNET
-	                <ExportSettings
-	                    ExportMode="DefaultContent" 
-	                    IgnorePaging="true" 
-	                    OpenInNewWindow="true"
-	                    FileName="RadTreeListExport1">
-	                </ExportSettings>  
+<ExportSettings
+	ExportMode="DefaultContent" 
+	IgnorePaging="true" 
+	OpenInNewWindow="true"
+	FileName="RadTreeListExport1">
+</ExportSettings>  
 ````
 
 
@@ -67,36 +67,34 @@ The exporting feature works only with regular postbacks. This means that the asy
 
 ## Exporting a large amount of data
 
-We strongly recommend not to export large amounts of data since there is a chance to encounter an exception (*Timeout*or *OutOfMemory*) if more than one user tries to export the same data simultaneously. **RadTreeList** is not suitable for such scenarios and therefore we suggest that you limit the number of columns and rows.
+We strongly recommend not to export large amounts of data since there is a chance to encounter an exception (*Timeout* or *OutOfMemory*) if more than one user tries to export the same data simultaneously. **RadTreeList** is not suitable for such scenarios and therefore we suggest that you limit the number of columns and rows.
 
 ## Export in SharePoint webpart
 
-There is a special flag ([_spFormOnSubmitCalled](http://www.bewise.fr/article/ptc/57/WSS-V3-Use-ASP-NET-AJAX-Framework-with-WSS-30.aspx)) in *SharePoint* that prevents the form to be submitted twice. The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality, this flag won't be cleared because the response is redirected and therefore all furtherpostbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
+There is a special flag (**_spFormOnSubmitCalled**) in *SharePoint* that prevents the form to be submitted twice. The flag is set when the form is submitted and then cleared when the response is received. When using the exporting functionality, this flag won't be cleared because the response is redirected and therefore all furtherpostbacks will be blocked. [Controls not functional after Export to Excel or Export to PDF of Telerik in Sharepoint Application page](http://www.faisalmb.com/blog/post/2010/01/28/Controls-not-functional-after-Export-to-Excel-or-Export-to-PDF-of-Telerik-in-Sharepoint-Application-page.aspx)
 
 ## Export in web farm
 
-If you receive "Invalid ViewState" or similar exception in web farm scenario, you can try to copy the *machinekey *from your*web.config* to the *machine.config *of the web server.
+If you receive "Invalid ViewState" or similar exception in web farm scenario, you can try to copy the *machinekey* from your*web.config* to the *machine.config* of the web server.
 
 ## Export over SSL
 
 You might receive the following error message when using the export feature over *SSL* and *Internet Explorer*:
 
 
->caption  
-
-| " *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later." |
-| ------ |
+>note *Internet Explorer* cannot download ' *file'* from ' *server'* . *Internet Explorer* was not able to open this Internet site. The requested site is either unavailable or cannot be found. Please try again later.
+>
 
 In order to prevent this error add the following lines just before the exporting:
 
 
 
 ````C#
-	    RadTreeList1.Page.Response.ClearHeaders();
-	    RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
+RadTreeList1.Page.Response.ClearHeaders();
+RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 ````
 ````VB
-	    RadTreeList1.Page.Response.ClearHeaders()
-	    RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
+RadTreeList1.Page.Response.ClearHeaders()
+RadTreeList1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
 

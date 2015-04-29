@@ -32,9 +32,9 @@ position: 0
 |UserPassword|Used to set a password and enable password protection for the exported file|
 
 ````ASPNET
-	                <ExportSettings>
-	                    <Pdf PageTitle="My Page" PaperSize="A4" RotatePaper="true"  />
-	                </ExportSettings> 
+<ExportSettings>
+	<Pdf PageTitle="My Page" PaperSize="A4" RotatePaper="true"  />
+</ExportSettings> 
 ````
 
 
@@ -50,9 +50,9 @@ The reason for having separate **OnPdfExporting** event is that by the time the 
 The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
 ````ASPNET
-	                <ExportSettings>
-	                    <Pdf DefaultFontFamily="Arial Unicode MS" />
-	                </ExportSettings>  
+<ExportSettings>
+	<Pdf DefaultFontFamily="Arial Unicode MS" />
+</ExportSettings>  
 ````
 
 
@@ -62,10 +62,10 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 
 
 ````C#
-	    item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
+item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
 ````
 ````VB.NET
-	    item("OriginalName").Style("font-family") = "Arial Unicode MS"
+item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
 
 
@@ -80,20 +80,20 @@ There are a few rules that should be followed when exporting *HTML* tables to *P
 * Width in **pixels** (or another *absolute* units) should be set to the table
 
 ````XML
-	 <table width="300px">
-	  <colgroup>
-	    <col />
-	    <col />
-	  </colgroup>
-	  <tr>
-	    <td>
-	      Cell1
-	    </td>
-	    <td>
-	      Cell2
-	    </td>
-	  </tr>
-	</table>
+ <table width="300px">
+  <colgroup>
+	<col />
+	<col />
+  </colgroup>
+  <tr>
+	<td>
+	  Cell1
+	</td>
+	<td>
+	  Cell2
+	</td>
+  </tr>
+</table>
 ````
 
 
@@ -147,11 +147,11 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 *PDF* engine is trying to resolve *empty anchor**URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
 
 ````ASPNET
-	 <a href="#">text</a>
-	<%--ERROR--%>
-	
-	<a href="http://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
-	<%--VALID--%>
+<a href="#">text</a>
+<%--ERROR--%>
+
+<a href="http://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
+<%--VALID--%>
 ````
 
 

@@ -21,33 +21,31 @@ The following example shows how to handle the **ItemDataBound** event inorder to
 
 
 ````C#
-	    protected void RadTreeList1_ItemDataBound(object sender, TreeListItemDataBoundEventArgs e)
-	    {
-	        if (e.Item is TreeListDataItem)
-	        {
-	            TreeListDataItem item = e.Item as TreeListDataItem;
-	            int locationId = (int)DataBinder.Eval(item.DataItem, "LocationID");
-	            if (locationId < 8)
-	            {
-	                item.Font.Italic = true; //Row formatting            
-	                item["LocationName"].Font.Bold = true; //Cell formatting        
-	            }
-	        }
-	    }			
+protected void RadTreeList1_ItemDataBound(object sender, TreeListItemDataBoundEventArgs e)
+{
+	if (e.Item is TreeListDataItem)
+	{
+		TreeListDataItem item = e.Item as TreeListDataItem;
+		int locationId = (int)DataBinder.Eval(item.DataItem, "LocationID");
+		if (locationId < 8)
+		{
+			item.Font.Italic = true; //Row formatting            
+			item["LocationName"].Font.Bold = true; //Cell formatting        
+		}
+	}
+}			
 ````
 ````VB.NET
-	
-	    Protected Sub RadTreeList1_ItemDataBound(ByVal sender As Object, ByVal e As TreeListItemDataBoundEventArgs) Handles RadTreeList1.ItemDataBound
-	        If TypeOf e.Item Is TreeListDataItem Then
-	            Dim item As TreeListDataItem = TryCast(e.Item, TreeListDataItem)
-	            Dim locationId As Integer = CInt(DataBinder.Eval(item.DataItem, "LocationID"))
-	            If locationId < 8 Then
-	                item.Font.Italic = True  'Row formatting         
-	                item("LocationName").Font.Bold = True 'Cell formatting     
-	            End If
-	        End If
-	    End Sub
-	
+Protected Sub RadTreeList1_ItemDataBound(ByVal sender As Object, ByVal e As TreeListItemDataBoundEventArgs) Handles RadTreeList1.ItemDataBound
+	If TypeOf e.Item Is TreeListDataItem Then
+		Dim item As TreeListDataItem = TryCast(e.Item, TreeListDataItem)
+		Dim locationId As Integer = CInt(DataBinder.Eval(item.DataItem, "LocationID"))
+		If locationId < 8 Then
+			item.Font.Italic = True  'Row formatting         
+			item("LocationName").Font.Bold = True 'Cell formatting     
+		End If
+	End If
+End Sub
 ````
 
 

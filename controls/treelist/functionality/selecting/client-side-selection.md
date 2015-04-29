@@ -16,44 +16,44 @@ position: 0
 
 Telerik **RadTreeList** has built-in mechanism for items selection. You canselect items either on the client or on the server as per your requirements.
 
-To enable the RadTreeList client-side selection you need to set the**ClientSettings.Selecting.AllowItemSelection** to true. This will allow you toselect an item on mouse click. As a result the **OnItemClick**,**OnItemSelecting** and **OnItemSelected** client-side eventsof the RadTreeList will be fired so you can perform further actions and handle the item selection in a custom manner.
+To enable the RadTreeList client-side selection you need to set the **ClientSettings.Selecting.AllowItemSelection** to true. This will allow you toselect an item on mouse click. As a result the **OnItemClick**,**OnItemSelecting** and **OnItemSelected** client-side eventsof the RadTreeList will be fired so you can perform further actions and handle the item selection in a custom manner.
 
 You can also use the below settings to enable additional modes of the client-side selection:
 
-* **ClientSettings.Selecting.AllowToggleSelection** - When set to**true** (the default value is false) enables you to deselect an item byclicking on one that is already selected.
+* **ClientSettings.Selecting.AllowToggleSelection** - When set to **true** (the default value is false) enables you to deselect an item byclicking on one that is already selected.
 
-* **ClientSettings.Selecting.UseSelectColumnOnly** - When set to**true** (the default value is false) prevents users from selecting items onmouse click and forces them to use the **TreeListSelectColumn** for that purpose.
+* **ClientSettings.Selecting.UseSelectColumnOnly** - When set to **true** (the default value is false) prevents users from selecting items onmouse click and forces them to use the **TreeListSelectColumn** for that purpose.
 
-With RadTreeList you might want to provide the ability for multi-item selection. This is done bysetting its **AllowMultiItemSelection** property to true (its default value is false).And to select a few items at a time, one can use the **[Ctrl]** and**[Shift]** keys as in Windows Explorer. Or, in case the AllowToggleSelection propertyis true, just click on the desired items to select them.
+With RadTreeList you might want to provide the ability for multi-item selection. This is done bysetting its **AllowMultiItemSelection** property to true (its default value is false).And to select a few items at a time, one can use the **[Ctrl]** and **[Shift]** keys as in Windows Explorer. Or, in case the AllowToggleSelection propertyis true, just click on the desired items to select them.
 
 The below sample illustrates a simple usage of the above properties:
 
 ````ASPNET
-	    <telerik:RadTreeList ID="RadTreeList1" runat="server" AllowPaging="True" DataKeyNames="EmployeeID"
-	        DataSourceID="SqlDataSource1" ParentDataKeyNames="ReportsTo" AllowMultiItemSelection="True"
-	        AutoGenerateColumns="false">
-	        <Columns>
-	            <telerik:TreeListSelectColumn UniqueName="SelectColumn">
-	            </telerik:TreeListSelectColumn>
-	            <telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="TitleOfCourtesy" HeaderText="TitleOfCourtesy"
-	                UniqueName="TitleOfCourtesy">
-	            </telerik:TreeListBoundColumn>
-	            <telerik:TreeListBoundColumn DataField="City" HeaderText="City" UniqueName="City">
-	            </telerik:TreeListBoundColumn>
-	        </Columns>
-	        <ClientSettings>
-	            <Selecting AllowItemSelection="true" AllowToggleSelection="true" />
-	        </ClientSettings>
-	    </telerik:RadTreeList>
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT [EmployeeID], [LastName], [FirstName], [Title], [TitleOfCourtesy], [City], [ReportsTo] FROM [Employees]">
-	    </asp:SqlDataSource>
+<telerik:RadTreeList ID="RadTreeList1" runat="server" AllowPaging="True" DataKeyNames="EmployeeID"
+	DataSourceID="SqlDataSource1" ParentDataKeyNames="ReportsTo" AllowMultiItemSelection="True"
+	AutoGenerateColumns="false">
+	<Columns>
+		<telerik:TreeListSelectColumn UniqueName="SelectColumn">
+		</telerik:TreeListSelectColumn>
+		<telerik:TreeListBoundColumn DataField="LastName" HeaderText="LastName" UniqueName="LastName">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="FirstName" HeaderText="FirstName" UniqueName="FirstName">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="Title" HeaderText="Title" UniqueName="Title">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="TitleOfCourtesy" HeaderText="TitleOfCourtesy"
+			UniqueName="TitleOfCourtesy">
+		</telerik:TreeListBoundColumn>
+		<telerik:TreeListBoundColumn DataField="City" HeaderText="City" UniqueName="City">
+		</telerik:TreeListBoundColumn>
+	</Columns>
+	<ClientSettings>
+		<Selecting AllowItemSelection="true" AllowToggleSelection="true" />
+	</ClientSettings>
+</telerik:RadTreeList>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+	SelectCommand="SELECT [EmployeeID], [LastName], [FirstName], [Title], [TitleOfCourtesy], [City], [ReportsTo] FROM [Employees]">
+</asp:SqlDataSource>
 ````
 
 
@@ -62,4 +62,4 @@ The below sample illustrates a simple usage of the above properties:
 >
 
 
-For a live demo illustrating the client-side items selection functionality, follow[this link](http://demos.telerik.com/aspnet-ajax/treelist/examples/selecting/clientsideselection/defaultcs.aspx).
+For a live demo illustrating the client-side items selection functionality, follow [this link](http://demos.telerik.com/aspnet-ajax/treelist/examples/selecting/clientsideselection/defaultcs.aspx).
