@@ -12,27 +12,23 @@ position: 0
 
 
 
-## 
-
-The **RadDatePicker**, **RadDateTimePicker**, and
+The **RadDatePicker**, **RadDateTimePicker** and
 **RadTimePicker** controls are composite objects, containing an
-embedded **RadDateInput** control where the user can type values
-directly, a **CalendarPopupButton** and/or
-**TimePopupButton** that displays or hides the popup control or
-controls, and a **RadCalendar** and/or
+embedded **RadDateInput** control (where the user can type values
+directly), a **CalendarPopupButton** and/or
+**TimePopupButton** (that displays or hides the popup control or
+controls) and a **RadCalendar** and/or
 **RadTimeView** control. All of these embedded controls can be
 customized, just as you can customize a standalone
-**RadDateInput**, or **RadCalendar** control.
+**RadDateInput** or **RadCalendar** control.
 
 To customize the embedded controls, simply locate the property for the
 embedded control in the **Behavior** section of the properties
 pane for the **RadDatePicker**,
-**RadDateTimePicker**, or **RadTimePicker** control,
+**RadDateTimePicker** or **RadTimePicker** control,
 expand it, and set its properties accordingly. The following table lists the
 properties for accessing the embedded controls:
 
-
->caption  
 
 | Embedded control | Parent control | Property to access embedded control |
 | ------ | ------ | ------ |
@@ -51,31 +47,27 @@ control – you have complete control over the skins and styles of the
 embedded control:
 
 ````ASPNET
-	     
-	
-	<telerik:RadDatePicker
-	     ID="RadDatePicker1"
-	     runat="server">
-	     <DateInput Width="100%"></DateInput>
-	     <Calendar
-	         CellAlign="Center"
-	         CellVAlign="Middle"
-	         DayNameFormat="FirstLetter"
-	         FirstDayOfWeek="Default"
-	         MonthLayout="Layout_7columns_x_6rows"
-	         Orientation="RenderInRows"
-	         TitleAlign="Center"
-	         UseColumnHeadersAsSelectors="False"
-	         ShowRowHeaders="False">
-	    </Calendar>
-	    <DatePopupButton 
-	         CssClass="radPopupImage_Default" 
-	         BorderColor="#D0E1F2" 
-	         BorderStyle="Solid" 
-	         BorderWidth="1px" />
-	</telerik:RadDatePicker>
-	
-				
+<telerik:RadDatePicker
+     ID="RadDatePicker1"
+     runat="server">
+     <DateInput Width="100%"></DateInput>
+     <Calendar
+         CellAlign="Center"
+         CellVAlign="Middle"
+         DayNameFormat="FirstLetter"
+         FirstDayOfWeek="Default"
+         MonthLayout="Layout_7columns_x_6rows"
+         Orientation="RenderInRows"
+         TitleAlign="Center"
+         UseColumnHeadersAsSelectors="False"
+         ShowRowHeaders="False">
+    </Calendar>
+    <DatePopupButton 
+         CssClass="radPopupImage_Default" 
+         BorderColor="#D0E1F2" 
+         BorderStyle="Solid" 
+         BorderWidth="1px" />
+</telerik:RadDatePicker>
 ````
 
 

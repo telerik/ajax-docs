@@ -12,11 +12,10 @@ position: 2
 
 
 
-## 
-
 The **RadDate Collection Editor** lets you specify the initially selected values in a calendar that allows multiple dates to be selected.
 
-To display the **RadDate Collection Editor**, click the ellipsis button next to the **SelectedDates** property in the properties pane for the **RadCalendar** control.![Pre-selecting dates](images/GettingStarted_AddingRadCalendar006_RadDateCollectionEditor.png)
+To display the **RadDate Collection Editor**, click the ellipsis button next to the **SelectedDates** property in the properties pane for the **RadCalendar** control.
+![Pre-selecting dates](images/GettingStarted_AddingRadCalendar006_RadDateCollectionEditor.png)
 
 To add selected dates, click the **Add** button and set its **Date** property using the properties grid on the right. You can type in a date value, or select one from a popup calendar control that appears when you click the "drop-down" button.
 

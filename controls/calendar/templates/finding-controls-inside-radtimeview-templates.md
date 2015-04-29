@@ -39,57 +39,49 @@ a **TimeTemplate** defined, and a **Button** whose
 template:
 
 ````ASPNET
-	     
-	
-	<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
-	    <TimeView>
-	        <TimeTemplate>
-	            <input style="width: 100%;"
-	            runat= "server"
-	            id= "Button1"
-	            type="button"
-	            value='<%# DataBinder.Eval(Container, "DataItem.Time", "{0:t}")%>' />
-	        </TimeTemplate>
-	    </TimeView>
-	</telerik:RadTimePicker>
-	<asp:Button
-	   ID="btnChangeColor"
-	   runat="server"
-	   Text="Change Color"
-	   OnClick="btnChangeColor_Click" />
-	
-				
+<telerik:RadTimePicker ID="RadTimePicker1" runat="server">
+    <TimeView>
+        <TimeTemplate>
+            <input style="width: 100%;"
+            runat= "server"
+            id= "Button1"
+            type="button"
+            value='<%# DataBinder.Eval(Container, "DataItem.Time", "{0:t}")%>' />
+        </TimeTemplate>
+    </TimeView>
+</telerik:RadTimePicker>
+<asp:Button
+   ID="btnChangeColor"
+   runat="server"
+   Text="Change Color"
+   OnClick="btnChangeColor_Click" />
 ````
 
 
 
-In the codebehind, the button's **Click** handler uses the
+In the code behind, the button's **Click** handler uses the
 **FindControl** method of the **DataListItem** to
 locate the control in the template:
 
 
 
 ````C#
-	
-	    protected void btnChangeColor_Click(object sender, EventArgs e)
-	    {
-	        foreach (DataListItem dataListItem in RadTimePicker1.TimeView.DataList.Items)
-	        {
-	            HtmlInputButton button = (HtmlInputButton)dataListItem.FindControl("Button1");
-	            button.Style.Add("background-color", "red");
-	        }
-	    }
-	
+protected void btnChangeColor_Click(object sender, EventArgs e)
+{
+    foreach (DataListItem dataListItem in RadTimePicker1.TimeView.DataList.Items)
+    {
+        HtmlInputButton button = (HtmlInputButton)dataListItem.FindControl("Button1");
+        button.Style.Add("background-color", "red");
+    }
+}	
 ````
 ````VB.NET
-	     
-		Protected Sub btnChangeColor_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnChangeColor.Click
-	        For Each dataListItem As DataListItem In RadTimePicker1.TimeView.DataList.Items
-	            Dim button As HtmlInputButton = DirectCast(dataListItem.FindControl("Button1"), HtmlInputButton)
-	            button.Style.Add("background-color", "red")
-	        Next
-	    End Sub
-	
+Protected Sub btnChangeColor_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnChangeColor.Click
+    For Each dataListItem As DataListItem In RadTimePicker1.TimeView.DataList.Items
+        Dim button As HtmlInputButton = DirectCast(dataListItem.FindControl("Button1"), HtmlInputButton)
+        button.Style.Add("background-color", "red")
+    Next
+End Sub
 ````
 
 

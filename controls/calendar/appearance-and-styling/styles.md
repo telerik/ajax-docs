@@ -12,11 +12,12 @@ position: 1
 
 
 
-The **RadCalendar** controls come with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the **[Skin]({%slug calendar/appearance-and-styling/skins%})** property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
+**RadCalendar** controls come with a set of predefined styles, which are specified by the styles in the current skin CSS classes. If the [Skin]({%slug calendar/appearance-and-styling/skins%}) property is not set to an empty string, you can use a variety of style properties to further customize the appearance of the control.
 
 Setting these properties will copy any non-blank elements of the specified style to the specific element of the rendered control, overwriting any existing style elements defined by the used skin.
 
->caution Setting a style property does not always affect the appearance of a control, if the skin has a setting that applies to a more specific element.
+>caution 
+Setting a style property does not always affect the appearance of a control, if the skin has a setting that applies to a more specific element.
 >
 
 
@@ -39,7 +40,8 @@ The following table lists the styles that you can assign to a stand-alone **RadC
 |TitleStyle||The style of the Calendar title.|
 |FastNavigationStyle|RadCalendarMonthView_[skin name]|The style applied to the Month/Year fast navigation popup.|
 
->note In addition to the style properties listed above, if the calendar has any[special days]({%slug calendar/design-time/radcalendarday-collection-editor%})defined, you can set their **ItemStyle** property to customize the appearance of the special day.
+>note 
+In addition to the style properties listed above, if the calendar has any [special days]({%slug calendar/design-time/radcalendarday-collection-editor%}) defined, you can set their **ItemStyle** property to customize the appearance of the special day.
 >
 
 
@@ -58,7 +60,7 @@ The following table lists the styles that you can assign to the embedded **RadTi
 
 ## RadInput Styles
 
-The following table lists the styles that you can assign to the embedded **RadInput** control of **RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker**:
+The following table lists the styles that you can assign to the embedded **RadInput** control of **RadDatePicker**, **RadTimePicker** and **RadDateTimePicker**:
 
 
 | Property | Default CSS class | Description |
@@ -70,11 +72,13 @@ The following table lists the styles that you can assign to the embedded **RadIn
 |HoveredStyle|riHover|The style when the mouse hovers over the input control.|
 |InvalidStyle|riError|The style when the value of the input control is invalid.|
 
->note The CSS class definitions for the embedded **RadInput** control are found in the Input CSS skin file rather than the Calendar CSS file.
+>note 
+The CSS class definitions for the embedded **RadInput** control are found in the Input CSS skin file rather than the Calendar CSS file.
 >
 
 
->note Since the Q1 2013 SP1 version of RadCalendar the hovered style(.rcHover) is appended to the selected style. Thus both styles will be applied when hovering over an element.
+>note 
+Since the Q1 2013 SP1 version of **RadCalendar** the hovered style (**.rcHover**) is appended to the selected style. Thus both styles will be applied when hovering over an element.
 >
 
 

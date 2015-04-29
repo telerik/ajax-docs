@@ -12,8 +12,6 @@ position: 7
 
 
 
-## 
-
 The **RenderDay** client object represents a day in the calendar. It is available through the eventArgs of the [OnDayRender]({%slug calendar/client-side-programming/events/ondayrender%}), [OnDateClick]({%slug calendar/client-side-programming/events/ondateclick%}), [OnDateSelected]({%slug calendar/client-side-programming/events/ondateselected%}), and [OnDateSelecting]({%slug calendar/client-side-programming/events/ondateselecting%}) client-side events.
 
 The following tables lists the most important properties and methods of the **RenderDay** object:
@@ -32,19 +30,7 @@ The following tables lists the most important properties and methods of the **Re
 | **RadCalendar** |none|RadCalendar|The calendar that contains the day.|
 | **RadCalendarView** |none|RadCalendarView|The month view in which the day appears.|
 | **DomElement** |none|DOM element|The DOM element for the day cell.|
-| **IsRecurring** |none|integer|Indicates the recurrence patterns that include the day. The value is one of the following:
-
-* 1: DayInMonth
-
-* 2: DayAndMonth
-
-* 4: Week
-
-* 8: WeekAndMonth
-
-* 16: Today
-
-* 32: None|
+| **IsRecurring** |none|integer|Indicates the recurrence patterns that include the day. The value is one of the following - 1: DayInMonth; 2: DayAndMonth; 4: Week; 8: WeekAndMonth; 16: Today; 32: None|
 
 ## Methods
 

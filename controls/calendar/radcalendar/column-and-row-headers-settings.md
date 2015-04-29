@@ -12,7 +12,7 @@ position: 2
 
 
 
-The column and row headers label the rows and columns of the main calendar area. Inbetween the column and row headers, a view selector can optionally appear as well:
+The column and row headers label the rows and columns of the main calendar area. In between the column and row headers, a view selector can optionally appear as well:
 
 ![Row and column headers](images/RowAndColumnHeaders.png)
 

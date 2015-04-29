@@ -12,8 +12,6 @@ position: 4
 
 
 
-## 
-
 The **DayTemplate Collection Editor** lets you define dynamic template types that can then be applied to [special days]({%slug calendar/design-time/radcalendarday-collection-editor%}) in the calendar. Once you have defined a dynamic template type, you can use the [template design surface]({%slug calendar/design-time/template-design-surface%}) to create the template for that type.
 
 To display the **DayTemplate Collection Editor**, click the ellipsis button next to the **CalendarDayTemplates** property in the properties pane for the **RadCalendar** control.![DayTemplate collection editor](images/DayTemplateCollectionEditor.png)

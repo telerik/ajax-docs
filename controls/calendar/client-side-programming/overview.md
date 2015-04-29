@@ -16,23 +16,23 @@ The **RadCalendar** controls provide a flexible client-side API. You can easily 
 
 ## Getting the client-side object
 
-All the API methods are accessible via the registered JavaScript objects for each control. A global variable with the same name as the ClientID of the control is available for each control:
+All the API methods are accessible via the registered JavaScript objects for each control. A global variable with the same name as the **ClientID** of the control is available for each control:
 
 ````JavaScript
-	     <script type="text/javascript">
-	         var calendar = $find("<%= RadCalendar1.ClientID %>");
-	         var datepicker = $find("<%= RadDatePicker1.ClientID %>");
-	         var timepicker = $find("<%= RadTimePicker1.ClientID %>");
-	         var datetimepicker = $find("<%= RadDateTimePicker1.ClientID %>");
-	         var monthyearpicker = $find("<%= RadMonthYearPicker1.ClientID %>");
-		 </script>
+<script type="text/javascript">
+    var calendar = $find("<%= RadCalendar1.ClientID %>");
+    var datepicker = $find("<%= RadDatePicker1.ClientID %>");
+    var timepicker = $find("<%= RadTimePicker1.ClientID %>");
+    var datetimepicker = $find("<%= RadDateTimePicker1.ClientID %>");
+    var monthyearpicker = $find("<%= RadMonthYearPicker1.ClientID %>");
+</script>
 ````
 
 
 
 ## Getting a reference to child elements
 
-For the **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker**, and**RadMonthYearPicker** you can access client-side objects for the child elements using the methods listed below:
+For the **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and**RadMonthYearPicker** you can access client-side objects for the child elements using the methods listed below:
 
 
 | Object Type | Method | Supported by |
@@ -60,19 +60,19 @@ The **RadCalendar** client object represents dates as triplets. Each triplet is 
 To get the selected date or dates on a **RadCalendar** control, use the **get_selectedDates()** method. This methods returns an array. If no date is selected, the array has length 0. If the calendar does not support multi-select mode, then the array has at most one element. Each date in the array is a triplet:
 
 ````JavaScript
-	     <script type="text/javascript">
-	        var calendar = $find("<%= RadCalendar1.ClientID %>");
-	        var dates = calendar.get_selectedDates();
-	        for (int i = 0; i < dates.length; i++)
-	        {
-	            var date = dates[i];
-	            var year = date[0];
-	            var month = date[1];
-	            var day = date[2];
-	            if (year < 2000)
-	            calendar.unselectDate(date);
-	        }
-		 </script>
+<script type="text/javascript">
+    var calendar = $find("<%= RadCalendar1.ClientID %>");
+    var dates = calendar.get_selectedDates();
+    for (int i = 0; i < dates.length; i++)
+    {
+        var date = dates[i];
+        var year = date[0];
+        var month = date[1];
+        var day = date[2];
+        if (year < 2000)
+        calendar.unselectDate(date);
+    }
+</script>
 ````
 
 
@@ -80,44 +80,44 @@ To get the selected date or dates on a **RadCalendar** control, use the **get_se
 To set the selected date on a **RadCalendar** control, use the **selectDate()** or **selectDates()** method:
 
 ````JavaScript
-	      <script type="text/javascript">
-	          function SelectTodayAndTomorrow() {
-	              var todaysDate = new Date();
-	              var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
-	              var tomorrowTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate() + 1];
-	              var selectedDates = [todayTriplet, tomorrowTriplet];
-	              var calendar = $find("<%=RadCalendar1.ClientID%>");
-	              calendar.selectDates(selectedDates, true);
-	          }
-		  </script>		
+<script type="text/javascript">
+    function SelectTodayAndTomorrow() {
+        var todaysDate = new Date();
+        var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
+        var tomorrowTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate() + 1];
+        var selectedDates = [todayTriplet, tomorrowTriplet];
+        var calendar = $find("<%=RadCalendar1.ClientID%>");
+        calendar.selectDates(selectedDates, true);
+    }
+</script>		
 ````
 
 
 
-To get the selected date on a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker**, or**RadMonthYearPicker** control, use the **get_selectedDate** method. This method returns a Date object. To set the selected date, use the **set_selectedDate** method:
+To get the selected date on a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** or**RadMonthYearPicker** control, use the **get_selectedDate** method. This method returns a Date object. To set the selected date, use the **set_selectedDate** method:
 
 ````JavaScript
-	       <script type="text/javascript">
-	           function incrementDate(picker) {
-	               var date = picker.get_selectedDate();
-	               date.setDate(date.getDate() + 1);
-	               picker.set_selectedDate(date);
-	           }
-		   </script>		
+<script type="text/javascript">
+    function incrementDate(picker) {
+       var date = picker.get_selectedDate();
+       date.setDate(date.getDate() + 1);
+       picker.set_selectedDate(date);
+    }
+</script>		
 ````
 
 
 
-On **RadTimeView** and **RadDateTimeView**, you can also use the **getTime** and **setTime** methods of the embedded **RadTimeView**:
+On **RadTimeView** and **RadDateTimeView** you can also use the **getTime** and **setTime** methods of the embedded **RadTimeView**:
 
 ````JavaScript
-	      <script type="text/javascript">
-	          function getTime() {
-	              var picker = $find("<%=RadDateTimePicker1.ClientID%>");
-	              var view = picker.get_timeView();
-	              alert(view.getTime());
-	          }
-		  </script>			
+<script type="text/javascript">
+    function getTime() {
+        var picker = $find("<%=RadDateTimePicker1.ClientID%>");
+        var view = picker.get_timeView();
+        alert(view.getTime());
+    }
+</script>			
 ````
 
 
@@ -140,16 +140,16 @@ The following methods get or set the minimum and maximum values:
 
 ## Clearing selected values
 
-On **RadCalendar**, you can unselect individual dates using the **unselectDate** or **unselectDates** method:
+On **RadCalendar** you can unselect individual dates using the **unselectDate** or **unselectDates** method:
 
 ````JavaScript
-	     <script type="text/javascript">
-	         function clearCalendar() {
-	             var calendar = $find("<%= RadCalendar1.ClientID %>");
-	             var dates = calendar.get_selectedDates();
-	             calendar.unselectDates(dates);
-	         }
-	  	 </script>		
+<script type="text/javascript">
+    function clearCalendar() {
+        var calendar = $find("<%= RadCalendar1.ClientID %>");
+        var dates = calendar.get_selectedDates();
+        calendar.unselectDates(dates);
+    }
+</script>		
 ````
 
 
@@ -157,46 +157,44 @@ On **RadCalendar**, you can unselect individual dates using the **unselectDate**
 On **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and **RadMonthYearPicker** you can use the **clear()** method:
 
 ````JavaScript
-	     <script type="text/javascript">
-	         function clearPickers() {
-	             var datepicker = $find("<%= RadDatePicker1.ClientID %>");
-	             datepicker.clear();
-	             var timepicker = $find("<%= RadTimePicker1.ClientID %>");
-	             timepicker.clear();
-	             var datetimepicker = $find("<%= RadDateTimePicker1.ClientID %>");
-	             datetimePicker.clear();
-	             var monthyearpicker = $find("<%= RadMonthYearPicker1.ClientID %>");
-	             monthyearpicker.clear();
-	         }
-	     </script>	
+<script type="text/javascript">
+    function clearPickers() {
+        var datepicker = $find("<%= RadDatePicker1.ClientID %>");
+        datepicker.clear();
+        var timepicker = $find("<%= RadTimePicker1.ClientID %>");
+        timepicker.clear();
+        var datetimepicker = $find("<%= RadDateTimePicker1.ClientID %>");
+        datetimePicker.clear();
+        var monthyearpicker = $find("<%= RadMonthYearPicker1.ClientID %>");
+        monthyearpicker.clear();
+    }
+</script>	
 ````
 
 
 
 ## Enabling and disabling the RadDatePicker, RadTimePicker, RadDateTimePicker or RadMonthYearPicker controls
 
-To enable or disable a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** or **RadMonthYearPicker** control, you need to call the **set_enabled**(true/false) client-side method of the Picker client-side object:
+To enable or disable a **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** or **RadMonthYearPicker** control, you need to call the **set_enabled** (true/false) client-side method of the Picker client-side object:
 
 
 
 ````JavaScript
-	     
-	
-	   <telerik:RadScriptManager id="RadScriptManager1" runat="server"></telerik:RadScriptManager>
-	   <telerik:RadDatePicker ID="RadDatePicker1" runat="server"></telerik:RadDatePicker>
-	   <br />
-	   <script type="text/javascript">
-	       function disable() {
-	           var picker = $find("<%= RadDatePicker1.ClientID %>");
-	           picker.set_enabled(false);
-	       }
-	       function enable() {
-	           var picker = $find("<%= RadDatePicker1.ClientID %>");
-	           picker.set_enabled(true);
-	       }        
-	   </script>
-	   <input type="button" value="disable" onclick="disable()" />
-	   <input type="button" value="enable" onclick="enable()" />
+<telerik:RadScriptManager id="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+<telerik:RadDatePicker ID="RadDatePicker1" runat="server"></telerik:RadDatePicker>
+<br />
+<script type="text/javascript">
+    function disable() {
+    	var picker = $find("<%= RadDatePicker1.ClientID %>");
+        picker.set_enabled(false);
+    }
+    function enable() {
+        var picker = $find("<%= RadDatePicker1.ClientID %>");
+        picker.set_enabled(true);
+    }        
+</script>
+<input type="button" value="disable" onclick="disable()" />
+<input type="button" value="enable" onclick="enable()" />
 ````
 
 

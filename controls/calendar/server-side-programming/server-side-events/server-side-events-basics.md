@@ -28,23 +28,24 @@ The **RadCalendar** controls all raise server-side events, which you can use to 
 
 ## RadDatePicker, RadTimePicker, RadDateTimePicker and RadMonthYearPicker
 
-The **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and **RadMonthYearPicker**controls expose the following two server-side events:
+The **RadDatePicker**, **RadTimePicker**, **RadDateTimePicker** and **RadMonthYearPicker** controls expose the following two server-side events:
 
 * [ChildrenCreated]({%slug calendar/server-side-programming/server-side-events/childrencreated%}) occurs when the child controls (the input area, popup buttons, and embedded calendar or time view controls) are created.
 
-* [SelectedDateChanged]({%slug calendar/server-side-programming/server-side-events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the userhas typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True** (**RadDatePicker**, **RadTimePicker** and **RadMonthYearPicker**) or the **AutoPostBackControl** property is not "None" (**RadDateTimePicker**).
+* [SelectedDateChanged]({%slug calendar/server-side-programming/server-side-events/selecteddatechanged%}) occurs when the user changes the value of the control, either when input area loses focus after the user has typed a new value, or when the user selects a new value in the popup calendar or time view control. This event does not fire unless the **AutoPostBack** property is **True** (**RadDatePicker**, **RadTimePicker** and **RadMonthYearPicker**) or the **AutoPostBackControl** property is not "None" (**RadDateTimePicker**).
 
 In addition, **RadTimePicker** and **RadDateTimePicker** controls expose two additional server-side events for configuring the embedded time view control:
 
 * [ItemCreated]({%slug calendar/server-side-programming/server-side-events/itemcreated%}) occurs when an item in the time view is created.
 
-* [ItemDataBound]({%slug calendar/server-side-programming/server-side-events/itemdatabound%}) occurs when anitem in the time view is data bound.
+* [ItemDataBound]({%slug calendar/server-side-programming/server-side-events/itemdatabound%}) occurs when an item in the time view is data bound.
 
-The **RadMonthYearPicker** control also exposes additional server-sideevent for customizing the RadMonthYearTableView:
+The **RadMonthYearPicker** control also exposes additional server-side event for customizing the **RadMonthYearTableView**:
 
-* [ViewCellCreated]({%slug calendar/server-side-programming/server-side-events/viewcellcreated%}) occurs when a cell in MonthYearTableView is created.
+* [ViewCellCreated]({%slug calendar/server-side-programming/server-side-events/viewcellcreated%}) occurs when a cell in **MonthYearTableView** is created.
 
->note When setting the **AutoPostBack** or **AutoPostBackControl** properties to enable server-side events that respond when the user makes a change, you can still have the smooth performance of client mode by making the postback asynchronous. To do this, use a **RadAjaxManager** control.
+>note 
+When setting the **AutoPostBack** or **AutoPostBackControl** properties to enable server-side events that respond when the user makes a change, you can still have the smooth performance of client mode by making the postback asynchronous. To do this, use a **RadAjaxManager** control.
 >
 
 
@@ -61,12 +62,7 @@ The following table indicates the properties you can use to enable postbacks on 
 |RadDatePicker|AutoPostBack|SelectedDateChangedDateInput.TextChanged|When **AutoPostBack** is **true** , a postback only occurs when the user changes the selected date.|
 |RadTimePicker|AutoPostBack|SelectedDateChangedDateInput.TextChanged|When **AutoPostBack** is **true** , a postback occurs when the user changes the selected time.|
 |RadMonthYearPicker|AutoPostBack|SelectedDateChangedDateInput.TextChanged|When **AutoPostBack** is **true** , a postback only occurs when the user changes the selected date.|
-|RadDateTimePicker|AutoPostBackControl|SelectedDateChangedDateInput.TextChanged| **AutoPostBack** can have any of the following values:
+|RadDateTimePicker|AutoPostBackControl|SelectedDateChangedDateInput.TextChanged| **AutoPostBack** can have any of the following values: "*None*": no postbacks occur when the user changes the selection; "*Both*": a postback occurs when the user changes the selection; "*TimeView*": a postback occurs when the user types a new value in the input area or selects a time in the popup time view; "*Calendar*": a postback occurs when the user types a new value in the input area or selects a date in the popup calendar.|
 
-* " *None* ": no postbacks occur when the user changes the selection.
 
-* " *Both* ": a postback occurs when the user changes the selection.
 
-* " *TimeView* ": a postback occurs when the user types a new value in the input area or selects a time in the popup time view.
-
-* " *Calendar* ": a postback occurs when the user types a new value in the input area or selects a date in the popup calendar.|

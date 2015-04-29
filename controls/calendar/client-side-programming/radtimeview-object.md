@@ -12,7 +12,7 @@ position: 6
 
 
 
-The **RadTimeView** client object represents the popup time view on **[RadTimePicker]({%slug calendar/client-side-programming/radtimepicker-object%})** and **[RadDateTimePicker]({%slug calendar/client-side-programming/raddatetimepicker-object%})**. To obtain a reference to this object, use the **get_timeView** method of the control to which it belongs.
+The **RadTimeView** client object represents the popup time view on [RadTimePicker]({%slug calendar/client-side-programming/radtimepicker-object%}) and [RadDateTimePicker]({%slug calendar/client-side-programming/raddatetimepicker-object%}). To obtain a reference to this object, use the **get_timeView** method of the control to which it belongs.
 
 The following tables lists the most important properties methods of the **RadTimeView** client-side object:
 

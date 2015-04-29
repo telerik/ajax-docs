@@ -12,8 +12,6 @@ position: 6
 
 
 
-## 
-
 The **Dates Management** section of the **RadCalendar** properties pane includes several properties for specifying special dates that affect the layout and behavior of the calendar:
 
 * The **FirstDayOfWeek** property specifies the day to use as the first day of each week. You can set **FristDayOfWeek** to the name of a specific week day, such as "Saturday", or you can set it to "Default", in which case it uses the value of the **CultureInfo** property to determine the first day of the week.

@@ -12,9 +12,8 @@ position: 4
 
 
 
-## 
-
-The **RadMonthYearPicker** control is composite control that combines the functionality of **RadCalendar** with the functionality of**RadDateInput** to give the broadest possible range of options for selectingmonth and year values. The control elements are described below:![RadMonthYearPicker Structure](images/calendar_monthyearpicker_overview.png)
+The **RadMonthYearPicker** control is composite control that combines the functionality of **RadCalendar** with the functionality of **RadDateInput** to give the broadest possible range of options for selecting month and year values. The control elements are described below:
+![RadMonthYearPicker Structure](images/calendar_monthyearpicker_overview.png)
 
 The three major components of a **RadMonthYearPicker** control are:
 

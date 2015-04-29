@@ -12,8 +12,6 @@ position: 4
 
 
 
-## 
-
 The following table lists the most important methods of the **RadDateTimePicker** client-side object.
 
 

@@ -12,45 +12,41 @@ position: 2
 
 
 
-## 
-
-**RadDatePicker**, **RadTimePicker**, and **RadDateTimePicker** all display their popup calendar and time view controls immediately below the input area. You can use the [client-side API]({%slug calendar/client-side-programming/overview%}) to display the popup above the input area instead. The following example shows how to do this for **RadDateTimePicker**. The same technique can be used with **RadDatePicker** and **RadTimePicker** controls.
+**RadDatePicker**, **RadTimePicker** and **RadDateTimePicker** all display their popup calendar and time view controls immediately below the input area. You can use the [client-side API]({%slug calendar/client-side-programming/overview%}) to display the popup above the input area instead. The following example shows how to do this for **RadDateTimePicker**. The same technique can be used with **RadDatePicker** and **RadTimePicker** controls.
 
 ````ASPNET
-	     
-	<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-		<script type="text/javascript">
-			function ShowPopupAbove(sender, eventArgs) {
-				var picker = $find("<%= RadDateTimePicker1.ClientID %>");
-				var userChar = eventArgs.get_keyCharacter();
-				var textBox = picker.get_textBox();
-				if (userChar == '@') {
-					var popupElement = picker.get_popupContainer();
-					var dimensions = Telerik.Web.UI.Calendar.Utils.GetElementDimensions(popupElement);
-					var position = Telerik.Web.CommonScripts.getLocation(textBox);
-					picker.showPopup(position.x, position.y - dimensions.height);
-					eventArgs.set_cancel(true);
-				}
-				else if (userChar == '#') {
-					var popupElement = picker.get_timePopupContainer();
-					var dimensions = Telerik.Web.UI.Calendar.Utils.GetElementDimensions(popupElement);
-					var position = Telerik.Web.CommonScripts.getLocation(textBox);
-					picker.showTimePopup(position.x, position.y - dimensions.height);
-					eventArgs.set_cancel(true);
-				}
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+	<script type="text/javascript">
+		function ShowPopupAbove(sender, eventArgs) {
+			var picker = $find("<%= RadDateTimePicker1.ClientID %>");
+			var userChar = eventArgs.get_keyCharacter();
+			var textBox = picker.get_textBox();
+			if (userChar == '@') {
+				var popupElement = picker.get_popupContainer();
+				var dimensions = Telerik.Web.UI.Calendar.Utils.GetElementDimensions(popupElement);
+				var position = Telerik.Web.CommonScripts.getLocation(textBox);
+				picker.showPopup(position.x, position.y - dimensions.height);
+				eventArgs.set_cancel(true);
 			}
-		</script>
-	</telerik:RadCodeBlock>
-	<div style="height: 300px"></div>
-	
-	<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
-		<DateInput runat="server">
-			<ClientEvents OnKeyPress="ShowPopupAbove" />
-		</DateInput>
-		<DatePopupButton CssClass="radPopupImage_Default" Visible="False" />
-		<TimePopupButton CssClass="radPopupImage_Default" Visible="False" />
-	</telerik:RadDateTimePicker>
-	
+			else if (userChar == '#') {
+				var popupElement = picker.get_timePopupContainer();
+				var dimensions = Telerik.Web.UI.Calendar.Utils.GetElementDimensions(popupElement);
+				var position = Telerik.Web.CommonScripts.getLocation(textBox);
+				picker.showTimePopup(position.x, position.y - dimensions.height);
+				eventArgs.set_cancel(true);
+			}
+		}
+	</script>
+</telerik:RadCodeBlock>
+<div style="height: 300px"></div>
+
+<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+	<DateInput runat="server">
+		<ClientEvents OnKeyPress="ShowPopupAbove" />
+	</DateInput>
+	<DatePopupButton CssClass="radPopupImage_Default" Visible="False" />
+	<TimePopupButton CssClass="radPopupImage_Default" Visible="False" />
+</telerik:RadDateTimePicker>
 ````
 
 

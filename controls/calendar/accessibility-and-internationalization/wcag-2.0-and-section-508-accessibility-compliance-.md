@@ -11,20 +11,18 @@ position: 0
 # WCAG 2.0 and Section 508 Accessibility Compliance 
 
 
-
 ## XHTML 1.1
 
-**RadCalendar**is fully compliant with the XHTML
-1.1 requirement.
+**RadCalendar**is fully compliant with XHTML 1.1.
 
->note If the content of RadCalendar's FrameTemplate is not XHTML compliant, then the output of the calendar will also not be XHTML 1.1 content compliant.
+>note 
+If the content of RadCalendar's FrameTemplate is not XHTML compliant, then the output of the calendar will also not be XHTML 1.1 content compliant.
 >
 
 
 ## Section 508
 
-**RadCalendar** satisfies the requirements of "Section 508" for
-software accessibility, as well as those of "Level A" (in accordance with the
+**RadCalendar** satisfies the requirements of "Section 508" for software accessibility, as well as those of "Level A" (in accordance with the
 W3C Web Accessibility Guidelines 1.0).
 
 # See Also

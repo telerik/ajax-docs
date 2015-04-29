@@ -11,10 +11,7 @@ position: 2
 # Date Format Patterns
 
 
-
-## 
-
-The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current **[CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%})** settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
+The table below shows a list of the standard format characters. For each standard pattern, it shows the pattern from the current [CultureInfo]({%slug calendar/accessibility-and-internationalization/specifying-a-culture%}) settings that the pattern represents. The format characters are case-sensitive, for example, 'f' and 'F' represent different patterns.
 
 
 | Format Character | Description |
@@ -32,7 +29,7 @@ The table below shows a list of the standard format characters. For each standar
 |T|Long time pattern|
 |y|Month year pattern|
 
-The table below shows a list of patterns that can be combined to create date format patterns.The patterns are case-sensitive; for example, "MM" is recognized, but "mm" is not. If the date format pattern contains white-space characters or characters enclosed in single quotation marks,the formatted string will also contain those characters. Characters not defined as part of aformat pattern or as format characters are reproduced literally.
+The table below shows a list of patterns that can be combined to create date format patterns.The patterns are case-sensitive; for example, "MM" is recognized, but "mm" is not. If the date format pattern contains white-space characters or characters enclosed in single quotation marks, the formatted string will also contain those characters. Characters not defined as part of a format pattern or as format characters are reproduced literally.
 
 
 | Format Pattern | Description |

@@ -12,11 +12,10 @@ position: 5
 
 
 
-## 
+The following table lists significant CSS selectors and descriptions that apply to the **RadCalendar** controls in **RadCalendar** style sheets.
 
-The following table lists significant CSS selectors and descriptions that apply to the **RadCalendar** controls in RadCalendar style sheets.
-
->note The "[skin]" that appears in class names is a placeholder for the name of the skin.
+>note 
+The "[skin]" that appears in class names is a placeholder for the name of the skin.
 >
 
 
@@ -60,11 +59,7 @@ The following table lists significant CSS selectors and descriptions that apply 
 |.rcHover|TD|The class for a selectable time value when the mouse hovers over it in a **RadTimeView** control.|
 |.rcDisabled|TD|The class for a disabled time value in a **RadTimeView** control.|
 |.RadPicker_[skin]|DIV|The class for the top-level element of a **RadDatePicker** , **RadTimePicker** , or **RadDateTimePicker** control.|
-|.RadInput_[skin]|SPAN|The class for the input area in a **RadDatePicker** , **RadTimePicker** , or **RadDateTimePicker** control.
-
->note This class is defined in the **RadInput** skin CSS files, but can appear, qualified by the .RadPicker_[skin] class in the Calendar skin CSS files.
->
-|
+|.RadInput_[skin]|SPAN|The class for the input area in a **RadDatePicker** , **RadTimePicker** , or **RadDateTimePicker** control. This class is defined in the **RadInput** skin CSS files, but can appear, qualified by the .RadPicker_[skin] class in the Calendar skin CSS files.|
 |.rcCalPopup|A|The class for the **DatePopupButton** in a **RadDatePicker** or **RadDateTimePicker** control.|
 |.rcTimePopup|A|The class for the **TimePopupButton** in a **RadTimePicker** or **RadDateTimePicker** control.|
 

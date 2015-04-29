@@ -12,8 +12,6 @@ position: 5
 
 
 
-## 
-
 A number of properties let you specify the tooltips that appear when the user hovers the mouse over various parts of the **RadCalendar** control:
 
 * **FastNavigationPrevToolTip** is the text of the tooltip when the user hovers the mouse over the "<<" navigation button.

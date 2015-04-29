@@ -52,6 +52,7 @@ The following table lists the most important properties and methods of the **Rad
 | **hidePopup** |||Hides the popup calendar if it is showing.|
 | **togglePopup** |||Toggles the visible state of the popup calendar.|
 
+
 # See Also
 
  * [Overview]({%slug calendar/client-side-programming/overview%})

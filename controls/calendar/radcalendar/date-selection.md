@@ -14,9 +14,9 @@ position: 7
 
 You can specify whether users can use the **RadCalendar** control to select only a single date, whether it permits the selection of multiple dates, or whether it is used for display purposes only and does not permit the user to select any dates.
 
-* The **PresentationType** property specifies whether users can use the calendar to select dates at all. When **PresentationType** is "Preview", the calendar is read-only, and users cannot select any values. When **PresentationType** is "Interactive", the calendar acts as a date selection control.
+* The **PresentationType** property specifies whether users can use the calendar to select dates at all. When **PresentationType** is **Preview**, the calendar is read-only, and users cannot select any values. When **PresentationType** is **Interactive**, the calendar acts as a date selection control.
 
-* The **EnableMultiSelect** property controls whether users can select multiple dates using the **RadCalendar** control. You can set the **EnableMultiSelect** property using the properties pane, or by using the **Enable MultiSelect** check box in the **RadCalendar**[Smart Tag]({%slug calendar/design-time/smart-tag%}).
+* The **EnableMultiSelect** property controls whether users can select multiple dates using the **RadCalendar** control. You can set the **EnableMultiSelect** property using the properties pane, or by using the **Enable MultiSelect** check box in the **RadCalendar** [Smart Tag]({%slug calendar/design-time/smart-tag%}).
 
 ## Selected Values
 

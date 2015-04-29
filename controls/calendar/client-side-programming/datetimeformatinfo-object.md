@@ -12,11 +12,10 @@ position: 8
 
 
 
-## 
-
 The **DateTimeFormatInfo** object is used by the **RadCalendar** control for formatting date and time values so that they reflect the current culture. It is accessible through the **DateTimeFormatInfo** property of the [RadCalendar client-side object]({%slug calendar/client-side-programming/radcalendar-object%}).
 
->note The DateTimeFormatInfo class is defined in the System.Globalization namespace.
+>note 
+The **DateTimeFormatInfo** class is defined in the **System.Globalization** namespace.
 >
 
 
@@ -29,19 +28,18 @@ The following table lists the methods of the **DateTimeFormatInfo** object:
 | **LeadZero** |integer|string|Formats the integer, adding a leading zero if necessary so that the integer is a minimum of two digits.|
 
 ````JavaScript
-	     
-	     <script type="text/javascript">
-	         function OnDateSelected(sender, e) {
-	             var calendarDay = e.get_renderDay();
-	             if (calendarDay.IsSelected) {
-	                 var selectedDate = calendarDay.get_Date();
-	                 var calendar = $find("<%= RadCalendar1.ClientID %>");
-	                 var shortDatePattern = calendar.DateTimeFormatInfo.ShortDatePattern;
-	                 var formattedDate = calendar.DateTimeFormatInfo.FormatDate(selectedDate, shortDatePattern);
-	                 alert(formattedDate);
-	             }
-	         }
-	        </script>	
+<script type="text/javascript">
+	function OnDateSelected(sender, e) {
+        var calendarDay = e.get_renderDay();
+        if (calendarDay.IsSelected) {
+            var selectedDate = calendarDay.get_Date();
+            var calendar = $find("<%= RadCalendar1.ClientID %>");
+            var shortDatePattern = calendar.DateTimeFormatInfo.ShortDatePattern;
+            var formattedDate = calendar.DateTimeFormatInfo.FormatDate(selectedDate, shortDatePattern);
+            alert(formattedDate);
+        }
+    }
+</script>	
 ````
 
 
