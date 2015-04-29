@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'TelerikWebUI';
+	src: url('../fonts/TelerikWebUI.eot")%>');
+	src: url('../fonts/TelerikWebUI.eot")%>') format('embedded-opentype'),
+			url('../fonts/TelerikWebUI.woff")%>') format('woff'),
+			url('../fonts/TelerikWebUI.ttf")%>') format('truetype');
+}
+
 body, html,
 #page-tabs,
 #page-tabs li,
@@ -660,6 +668,34 @@ footer a:hover {
     padding-bottom: -1px;
     z-index: 1;
     background: #F1F5F9;
+}
+
+/*TreeView*/
+#page-article .k-minus:before,
+#page-article .k-plus:before {
+    font-family: TelerikWebUI;
+    display: block;
+    line-height: 16px;
+}
+#page-article .k-minus:before {
+    content: "\E006";
+    font-size: 16px;
+}
+#page-article .k-plus:before {
+    content: "\E00C";
+    font-size: 24px;
+}
+
+#page-article .k-treeview .k-in {
+    border: 0;
+}
+
+#page-article .k-bot {
+    height: 26px;
+}
+
+#page-article .k-treeview {
+	margin-top: 20px;
 }
 
 @media (max-width: 1200px) {
