@@ -45,9 +45,9 @@ In addition, you can optionally display or hide the **Cancel** button by setting
 The following example shows a **RadProgressArea** that shows only the files indicators and a cancel button:
 
 ````ASPNET
-	    <telerik:radprogressarea id="RadProgressArea1" runat="server" displaycancelbutton="True"
-	        progressindicators="FilesCountBar, FilesCount, FilesCountPercent, SelectedFilesCount, CurrentFileName">
-	    </telerik:radprogressarea>
+<telerik:radprogressarea id="RadProgressArea1" runat="server" displaycancelbutton="True"
+    progressindicators="FilesCountBar, FilesCount, FilesCountPercent, SelectedFilesCount, CurrentFileName">
+</telerik:radprogressarea>
 ````
 
 
@@ -60,21 +60,21 @@ When setting the **ProgressIndicators** property at runtime, use the "or" operat
 
 ````C#
 	     
-		RadProgressArea1.ProgressIndicators =  ProgressIndicators.FilesCount 
-	        |  ProgressIndicators.FilesCountBar 
-	        |  ProgressIndicators.FilesCountPercent 
-	        |  ProgressIndicators.SelectedFilesCount 
-	        |  ProgressIndicators.CurrentFileName;
+RadProgressArea1.ProgressIndicators =  ProgressIndicators.FilesCount 
+    |  ProgressIndicators.FilesCountBar 
+    |  ProgressIndicators.FilesCountPercent 
+    |  ProgressIndicators.SelectedFilesCount 
+    |  ProgressIndicators.CurrentFileName;
 				
 ````
 ````VB.NET
 	     
-		RadProgressArea1.ProgressIndicators = 
-		    _  ProgressIndicators.FilesCount Or 
-		        _  ProgressIndicators.FilesCountBar Or 
-		        _   ProgressIndicators.FilesCountPercent Or 
-		        _  ProgressIndicators.SelectedFilesCount Or 
-		        _  ProgressIndicators.CurrentFileName
+RadProgressArea1.ProgressIndicators = 
+    _  ProgressIndicators.FilesCount Or 
+    _  ProgressIndicators.FilesCountBar Or 
+    _   ProgressIndicators.FilesCountPercent Or 
+    _  ProgressIndicators.SelectedFilesCount Or 
+    _  ProgressIndicators.CurrentFileName
 				
 ````
 
@@ -83,7 +83,7 @@ When setting the **ProgressIndicators** property at runtime, use the "or" operat
 >
 
 
->note You can modify the positions and the HTML elements of the progress indicators by creating a[Progress Template]({%slug progressarea/progress-template%}).
+>note You can modify the positions and the HTML elements of the progress indicators by creating a [Progress Template]({%slug progressarea/progress-template%}).
 >
 
 

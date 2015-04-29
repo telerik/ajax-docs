@@ -1,5 +1,5 @@
 ---
-title: ProgressArea Overview
+title: Overview
 page_title: RadProgressArea Overview | UI for ASP.NET AJAX Documentation
 description: Overview
 slug: progressarea/overview
@@ -21,13 +21,14 @@ RadProgressArea control provides support for custom progress monitoring. It can 
 The following example shows the basic usage of **RadProgressArea** with RadAsyncUpload:
 
 ````ASPNET
-	            <telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server"></telerik:RadAsyncUpload>
-	            <telerik:RadProgressArea ID="RadProgressArea1" runat="server"></telerik:RadProgressArea>			
+<telerik:RadAsyncUpload ID="RadAsyncUpload1" runat="server"></telerik:RadAsyncUpload>
+<telerik:RadProgressArea ID="RadProgressArea1" runat="server"></telerik:RadProgressArea>			
 ````
 
 
 
-## Example![progress-area](images/progress_area.png)
+## Example
+![progress-area](images/progress_area.png)
 
 ## Quick Links
 

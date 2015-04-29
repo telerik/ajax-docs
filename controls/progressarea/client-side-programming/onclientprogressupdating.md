@@ -37,25 +37,25 @@ Use the **OnClientProgressUpdating** event to make changes to the values that ar
 The following example uses the **OnClientProgressUpdating** event to cancel an upload if it exceeds a maximum upload size:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function checkUploadedFilesSize(progressArea, args) {
-	            //progressArea.confirmed is a custom variable,    
-	            // you can use another if you want to    
-	            if (!progressArea.confirmed && args.get_progressData().RadUpload.RequestSize > 1000000) {
-	                if (confirm("The total size of the selected files" +
-	                               " is more than the limit." +
-	                               +"Do you want to cancel the upload?")) {
-	                    progressArea.cancelRequest();
-	                }
-	                else {
-	                    progressArea.confirmed = "confirmed";
-	                }
-	            }
-	        }
-	    
-	    </script>
-	    
-	    <telerik:radprogressarea runat="server" id="RadProgressArea1" onclientprogressupdating="checkUploadedFilesSize" />
+<script type="text/javascript">
+function checkUploadedFilesSize(progressArea, args) {
+	//progressArea.confirmed is a custom variable,    
+	// you can use another if you want to    
+	if (!progressArea.confirmed && args.get_progressData().RadUpload.RequestSize > 1000000) {
+		if (confirm("The total size of the selected files" +
+					   " is more than the limit." +
+					   +"Do you want to cancel the upload?")) {
+			progressArea.cancelRequest();
+		}
+		else {
+			progressArea.confirmed = "confirmed";
+		}
+	}
+}
+
+</script>
+
+<telerik:radprogressarea runat="server" id="RadProgressArea1" onclientprogressupdating="checkUploadedFilesSize" />
 ````
 
 
@@ -65,15 +65,15 @@ The following example uses the **OnClientProgressUpdating** event to cancel an u
 The following example uses the **OnClientProgressUpdating** event to change one of the values that all progress dialogs display:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function alterProgressData(source, eventArgs) {
-	            var progressData = eventArgs.ProgressData();
-	            progressData.CurrentOperationText = "uploading files";
-	        }
-	
-	    </script>
-	    <telerik:radprogressmanager id="RadProgressArea1" runat="server" onclientprogressupdating="alterProgressData">
-	    </telerik:RadProgressArea>
+<script type="text/javascript">
+	function alterProgressData(source, eventArgs) {
+		var progressData = eventArgs.ProgressData();
+		progressData.CurrentOperationText = "uploading files";
+	}
+
+</script>
+<telerik:radprogressmanager id="RadProgressArea1" runat="server" onclientprogressupdating="alterProgressData">
+</telerik:RadProgressArea>
 				
 ````
 

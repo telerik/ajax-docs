@@ -19,8 +19,8 @@ The localization support for **Examples\progressarea-localization\** lets you co
 The **Localization** property specifies the strings that appear in the runtime user interface of **Examples\progressarea-localization\**. By changing the values of each named sub-property, you change the appearance of the string the progress area uses:
 
 ````ASPNET
-	    <telerik:radprogressarea id="RadProgressArea1" localization-cancel="Cancel upload"
-	        runat="server"></telerik:radprogressarea>
+<telerik:radprogressarea id="RadProgressArea1" localization-cancel="Cancel upload"
+	runat="server"></telerik:radprogressarea>
 ````
 
 
@@ -31,7 +31,7 @@ The **Localization** property specifies the strings that appear in the runtime u
 
 ````C#
 	     
-							RadProgressArea1.Localization.TransferSpeed = "Speed of transfer";
+RadProgressArea1.Localization.TransferSpeed = "Speed of transfer";
 				
 ````
 

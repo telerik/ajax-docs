@@ -24,13 +24,13 @@ The following table lists the important methods of the **RadProgressManager** cl
 |startProgressPolling|none|none|Starts the progress polling.This method is useful when RadProgressManager does not handle theform.submit event by itself, or when you need to start the progress monitoring before the form is submitted.|
 
 ````ASPNET
-	    <telerik:radprogressmanager runat="server" id="RadProgressManager1" registerforsubmit="false" />
-	    <input type="button" value="Start" onclick="myStart()" />
-	    <script type="text/javascript">
-	        function myStart() {
-	            getRadProgressManager().startProgressPolling(); 
-	        }
-	    </script>
+<telerik:radprogressmanager runat="server" id="RadProgressManager1" registerforsubmit="false" />
+<input type="button" value="Start" onclick="myStart()" />
+<script type="text/javascript">
+	function myStart() {
+		getRadProgressManager().startProgressPolling(); 
+	}
+</script>
 ````
 
 
@@ -42,7 +42,7 @@ The following table lists the important methods of the **RadProgressManager** cl
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	    getRadProgressManager().hideProgressAreas();
+getRadProgressManager().hideProgressAreas();
 ````
 
 

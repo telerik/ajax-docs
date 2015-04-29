@@ -54,20 +54,20 @@ The following table lists the fields of the progress context that you can set:
 
 This example shows how to use **RadProgressArea** to display the progress of a custom process:![upload custom progress monitor](images/progress_monitor.png)
 
-The **RadProgressManager** has **SuppressMissingHttpModuleError**set to "true", and the **RadProgressArea** hides the primary progress indicators and**Speed** indicator, as these all provide units to the value that reflect size:
+The **RadProgressManager** has **SuppressMissingHttpModuleError**set to "true", and the **RadProgressArea** hides the primary progress indicators and **Speed** indicator, as these all provide units to the value that reflect size:
 
 ````ASPNET
-	    <telerik:radprogressmanager id="RadProgressManager1" runat="server" />
-	    <telerik:radprogressarea id="RadProgressArea1" runat="server" displaycancelbutton="True"
-	        progressindicators="FilesCountBar,
-	                              FilesCount,
-	                              FilesCountPercent,                      
-	                              SelectedFilesCount,                      
-	                              CurrentFileName,                      
-	                              TimeElapsed,                      
-	                              TimeEstimated">
-	    </telerik:radprogressarea>
-	    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Initiate Process" />
+<telerik:radprogressmanager id="RadProgressManager1" runat="server" />
+<telerik:radprogressarea id="RadProgressArea1" runat="server" displaycancelbutton="True"
+	progressindicators="FilesCountBar,
+						  FilesCount,
+						  FilesCountPercent,                      
+						  SelectedFilesCount,                      
+						  CurrentFileName,                      
+						  TimeElapsed,                      
+						  TimeEstimated">
+</telerik:radprogressarea>
+<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Initiate Process" />
 ````
 
 
@@ -81,26 +81,26 @@ In the **Page_Load** event handler, the **Localization**property is set to refle
 ````C#
 	     
 	
-	protected void Page_Load(object sender, EventArgs e)
-	{
-	 
-	   RadProgressArea1.Localization.UploadedFiles = "Completed Steps: ";
-	   RadProgressArea1.Localization.CurrentFileName = "Step: ";
-	   RadProgressArea1.Localization.TotalFiles = "Total Steps:";
-	 
-	} 
+protected void Page_Load(object sender, EventArgs e)
+{
+ 
+   RadProgressArea1.Localization.UploadedFiles = "Completed Steps: ";
+   RadProgressArea1.Localization.CurrentFileName = "Step: ";
+   RadProgressArea1.Localization.TotalFiles = "Total Steps:";
+ 
+} 
 				
 ````
 ````VB.NET
 	     
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	
-	        RadProgressArea1.Localization.UploadedFiles = "Completed Steps: "
-	        RadProgressArea1.Localization.CurrentFileName = "Step: "
-	        RadProgressArea1.Localization.TotalFiles = "Total Steps:"
-	
-	    End Sub
+
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+
+	RadProgressArea1.Localization.UploadedFiles = "Completed Steps: "
+	RadProgressArea1.Localization.CurrentFileName = "Step: "
+	RadProgressArea1.Localization.TotalFiles = "Total Steps:"
+
+End Sub
 				
 ````
 
@@ -121,45 +121,45 @@ The button's **Click** event handler performs the lengthy process, and at each m
 ````C#
 	
 	
-	protected void Button1_Click(object sender, EventArgs e)
+protected void Button1_Click(object sender, EventArgs e)
+{
+	RadProgressContext context = RadProgressContext.Current;
+	context.SecondaryTotal = "100";
+	for (int i = 1; i < 100; i++)
 	{
-	    RadProgressContext context = RadProgressContext.Current;
-	    context.SecondaryTotal = "100";
-	    for (int i = 1; i < 100; i++)
-	    {
-	        context.SecondaryValue = i.ToString();
-	        context.SecondaryPercent = i.ToString();
-	        context.CurrentOperationText = "Doing step " + i.ToString();
-	        if (!Response.IsClientConnected)
-	        {
-	            //Cancel button was clicked or the browser was closed, so stop processing
-	            break;
-	        }
-	        // simulate a long time performing the current step
-	        System.Threading.Thread.Sleep(100);
-	    }
-	} 
+		context.SecondaryValue = i.ToString();
+		context.SecondaryPercent = i.ToString();
+		context.CurrentOperationText = "Doing step " + i.ToString();
+		if (!Response.IsClientConnected)
+		{
+			//Cancel button was clicked or the browser was closed, so stop processing
+			break;
+		}
+		// simulate a long time performing the current step
+		System.Threading.Thread.Sleep(100);
+	}
+} 
 ````
 ````VB.NET
 	     
 	
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        Dim context As RadProgressContext = RadProgressContext.Current
-	        context.SecondaryTotal = "100"
-	        Dim i As Integer = 1
-	        While i < 100
-	            context.SecondaryValue = i.ToString()
-	            context.SecondaryPercent = i.ToString()
-	            context.CurrentOperationText = "Doing step " + i.ToString()
-	            If Not Response.IsClientConnected Then
-	                'Cancel button was clicked or the browser was closed, so stop processing
-	                Exit While
-	            End If
-	            ' simulate a long time performing the current step
-	            System.Threading.Thread.Sleep(100)
-	            i = i + 1
-	        End While
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+	Dim context As RadProgressContext = RadProgressContext.Current
+	context.SecondaryTotal = "100"
+	Dim i As Integer = 1
+	While i < 100
+		context.SecondaryValue = i.ToString()
+		context.SecondaryPercent = i.ToString()
+		context.CurrentOperationText = "Doing step " + i.ToString()
+		If Not Response.IsClientConnected Then
+			'Cancel button was clicked or the browser was closed, so stop processing
+			Exit While
+		End If
+		' simulate a long time performing the current step
+		System.Threading.Thread.Sleep(100)
+		i = i + 1
+	End While
+End Sub
 	
 ````
 

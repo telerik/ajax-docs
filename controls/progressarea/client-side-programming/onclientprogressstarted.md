@@ -23,12 +23,12 @@ The event handler receives a single parameter:
 The following example uses the **OnClientProgressStarted** event to notify the user when progress monitoring starts:
 
 ````ASPNET
-	    <telerik:radprogressmanager runat="server" id="RadProgressManager1" onclientprogressstarted="progressStarted" />
-	    <script type="text/javascript">
-	        function progressStarted(radProgressManager) {
-	            alert("Progress monitoring has started....");
-	        } 
-	    </script>
+<telerik:radprogressmanager runat="server" id="RadProgressManager1" onclientprogressstarted="progressStarted" />
+<script type="text/javascript">
+	function progressStarted(radProgressManager) {
+		alert("Progress monitoring has started....");
+	} 
+</script>
 ````
 
 

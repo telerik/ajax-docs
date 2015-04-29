@@ -29,7 +29,7 @@ The following table lists the important methods of the **RadProgressArea** clien
 
 ````JavaScript
 	     
-	    $find("<%= RadProgressArea1.ClientID %>").cancelRequest();
+$find("<%= RadProgressArea1.ClientID %>").cancelRequest();
 				
 ````
 
@@ -42,8 +42,13 @@ The following table lists the important methods of the **RadProgressArea** clien
 | ------ | ------ | ------ | ------ |
 
 ````ASPNET
-	    <telerik:radprogressarea runat="server" id="RadProgressArea1" />
-	    <input type="button" value="Show" onclick="myShow()" /><script type="text/javascript">                                                               function myShow() { $find("<%= RadProgressArea1.ClientID %>").show(); }</script>
+<telerik:radprogressarea runat="server" id="RadProgressArea1" />
+<input type="button" value="Show" onclick="myShow()" />
+<script type="text/javascript">
+	function myShow() {
+		$find("<%= RadProgressArea1.ClientID %>").show();
+	}
+</script>
 ````
 
 
@@ -55,8 +60,13 @@ The following table lists the important methods of the **RadProgressArea** clien
 | ------ | ------ | ------ | ------ |
 
 ````ASPNET
-	    <telerik:radprogressarea runat="server" id="RadProgressArea1" />
-	    <input type="button" value="Hide" onclick="hideDialog()" /><script type="text/javascript">                                                                   function hideDialog() { $find("<%= RadProgressArea1.ClientID %>").hide(); }</script>
+<telerik:radprogressarea runat="server" id="RadProgressArea1" />
+<input type="button" value="Hide" onclick="hideDialog()" />
+<script type="text/javascript">
+	function hideDialog() { 
+		$find("<%= RadProgressArea1.ClientID %>").hide(); 
+	}
+</script>
 ````
 
 
@@ -70,21 +80,21 @@ The following table lists the important methods of the **RadProgressArea** clien
 ````JavaScript
 	     
 	
-	    function myUpdate() { 
-	        var progressData =   {     
-	            PrimaryPercent : 10,    
-	            PrimaryTotal : '50kB',   
-	            PrimaryValue : '5kB',  
-	            SecondaryPercent : 50,   
-	            SecondaryTotal : '20kB',  
-	            SecondaryValue : '10kB',   
-	            CurrentOperationText : 'c:\\test.jpg',  
-	            TimeElapsed : '5seconds',   
-	            TimeEstimated : '10seconds',   
-	            TransferSpeed : '100kB/second' 
-	        }
-	        find("<%= RadProgressArea1.ClientID %>").update(progressData);
-		}		
+function myUpdate() { 
+	var progressData =   {     
+		PrimaryPercent : 10,    
+		PrimaryTotal : '50kB',   
+		PrimaryValue : '5kB',  
+		SecondaryPercent : 50,   
+		SecondaryTotal : '20kB',  
+		SecondaryValue : '10kB',   
+		CurrentOperationText : 'c:\\test.jpg',  
+		TimeElapsed : '5seconds',   
+		TimeEstimated : '10seconds',   
+		TransferSpeed : '100kB/second' 
+	}
+	find("<%= RadProgressArea1.ClientID %>").update(progressData);
+}		
 ````
 
 
@@ -97,12 +107,12 @@ The following table lists the important methods of the **RadProgressArea** clien
 
 ````JavaScript
 	     
-		function clientProgressBarUpdating(radProgressArea, args) {  
-	        var bar = args.get_progressBarElement();  
-	        radProgressArea.updateVerticalProgressBar(bar, args.get_progressValue());  
-	        // skip the default progress bar updating  
-	        args.set_cancel(true);
-	    } 
+function clientProgressBarUpdating(radProgressArea, args) {  
+	var bar = args.get_progressBarElement();  
+	radProgressArea.updateVerticalProgressBar(bar, args.get_progressValue());  
+	// skip the default progress bar updating  
+	args.set_cancel(true);
+} 
 				
 ````
 
@@ -116,11 +126,11 @@ The following table lists the important methods of the **RadProgressArea** clien
 
 ````JavaScript
 	     
-		function clientProgressBarUpdating(radProgressArea, args) {  
-	        var bar = args.get_progressBarElement();  
-	        radProgressArea.updateHorizontalProgressBar(bar, args.get_progressValue());
-	        // skip the default progress bar updating  args.set_cancel(true);
-	    } 
+function clientProgressBarUpdating(radProgressArea, args) {  
+	var bar = args.get_progressBarElement();  
+	radProgressArea.updateHorizontalProgressBar(bar, args.get_progressValue());
+	// skip the default progress bar updating  args.set_cancel(true);
+} 
 				
 ````
 
@@ -133,12 +143,12 @@ The following table lists the important methods of the **RadProgressArea** clien
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	    function clientProgressUpdating(progressArea, args) {
-	        var myControl = $get("myTemplatePrimaryValue");
-	        var data = args.get_progressData();
-	        progressArea.updateTextIndicator(myControl, progressData.PrimaryValue);
-	        args.set_cancel(true);
-	    }
+function clientProgressUpdating(progressArea, args) {
+	var myControl = $get("myTemplatePrimaryValue");
+	var data = args.get_progressData();
+	progressArea.updateTextIndicator(myControl, progressData.PrimaryValue);
+	args.set_cancel(true);
+}
 				
 ````
 
