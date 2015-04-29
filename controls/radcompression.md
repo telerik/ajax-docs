@@ -14,7 +14,7 @@ position: 8
 
 ## What is RadCompression?
 
-Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI for ASP.NET AJAX and isdesigned to *automatically* compress your AJAX and Web Service responses. In other words,RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes overand decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
+Simply put, RadCompression is a HttpModule that is shipped with the Telerik UI for ASP.NET AJAX and is designed to *automatically* compress your AJAX and Web Service responses. In other words,RadCompression will intercept the bits that your server is sending back to a browser (or Silverlight-client, for that matter) and compress them. Once the compressed bits reach the browser, standard browser technology takes over and decompresses the response, so your application can work with it normally. The compression process is completely transparent to your client-side code (JavaScript or Silverlight) and your server-side code.It simply reduces the number of bits that are sent over the wire (from your server to your client) and thus -in theory - improves your page performance by reducing the TTLB (time to last byte).
 
 ## 
 
@@ -30,54 +30,52 @@ RadCompression is designed based on other HTTPcompression tools, such as the bui
 
 * application/atom+xml
 
-These types generally reflect the content types returned by AJAX Web Services, ADO.NET Data Services,	and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types	(such as a typical RSS feed). If a browser supports compression (most modern browsers do) and RadCompression	is enabled, all content of this type will be compressed. The one exception is IE6, which does not supportthis compression well, so RadCompression will automatically ignore requests coming fromIE6 clients.
+These types generally reflect the content types returned by AJAX Web Services, ADO.NET Data Services,	and AJAX UpdatePanel responses, though there certainly are other scenarios that return these content types	(such as a typical RSS feed). If a browser supports compression (most modern browsers do) and RadCompression	is enabled, all content of this type will be compressed. The one exception is IE6, which does not support this compression well, so RadCompression will automatically ignore requests coming fromIE6 clients.
 
 ## How is RadCompression enabled?
 
 Enabling RadCompression could not be easier. It is a simple matter of adding a HttpModule registration to the site'sweb.config. Specifically, you need the following:
 
 ````ASPNET
-	<httpmodules>
-	    ...
-	    <!-- Add this line exactly as is - the name value is important -->
-	    <add name="RadCompression" type="Telerik.Web.UI.RadCompression" />
-	</httpmodules>
-	<!-- If you're using IIS7, then add this, too-->
-	<system.webserver>
-	 <modules>
-	   ...
-	   <add name="RadCompression" type="Telerik.Web.UI.RadCompression" />
-	 </modules>
-	...     
-	</system.webserver>		
+<httpmodules>
+    ...
+    <!-- Add this line exactly as is - the name value is important -->
+    <add name="RadCompression" type="Telerik.Web.UI.RadCompression" />
+</httpmodules>
+<!-- If you're using IIS7, then add this, too-->
+<system.webserver>
+ <modules>
+   ...
+   <add name="RadCompression" type="Telerik.Web.UI.RadCompression" />
+ </modules>
+...     
+</system.webserver>		
 ````
 
 
 
-By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you canenable compression for regular postbacks as well setting the *enablePostbackCompression * property totrue (its default value is false, see web.config section below).You also have the option to disable the compression for particular pagesif necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
+By default the RadCompression module will compress AJAX requests only (with the content type headers specified above), however you can enable compression for regular postbacks as well setting the *enablePostbackCompression * property to true (its default value is false, see web.config section below).You also have the option to disable the compression for particular pages if necessary. To do that use the *RadCompressionSettings* attribute of the page in question:
 
 
 
-````C#
-	     
-	[Telerik.Web.UI.RadCompressionSettings(HttpCompression = Telerik.Web.UI.CompressionType.None)]  
-	public partial class Default_Cs : System.Web.UI.Page 
-	{
-	    ...
-	}
+````C#     
+[Telerik.Web.UI.RadCompressionSettings(HttpCompression = Telerik.Web.UI.CompressionType.None)]  
+public partial class Default_Cs : System.Web.UI.Page 
+{
+    ...
+}
 ````
 ````VB.NET
-	<Telerik.Web.UI.RadCompressionSettings(HttpCompression:=Telerik.Web.UI.CompressionType.None)> _
-	Partial Public Class _Default
-	    Inherits System.Web.UI.Page
-	    '...
-	End Class
+<Telerik.Web.UI.RadCompressionSettings(HttpCompression:=Telerik.Web.UI.CompressionType.None)> _
+Partial Public Class _Default
+    Inherits System.Web.UI.Page
+    '...
+End Class
 ````
 
 
-Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done (note the *matchExact* attribute which determineswhether the rule will be forced for the specified path only or globally for the entire web site/web application project):#_web.config_
-
-	
+Another aspect of the RadCompression model allows you to exclude particular request handlers through the RadCompression web.configconfiguration settings. Here is an example how this can be done (note the *matchExact* attribute which determines whether the rule will be forced for the specified path only or globally for the entire web site/web application project):
+````ASPNET
 <configSections>
 ....................
 <sectionGroup name="telerik.web.ui">
@@ -100,26 +98,26 @@ Another aspect of the RadCompression model allows you to exclude particular requ
         </excludeHandlers>
     </radCompression> 	
 </telerik.web.ui>
+````
 
 
 
-
->note When using **IIS dynamic compression **** ** enabling RadCompression is not required as this will result in double compression of the response.
+>note When using **IIS dynamic compression** enabling RadCompression is not required as this will result in double compression of the response.
 >
 
 
 ## ViewState compression
 
-When you enable the RadCompression module, you get the entire response compressed *including the ViewState*. However, you also have the option to turn on only ViewState compression and store it either in a hidden field, or in the Session (to pass and retrieve it from there on form submits), withoutcompressing the rest of the response. For this purpose you can use additional page adapters which override the default page adapter for viewstate storage. To enable viewstate compression you can register these RadCompression controlAdapters using *BrowserFile.browser* filein *App_Browsers* folder of your web site/project. Here is how to register a hidden field which will be usedas a container for the compressed page viewstate:
+When you enable the RadCompression module, you get the entire response compressed *including the ViewState*. However, you also have the option to turn on only ViewState compression and store it either in a hidden field, or in the Session (to pass and retrieve it from there on form submits), without compressing the rest of the response. For this purpose you can use additional page adapters which override the default page adapter for viewstate storage. To enable viewstate compression you can register these RadCompression controlAdapters using *BrowserFile.browser* file in *App_Browsers* folder of your web site/project. Here is how to register a hidden field which will be used as a container for the compressed page viewstate:
 
 ````ASPNET
-	<browsers>  
-	 <browser refID="Default">   
-	   <controlAdapters>  
-	     <adapter controlType="System.Web.UI.Page" adapterType="Telerik.Web.UI.RadHiddenFieldPageStateCompression" />  
-	   </controlAdapters>  
-	 </browser>  
-	</browsers>   			
+<browsers>  
+ <browser refID="Default">   
+   <controlAdapters>  
+     <adapter controlType="System.Web.UI.Page" adapterType="Telerik.Web.UI.RadHiddenFieldPageStateCompression" />  
+   </controlAdapters>  
+ </browser>  
+</browsers>   			
 ````
 
 
@@ -129,33 +127,33 @@ To use this adapter you *do not need to enable RadCompression module* through th
 You can also store the compressed ViewState in the Session:
 
 ````ASPNET
-	<browsers>  
-	 <browser refID="Default">   
-	   <controlAdapters>  
-	     <adapter controlType="System.Web.UI.Page" adapterType="Telerik.Web.UI.RadSessionPageStateCompression" />  
-	   </controlAdapters>  
-	 </browser>  
-	</browsers>    			
+<browsers>  
+ <browser refID="Default">   
+   <controlAdapters>  
+     <adapter controlType="System.Web.UI.Page" adapterType="Telerik.Web.UI.RadSessionPageStateCompression" />  
+   </controlAdapters>  
+ </browser>  
+</browsers>    			
 ````
 
 
 
-In this case enabling RadCompression at the same time would be fine, as when the compressed ViewState is saved in Session, it is not included in the response, sothe RadCompression module does not compress it.
+In this case enabling RadCompression at the same time would be fine, as when the compressed ViewState is saved in Session, it is not included in the response, so the RadCompression module does not compress it.
 
 ## RadCompression and SessionPageState
 
 Due to the fact that **RadCompression** module takes advantage of theASP.NET's **SessionPageStatePersister** there are some scenarios where you may need to fine-tune its settings:
 
-* **ControlState** - by default, the **SessionPageStatePersister** doesn't addthe **ControlState** to the **Session** so you may need to add it manually:
+* **ControlState** - by default, the **SessionPageStatePersister** doesn't add the **ControlState** to the **Session** so you may need to add it manually:
 
 ````ASPNET
-	<system.web>
-	    <browserCaps>
-	        <case>
-	            RequiresControlStateInSession=true
-	        </case>
-	    </browserCaps>
-	</system.web> 		
+<system.web>
+    <browserCaps>
+        <case>
+            RequiresControlStateInSession=true
+        </case>
+    </browserCaps>
+</system.web> 		
 ````
 
 
@@ -163,9 +161,9 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
 * **Page history** - in applications where you have a lot of popup windows, it is important to increase the	amount of the pages that are persisted in the **Session**. The default value of the history size is 9.
 
 ````ASPNET
-	<system.web>   
-	  <sessionPageState historySize="15" />
-	</system.web> 
+<system.web>   
+  <sessionPageState historySize="15" />
+</system.web> 
 ````
 
 
@@ -179,16 +177,16 @@ Due to the fact that **RadCompression** module takes advantage of theASP.NET's *
 You can enable the postback compression by setting the *enablePostbackCompression* property of theRadCompression module to true (the default value is *false*). This can be done at application level in the following manner:
 
 ````ASPNET
-	<configSections>
-	....................
-	<sectionGroup name="telerik.web.ui">
-	      <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
-	</sectionGroup>
-	....................
-	</configSections>
-	<telerik.web.ui>  
-	   <radCompression enablePostbackCompression="true"/>
-	</telerik.web.ui> 		
+<configSections>
+....................
+<sectionGroup name="telerik.web.ui">
+      <section name="radCompression" type="Telerik.Web.UI.RadCompressionConfigurationSection, Telerik.Web.UI, PublicKeyToken=121fae78165ba3d4" allowDefinition="MachineToApplication" requirePermission="false"/>
+</sectionGroup>
+....................
+</configSections>
+<telerik.web.ui>  
+   <radCompression enablePostbackCompression="true"/>
+</telerik.web.ui> 		
 ````
 
 
@@ -201,13 +199,13 @@ You can enable the postback compression by setting the *enablePostbackCompressio
 
 Here are some of the known issues you can face when using RadCompression.
 
-**1.***Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
+**1.** *Problem:* When RadCompression is enabled and you are using **.NET 4.0 or .NET 4.5**, event handlers might not be raised in a default document in IIS 7 and higher versions **Integrated Mode.**
 
-*Solution: *This problem is caused by a breaking change in .NET 4.0 described[here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1**Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
+*Solution:* This problem is caused by a breaking change in .NET 4.0 described[here](http://www.asp.net/learn/whitepapers/aspnet4/breaking-changes#0.1__Toc256770154). To workaround it one can set **preCondition="managedHandler"** for the RadCompression module. You may also need to remove the **runAllManagedModulesForAllRequests** setting from your web.config if you have it (or set it to false).
 
 **2.***Problem:* RadControls bound to a WCF services do not work In Classic AppPool scenarios with Windows authentication enabled.
 
-*Solution: *Try removing RadCompression from the HttpModules section of the web.config. We have found out that on some machines RadCompression halts the WCF responses, effectively breaking the pages that consume the services.
+*Solution:* Try removing RadCompression from the HttpModules section of the web.config. We have found out that on some machines RadCompression halts the WCF responses, effectively breaking the pages that consume the services.
 
 ## What is the benefit?
 
@@ -215,6 +213,6 @@ You can see the results from eight unique tests made by our evangelist Todd Angl
 
 ## Optimization tip summary
 
-When it comes to RadCompression, the impact it has on your site just depends on where your users are located. If you have a sitethat is deployed over the web where latency and connection speeds are unpredictable, reducing the bytes you send over the wire is	an easy way to improve your site's performance. And since RadCompression can literally be implemented with a single change to your	config file, you really do not have much to lose. In a quick word:
+When it comes to RadCompression, the impact it has on your site just depends on where your users are located. If you have a site that is deployed over the web where latency and connection speeds are unpredictable, reducing the bytes you send over the wire is	an easy way to improve your site's performance. And since RadCompression can literally be implemented with a single change to your	config file, you really do not have much to lose. In a quick word:
 
 **RadCompression is an easy way to reduce the bytes sent over the wire for XHR operations.**

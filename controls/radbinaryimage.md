@@ -12,7 +12,7 @@ position: 6
 
 
 
-**RadBinaryImage** gives you an easy way of showing an image stored as binary data in a database. The control can be used in any data bound control (**Repeater**, **DataList**, **GridView**, etc.) to display images which originate from binary image field in the data source. The control uses an internal http handler which streams the image from the binary source to the page in which it has to be visualized.The storage of the binary stream when transferred between the control itself and the handler is the *HttpContext.Current.Cache* object and the image is cached in the browser. Its default expiration time is 2 hours (unless the control in which the **RadBinaryImage**is nested is rebound or recreated). This means that subsequent loads of the binary image are taken from the browser cache when using the same url for access. In case the browser cache is disabled, the image will be persisted for 2 minutes on the server before it is streamed to the page from the data source.
+**RadBinaryImage** gives you an easy way of showing an image stored as binary data in a database. The control can be used in any data bound control (**Repeater**, **DataList**, **GridView**, etc.) to display images which originate from binary image field in the data source. The control uses an internal http handler which streams the image from the binary source to the page in which it has to be visualized.The storage of the binary stream when transferred between the control itself and the handler is the *HttpContext.Current.Cache* object and the image is cached in the browser. Its default expiration time is 2 hours (unless the control in which the **RadBinaryImage** is nested is rebound or recreated). This means that subsequent loads of the binary image are taken from the browser cache when using the same url for access. In case the browser cache is disabled, the image will be persisted for 2 minutes on the server before it is streamed to the page from the data source.
 
 ## 
 
@@ -49,80 +49,81 @@ The most important properties of the **RadBinaryImage** control are presented in
 
 ## RadBinaryImage Design Time
 
-The RadBinaryImage Smart Tag provides convenient access to the most common used properties for the control.	You can display the Smart Tag by right clicking on the RadBinaryImage in the design window, and choosing the "Show Smart Tag"	option from its context menu.![radbinaryimagetaskspng](images/radbinaryimagetaskspng.png)
+The RadBinaryImage Smart Tag provides convenient access to the most common used properties for the control.	You can display the Smart Tag by right clicking on the RadBinaryImage in the design window, and choosing the "Show Smart Tag"	option from its context menu.
+![radbinaryimagetaskspng](images/radbinaryimagetaskspng.png)
 
 >note When you want to display transparent .gif images using a RadBinaryImage, you should set its **ResizeMode** property to **None** . This is so because image transformations with such files are not supported.
 >
 
 
-Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/examples/overview/defaultcs.aspx) which demonstrates how to integrate **RadBinaryImage** as part of **ASP.NET****Repeater** template. The screen shot from the result is available below:
+Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/examples/overview/defaultcs.aspx) which demonstrates how to integrate **RadBinaryImage** as part of **ASP.NET** **Repeater** template. The screen shot from the result is available below:
 
 ![radbinaryimage thumb](images/radbinaryimage_thumb.PNG)
 
 ````ASPNET
-	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head id="Head1" runat="server">
-	    <title></title>
-	    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body class="BODY">
-	    <form id="form1" runat="server">
-	    <div>
-	        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
-	        <asp:Repeater runat="server" ID="Repeater1" DataSourceID="SqlDataSource2">
-	            <ItemTemplate>
-	                <fieldset style="float: left; width: 350px; height: 150px;">
-	                    <legend><b>Company Name</b>:
-	                        <%#Eval("CompanyName")%></legend>
-	                    <div class="details">
-	                        <div class="photo-container">
-	                            <telerik:RadBinaryImage runat="server" ID="RadBinaryImage1" DataValue='<%#Eval("Photo") %>'
-	                                AutoAdjustImageControlSize="false" Width="90px" Height="110px" ToolTip='<%#Eval("ContactName", "Photo of {0}") %>'
-	                                AlternateText='<%#Eval("ContactName", "Photo of {0}") %>' />
-	                        </div>
-	                        <div class="data-container">
-	                            <ul>
-	                                <li>
-	                                    <label>
-	                                        Contact Name:</label>
-	                                    <%#Eval("ContactName")%>
-	                                </li>
-	                                <li>
-	                                    <label>
-	                                        Title:</label>
-	                                    <%#Eval("ContactTitle")%>
-	                                </li>
-	                                <li>
-	                                    <label>
-	                                        City:</label>
-	                                    <%#Eval("City")%>
-	                                </li>
-	                                <li>
-	                                    <label>
-	                                        Country:</label>
-	                                    <%#Eval("Country")%>
-	                                </li>
-	                                <li>
-	                                    <label>
-	                                        Phone:</label>
-	                                    <%#Eval("Phone")%>
-	                                </li>
-	                            </ul>
-	                        </div>
-	                    </div>
-	                </fieldset>
-	            </ItemTemplate>
-	        </asp:Repeater>
-	        <div style="clear: both;">
-	        </div>
-	        <telerik:RadFormDecorator runat="server" ID="radFormDecorator" DecoratedControls="All" />
-	        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<$ ConnectionStrings>"
-	            ProviderName="<$ ConnectionStrings>" SelectCommand="SELECT TOP 6 * FROM [CustomerPhotos]">
-	        </asp:SqlDataSource>
-	    </div>
-	    </form>
-	</body>
-	</html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="BODY">
+    <form id="form1" runat="server">
+    <div>
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
+        <asp:Repeater runat="server" ID="Repeater1" DataSourceID="SqlDataSource2">
+            <ItemTemplate>
+                <fieldset style="float: left; width: 350px; height: 150px;">
+                    <legend><b>Company Name</b>:
+                        <%#Eval("CompanyName")%></legend>
+                    <div class="details">
+                        <div class="photo-container">
+                            <telerik:RadBinaryImage runat="server" ID="RadBinaryImage1" DataValue='<%#Eval("Photo") %>'
+                                AutoAdjustImageControlSize="false" Width="90px" Height="110px" ToolTip='<%#Eval("ContactName", "Photo of {0}") %>'
+                                AlternateText='<%#Eval("ContactName", "Photo of {0}") %>' />
+                        </div>
+                        <div class="data-container">
+                            <ul>
+                                <li>
+                                    <label>
+                                        Contact Name:</label>
+                                    <%#Eval("ContactName")%>
+                                </li>
+                                <li>
+                                    <label>
+                                        Title:</label>
+                                    <%#Eval("ContactTitle")%>
+                                </li>
+                                <li>
+                                    <label>
+                                        City:</label>
+                                    <%#Eval("City")%>
+                                </li>
+                                <li>
+                                    <label>
+                                        Country:</label>
+                                    <%#Eval("Country")%>
+                                </li>
+                                <li>
+                                    <label>
+                                        Phone:</label>
+                                    <%#Eval("Phone")%>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </fieldset>
+            </ItemTemplate>
+        </asp:Repeater>
+        <div style="clear: both;">
+        </div>
+        <telerik:RadFormDecorator runat="server" ID="radFormDecorator" DecoratedControls="All" />
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<$ ConnectionStrings>"
+            ProviderName="<$ ConnectionStrings>" SelectCommand="SELECT TOP 6 * FROM [CustomerPhotos]">
+        </asp:SqlDataSource>
+    </div>
+    </form>
+</body>
+</html>
 ````
 
 
@@ -132,22 +133,22 @@ Here is an [online demo](http://demos.telerik.com/aspnet-ajax/binaryimage/exampl
 
 
 ````XML
-	<httpHandlers>
-		<remove path="*.asmx" verb="*" />
-		...
-		<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
-	</httpHandlers>
+<httpHandlers>
+	<remove path="*.asmx" verb="*" />
+	...
+	<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
+</httpHandlers>
 ````
 
 
 
 ````XML
-	<system.webServer>
-	    ...
-	    <handlers>
-	        <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
-	    </handlers>
-	</system.webServer>
+<system.webServer>
+    ...
+    <handlers>
+        <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
+    </handlers>
+</system.webServer>
 ````
 
 
@@ -161,7 +162,7 @@ RadBinaryImage ARIA attributes are **lower case**. They are shown in the table b
 
 >caption  
 
-|  **Control**  |  **Attributes**  |
+|  Control  |  Attributes  |
 | ------ | ------ |
 | **RadBinaryImage** |Role: imgAria-labelAria-atomic|
 
@@ -171,13 +172,13 @@ RadBinaryImage ARIA attributes are **lower case**. They are shown in the table b
 
 ## Using RadBinaryImage in a WebFarm/WebGarden Environment
 
-By default the **RadBinaryImage** control stores the BinaryImage in the Cache object. In case your applicationis configured to run in any of the environments, listed below, there will be a problem accessing the binary image:
+By default the **RadBinaryImage** control stores the BinaryImage in the Cache object. In case your application is configured to run in any of the environments, listed below, there will be a problem accessing the binary image:
 
 * **Web Farm** - The application runs on more than one web server at the same time.
 
 * **Web Garden** - The application runs on a single server, but the server load is divided among many worker processes (more than one process are running the same application).
 
-Usually, every server (or every worker process) has an independent Cache, which means that, when the page request is not handled by the sameweb server (worker process), the BinaryImage will be null and a gray image will be shown.
+Usually, every server (or every worker process) has an independent Cache, which means that, when the page request is not handled by the same web server (worker process), the BinaryImage will be null and a gray image will be shown.
 
 To avoid this behavior, you should store the binary image in the Session and configure your server environment to use out of process Session State(i.e. the Session object is shared among different processes and servers). The last is achievable by following the steps listed below:
 
@@ -188,18 +189,18 @@ To avoid this behavior, you should store the binary image in the Session and con
 1. Configure the httpHandler in the following way:
 
 ````XML
-	<configuration>
-		<system.web>
-			<httpHandlers>
-				<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" verb="*" validate="false" />
-			</httpHandlers>
-		</system.web>
-		<system.webServer>
-			<handlers>
-				<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" />
-			</handlers>
-		</system.webServer>
-	</configuration>
+<configuration>
+	<system.web>
+		<httpHandlers>
+			<add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" verb="*" validate="false" />
+		</httpHandlers>
+	</system.web>
+	<system.webServer>
+		<handlers>
+			<add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResourceSession, Telerik.Web.UI" />
+		</handlers>
+	</system.webServer>
+</configuration>
 ````
 
 
