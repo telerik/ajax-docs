@@ -22,27 +22,25 @@ In a nutshell - you need to recreate (in the page load event) the state of the p
 
 
 
-````C#
-	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (Page.FindControl("myUC") == null)
-	        {
-	            Control myControl = this.LoadControl("gridUC.ascx");
-	            myControl.ID = "myUC";
-	            this.Panel1.Controls.Add(myControl);
-	        }
-	    }
-	
+````C#	
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (Page.FindControl("myUC") == null)
+    {
+        Control myControl = this.LoadControl("gridUC.ascx");
+        myControl.ID = "myUC";
+        this.Panel1.Controls.Add(myControl);
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        If Page.FindControl("myUC") = Nothing Then
-	            Dim myControl As Control = Me.LoadControl("gridUC.ascx")
-	            myControl.ID = "myUC"
-	            Me.Panel1.Controls.Add(myControl)
-	        End If
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+    If Page.FindControl("myUC") = Nothing Then
+        Dim myControl As Control = Me.LoadControl("gridUC.ascx")
+        myControl.ID = "myUC"
+        Me.Panel1.Controls.Add(myControl)
+    End If
+End Sub
 ````
 
 
@@ -53,23 +51,21 @@ As an alternate approach, you can load user controls in the **Page_Init** event 
 
 
 ````C#
-	
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        this.Panel1.Controls.Clear();
-	        Control myControl = this.LoadControl("gridUC.ascx");
-	        myControl.ID = "myUC";
-	        this.Panel1.Controls.Add(myControl);
-	    }
-	
+protected void Page_Init(object sender, EventArgs e)
+{
+    this.Panel1.Controls.Clear();
+    Control myControl = this.LoadControl("gridUC.ascx");
+    myControl.ID = "myUC";
+    this.Panel1.Controls.Add(myControl);
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
-	        Me.Panel1.Controls.Clear()
-	        Dim myControl As Control = Me.LoadControl("gridUC.ascx")
-	        myControl.ID = "myUC"
-	        Me.Panel1.Controls.Add(myControl)
-	    End Sub
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
+    Me.Panel1.Controls.Clear()
+    Dim myControl As Control = Me.LoadControl("gridUC.ascx")
+    myControl.ID = "myUC"
+    Me.Panel1.Controls.Add(myControl)
+End Sub
 ````
 
 

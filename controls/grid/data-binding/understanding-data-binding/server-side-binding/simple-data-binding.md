@@ -45,74 +45,71 @@ The following example shows the steps for simple data-binding with **RadGrid**. 
 
 
 ````C#
-	
-	
-	    private void LoadData()
-	    {
-	        OleDbConnection MyOleDbConnection = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/App_Data/NWind.mdb"));
-	        OleDbDataAdapter MyOleDbDataAdapter = new OleDbDataAdapter();
-	        DataSet MyDataSet = new DataSet();
-	        MyOleDbConnection.Open();
-	        try
-	        {
-	            MyOleDbDataAdapter.SelectCommand = new OleDbCommand("SELECT * FROM Customers", MyOleDbConnection);
-	            MyOleDbDataAdapter.Fill(MyDataSet, "Customers");
-	        }
-	        finally
-	        {
-	            MyOleDbConnection.Close();
-	        }
-	        DataView myDataView = MyDataSet.Tables["Customers"].DefaultView;
-	        RadGrid1.DataSource = myDataView;
-	    }
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            LoadData();
-	            RadGrid1.DataBind();
-	        }
-	    }
-	    protected void RadGrid1_PageIndexChanged(object source, Telerik.Web.UI.GridPageChangedEventArgs e)
-	    {
-	        RadGrid1.CurrentPageIndex = e.NewPageIndex;
-	        LoadData();
-	        RadGrid1.DataBind();
-	    }
-	
+private void LoadData()
+{
+    OleDbConnection MyOleDbConnection = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/App_Data/NWind.mdb"));
+    OleDbDataAdapter MyOleDbDataAdapter = new OleDbDataAdapter();
+    DataSet MyDataSet = new DataSet();
+    MyOleDbConnection.Open();
+    try
+    {
+        MyOleDbDataAdapter.SelectCommand = new OleDbCommand("SELECT * FROM Customers", MyOleDbConnection);
+        MyOleDbDataAdapter.Fill(MyDataSet, "Customers");
+    }
+    finally
+    {
+        MyOleDbConnection.Close();
+    }
+    DataView myDataView = MyDataSet.Tables["Customers"].DefaultView;
+    RadGrid1.DataSource = myDataView;
+}
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        LoadData();
+        RadGrid1.DataBind();
+    }
+}
+protected void RadGrid1_PageIndexChanged(object source, Telerik.Web.UI.GridPageChangedEventArgs e)
+{
+    RadGrid1.CurrentPageIndex = e.NewPageIndex;
+    LoadData();
+    RadGrid1.DataBind();
+}
 ````
 ````VB.NET
-	    Private Sub LoadData()
-	        Dim MyOleDbConnection As New OleDbConnection( _
-	            "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + _
-	             Server.MapPath("~/App_Data/NWind.mdb"))
-	        Dim MyOleDbDataAdapter As New OleDbDataAdapter()
-	        Dim MyDataSet As New DataSet()
-	        MyOleDbConnection.Open()
-	        Try
-	            MyOleDbDataAdapter.SelectCommand = _
-	               New OleDbCommand("SELECT * FROM Customers", MyOleDbConnection)
-	            MyOleDbDataAdapter.Fill(MyDataSet, "Customers")
-	        Finally
-	            MyOleDbConnection.Close()
-	        End Try
-	        Dim myDataView As DataView = MyDataSet.Tables("Customers").DefaultView
-	        RadGrid1.DataSource = myDataView
-	    End Sub 'LoadData
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) _
-	          Handles Me.Load
-	        If Not IsPostBack Then
-	            LoadData()
-	            RadGrid1.DataBind()
-	        End If
-	    End Sub 'Page_Load
-	    Protected Sub RadGrid1_PageIndexChanged(ByVal [source] As Object, _
-	                     ByVal e As Telerik.Web.UI.GridPageChangedEventArgs) _
-	                     Handles RadGrid1.PageIndexChanged
-	        RadGrid1.CurrentPageIndex = e.NewPageIndex
-	        LoadData()
-	        RadGrid1.DataBind()
-	    End Sub 'RadGrid1_PageIndexChanged 
+Private Sub LoadData()
+    Dim MyOleDbConnection As New OleDbConnection( _
+        "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + _
+         Server.MapPath("~/App_Data/NWind.mdb"))
+    Dim MyOleDbDataAdapter As New OleDbDataAdapter()
+    Dim MyDataSet As New DataSet()
+    MyOleDbConnection.Open()
+    Try
+        MyOleDbDataAdapter.SelectCommand = _
+           New OleDbCommand("SELECT * FROM Customers", MyOleDbConnection)
+        MyOleDbDataAdapter.Fill(MyDataSet, "Customers")
+    Finally
+        MyOleDbConnection.Close()
+    End Try
+    Dim myDataView As DataView = MyDataSet.Tables("Customers").DefaultView
+    RadGrid1.DataSource = myDataView
+End Sub 'LoadData
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) _
+      Handles Me.Load
+    If Not IsPostBack Then
+        LoadData()
+        RadGrid1.DataBind()
+    End If
+End Sub 'Page_Load
+Protected Sub RadGrid1_PageIndexChanged(ByVal [source] As Object, _
+                 ByVal e As Telerik.Web.UI.GridPageChangedEventArgs) _
+                 Handles RadGrid1.PageIndexChanged
+    RadGrid1.CurrentPageIndex = e.NewPageIndex
+    LoadData()
+    RadGrid1.DataBind()
+End Sub 'RadGrid1_PageIndexChanged 
 ````
 
 

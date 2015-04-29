@@ -31,7 +31,7 @@ There are three ways to bind the grid to a database:
 
 ## Hierarchical grids
 
-In a heirarchical grid, detail tables must be bound separately from their parent tables, using a separate data source. When binding detail tables, you must also manage the relationship of the records in the detail data source to the parent table. There are two methods for managing this relationship:
+In a hierarchical grid, detail tables must be bound separately from their parent tables, using a separate data source. When binding detail tables, you must also manage the relationship of the records in the detail data source to the parent table. There are two methods for managing this relationship:
 
 * [Using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
 

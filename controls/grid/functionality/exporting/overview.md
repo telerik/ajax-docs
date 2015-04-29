@@ -1,6 +1,6 @@
 ---
-title: Exporting Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Exporting Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/functionality/exporting/overview
 tags: overview

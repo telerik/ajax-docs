@@ -31,88 +31,81 @@ To enable automatic editing at data source level, set the *AllowAutomaticUpdates
 Here are the code snippets from the example referenced in the previous paragraph:
 
 ````ASPNET
-	  <%@ register assembly="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-	    namespace="System.Web.UI.WebControls" tagprefix="asp" %>
-	  <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	  </telerik:RadScriptManager>
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="EntityDataSourceCustomers"
-	    GridLines="None" AllowPaging="True" AllowAutomaticUpdates="True" AllowAutomaticInserts="True"
-	    AllowSorting="true" Width="750px" OnItemCreated="RadGrid1_ItemCreated">
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	    <MasterTableView DataSourceID="EntityDataSourceCustomers" AutoGenerateColumns="False"
-	      DataKeyNames="CustomerID" CommandItemDisplay="Top">
-	      <Columns>
-	        <telerik:GridEditCommandColumn ButtonType="ImageButton" UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	        <telerik:GridBoundColumn DataField="CustomerID" HeaderText="CustomerID" SortExpression="CustomerID"
-	          UniqueName="CustomerID" Visible="false" MaxLength="5">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" SortExpression="ContactName"
-	          UniqueName="ContactName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" SortExpression="CompanyName"
-	          UniqueName="CompanyName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ContactTitle" HeaderText="ContactTitle" SortExpression="ContactTitle"
-	          UniqueName="ContactTitle">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="Phone" HeaderText="Phone" SortExpression="Phone"
-	          UniqueName="Phone">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	      <EditFormSettings>
-	        <EditColumn ButtonType="ImageButton" />
-	      </EditFormSettings>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:EntityDataSource ID="EntityDataSourceCustomers" runat="server" ConnectionString="name=NorthwindEntities"
-	    DefaultContainerName="NorthwindEntities" EntitySetName="Customers" OrderBy="it.[ContactName]"
-	    EntityTypeFilter="Customers" EnableUpdate="True" EnableDelete="True" EnableInsert="True">
-	  </asp:EntityDataSource>
+<%@ register assembly="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  namespace="System.Web.UI.WebControls" tagprefix="asp" %>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="EntityDataSourceCustomers"
+  GridLines="None" AllowPaging="True" AllowAutomaticUpdates="True" AllowAutomaticInserts="True"
+  AllowSorting="true" Width="750px" OnItemCreated="RadGrid1_ItemCreated">
+  <PagerStyle Mode="NextPrevAndNumeric" />
+  <MasterTableView DataSourceID="EntityDataSourceCustomers" AutoGenerateColumns="False"
+    DataKeyNames="CustomerID" CommandItemDisplay="Top">
+    <Columns>
+      <telerik:GridEditCommandColumn ButtonType="ImageButton" UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+      <telerik:GridBoundColumn DataField="CustomerID" HeaderText="CustomerID" SortExpression="CustomerID"
+        UniqueName="CustomerID" Visible="false" MaxLength="5">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" SortExpression="ContactName"
+        UniqueName="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" SortExpression="CompanyName"
+        UniqueName="CompanyName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ContactTitle" HeaderText="ContactTitle" SortExpression="ContactTitle"
+        UniqueName="ContactTitle">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="Phone" HeaderText="Phone" SortExpression="Phone"
+        UniqueName="Phone">
+      </telerik:GridBoundColumn>
+    </Columns>
+    <EditFormSettings>
+      <EditColumn ButtonType="ImageButton" />
+    </EditFormSettings>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:EntityDataSource ID="EntityDataSourceCustomers" runat="server" ConnectionString="name=NorthwindEntities"
+  DefaultContainerName="NorthwindEntities" EntitySetName="Customers" OrderBy="it.[ContactName]"
+  EntityTypeFilter="Customers" EnableUpdate="True" EnableDelete="True" EnableInsert="True">
+</asp:EntityDataSource>
 ````
-
-
-
-
-
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)    
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            if (!e.Item.OwnerTableView.IsItemInserted)
-	            {
-	                GridEditableItem item = e.Item as GridEditableItem;
-	                GridEditManager manager = item.EditManager;
-	                GridTextBoxColumnEditor editor = manager.GetColumnEditor("CustomerID") as GridTextBoxColumnEditor;
-	                editor.TextBoxControl.Enabled = false;            }
-	        }
-	    }
-				
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)    
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        if (!e.Item.OwnerTableView.IsItemInserted)
+        {
+            GridEditableItem item = e.Item as GridEditableItem;
+            GridEditManager manager = item.EditManager;
+            GridTextBoxColumnEditor editor = manager.GetColumnEditor("CustomerID") as GridTextBoxColumnEditor;
+            editor.TextBoxControl.Enabled = false;            }
+    }
+}		
 ````
-````VB.NET
-	     
-	
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
-	            If Not e.Item.OwnerTableView.IsItemInserted Then
-	                Dim item As GridEditableItem = TryCast(e.Item, GridEditableItem)
-	                Dim manager As GridEditManager = item.EditManager
-	                Dim editor As GridTextBoxColumnEditor = TryCast(manager.GetColumnEditor("CustomerID"), GridTextBoxColumnEditor)
-	                editor.TextBoxControl.Enabled = False
-	            End If
-	        End If
-	    End Sub
-	
+````VB.NET	     	
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
+        If Not e.Item.OwnerTableView.IsItemInserted Then
+            Dim item As GridEditableItem = TryCast(e.Item, GridEditableItem)
+            Dim manager As GridEditManager = item.EditManager
+            Dim editor As GridTextBoxColumnEditor = TryCast(manager.GetColumnEditor("CustomerID"), GridTextBoxColumnEditor)
+            editor.TextBoxControl.Enabled = False
+        End If
+    End If
+End Sub
 ````
+
+
 

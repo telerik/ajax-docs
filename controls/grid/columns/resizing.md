@@ -80,25 +80,26 @@ When **ClipCellContentOnResize** is **False**, users can't resize a column so th
 
 ## Resize to fit
 
-With version Q3 2010, grid columns now support the **'resize to fit'** functionality. Double-clicking the resize handle or choosing 'Best Fit' from the grid header context menu will automatically resize the target column to fit the widest cell's content without wrapping. You can also use [resizeToFit]({%slug grid/client-side-programming/gridcolumn-object/methods/resizetofit-%}) client-side method to do this programatically.
+With version Q3 2010, grid columns now support the **'resize to fit'** functionality. Double-clicking the resize handle or choosing 'Best Fit' from the grid header context menu will automatically resize the target column to fit the widest cell's content without wrapping. You can also use [resizeToFit]({%slug grid/client-side-programming/gridcolumn-object/methods/resizetofit-%}) client-side method to do this programmatically.
 
 
 |  **To resize the target column to its best fit, select 'Best Fit' from its header context menu, or double-click its resize handle**  |  **After the column is resized to its best fit, it is as wide as its widest cell content without wrapping.**  |
 | ------ | ------ |
-|![before resize to fit](images/grd_resizeToFit1.png)|![after resize to fit](images/grd_resizeToFit2.png)|
+|![before resize to fit](images/grd_resizeToFit1.png)|
+ ![after resize to fit](images/grd_resizeToFit2.png)|
 
 ## Example
 
 You can set the resizing-related properties declaratively at design time:
 
 ````ASPNET
-	  <telerik:RadGrid runat="server">
-	    <ClientSettings>
-	      <Resizing AllowColumnResize="True" AllowRowResize="false" ResizeGridOnColumnResize="false"
-	        ClipCellContentOnResize="true" EnableRealTimeResize="false" AllowResizeToFit="true" />
-	    </ClientSettings>
-	    ...
-	  </telerik:RadGrid>
+<telerik:RadGrid runat="server">
+  <ClientSettings>
+    <Resizing AllowColumnResize="True" AllowRowResize="false" ResizeGridOnColumnResize="false"
+      ClipCellContentOnResize="true" EnableRealTimeResize="false" AllowResizeToFit="true" />
+  </ClientSettings>
+  ...
+</telerik:RadGrid>
 ````
 
 
@@ -108,23 +109,25 @@ You can also set these properties at runtime in the code-behind:
 
 
 ````C#
-	    RadGrid RadGrid1 = new RadGrid();
-	    RadGrid1.ClientSettings.Resizing.AllowColumnResize = true;
-	    RadGrid1.ClientSettings.Resizing.AllowRowResize = false;
-	    RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false;
-	    RadGrid1.ClientSettings.Resizing.ClipCellContentOnResize = true;
-	    RadGrid1.ClientSettings.Resizing.EnableRealTimeResize = false;
-	    RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false;
-	    //...			
+RadGrid RadGrid1 = new RadGrid();
+RadGrid1.ClientSettings.Resizing.AllowColumnResize = true;
+RadGrid1.ClientSettings.Resizing.AllowRowResize = false;
+RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false;
+RadGrid1.ClientSettings.Resizing.ClipCellContentOnResize = true;
+RadGrid1.ClientSettings.Resizing.EnableRealTimeResize = false;
+RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false;
+//...			
 ````
 ````VB.NET
-	    Dim RadGrid1 As RadGrid = New RadGridRadGrid1.ClientSettings.Resizing.AllowColumnResize = True
-	    RadGrid1.ClientSettings.Resizing.AllowRowResize = false
-	    RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false
-	    RadGrid1.ClientSettings.Resizing.ClipCellContentOnResize = true
-	    RadGrid1.ClientSettings.Resizing.EnableRealTimeResize = false
-	    RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false
-	    '...
-	
+Dim RadGrid1 As RadGrid = New RadGridRadGrid1.ClientSettings.Resizing.AllowColumnResize = True
+RadGrid1.ClientSettings.Resizing.AllowRowResize = false
+RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false
+RadGrid1.ClientSettings.Resizing.ClipCellContentOnResize = true
+RadGrid1.ClientSettings.Resizing.EnableRealTimeResize = false
+RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false
+'...
+
 ````
+
+
 

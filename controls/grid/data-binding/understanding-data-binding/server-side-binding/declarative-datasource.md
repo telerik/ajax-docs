@@ -31,23 +31,23 @@ Before binding the **RadGrid** control, you need to create a separate **DataSour
 The data source controls for detail tables must use parameters to select only those records appropriate to a specific record of the parent table. The following example shows how this is done:
 
 ````ASPNET
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
-	  </asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:SessionParameter Name="CustomerID" SessionField="CustomerID" Type="string" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Order Details] where OrderID = @OrderID"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:SessionParameter Name="OrderID" SessionField="OrderID" Type="Int32" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
+</asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
+  runat="server">
+  <SelectParameters>
+    <asp:SessionParameter Name="CustomerID" SessionField="CustomerID" Type="string" />
+  </SelectParameters>
+</asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Order Details] where OrderID = @OrderID"
+  runat="server">
+  <SelectParameters>
+    <asp:SessionParameter Name="OrderID" SessionField="OrderID" Type="Int32" />
+  </SelectParameters>
+</asp:SqlDataSource>
 ````
 
 
@@ -111,40 +111,40 @@ For each field that links the detail table to its parent, you must add a **GridR
 The following declaration is the result of following the steps listed above:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
-	    <MasterTableView DataKeyNames="CustomerID" DataSourceID="SqlDataSource1">
-	      <DetailTables>
-	        <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="SqlDataSource2">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          <DetailTables>
-	            <telerik:GridTableView runat="server" DataSourceID="SqlDataSource3">
-	              <ParentTableRelation>
-	                <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
-	              </ParentTableRelation>
-	            </telerik:GridTableView>
-	          </DetailTables>
-	        </telerik:GridTableView>
-	      </DetailTables>
-	    </MasterTableView></telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
-	  </asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:SessionParameter Name="CustomerID" SessionField="CustomerID" Type="string" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Order Details] where OrderID = @OrderID"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:SessionParameter Name="OrderID" SessionField="OrderID" Type="Int32" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
+  <MasterTableView DataKeyNames="CustomerID" DataSourceID="SqlDataSource1">
+    <DetailTables>
+      <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="SqlDataSource2">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        <DetailTables>
+          <telerik:GridTableView runat="server" DataSourceID="SqlDataSource3">
+            <ParentTableRelation>
+              <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
+            </ParentTableRelation>
+          </telerik:GridTableView>
+        </DetailTables>
+      </telerik:GridTableView>
+    </DetailTables>
+  </MasterTableView></telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
+</asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders Where CustomerID = @CustomerID"
+  runat="server">
+  <SelectParameters>
+    <asp:SessionParameter Name="CustomerID" SessionField="CustomerID" Type="string" />
+  </SelectParameters>
+</asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Order Details] where OrderID = @OrderID"
+  runat="server">
+  <SelectParameters>
+    <asp:SessionParameter Name="OrderID" SessionField="OrderID" Type="Int32" />
+  </SelectParameters>
+</asp:SqlDataSource>
 ````
 
 

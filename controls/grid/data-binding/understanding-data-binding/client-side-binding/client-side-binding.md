@@ -37,11 +37,11 @@ This [first example](http://demos.telerik.com/aspnet-ajax-beta/Grid/Examples/Cli
 RadGrid declarative client-side data-binding is very similar to **ObjectDataSource** data-binding. You need to specify **SelectMethod** and **SelectCountMethod** (if needed) along with **Location** property and the grid will automatically invoke the specified method as **PageMethod** or **WebService method**:
 
 ````ASPNET
-	  ...
-	  <ClientSettings> 
-	    <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetData" SelectCountMethod="GetCount" /> 
-	  </ClientSettings>
-	  ...
+...
+<ClientSettings> 
+  <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetData" SelectCountMethod="GetCount" /> 
+</ClientSettings>
+...
 ````
 
 
@@ -73,9 +73,9 @@ In the *ClientSettings.DataBinding* section you can also specify the following p
 To change values on the fly of any of the grid declarative client-side data-binding properties you can use the **OnDataBinding** client-side event:
 
 ````ASPNET
-	  ...
-	  <ClientEvents OnDataBinding="RadGrid1_DataBinding" />
-	  ...
+...
+<ClientEvents OnDataBinding="RadGrid1_DataBinding" />
+...
 ````
 
 
@@ -84,29 +84,24 @@ Please refer to the JavaScript code in the demo for more information.To optimize
 
 
 
-````C#
-	
-	    [WebMethod(EnableSession = true)]
-	    public Dictionary<string, object> GetDataAndCount(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression)
-	    {
-	        Dictionary<string, object> data = new Dictionary<string, object>();
-	        data.Add("Data", GetData(startRowIndex, maximumRows, sortExpression, filterExpression));
-	        data.Add("Count", (int)Session["Count"]); return data;
-	    }
-	
+````C#	
+[WebMethod(EnableSession = true)]
+public Dictionary<string, object> GetDataAndCount(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression)
+{
+    Dictionary<string, object> data = new Dictionary<string, object>();
+    data.Add("Data", GetData(startRowIndex, maximumRows, sortExpression, filterExpression));
+    data.Add("Count", (int)Session["Count"]); return data;
+}
 ````
-````VB.NET
-	     
-	
-	    <WebMethod(EnableSession = True)>
-	    <WebMethod(EnableSession:=True)> _
-	    Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As List(Of GridSortExpression), ByVal filterExpression As List(Of GridFilterExpression)) As Dictionary(Of String, Object)
-	        Dim data As New Dictionary(Of String, Object)()
-	        data.Add("Data", GetData(startRowIndex, maximumRows, sortExpression, filterExpression))
-	        data.Add("Count", DirectCast(Session("Count"), Integer))
-	        Return data
-	    End Function
-	
+````VB.NET 
+<WebMethod(EnableSession = True)>
+<WebMethod(EnableSession:=True)> _
+Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As List(Of GridSortExpression), ByVal filterExpression As List(Of GridFilterExpression)) As Dictionary(Of String, Object)
+    Dim data As New Dictionary(Of String, Object)()
+    data.Add("Data", GetData(startRowIndex, maximumRows, sortExpression, filterExpression))
+    data.Add("Count", DirectCast(Session("Count"), Integer))
+    Return data
+End Function
 ````
 
 
@@ -119,11 +114,11 @@ The grid will check automatically for "data" and "count" and will not execute a 
 RadGrid can cache data on the client based on the current grid state. To enable/disable this feature you can use the **ClientSettings.DataBinding.EnableCaching** property (its default value is false):
 
 ````ASPNET
-	  ...
-	  <ClientSettings> 
-	    <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetDataAndCount" EnableCaching="true" /> 
-	  </ClientSettings>
-	  ...
+...
+<ClientSettings> 
+  <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetDataAndCount" EnableCaching="true" /> 
+</ClientSettings>
+...
 ````
 
 
@@ -147,463 +142,461 @@ Below are some code excerpts from the second QSF example:
 
 
 ````ASPNET
-	  <html xmlns="http://www.w3.org/1999/xhtml">
-	<head id="Head1" runat="server">
-	   <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	       <script type="text/javascript">
-	       function pageLoad()
-	       {
-	          $get("<%= Panel1.ClientID %>").innerHTML = "";
-	          if(!$get("<%= CheckBox2.ClientID %>").checked)
-	          {
-	              var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	             
-	              PageMethods.GetData(0, tableView.get_pageSize(),
-	                   tableView.get_sortExpressions().toString(), tableView.get_filterExpressions().toString(),
-	                       updateGrid);
-	           }
-	       }
-	      
-	       function RadGrid1_Command(sender, args)
-	       {
-	           $get("<%= Panel1.ClientID %>").innerHTML = String.format("<b>RadGrid1_Command</b><br />CommandName : {0}, CommandArgument : {1} <br /><br />", args.get_commandName(), args.get_commandArgument());
-	      
-	           args.set_cancel(true);
-	          
-	           var currentPageIndex = sender.get_masterTableView().get_currentPageIndex();
-	           var pageSize = sender.get_masterTableView().get_pageSize();
-	           var sortExpressions = sender.get_masterTableView().get_sortExpressions();
-	           var filterExpressions = sender.get_masterTableView().get_filterExpressions();
-	          
-	           if(sortExpressions.length > 0 && filterExpressions.length > 0 && currentPageIndex > 0)
-	           {
-	               sender.get_masterTableView().set_currentPageIndex(0);
-	           }
-	          
-	           var sortExpressionsAsSQL = sortExpressions.toString();
-	           var filterExpressionsAsSQL = filterExpressions.toString();
-	          
-	           var maximumRows = <%= (RadGrid1.AllowPaging)? RadGrid1.PageSize : RadGrid1.Items.Count %>;
-	           PageMethods.GetData(currentPageIndex * pageSize, maximumRows, sortExpressionsAsSQL, filterExpressionsAsSQL, updateGrid);
-	          
-	           if(args.get_commandName() == "Filter")
-	           {
-	               PageMethods.GetCount(filterExpressionsAsSQL, updateVirtualItemCount);
-	           }
-	       }
-	       function updateGrid(result)
-	       {
-	          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	          tableView.set_dataSource(result);
-	          tableView.dataBind();
-	       }
-	      
-	       function updateVirtualItemCount(result)
-	       {
-	          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	          tableView.set_virtualItemCount(result);
-	       }
-	       function toggleAllowMultiColumnSorting(sender, e)
-	       {
-	          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	          tableView.set_allowMultiColumnSorting(sender.checked);
-	       }
-	      
-	       function RadGrid1_RowDataBound(sender, args)
-	       {
-	           // conditional formatting
-	           args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = (args.get_dataItem()["TitleOfCourtesy"] == "Dr.")? "bold" : "normal";
-	           var sb = new Sys.StringBuilder();
-	          
-	           sb.appendLine("<b>RadGrid1_RowDataBound</b><br />");
-	          
-	           for(var item in args.get_dataItem())
-	           {
-	               sb.appendLine(String.format("{0} : {1}<br />", item, args.get_dataItem()[item]));
-	           }
-	          
-	           sb.appendLine("<br />");
-	           sb.appendLine("<br />");
-	           $get("<%= Panel1.ClientID %>").innerHTML += sb.toString();
-	       }
-	       </script>
-	   </telerik:RadCodeBlock>
-	</head>
-	<body>
-	   <form runat="server" id="mainForm" method="post" style="width: 100%;">
-	       <telerik:RadScriptManager ID="ScriptManager1" EnablePageMethods="true" runat="server" />
-	       <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server" />
-	       <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	           <AjaxSettings>
-	               <telerik:AjaxSetting AjaxControlID="CheckBox2">
-	                   <UpdatedControls>
-	                       <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
-	                   </UpdatedControls>
-	               </telerik:AjaxSetting>
-	           </AjaxSettings>
-	       </telerik:RadAjaxManager>
-	       <!-- content start -->
-	       <asp:CheckBox ID="CheckBox1" Text="Allow multi column sorting" Checked="true" runat="server"
-	           onclick="toggleAllowMultiColumnSorting(this, event);" />
-	       <br />
-	       <asp:CheckBox ID="CheckBox2" Text="Bind the grid server-side on initial load" Checked="true"
-	           AutoPostBack="true" runat="server" />
-	       <br />
-	       <br />
-	       <telerik:RadGrid ID="RadGrid1" EnableViewState="false" PageSize="2" Skin="Sunset"
-	           runat="server" AllowPaging="true" AllowSorting="True" AllowFilteringByColumn="true"
-	           GridLines="None">
-	           <MasterTableView AllowMultiColumnSorting="true" />
-	           <PagerStyle Mode="NextPrevAndNumeric" />
-	           <ClientSettings>
-	               <ClientEvents OnCommand="RadGrid1_Command" OnRowDataBound="RadGrid1_RowDataBound" />
-	           </ClientSettings>
-	       </telerik:RadGrid>
-	       <br />
-	       <br />
-	       Events:
-	       <asp:Panel ID="Panel1" Style="height: 200px; overflow: auto; padding: 15px;" CssClass="module"
-	           runat="server">
-	       </asp:Panel>
-	   </form>
-	</body>
-	</html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+       <script type="text/javascript">
+       function pageLoad()
+       {
+          $get("<%= Panel1.ClientID %>").innerHTML = "";
+          if(!$get("<%= CheckBox2.ClientID %>").checked)
+          {
+              var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+             
+              PageMethods.GetData(0, tableView.get_pageSize(),
+                   tableView.get_sortExpressions().toString(), tableView.get_filterExpressions().toString(),
+                       updateGrid);
+           }
+       }
+      
+       function RadGrid1_Command(sender, args)
+       {
+           $get("<%= Panel1.ClientID %>").innerHTML = String.format("<b>RadGrid1_Command</b><br />CommandName : {0}, CommandArgument : {1} <br /><br />", args.get_commandName(), args.get_commandArgument());
+      
+           args.set_cancel(true);
+          
+           var currentPageIndex = sender.get_masterTableView().get_currentPageIndex();
+           var pageSize = sender.get_masterTableView().get_pageSize();
+           var sortExpressions = sender.get_masterTableView().get_sortExpressions();
+           var filterExpressions = sender.get_masterTableView().get_filterExpressions();
+          
+           if(sortExpressions.length > 0 && filterExpressions.length > 0 && currentPageIndex > 0)
+           {
+               sender.get_masterTableView().set_currentPageIndex(0);
+           }
+          
+           var sortExpressionsAsSQL = sortExpressions.toString();
+           var filterExpressionsAsSQL = filterExpressions.toString();
+          
+           var maximumRows = <%= (RadGrid1.AllowPaging)? RadGrid1.PageSize : RadGrid1.Items.Count %>;
+           PageMethods.GetData(currentPageIndex * pageSize, maximumRows, sortExpressionsAsSQL, filterExpressionsAsSQL, updateGrid);
+          
+           if(args.get_commandName() == "Filter")
+           {
+               PageMethods.GetCount(filterExpressionsAsSQL, updateVirtualItemCount);
+           }
+       }
+       function updateGrid(result)
+       {
+          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+          tableView.set_dataSource(result);
+          tableView.dataBind();
+       }
+      
+       function updateVirtualItemCount(result)
+       {
+          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+          tableView.set_virtualItemCount(result);
+       }
+       function toggleAllowMultiColumnSorting(sender, e)
+       {
+          var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+          tableView.set_allowMultiColumnSorting(sender.checked);
+       }
+      
+       function RadGrid1_RowDataBound(sender, args)
+       {
+           // conditional formatting
+           args.get_item().get_cell("TitleOfCourtesy").style.fontWeight = (args.get_dataItem()["TitleOfCourtesy"] == "Dr.")? "bold" : "normal";
+           var sb = new Sys.StringBuilder();
+          
+           sb.appendLine("<b>RadGrid1_RowDataBound</b><br />");
+          
+           for(var item in args.get_dataItem())
+           {
+               sb.appendLine(String.format("{0} : {1}<br />", item, args.get_dataItem()[item]));
+           }
+          
+           sb.appendLine("<br />");
+           sb.appendLine("<br />");
+           $get("<%= Panel1.ClientID %>").innerHTML += sb.toString();
+       }
+       </script>
+   </telerik:RadCodeBlock>
+</head>
+<body>
+   <form runat="server" id="mainForm" method="post" style="width: 100%;">
+       <telerik:RadScriptManager ID="ScriptManager1" EnablePageMethods="true" runat="server" />
+       <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server" />
+       <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+           <AjaxSettings>
+               <telerik:AjaxSetting AjaxControlID="CheckBox2">
+                   <UpdatedControls>
+                       <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
+                   </UpdatedControls>
+               </telerik:AjaxSetting>
+           </AjaxSettings>
+       </telerik:RadAjaxManager>
+       <!-- content start -->
+       <asp:CheckBox ID="CheckBox1" Text="Allow multi column sorting" Checked="true" runat="server"
+           onclick="toggleAllowMultiColumnSorting(this, event);" />
+       <br />
+       <asp:CheckBox ID="CheckBox2" Text="Bind the grid server-side on initial load" Checked="true"
+           AutoPostBack="true" runat="server" />
+       <br />
+       <br />
+       <telerik:RadGrid ID="RadGrid1" EnableViewState="false" PageSize="2" Skin="Sunset"
+           runat="server" AllowPaging="true" AllowSorting="True" AllowFilteringByColumn="true"
+           GridLines="None">
+           <MasterTableView AllowMultiColumnSorting="true" />
+           <PagerStyle Mode="NextPrevAndNumeric" />
+           <ClientSettings>
+               <ClientEvents OnCommand="RadGrid1_Command" OnRowDataBound="RadGrid1_RowDataBound" />
+           </ClientSettings>
+       </telerik:RadGrid>
+       <br />
+       <br />
+       Events:
+       <asp:Panel ID="Panel1" Style="height: 200px; overflow: auto; padding: 15px;" CssClass="module"
+           runat="server">
+       </asp:Panel>
+   </form>
+</body>
+</html>
 ````
 ````C#
-	
-	
-	    protected override void OnInit(System.EventArgs e)
-	    {
-	        base.OnInit(e);
-	        RadGrid1.NeedDataSource += new Telerik.Web.UI.GridNeedDataSourceEventHandler(RadGrid1_NeedDataSource); RadGrid1.ColumnCreated += new Telerik.Web.UI.GridColumnCreatedEventHandler(RadGrid1_ColumnCreated);
-	    }
-	    void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCreatedEventArgs e)
-	    {
-	        if (e.Column.IsBoundToFieldName("BirthDate")) { ((GridBoundColumn)e.Column).DataFormatString = "{0:dd/MM/yyyy}"; }
-	    }
-	    void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
-	    {
-	        RadGrid1.AllowCustomPaging = true; RadGrid1.VirtualItemCount = GetCount(RadGrid1.MasterTableView.FilterExpression);
-	        RadGrid1.DataSource = (CheckBox2.Checked) ? GetData(0, GetCount(RadGrid1.MasterTableView.FilterExpression), "", "") : new List<Employee>();
-	    }
-	    [WebMethod]
-	    public static int GetCount(string filterExpressions)
-	    {
-	        int count = 0;
-	        using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString))
-	        {
-	            SqlCommand command = new SqlCommand(String.Format("SELECT COUNT(*) FROM Employees {0}", (filterExpressions != String.Empty) ? String.Format("WHERE {0}", filterExpressions) : ""), connection);
-	            connection.Open();
-	            SqlDataReader reader = command.ExecuteReader();
-	            while (reader.Read()) { count = reader.GetInt32(0); }
-	            reader.Close();
-	        }
-	        return count;
-	    }
-	    [WebMethod]
-	    public static List<Employee> GetData(int startIndex, int maximumRows, string sortExpressions, string filterExpressions)
-	    {
-	        startIndex = startIndex + 1;
-	        List<Employee> list = new List<Employee>();
-	        StringBuilder sqlBuilder = new StringBuilder(); sqlBuilder.AppendLine("DECLARE @startRowIndex int");
-	        sqlBuilder.AppendLine("DECLARE @maximumRows int");
-	        sqlBuilder.AppendLine(String.Format("SET @startRowIndex = {0}", startIndex));
-	        sqlBuilder.AppendLine(String.Format("SET @maximumRows = {0}", maximumRows));
-	        sqlBuilder.AppendLine("DECLARE @first_id int, @startRow int ");
-	        sqlBuilder.AppendLine("SET ROWCOUNT @startRowIndex");
-	        sqlBuilder.AppendLine("SELECT ");
-	        sqlBuilder.AppendLine(" @first_id = EmployeeID ");
-	        sqlBuilder.AppendLine("FROM Employees ");
-	        sqlBuilder.AppendLine("ORDER BY EmployeeID");
-	        sqlBuilder.AppendLine("SET ROWCOUNT @maximumRows");
-	        sqlBuilder.AppendLine("SELECT e.*");
-	        sqlBuilder.AppendLine("FROM Employees e");
-	        sqlBuilder.AppendLine("WHERE EmployeeID >= @first_id");
-	        string where = string.Empty;
-	        if (filterExpressions != String.Empty)
-	        {
-	            sqlBuilder.AppendLine(String.Format(" And {0}", filterExpressions));
-	        }
-	        if (sortExpressions != String.Empty)
-	        {
-	            sqlBuilder.AppendLine(String.Format(" Order By {0}", sortExpressions));
-	        }
-	        using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString))
-	        {
-	            SqlCommand command = new SqlCommand(sqlBuilder.ToString(), connection);
-	            connection.Open();
-	            SqlDataReader reader = command.ExecuteReader();
-	            while (reader.Read())
-	            {
-	                Employee newEmployee = new Employee();
-	                for (int i = 0; i < reader.FieldCount; i++)
-	                {
-	                    switch (reader.GetName(i))
-	                    {
-	                        case "EmployeeID":
-	                            newEmployee.EmployeeID = reader.GetInt32(i);
-	                            break;
-	                        case "LastName":
-	                            newEmployee.LastName = reader.GetString(i);
-	                            break;
-	                        case "FirstName":
-	                            newEmployee.FirstName = reader.GetString(i);
-	                            break;
-	                        case "Title":
-	                            newEmployee.Title = reader.GetString(i);
-	                            break;
-	                        case "TitleOfCourtesy":
-	                            newEmployee.TitleOfCourtesy = reader.GetString(i);
-	                            break;
-	                        case "BirthDate":
-	                            newEmployee.BirthDate = reader.GetDateTime(i);
-	                            break;
-	                        default:
-	                            break;
-	                    }
-	                }
-	                list.Add(newEmployee);
-	            }
-	            reader.Close();
-	        }
-	        return list;
-	    }
-	    public class Employee
-	    {
-	        private int _EmployeeID;
-	        private string _LastName;
-	        private string _FirstName;
-	        private string _Title;
-	        private string _TitleOfCourtesy;
-	        private System.Nullable<System.DateTime> _BirthDate;
-	        public Employee()
-	        {
-	        }
-	        public int EmployeeID
-	        {
-	            get { return this._EmployeeID; }
-	            set
-	            {
-	                if ((this._EmployeeID != value))
-	                { this._EmployeeID = value; }
-	            }
-	        }
-	        public string LastName
-	        {
-	            get { return this._LastName; }
-	            set
-	            {
-	                if ((this._LastName != value))
-	                { this._LastName = value; }
-	            }
-	        }
-	        public string FirstName
-	        {
-	            get { return this._FirstName; }
-	            set
-	            {
-	                if ((this._FirstName != value))
-	                { this._FirstName = value; }
-	            }
-	        }
-	        public string Title
-	        {
-	            get
-	            { return this._Title; }
-	            set
-	            {
-	                if ((this._Title != value))
-	                { this._Title = value; }
-	            }
-	        }
-	        public string TitleOfCourtesy
-	        {
-	            get { return this._TitleOfCourtesy; }
-	            set
-	            {
-	                if ((this._TitleOfCourtesy != value))
-	                {
-	                    this._TitleOfCourtesy = value;
-	                }
-	            }
-	        }
-	        public System.Nullable<System.DateTime> BirthDate
-	        {
-	            get { return this._BirthDate; }
-	            set
-	            {
-	                if ((this._BirthDate != value))
-	                { this._BirthDate = value; }
-	            }
-	        }
-	    }
-	
+protected override void OnInit(System.EventArgs e)
+{
+    base.OnInit(e);
+    RadGrid1.NeedDataSource += new Telerik.Web.UI.GridNeedDataSourceEventHandler(RadGrid1_NeedDataSource); RadGrid1.ColumnCreated += new Telerik.Web.UI.GridColumnCreatedEventHandler(RadGrid1_ColumnCreated);
+}
+void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCreatedEventArgs e)
+{
+    if (e.Column.IsBoundToFieldName("BirthDate")) { ((GridBoundColumn)e.Column).DataFormatString = "{0:dd/MM/yyyy}"; }
+}
+void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+{
+    RadGrid1.AllowCustomPaging = true; RadGrid1.VirtualItemCount = GetCount(RadGrid1.MasterTableView.FilterExpression);
+    RadGrid1.DataSource = (CheckBox2.Checked) ? GetData(0, GetCount(RadGrid1.MasterTableView.FilterExpression), "", "") : new List<Employee>();
+}
+[WebMethod]
+public static int GetCount(string filterExpressions)
+{
+    int count = 0;
+    using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString))
+    {
+        SqlCommand command = new SqlCommand(String.Format("SELECT COUNT(*) FROM Employees {0}", (filterExpressions != String.Empty) ? String.Format("WHERE {0}", filterExpressions) : ""), connection);
+        connection.Open();
+        SqlDataReader reader = command.ExecuteReader();
+        while (reader.Read()) { count = reader.GetInt32(0); }
+        reader.Close();
+    }
+    return count;
+}
+[WebMethod]
+public static List<Employee> GetData(int startIndex, int maximumRows, string sortExpressions, string filterExpressions)
+{
+    startIndex = startIndex + 1;
+    List<Employee> list = new List<Employee>();
+    StringBuilder sqlBuilder = new StringBuilder(); sqlBuilder.AppendLine("DECLARE @startRowIndex int");
+    sqlBuilder.AppendLine("DECLARE @maximumRows int");
+    sqlBuilder.AppendLine(String.Format("SET @startRowIndex = {0}", startIndex));
+    sqlBuilder.AppendLine(String.Format("SET @maximumRows = {0}", maximumRows));
+    sqlBuilder.AppendLine("DECLARE @first_id int, @startRow int ");
+    sqlBuilder.AppendLine("SET ROWCOUNT @startRowIndex");
+    sqlBuilder.AppendLine("SELECT ");
+    sqlBuilder.AppendLine(" @first_id = EmployeeID ");
+    sqlBuilder.AppendLine("FROM Employees ");
+    sqlBuilder.AppendLine("ORDER BY EmployeeID");
+    sqlBuilder.AppendLine("SET ROWCOUNT @maximumRows");
+    sqlBuilder.AppendLine("SELECT e.*");
+    sqlBuilder.AppendLine("FROM Employees e");
+    sqlBuilder.AppendLine("WHERE EmployeeID >= @first_id");
+    string where = string.Empty;
+    if (filterExpressions != String.Empty)
+    {
+        sqlBuilder.AppendLine(String.Format(" And {0}", filterExpressions));
+    }
+    if (sortExpressions != String.Empty)
+    {
+        sqlBuilder.AppendLine(String.Format(" Order By {0}", sortExpressions));
+    }
+    using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString))
+    {
+        SqlCommand command = new SqlCommand(sqlBuilder.ToString(), connection);
+        connection.Open();
+        SqlDataReader reader = command.ExecuteReader();
+        while (reader.Read())
+        {
+            Employee newEmployee = new Employee();
+            for (int i = 0; i < reader.FieldCount; i++)
+            {
+                switch (reader.GetName(i))
+                {
+                    case "EmployeeID":
+                        newEmployee.EmployeeID = reader.GetInt32(i);
+                        break;
+                    case "LastName":
+                        newEmployee.LastName = reader.GetString(i);
+                        break;
+                    case "FirstName":
+                        newEmployee.FirstName = reader.GetString(i);
+                        break;
+                    case "Title":
+                        newEmployee.Title = reader.GetString(i);
+                        break;
+                    case "TitleOfCourtesy":
+                        newEmployee.TitleOfCourtesy = reader.GetString(i);
+                        break;
+                    case "BirthDate":
+                        newEmployee.BirthDate = reader.GetDateTime(i);
+                        break;
+                    default:
+                        break;
+                }
+            }
+            list.Add(newEmployee);
+        }
+        reader.Close();
+    }
+    return list;
+}
+public class Employee
+{
+    private int _EmployeeID;
+    private string _LastName;
+    private string _FirstName;
+    private string _Title;
+    private string _TitleOfCourtesy;
+    private System.Nullable<System.DateTime> _BirthDate;
+    public Employee()
+    {
+    }
+    public int EmployeeID
+    {
+        get { return this._EmployeeID; }
+        set
+        {
+            if ((this._EmployeeID != value))
+            { this._EmployeeID = value; }
+        }
+    }
+    public string LastName
+    {
+        get { return this._LastName; }
+        set
+        {
+            if ((this._LastName != value))
+            { this._LastName = value; }
+        }
+    }
+    public string FirstName
+    {
+        get { return this._FirstName; }
+        set
+        {
+            if ((this._FirstName != value))
+            { this._FirstName = value; }
+        }
+    }
+    public string Title
+    {
+        get
+        { return this._Title; }
+        set
+        {
+            if ((this._Title != value))
+            { this._Title = value; }
+        }
+    }
+    public string TitleOfCourtesy
+    {
+        get { return this._TitleOfCourtesy; }
+        set
+        {
+            if ((this._TitleOfCourtesy != value))
+            {
+                this._TitleOfCourtesy = value;
+            }
+        }
+    }
+    public System.Nullable<System.DateTime> BirthDate
+    {
+        get { return this._BirthDate; }
+        set
+        {
+            if ((this._BirthDate != value))
+            { this._BirthDate = value; }
+        }
+    }
+}
+
 ````
 ````VB.NET
-	    Protected Overloads Overrides Sub OnInit(ByVal e As System.EventArgs)
-	        MyBase.OnInit(e)
-	        AddHandler RadGrid1.NeedDataSource, AddressOf RadGrid1_NeedDataSource
-	        AddHandler RadGrid1.ColumnCreated, AddressOf RadGrid1_ColumnCreated
-	    End Sub
-	    Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs)
-	        If e.Column.IsBoundToFieldName("BirthDate") Then
-	            CType(e.Column, GridBoundColumn).DataFormatString = "{0:dd/MM/yyyy}"
-	        End If
-	    End Sub
-	    Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
-	        RadGrid1.AllowCustomPaging = True
-	        RadGrid1.VirtualItemCount = GetCount(RadGrid1.MasterTableView.FilterExpression)
-	        RadGrid1.DataSource = IIf(CheckBox2.Checked, GetData(0, GetCount(RadGrid1.MasterTableView.FilterExpression), "", ""), New List(Of Employee)())
-	    End Sub
-	    <WebMethod()>
-	    Public Shared Function GetCount(ByVal filterExpressions As String) As Integer
-	        Dim count As Integer = 0
-	        Using connection As New SqlConnection(ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
-	            Dim command As New SqlCommand([String].Format("SELECT COUNT(*) FROM Employees {0}", IIf((filterExpressions <> [String].Empty), [String].Format("WHERE {0}", filterExpressions), "")), connection)
-	            connection.Open()
-	            Dim reader As SqlDataReader = command.ExecuteReader()
-	            While reader.Read()
-	                count = reader.GetInt32(0)
-	            End While
-	
-	            reader.Close()
-	        End Using
-	        Return count
-	    End Function
-	    <WebMethod()>
-	    Public Shared Function GetData(ByVal startIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpressions As String, ByVal filterExpressions As String) As List(Of Employee)
-	        startIndex = startIndex + 1
-	        Dim list As New List(Of Employee)()
-	        Dim sqlBuilder As New StringBuilder()
-	        sqlBuilder.AppendLine("DECLARE @startRowIndex int")
-	        sqlBuilder.AppendLine("DECLARE @maximumRows int")
-	        sqlBuilder.AppendLine([String].Format("SET @startRowIndex = {0}", startIndex))
-	        sqlBuilder.AppendLine([String].Format("SET @maximumRows = {0}", maximumRows))
-	        sqlBuilder.AppendLine("DECLARE @first_id int, @startRow int" & Chr(9) & "")
-	        sqlBuilder.AppendLine("SET ROWCOUNT @startRowIndex")
-	        sqlBuilder.AppendLine("SELECT ")
-	        sqlBuilder.AppendLine("" & Chr(9) & "@first_id = EmployeeID ")
-	        sqlBuilder.AppendLine("FROM Employees ")
-	        sqlBuilder.AppendLine("ORDER BY EmployeeID")
-	        sqlBuilder.AppendLine("SET ROWCOUNT @maximumRows")
-	        sqlBuilder.AppendLine("SELECT e.*")
-	        sqlBuilder.AppendLine("FROM Employees e")
-	        sqlBuilder.AppendLine("WHERE EmployeeID >= @first_id")
-	        Dim where As String = String.Empty
-	        If filterExpressions <> [String].Empty Then
-	            sqlBuilder.AppendLine([String].Format(" And {0}", filterExpressions))
-	        End If
-	        If sortExpressions <> [String].Empty Then
-	            sqlBuilder.AppendLine([String].Format(" Order By {0}", sortExpressions))
-	        End If
-	        Using connection As New SqlConnection(ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
-	            Dim command As New SqlCommand(sqlBuilder.ToString(), connection)
-	            connection.Open()
-	            Dim reader As SqlDataReader = command.ExecuteReader()
-	            While reader.Read()
-	                Dim newEmployee As New Employee()
-	                Dim i As Integer = 0
-	                While i < reader.FieldCount
-	                    Select Case reader.GetName(i)
-	                        Case "EmployeeID"
-	                            newEmployee.EmployeeID = reader.GetInt32(i)
-	                            Exit Select
-	                        Case "LastName"
-	                            newEmployee.LastName = reader.GetString(i)
-	                            Exit Select
-	                        Case "FirstName"
-	                            newEmployee.FirstName = reader.GetString(i)
-	                            Exit Select
-	                        Case "Title"
-	                            newEmployee.Title = reader.GetString(i)
-	                            Exit Select
-	                        Case "TitleOfCourtesy"
-	                            newEmployee.TitleOfCourtesy = reader.GetString(i)
-	                            Exit Select
-	                        Case "BirthDate"
-	                            newEmployee.BirthDate = reader.GetDateTime(i)
-	                            Exit Select
-	                        Case Else
-	                            Exit Select
-	                    End Select
-	                    System.Math.Max(System.Threading.Interlocked.Increment(i), i - 1)
-	                End While
-	                list.Add(newEmployee)
-	            End While
-	            reader.Close()
-	        End Using
-	        Return list
-	    End Function
-	    Public Class Employee
-	        Private _EmployeeID As Integer
-	        Private _LastName As String
-	        Private _FirstName As String
-	        Private _Title As String
-	        Private _TitleOfCourtesy As String
-	        Private _BirthDate As System.Nullable(Of Date)
-	
-	        Public Sub New()
-	        End Sub
-	        Public Property EmployeeID() As Integer
-	            Get
-	                Return Me._EmployeeID
-	            End Get
-	            Set(ByVal value As Integer)
-	                If (Me._EmployeeID <> value) Then
-	                    Me._EmployeeID = value
-	                End If
-	            End Set
-	        End Property
-	        Public Property LastName() As String
-	            Get
-	                Return Me._LastName
-	            End Get
-	            Set(ByVal value As String)
-	                If (Me._LastName <> value) Then
-	                    Me._LastName = value
-	                End If
-	            End Set
-	        End Property
-	        Public Property FirstName() As String
-	            Get
-	                Return Me._FirstName
-	            End Get
-	            Set(ByVal value As String)
-	                If (Me._FirstName <> value) Then
-	                    Me._FirstName = value
-	                End If
-	            End Set
-	        End Property
-	        Public Property Title() As String
-	            Get
-	                Return Me._Title
-	            End Get
-	            Set(ByVal value As String)
-	                If (Me._Title <> value) Then
-	                    Me._Title = value
-	                End If
-	            End Set
-	        End Property
-	        Public Property TitleOfCourtesy() As String
-	            Get
-	                Return Me._TitleOfCourtesy
-	            End Get
-	            Set(ByVal value As String)
-	                If (Me._TitleOfCourtesy <> value) Then
-	                    Me._TitleOfCourtesy = value
-	                End If
-	            End Set
-	        End Property
-	        Public Property BirthDate() As System.Nullable(Of Date)
-	            Get
-	                Return Me._BirthDate
-	            End Get
-	            Set(ByVal value As System.Nullable(Of Date))
-	                If (Not Me._BirthDate.Equals(value)) Then
-	                    Me._BirthDate = value
-	                End If
-	            End Set
-	        End Property
-	    End Class
+Protected Overloads Overrides Sub OnInit(ByVal e As System.EventArgs)
+    MyBase.OnInit(e)
+    AddHandler RadGrid1.NeedDataSource, AddressOf RadGrid1_NeedDataSource
+    AddHandler RadGrid1.ColumnCreated, AddressOf RadGrid1_ColumnCreated
+End Sub
+Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs)
+    If e.Column.IsBoundToFieldName("BirthDate") Then
+        CType(e.Column, GridBoundColumn).DataFormatString = "{0:dd/MM/yyyy}"
+    End If
+End Sub
+Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
+    RadGrid1.AllowCustomPaging = True
+    RadGrid1.VirtualItemCount = GetCount(RadGrid1.MasterTableView.FilterExpression)
+    RadGrid1.DataSource = IIf(CheckBox2.Checked, GetData(0, GetCount(RadGrid1.MasterTableView.FilterExpression), "", ""), New List(Of Employee)())
+End Sub
+<WebMethod()>
+Public Shared Function GetCount(ByVal filterExpressions As String) As Integer
+    Dim count As Integer = 0
+    Using connection As New SqlConnection(ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
+        Dim command As New SqlCommand([String].Format("SELECT COUNT(*) FROM Employees {0}", IIf((filterExpressions <> [String].Empty), [String].Format("WHERE {0}", filterExpressions), "")), connection)
+        connection.Open()
+        Dim reader As SqlDataReader = command.ExecuteReader()
+        While reader.Read()
+            count = reader.GetInt32(0)
+        End While
+
+        reader.Close()
+    End Using
+    Return count
+End Function
+<WebMethod()>
+Public Shared Function GetData(ByVal startIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpressions As String, ByVal filterExpressions As String) As List(Of Employee)
+    startIndex = startIndex + 1
+    Dim list As New List(Of Employee)()
+    Dim sqlBuilder As New StringBuilder()
+    sqlBuilder.AppendLine("DECLARE @startRowIndex int")
+    sqlBuilder.AppendLine("DECLARE @maximumRows int")
+    sqlBuilder.AppendLine([String].Format("SET @startRowIndex = {0}", startIndex))
+    sqlBuilder.AppendLine([String].Format("SET @maximumRows = {0}", maximumRows))
+    sqlBuilder.AppendLine("DECLARE @first_id int, @startRow int" & Chr(9) & "")
+    sqlBuilder.AppendLine("SET ROWCOUNT @startRowIndex")
+    sqlBuilder.AppendLine("SELECT ")
+    sqlBuilder.AppendLine("" & Chr(9) & "@first_id = EmployeeID ")
+    sqlBuilder.AppendLine("FROM Employees ")
+    sqlBuilder.AppendLine("ORDER BY EmployeeID")
+    sqlBuilder.AppendLine("SET ROWCOUNT @maximumRows")
+    sqlBuilder.AppendLine("SELECT e.*")
+    sqlBuilder.AppendLine("FROM Employees e")
+    sqlBuilder.AppendLine("WHERE EmployeeID >= @first_id")
+    Dim where As String = String.Empty
+    If filterExpressions <> [String].Empty Then
+        sqlBuilder.AppendLine([String].Format(" And {0}", filterExpressions))
+    End If
+    If sortExpressions <> [String].Empty Then
+        sqlBuilder.AppendLine([String].Format(" Order By {0}", sortExpressions))
+    End If
+    Using connection As New SqlConnection(ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
+        Dim command As New SqlCommand(sqlBuilder.ToString(), connection)
+        connection.Open()
+        Dim reader As SqlDataReader = command.ExecuteReader()
+        While reader.Read()
+            Dim newEmployee As New Employee()
+            Dim i As Integer = 0
+            While i < reader.FieldCount
+                Select Case reader.GetName(i)
+                    Case "EmployeeID"
+                        newEmployee.EmployeeID = reader.GetInt32(i)
+                        Exit Select
+                    Case "LastName"
+                        newEmployee.LastName = reader.GetString(i)
+                        Exit Select
+                    Case "FirstName"
+                        newEmployee.FirstName = reader.GetString(i)
+                        Exit Select
+                    Case "Title"
+                        newEmployee.Title = reader.GetString(i)
+                        Exit Select
+                    Case "TitleOfCourtesy"
+                        newEmployee.TitleOfCourtesy = reader.GetString(i)
+                        Exit Select
+                    Case "BirthDate"
+                        newEmployee.BirthDate = reader.GetDateTime(i)
+                        Exit Select
+                    Case Else
+                        Exit Select
+                End Select
+                System.Math.Max(System.Threading.Interlocked.Increment(i), i - 1)
+            End While
+            list.Add(newEmployee)
+        End While
+        reader.Close()
+    End Using
+    Return list
+End Function
+Public Class Employee
+    Private _EmployeeID As Integer
+    Private _LastName As String
+    Private _FirstName As String
+    Private _Title As String
+    Private _TitleOfCourtesy As String
+    Private _BirthDate As System.Nullable(Of Date)
+
+    Public Sub New()
+    End Sub
+    Public Property EmployeeID() As Integer
+        Get
+            Return Me._EmployeeID
+        End Get
+        Set(ByVal value As Integer)
+            If (Me._EmployeeID <> value) Then
+                Me._EmployeeID = value
+            End If
+        End Set
+    End Property
+    Public Property LastName() As String
+        Get
+            Return Me._LastName
+        End Get
+        Set(ByVal value As String)
+            If (Me._LastName <> value) Then
+                Me._LastName = value
+            End If
+        End Set
+    End Property
+    Public Property FirstName() As String
+        Get
+            Return Me._FirstName
+        End Get
+        Set(ByVal value As String)
+            If (Me._FirstName <> value) Then
+                Me._FirstName = value
+            End If
+        End Set
+    End Property
+    Public Property Title() As String
+        Get
+            Return Me._Title
+        End Get
+        Set(ByVal value As String)
+            If (Me._Title <> value) Then
+                Me._Title = value
+            End If
+        End Set
+    End Property
+    Public Property TitleOfCourtesy() As String
+        Get
+            Return Me._TitleOfCourtesy
+        End Get
+        Set(ByVal value As String)
+            If (Me._TitleOfCourtesy <> value) Then
+                Me._TitleOfCourtesy = value
+            End If
+        End Set
+    End Property
+    Public Property BirthDate() As System.Nullable(Of Date)
+        Get
+            Return Me._BirthDate
+        End Get
+        Set(ByVal value As System.Nullable(Of Date))
+            If (Not Me._BirthDate.Equals(value)) Then
+                Me._BirthDate = value
+            End If
+        End Set
+    End Property
+End Class
 ````
 

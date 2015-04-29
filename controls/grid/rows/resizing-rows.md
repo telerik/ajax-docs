@@ -19,14 +19,14 @@ You can allow row resizing by setting the **ClientSettings.Resizing.AllowRowResi
 ![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" Skin="WebBlue">
-	    <MasterTableView DataSourceID="AccessDataSource1" TableLayout="Auto">
-	    </MasterTableView>
-	    <ClientSettings>
-	      <Scrolling AllowScroll="True" UseStaticHeaders="True" />
-	      <Resizing AllowRowResize="True" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" Skin="WebBlue">
+  <MasterTableView DataSourceID="AccessDataSource1" TableLayout="Auto">
+  </MasterTableView>
+  <ClientSettings>
+    <Scrolling AllowScroll="True" UseStaticHeaders="True" />
+    <Resizing AllowRowResize="True" />
+  </ClientSettings>
+</telerik:RadGrid>
 ````
 
 

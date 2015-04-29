@@ -1,6 +1,6 @@
 ---
-title: Grouping Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Grouping Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/functionality/grouping/overview
 tags: overview

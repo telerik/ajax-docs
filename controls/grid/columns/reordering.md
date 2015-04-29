@@ -35,12 +35,10 @@ When columns are created programmatically, they appear in the same order that th
 
 
 ````C#
-	     grid.MasterTableView.SwapColumns("City","ContactName");
-				
+grid.MasterTableView.SwapColumns("City","ContactName");			
 ````
 ````VB.NET
-	        grid.MasterTableView.SwapColumns("City","ContactName")
-				
+grid.MasterTableView.SwapColumns("City","ContactName")			
 ````
 
 
@@ -48,13 +46,11 @@ When columns are created programmatically, they appear in the same order that th
 
 
 
-````C#
-	     
-	        grid.MasterTableView.SwapColumns(3, 4);
-				
+````C#	     
+grid.MasterTableView.SwapColumns(3, 4);				
 ````
 ````VB.NET
-	    		grid.MasterTableView.SwapColumns(3, 4)
+grid.MasterTableView.SwapColumns(3, 4)
 ````
 
 
@@ -67,34 +63,34 @@ When columns are created programmatically, they appear in the same order that th
 
 
 ````C#
-	        GridColumnCollection cols = grid.MasterTableView.Columns;
-	        GridColumn c = cols.FindByUniqueName(columnName);
-	        if (c != null){ 
-	            int start = c.OrderIndex; 
-	            for (int i= start; i < cols.Count; i++)  
-	            { 
-	                c = cols[i]; 
-	                if (i < cols.Count - 1)   
-	                    c.OrderIndex = i+1;
-	                else     
-	                    c.OrderIndex = start;  
-	            }
-	        }			
+GridColumnCollection cols = grid.MasterTableView.Columns;
+GridColumn c = cols.FindByUniqueName(columnName);
+if (c != null){ 
+    int start = c.OrderIndex; 
+    for (int i= start; i < cols.Count; i++)  
+    { 
+        c = cols[i]; 
+        if (i < cols.Count - 1)   
+            c.OrderIndex = i+1;
+        else     
+            c.OrderIndex = start;  
+    }
+}			
 ````
 ````VB.NET
-	    Dim cols As GridColumnCollection = grid.MasterTableView.Columns
-	    Dim c As GridColumn = cols.FindByUniqueName(columnName)
-	    If c IsNot Nothing Then
-	    Dim start As Integer = c.OrderIndex
-		    For i As Integer = start To cols.Count - 1
-			    c = cols(i)
-			    If i < cols.Count - 1 Then
-				    c.OrderIndex = i + 1
-			    Else
-				    c.OrderIndex = start
-			    End If
-		    Next
+Dim cols As GridColumnCollection = grid.MasterTableView.Columns
+Dim c As GridColumn = cols.FindByUniqueName(columnName)
+If c IsNot Nothing Then
+Dim start As Integer = c.OrderIndex
+    For i As Integer = start To cols.Count - 1
+	    c = cols(i)
+	    If i < cols.Count - 1 Then
+		    c.OrderIndex = i + 1
+	    Else
+		    c.OrderIndex = start
 	    End If
+    Next
+End If
 ````
 
 

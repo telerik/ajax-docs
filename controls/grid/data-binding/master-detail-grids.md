@@ -37,105 +37,105 @@ To achieve this behavior,
 The following example shows how the screenshot above was generated:
 
 ````ASPNET
-	  <asp:ScriptManager ID="ScriptManager1" runat="server">
-	  </asp:ScriptManager>
-	  <strong>Customers:</strong>
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid2" />
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid2">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid2" />
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid3">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="true" AllowPaging="true"
-	    PageSize="5" DataSourceID="SqlDataSource1" GridLines="None" Skin="Web20" Width="95%">
-	    <ClientSettings AllowKeyboardNavigation="true" EnablePostBackOnRowClick="true">
-	      <Selecting AllowRowSelect="true" />
-	    </ClientSettings>
-	    <MasterTableView DataKeyNames="CustomerID" />
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	  </telerik:RadGrid>
-	  <br />
-	  <br />
-	  <strong>Orders:</strong>
-	  <telerik:RadGrid ID="RadGrid2" ShowStatusBar="true" runat="server" AllowSorting="True"
-	    AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource2" GridLines="None"
-	    Skin="Web20" Width="95%" HorizontalAlign="NotSet">
-	    <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"
-	      DataSourceID="SqlDataSource2">
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="OrderID" DataType="System.Int32" HeaderText="OrderID"
-	          ReadOnly="True" SortExpression="OrderID" UniqueName="OrderID">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="OrderDate" DataType="System.DateTime" HeaderText="OrderDate"
-	          SortExpression="OrderDate" UniqueName="OrderDate" DataFormatString="{0:d}">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ShipCountry" HeaderText="ShipCountry" SortExpression="ShipCountry"
-	          UniqueName="ShipCountry">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	    </MasterTableView>
-	    <ClientSettings AllowKeyboardNavigation="true" EnablePostBackOnRowClick="true">
-	      <Selecting AllowRowSelect="true" />
-	    </ClientSettings>
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	  </telerik:RadGrid>
-	  <br />
-	  <br />
-	  <strong>Orders details:</strong>
-	  <telerik:RadGrid ID="RadGrid3" ShowStatusBar="true" runat="server" AllowSorting="True"
-	    AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource3" GridLines="None"
-	    Skin="Web20" Width="95%" HorizontalAlign="NotSet">
-	    <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"
-	      DataSourceID="SqlDataSource3">
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="UnitPrice" HeaderText="Unit price" SortExpression="UnitPrice"
-	          UniqueName="UnitPrice">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity"
-	          UniqueName="Quantity">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="Discount" HeaderText="Discount (%)" SortExpression="Discount"
-	          UniqueName="Discount">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	    </MasterTableView>
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM Customers"
-	    runat="server"></asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [OrderDate], [CustomerID], [ShipCountry] FROM [Orders] WHERE ([CustomerID] = @CustomerID)"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:ControlParameter ControlID="RadGrid1" DefaultValue="ALFKI" Name="CustomerID"
-	        PropertyName="SelectedValue" Type="String" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
-	  <asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [UnitPrice], [Quantity], [Discount] FROM [Order Details] WHERE ([OrderID] = @OrderID)"
-	    runat="server">
-	    <SelectParameters>
-	      <asp:ControlParameter ControlID="RadGrid2" Name="OrderID" DefaultValue="10643" PropertyName="SelectedValues['OrderID']"
-	        Type="Int32" />
-	    </SelectParameters>
-	  </asp:SqlDataSource>
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+<strong>Customers:</strong>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
+        <telerik:AjaxUpdatedControl ControlID="RadGrid2" />
+        <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+    <telerik:AjaxSetting AjaxControlID="RadGrid2">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid2" />
+        <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+    <telerik:AjaxSetting AjaxControlID="RadGrid3">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid3" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="true" AllowPaging="true"
+  PageSize="5" DataSourceID="SqlDataSource1" GridLines="None" Skin="Web20" Width="95%">
+  <ClientSettings AllowKeyboardNavigation="true" EnablePostBackOnRowClick="true">
+    <Selecting AllowRowSelect="true" />
+  </ClientSettings>
+  <MasterTableView DataKeyNames="CustomerID" />
+  <PagerStyle Mode="NextPrevAndNumeric" />
+</telerik:RadGrid>
+<br />
+<br />
+<strong>Orders:</strong>
+<telerik:RadGrid ID="RadGrid2" ShowStatusBar="true" runat="server" AllowSorting="True"
+  AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource2" GridLines="None"
+  Skin="Web20" Width="95%" HorizontalAlign="NotSet">
+  <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"
+    DataSourceID="SqlDataSource2">
+    <Columns>
+      <telerik:GridBoundColumn DataField="OrderID" DataType="System.Int32" HeaderText="OrderID"
+        ReadOnly="True" SortExpression="OrderID" UniqueName="OrderID">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="OrderDate" DataType="System.DateTime" HeaderText="OrderDate"
+        SortExpression="OrderDate" UniqueName="OrderDate" DataFormatString="{0:d}">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ShipCountry" HeaderText="ShipCountry" SortExpression="ShipCountry"
+        UniqueName="ShipCountry">
+      </telerik:GridBoundColumn>
+    </Columns>
+  </MasterTableView>
+  <ClientSettings AllowKeyboardNavigation="true" EnablePostBackOnRowClick="true">
+    <Selecting AllowRowSelect="true" />
+  </ClientSettings>
+  <PagerStyle Mode="NextPrevAndNumeric" />
+</telerik:RadGrid>
+<br />
+<br />
+<strong>Orders details:</strong>
+<telerik:RadGrid ID="RadGrid3" ShowStatusBar="true" runat="server" AllowSorting="True"
+  AllowPaging="True" PageSize="5" DataSourceID="SqlDataSource3" GridLines="None"
+  Skin="Web20" Width="95%" HorizontalAlign="NotSet">
+  <MasterTableView Width="100%" AutoGenerateColumns="False" DataKeyNames="OrderID"
+    DataSourceID="SqlDataSource3">
+    <Columns>
+      <telerik:GridBoundColumn DataField="UnitPrice" HeaderText="Unit price" SortExpression="UnitPrice"
+        UniqueName="UnitPrice">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity"
+        UniqueName="Quantity">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="Discount" HeaderText="Discount (%)" SortExpression="Discount"
+        UniqueName="Discount">
+      </telerik:GridBoundColumn>
+    </Columns>
+  </MasterTableView>
+  <PagerStyle Mode="NextPrevAndNumeric" />
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM Customers"
+  runat="server"></asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [OrderDate], [CustomerID], [ShipCountry] FROM [Orders] WHERE ([CustomerID] = @CustomerID)"
+  runat="server">
+  <SelectParameters>
+    <asp:ControlParameter ControlID="RadGrid1" DefaultValue="ALFKI" Name="CustomerID"
+      PropertyName="SelectedValue" Type="String" />
+  </SelectParameters>
+</asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource3" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  ProviderName="System.Data.SqlClient" SelectCommand="SELECT [OrderID], [UnitPrice], [Quantity], [Discount] FROM [Order Details] WHERE ([OrderID] = @OrderID)"
+  runat="server">
+  <SelectParameters>
+    <asp:ControlParameter ControlID="RadGrid2" Name="OrderID" DefaultValue="10643" PropertyName="SelectedValues['OrderID']"
+      Type="Int32" />
+  </SelectParameters>
+</asp:SqlDataSource>
 ````
 
 
@@ -144,25 +144,23 @@ In the code-behind, you can use the **Page_PreRender** event to initialize the s
 
 
 
-````C#
-	
-	    protected void Page_PreRender(object sender, EventArgs e)
-	    {
-	        if (RadGrid1.SelectedIndexes.Count == 0 && RadGrid2.SelectedIndexes.Count == 0)
-	        {
-	            RadGrid1.SelectedIndexes.Add(0);
-	            RadGrid2.SelectedIndexes.Add(0);
-	        }
-	    }
-	
+````C#	
+protected void Page_PreRender(object sender, EventArgs e)
+{
+    if (RadGrid1.SelectedIndexes.Count == 0 && RadGrid2.SelectedIndexes.Count == 0)
+    {
+        RadGrid1.SelectedIndexes.Add(0);
+        RadGrid2.SelectedIndexes.Add(0);
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRender
-	        If RadGrid1.SelectedIndexes.Count = 0 AndAlso RadGrid2.SelectedIndexes.Count = 0 Then
-	            RadGrid1.SelectedIndexes.Add(0)
-	            RadGrid2.SelectedIndexes.Add(0)
-	        End If
-	    End Sub
+Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRender
+    If RadGrid1.SelectedIndexes.Count = 0 AndAlso RadGrid2.SelectedIndexes.Count = 0 Then
+        RadGrid1.SelectedIndexes.Add(0)
+        RadGrid2.SelectedIndexes.Add(0)
+    End If
+End Sub
 ````
 
 

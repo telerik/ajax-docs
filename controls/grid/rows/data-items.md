@@ -28,8 +28,7 @@ Each dynamic row in the grid represents a record from the specified [data source
 
 Each **GridTableView** has a set of rows (the **Items** collection) of type **GridDataItem.** The collection does not provide any methods to add or remove items. However, you can control the content of an item by providing a handler for the **ItemCreated** event.
 
->note Note that:
->
+>note
 * Only Items bound to the data source (such as normal and alternating rows) are kept in the **Items** collection. The header, footer, pager, filter and separator are not included in this collection.
 * The **ItemsHierarchy** collection contains all Items of the owner's **GridTableView** and all Items of the child views nested in that table view.
 * The **Items** property of **RadGrid** is a reference to the **ItemsHierarchy** property of its **MasterTableView** .>

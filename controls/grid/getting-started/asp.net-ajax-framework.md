@@ -23,19 +23,19 @@ To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 1. Add the instance of **RadGrid** to a **RadAjaxManager** control. You can optionally provide it with a loading panel, as shown below:
 
 ````ASPNET
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
-	    Width="75px" Transparency="25">
-	    <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
-	      style="border: 0;" /></telerik:RadAjaxLoadingPanel>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
+  Width="75px" Transparency="25">
+  <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
+    style="border: 0;" /></telerik:RadAjaxLoadingPanel>
 ````
 
 
@@ -58,15 +58,15 @@ you need to the code block inside RadCodeBlock, i.e.:
 **Incorrect:**
 
 ````ASPNET
-	  <head runat="server">
-	    <script>
-	    var grid = $find(<%= RadGrid1.ClientID %>);
-	    ...
-	    </script>
-	  </head>
-	  <body>
-	    ...
-	  </body>
+<head runat="server">
+  <script>
+  var grid = $find(<%= RadGrid1.ClientID %>);
+  ...
+  </script>
+</head>
+<body>
+  ...
+</body>
 ````
 
 
@@ -74,28 +74,32 @@ you need to the code block inside RadCodeBlock, i.e.:
 **Correct:**
 
 ````ASPNET
-	  <head runat="server">
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	      <script>
-	      var grid = $find(<%= RadGrid1.ClientID %>);
-	      ...
-	      </script>
-	    </telerik:RadCodeBlock>
-	  </head>
-	  <body>
-	    ...
-	  </body>
-	  or
-	  <head runat="server">
-	  </head>
-	  <body>
-	    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	      <script>
-	      var grid = $find(<%= RadGrid1.ClientID %>);
-	      ...
-	      </script>
-	    </telerik:RadCodeBlock>
-	  </body>
+<head runat="server">
+  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script>
+    var grid = $find(<%= RadGrid1.ClientID %>);
+    ...
+    </script>
+  </telerik:RadCodeBlock>
+</head>
+<body>
+  ...
+</body>
+or
+<head runat="server">
+</head>
+<body>
+  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+    <script>
+    var grid = $find(<%= RadGrid1.ClientID %>);
+    ...
+    </script>
+  </telerik:RadCodeBlock>
+</body>
 ````
+
+
+
+
 
 

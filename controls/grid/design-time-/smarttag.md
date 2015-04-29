@@ -22,7 +22,7 @@ The smart tag lets you perform the following:
 
 * The **Configure Data Source** link launches the **Configure Data Source wizard** for the current data source. This link does not appear in the Smart Tag unless the grid is bound to a declarative data source.
 
-* The **Refresh Schema** link refreshes the schema for the data source to which the grid is bound. This link does not appear in the Smart Tag unless the grid is bound to a declaraative data source.
+* The **Refresh Schema** link refreshes the schema for the data source to which the grid is bound. This link does not appear in the Smart Tag unless the grid is bound to a declarative data source.
 
 * The **Auto-generate columns at runtime** check box sets **AutoGenerateColumns** property of the **RadGrid** control. This specifies whether the table views in the grid automatically create [columns]({%slug grid/columns/column-types%}) for all fields in the data source at runtime by default. This default behavior can be overridden by the **AutoGenerateColumns** property of any **GridTableView** in the grid.
 
@@ -38,7 +38,7 @@ The smart tag lets you perform the following:
 >
 
 
-* The **Open Editor** link lauches the [RadGrid Editor]({%slug grid/design-time-/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
+* The **Open Editor** link launches the [RadGrid Editor]({%slug grid/design-time-/setting-radgrid%}), where you can configure the grid, including all **GridTableView** objects that it contains. The **RadGrid Editor** helps organize the many child controls and functions of the **RadGrid** control.
 
 ## General Features
 
@@ -56,7 +56,7 @@ The smart tag lets you perform the following:
 
 * The **Enable Server-Side Columns Reorder** check box sets the **ClientSettings.AllowColumnsReorder** and **ClientSettings.ReorderColumnsOnClient** properties of the grid. When **Enable Server-Side Columns Reorder** is checked, the **AllowColumnsReorder** property is set to **True** and the **ReorderColumnsOnClient** property is set to **False**. This allows the user to [re-order the columns of the grid]({%slug grid/columns/reordering%}), where the re-ordering occurs in server-side code.
 
-* The **Enable Client-Side Columns Reorder** check box sets the **ClientSettings.AllowColumnsReorder** and **ClientSettings.ReorderColumnsOnClient** properties of the grid. When **Enable Client-Side Columns Reorder** is checked, both the **AllowColumnsReorder** property and the **ReorderColumnsOnClient** property are set to **True**. This allows the user to re-rder the columns of the grid, where the re-ordering occurs in client-side code.
+* The **Enable Client-Side Columns Reorder** check box sets the **ClientSettings.AllowColumnsReorder** and **ClientSettings.ReorderColumnsOnClient** properties of the grid. When **Enable Client-Side Columns Reorder** is checked, both the **AllowColumnsReorder** property and the **ReorderColumnsOnClient** property are set to **True**. This allows the user to re-order the columns of the grid, where the re-ordering occurs in client-side code.
 
 ## Rows Selecting
 

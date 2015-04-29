@@ -30,30 +30,30 @@ The **MultiColumn Headers** of the RadGrid represent a tree-like structure where
 
 ## Definition
 
-In order to define the MultiColumn Headers in RadGrid **Column Groups** should be set.#_ASPX_
+In order to define the MultiColumn Headers in RadGrid **Column Groups** should be set.
+	
+````ASPNET
+<ColumnGroups>
+<telerik:GridColumnGroup HeaderText="Product Details" Name="ProductDetails"/>
+<telerik:GridColumnGroup HeaderText="Location" Name="Location"/>
+<telerik:GridColumnGroup HeaderText="Category" Name="Category" ParentGroupName="ProductDetails"/>
+<telerik:GridColumnGroup HeaderText="Order Details" Name="OrderDetails" ParentGroupName="ProductDetails"/>
+</ColumnGroups>
+````
+
+
+
+In order to add the needed column in the MultiColumn Header the **ColumnGroupName** property should be used:
 
 	
-
-          <ColumnGroups>
-          <telerik:GridColumnGroup HeaderText="Product Details" Name="ProductDetails"/>
-          <telerik:GridColumnGroup HeaderText="Location" Name="Location"/>
-          <telerik:GridColumnGroup HeaderText="Category" Name="Category" ParentGroupName="ProductDetails"/>
-          <telerik:GridColumnGroup HeaderText="Order Details" Name="OrderDetails" ParentGroupName="ProductDetails"/>
-          </ColumnGroups>
-        
+````ASPNET
+<telerik:GridBoundColumn UniqueName="Address" DataField="Address" ColumnGroupName="Location" HeaderText="Address"/>
+````       
 
 
 
-In order to add the needed column in the MultiColumn Header the **ColumnGroupName** property should be used:#_ASPX_
-
-	
-
-          <telerik:GridBoundColumn UniqueName="Address" DataField="Address" ColumnGroupName="Location" HeaderText="Address"/>
-        
-
-
-
-The above definition will be presented in the following output:![grid Multi Column Headers](images/grid_MultiColumnHeaders.jpg)
+The above definition will be presented in the following output:
+![grid Multi Column Headers](images/grid_MultiColumnHeaders.jpg)
 
 ## API Model
 
@@ -72,8 +72,4 @@ The **GridColumnGroupCollection** type is a new type that implements StateManage
 | **Visible** | **Bool** |Public ReadOnly. Returns whether a multicolumn header cell will be rendered as visible or not. True if at least one of its children (gridcolumn or columngroup) is visible, otherwise false.|
 | **CompareTo** | **Int** |Implemetns standard comparison operation and also allows comparison between GridColumnGroups and ordinary GridColumns. Used to determine the proper order of the cells in each multiheader.|
 
-## MultiColumn Headers Limitations
 
-The functionalities listed below are officially not supported with multicolumn headers:
-
-* **Frozen Columns;**

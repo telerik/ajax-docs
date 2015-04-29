@@ -1,6 +1,6 @@
 ---
-title: Mobile Support Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Mobile Support Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/mobile-support/overview
 tags: overview

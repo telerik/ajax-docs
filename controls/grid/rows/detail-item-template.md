@@ -44,9 +44,10 @@ Base row style **(rgRow, rgAltRow)** is applied according to the parent item’s
 ## Accessing the DetailItemTemplate
 
 It is important to note that the data cell of the new item can be directly accessed via the **DetailTemplateItemDataCell** property of **GridDataItem**.
-The new template supports databinding using the **DataItem** of the corresponding **GridDataItem**.All items of type **GridDetailTemplateItem** could be accessed by using the **GetItems()** method of the **GridTableView**.![grid detail item template](images/grid_detail_item_template.jpg)
+The new template supports databinding using the **DataItem** of the corresponding **GridDataItem**.All items of type **GridDetailTemplateItem** could be accessed by using the **GetItems()** method of the **GridTableView**.
+![grid detail item template](images/grid_detail_item_template.jpg)
 
->note Note that **DetailItemTemplate** is not supported when **MasterTableView ItemTemplate** is used.
+>note **DetailItemTemplate** is not supported when **MasterTableView ItemTemplate** is used.
 >
 
 

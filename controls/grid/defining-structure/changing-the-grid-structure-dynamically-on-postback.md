@@ -29,165 +29,165 @@ The following code snippets illustrate how to change the columns in a dynamicall
 
 
 ````ASPNET
-	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
-	  <br />
-	  <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-	    <asp:ListItem Text="empty grid" Value="0" />
-	    <asp:ListItem Text="1 column grid" Value="1" />
-	    <asp:ListItem Text="2 column grid" Value="2" />
-	    <asp:ListItem Text="3 column grid" Value="3" />
-	  </asp:DropDownList>
-	  <br />
-	  <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
-	    SelectCommand="SELECT ContactName, ContactTitle, Address FROM [Customers]" />
+<asp:PlaceHolder ID="PlaceHolder1" runat="server" />
+<br />
+<asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+  <asp:ListItem Text="empty grid" Value="0" />
+  <asp:ListItem Text="1 column grid" Value="1" />
+  <asp:ListItem Text="2 column grid" Value="2" />
+  <asp:ListItem Text="3 column grid" Value="3" />
+</asp:DropDownList>
+<br />
+<asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
+  SelectCommand="SELECT ContactName, ContactTitle, Address FROM [Customers]" />
 ````
 ````C#
-	    protected void Page_Init(object sender, System.EventArgs e)
-	    {
-	        PopulateGridOnPageInit();
-	    }
-	    protected void PopulateGridOnPageInit()
-	    {
-	        string ddlValue = Request.Form.Get("DropDownList1");
-	        RadGrid grid = new RadGrid();
-	        grid.ID = "grid";
-	        grid.Width = Unit.Pixel(400);
-	        grid.AllowSorting = true;
-	        grid.PagerStyle.Mode = GridPagerMode.NextPrevAndNumeric;
-	        grid.AllowPaging = true;
-	        grid.Skin = "Sunset";
-	        grid.DataSourceID = "AccessDataSource1";
-	        grid.MasterTableView.AutoGenerateColumns = false;
-	        grid.MasterTableView.EnableColumnsViewState = false;
-	        GridBoundColumn boundColumn;
-	        if (ddlValue != null)
-	        {
-	            switch (ddlValue)
-	            {
-	                case "0":
-	                    grid.DataSourceID = "";
-	                    grid.DataSource = new object[0];
-	                    break;
-	                case "1":
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "ContactName";
-	                    boundColumn.DataField = "ContactName";
-	                    boundColumn.UniqueName = "ContactName";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    break;
-	                case "2":
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "ContactName";
-	                    boundColumn.DataField = "ContactName";
-	                    boundColumn.UniqueName = "ContactName";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "ContactTitle";
-	                    boundColumn.DataField = "ContactTitle";
-	                    boundColumn.UniqueName = "ContactTitle";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    break;
-	                case "3":
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "ContactName";
-	                    boundColumn.DataField = "ContactName";
-	                    boundColumn.UniqueName = "ContactName";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "ContactTitle";
-	                    boundColumn.DataField = "ContactTitle";
-	                    boundColumn.UniqueName = "ContactTitle";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    boundColumn = new GridBoundColumn();
-	                    boundColumn.HeaderText = "Address";
-	                    boundColumn.DataField = "Address";
-	                    boundColumn.UniqueName = "Address";
-	                    grid.MasterTableView.Columns.Add(boundColumn);
-	                    break;
-	            }
-	        }
-	        else
-	        {
-	            grid.DataSourceID = "";
-	            grid.DataSource = new object[0];
-	        }
-	        PlaceHolder1.Controls.Add(grid);
-	    }
-	    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
-	    {
-	        RadGrid grid = PlaceHolder1.FindControl("grid") as RadGrid;
-	        grid.Rebind();
-	    }
+protected void Page_Init(object sender, System.EventArgs e)
+{
+    PopulateGridOnPageInit();
+}
+protected void PopulateGridOnPageInit()
+{
+    string ddlValue = Request.Form.Get("DropDownList1");
+    RadGrid grid = new RadGrid();
+    grid.ID = "grid";
+    grid.Width = Unit.Pixel(400);
+    grid.AllowSorting = true;
+    grid.PagerStyle.Mode = GridPagerMode.NextPrevAndNumeric;
+    grid.AllowPaging = true;
+    grid.Skin = "Sunset";
+    grid.DataSourceID = "AccessDataSource1";
+    grid.MasterTableView.AutoGenerateColumns = false;
+    grid.MasterTableView.EnableColumnsViewState = false;
+    GridBoundColumn boundColumn;
+    if (ddlValue != null)
+    {
+        switch (ddlValue)
+        {
+            case "0":
+                grid.DataSourceID = "";
+                grid.DataSource = new object[0];
+                break;
+            case "1":
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "ContactName";
+                boundColumn.DataField = "ContactName";
+                boundColumn.UniqueName = "ContactName";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                break;
+            case "2":
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "ContactName";
+                boundColumn.DataField = "ContactName";
+                boundColumn.UniqueName = "ContactName";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "ContactTitle";
+                boundColumn.DataField = "ContactTitle";
+                boundColumn.UniqueName = "ContactTitle";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                break;
+            case "3":
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "ContactName";
+                boundColumn.DataField = "ContactName";
+                boundColumn.UniqueName = "ContactName";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "ContactTitle";
+                boundColumn.DataField = "ContactTitle";
+                boundColumn.UniqueName = "ContactTitle";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                boundColumn = new GridBoundColumn();
+                boundColumn.HeaderText = "Address";
+                boundColumn.DataField = "Address";
+                boundColumn.UniqueName = "Address";
+                grid.MasterTableView.Columns.Add(boundColumn);
+                break;
+        }
+    }
+    else
+    {
+        grid.DataSourceID = "";
+        grid.DataSource = new object[0];
+    }
+    PlaceHolder1.Controls.Add(grid);
+}
+protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+{
+    RadGrid grid = PlaceHolder1.FindControl("grid") as RadGrid;
+    grid.Rebind();
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, _
-	          ByVal e As System.EventArgs) Handles Me.Init
-	        PopulateGridOnPageInit()
-	    End Sub
-	    Protected Sub PopulateGridOnPageInit()
-	        Dim ddlValue As String = Request.Form.Get("DropDownList1")
-	        Dim grid As RadGrid = New RadGrid
-	        grid.ID = "grid"
-	        grid.Width = Unit.Pixel(400)
-	        grid.AllowSorting = True
-	        grid.PagerStyle.Mode = GridPagerMode.NextPrevAndNumeric
-	        grid.AllowPaging = True
-	        grid.Skin = "Sunset"
-	        grid.DataSourceID = "AccessDataSource1"
-	        grid.MasterTableView.AutoGenerateColumns = False
-	        grid.MasterTableView.EnableColumnsViewState = False
-	        Dim boundColumn As GridBoundColumn
-	        If Not (ddlValue Is Nothing) Then
-	            Select Case ddlValue
-	                Case "0"
-	                    grid.DataSourceID = ""
-	                    grid.DataSource = New Object() {}
-	                Case "1"
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "ContactName"
-	                    boundColumn.DataField = "ContactName"
-	                    boundColumn.UniqueName = "ContactName"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	                Case "2"
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "ContactName"
-	                    boundColumn.DataField = "ContactName"
-	                    boundColumn.UniqueName = "ContactName"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "ContactTitle"
-	                    boundColumn.DataField = "ContactTitle"
-	                    boundColumn.UniqueName = "ContactTitle"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	                Case "3"
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "ContactName"
-	                    boundColumn.DataField = "ContactName"
-	                    boundColumn.UniqueName = "ContactName"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "ContactTitle"
-	                    boundColumn.DataField = "ContactTitle"
-	                    boundColumn.UniqueName = "ContactTitle"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	                    boundColumn = New GridBoundColumn
-	                    boundColumn.HeaderText = "Address"
-	                    boundColumn.DataField = "Address"
-	                    boundColumn.UniqueName = "Address"
-	                    grid.MasterTableView.Columns.Add(boundColumn)
-	            End Select
-	        Else
-	            grid.DataSourceID = ""
-	            grid.DataSource = New Object() {}
-	        End If
-	        PlaceHolder1.Controls.Add(grid)
-	    End Sub
-	    Protected Sub DropDownList1_SelectedIndexChanged( _
-	                   ByVal sender As Object, _
-	                   ByVal e As EventArgs) _
-	             Handles DropDownList1.SelectedIndexChanged
-	        Dim grid As RadGrid = CType(PlaceHolder1.FindControl("grid"), RadGrid)
-	        grid.Rebind()
-	    End Sub
+Protected Sub Page_Init(ByVal sender As Object, _
+      ByVal e As System.EventArgs) Handles Me.Init
+    PopulateGridOnPageInit()
+End Sub
+Protected Sub PopulateGridOnPageInit()
+    Dim ddlValue As String = Request.Form.Get("DropDownList1")
+    Dim grid As RadGrid = New RadGrid
+    grid.ID = "grid"
+    grid.Width = Unit.Pixel(400)
+    grid.AllowSorting = True
+    grid.PagerStyle.Mode = GridPagerMode.NextPrevAndNumeric
+    grid.AllowPaging = True
+    grid.Skin = "Sunset"
+    grid.DataSourceID = "AccessDataSource1"
+    grid.MasterTableView.AutoGenerateColumns = False
+    grid.MasterTableView.EnableColumnsViewState = False
+    Dim boundColumn As GridBoundColumn
+    If Not (ddlValue Is Nothing) Then
+        Select Case ddlValue
+            Case "0"
+                grid.DataSourceID = ""
+                grid.DataSource = New Object() {}
+            Case "1"
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "ContactName"
+                boundColumn.DataField = "ContactName"
+                boundColumn.UniqueName = "ContactName"
+                grid.MasterTableView.Columns.Add(boundColumn)
+            Case "2"
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "ContactName"
+                boundColumn.DataField = "ContactName"
+                boundColumn.UniqueName = "ContactName"
+                grid.MasterTableView.Columns.Add(boundColumn)
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "ContactTitle"
+                boundColumn.DataField = "ContactTitle"
+                boundColumn.UniqueName = "ContactTitle"
+                grid.MasterTableView.Columns.Add(boundColumn)
+            Case "3"
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "ContactName"
+                boundColumn.DataField = "ContactName"
+                boundColumn.UniqueName = "ContactName"
+                grid.MasterTableView.Columns.Add(boundColumn)
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "ContactTitle"
+                boundColumn.DataField = "ContactTitle"
+                boundColumn.UniqueName = "ContactTitle"
+                grid.MasterTableView.Columns.Add(boundColumn)
+                boundColumn = New GridBoundColumn
+                boundColumn.HeaderText = "Address"
+                boundColumn.DataField = "Address"
+                boundColumn.UniqueName = "Address"
+                grid.MasterTableView.Columns.Add(boundColumn)
+        End Select
+    Else
+        grid.DataSourceID = ""
+        grid.DataSource = New Object() {}
+    End If
+    PlaceHolder1.Controls.Add(grid)
+End Sub
+Protected Sub DropDownList1_SelectedIndexChanged( _
+               ByVal sender As Object, _
+               ByVal e As EventArgs) _
+         Handles DropDownList1.SelectedIndexChanged
+    Dim grid As RadGrid = CType(PlaceHolder1.FindControl("grid"), RadGrid)
+    grid.Rebind()
+End Sub
 ````
 

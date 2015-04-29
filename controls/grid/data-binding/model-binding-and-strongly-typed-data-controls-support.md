@@ -16,15 +16,15 @@ position: 5
 
 ## Strongly Typed Data Controls Support
 
-When template fields are used into the Telerik’s data bound controls for customizing templates and bound the field value the late-bound expressions are typically used. For example, below we are using the Eval() helper method to data-bind the "CategoryName" property from an objects which is bound to the RadGrid:
+When template fields are used into the Telerik data bound controls for customizing templates and bound the field value the late-bound expressions are typically used. For example, below we are using the Eval() helper method to data-bind the "CategoryName" property from an objects which is bound to the RadGrid:
 
 ````C#
-	   <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
-	      DataField="CategoryID" SortExpression="CategoryID">
-	      <ItemTemplate>
-	         <%# Eval("Category.CategoryName") %>
-	      <ItemTemplate>
-	    </telerik:GridTemplateColumn
+<telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
+   DataField="CategoryID" SortExpression="CategoryID">
+   <ItemTemplate>
+      <%# Eval("Category.CategoryName") %>
+   <ItemTemplate>
+ </telerik:GridTemplateColumn
 ````
 
 
@@ -32,14 +32,14 @@ When template fields are used into the Telerik’s data bound controls for custo
 When we perform two-way data-binding the Bind() method is used:
 
 ````ASPNET
-	   <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
-	      DataField="CategoryID" SortExpression="CategoryID">
-	      <EditItemTemplate>
-	         <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories" 
-	             DataValueField="CategoryID" DataTextField="CategoryName" 
-	             SelectedValue='<%# Bind("CategoryID") %>'></telerik:RadComboBox>
-	       </EditItemTemplate>
-	   </telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
+   DataField="CategoryID" SortExpression="CategoryID">
+   <EditItemTemplate>
+      <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories" 
+          DataValueField="CategoryID" DataTextField="CategoryName" 
+          SelectedValue='<%# Bind("CategoryID") %>'></telerik:RadComboBox>
+    </EditItemTemplate>
+</telerik:GridTemplateColumn>
 ````
 
 
@@ -53,21 +53,22 @@ On the other side the .NET 4.5 provides ability to enable strongly-typed data te
 For example the code snippet above could be rewritten as:
 
 ````ASPNET
-	    <telerik:GridTemplateColumn HeaderText="Category"  UniqueName="CategoryID" 
-	    DataField="CategoryID" SortExpression="CategoryID">
-	                            <ItemTemplate>
-	                                <%# Item.Category.CategoryName %>
-	                            </ItemTemplate>
-	                            <EditItemTemplate>
-	                                <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories" 
-	                                    DataValueField="CategoryID" DataTextField="CategoryName" SelectedValue="<%# BindItem.CategoryID %>"></telerik:RadComboBox>
-	                            </EditItemTemplate>
-	                        </telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn HeaderText="Category"  UniqueName="CategoryID" 
+DataField="CategoryID" SortExpression="CategoryID">
+                        <ItemTemplate>
+                            <%# Item.Category.CategoryName %>
+                        </ItemTemplate>
+                        <EditItemTemplate>
+                            <telerik:RadComboBox Skin="Metro" ID="ComboBox1" runat="server" SelectMethod="GetCategories" 
+                                DataValueField="CategoryID" DataTextField="CategoryName" SelectedValue="<%# BindItem.CategoryID %>"></telerik:RadComboBox>
+                        </EditItemTemplate>
+                    </telerik:GridTemplateColumn>
 ````
 
 
 
-The developers could use these variables in data-binding expressions and to get full intellisense support.![grid-model-binding-and-strongly-typed-data-controls](images/grid-model-binding-and-strongly-typed-data-controls.png)
+The developers could use these variables in data-binding expressions and to get full intellisense support.
+![grid-model-binding-and-strongly-typed-data-controls](images/grid-model-binding-and-strongly-typed-data-controls.png)
 
 >note Due to the fact that the RadGrid control has GridTableView as a child control to have intellisense into grid’s columns you need to set the ItemType property of the MasterTableView.
 >
@@ -78,8 +79,8 @@ The developers could use these variables in data-binding expressions and to get 
 To bind databound UI controls via ModelBinding you need to set only the SelectMethod property to the name of the public method placed into the page's code-behind file:
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
-	                AutoGenerateColumns="False">
+<telerik:RadGrid ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
+            AutoGenerateColumns="False">
 ````
 
 
@@ -87,13 +88,13 @@ To bind databound UI controls via ModelBinding you need to set only the SelectMe
 The GetProducts method has following declaration:
 
 ````C#
-	    DataClassesDataContext context = new DataClassesDataContext(); 
-	    public IQueryable<Employee> GetProducts() 
-	    { 
-	        return from e in context.Employees 
-	               select e; 
-	
-	    } 
+DataClassesDataContext context = new DataClassesDataContext(); 
+public IQueryable<Employee> GetProducts() 
+{ 
+    return from e in context.Employees 
+           select e; 
+
+} 
 ````
 
 
@@ -101,10 +102,10 @@ The GetProducts method has following declaration:
 Or it can be with parameters:
 
 ````C#
-	    public IQueryable<Employee> GetProducts(string sortByExpression, int startRowIndex, int maximumRows, out int totalRowCount) 
-	    { 
-	            ....  
-	    }
+public IQueryable<Employee> GetProducts(string sortByExpression, int startRowIndex, int maximumRows, out int totalRowCount) 
+{ 
+        ....  
+}
 ````
 
 
@@ -126,10 +127,10 @@ For example if SelectMethod returns data from Linq DataContext and if the paging
 
 
 ````C#
-	    public IQueryable<Employee> GetProducts(string sortByExpression, int? startRowIndex, int? maximumRows, out int totalRowCount) 
-	    { 
-	          ....   
-	    } 
+public IQueryable<Employee> GetProducts(string sortByExpression, int? startRowIndex, int? maximumRows, out int totalRowCount) 
+{ 
+      ....   
+} 
 ````
 
 
@@ -139,10 +140,10 @@ For example if SelectMethod returns data from Linq DataContext and if the paging
 In order to filter the data source of the data bound control and pass the filtered data to the control you could pass filter parameters to the SelectMethod. You could get these parameters from query string, cookies, form values, controls, viewstate, session and profile. For example:
 
 ````C#
-	    public IQueryable<Product> GetProducts([Control("RadComboBoxCategories")] int? categoryID, [QueryString]string name)
-	    {
-	        // Filter the data source based on categoryID and ProductName 
-	    }
+public IQueryable<Product> GetProducts([Control("RadComboBoxCategories")] int? categoryID, [QueryString]string name)
+{
+    // Filter the data source based on categoryID and ProductName 
+}
 ````
 
 
@@ -161,16 +162,15 @@ The code snippet above will get the name parameter from the QueryString and inte
 In order to have editing enabled into the data bound controls you need to set the UpdateMethod of the corresponding control to the web form page’s method. The UpdateMethod can have following signature:
 
 ````C#
-	    public void UpdateProduct(int ProductID)
-	    {
-	        Product updatedProduct = context.Products.Where(p => p.ProductID == ProductID).First();
-	        TryUpdateModel(updatedProduct);
-	        if (ModelState.IsValid)
-	        {
-	            context.SubmitChanges();
-	        }
-	    }
-	
+public void UpdateProduct(int ProductID)
+{
+    Product updatedProduct = context.Products.Where(p => p.ProductID == ProductID).First();
+    TryUpdateModel(updatedProduct);
+    if (ModelState.IsValid)
+    {
+        context.SubmitChanges();
+    }
+}
 ````
 
 
@@ -180,15 +180,15 @@ Where the “ProductID” is one of the fields set as DataKeyNames of the corres
 Or you could use following signature:
 
 ````C#
-	    public void UpdateProduct(Product product)
-	    {
-	        Product updatedProduct = context.Products.Where(p => p.ProductID == product.ProductID).First();
-	        TryUpdateModel(updatedProduct);
-	        if (ModelState.IsValid)
-	        {
-	            context.SubmitChanges();
-	        }
-	    }
+public void UpdateProduct(Product product)
+{
+    Product updatedProduct = context.Products.Where(p => p.ProductID == product.ProductID).First();
+    TryUpdateModel(updatedProduct);
+    if (ModelState.IsValid)
+    {
+        context.SubmitChanges();
+    }
+}
 ````
 
 
@@ -202,12 +202,12 @@ In order to have inserting enabled into the data bound controls you need to set 
 In order to have deleting enabled into the data bound controls you need to set the DeleteMethod property of the corresponding control to the name of the web form page’s delete method. The DeleteMethod can have following signature:
 
 ````C#
-	    public void DeleteProduct(int ProductID)
-	    {
-	        Product deletedProduct = context.Products.Where(p => p.ProductID == ProductID).First();
-	        context.Products.DeleteOnSubmit(deletedProduct);
-	        context.SubmitChanges();
-	    }
+public void DeleteProduct(int ProductID)
+{
+    Product deletedProduct = context.Products.Where(p => p.ProductID == ProductID).First();
+    context.Products.DeleteOnSubmit(deletedProduct);
+    context.SubmitChanges();
+}
 ````
 
 
@@ -217,26 +217,26 @@ In order to have deleting enabled into the data bound controls you need to set t
 Due to the fact that Model Binding system in Web Forms supports model validation using the same validation attributes from the System.ComponentModel.DataAnnotations you could use validation into our databound controls. You could decorate properties from your model classes with the attributes provided in System.ComponentModel.DataAnnotations namespace. For example if you have DataContext mapped to a Northwind database “Product” table and you want to ensure that when inserting new product or update existing one the ProductName field is populated, you could set [Required] attribute to it into the DataClasses.designer.cs file:
 
 ````C#
-	    [Required]
-	    [global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_ProductName", DbType = "NVarChar(40) NOT NULL", CanBeNull = false)]
-	    public string ProductName
-	    {
-	        get
-	        {
-	            return this._ProductName;
-	        }
-	        set
-	        {
-	            if ((this._ProductName != value))
-	            {
-	                this.OnProductNameChanging(value);
-	                this.SendPropertyChanging();
-	                this._ProductName = value;
-	                this.SendPropertyChanged("ProductName");
-	                this.OnProductNameChanged();
-	            }
-	        }
-	    }
+[Required]
+[global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_ProductName", DbType = "NVarChar(40) NOT NULL", CanBeNull = false)]
+public string ProductName
+{
+    get
+    {
+        return this._ProductName;
+    }
+    set
+    {
+        if ((this._ProductName != value))
+        {
+            this.OnProductNameChanging(value);
+            this.SendPropertyChanging();
+            this._ProductName = value;
+            this.SendPropertyChanged("ProductName");
+            this.OnProductNameChanged();
+        }
+    }
+}
 ````
 
 
@@ -244,14 +244,14 @@ Due to the fact that Model Binding system in Web Forms supports model validation
 Then when values from databound control editors are submitted to the server the the Web Forms Model Binding system will track whether any of these validation rules are violated in the page's ModelState property.
 
 ````C#
-	    public void InsertProduct(Product p)
-	    {
-	        if (ModelState.IsValid)
-	        {
-	            context.Products.InsertOnSubmit(p);
-	            context.SubmitChanges();
-	        }
-	    }
+public void InsertProduct(Product p)
+{
+    if (ModelState.IsValid)
+    {
+        context.Products.InsertOnSubmit(p);
+        context.SubmitChanges();
+    }
+}
 ````
 
 
@@ -259,7 +259,7 @@ Then when values from databound control editors are submitted to the server the 
 To show any validation errors you could use asp:ValidationSummary control or asp:ModelErrorMessage:
 
 ````ASPNET
-	    <asp:ValidationSummary runat="server" ID="ValidationSummary1" />
+<asp:ValidationSummary runat="server" ID="ValidationSummary1" />
 ````
 
 ![grid-model-binding-and-strongly-typed-data-controls 1](images/grid-model-binding-and-strongly-typed-data-controls1.png)
@@ -269,25 +269,25 @@ To show any validation errors you could use asp:ValidationSummary control or asp
 
 
 ````C#
-	    public void InsertProduct(int productID)
-	    {
-	        Product pr = new Product();
-	        TryUpdateModel(pr);
-	
-	        if (ModelState.IsValid)
-	        {
-	            context.Products.InsertOnSubmit(p);
-	            context.SubmitChanges();
-	        }
-	    }
-	    public void InsertProduct(Product p)
-	    {
-	        if (ModelState.IsValid)
-	        {
-	            context.Products.InsertOnSubmit(p);
-	            context.SubmitChanges();
-	        }
-	    }
+public void InsertProduct(int productID)
+{
+    Product pr = new Product();
+    TryUpdateModel(pr);
+
+    if (ModelState.IsValid)
+    {
+        context.Products.InsertOnSubmit(p);
+        context.SubmitChanges();
+    }
+}
+public void InsertProduct(Product p)
+{
+    if (ModelState.IsValid)
+    {
+        context.Products.InsertOnSubmit(p);
+        context.SubmitChanges();
+    }
+}
 ````
 
 

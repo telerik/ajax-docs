@@ -31,26 +31,26 @@ The following examples illustrate this difference.
 ## Defaults set in RadGrid
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
-	    PageSize="2">
-	    <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">
-	      <DetailTables>
-	        <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
-	          TableLayout="Auto">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          <DetailTables>
-	            <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3">
-	              <ParentTableRelation>
-	                <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
-	              </ParentTableRelation>
-	            </telerik:GridTableView>
-	          </DetailTables>
-	        </telerik:GridTableView>
-	      </DetailTables>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
+  PageSize="2">
+  <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">
+    <DetailTables>
+      <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
+        TableLayout="Auto">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        <DetailTables>
+          <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3">
+            <ParentTableRelation>
+              <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
+            </ParentTableRelation>
+          </telerik:GridTableView>
+        </DetailTables>
+      </telerik:GridTableView>
+    </DetailTables>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -60,26 +60,26 @@ The following examples illustrate this difference.
 ## Properties set in MasterTableView
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1">
-	    <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto"
-	      AllowPaging="True" PageSize="2">
-	      <DetailTables>
-	        <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
-	          TableLayout="Auto">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          <DetailTables>
-	            <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3">
-	              <ParentTableRelation>
-	                <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
-	              </ParentTableRelation>
-	            </telerik:GridTableView>
-	          </DetailTables>
-	        </telerik:GridTableView>
-	      </DetailTables>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1">
+  <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto"
+    AllowPaging="True" PageSize="2">
+    <DetailTables>
+      <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
+        TableLayout="Auto">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        <DetailTables>
+          <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3">
+            <ParentTableRelation>
+              <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
+            </ParentTableRelation>
+          </telerik:GridTableView>
+        </DetailTables>
+      </telerik:GridTableView>
+    </DetailTables>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 ![](images/grd_Grid_MasterTable_Diff_2.png)
@@ -87,27 +87,27 @@ The following examples illustrate this difference.
 ## Defaults set in RadGrid with overrides by detail table
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
-	    PageSize="2">
-	    <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">
-	      <DetailTables>
-	        <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
-	          TableLayout="Auto">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          <DetailTables>
-	            <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3"
-	              AllowPaging="False">
-	              <ParentTableRelation>
-	                <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
-	              </ParentTableRelation>
-	            </telerik:GridTableView>
-	          </DetailTables>
-	        </telerik:GridTableView>
-	      </DetailTables>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
+  PageSize="2">
+  <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">
+    <DetailTables>
+      <telerik:GridTableView runat="server" DataKeyNames="OrderID" DataSourceID="AccessDataSource2"
+        TableLayout="Auto">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        <DetailTables>
+          <telerik:GridTableView runat="server" TableLayout="Auto" DataSourceID="AccessDataSource3"
+            AllowPaging="False">
+            <ParentTableRelation>
+              <telerik:GridRelationFields DetailKeyField="OrderID" MasterKeyField="OrderID" />
+            </ParentTableRelation>
+          </telerik:GridTableView>
+        </DetailTables>
+      </telerik:GridTableView>
+    </DetailTables>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 ![](images/grd_Grid_MasterTable_Diff_3.png)

@@ -37,24 +37,24 @@ Explicitly-created columns (columns created in the **Property Builder** or at ru
 The following excerpt shows a **RadGrid** declaration with explicitly-created columns. This method of declaring the columns is called column binding:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    ...
-	    <MasterTableView DataSourceID="ProductsDataSource" TableLayout="Auto">
-	      ...
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="ProductID" DataType="System.Int32" HeaderText="Product ID"
-	          SortExpression="ProductID" UniqueName="ProductID">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ProductName" HeaderText="Product Name" SortExpression="ProductName"
-	          UniqueName="ProductName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="UnitPrice" DataType="System.Decimal" HeaderText="Unit Price"
-	          SortExpression="UnitPrice" UniqueName="UnitPrice">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	      ...
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  ...
+  <MasterTableView DataSourceID="ProductsDataSource" TableLayout="Auto">
+    ...
+    <Columns>
+      <telerik:GridBoundColumn DataField="ProductID" DataType="System.Int32" HeaderText="Product ID"
+        SortExpression="ProductID" UniqueName="ProductID">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ProductName" HeaderText="Product Name" SortExpression="ProductName"
+        UniqueName="ProductName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="UnitPrice" DataType="System.Decimal" HeaderText="Unit Price"
+        SortExpression="UnitPrice" UniqueName="UnitPrice">
+      </telerik:GridBoundColumn>
+    </Columns>
+    ...
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -67,11 +67,11 @@ Every data column type has the following Boolean properties:
 
 * **Exportable** - Determines whether the column should be included into the exported file or not.
 
-* **Display** - Determines whether the column is displayed in browser mode. When **Display** is **False**, the column is rendered in the browser but all the cells are styled with "*display: none*", so that they are not visible to the user.**Display** does not affect whether the column editor is visible in an edit form, but if the table view uses an in-place editor, the column editor does not appear.
+* **Display** - Determines whether the column is displayed in browser mode. When **Display** is **False**, the column is rendered in the browser but all the cells are styled with "*display: none*", so that they are not visible to the user. **Display** does not affect whether the column editor is visible in an edit form, but if the table view uses an in-place editor, the column editor does not appear.
 
 * **Visible** - Determines whether the column is rendered in browser mode. When **Visible** is **False**, the column is not even rendered in the browser. **Visible** does not affect whether the column editor is visible in an edit form, but if the table view uses an in-place editor, the column editor does not appear.
 
-In addition, editable column types (column types that implement the **IGridEditableColumn** interface)have a **ReadOnly** property that determines whether the column editor is visible in the[edit form]({%slug grid/data-editing/edit-mode/edit-forms%}). When **ReadOnly**is **True**, the column editor does not appear in the edit form. **ReadOnly**does not affect whether the column is visible in browser mode.
+In addition, editable column types (column types that implement the **IGridEditableColumn** interface)have a **ReadOnly** property that determines whether the column editor is visible in the [edit form]({%slug grid/data-editing/edit-mode/edit-forms%}). When **ReadOnly** is **True**, the column editor does not appear in the edit form. **ReadOnly** does not affect whether the column is visible in browser mode.
 
 >note None of these three properties prevents you from accessing the column cell's content server-side using the **UniqueName** of the column.
 >
@@ -81,7 +81,7 @@ In addition, editable column types (column types that implement the **IGridEdita
 >
 
 
-In order to provide more control over the editing process, every editable column also has an **InsertVisiblityMode** propertythat determines whether an editor will be displayed in the insert item. You can set the property to one of three values:
+In order to provide more control over the editing process, every editable column also has an **InsertVisiblityMode** property that determines whether an editor will be displayed in the insert item. You can set the property to one of three values:
 
 * **Default** - The visibility is dependent on the **ReadOnly** property.
 
@@ -106,7 +106,7 @@ With explicitly-created columns, you can choose the column type you consider mos
 
 ## GridAutoCompleteColumn
 
-When in browser mode, the column looks and behaves like **GridBoundColumn**. It renders text inside the cell, depending on the DataField of the column and the data source of the owner GridTableView. In insert/edit mode, it displays **RadAutoCompleteBox** foreach edited cell in the column.
+When in browser mode, the column looks and behaves like **GridBoundColumn**. It renders text inside the cell, depending on the DataField of the column and the data source of the owner GridTableView. In insert/edit mode, it displays **RadAutoCompleteBox** for each edited cell in the column.
 
 To configure the column you can use these properties, valid for most of the other columns as well:
 
@@ -124,11 +124,11 @@ Further configuration of the **RadAutoCompleteBox** used in edit mode is possibl
 
 * **Filter** - Gets or sets a value indicating whether the **RadAutoCompleteBox** should apply “Contains” or “StartsWith” filter logic.
 
-* **AllowCustomEntry** - Gets or sets a value indicating whether the user will be able to add a custom text not present within the raw data in orderto create a custom entry.
+* **AllowCustomEntry** - Gets or sets a value indicating whether the user will be able to add a custom text not present within the raw data in order to create a custom entry.
 
 * **SelectionMode** - Gets a value indicating whether the user can select multiple entries.
 
-* **AllowTokenEditing** - Gets a value indicating whether the text of the **RadAutoCompleteBox** Tokens can be editedwhen a user double-clicks it.
+* **AllowTokenEditing** - Gets a value indicating whether the text of the **RadAutoCompleteBox** Tokens can be edited when a user double-clicks it.
 
 * **Delimiter** - Gets or sets a value indicating what delimiter should be used when the control displays the selected items as text (**InputType** = Text).
 
@@ -153,9 +153,9 @@ Moreover, the built-in **GridBoundColumn** has an **EmptyDataText** property, wh
 The following declaration shows a **GridBoundColumn**:
 
 ````ASPNET
-	  <telerik:GridBoundColumn DataField="UnitPrice" DataType="System.Decimal" HeaderText="Unit Price"
-	    SortExpression="UnitPrice" UniqueName="UnitPrice">
-	  </telerik:GridBoundColumn>
+<telerik:GridBoundColumn DataField="UnitPrice" DataType="System.Decimal" HeaderText="Unit Price"
+  SortExpression="UnitPrice" UniqueName="UnitPrice">
+</telerik:GridBoundColumn>
 ````
 
 
@@ -172,7 +172,7 @@ There are two types of button columns with pre-defined commands:
 
 In addition, you can add a generic button column and specify what command it performs by setting the **CommandName** (and**CommandArgument**) properties. For details on using commands, see[Command Reference (Event Bubbling in Telerik RadGrid)]({%slug grid/control-lifecycle/command-reference-%}).
 
-In addition to specifying the command a button performs, you can specify the type of button the column displays. The available buttons types are:**PushButton**, **LinkButton** and **ImageButton**. **Image 1** shows a grid with each ofthese types of button columns:
+In addition to specifying the command a button performs, you can specify the type of button the column displays. The available buttons types are: **PushButton**, **LinkButton** and **ImageButton**. **Image 1** shows a grid with each of these types of button columns:
 
 **Image 1**: **GridButtonColumn** with different types of buttons![](images/grd_ButtonTypes.png)
 
@@ -182,7 +182,7 @@ Initially, the **GridEditCommandColumn** displays only an Edit button as shown i
 
 **Image 2**: Edit link displayed in **GridEditCommandColumn**![Edit Column](images/grd_EditColumn_1.png)
 
-When the user presses the Edit button, if the table view is configured for in-line editing, the Update and Cancel buttons appear in place of the Edit button andthe cells on the row become editable.
+When the user presses the Edit button, if the table view is configured for in-line editing, the Update and Cancel buttons appear in place of the Edit button and the cells on the row become editable.
 
 **Image 3**: **RadGrid** row in edit mode![Edit Column](images/grd_EditColumn_2.png)
 
@@ -205,10 +205,10 @@ To specify the target of the hyperlink, set the **DataNavigateUrlFields** proper
 The following example shows the declaration of a **GridHyperLinkColumn**:
 
 ````ASPNET
-	  <telerik:GridHyperLinkColumn DataTextFormatString="Search Google for '{0}'" DataNavigateUrlFields="CompanyName"
-	    UniqueName="CompanyName" DataNavigateUrlFormatString="http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search"
-	    DataTextField="CompanyName">
-	  </telerik:GridHyperLinkColumn>
+<telerik:GridHyperLinkColumn DataTextFormatString="Search Google for '{0}'" DataNavigateUrlFields="CompanyName"
+  UniqueName="CompanyName" DataNavigateUrlFormatString="http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search"
+  DataTextField="CompanyName">
+</telerik:GridHyperLinkColumn>
 ````
 
 
@@ -230,11 +230,11 @@ Each cell in a **GridImageColumn** contains an image. To specify the image URL o
 Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**, **ImageHeight**, etc. The following example shows the declaration of a GridImageColumn from [this online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) of the product:
 
 ````ASPNET
-	  <telerik:GridImageColumn DataType="System.String" DataImageUrlFields="CustomerID"
-	    DataImageUrlFormatString="IMG/{0}.jpg" AlternateText="Customer image" DataAlternateTextField="ContactName"
-	    ImageAlign="Middle" ImageHeight="110px" ImageWidth="90px" HeaderText="Image Column"
-	    FooterText="ImageColumn footer">
-	  </telerik:GridImageColumn>
+<telerik:GridImageColumn DataType="System.String" DataImageUrlFields="CustomerID"
+  DataImageUrlFormatString="IMG/{0}.jpg" AlternateText="Customer image" DataAlternateTextField="ContactName"
+  ImageAlign="Middle" ImageHeight="110px" ImageWidth="90px" HeaderText="Image Column"
+  FooterText="ImageColumn footer">
+</telerik:GridImageColumn>
 ````
 
 
@@ -251,18 +251,18 @@ The image will be sized automatically to **ImageHeight** and **ImageWidth** pixe
 
 * **None** (default)
 
-Additionally, you can set the **DataAlternateTextField** property to specify by which field in the grid source the column will besorted/filtered. For the filtering, you must also explicitly set the **DataType** property of the column to the type of the field specifiedthrough the **DataAlternateTextField** property (**System.String** in the common case). You can also apply formatting using the**DataAlternateTextFormatString** property.
+Additionally, you can set the **DataAlternateTextField** property to specify by which field in the grid source the column will be sorted/filtered. For the filtering, you must also explicitly set the **DataType** property of the column to the type of the field specified through the **DataAlternateTextField** property (**System.String** in the common case). You can also apply formatting using the**DataAlternateTextFormatString** property.
 
 >note Note that if you directly specify a sort expression through the **SortExpression** property of the column, it will have higher priority and will override the sort/filter criteria of the **DataAlternateTextField** property.
 >
 
 
-Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**,**ImageHeight**, **DefaultImageUrl** (to set the default image when a null value is returned from the source), etc. The followingexample shows the declaration of a **GridBinaryImageColumn** from [this online demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) of the product.
+Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**,**ImageHeight**, **DefaultImageUrl** (to set the default image when a null value is returned from the source), etc. The following example shows the declaration of a **GridBinaryImageColumn** from [this online demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) of the product.
 
 ````ASPNET
-	  <telerik:GridBinaryImageColumn DataField="Data" HeaderText="Image" UniqueName="Upload"
-	    ImageHeight="60px" ImageWidth="60px" ResizeMode="Fit">
-	  </telerik:GridBinaryImageColumn>
+<telerik:GridBinaryImageColumn DataField="Data" HeaderText="Image" UniqueName="Upload"
+  ImageHeight="60px" ImageWidth="60px" ResizeMode="Fit">
+</telerik:GridBinaryImageColumn>
 ````
 
 
@@ -271,14 +271,14 @@ Other commonly used properties for that column are **AlternateText**, **ImageAli
 
 **GridCheckBoxColumn** displays a check box to represent a Boolean value. Bind this column type to a Boolean field by setting its**DataField** property. If this column type is bound to a data value that is not Boolean, the grid throws an exception.
 
-When the grid is in browser mode, or if the column is read-only, the check box is disabled. When the column is editable, the check box is enabled.**GridCheckBoxColumn** implements the **IGridEditableColumn** interface, and by default, it provides a**GridCheckBoxListColumnEditor** for editing items.
+When the grid is in browser mode, or if the column is read-only, the check box is disabled. When the column is editable, the check box is enabled.**GridCheckBoxColumn** implements the **IGridEditableColumn** interface, and by default, it provides a **GridCheckBoxListColumnEditor** for editing items.
 
 The following example shows the declaration of a **GridCheckBoxColumn**:
 
 ````ASPNET
-	  <telerik:GridCheckBoxColumn UniqueName="BoolField" HeaderText="CheckBox Column" DataField="BoolField"
-	    AllowSorting="true">
-	  </telerik:GridCheckBoxColumn>
+<telerik:GridCheckBoxColumn UniqueName="BoolField" HeaderText="CheckBox Column" DataField="BoolField"
+  AllowSorting="true">
+</telerik:GridCheckBoxColumn>
 ````
 
 
@@ -322,10 +322,10 @@ For more information on configuring **GridDropDownColumn**, see [Customize/Confi
 **GridDropDownColumn** is editable (implements the **IGridEditableColumn** interface) and provides, by default,	**GridDropDownListColumnEditor** as its column editor. You can use the **DropDownControlType** property to specify whether	the column editor uses a **RadComboBox** or a standard **DropDownList** as the column editor. The default editor is	**RadComboBox**.
 
 ````ASPNET
-	  <telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"
-	    ListValueField="ContactName" DataSourceID="SqlDataSource2" HeaderText="DropDown Column"
-	    DataField="ContactName" DropDownControlType="RadComboBox" AllowSorting="true">
-	  </telerik:GridDropDownColumn>
+<telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"
+  ListValueField="ContactName" DataSourceID="SqlDataSource2" HeaderText="DropDown Column"
+  DataField="ContactName" DropDownControlType="RadComboBox" AllowSorting="true">
+</telerik:GridDropDownColumn>
 ````
 
 
@@ -345,8 +345,8 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 
 ````ASPNET
-	  <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="GridDateTimeColumn"
-	    UniqueName="OrderDate" PickerType="DatePicker" />
+<telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="GridDateTimeColumn"
+  UniqueName="OrderDate" PickerType="DatePicker" />
 ````
 
 
@@ -361,11 +361,11 @@ When in browser mode, **GridNumericColumn** looks and behaves like a standard **
 
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridNumericColumnEditor** as its column editor.
 
-When the property **DbValueFactor** is set, it determines the multiplication factor applied by **RadNumericTextBox** in edit/insert mode. In this case, the value is represented as a percentage according tothe aforementioned factor. **DbValueFactor** is used along with the **NumericType** property, which should be set to**Percent**. It is useful mostly when storing percent values as floating point numbers in the database. Thedefault value of the property is **1**.
+When the property **DbValueFactor** is set, it determines the multiplication factor applied by **RadNumericTextBox** in edit/insert mode. In this case, the value is represented as a percentage according to the aforementioned factor. **DbValueFactor** is used along with the **NumericType** property, which should be set to**Percent**. It is useful mostly when storing percent values as floating point numbers in the database. The default value of the property is **1**.
 
 ````ASPNET
-	  <telerik:GridNumericColumn DataField="Freight" HeaderText="GridNumericColumn" UniqueName="Freight">
-	  </telerik:GridNumericColumn>
+<telerik:GridNumericColumn DataField="Freight" HeaderText="GridNumericColumn" UniqueName="Freight">
+</telerik:GridNumericColumn>
 ````
 
 
@@ -381,8 +381,8 @@ When in browser mode, **GridMaskedColumn** looks and behaves like a standard **G
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridMaskedColumnEditor** as its column editor.
 
 ````ASPNET
-	  <telerik:GridMaskedColumn UniqueName="PhoneNumber" HeaderText="Phone" DataField="PhoneNumber"
-	    Mask="(###) ###-####" />
+<telerik:GridMaskedColumn UniqueName="PhoneNumber" HeaderText="Phone" DataField="PhoneNumber"
+  Mask="(###) ###-####" />
 ````
 
 
@@ -398,8 +398,8 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridHTMLEditorColumnEditor** as its column editor.
 
 ````ASPNET
-	  <telerik:GridHTMLEditorColumn UniqueName="Blurb" DataField="Blurb" HeaderText="GridHTMLEditorColumn">
-	  </telerik:GridHTMLEditorColumn>
+<telerik:GridHTMLEditorColumn UniqueName="Blurb" DataField="Blurb" HeaderText="GridHTMLEditorColumn">
+</telerik:GridHTMLEditorColumn>
 ````
 
 
@@ -459,7 +459,7 @@ The **Edit Templates** command opens the template editor, where you can set the 
 
 See [Getting Started]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%}) for a tutorial that includes creating and binding a template column.
 
-With the Q2 2012 release, **GridTemplateColumn** exposes a **ClientItemTemplate** that allows the rendering of pure HTML into the column cell and theevaluation of Kendo-like expressions. The template is used with client-side binding and has a binding context, which has the fields of the data itemobject, as well as some additional properties listed below:
+With the Q2 2012 release, **GridTemplateColumn** exposes a **ClientItemTemplate** that allows the rendering of pure HTML into the column cell and the evaluation of Kendo-like expressions. The template is used with client-side binding and has a binding context, which has the fields of the data item object, as well as some additional properties listed below:
 
 
 >caption  
@@ -497,18 +497,18 @@ The following syntax of the binding expressions is supported:
 |Drop-down controls in the item template must be explicitly populated. This lets you populate a lookup list statically, when the data does not come from a lookup table.| **GridDropDownColumn** automatically populates its drop-down list from a lookup list based on the **DataSourceID** , **ListDataMember** , **ListTextField** and **ListValueField** properties.|
 
 ````ASPNET
-	  <telerik:GridTemplateColumn HeaderText="Check/UnCheck" UniqueName="TemplateColumn">
-	    <EditItemTemplate>    
-	        <asp:CheckBox id="editChkBox" runat="server"      
-	        Checked='<%# Bind("Bool") %>'>     
-	        </asp:CheckBox>   
-	    </EditItemTemplate>
-	    <ItemTemplate>      
-	        <asp:CheckBox id="defaultChkBox" runat="server"      
-	        Checked='<%# Eval("Bool") %>'>    
-	        </asp:CheckBox>   
-	    </ItemTemplate>
-	  </telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn HeaderText="Check/UnCheck" UniqueName="TemplateColumn">
+  <EditItemTemplate>    
+      <asp:CheckBox id="editChkBox" runat="server"      
+      Checked='<%# Bind("Bool") %>'>     
+      </asp:CheckBox>   
+  </EditItemTemplate>
+  <ItemTemplate>      
+      <asp:CheckBox id="defaultChkBox" runat="server"      
+      Checked='<%# Eval("Bool") %>'>    
+      </asp:CheckBox>   
+  </ItemTemplate>
+</telerik:GridTemplateColumn>
 ````
 
 
@@ -518,11 +518,11 @@ The following syntax of the binding expressions is supported:
 When you have attachments saved in your data source as a blob of binary data, **GridAttachmentColumn** provides you an easy way to upload to and download straight from your data source. In normal mode, **GridAttachmentColumn** displays a button to download the attachment associated with the respective data record. In edit mode, a **RadUpload** or **RadAsyncUpload** control provides the user the ability to upload an attachment into the data source. The type of upload control used is determined by the **UploadControlType** property.
 
 ````ASPNET
-	  <telerik:GridAttachmentColumn DataSourceID="SqlDataSource2" MaxFileSize="1048576"
-	    EditFormHeaderTextFormat="Upload File:" HeaderText="Download" AttachmentDataField="BinaryData"
-	    AttachmentKeyFields="ID" FileNameTextField="FileName" DataTextField="FileName"
-	    UniqueName="AttachmentColumn">
-	  </telerik:GridAttachmentColumn>
+<telerik:GridAttachmentColumn DataSourceID="SqlDataSource2" MaxFileSize="1048576"
+  EditFormHeaderTextFormat="Upload File:" HeaderText="Download" AttachmentDataField="BinaryData"
+  AttachmentKeyFields="ID" FileNameTextField="FileName" DataTextField="FileName"
+  UniqueName="AttachmentColumn">
+</telerik:GridAttachmentColumn>
 ````
 
 
@@ -549,7 +549,7 @@ In edit mode, a **RadUpload** control is provided for uploading files to the col
 
 * **MaxFileSize** - Specifies the maximum allowed file size in bytes.
 
-When a download button is clicked in a **GridAttachmentColumn**, **RadGrid** fires the **ItemCommand** event that can be used to either cancel the downloading, or to implement custom download logic. The event argument object can be cast to type **GridDownloadAttachmentCommandEventArgs**, providing additional properties related to the downloadedattachment.
+When a download button is clicked in a **GridAttachmentColumn**, **RadGrid** fires the **ItemCommand** event that can be used to either cancel the downloading, or to implement custom download logic. The event argument object can be cast to type **GridDownloadAttachmentCommandEventArgs**, providing additional properties related to the downloaded attachment.
 
 * **AttachmentColumn** - Reference to the **GridAttachmentColumn** instance from which the download event is fired.
 
@@ -558,13 +558,13 @@ When a download button is clicked in a **GridAttachmentColumn**, **RadGrid** fir
 * **FileName** - The file name that will be given to the downloaded attachment.
 
 ````C#
-	if (e.CommandName == RadGrid.DownloadAttachmentCommandName)
-	{
-	    e.Canceled = true;
-	    GridDownloadAttachmentCommandEventArgs args = e as GridDownloadAttachmentCommandEventArgs;
-	    string fileName = args.FileName;
-	    int attachmentId = (int)args.AttachmentKeyValues["ID"];
-	}			
+if (e.CommandName == RadGrid.DownloadAttachmentCommandName)
+{
+    e.Canceled = true;
+    GridDownloadAttachmentCommandEventArgs args = e as GridDownloadAttachmentCommandEventArgs;
+    string fileName = args.FileName;
+    int attachmentId = (int)args.AttachmentKeyValues["ID"];
+}			
 ````
 
 
@@ -572,27 +572,27 @@ When a download button is clicked in a **GridAttachmentColumn**, **RadGrid** fir
 The **ItemCommand** event that bubbles in **RadGrid** can also be fired using **GridItem.FireCommandEvent(string commandName, object commandArgument)** on the server, or using **GridTableView.fireCommand(name, argument)** on the client. For the server method, the **commandArgument** object is the **AttachmentKeyValues** property in the event argument that needs to be specified, while, on the client, **argument** is the JSON equivalent of the same key/value collection.
 
 ````C#
-	protected void DownloadButton_Click(object sender, EventArgs e)
-	{
-	    int attachmentId = Int32.Parse(FileNamesComboBox.SelectedValue);
-	    string fileName = FileNamesComboBox.SelectedItem.Text;
-	    Dictionary<string, object> parameters = new Dictionary<string, object>();
-	    parameters["ColumnUniqueName"] = "AttachmentColumn";
-	    parameters["FileName"] = fileName;
-	    parameters["ID"] = attachmentId;
-	    RadGrid1.Items[0].FireCommandEvent(RadGrid.DownloadAttachmentCommandName, parameters);
-	}			
+protected void DownloadButton_Click(object sender, EventArgs e)
+{
+    int attachmentId = Int32.Parse(FileNamesComboBox.SelectedValue);
+    string fileName = FileNamesComboBox.SelectedItem.Text;
+    Dictionary<string, object> parameters = new Dictionary<string, object>();
+    parameters["ColumnUniqueName"] = "AttachmentColumn";
+    parameters["FileName"] = fileName;
+    parameters["ID"] = attachmentId;
+    RadGrid1.Items[0].FireCommandEvent(RadGrid.DownloadAttachmentCommandName, parameters);
+}			
 ````
 
 
 
 ````JavaScript
-	       var parameters = {};
-	       parameters.ColumnUniqueName = "AttachmentColumn";
-	       parameters.FileName = combo.get_text();
-	       parameters.ID = +combo.get_value();
-	       var json = Sys.Serialization.JavaScriptSerializer.serialize(parameters);
-	       masterTable.fireCommand("DownloadAttachment", json);
+var parameters = {};
+parameters.ColumnUniqueName = "AttachmentColumn";
+parameters.FileName = combo.get_text();
+parameters.ID = +combo.get_value();
+var json = Sys.Serialization.JavaScriptSerializer.serialize(parameters);
+masterTable.fireCommand("DownloadAttachment", json);
 ````
 
 
@@ -605,7 +605,7 @@ For more information on **GridAttachmentColumn**, please refer to the [online de
 
 ## GridRatingColumn
 
-The **GridRatingColumn** renders a **RadRating** control and provides different options for conficuration.
+The **GridRatingColumn** renders a **RadRating** control and provides different options for configuration.
 
 * **ItemCount** - Gets or sets the number of items **RadRating** shows. The default value is 5.
 
@@ -634,7 +634,7 @@ For a live demonstration, please check out the [GridRatingColumn online demo](ht
 
 ## Structure Columns
 
-The columns that are created automatically to facilitate some functionality are called **Structure Columns**. These columns are added to the beginning of the rows of a table view and cannot be moved. There are threetypes of structure columns: **GridRowIndicatorColumn**, **GridGroupSplitterColumn** and **GridExpandColumn**.
+The columns that are created automatically to facilitate some functionality are called **Structure Columns**. These columns are added to the beginning of the rows of a table view and cannot be moved. There are three types of structure columns: **GridRowIndicatorColumn**, **GridGroupSplitterColumn** and **GridExpandColumn**.
 
 ## GridRowIndicatorColumn
 

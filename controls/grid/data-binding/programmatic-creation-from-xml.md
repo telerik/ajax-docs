@@ -44,55 +44,52 @@ The following steps describe how to import the structure of a grid:
 >
 
 
-````XML
-	<?xml version="1.0" encoding="utf-8"?>
-	<xsl:stylesheet version="1.0"
-	   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	   xmlns:telerik="remove">
-	 <xsl:template match="/">
-	   <div>
-	     <telerik:RadGrid
-	         ID="RadGrid1" runat="server"
-	         DataSourceID = "SqlDataSource1";
-	         Width="95%"
-	         AllowFilteringByColumn="True"
-	         AllowSorting="True"
-	         PageSize="15"
-	         ShowFooter="True"
-	         ShowGroupPanel="True"
-	         AllowPaging="True"
-	         AllowMultiRowSelection="True">
-	       <HeaderStyle Width="150px" />
-	       <ClientSettings
-	            ReorderColumnsOnClient="True"
-	            AllowDragToGroup="True"
-	            AllowColumnsReorder="True">
-	         <Scrolling
-	           AllowScroll="True"
-	           UseStaticHeaders="True">
-	         </Scrolling>
-	         <Resizing
-	           AllowRowResize="True"
-	           AllowColumnResize="True">
-	         </Resizing>
-	         <Selecting AllowRowSelect="True" />
-	       </ClientSettings>
-	     </telerik:RadGrid>
-	   </div>
-	 </xsl:template>
-	</xsl:stylesheet>
-				
+````ASPNET
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0"
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   xmlns:telerik="remove">
+ <xsl:template match="/">
+   <div>
+     <telerik:RadGrid
+         ID="RadGrid1" runat="server"
+         DataSourceID = "SqlDataSource1";
+         Width="95%"
+         AllowFilteringByColumn="True"
+         AllowSorting="True"
+         PageSize="15"
+         ShowFooter="True"
+         ShowGroupPanel="True"
+         AllowPaging="True"
+         AllowMultiRowSelection="True">
+       <HeaderStyle Width="150px" />
+       <ClientSettings
+            ReorderColumnsOnClient="True"
+            AllowDragToGroup="True"
+            AllowColumnsReorder="True">
+         <Scrolling
+           AllowScroll="True"
+           UseStaticHeaders="True">
+         </Scrolling>
+         <Resizing
+           AllowRowResize="True"
+           AllowColumnResize="True">
+         </Resizing>
+         <Selecting AllowRowSelect="True" />
+       </ClientSettings>
+     </telerik:RadGrid>
+   </div>
+ </xsl:template>
+</xsl:stylesheet>	
 ````
 
 
 
-````XML
-	     
-	<?xml version="1.0" encoding="utf-8" ?>
-	<root>
-	    <foo/>
-	</root>
-				
+````ASPNET     
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <foo/>
+</root>	
 ````
 
 
@@ -101,45 +98,39 @@ In the code-behind:
 
 
 
-````C#
-	
-	
-	    public void Page_Init(object sender, EventArgs e)
-	    {
-	        XPathDocument MyXPathDocument = new XPathDocument(Server.MapPath("XMLFile.xml"));
-	        XslCompiledTransform MyXslTransform = new XslCompiledTransform();
-	        MyXslTransform.Load(Server.MapPath("XSLTFile.xsl"));
-	        StringWriter MyStringWriter = new StringWriter();
-	        MyXslTransform.Transform(MyXPathDocument, null, MyStringWriter);
-	        StringBuilder MyStringBuilder = new StringBuilder();
-	        MyStringBuilder.Append(@"<%@ Register Assembly=""Telerik.Web.UI"" Namespace=""Telerik.Web.UI"" TagPrefix=""telerik"" %>");
-	        MyStringBuilder.Append(MyStringWriter.ToString());
-	        MyStringBuilder = MyStringBuilder.Replace("xmlns:telerik=\"remove\"", "");
-	        MyStringBuilder = MyStringBuilder.Replace(@"<?xml version=""1.0"" encoding=""utf-16""?>", "");
-	        Control ctrl = Page.ParseControl(MyStringBuilder.ToString());
-	        PlaceHolder1.Controls.Add(ctrl);
-	    }
-	
-	
+````C#	
+public void Page_Init(object sender, EventArgs e)
+{
+    XPathDocument MyXPathDocument = new XPathDocument(Server.MapPath("XMLFile.xml"));
+    XslCompiledTransform MyXslTransform = new XslCompiledTransform();
+    MyXslTransform.Load(Server.MapPath("XSLTFile.xsl"));
+    StringWriter MyStringWriter = new StringWriter();
+    MyXslTransform.Transform(MyXPathDocument, null, MyStringWriter);
+    StringBuilder MyStringBuilder = new StringBuilder();
+    MyStringBuilder.Append(@"<%@ Register Assembly=""Telerik.Web.UI"" Namespace=""Telerik.Web.UI"" TagPrefix=""telerik"" %>");
+    MyStringBuilder.Append(MyStringWriter.ToString());
+    MyStringBuilder = MyStringBuilder.Replace("xmlns:telerik=\"remove\"", "");
+    MyStringBuilder = MyStringBuilder.Replace(@"<?xml version=""1.0"" encoding=""utf-16""?>", "");
+    Control ctrl = Page.ParseControl(MyStringBuilder.ToString());
+    PlaceHolder1.Controls.Add(ctrl);
+}	
 ````
-````VB.NET
-	
-	
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
-	        Dim MyXPathDocument As XPathDocument = New XPathDocument(Server.MapPath("~/App_Data/XMLFile.xml"))
-	        Dim MyXslTransform As XslCompiledTransform = New XslCompiledTransform()
-	        MyXslTransform.Load(Server.MapPath("~/App_Data/XSLTFile.xsl"))
-	        Dim MyStringWriter As StringWriter = New StringWriter()
-	        MyXslTransform.Transform(MyXPathDocument, Nothing, MyStringWriter)
-	        Dim MyStringBuilder As StringBuilder = New StringBuilder()
-	        MyStringBuilder.Append("<%@ Register Assembly=""Telerik.Web.UI"" Namespace=""Telerik.Web.UI"" TagPrefix=""telerik"" %>")
-	        MyStringBuilder.Append(MyStringWriter.ToString())
-	        MyStringBuilder = MyStringBuilder.Replace("xmlns:telerik=""remove""", "")
-	        MyStringBuilder = MyStringBuilder.Replace("<?xml version=""1.0"" encoding=""utf-16""?>", "")
-	        Dim ctrl As Control = Page.ParseControl(MyStringBuilder.ToString())
-	        PlaceHolder1.Controls.Add(ctrl)
-	    End Sub
-	
-	
+````VB.NET	
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
+    Dim MyXPathDocument As XPathDocument = New XPathDocument(Server.MapPath("~/App_Data/XMLFile.xml"))
+    Dim MyXslTransform As XslCompiledTransform = New XslCompiledTransform()
+    MyXslTransform.Load(Server.MapPath("~/App_Data/XSLTFile.xsl"))
+    Dim MyStringWriter As StringWriter = New StringWriter()
+    MyXslTransform.Transform(MyXPathDocument, Nothing, MyStringWriter)
+    Dim MyStringBuilder As StringBuilder = New StringBuilder()
+    MyStringBuilder.Append("<%@ Register Assembly=""Telerik.Web.UI"" Namespace=""Telerik.Web.UI"" TagPrefix=""telerik"" %>")
+    MyStringBuilder.Append(MyStringWriter.ToString())
+    MyStringBuilder = MyStringBuilder.Replace("xmlns:telerik=""remove""", "")
+    MyStringBuilder = MyStringBuilder.Replace("<?xml version=""1.0"" encoding=""utf-16""?>", "")
+    Dim ctrl As Control = Page.ParseControl(MyStringBuilder.ToString())
+    PlaceHolder1.Controls.Add(ctrl)
+End Sub
 ````
+
+
 

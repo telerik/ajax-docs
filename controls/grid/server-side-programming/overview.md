@@ -1,6 +1,6 @@
 ---
-title: Server-Side Programming Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Server-Side Programming Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/server-side-programming/overview
 tags: overview

@@ -14,9 +14,9 @@ position: 0
 
 ## 
 
-Telerik **RadGrid**is designed toeliminate the typical tradeoff associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid**is extremely fast and generates very little output. Added to this is true cross-browser support — Internet Explorer, all Gecko-based browsers, and Opera.
+Telerik **RadGrid** is designed to eliminate the typical trade off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — Internet Explorer, all Gecko-based browsers, and Opera.
 
-At the same time, **RadGrid**delivers top-of-the line features.
+At the same time, **RadGrid** delivers top-of-the line features.
 
 **Key Features**
 
@@ -24,7 +24,7 @@ At the same time, **RadGrid**delivers top-of-the line features.
 
 * **Interoperability with RadAjax and loading indicators**- Dramatically improves the responsiveness of the component, simulates Windows-application like behavior, and minimizes the traffic to the server
 
-* **Codeless data binding using the DataSourceControls introduced in ASP.NET 2.x/3.x**
+* **Codeless data binding using the DataSourceControls**
 
 * **Data binding to business objects, sub-objects and nullable objects; client-side binding through web services or page methods**
 

@@ -57,45 +57,43 @@ In a **NeedDataSource** event handler, you should prepare the data source (list 
 
 
 ````C#
-	    protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
-	    {
-	        String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
-	        SqlConnection conn = new SqlConnection(ConnString);
-	        SqlDataAdapter adapter = new SqlDataAdapter();
-	        adapter.SelectCommand = new SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn);
-	
-	        DataTable myDataTable = new DataTable();
-	
-	        conn.Open();
-	        try
-	        {
-	            adapter.Fill(myDataTable);
-	        }
-	        finally
-	        {
-	            conn.Close();
-	        }
-	
-	        RadGrid1.DataSource = myDataTable;
-	    }
+protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+{
+    String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
+    SqlConnection conn = new SqlConnection(ConnString);
+    SqlDataAdapter adapter = new SqlDataAdapter();
+    adapter.SelectCommand = new SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn);
+
+    DataTable myDataTable = new DataTable();
+
+    conn.Open();
+    try
+    {
+        adapter.Fill(myDataTable);
+    }
+    finally
+    {
+        conn.Close();
+    }
+
+    RadGrid1.DataSource = myDataTable;
+}
 ````
 ````VB
-	
-	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
-	        Dim ConnString As String = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
-	        Dim conn As SqlConnection = New SqlConnection(ConnString)
-	        Dim adapter As SqlDataAdapter = New SqlDataAdapter
-	        adapter.SelectCommand = New SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn)
-	        Dim myDataTable As New DataTable
-	        conn.Open()
-	        Try
-	            adapter.Fill(myDataTable)
-	        Finally
-	            conn.Close()
-	        End Try
-	        RadGrid1.DataSource = myDataTable
-	    End Sub
-	
+Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
+    Dim ConnString As String = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
+    Dim conn As SqlConnection = New SqlConnection(ConnString)
+    Dim adapter As SqlDataAdapter = New SqlDataAdapter
+    adapter.SelectCommand = New SqlCommand("SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address FROM Customers", conn)
+    Dim myDataTable As New DataTable
+    conn.Open()
+    Try
+        adapter.Fill(myDataTable)
+    Finally
+        conn.Close()
+    End Try
+    RadGrid1.DataSource = myDataTable
+End Sub
 ````
 
 

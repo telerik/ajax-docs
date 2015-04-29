@@ -22,12 +22,14 @@ If you do not have the LocalDB option installed on your machine or if you do not
 
 * Once you get to the "Choose Your Data Connection" dialog, click the **"New Connection..."** button.
 
-* After that the **"Add Connection"** dialog is displayed. Here you need to choose the server thatwill be used to host the database file.![grid gettingstarted exception new Connection](images/grid_gettingstarted_exception_newConnection.png)
+* After that the **"Add Connection"** dialog is displayed. Here you need to choose the server that will be used to host the database file.
+![grid gettingstarted exception new Connection](images/grid_gettingstarted_exception_newConnection.png)
 
 * In the **"Server name:"** dropdown control you choose the server instance.
 
-* Next, click the **"Attach a database file:"** radiobutton. Then browse to the database file location.
+* Next, click the **"Attach a database file:"** RadioButton. Then browse to the database file location.
 
-* Once, you are done with these steps, verify the connection with the **"Test connection"** button.![New connection dialog settings](images/grid_gettingstarted_exception_connectionPreferences.png)
+* Once, you are done with these steps, verify the connection with the **"Test connection"** button.
+![New connection dialog settings](images/grid_gettingstarted_exception_connectionPreferences.png)
 
 * Finally, click the "OK" button and proceed as usual.

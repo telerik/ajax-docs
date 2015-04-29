@@ -1,6 +1,6 @@
 ---
-title: Visible/Enabled Conventions Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Visible/Enabled Conventions Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/visible/enabled-conventions/overview
 tags: overview

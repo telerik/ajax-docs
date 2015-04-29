@@ -1,6 +1,6 @@
 ---
-title: Scrolling Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Scrolling Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/functionality/scrolling/overview
 tags: overview

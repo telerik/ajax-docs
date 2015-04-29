@@ -25,7 +25,7 @@ From Q2 2012 on the grid column headers can be grouped together under a multi-co
 You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/design-time-/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release the headers text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
 
 ````ASPNET
-	       <HeaderStyle CssClass="rgRotateHeader" />
+<HeaderStyle CssClass="rgRotateHeader" />
 ````
 
 
@@ -49,11 +49,10 @@ Each [column type]({%slug grid/columns/column-types%}) that displays data has a 
 When using a bound column populated with values of type **System.Double**, the contents with precision above 15 digits are automatically rounded. This can produce erratic behavior, for example when filtering. If this is a problem for your grid, you can use the **DataFormatString** to increase the precision of the bound column. This is illustrated in the code sample below:
 
 ````ASPNET
-	  <telerik:GridBoundColumn DataField="Value" HeaderText="Value" UniqueName="Value"
-	    SortExpression="Value" DataType="System.Double" DataFormatString="{0:G17}">
-	  </telerik:GridBoundColumn>
+<telerik:GridBoundColumn DataField="Value" HeaderText="Value" UniqueName="Value"
+  SortExpression="Value" DataType="System.Double" DataFormatString="{0:G17}">
+</telerik:GridBoundColumn>
 ````
-
 
 
 The following MSDN articals provide additional information about formatting, format strings, and DateTime formatting:
@@ -143,18 +142,18 @@ When adding columns using on **PageInit**, you must add the columns to the **Col
 
 
 ````C#
-	        GridBoundColumn boundColumn = new GridBoundColumn();
-	        boundColumn.UniqueName = "CustomerID";
-	        boundColumn.DataField = "CustomerID";
-	        boundColumn.HeaderText = "CustomerID";
-	        RadGrid1.MasterTableView.Columns.Add(boundColumn);
+GridBoundColumn boundColumn = new GridBoundColumn();
+boundColumn.UniqueName = "CustomerID";
+boundColumn.DataField = "CustomerID";
+boundColumn.HeaderText = "CustomerID";
+RadGrid1.MasterTableView.Columns.Add(boundColumn);
 ````
 ````VB.NET
-	    Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
-	    boundColumn.UniqueName = "CustomerID"
-	    boundColumn.DataField = "CustomerID"
-	    boundColumn.HeaderText = "CustomerID"
-	    RadGrid1.MasterTableView.Columns.Add(boundColumn)
+Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
+boundColumn.UniqueName = "CustomerID"
+boundColumn.DataField = "CustomerID"
+boundColumn.HeaderText = "CustomerID"
+RadGrid1.MasterTableView.Columns.Add(boundColumn)
 ````
 
 
@@ -163,18 +162,18 @@ When adding columns on **PageLoad** (when **IsPostBack** is **False**), the colu
 
 
 ````C#
-	        GridBoundColumn boundColumn = new GridBoundColumn();
-	        RadGrid1.MasterTableView.Columns.Add(boundColumn);
-	        boundColumn.UniqueName = "CustomerID";
-	        boundColumn.DataField = "CustomerID";
-	        boundColumn.HeaderText = "CustomerID";
+GridBoundColumn boundColumn = new GridBoundColumn();
+RadGrid1.MasterTableView.Columns.Add(boundColumn);
+boundColumn.UniqueName = "CustomerID";
+boundColumn.DataField = "CustomerID";
+boundColumn.HeaderText = "CustomerID";
 ````
 ````VB.NET
-	    Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
-	    RadGrid1.MasterTableView.Columns.Add(boundColumn)
-	    boundColumn.UniqueName = "CustomerID"
-	    boundColumn.DataField = "CustomerID"
-	    boundColumn.HeaderText = "CustomerID"
+Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
+RadGrid1.MasterTableView.Columns.Add(boundColumn)
+boundColumn.UniqueName = "CustomerID"
+boundColumn.DataField = "CustomerID"
+boundColumn.HeaderText = "CustomerID"
 ````
 
 
@@ -195,24 +194,24 @@ You can customize the properties of auto-generated columns at runtime by providi
 
 
 ````C#
-	    protected void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCreatedEventArgs e)
-	    {
-	        if (e.Column.UniqueName == "BirthDate")
-	        {
-	            GridBoundColumn boundColumn = e.Column as GridBoundColumn;
-	            boundColumn.ReadOnly = true;
-	            boundColumn.DataFormatString = "{0:d}";
-	        }
-	    }
+protected void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCreatedEventArgs e)
+{
+    if (e.Column.UniqueName == "BirthDate")
+    {
+        GridBoundColumn boundColumn = e.Column as GridBoundColumn;
+        boundColumn.ReadOnly = true;
+        boundColumn.DataFormatString = "{0:d}";
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
-	        If e.Column.UniqueName = "BirthDate" Then
-	            Dim boundColumn As GridBoundColumn = CType(e.Column, GridBoundColumn)
-	            boundColumn.ReadOnly = True
-	            boundColumn.DataFormatString = "{0:d}"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
+    If e.Column.UniqueName = "BirthDate" Then
+        Dim boundColumn As GridBoundColumn = CType(e.Column, GridBoundColumn)
+        boundColumn.ReadOnly = True
+        boundColumn.DataFormatString = "{0:d}"
+    End If
+End Sub
 ````
 
 
@@ -227,31 +226,31 @@ To change the settings for declarative columns at runtime, write a handler for t
 
 
 ````C#
-	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        foreach (GridColumn column in RadGrid1.Columns)
-	        {
-	            if (column.UniqueName == "BirthDate")
-	            {
-	                (column as GridBoundColumn).ReadOnly = true;
-	                (column as GridBoundColumn).DataFormatString = "{0:D}";
-	                break;
-	            }
-	        }
-	        RadGrid1.Rebind();
-	    }
+protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    foreach (GridColumn column in RadGrid1.Columns)
+    {
+        if (column.UniqueName == "BirthDate")
+        {
+            (column as GridBoundColumn).ReadOnly = true;
+            (column as GridBoundColumn).DataFormatString = "{0:D}";
+            break;
+        }
+    }
+    RadGrid1.Rebind();
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
-	        For Each column As GridColumn In RadGrid1.Columns
-	            If (column.UniqueName = "BirthDate") Then
-	                CType(column, GridBoundColumn).ReadOnly = True
-	                CType(column, GridBoundColumn).DataFormatString = "{0:D}"
-	                Exit For
-	            End If
-	        Next
-	        RadGrid1.Rebind()
-	    End Sub
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
+    For Each column As GridColumn In RadGrid1.Columns
+        If (column.UniqueName = "BirthDate") Then
+            CType(column, GridBoundColumn).ReadOnly = True
+            CType(column, GridBoundColumn).DataFormatString = "{0:D}"
+            Exit For
+        End If
+    Next
+    RadGrid1.Rebind()
+End Sub
 ````
 
 

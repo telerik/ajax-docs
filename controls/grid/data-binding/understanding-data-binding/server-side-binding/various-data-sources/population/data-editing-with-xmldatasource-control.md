@@ -27,182 +27,180 @@ The following restrictions apply to editing XML data when using **XmlDataSource*
 
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
-	    OnInsertCommand="RadGrid1_InsertCommand" OnUpdateCommand="RadGrid1_UpdateCommand"
-	    OnDeleteCommand="RadGrid1_DeleteCommand">
-	    <MasterTableView AutoGenerateColumns="false" DataKeyNames="CustomerID" CommandItemDisplay="Top">
-	      <Columns>
-	        <telerik:GridEditCommandColumn />
-	        <telerik:GridBoundColumn UniqueName="CompanyName" DataField="CompanyName" HeaderText="CompanyName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn UniqueName="ContactName" DataField="ContactName" HeaderText="ContactName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn">
-	        </telerik:GridButtonColumn>
-	      </Columns>
-	    </MasterTableView></telerik:RadGrid>
-	  <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Xml/XmlDataSourceExampleTemp.xml">
-	  </asp:XmlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
+  OnInsertCommand="RadGrid1_InsertCommand" OnUpdateCommand="RadGrid1_UpdateCommand"
+  OnDeleteCommand="RadGrid1_DeleteCommand">
+  <MasterTableView AutoGenerateColumns="false" DataKeyNames="CustomerID" CommandItemDisplay="Top">
+    <Columns>
+      <telerik:GridEditCommandColumn />
+      <telerik:GridBoundColumn UniqueName="CompanyName" DataField="CompanyName" HeaderText="CompanyName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn UniqueName="ContactName" DataField="ContactName" HeaderText="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn">
+      </telerik:GridButtonColumn>
+    </Columns>
+  </MasterTableView></telerik:RadGrid>
+<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Xml/XmlDataSourceExampleTemp.xml">
+</asp:XmlDataSource>
 ````
-````C#
-	
-	
-	    protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
-	    {
-	        GridEditFormItem gridEditFormItem = (GridEditFormItem)e.Item;
-	        Hashtable ht = new Hashtable();
-	        gridEditFormItem.ExtractValues(ht);
-	        String customerID = e.Item.OwnerTableView.DataKeyValues[e.Item.ItemIndex]["CustomerID"].ToString();
-	        XmlNode node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID));
-	        node.Attributes["CompanyName"].Value = ConvertNullToEmpty(ht["CompanyName"]);
-	        node.Attributes["ContactName"].Value = ConvertNullToEmpty(ht["ContactName"]);
-	        try
-	        {
-	            XmlDataSource1.Save();
-	        }
-	        catch (Exception ex)
-	        {
-	            lblMsg.Text = ex.Message;
-	        }
-	    }
-	    protected void RadGrid1_InsertCommand(object source, GridCommandEventArgs e)
-	    {
-	        GridEditFormItem gridEditFormItem = (GridEditFormItem)e.Item;
-	        Hashtable ht = new Hashtable();
-	        gridEditFormItem.ExtractValues(ht);
-	        int maxCustomerId = 0;
-	        foreach (XmlNode selectedNode in XmlDataSource1.GetXmlDocument().SelectNodes("Customers/Customer"))
-	        {
-	            int customerId = int.Parse("0" + selectedNode.Attributes["CustomerID"].Value);
-	            if (customerId > maxCustomerId)
-	                maxCustomerId = customerId;
-	        }
-	        ht.Add("CustomerID", maxCustomerId + 1);
-	        XmlNode node = XmlDataSource1.GetXmlDocument().CreateElement("Customer");
-	        foreach (DictionaryEntry entry in ht)
-	        {
-	            XmlAttribute attribute = XmlDataSource1.GetXmlDocument().CreateAttribute(entry.Key.ToString());
-	            attribute.Value = ConvertNullToEmpty(entry.Value);
-	            node.Attributes.Append(attribute);
-	        }
-	        XmlDataSource1.GetXmlDocument().SelectSingleNode("Customers").AppendChild(node);
-	        try
-	        {
-	            XmlDataSource1.Save();
-	        }
-	        catch (Exception ex)
-	        {
-	            lblMsg.Text = ex.Message;
-	        }
-	    }
-	    protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
-	    {
-	        GridDataItem gridDataItem = (GridDataItem)e.Item;
-	        Hashtable ht = new Hashtable();
-	        gridDataItem.ExtractValues(ht);
-	        String customerID = e.Item.OwnerTableView.DataKeyValues[e.Item.ItemIndex]["CustomerID"].ToString();
-	        XmlNode node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID));
-	        XmlNode parent = node.ParentNode;
-	        parent.RemoveChild(node);
-	        try
-	        {
-	            XmlDataSource1.Save();
-	        }
-	        catch (Exception ex)
-	        {
-	            lblMsg.Text = ex.Message;
-	        }
-	    }
-	    private String ConvertNullToEmpty(Object obj)
-	    {
-	        if (obj == null)
-	        {
-	            return String.Empty;
-	        }
-	        else
-	        {
-	            return obj.ToString();
-	        }
-	    }
-	
+````C#	
+protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
+{
+    GridEditFormItem gridEditFormItem = (GridEditFormItem)e.Item;
+    Hashtable ht = new Hashtable();
+    gridEditFormItem.ExtractValues(ht);
+    String customerID = e.Item.OwnerTableView.DataKeyValues[e.Item.ItemIndex]["CustomerID"].ToString();
+    XmlNode node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID));
+    node.Attributes["CompanyName"].Value = ConvertNullToEmpty(ht["CompanyName"]);
+    node.Attributes["ContactName"].Value = ConvertNullToEmpty(ht["ContactName"]);
+    try
+    {
+        XmlDataSource1.Save();
+    }
+    catch (Exception ex)
+    {
+        lblMsg.Text = ex.Message;
+    }
+}
+protected void RadGrid1_InsertCommand(object source, GridCommandEventArgs e)
+{
+    GridEditFormItem gridEditFormItem = (GridEditFormItem)e.Item;
+    Hashtable ht = new Hashtable();
+    gridEditFormItem.ExtractValues(ht);
+    int maxCustomerId = 0;
+    foreach (XmlNode selectedNode in XmlDataSource1.GetXmlDocument().SelectNodes("Customers/Customer"))
+    {
+        int customerId = int.Parse("0" + selectedNode.Attributes["CustomerID"].Value);
+        if (customerId > maxCustomerId)
+            maxCustomerId = customerId;
+    }
+    ht.Add("CustomerID", maxCustomerId + 1);
+    XmlNode node = XmlDataSource1.GetXmlDocument().CreateElement("Customer");
+    foreach (DictionaryEntry entry in ht)
+    {
+        XmlAttribute attribute = XmlDataSource1.GetXmlDocument().CreateAttribute(entry.Key.ToString());
+        attribute.Value = ConvertNullToEmpty(entry.Value);
+        node.Attributes.Append(attribute);
+    }
+    XmlDataSource1.GetXmlDocument().SelectSingleNode("Customers").AppendChild(node);
+    try
+    {
+        XmlDataSource1.Save();
+    }
+    catch (Exception ex)
+    {
+        lblMsg.Text = ex.Message;
+    }
+}
+protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
+{
+    GridDataItem gridDataItem = (GridDataItem)e.Item;
+    Hashtable ht = new Hashtable();
+    gridDataItem.ExtractValues(ht);
+    String customerID = e.Item.OwnerTableView.DataKeyValues[e.Item.ItemIndex]["CustomerID"].ToString();
+    XmlNode node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID));
+    XmlNode parent = node.ParentNode;
+    parent.RemoveChild(node);
+    try
+    {
+        XmlDataSource1.Save();
+    }
+    catch (Exception ex)
+    {
+        lblMsg.Text = ex.Message;
+    }
+}
+private String ConvertNullToEmpty(Object obj)
+{
+    if (obj == null)
+    {
+        return String.Empty;
+    }
+    else
+    {
+        return obj.ToString();
+    }
+}
+
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.InsertCommand
-	        Dim gridEditFormItem As GridEditFormItem
-	        gridEditFormItem = e.Item
-	        Dim ht As Hashtable = New Hashtable()
-	        gridEditFormItem.ExtractValues(ht)
-	        Dim maxCustomerId As Integer = 0
-	        For Each selectedNode As XmlNode In _
-	          XmlDataSource1.GetXmlDocument().SelectNodes("Customers/Customer")
-	            Dim customerId As Integer = _
-	              Integer.Parse("0" + selectedNode.Attributes("CustomerID").Value)
-	            If customerId > maxCustomerId Then
-	                maxCustomerId = customerId
-	            End If
-	        Next
-	        ht.Add("CustomerID", maxCustomerId + 1)
-	        Dim node As XmlNode
-	        node = XmlDataSource1.GetXmlDocument().CreateElement("Customer")
-	        Dim entry As DictionaryEntry
-	        For Each entry In ht
-	            Dim attribute As XmlAttribute
-	            attribute = XmlDataSource1.GetXmlDocument().CreateAttribute(entry.Key.ToString())
-	            attribute.Value = ConvertNullToEmpty(entry.Value)
-	            node.Attributes.Append(attribute)
-	        Next entry
-	        XmlDataSource1.GetXmlDocument().SelectSingleNode("Customers").AppendChild(node)
-	        Try
-	            XmlDataSource1.Save()
-	        Catch ex As Exception
-	            lblMsg.Text = ex.Message
-	        End Try
-	    End Sub
-	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
-	        Dim gridEditFormItem As GridEditFormItem
-	        gridEditFormItem = e.Item
-	        Dim ht As Hashtable
-	        ht = New Hashtable()
-	        gridEditFormItem.ExtractValues(ht)
-	        Dim customerID As String
-	        customerID = _
-	          e.Item.OwnerTableView.DataKeyValues(e.Item.ItemIndex)("CustomerID").ToString()
-	        Dim node As XmlNode
-	        node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID))
-	        node.Attributes("CompanyName").Value = ConvertNullToEmpty(ht("CompanyName"))
-	        node.Attributes("ContactName").Value = ConvertNullToEmpty(ht("ContactName"))
-	        Try
-	            XmlDataSource1.Save()
-	        Catch ex As Exception
-	            lblMsg.Text = ex.Message
-	        End Try
-	    End Sub
-	    Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.DeleteCommand
-	        Dim gridDataItem As GridDataItem
-	        gridDataItem = e.Item
-	        Dim ht As Hashtable
-	        ht = New Hashtable()
-	        gridDataItem.ExtractValues(ht)
-	        Dim customerID As String
-	        customerID = e.Item.OwnerTableView.DataKeyValues(e.Item.ItemIndex)("CustomerID").ToString()
-	        Dim node As XmlNode
-	        node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID))
-	        Dim parent As XmlNode
-	        parent = node.ParentNode
-	        parent.RemoveChild(node)
-	        Try
-	            XmlDataSource1.Save()
-	        Catch ex As Exception
-	            lblMsg.Text = ex.Message
-	        End Try
-	    End Sub
-	    Private Function ConvertNullToEmpty(ByVal obj As Object) As String
-	        If (obj Is Nothing) Then
-	            Return String.Empty
-	        Else
-	            Return obj.ToString()
-	        End If
-	    End Function
+Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.InsertCommand
+    Dim gridEditFormItem As GridEditFormItem
+    gridEditFormItem = e.Item
+    Dim ht As Hashtable = New Hashtable()
+    gridEditFormItem.ExtractValues(ht)
+    Dim maxCustomerId As Integer = 0
+    For Each selectedNode As XmlNode In _
+      XmlDataSource1.GetXmlDocument().SelectNodes("Customers/Customer")
+        Dim customerId As Integer = _
+          Integer.Parse("0" + selectedNode.Attributes("CustomerID").Value)
+        If customerId > maxCustomerId Then
+            maxCustomerId = customerId
+        End If
+    Next
+    ht.Add("CustomerID", maxCustomerId + 1)
+    Dim node As XmlNode
+    node = XmlDataSource1.GetXmlDocument().CreateElement("Customer")
+    Dim entry As DictionaryEntry
+    For Each entry In ht
+        Dim attribute As XmlAttribute
+        attribute = XmlDataSource1.GetXmlDocument().CreateAttribute(entry.Key.ToString())
+        attribute.Value = ConvertNullToEmpty(entry.Value)
+        node.Attributes.Append(attribute)
+    Next entry
+    XmlDataSource1.GetXmlDocument().SelectSingleNode("Customers").AppendChild(node)
+    Try
+        XmlDataSource1.Save()
+    Catch ex As Exception
+        lblMsg.Text = ex.Message
+    End Try
+End Sub
+Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
+    Dim gridEditFormItem As GridEditFormItem
+    gridEditFormItem = e.Item
+    Dim ht As Hashtable
+    ht = New Hashtable()
+    gridEditFormItem.ExtractValues(ht)
+    Dim customerID As String
+    customerID = _
+      e.Item.OwnerTableView.DataKeyValues(e.Item.ItemIndex)("CustomerID").ToString()
+    Dim node As XmlNode
+    node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID))
+    node.Attributes("CompanyName").Value = ConvertNullToEmpty(ht("CompanyName"))
+    node.Attributes("ContactName").Value = ConvertNullToEmpty(ht("ContactName"))
+    Try
+        XmlDataSource1.Save()
+    Catch ex As Exception
+        lblMsg.Text = ex.Message
+    End Try
+End Sub
+Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.DeleteCommand
+    Dim gridDataItem As GridDataItem
+    gridDataItem = e.Item
+    Dim ht As Hashtable
+    ht = New Hashtable()
+    gridDataItem.ExtractValues(ht)
+    Dim customerID As String
+    customerID = e.Item.OwnerTableView.DataKeyValues(e.Item.ItemIndex)("CustomerID").ToString()
+    Dim node As XmlNode
+    node = XmlDataSource1.GetXmlDocument().SelectSingleNode(String.Format("Customers/Customer[@CustomerID='{0}']", customerID))
+    Dim parent As XmlNode
+    parent = node.ParentNode
+    parent.RemoveChild(node)
+    Try
+        XmlDataSource1.Save()
+    Catch ex As Exception
+        lblMsg.Text = ex.Message
+    End Try
+End Sub
+Private Function ConvertNullToEmpty(ByVal obj As Object) As String
+    If (obj Is Nothing) Then
+        Return String.Empty
+    Else
+        Return obj.ToString()
+    End If
+End Function
 ````
 
 

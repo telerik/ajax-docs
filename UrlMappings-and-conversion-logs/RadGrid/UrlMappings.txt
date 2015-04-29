@@ -117,7 +117,7 @@ http://www.telerik.com/help/aspnet-ajax/grid-reducing-filtermenu-options.html ht
 http://www.telerik.com/help/aspnet-ajax/grid-search-on-key-press.html http://docs.telerik.com/devtools/ajax/grid/functionality/filtering/how-to/search-on-key-press/button-click
 http://www.telerik.com/help/aspnet-ajax/grid-setting-filter-textbox-dimensions.html http://docs.telerik.com/devtools/ajax/grid/functionality/filtering/how-to/change-filter-items
 http://www.telerik.com/help/aspnet-ajax/grid-add-controls-to-templates.html http://docs.telerik.com/devtools/ajax/grid/getting-started/add-controls-to-column-templates
-http://www.telerik.com/help/aspnet-ajax/grid-browser-support.html http://docs.telerik.com/devtools/ajax/grid/getting-started/browser-support
+http://www.telerik.com/help/aspnet-ajax/grid-browser-support.html http://www.telerik.com/aspnet-ajax/tech-sheets/browser-support
 http://www.telerik.com/help/aspnet-ajax/grid-datasource-configuration-VS2012.html http://docs.telerik.com/devtools/ajax/grid/getting-started/visual-studio-2012-datasource-configuration
 http://www.telerik.com/help/aspnet-ajax/grid-getting-started.html http://docs.telerik.com/devtools/ajax/grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax
 http://www.telerik.com/help/aspnet-ajax/grid-hierarchy-tutorial.html http://docs.telerik.com/devtools/ajax/grid/getting-started/building-a-hierarchical-grid

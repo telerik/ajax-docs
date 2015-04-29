@@ -39,30 +39,30 @@ There are additional rules, which apply to the entities mentioned above, which a
 To provide a practical example of RadGrid binding to such an array, we can use the following code:
 
 ````JavaScript
-	    function pageLoad() {
-	      var data = [{ "ID": 1, "Text": "Text1" }, { "ID": 2, "Text": "Text2"}];
-	      var mtv = $find("RadGrid1").get_masterTableView(); mtv.set_dataSource(data); mtv.dataBind();
-	    }
+function pageLoad() {
+  var data = [{ "ID": 1, "Text": "Text1" }, { "ID": 2, "Text": "Text2"}];
+  var mtv = $find("RadGrid1").get_masterTableView(); mtv.set_dataSource(data); mtv.dataBind();
+}
 ````
 
 
 
 ````ASPNET
-	  <asp:ScriptManager runat="server" ID="ScriptManager1">
-	  </asp:ScriptManager>
-	  <telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="ID" HeaderText="ID">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="Text" HeaderText="Text">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	    </MasterTableView>
-	    <ClientSettings>
-	      <ClientEvents OnCommand="function(){}" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
+<asp:ScriptManager runat="server" ID="ScriptManager1">
+</asp:ScriptManager>
+<telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false">
+  <MasterTableView>
+    <Columns>
+      <telerik:GridBoundColumn DataField="ID" HeaderText="ID">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="Text" HeaderText="Text">
+      </telerik:GridBoundColumn>
+    </Columns>
+  </MasterTableView>
+  <ClientSettings>
+    <ClientEvents OnCommand="function(){}" />
+  </ClientSettings>
+</telerik:RadGrid>
 ````
 
 
@@ -74,22 +74,22 @@ There are scenarios, when RadGrid is data-bound on the client, and one needs to 
 The proper way to handle these requirements is in the onRowDataBound client side event handler, where we can access the cell(s) within the data item, and alter their properties. This is demonstrated in the code snippet below:
 
 ````JavaScript
-	    function OnRowDataBound(sender, args) {
-	      var spanControl = args.get_item().get_cell("Change").getElementsByTagName('span')[0];
-	      var image = args.get_item().get_cell("Change").getElementsByTagName('img')[0];
-	      //This is where we manually set the hyperlink's title
-	      var item = args.get_item(); var dataItem = args.get_dataItem();
-	      var link = item.get_cell("StockTicker").getElementsByTagName("a")[0]; link.title = dataItem.StockTicker + " (change: " + dataItem.Change + ")";
-	      if (args.get_dataItem().Change > 0) {
-	        image.style.display = ""; image.src = "Images/up.gif"; spanControl.style.color = "green";
-	      }
-	      else if (args.get_dataItem().Change < 0) {
-	        image.style.display = ""; image.src = "Images/down.gif"; spanControl.style.color = "red";
-	      }
-	      else {
-	        image.style.display = "none"; spanControl.style.color = "";
-	      }
-	    }
+function OnRowDataBound(sender, args) {
+  var spanControl = args.get_item().get_cell("Change").getElementsByTagName('span')[0];
+  var image = args.get_item().get_cell("Change").getElementsByTagName('img')[0];
+  //This is where we manually set the hyperlink's title
+  var item = args.get_item(); var dataItem = args.get_dataItem();
+  var link = item.get_cell("StockTicker").getElementsByTagName("a")[0]; link.title = dataItem.StockTicker + " (change: " + dataItem.Change + ")";
+  if (args.get_dataItem().Change > 0) {
+    image.style.display = ""; image.src = "Images/up.gif"; spanControl.style.color = "green";
+  }
+  else if (args.get_dataItem().Change < 0) {
+    image.style.display = ""; image.src = "Images/down.gif"; spanControl.style.color = "red";
+  }
+  else {
+    image.style.display = "none"; spanControl.style.color = "";
+  }
+}
 ````
 
 
@@ -108,31 +108,31 @@ Basically, a grid bound using client side data-binding improves the performance 
 
 * Grouping with client-side binding is not supported. Server binding only should be used in order to achieve grouping.
 
-* Sorting/Filter expressions. With the standard server side data-binding of the grid control, one could declare/set filter and sorting expressions, which would then be applied to the control - for example declaratively in the aspx markup, or dynamically, in the code-behind section. When using client side data-binding, the same logic can be executed, but in a slightly different manner. The filter/sorting expression can be passed to the relevant page method, which would in turn use it to return the proper data. This is demonstrated in the code snippet below:
+* Sorting/Filter expressions. With the standard server side data-binding of the grid control, one could declare/set filter and sorting expressions, which would then be applied to the control - for example declaratively in the aspx mark-up, or dynamically, in the code-behind section. When using client side data-binding, the same logic can be executed, but in a slightly different manner. The filter/sorting expression can be passed to the relevant page method, which would in turn use it to return the proper data. This is demonstrated in the code snippet below:
 
 ````JavaScript
-	    function RadGrid1_Command(sender, args) {
-	      $get("<%= Panel1.ClientID %>").innerHTML = String.format("<b>RadGrid1_Command</b><br />CommandName : {0}, CommandArgument : {1} <br /><br />", args.get_commandName(), args.get_commandArgument());
-	      args.set_cancel(true);
-	      var pageSize = sender.get_masterTableView().get_pageSize();
-	      var sortExpressions = sender.get_masterTableView().get_sortExpressions(); var filterExpressions = sender.get_masterTableView().get_filterExpressions();
-	      var currentPageIndex = sender.get_masterTableView().get_currentPageIndex();
-	      if (args.get_commandName() == "Filter") currentPageIndex = 0;
-	      var sortExpressionsAsSQL = sortExpressions.toString();
-	      var filterExpressionsAsSQL = filterExpressions.toString();
-	      $find("<%= RadAjaxLoadingPanel1.ClientID %>").show("<%= RadGrid1.ClientID %>");
-	      PageMethods.GetData(currentPageIndex * pageSize, pageSize, sortExpressionsAsSQL, filterExpressions.toList(), updateGrid);
-	      if (args.get_commandName() == "Filter") {
-	        PageMethods.GetCount(filterExpressions.toList(),
-	       updateVirtualItemCount);
-	      }
-	    }
-	    function updateGrid(result) {
-	      var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
-	      tableView.set_dataSource(result); tableView.dataBind();
-	      $find("<%= RadAjaxLoadingPanel1.ClientID %>").hide("<%= RadGrid1.ClientID %>");
-	    }
-	
+function RadGrid1_Command(sender, args) {
+  $get("<%= Panel1.ClientID %>").innerHTML = String.format("<b>RadGrid1_Command</b><br />CommandName : {0}, CommandArgument : {1} <br /><br />", args.get_commandName(), args.get_commandArgument());
+  args.set_cancel(true);
+  var pageSize = sender.get_masterTableView().get_pageSize();
+  var sortExpressions = sender.get_masterTableView().get_sortExpressions(); var filterExpressions = sender.get_masterTableView().get_filterExpressions();
+  var currentPageIndex = sender.get_masterTableView().get_currentPageIndex();
+  if (args.get_commandName() == "Filter") currentPageIndex = 0;
+  var sortExpressionsAsSQL = sortExpressions.toString();
+  var filterExpressionsAsSQL = filterExpressions.toString();
+  $find("<%= RadAjaxLoadingPanel1.ClientID %>").show("<%= RadGrid1.ClientID %>");
+  PageMethods.GetData(currentPageIndex * pageSize, pageSize, sortExpressionsAsSQL, filterExpressions.toList(), updateGrid);
+  if (args.get_commandName() == "Filter") {
+    PageMethods.GetCount(filterExpressions.toList(),
+   updateVirtualItemCount);
+  }
+}
+function updateGrid(result) {
+  var tableView = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
+  tableView.set_dataSource(result); tableView.dataBind();
+  $find("<%= RadAjaxLoadingPanel1.ClientID %>").hide("<%= RadGrid1.ClientID %>");
+}
+
 ````
 
 

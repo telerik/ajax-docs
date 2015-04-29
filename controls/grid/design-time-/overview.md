@@ -1,6 +1,6 @@
 ---
-title: Design Time  Overview
-page_title: Overview | RadGrid for ASP.NET AJAX Documentation
+title: Overview
+page_title: Design Time Overview | RadGrid for ASP.NET AJAX Documentation
 description: Overview
 slug: grid/design-time-/overview
 tags: overview
@@ -21,8 +21,8 @@ Before you start your work with the design-time, you will need to set the necess
 In order to use the Telerik RadGrid design-time support effectively, you need to set the **DataSource** property in the ASPX declaration of the grid.
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSource="<%# dataSet11 %>"
-	    DataMember="Customers" AutoGenerateColumns="False">
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSource="<%# dataSet11 %>"
+  DataMember="Customers" AutoGenerateColumns="False">
 ````
 
 
