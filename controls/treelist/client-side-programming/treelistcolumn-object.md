@@ -21,5 +21,5 @@ The **TreeListColumn** client object exposes the following properties:
 
 | Property | Description |
 | ------ | ------ |
-| **[get_owner()](ce7670a4-3f75-4db7-a876-5404b38c3383)** |A property which returns the treelist client-side object that holds the column.|
-| **[get_uniqueName()](ce7670a4-3f75-4db7-a876-5404b38c3383)** |A property which returns the unique name of the column.|
+| **get_owner()** |A property which returns the treelist client-side object that holds the column.|
+| **get_uniqueName()** |A property which returns the unique name of the column.|

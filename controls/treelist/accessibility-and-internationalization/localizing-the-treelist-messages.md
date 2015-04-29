@@ -89,7 +89,7 @@ Telerik RadTreeList provides the following properties for localization of the ha
 
 |  **TreeListLocalizationStrings**  |  |
 | ------ | ------ |
-| **Caption** |The text that will be displayed in an HTML caption element of RadTreeList control.|
-| **Summary** |The string that specifies a description and/or structure for the RadTreeList table.|
-| **NoRecordsTemplate** ||
-| **NoRecordsText** |The text that will be displayed if there is no NoRecordsTemplate defined and no records in the RadTreeList.|
+| Caption |The text that will be displayed in an HTML caption element of RadTreeList control.|
+| Summary |The string that specifies a description and/or structure for the RadTreeList table.|
+| NoRecordsTemplate ||
+| NoRecordsText |The text that will be displayed if there is no NoRecordsTemplate defined and no records in the RadTreeList.|

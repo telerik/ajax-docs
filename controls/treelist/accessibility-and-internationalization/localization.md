@@ -28,16 +28,19 @@ To create a global resource file to localize the treelist:
 
 1. Copy the default resource **RadTreeList.Main.resx** file into it. This file can be found in the App_GlobalResources folder of the directory where you installed the UI controls.
 
-1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadTreeList follow a strict naming convention:**RadTreeList.Main.<Culture Identifier>.resx**
+1. Make a copy of the file and rename the copy so that its name contains the Culture Identifier. The resource files used by RadTreeList follow a strict naming convention: **RadTreeList.Main.<Culture Identifier>.resx**
 
->note  **The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
->
-For example RadTreeList.Main.bg-BG.resx. Both files should be present in the App_GlobalResources folder:![Global Resources](images/treelist_localization1.png)
+	>note  **The Culture Identifier consists of a language codefollowed by a dash and the country code.Example: “en-US”, “fr-CA”, “bg-BG” and so on.** 
+	>
 
-1. The resource files are represented in a human-readible format (XML) and can be easily modified either in the built-in Visual Studio resource editor or directly in the file, by hand.![Modified resource file](images/treelist_localization2.png)
+	For example RadTreeList.Main.bg-BG.resx. Both files should be present in the App_GlobalResources folder:
+	![Global Resources](images/treelist_localization1.png)
+
+1. The resource files are represented in a human-readible format (XML) and can be easily modified either in the built-in Visual Studio resource editor or directly in the file, by hand.
+![Modified resource file](images/treelist_localization2.png)
 
 >caution Make sure that the ReservedResource message is preserved. It is used foridentification purposes and is never displayed.
 >
 
-
-You can now switch the treelist so that it uses your new resource file by setting the active culture:![Culture](images/treelist_localization3.png)
+You can now switch the treelist so that it uses your new resource file by setting the active culture:
+![Culture](images/treelist_localization3.png)

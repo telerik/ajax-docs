@@ -46,7 +46,7 @@ This example demonstrates how you can make RadTreeList accessible by leveraging 
 
 ## WAI-ARIA
 
-The RadTreeList control offers WAI-ARIA support. It can be easily enabled by setting**EnableAriaSupport=true** to the RadTreeList object.
+The RadTreeList control offers WAI-ARIA support. It can be easily enabled by setting **EnableAriaSupport=true** to the RadTreeList object.
 
 In order to inspect the HTML rendered by RadTreeList with WAI-ARIA support enabled, you can take a look at this online demo:
 
