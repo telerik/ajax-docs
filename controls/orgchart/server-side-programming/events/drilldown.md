@@ -14,12 +14,12 @@ position: 5
 
 ## 
 
-The **DrillDown** is raised when the**"DrillDown"** icon is clicked .
+The **DrillDown** is raised when the **"DrillDown"** icon is clicked .
 
 The event handler receives two parameters:
 
 1. The instance of the orgchart firing the event
 
-1. An event arguments parameter that contains the following property:
+2. An event arguments parameter that contains the following property:
 
-* **SourceNode** - the Node that is drilled down.
+	* **SourceNode** - the Node that is drilled down.

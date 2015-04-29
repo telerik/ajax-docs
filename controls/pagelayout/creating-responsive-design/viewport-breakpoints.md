@@ -38,9 +38,9 @@ The following table describes the resolutions and the corresponding viewport bre
 | Resolution | Screen size | Device type |
 | ------ | ------ | ------ |
 |max-width: 360px|extra small resolutions (or xs)|mobile phone (viewed in portrait)|
-|min-width: 361pxmax-width: 768px|small resolutions (or sm)|mobile phone (viewed in landscape)tablet (viewed in portrait)|
-|min-width: 769pxmax-width: 1024px|medium resolutions (or md)|tablet (viewed in landscape)|
-|min-width: 1025pxmax-width: 1366px|large resolutions (or lg)|laptop|
+|min-width: 361px / max-width: 768px|small resolutions (or sm)|mobile phone (viewed in landscape) / tablet (viewed in portrait)|
+|min-width: 769px / max-width: 1024px|medium resolutions (or md)|tablet (viewed in landscape)|
+|min-width: 1025px / max-width: 1366px|large resolutions (or lg)|laptop|
 |min-width: 1367px|extra large resolutions (or xl)|desktop|
 
 >note The described devices types for the corresponding resolutions and screen size are approximate.

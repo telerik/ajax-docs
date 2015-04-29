@@ -31,75 +31,75 @@ More about the breakpoints and the available attributes is explained in the [Vie
 **Example 1**: Using Breakpoints to create a responsive layout.
 
 ````ASPNET
-	<!DOCTYPE html>
-	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head id="Head1" runat="server">
-		<title></title>
-		<style type="text/css">
-			body {
-				margin: 0;
-				padding: 0;
-				padding-top: 20px;
-				font: 14px/normal "Segoe UI", sans-serif;
-			}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title></title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			padding-top: 20px;
+			font: 14px/normal "Segoe UI", sans-serif;
+		}
+	
+		.col, .header, .footer {
+			background-color: #78a6ab;
+			border: 1px solid #cccccc;
+			text-align: center;
+			border-radius: 3px;
+		}
+
+		.header, .footer {
+			height: 50px;
+		}
+
+		.col {
+			margin: 10px 0;
+			padding: 5px 10px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<telerik:RadScriptManager ID="ScriptManager" runat="server">
+		</telerik:RadScriptManager>
 		
-			.col, .header, .footer {
-				background-color: #78a6ab;
-				border: 1px solid #cccccc;
-				text-align: center;
-				border-radius: 3px;
-			}
-	
-			.header, .footer {
-				height: 50px;
-			}
-	
-			.col {
-				margin: 10px 0;
-				padding: 5px 10px;
-				height: 100px;
-			}
-		</style>
-	</head>
-	<body>
-		<form id="form1" runat="server">
-			<telerik:RadScriptManager ID="ScriptManager" runat="server">
-			</telerik:RadScriptManager>
-			
-			<telerik:RadPageLayout runat="server" GridType="Fluid">
-				<Rows>
-					<telerik:LayoutRow>
-						<Content>
-							<div class="header">Header</div>
-						</Content>
-					</telerik:LayoutRow>
-					<telerik:LayoutRow>
-						<Columns>
-							<telerik:LayoutColumn Span="2" HiddenXs="true" HiddenSm="true">
-								<div class="col">Sidebar 1</div>
-							</telerik:LayoutColumn>
-							<telerik:LayoutColumn Span="7" SpanXs="12" SpanSm="12">
-								<div class="col">
-									Content
-								</div>
-							</telerik:LayoutColumn>
-							<telerik:LayoutColumn Span="3" SpanXs="12" SpanSm="12">
-								<div class="col">
-									Sidebar 2
-								</div>
-							</telerik:LayoutColumn>
-						</Columns>
-					</telerik:LayoutRow>
-					<telerik:LayoutRow>
-						<Content>
-							<div class="footer">Footer</div>
-						</Content>
-					</telerik:LayoutRow>
-				</Rows>
-			</telerik:RadPageLayout>
-		</form>
-	</body>
-	</html> 
+		<telerik:RadPageLayout runat="server" GridType="Fluid">
+			<Rows>
+				<telerik:LayoutRow>
+					<Content>
+						<div class="header">Header</div>
+					</Content>
+				</telerik:LayoutRow>
+				<telerik:LayoutRow>
+					<Columns>
+						<telerik:LayoutColumn Span="2" HiddenXs="true" HiddenSm="true">
+							<div class="col">Sidebar 1</div>
+						</telerik:LayoutColumn>
+						<telerik:LayoutColumn Span="7" SpanXs="12" SpanSm="12">
+							<div class="col">
+								Content
+							</div>
+						</telerik:LayoutColumn>
+						<telerik:LayoutColumn Span="3" SpanXs="12" SpanSm="12">
+							<div class="col">
+								Sidebar 2
+							</div>
+						</telerik:LayoutColumn>
+					</Columns>
+				</telerik:LayoutRow>
+				<telerik:LayoutRow>
+					<Content>
+						<div class="footer">Footer</div>
+					</Content>
+				</telerik:LayoutRow>
+			</Rows>
+		</telerik:RadPageLayout>
+	</form>
+</body>
+</html> 
 ````
 
 

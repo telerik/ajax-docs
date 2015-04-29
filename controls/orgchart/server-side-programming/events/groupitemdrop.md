@@ -22,6 +22,6 @@ The event handler receives two parameters:
 
 2. An event arguments parameter containing the following properties:
 
-* **DestinationNode** - the Node on which the GroupItem is dropped.
+	* **DestinationNode** - the Node on which the GroupItem is dropped.
 
-* **SourceGroupItem** - the dropped GroupItem
+	* **SourceGroupItem** - the dropped GroupItem

@@ -27,87 +27,87 @@ The example below demonstrates how to create the **RadPageLayout** object, along
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadPageLayout pageLayout = new RadPageLayout();
-	        pageLayout.GridType = GridType.Fluid;
-	        pageLayout.CssClass = "borderCssClass";
-	        LayoutRow row = new LayoutRow();
-	
-	        LayoutColumn layoutColumn = new LayoutColumn();
-	        Label label1 = new Label();
-	        label1.Text = "Main Content Here";
-	        layoutColumn.Span = 8;
-	        layoutColumn.Controls.Add(label1);
-	        row.Columns.Add(layoutColumn);
-	
-	        CompositeLayoutColumn compositeColumn = new CompositeLayoutColumn();
-	        compositeColumn.Span = 4;
-	
-	        LayoutRow row1 = new LayoutRow();
-	        Label label2 = new Label();
-	        label2.Text = "additional content 1";
-	        row1.Content.Controls.Add(label2);
-	
-	        LayoutRow row2 = new LayoutRow();
-	        Label label3 = new Label();
-	        label3.Text = "additional content 2";
-	        row2.Content.Controls.Add(label3);
-	
-	        compositeColumn.Rows.Add(row1);
-	        compositeColumn.Rows.Add(row2);
-	        row.Columns.Add(compositeColumn);
-	
-	        pageLayout.Rows.Add(row);
-	        form1.Controls.Add(pageLayout);
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+    RadPageLayout pageLayout = new RadPageLayout();
+    pageLayout.GridType = GridType.Fluid;
+    pageLayout.CssClass = "borderCssClass";
+    LayoutRow row = new LayoutRow();
+
+    LayoutColumn layoutColumn = new LayoutColumn();
+    Label label1 = new Label();
+    label1.Text = "Main Content Here";
+    layoutColumn.Span = 8;
+    layoutColumn.Controls.Add(label1);
+    row.Columns.Add(layoutColumn);
+
+    CompositeLayoutColumn compositeColumn = new CompositeLayoutColumn();
+    compositeColumn.Span = 4;
+
+    LayoutRow row1 = new LayoutRow();
+    Label label2 = new Label();
+    label2.Text = "additional content 1";
+    row1.Content.Controls.Add(label2);
+
+    LayoutRow row2 = new LayoutRow();
+    Label label3 = new Label();
+    label3.Text = "additional content 2";
+    row2.Content.Controls.Add(label3);
+
+    compositeColumn.Rows.Add(row1);
+    compositeColumn.Rows.Add(row2);
+    row.Columns.Add(compositeColumn);
+
+    pageLayout.Rows.Add(row);
+    form1.Controls.Add(pageLayout);
+}
 ````
 ````VB
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        Dim pageLayout As New RadPageLayout()
-	        pageLayout.GridType = GridType.Fluid
-	        pageLayout.CssClass = "borderCssClass"
-	        Dim row As New LayoutRow()
-	
-	        Dim layoutColumn As New LayoutColumn()
-	        Dim label1 As New Label()
-	        label1.Text = "Main Content Here"
-	        layoutColumn.Span = 8
-	        layoutColumn.Controls.Add(label1)
-	        row.Columns.Add(layoutColumn)
-	
-	        Dim compositeColumn As New CompositeLayoutColumn()
-	        compositeColumn.Span = 4
-	
-	        Dim row1 As New LayoutRow()
-	        Dim label2 As New Label()
-	        label2.Text = "additional content 1"
-	        row1.Content.Controls.Add(label2)
-	
-	        Dim row2 As New LayoutRow()
-	        Dim label3 As New Label()
-	        label3.Text = "additional content 2"
-	        row2.Content.Controls.Add(label3)
-	
-	        compositeColumn.Rows.Add(row1)
-	        compositeColumn.Rows.Add(row2)
-	        row.Columns.Add(compositeColumn)
-	
-	        pageLayout.Rows.Add(row)
-	        form1.Controls.Add(pageLayout)
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+    Dim pageLayout As New RadPageLayout()
+    pageLayout.GridType = GridType.Fluid
+    pageLayout.CssClass = "borderCssClass"
+    Dim row As New LayoutRow()
+
+    Dim layoutColumn As New LayoutColumn()
+    Dim label1 As New Label()
+    label1.Text = "Main Content Here"
+    layoutColumn.Span = 8
+    layoutColumn.Controls.Add(label1)
+    row.Columns.Add(layoutColumn)
+
+    Dim compositeColumn As New CompositeLayoutColumn()
+    compositeColumn.Span = 4
+
+    Dim row1 As New LayoutRow()
+    Dim label2 As New Label()
+    label2.Text = "additional content 1"
+    row1.Content.Controls.Add(label2)
+
+    Dim row2 As New LayoutRow()
+    Dim label3 As New Label()
+    label3.Text = "additional content 2"
+    row2.Content.Controls.Add(label3)
+
+    compositeColumn.Rows.Add(row1)
+    compositeColumn.Rows.Add(row2)
+    row.Columns.Add(compositeColumn)
+
+    pageLayout.Rows.Add(row)
+    form1.Controls.Add(pageLayout)
+End Sub
 ````
 
 
 ````ASPNET
-	<head runat="server">
-	    <title></title>    
-	    <style type="text/css">
-	        .borderCssClass div {
-	            border: 1px solid red;
-	        }
-	    </style>
-	  </head>
+<head runat="server">
+    <title></title>    
+    <style type="text/css">
+        .borderCssClass div {
+            border: 1px solid red;
+        }
+    </style>
+</head>
 ````
 
 

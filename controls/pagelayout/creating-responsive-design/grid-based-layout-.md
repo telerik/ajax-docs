@@ -59,11 +59,11 @@ Columns can be one grid unit wide or span multiple units. They can also be pushe
 Having in mind that all settings or properties of a grid are applied with class names, if we are to present a typical grid with HTML it would look something like the code below:
 
 ````ASPNET
-	            <div class=”container”> <!-- No columns set, defaulting -->
-	                    <div class=”row”>
-	                                <div class=”span6 push4”></div> <!-- 6 units wide, 4 units to the right -->
-	                    </div>
-	            </div>
+<div class=”container”> <!-- No columns set, defaulting -->
+    <div class=”row”>
+        <div class=”span6 push4”></div> <!-- 6 units wide, 4 units to the right -->
+    </div>
+</div>
 ````
 
 

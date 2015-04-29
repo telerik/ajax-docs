@@ -20,7 +20,7 @@ position: 1
 
 ````JavaScript
 	
-		    var orgChartObject = $find("<%= RadOrgChart1.ClientID %>");
+var orgChartObject = $find("<%= RadOrgChart1.ClientID %>");
 	
 ````
 

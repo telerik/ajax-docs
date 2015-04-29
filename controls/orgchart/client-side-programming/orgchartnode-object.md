@@ -20,5 +20,5 @@ The **OrgChartNode** object is returned by the **getNode()** method of the **Org
 |  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
 | **getId** |none|string|Returns the current node id value|
-| **get_element** |none|string|Returns the <li/> element of the node|
+| **get_element** |none|string|Returns the `<li/>` element of the node|
 | **get_groupItems** |none|OrgChartGroupItemCollection|Returns a collection of the group items asociated with that node|

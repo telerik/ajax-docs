@@ -35,34 +35,34 @@ In addition to the standard attributes, a column has few specific attributes tha
 | **Offset** |Moves the column element to the left or right side. The main difference is that it applies margin value to the row element and eventually this affects the layout. Such behavior could be applied for a specific screen size only by using one of the following properties: **OffsetXs** , **OffsetSm** , **OffsetMd** , **OffsetLg** or **OffsetXl** .|
 
 ````ASPNET
-	<head runat="server">
-	    <title></title>    
-	    <style type="text/css">
-	        .borderCssClass div {
-	            border: 1px solid red;
-	        }
-	    </style>
-	  </head>
+<head runat="server">
+    <title></title>    
+    <style type="text/css">
+        .borderCssClass div {
+            border: 1px solid red;
+        }
+    </style>
+</head>
 ````
 
 
 
 ````ASPNET
 	           
-	        <telerik:RadPageLayout ID="RadPageLayout1" runat="server">
-	            <Rows>
-	                <telerik:LayoutRow>
-	                    <Columns>
-	                        <telerik:LayoutColumn Span="8">
-	                            Main content here
-	                        </telerik:LayoutColumn>
-	                        <telerik:LayoutColumn Span="4">
-	                            Sidebar here
-	                        </telerik:LayoutColumn>
-	                    </Columns>
-	                </telerik:LayoutRow>
-	            </Rows>
-	        </telerik:RadPageLayout>
+<telerik:RadPageLayout ID="RadPageLayout1" runat="server">
+    <Rows>
+        <telerik:LayoutRow>
+            <Columns>
+                <telerik:LayoutColumn Span="8">
+                    Main content here
+                </telerik:LayoutColumn>
+                <telerik:LayoutColumn Span="4">
+                    Sidebar here
+                </telerik:LayoutColumn>
+            </Columns>
+        </telerik:LayoutRow>
+    </Rows>
+</telerik:RadPageLayout>
 ````
 
 
@@ -79,42 +79,41 @@ In addition to the standard attributes, a column has few specific attributes tha
 A **CompositeLayoutColumn** is a structural unit of design that can hold different elements that need to be positioned in a specific way on the page. In the code below you can get a better idea how to use it.
 
 ````ASPNET
-	<head runat="server">
-	    <title></title>    
-	    <style type="text/css">
-	        .borderCssClass div {
-	            border: 1px solid red;
-	        }
-	    </style>
-	  </head>
+<head runat="server">
+    <title></title>    
+    <style type="text/css">
+        .borderCssClass div {
+            border: 1px solid red;
+        }
+    </style>
+</head>
 ````
 
 
 
 ````ASPNET
-	  <telerik:RadPageLayout ID="RadPageLayout1" runat="server" GridType="Fluid" CssClass="borderCssClass">
-	            <Rows>
-	                <telerik:LayoutRow >
-	                             <Columns>
-	                        <telerik:LayoutColumn Span="8">
-	                            Main content here
-	                        </telerik:LayoutColumn>
-	                        <telerik:CompositeLayoutColumn Span="4">
-	                            <Rows>
-	                                <telerik:LayoutRow>
-	                                    <Content>additional content 1</Content>
-	                                </telerik:LayoutRow>
-	                                <telerik:LayoutRow>
-	                                    <Content> additional content 2</Content>
-	                                </telerik:LayoutRow>
-	                            </Rows>
-	
-	                        </telerik:CompositeLayoutColumn>
-	                    </Columns>
-	                </telerik:LayoutRow>
-	           </Rows>
-	        </telerik:RadPageLayout>
-	
+<telerik:RadPageLayout ID="RadPageLayout1" runat="server" GridType="Fluid" CssClass="borderCssClass">
+    <Rows>
+        <telerik:LayoutRow >
+                     <Columns>
+                <telerik:LayoutColumn Span="8">
+                    Main content here
+                </telerik:LayoutColumn>
+                <telerik:CompositeLayoutColumn Span="4">
+                    <Rows>
+                        <telerik:LayoutRow>
+                            <Content>additional content 1</Content>
+                        </telerik:LayoutRow>
+                        <telerik:LayoutRow>
+                            <Content> additional content 2</Content>
+                        </telerik:LayoutRow>
+                    </Rows>
+
+                </telerik:CompositeLayoutColumn>
+            </Columns>
+        </telerik:LayoutRow>
+   </Rows>
+</telerik:RadPageLayout>
 ````
 
 

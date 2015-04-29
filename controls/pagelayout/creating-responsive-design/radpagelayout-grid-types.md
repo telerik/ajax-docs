@@ -22,37 +22,34 @@ The **RadPageLayout** control has three available types of [Grid Based Layout]({
 
 * **Static** - the grid is static and does not respond to changes in the size of the viewport.
 
-You can check how **RadPageLayout** looks with each of the three layout types enabled in the following screenshots. The green grid columns inthe background, shown by setting the property **ShowGrid** to **true**, visualize how every page layout type responds to changes in the size of the viewport:
 
-
-
-**Example 1**: Configuring Grid Based Layout in a **RadPageLayout** control. You will check the result in **Figure 1**, **Figure 2** and **Figure 3** by changing the property **GridType** with the values in the list above.
+**Example 1**: Configuring Grid Based Layout in a **RadPageLayout** control. 
 
 ````ASPNET
-	    <telerik:RadPageLayout ID="RadPageLayout1" runat="server" GridType="Fluid" ShowGrid="true">
-	        <Rows>
-	            <telerik:LayoutRow>
-	                <Content>
-	                    <div class="card">Header</div>
-	                </Content>
-	            </telerik:LayoutRow>
-	            <telerik:LayoutRow>
-	                <Columns>
-	                    <telerik:LayoutColumn Span="3">
-	                        <div class="card" style="height: 300px">Sidebar</div>
-	                    </telerik:LayoutColumn>
-	                    <telerik:LayoutColumn Span="9">
-	                        <div class="card" style="height: 300px">Main content</div>
-	                    </telerik:LayoutColumn>
-	                </Columns>
-	            </telerik:LayoutRow>
-	            <telerik:LayoutRow>
-	                <Content>
-	                    <div class="card">Footer</div>
-	                </Content>
-	            </telerik:LayoutRow>
-	        </Rows>
-	    </telerik:RadPageLayout>
+<telerik:RadPageLayout ID="RadPageLayout1" runat="server" GridType="Fluid" ShowGrid="true">
+    <Rows>
+        <telerik:LayoutRow>
+            <Content>
+                <div class="card">Header</div>
+            </Content>
+        </telerik:LayoutRow>
+        <telerik:LayoutRow>
+            <Columns>
+                <telerik:LayoutColumn Span="3">
+                    <div class="card" style="height: 300px">Sidebar</div>
+                </telerik:LayoutColumn>
+                <telerik:LayoutColumn Span="9">
+                    <div class="card" style="height: 300px">Main content</div>
+                </telerik:LayoutColumn>
+            </Columns>
+        </telerik:LayoutRow>
+        <telerik:LayoutRow>
+            <Content>
+                <div class="card">Footer</div>
+            </Content>
+        </telerik:LayoutRow>
+    </Rows>
+</telerik:RadPageLayout>
 	
 ````
 
