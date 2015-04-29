@@ -22,7 +22,8 @@ position: 0
 
 * **ThumbnailsArea** - contains small, scaled version of the images bound to the control.When an image from the area is selected, it will be displayed in its original size inside the **ImageArea**. The way in which the image will be shown depends on the specified [DisplayAreaMode]({%slug imagegallery/functionality/modes%}).
 
-**Figure 1**: With very litte code you can add a **RadImageGallery** to your application![Image-Gallery-Dispaly Mode Image](images/Image-Gallery-DispalyModeImage.png)
+**Figure 1**: With very litte code you can add a **RadImageGallery** to your application
+![Image-Gallery-Dispaly Mode Image](images/Image-Gallery-DispalyModeImage.png)
 
 ## Key Features
 

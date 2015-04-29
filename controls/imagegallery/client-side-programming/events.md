@@ -31,48 +31,48 @@ position: 3
 | **OnSlideshowPlay** |Fired just before the slideshow functionality is turned on.||Yes|
 | **OnSlideshowStop** |Fired just before the slideshow functionality is turned off.||Yes|
 
->note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as[cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
+>note To get or set property values for client API properties, you must call property accessor methods that are named with the get_ and set_ prefixes. For example, to get or set a value for a property such as [cancel](http://msdn.microsoft.com/en-us/library/bb310859.aspx), you call the get_cancel or set_cancel.
 >
 
 
 The example below demonstrates how you can subscribe to the **RadImageGallery** events and extract values from the event arguments.In the scenario, the main image will not be loaded unless it has a title.
 
 ````ASPNET
-	            <telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
-	                DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" ContentViewMode="ContentArea">
-	                <ClientSettings>
-	                    <ClientEvents
-	                        OnImageGalleryCreated="imageGalleryCreated" OnImageLoaded="imageLoaded" OnImageLoading="imageLoading" />
-	                </ClientSettings>
-	            </telerik:RadImageGallery>
-	            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
-	                ProviderName="<%$ ConnectionStrings:BaseConnectionString.ProviderName %>"
-	                SelectCommand="SELECT TOP 20 * FROM [CustomerPhotos]"></asp:SqlDataSource>
+<telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
+	DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" ContentViewMode="ContentArea">
+	<ClientSettings>
+		<ClientEvents
+			OnImageGalleryCreated="imageGalleryCreated" OnImageLoaded="imageLoaded" OnImageLoading="imageLoading" />
+	</ClientSettings>
+</telerik:RadImageGallery>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>"
+	ProviderName="<%$ ConnectionStrings:BaseConnectionString.ProviderName %>"
+	SelectCommand="SELECT TOP 20 * FROM [CustomerPhotos]"></asp:SqlDataSource>
 ````
 
 
 
 ````JavaScript
-	        function imageGalleryCreated(sender) {
-	            //Extract the id of the control
-	            var galleryID = sender.get_id();
-	        }
-	
-	        function imageLoaded(sender, args) {
-	            var image = args.get_image(),
-	            imageItem = args.get_item();
-	        }
-	
-	        function imageLoading(sender, args) {
-	            //checks if the event is canceled
-	            var isCanceled = args.get_cancel();
-	            //gets the image item
-	            var imageItem = args.get_item();
-	            if (imageItem.get_title() === "") {
-	                //cancels the event
-	                args.set_cancel(true);
-	            }
-	        }
+function imageGalleryCreated(sender) {
+	//Extract the id of the control
+	var galleryID = sender.get_id();
+}
+
+function imageLoaded(sender, args) {
+	var image = args.get_image(),
+	imageItem = args.get_item();
+}
+
+function imageLoading(sender, args) {
+	//checks if the event is canceled
+	var isCanceled = args.get_cancel();
+	//gets the image item
+	var imageItem = args.get_item();
+	if (imageItem.get_title() === "") {
+		//cancels the event
+		args.set_cancel(true);
+	}
+}
 ````
 
 

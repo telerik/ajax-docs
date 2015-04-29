@@ -14,7 +14,8 @@ position: 2
 
 The **RadImageGallery** designer provides a convenient **Smart Tag** that allows easy access to frequently needed tasks. You can display it by right clicking on the control in the design window, and choosing Show **Smart Tag** from its context menu, or by simplyclicking on the arrow button on top-right corner of the control.
 
-**The Smart Tag enables easy visual configuration of the control at design-time.**![Image Gallery Design Time 1](images/image-gallery-design-time1.png)
+**The Smart Tag enables easy visual configuration of the control at design-time.**
+![Image Gallery Design Time 1](images/image-gallery-design-time1.png)
 
 **RadImageGallery** Smart Tag lets you perform the following:
 
@@ -42,7 +43,8 @@ Links navigate you directly to **RadImageGallery** examples, help or Code Librar
 
 The wizard will smoothly guide you through the various settings and properties of **RadImageGallery** providing an accessible and organized way of configuring the control.
 
-**General Settings**![Image Gallery Design Time 2](images/image-gallery-design-time2.png)
+**General Settings**
+![Image Gallery Design Time 2](images/image-gallery-design-time2.png)
 
 * **Display Area Mode:** : Controls the mode that the **RadImageGallery** will operate in. The modedetermines the appearance and the way the entire control will work.
 
@@ -56,7 +58,8 @@ The wizard will smoothly guide you through the various settings and properties o
 
 * **Append Data Bound Items:**Indicates whether **RadImageGallery.Items** collection is cleared before**DataBinding**. If enabled, the **RadImageGallery** will append the retrieved items from the datasource to the statically declared ones.
 
-**Thumbnails Area Settings**![Image Gallery Design Time 3](images/image-gallery-design-time3.png)
+**Thumbnails Area Settings**
+![Image Gallery Design Time 3](images/image-gallery-design-time3.png)
 
 * **Thumbnail Spacing:** Controls the padding between the items in the area.
 
@@ -80,7 +83,8 @@ The wizard will smoothly guide you through the various settings and properties o
 
 * **Show Next/Prev Image Buttons:** Determines if the Next/Prev navigate buttons will be visible.
 
-**Toolbar Settings**![Image Gallery Design Time 5](images/image-gallery-design-time5.png)
+**Toolbar Settings**
+![Image Gallery Design Time 5](images/image-gallery-design-time5.png)
 
 * **Position:** An enumeration value, which represents where the Toolbar item will be created relativeto the **RadImageGallery** position.
 
@@ -88,7 +92,8 @@ The wizard will smoothly guide you through the various settings and properties o
 
 * **Show Items Counter:** Controls the visibility of the items counter information text.
 
-**Pager Style**![Image Gallery Design Time 6](images/image-gallery-design-time6.png)
+**Pager Style**
+![Image Gallery Design Time 6](images/image-gallery-design-time6.png)
 
 * **Position:** An enumeration value, which represents where the pager items will be created relative tothe **RadImageGallery** position.
 
@@ -98,7 +103,8 @@ The wizard will smoothly guide you through the various settings and properties o
 
 * **Always Visible:** Determines whether the pager item will be still visible when there is only one page.
 
-**Client Settings**![Image Gallery Design Time 7](images/image-gallery-design-time7.png)
+**Client Settings**
+![Image Gallery Design Time 7](images/image-gallery-design-time7.png)
 
 * **AnimationSettings:** Defines the animation settings for the **RadImageGallery**. Inner settings determine the animations between images.
 

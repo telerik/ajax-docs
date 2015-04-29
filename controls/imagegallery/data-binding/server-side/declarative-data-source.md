@@ -37,12 +37,12 @@ In addition, you could set different optional properties:
 ## Example 1: Binding a RadImageGallery to a SqlDataSource
 
 ````ASPNET
-	        <telerik:RadImageGallery runat="server" ID="RadImageGallery2" DataSourceID="SqlDataSource1" DataDescriptionField="Description" DataImageField="ImageUrl"
-	            DataTitleField="Title">
-	        </telerik:RadImageGallery>
-	
-	        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>" 
-	            ProviderName="System.Data.SqlClient" SelectCommand="SELECT [ImageUrl], [Description], [Title] FROM [CityImages]"></asp:SqlDataSource>
+<telerik:RadImageGallery runat="server" ID="RadImageGallery2" DataSourceID="SqlDataSource1" DataDescriptionField="Description" DataImageField="ImageUrl"
+	DataTitleField="Title">
+</telerik:RadImageGallery>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TelerikConnectionString %>" 
+	ProviderName="System.Data.SqlClient" SelectCommand="SELECT [ImageUrl], [Description], [Title] FROM [CityImages]"></asp:SqlDataSource>
 ````
 
 

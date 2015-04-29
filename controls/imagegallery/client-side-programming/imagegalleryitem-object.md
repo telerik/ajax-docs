@@ -12,7 +12,7 @@ position: 1
 
 
 
-**RadImageGallery** exposes an **ImageGalleryItemCollection** available through the **get_items()** method. It contains the different **RadImageGalleryItems** which hold data related to a certain image. The properties for every**RadImageGalleryItem** are listed in the table below.
+**RadImageGallery** exposes an **ImageGalleryItemCollection** available through the **get_items()** method. It contains the different **RadImageGalleryItems** which hold data related to a certain image. The properties for every **RadImageGalleryItem** are listed in the table below.
 
 ## RadImageGalleryItem properties
 
@@ -32,23 +32,23 @@ position: 1
 The example below illustrates how you can use a property to extract a value from the **RadImageGalleryItem**. The logic shown traverses all the items and stores the titles in a collection.
 
 ````ASPNET
-	       <telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
-	            DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" >
-	       </telerik:RadImageGallery>
+<telerik:RadImageGallery ID="RadImageGallery1" runat="server" AllowPaging="true"
+	DataSourceID="SqlDataSource1" Width="800px" DataTitleField="PhotoTitle" DataImageField="Photo" DataThumbnailField="Photo" >
+</telerik:RadImageGallery>
 ````
 
 
 
 ````JavaScript
-	            function pageLoad() {
-	                var imageGallery = $find('<%=RadImageGallery1.ClientID%>'),
-	                items = imageGallery.get_items(),
-	                count = items.get_count(),
-	                titles = [];
-	                for (var i = 0; i < count; i++) {
-	                    titles.push(items.getItem(i).get_title());
-	                }
-	            }
+function pageLoad() {
+	var imageGallery = $find('<%=RadImageGallery1.ClientID%>'),
+	items = imageGallery.get_items(),
+	count = items.get_count(),
+	titles = [];
+	for (var i = 0; i < count; i++) {
+		titles.push(items.getItem(i).get_title());
+	}
+}
 ````
 
 

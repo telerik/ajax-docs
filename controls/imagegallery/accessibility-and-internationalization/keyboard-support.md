@@ -12,11 +12,11 @@ position: 0
 
 
 
-Since **SP1 Q1 2014 RadImageGallery** provides keyboard support which can be enabled by setting the**AllowKeyboardNavigation** property to **true**.
+Since **SP1 Q1 2014 RadImageGallery** provides keyboard support which can be enabled by setting the **AllowKeyboardNavigation** property to **true**.
 
 ````ASPNET
-	        <ClientSettings AllowKeyboardNavigation="true">
-	                </ClientSettings>
+<ClientSettings AllowKeyboardNavigation="true">
+		</ClientSettings>
 ````
 
 
@@ -47,10 +47,10 @@ The keyboard navigation support allows users to easily change images, views or t
 In addition to the commands you can enable the cycling navigation functionality of the control by	setting the **AllowCycle** property to **true**.
 
 ````ASPNET
-	    <ClientSettings AllowKeyboardNavigation="true">
-	                    <KeyboardNavigationSettings AllowCycle="true">
-	                    </KeyboardNavigationSettings>
-	                </ClientSettings>
+<ClientSettings AllowKeyboardNavigation="true">
+	<KeyboardNavigationSettings AllowCycle="true">
+	</KeyboardNavigationSettings>
+</ClientSettings>
 ````
 
 
@@ -68,19 +68,19 @@ Replacing the default shortcuts is as easy as enabling the keyboard navigation. 
 For example if you want to select the previous and next images by pressing **Alt+P** and **Alt+N** andselect the last image by pressing **L** you can declare the shortcuts as demonstrated below:
 
 ````ASPNET
-	        <telerik:RadImageGallery ID="RadImageGallery1" DisplayAreaMode="ToolTip" runat="server" AllowPaging="true"
-	                Width="800px" ImagesFolderPath="Images">
-	                <ClientSettings AllowKeyboardNavigation="true">
-	                    <KeyboardNavigationSettings>
-	                        <Shortcuts>
-	                            <telerik:ImageGalleryShortcut Command="Prev" Key="P" Modifiers="Alt" />
-	                              <telerik:ImageGalleryShortcut Command="Next" Key="N" Modifiers="Alt" />
-	                              <telerik:ImageGalleryShortcut Command="MoveToLast" Key="L" />
-	                        </Shortcuts>
-	                    </KeyboardNavigationSettings>
-	                </ClientSettings>
-	                <ThumbnailsAreaSettings Mode="Thumbnails" />
-	            </telerik:RadImageGallery>
+<telerik:RadImageGallery ID="RadImageGallery1" DisplayAreaMode="ToolTip" runat="server" AllowPaging="true"
+	Width="800px" ImagesFolderPath="Images">
+	<ClientSettings AllowKeyboardNavigation="true">
+		<KeyboardNavigationSettings>
+			<Shortcuts>
+				<telerik:ImageGalleryShortcut Command="Prev" Key="P" Modifiers="Alt" />
+				  <telerik:ImageGalleryShortcut Command="Next" Key="N" Modifiers="Alt" />
+				  <telerik:ImageGalleryShortcut Command="MoveToLast" Key="L" />
+			</Shortcuts>
+		</KeyboardNavigationSettings>
+	</ClientSettings>
+	<ThumbnailsAreaSettings Mode="Thumbnails" />
+</telerik:RadImageGallery>
 ````
 
 
@@ -96,25 +96,25 @@ Every **ImageGalleryShortut** has the following properties:
 
 
 ````C#
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadImageGallery1.ClientSettings.KeyboardNavigationSettings.Shortcuts.Add(new Telerik.Web.UI.ImageGalleryShortcut()
-	        {
-	            Command = ImageGalleryShortcutCommand.Next,
-	            Key = KeyboardNavigationKey.N,
-	            Modifiers = (KeyboardNavigationModifier.Alt | KeyboardNavigationModifier.Ctrl)
-	        });
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadImageGallery1.ClientSettings.KeyboardNavigationSettings.Shortcuts.Add(new Telerik.Web.UI.ImageGalleryShortcut()
+	{
+		Command = ImageGalleryShortcutCommand.Next,
+		Key = KeyboardNavigationKey.N,
+		Modifiers = (KeyboardNavigationModifier.Alt | KeyboardNavigationModifier.Ctrl)
+	});
+}
 ````
 ````VB.NET
-	    Protected Overrides Sub OnLoad(e As EventArgs)
-	        MyBase.OnLoad(e)
-	        RadImageGallery1.ClientSettings.KeyboardNavigationSettings.Shortcuts.Add(New Telerik.Web.UI.ImageGalleryShortcut() With {
-	        .Command = ImageGalleryShortcutCommand.[Next],
-	        .Key = KeyboardNavigationKey.N,
-	        .Modifiers = (KeyboardNavigationModifier.Alt Or KeyboardNavigationModifier.Ctrl)
-	        })
-	    End Sub
+Protected Overrides Sub OnLoad(e As EventArgs)
+	MyBase.OnLoad(e)
+	RadImageGallery1.ClientSettings.KeyboardNavigationSettings.Shortcuts.Add(New Telerik.Web.UI.ImageGalleryShortcut() With {
+	.Command = ImageGalleryShortcutCommand.[Next],
+	.Key = KeyboardNavigationKey.N,
+	.Modifiers = (KeyboardNavigationModifier.Alt Or KeyboardNavigationModifier.Ctrl)
+	})
+End Sub
 ````
 
 will force the firing of the command if **N**, **Alt** and **Ctrl** keys arepressed. By default the value of the property is **None**.

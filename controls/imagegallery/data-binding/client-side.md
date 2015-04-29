@@ -19,25 +19,25 @@ position: 1
 The code bellow demonstrates how to create and add an instanceof **Telerik.Web.UI.ImageGalleryItem** object to the items collection:
 
 ````ASPNET
-	        <telerik:RadCodeBlock runat="server">
-				<script type="text/javascript">
-					function pageLoad() {
-						var item = new Telerik.Web.UI.ImageGalleryItem({
-							title: "Image title",
-							description: "Image description",
-							thumbnailUrl: "tumbnail URL goes here",
-							imageUrl: "image URL goes here"
-						});
-	
-						$find("<%= RadImageGallery1.ClientID %>").get_items().add(item);
-					}
-				</script>
-			</telerik:RadCodeBlock>
-	
-			<div>
-				<telerik:RadImageGallery ID="RadImageGallery1" runat="server">
-				</telerik:RadImageGallery>
-			</div>
+<telerik:RadCodeBlock runat="server">
+	<script type="text/javascript">
+		function pageLoad() {
+			var item = new Telerik.Web.UI.ImageGalleryItem({
+				title: "Image title",
+				description: "Image description",
+				thumbnailUrl: "tumbnail URL goes here",
+				imageUrl: "image URL goes here"
+			});
+
+			$find("<%= RadImageGallery1.ClientID %>").get_items().add(item);
+		}
+	</script>
+</telerik:RadCodeBlock>
+
+<div>
+	<telerik:RadImageGallery ID="RadImageGallery1" runat="server">
+	</telerik:RadImageGallery>
+</div>
 ````
 
 
@@ -69,31 +69,31 @@ The only mandatory property from the above list is the **ImageUrl**.If the **Thu
 When client-side binding is used in combination with server-side binding or	with a static collection of items, adding new items to the items collection	with the **add(item)** method will add them at the end of the collection.	This is due to the fact that all items created on the server are already in the	items collection. In scenarios when items created on the client have to be	placed before the other items (or at a particular position), the **insert(index, item)**	method should be used instead. Here is an example for inserting items before	the server-side created items:
 
 ````ASPNET
-			<telerik:RadCodeBlock runat="server">
-				<script type="text/javascript">
-					function pageLoad() {
-						var items = $find("<%= RadImageGallery1.ClientID %>").get_items();
-						var index = 0;
-						var item = new Telerik.Web.UI.ImageGalleryItem({
-							title: "Image title",
-							description: "Image description",
-							thumbnailUrl: "Thumbnail URL goes here",
-							imageUrl: "Image URL goes here"
-						});
-	
-						items.insert(index++, item);
-	
-						item = new Telerik.Web.UI.ImageGalleryItem({
-							title: "Image title",
-							description: "Image description",
-							thumbnailUrl: "Thumbnail2 URL goes here",
-							imageUrl: "Image2 URL goes here"
-						});
-	
-						items.insert(index++, item);
-					}
-				</script>
-			</telerik:RadCodeBlock>
+<telerik:RadCodeBlock runat="server">
+	<script type="text/javascript">
+		function pageLoad() {
+			var items = $find("<%= RadImageGallery1.ClientID %>").get_items();
+			var index = 0;
+			var item = new Telerik.Web.UI.ImageGalleryItem({
+				title: "Image title",
+				description: "Image description",
+				thumbnailUrl: "Thumbnail URL goes here",
+				imageUrl: "Image URL goes here"
+			});
+
+			items.insert(index++, item);
+
+			item = new Telerik.Web.UI.ImageGalleryItem({
+				title: "Image title",
+				description: "Image description",
+				thumbnailUrl: "Thumbnail2 URL goes here",
+				imageUrl: "Image2 URL goes here"
+			});
+
+			items.insert(index++, item);
+		}
+	</script>
+</telerik:RadCodeBlock>
 ````
 
 

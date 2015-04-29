@@ -24,7 +24,8 @@ With the current implementation you can switch the main image using three gestur
 
 * Tapping on a thumbnail from the thumbnails area
 
-Additionally you can swipe left or right over the thumbnails area to navigate to the next/previous subset of thumbnails.	The same effect can be achieved by taping over the previous or next buttons.![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures1.png)
+Additionally you can swipe left or right over the thumbnails area to navigate to the next/previous subset of thumbnails. The same effect can be achieved by taping over the previous or next buttons.
+![Image-Gallery-Touch Gestures 1](images/image-gallery-TouchGestures1.png)
 
 ## Tuning On/Off Features
 

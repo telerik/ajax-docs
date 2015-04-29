@@ -33,21 +33,21 @@ The **ImageGalleryItemCollection** available through the **get_items()** method 
 The example below illustrates how you can add a **RadImageGalleryItem** to the collection using the **add()** method.
 
 ````ASPNET
-	    <telerik:RadImageGallery runat="server" ID="RadImageGallery1" ></telerik:RadImageGallery>
+<telerik:RadImageGallery runat="server" ID="RadImageGallery1" ></telerik:RadImageGallery>
 ````
 
 
 
 ````JavaScript
-	        function pageLoad() {
-	            var item = new Telerik.Web.UI.ImageGalleryItem({
-	                title: "Red Rose",
-	                description: "The beauty of the Red Rose",
-	                thumbnailUrl: "Images/Rose.jpg",
-	                imageUrl: "Images/Rose.jpg"
-	            });
-	            $find('<%=RadImageGallery1.ClientID%>').get_items().add(item);
-	        }
+function pageLoad() {
+	var item = new Telerik.Web.UI.ImageGalleryItem({
+		title: "Red Rose",
+		description: "The beauty of the Red Rose",
+		thumbnailUrl: "Images/Rose.jpg",
+		imageUrl: "Images/Rose.jpg"
+	});
+	$find('<%=RadImageGallery1.ClientID%>').get_items().add(item);
+}
 ````
 
 
