@@ -10,9 +10,7 @@ position: 7
 
 # Server-side Programming
 
-
-
-**RadMap** provides a set of server-side properties and events that can help you configure thelook and behaviour of the control.
+**RadMap** provides a set of server-side properties and events that can help you configure the look and behaviour of the control.
 
 ## General RadMap Properties
 
@@ -21,15 +19,7 @@ position: 7
 
 | Property | Description |
 | ------ | ------ |
-| **CenterSettings** Inner properties
-
-*  **Latitude** 
-
-*  **Longitude** |The map center. Coordinates are listed as [Latitude, Longitude].Inner properties
-
-* Gets or sets the Latitude of the map center.
-
-* Gets or sets the Longitude of the map center.|
+| **CenterSettings** - Inner properties: **Latitude**, **Longitude** |The map center. Coordinates are listed as [Latitude, Longitude]. Inner properties - Gets or sets the Latitude of the map center; Gets or sets the Longitude of the map center.|
 | **ClientDataSourceID** |Gets or sets ID of ClientDataSource control that is used for client side binding.|
 | **ControlsSettings** |The configuration of built-in map controls.|
 | **DataSource** |Gets or sets the object from which the data-bound control retrieves its list of data items..|
@@ -52,32 +42,18 @@ position: 7
 
 For configuring the built-in RadMap controls through ControlsSettings, you can use the properties listed in **Table 2**:
 
-
 | RadMap.ControlsSettings Properties | Description |
 | ------ | ------ |
 | **Attribution** |Configures or disables the built-in attribution control.|
-| **AttributionSettings** Inner properties
-
-*  **Position** |Configures or disables the built-in attribution control.Inner properties
-
-* The position of the attribution control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
+| **AttributionSettings** - Inner properties: **Position** |Configures or disables the built-in attribution control. Inner properties - The position of the attribution control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
 | **Navigator** |Configures or disables the built-in navigator control.|
-| **NavigatorSettings** Inner properties
-
-*  **Position** |Configures or disables the built-in navigator control.Inner properties
-
-* The position of the navigator control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
+| **NavigatorSettings** - Inner properties: **Position** |Configures or disables the built-in navigator control. Inner properties - The position of the navigator control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
 | **Zoom** |Configures or disables the built-in zoom control (+/- button).|
-| **ZoomSettings** Inner properties
-
-*  **Position** |Configures or disables the built-in zoom control (+/- button).Inner properties
-
-* The position of the zoom control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
+| **ZoomSettings** - Inner properties: **Position** |Configures or disables the built-in zoom control (+/- button). Inner properties - The position of the zoom control. Predefined values are "topLeft", "topRight", "left", "bottomRight", "bottomLeft".|
 
 ## RadMap Events
 
 **Table 3** lists common RadMap events to which you can subscribe.
-
 
 | Event | Description |
 | ------ | ------ |

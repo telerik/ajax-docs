@@ -10,10 +10,9 @@ position: 0
 
 # Getting Started Overview
 
-
-
 This article demonstrates how you can start using the **RadMap** control in an ASP.NET project.	The illustrated Map in **Figure 1** will be generated after following the steps and the code examples in the following sections.
->caption Figure 1: Result of a basic RadMap configuration
+
+>caption **Figure 1**: Result of a basic RadMap configuration
 
 ![A basic RadMap control on a page](images/Map_Getting_Started.png)
 
@@ -21,20 +20,18 @@ This article demonstrates how you can start using the **RadMap** control in an A
 
 To add a Map control into the page you can simply drag it from the Visual Studio Toolbox into anASP.NET page with correctly set **ScriptManager** control or paste the markup from **Example 1** into the **form** element.
 
-**Example 1**: Start-up **RadMap** declaration
+>caption **Example 1**: Start-up **RadMap** declaration
 
-````ASPNET
-			<telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
-	
-			<telerik:RadMap runat="server" ID="RadMap1">
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
+
+<telerik:RadMap runat="server" ID="RadMap1">
+</telerik:RadMap>
 ````
-
-
 
 ## Add a Tile Layer
 
-The layer of type **Tile** is basically rendered using images requested from a corresponding web service. This article uses the	[OpenCycleMap](http://www.opencyclemap.org/)service to populate the map images.
+The layer of type **Tile** is basically rendered using images requested from a corresponding web service. This article uses the	[OpenCycleMap](http://www.opencyclemap.org/) service to populate the map images.
 
 To configure the **RadMap** with the chosen service provider, follow these steps:
 
@@ -48,19 +45,17 @@ To configure the **RadMap** with the chosen service provider, follow these steps
 
 These steps will lead you to a markup similar to the one in **Example 2** and a rendered Map in the page.
 
-**Example 2**: Sample **RadMap** markup with configured Tile Layer
+>caption **Example 2**: Sample **RadMap** markup with configured Tile Layer
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1">
-				<LayersCollection>
-					<telerik:MapLayer Type="Tile" 
-						UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
-					</telerik:MapLayer>
-				</LayersCollection>
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1">
+	<LayersCollection>
+		<telerik:MapLayer Type="Tile" 
+			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+		</telerik:MapLayer>
+	</LayersCollection>
+</telerik:RadMap>
 ````
-
-
 
 ## Configure the Layout of the Map
 
@@ -68,7 +63,7 @@ At this point you will already have a Map rendered if you run the page. The foll
 
 With the Telerik Map you can set initial zoom level, initial center location and change the size of the control:
 
-1. Use the **Zoom** property of the **RadMap** to set a value for the initialzoom level (when using the OpenCycleMap service, this value should be between 0 and 18);
+1. Use the **Zoom** property of the **RadMap** to set a value for the initial zoom level (when using the OpenCycleMap service, this value should be between 0 and 18);
 
 1. Set the **Width** and **Height** properties with desirable values to change the size of the map;
 
@@ -78,25 +73,22 @@ With the Telerik Map you can set initial zoom level, initial center location and
 
 In **Example 3** you can examine a sample code achieved by following these steps.
 
-**Example 3**: Simple layout configuration of the **RadMap**.
+>caption **Example 3**: Simple layout configuration of the **RadMap**.
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
-				<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
-				<LayersCollection>
-					<telerik:MapLayer Type="Tile" 
-						UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
-					</telerik:MapLayer>
-				</LayersCollection>
-			</telerik:RadMap>
-	
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
+	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
+	<LayersCollection>
+		<telerik:MapLayer Type="Tile" 
+			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+		</telerik:MapLayer>
+	</LayersCollection>
+</telerik:RadMap>
 ````
-
-
 
 ## Place Markers in the Map
 
-Based on the purpose of the Map, you may want to show points of interest. To do so, use the[markers collection]({%slug map/functionality/markers%}).
+Based on the purpose of the Map, you may want to show points of interest. To do so, use the [markers collection]({%slug map/functionality/markers%}).
 
 To configure a **Marker**:
 
@@ -112,25 +104,23 @@ To configure a **Marker**:
 
 The code in **Example 4** is a final result of the steps from the above sections and will render the Map displayed in **Figure 1**.
 
-**Example 4**: Adding Markers in the **RadMap**.
+>caption **Example 4**: Adding Markers in the **RadMap**.
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
-				<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
-				<LayersCollection>
-					<telerik:MapLayer Type="Tile" 
-						UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
-					</telerik:MapLayer>
-				</LayersCollection>
-				<MarkersCollection>
-					<telerik:MapMarker Shape="Pin" Title="London, UK">
-						<LocationSettings Latitude="51.525619" Longitude="-0.111802"/>
-					</telerik:MapMarker>
-				</MarkersCollection>
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1" Zoom="6" Width="1000" Height="500" >
+	<CenterSettings Latitude="51.525619" Longitude="-0.111802" />
+	<LayersCollection>
+		<telerik:MapLayer Type="Tile" 
+			UrlTemplate="http://a.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+		</telerik:MapLayer>
+	</LayersCollection>
+	<MarkersCollection>
+		<telerik:MapMarker Shape="Pin" Title="London, UK">
+			<LocationSettings Latitude="51.525619" Longitude="-0.111802"/>
+		</telerik:MapMarker>
+	</MarkersCollection>
+</telerik:RadMap>
 ````
-
-
 
 # See Also
 

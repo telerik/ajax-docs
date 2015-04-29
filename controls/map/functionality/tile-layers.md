@@ -10,19 +10,15 @@ position: 1
 
 # Tile Layers
 
-
-
 In this article you will find detailed information about the **Tile** and **Bing**	layer types of the **RadMap** control.
 
-The images used to render the actual map are requested from third-party services that conform to the	[Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service).	The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
+The images used to render the actual map are requested from third-party services that conform to the [Tile Map Service standard](https://en.wikipedia.org/wiki/Tile_Map_Service). The built-in configuration options of the **MapLayer** allow you to set an URL template	via the **UrlTemplate** property that will access the service and provide the needed images.
 
->note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service.The **Telerik Map** only provides an UI control that allows you to setup and place a map in aweb application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and,if needed, establish an account with the map owner to ensure unlimited/fast access.
->
-
+>note Licenses and Official Author rights to the Tile Layer Images are determined by the used Web Map Service. The **Telerik Map** only provides an UI control that allows you to setup and place a map in a web application, built via ASP.NET AJAX techniques. You need to provide proper attribution with the correct copyright notice and, if needed, establish an account with the map owner to ensure unlimited/fast access.
 
 ## Configuration of the MapLayer
 
-To generate a map, you must first configure the service it is going to use. The most important option is the**UrlTemplate** that defines the provider you are going to use. It is built by combining the following parameters RadMap provides:
+To generate a map, you must first configure the service it is going to use. The most important option is the **UrlTemplate** that defines the provider you are going to use. It is built by combining the following parameters RadMap provides:
 
 * **SubDomain** — the Subdomains property lets you configure an array of strings that are placed in the subdomain of the URL that is generated. By having more than one, you can let the browser have more active requests for map pieces at any given time, because usually browsers limit the maximum number of active requests per domain. This setting is optional.
 
@@ -52,69 +48,62 @@ You can find more details about Web Map Services the following public pages:
 
 * [Open Source Geospatial Foundation](https://en.wikipedia.org/wiki/Open_Source_Geospatial_Foundation)
 
-**Example 1**: Configuring **MapLayer** with ASP.NET markup
+>caption **Example 1**: Configuring **MapLayer** with ASP.NET markup.
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1">
-				<LayersCollection>
-					<telerik:MapLayer Type="Tile" 
-						Subdomains="a,b,c"
-						UrlTemplate="http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
-					</telerik:MapLayer>
-				</LayersCollection>
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1">
+	<LayersCollection>
+		<telerik:MapLayer Type="Tile" 
+			Subdomains="a,b,c"
+			UrlTemplate="http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png">
+		</telerik:MapLayer>
+	</LayersCollection>
+</telerik:RadMap>
 ````
 
+>caption **Example 2**: Programmatic configuration of the **MapLayer**.
 
-
-**Example 2**: Programmatic configuration of the **MapLayer**
-
-
-
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1">
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1">
+</telerik:RadMap>
 ````
 ````C#
-			MapLayer myLayer = new MapLayer();
-			myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile;
-			myLayer.Subdomains = new string[] { "a", "b", "c" };
-			myLayer.UrlTemplate = "http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png";
-	
-			RadMap1.LayersCollection.Add(myLayer);
+MapLayer myLayer = new MapLayer();
+myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile;
+myLayer.Subdomains = new string[] { "a", "b", "c" };
+myLayer.UrlTemplate = "http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png";
+
+RadMap1.LayersCollection.Add(myLayer);
 ````
 ````VB
-			Dim myLayer As MapLayer = New MapLayer
-			myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile
-			myLayer.Subdomains = New String() {"a", "b", "c"}
-			myLayer.UrlTemplate = "http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png"
-	
-			RadMap1.LayersCollection.Add(myLayer)
-````
+Dim myLayer As MapLayer = New MapLayer
+myLayer.Type = Telerik.Web.UI.Map.LayerType.Tile
+myLayer.Subdomains = New String() {"a", "b", "c"}
+myLayer.UrlTemplate = "http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png"
 
+RadMap1.LayersCollection.Add(myLayer)
+````
 
 ## Controlling the Visual Appearance of the MapLayer
 
-The **MapLayer** appearance consists of two types of UI elements – **Attribution** and **Tiles**.The attribution element is afooter-like box with predefined HTML content which is shown when a value is set to the **legacyBold** attribute. You canchange the transparency of the tiles by using the **Opacity** attribute.
+The **MapLayer** appearance consists of two types of UI elements – **Attribution** and **Tiles**. The attribution element is a footer-like box with predefined HTML content which is shown when a value is set to the **Attribution** property. You can change the transparency of the tiles by using the **Opacity** attribute.
 
 In **Example 3** you can see how these attributes can be used in the Map control.
 
-**Example 3**: Setting attribution to the map and changing the opacity
+>caption **Example 3**: Setting attribution to the map and changing the opacity.
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1">
-				<LayersCollection>
-					<telerik:MapLayer Type="Tile" 
-						Subdomains="a,b,c"
-						UrlTemplate="http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png" 
-						Opacity="0.2" 
-						Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
-					</telerik:MapLayer>
-				</LayersCollection>
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1">
+	<LayersCollection>
+		<telerik:MapLayer Type="Tile" 
+			Subdomains="a,b,c"
+			UrlTemplate="http://#= subdomain #.tile.opencyclemap.org/transport/#= zoom #/#= x #/#= y #.png" 
+			Opacity="0.2" 
+			Attribution="&copy; <a href='http://osm.org/copyright' title='OpenStreetMap contributors' target='_blank'>OpenStreetMap contributors</a>.">
+		</telerik:MapLayer>
+	</LayersCollection>
+</telerik:RadMap>
 ````
-
-
 
 ## Using Bing Service with RadMap
 
@@ -122,19 +111,17 @@ The Telerik Map provides a simplified setup for	[Bing Map Tile](http://msdn.micr
 
 In **Example 4** you can examine a sample setup of a **RadMap** with a Bing layer configured.
 
-**Example 4**: Using Bing service for map layer
+>caption **Example 4**: Using Bing service for map layer
 
-````ASPNET
-			<telerik:RadMap runat="server" ID="RadMap1">
-				<LayersCollection>
-					<telerik:MapLayer Type="Bing"
-						Key="SET A VALID KEY PROVIDED BY MICROSOFT">
-					</telerik:MapLayer>
-				</LayersCollection>
-			</telerik:RadMap>
+````ASP.NET
+<telerik:RadMap runat="server" ID="RadMap1">
+	<LayersCollection>
+		<telerik:MapLayer Type="Bing"
+			Key="SET A VALID KEY PROVIDED BY MICROSOFT">
+		</telerik:MapLayer>
+	</LayersCollection>
+</telerik:RadMap>
 ````
-
-
 
 # See Also
 
