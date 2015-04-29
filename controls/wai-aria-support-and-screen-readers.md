@@ -21,7 +21,7 @@ The following controls offer WAI-ARIA support:
 
 * [Ajax]({%slug ajax/overview%})
 
-* [Barcode](%slug barcode/overview%})
+* [Barcode]({%slug barcode/overview%})
 
 * [Calendar (DatePicker, TimePicker and MonthYearPicker)]({%slug calendar/overview%})
 

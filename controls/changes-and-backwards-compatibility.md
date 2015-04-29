@@ -173,10 +173,6 @@ In this version of the control, a number of changes have been made with respect 
 **Prior to the Q1 2009 release of RadGrid for ASP.NET AJAX**
 
 
-
-
->caption  
-
 | | |
 |------|------|
 | **div.RadGrid_Default** |The default Telerik RadGrid wrapper **`<div>`** . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
@@ -213,7 +209,6 @@ In this version of the control, a number of changes have been made with respect 
 
 **After the Q1 2009 release of RadGrid for ASP.NET AJAX(note that the [SkinName] part is missing from the css classes names except for external grid elements)**
 
->caption  
 | | |
 |------|------|
 | **div.RadGrid_[SkinName]** |The default Telerik RadGrid wrapper **`<div>`** . All Telerik RadGrid elements are placed inside it. Rendering Telerik RadGrid in one tag helps further integrations with other controls (Telerik RadAjax and ASP.NET AJAX for example).|
@@ -313,17 +308,11 @@ With the release of Telerik UI for ASP.NET AJAX Q3 2008 we have introduced a cha
 
 ·If you have Telerik.Charting installed in GAC (this used to be the default Telerik UI for ASP.NET AJAX installer action): Replace the following directive
 
-
-
-
->caption  
-
 |  **Old Telerik.Charting Register directive**  |
 | ------ |
 |`<%@ Register Assembly="Telerik.Charting, Version=2.0.5.0, Culture=neutral, PublicKeyToken=d14f3dcc8e3e8763" Namespace="Telerik.Charting" TagPrefix="telerik" %>`|
 
 with this one
->caption  
 
 |  **New Telerik.Charting Register directive**  |
 | ------ |
@@ -331,11 +320,6 @@ with this one
 
 
 You will also need to remove the Telerik.Charting registration from your web.config file. In the `<system.web> <compilation> <assemblies>` section you will find this line:
-
-
-
-
->caption  
 
 |  **Old Telerik.Charting web.config registration**  |
 | ------ |
@@ -346,8 +330,6 @@ Simply remove it.
 
 * If you do not have Telerik.Charting installed in GAC (you use it from the local **Bin** folder) replace this directive
 
->caption  
-
 |  **Old Telerik.Charting Register directive**  |
 | ------ |
 |`<%@ Register Assembly="Telerik.Charting" Namespace="Telerik.Charting" TagPrefix="telerik" %>`|
@@ -355,7 +337,7 @@ Simply remove it.
 
 with this one:
 
->caption  
+
 |  **New Telerik.Charting Register directive**  |
 | ------ |
 |`<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Charting" TagPrefix="telerik" %>`|
@@ -378,7 +360,6 @@ All CSS classes for RadInput and RadInputManager have been renamed to use Teleri
 
 All custom skins will stop working, however, migrating is very easy, by following the CSS selector scheme provided below:
 
->caption  
 |  **Current CSS class name**  |  **New CSS class name**  |
 | ------ | ------ |
 |radInput_Skin|RadInput_Skin|
@@ -409,7 +390,6 @@ All custom skins will stop working, however, migrating is very easy, by followin
 
 Some of the RadSlider's properties are obsolete and new ones which offer the same functionality should be used. You can find them along with the new ones below:
 
->caption  
 |  Obsolete property  |  Actual property  |
 | ------ | ------ |
 |ClickOffset|LargeChange|
@@ -419,7 +399,6 @@ Some of the RadSlider's properties are obsolete and new ones which offer the sam
 
 Some new properties were introduced - the table below contains them along with a short explanation.
 
->caption  
 |  Property Name  |  Description  |
 | ------ | ------ |
 |ItemType|Sets the type of the items, can be set to **Item** and **Tick** . When set to **Tick** , the slider can be additionally configured by setting its **LargeChange** and **SmallChange** properties.|
