@@ -22,7 +22,7 @@ The ZIP archive is represented by **ZipArchive** class. It can be used in 3 mode
 
 * **Update**: Allows update of the existing ZIP archive. In this mode you can add new entries, read and update existing entries.
 
-ZipArchive class was introduced in Q2 2014. In case you are using an older version of Telerik UI for ASP.NET AJAX refer to [this article](de058bf2-18db-43a8-9840-1092c3af9ef6).
+ZipArchive class was introduced in Q2 2014. In case you are using an older version of Telerik UI for ASP.NET AJAX refer to this article.
 
 ## Add the Telerik ZIP Library Assembly
 
@@ -30,7 +30,7 @@ In order to use the **Zip Library** in your application, you need to add a refer
 
 The assembly will be automatically added to the Bin folder when you create a Telerik Web Forms site or you can manually find it in the AdditionalLibraries folder in the Telerik UI for ASP.NET AJAX installation (automated and manual) and in the internal builds archive. It supports .NET 4 and .NET 4.5, so depending on the target framework of your project, you need to take the assembly from the Bin40 or Bin45 folder respectively.
 
-For a full list of the Telerik assemblies you can refer to the[Included Assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html) article.
+For a full list of the Telerik assemblies you can refer to the [Included Assemblies]({%slug introduction/installation/included-assemblies%}) article.
 
 ## Open Zip Archive
 
@@ -39,20 +39,20 @@ The following code snippet demonstrates how to open existing Zip archive using t
 
 
 ````C#
-	    using (Stream stream = File.Open("test.zip", FileMode.Open))
+using (Stream stream = File.Open("test.zip", FileMode.Open))
+{
+	using (ZipArchive archive = new ZipArchive(stream))
 	{
-	    using (ZipArchive archive = new ZipArchive(stream))
-	    {
-	        // Display the list of the files in the selected zip file using the ZipArchive.Entries property.
-	    }
+		// Display the list of the files in the selected zip file using the ZipArchive.Entries property.
 	}
+}
 ````
 ````VB.NET
-	Using stream As Stream = File.Open("test.zip", FileMode.Open)
-	    ' Display the list of the files in the selected zip file using the ZipArchive.Entries property.
-		Using archive As New ZipArchive(stream)
-		End Using
+Using stream As Stream = File.Open("test.zip", FileMode.Open)
+	' Display the list of the files in the selected zip file using the ZipArchive.Entries property.
+	Using archive As New ZipArchive(stream)
 	End Using
+End Using
 ````
 
 
@@ -65,29 +65,29 @@ The example below shows how to create a new Zip archive using the **ZipArchive**
 
 
 ````C#
-	using (Stream stream = File.Open("test.zip", FileMode.Create))
+using (Stream stream = File.Open("test.zip", FileMode.Create))
+{
+	using (ZipArchive archive = new ZipArchive(stream, ZipArchiveMode.Create, false, null))
 	{
-	    using (ZipArchive archive = new ZipArchive(stream, ZipArchiveMode.Create, false, null))
-	    {
-	        using (ZipArchiveEntry entry = archive.CreateEntry("text.txt"))
-	        {
-	            StreamWriter writer = new StreamWriter(entry.Open());
-	            writer.WriteLine("Hello world!");
-	            writer.Flush();
-	        }
-	    }
+		using (ZipArchiveEntry entry = archive.CreateEntry("text.txt"))
+		{
+			StreamWriter writer = new StreamWriter(entry.Open());
+			writer.WriteLine("Hello world!");
+			writer.Flush();
+		}
 	}
+}
 ````
 ````VB.NET
-	    Using stream As Stream = File.Open("test.zip", FileMode.Create)
-		Using archive As New ZipArchive(stream, ZipArchiveMode.Create, False, Nothing)
-			Using entry As ZipArchiveEntry = archive.CreateEntry("text.txt")
-	    Dim writer As New StreamWriter(entry.Open())
-				writer.WriteLine("Hello world!")
-				writer.Flush()
-			End Using
+Using stream As Stream = File.Open("test.zip", FileMode.Create)
+	Using archive As New ZipArchive(stream, ZipArchiveMode.Create, False, Nothing)
+		Using entry As ZipArchiveEntry = archive.CreateEntry("text.txt")
+	Dim writer As New StreamWriter(entry.Open())
+			writer.WriteLine("Hello world!")
+			writer.Flush()
 		End Using
 	End Using
+End Using
 ````
 
 

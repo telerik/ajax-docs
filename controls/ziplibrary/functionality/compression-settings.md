@@ -18,7 +18,7 @@ The **RadZipLibrary** allows you compress and decompress data in your applicatio
 
 Deflate settings are used for compressing data using a combination of the LZ77 algorithm and Huffman coding.
 
->tip You can find more information on the Deflate data compression algorithm[here](http://en.wikipedia.org/wiki/DEFLATE).
+>tip You can find more information on the Deflate data compression algorithm [here](http://en.wikipedia.org/wiki/DEFLATE).
 >
 
 
@@ -31,39 +31,14 @@ The **DeflateSettings** class exposes some configurable parameters:
 **Example 1** demonstrates how to create DeflateSettings.
 
 ````C#
-	            DeflateSettings compressionSettings = new DeflateSettings();
-	            compressionSettings.CompressionLevel = CompressionLevel.Best;
-	            compressionSettings.HeaderType = CompressedStreamHeader.ZLib;
+DeflateSettings compressionSettings = new DeflateSettings();
+compressionSettings.CompressionLevel = CompressionLevel.Best;
+compressionSettings.HeaderType = CompressedStreamHeader.ZLib;
 ````
-
-
-
 ````VB.NET
-				Dim compressionSettings As New DeflateSettings()
-				compressionSettings.CompressionLevel = CompressionLevel.Best
-				compressionSettings.HeaderType = CompressedStreamHeader.ZLib
-	            '           #End Region
-			End Sub
-	
-			Private Sub LzmaSettings()
-	            '			#Region "ziplibrary-compression-settings_1"
-				Dim compressionSettings As New LzmaSettings()
-				compressionSettings.DictionarySize = 23
-				compressionSettings.FastBytes = 32
-				compressionSettings.LiteralContextBits = 3
-				compressionSettings.LiteralPositionBits = 3
-				compressionSettings.MatchFinderType = LzmaMatchFinderType.BT4
-				compressionSettings.PositionStateBits = 2
-	            '       #End Region
-			End Sub
-	
-			Public Sub StoreSettings()
-	            '			#Region "ziplibrary-compression-settings_2"
-				Dim compressionSettings As New StoreSettings()
-	            '		#End Region
-			End Sub
-		End Class
-	End Namespace
+Dim compressionSettings As New DeflateSettings()
+compressionSettings.CompressionLevel = CompressionLevel.Best
+compressionSettings.HeaderType = CompressedStreamHeader.ZLib        
 ````
 
 
@@ -71,7 +46,7 @@ The **DeflateSettings** class exposes some configurable parameters:
 
 LZMA settings are used for compressing your data using Lempel-Ziv-Markov chain algorithm (LZMA).
 
->tip You can read more about LZMA[here](http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm).
+>tip You can read more about LZMA [here](http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm).
 >
 
 
@@ -90,35 +65,22 @@ The configurable parameters of the **LzmaSettings** class are as follows:
 * **MatchFinderType**: The type of the match finder. Allowed values are BT2(match finder that uses two bytes for the hash) and BT4(uses four bytes for the hash).
 
 ````C#
-	            LzmaSettings compressionSettings = new LzmaSettings();
-	            compressionSettings.DictionarySize = 23;
-	            compressionSettings.FastBytes = 32;
-	            compressionSettings.LiteralContextBits = 3;
-	            compressionSettings.LiteralPositionBits = 3;
-	            compressionSettings.MatchFinderType = LzmaMatchFinderType.BT4;
-	            compressionSettings.PositionStateBits = 2;
+LzmaSettings compressionSettings = new LzmaSettings();
+compressionSettings.DictionarySize = 23;
+compressionSettings.FastBytes = 32;
+compressionSettings.LiteralContextBits = 3;
+compressionSettings.LiteralPositionBits = 3;
+compressionSettings.MatchFinderType = LzmaMatchFinderType.BT4;
+compressionSettings.PositionStateBits = 2;
 ````
-
-
-
 ````VB.NET
-				Dim compressionSettings As New LzmaSettings()
-				compressionSettings.DictionarySize = 23
-				compressionSettings.FastBytes = 32
-				compressionSettings.LiteralContextBits = 3
-				compressionSettings.LiteralPositionBits = 3
-				compressionSettings.MatchFinderType = LzmaMatchFinderType.BT4
-				compressionSettings.PositionStateBits = 2
-	            '       #End Region
-			End Sub
-	
-			Public Sub StoreSettings()
-	            '			#Region "ziplibrary-compression-settings_2"
-				Dim compressionSettings As New StoreSettings()
-	            '		#End Region
-			End Sub
-		End Class
-	End Namespace
+Dim compressionSettings As New LzmaSettings()
+compressionSettings.DictionarySize = 23
+compressionSettings.FastBytes = 32
+compressionSettings.LiteralContextBits = 3
+compressionSettings.LiteralPositionBits = 3
+compressionSettings.MatchFinderType = LzmaMatchFinderType.BT4
+compressionSettings.PositionStateBits = 2
 ````
 
 
@@ -127,17 +89,10 @@ The configurable parameters of the **LzmaSettings** class are as follows:
 Store settings are used to just store the data using no compression.
 
 ````C#
-	            StoreSettings compressionSettings = new StoreSettings();
+StoreSettings compressionSettings = new StoreSettings();
 ````
-
-
-
 ````VB.NET
-				Dim compressionSettings As New StoreSettings()
-	            '		#End Region
-			End Sub
-		End Class
-	End Namespace
+Dim compressionSettings As New StoreSettings()
 ````
 
 
