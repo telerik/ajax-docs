@@ -10,11 +10,8 @@ position: 2
 
 # Design Time
 
-
-
-## 
-
 The **RadProgressBar** control offers a Smart Tag that lets you perform several basic actions:
+
 >caption Figure 1: Smart Tag of RadProgressBar
 
 ![progress-bar-smart-tag](images/progress-bar-smart-tag.png)

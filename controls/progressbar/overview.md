@@ -10,11 +10,8 @@ position: 0
 
 # ProgressBar Overview
 
+**RadProgressBar** for ASP.NET AJAX is a light customizable control which allows you to visualize the progress of an operation, level of completion of a form or any other type of progress that has measurable data.
 
-
-**RadProgressBar** for ASP.NET AJAX is a light customizable control which allows you to visualize the progress of an operation, levelof completion of a form or any other type of progress that has measurable data.
-
-## 
 >caption Figure 1: Three RadProgressBar variations in an ASP.NET page
 
 ![progress-bar-overview](images/progress-bar-overview.png)
@@ -41,7 +38,7 @@ The control offers a rich set of features:
 
 * Multiple [client-side events]({%slug progressbar/client-side-programming/events/overview%}).
 
-# See Also
+## See Also
 
  * [RadProgressBar Online Examples](http://demos.telerik.com/aspnet-ajax/progress-bar)
 

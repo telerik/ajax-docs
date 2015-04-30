@@ -5,18 +5,16 @@ description: Server-side Programming
 slug: progressbar/server-side-programming
 tags: server-side,programming
 published: True
-position: 7
+position: 45
 ---
 
 # Server-side Programming
-
-
 
 You can configure the settings of **RadProgressBar** and create its elements in the code-behind via the Server-Side API of the control.
 
 ## RadProgressBar Public Properties and Methods
 
-For a list with the server-side properties and methods of the control, see the[Server-Side API of the RadProgressBar class](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radprogressbar.html). You can also find it in the intellisense in Visual Studio.
+For a list with the server-side properties and methods of the control, see the [Server-Side API of the RadProgressBar class](http://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_radprogressbar.html). You can also find it in the intellisense in Visual Studio.
 
 ## Creating and Configuring a ProgressBar From the Code-behind
 
@@ -25,42 +23,41 @@ For a list with the server-side properties and methods of the control, see the[S
 
 ![programmatically-created-progress-bar](images/programmatically-created-progress-bar.png)
 
-**Example 1**: Configuring a progress bar on the server-side.
-
+>caption Example 1: Configuring a progress bar on the server-side.
 
 
 ````C#
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			Telerik.Web.UI.RadProgressBar progressBar = new Telerik.Web.UI.RadProgressBar();
-			progressBar.ID = "RadProgressBar1";
-			progressBar.Width = 250;
-			progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent;
-			progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal;
-			progressBar.MaxValue = 100;
-			progressBar.Value = 33;
-			progressBar.ShowLabel = true;
-			progressBar.Skin = "Silk";
-			Page.Controls.Add(progressBar);
-		}
+protected void Page_Init(object sender, EventArgs e)
+{
+	Telerik.Web.UI.RadProgressBar progressBar = new Telerik.Web.UI.RadProgressBar();
+	progressBar.ID = "RadProgressBar1";
+	progressBar.Width = 250;
+	progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent;
+	progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal;
+	progressBar.MaxValue = 100;
+	progressBar.Value = 33;
+	progressBar.ShowLabel = true;
+	progressBar.Skin = "Silk";
+	Page.Controls.Add(progressBar);
+}
 ````
 ````VB
-		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Load
-			Dim progressBar As New Telerik.Web.UI.RadProgressBar()
-			progressBar.ID = "RadProgressBar1"
-			progressBar.Width = 250
-			progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent
-			progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal
-			progressBar.MaxValue = 100
-			progressBar.Value = 33
-			progressBar.ShowLabel = True
-			progressBar.Skin = "Silk"
-			Page.Controls.Add(progressBar)
-		End Sub
+Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Load
+	Dim progressBar As New Telerik.Web.UI.RadProgressBar()
+	progressBar.ID = "RadProgressBar1"
+	progressBar.Width = 250
+	progressBar.BarType = Telerik.Web.UI.ProgressBarType.Percent
+	progressBar.Orientation = Telerik.Web.UI.ProgressBarOrientation.Horizontal
+	progressBar.MaxValue = 100
+	progressBar.Value = 33
+	progressBar.ShowLabel = True
+	progressBar.Skin = "Silk"
+	Page.Controls.Add(progressBar)
+End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug progressbar/getting-started/overview%})
 

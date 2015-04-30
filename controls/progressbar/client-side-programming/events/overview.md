@@ -10,17 +10,13 @@ position: 0
 
 # Events Overview
 
-
-
-## 
-
-**RadProgressBar** provides a rich set of client-side events which allow easy and flexibleuse in a wide range of application scenarios. In this article you will find examples about each of these events,demonstrating how to handle and cancel them (if possible):
+**RadProgressBar** provides a rich set of client-side events which allow easy and flexible use in a wide range of application scenarios. In this article you will find examples about each of these events,demonstrating how to handle and cancel them (if possible):
 
 * **[OnInitialize]({%slug progressbar/client-side-programming/events/oninitialize%})**—raised when the **RadProgressBar**client-side object is initialized.
 
 * **[OnLoad]({%slug progressbar/client-side-programming/events/onload%})**—raised when the **RadProgressBar**client-side object is fully loaded. The full API of the control is available at this point.
 
-* **[OnValueChanging]({%slug progressbar/client-side-programming/events/onvaluechanging%})**—raised just before the **RadProgressBar** value property is changed. You can handle this eventin case you want to prevent the current value from changing.
+* **[OnValueChanging]({%slug progressbar/client-side-programming/events/onvaluechanging%})**—raised just before the **RadProgressBar** value property is changed. You can handle this event in case you want to prevent the current value from changing.
 
 * **[OnValueChanged]({%slug progressbar/client-side-programming/events/onvaluechanged%})**—raised after the **RadProgressBar**value property has been changed.
 
@@ -29,7 +25,6 @@ position: 0
 To use these events, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the corresponding property in the control's **ClientEvents** subtag.
 
 ## RadProgressBar Client-side Methods for Attaching/Setaching Client-side Event Handlers
-
 
 |  **Name**  |  **Arguments**  |  **Description**  |
 | ------ | ------ | ------ |
@@ -44,7 +39,7 @@ To use these events, simply write a JavaScript function that can be called when 
 |remove_valueChanged()|Function|Removes a handler for the OnValueChanged ProgressBar client-side event.|
 |remove_completed()|Function|Removes a handler for the OnCompleted ProgressBar client-side event.|
 
-# See Also
+## See Also
 
  * [RadProgressBar Object]({%slug progressbar/client-side-programming/radprogressbar-object%})
 

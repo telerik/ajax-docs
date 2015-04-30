@@ -10,31 +10,25 @@ position: 0
 
 # Right-to-left Support
 
-
-
 The Telerik **Progress Bar** supports right-to-left (RTL) direction.
 
 To put the **RadProgressBar** control in RTL mode, its parent container should have its **CSS direction**	property or **dir attribute** set to **rtl**.
 
-This parent element can be the **BODY**, the **HTML** element,	or just a simple wrapper element as in **Example 1**. The rendered result from the code in **Example 1**is illustrated in **Figure 1**.
+This parent element can be the **BODY**, the **HTML** element,	or just a simple wrapper element as in **Example 1**. The rendered result from the code in **Example 1** is illustrated in **Figure 1**.
 
-## 
 >caption Figure 1: RadProgressBar control in Right-to-Left mode
 
 ![progress-bar-rtl-support](images/progress-bar-rtl-support.png)
+>caption Example 1: Putting the **Telerik Progress Bar** in Right-to-Left mode
 
-**Example 1**: Putting the **Telerik Progress Bar** in Right-to-Left mode
-
-````ASPNET
-	    <div style="direction:rtl;">
-			<telerik:RadProgressBar runat="server" ID="RadProgressBar1" BarType="Value" Value="80" MinValue="0" MaxValue="100" Skin="Silk">
-			</telerik:RadProgressBar>
-		</div>
+````ASP.NET
+<div style="direction:rtl;">
+	<telerik:RadProgressBar runat="server" ID="RadProgressBar1" BarType="Value" Value="80" MinValue="0" MaxValue="100" Skin="Silk">
+	</telerik:RadProgressBar>
+</div>
 ````
 
-
-
-# See Also
+## See Also
 
  * [Overview]({%slug progressbar/overview%})
 
