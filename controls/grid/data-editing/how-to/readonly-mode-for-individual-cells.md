@@ -33,7 +33,7 @@ Setting individual cells in read-only mode is not achievable in the current vers
 	      SelectCommand="SELECT * FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'this will make the textbox for customer with CustomerID ALFKI not editable

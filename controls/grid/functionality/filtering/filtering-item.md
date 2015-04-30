@@ -24,7 +24,7 @@ The **FilteringItem** is always placed in <THEAD> section of a grid. As a result
 >
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug grid/functionality/filtering/overview%})
 

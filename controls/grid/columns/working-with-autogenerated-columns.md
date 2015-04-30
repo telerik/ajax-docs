@@ -50,7 +50,7 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
     If e.Column.UniqueName = "FirstName" Then
         e.Column.HeaderText = "Name"
@@ -82,7 +82,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridDataItem Then
         Dim item As GridDataItem = TryCast(e.Item, GridDataItem)
@@ -96,7 +96,7 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Column Types]({%slug grid/columns/column-types%})
 

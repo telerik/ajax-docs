@@ -31,7 +31,7 @@ Note that the items from the menu will be displayed dynamically depending on the
 
 The code snippets from the example are below:
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 </telerik:RadScriptManager>
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
@@ -142,7 +142,7 @@ The code snippets from the example are below:
 
 As of Q1 2010 RadGrid is equipped with a new filtering menu. It will be a sub-part of RadGrid's header context menu and will allow for filtering the grid's data on two conditions related with a logical AND operator. To switched on/off header context filter menu a new property has been introduced into the RadGrid control -**RadGrid.EnableHeaderContextFilterMenu/GridTableView.EnableHeaderContextFilterMenu**. In addition, it is important that **RadGrid.EnableHeaderContextMenu/GridTableView.EnableHeaderContextMenu** and **RadGrid.AllowFilteringByColumn/GridTableView.AllowFilteringByColumn** properties be set to true in order for the header context filter menu to be available. For the purpose of supporting this extension to RadGrid's filtering mechanism, each **GridColumn** will feature an additional current filter function/value properties that are set to contain the second filter condition data. These properties are called **AndCurrentFilterFunction**/**AndCurrentFilterValue:**
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn CurrentFilterFunction="GreaterThan" CurrentFilterValue="2.5"
   AndCurrentFilterFunction="LessThan" AndCurrentFilterValue="5.0" DataField="Freight"
   DataType="System.Decimal" HeaderText="Freight" SortExpression="Freight" UniqueName="Freight">
@@ -165,7 +165,7 @@ The Aggregates menu will show the applicable aggregates for the current column, 
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
   ShowFooter="True" runat="server" GridLines="None" EnableLinqExpressions="false"
   OnCustomAggregate="RadGrid1_CustomAggregate">
@@ -205,7 +205,7 @@ protected void RadGrid1_CustomAggregate(object sender, GridCustomAggregateEventA
     e.Result = discontinued.ToString() + " items discontinued, " + notDiscontinued.ToString() + " not";
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_CustomAggregate(ByVal sender As Object, ByVal e As Web.UI.GridCustomAggregateEventArgs) Handles RadGrid1.CustomAggregate
     Dim table As DataTable
     If Not RadGrid1.MasterTableView.FilterExpression Is [String].Empty Then
@@ -250,7 +250,7 @@ protected override void OnPreRenderComplete(EventArgs e)
     base.OnPreRenderComplete(e);
 }
 ````
-````VB.NET
+````VB
 Protected Overloads Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
     Dim menu As RadContextMenu = RadGrid1.HeaderContextMenu
     Dim item As New RadMenuItem()
@@ -319,7 +319,7 @@ private void PrepareItem(GridColumn column, IRadMenuItemContainer columnsParentI
     }
 }
 ````
-````VB.NET
+````VB
 Private Sub BuildColumnsMenu(ByVal columnsParentItem As IRadMenuItemContainer, ByVal tableView As GridTableView)
     If tableView.EnableHeaderContextMenu Then
         For Each gridColumn As GridColumn In tableView.RenderColumns
@@ -390,7 +390,7 @@ protected void HeaderContextMenu_ItemClick(object sender, RadMenuEventArgs e)
     RadGrid1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     AddHadler(RadGrid1.HeaderContextMenu.ItemClick, AddressOf Me.HeaderContextMenu_ItemClick)
 End Sub
@@ -411,7 +411,7 @@ Finally, we need to wire the *OnHeaderShowing* client event. In its event handle
 
 
 
-````ASPNET
+````ASP.NET
 <ClientSettings>
     <ClientEvents OnHeaderMenuShowing="HeaderShowing" />
 </ClientSettings>
@@ -434,7 +434,7 @@ In some cases you might want to set custom texts for the grid HeaderContextMenu 
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AllowPaging="True"
   AllowSorting="True" EnableHeaderContextFilterMenu="true" EnableHeaderContextMenu="true">
 </telerik:RadGrid>
@@ -484,7 +484,7 @@ protected void HeaderContextMenu_ItemCreated(object sender, Telerik.Web.UI.RadMe
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     RadGrid1.HeaderContextMenu.ItemCreated += New Telerik.Web.UI.RadMenuEventHandler(HeaderContextMenu_ItemCreated)
 End Sub

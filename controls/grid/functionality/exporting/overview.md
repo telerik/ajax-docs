@@ -67,7 +67,7 @@ This is helpful when you want to give a predefined name for your file. Please no
 
 Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn*as well as the first *GridGroupSplitterColumn*. Note that this property will affect only the firstlevel in hierarchical *RadGrids*.
 
-````ASPNET
+````ASP.NET
 <ExportSettings
    HideStructureColumns="true"
    ExportOnlyData="true"
@@ -122,7 +122,7 @@ protected void RadGrid1_GridExporting(object source, GridExportingArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_GridExporting(ByVal source As Object, ByVal e As GridExportingArgs)
     Select Case e.ExportType
         Case ExportType.Excel
@@ -173,7 +173,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToExcel();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
     RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount
     RadGrid1.ExportSettings.IgnorePaging = True
@@ -231,7 +231,7 @@ In order to prevent this error add the following lines just before the exporting
 RadGrid1.Page.Response.ClearHeaders();
 RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 ````
-````VB.NET
+````VB
 RadGrid1.Page.Response.ClearHeaders()
 RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````

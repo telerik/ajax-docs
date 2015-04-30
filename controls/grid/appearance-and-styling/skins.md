@@ -130,7 +130,7 @@ The skin's images have to be named as follows:
 |![SortDesc.gif](images/grd_SortDesc.gif)| **SortDesc.gif** |
 |![Update.gif](images/grd_Update.gif)| **Update.gif** |
 
-# See Also
+## See Also
 
  * [HTML Output]({%slug grid/appearance-and-styling/html-output%})
 

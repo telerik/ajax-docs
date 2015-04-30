@@ -42,7 +42,7 @@ function endRequest(sender, e) {
 }
 Sys.Application.notifyScriptLoaded();
 ````
-````ASPNET
+````ASP.NET
 <?xml version="1.0" encoding="utf-8" ?>
 <quotes>  
     <quote stockTicker="MSFT" lastTrade="29.0294" change="-0.4596" lastUpdated="12/20/2006 17:07:52" dailyMaxRange="30.24" dailyMinRange="29.0294" />  
@@ -54,7 +54,7 @@ Sys.Application.notifyScriptLoaded();
     <quote stockTicker="NOVL" lastTrade="3.5758" change="-0.166" lastUpdated="12/20/2006 17:07:52" dailyMaxRange="6.14" dailyMinRange="3.5758" />
 </quotes>
 ````
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
   <Scripts>
     <asp:ScriptReference Path="~/Scripts/TraceUtils.js" />
@@ -149,7 +149,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Timer1_Tick(ByVal sender As Object, ByVal e As EventArgs)
     RadGrid1.Rebind()
 End Sub

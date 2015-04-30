@@ -54,6 +54,6 @@ The property which specifies if the row is visible. It returns a boolean value w
 
 
 
-# See Also
+## See Also
 
  * [GridDataItem Class Members]({%slug grid/client-side-programming/griddataitem-object/griddataitem-class-members%})

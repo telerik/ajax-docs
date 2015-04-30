@@ -26,7 +26,7 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 
 
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	            EnableViewState="false" GridLines="None">
 	        </telerik:RadGrid>
@@ -76,7 +76,7 @@ Although [simple DataBinding](http://www.telerik.com/help/aspnet-ajax/grid-simpl
 	    }
 	}
 ````
-````VB.NET
+````VB
 	Partial Class Default_VB
 	    Inherits System.Web.UI.Page
 	

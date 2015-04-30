@@ -30,7 +30,7 @@ To enable automatic editing at data source level, set the *AllowAutomaticUpdates
 
 Here are the code snippets from the example referenced in the previous paragraph:
 
-````ASPNET
+````ASP.NET
 <%@ register assembly="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
   namespace="System.Web.UI.WebControls" tagprefix="asp" %>
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
@@ -94,7 +94,7 @@ protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventA
     }
 }		
 ````
-````VB.NET	     	
+````VB	     	
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
     If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
         If Not e.Item.OwnerTableView.IsItemInserted Then

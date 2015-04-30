@@ -26,7 +26,7 @@ When not using [declarative data sources]({%slug grid/data-binding/understanding
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
@@ -59,7 +59,7 @@ public DataTable GetDataTable(string query)
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
     RadGrid1.DataSource = GetDataTable("SELECT CustomerID, CompanyName, ContactName FROM Customers")
 End Sub

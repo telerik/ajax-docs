@@ -20,7 +20,7 @@ In the example below there is **UpdateAll** button in the grid command item temp
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowMultiRowEdit="True" DataSourceID="SqlDataSource1"
 	    OnItemCommand="RadGrid1_ItemCommand" OnItemDataBound="RadGrid1_ItemDataBound">
 	    <MasterTableView DataKeyNames="CustomerID" AutoGenerateColumns="false" EditMode="InPlace"
@@ -70,7 +70,7 @@ In the example below there is **UpdateAll** button in the grid command item temp
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        If (e.CommandName = "UpdateAll") Then
 	            For Each editedItem As GridEditableItem In RadGrid1.EditItems
@@ -110,7 +110,7 @@ The following sample takes advantage of the editSelected() client side method, t
 
 
 
-````ASPNET
+````ASP.NET
 	     <script type="text/javascript">
 	         function ToggleEditSelected() {
 	             var grid = $find("RadGrid1");
@@ -216,7 +216,7 @@ The following sample takes advantage of the editSelected() client side method, t
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Public ReadOnly Property CustomersTable As DataTable
 	        Get
 	            Dim res As DataTable = CType(Me.Session("CustomersTable"), DataTable)

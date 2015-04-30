@@ -50,7 +50,7 @@ For auto-generated column subscribe to the **ColumnCreated** event and set the *
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
 	        'add more column types to the conditional check if needed
 	        If (TypeOf e.Column Is GridBoundColumn) Then
@@ -83,7 +83,7 @@ In the code-behind (just data-binding):
 	        RadGrid1.DataSource = myDataTable.DefaultView;
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"))
 	        Dim MyOleDbDataAdapter As New OleDbDataAdapter()

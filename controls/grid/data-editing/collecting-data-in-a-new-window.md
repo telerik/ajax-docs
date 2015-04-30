@@ -47,7 +47,7 @@ There are various cases in which you may want to get the content of the cells in
 	     SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [PostalCode] FROM [Customers]">
 	  </asp:SqlDataSource>
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridDataItem) Then
 	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
@@ -100,7 +100,7 @@ There are various cases in which you may want to get the content of the cells in
 	    <asp:Label ID="lblPostalCode" runat="server" Text=""></asp:Label>
 	  </div>
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If (Not IsPostBack) Then
 	            lblCompanyName.Text = Request.QueryString("CompanyName")

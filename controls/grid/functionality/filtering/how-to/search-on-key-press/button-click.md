@@ -20,7 +20,7 @@ If you set **AutoPostBackOnFilter** property of a column to **True**, the user d
 
 When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation of **Contains** for string types or **EqualTo** for numeric types. You can change this to another filter function by setting the **CurrentFilterFunction** property. For example:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
   UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true">
 </telerik:GridBoundColumn>
@@ -40,7 +40,7 @@ When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation
 
 The upcoming example uses **ObjectDataSource** and **SelectParameter** to represents the approach:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function doFilter(sender, e) {
         if (e.keyCode == 13) {

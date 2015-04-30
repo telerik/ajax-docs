@@ -16,7 +16,7 @@ The HTML output of a simple RadGrid control without any client features is the f
 
 (some HTML attributes have been removed for simplicity)
 
-````XML
+````ASP.NET
 	  <div class="RadGrid RadGrid_Default">
 	    <table class="rgMasterTable">
 	      <colgroup>

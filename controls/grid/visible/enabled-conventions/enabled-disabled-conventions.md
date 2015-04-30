@@ -187,7 +187,7 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 
 
 
-````ASPNET
+````ASP.NET
 	<script type="text/javascript">
 	        function DisableGrid()
 	            {
@@ -325,7 +325,7 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
 	    }
 	          
 ````
-````VB.NET
+````VB
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
 	        Select Case e.Argument
 	            Case "DisableGrid"

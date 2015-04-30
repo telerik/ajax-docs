@@ -55,7 +55,7 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    }
 	    </telerik:RadCodeBlock>
 ````
-````ASPNET
+````ASP.NET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnableAJAX="true">
 	    <AjaxSettings>
 	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -191,7 +191,7 @@ Additionally, the grid and spell components are ajaxified using RadAjaxManager i
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then

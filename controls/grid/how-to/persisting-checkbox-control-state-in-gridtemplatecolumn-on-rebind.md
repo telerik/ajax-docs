@@ -22,7 +22,7 @@ Similar actions could be performed for persistence of other controls state in **
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" AllowSorting="True"
 	    AllowPaging="True" PageSize="3">
 	    <MasterTableView DataMember="Customers" PageSize="3" AllowPaging="True">
@@ -178,7 +178,7 @@ Similar actions could be performed for persistence of other controls state in **
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private ReadOnly Property CustomersChecked As Hashtable
 	        Get
 	            Dim res As Object = ViewState("_cc")

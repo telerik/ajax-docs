@@ -141,7 +141,7 @@ protected void RadGrid1_PreRender(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As Web.UI.GridDeletedEventArgs) Handles RadGrid1.ItemDeleted
     If e.Exception IsNot Nothing Then
         e.ExceptionHandled = True
@@ -236,7 +236,7 @@ in Controls.OfType<radinputcontrol>().Select(control => new {FieldName = control
   public object DataItem { get; set; }
 }			
 ````
-````VB.NET
+````VB
 Partial Class Grid_Examples_dataediting_linqdatasource_productdetailsvb
     Inherits System.Web.UI.UserControl
     Implements IBindableControl

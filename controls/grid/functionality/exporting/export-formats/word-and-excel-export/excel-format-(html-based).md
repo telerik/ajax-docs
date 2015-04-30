@@ -53,7 +53,7 @@ protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs 
     e.Styles.AppendFormat("table @page {{ mso-header-data:\"{0}\"; mso-footer-data:\"{1}\"; }}", header, footer);
 }	
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
     Dim header As String = "&CMultiplication Table\000ANumber of Pages &N"
     Dim footer As String = "&LDate\: &D &RPage &P" & vbNullChar & "00ASignature\:"
@@ -88,7 +88,7 @@ protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellForma
     }
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
     Select Case e.FormattedColumn.UniqueName
         Case "C1"
@@ -138,7 +138,7 @@ protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellForma
         e.Cell.Attributes["formula"] = String.Format("=SUM(B{0}:D{0})", item.ItemIndex);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
     Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
     If e.FormattedColumn.UniqueName = "C5" Then
@@ -189,7 +189,7 @@ protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs 
                      </xml>";
 }
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
 	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:WindowHeight>8070</x:WindowHeight><x:WindowWidth>13260</x:WindowWidth><x:WindowTopX>240</x:WindowTopX><x:WindowTopY>75</x:WindowTopY><x:ProtectStructure>False</x:ProtectStructure><x:ProtectWindows>False</x:ProtectWindows></x:ExcelWorkbook></xml>"
@@ -239,7 +239,7 @@ Example:
 	                     </xml>";
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
 	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print><x:ValidPrinterInfo/><x:PaperSizeIndex>9</x:PaperSizeIndex><x:BlackAndWhite/><x:DraftQuality/><x:RowColHeadings/></x:Print></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"
@@ -277,7 +277,7 @@ Another useful property is **RowBreak**. This property allows you to set a page 
 	                 </xml>";
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
 	        e.XmlOptions = "<xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:WorksheetOptions><x:Print></x:Print></x:WorksheetOptions><x:PageBreaks><x:RowBreaks><x:RowBreak><x:Row>3</x:Row></x:RowBreak><x:RowBreak><x:Row>5</x:Row></x:RowBreak><x:RowBreak><x:Row>7</x:Row></x:RowBreak><x:RowBreak><x:Row>10</x:Row></x:RowBreak></x:RowBreaks></x:PageBreaks></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml>"

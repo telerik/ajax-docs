@@ -32,12 +32,12 @@ You can set the appearance of the normal and alternating rows programmatically o
 
 
 
-````ASPNET
+````ASP.NET
 	<telerik:RadGrid runat="server" ... />
 	<AlternatingItemStyle BackColor="Orange" ... />
 	<ItemStyle BackColor="White" ... />
 ````
-````VB.NET
+````VB
 	    Dim RadGrid1 As RadGrid = New RadGrid()
 	    RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
 	    RadGrid1.ItemStyle.BackColor = Color.White
@@ -53,7 +53,7 @@ You can set the appearance of the normal and alternating rows programmatically o
 
 You can customize the appearance of the selected row, using the **SelectedItemStyle** property:
 
-````ASPNET
+````ASP.NET
 	<style type="text/css">
 	 .SelectedItem
 	 {
@@ -95,7 +95,7 @@ You can customize the appearance of the selected row, using the **SelectedItemSt
 
 You can customize the appearance of the selected row, using the **EditItemStyle** property:
 
-````ASPNET
+````ASP.NET
 	        <style type="text/css">
 	 .EditedItem, .EditedItem TABLE TR
 	 {

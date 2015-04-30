@@ -78,7 +78,7 @@ protected void RadGrid1_PageIndexChanged(object source, Telerik.Web.UI.GridPageC
     RadGrid1.DataBind();
 }
 ````
-````VB.NET
+````VB
 Private Sub LoadData()
     Dim MyOleDbConnection As New OleDbConnection( _
         "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + _
@@ -113,6 +113,6 @@ End Sub 'RadGrid1_PageIndexChanged
 ````
 
 
-# See Also
+## See Also
 
  * [Advanced Data-binding (Using NeedDataSource Event)]({%slug grid/data-binding/understanding-data-binding/server-side-binding/advanced-data-binding-(using-needdatasource-event)%})

@@ -22,7 +22,7 @@ Here is a screen shot from the example and the aspx code:
 
 ![Grid filtered by combo](images/grdGridFilteredByCombo.PNG)
 
-````ASPNET
+````ASP.NET
 	        <asp:Label ID="comboLbl" runat="server" Text="Select contact name to view its product orders." />
 	        <telerik:RadComboBox ID="NamesDDL" runat="server" AutoPostBack="True" DataSourceID="dllDataSource"
 	            DataTextField="ContactName" DataValueField="SupplierID" Width="250px" Height="150px"

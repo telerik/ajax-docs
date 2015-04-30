@@ -26,7 +26,7 @@ The following restrictions apply to editing XML data when using **XmlDataSource*
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Web20" Width="95%" DataSourceID="XmlDataSource1"
   OnInsertCommand="RadGrid1_InsertCommand" OnUpdateCommand="RadGrid1_UpdateCommand"
   OnDeleteCommand="RadGrid1_DeleteCommand">
@@ -124,7 +124,7 @@ private String ConvertNullToEmpty(Object obj)
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.InsertCommand
     Dim gridEditFormItem As GridEditFormItem
     gridEditFormItem = e.Item

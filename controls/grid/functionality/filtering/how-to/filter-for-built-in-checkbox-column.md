@@ -40,7 +40,7 @@ The following example illustrates this approach:
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AllowPaging="true"
   Width="300px" AllowFilteringByColumn="true" OnNeedDataSource="RadGrid1_NeedDataSource"
   OnItemCreated="RadGrid1_ItemCreated">
@@ -134,7 +134,7 @@ protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDat
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, _
     ByVal e As Telerik.Web.UI.GridItemEventArgs) _
     Handles RadGrid1.ItemCreated

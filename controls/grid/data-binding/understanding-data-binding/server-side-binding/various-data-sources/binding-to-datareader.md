@@ -29,7 +29,7 @@ RadGrid's declaration:
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
@@ -69,7 +69,7 @@ protected void RadGrid1_DataBound(object sender, System.EventArgs e)
     conn.Close();
 }
 ````
-````VB.NET
+````VB
 Dim conn As SqlConnection
 Dim reader As SqlDataReader
 Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource

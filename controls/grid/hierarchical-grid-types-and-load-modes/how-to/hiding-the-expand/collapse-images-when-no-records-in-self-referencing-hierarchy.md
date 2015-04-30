@@ -120,7 +120,7 @@ Below is the code of a simple demo implementation:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
 	        If Not IsPostBack Then
 	            RadGrid1.MasterTableView.FilterExpression = "ParentID = 0"

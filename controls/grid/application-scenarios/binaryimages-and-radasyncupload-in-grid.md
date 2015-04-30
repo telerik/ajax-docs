@@ -56,7 +56,7 @@ You can also perform validation over the file input as shown in the demo code:
 	    </script>
 	  </telerik:RadCodeBlock>
 ````
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid runat="server" ID="RadGrid1" Skin="Office2007" AllowPaging="True"
 	    AllowSorting="True" AutoGenerateColumns="False" Width="97%" ShowStatusBar="True"
 	    GridLines="None" OnItemCreated="RadGrid1_ItemCreated" PageSize="3" OnInsertCommand="RadGrid1_InsertCommand"
@@ -285,7 +285,7 @@ You can also perform validation over the file input as shown in the demo code:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Const MaxTotalBytes As Integer = 1048576 ' 1 MB
 	    Dim totalBytes As Integer
 	    Public Property IsRadAsyncValid() As System.Nullable(Of Boolean)

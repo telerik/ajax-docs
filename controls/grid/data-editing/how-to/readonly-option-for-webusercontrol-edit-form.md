@@ -51,7 +51,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 
 
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = "Preview") Then
 	            e.Item.Edit = True
@@ -83,7 +83,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 
 
-````VB.NET
+````VB
 	    Public Sub SetPreviewMode()
 	        btnUpdate.Visible = False
 	        For Each ctrl As Control In Me.Controls

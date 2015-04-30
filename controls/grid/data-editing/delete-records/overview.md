@@ -22,7 +22,7 @@ This is a common task that can be accomplished by placing **GridButtonColumn** w
 
 The code section below demonstrates the second case. In this example the grid data source is stored in a Session variable:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnDeleteCommand="RadGrid1_DeleteCommand"
 	    OnNeedDataSource="RadGrid1_NeedDataSource">
 	    <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID">
@@ -82,7 +82,7 @@ In the code-behind you should handle properly the **RadGrid1_DeleteCommand** eve
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
 	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Grid/Data/Access/Nwind.mdb"))

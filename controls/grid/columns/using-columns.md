@@ -24,7 +24,7 @@ From Q2 2012 on the grid column headers can be grouped together under a multi-co
 
 You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/design-time-/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release the headers text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
 
-````ASPNET
+````ASP.NET
 <HeaderStyle CssClass="rgRotateHeader" />
 ````
 
@@ -48,7 +48,7 @@ Each [column type]({%slug grid/columns/column-types%}) that displays data has a 
 
 When using a bound column populated with values of type **System.Double**, the contents with precision above 15 digits are automatically rounded. This can produce erratic behavior, for example when filtering. If this is a problem for your grid, you can use the **DataFormatString** to increase the precision of the bound column. This is illustrated in the code sample below:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="Value" HeaderText="Value" UniqueName="Value"
   SortExpression="Value" DataType="System.Double" DataFormatString="{0:G17}">
 </telerik:GridBoundColumn>
@@ -148,7 +148,7 @@ boundColumn.DataField = "CustomerID";
 boundColumn.HeaderText = "CustomerID";
 RadGrid1.MasterTableView.Columns.Add(boundColumn);
 ````
-````VB.NET
+````VB
 Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
 boundColumn.UniqueName = "CustomerID"
 boundColumn.DataField = "CustomerID"
@@ -168,7 +168,7 @@ boundColumn.UniqueName = "CustomerID";
 boundColumn.DataField = "CustomerID";
 boundColumn.HeaderText = "CustomerID";
 ````
-````VB.NET
+````VB
 Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
 RadGrid1.MasterTableView.Columns.Add(boundColumn)
 boundColumn.UniqueName = "CustomerID"
@@ -204,7 +204,7 @@ protected void RadGrid1_ColumnCreated(object sender, Telerik.Web.UI.GridColumnCr
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
     If e.Column.UniqueName = "BirthDate" Then
         Dim boundColumn As GridBoundColumn = CType(e.Column, GridBoundColumn)
@@ -240,7 +240,7 @@ protected void RadGrid1_PreRender(object sender, System.EventArgs e)
     RadGrid1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
     For Each column As GridColumn In RadGrid1.Columns
         If (column.UniqueName = "BirthDate") Then
@@ -256,6 +256,6 @@ End Sub
 
 For more information about the auto-generated and declarative columns collections, see [Getting familiar with server-side API]({%slug grid/server-side-programming/overview%}).
 
-# See Also
+## See Also
 
  * [Creating a RadGrid Programmatically]({%slug grid/defining-structure/creating-a-radgrid-programmatically%})

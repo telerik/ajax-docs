@@ -50,7 +50,7 @@ Moreover, if you want to rebind the grid explicitly from postback event of an ex
 	        RadGrid1.Rebind();
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub MyButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles MyButton.Click
 	        'perform some actions here
 	        RadGrid1.DataSource = Nothing

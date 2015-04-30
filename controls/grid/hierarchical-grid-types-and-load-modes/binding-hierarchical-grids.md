@@ -20,7 +20,7 @@ The first step when creating hierarchical grids is to specify the structure of t
 
 This is related to populating the collection of **DetailTables** of **RadGrid**.**MasterTableView** and the respective columns. It is important that this step be completed **before** RadGrid is bound to any data. For example, a grid can have a structure like this:
 
-````XML
+````ASP.NET
 	  - MasterTableView
 	    - DetailTable(0)
 	        - DetailTable(0, 0)
@@ -98,7 +98,7 @@ The whole structure of **RadGrid** with its detail tables is saved in the **View
 	        this.PlaceHolder1.Controls.Add(RadGrid1);
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub DefineGridStructure()
 	        Me.RadGrid1 = New RadGrid
 	
@@ -163,7 +163,7 @@ The whole structure of **RadGrid** with its detail tables is saved in the **View
 
 At runtime, when binding the data, **RadGrid** builds the structure of items (grid rows) with respect to the structure of the detail tables as it was defined in Step 1. **RadGrid** will create a new control **GridTableView** for each item in the master table. Then **RadGrid** will assign it as a child of the master item. This control will be a copy of the corresponding table - this should be DetailTable(0). So, for example, if you have 3 items in the **MasterTableView** in the second level of the hierarchy, the grid will look like this:
 
-````XML
+````ASP.NET
 	  MasterTableView
 	    + Item(0)
 	        DetailTable0 (copy 0)
@@ -177,7 +177,7 @@ At runtime, when binding the data, **RadGrid** builds the structure of items (gr
 
 In this structure Item(0) is the parent item forDetailTable(0). You can get its instance using the **GridTableView.ParentItem** property, where **GridTableView** is *DetailTable0 (copy 0)*. In our example grid structure there is third level of the hierarchy and each item of the copies of *DetailTable(0)* should have a detail table that is copy of DetailTable(0, 0). For example let's say that the copy of DetailTable(0) with index 0 has 2 items:
 
-````XML
+````ASP.NET
 	  DetailTable0 (copy 0)
 	    + Item(0)
 	        DetailTable(0, 0) (copy 0)

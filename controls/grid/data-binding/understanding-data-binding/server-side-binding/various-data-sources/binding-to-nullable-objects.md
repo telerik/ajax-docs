@@ -64,7 +64,7 @@ public class TestListItem
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As GridNeedDataSourceEventArgs)
     Dim list As New ArrayList
     list.Add(New TestListItem("Item 0", 0))

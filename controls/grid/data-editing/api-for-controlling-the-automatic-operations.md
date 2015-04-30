@@ -16,7 +16,7 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
 	            e.Canceled = True
@@ -70,7 +70,7 @@ Generally you can handle any command, using the **ItemCommandEvent**. The exampl
 
 
 
-````ASPNET
+````ASP.NET
 	
 	  <CommandItemTemplate>
 	      <asp:LinkButton ID="LinkButton1" OnClientClick="javascript:return confirm('Delete all selected customers?')"
@@ -105,7 +105,7 @@ Generally you can handle any command, using the **ItemCommandEvent**. The exampl
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = "DeleteSelected" Then
 	            If RadGrid1.SelectedIndexes.Count = 0 Then

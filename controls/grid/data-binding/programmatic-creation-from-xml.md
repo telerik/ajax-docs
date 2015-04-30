@@ -44,7 +44,7 @@ The following steps describe how to import the structure of a grid:
 >
 
 
-````ASPNET
+````ASP.NET
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -85,7 +85,7 @@ The following steps describe how to import the structure of a grid:
 
 
 
-````ASPNET     
+````ASP.NET     
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
     <foo/>
@@ -115,7 +115,7 @@ public void Page_Init(object sender, EventArgs e)
     PlaceHolder1.Controls.Add(ctrl);
 }	
 ````
-````VB.NET	
+````VB	
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
     Dim MyXPathDocument As XPathDocument = New XPathDocument(Server.MapPath("~/App_Data/XMLFile.xml"))
     Dim MyXslTransform As XslCompiledTransform = New XslCompiledTransform()

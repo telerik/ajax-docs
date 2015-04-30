@@ -27,7 +27,7 @@ Below are the code snippets from the demo referred above:
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" GridLines="None" AutoGenerateColumns="false" PageSize="10"
 	    AllowPaging="true" AllowSorting="true" runat="server" OnItemDataBound="OnItemDataBoundHandler"
 	    DataSourceID="ProductsDataSource" AllowAutomaticUpdates="true" AllowAutomaticInserts="True"
@@ -148,7 +148,7 @@ Below are the code snippets from the demo referred above:
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub OnItemDataBoundHandler(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If e.Item.IsInEditMode Then
 	            Dim item As GridEditableItem = DirectCast(e.Item, GridEditableItem)

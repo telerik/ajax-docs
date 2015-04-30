@@ -71,7 +71,7 @@ The following examples show some possible ways to filter the detail data source.
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
 	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
 	        If parentItem.Edit Then
@@ -108,7 +108,7 @@ The following examples show some possible ways to filter the detail data source.
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
 	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
 	        If parentItem.Edit Then
@@ -146,7 +146,7 @@ The following examples show some possible ways to filter the detail data source.
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
 	        Dim parentItem As GridDataItem = CType(e.DetailTableView.ParentItem, GridDataItem)
 	        If parentItem.Edit Then

@@ -555,7 +555,7 @@ Following is the definition of the **GridSettingsPersister** class along with a 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    ''' <summary>
 	    ''' Imports and exports settings from a RadGrid instance.
 	    ''' </summary>

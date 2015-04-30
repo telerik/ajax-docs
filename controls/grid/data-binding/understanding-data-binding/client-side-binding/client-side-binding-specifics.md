@@ -47,7 +47,7 @@ function pageLoad() {
 
 
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager runat="server" ID="ScriptManager1">
 </asp:ScriptManager>
 <telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false">

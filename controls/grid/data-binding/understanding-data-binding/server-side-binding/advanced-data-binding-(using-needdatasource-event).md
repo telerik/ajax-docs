@@ -97,7 +97,7 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Bindable Property Types]({%slug grid/data-binding/bindable-property-types%})
 

@@ -36,7 +36,7 @@ To achieve this behavior,
 
 The following example shows how the screenshot above was generated:
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server">
 </asp:ScriptManager>
 <strong>Customers:</strong>
@@ -154,7 +154,7 @@ protected void Page_PreRender(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRender
     If RadGrid1.SelectedIndexes.Count = 0 AndAlso RadGrid2.SelectedIndexes.Count = 0 Then
         RadGrid1.SelectedIndexes.Add(0)

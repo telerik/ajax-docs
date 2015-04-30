@@ -28,7 +28,7 @@ The automatic data source operations only work when binding the grid to a [decla
 
 You also need to set the **DataKeyNames** property of the table views in the grid so that the insert, update, and delete operations perform as expected.
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
 	    DataSourceID="SqlDataSource1" AllowAutomaticInserts="True" AllowAutomaticUpdates="True"
 	    AllowAutomaticDeletes="True">
@@ -164,7 +164,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 1. Make the user control class (which represents your user control) implement the *IBindableControl *interface as follows:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
 	    runat="server">
 	    <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
@@ -182,7 +182,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 
 
-````XML
+````ASP.NET
 	  <%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
 	    <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
 	    <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
@@ -203,7 +203,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 
 
-````VB.NET
+````VB
 	    Partial Public Class WebUserControl
 	        Inherits System.Web.UI.UserControl
 	        Implements IBindableControl

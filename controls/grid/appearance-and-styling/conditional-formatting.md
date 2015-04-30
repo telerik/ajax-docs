@@ -41,7 +41,7 @@ The example below shows how to use conditional formatting in a sample mailbox im
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        'Is it a GridDataItem
 	        If (TypeOf (e.Item) Is GridDataItem) Then
@@ -65,7 +65,7 @@ The example below shows how to use conditional formatting in a sample mailbox im
 
 Below is an example which will alter the look and feel for items which has text **Mexico** in their **Country** column:
 
-````XML
+````ASP.NET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 	<style type="text/css">
 	  .MyMexicoRowClass
@@ -94,7 +94,7 @@ And in the code-behind:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridDataItem) Then
 	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)

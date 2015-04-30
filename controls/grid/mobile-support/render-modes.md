@@ -51,6 +51,6 @@ There are two ways to configure the rendering mode of the controls:
 
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug grid/mobile-support/overview%})

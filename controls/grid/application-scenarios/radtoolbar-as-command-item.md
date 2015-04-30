@@ -29,7 +29,7 @@ Below is a code extraction from the relevant online demo in the RadGrid:
 	      }
 	    }
 ````
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid2" AllowAutomaticUpdates="true" AllowAutomaticDeletes="true"
 	    DataSourceID="SqlDataSource1" Width="97%" AllowSorting="True" AutoGenerateColumns="true"
 	    AllowPaging="True" GridLines="None" runat="server" ShowFooter="True" AllowMultiRowSelection="True"
@@ -98,7 +98,7 @@ Below is a code extraction from the relevant online demo in the RadGrid:
 	        e.ExceptionHandled = true;
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As GridDeletedEventArgs)
 	        e.ExceptionHandled = True
 	    End Sub

@@ -37,6 +37,6 @@ You can enable keyboard navigation in the **RadGrid** control by setting the **C
 
 ![Arrowkey Navigation ](images/grd_KeyboardNavigation1.png)
 
-# See Also
+## See Also
 
  * [Cancel Enter and Arrow Key Press ]({%slug grid/accessibility-and-internationalization/how-to/cancel-enter-and-arrow-key-press-%})

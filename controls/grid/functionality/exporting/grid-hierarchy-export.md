@@ -91,7 +91,7 @@ private void ClearExpandedChildren(string parentHierarchicalIndex)
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
     'save the expanded/selected state in the session
     If e.CommandName = RadGrid.ExpandCollapseCommandName Then

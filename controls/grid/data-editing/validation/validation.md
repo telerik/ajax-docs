@@ -44,7 +44,7 @@ The **ColumnValidationSettings** property is used to control validation of a giv
 
 The properties can be set either declaratively or programmatically:
 
-````ASPNET
+````ASP.NET
 	    <telerik:GridBoundColumn DataField="ShipName" HeaderText="ShipName" UniqueName="ShipName">
 	       <ColumnValidationSettings EnableRequiredFieldValidation="true" EnableModelErrorMessageValidation="true">
 	           <RequiredFieldValidator ForeColor="Red" ErrorMessage="This field is required"></RequiredFieldValidator>
@@ -75,7 +75,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
 	    <MasterTableView>
 	      <Columns>
@@ -104,7 +104,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
 	            Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
@@ -125,7 +125,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
 	    <MasterTableView>
 	      <Columns>
@@ -154,7 +154,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
 	            Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
@@ -174,7 +174,7 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 The approach is the same as with the standard MS DataGrid control. You can place the respective validator in the **EditItemTemplate** of your **GridTemplateColumn** and relate its **ControlToValidate** property with the ID of the control you would like to validate. In the forthcoming sample the **RequiredFieldValidator** control will validate the **TextBox** control inside the **EditItemTemplate**:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="False">
 	      <Columns>
@@ -201,7 +201,7 @@ The approach is the same as with the standard MS DataGrid control. You can place
 
 
 
-````ASPNET
+````ASP.NET
 	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("DataItem.Country") %>'>
 	  </asp:TextBox>
 	  <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="Invalid input"
@@ -229,7 +229,7 @@ The approach is the same as with the standard MS DataGrid control. You can place
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub CustomValidator1_ServerValidate(ByVal [source] As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
 	        If args.Value.StartsWith("X") Then
 	            args.IsValid = False

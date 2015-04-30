@@ -73,7 +73,7 @@ gridGroupByField.FieldName = "EmployeeID";
 expression.GroupByFields.Add(gridGroupByField);
 tableViewOrders.GroupByExpressions.Add(expression);
 ````
-````VB.NET
+````VB
 Dim expression As GridGroupByExpression = New GridGroupByExpression
 Dim gridGroupByField As GridGroupByField = New GridGroupByField
 'SelectFields values (appear in header)

@@ -115,7 +115,7 @@ Below follows and example of group header and footer templates usage.
     <GroupingSettings ShowUnGroupButton="true" />
 </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 <telerik:RadGrid ID="RadGrid1" ShowGroupPanel="true" AutoGenerateColumns="false"
     DataSourceID="SqlDataSource1" ShowFooter="True" runat="server" GridLines="None"
     AllowPaging="true" PageSize="7" Skin="Office2007" OnPreRender="RadGrid1_PreRender">
@@ -283,7 +283,7 @@ private void ColorHeaderLabels(GridGroupHeaderItem item, Color col)
     (item.FindControl("Label4") as Label).ForeColor = col;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
     For Each item As GridGroupFooterItem In RadGrid1.MasterTableView.GetItems(GridItemType.GroupFooter)
         'set the colspan, so that the template cells are aligned with the grid columns

@@ -25,7 +25,7 @@ You can use a wide variety of custom objects as data sources for **RadGrid**. Th
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
     GridLines="None" PageSize="10">
     <MasterTableView AutoGenerateColumns="true">
@@ -48,7 +48,7 @@ protected void RadGrid1_NeedDataSource1(object source, Telerik.Web.UI.GridNeedDa
     RadGrid1.DataSource = list;
 }
 ````
-````VB.NET
+````VB
 Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As GridNeedDataSourceEventArgs)
     Dim list As New ArrayList
     list.Add("string1")

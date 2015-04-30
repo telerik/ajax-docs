@@ -26,7 +26,7 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 
 
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadScriptManager ID="ScriptManager1" runat="server" />
 	        <telerik:RadCodeBlock runat="server" ID="RadCodeBlock1">
 	
@@ -168,7 +168,7 @@ Finally, configure the ajax manager settings in order to refresh the grid and th
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        If RadGrid1.EditIndexes.Count > 0 OrElse RadGrid1.MasterTableView.IsItemInserted Then
 	            Dim col1 As GridColumn = TryCast(RadGrid1.MasterTableView.GetColumn("EditCommandColumn"), GridColumn)

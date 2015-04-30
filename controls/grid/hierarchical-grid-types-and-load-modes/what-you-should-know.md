@@ -38,7 +38,7 @@ The new expand-all functionality supports all hierarchy load modes.
 
 When you have grouping and hierarchy combined in a common table view, the visibility of the hierarchy expand-all button depends on whether the expand-all button for the last group level is expanded/visible.
 
-# See Also
+## See Also
 
  * [Hierarchical data-binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
 

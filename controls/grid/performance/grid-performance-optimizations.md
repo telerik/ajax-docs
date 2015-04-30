@@ -62,7 +62,7 @@ When you present large number of records at once you will see delays in the grid
 
 1. If you have Grouping functinality enabled you could set the groups to be load on the client computer.[This]( http://demos.telerik.com/aspnet-ajax/grid/examples/groupby/grouploadmodeclient/defaultcs.aspx	)is the demo applciation that illustrate this feature.
 
-# See Also[](E20C1BC2-0E5F-47A9-A8A7-6EA3FD49F2F2)
+## See Also[](E20C1BC2-0E5F-47A9-A8A7-6EA3FD49F2F2)
 
  * [UI for ASP.NET Ajax(Performance section)](http://www.telerik.com/support/aspnet-ajax.aspx)
 

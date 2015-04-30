@@ -40,7 +40,7 @@ There are cases in which you may want to identify to which level of the hierarch
 	
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
 	        If (e.Item.OwnerTableView.DataMember = "MyDataMember") Then
@@ -82,7 +82,7 @@ There are cases in which you may want to identify to which level of the hierarch
 	
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
 	        If (e.Item.OwnerTableView.DataSourceID = "MyDataSourceID") Then
@@ -122,7 +122,7 @@ There are cases in which you may want to identify to which level of the hierarch
 	
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'identify to which table belongs the currently bound item
 	        If (e.Item.OwnerTableView.Name = "MyUniqueTableName") Then

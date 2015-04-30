@@ -80,7 +80,7 @@ protected void PopulateGrid1OnPageInit()
       //runtime column definitions
 }       
 ````
-````VB.NET
+````VB
 Public Class NoRecordsTemplate
     Implements ITemplate
 

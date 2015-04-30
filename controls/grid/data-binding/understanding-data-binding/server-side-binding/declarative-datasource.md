@@ -30,7 +30,7 @@ Before binding the **RadGrid** control, you need to create a separate **DataSour
 
 The data source controls for detail tables must use parameters to select only those records appropriate to a specific record of the parent table. The following example shows how this is done:
 
-````ASPNET
+````ASP.NET
 <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
   ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers" runat="server">
 </asp:SqlDataSource>
@@ -110,7 +110,7 @@ For each field that links the detail table to its parent, you must add a **GridR
 
 The following declaration is the result of following the steps listed above:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="SqlDataSource1">
     <DetailTables>

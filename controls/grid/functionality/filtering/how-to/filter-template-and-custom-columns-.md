@@ -22,7 +22,7 @@ Filtering is automatically supported for **Template** columns.To allow filtering
 
 * Set the **DataField** property of the template column to the field you want to use for filtering.
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country">
     <HeaderStyle Width="30%" />
     <ItemTemplate>
@@ -38,7 +38,7 @@ If you would like to support filtering for GridTemplateColumns programmatically 
 
 Here is how this can be done with column which extends GridTemplateColumn:
 
-````ASPNET
+````ASP.NET
 <%@ Register TagPrefix="custom" Namespace="<MyApplicationNamespace>" Assembly="<MyApplicationAssembly>" %>
 <telerik:RadGrid ID="RadGrid1" AllowPaging="True" AutoGenerateColumns="False" AllowFilteringByColumn="True"
    runat="server">
@@ -109,7 +109,7 @@ public class MyCustomFilteringColumn : GridTemplateColumn
 
 }
 ````
-````VB.NET
+````VB
 Public Class MyCustomFilteringColumn
     Inherits GridTemplateColumn
 

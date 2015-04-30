@@ -24,7 +24,7 @@ In a **RadGrid** control with scrolling enabled, you can modify the default grid
 
 The following example illustrates this technique:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
   function GridCreated(sender, args) {
     var scrollArea = sender.GridDataDiv;

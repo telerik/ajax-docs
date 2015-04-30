@@ -180,7 +180,7 @@ In numerous cases you may want to perform data editing operations at database le
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Public Shared dtTable As DataTable
 	    'Get the connectionstring from the webconfig and declare a global SqlConnection "SqlConnection"
 	    Public Shared connectionString As String = ConfigurationManager.AppSettings("ConnectionString")

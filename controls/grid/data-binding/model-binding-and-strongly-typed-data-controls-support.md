@@ -31,7 +31,7 @@ When template fields are used into the Telerik data bound controls for customizi
 
 When we perform two-way data-binding the Bind() method is used:
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" 
    DataField="CategoryID" SortExpression="CategoryID">
    <EditItemTemplate>
@@ -52,7 +52,7 @@ On the other side the .NET 4.5 provides ability to enable strongly-typed data te
 
 For example the code snippet above could be rewritten as:
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn HeaderText="Category"  UniqueName="CategoryID" 
 DataField="CategoryID" SortExpression="CategoryID">
                         <ItemTemplate>
@@ -78,7 +78,7 @@ The developers could use these variables in data-binding expressions and to get 
 
 To bind databound UI controls via ModelBinding you need to set only the SelectMethod property to the name of the public method placed into the page's code-behind file:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" GridLines="None" runat="server" AllowSorting="true" PageSize="10" AllowPaging="True" SelectMethod="GetProducts"
             AutoGenerateColumns="False">
 ````
@@ -258,7 +258,7 @@ public void InsertProduct(Product p)
 
 To show any validation errors you could use asp:ValidationSummary control or asp:ModelErrorMessage:
 
-````ASPNET
+````ASP.NET
 <asp:ValidationSummary runat="server" ID="ValidationSummary1" />
 ````
 

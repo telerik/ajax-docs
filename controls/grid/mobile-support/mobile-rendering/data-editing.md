@@ -27,4 +27,4 @@ We are completely aware that there will be cases when native controls could not 
 
 The second approach is more general and will disable the rendering of native editors for the entire web site. You could achieve this by setting a **UseGridNativeEditorsInMobileMode** option in the **web.config** file to "**false**".
 
-# See Also
+## See Also

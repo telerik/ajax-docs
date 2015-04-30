@@ -38,7 +38,7 @@ The following steps walk you through the entire process of creating an Excel doc
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets.Add();
 ````
-````VB.NET
+````VB
 Dim workbook As New Workbook()
 Dim worksheet As Worksheet = workbook.Worksheets.Add()
 ````
@@ -56,7 +56,7 @@ private GridItemType[] supportedItemTypes = new GridItemType[]
         GridItemType.Item 
     };
 ````
-````VB.NET
+````VB
 Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
 
@@ -78,7 +78,7 @@ foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
     currentRow++;
 }
 ````
-````VB.NET
+````VB
 For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 Dim currentColumn As Integer = 0
     For Each cell As System.Web.UI.WebControls.TableCell In item.Cells
@@ -106,7 +106,7 @@ using (FileStream fs = new FileStream(excelFile, FileMode.Create))
     provider.Export(worksheet.Workbook, fs);
 }
 ````
-````VB.NET
+````VB
 Dim excelFile As String = Server.MapPath("~/ExcelFile.xlsx")
 Using fs As New FileStream(excelFile, FileMode.Create)
 Dim provider As New XlsxFormatProvider()
@@ -119,7 +119,7 @@ After following these steps you will get the following example that presents exp
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button Text="Export to excel" ID="ExportToExcel" OnClick="ExportToExcel_Click" runat="server" />
@@ -188,7 +188,7 @@ protected void ExportToExcel_Click(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
@@ -256,7 +256,7 @@ RadFlowDocument flowDoc = new RadFlowDocument();
 Section section = flowDoc.Sections.AddSection();
 Table table = section.Blocks.AddTable();
 ````
-````VB.NET
+````VB
 Dim flowDoc As New RadFlowDocument()
 Dim section As Section = flowDoc.Sections.AddSection()
 Dim table As Table = section.Blocks.AddTable()
@@ -275,7 +275,7 @@ private GridItemType[] supportedItemTypes = new GridItemType[]
         GridItemType.Item 
     };
 ````
-````VB.NET
+````VB
 Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 ````
 
@@ -297,7 +297,7 @@ foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
         }
     }
 ````
-````VB.NET
+````VB
 For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 Dim wordRow As Telerik.Windows.Documents.Flow.Model.TableRow = Nothing
     wordRow = table.Rows.AddTableRow()
@@ -326,7 +326,7 @@ using (FileStream fs = new FileStream(wordFile, FileMode.Create))
     provider.Export(table.Document, fs);
 }
 ````
-````VB.NET
+````VB
 Dim wordFile As String = Server.MapPath("~/WordFile.docx")
 Using fs As New FileStream(wordFile, FileMode.Create)
 Dim provider As New DocxFormatProvider()
@@ -339,7 +339,7 @@ After following these steps you will get the following example that presents exp
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button Text="Export to word" ID="Button1" OnClick="ExportToWord_Click" runat="server" />
@@ -409,7 +409,7 @@ protected void ExportToWord_Click(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
 
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
@@ -457,6 +457,6 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Included assemblies](http://www.telerik.com/help/aspnet-ajax/introduction-included-assemblies.html)

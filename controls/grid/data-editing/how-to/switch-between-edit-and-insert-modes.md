@@ -34,7 +34,7 @@ This is extended version of the previous case.Here is the new part:You click "Ad
 	        }
 	    } 
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        Dim grid As RadGrid = CType(source, RadGrid)
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then

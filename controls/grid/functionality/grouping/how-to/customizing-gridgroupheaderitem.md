@@ -26,7 +26,7 @@ The following example illustrates how you can customize the formatting of the gr
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
   <MasterTableView DataSourceID="SqlDataSource1">
     <GroupByExpressions>
@@ -57,7 +57,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridGroupHeaderItem Then
         Dim item As GridGroupHeaderItem = CType(e.Item, GridGroupHeaderItem)

@@ -36,7 +36,7 @@ The following example shows a grid with a self-referencing hierarchy based on a 
 
 In the ASPX file, the grid declaration does not need to include any detail tables. The **MasterTableView** includes a **SelfHierarchySettings** section to describe the data relationships and a **DataKeyNames** property that lists the relevant fields:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
 	    OnItemCreated="RadGrid1_ItemCreated">
 	    <MasterTableView AllowSorting="true" DataKeyNames="ID, ParentID" Width="100%">
@@ -66,7 +66,7 @@ The **Page_Load** event handler filters out all but the root element in the **Ma
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Public Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	        If RadGrid1.EnableLinqExpressions Then
 	            RadGrid1.MasterTableView.FilterExpression = "(Convert.ToInt32(iif(it[""ParentID""]==Convert.DBNull,null,it[""ParentID""])) = 0)"
@@ -102,7 +102,7 @@ The next step is to bind the **RadGrid** to data in the **NeedDataSource**event 
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        RadGrid1.DataSource = GetDataTable("SELECT ID, Name, ParentID FROM SelfReferencing")
 	    End Sub
@@ -131,7 +131,7 @@ By design the **RadGrid**does not support a self-referencing hierarchy bound to 
 
 The first step is to set a **RadGrid.DataSourceID** to the datasource control:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnColumnCreated="RadGrid1_ColumnCreated"
 	        OnItemCreated="RadGrid1_ItemCreated" OnItemDataBound="RadGrid1_ItemDataBound">
 	        <MasterTableView HierarchyDefaultExpanded="true" HierarchyLoadMode="Client" AllowSorting="true"
@@ -166,7 +166,7 @@ Then apply **FilterExpression**in the **Page_Load** event handler.
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Public Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 	        If RadGrid1.EnableLinqExpressions Then
 	            RadGrid1.MasterTableView.FilterExpression = "it[""ReportsTo""] = Convert.DBNull"
@@ -245,7 +245,7 @@ Next step is to hide the default expand/collapse column and include button contr
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
 	        If TypeOf e.Column Is GridExpandColumn Then
 	            e.Column.Visible = False
@@ -337,7 +337,7 @@ Finally, as a polishing touch, an event handler for the **Page.PreRenderComplete
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Public Sub Page_PreRenderComplete(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.PreRenderComplete
 	        HideExpandColumnRecursive(RadGrid1.MasterTableView)
 	    End Sub
@@ -382,7 +382,7 @@ If you want to display the header of the master table, but hide the headers on d
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridHeaderItem AndAlso (Not e.Item.OwnerTableView Is RadGrid1.MasterTableView)) Then
 	            e.Item.Style("display") = "none"

@@ -30,7 +30,7 @@ You can disable the **GridGroupSplitterColumn** so that users can't collapse the
 
 Note that if the **GroupSplitterColumn** cells have side paddings (and they do when using embedded skins), you need to remove those paddings, otherwise the column cells will remain visible in *IE7* and below. One way to remove the paddings is to use **HeaderStyle-CssClass** and **ItemStyle-CssClass**, or (if using *RadGrid 2009.1+*) to use the native *CSS* class for the **GroupSplitterColumn** cells (note that a custom *CSS* class for the *RadGrid* is used, otherwise you will remove the paddings from all *RadGrids* on the page (or website):
 
-````ASPNET
+````ASP.NET
 .rgGroupCol
 { 
     padding-left: 0 !important; 
@@ -57,7 +57,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
     If TypeOf e.Column Is GridGroupSplitterColumn Then
         e.Column.HeaderStyle.Width = Unit.Pixel(1)
@@ -100,7 +100,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridGroupHeaderItem Then
         Dim item As GridGroupHeaderItem = CType(e.Item, GridGroupHeaderItem)

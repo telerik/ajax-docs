@@ -26,7 +26,7 @@ Below is a simple example which changes the text and some of the styles for thos
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
 	    Skin="Office2007" GridLines="None" Width="95%">
 	    <MasterTableView Width="100%" DataKeyNames="CustomerID" CommandItemDisplay="Top"
@@ -43,7 +43,7 @@ Below is a simple example which changes the text and some of the styles for thos
 	     SelectCommand="SELECT * FROM [Customers]">
 	  </asp:SqlDataSource> 
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
 	            If Not e.Item.OwnerTableView.IsItemInserted Then

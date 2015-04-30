@@ -16,7 +16,7 @@ position: 7
 
 Under .NET 2.x/3.x framework you can use the newly introduced **Bind**() syntax to perform two-way binding (to and from the underlying database):
 
-````ASPNET
+````ASP.NET
 	  <EditItemTemplate>
 	      <asp:TextBox id="TextBox1" runat="server" text='<%# Bind("Country") %>'>
 	      </asp:TextBox>

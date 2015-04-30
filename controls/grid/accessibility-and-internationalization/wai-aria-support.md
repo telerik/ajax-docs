@@ -31,7 +31,7 @@ RadGrid ARIA attributes are **lower case**. They are shown in the table below.
 >
 
 
-# See Also
+## See Also
 
  * [This functionality online](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/waiariasupport/defaultcs.aspx)
 

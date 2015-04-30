@@ -55,7 +55,7 @@ When RadGrid performs CRUD operations **ItemCommand, InsertCommand, DeleteComman
 	        string newFirstName = newValues["FirstName"].ToString();
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs)
 	        Dim argument As GridBatchEditingEventArgument = TryCast(e.CommandArgument, GridBatchEditingEventArgument)
 	        Dim oldValues As Hashtable = argument.OldValues
@@ -80,7 +80,7 @@ Additionally, if you want more control over all commands that are executed you c
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_BatchEditCommand(sender As Object, e As GridBatchEditingEventArgs)
 	        For Each command As GridBatchEditingCommand In e.Commands
 	            Dim newValues As Hashtable = command.NewValues
@@ -110,7 +110,7 @@ Another key element of the batch editing mode is the use of only one editor for 
 
 
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid2" runat="server" OnPreRender="RadGrid1_PreRender" DataSourceID="SqlDataSource1">
 	            <MasterTableView EditMode="Batch">
 	                <Columns>
@@ -138,7 +138,7 @@ Another key element of the batch editing mode is the use of only one editor for 
 	        Panel batchEditingContainer = masterTable.GetBatchEditorContainer("CategoryID") as Panel;
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
 	        Dim masterTable As GridTableView = TryCast(sender, RadGrid).MasterTableView
 	        Dim productNameColumn As GridColumn = TryCast(masterTable.GetColumnSafe("ProductName"), GridColumn)
@@ -199,7 +199,7 @@ When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGri
 >
 
 
-````ASPNET
+````ASP.NET
 	    <div class="container">
 	        <span>Header text</span>
 	        <table>
@@ -236,7 +236,7 @@ If you want to include a custom object as a value both **equals** (A function de
 
 The template column declaration
 
-````ASPNET
+````ASP.NET
 	        <ClientSettings>
 	            <ClientEvents OnBatchEditGetCellValue="GetCellValue" OnBatchEditGetEditorValue="GetEditorValue"
 	                OnBatchEditSetCellValue="SetCellValue" OnBatchEditSetEditorValue="SetEditorValue" />
@@ -272,7 +272,7 @@ The custom Person JavaScript object with equals and toString functions implement
 
 The subscription of the events
 
-````ASPNET
+````ASP.NET
 	                <telerik:GridTemplateColumn HeaderText="Name" UniqueName="FirstLastName">
 	                    <HeaderStyle Width="250px" />
 	                    <ItemTemplate>
@@ -350,6 +350,6 @@ The events implementation
 
 Batch editing functionality supports validation by either using the **ColumnValidationSettings** ordeclaring a **GridTemplateColumn** and placing a validator in the template. Note that saving the changes or	opening other cells\rows for edit will be prevented when there is a validator that is not valid.
 
-# See Also
+## See Also
 
  * [RadGrid Batch editing demo](http://demos.telerik.com/aspnet-ajax/grid/examples/data-editing/batch-editing/defaultcs.aspx)

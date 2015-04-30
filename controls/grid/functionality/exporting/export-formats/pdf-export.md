@@ -66,7 +66,7 @@ This help article discuss different techniques which allow you to modify **RadGr
 |PageBottomMargin / PageTopMargin / PageLeftMargin / PageRightMargin / PageFooterMargin / PageHeaderMargin|All the page margins could be controlled via these settings.|
 |UserPassword|Used to set a password and enable password protection for the exported file (introduced in UI for ASP.NET AJAX Q1 2010 SP2)|
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
   <Pdf PageTitle="My Page" PaperSize="A4" />
 </ExportSettings>
@@ -109,7 +109,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
         e.Item.Style["background-color"] = "#888888";
 }
 ````
-````VB.NET	
+````VB	
 Private isExport As Boolean = FalseProtected
 Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
     isExport = True
@@ -135,7 +135,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToPdf();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
     For Each item As GridDataItem In RadGrid1.Items
         item.Style("background-color") = "#888888"
@@ -162,7 +162,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToPdf();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click()
     RadGrid1.MasterTableView.GetColumn("C2").Visible = False
     RadGrid1.MasterTableView.ExportToPdf()
@@ -189,7 +189,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
         RadGrid1.MasterTableView.Items[2].Visible = false;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
     If e.CommandName = RadGrid.ExportToPdfCommandName Then
         RadGrid1.MasterTableView.Items(2).Visible = False
@@ -207,7 +207,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToPdf();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     RadGrid1.MasterTableView.Items(2).Visible = False
     RadGrid1.MasterTableView.ExportToPdf()
@@ -232,7 +232,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
         e.Item.Visible = false;
 }
 ````
-````VB.NET
+````VB
 Private isPdfExport As Boolean = FalseProtected
 Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
     If e.CommandName = RadGrid.ExportToPdfCommandName Then
@@ -266,7 +266,7 @@ You can disable the *RadGrid* borders by settings the *BorderStyle* or *GridLine
 ````C#
 RadGrid1.BorderStyle = BorderStyle.None;
 ````
-````VB.NET
+````VB
 RadGrid1.BorderStyle = BorderStyle.None
 ````
 
@@ -278,7 +278,7 @@ If you apply the same approach to the *MasterTableView* (or other *GridTableView
 ````C#
 RadGrid1.MasterTableView.BorderStyle = BorderStyle.None;
 ````
-````VB.NET
+````VB
 RadGrid1.MasterTableView.BorderStyle = BorderStyle.None
 ````
 
@@ -289,7 +289,7 @@ RadGrid1.MasterTableView.BorderStyle = BorderStyle.None
 
 The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Pdf DefaultFontFamily="Arial Unicode MS" />
 </ExportSettings>
@@ -304,7 +304,7 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````C#
 item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
 ````
-````VB.NET
+````VB
 item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
 
@@ -319,7 +319,7 @@ There are a few rules that should be followed when exporting *HTML* tables to *P
 
 * Width in **pixels** (or another *absolute* units) should be set to the table
 
-````ASPNET
+````ASP.NET
 <table width="300px">
   <colgroup>
     <col />
@@ -354,7 +354,7 @@ You can use the following approach if you need to set a background image to your
 
 There are two ways to resize the columns - declarative (in the markup) and programmatic (in code-behind). The first one involves the *HeaderStyle* property:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="ID">
   <HeaderStyle width="20px" />
 </telerik:GridBoundColumn>
@@ -373,7 +373,7 @@ protected void Page_PreRender(object o, EventArgs e)
     column.HeaderStyle.Width = Unit.Pixel(300);
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_PreRender(ByVal o As Object, ByVal e As EventArgs)
     Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("MyColumnName")
     column.HeaderStyle.Width = Unit.Pixel(300)
@@ -395,7 +395,7 @@ In *RadControls for ASP.NET AJAX Q3 2009 Beta* we introduced the possibility to 
 
 The page-breaking tag is **<?hard-pagebreak?>**
 
-````ASPNET
+````ASP.NET
 <columns>    
   <telerik:GridTemplateColumn>        
     <ItemTemplate>
@@ -420,7 +420,7 @@ From Q2 2013 PDF export supports header and footer. PageHeader element holds the
 >
 
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Pdf>
         <PageHeader>
@@ -450,7 +450,7 @@ From SP1 2013 Q2 we introduce a new property named **ContentFilter** which gives
 
 * **Flate** - deflate compression method; binary representation
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Pdf ContentFilter="Ascii85"></Pdf>
 </ExportSettings>
@@ -462,7 +462,7 @@ From SP1 2013 Q2 we introduce a new property named **ContentFilter** which gives
 
 The PDF file generated by RadGrid has the content encryption enabled by default. This functionality is normally used forobfuscating the content especially when there is a UserPassword specified in the PDF settings. When the encryption isdisabled, the password will not have an effect. It is important to note that if FIPS validation is enforced the encryption is automatically disabled and can't be used. By default the content encryption is disabled.
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Pdf DisableContentEncryption="True"> </Pdf>
 </ExportSettings>
@@ -474,7 +474,7 @@ The PDF file generated by RadGrid has the content encryption enabled by default.
 
 Until now, the overflowing text was carried over the next lines only when there are whitespace characters inside. With the newly introduced **ForceTextWrap** property it is now possible to force the text wrapping evenwhen there are no whitespaces or separator characters. It is important to note that the forced mode will make the file size larger.
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Pdf ForceTextWrap="True"> </Pdf>
 </ExportSettings>
@@ -574,7 +574,7 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 
 The reason for this exception is that the number of col elements is the colgroup is not equal to the maximum number of cells per row. Put simply, if you have a table with two columns, you should put two col elements.
 
-````ASPNET
+````ASP.NET
 <a href="#">text</a>
 <%--ERROR--%>
 

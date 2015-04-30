@@ -57,7 +57,7 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
 	        If (e.CommandName = RadGrid.UpdateCommandName) Then
 	            If (e.Item = GridEditableItem) Then
@@ -122,7 +122,7 @@ If you have **GridTemplateColumn** inside the grid and want to obtain its origin
 	
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
 	        RadGrid1.Controls.Add(New LiteralControl("Saved old value for the City editor is: " & CType(Session("savedOldValue"), String)))
 	    End Sub

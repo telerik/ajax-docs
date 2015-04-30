@@ -33,7 +33,7 @@ The following example illustrates this technique:
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
   PageSize="25" AllowFilteringByColumn="true">
   <MasterTableView AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="99%">

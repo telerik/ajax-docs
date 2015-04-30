@@ -53,6 +53,6 @@ This method allows you to hide а grid's column. The method accept one parameter
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})

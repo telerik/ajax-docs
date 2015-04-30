@@ -30,7 +30,7 @@ The following examples illustrate this difference.
 
 ## Defaults set in RadGrid
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
   PageSize="2">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">
@@ -59,7 +59,7 @@ The following examples illustrate this difference.
 
 ## Properties set in MasterTableView
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto"
     AllowPaging="True" PageSize="2">
@@ -86,7 +86,7 @@ The following examples illustrate this difference.
 
 ## Defaults set in RadGrid with overrides by detail table
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" AllowPaging="True"
   PageSize="2">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1" TableLayout="Auto">

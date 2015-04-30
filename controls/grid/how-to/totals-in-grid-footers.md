@@ -45,7 +45,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
 
 For further details please refer to [this online demo](http://demos.telerik.com/aspnet-ajax//Grid/Examples/GeneralFeatures/Aggregates/DefaultCS.aspx) of the product. Find a code extraction below:
 
-````ASPNET
+````ASP.NET
 	  <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	    <AjaxSettings>
@@ -118,7 +118,7 @@ See the forthcoming implementation for further info (**Quantity** is integer fie
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="False" ShowFooter="True">
 	      <HeaderStyle BackColor="#33ffff"></HeaderStyle>
@@ -146,7 +146,7 @@ See the forthcoming implementation for further info (**Quantity** is integer fie
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Dim total As Integer
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
@@ -178,7 +178,7 @@ Below are the code snippets of a sample approach (note that with other type of d
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="500px" Skin="Grey">
 	    <MasterTableView AutoGenerateColumns="False" ShowFooter="True" AllowPaging="true">
 	      <FooterStyle BackColor="#cc6633"></FooterStyle>
@@ -242,7 +242,7 @@ Below are the code snippets of a sample approach (note that with other type of d
 	        return table1;
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Dim total As Integer
 	    Dim grandTotal As Integer
@@ -299,7 +299,7 @@ The forthcoming code snippets will render two rows in the table footer which wil
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource2" AllowSorting="True"
 	    Skin="Office2007" runat="server" GridLines="None" Width="600px" AllowPaging="true"
 	    AllowFilteringByColumn="true" OnItemDataBound="RadGrid1_ItemDataBound" OnColumnCreated="RadGrid1_ColumnCreated">
@@ -366,7 +366,7 @@ The forthcoming code snippets will render two rows in the table footer which wil
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private totalPrice As Double = 0
 	    Private totalUnits As Double = 0
 	
@@ -424,7 +424,7 @@ Sometimes, it may be necessary to calculate the sum for a particular column once
 
 Below is the declaration of the grid, which contains a template column, with textboxes for the normal items, and the footer template:
 
-````ASPNET
+````ASP.NET
 	  <form id="form1" runat="server">
 	  <telerik:RadGrid ShowFooter="true" ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1"
 	    GridLines="None" OnPreRender="RadGrid1_PreRender" OnItemDataBound="RadGrid1_ItemDataBound">
@@ -489,7 +489,7 @@ This particular implementation calculates the values for the footer textbox once
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Public Class _Default
 	        Inherits System.Web.UI.Page

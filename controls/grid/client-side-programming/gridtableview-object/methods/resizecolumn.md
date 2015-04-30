@@ -54,7 +54,7 @@ This method allows you to resize a column of the **RadGrid**. The method accepts
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})
 

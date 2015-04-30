@@ -109,7 +109,7 @@ Below is the code of a simple demo with two level hierarchy:
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	        HideExpandColumnRecursive(RadGrid1.MasterTableView)
 	    End Sub

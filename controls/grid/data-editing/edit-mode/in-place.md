@@ -14,7 +14,7 @@ position: 0
 
 To display the grid column editors inline when the grid switches into edit mode, change the table view's **EditMode** property to "InPlace".
 
-````ASPNET
+````ASP.NET
 	<telerik:RadGrid
 	   ID="RadGrid1" runat="server"
 	   DataSourceID="SqlDataSource1"
@@ -60,7 +60,7 @@ When **InPlace** editing is applied, the grid row is of type **GridDataItem** in
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
 	            'the item is in edit mode   
@@ -96,7 +96,7 @@ To determine whether edit or insert operation is in progress inside the ItemCrea
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated

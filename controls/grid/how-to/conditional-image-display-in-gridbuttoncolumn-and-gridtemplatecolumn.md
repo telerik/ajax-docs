@@ -56,7 +56,7 @@ Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueName
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
 	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)

@@ -198,7 +198,7 @@ object ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd)
 }
 } 		
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.ComponentModel
 Imports System.Web.UI
@@ -412,7 +412,7 @@ internal class AggregatedObjectPropertyDescriptor : PropertyDescriptor
 }
 } 	
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.ComponentModel
 Imports System.Web.UI
@@ -598,7 +598,7 @@ protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDat
         }
     }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
     RadGrid1.DataSource = GetData()
 End Sub

@@ -103,7 +103,7 @@ There is one more method - **toOql()** for filter expressions which can be used 
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	
 	    Public Function GetData(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As IList

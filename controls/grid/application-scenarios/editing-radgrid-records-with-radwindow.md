@@ -79,7 +79,7 @@ Depending on the edit operation, **RadGrid** uses a different mechanism for laun
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	    <AjaxSettings>
 	      <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
@@ -159,7 +159,7 @@ Depending on the edit operation, **RadGrid** uses a different mechanism for laun
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridDataItem Then
 	            Dim editLink As HyperLink = DirectCast(e.Item.FindControl("EditLink"), HyperLink)
@@ -184,7 +184,7 @@ Depending on the edit operation, **RadGrid** uses a different mechanism for laun
 
 
 
-````ASPNET
+````ASP.NET
 	  <script type="text/javascript">    function CloseAndRebind(args) {
 	      GetRadWindow().Close();
 	      GetRadWindow().BrowserWindow.refreshGrid(args);
@@ -261,7 +261,7 @@ Depending on the edit operation, **RadGrid** uses a different mechanism for laun
 
 
 
-````VB.NET
+````VB
 	    Protected Sub DetailsView1_ItemCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.DetailsViewCommandEventArgs) Handles DetailsView1.ItemCommand
 	        If (e.CommandName = "Update") Then
 	            ClientScript.RegisterStartupScript(Page.GetType(), "mykey", "CloseAndRebind();", True)

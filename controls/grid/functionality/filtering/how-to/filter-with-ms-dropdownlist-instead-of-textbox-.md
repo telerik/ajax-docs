@@ -101,7 +101,7 @@ public class MyCustomFilteringColumn : GridBoundColumn
     }
 }
 ````
-````VB.NET
+````VB
 Imports Microsoft.VisualBasic
 Imports Telerik.Web.UI
 Imports System.Collections
@@ -182,7 +182,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 1. At the top of the the ASPX page, register the namespace for the custom column class. You do not need to add an Assembly attribute, unless the class is defined in another assembly:
 
-````ASPNET
+````ASP.NET
 <%@ register namespace="MyStuff" tagprefix="custom" %>
 ````
 
@@ -190,7 +190,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 1. You can now add instances of the column type in the declaration of your grid. Note that this example includes a command item with a "Clear" button to clear the selected filters:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid
    ID="RadGrid1" runat="server"
    AllowFilteringByColumn="True"
@@ -280,7 +280,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     For Each column As GridBoundColumn In RadGrid1.MasterTableView.Columns
         If TypeOf column Is MyStuff.MyCustomFilteringColumn Then

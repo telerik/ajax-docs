@@ -43,7 +43,7 @@ There is no default event for editor changes in grid columns - it is up to the d
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
 	            Dim list As DropDownList =

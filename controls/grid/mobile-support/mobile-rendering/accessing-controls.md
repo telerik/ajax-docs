@@ -75,7 +75,7 @@ The following examples demonstrate how to get reference to **native** column edi
 		}
 		
 ````
-````VB.NET
+````VB
 	Protected Sub RadGrid1_ItemCreated(sender As Object, e As GridItemEventArgs)
 		If TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode Then
 			Dim item As GridEditFormItem = TryCast(e.Item, GridEditFormItem)
@@ -103,7 +103,7 @@ The following examples demonstrate how to get reference to **native** column edi
 
 When you want to render the standard editors for a column and you are setting the	**UseNativeEditorsInMobileMode** property of a **GridEditableColumn**to "**false**", each column from the above example will render editors	corresponding to the column type (*for example, the GridNumericColumn will have a RadNumericTextBox as an editor, the GridDateTimeColumn will have RadDatePicker, etc.*).
 
-# See Also
+## See Also
 
  * [Mobile rendering Overview]({%slug grid/mobile-support/mobile-rendering/overview%})
 

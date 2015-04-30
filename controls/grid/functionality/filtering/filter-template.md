@@ -18,7 +18,7 @@ Together with its general filtering capabilities, RadGrid offers a very interest
 
 The definition of a filter template for a template column would look like this:
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn DataField="CompanyName" HeaderText="TemplateCompanyName">
   <FilterTemplate>
     filter template declaration goes here</FilterTemplate>
@@ -29,7 +29,7 @@ The definition of a filter template for a template column would look like this:
 
 and the definition for a bound column would be very similar, represented in the code snippet below:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName">
   <FilterTemplate>
     filter template declaration goes here
@@ -69,7 +69,7 @@ You can nest any control in the filter template, which allows for a great deal o
 
 
 
-````VB.NET
+````VB
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" UniqueName="Country">
 <FilterTemplate>
 <telerik:RadComboBox ID="RadComboBox1" DataSourceID="EntityDataSource2"
@@ -100,7 +100,7 @@ tableView.filter("Country",args.get_item().get_value(),"EqualTo");
 
 As shown in the code, the RadComboBox control is bound to an EntityDataSource. When the user selects an item in the combo, the SelectedIndexChanged client side handler is raised. There, we get a reference to the masterTable client side object, and use its filter method, which in par with the EntityDataSource provides an almost codeless approach. The EntityDataSource for the combo object is declared as shown below:
 
-````ASPNET
+````ASP.NET
 <asp:EntityDataSource ID="EntityDataSource2" runat="server" ConnectionString="name=NorthwindEntities"
   DefaultContainerName="NorthwindEntities" EntitySetName="Customers" Select="distinct it.[Country]">
 </asp:EntityDataSource>
@@ -112,7 +112,7 @@ The complete example is available as part of the following [blog post](	http://b
 
 Another approach, which is possible with the filter template, for example if you are not using an EntityDatasource, is to use server side code to set the filter expression for the grid control manually. Let us assume that we have a GridBoundColumn, bound to a data source field called "CategoryName". We want, instead of using the default filter menu, to utilize a RadComboBox which should enable the end user to select an item from the combo, and have the grid display the relevant items. In this case, the aspx declaration of the column would look something like:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="CategoryName" HeaderText="CategoryName" SortExpression="CategoryName"
   UniqueName="CategoryName">
   <FilterTemplate>
@@ -139,7 +139,7 @@ protected void FilterCombo_SelectedIndexChanged(object o, RadComboBoxSelectedInd
     RadGrid1.MasterTableView.Rebind();
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub FilterCombo_SelectedIndexChanged(ByVal o As Object, ByVal e As RadComboBoxSelectedIndexChangedEventArgs)
     Dim filterExpression As String
     filterExpression = "([CategoryName] = '" + e.Value + "')"

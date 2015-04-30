@@ -36,7 +36,7 @@ You can replace the items in the filtering menu with your own custom options, an
 
 The following example illustrates this technique by substituting a single filter item that uses one of the built-in filter functions:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowFilteringByColumn="True"
   Skin="WebBlue">
 </telerik:RadGrid>
@@ -69,7 +69,7 @@ protected void filterMenu_ItemClick(object sender, RadMenuEventArgs e)
 
 
 
-````VB.NET
+````VB
   Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
       RadGrid1.FilterMenu.Items.Clear()
       Dim filterMenu As GridFilterMenu = RadGrid1.FilterMenu

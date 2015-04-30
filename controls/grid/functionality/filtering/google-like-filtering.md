@@ -38,7 +38,7 @@ In addition, there is **Clear filter** button on the page which restores the ini
 
 
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
   <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
       <AjaxSettings>
@@ -136,7 +136,7 @@ public static DataTable GetDataTable(string query)
 }
 
 ````
-````VB.NET
+````VB
 Private dt As DataTable
 Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
     If Not IsPostBack Then
@@ -272,7 +272,7 @@ public class MyCustomFilteringColumnCS : GridBoundColumn
     }
 }
 ````
-````VB.NET
+````VB
 Public Class MyCustomFilteringColumnCS
     Inherits GridBoundColumn
     Public Shared ReadOnly Property ConnectionString() As String

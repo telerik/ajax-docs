@@ -26,7 +26,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 >
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="False">
 	      <Columns>
@@ -122,7 +122,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	    Private ReadOnly Property GridSource As DataTable
 	        Get
@@ -276,7 +276,7 @@ The code below demonstrates the both approaches about how to perform the insert 
 	
 	    }
 ````
-````VB.NET
+````VB
 	    Private ReadOnly Property GridSource As DataTable
 	        Get
 	            Dim obj As Object = Me.ViewState("_gds")
@@ -339,7 +339,7 @@ Below is a sample demonstration:
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid2" runat="server">
 	    <MasterTableView Width="100%" CommandItemDisplay="Top" DataSourceID="SqlDataSource1"
 	      AutoGenerateColumns="False">
@@ -376,7 +376,7 @@ Below is a sample demonstration:
 	       SelectCommand="SELECT [CompanyName], [ContactName], [ContactTitle], [Country], [Bool] FROM [Customers]">
 	   </asp:SqlDataSource>
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid2.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
@@ -428,7 +428,7 @@ Below is a sample demonstration:
 
 The other option is to set **AppendDataBoundItems="true"** for the dropdown list (residing in edit template of template column) and add **default empty item** in the dropdown control to avoid exception generation on initial insert:
 
-````ASPNET
+````ASP.NET
 	<telerik:GridTemplateColumn>
 	  <ItemTemplate>
 	     <%# Eval("ProductID") %>

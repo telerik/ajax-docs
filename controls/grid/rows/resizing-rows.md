@@ -18,7 +18,7 @@ You can allow row resizing by setting the **ClientSettings.Resizing.AllowRowResi
 
 ![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" Skin="WebBlue">
   <MasterTableView DataSourceID="AccessDataSource1" TableLayout="Auto">
   </MasterTableView>

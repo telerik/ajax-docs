@@ -36,7 +36,7 @@ Explicitly-created columns (columns created in the **Property Builder** or at ru
 
 The following excerpt shows a **RadGrid** declaration with explicitly-created columns. This method of declaring the columns is called column binding:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server">
   ...
   <MasterTableView DataSourceID="ProductsDataSource" TableLayout="Auto">
@@ -152,7 +152,7 @@ Moreover, the built-in **GridBoundColumn** has an **EmptyDataText** property, wh
 
 The following declaration shows a **GridBoundColumn**:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="UnitPrice" DataType="System.Decimal" HeaderText="Unit Price"
   SortExpression="UnitPrice" UniqueName="UnitPrice">
 </telerik:GridBoundColumn>
@@ -207,7 +207,7 @@ To specify the target of the hyperlink, set the **DataNavigateUrlFields** proper
 
 The following example shows the declaration of a **GridHyperLinkColumn**:
 
-````ASPNET
+````ASP.NET
 <telerik:GridHyperLinkColumn DataTextFormatString="Search Google for '{0}'" DataNavigateUrlFields="CompanyName"
   UniqueName="CompanyName" DataNavigateUrlFormatString="http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search"
   DataTextField="CompanyName">
@@ -232,7 +232,7 @@ Each cell in a **GridImageColumn** contains an image. To specify the image URL o
 
 Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**, **ImageHeight**, etc. The following example shows the declaration of a GridImageColumn from [this online demo](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx) of the product:
 
-````ASPNET
+````ASP.NET
 <telerik:GridImageColumn DataType="System.String" DataImageUrlFields="CustomerID"
   DataImageUrlFormatString="IMG/{0}.jpg" AlternateText="Customer image" DataAlternateTextField="ContactName"
   ImageAlign="Middle" ImageHeight="110px" ImageWidth="90px" HeaderText="Image Column"
@@ -262,7 +262,7 @@ Additionally, you can set the **DataAlternateTextField** property to specify by 
 
 Other commonly used properties for that column are **AlternateText**, **ImageAlign**, **ImageWidth**,**ImageHeight**, **DefaultImageUrl** (to set the default image when a null value is returned from the source), etc. The following example shows the declaration of a **GridBinaryImageColumn** from [this online demo](http://demos.telerik.com/aspnet-ajax/controls/examples/integration/raduploadinajaxifiedgrid/defaultcs.aspx?product=grid) of the product.
 
-````ASPNET
+````ASP.NET
 <telerik:GridBinaryImageColumn DataField="Data" HeaderText="Image" UniqueName="Upload"
   ImageHeight="60px" ImageWidth="60px" ResizeMode="Fit">
 </telerik:GridBinaryImageColumn>
@@ -278,7 +278,7 @@ When the grid is in browser mode, or if the column is read-only, the check box i
 
 The following example shows the declaration of a **GridCheckBoxColumn**:
 
-````ASPNET
+````ASP.NET
 <telerik:GridCheckBoxColumn UniqueName="BoolField" HeaderText="CheckBox Column" DataField="BoolField"
   AllowSorting="true">
 </telerik:GridCheckBoxColumn>
@@ -326,7 +326,7 @@ For more information on configuring **GridDropDownColumn**, see [Customize/Confi
 
 **GridDropDownColumn** is editable (implements the **IGridEditableColumn** interface) and provides, by default,	**GridDropDownListColumnEditor** as its column editor. You can use the **DropDownControlType** property to specify whether	the column editor uses a **RadComboBox** or a standard **DropDownList** as the column editor. The default editor is	**RadComboBox**.
 
-````ASPNET
+````ASP.NET
 <telerik:GridDropDownColumn UniqueName="DropDownListColumn" ListTextField="ContactName"
   ListValueField="ContactName" DataSourceID="SqlDataSource2" HeaderText="DropDown Column"
   DataField="ContactName" DropDownControlType="RadComboBox" AllowSorting="true">
@@ -349,7 +349,7 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="GridDateTimeColumn"
   UniqueName="OrderDate" PickerType="DatePicker" />
 ````
@@ -368,7 +368,7 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 When the property **DbValueFactor** is set, it determines the multiplication factor applied by **RadNumericTextBox** in edit/insert mode. In this case, the value is represented as a percentage according to the aforementioned factor. **DbValueFactor** is used along with the **NumericType** property, which should be set to**Percent**. It is useful mostly when storing percent values as floating point numbers in the database. The default value of the property is **1**.
 
-````ASPNET
+````ASP.NET
 <telerik:GridNumericColumn DataField="Freight" HeaderText="GridNumericColumn" UniqueName="Freight">
 </telerik:GridNumericColumn>
 ````
@@ -385,7 +385,7 @@ When in browser mode, **GridMaskedColumn** looks and behaves like a standard **G
 
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridMaskedColumnEditor** as its column editor.
 
-````ASPNET
+````ASP.NET
 <telerik:GridMaskedColumn UniqueName="PhoneNumber" HeaderText="Phone" DataField="PhoneNumber"
   Mask="(###) ###-####" />
 ````
@@ -402,7 +402,7 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridHTMLEditorColumnEditor** as its column editor.
 
-````ASPNET
+````ASP.NET
 <telerik:GridHTMLEditorColumn UniqueName="Blurb" DataField="Blurb" HeaderText="GridHTMLEditorColumn">
 </telerik:GridHTMLEditorColumn>
 ````
@@ -417,7 +417,7 @@ This column type is editable (implements the **IGridEditableColumn** interface) 
 
 **GridCalculatedColumn** displays a value that is calculated based on one or more fields and an expression that indicates how to calculate the display value. Use the **DataFields** property to list all the fields that are used to calculate the column value. The **Expression** property then specifies how the field values are to be combined, using parameters based on the order of the fields listed in the **DataFields** property:
 
-````ASPNET
+````ASP.NET
 	  <telerik:GridCalculatedColumn HeaderText="Total Cost" UniqueName="TotalCost" DataType="System.Double"
 	    DataFields="UnitPrice, NumberOrdered" Expression="{0}*{1}" />
 ````
@@ -503,7 +503,7 @@ The following syntax of the binding expressions is supported:
 |Check boxes in an **ItemTemplate** can be selected and cleared, even when the column is in browser mode.|In browser mode, the check box in **GridCheckBoxColumn** is disabled so that it acts as a display-only control.|
 |Drop-down controls in the item template must be explicitly populated. This lets you populate a lookup list statically, when the data does not come from a lookup table.| **GridDropDownColumn** automatically populates its drop-down list from a lookup list based on the **DataSourceID** , **ListDataMember** , **ListTextField** and **ListValueField** properties.|
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn HeaderText="Check/UnCheck" UniqueName="TemplateColumn">
   <EditItemTemplate>    
       <asp:CheckBox id="editChkBox" runat="server"      
@@ -524,7 +524,7 @@ The following syntax of the binding expressions is supported:
 
 When you have attachments saved in your data source as a blob of binary data, **GridAttachmentColumn** provides you an easy way to upload to and download straight from your data source. In normal mode, **GridAttachmentColumn** displays a button to download the attachment associated with the respective data record. In edit mode, a **RadUpload** or **RadAsyncUpload** control provides the user the ability to upload an attachment into the data source. The type of upload control used is determined by the **UploadControlType** property.
 
-````ASPNET
+````ASP.NET
 <telerik:GridAttachmentColumn DataSourceID="SqlDataSource2" MaxFileSize="1048576"
   EditFormHeaderTextFormat="Upload File:" HeaderText="Download" AttachmentDataField="BinaryData"
   AttachmentKeyFields="ID" FileNameTextField="FileName" DataTextField="FileName"

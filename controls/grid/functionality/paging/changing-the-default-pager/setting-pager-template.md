@@ -41,7 +41,7 @@ In addition, you can use declarative binding expressions in template controls, s
 
 ![Pager Template](images/grd_PagerTemplate.png)
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
     DataSourceID="SqlDataSource1" Skin="Windows7">
     <MasterTableView>
@@ -104,7 +104,7 @@ In the example below, The **ItemCreated** event handler is used to change the **
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
     DataSourceID="SqlDataSource2" OnItemCreated="RadGrid2_ItemCreated" Skin="Windows7">
     <MasterTableView>
@@ -135,7 +135,7 @@ protected void RadGrid2_ItemCreated(object sender, Telerik.Web.UI.GridItemEventA
 }
 
 ````
-````VB.NET
+````VB
     Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
         If TypeOf e.Item Is GridPagerItem Then
             Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
@@ -204,7 +204,7 @@ The following example illustrates this technique:
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
     AllowSorting="True" AllowPaging="True" Skin="Windows7" OnItemCreated="RadGrid3_ItemCreated">
     <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
@@ -251,7 +251,7 @@ protected void RadGrid3_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
     Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
         If TypeOf e.Item Is GridPagerItem Then
             Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
@@ -301,7 +301,7 @@ To assign the **PagerTemplate** for a grid in the code-behind, you need to desig
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
     AllowSorting="True" AllowPaging="True" Skin="Windows7">
     <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
@@ -335,7 +335,7 @@ private class MyPagerTemplate : ITemplate
     }
 }
 ````
-````VB.NET
+````VB
     Private Class MyPagerTemplate
         Implements ITemplate
         Protected prevButton As LinkButton
@@ -374,7 +374,7 @@ protected void Page_Init(object sender, EventArgs e)
     RadGrid4.MasterTableView.PagerTemplate = new MyPagerTemplate();
 }
 ````
-````VB.NET
+````VB
     Protected Sub Page_Init(sender As Object, e As EventArgs)
         RadGrid4.MasterTableView.PagerTemplate = New MyPagerTemplate()
     End Sub

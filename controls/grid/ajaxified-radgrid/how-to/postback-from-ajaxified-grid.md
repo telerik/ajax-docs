@@ -48,7 +48,7 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Overrides Sub RaisePostBackEvent(ByVal source As IPostBackEventHandler, ByVal eventArgument As String)
 	        MyBase.RaisePostBackEvent([source], eventArgument)
 	        If ([source] Is RadGrid1) And (eventArgument.IndexOf("RowClicked") <> -1) Then

@@ -22,14 +22,14 @@ In various situations you may want to detect whether the user is currently editi
 
 And the code extractions are:
 
-````ASPNET
+````ASP.NET
 	        <asp:Button ID="btnUpdate" Text='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "Insert" : "Update" %>'
 	        runat="server" CommandName='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "PerformInsert" : "Update" %>'>
 ````
 
 
 
-````ASPNET
+````ASP.NET
 	       <asp:Button ID="Button1" Text='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "Insert", "Update") %>'
 	       runat="server" CommandName='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "PerformInsert", "Update") %>'>
 ````
@@ -68,7 +68,7 @@ You can check the type of the editable item in the **ItemCreated/ItemDataBound**
 	    }
 	}          
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
 	

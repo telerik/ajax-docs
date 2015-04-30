@@ -24,7 +24,7 @@ Below are the relevant code excerpts:
 
 
 
-````ASPNET
+````ASP.NET
 	                  <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	                  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	                      <AjaxSettings>
@@ -106,7 +106,7 @@ Below are the relevant code excerpts:
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadChart1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Charting.ChartItemDataBoundEventArgs)
 	        e.SeriesItem.Name = DirectCast(DataBinder.Eval(e.DataItem, "pName"), String)

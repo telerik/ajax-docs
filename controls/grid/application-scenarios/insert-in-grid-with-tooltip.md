@@ -28,7 +28,7 @@ Below are the code snippets from the demo referred above:
 
 
 
-````ASPNET
+````ASP.NET
 	        <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	        <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 	        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
@@ -214,7 +214,7 @@ Below are the code snippets from the demo referred above:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private supplierIDs As New Hashtable()
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
@@ -273,7 +273,7 @@ Below are the code snippets from the demo referred above:
 ````
 
 
-````ASPNET
+````ASP.NET
 	  <asp:Button ID="btnAddNewProduct" runat="server" Text="Add more" UseSubmitBehavior="false"
 	    OnClick="btnAddNewProduct_Click" /><br />
 	    <br />
@@ -430,7 +430,7 @@ Below are the code snippets from the demo referred above:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private _loadedControls As Integer = 0
 	    Private _isPostBack As Boolean = False
 	

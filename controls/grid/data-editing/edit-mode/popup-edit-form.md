@@ -17,7 +17,7 @@ position: 2
 
 Below is the markup, used in the example:
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" AutoGenerateEditColumn="True" runat="server" AllowAutomaticDeletes="True"
 	            Skin="Silk" DataSourceID="SqlDataSource1" AllowPaging="True" CellSpacing="0" GridLines="None"
 	            OnItemDataBound="RadGrid1_ItemDataBound">
@@ -66,7 +66,7 @@ The Popup EditForm settings are controlled through the **PopUpSettings** propert
 
 In order to change the titlebar text appearance, please use the following CSS selector ("SkinName" should be replaced with the actual skin name):
 
-````ASPNET
+````ASP.NET
 	    <style type="text/css">
 	        div.RadGrid_[SkinName] .rgEditForm .rgHeader
 	        {
@@ -107,7 +107,7 @@ This method is used the same way as the regular Focus method with the only diffe
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
 	            Dim editItem As GridEditableItem = DirectCast(e.Item, GridEditableItem)
@@ -168,7 +168,7 @@ And the respective extension method:
 	    }
 	}
 ````
-````VB.NET
+````VB
 	Module ControlExtensions
 	    <Extension()>
 	    Public Sub Focus(control As Control, delay As Integer)

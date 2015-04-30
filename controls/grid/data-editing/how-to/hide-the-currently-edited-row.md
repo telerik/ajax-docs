@@ -36,7 +36,7 @@ When you use **EditForms** edit mode you may prefer to hide the currently edited
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        Dim item As GridItem
 	        For Each item In RadGrid1.MasterTableView.Items

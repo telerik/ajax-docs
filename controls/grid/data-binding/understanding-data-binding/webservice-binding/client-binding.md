@@ -249,7 +249,7 @@ public class QuoteWebService : WebService
 }
 
 ````
-````VB.NET
+````VB
 <WebService([Namespace]:="http://tempuri.org/")> _
 <WebServiceBinding(ConformsTo:=WsiProfiles.BasicProfile1_1)> _
 <ScriptService()> _
@@ -475,7 +475,7 @@ End Class
 
 and the source code of the page holding the grid instance populated through a web service on the client:
 
-````ASPNET
+````ASP.NET
 <head runat="server">
   <telerik:HeadTag runat="server" ID="Headtag1">
   </telerik:HeadTag>

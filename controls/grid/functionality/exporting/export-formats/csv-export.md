@@ -48,7 +48,7 @@ By default, *RadGrid's ** CSV* engine encloses all the data within double quotes
 
 ## 
 
-````ASPNET
+````ASP.NET
 <ExportSettings>    
     <Csv ColumnDelimiter="Tab" RowDelimiter="NewLine" FileExtension="TXT" EncloseDataWithQuotes="true" />
 </ExportSettings>
@@ -88,7 +88,7 @@ Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the de
 
 Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False**values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server">
     <MasterTableView CommandItemDisplay="Top">
         <CommandItemSettings ShowExportToCsvButton="true" />
@@ -109,7 +109,7 @@ Since *CSV* is text-based format it doesn't support images or complex structures
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn UniqueName="MyColumn" HeaderText="MyColumn">
     <ItemTemplate>
         <asp:Image ID="Image1" runat="server" ImageUrl="~/img.png" AlternateText="AltText" />
@@ -127,7 +127,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToCSV();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     For Each item As GridDataItem In RadGrid1.MasterTableView.Items
         Dim img As Image = TryCast(item("MyColumn").FindControl("Image1"), Image)
@@ -159,7 +159,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private isExport As Boolean = FalseProtected
 Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     isExport = True
@@ -193,7 +193,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToCSV();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     For Each item As GridDataItem In RadGrid1.MasterTableView.Items
         item.Visible = item.Selected
@@ -215,7 +215,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToCSV();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     RadGrid1.MasterTableView.GetColumn("C2").Visible = False
     RadGrid1.MasterTableView.ExportToCSV()
@@ -242,7 +242,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
         RadGrid1.MasterTableView.Items[2].Visible = false;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
     If e.CommandName = RadGrid.ExportToCsvCommandName Then
         RadGrid1.MasterTableView.Items(2).Visible = False
@@ -260,7 +260,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToCSV();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     RadGrid1.MasterTableView.Items(2).Visible = False
     RadGrid1.MasterTableView.ExportToCSV()
@@ -285,7 +285,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
         e.Item.Display = false;
 }
 ````
-````VB.NET
+````VB
 Private isCsvExport As Boolean = FalseProtected
 Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
 

@@ -22,7 +22,7 @@ Here are the code snippets extracted from the online demo:
 
 
 
-````ASPNET
+````ASP.NET
 	        <asp:ScriptManager ID="ScriptManager1" runat="server">
 	        </asp:ScriptManager>
 	        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
@@ -93,7 +93,7 @@ Here are the code snippets extracted from the online demo:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridDataItem Then
 	            Dim item As GridDataItem = TryCast(e.Item, GridDataItem)

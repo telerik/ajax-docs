@@ -20,7 +20,7 @@ The example below shows how to embed a **RadGrid** control in the template of a 
 
 The ASPX file declares a combo box with an **ItemTemplate** that includes the **RadGrid** control. The **RadComboBox** has an **OnClientDropDownOpening** handler to generate an AJAX request (using a **RadAjaxManager** control on the same page) that binds the grid when the drop-down list opens. The **RadGrid** in the template has an **OnRowClick** event handler for setting the combo box text when the user clicks on a row:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
 	  </telerik:RadAjaxManager>
 	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
@@ -140,7 +140,7 @@ In the code-behind, the **Page_Load** event handler adds an AJAX setting for the
 	        return table1;
 	    }
 ````
-````VB.NET
+````VB
 	
 	
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load

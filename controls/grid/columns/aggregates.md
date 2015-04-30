@@ -16,7 +16,7 @@ position: 5
 
 The **GridBoundColumn** object has an **Aggregate** property that you can set to specify a function for aggregating the values that the column displays. The **Aggregate** property can be set to any of the following values: "Sum", "Min", "Max", "Last", "First", "Count", "Avg", or "Custom". When you set the **Aggregate** property to "Custom", the grid raises an **OnCustomAggregate** event, where you can calculate the aggregate in server-side code and assign the result to the **Result** property of the event arguments object.
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn Aggregate="Count" DataField="CustomerID" DataType="System.String"
   HeaderText="CustomerID" SortExpression="CustomerID" UniqueName="CustomerID">
 </telerik:GridBoundColumn>

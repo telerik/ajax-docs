@@ -36,7 +36,7 @@ Using declarative binding expressions command buttons in the pager can control t
 
 ![Pager Template](images/grd_PagerTemplate.png)
 
-````ASPNET
+````ASP.NET
 	<PagerTemplate>
 	   <table border="0" cellpadding="5" height="18px" width="100%">
 	     <tr>

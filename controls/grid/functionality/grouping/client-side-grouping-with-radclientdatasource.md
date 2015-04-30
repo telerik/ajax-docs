@@ -18,7 +18,7 @@ When client-side grouping is used, you can use the same approaches, as with serv
 
 **Example**: The following example demonstrates how to enable client-side grouping functionality when a **RadGrid** is bound to **RadClientDataSource** control:
 
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
 	<DataSource>
 		<WebServiceDataSourceSettings ServiceType="OData">

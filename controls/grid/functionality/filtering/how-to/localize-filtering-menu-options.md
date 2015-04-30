@@ -41,7 +41,7 @@ protected void Page_Load(object sender, System.EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     Dim Menu As GridFilterMenu = RadGrid1.FilterMenu
     Dim item As RadMenuItem

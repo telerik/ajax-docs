@@ -115,7 +115,7 @@ And in the code-behind:
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemUpdated(ByVal source As Object, ByVal e As GridUpdatedEventArgs) Handles RadGrid1.ItemUpdated
 	        If Not e.Exception Is Nothing Then
 	            e.KeepInEditMode = True

@@ -41,7 +41,7 @@ When the grid presentation area is restricted on your page you may not want to d
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
 	        If RadGrid1.MasterTableView.IsItemInserted Then
 	            For Each item As GridItem In RadGrid1.Items

@@ -62,7 +62,7 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
     cell.HRef = String.Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString());
 }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ExcelMLExportRowCreated(sender As Object, e As GridExportExcelMLRowCreatedArgs)
 	        Dim cell As CellElement = e.Row.Cells.GetCellByName("ContactName")
 	        cell.HRef = [String].Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString())

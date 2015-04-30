@@ -20,7 +20,7 @@ Fortunately, there is a workaround available which can allow you to upload files
 
 The following example illustrates this approach:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadCodeBlock runat="server" ID="RadCodeBlock2">
 	    <script type="text/javascript">
 	      //on insert and update buttons click temporarily disables ajax to perform upload actions

@@ -28,7 +28,7 @@ RadGrid for ASP.NET AJAX exposes programmatic way to binding itself to IEnumerab
 
 Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to configure *RadInputManager *to manage the user input inside the edit/insert form)
 
-````ASPNET
+````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script type="text/javascript">            function rowDblClick(sender, eventArgs) { sender.get_masterTableView().editItem(eventArgs.get_itemIndexHierarchical()); }            </script>
 </telerik:RadCodeBlock>
@@ -218,7 +218,7 @@ protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private _dataContext As NorthwindDataContext
 Protected ReadOnly Property DbContext() As NorthwindDataContext
     Get

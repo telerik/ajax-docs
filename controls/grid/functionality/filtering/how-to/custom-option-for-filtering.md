@@ -46,7 +46,7 @@ Suppose you want to remove a filtering option from the menu of a column while le
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
    DataSourceID="SqlDataSource1" OnInit="RadGrid1_Init" OnItemCommand="RadGrid1_ItemCommand">
    <MasterTableView>
@@ -96,7 +96,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_Init(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.Init
     Dim menu As GridFilterMenu = RadGrid1.FilterMenu
     ' Iterate through the items backwards
@@ -158,7 +158,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
     If e.CommandName = RadGrid.FilterCommandName Then
         Dim filterPair As Pair = CType(e.CommandArgument, Pair)

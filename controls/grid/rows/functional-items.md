@@ -38,7 +38,7 @@ The GridStatusBarItem appears below all other items in the grid and displays the
 >
 
 
-# See Also
+## See Also
 
  * [Pager Item]({%slug grid/functionality/paging/pager-item%})
 

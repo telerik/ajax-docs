@@ -16,7 +16,7 @@ In order to show the command item, you should set the **CommandItemDisplay** pro
 
 **Example 1**: Shows how custom commands could be implemented via the**CommandItemTemplate**.
 
-````ASPNET
+````ASP.NET
 	                <CommandItemTemplate>
 	                    Custom command item template
 	                    <asp:LinkButton Style="vertical-align: bottom" ID="btnEditSelected" runat="server"
@@ -41,7 +41,7 @@ Running the code from **Example 1** will generate **Figure 1**.
 
 In the **CommandItemTemplate** you can add any type of buttons that raise a command event and Telerik **RadGrid** will fire the	**ItemCommandEvent** (see below) on the server when this button is clicked.
 
-````ASPNET
+````ASP.NET
 	<asp:LinkButton ID="LinkButton2" runat="server" CommandName="InitInsert">Add New</asp:LinkButton>
 ````
 
@@ -57,7 +57,7 @@ Generally, you can handle any command using the **ItemCommandEvent**. **Example 
 
 
 
-````ASPNET
+````ASP.NET
 	                <CommandItemTemplate>
 	                    <asp:LinkButton ID="LinkButton7" OnClientClick="javascript:return confirm('Delete all selected customers?')"
 	                        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs</asp:LinkButton>
@@ -109,7 +109,7 @@ You can use the **CommandItemTemplate** to customize the “Add new item/refresh
 
 **Example 3**: Shows how to customize the text of the command buttons.
 
-````ASPNET
+````ASP.NET
 	          <telerik:RadGrid ID="RadGrid1" runat="server">
 	            <MasterTableView CommandItemDisplay="Top">
 	                <CommandItemTemplate>
@@ -126,7 +126,7 @@ If you have two buttons, you can place the buttons in a **HTML table** embedded 
 
 **Example 4**: Shows how to organize the command buttons in an **HTML table** element.
 
-````ASPNET
+````ASP.NET
 	                <CommandItemTemplate>
 	                    <table>
 	                        <tr>
@@ -163,7 +163,7 @@ There are cases in which you may want to access the controls inside your **Comma
 
 
 
-````ASPNET
+````ASP.NET
 	
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" OnItemCreated="RadGrid1_ItemCreated">
 	    <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
@@ -215,7 +215,7 @@ There are cases in which you may want to display different controls inside the t
 
 
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
 	            AllowMultiRowEdit="true">
 	            <MasterTableView CommandItemDisplay="TopAndBottom">
@@ -398,7 +398,7 @@ If you want to define a **CommandItemTemplate** programmatically, you need to de
 
 You can find detailed information about how to create templates programmatically in	[this MSDN article](http://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx).
 
-# See Also
+## See Also
 
  * [Command Reference ]({%slug grid/control-lifecycle/command-reference-%})
 

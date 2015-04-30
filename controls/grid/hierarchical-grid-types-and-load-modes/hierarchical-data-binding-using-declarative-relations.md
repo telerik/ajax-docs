@@ -24,7 +24,7 @@ You must set the **DataKeyNames** property of every parent table view in the hie
 
 If multiple fields are needed for linking to child tables, you can list them in the ASPX file, separating their names with commas (but no spaces):
 
-````ASPNET
+````ASP.NET
 	    <MasterTableView DataKeyNames="CustomerID, EmployeeID">			
 ````
 
@@ -37,7 +37,7 @@ If multiple fields are needed for linking to child tables, you can list them in 
 ````C#
 	    RadGrid1.MasterTableView.DataKeyNames = new string[2] { "CustomerID", "EmployeeID" };			
 ````
-````VB.NET
+````VB
 	     
 							RadGrid1.MasterTableView.DataKeyNames = New String(2) {"CustomerID", "EmployeeID"}
 				
@@ -64,7 +64,7 @@ To summarize, you need to define the **ParentTableRelations/DataKeyNames** for t
 
 There is one more detail if you use declarative binding using **DataSource** controls under .NET 2.x/3.x:You should have **WHERE** clause in the **SelectCommand** of the second DataSource control which to filter the records for the child table. The **WHERE** clause should include the **DetailKeyField** from the **ParentTableRelation** definition between the master/child table. Furthermore, that same field has to be included in the **SelectParameters** of the second DataSource (with exactly the same **Name** value):
 
-````ASPNET
+````ASP.NET
 	        <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	            ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Customers"
 	            runat="server"></asp:SqlDataSource>
@@ -88,7 +88,7 @@ There is one more detail if you use declarative binding using **DataSource** con
 
 Every **GridRelationFields** object should has only one field name for **DetailKeyField** and **MasterKeyField**. For data relationships that are based on multiple fields, add multiple **GridRelationFields** objects to the **ParentTableRelation** collection:
 
-````ASPNET
+````ASP.NET
 	    <ParentTableRelation>
 	      <telerik:GridRelationFields DetailKeyField="DepartmentID" MasterKeyField="DepartmentID" />  
 	      <telerik:GridRelationFields DetailKeyField="ManagerID" MasterKeyField="EmployeeID" />

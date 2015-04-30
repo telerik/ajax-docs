@@ -42,7 +42,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
     If TypeOf e.Item Is GridFilteringItem Then
         Dim filteringItem As GridFilteringItem = CType(e.Item, GridFilteringItem)

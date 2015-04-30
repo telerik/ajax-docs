@@ -28,7 +28,7 @@ The following example shows how to apply custom sort pattern for two columns - F
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
       GridLines="None" OnSortCommand="RadGrid1_SortCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
       <MasterTableView AllowCustomSorting="true">
@@ -113,7 +113,7 @@ protected void RadGrid1_NeedDataSource(object source, GridNeedDataSourceEventArg
     RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
 }
 ````
-````VB.NET	
+````VB	
 Public Function GetDataTable(ByVal query As String) As DataTable
     Dim ConnString As String = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
     Dim conn As SqlConnection = New SqlConnection(ConnString)

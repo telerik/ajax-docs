@@ -37,7 +37,7 @@ protected void RadGrid1_PreRender(object sender, System.EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
     Dim cell As TableCell
     For Each cell In RadGrid1.GroupPanel.GroupPanelItems

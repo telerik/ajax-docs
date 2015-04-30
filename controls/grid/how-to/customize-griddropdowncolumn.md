@@ -16,7 +16,7 @@ position: 2
 
 Here is some insight about the mechanism which Telerik RadGrid uses to present values for **GridDropDownColumn:**
 
-````ASPNET
+````ASP.NET
 	//sample inline GridDropDownColumn definition
 	<telerik:GridDropDownColumn UniqueName="AccessLevelID" ListDataMember="AccessLevel"
 	  SortExpression="AccessLevelID" ListTextField="Description" ListValueField="DDL_AccessLevelID"
@@ -40,7 +40,7 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 	        DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
 	        DBadapter.Fill(MyUsersData, "AccessLevel")        
 ````
-````VB.NET
+````VB
 	
 	    'sample select command for GridDropDownColumn data-source generation
 	    DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
@@ -68,7 +68,7 @@ The code below will place new item with text **Select Contact Title** (colored i
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridEditableItem AndAlso CType(e.Item, GridEditableItem).IsInEditMode) Then
 	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
@@ -109,7 +109,7 @@ The code below will place new item with text **Select Contact Title** (colored i
 
 Moreover, you may want to display an empty item/default item which differs from the first in the list (inside the dropdown editor) as selected on initial insertion. This can be accomplished in a codeless manner setting the **EnableEmptyListItem** property of the **GridDropDownColumn** to **true** (its default value is **false**) and choosing **EmptyListItemText/EmptyListItemValue**. Below is an example for that:
 
-````ASPNET
+````ASP.NET
 	<telerik:GridDropDownColumn UniqueName="ContactName" DataSourceID="ddListColumnDataSource"
 	  SortExpression="ContactName" ListTextField="ContactName" EnableEmptyListItem="true"
 	  EmptyListItemText="--Choose an option--" EmptyListItemValue="" ListValueField="CustomerID"
@@ -144,7 +144,7 @@ The proper event you need to hook in order to attain this effect is **ItemDataBo
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	    If (TypeOf e.Item is GridEditableItem AndAlso (e.Item,GridEditableItem).IsInEditMode)) Then
 	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)

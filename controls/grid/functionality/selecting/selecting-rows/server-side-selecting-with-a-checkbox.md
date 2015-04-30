@@ -34,7 +34,7 @@ To simulate the **GridClientSelectColumn** in a template column:
 
 Note that in the grid declaration, you do not need to enable client-side selection:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
 	    DataSourceID="SqlDataSource1" AllowMultiRowSelection="true">
 	    <MasterTableView>
@@ -88,7 +88,7 @@ In the code-behind, the **OnCheckedChanged** event handlers (**ToggleRowSelectio
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub ToggleRowSelection(ByVal sender As Object, ByVal e As EventArgs)
 	
 	        TryCast(TryCast(sender, CheckBox).NamingContainer, GridItem).Selected = TryCast(sender, CheckBox).Checked

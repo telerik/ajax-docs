@@ -34,7 +34,7 @@ The selected item can be accessed by calling the **get_selectedItems()** method 
 
 The style of the selected row is defined by the **SelectedItemStyle** property. You can set this property declaratively:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <ClientSettings>
 	      <Selecting AllowRowSelect="True" />
@@ -56,7 +56,7 @@ You can also set the **SelectedItemStyle** property in the code-behind:
 	    RadGrid1.SelectedItemStyle.BorderStyle = BorderStyle.Dashed;
 	    RadGrid1.SelectedItemStyle.BorderWidth = new Unit("1px");
 ````
-````VB.NET
+````VB
 	RadGrid1.SelectedItemStyle.BackColor = System.Drawing.Color.Fuchsia
 	RadGrid1.SelectedItemStyle.BorderColor = System.Drawing.Color.Purple
 	RadGrid1.SelectedItemStyle.BorderStyle = BorderStyle.DashedRadGrid1.SelectedItemStyle.BorderWidth = new Unit("1px")
@@ -65,6 +65,6 @@ You can also set the **SelectedItemStyle** property in the code-behind:
 
 For a live example demonstrating client-side selection, see [Client-side row selection](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
 
-# See Also
+## See Also
 
  * [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})

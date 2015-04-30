@@ -18,7 +18,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 
 1. First, you need to include the necessary settings in a resource file. The sample below shows a simple resource file, containing two value strings:
 
-````XML
+````ASP.NET
 	  .RESX
 	<resheader name="resmimetype">
 	   <value>text/microsoft-resx</value>
@@ -59,7 +59,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
 	        If TypeOf e.Item Is GridHeaderItem Then
 	            Dim header As GridHeaderItem = CType(e.Item, GridHeaderItem)
@@ -73,7 +73,7 @@ When localizing different elements of Telerik RadGrid, it may be necessary to us
 
 If you are using resource files, you can use explicit localization to set the text for the Edit button text, as well as the text for the Cancel, Insert and Update buttons. The code below demonstrates one such approach:
 
-````ASPNET
+````ASP.NET
 	<MasterTableView  CommandItemDisplay="Top"
 	DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
 	          

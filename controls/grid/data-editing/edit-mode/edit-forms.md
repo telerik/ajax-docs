@@ -16,7 +16,7 @@ To display the grid column editors in an auto-generated form when the grid switc
 
 When **EditMode** is "EditForms", the edit form appears immediately below the item that is being edited:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
 	    <MasterTableView EditMode="EditForms" DataSourceID="SqlDataSource1">
 	      <Columns>
@@ -32,7 +32,7 @@ When **EditMode** is "EditForms", the edit form appears immediately below the it
 
 When **EditMode** is "PopUp", the edit form appears in a popup window above the grid:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1">
 	    <MasterTableView EditMode="PopUp" DataSourceID="SqlDataSource1">
 	      <Columns>
@@ -71,7 +71,7 @@ When **EditMode** is "EditForms" or "PopUp", the grid row is of type **GridDataI
 	    }
 	}			
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is GridDataItem) Then
 	            'the item is in regular mode 
@@ -108,7 +108,7 @@ You can also use the **ParentItem** property of **GridEditFormItem** to access t
 	    GridDataItem dataItem = formItem.ParentItem as GridDataItem;
 	}			
 ````
-````VB.NET
+````VB
 	        If (TypeOf e.Item Is GridDataItem) Then
 	            'find the edit form item
 	            Dim formItem As GridEditFormItem = CType(CType(e.Item, GridDataItem).EditFormItem, GridEditFormItem)
@@ -143,7 +143,7 @@ To support all edit modes in an application, check the table view's **EditMode**
 	 //perform further operations
 	}
 ````
-````VB.NET
+````VB
 	    Dim item As GridDataItem
 	    For Each item In RadGrid1.EditItems
 	        Dim itemToEdit As GridEditableItem = _

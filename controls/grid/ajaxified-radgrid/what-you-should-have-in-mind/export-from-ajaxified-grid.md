@@ -45,7 +45,7 @@ When you are exporting from a built-in export button in a CommandItem, you need 
 
 In case you export from a *Button* that is nested in **MS AJAX UpdatePanel**, you should set this control as *PostBackTrigger*:
 
-````ASPNET
+````ASP.NET
 	  <triggers>         
 	    <asp:PostBackTrigger ControlID="btnExport" />
 	</triggers>
@@ -61,7 +61,7 @@ It is also possible to register the control as a trigger for *postback* in code-
 
 
 
-````VB.NET
+````VB
 	ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
 ````
 

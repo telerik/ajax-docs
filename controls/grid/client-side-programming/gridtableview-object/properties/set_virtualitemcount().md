@@ -54,6 +54,6 @@ This property allows you to set the virtual item count value for the respective 
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})

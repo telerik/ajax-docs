@@ -32,7 +32,7 @@ The **MultiColumn Headers** of the RadGrid represent a tree-like structure where
 
 In order to define the MultiColumn Headers in RadGrid **Column Groups** should be set.
 	
-````ASPNET
+````ASP.NET
 <ColumnGroups>
 <telerik:GridColumnGroup HeaderText="Product Details" Name="ProductDetails"/>
 <telerik:GridColumnGroup HeaderText="Location" Name="Location"/>
@@ -46,7 +46,7 @@ In order to define the MultiColumn Headers in RadGrid **Column Groups** should b
 In order to add the needed column in the MultiColumn Header the **ColumnGroupName** property should be used:
 
 	
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn UniqueName="Address" DataField="Address" ColumnGroupName="Location" HeaderText="Address"/>
 ````       
 

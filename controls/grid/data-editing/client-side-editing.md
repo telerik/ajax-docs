@@ -30,7 +30,7 @@ Below are the code snippets from the sample:
 
 
 
-````ASPNET
+````ASP.NET
 	   
 	       <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	       <script type="text/javascript">
@@ -297,7 +297,7 @@ Below are the code snippets from the sample:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        Notes.Modules.Clear()
 	        Notes.Tools.Clear()
@@ -394,7 +394,7 @@ Below are the code snippets from the sample:
 
 
 
-````VB.NET
+````VB
 	    Imports System
 	Imports System.Collections.Generic
 	Imports System.Globalization
@@ -468,7 +468,7 @@ Below are the code snippets from the sample:
 
 
 
-````VB.NET
+````VB
 	    Public Class EmployeesList
 	        Inherits List(Of Employee)
 	        Public Sub New()
@@ -522,7 +522,7 @@ Below are the code snippets from the sample:
 
 
 
-````VB.NET
+````VB
 	    Public Class Employee
 	        Private _EmployeeID As Integer
 	        Private _LastName As String

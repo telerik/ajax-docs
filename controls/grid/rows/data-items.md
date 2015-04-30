@@ -46,7 +46,7 @@ Data items can come in two types:
 
 Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle**. Additionally, for skins which have different styling for normal/alternating rows, you can disable the zebra effect by setting the**ClientSettings -> EnableAlternatingItems** property of the grid to false.
 
-# See Also
+## See Also
 
  * [Accessing Cells and Rows]({%slug grid/rows/accessing-cells-and-rows%})
 

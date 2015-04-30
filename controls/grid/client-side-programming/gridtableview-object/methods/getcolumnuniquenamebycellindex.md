@@ -62,6 +62,6 @@ Method which returns the UniqueName of the column by given **header row** elemen
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})

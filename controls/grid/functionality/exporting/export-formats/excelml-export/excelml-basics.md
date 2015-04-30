@@ -100,7 +100,7 @@ protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExce
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
     For Each style As StyleElement In e.Styles
         Select Case style.Id
@@ -135,7 +135,7 @@ protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExce
     e.Styles.Add(myStyle);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
     e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
 End Sub
@@ -181,7 +181,7 @@ protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExce
     e.Styles.Add(myStyle);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
     e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
 End Sub
@@ -234,7 +234,7 @@ In addition to the predefined formats,you could add your own custom formats.
 ````C#
 style.NumberFormat.Attributes["ss:Format"] = "MM/dd";
 ````
-````VB.NET
+````VB
 style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 ````
 
@@ -272,7 +272,7 @@ protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExcelBuild
     e.Styles.Add(cstyle);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
 
     Dim cstyle As New StyleElement("MyCustomStyle")
@@ -307,7 +307,7 @@ protected void Button1_Click(object sender, EventArgs e)
     RadGrid1.MasterTableView.ExportToExcel();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
     RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = False
     RadGrid1.MasterTableView.ExportToExcel()
@@ -357,7 +357,7 @@ protected void RadGrid1_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.Gri
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
     e.WorkBook.Worksheets(0).IsProtected = True
 
@@ -395,7 +395,7 @@ protected void grid_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExc
     e.WorkBook.Worksheets[0].WorksheetOptions.Print.FitHeight = 1;
 }
 ````
-````VB.NET
+````VB
 Protected Sub grid_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
     e.WorkBook.Worksheets(0).WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4
     e.WorkBook.Worksheets(0).WorksheetOptions.FitToPage = True

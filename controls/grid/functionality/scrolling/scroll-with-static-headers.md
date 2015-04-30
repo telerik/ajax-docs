@@ -30,7 +30,7 @@ When **UseStaticHeaders** is **False**, the header and pager scroll along with t
 
 You can set **UseStaticHeaders** declaratively at design time:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid runat="server" ... />
    <ClientSettings>
        <Scrolling AllowScroll="True" UseStaticHeaders="true" />
@@ -49,7 +49,7 @@ You can also set the scrolling properties in the code-behind at runtime:
 RadGrid1.ClientSettings.Scrolling.AllowScroll = true;
 RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = true;
 ````
-````VB.NET
+````VB
 RadGrid1.ClientSettings.Scrolling.AllowScroll = True
 RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = True
 ````

@@ -20,7 +20,7 @@ To change the **GroupByExpression** dynamically when the user drags a column hea
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" ShowGroupPanel="true"
   OnGroupsChanging="RadGrid1_GroupsChanging">
   <ClientSettings AllowDragToGroup="True" />
@@ -56,7 +56,7 @@ private Boolean IsGroupedByCustomer(GridGroupByExpressionCollection groups)
     return false;
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_GroupsChanging(ByVal source As Object, ByVal e As GridGroupsChangingEventArgs)
     'Expression is added (by drag/drop on group panel)
     If e.Action = GridGroupsChangingAction.Group Then

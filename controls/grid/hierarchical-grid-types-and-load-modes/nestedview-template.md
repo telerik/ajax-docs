@@ -19,7 +19,7 @@ This feature of RadGrid gives you the freedom to design the overall structure an
 
 The detail table template should be specified between the NestedViewTemplate tags of its parent GridTableView. The template will appear when you expand the respective parent item. In addition, the nested view template can be data bound to a single record from a data source object by setting the NestedViewSettings.DataSourceID property of the give table view and defining a relation to the parent level through the NestedViewSettings.ParentTableRelation property of the same table view. Here is the overall structure of hierarchical grid with detail templates:
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
 	           <MasterTableView DataKeyNames="CustomerID">
 	               <Columns>
@@ -39,7 +39,7 @@ The detail table template should be specified between the NestedViewTemplate tag
 
 or
 
-````ASPNET
+````ASP.NET
 	     <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
 	         <MasterTableView DataKeyNames="CustomerID">
 	               <Columns>
@@ -63,7 +63,7 @@ or
 
 Note that when you set NestedView template at a given level the regular detail tables definitions you may have at the same level will be disregarded. For example, the detail tables between the **DetailTables** tag in this code will be automatically ignored:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
 	    <MasterTableView DataKeyNames="CustomerID">
 	      <NestedViewTemplate>
@@ -170,7 +170,7 @@ An alternative approach to binding the nested view template without defining nes
 
 
 
-````ASPNET
+````ASP.NET
 	  <asp:ScriptManager ID="ScriptManager1" runat="server" />
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	    <AjaxSettings>
@@ -260,7 +260,7 @@ An alternative approach to binding the nested view template without defining nes
 	        }
 	    }	
 ````
-````VB.NET
+````VB
 	    Partial Public Class DefaultVB
 	        Inherits System.Web.UI.Page
 	        Protected Sub RadChart1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Charting.ChartItemDataBoundEventArgs)

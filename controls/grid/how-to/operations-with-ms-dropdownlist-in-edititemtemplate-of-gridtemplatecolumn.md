@@ -97,7 +97,7 @@ In the code below we assign array of ListItem objects as data source for the dro
 	        Session["updatedValue"] = list.SelectedValue;
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Protected Country_values As Object() = {New ListItem("Germany", "German"), New ListItem("England", "English"), New ListItem("Spain", "Spanish"), New ListItem("United States", "American")}
 	

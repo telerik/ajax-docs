@@ -60,7 +60,7 @@ Inserting values through **WebUserControl Edit Form** and **FormTemplate** can b
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.InsertCommand
 	
 	        Dim userControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
@@ -153,7 +153,7 @@ and with form template custom edit form (note that with form template you may pr
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As WebControls.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.PerformInsertCommandName Then
 	
@@ -224,7 +224,7 @@ If you use WebUserControl as edit form in Telerik RadGrid and populate the value
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Public Property DataItem() As Object
 	        Get
 	            Return Me._dataItem
@@ -269,7 +269,7 @@ Here is an example which will change the text for TextBox with **ID txtEmployeeI
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
 	            e.Canceled = True
@@ -315,7 +315,7 @@ Here is an example which will change the text for TextBox with **ID txtEmployeeI
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
 	            e.Canceled = True
@@ -333,7 +333,7 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
 	            e.Canceled = True
@@ -380,7 +380,7 @@ When you have dropdown list/checkbox in the grid make sure that you specify the 
 
 The other option is to set **AppendDataBoundItems="true"** for a dropdown list (residing in form template custom edit form) and add **default empty item** in the dropdown control to avoid exception generation on initial insert:
 
-````ASPNET
+````ASP.NET
 	  <EditFormSettings EditFormType="Template">
 	  <FormTemplate>
 	       -------------

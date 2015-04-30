@@ -133,7 +133,7 @@ If you set **AutoPostBackOnFilter** property of a column to **True**, the user d
 
 When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation of **Contains** for string types or **EqualTo** for numeric types.You can change this to another filter function by setting the **CurrentFilterFunction** property. For example:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
   UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true" />
 ````
@@ -142,7 +142,7 @@ When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation
 
 Another option is to set **FilterDelay** property for grid column that can be filtered. Thus filtering operations will be executed after the delay specified through that property elapses. For example:
 
-````ASPNET
+````ASP.NET
 <telerik:GridNumericColumn DataField="OrderID" HeaderText="OrderID" SortExpression="OrderID"
   UniqueName="OrderID" FilterControlWidth="40px" AutoPostBackOnFilter="false" CurrentFilterFunction="EqualTo"
   FilterDelay="4000" ShowFilterIcon="false" />
@@ -158,7 +158,7 @@ Another option is to set **FilterDelay** property for grid column that can be fi
 
 In some cases when the **RadGrid** uses absolute positioning, you may find the filtering pop-up hidden behind the grid. You can easily fix the problem by setting the Z-index of the corresponding element in the ASPX to 0:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
 ````
 

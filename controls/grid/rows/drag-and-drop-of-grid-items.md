@@ -16,7 +16,7 @@ position: 4
 
 RadGrid exposes flexible event-driven mechanism to drag and drop grid records to reorder them within the same grid, move them to different grid instance or drop them over other html element on the page. In order to enable drag and drop of grid items, you need to set the two boolean grid properties to true, namely:
 
-````ASPNET
+````ASP.NET
 <ClientSettings AllowRowsDragDrop="true">
       <Selecting AllowRowSelect="True" />
 </ClientSettings>
@@ -70,7 +70,7 @@ Below is a code extraction from the [ relevant online demo ](http://demos.teleri
 
 
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel" runat="server" Transparency="30" CssClass="LoadingPanel_Hay"></telerik:RadAjaxLoadingPanel>
 <telerik:RadAjaxManager runat="server" ID="radAjax" DefaultLoadingPanelID="RadAjaxLoadingPanel">
@@ -385,7 +385,7 @@ protected class Order
     }
 }
 ````
-````VB.NET
+````VB
 Protected Property PendingOrdersStore() As IList(Of Order)
     Get
         Try

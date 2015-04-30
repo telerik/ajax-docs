@@ -69,7 +69,7 @@ RadGrid can fire three events after an automatic action occurred:
 	        RadGrid1.Controls.Add(new LiteralControl(text));
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemUpdated(ByVal source As Object, ByVal e As Telerik.Web.UI.GridUpdatedEventArgs) Handles RadGrid1.ItemUpdated
 	        If Not (e.Exception Is Nothing) Then
 	            e.KeepInEditMode = True
@@ -120,7 +120,7 @@ The default behavior of Telerik RadGrid is tolet the **DataSource** control rise
 	          ....
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As GridDeletedEventArgs) Handles RadGrid1.ItemDeleted
 	        If Not (e.Exception Is Nothing) Then
 	            e.ExceptionHandled = True

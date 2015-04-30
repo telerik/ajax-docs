@@ -37,6 +37,6 @@ The filter form can be thereby opened and the user may enter their custom filter
 
 There is also an alternative way to open the filter form. When the **EnableHeaderContextMenu** property is enabled, you will also need to set the **EnableHeaderContextFilterMenu** to **True** in order for the filtering to appear in the context menu options.
 
-# See Also
+## See Also
 
  * [Overview]({%slug grid/mobile-support/overview%})

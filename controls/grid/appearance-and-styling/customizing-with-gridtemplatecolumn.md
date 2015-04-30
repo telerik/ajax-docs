@@ -18,7 +18,7 @@ There are cases in which you may want to have two level headers or custom comple
 
 ![Customizing the HeaderTemplate](images/grd_ControllingVisualAppearance_HeaderTemlate.png)
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="false">
 	    <MasterTableView>
 	      <Columns>
@@ -85,7 +85,7 @@ Handle the **NeedDataSource** event in the codebehind:
 	        RadGrid1.DataSource = myDataTable.DefaultView;
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As System.Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath("~/Nwind.mdb"))
 	        Dim MyOleDbDataAdapter As New OleDbDataAdapter

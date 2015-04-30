@@ -50,7 +50,7 @@ In some scenarios you may want to extend the default functionality of **GridColu
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	  Namespace MyNamespace
 	
 	    Public Class MyCustomColumn
@@ -89,7 +89,7 @@ In some scenarios you may want to extend the default functionality of **GridColu
 
 
 
-````VB.NET
+````VB
 	    Public Overloads Overrides Function Clone() As GridColumn
 	        Dim requiredGridBoundColumn As New RequiredGridBoundColumn()
 	

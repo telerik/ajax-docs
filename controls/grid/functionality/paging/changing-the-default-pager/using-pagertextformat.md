@@ -52,7 +52,7 @@ No matter which pager you choose, the meaning of the different parameters is as 
 
 The following screen shots show how the pager looks for each of the different pager modes before and after **PagerTextFormat** is set:
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NextPrev" />
 ````
 
@@ -60,7 +60,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev Pager Mode](images/RadGrid_PagerMode_NextPrev.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NextPrev" PagerTextFormat="Navigate pages {4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
@@ -68,7 +68,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev/Text Pager Mode](images/RadGrid_PagerMode_NextPrev_PagerText.jpg)
 
-````ASPNET
+````ASP.NET
 	  <PagerStyle Mode="NextPrevAndNumeric" />
 ````
 
@@ -76,7 +76,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev/Numeric Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumeric.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NextPrevAndNumeric" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
@@ -84,7 +84,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev/Numeric/Text Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumericPagerText.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NextPrevNumericAndAdvanced" />
 ````
 
@@ -92,7 +92,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev/Numeric/Advanced Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumericAndAdvanced.jpg)
 
-````ASPNET
+````ASP.NET
 	  <PagerStyle Mode="NextPrevNumericAndAdvanced" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
@@ -100,7 +100,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Next/Prev/Numeric/Advanced/Text Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumericAndAdvanced_PagerText.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="Advanced" />
 ````
 
@@ -108,7 +108,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Advanced Pager Mode](images/RadGrid_PagerMode_Advanced.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="Advanced" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
@@ -116,7 +116,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Advance Pager Mode with Text](images/RadGrid_PagerMode_Advanced_PagerText.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NumericPages" />
 ````
 
@@ -124,7 +124,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Numeric Pages](images/RadGrid_PagerMode_NumericPages.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="NumericPages" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
@@ -132,7 +132,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Numeric Page/Text Pager Mode](images/RadGrid_PagerMode_NumericPages_PagerText.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="Slider" />
 ````
 
@@ -140,7 +140,7 @@ The following screen shots show how the pager looks for each of the different pa
 
 ![Slider Pager Mode](images/RadGrid_PagerMode_Slider.jpg)
 
-````ASPNET
+````ASP.NET
 <PagerStyle Mode="Slider" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ....
 <ClientSettings>

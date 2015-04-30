@@ -38,7 +38,7 @@ A common request is to use letters instead of numbers in the grid pager and filt
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True" PageSize="5"
     runat="server" GridLines="None" Width="100%" OnItemCreated="RadGrid1_ItemCreated"
     OnItemCommand="RadGrid1_ItemCommand">
@@ -109,7 +109,7 @@ public void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventA
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridPagerItem Then
         Dim pagerItem As GridPagerItem = CType(e.Item, GridPagerItem)

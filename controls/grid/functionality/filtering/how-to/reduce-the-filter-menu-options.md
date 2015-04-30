@@ -22,7 +22,7 @@ Below is a sample code implementation (based on the approach explained above) th
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
     Width="760px" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15"
     ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false">
@@ -148,7 +148,7 @@ protected void RadGrid1_Init(object sender, System.EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private Sub RadGrid1_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.Init
     Dim menu As GridFilterMenu = RadGrid1.FilterMenu
     Dim i As Integer = 0

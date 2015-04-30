@@ -38,7 +38,7 @@ When columns are created programmatically, they appear in the same order that th
 ````C#
 grid.MasterTableView.SwapColumns("City","ContactName");			
 ````
-````VB.NET
+````VB
 grid.MasterTableView.SwapColumns("City","ContactName")			
 ````
 
@@ -50,7 +50,7 @@ grid.MasterTableView.SwapColumns("City","ContactName")
 ````C#	     
 grid.MasterTableView.SwapColumns(3, 4);				
 ````
-````VB.NET
+````VB
 grid.MasterTableView.SwapColumns(3, 4)
 ````
 
@@ -78,7 +78,7 @@ if (c != null){
     }
 }			
 ````
-````VB.NET
+````VB
 Dim cols As GridColumnCollection = grid.MasterTableView.Columns
 Dim c As GridColumn = cols.FindByUniqueName(columnName)
 If c IsNot Nothing Then
@@ -103,6 +103,6 @@ End If
 
 When working with disabled viewstate (see [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})), **RadGrid** must rebind on each page load to maintain its state. Because of this, client-side column reordering does not work as expected in this mode. If you want to enable column re-ordering when working with **EnableViewState = false** for the grid, ensure that you set **ClientSettings.ReorderCoumnsOnClient** to **False** in order to reorder the grid columns on the server.
 
-# See Also
+## See Also
 
  * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})

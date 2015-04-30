@@ -42,7 +42,7 @@ The selected items can be accessed by calling the **get_selectedItems()** method
 
 You can set the properties for enabling client-side multi-row selection declaratively:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowMultiRowSelection="True">
 	    <ClientSettings>
 	      <Selecting AllowRowSelect="true" EnableDragToSelectRows="true" />
@@ -61,7 +61,7 @@ You can also set these properties at runtime in the code-behind:
 	    RadGrid1.ClientSettings.Selecting.AllowRowSelect = true;
 	    RadGrid1.ClientSettings.Selecting.EnableDragToSelectRows = true;			
 ````
-````VB.NET
+````VB
 	RadGrid1.AllowMultiRowSelection = true
 	RadGrid1.ClientSettings.Selecting.AllowRowSelect = true
 	RadGrid1.ClientSettings.Selecting.EnableDragToSelectRows = true

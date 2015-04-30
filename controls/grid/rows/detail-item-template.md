@@ -18,7 +18,7 @@ The **DetailItemTemplate** is considered a part of the **GridDataItem** and is r
 
 The template is instantiated within a single cell that spans over the whole row/item.
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid runat="server" ID="RadGrid1" AutoGenerateColumns="false">
 	  <MasterTableView>
 		<DetailItemTemplate>
@@ -51,4 +51,4 @@ The new template supports databinding using the **DataItem** of the correspondin
 >
 
 
-# See Also
+## See Also

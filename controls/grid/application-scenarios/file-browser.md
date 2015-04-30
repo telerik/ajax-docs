@@ -66,7 +66,7 @@ This is a typical example for "File browser" type of application for web.
 	      return image;
 	    }
 ````
-````ASPNET
+````ASP.NET
 	  <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 	    <Services>
 	      <asp:ServiceReference Path="Directories.asmx" />
@@ -232,7 +232,7 @@ This is a typical example for "File browser" type of application for web.
 	        return image;
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        AddHandler RadGrid1.NeedDataSource, AddressOf RadGrid1_NeedDataSource
 	        AddHandler RadGrid1.ItemDataBound, AddressOf RadGrid1_ItemDataBound

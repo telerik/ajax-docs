@@ -18,7 +18,7 @@ There are many cases where you want Telerik RadGrid to receive its data from an 
 
 Telerik RadGrid offers this feature. The code below holds **MS GridView**and Telerik RadGrid instances. Both controls are populated from **ObjectDataSource**and demonstrate the integrated custom paging feature of this **DataSource**control.
 
-````ASPNET
+````ASP.NET
 <h3>GridView</h3>
 <asp:GridView ID="GridView1" runat="server" AllowPaging="True" DataSourceID="ObjectDataSource1"
   PageSize="5">

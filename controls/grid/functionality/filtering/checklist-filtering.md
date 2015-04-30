@@ -35,7 +35,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
     AllowPaging="True" OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
     DataSourceID="SqlDataSource1">
@@ -101,7 +101,7 @@ public DataTable GetDataTable(string field)
     return myDataTable;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_FilterCheckListItemsRequested(sender As Object, e As GridFilterCheckListItemsRequestedEventArgs)
     Dim DataField As String = TryCast(e.Column, IGridDataColumn).GetActiveDataField()
     e.ListBox.DataSource = GetDataTable(DataField)
@@ -137,7 +137,7 @@ End Function
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
     AllowPaging="true" PagerStyle-AlwaysVisible="true" AllowSorting="true">
     <MasterTableView AutoGenerateColumns="False" CheckListWebServicePath="NorthwindCustomersWcfService.svc"
@@ -308,7 +308,7 @@ public class NorthwindCustomersWcfService
     }
 }
 ````
-````VB.NET
+````VB
 <ServiceKnownType(GetType(Customer))> _
 <ServiceContract([Namespace]:="")> _
 <AspNetCompatibilityRequirements(RequirementsMode:=AspNetCompatibilityRequirementsMode.Allowed)> _

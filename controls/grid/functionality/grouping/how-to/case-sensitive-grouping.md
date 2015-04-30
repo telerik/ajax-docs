@@ -16,7 +16,7 @@ position: 6
 
 RadGrid supports grouping of items based on the value of a particular column. To group these items in a case sensitive order you can set **GroupingSettings.CaseSensitive** property to **true**. Using this property you will make the grid grouping and filtering case sensitive.
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" ShowGroupPanel="true">
     <GroupingSettings CaseSensitive="true" />
     <ClientSettings AllowDragToGroup="True" />
@@ -53,7 +53,7 @@ protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDat
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
     Dim table As New DataTable()
     table.Columns.Add("ID")
@@ -85,7 +85,7 @@ protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDat
     RadGrid1.DataSource = table;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(sender As Object, e As Telerik.Web.UI.GridNeedDataSourceEventArgs)
     Dim dv As DataView = DirectCast(sqlDS1.[Select](DataSourceSelectArguments.Empty), DataView)
     Dim dt As New DataTable()

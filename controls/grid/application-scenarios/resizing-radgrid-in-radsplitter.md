@@ -29,7 +29,7 @@ Below is the code logic used in the example:
 	      $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest('ChangePageSize');
 	    }
 ````
-````ASPNET
+````ASP.NET
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
 	    <AjaxSettings>
 	      <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
@@ -123,7 +123,7 @@ Below is the code logic used in the example:
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
 	        If Not Page.IsPostBack Then
 	            RadGrid1.PageSize = 6

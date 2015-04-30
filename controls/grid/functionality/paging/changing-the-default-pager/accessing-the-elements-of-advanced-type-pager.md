@@ -40,7 +40,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
 	        If TypeOf e.Item Is GridPagerItem Then
 	            Dim lblPageSize As Label = DirectCast(e.Item.FindControl("ChangePageSizeLabel"), Label)
@@ -68,7 +68,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid
     ID="RadGrid1"
     runat="server"
@@ -96,7 +96,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
     If TypeOf e.Item Is GridPagerItem Then
         Dim goToPageText As RadNumericTextBox = CType(e.Item.FindControl("GoToPageTextBox"), RadNumericTextBox)
@@ -129,7 +129,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridPagerItem Then
         Dim item As GridPagerItem = TryCast(e.Item, GridPagerItem)
@@ -140,6 +140,6 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Pager Item]({%slug grid/functionality/paging/pager-item%})

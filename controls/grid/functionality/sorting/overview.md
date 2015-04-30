@@ -42,7 +42,7 @@ Sorting is controlled by [sorting expressions]({%slug grid/functionality/sorting
 
 An easy way to change the RadGrid sort arrows is to use the **SortAscImageUrl** and **SortDescImageUrl** properties, which are set **per column**. For example:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn SortAscImageUrl="MySortAscImage.gif" SortDescImageUrl="MySortDescImage.gif" />
 ````
 
@@ -58,7 +58,7 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
     e.Column.SortAscImageUrl = "MySortAscImage.gif";
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs)
     e.Column.SortAscImageUrl = "MySortAscImage.gif"
 End Sub
@@ -79,7 +79,7 @@ To provide additional feedback about sorted columns, you can specify a different
 
 ![Sorted columns colorization](images/grd_SortedColumnColorized.png)
 
-# See Also
+## See Also
 
  * [Multi-Column Sorting]({%slug grid/functionality/sorting/multi-column-sorting%})
 

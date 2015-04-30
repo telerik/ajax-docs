@@ -46,7 +46,7 @@ In some editing scenarios you may need to display different edit forms for Teler
 	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	     SelectCommand="SELECT * FROM [Orders]"></asp:SqlDataSource>
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
 	            e.Canceled = True

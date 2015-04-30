@@ -56,7 +56,7 @@ To define the structure of a **RadGrid** control that is declared in the ASPX pa
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" />
 <asp:SqlDataSource ID="SqlDataSource1" 
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
@@ -124,7 +124,7 @@ protected void Page_Load(object sender, System.EventArgs e)
 }
 
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     If Not IsPostBack Then
         RadGrid1.DataSourceID = "SqlDataSource1"
@@ -186,7 +186,7 @@ When creating a **RadGrid** on a **Page_Load** event, the columns or detail tabl
 
 
 
-````ASPNET
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
 ````C#
@@ -215,7 +215,7 @@ protected void Page_Load(object sender, System.EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
     Dim RadGrid1 As New RadGrid()
     RadGrid1.ID = "RadGrid1"
@@ -246,7 +246,7 @@ When generating a grid in the **Page_Init** event handler, grid columns should b
 
 
 
-````ASPNET
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
 <asp:SqlDataSource ID="SqlDataSource4" 
       ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
@@ -309,7 +309,7 @@ private void DefineGridStructure()
     this.PlaceHolder1.Controls.Add(grid);
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
     DefineGridStructure()
 End Sub
@@ -445,7 +445,7 @@ protected void Page_Init(object source, System.EventArgs e)
     DefineGridStructure();
 }
 ````
-````VB.NET
+````VB
 Private Sub DefineGridStructure()
     Dim RadGrid1 As RadGrid = New RadGrid
     RadGrid1.DataSourceID = "SqlDataSource1"
@@ -618,7 +618,7 @@ private class MyTemplate : ITemplate
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
     Dim grid As New RadGrid()
     grid.AutoGenerateColumns = False

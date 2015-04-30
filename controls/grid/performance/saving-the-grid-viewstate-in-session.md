@@ -34,7 +34,7 @@ Still, a possible solution for ViewState reduction is to relocate it in a Sessio
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Dim _pers As PageStatePersister
 	    Protected Overrides ReadOnly Property PageStatePersister As PageStatePersister

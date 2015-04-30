@@ -23,7 +23,7 @@ Note that if you want to set empty sources for the MasterTableView/DetailTables 
 ````C#
 	            <GridInstance>.DataSource = new Object[0];  
 ````
-````VB.NET
+````VB
 	     
 							<GridInstance>.DataSource = new Object(){}
 				
@@ -37,7 +37,7 @@ or
 ````C#
 	<DetailTableInstance>.DataSource = new Object[0];          
 ````
-````VB.NET
+````VB
 	     
 							<DetailTableInstance>.DataSource = new Object(){}
 				
@@ -86,7 +86,7 @@ This problem can be fixed in the following ways:
 	        }
 	}          
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
 	            e.Canceled = True
@@ -113,7 +113,7 @@ There are two possible reasons for this error message to appear:
 
 * There are items in your database with values which differ by spaces. For example:
 
-````XML
+````ASP.NET
 	//arbitrary column string values
 	billy dean
 	heath j aldrich[SPACE]

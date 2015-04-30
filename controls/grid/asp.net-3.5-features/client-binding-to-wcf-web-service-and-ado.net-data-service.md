@@ -24,7 +24,7 @@ RadGrid for ASP.NET AJAX exposes declarative way to binding itself to data retur
 
 For the first RadGrid, which is bound to WCF Web Service, you need to specify an existing web service and method with following signature:
 
-````ASPNET
+````ASP.NET
 <ClientSettings>
     <DataBinding SelectMethod="GetDataAndCount" Location="GridWcfService.svc"
         SortParameterType="Linq" FilterParameterType="Linq">
@@ -38,7 +38,7 @@ public ResultData GetDataAndCount(int startRowIndex, int maximumRows, string sor
 {
 }
 ````
-````VB.NET
+````VB
 <OperationContract()> _
 Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As ResultData
 End Function
@@ -46,7 +46,7 @@ End Function
 
 where *ResultData *is custom class that holds data returned from the service to client.The signature of this class and the *GridWcfService.svc* file (used in the demo) are shown below:
 
-````ASPNET
+````ASP.NET
 <%@  servicehost language="C#" debug="true" service="GridWcfService" codebehind="~/App_Code/GridWcfService.cs" %>
 ````
 ````C#
@@ -96,7 +96,7 @@ public class GridWcfService
    }
 }   
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
@@ -178,7 +178,7 @@ End Function
 
 The second RadGrid from the online example referenced above is bound to ADO.NET Data Service. You need to point an existing ADO.NET data service to generate the grid content and specify the following settings:
 
-````ASPNET
+````ASP.NET
 <ClientSettings>
     <DataBinding Location="GridAdoNetDataService.svc" SelectCountMethod="GetCount">
    	    <DataService TableName="Products" />
@@ -196,7 +196,7 @@ public int GetCount(string where)
     return String.IsNullOrEmpty(where) ? CurrentDataSource.Products.Count() : CurrentDataSource.Products.Where(where).Count();
 }
 ````
-````VB.NET
+````VB
 <WebGet()> _
 Public Function GetCount(ByVal where As String) As Integer
     Return If([String].IsNullOrEmpty(where), CurrentDataSource.Products.Count(), CurrentDataSource.Products.Where(where).Count())
@@ -205,14 +205,14 @@ End Function
 
 The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc* file from the sample is presented in the forthcoming section:
 
-````ASPNET
+````ASP.NET
 
 <%@ ServiceHost Language="C#" Factory="System.Data.Services.DataServiceHostFactory" Service="GridAdoNetDataService" %>
 ````
 
 
 
-````ASPNET
+````ASP.NET
 using System;
 using System.Data.Services;
 using System.Collections.Generic;
@@ -234,7 +234,7 @@ public class GridAdoNetDataService : DataService<NorthwindEntities>
    }
 } 			
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Data.Services
 Imports System.Collections.Generic

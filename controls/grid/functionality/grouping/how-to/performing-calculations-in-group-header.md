@@ -20,7 +20,7 @@ The following example illustrates how this is done. It uses the "Sum" and "Count
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="100%"
   PageSize="10" AllowSorting="True" AllowPaging="True" ShowGroupPanel="True">
   <MasterTableView>
@@ -63,7 +63,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 
     If TypeOf e.Item Is GridGroupHeaderItem Then

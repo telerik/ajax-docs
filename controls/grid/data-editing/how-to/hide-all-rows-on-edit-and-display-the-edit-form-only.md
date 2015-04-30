@@ -50,7 +50,7 @@ After update/cancel operation, the rest of the grid records will show up on the 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
 	        If (RadGrid1.EditItems.Count > 0) Then
 	            For Each item As GridDataItem In RadGrid1.MasterTableView.Items

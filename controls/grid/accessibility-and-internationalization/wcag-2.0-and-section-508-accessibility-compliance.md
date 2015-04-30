@@ -50,7 +50,7 @@ The Section 508 standards are listed on the official government site:
 
 Here are the code snippets from the aforementioned sample:
 
-````ASPNET
+````ASP.NET
 	  <head runat="server">
 	    <link type="text/css" rel="stylesheet" href="Skins/Sunset/Grid.Sunset.css" />
 	    <style type="text/css">.RadGrid_<%= MyGrid1.Skin %> th input
@@ -98,7 +98,7 @@ Here are the code snippets from the aforementioned sample:
 	        e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
 	    }			
 ````
-````VB.NET
+````VB
 	    Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
 	        e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
 	    End Sub
@@ -129,7 +129,7 @@ Here are the code snippets from the aforementioned sample:
 	    }
 	}			
 ````
-````VB.NET
+````VB
 	Imports Telerik.Web.UI
 	Namespace Telerik.Web.UI
 	 Public Class MySection508Grid Inherits RadGrid

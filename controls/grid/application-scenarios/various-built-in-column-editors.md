@@ -36,7 +36,7 @@ Here are the relevant code snippets from the online demo:
 
 
 
-````ASPNET
+````ASP.NET
 	  <asp:ScriptManager ID="ScriptManager" runat="server" />
 	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	    <AjaxSettings>
@@ -127,7 +127,7 @@ Here are the relevant code snippets from the online demo:
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not Page.IsPostBack Then
 	            RadGrid1.EditIndexes.Add(0)
@@ -156,6 +156,6 @@ Additional resources about how to integrate custom editors in Telerik RadGrid yo
 
 [ Building a RadDatePicker custom column editor for Telerik RadGrid ](http://www.telerik.com/community/code-library/submission/b311D-dgkaa.aspx)
 
-# See Also
+## See Also
 
  * [Online example](http://demos1x.telerik.com/aspnet/Controls/Examples/Integration/GridEditorAndCombo/DefaultCS.aspx)

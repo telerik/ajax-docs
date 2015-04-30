@@ -22,6 +22,6 @@ In order to show the command item, you should set **CommandItemDisplay** propert
 >
 
 
-# See Also
+## See Also
 
  * [Command Item Template]({%slug grid/data-editing/commanditem/command-item-template%})

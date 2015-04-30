@@ -151,7 +151,7 @@ public DataTable GetDataTable(string query)
     return myDataTable;
 }
 ````
-````VB.NET	
+````VB	
 Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As GridDetailTableDataBindEventArgs) Handles RadGrid1.DetailTableDataBind
     If e.DetailTableView.DataSourceID = "" Then
         Dim dataItem As GridDataItem = DirectCast(e.DetailTableView.ParentItem, GridDataItem)

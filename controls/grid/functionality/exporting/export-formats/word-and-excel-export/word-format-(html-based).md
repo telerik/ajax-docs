@@ -61,7 +61,7 @@ protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs 
                      </xml>";
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
     e.XmlOptions = "<xml><w:WordDocument><w:HideSpellingErrors/><w:View>Print</w:View></w:WordDocument></xml>"
 End Sub	

@@ -30,7 +30,7 @@ To enable virtual scrolling for browsing large record sets,
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
   <AjaxSettings>
     <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -62,7 +62,7 @@ protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDat
         RadGrid1.CurrentPageIndex * RadGrid1.PageSize + " AND " + ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize));
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNeedDataSourceEventArgs)
     RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " &
                                        RadGrid1.CurrentPageIndex * RadGrid1.PageSize & " AND " & ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize))
@@ -160,7 +160,7 @@ protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e
     RadGrid1.Rebind();
 }	
 ````
-````VB.NET
+````VB
 Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web.UI.AjaxRequestEventArgs)
     RadGrid1.PageSize = 10 + RadGrid1.PageSize
     RadGrid1.Rebind()
@@ -170,6 +170,6 @@ End Sub
 
 For a live example demonstrating the techniques described above, see [Virtual scrolling and paging](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/VirtualScrollPaging/DefaultCS.aspx).
 
-# See Also
+## See Also
 
  * [Virtual Scrolling and Paging]({%slug grid/ajaxified-radgrid/virtual-scrolling-and-paging%})

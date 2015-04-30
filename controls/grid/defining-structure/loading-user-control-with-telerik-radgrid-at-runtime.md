@@ -33,7 +33,7 @@ protected void Page_Load(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     If Page.FindControl("myUC") = Nothing Then
         Dim myControl As Control = Me.LoadControl("gridUC.ascx")
@@ -59,7 +59,7 @@ protected void Page_Init(object sender, EventArgs e)
     this.Panel1.Controls.Add(myControl);
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
     Me.Panel1.Controls.Clear()
     Dim myControl As Control = Me.LoadControl("gridUC.ascx")

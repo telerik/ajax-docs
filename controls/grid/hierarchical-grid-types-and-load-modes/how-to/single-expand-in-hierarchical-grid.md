@@ -106,7 +106,7 @@ And here is the code of a simple demo:
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_NeedDataSource(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        If Not e.IsFromDetailTable Then
 	            RadGrid1.DataSource = DataSourceHelperCS.GetDataTable("SELECT TOP 5 * FROM Customers")

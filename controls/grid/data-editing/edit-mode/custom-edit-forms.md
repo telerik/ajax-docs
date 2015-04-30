@@ -39,7 +39,7 @@ If you need a reference to the **UserControl** from an event handler of your **R
 ````C#
 	    UserControl MyUserControl = editFormItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
 ````
-````VB.NET
+````VB
 	    Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
 ````
 
@@ -53,7 +53,7 @@ When **RadGrid** loads the **UserControl** Edit Form, the **UserControl** has fu
 ````C#
 	    GridEditableItem editedItem = this.Parent.NamingContainer;
 ````
-````VB.NET
+````VB
 	    Dim editedItem As GridEditableItem = Me.Parent.NamingContainer
 ````
 
@@ -69,7 +69,7 @@ You can use the **Page** property of the user control to access the Web page tha
 ````C#
 	    MyPageClassName myPage = this.Page;
 ````
-````VB.NET
+````VB
 	    Dim myPage As MyPageClassName = Me.Page
 ````
 
@@ -90,7 +90,7 @@ To access data from the object that the custom edit form is binding to, the bind
 
 Here is an example declaration of a **TextBox** server control inside a **UserControl** that is bound to the **Region** property of the **DataItem** in **RadGrid**:
 
-````ASPNET
+````ASP.NET
 	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "Parent.BindingContainer.DataItem.Region") %>' />
 ````
 
@@ -118,7 +118,7 @@ For example, if you bind **RadGrid** to a **DataSet**, the **DataItem** property
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private _dataItem As Object = Nothing
 	    Public Property DataItem As Object
 	        Get
@@ -136,7 +136,7 @@ The **DataItem** property should be declared as of type object. After loading th
 
 Once your **UserControl** has a **DataItem** property, you can use binding expressions such as the following:
 
-````ASPNET
+````ASP.NET
 	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Eval( "Country" ) %>'></asp:TextBox>
 ````
 
@@ -166,7 +166,7 @@ Here is an example that sets the text for a **TextBox** that resides inside the 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
@@ -195,7 +195,7 @@ To select the proper item in a drop-down list inside your **UserControl**, handl
 	        ddlTOC.DataSource = null;
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub MyEditForm_DataBinding(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.DataBinding
 	        Dim tocs As String() = New String() {"Dr.", "Mr.", "Mrs.", "Ms."}
 	        ddlTOC.DataSource = tocs
@@ -267,7 +267,7 @@ Here is an example that sets the text for a **TextBox** that resides inside the 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
 	            Dim editFormItem As GridEditFormItem = CType(e.Item, GridEditFormItem)
@@ -326,7 +326,7 @@ The following example illustrates this approach:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	        Dim grid1 As RadGrid = New RadGrid()
 	        grid1.DataSourceID = "SqlDataSource1"

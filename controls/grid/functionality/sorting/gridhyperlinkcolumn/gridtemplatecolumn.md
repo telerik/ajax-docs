@@ -20,7 +20,7 @@ To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you ne
 
 * When using **GridTemplateColumn**, the **SortExpression** value should match the data field you want to sort on (typically the field a control in the template is bound to).
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
   Width="400px">
   <MasterTableView AutoGenerateColumns="false" AllowSorting="true">
@@ -44,7 +44,7 @@ To enable sorting for **GridHyperLinkColumn** and **GridTemplateColumn**, you ne
 
 You can add a sort button to a template in the grid. When adding a sort button, set the **CommandName** property to "Sort" and the sort expression as the **CommandArgument** for the button. **RadGrid** can then handle the sorting automatically when the user clicks the button.
 
-````ASPNET
+````ASP.NET
 <telerik:GridTemplateColumn SortExpression="CompanyName">
     <HeaderTemplate>
       <asp:Button id="Button1" runat="server"

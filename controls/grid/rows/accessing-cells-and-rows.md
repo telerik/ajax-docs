@@ -31,7 +31,7 @@ else if (e.Item is GridEditFormItem)
     GridEditFormItem editItem = e.Item as GridEditFormItem;
 }
 ````
-````VB.NET
+````VB
 'e is the event argument object
      If TypeOf e.Item Is GridDataItem Then 
 Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
@@ -52,7 +52,7 @@ To provide a reliable way of locating the cell in a particular column, each colu
 ````C#
 TableCell cell = dataItem["ColumnUniqueName"]; //where dataItem is object of type GridDataItem
 ````
-````VB.NET
+````VB
 Dim cell As TableCell = dataItem("ColumnUniqueName")
 'where dataItem is object of type GridDataItem
 ````
@@ -65,7 +65,7 @@ To get the cell's value, use the **Text** property of the cell:
 ````C#
 string itemValue = dataItem["ColumnUniqueName"].Text; //where dataItem is object of type GridDataItem
 ````
-````VB.NET
+````VB
 Dim itemValue As String = dataItem("ColumnUniqueName").Text
 'where dataItem is object of type GridDataItem
 ````
@@ -82,7 +82,7 @@ When you need to retrieve value from a **GridCheckBoxColumn** you have to	first 
 ````C#
 bool boolValue = (item["GridCheckBoxColumnUniqueName"].Controls[0] as CheckBox).Checked;
 ````
-````VB.NET
+````VB
 Dim boolValue As Boolean = TryCast(item("GridCheckBoxColumnUniqueName").Controls(0), CheckBox).Checked
 ````
 
@@ -96,7 +96,7 @@ GridHeaderItem headerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Heade
 // fetch the data with headerItem["ColumnUniqueName"].Text
 // or (headerItem["ColumnUniqueName"].Controls(0) as LinkButton).Text if sorting is enabled
 ````
-````VB.NET
+````VB
 Dim headerItem As GridHeaderItem = CType(RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0), GridHeaderItem)
 'fetch the data with headerItem("ColumnUniqueName").Text
 'or CType(headerItem["ColumnUniqueName"].Controls(0), LinkButton).Text if sorting is enabled
@@ -109,7 +109,7 @@ Dim headerItem As GridHeaderItem = CType(RadGrid1.MasterTableView.GetItems(GridI
 GridFooterItem footerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Footer)[0] as GridFooterItem;
 //fetch the data with footerItem["ColumnUniqueName"].Text
 ````
-````VB.NET
+````VB
 Dim footerItem As GridFooterItem = CType(RadGrid1.MasterTableView.GetItems(GridItemType.Footer)(0), GridFooterItem)
 'fetch the data with footerItem("ColumnUniqueName").Text
 ````
@@ -125,7 +125,7 @@ While accessing cells with Template columns remains the same, you could use a li
 TableCell cell = dataItem["ColumnUniqueName"];
 TextBox textBox = dataItem.FindControl("TextBoxID") as TextBox;
 ````
-````VB.NET
+````VB
 Dim cell As TableCell = dataItem("ColumnUniqueName")
 Dim textBox As TextBox = CType(dataItem.FindControl("TextBoxID"), TextBox)
 ````
@@ -141,7 +141,7 @@ If the grid item is in edit mode, you can still use the column's **UniqueName** 
 TableCell cell = editedItem["ColumnUniqueName"];
 string itemValue = (cell.Controls[0] as TextBox).Text;
 ````
-````VB.NET
+````VB
 Dim cell As TableCell = editedItem("ColumnUniqueName")
 Dim itemValue As String = (CType(cell.Controls(0), TextBox)).Text
 ````
@@ -156,7 +156,7 @@ GridEditableItem editedItem = e.Item as GridEditableItem;
 GridEditManager editMan = editedItem.EditManager;
 IGridColumnEditor editor = editMan.GetColumnEditor(columnReference);
 ````
-````VB.NET
+````VB
 Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
 Dim editMan As GridEditManager = editedItem.EditManager
 Dim editor As IGridColumnEditor = editMan.GetColumnEditor(editableCol)
@@ -181,7 +181,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
     If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
         Dim editableItem As GridEditableItem = TryCast(e.Item, GridEditableItem)
@@ -200,7 +200,7 @@ However, you will need to use a different approach corresponding to the chosen *
 ````C#
 TextBox textBox = editableItem["ColumnUniqueName"].Controls[0] as TextBox;
 ````
-````VB.NET
+````VB
 Dim textBox As TextBox = CType(editableItem("ColumnUniqueName").Controls(0), TextBox)
 ````
 
@@ -212,7 +212,7 @@ Dim textBox As TextBox = CType(editableItem("ColumnUniqueName").Controls(0), Tex
 ````C#
 TextBox textBox = editableItem.FindControl("TextBox1") as TextBox;
 ````
-````VB.NET
+````VB
 Dim textBox As TextBox = CType(editableItem.FindControl("TextBox1"), TextBox)
 ````
 
@@ -225,7 +225,7 @@ Dim textBox As TextBox = CType(editableItem.FindControl("TextBox1"), TextBox)
 UserControl userControl = editableItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
 TextBox textBox = userControl.FindControl("TextBox1") as TextBox;
 ````
-````VB.NET
+````VB
 Dim userControl As UserControl = CType(editableItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
 Dim textBox As TextBox = CType(userControl.FindControl("TextBox1"), TextBox)
 ````
@@ -250,7 +250,7 @@ You can use these properties to access the detail tables of a row in the parent 
 ````C#
 GridTableView firstDetail = RadGrid1.MasterTableView.Items[0].ChildItem.NestedTableViews[0];
 ````
-````VB.NET
+````VB
 Dim firstDetail As GridTableView = RadGrid1.MasterTableView.Items(0).ChildItem.NestedTableViews(0)
 ````
 
@@ -262,11 +262,11 @@ Conversely, if you have a reference to the instance of an item in a child table 
 ````C#
 GridTableView parentTable = childItem.OwnerTableView.ParentItem.OwnerTableView;
 ````
-````VB.NET
+````VB
 Dim parentTable As GridTableView = childItem.OwnerTableView.ParentItem.OwnerTableView
 ````
 
 
-# See Also
+## See Also
 
  * [Column Types]({%slug grid/columns/column-types%})

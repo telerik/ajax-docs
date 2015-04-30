@@ -57,7 +57,7 @@ private void DisplayMessage(string text)
     RadGrid1.Controls.Add(new LiteralControl(string.Format("<span style='color:red'>{0}</span>", text)));
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
     If e.CommandName = RadGrid.FilterCommandName Then
         Dim filterPair As Pair = DirectCast(e.CommandArgument, Pair)

@@ -32,7 +32,7 @@ When nesting several tables at the same level, it is a good idea to set the **Ca
 
 The following is an excerpt from the declaration of a grid that shows two tables nested at the same level:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="WebBlue" PageSize="5" AllowPaging="True">
 	    <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID,EmployeeID"
 	      AllowMultiColumnSorting="True" Width="100%" TableLayout="Auto" AutoGenerateColumns="False">

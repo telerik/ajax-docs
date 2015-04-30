@@ -56,6 +56,6 @@ Property that returns the virtual item count value for the respective **GridTabl
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})

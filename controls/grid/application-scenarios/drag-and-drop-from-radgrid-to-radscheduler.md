@@ -66,7 +66,7 @@ Here follows the code used to achieve this:
 	        </script>
 	    </telerik:RadScriptBlock>
 ````
-````ASPNET
+````ASP.NET
 	    <input type="hidden" runat="server" id="TargetSlotHiddenField" />
 	    <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1">
 	        <AjaxSettings>
@@ -331,7 +331,7 @@ Here follows the code used to achieve this:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_RowDrop(ByVal sender As Object, ByVal e As GridDragDropEventArgs)
 	        Dim dataItem As GridDataItem = e.DraggedItems(0)

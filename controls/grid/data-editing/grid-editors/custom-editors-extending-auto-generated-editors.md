@@ -24,7 +24,7 @@ There are two ways to attach a column editor to a column in your grid:
 
 In an ASPX file, you can attach an instance of your custom editor to a column by adding an instance to the page and setting the **ColumnEditorID** property of the column to the ID of the column editor:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
 	    <MasterTableView>
 	      <Columns>
@@ -63,7 +63,7 @@ In a **CreateColumnEditor** event handler, you can attach an instance of your cu
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_CreateColumnEditor(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridCreateColumnEditorEventArgs) Handles RadGrid1.CreateColumnEditor
 	        Dim column As GridBoundColumn = TryCast(e.Column, GridBoundColumn)
 	        If column IsNot Nothing AndAlso column.DataField = "ShipAddress" Then
@@ -214,7 +214,7 @@ The example below shows the implementation of two custom column editor classes. 
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Public Class MultiLineTextBoxColumnEditor
 	        Inherits GridTextColumnEditor
 	        Private textBox As TextBox

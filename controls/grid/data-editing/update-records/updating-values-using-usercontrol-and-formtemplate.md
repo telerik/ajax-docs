@@ -20,7 +20,7 @@ The code below shows how to retrieve a value from a control in a user control cu
 
 
 
-````VB.NET
+````VB
 	    Private Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
 	        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
 	        Dim MyUserControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
@@ -166,7 +166,7 @@ The code below shows to retrieve a value from a control in a form template custo
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As WebControls.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 	        If (e.CommandName = RadGrid.UpdateCommandName) Then
 	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)

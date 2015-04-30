@@ -30,7 +30,7 @@ You can set default sort expression for the **MasterTableView** or a detail **Gr
 
 * **SortOrder** is the direction of the sort. It can be "Ascending" or "Descending":
 
-````ASPNET
+````ASP.NET
 <MasterTableView>
       ...
     <SortExpressions>
@@ -66,7 +66,7 @@ expression.SortOrder = GridSortOrder.Descending;
 RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression);
 RadGrid1.MasterTableView.Rebind();
 ````
-````VB.NET
+````VB
 Dim expression As GridSortExpression = New GridSortExpression()
 expression.FieldName = "CompanyName"
 expression.SortOrder = GridSortOrder.Descending

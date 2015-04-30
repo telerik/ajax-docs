@@ -42,7 +42,7 @@ The following example shows how to change the sequence of sort modes using the *
 
 The ASPX file declares a grid with a two-level hierarchy and a **SortCommand** event handler:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" Width="95%" AutoGenerateColumns="False"
   PageSize="3" AllowSorting="True" AllowPaging="True" DataSourceID="AccessDataSource1"
   OnSortCommand="RadGrid1_SortCommand">
@@ -114,7 +114,7 @@ protected void RadGrid1_SortCommand(object source, GridSortCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_SortCommand(ByVal source As Object, ByVal e As GridSortCommandEventArgs) Handles RadGrid1.SortCommand
     Dim tableView As GridTableView = e.Item.OwnerTableView
     If tableView.DataSourceID = "AccessDataSource2" AndAlso e.SortExpression = "EmployeeID" Then

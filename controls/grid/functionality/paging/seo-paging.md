@@ -52,7 +52,7 @@ To enable routing support for the SEO pager, RadGrid introduces 3 new properties
 
 To use URL routing with RadGrid, your application must specify a route to the .aspx page and that route should define a URL parameter specifying the grid page:
 
-````XML
+````ASP.NET
 <%@  application language="C#" %>
 <%@ import namespace="System.Web.Routing" %>
 <script runat="server">
@@ -78,7 +78,7 @@ To use URL routing with RadGrid, your application must specify a route to the .a
 
 Once routing is enabled in your application, you can configure RadGrid to use the URL parameter in the specified route:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5">
     <PagerStyle EnableSEOPaging="True" UseRouting="true" SEORouteName="RadGridSEOPaging"
         SEOPageIndexRouteParameterName="grid1page"></PagerStyle>

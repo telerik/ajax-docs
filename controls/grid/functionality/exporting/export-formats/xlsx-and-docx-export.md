@@ -14,7 +14,7 @@ position: 5
 
 This help article describes the specifics of exporting a **RadGrid** control to **XLSX** and**DOCX** format, introduced by Microsoft in Office 2007. Both formats are supported since Q3 2014 and are based on the [Telerik document processing libraries](65112864-d4c8-4ad6-8e5a-26f28c32ea8f). In order to use this export formats, you have to set the **ExportSettings-Excel-Format** property to**Xlsx** and **ExportSettings-Word-Format** property to **Docx**.
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
     <Excel Format="Xlsx" />
     <Word Format="Docx" />
@@ -51,7 +51,7 @@ When you set **DataFormatString** of **RadGrid** columns, the format will be app
 
 Example 1:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataType="System.DateTime" DataField="DateField" DataFormatString="{0:tt dd-MM(yyyy) }" />
 ````
 
@@ -59,7 +59,7 @@ Example 1:
 
 Example 2:
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataType="System.Double" DataField="DoubleField" DataFormatString="{0:C2}" />
 ````
 
@@ -75,7 +75,7 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
 RadGrid1.MasterTableView.Items[1].Visible = false; //when IgnorePaging is false
 ````
-````VB.NET
+````VB
 RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
@@ -87,7 +87,7 @@ Additionally you could use the **Exportable** property that allows you to choose
 
 In order to style the elements of the **RadGrid** you could use the standard ASP.NET style properties such as ItemStyle,AlternatingItemStyle, HeaderStyle and FooterStyle to provide a custom style for the items of **RadGrid** control.
 
-````ASPNET
+````ASP.NET
 <AlternatingItemStyle BorderColor="Red" BorderStyle="Solid" BorderWidth="1px" />
 <ItemStyle ForeColor="Green" />
 <HeaderStyle BackColor="Yellow" />
@@ -104,7 +104,7 @@ xls.Column col = e.ExportStructure.Tables[0].Columns[2];
 col.Style.BackColor = Color.Gray;
 col.Style.ForeColor = Color.Yellow;
 ````
-````VB.NET
+````VB
 Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
 col.Style.BackColor = Color.Gray
 col.Style.ForeColor = Color.Yellow
@@ -117,7 +117,7 @@ col.Style.ForeColor = Color.Yellow
 xls.Row row = e.ExportStructure.Tables[0].Rows[2];
 row.Style.BackColor = Color.Blue;
 ````
-````VB.NET
+````VB
 Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
 row.Style.BackColor = Color.Blue
 ````
@@ -129,7 +129,7 @@ row.Style.BackColor = Color.Blue
 xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
 cell1.Style.BackColor = Color.Yellow;
 ````
-````VB.NET
+````VB
 Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
 cell1.Style.BackColor = Color.Yellow
 ````
@@ -141,7 +141,7 @@ cell1.Style.BackColor = Color.Yellow
 xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
 cell2.Style.ForeColor = Color.Tomato;
 ````
-````VB.NET
+````VB
 Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
 cell2.Style.ForeColor = Color.Tomato
 ````

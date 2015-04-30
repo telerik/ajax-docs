@@ -45,7 +45,7 @@ The **Column Display** options enable you to show, hide or rearrange the columns
 **Image 5:** Column Display Options
 ![adaptive grid Column Settings-5](images/adaptive_grid_ColumnSettings-5.png)
 
-# See Also
+## See Also
 
  * [Overview]({%slug grid/mobile-support/overview%})
 

@@ -22,7 +22,7 @@ There are three common techniques for updating a grid row when the user edits it
 
 When using the second or third approach, you can refresh the grid content inside an **UpdateCommand** event handler. The following examples illustrate these techniques. They both use the same grid declaration:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource"
 	    OnUpdateCommand="RadGrid1_UpdateCommand">
 	    <MasterTableView AutoGenerateColumns="False" DataKeyNames="OrderID">
@@ -80,7 +80,7 @@ Both examples also use a **ViewState** property (named "GridSource") for maintai
 	  RadGrid1.DataSource = this.GridSource;
 	} 
 ````
-````VB.NET
+````VB
 	    Private ReadOnly Property GridSource As DataTable
 	        Get
 	            Dim obj As Object = Me.ViewState("_gds")
@@ -148,7 +148,7 @@ Both examples also use a **ViewState** property (named "GridSource") for maintai
 	   }
 	} 		
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs)
 	        Dim editedItem As GridEditableItem = TryCast(e.Item, GridEditableItem)
 	        Dim ordersTable As DataTable = Me.GridSource
@@ -230,7 +230,7 @@ Both examples also use a **ViewState** property (named "GridSource") for maintai
 	}
 	} 
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_UpdateCommand(ByVal source As System.Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
 	        Label1.Text += " Table to be updated: " + e.Item.OwnerTableView.DataMember + "<br>"
 	        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)

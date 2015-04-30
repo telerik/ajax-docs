@@ -22,7 +22,7 @@ To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 
 1. Add the instance of **RadGrid** to a **RadAjaxManager** control. You can optionally provide it with a loading panel, as shown below:
 
-````ASPNET
+````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
   <AjaxSettings>
     <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -57,7 +57,7 @@ you need to the code block inside RadCodeBlock, i.e.:
 
 **Incorrect:**
 
-````ASPNET
+````ASP.NET
 <head runat="server">
   <script>
   var grid = $find(<%= RadGrid1.ClientID %>);
@@ -73,7 +73,7 @@ you need to the code block inside RadCodeBlock, i.e.:
 
 **Correct:**
 
-````ASPNET
+````ASP.NET
 <head runat="server">
   <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script>

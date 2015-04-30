@@ -26,6 +26,6 @@ Apart from row selection RadGrid supports the selection of individual cells and 
 
 N.B.: The selection state of RadGrid's cells is persisted on postback but not on rebinding of the grid.
 
-# See Also
+## See Also
 
  * [For a live example that demonstrates RadGrid's cell selection, see RadGrid Cell Selection.](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/CellSelection/DefaultCS.aspx)

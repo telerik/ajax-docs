@@ -22,7 +22,7 @@ This limitation is because the filtering mechanism relies on the **DataField** o
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:GridDropDownColumn UniqueName="CategoryddColumn" ListTextField="CategoryName"
   HeaderText="Category name" ListValueField="CategoryID" DataField="CategoryID" DataSourceID="dataSourceCategories">
 </telerik:GridDropDownColumn>
@@ -55,7 +55,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
     If e.CommandName = RadGrid.FilterCommandName Then
         Dim command As Pair = CType(e.CommandArgument, Pair)

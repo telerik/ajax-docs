@@ -92,7 +92,7 @@ With version Q3 2010, grid columns now support the **'resize to fit'** functiona
 
 You can set the resizing-related properties declaratively at design time:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid runat="server">
   <ClientSettings>
     <Resizing AllowColumnResize="True" AllowRowResize="false" ResizeGridOnColumnResize="false"
@@ -118,7 +118,7 @@ RadGrid1.ClientSettings.Resizing.EnableRealTimeResize = false;
 RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false;
 //...			
 ````
-````VB.NET
+````VB
 Dim RadGrid1 As RadGrid = New RadGridRadGrid1.ClientSettings.Resizing.AllowColumnResize = True
 RadGrid1.ClientSettings.Resizing.AllowRowResize = false
 RadGrid1.ClientSettings.Resizing.ResizeGridOnColumnResize = false

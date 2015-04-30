@@ -115,7 +115,7 @@ And in the code-behind:
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
 	        Dim masterPrKey As String
 	        Dim detailPrKey As Integer

@@ -36,7 +36,7 @@ This [first example](http://demos.telerik.com/aspnet-ajax-beta/Grid/Examples/Cli
 
 RadGrid declarative client-side data-binding is very similar to **ObjectDataSource** data-binding. You need to specify **SelectMethod** and **SelectCountMethod** (if needed) along with **Location** property and the grid will automatically invoke the specified method as **PageMethod** or **WebService method**:
 
-````ASPNET
+````ASP.NET
 ...
 <ClientSettings> 
   <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetData" SelectCountMethod="GetCount" /> 
@@ -72,7 +72,7 @@ In the *ClientSettings.DataBinding* section you can also specify the following p
 
 To change values on the fly of any of the grid declarative client-side data-binding properties you can use the **OnDataBinding** client-side event:
 
-````ASPNET
+````ASP.NET
 ...
 <ClientEvents OnDataBinding="RadGrid1_DataBinding" />
 ...
@@ -93,7 +93,7 @@ public Dictionary<string, object> GetDataAndCount(int startRowIndex, int maximum
     data.Add("Count", (int)Session["Count"]); return data;
 }
 ````
-````VB.NET 
+````VB 
 <WebMethod(EnableSession = True)>
 <WebMethod(EnableSession:=True)> _
 Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As List(Of GridSortExpression), ByVal filterExpression As List(Of GridFilterExpression)) As Dictionary(Of String, Object)
@@ -113,7 +113,7 @@ The grid will check automatically for "data" and "count" and will not execute a 
 
 RadGrid can cache data on the client based on the current grid state. To enable/disable this feature you can use the **ClientSettings.DataBinding.EnableCaching** property (its default value is false):
 
-````ASPNET
+````ASP.NET
 ...
 <ClientSettings> 
   <DataBinding Location="~/Grid/Examples/Client/DeclarativeDataBinding/WebService.asmx" SelectMethod="GetDataAndCount" EnableCaching="true" /> 
@@ -141,7 +141,7 @@ Below are some code excerpts from the second QSF example:
 
 
 
-````ASPNET
+````ASP.NET
   <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -432,7 +432,7 @@ public class Employee
 }
 
 ````
-````VB.NET
+````VB
 Protected Overloads Overrides Sub OnInit(ByVal e As System.EventArgs)
     MyBase.OnInit(e)
     AddHandler RadGrid1.NeedDataSource, AddressOf RadGrid1_NeedDataSource

@@ -53,7 +53,7 @@ This method allows you to reorder the columns with the specified UniqueName. The
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})
 

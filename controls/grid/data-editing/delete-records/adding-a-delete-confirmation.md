@@ -40,7 +40,7 @@ In this case you need to implement a different approach (without setting the **C
 
 
 
-````ASPNET
+````ASP.NET
 	<telerik:RadGrid ID="RadGrid1" runat="server">
 	  <MasterTableView AutoGenerateColumns="False">
 	    <Columns>
@@ -66,7 +66,7 @@ In this case you need to implement a different approach (without setting the **C
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
 	        If TypeOf e.Item Is GridDataItem Then
 	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
@@ -90,7 +90,7 @@ In case you would like to display a confirmation dialog to prompt the user wheth
 
 Here is an example usage:
 
-````ASPNET
+````ASP.NET
 	<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1" OnNeedDataSource="RadGrid1_NeedDataSource">
 	  <MasterTableView AutoGenerateColumns="False" DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
 	    <Columns>

@@ -39,7 +39,7 @@ This method resizes the column to fit the widest cell's content without wrapping
 
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug grid/overview%})
 

@@ -79,7 +79,7 @@ Localizing the GridPagerItem messages
 |PagerTooltipFormatString|The tooltip that will be displayed when dragging the vertical scroll with virtual scrolling enabled. Same as the text under the RadGrid slider pager, changes will be propagated in both places if made.|
 |[PageTextFormat]({%slug grid/functionality/paging/changing-the-default-pager/using-pagertextformat%})|The text that will be displayed in the grid pager|
 
-# See Also
+## See Also
 
  * [Localizing Edit Command Column]({%slug grid/accessibility-and-internationalization/localizing-edit-command-column%})
 

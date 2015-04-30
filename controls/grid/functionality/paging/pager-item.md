@@ -132,7 +132,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
     If TypeOf e.Item Is GridPagerItem Then
         Label1.Text = CType(e.Item, GridPagerItem).Paging.DataSourceCount.ToString()
@@ -143,7 +143,7 @@ End Sub
 
 You can also get the row count from the pager in the ASPX file as follows:
 
-````ASPNET
+````ASP.NET
 <PagerTemplate>  
   <%# (Container as GridPagerItem).Paging.DataSourceCount %>
 </PagerTemplate>
@@ -155,7 +155,7 @@ You can also get the row count from the pager in the ASPX file as follows:
 
 Since **Q1 2015** version of **UI for ASP.NET AJAX** we introduced a new property named **EnableAllOptionInPagerComboBox** which will add a new item with text "**All**" in the pager dropdown. The item will be included in both **RadComboBox** and **RadDropDown** page size controls.When selecting this item all items will be displayed and the pager item will remain visible.
 
-````ASPNET
+````ASP.NET
 <PagerStyle EnableAllOptionInPagerComboBox="true" />
 ````
 

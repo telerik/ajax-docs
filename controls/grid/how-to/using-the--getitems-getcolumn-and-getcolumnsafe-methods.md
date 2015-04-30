@@ -20,7 +20,7 @@ The **GetItems(itemType)** method returns an array of items (in the respective G
 
 
 
-````VB.NET
+````VB
 	    Dim headerItem As GridItem = RadGrid1.MasterTableView.GetItems(GridItemType.Header)(0)
 	    'cast the item to GridHeaderItem and operate with it further			
 ````
@@ -34,7 +34,7 @@ The **GetColumn(columnName)** method returns the column with the unique name spe
 
 
 
-````VB.NET
+````VB
 	    Dim column As GridColumn = RadGrid1.MasterTableView.GetColumn("OrderID")
 	    'thus you get reference to the column with OrderID unique name			
 ````
@@ -102,7 +102,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 	      Text="Switch insert option visibility for detail table" /><br />
 	  <asp:Button ID="btnDisableMasterInsert" runat="server" Text="Disable/Enable insert for master table" />
 ````
-````VB.NET
+````VB
 	    Public Shared connectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb")
 	Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles 
 	        RadGrid1.NeedDataSource()

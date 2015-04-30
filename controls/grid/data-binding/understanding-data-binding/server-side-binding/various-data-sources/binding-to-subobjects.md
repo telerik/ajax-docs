@@ -22,7 +22,7 @@ You can use a wide variety of custom objects as data sources for **RadGrid**. Th
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:GridBoundColumn DataField="Inner1.TestProp" HeaderText="Inner1.TestProp">
 </telerik:GridBoundColumn><telerik:GridBoundColumn DataField="Inner1.Inner2.TestProp"
   HeaderText="Inner1.Inner2.TestProp"></telerik:GridBoundColumn><telerik:GridBoundColumn
@@ -72,7 +72,7 @@ public class MyObj
     }
 }
 ````
-````VB.NET
+````VB
 Private Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As WebControls.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
     Dim list As New ArrayList
     list.Add(New MyObj("1"))

@@ -30,7 +30,7 @@ To do this,
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" Width="97%"
   AllowSorting="True" AllowPaging="True" Skin="Office2007" OnItemEvent="RadGrid1_ItemEvent">
   <MasterTableView Width="100%">
@@ -101,7 +101,7 @@ private class MyPager : Control
 }
 
 ````
-````VB.NET	
+````VB	
 Protected Sub RadGrid1_ItemEvent(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
     If (TypeOf (e.EventInfo) Is GridInitializePagerItem) Then
         Dim info As GridInitializePagerItem = CType(e.EventInfo, GridInitializePagerItem)

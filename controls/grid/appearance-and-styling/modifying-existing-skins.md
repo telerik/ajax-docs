@@ -115,7 +115,7 @@ To summarize, in order to modify an existing RadGrid skin, either take advantage
 
 3.Manually create a link to the CSS on the page (or MasterPage) for both the RadGrid and RadMenu, for example:
 
-````ASPNET
+````ASP.NET
 	  <link href="~/Skins/Telerik/Grid.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
 	  <link href="~/Skins/Telerik/Menu.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
 ````
@@ -133,7 +133,7 @@ The following table shows how the grid generates its HTML structure:
 
 | 
 
-````XML
+````ASP.NET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 	<div class="RadGrid_WebBlue">
 	    <div>
@@ -160,7 +160,7 @@ The following table shows how the grid generates its HTML structure:
 | ------ | ------ |
 |
 
-````XML
+````ASP.NET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 	<thead>
 	    <tr>
@@ -192,7 +192,7 @@ The following table shows how the grid generates its HTML structure:
 |![](images/grd_skin_header.png)|
 |
 
-````XML
+````ASP.NET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">       
 	<tfoot>
 	    <tr class="rgPager">
@@ -207,7 +207,7 @@ The following table shows how the grid generates its HTML structure:
 |![Pager](images/grd_skin_Pager.png)|
 |
 
-````XML
+````ASP.NET
 	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 	<tbody>
 	    <tr class="rgRow">

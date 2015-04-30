@@ -94,7 +94,7 @@ If you would like to inherit the GridTableView object for your grid, here are so
 	}
 				
 ````
-````VB.NET
+````VB
 	
 	
 	Namespace MyNamespace

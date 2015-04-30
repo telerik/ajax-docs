@@ -16,7 +16,7 @@ position: 6
 
 Sometimes, it may be necessary to style a given row/header in Telerik RadGrid, whenever the user hovers with the mouse over it. With RadGrid this functionality is easily achievable. The control provides a CSS class like *GridRowOver_<SkinName>*. Such style is present under each embedded skin and defines the visual appearance of the hovered grid row. For example:
 
-````XML
+````ASP.NET
 	.GridRowOver_[SkinName]
 	{
 	background-color: orange;
@@ -38,7 +38,7 @@ If you want to attain the same functionality without the built-in feature of Rad
 
 2. Create a style class, in the head section of the .aspx code, which will be used to style the active row/header. This may look something like this:
 
-````ASPNET
+````ASP.NET
 	  <style type="text/css">
 	    .RowMouseOver td
 	    {
@@ -65,7 +65,7 @@ If you want to attain the same functionality without the built-in feature of Rad
 
 3. This particular approach relies on the **OnRowMouseOver**, **OnRowMouseOut**, **OnColumnMouseOver** and **OnColumnMouseOut** client-side functions, to use the style mentioned above. Declare these functions in the **ClientSettings ->ClientEvents** section of the grid declaration like this:
 
-````ASPNET
+````ASP.NET
 	            <ClientSettings>
 	                <ClientEvents OnRowMouseOver="RowMouseOver" OnRowMouseOut="RowMouseOut" OnColumnMouseOver="ColumnMouseOver"
 	                    OnColumnMouseOut="ColumnMouseOut" />
@@ -76,7 +76,7 @@ If you want to attain the same functionality without the built-in feature of Rad
 
 4. Before the grid tag on the page or in the head section, include the client-side JavaScript functions mentioned above:
 
-````ASPNET
+````ASP.NET
 	  <script type="text/javascript">
 	    function RowMouseOver(sender, eventArgs) {
 	      $get(eventArgs.get_id()).className = "RowMouseOver";
@@ -98,7 +98,7 @@ After these steps have been performed, when the user hovers with the mouse over 
 
 ![Set Row Style On Hover](images/grd_SerRowStyleOnHover.png)
 
-# See Also
+## See Also
 
  * [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
 

@@ -28,7 +28,7 @@ For more details review the forthcoming code snippets (feel free to modify the l
 
 
 
-````ASPNET
+````ASP.NET
 <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 <telerik:RadGrid runat="server" AutoGenerateColumns="false" ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource"
   Width="96%" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15" AllowPaging="true"
@@ -48,7 +48,7 @@ For more details review the forthcoming code snippets (feel free to modify the l
     </Columns>
   </MasterTableView></telerik:RadGrid> </pre>
 ````
-````VB.NET
+````VB
 	
     Public Shared connectionString As String = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/Grid/Data/Access/Nwind.mdb")
 

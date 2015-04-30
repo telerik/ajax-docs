@@ -37,7 +37,7 @@ In the code-behind:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
 	        If Not IsPostBack Then
 	            For Each item As GridItem In RadGrid1.MasterTableView.Items
@@ -56,7 +56,7 @@ Another option (which is applicable only with in-forms edit mode (**EditForms**,
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (Not Page.IsPostBack AndAlso TypeOf e.Item Is GridEditableItem) Then
 	            e.Item.Edit = True

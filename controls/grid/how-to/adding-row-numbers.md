@@ -57,7 +57,7 @@ In the example code below the item index is presented in MS Label control which 
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If (TypeOf e.Item Is GridDataItem AndAlso e.Item.OwnerTableView.DataSourceID = "AccessDataSource1") Then
 	            Dim lbl As Label = CType(e.Item.FindControl("numberLabel"), Label)

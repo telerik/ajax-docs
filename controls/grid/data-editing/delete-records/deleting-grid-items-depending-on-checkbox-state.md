@@ -218,7 +218,7 @@ The default delete functionality for each row through **DeleteColumn** button is
 	        RadGrid1.Rebind();
 	    }
 ````
-````VB.NET
+````VB
 	    Protected WithEvents RadGrid1 As Telerik.Web.UI.RadGrid
 	    Protected WithEvents chkboxColumnButton As System.Web.UI.WebControls.Button
 	    Protected WithEvents chkboxTemplateButton As System.Web.UI.WebControls.Button

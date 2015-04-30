@@ -21,7 +21,7 @@ If you have a hierarchical grid each item in **GridTableView's Items** collectio
 ````C#
 	    GridTableView nestedTableView = (RadGrid1.MasterTableView.Items[0] as GridDataItem).ChildItem.NestedTableViews[0];
 ````
-````VB.NET
+````VB
 	Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items[0], GridDataItem).ChildItem.NestedTableViews[0]          
 ````
 
@@ -33,7 +33,7 @@ Or if you have a reference to an instance of an item in a child table and if you
 ````C#
 	    GridDataItem parentItem = childItem.OwnerTableView.ParentItem as GridDataItem;
 ````
-````VB.NET
+````VB
 	
 	    Dim parentItem As GridDataItem = CType(childItem.OwnerTableView.ParentItem, GridDataItem)
 	
@@ -62,7 +62,7 @@ Before proceeding with the rest of this chapter we recommend you reading the KB 
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Sub LoopHierarchyRecursive(ByVal gridTableView As GridTableView)
 	        For Each nestedViewItem As GridNestedViewItem In gridTableView.GetItems(GridItemType.NestedView)
 	            'you should skip the items if not expanded, or tables not bound
@@ -95,7 +95,7 @@ When **HieararchyLoadMode** of the relevant **GridTableView** is "**Client**" or
 	            }
 	        }
 ````
-````VB.NET
+````VB
 	        For Each item As GridDataItem In RadGrid1.Items
 	            If (item.OwnerTableView.Name = "MyTableName") Then
 	                'if you need you may also check the parent item keys here

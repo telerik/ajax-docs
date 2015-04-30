@@ -57,7 +57,7 @@ You can create the **RadGrid** instance and the grid structure in the **Page.Ini
 	//Add to page controls collection
 	this.PlaceHolder1.Controls.Add( RadGrid1 );          
 ````
-````VB.NET
+````VB
 	Me.RadGrid1 = new RadGrid();
 	
 	AddHandler Me.RadGrid1.NeedDataSource, New GridNeedDataSourceEventHandler(AddressOf Me.RadGrid1_NeedDataSource)
@@ -112,7 +112,7 @@ Example:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Private Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
 	            Dim column1 As New GridBoundColumn
@@ -149,7 +149,7 @@ One of the major differences between **RadGrid** and the standard .NET **DataGri
 ````C#
 	item.Cells[4]          
 ````
-````VB.NET
+````VB
 	item.Cells(4)
 ````
 
@@ -163,7 +163,7 @@ However, imagine that the user has changed the column order using a client-side 
 	//for GridDataItem you can replace that with
 	item["CustomerID"]          
 ````
-````VB.NET
+````VB
 	    item.Cells("CustomerID")
 	    'for GridDataItem you can replace that with
 	    item("CustomerID")
@@ -200,7 +200,7 @@ This is unlike the **RadTreeView** control which supports different number of su
 
 * Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/hierarchical-grid-types-and-load-modes/how-to/distinguish-grid-rows-in-hierarchy-on-itemcreated/itemdatabound%}) of the help as well.
 
-# See Also
+## See Also
 
  * [Understanding Dynamic Controls](http://weblogs.asp.net/infinitiesloop/archive/2006/08/25/TRULY-Understanding-Dynamic-Controls-_2800_Part-1_2900_.aspx)
 

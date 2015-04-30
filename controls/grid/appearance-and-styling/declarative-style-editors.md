@@ -20,7 +20,7 @@ To add a column editor declaratively, add an instance of the column editor to th
 
 Assign the properties of the column editor to customize it how you want it:
 
-````ASPNET
+````ASP.NET
 	  <telerik:GridTextBoxColumnEditor ID="TextEditor1" runat="server">
 	    <TextBoxStyle BackColor="#edffc3" BorderColor="#ecbb0d" BorderStyle="Solid" ForeColor="#7fa822" />
 	  </telerik:GridTextBoxColumnEditor>
@@ -30,7 +30,7 @@ Assign the properties of the column editor to customize it how you want it:
 
 Assign the ID of the column editor to the column you want to attach it to:
 
-````ASPNET
+````ASP.NET
 	  <telerik:GridBoundColumn ColumnEditorID="TextEditor1" DataField="ShipName" EditFormHeaderTextFormat="{0} - Customized text editor"
 	    HeaderText="Ship Name" UniqueName="ShipName">
 	  </telerik:GridBoundColumn>
@@ -50,7 +50,7 @@ If you want to assign declarative custom editors at runtime, you need to instant
 
 
 
-````ASPNET
+````ASP.NET
 	  <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AutoGenerateColumns="False">
 	    <MasterTableView>
@@ -75,7 +75,7 @@ If you want to assign declarative custom editors at runtime, you need to instant
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Init
 	        Dim ddEditor1 As New GridDropDownListColumnEditor()
 	        ddEditor1.ID = "ddEditor1"
@@ -87,7 +87,7 @@ If you want to assign declarative custom editors at runtime, you need to instant
 ````
 
 
-# See Also
+## See Also
 
  * [Custom Editors Extending Auto-Generated Editors]({%slug grid/data-editing/grid-editors/custom-editors-extending-auto-generated-editors%})
 

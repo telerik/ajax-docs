@@ -119,7 +119,7 @@ protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     grid.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, _
       ByVal e As System.EventArgs) Handles Me.Init
     PopulateGridOnPageInit()

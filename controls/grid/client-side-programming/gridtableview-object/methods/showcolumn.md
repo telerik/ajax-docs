@@ -54,7 +54,7 @@ This property allows you to show a column which has been previously hidden. The 
 
 
 
-# See Also
+## See Also
 
  * [GridTableView Class Members]({%slug grid/client-side-programming/gridtableview-object/gridtableview-class-members%})
 

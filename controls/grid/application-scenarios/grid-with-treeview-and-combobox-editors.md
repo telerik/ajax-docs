@@ -100,7 +100,7 @@ Examine the code implementation and the comments in the source for more details.
 	        </script>
 	    </telerik:RadScriptBlock>
 ````
-````ASPNET
+````ASP.NET
 	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 	    <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" EnableAJAX="true">
 	        <AjaxSettings>
@@ -325,7 +325,7 @@ Examine the code implementation and the comments in the source for more details.
 	            lblMessage.Text = message;
 	        }
 ````
-````VB.NET
+````VB
 	
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        'if a grid item is in edit mode, wire the ItemsRequested event of the customersCombo to filter the items in it based on the selection in the freight combo

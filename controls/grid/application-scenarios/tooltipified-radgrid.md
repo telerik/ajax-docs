@@ -158,7 +158,7 @@ Here is a complete source code sample:
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	
 	    Protected Sub OnAjaxUpdate(ByVal sender As Object, ByVal args As ToolTipUpdateEventArgs)
@@ -228,7 +228,7 @@ Here is a complete source code sample:
 	    }
 	
 ````
-````VB.NET
+````VB
 	
 	
 	    Public Property ProductID() As String

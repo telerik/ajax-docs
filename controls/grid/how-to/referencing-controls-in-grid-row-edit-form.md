@@ -20,7 +20,7 @@ The upcoming code sample represents how to alter the color for the **City** colu
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
 	    <MasterTableView AutoGenerateColumns="false">
 	      <Columns>
@@ -102,7 +102,7 @@ The upcoming code sample represents how to alter the color for the **City** colu
 	    }
 	
 ````
-````VB.NET
+````VB
 	    Private Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
 	        Dim MyOleDbConnection As OleDbConnection = New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + Server.MapPath
 	        ("~/Grid/Data/Access/Nwind.mdb"))

@@ -30,7 +30,7 @@ There are scenarios in which you may want to include additional button right aft
 	    </MasterTableView>
 	  </telerik:RadGrid>
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
 	        If (TypeOf e.Item Is Telerik.Web.UI.GridDataItem AndAlso e.Item.IsInEditMode) Then
 	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
@@ -68,7 +68,7 @@ There are scenarios in which you may want to include additional button right aft
 
 
 
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        If TypeOf e.Item Is Telerik.Web.UI.GridEditFormItem AndAlso e.Item.IsInEditMode Then
 	            Dim linkButton As New LinkButton()

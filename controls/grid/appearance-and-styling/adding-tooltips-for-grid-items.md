@@ -62,7 +62,7 @@ Consider the example below:
 	        }
 	    }
 ````
-````VB.NET
+````VB
 	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
 	        'Check for GridHeaderItem if you wish tooltips only for the header cells
 	        If (TypeOf e.Item Is GridHeaderItem) Then
