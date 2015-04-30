@@ -24,7 +24,7 @@ Using the unbound **RadPanelBar** Smart Tag you can perform the following:
 
 ## RadPanelBar Tasks
 
-* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **<New Data Source...>** the standard [Windows Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) appears, where you can create and configure a data source component.
+* **Choose Data Source** lets you bind the menu declaratively by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard [Windows Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/w4dd7z6t(VS.80).aspx) appears, where you can create and configure a data source component.
 
 * **Build RadPanelBar...** opens the [RadPanelBar Item Builder]({%slug panelbar/design-time/radpanelbar-item-builder%}), where you can create and configure statically-defined items for your menu.
 
@@ -58,7 +58,7 @@ Using the bound **RadPanelBar** Smart Tag you can perform the following:
 
 ## RadPanelBar Tasks
 
-* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select "**<New Data Source...>**" the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
+* **Choose Data Source** lets you change the declarative menu binding by selecting a data source from a drop-down list of all available data source components. If you select **`<New Data Source...>`** the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx) appears, where you can create and configure a data source component. If you select "**(None)**", you remove the existing binding.
 
 * **Configure Data Source...** opens the standard Windows [Data Source Configuration Wizard](http://msdn2.microsoft.com/en-us/library/ms247282(VS.80).aspx), where you can configure the currently bound data source component.
 
@@ -66,6 +66,6 @@ Using the bound **RadPanelBar** Smart Tag you can perform the following:
 
 * **Edit RadPanelBar Databindings**... opens the [NavigationItemBinding Collection Editor]({%slug panelbar/design-time/navigationitembinding-collection-editor%}), where you can specify [databindings]({%slug panelbar/data-binding/using-databindings%}) to map between the fields in the data source and **RadPanelItem** properties.
 
-* Once the Data Source is chosen, you can select each one of the following: **DataFieldID**,**DataFieldParentID**,**DataTextField**,**DataValueField** and **DataNavigationUrlField**. For the first two, you need to select the fields in the Data Source that will be used when creating the hierarchy of RadPanelBar Items. The rest will serve data respectively for the **Text, Value** and **NavigateUrl** properties of RadPanelBar Items.
+* Once the Data Source is chosen, you can select each one of the following: **DataFieldID**, **DataFieldParentID**, **DataTextField**, **DataValueField** and **DataNavigationUrlField**. For the first two, you need to select the fields in the Data Source that will be used when creating the hierarchy of RadPanelBar Items. The rest will serve data respectively for the **Text, Value** and **NavigateUrl** properties of RadPanelBar Items.
 
 * **Edit Templates** brings up the [template design surface]({%slug panelbar/design-time/template-design-surface%}), where you can create or edit the [templates]({%slug panelbar/templates/overview%}) your **RadPanelBar** uses.

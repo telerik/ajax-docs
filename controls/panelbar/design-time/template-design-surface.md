@@ -16,7 +16,8 @@ position: 2
 
 The **Template Design Surface** lets you design templates for the items that appear in the panel bar. There are two ways to display the Template Design Surface:
 
-* Choose **Edit Templates** from the **RadPanelBar**[ Smart Tag ]({%slug panelbar/design-time/smart-tag%}):![Smart Tag Edit Templates](images/panelbar_smarttagedittemplates.png)
+* Choose **Edit Templates** from the **RadPanelBar**[ Smart Tag ]({%slug panelbar/design-time/smart-tag%}):
+![Smart Tag Edit Templates](images/panelbar_smarttagedittemplates.png)
 
 * Choose **Edit Template** from the **RadPanelBar** context menu and select the type of template you want to edit:![Edit Template Menu](images/panelbar_edittemplatemenu.png)
 

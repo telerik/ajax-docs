@@ -65,7 +65,7 @@ When a panel item (either a root item or a child item) is selected, the properti
 
 * **PostBack** specifies whether the item causes a postback.
 
-* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass**[control the appearance of the panel item]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
+* **CssClass**, **ClickedCssClass**, **DisabledCssClass**, **ExpandedCssClas**, and **FocusedCssClass** [control the appearance of the panel item]({%slug panelbar/appearance-and-styling/setting--the-css-class-of-items%}) when it is in its normal state, clicked, disabled, expanded, and holds input focus, respectively.
 
 * **ImageUrl**, **SelectedImageUrl**, **DisabledImageUrl**, **ExpandedImageUrl**, and **HoveredImageUrl** let you [specify an image]({%slug panelbar/appearance-and-styling/adding-images-to-items%}) that appears on the left of the panel item when it is in its normal state, clicked, disabled, expanded, and when the mouse hovers over it, respectively.
 

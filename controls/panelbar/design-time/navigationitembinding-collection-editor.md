@@ -18,7 +18,7 @@ The **NavigationItemBinding Collection Builder** lets specify how to map the fie
 
 * Right-click on the **RadPanelBar** control and choose **Edit RadPanelBar Databindings** from the context menu.
 
-* From the **RadPanelBar**[Smart Tag]({%slug panelbar/design-time/smart-tag%}), choose **Edit RadPanelBar Databindings...**
+* From the **RadPanelBar** [Smart Tag]({%slug panelbar/design-time/smart-tag%}), choose **Edit RadPanelBar Databindings...**
 
 * From the **RadPanelBar** properties pane, click the ellipsis button next to the **DataBindings** property.
 

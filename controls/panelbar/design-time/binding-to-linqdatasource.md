@@ -18,25 +18,29 @@ Since the Q2 2008 SP1 release **RadPanelBar** supports hierarchical data binding
 
 1. Create a new Web Site in Visual Studio 2008 and copy the **Northwind.mdf** database in your **App_Data** folder.
 
-1. Add a new **"Linq to SQL Classes"** item named **"Northwind.dbml"**:![Linq Add New Item](images/panelbar_linq_addnewitem.png)
+2. Add a new **"Linq to SQL Classes"** item named **"Northwind.dbml"**:![Linq Add New Item](images/panelbar_linq_addnewitem.png)
 
-1. Open **Northwind.dbml** in design mode and drag the **Employees** table from Server Explorer. The **Employees** table is self referencing and suites perfectly for this example:![Employee Table](images/panelbar_linq_tableemployee.png)
+3. Open **Northwind.dbml** in design mode and drag the **Employees** table from Server Explorer. The **Employees** table is self referencing and suites perfectly for this example:
+	![Employee Table](images/panelbar_linq_tableemployee.png)
 
-1. Open **Default.aspx** in design mode and drag a new **RadPanelBar** instance.
+4. Open **Default.aspx** in design mode and drag a new **RadPanelBar** instance.
 
-1. Open the smart tag and select **"New data source"**:![Choose Data Source](images/panelbar_linq_choosedatasource.png)
+5. Open the smart tag and select **"New data source"**:
+	![Choose Data Source](images/panelbar_linq_choosedatasource.png)
 
-1. Choose **"LinqDataSource"** from the "Data Source Configuration Wizard":![Choose A Data Source Type](images/panelbar_linq_choosedatasourcetype.png)
+6. Choose **"LinqDataSource"** from the "Data Source Configuration Wizard":![Choose A Data Source Type](images/panelbar_linq_choosedatasourcetype.png)
 
-1. Configure the newly created data source to use the **NorhtwindDataContext** object:![Choose Cintext Object](images/panelbar_linq_choosecontextobject.png)
+7. Configure the newly created data source to use the **NorhtwindDataContext** object:![Choose Cintext Object](images/panelbar_linq_choosecontextobject.png)
 
-1. Select the **"EmployeeID"**, **"LastName"** and **"ReportsTo"** columns from the "Configure Data Source" dialog:![Configure Data Selection](images/panelbar_linq_configuredataselection.png)
+8. Select the **"EmployeeID"**, **"LastName"** and **"ReportsTo"** columns from the "Configure Data Source" dialog:![Configure Data Selection](images/panelbar_linq_configuredataselection.png)
 
-1. Click **"Finish"** and open the **RadPanelBar** smart tag to complete the configuration.
+9. Click **"Finish"** and open the **RadPanelBar** smart tag to complete the configuration.
 
-1. Select **"EmployeeID"** for the **DataFieldID** property, **"ReportsTo"** for the **DataFieldParentID** property and **"LastName"** for the **DataTextField** property:![Smart Tag Data Field ID](images/panelbar_linq_smarttagdatafieldid.png)![Smart Tag Data Filed Parent ID](images/panelbar_linq_smarttagdatafieldparentid.png)![Smart Tag Text Field](images/panelbar_linq_smarttagtextfield.png)
+10. Select **"EmployeeID"** for the **DataFieldID** property, **"ReportsTo"** for the **DataFieldParentID** property and **"LastName"** for the **DataTextField** property:
+	![Smart Tag Data Field ID](images/panelbar_linq_smarttagdatafieldid.png)![Smart Tag Data Filed Parent ID](images/panelbar_linq_smarttagdatafieldparentid.png)![Smart Tag Text Field](images/panelbar_linq_smarttagtextfield.png)
 
-1. Save your page and run the web site. You should see a page with the following **RadPanelBar**:![Bound Linq](images/panelbar_linq_bound.png)
+11. Save your page and run the web site. You should see a page with the following **RadPanelBar**:
+	![Bound Linq](images/panelbar_linq_bound.png)
 
 # See Also
 

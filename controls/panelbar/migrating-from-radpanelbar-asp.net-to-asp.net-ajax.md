@@ -16,13 +16,13 @@ To migrate a Web application from **RadPanelBar** "Classic" to **RadPanelBar** f
 
 1. Make sure you have installed ASP.NET AJAX. Info can be found at [http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx](http://ajax.asp.net/docs/InstallingASPNETAJAX.aspx)
 
-1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx](http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx) (Look for the topic called "Adding ASP.NET AJAX Configuration Elements to an Existing Web Site".)
+2. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx](http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx) (Look for the topic called "Adding ASP.NET AJAX Configuration Elements to an Existing Web Site".)
 
-1. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls "for ASP.NET Ajax".<asp:ScriptManager ID="ScriptManager1" runat="server" />If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
+3. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls "for ASP.NET Ajax": `<asp:ScriptManager ID="ScriptManager1" runat="server" />` If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
 
-1. Drag and drop a control from the RadControls for ASP.NET Ajax package or manually copy the Telerik.Web.UI.dll in the Bin folder.
+4. Drag and drop a control from the RadControls for ASP.NET Ajax package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
-1. Replace the classic **RadPanelBar** directive<%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadPanelbar.NET2" %>with the new one of **RadPanelBar** "for ASP.NET Ajax":<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+5. Replace the classic **RadPanelBar** directive <%@ Register TagPrefix="rad" Namespace="Telerik.WebControls" Assembly="RadPanelbar.NET2" %> with the new one of **RadPanelBar** "for ASP.NET Ajax": <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
 ## Differences between RadPanelBar "classic" and RadPanelBar for ASP.NET Ajax
 
@@ -48,7 +48,7 @@ The following table lists the changes to the **RadPanelBar** class:
 |PanelbarAnimationSettings|Removed. Use **AnimationSettings** instead.|
 | **Methods** ||
 |FindItemByClientID|Removed.|
-|GetAllItems|Return type changed to **IList<RadPanelItem>** |
+|GetAllItems|Return type changed to **IList`<RadPanelItem>`** |
 
 ## Renamed Types
 
@@ -67,39 +67,39 @@ The following table lists the changes to the type names that **RadPanelBar** use
 The [XML structure]({%slug panelbar/radpanelbar-items/loading-items-from-xml%}) of the **RadPanelBar** has changed:
 
 ````XML
-	    <panelitems>    
-	         <PanelItem Text="Products" Expanded="True" >        
-	            <PanelItem Text="RadEditor" />        
-	            <PanelItem Text="RadPanelBar" />        
-	            <PanelItem Text="RadMenu" />        
-	            <PanelItem Text="RadTabStrip" />    
-	        </PanelItem>    
-	        <PanelItem Text="Support">        
-	            <PanelItem Text="Knowledge Base" />        
-	            <PanelItem Text="Forums" />        
-	            <PanelItem Text="Articles" />        
-	            <PanelItem Text="FAQ" />    
-	        </PanelItem>
-	   </panelitems>
+<panelitems>    
+    <PanelItem Text="Products" Expanded="True" >        
+        <PanelItem Text="RadEditor" />        
+        <PanelItem Text="RadPanelBar" />        
+        <PanelItem Text="RadMenu" />        
+        <PanelItem Text="RadTabStrip" />    
+    </PanelItem>    
+    <PanelItem Text="Support">        
+        <PanelItem Text="Knowledge Base" />        
+        <PanelItem Text="Forums" />        
+        <PanelItem Text="Articles" />        
+        <PanelItem Text="FAQ" />    
+    </PanelItem>
+</panelitems>
 ````
 
 
 
 ````ASPNET
-	    <panelbar> 
-	    <Item Text="Products" Expanded="True" >  
-	        <Item Text="RadEditor" />  
-	        <Item Text="RadPanelBar" /> 
-	        <Item Text="RadMenu" />  
-	        <Item Text="RadTabStrip" /> 
-	    </Item> 
-	    <Item Text="Support" >  
-	        <Item Text="Knowledge Base" />  
-	        <Item Text="Forums" />  
-	        <Item Text="Articles" />  
-	        <Item Text="FAQ" /> 
-	    </Item>
-	    </panelbar>
+<panelbar> 
+<Item Text="Products" Expanded="True" >  
+    <Item Text="RadEditor" />  
+    <Item Text="RadPanelBar" /> 
+    <Item Text="RadMenu" />  
+    <Item Text="RadTabStrip" /> 
+</Item> 
+<Item Text="Support" >  
+    <Item Text="Knowledge Base" />  
+    <Item Text="Forums" />  
+    <Item Text="Articles" />  
+    <Item Text="FAQ" /> 
+</Item>
+</panelbar>
 ````
 
 
@@ -124,28 +124,27 @@ The following table lists the changes to the **RadPanelBar** client-side object:
 |FindItemByUrl()|findItemByUrl()|
 |FindItemByValue()|findItemByValue()|
 |FindItemByText()|findItemByText()|
-|GetAttribute()|use **get_attributes().getAttribute()** 
-
-````JavaScript
-	
-	        var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
-	        alert(panelBar.get_attributes().getAttribute("AttributeName"));
-	
-````
-
-|
-|SetAttribute()|use **get_attributes().setAttribute()** 
-
-````JavaScript
-	
-	        var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
-	        panelBar.get_attributes().setAttribute("AttributeName", "AttributeValue");
-	
-````
-
-|
 |AttachEvent|use **get_events().addHandler()** or **add_[eventName]()** instead.|
 |DetachEvent|use **get_events().removeHandler()** or **remove_[eventName]()** instead.|
+|GetAttribute()|use **get_attributes().getAttribute()**| 
+|SetAttribute()|use **get_attributes().setAttribute()**|
+
+````JavaScript
+	
+var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
+alert(panelBar.get_attributes().getAttribute("AttributeName"));
+	
+````
+
+````JavaScript
+	
+var panelBar = $find("<%=RadPanelBar1.ClientID%>"); 
+panelBar.get_attributes().setAttribute("AttributeName", "AttributeValue");
+	
+````
+
+| RadPanelBar "Classic" | RadPanelBar for ASP.NET Ajax |
+| ------ | ------ |
 | **Properties** ||
 |ID|get_id()|
 |DomElement|get_element()|

@@ -14,7 +14,7 @@ position: 1
 
 ## 
 
-The structure of the **RadPanelBar**control is as follows:
+The structure of the **RadPanelBar** control is as follows:
 
 ![PanelBar Structure](images/panelbar_structure.png)
 
