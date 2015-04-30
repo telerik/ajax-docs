@@ -10,8 +10,6 @@ position: 0
 
 # Persitence Framework Limitations
 
-
-
 In the following article you can find a list of limitations for **Persistence Framework** and possible workarounds (if available).
 
 ## Persist controls nested inside NamingContainers
@@ -20,7 +18,7 @@ In the following example demonstrates how to persist controls nested inside **Te
 
 This approach can be used for **RadDock**, **RadWindow** (with **ContentTemplate**) or any custom **NamingContainer**.
 
-````ASPNET
+````ASP.NET
 <telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
 </telerik:RadPersistenceManager>
 
@@ -44,7 +42,7 @@ protected void Page_Load(object sender, EventArgs e)
 	RadPersistenceManager1.PersistenceSettings.AddSetting(RadComboBox1);//add setting by control instance
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	'add setting by control instance
 	RadPersistenceManager1.PersistenceSettings.AddSetting(RadComboBox1")

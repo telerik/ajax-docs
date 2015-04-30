@@ -10,8 +10,6 @@ position: 1
 
 # Supported Controls
 
-
-
 The main functionality of Telerik Persistence Framework is to provide long-term UI state persistence of Telerik UI for ASP.NET AJAX controls. Since not all Telerik controls have user interaction modifiable configuration not all of the controls' state can be persisted.
 
 Following is a list of controls and the properties that can be persisted with Persistence Framework:

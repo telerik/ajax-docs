@@ -62,7 +62,7 @@ This setting is used by the event arguments of the **SaveCustomSettings** / **Lo
 | **Value** (property)|Persist a control by its ID.|
 | **ControlType** (property)|The value of the setting.|
 
-# See Also
+## See Also
 
  * [ControlSetting Members](http://www.telerik.com/help/aspnet-ajax/allmembers_t_telerik_web_ui_controlsetting.html)
 

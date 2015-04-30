@@ -10,13 +10,11 @@ position: 0
 
 # LoadCustomSettings event
 
-
-
 **LoadCustomSettings** server-side event is raised by the **LoadState()** method of **RadPersistenceManager** and can be used to get previously stored custom settings
 
 The example below demonstrates how to read the **CustomSettings** and pass them to a hidden field:
 
-````ASPNET
+````ASP.NET
 <asp:HiddenField ID="wndStateHolder" runat="server" />
 
 <telerik:RadPersistenceManager id="persistenceMngr" runat="server"
@@ -49,7 +47,7 @@ protected void persistenceMngr_LoadCustomSettings(object sender, Telerik.Web.UI.
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub loadBtn_Click(sender As Object, e As EventArgs)
 	Dim fileId As String = Session("CustomPersistenceSettingsKey").ToString()
 	Dim FilePath As String = [String].Format("{0}{2}{1}", MapPath("~/App_Data"), fileId, "\")
@@ -69,6 +67,6 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [PersistenceFramework - Custom Settings](http://demos.telerik.com/aspnet-ajax/persistenceframework/examples/customsettings/defaultcs.aspx)

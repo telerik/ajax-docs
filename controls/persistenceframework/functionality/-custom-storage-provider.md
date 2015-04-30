@@ -21,56 +21,55 @@ The steps to implement a custom storage provider are:
 1. Create a class that implements **IStateStorageProvider**
 
 2. Implement **SaveStateToStorage** and **LoadStateFromStorage** methods.
-````C#
-public class CustomStorageProvider : IStateStorageProvider
-{
-    public void SaveStateToStorage(string key, string serializedState)
-    {
-        // Save the serialized state somewhere
-    }
 
-    public string LoadStateFromStorage(string key)
-    {
-        return "The saved state";
-    }
-}
-````
-````VB.NET
-Public Class CustomStorageProvider
-    Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
-    Public Sub SaveStateToStorage(key As String, serializedState As String)
-        ' Save the serialized state somewhere
-    End Sub
+	**C#**
+	
+		public class CustomStorageProvider : IStateStorageProvider
+		{
+			public void SaveStateToStorage(string key, string serializedState)
+			{
+				// Save the serialized state somewhere
+			}
 
-    Public Function LoadStateFromStorage(key As String) As String
-        Return "The saved state"
-    End Function
-End Class
-````
+			public string LoadStateFromStorage(string key)
+			{
+				return "The saved state";
+			}
+		}
+	
+	**VB**
+	
+		Public Class CustomStorageProvider
+			Implements Telerik.Web.UI.PersistenceFramework.IStateStorageProvider
+			Public Sub SaveStateToStorage(key As String, serializedState As String)
+				' Save the serialized state somewhere
+			End Sub
 
+			Public Function LoadStateFromStorage(key As String) As String
+				Return "The saved state"
+			End Function
+		End Class
 
 3. Set the storage provider used by **RadPersistenceManager** for storing the serialized control state.
 
+	**C#**
+	
+		protected void Page_Init(object sender, EventArgs e)
+		{
+			RadPersisterManager1.StorageProvider = new CustomStorageProvider();
+		}
+		
+	**VB**
+		
+		Protected Sub Page_Init(sender As Object, e As EventArgs)
+			RadPersisterManager1.StorageProvider = New CustomStorageProvider()
+		End Sub
 
-
-````C#
-protected void Page_Init(object sender, EventArgs e)
-{
-    RadPersisterManager1.StorageProvider = new CustomStorageProvider();
-}
-````
-````VB.NET
-Protected Sub Page_Init(sender As Object, e As EventArgs)
-    RadPersisterManager1.StorageProvider = New CustomStorageProvider()
-End Sub
-````
-
-
+		
 The example below demonstrates how to store the state of the **RadGrid** directly to the database.
 
 
-
-````ASPNET
+````ASP.NET
 <telerik:RadPersistenceManager ID="RadPersistenceManager1" runat="server">
     <PersistenceSettings>
         <telerik:PersistenceSetting ControlID="RadGrid1" />
@@ -136,7 +135,7 @@ protected void LoadSetting_Click(object sender, EventArgs e)
     RadGrid1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
     RadPersistenceManager1.StorageProvider = New DBStorageProvider()
 End Sub
@@ -155,54 +154,55 @@ End Sub
 ````
 
 
+
 ````C#
 public class DBStorageProvider : IStateStorageProvider
 {
-//Declare a global SqlConnection SqlConnection
-SqlConnection SqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["UserSettingsConnectionString"].ConnectionString);
-//Declare a global SqlDataAdapter SqlDataAdapter
-public SqlDataAdapter SqlDataAdapter = new SqlDataAdapter();
-//Declare a global SqlCommand SqlCommand
-public SqlCommand SqlCommand = new SqlCommand();
+	//Declare a global SqlConnection SqlConnection
+	SqlConnection SqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["UserSettingsConnectionString"].ConnectionString);
+	//Declare a global SqlDataAdapter SqlDataAdapter
+	public SqlDataAdapter SqlDataAdapter = new SqlDataAdapter();
+	//Declare a global SqlCommand SqlCommand
+	public SqlCommand SqlCommand = new SqlCommand();
 
-public void SaveStateToStorage(string key, string serializedState)
-{
-    int userID = int.Parse(key);
-    string userSettings = serializedState;
+	public void SaveStateToStorage(string key, string serializedState)
+	{
+		int userID = int.Parse(key);
+		string userSettings = serializedState;
 
-    //Open the SqlConnection
-    SqlConnection.Open();
-    //Update Query to update the Datatable  
-    string updateQuery = "UPDATE UserSetting set UserID='" + userID + "',UserSaveSettings='" + userSettings + "'";
-    SqlCommand.CommandText = updateQuery;
-    SqlCommand.Connection = SqlConnection;
-    SqlCommand.ExecuteNonQuery();
-    //Close the SqlConnectio
-    SqlConnection.Close();
-}
-public string LoadStateFromStorage(string key)
-{
+		//Open the SqlConnection
+		SqlConnection.Open();
+		//Update Query to update the Datatable  
+		string updateQuery = "UPDATE UserSetting set UserID='" + userID + "',UserSaveSettings='" + userSettings + "'";
+		SqlCommand.CommandText = updateQuery;
+		SqlCommand.Connection = SqlConnection;
+		SqlCommand.ExecuteNonQuery();
+		//Close the SqlConnectio
+		SqlConnection.Close();
+	}
+	public string LoadStateFromStorage(string key)
+	{
 
-    string selectQuery = "SELECT UserID, UserSaveSettings FROM UserSetting WHERE UserID = '" + key + "'";
-    SqlDataAdapter adapter = new SqlDataAdapter();
-    adapter.SelectCommand = new SqlCommand(selectQuery, SqlConnection);
-    DataTable myDataTable = new DataTable();
-    SqlConnection.Open();
+		string selectQuery = "SELECT UserID, UserSaveSettings FROM UserSetting WHERE UserID = '" + key + "'";
+		SqlDataAdapter adapter = new SqlDataAdapter();
+		adapter.SelectCommand = new SqlCommand(selectQuery, SqlConnection);
+		DataTable myDataTable = new DataTable();
+		SqlConnection.Open();
 
-    try
-    {
-        adapter.Fill(myDataTable);
-    }
-    finally
-    {
-        SqlConnection.Close();
-    }
+		try
+		{
+			adapter.Fill(myDataTable);
+		}
+		finally
+		{
+			SqlConnection.Close();
+		}
 
-    return myDataTable.Rows[0]["UserSaveSettings"].ToString();
-}
+		return myDataTable.Rows[0]["UserSaveSettings"].ToString();
+	}
 }
 ````
-````VB.NET
+````VB
 Public Class DBStorageProvider
     Implements IStateStorageProvider
     'Declare a global SqlConnection SqlConnection
@@ -244,6 +244,10 @@ Public Class DBStorageProvider
     End Function
 End Class
 ````
+
+
+
+
 
 
  

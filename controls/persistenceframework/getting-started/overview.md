@@ -14,17 +14,19 @@ position: 0
 
 The below tutorial will walk you through enabling a state persistence for a page containing several Telerik controls.
 
-1. Drag a **RadPersistenceManager** from the Visual Studio **Toolbox** onto your webpage.
+1. Drag a **RadPersistenceManager** from the Visual Studio **Toolbox** onto your web page.
 
 2. The [Smart Tag]() should appear automatically. From there, choose **Open PersistenceManager configuration wizard**.
-![persistence-framework-getting-started-st](images/persistence-framework-getting-started-st.png)
+
+	![persistence-framework-getting-started-st](images/persistence-framework-getting-started-st.png)
 
 3. In the **Configuration Wizard** window select the controls which state should be persisted.
-![persistence-framework-getting-started-designer](images/persistence-framework-getting-started-designer.png)
+
+	![persistence-framework-getting-started-designer](images/persistence-framework-getting-started-designer.png)
 
 4. Add button controls that will be used to trigger the **Save** and **Load** methods of **RadPersistenceManager**
 
-````ASPNET
+````ASP.NET
 <telerik:RadPersistenceManager id="RadPersistenceManager1" runat="server">
 	.......
 </telerik:RadPersistenceManager>
@@ -45,7 +47,7 @@ protected void saveBtn_Click(object sender, EventArgs e)
 	RadPersistenceManager1.SaveState();
 }
 ````
-````VB.NET
+````VB
 Protected Sub loadBtn_Click(sender As Object, e As EventArgs)
 	RadPersistenceManager1.LoadState()
 End Sub
@@ -56,6 +58,6 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [Persistence Framework online demos](http://demos.telerik.com/aspnet-ajax/persistence-framework/examples/overview/defaultcs.aspx)

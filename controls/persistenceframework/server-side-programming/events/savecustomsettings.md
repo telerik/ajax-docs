@@ -10,13 +10,11 @@ position: 1
 
 # SaveCustomSettings event
 
-
-
 **SaveCustomSettings** server-side event is raised by the SaveState() method of **RadPersistenceManager** and can be used to store custom settings to be used when restoring the state.
 
 The example below demonstrates how to store **CustomSettings** from a hidden field:
 
-````ASPNET
+````ASP.NET
 <asp:HiddenField ID="wndStateHolder" runat="server" />
 
 <telerik:RadPersistenceManager id="persistenceMngr" runat="server"
@@ -41,7 +39,7 @@ protected void saveBtn_Click(object sender, EventArgs e)
 	persistenceMngr.SaveState();
 }
 ````
-````VB.NET
+````VB
 Protected Sub persistenceMngr_SaveCustomSettings(sender As Object, e As Telerik.Web.UI.PersistenceManagerSaveStateEventArgs)
 	e.CustomSettings.Add(New Telerik.Web.UI.ControlSetting() With { _
 		.Name = "pos", _
@@ -57,6 +55,6 @@ End Sub
 ````
 
 
-# See Also
+## See Also
 
  * [PersistenceFramework - Custom Settings](http://demos.telerik.com/aspnet-ajax/persistenceframework/examples/customsettings/defaultcs.aspx)
