@@ -10,8 +10,6 @@ position: 1
 
 # Handle Special Symbols
 
-
-
 **RadHtmlChart** uses JavaScript to render. This means that all properties and data have to pass not only through the code-behind,	but also through JavaScript. It is, therefore, necessary to make sure that the properties and data do not break the code-behind or JavaScript. This article will	help you understand better the concept of escaping special symbols.
 
 ## Escaping for JavaScript
@@ -22,17 +20,15 @@ A backslash is another symbol that needs escaping,(backslash is a special charac
 
 ## Using HTML Content
 
-**RadHtmlChart** lets you place HTML in the tooltips, but the HTML must be valid so that it does not break the rest of the page by,for example, closing another tag too early. Generally, a good approach would be to escape your HTML fully, for example, by using the **HtmlEncode()**method the .NET Framework offers. Note that you should do this before transforming any other special characters to HTML entities, as **HtmlEncode()** wouldtransform the ampersand of the entity to its own entity, which would prevent the browser from reading it properly.
+**RadHtmlChart** lets you place HTML in the tooltips, but the HTML must be valid so that it does not break the rest of the page by,for example, closing another tag too early. Generally, a good approach would be to escape your HTML fully, for example, by using the **HtmlEncode()** method the .NET Framework offers. Note that you should do this before transforming any other special characters to HTML entities, as **HtmlEncode()** would transform the ampersand of the entity to its own entity, which would prevent the browser from reading it properly.
 
 When pulling these strings from a database, you need to make sure they are prepared like this either in the database, or in the data source object you create,before passing them to the chart.
 
 Since the displayed string is finally HTML, this means that environmental variables such as new lines must be configured for HTML—this is the <br />tag and not \r, \n, vbCrLf, CR, LF, chr(10) or chr(13) as used in C# and VB. In this regard, the **String.Replace()** method is often usefuland quite straightforward to use.
 
 >note The possibility to use HTML content applies *only for the tooltips* . **RadHtmlChart**  *labels are not HTML* ,	but SVG text elements and therefore they do not support CSS, line breaks or other styling options that HTML/CSS offer.
->
 
-
-# See Also
+## See Also
 
  * [Display HTML and Execute JavaScript]({%slug htmlchart/functionality/clienttemplate/display-html-and-execute-javascript%})
 

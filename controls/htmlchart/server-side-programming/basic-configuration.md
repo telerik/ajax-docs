@@ -10,34 +10,24 @@ position: 1
 
 # Basic Configuration
 
-
-
 **RadHtmlChart** provides a rich set of properties and events which can help you configure the look and behaviour of the control. In this article you	will find a list with the available public methods and properties of the control, and the arguments they accept.
 
 ## Attribute Properties of the Main Tag
 
-
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **DataSourceID** |Used to set a declarative datasource to the **RadHtmlChart** control (e.g., SqlDataSource, LinqDataSource, EntityDataSource).|
-| **DataSource** |Used to set a programmatic datasource to the **RadHtmlChart** control (e.g., a DataTable, List of custom objects, DataSet).|
+| **DataSourceID** |Used to set a declarative data source to the **RadHtmlChart** control (e.g., SqlDataSource, LinqDataSource, EntityDataSource).|
+| **DataSource** |Used to set a programmatic data source to the **RadHtmlChart** control (e.g., a DataTable, List of custom objects, DataSet).|
 | **Height** |Get/set the height of the **RadHtmlChart** control in pixels.|
-| **InvokeLoadData** |Determines when the actual data will be loaded. Takes a member of the Telerik.Web.UI.HtmlChart.LoadDataInvocation enumeration:
-
-* AfterPageLoad - The data is loaded just after the entire page is loaded via a lightweight callback. Its effect would be noticeable in larger (slower) pages.
-
-* FromCode - Data is loaded only when explicitly called via the[client-side API]({%slug htmlchart/client-side-programming/overview%})of the control	(the **loadData()** method) via a lightweight callback.
-
-* OnPageLoad - Data is loaded when the page is being loaded along with the rest of the controls. This is the only case where it is available in the page markup	and a callback is not performed.|
+| **InvokeLoadData** |Determines when the actual data will be loaded. Takes a member of the Telerik.Web.UI.HtmlChart.LoadDataInvocation enumeration: **AfterPageLoad** - The data is loaded just after the entire page is loaded via a lightweight callback. Its effect would be noticeable in larger (slower) pages; - **FromCode** - Data is loaded only when explicitly called via the[client-side API]({%slug htmlchart/client-side-programming/overview%})of the control	(the **loadData()** method) via a lightweight callback; - **OnPageLoad** - Data is loaded when the page is being loaded along with the rest of the controls. This is the only case where it is available in the page markup	and a callback is not performed.|
 | **OnClientSeriesClicked** |The name of the handler for the[OnClientSeriesClicked(deprecated)]({%slug htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)%})client-side event.|
 | **OnClientSeriesHovered** |The name of the handler for the[OnClientSeriesHovered(deprecated)]({%slug htmlchart/client-side-programming/events/onclientserieshovered(deprecated)%})client-side event.|
 | **Layout** |A property indicating whether the chart will be rendered as Default, Sparkline or Stock chart.|
-| **RenderAs** |A property indicating whether the chart will be rendered as **Canvas** , **SVG** or **VML** .	Setting the property to **Auto** will instruct the chart to automatically decide how to be rendered, based on the browser. This property is available since **Q1 2015** .|
+| **RenderAs** |A property indicating whether the chart will be rendered as **Canvas**, **SVG** or **VML** . Setting the property to **Auto** will instruct the chart to automatically decide how to be rendered, based on the browser. This property is available since **Q1 2015** .|
 | **Transitions** |Get/set whether an animation is played when the chart is rendered.|
 | **Width** |Get/set the width of the control in pixels.|
 
 ## Attribute Property in Main Tag > Appearance > FillStyle
-
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -45,13 +35,11 @@ position: 1
 
 ## Attribute Property in Main Tag > ChartTitle
 
-
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **Text** |A string for the chart title.|
 
 ## Attribute Properties in Main Tag > ChartTitle > Appearance
-
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
@@ -83,7 +71,9 @@ position: 1
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **Margin** |Takes from one to four integers that specify all the margins the PlotArea will have in pixels. For example:
+| **Margin** |Takes from one to four integers that specify all the margins the PlotArea will have in pixels.|
+
+For example:
 
 *  **Margin="15"** —all four margins are 15px.
 
@@ -91,7 +81,7 @@ position: 1
 
 *  **Margin="15 30 45"** —top margin is 15px; right and left margins are 30px;	bottom margin is 45px.
 
-*  **Margin="15 30 45 60"** —top margin is 15px; right margin is 30px;	bottom margin is 45px; left margin is 60px;|
+*  **Margin="15 30 45 60"** —top margin is 15px; right margin is 30px;	bottom margin is 45px; left margin is 60px;
 
 ## Attribute Properties in Main Tag > PlotArea > CommonTooltipsAppearance
 
@@ -106,7 +96,7 @@ position: 1
 | **SharedTemplate** |A string for the shared template that will be applied to the tooltips when they render. It can use the **points** (the category points) and **category** (the category name) fields through the following syntax: **#= category #, #= points[0].series.name#, #= points[0].value #** where the string delimited inside #=.....#	is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags.	See[here]({%slug htmlchart/functionality/clienttemplate/overview%})for more information.|
 | **Visible** |Defines whether the tooltips will be shown. Values are True or False.|
 
-# See Also
+## See Also
 
  * [Visual Structure of the RadHtmlChart Control’s Tag Hierarchy]({%slug htmlchart/server-side-programming/overview%})
 

@@ -10,8 +10,6 @@ position: 3
 
 # Series Configuration
 
-
-
 This help article lists all the inner tags and properties of the RadHtmlChart Series collections and illustrates how to configure them.
 
 **RadHtmlChart** provides a rich set of properties which can help you configure the look and behavior of the defined RadHtmlChart Series. In this article you will find a list with the available Series inner tags and public properties.
@@ -66,11 +64,7 @@ More information on the series properties is available below.
 | **DataSummaryField** |The field of the data source that will be used for the **Summary** value of **WaterfallSeries** and **HorizontalWaterfallSeries** .|
 | **DataToField** |The field of the data source that will be used for the **To** value of **RangeBarSeries** and **RangeColumnSeries** .|
 | **DataOpenField** |The field of the data source that will be used for the **Open** price of the **CandlestickSeries** .|
-| **DataOutliersField** |The field of the data source that will be used for the outliers values of **BoxPlotSeries** .
-
->important The **DataOutliersField** property must refer a data source field that contains an array of decimal numbers.
->
-|
+| **DataOutliersField** |The field of the data source that will be used for the outliers values of **BoxPlotSeries** . *It is important to note that the __DataOutliersField__ property must refer a data source field that contains an array of decimal numbers.*|
 | **DataQ1Field** |The field of the data source that will be used for the value of the first quartile of **BoxPlotSeries** .|
 | **DataQ3Field** |The field of the data source that will be used for the value of the third quartile of **BoxPlotSeries** .|
 | **DataRadiusField** |The field of the data source that will be used for the **Radius** value for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
@@ -104,15 +98,14 @@ More information on the series properties is available below.
 
 |  **Name**  |  **Description**  |
 | ------ | ------ |
-| **Gradient** |The series overlay gradient that takes the following values:
+| **Gradient** |The series overlay gradient that takes the following values listed in **List 1**|
+
+>caption List 1: Values for the Gradient property.
 
 *  **None** 
-
 *  **Glass** - **Bar** , **Column** , **RangeBar** , **RangeColumn** , **Candlestick** and **BoxPlot** series specific.
-
 *  **RoundedBevel** - **Pie** and **donut** series specific.
-
-*  **SharpBevel** - **Pie** and **donut** series specific.|
+*  **SharpBevel** - **Pie** and **donut** series specific.
 
 ## Attribute Properties in [SeriesType] > LabelsAppearance
 
@@ -122,50 +115,29 @@ More information on the series properties is available below.
 | **Color** |The text color of the labels for the items from this series. Can take a common color name or a hex value. If it is not set explicitly the control will pick one according to the Skin it has set.|
 | **ClientTemplate** |A string for the client template that will be applied to the labels when they render. It can use any column from the data source given to the chart through the following syntax: **#=dataItem.ColumnName#** where the string delimited inside #=.....# is the expression to be evaluated. See[here]({%slug htmlchart/functionality/clienttemplate/overview%})for more information.|
 | **DataField** |The field of the data source that will be used for the value of the labels for the items.|
-| **DataFormatString** |The format string that will form the tooltip's text.
-
-*  **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item.
-
-*  **ScatterSeries** and **ScatterLineSeries** use the **{0}** and **{1}** placeholders that denote the **X** and **Y** values of the item.
-
-*  **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** use the **{0}** and **{1}** placeholders that denote accordingly the **Angle** and **Radius** values of the item.
-
-*  **BubbleSeries** use the **{0}** , **{1}** , **{2}** and **{3}** placeholders that denote accordingly the **X** , **Y** , **Size** and **Tooltip** values of the item.
-
->note Series labels in **BoxPlotSeries** and **CandlestickSeries** are not supported.
->
-|
-| **Position** |Defines the position of the labels relative to their items.
-
-* For **BarSeries** , **ColumnSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** - The Telerik.Web.UI.HtmlChart.BarColumnLabelsPosition enumeration:
-
-*  **Center** - The label is positioned at the bar center.
-
-*  **InsideEnd** - The label is positioned inside, near the end of the bar.
-
-*  **InsideBase** - The label is positioned inside, near the base of the bar.
-
-*  **OutsideEnd** - The label is positioned outside, near the end of the bar.Not applicable for stacked series
-
-* For **PieSeries** and **DonutSeries** - The Telerik.Web.UI.HtmlChart.PieAndDonutLabelsPosition enumeration:
-
-*  **Center** - The labels are positioned at the center of the pie/donut.
-
-*  **InsideEnd** - The labels are positioned inside, near the end of the pie/donut.
-
-*  **OutsideEnd** - The labels are positioned outside, near the end of the pie/donut.
-
-* For **LineSeries** , **ScatterSeries** and **ScatterLineSeries** - The Telerik.Web.UI.HtmlChart.LineAndScatterLabelsPosition enumeration:
-
-*  **Above** - The label is positioned at the top.
-
-*  **Right** - The label is positioned at the right.
-
-*  **Below** - The label is positioned at the bottom.
-
-*  **Left** - The label is positioned at the left.|
+| **DataFormatString** |The format string that will form the tooltip's text: for **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item; for **ScatterSeries** and **ScatterLineSeries** use the **{0}** and **{1}** placeholders that denote the **X** and **Y** values of the item; for **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** use the **{0}** and **{1}** placeholders that denote accordingly the **Angle** and **Radius** values of the item; for **BubbleSeries** use the **{0}** , **{1}** , **{2}** and **{3}** placeholders that denote accordingly the **X** , **Y** , **Size** and **Tooltip** values of the item. *The Series labels in __BoxPlotSeries__ and __CandlestickSeries__ are not supported.*|
+| **Position** |Defines the position of the labels relative to their items. More details about the values used to define it are listed in **List 2**. |
 | **RotationAngle** |The angle at which the labels are rotated.|
 | **Visible** |Defines whether the labels will be shown. Values are **True** or **False** .|
+
+>caption List 2: Available values for the Position property.
+
+* For **BarSeries** , **ColumnSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** - The Telerik.Web.UI.HtmlChart.BarColumnLabelsPosition enumeration:
+	*  **Center** - The label is positioned at the bar center.
+	*  **InsideEnd** - The label is positioned inside, near the end of the bar.
+	*  **InsideBase** - The label is positioned inside, near the base of the bar.
+	*  **OutsideEnd** - The label is positioned outside, near the end of the bar.Not applicable for stacked series
+
+* For **PieSeries** and **DonutSeries** - The Telerik.Web.UI.HtmlChart.PieAndDonutLabelsPosition enumeration:
+	*  **Center** - The labels are positioned at the center of the pie/donut.
+	*  **InsideEnd** - The labels are positioned inside, near the end of the pie/donut.
+	*  **OutsideEnd** - The labels are positioned outside, near the end of the pie/donut.
+
+* For **LineSeries** , **ScatterSeries** and **ScatterLineSeries** - The Telerik.Web.UI.HtmlChart.LineAndScatterLabelsPosition enumeration:
+	*  **Above** - The label is positioned at the top.
+	*  **Right** - The label is positioned at the right.
+	*  **Below** - The label is positioned at the bottom.
+	*  **Left** - The label is positioned at the left.
 
 ## Attribute Properties in [RangeColumnSeries/RangeBarSeries] > LabelsAppearance > FromLabelsAppearance / ToLabelsAppearance
 
@@ -194,7 +166,10 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **BackgroundColor** |The background color of the tooltips for the items from this series. Can take a common color name or a hex value. If it is not set explicitly, the control will pick one according to the skin it has set.|
 | **Color** |The text color of the tooltips for the items from this series. Can take a common color name or a hex value. If it is not set explicitly the control will pick one according to the Skin it has set.|
 | **ClientTemplate** |A string for the client template that will be applied to the tooltips when they render. It can use any column from the data source given to the chart through the following syntax: **#=dataItem.ColumnName#** where the string delimited inside #=.....# is the expression to be evaluated. The tooltips are HTML so HTML can be used outside of the expression tags. See[here]({%slug htmlchart/functionality/clienttemplate/overview%})for more information.|
-| **DataFormatString** |The format string that will form the tooltip's text.
+| **DataFormatString** |The format string that will form the tooltip's text. You can find more details about defining the value in **List 3**.|
+| **Visible** |Defines whether the tooltips will be shown. Values are **True** or **False** .|
+
+>caption List 3: Values for the DataFormatString property.
 
 *  **AreaSeries** , **BarSeries** , **ColumnSeries** , **DonutSeries** , **FunnelSeries** , **LineSeries** , **PieSeries** , **RadarAreaSeries** , **RadarColumnSeries** , **RadarLineSeries** , **WaterfallSeries** and **HorizontalWaterfallSeries** use the **{0}** placeholder that denote the **Y** value of the item.
 
@@ -207,7 +182,6 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 *  **CandlestickSeries** tooltips have a predefined pattern by design, they can be modified through **{0}** , **{1}** , **{2}** , **{3}** and **{4}** placeholders that denote accordingly the **Open** , **High** , **Low** , **Close** and the corresponding x-axis item's value.
 
 *  **BoxPlotSeries** tooltips have already predefined pattern by design, however, it can be modified through **{0}** , **{1}** , **{2}** , **{3}** , **{4}** , **{5}** and **{6}** placeholders that denote accordingly the **Lower** , **Q1** , **Median** , **Q3** , **Upper** , **Mean** and the corresponding x-axis item's value.|
-| **Visible** |Defines whether the tooltips will be shown. Values are **True** or **False** .|
 
 ## Attribute Properties in [AreaSeries, LineSeries, PolarAreaSeries, PolarLineSeries, RadarAreaSeries, RadarLineSeries and ScatterLineSeries] > LineAppearance
 
@@ -215,17 +189,7 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **Width** |The width of the line for the series. Takes the width in pixels.|
-| **LineStyle** |A string property that takes the following values.
-
-*  **Normal** - Data points from series will be connected with straight lines.
-
-*  **Smooth** - Data points from series will be connected with fitted curves.
-
-*  **Step** - Data points from series will be connected with lines that have right angle.
-
->caution  **Step** property is available only for **AreaSeries** and **LineSeries** .
->
-|
+| **LineStyle** |A string property that takes the following values: **Normal**—data points from series will be connected with straight lines; **Smooth**—Data points from series will be connected with fitted curves; **Step**—Data points from series will be connected with lines that have right angle. _Note that the **Step** property is available only for **AreaSeries** and **LineSeries**._|
 
 ## Attribute Properties in [AreaSeries, LineSeries, ScatterSeries and ScatterLineSeries] > MarkersAppearance
 
@@ -258,7 +222,7 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Color** |The color of the outliers' borders for the items from this series. Can take a common color name or a hex value. If this property is not set explicitly, the control will inherit the color of Series itself.|
 | **Width** |The width of the outliers' borders for the items from this series. Takes the width in pixels.|
 
-# See Also
+## See Also
 
  * [Overview]({%slug htmlchart/server-side-programming/overview%})
 

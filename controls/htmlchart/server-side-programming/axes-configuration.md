@@ -10,8 +10,6 @@ position: 5
 
 # Axes Configuration
 
-
-
 This help article will tell you which properties to set for the axes of the different **RadHtmlChart** series. The axes are child elements of the **PlotArea** element of the **RadHtmlChart**. Both the **X** and **Y** axes have a common set of properties and inner tags. The major difference is that in most cases, the x-axis requires a set of items while the y-axis requires a numerical value. The exceptions are **PieSeries**, **DonutSeries** and **FunnelSeries** where there are no axes, and **ScatterSeries**, **ScatterLineSeries** and **BubbleSeries** where the x-axis is also numerical.
 
 As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYAxes** tag inside **PlotArea**. These additional axes have the same configuration options as the main **YAxis**. Each series offers the **AxisName** property which corresponds to the **Name** property of the additional axis used by the series.
@@ -22,11 +20,7 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **AxisCrossingValue** |Sets the value of this axis where the other axis will cross it. For a numerical x-axis, i.e., **ScatterSeries** and **ScatterLineSeries** and the y-axis, this is the numerical value where the axes cross. For a category axis (e.g., like most cases for the x-axis) this is the item index where the axes cross.|
-| **AxisCrossingPoints** |A collection that holds the **AxisCrossingPoint** objects. They are used to rearrange the position of the main and the additional y-axes of the chart.
-
->note This collection is available only in the **XAxis** inner tag of the **PlotArea** .
->
-|
+| **AxisCrossingPoints** |A collection that holds the **AxisCrossingPoint** objects. They are used to rearrange the position of the main and the additional y-axes of the chart. _This collection is available only in the **XAxis** inner tag of the **PlotArea**._|
 | **Color** |The color of the axis line. It can take a common color name or a hex value (e.g., "red", "#ff0000") when set in the markup and a value of type **System.Drawing.Color** when set in the code behind.|
 | **BaseUnit** |Controls the scale of the axis (the time intervals through which a label is placed on the date axis). The available options are **"auto"** , **"years"** , **"months"** , **"weeks"** , **"days"** , **"hours"** , **"minutes"** and **"seconds"** .|
 | **DataLabelsField** |The field from the data source where the string for the label is stored. This information is used for the **DataFormatString** property of the labels and tooltips via the **{0}** placeholder as well as templates via the **#=category#** field. This property is meaningful for the x-axis only, because the y-axis is always numerical and adjusts its range according to the values the series have. The nearest equivalent is setting the **MinValue** and **MaxValue** for the y-axis depending on your data source.|
@@ -40,17 +34,20 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 | **MinValue** |The minimal numerical value of the axis. The property takes effect only for a numerical axis. Chosen by the control according to the data if not set explicitly.|
 | **Name** |The Name of the y-axis that can be used in the **AxisName** property of each series to indicate which y-axis will be used by the particular series. Applicable when multiple y-axes are used. Can be left blank for the default y-axis.|
 | **Reversed** |Determines whether the axis will be reversed (i.e., the low values in the place of the high values).|
-| **StartAngle** |
-
-*  **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** - The angle (degrees) where the 0 value is placed. Angles increase counterclockwise and zero is to the right. Negative values are acceptable. Default value is 90.
-
-*  **RadarAreaSeries** , **RadarColumnSeries** and **RadarLineSeries** - The angle (degrees) of the first category on the axis. Angles increase clockwise and zero is to the left. Negative values are acceptable. Default value is 0.|
+| **StartAngle** | **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** - The angle (degrees) where the 0 value is placed. Angles increase counter clockwise and zero is to the right. Negative values are acceptable. Default value is 90. **RadarAreaSeries** , **RadarColumnSeries** and **RadarLineSeries** - The angle (degrees) of the first category on the axis. Angles increase clockwise and zero is to the left. Negative values are acceptable. Default value is 0.|
 | **Step** |The step through which major grid lines and axis labels are placed. Chosen by the control according to the data if not set explicitly. Applicable for numeric axes only.|
-| **Type** |Controls the type of the axis. Detailed information on the supported values for the x-axis/y-axis in numeric and category series is available in **List 1** and **List 2** below. **List 1** : **YAxis.Type** property values.
+| **Type** |Controls the type of the axis. Detailed information on the supported values for the x-axis/y-axis in numeric and category series is available in **List 1** and **List 2** below. |
+| **Visible** |Whether to render the axis. **True** or **False** .|
+| **Width** |Sets the width of the axis line in pixels.|
+
+
+>caption List 1: **YAxis.Type** property values.
 
 *  **Numeric** - Sets a linear scale for the axis. Applicable for numeric and category series.
 
-*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric and category series. **List 2** : **XAxis.Type** property values.
+*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric and category series. 
+
+>caption List 2: **XAxis.Type** property values.
 
 *  **Auto** - Automatically detects the type of the axis. Applicable for numeric and category series.
 
@@ -58,9 +55,7 @@ As of the Q3 2012 release, you can declare multiple y-axes in the **AdditionalYA
 
 *  **Date** - Used for displaying chronological data. See[Date Axis]({%slug htmlchart/functionality/axes/date-axis%})help article for details. Applicable for category series.
 
-*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric series.|
-| **Visible** |Whether to render the axis. **True** or **False** .|
-| **Width** |Sets the width of the axis line in pixels.|
+*  **Log** - Sets a logarithmic scale for the axis. See[Logarithmic Axis]({%slug htmlchart/functionality/axes/logarithmic-axis%})help article for details. Applicable for numeric series.
 
 ## Attribute Properties in [Axis] > LabelsAppearance
 
@@ -146,7 +141,7 @@ See [this article]({%slug htmlchart/appearance-and-styling/labels-and-titles-fon
 | **Margin** |Specifies the margin of the axis title's text. Takes the margin value in pixels.|
 | **Padding** |Specifies the padding of the axis title's text. Takes the padding value in pixels.|
 
-# See Also
+## See Also
 
  * [Overview]({%slug htmlchart/server-side-programming/overview%})
 

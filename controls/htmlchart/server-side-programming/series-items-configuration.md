@@ -31,18 +31,12 @@ This help article lists all the properties of the **SeriesItems** collection	for
 | **Median** |The value of the median (i.e., the second quartile) for an item from a **BoxPlotSeries** .|
 | **Name** |Defines the string shown in the legend for the item from a **PieSeries** or **DonutSeries** .|
 | **Open** |The value of the open price for an item from a **CandlestickSeries** .|
-| **Outliers** |A collection of <Outlier> objects for an item from a **BoxPlotSeries** .	Each <Outlier> object exposes a **Value** property.|
+| **Outliers** |A collection of <Outlier> objects for an item from a **BoxPlotSeries** .	Each `<Outlier>` object exposes a **Value** property.|
 | **Q1** |The value of the first quartile for an item from a **BoxPlotSeries** .|
 | **Q3** |The value of the third quartile for an item from a **BoxPlotSeries** .|
 | **Radius** |The radius for the item from **PolarAreaSeries** , **PolarLineSeries** and **PolarScatterSeries** .|
 | **Size** |The value for the circle size of an item from a **BubbleSeries** .|
-| **Summary** |Defines the type of the **WaterfallSeriesItem** from **WaterfallSeries** and **HorizontalWaterfallSeries** .
-
-*  **Default** - Displays the **Y** value of the item.
-
-*  **RunningTotal** - Displays the sum of all items since the last "RunningTotal" point.
-
-*  **Total** - Displays the sum of all previous items.|
+| **Summary** |Defines the type of the **WaterfallSeriesItem** from **WaterfallSeries** and **HorizontalWaterfallSeries**. **Default** - Displays the **Y** value of the item. **RunningTotal** - Displays the sum of all items since the last "RunningTotal" point. **Total** - Displays the sum of all previous items.|
 | **Tooltip** |The string shown in the tooltip of an item from a **BubbleSeries** by default (in case format strings or template are not applied).|
 | **To** |The high value for an item from a **RangeBarSeries** and **RangeColumnSeries** .|
 | **Upper** |The upper value for an item from a **BoxPlotSeries** .|
@@ -52,7 +46,7 @@ This help article lists all the properties of the **SeriesItems** collection	for
 
 ## Configure SeriesItems in the Code-behind
 
-To create series items programmatically, you should use the respective class foreach series type:
+To create series items programmatically, you should use the respective class for each series type:
 
 * **AreaSeries**, **BarSeries**, **ColumnSeries**, **LineSeries**, **RadarAreaSeries**, **RadarColumnSeries** and **RadarLineSeries** use the **CategorySeriesItem** class.
 
@@ -74,9 +68,9 @@ To create series items programmatically, you should use the respective class for
 
 * **WaterfallSeries** and **HorizontalWaterfallSeries** use the **WaterfallSeriesItem** class.
 
-In order to access the properties of the series in the code-behind, the seriesmust be cast to the respective series type (e.g. (RadHtmlChart1.PlotArea.Series[0] as ColumnSeries).SeriesItems[0].Y = 10;).
+In order to access the properties of the series in the code-behind, the series must be cast to the respective series type (e.g. (RadHtmlChart1.PlotArea.Series[0] as ColumnSeries).SeriesItems[0].Y = 10;).
 
-# See Also
+## See Also
 
  * [Visual Structure of the RadHtmlChart Control’s Tag Hierarchy]({%slug htmlchart/server-side-programming/overview%})
 

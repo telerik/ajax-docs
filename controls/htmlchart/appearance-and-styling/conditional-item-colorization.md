@@ -10,8 +10,6 @@ position: 1
 
 # Conditional Item Colorization
 
-
-
 All series types expose a **ColorField** property that you can use to specify a column in the data source from which the color for each item in the series will be taken. You can find a good demo of how this works in the [Conditional Item Colorization Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/custombarcolor/defaultcs.aspx).
 
 The color must be passed as a **string** in the data source and its format can be either a color name (e.g. "red", "green", "blue"), or a hex value (e.g. "#cccccc", "#ff00ee", "#123456"). This functionality became available in Q1 2013. The exception are **PieSeries** and **DonutSeries** which expose the property since the release of the control.
@@ -48,7 +46,7 @@ Setting a custom color for an item changes the markers's border color as well as
 
 The [Conditional Item Colorization Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/custombarcolor/defaultcs.aspx) with randomly generated data shows how you can customize the data source, so that items with given values have custom colors. Similar logic can be extended for other databinding methods, e.g., using a programmatic DataTable or a column from a declarative data source like the **SqlDataSource** in case the database already has the desired information.
 
-# See Also
+## See Also
 
  * [Conditional Item Colorization Demo](http://demos.telerik.com/aspnet-ajax/htmlchart/examples/functionality/custombarcolor/defaultcs.aspx)
 
