@@ -84,36 +84,35 @@ The following code-snippet modifies the default **itemStyle**/**alternatingItemS
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
-	    {
-	        foreach (StyleElement style in e.Styles)
-	        {
-	            switch (style.Id)
-	            {
-	                case "itemStyle":
-	                    style.FontStyle.Color = System.Drawing.Color.LightBlue;
-	                    break;
-	                case "alternatingItemStyle":
-	                    style.FontStyle.Color = System.Drawing.Color.Blue;
-	                    break;
-	            }
-	        }
-	    }
+protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
+{
+    foreach (StyleElement style in e.Styles)
+    {
+        switch (style.Id)
+        {
+            case "itemStyle":
+                style.FontStyle.Color = System.Drawing.Color.LightBlue;
+                break;
+            case "alternatingItemStyle":
+                style.FontStyle.Color = System.Drawing.Color.Blue;
+                break;
+        }
+    }
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
-	        For Each style As StyleElement In e.Styles
-	            Select Case style.Id
-	                Case "itemStyle"
-	                    style.FontStyle.Color = System.Drawing.Color.LightBlue
-	                    Exit Select
-	                Case "alternatingItemStyle"
-	                    style.FontStyle.Color = System.Drawing.Color.Blue
-	                    Exit Select
-	            End Select
-	        Next
-	    End Sub
+Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
+    For Each style As StyleElement In e.Styles
+        Select Case style.Id
+            Case "itemStyle"
+                style.FontStyle.Color = System.Drawing.Color.LightBlue
+                Exit Select
+            Case "alternatingItemStyle"
+                style.FontStyle.Color = System.Drawing.Color.Blue
+                Exit Select
+        End Select
+    Next
+End Sub
 ````
 
 
@@ -124,30 +123,28 @@ In order to define a custom style, you should assign it to the desired element (
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
-	    {
-	        e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle";
-	    }
-	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
-	    {
-	        StyleElement myStyle = new StyleElement("myCustomStyle");
-	        myStyle.NumberFormat.FormatType = NumberFormatType.Currency;
-	        myStyle.FontStyle.Bold = true;
-	        e.Styles.Add(myStyle);
-	    }
+protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
+{
+    e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle";
+}
+protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
+{
+    StyleElement myStyle = new StyleElement("myCustomStyle");
+    myStyle.NumberFormat.FormatType = NumberFormatType.Currency;
+    myStyle.FontStyle.Bold = true;
+    e.Styles.Add(myStyle);
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
-	        e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
-	    End Sub
-	    Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
-	        Dim myStyle As New StyleElement("myCustomStyle")
-	        myStyle.NumberFormat.FormatType = NumberFormatType.Currency
-	        myStyle.FontStyle.Bold = True
-	        e.Styles.Add(myStyle)
-	    End Sub
-	
+Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
+    e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
+End Sub
+Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
+    Dim myStyle As New StyleElement("myCustomStyle")
+    myStyle.NumberFormat.FormatType = NumberFormatType.Currency
+    myStyle.FontStyle.Bold = True
+    e.Styles.Add(myStyle)
+End Sub
 ````
 
 
@@ -172,30 +169,28 @@ You add the symbols from the table below to data of the header / footer elements
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
-	    {
-	        e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle";
-	    }
-	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
-	    {
-	        StyleElement myStyle = new StyleElement("myCustomStyle");
-	        myStyle.NumberFormat.FormatType = NumberFormatType.Currency;
-	        myStyle.FontStyle.Bold = true;
-	        e.Styles.Add(myStyle);
-	    }
+protected void RadGrid1_ExcelMLExportRowCreated(object source, GridExportExcelMLRowCreatedArgs e)
+{
+    e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle";
+}
+protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExportExcelMLStyleCreatedArgs e)
+{
+    StyleElement myStyle = new StyleElement("myCustomStyle");
+    myStyle.NumberFormat.FormatType = NumberFormatType.Currency;
+    myStyle.FontStyle.Bold = true;
+    e.Styles.Add(myStyle);
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
-	        e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
-	    End Sub
-	    Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
-	        Dim myStyle As New StyleElement("myCustomStyle")
-	        myStyle.NumberFormat.FormatType = NumberFormatType.Currency
-	        myStyle.FontStyle.Bold = True
-	        e.Styles.Add(myStyle)
-	    End Sub
-	
+Protected Sub RadGrid1_ExcelMLExportRowCreated(ByVal source As Object, ByVal e As GridExportExcelMLRowCreatedArgs) Handles RadGrid1.ExcelMLExportRowCreated
+    e.Row.Cells.GetCellByName("Name").StyleValue = "myCustomStyle"
+End Sub
+Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
+    Dim myStyle As New StyleElement("myCustomStyle")
+    myStyle.NumberFormat.FormatType = NumberFormatType.Currency
+    myStyle.FontStyle.Bold = True
+    e.Styles.Add(myStyle)
+End Sub	
 ````
 
 
@@ -236,15 +231,11 @@ For more information about the number formats/borders, please visit the followin
 
 In addition to the predefined formats,you could add your own custom formats.
 
-
-
 ````C#
-	
-	        style.NumberFormat.Attributes["ss:Format"] = "MM/dd";
-	
+style.NumberFormat.Attributes["ss:Format"] = "MM/dd";
 ````
 ````VB.NET
-			style.NumberFormat.Attributes("ss:Format") = "MM/dd"
+style.NumberFormat.Attributes("ss:Format") = "MM/dd"
 ````
 
 
@@ -262,46 +253,44 @@ Each **StyleElement** has a **Borders** property (**BorderStylesCollection**) th
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExcelBuilder.GridExportExcelMLStyleCreatedArgs e)
-	    {
-	        StyleElement cstyle = new StyleElement("MyCustomStyle");
-	        BorderStylesCollection borders = new BorderStylesCollection();
-	        BorderStyles borderStyle;
-	        for (int i = 1; i <= 4; i++) //four borders   
-	        {
-	            borderStyle = new BorderStyles();
-	            borderStyle.PositionType = (PositionType)i;
-	            borderStyle.Color = System.Drawing.Color.Black;
-	            borderStyle.LineStyle = LineStyle.Continuous;
-	            borderStyle.Weight = 1.0;
-	            borders.Add(borderStyle);
-	        }
-	        foreach (BorderStyles border in borders)
-	            cstyle.Borders.Add(border);
-	        e.Styles.Add(cstyle);
-	    }
+protected void RadGrid1_ExcelMLExportStylesCreated(object source, GridExcelBuilder.GridExportExcelMLStyleCreatedArgs e)
+{
+    StyleElement cstyle = new StyleElement("MyCustomStyle");
+    BorderStylesCollection borders = new BorderStylesCollection();
+    BorderStyles borderStyle;
+    for (int i = 1; i <= 4; i++) //four borders   
+    {
+        borderStyle = new BorderStyles();
+        borderStyle.PositionType = (PositionType)i;
+        borderStyle.Color = System.Drawing.Color.Black;
+        borderStyle.LineStyle = LineStyle.Continuous;
+        borderStyle.Weight = 1.0;
+        borders.Add(borderStyle);
+    }
+    foreach (BorderStyles border in borders)
+        cstyle.Borders.Add(border);
+    e.Styles.Add(cstyle);
+}
 ````
 ````VB.NET
-	
-	
-	    Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
-	
-	        Dim cstyle As New StyleElement("MyCustomStyle")
-	        Dim borders As New BorderStylesCollection()
-	        Dim borderStyle As BorderStyles
-	        For i As Integer = 1 To 4
-	            'four borders    
-	            borderStyle.PositionType = DirectCast(i, PositionType)
-	            borderStyle.Color = System.Drawing.Color.Black
-	            borderStyle.LineStyle = LineStyle.Continuous
-	            borderStyle.Weight = 1.0R
-	            borders.Add(borderStyle)
-	        Next
-	        For Each border As BorderStyles In borders
-	            cstyle.Borders.Add(border)
-	        Next
-	        e.Styles.Add(cstyle)
-	    End Sub
+Protected Sub RadGrid1_ExcelMLExportStylesCreated(ByVal source As Object, ByVal e As GridExportExcelMLStyleCreatedArgs) Handles RadGrid1.ExcelMLExportStylesCreated
+
+    Dim cstyle As New StyleElement("MyCustomStyle")
+    Dim borders As New BorderStylesCollection()
+    Dim borderStyle As BorderStyles
+    For i As Integer = 1 To 4
+        'four borders    
+        borderStyle.PositionType = DirectCast(i, PositionType)
+        borderStyle.Color = System.Drawing.Color.Black
+        borderStyle.LineStyle = LineStyle.Continuous
+        borderStyle.Weight = 1.0R
+        borders.Add(borderStyle)
+    Next
+    For Each border As BorderStyles In borders
+        cstyle.Borders.Add(border)
+    Next
+    e.Styles.Add(cstyle)
+End Sub
 ````
 
 
@@ -312,18 +301,17 @@ You can use the **HideStructureColumns** property to hide *GridRowIndicatorColum
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = false;
-	        RadGrid1.MasterTableView.ExportToExcel();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = false;
+    RadGrid1.MasterTableView.ExportToExcel();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = False
-	        RadGrid1.MasterTableView.ExportToExcel()
-	    End Sub
-	
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.GetColumn("ColumnName").Visible = False
+    RadGrid1.MasterTableView.ExportToExcel()
+End Sub
 ````
 
 
@@ -346,48 +334,48 @@ The example below demonstrates how you could remove the protection on each secon
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
-	    {
-	        e.WorkBook.Worksheets[0].IsProtected = true;
-	
-	        StyleElement protectionStyle = new StyleElement("ProtectionStyle");
-	        protectionStyle.CellProtection.IsProtected = false;
-	        e.WorkBook.Styles.Add(protectionStyle);
-	
-	        foreach (RowElement row in e.WorkBook.Worksheets[0].Table.Rows)
-	        {
-	            int rowIndex = e.WorkBook.Worksheets[0].Table.Rows.IndexOf(row);
-	            //check whether the row is even
-	            if (rowIndex % 2 == 0)
-	            {
-	                //only the cells on the even rows will be unlocked
-	                foreach (CellElement cell in row.Cells)
-	                {
-	                    cell.StyleValue = "ProtectionStyle";
-	                }
-	            }
-	        }
-	    }
+protected void RadGrid1_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
+{
+    e.WorkBook.Worksheets[0].IsProtected = true;
+
+    StyleElement protectionStyle = new StyleElement("ProtectionStyle");
+    protectionStyle.CellProtection.IsProtected = false;
+    e.WorkBook.Styles.Add(protectionStyle);
+
+    foreach (RowElement row in e.WorkBook.Worksheets[0].Table.Rows)
+    {
+        int rowIndex = e.WorkBook.Worksheets[0].Table.Rows.IndexOf(row);
+        //check whether the row is even
+        if (rowIndex % 2 == 0)
+        {
+            //only the cells on the even rows will be unlocked
+            foreach (CellElement cell in row.Cells)
+            {
+                cell.StyleValue = "ProtectionStyle";
+            }
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
-	        e.WorkBook.Worksheets(0).IsProtected = True
-	
-	        Dim protectionStyle As New StyleElement("ProtectionStyle")
-	        protectionStyle.CellProtection.IsProtected = False
-	        e.WorkBook.Styles.Add(protectionStyle)
-	
-	        For Each row As RowElement In e.WorkBook.Worksheets(0).Table.Rows
-	            Dim rowIndex As Integer = e.WorkBook.Worksheets(0).Table.Rows.IndexOf(row)
-	            'check whether the row is even
-	            If rowIndex Mod 2 = 0 Then
-	                'only the cells on the even rows will be unlocked
-	                For Each cell As CellElement In row.Cells
-	                    cell.StyleValue = "ProtectionStyle"
-	                Next
-	            End If
-	        Next
-	    End Sub
+Protected Sub RadGrid1_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
+    e.WorkBook.Worksheets(0).IsProtected = True
+
+    Dim protectionStyle As New StyleElement("ProtectionStyle")
+    protectionStyle.CellProtection.IsProtected = False
+    e.WorkBook.Styles.Add(protectionStyle)
+
+    For Each row As RowElement In e.WorkBook.Worksheets(0).Table.Rows
+        Dim rowIndex As Integer = e.WorkBook.Worksheets(0).Table.Rows.IndexOf(row)
+        'check whether the row is even
+        If rowIndex Mod 2 = 0 Then
+            'only the cells on the even rows will be unlocked
+            For Each cell As CellElement In row.Cells
+                cell.StyleValue = "ProtectionStyle"
+            Next
+        End If
+    Next
+End Sub
 ````
 
 
@@ -400,18 +388,18 @@ The following code snippet demonstrates how to use them.
 
 
 ````C#
-	    protected void grid_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
-	    {
-	        e.WorkBook.Worksheets[0].WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4;
-	        e.WorkBook.Worksheets[0].WorksheetOptions.FitToPage = true;
-	        e.WorkBook.Worksheets[0].WorksheetOptions.Print.FitHeight = 1;
-	    }
+protected void grid_ExcelMLWorkBookCreated(object sender, Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs e)
+{
+    e.WorkBook.Worksheets[0].WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4;
+    e.WorkBook.Worksheets[0].WorksheetOptions.FitToPage = true;
+    e.WorkBook.Worksheets[0].WorksheetOptions.Print.FitHeight = 1;
+}
 ````
 ````VB.NET
-	    Protected Sub grid_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
-	        e.WorkBook.Worksheets(0).WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4
-	        e.WorkBook.Worksheets(0).WorksheetOptions.FitToPage = True
-	        e.WorkBook.Worksheets(0).WorksheetOptions.Print.FitHeight = 1
-	    End Sub
+Protected Sub grid_ExcelMLWorkBookCreated(sender As Object, e As Telerik.Web.UI.GridExcelBuilder.GridExcelMLWorkBookCreatedEventArgs)
+    e.WorkBook.Worksheets(0).WorksheetOptions.Print.PaperSize = System.Drawing.Printing.PaperKind.A4
+    e.WorkBook.Worksheets(0).WorksheetOptions.FitToPage = True
+    e.WorkBook.Worksheets(0).WorksheetOptions.Print.FitHeight = 1
+End Sub
 ````
 

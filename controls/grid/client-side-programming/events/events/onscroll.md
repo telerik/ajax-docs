@@ -30,7 +30,7 @@ This event is fired when you scroll the grid.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnScroll="Scroll" />

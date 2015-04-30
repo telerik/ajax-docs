@@ -14,7 +14,8 @@ position: 4
 
 ## 
 
-In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
+In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/functionality/grouping/how-to/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
+![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
 
 RadGrid also gives you the opportunity to retain the visibility of the group footers when their corresponding group header row is collapsed. In order to switch on this feature, just set the **GroupingSettings.RetainGroupFooterVisibility** property to true.
 
@@ -52,54 +53,54 @@ In order to specify how the group aggregates will be evaluated, specify in every
 [This online demo](http://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupFooter/DefaultCS.aspx) represents the functionality in question. Review the code excerpt below for additional details:
 
 ````ASPNET
-	  <asp:ScriptManager ID="ScriptManager1" runat="server" />
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadGrid ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
-	    DataSourceID="SqlDataSource1" AllowFilteringByColumn="True" AllowSorting="True"
-	    ShowFooter="True" runat="server" GridLines="None" AllowPaging="true" Skin="WebBlue">
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	    <MasterTableView ShowGroupFooter="true" AllowMultiColumnSorting="true">
-	      <Columns>
-	        <telerik:GridBoundColumn Aggregate="Count" DataField="ProductID" HeaderText="Product ID"
-	          FooterText="Total products: ">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ProductName" HeaderText="Product name" SortExpression="ProductName"
-	          UniqueName="ProductName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn Aggregate="Sum" DataField="UnitPrice" HeaderText="Unit price"
-	          FooterText="Total price: ">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn Aggregate="Sum" DataField="UnitsInStock" HeaderText="Units in stock"
-	          FooterText="All units in stock: ">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridCalculatedColumn HeaderText="Total Price" UniqueName="TotalPrice" DataType="System.Double"
-	          DataFields="UnitPrice, UnitsInStock" Expression="{0}*{1}" FooterText="Total : "
-	          Aggregate="Sum" />
-	      </Columns>
-	      <GroupByExpressions>
-	        <telerik:GridGroupByExpression>
-	          <GroupByFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" />
-	          </GroupByFields>
-	          <SelectFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Unit price" />
-	          </SelectFields>
-	        </telerik:GridGroupByExpression>
-	      </GroupByExpressions>
-	    </MasterTableView>
-	    <ClientSettings AllowDragToGroup="true" />
-	  </telerik:RadGrid>
-	  <br />
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    SelectCommand="SELECT * FROM Products Where UnitPrice > 9.50" runat="server"></asp:SqlDataSource>
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadGrid ShowGroupPanel="true" AutoGenerateColumns="false" ID="RadGrid1"
+  DataSourceID="SqlDataSource1" AllowFilteringByColumn="True" AllowSorting="True"
+  ShowFooter="True" runat="server" GridLines="None" AllowPaging="true" Skin="WebBlue">
+  <PagerStyle Mode="NextPrevAndNumeric" />
+  <MasterTableView ShowGroupFooter="true" AllowMultiColumnSorting="true">
+    <Columns>
+      <telerik:GridBoundColumn Aggregate="Count" DataField="ProductID" HeaderText="Product ID"
+        FooterText="Total products: ">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn DataField="ProductName" HeaderText="Product name" SortExpression="ProductName"
+        UniqueName="ProductName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn Aggregate="Sum" DataField="UnitPrice" HeaderText="Unit price"
+        FooterText="Total price: ">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn Aggregate="Sum" DataField="UnitsInStock" HeaderText="Units in stock"
+        FooterText="All units in stock: ">
+      </telerik:GridBoundColumn>
+      <telerik:GridCalculatedColumn HeaderText="Total Price" UniqueName="TotalPrice" DataType="System.Double"
+        DataFields="UnitPrice, UnitsInStock" Expression="{0}*{1}" FooterText="Total : "
+        Aggregate="Sum" />
+    </Columns>
+    <GroupByExpressions>
+      <telerik:GridGroupByExpression>
+        <GroupByFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" />
+        </GroupByFields>
+        <SelectFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Unit price" />
+        </SelectFields>
+      </telerik:GridGroupByExpression>
+    </GroupByExpressions>
+  </MasterTableView>
+  <ClientSettings AllowDragToGroup="true" />
+</telerik:RadGrid>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  SelectCommand="SELECT * FROM Products Where UnitPrice > 9.50" runat="server"></asp:SqlDataSource>
 ````
 
 

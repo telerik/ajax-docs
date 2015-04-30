@@ -16,7 +16,7 @@ position: 30
 
 This method allows you to hide the **GridDataItem** from the grid. The method accept one parameter which is the index ofthe table row that will be hidden.
 
-````ASPNET
+````ASP.NET
 	         <script type="text/javascript">
 	             function dataBound(sender, args) {
 	                 sender.get_masterTableView().hideItem(0);

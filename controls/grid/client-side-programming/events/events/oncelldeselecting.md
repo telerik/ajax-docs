@@ -43,7 +43,7 @@ Example:
 
 
 
-````ASPNET
+````ASP.NET
 	        <ClientSettings>
 	                <Selecting CellSelectionMode="MultiCell" />
 	                <Scrolling AllowScroll="true" UseStaticHeaders="true" />

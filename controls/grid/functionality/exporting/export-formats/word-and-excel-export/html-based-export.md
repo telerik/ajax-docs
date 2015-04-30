@@ -18,7 +18,7 @@ position: 0
 
 ## Styles / Appearance
 
-Due to the fact that this format is based on standard **HTML/CSS** it is quite straightforward to controlthe appearance of the output by applying **CSS** tags/classesto the cells/rows/tables, etc.
+Due to the fact that this format is based on standard **HTML/CSS** it is quite straightforward to control the appearance of the output by applying **CSS** tags/classes to the cells/rows/tables, etc.
 
 ## ExportCellFormating / ExcelExportCellFormatting events
 
@@ -35,10 +35,10 @@ There are two important members exposed by the **ExportCellFormattingEventArgs**
 
 
 ````C#
-	    GridDataItem item = e.Cell.Parent as GridDataItem;
+GridDataItem item = e.Cell.Parent as GridDataItem;
 ````
 ````VB.NET
-	    Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
+Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
 ````
 
 
@@ -47,13 +47,12 @@ There are two important members exposed by the **ExportCellFormattingEventArgs**
 
 
 ````C#
-	    GridColumn column = e.FormattedColumn as GridColumn;
-	    string columnName = column.UniqueName;
+GridColumn column = e.FormattedColumn as GridColumn;
+string columnName = column.UniqueName;
 ````
 ````VB.NET
-	    Dim column As GridColumn = TryCast(e.FormattedColumn, GridColumn)
-	    Dim columnName As String = column.UniqueName
-	
+Dim column As GridColumn = TryCast(e.FormattedColumn, GridColumn)
+Dim columnName As String = column.UniqueName
 ````
 
 
@@ -64,15 +63,15 @@ The purpose of this event is to allow the developer to insert global styles (CSS
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }");
-	    }
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }");
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_HTMLExporting(ByVal sender As Object, ByVal e As GridHTMLExportingEventArgs) Handles RadGrid1.HTMLExporting
-	        e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }")
-	    End Sub
+Protected Sub RadGrid1_HTMLExporting(ByVal sender As Object, ByVal e As GridHTMLExportingEventArgs) Handles RadGrid1.HTMLExporting
+    e.Styles.Append("body { border:solid 0.1pt #CCCCCC; }")
+End Sub
 ````
 
 
@@ -83,17 +82,15 @@ In case you need to use a line breaks when exporting to Excel or Word you can ad
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        e.Styles.Append("br { mso-data-placement: same-cell; }");
-	    }
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    e.Styles.Append("br { mso-data-placement: same-cell; }");
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.Styles.Append("br { mso-data-placement: same-cell; }")
-	    End Sub
-	
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+    e.Styles.Append("br { mso-data-placement: same-cell; }")
+End Sub
 ````
 
 
@@ -104,25 +101,24 @@ Thanks to the **ExportCellFormatting** event it is really easy to apply custom s
 
 
 ````C#
-	    protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
-	    {
-	        GridDataItem item = e.Cell.Parent as GridDataItem;
-	        if (item.ItemType == GridItemType.AlternatingItem)
-	            item.Style["background-color"] = "#359AFF";
-	        else
-	            item.Style["background-color"] = "#2D62FF";
-	    }
+protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
+{
+    GridDataItem item = e.Cell.Parent as GridDataItem;
+    if (item.ItemType == GridItemType.AlternatingItem)
+        item.Style["background-color"] = "#359AFF";
+    else
+        item.Style["background-color"] = "#2D62FF";
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
-	        Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
-	        If item.ItemType = GridItemType.AlternatingItem Then
-	            item.Style("background-color") = "#359AFF"
-	        Else
-	            item.Style("background-color") = "#2D62FF"
-	        End If
-	    End Sub
-	
+Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
+    Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
+    If item.ItemType = GridItemType.AlternatingItem Then
+        item.Style("background-color") = "#359AFF"
+    Else
+        item.Style("background-color") = "#2D62FF"
+    End If
+End Sub
 ````
 
 
@@ -131,20 +127,18 @@ Sometimes the developer needs to highlight the negative values (for example: -1,
 
 
 ````C#
-	    protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
-	    {
-	        if (e.FormattedColumn.UniqueName == "MyColumn" && double.Parse(e.Cell.Text) < 0)
-	            e.Cell.Style["background-color"] = "#FA2020";
-	    }
+protected void RadGrid1_ExportCellFormatting(object source, ExportCellFormattingEventArgs e)
+{
+    if (e.FormattedColumn.UniqueName == "MyColumn" && double.Parse(e.Cell.Text) < 0)
+        e.Cell.Style["background-color"] = "#FA2020";
+}
 ````
-````VB.NET
-	
-	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
-	        If e.FormattedColumn.UniqueName = "MyColumn" AndAlso Double.Parse(e.Cell.Text) < 0 Then
-	            e.Cell.Style("background-color") = "#FA2020"
-	        End If
-	    End Sub
-	
+````VB.NET	
+Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExportCellFormattingEventArgs) Handles RadGrid1.ExportCellFormatting
+    If e.FormattedColumn.UniqueName = "MyColumn" AndAlso Double.Parse(e.Cell.Text) < 0 Then
+        e.Cell.Style("background-color") = "#FA2020"
+    End If
+End Sub
 ````
 
 
@@ -159,31 +153,29 @@ Please keep in mind that if you don't use **IgnorePaging="true" RadGrid** will b
 
 
 ````C#
-	    bool isExport = false; //Export flagprotected 
-	    void Button1_Click(object sender, EventArgs e)
-	    {
-	        isExport = true;
-	        RadGrid1.MasterTableView.ExportToExcel();
-	    }
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridHeaderItem && isExport)
-	            e.Item.Style["background-color"] = "#EEAAEC";
-	    }
+bool isExport = false; //Export flagprotected 
+void Button1_Click(object sender, EventArgs e)
+{
+    isExport = true;
+    RadGrid1.MasterTableView.ExportToExcel();
+}
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridHeaderItem && isExport)
+        e.Item.Style["background-color"] = "#EEAAEC";
+}
 ````
-````VB.NET
-	
-	    Private isExport As Boolean = False 'Export flagProtected
-	    Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        isExport = True
-	        RadGrid1.MasterTableView.ExportToExcel()
-	    End Sub
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridHeaderItem AndAlso isExport Then
-	            e.Item.Style("background-color") = "#EEAAEC"
-	        End If
-	    End Sub
-	
+````VB.NET	
+Private isExport As Boolean = False 'Export flagProtected
+Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    isExport = True
+    RadGrid1.MasterTableView.ExportToExcel()
+End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridHeaderItem AndAlso isExport Then
+        e.Item.Style("background-color") = "#EEAAEC"
+    End If
+End Sub
 ````
 
 
@@ -216,23 +208,21 @@ Example:
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        e.XmlOptions = @"<xml>
-	                            <o:DocumentProperties>
-		                          <o:Category>Reports</o:Category>
-		                          <o:Manager>Kate Dresen</o:Manager>
-		                          <o:Company>Adventure Works</o:Company>  
-	                            </o:DocumentProperties>
-	                         </xml>";
-	    }
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    e.XmlOptions = @"<xml>
+                        <o:DocumentProperties>
+                          <o:Category>Reports</o:Category>
+                          <o:Manager>Kate Dresen</o:Manager>
+                          <o:Company>Adventure Works</o:Company>  
+                        </o:DocumentProperties>
+                     </xml>";
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.XmlOptions = "<xml><o:DocumentProperties><o:Category>Reports</o:Category><o:Manager>Kate Dresen</o:Manager><o:Company>Adventure Works</o:Company></o:DocumentProperties></xml>"
-	    End Sub
-	
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+    e.XmlOptions = "<xml><o:DocumentProperties><o:Category>Reports</o:Category><o:Manager>Kate Dresen</o:Manager><o:Company>Adventure Works</o:Company></o:DocumentProperties></xml>"
+End Sub
 ````
 
 
@@ -243,18 +233,17 @@ You can use the **HideStructureColumns** property to hide *GridRowIndicatorColum
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.GetColumn("C2").Visible = false;
-	        RadGrid1.MasterTableView.ExportToWord();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.GetColumn("C2").Visible = false;
+    RadGrid1.MasterTableView.ExportToWord();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.GetColumn("C2").Visible = False
-	        RadGrid1.MasterTableView.ExportToWord()
-	    End Sub
-	
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.GetColumn("C2").Visible = False
+    RadGrid1.MasterTableView.ExportToWord()
+End Sub
 ````
 
 
@@ -271,39 +260,35 @@ There are two common ways to hide an item.
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.ExportToWordCommandName)
-	            RadGrid1.MasterTableView.Items[2].Visible = false;
-	    }
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.ExportToWordCommandName)
+        RadGrid1.MasterTableView.Items[2].Visible = false;
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.ExportToWordCommandName Then
-	            RadGrid1.MasterTableView.Items(2).Visible = False
-	        End If
-	    End Sub
-	
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.ExportToWordCommandName Then
+        RadGrid1.MasterTableView.Items(2).Visible = False
+    End If
+End Sub
 ````
 
 
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.Items[2].Visible = false;
-	        RadGrid1.MasterTableView.ExportToWord();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.Items[2].Visible = false;
+    RadGrid1.MasterTableView.ExportToWord();
+}
 ````
-````VB.NET
-	
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.Items(2).Visible = False
-	        RadGrid1.MasterTableView.ExportToWord()
-	    End Sub
-	
+````VB.NET	
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.Items(2).Visible = False
+    RadGrid1.MasterTableView.ExportToWord()
+End Sub
 ````
 
 
@@ -312,31 +297,30 @@ There are two common ways to hide an item.
 
 
 ````C#
-	    bool isWordExport = false;
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.ExportToWordCommandName)
-	            isWordExport = true;
-	    }
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (isWordExport && e.Item.ItemIndex == 2)
-	            e.Item.Visible = false;
-	    }
+bool isWordExport = false;
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.ExportToWordCommandName)
+        isWordExport = true;
+}
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (isWordExport && e.Item.ItemIndex == 2)
+        e.Item.Visible = false;
+}
 ````
 ````VB.NET
-	    Private isWordExport As Boolean = False
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
-	        If e.CommandName = RadGrid.ExportToWordCommandName Then
-	            isWordExport = True
-	        End If
-	    End Sub
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	        If isWordExport AndAlso e.Item.ItemIndex = 2 Then
-	            e.Item.Visible = False
-	        End If
-	    End Sub
-	
+Private isWordExport As Boolean = False
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
+    If e.CommandName = RadGrid.ExportToWordCommandName Then
+        isWordExport = True
+    End If
+End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
+    If isWordExport AndAlso e.Item.ItemIndex = 2 Then
+        e.Item.Visible = False
+    End If
+End Sub
 ````
 
 
@@ -346,10 +330,8 @@ There are various ways to set the width of a given column.
 
 * declarative approach:
 
-````ASPNET
-	     
-							<telerik:GridBoundColumn ... HeaderStyle-Width="20px" />
-				
+````ASPNET    
+<telerik:GridBoundColumn ... HeaderStyle-Width="20px" />	
 ````
 
 
@@ -359,19 +341,17 @@ There are various ways to set the width of a given column.
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.GetColumn("C1").HeaderStyle.Width = Unit.Pixel(20);
-	        RadGrid1.MasterTableView.ExportToExcel();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.GetColumn("C1").HeaderStyle.Width = Unit.Pixel(20);
+    RadGrid1.MasterTableView.ExportToExcel();
+}
 ````
-````VB.NET
-	
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.GetColumn("C1").HeaderStyle.Width = Unit.Pixel(20)
-	        RadGrid1.MasterTableView.ExportToExcel()
-	    End Sub
-	
+````VB.NET	
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.GetColumn("C1").HeaderStyle.Width = Unit.Pixel(20)
+    RadGrid1.MasterTableView.ExportToExcel()
+End Sub
 ````
 
 
@@ -380,25 +360,23 @@ There are various ways to set the width of a given column.
 
 
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridHeaderItem && isExport)
-	        {
-	            foreach (TableCell cell in e.Item.Cells)
-	                cell.Style["width"] = "20px";
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridHeaderItem && isExport)
+    {
+        foreach (TableCell cell in e.Item.Cells)
+            cell.Style["width"] = "20px";
+    }
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridHeaderItem AndAlso isExport Then
-	            For Each cell As TableCell In e.Item.Cells
-	                cell.Style("width") = "20px"
-	            Next
-	        End If
-	    End Sub
-	
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridHeaderItem AndAlso isExport Then
+        For Each cell As TableCell In e.Item.Cells
+            cell.Style("width") = "20px"
+        Next
+    End If
+End Sub
 ````
 
 

@@ -53,25 +53,25 @@ To enable routing support for the SEO pager, RadGrid introduces 3 new properties
 To use URL routing with RadGrid, your application must specify a route to the .aspx page and that route should define a URL parameter specifying the grid page:
 
 ````XML
-	    <%@  application language="C#" %>
-	    <%@ import namespace="System.Web.Routing" %>
-	    <script runat="server">
-	
-	        void Application_Start(object sender, EventArgs e)
-	        {
-	            RegisterRoutes(RouteTable.Routes);
-	        }
-	
-	        private void RegisterRoutes(RouteCollection routes)
-	        {
-	            routes.MapPageRoute(
-	                "RadGridSEOPaging",
-	                "mygrid/{grid1page}",
-	                "~/Default.aspx",
-	                true,
-	                new RouteValueDictionary { { "grid1page", "1" } });
-	        }
-	    </script>
+<%@  application language="C#" %>
+<%@ import namespace="System.Web.Routing" %>
+<script runat="server">
+
+    void Application_Start(object sender, EventArgs e)
+    {
+        RegisterRoutes(RouteTable.Routes);
+    }
+
+    private void RegisterRoutes(RouteCollection routes)
+    {
+        routes.MapPageRoute(
+            "RadGridSEOPaging",
+            "mygrid/{grid1page}",
+            "~/Default.aspx",
+            true,
+            new RouteValueDictionary { { "grid1page", "1" } });
+    }
+</script>
 ````
 
 
@@ -79,10 +79,10 @@ To use URL routing with RadGrid, your application must specify a route to the .a
 Once routing is enabled in your application, you can configure RadGrid to use the URL parameter in the specified route:
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5">
-	        <PagerStyle EnableSEOPaging="True" UseRouting="true" SEORouteName="RadGridSEOPaging"
-	            SEOPageIndexRouteParameterName="grid1page"></PagerStyle>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5">
+    <PagerStyle EnableSEOPaging="True" UseRouting="true" SEORouteName="RadGridSEOPaging"
+        SEOPageIndexRouteParameterName="grid1page"></PagerStyle>
+</telerik:RadGrid>
 ````
 
 

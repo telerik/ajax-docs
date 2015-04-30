@@ -38,7 +38,7 @@ Below is the code of a simple demo implementation:
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" ShowHeader="true" OnNeedDataSource="RadGrid1_NeedDataSource"
 	    runat="server" Skin="Vista" Width="97%" OnColumnCreated="RadGrid1_ColumnCreated"
 	    OnPreRender="RadGrid1_PreRender" OnItemCreated="RadGrid1_ItemCreated" GridLines="None">

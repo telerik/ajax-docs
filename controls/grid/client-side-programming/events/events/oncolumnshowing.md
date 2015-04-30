@@ -30,7 +30,7 @@ This event is fired before a column is shown.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnColumnShowing="ColumnShowing" />

@@ -21,9 +21,9 @@ If you set **AutoPostBackOnFilter** property of a column to **True**, the user d
 When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation of **Contains** for string types or **EqualTo** for numeric types. You can change this to another filter function by setting the **CurrentFilterFunction** property. For example:
 
 ````ASPNET
-	  <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
-	    UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true">
-	  </telerik:GridBoundColumn>
+<telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
+  UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true">
+</telerik:GridBoundColumn>
 ````
 
 
@@ -40,89 +40,84 @@ When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation
 
 The upcoming example uses **ObjectDataSource** and **SelectParameter** to represents the approach:
 
-````C#
-	<script type="text/javascript">
-	    function doFilter(sender, e) {
-	        if (e.keyCode == 13) {
-	            var btn = document.getElementById('<%= RadGrid1.MasterTableView.GetItems(Telerik.Web.UI.GridItemType.CommandItem)(0).FindControl("btnSearch").ClientID %>');
-	
-	            if (btn != null) {
-	                e.cancelBubble = true;
-	                e.returnValue = false;
-	
-	                if (e.preventDefault) {
-	                    e.preventDefault();
-	                }
-	
-	                btn.click();
-	            }
-	        }
-	    }
-	</script>
-	<telerik:RadGrid AllowFilteringByColumn="False" id="RadGrid1" runat="server" Width="500px" DataSourceID="ObjectDataSource1" AutoGenerateColumns="False" AllowPaging="True" PageSize="20">
-	     <MasterTableView CommandItemDisplay="Top">
-	          <CommandItemTemplate>
-	               <div style="float: right">
-	                    <asp:Label ID="Label50" runat="server" Text="Filter:"></asp:Label>
-	                    <asp:DropDownList ID="ddlFieldName" runat="server">
-	                        <asp:ListItem Text="CustomerID" Value="CustomerID" Selected="True"></asp:ListItem>
-	                    </asp:DropDownList>
-	                    <asp:TextBox ID="txtSearch" onkeypress="doFilter(this, event)" runat="server"></asp:TextBox>
-	                    <asp:Button ID="btnSearch" runat="server" CommandName="btnSearch" Text="Filter" />
-	                    <asp:Button ID="btnShowAll" runat="server" CommandName="btnShowAll" Text="Show All" />
-	               </div>
-	          </CommandItemTemplate>
-	          <Columns>
-	               <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" UniqueName="CompanyName">
-	               </telerik:GridBoundColumn>
-	          </Columns>
-	     </MasterTableView>
-	</telerik:RadGrid>
-	<br/>
-	<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetCustomers1" TypeName= "Northwind">
-	    <SelectParameters>
-	        <asp:SessionParameter Name="filter1" SessionField="filter1" Type="String" />
-	    </SelectParameters>
-	</asp:ObjectDataSource>
+````ASPNET
+<script type="text/javascript">
+    function doFilter(sender, e) {
+        if (e.keyCode == 13) {
+            var btn = document.getElementById('<%= RadGrid1.MasterTableView.GetItems(Telerik.Web.UI.GridItemType.CommandItem)(0).FindControl("btnSearch").ClientID %>');
+
+            if (btn != null) {
+                e.cancelBubble = true;
+                e.returnValue = false;
+
+                if (e.preventDefault) {
+                    e.preventDefault();
+                }
+
+                btn.click();
+            }
+        }
+    }
+</script>
+<telerik:RadGrid AllowFilteringByColumn="False" id="RadGrid1" runat="server" Width="500px" DataSourceID="ObjectDataSource1" AutoGenerateColumns="False" AllowPaging="True" PageSize="20">
+     <MasterTableView CommandItemDisplay="Top">
+          <CommandItemTemplate>
+               <div style="float: right">
+                    <asp:Label ID="Label50" runat="server" Text="Filter:"></asp:Label>
+                    <asp:DropDownList ID="ddlFieldName" runat="server">
+                        <asp:ListItem Text="CustomerID" Value="CustomerID" Selected="True"></asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:TextBox ID="txtSearch" onkeypress="doFilter(this, event)" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnSearch" runat="server" CommandName="btnSearch" Text="Filter" />
+                    <asp:Button ID="btnShowAll" runat="server" CommandName="btnShowAll" Text="Show All" />
+               </div>
+          </CommandItemTemplate>
+          <Columns>
+               <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" UniqueName="CompanyName">
+               </telerik:GridBoundColumn>
+          </Columns>
+     </MasterTableView>
+</telerik:RadGrid>
+<br/>
+<asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetCustomers1" TypeName= "Northwind">
+    <SelectParameters>
+        <asp:SessionParameter Name="filter1" SessionField="filter1" Type="String" />
+    </SelectParameters>
+</asp:ObjectDataSource>
 ````
-
-
-
-
-
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == "btnSearch")
-	        {
-	            Button btn = (Button)e.CommandSource;
-	            TextBox txt = btn.NamingContainer.FindControl("txtSearch") as TextBox;
-	
-	            if (source is RadGrid1)
-	            {
-	                Session["filter1"] = txt.Text;
-	            }
-	        }
-	        else if (e.CommandName == "btnShowAll")
-	        {
-	            Session["filter1"] = null;
-	        }
-	    }
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == "btnSearch")
+    {
+        Button btn = (Button)e.CommandSource;
+        TextBox txt = btn.NamingContainer.FindControl("txtSearch") as TextBox;
+
+        if (source is RadGrid1)
+        {
+            Session["filter1"] = txt.Text;
+        }
+    }
+    else if (e.CommandName == "btnShowAll")
+    {
+        Session["filter1"] = null;
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = "btnSearch" Then
-	            Dim btn As Button = CType(e.CommandSource, Button)
-	            Dim txt As TextBox = btn.NamingContainer.FindControl("txtSearch")
-	
-	            If (source Is RadGrid1) Then
-	                Session("filter1") = txt.Text
-	            End If
-	        ElseIf e.CommandName = "btnShowAll" Then
-	            Session("filter1") = Nothing
-	        End If
-	
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = "btnSearch" Then
+        Dim btn As Button = CType(e.CommandSource, Button)
+        Dim txt As TextBox = btn.NamingContainer.FindControl("txtSearch")
+
+        If (source Is RadGrid1) Then
+            Session("filter1") = txt.Text
+        End If
+    ElseIf e.CommandName = "btnShowAll" Then
+        Session("filter1") = Nothing
+    End If
+
+End Sub
 ````
 
 

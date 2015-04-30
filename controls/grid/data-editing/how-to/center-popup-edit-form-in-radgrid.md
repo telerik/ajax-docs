@@ -18,7 +18,7 @@ In some case where **RadGrid** uses **PopUp** edit forms for inserting/updating 
 
 Below is an example showing how to center the edit form in RadGrid:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	    <script type="text/javascript">
 	      var popUp;

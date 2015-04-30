@@ -30,7 +30,7 @@ This event is fired before a row is resized.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <Resizing AllowRowResize="true" />

@@ -12,7 +12,8 @@ position: 2
 
 
 
-**RadGrid** supports Popup edit forms. The only prerequisite required is setting the **EditMode** property to **Popup**. Then, on switching an item in edit mode, RadGrid will display the edit form in a popup as shown in the following image:![Rad Grid grd popupeditformjpg](images/RadGrid_grd_popupeditformjpg.jpg)
+**RadGrid** supports Popup edit forms. The only prerequisite required is setting the **EditMode** property to **Popup**. Then, on switching an item in edit mode, RadGrid will display the edit form in a popup as shown in the following image:
+![Rad Grid grd popupeditformjpg](images/RadGrid_grd_popupeditformjpg.jpg)
 
 Below is the markup, used in the example:
 

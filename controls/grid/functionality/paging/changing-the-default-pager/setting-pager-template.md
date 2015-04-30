@@ -16,7 +16,7 @@ You can use a template to set the appearance and features of the [Pager item]({%
 
 To create a pager template,
 
-1. Choose **Edit Templates** from the **RadGrid**[ Smart Tag]({%slug grid/design-time-/smarttag%}).
+1. Choose **Edit Templates** from the **RadGrid** [ Smart Tag]({%slug grid/design-time-/smarttag%}).
 
 1. From the drop-down list of possible templates to edit, select the "PagerTemplate" for the **MasterTableView** or detail **GridTableView** of interest.
 
@@ -42,48 +42,48 @@ In addition, you can use declarative binding expressions in template controls, s
 ![Pager Template](images/grd_PagerTemplate.png)
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
-	        DataSourceID="SqlDataSource1" Skin="Windows7">
-	        <MasterTableView>
-	            <PagerTemplate>
-	                <table border="0" cellpadding="5" width="100%">
-	                    <tr>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Page" CausesValidation="false"
-	                                CommandArgument="First">First</asp:LinkButton>
-	                        </td>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:LinkButton ID="LinkButton2" runat="server" CommandName="Page" CausesValidation="false"
-	                                CommandArgument="Prev">Prev</asp:LinkButton>
-	                        </td>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# Container.OwnerTableView.CurrentPageIndex + 1 %>' />
-	                            <asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber"
-	                                EnableClientScript="true" MinimumValue="1" Type="Integer" MaximumValue='<%# Container.OwnerTableView.PageCount %>'
-	                                ErrorMessage='"Value must be in the range of 1 - " + "<%# Container.OwnerTableView.PageCount %>"'
-	                                Display="Dynamic">     </asp:RangeValidator>
-	                        </td>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:LinkButton ID="LinkButton3" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
-	                        </td>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Page" CausesValidation="false"
-	                                CommandArgument="Next">Next</asp:LinkButton>
-	                        </td>
-	                        <td style="border-style: none;" height="18px">
-	                            <asp:LinkButton ID="LinkButton5" runat="server" CommandName="Page" CausesValidation="false"
-	                                CommandArgument="Last">Last</asp:LinkButton>
-	                        </td>
-	                        <td style="border-style: none; width: 100%" align="right" height="18px">
-	                            <asp:LinkButton ID="LinkButton6" runat="server" CommandName="RebindGrid" CausesValidation="false">Refresh data</asp:LinkButton>
-	                        </td>
-	                    </tr>
-	                </table>
-	            </PagerTemplate>
-	        </MasterTableView>
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" AllowPaging="true" PageSize="10"
+    DataSourceID="SqlDataSource1" Skin="Windows7">
+    <MasterTableView>
+        <PagerTemplate>
+            <table border="0" cellpadding="5" width="100%">
+                <tr>
+                    <td style="border-style: none;" height="18px">
+                        <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Page" CausesValidation="false"
+                            CommandArgument="First">First</asp:LinkButton>
+                    </td>
+                    <td style="border-style: none;" height="18px">
+                        <asp:LinkButton ID="LinkButton2" runat="server" CommandName="Page" CausesValidation="false"
+                            CommandArgument="Prev">Prev</asp:LinkButton>
+                    </td>
+                    <td style="border-style: none;" height="18px">
+                        <asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# Container.OwnerTableView.CurrentPageIndex + 1 %>' />
+                        <asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber"
+                            EnableClientScript="true" MinimumValue="1" Type="Integer" MaximumValue='<%# Container.OwnerTableView.PageCount %>'
+                            ErrorMessage='"Value must be in the range of 1 - " + "<%# Container.OwnerTableView.PageCount %>"'
+                            Display="Dynamic">     </asp:RangeValidator>
+                    </td>
+                    <td style="border-style: none;" height="18px">
+                        <asp:LinkButton ID="LinkButton3" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
+                    </td>
+                    <td style="border-style: none;" height="18px">
+                        <asp:LinkButton ID="LinkButton4" runat="server" CommandName="Page" CausesValidation="false"
+                            CommandArgument="Next">Next</asp:LinkButton>
+                    </td>
+                    <td style="border-style: none;" height="18px">
+                        <asp:LinkButton ID="LinkButton5" runat="server" CommandName="Page" CausesValidation="false"
+                            CommandArgument="Last">Last</asp:LinkButton>
+                    </td>
+                    <td style="border-style: none; width: 100%" align="right" height="18px">
+                        <asp:LinkButton ID="LinkButton6" runat="server" CommandName="RebindGrid" CausesValidation="false">Refresh data</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </PagerTemplate>
+    </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
 
 
@@ -105,93 +105,93 @@ In the example below, The **ItemCreated** event handler is used to change the **
 
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
-	        DataSourceID="SqlDataSource2" OnItemCreated="RadGrid2_ItemCreated" Skin="Windows7">
-	        <MasterTableView>
-	            <PagerTemplate>
-	                <asp:LinkButton ID="LinkButton1" runat="server" />
-	                <asp:LinkButton ID="Linkbutton2" runat="server" />
-	            </PagerTemplate>
-	        </MasterTableView>
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid2" runat="server" Width="97%" AllowPaging="true" PageSize="10"
+    DataSourceID="SqlDataSource2" OnItemCreated="RadGrid2_ItemCreated" Skin="Windows7">
+    <MasterTableView>
+        <PagerTemplate>
+            <asp:LinkButton ID="LinkButton1" runat="server" />
+            <asp:LinkButton ID="Linkbutton2" runat="server" />
+        </PagerTemplate>
+    </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
 ````C#
-	    protected void RadGrid2_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            GridPagerItem pagerItem = e.Item as GridPagerItem;
-	            LinkButton lnkButton = pagerItem.FindControl("LinkButton1") as LinkButton;
-	            lnkButton.CommandName = "Page";
-	            lnkButton.CommandArgument = "Prev";
-	            lnkButton.Text = "Previous page";
-	            lnkButton = pagerItem.FindControl("LinkButton2") as LinkButton;
-	            lnkButton.CommandName = "Page";
-	            lnkButton.CommandArgument = "Next";
-	            lnkButton.Text = "Next page";
-	        }
-	    }
-	
+protected void RadGrid2_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        GridPagerItem pagerItem = e.Item as GridPagerItem;
+        LinkButton lnkButton = pagerItem.FindControl("LinkButton1") as LinkButton;
+        lnkButton.CommandName = "Page";
+        lnkButton.CommandArgument = "Prev";
+        lnkButton.Text = "Previous page";
+        lnkButton = pagerItem.FindControl("LinkButton2") as LinkButton;
+        lnkButton.CommandName = "Page";
+        lnkButton.CommandArgument = "Next";
+        lnkButton.Text = "Next page";
+    }
+}
+
 ````
 ````VB.NET
-	    Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            Dim lnkButton As LinkButton = TryCast(pagerItem.FindControl("LinkButton1"), LinkButton)
-	            lnkButton.CommandName = "Page"
-	            lnkButton.CommandArgument = "Prev"
-	            lnkButton.Text = "Previous page"
-	            lnkButton = TryCast(pagerItem.FindControl("LinkButton2"), LinkButton)
-	            lnkButton.CommandName = "Page"
-	            lnkButton.CommandArgument = "Next"
-	            lnkButton.Text = "Next page"
-	        End If
-	    End Sub
-	
-	#End Region
-	
-	#Region "setting-pager-template_2"
-	    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            If TypeOf pagerItem.NamingContainer Is GridTHead Then
-	                pagerItem.FindControl("btnPrev").Visible = False
-	                pagerItem.FindControl("btnNext").Visible = False
-	            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
-	                pagerItem.FindControl("btnFirst").Visible = False
-	                pagerItem.FindControl("btnLast").Visible = False
-	            End If
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "setting-pager-template_3"
-	    Private Class MyPagerTemplate
-	        Implements ITemplate
-	        Protected prevButton As LinkButton
-	        Protected nextButton As LinkButton
-	        Public Sub New()
-	        End Sub
-	        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
-	            prevButton = New LinkButton()
-	            prevButton.ID = "prevButton"
-	            prevButton.Text = "Previous page"
-	            prevButton.CommandName = "Page"
-	            prevButton.CommandArgument = "Prev"
-	            nextButton = New LinkButton()
-	            nextButton.ID = "nextButton"
-	            nextButton.Text = "Next page"
-	            nextButton.CommandName = "Page"
-	            nextButton.CommandArgument = "Next"
-	            container.Controls.Add(prevButton)
-	            container.Controls.Add(New LiteralControl("      "))
-	            container.Controls.Add(nextButton)
-	        End Sub
-	    End Class
-	#End Region
-	End Class
+    Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
+        If TypeOf e.Item Is GridPagerItem Then
+            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
+            Dim lnkButton As LinkButton = TryCast(pagerItem.FindControl("LinkButton1"), LinkButton)
+            lnkButton.CommandName = "Page"
+            lnkButton.CommandArgument = "Prev"
+            lnkButton.Text = "Previous page"
+            lnkButton = TryCast(pagerItem.FindControl("LinkButton2"), LinkButton)
+            lnkButton.CommandName = "Page"
+            lnkButton.CommandArgument = "Next"
+            lnkButton.Text = "Next page"
+        End If
+    End Sub
+
+#End Region
+
+#Region "setting-pager-template_2"
+    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
+        If TypeOf e.Item Is GridPagerItem Then
+            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
+            If TypeOf pagerItem.NamingContainer Is GridTHead Then
+                pagerItem.FindControl("btnPrev").Visible = False
+                pagerItem.FindControl("btnNext").Visible = False
+            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
+                pagerItem.FindControl("btnFirst").Visible = False
+                pagerItem.FindControl("btnLast").Visible = False
+            End If
+        End If
+    End Sub
+#End Region
+
+#Region "setting-pager-template_3"
+    Private Class MyPagerTemplate
+        Implements ITemplate
+        Protected prevButton As LinkButton
+        Protected nextButton As LinkButton
+        Public Sub New()
+        End Sub
+        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+            prevButton = New LinkButton()
+            prevButton.ID = "prevButton"
+            prevButton.Text = "Previous page"
+            prevButton.CommandName = "Page"
+            prevButton.CommandArgument = "Prev"
+            nextButton = New LinkButton()
+            nextButton.ID = "nextButton"
+            nextButton.Text = "Next page"
+            nextButton.CommandName = "Page"
+            nextButton.CommandArgument = "Next"
+            container.Controls.Add(prevButton)
+            container.Controls.Add(New LiteralControl("      "))
+            container.Controls.Add(nextButton)
+        End Sub
+    End Class
+#End Region
+End Class
 ````
 
 
@@ -205,92 +205,92 @@ The following example illustrates this technique:
 
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
-	        AllowSorting="True" AllowPaging="True" Skin="Windows7" OnItemCreated="RadGrid3_ItemCreated">
-	        <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
-	        <MasterTableView Width="100%">
-	            <PagerTemplate>
-	                <table border="0" cellpadding="0" cellspacing="0" style="height: 20px" width="50%">
-	                    <tr>
-	                        <td>
-	                            <asp:LinkButton ID="btnFirst" runat="server" CommandName="Page" CommandArgument="First">First</asp:LinkButton>
-	                        </td>
-	                        <td>
-	                            <asp:LinkButton ID="btnPrev" runat="server" CommandName="Page" CommandArgument="Prev">Prev</asp:LinkButton>
-	                        </td>
-	                        <td>
-	                            <asp:LinkButton ID="btnNext" runat="server" CommandName="Page" CommandArgument="Next">Next</asp:LinkButton>
-	                        </td>
-	                        <td>
-	                            <asp:LinkButton ID="btnLast" runat="server" CommandName="Page" CommandArgument="Last">Last</asp:LinkButton>
-	                        </td>
-	                    </tr>
-	                </table>
-	            </PagerTemplate>
-	        </MasterTableView>
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid3" runat="server" DataSourceID="SqlDataSource3" Width="97%"
+    AllowSorting="True" AllowPaging="True" Skin="Windows7" OnItemCreated="RadGrid3_ItemCreated">
+    <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
+    <MasterTableView Width="100%">
+        <PagerTemplate>
+            <table border="0" cellpadding="0" cellspacing="0" style="height: 20px" width="50%">
+                <tr>
+                    <td>
+                        <asp:LinkButton ID="btnFirst" runat="server" CommandName="Page" CommandArgument="First">First</asp:LinkButton>
+                    </td>
+                    <td>
+                        <asp:LinkButton ID="btnPrev" runat="server" CommandName="Page" CommandArgument="Prev">Prev</asp:LinkButton>
+                    </td>
+                    <td>
+                        <asp:LinkButton ID="btnNext" runat="server" CommandName="Page" CommandArgument="Next">Next</asp:LinkButton>
+                    </td>
+                    <td>
+                        <asp:LinkButton ID="btnLast" runat="server" CommandName="Page" CommandArgument="Last">Last</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </PagerTemplate>
+    </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
 ````C#
-	    protected void RadGrid3_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            GridPagerItem pagerItem = e.Item as GridPagerItem;
-	            if (pagerItem.NamingContainer is GridTHead)
-	            {
-	                pagerItem.FindControl("btnPrev").Visible = false;
-	                pagerItem.FindControl("btnNext").Visible = false;               
-	            }
-	            else if (pagerItem.NamingContainer is GridTFoot)
-	            {
-	                pagerItem.FindControl("btnFirst").Visible = false;
-	                pagerItem.FindControl("btnLast").Visible = false;               
-	            }
-	        }
-	    }
+protected void RadGrid3_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        GridPagerItem pagerItem = e.Item as GridPagerItem;
+        if (pagerItem.NamingContainer is GridTHead)
+        {
+            pagerItem.FindControl("btnPrev").Visible = false;
+            pagerItem.FindControl("btnNext").Visible = false;               
+        }
+        else if (pagerItem.NamingContainer is GridTFoot)
+        {
+            pagerItem.FindControl("btnFirst").Visible = false;
+            pagerItem.FindControl("btnLast").Visible = false;               
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            If TypeOf pagerItem.NamingContainer Is GridTHead Then
-	                pagerItem.FindControl("btnPrev").Visible = False
-	                pagerItem.FindControl("btnNext").Visible = False
-	            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
-	                pagerItem.FindControl("btnFirst").Visible = False
-	                pagerItem.FindControl("btnLast").Visible = False
-	            End If
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "setting-pager-template_3"
-	    Private Class MyPagerTemplate
-	        Implements ITemplate
-	        Protected prevButton As LinkButton
-	        Protected nextButton As LinkButton
-	        Public Sub New()
-	        End Sub
-	        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
-	            prevButton = New LinkButton()
-	            prevButton.ID = "prevButton"
-	            prevButton.Text = "Previous page"
-	            prevButton.CommandName = "Page"
-	            prevButton.CommandArgument = "Prev"
-	            nextButton = New LinkButton()
-	            nextButton.ID = "nextButton"
-	            nextButton.Text = "Next page"
-	            nextButton.CommandName = "Page"
-	            nextButton.CommandArgument = "Next"
-	            container.Controls.Add(prevButton)
-	            container.Controls.Add(New LiteralControl("      "))
-	            container.Controls.Add(nextButton)
-	        End Sub
-	    End Class
-	#End Region
-	End Class
+    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
+        If TypeOf e.Item Is GridPagerItem Then
+            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
+            If TypeOf pagerItem.NamingContainer Is GridTHead Then
+                pagerItem.FindControl("btnPrev").Visible = False
+                pagerItem.FindControl("btnNext").Visible = False
+            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
+                pagerItem.FindControl("btnFirst").Visible = False
+                pagerItem.FindControl("btnLast").Visible = False
+            End If
+        End If
+    End Sub
+#End Region
+
+#Region "setting-pager-template_3"
+    Private Class MyPagerTemplate
+        Implements ITemplate
+        Protected prevButton As LinkButton
+        Protected nextButton As LinkButton
+        Public Sub New()
+        End Sub
+        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+            prevButton = New LinkButton()
+            prevButton.ID = "prevButton"
+            prevButton.Text = "Previous page"
+            prevButton.CommandName = "Page"
+            prevButton.CommandArgument = "Prev"
+            nextButton = New LinkButton()
+            nextButton.ID = "nextButton"
+            nextButton.Text = "Next page"
+            nextButton.CommandName = "Page"
+            nextButton.CommandArgument = "Next"
+            container.Controls.Add(prevButton)
+            container.Controls.Add(New LiteralControl("      "))
+            container.Controls.Add(nextButton)
+        End Sub
+    End Class
+#End Region
+End Class
 ````
 
 
@@ -302,64 +302,64 @@ To assign the **PagerTemplate** for a grid in the code-behind, you need to desig
 
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
-	        AllowSorting="True" AllowPaging="True" Skin="Windows7">
-	        <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
-	        <MasterTableView Width="100%">
-	        </MasterTableView>
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid4" runat="server" DataSourceID="SqlDataSource4" Width="97%"
+    AllowSorting="True" AllowPaging="True" Skin="Windows7">
+    <PagerStyle Mode="NumericPages" Position="TopAndBottom" />
+    <MasterTableView Width="100%">
+    </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT Country FROM [Customers]"></asp:SqlDataSource>
 ````
 ````C#
-	    private class MyPagerTemplate : ITemplate
-	    {
-	        protected LinkButton prevButton;
-	        protected LinkButton nextButton;
-	        public MyPagerTemplate() { }
-	        public void InstantiateIn(System.Web.UI.Control container)
-	        {
-	            prevButton = new LinkButton();
-	            prevButton.ID = "prevButton";
-	            prevButton.Text = "Previous page";
-	            prevButton.CommandName = "Page";
-	            prevButton.CommandArgument = "Prev";
-	            nextButton = new LinkButton();
-	            nextButton.ID = "nextButton";
-	            nextButton.Text = "Next page";
-	            nextButton.CommandName = "Page";
-	            nextButton.CommandArgument = "Next";
-	            container.Controls.Add(prevButton);
-	            container.Controls.Add(new LiteralControl("      "));
-	            container.Controls.Add(nextButton);
-	        }
-	    }
+private class MyPagerTemplate : ITemplate
+{
+    protected LinkButton prevButton;
+    protected LinkButton nextButton;
+    public MyPagerTemplate() { }
+    public void InstantiateIn(System.Web.UI.Control container)
+    {
+        prevButton = new LinkButton();
+        prevButton.ID = "prevButton";
+        prevButton.Text = "Previous page";
+        prevButton.CommandName = "Page";
+        prevButton.CommandArgument = "Prev";
+        nextButton = new LinkButton();
+        nextButton.ID = "nextButton";
+        nextButton.Text = "Next page";
+        nextButton.CommandName = "Page";
+        nextButton.CommandArgument = "Next";
+        container.Controls.Add(prevButton);
+        container.Controls.Add(new LiteralControl("      "));
+        container.Controls.Add(nextButton);
+    }
+}
 ````
 ````VB.NET
-	    Private Class MyPagerTemplate
-	        Implements ITemplate
-	        Protected prevButton As LinkButton
-	        Protected nextButton As LinkButton
-	        Public Sub New()
-	        End Sub
-	        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
-	            prevButton = New LinkButton()
-	            prevButton.ID = "prevButton"
-	            prevButton.Text = "Previous page"
-	            prevButton.CommandName = "Page"
-	            prevButton.CommandArgument = "Prev"
-	            nextButton = New LinkButton()
-	            nextButton.ID = "nextButton"
-	            nextButton.Text = "Next page"
-	            nextButton.CommandName = "Page"
-	            nextButton.CommandArgument = "Next"
-	            container.Controls.Add(prevButton)
-	            container.Controls.Add(New LiteralControl("      "))
-	            container.Controls.Add(nextButton)
-	        End Sub
-	    End Class
-	#End Region
-	End Class
+    Private Class MyPagerTemplate
+        Implements ITemplate
+        Protected prevButton As LinkButton
+        Protected nextButton As LinkButton
+        Public Sub New()
+        End Sub
+        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+            prevButton = New LinkButton()
+            prevButton.ID = "prevButton"
+            prevButton.Text = "Previous page"
+            prevButton.CommandName = "Page"
+            prevButton.CommandArgument = "Prev"
+            nextButton = New LinkButton()
+            nextButton.ID = "nextButton"
+            nextButton.Text = "Next page"
+            nextButton.CommandName = "Page"
+            nextButton.CommandArgument = "Next"
+            container.Controls.Add(prevButton)
+            container.Controls.Add(New LiteralControl("      "))
+            container.Controls.Add(nextButton)
+        End Sub
+    End Class
+#End Region
+End Class
 ````
 
 
@@ -369,74 +369,74 @@ In the **Page_Init** event handler, you can assign an instance of your template 
 
 
 ````C#
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        RadGrid4.MasterTableView.PagerTemplate = new MyPagerTemplate();
-	    }
+protected void Page_Init(object sender, EventArgs e)
+{
+    RadGrid4.MasterTableView.PagerTemplate = new MyPagerTemplate();
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Init(sender As Object, e As EventArgs)
-	        RadGrid4.MasterTableView.PagerTemplate = New MyPagerTemplate()
-	    End Sub
-	#End Region
-	
-	#Region "setting-pager-template_1"
-	    Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            Dim lnkButton As LinkButton = TryCast(pagerItem.FindControl("LinkButton1"), LinkButton)
-	            lnkButton.CommandName = "Page"
-	            lnkButton.CommandArgument = "Prev"
-	            lnkButton.Text = "Previous page"
-	            lnkButton = TryCast(pagerItem.FindControl("LinkButton2"), LinkButton)
-	            lnkButton.CommandName = "Page"
-	            lnkButton.CommandArgument = "Next"
-	            lnkButton.Text = "Next page"
-	        End If
-	    End Sub
-	
-	#End Region
-	
-	#Region "setting-pager-template_2"
-	    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            If TypeOf pagerItem.NamingContainer Is GridTHead Then
-	                pagerItem.FindControl("btnPrev").Visible = False
-	                pagerItem.FindControl("btnNext").Visible = False
-	            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
-	                pagerItem.FindControl("btnFirst").Visible = False
-	                pagerItem.FindControl("btnLast").Visible = False
-	            End If
-	        End If
-	    End Sub
-	#End Region
-	
-	#Region "setting-pager-template_3"
-	    Private Class MyPagerTemplate
-	        Implements ITemplate
-	        Protected prevButton As LinkButton
-	        Protected nextButton As LinkButton
-	        Public Sub New()
-	        End Sub
-	        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
-	            prevButton = New LinkButton()
-	            prevButton.ID = "prevButton"
-	            prevButton.Text = "Previous page"
-	            prevButton.CommandName = "Page"
-	            prevButton.CommandArgument = "Prev"
-	            nextButton = New LinkButton()
-	            nextButton.ID = "nextButton"
-	            nextButton.Text = "Next page"
-	            nextButton.CommandName = "Page"
-	            nextButton.CommandArgument = "Next"
-	            container.Controls.Add(prevButton)
-	            container.Controls.Add(New LiteralControl("      "))
-	            container.Controls.Add(nextButton)
-	        End Sub
-	    End Class
-	#End Region
-	End Class
+    Protected Sub Page_Init(sender As Object, e As EventArgs)
+        RadGrid4.MasterTableView.PagerTemplate = New MyPagerTemplate()
+    End Sub
+#End Region
+
+#Region "setting-pager-template_1"
+    Protected Sub RadGrid2_ItemCreated(sender As Object, e As Telerik.Web.UI.GridItemEventArgs)
+        If TypeOf e.Item Is GridPagerItem Then
+            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
+            Dim lnkButton As LinkButton = TryCast(pagerItem.FindControl("LinkButton1"), LinkButton)
+            lnkButton.CommandName = "Page"
+            lnkButton.CommandArgument = "Prev"
+            lnkButton.Text = "Previous page"
+            lnkButton = TryCast(pagerItem.FindControl("LinkButton2"), LinkButton)
+            lnkButton.CommandName = "Page"
+            lnkButton.CommandArgument = "Next"
+            lnkButton.Text = "Next page"
+        End If
+    End Sub
+
+#End Region
+
+#Region "setting-pager-template_2"
+    Protected Sub RadGrid3_ItemCreated(sender As Object, e As GridItemEventArgs)
+        If TypeOf e.Item Is GridPagerItem Then
+            Dim pagerItem As GridPagerItem = TryCast(e.Item, GridPagerItem)
+            If TypeOf pagerItem.NamingContainer Is GridTHead Then
+                pagerItem.FindControl("btnPrev").Visible = False
+                pagerItem.FindControl("btnNext").Visible = False
+            ElseIf TypeOf pagerItem.NamingContainer Is GridTFoot Then
+                pagerItem.FindControl("btnFirst").Visible = False
+                pagerItem.FindControl("btnLast").Visible = False
+            End If
+        End If
+    End Sub
+#End Region
+
+#Region "setting-pager-template_3"
+    Private Class MyPagerTemplate
+        Implements ITemplate
+        Protected prevButton As LinkButton
+        Protected nextButton As LinkButton
+        Public Sub New()
+        End Sub
+        Public Sub InstantiateIn(container As System.Web.UI.Control) Implements ITemplate.InstantiateIn
+            prevButton = New LinkButton()
+            prevButton.ID = "prevButton"
+            prevButton.Text = "Previous page"
+            prevButton.CommandName = "Page"
+            prevButton.CommandArgument = "Prev"
+            nextButton = New LinkButton()
+            nextButton.ID = "nextButton"
+            nextButton.Text = "Next page"
+            nextButton.CommandName = "Page"
+            nextButton.CommandArgument = "Next"
+            container.Controls.Add(prevButton)
+            container.Controls.Add(New LiteralControl("      "))
+            container.Controls.Add(nextButton)
+        End Sub
+    End Class
+#End Region
+End Class
 ````
 
 

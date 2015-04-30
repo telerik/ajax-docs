@@ -18,7 +18,7 @@ In case you have a grid with lots of records being shown at once, waiting for th
 
 Here is some sample code:
 
-````ASPNET
+````ASP.NET
 	<telerik:RadAjaxManager id="RadAjaxManager1" runat="server">
 	  <AjaxSettings>    
 	    <telerik:AjaxSetting AjaxControlID="RadGrid1">       

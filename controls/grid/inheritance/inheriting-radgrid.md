@@ -32,7 +32,7 @@ Then you can add instances of your custom grid control on the page:
 
 But the **GridTableView**, **GridBoundColumn** etc. classes are defined in the **Telerik.Web.UI** assembly. That is why the declaration in your grid body should have the following syntax:
 
-````ASPNET
+````ASP.NET
 	<mytelerik:InheritedGrid ... >
 	    <MasterTableView>
 	        <Columns>
@@ -55,7 +55,7 @@ If you would like to inherit the GridTableView object for your grid, here are so
 
 
 
-````ASPNET
+````ASP.NET
 	<%@ Register Namespace="MyNamespace" TagPrefix="my" %>
 	 ...
 	        <my:MyGrid ID="MyGrid1" runat="server" OnNeedDataSource="MyGrid1_NeedDataSource">

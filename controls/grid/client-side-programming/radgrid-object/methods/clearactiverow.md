@@ -36,7 +36,7 @@ Example:
 >
 
 
-````ASPNET
+````ASP.NET
 	        <ClientSettings AllowKeyboardNavigation="true">
 	            <Selecting AllowRowSelect="true" />
 	        </ClientSettings>

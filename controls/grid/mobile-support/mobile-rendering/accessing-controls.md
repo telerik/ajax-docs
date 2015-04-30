@@ -22,7 +22,7 @@ With edit modes **EditForms**, **InPlace** and **Batch**,getting reference to co
 
 The following examples demonstrate how to get reference to **native** column editors in **PopUp** edit mode and native controls:
 
-````ASPNET
+````ASP.NET
 	
 			<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 			</telerik:RadScriptManager>

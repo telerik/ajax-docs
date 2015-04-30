@@ -16,7 +16,7 @@ position: 0
 
 *CSV* format is based on a plain text - it is widely used to display simple tabular data.Due to its simplicity and portability, it can be seen in various platforms - web, desktop, mobile, embedded, etc.
 
-By default, *RadGrid's ** CSV* engine encloses all the data within doublequotes to allow the usage of commas, new lines and so on.
+By default, *RadGrid's ** CSV* engine encloses all the data within double quotes to allow the usage of commas, new lines and so on.
 
 >note  **GridExporting** event allows the developer to change the generated file directly.This approach could be used to achieve some custom functionality that is not supported out of the box.For example you can use it to add header text to the output and then save it to *TXT* format(since it won't be valid *CSV* anymore).
 >
@@ -49,9 +49,9 @@ By default, *RadGrid's ** CSV* engine encloses all the data within doublequotes 
 ## 
 
 ````ASPNET
-	    <ExportSettings>    
-	        <Csv ColumnDelimiter="Tab" RowDelimiter="NewLine" FileExtension="TXT" EncloseDataWithQuotes="true" />
-	    </ExportSettings>
+<ExportSettings>    
+    <Csv ColumnDelimiter="Tab" RowDelimiter="NewLine" FileExtension="TXT" EncloseDataWithQuotes="true" />
+</ExportSettings>
 ````
 
 
@@ -89,14 +89,14 @@ Since **UI for ASP.NET AJAX Q3 2014 SP1** version, you are able to change the de
 Along with **Encoding** property we introduce a possibility to disable the **BOM (Byte Order Mark)** header by setting **EnableBomHeader**. This property is of type boolean and accepts **True** (Default) and **False**values. You can find more information about **BOM** header in the following [article](http://en.wikipedia.org/wiki/Byte_order_mark).
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" runat="server">
-	        <MasterTableView CommandItemDisplay="Top">
-	            <CommandItemSettings ShowExportToCsvButton="true" />
-	        </MasterTableView>
-	        <ExportSettings>
-	            <Csv EnableBomHeader="true" Encoding="Unicode" />
-	        </ExportSettings>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+    <MasterTableView CommandItemDisplay="Top">
+        <CommandItemSettings ShowExportToCsvButton="true" />
+    </MasterTableView>
+    <ExportSettings>
+        <Csv EnableBomHeader="true" Encoding="Unicode" />
+    </ExportSettings>
+</telerik:RadGrid>
 ````
 
 
@@ -105,78 +105,73 @@ Along with **Encoding** property we introduce a possibility to disable the **BOM
 
 ## Exporting unsupported controls
 
-Since *CSV* is text-based format it doesn't support images or complex structures like tables.It is possible to replace such content manually by removing the unwanted objects before exporting or on**ItemDataBound**/**ItemCreated**events:
+Since *CSV* is text-based format it doesn't support images or complex structures like tables.It is possible to replace such content manually by removing the unwanted objects before exporting or on **ItemDataBound**/**ItemCreated** events:
 
 
 
 ````ASPNET
-	    <telerik:GridTemplateColumn UniqueName="MyColumn" HeaderText="MyColumn">
-	        <ItemTemplate>
-	            <asp:Image ID="Image1" runat="server" ImageUrl="~/img.png" AlternateText="AltText" />
-	        </ItemTemplate>
-	    </telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn UniqueName="MyColumn" HeaderText="MyColumn">
+    <ItemTemplate>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/img.png" AlternateText="AltText" />
+    </ItemTemplate>
+</telerik:GridTemplateColumn>
 ````
-````C#
-	
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
-	        {
-	            Image img = item["MyColumn"].FindControl("Image1") as Image;
-	            item["MyColumn"].Text = img.AlternateText;
-	        }
-	        RadGrid1.MasterTableView.ExportToCSV();
-	    }
-	
+````C#	
+protected void Button1_Click(object sender, EventArgs e)
+{
+    foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
+    {
+        Image img = item["MyColumn"].FindControl("Image1") as Image;
+        item["MyColumn"].Text = img.AlternateText;
+    }
+    RadGrid1.MasterTableView.ExportToCSV();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        For Each item As GridDataItem In RadGrid1.MasterTableView.Items
-	            Dim img As Image = TryCast(item("MyColumn").FindControl("Image1"), Image)
-	            item("MyColumn").Text = img.AlternateText
-	        Next
-	        RadGrid1.MasterTableView.ExportToCSV()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    For Each item As GridDataItem In RadGrid1.MasterTableView.Items
+        Dim img As Image = TryCast(item("MyColumn").FindControl("Image1"), Image)
+        item("MyColumn").Text = img.AlternateText
+    Next
+    RadGrid1.MasterTableView.ExportToCSV()
+End Sub
 ````
 
 
-This approach won't work if your **RadGrid**rebinds before export. In such cases (for instance, whenusing **IgnorePaging="true"**) the developer should put the code on**ItemCreated**/**ItemDataBound**:
+This approach won't work if your **RadGrid**rebinds before export. In such cases (for instance, whenusing **IgnorePaging="true"**) the developer should put the code on **ItemCreated**/**ItemDataBound**:
 
 
 
 ````C#
-	
-	
-	    bool isExport = false;
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        isExport = true;
-	        RadGrid1.MasterTableView.ExportToCSV();
-	    }
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem && isExport)
-	        {
-	            TableCell cell = (e.Item as GridDataItem)["myColumn"];
-	            Image img = cell.FindControl("Image1") as Image;
-	            cell.Text = img.AlternateText;
-	        }
-	    }
-	
+bool isExport = false;
+protected void Button1_Click(object sender, EventArgs e)
+{
+    isExport = true;
+    RadGrid1.MasterTableView.ExportToCSV();
+}
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem && isExport)
+    {
+        TableCell cell = (e.Item as GridDataItem)["myColumn"];
+        Image img = cell.FindControl("Image1") as Image;
+        cell.Text = img.AlternateText;
+    }
+}
 ````
 ````VB.NET
-	    Private isExport As Boolean = FalseProtected
-	    Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        isExport = True
-	        RadGrid1.MasterTableView.ExportToCSV()
-	    End Sub
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridDataItem AndAlso isExport Then
-	            Dim cell As TableCell = (TryCast(e.Item, GridDataItem))("myColumn")
-	            Dim img As Image = TryCast(cell.FindControl("Image1"), Image)
-	            cell.Text = img.AlternateText
-	        End If
-	    End Sub
+Private isExport As Boolean = FalseProtected
+Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    isExport = True
+    RadGrid1.MasterTableView.ExportToCSV()
+End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridDataItem AndAlso isExport Then
+        Dim cell As TableCell = (TryCast(e.Item, GridDataItem))("myColumn")
+        Dim img As Image = TryCast(cell.FindControl("Image1"), Image)
+        cell.Text = img.AlternateText
+    End If
+End Sub
 ````
 
 
@@ -191,44 +186,40 @@ You can hide the unselected rows and export the rest in a manner similar to the 
 
 
 ````C#
-	
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
-	            item.Visible = item.Selected;
-	        RadGrid1.MasterTableView.ExportToCSV();
-	    }
-	
+protected void Button1_Click(object sender, EventArgs e)
+{
+    foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
+        item.Visible = item.Selected;
+    RadGrid1.MasterTableView.ExportToCSV();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        For Each item As GridDataItem In RadGrid1.MasterTableView.Items
-	            item.Visible = item.Selected
-	        Next RadGrid1.MasterTableView.ExportToCSV()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    For Each item As GridDataItem In RadGrid1.MasterTableView.Items
+        item.Visible = item.Selected
+    Next RadGrid1.MasterTableView.ExportToCSV()
+End Sub
 ````
 
 
 ## Hiding columns
 
-You can use the **HideStructureColumns**property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
+You can use the **HideStructureColumns** property to hide *GridRowIndicatorColumn*, *GridExpandColumn* and *GridGroupSplitterColumn.* For the other columns types,you can use the following approach:
 
 
 
-````C#
-	
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.GetColumn("C2").Visible = false;
-	        RadGrid1.MasterTableView.ExportToCSV();
-	    }
-	
+````C#	
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.GetColumn("C2").Visible = false;
+    RadGrid1.MasterTableView.ExportToCSV();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.GetColumn("C2").Visible = False
-	        RadGrid1.MasterTableView.ExportToCSV()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.GetColumn("C2").Visible = False
+    RadGrid1.MasterTableView.ExportToCSV()
+End Sub
 ````
 
 
@@ -244,75 +235,69 @@ There are two common ways to hide an item.
 
 
 
-````C#
-	
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.ExportToCsvCommandName)
-	            RadGrid1.MasterTableView.Items[2].Visible = false;
-	    }
-	
+````C#	
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.ExportToCsvCommandName)
+        RadGrid1.MasterTableView.Items[2].Visible = false;
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.ExportToCsvCommandName Then
-	            RadGrid1.MasterTableView.Items(2).Visible = False
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.ExportToCsvCommandName Then
+        RadGrid1.MasterTableView.Items(2).Visible = False
+    End If
+End Sub
 ````
 
 
 
 
 ````C#
-	
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.MasterTableView.Items[2].Visible = false;
-	        RadGrid1.MasterTableView.ExportToCSV();
-	    }
-	
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.MasterTableView.Items[2].Visible = false;
+    RadGrid1.MasterTableView.ExportToCSV();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
-	        RadGrid1.MasterTableView.Items(2).Visible = False
-	        RadGrid1.MasterTableView.ExportToCSV()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
+    RadGrid1.MasterTableView.Items(2).Visible = False
+    RadGrid1.MasterTableView.ExportToCSV()
+End Sub
 ````
 
 
-* **On ItemCreated / ItemDataBound** - this approach should be used when**IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
+* **On ItemCreated / ItemDataBound** - this approach should be used when **IgnorePaging="true"** or when you call RadGrid.Rebind before exporting.
 
 
 
-````C#
-	
-	    bool isCsvExport = false;
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.ExportToCsvCommandName)
-	            isCsvExport = true;
-	    }
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (isCsvExport && e.Item.ItemIndex == 2)
-	            e.Item.Display = false;
-	    }
-	
+````C#	
+bool isCsvExport = false;
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.ExportToCsvCommandName)
+        isCsvExport = true;
+}
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (isCsvExport && e.Item.ItemIndex == 2)
+        e.Item.Display = false;
+}
 ````
 ````VB.NET
-	    Private isCsvExport As Boolean = FalseProtected
-	    Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
-	
-	        If e.CommandName = RadGrid.ExportToCsvCommandName Then
-	            isCsvExport = True
-	        End If
-	    End Sub
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	        If isCsvExport AndAlso e.Item.ItemIndex = 2 Then
-	            e.Item.Display = False
-	        End If
-	    End Sub
+Private isCsvExport As Boolean = FalseProtected
+Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
+
+    If e.CommandName = RadGrid.ExportToCsvCommandName Then
+        isCsvExport = True
+    End If
+End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
+    If isCsvExport AndAlso e.Item.ItemIndex = 2 Then
+        e.Item.Display = False
+    End If
+End Sub
 ````
 
 
@@ -320,7 +305,7 @@ There are two common ways to hide an item.
 
 Q: Can I export content from **GridTemplateColumn**?
 
-A: Yes, as long as it contain a binding expression or regular **Label** control and**ExportOnlyData** is set to "**false**".
+A: Yes, as long as it contain a binding expression or regular **Label** control and **ExportOnlyData** is set to "**false**".
 
 Q: How to export **GridCheckBoxColumn**?
 

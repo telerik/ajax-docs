@@ -26,7 +26,7 @@ This event is fired once a cell has been edited.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	        <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
 	            <MasterTableView EditMode="Batch">
 	            </MasterTableView>

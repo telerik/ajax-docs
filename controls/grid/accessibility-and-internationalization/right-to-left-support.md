@@ -70,6 +70,7 @@ You can find the above grid in the following online examples:
 
 [http://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultVB.aspx](http://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultVB.aspx)
 
-Here is an image of RadGrid in RTL mode.![](images/RTLGrid_thumb.png)
+Here is an image of RadGrid in RTL mode.
+![](images/RTLGrid_thumb.png)
 
 All predefined grid skins (shipped with the grid installation) are optimized to work in RTL mode.

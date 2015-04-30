@@ -30,7 +30,7 @@ This event is fired when a key is pressed.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnKeyPress="KeyPress" />

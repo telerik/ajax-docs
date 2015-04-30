@@ -26,7 +26,7 @@ In case of in-place editing, you need to set the following properties for GridEd
 
 * **CancelText**
 
-````ASPNET
+````ASP.NET
 	    <MasterTableView EditMode="InPlace">
 	      ...
 	      <Columns>
@@ -50,7 +50,7 @@ In case of editing in forms, you need to set the following properties for **Edit
 
 * **CancelText**
 
-````ASPNET
+````ASP.NET
 	    <MasterTableView>
 	      <Columns>
 	        ...

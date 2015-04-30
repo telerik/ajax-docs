@@ -38,7 +38,7 @@ This event will be raised when the grid is about to be bound to data client-side
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnDataBinding="RadGrid1_DataBinding" />

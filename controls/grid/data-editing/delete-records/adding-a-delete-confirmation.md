@@ -117,4 +117,5 @@ Here is an example usage:
 
 
 
-The following screenshot displays the result from the above code:![Confirmation dialog](images/grd_ConfirmationDialog.png)
+The following screenshot displays the result from the above code:
+![Confirmation dialog](images/grd_ConfirmationDialog.png)

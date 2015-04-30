@@ -30,7 +30,7 @@ This event is fired when the hierarchy has been collapsed and the HierarchyLoadM
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnHierarchyCollapsed="HierarchyCollapsed" />

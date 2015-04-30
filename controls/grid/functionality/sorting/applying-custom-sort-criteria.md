@@ -29,16 +29,16 @@ The following example shows how to apply custom sort pattern for two columns - F
 
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
-	        GridLines="None" OnSortCommand="RadGrid1_SortCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
-	        <MasterTableView AllowCustomSorting="true">
-	            <Columns>
-	                <telerik:GridBoundColumn HeaderText="First name" HeaderButtonType="TextButton" DataField="FirstName" />
-	                <telerik:GridBoundColumn HeaderText="Last name" HeaderButtonType="TextButton" DataField="LastName"
-	                    SortAscImageUrl="Img/SortDesc.gif" SortDescImageUrl="Img/SortAsc.gif" />
-	            </Columns>
-	        </MasterTableView>
-	    </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
+      GridLines="None" OnSortCommand="RadGrid1_SortCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
+      <MasterTableView AllowCustomSorting="true">
+          <Columns>
+              <telerik:GridBoundColumn HeaderText="First name" HeaderButtonType="TextButton" DataField="FirstName" />
+              <telerik:GridBoundColumn HeaderText="Last name" HeaderButtonType="TextButton" DataField="LastName"
+                  SortAscImageUrl="Img/SortDesc.gif" SortDescImageUrl="Img/SortAsc.gif" />
+          </Columns>
+      </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -48,125 +48,122 @@ In the code-behind, the **SortCommand** event handler assigns a data source with
 
 
 ````C#
-	    public DataTable GetDataTable(string query)
-	    {
-	        String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
-	        SqlConnection conn = new SqlConnection(ConnString);
-	        SqlDataAdapter adapter = new SqlDataAdapter();
-	        adapter.SelectCommand = new SqlCommand(query, conn);
-	
-	        DataTable myDataTable = new DataTable();
-	
-	        conn.Open();
-	        try
-	        {
-	            adapter.Fill(myDataTable);
-	        }
-	        finally
-	        {
-	            conn.Close();
-	        }
-	
-	        return myDataTable;
-	    }
-	    protected void RadGrid1_SortCommand(object source, GridSortCommandEventArgs e)
-	    {
-	        if ("FirstName".Equals(e.CommandArgument))
-	        {
-	            switch (e.OldSortOrder)
-	            {
-	                case GridSortOrder.None:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) ASC");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	                case GridSortOrder.Ascending:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) DESC");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	                case GridSortOrder.Descending:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	            }
-	        }
-	        else if ("LastName".Equals(e.CommandArgument))
-	        {
-	            switch (e.OldSortOrder)
-	            {
-	                case GridSortOrder.None:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName DESC");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	                case GridSortOrder.Ascending:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName ASC");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	                case GridSortOrder.Descending:
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
-	                    e.Item.OwnerTableView.Rebind();
-	                    break;
-	            }
-	        }
-	    }
-	    protected void RadGrid1_NeedDataSource(object source, GridNeedDataSourceEventArgs e)
-	    {
-	        RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
-	    }
+public DataTable GetDataTable(string query)
+{
+    String ConnString = ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString;
+    SqlConnection conn = new SqlConnection(ConnString);
+    SqlDataAdapter adapter = new SqlDataAdapter();
+    adapter.SelectCommand = new SqlCommand(query, conn);
+
+    DataTable myDataTable = new DataTable();
+
+    conn.Open();
+    try
+    {
+        adapter.Fill(myDataTable);
+    }
+    finally
+    {
+        conn.Close();
+    }
+
+    return myDataTable;
+}
+protected void RadGrid1_SortCommand(object source, GridSortCommandEventArgs e)
+{
+    if ("FirstName".Equals(e.CommandArgument))
+    {
+        switch (e.OldSortOrder)
+        {
+            case GridSortOrder.None:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) ASC");
+                e.Item.OwnerTableView.Rebind();
+                break;
+            case GridSortOrder.Ascending:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) DESC");
+                e.Item.OwnerTableView.Rebind();
+                break;
+            case GridSortOrder.Descending:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
+                e.Item.OwnerTableView.Rebind();
+                break;
+        }
+    }
+    else if ("LastName".Equals(e.CommandArgument))
+    {
+        switch (e.OldSortOrder)
+        {
+            case GridSortOrder.None:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName DESC");
+                e.Item.OwnerTableView.Rebind();
+                break;
+            case GridSortOrder.Ascending:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName ASC");
+                e.Item.OwnerTableView.Rebind();
+                break;
+            case GridSortOrder.Descending:
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
+                e.Item.OwnerTableView.Rebind();
+                break;
+        }
+    }
+}
+protected void RadGrid1_NeedDataSource(object source, GridNeedDataSourceEventArgs e)
+{
+    RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees");
+}
 ````
-````VB.NET
-	
-	
-	    Public Function GetDataTable(ByVal query As String) As DataTable
-	        Dim ConnString As String = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
-	        Dim conn As SqlConnection = New SqlConnection(ConnString)
-	        Dim adapter As SqlDataAdapter = New SqlDataAdapter
-	        adapter.SelectCommand = New SqlCommand(query, conn)
-	        Dim table1 As New DataTable
-	        conn.Open()
-	        Try
-	            adapter.Fill(table1)
-	        Finally
-	            conn.Close()
-	        End Try
-	        Return table1
-	    End Function
-	
-	    Protected Sub RadGrid1_SortCommand(ByVal source As Object, ByVal e As GridSortCommandEventArgs)
-	        If e.CommandArgument = "FirstName" Then
-	            Select Case e.OldSortOrder
-	                Case GridSortOrder.None
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) ASC")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	                Case GridSortOrder.Ascending
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) DESC")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	                Case GridSortOrder.Descending
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	            End Select
-	        ElseIf e.CommandArgument = "LastName" Then
-	            Select Case e.OldSortOrder
-	                Case GridSortOrder.None
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName DESC")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	                Case GridSortOrder.Ascending
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName ASC")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	                Case GridSortOrder.Descending
-	                    e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
-	                    e.Item.OwnerTableView.Rebind()
-	                    Exit Select
-	            End Select
-	        End If
-	    End Sub
-	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNeedDataSourceEventArgs)
-	        RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
-	    End Sub
-	
+````VB.NET	
+Public Function GetDataTable(ByVal query As String) As DataTable
+    Dim ConnString As String = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
+    Dim conn As SqlConnection = New SqlConnection(ConnString)
+    Dim adapter As SqlDataAdapter = New SqlDataAdapter
+    adapter.SelectCommand = New SqlCommand(query, conn)
+    Dim table1 As New DataTable
+    conn.Open()
+    Try
+        adapter.Fill(table1)
+    Finally
+        conn.Close()
+    End Try
+    Return table1
+End Function
+
+Protected Sub RadGrid1_SortCommand(ByVal source As Object, ByVal e As GridSortCommandEventArgs)
+    If e.CommandArgument = "FirstName" Then
+        Select Case e.OldSortOrder
+            Case GridSortOrder.None
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) ASC")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+            Case GridSortOrder.Ascending
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LEN(FirstName) DESC")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+            Case GridSortOrder.Descending
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+        End Select
+    ElseIf e.CommandArgument = "LastName" Then
+        Select Case e.OldSortOrder
+            Case GridSortOrder.None
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName DESC")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+            Case GridSortOrder.Ascending
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees ORDER BY LastName ASC")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+            Case GridSortOrder.Descending
+                e.Item.OwnerTableView.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
+                e.Item.OwnerTableView.Rebind()
+                Exit Select
+        End Select
+    End If
+End Sub
+Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNeedDataSourceEventArgs)
+    RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
+End Sub
 ````
 

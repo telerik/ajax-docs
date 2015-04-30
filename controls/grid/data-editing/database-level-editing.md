@@ -18,7 +18,7 @@ In numerous cases you may want to perform data editing operations at database le
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Lime" GridLines="None" AllowPaging="True"
 	    AllowSorting="True" AutoGenerateColumns="False" Width="97%" OnNeedDataSource="RadGrid1_NeedDataSource"
 	    OnDeleteCommand="RadGrid1_DeleteCommand" OnInsertCommand="RadGrid1_InsertCommand"

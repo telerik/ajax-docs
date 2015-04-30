@@ -16,7 +16,7 @@ position: 10
 
 Returns a Boolean value indicating if the **GridTableView** filter item is currently visible or not. Can be used to create some condition for executing different script logic depending on the visibility status of the filter item.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource" AllowFilteringByColumn="true">
 	            <MasterTableView DataKeyNames="OrderID" IsFilterItemExpanded="false">

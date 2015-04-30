@@ -24,7 +24,7 @@ This event is fired before the filtering menu is rendered.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnFilterMenuShowing ="FilterMenuShowing" />

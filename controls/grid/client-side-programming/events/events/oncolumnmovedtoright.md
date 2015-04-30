@@ -30,7 +30,7 @@ This event is fired after a column is moved right.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings AllowColumnsReorder="true" ReorderColumnsOnClient="true" ColumnsReorderMethod="Reorder">
 	            <ClientEvents OnColumnMovedToRight="ColumnMovedToRight" />

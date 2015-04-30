@@ -20,15 +20,18 @@ When the active **RenderMode** of the **RadGrid** is set to **Mobile**, its filt
 
 In the **Mobile** filtering version of RadGrid, the regular auto-generated textboxes are replaced with an appropriate filter form,which can be used to type in the desired filtering criteria. To enable this functionality, you have to set the **AllowFilteringByColumn** property of the corresponding GridTableView to **True**.
 
-**Basic RadGrid in Mobile mode**![Grid Mobile Filtering 1](images/grid-mobile-filtering1.png)
+**Basic RadGrid in Mobile mode**
+![Grid Mobile Filtering 1](images/grid-mobile-filtering1.png)
 
 Once the filter item is visible, you can use the generated buttons to move into filter form.
 
-**Filter Form**![Grid Mobile Filtering 2](images/grid-mobile-filtering2.png)
+**Filter Form**
+![Grid Mobile Filtering 2](images/grid-mobile-filtering2.png)
 
 The filter form can be thereby opened and the user may enter their custom filtering dependencies.
 
-**Records filtered by the Order field**![Grid Mobile Filtering 3](images/grid-mobile-filtering3.png)
+**Records filtered by the Order field**
+![Grid Mobile Filtering 3](images/grid-mobile-filtering3.png)
 
 ## Context Filter Menu
 

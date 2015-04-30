@@ -130,7 +130,7 @@ There is one more method - **toOql()** for filter expressions which can be used 
 
 Each filter expression (of type **Telerik.Web.UI.GridFilterExpression**) has *fieldName, fieldValue, columnUniqueName, dataTypeName and filterFunction* properties which hold the field name, field value (filter pattern typed by the user), the unique name of the filtered column, the data type and the filter function applied to it (respectively). To retrieve the values from these properties use the **get_fieldName(), get_fieldValue(), get_columnUniqueName().get_dataTypeName()** and **get_filterFunction()** properties of the corresponding GridFilterExpression. Below is a sample code excerpt using OnCommand client-side event handler:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <clientEvents OnCommand="RaiseCommand" />

@@ -12,7 +12,8 @@ position: 4
 
 
 
-You can allow users to set the order of the grid columns by dragging and dropping them. Just set the **ClientSettings.AllowColumnsReorder** property to **True**. When the user drags a column header to a new location, the grid indicates where the column will be inserted when it is dropped:![Reorder Columns](images/grd_reorderingColumns.png)
+You can allow users to set the order of the grid columns by dragging and dropping them. Just set the **ClientSettings.AllowColumnsReorder** property to **True**. When the user drags a column header to a new location, the grid indicates where the column will be inserted when it is dropped:
+![Reorder Columns](images/grd_reorderingColumns.png)
 
 Additionally, in case you enabled scrolling and have a horizontal scroll for navigation, the grid would be "smart" to auto-scroll when you drag columns and reach the end of the visible region (when you attempt to reorder the column with another outside of the visible area).
 

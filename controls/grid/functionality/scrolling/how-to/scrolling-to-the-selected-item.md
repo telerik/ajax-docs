@@ -29,45 +29,45 @@ If you have an initially selected item (row) in a scrollable grid, you may want 
 The following example demonstrates this technique:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function GridCreated(sender, eventArgs) {
-	            //gets the main table scrollArea HTLM element  
-	            var scrollArea = document.getElementById(sender.get_element().id + "_GridData");
-	            var row = sender.get_masterTableView().get_selectedItems()[0];
-	
-	            //if the position of the selected row is below the viewable grid area  
-	            if (row) {
-	                if ((row.get_element().offsetTop - scrollArea.scrollTop) + row.get_element().offsetHeight + 20 > scrollArea.offsetHeight) {
-	                    //scroll down to selected row  
-	                    scrollArea.scrollTop = scrollArea.scrollTop + ((row.get_element().offsetTop - scrollArea.scrollTop) +
-	                    row.get_element().offsetHeight - scrollArea.offsetHeight) + row.get_element().offsetHeight;
-	                }
-	                //if the position of the the selected row is above the viewable grid area  
-	                else if ((row.get_element().offsetTop - scrollArea.scrollTop) < 0) {
-	                    //scroll the selected row to the top  
-	                    scrollArea.scrollTop = row.get_element().offsetTop;
-	                }
-	            }
-	        }
-	    </script>
+<script type="text/javascript">
+    function GridCreated(sender, eventArgs) {
+        //gets the main table scrollArea HTLM element  
+        var scrollArea = document.getElementById(sender.get_element().id + "_GridData");
+        var row = sender.get_masterTableView().get_selectedItems()[0];
+
+        //if the position of the selected row is below the viewable grid area  
+        if (row) {
+            if ((row.get_element().offsetTop - scrollArea.scrollTop) + row.get_element().offsetHeight + 20 > scrollArea.offsetHeight) {
+                //scroll down to selected row  
+                scrollArea.scrollTop = scrollArea.scrollTop + ((row.get_element().offsetTop - scrollArea.scrollTop) +
+                row.get_element().offsetHeight - scrollArea.offsetHeight) + row.get_element().offsetHeight;
+            }
+            //if the position of the the selected row is above the viewable grid area  
+            else if ((row.get_element().offsetTop - scrollArea.scrollTop) < 0) {
+                //scroll the selected row to the top  
+                scrollArea.scrollTop = row.get_element().offsetTop;
+            }
+        }
+    }
+</script>
 ````
 
 
 
 ````ASPNET
-	    <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
-	        PageSize="25" Skin="Web20" Width="95%">
-	        <mastertableview width="100%" />
-	        <clientsettings>
-	      <Scrolling AllowScroll="true" UseStaticHeaders="true" SaveScrollPosition="true" />
-	      <ClientEvents OnGridCreated="GridCreated" />
-	      <Selecting AllowRowSelect="true" />
-	    </clientsettings>
-	        <pagerstyle mode="NumericPages" />
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM [Customers]">
-	    </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowPaging="true"
+    PageSize="25" Skin="Web20" Width="95%">
+    <mastertableview width="100%" />
+    <clientsettings>
+  <Scrolling AllowScroll="true" UseStaticHeaders="true" SaveScrollPosition="true" />
+  <ClientEvents OnGridCreated="GridCreated" />
+  <Selecting AllowRowSelect="true" />
+</clientsettings>
+    <pagerstyle mode="NumericPages" />
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, PostalCode FROM [Customers]">
+</asp:SqlDataSource>
 ````
 
 

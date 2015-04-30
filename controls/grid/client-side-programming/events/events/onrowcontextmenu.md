@@ -30,7 +30,7 @@ This event is fired on Context menu call.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowContextMenu="RowContextMenu" />

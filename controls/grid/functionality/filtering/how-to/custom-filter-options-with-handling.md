@@ -37,12 +37,12 @@ You can replace the items in the filtering menu with your own custom options, an
 The following example illustrates this technique by substituting a single filter item that uses one of the built-in filter functions:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowFilteringByColumn="True"
-	    Skin="WebBlue">
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT * FROM [Customers]" >
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowFilteringByColumn="True"
+  Skin="WebBlue">
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+      SelectCommand="SELECT * FROM [Customers]" >
+</asp:SqlDataSource>
 ````
 
 
@@ -50,39 +50,39 @@ The following example illustrates this technique by substituting a single filter
 In the code-behind:
 
 ````C#
-	    protected void Page_Init(object sender, System.EventArgs e)
-	    {
-	        RadGrid1.FilterMenu.Items.Clear();
-	        GridFilterMenu filterMenu = RadGrid1.FilterMenu;
-	        RadMenuItem menuItem = new RadMenuItem();
-	        RadGrid1.FilterMenu.Items.Add(menuItem);
-	        menuItem.Text = "Custom-Text (Contains)";
-	        menuItem.Value = "Contains";
-	        filterMenu.ItemClick += new RadMenuEventHandler(filterMenu_ItemClick);
-	    }
-	    protected void filterMenu_ItemClick(object sender, RadMenuEventArgs e)
-	    {
-	        GridFilteringItem filterItem = RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)[0] as GridFilteringItem;
-	        filterItem.FireCommandEvent("Filter", new Pair(e.Item.Value, e.Item.Attributes["columnUniqueName"]));
-	    }
+protected void Page_Init(object sender, System.EventArgs e)
+{
+    RadGrid1.FilterMenu.Items.Clear();
+    GridFilterMenu filterMenu = RadGrid1.FilterMenu;
+    RadMenuItem menuItem = new RadMenuItem();
+    RadGrid1.FilterMenu.Items.Add(menuItem);
+    menuItem.Text = "Custom-Text (Contains)";
+    menuItem.Value = "Contains";
+    filterMenu.ItemClick += new RadMenuEventHandler(filterMenu_ItemClick);
+}
+protected void filterMenu_ItemClick(object sender, RadMenuEventArgs e)
+{
+    GridFilteringItem filterItem = RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)[0] as GridFilteringItem;
+    filterItem.FireCommandEvent("Filter", new Pair(e.Item.Value, e.Item.Attributes["columnUniqueName"]));
+}
 ````
 
 
 
 ````VB.NET
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
-	        RadGrid1.FilterMenu.Items.Clear()
-	        Dim filterMenu As GridFilterMenu = RadGrid1.FilterMenu
-	        Dim menuItem As RadMenuItem = New RadMenuItem()
-	        RadGrid1.FilterMenu.Items.Add(menuItem)
-	        menuItem.Text = "Custom-Text (Contains)"
-	        menuItem.Value = "Contains"
-	  AddHandler filterMenu.ItemClick, Address Of filterMenu_ItemClick
-	    End Sub
-	    Private Sub filterMenu_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs)
-	        Dim filterItem As GridFilteringItem = CType(RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)(0), GridFilteringItem)
-	        filterItem.FireCommandEvent("Filter", New Pair(e.Item.Value, e.Item.Attributes("columnUniqueName")))
-	    End Sub
+  Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
+      RadGrid1.FilterMenu.Items.Clear()
+      Dim filterMenu As GridFilterMenu = RadGrid1.FilterMenu
+      Dim menuItem As RadMenuItem = New RadMenuItem()
+      RadGrid1.FilterMenu.Items.Add(menuItem)
+      menuItem.Text = "Custom-Text (Contains)"
+      menuItem.Value = "Contains"
+AddHandler filterMenu.ItemClick, Address Of filterMenu_ItemClick
+  End Sub
+  Private Sub filterMenu_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs)
+      Dim filterItem As GridFilteringItem = CType(RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)(0), GridFilteringItem)
+      filterItem.FireCommandEvent("Filter", New Pair(e.Item.Value, e.Item.Attributes("columnUniqueName")))
+  End Sub
 ````
 
 

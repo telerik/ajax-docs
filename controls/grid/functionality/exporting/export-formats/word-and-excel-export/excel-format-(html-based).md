@@ -14,7 +14,8 @@ position: 1
 
 It is expected to receive the following warning when opening the generated **xls** file in **Microsoft Office 2007**.
 
-*The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*![](images/grd_excel_warning.png)
+*The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
+![](images/grd_excel_warning.png)
 
 The cause of this warning message is explained in details in the following blog posts:
 
@@ -45,22 +46,19 @@ An example is shown below:
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        string header = @"&CMultiplication Table\000ANumber of Pages &N";
-	        string footer = "&LDate\\: &D &RPage &P\000ASignature\\:";
-	        e.Styles.AppendFormat("table @page {{ mso-header-data:\"{0}\"; mso-footer-data:\"{1}\"; }}", header, footer);
-	    }
-	
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    string header = @"&CMultiplication Table\000ANumber of Pages &N";
+    string footer = "&LDate\\: &D &RPage &P\000ASignature\\:";
+    e.Styles.AppendFormat("table @page {{ mso-header-data:\"{0}\"; mso-footer-data:\"{1}\"; }}", header, footer);
+}	
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        Dim header As String = "&CMultiplication Table\000ANumber of Pages &N"
-	        Dim footer As String = "&LDate\: &D &RPage &P" & vbNullChar & "00ASignature\:"
-	        e.Styles.AppendFormat("table @page {{ mso-header-data:""{0}""; mso-footer-data:""{1}""; }}", header, footer)
-	    End Sub
-	
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+    Dim header As String = "&CMultiplication Table\000ANumber of Pages &N"
+    Dim footer As String = "&LDate\: &D &RPage &P" & vbNullChar & "00ASignature\:"
+    e.Styles.AppendFormat("table @page {{ mso-header-data:""{0}""; mso-footer-data:""{1}""; }}", header, footer)
+End Sub
 ````
 
 
@@ -71,44 +69,42 @@ An example is shown below:
 
 
 ````C#
-	    protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
-	    {
-	        switch (e.FormattedColumn.UniqueName)
-	        {
-	            case "C1":
-	                e.Cell.Style["mso-number-format"] = @"\@";
-	                break;
-	            case "C2":
-	                e.Cell.Style["mso-number-format"] = @"$0.00";
-	                break;
-	            case "C3":
-	                e.Cell.Style["mso-number-format"] = @"0000";
-	                break;
-	            case "C4":
-	                e.Cell.Style["mso-number-format"] = @"mm\/dd\/yyyy";
-	                break;
-	        }
-	    }
+protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
+{
+    switch (e.FormattedColumn.UniqueName)
+    {
+        case "C1":
+            e.Cell.Style["mso-number-format"] = @"\@";
+            break;
+        case "C2":
+            e.Cell.Style["mso-number-format"] = @"$0.00";
+            break;
+        case "C3":
+            e.Cell.Style["mso-number-format"] = @"0000";
+            break;
+        case "C4":
+            e.Cell.Style["mso-number-format"] = @"mm\/dd\/yyyy";
+            break;
+    }
+}
 ````
-````VB.NET
-	
-	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
-	        Select Case e.FormattedColumn.UniqueName
-	            Case "C1"
-	                e.Cell.Style("mso-number-format") = "\@"
-	                Exit Select
-	            Case "C2"
-	                e.Cell.Style("mso-number-format") = "$0.00"
-	                Exit Select
-	            Case "C3"
-	                e.Cell.Style("mso-number-format") = "0000"
-	                Exit Select
-	            Case "C4"
-	                e.Cell.Style("mso-number-format") = "mm\/dd\/yyyy"
-	                Exit Select
-	        End Select
-	    End Sub
-	
+````VB.NET	
+Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
+    Select Case e.FormattedColumn.UniqueName
+        Case "C1"
+            e.Cell.Style("mso-number-format") = "\@"
+            Exit Select
+        Case "C2"
+            e.Cell.Style("mso-number-format") = "$0.00"
+            Exit Select
+        Case "C3"
+            e.Cell.Style("mso-number-format") = "0000"
+            Exit Select
+        Case "C4"
+            e.Cell.Style("mso-number-format") = "mm\/dd\/yyyy"
+            Exit Select
+    End Select
+End Sub
 ````
 
 
@@ -133,27 +129,25 @@ Another interesting feature, supported by the Excel export are the formulas. You
 
 
 ````C#
-	    protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
-	    {
-	        GridDataItem item = e.Cell.Parent as GridDataItem;
-	        if (e.FormattedColumn.UniqueName == "C5")
-	            e.Cell.Attributes["formula"] = "=E1*2.14";
-	        if (e.FormattedColumn.UniqueName == "C1")
-	            e.Cell.Attributes["formula"] = String.Format("=SUM(B{0}:D{0})", item.ItemIndex);
-	    }
+protected void RadGrid1_ExportCellFormatting(object source, ExcelExportCellFormattingEventArgs e)
+{
+    GridDataItem item = e.Cell.Parent as GridDataItem;
+    if (e.FormattedColumn.UniqueName == "C5")
+        e.Cell.Attributes["formula"] = "=E1*2.14";
+    if (e.FormattedColumn.UniqueName == "C1")
+        e.Cell.Attributes["formula"] = String.Format("=SUM(B{0}:D{0})", item.ItemIndex);
+}
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
-	        Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
-	        If e.FormattedColumn.UniqueName = "C5" Then
-	            e.Cell.Attributes("formula") = "=E1*2.14"
-	        End If
-	        If e.FormattedColumn.UniqueName = "C1" Then
-	            e.Cell.Attributes("formula") = [String].Format("=SUM(B{0}:D{0})", item.ItemIndex)
-	        End If
-	    End Sub
-	
+Protected Sub RadGrid1_ExportCellFormatting(ByVal source As Object, ByVal e As ExcelExportCellFormattingEventArgs) Handles RadGrid1.ExcelExportCellFormatting
+    Dim item As GridDataItem = TryCast(e.Cell.Parent, GridDataItem)
+    If e.FormattedColumn.UniqueName = "C5" Then
+        e.Cell.Attributes("formula") = "=E1*2.14"
+    End If
+    If e.FormattedColumn.UniqueName = "C1" Then
+        e.Cell.Attributes("formula") = [String].Format("=SUM(B{0}:D{0})", item.ItemIndex)
+    End If
+End Sub
 ````
 
 
@@ -181,19 +175,19 @@ Example:
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        e.XmlOptions = @"<xml>
-	                            <x:ExcelWorkbook> 
-	                                <x:WindowHeight>8070</x:WindowHeight>
-	                                <x:WindowWidth>13260</x:WindowWidth>
-	                                <x:WindowTopX>240</x:WindowTopX>
-	                                <x:WindowTopY>75</x:WindowTopY>
-	                                <x:ProtectStructure>False</x:ProtectStructure>
-	                                <x:ProtectWindows>False</x:ProtectWindows>
-	                            </x:ExcelWorkbook>
-	                         </xml>";
-	    }
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    e.XmlOptions = @"<xml>
+                        <x:ExcelWorkbook> 
+                            <x:WindowHeight>8070</x:WindowHeight>
+                            <x:WindowWidth>13260</x:WindowWidth>
+                            <x:WindowTopX>240</x:WindowTopX>
+                            <x:WindowTopY>75</x:WindowTopY>
+                            <x:ProtectStructure>False</x:ProtectStructure>
+                            <x:ProtectWindows>False</x:ProtectWindows>
+                        </x:ExcelWorkbook>
+                     </xml>";
+}
 ````
 ````VB.NET
 	

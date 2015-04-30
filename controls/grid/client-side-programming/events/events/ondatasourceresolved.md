@@ -34,7 +34,7 @@ This event will be raised when the grid source is retrieved from a page method o
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnDataSourceResolved="RadGrid1_DataSourceResolved" />

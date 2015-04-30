@@ -31,44 +31,42 @@ To enable virtual scrolling for browsing large record sets,
 
 
 ````ASPNET
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
-	    Width="75px" Transparency="25">
-	    <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
-	      style="border: 0;" /></telerik:RadAjaxLoadingPanel>
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
-	    AllowPaging="True" PageSize="14" AllowCustomPaging="true" VirtualItemCount="100000"
-	    OnNeedDataSource="RadGrid1_NeedDataSource">
-	    <PagerStyle Mode="NumericPages" />
-	    <MasterTableView TableLayout="Fixed" />
-	    <ClientSettings>
-	      <Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True"
-	        SaveScrollPosition="True" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
+  Width="75px" Transparency="25">
+  <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
+    style="border: 0;" /></telerik:RadAjaxLoadingPanel>
+<telerik:RadGrid ID="RadGrid1" runat="server" Width="97%" Skin="Silk" AllowSorting="True"
+  AllowPaging="True" PageSize="14" AllowCustomPaging="true" VirtualItemCount="100000"
+  OnNeedDataSource="RadGrid1_NeedDataSource">
+  <PagerStyle Mode="NumericPages" />
+  <MasterTableView TableLayout="Fixed" />
+  <ClientSettings>
+    <Scrolling AllowScroll="True" EnableVirtualScrollPaging="True" UseStaticHeaders="True"
+      SaveScrollPosition="True" />
+  </ClientSettings>
+</telerik:RadGrid>
 ````
 ````C#
-	
-	    protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
-	    {
-	        RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " + 
-	            RadGrid1.CurrentPageIndex * RadGrid1.PageSize + " AND " + ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize));
-	    }
-	
+protected void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+{
+    RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " + 
+        RadGrid1.CurrentPageIndex * RadGrid1.PageSize + " AND " + ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize));
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNeedDataSourceEventArgs)
-	        RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " &
-	                                           RadGrid1.CurrentPageIndex * RadGrid1.PageSize & " AND " & ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize))
-	    End Sub
+Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNeedDataSourceEventArgs)
+    RadGrid1.DataSource = GetDataTable("SELECT [OrderID], [ProductID], [Quantity], [Discount] FROM [LargeOrderDetails] WHERE ID BETWEEN " &
+                                       RadGrid1.CurrentPageIndex * RadGrid1.PageSize & " AND " & ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize))
+End Sub
 ````
 
 
@@ -78,7 +76,8 @@ To enable virtual scrolling for browsing large record sets,
 
 ## Fetching additional records when the scroll bar reaches its endpoint
 
-Another approach is to trigger an AJAX request to increase the page size when the user drags the scroll bar to the bottom. This is attained with a few lines of javascript and server-side code. Additional data is supplied as long as the rendered rows are less than the entire source record count:![Virtual scrolling](images/GoogleStyleScroll.PNG)
+Another approach is to trigger an AJAX request to increase the page size when the user drags the scroll bar to the bottom. This is attained with a few lines of javascript and server-side code. Additional data is supplied as long as the rendered rows are less than the entire source record count:
+![Virtual scrolling](images/GoogleStyleScroll.PNG)
 
 The following steps describe how to achieve this effect:
 
@@ -101,53 +100,53 @@ The following steps describe how to achieve this effect:
 1. Assign the javascript function as the event handler for the **OnScroll** client event of the grid.
 
 ````C#
-	  <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
-	    <script type="text/javascript">
-	      function HandleScrolling(e) {
-	        var grid = $find("<%=RadGrid1.ClientID %>");
-	        var scrollArea = document.getElementById("<%= RadGrid1.ClientID %>" + "_GridData");
-	        if (IsScrolledToBottom(scrollArea)) {
-	          var currentlyDisplayedRecords = grid.get_masterTableView().get_pageSize() * (grid.get_masterTableView().get_currentPageIndex() + 1);
-	          //if the visible items are less than the entire record count  
-	          //trigger an ajax request to increase them     
-	          if (currentlyDisplayedRecords < 100) {
-	            $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest("LoadMoreRecords");
-	          }
-	        }
-	      }
-	      //calculate when the scroll bar is at the bottom   
-	      function IsScrolledToBottom(scrollArea) {
-	        var currentPosition = scrollArea.scrollTop + scrollArea.clientHeight; return currentPosition == scrollArea.scrollHeight;
-	      }  
-	    </script>
-	  </telerik:RadCodeBlock>
-	  <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
-	    <AjaxSettings>
-	      <telerik:AjaxSetting AjaxControlID="RadGrid1">
-	        <UpdatedControls>
-	          <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
-	        </UpdatedControls>
-	      </telerik:AjaxSetting>
-	    </AjaxSettings>
-	  </telerik:RadAjaxManager>
-	  <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
-	    Width="75px" Transparency="25">
-	    <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
-	      style="border: 0;" />
-	  </telerik:RadAjaxLoadingPanel>
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Silk" DataSourceID="SqlDataSource1"
-	    AllowSorting="True" AllowPaging="True" PageSize="15" Width="97%" GridLines="None">
-	    <PagerStyle Visible="False" />
-	    <MasterTableView Width="99%" TableLayout="Fixed" CommandItemDisplay="None" CurrentResetPageIndexAction="SetPageIndexToFirst"
-	      DataSourceID="AccessDataSource1" PageSize="15">
-	    </MasterTableView>
-	    <ClientSettings>
-	      <Scrolling AllowScroll="True" UseStaticHeaders="True" ScrollHeight="100px" />
-	      <ClientEvents OnScroll="HandleScrolling" />
-	    </ClientSettings>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	            SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+  <script type="text/javascript">
+    function HandleScrolling(e) {
+      var grid = $find("<%=RadGrid1.ClientID %>");
+      var scrollArea = document.getElementById("<%= RadGrid1.ClientID %>" + "_GridData");
+      if (IsScrolledToBottom(scrollArea)) {
+        var currentlyDisplayedRecords = grid.get_masterTableView().get_pageSize() * (grid.get_masterTableView().get_currentPageIndex() + 1);
+        //if the visible items are less than the entire record count  
+        //trigger an ajax request to increase them     
+        if (currentlyDisplayedRecords < 100) {
+          $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest("LoadMoreRecords");
+        }
+      }
+    }
+    //calculate when the scroll bar is at the bottom   
+    function IsScrolledToBottom(scrollArea) {
+      var currentPosition = scrollArea.scrollTop + scrollArea.clientHeight; return currentPosition == scrollArea.scrollHeight;
+    }  
+  </script>
+</telerik:RadCodeBlock>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
+  <AjaxSettings>
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <UpdatedControls>
+        <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
+      </UpdatedControls>
+    </telerik:AjaxSetting>
+  </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Height="75px"
+  Width="75px" Transparency="25">
+  <img alt="Loading..." src='<%= RadAjaxLoadingPanel.GetWebResourceUrl(Page, "Telerik.Web.UI.Skins.Default.Ajax.loading.gif") %>'
+    style="border: 0;" />
+</telerik:RadAjaxLoadingPanel>
+<telerik:RadGrid ID="RadGrid1" runat="server" Skin="Silk" DataSourceID="SqlDataSource1"
+  AllowSorting="True" AllowPaging="True" PageSize="15" Width="97%" GridLines="None">
+  <PagerStyle Visible="False" />
+  <MasterTableView Width="99%" TableLayout="Fixed" CommandItemDisplay="None" CurrentResetPageIndexAction="SetPageIndexToFirst"
+    DataSourceID="AccessDataSource1" PageSize="15">
+  </MasterTableView>
+  <ClientSettings>
+    <Scrolling AllowScroll="True" UseStaticHeaders="True" ScrollHeight="100px" />
+    <ClientEvents OnScroll="HandleScrolling" />
+  </ClientSettings>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+          SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
 
 
@@ -155,19 +154,17 @@ The following steps describe how to achieve this effect:
 
 
 ````C#
-	
-	    protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
-	    {
-	        RadGrid1.PageSize = 10 + RadGrid1.PageSize;
-	        RadGrid1.Rebind();
-	    }
-	
+protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+{
+    RadGrid1.PageSize = 10 + RadGrid1.PageSize;
+    RadGrid1.Rebind();
+}	
 ````
 ````VB.NET
-	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web.UI.AjaxRequestEventArgs)
-	        RadGrid1.PageSize = 10 + RadGrid1.PageSize
-	        RadGrid1.Rebind()
-	    End Sub
+Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web.UI.AjaxRequestEventArgs)
+    RadGrid1.PageSize = 10 + RadGrid1.PageSize
+    RadGrid1.Rebind()
+End Sub
 ````
 
 

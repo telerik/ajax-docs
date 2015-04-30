@@ -16,42 +16,42 @@ position: 5
 
 When client-side grouping is used, you can use the same approaches, as with server-side grouping, for setting predefined groups or	allowing the user to drag and drop columns to the **GroupPanel**.
 
-**Example**: The following example demonstrates how to enable client-side groupingfunctionality when a **RadGrid** is bound to **RadClientDataSource** control:
+**Example**: The following example demonstrates how to enable client-side grouping functionality when a **RadGrid** is bound to **RadClientDataSource** control:
 
 ````ASPNET
-	<telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
-		<DataSource>
-			<WebServiceDataSourceSettings ServiceType="OData">
-				<Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers" DataType="JSON" />
-			</WebServiceDataSourceSettings>
-		</DataSource>
-	</telerik:RadClientDataSource>
-	        
-	<telerik:RadGrid ID="RadGrid1" ClientDataSourceID="RadClientDataSource1" runat="server" AllowMultiRowSelection="true"
-		AllowSorting="True" AllowPaging="True" PageSize="12" ShowGroupPanel="True" AutoGenerateColumns="false" AllowFilteringByColumn="true">
-		<GroupingSettings ShowUnGroupButton="true"></GroupingSettings>
-		<MasterTableView GroupLoadMode="Client" TableLayout="Fixed" EnableGroupsExpandAll="true">
-			<GroupByExpressions>
-				<telerik:GridGroupByExpression>
-					<SelectFields>
-						<telerik:GridGroupByField FieldAlias="Country" FieldName="Country"></telerik:GridGroupByField>
-					</SelectFields>
-					<GroupByFields>
-						<telerik:GridGroupByField FieldName="Country"></telerik:GridGroupByField>
-					</GroupByFields>
-				</telerik:GridGroupByExpression>
-			</GroupByExpressions>
-			<Columns>
-				<telerik:GridBoundColumn DataField="Country" HeaderText="Country"></telerik:GridBoundColumn>
-				<telerik:GridBoundColumn DataField="ContactTitle" HeaderText="Contact Title"></telerik:GridBoundColumn>
-				<telerik:GridBoundColumn DataField="ContactName" HeaderText="Contact Name"></telerik:GridBoundColumn>
-			</Columns>
-		</MasterTableView>
-		<GroupingSettings ShowUnGroupButton="true" />
-		<ClientSettings AllowDragToGroup="true">
-			<Selecting AllowRowSelect="true" />
-		</ClientSettings>
-	</telerik:RadGrid>
+<telerik:RadClientDataSource ID="RadClientDataSource1" runat="server">
+	<DataSource>
+		<WebServiceDataSourceSettings ServiceType="OData">
+			<Select Url="http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers" DataType="JSON" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+</telerik:RadClientDataSource>
+        
+<telerik:RadGrid ID="RadGrid1" ClientDataSourceID="RadClientDataSource1" runat="server" AllowMultiRowSelection="true"
+	AllowSorting="True" AllowPaging="True" PageSize="12" ShowGroupPanel="True" AutoGenerateColumns="false" AllowFilteringByColumn="true">
+	<GroupingSettings ShowUnGroupButton="true"></GroupingSettings>
+	<MasterTableView GroupLoadMode="Client" TableLayout="Fixed" EnableGroupsExpandAll="true">
+		<GroupByExpressions>
+			<telerik:GridGroupByExpression>
+				<SelectFields>
+					<telerik:GridGroupByField FieldAlias="Country" FieldName="Country"></telerik:GridGroupByField>
+				</SelectFields>
+				<GroupByFields>
+					<telerik:GridGroupByField FieldName="Country"></telerik:GridGroupByField>
+				</GroupByFields>
+			</telerik:GridGroupByExpression>
+		</GroupByExpressions>
+		<Columns>
+			<telerik:GridBoundColumn DataField="Country" HeaderText="Country"></telerik:GridBoundColumn>
+			<telerik:GridBoundColumn DataField="ContactTitle" HeaderText="Contact Title"></telerik:GridBoundColumn>
+			<telerik:GridBoundColumn DataField="ContactName" HeaderText="Contact Name"></telerik:GridBoundColumn>
+		</Columns>
+	</MasterTableView>
+	<GroupingSettings ShowUnGroupButton="true" />
+	<ClientSettings AllowDragToGroup="true">
+		<Selecting AllowRowSelect="true" />
+	</ClientSettings>
+</telerik:RadGrid>
 ````
 
 

@@ -32,7 +32,7 @@ This event is fired when the user right-clicks arbitrary column header.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnColumnContextMenu="ColumnContextMenu" />

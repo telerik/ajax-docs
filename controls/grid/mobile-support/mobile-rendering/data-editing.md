@@ -16,7 +16,8 @@ When using "**Mobile**" rendering you can take advantage of all edit modesavaila
 
 ## 
 
-Although the "**Mobile**" rendering of **RadGrid** is optimized for mobile devices and renders different HTML and layout,there are only few differences in the way that the editing is used and handled. The main difference in the editing in "**Mobile**" **RenderMode** is the **PopUp**edit mode, which renders an entirely new mobile menu for editing. Following is a screenshot with the new **PopUp** mobile edit menu:![radgrid-mobile-popupediting](images/radgrid-mobile-popupediting.png)
+Although the "**Mobile**" rendering of **RadGrid** is optimized for mobile devices and renders different HTML and layout,there are only few differences in the way that the editing is used and handled. The main difference in the editing in "**Mobile**" **RenderMode** is the **PopUp**edit mode, which renders an entirely new mobile menu for editing. Following is a screenshot with the new **PopUp** mobile edit menu:
+![radgrid-mobile-popupediting](images/radgrid-mobile-popupediting.png)
 
 ## Column editors with mobile rendering
 

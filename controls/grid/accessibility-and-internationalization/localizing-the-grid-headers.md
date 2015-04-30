@@ -20,7 +20,7 @@ The first option to localize the header text is dynamically through resource fil
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
 	    runat="server" OnColumnCreated="RadGrid1_ColumnCreated">
 	    <MasterTableView Width="100%" AutoGenerateColumns="True" />
@@ -67,7 +67,7 @@ The first option to localize the header text is dynamically through resource fil
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid2" DataSourceID="SqlDataSource2" AllowSorting="True"
 	    runat="server" HorizontalAlign="NotSet">
 	    <MasterTableView Width="100%" AutoGenerateColumns="False" DataSourceID="AccessDataSource2">

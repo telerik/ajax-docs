@@ -18,7 +18,7 @@ You can change the visibility of a **RadGrid** control either client-side or ser
 
 To change the visibility of a grid client-side, obtain a reference to the grid's DOM element in the rendered page and alter its **style.display** property. Below is a rough outline of this approach:
 
-````ASPNET
+````ASP.NET
 	  <script type="text/javascript">
 	    function ShowGrid() {
 	      $find("<%=RadGrid1.ClientID%>").get_element().style.display = "";

@@ -30,7 +30,7 @@ This event is fired after a row is deleted client-side (GridClientDeleteColumn).
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowDeleted="RowDeleted" />

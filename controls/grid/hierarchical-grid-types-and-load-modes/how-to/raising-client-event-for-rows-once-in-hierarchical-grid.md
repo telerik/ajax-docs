@@ -28,7 +28,7 @@ By default the client event bubbling mechanism of Telerik RadGrid will raise all
 
 In the next section you can find the code of a simple example which propagates the logic mentioned above hooking the **OnRowDblClick** event of Telerik RadGrid (keep in mind that for performance reasons, the **RadGridTable.Rows** collection is available **only** when you enable specific client features/events for the rows in the grid (such **AllowRowResize**, **AllowRowSelect**, **OnRowClick,** etc.)):
 
-````ASPNET
+````ASP.NET
 	  <script type="text/javascript">    
 	  function RowDblClick(sender, eventArgs) {
 	      if (eventArgs.get_tableView().get_name() == "DetailTable") {

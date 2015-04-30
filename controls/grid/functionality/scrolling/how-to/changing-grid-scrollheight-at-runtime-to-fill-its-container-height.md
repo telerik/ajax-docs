@@ -25,26 +25,26 @@ In a **RadGrid** control with scrolling enabled, you can modify the default grid
 The following example illustrates this technique:
 
 ````ASPNET
-	  <script type="text/javascript">
-	    function GridCreated(sender, args) {
-	      var scrollArea = sender.GridDataDiv;
-	      var parent = $get("gridContainer");
-	      var gridHeader = sender.GridHeaderDiv;
-	      scrollArea.style.height = parent.clientHeight -
-	        gridHeader.clientHeight + "px";
-	    }
-	  </script>
-	  <div style="height: 500px; width: 800px" id="gridContainer">
-	    <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="true" DataSourceID="AccessDataSource1">
-	      <ClientSettings>
-	        <Scrolling AllowScroll="true" ScrollHeight="300px" UseStaticHeaders="true" />
-	        <ClientEvents OnGridCreated="GridCreated" />
-	      </ClientSettings>
-	    </telerik:RadGrid>
-	  </div>
-	  <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
-	    SelectCommand="SELECT CustomerID, CompanyName, ContactName,
-	        ContactTitle, Address, PostalCode FROM Customers"></asp:AccessDataSource>
+<script type="text/javascript">
+  function GridCreated(sender, args) {
+    var scrollArea = sender.GridDataDiv;
+    var parent = $get("gridContainer");
+    var gridHeader = sender.GridHeaderDiv;
+    scrollArea.style.height = parent.clientHeight -
+      gridHeader.clientHeight + "px";
+  }
+</script>
+<div style="height: 500px; width: 800px" id="gridContainer">
+  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="true" DataSourceID="AccessDataSource1">
+    <ClientSettings>
+      <Scrolling AllowScroll="true" ScrollHeight="300px" UseStaticHeaders="true" />
+      <ClientEvents OnGridCreated="GridCreated" />
+    </ClientSettings>
+  </telerik:RadGrid>
+</div>
+<asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Nwind.mdb"
+  SelectCommand="SELECT CustomerID, CompanyName, ContactName,
+      ContactTitle, Address, PostalCode FROM Customers"></asp:AccessDataSource>
 ````
 
 

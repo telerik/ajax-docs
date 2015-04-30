@@ -30,7 +30,7 @@ To enable automatic editing at data source level, set the *AllowAutomaticUpdates
 
 Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to implement the *IBindableControl *interface, available in ASP.NET 3.5, in order to support automatic editing operations with WebUserControl custom edit form):
 
-````ASPNET
+````ASP.NET
 <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
     <ajaxsettings>
   <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -175,7 +175,7 @@ End Sub
 ````
 
 
-````ASPNET
+````ASP.NET
 <ul class="productDetails">
     <li <%=(DataItem is Telerik.Web.UI.GridInsertionObject) ? "style='display:none;'": ""%>>
         <label>
@@ -224,7 +224,7 @@ End Sub
 
 
 
-````ASPNET
+````ASP.NET
 public partial class Grid_Examples_dataediting_linqdatasource_productdetailscs:
 UserControl, IBindableControl { public void ExtractValues(IOrderedDictionary dictionary)
 { //retrives all RadInputs and add thier values to the dictionary foreach (var input

@@ -29,31 +29,28 @@ The following example illustrates this process:
 
 
 ````C#
-	
-	
-	    protected void Page_Load(object sender, System.EventArgs e)
-	    {
-	        GridFilterMenu menu = RadGrid1.FilterMenu;
-	        foreach (RadMenuItem item in menu.Items)
-	        {    //change the text for the "StartsWith" menu item  
-	            if (item.Text == "StartsWith")
-	            {
-	                item.Text = "your_custom_localized_string";
-	            }
-	        }
-	    }
-	
+protected void Page_Load(object sender, System.EventArgs e)
+{
+    GridFilterMenu menu = RadGrid1.FilterMenu;
+    foreach (RadMenuItem item in menu.Items)
+    {    //change the text for the "StartsWith" menu item  
+        if (item.Text == "StartsWith")
+        {
+            item.Text = "your_custom_localized_string";
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-	        Dim Menu As GridFilterMenu = RadGrid1.FilterMenu
-	        Dim item As RadMenuItem
-	        For Each item In Menu.Items
-	            'change the text for the StartsWith menu item
-	            If item.Text = "StartsWith" Then
-	                item.Text = "your_custom_localized_string"
-	            End If
-	        Next
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+    Dim Menu As GridFilterMenu = RadGrid1.FilterMenu
+    Dim item As RadMenuItem
+    For Each item In Menu.Items
+        'change the text for the StartsWith menu item
+        If item.Text = "StartsWith" Then
+            item.Text = "your_custom_localized_string"
+        End If
+    Next
+End Sub
 ````
 

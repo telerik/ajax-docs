@@ -16,7 +16,7 @@ position: 45
 
 This method allows you to swap the columns with the specified UniqueName. The method accept two arguments - the first one is the unique name of thefirst table column to swap and the second argument is the the unique name of the second table column. Note that you have to enable the **AllowColumnsReorder** and **ReorderColumnsOnClient** properties and set **ColumnsReorderMethod** property to *Swap* in order to be able to swap the columns. Generally used when there is a need to reorder columns on the client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

@@ -24,7 +24,7 @@ There is no default event for editor changes in grid columns - it is up to the d
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView EditMode="InPlace" AutoGenerateColumns="False">
 	      <Columns>

@@ -23,7 +23,7 @@ This method provides reference to the DataItem object (data container). Useful t
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />

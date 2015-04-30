@@ -16,7 +16,7 @@ position: 2
 
 This property presents the **HTML TableRow element** - <tr> for the current item. Basically you can use it in cases when you needto get the **HTML TableRow element** on client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

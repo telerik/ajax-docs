@@ -12,7 +12,8 @@ position: 1
 
 
 
-When paging is enabled, **RadGrid** renders a pager item (**GridPagerItem**) on the bottom and/or top of each table view (**GridTableView**) displayed in the hierarchy.![Default pager - NextPrevAndNumeric](images/grd_PagerModeNextPrevAndNumeric.png)
+When paging is enabled, **RadGrid** renders a pager item (**GridPagerItem**) on the bottom and/or top of each table view (**GridTableView**) displayed in the hierarchy.
+![Default pager - NextPrevAndNumeric](images/grd_PagerModeNextPrevAndNumeric.png)
 
 ## PagerStyle
 
@@ -34,7 +35,7 @@ In addition to the usual item style properties such as **ForeColor**, **BackColo
 
 
 
->note Note that the default (NextPrevAndNumeric) and the advanced grid pagers require the viewstate of the control to be enabled.
+>note The default (NextPrevAndNumeric) and the advanced grid pagers require the viewstate of the control to be enabled.
 >
 
 
@@ -42,29 +43,35 @@ The following screen shots show how the pager looks for each of the **PagerStyle
 
 NextPrev
 
-When **Mode** is "NextPrev", the pager contains two buttons; a backward pointing arrow and a forward pointing arrow. These let the user move to the previous or next page:![NextPrev pager](images/grd_PagerModeNextPrev.png)
+When **Mode** is "NextPrev", the pager contains two buttons; a backward pointing arrow and a forward pointing arrow. These let the user move to the previous or next page:
+![NextPrev pager](images/grd_PagerModeNextPrev.png)
 
 NumericPages
 
-When **Mode** is "NumericPages", the pager contains link buttons with page numbers:![Numeric pager](images/grd_PagerModeNumericPages.png)
+When **Mode** is "NumericPages", the pager contains link buttons with page numbers:
+![Numeric pager](images/grd_PagerModeNumericPages.png)
 
 The **PagerStyle.PagebuttonCount** property specifies the number of link buttons appear in this list.
 
 NextPrevAndNumeric
 
-When **Mode** is "NextPrevAndNumeric", the pager contains both the arrow buttons and the link buttons with page numbers:![Default pager - NextPrevAndNumeric](images/grd_PagerModeNextPrevAndNumeric.png)
+When **Mode** is "NextPrevAndNumeric", the pager contains both the arrow buttons and the link buttons with page numbers:
+![Default pager - NextPrevAndNumeric](images/grd_PagerModeNextPrevAndNumeric.png)
 
 Advanced
 
-When **Mode** is "Advanced", the pager contains text boxes that let the user enter a page number or a new page size:![GridPagerMode.Advanced](images/grd_PagerModeAdvanced.png)
+When **Mode** is "Advanced", the pager contains text boxes that let the user enter a page number or a new page size:
+![GridPagerMode.Advanced](images/grd_PagerModeAdvanced.png)
 
 NextPrevNumericAndAdvanced
 
-When **Mode** is "NextPrevNumericAndAdvanced", the pager contains all of the controls available in both the "NextPrevAndNumeric" and "Advanced" modes:![GridPagerMode.NextPrevNumericAndAdvanced](images/grd_PagerModeNextPrevNumericAndAdvanced.png)
+When **Mode** is "NextPrevNumericAndAdvanced", the pager contains all of the controls available in both the "NextPrevAndNumeric" and "Advanced" modes:
+![GridPagerMode.NextPrevNumericAndAdvanced](images/grd_PagerModeNextPrevNumericAndAdvanced.png)
 
 Slider
 
-When **Mode** is "Slider", the pager contains a slider control for changing pages:![GridPagerMode.Slider](images/grd_PagerModeSlider.png)
+When **Mode** is "Slider", the pager contains a slider control for changing pages:
+![GridPagerMode.Slider](images/grd_PagerModeSlider.png)
 
 You can also customize the pager to provide an alphabetic mode. For details on how to do this, see [Alphabetic paging in RadGrid]({%slug grid/functionality/paging/how-to/alphabetic-paging-in-telerik-radgrid%}).
 
@@ -117,43 +124,39 @@ You can get the exact numbers of rows in your **RadGrid** either directly from t
 
 
 ````C#
-	
-	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            Label1.Text = (e.Item as GridPagerItem).Paging.DataSourceCount.ToString();
-	        }
-	    }
-	
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        Label1.Text = (e.Item as GridPagerItem).Paging.DataSourceCount.ToString();
+    }
+}
 ````
-````VB.NET
-	
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Label1.Text = CType(e.Item, GridPagerItem).Paging.DataSourceCount.ToString()
-	        End If
-	    End Sub
-	
+````VB.NET	
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If TypeOf e.Item Is GridPagerItem Then
+        Label1.Text = CType(e.Item, GridPagerItem).Paging.DataSourceCount.ToString()
+    End If
+End Sub
 ````
 
 
 You can also get the row count from the pager in the ASPX file as follows:
 
 ````ASPNET
-	  <PagerTemplate>  
-	    <%# (Container as GridPagerItem).Paging.DataSourceCount %>
-	  </PagerTemplate>
+<PagerTemplate>  
+  <%# (Container as GridPagerItem).Paging.DataSourceCount %>
+</PagerTemplate>
 ````
 
 
 
 ## Option to show all items in the pager dropdown
 
-Since **Q1 2015** version of **UI for ASP.NET AJAX** we intoduced a new property named **EnableAllOptionInPagerComboBox** which will add a new item with text "**All**" in the pager dropdown. The item will be included in both **RadComboBox** and **RadDropDown** page size controls.When selecting this item all items will be displayed and the pager item will remain visible.
+Since **Q1 2015** version of **UI for ASP.NET AJAX** we introduced a new property named **EnableAllOptionInPagerComboBox** which will add a new item with text "**All**" in the pager dropdown. The item will be included in both **RadComboBox** and **RadDropDown** page size controls.When selecting this item all items will be displayed and the pager item will remain visible.
 
 ````ASPNET
-	  <PagerStyle EnableAllOptionInPagerComboBox="true" />
+<PagerStyle EnableAllOptionInPagerComboBox="true" />
 ````
 
 ![grd Pager Mode All Option](images/grd_PagerModeAllOption.png)

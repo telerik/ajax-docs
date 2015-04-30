@@ -24,7 +24,8 @@ Some of the key advantages that RadAsyncUpload offers againts RadUpload are
 
 * Client side events for upload completed and upload failed
 
-* Simpler validation![](images/grd_BinaryImagesRadAsyncUploadInGrid_thumb.png)
+* Simpler validation
+![](images/grd_BinaryImagesRadAsyncUploadInGrid_thumb.png)
 
 There are a few important things to consider when using RadAsyncUpload
 

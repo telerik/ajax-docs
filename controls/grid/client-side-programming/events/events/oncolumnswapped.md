@@ -30,7 +30,7 @@ This event is fired after two columns are swapped.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnColumnSwapped="ColumnSwapped" />

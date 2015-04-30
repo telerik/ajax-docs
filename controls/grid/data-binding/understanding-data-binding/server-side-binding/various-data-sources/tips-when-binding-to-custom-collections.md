@@ -528,7 +528,7 @@ When you need to bind the grid control to a collection of dynamic objects it is 
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AutoGenerateColumns="false">
         <MasterTableView>
             <Columns>

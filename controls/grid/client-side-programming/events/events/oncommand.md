@@ -30,7 +30,7 @@ This event will be raised for each grid command which is about to be triggered (
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnCommand="RaiseCommand" />

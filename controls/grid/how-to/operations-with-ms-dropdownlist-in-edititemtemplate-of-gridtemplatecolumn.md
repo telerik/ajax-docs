@@ -20,7 +20,7 @@ In the code below we assign array of ListItem objects as data source for the dro
 
 
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
 	            <MasterTableView>
 	                <Columns>

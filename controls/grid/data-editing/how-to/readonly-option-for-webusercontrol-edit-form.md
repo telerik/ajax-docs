@@ -20,7 +20,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 1. Add **GridButtonColumn** to your grid instance with **CommandName = "Preview".**
 
-````ASPNET
+````ASP.NET
 	              <MasterTableView CommandItemDisplay="Top" GridLines="None">
 	                <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
 	                    <EditColumn UniqueName="EditCommandColumn1">

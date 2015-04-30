@@ -26,7 +26,7 @@ After update/cancel operation, the rest of the grid records will show up on the 
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="True">
 	      <Columns>

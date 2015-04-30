@@ -33,15 +33,15 @@ position: 0
 
 ## Common properties and events
 
-In addition to the export format's specific properties, the **ExportSettings** group exposes severalcommon properties:
+In addition to the export format's specific properties, the **ExportSettings** group exposes several common properties:
 
 * **ExportOnlyData**
 
-As the name says, this property is helpful when you want to export only the data - e.g. to exclude the controlsfrom the exported file.
+As the name says, this property is helpful when you want to export only the data - e.g. to exclude the controls from the exported file.
 
 * **IgnorePaging**
 
-When you enable *IgnorePaging*, *RadGrid* will rebind before exportin order to fetch all the data from your datasource.
+When you enable *IgnorePaging*, *RadGrid* will rebind before export in order to fetch all the data from your datasource.
 
 * **OpenInNewWindow**
 
@@ -53,7 +53,7 @@ By default, the exported file will be handled by the program associated with the
 
 * **FileName**
 
-This is helpful when you want to give a predefined name for your file. Please note that the file name can't be longerthan 256 symbols.
+This is helpful when you want to give a predefined name for your file. Please note that the file name can't be longer than 256 symbols.
 
 **Unicode** names are not supported out-of-the-box for **Internet Explorer 6** and **7**. Of course you can manually encode the file name and it will be shownproperly in the "**Save**" dialog (**OpenInNewWindow**="**true**").
 
@@ -68,12 +68,12 @@ This is helpful when you want to give a predefined name for your file. Please no
 Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn*as well as the first *GridGroupSplitterColumn*. Note that this property will affect only the firstlevel in hierarchical *RadGrids*.
 
 ````ASPNET
-	<ExportSettings
-	   HideStructureColumns="true"
-	   ExportOnlyData="true"
-	   IgnorePaging="true"
-	   OpenInNewWindow="true">
-	</ExportSettings>
+<ExportSettings
+   HideStructureColumns="true"
+   ExportOnlyData="true"
+   IgnorePaging="true"
+   OpenInNewWindow="true">
+</ExportSettings>
 ````
 
 
@@ -85,7 +85,7 @@ Removes the structure columns - *GridRowIndicatorColumn*, *GridExpandColumn*as w
 
 * **SuppressColumnDataFormatStrings**
 
-This property will help avoid exporting already formatted values whichwould cause Microsoft Excel to treat them as string values.Enabling this functionality will result in rebinding the controlbefore exporting. Note that even if both *IgnorePaging* and*SuppressColumnDataFormatStrings* are enabled, RadGrid will rebind only once.
+This property will help avoid exporting already formatted values which would cause Microsoft Excel to treat them as string values.Enabling this functionality will result in rebinding the control before exporting. Note that even if both *IgnorePaging* and*SuppressColumnDataFormatStrings* are enabled, RadGrid will rebind only once.
 
 * **UseItemStyles**
 
@@ -93,54 +93,54 @@ As the name says, this property gives you the ability to apply the item styles t
 
 ## OnGridExporting event
 
-This event is useable in many scenarios when you want to modify the output file - for example you may want to add some custominformation above *RadGrid* or when you want to remove/add/replace parts of the content.The only limitation applies to the *PDF* export because by the time the**OnGridExporting** event is raised, the *PDF* is already generated.For more information, please visit the dedicated **PDF format topic** which introduces the**OnPdfExporting** event that is designed specifically for this format.
+This event is useable in many scenarios when you want to modify the output file - for example you may want to add some custom information above *RadGrid* or when you want to remove/add/replace parts of the content.The only limitation applies to the *PDF* export because by the time the**OnGridExporting** event is raised, the *PDF* is already generated.For more information, please visit the dedicated **PDF format topic** which introduces the**OnPdfExporting** event that is designed specifically for this format.
 
 Below is the barebone logic for **OnGridExporting** event:
 
 
 
 ````C#
-	    protected void RadGrid1_GridExporting(object source, GridExportingArgs e)
-	    {
-	        switch (e.ExportType)
-	        {
-	            case ExportType.Excel:
-	                //do something with the e.ExportOutput value      
-	                break;
-	            case ExportType.ExcelML:
-	                //do something with the e.ExportOutput value     
-	                break;
-	            case ExportType.Word:
-	                //do something with the e.ExportOutput value       
-	                break;
-	            case ExportType.Csv:
-	                //do something with the e.ExportOutput value    
-	                break;
-	            case ExportType.Pdf:
-	                //you can't change the output here - use the PdfExporting event instead   
-	                break;
-	        }
-	    }
+protected void RadGrid1_GridExporting(object source, GridExportingArgs e)
+{
+    switch (e.ExportType)
+    {
+        case ExportType.Excel:
+            //do something with the e.ExportOutput value      
+            break;
+        case ExportType.ExcelML:
+            //do something with the e.ExportOutput value     
+            break;
+        case ExportType.Word:
+            //do something with the e.ExportOutput value       
+            break;
+        case ExportType.Csv:
+            //do something with the e.ExportOutput value    
+            break;
+        case ExportType.Pdf:
+            //you can't change the output here - use the PdfExporting event instead   
+            break;
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_GridExporting(ByVal source As Object, ByVal e As GridExportingArgs)
-	        Select Case e.ExportType
-	            Case ExportType.Excel
-	                'do something with the e.ExportOutput value   
-	                Exit Select
-	            Case ExportType.ExcelML
-	                'do something with the e.ExportOutput value
-	                Exit Select
-	            Case ExportType.Word
-	                'do something with the e.ExportOutput value  
-	                Exit Select
-	            Case ExportType.Csv
-	                'do something with the e.ExportOutput value 
-	                Exit Select
-	            Case ExportType.Pdf
-	                'you can't change the output here - use the PdfExporting event instead   
-	        End Select
-	    End Sub
+Protected Sub RadGrid1_GridExporting(ByVal source As Object, ByVal e As GridExportingArgs)
+    Select Case e.ExportType
+        Case ExportType.Excel
+            'do something with the e.ExportOutput value   
+            Exit Select
+        Case ExportType.ExcelML
+            'do something with the e.ExportOutput value
+            Exit Select
+        Case ExportType.Word
+            'do something with the e.ExportOutput value  
+            Exit Select
+        Case ExportType.Csv
+            'do something with the e.ExportOutput value 
+            Exit Select
+        Case ExportType.Pdf
+            'you can't change the output here - use the PdfExporting event instead   
+    End Select
+End Sub
 ````
 
 
@@ -165,21 +165,21 @@ When you have custom paging enabled for your grid, you need to set the *PageSize
 
 
 ````C#
-	    protected void Button1_Click(object sender, EventArgs e)
-	    {
-	        RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount;
-	        RadGrid1.ExportSettings.IgnorePaging = true;
-	        RadGrid1.ExportSettings.OpenInNewWindow = true;
-	        RadGrid1.MasterTableView.ExportToExcel();
-	    }
+protected void Button1_Click(object sender, EventArgs e)
+{
+    RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount;
+    RadGrid1.ExportSettings.IgnorePaging = true;
+    RadGrid1.ExportSettings.OpenInNewWindow = true;
+    RadGrid1.MasterTableView.ExportToExcel();
+}
 ````
 ````VB.NET
-	    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
-	        RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount
-	        RadGrid1.ExportSettings.IgnorePaging = True
-	        RadGrid1.ExportSettings.OpenInNewWindow = True
-	        RadGrid1.MasterTableView.ExportToExcel()
-	    End Sub
+Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
+    RadGrid1.PageSize = RadGrid1.MasterTableView.VirtualItemCount
+    RadGrid1.ExportSettings.IgnorePaging = True
+    RadGrid1.ExportSettings.OpenInNewWindow = True
+    RadGrid1.MasterTableView.ExportToExcel()
+End Sub
 ````
 
 
@@ -228,12 +228,12 @@ In order to prevent this error add the following lines just before the exporting
 
 
 ````C#
-	        RadGrid1.Page.Response.ClearHeaders();
-	        RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
+RadGrid1.Page.Response.ClearHeaders();
+RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.Private);
 ````
 ````VB.NET
-	        RadGrid1.Page.Response.ClearHeaders()
-	        RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
+RadGrid1.Page.Response.ClearHeaders()
+RadGrid1.Page.Response.Cache.SetCacheability(HttpCacheability.[Private])
 ````
 
 

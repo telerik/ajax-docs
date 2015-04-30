@@ -18,7 +18,7 @@ When you place several grid instances on the same page with keyboard navigation 
 
 The forthcoming code implementation demonstrates the approach in a real-life scenario:
 
-````ASPNET
+````ASP.NET
 	  <script type="text/javascript">    var activeGrid; function ActiveRowChanging(sender, eventArgs) {
 	      if (sender.get_id().indexOf(activeGrid) == -1) {
 	        eventArgs.set_cancel(true);

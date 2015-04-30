@@ -22,7 +22,7 @@ Method which returns the UniqueName of the column by given **header row** elemen
 
 * **index** - Cell index (**integer**))
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function cellSelected(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

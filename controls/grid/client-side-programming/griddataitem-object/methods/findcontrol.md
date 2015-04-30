@@ -23,7 +23,7 @@ This method takes control id for an argument and returns the corresponding clien
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <MasterTableView> 
 	            <Columns> 

@@ -30,7 +30,7 @@ This event is fired before detail table creation.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnTableCreating="TableCreating" />

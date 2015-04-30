@@ -20,7 +20,7 @@ There are scenarios in which you may want to include additional button right aft
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView EditMode="InPlace">
 	      <Columns>

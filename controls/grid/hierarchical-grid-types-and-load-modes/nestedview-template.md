@@ -14,7 +14,8 @@ position: 8
 
 ## 
 
-This feature of RadGrid gives you the freedom to design the overall structure and appearance of detail tables in hierarchical grid. Thus based on your custom preferences you have the ability model the look and feel of the child table container in order to display the detail info in non table-dependant format. The functionality is especially useful when you would like to present the related content providing separate view for each detail item or tabs for navigation between the entries.![grid hierarchy nestedviewtemplate](images/grid_hierarchy_nestedviewtemplate.jpg)
+This feature of RadGrid gives you the freedom to design the overall structure and appearance of detail tables in hierarchical grid. Thus based on your custom preferences you have the ability model the look and feel of the child table container in order to display the detail info in non table-dependant format. The functionality is especially useful when you would like to present the related content providing separate view for each detail item or tabs for navigation between the entries.
+![grid hierarchy nestedviewtemplate](images/grid_hierarchy_nestedviewtemplate.jpg)
 
 The detail table template should be specified between the NestedViewTemplate tags of its parent GridTableView. The template will appear when you expand the respective parent item. In addition, the nested view template can be data bound to a single record from a data source object by setting the NestedViewSettings.DataSourceID property of the give table view and defining a relation to the parent level through the NestedViewSettings.ParentTableRelation property of the same table view. Here is the overall structure of hierarchical grid with detail templates:
 

@@ -20,7 +20,7 @@ The task can be fulfilled by setting *HorizontalAlign = Right* for each table in
 
 Below is an example configured for the* Vista* grid skin:
 
-````ASPNET
+````ASP.NET
 	<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Skin="Vista"
 	    Width="470px" AutoGenerateColumns="False" PageSize="3" AllowSorting="True" AllowMultiRowSelection="False"
 	    AllowPaging="True" GridLines="Both">

@@ -47,79 +47,79 @@ Suppose you want to remove a filtering option from the menu of a column while le
 
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
-	    DataSourceID="SqlDataSource1" OnInit="RadGrid1_Init" OnItemCommand="RadGrid1_ItemCommand">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="CustomerID" FilterListOptions="VaryByDataTypeAllowCustom"
-	          HeaderText="ID" UniqueName="CustomerID">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="CompanyName" FilterListOptions="VaryByDataType"
-	          HeaderText="Company" UniqueName="CompanyName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn DataField="ContactName" FilterListOptions="VaryByDataType"
-	          HeaderText="Contact" UniqueName="ContactName">
-	        </telerik:GridBoundColumn>
-	      </Columns>
-	    </MasterTableView>
-	 </telerik:RadGrid>
-	 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT * FROM [Customers]" >
-	 </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+   DataSourceID="SqlDataSource1" OnInit="RadGrid1_Init" OnItemCommand="RadGrid1_ItemCommand">
+   <MasterTableView>
+     <Columns>
+       <telerik:GridBoundColumn DataField="CustomerID" FilterListOptions="VaryByDataTypeAllowCustom"
+         HeaderText="ID" UniqueName="CustomerID">
+       </telerik:GridBoundColumn>
+       <telerik:GridBoundColumn DataField="CompanyName" FilterListOptions="VaryByDataType"
+         HeaderText="Company" UniqueName="CompanyName">
+       </telerik:GridBoundColumn>
+       <telerik:GridBoundColumn DataField="ContactName" FilterListOptions="VaryByDataType"
+         HeaderText="Contact" UniqueName="ContactName">
+       </telerik:GridBoundColumn>
+     </Columns>
+   </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+       SelectCommand="SELECT * FROM [Customers]" >
+</asp:SqlDataSource>
 ````
 ````C#
-	    protected void RadGrid1_Init(object sender, EventArgs e)
-	    {
-	        GridFilterMenu menu = RadGrid1.FilterMenu;
-	        // Iterate through the items backwards 
-	        // so that the indexing is not thrown off 
-	        // when items are removed! 
-	        for (int i = menu.Items.Count - 1; i >= 0; i--)
-	        {
-	            if (menu.Items[i].Text == "Between")
-	            {
-	                menu.Items.RemoveAt(i);
-	            }
-	            else if (menu.Items[i].Text == "Custom")
-	                menu.Items[i].Text = "Between";
-	        }
-	    }
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.FilterCommandName)
-	        {
-	            Pair filterPair = (Pair)e.CommandArgument;
-	            if (filterPair.First.ToString() == "Custom")
-	            {
-	                filterPair.First = "Between";
-	            }
-	        }
-	    }
+protected void RadGrid1_Init(object sender, EventArgs e)
+{
+    GridFilterMenu menu = RadGrid1.FilterMenu;
+    // Iterate through the items backwards 
+    // so that the indexing is not thrown off 
+    // when items are removed! 
+    for (int i = menu.Items.Count - 1; i >= 0; i--)
+    {
+        if (menu.Items[i].Text == "Between")
+        {
+            menu.Items.RemoveAt(i);
+        }
+        else if (menu.Items[i].Text == "Custom")
+            menu.Items[i].Text = "Between";
+    }
+}
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.FilterCommandName)
+    {
+        Pair filterPair = (Pair)e.CommandArgument;
+        if (filterPair.First.ToString() == "Custom")
+        {
+            filterPair.First = "Between";
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_Init(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.Init
-	        Dim menu As GridFilterMenu = RadGrid1.FilterMenu
-	        ' Iterate through the items backwards
-	        ' so that the indexing is not thrown off
-	        ' when items are removed!
-	        Dim i As Integer = menu.Items.Count - 1
-	        While i >= 0
-	            If menu.Items(i).Text = "Between" Then
-	                menu.Items.RemoveAt(i)
-	            ElseIf menu.Items(i).Text = "Custom" Then
-	                menu.Items(i).Text = "Between"
-	            End If
-	            System.Math.Max(System.Threading.Interlocked.Decrement(i), i + 1)
-	        End While
-	    End Sub
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.FilterCommandName Then
-	            Dim filterPair As Pair = CType(e.CommandArgument, Pair)
-	            If filterPair.First.ToString() = "Custom" Then
-	                filterPair.First = "Between"
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadGrid1_Init(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.Init
+    Dim menu As GridFilterMenu = RadGrid1.FilterMenu
+    ' Iterate through the items backwards
+    ' so that the indexing is not thrown off
+    ' when items are removed!
+    Dim i As Integer = menu.Items.Count - 1
+    While i >= 0
+        If menu.Items(i).Text = "Between" Then
+            menu.Items.RemoveAt(i)
+        ElseIf menu.Items(i).Text = "Custom" Then
+            menu.Items(i).Text = "Between"
+        End If
+        System.Math.Max(System.Threading.Interlocked.Decrement(i), i + 1)
+    End While
+End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.FilterCommandName Then
+        Dim filterPair As Pair = CType(e.CommandArgument, Pair)
+        If filterPair.First.ToString() = "Custom" Then
+            filterPair.First = "Between"
+        End If
+    End If
+End Sub
 ````
 
 
@@ -130,55 +130,55 @@ For this example, you can use the same ASPX file and **Init** handler as the las
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.FilterCommandName)
-	        {
-	            Pair filterPair = (Pair)e.CommandArgument;
-	            if (filterPair.First.ToString() == "Custom")
-	            {
-	                string colName = filterPair.Second.ToString();
-	                TextBox tbPattern = (e.Item as GridFilteringItem)[colName].Controls[0] as TextBox;
-	                string[] values = tbPattern.Text.Split(' ');
-	                if (values.Length == 2)
-	                {
-	                    e.Canceled = true;
-	                    string newFilter = "(([" + filterPair.Second + "] >='" + values[0] + "') AND ([" + filterPair.Second + "] <='" + values[1] + "'))";
-	                    if (RadGrid1.MasterTableView.FilterExpression == "")
-	                    {
-	                        RadGrid1.MasterTableView.FilterExpression = newFilter;
-	                    }
-	                    else
-	                    {
-	                        RadGrid1.MasterTableView.FilterExpression = "((" + RadGrid1.MasterTableView.FilterExpression + ") AND (" + newFilter + "))";
-	                    }
-	                    RadGrid1.Rebind();
-	                }
-	            }
-	        }
-	    }
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.FilterCommandName)
+    {
+        Pair filterPair = (Pair)e.CommandArgument;
+        if (filterPair.First.ToString() == "Custom")
+        {
+            string colName = filterPair.Second.ToString();
+            TextBox tbPattern = (e.Item as GridFilteringItem)[colName].Controls[0] as TextBox;
+            string[] values = tbPattern.Text.Split(' ');
+            if (values.Length == 2)
+            {
+                e.Canceled = true;
+                string newFilter = "(([" + filterPair.Second + "] >='" + values[0] + "') AND ([" + filterPair.Second + "] <='" + values[1] + "'))";
+                if (RadGrid1.MasterTableView.FilterExpression == "")
+                {
+                    RadGrid1.MasterTableView.FilterExpression = newFilter;
+                }
+                else
+                {
+                    RadGrid1.MasterTableView.FilterExpression = "((" + RadGrid1.MasterTableView.FilterExpression + ") AND (" + newFilter + "))";
+                }
+                RadGrid1.Rebind();
+            }
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.FilterCommandName Then
-	            Dim filterPair As Pair = CType(e.CommandArgument, Pair)
-	            If filterPair.First.ToString() = "Custom" Then
-	                Dim colName As String = filterPair.Second.ToString()
-	                Dim tbPattern As TextBox = CType((CType(e.Item, GridFilteringItem))(colName).Controls(0), TextBox)
-	                Dim values As String() = tbPattern.Text.Split(" "c)
-	                If values.Length = 2 Then
-	                    e.Canceled = True
-	                    Dim newFilter As String = "(([" + filterPair.Second + "] >='" + values(0) + "') AND ([" + filterPair.Second + "] <='" + values(1) + "'))"
-	                    If RadGrid1.MasterTableView.FilterExpression = "" Then
-	                        RadGrid1.MasterTableView.FilterExpression = newFilter
-	                    Else
-	                        RadGrid1.MasterTableView.FilterExpression = "((" + RadGrid1.MasterTableView.FilterExpression + ") AND (" + newFilter + "))"
-	                    End If
-	                    RadGrid1.Rebind()
-	                End If
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.FilterCommandName Then
+        Dim filterPair As Pair = CType(e.CommandArgument, Pair)
+        If filterPair.First.ToString() = "Custom" Then
+            Dim colName As String = filterPair.Second.ToString()
+            Dim tbPattern As TextBox = CType((CType(e.Item, GridFilteringItem))(colName).Controls(0), TextBox)
+            Dim values As String() = tbPattern.Text.Split(" "c)
+            If values.Length = 2 Then
+                e.Canceled = True
+                Dim newFilter As String = "(([" + filterPair.Second + "] >='" + values(0) + "') AND ([" + filterPair.Second + "] <='" + values(1) + "'))"
+                If RadGrid1.MasterTableView.FilterExpression = "" Then
+                    RadGrid1.MasterTableView.FilterExpression = newFilter
+                Else
+                    RadGrid1.MasterTableView.FilterExpression = "((" + RadGrid1.MasterTableView.FilterExpression + ") AND (" + newFilter + "))"
+                End If
+                RadGrid1.Rebind()
+            End If
+        End If
+    End If
+End Sub
 ````
 
 

@@ -75,7 +75,8 @@ To enable virtual scrolling for browsing large record sets,
 
 ## Fetching additional records when the scroll bar reaches its endpoint
 
-Another approach is to trigger an AJAX request to increase the page size when the user drags the scroll bar to the bottom. This is attained with a few lines of javascript and server-side code. Additional data is supplied as long as the rendered rows are less than the entire source record count:![Virtual scrolling](images/GoogleStyleScroll.PNG)
+Another approach is to trigger an AJAX request to increase the page size when the user drags the scroll bar to the bottom. This is attained with a few lines of javascript and server-side code. Additional data is supplied as long as the rendered rows are less than the entire source record count:
+![Virtual scrolling](images/GoogleStyleScroll.PNG)
 
 The following steps describe how to achieve this effect:
 

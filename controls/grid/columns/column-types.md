@@ -174,17 +174,20 @@ In addition, you can add a generic button column and specify what command it per
 
 In addition to specifying the command a button performs, you can specify the type of button the column displays. The available buttons types are: **PushButton**, **LinkButton** and **ImageButton**. **Image 1** shows a grid with each of these types of button columns:
 
-**Image 1**: **GridButtonColumn** with different types of buttons![](images/grd_ButtonTypes.png)
+**Image 1**: **GridButtonColumn** with different types of buttons
+![](images/grd_ButtonTypes.png)
 
 ## GridEditCommandColumn
 
 Initially, the **GridEditCommandColumn** displays only an Edit button as shown in **Image 2**.
 
-**Image 2**: Edit link displayed in **GridEditCommandColumn**![Edit Column](images/grd_EditColumn_1.png)
+**Image 2**: Edit link displayed in **GridEditCommandColumn**
+![Edit Column](images/grd_EditColumn_1.png)
 
 When the user presses the Edit button, if the table view is configured for in-line editing, the Update and Cancel buttons appear in place of the Edit button and the cells on the row become editable.
 
-**Image 3**: **RadGrid** row in edit mode![Edit Column](images/grd_EditColumn_2.png)
+**Image 3**: **RadGrid** row in edit mode
+![Edit Column](images/grd_EditColumn_2.png)
 
 >note The previous images showed an Edit command column that uses a link button. Like the **GridButtonColumn** , the **GridEditCommandColumn** can also use an image button or a push button.
 >
@@ -297,13 +300,15 @@ The following example shows the declaration of a **GridCheckBoxColumn**:
 
 If the grid's **AllowMultiRowSelection** property is **True**, a check box is displayed in the column header as well as the rows of the grid. When the user clicks the check box in the header, the check box in every row of the current page of the grid changes to match the checked state of the check box in the header (and the row is selected or deselected, accordingly):
 
-**Image 4**: **RadGrid** rows selected with **GridClientSelectColumn**![](images/grd_GridClientSelectColumn.png)
+**Image 4**: **RadGrid** rows selected with **GridClientSelectColumn**
+![](images/grd_GridClientSelectColumn.png)
 
 ## GridDragDropColumn
 
 When [Items Drag-and-Drop](http://www.telerik.com/help/aspnet-ajax/drag-drop-grid-items.html) is enabled in **RadGrid**, defining a **GridDragDropColumn** in the **Columns** collectionof the respective **GridTableView** will make the data items inside draggable only when grabbed by the drag handle inside the column cells.
 
-**Image 5**: Dragging a row using **GridDragDropColumn**![](images/grd_dragdropcolumn.png)
+**Image 5**: Dragging a row using **GridDragDropColumn**
+![](images/grd_dragdropcolumn.png)
 
 ## GridDropDownColumn
 
@@ -433,7 +438,8 @@ The following table lists the operators you can use in the expression of a calcu
 
 **GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid**[ Smart Tag]({%slug grid/design-time-/smarttag%}).
 
-**Image 5**: Set templates for **GridTemplateColumn** using Smart Tag![grid columntypes edittemplates](images/grid_columntypes_edittemplates.jpg)
+**Image 5**: Set templates for **GridTemplateColumn** using Smart Tag
+![grid columntypes edittemplates](images/grid_columntypes_edittemplates.jpg)
 
 >note You can also create the template columns programmatically and bind the controls in the code-behind.
 >
@@ -455,7 +461,8 @@ The **Edit Templates** command opens the template editor, where you can set the 
 
 * **FooterTemplate** - A template for the column footer.
 
-**Image 6**: Template editor for **GridTemplateColumn**![Template Column](images/grd_TemplateColumn.png)
+**Image 6**: Template editor for **GridTemplateColumn**
+![Template Column](images/grd_TemplateColumn.png)
 
 See [Getting Started]({%slug grid/getting-started/getting-started-with-radgrid-for-asp.net-ajax%}) for a tutorial that includes creating and binding a template column.
 
@@ -640,13 +647,15 @@ The columns that are created automatically to facilitate some functionality are 
 
 This column appears when [row resizing]({%slug grid/rows/resizing-rows%}) is enabled. It provides an easy location for users to click in order to resize the respective row. This column always appears immediately before the first data column. The figure below shows how you could click to drag the row’s height to be taller or shorter.
 
-**Image 7**: Using **GridRowIndicatorColumn** to change the height of a row in **RadGrid**![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
+**Image 7**: Using **GridRowIndicatorColumn** to change the height of a row in **RadGrid**
+![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
 
 ## GridGroupSplitterColumn
 
 The **GridGroupSplitterColumn** appears when [grouping]({%slug grid/functionality/grouping/overview%}) is enabled. It contains controls that allow users to expand and collapse groups of rows. This column always appears first.
 
-**Image 8**: **GridGroupSplitterColumn** example![GridGroupSplitterColumn](images/grd_GroupSplitterColumn.png)
+**Image 8**: **GridGroupSplitterColumn** example
+![GridGroupSplitterColumn](images/grd_GroupSplitterColumn.png)
 
 ## GridExpandColumn
 
@@ -654,4 +663,5 @@ The **GridExpandColumn** appears when the grid has a hierarchical structure. It 
 
 You can also manually add other instances of this type of column (the last column in the first **DetailTable** in the image below):
 
-**Image 9**: Automatically and manually added instances of **GridExpandColumn**![GridExpandColumn](images/grd_GridExpandColumn.png)
+**Image 9**: Automatically and manually added instances of **GridExpandColumn**
+![GridExpandColumn](images/grd_GridExpandColumn.png)

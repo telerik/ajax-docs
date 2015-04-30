@@ -30,7 +30,7 @@ This event is fired when a column object is destroyed.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnColumnDestroying="ColumnDestroying" />

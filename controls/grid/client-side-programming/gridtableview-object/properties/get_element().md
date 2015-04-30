@@ -16,7 +16,7 @@ position: 8
 
 Returns HTML table which represents the respective table for the **GridTableView** object rendered on the client. Can be used in cases when the DOM element of the object is required.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID" CommandItemDisplay="Top">

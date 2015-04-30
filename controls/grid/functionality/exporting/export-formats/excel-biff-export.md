@@ -26,9 +26,9 @@ From Q3 2012 we provide a new export format which is based on the binary Excel f
 
 
 ````ASPNET
-	        <ExportSettings ExportOnlyData="true" OpenInNewWindow="true" HideStructureColumns="true">
-	            <Excel Format="Biff" />
-	        </ExportSettings>
+<ExportSettings ExportOnlyData="true" OpenInNewWindow="true" HideStructureColumns="true">
+    <Excel Format="Biff" />
+</ExportSettings>
 ````
 
 
@@ -40,7 +40,7 @@ From Q3 2012 we provide a new export format which is based on the binary Excel f
 Example 1:
 
 ````ASPNET
-	                <telerik:GridBoundColumn DataType="System.DateTime" DataField="DateField" DataFormatString="{0:tt dd-MM(yyyy) }" />
+<telerik:GridBoundColumn DataType="System.DateTime" DataField="DateField" DataFormatString="{0:tt dd-MM(yyyy) }" />
 ````
 
 
@@ -48,7 +48,7 @@ Example 1:
 Example 2:
 
 ````ASPNET
-	                <telerik:GridBoundColumn DataType="System.Double" DataField="DoubleField" DataFormatString="{0:C2}" />
+<telerik:GridBoundColumn DataType="System.Double" DataField="DoubleField" DataFormatString="{0:C2}" />
 ````
 
 
@@ -60,20 +60,20 @@ Hiding rows and columns is pretty straightforward. Actually you can hide these e
 
 
 ````C#
-	            RadGrid1.MasterTableView.Items[1].Visible = false; //when IgnorePaging is false
+RadGrid1.MasterTableView.Items[1].Visible = false; //when IgnorePaging is false
 ````
 ````VB.NET
-	            RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
+RadGrid1.MasterTableView.Items(1).Visible = False 'when IgnorePaging is false
 ````
 
 
 
 
 ````C#
-	            RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
+RadGrid1.MasterTableView.GetColumn("Col1").Visible = false;
 ````
 ````VB.NET
-	            RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
+RadGrid1.MasterTableView.GetColumn("Col1").Visible = False
 ````
 
 
@@ -88,56 +88,56 @@ There are two different ways to style these elements. The standard ASP.NET and t
 
 
 ````C#
-	        xls.Column col = e.ExportStructure.Tables[0].Columns[2];
-	        col.Style.BackColor = Color.Gray;
-	        col.Style.ForeColor = Color.Yellow;
+xls.Column col = e.ExportStructure.Tables[0].Columns[2];
+col.Style.BackColor = Color.Gray;
+col.Style.ForeColor = Color.Yellow;
 ````
 ````VB.NET
-	        Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
-	        col.Style.BackColor = Color.Gray
-	        col.Style.ForeColor = Color.Yellow
+Dim col As xls.Column = e.ExportStructure.Tables(0).Columns(2)
+col.Style.BackColor = Color.Gray
+col.Style.ForeColor = Color.Yellow
 ````
 
 
 
 
 ````C#
-	        xls.Row row = e.ExportStructure.Tables[0].Rows[2];
-	        row.Style.BackColor = Color.Blue;
+xls.Row row = e.ExportStructure.Tables[0].Rows[2];
+row.Style.BackColor = Color.Blue;
 ````
 ````VB.NET
-	        Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
-	        row.Style.BackColor = Color.Blue
+Dim row As xls.Row = e.ExportStructure.Tables(0).Rows(2)
+row.Style.BackColor = Color.Blue
 ````
 
 
 
 
 ````C#
-	        xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
-	        cell1.Style.BackColor = Color.Yellow;
+xls.Cell cell1 = e.ExportStructure.Tables[0].Cells["B2"];
+cell1.Style.BackColor = Color.Yellow;
 ````
 ````VB.NET
-	        Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
-	        cell1.Style.BackColor = Color.Yellow
+Dim cell1 As xls.Cell = e.ExportStructure.Tables(0).Cells("B2")
+cell1.Style.BackColor = Color.Yellow
 ````
 
 
 
 
 ````C#
-	        xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
-	        cell2.Style.ForeColor = Color.Tomato;
+xls.Cell cell2 = e.ExportStructure.Tables[0].Cells[3, 3];
+cell2.Style.ForeColor = Color.Tomato;
 ````
 ````VB.NET
-	        Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
-	        cell2.Style.ForeColor = Color.Tomato
+Dim cell2 As xls.Cell = e.ExportStructure.Tables(0).Cells(3, 3)
+cell2.Style.ForeColor = Color.Tomato
 ````
 
 
 ## Image Support
 
-From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called **AutoFitImages**.As the name says, when **AutoFitImages** property is enabled all the images in the grid will occupy the entire area of thecells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly thesmaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
+From Q3 2012 we provide image support when using BIFF Export. For this purpose there is a property called **AutoFitImages**.As the name says, when **AutoFitImages** property is enabled all the images in the grid will occupy the entire area of the cells at the exported excel file. In other words, any images that are bigger than the cell will be decreased and similarly the smaller ones size will be increased. Please have in mind that the width/height proportions will not be kept.
 
 ## Modifying the Output
 
@@ -146,16 +146,16 @@ This is the most interesting and flexible functionality the new export brings to
 
 
 ````C#
-	        //Adding new worksheet
-	        xls.Table newSheet = new xls.Table("NEW SHEET");
-	        e.ExportStructure.Tables.Add(newSheet);
-	        newSheet.Cells[1, 1].Value = "NEW CELL";
+//Adding new worksheet
+xls.Table newSheet = new xls.Table("NEW SHEET");
+e.ExportStructure.Tables.Add(newSheet);
+newSheet.Cells[1, 1].Value = "NEW CELL";
 ````
 ````VB.NET
-	        'Adding new worksheet
-	        Dim newSheet As New xls.Table("NEW SHEET")
-	        e.ExportStructure.Tables.Add(newSheet)
-	        newSheet.Cells(1, 1).Value = "NEW CELL"
+'Adding new worksheet
+Dim newSheet As New xls.Table("NEW SHEET")
+e.ExportStructure.Tables.Add(newSheet)
+newSheet.Cells(1, 1).Value = "NEW CELL"
 ````
 
 

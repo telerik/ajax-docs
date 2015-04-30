@@ -16,7 +16,7 @@ position: 28
 
 This method allows you to hide а grid's column. The method accept one parameter which is the index of the table column that will be hidden.
 
-````ASPNET
+````ASP.NET
 	         <script type="text/javascript">
 	             function gridCreated(sender, args) {
 	                 sender.get_masterTableView().hideColumn(0);

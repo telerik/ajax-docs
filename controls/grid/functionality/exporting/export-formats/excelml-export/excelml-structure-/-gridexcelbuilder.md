@@ -14,7 +14,8 @@ position: 1
 
 ## Overview
 
-**GridExcelBuilder**is a namespace that unifies the classes, methods and properties used by **RadGrid**to build an **ExcelML**file. The following table shows the structure of the namespace in a hierarchical view.![grid excelml scheme](images/grid_excelml_scheme.jpg)
+**GridExcelBuilder**is a namespace that unifies the classes, methods and properties used by **RadGrid**to build an **ExcelML**file. The following table shows the structure of the namespace in a hierarchical view.
+![grid excelml scheme](images/grid_excelml_scheme.jpg)
 
 The **WorkBook** element is not directly accessible when using the built-in export however it can (and should ) be used when using the **GridExcelBuilder** to export manually.
 
@@ -55,11 +56,11 @@ The **WorkBook** element is not directly accessible when using the built-in expo
 
 
 ````C#
-	    protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelMLRowCreatedArgs e)
-	    {
-	        CellElement cell = e.Row.Cells.GetCellByName("ContactName");
-	        cell.HRef = String.Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString());
-	    }
+protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelMLRowCreatedArgs e)
+{
+    CellElement cell = e.Row.Cells.GetCellByName("ContactName");
+    cell.HRef = String.Format("http://www.google.com/search?hl=en&amp;q={0}&amp;btnG=Google+Search", cell.Data.DataItem.ToString());
+}
 ````
 ````VB.NET
 	    Protected Sub RadGrid1_ExcelMLExportRowCreated(sender As Object, e As GridExportExcelMLRowCreatedArgs)

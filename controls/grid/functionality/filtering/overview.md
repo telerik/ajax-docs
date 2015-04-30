@@ -14,7 +14,8 @@ position: 0
 
 **RadGrid** natively supports filtering of table columns for its master and detail tables. To enable or disable filtering, set the **AllowFilteringByColumn** property of the **RadGrid** or **GridTableView** control.
 
-When filtering is enabled, a [filtering item]({%slug grid/functionality/filtering/filtering-item%}) (**GridFilteringItem**) appears below the column header. The user can enter a filter criterion in the filter box. A drop-down list allows the user to select a filter expression that is applied to the criterion for the column. When the user presses the filter button (next to the filter box), the grid displays only the records matching the filter criteria specified using the filter boxes:![Filtering](images/grd_Filtering.png)
+When filtering is enabled, a [filtering item]({%slug grid/functionality/filtering/filtering-item%}) (**GridFilteringItem**) appears below the column header. The user can enter a filter criterion in the filter box. A drop-down list allows the user to select a filter expression that is applied to the criterion for the column. When the user presses the filter button (next to the filter box), the grid displays only the records matching the filter criteria specified using the filter boxes:
+![Filtering](images/grd_Filtering.png)
 
 All filters in a single table are applied using AND operator. That is, only items (grid rows) that comply with all filters are displayed.
 
@@ -133,8 +134,8 @@ If you set **AutoPostBackOnFilter** property of a column to **True**, the user d
 When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation of **Contains** for string types or **EqualTo** for numeric types.You can change this to another filter function by setting the **CurrentFilterFunction** property. For example:
 
 ````ASPNET
-	  <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
-	    UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true" />
+<telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName"
+  UniqueName="ProductName" CurrentFilterFunction="StartsWith" AutoPostBackOnFilter="true" />
 ````
 
 
@@ -142,9 +143,9 @@ When **AutoPostBackOnFilter** is **True**, the column assumes a filter operation
 Another option is to set **FilterDelay** property for grid column that can be filtered. Thus filtering operations will be executed after the delay specified through that property elapses. For example:
 
 ````ASPNET
-	  <telerik:GridNumericColumn DataField="OrderID" HeaderText="OrderID" SortExpression="OrderID"
-	    UniqueName="OrderID" FilterControlWidth="40px" AutoPostBackOnFilter="false" CurrentFilterFunction="EqualTo"
-	    FilterDelay="4000" ShowFilterIcon="false" />
+<telerik:GridNumericColumn DataField="OrderID" HeaderText="OrderID" SortExpression="OrderID"
+  UniqueName="OrderID" FilterControlWidth="40px" AutoPostBackOnFilter="false" CurrentFilterFunction="EqualTo"
+  FilterDelay="4000" ShowFilterIcon="false" />
 ````
 
 
@@ -158,7 +159,7 @@ Another option is to set **FilterDelay** property for grid column that can be fi
 In some cases when the **RadGrid** uses absolute positioning, you may find the filtering pop-up hidden behind the grid. You can easily fix the problem by setting the Z-index of the corresponding element in the ASPX to 0:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
+<telerik:RadGrid ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
 ````
 
 

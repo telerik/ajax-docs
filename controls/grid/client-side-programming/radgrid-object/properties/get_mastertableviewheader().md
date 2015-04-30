@@ -36,7 +36,7 @@ Example:
 >
 
 
-````ASPNET
+````ASP.NET
 	        <clientsettings>
 	                <Scrolling AllowScroll="true" UseStaticHeaders="true" />
 	        </clientsettings>

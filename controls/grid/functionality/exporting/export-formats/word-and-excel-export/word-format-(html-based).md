@@ -51,21 +51,19 @@ Example:
 
 
 ````C#
-	    protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
-	    {
-	        e.XmlOptions = @"<xml>
-	                            <w:WordDocument>
-	                                <w:HideSpellingErrors/>
-	                                <w:View>Print</w:View>
-	                            </w:WordDocument>
-	                         </xml>";
-	    }
+protected void RadGrid1_HTMLExporting(object sender, GridHTMLExportingEventArgs e)
+{
+    e.XmlOptions = @"<xml>
+                        <w:WordDocument>
+                            <w:HideSpellingErrors/>
+                            <w:View>Print</w:View>
+                        </w:WordDocument>
+                     </xml>";
+}
 ````
-````VB.NET
-	
-	    Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
-	        e.XmlOptions = "<xml><w:WordDocument><w:HideSpellingErrors/><w:View>Print</w:View></w:WordDocument></xml>"
-	    End Sub
-	
+````VB.NET	
+Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEventArgs)
+    e.XmlOptions = "<xml><w:WordDocument><w:HideSpellingErrors/><w:View>Print</w:View></w:WordDocument></xml>"
+End Sub	
 ````
 

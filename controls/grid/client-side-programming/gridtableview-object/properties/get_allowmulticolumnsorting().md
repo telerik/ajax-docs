@@ -16,7 +16,7 @@ position: 0
 
 Returns a Boolean value indicating whether multi-column sorting is enabled for the grid instance. Can be used to create some condition for executing different script logic depending on whether the property is enabled or not.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource" AllowSorting="true">
 	            <MasterTableView DataKeyNames="OrderID" AllowMultiColumnSorting="true">

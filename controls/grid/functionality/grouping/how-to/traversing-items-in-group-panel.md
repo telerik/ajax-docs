@@ -20,38 +20,36 @@ The following example illustrates how this is done. It changes the **ImageUrl** 
 
 
 
-````C#
-	
-	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        foreach (TableCell cell in RadGrid1.GroupPanel.GroupPanelItems)
-	        {
-	            foreach (Control ctrl in cell.Controls)
-	            {
-	                if (ctrl is ImageButton)
-	                {
-	                    ImageButton button = ctrl as ImageButton;
-	                    button.ImageUrl = "<my_img_url>";
-	                    button.CausesValidation = false;
-	                }
-	            }
-	        }
-	    }
-	
+````C#	
+protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    foreach (TableCell cell in RadGrid1.GroupPanel.GroupPanelItems)
+    {
+        foreach (Control ctrl in cell.Controls)
+        {
+            if (ctrl is ImageButton)
+            {
+                ImageButton button = ctrl as ImageButton;
+                button.ImageUrl = "<my_img_url>";
+                button.CausesValidation = false;
+            }
+        }
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
-	        Dim cell As TableCell
-	        For Each cell In RadGrid1.GroupPanel.GroupPanelItems
-	            Dim ctrl As Control
-	            For Each ctrl In cell.Controls
-	                If (TypeOf ctrl Is ImageButton) Then
-	                    Dim button As ImageButton = CType(ctrl, ImageButton)
-	                    button.ImageUrl = "<my_img_url>"
-	                    button.CausesValidation = False
-	                End If
-	            Next ctrl
-	        Next cell
-	    End Sub
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
+    Dim cell As TableCell
+    For Each cell In RadGrid1.GroupPanel.GroupPanelItems
+        Dim ctrl As Control
+        For Each ctrl In cell.Controls
+            If (TypeOf ctrl Is ImageButton) Then
+                Dim button As ImageButton = CType(ctrl, ImageButton)
+                button.ImageUrl = "<my_img_url>"
+                button.CausesValidation = False
+            End If
+        Next ctrl
+    Next cell
+End Sub
 ````
 

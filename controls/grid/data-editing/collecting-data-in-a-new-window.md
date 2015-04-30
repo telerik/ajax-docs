@@ -28,7 +28,7 @@ There are various cases in which you may want to get the content of the cells in
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
 	    <SelectedItemStyle BackColor="Aqua" />
 	    <MasterTableView AutoGenerateColumns="True">
@@ -77,7 +77,7 @@ There are various cases in which you may want to get the content of the cells in
 
 
 
-````ASPNET
+````ASP.NET
 	  <div>
 	    <b>Company name:</b>
 	    <br />

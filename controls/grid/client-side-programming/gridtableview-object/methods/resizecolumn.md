@@ -16,7 +16,7 @@ position: 35
 
 This method allows you to resize a column of the **RadGrid**. The method accepts two arguments - the first argument is the indexof the table column, while the second one determines the new width of the column. Additionally you have to enable the **AllowColumnResize**property. Generally used when there is a need to set a width of a column on the client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

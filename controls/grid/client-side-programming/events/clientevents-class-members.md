@@ -18,7 +18,7 @@ There are two ways to attach handler to a client-side event of RadGrid:
 
 * attach command string to event
 
-````ASPNET
+````ASP.NET
 	    <ClientEvents OnGridCreating="alert('Creating RadGrid')">
 ````
 

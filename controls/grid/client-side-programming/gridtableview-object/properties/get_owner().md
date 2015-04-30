@@ -16,7 +16,7 @@ position: 13
 
 Returns the parent of type **Telerik.Web.UI.RadGrid** of the current object. Can be used to identify the owner grid object of the table view.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">

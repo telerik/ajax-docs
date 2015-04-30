@@ -16,7 +16,7 @@ position: 7
 
 Property which retrieves the GridDataItem objects of the current table view that are in edit mode. Can be used to traversethe edit items in order to access the inner controls.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	            GridLines="None" Width="1200px" OnNeedDataSource="RadGrid1_NeedDataSource"
 	            AutoGenerateEditColumn="true" AllowMultiRowEdit="true">

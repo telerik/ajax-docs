@@ -30,7 +30,7 @@ This event is fired when the mouse leaves a row.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowMouseOut="RowMouseOut" />

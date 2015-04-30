@@ -16,7 +16,7 @@ position: 5
 
 Returns a String, representing the ClientID for the element. Can be used as an identificatorto save some of the records in a preserving collection.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <ClientSettings>

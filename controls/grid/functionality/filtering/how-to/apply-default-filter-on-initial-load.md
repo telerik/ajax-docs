@@ -23,27 +23,27 @@ You can set the initial filter for a **RadGrid** control so that when the Web pa
 The following example shows a grid that sets an initial filter so that when the Web page first appears, the only items that are displayed are from Germany:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
-	    DataSourceID="SqlDataSource1">
-	       <MasterTableView FilterExpression="([Country] LIKE '%Germany%')">
-	          <Columns>
-	            <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="CustomerID"
-	                HeaderText="ID" UniqueName="CustomerID">
-	            </telerik:GridBoundColumn>
-	            <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="CompanyName"
-	                HeaderText="Company" UniqueName="CompanyName">
-	            </telerik:GridBoundColumn>
-	            <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="ContactName"
-	                HeaderText="Contact" UniqueName="ContactName">
-	            </telerik:GridBoundColumn>
-	            <telerik:GridBoundColumn CurrentFilterFunction="Contains" CurrentFilterValue="Germany"
-	                DataField="Country" HeaderText="Country" UniqueName="Country">
-	            </telerik:GridBoundColumn>
-	         </Columns>
-	       </MasterTableView>
-	    </telerik:RadGrid>
-	    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	        SelectCommand="SELECT * FROM [Customers]" />
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+DataSourceID="SqlDataSource1">
+   <MasterTableView FilterExpression="([Country] LIKE '%Germany%')">
+      <Columns>
+        <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="CustomerID"
+            HeaderText="ID" UniqueName="CustomerID">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="CompanyName"
+            HeaderText="Company" UniqueName="CompanyName">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn CurrentFilterFunction="NoFilter" DataField="ContactName"
+            HeaderText="Contact" UniqueName="ContactName">
+        </telerik:GridBoundColumn>
+        <telerik:GridBoundColumn CurrentFilterFunction="Contains" CurrentFilterValue="Germany"
+            DataField="Country" HeaderText="Country" UniqueName="Country">
+        </telerik:GridBoundColumn>
+     </Columns>
+   </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT * FROM [Customers]" />
 ````
 
 
@@ -59,31 +59,28 @@ You can use the grid's **PreRender** event to specify an initial filter. Note th
 
 
 ````C#
-	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        if (!Page.IsPostBack)
-	        {
-	            RadGrid1.MasterTableView.FilterExpression = "([Country] LIKE \'%Germany%\') ";
-	            GridColumn column = RadGrid1.MasterTableView.GetColumnSafe("Country");
-	            column.CurrentFilterFunction = GridKnownFunction.Contains;
-	            column.CurrentFilterValue = "Germany";
-	            RadGrid1.MasterTableView.Rebind();
-	        }
-	    }
+protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    if (!Page.IsPostBack)
+    {
+        RadGrid1.MasterTableView.FilterExpression = "([Country] LIKE \'%Germany%\') ";
+        GridColumn column = RadGrid1.MasterTableView.GetColumnSafe("Country");
+        column.CurrentFilterFunction = GridKnownFunction.Contains;
+        column.CurrentFilterValue = "Germany";
+        RadGrid1.MasterTableView.Rebind();
+    }
+}
 ````
-````VB.NET
-	
-	
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
-	        If (Not Page.IsPostBack) Then
-	            RadGrid1.MasterTableView.FilterExpression = "([Country] LIKE '%Germany%') "
-	            Dim column As GridColumn = RadGrid1.MasterTableView.GetColumnSafe("Country")
-	            column.CurrentFilterFunction = GridKnownFunction.Contains
-	            column.CurrentFilterValue = "Germany"
-	            RadGrid1.MasterTableView.Rebind()
-	        End If
-	    End Sub
-	
+````VB.NET	
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
+    If (Not Page.IsPostBack) Then
+        RadGrid1.MasterTableView.FilterExpression = "([Country] LIKE '%Germany%') "
+        Dim column As GridColumn = RadGrid1.MasterTableView.GetColumnSafe("Country")
+        column.CurrentFilterFunction = GridKnownFunction.Contains
+        column.CurrentFilterValue = "Germany"
+        RadGrid1.MasterTableView.Rebind()
+    End If
+End Sub
 ````
 
 
@@ -100,15 +97,16 @@ You can use the grid's **PreRender** event to specify an initial filter. Note th
 When the grid contains a **GridCheckBoxColumn**, the syntax for the **FilterExpression** is slightly different, as shown in the following example:
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
-	    OnNeedDataSource="RadGrid1_NeedDataSource">
-	    <MasterTableView FilterExpression="([chkBoxColumnDataField] = True)">
-	      <Columns>
-	        <telerik:GridCheckBoxColumn UniqueName="BoolField" HeaderText="CheckBox Column" DataField="BoolField"
-	          AllowSorting="true" CurrentFilterFunction="EqualTo" CurrentFilterValue="True">
-	        </telerik:GridCheckBoxColumn>
-	      </Columns>
-	    </MasterTableView></telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowFilteringByColumn="True" AutoGenerateColumns="False"
+  OnNeedDataSource="RadGrid1_NeedDataSource">
+  <MasterTableView FilterExpression="([chkBoxColumnDataField] = True)">
+    <Columns>
+      <telerik:GridCheckBoxColumn UniqueName="BoolField" HeaderText="CheckBox Column" DataField="BoolField"
+        AllowSorting="true" CurrentFilterFunction="EqualTo" CurrentFilterValue="True">
+      </telerik:GridCheckBoxColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

@@ -19,7 +19,7 @@ You can specify whether a table view in the grid handles grouping on the client 
 * **Server-side grouping**: To enable grouping on the server, set the **GroupLoadMode** property of a table view to "Server". (this is the default behavior). When grouping is handled on the server, the grid performs a postback to the server every time a group is expanded.
 
 ````ASPNET
-	  <MasterTableView GroupLoadMode="Server" />
+<MasterTableView GroupLoadMode="Server" />
 ````
 
 
@@ -27,8 +27,8 @@ You can specify whether a table view in the grid handles grouping on the client 
 * **Client-side grouping**: To enable grouping on the client, set the **GroupLoadMode** property of a table view to "Client" and the **ClientSettings.AllowGroupExpandCollapse** property to **True**. When grouping is handled on the client, groups are expanded client-side, without a postback. This means that the data for all groups, whether they are expanded or not, must be loaded on the client.
 
 ````ASPNET
-	  <MasterTableView GroupLoadMode="Client" />
-	  <ClientSettings AllowGroupExpandCollapse="True" />
+<MasterTableView GroupLoadMode="Client" />
+<ClientSettings AllowGroupExpandCollapse="True" />
 ````
 
 

@@ -28,7 +28,7 @@ The following code snippets illustrate how to change the columns in a dynamicall
 
 
 
-````ASPNET
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
 <br />
 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">

@@ -31,22 +31,22 @@ You can set default sort expression for the **MasterTableView** or a detail **Gr
 * **SortOrder** is the direction of the sort. It can be "Ascending" or "Descending":
 
 ````ASPNET
-	  <MasterTableView>
-	        ...
-	      <SortExpressions>
-	            <telerik:GridSortExpression FieldName="CompanyName" SortOrder="Ascending" />
-	      </SortExpressions>
-	      ...
-	      <DetailTables>
-	          <GridTableView>
-	              ...
-	              <SortExpressions>
-	                  <telerik:GridSortExpression FieldName="OrderDate" SortOrder="Descending" />
-	              </SortExpressions>
-	             ...
-	          </GridTableView>
-	 </DetailTables>
-	</MasterTableView>
+<MasterTableView>
+      ...
+    <SortExpressions>
+          <telerik:GridSortExpression FieldName="CompanyName" SortOrder="Ascending" />
+    </SortExpressions>
+    ...
+    <DetailTables>
+        <GridTableView>
+            ...
+            <SortExpressions>
+                <telerik:GridSortExpression FieldName="OrderDate" SortOrder="Descending" />
+            </SortExpressions>
+           ...
+        </GridTableView>
+    </DetailTables>
+</MasterTableView>
 ````
 
 
@@ -60,18 +60,18 @@ You can manipulate the grid sort programmatically by creating instances of the *
 
 
 ````C#
-	        GridSortExpression expression = new GridSortExpression();
-	        expression.FieldName = "CompanyName";
-	        expression.SortOrder = GridSortOrder.Descending;
-	        RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression);
-	        RadGrid1.MasterTableView.Rebind();
+GridSortExpression expression = new GridSortExpression();
+expression.FieldName = "CompanyName";
+expression.SortOrder = GridSortOrder.Descending;
+RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression);
+RadGrid1.MasterTableView.Rebind();
 ````
 ````VB.NET
-	    Dim expression As GridSortExpression = New GridSortExpression()
-	    expression.FieldName = "CompanyName"
-	    expression.SortOrder = GridSortOrder.Descending
-	    RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression)
-	    RadGrid1.MasterTableView.Rebind()
+Dim expression As GridSortExpression = New GridSortExpression()
+expression.FieldName = "CompanyName"
+expression.SortOrder = GridSortOrder.Descending
+RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression)
+RadGrid1.MasterTableView.Rebind()
 ````
 
 

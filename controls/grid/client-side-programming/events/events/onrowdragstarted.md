@@ -30,7 +30,7 @@ This event can be intercepted if you want to perform some conditional check and 
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowDragStarted="RowDragStarted" />

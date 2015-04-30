@@ -39,119 +39,118 @@ A common request is to use letters instead of numbers in the grid pager and filt
 
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True" PageSize="5"
-	      runat="server" GridLines="None" Width="100%" OnItemCreated="RadGrid1_ItemCreated"
-	      OnItemCommand="RadGrid1_ItemCommand">
-	      <PagerStyle Mode="NextPrevAndNumeric" AlwaysVisible="true" />
-	      <ItemStyle HorizontalAlign="Center" />
-	      <HeaderStyle HorizontalAlign="Center" />
-	      <AlternatingItemStyle HorizontalAlign="Center" />
-	  </telerik:RadGrid>
-	
-	  <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	      ProviderName="System.Data.SqlClient" runat="server" SelectCommand="SELECT [ContactName], [ContactTitle], [CompanyName] FROM [Customers] WHERE [ContactName] LIKE @PageLetter">
-	      <SelectParameters>
-	          <asp:Parameter Name="PageLetter" DefaultValue="%" />
-	      </SelectParameters>
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True" PageSize="5"
+    runat="server" GridLines="None" Width="100%" OnItemCreated="RadGrid1_ItemCreated"
+    OnItemCommand="RadGrid1_ItemCommand">
+    <PagerStyle Mode="NextPrevAndNumeric" AlwaysVisible="true" />
+    <ItemStyle HorizontalAlign="Center" />
+    <HeaderStyle HorizontalAlign="Center" />
+    <AlternatingItemStyle HorizontalAlign="Center" />
+</telerik:RadGrid>
+
+<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    ProviderName="System.Data.SqlClient" runat="server" SelectCommand="SELECT [ContactName], [ContactTitle], [CompanyName] FROM [Customers] WHERE [ContactName] LIKE @PageLetter">
+    <SelectParameters>
+        <asp:Parameter Name="PageLetter" DefaultValue="%" />
+    </SelectParameters>
+</asp:SqlDataSource>
 ````
 ````C#
-	    public void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            GridPagerItem pagerItem = (e.Item as GridPagerItem);
-	            pagerItem.PagerContentCell.Controls.Clear();
-	
-	            for (int i = 65; i <= 65 + 25; i++)
-	            {
-	                LinkButton linkButton1 = new LinkButton();
-	                LiteralControl lc = new LiteralControl("&nbsp;&nbsp;");
-	
-	                linkButton1.Text = "" + (char)i;
-	
-	                linkButton1.CommandName = "alpha";
-	                linkButton1.CommandArgument = "" + (char)i;
-	
-	                pagerItem.PagerContentCell.Controls.Add(linkButton1);
-	                pagerItem.PagerContentCell.Controls.Add(lc);
-	            }
-	
-	            LiteralControl lcLast = new LiteralControl("&nbsp;");
-	            pagerItem.PagerContentCell.Controls.Add(lcLast);
-	
-	            LinkButton linkButtonAll = new LinkButton();
-	            linkButtonAll.Text = "All";
-	            linkButtonAll.CommandName = "NoFilter";
-	            pagerItem.PagerContentCell.Controls.Add(linkButtonAll);
-	        }
-	    }
-	
-	    public void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        String value = null;
-	        switch (e.CommandName)
-	        {
-	            case ("alpha"):
-	                {
-	                    value = string.Format("{0}%", e.CommandArgument);
-	                    break;
-	                }
-	            case ("NoFilter"):
-	                {
-	                    value = "%";
-	                    break;
-	                }
-	        }
-	
-	        SqlDataSource1.SelectParameters["PageLetter"].DefaultValue = value;
-	        RadGrid1.Rebind();
-	    }
-	
+public void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        GridPagerItem pagerItem = (e.Item as GridPagerItem);
+        pagerItem.PagerContentCell.Controls.Clear();
+
+        for (int i = 65; i <= 65 + 25; i++)
+        {
+            LinkButton linkButton1 = new LinkButton();
+            LiteralControl lc = new LiteralControl("&nbsp;&nbsp;");
+
+            linkButton1.Text = "" + (char)i;
+
+            linkButton1.CommandName = "alpha";
+            linkButton1.CommandArgument = "" + (char)i;
+
+            pagerItem.PagerContentCell.Controls.Add(linkButton1);
+            pagerItem.PagerContentCell.Controls.Add(lc);
+        }
+
+        LiteralControl lcLast = new LiteralControl("&nbsp;");
+        pagerItem.PagerContentCell.Controls.Add(lcLast);
+
+        LinkButton linkButtonAll = new LinkButton();
+        linkButtonAll.Text = "All";
+        linkButtonAll.CommandName = "NoFilter";
+        pagerItem.PagerContentCell.Controls.Add(linkButtonAll);
+    }
+}
+
+public void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    String value = null;
+    switch (e.CommandName)
+    {
+        case ("alpha"):
+            {
+                value = string.Format("{0}%", e.CommandArgument);
+                break;
+            }
+        case ("NoFilter"):
+            {
+                value = "%";
+                break;
+            }
+    }
+
+    SqlDataSource1.SelectParameters["PageLetter"].DefaultValue = value;
+    RadGrid1.Rebind();
+}
+
 ````
 ````VB.NET
-	
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim pagerItem As GridPagerItem = CType(e.Item, GridPagerItem)
-	            pagerItem.PagerContentCell.Controls.Clear()
-	
-	            Dim i As Integer
-	            For i = 65 To 65 + 25
-	                Dim linkButton1 As New LinkButton
-	                Dim lc As New LiteralControl("&nbsp;&nbsp;")
-	                linkButton1.Text = "" + ChrW(i)
-	
-	                linkButton1.CommandName = "alpha"
-	                linkButton1.CommandArgument = "" + ChrW(i)
-	
-	                pagerItem.PagerContentCell.Controls.Add(linkButton1)
-	                pagerItem.PagerContentCell.Controls.Add(lc)
-	            Next i
-	
-	            Dim lcLast As New LiteralControl("&nbsp;")
-	            pagerItem.PagerContentCell.Controls.Add(lcLast)
-	
-	            Dim linkButtonAll As New LinkButton
-	            linkButtonAll.Text = "All"
-	            linkButtonAll.CommandName = "NoFilter"
-	            pagerItem.PagerContentCell.Controls.Add(linkButtonAll)
-	        End If
-	    End Sub
-	
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
-	        Dim value As String = Nothing
-	        Select Case e.CommandName
-	            Case ("alpha")
-	                value = String.Format("{0}%", e.CommandArgument)
-	                Exit Select
-	            Case ("NoFilter")
-	                value = "%"
-	                Exit Select
-	        End Select
-	
-	        SqlDataSource1.SelectParameters("PageLetter").DefaultValue = value
-	        RadGrid1.Rebind()
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
+    If TypeOf e.Item Is GridPagerItem Then
+        Dim pagerItem As GridPagerItem = CType(e.Item, GridPagerItem)
+        pagerItem.PagerContentCell.Controls.Clear()
+
+        Dim i As Integer
+        For i = 65 To 65 + 25
+            Dim linkButton1 As New LinkButton
+            Dim lc As New LiteralControl("&nbsp;&nbsp;")
+            linkButton1.Text = "" + ChrW(i)
+
+            linkButton1.CommandName = "alpha"
+            linkButton1.CommandArgument = "" + ChrW(i)
+
+            pagerItem.PagerContentCell.Controls.Add(linkButton1)
+            pagerItem.PagerContentCell.Controls.Add(lc)
+        Next i
+
+        Dim lcLast As New LiteralControl("&nbsp;")
+        pagerItem.PagerContentCell.Controls.Add(lcLast)
+
+        Dim linkButtonAll As New LinkButton
+        linkButtonAll.Text = "All"
+        linkButtonAll.CommandName = "NoFilter"
+        pagerItem.PagerContentCell.Controls.Add(linkButtonAll)
+    End If
+End Sub
+
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
+    Dim value As String = Nothing
+    Select Case e.CommandName
+        Case ("alpha")
+            value = String.Format("{0}%", e.CommandArgument)
+            Exit Select
+        Case ("NoFilter")
+            value = "%"
+            Exit Select
+    End Select
+
+    SqlDataSource1.SelectParameters("PageLetter").DefaultValue = value
+    RadGrid1.Rebind()
+End Sub
 ````
 

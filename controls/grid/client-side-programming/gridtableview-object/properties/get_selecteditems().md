@@ -16,7 +16,7 @@ position: 19
 
 A collection of all selected items (of type GridDataItem) for the respective GridTableView instance. Can be used to traverse the selected items and get corresponding values.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource" AllowMultiRowSelection="true">
 	            <ClientSettings>

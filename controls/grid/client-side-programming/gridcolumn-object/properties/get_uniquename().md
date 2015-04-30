@@ -16,7 +16,7 @@ position: 7
 
 Returns a String value representing the unique name of the column.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">

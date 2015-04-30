@@ -26,7 +26,7 @@ This event is fired after the cell is closed.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	         <telerik:radgrid id="RadGrid1" datasourceid="SqlDataSource1">
 	            <MasterTableView EditMode="Batch">
 	            </MasterTableView>

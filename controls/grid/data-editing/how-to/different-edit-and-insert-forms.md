@@ -24,7 +24,7 @@ Note that you can extend the example to switch the visibility for multiple colum
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server" Width="400px">
 	    <MasterTableView CommandItemDisplay="TopAndBottom" AutoGenerateColumns="false" EditMode="EditForms">
 	      <Columns>

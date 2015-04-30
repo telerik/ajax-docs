@@ -20,7 +20,7 @@ In the example below we assume that the **Bool** column in the grid data source 
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="False">
 	      <Columns>

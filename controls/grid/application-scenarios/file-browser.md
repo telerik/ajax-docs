@@ -26,7 +26,8 @@ The [following example](http://demos.telerik.com/aspnet-ajax/Controls/Examples/I
 
 * RadAjax Manager - manages the Ajax requests
 
-This is a typical example for "File browser" type of application for web.![](images/grdFileExplorer_thumb.PNG)
+This is a typical example for "File browser" type of application for web.
+![](images/grdFileExplorer_thumb.PNG)
 
 
 

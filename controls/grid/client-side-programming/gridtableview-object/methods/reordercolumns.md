@@ -16,7 +16,7 @@ position: 34
 
 This method allows you to reorder the columns with the specified UniqueName. The method accept two arguments - the first one is the "from" unique nameof the table column and the second argument is the "to" unique name of the table column. Note that you have to enable the**AllowColumnsReorder** and **ReorderColumnsOnClient** properties and set **ColumnsReorderMethod** property to *Reorder* in order to be able to reorder the columns. Generally used when there is a need to reorder columns on the client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

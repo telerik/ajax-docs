@@ -16,7 +16,7 @@ position: 17
 
 If called from a nested GridTableView returns the parent item for the current nested hierarchical GridTableView. Returns null if called from the MasterTableView.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="3"
 	            OnNeedDataSource="RadGrid1_NeedDataSource" OnDetailTableDataBind="RadGrid1_DetailTableDataBind">
 	            <ClientSettings>

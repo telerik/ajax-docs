@@ -62,7 +62,7 @@ The forthcoming sample implementation is made for hierarchical grid with two lev
 
 
 
-````ASPNET
+````ASP.NET
 	  <asp:LinkButton ID="btnReferenceColumns" runat="server" Text="Operate with columns" /><br />
 	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
 	    <MasterTableView DataKeyNames="CustomerID" Width="100%" CommandItemDisplay="Top">

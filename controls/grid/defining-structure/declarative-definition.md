@@ -18,7 +18,7 @@ When defining **RadGrid** declaratively, the structure of the objects in the ASP
 
 The following example shows the declaration of a three-tier hierarchical grid:
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="AccessDataSource1">
   <MasterTableView DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
     <DetailTables>

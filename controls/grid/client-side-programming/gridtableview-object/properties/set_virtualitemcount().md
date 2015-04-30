@@ -16,7 +16,7 @@ position: 21
 
 This property allows you to set the virtual item count value for the respective **GridTableView** object. Applies to client-side bound grid only. Generally used when need to set the virtual item count on the client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function dataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

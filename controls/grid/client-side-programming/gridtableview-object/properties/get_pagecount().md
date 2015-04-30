@@ -16,7 +16,7 @@ position: 14
 
 Returns the page count for the respective **GridTableView** object. Can be used to create some condition for executing different script logic depending on how many pages the user sees.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">

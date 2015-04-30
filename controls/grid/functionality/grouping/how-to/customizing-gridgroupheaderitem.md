@@ -27,43 +27,43 @@ The following example illustrates how you can customize the formatting of the gr
 
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
-	    <MasterTableView DataSourceID="SqlDataSource1">
-	      <GroupByExpressions>
-	        <telerik:GridGroupByExpression>
-	          <SelectFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Price" />
-	            <telerik:GridGroupByField FieldName="UnitsInStock" FieldAlias="InStock" Aggregate="Sum" />
-	          </SelectFields>
-	          <GroupByFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" SortOrder="Descending" />
-	          </GroupByFields>
-	        </telerik:GridGroupByExpression>
-	      </GroupByExpressions>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    SelectCommand="SELECT [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock] FROM [Products]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" OnItemDataBound="RadGrid1_ItemDataBound">
+  <MasterTableView DataSourceID="SqlDataSource1">
+    <GroupByExpressions>
+      <telerik:GridGroupByExpression>
+        <SelectFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Price" />
+          <telerik:GridGroupByField FieldName="UnitsInStock" FieldAlias="InStock" Aggregate="Sum" />
+        </SelectFields>
+        <GroupByFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" SortOrder="Descending" />
+        </GroupByFields>
+      </telerik:GridGroupByExpression>
+    </GroupByExpressions>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  SelectCommand="SELECT [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock] FROM [Products]">
+</asp:SqlDataSource>
 ````
 ````C#
-	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridGroupHeaderItem)
-	        {
-	            GridGroupHeaderItem item = (GridGroupHeaderItem)e.Item;
-	            DataRowView groupDataRow = (DataRowView)e.Item.DataItem;
-	            item.DataCell.Text = "$" + groupDataRow["UnitPrice"].ToString() + " (" + groupDataRow["InStock"].ToString() + ")";
-	        }
-	    }
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridGroupHeaderItem)
+    {
+        GridGroupHeaderItem item = (GridGroupHeaderItem)e.Item;
+        DataRowView groupDataRow = (DataRowView)e.Item.DataItem;
+        item.DataCell.Text = "$" + groupDataRow["UnitPrice"].ToString() + " (" + groupDataRow["InStock"].ToString() + ")";
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridGroupHeaderItem Then
-	            Dim item As GridGroupHeaderItem = CType(e.Item, GridGroupHeaderItem)
-	            Dim groupDataRow As DataRowView = CType(e.Item.DataItem, DataRowView)
-	            item.DataCell.Text = "$" + groupDataRow("UnitPrice").ToString() + " (" + groupDataRow("InStock").ToString() + ")"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
+    If TypeOf e.Item Is GridGroupHeaderItem Then
+        Dim item As GridGroupHeaderItem = CType(e.Item, GridGroupHeaderItem)
+        Dim groupDataRow As DataRowView = CType(e.Item.DataItem, DataRowView)
+        item.DataCell.Text = "$" + groupDataRow("UnitPrice").ToString() + " (" + groupDataRow("InStock").ToString() + ")"
+    End If
+End Sub
 ````
 

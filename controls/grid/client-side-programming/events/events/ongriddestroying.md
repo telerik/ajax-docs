@@ -30,7 +30,7 @@ This event is fired when RadGrid object is destroyed, i.e. on each *window.onunl
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnGridDestroying="GridDestroying" />

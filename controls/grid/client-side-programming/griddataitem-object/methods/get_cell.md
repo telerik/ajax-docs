@@ -23,7 +23,7 @@ This method takes a column UniqueName and returns the corresponding client table
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowDataBound="RadGrid1_RowDataBound" />

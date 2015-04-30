@@ -16,7 +16,7 @@ position: 3
 
 Returns a Boolean value indicating whether a column is reorderable in case column reordering is enabled on the server.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">

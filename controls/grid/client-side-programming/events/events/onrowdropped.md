@@ -30,7 +30,7 @@ This event can be handled if you would like to execute some extra code logic pri
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowDropped="RowDropped" />

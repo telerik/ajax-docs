@@ -30,7 +30,7 @@ This event is fired when table object is destroyed.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnTableDestroying="TableDestroying" />

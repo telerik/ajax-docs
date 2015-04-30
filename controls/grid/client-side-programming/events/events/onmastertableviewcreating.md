@@ -30,7 +30,7 @@ This event is fired before the MasterTableView is created.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnMasterTableViewCreating="MasterTableViewCreating" />

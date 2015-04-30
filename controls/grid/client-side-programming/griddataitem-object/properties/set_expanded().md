@@ -16,7 +16,7 @@ position: 4
 
 This property takes a Boolean value, indicating whether the element will be expanded or not. It has effect when the **HierarchyLoadMode** setting is set to **Client**.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	            GridLines="None" Width="800px" OnNeedDataSource="RadGrid1_NeedDataSource"
 	            OnDetailTableDataBind="RadGrid1_DetailTableDataBind">

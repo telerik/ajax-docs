@@ -32,4 +32,5 @@ On mobile devices the **scrolling** and **row drag-drop** features in the grid a
 
 * All touch points should have passed a certain threshold since their initial position in order to be successfully registered as swipe gesture.
 
-The image below demonstrates the grid control **scrolling** and **paging** mobile **gestures**.![Rad Grid Touch Gestures](images/RadGrid_TouchGestures.png)
+The image below demonstrates the grid control **scrolling** and **paging** mobile **gestures**.
+![Rad Grid Touch Gestures](images/RadGrid_TouchGestures.png)

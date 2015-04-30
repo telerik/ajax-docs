@@ -16,7 +16,7 @@ position: 43
 
 This property allows you to show a data row which has been previously hidden. The method accept a single argument which represents index of table rowthat will be shown. Basically used when you need to display a hidden row on the client.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

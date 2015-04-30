@@ -20,7 +20,8 @@ The [Combo in Grid](http://demos.telerik.com/aspnet-ajax/combobox/examples/funct
 
 * When you use Load On Demand or Automatic Load On Demand - you can add the previously selected Item by in the RadGrid OnItemDataBound event when in Edit Mode.
 
-When you delete the text initially displayed in the RadComboBox - Load-On-Demand will fire and will populate the control with Items.![](images/grdComboInGrid_thumb.png)
+When you delete the text initially displayed in the RadComboBox - Load-On-Demand will fire and will populate the control with Items.
+![](images/grdComboInGrid_thumb.png)
 
 Below are the code snippets from the demo referred above:
 

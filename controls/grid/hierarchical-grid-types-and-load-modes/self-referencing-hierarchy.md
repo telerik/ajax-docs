@@ -30,7 +30,9 @@ To build a self-referencing hierarchy,
 
 ## Example
 
-The following example shows a grid with a self-referencing hierarchy based on a single data table having root node with null value for parent id in the source.For example:![Self Hierarchy Table](images/grd_self_hierarchy_table.png)![Self Hierarchy Data](images/grd_self_hierarchy.png)
+The following example shows a grid with a self-referencing hierarchy based on a single data table having root node with null value for parent id in the source.For example:
+![Self Hierarchy Table](images/grd_self_hierarchy_table.png)
+![Self Hierarchy Data](images/grd_self_hierarchy.png)
 
 In the ASPX file, the grid declaration does not need to include any detail tables. The **MasterTableView** includes a **SelfHierarchySettings** section to describe the data relationships and a **DataKeyNames** property that lists the relevant fields:
 

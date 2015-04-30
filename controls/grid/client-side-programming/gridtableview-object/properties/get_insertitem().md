@@ -16,7 +16,7 @@ position: 9
 
 Property which retrieves the HTML element of the insert item opened inside the grid table view. Can be used to accessthe inner controls.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
 	            GridLines="None" Width="1200px" OnNeedDataSource="RadGrid1_NeedDataSource"
 	            AutoGenerateEditColumn="true" AllowMultiRowEdit="true">

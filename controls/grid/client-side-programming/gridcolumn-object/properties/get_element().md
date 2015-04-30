@@ -16,7 +16,7 @@ position: 1
 
 This property returns the **HTML TableHeaderCell element** - <th> for the current column object. Can be used to check the order of the column using **cellIndex**.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">

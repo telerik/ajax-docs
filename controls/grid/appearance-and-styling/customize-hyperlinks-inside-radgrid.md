@@ -26,7 +26,7 @@ There are two cases when you want to change the default color of links in **Grid
 >
 
 
-````ASPNET
+````ASP.NET
 	  <html>
 	  <head>
 	    <title>Customize hyperlinks in Telerik RadGrid</title>
@@ -78,7 +78,7 @@ There are two cases when you want to change the default color of links in **Grid
 
 * When RadGrid has Skin property set to an empty string("").
 
-````ASPNET
+````ASP.NET
 	  <html>
 	  <head>
 	    <title>Customize hyperlinks in Telerik RadGrid</title>

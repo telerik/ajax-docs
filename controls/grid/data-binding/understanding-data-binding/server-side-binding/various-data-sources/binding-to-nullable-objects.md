@@ -18,7 +18,7 @@ You can use a wide variety of custom objects as data sources for **RadGrid**. Th
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource">
   <MasterTableView AutoGenerateColumns="True" />
 </telerik:RadGrid>

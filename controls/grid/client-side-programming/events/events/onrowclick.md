@@ -30,7 +30,7 @@ This event is fired when a row is clicked.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowClick="RowClick" />

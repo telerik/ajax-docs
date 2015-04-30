@@ -26,7 +26,7 @@ This event should be handled when multiple controls which contain an input eleme
 
 Example:
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1">
 	            <MasterTableView EditMode="Batch">
 	            </MasterTableView>

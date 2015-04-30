@@ -38,7 +38,7 @@ Both the **SelectFields** and the **GroupByFields** collections are collections 
 
 * **FormatString** specifies a format string for formatting field values when they appear in the group header. This property is only used for fields in the **SelectFields** collection. Meaningful for items from the **SelectFields**collection only.
 
-* **SortOrder** specifies howgroup values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the **GroupByFields** collection. Meaningful for items from the **GroupByFields**collection only.
+* **SortOrder** specifies how group values are sorted. Its value can be "Ascending" or "Descending". This property is only used for fields in the **GroupByFields** collection. Meaningful for items from the **GroupByFields**collection only.
 
 >caution The default value of the **SortOrder** property is "Ascending". Setting it to "None" will not affect the order in which the group items are displayed.
 >
@@ -55,26 +55,26 @@ You can set the value of a table view's **GroupByExpressions** property declarat
 The following example shows the declaration of a grid with the **GroupByExpressions** property set to provide grouping in the **MasterTableView**. In this example, the ShowGroupPanel property is not set to **True**, so users cannot change the specified grouping.
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
-	    AllowPaging="True" PageSize="5" Skin="Outlook">
-	    <MasterTableView DataSourceID="gridSource">
-	      <GroupByExpressions>
-	        <telerik:GridGroupByExpression>
-	          <SelectFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Price" />
-	            <telerik:GridGroupByField FieldName="UnitsInStock" HeaderText="Units at this price"
-	              Aggregate="Sum" />
-	          </SelectFields>
-	          <GroupByFields>
-	            <telerik:GridGroupByField FieldName="UnitPrice" SortOrder="Descending" />
-	          </GroupByFields>
-	        </telerik:GridGroupByExpression>
-	      </GroupByExpressions>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	            SelectCommand="SELECT [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock] FROM [Products]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" GridLines="None"
+  AllowPaging="True" PageSize="5" Skin="Outlook">
+  <MasterTableView DataSourceID="gridSource">
+    <GroupByExpressions>
+      <telerik:GridGroupByExpression>
+        <SelectFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" HeaderText="Price" />
+          <telerik:GridGroupByField FieldName="UnitsInStock" HeaderText="Units at this price"
+            Aggregate="Sum" />
+        </SelectFields>
+        <GroupByFields>
+          <telerik:GridGroupByField FieldName="UnitPrice" SortOrder="Descending" />
+        </GroupByFields>
+      </telerik:GridGroupByExpression>
+    </GroupByExpressions>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+          SelectCommand="SELECT [ProductName], [QuantityPerUnit], [UnitPrice], [UnitsInStock] FROM [Products]">
+</asp:SqlDataSource>
 ````
 
 ![](images/grd_GroupByExpressions.png)
@@ -112,22 +112,22 @@ The following example illustrates this syntax:
 For this example, the resulting **GridGroupByExpression** object would be as follows:
 
 ````ASPNET
-	<telerik:GridGroupByExpression>
-	   <SelectFields>
-	     <telerik:GridGroupByField FieldName="Country" />
-	     <telerik:GridGroupByField FieldName="City" />
-	     <telerik:GridGroupByField
-	       FieldName="ContactName"
-	       FieldAlias="Items"
-	       Aggregate="Count" />
-	   </SelectFields>
-	   <GroupByFields>
-	      <telerik:GridGroupByField FieldName="Country" />
-	     <telerik:GridGroupByField
-	       FieldName="City"
-	       SortOrder="Descending" />
-	   </GroupByFields>
-	</telerik:GridGroupByExpression>
+<telerik:GridGroupByExpression>
+   <SelectFields>
+     <telerik:GridGroupByField FieldName="Country" />
+     <telerik:GridGroupByField FieldName="City" />
+     <telerik:GridGroupByField
+       FieldName="ContactName"
+       FieldAlias="Items"
+       Aggregate="Count" />
+   </SelectFields>
+   <GroupByFields>
+      <telerik:GridGroupByField FieldName="Country" />
+     <telerik:GridGroupByField
+       FieldName="City"
+       SortOrder="Descending" />
+   </GroupByFields>
+</telerik:GridGroupByExpression>
 ````
 
 
@@ -143,24 +143,24 @@ When you set the **GroupByExpression** property for a **GridTemplateColumn** ins
 The following example illustrates how this is done. It assigns an alias of "ID" in the **GroupByExpression** property of the first template column, and an alias of "Name" in the **GroupByExpression** property of the second template column.
 
 ````ASPNET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
-	    AllowPaging="true" ShowGroupPanel="true">
-	    <ClientSettings AllowDragToGroup="true" />
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridTemplateColumn HeaderText="ID" GroupByExpression="CustomerID ID Group By CustomerID">
-	          <ItemTemplate>
-	            <%# Eval("CustomerID") %>
-	          </ItemTemplate>
-	        </telerik:GridTemplateColumn>
-	        <telerik:GridTemplateColumn HeaderText="Name" GroupByExpression="CompanyName Name Group By CompanyName">
-	          <ItemTemplate>
-	            <%# Eval("CompanyName") %>
-	          </ItemTemplate>
-	        </telerik:GridTemplateColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AutoGenerateColumns="False"
+  AllowPaging="true" ShowGroupPanel="true">
+  <ClientSettings AllowDragToGroup="true" />
+  <MasterTableView>
+    <Columns>
+      <telerik:GridTemplateColumn HeaderText="ID" GroupByExpression="CustomerID ID Group By CustomerID">
+        <ItemTemplate>
+          <%# Eval("CustomerID") %>
+        </ItemTemplate>
+      </telerik:GridTemplateColumn>
+      <telerik:GridTemplateColumn HeaderText="Name" GroupByExpression="CompanyName Name Group By CompanyName">
+        <ItemTemplate>
+          <%# Eval("CompanyName") %>
+        </ItemTemplate>
+      </telerik:GridTemplateColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

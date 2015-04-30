@@ -16,7 +16,7 @@ position: 40
 
 This property allows you to show a column which has been previously hidden. The method accept a single argument which represents index of the tablecolumn that will be shown. Basically used when you need to display a hidden column on the client.
 
-````ASPNET
+````ASP.NET
 	       <script type="text/javascript">
 	           function onDataBound(sender, args) {
 	               var masterTableView = sender.get_masterTableView();

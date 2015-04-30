@@ -18,7 +18,7 @@ Property that returns a collection of **[GridDataItems]({%slug grid/client-side-
 
 Example:
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" OnNeedDataSource="RadGrid1_NeedDataSource" runat="server" >
 	            <MasterTableView AutoGenerateColumns="false">
 	                <Columns>

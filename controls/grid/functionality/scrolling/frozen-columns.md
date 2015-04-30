@@ -34,8 +34,5 @@ For a live example demonstrating the frozen columns feature, see [Frozen columns
 
 There are several limitations that you should have in mind. They are caused by the complexity and specifics of the frozen columns feature, which is implemented by means of hiding and showing columns, instead of actually scrolling them.
 
-* Resizing with frozen column is not supported.
-
-* Merged headers with frozen columns are not supported.
 
 * When frozen columns are used, tabbing between the textboxes in an inline edit form is not supported out-of-the-box, because the frozen columns will be scrolled together with the non-frozen. In selected scenarios, this functionality can be achieved if you subscribe to the textboxes' focus events and scroll a specific <div> with Javascript. This <div> has a client ID of "**..._Frozen**" where "..." is the RadGrid client ID. When doing this, you should take into account the current scroll position, and the width of the column that should be hidden/shown.

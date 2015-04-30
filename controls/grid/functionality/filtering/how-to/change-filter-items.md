@@ -31,29 +31,26 @@ The following example illustrates this technique to change the width of the text
 
 
 ````C#
-	
-	
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridFilteringItem)
-	        {
-	            GridFilteringItem filteringItem = e.Item as GridFilteringItem;
-	            //set dimensions for the filter textbox  
-	            TextBox box = filteringItem["ContactName"].Controls[0] as TextBox;
-	            box.Width = Unit.Pixel(30);
-	        }
-	    }
-	
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridFilteringItem)
+    {
+        GridFilteringItem filteringItem = e.Item as GridFilteringItem;
+        //set dimensions for the filter textbox  
+        TextBox box = filteringItem["ContactName"].Controls[0] as TextBox;
+        box.Width = Unit.Pixel(30);
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridFilteringItem Then
-	            Dim filteringItem As GridFilteringItem = CType(e.Item, GridFilteringItem)
-	            'set dimensions for the filter textbox   
-	            Dim box As TextBox = CType(filteringItem("ContactName").Controls(0), TextBox)
-	            box.Width = Unit.Pixel(30)
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridFilteringItem Then
+        Dim filteringItem As GridFilteringItem = CType(e.Item, GridFilteringItem)
+        'set dimensions for the filter textbox   
+        Dim box As TextBox = CType(filteringItem("ContactName").Controls(0), TextBox)
+        box.Width = Unit.Pixel(30)
+    End If
+End Sub
 ````
 
 

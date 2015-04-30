@@ -50,7 +50,8 @@ Depending on the edit operation, **RadGrid** uses a different mechanism for laun
 
 1. In the javascript function for rebinding the grid, generate an AJAX request using the **RadAjaxManager.ajaxRequest** method.
 
-1. In the Web page, intercept the manager's **AjaxRequest**event to handle the ajax request. In its handler, rebind the grid and move to the last page so that the inserted record is visible.![](images/grdWindowEditing_thumb.PNG)
+1. In the Web page, intercept the manager's **AjaxRequest**event to handle the ajax request. In its handler, rebind the grid and move to the last page so that the inserted record is visible.
+![](images/grdWindowEditing_thumb.PNG)
 
 ````JavaScript
 	

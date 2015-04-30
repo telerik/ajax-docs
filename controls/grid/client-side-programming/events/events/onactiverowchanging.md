@@ -30,7 +30,7 @@ This event is fired before the active row is changed.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnActiveRowChanging="ActiveRowChanging" />

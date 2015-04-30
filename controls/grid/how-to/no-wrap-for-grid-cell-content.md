@@ -18,7 +18,7 @@ This appearance customization is not supported out-of-the-box in the current ver
 
 For declarative columns the code be as below:
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="false">
 	      <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName"

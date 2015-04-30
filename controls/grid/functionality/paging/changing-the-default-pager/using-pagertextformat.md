@@ -53,7 +53,7 @@ No matter which pager you choose, the meaning of the different parameters is as 
 The following screen shots show how the pager looks for each of the different pager modes before and after **PagerTextFormat** is set:
 
 ````ASPNET
-	  <PagerStyle Mode="NextPrev" />
+<PagerStyle Mode="NextPrev" />
 ````
 
 
@@ -61,7 +61,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Next/Prev Pager Mode](images/RadGrid_PagerMode_NextPrev.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="NextPrev" PagerTextFormat="Navigate pages {4} Page {0} from {1}, rows {2} to {3} from {5}" />
+<PagerStyle Mode="NextPrev" PagerTextFormat="Navigate pages {4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
 
@@ -77,7 +77,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Next/Prev/Numeric Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumeric.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="NextPrevAndNumeric" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
+<PagerStyle Mode="NextPrevAndNumeric" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
 
@@ -85,7 +85,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Next/Prev/Numeric/Text Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumericPagerText.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="NextPrevNumericAndAdvanced" />
+<PagerStyle Mode="NextPrevNumericAndAdvanced" />
 ````
 
 
@@ -101,7 +101,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Next/Prev/Numeric/Advanced/Text Pager Mode](images/RadGrid_PagerMode_NextPrevAndNumericAndAdvanced_PagerText.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="Advanced" />
+<PagerStyle Mode="Advanced" />
 ````
 
 
@@ -109,7 +109,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Advanced Pager Mode](images/RadGrid_PagerMode_Advanced.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="Advanced" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
+<PagerStyle Mode="Advanced" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
 
@@ -117,8 +117,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Advance Pager Mode with Text](images/RadGrid_PagerMode_Advanced_PagerText.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="NumericPages" />
-	  .
+<PagerStyle Mode="NumericPages" />
 ````
 
 
@@ -126,7 +125,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Numeric Pages](images/RadGrid_PagerMode_NumericPages.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="NumericPages" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
+<PagerStyle Mode="NumericPages" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
 ````
 
 
@@ -134,7 +133,7 @@ The following screen shots show how the pager looks for each of the different pa
 ![Numeric Page/Text Pager Mode](images/RadGrid_PagerMode_NumericPages_PagerText.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="Slider" />
+<PagerStyle Mode="Slider" />
 ````
 
 
@@ -142,17 +141,17 @@ The following screen shots show how the pager looks for each of the different pa
 ![Slider Pager Mode](images/RadGrid_PagerMode_Slider.jpg)
 
 ````ASPNET
-	  <PagerStyle Mode="Slider" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
-	  ....
-	  <ClientSettings>
-	       <ClientMessages PagerTooltipFormatString="Slider pages {0} from {1}" />
-	  </ClientSettings>
+<PagerStyle Mode="Slider" PagerTextFormat="{4} Page {0} from {1}, rows {2} to {3} from {5}" />
+....
+<ClientSettings>
+     <ClientMessages PagerTooltipFormatString="Slider pages {0} from {1}" />
+</ClientSettings>
 ````
 
 
 
 ![Slider/Text Pager Mode](images/RadGrid_PagerMode_Slider_PagerText.jpg)
 
->note In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString**  ** property.
+>note In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString** property.
 >
 

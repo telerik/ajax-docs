@@ -30,7 +30,7 @@ This event is fired after a row available at client-side is created.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnRowCreated="RowCreated" />

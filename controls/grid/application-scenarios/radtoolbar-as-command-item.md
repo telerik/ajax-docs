@@ -14,7 +14,8 @@ position: 13
 
 ## 
 
-[This example](http://demos.telerik.com/aspnet-ajax/toolbar/examples/applicationscenarios/gridcommanditem/defaultcs.aspx?product=grid) demonstrates how to use **RadToolBar**as a custom **RadGrid**Command item container. The buttons in the toolbar have CommandName values set which are internally 'recognized' by the grid when its event bubbling mechanism is triggered (after pressing a button from the command item toolbar). Thus the respective command is executed without any extra coding.![](images/grdToolBarAsCommandItem_thumb.png)
+[This example](http://demos.telerik.com/aspnet-ajax/toolbar/examples/applicationscenarios/gridcommanditem/defaultcs.aspx?product=grid) demonstrates how to use **RadToolBar**as a custom **RadGrid**Command item container. The buttons in the toolbar have CommandName values set which are internally 'recognized' by the grid when its event bubbling mechanism is triggered (after pressing a button from the command item toolbar). Thus the respective command is executed without any extra coding.
+![](images/grdToolBarAsCommandItem_thumb.png)
 
 Below is a code extraction from the relevant online demo in the RadGrid:
 

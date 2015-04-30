@@ -28,7 +28,7 @@ The necessary steps to achieve this are listed below:
 
 This approach is demonstrated in the code samples below:
 
-````ASPNET
+````ASP.NET
 	<ClientSettings AllowKeyboardNavigation="true" ClientEvents-OnKeyPress="KeyPressed">
 	     <Selecting AllowRowSelect="true" />
 	</ClientSettings>

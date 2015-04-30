@@ -26,7 +26,7 @@ This event should be handled when multiple controls which contain an input eleme
 
 Example:
 
-````ASPNET
+````ASP.NET
 	        function BatchEditGetCellValue(sender, args) {
 	            var itemContainer = args.get_container(); 
 	            var cell = args.get_cell(); 

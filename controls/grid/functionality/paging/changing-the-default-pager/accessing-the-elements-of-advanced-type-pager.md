@@ -69,44 +69,44 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 
 ````ASPNET
-	<telerik:RadGrid
-	    ID="RadGrid1"
-	    runat="server"
-	    Width="95%"
-	    Skin="Vista"
-	    AllowSorting="True"
-	    DataSourceID="SqlDataSource1"
-	    AllowPaging="True" PageSize="5"
-	    OnItemCreated="RadGrid1_ItemCreated">
-	    <PagerStyle Mode="Advanced" />
-	    <MasterTableView Width="100%" DataSourceID="AccessDataSource1" />
-	</telerik:RadGrid>		
+<telerik:RadGrid
+    ID="RadGrid1"
+    runat="server"
+    Width="95%"
+    Skin="Vista"
+    AllowSorting="True"
+    DataSourceID="SqlDataSource1"
+    AllowPaging="True" PageSize="5"
+    OnItemCreated="RadGrid1_ItemCreated">
+    <PagerStyle Mode="Advanced" />
+    <MasterTableView Width="100%" DataSourceID="AccessDataSource1" />
+</telerik:RadGrid>		
 ````
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            RadNumericTextBox goToPageText = (RadNumericTextBox)e.Item.FindControl("GoToPageTextBox");
-	            goToPageText.Width = Unit.Pixel(80);
-	            goToPageText.ShowSpinButtons = true;
-	            goToPageText.Style.Add("color", "gray");
-	            Label changePageLabel = (Label)e.Item.FindControl("GoToPageLabel");
-	            changePageLabel.Visible = false;
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        RadNumericTextBox goToPageText = (RadNumericTextBox)e.Item.FindControl("GoToPageTextBox");
+        goToPageText.Width = Unit.Pixel(80);
+        goToPageText.ShowSpinButtons = true;
+        goToPageText.Style.Add("color", "gray");
+        Label changePageLabel = (Label)e.Item.FindControl("GoToPageLabel");
+        changePageLabel.Visible = false;
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim goToPageText As RadNumericTextBox = CType(e.Item.FindControl("GoToPageTextBox"), RadNumericTextBox)
-	            goToPageText.Width = Unit.Pixel(80)
-	            goToPageText.ShowSpinButtons = True
-	            goToPageText.Style.Add("color", "gray")
-	            Dim changePageLabel As Label = CType(e.Item.FindControl("GoToPageLabel"), Label)
-	            changePageLabel.Visible = False
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridPagerItem Then
+        Dim goToPageText As RadNumericTextBox = CType(e.Item.FindControl("GoToPageTextBox"), RadNumericTextBox)
+        goToPageText.Width = Unit.Pixel(80)
+        goToPageText.ShowSpinButtons = True
+        goToPageText.Style.Add("color", "gray")
+        Dim changePageLabel As Label = CType(e.Item.FindControl("GoToPageLabel"), Label)
+        changePageLabel.Visible = False
+    End If
+End Sub
 ````
 
 
@@ -119,24 +119,24 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 
 ````C#
-	    protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
-	    {
-	        if (e.Item is GridPagerItem)
-	        {
-	            GridPagerItem item = e.Item as GridPagerItem;
-	            Label pageOfLabel = e.Item.FindControl("PageOfLabel") as Label;
-	            pageOfLabel.Text = "OF " + item.Paging.PageCount.ToString();
-	        }
-	    }
+protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
+{
+    if (e.Item is GridPagerItem)
+    {
+        GridPagerItem item = e.Item as GridPagerItem;
+        Label pageOfLabel = e.Item.FindControl("PageOfLabel") as Label;
+        pageOfLabel.Text = "OF " + item.Paging.PageCount.ToString();
+    }
+}
 ````
 ````VB.NET
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	        If TypeOf e.Item Is GridPagerItem Then
-	            Dim item As GridPagerItem = TryCast(e.Item, GridPagerItem)
-	            Dim pageOfLabel As Label = TryCast(e.Item.FindControl("PageOfLabel"), Label)
-	            pageOfLabel.Text = "OF " + item.Paging.PageCount.ToString
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
+    If TypeOf e.Item Is GridPagerItem Then
+        Dim item As GridPagerItem = TryCast(e.Item, GridPagerItem)
+        Dim pageOfLabel As Label = TryCast(e.Item.FindControl("PageOfLabel"), Label)
+        pageOfLabel.Text = "OF " + item.Paging.PageCount.ToString
+    End If
+End Sub
 ````
 
 

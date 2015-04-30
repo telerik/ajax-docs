@@ -36,7 +36,8 @@ Consider the image below:
 
 1. Go to the relation
 
-1. Set DataKeyField and MasterKeyField. DataKeyField should match a field in the current data source for this detail table. MasterKeyField should match the DataKeyNames field as set in the parent (master) table.![Setting Parent Table Relations](images/grid_creating-hierarchical-grids-from-design-time2.png)
+1. Set DataKeyField and MasterKeyField. DataKeyField should match a field in the current data source for this detail table. MasterKeyField should match the DataKeyNames field as set in the parent (master) table.
+![Setting Parent Table Relations](images/grid_creating-hierarchical-grids-from-design-time2.png)
 
 ## Setting Detail Table Properties
 

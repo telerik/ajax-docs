@@ -16,7 +16,7 @@ position: 0
 
 The property which specifies if the row is visible. It returns a boolean value which indicates whether the item is visible. Keep in mind that the property willreturn a correct value only if you previously call **set_disaply()** function. Basically you can use it in cases when you need to checkwhether a row is visible.
 
-````ASPNET
+````ASP.NET
 	        <script type="text/javascript">
 	            function onDataBound(sender, args) {
 	                var masterTableView = sender.get_masterTableView();

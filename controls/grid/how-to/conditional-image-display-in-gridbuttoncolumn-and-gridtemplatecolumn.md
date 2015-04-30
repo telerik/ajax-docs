@@ -22,7 +22,7 @@ Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueName
 
 
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView AutoGenerateColumns="False">
 	      <Columns>

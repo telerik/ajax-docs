@@ -20,7 +20,7 @@ There are various situations in which you would like to change the buttons in Gr
 
 If you would like to render image buttons in the place of the default Update/Cancel/Insert link buttons, you merely have to select ButtonType=”ImageButton” from the EditFormSettings -> EditForm section and assign proper UpdateImageUrl/CancelImageUrl/InsertImageUrl for them.For the Edit button or the button inside the GridButtonColumn the operation is pretty similar. You should change the ButtonType of the column to ImageButton and define EditImageUrl/ImageUrl which to point to the image which will be visualized.
 
-````ASPNET
+````ASP.NET
 	  <telerik:RadGrid ID="RadGrid1" runat="server">
 	    <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="false">
 	      <EditFormSettings>

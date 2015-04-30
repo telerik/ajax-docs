@@ -30,7 +30,7 @@ This event is fired when the group has been expanded.
 
 Example:
 
-````ASPNET
+````ASP.NET
 	    <telerik:RadGrid ID="RadGrid1" runat="server">
 	        <ClientSettings>
 	            <ClientEvents OnGroupExpanded="GroupExpanded" />

@@ -33,53 +33,50 @@ The following example shows how to access the filter information in the **ItemCo
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.FilterCommandName)
-	        {
-	            Pair filterPair = (Pair)e.CommandArgument;
-	            gridMessage1 = "Current Filter function: '" + filterPair.First + "' for column '" + filterPair.Second + "'";
-	            TextBox filterBox = (e.Item as GridFilteringItem)[filterPair.Second.ToString()].Controls[0] as TextBox;
-	            gridMessage2 = "<br> Entered pattern for search: " + filterBox.Text;
-	        }
-	    }
-	    private string gridMessage1 = null, gridMessage2 = null;
-	    protected void RadGrid1_DataBound(object sender, EventArgs e)
-	    {
-	        if (!string.IsNullOrEmpty(gridMessage1))
-	        {
-	            DisplayMessage(gridMessage1);
-	            DisplayMessage(gridMessage2);
-	        }
-	    }
-	    private void DisplayMessage(string text)
-	    {
-	        RadGrid1.Controls.Add(new LiteralControl(string.Format("<span style='color:red'>{0}</span>", text)));
-	    }
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.FilterCommandName)
+    {
+        Pair filterPair = (Pair)e.CommandArgument;
+        gridMessage1 = "Current Filter function: '" + filterPair.First + "' for column '" + filterPair.Second + "'";
+        TextBox filterBox = (e.Item as GridFilteringItem)[filterPair.Second.ToString()].Controls[0] as TextBox;
+        gridMessage2 = "<br> Entered pattern for search: " + filterBox.Text;
+    }
+}
+private string gridMessage1 = null, gridMessage2 = null;
+protected void RadGrid1_DataBound(object sender, EventArgs e)
+{
+    if (!string.IsNullOrEmpty(gridMessage1))
+    {
+        DisplayMessage(gridMessage1);
+        DisplayMessage(gridMessage2);
+    }
+}
+private void DisplayMessage(string text)
+{
+    RadGrid1.Controls.Add(new LiteralControl(string.Format("<span style='color:red'>{0}</span>", text)));
+}
 ````
 ````VB.NET
-	
-	
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.FilterCommandName Then
-	            Dim filterPair As Pair = DirectCast(e.CommandArgument, Pair)
-	            gridMessage1 = "Current Filter function: '" + filterPair.First + "' for column '" + filterPair.Second + "'"
-	            Dim filterBox As TextBox = CType((CType(e.Item, GridFilteringItem))(filterPair.Second.ToString()).Controls(0), TextBox)
-	            gridMessage2 = "<br> Entered pattern for search: " + filterBox.Text
-	        End If
-	    End Sub
-	    Private gridMessage1 As String = Nothing
-	    Private gridMessage2 As String = Nothing
-	    Protected Sub RadGrid1_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.DataBound
-	        If Not String.IsNullOrEmpty(gridMessage1) Then
-	            DisplayMessage(gridMessage1)
-	            DisplayMessage(gridMessage2)
-	        End If
-	    End Sub
-	    Private Sub DisplayMessage(ByVal text As String)
-	        RadGrid1.Controls.Add(New LiteralControl(String.Format("<span style='color:red'>{0}</span>", text)))
-	    End Sub
-	
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.FilterCommandName Then
+        Dim filterPair As Pair = DirectCast(e.CommandArgument, Pair)
+        gridMessage1 = "Current Filter function: '" + filterPair.First + "' for column '" + filterPair.Second + "'"
+        Dim filterBox As TextBox = CType((CType(e.Item, GridFilteringItem))(filterPair.Second.ToString()).Controls(0), TextBox)
+        gridMessage2 = "<br> Entered pattern for search: " + filterBox.Text
+    End If
+End Sub
+Private gridMessage1 As String = Nothing
+Private gridMessage2 As String = Nothing
+Protected Sub RadGrid1_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.DataBound
+    If Not String.IsNullOrEmpty(gridMessage1) Then
+        DisplayMessage(gridMessage1)
+        DisplayMessage(gridMessage2)
+    End If
+End Sub
+Private Sub DisplayMessage(ByVal text As String)
+    RadGrid1.Controls.Add(New LiteralControl(String.Format("<span style='color:red'>{0}</span>", text)))
+End Sub
 ````
 
 

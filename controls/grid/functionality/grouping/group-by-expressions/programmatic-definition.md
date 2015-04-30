@@ -50,52 +50,50 @@ You can set the **GroupByExpressions** property in the code-behind to specify th
 
 
 
-````C#
-	
-	        GridGroupByExpression expression = new GridGroupByExpression();
-	        GridGroupByField gridGroupByField = new GridGroupByField();
-	        // SelectFields values (appear in header)
-	        gridGroupByField = new GridGroupByField();
-	        gridGroupByField.FieldName = "EmployeeID";
-	        gridGroupByField.HeaderText = "Employee";
-	        gridGroupByField.HeaderValueSeparator = " for current group: ";
-	        gridGroupByField.FormatString = "<strong>{0}</strong>";
-	        expression.SelectFields.Add(gridGroupByField);
-	        gridGroupByField = new GridGroupByField();
-	        gridGroupByField.FieldName = "Freight";
-	        gridGroupByField.HeaderText = "Total shipping cost is ";
-	        gridGroupByField.HeaderValueSeparator = "";
-	        gridGroupByField.FormatString = "<strong>{0:0.00}</strong>";
-	        gridGroupByField.Aggregate = GridAggregateFunction.Sum;
-	        expression.SelectFields.Add(gridGroupByField);
-	        //GroupByFields values    (group data)
-	        gridGroupByField = new GridGroupByField();
-	        gridGroupByField.FieldName = "EmployeeID";
-	        expression.GroupByFields.Add(gridGroupByField);
-	        tableViewOrders.GroupByExpressions.Add(expression);
-	
+````C#	
+GridGroupByExpression expression = new GridGroupByExpression();
+GridGroupByField gridGroupByField = new GridGroupByField();
+// SelectFields values (appear in header)
+gridGroupByField = new GridGroupByField();
+gridGroupByField.FieldName = "EmployeeID";
+gridGroupByField.HeaderText = "Employee";
+gridGroupByField.HeaderValueSeparator = " for current group: ";
+gridGroupByField.FormatString = "<strong>{0}</strong>";
+expression.SelectFields.Add(gridGroupByField);
+gridGroupByField = new GridGroupByField();
+gridGroupByField.FieldName = "Freight";
+gridGroupByField.HeaderText = "Total shipping cost is ";
+gridGroupByField.HeaderValueSeparator = "";
+gridGroupByField.FormatString = "<strong>{0:0.00}</strong>";
+gridGroupByField.Aggregate = GridAggregateFunction.Sum;
+expression.SelectFields.Add(gridGroupByField);
+//GroupByFields values    (group data)
+gridGroupByField = new GridGroupByField();
+gridGroupByField.FieldName = "EmployeeID";
+expression.GroupByFields.Add(gridGroupByField);
+tableViewOrders.GroupByExpressions.Add(expression);
 ````
 ````VB.NET
-	    Dim expression As GridGroupByExpression = New GridGroupByExpression
-	    Dim gridGroupByField As GridGroupByField = New GridGroupByField
-	    'SelectFields values (appear in header)
-	    gridGroupByField = New GridGroupByField
-	    gridGroupByField.FieldName = "EmployeeID"
-	    gridGroupByField.HeaderText = "Employee"
-	    gridGroupByField.HeaderValueSeparator = " for current group: "
-	    gridGroupByField.FormatString = "<strong>{0}</strong>"
-	    expression.SelectFields.Add(gridGroupByField)
-	    gridGroupByField = New GridGroupByField
-	    gridGroupByField.FieldName = "Freight"
-	    gridGroupByField.HeaderText = "Total shipping cost is "
-	    gridGroupByField.HeaderValueSeparator = ""
-	    gridGroupByField.FormatString = "<strong>{0:0.00}</strong>"
-	    gridGroupByField.Aggregate = GridAggregateFunction.Sum
-	    expression.SelectFields.Add(gridGroupByField)
-	    'GroupByFields values (group data)
-	    gridGroupByField = New GridGroupByField
-	    gridGroupByField.FieldName = "EmployeeID"
-	    expression.GroupByFields.Add(gridGroupByField)
-	    tableViewOrders.GroupByExpressions.Add(expression) 			
+Dim expression As GridGroupByExpression = New GridGroupByExpression
+Dim gridGroupByField As GridGroupByField = New GridGroupByField
+'SelectFields values (appear in header)
+gridGroupByField = New GridGroupByField
+gridGroupByField.FieldName = "EmployeeID"
+gridGroupByField.HeaderText = "Employee"
+gridGroupByField.HeaderValueSeparator = " for current group: "
+gridGroupByField.FormatString = "<strong>{0}</strong>"
+expression.SelectFields.Add(gridGroupByField)
+gridGroupByField = New GridGroupByField
+gridGroupByField.FieldName = "Freight"
+gridGroupByField.HeaderText = "Total shipping cost is "
+gridGroupByField.HeaderValueSeparator = ""
+gridGroupByField.FormatString = "<strong>{0:0.00}</strong>"
+gridGroupByField.Aggregate = GridAggregateFunction.Sum
+expression.SelectFields.Add(gridGroupByField)
+'GroupByFields values (group data)
+gridGroupByField = New GridGroupByField
+gridGroupByField.FieldName = "EmployeeID"
+expression.GroupByFields.Add(gridGroupByField)
+tableViewOrders.GroupByExpressions.Add(expression) 			
 ````
 

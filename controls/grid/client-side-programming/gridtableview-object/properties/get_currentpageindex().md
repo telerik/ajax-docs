@@ -16,7 +16,7 @@ position: 4
 
 Returns the current page index for the respective **GridTableView** object. Can be used to check which page the user is currently viewing.
 
-````ASPNET
+````ASP.NET
 	        <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True"
 	            OnNeedDataSource="RadGrid1_NeedDataSource">
 	            <MasterTableView DataKeyNames="OrderID">
