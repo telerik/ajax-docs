@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'TelerikWebUI';
-	src: url('../fonts/TelerikWebUI.eot")%>');
-	src: url('../fonts/TelerikWebUI.eot")%>') format('embedded-opentype'),
-			url('../fonts/TelerikWebUI.woff")%>') format('woff'),
-			url('../fonts/TelerikWebUI.ttf")%>') format('truetype');
+	src: url('../fonts/TelerikWebUI.eot');
+	src: url('../fonts/TelerikWebUI.eot') format('embedded-opentype'),
+			url('../fonts/TelerikWebUI.woff') format('woff'),
+			url('../fonts/TelerikWebUI.ttf"') format('truetype');
 }
 
 body, html,
