@@ -10,10 +10,6 @@ position: 2
 
 # Getting Started
 
-
-
-## 
-
 Below are the basic steps needed to install and configure the **RadRating** control in Visual Studio:
 
 1. Drag ASP ScriptManager or RadScriptManager control from the VS Toolbox to the page.
@@ -22,7 +18,7 @@ Below are the basic steps needed to install and configure the **RadRating** cont
 
 1. Set **RadRating**'s common properties
 
-1. **AutoPostBack**- Gets or sets a value indicating whether the RadRating control will initiate a postback after its value changes.
+1. **AutoPostBack** - Gets or sets a value indicating whether the RadRating control will initiate a postback after its value changes.
 
 1. **ItemCount** - Gets or sets the number of items in the RadRating control - e.g. the number of stars that the control will have.
 

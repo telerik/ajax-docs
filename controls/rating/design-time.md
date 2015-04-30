@@ -10,10 +10,7 @@ position: 3
 
 # Design Time
 
-
-
 The Smart Tag of **RadRating** lets you configure your control or quickly get help. You can display the	Smart Tag by right clicking on a **RadRating** control and choosing "Show Smart Tag", or clicking the small rightward-pointing arrow located in the upper right corner of the control.
->caption 
 
 ![rating-smart-tag](images/rating-smart-tag.png)
 
