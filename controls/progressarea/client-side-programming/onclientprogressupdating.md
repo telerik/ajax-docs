@@ -20,15 +20,15 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter. This parameter differs, depending on the control firing the event:
 
-* On **RadProgressManager**, the eventArgs parameter has a single property: **ProgressData**, which contains the data the progress manager sends to the **RadProgressArea** controls on the page.
+	* On **RadProgressManager**, the eventArgs parameter has a single property: **ProgressData**, which contains the data the progress manager sends to the **RadProgressArea** controls on the page.
 
-* On **RadProgressArea**, the eventArgs parameter has three methods:
+	* On **RadProgressArea**, the eventArgs parameter has three methods:
 
-* **get_progressData** returns a [progressData]({%slug progressarea/client-side-programming/progressdata%}) object, containing the values that are about to be used to update the **RadProgressArea** dialog.
+	* **get_progressData** returns a [progressData]({%slug progressarea/client-side-programming/progressdata%}) object, containing the values that are about to be used to update the **RadProgressArea** dialog.
 
-* **set_cancel** lets you cancel the update to the dialog.
+	* **set_cancel** lets you cancel the update to the dialog.
 
-* **get_cancel** returns whether the updates to the dialog have been cancelled.
+	* **get_cancel** returns whether the updates to the dialog have been cancelled.
 
 Use the **OnClientProgressUpdating** event to make changes to the values that are about to be used to update the progress dialog or, on **RadProgressArea**, to update custom controls that have been added using a [progress template]({%slug progressarea/progress-template%}).
 

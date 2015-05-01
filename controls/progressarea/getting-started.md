@@ -30,16 +30,16 @@ In order to use **RadProgressArea**, you must do the following:
 
 1. Do one (or both) of the following:
 
-* Add a **RadUpload**, **FileUpload**, or standard <input type="file"> element to the Web page.
+	* Add a **RadUpload**, **FileUpload**, or standard `<input type="file">` element to the Web page.
 
-* Add code to the codebehind to supply [custom progress information]({%slug progressarea/custom-progress%}).
+	* Add code to the codebehind to supply [custom progress information]({%slug progressarea/custom-progress%}).
 
 ## Example
 
 The following example shows how to set up a file upload progress indicator to monitor the progress of a file upload process initiated by **RadUpload**.
 
 ````ASPNET
-<telerik:radupload id="RadUpload1" runat="server" />
+<telerik:radupload id="RadUpload1" runat="server" />
 <telerik:radprogressarea id="RadProgressArea1" runat="server" />
 <telerik:radprogressmanager id="RadProgressManager1" runat="server" />
 <asp:Button ID="Button1" runat="server" Text="Submit" />
@@ -47,4 +47,5 @@ The following example shows how to set up a file upload progress indicator to mo
 
 
 
-To monitor the progress of any other file upload control, simply replace the **RadUpload** control in the preceding example with a **FileUpload** control or **<input type="file">** element.
+To monitor the progress of any other file upload control, simply replace the **RadUpload** control in the preceding example with a **FileUpload**
+ control or `<input type="file">` element.

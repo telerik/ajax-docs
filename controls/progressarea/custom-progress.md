@@ -22,11 +22,11 @@ To monitor custom progress:
 
 1. Put a **RadProgressArea** control on the Web page.
 
-* Set its **ProgressIndicators** property to include only those controls you want to use. In the **Page_Load** event handler, set the **Localization** property of the **RadProgressArea** object to change the labels so that they reflect your custom process.
+	* Set its **ProgressIndicators** property to include only those controls you want to use. In the **Page_Load** event handler, set the **Localization** property of the **RadProgressArea** object to change the labels so that they reflect your custom process.
 
 1. In the code-behind, when the custom process executes, use the **RadProgressContext.Current** property to access the progress context.
 
-* At each measurable step of the process, updates the fields of the progress context to indicate the values that **RadProgressArea** should display.
+	* At each measurable step of the process, updates the fields of the progress context to indicate the values that **RadProgressArea** should display.
 
 The following table lists the fields of the progress context that you can set:
 
