@@ -28,7 +28,7 @@ To add Telerik UI for ASP.NET AJAX to an existing ASP.NET web application you ne
 
 1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://www.asp.net/AJAX/Documentation/Live/ConfiguringASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/ConfiguringASPNETAJAX.aspx) (check the topic called __Adding ASP.NET AJAX Configuration Elements to an Existing Web Site__)
 
-1. Add the needed HTTP handlers in the web.config as described in the [web.config Settings Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%})article.
+1. Add the needed HTTP handlers in the web.config as described in the [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})article.
 
 >tip You can use the[Telerik Creation and Configuration Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/creation-and-configuration-wizard%})to get the needed assemblies, their references and the web.config settings added to the solution.
 >
@@ -116,7 +116,7 @@ You can read more about the individual controls' properties and features in thei
 
 # See Also
 
- * [web.config Settings Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%})
+ * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
 
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 

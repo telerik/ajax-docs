@@ -22,6 +22,6 @@ To ensure a successful deployment, you need to check the following items:
 
 * Make sure that the needed assemblies are copied over to the production server. This often involves setting the *CopyLocal*property of the WebApplication reference to *true*. In case you are deploying the assemblies in the GAC, examine the[Working with Assemblies in the GAC](http://blogs.telerik.com/aspnet-ajax/posts/13-09-19/working-with-assemblies-in-the-global-assembly-cache)blog post.
 
-* Make sure that the needed additions are made to the web.config on the production server. The	[web.config Settings Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%}) article lists them.
+* Make sure that the needed additions are made to the web.config on the production server. The	[web.config Settings Overview]({%slug general-information/web-config-settings-overview%}) article lists them.
 
 * Make sure that the MS AJAX extensions are installed on the production server. You can find more information about them at[http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx](http://www.asp.net/AJAX/Documentation/Live/InstallingASPNETAJAX.aspx).

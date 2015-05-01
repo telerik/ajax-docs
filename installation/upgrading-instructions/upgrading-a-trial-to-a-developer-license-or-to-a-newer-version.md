@@ -64,7 +64,7 @@ You simply need to replace the assembly references with the new ones. Here follo
 
 1. __Add references to the Telerik assemblies in the project__ in Visual Studio.
 
-1. Make sure you have all the [necessary web.config registrations]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%})
+1. Make sure you have all the [necessary web.config registrations]({%slug general-information/web-config-settings-overview%})
 
 As with any ASP.NET Project, it is often helpful to clear the ASP Temporary files and the browser cache.
 
@@ -82,7 +82,7 @@ If you are having difficulties with installing the controls, examine the [Instal
 
 ### Referencing the Telerik Assemblies from the GAC
 
-When referencing assemblies from the GAC, the way those references are added to VS and the way the assemblies are placed in the GAC are slightlydifferent than the common BIN-deployment scenario. For example, you will need to add the Telerik assemblies to the GAC manually anduse fully qualified assembly names in the [handler registrations in the web.config]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%}).You can read more about handling assemblies in the GAC and their references in the[Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article.
+When referencing assemblies from the GAC, the way those references are added to VS and the way the assemblies are placed in the GAC are slightlydifferent than the common BIN-deployment scenario. For example, you will need to add the Telerik assemblies to the GAC manually anduse fully qualified assembly names in the [handler registrations in the web.config]({%slug general-information/web-config-settings-overview%}).You can read more about handling assemblies in the GAC and their references in the[Using the Global Assembly Cache]({%slug introduction/deployment/using-the-global-assembly-cache%}) help article.
 
 ### I Still Get the Old Version
 
@@ -120,4 +120,4 @@ You can see how the file information of a trial version of the Telerik.Web.UI.dl
 
  * [Included Assemblies]({%slug introduction/installation/included-assemblies%})
 
- * [web.config Settings Overview]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/web.config-settings-overview%})
+ * [web.config Settings Overview]({%slug general-information/web-config-settings-overview%})
