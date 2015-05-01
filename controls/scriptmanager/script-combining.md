@@ -36,13 +36,13 @@ Add the following<appSetting/> entry in your *web.config*:
 Register the external scripts in **RadScriptManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
-			<telerik:RadScriptManager ID="RadScriptManager2" runat="server" EnableScriptCombine="true"> 
-	            <Scripts> 
-	            <asp:ScriptReference Path="File1.js" /> 
-	            <asp:ScriptReference Path="File2.js" /> 
-	
-	            </Scripts> 
-	        </telerik:RadScriptManager> 
+<telerik:RadScriptManager ID="RadScriptManager2" runat="server" EnableScriptCombine="true"> 
+<Scripts> 
+	<asp:ScriptReference Path="File1.js" /> 
+	<asp:ScriptReference Path="File2.js" /> 
+
+</Scripts> 
+</telerik:RadScriptManager> 
 	
 ````
 

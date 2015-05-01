@@ -32,7 +32,7 @@ With the **RadScriptManager** control, the RadControls for ASP.NET AJAX suite gi
 
 >note The performance gain of **RadScriptManager** should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the scripts. This comes at the cost of some processor load, because the scripts get combined and compressed on the server.
 >When testing locally, the largest part of the result you get is the time **RadScriptManager** takes to combine the scripts and serve them to the browser.
->Note that the **RadScriptManager** does **NOT** combine the web resources needed for the Telerik controls in a single request when the[CDN]({%slug scriptmanager/cdn-support/overview%})is enabled.
+>Note that the **RadScriptManager** does **NOT** combine the web resources needed for the Telerik controls in a single request when the [CDN] ({%slug scriptmanager/cdn-support/overview%})is enabled.
 >
 
 
@@ -58,13 +58,13 @@ You can change Handler by using the [HttpHandlerUrl](http://www.telerik.com/help
 ## Registering the HttpHandler for web sites running on IIS 5.0, 5.1 and 6.0:
 
 ````XML
-	    <configuration>    
-	    <system.web>        
-	        <httpHandlers>    
-	            <add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />        
-	        </httpHandlers>    
-	    </system.web>
-	    </configuration>
+<configuration>    
+	<system.web>        
+		<httpHandlers>    
+			<add path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" validate="false" />        
+		</httpHandlers>    
+	</system.web>
+</configuration>
 ````
 
 
@@ -78,14 +78,14 @@ There are two cases:
 * Telerik.Web.UI.dll is in the **GAC**:
 
 ````XML
-	    <system.webserver>
-	    … 
-	    <handlers>
-	        …  
-	        <add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*"    type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
-	        … 
-	    </handlers>
-	    </system.webserver>
+<system.webserver>
+… 
+<handlers>
+	…  
+	<add name="Telerik.Web.UI.WebResource" path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />
+	… 
+</handlers>
+</system.webserver>
 ````
 
 
@@ -97,14 +97,14 @@ There are two cases:
 * Telerik.Web.UI.dll is **not in the GAC**:
 
 ````XML
-	    <system.webserver>
-	    … 
-	    <handlers>
-	        …  
-	        <add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
-	        … 
-	    </handlers>
-	    </system.webserver>
+<system.webserver>
+	… 
+	<handlers>
+		…  
+		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI" />
+		… 
+	</handlers>
+ </system.webserver>
 ````
 
 
@@ -118,11 +118,11 @@ There are two cases:
 * **RadScriptManager** ignores ScriptReferences to scripts embedded in an assembly, but pointed to a script file by using the Path property:
 
 ````XML
-	    <telerik:RadScriptManager ID="”RadScriptManager1”" runat="”server”">
-	        <Scripts>
-	            <asp:ScriptReference Name="MyNamespace.MyFile.js" Assembly="MyAsembly" Path="/MyVirtualLocation/MyFile.js">
-	        </Scripts>
-	    </telerik:RadScriptManager>
+<telerik:RadScriptManager ID="”RadScriptManager1”" runat="”server”">
+	<Scripts>
+		<asp:ScriptReference Name="MyNamespace.MyFile.js" Assembly="MyAsembly" Path="/MyVirtualLocation/MyFile.js">
+	</Scripts>
+</telerik:RadScriptManager>
 ````
 
 

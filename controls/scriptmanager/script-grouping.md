@@ -16,18 +16,18 @@ With **Q3 2011 SP RadScriptManager** supports script grouping. Script groups and
 
 ````ASPNET
 	
-	<telerik:RadScriptManager ID="ScriptManager1" runat="server">
-	    <Groups>
-	        <telerik:ScriptReferenceGroup>
-	            <Scripts>
-	                <asp:ScriptReference Assembly="[Assembly1]" Name="[Name1]" />
-	                <asp:ScriptReference Assembly="[Assembly2]" Name="[Name2]" />
-			        <%-- etc. --%>
-	            </Scripts>
-	        </telerik:ScriptReferenceGroup>
-	        <%-- etc. --%>
-	    </Groups>
-	</telerik:RadScriptManager>
+<telerik:RadScriptManager ID="ScriptManager1" runat="server">
+	<Groups>
+		<telerik:ScriptReferenceGroup>
+			<Scripts>
+				<asp:ScriptReference Assembly="[Assembly1]" Name="[Name1]" />
+				<asp:ScriptReference Assembly="[Assembly2]" Name="[Name2]" />
+				<%-- etc. --%>
+			</Scripts>
+		</telerik:ScriptReferenceGroup>
+		<%-- etc. --%>
+	</Groups>
+</telerik:RadScriptManager>
 	
 ````
 
@@ -49,17 +49,17 @@ Script grouping aims to solve that problem. Imagine the following setup. There i
 
 ````ASPNET
 	
-	<telerik:RadScriptManager ID="ScriptManager1" runat="server">
-	    <Groups>
-	        <telerik:ScriptReferenceGroup>
-	            <Scripts>
-	                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-	                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-	                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
-	            </Scripts>
-	        </telerik:ScriptReferenceGroup>
-	    </Groups>
-	</telerik:RadScriptManager>
+<telerik:RadScriptManager ID="ScriptManager1" runat="server">
+	<Groups>
+		<telerik:ScriptReferenceGroup>
+			<Scripts>
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+				<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryPlugins.js" />
+			</Scripts>
+		</telerik:ScriptReferenceGroup>
+	</Groups>
+</telerik:RadScriptManager>
 	
 ````
 

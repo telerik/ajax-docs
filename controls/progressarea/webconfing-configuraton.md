@@ -12,7 +12,7 @@ position: 7
 
 
 
-In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to yourpage and must register **RadUploadProgressHandler** and**RadUploadHttpModule** in your application **web.config** file.
+In order to use [RadProgressArea]({%slug progressarea/getting-started%}),you need to add **RadProgressManager** (as long as RadProgressArea) to yourpage and must register **RadUploadProgressHandler** and **RadUploadHttpModule** in your application **web.config** file.
 
 >note As of Q3 SP1 2008 (2008.3.1125), you can use the **SmartTag** of the **RadProgressManager** to add all settings.
 >

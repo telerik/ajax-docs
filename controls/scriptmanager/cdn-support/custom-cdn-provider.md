@@ -67,10 +67,10 @@ The Scripts/**ajaxz** folder contains the compressed (gzipped) javascript files.
 5. Set the **BaseUrl** attribute of the **CdnSettings** property to the domain name of your CDN and TelerikCdn="Enabled":
 
 ````ASPNET
-	    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	        <CdnSettings BaseUrl="http://my.favorite.cdn" BaseSecureUrl="https://my.favorite.cdn"
-	            TelerikCdn="Enabled" />
-	    </telerik:RadScriptManager>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+	<CdnSettings BaseUrl="http://my.favorite.cdn" BaseSecureUrl="https://my.favorite.cdn"
+		TelerikCdn="Enabled" />
+</telerik:RadScriptManager>
 ````
 
 
@@ -78,10 +78,10 @@ The Scripts/**ajaxz** folder contains the compressed (gzipped) javascript files.
 You can also do it from web.config:
 
 ````XML
-	    <appsettings>  
-	        <add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn "  />   
-	        <add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn "  />
-	    </appsettings>
+<appsettings>  
+	<add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn "  />   
+	<add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn "  />
+</appsettings>
 ````
 
 
@@ -91,18 +91,18 @@ You can also do it from web.config:
 Now the HTML output of the scripts tag will be like this:
 
 ````HTML
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Core.js" type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/jQuery.js" type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/jQueryPlugins.js" type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Scrolling/ScrollingScripts.js"
-	        type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Navigation/NavigationScripts.js"
-	        type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Menu/RadMenuScripts.js" type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/TabStrip/RadTabStripScripts.js"
-	        type="text/javascript"></script>
-	    <script src="http://my.favorite.cdn/ajaxz/2009.3.1203/ListBox/RadListBoxScripts.js"
-	        type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Core.js" type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/jQuery.js" type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/jQueryPlugins.js" type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Scrolling/ScrollingScripts.js"
+	type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Common/Navigation/NavigationScripts.js"
+	type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/Menu/RadMenuScripts.js" type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/TabStrip/RadTabStripScripts.js"
+	type="text/javascript"></script>
+<script src="http://my.favorite.cdn/ajaxz/2009.3.1203/ListBox/RadListBoxScripts.js"
+	type="text/javascript"></script>
 ````
 
 

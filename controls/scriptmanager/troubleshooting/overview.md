@@ -18,9 +18,18 @@ position: 0
 
 **When using RadScriptManager with**
 
-Cause:There are different reasons for this error to happen. Please, check the list below:1) RadScriptManager was unable to correctly determine if the browser supports gzip/deflate compression;2) A custom ScriptReference is added to RadScriptManager (having a Path property specified), which depends on the combined scripts or vice-versa;3) There is an unfound bug in RadScriptManager;
+Cause:There are different reasons for this error to happen. Please, check the list below:
+1) RadScriptManager was unable to correctly determine if the browser supports gzip/deflate compression;
+2) A custom ScriptReference is added to RadScriptManager (having a Path property specified), which depends on the combined scripts or vice-versa;
+3) There is an unfound bug in RadScriptManager;
 
-Resolution:Below are the respective resolutions for the problems, described above:1) Implement your own browser detection mechanism and use the **OutputCompression** property of RadScriptManager to control it. You might also try to reinstall the browser, or restore its initial settings;2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](http://www.telerik.com/client.net/my-client.net.aspx) account. RadScriptManager now supports the addition/insertion of custom scripts depending/dependent on other scripts. The custom script is added as a separate <script> tag and the general merged script is split respectively.3) Check the [Release notes](http://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](http://www.telerik.com/support/home.aspx) a small website, demonstrating theproblem.
+Resolution:Below are the respective resolutions for the problems, described above:
+1) Implement your own browser detection mechanism and use the **OutputCompression** property of RadScriptManager to control it. You might also try to reinstall the browser,
+ or restore its initial settings;2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](http://www.telerik.com/client.net/my-client.net.aspx) 
+ account. RadScriptManager now supports the addition/insertion of custom scripts depending/dependent on other scripts. The custom script is added as a separate  `<script>` tag and the general merged script is split respectively.
+ 3) Check the [Release notes](http://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already 
+ been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](http://www.telerik.com/support/home.aspx) a 
+ small website, demonstrating theproblem.
 
 
 
@@ -81,14 +90,14 @@ Resolution for .NET 3.5 projects:
 Override the references to MicrosoftAjax.js and MicrosoftAjaxWebForms.js to point to the ACT script files.
 
 ````ASPNET
-	    <telerik:RadScriptManager runat="server">
-	       <Scripts>
-	           <asp:ScriptReference Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-	               Name="MicrosoftAjax.js" Path="Scripts-40412/MicrosoftAjax.js" />
-	           <asp:ScriptReference Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-	               Name="MicrosoftAjaxWebForms.js" Path="Scripts-40412/MicrosoftAjaxWebForms.js" />
-	       </Scripts>
-	    </telerik:RadScriptManager>   
+<telerik:RadScriptManager runat="server">
+   <Scripts>
+	   <asp:ScriptReference Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+		   Name="MicrosoftAjax.js" Path="Scripts-40412/MicrosoftAjax.js" />
+	   <asp:ScriptReference Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+		   Name="MicrosoftAjaxWebForms.js" Path="Scripts-40412/MicrosoftAjaxWebForms.js" />
+   </Scripts>
+</telerik:RadScriptManager>   
 ````
 
 
@@ -114,17 +123,17 @@ As the website denies access to all pages to unauthorized users, access to the *
 Add a **<location>** section to the application configuration file to allow access to **Telerik.Web.UI.WebResource.axd** to all users, like:
 
 ````XML
-	<configuration>
-	...
-	<location path="Telerik.Web.UI.WebResource.axd">
-	   <system.web>
-	     <authorization>
-	       <allow users="*"/>
-	     </authorization>
-	   </system.web>
-	 </location>
-	...
-	</configuration> 
+<configuration>
+...
+<location path="Telerik.Web.UI.WebResource.axd">
+   <system.web>
+	 <authorization>
+	   <allow users="*"/>
+	 </authorization>
+   </system.web>
+ </location>
+...
+</configuration> 
 ````
 
 
