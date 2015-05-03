@@ -21,28 +21,28 @@ Sometimes, when you use Item or Content templates, you want the controls in the 
 
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Telerik">  
-	    <Items>    
-	        <telerik:RadPanelItem runat="server" Text="One">      
-	        <Items>        
-	            <telerik:RadPanelItem runat="server" Text="Name" Value="Joe">          
-	                <ItemTemplate>            
-	                    <asp:TextBox ID="TextBox1" runat="server" />          
-	                </ItemTemplate>       
-	             </telerik:RadPanelItem>       
-	             </Items>     
-	             </telerik:RadPanelItem>     
-	             <telerik:RadPanelItem runat="server" Text="Two">       
-	             <Items>         
-	             <telerik:RadPanelItem runat="server" Text="Name" Value="Mary">           
-	             <ItemTemplate>              
-	                <asp:TextBox ID="TextBox2" runat="server" />           
-	             </ItemTemplate>         
-	             </telerik:RadPanelItem>       
-	         </Items>     
-	         </telerik:RadPanelItem>  
-	     </Items>
-	     </telerik:radpanelbar>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Telerik">  
+<Items>    
+    <telerik:RadPanelItem runat="server" Text="One">      
+    <Items>        
+        <telerik:RadPanelItem runat="server" Text="Name" Value="Joe">          
+            <ItemTemplate>            
+               <asp:TextBox ID="TextBox1" runat="server" />          
+            </ItemTemplate>       
+        </telerik:RadPanelItem>       
+        </Items>     
+        </telerik:RadPanelItem>     
+        <telerik:RadPanelItem runat="server" Text="Two">       
+        <Items>         
+        <telerik:RadPanelItem runat="server" Text="Name" Value="Mary">           
+        <ItemTemplate>              
+           <asp:TextBox ID="TextBox2" runat="server" />           
+        </ItemTemplate>         
+        </telerik:RadPanelItem>       
+    </Items>     
+    </telerik:RadPanelItem>  
+</Items>
+</telerik:radpanelbar>
 ````
 
 
@@ -54,9 +54,9 @@ When you run the application, the panel items all show empty text boxes:
 This is good as far as it goes, but perhaps you want to initialize the values of the text boxes. Note that the **Value** property of the panel items has a name all ready to assign.To override the **Text** property of the text box in the template, use a **DataBinder.Eval** statement:
 
 ````ASPNET
-	    <itemtemplate>    
-	         <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval(Container, "Value") %>'/>
-	    </itemtemplate>
+<itemtemplate>    
+     <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval(Container, "Value") %>'/>
+</itemtemplate>
 ````
 
 
@@ -72,30 +72,28 @@ In addition to adding a DataBinder.Eval statement, you must also explicitly call
 
 
 ````C#
-	
-	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack) 
-	        { 
-	            for (int i = 0; i < RadPanelBar1.Items.Count; i++)      
-	            RadPanelBar1.Items[i].DataBind(); 
-	        }
-	    }
+		
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack) 
+    { 
+        for (int i = 0; i < RadPanelBar1.Items.Count; i++)      
+        RadPanelBar1.Items[i].DataBind(); 
+    }
+}
 	
 ````
 ````VB.NET
-	
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        If Not IsPostBack Then
-	            Dim i As Integer = 0
-	            While i < RadPanelBar1.Items.Count
-	                RadPanelBar1.Items(i).DataBind()
-	                i = i + 1
-	            End While
-	        End If
-	    End Sub
+		
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+    If Not IsPostBack Then
+        Dim i As Integer = 0
+        While i < RadPanelBar1.Items.Count
+            RadPanelBar1.Items(i).DataBind()
+            i = i + 1
+        End While
+    End If
+End Sub
 	
 ````
 
@@ -106,6 +104,6 @@ Now the value of the panel items appears in the text boxes:
 
 # See Also
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})
 
- * [Overview]({%slug panelbar/templates/overview%})
+ * [Templates Overview]({%slug panelbar/templates/overview%})

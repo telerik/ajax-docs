@@ -17,14 +17,14 @@ position: 1
 You can have your panel bar cause postbacks to a different Web page from the one that contains it. Simply set the **PostBackUrl** property to the page that should handle the postback.
 
 ````ASPNET
-	    <telerik:radpanelbar 
-	    id="RadPanelBar1" runat="server" 
-	    onitemclick="RadPanelBar1_ItemClick"
-	    postbackurl="CrossPage.aspx">
-	     <Items > 
-	        ... 
-	     </Items >
-	     </telerik:radpanelbar>
+<telerik:radpanelbar 
+	id="RadPanelBar1" runat="server" 
+	onitemclick="RadPanelBar1_ItemClick"
+	postbackurl="CrossPage.aspx">
+	<Items > 
+		... 
+	</Items >
+</telerik:radpanelbar>
 ````
 
 
@@ -35,31 +35,31 @@ Once in the second page, you can access the the panel bar (or any other control)
 
 ````C#
 	
-	
-	    public partial class CrossPageCS : XhtmlPage { protected void Page_Load(object sender, EventArgs e)
-	    { 
-	        if (Page.PreviousPage == null) 
-	        { 
-	            Response.Redirect("Default.aspx"); 
-	        } 
-	        RadPanelBar pb = (RadPanelBar)Page.PreviousPage.FindControl("RadPanelBar1");
-	    } 
-	    }
+public partial class CrossPageCS : XhtmlPage 
+{ 
+	protected void Page_Load(object sender, EventArgs e)
+	{ 
+		if (Page.PreviousPage == null) 
+		{ 
+			Response.Redirect("Default.aspx"); 
+		} 
+		RadPanelBar pb = (RadPanelBar)Page.PreviousPage.FindControl("RadPanelBar1");
+	} 
+}
 	
 ````
 ````VB.NET
 	
-	
-	Partial Class CrossPageVB  Inherits System.Web.UI.Page
-	        Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	            If Page.PreviousPage Is Nothing Then
-	                Response.Redirect("Default.aspx")
-	
-	            End If
-	            Dim pb As RadPanelBar
-	            pb = CType(Page.PreviousPage.FindControl("RadPanelBar1"), RadPanelBar)
-	        End Sub
-	    End Class
+Partial Class CrossPageVB  Inherits System.Web.UI.Page
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        If Page.PreviousPage Is Nothing Then
+            Response.Redirect("Default.aspx")
+
+        End If
+        Dim pb As RadPanelBar
+        pb = CType(Page.PreviousPage.FindControl("RadPanelBar1"), RadPanelBar)
+    End Sub
+End Class
 	
 ````
 

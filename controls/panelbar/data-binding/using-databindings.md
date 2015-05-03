@@ -49,13 +49,13 @@ The properties of each item in the collection specify how the **RadPanelItem** p
 * The **DataMember** property specifies the table from which to map items. This property lets you use different tables from the same **DataSet** to supply values at different levels of the panel bar.
 
 ````ASPNET
-	    <telerik:radpanelbar runat="server" id="RadPanelBar1" datasourceid="SqlDataSource1"
-	        datafieldid="id" datafieldparentid="parentID"> 
-	        <DataBindings>    
-	            <telerik:RadPanelItemBinding TextField="Category" />    
-	            <telerik:RadPanelItemBinding FormatString="Made of {0}" TextField="Material" Depth="1" /> 
-	        </DataBindings>
-	        </telerik:radpanelbar>
+<telerik:radpanelbar runat="server" id="RadPanelBar1" datasourceid="SqlDataSource1"
+    datafieldid="id" datafieldparentid="parentID"> 
+    <DataBindings>    
+        <telerik:RadPanelItemBinding TextField="Category" />    
+        <telerik:RadPanelItemBinding FormatString="Made of {0}" TextField="Material" Depth="1" /> 
+    </DataBindings>
+</telerik:radpanelbar>
 ````
 
 

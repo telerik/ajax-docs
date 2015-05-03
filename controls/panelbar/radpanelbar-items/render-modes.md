@@ -35,8 +35,7 @@ There are two ways to set the RenderMode for the RadPanelBar:
 When the **RenderMode** property is set in the markup you can type in a string, when set in the code-behind it takes a member of the Telerik.Web.UI.RenderMode enum. For example:
 
 ````ASPNET
-	    <telerik:RadPanelBar RenderMode="Lightweight" runat="server" ID="RadPanelBar1"> </telerik:RadPanelBar>
-	    
+<telerik:RadPanelBar RenderMode="Lightweight" runat="server" ID="RadPanelBar1"> </telerik:RadPanelBar>	    
 ````
 
 
@@ -46,9 +45,9 @@ A **global setting** in the web.config file that will affect the entire applicat
 * Change render mode for all RadPanelBars in your application:
 
 ````ASPNET
-	         <appSettings>
-	           <add key="Telerik.Web.UI.RenderMode" value="lightweight" />
-	        </appSettings>
+<appSettings>
+   <add key="Telerik.Web.UI.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 
@@ -56,9 +55,9 @@ A **global setting** in the web.config file that will affect the entire applicat
 * Change render mode for all controls in your application:
 
 ````ASPNET
-	        <appSettings>
-	            <add key="Telerik.Web.UI.PanelBar.RenderMode" value="lightweight" />
-	      </appSettings>
+<appSettings>
+    <add key="Telerik.Web.UI.PanelBar.RenderMode" value="lightweight" />
+</appSettings>
 ````
 
 

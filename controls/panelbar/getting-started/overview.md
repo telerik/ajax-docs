@@ -30,7 +30,8 @@ This tutorial will walk you through creating a **RadPanelBar** and shows how to:
 
 * Click the **Add root item** button ( ![Panelbar Add Root Item](images/panelbar_addrootitem.png)) to add a root item to your panel bar.
 
-* Set its **Text** property to "Mail".![PanelBar Item Builder](images/panelbar_firstitem.png)
+* Set its **Text** property to "Mail".
+![PanelBar Item Builder](images/panelbar_firstitem.png)
 
 * With the "Mail" item selected, click the **Add child item** button ( ![Add Child Item](images/panelbar_addchilditem.png)) to add a child to your root item.
 
@@ -84,7 +85,11 @@ This tutorial will walk you through creating a **RadPanelBar** and shows how to:
 
 	* Set the **ExpandMode** property to "SingleExpandedItem". This specifies that only one item can be [expanded]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}) at a time.
 
-* Run the application. Click on the panel bar items to expand them. Note the animated effect. When you expand the "Calendar" item, the template displays:![PanelBar Calendar Template](images/panelbar_gettingstartedcalendar.png)When you click the Notes item, the second level of items appears. You can then click on the "Archive" item to display the third level of items:![Getting Started Hierarchy](images/panelbar_gettingstartedhierarchy.png)
+* Run the application. Click on the panel bar items to expand them. Note the animated effect. When you expand the "Calendar" item, the template displays:
+![PanelBar Calendar Template](images/panelbar_gettingstartedcalendar.png)
+
+When you click the Notes item, the second level of items appears. You can then click on the "Archive" item to display the third level of items:
+![Getting Started Hierarchy](images/panelbar_gettingstartedhierarchy.png)
 
 # See Also
 

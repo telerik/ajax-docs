@@ -19,20 +19,20 @@ position: 6
 In the ASP.NET declaration of your **RadPanelBar** object, you can add custom attributes to panel items by simply adding Name="value" to the **RadPanelItem** declaration. For example, the following RadPanelBar definition adds a "State" custom attribute to its non-root panel items:
 
 ````ASPNET
-	<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2007" Width="54px">
-	<Items >
-	   <telerik:RadPanelItem Text="Format">
-	      <Items>
-	         <telerik:RadPanelItem State="unchecked" Text="Bold">
-	         </telerik:RadPanelItem>
-	         <telerik:RadPanelItem State="unchecked" Text="Italic">
-	         </telerik:RadPanelItem>
-	         <telerik:RadPanelItem State="unchecked" Text="Underlined">
-	         </telerik:RadPanelItem>
-	      </Items>
-	  </telerik:RadPanelItem>
-	</Items >
-	</telerik:RadPanelBar> 
+<telerik:RadPanelBar ID="RadPanelBar1" runat="server" Skin="Office2007" Width="54px">
+<Items >
+   <telerik:RadPanelItem Text="Format">
+      <Items>
+         <telerik:RadPanelItem State="unchecked" Text="Bold">
+         </telerik:RadPanelItem>
+         <telerik:RadPanelItem State="unchecked" Text="Italic">
+         </telerik:RadPanelItem>
+         <telerik:RadPanelItem State="unchecked" Text="Underlined">
+         </telerik:RadPanelItem>
+      </Items>
+  </telerik:RadPanelItem>
+</Items >
+</telerik:RadPanelBar> 
 ````
 
 
@@ -45,17 +45,16 @@ You can access custom attributes from code behind via the **Attributes** collect
 
 ````C#
 	     
-		Paragraph.Font.Bold = RadPanelBar1.Items[0].Items[0].Attributes["State"] == "checked";
-	    Paragraph.Font.Italic = RadPanelBar1.Items[0].Items[1].Attributes["State"] == "checked";
-	    Paragraph.Font.Underline = RadPanelBar1.Items[0].Items[2].Attributes["State"] == "checked";
+Paragraph.Font.Bold = RadPanelBar1.Items[0].Items[0].Attributes["State"] == "checked";
+Paragraph.Font.Italic = RadPanelBar1.Items[0].Items[1].Attributes["State"] == "checked";
+Paragraph.Font.Underline = RadPanelBar1.Items[0].Items[2].Attributes["State"] == "checked";
 				
 ````
 ````VB.NET
 	
-	Paragraph.Font.Bold = RadPanelBar1.Items(0).Items(0).Attributes("State") = "checked"
-	Paragraph.Font.Italic = RadPanelBar1.Items(0).Items(1).Attributes("State") = "checked"
-	Paragraph.Font.Underline = RadPanelBar1.Items(0).Items(2).Attributes("State") = "checked"
-	
+Paragraph.Font.Bold = RadPanelBar1.Items(0).Items(0).Attributes("State") = "checked"
+Paragraph.Font.Italic = RadPanelBar1.Items(0).Items(1).Attributes("State") = "checked"
+Paragraph.Font.Underline = RadPanelBar1.Items(0).Items(2).Attributes("State") = "checked"
 	
 ````
 
@@ -66,23 +65,22 @@ You can work with custom attributes from client-side code using the attributes c
 
 ````JavaScript
 	
-	        function GetAndSetCustomAttributes() {
-	            var panelBar = $find("<%=RadPanelBar1.ClientID %>");
-	            var item = panelBar.findItemByText("Bold");
-	
-	            var state = item.get_attributes().getAttribute("State");
-	
-	            panelBar.trackChanges();
-	            if (state == "unchecked") {
-	                item.get_attributes().setAttribute("State", "checked");
-	            }
-	            else {
-	                item.get_attributes().setAttribute("State", "unchecked");
-	            }
-	            panelBar.commitChanges();
-	        }     
-	
-	
+function GetAndSetCustomAttributes() {
+    var panelBar = $find("<%=RadPanelBar1.ClientID %>");
+    var item = panelBar.findItemByText("Bold");
+
+    var state = item.get_attributes().getAttribute("State");
+
+    panelBar.trackChanges();
+    if (state == "unchecked") {
+        item.get_attributes().setAttribute("State", "checked");
+    }
+    else {
+        item.get_attributes().setAttribute("State", "unchecked");
+    }
+    panelBar.commitChanges();
+}     
+		
 ````
 
 
@@ -94,72 +92,71 @@ When binding the **RadPanelBar** to data, custom attributes can be set in the **
 
 
 ````C#
-	     
-	
-	protected void Page_Load(object sender, EventArgs e)
+	     	
+protected void Page_Load(object sender, EventArgs e)
+{
+	if (!Page.IsPostBack)
 	{
-	 if (!Page.IsPostBack)
-	 {
-	    //dynamically crate a table to populate the panelbar
-	    DataTable table1 = new DataTable();
-	
-	    table1.Columns.Add("ID");
-	    table1.Columns.Add("ParentID");
-	    table1.Columns.Add("Roles"); // for the custom attributes
-	    table1.Columns.Add("Text");
-	    table1.Rows.Add(new string[] { "1", null, "A", "Politics" });
-	    table1.Rows.Add(new string[] { "2", null, "B", "Sports" });
-	    table1.Rows.Add(new string[] { "3", null, "C", "Events" });
-	    table1.Rows.Add(new string[] { "4", "1", "D", "CNN" });
-	    table1.Rows.Add(new string[] { "5", "1", "E", "NBC" });
-	    table1.Rows.Add(new string[] { "6", "1", "F", "ABC" });
-	    table1.Rows.Add(new string[] { "7", "2", "G", "US Sports" });
-	    table1.Rows.Add(new string[] { "8", "2", "B", "European Sports" });
-	    table1.Rows.Add(new string[] { "9", "7", "D", "Baseball" });
-	    table1.Rows.Add(new string[] { "10", "7", "C", "Football" });
-	    table1.Rows.Add(new string[] { "11", "7", "B", "Basketball" });
-	    table1.Rows.Add(new string[] { "12", "8", "D", "Soccer" });
-	    table1.Rows.Add(new string[] { "14", "3", "E", "Oscar Awards" });
-	    table1.Rows.Add(new string[] { "15", "3", "B", "MTV Movie Awards" });
-	    RadPanelBar1.DataSource = table1;
-	    RadPanelBar1.DataFieldID = "ID";
-	    RadPanelBar1.DataFieldParentID = "ParentID";
-	    RadPanelBar1.DataTextField = "Text";
-	    RadPanelBar1.DataBind();
-	   }
-	} 			
+		//dynamically crate a table to populate the panelbar
+		DataTable table1 = new DataTable();
+
+		table1.Columns.Add("ID");
+		table1.Columns.Add("ParentID");
+		table1.Columns.Add("Roles"); // for the custom attributes
+		table1.Columns.Add("Text");
+		table1.Rows.Add(new string[] { "1", null, "A", "Politics" });
+		table1.Rows.Add(new string[] { "2", null, "B", "Sports" });
+		table1.Rows.Add(new string[] { "3", null, "C", "Events" });
+		table1.Rows.Add(new string[] { "4", "1", "D", "CNN" });
+		table1.Rows.Add(new string[] { "5", "1", "E", "NBC" });
+		table1.Rows.Add(new string[] { "6", "1", "F", "ABC" });
+		table1.Rows.Add(new string[] { "7", "2", "G", "US Sports" });
+		table1.Rows.Add(new string[] { "8", "2", "B", "European Sports" });
+		table1.Rows.Add(new string[] { "9", "7", "D", "Baseball" });
+		table1.Rows.Add(new string[] { "10", "7", "C", "Football" });
+		table1.Rows.Add(new string[] { "11", "7", "B", "Basketball" });
+		table1.Rows.Add(new string[] { "12", "8", "D", "Soccer" });
+		table1.Rows.Add(new string[] { "14", "3", "E", "Oscar Awards" });
+		table1.Rows.Add(new string[] { "15", "3", "B", "MTV Movie Awards" });
+		RadPanelBar1.DataSource = table1;
+		RadPanelBar1.DataFieldID = "ID";
+		RadPanelBar1.DataFieldParentID = "ParentID";
+		RadPanelBar1.DataTextField = "Text";
+		RadPanelBar1.DataBind();
+	}
+} 			
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-	        If Not Page.IsPostBack Then
-	            'dynamically crate a table to populate the panelbar
-	            Dim table1 As New DataTable()
-	            table1.Columns.Add("ID")
-	            table1.Columns.Add("ParentID")
-	            table1.Columns.Add("Roles") ' the column for the custom attributes
-	            table1.Columns.Add("Text")
-	            table1.Rows.Add(New String() {"1", Nothing, "A", "Politics"})
-	            table1.Rows.Add(New String() {"2", Nothing, "B", "Sports"})
-	            table1.Rows.Add(New String() {"3", Nothing, "C", "Events"})
-	            table1.Rows.Add(New String() {"4", "1", "D", "CNN"})
-	            table1.Rows.Add(New String() {"5", "1", "E", "NBC"})
-	            table1.Rows.Add(New String() {"6", "1", "F", "ABC"})
-	            table1.Rows.Add(New String() {"7", "2", "G", "US Sports"})
-	            table1.Rows.Add(New String() {"8", "2", "B", "European Sports"})
-	            table1.Rows.Add(New String() {"9", "7", "D", "Baseball"})
-	            table1.Rows.Add(New String() {"10", "7", "C", "Football"})
-	            table1.Rows.Add(New String() {"11", "7", "B", "Basketball"})
-	            table1.Rows.Add(New String() {"12", "8", "D", "Soccer"})
-	            table1.Rows.Add(New String() {"14", "3", "E", "Oscar Awards"})
-	            table1.Rows.Add(New String() {"15", "3", "B", "MTV Movie Awards"})
-	            RadPanelBar1.DataSource = table1
-	            RadPanelBar1.DataFieldID = "ID"
-	            RadPanelBar1.DataFieldParentID = "ParentID"
-	            RadPanelBar1.DataTextField = "Text"
-	            RadPanelBar1.DataBind()
-	        End If
-	    End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+    If Not Page.IsPostBack Then
+        'dynamically crate a table to populate the panelbar
+        Dim table1 As New DataTable()
+        table1.Columns.Add("ID")
+        table1.Columns.Add("ParentID")
+        table1.Columns.Add("Roles") ' the column for the custom attributes
+        table1.Columns.Add("Text")
+        table1.Rows.Add(New String() {"1", Nothing, "A", "Politics"})
+        table1.Rows.Add(New String() {"2", Nothing, "B", "Sports"})
+        table1.Rows.Add(New String() {"3", Nothing, "C", "Events"})
+        table1.Rows.Add(New String() {"4", "1", "D", "CNN"})
+        table1.Rows.Add(New String() {"5", "1", "E", "NBC"})
+        table1.Rows.Add(New String() {"6", "1", "F", "ABC"})
+        table1.Rows.Add(New String() {"7", "2", "G", "US Sports"})
+        table1.Rows.Add(New String() {"8", "2", "B", "European Sports"})
+        table1.Rows.Add(New String() {"9", "7", "D", "Baseball"})
+        table1.Rows.Add(New String() {"10", "7", "C", "Football"})
+        table1.Rows.Add(New String() {"11", "7", "B", "Basketball"})
+        table1.Rows.Add(New String() {"12", "8", "D", "Soccer"})
+        table1.Rows.Add(New String() {"14", "3", "E", "Oscar Awards"})
+        table1.Rows.Add(New String() {"15", "3", "B", "MTV Movie Awards"})
+        RadPanelBar1.DataSource = table1
+        RadPanelBar1.DataFieldID = "ID"
+        RadPanelBar1.DataFieldParentID = "ParentID"
+        RadPanelBar1.DataTextField = "Text"
+        RadPanelBar1.DataBind()
+    End If
+End Sub
 	
 ````
 
@@ -170,25 +167,24 @@ The **"Roles"** column is mapped to a custom attribute in the [ItemDataBound eve
 
 ````C#
 	     
-	protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
-	{  
-	    DataRowView dataRow = (DataRowView)e.Item.DataItem;  
-	    e.Item.Attributes["Roles"] = dataRow["Roles"].ToString(); 
-	    e.Item.ToolTip = e.Item.Attributes["Roles"];
-	}
+protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
+{  
+    DataRowView dataRow = (DataRowView)e.Item.DataItem;  
+    e.Item.Attributes["Roles"] = dataRow["Roles"].ToString(); 
+    e.Item.ToolTip = e.Item.Attributes["Roles"];
+}
 				
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object,
-	                                            ByVal e As Telerik.Web.UI.RadPanelBarEventArgs)
-	                                            Handles RadPanelBar1.ItemDataBound
-	        Dim dataRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
-	        e.Item.Attributes("Roles") = dataRow("Roles").ToString()
-	        e.Item.ToolTip = e.Item.Attributes("Roles")
-	    End Sub
-	
-	
+Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object,
+                                        ByVal e As Telerik.Web.UI.RadPanelBarEventArgs)
+                                        Handles RadPanelBar1.ItemDataBound
+    Dim dataRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
+    e.Item.Attributes("Roles") = dataRow("Roles").ToString()
+    e.Item.ToolTip = e.Item.Attributes("Roles")
+End Sub
+		
 ````
 
 

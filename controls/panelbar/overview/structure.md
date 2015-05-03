@@ -31,39 +31,34 @@ One item in the panel bar can be designated as the Selected item. This is the la
 If the items are created at design time, the hierarchy is reflected in the ASP.NET declaration of the panel bar:
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" skin="Outlook">  
-	    <Items>    
-	        <telerik:RadPanelItem runat="server" Text="Mail">      
-	        <Items>       
-	             <telerik:RadPanelItem runat="server" Text="In Box" />        
-	             <telerik:RadPanelItem runat="server" Text="Deleted Items" />        
-	             <telerik:RadPanelItem runat="server" Text="Sent Items" />      
-	         </Items>   
-	         </telerik:RadPanelItem>   
-	         <telerik:RadPanelItem runat="server" Text="Calendar">      
-	             <Items>        
-	             <telerik:RadPanelItem runat="server">          
-	             <ItemTemplate>            
-	                <telerik:RadCalendar ID="RadCalendar1" runat="server" Skin="Outlook" />          
-	             </ItemTemplate>        
-	             </telerik:RadPanelItem>      
-	         </Items>   
-	         </telerik:RadPanelItem>  
-	          <telerik:RadPanelItem runat="server" Text="Notes">      
-	          <Items>         
-	              <telerik:RadPanelItem runat="server" Text="My Notes" />         
-	              <telerik:RadPanelItem runat="server" Text="Shared Notes" />         
-	              <telerik:RadPanelItem runat="server" IsSeparator="True" Text="&lt;hr&gt;" />         
-	              <telerik:RadPanelItem runat="server" Text="Archive">           
-	               <Items>               
-	                   <telerik:RadPanelItem runat="server" Text="My Notes" />               
-	                   <telerik:RadPanelItem runat="server" Text="Shared Notes" />            
-	               </Items>         
-	               </telerik:RadPanelItem>       
-	           </Items>    
-	           </telerik:RadPanelItem>  
-	       </Items>
-	       </telerik:radpanelbar>
+<telerik:RadPanelBar id="RadPanelBar1" runat="server" skin="Outlook">  
+	<Items>    
+		<telerik:RadPanelItem runat="server" Text="Mail">      
+			<Items>       
+				<telerik:RadPanelItem runat="server" Text="In Box" />        
+				<telerik:RadPanelItem runat="server" Text="Deleted Items" />        
+				<telerik:RadPanelItem runat="server" Text="Sent Items" />      
+			</Items>   
+		</telerik:RadPanelItem>   
+		<telerik:RadPanelItem runat="server" Text="Calendar">      
+			<Items>        
+				<telerik:RadPanelItem runat="server">          
+				<ItemTemplate>            
+					<telerik:RadCalendar ID="RadCalendar1" runat="server" Skin="Outlook" />          
+				</ItemTemplate>        
+				</telerik:RadPanelItem>      
+			</Items>   
+		</telerik:RadPanelItem>  
+		<telerik:RadPanelItem runat="server" Text="Notes">      
+			<Items>         
+				<telerik:RadPanelItem runat="server" Text="My Notes" />         
+				<telerik:RadPanelItem runat="server" Text="Shared Notes" />         
+				<telerik:RadPanelItem runat="server" IsSeparator="True" Text="&lt;hr&gt;" />         
+				<telerik:RadPanelItem runat="server" Text="Archive">           
+			<Items>                    
+		</telerik:RadPanelItem>       
+	</Items>
+</telerik:RadPanelBar>
 ````
 
 

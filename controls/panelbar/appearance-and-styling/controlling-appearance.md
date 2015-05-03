@@ -18,11 +18,11 @@ There are a number of ways you can customize the look & feel of your **RadPanelB
 
 * Use the **Height** and **Width** properties to limit the dimensions of the panel bar. Note that the Height property does not have an effect unless the **ExpandMode** is "FullExpandedItem".
 
->note For more information about expand modes, see[Expanding and Collapsing Items]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
+>note For more information about expand modes, see [Expanding and Collapsing Items]({%slug panelbar/radpanelbar-items/expanding-and-collapsing-items%}).
 >
 
 
-* Use the **Expanded**property of a **RadPanelItem** object to specify whether it appears expanded.
+* Use the **Expanded** property of a **RadPanelItem** object to specify whether it appears expanded.
 
 * Use the **PreventCollapse** property of a **RadPanelItem** object to specify whether it can be collapsed.
 

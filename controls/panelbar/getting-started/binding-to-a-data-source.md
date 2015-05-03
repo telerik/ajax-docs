@@ -26,11 +26,13 @@ This tutorial will show how to bind **RadPanelBar** to an **AccessDataSource**:
 
 5. In the **RadPanelBar** Smart Tag, use the **Skin** drop-down to change the [skin]({%slug panelbar/appearance-and-styling/skins%}) for the **RadPanelBar** to "Vista":![Vista Skin](images/panelbar_skinvista.png)
 
-6. Still in the Smart Tag, open the **Choose Data Source** drop-down and select **New Data Source**:![New Data Source](images/panelbar_newdatasource.png)
+6. Still in the Smart Tag, open the **Choose Data Source** drop-down and select **New Data Source**:
+	![New Data Source](images/panelbar_newdatasource.png)
 
 7. The Data Source Configuration Wizard appears. In the Select a DataSource Type screen, specify an **SqlDataSource** and click **OK.**![Choose A DataSourcecType](images/panelbar_chooseadatasourcetype.png)
 
-8. In the **Choose your Data Connection** screen, click the **Browse** button, and select the "NorthwindConnectionString". Then choose **Next** to continue:![Choose A Database](images/panelbar_chooseadatabase.png)
+8. In the **Choose your Data Connection** screen, click the **Browse** button, and select the "NorthwindConnectionString". Then choose **Next** to continue:
+	![Choose A Database](images/panelbar_chooseadatabase.png)
 
 9. In the **Configure the Select Statement** screen, choose **Specify columns from a table or view**.
 
@@ -47,10 +49,10 @@ This tutorial will show how to bind **RadPanelBar** to an **AccessDataSource**:
 	* Set the **DataFieldParentId** property to "ReportsTo".
 
 	* Set the **DataTextField** property to "FirstName":
-	![Data Fields](images/panelbar_datafields.png)
+		![Data Fields](images/panelbar_datafields.png)
 
 14. Run the application. The panel bar has a single root level item (for the one record with a null value in the "ReportsTo" field). When you expand this item, you can see level 1 items for every record that had Andrew's ID in the "ReportsTo" field. You can expand the item labelled "Steven" to see the level 2 items for records that had Steven's ID in the "ReportsTo" field:
-![Bound PanelBar](images/panelbar_bound.png)
+	![Bound PanelBar](images/panelbar_bound.png)
 
 # See Also
 

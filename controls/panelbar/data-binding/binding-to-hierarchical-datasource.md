@@ -26,46 +26,47 @@ The default site navigation provider is XML-based. It should stay in the root le
 
 Before adding the **SiteMapDataSource** control to your page, you need to add the Site Navigation Provider.
 
-1. In the Solution Explorer, choose **Add New Item**... In the templates dialog, select **Site Map**:![New SiteMap](images/panelbar_newsitemap.png)
+* In the Solution Explorer, choose **Add New Item**... In the templates dialog, select **Site Map**:![New SiteMap](images/panelbar_newsitemap.png)
 
-1. Click the Add button. Visual Studio generates the web.sitemap file with the initial code:
+* Click the Add button. Visual Studio generates the web.sitemap file with the initial code:
 
 ````XML
 	    
-	    <?xml version="1.0" encoding="utf-8" ?>
-	    <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-	      <siteMapNode url="" title=""  description="">
-	          <siteMapNode url="" title=""  description="" />
-	          <siteMapNode url="" title=""  description="" />
-	      </siteMapNode>
-	    </siteMap> 
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+      <siteMapNode url="" title=""  description="" />
+      <siteMapNode url="" title=""  description="" />
+  </siteMapNode>
+</siteMap> 
+
 ````
 
 
 
-1. Populate the Web.sitemap file. Here is an example:
+* Populate the Web.sitemap file. Here is an example:
 
 ````XML
-	    <?xml version="1.0" encoding= "utf-8" ?>
-	    <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-	    <siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page">
-	    <siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description ="Telerik RadControls for ASP.NET" >
-	    <siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>
-	    </siteMapNode>
-	    <siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description ="Telerik RadNavigation controls" />
-	    </siteMapNode>
-	    </siteMap>  
+
+<?xml version="1.0" encoding= "utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+<siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page">
+<siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description ="Telerik RadControls for ASP.NET" >
+<siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>
+</siteMapNode>
+<siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description ="Telerik RadNavigation controls" />
+</siteMapNode>
+</siteMap>  
+
 ````
-
-
 
 >caution The url must be unique for each node. Avoid using backslashes ('\') for your URLs. Backslashes may cause problems with some browsers. Instead, we use the slash character ('/').
 >
 
 
-1. Drag a **SiteMapDataSource** instance from the Toolbox to your Web page.
+* Drag a **SiteMapDataSource** instance from the Toolbox to your Web page.
 
-1. Set the **ShowStartingNode** property of the **SiteMapDataSource** component to **False**. This allows you to use multiple panel items at the root level.
+* Set the **ShowStartingNode** property of the **SiteMapDataSource** component to **False**. This allows you to use multiple panel items at the root level.
 
 ## Binding the SiteMapDataSource to Telerik RadPanelBar
 
@@ -85,19 +86,19 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 
 ````C#
 	     
-	protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
-	{ 
-	    e.Item.ToolTip = (string )DataBinder.Eval(e.Item.DataItem, "title"); 
-	    e.Item.Value = (string)DataBinder.Eval(e.Item.DataItem, "title") + "_Value";
-	}
+protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
+{ 
+    e.Item.ToolTip = (string )DataBinder.Eval(e.Item.DataItem, "title"); 
+    e.Item.Value = (string)DataBinder.Eval(e.Item.DataItem, "title") + "_Value";
+}
 				
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs)
-	        e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "title"))
-	        e.Item.Value = CStr(DataBinder.Eval(e.Item.DataItem, "title")) + "_Value"
-	    End Sub
+Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs)
+    e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "title"))
+    e.Item.Value = CStr(DataBinder.Eval(e.Item.DataItem, "title")) + "_Value"
+End Sub
 	
 ````
 
@@ -108,39 +109,39 @@ When binding to an **XmlDataSource**, **RadPanelBar** creates the panel item hie
 
 Consider the following example:
 
-1. Add the following xml file in the App_Data folder:
+* Add the following xml file in the App_Data folder:
 
 ````XML
-	    <?xml version="1.0" encoding= "utf-8" ?>
-	    <Items Text="">
-	    <Item Text="European cities" Url="" >
-	      <Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
-	      <Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
-	      <Item Text="Paris" Url="http://en.wikipedia.org/wiki/Paris" />
-	    </Item>
-	    <Item Text="North American cities" Url="">
-	      <Item Text="Boston" Url="http://en.wikipedia.org/wiki/Boston" />
-	      <Item Text="San Francisco" Url="http://en.wikipedia.org/wiki/San_Francisco" />
-	      <Item Text="Seattle" Url="http://en.wikipedia.org/wiki/Seattle" />
-	      <Item Text="Toronto" Url="http://en.wikipedia.org/wiki/Toronto" />
-	    </Item>
-	    <Item Text="South American cities" Url="">
-	      <Item Text="Rio de Janeiro" Url="http://en.wikipedia.org/wiki/Rio_De_Janeiro" />
-	      <Item Text="Buenos Aires" Url="http://en.wikipedia.org/wiki/Buenos_aires" />
-	    </Item>
-	    <Item Text="Asian cities" Url="">
-	      <Item Text="Tokyo" Url="http://en.wikipedia.org/wiki/Tokyo" />
-	      <Item Text="Seul" Url="http://en.wikipedia.org/wiki/Seul" />
-	      <Item Text="Beijing" Url="http://en.wikipedia.org/wiki/Beijing" />
-	      <Item Text="Tehran" Url="http://en.wikipedia.org/wiki/Teheran" />
-	    </Item>
-	    <Item Text="African cities" Url="">
-	      <Item Text="Kano" Url="http://en.wikipedia.org/wiki/Kano" />
-	      <Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
-	      <Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
-	    </Item>
-	    </Items> 
-	    </html>
+<?xml version="1.0" encoding= "utf-8" ?>
+<Items Text="">
+<Item Text="European cities" Url="" >
+  <Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
+  <Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
+  <Item Text="Paris" Url="http://en.wikipedia.org/wiki/Paris" />
+</Item>
+<Item Text="North American cities" Url="">
+  <Item Text="Boston" Url="http://en.wikipedia.org/wiki/Boston" />
+  <Item Text="San Francisco" Url="http://en.wikipedia.org/wiki/San_Francisco" />
+  <Item Text="Seattle" Url="http://en.wikipedia.org/wiki/Seattle" />
+  <Item Text="Toronto" Url="http://en.wikipedia.org/wiki/Toronto" />
+</Item>
+<Item Text="South American cities" Url="">
+  <Item Text="Rio de Janeiro" Url="http://en.wikipedia.org/wiki/Rio_De_Janeiro" />
+  <Item Text="Buenos Aires" Url="http://en.wikipedia.org/wiki/Buenos_aires" />
+</Item>
+<Item Text="Asian cities" Url="">
+  <Item Text="Tokyo" Url="http://en.wikipedia.org/wiki/Tokyo" />
+  <Item Text="Seul" Url="http://en.wikipedia.org/wiki/Seul" />
+  <Item Text="Beijing" Url="http://en.wikipedia.org/wiki/Beijing" />
+  <Item Text="Tehran" Url="http://en.wikipedia.org/wiki/Teheran" />
+</Item>
+<Item Text="African cities" Url="">
+  <Item Text="Kano" Url="http://en.wikipedia.org/wiki/Kano" />
+  <Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
+  <Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
+</Item>
+</Items> 
+</html>
 ````
 
 
@@ -165,35 +166,35 @@ Consider the following example:
 
 ````C#
 	     
-	protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
-	{  
-	    if (e.Item.Level > 0)
-	        //set tooltip only for child items   
-	    {                 
-	        XmlElement element = (XmlElement)e.Item.DataItem;     
-	        e.Item.ToolTip = "Read more about " + element.Attributes["Text"].Value;   
-	    }
-	}
+protected void RadPanelBar1_ItemDataBound( object sender, Telerik.Web.UI.RadPanelBarEventArgs e)
+{  
+    if (e.Item.Level > 0)
+        //set tooltip only for child items   
+    {                 
+        XmlElement element = (XmlElement)e.Item.DataItem;     
+        e.Item.ToolTip = "Read more about " + element.Attributes["Text"].Value;   
+    }
+}
 				
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs) Handles RadPanelBar1.ItemDataBound
-	
-	        If e.Item.Level > 0 Then
-	
-	            'set tooltip only for child items       
-	            Dim element As XmlElement = DirectCast(e.Item.DataItem, XmlElement)
-	            e.Item.ToolTip = "Read more about " + element.Attributes("Text").Value
-	        End If
-	    End Sub
+Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadPanelBarEventArgs) Handles RadPanelBar1.ItemDataBound
+
+    If e.Item.Level > 0 Then
+
+        'set tooltip only for child items       
+        Dim element As XmlElement = DirectCast(e.Item.DataItem, XmlElement)
+        e.Item.ToolTip = "Read more about " + element.Attributes("Text").Value
+    End If
+End Sub
 	
 ````
 
 
 # See Also
 
- * [Overview]({%slug panelbar/data-binding/overview%})
+ * [Data Binding Overview]({%slug panelbar/data-binding/overview%})
 
  * [Using DataBindings]({%slug panelbar/data-binding/using-databindings%})
 

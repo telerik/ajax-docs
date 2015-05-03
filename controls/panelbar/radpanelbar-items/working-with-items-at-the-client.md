@@ -19,23 +19,23 @@ position: 4
 To add an item, use the **add** or **insert** method of the item collection:
 
 ````JavaScript
-	     
-	
-	function AddNewItems()
-	{
-	    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	    var rootItem = new Telerik.Web.UI.RadPanelItem();
-	    rootItem.set_text("New Root Item");
-	    var childItem = new Telerik.Web.UI.RadPanelItem();
-	    childItem.set_text("New Child Item");
-	    var firstChild = new Telerik.Web.UI.RadPanelItem();
-	    firstChild.set_text("New First Child");
-	    panelBar.trackChanges();
-	    panelBar.get_items().add(rootItem);
-	    rootItem.get_items().add(childItem);
-	    panelBar.get_items().getItem(0).get_items().insert(0, firstChild);
-	    panelBar.commitChanges();      
-	}			
+	     	
+function AddNewItems()
+{
+    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+    var rootItem = new Telerik.Web.UI.RadPanelItem();
+    rootItem.set_text("New Root Item");
+    var childItem = new Telerik.Web.UI.RadPanelItem();
+    childItem.set_text("New Child Item");
+    var firstChild = new Telerik.Web.UI.RadPanelItem();
+    firstChild.set_text("New First Child");
+    panelBar.trackChanges();
+    panelBar.get_items().add(rootItem);
+    rootItem.get_items().add(childItem);
+    panelBar.get_items().getItem(0).get_items().insert(0, firstChild);
+    panelBar.commitChanges();      
+}
+			
 ````
 
 
@@ -46,17 +46,17 @@ Use the **remove** or **removeAt** method of the item collection to remove items
 
 ````JavaScript
 	
-	function RemoveItem() {
-	    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	    var panelItem = panelBar.findItemByText("delete me");
-	    if (panelItem) {
-	        var parentItem = panelItem.get_parent();
-	        panelBar.trackChanges();
-	        parentItem.get_items().remove(panelItem);
-	        // or parentItem.get_items().removeAt(panelItem.get_index());
-	        panelBar.commitChanges();
-	    }
-	}
+function RemoveItem() {
+    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+    var panelItem = panelBar.findItemByText("delete me");
+    if (panelItem) {
+        var parentItem = panelItem.get_parent();
+        panelBar.trackChanges();
+        parentItem.get_items().remove(panelItem);
+        // or parentItem.get_items().removeAt(panelItem.get_index());
+        panelBar.commitChanges();
+    }
+}
 				
 ````
 
@@ -68,25 +68,25 @@ Use the **disable** and **enable** methods of the item collection to disable or 
 
 ````JavaScript
 	
-	function DisableItem() {
-	    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	    var panelItem = panelBar.findItemByText("disable me");
-	    if (panelItem) {
-	        panelBar.trackChanges();
-	        panelItem.disable();
-	        panelBar.commitChanges();
-	    }
-	}
-	
-	function EnableItem() {
-	    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	    var panelItem = panelBar.findItemByText("enable me");
-	    if (panelItem && !panelItem.get_isEnabled()) {
-	        panelBar.trackChanges();
-	        panelItem.enable();
-	        panelBar.commitChanges();
-	    }
-	}
+function DisableItem() {
+    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+    var panelItem = panelBar.findItemByText("disable me");
+    if (panelItem) {
+        panelBar.trackChanges();
+        panelItem.disable();
+        panelBar.commitChanges();
+    }
+}
+
+function EnableItem() {
+    var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+    var panelItem = panelBar.findItemByText("enable me");
+    if (panelItem && !panelItem.get_isEnabled()) {
+        panelBar.trackChanges();
+        panelItem.enable();
+        panelBar.commitChanges();
+    }
+}
 				
 ````
 

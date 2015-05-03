@@ -14,33 +14,34 @@ position: 5
 
 You can easily load the items of a panel bar from an XML source, as long as the source conforms to the following structure:
 
-1. The top level consists of a single node, called <PanelBar>. This node can include attributes for the **RadPanelBar** properties:
+* The top level consists of a single node, called `<PanelBar>`. This node can include attributes for the **RadPanelBar** properties:
 
 ````XML
-	    <?xml version="1.0" encoding="utf-8" ?>
-	    <PanelBar Skin="Outlook">
-	       ...
-	    </PanelBar>
+
+<?xml version="1.0" encoding="utf-8" ?>
+<PanelBar Skin="Outlook">
+   ...
+</PanelBar>
 	
 ````
 
 
 
-1. Immediately below the <PanelBar> node is a set of <Item> nodes, which represent the root items in the panel bar. The attributes of the <Item> node correspond to the properties and custom attributes of the panel item. Any child items are represented by <Item> nodes nested within the parent <Item> node:
+* Immediately below the `<PanelBar>` node is a set of `<Item>` nodes, which represent the root items in the panel bar. The attributes of the `<Item>` node correspond to the properties and custom attributes of the panel item. Any child items are represented by `<Item>` nodes nested within the parent `<Item>` node:
 
 ````XML
-	    <Item Text="Products" Expanded="True" >
-	     <Item Text="RadEditor" />
-	     <Item Text="RadPanelBar" />
-	     <Item Text="RadMenu" />
-	     <Item Text="RadTabStrip" />
-	    </Item>
-	    <Item Text="Support" >
-	     <Item Text="Knowledge Base" />
-	     <Item Text="Forums" />
-	     <Item Text="Articles" />
-	     <Item Text="FAQ" />
-	    </Item> 
+<Item Text="Products" Expanded="True" >
+	<Item Text="RadEditor" />
+	<Item Text="RadPanelBar" />
+	<Item Text="RadMenu" />
+	<Item Text="RadTabStrip" />
+</Item>
+<Item Text="Support" >
+	<Item Text="Knowledge Base" />
+	<Item Text="Forums" />
+	<Item Text="Articles" />
+	<Item Text="FAQ" />
+</Item> 
 ````
 
 
@@ -59,12 +60,12 @@ Create an XML file with content that complies with the rules described above and
 
 ````C#
 	     
-			RadMenu1.LoadContentFile("~/App_Data/panelBar.xml");
+RadMenu1.LoadContentFile("~/App_Data/panelBar.xml");
 				
 ````
 ````VB.NET
 	
-			RadMenu1.LoadContentFile("~/App_Data/panelBar.xml")
+RadMenu1.LoadContentFile("~/App_Data/panelBar.xml")
 	
 ````
 
@@ -76,34 +77,32 @@ Create a string with valid XML content (or fetch it from a database, for example
 
 
 ````C#
-	     
-	
-	    StringBuilder sb = new StringBuilder();
-	    sb.Append("<PanelBar>");
-	    sb.Append(" <Item Text='Root1'>");
-	    sb.Append("   <Item Text='Child11'/>");
-	    sb.Append(" </Item>");
-	    sb.Append("</PanelBar>");
-	    string xmlString = sb.ToString();
-	    RadPanelBar1.LoadXml(xmlString);
+	     	
+StringBuilder sb = new StringBuilder();
+sb.Append("<PanelBar>");
+sb.Append(" <Item Text='Root1'>");
+sb.Append("   <Item Text='Child11'/>");
+sb.Append(" </Item>");
+sb.Append("</PanelBar>");
+string xmlString = sb.ToString();
+RadPanelBar1.LoadXml(xmlString);
 				
 ````
 ````VB.NET
 	
-	
-	    Dim sb As New StringBuilder()
-	    sb.Append("<PanelBar>")
-	    sb.Append(" <Item Text='Root1'>")
-	    sb.Append(" <Item Text='Child11'/>")
-	    sb.Append(" </Item>")
-	    sb.Append("</PanelBar>")
-	    Dim xmlString As String = sb.ToString()
-	    RadPanelBar1.LoadXml(xmlString)
+Dim sb As New StringBuilder()
+sb.Append("<PanelBar>")
+sb.Append(" <Item Text='Root1'>")
+sb.Append(" <Item Text='Child11'/>")
+sb.Append(" </Item>")
+sb.Append("</PanelBar>")
+Dim xmlString As String = sb.ToString()
+RadPanelBar1.LoadXml(xmlString)
 	
 ````
 
 
->note You can also populate **RadPanelBar** from an XML file or string using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See[Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%})for details.
+>note You can also populate **RadPanelBar** from an XML file or string using an **XmlDataSource** component. When using **XmlDataSource** , the XML file does not have to follow the format shown in this topic. See [Binding to Hierarchical DataSource Components]({%slug panelbar/data-binding/binding-to-hierarchical-datasource%}) for details.
 >
 
 
@@ -115,12 +114,12 @@ You can use the **GetXml** method to get the XML content of a panel bar and then
 
 ````C#
 	     
-		RadPanelBar2.LoadXml(RadPanelBar1.GetXml());
+RadPanelBar2.LoadXml(RadPanelBar1.GetXml());
 				
 ````
 ````VB.NET
 	
-		RadPanelBar2.LoadXml(RadPanelBar1.GetXml()) 
+RadPanelBar2.LoadXml(RadPanelBar1.GetXml()) 
 	
 ````
 

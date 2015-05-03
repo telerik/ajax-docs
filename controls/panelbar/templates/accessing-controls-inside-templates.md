@@ -20,16 +20,16 @@ In order to access a control (a CheckBox in the particular example) embedded in 
 	    <telerik:RadButton runat="server" ID="button0" Text="UncheckCheckBox" OnClick="button0_Click">
 	        </telerik:RadButton> 
 	        <telerik:RadPanelBar ID="RadPanelBar0" runat="server">
-	            <Items>
-	                <telerik:RadPanelItem Text="PanleItem1">
-	                    <HeaderTemplate>
-	                        <asp:CheckBox runat="server" ID="checkBox1" Text="CheckBox1" Checked="true" />
-	                    </HeaderTemplate>
-	                    <ContentTemplate>
-	                    </ContentTemplate>
-	                </telerik:RadPanelItem>
-	            </Items>
-	        </telerik:RadPanelBar>
+	        <Items>
+	            <telerik:RadPanelItem Text="PanleItem1">
+	                <HeaderTemplate>
+	                    <asp:CheckBox runat="server" ID="checkBox1" Text="CheckBox1" Checked="true" />
+	                </HeaderTemplate>
+	                <ContentTemplate>
+	                </ContentTemplate>
+	            </telerik:RadPanelItem>
+	        </Items>
+	    </telerik:RadPanelBar>
 ````
 
 
@@ -65,17 +65,17 @@ If your **RadPanelBar** has items with content templates you can access the cont
 For example, use the following panel bar:
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server">    
-	    <Items>        
-	        <telerik:RadPanelItem Text="Color Picker" runat="server">            
-	        <ContentTemplate>                
-	            <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">              
-	             </telerik:RadColorPicker>    
-	             <asp:Label ID="Label1" runat="server" BackColor="White"> Example</asp:Label>            
-	          </ContentTemplate>        
-	         </telerik:RadPanelItem>    
-	     </Items>
-	     </telerik:radpanelbar>
+<telerik:radpanelbar id="RadPanelBar1" runat="server">    
+<Items>        
+    <telerik:RadPanelItem Text="Color Picker" runat="server">            
+    <ContentTemplate>                
+        <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">              
+         </telerik:RadColorPicker>    
+         <asp:Label ID="Label1" runat="server" BackColor="White"> Example</asp:Label>            
+      </ContentTemplate>        
+     </telerik:RadPanelItem>    
+</Items>
+</telerik:radpanelbar>
 ````
 
 
@@ -88,17 +88,17 @@ Now in the **ColorChanged** event handler, the following code locates and update
 
 ````C#
 	
-	    protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
-	    {
-	        Label1.ForeColor = RadColorPicker1.SelectedColor;
-	    }
+protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
+{
+    Label1.ForeColor = RadColorPicker1.SelectedColor;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs)
-	        Label1.ForeColor = RadColorPicker1.SelectedColor
-	    End Sub
+Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs)
+    Label1.ForeColor = RadColorPicker1.SelectedColor
+End Sub
 	
 ````
 
@@ -120,21 +120,21 @@ If your **RadPanelBar** has items with item templates that have embedded control
 For example, consider the following panel bar:
 
 ````ASPNET
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server">  
-	    <Items >    
-	        <telerik:RadPanelItem Text="Color Picker" runat="server">      
-	        <Items>        
-	            <telerik:RadPanelItem runat="server" >            
-	            <ItemTemplate>                
-	                <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">               
-	                 </telerik:RadColorPicker>                
-	                 <asp:Label ID="Label1" runat="server" BackColor="White"> Example </asp:Label>            
-	             </ItemTemplate>        
-	             </telerik:RadPanelItem>      
-	         </Items>   
-	         </telerik:RadPanelItem> 
-	     </Items >
-	     </telerik:radpanelbar>
+<telerik:radpanelbar id="RadPanelBar1" runat="server">  
+<Items >    
+    <telerik:RadPanelItem Text="Color Picker" runat="server">      
+    <Items>        
+        <telerik:RadPanelItem runat="server" >            
+        <ItemTemplate>                
+            <telerik:RadColorPicker ID="RadColorPicker1" runat="server" AutoPostBack="True" Preset="Standard" OnColorChanged="RadColorPicker1_ColorChanged">               
+             </telerik:RadColorPicker>                
+             <asp:Label ID="Label1" runat="server" BackColor="White"> Example </asp:Label>            
+         </ItemTemplate>        
+         </telerik:RadPanelItem>      
+     </Items>   
+     </telerik:RadPanelItem> 
+</Items >
+</telerik:radpanelbar>
 ````
 
 
@@ -147,21 +147,21 @@ In the **ColorChanged** event handler, the following code locates and updates th
 
 ````C#
 	
-	    protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
-	    {
-	        RadColorPicker picker = sender as RadColorPicker;
-	        Label label = picker.Parent.FindControl("Label1") as Label;
-	        label.ForeColor = picker.SelectedColor;
-	    }
+protected void RadColorPicker1_ColorChanged(object sender, EventArgs e)
+{
+    RadColorPicker picker = sender as RadColorPicker;
+    Label label = picker.Parent.FindControl("Label1") as Label;
+    label.ForeColor = picker.SelectedColor;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadColorPicker1.ColorChanged
-	        Dim picker As RadColorPicker = CType(sender, RadColorPicker)
-	        Dim label As Label = CType(picker.Parent.FindControl("Label1"), Label)
-	        label.ForeColor = picker.SelectedColor
-	    End Sub
+Protected Sub RadColorPicker1_ColorChanged(ByVal sender As Object, ByVal e As EventArgs) Handles RadColorPicker1.ColorChanged
+    Dim picker As RadColorPicker = CType(sender, RadColorPicker)
+    Dim label As Label = CType(picker.Parent.FindControl("Label1"), Label)
+    label.ForeColor = picker.SelectedColor
+End Sub
 	
 ````
 
@@ -171,9 +171,9 @@ In the **ColorChanged** event handler, the following code locates and updates th
 ````JavaScript
 	     
 	
-	var panelbar = $find("<%= RadPanelBar1.ClientID %>");
-	var item = panelbar.findItemByText("ColorPicker");
-	var datePicker = item.findControl("RadColorPicker1");
+var panelbar = $find("<%= RadPanelBar1.ClientID %>");
+var item = panelbar.findItemByText("ColorPicker");
+var datePicker = item.findControl("RadColorPicker1");
 				
 ````
 
@@ -182,9 +182,8 @@ In the **ColorChanged** event handler, the following code locates and updates th
 or
 
 ````JavaScript
-	
-	   
-	   var datePicker = $find('<%= RadPanelBar1.FindItemByText("ColorPicker").FindControl("RadColorPicker1").ClientID %>');
+		   
+var datePicker = $find('<%= RadPanelBar1.FindItemByText("ColorPicker").FindControl("RadColorPicker1").ClientID %>');
 	          
 ````
 

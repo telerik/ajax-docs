@@ -12,11 +12,11 @@ position: 4
 
 
 
-**RadPanelBar** uses **skins** to control the overall look-and-feel of the panel bar. A skin is a set of images and a CSS stylesheet that can be applied to the panel bar elements (items, images, etc.) and defines their look and feel. To apply a skin to the panel bar, set its **Skin** property, either using the properties pane or the **RadPanelBar**[Smart Tag]({%slug panelbar/design-time/smart-tag%}).
+**RadPanelBar** uses **skins** to control the overall look-and-feel of the panel bar. A skin is a set of images and a CSS stylesheet that can be applied to the panel bar elements (items, images, etc.) and defines their look and feel. To apply a skin to the panel bar, set its **Skin** property, either using the properties pane or the **RadPanelBar** [Smart Tag]({%slug panelbar/design-time/smart-tag%}).
 
 **RadPanelBar** is installed with a number of preset skins:![PanelBar Skins](images/panelbar_skins_thumb.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 
