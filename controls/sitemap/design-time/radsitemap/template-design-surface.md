@@ -10,15 +10,15 @@ position: 2
 
 # Template Design Surface
 
-
-
 ## 
 
 The **Template Design Surface** lets you design templates for the items that appear in the sitemap. There are two ways to display the Template Design Surface:
 
-* Choose **Edit Templates** from the RadSiteMap [Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}):![RadSiteMap Edit Templates](images/sitemap_edittemplates.png)
+* Choose **Edit Templates** from the RadSiteMap [Smart Tag]({%slug sitemap/design-time/radsitemap/smart-tag%}):
+![RadSiteMap Edit Templates](images/sitemap_edittemplates.png)
 
-* Choose **Edit Template** from the RadSiteMap context menu and select the type of template you want to edit:![RadSiteMap Edit Tempate Type](images/sitemap_edittemplatetype.png)
+* Choose **Edit Template** from the RadSiteMap context menu and select the type of template you want to edit:
+![RadSiteMap Edit Tempate Type](images/sitemap_edittemplatetype.png)
 
 Either way, The Template Design Surface appears:
 

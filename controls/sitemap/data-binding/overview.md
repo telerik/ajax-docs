@@ -10,8 +10,6 @@ position: 0
 
 # Data Binding Overview
 
-
-
 ## 
 
 **RadSiteMap** supports binding to various types of data sources:
@@ -20,7 +18,7 @@ position: 0
 
 * Hierarchical DataSource components
 
-To bind the **RadSiteMap** to a data source, specify the data source as the value of the**DataSource** property and call the **DataBind** method. If you are using declarative data sources such as SiteMapDataSource, use the **DataSourceID** property instead of the DataSource property.
+To bind the **RadSiteMap** to a data source, specify the data source as the value of the **DataSource** property and call the **DataBind** method. If you are using declarative data sources such as SiteMapDataSource, use the **DataSourceID** property instead of the DataSource property.
 
 Usually, you also want to do one or more of the following:
 
@@ -37,20 +35,17 @@ Usually, you also want to do one or more of the following:
 3. If the data source contains fields that map to other properties of the nodes or to custom attributes, use the [NodeDataBound]({%slug sitemap/server-side-programming/nodedatabound%}) event to set those values:
 
 
-
-
-
 ````C#
-	    protected void RadSiteMap1_NodeDataBound(object sender, RadSiteMapNodeEventArgs e) 
-	    { 
-	        DataRowView nodeData = e.Node.DataItem as DataRowView; 
-	        e.Node.ToolTip = nodeData["tooltipColumn"].ToString(); 
-	    }
+protected void RadSiteMap1_NodeDataBound(object sender, RadSiteMapNodeEventArgs e) 
+{ 
+    DataRowView nodeData = e.Node.DataItem as DataRowView; 
+    e.Node.ToolTip = nodeData["tooltipColumn"].ToString(); 
+}
 ````
 ````VB.NET
-	    Protected Sub RadSiteMap1_NodeDataBound(ByVal sender As Object, ByVal e As RadSiteMapNodeEventArgs)
-	        Dim nodeData As DataRowView = TryCast(e.Node.DataItem, DataRowView)
-	        e.Node.ToolTip = nodeData("tooltipColumn").ToString()
-	    End Sub
+Protected Sub RadSiteMap1_NodeDataBound(ByVal sender As Object, ByVal e As RadSiteMapNodeEventArgs)
+    Dim nodeData As DataRowView = TryCast(e.Node.DataItem, DataRowView)
+    e.Node.ToolTip = nodeData("tooltipColumn").ToString()
+End Sub
 ````
 
