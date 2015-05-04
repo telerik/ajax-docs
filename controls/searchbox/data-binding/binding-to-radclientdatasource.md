@@ -25,25 +25,25 @@ The RadSearchBox property **MaxResultCount** works in exactly the same manner as
 The following application scenario shows an example of RadSearchBox bound to RadClientDataSource.
 
 ````ASPNET
-	        <telerik:RadClientDataSource runat="server" ID="CD1">
-	            <ClientEvents />
-	            <DataSource>
-	                <WebServiceDataSourceSettings BaseUrl="http://localhost:58888/CDIntegration/Service.svc/">
-	                    <Select Url="LoadCustomDataWCF" DataType="JSON" RequestType="Post" ContentType="application/json; charset=utf-8" />
-	                </WebServiceDataSourceSettings>
-	            </DataSource>
-	
-	            <Schema DataName="d">
-	            </Schema>
-	            <ClientEvents />
-	        </telerik:RadClientDataSource>
-	        <br />
-	        <telerik:RadSearchBox ID="RadSearchBox2" MaxResultCount="2" Filter="StartsWith" runat="server"
-	            DataTextField="Name"
-	            DataValueField="Value"
-	            ClientDataSourceID="CD1">
-	            <DropDownSettings Height="150" Width="250" />
-	        </telerik:RadSearchBox>
+<telerik:RadClientDataSource runat="server" ID="CD1">
+	<ClientEvents />
+	<DataSource>
+		<WebServiceDataSourceSettings BaseUrl="http://localhost:58888/CDIntegration/Service.svc/">
+			<Select Url="LoadCustomDataWCF" DataType="JSON" RequestType="Post" ContentType="application/json; charset=utf-8" />
+		</WebServiceDataSourceSettings>
+	</DataSource>
+
+	<Schema DataName="d">
+	</Schema>
+	<ClientEvents />
+</telerik:RadClientDataSource>
+
+<telerik:RadSearchBox ID="RadSearchBox2" MaxResultCount="2" Filter="StartsWith" runat="server"
+	DataTextField="Name"
+	DataValueField="Value"
+	ClientDataSourceID="CD1">
+	<DropDownSettings Height="150" Width="250" />
+</telerik:RadSearchBox>
 ````
 
 
@@ -52,72 +52,72 @@ The following application scenario shows an example of RadSearchBox bound to Rad
 
 ````C#
 	    [OperationContract]
-	    public CustomData[] LoadCustomDataWCF()
-	    {
-	        NorthwindReadOnlyDataContext northwind = new NorthwindReadOnlyDataContext();
-	
-	        //Get all items from the Customers table. This query will not be executed untill the ToArray method is called.
-	        var allCustomers = (from customer in northwind.Customers
-	                            orderby customer.ContactName
-	                            select new CustomData
-	                            {
-	                                Name = customer.ContactName,
-	                                Value = customer.CustomerID
-	                            }).Take<CustomData>(46);
-	
-	        var result = allCustomers.ToArray();
-	
-	        return result;
-	    }
-	
-	    public class CustomData
-	    {
-	        public string Name { get; set; }
-	        public string Value { get; set; }
-	
-	    }
+public CustomData[] LoadCustomDataWCF()
+{
+	NorthwindReadOnlyDataContext northwind = new NorthwindReadOnlyDataContext();
+
+	//Get all items from the Customers table. This query will not be executed untill the ToArray method is called.
+	var allCustomers = (from customer in northwind.Customers
+						orderby customer.ContactName
+						select new CustomData
+						{
+							Name = customer.ContactName,
+							Value = customer.CustomerID
+						}).Take<CustomData>(46);
+
+	var result = allCustomers.ToArray();
+
+	return result;
+}
+
+public class CustomData
+{
+	public string Name { get; set; }
+	public string Value { get; set; }
+
+}
 ````
 ````VB.NET
-	    Inherits System.Web.UI.Page
-	    <OperationContract> _
-	    Public Function LoadCustomDataWCF() As CustomData()
-	        Dim northwind As New NorthwindReadOnlyDataContext()
-	
-	        'Get all items from the Customers table. This query will not be executed untill the ToArray method is called.
-		Dim allCustomers = (From customer In northwind.CustomersOrder By customer.ContactNameNew CustomData() With { _
-			Key .Name = customer.ContactName, _
-			Key .Value = customer.CustomerID _
-		}).Take(Of CustomData)(46)
-	
-	        Dim result = allCustomers.ToArray()
-	
-	        Return result
-	    End Function
-	
-	    Public Class CustomData
-	        Public Property Name() As String
-	            Get
-	                Return m_Name
-	            End Get
-	            Set(value As String)
-	                m_Name = Value
-	            End Set
-	        End Property
-	        Private m_Name As String
-	        Public Property Value() As String
-	            Get
-	                Return m_Value
-	            End Get
-	            Set(value As String)
-	                m_Value = Value
-	            End Set
-	        End Property
-	        Private m_Value As String
-	
-	    End Class
-	#End Region
-	
-	End Class
+Inherits System.Web.UI.Page
+<OperationContract> _
+Public Function LoadCustomDataWCF() As CustomData()
+	Dim northwind As New NorthwindReadOnlyDataContext()
+
+	'Get all items from the Customers table. This query will not be executed untill the ToArray method is called.
+Dim allCustomers = (From customer In northwind.CustomersOrder By customer.ContactNameNew CustomData() With { _
+	Key .Name = customer.ContactName, _
+	Key .Value = customer.CustomerID _
+}).Take(Of CustomData)(46)
+
+	Dim result = allCustomers.ToArray()
+
+	Return result
+End Function
+
+Public Class CustomData
+	Public Property Name() As String
+		Get
+			Return m_Name
+		End Get
+		Set(value As String)
+			m_Name = Value
+		End Set
+	End Property
+	Private m_Name As String
+	Public Property Value() As String
+		Get
+			Return m_Value
+		End Get
+		Set(value As String)
+			m_Value = Value
+		End Set
+	End Property
+	Private m_Value As String
+
+End Class
+#End Region
+
+End Class
 ````
 
 

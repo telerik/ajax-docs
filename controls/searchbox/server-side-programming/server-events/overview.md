@@ -12,8 +12,6 @@ position: 0
 
 
 
-## Server-side Events
-
 **RadSearchBox** supports a number of server-side events that let you respond to complex actions at the server.
 
 * [OnSearch]({%slug searchbox/server-side-programming/server-events/onsearch%})

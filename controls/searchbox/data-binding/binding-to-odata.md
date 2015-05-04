@@ -19,25 +19,25 @@ RadSearchBox can be bound to an OData service through the RadODataDataSource con
 
 
 ````ASPNET
-			 <telerik:RadODataDataSource runat="server" ID="DataSource1">
-	            <Transport>
-	                <Read Url="http://demos.kendoui.com/service/Northwind.svc/"></Read>
-	            </Transport>
-	            <Schema>
-	                <telerik:DataModel ModelID="Product" Set="Products">
-	                    <telerik:DataModelField FieldName="ProductID" />
-	                    <telerik:DataModelField FieldName="ProductName" />
-	                </telerik:DataModel>
-	            </Schema>
-	        </telerik:RadODataDataSource>
-	
-	        <telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
-	            ODataDataSourceID="DataSource1"
-	            DataModelID="Product"
-	            DataKeyNames="ProductID, ProductName"
-	            DataValueField="ProductID"
-	            DataTextField="ProductName">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
+<telerik:RadODataDataSource runat="server" ID="DataSource1">
+	<Transport>
+		<Read Url="http://demos.kendoui.com/service/Northwind.svc/"></Read>
+	</Transport>
+	<Schema>
+		<telerik:DataModel ModelID="Product" Set="Products">
+			<telerik:DataModelField FieldName="ProductID" />
+			<telerik:DataModelField FieldName="ProductName" />
+		</telerik:DataModel>
+	</Schema>
+</telerik:RadODataDataSource>
+
+<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+	ODataDataSourceID="DataSource1"
+	DataModelID="Product"
+	DataKeyNames="ProductID, ProductName"
+	DataValueField="ProductID"
+	DataTextField="ProductName">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
 ````
 

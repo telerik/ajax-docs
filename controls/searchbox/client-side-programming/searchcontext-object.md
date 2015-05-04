@@ -8,11 +8,9 @@ published: True
 position: 1
 ---
 
-# SearchContext Object
+# SearchContext Client Object
 
 
-
-## SearchContext Client Object
 
 The following table lists the most important methods of the client-side **SearchContext** object:
 

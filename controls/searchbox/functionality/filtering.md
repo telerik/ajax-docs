@@ -12,8 +12,6 @@ position: 3
 
 
 
-## Filtering
-
 The **RadSearchBox** provides inbuilt server-side filtering functionality.
 
 There are two **filtering** options available:

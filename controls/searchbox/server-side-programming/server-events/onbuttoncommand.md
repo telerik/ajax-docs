@@ -12,7 +12,6 @@ position: 2
 
 
 
-## OnButtonCommand
 
 The **OnButtonCommand** event is raised when an image button is clicked.
 
@@ -22,6 +21,6 @@ The event handler receives two parameters:
 
 1. An event arguments parameter that contains the following properties:
 
-* **CommandName** -returns the command name.
+	* **CommandName** -returns the command name.
 
-* **CommandArgument** -returns the command argument.
+	* **CommandArgument** -returns the command argument.

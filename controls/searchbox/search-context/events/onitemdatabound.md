@@ -28,15 +28,15 @@ The **ItemDataBound** event occurs for each item that is added to the Items coll
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadSearchBox3.SearchContext.ItemDataBound += SearchContext_ItemDataBound;
-	    }
-	
-	    void SearchContext_ItemDataBound(object sender, SearchBoxContextItemEventArgs e)
-	    {
-	        e.Item.ImageUrl = ((DataRowView)e.Item.DataItem)["PhotoPath"].ToString();
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadSearchBox3.SearchContext.ItemDataBound += SearchContext_ItemDataBound;
+}
+
+void SearchContext_ItemDataBound(object sender, SearchBoxContextItemEventArgs e)
+{
+	e.Item.ImageUrl = ((DataRowView)e.Item.DataItem)["PhotoPath"].ToString();
+}
 	
 ````
 ````VB.NET

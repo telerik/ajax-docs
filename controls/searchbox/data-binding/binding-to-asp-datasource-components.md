@@ -33,17 +33,17 @@ You can also set the **DataKeyNames** property to add additional fields from the
 Here is a sample that shows how to achieve binding with SqlDataSource.
 
 ````ASPNET
-			 <telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
-	            DataSourceID="SqlDataSource1"
-	            DataValueField="ProductId"
-	            DataTextField="ProductName">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
-	        
-	        <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
-	            ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>" 
-	            SelectCommand="SELECT * FROM [Products]">
-	        </asp:SqlDataSource>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox1" 
+	DataSourceID="SqlDataSource1"
+	DataValueField="ProductId"
+	DataTextField="ProductName">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
+
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+	ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>" 
+	SelectCommand="SELECT * FROM [Products]">
+</asp:SqlDataSource>
 ````
 
 
@@ -53,15 +53,15 @@ Here is a sample that shows how to achieve binding with SqlDataSource.
 Here is a sample that shows how to achieve binding with LinqDataSource.
 
 ````ASPNET
-		      <asp:LinqDataSource runat="server" ID="LinqDataSource1" ContextTypeName="LinqToSqlReadOnly.NorthwindReadOnlyDataContext"
-	            OrderBy="ContactName" Select="new (ContactName, City, ContactTitle)" TableName="Customers">
-	        </asp:LinqDataSource>
-	
-	         <telerik:RadSearchBox runat="server" ID="RadSearchBox2"  EmptyMessage="Linq"
-	            DataSourceID="LinqDataSource1" DataValueField="ContactName"
-	            DataTextField="City">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
+<asp:LinqDataSource runat="server" ID="LinqDataSource1" ContextTypeName="LinqToSqlReadOnly.NorthwindReadOnlyDataContext"
+	OrderBy="ContactName" Select="new (ContactName, City, ContactTitle)" TableName="Customers">
+</asp:LinqDataSource>
+
+ <telerik:RadSearchBox runat="server" ID="RadSearchBox2"  EmptyMessage="Linq"
+	DataSourceID="LinqDataSource1" DataValueField="ContactName"
+	DataTextField="City">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
 	       
 ````
 
@@ -72,15 +72,15 @@ Here is a sample that shows how to achieve binding with LinqDataSource.
 Here is a sample how to doe how to achieve it with EntityDateSource.
 
 ````ASPNET
-	        <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities35"
-	            DefaultContainerName="NorthwindEntities35" EntitySetName="Customers" Select="it.[ContactName], it.[City], it.[ContactTitle]"
-	            AutoPage="true" OrderBy="it.[ContactName]">
-	        </asp:EntityDataSource>
-	        <telerik:RadSearchBox runat="server" ID="RadSearchBox3"  EmptyMessage="Entity"
-	            DataSourceID="EntityDataSource1" DataValueField="ContactName"
-	            DataTextField="City">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
+<asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities35"
+	DefaultContainerName="NorthwindEntities35" EntitySetName="Customers" Select="it.[ContactName], it.[City], it.[ContactTitle]"
+	AutoPage="true" OrderBy="it.[ContactName]">
+</asp:EntityDataSource>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox3"  EmptyMessage="Entity"
+	DataSourceID="EntityDataSource1" DataValueField="ContactName"
+	DataTextField="City">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
 ````
 
 
@@ -90,13 +90,13 @@ Here is a sample how to doe how to achieve it with EntityDateSource.
 Here is a sample that shows how to achieve binding with ObjectDateSource.
 
 ````ASPNET
-	       <telerik:RadSearchBox runat="server" ID="RadSearchBox4"  EmptyMessage="Object"
-	            DataSourceID="ObjectDataSource1" DataValueField="ID"
-	            DataTextField="Text">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
-	        <asp:ObjectDataSource ID="ObjectDataSource1" TypeName="SearchBoxDataObject" SelectMethod="GetItems"
-	            runat="server"></asp:ObjectDataSource>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox4"  EmptyMessage="Object"
+	DataSourceID="ObjectDataSource1" DataValueField="ID"
+	DataTextField="Text">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
+<asp:ObjectDataSource ID="ObjectDataSource1" TypeName="SearchBoxDataObject" SelectMethod="GetItems"
+	runat="server"></asp:ObjectDataSource>
 	
 ````
 
@@ -106,89 +106,89 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 
 ````C#
 	
-	public class SearchBoxDataObject
+public class SearchBoxDataObject
+{
+	public SearchBoxDataObject() { }
+	public static List<SearchBoxDataItem> GetItems()
 	{
-	    public SearchBoxDataObject() { }
-	    public static List<SearchBoxDataItem> GetItems()
-	    {
-	        List<SearchBoxDataItem> itemsList = new List<SearchBoxDataItem>();
-	        itemsList.Add(new SearchBoxDataItem(1, "item 1"));
-	        itemsList.Add(new SearchBoxDataItem(2, "item 2"));
-	        itemsList.Add(new SearchBoxDataItem(3, "item 3"));
-	        return itemsList;
-	    }
-	    public class SearchBoxDataItem
-	    {
-	        private string _text;
-	        private int _id;
-	        public string Text
-	        {
-	            get
-	            {
-	                return _text;
-	            }
-	            set
-	            {
-	                _text = value;
-	            }
-	        }
-	        public int ID
-	        {
-	            get
-	            {
-	                return _id;
-	            }
-	            set
-	            {
-	                _id = value;
-	            }
-	        }
-	        public SearchBoxDataItem(int id, string text)
-	        {
-	            _id = id;
-	            _text = text;
-	        }
-	    }
+		List<SearchBoxDataItem> itemsList = new List<SearchBoxDataItem>();
+		itemsList.Add(new SearchBoxDataItem(1, "item 1"));
+		itemsList.Add(new SearchBoxDataItem(2, "item 2"));
+		itemsList.Add(new SearchBoxDataItem(3, "item 3"));
+		return itemsList;
 	}
+	public class SearchBoxDataItem
+	{
+		private string _text;
+		private int _id;
+		public string Text
+		{
+			get
+			{
+				return _text;
+			}
+			set
+			{
+				_text = value;
+			}
+		}
+		public int ID
+		{
+			get
+			{
+				return _id;
+			}
+			set
+			{
+				_id = value;
+			}
+		}
+		public SearchBoxDataItem(int id, string text)
+		{
+			_id = id;
+			_text = text;
+		}
+	}
+}
 	
 ````
 ````VB.NET
 	
-	Public Class SearchBoxDataObject
-	    Public Sub New()
-	    End Sub
-	    Public Shared Function GetItems() As List(Of SearchBoxDataItem)
-	        Dim itemsList As New List(Of SearchBoxDataItem)()
-	        itemsList.Add(New SearchBoxDataItem(1, "item 1"))
-	        itemsList.Add(New SearchBoxDataItem(2, "item 2"))
-	        itemsList.Add(New SearchBoxDataItem(3, "item 3"))
-	        Return itemsList
-	    End Function
-	    Public Class SearchBoxDataItem
-	        Private _text As String
-	        Private _id As Integer
-	        Public Property Text() As String
-	            Get
-	                Return _text
-	            End Get
-	            Set(value As String)
-	                _text = value
-	            End Set
-	        End Property
-	        Public Property ID() As Integer
-	            Get
-	                Return _id
-	            End Get
-	            Set(value As Integer)
-	                _id = value
-	            End Set
-	        End Property
-	        Public Sub New(id As Integer, text As String)
-	            _id = id
-	            _text = text
-	        End Sub
-	    End Class
+Public Class SearchBoxDataObject
+	Public Sub New()
+	End Sub
+	Public Shared Function GetItems() As List(Of SearchBoxDataItem)
+		Dim itemsList As New List(Of SearchBoxDataItem)()
+		itemsList.Add(New SearchBoxDataItem(1, "item 1"))
+		itemsList.Add(New SearchBoxDataItem(2, "item 2"))
+		itemsList.Add(New SearchBoxDataItem(3, "item 3"))
+		Return itemsList
+	End Function
+	Public Class SearchBoxDataItem
+		Private _text As String
+		Private _id As Integer
+		Public Property Text() As String
+			Get
+				Return _text
+			End Get
+			Set(value As String)
+				_text = value
+			End Set
+		End Property
+		Public Property ID() As Integer
+			Get
+				Return _id
+			End Get
+			Set(value As Integer)
+				_id = value
+			End Set
+		End Property
+		Public Sub New(id As Integer, text As String)
+			_id = id
+			_text = text
+		End Sub
 	End Class
+End Class
 	
 	
 ````
@@ -199,22 +199,22 @@ Here is a sample that shows how to achieve binding with ObjectDateSource.
 Here is a sample that shows how to achieve binding with XMLDataSource.
 
 ````ASPNET
-	         <telerik:RadSearchBox runat="server" ID="RadSearchBox5"  EmptyMessage="XML"
-	            DataSourceID="XmlDataSource1" DataValueField="Value"
-	            DataTextField="Text">
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
-	        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ContentFile.xml"></asp:XmlDataSource>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox5"  EmptyMessage="XML"
+	DataSourceID="XmlDataSource1" DataValueField="Value"
+	DataTextField="Text">
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
+<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/ContentFile.xml"></asp:XmlDataSource>
 ````
 
 
 
 ````ASPNET
-	        <items>
-	         <Item Text="New York" Value="1" />
-	         <Item Text="Paris" Value="2" />
-	         <Item Text="London" Value="3" />
-	        </items>
+<items>
+ <Item Text="New York" Value="1" />
+ <Item Text="Paris" Value="2" />
+ <Item Text="London" Value="3" />
+</items>
 ````
 
 

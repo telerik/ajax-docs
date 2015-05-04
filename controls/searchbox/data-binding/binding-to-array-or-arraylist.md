@@ -19,12 +19,12 @@ Both **Array** and **ArrayList** could be used as a Data Source by RadSearchBox.
 The declarations of the RadSearchBox objects does not include DataSourceID property:
 
 ````ASPNET
-		 <telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
-	      <telerik:RadSearchBox runat="server" ID="RadSearchBox2" >
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox2" >
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
 ````
 
 
@@ -35,48 +35,48 @@ One can use the **Page_Load** event handler to create the Array and ArrayList by
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        BindToArrayList(RadSearchBox1);
-	        BindToArray(RadSearchBox2);
-	    }
-	
-	    private void BindToArray(RadSearchBox searchBox)
-	    {
-	        string[] itemsList = { "One", "Two", "Three" };
-	        searchBox.DataSource = itemsList;
-	    }
-	
-	    private void BindToArrayList(RadSearchBox searchBox)
-	    {
-	        ArrayList itemsList = new ArrayList();
-	        itemsList.Add("One");
-	        itemsList.Add("Two");
-	        itemsList.Add("Three");
-	        searchBox.DataSource = itemsList;
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	BindToArrayList(RadSearchBox1);
+	BindToArray(RadSearchBox2);
+}
+
+private void BindToArray(RadSearchBox searchBox)
+{
+	string[] itemsList = { "One", "Two", "Three" };
+	searchBox.DataSource = itemsList;
+}
+
+private void BindToArrayList(RadSearchBox searchBox)
+{
+	ArrayList itemsList = new ArrayList();
+	itemsList.Add("One");
+	itemsList.Add("Two");
+	itemsList.Add("Three");
+	searchBox.DataSource = itemsList;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	
-	        BindToArrayList(RadSearchBox1)
-	        BindToArray(RadSearchBox2)
-	    End Sub
-	
-	    Private Sub BindToArray(searchBox As RadSearchBox)
-	        Dim itemsList As String() = {"One", "Two", "Three"}
-	        searchBox.DataSource = itemsList
-	    End Sub
-	
-	    Private Sub BindToArrayList(searchBox As RadSearchBox)
-	        Dim itemsList As New ArrayList()
-	        itemsList.Add("One")
-	        itemsList.Add("Two")
-	        itemsList.Add("Three")
-	        searchBox.DataSource = itemsList
-	    End Sub
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+	BindToArrayList(RadSearchBox1)
+	BindToArray(RadSearchBox2)
+End Sub
+
+Private Sub BindToArray(searchBox As RadSearchBox)
+	Dim itemsList As String() = {"One", "Two", "Three"}
+	searchBox.DataSource = itemsList
+End Sub
+
+Private Sub BindToArrayList(searchBox As RadSearchBox)
+	Dim itemsList As New ArrayList()
+	itemsList.Add("One")
+	itemsList.Add("Two")
+	itemsList.Add("Three")
+	searchBox.DataSource = itemsList
+End Sub
 	
 ````
 

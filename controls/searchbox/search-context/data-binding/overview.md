@@ -16,7 +16,7 @@ position: 0
 
 SearchContext can be bound both declaratively and programmatically server-side by setting the DataSource and DataSorceID property and assigning the DataTextField and DataKeyField properties to the desired fields of the DataSource so that the DataKeyField is the same as the one set to DataContextKeyField of Searchbox control.
 
-In server side binding ImageUrl property can be assigned to the SearchContextItem in the ItemDataBound of SearchContext as it is achieved in the code in[this article]({%slug searchbox/search-context/data-binding/server-side-binding%}).
+In server side binding ImageUrl property can be assigned to the SearchContextItem in the ItemDataBound of SearchContext as it is achieved in the code in [this article]({%slug searchbox/search-context/data-binding/server-side-binding%}).
 
 ## Client-side
 

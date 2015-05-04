@@ -19,9 +19,9 @@ position: 2
 The declaration of **RadSearchBox** in the markup does not include **DataSourceID** property.
 
 ````ASPNET
-		 <telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
-	            <DropDownSettings Height="400" Width="300" />
-	        </telerik:RadSearchBox>
+<telerik:RadSearchBox runat="server" ID="RadSearchBox1" >
+	<DropDownSettings Height="400" Width="300" />
+</telerik:RadSearchBox>
 ````
 
 
@@ -32,42 +32,42 @@ In the **Page_Load** event handler, create and fill the **DataTable** object, th
 
 ````C#
 	
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        RadSearchBox1.DataSource = GetData();
-	        RadSearchBox1.DataTextField = "ProductName";
-	        RadSearchBox1.DataValueField = "ProductID";
-	    }
-	
-	    private static DataTable GetData()
-	    {
-	        SqlDataAdapter adapter = new SqlDataAdapter(@"SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
-	        [UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]",
-	            ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString);
-	
-	        DataTable data = new DataTable();
-	        adapter.Fill(data);
-	
-	        return data;
-	    }
+protected void Page_Load(object sender, EventArgs e)
+{
+	RadSearchBox1.DataSource = GetData();
+	RadSearchBox1.DataTextField = "ProductName";
+	RadSearchBox1.DataValueField = "ProductID";
+}
+
+private static DataTable GetData()
+{
+	SqlDataAdapter adapter = new SqlDataAdapter(@"SELECT [ProductID], [ProductName], [SupplierID], [CategoryID], [QuantityPerUnit], [UnitPrice], 
+	[UnitsInStock], [UnitsOnOrder], [ReorderLevel], [Discontinued] FROM [Products]",
+		ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString);
+
+	DataTable data = new DataTable();
+	adapter.Fill(data);
+
+	return data;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-	        RadSearchBox1.DataSource = GetData()
-	        RadSearchBox1.DataTextField = "ProductName"
-	        RadSearchBox1.DataValueField = "ProductID"
-	    End Sub
-	
-	    Private Shared Function GetData() As DataTable
-	        Dim adapter As New SqlDataAdapter("SELECT * FROM [Products]", ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
-	
-	        Dim data As New DataTable()
-	        adapter.Fill(data)
-	
-	        Return data
-	    End Function
+Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+	RadSearchBox1.DataSource = GetData()
+	RadSearchBox1.DataTextField = "ProductName"
+	RadSearchBox1.DataValueField = "ProductID"
+End Sub
+
+Private Shared Function GetData() As DataTable
+	Dim adapter As New SqlDataAdapter("SELECT * FROM [Products]", ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString)
+
+	Dim data As New DataTable()
+	adapter.Fill(data)
+
+	Return data
+End Function
 	
 ````
 

@@ -16,20 +16,21 @@ position: 0
 
 **Search Context functionality** was added from Q2 2013 in order to provide context for the search operation. The search context is represented as a simple drop-down giving a choice to select a context item. This feature improves the performance and usability when searching in large data sets.
 
-SearchBox's Search Context behaves as a standard DropDownList control with single selection. It has Items which are accessible server as well as client side.![searchbox searchcontext overview](images/searchbox_searchcontext_overview.png)
+SearchBox's Search Context behaves as a standard DropDownList control with single selection. It has Items which are accessible server as well as client side.
+![searchbox searchcontext overview](images/searchbox_searchcontext_overview.png)
 
 ````ASPNET
-	   <telerik:RadSearchBox ID="RadSearchBox2" runat="server" Width="500" DataSourceID="SqlDataSource3" 
-	            DataTextField="LastName" DataValueField="FirstName" DataContextKeyField="EmployeeID"  >
-	        <Localization DefaultItemText="AllItems" LoadingItemsMessage="Some Loading" />
-	        <SearchContext>
-	            <Items>
-	                <telerik:SearchContextItem Text="One" Key="1" />
-	                <telerik:SearchContextItem Text="Two" Key="2" />
-	                <telerik:SearchContextItem Text="Three" Key="3" />
-	            </Items>
-	        </SearchContext>
-	    </telerik:RadSearchBox>
+<telerik:RadSearchBox ID="RadSearchBox2" runat="server" Width="500" DataSourceID="SqlDataSource3" 
+		DataTextField="LastName" DataValueField="FirstName" DataContextKeyField="EmployeeID"  >
+	<Localization DefaultItemText="AllItems" LoadingItemsMessage="Some Loading" />
+	<SearchContext>
+		<Items>
+			<telerik:SearchContextItem Text="One" Key="1" />
+			<telerik:SearchContextItem Text="Two" Key="2" />
+			<telerik:SearchContextItem Text="Three" Key="3" />
+		</Items>
+	</SearchContext>
+</telerik:RadSearchBox>
 ````
 
 

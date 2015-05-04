@@ -8,11 +8,9 @@ published: True
 position: 2
 ---
 
-# SearchContextItem Object
+# SearchContextItem Client Object
 
 
-
-## SearchContextItem Client Object
 
 The following table lists the most important methods of the client-side **SearchContextItem** object:
 

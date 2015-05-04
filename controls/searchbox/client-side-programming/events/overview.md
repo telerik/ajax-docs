@@ -8,11 +8,10 @@ published: True
 position: 0
 ---
 
-# Events Overview
+# Client-side Events Overview
 
 
 
-## Client-side Events
 
 These are the client events that can be used with RadSearchBox control:
 

@@ -79,10 +79,10 @@ The **ExpandAnimation** and **CollapseAnimation** tags of **RadSearchBox** are u
 **Example 1:** a sample animation configuration.
 
 ````ASPNET
-	    <telerik:RadSearchBox ID="RadSearchBox1" runat="server">
-	        <ExpandAnimation Type="InBounce" Duration="300" />
-	        <CollapseAnimation Type="OutQuint" Duration="200" />
-	    </telerik:RadSearchBox>
+<telerik:RadSearchBox ID="RadSearchBox1" runat="server">
+	<ExpandAnimation Type="InBounce" Duration="300" />
+	<CollapseAnimation Type="OutQuint" Duration="200" />
+</telerik:RadSearchBox>
 ````
 
 

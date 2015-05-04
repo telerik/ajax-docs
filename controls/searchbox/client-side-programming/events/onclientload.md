@@ -12,8 +12,6 @@ position: 4
 
 
 
-## OnClientLoad
-
 The **OnClientLoad** client-side event occurs when the control is loaded.
 
 The event handler receives one parameter:

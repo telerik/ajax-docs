@@ -12,8 +12,6 @@ position: 0
 
 
 
-## Keyboard Support
-
 RadSearchBox has a full keyboard support, including selection and navigation through search results.
 
 * The user is able to tab through the image buttons using the **Tab** key and trigger their actions with the **Enter** key.

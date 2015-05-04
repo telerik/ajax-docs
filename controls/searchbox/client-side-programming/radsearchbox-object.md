@@ -8,11 +8,9 @@ published: True
 position: 0
 ---
 
-# RadSearchBox Object
+# RadSearchBox Client Object
 
 
-
-## RadSearchBox Client Object
 
 The following table lists the most important methods of the client-side **RadSearchBox** object:
 

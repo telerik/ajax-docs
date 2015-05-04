@@ -12,8 +12,6 @@ position: 4
 
 
 
-## RadSearchBoxButton
-
 The following table lists the most important methods of the client-side **RadSearchBoxButton** object:
 
 

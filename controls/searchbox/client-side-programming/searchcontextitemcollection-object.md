@@ -11,9 +11,6 @@ position: 3
 # SearchContextItemCollection Object
 
 
-
-## SearchContext Client Object
-
 The following table lists the most important methods of the client-side **SearchContextItemCollection** object:
 
 
