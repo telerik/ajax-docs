@@ -20,13 +20,13 @@ Client side changes are available on the server side after postback. You can use
 
 * **Type** - the type of the operation which is one of the following four cases:
 
-* **Update** - when a property is set on the the client through methods such as **set_text**(), **set_value**(), **enable**(), **disable**(), etc.: panelbarItem.disable();
+	* **Update** - when a property is set on the the client through methods such as **set_text**(), **set_value**(), **enable**(), **disable**(), etc.: panelbarItem.disable();
 
-* **Remove** - when the **remove** client method is called: panelbar.get_items().remove(panelbarItem);
+	* **Remove** - when the **remove** client method is called: panelbar.get_items().remove(panelbarItem);
 
-* **Insert** - when the **add**client method is called: panelbar.get_items().add(panelbarItem);
+	* **Insert** - when the **add** client method is called: panelbar.get_items().add(panelbarItem);
 
-* **Clear** - when an item with child items calls the **clear**() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
+	* **Clear** - when an item with child items calls the **clear**() method: parentItem.get_items().clear(). If the parent item has no child items the ClientChanges collection is not altered.
 
 >note Note that you need to call the **trackChanges** () and **commitChanges** () client methods of RadPanelBar in order to be able to access the changes on the server via the **ClientChanges** property.
 >
@@ -39,41 +39,41 @@ The code snippet below enumerates through all operations in the ClientChanges co
 
 
 ````C#
-	        foreach (ClientOperation<RadPanelItem> operation in RadPanelBar1.ClientChanges)
-	        {
-	         RadPanelItem item = operation.Item;
-	
-	         switch (operation.Type)
-	         {
-	          case ClientOperationType.Insert:
-	           break;
-	          case ClientOperationType.Remove:
-	           break;
-	          case ClientOperationType.Update:
-	           UpdateClientOperation<RadPanelItem> update = operation as UpdateClientOperation<RadPanelItem>;
-	           break;
-	          case ClientOperationType.Clear:
-	           break;
-	         } 
-	        }
+foreach (ClientOperation<RadPanelItem> operation in RadPanelBar1.ClientChanges)
+{
+	RadPanelItem item = operation.Item;
+
+	switch (operation.Type)
+	{
+		case ClientOperationType.Insert:
+		 break;
+		case ClientOperationType.Remove:
+		 break;
+		case ClientOperationType.Update:
+		 UpdateClientOperation<RadPanelItem> update = operation as UpdateClientOperation<RadPanelItem>;
+		 break;
+		case ClientOperationType.Clear:
+		 break;
+	} 
+}
 	
 ````
 ````VB
-	    For Each operation As ClientOperation(Of RadPanelItem) In RadPanelBar1.ClientChanges
-	    Dim item As RadPanelItem = operation.Item
-	
-	     Select Case operation.Type
-	      Case ClientOperationType.Insert
-	       Exit Select
-	      Case ClientOperationType.Remove
-	       Exit Select
-	      Case ClientOperationType.Update
-	    Dim update As UpdateClientOperation(Of RadPanelItem) = TryCast(operation, UpdateClientOperation(Of RadPanelItem))
-	       Exit Select
-	      Case ClientOperationType.Clear
-	       Exit Select
-	     End Select
-	    Next
+For Each operation As ClientOperation(Of RadPanelItem) In RadPanelBar1.ClientChanges
+Dim item As RadPanelItem = operation.Item
+
+ Select Case operation.Type
+  Case ClientOperationType.Insert
+   Exit Select
+  Case ClientOperationType.Remove
+   Exit Select
+  Case ClientOperationType.Update
+Dim update As UpdateClientOperation(Of RadPanelItem) = TryCast(operation, UpdateClientOperation(Of RadPanelItem))
+   Exit Select
+  Case ClientOperationType.Clear
+   Exit Select
+ End Select
+Next
 ````
 
 

@@ -26,74 +26,64 @@ The **RadPanelItem** object is returned by the **getItem** method of the [RadPan
 
 ````JavaScript
 	
-	
-	        var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	        var panelItem = panelBar.findItemByText("Paris"); 
-	        panelItem.disable();
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.disable();
 	
 ````
 
 
 
 
->caption  
-
-|  **enable**  | none | none | Enables the item if it is disabled. |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
+|  **enable**  | none | none | Enables the item if it is disabled. |
+
 
 ````JavaScript
 	
-	
-	        var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	        var panelItem = panelBar.findItemByText("Paris"); 
-	        panelItem.enable();
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.enable();
 	
 ````
 
-
-
-
->caption  
-
-|  **get_isEnabled**  | none | Boolean | Returns true if both the item and the panelbar are enabled. If one of them is disabled, get_isEnabled() will return false. |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
+|  **get_isEnabled**  | none | Boolean | Returns true if both the item and the panelbar are enabled. If one of them is disabled, get_isEnabled() will return false. |
 | **get_enabled** |none|Boolean|Same as get_isEnabled.|
 | **set_enabled** |Boolean|none|Sets the enabled state of the item.|
 | **focus** |none|none|Moves focus to the item.|
 
 ````JavaScript
 	
-	
-	        var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	        var panelItem = panelBar.findItemByText("Paris"); 
-	        panelItem.focus();
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.focus();
 	
 ````
 
 
 
-
->caption  
-
-|  **blur**  | none | none | Removes focus from the item. |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
+|  **blur**  | none | none | Removes focus from the item. |
+
 
 ````JavaScript
-	
-	
-	        var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	        var panelItem = panelBar.findItemByText("Paris"); 
-	        panelItem.blur();
+		
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var panelItem = panelBar.findItemByText("Paris"); 
+panelItem.blur();
 	
 ````
 
 
 
 
->caption  
-
-|  **focusPreviousItem**  | none | none | Moves focus to the previous item. |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
+|  **focusPreviousItem**  | none | none | Moves focus to the previous item. |
 | **focusNextItem** |none|none|Moves focus to the next item.|
 | **focusFirstChild** |none|none|Moves focus to the first child of the item.|
 | **focusLastChild** |none|none|Moves focus to the last child of the item.|
@@ -115,29 +105,27 @@ The **RadPanelItem** object is returned by the **getItem** method of the [RadPan
 | **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the item.|
 
 ````JavaScript
-	
-	
-	        var panelBar = $find("<%= RadPanelBar1.ClientID %>");
-	        var foundItem = panelBar.findItemByAttribute("Population", "0");
-	        var attributes = foundItem.get_attributes();
-	        var size = attributes.getAttribute("size");
-	        if (size) {
-	            attributes.setAttribute("Population", size);
-	            attributes.removeAttribute("size");
-	        }
-	        else {
-	            attributes.setAttribute("Population", "Unknown"); 
-	         }
+		
+var panelBar = $find("<%= RadPanelBar1.ClientID %>");
+var foundItem = panelBar.findItemByAttribute("Population", "0");
+var attributes = foundItem.get_attributes();
+var size = attributes.getAttribute("size");
+if (size) {
+    attributes.setAttribute("Population", size);
+    attributes.removeAttribute("size");
+}
+else {
+    attributes.setAttribute("Population", "Unknown"); 
+}
 	
 ````
 
 
 
 
->caption  
-
-|  **expand**  | none | none | Expands the item and reveals its children if any. |
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
+|  **expand**  | none | none | Expands the item and reveals its children if any. |
 | **collapse** |none|none|Collapses the item if it is expanded.|
 | **get_expanded** |Boolean|boolean|Gets the expanded/collapsed state of a panel bar item|
 | **set_expanded** |Boolean|none|Expands /Collapses the item.|
@@ -148,11 +136,13 @@ The **RadPanelItem** object is returned by the **getItem** method of the [RadPan
 | **get_value** |none|string|Returns the Value property of the item.|
 | **get_isSeparator** |none|boolean|Returns **true** the item is a separator (sever-side property IsSeparator = true)|
 | **get_navigateUrl** |none|string|Gets the URL of the Web page the panel item launches.|
-| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the item launches.
+| **set_navigateUrl** |string|none|Sets the navigateURL property of the item. This is the URL of the Web page the item launches.|
 
 >caution The **navigateUrl** property must be an absolute URL on the client side: e.g. " *http://mydomain.com/default.aspx"* not *"default.aspx".* 
 >
-|
+
+|  **Name**  |  **Parameters**  |  **Return Type**  |  **Description**  |
+| ------ | ------ | ------ | ------ |
 | **set_imageUrl** |string|none|Sets the URL of the image.|
 | **get_imageUrl** |none|string|Gets the URL of the image.|
 | **set_hoveredImageUrl** |string|none|Sets the URL of the image displayed when the mouse if over the item.|
@@ -179,8 +169,8 @@ The **RadPanelItem** object is returned by the **getItem** method of the [RadPan
 
 # See Also
 
- * [Overview]({%slug panelbar/client-side-programming/overview%})
+ * [Client Side Overview]({%slug panelbar/client-side-programming/overview%})
 
- * [Overview]({%slug panelbar/radpanelbar-items/overview%})
+ * [RadPanelBar Items Overview]({%slug panelbar/radpanelbar-items/overview%})
 
  * [Working With Items at the Client]({%slug panelbar/radpanelbar-items/working-with-items-at-the-client%})

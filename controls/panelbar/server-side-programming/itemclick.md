@@ -28,18 +28,18 @@ Use the **ItemClick** event handler to respond when the user clicks an item in t
 
 ````C#
 	
-	    protected void RadPanelBar1_ItemClick(object sender, RadPanelBarEventArgs e) 
-	    { 
-	        RadPanelItem ItemClicked = e.Item; Response.Write("Server event raised -- you clicked: " + ItemClicked.Text); 
-	    }
+protected void RadPanelBar1_ItemClick(object sender, RadPanelBarEventArgs e) 
+{ 
+    RadPanelItem ItemClicked = e.Item; Response.Write("Server event raised -- you clicked: " + ItemClicked.Text); 
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemClick(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
-	        Dim ItemClicked As RadPanelItem = e.Item
-	        Response.Write("Server event raised -- you clicked: " + ItemClicked.Text)
-	    End Sub
+Protected Sub RadPanelBar1_ItemClick(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
+    Dim ItemClicked As RadPanelItem = e.Item
+    Response.Write("Server event raised -- you clicked: " + ItemClicked.Text)
+End Sub
 	
 ````
 

@@ -22,36 +22,33 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_item** returns a reference to the **RadPanelItem** that was clicked.
+	* **get_item** returns a reference to the **RadPanelItem** that was clicked.
 
-* **set_cancel** lets you stop the default response to the click by passing *true* to the **set_cancel** method.
+	* **set_cancel** lets you stop the default response to the click by passing *true* to the **set_cancel** method.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
 You can use this event to pre-process an item-click or to cancel the default response:
 
 ````ASPNET
-	    <script> 
-	    function OnClientItemClicking(sender, eventArgs)
-	     {    
-	     var item = eventArgs.get_item();    
-	     var navigateUrl = item.get_navigateUrl();    
-	     if (navigateUrl && navigateUrl != "#")    
-	     {       
-	     var proceed = confirm("Navigate to "+ navigateUrl + " ?");       
-	     if (!proceed)       
-	     {         
-	      eventArgs.set_cancel(true);       
-	      }       
-	      else       
-	      {          
-	      eventArgs.set_cancel(false);       
-	      } 
-	      }
-	      </script>
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemclicking="OnClientItemClicking">
-	      ...
-	      </telerik:radpanelbar>
+<script> 
+	function OnClientItemClicking(sender, eventArgs) {    
+		var item = eventArgs.get_item();    
+		var navigateUrl = item.get_navigateUrl();    
+		if (navigateUrl && navigateUrl != "#") {       
+			var proceed = confirm("Navigate to "+ navigateUrl + " ?");       
+			if (!proceed) {         
+				eventArgs.set_cancel(true);       
+			}       
+			else {          
+				eventArgs.set_cancel(false);       
+			} 
+		}
+	}
+</script>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" onclientitemclicking="OnClientItemClicking">
+  ...
+</telerik:radpanelbar>
 ````
 
 

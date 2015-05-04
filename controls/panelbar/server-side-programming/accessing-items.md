@@ -21,7 +21,7 @@ position: 4
 
 |  **Method**  |  **Parameters**  |  **Return Value**  |  **Description**  |
 | ------ | ------ | ------ | ------ |
-|GetAllItems|none|IList<RadPanelBarItem>|Returns a list of all items in the panel, flattening out the panel hierarchy.|
+|GetAllItems|none|IList`<RadPanelBarItem>`|Returns a list of all items in the panel, flattening out the panel hierarchy.|
 |FindItemByText|string|RadPanelBarItem|Returns the first item in the panel whose **Text** property matches the parameter.|
 |FindItemByUrl|string|RadPanelBarItem|Returns the first item in the panel whose **NavigateUrl** property matches the parameter.|
 |FindItemByValue|string|RadPanelBarItem|Returns the first item in the panel whose **Value** property matches the parameter.|

@@ -32,21 +32,21 @@ Use an **ItemDataBound** event handler to initialize the properties of panel ite
 
 ````C#
 	
-	    protected void RadPanelBar1_ItemDataBound(object sender, RadPanelBarEventArgs e)
-	    {
-	        DataRowView row = (DataRowView)e.Item.DataItem;
-	        e.Item.Enabled = Boolean.Parse(row["Available"].ToString());
-	        e.Item.ToolTip = "Learn more about " + e.Item.Text;
-	    }
+protected void RadPanelBar1_ItemDataBound(object sender, RadPanelBarEventArgs e)
+{
+    DataRowView row = (DataRowView)e.Item.DataItem;
+    e.Item.Enabled = Boolean.Parse(row["Available"].ToString());
+    e.Item.ToolTip = "Learn more about " + e.Item.Text;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
-	        Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
-	        e.Item.Enabled = [Boolean].Parse(row("Available").ToString())
-	        e.Item.ToolTip = "Learn more about " + e.Item.Text
-	    End Sub
+Protected Sub RadPanelBar1_ItemDataBound(ByVal sender As Object, ByVal e As RadPanelBarEventArgs)
+    Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
+    e.Item.Enabled = [Boolean].Parse(row("Available").ToString())
+    e.Item.ToolTip = "Learn more about " + e.Item.Text
+End Sub
 	
 ````
 

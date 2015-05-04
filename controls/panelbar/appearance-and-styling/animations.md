@@ -20,58 +20,58 @@ The **ExpandAnimation** and **CollapseAnimation** properties let you apply anima
 
 * **Type**: the animated effect. It is one of the following pre-defined animation types:
 
-* Linear
+	* Linear
 
-* InQuad
+	* InQuad
 
-* OutQuad
+	* OutQuad
 
-* InOutQuad
+	* InOutQuad
 
-* InCubic
+	* InCubic
 
-* OutCubic
+	* OutCubic
 
-* InOutCubic
+	* InOutCubic
 
-* InQuart
+	* InQuart
 
-* OutQuart
+	* OutQuart
 
-* InOutQuart
+	* InOutQuart
 
-* InQuint
+	* InQuint
 
-* OutQuint
+	* OutQuint
 
-* InOutQuint
+	* InOutQuint
 
-* InSine
+	* InSine
 
-* OutSine
+	* OutSine
 
-* InOutSine
+	* InOutSine
 
-* InExpo
+	* InExpo
 
-* OutExpo
+	* OutExpo
 
-* InOutExpo
+	* InOutExpo
 
-* InBack
+	* InBack
 
-* OutBack
+	* OutBack
 
-* InOutBack
+	* InOutBack
 
-* InBounce
+	* InBounce
 
-* OutBounce
+	* OutBounce
 
-* InOutBounce
+	* InOutBounce
 
-* InElastic
+	* InElastic
 
-* OutElastic
+	* OutElastic
 
-* InOutElastic
+	* InOutElastic

@@ -23,21 +23,21 @@ You can use this event to perform your own initialization to the panel bar when 
 The following example illustrates the use of the **OnClientLoad** event handler for saving a reference to the client-side object:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        var panelBar1;
-	        function storePanelBarClientObject(sender) {
-	            panelBar1 = sender;
-	        }
-	        function UtilizePanelBarClientObject() {
-	            alert(panelBar1.get_id());
-	        }
-	    </script>
-	    <telerik:radpanelbar id="RadPanelBar1" runat="server" onclientload="storePanelBarClientObject">    
-	    <Items> 
-	        ...    
-	    </Items>
-	    </telerik:radpanelbar>
-	    <input id="Button1" type="button" onclick="UtilizePanelBarClientObject()" value="button" />
+<script type="text/javascript">
+    var panelBar1;
+    function storePanelBarClientObject(sender) {
+        panelBar1 = sender;
+    }
+    function UtilizePanelBarClientObject() {
+        alert(panelBar1.get_id());
+    }
+</script>
+<telerik:radpanelbar id="RadPanelBar1" runat="server" onclientload="storePanelBarClientObject">    
+<Items> 
+    ...    
+</Items>
+</telerik:radpanelbar>
+<input id="Button1" type="button" onclick="UtilizePanelBarClientObject()" value="button" />
 ````
 
 
