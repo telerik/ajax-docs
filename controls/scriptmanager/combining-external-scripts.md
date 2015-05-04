@@ -27,9 +27,9 @@ You can specify one or more folders from your project that host the external scr
 Add the following<appSetting/> entry in your *web.config*:
 
 ````ASPNET
-	        <appsettings>
-	            <add key="Telerik.Web.UI.ScriptFolders" value="~/Scripts/;"/>
-	        </appsettings>
+<appsettings>
+	<add key="Telerik.Web.UI.ScriptFolders" value="~/Scripts/;"/>
+</appsettings>
 ````
 
 
@@ -39,12 +39,12 @@ Add the following<appSetting/> entry in your *web.config*:
 Register the external scripts in **RadScriptManager**. The paths to the files can be relative to the root or to the folder containing the current page.
 
 ````ASPNET
-	        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-	            <Scripts>
-	                <telerik:RadScriptReference Path="../Script1.js" />
-	                <telerik:RadScriptReference Path="~/Scripts/Script2.js" />
-	            </Scripts>
-	        </telerik:RadScriptManager>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+	<Scripts>
+		<telerik:RadScriptReference Path="../Script1.js" />
+		<telerik:RadScriptReference Path="~/Scripts/Script2.js" />
+	</Scripts>
+</telerik:RadScriptManager>
 ````
 
 

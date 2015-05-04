@@ -25,9 +25,9 @@ In these cases, a solution is to force secure links by setting the **BaseUrl** p
 * 
 
 ````XML
-	<appsettings>  
-	    <add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="https://my.favorite.cdn"  />   
-	</appsettings>
+<appsettings>  
+	<add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="https://my.favorite.cdn"  />   
+</appsettings>
 ````
 
 
@@ -35,12 +35,12 @@ In these cases, a solution is to force secure links by setting the **BaseUrl** p
 * 
 
 ````XML
-	<telerik:RadScriptManager 
-	    ID="RadScriptManager1" 
-	    runat="server">
-	    <CdnSettings TelerikCdn="Enabled" 
-	        BaseUrl="https://my.favorite.cdn" />
-	</telerik:RadScriptManager>
+<telerik:RadScriptManager 
+	ID="RadScriptManager1" 
+	runat="server">
+	<CdnSettings TelerikCdn="Enabled" 
+		BaseUrl="https://my.favorite.cdn" />
+</telerik:RadScriptManager>
 ````
 
 
@@ -51,17 +51,17 @@ In these cases, a solution is to force secure links by setting the **BaseUrl** p
 
 ````C#
 	
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl;
-	    }
+protected void Page_Init(object sender, EventArgs e)
+{
+	RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl;
+}
 	
 ````
 ````VB.NET
 	
-	    Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
-	        RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl
-	    End Sub
+Protected Sub Page_Init(sender As Object, e As System.EventArgs) Handles Me.Init
+	RadScriptManager1.CdnSettings.BaseUrl = RadScriptManager1.CdnSettings.BaseSecureUrl
+End Sub
 	
 	#End Region
 	
