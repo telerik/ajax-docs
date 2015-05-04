@@ -32,7 +32,7 @@ With the **RadScriptManager** control, the RadControls for ASP.NET AJAX suite gi
 
 >note The performance gain of **RadScriptManager** should be monitored on a remote server, but not in a local development. This is, because the control optimizes the network latency delay when loading the scripts. This comes at the cost of some processor load, because the scripts get combined and compressed on the server.
 >When testing locally, the largest part of the result you get is the time **RadScriptManager** takes to combine the scripts and serve them to the browser.
->Note that the **RadScriptManager** does **NOT** combine the web resources needed for the Telerik controls in a single request when the [CDN] ({%slug scriptmanager/cdn-support/overview%})is enabled.
+>Note that the **RadScriptManager** does **NOT** combine the web resources needed for the Telerik controls in a single request when the [CDN] ({%slug scriptmanager/cdn-support/overview%}) is enabled.
 >
 
 
@@ -109,7 +109,7 @@ There are two cases:
 
 
 
->note Additional information is available in this blog post:[Web Resources demystified](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-18/Web_Resources_demystified_Part_3_Troubleshooting.aspx).
+>note Additional information is available in this blog post: [Web Resources demystified](http://blogs.telerik.com/AtanasKorchev/Posts/08-07-18/Web_Resources_demystified_Part_3_Troubleshooting.aspx).
 >
 
 

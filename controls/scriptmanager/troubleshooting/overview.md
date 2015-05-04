@@ -16,20 +16,21 @@ position: 0
 
 **Problem**: 
 
-**When using RadScriptManager with**
+**When using RadScriptManager with EnableScriptCombine=True the controls stop working as you get a JavaScript error.**
 
-Cause:There are different reasons for this error to happen. Please, check the list below:
-1) RadScriptManager was unable to correctly determine if the browser supports gzip/deflate compression;
-2) A custom ScriptReference is added to RadScriptManager (having a Path property specified), which depends on the combined scripts or vice-versa;
-3) There is an unfound bug in RadScriptManager;
+Cause: There are different reasons for this error to happen. Please, check the list below:
+	1) RadScriptManager was unable to correctly determine if the browser supports gzip/deflate compression;
+	2) A custom ScriptReference is added to RadScriptManager (having a Path property specified), which depends on the combined scripts or vice-versa;
+	3) There is an unfound bug in RadScriptManager;
 
-Resolution:Below are the respective resolutions for the problems, described above:
-1) Implement your own browser detection mechanism and use the **OutputCompression** property of RadScriptManager to control it. You might also try to reinstall the browser,
- or restore its initial settings;2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](http://www.telerik.com/client.net/my-client.net.aspx) 
- account. RadScriptManager now supports the addition/insertion of custom scripts depending/dependent on other scripts. The custom script is added as a separate  `<script>` tag and the general merged script is split respectively.
- 3) Check the [Release notes](http://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already 
- been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](http://www.telerik.com/support/home.aspx) a 
- small website, demonstrating theproblem.
+Resolution: Below are the respective resolutions for the problems, described above:
+	1) Implement your own browser detection mechanism and use the **OutputCompression** property of RadScriptManager to control it. You might also try to reinstall the browser,
+	 or restore its initial settings;
+	2) Upgrade to the latest Telerik.Web.UI version. You can download it from your [ClientNet](http://www.telerik.com/client.net/my-client.net.aspx) 
+	 account. RadScriptManager now supports the addition/insertion of custom scripts depending/dependent on other scripts. The custom script is added as a separate  `<script>` tag and the general merged script is split respectively.
+	3) Check the [Release notes](http://www.telerik.com/products/aspnet-ajax/release-history.aspx) - the problem might have already 
+	 been fixed. Upgrade to the latest Telerik.Web.UI version and check if the bug is not fixed while fixing another one. [Send us](http://www.telerik.com/support/home.aspx) a 
+	 small website, demonstrating theproblem.
 
 
 
@@ -41,7 +42,7 @@ Resolution:Below are the respective resolutions for the problems, described abov
 
 Cause:
 
-The <handlers> or <httpHandlers> sections are placed under the <location> section and RadScriptManager cannot find them.
+The `<handlers>` or `<httpHandlers>` sections are placed under the <location> section and RadScriptManager cannot find them.
 
 Resolution:
 
@@ -59,7 +60,7 @@ You can use the **ScriptManagerProxy**. Yes, place the RadScriptManager control 
 
 **Problem:**
 
-**The RadScriptManager is incompatible with the**
+**The RadScriptManager is incompatible with the **Ajax Control Toolkit (Version number 40412 and higher)**. 
 
 **NOTE**: Since the winter of 2013, the AjaxControlToolkit is incompatible with the standard`asp:ScriptManager` and, thus, by extension, with `telerik:RadScriptManager`.This means that using the **ToolkitScriptManager** can break the Telerik controls and a potential workaround is setting its**CombineScript** property to **false**.Moreover, we cannot guarantee that the controls from the AjaxControlToolkit suite will work when RadScriptManager is used.
 
@@ -80,7 +81,7 @@ Upgrade the RadControls for ASP.NET AJAX version 2010.1.625 or newer.
 If upgrade is not option you can use the following workaround:
 
 ````ASPNET
-	    <telerik:RadScriptManager runat="server" EnableScriptCombine="false" /> 
+<telerik:RadScriptManager runat="server" EnableScriptCombine="false" /> 
 ````
 
 
@@ -118,7 +119,7 @@ Cause:
 
 As the website denies access to all pages to unauthorized users, access to the **Telerik.Web.UI.WebResource.axd** handler is unauthorized. This causes the handler to serve the content of the login page instead of the combined scripts, hence the error.
 
-	Resolution:
+Resolution:
 
 Add a **<location>** section to the application configuration file to allow access to **Telerik.Web.UI.WebResource.axd** to all users, like:
 
@@ -142,7 +143,7 @@ Add a **<location>** section to the application configuration file to allow acce
 
 **Problem:**
 
-**Getting**
+**Getting 'Sys' is undefined error caused by 404 error in the WebResource.axd file when there are multiple handlers that contain *.axd in their path attribute (for example: ASPNET-ISAPI-1.1-AXD).**
 
 Resolution
 
@@ -150,15 +151,15 @@ The issue is observed because all such handler must be placed at the end of the 
 
 **Current limitation:**
 
-**Gettng**
+**Gettng [NullReferenceException: Object not set to an instance of an object.] error when using RadScriptManager and loading scripts from assemlies with short names while with there is no error with a standard ScriptManager.**
 
 Resolution
 
 The issue is observed because the standard ScriptManager automatically resolves the short name whereas RadScriptManager require full name. We will optimize that behavior in the future, however until then please make use of the**fully qualified name** as below.
 
 ````ASPNET
-	    <asp:ScriptReference Name="WebForms.js" Assembly=" System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-	    <asp:ScriptReference Name="WebUIValidation.js" Assembly=" System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"" /
+<asp:ScriptReference Name="WebForms.js" Assembly=" System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<asp:ScriptReference Name="WebUIValidation.js" Assembly=" System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"" /
 ````
 
 
