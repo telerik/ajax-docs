@@ -12,7 +12,7 @@ position: 0
 
 
 
-## 
+
 
 The **RadSocialShare** allows the developer to customize the preset content the end user will share in the social network. By default the URL and title of the current page are used as content and title of the post respectively. The user can alter this before posting in the popup, but this is out of the control of the developer.
 
@@ -26,9 +26,9 @@ In short - here is the logic in which these priorities are set:
 
 1. **UrlToShare** *is* set:
 
-* **TitleToShare** is *not* set - the **UrlToShare** property is used as both URL and Title
-
-* **TitleToShare** *is* set: - the **UrlToShare** property is used as the URL and the **TitleToShare** is used as the title
+	* **TitleToShare** is *not* set - the **UrlToShare** property is used as both URL and Title
+	
+	* **TitleToShare** *is* set: - the **UrlToShare** property is used as the URL and the **TitleToShare** is used as the title
 
 >tip You can also set these properties for each individual button. If these properties are set both globally (in the main tag) and for a certain button the settings for the particular button take effect when it is clicked and the main settings are applied to the other buttons.
 >

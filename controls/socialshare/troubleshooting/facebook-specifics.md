@@ -22,26 +22,27 @@ The proper functionality of the Facebook buttons requires the following setup:
 
 * Аdd the following XML namespace to the <html> tag of your document in order for the buttons to work properly in earlier versions of Internet Explorer.
 
-````HTML
-	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
-````
+	__HTML__
 
-For versions prior to the **Q3 2014** release, you should use the following XML namespace:
+		<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
-````HTML
-	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"
-	xmlns:og="http://opengraphprotocol.org/schema/">
-````
+
+	For versions prior to the **Q3 2014** release, you should use the following XML namespace:
+
+	__HTML__
+
+		<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
 
 
 
 ## Known issues
 
-### Facebook buttons are not rendered in Internet Explorer 7
+### Facebook Buttons Are Not Rendered in Internet Explorer 7
 
 This is an issue with the Facebook scripts that **RadSocialShare** only uses. Facebook are phasing out the support for IE 7 and you can also see the same behavior on their live page (e.g., the [Like Button page](https://developers.facebook.com/docs/plugins/like-button/)). More information on the matter is available in the [Facebook phasing out support for Internet Explorer 7](http://www.zdnet.com/blog/facebook/facebook-phasing-out-support-for-internet-explorer-7/6729) blog post.
 
-### Facebook button events are not fired
+### Facebook Button Events Are Not Fired
 
 More information is available in the [Standard Buttons' Events]({%slug socialshare/troubleshooting/standard-buttons'-events%}) help article.
 

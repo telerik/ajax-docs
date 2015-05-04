@@ -12,7 +12,6 @@ position: 1
 
 
 
-## 
 
 When configuring your page to work with different social networks the developer may sometimes wish to control the exact content (or preview) that will be shared. To a certain extent this is possible through the **RadSocialShare** as it offers options to control the URL and the title of the post (see [this article]({%slug socialshare/functionality/controlling-posts%}) for more details).
 

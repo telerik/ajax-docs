@@ -167,11 +167,7 @@ position: 0
 | **ButtonType** |Get/Set the type of the button|
 | **CounterMode** (PinIt specific property)|Sets the state of the counter baloon.|
 | **TitleToShare** (PinIt specific property)|Sets the title of the pinned image.|
-| **UrlToShare** |
-
-* PinIt button - Sets the URL of the image sent to the pinterest network
-
-* Follow button - Sets URL of the Pinterest account which is to be followed|
+| **UrlToShare** | For a **PinIt** button - Sets the URL of the image sent to the Pinterest network. For a **Follow** button - Sets URL of the Pinterest account which is to be followed.|
 | **FromUrl** (PinIt specific property)|Sets a from link (the URL from which the image was pinned) in the Pin.|
 
 # See Also

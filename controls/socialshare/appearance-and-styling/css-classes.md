@@ -24,10 +24,10 @@ position: 2
 |.sshIcon|span icon element|
 |.sshText|span text element|
 |.sshCustomIcon|span custom icon element|
-|.sshBlogger.sshShareOnTwitter.sshMySpace.sshDelicious.sshDigg.sshSendEmail.sshGoogleBookmarks.sshLinkedIn.sshReddit.sshStumbleUpon.sshTumblr.sshMailTo.sshCompactButton.sshShareOnFacebook.sshShareOnPinterest.sshShareOnGooglePlus.sshCustomIcon|Social network classes|
+|.sshBlogger, .sshShareOnTwitter, .sshMySpace, .sshDelicious, .sshDigg, .sshSendEmail, .sshGoogleBookmarks, .sshLinkedIn, .sshReddit, .sshStumbleUpon, .sshTumblr, .sshMailTo, .sshCompactButton, .sshShareOnFacebook, .sshShareOnPinterest, .sshShareOnGooglePlus, .sshCustomIcon|Social network classes|
 |.sshVerticalMode|SocialShare in vertical mode class|
 |.sshComboDropDown|SocialShare dropdown|
-|div.sshComboWrapper td.rcbArrowCellRightdiv.sshComboWrapper .rcbFocused td.rcbArrowCellRight|SocialShare dropdown arrows styles|
+|div.sshComboWrapper td.rcbArrowCellRight, div.sshComboWrapper .rcbFocused td.rcbArrowCellRight|SocialShare dropdown arrows styles|
 |.sshRtl|SocialShare Right to Left mode class|
 
 ## Skin Specific Styles

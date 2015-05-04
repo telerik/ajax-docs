@@ -12,9 +12,8 @@ position: 2
 
 
 
-## 
 
-The **RadSocialShare** control offers full Google Analytics support which can be enabled by setting a single property -**GoogleAnalyticsUA** to web property ID (also known as UA number).
+The **RadSocialShare** control offers full Google Analytics support which can be enabled by setting a single property - **GoogleAnalyticsUA** to web property ID (also known as UA number).
 
 Key features:
 

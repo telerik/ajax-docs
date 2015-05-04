@@ -16,7 +16,7 @@ The **RadSocialShare** client-side object has a number of client-side properties
 
 This article contains the following sections:
 
-* [Getters/Setters for the Public Properties](#getters/setters-for-the-public-properties)
+* [Getters/Setters for the Public Properties](#getterssetters-for-the-public-properties)
 
 * [Methods that Check a Condition or Invoke a Certain Behavior](#methods-that-check-a-condition-or-invoke-a-certain-behavior)
 
@@ -28,8 +28,8 @@ This article contains the following sections:
 |  **Name**  |  **Description**  |
 | ------ | ------ |
 | **get_compactButtons** |Returns the array of compact buttons|
-| **get_compactPopup** |Returns the compact popup object (a RadWindow, so its[client-side API](3D146C58-9C76-41A2-91CB-82FDBBF9CB52)can be used).|
-| **get_emailPopup** |Returns the email popup object (a RadWindow, so its[client-side API](3D146C58-9C76-41A2-91CB-82FDBBF9CB52)can be used).|
+| **get_compactPopup** |Returns the compact popup object (a RadWindow, so its [client-side API]({%slug window/client-side-programming/radwindow-object%}) can be used).|
+| **get_emailPopup** |Returns the email popup object (a RadWindow, so its [client-side API]({%slug window/client-side-programming/radwindow-object%}) can be used).|
 | **get_fbAppId** |Returns the Facebook Application ID|
 | **get_gaEnabled** |Returns value which shows whether Google Analytics is enabled|
 | **get_gaID** |Returns the web property ID set for Google Analytics support|
@@ -59,4 +59,6 @@ This article contains the following sections:
 | **toggleCompactPopup** |Toggles the visibility of the compact popup|
 | **toggleEmailPopup** |Toggles the visibility of the email popup|
 
-# See Also[RadWindow client-side API](3D146C58-9C76-41A2-91CB-82FDBBF9CB52)
+# See Also
+
+* [RadWindow client-side API]({%slug window/client-side-programming/radwindow-object%})

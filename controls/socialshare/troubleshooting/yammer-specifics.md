@@ -24,33 +24,33 @@ The proper functionality of the Yammer buttons requires the following properties
 
 Yammer Standard Buttons are created via external scripts from their network and therefore we cannot fully guarantee their correct functionality. It is possible to receive warnings about failed GET requests, for example:
 
-* * "NetworkError: 404 Not Found - https://www.yammer.com/api/v1/subscriptions/to_open_graph_object/347866561131267?_=1358861451515" *
+* "*NetworkError: 404 Not Found - https://www.yammer.com/api/v1/subscriptions/to_open_graph_object/347866561131267?_=1358861451515*"
 
-* * "NetworkError: 429 OK - https://www.yammer.com/api/v1/likes/open_graph_object/347866561131267?_=1358861451506" *
+* "*NetworkError: 429 OK - https://www.yammer.com/api/v1/likes/open_graph_object/347866561131267?_=1358861451506*"
 
 ## 
 
-This behaviour is not related to RadSocialShare but the API that Yammer exposes and can be tested with the following code:
+This behavior is not related to RadSocialShare but the API that Yammer exposes and can be tested with the following code:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        yam.config({ appId: "DATA-APP-ID" });
-	        if (yam.helper == undefined) yam.helper = { message: "" };
-	        yam.connect.actionButton({
-	            container: document.getElementById("embedded-like"),
-	            network: "NetworkPermalink",
-	            action: "like"
-	        });
-	    </script>
-	    <script type="text/javascript">
-	        yam.config({ appId: "DATA-APP-ID" });
-	        if (yam.helper == undefined) yam.helper = { message: "" };
-	        yam.connect.actionButton({
-	            container: document.getElementById("embedded-follow"),
-	            network: "NetworkPermalink",
-	            action: "follow"
-	        });
-	    </script>
+<script type="text/javascript">
+    yam.config({ appId: "DATA-APP-ID" });
+    if (yam.helper == undefined) yam.helper = { message: "" };
+    yam.connect.actionButton({
+        container: document.getElementById("embedded-like"),
+        network: "NetworkPermalink",
+        action: "like"
+    });
+</script>
+<script type="text/javascript">
+    yam.config({ appId: "DATA-APP-ID" });
+    if (yam.helper == undefined) yam.helper = { message: "" };
+    yam.connect.actionButton({
+        container: document.getElementById("embedded-follow"),
+        network: "NetworkPermalink",
+        action: "follow"
+    });
+</script>
 ````
 
 

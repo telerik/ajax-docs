@@ -15,11 +15,9 @@ position: 5
 ## Pinterest Requirements
 
 
->caption The proper functionality of the Pinterests standard buttons requires the following properties to be set:
+The proper functionality of the Pinterests standard buttons requires the following properties to be set:
 
-| ButtonType | Requirements |
-| ------ | ------ |
-| **PinIt** |
+For a **PinIt** button:
 
 * UrlToShare is required.
 
@@ -28,20 +26,24 @@ position: 5
 * FromUrl is optional (default value is the Url from which the image is pinned).
 
 * CounterMode is optional (default value is none.)|
-| **Follow button** |UrlToShare is required. Its format must be **http://pinterest.com/USERNAME** 
 
->caution The proper visualization of the follow button requires the omission ofthe 'www' from the URL of the Pinterest account
->
-|
-| **PinPageImage** |No fields required.|
+For a **Follow** button:
+* UrlToShare is required. Its format must be **http://pinterest.com/USERNAME** 
 
-In order to pin an image it must be in JPG, PNG or GIF format and its dimensions must be at least 201x201 px. More informationon pinning images is availabe in[What can I pin](https://help.pinterest.com/entries/22980352-What-can-I-pin-) help article and[How to Beat the Image Bias of Pinterest: Getting Pinned, Blocking Pins & Image Optimization Tips](http://blog.kissmetrics.com/image-bias-of-pinterest/) blog post.
+	>caution The proper visualization of the follow button requires the omission ofthe 'www' from the URL of the Pinterest account
+
+
+For a **PinPageImage** button:
+
+* No fields required.
+
+In order to pin an image, it must be in JPG, PNG or GIF format and its dimensions must be at least 201x201 px. More informationon pinning images is availabe in [What can I pin](https://help.pinterest.com/entries/22980352-What-can-I-pin-) help article and [How to Beat the Image Bias of Pinterest: Getting Pinned, Blocking Pins & Image Optimization Tips](http://blog.kissmetrics.com/image-bias-of-pinterest/) blog post.
 
 ## Known issues
 
-Pinterest Standard Buttons are created via external scripts from their network and therefore we cannotfully guarantee their correct functionality.
+Pinterest Standard Buttons are created via external scripts from their network and therefore we cannot fully guarantee their correct functionality.
 
-**Visual appearance issues**
+### Visual Appearance Issues
 
 * The 'Cancel' button of the PinPageImage looks distorted under IE7.
 
@@ -49,7 +51,7 @@ Pinterest Standard Buttons are created via external scripts from their network a
 
 * The "+" sign, when present, is displayed below the horizontal bubble counter under Opera.
 
-**JavaScript errors**
+### JavaScript Errors
 
 * Standard button PinPageImage expects to have at least one image on the page. If no images are present on the page,the Pinterest’s javascript file throws an error in the console (e.g. *	NotFoundError:	Node was not found*).
 
