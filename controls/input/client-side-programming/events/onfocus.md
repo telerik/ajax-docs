@@ -29,20 +29,20 @@ Two parameters are passed to the event handler:
 The following example uses the **OnFocus** event to show an alert:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnFocus="Focus" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnFocus="Focus" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function Focus(sender, eventArgs)
-	        {
-	            alert(sender.get_id());
-	        }
-	    </script>
+<script type="text/javascript">
+	function Focus(sender, eventArgs)
+	{
+		alert(sender.get_id());
+	}
+</script>
 ````
 
 

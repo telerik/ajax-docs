@@ -26,36 +26,36 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you permit or block the change to the value of the control. Calling **set_cancel(true)** prevents the change.
+	* **set_cancel()** lets you permit or block the change to the value of the control. Calling **set_cancel(true)** prevents the change.
 
-* **get_oldValue()** returns the string value of the input control before the user made any changes.
+	* **get_oldValue()** returns the string value of the input control before the user made any changes.
 
-* **get_newValue()** returns the string value that is about to be assigned to the input control.
+	* **get_newValue()** returns the string value that is about to be assigned to the input control.
 
-* **set_newValue()** lets you change the value that is about to be assigned to the input control.
+	* **set_newValue()** lets you change the value that is about to be assigned to the input control.
 
 The following example uses the **OnValueChanging** event to force the value of a text box to be one of a limited number of possible values:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnValueChanging="LimitOptions" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnValueChanging="LimitOptions" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function LimitOptions(sender, eventArgs)
-	        {
-	            if (eventArgs.get_newValue() == "t" || eventArgs.get_newValue() == "T" || eventArgs.get_newValue() == "true")
-	                eventArgs.set_newValue("True");
-	            else if (eventArgs.get_newValue() == "f" || eventArgs.get_newValue() == "F" || eventArgs.get_newValue() == "false")
-	                eventArgs.set_newValue("False");
-	            if (eventArgs.get_newValue() != "True" && eventArgs.get_newValue() != "False")
-	                eventArgs.set_cancel(true);
-	        }
-	    </script>
+<script type="text/javascript">
+	function LimitOptions(sender, eventArgs)
+	{
+		if (eventArgs.get_newValue() == "t" || eventArgs.get_newValue() == "T" || eventArgs.get_newValue() == "true")
+			eventArgs.set_newValue("True");
+		else if (eventArgs.get_newValue() == "f" || eventArgs.get_newValue() == "F" || eventArgs.get_newValue() == "false")
+			eventArgs.set_newValue("False");
+		if (eventArgs.get_newValue() != "True" && eventArgs.get_newValue() != "False")
+			eventArgs.set_cancel(true);
+	}
+</script>
 ````
 
 

@@ -29,20 +29,20 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOver** event to display an alert:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnMouseOver="MouseOver" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnMouseOver="MouseOver" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function MouseOver(sender, eventArgs)
-	        {
-	            alert(sender.get_id());
-	        }
-	    </script>
+<script type="text/javascript">
+	function MouseOver(sender, eventArgs)
+	{
+		alert(sender.get_id());
+	}
+</script>
 ````
 
 

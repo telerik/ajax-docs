@@ -29,21 +29,21 @@ Two parameters are passed to the event handler:
 The following example uses the **OnLoad** event to change the background color of a text box:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnLoad="Load" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnLoad="Load" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function Load(sender)
-	        {
-	            sender.get_styles().EnabledStyle[0] += "background-color: lemonchiffon;";
-	            sender.updateCssClass();
-	        }
-	    </script>
+<script type="text/javascript">
+	function Load(sender)
+	{
+		sender.get_styles().EnabledStyle[0] += "background-color: lemonchiffon;";
+		sender.updateCssClass();
+	}
+</script>
 ````
 
 

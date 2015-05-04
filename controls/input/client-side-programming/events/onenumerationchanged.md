@@ -26,33 +26,33 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you prevent the value from changing.
+	* **set_cancel()** lets you prevent the value from changing.
 
-* **get_newValue()** returns the new value assigned to the mask part if the change is allowed.
+	* **get_newValue()** returns the new value assigned to the mask part if the change is allowed.
 
-* **get_oldValue()** returns the current value assigned to the mask part, before the change.
+	* **get_oldValue()** returns the current value assigned to the mask part, before the change.
 
-* **get_currentPart()** returns the client-side object of the mask part whose value the user is trying to change.
+	* **get_currentPart()** returns the client-side object of the mask part whose value the user is trying to change.
 
 The following example uses the **OnEnumerationChanged** event display an alert when the user changes the value of an enumerated mask part :
 
 ````ASPNET
-	    <telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="<Mon|Tue|Wed|Thu|Fri|Sat|Sun>" PromptChar="_">
-	        <ClientEvents OnEnumerationChanged="EnumerationChanged" />
-	    </telerik:RadMaskedTextBox>
+<telerik:RadMaskedTextBox ID="RadMaskedTextBox1" runat="server" Mask="<Mon|Tue|Wed|Thu|Fri|Sat|Sun>" PromptChar="_">
+	<ClientEvents OnEnumerationChanged="EnumerationChanged" />
+</telerik:RadMaskedTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function EnumerationChanged(source, eventArgs)
-	        {
-	            if (eventArgs.get_oldValue() != eventArgs.get_newValue())
-	                alert("Changing from " + eventArgs.get_oldValue() + " to " 
-	                + eventArgs.get_NewValue() + " at position " + eventArgs.get_currentPart().offset);
-	        }
-	    </script>
+<script type="text/javascript">
+	function EnumerationChanged(source, eventArgs)
+	{
+		if (eventArgs.get_oldValue() != eventArgs.get_newValue())
+			alert("Changing from " + eventArgs.get_oldValue() + " to " 
+			+ eventArgs.get_NewValue() + " at position " + eventArgs.get_currentPart().offset);
+	}
+</script>
 ````
 
 

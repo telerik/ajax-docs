@@ -29,20 +29,20 @@ Two parameters are passed to the event handler:
 The following example uses the **OnMouseOut** event to display an alert:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server">
-	        <ClientEvents OnMouseOut="MouseOut" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server">
+	<ClientEvents OnMouseOut="MouseOut" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function MouseOut(sender, eventArgs)
-	        {
-	            alert(sender.get_id());
-	        }
-	    </script>
+<script type="text/javascript">
+	function MouseOut(sender, eventArgs)
+	{
+		alert(sender.get_id());
+	}
+</script>
 ````
 
 

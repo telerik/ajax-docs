@@ -26,36 +26,36 @@ Two parameters are passed to the event handler:
 
 * **eventArgs** has the following methods:
 
-* **set_cancel()** lets you prevent the default response to the button click.
+	* **set_cancel()** lets you prevent the default response to the button click.
 
-* **get_buttonType()** returns an integer that indicates which button was clicked. The possible values are
+	* **get_buttonType()** returns an integer that indicates which button was clicked. The possible values are
 
-* The button that appears when the **ShowButton** property is **True**.
+		* The button that appears when the **ShowButton** property is **True**.
 
-* The upward spin button.
+		* The upward spin button.
 
-* The downward spin button.
+		* The downward spin button.
 
 Use the **OnButtonClick** event to provide a client-side response when the user clicks on a button:
 
 ````ASPNET
-	    <telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
-	        <ClientEvents OnButtonClick="ToggleEnabled" />
-	    </telerik:RadTextBox>
+<telerik:RadTextBox ID="RadTextBox1" runat="server" ShowButton="True">
+	<ClientEvents OnButtonClick="ToggleEnabled" />
+</telerik:RadTextBox>
 ````
 
 
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function ToggleEnabled(sender, eventArgs)
-	        {
-	            if (sender.get_enabled())
-	                sender.disable();
-	            else
-	                sender.enable();
-	        }
-	    </script>
+<script type="text/javascript">
+	function ToggleEnabled(sender, eventArgs)
+	{
+		if (sender.get_enabled())
+			sender.disable();
+		else
+			sender.enable();
+	}
+</script>
 ````
 
 
