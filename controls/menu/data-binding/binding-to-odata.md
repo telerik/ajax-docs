@@ -11,7 +11,6 @@ position: 6
 # Binding to OData
 
 
-
 Required introduction
 
 ## Binding to OData
@@ -22,25 +21,20 @@ Forth from Q3 2011, RadMenu can be bound to an OData service. The Open Data Prot
 
 This means binding to a non-hierarchical data. It is rather easy to bind to such data, here is sample markup that binds to the Category table exposed by the OData.org sample services:
 
-````ASPNET
-	     
-		<telerik:RadMenu runat="server" ID="RadMenu1">
-			<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
-				<ODataSettings ResponseType="JSONP">
-					<Entities>
-					<telerik:ODataEntityType Name="Category"   DataValueField="ID" DataTextField="Name" />
-					</Entities>
-					<EntityContainer>
-					<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
-					</EntityContainer>
-				</ODataSettings>
-			</WebServiceSettings>
-		</telerik:RadMenu>
-	
-	
+````ASPNET	     
+<telerik:RadMenu runat="server" ID="RadMenu1">
+	<WebServiceSettings Path="http://services.odata.org/OData/OData.svc">
+		<ODataSettings ResponseType="JSONP">
+			<Entities>
+			<telerik:ODataEntityType Name="Category"   DataValueField="ID" DataTextField="Name" />
+			</Entities>
+			<EntityContainer>
+			<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
+			</EntityContainer>
+		</ODataSettings>
+	</WebServiceSettings>
+</telerik:RadMenu>	
 ````
-
-
 
 The applied settings are described below:
 
@@ -60,31 +54,26 @@ The applied settings are described below:
 
 The hierarchical binding is pretty much the same. Here is how the declaration of a bound menu would look like:
 
-````ASPNET
-	     
-		<telerik:RadMenu runat="server" ID="RadMenu1" PersistLoadOnDemandItems="true">
-			<WebServiceSettings  Path="http://services.odata.org/OData/OData.svc">
-				<ODataSettings ResponseType="JSONP" InitialContainerName="Categories">
-					<Entities>
-						<telerik:ODataEntityType Name="Category" DataValueField="ID" DataTextField="Name"
-											NavigationProperty="Products" />
-						<telerik:ODataEntityType Name="Product" DataValueField="ID" DataTextField="Name" />
-					</Entities>
-					<EntityContainer>
-						<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
-						<telerik:ODataEntitySet EntityType="Product" Name="Products" />
-					</EntityContainer>
-					</ODataSettings>
-			</WebServiceSettings>
-		<DataBindings>
-		    <telerik:RadMenuItemBinding ExpandMode="WebService" />
-		</DataBindings>
-	</telerik:RadMenu>
-	
-	
+````ASPNET     
+<telerik:RadMenu runat="server" ID="RadMenu1" PersistLoadOnDemandItems="true">
+	<WebServiceSettings  Path="http://services.odata.org/OData/OData.svc">
+		<ODataSettings ResponseType="JSONP" InitialContainerName="Categories">
+			<Entities>
+				<telerik:ODataEntityType Name="Category" DataValueField="ID" DataTextField="Name"
+									NavigationProperty="Products" />
+				<telerik:ODataEntityType Name="Product" DataValueField="ID" DataTextField="Name" />
+			</Entities>
+			<EntityContainer>
+				<telerik:ODataEntitySet EntityType="Category" Name="Categories" />
+				<telerik:ODataEntitySet EntityType="Product" Name="Products" />
+			</EntityContainer>
+			</ODataSettings>
+	</WebServiceSettings>
+	<DataBindings>
+	    <telerik:RadMenuItemBinding ExpandMode="WebService" />
+	</DataBindings>
+</telerik:RadMenu>
 ````
-
-
 
 There are several differences from the Flat Binding:
 

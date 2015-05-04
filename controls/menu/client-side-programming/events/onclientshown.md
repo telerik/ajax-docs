@@ -10,8 +10,6 @@ position: 17
 
 # OnClientShown
 
-
-
 ## 
 
 (**RadContextMenu** only) The **OnClientShown** client-side event occurs when the context menu first appears, either in response to a right-click on one of its targets or a call to its **show** or **showAt** method.
@@ -29,19 +27,19 @@ The event handler receives two parameters:
 You can use this event to initialize the context menu when it appears:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function initializeContextMenu(menu, args) {
-	            var target = args.get_targetElement();
-	            if (target)
-	                menu.get_items().getItem(1).disable();
-	        }
-	    </script>
-	
-	    <telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientShown="initializeContextMenu">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadContextMenu>
+<script type="text/javascript">
+    function initializeContextMenu(menu, args) {
+        var target = args.get_targetElement();
+        if (target)
+            menu.get_items().getItem(1).disable();
+    }
+</script>
+
+<telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientShown="initializeContextMenu">
+    <Items>
+        ...
+    </Items>
+</telerik:RadContextMenu>
 ````
 
 

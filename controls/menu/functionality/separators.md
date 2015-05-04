@@ -10,10 +10,6 @@ position: 4
 
 # Separators
 
-
-
-
-
 ## 
 
 The menu layout can be customized through separators. Use separators for grouping items into two or more categories. You can also use them to achieve cosmetic effects.
@@ -25,28 +21,26 @@ The example below shows menu with two separator items: one on the horizontally f
 ![RadMenu Separators](images/menu_separators.png)
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Outlook">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" Text="Root Item 1">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 1" />
-	                    <telerik:RadMenuItem runat="server" Text="Child Item 2" />
-	                </Items>
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />
-	            <telerik:RadMenuItem runat="server" Text="Root Item 3">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" Text="Child 1" />
-	                    <telerik:RadMenuItem runat="server" IsSeparator="True" />
-	                    <telerik:RadMenuItem runat="server" Text="Child 2" />
-	                    <telerik:RadMenuItem runat="server" Text="Child 3" />
-	                </Items>
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" Skin="Outlook">
+    <Items>
+        <telerik:RadMenuItem runat="server" Text="Root Item 1">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="Child Item 1" />
+                <telerik:RadMenuItem runat="server" Text="Child Item 2" />
+            </Items>
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem runat="server" IsSeparator="True" Text="|" />
+        <telerik:RadMenuItem runat="server" Text="Root Item 3">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="Child 1" />
+                <telerik:RadMenuItem runat="server" IsSeparator="True" />
+                <telerik:RadMenuItem runat="server" Text="Child 2" />
+                <telerik:RadMenuItem runat="server" Text="Child 3" />
+            </Items>
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
 ````
-
-
 
 # See Also
 

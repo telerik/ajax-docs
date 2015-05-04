@@ -69,6 +69,6 @@ Using the bound **RadMenu** Smart Tag you can perform the following:
 
 * **Edit RadMenu Databindings**... opens the [NavigationItemBinding Collection Editor]({%slug menu/design-time/navigationitembinding-collection-editor%}), where you can specify [databindings]({%slug menu/data-binding/using-databindings%}) to map between the fields in the data source and **RadMenuItem**properties.
 
-* Once the Data Source is chosen, you can select each one of the following: **DataFieldID**,**DataFieldParentID**,**DataTextField**,**DataValueField** and **DataNavigationUrlField**. For the first two, you need to select the fields in the Data Source that will be used when creating the hierarchy of the RadMenu. The rest will serve data respectively for the **Text, Value** and **NavigateUrl** properties of RadMenu Items.
+* Once the Data Source is chosen, you can select each one of the following: **DataFieldID**,**DataFieldParentID**,**DataTextField**,**DataValueField** and **DataNavigationUrlField**. For the first two, you need to select the fields in the Data Source that will be used when creating the hierarchy of the RadMenu. The rest will serve data respectively for the **Text,****Value** and **NavigateUrl** properties of RadMenu Items.
 
 * **Edit Templates** brings up the [template design surface]({%slug menu/design-time/template-design-surface%}), where you can create or edit the [templates]({%slug menu/templates/overview%}) your **RadMenu** uses.

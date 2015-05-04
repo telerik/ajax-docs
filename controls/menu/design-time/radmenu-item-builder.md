@@ -10,11 +10,9 @@ position: 1
 
 # RadMenu Item Builder
 
-
-
 The **RadMenu Item Builder** lets you populate your menu with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadMenu Item Builder:
 
-* From the **RadMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}), click on the **Build RadMenu** link.
+* From the **RadMenu** [Smart Tag]({%slug menu/design-time/smart-tag%}), click on the **Build RadMenu** link.
 
 * Right-click on the **RadMenu** component and select **Build RadMenu** from its context menu.
 
@@ -45,7 +43,7 @@ When a menu item (either a root item or a child item) is selected, the propertie
 
 * **Text** is the text of the item as it appears in the menu.
 
-* **ToolTip**is the text of a tooltip that appears when the user hovers the mouse over the item.
+* **ToolTip** is the text of a tooltip that appears when the user hovers the mouse over the item.
 
 * **Enabled** controls whether the item is initially enabled or disabled.
 

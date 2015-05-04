@@ -10,8 +10,6 @@ position: 9
 
 # How to Change Height of RadMenu
 
-
-
 The following tutorial demonstrates how you can alter the **height** of the **RadMenu** while preserving all of the hover effects that are applied.
 
 **Q:** I want to increase the height of the RadMenu. For example I need the root Items and the child Items to be 5px higher than their original state.How can I do that?
@@ -63,19 +61,16 @@ Now that we have an external skin of our own, we can start changing it to fit ou
 Now that we are done with the sprite images, a relatively easy part remains – fixing the skin CSS to support the new sprite height we have made. First thing you need to do is simply get the modified image and overwrite the current one that is located in the MySkin\Menu folder. Then switch to your editor and open the CSS file. Now we need to adjust the default height (that is 25px) of the RadMenu items. Add the following CSS rules somewhere in your CSS file, let’s say at the end:
 
 ````ASPNET
-	      /*changes line height for the root menu items*/
-			.RadMenu_MySkin .rmHorizontal .rmRootLink span.rmText{
-	  			  height: 30px;
-			}
-		/*changes height for the child menu items */
-			.RadMenu .rmVertical .rmText,
-			.RadMenu .rmHorizontal .rmVertical .rmText {
-	      			 height: 30px;
-			}
-	
+/*changes line height for the root menu items*/
+.RadMenu_MySkin .rmHorizontal .rmRootLink span.rmText{
+	  height: 30px;
+}
+/*changes height for the child menu items */
+.RadMenu .rmVertical .rmText,
+.RadMenu .rmHorizontal .rmVertical .rmText {
+		 height: 30px;
+}	
 ````
-
-
 
 # See Also
 

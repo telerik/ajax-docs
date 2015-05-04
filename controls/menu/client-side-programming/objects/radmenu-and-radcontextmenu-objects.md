@@ -24,23 +24,21 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | **trackChanges** |none|none|Begins tracking changes to the menu items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
 | **commitChanges** |none|none|Ends tracking changes to the menu items. Only changes to the items that occur between a call to **trackChanges** and **commitChanges** persist after a postback.|
 
->note Client side changes are available on the server side after postback. You can use the[ClientChanges]({%slug menu/client-side-programming/accessing-client-changes-at-the-server%})property to access them.
+>note Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug menu/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 >
 
 
 ````JavaScript
-	function AddNewItem()
-	{     
-	    var menu = $find("<%= RadMenu1.ClientID %>");
-	    var menuItem = new Telerik.Web.UI.RadMenuItem();  
-	    menuItem.set_text("New Item");  
-	    menu.trackChanges();  
-	    menu.get_items().add(menuItem);  
-	    menu.commitChanges();  
-	}			
+function AddNewItem()
+{     
+    var menu = $find("<%= RadMenu1.ClientID %>");
+    var menuItem = new Telerik.Web.UI.RadMenuItem();  
+    menuItem.set_text("New Item");  
+    menu.trackChanges();  
+    menu.get_items().add(menuItem);  
+    menu.commitChanges();  
+}			
 ````
-
-
 
 
 >caption  
@@ -49,14 +47,12 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function DisableMenu()
-	{  
-	    var menu = $find("<%= RadMenu1.ClientID %>"); 
-	    menu.disable();
-	}		
+function DisableMenu()
+{  
+    var menu = $find("<%= RadMenu1.ClientID %>"); 
+    menu.disable();
+}		
 ````
-
-
 
 
 >caption  
@@ -65,15 +61,12 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function EnableMenu()
-	{  
-	    var menu = $find("<%= RadMenu1.ClientID %>");  
-	    menu.enable();
-	}		
+function EnableMenu()
+{  
+    var menu = $find("<%= RadMenu1.ClientID %>");  
+    menu.enable();
+}		
 ````
-
-
-
 
 >caption  
 
@@ -88,19 +81,16 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | **get_items** |none|RadMenuItemCollection|Returns the collection of root level items.|
 
 ````JavaScript
-	function showRootItems()
-	{  
-	    var menu = $find("<%= RadMenu1.ClientID %>");
-	    var items = menu.get_items();
-	    for (var i=0; i < items.get_count(); i++)  
-	    {    
-	        alert(items.getItem(i).get_text());
-	    }
-	}
-				
+function showRootItems()
+{  
+    var menu = $find("<%= RadMenu1.ClientID %>");
+    var items = menu.get_items();
+    for (var i=0; i < items.get_count(); i++)  
+    {    
+        alert(items.getItem(i).get_text());
+    }
+}				
 ````
-
-
 
 
 >caption  
@@ -109,17 +99,15 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function showAllItems()
-	{  
-	    var menu = $find("<%=RadMenu1.ClientID %>");  
-	    for (var i=0; i< menu.get_allItems().length; i++)  
-	    {    
-	        alert(menu.get_allItems()[i].get_text());  
-	    }
-	}		
+function showAllItems()
+{  
+    var menu = $find("<%=RadMenu1.ClientID %>");  
+    for (var i=0; i< menu.get_allItems().length; i++)  
+    {    
+        alert(menu.get_allItems()[i].get_text());  
+    }
+}		
 ````
-
-
 
 
 >caption  
@@ -131,27 +119,25 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | **get_selectedItem** |none|RadMenuItem|Returns the selected menu item. If no item is selected returns null.|
 | **get_attributes** |none|Collection|Returns the collection of custom attributes for the menu.|
 | **get_clicked** |none|Boolean|True if the user has clicked on a root menu item to expand it when ClickToOpen is True.|
-| **set_clicked** |Boolean|none|Sets whether the user has clicked on a root menu item to expand it when ClickToOpen is True. See example[here]({%slug menu/how-to/expand-root-menuitem-on-click-only%}).|
+| **set_clicked** |Boolean|none|Sets whether the user has clicked on a root menu item to expand it when ClickToOpen is True. See example [here]({%slug menu/how-to/expand-root-menuitem-on-click-only%}).|
 | **get_contextMenuElement** |none|HTML Element|Gets the DOM element for the menu.|
 
 ````JavaScript
-	// hide the menu
-	// note this change does not persist after a postback
-	function hidemenu()
-	{  
-	    var menu = $find("<%= RadMenu1.ClientID %>");
-	    menu.get_element().style.display = "none";
-	}
-	
-	// show the menu
-	function showmenu()
-	{  
-	    var menu = $find("<%= RadMenu1.ClientID %>");  
-	    menu.get_element().style.display = "";
-	}		
+// hide the menu
+// note this change does not persist after a postback
+function hidemenu()
+{  
+    var menu = $find("<%= RadMenu1.ClientID %>");
+    menu.get_element().style.display = "none";
+}
+
+// show the menu
+function showmenu()
+{  
+    var menu = $find("<%= RadMenu1.ClientID %>");  
+    menu.get_element().style.display = "";
+}		
 ````
-
-
 
 
 >caption  
@@ -160,19 +146,19 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 | ------ | ------ | ------ | ------ |
 | **enableEvents** |none|none|Enables the control client-side event emitting. Events are enabled by default.|
 | **disableEvents** |none|none|Disables the control client-side event emitting.|
-| **add_<EventName>** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name <EventName>. Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug menu/client-side-programming/events/overview%}).|
+| **add_<EventName>** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name &lt;EventName&gt;. Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug menu/client-side-programming/events/overview%}).|
 
 ````JavaScript
-	function OnClientItemBlurHandler()
-	{   
-	alert( "goodbye");
-	}
-	
-	function AttachBlurHandler()
-	{   
-	    var menu = $find("<%=RadMenu1.ClientID %>");
-	    menu.add_itemBlur(OnClientItemBlurHandler);
-	}		
+function OnClientItemBlurHandler()
+{   
+alert( "goodbye");
+}
+
+function AttachBlurHandler()
+{   
+    var menu = $find("<%=RadMenu1.ClientID %>");
+    menu.add_itemBlur(OnClientItemBlurHandler);
+}		
 ````
 
 
@@ -180,20 +166,20 @@ Both the **RadMenu** and the **RadContextMenu** client-side objects have many of
 
 >caption  
 
-|  **remove_<EventName>**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name <EventName>.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug menu/client-side-programming/events/overview%}). |
+|  **remove_<EventName>**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name &lt;EventName&gt;.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug menu/client-side-programming/events/overview%}). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function OnClientItemBlurHandler()
-	{   
-	    alert( "goodbye");
-	}
-	
-	function DetachBlurHandler()
-	{   
-	    var menu = $find("<%=RadMenu1.ClientID %>");
-	    menu.remove_itemBlur(OnClientItemBlurHandler);
-	}			
+function OnClientItemBlurHandler()
+{   
+    alert( "goodbye");
+}
+
+function DetachBlurHandler()
+{   
+    var menu = $find("<%=RadMenu1.ClientID %>");
+    menu.remove_itemBlur(OnClientItemBlurHandler);
+}			
 ````
 
 
@@ -225,18 +211,18 @@ The **[RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})** clie
 
 ## RadContextMenu static objects and methods
 
-* The **Telerik.Web.UI.RadContextMenu.contextMenus** holds a static collection with references to all **[RadContextMenu]({%slug menu/context-menus/radcontextmenu-object%})**s on the page.
+* The **Telerik.Web.UI.RadContextMenu.contextMenus** holds a static collection with references to all **[RadContextMenu]** ({%slug menu/context-menus/radcontextmenu-object%})s on the page.
 
 ````JavaScript
-	function iterateThroughAllContextMenus() 
-	{    
-	    var contextMenus = Telerik.Web.UI.RadContextMenu.contextMenus;     
-	    for (var contextMenuId in contextMenus) 
-	    {        
-	        var contextMenu = contextMenus[contextMenuId];
-	        ...    
-	    }
-	}			
+function iterateThroughAllContextMenus() 
+{    
+    var contextMenus = Telerik.Web.UI.RadContextMenu.contextMenus;     
+    for (var contextMenuId in contextMenus) 
+    {        
+        var contextMenu = contextMenus[contextMenuId];
+        ...    
+    }
+}			
 ````
 
 

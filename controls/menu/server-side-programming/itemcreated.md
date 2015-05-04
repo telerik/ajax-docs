@@ -10,8 +10,6 @@ position: 2
 
 # ItemCreated
 
-
-
 ## 
 
 **ItemCreated** occurs every time a new item is added to **Items** collection of the **RadMenu** instance or to the **Items** collection of an item in the menu. **ItemCreated** occurs for all menu items, not just those that result from data binding (when the **DataSource** or **DataSourceID** property is set).If the menu is bound to a data source, this event occurs *before* any data binding: that is, before any properties have been set to reflect the data from the data source.
@@ -30,18 +28,16 @@ Use an **ItemCreated** event handler to initialize items as they are added to th
 
 
 
-
-
 ````C#
-	    protected void RadMenu1_ItemCreated(object sender, RadMenuEventArgs e)
-	    { 
-	        e.Item.ToolTip = e.Item.Text; 
-	    }
+protected void RadMenu1_ItemCreated(object sender, RadMenuEventArgs e)
+{ 
+    e.Item.ToolTip = e.Item.Text; 
+}
 ````
 ````VB.NET
-	    Protected Sub RadMenu1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemCreated
-	        e.Item.ToolTip = e.Item.Text
-	    End Sub
+Protected Sub RadMenu1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemCreated
+    e.Item.ToolTip = e.Item.Text
+End Sub
 ````
 
 

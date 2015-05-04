@@ -10,8 +10,6 @@ position: 7
 
 # Use RadConfirm to Confirm MenuItem Click
 
-
-
 ## 
 
 The Telerik RadWindow popups are non-blocking; that is, they do not block the execution thread on the server. This is because the execution of the thread cannot be blocked by JavaScript.
@@ -26,51 +24,46 @@ We will subscribe to the [OnClientItemClicking]({%slug menu/client-side-programm
 
 * show RadConfirm dialog. If the user clicks on OK button - we will invoke the **click()** method of the lastClickedItem menu item.
 
-
-
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" OnClientItemClicking="OnClientItemClickingHandler"
-	        runat="server" OnItemClick="RadMenu1_ItemClick">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1" NavigateUrl="http://www.telerik.com">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem runat="server" Text="Root RadMenuItem2">
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
-	    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
-	    </telerik:RadWindowManager>
+<telerik:RadMenu ID="RadMenu1" OnClientItemClicking="OnClientItemClickingHandler"
+    runat="server" OnItemClick="RadMenu1_ItemClick">
+    <Items>
+        <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1" NavigateUrl="http://www.telerik.com">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem runat="server" Text="Root RadMenuItem2">
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
+<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+</telerik:RadWindowManager>
 ````
 
 
-
-
-
 ````JavaScript
-	        var clickCalledAfterRadconfirm = false;
-	        var lastClickedItem = null;
-	        function OnClientItemClickingHandler(sender, eventArgs) {
-	            if (!clickCalledAfterRadconfirm) {
-	                eventArgs.set_cancel(true);
-	                lastClickedItem = eventArgs.get_item();
-	                radconfirm("Are you sure you want to postback?", confirmCallbackFunction);
-	            }
-	        }
-	        function confirmCallbackFunction(args) {
-	            if (args) {
-	                clickCalledAfterRadconfirm = true;
-	                if (lastClickedItem.get_navigateUrl() != "" && lastClickedItem.get_navigateUrl() != "#") {
-	                    window.location.href = lastClickedItem.get_navigateUrl();
-	                }
-	                else {
-	                    lastClickedItem.click();
-	                }
-	            }
-	            else
-	                clickCalledAfterRadconfirm = false;
-	
-	            lastClickedItem = null;
-	        }
+var clickCalledAfterRadconfirm = false;
+var lastClickedItem = null;
+function OnClientItemClickingHandler(sender, eventArgs) {
+    if (!clickCalledAfterRadconfirm) {
+        eventArgs.set_cancel(true);
+        lastClickedItem = eventArgs.get_item();
+        radconfirm("Are you sure you want to postback?", confirmCallbackFunction);
+    }
+}
+function confirmCallbackFunction(args) {
+    if (args) {
+        clickCalledAfterRadconfirm = true;
+        if (lastClickedItem.get_navigateUrl() != "" && lastClickedItem.get_navigateUrl() != "#") {
+            window.location.href = lastClickedItem.get_navigateUrl();
+        }
+        else {
+            lastClickedItem.click();
+        }
+    }
+    else
+        clickCalledAfterRadconfirm = false;
+
+    lastClickedItem = null;
+}
 ````
 
 

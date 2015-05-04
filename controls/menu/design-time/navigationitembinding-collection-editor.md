@@ -10,11 +10,9 @@ position: 3
 
 # NavigationItemBinding Collection Editor
 
-
-
 ## 
 
-The **NavigationItemBinding Collection Editor**lets you specify how to map the fields from a declarative data source to the properties of the items in your menu. To use the **NavigationItemBinding Collection Builder**, you must first set the **DataSourceID** property. Once the menu is bound to a data source, There are two ways to display the NavigationItemBinding Collection Builder:
+The **NavigationItemBinding Collection Editor** lets you specify how to map the fields from a declarative data source to the properties of the items in your menu. To use the **NavigationItemBinding Collection Builder**, you must first set the **DataSourceID** property. Once the menu is bound to a data source, There are two ways to display the NavigationItemBinding Collection Builder:
 
 * Right-click on the RadMenu control and choose **Edit RadMenu Databindings** from the context menu.
 

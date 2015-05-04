@@ -12,13 +12,13 @@ position: 5
 
 
 
-Each of the controls included in the RadControls for ASP.NET AJAX suite is styled with **two css files**that are loaded in certain order. The first one - ControlName.css, also called **base stylesheet** contains CSS properties and values that are commonfor all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc.In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins. The second file represents the actual skin of the control, and its name consists of the control name plus the skin name,i.e - Menu.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specificCSS properties, and references to images, colors, borders and backgrounds.
+Each of the controls included in the RadControls for ASP.NET AJAX suite is styled with **two css files** that are loaded in certain order. The first one - ControlName.css, also called  **base stylesheet** contains CSS properties and values that are commonfor all skins, i.e it is layout-specific, not skin-specific. These are CSS float, padding, margin, font-size, font-family, etc.In the general case, when creating a custom skin for a control this file should not be edited, unless the custom skin needs different sizes, paddings or margins. The second file represents the actual skin of the control, and its name consists of the control name plus the skin name,i.e - Menu.Default.css. Upon creating a custom skin for the control, one should edit that particular file, as it contains skin-specificCSS properties, and references to images, colors, borders and backgrounds.
 
-**RadMenu** uses **skins** to control the overall look-and-feel of the menu. A skin is a set of images and a CSS stylesheet that can be applied to the menu elements (items, images, etc.) and defines their look and feel. To apply a skin to the menu, set its **Skin** property, either using the properties pane or the **RadMenu**[Smart Tag]({%slug menu/design-time/smart-tag%}).
+**RadMenu** uses **skins** to control the overall look-and-feel of the menu. A skin is a set of images and a CSS stylesheet that can be applied to the menu elements (items, images, etc.) and defines their look and feel. To apply a skin to the menu, set its **Skin** property, either using the properties pane or the **RadMenu** [Smart Tag]({%slug menu/design-time/smart-tag%}).
 
-**RadMenu** is installed with a number of built-in skins:![RadMenu Skins](images/menu_skinsthumb.png)
+**RadMenu** is installed with a number of built-in skins: ![RadMenu Skins](images/menu_skinsthumb.png)
 
->note The **Hay** , **Forest** , **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014** .You can find more information on the matter in[this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
+>note The **Hay**, **Forest**, **Sitefinity** and **Transparent** skins are obsolete and have been removed from the Telerik.Web.UI.Skins.dll assembly as of **Q1 2014**. You can find more information on the matter in [this blog post](http://blogs.telerik.com/aspnet-ajax/posts/13-04-11/6-telerik-asp.net-ajax-skins-going-obsolete).
 >
 
 

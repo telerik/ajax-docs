@@ -11,7 +11,6 @@ position: 9
 # Web Service Binding
 
 
-
 ## 
 
 You can load child items in a menu dynamically through a Web service. The following steps describe how to configure **RadMenu** so that it can use a Web service to supply child items:
@@ -44,71 +43,64 @@ The following example shows a **RadMenu** that fetches all child items from a We
 
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default">
-	        <WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
-	        <LoadingStatusTemplate>
-	            <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."
-	                Width="81px" Height="21px" />
-	        </LoadingStatusTemplate>
-	        <Items>
-	            <telerik:RadMenuItem Text="Products" Value="1" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Purchase" Value="132" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Support" Value="141" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Community" Value="155" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Corporate" Value="164" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
+<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default">
+	<WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
+	<LoadingStatusTemplate>
+		<asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."
+			Width="81px" Height="21px" />
+	</LoadingStatusTemplate>
+	<Items>
+		<telerik:RadMenuItem Text="Products" Value="1" ExpandMode="WebService">
+		</telerik:RadMenuItem>
+		<telerik:RadMenuItem Text="Purchase" Value="132" ExpandMode="WebService">
+		</telerik:RadMenuItem>
+		<telerik:RadMenuItem Text="Support" Value="141" ExpandMode="WebService">
+		</telerik:RadMenuItem>
+		<telerik:RadMenuItem Text="Community" Value="155" ExpandMode="WebService">
+		</telerik:RadMenuItem>
+		<telerik:RadMenuItem Text="Corporate" Value="164" ExpandMode="WebService">
+		</telerik:RadMenuItem>
+	</Items>
+</telerik:RadMenu>
 ````
-
-
 
 To use the integrated support, the Web service should have the following signature:
 
 
-
-
-
 ````C#
-	    public RadMenuItemData[] GetMenuCategories(RadMenuItemData item, object context)
-	    {
-	        DataTable productCategories = GetProductCategories(item.Value);
-	        List<RadMenuItemData> result = new List<RadMenuItemData>();
-	        foreach (DataRow row in productCategories.Rows)
-	        {
-	            RadMenuItemData itemData = new RadMenuItemData();
-	            itemData.Text = row["Title"].ToString(); 
-	            itemData.Value = row["CategoryId"].ToString();
-	            if (Convert.ToInt32(row["ChildrenCount"]) > 0) 
-	            { 
-	                itemData.ExpandMode = MenuItemExpandMode.WebService;
-	            }
-	            result.Add(itemData);
-	        }
-	        return result.ToArray();
-	    }
+public RadMenuItemData[] GetMenuCategories(RadMenuItemData item, object context)
+{
+	DataTable productCategories = GetProductCategories(item.Value);
+	List<RadMenuItemData> result = new List<RadMenuItemData>();
+	foreach (DataRow row in productCategories.Rows)
+	{
+		RadMenuItemData itemData = new RadMenuItemData();
+		itemData.Text = row["Title"].ToString(); 
+		itemData.Value = row["CategoryId"].ToString();
+		if (Convert.ToInt32(row["ChildrenCount"]) > 0) 
+		{ 
+			itemData.ExpandMode = MenuItemExpandMode.WebService;
+		}
+		result.Add(itemData);
+	}
+	return result.ToArray();
+}
 ````
 ````VB.NET
-	    Public Function GetMenuCategories(ByVal item As RadMenuItemData, ByVal context As Object) As RadMenuItemData()
-	        Dim productCategories As DataTable = GetProductCategories(item.Value)
-	        Dim result As New List(Of RadMenuItemData)()
-	        For Each row As DataRow In productCategories.Rows
-	            Dim itemData As New RadMenuItemData()
-	            itemData.Text = row("Title").ToString()
-	            itemData.Value = row("CategoryId").ToString()
-	            If Convert.ToInt32(row("ChildrenCount")) > 0 Then
-	                itemData.ExpandMode = MenuItemExpandMode.WebService
-	            End If
-	            result.Add(itemData)
-	        Next
-	        Return result.ToArray()
-	    End Function
-	
+Public Function GetMenuCategories(ByVal item As RadMenuItemData, ByVal context As Object) As RadMenuItemData()
+	Dim productCategories As DataTable = GetProductCategories(item.Value)
+	Dim result As New List(Of RadMenuItemData)()
+	For Each row As DataRow In productCategories.Rows
+		Dim itemData As New RadMenuItemData()
+		itemData.Text = row("Title").ToString()
+		itemData.Value = row("CategoryId").ToString()
+		If Convert.ToInt32(row("ChildrenCount")) > 0 Then
+			itemData.ExpandMode = MenuItemExpandMode.WebService
+		End If
+		result.Add(itemData)
+	Next
+	Return result.ToArray()
+End Function	
 ````
-
 
 For a live example of using a Web service to populate child items, see [Populating from a Web Service](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/WebService/DefaultCS.aspx).

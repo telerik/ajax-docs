@@ -56,7 +56,7 @@ Since Q2 2010 all new functionalities are listed in the control's Release Notes 
 
 ## What’s New in RadMenu for ASP.NET AJAX Q2 2009 (Version Number 2009.2.701):
 
-* Implemented **selection** support. Added new properties to **RadMenu** class: **EnableSelection** - indicates if the currently selected item will be tracked and highlighted, **SelectedValue**(returns the Value of the selected item or its Text if the value is empty) and **SelectedItem.** In addition, a server side **ClearSelectedItem()** and a client side **get_selectedItem** methods were added.
+* Implemented **selection** support. Added new properties to **RadMenu** class: **EnableSelection** - indicates if the currently selected item will be tracked and highlighted, **SelectedValue**(returns the Value of the selected item or its Text if the value is empty)****and **SelectedItem.** In addition, a server side **ClearSelectedItem()** and a client side **get_selectedItem** methods were added.
 
 * Added new properties to **RadMenuItem** class: [Selected, SelectedCssClass and SelectedImageUrl]({%slug menu/radmenu-items/overview%}) to correspond to the **SelectedItem** implementation
 

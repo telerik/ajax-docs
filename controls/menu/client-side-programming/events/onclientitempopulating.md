@@ -10,8 +10,6 @@ position: 13
 
 # OnClientItemPopulating
 
-
-
 ## 
 
 The **OnClientItemPopulating** client-side event occurs when the menu is about to call a Web service to populate the child items of an item with **ExpandMode** set to "WebService".
@@ -35,37 +33,34 @@ The event handler receives two parameters:
 You can use this event to conditionally cancel the call to fetch items or to pass context information to the Web service before the call:
 
 ````ASPNET
-	
-	    <script type="text/javascript">
-	        function itemPopulating(sender, eventArgs) {
-	            var item = eventArgs.get_item();
-	            var context = eventArgs.get_context();
-	            context["CategoryID"] = item.get_value();
-	        }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulating="itemPopulating">
-	        <WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
-	        <LoadingStatusTemplate>
-	            <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."
-	                Width="81px" Height="21px" />
-	        </LoadingStatusTemplate>
-	        <Items>
-	            <telerik:RadMenuItem Text="Products" Value="1" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Purchase" Value="132" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Support" Value="141" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Community" Value="155" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem Text="Corporate" Value="164" ExpandMode="WebService">
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
+<script type="text/javascript">
+    function itemPopulating(sender, eventArgs) {
+        var item = eventArgs.get_item();
+        var context = eventArgs.get_context();
+        context["CategoryID"] = item.get_value();
+    }
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" Skin="Default" OnClientItemPopulating="itemPopulating">
+    <WebServiceSettings Path="ProductCategories.asmx" Method="GetMenuCategories" />
+    <LoadingStatusTemplate>
+        <asp:Image runat="server" ID="LoadingImage" ImageUrl="~/Ajax/Img/loading7.gif" ToolTip="Loading..."
+            Width="81px" Height="21px" />
+    </LoadingStatusTemplate>
+    <Items>
+        <telerik:RadMenuItem Text="Products" Value="1" ExpandMode="WebService">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem Text="Purchase" Value="132" ExpandMode="WebService">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem Text="Support" Value="141" ExpandMode="WebService">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem Text="Community" Value="155" ExpandMode="WebService">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem Text="Corporate" Value="164" ExpandMode="WebService">
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
 ````
-
-
 
 # See Also
 

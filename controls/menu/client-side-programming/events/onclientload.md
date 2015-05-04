@@ -10,8 +10,6 @@ position: 1
 
 # OnClientLoad
 
-
-
 ## 
 
 The **OnClientLoad**client-side event occurs when the menu is first loaded and fully initialized on the client.
@@ -23,28 +21,26 @@ You can use this event to perform your own initialization to the menu when it is
 The following example illustrates the use of the **OnClientLoad** event handler for saving a reference to the client-side object:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        var menu1;
-	        function StoreMenuClientObject(sender) {
-	            menu1 = sender;
-	        }
-	        
-	        function UtilizeMenuClientObject() {
-	            alert(menu1.get_id());
-	        }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" OnClientLoad="StoreMenuClientObject">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="One" />
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Two" />
-	            <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Three" />
-	        </Items>
-	    </telerik:RadMenu>
-	    <input id="Button1" type="button" onclick="UtilizeMenuClientObject()" value="button" />
+<script type="text/javascript">
+    var menu1;
+    function StoreMenuClientObject(sender) {
+        menu1 = sender;
+    }
+    
+    function UtilizeMenuClientObject() {
+        alert(menu1.get_id());
+    }
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" OnClientLoad="StoreMenuClientObject">
+    <Items>
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="One" />
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Two" />
+        <telerik:RadMenuItem runat="server" ExpandMode="ClientSide" Text="Three" />
+    </Items>
+</telerik:RadMenu>
+<input id="Button1" type="button" onclick="UtilizeMenuClientObject()" value="button" />
 ````
-
-
 
 >note The technique illustrated here can be used when the menu is nested within another control, but the RadMenu must be rendered only once. For example, you can use this approach if RadMenu is nested in a toolbar template button. However, if RadMenu is nested in a grid with more than one row, the method fails since there will be multiple instances of the rendered menu.
 >

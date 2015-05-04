@@ -1,6 +1,6 @@
 ---
-title: Overview
-page_title: Events Overview | RadMenu for ASP.NET AJAX Documentation
+title: Events Overview
+page_title: Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/client-side-programming/events/overview
 tags: overview
@@ -53,22 +53,22 @@ position: 0
 To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding **RadMenu** or **RadContextMenu** property.
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function onClicking(sender, eventArgs) {
-	            var item = eventArgs.get_item();
-	            var navigateUrl = item.get_navigateUrl();
-	            if (navigateUrl && navigateUrl != "#") {
-	                var proceed = confirm("Navigate to " + navigateUrl + " ?");     
-	                if (!proceed)     
-	                {       
-	                    eventArgs.set_cancel(true);     
-	                }   
-	            } 
-	        }
-	      </script>
-	      <telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
-	      ...
-	      </telerik:RadMenu>
+<script type="text/javascript">
+    function onClicking(sender, eventArgs) {
+        var item = eventArgs.get_item();
+        var navigateUrl = item.get_navigateUrl();
+        if (navigateUrl && navigateUrl != "#") {
+            var proceed = confirm("Navigate to " + navigateUrl + " ?");     
+            if (!proceed)     
+            {       
+                eventArgs.set_cancel(true);     
+            }   
+        } 
+    }
+</script>
+<telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
+...
+</telerik:RadMenu>
 ````
 
 
@@ -76,19 +76,19 @@ To use these events, simply write a javascript function that can be called when 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
 ````JavaScript
-	    function onClickedHandler1() {
-	        alert("First handler called");
-	    }
-	    
-	    function onClickedHandler2() {
-	        alert("Second handler called");
-	    }
-	    
-	    function pageLoad() {
-	        var menu = $find("<%=RadMenu1.ClientID%>");
-	        menu.add_itemClicked(onClickedHandler1);
-	        menu.add_itemClicked(onClickedHandler2);
-	    }			
+function onClickedHandler1() {
+    alert("First handler called");
+}
+
+function onClickedHandler2() {
+    alert("Second handler called");
+}
+
+function pageLoad() {
+    var menu = $find("<%=RadMenu1.ClientID%>");
+    menu.add_itemClicked(onClickedHandler1);
+    menu.add_itemClicked(onClickedHandler2);
+}			
 ````
 
 
@@ -96,10 +96,10 @@ You can also assign event handlers in client-side code. When using the client-si
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	    function removeOnClicked2() {
-	        var menu = $find("<%=RadMenu1.ClientID%>");
-	        menu.remove_itemClicked(removeOnClicked2);
-	    }			
+function removeOnClicked2() {
+    var menu = $find("<%=RadMenu1.ClientID%>");
+    menu.remove_itemClicked(removeOnClicked2);
+}			
 ````
 
 
@@ -132,7 +132,6 @@ Note that on the client-side, the names of events are slightly different than on
 ## Enabling and disabling events
 
 If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the **disableEvents()** and **enableEvents()** methods. Unlike adding and removing individual event handlers, **enableEvents()** and **disableEvents()** affect all events at once.
-
 
 
 For a live example illustrating the RadMenu client-side events, see [Client-side events](http://demos.telerik.com/aspnet-ajax/Menu/Examples/Programming/ClientEvents/DefaultCS.aspx).

@@ -10,19 +10,17 @@ position: 2
 
 # Template Design Surface
 
-
-
 ## 
 
 The **Template Design Surface** lets you design templates for the items that appear in the menu. There are two ways to display the Template Design Surface:
 
-* Choose **Edit Templates** from the RadMenu [Smart Tag]({%slug menu/design-time/smart-tag%}):![RadMenu Smart Tag Edit Templates](images/menu_smarttagedittemplates.png)
+* Choose **Edit Templates** from the RadMenu [Smart Tag]({%slug menu/design-time/smart-tag%}):
+![RadMenu Smart Tag Edit Templates](images/menu_smarttagedittemplates.png)
 
-* Choose **Edit Template** from the RadMenu context menu and select the type of template you want to edit:![RadMenu Edit Template](images/menu_edittemplatemenu.png)
+* Choose **Edit Template** from the RadMenu context menu and select the type of template you want to edit:
+![RadMenu Edit Template](images/menu_edittemplatemenu.png)
 
 Either way, The Template Design Surface appears:
-
-
 
 ![RadMenu Template Design Surface](images/menu_templatedesignsurface.png)
 

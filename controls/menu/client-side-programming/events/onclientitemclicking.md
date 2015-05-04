@@ -11,7 +11,6 @@ position: 3
 # OnClientItemClicking
 
 
-
 ## 
 
 The **OnClientItemClicking** client-side event occurs when the user clicks on a menu item, before the menu responds to the mouse click.
@@ -34,30 +33,27 @@ The event handler receives two parameters:
 
 You can use this event to pre-process an item click or to cancel the default response:
 
-````ASPNET
-	
-	    <script type="text/javascript">
-	    function onClicking(sender, eventArgs) {
-	        var item = eventArgs.get_item();
-	        var navigateUrl = item.get_navigateUrl();
-	        if (navigateUrl && navigateUrl != "#") {
-	            var proceed = confirm("Navigate to " + navigateUrl + " ?");
-	            if (!proceed) {
-	                eventArgs.set_cancel(true);
-	            }
-	            else {
-	                eventArgs.set_cancel(false);
-	            }
-	        }
-	    }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
-	        ...
-	    </telerik:RadMenu>
+````ASPNET	
+<script type="text/javascript">
+function onClicking(sender, eventArgs) {
+    var item = eventArgs.get_item();
+    var navigateUrl = item.get_navigateUrl();
+    if (navigateUrl && navigateUrl != "#") {
+        var proceed = confirm("Navigate to " + navigateUrl + " ?");
+        if (!proceed) {
+            eventArgs.set_cancel(true);
+        }
+        else {
+            eventArgs.set_cancel(false);
+        }
+    }
+}
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" OnClientItemClicking="onClicking">
+    ...
+</telerik:RadMenu>
 ````
-
-
 
 
 

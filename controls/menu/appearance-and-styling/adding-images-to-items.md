@@ -10,10 +10,6 @@ position: 1
 
 # Adding Images to Items
 
-
-
-
-
 ## 
 
 Each **RadMenuItem** has a set of properties you can use to add images to your menu items. You can simply add a single image to each menu item, or you can add separate images that reflect the state of the menu item.
@@ -37,7 +33,7 @@ To set the image properties at design time, use the [RadMenu Item Builder]({%slu
 The following example uses the **ImageUrl** and **HoveredImageUrl** properties to create a **RadMenu** that uses only images for items:
 
 ````ASPNET
-	    <telerik:radmenu id="RadMenu1" runat="server" skin="" flow="Horizontal">
+<telerik:radmenu id="RadMenu1" runat="server" skin="" flow="Horizontal">
 	<Items>
 	  <telerik:RadMenuItem
 	     ImageUrl="Images/Products.gif"
@@ -136,9 +132,8 @@ The following example uses the **ImageUrl** and **HoveredImageUrl** properties t
 	   </Items>
 	 </telerik:RadMenuItem>
 	</Items>
-	</telerik:radmenu>
+</telerik:radmenu>
 ````
-
 
 
 ![RadMenu Images Only](images/menu_imageonly.png)
@@ -148,55 +143,50 @@ For a live example, see [Image Only](http://demos.telerik.com/aspnet-ajax/Menu/E
 Since Q3 2010 RadMenu provides support for sprites - two new properties have been added:EnableImageSprites for the whole menu and EnableImageSprite for every menu item. Their purpose is to replace the menu item image element with a sized span for easier use of sprites. CssClass property of the buttons should be set in order to apply the sprite background image:
 
 ````ASPNET
-	    <style type="text/css">
-	        .icon1 .rmLeftImage, .icon2 .rmLeftImage
-	        {
-	            background: transparent url('sprite.png') 0 0;
-	        }
-	        .icon2 .rmLeftImage
-	        {
-	            background-position: -16px 0;
-	        }
-	    </style>
-	    
-	    <telerik:RadMenu id="RadMenu1" runat="server" enableimagesprites="true">
-	       <Items>
-	           <telerik:RadMenuItem Text="Item1" CssClass="icon1" />
-	           <telerik:RadMenuItem Text="Item2" CssClass="icon2" />
-	           <telerik:RadMenuItem Text="Item3" EnableImageSprite="false" />
-	       </Items>
-	    </telerik:RadMenu>
+<style type="text/css">
+    .icon1 .rmLeftImage, .icon2 .rmLeftImage
+    {
+        background: transparent url('sprite.png') 0 0;
+    }
+    .icon2 .rmLeftImage
+    {
+        background-position: -16px 0;
+    }
+</style>
+
+<telerik:RadMenu id="RadMenu1" runat="server" enableimagesprites="true">
+   <Items>
+       <telerik:RadMenuItem Text="Item1" CssClass="icon1" />
+       <telerik:RadMenuItem Text="Item2" CssClass="icon2" />
+       <telerik:RadMenuItem Text="Item3" EnableImageSprite="false" />
+   </Items>
+</telerik:RadMenu>
 ````
-
-
-
 
 
 will be rendered like this:
 
 ````HTML
-	    <ul class="rmRootGroup rmHorizontal">
-	        <li class="rmItem rmFirst">
-	            <a href="#" class="rmLink rmRootLink icon1">
-	                <span title="" class="rmLeftImage"></span>
-	                <span class="rmText">Item1</span> 
-	            </a>
-	        </li>
-	        <li class="rmItem ">
-	            <a href="#" class="rmLink rmRootLink icon2">
-	                <span title="" class="rmLeftImage"></span>
-	                <span class="rmText">Item2</span> 
-	            </a>
-	        </li>
-	        <li class="rmItem rmLast">
-	            <a href="#" class="rmLink rmRootLink">
-	                <span class="rmText">Item3</span> 
-	            </a>
-	       </li>
-	    </ul>
+<ul class="rmRootGroup rmHorizontal">
+    <li class="rmItem rmFirst">
+        <a href="#" class="rmLink rmRootLink icon1">
+            <span title="" class="rmLeftImage"></span>
+            <span class="rmText">Item1</span> 
+        </a>
+    </li>
+    <li class="rmItem ">
+        <a href="#" class="rmLink rmRootLink icon2">
+            <span title="" class="rmLeftImage"></span>
+            <span class="rmText">Item2</span> 
+        </a>
+    </li>
+    <li class="rmItem rmLast">
+        <a href="#" class="rmLink rmRootLink">
+            <span class="rmText">Item3</span> 
+        </a>
+   </li>
+</ul>
 ````
-
-
 
 >caution Setting ImageUrl overrides this behavior, so it should be removed for EnableImageSprite/s to work.
 >

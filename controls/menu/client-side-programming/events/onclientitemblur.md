@@ -11,9 +11,6 @@ position: 12
 # OnClientItemBlur
 
 
-
-
-
 ## 
 
 The **OnClientItemBlur** client-side event occurs when an item in the menu loses focus.
@@ -31,17 +28,17 @@ The event handler receives two parameters:
 You can use this event to respond when an item loses focus.
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function BlurItem(menu, args) {
-	            alert("Leaving " + args.get_item().get_text());
-	        }
-	    </script>
-	
-	    <telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemBlur="BlurItem">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadMenu>
+<script type="text/javascript">
+    function BlurItem(menu, args) {
+        alert("Leaving " + args.get_item().get_text());
+    }
+</script>
+
+<telerik:RadMenu ID="RadMenu1" runat="server" Flow="Horizontal" OnClientItemBlur="BlurItem">
+    <Items>
+        ...
+    </Items>
+</telerik:RadMenu>
 ````
 
 

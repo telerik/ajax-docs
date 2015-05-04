@@ -11,55 +11,50 @@ position: 2
 # Hide and Show the Menu on the Client
 
 
-
-
-
 ## 
 
 Here is an example of how to show/hide the menu and menu item client-side.
 
 ````ASPNET
-	    <telerik:RadMenu ID="RadMenu1" runat="server">
-	        <Items>
-	            <telerik:RadMenuItem runat="server" Text="root 1">
-	            </telerik:RadMenuItem>
-	            <telerik:RadMenuItem runat="server" Text="root 2">
-	                <Items>
-	                    <telerik:RadMenuItem runat="server" Text="child 2.1">
-	                    </telerik:RadMenuItem>
-	                    <telerik:RadMenuItem runat="server" Text="child 2.2">
-	                    </telerik:RadMenuItem>
-	                </Items>
-	            </telerik:RadMenuItem>
-	        </Items>
-	    </telerik:RadMenu>
-	    <input id="Button1" onclick="hideMenuItem()" type="button" value="Hide Menu Item" />
-	    <input id="Button2" onclick="showMenuItem()" type="button" value="Show Menu Item" />
-	    <input id="Button3" onclick="showOrHideMenu()" type="button" value="Show/Hide Menu" />
+<telerik:RadMenu ID="RadMenu1" runat="server">
+    <Items>
+        <telerik:RadMenuItem runat="server" Text="root 1">
+        </telerik:RadMenuItem>
+        <telerik:RadMenuItem runat="server" Text="root 2">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="child 2.1">
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="child 2.2">
+                </telerik:RadMenuItem>
+            </Items>
+        </telerik:RadMenuItem>
+    </Items>
+</telerik:RadMenu>
+<input id="Button1" onclick="hideMenuItem()" type="button" value="Hide Menu Item" />
+<input id="Button2" onclick="showMenuItem()" type="button" value="Show Menu Item" />
+<input id="Button3" onclick="showOrHideMenu()" type="button" value="Show/Hide Menu" />
 ````
 
-
-
 ````JavaScript
-	        function hideMenuItem() {
-	            var menu = $find("<%=RadMenu1.ClientID %>");
-	            menu.findItemByText("root 1").hide();
-	        }
-	
-	        function showMenuItem() {
-	            var menu = $find("<%=RadMenu1.ClientID %>");
-	            menu.findItemByText("root 1").show();
-	        }
-	        
-	        function showOrHideMenu() {
-	            var menu = $find("<%=RadMenu1.ClientID %>");
-	            if (menu.get_element().style.display == "none") {
-	                menu.get_element().style.display = "";
-	            }
-	            else {
-	                menu.get_element().style.display = "none";
-	            }                                        
-	       }      
+function hideMenuItem() {
+    var menu = $find("<%=RadMenu1.ClientID %>");
+    menu.findItemByText("root 1").hide();
+}
+
+function showMenuItem() {
+    var menu = $find("<%=RadMenu1.ClientID %>");
+    menu.findItemByText("root 1").show();
+}
+
+function showOrHideMenu() {
+    var menu = $find("<%=RadMenu1.ClientID %>");
+    if (menu.get_element().style.display == "none") {
+        menu.get_element().style.display = "";
+    }
+    else {
+        menu.get_element().style.display = "none";
+    }                                        
+}      
 ````
 
 

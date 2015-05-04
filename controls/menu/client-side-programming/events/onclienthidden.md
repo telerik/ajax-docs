@@ -10,10 +10,6 @@ position: 19
 
 # OnClientHidden
 
-
-
-
-
 ## 
 
 (**RadContextMenu** only) The **OnClientHidden** client-side event occurs when the context menu disappears.
@@ -23,24 +19,23 @@ The event handler receives a single parameter: a reference to the client-side ob
 You can use this event to respond when the context menu disappears:
 
 ````JavaScript
-	    <script type="text/javascript">
-	        function Goodbye(menu) {    
-	        // reset all items to their initial state
-	            for (var i = 0; i < menu.get_allItems().length; i++) {
-	                menu.get_allItems()[i].enable();
-	            }
-	        }
-	    </script>
+<script type="text/javascript">
+    function Goodbye(menu) {    
+    // reset all items to their initial state
+        for (var i = 0; i < menu.get_allItems().length; i++) {
+            menu.get_allItems()[i].enable();
+        }
+    }
+</script>
 ````
 
 
-
 ````ASPNET
-	    <telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientHidden="Goodbye">
-	        <Items>
-	            ...
-	        </Items>
-	    </telerik:RadContextMenu>
+<telerik:RadContextMenu ID="RadContextMenu1" runat="server" OnClientHidden="Goodbye">
+    <Items>
+        ...
+    </Items>
+</telerik:RadContextMenu>
 ````
 
 

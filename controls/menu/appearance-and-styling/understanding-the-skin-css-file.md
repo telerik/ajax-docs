@@ -15,7 +15,7 @@ position: 8
 Styles for RadControls are defined using Cascading Style Sheet (CSS) syntax. Each style consists of a selector that identifies an HTML element to be styled, and property/value pairs that describe each of the style specifics, e.g. color, padding, margins, etc. For example, the ".rmGroup" style will have a solid green border and white background:
 
 ````ASPNET
-	    .RadMenu_Green .rmGroup { border: 1px solid green; background-color: #fff;}
+.RadMenu_Green .rmGroup { border: 1px solid green; background-color: #fff;}
 ````
 
 
@@ -27,64 +27,63 @@ See the [CSS Skin FileSelectors]({%slug menu/appearance-and-styling/css-skin-fil
 Each style maps to a "class" attribute in an HTML tag. For example, consider the HTML rendering of the menu shown above:
 
 ````HTML
-	   <div id="Div1" class="RadMenu RadMenu_Green ">
-	     <ul class="rmHorizontal rmRootGroup">
-	       <li class="rmItem rmFirst">
-	         <a href="#" class="rmLink ">
-	           <span class="rmText">File</span>
-	         </a>
-	         <div class="rmSlide">
-	           <ul class="rmVertical rmGroup rmLevel1">
-	             <li class="rmItem rmFirst">
-	               <a href="#" class="rmLink ">
-	                 <span class="rmText">New...</span>
-	               </a>
-	               <div class="rmSlide">
-	                 <ul class="rmVertical rmGroup rmLevel2">
-	                   <li class="rmItem rmFirst">
-	                     <a href="#" class="rmLink ">
-	                        <span class="rmText">File</span>
-	                     </a>
-	                   </li>
-	                   <li class="rmItem rmLast">
-	                     <a href="#" class="rmLink ">
-	                       <span class="rmText">Folder</span>
-	                     </a>
-	                   </li>
-	                 </ul>
-	               </div>
-	             </li>
-	             <li class="rmItem">
-	               <a href="#" class="rmLink ">
-	                 <span class="rmText">Open</span>
-	               </a>
-	             </li>
-	             <li class="rmItem rmSeparator ">
-	               <span class="rmText"></span>
-	             </li>
-	             <li class="rmItem rmLast">
-	               <a href="#" class="rmLink ">
-	                 <span class="rmText">Exit</span>
-	               </a>
-	             </li>
-	           </ul>
-	         </div>
-	       </li>
-	       <li class="rmItem">
-	         <a href="#" class="rmLink ">
-	           <span class="rmText">Edit</span>
-	         </a>
-	       </li>
-	       <li class="rmItem rmLast">
-	         <a href="#" class="rmLink rmDisabled ">
-	           <span class="rmText">Help</span>
-	         </a>
-	       </li>
-	     </ul>
-	     <input id="RadMenu1_ClientState" name="RadMenu1_ClientState" type="hidden" />
-	   </div> 
+<div id="Div1" class="RadMenu RadMenu_Green ">
+ <ul class="rmHorizontal rmRootGroup">
+   <li class="rmItem rmFirst">
+     <a href="#" class="rmLink ">
+       <span class="rmText">File</span>
+     </a>
+     <div class="rmSlide">
+       <ul class="rmVertical rmGroup rmLevel1">
+         <li class="rmItem rmFirst">
+           <a href="#" class="rmLink ">
+             <span class="rmText">New...</span>
+           </a>
+           <div class="rmSlide">
+             <ul class="rmVertical rmGroup rmLevel2">
+               <li class="rmItem rmFirst">
+                 <a href="#" class="rmLink ">
+                    <span class="rmText">File</span>
+                 </a>
+               </li>
+               <li class="rmItem rmLast">
+                 <a href="#" class="rmLink ">
+                   <span class="rmText">Folder</span>
+                 </a>
+               </li>
+             </ul>
+           </div>
+         </li>
+         <li class="rmItem">
+           <a href="#" class="rmLink ">
+             <span class="rmText">Open</span>
+           </a>
+         </li>
+         <li class="rmItem rmSeparator ">
+           <span class="rmText"></span>
+         </li>
+         <li class="rmItem rmLast">
+           <a href="#" class="rmLink ">
+             <span class="rmText">Exit</span>
+           </a>
+         </li>
+       </ul>
+     </div>
+   </li>
+   <li class="rmItem">
+     <a href="#" class="rmLink ">
+       <span class="rmText">Edit</span>
+     </a>
+   </li>
+   <li class="rmItem rmLast">
+     <a href="#" class="rmLink rmDisabled ">
+       <span class="rmText">Help</span>
+     </a>
+   </li>
+ </ul>
+ <input id="RadMenu1_ClientState" name="RadMenu1_ClientState" type="hidden" />
+</div> 
 ````
-
 
 
 The control is rendered as a DIV element with the class "**RadMenu RadMenu_Green**". The item hierarchy is presented as nested unordered lists with links inside, all containing nested class attributes.
@@ -96,35 +95,28 @@ Here is a more detailed breakdown of the rendered markup:
 The menu is rendered as a **DIV** tag. Here is an excerpt from the example above:
 
 ````HTML
-	    <div id="RadMenu1" class="RadMenu RadMenu_Green ">
-	        <!-- menu content goes here -->
-	    </div>
+<div id="RadMenu1" class="RadMenu RadMenu_Green ">
+    <!-- menu content goes here -->
+</div>
 ````
 
-
-
-The **ID** attribute of the DIV tag is set to the **ClientID** property of the **RadMenu** control. As you can see two CSS classes have been applied: "**RadMenu**" and "**RadMenu****_Green**". The "**RadMenu**" class is always applied. It defines the basic presentation of the menu which is common for all skins. The "**RadMenu_Green**" class is applied because the **Skin** of the menu is set to **"Green"**. If the the menu does not use a skin (the **Skin** property is set to **""**) only the "**RadMenu**" CSS class would be rendered.
+The **ID** attribute of the DIV tag is set to the **ClientID** property of the **RadMenu** control. As you can see two CSS classes have been applied: "**RadMenu**" and "**RadMenu_Green**". The "**RadMenu**" class is always applied. It defines the basic presentation of the menu which is common for all skins. The "**RadMenu_Green**" class is applied because the **Skin** of the menu is set to **"Green"**. If the the menu does not use a skin (the **Skin** property is set to **""**) only the "**RadMenu**" CSS class would be rendered.
 
 If you set the **Style** or **CssClass** property of the RadMenu control they would be applied to the root menu tag:
 
 ````HTML
-	    <telerik:RadMenu runat="server" ID="RadMenu1" Skin="Green" CssClass="MyMenu" Style="position: relative; z-index: 1000">
+<telerik:RadMenu runat="server" ID="RadMenu1" Skin="Green" CssClass="MyMenu" Style="position: relative; z-index: 1000">
 ````
-
-
 
 ## Root item group
 
 The root item group renders as a **UL** (unordered list)tag:
 
 ````HTML
-	        <ul class="rmHorizontal rmRootGroup">
-	            <!-- root elements and their children go here -->
-	        </ul>
+<ul class="rmHorizontal rmRootGroup">
+    <!-- root elements and their children go here -->
+</ul>
 ````
-
-
-
 
 
 It has two CSS classes applied: "**rmHorizontal**" and "**rmRootGroup**". The "**rmHorizontal**" class is applied because the **Flow** of the **RadMenu** is horizontal by default. If it were vertical that CSS class would be "**rmVertical**". The "**rmRootGroup**" CSS class is always rendered.
@@ -134,41 +126,36 @@ It has two CSS classes applied: "**rmHorizontal**" and "**rmRootGroup**". The "*
 RadMenuItem renders as a **LI** (list item) tag, containing an **A**(link or anchor) tag. The text of the item is rendered inside a **SPAN** tag:
 
 ````HTML
-	        <li class="rmItem">
-	            <a href="#" class="rmLink ">
-	                <span class="rmText">Edit</span> 
-	            </a>
-	            <!-- child items go here -->
-	        </li>
+<li class="rmItem">
+    <a href="#" class="rmLink ">
+        <span class="rmText">Edit</span> 
+    </a>
+    <!-- child items go here -->
+</li>
 ````
-
-
 
 The **LI** tag has its **class** attribute always set to "**rmItem**". The **A** tag has its class attribute always set to "**rmLink**". The **SPAN** tag has its class attribute always set to "**rmText**". If the **Style** or **CssClass** properties of the **RadMenuItem** class are set they are applied to the **A** tag.
 
 If the item is the first child of its parent, the **LI** tag also has the "**rmFirst**" CSS class applied:
 
 ````HTML
-	        <li class="rmItem rmFirst">
-	            <a href="#" class="rmLink ">
-	                <span class="rmText">File</span>
-	            </a>
-	            <!-- child items go here -->
-	        </li>
+<li class="rmItem rmFirst">
+    <a href="#" class="rmLink ">
+        <span class="rmText">File</span>
+    </a>
+    <!-- child items go here -->
+</li>
 ````
-
-
 
 If the item is the last child of its parent, the **LI** tag has the "**rmLast**" CSS class applied:
 
 ````HTML
-	        <li class="rmItem rmLast">
-	            <a href="#" class="rmLink rmDisabled ">
-	                <span class="rmText">Help</span> 
-	            </a>
-	        </li>
+<li class="rmItem rmLast">
+    <a href="#" class="rmLink rmDisabled ">
+        <span class="rmText">Help</span> 
+    </a>
+</li>
 ````
-
 
 
 Note that in this example, the item is disabled, so the **A** tag has the "**rmDisabled**" class applied as well as the "**rmLink**" class.
@@ -180,11 +167,10 @@ Note that in this example, the item is disabled, so the **A** tag has the "**rmD
 If the item is a separator (its **IsSeparator** property is **True**), the **LI**tag gets the "**rmSeparator**" class applied. Because separators do not respond to user clicks, it has no **A**element:
 
 ````HTML
-	        <li class="rmItem rmSeparator ">
-	            <span class="rmText"></span>
-	        </li>
+<li class="rmItem rmSeparator ">
+    <span class="rmText"></span>
+</li>
 ````
-
 
 
 ## Item States
@@ -202,14 +188,12 @@ The **Last Menu Item** example showed a disabled item with the "**rmDisabled**" 
 If the item has children they are rendered in an **UL** tag within the **LI** tag of their parent item:
 
 ````HTML
-	        <div class="rmSlide">
-	            <ul class="rmVertical rmGroup rmLevel1">
-	                <!-- child items go here -->
-	            </ul>
-	        </div>
+<div class="rmSlide">
+    <ul class="rmVertical rmGroup rmLevel1">
+        <!-- child items go here -->
+    </ul>
+</div>
 ````
-
-
 
 >note The DIV tag whose class attribute is set to "rmSlide" is used by the animation effects. It is not related with the final appearance and can be ignored.
 >

@@ -17,10 +17,10 @@ You can easily load the items of a menu from an XML source, as long as the sourc
 1. The top level consists of a single node, called <Menu>. This node can include attributes for the **RadMenu** properties:
 
 ````XML
-	    <?xml version="1.0" encoding="utf-8" ?>
-	    <Menu Skin="Outlook">
-	       ...
-	    </Menu> 
+<?xml version="1.0" encoding="utf-8" ?>
+<Menu Skin="Outlook">
+   ...
+</Menu> 
 ````
 
 
@@ -28,9 +28,9 @@ You can easily load the items of a menu from an XML source, as long as the sourc
 1. Immediately below the <Menu> node is a <Group> node to enclose the root level items. Each level of items, including the root level, is enclosed in a <Group> node. The <Group> node correspondsto the **GroupSettings** property of a menu item, and can include attributes that correspond to the GroupSettings sub-properties such as **Flow**, **ExpandDirection**, **Height**, **Width**, **OffsetX**, and **OffsetY**:
 
 ````XML
-	    <Group ExpandDirection="Right" Flow="Horizontal">
-	     ...
-	    <Group> 
+<Group ExpandDirection="Right" Flow="Horizontal">
+ ...
+<Group> 
 ````
 
 
@@ -38,13 +38,13 @@ You can easily load the items of a menu from an XML source, as long as the sourc
 1. Each item within a <Group> node is represented by an <Item> node. The attributes of the <Item> node correspond to the properties and custom attributes of the menu item. Any child items are contained in a <Group> node nested within the <Item> node:
 
 ````XML
-	<Item Text="Parent" LeftLogo="Img\parent.gif" >
-	    <Group Width="140" Flow="Vertical">
-	        <Item Text="Child 1" />
-	        <Item IsSeparator="True" />
-	        <Item Text="Child 2" />
-	    </Group>
-	</Item>
+<Item Text="Parent" LeftLogo="Img\parent.gif" >
+    <Group Width="140" Flow="Vertical">
+        <Item Text="Child 1" />
+        <Item IsSeparator="True" />
+        <Item Text="Child 2" />
+    </Group>
+</Item>
 ````
 
 
@@ -64,10 +64,10 @@ Create an XML file with content that complies with the rules described above and
 
 
 ````C#
-	RadMenu1.LoadContentFile("~/App_Data/menu.xml");		
+RadMenu1.LoadContentFile("~/App_Data/menu.xml");		
 ````
 ````VB.NET
-	    RadMenu1.LoadContentFile("~/App_Data/menu.xml")
+RadMenu1.LoadContentFile("~/App_Data/menu.xml")
 ````
 
 
@@ -76,30 +76,27 @@ Create an XML file with content that complies with the rules described above and
 Create a string with valid XML content (or fetch it from a database, for example) and use the **LoadXML** method to populate the menu from the string:
 
 
-
-
-
 ````C#
-	StringBuilder sb = new StringBuilder();
-	sb.Append("<Menu>");sb.Append(" <Group>");
-	sb.Append(" <Item Text='Root 1' />");
-	sb.Append(" <Item Text='Root 2' />");
-	sb.Append(" <Item Text='Root 3' />");
-	sb.Append(" </Group>");sb.Append(" </Menu>");
-	string xmlString = sb.ToString();
-	RadMenu1.LoadXml(xmlString);	
+StringBuilder sb = new StringBuilder();
+sb.Append("<Menu>");sb.Append(" <Group>");
+sb.Append(" <Item Text='Root 1' />");
+sb.Append(" <Item Text='Root 2' />");
+sb.Append(" <Item Text='Root 3' />");
+sb.Append(" </Group>");sb.Append(" </Menu>");
+string xmlString = sb.ToString();
+RadMenu1.LoadXml(xmlString);	
 ````
 ````VB.NET
-	    Dim sb As New StringBuilder()
-	    sb.Append("<Menu>")
-	    sb.Append(" <Group>")
-	    sb.Append(" <Item Text='Root 1' />")
-	    sb.Append(" <Item Text='Root 2' />")
-	    sb.Append(" <Item Text='Root 3' />")
-	    sb.Append(" </Group>")
-	    sb.Append(" </Menu>")
-	    Dim xmlString As String = sb.ToString()
-	    RadMenu1.LoadXml(xmlString)
+Dim sb As New StringBuilder()
+sb.Append("<Menu>")
+sb.Append(" <Group>")
+sb.Append(" <Item Text='Root 1' />")
+sb.Append(" <Item Text='Root 2' />")
+sb.Append(" <Item Text='Root 3' />")
+sb.Append(" </Group>")
+sb.Append(" </Menu>")
+Dim xmlString As String = sb.ToString()
+RadMenu1.LoadXml(xmlString)
 ````
 
 
