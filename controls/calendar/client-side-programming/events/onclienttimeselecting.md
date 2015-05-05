@@ -14,7 +14,7 @@ position: 14
 
 ## 
 
-It is sometimes necessary for a **TimeView** selection to be canceled. This may be the case when we have disabled a particular TimeView cell. An example of this is when the user should be able to select given time intervals, but not other.
+It is sometimes necessary for a **TimeView** selection to be canceled. This may be the case when we have disabled a particular **TimeView** cell. An example of this is when the user should be able to select given time intervals, but not other.
 
 >note The **OnClientTimeSelecting** event is supported by: **RadTimeView** .
 >
@@ -36,23 +36,15 @@ The event handler receives two arguments:
 In this case, one can use the OnClientTimeSelecting client side event handler, which is cancelable. One usage is demonstrated by the code sample below:
 
 ````ASPNET
-	     
-	
-	<telerik:RadTimePicker runat="server" Id="Picker1">
-	    <TimeView runat="server" ID="TimeView1" OnClientTimeSelecting="ClientTimeSelecting">
-	    </TimeView>
-	</telerik:RadTimePicker>
-				
+<telerik:RadTimePicker runat="server" Id="Picker1">
+    <TimeView runat="server" ID="TimeView1" OnClientTimeSelecting="clientTimeSelecting">
+    </TimeView>
+</telerik:RadTimePicker>
 ````
-
-
-
-````XML
-	 <script type="text/javascript">
-	     function ClientTimeSelecting(sender, eventArgs) {
-	         eventArgs.set_cancel(true);
-	     }
-	</script>		
+````JavaScript
+function clientTimeSelecting(sender, eventArgs) {
+    eventArgs.set_cancel(true);
+}	
 ````
 
 

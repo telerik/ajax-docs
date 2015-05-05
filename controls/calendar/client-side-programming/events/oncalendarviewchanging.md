@@ -34,28 +34,29 @@ The event handler receives two arguments:
 
 This event can be used to pre-process some conditions or visual styles and content before the final rendering of the calendar. The following example uses the **OnCalendarViewChanging** event to prevent the view from changing unless a date in the current month is selected:
 
+````ASPNET
+<telerik:RadCalendar ID="RadCalendar1" runat="server" ShowOtherMonthsDays="False" >
+	<ClientEvents OnCalendarViewChanging="checkSelections" />
+</telerik:RadCalendar>
+````
 ````JavaScript
-	 <script type="text/javascript">
-	     function CheckSelections(sender, eventArgs) {
-	         var selDates = sender.get_selectedDates();
-	         var focus = sender.get_focusedDate();
-	         var viewHasSelection = false;
-	         for (var i = 0; i < selDates.length; i++) {
-	             if ((selDates[i][0] == focus[0]) &&
-	         (selDates[i][1] == focus[1]))
-	                 viewHasSelection = true;
-	         }
-	         eventArgs.set_cancel(!viewHasSelection);
-	         if (eventArgs.get_cancel()) {
-	             alert("You must select a value before moving " +
-	        (eventArgs.get_step() > 0 ? "forward " : "back ") +
-	        "to another month.");
-	         }
-	     }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server" ShowOtherMonthsDays="False" >
-	 <ClientEvents OnCalendarViewChanging="CheckSelections" />
-	</telerik:RadCalendar>		
+function checkSelections(sender, eventArgs) {
+    var selDates = sender.get_selectedDates();
+    var focus = sender.get_focusedDate();
+    var viewHasSelection = false;
+	
+    for (var i = 0; i < selDates.length; i++) {
+        if ((selDates[i][0] == focus[0]) && (selDates[i][1] == focus[1])) {
+			viewHasSelection = true;
+		}
+    }
+	
+    eventArgs.set_cancel(!viewHasSelection);
+	
+    if (eventArgs.get_cancel()) {
+    	alert("You must select a value before moving " + (eventArgs.get_step() > 0 ? "forward " : "back ") + "to another month.");
+	}
+}
 ````
 
 

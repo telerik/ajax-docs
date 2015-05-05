@@ -33,24 +33,24 @@ The event handler receives two arguments:
 
 The following example uses the **OnCalendarViewChanged** event to display an alert:
 
+````ASPNET
+<telerik:RadCalendar ID="RadCalendar1" runat="server">
+ <ClientEvents OnCalendarViewChanged="viewChanged" />
+</telerik:RadCalendar>		
+````
 ````JavaScript
-	<script type="text/javascript">
-	    function ViewChanged(sender, eventArgs) {
-	        var step = eventArgs.get_step();
-	        var msg = "The calendar moved ";
-	        if (step < 0) {
-	            msg = msg + "back ";
-	            step = -step;
-	        }
-	        else
-	            msg = msg + "forward "
-	        msg = msg + step + " views.";
-	        alert(msg);
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server">
-	 <ClientEvents OnCalendarViewChanged="ViewChanged" />
-	</telerik:RadCalendar>		
+function viewChanged(sender, eventArgs) {
+    var step = eventArgs.get_step();
+    var msg = "The calendar moved ";
+    if (step < 0) {
+        msg = msg + "back ";
+        step = -step;
+    }
+    else
+        msg = msg + "forward "
+    msg = msg + step + " views.";
+    alert(msg);
+}
 ````
 
 

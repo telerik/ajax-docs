@@ -12,26 +12,15 @@ position: 8
 
 
 
-The **RadCalendar** control provides an option to select
-a range of dates in addition to selecting one or multiple different dates.
-To enable the date range selection feature you need to set the
-**RangeSelectionMode** property to one of the following
-values:
+The **RadCalendar** control provides an option to select a range of dates in addition to selecting one or multiple different dates. To enable the date range selection feature you need to set the **RangeSelectionMode** property to one of the following values:
 
 * **OnKeyHold** - Allow range selection by pressing **[Shift]** key and clicking on the date.
 
 * **ConsecutiveClicks**- Allow range selection by clicking consecutively two dates.
 
-By default the **RangeSelectionMode** property is set to
-**None** which does not allow range selection.
+By default the **RangeSelectionMode** property is set to **None** which does not allow range selection.
 
-
-
-On the client you could get the Start/End range dates by using
-the **radCalendar.get_rangeSelectionStartDate()** and
-**radCalendar.get_rangeSelectionEndDate()** methods. You can set
-them programmatically by using **radCalendar.set_datesInRange(startDate,
-endDate)** client-side method.
+On the client you could get the Start/End range dates by using the **radCalendar.get_rangeSelectionStartDate()** and **radCalendar.get_rangeSelectionEndDate()** methods. You can set them programmatically by using **radCalendar.set_datesInRange(startDate, endDate)** client-side method.
 
 The below sample demonstrates the client-side methods usage:
 
@@ -67,9 +56,7 @@ The below sample demonstrates the client-side methods usage:
 
 
 
-On the server Start/End dates are available through
-**RadCalendar.RangeSelectionStartDate** and
-**RadCalendar.RangeSelectionEndDate** properties.
+On the server Start/End dates are available through **RadCalendar.RangeSelectionStartDate** and **RadCalendar.RangeSelectionEndDate** properties.
 
 >note 
 Note that when range selection is done any other date selection will unselect all dates from the range selection

@@ -44,13 +44,9 @@ You can set these properties at design time by expanding the **TimeView** proper
 **RadTimePicker** and **RadDateTimePicker** allow displaying custom pre-defined time values. This feature is controlled by the **CustomTimeValues** property that the **TimeView** of the time picker exposes. The **CustomTimeValues** is of type object and accepts:
 
 1. A string array where each string represents a given time value. The separator for the various time parts can be a column, a dash or a semi-column. Each string time value can contains:
-
 	* day, hour, minutes, seconds, milliseconds
-
 	* hour, minutes, seconds, milliseconds
-
 	* hour, minutes, seconds
-
 	* hour, minutes
 
 2. A **TimeSpan** array with the custom-defined time values.
@@ -118,9 +114,8 @@ End Sub
 ````
 
 
->caption 
-Here is how a configured **RadTimePicker** should look
->
+
+Here is how a configured **RadTimePicker** should look like
 
 ![calendar timeview 1](images/calendar_timeview1.png)
 

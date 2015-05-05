@@ -38,7 +38,7 @@ To change the current language/resource you should set the Culture property acco
 >
 
 
-````XML
+````ASPNET
 <telerik:RadCalendar  ID="RadCalendar1" runat="server" Culture="en-US" ... </telerik:RadCalendar>
 ````
 
@@ -73,7 +73,7 @@ In order to create a new localization file you can follow the steps listed below
 3. Set the **Culture** property of the control to the relevant language
 
 >caution 
-Please ** -do not- ** modify/remove the **ReservedResource** key.
+Please **do not** modify/remove the **ReservedResource** key.
 >
 
 >note 

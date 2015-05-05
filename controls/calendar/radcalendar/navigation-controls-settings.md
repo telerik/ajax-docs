@@ -34,7 +34,7 @@ If you do not want to remove all the navigation buttons using the **EnableNaviga
 >{
 >display: none;
 >}
->You should keep in mind that the correct CSS specificity (at least 31) should be used in order to override the skin's display style. The CSS classes of the four navigation buttons are **rcFastPrev** , **rcPrev** , **rcNext** and **rcFastNext** .
+You should keep in mind that the correct CSS specificity (at least 31) should be used in order to override the skin's display style. The CSS classes of the four navigation buttons are **rcFastPrev** , **rcPrev** , **rcNext** and **rcFastNext** .
 >
 
 

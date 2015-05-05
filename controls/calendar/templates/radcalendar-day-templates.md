@@ -19,118 +19,110 @@ The following steps describe how to implement Day Templates:
 
 1. Define the Dynamic Template types.
 
-2. Click the ellipsis button next to the **CalendarDayTemplates** property in the properties pane. This brings up the [DayTemplate Collection Editor]({%slug calendar/design-time/daytemplate-collection-editor%}).
-
-3. In the collection editor, create individual template types for each type of day you want to customize, giving each unique ID. The following example shows the result of this step:
-
-````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
-       EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
-       ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
-       <CalendarDayTemplates>
-            <telerik:DayTemplate ID="DateTemplate" runat="server">
-            </telerik:DayTemplate>
-            <telerik:DayTemplate ID="MortgageTemplate" runat="server">
-            </telerik:DayTemplate>
-            <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
-            </telerik:DayTemplate>
-       </CalendarDayTemplates>
-</telerik:RadCalendar>
+    1. Click the ellipsis button next to the **CalendarDayTemplates** property in the properties pane. This brings up the [DayTemplate Collection Editor]({%slug calendar/design-time/daytemplate-collection-editor%}).
+    
+    2. In the collection editor, create individual template types for each type of day you want to customize, giving each unique ID. The following example shows the result of this step:
+        ````ASPNET
+        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+               EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
+               ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
+               <CalendarDayTemplates>
+                    <telerik:DayTemplate ID="DateTemplate" runat="server">
+                    </telerik:DayTemplate>
+                    <telerik:DayTemplate ID="MortgageTemplate" runat="server">
+                    </telerik:DayTemplate>
+                    <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
+                    </telerik:DayTemplate>
+               </CalendarDayTemplates>
+        </telerik:RadCalendar>
 ````
 
 
 
-4. **Create the templates.**
+2. Create the templates.
 
-5. For each template type, bring up the **RadCalendar** context menu, select **Edit Template**, and choose the template type. This brings up the [Template Design Surface]({%slug calendar/design-time/template-design-surface%}) for the template.
+    1. For each template type, bring up the **RadCalendar** context menu, select **Edit Template**, and choose the template type. This brings up the [Template Design Surface]({%slug calendar/design-time/template-design-surface%}) for the template.
+    
+    2. Drag controls from the toolbox onto the template design surface and set their properties to create the templates:
+        ````ASPNET
+        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+               EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
+               ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
+                <CalendarDayTemplates>
+                     <telerik:DayTemplate ID="DateTemplate" runat="server">
+                         <Content>
+                           <div class="rcTemplate rcDayDate">
+                               date
+                           </div>
+                         </Content>
+                     </telerik:DayTemplate>
+                     <telerik:DayTemplate ID="MortgageTemplate" runat="server">
+                         <Content>
+                           <div class="rcTemplate rcDayMortgage">
+                               mortgage
+                           </div>
+                         </Content>
+                     </telerik:DayTemplate>
+                     <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
+                         <Content>
+                             <div class="rcTemplate rcDayBirthday">
+                               birthday
+                             </div>
+                         </Content>
+                     </telerik:DayTemplate>
+                </CalendarDayTemplates>
+        </telerik:RadCalendar>
+````
+    
+    
+    
+3. Add Special Days to the calendar and assign the templates.
 
-6. Drag controls from the toolbox onto the template design surface and set their properties to create the templates:
-
-````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
-       EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
-       ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
-        <CalendarDayTemplates>
-             <telerik:DayTemplate ID="DateTemplate" runat="server">
-                 <Content>
-                   <div class="rcTemplate rcDayDate">
-                       date
-                   </div>
-                 </Content>
-             </telerik:DayTemplate>
-             <telerik:DayTemplate ID="MortgageTemplate" runat="server">
-                 <Content>
-                   <div class="rcTemplate rcDayMortgage">
-                       mortgage
-                   </div>
-                 </Content>
-             </telerik:DayTemplate>
-             <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
-                 <Content>
-                     <div class="rcTemplate rcDayBirthday">
-                       birthday
-                     </div>
-                 </Content>
-             </telerik:DayTemplate>
-        </CalendarDayTemplates>
-</telerik:RadCalendar>
+    1. You can define the special days at design time using the [RadCalendarDay Collection Editor]({%slug calendar/design-time/radcalendarday-collection-editor%}). For each special day you add, in addition to any other properties, set the **TemplateID** property to the ID of the template you want to assign to that special day:
+        ````ASPNET
+        <telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
+               EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
+               ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
+               <SpecialDays>
+                   <telerik:RadCalendarDay Date="2010/06/12" Repeatable="DayInMonth" TemplateID="DateTemplate" />
+                   <telerik:RadCalendarDay Date="2010/06/19" Repeatable="DayInMonth" TemplateID="DateTemplate" />
+                   <telerik:RadCalendarDay Date="2010/06/17" Repeatable="DayInMonth" TemplateID="MortgageTemplate" />
+                   <telerik:RadCalendarDay Date="2010/06/8" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
+                   <telerik:RadCalendarDay Date="2010/08/7" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
+                   <telerik:RadCalendarDay Date="2010/10/8" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
+                   <telerik:RadCalendarDay Date="2010/12/23" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
+                   <telerik:RadCalendarDay Date="2010/2/14" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
+               </SpecialDays>
+               <CalendarDayTemplates>
+                    <telerik:DayTemplate ID="DateTemplate" runat="server">
+                        <Content>
+                             <div class="rcTemplate rcDayDate">
+                                  date
+                             </div>
+                        </Content>
+                    </telerik:DayTemplate>
+                    <telerik:DayTemplate ID="MortgageTemplate" runat="server">
+                        <Content>
+                             <div class="rcTemplate rcDayMortgage">
+                               mortgage
+                             </div>
+                        </Content>
+                    </telerik:DayTemplate>
+                    <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
+                        <Content>
+                             <div class="rcTemplate rcDayBirthday">
+                               birthday
+                             </div>
+                        </Content>
+                    </telerik:DayTemplate>
+               </CalendarDayTemplates>
+        </telerik:RadCalendar>
 ````
 
+    2. You can also add special days dynamically at runtime:
 
-
-7. Add Special Days to the calendar and assign the templates.
-
-8. You can define the special days at design time using the [RadCalendarDay Collection Editor]({%slug calendar/design-time/radcalendarday-collection-editor%}). For each special day you add, in addition to any other properties, set the **TemplateID** property to the ID of the template you want to assign to that special day:
-
-````ASPNET
-<telerik:RadCalendar ID="RadCalendar1" runat="server" AutoPostBack="true" Skin="Special"
-       EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false" EnableMonthYearFastNavigation="false" DayNameFormat="Short"
-       ShowRowHeaders="false" ShowOtherMonthsDays="false" OnDefaultViewChanged="RadCalendar1_DefaultViewChanged">
-       <SpecialDays>
-           <telerik:RadCalendarDay Date="2010/06/12" Repeatable="DayInMonth" TemplateID="DateTemplate" />
-           <telerik:RadCalendarDay Date="2010/06/19" Repeatable="DayInMonth" TemplateID="DateTemplate" />
-           <telerik:RadCalendarDay Date="2010/06/17" Repeatable="DayInMonth" TemplateID="MortgageTemplate" />
-           <telerik:RadCalendarDay Date="2010/06/8" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
-           <telerik:RadCalendarDay Date="2010/08/7" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
-           <telerik:RadCalendarDay Date="2010/10/8" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
-           <telerik:RadCalendarDay Date="2010/12/23" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
-           <telerik:RadCalendarDay Date="2010/2/14" Repeatable="DayAndMonth" TemplateID="BirthdayTemplate" />
-       </SpecialDays>
-       <CalendarDayTemplates>
-            <telerik:DayTemplate ID="DateTemplate" runat="server">
-                <Content>
-                     <div class="rcTemplate rcDayDate">
-                          date
-                     </div>
-                </Content>
-            </telerik:DayTemplate>
-            <telerik:DayTemplate ID="MortgageTemplate" runat="server">
-                <Content>
-                     <div class="rcTemplate rcDayMortgage">
-                       mortgage
-                     </div>
-                </Content>
-            </telerik:DayTemplate>
-            <telerik:DayTemplate ID="BirthdayTemplate" runat="server">
-                <Content>
-                     <div class="rcTemplate rcDayBirthday">
-                       birthday
-                     </div>
-                </Content>
-            </telerik:DayTemplate>
-       </CalendarDayTemplates>
-</telerik:RadCalendar>
-````
-
-
-
-9. You can also add special days dynamically at runtime:
-
->note 
-Note that the best approach for adding days to the **SpecialDays** collection is on **Page_Load** event. Also if the special days should persist not only in the current view but in other month views the **AutoPostBack** property of the **RadCalendar** should be set to **true** .
->
-
-
+    >note Note that the best approach for adding days to the **SpecialDays** collection is on **Page_Load** event. Also if the special days should persist not only in the current view but in other month views the **AutoPostBack** property of the **RadCalendar** should be set to **true** .
+    >
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
@@ -158,6 +150,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me
     End If
 End Sub	
 ````
+
 
 
 >note 

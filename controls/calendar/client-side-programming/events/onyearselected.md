@@ -14,7 +14,7 @@ position: 17
 
 ## 
 
-The **OnYearSelected** client-side event handler is called immediately after a user select an year cell in the MonthYearView.
+The **OnYearSelected** client-side event handler is called immediately after a user select an year cell in the **MonthYearView**.
 
 >note The **OnYearSelected** event is supported by: **RadMonthYearPicker** .
 >
@@ -36,19 +36,18 @@ The event handler receives two arguments:
 The following example uses the **OnYearSelected** event to display the previous and the new selected year:
 
 ````ASPNET
-	        <script type="text/javascript">
-	            function OnYearSelected(sender, eventArgs) {
-	                var newYear = eventArgs.get_newDate().getFullYear();
-	                var oldYear = eventArgs.get_oldDate().getFullYear();
-	                alert("The old selected year was: " + oldYear + ", and the new selected year is: " + newYear);
-	            }
-	        </script>
-	
-	        <telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server">
-	            <ClientEvents OnYearSelected="OnYearSelected" />
-	        </telerik:RadMonthYearPicker>	
+<telerik:RadMonthYearPicker ID="RadMonthYearPicker1" runat="server">
+    <ClientEvents OnYearSelected="OnYearSelected" />
+</telerik:RadMonthYearPicker>	
 ````
-
+````JavaScript
+function OnYearSelected(sender, eventArgs) {
+	var newYear = eventArgs.get_newDate().getFullYear();
+	var oldYear = eventArgs.get_oldDate().getFullYear();
+	
+	alert("The old selected year was: " + oldYear + ", and the new selected year is: " + newYear);
+}
+````
 
 
 # See Also

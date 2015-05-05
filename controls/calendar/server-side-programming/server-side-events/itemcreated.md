@@ -12,11 +12,7 @@ position: 7
 
 
 
-**RadTimePicker** and **RadDateTimePicker**
-provide the **ItemCreated** server event, which occurs when an
-item in the embedded time view control is created. This event occurs both when
-the control is created after a postback, and at the time data is bound to the
-control.
+**RadTimePicker** and **RadDateTimePicker** provide the **ItemCreated** server event, which occurs when an item in the embedded time view control is created. This event occurs both when the control is created after a postback, and at the time data is bound to the control.
 
 The **ItemCreated** event handler receives two arguments:
 

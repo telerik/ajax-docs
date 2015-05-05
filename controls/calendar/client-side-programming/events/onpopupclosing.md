@@ -35,28 +35,29 @@ The event handler receives two arguments:
 The following example uses the **OnPopupClosing** event to prevent the popup from closing if nothing is selected:
 
 ````ASPNET
-	 <script type="text/javascript">
-	     function ForceSelection(sender, eventArgs) {
-	         var popup = eventArgs.get_popupControl();
-	         if (popup == sender.get_calendar()) {
-	             if (popup.get_selectedDates().length == 0) {
-	                 alert("You must select a date!");
-	                 eventArgs.set_cancel(true);
-	             }
-	         }
-	         else if (!popup.getTime()) {
-	             alert("You must select a time!");
-	             eventArgs.set_cancel(true);
-	         }
-	     }
-	</script>
-	<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
-	    <Calendar DayNameFormat="FirstLetter"
-	           UseColumnHeadersAsSelectors="False"
-	           UseRowHeadersAsSelectors="False">
-	    </Calendar>
-	    <ClientEvents OnPopupClosing="ForceSelection" />
-	</telerik:RadDateTimePicker>		
+<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+    <Calendar DayNameFormat="FirstLetter"
+           UseColumnHeadersAsSelectors="False"
+           UseRowHeadersAsSelectors="False">
+    </Calendar>
+    <ClientEvents OnPopupClosing="popupClosing" />
+</telerik:RadDateTimePicker>		
+````
+````JavaScript
+function popupClosing(sender, eventArgs) {
+	var popup = eventArgs.get_popupControl();
+	
+	if (popup == sender.get_calendar()) {
+		if (popup.get_selectedDates().length == 0) {
+			alert("You must select a date!");
+			eventArgs.set_cancel(true);
+		}
+	}
+	else if (!popup.getTime()) {
+		alert("You must select a time!");
+		eventArgs.set_cancel(true);
+	}
+}
 ````
 
 

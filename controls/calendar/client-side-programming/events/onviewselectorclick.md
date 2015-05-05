@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-The **OnViewSelectorClick** client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector**property is set to **true**.
+The **OnViewSelectorClick** client-side event handler is called when the user is about to select an entire view of dates by clicking on the view selector. The event occurs only if the **EnableViewSelector** property is set to **true**.
 
 >note The **OnViewSelectorClick** event is supported by: **RadCalendar** .
 >
@@ -35,23 +35,25 @@ The event handler receives two arguments:
 The following example uses the **OnViewSelectorClick** event to confirm the selection and, if the selection proceeds, to change the appearance of the view selector:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function ConfirmSelection(sender, eventArgs) {
-	        eventArgs.set_cancel(!confirm("Do you want to change the selection for the entire view?"));
-	        if (!eventArgs.get_cancel()) {
-	            var dom = eventArgs.get_domElement();
-	            if (dom.innerText == "x")
-	                dom.innerText = "-";
-	            else
-	                dom.innerText = "x";
-	        }
-	    }
-	</script>
-	<telerik:RadCalendar ID="RadCalendar1" runat="server" EnableViewSelector="True" >
-	    <ClientEvents OnViewSelectorClick="ConfirmSelection" />
-	</telerik:RadCalendar>	
+<telerik:RadCalendar ID="RadCalendar1" runat="server" EnableViewSelector="True" >
+    <ClientEvents OnViewSelectorClick="ConfirmSelection" />
+</telerik:RadCalendar>	
 ````
-
+````JavaScript
+function ConfirmSelection(sender, eventArgs) {
+	eventArgs.set_cancel(!confirm("Do you want to change the selection for the entire view?"));
+	
+	var dom;
+	
+	if (!eventArgs.get_cancel()) {
+		dom = eventArgs.get_domElement();
+		if (dom.innerText == "x")
+			dom.innerText = "-";
+		else
+			dom.innerText = "x";
+	}
+}
+````
 
 
 # See Also

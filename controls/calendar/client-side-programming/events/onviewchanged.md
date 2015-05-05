@@ -14,7 +14,7 @@ position: 16
 
 ## 
 
-The **OnViewChanged** client-side event handler is called when the MonthYearView navigates to a new view, before the viewable area rendered by the MonthYearView is changed.
+The **OnViewChanged** client-side event handler is called when the **MonthYearView** navigates to a new view, before the viewable area rendered by the **MonthYearView** is changed.
 
 >note The **OnViewChanged** event is supported by: **RadMonthYearPicker** .
 >

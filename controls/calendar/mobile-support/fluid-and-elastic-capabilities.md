@@ -23,7 +23,6 @@ The **fluid** capabilities are simply achievable by setting the control’s widt
 To take advantage **elastic** functionality advantage you could set a specific **font size** based on the application target **mobile device** and follow three simple steps to transform the **RadCalendar/Picker** controls to be **elastic**:
 
 1. By using specific CSS selectors apply "**1em**" font size for all the **Calendar** components like this:
-
 ````ASPNET
 <style type="text/css">
     /*Calednar*/ html .RadCalendar,
@@ -39,27 +38,26 @@ To take advantage **elastic** functionality advantage you could set a specific *
 
 
 2. Set the **RenderMode** property of the **Calendar**, **DatePicker**, **DateTimePicker**, **MonthYearPicker** controls to "**Lightweight**"
-
 ````ASPNET
-<telerik:raddatepicker id="RadDatePicker2" runat="server" selecteddate="8.4.2014"
-    rendermode="Lightweight" width="13.3333em" dateinput-label="Label:"></telerik:raddatepicker>
-<telerik:raddatepicker id="RadDatePicker3" runat="server" selecteddate="8.4.2014"
-    rendermode="Lightweight" width="13.3333em" dateinput-label="Label:"></telerik:raddatepicker>
-<telerik:radtimepicker id="RadTimePicker2" runat="server" selectedtime="10:00" rendermode="Lightweight"
-    width="13.3333em" dateinput-label="Label:"></telerik:radtimepicker>
-<telerik:raddatetimepicker id="RadDateTimePicker2" runat="server" selecteddate="4.8.2014 10:00"
-    rendermode="Lightweight" dateinput-label="Label:" width="13.3333em"></telerik:raddatetimepicker>
-<telerik:radmonthyearpicker id="RadMonthYearPicker2" runat="server" selecteddate="8.2014"
-    rendermode="Lightweight" width="13.3333em" dateinput-label="Label:"></telerik:radmonthyearpicker>
-<telerik:radcalendar id="RadCalendar1" runat="server" rendermode="Lightweight" autopostback="true">
-			<SpecialDays>
-				<telerik:RadCalendarDay Repeatable="Today" ItemStyle-CssClass="rcToday"></telerik:RadCalendarDay>
-				<telerik:RadCalendarDay Repeatable="DayInMonth" Date="6/19/2014" ItemStyle-CssClass="rcSelected"></telerik:RadCalendarDay>
-				<telerik:RadCalendarDay Repeatable="DayInMonth" Date="6/17/2014" ItemStyle-CssClass="rcHover"></telerik:RadCalendarDay>
-			</SpecialDays>
-		</telerik:radcalendar>
-<telerik:radcalendar id="RadCalendar2" runat="server" rendermode="Lightweight" autopostback="true"
-    multiviewcolumns="2" multiviewrows="2"></telerik:radcalendar>
+<telerik:RadDatePicker ID="RadDatePicker2" runat="server" SelectedDate="8.4.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
+</telerik:RadDatePicker>
+<telerik:RadDatePicker ID="RadDatePicker3" runat="server" SelectedDate="8.4.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
+</telerik:RadDatePicker>
+<telerik:RadTimePicker ID="RadTimePicker2" runat="server" SelectedTime="10:00" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
+</telerik:RadTimePicker>
+<telerik:RadDateTimePicker ID="RadDateTimePicker2" runat="server" SelectedDate="4.8.2014 10:00" RenderMode="Lightweight" DateInput-Label="Label:" Width="13.3333em">
+</telerik:RadDateTimePicker>
+<telerik:RadMonthYearPicker ID="RadMonthYearPicker2" runat="server" SelectedDate="8.2014" RenderMode="Lightweight" Width="13.3333em" DateInput-Label="Label:">
+</telerik:RadMonthYearPicker>
+<telerik:RadCalendar ID="RadCalendar1" runat="server" RenderMode="Lightweight" AutoPostBack="true">
+    <SpecialDays>
+        <telerik:RadCalendarDay Repeatable="Today" ItemStyle-CssClass="rcToday"></telerik:RadCalendarDay>
+        <telerik:RadCalendarDay Repeatable="DayInMonth" Date="6/19/2014" ItemStyle-CssClass="rcSelected"></telerik:RadCalendarDay>
+        <telerik:RadCalendarDay Repeatable="DayInMonth" Date="6/17/2014" ItemStyle-CssClass="rcHover"></telerik:RadCalendarDay>
+    </SpecialDays>
+</telerik:RadCalendar>
+<telerik:RadCalendar ID="RadCalendar2" runat="server" RenderMode="Lightweight" AutoPostBack="true" MultiViewColumns="2" MultiViewRows="2">
+</telerik:RadCalendar>
 ````
 
 

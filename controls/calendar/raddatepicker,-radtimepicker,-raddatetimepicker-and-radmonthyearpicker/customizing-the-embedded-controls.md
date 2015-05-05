@@ -12,22 +12,9 @@ position: 0
 
 
 
-The **RadDatePicker**, **RadDateTimePicker** and
-**RadTimePicker** controls are composite objects, containing an
-embedded **RadDateInput** control (where the user can type values
-directly), a **CalendarPopupButton** and/or
-**TimePopupButton** (that displays or hides the popup control or
-controls) and a **RadCalendar** and/or
-**RadTimeView** control. All of these embedded controls can be
-customized, just as you can customize a standalone
-**RadDateInput** or **RadCalendar** control.
-
-To customize the embedded controls, simply locate the property for the
-embedded control in the **Behavior** section of the properties
-pane for the **RadDatePicker**,
-**RadDateTimePicker** or **RadTimePicker** control,
-expand it, and set its properties accordingly. The following table lists the
-properties for accessing the embedded controls:
+The **RadDatePicker**, **RadDateTimePicker** and **RadTimePicker** controls are composite objects, containing an embedded **RadDateInput** control (where the user can type values directly), a **CalendarPopupButton** and/or **TimePopupButton** (that displays or hides the popup control or controls) and a **RadCalendar** and/or **RadTimeView** control. All of these embedded controls can be customized, just as you can customize a standalone **RadDateInput** or **RadCalendar** control.
+ 
+To customize the embedded controls, simply locate the property for the embedded control in the **Behavior** section of the properties pane for the **RadDatePicker**, **RadDateTimePicker** or **RadTimePicker** control, expand it, and set its properties accordingly. The following table lists the properties for accessing the embedded controls:
 
 
 | Embedded control | Parent control | Property to access embedded control |
@@ -40,11 +27,7 @@ properties for accessing the embedded controls:
 |RadMonthYearView|RadMonthYearPicker|MonthYearView|
 |DatePopupButton|RadMonthYearPicker|DatePopupButton|
 
-Modifying a child control's settings allows for greater flexibility when
-configuring the look and feel of the **RadDatePicker**,
-**RadDateTimePicker**, **RadTimePicker** or **RadMonthYearPicker**
-control – you have complete control over the skins and styles of the
-embedded control:
+Modifying a child control's settings allows for greater flexibility when configuring the look and feel of the **RadDatePicker**, **RadDateTimePicker**, **RadTimePicker** or **RadMonthYearPicker** control – you have complete control over the skins and styles of the embedded control:
 
 ````ASPNET
 <telerik:RadDatePicker

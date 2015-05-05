@@ -36,38 +36,43 @@ The event handler receives two arguments:
 The following example uses the **OnPopupOpening** event to initialize the selection if the input area is empty:
 
 ````ASPNET
-	<script type="text/javascript">
-	    function InitializePopup(sender, eventArgs) {
-	        if (sender.isEmpty()) {
-	            eventArgs.set_cancelCalendarSynchronization(true);
-	            var popup = eventArgs.get_popupControl();
-	            if (popup == sender.get_calendar()) {
-	                if (popup.get_selectedDates().length == 0) {
-	                    var todaysDate = new Date();
-	                    var todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
-	                    popup.selectDate(todayTriplet, true);
-	                }
-	            }
-	            else {
-	                var time = popup.getTime();
-	                if (!time) {
-	                    time = new Date();
-	                    time.setHours(12);
-	                    popup.setTime(time);
-	                }
-	            }
-	        }
-	    }
-	</script>
-	<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
-	    <Calendar DayNameFormat="FirstLetter"
-	           UseColumnHeadersAsSelectors="False"
-	           UseRowHeadersAsSelectors="False">
-	    </Calendar>
-	    <ClientEvents OnPopupOpening="InitializePopup" />
-	</telerik:RadDateTimePicker>
+<telerik:RadDateTimePicker ID="RadDateTimePicker1" runat="server">
+    <Calendar DayNameFormat="FirstLetter"
+           UseColumnHeadersAsSelectors="False"
+           UseRowHeadersAsSelectors="False">
+    </Calendar>
+    <ClientEvents OnPopupOpening="popupOpening" />
+</telerik:RadDateTimePicker>
 ````
-
+````JavaScript
+function popupOpening(sender, eventArgs) {
+	if (sender.isEmpty()) {
+		eventArgs.set_cancelCalendarSynchronization(true);
+		
+		var popup = eventArgs.get_popupControl();
+		var todaysDate;
+		var todayTriplet;
+		var time;
+		
+		if (popup == sender.get_calendar()) {
+			if (popup.get_selectedDates().length == 0) {
+				todaysDate = new Date();
+				todayTriplet = [todaysDate.getFullYear(), todaysDate.getMonth() + 1, todaysDate.getDate()];
+				popup.selectDate(todayTriplet, true);
+			}
+		}
+		else {
+			time = popup.getTime();
+			
+			if (!time) {
+				time = new Date();
+				time.setHours(12);
+				popup.setTime(time);
+			}
+		}
+	}
+}
+````
 
 
 # See Also
