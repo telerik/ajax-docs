@@ -29,29 +29,15 @@ Use the **OnPreviousButtonClick** event handler to respond when a RadWizardStep 
 
 
 ````C#
-	    protected void RadWizard1_WizardStepCreated(object sender, WizardStepCreatedEventArgs e)
-	    {
-	        e.RadWizardStep.ToolTip = e.RadWizardStep.Title;
-	    }
+protected void RadWizard1_WizardStepCreated(object sender, WizardStepCreatedEventArgs e)
+{
+	e.RadWizardStep.ToolTip = e.RadWizardStep.Title;
+}
 ````
 ````VB.NET
-	    Protected Sub RadWizard1_WizardStepCreated(sender As Object, e As WizardStepCreatedEventArgs) Handles RadWizard1.WizardStepCreated
-	        e.RadWizardStep.ToolTip = e.RadWizardStep.Title
-	    End Sub
-	#End Region
-	
-	#Region "tracking-history"
-	    Protected Sub RadWizard1_ActiveStepChanged(sender As Object, e As EventArgs)
-	        History.Text = String.Empty
-	        For Each [step] As RadWizardStep In RadWizard1.GetHistory()
-	            History.Text += [step].Title + ", "
-	        Next
-	        History.Text = History.Text.Substring(0, History.Text.Length - 2)
-	    End Sub
-	#End Region
-	
-	
-	End Class
+Protected Sub RadWizard1_WizardStepCreated(sender As Object, e As WizardStepCreatedEventArgs) Handles RadWizard1.WizardStepCreated
+	e.RadWizardStep.ToolTip = e.RadWizardStep.Title
+End Sub
 ````
 
 

@@ -33,22 +33,20 @@ The following properties let you add images to steps:
 The following example uses the **ImageUrl** property to apply images to the steps:
 
 ````ASPNET
-	        <telerik:RadWizard runat="server">
-				<WizardSteps>
-					<telerik:RadWizardStep ImageUrl="Images/YourAccount.png" Title="Your account">
-						
-					</telerik:RadWizardStep>
-					<telerik:RadWizardStep ImageUrl="Images/PersonalInfo.png" Title="Personal info">
-						
-					</telerik:RadWizardStep>
-					<telerik:RadWizardStep ImageUrl="Images/ContactDetails.png" Title="Contact details">
-						
-					</telerik:RadWizardStep>
-				</WizardSteps>
-			</telerik:RadWizard>
+<telerik:RadWizard runat="server">
+	<WizardSteps>
+		<telerik:RadWizardStep ImageUrl="Images/YourAccount.png" Title="Your account">
+			
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ImageUrl="Images/PersonalInfo.png" Title="Personal info">
+			
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ImageUrl="Images/ContactDetails.png" Title="Contact details">
+			
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
-
-
 
 ![wizard-step-images-imgurl](images/wizard-step-images-imgurl.png)
 
@@ -57,50 +55,50 @@ RadWizard provides support for sprites.This functionality is controlled by the *
 The following example uses the **SpriteCssClass** property to apply images to the steps:
 
 ````ASPNET
-	        <style type="text/css">
-	            .rwzImage {
-	                background-image: url("Images/breadcrumb-sprite.png");
-	            }
-	
-	            .YourAccount {
-	                background-position: 0 0;
-	            }
-	
-	            .PersonalInfo {
-	                background-position: 0 -20px;
-	            }
-	
-	            .ContactDetails {
-	                background-position: 0 -40px;
-	            }
-	        </style>
-	
-	        <telerik:radwizard runat="server">
-				<WizardSteps>
-					<telerik:RadWizardStep SpriteCssClass="YourAccount" Title="Your account">
-						
-					</telerik:RadWizardStep>
-					<telerik:RadWizardStep SpriteCssClass="PersonalInfo" Title="Personal info">
-						
-					</telerik:RadWizardStep>
-					<telerik:RadWizardStep SpriteCssClass="ContactDetails" Title="Contact details">
-						
-					</telerik:RadWizardStep>
-				</WizardSteps>
-			</telerik:radwizard>
-	    </form>
-	
-	    <script>
-	        var $ = $telerik.$;
-	
-	        function pageLoad() {
-	            var imagesClass = "rwzImage";
-	
-	            $(".rwzLink").each(function () {
-	                $($(this).children()[0]).addClass(imagesClass);
-	            })
-	        }
-	    </script>
+<style type="text/css">
+	.rwzImage {
+		background-image: url("Images/breadcrumb-sprite.png");
+	}
+
+	.YourAccount {
+		background-position: 0 0;
+	}
+
+	.PersonalInfo {
+		background-position: 0 -20px;
+	}
+
+	.ContactDetails {
+		background-position: 0 -40px;
+	}
+</style>
+
+<telerik:radwizard runat="server">
+	<WizardSteps>
+		<telerik:RadWizardStep SpriteCssClass="YourAccount" Title="Your account">
+			
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep SpriteCssClass="PersonalInfo" Title="Personal info">
+			
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep SpriteCssClass="ContactDetails" Title="Contact details">
+			
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:radwizard>
+</form>
+
+<script>
+	var $ = $telerik.$;
+
+	function pageLoad() {
+		var imagesClass = "rwzImage";
+
+		$(".rwzLink").each(function () {
+			$($(this).children()[0]).addClass(imagesClass);
+		})
+	}
+</script>
 ````
 
 
@@ -108,12 +106,12 @@ The following example uses the **SpriteCssClass** property to apply images to th
 By default this approach sets width and height for the span element to 16px. In some cases you might need to change it and use icons with different size. An easy way to achieve this is just to add the following styles.
 
 ````ASPNET
-	    <style type="text/css">
-	        html .RadWizard .rwzBreadCrumb span.rwzImage {
-	            width: 24px;
-	            height: 24px;
-	        }
-	    </style>
+<style type="text/css">
+	html .RadWizard .rwzBreadCrumb span.rwzImage {
+		width: 24px;
+		height: 24px;
+	}
+</style>
 ````
 
 

@@ -12,7 +12,7 @@ position: 3
 
 
 
-Setting the**RenderedSteps** property to **Active** loads only the content of the active step. When another step is selected, RadWizard will make a request to the server in order to load the content of the newly selected step.
+Setting the **RenderedSteps** property to **Active** loads only the content of the active step. When another step is selected, RadWizard will make a request to the server in order to load the content of the newly selected step.
 
 ## 
 
@@ -21,19 +21,19 @@ When a large amount of data and HTML is loaded in each RadWizardStep, setting th
 **Example 1** demonstrates how to enable this option by setting the **RenderedSteps** to **Active**.
 
 ````ASPNET
-	            <telerik:RadWizard ID="RadWizard7" runat="server" RenderedSteps="Active">
-	                <WizardSteps>
-	                    <telerik:RadWizardStep ID="RadGridStep" runat="server" StepType="Step">
-	                        <uc:radgridsusercontrolcs runat="server" id="RadGridsUserControlCS" />
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep ID="RadSchedulerStep" runat="server" StepType="Step">
-	                        <uc:radschedulerusercontrolcs runat="server" id="RadSchedulerUserControlCS" />
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep ID="RadHtmlChart" runat="server" StepType="Step">
-	                        <uc:radhtmlchartusercontrolcs runat="server" id="RadSchedulerUserControlCS1" />
-	                    </telerik:RadWizardStep>
-	                </WizardSteps>
-	            </telerik:radwizard>
+<telerik:RadWizard ID="RadWizard7" runat="server" RenderedSteps="Active">
+	<WizardSteps>
+		<telerik:RadWizardStep ID="RadGridStep" runat="server" StepType="Step">
+			<uc:radgridsusercontrolcs runat="server" id="RadGridsUserControlCS" />
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ID="RadSchedulerStep" runat="server" StepType="Step">
+			<uc:radschedulerusercontrolcs runat="server" id="RadSchedulerUserControlCS" />
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep ID="RadHtmlChart" runat="server" StepType="Step">
+			<uc:radhtmlchartusercontrolcs runat="server" id="RadSchedulerUserControlCS1" />
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:radwizard>
 ````
 
 

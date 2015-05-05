@@ -26,39 +26,39 @@ With the Mobile rendering of the RadWizard you will have a specific functionalit
 **Example 3**: How to set the mobile rendering for the RadWizard.
 
 ````ASPNET
-	            <telerik:RadWizard ID="RadWizard5" runat="server" Width="500px" RenderMode="Mobile">
-	                <WizardSteps>
-	                    <telerik:RadWizardStep Title="First Step">
-	                        <telerik:RadTextBox ID="RadTextBox9" Label="First Name:" runat="server"></telerik:RadTextBox>
-	                        <br />
-	                        <telerik:RadTextBox ID="RadTextBox10" Label="Last Name:" runat="server"></telerik:RadTextBox>
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Second Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Third Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Forth Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Fifth Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Sixth Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Seventh Step">
-	                        <telerik:RadTextBox ID="RadTextBox11" Label="First Name:" runat="server"></telerik:RadTextBox>
-	                        <br />
-	                        <telerik:RadTextBox ID="RadTextBox12" Label="Last Name:" runat="server"></telerik:RadTextBox>
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Eighth Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Ninth Step">
-	                    </telerik:RadWizardStep>
-	                    <telerik:RadWizardStep Title="Tenth Step">
-	                        <telerik:RadTextBox ID="RadTextBox13" Label="First Name:" runat="server"></telerik:RadTextBox>
-	                        <br />
-	                        <telerik:RadTextBox ID="RadTextBox14" Label="Last Name:" runat="server"></telerik:RadTextBox>
-	                    </telerik:RadWizardStep>
-	                </WizardSteps>
-	            </telerik:RadWizard>
+<telerik:RadWizard ID="RadWizard5" runat="server" Width="500px" RenderMode="Mobile">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="First Step">
+			<telerik:RadTextBox ID="RadTextBox9" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox ID="RadTextBox10" Label="Last Name:" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Second Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Third Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Forth Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Fifth Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Sixth Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Seventh Step">
+			<telerik:RadTextBox ID="RadTextBox11" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox ID="RadTextBox12" Label="Last Name:" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Eighth Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Ninth Step">
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Tenth Step">
+			<telerik:RadTextBox ID="RadTextBox13" Label="First Name:" runat="server"></telerik:RadTextBox>
+			<br />
+			<telerik:RadTextBox ID="RadTextBox14" Label="Last Name:" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 

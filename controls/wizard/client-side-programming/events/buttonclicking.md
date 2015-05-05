@@ -12,7 +12,7 @@ position: 2
 
 
 
-The client-side **ButtonClicking** event is raised when user clicks on a button orstep before the**RadWizard** responds to the click. You can handle this event in case you want to prevent the click.This article discusses the objects of the control's **ButtonClicking** event and shows an example of how to retrieve properties when the event occurs (**Example 1**).
+The client-side **ButtonClicking** event is raised when user clicks on a button orstep before the **RadWizard** responds to the click. You can handle this event in case you want to prevent the click.This article discusses the objects of the control's **ButtonClicking** event and shows an example of how to retrieve properties when the event occurs (**Example 1**).
 
 To handle this event, simply write a JavaScript function that can be called when the event occurs. Then assign the name of this function as the value of the the **OnClientButtonClicking** property.
 
@@ -36,26 +36,26 @@ The client-side **ButtonClicking** event handler receives two arguments:
 
 **Example 1**: Handle the **RadWizard**'s client-side **ButtonClicking** event.
 
-````JavaScript
-	        <script type="text/javascript">
-	            function OnClientButtonClicking(sender, args) {
-	                alert("The wizard active step is about to change. The new step title is " + args.get_nextActiveStep().get_title() + " and the current active step title is " + sender.get_activeWizardStep().get_title());
-	                args.set_cancel(true); //to cancel             
-	            }
-	        </script>
-	
-	        <telerik:RadWizard ID="RadWizard2" runat="server" OnClientButtonClicking="OnClientButtonClicking">
-	            <WizardSteps>
-	                <telerik:RadWizardStep Title="Step1">
-	                    <telerik:RadTextBox ID="RadTextBox5" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox6" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	                <telerik:RadWizardStep Title="Step2">
-	                    <telerik:RadTextBox ID="RadTextBox7" runat="server"></telerik:RadTextBox>
-	                    <telerik:RadTextBox ID="RadTextBox8" runat="server"></telerik:RadTextBox>
-	                </telerik:RadWizardStep>
-	            </WizardSteps>
-	        </telerik:RadWizard>
+````ASPNET
+<script type="text/javascript">
+	function OnClientButtonClicking(sender, args) {
+		alert("The wizard active step is about to change. The new step title is " + args.get_nextActiveStep().get_title() + " and the current active step title is " + sender.get_activeWizardStep().get_title());
+		args.set_cancel(true); //to cancel             
+	}
+</script>
+
+<telerik:RadWizard ID="RadWizard2" runat="server" OnClientButtonClicking="OnClientButtonClicking">
+	<WizardSteps>
+		<telerik:RadWizardStep Title="Step1">
+			<telerik:RadTextBox ID="RadTextBox5" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox6" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+		<telerik:RadWizardStep Title="Step2">
+			<telerik:RadTextBox ID="RadTextBox7" runat="server"></telerik:RadTextBox>
+			<telerik:RadTextBox ID="RadTextBox8" runat="server"></telerik:RadTextBox>
+		</telerik:RadWizardStep>
+	</WizardSteps>
+</telerik:RadWizard>
 ````
 
 
