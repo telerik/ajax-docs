@@ -17,19 +17,19 @@ In order to show the command item, you should set the **CommandItemDisplay** pro
 **Example 1**: Shows how custom commands could be implemented via the**CommandItemTemplate**.
 
 ````ASP.NET
-	                <CommandItemTemplate>
-	                    Custom command item template
-	                    <asp:LinkButton Style="vertical-align: bottom" ID="btnEditSelected" runat="server"
-	                        CommandName="EditSelected" Visible='<%# RadGrid1.EditIndexes.Count == 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Edit.gif" /> Edit Selected Customers</asp:LinkButton>
-	                    <asp:LinkButton ID="btnUpdateEdited" runat="server" CommandName="UpdateEdited" Visible='<%# RadGrid1.EditIndexes.Count > 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Update.gif" /> Update Customers</asp:LinkButton>
-	                    <asp:LinkButton ID="btnCancel" runat="server" CommandName="CancelAll" Visible='<%# RadGrid1.EditIndexes.Count > 0 || RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Cancel.gif" /> Cancel editing</asp:LinkButton>
-	                    <asp:LinkButton ID="LinkButton3" runat="server" CommandName="InitInsert" Visible='<%# !RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/AddRecord.gif" /> Add new Customer</asp:LinkButton>
-	                    <asp:LinkButton ID="LinkButton4" runat="server" CommandName="PerformInsert" Visible='<%# RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Insert.gif" /> Add this Customer</asp:LinkButton>
-	                    <asp:LinkButton ID="LinkButton5" OnClientClick="javascript:return confirm('Delete all selected customers?')"
-	                        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers</asp:LinkButton>
-	                    <asp:LinkButton ID="LinkButton6" runat="server" CommandName="Re bindGrid"><img style="border:0px" alt="" src="../../DataEditing/Img/Refresh.gif" /> Refresh customer list</asp:LinkButton>
-	                    <br />
-	                </CommandItemTemplate>
+<CommandItemTemplate>
+    Custom command item template
+    <asp:LinkButton Style="vertical-align: bottom" ID="btnEditSelected" runat="server"
+        CommandName="EditSelected" Visible='<%# RadGrid1.EditIndexes.Count == 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Edit.gif" /> Edit Selected Customers</asp:LinkButton>
+    <asp:LinkButton ID="btnUpdateEdited" runat="server" CommandName="UpdateEdited" Visible='<%# RadGrid1.EditIndexes.Count > 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Update.gif" /> Update Customers</asp:LinkButton>
+    <asp:LinkButton ID="btnCancel" runat="server" CommandName="CancelAll" Visible='<%# RadGrid1.EditIndexes.Count > 0 || RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Cancel.gif" /> Cancel editing</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton3" runat="server" CommandName="InitInsert" Visible='<%# !RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/AddRecord.gif" /> Add new Customer</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton4" runat="server" CommandName="PerformInsert" Visible='<%# RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Insert.gif" /> Add this Customer</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton5" OnClientClick="javascript:return confirm('Delete all selected customers?')"
+        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton6" runat="server" CommandName="Re bindGrid"><img style="border:0px" alt="" src="../../DataEditing/Img/Refresh.gif" /> Refresh customer list</asp:LinkButton>
+    <br />
+</CommandItemTemplate>
 ````
 
 
@@ -42,7 +42,7 @@ Running the code from **Example 1** will generate **Figure 1**.
 In the **CommandItemTemplate** you can add any type of buttons that raise a command event and Telerik **RadGrid** will fire the	**ItemCommandEvent** (see below) on the server when this button is clicked.
 
 ````ASP.NET
-	<asp:LinkButton ID="LinkButton2" runat="server" CommandName="InitInsert">Add New</asp:LinkButton>
+<asp:LinkButton ID="LinkButton2" runat="server" CommandName="InitInsert">Add New</asp:LinkButton>
 ````
 
 
@@ -58,48 +58,46 @@ Generally, you can handle any command using the **ItemCommandEvent**. **Example 
 
 
 ````ASP.NET
-	                <CommandItemTemplate>
-	                    <asp:LinkButton ID="LinkButton7" OnClientClick="javascript:return confirm('Delete all selected customers?')"
-	                        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs</asp:LinkButton>
-	                </CommandItemTemplate>
+<CommandItemTemplate>
+    <asp:LinkButton ID="LinkButton7" OnClientClick="javascript:return confirm('Delete all selected customers?')"
+        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs</asp:LinkButton>
+</CommandItemTemplate>
 ````
-````C#
-	
-	  protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	  {
-	    if (e.CommandName == "DeleteSelected")
-	      {
-	        if (RadGrid1.SelectedIndexes.Count == 0)
-	        {
-	          return;
-	        }
-	
-	        foreach (GridDataItem item in RadGrid1.SelectedItems)
-	        {
-	          e.Item.OwnerTableView.PerformDelete(item, true);
-	        }
-	
-	        e.Item.OwnerTableView.Rebind();
-	        return;
-	      }
-	  }
-	          
+````C#	
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+  if (e.CommandName == "DeleteSelected")
+    {
+      if (RadGrid1.SelectedIndexes.Count == 0)
+      {
+        return;
+      }
+
+      foreach (GridDataItem item in RadGrid1.SelectedItems)
+      {
+        e.Item.OwnerTableView.PerformDelete(item, true);
+      }
+
+      e.Item.OwnerTableView.Rebind();
+      return;
+    }
+}          
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = "DeleteSelected" Then
-	
-	            If RadGrid1.SelectedIndexes.Count = 0 Then
-	                Return
-	            End If
-	
-	            For Each item As GridDataItem In RadGrid1.SelectedItems
-	                e.Item.OwnerTableView.PerformDelete(item, True)
-	            Next
-	            e.Item.OwnerTableView.Rebind()
-	            Return
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = "DeleteSelected" Then
+
+        If RadGrid1.SelectedIndexes.Count = 0 Then
+            Return
+        End If
+
+        For Each item As GridDataItem In RadGrid1.SelectedItems
+            e.Item.OwnerTableView.PerformDelete(item, True)
+        Next
+        e.Item.OwnerTableView.Rebind()
+        Return
+    End If
+End Sub
 ````
 
 
@@ -110,14 +108,14 @@ You can use the **CommandItemTemplate** to customize the “Add new item/refresh
 **Example 3**: Shows how to customize the text of the command buttons.
 
 ````ASP.NET
-	          <telerik:RadGrid ID="RadGrid1" runat="server">
-	            <MasterTableView CommandItemDisplay="Top">
-	                <CommandItemTemplate>
-	                    <asp:Button ID="Button1" Text="Add new item" runat="server" CommandName="InitInsert">
-	                    </asp:Button>
-	                </CommandItemTemplate>
-	            </MasterTableView>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView CommandItemDisplay="Top">
+      <CommandItemTemplate>
+          <asp:Button ID="Button1" Text="Add new item" runat="server" CommandName="InitInsert">
+          </asp:Button>
+      </CommandItemTemplate>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -127,20 +125,20 @@ If you have two buttons, you can place the buttons in a **HTML table** embedded 
 **Example 4**: Shows how to organize the command buttons in an **HTML table** element.
 
 ````ASP.NET
-	                <CommandItemTemplate>
-	                    <table>
-	                        <tr>
-	                            <td width="30%">
-	                                <asp:LinkButton ID="LinkButton8" Text="Add new item" CommandName="InitInsert" runat="server"></asp:LinkButton>
-	                            </td>
-	                            <td width="40%">
-	                            </td>
-	                            <td width="30%">
-	                                <asp:LinkButton ID="LinkButton9" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
-	                            </td>
-	                        </tr>
-	                    </table>
-	                </CommandItemTemplate>
+<CommandItemTemplate>
+    <table>
+        <tr>
+            <td width="30%">
+                <asp:LinkButton ID="LinkButton8" Text="Add new item" CommandName="InitInsert" runat="server"></asp:LinkButton>
+            </td>
+            <td width="40%">
+            </td>
+            <td width="30%">
+                <asp:LinkButton ID="LinkButton9" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
+            </td>
+        </tr>
+    </table>
+</CommandItemTemplate>
 ````
 
 
@@ -163,47 +161,44 @@ There are cases in which you may want to access the controls inside your **Comma
 
 
 
-````ASP.NET
-	
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" OnItemCreated="RadGrid1_ItemCreated">
-	    <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
-	      CommandItemDisplay="Top">
-	      <CommandItemTemplate>
-	        <asp:LinkButton ID="LinkButton1" runat="server">Default Text</asp:LinkButton>
-	      </CommandItemTemplate>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	     SelectCommand="SELECT * FROM [Customers]">
-	  </asp:SqlDataSource>
+````ASP.NET	
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" OnItemCreated="RadGrid1_ItemCreated">
+  <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
+    CommandItemDisplay="Top">
+    <CommandItemTemplate>
+      <asp:LinkButton ID="LinkButton1" runat="server">Default Text</asp:LinkButton>
+    </CommandItemTemplate>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+   SelectCommand="SELECT * FROM [Customers]">
+</asp:SqlDataSource>
 ````
 ````C#
-	
-	protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
-	{
-	         if (e.Item is GridCommandItem)
-	        {
-	            GridCommandItem commandItem = e.Item as GridCommandItem;
-	            LinkButton button = commandItem.FindControl("LinkButton1")as LinkButton;
-	
-	            button.CommandName = "MyCommandName";
-	            button.Text = "Perform custom operation";
-	        }
-	}
-	          
+protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
+{
+         if (e.Item is GridCommandItem)
+        {
+            GridCommandItem commandItem = e.Item as GridCommandItem;
+            LinkButton button = commandItem.FindControl("LinkButton1")as LinkButton;
+
+            button.CommandName = "MyCommandName";
+            button.Text = "Perform custom operation";
+        }
+}      
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
-	
-	        If TypeOf e.Item Is GridCommandItem Then
-	
-	            Dim commandItem As GridCommandItem = CType(e.Item, GridCommandItem)
-	            Dim button As LinkButton = CType(commandItem.FindControl("LinkButton1"), LinkButton)
-	
-	            button.CommandName = "MyCommandName"
-	            button.Text = "Perform custom operation"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
+
+    If TypeOf e.Item Is GridCommandItem Then
+
+        Dim commandItem As GridCommandItem = CType(e.Item, GridCommandItem)
+        Dim button As LinkButton = CType(commandItem.FindControl("LinkButton1"), LinkButton)
+
+        button.CommandName = "MyCommandName"
+        button.Text = "Perform custom operation"
+    End If
+End Sub
 ````
 
 
@@ -216,70 +211,67 @@ There are cases in which you may want to display different controls inside the t
 
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
-	            AllowMultiRowEdit="true">
-	            <MasterTableView CommandItemDisplay="TopAndBottom">
-	                <CommandItemTemplate>
-	                    <table>
-	                        <tr>
-	                            <td width="30%">
-	                                <asp:LinkButton ID="btnAdd" Text="Add new item" CommandName="InitInsert" runat="server"></asp:LinkButton>
-	                                <asp:LinkButton ID="btnEdit" Text="Edit selected" CommandName="EditSelected" runat="server"></asp:LinkButton>
-	                            </td>
-	                            <td width="40%">
-	                            </td>
-	                            <td width="30%">
-	                                <asp:LinkButton ID="btnRefresh" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
-	                                <asp:LinkButton ID="btnUpdate" Text="Update edited" CommandName="UpdateEdited" runat="server"></asp:LinkButton>
-	                            </td>
-	                        </tr>
-	                    </table>
-	                </CommandItemTemplate>
-	            </MasterTableView>
-	            <ClientSettings>
-	                <Selecting AllowRowSelect="true" />
-	            </ClientSettings>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid2" runat="server" AllowSorting="true" AllowMultiRowSelection="true"
+    AllowMultiRowEdit="true">
+    <MasterTableView CommandItemDisplay="TopAndBottom">
+        <CommandItemTemplate>
+            <table>
+                <tr>
+                    <td width="30%">
+                        <asp:LinkButton ID="btnAdd" Text="Add new item" CommandName="InitInsert" runat="server"></asp:LinkButton>
+                        <asp:LinkButton ID="btnEdit" Text="Edit selected" CommandName="EditSelected" runat="server"></asp:LinkButton>
+                    </td>
+                    <td width="40%">
+                    </td>
+                    <td width="30%">
+                        <asp:LinkButton ID="btnRefresh" Text="Refresh data" CommandName="Rebind" runat="server"></asp:LinkButton>
+                        <asp:LinkButton ID="btnUpdate" Text="Update edited" CommandName="UpdateEdited" runat="server"></asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </CommandItemTemplate>
+    </MasterTableView>
+    <ClientSettings>
+        <Selecting AllowRowSelect="true" />
+    </ClientSettings>
+</telerik:RadGrid>
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If (TypeOf e.Item Is GridCommandItem) Then
-	            Dim commandItem As GridCommandItem = CType(e.Item, GridCommandItem)
-	
-	            If (TypeOf commandItem.NamingContainer Is GridTHead) Then
-	                commandItem.FindControl("btnEdit").Visible = False
-	                commandItem.FindControl("btnUpdate").Visible = False
-	
-	            ElseIf (TypeOf commandItem.NamingContainer Is GridTFoot) Then
-	
-	                commandItem.FindControl("btnAdd").Visible = False
-	                commandItem.FindControl("btnRefresh").Visible = False
-	            End If
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If (TypeOf e.Item Is GridCommandItem) Then
+        Dim commandItem As GridCommandItem = CType(e.Item, GridCommandItem)
+
+        If (TypeOf commandItem.NamingContainer Is GridTHead) Then
+            commandItem.FindControl("btnEdit").Visible = False
+            commandItem.FindControl("btnUpdate").Visible = False
+
+        ElseIf (TypeOf commandItem.NamingContainer Is GridTFoot) Then
+
+            commandItem.FindControl("btnAdd").Visible = False
+            commandItem.FindControl("btnRefresh").Visible = False
+        End If
+    End If
+End Sub
 ````
-````C#
-	
-	protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	{
-	    if (e.Item is GridCommandItem)
-	    {
-	        GridCommandItem commandItem = (GridCommandItem)e.Item;
-	    
-	    if (commandItem.NamingContainer is GridTHead)
-	    {
-	       commandItem.FindControl("btnEdit").Visible = false;
-	       commandItem.FindControl("btnUpdate").Visible = false;
-	    }
-	    else if (commandItem.NamingContainer is GridTFoot)
-	    {
-	       commandItem.FindControl("btnAdd").Visible = false;
-	       commandItem.FindControl("btnRefresh").Visible = false;
-	    }
-	    }
-	}
-	
-	          
+````C#	
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridCommandItem)
+    {
+        GridCommandItem commandItem = (GridCommandItem)e.Item;
+    
+    if (commandItem.NamingContainer is GridTHead)
+    {
+       commandItem.FindControl("btnEdit").Visible = false;
+       commandItem.FindControl("btnUpdate").Visible = false;
+    }
+    else if (commandItem.NamingContainer is GridTFoot)
+    {
+       commandItem.FindControl("btnAdd").Visible = false;
+       commandItem.FindControl("btnRefresh").Visible = false;
+    }
+    }
+}	          
 ````
 
 
@@ -293,106 +285,105 @@ If you want to define a **CommandItemTemplate** programmatically, you need to de
 
 
 
-````C#
-	
-	protected RadGrid RadGrid1;
-	
-	private class MyCommandItemTemplate : ITemplate
-	{
-	
-	    protected LinkButton addButton;
-	
-	    protected LinkButton refreshButton;
-	
-	    public MyCommandItemTemplate()
-	    {
-	    }
-	
-	    public void InstantiateIn(System.Web.UI.Control container)
-	    {
-	        addButton = new LinkButton();
-	        addButton.ID = "addButton";
-	        addButton.Text = "Add record";
-	        addButton.CommandName = "InitInsert";
-	
-	        refreshButton = new LinkButton();
-	        refreshButton.ID = "refreshButton";
-	        refreshButton.Text = "Refresh grid";
-	        refreshButton.CommandName = "Rebind";
-	
-	        container.Controls.Add(addButton);
-	        container.Controls.Add( new LiteralControl("      "));
-	        container.Controls.Add(refreshButton);
-	    }
-	}
-	
-	    protected override void OnInit(EventArgs e)
-	    {
-	        InitializeComponent;
-	        DefineGridStructure();
-	        base.OnInit(e);
-	    }
-	
-	    private void DefineGridStructure()
-	    {
-	        this.RadGrid1 = new RadGrid();
-	        this.RadGrid1.AutoGenerateColumns = false;
-	        this.RadGrid1.MasterTableView.CommandItemDisplay = GridCommandItemDisplay.Top;
-	
-	        RadGrid1.NeedDataSource += new System.EventHandler(this.RadGrid1_NeedDataSource);
-	
-	        RadGrid1.MasterTableView.CommandItemTemplate = new MyCommandItemTemplate();
-	         // runtime column definitions 
-	    }
-	          
+````C#	
+protected RadGrid RadGrid1;
+
+private class MyCommandItemTemplate : ITemplate
+{
+
+    protected LinkButton addButton;
+
+    protected LinkButton refreshButton;
+
+    public MyCommandItemTemplate()
+    {
+    }
+
+    public void InstantiateIn(System.Web.UI.Control container)
+    {
+        addButton = new LinkButton();
+        addButton.ID = "addButton";
+        addButton.Text = "Add record";
+        addButton.CommandName = "InitInsert";
+
+        refreshButton = new LinkButton();
+        refreshButton.ID = "refreshButton";
+        refreshButton.Text = "Refresh grid";
+        refreshButton.CommandName = "Rebind";
+
+        container.Controls.Add(addButton);
+        container.Controls.Add( new LiteralControl("      "));
+        container.Controls.Add(refreshButton);
+    }
+}
+
+    protected override void OnInit(EventArgs e)
+    {
+        InitializeComponent;
+        DefineGridStructure();
+        base.OnInit(e);
+    }
+
+    private void DefineGridStructure()
+    {
+        this.RadGrid1 = new RadGrid();
+        this.RadGrid1.AutoGenerateColumns = false;
+        this.RadGrid1.MasterTableView.CommandItemDisplay = GridCommandItemDisplay.Top;
+
+        RadGrid1.NeedDataSource += new System.EventHandler(this.RadGrid1_NeedDataSource);
+
+        RadGrid1.MasterTableView.CommandItemTemplate = new MyCommandItemTemplate();
+         // runtime column definitions 
+    }
+          
 ````
 ````VB
-	    Protected WithEvents RadGrid1 As RadGrid
-	
-	    Private Class MyCommandItemTemplate
-	        Implements ITemplate
-	
-	        Protected addButton As LinkButton
-	        Protected refreshButton As LinkButton
-	
-	        Public Sub New()
-	            MyBase.New()
-	
-	        End Sub
-	
-	        Public Sub InstantiateIn(ByVal container As System.Web.UI.Control) Implements System.Web.UI.ITemplate.InstantiateIn
-	            addButton = New LinkButton
-	            addButton.ID = "addButton"
-	            addButton.Text = "Add record"
-	            addButton.CommandName = "InitInsert"
-	
-	            refreshButton = New LinkButton
-	            refreshButton.ID = "refreshButton"
-	            refreshButton.Text = "Refresh grid"
-	            refreshButton.CommandName = "Rebind"
-	
-	            container.Controls.Add(addButton)
-	            container.Controls.Add(New LiteralControl("      "))
-	            container.Controls.Add(refreshButton)
-	        End Sub
-	    End Class
-	
-	    Protected Overrides Sub OnInit(ByVal e As EventArgs)
-	        InitializeComponent()
-	        DefineGridStructure()
-	        MyBase.OnInit(e)
-	    End Sub
-	
-	    Private Sub DefineGridStructure()
-	        Me.RadGrid1 = New RadGrid
-	        Me.RadGrid1.AutoGenerateColumns = False
-	        Me.RadGrid1.MasterTableView.CommandItemDisplay = GridCommandItemDisplay.Top
-	
-	        AddHandler RadGrid1.NeedDataSource, AddressOf Me.RadGrid1_NeedDataSource
-	
-	        RadGrid1.MasterTableView.CommandItemTemplate = New MyCommandItemTemplate()
-	        'runtime column definitions
-	    End Sub
+Protected WithEvents RadGrid1 As RadGrid
+
+Private Class MyCommandItemTemplate
+    Implements ITemplate
+
+    Protected addButton As LinkButton
+    Protected refreshButton As LinkButton
+
+    Public Sub New()
+        MyBase.New()
+
+    End Sub
+
+    Public Sub InstantiateIn(ByVal container As System.Web.UI.Control) Implements System.Web.UI.ITemplate.InstantiateIn
+        addButton = New LinkButton
+        addButton.ID = "addButton"
+        addButton.Text = "Add record"
+        addButton.CommandName = "InitInsert"
+
+        refreshButton = New LinkButton
+        refreshButton.ID = "refreshButton"
+        refreshButton.Text = "Refresh grid"
+        refreshButton.CommandName = "Rebind"
+
+        container.Controls.Add(addButton)
+        container.Controls.Add(New LiteralControl("      "))
+        container.Controls.Add(refreshButton)
+    End Sub
+End Class
+
+Protected Overrides Sub OnInit(ByVal e As EventArgs)
+    InitializeComponent()
+    DefineGridStructure()
+    MyBase.OnInit(e)
+End Sub
+
+Private Sub DefineGridStructure()
+    Me.RadGrid1 = New RadGrid
+    Me.RadGrid1.AutoGenerateColumns = False
+    Me.RadGrid1.MasterTableView.CommandItemDisplay = GridCommandItemDisplay.Top
+
+    AddHandler RadGrid1.NeedDataSource, AddressOf Me.RadGrid1_NeedDataSource
+
+    RadGrid1.MasterTableView.CommandItemTemplate = New MyCommandItemTemplate()
+    'runtime column definitions
+End Sub
 ````
 
 

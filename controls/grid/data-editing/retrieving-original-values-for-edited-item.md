@@ -21,57 +21,55 @@ Here is a sample code (note that this approach is applicable for auto-generated 
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
-	    runat="server" OnItemCommand="RadGrid1_ItemCommand" AutoGenerateColumns="true">
-	    <MasterTableView DataSourceID="SqlDataSource1">
-	      <Columns>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <br />
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	      SelectCommand="SELECT TOP 10 [ContactName], [ContactTitle], [Address], [CustomerID] FROM [Customers]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+  runat="server" OnItemCommand="RadGrid1_ItemCommand" AutoGenerateColumns="true">
+  <MasterTableView DataSourceID="SqlDataSource1">
+    <Columns>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT TOP 10 [ContactName], [ContactTitle], [Address], [CustomerID] FROM [Customers]">
+</asp:SqlDataSource>
 ````
-````C#
-	
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.UpdateCommandName)
-	        {
-	            if (e.Item is GridEditableItem)
-	            {
-	                GridEditableItem editedItem = e.Item as GridEditableItem;
-	                //here editedItem.SavedOldValues will be the dictionary which holds the
-	                //predefined values
-	
-	                //Prepare new dictionary object
-	                Hashtable newValues = new Hashtable();
-	                e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem);
-	                //the newValues instance is the new collection of key -> value pairs
-	                //with the updated ny the user data
-	
-	            }
-	        }
-	    }
+````C#	
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.UpdateCommandName)
+    {
+        if (e.Item is GridEditableItem)
+        {
+            GridEditableItem editedItem = e.Item as GridEditableItem;
+            //here editedItem.SavedOldValues will be the dictionary which holds the
+            //predefined values
+            //Prepare new dictionary object
+            Hashtable newValues = new Hashtable();
+            e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem);
+            //the newValues instance is the new collection of key -> value pairs
+            //with the updated ny the user data
+
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
-	        If (e.CommandName = RadGrid.UpdateCommandName) Then
-	            If (e.Item = GridEditableItem) Then
-	                Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-	                'here editedItem.SavedOldValues will be the dictionary which holds the
-	                'predefined values
-	                'Prepare new dictionary object
-	                Dim newValues As Hashtable = New Hashtable
-	                e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem)
-	                'the newValues instance is the new collection of key -> value pairs
-	                'with the updated ny the user data
-	            End If
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
+    If (e.CommandName = RadGrid.UpdateCommandName) Then
+        If (e.Item = GridEditableItem) Then
+            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+            'here editedItem.SavedOldValues will be the dictionary which holds the
+            'predefined values
+            'Prepare new dictionary object
+            Dim newValues As Hashtable = New Hashtable
+            e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem)
+            'the newValues instance is the new collection of key -> value pairs
+            'with the updated ny the user data
+        End If
+    End If
+End Sub
 ````
 
 
@@ -80,57 +78,53 @@ If you have **GridTemplateColumn** inside the grid and want to obtain its origin
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" Skin="WinXP" runat="server"
-	    Width="150px">
-	    <MasterTableView AutoGenerateColumns="false">
-	      <Columns>
-	        <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="City">
-	          <ItemTemplate>
-	            <%# Eval("City") %>
-	          </ItemTemplate>
-	          <EditItemTemplate>
-	            <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("City") %>' />
-	          </EditItemTemplate>
-	        </telerik:GridTemplateColumn>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <br />
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	      SelectCommand="SELECT [City] FROM [Customers]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" Skin="WinXP" runat="server"
+  Width="150px">
+  <MasterTableView AutoGenerateColumns="false">
+    <Columns>
+      <telerik:GridTemplateColumn UniqueName="TemplateColumn" HeaderText="City">
+        <ItemTemplate>
+          <%# Eval("City") %>
+        </ItemTemplate>
+        <EditItemTemplate>
+          <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("City") %>' />
+        </EditItemTemplate>
+      </telerik:GridTemplateColumn>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT [City] FROM [Customers]">
+</asp:SqlDataSource>
 ````
 ````C#
-	
-	
-	    protected void RadGrid1_UpdateCommand(object source,
-	    Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        RadGrid1.Controls.Add(new LiteralControl("Saved old value for the City editor is: " + (string)Session["savedOldValue"]));
-	    }
-	
-	    protected void RadGrid1_ItemDataBound(object sender,
-	    Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item isGridEditableItem && e.Item.IsInEditMode)
-	        {
-	            TextBox txtBox = e.Item.FindControl("TextBox1") as TextBox;
-	            Session["savedOldValue"] = txtBox.Text;
-	        }
-	    }
-	
-	
+protected void RadGrid1_UpdateCommand(object source,
+Telerik.Web.UI.GridCommandEventArgs e)
+{
+    RadGrid1.Controls.Add(new LiteralControl("Saved old value for the City editor is: " + (string)Session["savedOldValue"]));
+}
+
+protected void RadGrid1_ItemDataBound(object sender,
+Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item isGridEditableItem && e.Item.IsInEditMode)
+    {
+        TextBox txtBox = e.Item.FindControl("TextBox1") as TextBox;
+        Session["savedOldValue"] = txtBox.Text;
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
-	        RadGrid1.Controls.Add(New LiteralControl("Saved old value for the City editor is: " & CType(Session("savedOldValue"), String)))
-	    End Sub
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            Dim txtBox As TextBox = CType(e.Item.FindControl("TextBox1"), TextBox)
-	            Session("savedOldValue") = txtBox.Text
-	        End If
-	    End Sub
+Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
+    RadGrid1.Controls.Add(New LiteralControl("Saved old value for the City editor is: " & CType(Session("savedOldValue"), String)))
+End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        Dim txtBox As TextBox = CType(e.Item.FindControl("TextBox1"), TextBox)
+        Session("savedOldValue") = txtBox.Text
+    End If
+End Sub
 ````
 

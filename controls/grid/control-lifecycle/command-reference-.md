@@ -66,13 +66,13 @@ This examples can help you with this approach (look at the ASCX code):
 The user control buttons **Update** and **Cancel** have **CommandName** property associated. Both commands are handled by RadGrid.
 
 ````ASP.NET
-	  <td align="right" colspan="2">
-	    <asp:Button ID="btnUpdate" Text="Update" CssClass="button" Style="color: green;"
-	      runat="server" CommandName="Update"></asp:Button><asp:Button ID="btnCancel" Text="Cancel"
-	        CssClass="button" runat="server" CausesValidation="False" CommandName="Cancel">
-	    </asp:Button>
-	  </td>
-	  </tr>
+<td align="right" colspan="2">
+  <asp:Button ID="btnUpdate" Text="Update" CssClass="button" Style="color: green;"
+    runat="server" CommandName="Update"></asp:Button><asp:Button ID="btnCancel" Text="Cancel"
+      CssClass="button" runat="server" CausesValidation="False" CommandName="Cancel">
+  </asp:Button>
+</td>
+</tr>
 ````
 
 

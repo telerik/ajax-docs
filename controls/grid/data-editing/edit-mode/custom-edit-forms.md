@@ -37,10 +37,10 @@ If you need a reference to the **UserControl** from an event handler of your **R
 
 
 ````C#
-	    UserControl MyUserControl = editFormItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
+UserControl MyUserControl = editFormItem.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
 ````
 ````VB
-	    Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
+Dim MyUserControl As UserControl = CType(editFormItem.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
 ````
 
 
@@ -51,10 +51,10 @@ When **RadGrid** loads the **UserControl** Edit Form, the **UserControl** has fu
 
 
 ````C#
-	    GridEditableItem editedItem = this.Parent.NamingContainer;
+GridEditableItem editedItem = this.Parent.NamingContainer;
 ````
 ````VB
-	    Dim editedItem As GridEditableItem = Me.Parent.NamingContainer
+Dim editedItem As GridEditableItem = Me.Parent.NamingContainer
 ````
 
 
@@ -67,10 +67,10 @@ You can use the **Page** property of the user control to access the Web page tha
 
 
 ````C#
-	    MyPageClassName myPage = this.Page;
+MyPageClassName myPage = this.Page;
 ````
 ````VB
-	    Dim myPage As MyPageClassName = Me.Page
+Dim myPage As MyPageClassName = Me.Page
 ````
 
 
@@ -91,7 +91,7 @@ To access data from the object that the custom edit form is binding to, the bind
 Here is an example declaration of a **TextBox** server control inside a **UserControl** that is bound to the **Region** property of the **DataItem** in **RadGrid**:
 
 ````ASP.NET
-	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "Parent.BindingContainer.DataItem.Region") %>' />
+<asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "Parent.BindingContainer.DataItem.Region") %>' />
 ````
 
 
@@ -105,30 +105,29 @@ For example, if you bind **RadGrid** to a **DataSet**, the **DataItem** property
 
 
 ````C#
-	    private object _dataItem = null;
-	    public object DataItem
-	    {
-	        get
-	        {
-	            return this._dataItem;
-	        }
-	        set
-	        {
-	            this._dataItem = value;
-	        }
-	    }
+private object _dataItem = null;
+public object DataItem
+{
+    get
+    {
+        return this._dataItem;
+    }
+    set
+    {
+        this._dataItem = value;
+    }
+}
 ````
 ````VB
-	    Private _dataItem As Object = Nothing
-	    Public Property DataItem As Object
-	        Get
-	            Return Me._dataItem
-	        End Get
-	        Set(ByVal value As Object)
-	            Me._dataItem = value
-	        End Set
-	    End Property
-	
+Private _dataItem As Object = Nothing
+Public Property DataItem As Object
+    Get
+        Return Me._dataItem
+    End Get
+    Set(ByVal value As Object)
+        Me._dataItem = value
+    End Set
+End Property
 ````
 
 
@@ -137,7 +136,7 @@ The **DataItem** property should be declared as of type object. After loading th
 Once your **UserControl** has a **DataItem** property, you can use binding expressions such as the following:
 
 ````ASP.NET
-	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Eval( "Country" ) %>'></asp:TextBox>
+<asp:TextBox ID="TextBox1" runat="server" Text='<%# Eval( "Country" ) %>'></asp:TextBox>
 ````
 
 
@@ -155,27 +154,26 @@ Here is an example that sets the text for a **TextBox** that resides inside the 
 
 
 ````C#
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditFormItem && e.Item.IsInEditMode)
-	        {
-	            UserControl MyUserControl = e.Item.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
-	            GridDataItem parentItem = (e.Item as GridEditFormItem).ParentItem;
-	            TextBox box = (TextBox)MyUserControl.FindControl("TextBox1");
-	            box.Text = parentItem["Country"].Text;
-	        }
-	    }
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditFormItem && e.Item.IsInEditMode)
+    {
+        UserControl MyUserControl = e.Item.FindControl(GridEditFormItem.EditFormUserControlID) as UserControl;
+        GridDataItem parentItem = (e.Item as GridEditFormItem).ParentItem;
+        TextBox box = (TextBox)MyUserControl.FindControl("TextBox1");
+        box.Text = parentItem["Country"].Text;
+    }
+}
 ````
-````VB
-	
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
-	            Dim MyUserControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
-	            Dim parentItem As GridDataItem = CType(e.Item, GridDataItem).ParentItem
-	            Dim box As TextBox = CType(MyUserControl.FindControl("TextBox1"), TextBox)
-	            box.Text = parentItem("Country").Text
-	        End If
-	    End Sub
+````VB	
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
+        Dim MyUserControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
+        Dim parentItem As GridDataItem = CType(e.Item, GridDataItem).ParentItem
+        Dim box As TextBox = CType(MyUserControl.FindControl("TextBox1"), TextBox)
+        box.Text = parentItem("Country").Text
+    End If
+End Sub
 ````
 
 
@@ -186,23 +184,23 @@ To select the proper item in a drop-down list inside your **UserControl**, handl
 
 
 ````C#
-	    private void MyEditForm_DataBinding(object sender, System.EventArgs e)
-	    {
-	        String[] tocs = new string[] { "Dr.", "Mr.", "Mrs.", "Ms." };
-	        ddlTOC.DataSource = tocs;
-	        ddlTOC.DataBind();
-	        ddlTOC.SelectedIndex = tocs.IndexOf(DataBinder.Eval(DataItem, "TitleOfCourtesy").ToString());
-	        ddlTOC.DataSource = null;
-	    }
+private void MyEditForm_DataBinding(object sender, System.EventArgs e)
+{
+    String[] tocs = new string[] { "Dr.", "Mr.", "Mrs.", "Ms." };
+    ddlTOC.DataSource = tocs;
+    ddlTOC.DataBind();
+    ddlTOC.SelectedIndex = tocs.IndexOf(DataBinder.Eval(DataItem, "TitleOfCourtesy").ToString());
+    ddlTOC.DataSource = null;
+}
 ````
 ````VB
-	    Private Sub MyEditForm_DataBinding(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.DataBinding
-	        Dim tocs As String() = New String() {"Dr.", "Mr.", "Mrs.", "Ms."}
-	        ddlTOC.DataSource = tocs
-	        ddlTOC.DataBind()
-	        ddlTOC.SelectedIndex = tocs.IndexOf(DataBinder.Eval(DataItem, "TitleOfCourtesy").ToString())
-	        ddlTOC.DataSource = Nothing
-	    End Sub
+Private Sub MyEditForm_DataBinding(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.DataBinding
+    Dim tocs As String() = New String() {"Dr.", "Mr.", "Mrs.", "Ms."}
+    ddlTOC.DataSource = tocs
+    ddlTOC.DataBind()
+    ddlTOC.SelectedIndex = tocs.IndexOf(DataBinder.Eval(DataItem, "TitleOfCourtesy").ToString())
+    ddlTOC.DataSource = Nothing
+End Sub
 ````
 
 
@@ -224,15 +222,15 @@ When **EditFormType** is "Template", you can supply a template that the table vi
 When using a template to implement a custom edit form, you can bind the items using **DataBinder** expressions:
 
 ````C#
-	  <EditFormSettings editformtype="Template">
-	    <EditColumn uniquename="EditCommandColumn1"/>
-	    <FormTemplate>You can use traditional data binding<br/>Which require you to handle the updates yourself<br/>
-	      <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "DataItem.Country" ) %>'/>
-	      <br/>When using automatic updates, you can use the Bind method<br/> 
-	      <asp:TextBoxID="TextBox2" runat="server" Text='<%# Bind("Country") %>' />  
-	    </FormTemplate>
-	    <PopUpSettings ScrollBars="None" />
-	  <EditFormSettings>			
+<EditFormSettings editformtype="Template">
+  <EditColumn uniquename="EditCommandColumn1"/>
+  <FormTemplate>You can use traditional data binding<br/>Which require you to handle the updates yourself<br/>
+    <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval( Container, "DataItem.Country" ) %>'/>
+    <br/>When using automatic updates, you can use the Bind method<br/> 
+    <asp:TextBoxID="TextBox2" runat="server" Text='<%# Bind("Country") %>' />  
+  </FormTemplate>
+  <PopUpSettings ScrollBars="None" />
+<EditFormSettings>			
 ````
 
 
@@ -256,26 +254,26 @@ Here is an example that sets the text for a **TextBox** that resides inside the 
 
 
 ````C#
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditFormItem && e.Item.IsInEditMode)
-	        {
-	            GridEditFormItem editFormItem = e.Item as GridEditFormItem;
-	            GridDataItem parentItem = editFormItem.ParentItem;
-	            TextBox box = editFormItem.FindControl("TextBox1") as TextBox;
-	            box.Text = parentItem["Country"].Text;
-	        }
-	    }
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditFormItem && e.Item.IsInEditMode)
+    {
+        GridEditFormItem editFormItem = e.Item as GridEditFormItem;
+        GridDataItem parentItem = editFormItem.ParentItem;
+        TextBox box = editFormItem.FindControl("TextBox1") as TextBox;
+        box.Text = parentItem["Country"].Text;
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
-	            Dim editFormItem As GridEditFormItem = CType(e.Item, GridEditFormItem)
-	            Dim parentItem As GridDataItem = editFormItem.ParentItem
-	            Dim box As TextBox = CType(editFormItem.FindControl("TextBox1"), TextBox)
-	            box.Text = parentItem("Country").Text
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode) Then
+        Dim editFormItem As GridEditFormItem = CType(e.Item, GridEditFormItem)
+        Dim parentItem As GridDataItem = editFormItem.ParentItem
+        Dim box As TextBox = CType(editFormItem.FindControl("TextBox1"), TextBox)
+        box.Text = parentItem("Country").Text
+    End If
+End Sub
 ````
 
 
@@ -288,76 +286,76 @@ The following example illustrates this approach:
 
 
 ````C#
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        RadGrid grid1 = new RadGrid();
-	        grid1.DataSourceID = "SqlDataSource1";
-	        grid1.MasterTableView.EditFormSettings.EditFormType = GridEditFormType.Template;
-	        grid1.MasterTableView.EditFormSettings.FormTemplate = new MyEditFormTemplate();
-	        grid1.MasterTableView.Columns.Add(new GridEditCommandColumn());
-	        grid1.MasterTableView.DataKeyNames = new string[] { "ProviderName" };
-	        grid1.UpdateCommand += new GridCommandEventHandler(grid1_UpdateCommand);
-	        placeholder1.Controls.Add(grid1);
-	    }
-	    private void grid1_UpdateCommand(object source, GridCommandEventArgs e)
-	    {
-	        GridEditableItem ei = ((GridEditableItem)(e.Item));
-	        Hashtable t1 = new Hashtable();
-	        ei.ExtractValues(t1);
-	    }
-	    public class MyEditFormTemplate : IBindableTemplate
-	    {
-	        public void InstantiateIn(Control container)
-	        {
-	            GridEditFormItem item = ((GridEditFormItem)(container.NamingContainer));
-	            Button btn1 = new Button();
-	            btn1.CommandName = "Update";
-	            TextBox tb1 = new TextBox();
-	            tb1.ID = "MyTextBox";
-	            tb1.Text = item.ParentItem.OwnerTableView.DataKeyValues[((GridDataItem)(item.ParentItem)).ItemIndex]["ProviderName"].ToString();
-	            container.Controls.Add(tb1);
-	            container.Controls.Add(btn1);
-	        }
-	        public System.Collections.Specialized.IOrderedDictionary ExtractValues(System.Web.UI.Control container)
-	        {
-	            OrderedDictionary od = new OrderedDictionary();
-	            od.Add("ProviderName", ((TextBox)(((GridEditFormItem)(container)).FindControl("MyTextBox"))).Text);
-	            return od;
-	        }
-	    }
+protected void Page_Init(object sender, EventArgs e)
+{
+    RadGrid grid1 = new RadGrid();
+    grid1.DataSourceID = "SqlDataSource1";
+    grid1.MasterTableView.EditFormSettings.EditFormType = GridEditFormType.Template;
+    grid1.MasterTableView.EditFormSettings.FormTemplate = new MyEditFormTemplate();
+    grid1.MasterTableView.Columns.Add(new GridEditCommandColumn());
+    grid1.MasterTableView.DataKeyNames = new string[] { "ProviderName" };
+    grid1.UpdateCommand += new GridCommandEventHandler(grid1_UpdateCommand);
+    placeholder1.Controls.Add(grid1);
+}
+private void grid1_UpdateCommand(object source, GridCommandEventArgs e)
+{
+    GridEditableItem ei = ((GridEditableItem)(e.Item));
+    Hashtable t1 = new Hashtable();
+    ei.ExtractValues(t1);
+}
+public class MyEditFormTemplate : IBindableTemplate
+{
+    public void InstantiateIn(Control container)
+    {
+        GridEditFormItem item = ((GridEditFormItem)(container.NamingContainer));
+        Button btn1 = new Button();
+        btn1.CommandName = "Update";
+        TextBox tb1 = new TextBox();
+        tb1.ID = "MyTextBox";
+        tb1.Text = item.ParentItem.OwnerTableView.DataKeyValues[((GridDataItem)(item.ParentItem)).ItemIndex]["ProviderName"].ToString();
+        container.Controls.Add(tb1);
+        container.Controls.Add(btn1);
+    }
+    public System.Collections.Specialized.IOrderedDictionary ExtractValues(System.Web.UI.Control container)
+    {
+        OrderedDictionary od = new OrderedDictionary();
+        od.Add("ProviderName", ((TextBox)(((GridEditFormItem)(container)).FindControl("MyTextBox"))).Text);
+        return od;
+    }
+}
 ````
 ````VB
-	    Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
-	        Dim grid1 As RadGrid = New RadGrid()
-	        grid1.DataSourceID = "SqlDataSource1"
-	        grid1.MasterTableView.EditFormSettings.EditFormType = GridEditFormType.Template
-	        grid1.MasterTableView.EditFormSettings.FormTemplate = New MyEditFormTemplate()
-	        grid1.MasterTableView.Columns.Add(New GridEditCommandColumn())
-	        grid1.MasterTableView.DataKeyNames = New String() {"ProviderName"}
-	        AddHandler grid1.UpdateCommand, AddressOf grid1_UpdateCommand
-	        placeholder1.Controls.Add(grid1)
-	    End Sub
-	    Private Sub grid1_UpdateCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
-	        Dim ei As GridEditableItem = (DirectCast((e.Item), GridEditableItem))
-	        Dim t1 As New Hashtable()
-	        ei.ExtractValues(t1)
-	    End Sub
-	 Public Class MyEditFormTemplate Implements IBindableTemplate
-	        Public Sub InstantiateIn(ByVal container As Control)
-	            Dim item As GridEditFormItem = (DirectCast((container.NamingContainer), GridEditFormItem))
-	            Dim btn1 As New Button()
-	            btn1.CommandName = "Update"
-	            Dim tb1 As New TextBox()
-	            tb1.ID = "MyTextBox"
-	            tb1.Text = item.ParentItem.OwnerTableView.DataKeyValues((DirectCast((item.ParentItem), GridDataItem)).ItemIndex)("ProviderName").ToString()
-	            container.Controls.Add(tb1)
-	            container.Controls.Add(btn1)
-	        End Sub
-	        Public Function ExtractValues(ByVal container As System.Web.UI.Control) As System.Collections.Specialized.IOrderedDictionary
-	            Dim od As New OrderedDictionary()
-	            od.Add("ProviderName", (DirectCast(((DirectCast((container), GridEditFormItem)).FindControl("MyTextBox")), TextBox)).Text)
-	            Return od
-	        End Function
-	    End Class
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+    Dim grid1 As RadGrid = New RadGrid()
+    grid1.DataSourceID = "SqlDataSource1"
+    grid1.MasterTableView.EditFormSettings.EditFormType = GridEditFormType.Template
+    grid1.MasterTableView.EditFormSettings.FormTemplate = New MyEditFormTemplate()
+    grid1.MasterTableView.Columns.Add(New GridEditCommandColumn())
+    grid1.MasterTableView.DataKeyNames = New String() {"ProviderName"}
+    AddHandler grid1.UpdateCommand, AddressOf grid1_UpdateCommand
+    placeholder1.Controls.Add(grid1)
+End Sub
+Private Sub grid1_UpdateCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
+    Dim ei As GridEditableItem = (DirectCast((e.Item), GridEditableItem))
+    Dim t1 As New Hashtable()
+    ei.ExtractValues(t1)
+End Sub
+Public Class MyEditFormTemplate Implements IBindableTemplate
+    Public Sub InstantiateIn(ByVal container As Control)
+        Dim item As GridEditFormItem = (DirectCast((container.NamingContainer), GridEditFormItem))
+        Dim btn1 As New Button()
+        btn1.CommandName = "Update"
+        Dim tb1 As New TextBox()
+        tb1.ID = "MyTextBox"
+        tb1.Text = item.ParentItem.OwnerTableView.DataKeyValues((DirectCast((item.ParentItem), GridDataItem)).ItemIndex)("ProviderName").ToString()
+        container.Controls.Add(tb1)
+        container.Controls.Add(btn1)
+    End Sub
+    Public Function ExtractValues(ByVal container As System.Web.UI.Control) As System.Collections.Specialized.IOrderedDictionary
+        Dim od As New OrderedDictionary()
+        od.Add("ProviderName", (DirectCast(((DirectCast((container), GridEditFormItem)).FindControl("MyTextBox")), TextBox)).Text)
+        Return od
+    End Function
+End Class
 ````
 

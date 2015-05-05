@@ -21,34 +21,34 @@ In the code-behind:
 
 
 ````C#
-	    protected void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            foreach (GridItem item in RadGrid1.MasterTableView.Items)
-	            {
-	                if (item is GridEditableItem)
-	                {
-	                    GridEditableItem editableItem = item as GridDataItem;
-	                    editableItem.Edit = true;
-	                }
-	            }
-	            RadGrid1.Rebind();
-	        }
-	    }
+protected void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        foreach (GridItem item in RadGrid1.MasterTableView.Items)
+        {
+            if (item is GridEditableItem)
+            {
+                GridEditableItem editableItem = item as GridDataItem;
+                editableItem.Edit = true;
+            }
+        }
+        RadGrid1.Rebind();
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
-	        If Not IsPostBack Then
-	            For Each item As GridItem In RadGrid1.MasterTableView.Items
-	                If TypeOf item Is GridEditableItem Then
-	                    Dim editableItem As GridEditableItem = CType(item, GridDataItem)
-	                    editableItem.Edit = True
-	                End If
-	            Next
-	            RadGrid1.Rebind()
-	        End If
-	    End Sub
+Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles RadGrid1.PreRender
+    If Not IsPostBack Then
+        For Each item As GridItem In RadGrid1.MasterTableView.Items
+            If TypeOf item Is GridEditableItem Then
+                Dim editableItem As GridEditableItem = CType(item, GridDataItem)
+                editableItem.Edit = True
+            End If
+        Next
+        RadGrid1.Rebind()
+    End If
+End Sub
 ````
 
 
@@ -57,20 +57,20 @@ Another option (which is applicable only with in-forms edit mode (**EditForms**,
 
 
 ````VB
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If (Not Page.IsPostBack AndAlso TypeOf e.Item Is GridEditableItem) Then
-	            e.Item.Edit = True
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If (Not Page.IsPostBack AndAlso TypeOf e.Item Is GridEditableItem) Then
+        e.Item.Edit = True
+    End If
+End Sub
 ````
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (!Page.IsPostBack && e.Item is GridEditableItem)
-	        {
-	            e.Item.Edit = true;
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (!Page.IsPostBack && e.Item is GridEditableItem)
+    {
+        e.Item.Edit = true;
+    }
+}
 ````
 
 

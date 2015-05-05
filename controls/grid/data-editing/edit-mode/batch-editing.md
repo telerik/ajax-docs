@@ -12,7 +12,7 @@ position: 4
 
 
 
-RadGrid's Batch editing functionality enables inline client-side editing andperforming multiple changes before the user decides to either applythe changes or cancel them. The new feature is well integratedwith existing RadGrid functionalities like automatic data sourceoperations, hierarchy, selection, validation, template columns andevent handling. The feature could be easily enabled by setting the **GridTableView.EditMode** to **Batch**. Additional properties for configuring the behaviorof the functionality could be found in the **GridTableView.BatchEditingSettings** collection.
+RadGrid's Batch editing functionality enables inline client-side editing and performing multiple changes before the user decides to either apply the changes or cancel them. The new feature is well integrated with existing RadGrid functionalities like automatic data source operations, hierarchy, selection, validation, template columns and event handling. The feature could be easily enabled by setting the **GridTableView.EditMode** to **Batch**. Additional properties for configuring the behavior of the functionality could be found in the **GridTableView.BatchEditingSettings** collection.
 
 ## Configuration
 
@@ -47,21 +47,21 @@ When RadGrid performs CRUD operations **ItemCommand, InsertCommand, DeleteComman
 
 
 ````C#
-	    protected void RadGrid1_ItemCommand(object sender, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        GridBatchEditingEventArgument argument = e.CommandArgument as GridBatchEditingEventArgument;
-	        Hashtable oldValues = argument.OldValues;
-	        Hashtable newValues = argument.NewValues;
-	        string newFirstName = newValues["FirstName"].ToString();
-	    }
+protected void RadGrid1_ItemCommand(object sender, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    GridBatchEditingEventArgument argument = e.CommandArgument as GridBatchEditingEventArgument;
+    Hashtable oldValues = argument.OldValues;
+    Hashtable newValues = argument.NewValues;
+    string newFirstName = newValues["FirstName"].ToString();
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs)
-	        Dim argument As GridBatchEditingEventArgument = TryCast(e.CommandArgument, GridBatchEditingEventArgument)
-	        Dim oldValues As Hashtable = argument.OldValues
-	        Dim newValues As Hashtable = argument.NewValues
-	        Dim newFirstName As String = newValues("FirstName").ToString()
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs)
+    Dim argument As GridBatchEditingEventArgument = TryCast(e.CommandArgument, GridBatchEditingEventArgument)
+    Dim oldValues As Hashtable = argument.OldValues
+    Dim newValues As Hashtable = argument.NewValues
+    Dim newFirstName As String = newValues("FirstName").ToString()
+End Sub
 ````
 
 
@@ -70,24 +70,24 @@ Additionally, if you want more control over all commands that are executed you c
 
 
 ````C#
-	    protected void RadGrid1_BatchEditCommand(object sender, GridBatchEditingEventArgs e)
-	    {
-	        foreach (GridBatchEditingCommand command in e.Commands)
-	        {
-	            Hashtable newValues = command.NewValues;
-	            Hashtable oldValues = command.OldValues;
-	            string newFirstName = newValues["FirstName"].ToString();
-	        }
-	    }
+protected void RadGrid1_BatchEditCommand(object sender, GridBatchEditingEventArgs e)
+{
+    foreach (GridBatchEditingCommand command in e.Commands)
+    {
+        Hashtable newValues = command.NewValues;
+        Hashtable oldValues = command.OldValues;
+        string newFirstName = newValues["FirstName"].ToString();
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_BatchEditCommand(sender As Object, e As GridBatchEditingEventArgs)
-	        For Each command As GridBatchEditingCommand In e.Commands
-	            Dim newValues As Hashtable = command.NewValues
-	            Dim oldValues As Hashtable = command.OldValues
-	            Dim newFirstName As String = newValues("FirstName").ToString()
-	        Next
-	    End Sub
+Protected Sub RadGrid1_BatchEditCommand(sender As Object, e As GridBatchEditingEventArgs)
+    For Each command As GridBatchEditingCommand In e.Commands
+        Dim newValues As Hashtable = command.NewValues
+        Dim oldValues As Hashtable = command.OldValues
+        Dim newFirstName As String = newValues("FirstName").ToString()
+    Next
+End Sub
 ````
 
 
@@ -95,7 +95,7 @@ Additionally, if you want more control over all commands that are executed you c
 >
 
 
-For example a button with **CommandName=”Edit”** will not perform a postback and instead will open it'sparent row for editing. This is done by calling **RadGrid.get_batchEditingManager().openRowForEdit**and passing the appropriate arguments. All commands that will be changed and the client-side function that will	be called instead are listed below.
+For example a button with **CommandName=”Edit”** will not perform a postback and instead will open it's parent row for editing. This is done by calling **RadGrid.get_batchEditingManager().openRowForEdit**and passing the appropriate arguments. All commands that will be changed and the client-side function that will	be called instead are listed below.
 
 
 |  **Server-side commands**  |  **Client-side command**  |
@@ -111,41 +111,41 @@ Another key element of the batch editing mode is the use of only one editor for 
 
 
 ````ASP.NET
-	        <telerik:RadGrid ID="RadGrid2" runat="server" OnPreRender="RadGrid1_PreRender" DataSourceID="SqlDataSource1">
-	            <MasterTableView EditMode="Batch">
-	                <Columns>
-	                    <telerik:GridBoundColumn DataField="ProductName" UniqueName="ProductName" HeaderText="Product Name"></telerik:GridBoundColumn>
-	                    <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" DataField="CategoryID">
-	                        <ItemTemplate>
-	                            <%# Eval("CategoryName") %>
-	                        </ItemTemplate>
-	                        <EditItemTemplate>
-	                            <telerik:RadDropDownList runat="server" ID="CategoryIDDropDown" DataValueField="CategoryID"
-	                                DataTextField="CategoryName" DataSourceID="SqlDataSource2"></telerik:RadDropDownList>
-	                        </EditItemTemplate>
-	                    </telerik:GridTemplateColumn>
-	                </Columns>
-	            </MasterTableView>
-	        </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid2" runat="server" OnPreRender="RadGrid1_PreRender" DataSourceID="SqlDataSource1">
+    <MasterTableView EditMode="Batch">
+        <Columns>
+            <telerik:GridBoundColumn DataField="ProductName" UniqueName="ProductName" HeaderText="Product Name"></telerik:GridBoundColumn>
+            <telerik:GridTemplateColumn HeaderText="Category" UniqueName="CategoryID" DataField="CategoryID">
+                <ItemTemplate>
+                    <%# Eval("CategoryName") %>
+                </ItemTemplate>
+                <EditItemTemplate>
+                    <telerik:RadDropDownList runat="server" ID="CategoryIDDropDown" DataValueField="CategoryID"
+                        DataTextField="CategoryName" DataSourceID="SqlDataSource2"></telerik:RadDropDownList>
+                </EditItemTemplate>
+            </telerik:GridTemplateColumn>
+        </Columns>
+    </MasterTableView>
+</telerik:RadGrid>
 ````
 ````C#
-	    protected void RadGrid1_PreRender(object sender, EventArgs e)
-	    {
-	        GridTableView masterTable = (sender as RadGrid).MasterTableView;
-	        GridColumn productNameColumn = masterTable.GetColumnSafe("ProductName") as GridColumn;
-	        TextBox productNameEditor = (masterTable.GetBatchColumnEditor(productNameColumn) as GridTextBoxColumnEditor).TextBoxControl;
-	        RadDropDownList categoryEditor = masterTable.GetBatchColumnEditor("CategoryID") as RadDropDownList;
-	        Panel batchEditingContainer = masterTable.GetBatchEditorContainer("CategoryID") as Panel;
-	    }
+protected void RadGrid1_PreRender(object sender, EventArgs e)
+{
+    GridTableView masterTable = (sender as RadGrid).MasterTableView;
+    GridColumn productNameColumn = masterTable.GetColumnSafe("ProductName") as GridColumn;
+    TextBox productNameEditor = (masterTable.GetBatchColumnEditor(productNameColumn) as GridTextBoxColumnEditor).TextBoxControl;
+    RadDropDownList categoryEditor = masterTable.GetBatchColumnEditor("CategoryID") as RadDropDownList;
+    Panel batchEditingContainer = masterTable.GetBatchEditorContainer("CategoryID") as Panel;
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
-	        Dim masterTable As GridTableView = TryCast(sender, RadGrid).MasterTableView
-	        Dim productNameColumn As GridColumn = TryCast(masterTable.GetColumnSafe("ProductName"), GridColumn)
-	        Dim productNameEditor As TextBox = TryCast(masterTable.GetBatchColumnEditor(productNameColumn), GridTextBoxColumnEditor).TextBoxControl
-	        Dim categoryEditor As RadDropDownList = TryCast(masterTable.GetBatchColumnEditor("CategoryID"), RadDropDownList)
-	        Dim batchEditingContainer As Panel = TryCast(masterTable.GetBatchEditorContainer("CategoryID"), Panel)
-	    End Sub
+Protected Sub RadGrid1_PreRender(sender As Object, e As EventArgs)
+    Dim masterTable As GridTableView = TryCast(sender, RadGrid).MasterTableView
+    Dim productNameColumn As GridColumn = TryCast(masterTable.GetColumnSafe("ProductName"), GridColumn)
+    Dim productNameEditor As TextBox = TryCast(masterTable.GetBatchColumnEditor(productNameColumn), GridTextBoxColumnEditor).TextBoxControl
+    Dim categoryEditor As RadDropDownList = TryCast(masterTable.GetBatchColumnEditor("CategoryID"), RadDropDownList)
+    Dim batchEditingContainer As Panel = TryCast(masterTable.GetBatchEditorContainer("CategoryID"), Panel)
+End Sub
 ````
 
 
@@ -200,20 +200,20 @@ When declaring **GridTemplateColumn** with custom **EditItemTemplate**, **RadGri
 
 
 ````ASP.NET
-	    <div class="container">
-	        <span>Header text</span>
-	        <table>
-	            <tbody>
-	                <tr>
-	                    <td>
-	                        <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
-	                    </td>
-	                </tr>
-	            </tbody>
-	        </table>
-	        <div>
-	            Footer container</div>
-	    </div>
+<div class="container">
+    <span>Header text</span>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        Footer container</div>
+</div>
 ````
 
 
@@ -237,10 +237,10 @@ If you want to include a custom object as a value both **equals** (A function de
 The template column declaration
 
 ````ASP.NET
-	        <ClientSettings>
-	            <ClientEvents OnBatchEditGetCellValue="GetCellValue" OnBatchEditGetEditorValue="GetEditorValue"
-	                OnBatchEditSetCellValue="SetCellValue" OnBatchEditSetEditorValue="SetEditorValue" />
-	        </ClientSettings>
+<ClientSettings>
+    <ClientEvents OnBatchEditGetCellValue="GetCellValue" OnBatchEditGetEditorValue="GetEditorValue"
+        OnBatchEditSetCellValue="SetCellValue" OnBatchEditSetEditorValue="SetEditorValue" />
+</ClientSettings>
 ````
 
 
@@ -248,24 +248,24 @@ The template column declaration
 The custom Person JavaScript object with equals and toString functions implemented
 
 ````JavaScript
-	        var Person = function (firstName, lastName)
-	        {
-	            this.firstName = firstName;
-	            this.lastName = lastName;
-	        }
-	        Person.prototype.equals = function (person)
-	        {
-	            if (this.firstName === person.firstName &&
-	        this.lastName === person.lastName)
-	            {
-	                return true;
-	            }
-	            return false;
-	        }
-	        Person.prototype.toString = function ()
-	        {
-	            return this.firstName + " " + this.lastName;
-	        }
+var Person = function (firstName, lastName)
+{
+    this.firstName = firstName;
+    this.lastName = lastName;
+}
+Person.prototype.equals = function (person)
+{
+    if (this.firstName === person.firstName &&
+this.lastName === person.lastName)
+    {
+        return true;
+    }
+    return false;
+}
+Person.prototype.toString = function ()
+{
+    return this.firstName + " " + this.lastName;
+}
 ````
 
 
@@ -273,17 +273,17 @@ The custom Person JavaScript object with equals and toString functions implement
 The subscription of the events
 
 ````ASP.NET
-	                <telerik:GridTemplateColumn HeaderText="Name" UniqueName="FirstLastName">
-	                    <HeaderStyle Width="250px" />
-	                    <ItemTemplate>
-	                        <asp:Label ID="LabelFirstName" runat="server" Text='<%# Eval("FirstName") %>'></asp:Label>
-	                        <asp:Label ID="LabelLastName" runat="server" Text='<%# Eval("LastName") %>'></asp:Label>
-	                    </ItemTemplate>
-	                    <EditItemTemplate>
-	                        <telerik:RadTextBox ID="RadTextBoxFirstName" runat="server" Width="100px"></telerik:RadTextBox>
-	                        <asp:TextBox ID="TextBoxLastName" runat="server" Width="100px"></asp:TextBox>
-	                    </EditItemTemplate>
-	                </telerik:GridTemplateColumn>
+<telerik:GridTemplateColumn HeaderText="Name" UniqueName="FirstLastName">
+    <HeaderStyle Width="250px" />
+    <ItemTemplate>
+        <asp:Label ID="LabelFirstName" runat="server" Text='<%# Eval("FirstName") %>'></asp:Label>
+        <asp:Label ID="LabelLastName" runat="server" Text='<%# Eval("LastName") %>'></asp:Label>
+    </ItemTemplate>
+    <EditItemTemplate>
+        <telerik:RadTextBox ID="RadTextBoxFirstName" runat="server" Width="100px"></telerik:RadTextBox>
+        <asp:TextBox ID="TextBoxLastName" runat="server" Width="100px"></asp:TextBox>
+    </EditItemTemplate>
+</telerik:GridTemplateColumn>
 ````
 
 
@@ -291,64 +291,64 @@ The subscription of the events
 The events implementation
 
 ````JavaScript
-	        function GetCellValue(sender, args)
-	        {
-	            if (args.get_columnUniqueName() === "FirstLastName")
-	            {
-	                args.set_cancel(true);
-	                var container = args.get_container();
-	                var firstName = $telerik.findElement(container, "LabelFirstName").innerHTML;
-	                var lastName = $telerik.findElement(container, "LabelLastName").innerHTML;
-	                args.set_value(new Person(firstName, lastName));
-	            }
-	        }
-	
-	        function SetCellValue(sender, args)
-	        {
-	            if (args.get_columnUniqueName() === "FirstLastName")
-	            {
-	                args.set_cancel(true);
-	                var container = args.get_container(),
-	            value = args.get_value(),
-	            firstName = value.firstName,
-	            lastName = value.lastName;
-	                $telerik.findElement(container, "LabelFirstName").innerHTML = firstName;
-	                $telerik.findElement(container, "LabelLastName").innerHTML = lastName;
-	            }
-	        }
-	
-	        function GetEditorValue(sender, args)
-	        {
-	            if (args.get_columnUniqueName() === "FirstLastName")
-	            {
-	                args.set_cancel(true);
-	                var container = args.get_container(),
-	            firstName = $telerik.findControl(container, "RadTextBoxFirstName").get_value(),
-	            lastName = $telerik.findElement(container, "TextBoxLastName").value;
-	                args.set_value(new Person(firstName, lastName));
-	            }
-	        }
-	
-	        function SetEditorValue(sender, args)
-	        {
-	            if (args.get_columnUniqueName() === "FirstLastName")
-	            {
-	                args.set_cancel(true);
-	                var container = args.get_container(),
-	            value = args.get_value(),
-	            firstName = value.firstName,
-	            lastName = value.lastName;
-	                $telerik.findControl(container, "RadTextBoxFirstName").set_value(firstName);
-	                $telerik.findElement(container, "TextBoxLastName").value = lastName;
-	            }
-	        }
+function GetCellValue(sender, args)
+{
+    if (args.get_columnUniqueName() === "FirstLastName")
+    {
+        args.set_cancel(true);
+        var container = args.get_container();
+        var firstName = $telerik.findElement(container, "LabelFirstName").innerHTML;
+        var lastName = $telerik.findElement(container, "LabelLastName").innerHTML;
+        args.set_value(new Person(firstName, lastName));
+    }
+}
+
+function SetCellValue(sender, args)
+{
+    if (args.get_columnUniqueName() === "FirstLastName")
+    {
+        args.set_cancel(true);
+        var container = args.get_container(),
+    value = args.get_value(),
+    firstName = value.firstName,
+    lastName = value.lastName;
+        $telerik.findElement(container, "LabelFirstName").innerHTML = firstName;
+        $telerik.findElement(container, "LabelLastName").innerHTML = lastName;
+    }
+}
+
+function GetEditorValue(sender, args)
+{
+    if (args.get_columnUniqueName() === "FirstLastName")
+    {
+        args.set_cancel(true);
+        var container = args.get_container(),
+    firstName = $telerik.findControl(container, "RadTextBoxFirstName").get_value(),
+    lastName = $telerik.findElement(container, "TextBoxLastName").value;
+        args.set_value(new Person(firstName, lastName));
+    }
+}
+
+function SetEditorValue(sender, args)
+{
+    if (args.get_columnUniqueName() === "FirstLastName")
+    {
+        args.set_cancel(true);
+        var container = args.get_container(),
+    value = args.get_value(),
+    firstName = value.firstName,
+    lastName = value.lastName;
+        $telerik.findControl(container, "RadTextBoxFirstName").set_value(firstName);
+        $telerik.findElement(container, "TextBoxLastName").value = lastName;
+    }
+}
 ````
 
 
 
 ## Validation
 
-Batch editing functionality supports validation by either using the **ColumnValidationSettings** ordeclaring a **GridTemplateColumn** and placing a validator in the template. Note that saving the changes or	opening other cells\rows for edit will be prevented when there is a validator that is not valid.
+Batch editing functionality supports validation by either using the **ColumnValidationSettings** or declaring a **GridTemplateColumn** and placing a validator in the template. Note that saving the changes or	opening other cells\rows for edit will be prevented when there is a validator that is not valid.
 
 ## See Also
 

@@ -21,24 +21,24 @@ There are various situations in which you would like to change the buttons in Gr
 If you would like to render image buttons in the place of the default Update/Cancel/Insert link buttons, you merely have to select ButtonType=”ImageButton” from the EditFormSettings -> EditForm section and assign proper UpdateImageUrl/CancelImageUrl/InsertImageUrl for them.For the Edit button or the button inside the GridButtonColumn the operation is pretty similar. You should change the ButtonType of the column to ImageButton and define EditImageUrl/ImageUrl which to point to the image which will be visualized.
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="false">
-	      <EditFormSettings>
-	        <EditColumn UniqueName="EditCommandColumn" ButtonType="ImageButton" CancelImageUrl="~/RadControls/Grid/Skins/Default/Cancel.gif"
-	          UpdateImageUrl="~/RadControls/Grid/Skins/Default/Update.gif" InsertImageUrl="~/RadControls/Grid/Skins/Default/Insert.gif">
-	        </EditColumn>
-	      </EditFormSettings>
-	      <Columns>
-	        <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName" />
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" ButtonType="ImageButton"
-	          EditImageUrl="~/RadControls/Grid/Skins/Default/Edit.gif">
-	        </telerik:GridEditCommandColumn>
-	        <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn"
-	          ButtonType="ImageButton" ImageUrl="~/RadControls/Grid/Skins/Default/Delete.gif">
-	        </telerik:GridButtonColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="false">
+    <EditFormSettings>
+      <EditColumn UniqueName="EditCommandColumn" ButtonType="ImageButton" CancelImageUrl="~/RadControls/Grid/Skins/Default/Cancel.gif"
+        UpdateImageUrl="~/RadControls/Grid/Skins/Default/Update.gif" InsertImageUrl="~/RadControls/Grid/Skins/Default/Insert.gif">
+      </EditColumn>
+    </EditFormSettings>
+    <Columns>
+      <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="Contact name" DataField="ContactName" />
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" ButtonType="ImageButton"
+        EditImageUrl="~/RadControls/Grid/Skins/Default/Edit.gif">
+      </telerik:GridEditCommandColumn>
+      <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn"
+        ButtonType="ImageButton" ImageUrl="~/RadControls/Grid/Skins/Default/Delete.gif">
+      </telerik:GridButtonColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

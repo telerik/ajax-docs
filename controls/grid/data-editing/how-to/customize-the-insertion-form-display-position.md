@@ -27,45 +27,45 @@ The code snippets below represent a sample implementation:
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
-	    Skin="Silk" runat="server" GridLines="None" Width="95%" AllowPaging="true">
-	    <MasterTableView Width="100%" CommandItemDisplay="TopAndBottom" />
-	    <PagerStyle Mode="NextPrevAndNumeric" />
-	  </telerik:RadGrid>
-	  <br />
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	      SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" AllowSorting="True"
+  Skin="Silk" runat="server" GridLines="None" Width="95%" AllowPaging="true">
+  <MasterTableView Width="100%" CommandItemDisplay="TopAndBottom" />
+  <PagerStyle Mode="NextPrevAndNumeric" />
+</telerik:RadGrid>
+<br />
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If (e.CommandName = RadGrid.InitInsertCommandName) Then
-	            e.Canceled = True
-	            Session("curPageIndex") = e.Item.OwnerTableView.CurrentPageIndex
-	            e.Item.OwnerTableView.InsertItem()
-	
-	            e.Item.OwnerTableView.CurrentPageIndex = Integer.Parse(Session("curPageIndex"))
-	            e.Item.OwnerTableView.Rebind()
-	        ElseIf (e.CommandName = RadGrid.CancelCommandName AndAlso e.Item.OwnerTableView.IsItemInserted) Then
-	            e.Item.OwnerTableView.CurrentPageIndex = Integer.Parse(Session("curPageIndex"))
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If (e.CommandName = RadGrid.InitInsertCommandName) Then
+        e.Canceled = True
+        Session("curPageIndex") = e.Item.OwnerTableView.CurrentPageIndex
+        e.Item.OwnerTableView.InsertItem()
+
+        e.Item.OwnerTableView.CurrentPageIndex = Integer.Parse(Session("curPageIndex"))
+        e.Item.OwnerTableView.Rebind()
+    ElseIf (e.CommandName = RadGrid.CancelCommandName AndAlso e.Item.OwnerTableView.IsItemInserted) Then
+        e.Item.OwnerTableView.CurrentPageIndex = Integer.Parse(Session("curPageIndex"))
+    End If
+End Sub
 ````
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.InitInsertCommandName)
-	        {
-	            e.Canceled = true;
-	            Session["curPageIndex"] = e.Item.OwnerTableView.CurrentPageIndex;
-	            e.Item.OwnerTableView.InsertItem();
-	
-	            e.Item.OwnerTableView.CurrentPageIndex = int.Parse(Session["curPageIndex"]);
-	            e.Item.OwnerTableView.Rebind();
-	        }
-	        else if (e.CommandName == RadGrid.CancelCommandName && e.Item.OwnerTableView.IsItemInserted)
-	        {
-	            e.Item.OwnerTableView.CurrentPageIndex = int.Parse(Session["curPageIndex"]);
-	        }
-	    }
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.InitInsertCommandName)
+    {
+        e.Canceled = true;
+        Session["curPageIndex"] = e.Item.OwnerTableView.CurrentPageIndex;
+        e.Item.OwnerTableView.InsertItem();
+
+        e.Item.OwnerTableView.CurrentPageIndex = int.Parse(Session["curPageIndex"]);
+        e.Item.OwnerTableView.Rebind();
+    }
+    else if (e.CommandName == RadGrid.CancelCommandName && e.Item.OwnerTableView.IsItemInserted)
+    {
+        e.Item.OwnerTableView.CurrentPageIndex = int.Parse(Session["curPageIndex"]);
+    }
+}
 ````
 

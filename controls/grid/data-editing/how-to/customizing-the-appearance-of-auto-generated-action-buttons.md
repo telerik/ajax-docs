@@ -27,76 +27,73 @@ Below is a simple example which changes the text and some of the styles for thos
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
-	    Skin="Office2007" GridLines="None" Width="95%">
-	    <MasterTableView Width="100%" DataKeyNames="CustomerID" CommandItemDisplay="Top"
-	      AutoGenerateColumns="false">
-	      <Columns>
-	        <telerik:GridBoundColumn UniqueName="CompanyName" DataField="CompanyName" HeaderText="Company name" />
-	        <telerik:GridBoundColumn UniqueName="ContactName" DataField="ContactName" HeaderText="Contact name" />
-	        <telerik:GridBoundColumn UniqueName="ContactTitle" DataField="ContactTitle" HeaderText="Contact title" />
-	        <telerik:GridEditCommandColumn />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	     SelectCommand="SELECT * FROM [Customers]">
-	  </asp:SqlDataSource> 
+<telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True"
+  Skin="Office2007" GridLines="None" Width="95%">
+  <MasterTableView Width="100%" DataKeyNames="CustomerID" CommandItemDisplay="Top"
+    AutoGenerateColumns="false">
+    <Columns>
+      <telerik:GridBoundColumn UniqueName="CompanyName" DataField="CompanyName" HeaderText="Company name" />
+      <telerik:GridBoundColumn UniqueName="ContactName" DataField="ContactName" HeaderText="Contact name" />
+      <telerik:GridBoundColumn UniqueName="ContactTitle" DataField="ContactTitle" HeaderText="Contact title" />
+      <telerik:GridEditCommandColumn />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+   SelectCommand="SELECT * FROM [Customers]">
+</asp:SqlDataSource> 
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
-	            If Not e.Item.OwnerTableView.IsItemInserted Then
-	                Dim updateButton As LinkButton = CType(e.Item.FindControl("UpdateButton"), LinkButton)
-	                updateButton.Text = "Update record"
-	                updateButton.Style("font-size") = "12px"
-	                updateButton.Style("font-weight") = "bold"
-	                updateButton.Style("color") = "blue"
-	            Else
-	                Dim insertButton As LinkButton = CType(e.Item.FindControl("PerformInsertButton"), LinkButton)
-	                insertButton.Text = "Insert record"
-	                insertButton.Style("font-size") = "12px"
-	                insertButton.Style("font-weight") = "bold"
-	                insertButton.Style("color") = "blue"
-	            End If
-	            Dim cancelButton As LinkButton = CType(e.Item.FindControl("CancelButton"), LinkButton)
-	            cancelButton.Text = "Cancel editing"
-	            cancelButton.Style("font-size") = "12px"
-	            cancelButton.Style("font-weight") = "bold"
-	            cancelButton.Style("color") = "blue"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
+        If Not e.Item.OwnerTableView.IsItemInserted Then
+            Dim updateButton As LinkButton = CType(e.Item.FindControl("UpdateButton"), LinkButton)
+            updateButton.Text = "Update record"
+            updateButton.Style("font-size") = "12px"
+            updateButton.Style("font-weight") = "bold"
+            updateButton.Style("color") = "blue"
+        Else
+            Dim insertButton As LinkButton = CType(e.Item.FindControl("PerformInsertButton"), LinkButton)
+            insertButton.Text = "Insert record"
+            insertButton.Style("font-size") = "12px"
+            insertButton.Style("font-weight") = "bold"
+            insertButton.Style("color") = "blue"
+        End If
+        Dim cancelButton As LinkButton = CType(e.Item.FindControl("CancelButton"), LinkButton)
+        cancelButton.Text = "Cancel editing"
+        cancelButton.Style("font-size") = "12px"
+        cancelButton.Style("font-weight") = "bold"
+        cancelButton.Style("color") = "blue"
+    End If
+End Sub
 ````
-````C#
-	
-	
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            if (!e.Item.OwnerTableView.IsItemInserted)
-	            {
-	                LinkButton updateButton = (LinkButton)e.Item.FindControl("UpdateButton");
-	                updateButton.Text = "Update record";
-	                updateButton.Style["font-size"] = "12px";
-	                updateButton.Style["font-weight"] = "bold";
-	                updateButton.Style["color"] = "blue";
-	            }
-	            else
-	            {
-	                LinkButton insertButton = (LinkButton)e.Item.FindControl("PerformInsertButton");
-	                insertButton.Text = "Insert record";
-	                insertButton.Style["font-size"] = "12px";
-	                insertButton.Style["font-weight"] = "bold";
-	                insertButton.Style["color"] = "blue";
-	            }
-	            LinkButton cancelButton = (LinkButton)e.Item.FindControl("CancelButton");
-	            cancelButton.Text = "Cancel editing";
-	            cancelButton.Style["font-size"] = "12px";
-	            cancelButton.Style["font-weight"] = "bold";
-	            cancelButton.Style["color"] = "blue";
-	        }
-	    }
-	
+````C#	
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        if (!e.Item.OwnerTableView.IsItemInserted)
+        {
+            LinkButton updateButton = (LinkButton)e.Item.FindControl("UpdateButton");
+            updateButton.Text = "Update record";
+            updateButton.Style["font-size"] = "12px";
+            updateButton.Style["font-weight"] = "bold";
+            updateButton.Style["color"] = "blue";
+        }
+        else
+        {
+            LinkButton insertButton = (LinkButton)e.Item.FindControl("PerformInsertButton");
+            insertButton.Text = "Insert record";
+            insertButton.Style["font-size"] = "12px";
+            insertButton.Style["font-weight"] = "bold";
+            insertButton.Style["color"] = "blue";
+        }
+        LinkButton cancelButton = (LinkButton)e.Item.FindControl("CancelButton");
+        cancelButton.Text = "Cancel editing";
+        cancelButton.Style["font-size"] = "12px";
+        cancelButton.Style["font-weight"] = "bold";
+        cancelButton.Style["color"] = "blue";
+    }
+}	
 ````
 

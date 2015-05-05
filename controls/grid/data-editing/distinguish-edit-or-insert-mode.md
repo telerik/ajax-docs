@@ -23,15 +23,15 @@ In various situations you may want to detect whether the user is currently editi
 And the code extractions are:
 
 ````ASP.NET
-	        <asp:Button ID="btnUpdate" Text='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "Insert" : "Update" %>'
-	        runat="server" CommandName='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "PerformInsert" : "Update" %>'>
+<asp:Button ID="btnUpdate" Text='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "Insert" : "Update" %>'
+runat="server" CommandName='<%# ((bool)DataBinder.Eval(Container, "OwnerTableView.IsItemInserted")) ? "PerformInsert" : "Update" %>'>
 ````
 
 
 
 ````ASP.NET
-	       <asp:Button ID="Button1" Text='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "Insert", "Update") %>'
-	       runat="server" CommandName='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "PerformInsert", "Update") %>'>
+<asp:Button ID="Button1" Text='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "Insert", "Update") %>'
+runat="server" CommandName='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.IsItemInserted"), "PerformInsert", "Update") %>'>
 ````
 
 
@@ -41,55 +41,55 @@ You can check the type of the editable item in the **ItemCreated/ItemDataBound**
 
 
 ````C#
-	private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	{
-	    if(e.Item is GridEditableItem && e.Item.IsInEditMode)
-	    {
-	        if (e.Item is GridEditFormInsertItem || e.Item is GridDataInsertItem)
-	        {
-	            // insert item
-	        }
-	        else
-	        {
-	            // edit item
-	        }
-	    }
-	}
-	
-	private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	{
-	    if (e.Item is GridEditFormInsertItem || e.Item is GridDataInsertItem)
-	    {
-	        // insert item
-	    }
-	    else
-	    {
-	        // edit item
-	    }
-	}          
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if(e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        if (e.Item is GridEditFormInsertItem || e.Item is GridDataInsertItem)
+        {
+            // insert item
+        }
+        else
+        {
+            // edit item
+        }
+    }
+}
+
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditFormInsertItem || e.Item is GridDataInsertItem)
+    {
+        // insert item
+    }
+    else
+    {
+        // edit item
+    }
+}          
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
-	
-	            If TypeOf e.Item Is GridEditFormInsertItem OrElse TypeOf e.Item Is GridDataInsertItem Then
-	                ' insert item
-	            Else
-	                ' edit item
-	            End If
-	        End If
-	    End Sub 'RadGrid1_ItemCreated
-	
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
-	
-	            If TypeOf e.Item Is GridEditFormInsertItem OrElse TypeOf e.Item Is GridDataInsertItem Then
-	                ' insert item
-	            Else
-	                ' edit item
-	            End If
-	        End If
-	    End Sub 'RadGrid1_ItemDataBound
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
+
+        If TypeOf e.Item Is GridEditFormInsertItem OrElse TypeOf e.Item Is GridDataInsertItem Then
+            ' insert item
+        Else
+            ' edit item
+        End If
+    End If
+End Sub 'RadGrid1_ItemCreated
+
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If TypeOf e.Item Is GridEditableItem And e.Item.IsInEditMode Then
+
+        If TypeOf e.Item Is GridEditFormInsertItem OrElse TypeOf e.Item Is GridDataInsertItem Then
+            ' insert item
+        Else
+            ' edit item
+        End If
+    End If
+End Sub 'RadGrid1_ItemDataBound
 ````
 
 

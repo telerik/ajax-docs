@@ -29,51 +29,51 @@ The automatic data source operations only work when binding the grid to a [decla
 You also need to set the **DataKeyNames** property of the table views in the grid so that the insert, update, and delete operations perform as expected.
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
-	    DataSourceID="SqlDataSource1" AllowAutomaticInserts="True" AllowAutomaticUpdates="True"
-	    AllowAutomaticDeletes="True">
-	    <MasterTableView EditMode="InPlace" CommandItemDisplay="Bottom" DataSourceID="SqlDataSource1"
-	      DataKeyNames="OrderID" AutoGenerateColumns="False">
-	      <EditFormSettings>
-	        <EditColumn UniqueName="EditCommandColumn1" />
-	        <PopUpSettings ScrollBars="None" />
-	      </EditFormSettings>
-	      <Columns>
-	        <telerik:GridEditCommandColumn />
-	        <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn" />
-	        <telerik:GridBoundColumn DataField="OrderID" HeaderText="Order ID" ReadOnly="True"
-	          UniqueName="OrderID" Display="False" />
-	        <telerik:GridBoundColumn DataField="CustomerID" HeaderText="Customer ID" UniqueName="CustomerID" />
-	        <telerik:GridBoundColumn DataField="EmployeeID" HeaderText="Employee ID" UniqueName="EmployeeID">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="Order Date" UniqueName="OrderDate"
-	          PickerType="DatePicker" />
-	        <telerik:GridBoundColumn DataField="ShipName" HeaderText="Shipping Name" UniqueName="ShipName" />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	     SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]" 
-	     DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID" 
-	     InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)" 
-	     UpdateCommand="UPDATE [Orders] SET [CustomerID] = @CustomerID, [EmployeeID] = @EmployeeID, [OrderDate] = @OrderDate, [ShipName] = @ShipName WHERE [OrderID] = @OrderID">
-	     <DeleteParameters>
-	         <asp:Parameter Name="OrderID" Type="Int32" />
-	     </DeleteParameters>
-	     <InsertParameters>
-	         <asp:Parameter Name="CustomerID" Type="String" />
-	         <asp:Parameter Name="EmployeeID" Type="Int32" />
-	         <asp:Parameter Name="OrderDate" Type="DateTime" />
-	         <asp:Parameter Name="ShipName" Type="String" />
-	     </InsertParameters>
-	     <UpdateParameters>
-	         <asp:Parameter Name="CustomerID" Type="String" />
-	         <asp:Parameter Name="EmployeeID" Type="Int32" />
-	         <asp:Parameter Name="OrderDate" Type="DateTime" />
-	         <asp:Parameter Name="ShipName" Type="String" />
-	         <asp:Parameter Name="OrderID" Type="Int32" />
-	      </UpdateParameters>
-	   </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
+  DataSourceID="SqlDataSource1" AllowAutomaticInserts="True" AllowAutomaticUpdates="True"
+  AllowAutomaticDeletes="True">
+  <MasterTableView EditMode="InPlace" CommandItemDisplay="Bottom" DataSourceID="SqlDataSource1"
+    DataKeyNames="OrderID" AutoGenerateColumns="False">
+    <EditFormSettings>
+      <EditColumn UniqueName="EditCommandColumn1" />
+      <PopUpSettings ScrollBars="None" />
+    </EditFormSettings>
+    <Columns>
+      <telerik:GridEditCommandColumn />
+      <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn" />
+      <telerik:GridBoundColumn DataField="OrderID" HeaderText="Order ID" ReadOnly="True"
+        UniqueName="OrderID" Display="False" />
+      <telerik:GridBoundColumn DataField="CustomerID" HeaderText="Customer ID" UniqueName="CustomerID" />
+      <telerik:GridBoundColumn DataField="EmployeeID" HeaderText="Employee ID" UniqueName="EmployeeID">
+      </telerik:GridBoundColumn>
+      <telerik:GridDateTimeColumn DataField="OrderDate" HeaderText="Order Date" UniqueName="OrderDate"
+        PickerType="DatePicker" />
+      <telerik:GridBoundColumn DataField="ShipName" HeaderText="Shipping Name" UniqueName="ShipName" />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+   SelectCommand="SELECT [OrderID], [CustomerID], [EmployeeID], [OrderDate], [ShipName] FROM [Orders]" 
+   DeleteCommand="DELETE FROM [Orders] WHERE [OrderID] = @OrderID" 
+   InsertCommand="INSERT INTO [Orders] ([CustomerID], [EmployeeID], [OrderDate], [ShipName]) VALUES (@CustomerID, @EmployeeID, @OrderDate, @ShipName)" 
+   UpdateCommand="UPDATE [Orders] SET [CustomerID] = @CustomerID, [EmployeeID] = @EmployeeID, [OrderDate] = @OrderDate, [ShipName] = @ShipName WHERE [OrderID] = @OrderID">
+   <DeleteParameters>
+       <asp:Parameter Name="OrderID" Type="Int32" />
+   </DeleteParameters>
+   <InsertParameters>
+       <asp:Parameter Name="CustomerID" Type="String" />
+       <asp:Parameter Name="EmployeeID" Type="Int32" />
+       <asp:Parameter Name="OrderDate" Type="DateTime" />
+       <asp:Parameter Name="ShipName" Type="String" />
+   </InsertParameters>
+   <UpdateParameters>
+       <asp:Parameter Name="CustomerID" Type="String" />
+       <asp:Parameter Name="EmployeeID" Type="Int32" />
+       <asp:Parameter Name="OrderDate" Type="DateTime" />
+       <asp:Parameter Name="ShipName" Type="String" />
+       <asp:Parameter Name="OrderID" Type="Int32" />
+    </UpdateParameters>
+ </asp:SqlDataSource>
 ````
 
 
@@ -165,52 +165,46 @@ Automatic operations through the **DataSource** control are not supported when y
 1. Make the user control class (which represents your user control) implement the *IBindableControl *interface as follows:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
-	    runat="server">
-	    <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
-	      AllowAutomaticInserts="true" AutoGenerateColumns="false" CommandItemDisplay="Top">
-	      <EditFormSettings EditFormType="WebUserControl" UserControlName="WebUserControl.ascx" />
-	      <Columns>
-	        <telerik:GridButtonColumn Text="Delete" CommandName="Delete" HeaderStyle-Width="30px" />
-	        <telerik:GridEditCommandColumn HeaderStyle-Width="30px" />
-	        <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" />
-	        <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
+  runat="server">
+  <MasterTableView DataKeyNames="ProductID" AllowAutomaticDeletes="true" AllowAutomaticUpdates="true"
+    AllowAutomaticInserts="true" AutoGenerateColumns="false" CommandItemDisplay="Top">
+    <EditFormSettings EditFormType="WebUserControl" UserControlName="WebUserControl.ascx" />
+    <Columns>
+      <telerik:GridButtonColumn Text="Delete" CommandName="Delete" HeaderStyle-Width="30px" />
+      <telerik:GridEditCommandColumn HeaderStyle-Width="30px" />
+      <telerik:GridBoundColumn DataField="ProductID" HeaderText="ProductID" />
+      <telerik:GridBoundColumn DataField="ProductName" HeaderText="ProductName" />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
 
 ````ASP.NET
-	  <%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
-	    <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
-	    <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
-	    <asp:Button ID="Button2" Text="Cancel" CommandName="Cancel" runat="server" />
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
+  <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
+  <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
+  <asp:Button ID="Button2" Text="Cancel" CommandName="Cancel" runat="server" />
 ````
-
-
-
 ````C#
-	    public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
-	    {
-	        public void ExtractValues(System.Collections.Specialized.IOrderedDictionary dictionary)
-	        {
-	            dictionary["ProductName"] = TextBox1.Text;
-	        }
-	    }
+public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
+{
+    public void ExtractValues(System.Collections.Specialized.IOrderedDictionary dictionary)
+    {
+        dictionary["ProductName"] = TextBox1.Text;
+    }
+}
 ````
-
-
-
 ````VB
-	    Partial Public Class WebUserControl
-	        Inherits System.Web.UI.UserControl
-	        Implements IBindableControl
-	        Public Sub ExtractValues(ByVal dictionary As System.Collections.Specialized.IOrderedDictionary)
-	            dictionary("ProductName") = TextBox1.Text
-	        End Sub
-	    End Class
+Partial Public Class WebUserControl
+    Inherits System.Web.UI.UserControl
+    Implements IBindableControl
+    Public Sub ExtractValues(ByVal dictionary As System.Collections.Specialized.IOrderedDictionary)
+        dictionary("ProductName") = TextBox1.Text
+    End Sub
+End Class
 ````
 
 

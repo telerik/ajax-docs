@@ -20,9 +20,9 @@ RadGrid exposes the ValidationSettings class to give you control over the valida
 
 * **CommandsToValidate** - An array of string used to list the names of the commands which will trigger validation in RadGrid.
 
-* **EnableModelValidation** - A boolean value idicating whether model validation should be enabled.
+* **EnableModelValidation** - A boolean value indicating whether model validation should be enabled.
 
-* **EnableValidation** - A boolean value idicating whether the grid values should be validated upon submit.
+* **EnableValidation** - A boolean value indicating whether the grid values should be validated upon submit.
 
 * **ValidationGroup** - A property used to set a ValidationGroup for the grid control, so that it is validated only along a certain group of controls having the same group name.
 
@@ -45,12 +45,12 @@ The **ColumnValidationSettings** property is used to control validation of a giv
 The properties can be set either declaratively or programmatically:
 
 ````ASP.NET
-	    <telerik:GridBoundColumn DataField="ShipName" HeaderText="ShipName" UniqueName="ShipName">
-	       <ColumnValidationSettings EnableRequiredFieldValidation="true" EnableModelErrorMessageValidation="true">
-	           <RequiredFieldValidator ForeColor="Red" ErrorMessage="This field is required"></RequiredFieldValidator>
-	           <ModelErrorMessage BackColor="Red" />
-	       </ColumnValidationSettings>
-	   </telerik:GridBoundColumn>
+<telerik:GridBoundColumn DataField="ShipName" HeaderText="ShipName" UniqueName="ShipName">
+    <ColumnValidationSettings EnableRequiredFieldValidation="true" EnableModelErrorMessageValidation="true">
+        <RequiredFieldValidator ForeColor="Red" ErrorMessage="This field is required"></RequiredFieldValidator>
+        <ModelErrorMessage BackColor="Red" />
+    </ColumnValidationSettings>
+</telerik:GridBoundColumn>
 ````
 
 
@@ -76,46 +76,46 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
+  <MasterTableView>
+    <Columns>
+      <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            GridEditableItem item = e.Item as GridEditableItem;
-	            GridTextBoxColumnEditor editor = (GridTextBoxColumnEditor)item.EditManager.GetColumnEditor("ContactName");
-	            TableCell cell = (TableCell)editor.TextBoxControl.Parent;
-	
-	            RequiredFieldValidator validator = new RequiredFieldValidator();
-	
-	            validator.ControlToValidate = editor.TextBoxControl.ID;
-	            validator.ErrorMessage = "*";
-	            cell.Controls.Add(validator);
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        GridEditableItem item = e.Item as GridEditableItem;
+        GridTextBoxColumnEditor editor = (GridTextBoxColumnEditor)item.EditManager.GetColumnEditor("ContactName");
+        TableCell cell = (TableCell)editor.TextBoxControl.Parent;
+
+        RequiredFieldValidator validator = new RequiredFieldValidator();
+
+        validator.ControlToValidate = editor.TextBoxControl.ID;
+        validator.ErrorMessage = "*";
+        cell.Controls.Add(validator);
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
-	            Dim editor As GridTextBoxColumnEditor = CType(item.EditManager.GetColumnEditor("ContactName"), GridTextBoxColumnEditor)
-	            Dim cell As TableCell = CType(editor.TextBoxControl.Parent, TableCell)
-	            Dim validator As RequiredFieldValidator = New RequiredFieldValidator
-	            validator.ControlToValidate = editor.TextBoxControl.ID
-	            validator.ErrorMessage = "*"
-	            cell.Controls.Add(validator)
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
+        Dim editor As GridTextBoxColumnEditor = CType(item.EditManager.GetColumnEditor("ContactName"), GridTextBoxColumnEditor)
+        Dim cell As TableCell = CType(editor.TextBoxControl.Parent, TableCell)
+        Dim validator As RequiredFieldValidator = New RequiredFieldValidator
+        validator.ControlToValidate = editor.TextBoxControl.ID
+        validator.ErrorMessage = "*"
+        cell.Controls.Add(validator)
+    End If
+End Sub
 ````
 
 
@@ -126,47 +126,47 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
-	    <MasterTableView>
-	      <Columns>
-	        <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False">
+  <MasterTableView>
+    <Columns>
+      <telerik:GridBoundColumn UniqueName="ContactName" HeaderText="ContactName" DataField="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            GridEditableItem item = e.Item as GridEditableItem;
-	            GridTextBoxColumnEditor editor = (GridTextBoxColumnEditor)item.EditManager.GetColumnEditor("ContactName");
-	            TableCell cell = (TableCell)editor.TextBoxControl.Parent;
-	
-	            RequiredFieldValidator validator = new RequiredFieldValidator();
-	            editor.TextBoxControl.ID = "ID_for_validation";
-	            validator.ControlToValidate = editor.TextBoxControl.ID;
-	            validator.ErrorMessage = "*";
-	            cell.Controls.Add(validator);
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        GridEditableItem item = e.Item as GridEditableItem;
+        GridTextBoxColumnEditor editor = (GridTextBoxColumnEditor)item.EditManager.GetColumnEditor("ContactName");
+        TableCell cell = (TableCell)editor.TextBoxControl.Parent;
+
+        RequiredFieldValidator validator = new RequiredFieldValidator();
+        editor.TextBoxControl.ID = "ID_for_validation";
+        validator.ControlToValidate = editor.TextBoxControl.ID;
+        validator.ErrorMessage = "*";
+        cell.Controls.Add(validator);
+    }
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
-	            Dim editor As GridTextBoxColumnEditor = CType(item.EditManager.GetColumnEditor("ContactName"), GridTextBoxColumnEditor)
-	            Dim cell As TableCell = CType(editor.TextBoxControl.Parent, TableCell)
-	            Dim validator As RequiredFieldValidator = New RequiredFieldValidator
-	            editor.TextBoxControl.ID = "ID_for_validation"
-	            validator.ControlToValidate = editor.TextBoxControl.ID
-	            validator.ErrorMessage = "*"
-	            cell.Controls.Add(validator)
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        Dim item As GridEditableItem = CType(e.Item, GridEditableItem)
+        Dim editor As GridTextBoxColumnEditor = CType(item.EditManager.GetColumnEditor("ContactName"), GridTextBoxColumnEditor)
+        Dim cell As TableCell = CType(editor.TextBoxControl.Parent, TableCell)
+        Dim validator As RequiredFieldValidator = New RequiredFieldValidator
+        editor.TextBoxControl.ID = "ID_for_validation"
+        validator.ControlToValidate = editor.TextBoxControl.ID
+        validator.ErrorMessage = "*"
+        cell.Controls.Add(validator)
+    End If
+End Sub
 ````
 
 
@@ -175,24 +175,24 @@ Below are the code snippets of an example in which we add **RequiredFieldValidat
 The approach is the same as with the standard MS DataGrid control. You can place the respective validator in the **EditItemTemplate** of your **GridTemplateColumn** and relate its **ControlToValidate** property with the ID of the control you would like to validate. In the forthcoming sample the **RequiredFieldValidator** control will validate the **TextBox** control inside the **EditItemTemplate**:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView AutoGenerateColumns="False">
-	      <Columns>
-	        <telerik:GridTemplateColumn HeaderText="ContactName" UniqueName="TemplateColumn">
-	          <EditItemTemplate>
-	            <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("ContactName") %>'></asp:TextBox>
-	            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*"
-	              ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
-	          </EditItemTemplate>
-	          <ItemTemplate>
-	            <asp:Label ID="Label1" runat="server" Text='<%# Eval("ContactName") %>'></asp:Label>
-	          </ItemTemplate>
-	        </telerik:GridTemplateColumn>
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
-	        </telerik:GridEditCommandColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="False">
+    <Columns>
+      <telerik:GridTemplateColumn HeaderText="ContactName" UniqueName="TemplateColumn">
+        <EditItemTemplate>
+          <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("ContactName") %>'></asp:TextBox>
+          <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*"
+            ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+        </EditItemTemplate>
+        <ItemTemplate>
+          <asp:Label ID="Label1" runat="server" Text='<%# Eval("ContactName") %>'></asp:Label>
+        </ItemTemplate>
+      </telerik:GridTemplateColumn>
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn">
+      </telerik:GridEditCommandColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -202,47 +202,45 @@ The approach is the same as with the standard MS DataGrid control. You can place
 
 
 ````ASP.NET
-	  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("DataItem.Country") %>'>
-	  </asp:TextBox>
-	  <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="Invalid input"
-	    ControlToValidate="TextBox1" OnServerValidate="CustomValidator1_ServerValidate">
-	  </asp:CustomValidator>
+<asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("DataItem.Country") %>'>
+</asp:TextBox>
+<asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="Invalid input"
+  ControlToValidate="TextBox1" OnServerValidate="CustomValidator1_ServerValidate">
+</asp:CustomValidator>
 ````
-````C#
-	
-	    protected void CustomValidator1_ServerValidate(object source, System.Web.UI.WebControls.ServerValidateEventArgs args)
-	    {
-	        if (args.Value.StartsWith("X"))
-	        {
-	            args.IsValid = false;
-	        }
-	    }
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.UpdateCommandName)
-	        {
-	            if (!Page.IsValid)
-	            {
-	                e.Canceled = true;
-	            }
-	        }
-	    }
-	
+````C#	
+protected void CustomValidator1_ServerValidate(object source, System.Web.UI.WebControls.ServerValidateEventArgs args)
+{
+    if (args.Value.StartsWith("X"))
+    {
+        args.IsValid = false;
+    }
+}
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.UpdateCommandName)
+    {
+        if (!Page.IsValid)
+        {
+            e.Canceled = true;
+        }
+    }
+}
 ````
 ````VB
-	    Protected Sub CustomValidator1_ServerValidate(ByVal [source] As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
-	        If args.Value.StartsWith("X") Then
-	            args.IsValid = False
-	        End If
-	    End Sub 'CustomValidator1_ServerValidate
-	
-	    Protected Sub RadGrid1_ItemCommand(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.UpdateCommandName Then
-	            If Not Page.IsValid Then
-	                e.Canceled = True
-	            End If
-	        End If
-	    End Sub 'RadGrid1_ItemCommand
+Protected Sub CustomValidator1_ServerValidate(ByVal [source] As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
+    If args.Value.StartsWith("X") Then
+        args.IsValid = False
+    End If
+End Sub 'CustomValidator1_ServerValidate
+
+Protected Sub RadGrid1_ItemCommand(ByVal [source] As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.UpdateCommandName Then
+        If Not Page.IsValid Then
+            e.Canceled = True
+        End If
+    End If
+End Sub 'RadGrid1_ItemCommand
 ````
 
 

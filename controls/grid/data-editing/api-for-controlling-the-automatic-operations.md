@@ -17,30 +17,30 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 
 
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
-	            e.Canceled = True
-	            'Prepare an IDictionary with the predefined values
-	            Dim newValues As System.Collections.Specialized.ListDictionary = New System.Collections.Specialized.ListDictionary()
-	            newValues("TitleOfCourtesy") = "Mrs."
-	            'Insert the item and rebind
-	            e.Item.OwnerTableView.InsertItem(newValues)
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
+        e.Canceled = True
+        'Prepare an IDictionary with the predefined values
+        Dim newValues As System.Collections.Specialized.ListDictionary = New System.Collections.Specialized.ListDictionary()
+        newValues("TitleOfCourtesy") = "Mrs."
+        'Insert the item and rebind
+        e.Item.OwnerTableView.InsertItem(newValues)
+    End If
+End Sub
 ````
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
-	    {
-	        if (e.CommandName == RadGrid.InitInsertCommandName) //"Add new" button clicked
-	        {
-	            e.Canceled = true;
-	            //Prepare an IDictionary with the predefined values
-	            System.Collections.Specialized.ListDictionary newValues = new System.Collections.Specialized.ListDictionary();
-	            newValues["TitleOfCourtesy"] = "Mrs.";
-	            //Insert the item and rebind
-	            e.Item.OwnerTableView.InsertItem(newValues);
-	        }
-	    }
+protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.InitInsertCommandName) //"Add new" button clicked
+    {
+        e.Canceled = true;
+        //Prepare an IDictionary with the predefined values
+        System.Collections.Specialized.ListDictionary newValues = new System.Collections.Specialized.ListDictionary();
+        newValues["TitleOfCourtesy"] = "Mrs.";
+        //Insert the item and rebind
+        e.Item.OwnerTableView.InsertItem(newValues);
+    }
+}
 ````
 
 
@@ -70,56 +70,55 @@ Generally you can handle any command, using the **ItemCommandEvent**. The exampl
 
 
 
-````ASP.NET
-	
-	  <CommandItemTemplate>
-	      <asp:LinkButton ID="LinkButton1" OnClientClick="javascript:return confirm('Delete all selected customers?')"
-	           runat= "server" CommandName="DeleteSelected">
-	      <img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs
-	      </asp:LinkButton>
-	  </CommandItemTemplate>
-	          
+````ASP.NET	
+<CommandItemTemplate>
+    <asp:LinkButton ID="LinkButton1" OnClientClick="javascript:return confirm('Delete all selected customers?')"
+         runat= "server" CommandName="DeleteSelected">
+    <img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs
+    </asp:LinkButton>
+</CommandItemTemplate>   
 ````
 ````C#
-	    protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	    {
-	        //....
-	        if (e.CommandName == "DeleteSelected")
-	        {
-	            if (RadGrid1.SelectedIndexes.Count == 0)
-	            {
-	                return;
-	            }
-	
-	            foreach (GridDataItem item in RadGrid1.SelectedItems)
-	            {
-	                Hashtable itemValues = new Hashtable();
-	                e.Item.OwnerTableView.ExtractValuesFromItem(itemValues, item);
-	                DeleteItem(itemValues); //This function is supposed to delete the selected data item
-	            }
-	
-	            e.Item.OwnerTableView.Rebind();
-	            return;
-	        }
-	        //....
-	    }
-	
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    //....
+    if (e.CommandName == "DeleteSelected")
+    {
+        if (RadGrid1.SelectedIndexes.Count == 0)
+        {
+            return;
+        }
+
+        foreach (GridDataItem item in RadGrid1.SelectedItems)
+        {
+            Hashtable itemValues = new Hashtable();
+            e.Item.OwnerTableView.ExtractValuesFromItem(itemValues, item);
+            DeleteItem(itemValues); //This function is supposed to delete the selected data item
+        }
+
+        e.Item.OwnerTableView.Rebind();
+        return;
+    }
+    //....
+}
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = "DeleteSelected" Then
-	            If RadGrid1.SelectedIndexes.Count = 0 Then
-	                Return
-	            End If
-	
-	            For Each item As GridDataItem In RadGrid1.SelectedItems
-	                Dim itemValues As Hashtable = New Hashtable
-	                e.Item.OwnerTableView.PerformDelete(item, True)
-	                DeleteItem(itemValues) 'This function is supposed to delete the selected data item
-	            Next
-	            e.Item.OwnerTableView.Rebind()
-	            Return
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = "DeleteSelected" Then
+        If RadGrid1.SelectedIndexes.Count = 0 Then
+            Return
+        End If
+
+        For Each item As GridDataItem In RadGrid1.SelectedItems
+            Dim itemValues As Hashtable = New Hashtable
+            e.Item.OwnerTableView.PerformDelete(item, True)
+            DeleteItem(itemValues) 'This function is supposed to delete the selected data item
+        Next
+        e.Item.OwnerTableView.Rebind()
+        Return
+    End If
+End Sub
 ````
+
+
 

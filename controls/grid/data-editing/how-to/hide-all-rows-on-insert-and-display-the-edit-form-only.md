@@ -25,29 +25,29 @@ When the grid presentation area is restricted on your page you may not want to d
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="True" />
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView CommandItemDisplay="Top" AutoGenerateColumns="True" />
+</telerik:RadGrid>
 ````
 ````C#
-	    private void RadGrid1_PreRender(object sender, System.EventArgs e)
-	    {
-	        if (RadGrid1.MasterTableView.IsItemInserted)
-	        {
-	            foreach (GridItem item in RadGrid1.Items)
-	            {
-	                item.Visible = false;
-	            }
-	        }
-	    }
+private void RadGrid1_PreRender(object sender, System.EventArgs e)
+{
+    if (RadGrid1.MasterTableView.IsItemInserted)
+    {
+        foreach (GridItem item in RadGrid1.Items)
+        {
+            item.Visible = false;
+        }
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
-	        If RadGrid1.MasterTableView.IsItemInserted Then
-	            For Each item As GridItem In RadGrid1.Items
-	                item.Visible = False
-	            Next
-	        End If
-	    End Sub
+Private Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As System.EventArgs)
+    If RadGrid1.MasterTableView.IsItemInserted Then
+        For Each item As GridItem In RadGrid1.Items
+            item.Visible = False
+        Next
+    End If
+End Sub
 ````
 

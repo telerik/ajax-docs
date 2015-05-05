@@ -15,18 +15,18 @@ position: 0
 To display the grid column editors inline when the grid switches into edit mode, change the table view's **EditMode** property to "InPlace".
 
 ````ASP.NET
-	<telerik:RadGrid
-	   ID="RadGrid1" runat="server"
-	   DataSourceID="SqlDataSource1"
-	   GridLines="None">
-	   <MasterTableView
-	      EditMode="InPlace"
-	      DataSourceID="SqlDataSource1">
-	      <Columns>
-	         <telerik:GridEditCommandColumn />
-	      </Columns>
-	   </MasterTableView>
-	</telerik:RadGrid>
+<telerik:RadGrid
+   ID="RadGrid1" runat="server"
+   DataSourceID="SqlDataSource1"
+   GridLines="None">
+   <MasterTableView
+      EditMode="InPlace"
+      DataSourceID="SqlDataSource1">
+      <Columns>
+         <telerik:GridEditCommandColumn />
+      </Columns>
+   </MasterTableView>
+</telerik:RadGrid>
 ````
 
 
@@ -44,34 +44,34 @@ When **InPlace** editing is applied, the grid row is of type **GridDataItem** in
 
 
 ````C#
-	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            //the item is in edit mode    
-	            GridEditableItem editedItem = e.Item as GridEditableItem;
-	            //do something here 
-	        }
-	        else if (e.Item is GridDataItem)
-	        {
-	            //the item is in regular mode
-	            GridDataItem dataItem = e.Item as GridDataItem;
-	            //do something here 
-	        }
-	    }
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        //the item is in edit mode    
+        GridEditableItem editedItem = e.Item as GridEditableItem;
+        //do something here 
+    }
+    else if (e.Item is GridDataItem)
+    {
+        //the item is in regular mode
+        GridDataItem dataItem = e.Item as GridDataItem;
+        //do something here 
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            'the item is in edit mode   
-	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-	            'do something here
-	        ElseIf (TypeOf e.Item Is GridDataItem) Then
-	            'the item is in regular mode   
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	            'do something here         
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        'the item is in edit mode   
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+        'do something here
+    ElseIf (TypeOf e.Item Is GridDataItem) Then
+        'the item is in regular mode   
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+        'do something here         
+    End If
+End Sub
 ````
 
 
@@ -84,27 +84,25 @@ To determine whether edit or insert operation is in progress inside the ItemCrea
 
 
 ````C#
-	    protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if ((e.Item is GridDataInsertItem) && e.Item.IsInEditMode)
-	        {
-	            //init insert operation triggered   
-	        }
-	        else if ((e.Item is GridEditableItem) && e.Item.IsInEditMode)
-	        {
-	            //edit operation triggered   
-	        }
-	    }
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if ((e.Item is GridDataInsertItem) && e.Item.IsInEditMode)
+    {
+        //init insert operation triggered   
+    }
+    else if ((e.Item is GridEditableItem) && e.Item.IsInEditMode)
+    {
+        //edit operation triggered   
+    }
+}
 ````
 ````VB
-	
-	
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        If (TypeOf e.Item Is GridDataInsertItem AndAlso e.Item.IsInEditMode) Then
-	            'init insert operation triggered
-	        ElseIf (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
-	            'edit operation triggered
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    If (TypeOf e.Item Is GridDataInsertItem AndAlso e.Item.IsInEditMode) Then
+        'init insert operation triggered
+    ElseIf (TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode) Then
+        'edit operation triggered
+    End If
+End Sub
 ````
 

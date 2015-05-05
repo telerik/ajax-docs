@@ -25,67 +25,67 @@ Only the first two of them will be displayed on initial load (**CompanyName** an
 Note that this edit form will present the **ContactName**, **ContactTitle** and **Country** fields. The **CompanyName** column is shown/hidden through binding expression syntax which sets the **Visible** property of the respective label/textbox editor.
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="300px">
-	    <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
-	      AutoGenerateColumns="False">
-	      <EditFormSettings EditFormType="Template">
-	        <FormTemplate>
-	          <table style="width: 171px">
-	            <tbody>
-	              <tr>
-	                <td>
-	                  <label id="CompanyName" text="Company name" visible='<%# !(RadGrid1.MasterTableView.Columns.FindByUniqueName
-	        ("CompanyName") as GridBoundColumn).ReadOnly %>'>
-	                  </label>
-	                </td>
-	                <td>
-	                  <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("CompanyName") %>' Visible='<%# !(RadGrid1.MasterTableView.Columns.FindByUniqueName("CompanyName")
-	       as GridBoundColumn).ReadOnly %>'>></asp:TextBox>
-	                </td>
-	              </tr>
-	              <tr>
-	                <td>
-	                  Contact name:
-	                </td>
-	                <td>
-	                  <asp:TextBox ID="TextBox2" runat="server" Text='<%# Bind("ContactName") %>'></asp:TextBox>
-	                </td>
-	              </tr>
-	              <tr>
-	                <td>
-	                  Contact title:
-	                </td>
-	                <td>
-	                  <asp:TextBox ID="TextBox3" runat="server" Text='<%# Bind("ContactTitle") %>'></asp:TextBox>
-	                </td>
-	              </tr>
-	              <tr>
-	                <td>
-	                  Country:
-	                </td>
-	                <td>
-	                  <asp:TextBox ID="TextBox4" runat="server" Text='<%# Bind("Country") %>'></asp:TextBox>
-	                </td>
-	              </tr>
-	            </tbody>
-	          </table>
-	        </FormTemplate>
-	      </EditFormSettings>
-	      <Columns>
-	        <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" ReadOnly="True"
-	          UniqueName="CompanyName" />
-	        <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" UniqueName="ContactName" />
-	        <telerik:GridBoundColumn DataField="ContactTitle" Display="False" HeaderText="ContactTitle"
-	          UniqueName="ContactTitle" />
-	        <telerik:GridBoundColumn DataField="Country" HeaderText="Country" UniqueName="Country"
-	          Visible="False" />
-	        <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
-	  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	    SelectCommand="SELECT * FROM [Customers]">
-	  </asp:SqlDataSource>
+<telerik:RadGrid ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server" Width="300px">
+  <MasterTableView Width="100%" CssClass="MasterTable" DataSourceID="SqlDataSource1"
+    AutoGenerateColumns="False">
+    <EditFormSettings EditFormType="Template">
+      <FormTemplate>
+        <table style="width: 171px">
+          <tbody>
+            <tr>
+              <td>
+                <label id="CompanyName" text="Company name" visible='<%# !(RadGrid1.MasterTableView.Columns.FindByUniqueName
+      ("CompanyName") as GridBoundColumn).ReadOnly %>'>
+                </label>
+              </td>
+              <td>
+                <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("CompanyName") %>' Visible='<%# !(RadGrid1.MasterTableView.Columns.FindByUniqueName("CompanyName")
+     as GridBoundColumn).ReadOnly %>'>></asp:TextBox>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Contact name:
+              </td>
+              <td>
+                <asp:TextBox ID="TextBox2" runat="server" Text='<%# Bind("ContactName") %>'></asp:TextBox>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Contact title:
+              </td>
+              <td>
+                <asp:TextBox ID="TextBox3" runat="server" Text='<%# Bind("ContactTitle") %>'></asp:TextBox>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Country:
+              </td>
+              <td>
+                <asp:TextBox ID="TextBox4" runat="server" Text='<%# Bind("Country") %>'></asp:TextBox>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </FormTemplate>
+    </EditFormSettings>
+    <Columns>
+      <telerik:GridBoundColumn DataField="CompanyName" HeaderText="CompanyName" ReadOnly="True"
+        UniqueName="CompanyName" />
+      <telerik:GridBoundColumn DataField="ContactName" HeaderText="ContactName" UniqueName="ContactName" />
+      <telerik:GridBoundColumn DataField="ContactTitle" Display="False" HeaderText="ContactTitle"
+        UniqueName="ContactTitle" />
+      <telerik:GridBoundColumn DataField="Country" HeaderText="Country" UniqueName="Country"
+        Visible="False" />
+      <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" />
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+  SelectCommand="SELECT * FROM [Customers]">
+</asp:SqlDataSource>
 ````
 
 
