@@ -37,34 +37,36 @@ In general with the new ApplicationMenu we preserved the already existing struct
 * **FooterPane** - this pane serves as a template holder for the user to insert any additional control.
 
 ````ASPNET
-				<ApplicationMenu Text="File">
-					<Items>
-						<telerik:RibbonBarApplicationMenuItem Text="New" ImageUrl="icons/file/New.png" />
-						<telerik:RibbonBarApplicationMenuItem Text="Open" ImageUrl="icons/file/Open.png" />
-						<telerik:RibbonBarApplicationMenuItem Text="Save" ImageUrl="icons/file/Save.png" />
-						<telerik:RibbonBarApplicationSplitMenuItem Text="Save As" ImageUrl="icons/file/SaveAs.png" Header="Save document as">
-	                        <Items>
-						        <telerik:RibbonBarApplicationMenuItem Text="Word Document (*.docx)" ImageUrl="icons/file/Document.png" />
-						        <telerik:RibbonBarApplicationMenuItem Text="Word 97-2003 Document (*.doc)" ImageUrl="icons/file/Document.png" />
-						        <telerik:RibbonBarApplicationMenuItem Text="PDF (*.pdf)" ImageUrl="icons/file/Document.png" />
-						        <telerik:RibbonBarApplicationMenuItem Text="Web Page (*.htm;*.html)" ImageUrl="icons/file/Document.png" />
-						        <telerik:RibbonBarApplicationMenuItem Text="Plain Text (*.txt)" ImageUrl="icons/file/Document.png" />
-	                        </Items>
-						</telerik:RibbonBarApplicationSplitMenuItem>
-						<telerik:RibbonBarApplicationMenuItem Text="Close" ImageUrl="icons/file/Close.png" />
-					</Items>
-	                <AuxiliaryPane Header="Recent Documents">
-	                    <ContentTemplate>
-	                        <ol>
-	                            <li>Document 1.doc</li>
-	                            <li>Document 2.doc</li>
-	                            <li>Document 3.doc</li>
-	                            <li>Document 4.doc</li>
-	                            <li>Document 5.doc</li>
-	                        </ol>
-	                    </ContentTemplate>
-	              </AuxiliaryPane>
-	        </ApplicationMenu>
+
+<ApplicationMenu Text="File">
+	<Items>
+		<telerik:RibbonBarApplicationMenuItem Text="New" ImageUrl="icons/file/New.png" />
+		<telerik:RibbonBarApplicationMenuItem Text="Open" ImageUrl="icons/file/Open.png" />
+		<telerik:RibbonBarApplicationMenuItem Text="Save" ImageUrl="icons/file/Save.png" />
+		<telerik:RibbonBarApplicationSplitMenuItem Text="Save As" ImageUrl="icons/file/SaveAs.png" Header="Save document as">
+            <Items>
+		        <telerik:RibbonBarApplicationMenuItem Text="Word Document (*.docx)" ImageUrl="icons/file/Document.png" />
+		        <telerik:RibbonBarApplicationMenuItem Text="Word 97-2003 Document (*.doc)" ImageUrl="icons/file/Document.png" />
+		        <telerik:RibbonBarApplicationMenuItem Text="PDF (*.pdf)" ImageUrl="icons/file/Document.png" />
+		        <telerik:RibbonBarApplicationMenuItem Text="Web Page (*.htm;*.html)" ImageUrl="icons/file/Document.png" />
+		        <telerik:RibbonBarApplicationMenuItem Text="Plain Text (*.txt)" ImageUrl="icons/file/Document.png" />
+            </Items>
+		</telerik:RibbonBarApplicationSplitMenuItem>
+		<telerik:RibbonBarApplicationMenuItem Text="Close" ImageUrl="icons/file/Close.png" />
+	</Items>
+    <AuxiliaryPane Header="Recent Documents">
+        <ContentTemplate>
+            <ol>
+                <li>Document 1.doc</li>
+                <li>Document 2.doc</li>
+                <li>Document 3.doc</li>
+                <li>Document 4.doc</li>
+                <li>Document 5.doc</li>
+            </ol>
+        </ContentTemplate>
+	</AuxiliaryPane>
+</ApplicationMenu>
+
 ````
 
 
@@ -75,31 +77,32 @@ In general with the new ApplicationMenu we preserved the already existing struct
 
 ````JavaScript
 	
-	    	function OnClientButtonClicking() {
-	
-	    		var menu = $find("RadRibbonBar1")._applicationMenuDropDown;
-	    		var item1 = menu.get_items().getItem(0);
-	    		//get the first item from the application menu
-	    		//disables the first item from the application menu
-	    		item1.set_enabled(false);
-	    	}
+function OnClientButtonClicking() {
+
+	var menu = $find("RadRibbonBar1")._applicationMenuDropDown;
+	var item1 = menu.get_items().getItem(0);
+	//get the first item from the application menu
+	//disables the first item from the application menu
+	item1.set_enabled(false);
+}
 	
 ````
 
 
 
 ````ASPNET
-	    <telerik:RibbonBarApplicationMenu ID="ApplicationMenu1" runat="Server" >
-				<Items>
-					<telerik:RibbonBarApplicationMenuItem Text="Item1" />
-					<telerik:RibbonBarApplicationMenuItem Text="Item2" />
-					<telerik:RibbonBarApplicationMenuItem Text="Item3" />
-					<telerik:RibbonBarApplicationMenuItem Text="Item4" />
-					<telerik:RibbonBarApplicationMenuItem Text="Item5" />
-					<telerik:RibbonBarApplicationMenuItem Text="Item6" />
-				</Items>
-			</telerik:RibbonBarApplicationMenu>
-	        <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server"  OnClientButtonClicking="OnClientButtonClicking" ApplicationMenuID="ApplicationMenu1"/>
+
+<telerik:RibbonBarApplicationMenu ID="ApplicationMenu1" runat="Server" >
+		<Items>
+			<telerik:RibbonBarApplicationMenuItem Text="Item1" />
+			<telerik:RibbonBarApplicationMenuItem Text="Item2" />
+			<telerik:RibbonBarApplicationMenuItem Text="Item3" />
+			<telerik:RibbonBarApplicationMenuItem Text="Item4" />
+			<telerik:RibbonBarApplicationMenuItem Text="Item5" />
+			<telerik:RibbonBarApplicationMenuItem Text="Item6" />
+		</Items>
+	</telerik:RibbonBarApplicationMenu>
+<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server"  OnClientButtonClicking="OnClientButtonClicking" ApplicationMenuID="ApplicationMenu1"/>
 	
 ````
 

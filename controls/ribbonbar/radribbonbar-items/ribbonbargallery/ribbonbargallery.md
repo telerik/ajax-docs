@@ -20,34 +20,34 @@ position: 0
 >
 
 
-The **RibbonBarGallery** has a collection of **RibbonBarGalleryCategories**, which in turn have a collection of **RibbonBarGalleryItems.** The RibbonBarGallery has 3 buttons on the right thatenables scrolling and expanding of the Gallery. The top and middle buttons are used to scroll the items inline up and down one row at a time, while the bottom button expands the Gallery. The expanded Gallery enables the customization of the height set - it can be altered withthe **ExpandedHeight** property as described bolow.![ribbonbar-galleryitems](images/ribbonbar-galleryitems.png)
+The **RibbonBarGallery** has a collection of **RibbonBarGalleryCategories**, which in turn have a collection of **RibbonBarGalleryItems.** The RibbonBarGallery has 3 buttons on the right that enables scrolling and expanding of the Gallery. The top and middle buttons are used to scroll the items inline up and down one row at a time, while the bottom button expands the Gallery. The expanded Gallery enables the customization of the height set - it can be altered with the **ExpandedHeight** property as described below.![ribbonbar-galleryitems](images/ribbonbar-galleryitems.png)
 
 Here you can find a sample markup demonstrating how to build your first RibbonBarGallery:
 
 ````ASPNET
-	        <telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientGalleryCommandPreview="OnClientGalleryCommandPreview"
-	            OnClientGalleryCommandPreviewEnd="OnClientGalleryCommandPreviewEnd" OnClientGalleryCommand="OnClientGalleryCommand"
-	            OnGalleryCommand="OnGalleryCommand">
-	            <Tabs>
-	                <telerik:RibbonBarTab Text="Tab">
-	                    <telerik:RibbonBarGroup Text="Group">
-	                        <Items>
-	                            <telerik:RibbonBarGallery CommandName="GalleryCommand" Columns="5" ExpandedColumns="8"
-	                                ExpandedHeight="300px" ItemHeight="32px" ItemWidth="32px" ItemTextPosition="Bottom">
-	                                <telerik:RibbonBarGalleryCategory Title="FirstCategory">
-	                                    <telerik:RibbonBarGalleryItem CommandArgument="GalleryItemArgument" Text="Item" ToolTip="Item"
-	                                        ImageUrl="Image.png" CssClass="ImageCssClass" />
-	                                </telerik:RibbonBarGalleryCategory>
-	                                <telerik:RibbonBarGalleryCategory>
-	                                    <telerik:RibbonBarGalleryItem CommandArgument="GalleryItemArgument" Text="Item" ToolTip="Item"
-	                                        ImageUrl="Image.png" CssClass="ImageCssClass" />
-	                                </telerik:RibbonBarGalleryCategory>
-	                            </telerik:RibbonBarGallery>
-	                        </Items>
-	                    </telerik:RibbonBarGroup>
-	                </telerik:RibbonBarTab>
-	            </Tabs>
-	        </telerik:RadRibbonBar>
+<telerik:RadRibbonBar ID="RadRibbonBar1" runat="server" OnClientGalleryCommandPreview="OnClientGalleryCommandPreview"
+    OnClientGalleryCommandPreviewEnd="OnClientGalleryCommandPreviewEnd" OnClientGalleryCommand="OnClientGalleryCommand"
+    OnGalleryCommand="OnGalleryCommand">
+    <Tabs>
+        <telerik:RibbonBarTab Text="Tab">
+            <telerik:RibbonBarGroup Text="Group">
+                <Items>
+                    <telerik:RibbonBarGallery CommandName="GalleryCommand" Columns="5" ExpandedColumns="8"
+                        ExpandedHeight="300px" ItemHeight="32px" ItemWidth="32px" ItemTextPosition="Bottom">
+                        <telerik:RibbonBarGalleryCategory Title="FirstCategory">
+                            <telerik:RibbonBarGalleryItem CommandArgument="GalleryItemArgument" Text="Item" ToolTip="Item"
+                                ImageUrl="Image.png" CssClass="ImageCssClass" />
+                        </telerik:RibbonBarGalleryCategory>
+                        <telerik:RibbonBarGalleryCategory>
+                            <telerik:RibbonBarGalleryItem CommandArgument="GalleryItemArgument" Text="Item" ToolTip="Item"
+                                ImageUrl="Image.png" CssClass="ImageCssClass" />
+                        </telerik:RibbonBarGalleryCategory>
+                    </telerik:RibbonBarGallery>
+                </Items>
+            </telerik:RibbonBarGroup>
+        </telerik:RibbonBarTab>
+    </Tabs>
+</telerik:RadRibbonBar>
 ````
 
 
@@ -56,7 +56,7 @@ Listed below are some important properties of the RibbonBarGallery:
 
 * **CommandName** - The CommandName that is passed as a parameter to the RibbonBar’s OnCommand or OnGalleryCommand event.
 
-* **ItemTextPosition** - property that can take vaules of Bottom, Inline and None. It controls the position of the text relative to the image of each GalleryItem inside the Gallery.
+* **ItemTextPosition** - property that can take values of Bottom, Inline and None. It controls the position of the text relative to the image of each GalleryItem inside the Gallery.
 
 * **ExpandedHeight** - property that sets the height of the Gallery when expanded.
 
@@ -64,7 +64,7 @@ Listed below are some important properties of the RibbonBarGallery:
 
 * **ItemWidth** - property that sets the width of each GalleryItem inside the Gallery.
 
-* **Columns** - propert that sets the number of columns that the GalleryItems should be displayed in.The Gallery itself does not have a Width property therefore the Width is calculated to fit the exact number of items horizontally as specified in the Columns property.
+* **Columns** - property that sets the number of columns that the GalleryItems should be displayed in.The Gallery itself does not have a Width property therefore the Width is calculated to fit the exact number of items horizontally as specified in the Columns property.
 
 * **ExpandedColumns** - property that sets the number of columns when the Gallery is expanded.
 

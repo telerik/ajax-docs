@@ -20,6 +20,6 @@ position: 1
 
 The RibbonBarGalleryCategory has the following properties:
 
-* **Title** – When set to some string, it displays the text in the header of the Category.If no title is specified, the header is not be visible.
+* **Title** – When set to some string, it displays the text in the header of the Category. If no title is specified, the header is not be visible.
 
 * **Items** – a collection of RibbonBarGalleryItem objects.

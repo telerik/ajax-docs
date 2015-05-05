@@ -26,7 +26,10 @@ The **RibbonBarSplitButton** has a few important properties, which are listed be
 >
 
 
-* **Size** determines the size of the **RibbonBarSplitButton**.Use the Size property to specify the item's initial size:- For small icon - **RibbonBarItemSize.Small**- For small icon with text - **RibbonBarItemSize.Medium**- For large icon with text - **RibbonBarItemSize.Large**.
+* **Size** determines the size of the **RibbonBarSplitButton**. Use the Size property to specify the item's initial size:
+	* For small icon: **RibbonBarItemSize.Small**
+	* For small icon with text: **RibbonBarItemSize.Medium**
+	* For large icon with text: **RibbonBarItemSize.Large**
 
 * **ImageAltText** specifies the alternate text of the image.
 
@@ -34,6 +37,8 @@ The **RibbonBarSplitButton** has a few important properties, which are listed be
 
 * **ImageUrl** specifies a custom image that will be used when the item has **Size = RibbonBarItemSize.Small** or **RibbonBarItemSize.Medium**.
 
-* **ImageRenderingMode** determines the rendering mode of the image.In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:- If ImageUrl is set and **ImageUrlLarge** is not set - the mode is **Clip**;- Any other case - **Dual**.
+* **ImageRenderingMode** determines the rendering mode of the image. In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:
+	* If ImageUrl is set and **ImageUrlLarge** is not set: the mode is **Clip**
+	* Any other case: **Dual**
 
 * **CssClass** is the name of a CSS style to be applied to the **RibbonBarSplitButton**. The style can be declared in the CSS file of the applied skin.

@@ -34,7 +34,9 @@ The **RibbonBarToggleButton** has a few important properties, which are listed b
 
 * **ImageUrl** specifies a custom image that will be used when the item has **Size = RibbonBarItemSize.Small** or **RibbonBarItemSize.Medium**.
 
-* **ImageRenderingMode** determines the rendering mode of the image.In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:- If ImageUrl is set and **ImageUrlLarge** is not set - the mode is **Clip**;- Any other case - **Dual**.
+* **ImageRenderingMode** determines the rendering mode of the image. In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:
+	* If ImageUrl is set and **ImageUrlLarge** is not set: the mode is **Clip**
+	* Any other case: **Dual**
 
 * **Toggled** represents the state of the **RibbonBarToggleButton** - “true” when the button is toggled and “false” when it is not.
 

@@ -28,6 +28,8 @@ The **RibbonBarMenu** has a few important properties, which are listed below:
 
 * **Size** determines the size of the **RibbonBarToggleButton**. The value can be “Large”, “Medium” or “Small”.
 
-* **ImageRenderingMode** determines the rendering mode of the image.In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:- If ImageUrl is set and **ImageUrlLarge** is not set - the mode is **Clip**;- Any other case - **Dual**.
+* **ImageRenderingMode** determines the rendering mode of the image. In case ImageRenderingMode is not explicitly set (meaning RibbonBar's ImageRenderingMode is **Auto**), it's considered as follows:
+	* If ImageUrl is set and **ImageUrlLarge** is not set: the mode is **Clip**
+	* Any other case: **Dual**
 
 * **CssClass** is the name of a CSS style to be applied to the **RibbonBarMenu**. The style can be declared in the CSS file of the applied skin.

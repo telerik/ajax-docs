@@ -20,7 +20,7 @@ The **RadRibbonBar** Smart Tag allows easy access to frequently needed tasks. Yo
 
 ![RibbonBar Smart Tag](images/ribbonbar_smarttag.png)
 
-Using the**RadRibbonBar** Smart Tag you can perform the following:
+Using the **RadRibbonBar** Smart Tag you can perform the following:
 
 ## Ajax Resources
 
