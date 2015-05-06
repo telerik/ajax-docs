@@ -1,6 +1,6 @@
 ---
 title: Keyboard Support
-page_title: Keyboard Support | RadRibbonBar for ASP.NET AJAX Documentation
+page_title: RibbonBar Keyboard Support | RadRibbonBar for ASP.NET AJAX Documentation
 description: Keyboard Support
 slug: ribbonbar/accessibility-and-internationalization/keyboard-support
 tags: keyboard,support
@@ -24,17 +24,17 @@ A new section for configuration is added to the RadRibbonBar. The newly added se
 
 * **CommandKey** : used with the FocusKey to focus the RadRibbonBar. By default this property is set to use the **Alt** key, but it could be changed to something else from the following enumeration:
 
-1. Alt
+	1. Alt
 
-1. Ctrl
+	1. Ctrl
 
-1. Shift
+	1. Shift
 
-1. AltShift
+	1. AltShift
 
-1. AltCtrl
+	1. AltCtrl
 
-1. CtrlShift
+	1. CtrlShift
 
 * **FocusKey**: focus key used with the CommandKey. By default this property is set to use the **Q** key. Again there is an enumaration, so other key could be used as focus key.
 

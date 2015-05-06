@@ -28,23 +28,22 @@ The following example demonstrates how to use the LauncherClick event to determi
 
 ````C#
 	
-	    protected void RadRibbonBar1_LauncherClick(object sender, RibbonBarLauncherClickEventArgs e)
-	    {
-	        string message = string.Format("Launcher of group {0} was clicked.", e.Group.Text);
-	
-	        textBox1.Text = message;
-	    }
+protected void RadRibbonBar1_LauncherClick(object sender, RibbonBarLauncherClickEventArgs e)
+{
+    string message = string.Format("Launcher of group {0} was clicked.", e.Group.Text);
+
+    textBox1.Text = message;
+}
 	
 ````
 ````VB.NET
 	
-		Protected Sub RadRibbonBar1_LauncherClick(ByVal sender As Object, ByVal e As RibbonBarLauncherClickEventArgs)
-			Dim message As String = String.Format("Launcher of group {0} was clicked.", e.Group.Text)
-	
-			textBox1.Text = message
-		End Sub
-	
-	
+Protected Sub RadRibbonBar1_LauncherClick(ByVal sender As Object, ByVal e As RibbonBarLauncherClickEventArgs)
+	Dim message As String = String.Format("Launcher of group {0} was clicked.", e.Group.Text)
+
+	textBox1.Text = message
+End Sub
+		
 ````
 
 
@@ -52,4 +51,4 @@ The following example demonstrates how to use the LauncherClick event to determi
 
  * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/events/serverside/defaultcs.aspx)
 
- * [Overview]({%slug ribbonbar/server-side-programming/events/overview%})
+ * [Server-side Events Overview]({%slug ribbonbar/server-side-programming/events/overview%})

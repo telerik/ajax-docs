@@ -20,20 +20,20 @@ It is also important to note that the contextual tab groups are inactive by defa
 
 ````ASPNET
 		
-		<telerik:RadRibbonBar runat="server" id="RadRibbonBar1">
-				<ContextualTabGroups>
-				<telerik:RibbonBarContextualTabGroup Text="Objects" Active="true">
-				<telerik:RibbonBarTab Text="Home" Value="Home">
-						<telerik:RibbonBarGroup Text="Links" Value="Links">
-							<Items>
-								<telerik:RibbonBarButton Text="HyperLink" Size="Medium" Value=" HyperLink " />
-								<telerik:RibbonBarButton Text="Bookmark" Size="Medium" Value=" Bookmark " />
-							</Items>
-						</telerik:RibbonBarGroup>
-					</telerik:RibbonBarTab>
-				</telerik:RibbonBarContextualTabGroup>
-				</ContextualTabGroups>
-	</telerik:RadRibbonBar>
+<telerik:RadRibbonBar runat="server" id="RadRibbonBar1">
+	<ContextualTabGroups>
+		<telerik:RibbonBarContextualTabGroup Text="Objects" Active="true">
+			<telerik:RibbonBarTab Text="Home" Value="Home">
+				<telerik:RibbonBarGroup Text="Links" Value="Links">
+					<Items>
+						<telerik:RibbonBarButton Text="HyperLink" Size="Medium" Value=" HyperLink " />
+						<telerik:RibbonBarButton Text="Bookmark" Size="Medium" Value=" Bookmark " />
+					</Items>
+				</telerik:RibbonBarGroup>
+			</telerik:RibbonBarTab>
+		</telerik:RibbonBarContextualTabGroup>
+	</ContextualTabGroups>
+</telerik:RadRibbonBar>
 ````
 
 

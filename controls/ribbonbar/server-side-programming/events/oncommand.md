@@ -22,6 +22,6 @@ The event handler function receives two arguments:
 
 1. An EventArgs object with the following properties:
 
-* **CommandArgument** - optional parameter passed to the Command event along with the associated CommandName.
+	* **CommandArgument** - optional parameter passed to the Command event along with the associated CommandName.
 
-* **CommandName** -command name associated with the RadRibbonBarButton control that is passed to the Command event.
+	* **CommandName** -command name associated with the RadRibbonBarButton control that is passed to the Command event.

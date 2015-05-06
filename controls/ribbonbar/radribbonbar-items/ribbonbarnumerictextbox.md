@@ -36,13 +36,13 @@ The **RibbonBarNumericTextBox** has a few important properties, which are listed
 
 * **set_prefix()** - sets a string that is prepended to the value of the NumericTextBox in the input element.
 
-* **get_suffix()**- gets a string that is appended to the value of the NumericTextBox in the input element.
+* **get_suffix()** - gets a string that is appended to the value of the NumericTextBox in the input element.
 
-* **set_suffix()**- sets a string that is appended to the value of the NumericTextBox in the input element.
+* **set_suffix()** - sets a string that is appended to the value of the NumericTextBox in the input element.
 
-* **get_step(float)**- gets the value which is used to increment/decrement the value (usually applied when using the buttons of the spinbox).
+* **get_step(float)** - gets the value which is used to increment/decrement the value (usually applied when using the buttons of the spinbox).
 
-* **set_step(float)**- sets the value which is used to increment/decrement the value (usually applied when using the buttons of the spinbox).
+* **set_step(float)** - sets the value which is used to increment/decrement the value (usually applied when using the buttons of the spinbox).
 
 * **get_value(float)** – gets the value to the input element in the NumericTextbox.
 

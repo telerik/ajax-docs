@@ -1,6 +1,6 @@
 ---
-title: Events Overview
-page_title: Overview | RadRibbonBar for ASP.NET AJAX Documentation
+title: Overview
+page_title: Client-Side Programming Overview | RadRibbonBar for ASP.NET AJAX Documentation
 description: Overview
 slug: ribbonbar/client-side-programming/events/overview
 tags: overview
@@ -78,4 +78,4 @@ position: 0
 
  * [Client Events](http://demos.telerik.com/aspnet-ajax/RibbonBar/Examples/Events/ClientSide/DefaultCS.aspx)
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})

@@ -24,17 +24,17 @@ Configuring the Quick Access Toolbar is straightforward:
 
 * RadRibbonBar.**EnableQuickAccessToolbar**
 
-* **False** (default) - disables the QAT.
+	* **False** (default) - disables the QAT.
 
-* **True** - enables the QAT (allows the buttons whose QuickAccess property is set to true).
+	* **True** - enables the QAT (allows the buttons whose QuickAccess property is set to true).
 
 * RibbonBar[Button|SplitButton|Menu|ToggleButton].**QuickAccess**
 
-* **Disabled** (default) - the command does not appear in the QAT.
+	* **Disabled** (default) - the command does not appear in the QAT.
 
-* **Active** - the command is added to the QAT and is immediately available for usage.
+	* **Active** - the command is added to the QAT and is immediately available for usage.
 
-* **Inactive** - the command is added to the QAT but is not immediately available for usage. Can be shown by checking its corresponding option in the QAT drop down.
+	* **Inactive** - the command is added to the QAT but is not immediately available for usage. Can be shown by checking its corresponding option in the QAT drop down.
 
 # See Also
 

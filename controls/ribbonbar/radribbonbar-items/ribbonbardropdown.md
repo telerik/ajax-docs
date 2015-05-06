@@ -14,7 +14,7 @@ position: 11
 
 ## 
 
-With the **RadRibbonBarDropDown** you can also use the **SelectedIndex** property. It returns the index (an **integer** value )of the currently selected item.
+With the **RadRibbonBarDropDown** you can also use the **SelectedIndex** property. It returns the index (an **integer** value) of the currently selected item.
 
 ## Working with RibbonBarDropDown on the Client-Side
 
@@ -38,7 +38,7 @@ With the **RadRibbonBarDropDown** you can also use the **SelectedIndex** propert
 
 * **get_selected()** - gets the selected state of the item.
 
-* **set_selected()**- sets the selected state of the item.
+* **set_selected()** - sets the selected state of the item.
 
 * **select()** - selects an item.
 

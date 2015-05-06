@@ -28,22 +28,21 @@ The following example shows how to get the text of the clicked item:
 
 ````C#
 	
-	    protected void RadRibbonBar1_ApplicationMenuItemClick(object sender, RibbonBarApplicationMenuItemClickEventArgs e)
-	    {
-	        string message = string.Format("Application menu item {0} was clicked.", e.Item.Text);
-	
-	        textBox1.Text = message;
-	    }
+protected void RadRibbonBar1_ApplicationMenuItemClick(object sender, RibbonBarApplicationMenuItemClickEventArgs e)
+{
+    string message = string.Format("Application menu item {0} was clicked.", e.Item.Text);
+
+    textBox1.Text = message;
+}
 	
 ````
 ````VB.NET
 	
-		Protected Sub RadRibbonBar1_ApplicationMenuItemClick(ByVal sender As Object, ByVal e As RibbonBarApplicationMenuItemClickEventArgs)
-			Dim message As String = String.Format("Application menu item {0} was clicked.", e.Item.Text)
-	
-			textBox1.Text = message
-		End Sub
-	
+Protected Sub RadRibbonBar1_ApplicationMenuItemClick(ByVal sender As Object, ByVal e As RibbonBarApplicationMenuItemClickEventArgs)
+	Dim message As String = String.Format("Application menu item {0} was clicked.", e.Item.Text)
+
+	textBox1.Text = message
+End Sub
 	
 ````
 
@@ -52,4 +51,4 @@ The following example shows how to get the text of the clicked item:
 
  * [Online Demo](http://demos.telerik.com/aspnet-ajax/ribbonbar/examples/events/serverside/defaultcs.aspx)
 
- * [Overview]({%slug ribbonbar/server-side-programming/events/overview%})
+ * [Server-side Events Overview]({%slug ribbonbar/server-side-programming/events/overview%})

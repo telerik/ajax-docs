@@ -20,7 +20,7 @@ In order to provide more, we have implemented the ability to set images for the 
 
 This variety of choices has its own problems. Setting all the images in properties one-by-one (and storing them in separate files), proves to be hard. And in some cases even requires additional work to be done – some graphic libraries are provided by vendors in as “clip” images (small and large image in a small sprite – in 1 file). Still having the ability to change a single image, without the need of setting (creating) a new clip, proves to be more flexible, therefore potentially very useful.
 
-In order to satisfy both the camps, we decided to implement Image Rendering Mode, in order to switch between single-image model (called Dual) and clip-image (called Clip).
+In order to satisfy both camps, we decided to implement Image Rendering Mode, in order to switch between single-image model (called Dual) and clip-image (called Clip).
 
 ## Properties and values
 
@@ -34,37 +34,37 @@ Image Rendering Mode is implemented on both control and item level. And in both 
 
 By default the selected value is Auto.
 
-1. **ImageRenderingMode.Auto**When no mode is explicitly selected (or Auto is), RadRibbonBar tries to determine the appropriate rendering mode on per-item basis. We strongly recommend to always explicitly set on of the other two modes – Clip and Dual. Simply because there are items with very hard to determine mode scenarios. Perhaps the best example of such item is RibbonBarSplitButton – it has a selected button, but at the same time it has the possibility of setting all images directly on it. This makes the determining of the Rendering Mode far too complex and many scenarios cannot be covered automatically. Otherwise the algorithm is basically working as following: if there is a large image set (ImageUrlLarge or DisabledImageUrlLarge), the mode is Dual. If there are no large images set, but there is a small image set – the mode is Clip. If no images are set – the mode is Dual again and default RibbonBar images are displayed.
+1. **ImageRenderingMode.Auto** When no mode is explicitly selected (or Auto is), RadRibbonBar tries to determine the appropriate rendering mode on per-item basis. We strongly recommend to always explicitly set on of the other two modes – Clip and Dual. Simply because there are items with very hard to determine mode scenarios. Perhaps the best example of such item is RibbonBarSplitButton – it has a selected button, but at the same time it has the possibility of setting all images directly on it. This makes the determining of the Rendering Mode far too complex and many scenarios cannot be covered automatically. Otherwise the algorithm is basically working as following: if there is a large image set (ImageUrlLarge or DisabledImageUrlLarge), the mode is Dual. If there are no large images set, but there is a small image set – the mode is Clip. If no images are set – the mode is Dual again and default RibbonBar images are displayed.
 
-1. **ImageRenderingMode.Clip**In this mode the images are assigned through the ImageUrl and DisabledImageUrl. ImageUrl image contains both small and large image for the enabled state of the item, and the DisabledImageUrl contains the images for the disabled state. Images set in the ImageUrlLarge and DisabledImageUrlLarge are disregarded.
+1. **ImageRenderingMode.Clip** In this mode the images are assigned through the ImageUrl and DisabledImageUrl. ImageUrl image contains both small and large image for the enabled state of the item, and the DisabledImageUrl contains the images for the disabled state. Images set in the ImageUrlLarge and DisabledImageUrlLarge are disregarded.
 
-1. **ImageRenderingMode.Dual**When Dual is explicitly set (or resolved to, from Auto), small images are set through ImageUrl and DisabledImageUrl and large images are set through ImageUrlLarge and DisabledImageUrlLarge.
+1. **ImageRenderingMode.Dual** When Dual is explicitly set (or resolved to, from Auto), small images are set through ImageUrl and DisabledImageUrl and large images are set through ImageUrlLarge and DisabledImageUrlLarge.
 
 ## Example
 
 As previously mentioned, the ImageRenderingMode can be set on RadRibbonBar and on any RibbonBarItem. This means that you can set a general rule on RibbonBar level and make exceptions on the level of item. In order to fully show the power of this approach, here is an example:
 
 ````ASPNET
-			<telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" ImageRenderingMode="Clip">
-				<telerik:RibbonBarTab Text="Tab1">
-					<telerik:RibbonBarGroup Text="Group1">
-						<Items>
-							<telerik:RibbonBarButton Text="Button1"
-								ImageUrl="images/Icons/Button1ClipImage.png"
-								DisabledImageUrl="images/Icons/Button1ClipImageDisabled.png" />
-							<telerik:RibbonBarButton Text="Button2"
-								ImageUrl="images/Icons/Button2ClipImage.png"
-								DisabledImageUrl="images/Icons/Button2ClipImageDisabled.png" />
-							<telerik:RibbonBarButton Text="Button3"
-								ImageRenderingMode="Dual"
-								ImageUrl="images/Icons/Button3SMALLImage.png"
-								ImageUrlLarge="images/Icons/Button3LARGEImage.png"
-								DisabledImageUrl="images/Icons/Button3SMALLImageDisabled.png"
-								DisabledImageUrlLarge="images/Icons/Button3LARGEImageDisabled.png" />
-						</Items>
-					</telerik:RibbonBarGroup>
-				</telerik:RibbonBarTab>
-			</telerik:RadRibbonBar>
+<telerik:RadRibbonBar runat="server" ID="RadRibbonBar1" ImageRenderingMode="Clip">
+	<telerik:RibbonBarTab Text="Tab1">
+		<telerik:RibbonBarGroup Text="Group1">
+			<Items>
+				<telerik:RibbonBarButton Text="Button1"
+					ImageUrl="images/Icons/Button1ClipImage.png"
+					DisabledImageUrl="images/Icons/Button1ClipImageDisabled.png" />
+				<telerik:RibbonBarButton Text="Button2"
+					ImageUrl="images/Icons/Button2ClipImage.png"
+					DisabledImageUrl="images/Icons/Button2ClipImageDisabled.png" />
+				<telerik:RibbonBarButton Text="Button3"
+					ImageRenderingMode="Dual"
+					ImageUrl="images/Icons/Button3SMALLImage.png"
+					ImageUrlLarge="images/Icons/Button3LARGEImage.png"
+					DisabledImageUrl="images/Icons/Button3SMALLImageDisabled.png"
+					DisabledImageUrlLarge="images/Icons/Button3LARGEImageDisabled.png" />
+			</Items>
+		</telerik:RibbonBarGroup>
+	</telerik:RibbonBarTab>
+</telerik:RadRibbonBar>
 ````
 
 
