@@ -26,7 +26,7 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
 * [RadAjaxPanel]({%slug ajax/radajaxpanel/overview%})
 
-* **RadAjaxManagerProxy**Similar to the **RadAjaxManager** control, the **RadAjaxManagerProxy** is an additional option to configure the necessary AJAX settings at design-time. **RadAjaxManagerProxy** is widely used in WebUserControl or Master/ContentPage scenarios:
+* **RadAjaxManagerProxy** Similar to the **RadAjaxManager** control, the **RadAjaxManagerProxy** is an additional option to configure the necessary AJAX settings at design-time. **RadAjaxManagerProxy** is widely used in WebUserControl or Master/ContentPage scenarios:
 
 * [RadAjaxManagerProxy]({%slug ajax/radajaxmanagerproxy/overview%})
 
@@ -46,4 +46,4 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
  * [Overview]({%slug ajax/radajaxpanel/overview%})
 
- * [AJAX-enable a Scenario Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%})
+ * [AJAX-enable a Scenario Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%}) 
