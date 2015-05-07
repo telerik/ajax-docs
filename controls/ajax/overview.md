@@ -22,7 +22,7 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
 * [AJAX-enabling an Application Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%})
 
-* **RadAjaxPanel**The **RadAjaxPanel** control mimics the behavior of the **asp:UpdatePanel** control - All of the controls that prevously triggered postback requests start performing AJAX updates after they are wrapped in a **RadAjaxPanel** control. Read more about the **RadAjaxPanel** in the article below.
+* **RadAjaxPanel**The **RadAjaxPanel** control mimics the behaviour of the **asp:UpdatePanel** control - All of the controls that prevously triggered postback requests start performing AJAX updates after they are wrapped in a **RadAjaxPanel** control. Read more about the **RadAjaxPanel** in the article below.
 
 * [RadAjaxPanel]({%slug ajax/radajaxpanel/overview%})
 
