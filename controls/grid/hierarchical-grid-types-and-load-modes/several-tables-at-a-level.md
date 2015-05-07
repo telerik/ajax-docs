@@ -33,29 +33,29 @@ When nesting several tables at the same level, it is a good idea to set the **Ca
 The following is an excerpt from the declaration of a grid that shows two tables nested at the same level:
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server" Skin="WebBlue" PageSize="5" AllowPaging="True">
-	    <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID,EmployeeID"
-	      AllowMultiColumnSorting="True" Width="100%" TableLayout="Auto" AutoGenerateColumns="False">
-	      ...
-	      <DetailTables>
-	        <telerik:GridTableView runat="server" Caption="Details about the customer" DataSourceID="SqlDataSource2"
-	          Width="100%" TableLayout="Auto" AutoGenerateColumns="False">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
-	          </ParentTableRelation>
-	          ...
-	        </telerik:GridTableView>
-	        <telerik:GridTableView runat="server" Caption="Details about the employee" DataSourceID="SqlDataSource3"
-	          Width="100%" TableLayout="Auto">
-	          <ParentTableRelation>
-	            <telerik:GridRelationFields DetailKeyField="EmployeeID" MasterKeyField="EmployeeID" />
-	          </ParentTableRelation>
-	          ...
-	        </telerik:GridTableView>
-	      </DetailTables>
-	      ...
-	    </MasterTableView>
-	    ...</telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server" Skin="WebBlue" PageSize="5" AllowPaging="True">
+  <MasterTableView DataSourceID="SqlDataSource1" DataKeyNames="CustomerID,EmployeeID"
+    AllowMultiColumnSorting="True" Width="100%" TableLayout="Auto" AutoGenerateColumns="False">
+    ...
+    <DetailTables>
+      <telerik:GridTableView runat="server" Caption="Details about the customer" DataSourceID="SqlDataSource2"
+        Width="100%" TableLayout="Auto" AutoGenerateColumns="False">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="CustomerID" MasterKeyField="CustomerID" />
+        </ParentTableRelation>
+        ...
+      </telerik:GridTableView>
+      <telerik:GridTableView runat="server" Caption="Details about the employee" DataSourceID="SqlDataSource3"
+        Width="100%" TableLayout="Auto">
+        <ParentTableRelation>
+          <telerik:GridRelationFields DetailKeyField="EmployeeID" MasterKeyField="EmployeeID" />
+        </ParentTableRelation>
+        ...
+      </telerik:GridTableView>
+    </DetailTables>
+    ...
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 
 

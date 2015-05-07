@@ -21,9 +21,9 @@ The first step when creating hierarchical grids is to specify the structure of t
 This is related to populating the collection of **DetailTables** of **RadGrid**.**MasterTableView** and the respective columns. It is important that this step be completed **before** RadGrid is bound to any data. For example, a grid can have a structure like this:
 
 ````ASP.NET
-	  - MasterTableView
-	    - DetailTable(0)
-	        - DetailTable(0, 0)
+- MasterTableView
+  - DetailTable(0)
+      - DetailTable(0, 0)
 ````
 
 
@@ -35,125 +35,125 @@ The whole structure of **RadGrid** with its detail tables is saved in the **View
 
 
 ````C#
-	    private void DefineGridStructure()
-	    {
-	        this.RadGrid1 = new RadGrid();
-	
-	        this.RadGrid1.NeedDataSource += new GridNeedDataSourceEventHandler(this.RadGrid1_NeedDataSource);
-	        this.RadGrid1.DetailTableDataBind += new GridDetailTableDataBindEventHandler(this.RadGrid1_DetailTableDataBind);
-	
-	        this.RadGrid1.CssClass = "RadGrid";
-	
-	        this.RadGrid1.Width = Unit.Percentage(100);
-	        this.RadGrid1.PageSize = 5;
-	        this.RadGrid1.AllowPaging = true;
-	        this.RadGrid1.AutoGenerateColumns = false;
-	
-	        this.RadGrid1.MasterTableView.DataMember = "Customers";
-	        this.RadGrid1.MasterTableView.PageSize = 15;
-	
-	        GridBoundColumn boundColumn;
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "CustomerID";
-	        boundColumn.HeaderText = "CustomerID";
-	        this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
-	
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "ContactName";
-	        boundColumn.HeaderText = "Contact Name";
-	        this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
-	
-	        this.RadGrid1.MasterTableView.Columns.Add(new GridExpandColumn());
-	
-	        this.RadGrid1.MasterTableView.GroupByExpressions.Add(new GridGroupByExpression("Country Group By Country"));
-	
-	        GridTableView tableViewOrders = new GridTableView(RadGrid1);
-	        tableViewOrders.DataMember = "Orders";
-	        this.RadGrid1.MasterTableView.DetailTables.Add(tableViewOrders);
-	
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "OrderID";
-	        boundColumn.HeaderText = "OrderID";
-	        tableViewOrders.Columns.Add(boundColumn);
-	
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "OrderDate";
-	        boundColumn.HeaderText = "Date Ordered";
-	        tableViewOrders.Columns.Add(boundColumn);
-	
-	        GridTableView tableViewOrderDetails = new GridTableView(RadGrid1);
-	        tableViewOrderDetails.DataMember = "OrderDetails";
-	        tableViewOrders.DetailTables.Add(tableViewOrderDetails);
-	
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "UnitPrice";
-	        boundColumn.HeaderText = "Unit Price";
-	        tableViewOrderDetails.Columns.Add(boundColumn);
-	
-	        boundColumn = new GridBoundColumn();
-	        boundColumn.DataField = "Quantity";
-	        boundColumn.HeaderText = "Quantity";
-	        tableViewOrderDetails.Columns.Add(boundColumn);
-	
-	        this.PlaceHolder1.Controls.Add(RadGrid1);
-	    }
+private void DefineGridStructure()
+{
+    this.RadGrid1 = new RadGrid();
+
+    this.RadGrid1.NeedDataSource += new GridNeedDataSourceEventHandler(this.RadGrid1_NeedDataSource);
+    this.RadGrid1.DetailTableDataBind += new GridDetailTableDataBindEventHandler(this.RadGrid1_DetailTableDataBind);
+
+    this.RadGrid1.CssClass = "RadGrid";
+
+    this.RadGrid1.Width = Unit.Percentage(100);
+    this.RadGrid1.PageSize = 5;
+    this.RadGrid1.AllowPaging = true;
+    this.RadGrid1.AutoGenerateColumns = false;
+
+    this.RadGrid1.MasterTableView.DataMember = "Customers";
+    this.RadGrid1.MasterTableView.PageSize = 15;
+
+    GridBoundColumn boundColumn;
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "CustomerID";
+    boundColumn.HeaderText = "CustomerID";
+    this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
+
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "ContactName";
+    boundColumn.HeaderText = "Contact Name";
+    this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
+
+    this.RadGrid1.MasterTableView.Columns.Add(new GridExpandColumn());
+
+    this.RadGrid1.MasterTableView.GroupByExpressions.Add(new GridGroupByExpression("Country Group By Country"));
+
+    GridTableView tableViewOrders = new GridTableView(RadGrid1);
+    tableViewOrders.DataMember = "Orders";
+    this.RadGrid1.MasterTableView.DetailTables.Add(tableViewOrders);
+
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "OrderID";
+    boundColumn.HeaderText = "OrderID";
+    tableViewOrders.Columns.Add(boundColumn);
+
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "OrderDate";
+    boundColumn.HeaderText = "Date Ordered";
+    tableViewOrders.Columns.Add(boundColumn);
+
+    GridTableView tableViewOrderDetails = new GridTableView(RadGrid1);
+    tableViewOrderDetails.DataMember = "OrderDetails";
+    tableViewOrders.DetailTables.Add(tableViewOrderDetails);
+
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "UnitPrice";
+    boundColumn.HeaderText = "Unit Price";
+    tableViewOrderDetails.Columns.Add(boundColumn);
+
+    boundColumn = new GridBoundColumn();
+    boundColumn.DataField = "Quantity";
+    boundColumn.HeaderText = "Quantity";
+    tableViewOrderDetails.Columns.Add(boundColumn);
+
+    this.PlaceHolder1.Controls.Add(RadGrid1);
+}
 ````
 ````VB
-	    Private Sub DefineGridStructure()
-	        Me.RadGrid1 = New RadGrid
-	
-	        AddHandler Me.RadGrid1.NeedDataSource, New GridNeedDataSourceEventHandler(AddressOf Me.RadGrid1_NeedDataSource)
-	        AddHandler Me.RadGrid1.DetailTableDataBind, New GridDetailTableDataBindEventHandler(AddressOf Me.RadGrid1_DetailTableDataBind)
-	
-	        Me.RadGrid1.CssClass = "RadGrid"
-	        Me.RadGrid1.Width = Unit.Percentage(100)
-	        Me.RadGrid1.PageSize = 5
-	        Me.RadGrid1.AllowPaging = True
-	        Me.RadGrid1.AutoGenerateColumns = False
-	        Me.RadGrid1.MasterTableView.DataMember = "Customers"
-	        Me.RadGrid1.MasterTableView.PageSize = 15
-	
-	        Dim column1 As New GridBoundColumn
-	        column1.DataField = "CustomerID"
-	        column1.HeaderText = "CustomerID"
-	        Me.RadGrid1.MasterTableView.Columns.Add(column1)
-	
-	        column1 = New GridBoundColumn
-	        column1.DataField = "ContactName"
-	        column1.HeaderText = "Contact Name"
-	        Me.RadGrid1.MasterTableView.Columns.Add(column1)
-	
-	        Dim view1 As New GridTableView(Me.RadGrid1)
-	        view1.DataMember = "Orders"
-	        Me.RadGrid1.MasterTableView.DetailTables.Add(view1)
-	
-	        column1 = New GridBoundColumn
-	        column1.DataField = "OrderID"
-	        column1.HeaderText = "OrderID"
-	        view1.Columns.Add(column1)
-	
-	        column1 = New GridBoundColumn
-	        column1.DataField = "OrderDate"
-	        column1.HeaderText = "Date Ordered"
-	        view1.Columns.Add(column1)
-	
-	        Dim view2 As New GridTableView(Me.RadGrid1)
-	        view2.DataMember = "OrderDetails"
-	        view1.DetailTables.Add(view2)
-	
-	        column1 = New GridBoundColumn
-	        column1.DataField = "UnitPrice"
-	        column1.HeaderText = "Unit Price"
-	        view2.Columns.Add(column1)
-	
-	        column1 = New GridBoundColumn
-	        column1.DataField = "Quantity"
-	        column1.HeaderText = "Quantity"
-	        view2.Columns.Add(column1)
-	
-	        Me.PlaceHolder1.Controls.Add(Me.RadGrid1)
-	
-	    End Sub
+Private Sub DefineGridStructure()
+    Me.RadGrid1 = New RadGrid
+
+    AddHandler Me.RadGrid1.NeedDataSource, New GridNeedDataSourceEventHandler(AddressOf Me.RadGrid1_NeedDataSource)
+    AddHandler Me.RadGrid1.DetailTableDataBind, New GridDetailTableDataBindEventHandler(AddressOf Me.RadGrid1_DetailTableDataBind)
+
+    Me.RadGrid1.CssClass = "RadGrid"
+    Me.RadGrid1.Width = Unit.Percentage(100)
+    Me.RadGrid1.PageSize = 5
+    Me.RadGrid1.AllowPaging = True
+    Me.RadGrid1.AutoGenerateColumns = False
+    Me.RadGrid1.MasterTableView.DataMember = "Customers"
+    Me.RadGrid1.MasterTableView.PageSize = 15
+
+    Dim column1 As New GridBoundColumn
+    column1.DataField = "CustomerID"
+    column1.HeaderText = "CustomerID"
+    Me.RadGrid1.MasterTableView.Columns.Add(column1)
+
+    column1 = New GridBoundColumn
+    column1.DataField = "ContactName"
+    column1.HeaderText = "Contact Name"
+    Me.RadGrid1.MasterTableView.Columns.Add(column1)
+
+    Dim view1 As New GridTableView(Me.RadGrid1)
+    view1.DataMember = "Orders"
+    Me.RadGrid1.MasterTableView.DetailTables.Add(view1)
+
+    column1 = New GridBoundColumn
+    column1.DataField = "OrderID"
+    column1.HeaderText = "OrderID"
+    view1.Columns.Add(column1)
+
+    column1 = New GridBoundColumn
+    column1.DataField = "OrderDate"
+    column1.HeaderText = "Date Ordered"
+    view1.Columns.Add(column1)
+
+    Dim view2 As New GridTableView(Me.RadGrid1)
+    view2.DataMember = "OrderDetails"
+    view1.DetailTables.Add(view2)
+
+    column1 = New GridBoundColumn
+    column1.DataField = "UnitPrice"
+    column1.HeaderText = "Unit Price"
+    view2.Columns.Add(column1)
+
+    column1 = New GridBoundColumn
+    column1.DataField = "Quantity"
+    column1.HeaderText = "Quantity"
+    view2.Columns.Add(column1)
+
+    Me.PlaceHolder1.Controls.Add(Me.RadGrid1)
+
+End Sub
 ````
 
 
@@ -164,13 +164,13 @@ The whole structure of **RadGrid** with its detail tables is saved in the **View
 At runtime, when binding the data, **RadGrid** builds the structure of items (grid rows) with respect to the structure of the detail tables as it was defined in Step 1. **RadGrid** will create a new control **GridTableView** for each item in the master table. Then **RadGrid** will assign it as a child of the master item. This control will be a copy of the corresponding table - this should be DetailTable(0). So, for example, if you have 3 items in the **MasterTableView** in the second level of the hierarchy, the grid will look like this:
 
 ````ASP.NET
-	  MasterTableView
-	    + Item(0)
-	        DetailTable0 (copy 0)
-	    + Item(1)
-	        DetailTable0 (copy 1)
-	    + Item(2)
-	        DetailTable0 (copy 2)
+MasterTableView
+  + Item(0)
+      DetailTable0 (copy 0)
+  + Item(1)
+      DetailTable0 (copy 1)
+  + Item(2)
+      DetailTable0 (copy 2)
 ````
 
 
@@ -178,11 +178,11 @@ At runtime, when binding the data, **RadGrid** builds the structure of items (gr
 In this structure Item(0) is the parent item forDetailTable(0). You can get its instance using the **GridTableView.ParentItem** property, where **GridTableView** is *DetailTable0 (copy 0)*. In our example grid structure there is third level of the hierarchy and each item of the copies of *DetailTable(0)* should have a detail table that is copy of DetailTable(0, 0). For example let's say that the copy of DetailTable(0) with index 0 has 2 items:
 
 ````ASP.NET
-	  DetailTable0 (copy 0)
-	    + Item(0)
-	        DetailTable(0, 0) (copy 0)
-	    + Item(1)
-	        DetailTable(0, 0) (copy 1)
+DetailTable0 (copy 0)
+  + Item(0)
+      DetailTable(0, 0) (copy 0)
+  + Item(1)
+      DetailTable(0, 0) (copy 1)
 ````
 
 

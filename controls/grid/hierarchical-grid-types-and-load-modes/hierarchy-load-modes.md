@@ -84,7 +84,7 @@ Thus you can balance the loading of the grid between:
 
 * the server - will save some client-load for the inner tables of the grid.
 
-or use **HierarchyLoadMode.Conditional** in order to force this balanced behaviour in the RadGrid.
+or use **HierarchyLoadMode.Conditional** in order to force this balanced behavior in the RadGrid.
 
 The example below shows the advanced hierarchy model of Telerik RadGrid with mixed mode expand/collapse (client-side and server-side). A three level hierarchy is demonstrated with Customer Master Table and two nested Detail Tables: Orders and OrderDetails. The first level of hierarchy uses client-side (**HierarchyLoadMode.Client**) expand and the second level uses server-side mode (**HierarchyLoadMode.ServerBind**)
 

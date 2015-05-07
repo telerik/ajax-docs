@@ -19,39 +19,39 @@ In case you have a grid with lots of records being shown at once, waiting for th
 Here is some sample code:
 
 ````ASP.NET
-	<telerik:RadAjaxManager id="RadAjaxManager1" runat="server">
-	  <AjaxSettings>    
-	    <telerik:AjaxSetting AjaxControlID="RadGrid1">       
-	      <UpdatedControls>          
-	      <telerik:AjaxUpdatedControl ControlID="RadGrid1" />       
-	      </UpdatedControls>    
-	    </telerik:AjaxSetting>  
-	  </AjaxSettings>  
-	  <ClientEvents OnRequestStart="RequestStart" OnResponseEnd="ResponseEnd" />
-	</telerik:RadAjaxManager> 
-	<telerik:RadGrid id="RadGrid1" runat="server" ... /> 			
+<telerik:RadAjaxManager id="RadAjaxManager1" runat="server">
+  <AjaxSettings>    
+    <telerik:AjaxSetting AjaxControlID="RadGrid1">       
+      <UpdatedControls>          
+      <telerik:AjaxUpdatedControl ControlID="RadGrid1" />       
+      </UpdatedControls>    
+    </telerik:AjaxSetting>  
+  </AjaxSettings>  
+  <ClientEvents OnRequestStart="RequestStart" OnResponseEnd="ResponseEnd" />
+</telerik:RadAjaxManager> 
+<telerik:RadGrid id="RadGrid1" runat="server" ... /> 			
 ````
 
 
 
 ````JavaScript
-	 <style type="text/css">        
-	 .hidewaiting td        
-	 {            
-	  cursor: default;        
-	 }           
-	 </style>
-	 <script type="text/javascript">
-	    function RequestStart(){       
-	        var grid = $find("<%= RadGrid1.ClientID %>");     
-	        grid.Control.className = "hidewaiting"; 
-	     }
-	     function ResponseEnd()
-	     {     
-	       var grid = $find("<%= RadGrid1.ClientID %>");   
-	       grid.Control.style.cursor = "";
-	     }		
-	 </script>	
+<style type="text/css">        
+.hidewaiting td        
+{            
+ cursor: default;        
+}           
+</style>
+<script type="text/javascript">
+   function RequestStart(){       
+       var grid = $find("<%= RadGrid1.ClientID %>");     
+       grid.Control.className = "hidewaiting"; 
+    }
+    function ResponseEnd()
+    {     
+      var grid = $find("<%= RadGrid1.ClientID %>");   
+      grid.Control.style.cursor = "";
+    }		
+</script>	
 ````
 
 

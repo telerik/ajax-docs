@@ -28,6 +28,7 @@ In case you set the "**ShowUnGroupButton**" property of the grid control to "**t
 
 * When the grid gets grouped – you see only an arrow pointing down and the text "View Groups"![adaptive grid Grouping 3](images/adaptive_grid_Grouping3.png)
 
-* Drag to group action works the same way as before – you drag a column header and drop it on the group panel item. It will **not** be visible in the group panel item. The group items can be dragged and reordered only by using the icon in the left part of the item (image). When the "**AllowDragToReorder**" property is set to "**false**" the mentioned icon will not be visible.![adaptive grid Grouping 2](images/adaptive_grid_Grouping2.png)
+* Drag to group action works the same way as before – you drag a column header and drop it on the group panel item. It will **not** be visible in the group panel item. The group items can be dragged and reordered only by using the icon in the left part of the item (image). When the "**AllowDragToReorder**" property is set to "**false**" the mentioned icon will not be visible.
+![adaptive grid Grouping 2](images/adaptive_grid_Grouping2.png)
 
 ## See Also

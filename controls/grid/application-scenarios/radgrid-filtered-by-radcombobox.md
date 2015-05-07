@@ -23,37 +23,37 @@ Here is a screen shot from the example and the aspx code:
 ![Grid filtered by combo](images/grdGridFilteredByCombo.PNG)
 
 ````ASP.NET
-	        <asp:Label ID="comboLbl" runat="server" Text="Select contact name to view its product orders." />
-	        <telerik:RadComboBox ID="NamesDDL" runat="server" AutoPostBack="True" DataSourceID="dllDataSource"
-	            DataTextField="ContactName" DataValueField="SupplierID" Width="250px" Height="150px"
-	            AppendDataBoundItems="true">
-	            <Items>
-	                <telerik:RadComboBoxItem Text="All" Value="0" Selected="true" />
-	            </Items>
-	        </telerik:RadComboBox>
-	        <telerik:RadGrid ID="OrdersGrid" AllowPaging="true" DataSourceID="gridSource" runat="server"
-	                GridLines="None" Width="97%" AllowSorting="true">
-	        </telerik:RadGrid>
-	        <asp:SqlDataSource ID="dllDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	            SelectCommand="SELECT TOP 20 [ContactName], [SupplierID] FROM [Suppliers]"></asp:SqlDataSource>
-	        <asp:SqlDataSource ID="gridSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-	            SelectCommand="if (@SupplierID <> 0) begin SELECT ProductID, ProductName, QuantityPerUnit, UnitPrice, UnitsInStock, Discontinued FROM Products WHERE SupplierID = @SupplierID end
-	                else begin SELECT ProductID, ProductName, QuantityPerUnit, UnitPrice, UnitsInStock, Discontinued FROM Products end">
-	            <SelectParameters>
-	                <asp:ControlParameter Name="SupplierID" PropertyName="SelectedValue" ControlID="NamesDDL" />
-	            </SelectParameters>
-	        </asp:SqlDataSource>
-	        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnableAJAX="true" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
-	            <AjaxSettings>
-	                <telerik:AjaxSetting AjaxControlID="NamesDDL">
-	                    <UpdatedControls>
-	                        <telerik:AjaxUpdatedControl ControlID="OrdersGrid" LoadingPanelID="AjaxLoadingPanel1" />
-	                        <telerik:AjaxUpdatedControl ControlID="NamesDDL" />
-	                    </UpdatedControls>
-	                </telerik:AjaxSetting>
-	            </AjaxSettings>
-	        </telerik:RadAjaxManager>
-	        <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
+<asp:Label ID="comboLbl" runat="server" Text="Select contact name to view its product orders." />
+<telerik:RadComboBox ID="NamesDDL" runat="server" AutoPostBack="True" DataSourceID="dllDataSource"
+    DataTextField="ContactName" DataValueField="SupplierID" Width="250px" Height="150px"
+    AppendDataBoundItems="true">
+    <Items>
+        <telerik:RadComboBoxItem Text="All" Value="0" Selected="true" />
+    </Items>
+</telerik:RadComboBox>
+<telerik:RadGrid ID="OrdersGrid" AllowPaging="true" DataSourceID="gridSource" runat="server"
+        GridLines="None" Width="97%" AllowSorting="true">
+</telerik:RadGrid>
+<asp:SqlDataSource ID="dllDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="SELECT TOP 20 [ContactName], [SupplierID] FROM [Suppliers]"></asp:SqlDataSource>
+<asp:SqlDataSource ID="gridSource" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
+    SelectCommand="if (@SupplierID <> 0) begin SELECT ProductID, ProductName, QuantityPerUnit, UnitPrice, UnitsInStock, Discontinued FROM Products WHERE SupplierID = @SupplierID end
+        else begin SELECT ProductID, ProductName, QuantityPerUnit, UnitPrice, UnitsInStock, Discontinued FROM Products end">
+    <SelectParameters>
+        <asp:ControlParameter Name="SupplierID" PropertyName="SelectedValue" ControlID="NamesDDL" />
+    </SelectParameters>
+</asp:SqlDataSource>
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" EnableAJAX="true" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
+    <AjaxSettings>
+        <telerik:AjaxSetting AjaxControlID="NamesDDL">
+            <UpdatedControls>
+                <telerik:AjaxUpdatedControl ControlID="OrdersGrid" LoadingPanelID="AjaxLoadingPanel1" />
+                <telerik:AjaxUpdatedControl ControlID="NamesDDL" />
+            </UpdatedControls>
+        </telerik:AjaxSetting>
+    </AjaxSettings>
+</telerik:RadAjaxManager>
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
 
 

@@ -40,10 +40,10 @@ Here is a list of the available command names in Telerik RadGrid:
 | **PerformInsertCommandName** |Fires **RadGrid.InsertCommand** event. Under .Net 2.0 Perfoms this command can perform automatic insert operation and close the insert item.|
 | **RebindGridCommandName** |By default grid renders [Refresh] image button in the **CommandItem** . Forces **RadGrid.Rebind** |
 | **SortCommandName** |Represents the Sort command name.By default it is fired by image buttons in the header item when Sorting is enabled. The argument for the **SortCommand** must be the **DataField** name for the **DataField** to be sorted.|
-| **ExportToExcelCommandName** |Exports grid data in Microsoft Excel ® format. You will needto[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToWordCommandName** |Exports grid data in Microsoft Word ® format. You will needto[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToPdfCommandName** |Exports grid data in PDF format. You will needto[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
-| **ExportToCsvCommandName** |Exports grid data in CSV format (comma-separated values). You will needto[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToExcelCommandName** |Exports grid data in Microsoft Excel ® format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToWordCommandName** |Exports grid data in Microsoft Word ® format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToPdfCommandName** |Exports grid data in PDF format. You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
+| **ExportToCsvCommandName** |Exports grid data in CSV format (comma-separated values). You will need to[configure exporting settings]({%slug grid/functionality/exporting/overview%})for the grid through the **RadGrid.ExportSettings** section.|
 |Fired by controls within **PagerItem** ||
 | **PageCommandName** |Represents the Page command name.See also:[Paging]({%slug grid/functionality/paging/overview%})|
 |Fired when the PageSize property is set and changed.||

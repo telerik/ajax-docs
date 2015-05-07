@@ -17,10 +17,10 @@ position: 2
 Here is some insight about the mechanism which Telerik RadGrid uses to present values for **GridDropDownColumn:**
 
 ````ASP.NET
-	//sample inline GridDropDownColumn definition
-	<telerik:GridDropDownColumn UniqueName="AccessLevelID" ListDataMember="AccessLevel"
-	  SortExpression="AccessLevelID" ListTextField="Description" ListValueField="DDL_AccessLevelID"
-	  HeaderText="AccessLevelID" DataField="GRID_AccessLevelID" />
+//sample inline GridDropDownColumn definition
+<telerik:GridDropDownColumn UniqueName="AccessLevelID" ListDataMember="AccessLevel"
+  SortExpression="AccessLevelID" ListTextField="Description" ListValueField="DDL_AccessLevelID"
+  HeaderText="AccessLevelID" DataField="GRID_AccessLevelID" />
 ````
 
 
@@ -36,15 +36,14 @@ Here is some insight about the mechanism which Telerik RadGrid uses to present v
 
 
 ````C#
-	        //sample select command for grid data-source generation
-	        DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
-	        DBadapter.Fill(MyUsersData, "AccessLevel")        
+//sample select command for grid data-source generation
+DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
+DBadapter.Fill(MyUsersData, "AccessLevel")        
 ````
-````VB
-	
-	    'sample select command for GridDropDownColumn data-source generation
-	    DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
-	    DBadapter.Fill(MyUsersData, "AccessLevel")
+````VB	
+'sample select command for GridDropDownColumn data-source generation
+DBadapter.SelectCommand = New OleDbCommand("SELECT DDL_AccessLevelID, Description FROM AccessLevel", conn)
+DBadapter.Fill(MyUsersData, "AccessLevel")
 ````
 
 
@@ -69,37 +68,36 @@ The code below will place new item with text **Select Contact Title** (colored i
 
 
 ````VB
-	    Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        If (TypeOf e.Item Is GridEditableItem AndAlso CType(e.Item, GridEditableItem).IsInEditMode) Then
-	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-	            Dim editMan As GridEditManager = editedItem.EditManager
-	            Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"), GridDropDownListColumnEditor)
-	            'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),              
-	            'you will need to use ComboBoxControl below instead of DropDownListControl              
-	            'and add RadComboBoxItems instead of ListItems to the Items collection of the editor             
-	            Dim ddList As DropDownList = editor.DropDownListControl
-	            ddList.Items.Insert(0, New ListItem("Select Contact Title", "NotSetItem"))
-	            ddList.Items(0).Attributes("style") = "color: red"
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    If (TypeOf e.Item Is GridEditableItem AndAlso CType(e.Item, GridEditableItem).IsInEditMode) Then
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+        Dim editMan As GridEditManager = editedItem.EditManager
+        Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"), GridDropDownListColumnEditor)
+        'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),              
+        'you will need to use ComboBoxControl below instead of DropDownListControl              
+        'and add RadComboBoxItems instead of ListItems to the Items collection of the editor             
+        Dim ddList As DropDownList = editor.DropDownListControl
+        ddList.Items.Insert(0, New ListItem("Select Contact Title", "NotSetItem"))
+        ddList.Items(0).Attributes("style") = "color: red"
+    End If
+End Sub
 ````
-````C#
-	
-	    protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && e.Item.IsInEditMode)
-	        {
-	            GridEditableItem editedItem = e.Item as GridEditableItem;
-	            GridEditManager editMan = editedItem.EditManager;
-	            GridDropDownListColumnEditor editor = (GridDropDownListColumnEditor)(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"));
-	            //in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),  
-	            //you will need to use ComboBoxControl below instead of DropDownListControl   
-	            //and add RadComboBoxItems instead of ListItems to the Items collection of the editor
-	            DropDownList ddList = editor.DropDownListControl;
-	            ddList.Items.Insert(0, new ListItem("Select Contact Title", "NotSetItem"));
-	            ddList.Items[0].Attributes["style"] = "color: red";
-	        }
-	    }
+````C#	
+protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
+    {
+        GridEditableItem editedItem = e.Item as GridEditableItem;
+        GridEditManager editMan = editedItem.EditManager;
+        GridDropDownListColumnEditor editor = (GridDropDownListColumnEditor)(editMan.GetColumnEditor("<MyDropDownColumnUniqueName>"));
+        //in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),  
+        //you will need to use ComboBoxControl below instead of DropDownListControl   
+        //and add RadComboBoxItems instead of ListItems to the Items collection of the editor
+        DropDownList ddList = editor.DropDownListControl;
+        ddList.Items.Insert(0, new ListItem("Select Contact Title", "NotSetItem"));
+        ddList.Items[0].Attributes["style"] = "color: red";
+    }
+}
 ````
 
 
@@ -110,10 +108,10 @@ The code below will place new item with text **Select Contact Title** (colored i
 Moreover, you may want to display an empty item/default item which differs from the first in the list (inside the dropdown editor) as selected on initial insertion. This can be accomplished in a codeless manner setting the **EnableEmptyListItem** property of the **GridDropDownColumn** to **true** (its default value is **false**) and choosing **EmptyListItemText/EmptyListItemValue**. Below is an example for that:
 
 ````ASP.NET
-	<telerik:GridDropDownColumn UniqueName="ContactName" DataSourceID="ddListColumnDataSource"
-	  SortExpression="ContactName" ListTextField="ContactName" EnableEmptyListItem="true"
-	  EmptyListItemText="--Choose an option--" EmptyListItemValue="" ListValueField="CustomerID"
-	  HeaderText="Contact name" DataField="CustomerID" />
+<telerik:GridDropDownColumn UniqueName="ContactName" DataSourceID="ddListColumnDataSource"
+  SortExpression="ContactName" ListTextField="ContactName" EnableEmptyListItem="true"
+  EmptyListItemText="--Choose an option--" EmptyListItemValue="" ListValueField="CustomerID"
+  HeaderText="Contact name" DataField="CustomerID" />
 ````
 
 
@@ -125,42 +123,42 @@ The proper event you need to hook in order to attain this effect is **ItemDataBo
 
 
 ````C#
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridEditableItem && (e.Item as GridEditableItem).IsInEditMode)
-	        {
-	            GridEditableItem editedItem = e.Item as GridEditableItem;
-	            GridEditManager editMan = editedItem.EditManager;
-	
-	            GridDropDownListColumnEditor editor = editMan.GetColumnEditor("DropDownColumnUniqueName") as GridDropDownListColumnEditor;
-	            //in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),   
-	            //you will need to use ComboBoxControl below instead of DropDownListControl 
-	            //Then you can modify the list control as per your custom conventions
-	            editor.DataSource = new object[] { 1, 2, 3 };
-	            editor.DataBind();
-	
-	            editor.DropDownListControl.SelectedValue = "2";
-	            //And so on
-	        }
-	    }
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridEditableItem && (e.Item as GridEditableItem).IsInEditMode)
+    {
+        GridEditableItem editedItem = e.Item as GridEditableItem;
+        GridEditManager editMan = editedItem.EditManager;
+
+        GridDropDownListColumnEditor editor = editMan.GetColumnEditor("DropDownColumnUniqueName") as GridDropDownListColumnEditor;
+        //in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),   
+        //you will need to use ComboBoxControl below instead of DropDownListControl 
+        //Then you can modify the list control as per your custom conventions
+        editor.DataSource = new object[] { 1, 2, 3 };
+        editor.DataBind();
+
+        editor.DropDownListControl.SelectedValue = "2";
+        //And so on
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	    If (TypeOf e.Item is GridEditableItem AndAlso (e.Item,GridEditableItem).IsInEditMode)) Then
-	            Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
-	            Dim editMan As GridEditManager = editedItem.EditManager
-	
-	            Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("DropDownColumnUniqueName"), GridDropDownListColumnEditor)
-	            'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),            
-	            'you will need to use ComboBoxControl below instead of DropDownListControl 
-	            'Then you can modify the list control as per your custom conventions
-	            editor.DataSource = New Object() {1, 2, 3}
-	            editor.DataBind()
-	
-	            editor.DropDownListControl.SelectedValue = "2"
-	            'And so on
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+If (TypeOf e.Item is GridEditableItem AndAlso (e.Item,GridEditableItem).IsInEditMode)) Then
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+        Dim editMan As GridEditManager = editedItem.EditManager
+
+        Dim editor As GridDropDownListColumnEditor = CType(editMan.GetColumnEditor("DropDownColumnUniqueName"), GridDropDownListColumnEditor)
+        'in case you have RadComboBox editor for the GridDropDownColumn (this is the default editor),            
+        'you will need to use ComboBoxControl below instead of DropDownListControl 
+        'Then you can modify the list control as per your custom conventions
+        editor.DataSource = New Object() {1, 2, 3}
+        editor.DataBind()
+
+        editor.DropDownListControl.SelectedValue = "2"
+        'And so on
+    End If
+End Sub
 ````
 
 
@@ -201,6 +199,6 @@ It is important to note the differences in the column editor with and without lo
 |SelectedValue|Contains value of related field specified by ListValueField/DataField|Contains value of related field specified by ListValueField/DataField|
 |SelectedIndex|Always returns -1|Returns index of selected item from RadComboBox|
 |ComboBoxControl.SelectedIndex|Always returns -1|Returns index of selected item from RadComboBox|
-|ComboBoxControl.SelectedItem|Always returnsnull|Returns selected item from RadComboBox|
+|ComboBoxControl.SelectedItem|Always returns null|Returns selected item from RadComboBox|
 
 For a live demo of the GridDropDownColumn features, please visit the [RadGrid Column Types online QSF example](http://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/columntypes/defaultcs.aspx). To learn more about RadComboBox and its load-on-demand support, please refer to the [Automatic Load-On-Demand for RadComboBox](http://www.telerik.com/help/aspnet-ajax/combobox-automatic-load-on-demand.html) help article.

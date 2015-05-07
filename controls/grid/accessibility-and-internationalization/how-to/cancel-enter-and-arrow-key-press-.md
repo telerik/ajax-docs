@@ -29,9 +29,9 @@ The necessary steps to achieve this are listed below:
 This approach is demonstrated in the code samples below:
 
 ````ASP.NET
-	<ClientSettings AllowKeyboardNavigation="true" ClientEvents-OnKeyPress="KeyPressed">
-	     <Selecting AllowRowSelect="true" />
-	</ClientSettings>
+<ClientSettings AllowKeyboardNavigation="true" ClientEvents-OnKeyPress="KeyPressed">
+     <Selecting AllowRowSelect="true" />
+</ClientSettings>
 ````
 
 
@@ -39,11 +39,11 @@ This approach is demonstrated in the code samples below:
 And the JavaScript code:
 
 ````JavaScript
-	    function KeyPressed(sender, eventArgs) {
-	      if (eventArgs.get_keyCode() == 13) {
-	        eventArgs.set_cancel(true)
-	      }
-	    }
+function KeyPressed(sender, eventArgs) {
+  if (eventArgs.get_keyCode() == 13) {
+    eventArgs.set_cancel(true)
+  }
+}
 ````
 
 

@@ -37,39 +37,39 @@ Using declarative binding expressions command buttons in the pager can control t
 ![Pager Template](images/grd_PagerTemplate.png)
 
 ````ASP.NET
-	<PagerTemplate>
-	   <table border="0" cellpadding="5" height="18px" width="100%">
-	     <tr>
-	<td style="border-style:none;">
-	<asp:LinkButton ID="LinkButton1" CommandName="Page" CausesValidation="false" CommandArgument="First" runat="server">First</asp:LinkButton>
-	</td>
-	<td style="border-style:none;">
-	<asp:LinkButton ID="LinkButton5" CommandName="Page" CausesValidation="false" CommandArgument="Prev" runat="server">Prev</asp:LinkButton>
-	</td>
-	<td style="border-style:none;">
-	<asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# (int)DataBinder.Eval(Container, "OwnerTableView.CurrentPageIndex") + 1 %>' />
-	   <asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber" EnableClientScript="true" MinimumValue="1"
-	    Type="Integer"
-	    MaximumValue='<%# DataBinder.Eval(Container, "Paging.PageCount") %>'
-	    ErrorMessage='<%# "Value must be in the range of 1 - " + DataBinder.Eval(Container, "Paging.PageCount") %>'
-	    Display="Dynamic"></asp:RangeValidator>
-	</td>
-	<td style="border-style:none;">
-	<asp:LinkButton ID="LinkButton4" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
-	</td>
-	<td style="border-style:none;">
-	<asp:LinkButton ID="LinkButton3" CommandName="Page" CausesValidation="false" CommandArgument="Next" runat="server">Next</asp:LinkButton>
-	</td>
-	<td style="border-style:none;">
-	<asp:LinkButton ID="LinkButton2" CommandName="Page" CausesValidation="false" CommandArgument="Last" runat="server">Last</asp:LinkButton>
-	</td>
-	<td style="border-style:none;width:100%" align="right">
-	<asp:LinkButton ID="LinkButton6" CommandName="RebindGrid" CausesValidation="false" runat="server">Refresh data</asp:LinkButton>
-	</td>
-	</tr>
-	</table>
-	</PagerTemplate>
-	
+<PagerTemplate>
+   <table border="0" cellpadding="5" height="18px" width="100%">
+     <tr>
+<td style="border-style:none;">
+<asp:LinkButton ID="LinkButton1" CommandName="Page" CausesValidation="false" CommandArgument="First" runat="server">First</asp:LinkButton>
+</td>
+<td style="border-style:none;">
+<asp:LinkButton ID="LinkButton5" CommandName="Page" CausesValidation="false" CommandArgument="Prev" runat="server">Prev</asp:LinkButton>
+</td>
+<td style="border-style:none;">
+<asp:TextBox ID="tbPageNumber" runat="server" Columns="3" Text='<%# (int)DataBinder.Eval(Container, "OwnerTableView.CurrentPageIndex") + 1 %>' />
+   <asp:RangeValidator runat="Server" ID="RangeValidator1" ControlToValidate="tbPageNumber" EnableClientScript="true" MinimumValue="1"
+    Type="Integer"
+    MaximumValue='<%# DataBinder.Eval(Container, "Paging.PageCount") %>'
+    ErrorMessage='<%# "Value must be in the range of 1 - " + DataBinder.Eval(Container, "Paging.PageCount") %>'
+    Display="Dynamic"></asp:RangeValidator>
+</td>
+<td style="border-style:none;">
+<asp:LinkButton ID="LinkButton4" runat="server" CommandName="CustomChangePage">Go</asp:LinkButton>
+</td>
+<td style="border-style:none;">
+<asp:LinkButton ID="LinkButton3" CommandName="Page" CausesValidation="false" CommandArgument="Next" runat="server">Next</asp:LinkButton>
+</td>
+<td style="border-style:none;">
+<asp:LinkButton ID="LinkButton2" CommandName="Page" CausesValidation="false" CommandArgument="Last" runat="server">Last</asp:LinkButton>
+</td>
+<td style="border-style:none;width:100%" align="right">
+<asp:LinkButton ID="LinkButton6" CommandName="RebindGrid" CausesValidation="false" runat="server">Refresh data</asp:LinkButton>
+</td>
+</tr>
+</table>
+</PagerTemplate>
+
 ````
 
 

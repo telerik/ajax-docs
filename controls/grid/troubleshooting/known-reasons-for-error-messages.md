@@ -21,26 +21,21 @@ Note that if you want to set empty sources for the MasterTableView/DetailTables 
 
 
 ````C#
-	            <GridInstance>.DataSource = new Object[0];  
+<GridInstance>.DataSource = new Object[0];  
 ````
-````VB
-	     
-							<GridInstance>.DataSource = new Object(){}
-				
+````VB	     
+<GridInstance>.DataSource = new Object(){}		
 ````
-
 
 or
 
 
-
 ````C#
-	<DetailTableInstance>.DataSource = new Object[0];          
+
+<DetailTableInstance>.DataSource = new Object[0];          
 ````
 ````VB
-	     
-							<DetailTableInstance>.DataSource = new Object(){}
-				
+<DetailTableInstance>.DataSource = new Object(){}				
 ````
 
 
@@ -71,33 +66,33 @@ This problem can be fixed in the following ways:
 
 
 ````C#
-	protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
-	{
-	    if (e.CommandName == RadGrid.InitInsertCommandName)
-	        {
-	            //Add new" button clicked
-	            e.Canceled = true;
-	            //Prepare an IDictionary with the predefined values
-	            System.Collections.Specialized.ListDictionary newValues = new
-	            System.Collections.Specialized.ListDictionary();
-	            newValues[ "<ColumnDataField>"] = "<predefined_value>";
-	            //Insert the item and rebind
-	            e.Item.OwnerTableView.InsertItem(newValues);
-	        }
-	}          
+protected void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
+{
+    if (e.CommandName == RadGrid.InitInsertCommandName)
+        {
+            //Add new" button clicked
+            e.Canceled = true;
+            //Prepare an IDictionary with the predefined values
+            System.Collections.Specialized.ListDictionary newValues = new
+            System.Collections.Specialized.ListDictionary();
+            newValues[ "<ColumnDataField>"] = "<predefined_value>";
+            //Insert the item and rebind
+            e.Item.OwnerTableView.InsertItem(newValues);
+        }
+}          
 ````
 ````VB
-	    Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-	        If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
-	            e.Canceled = True
-	            'Prepare an IDictionary with the predefined values
-	     Dim newValues As System.Collections.Specialized.ListDictionary = New
-	            System.Collections.Specialized.ListDictionary()
-	            newValues("<ColumnDataField>") = "<predefined_value>"
-	            'Insert the item and rebind
-	            e.Item.OwnerTableView.InsertItem(newValues)
-	        End If
-	    End Sub
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
+        e.Canceled = True
+        'Prepare an IDictionary with the predefined values
+ Dim newValues As System.Collections.Specialized.ListDictionary = New
+        System.Collections.Specialized.ListDictionary()
+        newValues("<ColumnDataField>") = "<predefined_value>"
+        'Insert the item and rebind
+        e.Item.OwnerTableView.InsertItem(newValues)
+    End If
+End Sub
 ````
 
 
@@ -114,13 +109,13 @@ There are two possible reasons for this error message to appear:
 * There are items in your database with values which differ by spaces. For example:
 
 ````ASP.NET
-	//arbitrary column string values
-	billy dean
-	heath j aldrich[SPACE]
-	heath j aldrich
-	heath j aldrich
-	HEATH ALDRICH
-	HEATH ALDRICH
+//arbitrary column string values
+billy dean
+heath j aldrich[SPACE]
+heath j aldrich
+heath j aldrich
+HEATH ALDRICH
+HEATH ALDRICH
 ````
 
 When you strip the space from the item/or add space at the end of the string for the other two fields with the same name, the problem should disappear.It seems that the relation created by the DataSource control and the grid on grouping are not unique when the difference between these field values is merely a space.Currently we are researching this matter thoroughly and will do everything possible to fix it in one of the next versions of the grid.

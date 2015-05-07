@@ -33,19 +33,19 @@ You can set the appearance of the normal and alternating rows programmatically o
 
 
 ````ASP.NET
-	<telerik:RadGrid runat="server" ... />
-	<AlternatingItemStyle BackColor="Orange" ... />
-	<ItemStyle BackColor="White" ... />
+<telerik:RadGrid runat="server" ... />
+<AlternatingItemStyle BackColor="Orange" ... />
+<ItemStyle BackColor="White" ... />
 ````
 ````VB
-	    Dim RadGrid1 As RadGrid = New RadGrid()
-	    RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
-	    RadGrid1.ItemStyle.BackColor = Color.White
+Dim RadGrid1 As RadGrid = New RadGrid()
+RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
+RadGrid1.ItemStyle.BackColor = Color.White
 ````
 ````C#
-	        RadGrid RadGrid1 = new RadGrid();
-	        RadGrid1.AlternatingItemStyle.BackColor = Color.Orange;
-	        RadGrid1.ItemStyle.BackColor = Color.White;
+RadGrid RadGrid1 = new RadGrid();
+RadGrid1.AlternatingItemStyle.BackColor = Color.Orange;
+RadGrid1.ItemStyle.BackColor = Color.White;
 ````
 
 
@@ -54,37 +54,37 @@ You can set the appearance of the normal and alternating rows programmatically o
 You can customize the appearance of the selected row, using the **SelectedItemStyle** property:
 
 ````ASP.NET
-	<style type="text/css">
-	 .SelectedItem
-	 {
-	  background-image: url(img/SelectedRow.gif);
-	  background-repeat: no-repeat;
-	  background-position: top right;
-	 }
-	</style>
-	
-	<telerik:radgrid id="RadGrid1" cssclass="RadGrid" runat="server" allowpaging="True" allowsorting="True"
-	 pagesize="10" width="95%" showfooter="True" allowmultirowselection="True">
-	...
-	 <selecteditemstyle CssClass="SelectedItem"></selecteditemstyle>
-	 <mastertableview Width="100%" CssClass="MasterTable" style="border-collapse:separate;">
-	  <rowindicatorcolumn uniquename="RowIndicator">
-	   <headerstyle width="20px"></headerstyle>
-	  </rowindicatorcolumn>
-	  <columns>
-	   <telerik:gridtemplatecolumn groupable="False" uniquename="TemplateColumn">
-	    <headerstyle width="20px"></headerstyle>
-	    <ItemStyle CssClass="ResizeItem"></ItemStyle>
-	    <itemtemplate>
-	     <asp:checkbox id="CheckBox1" autopostback="False" runat="server"></asp:checkbox>
-	    </itemtemplate>
-	   </telerik:gridtemplatecolumn>
-	  </columns>
-	  <expandcollapsecolumn buttontype="ImageButton" visible="False" uniquename="ExpandColumn">
-	   <headerstyle width="19px"></headerstyle>
-	  </expandcollapsecolumn>
-	 </mastertableview>
-	</telerik:radgrid>         
+<style type="text/css">
+ .SelectedItem
+ {
+  background-image: url(img/SelectedRow.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+ }
+</style>
+
+<telerik:radgrid id="RadGrid1" cssclass="RadGrid" runat="server" allowpaging="True" allowsorting="True"
+ pagesize="10" width="95%" showfooter="True" allowmultirowselection="True">
+...
+ <selecteditemstyle CssClass="SelectedItem"></selecteditemstyle>
+ <mastertableview Width="100%" CssClass="MasterTable" style="border-collapse:separate;">
+  <rowindicatorcolumn uniquename="RowIndicator">
+   <headerstyle width="20px"></headerstyle>
+  </rowindicatorcolumn>
+  <columns>
+   <telerik:gridtemplatecolumn groupable="False" uniquename="TemplateColumn">
+    <headerstyle width="20px"></headerstyle>
+    <ItemStyle CssClass="ResizeItem"></ItemStyle>
+    <itemtemplate>
+     <asp:checkbox id="CheckBox1" autopostback="False" runat="server"></asp:checkbox>
+    </itemtemplate>
+   </telerik:gridtemplatecolumn>
+  </columns>
+  <expandcollapsecolumn buttontype="ImageButton" visible="False" uniquename="ExpandColumn">
+   <headerstyle width="19px"></headerstyle>
+  </expandcollapsecolumn>
+ </mastertableview>
+</telerik:radgrid>         
 ````
 
 

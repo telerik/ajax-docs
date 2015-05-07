@@ -116,8 +116,8 @@ To summarize, in order to modify an existing RadGrid skin, either take advantage
 3.Manually create a link to the CSS on the page (or MasterPage) for both the RadGrid and RadMenu, for example:
 
 ````ASP.NET
-	  <link href="~/Skins/Telerik/Grid.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
-	  <link href="~/Skins/Telerik/Menu.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
+<link href="~/Skins/Telerik/Grid.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
+<link href="~/Skins/Telerik/Menu.Telerik.css" rel="stylesheet" type="text/css" runat="server" />
 ````
 
 
@@ -134,26 +134,26 @@ The following table shows how the grid generates its HTML structure:
 | 
 
 ````ASP.NET
-	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-	<div class="RadGrid_WebBlue">
-	    <div>
-	      < input type="hidden" />
-	    </div>
-	    <script type="text/javascript" src=""></script>
-	    <script type="text/javascript" src=""></script>
-	    <span id="RadGrid1StyleSheetHolder"></span>
-	    <script type="text/javascript">
-	      // generated script block goes here
-	    </script>
-	    <table class="rgMasterTable">
-	      <colgroup>
-	        <col />
-	        <col />
-	        <col />
-	        <col />
-	        <col />
-	      </colgroup>
-	</pre>
+  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+<div class="RadGrid_WebBlue">
+    <div>
+      < input type="hidden" />
+    </div>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src=""></script>
+    <span id="RadGrid1StyleSheetHolder"></span>
+    <script type="text/javascript">
+      // generated script block goes here
+    </script>
+    <table class="rgMasterTable">
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+</pre>
 ````
 
  | Telerik RadGrid and MasterTableView definition. |
@@ -161,95 +161,95 @@ The following table shows how the grid generates its HTML structure:
 |
 
 ````ASP.NET
-	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-	<thead>
-	    <tr>
-	      <th class="rgResizeCol">
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 1</a>
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 2</a>
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 3</a>
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 4</a>
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 5</a>
-	      </th>
-	      <th class="rgHeader">
-	        <a href="">Table Header 6</a>
-	      </th>
-	    </tr>
-	  </thead>
-	</pre>
+  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+<thead>
+    <tr>
+      <th class="rgResizeCol">
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 1</a>
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 2</a>
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 3</a>
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 4</a>
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 5</a>
+      </th>
+      <th class="rgHeader">
+        <a href="">Table Header 6</a>
+      </th>
+    </tr>
+  </thead>
+</pre>
 ````
 
 |![](images/grd_skin_header.png)|
 |
 
 ````ASP.NET
-	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">       
-	<tfoot>
-	    <tr class="rgPager">
-	      <td colspan="7">
-	        <span></span><a href=""></a>
-	      </td>
-	    </tr>
-	  </tfoot>
-	</pre>
+  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">       
+<tfoot>
+    <tr class="rgPager">
+      <td colspan="7">
+        <span></span><a href=""></a>
+      </td>
+    </tr>
+  </tfoot>
+</pre>
 ````
 
 |![Pager](images/grd_skin_Pager.png)|
 |
 
 ````ASP.NET
-	  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-	<tbody>
-	    <tr class="rgRow">
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	    </tr>
-	    <tr class="rgAltRow">
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	    </tr>
-	    <tr class="rgHoveredRow">
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	      <td>
-	        Item
-	      </td>
-	    </tr>
-	  </tbody>
-	    </table>
-	    <script type="text/javascript">
-	      // generated script block goes here
-	    </script>
-	</div>
-	</pre>
+  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+<tbody>
+    <tr class="rgRow">
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+    </tr>
+    <tr class="rgAltRow">
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+    </tr>
+    <tr class="rgHoveredRow">
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+      <td>
+        Item
+      </td>
+    </tr>
+  </tbody>
+    </table>
+    <script type="text/javascript">
+      // generated script block goes here
+    </script>
+</div>
+</pre>
 ````
 
 |![](images/grd_skin_NormalItem.png)![](images/grd_skin_AlternatingItem.png)![](images/grd_skin_SelectedItem.png)|
@@ -260,7 +260,7 @@ The easiest way to create your own skin for RadGrid (as discussed previously in 
 
 * Copy one of our existing skins (CSS and images). For example the Vista skin.
 
-* Modify the corresponding css classes definitions in the CSS file.
+* Modify the corresponding CSS classes definitions in the CSS file.
 
 * Change the urls for the images referenced in the CSS file.
 

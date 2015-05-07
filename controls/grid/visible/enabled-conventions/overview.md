@@ -19,20 +19,20 @@ You can change the visibility of a **RadGrid** control either client-side or ser
 To change the visibility of a grid client-side, obtain a reference to the grid's DOM element in the rendered page and alter its **style.display** property. Below is a rough outline of this approach:
 
 ````ASP.NET
-	  <script type="text/javascript">
-	    function ShowGrid() {
-	      $find("<%=RadGrid1.ClientID%>").get_element().style.display = "";
-	    }
-	    function HideGrid() {
-	      $find("<%=RadGrid1.ClientID%>").get_element().style.display = "none";
-	    }
-	  </script>
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <!-- your grid definition here -->
-	  </telerik:RadGrid>
-	  <br />
-	  <input id="btnShowGrid" type="button" value="Show grid" onclick="ShowGrid()" />
-	  <input id="btnHideGrid" type="button" value="Hide grid" onclick="HideGrid()" />
+<script type="text/javascript">
+  function ShowGrid() {
+    $find("<%=RadGrid1.ClientID%>").get_element().style.display = "";
+  }
+  function HideGrid() {
+    $find("<%=RadGrid1.ClientID%>").get_element().style.display = "none";
+  }
+</script>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <!-- your grid definition here -->
+</telerik:RadGrid>
+<br />
+<input id="btnShowGrid" type="button" value="Show grid" onclick="ShowGrid()" />
+<input id="btnHideGrid" type="button" value="Hide grid" onclick="HideGrid()" />
 ````
 
 

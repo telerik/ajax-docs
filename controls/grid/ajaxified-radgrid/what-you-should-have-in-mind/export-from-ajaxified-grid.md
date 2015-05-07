@@ -21,10 +21,10 @@ Generally speaking, the exporting feature of the control work with regular postb
 * *RadGrid* is ajaxified through *RadAjaxManager*
 
 ````JavaScript
-	    function onRequestStart(sender, args) {
-	      if (args.get_eventTarget().indexOf("btnExport") >= 0)
-	        args.set_enableAjax(false);
-	    }
+function onRequestStart(sender, args) {
+  if (args.get_eventTarget().indexOf("btnExport") >= 0)
+    args.set_enableAjax(false);
+}
 ````
 
 
@@ -46,9 +46,9 @@ When you are exporting from a built-in export button in a CommandItem, you need 
 In case you export from a *Button* that is nested in **MS AJAX UpdatePanel**, you should set this control as *PostBackTrigger*:
 
 ````ASP.NET
-	  <triggers>         
-	    <asp:PostBackTrigger ControlID="btnExport" />
-	</triggers>
+<triggers>         
+    <asp:PostBackTrigger ControlID="btnExport" />
+</triggers>
 ````
 
 
@@ -56,13 +56,13 @@ In case you export from a *Button* that is nested in **MS AJAX UpdatePanel**, yo
 It is also possible to register the control as a trigger for *postback* in code-behind:
 
 ````C#
-	    ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport);          
+ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport);          
 ````
 
 
 
 ````VB
-	ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
+ScriptManager.GetCurrent(Page).RegisterPostBackControl(btnExport)          
 ````
 
 

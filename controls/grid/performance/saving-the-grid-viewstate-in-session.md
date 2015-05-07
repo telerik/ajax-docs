@@ -21,31 +21,29 @@ Still, a possible solution for ViewState reduction is to relocate it in a Sessio
 
 
 ````C#
-	    PageStatePersister _pers;
-	    protected override PageStatePersister PageStatePersister
-	    {
-	        get
-	        {
-	            if (_pers == null)
-	            {
-	                _pers = new SessionPageStatePersister(this);
-	            }
-	            return _pers;
-	        }
-	    }
+PageStatePersister _pers;
+protected override PageStatePersister PageStatePersister
+{
+    get
+    {
+        if (_pers == null)
+        {
+            _pers = new SessionPageStatePersister(this);
+        }
+        return _pers;
+    }
+}
 ````
-````VB
-	
-	    Dim _pers As PageStatePersister
-	    Protected Overrides ReadOnly Property PageStatePersister As PageStatePersister
-	        Get
-	            If _pers Is Nothing Then
-	                _pers = New SessionPageStatePersister(Me)
-	            End If
-	            Return _pers
-	        End Get
-	    End Property
-	
+````VB	
+Dim _pers As PageStatePersister
+Protected Overrides ReadOnly Property PageStatePersister As PageStatePersister
+    Get
+        If _pers Is Nothing Then
+            _pers = New SessionPageStatePersister(Me)
+        End If
+        Return _pers
+    End Get
+End Property
 ````
 
 

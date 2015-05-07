@@ -38,9 +38,9 @@ Planning and correct positioning of the different small images in a CSS sprite i
 
 How do we make a specific part of the sprite image appear as a background for a given element? This is accomplished by setting a suitable background-position style. For example:
 
-````ASP.NET
-	  .RadGrid_Vista .rgDel /* rgDel is the CSS class of the Delete SpriteButton */ {
-	  background:url(sprite-image.gif) -64px -63px no-repeat; }
+````CSS
+.RadGrid_Vista .rgDel /* rgDel is the CSS class of the Delete SpriteButton */ {
+background:url(sprite-image.gif) -64px -63px no-repeat; }
 ````
 
 ![sprite position](images/grd_gridspriteposition.gif)

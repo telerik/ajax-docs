@@ -17,42 +17,42 @@ The HTML output of a simple RadGrid control without any client features is the f
 (some HTML attributes have been removed for simplicity)
 
 ````ASP.NET
-	  <div class="RadGrid RadGrid_Default">
-	    <table class="rgMasterTable">
-	      <colgroup>
-	        <col>
-	        <col>
-	      </colgroup>
-	      <thead>
-	        <tr>
-	          <th class="rgHeader">
-	            Column1
-	          </th>
-	          <th class="rgHeader">
-	            Column2
-	          </th>
-	        </tr>
-	      </thead>
-	      <tbody>
-	        <tr class="rgRow">
-	          <td>
-	            Column1 Row1
-	          </td>
-	          <td>
-	            Column2 Row1
-	          </td>
-	        </tr>
-	        <tr class="rgAltRow">
-	          <td>
-	            Column1 Row2
-	          </td>
-	          <td>
-	            Column2 Row2
-	          </td>
-	        </tr>
-	      </tbody>
-	    </table>
-	    <input type="hidden" name="RadGrid1_ClientState" id="RadGrid1_ClientState" autocomplete="off"></div>
+<div class="RadGrid RadGrid_Default">
+<table class="rgMasterTable">
+  <colgroup>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="rgHeader">
+        Column1
+      </th>
+      <th class="rgHeader">
+        Column2
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="rgRow">
+      <td>
+        Column1 Row1
+      </td>
+      <td>
+        Column2 Row1
+      </td>
+    </tr>
+    <tr class="rgAltRow">
+      <td>
+        Column1 Row2
+      </td>
+      <td>
+        Column2 Row2
+      </td>
+    </tr>
+  </tbody>
+</table>
+<input type="hidden" name="RadGrid1_ClientState" id="RadGrid1_ClientState" autocomplete="off"></div>
 ````
 
 

@@ -41,21 +41,21 @@ Moreover, if you want to rebind the grid explicitly from postback event of an ex
 
 
 ````C#
-	    protected void MyButton_Click(object sender, EventArgs e)
-	    {
-	        //perform some actions here
-	        RadGrid1.DataSource = null;
-	
-	        //call the Rebind() method after nullifying the data source
-	        RadGrid1.Rebind();
-	    }
+protected void MyButton_Click(object sender, EventArgs e)
+{
+    //perform some actions here
+    RadGrid1.DataSource = null;
+
+    //call the Rebind() method after nullifying the data source
+    RadGrid1.Rebind();
+}
 ````
 ````VB
-	    Protected Sub MyButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles MyButton.Click
-	        'perform some actions here
-	        RadGrid1.DataSource = Nothing
-	        'call the Rebind() method after nullifying the data source 
-	        RadGrid1.Rebind()
-	    End Sub
+Protected Sub MyButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles MyButton.Click
+    'perform some actions here
+    RadGrid1.DataSource = Nothing
+    'call the Rebind() method after nullifying the data source 
+    RadGrid1.Rebind()
+End Sub
 ````
 

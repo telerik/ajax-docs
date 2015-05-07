@@ -21,40 +21,40 @@ There are cases in which you may want to identify to which level of the hierarch
 
 
 ````C#
-	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.DataMember == "MyDataMember")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.DataMember == "MyDataMember")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.DataMember == "MyDataMember")
+    {
+        //process requested operations
+    }
+
+}
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.DataMember == "MyDataMember")
+    {
+        //process requested operations
+    }
+
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.DataMember = "MyDataMember") Then
-	            'process requested operations
-	        End If
-	
-	    End Sub
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.DataMember = "MyDataMember") Then
-	            'process requested operations
-	        End If
-	
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.DataMember = "MyDataMember") Then
+        'process requested operations
+    End If
+
+End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.DataMember = "MyDataMember") Then
+        'process requested operations
+    End If
+
+End Sub
 ````
 
 
@@ -63,38 +63,38 @@ There are cases in which you may want to identify to which level of the hierarch
 
 
 ````C#
-	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.DataSourceID == "MyDataSourceID")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.DataSourceID == "MyDataSourceID")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.DataSourceID == "MyDataSourceID")
+    {
+        //process requested operations
+    }
+
+}
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.DataSourceID == "MyDataSourceID")
+    {
+        //process requested operations
+    }
+
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.DataSourceID = "MyDataSourceID") Then
-	            'process requested operations
-	        End If
-	    End Sub
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.DataSourceID = "MyDataSourceID") Then
-	            'process requested operations
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.DataSourceID = "MyDataSourceID") Then
+        'process requested operations
+    End If
+End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.DataSourceID = "MyDataSourceID") Then
+        'process requested operations
+    End If
+End Sub
 ````
 
 
@@ -103,37 +103,37 @@ There are cases in which you may want to identify to which level of the hierarch
 
 
 ````C#
-	    private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.Name == "MyUniqueTableName")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        //identify to which table belongs the currently bound item
-	        if (e.Item.OwnerTableView.Name == "MyUniqueTableName")
-	        {
-	            //process requested operations
-	        }
-	
-	    }
+private void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.Name == "MyUniqueTableName")
+    {
+        //process requested operations
+    }
+
+}
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    //identify to which table belongs the currently bound item
+    if (e.Item.OwnerTableView.Name == "MyUniqueTableName")
+    {
+        //process requested operations
+    }
+
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.Name = "MyUniqueTableName") Then
-	            'process requested operations
-	        End If
-	    End Sub
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
-	        'identify to which table belongs the currently bound item
-	        If (e.Item.OwnerTableView.Name = "MyUniqueTableName") Then
-	            'process requested operations
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemCreated
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.Name = "MyUniqueTableName") Then
+        'process requested operations
+    End If
+End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs) Handles RadGrid1.ItemDataBound
+    'identify to which table belongs the currently bound item
+    If (e.Item.OwnerTableView.Name = "MyUniqueTableName") Then
+        'process requested operations
+    End If
+End Sub
 ````
 

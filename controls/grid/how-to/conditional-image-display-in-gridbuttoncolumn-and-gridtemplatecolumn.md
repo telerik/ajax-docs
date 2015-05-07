@@ -23,50 +23,50 @@ Here is an example (**CheckBoxColumn** and **ButtonColumn** are the [ UniqueName
 
 
 ````ASP.NET
-	  <telerik:RadGrid ID="RadGrid1" runat="server">
-	    <MasterTableView AutoGenerateColumns="False">
-	      <Columns>
-	        <telerik:GridButtonColumn CommandName="MyCommand" ButtonType="ImageButton" UniqueName="ButtonColumn">
-	        </telerik:GridButtonColumn>
-	        <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridBoundColumn HeaderText="ContactTitle" DataField="ContactTitle" UniqueName="ContactTitle">
-	        </telerik:GridBoundColumn>
-	        <telerik:GridCheckBoxColumn UniqueName="CheckBoxColumn" DataField="Bool">
-	        </telerik:GridCheckBoxColumn>
-	      </Columns>
-	    </MasterTableView>
-	  </telerik:RadGrid>
+<telerik:RadGrid ID="RadGrid1" runat="server">
+  <MasterTableView AutoGenerateColumns="False">
+    <Columns>
+      <telerik:GridButtonColumn CommandName="MyCommand" ButtonType="ImageButton" UniqueName="ButtonColumn">
+      </telerik:GridButtonColumn>
+      <telerik:GridBoundColumn HeaderText="ContactName" DataField="ContactName" UniqueName="ContactName">
+      </telerik:GridBoundColumn>
+      <telerik:GridBoundColumn HeaderText="ContactTitle" DataField="ContactTitle" UniqueName="ContactTitle">
+      </telerik:GridBoundColumn>
+      <telerik:GridCheckBoxColumn UniqueName="CheckBoxColumn" DataField="Bool">
+      </telerik:GridCheckBoxColumn>
+    </Columns>
+  </MasterTableView>
+</telerik:RadGrid>
 ````
 ````C#
-	    private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
-	    {
-	        if (e.Item is GridDataItem)
-	        {
-	            GridDataItem dataItem = e.Item as GridDataItem;
-	            CheckBox box = dataItem["CheckBoxColumn"].Controls[0] as CheckBox;
-	            if (box.Checked)
-	            {
-	                (dataItem["ButtonColumn"].Controls[0] as ImageButton).ImageUrl = "RadControls/Grid/Skins/Default/Edit.gif";
-	            }
-	            else
-	            {
-	                dataItem["ButtonColumn"].Controls[0].Visible = false;
-	            }
-	        }
-	    }
+private void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
+{
+    if (e.Item is GridDataItem)
+    {
+        GridDataItem dataItem = e.Item as GridDataItem;
+        CheckBox box = dataItem["CheckBoxColumn"].Controls[0] as CheckBox;
+        if (box.Checked)
+        {
+            (dataItem["ButtonColumn"].Controls[0] as ImageButton).ImageUrl = "RadControls/Grid/Skins/Default/Edit.gif";
+        }
+        else
+        {
+            dataItem["ButtonColumn"].Controls[0].Visible = false;
+        }
+    }
+}
 ````
 ````VB
-	    Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
-	        If TypeOf e.Item Is GridDataItem Then
-	            Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
-	            Dim box As CheckBox = CType(dataItem("CheckBoxColumn").Controls(0), CheckBox)
-	            If box.Checked Then
-	                CType(dataItem("ButtonColumn").Controls(0), ImageButton).ImageUrl = "RadControls/Grid/Skins/Default/Edit.gif"
-	            Else
-	                dataItem("ButtonColumn").Controls(0).Visible = False
-	            End If
-	        End If
-	    End Sub
+Private Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
+    If TypeOf e.Item Is GridDataItem Then
+        Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+        Dim box As CheckBox = CType(dataItem("CheckBoxColumn").Controls(0), CheckBox)
+        If box.Checked Then
+            CType(dataItem("ButtonColumn").Controls(0), ImageButton).ImageUrl = "RadControls/Grid/Skins/Default/Edit.gif"
+        Else
+            dataItem("ButtonColumn").Controls(0).Visible = False
+        End If
+    End If
+End Sub
 ````
 
