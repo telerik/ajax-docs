@@ -10,11 +10,7 @@ position: 1
 
 # OnClientLoad
 
-
-
 The **OnClientLoad** event is raised when the RadRating client-side object is initialized. It can notify you that the control is available(e.g. to store a reference to its client-side object for later use).
-
-## 
 
 The event handler receives two arguments:
 
@@ -26,13 +22,13 @@ You can check how to set the value of the rating control in its **OnClientLoad**
 
 **Example 1**: Using the **OnClientLoad** event.
 
-````ASPNET
-	    <telerik:RadRating runat="server" ID="RadRating1" OnClientLoad="OnClientLoad"></telerik:RadRating>
-	    <script type="text/javascript">
-	        function OnClientLoad(sender, args) {
-	            sender.set_value(3);
-	        }
-	    </script>
+````ASP.NET
+<telerik:RadRating runat="server" ID="RadRating1" OnClientLoad="OnClientLoad"></telerik:RadRating>
+<script type="text/javascript">
+	function OnClientLoad(sender, args) {
+		sender.set_value(3);
+	}
+</script>
 ````
 
 

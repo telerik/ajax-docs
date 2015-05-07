@@ -16,11 +16,11 @@ position: 1
 
 The **RadRating** fully supports right-to-left (RTL) language locales. In order to turn on the RTL support you should set its **IsDirectionReversed** property to **true** as well as **dir=rtl to the html or body** elements or to its direct parent.
 
-````ASPNET
-	    <div dir="rtl">
-	        <telerik:RadRating ID="RadRating" runat="server" ItemCount="7" IsDirectionReversed="true">
-	        </telerik:RadRating>
-	    </div>
+````ASP.NET
+<div dir="rtl">
+	<telerik:RadRating ID="RadRating" runat="server" ItemCount="7" IsDirectionReversed="true">
+	</telerik:RadRating>
+</div>
 ````
 
 ![radrating-rtl-screenshot](images/radrating-rtl-screenshot.png)

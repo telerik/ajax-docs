@@ -10,10 +10,6 @@ position: 0
 
 # WCAG 2.0 and Section 508 Accessibility Compliance
 
-
-
-## 
-
 The interface of **RadRating for ASP.NET AJAX** is level A accessible (in compliance with the W3C Web Accessibility Guidelines 2.0) as well as Section 508 compliant. It passes the check of the [WAVE](http://wave.webaim.org/) automated content compliance tool for Section 508 and WCAG 2.0 - Compliance Level A.
 
 # See Also

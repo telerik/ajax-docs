@@ -10,14 +10,7 @@ position: 2
 
 # CSS Classes
 
-
-
 ## RadRating CSS Classes and their description:
-
-
-
-
->caption  
 
 | CSS Class | Description |
 | ------ | ------ |

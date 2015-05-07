@@ -22,7 +22,7 @@ The possible options are:
 
 * **Auto** — this mode makes each control choose the appropriate rendering mode according to the used	browser - **Classic** or **Lightweight**.
 
->important RadRating, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page.All such controls must have the same RenderMode on a given page.This also includes instances from user controls and master pages.
+>important RadRating, as well as the other controls included in the Telerik UI for ASP.NET AJAX suite that utilize render modes, support only one type of render mode per page. All such controls must have the same RenderMode on a given page. This also includes instances from user controls and master pages.
 
 ## Setting Render Mode
 

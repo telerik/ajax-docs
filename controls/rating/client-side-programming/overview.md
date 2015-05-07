@@ -10,24 +10,15 @@ position: 0
 
 # Client-side Programming Overview
 
-
-
-
-
 ## Getting the RadRating client-side object:
 
 RadRating creates a client-side object with the ClientID of the menu. You can obtain the reference using the following JavaScript code:
 
 ````JavaScript
-	        var rating = $find("<%= RadRating1.ClientID %>");
+var rating = $find("<%= RadRating1.ClientID %>");
 ````
 
-
-
-
-
 Once you have a reference to the control, you could use the following methods:
-
 
 >caption Methods of the RadRating client-side object.
 
@@ -49,9 +40,6 @@ Once you have a reference to the control, you could use the following methods:
 | **get_enabled** ||Boolean|Returns a value, indicating whether the rating control is enabled|
 | **set_enabled** |Boolean||Sets whether the slider is enabled|
 | **get_itemData** ||Array|Gets information about the items of the rating|
-
-
-
 
 >caption Methods of the RadRating client-side object for modifying client-side event handlers dynamically.
 

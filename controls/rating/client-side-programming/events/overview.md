@@ -10,10 +10,6 @@ position: 0
 
 # Events Overview
 
-
-
-## 
-
 The **RadRating** exposes several client-side events that allow easy and flexible use of the control:
 
 1. [OnClientLoad]({%slug rating/client-side-programming/events/onclientload%}) - fires when the [RadRating client-side object]({%slug rating/client-side-programming/overview%}) is initialized.
