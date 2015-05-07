@@ -24,19 +24,21 @@ The click-and-Go™ technology of **Telerik RadAjax** for ASP.NET AJAX allows yo
 
 1. Drop a[RadAjaxManager]({%slug ajax/radajaxmanager/overview%}) to your form.
 
-1. Define the AJAX relations using a single dialog in Visual Studio.
+1. Define the AJAX relations using a single dialogue in Visual Studio.
 
 1. Press **F5** to run.
 
-* **New applications** - you don't have to follow any specific guidelines when building an application that is to be AJAX-enabled with **Telerik RadAjax**. Simply build a regular postback-based application the way you are used to and use the [AJAX Manager]({%slug ajax/radajaxmanager/overview%}) to AJAX-enable it at the end.
+* **New applications** - you don't have to follow any specific guidelines when building an application that is to be AJAX-enabled with **Telerik RadAjax** . Simply build a regular postback-based application the way you are used to and use the [AJAX Manager]({%slug ajax/radajaxmanager/overview%}) to AJAX-enable it at the end.
 
 
 
 ## AJAX-enabling Without RadAjax for ASP.NET AJAX
 
-When using microsoft ASP.NET AJAX, the standard approach to AJAX-enable am application will require you to place "UpdatePanels" around each area that needs to be updated. This may introduce some challenges with preserving the application's layout (i.e. you need to figure out how to group the various elements). Consider the example this article will follow. It begins as an ASP.NET web page that has three controls: a calendar, an email list and a message body.When the user select a date from the calendar the e-mails that are received that day are shown in the grid. Once an e-mail is selected its content isdisplayed in the message body.
+When using Microsoft ASP.NET AJAX, the standard approach to AJAX-enable am application will require you to place "UpdatePanels" around each area that needs to be updated. This may introduce some challenges with preserving the application's layout (i.e. you need to figure out how to group the various elements). Consider the example this article will follow. It begins as an ASP.NET web page that has three controls: a calendar, an email list and a message body.When the user select a date from the calendar the e-mails that are received that day are shown in the grid. Once an e-mail is selected its content is displayed in the message body.
 
-**Figure 1**: Adding three **UpdatePanels** to AJAX-enable a page using Microsoft ASP.NET AJAX may not seem difficult.![UpdatePanels usage](images/Manager1_UpdatePanels.png)
+**Figure 1**: Adding three **UpdatePanels** to AJAX-enable a page using Microsoft ASP.NET AJAX may not seem difficult.
+
+![UpdatePanels usage](images/Manager1_UpdatePanels.png)
 
 In simple scenarios like the one above placing UpdatePanels may not be very difficult. But imagine you have a real-life application with dozens of UI controls that need to start working with AJAX. Placing 20+ UpdatePanels and figuring which element should go in the respective panel may be a challenge even for the most advanced developers.
 
@@ -46,14 +48,14 @@ In simple scenarios like the one above placing UpdatePanels may not be very diff
 
 1. Drag and drop the AJAX Manager control on your form
 
-1. Set the AJAX relations using a single dialog in Visual Studio .Net design mode
+1. Set the AJAX relations using a single dialogue in Visual Studio .Net design mode
 
 Figure 2: A **RadAjaxManager** designer, visible when the Smart tag is clicked.
 >caption 
 
 ![Ajax results](images/Manager1_Form.png)
 
-Once the AJAX Manager is placed on the form you need to use its configuration dialog to define the AJAX relations among the controls on the page, i.e. which controlsshould initiate AJAX request and which controls should be updated by each respective AJAX request.For example:
+Once the AJAX Manager is placed on the form you need to use its configuration dialog to define the AJAX relations among the controls on the page, i.e. which controls should initiate AJAX request and which controls should be updated by each respective AJAX request.For example:
 
 * "Message Body" UpdatePanel - Trigger 1: The needs to be updated when an **e-mail item** is clicked
 
@@ -77,12 +79,14 @@ If we need to implement the above scenario we need to simply set the two relatio
 
 **Relation 1:** When the **calendar** is clicked the **e-mail list**and the **message body**need to be updated![Build RadAjax Settings](images/Centralized_Management_of_AJAX_Relations_Pick1.jpg)
 
-**Relation 2:** When an **e-mail message**is clicked the **message body** only needs to be updated![Buld RadAjax Settings](images/Centralized_Management_of_AJAX_Relations_Pick2.png)
+**Relation 2:** When an **e-mail message**is clicked the **message body** only needs to be updated
+
+![Buld RadAjax Settings](images/Centralized_Management_of_AJAX_Relations_Pick2.png)
 
 It is clearly of benefit for developers to be able to see all AJAX relations at a glance in one centralized place (the AJAX Manager dialog) , rather than having to configure every Trigger of every UpdatePanel individually.
 
 The logic for setting AJAX relations in the AJAX Manager dialog leads to another benefit - the AJAX relations are defined in the same sequence in which users interact with the interface of the application.
 
-# See Also
+## See Also
 
  * [Add AjaxSettings Programmatically]({%slug ajax/radajaxmanager/how-to/add-ajaxsettings-programmatically%})

@@ -14,23 +14,21 @@ position: 2
 
 **RadAjaxLoadingPanel** has default z-index set to 90000. To change this default setting, you can use one of the approaches below, based on the way the loading panel is configured:
 
-* When **RadAjaxLoadingPanel** uses **Skin** the Z-index could be directly set in the markup using the **ZIndex** property of the control#_ASPX_
+* When **RadAjaxLoadingPanel** uses **Skin** the Z-index could be directly set in the markup using the **ZIndex** property of the control
 
-	
-            <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"
-            Skin="Vista" ZIndex="3000" />
+````ASP.NET
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Vista" ZIndex="3000" />
           
+````
 
 
+* When **RadAjaxLoadingPanel** has a template defined, the z-index could be set through **inline CSS**:
 
-* When **RadAjaxLoadingPanel** has a template defined, the z-index could be set through **inline CSS**:#_ASPX_
-
-	
-            <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"
-            style="z-index:3000;">
-            <img alt="loading..." src="loading.gif" />
-            </telerik:RadAjaxLoadingPanel>
-          
+````ASP.NET	
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" style="z-index:3000;">
+    <img alt="loading..." src="loading.gif" />
+</telerik:RadAjaxLoadingPanel>
+````         
 
 
 
@@ -40,7 +38,7 @@ position: 2
 >
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/radajaxloadingpanel/overview%})
 

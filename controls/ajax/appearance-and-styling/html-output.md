@@ -17,12 +17,12 @@ position: 3
 When the Skin property of the RadAjaxLoadingPanel is set, its HTML output is the following:
 
 ````XML
-	    <div class="RadAjax RadAjax_Sunset">
-	        <div class="raDiv raTopLeft">
-	        </div>
-	        <div class="raColor raTransp">
-	        </div>
-	    </div>
+<div class="RadAjax RadAjax_Sunset">
+<div class="raDiv raTopLeft">
+</div>
+<div class="raColor raTransp">
+</div>
+</div>
 ````
 
 
@@ -39,11 +39,11 @@ The two inner divs (raDiv and raColor) are 100% wide and high, so that they fill
 
 The RadAjaxLoadingPanel base stylesheet also contains the following CSS rule:
 
-````ASPNET
-	    * html .RadAjaxUpdatedElement select 
-	    { 
-	        visibility:hidden !important; 
-	    }
+````ASP.NET
+* html .RadAjaxUpdatedElement select 
+	{ 
+	    visibility:hidden !important; 
+	}
 ````
 
 
@@ -56,21 +56,21 @@ A typical RadAjaxLoadingPanel skin consists of only 3 CSS rules - one for the ba
 
 
 
-````ASPNET
-	    .RadAjax_SkinName .raDiv 
-	    { 
-	        background-image:url(............); 
-	    } 
-	    .RadAjax_SkinName .raColor 
-	    { 
-	        background-color:........; 
-	    } 
-	    .RadAjax_SkinName .raTransp 
-	    { 
-	        opacity:0.7;
-	        -moz-opacity:0.7; 
-	        filter:alpha(opacity=70); 
-	    }
+````ASP.NET
+.RadAjax_SkinName .raDiv 
+{ 
+  background-image:url(............); 
+} 
+.RadAjax_SkinName .raColor 
+{ 
+  background-color:........; 
+} 
+.RadAjax_SkinName .raTransp 
+{ 
+  opacity:0.7;
+  -moz-opacity:0.7; 
+  filter:alpha(opacity=70); 
+}
 ````
 
 

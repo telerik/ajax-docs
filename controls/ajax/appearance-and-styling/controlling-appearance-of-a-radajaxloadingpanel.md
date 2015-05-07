@@ -20,78 +20,78 @@ The principal visual aspect of **RadAjax** is the[RadAjaxLoadingPanel]({%slug aj
 
 * Modify the markup within the <telerik:RadAjaxLoadingPanel> </telerik:RadAjaxLoadingPanel> tags.
 
-* Change the image that displays in the loading panel. **RadAjax** ships with a number of pre-defined animated "gif" images. To do this, you change the <src> tag path to one of the gifs in the installation directory: "\Telerik\RadControls for ASP.NET AJAXsuiteversion\Skins\Default\Ajax"
+* Change the image that displays in the loading panel. **RadAjax** ships with a number of pre-defined animated "gif" images. To do this, you change the <src> tag path to one of the gif's in the installation directory: "\Telerik\RadControls for ASP.NET AJAXsuiteversion\Skins\Default\Ajax"
 
-* [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) descends from **System.Web.UI.Panel**and provides properties for back color, font and other properties. In practice, most developers typically use the markup and loading image tostyle their loading panels, but you can also use these Panel properties.
+* [RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%}) descends from **System.Web.UI.Panel** and provides properties for back color, font and other properties. In practice, most developers typically use the markup and loading image to style their loading panels, but you can also use these Panel properties.
 
-**Example 1** shows how to change the appearace of a RadAjaxLoadingPanel using the methods just described.
+**Example 1** shows how to change the appearance of a RadAjaxLoadingPanel using the methods just described.
 
 Example 1: Custom appearance with image and text of the RadLoadingPanel.
 
-````ASPNET
-	    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" BackColor="Honeydew"
-	        BorderColor="Green" BorderStyle="Dotted" BorderWidth="3px" ForeColor="Blue" MinDisplayTime="1000">
-	        <img alt="Loading..." src="loading3.gif" style="border: 0px;" />
-	        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-	    </telerik:RadAjaxLoadingPanel>
+````ASP.NET
+<telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" BackColor="Honeydew"
+	BorderColor="Green" BorderStyle="Dotted" BorderWidth="3px" ForeColor="Blue" MinDisplayTime="1000">
+	 <img alt="Loading..." src="loading3.gif" style="border: 0px;" />
+	 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+</telerik:RadAjaxLoadingPanel>
 ````
 
 
 
-The **BackgroundTransparency** property of **RadAjaxLoadingPanel** changes the opacity ofthe DIV element that holds the background of the loading panel without affecting the loading Image. By default it is 0 (or empty) and inthis case no inline opacity style is rendered. The next few code snippets show the differences between **Transparency** and**BackgroundTransparency** properties and the rendered html.
+The **BackgroundTransparency** property of **RadAjaxLoadingPanel** changes the opacity of the DIV element that holds the background of the loading panel without affecting the loading Image. By default it is 0 (or empty) and in this case no inline opacity style is rendered. The next few code snippets show the differences between **Transparency** and **BackgroundTransparency** properties and the rendered html.
 
-````ASPNET
-	    <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" Skin="Default"
-	        Transparency="" BackgroundTransparency=""></telerik:RadAjaxLoadingPanel>
+````ASP.NET
+<telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" Skin="Default"
+Transparency="" BackgroundTransparency=""></telerik:RadAjaxLoadingPanel>
 ````
 
 
 
-````ASPNET
-	    <div class="RadAjax RadAjax_Default" id="RadAjaxLoadingPanel1Button1">
-	        <div class="raDiv">
-	        </div>
-	        <div class="raColor raTransp">
-	        </div>
-	    </div>
+````ASP.NET
+<div class="RadAjax RadAjax_Default" id="RadAjaxLoadingPanel1Button1">
+<div class="raDiv">
+</div>
+<div class="raColor raTransp">
+</div>
+</div>
 ````
 
 
 
 With **Transparency="30"** the HTML will be:
 
-````ASPNET
-	    <div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div1">
-	        <div class="raDiv">
-	        </div>
-	        <div class="raColor raTransp">
-	        </div>
-	    </div>
+````ASP.NET
+<div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div1">
+<div class="raDiv">
+</div>
+<div class="raColor raTransp">
+</div>
+</div>
 ````
 
 
 
 With **BackgroundTransparency="40"** the HTML will be:
 
-````ASPNET
-	    <div class="RadAjax RadAjax_Default" id="Div2">
-	        <div class="raDiv">
-	        </div>
-	        <div class="raColor raTransp" style="opacity: 0.6;">
-	        </div>
-	    </div>
+````ASP.NET
+<div class="RadAjax RadAjax_Default" id="Div2">
+<div class="raDiv">
+</div>
+<div class="raColor raTransp" style="opacity: 0.6;">
+</div>
+</div>
 ````
 
 
 
 With **Transparency="30"** and **BackgroundTransparency="40"** the HTML will be:
 
-````ASPNET
-	    <div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div3">
-		    <div class="raDiv">
-		    </div><div class="raColor raTransp" style="opacity: 0.6;">
-		    </div>
-	    </div>
+````ASP.NET
+<div style="opacity: 0.7;" class="RadAjax RadAjax_Default" id="Div3">
+<div class="raDiv">
+</div><div class="raColor raTransp" style="opacity: 0.6;">
+</div>
+</div>
 ````
 
 
@@ -102,58 +102,58 @@ With **Transparency="30"** and **BackgroundTransparency="40"** the HTML will be:
 
 ## UpdatePanelCssClass property
 
-For **RadAjaxManager**, you can add the **UpdatePanelCssClass** to an **AjaxUpdatedControl** inside the UpdatedControls section of each **AjaxSetting**. The provided string is used as **CssClass** for the UpdatePanel that will wrap the**AjaxUpdatedControl** during the rendering.
+For **RadAjaxManager**, you can add the **UpdatePanelCssClass** to an **AjaxUpdatedControl** inside the UpdatedControls section of each **AjaxSetting** . The provided string is used as **CssClass** for the UpdatePanel that will wrap the **AjaxUpdatedControl** during the rendering.
 
-As a result, the **CssClass** property of the UpdatePanel is rendered as a class attribute in the output HTML. Additionally, a**RadAjaxPanel** is added to the **CssClass** of the UpdatePanel. Therefore, if the user sets**MyClass** for the **UpdatePanelCssClass**, the result in the rendered div becomes**class=RadAjaxPanel MyClass**.
+As a result, the **CssClass** property of the UpdatePanel is rendered as a class attribute in the output HTML. Additionally, a **RadAjaxPanel** is added to the **CssClass** of the UpdatePanel. Therefore, if the user sets **MyClass** for the **UpdatePanelCssClass**, the result in the rendered div becomes **class=RadAjaxPanel MyClass** .
 
-````ASPNET
-	    <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	        <AjaxSettings>
-	            <telerik:AjaxSetting AjaxControlID="Button1">
-	                <UpdatedControls>
-	                    <telerik:AjaxUpdatedControl ControlID="Button1" UpdatePanelCssClass="updatePanelClassName" />
-	                </UpdatedControls>
-	            </telerik:AjaxSetting>
-	        </AjaxSettings>
-	    </telerik:RadAjaxManager>
-	    <asp:Button runat="server" ID="Button1" />
+````ASP.NET
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+	<AjaxSettings>
+	    <telerik:AjaxSetting AjaxControlID="Button1">
+	        <UpdatedControls>
+	            <telerik:AjaxUpdatedControl ControlID="Button1" UpdatePanelCssClass="updatePanelClassName" />
+	        </UpdatedControls>
+	    </telerik:AjaxSetting>
+	</AjaxSettings>
+</telerik:RadAjaxManager>
+<asp:Button runat="server" ID="Button1" />
 ````
 
 
 
-````ASPNET
-	    <div id="RadAjaxManager1SU" style="display: none;">
-	        <span id="Span1" style="display: none;"></span>
-	    </div>
+````ASP.NET
+<div id="RadAjaxManager1SU" style="display: none;">
+	<span id="Span1" style="display: none;"></span>
+</div>
 	
-	    <div id="Button1Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
-	        <input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
-	    </div>
+<div id="Button1Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
+	<input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
+</div>
 ````
 
 
 
-For **RadAjaxPanel**, the **CssClass** property is applied to the inner div, which has the same ID as	the **ClientID** of the **RadAjaxPanel**. The **UpdatePanelCssClass** applies to theUpdatePanel that wraps the **RadAjaxPanel**.
+For **RadAjaxPanel** , the **CssClass** property is applied to the inner div, which has the same ID as the **ClientID** of the **RadAjaxPanel** . The **UpdatePanelCssClass** applies to theUpdatePanel that wraps the **RadAjaxPanel** .
 
-````ASPNET
-	    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" CssClass="PanelCssClass" UpdatePanelCssClass="updatePanelClassName">
-	        <asp:Button runat="server" ID="Button1" />
-	    </telerik:RadAjaxPanel>
+````ASP.NET
+<telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" CssClass="PanelCssClass" UpdatePanelCssClass="updatePanelClassName">
+	<asp:Button runat="server" ID="Button1" />
+</telerik:RadAjaxPanel>
 ````
 
 
 
-````ASPNET
-	    <div id="ctl03Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
-	        <div id="ctl03" class="PanelCssClass">
-	            <input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
-	        </div>
-	    </div>
+````ASP.NET
+<div id="ctl03Panel" class="RadAjaxPanel updatePanelClassName" style="display: block;">
+	<div id="ctl03" class="PanelCssClass">
+	 <input id="Button1" type="button" onclick="javascript: **doPostBack('Button1', '')" value="" name="Button1">
+	</div>
+</div>
 ````
 
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug ajax/radajaxloadingpanel/overview%})
 

@@ -46,4 +46,4 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
  * [Overview]({%slug ajax/radajaxpanel/overview%})
 
- * [AJAX-enable a Scenario Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%}) 
+ * [AJAX-enable a Scenario Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%}) 	
