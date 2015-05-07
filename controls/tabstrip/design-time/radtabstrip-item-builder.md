@@ -11,16 +11,14 @@ position: 1
 # RadTabStrip Item Builder
 
 
-
 The **RadTabStrip Item Builder** lets you populate your tab strip with a hierarchy of items that do not come from a separate data source. There are two ways to bring up the RadTabStrip Item Builder:
 
-* From the **RadTabStrip**[Smart Tag]({%slug tabstrip/design-time/smart-tag%}), click on the **Build RadTabStrip** link.
+* From the **RadTabStrip** [Smart Tag]({%slug tabstrip/design-time/smart-tag%}), click on the **Build RadTabStrip** link.
 
 * Right-click on the **RadTabStrip** component and select **Build RadTabStrip** from its context menu.
 
 >note The **Build RadTabStrip** option is not available in the Smart Tag or context menu if the **RadTabStrip** control is bound to a data source.
 >
-
 
 ## RadTabStrip Item Builder
 
@@ -31,7 +29,6 @@ The **RadTabStrip Item builder** lets you add, rearrange, configure, and delete 
 ![Item builder toolbar](images/tabstrip_itembuildertoolbar.png)
 
 The following table describes the controls in the tool bar:
-
 
 >caption  
 
@@ -69,6 +66,6 @@ When a tab (either a root item or a child item) is selected, the properties pane
 
 * **ScrollChildren**, **PerTabScrolling**, **ScrollButtonsPosition**, and **ScrollPosition** specify how the tab [scrolls its child items]({%slug tabstrip/tabs/scrolling-tabs%}) when there is not enough room to display them all.
 
-* **CssClass**, **SelectedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ChildGroupCssClass**[control the appearance of the tab]({%slug tabstrip/appearance-and-styling/setting-the-css-class-of-tabs%}) when it is in its normal state, selected, disabled, under the mouse, and the appearance of its group of child items, respectively.
+* **CssClass**, **SelectedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ChildGroupCssClass** [control the appearance of the tab]({%slug tabstrip/appearance-and-styling/setting-the-css-class-of-tabs%}) when it is in its normal state, selected, disabled, under the mouse, and the appearance of its group of child items, respectively.
 
 * **ImageUrl**, **SelectedImageUrl**, **DisabledImageUrl**, and **HoveredImageUrl** let you [specify an image]({%slug tabstrip/appearance-and-styling/adding-images-to-tabs%}) that appears on the left of the tab text when it is in its normal state, selected, disabled, and when the mouse hovers over it, respectively.

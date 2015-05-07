@@ -24,27 +24,25 @@ See [Sprite Guide]({%slug tabstrip/appearance-and-styling/sprite-guide%}) for mo
 
 1. Use the **RadTabStrip Item Builder** to add tabs to the tab strip, or add them in the HTML markup. Include two levels of tabs, and include a disabled tab:
 
-````ASPNET
-	 
-	 <telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">
-	            <Tabs>
-	                <telerik:RadTab runat="server" Text="Root RadTab1" Selected="True">
-	                    <Tabs>
-	                        <telerik:RadTab runat="server" Text="Child RadTab 1">
-	                        </telerik:RadTab>
-	                        <telerik:RadTab runat="server" Text="Child RadTab 2">
-	                        </telerik:RadTab>
-	                    </Tabs>
-	                </telerik:RadTab>
-	                <telerik:RadTab runat="server" Text="Root RadTab2">
-	                </telerik:RadTab>
-	                <telerik:RadTab runat="server" Text="Root RadTab3">
-	                </telerik:RadTab>
-	                <telerik:RadTab runat="server" Text="Root RadTab4">
-	                </telerik:RadTab>
-	            </Tabs>
-	        </telerik:RadTabStrip>
-	 
+````ASPNET	 
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0">
+    <Tabs>
+        <telerik:RadTab runat="server" Text="Root RadTab1" Selected="True">
+            <Tabs>
+                <telerik:RadTab runat="server" Text="Child RadTab 1">
+                </telerik:RadTab>
+                <telerik:RadTab runat="server" Text="Child RadTab 2">
+                </telerik:RadTab>
+            </Tabs>
+        </telerik:RadTab>
+        <telerik:RadTab runat="server" Text="Root RadTab2">
+        </telerik:RadTab>
+        <telerik:RadTab runat="server" Text="Root RadTab3">
+        </telerik:RadTab>
+        <telerik:RadTab runat="server" Text="Root RadTab4">
+        </telerik:RadTab>
+    </Tabs>
+</telerik:RadTabStrip>	 
 ````
 
 

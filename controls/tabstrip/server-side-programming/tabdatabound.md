@@ -10,8 +10,6 @@ position: 3
 
 # TabDataBound
 
-
-
 ## 
 
 **TabDataBound** occurs for each tab in the tab strip immediately after it is bound to a data source. This event only occurs when the application sets the **DataSource** property and calls the **DataBind** method explicitly, or when the **DataSourceID** property is set at design time. The event occurs immediately after the tab properties have been set to reflect the values in the data source.
@@ -28,29 +26,19 @@ The **TabDataBound** event handler receives two arguments:
 
 Use a **TabDataBound** event handler to initialize the properties of tabs to reflect values from the data source that are not automatically mapped using the **DataTextField**, **DataValueField**, and **NavigateUrlField** properties:
 
-
-
-
-
-````C#
-	   
-	protected void RadTabStrip1_TabDataBound(object sender, RadTabStripEventArgs e)
-	{
-	   DataRowView row = (DataRowView)e.Tab.DataItem;
-	   e.Tab.Enabled = Boolean.Parse(row["Available"].ToString());
-	   e.Tab.ToolTip = "Learn more about " + e.Tab.Text;
-	} 
-	
-				
+````C#	   
+protected void RadTabStrip1_TabDataBound(object sender, RadTabStripEventArgs e)
+{
+   DataRowView row = (DataRowView)e.Tab.DataItem;
+   e.Tab.Enabled = Boolean.Parse(row["Available"].ToString());
+   e.Tab.ToolTip = "Learn more about " + e.Tab.Text;
+} 					
 ````
-````VB.NET
-	  
-	Protected Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBOund
-	 Dim row As DataRowView = DirectCast(e.Tab.DataItem, DataRowView)
-	 e.Tab.Enabled = [Boolean].Parse(row("Available").ToString())
-	 e.Tab.ToolTip = "Learn more about " + e.Tab.Text
-	End Sub 
-	
-				
+````VB.NET	  
+Protected Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBOund
+ Dim row As DataRowView = DirectCast(e.Tab.DataItem, DataRowView)
+ e.Tab.Enabled = [Boolean].Parse(row("Available").ToString())
+ e.Tab.ToolTip = "Learn more about " + e.Tab.Text
+End Sub 				
 ````
 

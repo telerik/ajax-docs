@@ -10,8 +10,6 @@ position: 18
 
 # OnClientTabSelecting
 
-
-
 ## 
 
 The **OnClientTabSelecting** client-side event occurs when the user selects a tab, before the tab is selected.
@@ -30,29 +28,27 @@ The event handler receives two parameters:
 
 You can use this event to pre-process a tab's selection or to cancel the default response:
 
-````ASPNET
-	 
-	 <script>
-	 function OnClientTabSelecting(sender, eventArgs)
-	 {
-	    var tab = eventArgs.get_tab();
-	    var navigateUrl = tab.get_navigateUrl();
-	    if (navigateUrl && navigateUrl != "#")
-	    {
-	       var proceed = confirm("Navigate to "+ navigateUrl + " ?");
-	       if (!proceed)
-	       {
-	          eventArgs.set_cancel(true);
-	       }
-	       else
-	       {
-	          eventArgs.set_cancel(false);
-	       }
-	     }
-	 }
-	</script>
-	<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelecting" ... /> 
-	 
+````ASPNET	 
+<script>
+function OnClientTabSelecting(sender, eventArgs)
+{
+var tab = eventArgs.get_tab();
+var navigateUrl = tab.get_navigateUrl();
+if (navigateUrl && navigateUrl != "#")
+{
+   var proceed = confirm("Navigate to "+ navigateUrl + " ?");
+   if (!proceed)
+   {
+      eventArgs.set_cancel(true);
+   }
+   else
+   {
+      eventArgs.set_cancel(false);
+   }
+ }
+}
+</script>
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelecting" ... /> 	 
 ````
 
 

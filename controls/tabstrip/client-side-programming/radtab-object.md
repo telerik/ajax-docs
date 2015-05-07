@@ -10,8 +10,6 @@ position: 2
 
 # RadTab Object
 
-
-
 ## 
 
 The **RadTab** object is returned by the **getTab** method of the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}). It is also exposed by the eventArgs of many [client-side events]({%slug tabstrip/client-side-programming/events%}). The following table lists the most important methods:
@@ -24,15 +22,11 @@ The **RadTab** object is returned by the **getTab** method of the [RadTabCollect
 | **findControl** |String|Object|Returns the client-side object of the Control with the specified ID nested in the Tab's Template. The ID passed as an argument to the function MUST be the ID attribute of the nested Control.|
 | **disable** |none|none|Disables the tab.|
 
-````JavaScript
-	 
-	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	var tab = tabStrip.findTabByText( "Paris");
-	tab.disable(); 
-	 
+````JavaScript	 
+var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+var tab = tabStrip.findTabByText( "Paris");
+tab.disable(); 	 
 ````
-
-
 
 
 >caption  
@@ -40,16 +34,11 @@ The **RadTab** object is returned by the **getTab** method of the [RadTabCollect
 |  **enable**  | none | none | Enables the tab if it is disabled. |
 | ------ | ------ | ------ | ------ |
 
-````JavaScript
-	 
-	var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
-	var tab = tabStrip.findTabByText( "Paris");
-	tab.enable(); 
-	 
+````JavaScript	 
+var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
+var tab = tabStrip.findTabByText( "Paris");
+tab.enable(); 	 
 ````
-
-
-
 
 >caption  
 
@@ -69,25 +58,22 @@ The **RadTab** object is returned by the **getTab** method of the [RadTabCollect
 | **get_level** |none|Integer|Gets the level of the tab. Root level tabs are first level.|
 | **get_attributes** |(none)|Collection|Returns the collection of custom attributes for the tab.|
 
-````JavaScript
-	
-	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	var foundTab = tabStrip.findTabByAttribute( "Population", "0");
-	var attributes = foundTab.get_attributes();
-	var size = attributes.getAttribute( "size");
-	if (size)
-	{
+````JavaScript	
+var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+var foundTab = tabStrip.findTabByAttribute( "Population", "0");
+var attributes = foundTab.get_attributes();
+var size = attributes.getAttribute( "size");
+if (size)
+{
 	attributes.setAttribute( "Population", size);
 	attributes.removeAttribute( "size");
-	}
-	else
-	{
+}
+else
+{
 	attributes.setAttribute( "Population", "Unknown" );
-	} 
+} 
 		
 ````
-
-
 
 
 >caption  
@@ -122,13 +108,10 @@ The **RadTab** object is returned by the **getTab** method of the [RadTabCollect
 | **scrollIntoView** |none|none|Scrolls to the tab.|
 | **click** |none|none|Simulate user click on a tab.|
 
-````JavaScript
-	
-	var tabStrip = $find("<%=RadTabStrip1.ClientID %>");
-	tabStrip.get_tabs().getTab(tabStrip.get_tabs().get_count()-1).scrollIntoView(); 
-			
+````JavaScript	
+var tabStrip = $find("<%=RadTabStrip1.ClientID %>");
+tabStrip.get_tabs().getTab(tabStrip.get_tabs().get_count()-1).scrollIntoView(); 			
 ````
-
 
 
 # See Also

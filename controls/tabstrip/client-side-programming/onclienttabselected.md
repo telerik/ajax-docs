@@ -10,8 +10,6 @@ position: 19
 
 # OnClientTabSelected
 
-
-
 ## 
 
 The **OnClientTabSelected** client-side event occurs when the user selects a tab, after the tab has been selected.
@@ -29,14 +27,14 @@ The event handler receives two parameters:
 You can use this event to respond when the user clicks on a tab:
 
 ````ASPNET
-	 <script>
-	 function OnClientTabSelected(sender, eventArgs)
-	 {
-	   var tab = eventArgs.get_tab();
-	   alert(tab.get_text());
-	 }
-	</script>
-	<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelected="OnClientTabSelected" ... /> 
+<script>
+function OnClientTabSelected(sender, eventArgs)
+{
+	var tab = eventArgs.get_tab();
+	alert(tab.get_text());
+}
+</script>
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelected="OnClientTabSelected" ... /> 
 ````
 
 

@@ -11,20 +11,16 @@ position: 4
 # RadPageView Object
 
 
-
 The **RadPageView**object is returned by the **getPageView** method of the RadPageView collection.
 
 ````JavaScript
-	
-	var multiPage = $find("<%=RadMultiPage1.ClientID %>");
-	var i;
-	for(i=0; i<multiPage.get_pageViews().get_count();i++)
-	{
-	   alert(multiPage.get_pageViews().getPageView(i).get_id());
-	}   
-	
+var multiPage = $find("<%=RadMultiPage1.ClientID %>");
+var i;
+for(i=0; i<multiPage.get_pageViews().get_count();i++)
+{
+	alert(multiPage.get_pageViews().getPageView(i).get_id());
+}   	
 ````
-
 
 
 ## RadPageView client-side object

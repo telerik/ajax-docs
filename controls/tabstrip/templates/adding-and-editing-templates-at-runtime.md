@@ -10,8 +10,6 @@ position: 3
 
 # Adding and Editing Templates at Runtime
 
-
-
 ## 
 
 You can also add templates to **RadTabStrip** at runtime, using the **TabTemplate** property. This property is of type **ITemplate**, so you must assign an object that implements that interface as a value:
@@ -26,80 +24,72 @@ You can also add templates to **RadTabStrip** at runtime, using the **TabTemplat
 
 
 
-
-
-
-````C#
-	   
-	protected override void OnInit(EventArgs e)
-	{
-	   RadTabStrip1.TabTemplate = new TextBoxTemplate();        
-	   base.OnInit(e);
-	}
-	protected void Page_Load(object sender, EventArgs e)
-	{
-	   if (!Page.IsPostBack)
-	   {
-	       RadTabStrip1.Tabs.Add(new RadTab("root1"));
-	       RadTabStrip1.Tabs.Add(new RadTab("root2"));
-	   }
-	   RadTabStrip1.DataBind();
-	}
-	class TextBoxTemplate : ITemplate
-	{
-	   public void InstantiateIn(Control container)
-	   {
-	       Label label1 = new Label();
-	       label1.ID = "ItemLabel";
-	       label1.Text = "Text";
-	       label1.Font.Size = 10;
-	       label1.Font.Bold = true;
-	       label1.DataBinding += new EventHandler(label1_DataBinding);
-	       container.Controls.Add(label1);
-	   }
-	   private void label1_DataBinding(object sender, EventArgs e)
-	   {
-	       Label target = (Label)sender;
-	       RadTab tab = (RadTab)target.BindingContainer;
-	       string tabText = (string)DataBinder.Eval(tab, "Text");
-	       target.Text = tabText;
-	   }
-	} 
-	
+````C#	   
+protected override void OnInit(EventArgs e)
+{
+   RadTabStrip1.TabTemplate = new TextBoxTemplate();        
+   base.OnInit(e);
+}
+protected void Page_Load(object sender, EventArgs e)
+{
+   if (!Page.IsPostBack)
+   {
+       RadTabStrip1.Tabs.Add(new RadTab("root1"));
+       RadTabStrip1.Tabs.Add(new RadTab("root2"));
+   }
+   RadTabStrip1.DataBind();
+}
+class TextBoxTemplate : ITemplate
+{
+   public void InstantiateIn(Control container)
+   {
+       Label label1 = new Label();
+       label1.ID = "ItemLabel";
+       label1.Text = "Text";
+       label1.Font.Size = 10;
+       label1.Font.Bold = true;
+       label1.DataBinding += new EventHandler(label1_DataBinding);
+       container.Controls.Add(label1);
+   }
+   private void label1_DataBinding(object sender, EventArgs e)
+   {
+       Label target = (Label)sender;
+       RadTab tab = (RadTab)target.BindingContainer;
+       string tabText = (string)DataBinder.Eval(tab, "Text");
+       target.Text = tabText;
+   }
+} 	
 ````
-````VB.NET
-	
-	Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
-	 RadTabStrip1.TabTemplate = New TextBoxTemplate()
-	 MyBase.OnInit(e)
-	End Sub
-	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	 If Not Page.IsPostBack Then
-	  RadTabStrip1.Tabs.Add(New RadTab("root1"))
-	  RadTabStrip1.Tabs.Add(New RadTab("root2"))
-	 End If
-	 RadTabStrip1.DataBind()
-	End Sub
-	Class TextBoxTemplate
-	 Implements ITemplate
-	 Public Sub InstantiateIn(ByVal container As Control) Implements ITemplate.InstantiateIn
-	  Dim label1 As New Label()
-	  label1.ID = "ItemLabel"
-	  label1.Text = "Text"
-	  label1.Font.Size = 10
-	  label1.Font.Bold = True
-	  AddHandler label1.DataBinding, AddressOf label1_DataBinding
-	  container.Controls.Add(label1)
-	 End Sub
-	 Private Sub label1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
-	  Dim target As Label = DirectCast(sender, Label)
-	  Dim tab As RadTab = DirectCast(target.BindingContainer, RadTab)
-	  Dim tabText As String = DirectCast(DataBinder.Eval(tab, "Text"), String)
-	  target.Text = tabText
-	 End Sub
-	End Class  
-	
-				
+````VB.NET	
+Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
+ RadTabStrip1.TabTemplate = New TextBoxTemplate()
+ MyBase.OnInit(e)
+End Sub
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+ If Not Page.IsPostBack Then
+  RadTabStrip1.Tabs.Add(New RadTab("root1"))
+  RadTabStrip1.Tabs.Add(New RadTab("root2"))
+ End If
+ RadTabStrip1.DataBind()
+End Sub
+Class TextBoxTemplate
+ Implements ITemplate
+ Public Sub InstantiateIn(ByVal container As Control) Implements ITemplate.InstantiateIn
+  Dim label1 As New Label()
+  label1.ID = "ItemLabel"
+  label1.Text = "Text"
+  label1.Font.Size = 10
+  label1.Font.Bold = True
+  AddHandler label1.DataBinding, AddressOf label1_DataBinding
+  container.Controls.Add(label1)
+ End Sub
+ Private Sub label1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
+  Dim target As Label = DirectCast(sender, Label)
+  Dim tab As RadTab = DirectCast(target.BindingContainer, RadTab)
+  Dim tabText As String = DirectCast(DataBinder.Eval(tab, "Text"), String)
+  target.Text = tabText
+ End Sub
+End Class  			
 ````
 
 
@@ -109,46 +99,36 @@ If you for some reason cannot define the template in the OnInit event of the pag
 >
 
 
-
-
-````C#
-	
-	protected void Page_Load(object sender, EventArgs e)
-	{
-	   
-	   if (!Page.IsPostBack)
-	   {
-	       RadTabStrip1.Tabs.Add(new RadTab("root1"));
-	       RadTabStrip1.Tabs.Add(new RadTab("root2"));
-	   }
-	   TextBoxTemplate template = new TextBoxTemplate();
-	   foreach (RadTab tab in RadTabStrip1.GetAllTabs())
-	   {
-	       template.InstantiateIn(tab);
-	   }
-	   RadTabStrip1.DataBind();
-	} 
-				
+````C#	
+protected void Page_Load(object sender, EventArgs e)
+{
+   
+   if (!Page.IsPostBack)
+   {
+       RadTabStrip1.Tabs.Add(new RadTab("root1"));
+       RadTabStrip1.Tabs.Add(new RadTab("root2"));
+   }
+   TextBoxTemplate template = new TextBoxTemplate();
+   foreach (RadTab tab in RadTabStrip1.GetAllTabs())
+   {
+       template.InstantiateIn(tab);
+   }
+   RadTabStrip1.DataBind();
+} 				
 ````
-````VB.NET
-	
-	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	 If Not Page.IsPostBack Then
-	  RadTabStrip1.Tabs.Add(New RadTab("root1"))
-	  RadTabStrip1.Tabs.Add(New RadTab("root2"))
-	 End If
-	 Dim template As New TextBoxTemplate()
-	 For Each tab As RadTab In RadTabStrip1.GetAllTabs()
-	  template.InstantiateIn(tab)
-	 Next
-	 RadTabStrip1.DataBind()
-	End Sub 
-	
-				
+````VB.NET	
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+ If Not Page.IsPostBack Then
+  RadTabStrip1.Tabs.Add(New RadTab("root1"))
+  RadTabStrip1.Tabs.Add(New RadTab("root2"))
+ End If
+ Dim template As New TextBoxTemplate()
+ For Each tab As RadTab In RadTabStrip1.GetAllTabs()
+  template.InstantiateIn(tab)
+ Next
+ RadTabStrip1.DataBind()
+End Sub 				
 ````
-
-
-
 
 The end result of this code looks like the following:
 

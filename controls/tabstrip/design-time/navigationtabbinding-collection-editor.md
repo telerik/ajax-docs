@@ -11,7 +11,6 @@ position: 2
 # NavigationTabBinding Collection Editor
 
 
-
 ## 
 
 The **NavigationTabBinding Collection Builder** lets specify how to map the fields from a declarative data source to the properties of the tab items in your tab strip. To use the **NavigationTabBinding Collection Builder**, you must first set the **DataSourceID** property.

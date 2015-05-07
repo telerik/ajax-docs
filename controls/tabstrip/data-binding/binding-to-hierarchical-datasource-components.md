@@ -11,7 +11,6 @@ position: 4
 # Binding to Hierarchical DataSource Components
 
 
-
 Some data sources are inherently hierarchical. These include **SiteMapDataSource** and **XmlDataSource**. When data-bound to these types of data sources, **RadTabStrip** automatically creates the tab hierarchy. There is no need to use the **DataFieldID** and **DataFieldParentID** properties.
 
 ## Binding to SiteMapDataSource
@@ -30,39 +29,31 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 
 1. Click the Add button. Visual Studio generates the web.sitemap file with the initial code:
 
-````XML
-	
-	<?xml version="1.0" encoding= "utf-8" ?>
-	<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-	  <siteMapNode url="" title=""  description="">
-	       <siteMapNode url="" title=""  description="" />
-	       <siteMapNode url="" title=""  description="" />
-	  </siteMapNode>
-	</siteMap> 
-	
+````XML	
+<?xml version="1.0" encoding= "utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+       <siteMapNode url="" title=""  description="" />
+       <siteMapNode url="" title=""  description="" />
+  </siteMapNode>
+</siteMap> 	
 ````
-
-
 
 1. Populate the Web.sitemap file. Here is an example:
 
 ````XML
-	
-	<?xml version="1.0" encoding= "utf-8" ?>
-	<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-	<siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page">
-	<siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description ="Telerik RadControls for ASP.NET" >
-	<siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>
-	</siteMapNode>
-	<siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description ="Telerik RadNavigation controls" />
-	</siteMapNode>
-	</siteMap> 
-	
+<?xml version="1.0" encoding= "utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+<siteMapNode url="http://www.telerik.com" title="Telerik" description="Telerik home page">
+<siteMapNode url="http://www.telerik.com/radcontrols" title="Telerik RadControls for ASP.NET" description ="Telerik RadControls for ASP.NET" >
+<siteMapNode url="http://www.telerik.com/radeditor" title="Telerik RadEditor" description="Telerik RadEditor control"/>
+</siteMapNode>
+<siteMapNode url="http://www.telerik.com/radnavigation" title="Telerik RadNavigation controls" description ="Telerik RadNavigation controls" />
+</siteMapNode>
+</siteMap> 	
 ````
 
-
-
->caution The url must be unique for each node. Avoid using backslashes ('\') for your URLs. Backslashes may cause problems with some browsers. Instead, we use the slash character ('/').
+>caution The url must be unique for each node. Avoid using backslashes (\) for your URLs. Backslashes may cause problems with some browsers. Instead, we use the slash character (/).
 >
 
 
@@ -86,22 +77,16 @@ Before adding the **SiteMapDataSource** control to your page, you need to add th
 
 
 
-````C#
-	
-	void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
-	{
-	  e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "title");
-	 
-	} 
-		
+````C#	
+void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
+{
+	e.Tab.ToolTip = "Read more about" + (string)DataBinder.Eval(e.Tab.DataItem, "title");	 
+} 		
 ````
 ````VB.NET
-	
-	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
-	    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "title), String)
-	End Sub 
-	
-	
+Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
+    e.Tab.ToolTip = "Read more about" + DirectCast(DataBinder.Eval(e.Tab.DataItem, "title), String)
+End Sub 	
 ````
 
 
@@ -113,51 +98,50 @@ Consider the following example:
 
 1. Add the following xml file in the App_Data folder:
 
-````XML
-	 
-	 <?xml version="1.0" encoding="utf-8" ?>
-	<Items Text="">
-	 <Item Text="European cities" Url="" >  
-	   <Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
-	   <Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
-	   <Item Text="Paris" Url="http://en.wikipedia.org/wiki/Paris" />
-	</Item>
-	< <Item Text="North American cities" Url="">
-	  <Item Text="Boston" Url="http://en.wikipedia.org/wiki/Boston" />
-	  <Item Text="San Francisco" Url="http://en.wikipedia.org/wiki/San_Francisco" />
-	  <Item Text="Seattle" Url="http://en.wikipedia.org/wiki/Seattle" />
-	  <Item Text="Toronto" Url="http://en.wikipedia.org/wiki/Toronto" />
-	</Item>
-	<Item Text="South American cities" Url="">
-	  <Item Text="Rio de Janeiro" Url="http://en.wikipedia.org/wiki/Rio_De_Janeiro" />
-	  <Item Text="Buenos Aires" Url="http://en.wikipedia.org/wiki/Buenos_aires" />
-	</Item>
-	<Item Text="Asian cities" Url="">
-	  <Item Text="Tokyo" Url="http://en.wikipedia.org/wiki/Tokyo" />
-	  <Item Text="Seul" Url="http://en.wikipedia.org/wiki/Seul" />
-	  <Item Text="Beijing" Url="http://en.wikipedia.org/wiki/Beijing" />
-	  <Item Text="Tehran" Url="http://en.wikipedia.org/wiki/Teheran" />
-	</Item>
-	<Item Text="African cities" Url="">
-	  <Item Text="Kano" Url="http://en.wikipedia.org/wiki/Kano" />
-	  <Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
-	  <Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
-	</Item>
-	</Items> 
-	 
+````XML	 
+<?xml version="1.0" encoding="utf-8" ?>
+<Items Text="">
+ <Item Text="European cities" Url="" >  
+   <Item Text="Sofia" Url="http://en.wikipedia.org/wiki/Sofia" />
+   <Item Text="Berlin" Url="http://en.wikipedia.org/wiki/Berlin" />
+   <Item Text="Paris" Url="http://en.wikipedia.org/wiki/Paris" />
+</Item>
+<Item Text="North American cities" Url="">
+  <Item Text="Boston" Url="http://en.wikipedia.org/wiki/Boston" />
+  <Item Text="San Francisco" Url="http://en.wikipedia.org/wiki/San_Francisco" />
+  <Item Text="Seattle" Url="http://en.wikipedia.org/wiki/Seattle" />
+  <Item Text="Toronto" Url="http://en.wikipedia.org/wiki/Toronto" />
+</Item>
+<Item Text="South American cities" Url="">
+  <Item Text="Rio de Janeiro" Url="http://en.wikipedia.org/wiki/Rio_De_Janeiro" />
+  <Item Text="Buenos Aires" Url="http://en.wikipedia.org/wiki/Buenos_aires" />
+</Item>
+<Item Text="Asian cities" Url="">
+  <Item Text="Tokyo" Url="http://en.wikipedia.org/wiki/Tokyo" />
+  <Item Text="Seul" Url="http://en.wikipedia.org/wiki/Seul" />
+  <Item Text="Beijing" Url="http://en.wikipedia.org/wiki/Beijing" />
+  <Item Text="Tehran" Url="http://en.wikipedia.org/wiki/Teheran" />
+</Item>
+<Item Text="African cities" Url="">
+  <Item Text="Kano" Url="http://en.wikipedia.org/wiki/Kano" />
+  <Item Text="Johannesburg" Url="http://en.wikipedia.org/wiki/Johannesburg" />
+  <Item Text="BeninCity" Url="http://en.wikipedia.org/wiki/Benin" />
+</Item>
+</Items> 	 
 ````
-
-
 
 1. Drag an instance of **XmlDataSource** onto your Web form and configure the control:
 
 1. Set the Data file to the XML file you just added.
 
-1. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level tabs.![Configure XML source](images/tabstrip_configurexmlsource.png)
+1. Set the XPath expression to "/Items/Item". This removes the starting node of the XML file so that you can have multiple root-level tabs. 
+![Configure XML source](images/tabstrip_configurexmlsource.png)
 
-1. Set the **DataSourceID** of your RadTabStrip to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag:![Choose XML DataSource](images/tabstrip_choosexmldatasource.png)
+1. Set the **DataSourceID** of your RadTabStrip to the ID of the XmlDataSource or choose the XMLDataSource from the smart tag: 
+![Choose XML DataSource](images/tabstrip_choosexmldatasource.png)
 
-1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties:![Binding fields](images/tabstrip_bindingfields.png)
+1. Map the **Text**, **Value** and **NavigateUrl** fields by setting the **DataTextField**, **DataValueField** and **DataNavigateUrlField** properties: 
+![Binding fields](images/tabstrip_bindingfields.png)
 
 >note This example has no separate field for value, so it uses the Text field for the **Value** property, for illustrative purposes.
 >
@@ -168,30 +152,23 @@ Consider the following example:
 
 
 ````C#
-	 
-	void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
-	{
-	  if (e.Tab.Level > 0)//set tooltip only for child tabs
-	  {          
-	      XmlElement element = (XmlElement)e.Tab.DataItem;
-	     e.Tab.ToolTip = "Read more about " + element.Attributes["Text"].Value;
-	  }  
-	} 
-	
-				
+void RadTabStrip1_TabDataBound( object sender, RadTabStripEventArgs e)
+{
+  if (e.Tab.Level > 0)//set tooltip only for child tabs
+  {          
+     XmlElement element = (XmlElement)e.Tab.DataItem;
+     e.Tab.ToolTip = "Read more about " + element.Attributes["Text"].Value;
+  }  
+} 			
 ````
-````VB.NET
-	
-	Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
-	    If e.Tab.Level > 0 Then 'set tooltip only for child tabs
-	       Dim element As XmlElement = DirectCast(e.Tab.DataItem, XmlElement)
-	      e.Tab.ToolTip = "Read more about " + element.Attributes("Text").Value
-	   End If
-	End Sub 
-	
-	
+````VB.NET	
+Private Sub RadTabStrip1_TabDataBound(ByVal sender As Object, ByVal e As RadTabStripEventArgs) Handles RadTabStrip1.TabDataBound
+    If e.Tab.Level > 0 Then 'set tooltip only for child tabs
+       Dim element As XmlElement = DirectCast(e.Tab.DataItem, XmlElement)
+      e.Tab.ToolTip = "Read more about " + element.Attributes("Text").Value
+   End If
+End Sub 
 ````
-
 
 # See Also
 

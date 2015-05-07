@@ -10,8 +10,6 @@ position: 17
 
 # OnClientTabEnabled
 
-
-
 ## 
 
 The **OnClientTabEnabled** client-side event occurs when a tab is enabled.
@@ -27,21 +25,21 @@ The event handler receives two parameters:
 You can use this event to respond when a tab is enabled:
 
 ````ASPNET
-	    <script type="text/javascript">
-	        function enableTab() {
-	            var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	            var secondTab = tabStrip.findTabByText("Root Tab 2");
-	            secondTab.enable();
-	        }
-	        function tabEnabled(sender, args) {
-	            alert("You have just enabled the " + args.get_tab().get_text() + " tab");
-	        }
-	    </script>
-	    <telerik:radtabstrip id="RadTabStrip1" runat="server" onclienttabenabled="tabEnabled"> 
-	        <Tabs>    
-	        ...
-	        </Tabs>
-	    </telerik:radtabstrip>
+<script type="text/javascript">
+    function enableTab() {
+        var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+        var secondTab = tabStrip.findTabByText("Root Tab 2");
+        secondTab.enable();
+    }
+    function tabEnabled(sender, args) {
+        alert("You have just enabled the " + args.get_tab().get_text() + " tab");
+    }
+</script>
+<telerik:radtabstrip id="RadTabStrip1" runat="server" onclienttabenabled="tabEnabled"> 
+    <Tabs>    
+    ...
+    </Tabs>
+</telerik:radtabstrip>
 ````
 
 

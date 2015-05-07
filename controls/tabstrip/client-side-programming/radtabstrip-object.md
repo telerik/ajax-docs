@@ -10,8 +10,6 @@ position: 1
 
 # RadTabStrip Object
 
-
-
 ## 
 
 The table below lists the most important methods of the client-side **RadTabStrip** object. Many significant methods for performing common tasks such as adding, inserting and removing tabs are actually performed using the [RadTabCollection object]({%slug tabstrip/client-side-programming/radtabcollection-object%}).
@@ -27,18 +25,16 @@ The table below lists the most important methods of the client-side **RadTabStri
 Client side changes are available on the server side after postback. You can use the [ClientChanges]({%slug tabstrip/client-side-programming/accessing-client-changes-at-the-server%}) property to access them.
 
 ````JavaScript
-	 function addNewTab()
-	{  
-	 var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
-	 var tab = new Telerik.Web.UI.RadTab();
-	 tab.set_text("New Tab");
-	 tabStrip.trackChanges();
-	 tabStrip.get_tabs().add(tab);
-	 tabStrip.commitChanges();       
-	} 	
+function addNewTab()
+{  
+	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+	var tab = new Telerik.Web.UI.RadTab();
+	tab.set_text("New Tab");
+	tabStrip.trackChanges();
+	tabStrip.get_tabs().add(tab);
+	tabStrip.commitChanges();       
+} 	
 ````
-
-
 
 
 >caption  
@@ -47,16 +43,13 @@ Client side changes are available on the server side after postback. You can use
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	function disableTabStrip()
-	{
+function disableTabStrip()
+{
 	var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
 	tabStrip.disable();
 	//or tabStrip.set_enabled(false);
-	} 
-				
+} 				
 ````
-
-
 
 
 >caption  
@@ -65,18 +58,13 @@ Client side changes are available on the server side after postback. You can use
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	
-	function enableTabStrip()
-	{
-	 var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
-	 tabsStrip.enable();
-	 //or tabStrip.set_enabled(true);
-	} 			
+function enableTabStrip()
+{
+	var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
+	tabsStrip.enable();
+	//or tabStrip.set_enabled(true);
+} 			
 ````
-
-
-
 
 >caption  
 
@@ -91,21 +79,16 @@ Client side changes are available on the server side after postback. You can use
 | **get_tabs** |none|RadTabCollection|Returns the collection of root level tabs.|
 
 ````JavaScript
-	     
-	
-	function showRootTabs()
-	{
+function showRootTabs()
+{
 	var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
 	var tabs = tabStrip.get_tabs();
 	for (var i=0; i < tabs.get_count(); i++)
 	{
 	   alert(tabs.getTab(i).get_text());
 	}
-	} 
-				
+} 				
 ````
-
-
 
 
 >caption  
@@ -114,19 +97,15 @@ Client side changes are available on the server side after postback. You can use
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	     
-	
-	function showAllTabs()
-	{
+function showAllTabs()
+{
 	var tabStrip = $find( "<%=RadTabStrip1.ClientID %>");
 	for (var i=0; i< tabStrip.get_allTabs().length; i++)
 	{
 	   alert(tabStrip.get_allTabs()[i].get_text());
 	}
-	} 			
+} 			
 ````
-
-
 
 
 >caption  
@@ -138,26 +117,22 @@ Client side changes are available on the server side after postback. You can use
 | **get_attributes** |none|Collection|Returns the collection of custom attributes for the tab strip.|
 | **get_element** |none|HTML Element|Gets the DOM element for the tab strip.|
 
-````JavaScript
-	     
-	// hide the tabstrip
-	// note this change does not persist after a postback
-	function hideTabStrip()
-	{
+````JavaScript	     
+// hide the tabstrip
+// note this change does not persist after a postback
+function hideTabStrip()
+{
 	var tabStrip = $find( "<%= RadTabStrip1.ClientID %>");
 	tabStrip.get_element().style.display = "none" ;
-	}
-	// show the tabstrip
-	function showTabStrip()
-	{
+}
+
+// show the tabstrip
+function showTabStrip()
+{
 	var tabStrip = $find("<%= RadTabStrip1.ClientID %>");
 	tabStrip.get_element().style.display = "" ;
-	} 
-				
+} 				
 ````
-
-
-
 
 >caption  
 
@@ -167,39 +142,34 @@ Client side changes are available on the server side after postback. You can use
 | **set_validationGroup** |String|none|Sets the name of the validation group to be used for the integrated validation controls.|
 | **add_<EventName>** |(mixed eventHandler)|none|Attaches an eventHandler to the event with the name <EventName>. Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}).|
 
-````JavaScript
-	     
-	function OnClientTabSelectingHandler(sender, args)
-	{
-	 alert(args.get_tab().get_text() );
-	}
-	function AttachHandler()
-	{
-	 var tabStrip  = $find( "<%=RadTabStrip1.ClientID %>");
-	 tabStrip.add_tabSelecting( OnClientTabSelectingHandler);
-	} 			
+````JavaScript	     
+function OnClientTabSelectingHandler(sender, args)
+{
+	alert(args.get_tab().get_text() );
+}
+function AttachHandler()
+{
+	var tabStrip  = $find( "<%=RadTabStrip1.ClientID %>");
+	tabStrip.add_tabSelecting( OnClientTabSelectingHandler);
+} 			
 ````
-
-
-
 
 >caption  
 
-|  **remove_<EventName>**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name <EventName>.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see[Client-Side Events]({%slug tabstrip/client-side-programming/events%}). |
+|  **remove_<EventName>**  | (mixed eventHandler) | Boolean | Detaches an eventHandler from the event with the name <EventName>.Returns "True" if the eventHandler is found and detached, false otherwise.Note that client-side event names differ from their server-side counterparts. For more information, see [Client-Side Events]({%slug tabstrip/client-side-programming/events%}). |
 | ------ | ------ | ------ | ------ |
 
 ````JavaScript
-	 function OnClientTabSelectingHandler(sender, args)
-	{
-	 alert(args.get_tab().get_text() );
-	}
-	function DetachHandler()
-	{
-	 var tabStrip = $find("<%=RadTabStrip1.ClientID %>");
-	 tabStrip.remove_tabSelecting(OnClientTabSelectingHandler);
-	} 			
+function OnClientTabSelectingHandler(sender, args)
+{
+	alert(args.get_tab().get_text() );
+}
+function DetachHandler()
+{
+	var tabStrip = $find("<%=RadTabStrip1.ClientID %>");
+	tabStrip.remove_tabSelecting(OnClientTabSelectingHandler);
+} 			
 ````
-
 
 
 # See Also

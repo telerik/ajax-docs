@@ -10,11 +10,9 @@ position: 11
 
 # OnClientMouseOut
 
-
-
 ## 
 
-The **OnClientMouseOut**client-side event occurs when the mouse moves off a tab in the tab strip.
+The **OnClientMouseOut** client-side event occurs when the mouse moves off a tab in the tab strip.
 
 The event handler receives two parameters:
 
@@ -28,24 +26,22 @@ The event handler receives two parameters:
 
 You can use this event to respond when the mouse moves off a tab:
 
-````ASPNET
-	 
-	<script type="text/javascript">
-	function markTab(sender, args)
-	{
-	  var attributes = args.get_tab().get_attributes();
-	  attributes.setAttribute("visited", "true");
-	}
-	</script>
-	<telerik:RadTabStrip
-	  ID="RadTabStrip1" runat="server" OnClientMouseOut="markTab">
-	<Tabs>
-	  <telerik:RadTab runat="server" Text="Item 1" visited="false" />
-	  <telerik:RadTab runat="server" Text="Item 2" visited="false" />
-	  <telerik:RadTab runat="server" Text="Item 3" visited="false" />
-	</Tabs>
-	</telerik:RadTabStrip> 
-	 
+````ASPNET	 
+<script type="text/javascript">
+function markTab(sender, args)
+{
+	var attributes = args.get_tab().get_attributes();
+	attributes.setAttribute("visited", "true");
+}
+</script>
+<telerik:RadTabStrip
+  ID="RadTabStrip1" runat="server" OnClientMouseOut="markTab">
+<Tabs>
+  <telerik:RadTab runat="server" Text="Item 1" visited="false" />
+  <telerik:RadTab runat="server" Text="Item 2" visited="false" />
+  <telerik:RadTab runat="server" Text="Item 3" visited="false" />
+</Tabs>
+</telerik:RadTabStrip> 	 
 ````
 
 

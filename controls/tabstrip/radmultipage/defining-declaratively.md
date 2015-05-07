@@ -10,26 +10,22 @@ position: 1
 
 # Defining Declaratively
 
-
-
 ## 
 
-**RadMultiPage**provides a convenient mechanism that lets you define its structure in-line - directly in the .ASPX/.ASCX file.To do this, you need to enclose every **RadPageView** definition in the **<telerik:RadPageView >** ...**</telerik:RadPageView>** tags:
+**RadMultiPage** provides a convenient mechanism that lets you define its structure in-line - directly in the .ASPX/.ASCX file.To do this, you need to enclose every **RadPageView** definition in the **&lt;telerik:RadPageView&gt;** ... **&lt;/telerik:RadPageView&gt;** tags:
 
-````ASPNET
-	  
-	  <telerik:RadMultiPage id="RadMultiPage1" runat="server" SelectedIndex="0" Width="400">
-	  <telerik:RadPageView id="Pageview1" runat="server">
-	      ...     
-	  </telerik:RadPageView>
-	  <telerik:RadPageView id="Pageview2" runat="server">
-	      ...       
-	  </telerik:RadPageView>
-	  <telerik:RadPageView id="Pageview3" runat="server">
-	      ...       
-	  </telerik:RadPageView>
-	</telerik:RadMultiPage> 
-	  
+````ASPNET	  
+<telerik:RadMultiPage id="RadMultiPage1" runat="server" SelectedIndex="0" Width="400">
+<telerik:RadPageView id="Pageview1" runat="server">
+  ...     
+</telerik:RadPageView>
+<telerik:RadPageView id="Pageview2" runat="server">
+  ...       
+</telerik:RadPageView>
+<telerik:RadPageView id="Pageview3" runat="server">
+  ...       
+</telerik:RadPageView>
+</telerik:RadMultiPage> 	  
 ````
 
 

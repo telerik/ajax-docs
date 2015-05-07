@@ -11,8 +11,7 @@ position: 7
 # Events
 
 
-
-__RadTabStrip__ supports a number of client-side events that let you customize the behavior of the tab strip:
+**RadTabStrip** supports a number of client-side events that let you customize the behavior of the tab strip:
 
 * [OnClientLoad]({%slug tabstrip/client-side-programming/onclientload%}) occurs when the tab strip is first loaded
 
@@ -40,70 +39,59 @@ __RadTabStrip__ supports a number of client-side events that let you customize t
 
 * [OnClientReordered]({%slug tabstrip/client-side-programming/onclientreordered%}) event is fired after the reorder operation is completed and the dragged tab is being inserted into its new position
 
-To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding __RadTabStrip__ property.
+To use these events, simply write a javascript function that can be called when the event occurs. Then assign the name of the javascript function as the value of the the corresponding **RadTabStrip** property.
 
 ````ASPNET
-	 <script type="text/javascript">
-	function OnClientTabSelectingHandler(sender, args)
+<script type="text/javascript">
+function OnClientTabSelectingHandler(sender, args)
+{
+	var tab = args.get_tab();
+	var navigateUrl = tab.get_navigateUrl();
+	if (navigateUrl != "#")
 	{
-	  var tab = args.get_tab();
-	  var navigateUrl = tab.get_navigateUrl();
-	  if (navigateUrl != "#")
-	  {
-	     var proceed = confirm("Navigate to "+ navigateUrl + " ?");
-	     if (!proceed)
-	     {
-	        args.set_cancel(true);
-	     }
-	  }
+		var proceed = confirm("Navigate to "+ navigateUrl + " ?");
+		if (!proceed)
+		{
+			args.set_cancel(true);
+		}
 	}
-	</script>
-	
-	<telerik:RadTabStrip
-	        ID="RadTabStrip1"
-	        runat="server"
-	        OnClientTabSelecting="OnClientTabSelectingHandler">
-	...
-	</telerik:RadTabStrip> 
+}
+</script>
+
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabSelecting="OnClientTabSelectingHandler">
+...
+</telerik:RadTabStrip> 
 ````
-
-
 
 You can also assign event handlers in client-side code. When using the client-side API, pass a reference to the event handler rather than its name. One advantage of using the client-side API is that you can attach multiple event handlers to one event using the standard MS AJAX convention:
 
-````JavaScript
-	
-	function Handler1()
-	{
+````JavaScript	
+function Handler1()
+{
 	alert("First handler called");
-	}
-	function Handler2()
-	{
+}
+function Handler2()
+{
 	alert("Second handler called");
-	}
-	function pageLoad()
-	{
+}
+function pageLoad()
+{
 	var tabStrip = $find(<%=RadTabStrip1.ClientID%>);
 	
 	tabStrip.add_tabSelecting(Handler1);
 	tabStrip.add_tabSelecting(Handler2);
-	} 
-			
+} 			
 ````
-
-
 
 Another advantage of the client-side API is that you can detach an event handler dynamically:
 
 ````JavaScript
-	  function removeOnClicked2()
-	{
+function removeOnClicked2()
+{
 	var tabStrip = $find(<%=RadTabStrip1.ClientID%>);
 	tabStrip.remove_tabSelecting(Handler2);
-	} 		
+} 		
 ````
-
-
 
 Note that on the client-side, the names of events are slightly different than on the server side. The following table shows the correspondence between client-side and server-side names:
 
@@ -125,7 +113,7 @@ Note that on the client-side, the names of events are slightly different than on
 
 ## Enabling and disabling events
 
-If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the __disableEvents()__ and __enableEvents()__ methods. Unlike adding and removing individual event handlers, __enableEvents()__ and __disableEvents()__ affect all events at once.
+If you want for some reason to temporarily "mute" the control event emitting (or, respectively, to "unmute" the events again), you may use the **disableEvents()** and **enableEvents()** methods. Unlike adding and removing individual event handlers, **enableEvents()** and **disableEvents()** affect all events at once.
 
 # See Also
 

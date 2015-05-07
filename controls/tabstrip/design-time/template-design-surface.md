@@ -10,13 +10,11 @@ position: 3
 
 # Template Design Surface
 
-
-
 ## 
 
 The **Template Design Surface** lets you design templates for the items that appear in the tab strip. There are two ways to display the Template Design Surface:
 
-* Choose **Edit Templates** from the **RadTabStrip**[Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
+* Choose **Edit Templates** from the **RadTabStrip** [Smart Tag]({%slug tabstrip/design-time/smart-tag%}).
 
 * Choose **Edit Template** from the **RadTabStrip** context menu and select the type of template you want to edit.
 

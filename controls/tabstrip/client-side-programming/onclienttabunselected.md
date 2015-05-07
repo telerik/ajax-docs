@@ -10,8 +10,6 @@ position: 20
 
 # OnClientTabUnSelected
 
-
-
 ## 
 
 The **OnClientTabUnSelected** client-side event occurs when the user selects a new tab, after the previously selected tab has been unselected.
@@ -29,17 +27,14 @@ The event handler receives two parameters:
 You can use this event to respond when the user deselects a tab:
 
 ````ASPNET
-	     
-	
-	<script>
-	 function OnClientTabUnSelected(sender, args)
-	 {
-	   var tab = args.get_tab();
-	   alert("The previously selected tab was " + tab.get_text());
-	 }
-	</script>
-	<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabUnSelected="OnClientTabUnSelected" ... /> 
-	
+<script>
+function OnClientTabUnSelected(sender, args)
+{
+	var tab = args.get_tab();
+	alert("The previously selected tab was " + tab.get_text());
+}
+</script>
+<telerik:RadTabStrip ID="RadTabStrip1" runat="server" OnClientTabUnSelected="OnClientTabUnSelected" ... /> 	
 ````
 
 
