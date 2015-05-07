@@ -16,7 +16,7 @@ The following article demonstrates the usage of the **DataBound** server-side ev
 
 ## 
 
-The **DataBound** server-side event of the **RadTreeMap** is fired once the control is fully data-bound. This event only occurs if the items are loaded from a data source (the **DataSource**or **DataSourceID** property is set).
+The **DataBound** server-side event of the **RadTreeMap** is fired once the control is fully data-bound. This event only occurs if the items are loaded from a data source (the **DataSource** or **DataSourceID** property is set).
 
 The **DataBound** event handler receives two arguments:
 

@@ -11,7 +11,6 @@ position: 1
 # Client-side Binding
 
 
-
 The following article, demonstrates the technique to bind the **RadTreeMap** at client-side.
 
 ## 
@@ -27,23 +26,22 @@ The RadTreeMap control could be bound entirely at client-side. This scenario can
 
 
 ````ASPNET
-	        <telerik:radtreemap runat="server" id="RadTreeMap1"
-	            onclientload="OnClientLoad">
-	        </telerik:radtreemap>
-	        <script type="text/javascript">
-	            function OnClientLoad(sender) {
-	                var data = [{
-	                    name: "item 1",
-	                    value: 1,
-	                    items: [{ name: "item 1.1", value: 10 },
-	                            { name: "item 1.2", value: 11 },
-	                            { name: "item 1.3", value: 12 }]
-	                }];
-	
-	                var fields = { textField: "name", valueField: "value" };
-	
-	                sender.set_dataSource(data, fields);
-	            }
-	        </script>
+<telerik:radtreemap runat="server" id="RadTreeMap1" onclientload="OnClientLoad">
+</telerik:radtreemap>
+<script type="text/javascript">
+function OnClientLoad(sender) {
+    var data = [{
+        name: "item 1",
+        value: 1,
+        items: [{ name: "item 1.1", value: 10 },
+                { name: "item 1.2", value: 11 },
+                { name: "item 1.3", value: 12 }]
+    }];
+
+    var fields = { textField: "name", valueField: "value" };
+
+    sender.set_dataSource(data, fields);
+}
+</script>
 ````
 

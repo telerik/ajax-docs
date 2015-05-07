@@ -10,8 +10,6 @@ position: 0
 
 # Server-side Binding
 
-
-
 The following article demonstrates how the **RadTreeMap** could be bound to **SqlDataSource**.
 
 ## 
@@ -33,15 +31,15 @@ In the example below, you could observe a possible implementation of the SqlData
 
 
 ````ASPNET
-	        <telerik:radtreemap runat="server"
-	            id="RadTreeMap1"
-	            datasourceid="SqlDataSource1"
-	            datafieldid="ID"
-	            datafieldparentid="ParentID"
-	            datatextfield="Name"
-	            datavaluefield="Value">
-	        </telerik:radtreemap>
-	        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
-	            SelectCommand="SELECT ID, ParentID, Name, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
+<telerik:radtreemap runat="server"
+    id="RadTreeMap1"
+    datasourceid="SqlDataSource1"
+    datafieldid="ID"
+    datafieldparentid="ParentID"
+    datatextfield="Name"
+    datavaluefield="Value">
+</telerik:radtreemap>
+<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:CustomConnectionString %>"
+    SelectCommand="SELECT ID, ParentID, Name, Value FROM [TopPaidAthletes]"></asp:SqlDataSource>
 ````
 
