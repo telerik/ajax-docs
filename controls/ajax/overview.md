@@ -16,13 +16,13 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
 ## RadAjax Controls
 
-* **RadAjaxManager**Use **RadAjaxManager** to configure the necessary AJAX settings to specify the AJAX initiators and updated controls. The AJAX initiator performs the AJAX request to update the respectively set controls. You can find how to configure the **RadAjaxManager** control in the following articles:
+* **RadAjaxManager** Use **RadAjaxManager** to configure the necessary AJAX settings to specify the AJAX initiators and updated controls. The AJAX initiator performs the AJAX request to update the respectively set controls. You can find how to configure the **RadAjaxManager** control in the following articles:
 
 * [Setting Control Relations in RadAjaxManager]({%slug ajax/radajaxmanager/overview%})
 
 * [AJAX-enabling an Application Through RadAjaxManager and RadAjaxLoadingPanel]({%slug ajax/getting-started/ajax-enable-a-scenario-through-radajaxmanager-and-radajaxloadingpanel%})
 
-* **RadAjaxPanel**The **RadAjaxPanel** control mimics the behaviour of the **asp:UpdatePanel** control - All of the controls that prevously triggered postback requests start performing AJAX updates after they are wrapped in a **RadAjaxPanel** control. Read more about the **RadAjaxPanel** in the article below.
+* **RadAjaxPanel** The **RadAjaxPanel** control mimics the behaviour of the **asp:UpdatePanel** control - All of the controls that prevously triggered postback requests start performing AJAX updates after they are wrapped in a **RadAjaxPanel** control. Read more about the **RadAjaxPanel** in the article below.
 
 * [RadAjaxPanel]({%slug ajax/radajaxpanel/overview%})
 
@@ -34,7 +34,7 @@ Telerik UI for ASP.NET AJAX provides a universal, cross-browser approach for cre
 
 * [RadAjax and MasterPage Scenarios]({%slug ajax/radajaxmanager/how-to/radajax-and-masterpage%})
 
-* **RadAjaxLoadingPanel**A **RadAjaxLoadingPanel** is displayed over or above the updated controls during AJAX updates. Read how to use and configure the **RadAjaxLoadingPanel** control in the following article.
+* **RadAjaxLoadingPanel** A **RadAjaxLoadingPanel** is displayed over or above the updated controls during AJAX updates. Read how to use and configure the **RadAjaxLoadingPanel** control in the following article.
 
 * [Configuring RadAjaxLoadingPanel]({%slug ajax/radajaxloadingpanel/overview%})
 
