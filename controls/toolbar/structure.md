@@ -10,11 +10,9 @@ position: 1
 
 # Structure
 
-
-
 ## 
 
-The structure of the **RadToolBar**control is as follows:
+The structure of the **RadToolBar** control is as follows:
 
 
 >caption 
@@ -32,28 +30,28 @@ The toolbar is a container that holds different types of buttons. There are thre
 The buttons in the toolbar are contained in the **Items** collection of the **RadToolBar** object. The buttons in the drop-down list of a **RadToolBarDropDown** or **RadToolBarSplitButton** are contained in the **Buttons** collection of the drop-down button or split button:
 
 ````ASPNET
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook">
-	        <Items>
-	            <telerik:RadToolBarButton runat="server" Text="Reset" />
-	            <telerik:RadToolBarDropDown runat="server" Text="Add">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" Text="Row Above" />
-	                    <telerik:RadToolBarButton runat="server" Text="Row Below" />
-	                    <telerik:RadToolBarButton runat="server" IsSeparator="True" />
-	                    <telerik:RadToolBarButton runat="server" Text="Column Left" />
-	                    <telerik:RadToolBarButton runat="server" Text="Column Right" />
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	            <telerik:RadToolBarSplitButton runat="server" Text="Apply Color" EnableDefaultButton="False">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" Text="Black" />
-	                    <telerik:RadToolBarButton runat="server" Text="Red" />
-	                    <telerik:RadToolBarButton runat="server" Text="Green" />
-	                    <telerik:RadToolBarButton runat="server" Text="Blue" />
-	                </Buttons>
-	            </telerik:RadToolBarSplitButton>
-	        </Items>
-	    </telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook">
+    <Items>
+        <telerik:RadToolBarButton runat="server" Text="Reset" />
+        <telerik:RadToolBarDropDown runat="server" Text="Add">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" Text="Row Above" />
+                <telerik:RadToolBarButton runat="server" Text="Row Below" />
+                <telerik:RadToolBarButton runat="server" IsSeparator="True" />
+                <telerik:RadToolBarButton runat="server" Text="Column Left" />
+                <telerik:RadToolBarButton runat="server" Text="Column Right" />
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+        <telerik:RadToolBarSplitButton runat="server" Text="Apply Color" EnableDefaultButton="False">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" Text="Black" />
+                <telerik:RadToolBarButton runat="server" Text="Red" />
+                <telerik:RadToolBarButton runat="server" Text="Green" />
+                <telerik:RadToolBarButton runat="server" Text="Blue" />
+            </Buttons>
+        </telerik:RadToolBarSplitButton>
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

@@ -11,7 +11,6 @@ position: 5
 # HTML Structure
 
 
-
 ## Overview
 
 RadToolBar for ASP.NET AJAX introduces a completely different rendering than its predecessor. The drawback of gaining the semantic markup and much more flexible styling opportunities is the lack of ability to migrate a skin from earlier vesions - this guide is aimed to make this process easier by explaining the main points that should be taken into consideration when styling the RadToolBar.

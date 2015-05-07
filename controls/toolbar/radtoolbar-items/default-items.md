@@ -10,11 +10,9 @@ position: 5
 
 # Default Items
 
-
-
 ## 
 
-**RadToolBarSplitButton**combines the functionality of **RadToolBarButton** and **RadToolBarDropDown**. When the user clicks the button it can respond by generating the client-side **OnClientButtonClicking** and **OnClientButtonClicked** events and the server-side **ButtonClick** event. It can also display a drop-down list when the user clicks its drop-down arrow.
+**RadToolBarSplitButton** combines the functionality of **RadToolBarButton** and **RadToolBarDropDown**. When the user clicks the button it can respond by generating the client-side **OnClientButtonClicking** and **OnClientButtonClicked** events and the server-side **ButtonClick** event. It can also display a drop-down list when the user clicks its drop-down arrow.
 
 The "push button" behavior of the split button can operate independently of its drop-down list, or it can represent one of the buttons in the drop-down list (the default button).
 

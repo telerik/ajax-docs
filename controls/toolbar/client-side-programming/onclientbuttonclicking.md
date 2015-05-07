@@ -10,8 +10,6 @@ position: 11
 
 # OnClientButtonClicking
 
-
-
 ## 
 
 The **OnClientButtonClicking** client-side event occurs when the user clicks on a toolbar button, before the toolbar responds to the mouse click.
@@ -30,27 +28,26 @@ The event handler receives two parameters:
 
 You can use this event to pre-process an item click or to cancel the default response:
 
-````ASPNET
-	
-	    <script>
-	        function OnClientButtonClicking(sender, args) {
-	            args.set_cancel(true);
-	        }       
-	    </script>
-	
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
-	        <CollapseAnimation Duration="200" Type="OutQuint" />
-	        <Items>
-	            <telerik:RadToolBarButton Text="button1" runat="server">
-	            </telerik:RadToolBarButton>
-	            <telerik:RadToolBarDropDown Text="dropdown" runat="server">
-	                <Buttons>
-	                    <telerik:RadToolBarButton Text="Button2" runat="server">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	        </Items>
-	    </telerik:RadToolBar>
+````ASPNET	
+<script>
+    function OnClientButtonClicking(sender, args) {
+        args.set_cancel(true);
+    }       
+</script>
+
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicking="OnClientButtonClicking">
+    <CollapseAnimation Duration="200" Type="OutQuint" />
+    <Items>
+        <telerik:RadToolBarButton Text="button1" runat="server">
+        </telerik:RadToolBarButton>
+        <telerik:RadToolBarDropDown Text="dropdown" runat="server">
+            <Buttons>
+                <telerik:RadToolBarButton Text="Button2" runat="server">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

@@ -11,7 +11,6 @@ position: 1
 # Binding to Array or ArrayList 
 
 
-
 You can bind **RadToolBar** to an object-based data source such as **ObjectDataSource** or any class that implements the **IEnumerable** interface.
 
 ## Binding to an object that supports IEnumerable
@@ -31,52 +30,44 @@ To bind directly to a collection, you must bind the toolbar at runtime, using th
 The following example shows a toolbar bound to an **ArrayList**. The items in the list are simple strings, so the buttons map their **Text** property automatically to the strings in the list:
 
 
-
-````C#
-	    
-	    private ArrayList GenerateArrayList()
-	    {
-	        ArrayList itemsList = new ArrayList();
-	        itemsList.Add("One");
-	        itemsList.Add("Two");
-	        itemsList.Add("Three");
-	        return itemsList;
-	    }
-	    protected void Page_Load(object sender, EventArgs e)
-	    {
-	        if (!IsPostBack)
-	        {
-	            RadToolBar1.DataSource = GenerateArrayList();
-	            RadToolBar1.DataBind();
-	        }
-	    }
-	
+````C#	    
+private ArrayList GenerateArrayList()
+{
+    ArrayList itemsList = new ArrayList();
+    itemsList.Add("One");
+    itemsList.Add("Two");
+    itemsList.Add("Three");
+    return itemsList;
+}
+protected void Page_Load(object sender, EventArgs e)
+{
+    if (!IsPostBack)
+    {
+        RadToolBar1.DataSource = GenerateArrayList();
+        RadToolBar1.DataBind();
+    }
+}	
 ````
-````VB.NET
-	
-	    Private Function GenerateArrayList() As ArrayList
-	
-	        Dim itemsList As New ArrayList()
-	        itemsList.Add("One")
-	        itemsList.Add("Two")
-	        itemsList.Add("Three")
-	        Return itemsList
-	
-	    End Function 'GenerateArrayList
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-	
-	        If Not IsPostBack Then
-	            RadToolBar1.DataSource = GenerateArrayList()
-	            RadToolBar1.DataBind()
-	        End If
-	
-	    End Sub
-	
-	#End Region
-	End Class
-````
+````VB.NET	
+Private Function GenerateArrayList() As ArrayList
 
+    Dim itemsList As New ArrayList()
+    itemsList.Add("One")
+    itemsList.Add("Two")
+    itemsList.Add("Three")
+    Return itemsList
+
+End Function 'GenerateArrayList
+
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    If Not IsPostBack Then
+        RadToolBar1.DataSource = GenerateArrayList()
+        RadToolBar1.DataBind()
+    End If
+
+End Sub
+````
 
 
 # See Also

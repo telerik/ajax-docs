@@ -10,45 +10,41 @@ position: 0
 
 # Keyboard Support
 
-
-
 A critical requirement for software accessibility is keyboard support as a complete alternative to pointing devices (mouse, etc.). Keyboard support is comprised of access keys, keyboard navigation, and keyboard shortcuts. RadMenu seamlessly switches between mouse and keyboard navigation, just like in desktop applications.
 
-Using the __AccessKey__ property, you can associate an activation combination (access key) which moves focus to a particular button in the toolbar and enables keyboard navigation. When there are multiple tool bars on a given page, each of them may have a different activation combination.
+Using the **AccessKey** property, you can associate an activation combination (access key) which moves focus to a particular button in the toolbar and enables keyboard navigation. When there are multiple tool bars on a given page, each of them may have a different activation combination.
 
 ## Setting access keys
 
-__AccessKey__ is a property of the __RadToolBarItem__ class (the base class for __RadToolBarButton__, __RadToolBarDropDown__, and __RadToolBarSplitButton__). __AccessKey__ sets the keyboard shortcut that can be used to move focus to a button in the toolbar. The value of the __AccessKey__ property can only be a single character. When the user presses the [ALT] key in combination with the value specified by __AccessKey__, focus moves to the associated button. The user can then subsequently use the arrow keys for navigation. (See below.)
+**AccessKey** is a property of the **RadToolBarItem** class (the base class for **RadToolBarButton**, **RadToolBarDropDown**, and **RadToolBarSplitButton**). **AccessKey** sets the keyboard shortcut that can be used to move focus to a button in the toolbar. The value of the **AccessKey** property can only be a single character. When the user presses the [ALT] key in combination with the value specified by **AccessKey**, focus moves to the associated button. The user can then subsequently use the arrow keys for navigation. (See below.)
 
 >note In Opera, access keys work by pressing Shift+ESC, then pressing the assigned access key.
 >
 
 
-To set a keyboard shortcut to a menu item, simply set the __AccessKey__ property to the desired key:
+To set a keyboard shortcut to a menu item, simply set the **AccessKey** property to the desired key:
 
 ````ASPNET
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook" OnButtonClick="RadToolBar1_ButtonClick">
-	        <Items>
-	            <telerik:RadToolBarButton runat="server" Text="Exit" AccessKey="X" />
-	            <telerik:RadToolBarDropDown runat="server" Text="Open" AccessKey="O">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" AccessKey="B" Text="Browse">
-	                    </telerik:RadToolBarButton>
-	                    <telerik:RadToolBarButton runat="server" IsSeparator="True" Text="-">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	            <telerik:RadToolBarSplitButton runat="server" Text="Create New" AccessKey="N" DefaultButtonIndex="0">
-	                <Buttons>
-	                    <telerik:RadToolBarButton runat="server" Text="File" AccessKey="F" />
-	                    <telerik:RadToolBarButton runat="server" Text="Folder" AccessKey="D" />
-	                </Buttons>
-	            </telerik:RadToolBarSplitButton>
-	        </Items>
-	    </telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Skin="Outlook" OnButtonClick="RadToolBar1_ButtonClick">
+    <Items>
+        <telerik:RadToolBarButton runat="server" Text="Exit" AccessKey="X" />
+        <telerik:RadToolBarDropDown runat="server" Text="Open" AccessKey="O">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" AccessKey="B" Text="Browse">
+                </telerik:RadToolBarButton>
+                <telerik:RadToolBarButton runat="server" IsSeparator="True" Text="-">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+        <telerik:RadToolBarSplitButton runat="server" Text="Create New" AccessKey="N" DefaultButtonIndex="0">
+            <Buttons>
+                <telerik:RadToolBarButton runat="server" Text="File" AccessKey="F" />
+                <telerik:RadToolBarButton runat="server" Text="Folder" AccessKey="D" />
+            </Buttons>
+        </telerik:RadToolBarSplitButton>
+    </Items>
+</telerik:RadToolBar>
 ````
-
-
 
 ## Keyboard navigation
 

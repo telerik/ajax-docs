@@ -10,8 +10,6 @@ position: 13
 
 # OnClientDropDownClosing
 
-
-
 ## 
 
 The **OnClientDropDownClosing** client-side event occurs when the drop-down is about to close, hiding its child buttons.
@@ -30,29 +28,28 @@ The event handler receives two parameters:
 
 You can use this event to respond to an action before the buttons list of the drop-down closes:
 
-````ASPNET
-	
-	    <script>   
-	    function OnClientDropDownClosing(sender, args)   
-	    {
-	        //this will prevent the dropdown from closing
-	        args.set_cancel(true);
-	    }       
-	     </script>
-	
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownClosing="OnClientDropDownClosing">
-	        <CollapseAnimation Duration="200" Type="OutQuint" />
-	        <Items>
-	            <telerik:RadToolBarButton Text="button1" runat="server">
-	            </telerik:RadToolBarButton>
-	            <telerik:RadToolBarDropDown Text="dropdown" runat="server">
-	                <Buttons>
-	                    <telerik:RadToolBarButton Text="Button2" runat="server">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	        </Items>
-	    </telerik:RadToolBar>
+````ASPNET	
+<script>   
+	function OnClientDropDownClosing(sender, args)   
+	{
+	    //this will prevent the dropdown from closing
+	    args.set_cancel(true);
+	}       
+</script>
+
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientDropDownClosing="OnClientDropDownClosing">
+    <CollapseAnimation Duration="200" Type="OutQuint" />
+    <Items>
+        <telerik:RadToolBarButton Text="button1" runat="server">
+        </telerik:RadToolBarButton>
+        <telerik:RadToolBarDropDown Text="dropdown" runat="server">
+            <Buttons>
+                <telerik:RadToolBarButton Text="Button2" runat="server">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

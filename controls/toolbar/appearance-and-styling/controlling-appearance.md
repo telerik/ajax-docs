@@ -10,8 +10,6 @@ position: 0
 
 # Controlling Appearance
 
-
-
 ## 
 
 There are a number of ways you can customize the look & feel of your **RadToolBar** control:

@@ -10,8 +10,6 @@ position: 10
 
 # OnClientButtonClicked
 
-
-
 ## 
 
 The **OnClientButtonClicked** client-side event occurs when the user clicks on a toolbar button, after the toolbar responds to the mouse click.
@@ -28,28 +26,27 @@ The event handler receives two parameters:
 
 You can use this event to respond when the user clicks on a toolbar button:
 
-````ASPNET
-	
-	    <script>
-	        function OnClientButtonClicked(sender, args) {
-	            var button = args.get_item();
-	            alert(button.get_text());
-	        }       
-	    </script>
-	
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicked="OnClientButtonClicked">
-	        <CollapseAnimation Duration="200" Type="OutQuint" />
-	        <Items>
-	            <telerik:RadToolBarButton Text="button1" runat="server">
-	            </telerik:RadToolBarButton>
-	            <telerik:RadToolBarDropDown Text="dropdown" runat="server">
-	                <Buttons>
-	                    <telerik:RadToolBarButton Text="Button2" runat="server">
-	                    </telerik:RadToolBarButton>
-	                </Buttons>
-	            </telerik:RadToolBarDropDown>
-	        </Items>
-	    </telerik:RadToolBar>
+````ASPNET	
+<script>
+    function OnClientButtonClicked(sender, args) {
+        var button = args.get_item();
+        alert(button.get_text());
+    }       
+</script>
+
+<telerik:RadToolBar ID="RadToolBar1" runat="server" Orientation="Horizontal" OnClientButtonClicked="OnClientButtonClicked">
+    <CollapseAnimation Duration="200" Type="OutQuint" />
+    <Items>
+        <telerik:RadToolBarButton Text="button1" runat="server">
+        </telerik:RadToolBarButton>
+        <telerik:RadToolBarDropDown Text="dropdown" runat="server">
+            <Buttons>
+                <telerik:RadToolBarButton Text="Button2" runat="server">
+                </telerik:RadToolBarButton>
+            </Buttons>
+        </telerik:RadToolBarDropDown>
+    </Items>
+</telerik:RadToolBar>
 ````
 
 

@@ -14,7 +14,7 @@ position: 1
 
 The **RadToolBar Item Editor** lets you populate your toolbar with buttons. There are two ways to bring up the RadToolBar Item Editor:
 
-* From the **RadToolBar**[ Smart Tag ](5BB964CF-AA36-443D-824B-60964E411B25), click on the **Build RadToolBar** link.
+* From the **RadToolBar** [ Smart Tag ](5BB964CF-AA36-443D-824B-60964E411B25), click on the **Build RadToolBar** link.
 
 * Right-click on the **RadToolBar** component and select **Build RadToolBar** from its context menu.
 
@@ -49,7 +49,7 @@ When a button is selected, the properties pane on the right of the **RadToolBar 
 
 * **Enabled** controls whether the button is initially enabled or disabled.
 
-* **CssClass**, **OuterCssClass**, **FocusedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ClickedCssClass**[control the appearance of the button]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}) when it is in its normal state, has focus, is disabled, is under the mouse, and is clicked, respectively.(**RadToolBarButton** has an additional property, **CheckedCssClass**, for when it is checked).
+* **CssClass**, **OuterCssClass**, **FocusedCssClass**, **DisabledCssClass**, **HoveredCssClass**, and **ClickedCssClass** [control the appearance of the button]({%slug toolbar/appearance-and-styling/setting--the-css-class-of-buttons%}) when it is in its normal state, has focus, is disabled, is under the mouse, and is clicked, respectively.(**RadToolBarButton** has an additional property, **CheckedCssClass**, for when it is checked).
 
 * **ImageUrl**, **FocusedImageUrl**, **DisabledImageUrl**, **HoveredImageUrl**, and **ClickedImageUrl** let you [add an image]({%slug toolbar/appearance-and-styling/adding-images-to-buttons%}) that appears next to the button text when it is in its normal state, focused, disabled, under the mouse, or clicked, respectively. (**RadToolBarButton** has an additional property, **CheckedImageUrl**, for supplying an image when the button is checked.)
 
@@ -67,9 +67,9 @@ In addition to these properties, which are common to all types of buttons, **Rad
 
 * **EnableDefaultButton** and **DefaultButtonIndex** let you assign one of the buttons in its drop-down list as the [default button]({%slug toolbar/radtoolbar-items/default-items%}) of a **RadToolBarSplitButton**.
 
-* **IsSeparator**lets you convert a **RadToolBarButton** into a [separator]({%slug toolbar/appearance-and-styling/separators%}).
+* **IsSeparator** lets you convert a **RadToolBarButton** into a [separator]({%slug toolbar/appearance-and-styling/separators%}).
 
-* **CheckOnClick** lets you allow **RadToolBarButton** to support a [checked state]({%slug toolbar/radtoolbar-items/two-state-buttons%}). When **RadToolBarButton** supports a checked state, **Checked** specifies the initial checked state, and **AllowSelfUnCheck** specifies whether users can uncheck the button by clicking. **Group**lets you associate the **RadToolBarButton** controls with a group, so that they function like a radio group.
+* **CheckOnClick** lets you allow **RadToolBarButton** to support a [checked state]({%slug toolbar/radtoolbar-items/two-state-buttons%}). When **RadToolBarButton** supports a checked state, **Checked** specifies the initial checked state, and **AllowSelfUnCheck** specifies whether users can uncheck the button by clicking. **Group** lets you associate the **RadToolBarButton** controls with a group, so that they function like a radio group.
 
 # See Also
 

@@ -10,8 +10,6 @@ position: 7
 
 # CSS Skin File Selectors
 
-
-
 ## 
 
 The following table lists the CSS selectors and descriptions for **RadToolBar** style sheets.

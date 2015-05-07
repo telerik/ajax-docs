@@ -10,8 +10,6 @@ position: 2
 
 # ItemCreated
 
-
-
 ## 
 
 The **ItemCreated** event occurs for each new item that is added to the **Items** collection of the toolbar.
@@ -25,25 +23,19 @@ The **ItemCreated** event handler receives two arguments:
 Use the **ItemCreated** event handler to make changes to items as they are added to the toolbar:
 
 
-
-````C#
-	
-	    protected void RadToolBar1_ItemCreated(object sender, RadToolBarEventArgs e) 
-	    { 
-	        e.Item.Text = "Some Text"; 
-	    }
-	
+````C#	
+protected void RadToolBar1_ItemCreated(object sender, RadToolBarEventArgs e) 
+{ 
+    e.Item.Text = "Some Text"; 
+}	
 ````
-````VB.NET
-	
-	    Protected Sub RadToolBar1_ItemCreated(ByVal sender As Object, ByVal e As RadToolBarEventArgs)
-	
-	        e.Item.Text = "Some Text"
-	
-	    End Sub
-	
-````
+````VB.NET	
+Protected Sub RadToolBar1_ItemCreated(ByVal sender As Object, ByVal e As RadToolBarEventArgs)
 
+    e.Item.Text = "Some Text"
+
+End Sub	
+````
 
 # See Also
 

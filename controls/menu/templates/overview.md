@@ -1,5 +1,5 @@
 ---
-title: Templates Overview
+title: Overview
 page_title: Overview | RadMenu for ASP.NET AJAX Documentation
 description: Overview
 slug: menu/templates/overview
@@ -9,8 +9,6 @@ position: 0
 ---
 
 # Templates Overview
-
-
 
 ## 
 

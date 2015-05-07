@@ -10,8 +10,6 @@ position: 4
 
 # Accessing Controls Inside Templates
 
-
-
 ## 
 
 If your **RadToolBar** has items with templates that have embedded controls, you may want to access the properties of those embedded controls. To get a reference to the embedded control, locate the **RadToolBarItem** that has the template, and use its **FindControl** method.
@@ -19,68 +17,57 @@ If your **RadToolBar** has items with templates that have embedded controls, you
 For example, consider the following, very simple, toolbar:
 
 ````ASPNET
-	    <telerik:RadToolBar ID="RadToolBar1" runat="server">
-	        <Items>
-	            <telerik:RadToolBarButton runat="server" Text="Button 1" Value="TextBox1">
-	                <ItemTemplate>
-	                    <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval(Container, "Value") %>' />
-	                </ItemTemplate>
-	            </telerik:RadToolBarButton>
-	            <telerik:RadToolBarButton runat="server" Text="Button 2" />
-	        </Items>
-	    </telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolBar1" runat="server">
+    <Items>
+        <telerik:RadToolBarButton runat="server" Text="Button 1" Value="TextBox1">
+            <ItemTemplate>
+                <asp:TextBox ID="TextBox1" runat="server" Text='<%# DataBinder.Eval(Container, "Value") %>' />
+            </ItemTemplate>
+        </telerik:RadToolBarButton>
+        <telerik:RadToolBarButton runat="server" Text="Button 2" />
+    </Items>
+</telerik:RadToolBar>
 ````
-
-
 
 To access the TextBox in the item template, use the following code:
 
-
-
-````C#
-	     
-	    RadToolBarItem textItem = RadToolBar1.FindItemByText("Button 1");
-	    TextBox textBox = (TextBox) textItem.FindControl("TextBox1");
-				
+````C#	     
+RadToolBarItem textItem = RadToolBar1.FindItemByText("Button 1");
+TextBox textBox = (TextBox) textItem.FindControl("TextBox1");				
 ````
-````VB.NET
-	
-	    Dim textItem As RadToolBarItem = RadToolBar1.FindItemByText("Button 1")
-	    Dim textBox As TextBox = CType(textItem.FindControl("TextBox1"), TextBox)
-	
+````VB.NET	
+Dim textItem As RadToolBarItem = RadToolBar1.FindItemByText("Button 1")
+Dim textBox As TextBox = CType(textItem.FindControl("TextBox1"), TextBox)	
 ````
-
 
 You can also acces different controls place in an Item of the RadToolBar control from the **client-side** For example having the following code you can get to the RadButton by finding the RadToolbarButton first:
 
 ````JavaScript
-	    <script type="text/javascript">
-	    	function OnClientLoad() {
-					var toolBar = $find("<%= RadToolbar1.ClientID %>");
-					var toolbarbutton = toolBar.findItemByValue("Paste")
-					var radbutton = toolbarbutton.findControl("Button1"); //for RadControls
-					alert(radbutton);
-					var button1 = $telerik.findElement(toolbarbutton.get_element(), ("Print")); //to find a generic HTML element 
-					alert(button1);
-				}
-	    </script>
+<script type="text/javascript">
+function OnClientLoad() {
+	var toolBar = $find("<%= RadToolbar1.ClientID %>");
+	var toolbarbutton = toolBar.findItemByValue("Paste")
+	var radbutton = toolbarbutton.findControl("Button1"); //for RadControls
+	alert(radbutton);
+	var button1 = $telerik.findElement(toolbarbutton.get_element(), ("Print")); //to find a generic HTML element 
+	alert(button1);
+}
+</script>
 ````
 
-
-
 ````ASPNET
-	      <telerik:RadToolBar ID="RadToolbar1" runat="server" OnClientLoad="OnClientLoad">
-				<Items>
-					<telerik:RadToolBarButton Text="Copy" Value="Copy">
-					</telerik:RadToolBarButton>
-					<telerik:RadToolBarButton Value="Paste">
-						<ItemTemplate>
-							<telerik:RadButton ID="Button1" runat="server" Text="Button1" />
-							<asp:Button ID="Print" Text="Print" runat="server" />
-						</ItemTemplate>
-					</telerik:RadToolBarButton>
-				</Items>
-			</telerik:RadToolBar>
+<telerik:RadToolBar ID="RadToolbar1" runat="server" OnClientLoad="OnClientLoad">
+	<Items>
+		<telerik:RadToolBarButton Text="Copy" Value="Copy">
+		</telerik:RadToolBarButton>
+		<telerik:RadToolBarButton Value="Paste">
+			<ItemTemplate>
+				<telerik:RadButton ID="Button1" runat="server" Text="Button1" />
+				<asp:Button ID="Print" Text="Print" runat="server" />
+			</ItemTemplate>
+		</telerik:RadToolBarButton>
+	</Items>
+</telerik:RadToolBar>
 ````
 
 
