@@ -20,12 +20,12 @@ The **OnClientToggleListToggled** client-side event occurs after a toggle button
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_button()** returns a reference of the toggle button which is clicked.
+	* **get_button()** returns a reference of the toggle button which is clicked.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

@@ -22,4 +22,4 @@ The event handler receives two parameters:
 
 1. An **eventArgs** parameter containing the following methods:
 
-* **get_item()**
+	* **get_item()**

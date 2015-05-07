@@ -20,6 +20,6 @@ The **OnClientColorPickerColorChanged** client-side event occurs when the user h
 
 1. An **eventArgs** parameter containing the following methods:
 
-* get_colorPicker()
+	* get_colorPicker()
 
-* get_value()
+	* get_value()

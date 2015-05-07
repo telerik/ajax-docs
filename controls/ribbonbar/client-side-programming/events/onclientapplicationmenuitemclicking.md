@@ -22,18 +22,18 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_applicationMenu()** returns a reference to the ribbonbar application menu.
+	* **get_applicationMenu()** returns a reference to the ribbonbar application menu.
 
-* **get_item()** returns a reference to the clicked application menu item.
+	* **get_item()** returns a reference to the clicked application menu item.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
-* **set_cancel()** lets you cancel the event and prevent changing the selected tab.
+	* **set_cancel()** lets you cancel the event and prevent changing the selected tab.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
  * [Application Menu]({%slug ribbonbar/radribbonbar-items/application-menu%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

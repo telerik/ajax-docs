@@ -20,10 +20,10 @@ The **OnClientNumericTextBoxValueChanging** client-side event occurs when the us
 
 1. An **eventArgs** parameter containing the following methods:
 
-* get_numericTextBox()
+	* get_numericTextBox()
 
-* get_value()
+	* get_value()
 
-* get_cancel()
+	* get_cancel()
 
-* set_cancel()
+	* set_cancel()

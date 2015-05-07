@@ -12,7 +12,7 @@ position: 6
 
 
 
->caution  **RadUpload** has been replaced by[RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the[ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html)or the[control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it[in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
+>caution  **RadUpload** has been replaced by [RadAsyncUpload](http://demos.telerik.com/aspnet-ajax/asyncupload/examples/overview/defaultcs.aspx), Telerik’s next-generation ASP.NET upload component. If you are considering Telerik’s Upload control for new development, check out the [ documentation of RadAsyncUpload ](http://www.telerik.com/help/aspnet-ajax/asyncupload-overview.html) or the [control’s product page](http://www.telerik.com/products/aspnet-ajax/asyncupload.aspx). If you are already using **RadUpload** in your projects, you may be interested in reading how easy the transition to RadAsyncUpload is and how you can benefit from it [in this blog post](http://blogs.telerik.com/blogs/12-12-05/the-case-of-telerik-s-new-old-asp.net-ajax-upload-control-radasyncupload). The official support for **RadUpload** has been discontinued in June 2013 (Q2’13), although it is still be available in the suite. We deeply believe that **RadAsyncUpload** can better serve your upload needs and we kindly ask you to transition to it to make sure you take advantage of its support and the new features we constantly add to it.
 >
 
 
@@ -22,13 +22,13 @@ To migrate a Web application from **RadUpload** "Classic" to **RadUpload** for A
 
 1. If your web application is not using ASP.NET AJAX you need to configure it to do so. Detailed instructions can be found at [http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx](http://ajax.asp.net/docs/ConfiguringASPNETAJAX.aspx) (Look for the topic called "Adding ASP.NET AJAX Configuration Elements to an Existing Web Site".)
 
-1. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls for ASP.NET AJAX.<asp:ScriptManager ID="ScriptManager1" runat="server" />If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
+1. Add a ScriptManager control to the page (or user control) in which you want to add any RadControls for ASP.NET AJAX. `<asp:ScriptManager ID="ScriptManager1" runat="server" />` If your page is a content page you can add the ScriptManager control in your master page. For further details about the ScriptManager control, see [http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx](http://ajax.asp.net/docs/overview/ScriptManagerOverview.aspx).
 
 1. Drag and drop a control from the RadControls for ASP.NET AJAX package or manually copy the Telerik.Web.UI.dll in the Bin folder.
 
 1. Replace the classic RadUpload directive<%@ Register Namespace="Telerik.WebControls" TagPrefix="radu" Assembly="RadUpload.Net2"%>with the new one of RadUpload for ASP.NET AJAX:<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 
-1. Replace the classic RadUpload's declaration:<radu:radupload id="RadUpload1" runat="server"/>with the new RadUpload for ASP.NET AJAX declaration:<telerik:radupload id="RadUpload1" runat="server"/>
+1. Replace the classic RadUpload's declaration: `<radu:radupload id="RadUpload1" runat="server"/>` with the new RadUpload for ASP.NET AJAX declaration: `<telerik:radupload id="RadUpload1" runat="server"/>`
 
 1. Change the registration of the [RadUploadHttpModule and RadUploadProgressHandler](FAFFEB65-66D2-4CFE-8F40-E4BA471540A9) in the Web.config file if you have registered them before.
 
@@ -42,7 +42,7 @@ There are no changes in the names in the server-side API of the control.
 
 **Removed methods:**
 
-* **MoveTo()**method has been removed.
+* **MoveTo()** method has been removed.
 
 ## Client-side API changes
 
@@ -72,7 +72,7 @@ To cancel an event (which can be cancelled) you now call "set_cancel(true)" on t
 
 ````JavaScript
 	
-	        function ClientSubmitting(sender, eventArgs) { eventArgs.set_cancel(true); }
+function ClientSubmitting(sender, eventArgs) { eventArgs.set_cancel(true); }
 	
 ````
 
@@ -135,6 +135,6 @@ The following table lists the changes to the methods of the **RadProgressArea** 
 
 # See Also
 
- * [Overview]({%slug upload/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug upload/client-side-programming/overview%})
 
  * [RadUpload Object]({%slug upload/client-side-programming/radupload-object%})[](F07E2354-2B45-479D-983B-0CF4A70D4446)[](E9863C1B-4C24-456F-8640-BA6A83203777)

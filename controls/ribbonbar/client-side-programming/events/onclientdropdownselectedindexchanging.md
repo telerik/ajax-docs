@@ -20,10 +20,10 @@ The **OnClientDropDownSelectedIndexChanging** client-side event occurs when the 
 
 1. An **eventArgs** parameter containing the following methods:
 
-* get_dropDown()
+	* get_dropDown()
 
-* get_index()
+	* get_index()
 
-* get_cance()
+	* get_cance()
 
-* set_cancel()
+	* set_cancel()

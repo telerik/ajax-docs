@@ -22,16 +22,16 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_tab()** returns a reference to the ribbonbar tab which is about to be selected.
+	* **get_tab()** returns a reference to the ribbonbar tab which is about to be selected.
 
-* **get_previouslySelectedTab()** returns a reference to the currently selected tab.
+	* **get_previouslySelectedTab()** returns a reference to the currently selected tab.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
-* **set_cancel()** lets you cancel the event and prevent changing the selected tab.
+	* **set_cancel()** lets you cancel the event and prevent changing the selected tab.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

@@ -20,10 +20,10 @@ The **OnClientComboBoxSelectedIndexChanging** client-side event occurs when the 
 
 1. An **eventArgs** parameter containing the following methods:
 
-* **get_comboBox()**
+	* **get_comboBox()**
 
-* **get_cancel()**
+	* **get_cancel()**
 
-* **set_cancel()**
+	* **set_cancel()**
 
-* **get_index()**
+	* **get_index()**

@@ -22,10 +22,10 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_button()** returns a reference to the ribbonbar split button that was clicked. In this case it is **RibbonBarSplitButton**.
+	* **get_button()** returns a reference to the ribbonbar split button that was clicked. In this case it is **RibbonBarSplitButton**.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

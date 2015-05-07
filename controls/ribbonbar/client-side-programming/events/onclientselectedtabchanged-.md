@@ -22,14 +22,14 @@ The event handler receives two parameters:
 
 1. An eventArgs parameter containing the following methods:
 
-* **get_tab()** returns a reference to the ribbonbar tab which is the new selected tab.
+	* **get_tab()** returns a reference to the ribbonbar tab which is the new selected tab.
 
-* **get_previouslySelectedTab()** returns a reference to the previously selected tab of the ribbonbar.
+	* **get_previouslySelectedTab()** returns a reference to the previously selected tab of the ribbonbar.
 
-* **get_domEvent()** returns the DOM event object.
+	* **get_domEvent()** returns the DOM event object.
 
 # See Also
 
- * [Overview]({%slug ribbonbar/client-side-programming/overview%})
+ * [Client-side Programming Overview]({%slug ribbonbar/client-side-programming/overview%})
 
- * [Overview]({%slug ribbonbar/client-side-programming/events/overview%})
+ * [Client-side Events Overview]({%slug ribbonbar/client-side-programming/events/overview%})

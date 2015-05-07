@@ -20,6 +20,6 @@ The **OnClientComboBoxTextChanged** client-side event occurs when the user has a
 
 1. An **eventArgs** parameter containing the following methods:
 
-* get_comboBox()
+	* get_comboBox()
 
-* get_text()
+	* get_text()
