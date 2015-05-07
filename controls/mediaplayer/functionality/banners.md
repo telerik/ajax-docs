@@ -16,24 +16,25 @@ position: 1
 
 The Banners are the perfect tool in cases when you want to display your company logo, a helpful tip or any related link while playing your media file.
 
-**For a given amount of time, the user can see and use the Banner as a navigation to external sources.**![Media Player Banners 1](images/mediaplayer-banners1.png)
+**For a given amount of time, the user can see and use the Banner as a navigation to external sources.**
+![Media Player Banners 1](images/mediaplayer-banners1.png)
 
 ## Defining the Banners
 
 You can define your own custom Banners by adding **MediaPlayerBanner** elements within the **RadMediaPlayer.Banners** collection.
 
-````ASPNET
-	    <telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server" 
-	        Title="Take a Tour of the Telerik Platform"
-	        Height="360px" Width="640px"                
-	        Source="http://www.youtube.com/watch?v=rLtTuFbuf1c">
-	        <Banners>
-	           <telerik:MediaPlayerBanner StartTime="5" EndTime="30" ImageUrl="~/banner.png"                 
-	                ShowCloseButton="true"
-	                AlternateText="Telerik UI Controls" 
-	                NavigateURL="www.telerik.com/products/aspnet-ajax.aspx" />
-	       </Banners>
-	     </telerik:RadMediaPlayer>
+````ASP.NET
+<telerik:RadMediaPlayer ID="RadMediaPlayer1" runat="server"
+   Title="Take a Tour of the Telerik Platform"
+   Height="360px" Width="640px"
+   Source="http://www.youtube.com/watch?v=rLtTuFbuf1c">
+   <Banners>
+      <telerik:MediaPlayerBanner StartTime="5" EndTime="30" ImageUrl="~/banner.png"
+           ShowCloseButton="true"
+           AlternateText="Telerik UI Controls"
+           NavigateURL="www.telerik.com/products/aspnet-ajax.aspx" />
+  </Banners>
+</telerik:RadMediaPlayer>
 ````
 
 
@@ -64,20 +65,20 @@ You can customize the Banner per your requirements inside any declared **MediaPl
 
 For altering and customizing the position and appearance of the Banner, you can make avail of the **rmpBanner** class.
 
-````ASPNET
-	    <style type="text/css">
-	        .rmpBanner {
-	            margin-left: 30%;
-	        }
-	            .rmpBanner img {
-	                width: 400px;
-	            }
-	    </style>
+````ASP.NET
+<style type="text/css">
+    .rmpBanner {
+        margin-left: 30%;
+    }
+        .rmpBanner img {
+            width: 400px;
+        }
+</style>
 ````
 
 
 
-# See Also
+## See Also
 
  * [Overview]({%slug mediaplayer/overview%})
 

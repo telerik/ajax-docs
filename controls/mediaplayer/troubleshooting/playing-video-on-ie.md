@@ -16,7 +16,8 @@ position: 0
 
 While testing your **RadMediaPlayer** application on Internet Explorer, you can come across the following challenge.
 
-**This video plays perfectly well in other browsers but causes an exception on IE.**![Media Player Playing Video on IE 1](images/mediaplayer-playing-video-on-ie1.png)
+**This video plays perfectly well in other browsers but causes an exception on IE.**
+![Media Player Playing Video on IE 1](images/mediaplayer-playing-video-on-ie1.png)
 
 This problem is a general browser behavior and not Telerik specific. You will face the same problem with the standard video tag provided in [this article](http://www.w3schools.com/html/html5_video.asp).
 
@@ -28,9 +29,10 @@ Most probably, you are using **Visual Studio Development Server** to run your we
 
 The good news is that this issue is nothing serious and the error will not arise if you host and run the site on IIS manager. Alternatively, you can run it by right clicking on the project and select **Use IIS Express**.
 
-**On the context menu of your project there is an option for selecting the hosting environment.**![Media Player Playing Video on IE 2](images/mediaplayer-playing-video-on-ie2.png)
+**On the context menu of your project there is an option for selecting the hosting environment.**
+![Media Player Playing Video on IE 2](images/mediaplayer-playing-video-on-ie2.png)
 
-# See Also
+## See Also
 
  * [Overview]({%slug mediaplayer/overview%})
 

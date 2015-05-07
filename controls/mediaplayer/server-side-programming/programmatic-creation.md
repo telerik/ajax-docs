@@ -19,62 +19,62 @@ In some scenarios it is required to create the **RadMediaPlayer** control progra
 
 
 ````C#
-	    protected void Page_Init(object sender, EventArgs e)
-	    {
-	        BuildPlayer();
-	    }
-	    private void BuildPlayer()
-	    {
-	        RadMediaPlayer player = new RadMediaPlayer()
-	            {
-	                ID = "RadMediaPlayer1",
-	                Height = Unit.Pixel(360),
-	                Width = Unit.Pixel(640),
-	                Skin = "Metro",
-	                AutoPlay = true,
-	                Title = "Video 1",
-	                Poster = "~/VideoPosters/poster1.jpg",
-	                Source = "~/Video/video1.mp4"
-	            };
-	
-	        player.Load += (s, a) =>
-	        {
-	            player.TitleBar.ShareButton.Visible = false;
-	            player.ToolBar.HDButton.Visible = false;
-	        };
-	
-	        Form.Controls.Add(player);
-	    }
+protected void Page_Init(object sender, EventArgs e)
+{
+    BuildPlayer();
+}
+private void BuildPlayer()
+{
+    RadMediaPlayer player = new RadMediaPlayer()
+        {
+            ID = "RadMediaPlayer1",
+            Height = Unit.Pixel(360),
+            Width = Unit.Pixel(640),
+            Skin = "Metro",
+            AutoPlay = true,
+            Title = "Video 1",
+            Poster = "~/VideoPosters/poster1.jpg",
+            Source = "~/Video/video1.mp4"
+        };
+
+    player.Load += (s, a) =>
+    {
+        player.TitleBar.ShareButton.Visible = false;
+        player.ToolBar.HDButton.Visible = false;
+    };
+
+    Form.Controls.Add(player);
+}
 ````
 ````VB
-	    Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
-	        BuildPlayer()
-	    End Sub
-	    Private Sub BuildPlayer()
-	        Dim player As New RadMediaPlayer() With {
-	            .ID = "RadMediaPlayer1",
-	            .Height = Unit.Pixel(360),
-	            .Width = Unit.Pixel(640),
-	            .Skin = "Metro",
-	            .AutoPlay = True,
-	            .Title = "Video 1",
-	            .Poster = "~/VideoPosters/poster1.jpg",
-	            .Source = "~/Video/video1.mp4"
-	        }
-	
-	        AddHandler player.Load, Sub()
-	                                    player.TitleBar.ShareButton.Visible = False
-	                                    player.ToolBar.HDButton.Visible = False
-	                                End Sub
-	
-	        Form.Controls.Add(player)
-	    End Sub
+Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
+    BuildPlayer()
+End Sub
+Private Sub BuildPlayer()
+    Dim player As New RadMediaPlayer() With {
+        .ID = "RadMediaPlayer1",
+        .Height = Unit.Pixel(360),
+        .Width = Unit.Pixel(640),
+        .Skin = "Metro",
+        .AutoPlay = True,
+        .Title = "Video 1",
+        .Poster = "~/VideoPosters/poster1.jpg",
+        .Source = "~/Video/video1.mp4"
+    }
+
+    AddHandler player.Load, Sub()
+                                player.TitleBar.ShareButton.Visible = False
+                                player.ToolBar.HDButton.Visible = False
+                            End Sub
+
+    Form.Controls.Add(player)
+End Sub
 ````
 
 
 For creating the Playlist feature dynamicallyand to examine a bit more advanced scenario, you can check the [Programmatic Creation Code-Library](http://www.telerik.com/support/code-library/programmatic-creation-and-configuration-of-the-media-player-control).
 
-# See Also
+## See Also
 
  * [Overview]({%slug mediaplayer/overview%})
 

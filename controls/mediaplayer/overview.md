@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: RadMediaPlayer Overview | UI for ASP.NET AJAX Documentation
-description: Overview
+description: Telerik ASP.NET Video and Audio Player Overview
 slug: mediaplayer/overview
 tags: overview
 published: True
@@ -12,7 +12,7 @@ position: 0
 
 
 
-##
+## 
 
 Q3 2013 release of UI for ASP.NET AJAX introduces the highly requested RadMediaPlayer - a video/audio player supporting HTML5 media formats and offering tight integration with media providers, such as YouTube.
 
@@ -21,32 +21,26 @@ RadMediaPlayer uses the build-in HTML5 `<video>` and `<audio>` element functiona
 For older browsers which don't support HTML5 natively, Internet Explorer 8 and 7 in particular, the player provides a Flash fallback method to play the video or audio file by rendering a Flash object.
 ![Media-Player-Overview-Image](images/mediaplayer-overview-image.png)
 
-__Key Features__
+**Key Features**
 
 
 
-* __Play HTML5 video__
+* **Play HTML5 video**
 
-* __Play YouTube video__
+* **Play YouTube video**
 
-* __Social share control in the title bar for quickly sharing the media file on Facebook, twitter, Google +, etc.__
+* **Social share control in the title bar for quickly sharing the media file on Facebook, twitter, Google +, etc.**
 
-* __Play audio__
+* **Play audio**
 
-* __Elegant Skins__
+* **Elegant Skins**
 
-* __Timeline slider with buffer indicator allowing users to navigate the video__
+* **Timeline slider with buffer indicator allowing users to navigate the video**
 
-* __HD quality media option__
+* **HD quality media option**
 
-* __Title bar__
+* **Title bar**
 
-* __Volume control and Full Screen button__
+* **Volume control and Full Screen button**
 
 RadMediaPlayer will be further improved with advanced new features, such as buffering overlay animation, in-built playlist, etc.
-
-# See Also
-
- * [See all features of Telerik’s ASP.NET Audio and Video Player](http://www.telerik.com/products/aspnet-ajax/media-video-player.aspx)
-
- * [See the overview demo of Telerik’s ASP.NET Audio and Video Player](http://demos.telerik.com/aspnet-ajax/media-player/examples/overview/defaultcs.aspx)

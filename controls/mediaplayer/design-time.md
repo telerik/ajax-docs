@@ -12,7 +12,8 @@ position: 2
 
 
 
-The **RadMediaPlayer** designer provides a convenient **Smart Tag** which allows easy access to frequently needed tasks. You can display it by right clicking on the control in the design window, and choosing **Show Smart Tag** from its context menu, or by simply clicking on the arrow button on top-right corner of the control.![Media-Player-Design-Time1](images/mediaplayer-designtime1.png)
+The **RadMediaPlayer** designer provides a convenient **Smart Tag** which allows easy access to frequently needed tasks. You can display it by right clicking on the control in the design window, and choosing **Show Smart Tag** from its context menu, or by simply clicking on the arrow button on top-right corner of the control.
+![Media-Player-Design-Time1](images/mediaplayer-designtime1.png)
 
 The **RadMediaPlayer** Smart Tag lets you perform the following:
 
@@ -48,6 +49,7 @@ Links navigate you directly to **RadMediaPlayer** examples, help, or Code Librar
 
 ## Edit Sources
 
-The **Edit Sources** link brings up the **MediaPlayerSource Collection Editor** which provides a straightforward and effortless way to add or remove sources to the player.![Media-Player-Design-Time2](images/mediaplayer-designtime2.png)
+The **Edit Sources** link brings up the **MediaPlayerSource Collection Editor** which provides a straightforward and effortless way to add or remove sources to the player.
+![Media-Player-Design-Time2](images/mediaplayer-designtime2.png)
 
 You can refer to the [Getting Started]({%slug mediaplayer/getting-started%}) topic for an introduction sample with the designer.
